@@ -2,7 +2,7 @@
 
 The landing page has one job: make the visitor feel *seen* within five seconds, then convert that recognition into the free diagnostic. It is a narrative page (problem → truth → mechanism → proof → invitation), not a feature brochure.
 
-A working prototype implementing this document lives at [`prototype/landing.html`](../prototype/landing.html).
+> **Current prototype: "The Ascent."** The live prototype at [`prototype/landing.html`](../prototype/landing.html) implements this narrative as a cinematic, scroll-driven **mountain expedition**: a generative Canvas scene (parallax ridgelines, fog, snowstorm, starlit campfire, sunrise summit) whose light and weather progress with scroll through six chapters — The Call to Climb → Preparation → The Climb → Basecamp → The Summit → The Range Beyond — with an altitude rail tracking the ascent. The section-by-section copy below remains the canonical *message architecture*; the Ascent re-voices it in expedition language (map / gear / rope team / basecamp / summit). Visual slots are designed so real cinematic footage can replace the generative scene at the same beats when brand film assets exist.
 
 **Primary CTA everywhere:** `Get your free Career Map` (the diagnostic). Secondary: `For employers`.
 
