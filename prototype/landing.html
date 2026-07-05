@@ -87,15 +87,60 @@
   #prep .frame{--grade:rgba(16,20,30,.6)}
   #climb .frame{--grade:rgba(7,9,14,.72)}
   /* footage is graded dark — text over it stays light in both themes */
-  .has-video .content{--text:#F5EFE6;--muted:#C7D0DB;--accent-text:#F5A623;color:var(--text);
-      text-shadow:0 1px 22px rgba(0,0,0,.5)}
-  .has-video .card{--card-border:rgba(245,239,230,.16);background:rgba(7,13,24,.56);text-shadow:none}
+  .has-video .content{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623;color:var(--text);
+      text-shadow:0 1px 3px rgba(0,0,0,.55),0 2px 26px rgba(0,0,0,.55)}
+  .has-video .card{--card-border:rgba(245,239,230,.16);background:rgba(7,13,24,.62);text-shadow:none}
   .has-video .gear .row{border-bottom-color:rgba(245,239,230,.18)}
+
+  /* Day mode: footage lifts into airy documentary light; grades soften */
+  :root[data-theme="light"] .frame video{filter:brightness(1.16) saturate(1.05) contrast(.97)}
+  :root[data-theme="light"] #call .frame{--grade:rgba(24,32,48,.5)}
+  :root[data-theme="light"] #prep .frame{--grade:rgba(30,36,50,.44)}
+  :root[data-theme="light"] #climb .frame{--grade:rgba(20,24,34,.56)}
+  :root[data-theme="light"] #basecamp .frame,
+  :root[data-theme="light"] #summit .frame,
+  :root[data-theme="light"] #horizon .frame{--grade:rgba(26,32,46,.46)}
+
+  /* atmospheric depth haze — GPU-cheap stand-in for depth-of-field blur */
+  .haze{position:absolute;inset:-2%;z-index:3;pointer-events:none;opacity:0;
+      background:radial-gradient(120% 100% at 50% 45%, var(--haze-c,rgba(150,170,195,.55)) 0%, var(--haze-c2,rgba(120,140,168,.75)) 100%)}
+  :root[data-theme="light"] .haze{--haze-c:rgba(236,241,247,.6);--haze-c2:rgba(222,230,240,.85)}
+  /* arrival bloom — a breath of light as each scene settles */
+  .bloom{position:absolute;inset:0;z-index:3;pointer-events:none;opacity:0;
+      background:radial-gradient(62% 52% at 50% 44%, rgba(255,212,150,.30), transparent 72%)}
+  .arrived .bloom{animation:bloomIn 1.5s ease-out both}
+  @keyframes bloomIn{0%{opacity:0}22%{opacity:1}100%{opacity:0}}
+  /* living frames: slow ken-burns drift on footage */
+  .frame video{animation:kenburns 30s ease-in-out infinite alternate}
+  @keyframes kenburns{from{transform:scale(1.02) translateY(-.4%)}to{transform:scale(1.09) translateY(.6%)}}
 
   /* cinematic letterbox — breathes in during scene transitions */
   .bar{position:fixed;left:0;right:0;height:0;z-index:5;pointer-events:none;
-      background:linear-gradient(rgba(2,4,9,.92),rgba(2,4,9,.75))}
-  .bar.top{top:0}.bar.bot{bottom:0;background:linear-gradient(rgba(2,4,9,.75),rgba(2,4,9,.92))}
+      background:linear-gradient(var(--barc,rgba(2,4,9,.92)),var(--barc2,rgba(2,4,9,.75)))}
+  .bar.top{top:0}.bar.bot{bottom:0;background:linear-gradient(var(--barc2,rgba(2,4,9,.75)),var(--barc,rgba(2,4,9,.92)))}
+  :root[data-theme="light"] .bar{--barc:rgba(228,235,243,.94);--barc2:rgba(228,235,243,.7)}
+
+  /* THE RANGE — choose-your-path portal grid */
+  .paths{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:36px;text-align:left}
+  @media(max-width:960px){.paths{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.paths{grid-template-columns:1fr 1fr;gap:9px}}
+  .path{position:relative;display:block;text-decoration:none;border:1px solid var(--card-border);
+      background:var(--card-bg);border-radius:14px;padding:16px 15px 13px;overflow:hidden;
+      transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s}
+  .path svg{display:block;width:100%;height:34px;margin-bottom:10px}
+  .path .pk{fill:none;stroke:var(--muted);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;
+      transition:stroke .35s}
+  .path h4{margin:0;font-size:13.5px;font-weight:700;letter-spacing:.02em;color:var(--text)}
+  .path p{font-size:11.5px;color:var(--muted);margin-top:4px;line-height:1.45}
+  .path::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s;pointer-events:none;
+      background:radial-gradient(90% 70% at 50% 100%, rgba(249,115,22,.16), transparent 70%)}
+  .path:hover,.path:focus-visible{transform:translateY(-5px);border-color:rgba(249,115,22,.55);
+      box-shadow:0 14px 44px rgba(0,0,0,.25)}
+  .path:hover .pk,.path:focus-visible .pk{stroke:var(--ember)}
+  .path:hover::after,.path:focus-visible::after{opacity:1}
+  .path:focus-visible{outline:3px solid var(--ember2);outline-offset:2px}
+  .has-video .path{background:rgba(7,13,24,.6);--card-border:rgba(245,239,230,.16)}
+  .has-video .path h4{color:#F5EFE6}.has-video .path p{color:#C7D0DB;text-shadow:none}
   .content{position:relative;z-index:2;max-width:1020px;width:100%;padding:84px 30px 150px;pointer-events:auto;
       max-height:100vh;overflow-y:auto;scrollbar-width:none}
   .content::-webkit-scrollbar{display:none}
@@ -112,11 +157,27 @@
   .on .fx{opacity:1;transform:none}
   .on .fx.d1{transition-delay:.12s}.on .fx.d2{transition-delay:.24s}.on .fx.d3{transition-delay:.36s}.on .fx.d4{transition-delay:.48s}
 
-  /* hero scene */
-  #call h1{font-size:clamp(2.2rem,5.4vw,4.4rem);text-transform:uppercase;letter-spacing:-.015em}
+  /* hero scene — the Metanoia Labs brand reveal */
+  .brand{display:flex;align-items:baseline;gap:.35em;flex-wrap:wrap;margin-bottom:26px}
+  .brand .mark{font-size:clamp(2.9rem,8vw,6.6rem);font-weight:800;text-transform:uppercase;line-height:.95;
+      letter-spacing:.04em;color:var(--text);
+      text-shadow:0 0 60px rgba(249,115,22,.25),0 2px 30px rgba(0,0,0,.5)}
+  .brand .labs{font-size:clamp(1.2rem,3.2vw,2.6rem);font-weight:700;text-transform:uppercase;letter-spacing:.42em;
+      color:var(--accent-text);text-shadow:0 0 34px rgba(249,115,22,.55);
+      animation:labsGlow 5s ease-in-out infinite}
+  .brand .rule{flex-basis:100%;height:1px;max-width:min(340px,42vw);margin-top:14px;
+      background:linear-gradient(90deg,var(--ember),transparent);transform-origin:left;
+      animation:ruleIn 1.6s cubic-bezier(.2,.75,.2,1) .9s both}
+  @keyframes labsGlow{0%,100%{text-shadow:0 0 26px rgba(249,115,22,.4)}50%{text-shadow:0 0 52px rgba(249,158,60,.85)}}
+  @keyframes ruleIn{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes brandIn{from{opacity:0;letter-spacing:.34em;filter:blur(14px)}to{opacity:1;letter-spacing:.04em;filter:blur(0)}}
+  @keyframes labsIn{from{opacity:0;letter-spacing:.9em;filter:blur(10px)}to{opacity:1;letter-spacing:.42em;filter:blur(0)}}
+  .boot .brand .mark{animation:brandIn 1.7s cubic-bezier(.2,.7,.2,1) .15s both}
+  .boot .brand .labs{animation:labsIn 1.7s cubic-bezier(.2,.7,.2,1) .5s both,labsGlow 5s ease-in-out 2.4s infinite}
+  #call h1{font-size:clamp(1.5rem,3.1vw,2.6rem);text-transform:uppercase;letter-spacing:.01em;line-height:1.25;font-weight:600}
   #call h1 em{font-style:normal;color:var(--accent-text)}
-  #call .whisper{font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,2.2vw,1.5rem);color:var(--muted);margin-bottom:22px}
-  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:34em;margin-top:24px}
+  #call .whisper{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:18px}
+  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:34em;margin-top:22px}
   .cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;text-decoration:none;font-weight:600;font-size:15.5px;
       color:var(--ember-ink);background:linear-gradient(120deg,var(--ember2),var(--ember));border-radius:999px;padding:15px 28px;
       box-shadow:0 8px 40px rgba(249,115,22,.35);transition:transform .2s ease;cursor:pointer;border:0}
@@ -246,8 +307,14 @@
   <!-- SCENE 1 · THE CALL -->
   <section class="sceneCard" id="call">
     <div class="frame">
-      <video muted loop playsinline preload="metadata"><source src="assets/01-call.mp4" type="video/mp4"></video>
+      <video muted loop playsinline preload="auto"><source src="assets/01-call.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="brand" aria-label="Metanoia Labs">
+          <span class="mark">Metanoia</span><span class="labs">Labs</span>
+          <span class="rule" aria-hidden="true"></span>
+        </div>
         <p class="whisper fx" data-i18n="hero.whisper">Somewhere beyond the fog, there is a version of you that made it.</p>
         <h1 class="fx d1">
           <span data-i18n="hero.l1">Your future was</span><br>
@@ -266,6 +333,8 @@
   <section class="sceneCard" id="prep">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/02-prep.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <span class="chapter fx" data-i18n="prep.ch">Chapter I · First light</span>
         <span class="eyebrow fx" data-i18n="prep.eye">Preparation</span>
@@ -285,6 +354,8 @@
   <section class="sceneCard" id="climb">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/03-climb.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <span class="chapter fx" data-i18n="climb.ch">Chapter II · The weather turns</span>
         <span class="eyebrow fx" data-i18n="climb.eye">The Climb</span>
@@ -304,6 +375,8 @@
   <section class="sceneCard" id="basecamp">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/04-basecamp.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <span class="chapter fx" data-i18n="base.ch">Chapter III · Nightfall, firelight</span>
         <span class="eyebrow fx" data-i18n="base.eye">Basecamp</span>
@@ -323,6 +396,8 @@
   <section class="sceneCard" id="summit">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/05-summit.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <span class="chapter fx" data-i18n="summit.ch">Chapter IV · Sunrise</span>
         <h2 class="fx" data-i18n="summit.h2">When can you start?</h2>
@@ -342,11 +417,26 @@
   <section class="sceneCard" id="horizon">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/06-horizon.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <span class="chapter fx" data-i18n="hor.ch">Chapter V · The range beyond</span>
         <h2 class="fx" data-i18n="hor.h2">From this summit, you can see the others.</h2>
         <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
         <p class="voice fx d2" data-i18n="hor.voice">“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”</p>
+
+        <span class="eyebrow fx d2" style="display:block;margin-top:44px" data-i18n="paths.eye">Choose your path</span>
+        <p class="lede fx d2" style="margin-top:10px;font-size:15px" data-i18n="paths.h3">Seven trails lead on from this summit. Pick yours.</p>
+        <div class="paths fx d3" role="navigation" aria-label="Audience pathways">
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L26 10 L38 20 L50 6 L64 22 L80 12 L96 30"/></svg><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L20 16 L34 24 L52 4 L70 24 L84 14 L96 30"/></svg><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L18 20 L32 8 L46 18 L60 6 L78 22 L96 30"/></svg><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L22 12 L36 18 L50 10 L62 16 L80 4 L96 30"/></svg><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L16 22 L30 26 L48 6 L66 26 L82 20 L96 30"/></svg><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Hire on verified capability.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L24 8 L40 16 L56 8 L72 18 L86 10 L96 30"/></svg><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p></a>
+          <a class="path" href="#"><svg viewBox="0 0 100 34" aria-hidden="true"><path class="pk" d="M4 30 L20 14 L36 22 L50 2 L64 22 L80 14 L96 30"/><circle cx="50" cy="2" r="2.6" fill="#F59E0B" stroke="none"/></svg><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p></a>
+        </div>
+
         <div class="fx d3" style="margin-top:40px"><a class="cta" href="#" data-i18n="hor.cta">Get your free Career Map — the climb starts in 15 minutes</a></div>
         <p class="fx d4" style="margin-top:16px;font-size:12.5px;color:var(--muted)" data-i18n="hor.fine">Free diagnostic · Personalized route · No credit card, no spam, no generic advice</p>
         <div class="foot-links fx d4">
@@ -412,6 +502,14 @@
       'hor.voice':'“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”',
       'hor.cta':'Get your free Career Map — the climb starts in 15 minutes',
       'hor.fine':'Free diagnostic · Personalized route · No credit card, no spam, no generic advice',
+      'paths.eye':'Choose your path','paths.h3':'Seven trails lead on from this summit. Pick yours.',
+      'paths.student':'Student','paths.student.d':'Build the map before graduation day.',
+      'paths.fresh':'Fresh Graduate','paths.fresh.d':'Turn the degree into a first offer.',
+      'paths.early':'Early Professional','paths.early.d':'Make the next move the right one.',
+      'paths.mature':'Mature Professional','paths.mature.d':'Reinvent without starting over.',
+      'paths.ent':'For Enterprise','paths.ent.d':'Hire on verified capability.',
+      'paths.mentor':'For Mentors','paths.mentor.d':'Hold the map for the next climber.',
+      'paths.about':'About Metanoia','paths.about.d':'The mission behind the mountain.',
       'foot.emp':'Employers','foot.mentors':'Mentors','foot.dignity':'Data Dignity',
       'foot.tag':'Metanoia · © 2026 · Every summit lights the next.',
       'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range'
@@ -458,6 +556,14 @@
       'hor.voice':'“Metanoia — <em>perubahan hati yang mengubah segalanya.</em> Ini tak pernah tentang pekerjaan. Ini tentang siapa yang mendaki.”',
       'hor.cta':'Dapatkan Peta Karier gratismu — pendakian dimulai dalam 15 menit',
       'hor.fine':'Diagnostik gratis · Rute personal · Tanpa kartu kredit, tanpa spam, tanpa saran generik',
+      'paths.eye':'Pilih jalurmu','paths.h3':'Tujuh jalur berlanjut dari puncak ini. Pilih milikmu.',
+      'paths.student':'Mahasiswa','paths.student.d':'Susun peta sebelum hari kelulusan.',
+      'paths.fresh':'Lulusan Baru','paths.fresh.d':'Ubah ijazah menjadi tawaran pertama.',
+      'paths.early':'Profesional Muda','paths.early.d':'Pastikan langkah berikutnya tepat.',
+      'paths.mature':'Profesional Berpengalaman','paths.mature.d':'Bertransformasi tanpa memulai dari nol.',
+      'paths.ent':'Untuk Perusahaan','paths.ent.d':'Rekrut berdasarkan kemampuan terverifikasi.',
+      'paths.mentor':'Untuk Mentor','paths.mentor.d':'Pegang peta bagi pendaki berikutnya.',
+      'paths.about':'Tentang Metanoia','paths.about.d':'Misi di balik gunung ini.',
       'foot.emp':'Perusahaan','foot.mentors':'Mentor','foot.dignity':'Martabat Data',
       'foot.tag':'Metanoia · © 2026 · Setiap puncak menyalakan puncak berikutnya.',
       'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan'
@@ -550,47 +656,71 @@
   function measure(){ target=Math.max(0,Math.min(N-1, scrollY/SEG)); }
   measure(); addEventListener('scroll',measure,{passive:true});
 
-  const canBlur=matchMedia('(min-width:761px)').matches && !reduce;
+  // spatial presence: the whole stage leans gently against the pointer (desktop)
+  const stage=document.getElementById('stage');
+  let mx=0,my=0,mtx=0,mty=0;
+  if(matchMedia('(pointer:fine)').matches && !reduce){
+    addEventListener('pointermove',ev=>{
+      mtx=(ev.clientX/innerWidth-.5)*-14; mty=(ev.clientY/innerHeight-.5)*-9;
+    },{passive:true});
+  }
+
+  // brand reveal plays once on first load
+  document.body.classList.add('boot');
   const smooth=t=>t*t*(3-2*t);
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
   const barTop=document.getElementById('barTop'),barBot=document.getElementById('barBot');
+  let lastActive=-1;
   function updateScenes(){
-    let active=Math.round(cur);
+    const active=Math.round(cur);
+    const tf=cur-Math.floor(cur), trans=reduce?0:4*tf*(1-tf);   // 0 at rest → 1 mid-transition
     SCENES.forEach((sc,i)=>{
       const d=i-cur;                                     // + ahead of camera, − left behind
       const vid=sc.querySelector('video');
       if(Math.abs(d)>1.2){ sc.style.visibility='hidden'; sc.classList.remove('on');
         if(vid && !vid.paused) vid.pause(); return; }
       sc.style.visibility='visible';
-      if(vid && sc.querySelector('.frame').classList.contains('has-video') && vid.paused) vid.play().catch(()=>{});
+      if(vid && sc.querySelector('.frame').classList.contains('has-video')){
+        if(vid.preload!=='auto') vid.preload='auto';
+        if(vid.paused) vid.play().catch(()=>{});
+      }
       // camera pull-back: eased scale envelopes (gentle at rest, fluid mid-flight)
       const e = d<0 ? -smooth(clamp(-d,0,1)) : smooth(clamp(d,0,1));
       const scale = d<0 ? Math.pow(4.0,e) : Math.pow(2.2,e);
-      const y = e<0 ? e*-6 : 0;                          // receding card drifts up (vh)
+      const y = e<0 ? e*-6 : 0;                          // receding card drifts (vh)
       const opa = d<0 ? 1-smooth(clamp((-d-.5)/.35,0,1))   // gone by −0.85
                       : 1-smooth(clamp((d-.5)/.4,0,1));    // gone by +0.9
-      const blur = canBlur ? (d<0 ? -d*2.5 : d*5) : 0;
-      sc.style.transform=`translateY(${y}vh) scale(${scale})`;
-      sc.style.opacity=opa;
-      sc.style.filter=blur>0.3?`blur(${blur.toFixed(1)}px)`:'none';
+      sc.style.transform=`translateY(${y.toFixed(3)}vh) scale(${scale.toFixed(4)})`;
+      sc.style.opacity=opa.toFixed(3);
       sc.style.zIndex=String(50-Math.round(d*20));       // receding card floats above the incoming world
       const fr=sc.querySelector('.frame');
       const card=smooth(clamp(-d/.55,0,1));              // 0 fullscreen → 1 floating card
       const cs=card*card;                                // shadow/scrim ease in later than shape
       fr.style.borderRadius=(card*24)+'px';
       fr.style.borderColor=`color-mix(in srgb, var(--frame-edge) ${Math.round(card*90)}%, transparent)`;
-      fr.style.setProperty('--card-o',(cs*.85).toFixed(2));
+      // scrim deepens slightly mid-transition so copy stays readable while the world moves
+      fr.style.setProperty('--card-o',Math.max(cs*.85, trans*.22).toFixed(2));
       fr.style.boxShadow=cs>.03?`0 ${22*cs}px ${64*cs}px rgba(0,0,0,${(.26*cs).toFixed(2)})`:'none';
+      // atmospheric depth haze instead of blur filters (GPU-cheap depth-of-field)
+      const haze=sc.querySelector('.haze');
+      haze.style.opacity=(smooth(clamp(Math.abs(d)/.95,0,1))*.9).toFixed(3);
+      // layered motion: copy drifts on its own plane inside the frame
+      const ct=sc.querySelector('.content');
+      ct.style.transform=reduce?'none':`translateY(${(d*4).toFixed(2)}vh)`;
       // content: reveal as the scene approaches, release once it has receded
       if(d<.7 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.5) fireCounts(sc); }
       else sc.classList.remove('on');
+      sc.style.pointerEvents = i===active?'auto':'none';
     });
-    // pointer events only on the active scene
-    SCENES.forEach((sc,i)=>{ sc.style.pointerEvents = i===active?'auto':'none'; });
+    // arrival bloom: a breath of light each time a new scene settles
+    if(active!==lastActive){
+      if(lastActive>=0 && !reduce){ const a=SCENES[active];
+        a.classList.remove('arrived'); void a.offsetWidth; a.classList.add('arrived'); }
+      lastActive=active;
+    }
     expNav.querySelectorAll('.wp').forEach((b,i)=>b.setAttribute('aria-current', i===active));
     // cinematic letterbox breathes in mid-transition, synchronized with the camera
-    const tf=cur-Math.floor(cur), trans=reduce?0:4*tf*(1-tf);
     const bh=(trans*4.5).toFixed(2);
     barTop.style.height=bh+'vh'; barBot.style.height=bh+'vh';
     barTop.style.opacity=barBot.style.opacity=(trans*.85).toFixed(2);
@@ -669,6 +799,8 @@
   function frame(t){
     const dt=Math.min((t-last)/1000,.05); last=t;
     cur+=(target-cur)*(reduce?1:Math.min(1,dt*4.2));   // inertial camera
+    mx+=(mtx-mx)*Math.min(1,dt*3); my+=(mty-my)*Math.min(1,dt*3);
+    stage.style.transform=(Math.abs(mx)>.05||Math.abs(my)>.05)?`translate(${mx.toFixed(2)}px,${my.toFixed(2)}px)`:'none';
     themeMix+=(themeTarget-themeMix)*(reduce?1:Math.min(1,dt*4));
     const m=smooth(clamp(themeMix,0,1));
 
