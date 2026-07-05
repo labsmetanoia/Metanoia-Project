@@ -70,14 +70,25 @@
       will-change:transform,opacity,filter;pointer-events:none;visibility:hidden}
   .frame{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;
       overflow:hidden;border-radius:0;border:1px solid transparent;background:transparent}
-  /* when receding, the frame becomes a floating card */
-  .frame::before{content:"";position:absolute;inset:0;background:var(--frame-scrim);backdrop-filter:blur(2px);
-      opacity:var(--card-o,0);transition:none;pointer-events:none}
-  .frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0}
+  /* when receding, the frame becomes a floating card (pure gradient tint — no
+     backdrop-filter: it seams and shimmers under animated scale) */
+  .frame::before{content:"";position:absolute;inset:0;background:var(--frame-scrim);
+      opacity:var(--card-o,0);transition:none;pointer-events:none;z-index:1}
+  .frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
+      transition:opacity 1.2s ease}
   .frame.has-video video{opacity:1}
+  /* cinematic grade over footage, tuned per scene for lighting continuity */
   .frame.has-video::after{content:"";position:absolute;inset:0;pointer-events:none;
-      background:linear-gradient(to top, rgba(4,8,16,.55), transparent 45%),
-                 radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(4,8,16,.45) 100%)}
+      background:linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
+                 radial-gradient(130% 95% at 50% 38%, transparent 58%, var(--grade,rgba(5,9,18,.5)) 100%)}
+  #call .frame{--grade:rgba(6,11,22,.6)}
+  #prep .frame{--grade:rgba(16,20,30,.5)}
+  #climb .frame{--grade:rgba(7,9,14,.66)}
+
+  /* cinematic letterbox — breathes in during scene transitions */
+  .bar{position:fixed;left:0;right:0;height:0;z-index:5;pointer-events:none;
+      background:linear-gradient(rgba(2,4,9,.92),rgba(2,4,9,.75))}
+  .bar.top{top:0}.bar.bot{bottom:0;background:linear-gradient(rgba(2,4,9,.75),rgba(2,4,9,.92))}
   .content{position:relative;z-index:2;max-width:1020px;width:100%;padding:84px 30px 150px;pointer-events:auto;
       max-height:100vh;overflow-y:auto;scrollbar-width:none}
   .content::-webkit-scrollbar{display:none}
@@ -189,6 +200,8 @@
 
 <canvas id="scene" aria-hidden="true"></canvas>
 <div class="vignette" aria-hidden="true"></div>
+<div class="bar top" id="barTop" aria-hidden="true"></div>
+<div class="bar bot" id="barBot" aria-hidden="true"></div>
 
 <nav>
   <a class="logo" href="#" aria-label="Metanoia">
@@ -532,35 +545,47 @@
   const smooth=t=>t*t*(3-2*t);
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
+  const barTop=document.getElementById('barTop'),barBot=document.getElementById('barBot');
   function updateScenes(){
     let active=Math.round(cur);
     SCENES.forEach((sc,i)=>{
       const d=i-cur;                                     // + ahead of camera, − left behind
-      if(Math.abs(d)>1.25){ sc.style.visibility='hidden'; sc.classList.remove('on'); return; }
+      const vid=sc.querySelector('video');
+      if(Math.abs(d)>1.2){ sc.style.visibility='hidden'; sc.classList.remove('on');
+        if(vid && !vid.paused) vid.pause(); return; }
       sc.style.visibility='visible';
-      // camera pull-back: outgoing scene shrinks into a floating card; incoming settles from oversized
-      const scale = d<0 ? Math.pow(4.6,d) : Math.pow(2.7,d);
-      const y = d<0 ? d*-7 : 0;                          // receding card drifts up (vh)
-      const opa = d<0 ? 1-smooth(clamp((-d-.55)/.45,0,1))
-                      : 1-smooth(clamp((d-.45)/.5,0,1));
-      const blur = canBlur ? Math.abs(d)*(d<0?3:7) : 0;
+      if(vid && sc.querySelector('.frame').classList.contains('has-video') && vid.paused) vid.play().catch(()=>{});
+      // camera pull-back: eased scale envelopes (gentle at rest, fluid mid-flight)
+      const e = d<0 ? -smooth(clamp(-d,0,1)) : smooth(clamp(d,0,1));
+      const scale = d<0 ? Math.pow(4.0,e) : Math.pow(2.2,e);
+      const y = e<0 ? e*-6 : 0;                          // receding card drifts up (vh)
+      const opa = d<0 ? 1-smooth(clamp((-d-.5)/.35,0,1))   // gone by −0.85
+                      : 1-smooth(clamp((d-.5)/.4,0,1));    // gone by +0.9
+      const blur = canBlur ? (d<0 ? -d*2.5 : d*5) : 0;
       sc.style.transform=`translateY(${y}vh) scale(${scale})`;
       sc.style.opacity=opa;
       sc.style.filter=blur>0.3?`blur(${blur.toFixed(1)}px)`:'none';
       sc.style.zIndex=String(50-Math.round(d*20));       // receding card floats above the incoming world
       const fr=sc.querySelector('.frame');
-      const card=smooth(clamp(-d/.6,0,1));               // 0 fullscreen → 1 floating card
-      fr.style.borderRadius=(card*26)+'px';
-      fr.style.borderColor=`color-mix(in srgb, var(--frame-edge) ${Math.round(card*100)}%, transparent)`;
-      fr.style.setProperty('--card-o',(card*.9).toFixed(2));
-      fr.style.boxShadow=card>.02?`0 ${30*card}px ${80*card}px rgba(0,0,0,${.35*card})`:'none';
-      // content: fade with scene, reveal when active
+      const card=smooth(clamp(-d/.55,0,1));              // 0 fullscreen → 1 floating card
+      const cs=card*card;                                // shadow/scrim ease in later than shape
+      fr.style.borderRadius=(card*24)+'px';
+      fr.style.borderColor=`color-mix(in srgb, var(--frame-edge) ${Math.round(card*90)}%, transparent)`;
+      fr.style.setProperty('--card-o',(cs*.85).toFixed(2));
+      fr.style.boxShadow=cs>.03?`0 ${22*cs}px ${64*cs}px rgba(0,0,0,${(.26*cs).toFixed(2)})`:'none';
+      // content: reveal as the scene approaches, release once it has receded
       if(d<.7 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.5) fireCounts(sc); }
       else sc.classList.remove('on');
     });
     // pointer events only on the active scene
     SCENES.forEach((sc,i)=>{ sc.style.pointerEvents = i===active?'auto':'none'; });
     expNav.querySelectorAll('.wp').forEach((b,i)=>b.setAttribute('aria-current', i===active));
+    // cinematic letterbox breathes in mid-transition, synchronized with the camera
+    const tf=cur-Math.floor(cur), trans=reduce?0:4*tf*(1-tf);
+    const bh=(trans*4.5).toFixed(2);
+    barTop.style.height=bh+'vh'; barBot.style.height=bh+'vh';
+    barTop.style.opacity=barBot.style.opacity=(trans*.85).toFixed(2);
+    return trans;
   }
   function fireCounts(sc){
     sc.querySelectorAll('[data-count]').forEach(el=>{
@@ -638,10 +663,10 @@
     themeMix+=(themeTarget-themeMix)*(reduce?1:Math.min(1,dt*4));
     const m=smooth(clamp(themeMix,0,1));
 
-    updateScenes();
+    const trans=updateScenes();
 
     const i=Math.min(Math.floor(cur),PAL_D.length-2);
-    const frac=Math.min(1,cur-i), f=smooth(Math.max(0,(frac-.55)/.45));
+    const frac=Math.min(1,cur-i), f=smooth(Math.max(0,(frac-.45)/.55));
     const mixP=(k,isC)=>{ const dd=isC?lerpC(PAL_D[i][k],PAL_D[i+1][k],f):lerp(PAL_D[i][k],PAL_D[i+1][k],f);
                           const ll=isC?lerpC(PAL_L[i][k],PAL_L[i+1][k],f):lerp(PAL_L[i][k],PAL_L[i+1][k],f);
                           return isC?lerpC(dd,ll,m):lerp(dd,ll,m); };
@@ -683,13 +708,21 @@
       ag.addColorStop(0,'rgba(249,150,60,0)'); ag.addColorStop(1,`rgba(249,150,60,${.22*sun})`);
       ctx.fillStyle=ag; ctx.fillRect(0,0,W,H);
     }
-    if(fogA>0.01){
+    const fogT=Math.min(1,fogA+.35*trans);   // fog swells mid-transition: scenes dissolve through weather
+    if(fogT>0.01){
       const fogC=lerpC([190,205,225],[255,255,255],m);
       for(const b of fogs){
-        b.x+=b.v*dt; if(b.x>1.4)b.x=-.4; if(b.x<-.4)b.x=1.4;
+        b.x+=b.v*dt*(1+trans*1.5); if(b.x>1.4)b.x=-.4; if(b.x<-.4)b.x=1.4;
         const rg=ctx.createRadialGradient(b.x*W,b.y*H,0,b.x*W,b.y*H,b.r*W);
-        rg.addColorStop(0,`rgba(${fogC[0]|0},${fogC[1]|0},${fogC[2]|0},${.14*fogA*b.a})`); rg.addColorStop(1,'rgba(255,255,255,0)');
+        rg.addColorStop(0,`rgba(${fogC[0]|0},${fogC[1]|0},${fogC[2]|0},${.14*fogT*b.a})`); rg.addColorStop(1,'rgba(255,255,255,0)');
         ctx.fillStyle=rg; ctx.fillRect(0,0,W,H);
+      }
+      if(trans>0.02){                        // soft luminous veil across the horizon line
+        const vg=ctx.createLinearGradient(0,H*.3,0,H*.75);
+        vg.addColorStop(0,'rgba(190,205,225,0)');
+        vg.addColorStop(.5,`rgba(${fogC[0]|0},${fogC[1]|0},${fogC[2]|0},${(.12*trans).toFixed(3)})`);
+        vg.addColorStop(1,'rgba(190,205,225,0)');
+        ctx.fillStyle=vg; ctx.fillRect(0,0,W,H);
       }
     }
     if(snow>0.01&&!reduce){

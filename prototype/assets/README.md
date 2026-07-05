@@ -1,5 +1,22 @@
 # The Ascent — Real Footage Shot List
 
+> **Phase 1 (current validation): scenes 1–3 only.** Three videos have been
+> provided via Google Drive (folder `1ePpwDKPkoS01IQxtjrGMebx54VuMBRNr`). The
+> cloud session's network policy blocks Google Drive, so add them locally:
+> download the folder, rename by narrative order, and place here —
+>
+> | Drive asset | Save as | Scene |
+> |---|---|---|
+> | Video 1 — The Valley | `01-call.mp4` | The Call to Climb |
+> | Video 2 — Preparation | `02-prep.mp4` | Preparation |
+> | Video 3 — The Climb | `03-climb.mp4` | The Climb |
+>
+> Then open `prototype/landing.html` — the scenes detect and play the files
+> automatically (full-bleed, per-scene cinematic grade, pause when off-screen).
+> If a clip exceeds ~50 MB, re-encode before committing:
+> `ffmpeg -i in.mp4 -vf scale=1920:-2 -c:v libx264 -crf 23 -preset slow -an out.mp4`.
+> Scenes 4–6 stay on the generative environment until Phase 1 is validated.
+
 Drop licensed clips into this folder with these exact filenames and the landing
 prototype picks them up automatically (each scene's `<video>` layer plays the
 file; the generative environment renders whenever a file is missing).
