@@ -77,13 +77,20 @@
   .frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
       transition:opacity 1.2s ease}
   .frame.has-video video{opacity:1}
-  /* cinematic grade over footage, tuned per scene for lighting continuity */
+  /* cinematic grade over footage, tuned per scene for lighting continuity,
+     with a text-protection wash on the reading side */
   .frame.has-video::after{content:"";position:absolute;inset:0;pointer-events:none;
       background:linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
+                 linear-gradient(100deg, var(--grade,rgba(5,9,18,.58)) 8%, transparent 64%),
                  radial-gradient(130% 95% at 50% 38%, transparent 58%, var(--grade,rgba(5,9,18,.5)) 100%)}
-  #call .frame{--grade:rgba(6,11,22,.6)}
-  #prep .frame{--grade:rgba(16,20,30,.5)}
-  #climb .frame{--grade:rgba(7,9,14,.66)}
+  #call .frame{--grade:rgba(6,11,22,.66)}
+  #prep .frame{--grade:rgba(16,20,30,.6)}
+  #climb .frame{--grade:rgba(7,9,14,.72)}
+  /* footage is graded dark — text over it stays light in both themes */
+  .has-video .content{--text:#F5EFE6;--muted:#C7D0DB;--accent-text:#F5A623;color:var(--text);
+      text-shadow:0 1px 22px rgba(0,0,0,.5)}
+  .has-video .card{--card-border:rgba(245,239,230,.16);background:rgba(7,13,24,.56);text-shadow:none}
+  .has-video .gear .row{border-bottom-color:rgba(245,239,230,.18)}
 
   /* cinematic letterbox — breathes in during scene transitions */
   .bar{position:fixed;left:0;right:0;height:0;z-index:5;pointer-events:none;
@@ -510,10 +517,12 @@
   function layout(){ SEG=innerHeight*1.7; spacer.style.height=(SEG*(N-1)+innerHeight)+'px'; }
   layout(); addEventListener('resize',layout);
 
-  // video layers: activate when the file actually loads (real footage drop-in)
+  // video layers: activate when the file is actually present (real footage drop-in)
   SCENES.forEach(sc=>{
     const v=sc.querySelector('video');
-    v.addEventListener('loadeddata',()=>{ sc.querySelector('.frame').classList.add('has-video'); v.play().catch(()=>{}); });
+    const arm=()=>{ sc.querySelector('.frame').classList.add('has-video'); v.play().catch(()=>{}); };
+    if(v.readyState>=1) arm();
+    else v.addEventListener('loadedmetadata',arm,{once:true});
     v.addEventListener('error',()=>{},true);
   });
 
