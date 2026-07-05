@@ -127,17 +127,15 @@
   .path{position:relative;display:block;text-decoration:none;border:1px solid var(--card-border);
       background:var(--card-bg);border-radius:14px;padding:16px 15px 13px;overflow:hidden;
       transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s}
-  .path svg{display:block;width:100%;height:58px;margin-bottom:11px;border-radius:9px}
-  .path .rt{fill:none;stroke:#F5A623;stroke-width:1.7;stroke-dasharray:3.5 2.6;stroke-linecap:round;
-      transition:stroke .35s,filter .35s}
-  .path:hover .rt,.path:focus-visible .rt{stroke:#FFD98A;filter:drop-shadow(0 0 4px rgba(255,205,120,.9))}
+  .path svg{display:block;width:100%;height:60px;margin-bottom:12px;border-radius:9px;
+      filter:saturate(.92);transition:filter .35s ease}
+  .path:hover svg,.path:focus-visible svg{filter:saturate(1) brightness(1.07)}
   .path h4{margin:0;font-size:13.5px;font-weight:700;letter-spacing:.02em;color:var(--text)}
   .path p{font-size:11.5px;color:var(--muted);margin-top:4px;line-height:1.45}
   .path::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s;pointer-events:none;
-      background:radial-gradient(90% 70% at 50% 100%, rgba(249,115,22,.16), transparent 70%)}
-  .path:hover,.path:focus-visible{transform:translateY(-5px);border-color:rgba(249,115,22,.55);
-      box-shadow:0 14px 44px rgba(0,0,0,.25)}
-  .path:hover .pk,.path:focus-visible .pk{stroke:var(--ember)}
+      background:linear-gradient(160deg, rgba(255,255,255,.07), transparent 55%)}
+  .path:hover,.path:focus-visible{transform:translateY(-4px);border-color:color-mix(in srgb, var(--text) 34%, transparent);
+      box-shadow:0 16px 48px rgba(0,0,0,.28)}
   .path:hover::after,.path:focus-visible::after{opacity:1}
   .path:focus-visible{outline:3px solid var(--ember2);outline-offset:2px}
   .has-video .path{background:rgba(7,13,24,.6);--card-border:rgba(245,239,230,.16)}
@@ -243,10 +241,15 @@
   .logo .wm b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1}
   .logo .wm i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;
       color:var(--accent-text);text-align:right;margin-top:3px}
-  .menu{display:flex;gap:2px;margin:0 auto}
-  .menu a{color:var(--muted);text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
-      padding:8px 7px;border-radius:8px;white-space:nowrap;transition:color .2s,background .2s}
-  .menu a:hover,.menu a:focus-visible{color:var(--text);background:rgba(249,115,22,.14)}
+  .menu{display:flex;gap:0;margin:0 auto;align-items:center;border:1px solid var(--nav-border);border-radius:999px;
+      padding:5px 8px;backdrop-filter:blur(10px);background:color-mix(in srgb, var(--bg) 35%, transparent)}
+  .menu a{position:relative;color:var(--muted);text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.11em;
+      text-transform:uppercase;padding:8px 11px;border-radius:999px;white-space:nowrap;
+      transition:color .25s,background .25s,box-shadow .25s}
+  .menu a+a::before{content:"";position:absolute;left:-1px;top:50%;transform:translateY(-50%);width:2.5px;height:2.5px;
+      border-radius:50%;background:var(--rail)}
+  .menu a:hover,.menu a:focus-visible{color:var(--text);background:color-mix(in srgb, var(--text) 9%, transparent);
+      box-shadow:inset 0 0 0 1px var(--nav-border)}
   .burger{display:none;background:none;border:1px solid var(--nav-border);border-radius:999px;width:38px;height:38px;
       align-items:center;justify-content:center;color:var(--text);cursor:pointer;backdrop-filter:blur(6px)}
   @media(max-width:1330px){.menu{display:none}.burger{display:flex}}
@@ -321,9 +324,10 @@
     <svg class="mglyph" width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
       <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
         <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
-      <circle cx="20" cy="20" r="17.2" stroke="url(#lgN)" stroke-width="2.4"/>
-      <path d="M12.5 26.5 V18.5 L16.8 12.5 L20 17 L23.2 12.5 L27.5 18.5 V26.5" stroke="url(#lgN)" stroke-width="2.8"
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lgN)" stroke-width="1.6" opacity=".9"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4"
             stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
     </svg>
     <span class="lbar" aria-hidden="true"></span>
     <span class="wm"><b>Metanoia</b><i>Labs</i></span>
@@ -394,9 +398,10 @@
           <svg class="glyph" width="64" height="64" viewBox="0 0 40 40" fill="none" aria-hidden="true" style="width:clamp(54px,7vw,72px);height:auto">
             <defs><linearGradient id="lgB" x1="0" y1="1" x2="1" y2="0">
               <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
-            <circle cx="20" cy="20" r="17.2" stroke="url(#lgB)" stroke-width="2.4"/>
-            <path d="M12.5 26.5 V18.5 L16.8 12.5 L20 17 L23.2 12.5 L27.5 18.5 V26.5" stroke="url(#lgB)" stroke-width="2.8"
+            <circle cx="20" cy="20" r="18.2" stroke="url(#lgB)" stroke-width="1.6" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgB)" stroke-width="2.4"
                   stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
           </svg>
           <span class="lbar" aria-hidden="true"></span>
           <span class="wm"><span class="mark">Metanoia</span><span class="labs">Labs</span></span>
@@ -515,60 +520,68 @@
         <p class="lede fx d2" style="margin-top:10px;font-size:15px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
         <div class="paths fx d3" role="navigation" aria-label="Audience pathways">
           <a class="path" href="pages/student.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B3D66"/><stop offset="100%" stop-color="#8A7BA8"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg1)"/><circle cx="80" cy="10" r="4.5" fill="#FFD98A" opacity=".9"/>
-            <path d="M0 30 L18 18 L34 26 L52 12 L70 24 L88 16 L100 24 V44 H0 Z" fill="#55628C"/>
-            <path d="M0 38 L22 28 L40 34 L62 22 L82 32 L100 27 V44 H0 Z" fill="#2A3554"/>
-            <path class="rt" d="M6 40 C24 36 34 30 48 26 S72 18 88 14"/><circle cx="48" cy="26" r="1.6" fill="#FFD98A"/><circle cx="88" cy="14" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#33415E"/><stop offset="100%" stop-color="#7A87A6"/></linearGradient>
+            <linearGradient id="pg1m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg1)"/><circle cx="79" cy="10" r="3.4" fill="#E9EDF4" opacity=".55"/>
+            <path d="M0 29 L18 18 L34 26 L52 12 L70 24 L88 16 L100 24 V44 H0 Z" fill="#4E5C7C"/>
+            <rect y="20" width="100" height="12" fill="url(#pg1m)"/>
+            <path d="M0 38 L22 28 L40 34 L62 22 L82 32 L100 27 V44 H0 Z" fill="#273249"/>
           </svg><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p></a>
           <a class="path" href="pages/fresh-graduate.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C97B3E"/><stop offset="100%" stop-color="#F2CE93"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg2)"/><circle cx="26" cy="9" r="5" fill="#FFF0C8" opacity=".95"/>
-            <path d="M0 28 L20 16 L38 24 L58 10 L78 22 L100 14 V44 H0 Z" fill="#8A6B54"/>
-            <path d="M0 37 L24 27 L46 33 L68 23 L100 30 V44 H0 Z" fill="#4A3A34"/>
-            <path class="rt" d="M8 39 C26 34 40 28 54 24 S78 16 92 12"/><circle cx="54" cy="24" r="1.6" fill="#FFD98A"/><circle cx="92" cy="12" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6E5D4C"/><stop offset="100%" stop-color="#C9B89F"/></linearGradient>
+            <linearGradient id="pg2m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg2)"/><circle cx="25" cy="9" r="3.6" fill="#F4EDDD" opacity=".6"/>
+            <path d="M0 28 L20 16 L38 24 L58 10 L78 22 L100 14 V44 H0 Z" fill="#8A7A64"/>
+            <rect y="20" width="100" height="12" fill="url(#pg2m)"/>
+            <path d="M0 37 L24 27 L46 33 L68 23 L100 30 V44 H0 Z" fill="#4A4034"/>
           </svg><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p></a>
           <a class="path" href="pages/early-professional.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3E6E9E"/><stop offset="100%" stop-color="#A8C8E0"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg3)"/><circle cx="66" cy="8" r="4" fill="#FFFFFF" opacity=".85"/>
-            <path d="M0 26 L16 14 L32 22 L50 8 L68 20 L86 12 L100 20 V44 H0 Z" fill="#6E8FB0"/>
-            <path d="M0 36 L20 28 L42 34 L64 24 L84 32 L100 28 V44 H0 Z" fill="#35506E"/>
-            <path class="rt" d="M6 40 C22 34 36 30 50 24 S74 14 90 10"/><circle cx="50" cy="24" r="1.6" fill="#FFD98A"/><circle cx="90" cy="10" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#46688C"/><stop offset="100%" stop-color="#9FBBD3"/></linearGradient>
+            <linearGradient id="pg3m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg3)"/><circle cx="66" cy="8" r="3" fill="#F2F6FA" opacity=".5"/>
+            <path d="M0 26 L16 14 L32 22 L50 8 L68 20 L86 12 L100 20 V44 H0 Z" fill="#64809E"/>
+            <rect y="20" width="100" height="12" fill="url(#pg3m)"/>
+            <path d="M0 36 L20 28 L42 34 L64 24 L84 32 L100 28 V44 H0 Z" fill="#33475E"/>
           </svg><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p></a>
           <a class="path" href="pages/mature-professional.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7A5A96"/><stop offset="100%" stop-color="#D8A868"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg4)"/><circle cx="14" cy="10" r="4.5" fill="#FFD98A" opacity=".9"/>
-            <path d="M0 27 L22 13 L40 22 L60 9 L80 21 L100 15 V44 H0 Z" fill="#6E5578"/>
-            <path d="M0 37 L26 27 L48 34 L70 24 L100 31 V44 H0 Z" fill="#3C2F48"/>
-            <path class="rt" d="M8 40 C28 34 42 28 58 23 S80 15 94 11"/><circle cx="58" cy="23" r="1.6" fill="#FFD98A"/><circle cx="94" cy="11" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5C4E6E"/><stop offset="100%" stop-color="#AB97A9"/></linearGradient>
+            <linearGradient id="pg4m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg4)"/><circle cx="15" cy="10" r="3.4" fill="#F0E9EE" opacity=".55"/>
+            <path d="M0 27 L22 13 L40 22 L60 9 L80 21 L100 15 V44 H0 Z" fill="#6E5F80"/>
+            <rect y="20" width="100" height="12" fill="url(#pg4m)"/>
+            <path d="M0 37 L26 27 L48 34 L70 24 L100 31 V44 H0 Z" fill="#3A3148"/>
           </svg><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p></a>
           <a class="path" href="pages/enterprise.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2E3A48"/><stop offset="100%" stop-color="#7A8DA0"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg5)"/><circle cx="54" cy="9" r="2.2" fill="#F97316"/><circle cx="54" cy="9" r="4.6" fill="none" stroke="#F97316" stroke-width=".8" opacity=".6"/>
-            <path d="M0 25 L18 15 L36 23 L54 9 L74 21 L100 13 V44 H0 Z" fill="#55677A"/>
-            <path d="M0 36 L22 28 L44 34 L66 24 L88 32 L100 28 V44 H0 Z" fill="#26313E"/>
-            <path class="rt" d="M6 40 C24 35 38 30 54 25 S78 17 92 13"/><circle cx="54" cy="25" r="1.6" fill="#FFD98A"/><circle cx="92" cy="13" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#37414E"/><stop offset="100%" stop-color="#8B98A6"/></linearGradient>
+            <linearGradient id="pg5m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg5)"/>
+            <path d="M0 25 L18 15 L36 23 L54 9 L74 21 L100 13 V44 H0 Z" fill="#5A6774"/>
+            <rect y="20" width="100" height="12" fill="url(#pg5m)"/>
+            <path d="M0 36 L22 28 L44 34 L66 24 L88 32 L100 28 V44 H0 Z" fill="#28313C"/>
           </svg><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Hire on verified capability.</p></a>
           <a class="path" href="pages/mentors.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4A2E58"/><stop offset="100%" stop-color="#C86E58"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg6)"/><circle cx="72" cy="9" r="4.5" fill="#FFB878" opacity=".9"/>
-            <path d="M0 27 L20 15 L38 23 L58 10 L78 22 L100 16 V44 H0 Z" fill="#6E4A66"/>
-            <path d="M0 37 L24 28 L46 34 L68 25 L100 31 V44 H0 Z" fill="#35243E"/>
-            <path class="rt" d="M8 40 C26 35 40 29 56 24 S80 16 94 12"/><circle cx="56" cy="24" r="1.6" fill="#FFD98A"/><circle cx="30" cy="33" r="1.6" fill="#FFD98A"/><circle cx="94" cy="12" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#543E52"/><stop offset="100%" stop-color="#B08578"/></linearGradient>
+            <linearGradient id="pg6m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg6)"/><circle cx="72" cy="9" r="3.4" fill="#F3E6DC" opacity=".55"/>
+            <path d="M0 27 L20 15 L38 23 L58 10 L78 22 L100 16 V44 H0 Z" fill="#6E5364"/>
+            <rect y="20" width="100" height="12" fill="url(#pg6m)"/>
+            <path d="M0 37 L24 28 L46 34 L68 25 L100 31 V44 H0 Z" fill="#382B3A"/>
           </svg><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p></a>
           <a class="path" href="pages/mind-palace.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101830"/><stop offset="100%" stop-color="#2A3558"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg7)"/><circle cx="24" cy="9" r="3.6" fill="#E8ECF5" opacity=".92"/><circle cx="46" cy="6" r=".7" fill="#E8ECF5" opacity=".8"/><circle cx="62" cy="10" r=".7" fill="#E8ECF5" opacity=".8"/><circle cx="78" cy="5" r=".7" fill="#E8ECF5" opacity=".8"/><circle cx="88" cy="12" r=".7" fill="#E8ECF5" opacity=".8"/><circle cx="38" cy="12" r=".7" fill="#E8ECF5" opacity=".8"/><circle cx="70" cy="16" r=".7" fill="#E8ECF5" opacity=".8"/>
-            <path d="M0 27 L20 16 L38 24 L56 11 L76 23 L100 15 V44 H0 Z" fill="#232E50"/>
-            <path d="M0 37 L24 29 L46 35 L68 25 L100 32 V44 H0 Z" fill="#0E1526"/>
-            <path class="rt" d="M8 40 C26 34 42 30 56 25 S80 17 92 13"/><circle cx="56" cy="25" r="1.6" fill="#FFD98A"/><circle cx="92" cy="13" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#131A2E"/><stop offset="100%" stop-color="#33405E"/></linearGradient>
+            <linearGradient id="pg7m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg7)"/><circle cx="24" cy="9" r="3" fill="#E8ECF5" opacity=".7"/><circle cx="46" cy="6" r=".6" fill="#E8ECF5" opacity=".55"/><circle cx="62" cy="10" r=".6" fill="#E8ECF5" opacity=".55"/><circle cx="78" cy="5" r=".6" fill="#E8ECF5" opacity=".55"/><circle cx="88" cy="12" r=".6" fill="#E8ECF5" opacity=".55"/><circle cx="38" cy="12" r=".6" fill="#E8ECF5" opacity=".55"/><circle cx="70" cy="16" r=".6" fill="#E8ECF5" opacity=".55"/>
+            <path d="M0 27 L20 16 L38 24 L56 11 L76 23 L100 15 V44 H0 Z" fill="#26304C"/>
+            <rect y="20" width="100" height="12" fill="url(#pg7m)"/>
+            <path d="M0 37 L24 29 L46 35 L68 25 L100 32 V44 H0 Z" fill="#101624"/>
           </svg><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p></a>
           <a class="path" href="pages/about.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs><linearGradient id="pg8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#131A2C"/><stop offset="100%" stop-color="#3A2A34"/></linearGradient></defs>
-            <rect width="100" height="44" fill="url(#pg8)"/><rect y="24" width="100" height="20" fill="url(#pg8g)" opacity=".8"/><radialGradient id="pg8g" cx=".5" cy="1" r="1"><stop offset="0%" stop-color="#F97316" stop-opacity=".5"/><stop offset="100%" stop-color="#F97316" stop-opacity="0"/></radialGradient><circle cx="54" cy="6" r="2" fill="#F59E0B"/>
-            <path d="M0 26 L20 14 L38 22 L54 6 L74 20 L100 13 V44 H0 Z" fill="#2C2438"/>
-            <path d="M0 36 L24 28 L46 34 L68 24 L100 31 V44 H0 Z" fill="#14101E"/>
-            <path class="rt" d="M8 40 C26 34 40 30 54 24 S78 14 90 10"/><circle cx="54" cy="24" r="1.6" fill="#FFD98A"/><circle cx="90" cy="10" r="2" fill="#FFD98A"/>
+            <defs><linearGradient id="pg8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A2130"/><stop offset="100%" stop-color="#4A4250"/></linearGradient>
+            <linearGradient id="pg8m" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity=".09"/></linearGradient></defs>
+            <rect width="100" height="44" fill="url(#pg8)"/><circle cx="54" cy="6" r="1.4" fill="#EDEACD" opacity=".8"/>
+            <path d="M0 26 L20 14 L38 22 L54 6 L74 20 L100 13 V44 H0 Z" fill="#333044"/>
+            <rect y="20" width="100" height="12" fill="url(#pg8m)"/>
+            <path d="M0 36 L24 28 L46 34 L68 24 L100 31 V44 H0 Z" fill="#16141F"/>
           </svg><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p></a>
         </div>
 
