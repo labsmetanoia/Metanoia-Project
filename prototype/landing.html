@@ -11,7 +11,6 @@
     --frame-scrim:rgba(5,10,20,.38); --frame-edge:rgba(245,239,230,.16);
     --vig:rgba(0,0,0,.42); --grain-o:.05; --ember-ink:#160d03;
     --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     color-scheme: dark;
   }
   @media (prefers-color-scheme: light){
@@ -80,7 +79,8 @@
   /* cinematic grade over footage, tuned per scene for lighting continuity,
      with a text-protection wash on the reading side */
   .frame.has-video::after{content:"";position:absolute;inset:0;pointer-events:none;
-      background:linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
+      background:radial-gradient(72% 62% at 50% 46%, var(--grade,rgba(5,9,18,.58)) 0%, transparent 78%),
+                 linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
                  linear-gradient(100deg, var(--grade,rgba(5,9,18,.58)) 8%, transparent 64%),
                  radial-gradient(130% 95% at 50% 38%, transparent 58%, var(--grade,rgba(5,9,18,.5)) 100%)}
   #call .frame{--grade:rgba(6,11,22,.66)}
@@ -149,7 +149,7 @@
   .chapter{font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:12px}
   .content h2{font-size:clamp(1.9rem,4.6vw,3.4rem);margin-top:14px;max-width:17em}
   .content .lede{font-size:clamp(1rem,1.5vw,1.15rem);color:var(--muted);max-width:36em;margin-top:18px}
-  .voice{font-family:var(--serif);font-style:italic;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.45;color:var(--text);max-width:28em;margin-top:32px}
+  .voice{font-style:italic;font-weight:500;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.45;letter-spacing:-.005em;color:var(--text);max-width:28em;margin-top:32px}
   .voice em{color:var(--accent-text);font-style:inherit}
 
   /* content reveal inside the active scene */
@@ -157,26 +157,33 @@
   .on .fx{opacity:1;transform:none}
   .on .fx.d1{transition-delay:.12s}.on .fx.d2{transition-delay:.24s}.on .fx.d3{transition-delay:.36s}.on .fx.d4{transition-delay:.48s}
 
-  /* hero scene — the Metanoia Labs brand reveal */
-  .brand{display:flex;align-items:baseline;gap:.35em;flex-wrap:wrap;margin-bottom:26px}
-  .brand .mark{font-size:clamp(2.9rem,8vw,6.6rem);font-weight:800;text-transform:uppercase;line-height:.95;
-      letter-spacing:.04em;color:var(--text);
-      text-shadow:0 0 60px rgba(249,115,22,.25),0 2px 30px rgba(0,0,0,.5)}
-  .brand .labs{font-size:clamp(1.2rem,3.2vw,2.6rem);font-weight:700;text-transform:uppercase;letter-spacing:.42em;
-      color:var(--accent-text);text-shadow:0 0 34px rgba(249,115,22,.55);
+  /* hero scene — the Metanoia Labs masthead: refined signature above, bold statement below */
+  .brand{display:flex;align-items:center;gap:16px;margin-bottom:34px;flex-wrap:wrap}
+  .brand .glyph{flex:none;filter:drop-shadow(0 0 18px rgba(249,115,22,.45))}
+  .brand .mark{font-size:clamp(1.35rem,2.7vw,2.1rem);font-weight:700;text-transform:uppercase;line-height:1;
+      letter-spacing:.32em;
+      background:linear-gradient(178deg,#FFFEFA 20%,#E4D8C4 58%,#C9B694 100%);
+      -webkit-background-clip:text;background-clip:text;color:transparent;
+      filter:drop-shadow(0 2px 14px rgba(0,0,0,.45))}
+  .brand .labs{font-size:clamp(.62rem,1.15vw,.85rem);font-weight:700;text-transform:uppercase;letter-spacing:.44em;
+      color:var(--accent-text);border:1px solid rgba(245,158,11,.55);border-radius:5px;
+      padding:.55em .9em .5em 1.2em;text-shadow:0 0 22px rgba(249,115,22,.5);
       animation:labsGlow 5s ease-in-out infinite}
-  .brand .rule{flex-basis:100%;height:1px;max-width:min(340px,42vw);margin-top:14px;
+  .brand .rule{flex-basis:100%;height:1px;max-width:min(300px,38vw);margin-top:2px;
       background:linear-gradient(90deg,var(--ember),transparent);transform-origin:left;
       animation:ruleIn 1.6s cubic-bezier(.2,.75,.2,1) .9s both}
-  @keyframes labsGlow{0%,100%{text-shadow:0 0 26px rgba(249,115,22,.4)}50%{text-shadow:0 0 52px rgba(249,158,60,.85)}}
+  @keyframes labsGlow{0%,100%{box-shadow:0 0 0 rgba(249,115,22,0);text-shadow:0 0 14px rgba(249,115,22,.35)}
+      50%{box-shadow:0 0 26px rgba(249,115,22,.28);text-shadow:0 0 30px rgba(249,158,60,.8)}}
   @keyframes ruleIn{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-  @keyframes brandIn{from{opacity:0;letter-spacing:.34em;filter:blur(14px)}to{opacity:1;letter-spacing:.04em;filter:blur(0)}}
-  @keyframes labsIn{from{opacity:0;letter-spacing:.9em;filter:blur(10px)}to{opacity:1;letter-spacing:.42em;filter:blur(0)}}
-  .boot .brand .mark{animation:brandIn 1.7s cubic-bezier(.2,.7,.2,1) .15s both}
-  .boot .brand .labs{animation:labsIn 1.7s cubic-bezier(.2,.7,.2,1) .5s both,labsGlow 5s ease-in-out 2.4s infinite}
-  #call h1{font-size:clamp(1.5rem,3.1vw,2.6rem);text-transform:uppercase;letter-spacing:.01em;line-height:1.25;font-weight:600}
+  @keyframes brandIn{from{opacity:0;letter-spacing:.6em;filter:blur(10px)}to{opacity:1;letter-spacing:.32em;filter:blur(0)}}
+  @keyframes glyphIn{from{opacity:0;transform:scale(.6) rotate(-14deg)}to{opacity:1;transform:none}}
+  @keyframes labsIn{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+  .boot .brand .glyph{animation:glyphIn 1.2s cubic-bezier(.2,.75,.2,1) .1s both}
+  .boot .brand .mark{animation:brandIn 1.7s cubic-bezier(.2,.7,.2,1) .3s both}
+  .boot .brand .labs{animation:labsIn .9s ease .95s both,labsGlow 5s ease-in-out 2s infinite}
+  #call h1{font-size:clamp(2.2rem,5.3vw,4.3rem);text-transform:uppercase;letter-spacing:-.015em;line-height:1.06;font-weight:800}
   #call h1 em{font-style:normal;color:var(--accent-text)}
-  #call .whisper{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:18px}
+  #call .whisper{font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:18px}
   #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:34em;margin-top:22px}
   .cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;text-decoration:none;font-weight:600;font-size:15.5px;
       color:var(--ember-ink);background:linear-gradient(120deg,var(--ember2),var(--ember));border-radius:999px;padding:15px 28px;
@@ -209,6 +216,24 @@
 
   #horizon .content{text-align:center}
   #horizon .voice,#horizon h2,#horizon .lede{margin-left:auto;margin-right:auto}
+
+  /* CONTACT — the fire stays lit */
+  #contact .content{max-width:900px}
+  .contact-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:28px;margin-top:40px;align-items:start}
+  @media(max-width:840px){.contact-grid{grid-template-columns:1fr}}
+  .cinfo{display:flex;flex-direction:column;gap:16px}
+  .cinfo a{color:var(--text);text-decoration:none;font-weight:600}
+  .cinfo a:hover{color:var(--accent-text)}
+  .cinfo .ln{font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text)}
+  .cform{border:1px solid var(--card-border);background:var(--card-bg);backdrop-filter:blur(10px);
+      border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:12px;text-align:left}
+  .cform input,.cform textarea{width:100%;background:rgba(245,239,230,.06);border:1px solid var(--card-border);
+      border-radius:10px;padding:12px 14px;color:var(--text);font-family:inherit;font-size:14.5px;resize:vertical}
+  .cform input::placeholder,.cform textarea::placeholder{color:var(--muted)}
+  .cform input:focus,.cform textarea:focus{outline:2px solid var(--ember2);outline-offset:1px;border-color:transparent}
+  .cform .cta{margin-top:6px;align-self:flex-start;padding:13px 24px;font-size:14.5px}
+  .has-video .cform{background:rgba(7,13,24,.62)}
+  .has-video .cform input,.has-video .cform textarea{background:rgba(245,239,230,.08);color:#F5EFE6}
   .foot-links{margin-top:44px;font-size:12.5px;color:var(--muted)}
   .foot-links a{color:var(--muted);text-decoration:none;margin:0 9px}
   .foot-links a:hover{color:var(--text)}
@@ -272,11 +297,16 @@
 <div class="bar bot" id="barBot" aria-hidden="true"></div>
 
 <nav>
-  <a class="logo" href="#" aria-label="Metanoia">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M3 19 L9 8 L13 14 L16 9 L21 19 Z" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round"/>
+  <a class="logo" href="#" aria-label="Metanoia Labs">
+    <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#F97316"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.4" stroke="url(#lgN)" stroke-width="1.6" opacity=".85"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
     </svg>
-    Metanoia
+    <span style="letter-spacing:.22em;text-transform:uppercase;font-size:14.5px">Metanoia<span style="color:var(--accent-text);margin-left:.55em;font-size:10px;letter-spacing:.34em">Labs</span></span>
   </a>
   <div class="nav-right">
     <div class="ctl" role="group" aria-label="Language / Bahasa">
@@ -312,6 +342,14 @@
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
         <div class="brand" aria-label="Metanoia Labs">
+          <svg class="glyph" width="46" height="46" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="lgB" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#F97316"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="18.4" stroke="url(#lgB)" stroke-width="1.4" opacity=".85"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgB)" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          </svg>
           <span class="mark">Metanoia</span><span class="labs">Labs</span>
           <span class="rule" aria-hidden="true"></span>
         </div>
@@ -439,9 +477,39 @@
 
         <div class="fx d3" style="margin-top:40px"><a class="cta" href="#" data-i18n="hor.cta">Get your free Career Map — the climb starts in 15 minutes</a></div>
         <p class="fx d4" style="margin-top:16px;font-size:12.5px;color:var(--muted)" data-i18n="hor.fine">Free diagnostic · Personalized route · No credit card, no spam, no generic advice</p>
-        <div class="foot-links fx d4">
-          <a href="#" data-i18n="foot.emp">Employers</a><a href="#" data-i18n="foot.mentors">Mentors</a><a href="#" data-i18n="foot.dignity">Data Dignity</a>
-          <div style="margin-top:10px" data-i18n="foot.tag">Metanoia · © 2026 · Every summit lights the next.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCENE 7 · CONTACT -->
+  <section class="sceneCard" id="contact">
+    <div class="frame">
+      <video muted loop playsinline preload="metadata"><source src="assets/07-contact.mp4" type="video/mp4"></video>
+      <div class="haze" aria-hidden="true"></div>
+      <div class="bloom" aria-hidden="true"></div>
+      <div class="content">
+        <span class="chapter fx" data-i18n="contact.ch">Chapter VI · The fire stays lit</span>
+        <h2 class="fx" data-i18n="contact.h2">Contact Us</h2>
+        <p class="lede fx d1" data-i18n="contact.lede">Whether you're a climber, a mentor, a university, or an employer — the rope team is open. Tell us where you are on the mountain.</p>
+        <div class="contact-grid fx d2">
+          <div class="cinfo">
+            <div><span class="ln" data-i18n="contact.direct">Reach us directly</span><br>
+              <a href="mailto:hello@metanoialabs.id">hello@metanoialabs.id</a></div>
+            <div><span class="ln" data-i18n="contact.follow">Follow the expedition</span><br>
+              <a href="#">LinkedIn</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a></div>
+            <div><span class="ln" data-i18n="contact.base">Basecamp</span><br>
+              <span style="color:var(--muted);font-size:14.5px">Jakarta, Indonesia</span></div>
+            <div class="foot-links" style="margin-top:8px;text-align:left">
+              <a href="#" data-i18n="foot.emp" style="margin:0 14px 0 0">Employers</a><a href="#" data-i18n="foot.mentors" style="margin:0 14px 0 0">Mentors</a><a href="#" data-i18n="foot.dignity" style="margin:0">Data Dignity</a>
+              <div style="margin-top:8px;font-size:11.5px" data-i18n="foot.tag">Metanoia · © 2026 · Every summit lights the next.</div>
+            </div>
+          </div>
+          <form class="cform" onsubmit="return false">
+            <input type="text" data-i18n-ph="contact.name" placeholder="Your name" aria-label="Name">
+            <input type="email" data-i18n-ph="contact.email" placeholder="Email" aria-label="Email">
+            <textarea rows="4" data-i18n-ph="contact.msg" placeholder="Your message — where are you on the mountain?" aria-label="Message"></textarea>
+            <button class="cta" type="submit" data-i18n="contact.send">Send message</button>
+          </form>
         </div>
       </div>
     </div>
@@ -512,7 +580,12 @@
       'paths.about':'About Metanoia','paths.about.d':'The mission behind the mountain.',
       'foot.emp':'Employers','foot.mentors':'Mentors','foot.dignity':'Data Dignity',
       'foot.tag':'Metanoia · © 2026 · Every summit lights the next.',
-      'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range'
+      'contact.ch':'Chapter VI · The fire stays lit','contact.h2':'Contact Us',
+      'contact.lede':"Whether you're a climber, a mentor, a university, or an employer — the rope team is open. Tell us where you are on the mountain.",
+      'contact.direct':'Reach us directly','contact.follow':'Follow the expedition','contact.base':'Basecamp',
+      'contact.name':'Your name','contact.email':'Email','contact.msg':'Your message — where are you on the mountain?',
+      'contact.send':'Send message',
+      'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
     },
     id: {
       'hint':'Gulir untuk menjelajahi ekspedisi',
@@ -566,7 +639,12 @@
       'paths.about':'Tentang Metanoia','paths.about.d':'Misi di balik gunung ini.',
       'foot.emp':'Perusahaan','foot.mentors':'Mentor','foot.dignity':'Martabat Data',
       'foot.tag':'Metanoia · © 2026 · Setiap puncak menyalakan puncak berikutnya.',
-      'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan'
+      'contact.ch':'Bab VI · Api tetap menyala','contact.h2':'Hubungi Kami',
+      'contact.lede':'Pendaki, mentor, kampus, maupun perusahaan — tim seutas tali ini terbuka. Ceritakan posisimu di gunung ini.',
+      'contact.direct':'Hubungi langsung','contact.follow':'Ikuti ekspedisinya','contact.base':'Basecamp',
+      'contact.name':'Nama kamu','contact.email':'Email','contact.msg':'Pesanmu — di mana posisimu di gunung ini?',
+      'contact.send':'Kirim pesan',
+      'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'
     }
   };
   let lang = (()=>{ try{ const s=localStorage.getItem('mt-lang'); if(s) return s; }catch(e){}
@@ -576,6 +654,9 @@
     root.lang = lang;
     document.querySelectorAll('[data-i18n]').forEach(el=>{
       const v=I18N[lang][el.dataset.i18n]; if(v!=null) el.innerHTML=v;
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(el=>{
+      const v=I18N[lang][el.dataset.i18nPh]; if(v!=null) el.placeholder=v;
     });
     document.getElementById('langEn').setAttribute('aria-pressed', lang==='en');
     document.getElementById('langId').setAttribute('aria-pressed', lang==='id');
@@ -667,6 +748,7 @@
 
   // brand reveal plays once on first load
   document.body.classList.add('boot');
+  const canBlur=matchMedia('(min-width:761px)').matches && !reduce;
   const smooth=t=>t*t*(3-2*t);
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
@@ -693,6 +775,9 @@
                       : 1-smooth(clamp((d-.5)/.4,0,1));    // gone by +0.9
       sc.style.transform=`translateY(${y.toFixed(3)}vh) scale(${scale.toFixed(4)})`;
       sc.style.opacity=opa.toFixed(3);
+      // gaussian cross-fade: both participants soften mid-transition, sharp at rest
+      const g=canBlur ? trans*smooth(clamp(Math.abs(d),0,1))*8 : 0;
+      sc.style.filter=g>.4?`blur(${g.toFixed(1)}px)`:'none';
       sc.style.zIndex=String(50-Math.round(d*20));       // receding card floats above the incoming world
       const fr=sc.querySelector('.frame');
       const card=smooth(clamp(-d/.55,0,1));              // 0 fullscreen → 1 floating card
@@ -767,6 +852,7 @@
     {top:[3,6,13],   mid:[8,14,28],   hor:[22,30,52],   rf:[14,20,38],  rn:[5,8,16],   stars:.95,fog:.18,snow:0,fire:1,sun:0  },
     {top:[24,30,58], mid:[122,74,92], hor:[249,158,60], rf:[70,52,72],  rn:[20,16,30], stars:.12,fog:.22,snow:0,fire:0,sun:1  },
     {top:[40,58,86], mid:[96,124,152],hor:[214,196,158],rf:[92,110,132],rn:[34,46,64], stars:0,  fog:.3, snow:0,fire:0,sun:.55},
+    {top:[5,9,18],   mid:[14,22,40],  hor:[46,44,62],   rf:[20,28,48],  rn:[6,10,20],  stars:.8, fog:.28,snow:0,fire:.3,sun:0  }, // contact: night again, camp warmth
   ];
   const PAL_L=[
     {top:[196,210,227],mid:[224,222,216],hor:[247,210,166],rf:[158,174,194],rn:[100,120,144],stars:0,fog:.5, snow:0,fire:0,sun:.15},
@@ -775,6 +861,7 @@
     {top:[178,168,192],mid:[236,192,148],hor:[250,213,150],rf:[168,148,148],rn:[108,96,103], stars:.1,fog:.22,snow:0,fire:1,sun:.1},
     {top:[182,204,231],mid:[243,213,168],hor:[255,233,182],rf:[194,184,189],rn:[138,130,138],stars:0,fog:.16,snow:0,fire:0,sun:1  },
     {top:[176,201,227],mid:[213,227,238],hor:[240,238,229],rf:[183,199,213],rn:[126,144,162],stars:0,fog:.36,snow:0,fire:0,sun:.5 },
+    {top:[164,172,196],mid:[206,198,204],hor:[244,220,188],rf:[148,154,174],rn:[94,102,122],stars:.05,fog:.3,snow:0,fire:.18,sun:.22}, // contact: alpine dusk
   ];
   const lerp=(a,b,t)=>a+(b-a)*t;
   const lerpC=(a,b,t)=>[lerp(a[0],b[0],t),lerp(a[1],b[1],t),lerp(a[2],b[2],t)];
