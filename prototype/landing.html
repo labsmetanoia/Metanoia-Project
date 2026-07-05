@@ -186,8 +186,7 @@
   .cta:hover{transform:translateY(-2px)}
 
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
-  @media(max-width:840px){.cards{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
-    .cards>.card{flex:0 0 82%;scroll-snap-align:center}}
+  @media(max-width:840px){.cards{grid-template-columns:1fr;gap:12px}}
   .card{border:1px solid var(--card-border);background:var(--card-bg);backdrop-filter:blur(10px);
       border-radius:16px;padding:22px 20px}
   .card .k{font-size:10.5px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text)}
@@ -307,6 +306,37 @@
   .hint.gone{opacity:0}
 
   #spacer{position:relative;z-index:-1;width:1px}
+
+  /* ============ MOBILE FLOW MODE ============
+     Below 761px the pinned camera stage becomes a naturally scrolling
+     vertical narrative: same world, no transforms, no inner scrolling. */
+  body.m #stage{position:static;overflow:visible}
+  body.m #spacer{display:none}
+  body.m .sceneCard{position:relative;inset:auto;visibility:visible !important;min-height:100vh;min-height:100svh;
+      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important}
+  body.m .frame{border-radius:0 !important;border:none !important;box-shadow:none !important;min-height:100vh;min-height:100svh;
+      height:auto;align-items:stretch}
+  body.m .frame::before{opacity:0 !important}
+  body.m .haze,body.m .bloom,body.m .bar{display:none}
+  body.m .content{max-height:none;overflow:visible;transform:none !important;
+      padding:96px 22px 84px;display:flex;flex-direction:column;justify-content:center}
+  body.m .sceneCard:last-child .content{padding-bottom:110px}
+  body.m .stats{gap:26px}
+  body.m .contact-grid{grid-template-columns:1fr}
+  body.m .paths{grid-template-columns:1fr 1fr;gap:9px}
+  body.m .path{padding:12px 12px 11px}
+  body.m .path svg{height:46px;margin-bottom:8px}
+  body.m .path h4{font-size:12px}
+  body.m .path p{font-size:10.5px}
+  body.m .exp{bottom:12px;padding:6px 8px;max-width:calc(100vw - 20px)}
+  body.m .exp .wp{padding:7px 5px}
+  body.m .exp .seg{width:6px}
+  body.m .exp .wp .lbl{font-size:9px;letter-spacing:.12em}
+  body.m .exp .wp[aria-current="true"] .lbl{max-width:82px}
+  body.m #call h1 br{display:none}
+  @media(max-width:480px){.logo .wm,.logo .lbar{display:none}}
+  body.m .cform{padding:18px}
+  body.m .voice{font-size:1.15rem}
 
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important}
@@ -820,9 +850,14 @@
   const SCENES=[...document.querySelectorAll('.sceneCard')];
   const N=SCENES.length;
   const spacer=document.getElementById('spacer');
-  let SEG=0;
-  function layout(){ SEG=innerHeight*1.7; spacer.style.height=(SEG*(N-1)+innerHeight)+'px'; }
-  layout(); addEventListener('resize',layout);
+  let SEG=0, mobile=false;
+  function layout(){
+    mobile = matchMedia('(max-width:760px)').matches;
+    document.body.classList.toggle('m', mobile);
+    SEG=innerHeight*1.7;
+    spacer.style.height = mobile ? '0px' : (SEG*(N-1)+innerHeight)+'px';
+  }
+  layout(); addEventListener('resize',()=>{ layout(); measure(); });
 
   // video layers: activate when the file is actually present (real footage drop-in)
   SCENES.forEach(sc=>{
@@ -846,7 +881,10 @@
       expNav.appendChild(b);
     });
   }
-  function goTo(i){ scrollTo({top:i*SEG,behavior:reduce?'auto':'smooth'}); }
+  function goTo(i){
+    const top = mobile ? SCENES[i].offsetTop : i*SEG;
+    scrollTo({top,behavior:reduce?'auto':'smooth'});
+  }
   document.querySelectorAll('[data-goto]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();goTo(+el.dataset.goto);}));
   addEventListener('keydown',e=>{
     if(['ArrowRight','ArrowDown','PageDown'].includes(e.key)){ e.preventDefault(); goTo(Math.min(N-1,Math.round(cur)+1)); }
@@ -854,7 +892,15 @@
   });
 
   let target=0, cur=0;
-  function measure(){ target=Math.max(0,Math.min(N-1, scrollY/SEG)); }
+  function measure(){
+    if(!mobile){ target=Math.max(0,Math.min(N-1, scrollY/SEG)); return; }
+    // mobile flow: continuous index from the section under the viewport centre
+    const mid=scrollY+innerHeight*.55; let f=N-1;
+    for(let i=0;i<N;i++){ const t=SCENES[i].offsetTop,h=SCENES[i].offsetHeight;
+      if(mid<t){ f=Math.max(0,i-.5); break; }
+      if(mid<t+h){ f=i+Math.max(0,Math.min(1,(mid-t)/h)); break; } }
+    target=Math.max(0,Math.min(N-1,f));
+  }
   measure(); addEventListener('scroll',measure,{passive:true});
 
   // spatial presence: the whole stage leans gently against the pointer (desktop)
@@ -876,6 +922,21 @@
   let lastActive=-1;
   function updateScenes(){
     const active=Math.round(cur);
+    if(mobile){
+      // vertical flow: no camera transforms — just video hygiene, reveals, nav state
+      SCENES.forEach((sc,i)=>{
+        const d=i-cur, vid=sc.querySelector('video');
+        if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
+        else if(vid && sc.querySelector('.frame').classList.contains('has-video')){
+          if(vid.preload!=='auto') vid.preload='auto';
+          if(vid.paused) vid.play().catch(()=>{});
+        }
+        if(d<.85 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.6) fireCounts(sc); }
+      });
+      expNav.querySelectorAll('.wp').forEach((b,i)=>b.setAttribute('aria-current', i===active));
+      lastActive=active;
+      return 0;
+    }
     const tf=cur-Math.floor(cur), trans=reduce?0:4*tf*(1-tf);   // 0 at rest → 1 mid-transition
     SCENES.forEach((sc,i)=>{
       const d=i-cur;                                     // + ahead of camera, − left behind
