@@ -78,7 +78,7 @@
   .frame.has-video video{opacity:1}
   /* cinematic grade over footage, tuned per scene for lighting continuity,
      with a text-protection wash on the reading side */
-  .frame.has-video::after{content:"";position:absolute;inset:0;pointer-events:none;
+  .frame.has-video::after,body.m .frame.has-still::after{content:"";position:absolute;inset:0;pointer-events:none;
       background:radial-gradient(72% 62% at 50% 46%, var(--grade,rgba(5,9,18,.58)) 0%, transparent 78%),
                  linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
                  linear-gradient(100deg, var(--grade,rgba(5,9,18,.58)) 8%, transparent 64%),
@@ -87,10 +87,10 @@
   #prep .frame{--grade:rgba(16,20,30,.6)}
   #climb .frame{--grade:rgba(7,9,14,.72)}
   /* footage is graded dark — text over it stays light in both themes */
-  .has-video .content{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623;color:var(--text);
+  .has-video .content,body.m .has-still .content{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623;color:var(--text);
       text-shadow:0 1px 3px rgba(0,0,0,.55),0 2px 26px rgba(0,0,0,.55)}
-  .has-video .card{--card-border:rgba(245,239,230,.16);background:rgba(7,13,24,.62);text-shadow:none}
-  .has-video .gear .row{border-bottom-color:rgba(245,239,230,.18)}
+  .has-video .card,body.m .has-still .card{--card-border:rgba(245,239,230,.16);background:rgba(7,13,24,.62);text-shadow:none}
+  .has-video .gear .row,body.m .has-still .gear .row{border-bottom-color:rgba(245,239,230,.18)}
 
   /* Day mode: footage lifts into airy documentary light; grades soften */
   :root[data-theme="light"] .frame video{filter:brightness(1.16) saturate(1.05) contrast(.97)}
@@ -341,7 +341,35 @@
   body.m .frame::before{opacity:0 !important}
   body.m .haze,body.m .bloom,body.m .bar{display:none}
   body.m .content{max-height:none;overflow:visible;transform:none !important;
-      padding:96px 22px 84px;display:flex;flex-direction:column;justify-content:center}
+      padding:110px 22px 108px;display:flex;flex-direction:column;justify-content:flex-end}
+  body.m #call .content{justify-content:center;padding-bottom:84px}
+  /* portrait stills replace cropped landscape video (The Valley keeps its film) */
+  .mbg{display:none}
+  body.m .mbg{display:block;position:absolute;inset:0;background-size:cover;background-position:center}
+  body.m .sceneCard:not(#call) .frame video{display:none}
+  body.m .content h2{font-size:clamp(1.75rem,8vw,2.3rem)}
+  body.m .lede{font-size:15px;line-height:1.6}
+  body.m .voice{font-size:1.12rem;margin-top:24px}
+  body.m .chapter{font-size:10px;margin-bottom:10px}
+  body.m .card{padding:16px 15px}
+  body.m .card .badge{width:31px;height:31px}
+  body.m .card .badge svg{width:15px;height:15px}
+  body.m .card h3{font-size:15.5px}
+  body.m .card p{font-size:13px}
+  body.m .gear .row{padding:11px 0;gap:12px}
+  body.m .gear h3{font-size:14.5px}
+  body.m .gear p{font-size:12.5px;margin-top:3px}
+  body.m .stats{display:grid;grid-template-columns:1fr 1fr;gap:20px 10px;margin-top:30px}
+  body.m .cta{width:100%;justify-content:center}
+  body.m #call .cta{width:auto}
+  /* altitude chip — handheld companion to the desktop rail */
+  .mchip{display:none}
+  body.m .mchip{display:flex;position:fixed;top:62px;right:14px;z-index:9;align-items:center;gap:6px;
+      border:1px solid var(--nav-border);border-radius:999px;padding:5px 11px;pointer-events:none;
+      backdrop-filter:blur(10px);background:color-mix(in srgb, var(--bg) 42%, transparent);
+      font-size:10.5px;font-weight:700;letter-spacing:.08em;font-variant-numeric:tabular-nums;color:var(--text)}
+  .mchip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ember);
+      box-shadow:0 0 8px rgba(249,115,22,.8)}
   body.m .sceneCard:last-child .content{padding-bottom:110px}
   body.m .stats{gap:26px}
   body.m .contact-grid{grid-template-columns:1fr}
@@ -472,6 +500,8 @@
   <div class="track"><div class="dot" id="railDot" style="top:100%"></div></div>
 </div>
 
+<div class="mchip" aria-hidden="true"><span id="mAlt">1,200 m</span></div>
+
 <div class="hint" id="hint" data-i18n="hint">Scroll to move through the expedition</div>
 
 <div id="stage">
@@ -513,6 +543,7 @@
   <section class="sceneCard" id="prep">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/02-prep.mp4" type="video/mp4"></video>
+      <div class="mbg" style="background-image:url(assets/m/02-prep.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -534,6 +565,7 @@
   <section class="sceneCard" id="climb">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/03-climb.mp4" type="video/mp4"></video>
+      <div class="mbg" style="background-image:url(assets/m/03-climb.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -555,6 +587,7 @@
   <section class="sceneCard" id="basecamp">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/04-basecamp.mp4" type="video/mp4"></video>
+      <div class="mbg" style="background-image:url(assets/m/04-basecamp.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -576,6 +609,7 @@
   <section class="sceneCard" id="summit">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/05-summit.mp4" type="video/mp4"></video>
+      <div class="mbg" style="background-image:url(assets/m/05-summit.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -597,6 +631,7 @@
   <section class="sceneCard" id="horizon">
     <div class="frame">
       <video muted loop playsinline preload="metadata"><source src="assets/06-horizon.mp4" type="video/mp4"></video>
+      <div class="mbg" style="background-image:url(assets/m/06-horizon.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -835,6 +870,23 @@
       'contact.name':'Your name','contact.email':'Email','contact.msg':'Your message — where are you on the mountain?',
       'contact.send':'Send message',
       'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
+      'hero.sub@m':'The map, the gear, the rope team — everything the privileged inherit, now yours.',
+      'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a 90-day route to your target role.',
+      'prep.g1p@m':'Fifteen minutes to your honest position on the mountain.',
+      'prep.g2p@m':'Real ATS scoring with line-by-line fixes.',
+      'prep.g3p@m':'AI mocks tuned to your weak points. STAR feedback every rep.',
+      'prep.g4p@m':'One highest-leverage step at a time.',
+      'climb.lede@m':"Rejection. Ghosting. Doubt. This is where climbers turn back — because they climb alone. You won't.",
+      'climb.c1p@m':'Meta remembers every rep — and calls your next move.',
+      'climb.c2p@m':"Practice partners at your stage. Catch each other's falls.",
+      'climb.c3p@m':'The storm is part of the route. We train you for it.',
+      'base.lede@m':"Cohorts who move together. Mentors who've stood on your summit. Alumni who came back for you.",
+      'base.c1p@m':'Twenty climbers, one route, shared wins.',
+      'base.c2p@m':'Your exact jump, one conversation away.',
+      'base.c3p@m':'Every summit returns as a guide.',
+      'summit.lede@m':"Verified credentials over pedigree. Employers who see your work first. An offer negotiated like you've done this before.",
+      'hor.lede@m':"Careers are ranges now, not one mountain. Metanoia stays on your rope — and one day, you'll hold the map for someone else.",
+      'contact.lede@m':'Climber, mentor, campus, or employer — the rope team is open.',
       'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
     },
     id: {
@@ -897,16 +949,36 @@
       'contact.name':'Nama kamu','contact.email':'Email','contact.msg':'Pesanmu — di mana posisimu di gunung ini?',
       'contact.send':'Kirim pesan',
       'page.wip':'Jalur ini sedang dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
+      'hero.sub@m':'Peta, perlengkapan, tim seutas tali — semua yang diwarisi kaum beruntung, kini milikmu.',
+      'prep.lede@m':'Ranselmu terisi: diagnostik yang menemukan titik awalmu, dan rute 90 hari menuju peran impianmu.',
+      'prep.g1p@m':'Lima belas menit menuju posisimu yang jujur di gunung ini.',
+      'prep.g2p@m':'Skor ATS nyata dengan perbaikan baris demi baris.',
+      'prep.g3p@m':'Simulasi AI untuk titik lemahmu. Umpan balik STAR di setiap latihan.',
+      'prep.g4p@m':'Satu langkah paling berdampak pada satu waktu.',
+      'climb.lede@m':'Penolakan. Diabaikan. Keraguan. Di sinilah pendaki berbalik — karena mendaki sendirian. Kamu tidak.',
+      'climb.c1p@m':'Meta mengingat setiap latihan — dan menyerukan langkah berikutnya.',
+      'climb.c2p@m':'Partner latihan sepadan tahapmu. Saling menjaga.',
+      'climb.c3p@m':'Badai adalah bagian dari rute. Kami melatihmu menghadapinya.',
+      'base.lede@m':'Kohort yang bergerak bersama. Mentor yang pernah di puncakmu. Alumni yang kembali untukmu.',
+      'base.c1p@m':'Dua puluh pendaki, satu rute, kemenangan bersama.',
+      'base.c2p@m':'Lompatan yang sama, sejauh satu percakapan.',
+      'base.c3p@m':'Setiap puncak kembali sebagai pemandu.',
+      'summit.lede@m':'Kredensial terverifikasi di atas nama kampus. Perekrut yang melihat karyamu lebih dulu. Tawaran yang dinegosiasikan dengan tenang.',
+      'hor.lede@m':'Karier kini pegunungan, bukan satu gunung. Metanoia tetap pada talimu — dan kelak kamu memegang peta untuk orang lain.',
+      'contact.lede@m':'Pendaki, mentor, kampus, atau perusahaan — tim seutas tali ini terbuka.',
       'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'
     }
   };
+  const mobileNow=()=>document.body.classList.contains('m');
   let lang = (()=>{ try{ const s=localStorage.getItem('mt-lang'); if(s) return s; }catch(e){}
                     return (navigator.language||'').toLowerCase().startsWith('id') ? 'id' : 'en'; })();
 
   function renderLang(){
     root.lang = lang;
     document.querySelectorAll('[data-i18n]').forEach(el=>{
-      const v=I18N[lang][el.dataset.i18n]; if(v!=null) el.innerHTML=v;
+      const k=el.dataset.i18n;
+      const v=(mobileNow() && I18N[lang][k+'@m']!=null) ? I18N[lang][k+'@m'] : I18N[lang][k];
+      if(v!=null) el.innerHTML=v;
     });
     document.querySelectorAll('[data-i18n-ph]').forEach(el=>{
       const v=I18N[lang][el.dataset.i18nPh]; if(v!=null) el.placeholder=v;
@@ -1117,12 +1189,15 @@
   const spacer=document.getElementById('spacer');
   let SEG=0, mobile=false;
   function layout(){
+    const was=mobile;
     mobile = matchMedia('(max-width:760px)').matches;
     document.body.classList.toggle('m', mobile);
+    SCENES.forEach((sc,i)=>{ if(i>0) sc.querySelector('.frame').classList.toggle('has-still', mobile && !!sc.querySelector('.mbg')); });
     SEG=innerHeight*1.7;
     spacer.style.height = mobile ? '0px' : (SEG*(N-1)+innerHeight)+'px';
+    return was!==mobile;
   }
-  layout(); addEventListener('resize',()=>{ layout(); measure(); });
+  layout(); addEventListener('resize',()=>{ const ch=layout(); measure(); if(ch) renderLang(); });
 
   // video layers: activate when the file is actually present (real footage drop-in)
   SCENES.forEach(sc=>{
@@ -1188,10 +1263,11 @@
   function updateScenes(){
     const active=Math.round(cur);
     if(mobile){
-      // vertical flow: no camera transforms — just video hygiene, reveals, nav state
+      // vertical flow: portrait stills carry scenes 2+; only The Valley streams film
       SCENES.forEach((sc,i)=>{
         const d=i-cur, vid=sc.querySelector('video');
-        if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
+        if(i>0 && sc.querySelector('.mbg')){ if(vid && !vid.paused) vid.pause(); }
+        else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
         else if(vid && sc.querySelector('.frame').classList.contains('has-video')){
           if(vid.preload!=='auto') vid.preload='auto';
           if(vid.paused) vid.play().catch(()=>{});
@@ -1323,7 +1399,9 @@
   const hint=document.getElementById('hint');
   function rail(){
     const p=cur/(N-1);
-    altNum.textContent=Math.round(1200+p*(8859-1200)).toLocaleString(lang==='id'?'id-ID':'en-US')+' m';
+    const altTxt=Math.round(1200+p*(8859-1200)).toLocaleString(lang==='id'?'id-ID':'en-US')+' m';
+    altNum.textContent=altTxt;
+    const mA=document.getElementById('mAlt'); if(mA) mA.textContent=altTxt;
     railDot.style.top=(100-p*100)+'%';
     hint.classList.toggle('gone',cur>.3);
   }
