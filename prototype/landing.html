@@ -338,6 +338,22 @@
   body.m .cform{padding:18px}
   body.m .voice{font-size:1.15rem}
 
+  /* in-page route view (used when the experience runs as a single file) */
+  .pageview{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;text-align:center;
+      background:radial-gradient(1200px 600px at 70% -10%, rgba(249,115,22,.10), transparent 60%), var(--bg);
+      opacity:0;pointer-events:none;transition:opacity .35s ease}
+  .pageview.open{opacity:1;pointer-events:auto}
+  .pageview .pv-in{max-width:560px;padding:40px}
+  .pageview .pv-lockup{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:38px}
+  .pageview .pv-bar{width:1px;height:44px;background:var(--nav-border)}
+  .pageview .pv-wm b{display:block;font-size:19px;letter-spacing:.3em;font-weight:700;text-transform:uppercase}
+  .pageview .pv-wm i{display:block;font-style:normal;text-align:right;font-size:9.5px;letter-spacing:.44em;
+      color:var(--accent-text);font-weight:700;margin-top:3px;text-transform:uppercase}
+  .pageview h1{font-size:clamp(1.8rem,5vw,2.8rem);margin:0 0 8px;letter-spacing:-.01em}
+  .pageview .pv-sub{color:var(--muted);font-size:15px;margin-bottom:22px}
+  .pageview p{color:var(--muted);line-height:1.7;margin:0 0 8px}
+  .pageview .cta{margin-top:26px}
+
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important}
     .fx{opacity:1 !important;transform:none !important}
@@ -392,6 +408,27 @@
     </button>
   </div>
 </nav>
+
+<div class="pageview" id="pageview" role="dialog" aria-modal="true">
+  <div class="pv-in">
+    <div class="pv-lockup">
+      <svg width="50" height="50" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <defs><linearGradient id="lgP" x1="0" y1="1" x2="1" y2="0">
+          <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
+        <circle cx="20" cy="20" r="18.2" stroke="url(#lgP)" stroke-width="1.6" opacity=".9"/>
+        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgP)" stroke-width="2.4"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+      </svg>
+      <span class="pv-bar"></span>
+      <span class="pv-wm"><b>Metanoia</b><i>Labs</i></span>
+    </div>
+    <h1 id="pvTitle"></h1>
+    <p class="pv-sub" id="pvSub"></p>
+    <p data-i18n="page.wip">This trail is still being mapped. The full experience is on its way.</p>
+    <a class="cta" href="#" id="pvBack" data-i18n="page.back">← Back to Basecamp</a>
+  </div>
+</div>
 
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
@@ -727,6 +764,7 @@
       'contact.direct':'Reach us directly','contact.follow':'Follow the expedition','contact.base':'Basecamp',
       'contact.name':'Your name','contact.email':'Email','contact.msg':'Your message — where are you on the mountain?',
       'contact.send':'Send message',
+      'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
       'stage.call':'The Valley','stage.prep':'Preparation','stage.climb':'The Climb','stage.basecamp':'Basecamp','stage.summit':'The Summit','stage.horizon':'The Range','stage.contact':'Contact'
     },
     id: {
@@ -788,6 +826,7 @@
       'contact.direct':'Hubungi langsung','contact.follow':'Ikuti ekspedisinya','contact.base':'Basecamp',
       'contact.name':'Nama kamu','contact.email':'Email','contact.msg':'Pesanmu — di mana posisimu di gunung ini?',
       'contact.send':'Kirim pesan',
+      'page.wip':'Jalur ini sedang dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
       'stage.call':'Lembah','stage.prep':'Persiapan','stage.climb':'Pendakian','stage.basecamp':'Basecamp','stage.summit':'Puncak','stage.horizon':'Pegunungan','stage.contact':'Kontak'
     }
   };
@@ -814,6 +853,30 @@
     stg.style.transition='opacity .18s ease'; stg.style.opacity='0';
     setTimeout(()=>{ renderLang(); stg.style.opacity='1'; },180);
   }
+  // In single-file mode page links are rewritten to #page:<slug>; this router serves them.
+  const ROUTES={student:'paths.student','fresh-graduate':'paths.fresh','early-professional':'paths.early',
+    'mature-professional':'paths.mature',enterprise:'paths.ent',mentors:'paths.mentor',
+    'mind-palace':'paths.mind',about:'nav.about'};
+  const pv=document.getElementById('pageview');
+  function routeTo(slug){
+    const key=ROUTES[slug]; if(!key) return false;
+    document.getElementById('pvTitle').textContent=I18N[lang][key]||slug;
+    const dKey=key.startsWith('paths.')?key+'.d':null;
+    document.getElementById('pvSub').textContent=dKey&&I18N[lang][dKey]?I18N[lang][dKey]:'';
+    pv.classList.add('open'); return true;
+  }
+  function routeHome(){ pv.classList.remove('open'); }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a[href^="#page:"]'); if(!a) return;
+    e.preventDefault(); const slug=a.getAttribute('href').slice(6);
+    if(routeTo(slug)) history.pushState({page:slug},'','#page:'+slug);
+  });
+  document.getElementById('pvBack').addEventListener('click',e=>{e.preventDefault();routeHome();
+    history.pushState({},'',location.pathname);});
+  addEventListener('popstate',()=>{ const m=location.hash.match(/^#page:(.+)$/);
+    if(m) routeTo(m[1]); else routeHome(); });
+  { const m=location.hash.match(/^#page:(.+)$/); if(m) routeTo(m[1]); }
+
   const sheet=document.getElementById('sheet'),burger=document.getElementById('burger');
   function sheetSet(open){ sheet.classList.toggle('open',open); burger.setAttribute('aria-expanded',open); }
   burger.addEventListener('click',()=>sheetSet(true));
