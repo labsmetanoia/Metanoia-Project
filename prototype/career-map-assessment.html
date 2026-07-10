@@ -1,0 +1,1032 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Career Map Assessment — Metanoia Labs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+<style>
+  :root{
+    --navy:#1A2E4A; --navy-deep:#12233B; --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309;
+    --white:#FFFFFF; --gray:#F1F5F9; --ink:#111827; --muted:#5B6B7F; --line:#E2E8F0;
+    --gold1:#C97B1E; --gold2:#F5A623;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:'Inter',ui-sans-serif,system-ui,-apple-system,Arial,sans-serif;color:var(--ink);
+       background:var(--gray);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{margin:0;line-height:1.15;letter-spacing:-.015em}
+  p{margin:0}
+  button{font-family:inherit;cursor:pointer}
+  .screen{display:none;min-height:100vh;min-height:100svh}
+  .screen.active{display:block}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* ---------- shared chrome ---------- */
+  .brandbar{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;max-width:1060px;margin:0 auto}
+  .lockup{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .lockup .wm{color:inherit}
+  .lockup .wm b{display:block;font-size:12.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;line-height:1}
+  .lockup .wm i{display:block;font-style:normal;font-size:7.5px;font-weight:800;letter-spacing:.42em;text-transform:uppercase;
+      color:var(--gold2);text-align:right;margin-top:2px}
+  .lang{display:flex;border:1px solid rgba(255,255,255,.35);border-radius:999px;overflow:hidden}
+  .lang button{background:none;border:0;color:inherit;opacity:.65;font-size:11px;font-weight:800;letter-spacing:.08em;padding:6px 11px}
+  .lang button[aria-pressed="true"]{opacity:1;background:rgba(255,255,255,.16)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:12px;
+      font-weight:700;font-size:16px;padding:16px 28px;text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px}
+  .btn-primary{background:linear-gradient(120deg,var(--cobalt),var(--teal));color:#fff;box-shadow:0 8px 28px rgba(29,95,171,.35)}
+  .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+  .btn-ghost-d{background:transparent;border:1px solid rgba(255,255,255,.35);color:#fff}
+
+  /* topographic contour background for dark screens */
+  .topo{position:absolute;inset:0;opacity:.16;pointer-events:none}
+
+  /* ---------- 1 · HERO ---------- */
+  #s-hero{background:radial-gradient(1100px 480px at 75% -10%, rgba(29,95,171,.35), transparent 60%), var(--navy);color:#fff;position:relative;overflow:hidden}
+  #s-hero .hero-in{position:relative;max-width:720px;margin:0 auto;padding:7vh 20px 80px}
+  #s-hero h1{font-size:clamp(2.1rem,7vw,3.4rem);font-weight:800}
+  #s-hero .sub{color:#B9C7DA;font-size:clamp(1rem,2.4vw,1.2rem);margin-top:18px;max-width:34em}
+  .getlist{margin:30px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:11px}
+  .getlist li{display:flex;gap:12px;align-items:flex-start;color:#DCE5F0;font-size:15px}
+  .getlist svg{flex:none;margin-top:4px}
+  #s-hero .cta-row{margin-top:36px;display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+  #s-hero .fine{color:#8FA2BC;font-size:12.5px;letter-spacing:.02em}
+
+  /* ---------- question screens ---------- */
+  .qshell{background:var(--gray);min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+  .qtop{background:var(--navy);color:#fff;padding-bottom:14px}
+  .qmeta{max-width:720px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .qmeta .qcount{font-size:12.5px;font-weight:700;letter-spacing:.06em;color:#B9C7DA}
+  .qmeta .qsec{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2)}
+  .pbar{max-width:720px;margin:10px auto 0;padding:0 20px}
+  .pbar .track{height:5px;border-radius:99px;background:rgba(255,255,255,.16);overflow:hidden}
+  .pbar .fill{height:100%;width:0%;border-radius:99px;background:linear-gradient(90deg,var(--cobalt),var(--teal));transition:width .35s ease}
+  .qbody{flex:1;display:flex;flex-direction:column;justify-content:center;max-width:720px;width:100%;margin:0 auto;padding:34px 20px 26px}
+  .qbody h2{font-size:clamp(1.25rem,4.6vw,1.6rem);font-weight:700;line-height:1.35}
+  .qhint{color:var(--muted);font-size:13.5px;margin-top:8px}
+  .opts{display:flex;flex-direction:column;gap:11px;margin-top:26px}
+  .opt{position:relative;text-align:left;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:15px 16px 15px 50px;
+      font-size:14.5px;line-height:1.5;color:var(--ink);transition:border-color .18s,box-shadow .18s,background .18s}
+  .opt::before{content:"";position:absolute;left:16px;top:50%;transform:translateY(-50%);width:20px;height:20px;border-radius:50%;
+      border:2px solid #C6D2E0;background:#fff;transition:all .18s}
+  .opt:hover{border-color:var(--cobalt)}
+  .opt.sel{border-color:var(--cobalt);background:#EFF6FF;box-shadow:0 4px 18px rgba(29,95,171,.14)}
+  .opt.sel::before{border-color:var(--cobalt);background:var(--cobalt);box-shadow:inset 0 0 0 4px #fff}
+  .opt.flash{animation:optflash .32s ease}
+  @keyframes optflash{0%{transform:scale(1)}45%{transform:scale(.985)}100%{transform:scale(1)}}
+  .qnav{display:flex;justify-content:space-between;align-items:center;max-width:720px;width:100%;margin:0 auto;padding:0 20px 30px}
+  .qnav .back{background:none;border:0;color:var(--muted);font-size:14px;font-weight:600;display:flex;align-items:center;gap:7px;padding:10px 6px}
+  .qnav .back:hover{color:var(--ink)}
+  .qnav .next{padding:12px 24px;font-size:14.5px;border-radius:10px}
+  .qnav .next[disabled]{opacity:.4;pointer-events:none}
+  .otherbox{margin-top:10px;display:none}
+  .otherbox input{width:100%;border:1.5px solid var(--cobalt);border-radius:12px;padding:13px 15px;font-family:inherit;font-size:14.5px}
+  .namebox input{width:100%;border:1.5px solid var(--line);border-radius:14px;padding:16px;font-family:inherit;font-size:16px;margin-top:26px}
+  .namebox input:focus{outline:none;border-color:var(--cobalt);box-shadow:0 4px 18px rgba(29,95,171,.14)}
+
+  /* ---------- interstitials ---------- */
+  .inter{background:var(--navy);color:#fff;min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;
+      text-align:center;position:relative;overflow:hidden;cursor:pointer}
+  .inter .in{position:relative;max-width:560px;padding:40px 24px}
+  .inter .badge{font-size:11px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--gold2)}
+  .inter h2{font-size:clamp(1.9rem,7vw,2.7rem);font-weight:800;margin-top:14px}
+  .inter p{color:#B9C7DA;margin-top:16px;font-size:15.5px}
+  .inter .tap{margin-top:34px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8FA2BC;animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+  .inter svg.peak{display:block;margin:0 auto 8px}
+
+  /* ---------- loading ---------- */
+  #s-loading{background:var(--navy-deep);color:#fff;display:none;min-height:100vh;min-height:100svh}
+  #s-loading.active{display:flex;align-items:center;justify-content:center;text-align:center}
+  #s-loading .in{max-width:480px;padding:24px}
+  .loadmark{animation:markpulse 2.2s ease-in-out infinite}
+  @keyframes markpulse{0%,100%{transform:scale(1);filter:drop-shadow(0 0 12px rgba(245,166,35,.35))}
+      50%{transform:scale(1.06);filter:drop-shadow(0 0 26px rgba(245,166,35,.7))}}
+  .loadmsg{margin-top:26px;font-size:15.5px;color:#B9C7DA;min-height:1.6em;transition:opacity .4s}
+  .climbtrack{margin-top:30px}
+  .climbtrack .route{stroke-dasharray:340;stroke-dashoffset:340;animation:climb 5.2s ease-in-out forwards}
+  @keyframes climb{to{stroke-dashoffset:0}}
+
+  /* ---------- report ---------- */
+  #s-report{background:var(--gray);padding-bottom:60px}
+  .rtoolbar{position:sticky;top:0;z-index:20;background:rgba(26,46,74,.97);color:#fff;padding:10px 16px;
+      display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .rtoolbar .acts{display:flex;gap:9px;flex-wrap:wrap}
+  .rtoolbar .btn{padding:9px 16px;font-size:13px;border-radius:9px}
+  #report-content{max-width:820px;margin:26px auto 0;padding:0 14px}
+  .rp{background:#fff;border-radius:18px;box-shadow:0 4px 26px rgba(17,24,39,.07);margin-bottom:26px;padding:44px 40px;overflow:hidden;position:relative}
+  @media(max-width:560px){.rp{padding:30px 22px;border-radius:14px}}
+  .rp.dark{background:var(--navy);color:#fff}
+  .rp .eyebrow{font-size:11px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--cobalt)}
+  .rp.dark .eyebrow{color:var(--gold2)}
+  .rp h2{font-size:clamp(1.5rem,4.5vw,2.1rem);font-weight:800;margin-top:10px}
+  .rp .lead{color:var(--muted);margin-top:14px;font-size:15.5px}
+  .rp.dark .lead{color:#B9C7DA}
+  .rnarr p{margin-top:14px;font-size:15.5px;line-height:1.75}
+  .cover-gauge{display:flex;flex-direction:column;align-items:center;margin:34px 0 8px}
+  .band-chip{display:inline-flex;align-items:center;gap:8px;margin-top:18px;border:1px solid rgba(245,166,35,.5);color:var(--gold2);
+      border-radius:999px;padding:7px 18px;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+  .cover-meta{display:flex;gap:26px;justify-content:center;margin-top:26px;color:#8FA2BC;font-size:12.5px;flex-wrap:wrap}
+  .rfoot{margin-top:30px;padding-top:16px;border-top:1px solid rgba(255,255,255,.14);color:#8FA2BC;font-size:11.5px;
+      letter-spacing:.06em;text-align:center}
+  .dim-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .dim-ic{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:#fff}
+  .dim-score{margin-left:auto;text-align:right}
+  .dim-score b{font-size:22px;font-variant-numeric:tabular-nums}
+  .dim-score span{display:block;font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+  .dimbar{height:7px;border-radius:99px;background:var(--gray);margin-top:18px;overflow:hidden}
+  .dimbar i{display:block;height:100%;border-radius:99px}
+  .sg{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:640px){.sg{grid-template-columns:1fr}}
+  .sg .col h4{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;margin-bottom:10px}
+  .sg .col.s h4{color:var(--teal)} .sg .col.g h4{color:var(--amber)}
+  .sg ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+  .sg li{font-size:13.8px;line-height:1.55;padding-left:20px;position:relative;color:#33415A}
+  .sg .col.s li::before{content:"▲";position:absolute;left:0;color:var(--teal);font-size:10px;top:4px}
+  .sg .col.g li::before{content:"●";position:absolute;left:0;color:var(--amber);font-size:10px;top:4px}
+  .actions{margin-top:22px;background:#F0F7FF;border:1px solid #D3E4F8;border-radius:14px;padding:18px}
+  .actions h4{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--cobalt);font-weight:800}
+  .actions ol{margin:10px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:9px;font-size:14px}
+  .bigitem{border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:16px}
+  .bigitem .tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+      border-radius:999px;padding:4px 12px;margin-bottom:12px}
+  .bigitem.st .tag{background:#E6F4F1;color:var(--teal)}
+  .bigitem.gp .tag{background:#FDF0E3;color:var(--amber)}
+  .bigitem h3{font-size:16.5px;font-weight:700}
+  .bigitem p{font-size:14.2px;color:#33415A;margin-top:8px;line-height:1.65}
+  .bigitem .fix{margin-top:12px;padding:12px 14px;background:var(--gray);border-radius:10px;font-size:13.5px}
+  .bigitem .fix b{color:var(--cobalt)}
+  .phase{margin-top:22px}
+  .phase-h{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--gray);padding-bottom:10px}
+  .phase-h .m{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--cobalt)}
+  .phase-h h3{font-size:17px;font-weight:800}
+  .ritem{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--gray)}
+  .ritem:last-child{border-bottom:0}
+  .ritem .pr{flex:none;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border-radius:6px;
+      padding:4px 8px;height:fit-content;margin-top:2px}
+  .pr.p1{background:#FDECEC;color:#B42318}.pr.p2{background:#FDF0E3;color:var(--amber)}.pr.p3{background:#EFF6FF;color:var(--cobalt)}
+  .ritem h4{font-size:14.5px;font-weight:700}
+  .ritem .t{font-size:11.5px;color:var(--muted);font-weight:600;margin-left:8px;white-space:nowrap}
+  .ritem p{font-size:13.2px;color:var(--muted);margin-top:5px;line-height:1.55}
+  .featrec{display:flex;gap:16px;border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:14px;align-items:flex-start}
+  .featrec .fi{flex:none;width:42px;height:42px;border-radius:11px;display:grid;place-items:center;color:#fff;font-weight:800}
+  .featrec h3{font-size:15.5px}
+  .featrec p{font-size:13.5px;color:var(--muted);margin-top:5px}
+  .radar-wrap{display:flex;justify-content:center;margin-top:26px}
+  .radar-legend{display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;margin-top:18px}
+  .radar-legend span{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:7px;font-weight:600}
+  .radar-legend b{font-variant-numeric:tabular-nums;color:var(--ink)}
+
+  /* capture */
+  #capture{max-width:820px;margin:10px auto 0;padding:0 14px}
+  .capcard{background:var(--navy);color:#fff;border-radius:18px;padding:40px;position:relative;overflow:hidden}
+  @media(max-width:560px){.capcard{padding:28px 20px}}
+  .capcard h2{font-size:clamp(1.4rem,4.6vw,1.9rem);font-weight:800}
+  .capcard .lead{color:#B9C7DA;margin-top:12px;font-size:15px}
+  .capform{margin-top:24px;display:flex;flex-direction:column;gap:12px;position:relative}
+  .capform input[type=text],.capform input[type=email],.capform input[type=url]{
+      width:100%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;
+      border-radius:12px;padding:15px 16px;font-family:inherit;font-size:15px}
+  .capform input::placeholder{color:#8FA2BC}
+  .capform input:focus{outline:2px solid var(--cobalt);border-color:transparent}
+  .capform label.ck{display:flex;gap:11px;align-items:flex-start;font-size:13.5px;color:#B9C7DA;cursor:pointer}
+  .capform input[type=checkbox]{width:18px;height:18px;accent-color:var(--teal);margin-top:2px}
+  .cap-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:6px}
+  .thanks{display:none;margin-top:22px;background:rgba(13,115,119,.18);border:1px solid rgba(13,115,119,.55);
+      border-radius:14px;padding:20px;font-size:14.5px;line-height:1.7;color:#D9F2F0}
+
+  /* print: report only */
+  @media print{
+    body *{visibility:hidden}
+    #report-content,#report-content *{visibility:visible}
+    #report-content{position:absolute;top:0;left:0;width:100%;margin:0;padding:0}
+    .rp{box-shadow:none;border-radius:0;page-break-after:always;margin:0}
+  }
+  .pdf-mode .rp{box-shadow:none;margin-bottom:0;border-radius:0;page-break-after:always}
+  @media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · HERO ============ -->
+<section class="screen active" id="s-hero">
+  <svg class="topo" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g fill="none" stroke="#7FA3CE" stroke-width="1">
+      <path d="M-40,620 C220,520 380,660 640,560 S1020,440 1260,520"/>
+      <path d="M-40,540 C240,440 400,590 660,490 S1030,370 1260,440"/>
+      <path d="M-40,460 C260,380 420,520 680,420 S1040,300 1260,360"/>
+      <path d="M-40,380 C280,320 440,460 700,360 S1050,240 1260,290"/>
+      <path d="M-40,300 C300,250 460,390 720,290 S1060,180 1260,220"/>
+      <path d="M-40,220 C320,190 480,320 740,230 S1070,120 1260,160"/>
+    </g>
+  </svg>
+  <div class="brandbar" style="position:relative;color:#fff">
+    <a class="lockup" href="landing.html" style="color:#fff" aria-label="Metanoia Labs home">
+      <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <defs><linearGradient id="lg1" x1="0" y1="1" x2="1" y2="0">
+          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+        <circle cx="20" cy="20" r="18.2" stroke="url(#lg1)" stroke-width="1.6" opacity=".9"/>
+        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lg1)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+      </svg>
+      <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+    </a>
+    <div class="lang" role="group" aria-label="Language">
+      <button id="langEn" aria-pressed="true">EN</button>
+      <button id="langId" aria-pressed="false">ID</button>
+    </div>
+  </div>
+  <div class="hero-in">
+    <h1 data-t="hero.h1">Your Career Map starts here.</h1>
+    <p class="sub" data-t="hero.sub">A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.</p>
+    <ul class="getlist" id="getlist">
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b1">Your Career Readiness Score across 5 dimensions</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b2">Your position on the mountain (honestly mapped)</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b3">Top 3 strengths to build on</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b4">Top 3 gaps to close immediately</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b5">A personalized 90-day route to your target role</span></li>
+    </ul>
+    <div class="cta-row">
+      <button class="btn btn-primary" id="beginBtn"><span data-t="hero.cta">Begin the Climb</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <p class="fine" data-t="hero.fine">Free · Takes 15 minutes · No login required · Your results are private</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ question shell (profiling + assessment) ============ -->
+<section class="screen" id="s-quiz">
+  <div class="qshell">
+    <div class="qtop">
+      <div class="brandbar" style="color:#fff;padding-left:20px;padding-right:20px">
+        <a class="lockup" href="#" onclick="return goHero()" style="color:#fff">
+          <svg width="24" height="24" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="20" cy="20" r="18.2" stroke="#F5A623" stroke-width="1.8" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#F5A623" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+        </a>
+        <span id="qsecTop" class="qmeta" style="padding:0"></span>
+      </div>
+      <div class="qmeta"><span class="qcount" id="qcount"></span><span class="qsec" id="qsec"></span></div>
+      <div class="pbar"><div class="track"><div class="fill" id="pfill"></div></div></div>
+    </div>
+    <div class="qbody">
+      <h2 id="qtext"></h2>
+      <p class="qhint" id="qhint" style="display:none"></p>
+      <div class="opts" id="opts"></div>
+      <div class="otherbox" id="otherbox"><input type="text" id="otherinput" maxlength="60"></div>
+      <div class="namebox" id="namebox" style="display:none">
+        <input type="text" id="nameinput" maxlength="30" autocomplete="given-name">
+      </div>
+    </div>
+    <div class="qnav">
+      <button class="back" id="backBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 12H4m6 6l-6-6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-t="ui.back">Back</span></button>
+      <button class="btn btn-primary next" id="nextBtn" disabled><span data-t="ui.next">Next</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ interstitial ============ -->
+<section class="screen" id="s-inter">
+  <div class="inter" id="interTap">
+    <svg class="topo" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g fill="none" stroke="#7FA3CE" stroke-width="1">
+        <path d="M-40,560 C240,460 400,600 660,500 S1030,380 1260,450"/>
+        <path d="M-40,470 C260,390 420,530 680,430 S1040,310 1260,370"/>
+        <path d="M-40,380 C280,320 440,460 700,360 S1050,240 1260,290"/>
+      </g>
+    </svg>
+    <div class="in">
+      <svg class="peak" width="72" height="46" viewBox="0 0 100 60" fill="none" aria-hidden="true">
+        <path id="interPeak" d="M5 55 L32 18 L48 36 L64 10 L95 55" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="64" cy="10" r="3" fill="#F5A623"/>
+      </svg>
+      <div class="badge" id="interBadge"></div>
+      <h2 id="interTitle"></h2>
+      <p id="interLine"></p>
+      <div class="tap" data-t="ui.tap">Tap to continue</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ loading ============ -->
+<section class="screen" id="s-loading">
+  <div class="in">
+    <svg class="loadmark" width="76" height="76" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lg2" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lg2)" stroke-width="1.6" opacity=".9"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lg2)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+    </svg>
+    <div class="climbtrack">
+      <svg width="260" height="120" viewBox="0 0 260 120" fill="none" aria-hidden="true">
+        <path d="M8 112 L70 48 L104 78 L150 22 L200 64 L252 12" stroke="rgba(255,255,255,.15)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path class="route" d="M8 112 L70 48 L104 78 L150 22 L200 64 L252 12" stroke="url(#lg2)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="252" cy="12" r="4" fill="#F5A623"/>
+      </svg>
+    </div>
+    <p class="loadmsg" id="loadmsg">Mapping your career terrain...</p>
+  </div>
+</section>
+
+<!-- ============ report ============ -->
+<section class="screen" id="s-report">
+  <div class="rtoolbar">
+    <span style="font-size:12.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#B9C7DA" data-t="ui.yourmap">Your Career Map</span>
+    <div class="acts">
+      <button class="btn btn-primary" id="pdfBtn" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
+      <button class="btn btn-ghost-d" onclick="document.getElementById('capture').scrollIntoView({behavior:'smooth'})"><span data-t="ui.emailme">Email me my report</span></button>
+      <button class="btn btn-ghost-d" id="shareBtn"><span data-t="ui.share">Share</span></button>
+    </div>
+  </div>
+  <div id="report-content"><!-- built by JS --></div>
+
+  <div id="capture">
+    <div class="capcard">
+      <h2 data-t="cap.h">Keep your Career Map</h2>
+      <p class="lead" data-t="cap.lead">Enter your details and we'll send your full report — plus one honest, useful email each week from the mountain. No spam, ever.</p>
+      <form class="capform" id="capform" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="score" id="hidden-score">
+        <input type="hidden" name="band" id="hidden-band">
+        <input type="hidden" name="dimension_scores" id="hidden-dimensions">
+        <input type="hidden" name="profile" id="hidden-profile">
+        <input type="hidden" name="answers" id="hidden-answers">
+        <input type="text" name="name" id="capName" placeholder="Your first name" required>
+        <input type="email" name="email" id="capEmail" placeholder="Your email" required>
+        <input type="url" name="linkedin" id="capLinkedin" placeholder="LinkedIn profile URL (optional)">
+        <label class="ck"><input type="checkbox" name="waitlist" checked id="capWaitlist">
+          <span data-t="cap.wait">Join the Metanoia waitlist — be first on the rope when the platform opens.</span></label>
+        <div class="cap-actions">
+          <button type="submit" class="btn btn-primary"><span data-t="cap.send">Send my Career Map</span></button>
+          <button type="button" class="btn btn-ghost-d" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
+        </div>
+      </form>
+      <div class="thanks" id="thanks"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+(() => {
+'use strict';
+
+/* ================= i18n (key labels only) ================= */
+const T = {
+ en:{ 'ui.back':'Back','ui.next':'Next','ui.tap':'Tap to continue','ui.q':'Question {x} of {y}','ui.sec':'Section {x} of 5 · {name}',
+      'ui.profiling':'Getting to know you','ui.pdf':'Download PDF','ui.emailme':'Email me my report','ui.share':'Share','ui.yourmap':'Your Career Map',
+      'hero.h1':'Your Career Map starts here.','hero.cta':'Begin the Climb',
+      'hero.sub':'A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.',
+      'hero.b1':'Your Career Readiness Score across 5 dimensions','hero.b2':'Your position on the mountain (honestly mapped)',
+      'hero.b3':'Top 3 strengths to build on','hero.b4':'Top 3 gaps to close immediately','hero.b5':'A personalized 90-day route to your target role',
+      'hero.fine':'Free · Takes 15 minutes · No login required · Your results are private',
+      'cap.h':'Keep your Career Map','cap.send':'Send my Career Map',
+      'cap.lead':"Enter your details and we'll send your full report — plus one honest, useful email each week from the mountain. No spam, ever.",
+      'cap.wait':'Join the Metanoia waitlist — be first on the rope when the platform opens.' },
+ id:{ 'ui.back':'Kembali','ui.next':'Lanjut','ui.tap':'Ketuk untuk lanjut','ui.q':'Pertanyaan {x} dari {y}','ui.sec':'Bagian {x} dari 5 · {name}',
+      'ui.profiling':'Berkenalan denganmu','ui.pdf':'Unduh PDF','ui.emailme':'Kirim laporan ke email','ui.share':'Bagikan','ui.yourmap':'Peta Kariermu',
+      'hero.h1':'Peta Kariermu dimulai di sini.','hero.cta':'Mulai Pendakian',
+      'hero.sub':'Diagnostik 15 menit yang menunjukkan posisimu di gunung — dan rute menuju tawaran pertamamu.',
+      'hero.b1':'Skor Kesiapan Karier di 5 dimensi','hero.b2':'Posisimu di gunung (dipetakan jujur)',
+      'hero.b3':'3 kekuatan utama untuk dibangun','hero.b4':'3 kesenjangan untuk segera ditutup','hero.b5':'Rute 90 hari yang dipersonalisasi',
+      'hero.fine':'Gratis · 15 menit · Tanpa login · Hasilmu privat',
+      'cap.h':'Simpan Peta Kariermu','cap.send':'Kirim Peta Karierku',
+      'cap.lead':'Masukkan datamu dan kami kirim laporan lengkap — plus satu email jujur dan berguna tiap minggu. Tanpa spam.',
+      'cap.wait':'Gabung waitlist Metanoia — jadi yang pertama di tali saat platform dibuka.' }
+};
+let lang='en';
+function applyLang(){
+  document.querySelectorAll('[data-t]').forEach(el=>{ const v=T[lang][el.dataset.t]; if(v) el.textContent=v; });
+  document.getElementById('langEn').setAttribute('aria-pressed',lang==='en');
+  document.getElementById('langId').setAttribute('aria-pressed',lang==='id');
+}
+document.getElementById('langEn').onclick=()=>{lang='en';applyLang();renderStep();};
+document.getElementById('langId').onclick=()=>{lang='id';applyLang();renderStep();};
+const tt=(k,v)=>{let s=T[lang][k]||k;Object.entries(v||{}).forEach(([a,b])=>s=s.replace('{'+a+'}',b));return s;};
+
+/* ================= DATA ================= */
+const DIMS=[
+ {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#1D5FAB',
+  desc:'How well you understand the real mechanics of hiring in the Indonesian market — ATS screening, recruitment processes, salary benchmarks, and strategic targeting. You cannot navigate terrain you cannot see.'},
+ {key:'ps',name:'Profile Strength',metaname:'The Pack',color:'#0D7377',
+  desc:'The condition of your gear: CV quality, quantified achievements, ATS performance, LinkedIn presence, and digital footprint. Your profile does the climbing when you are not in the room.'},
+ {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#B45309',
+  desc:'Your ability to perform when it matters most: structured storytelling (STAR), practiced answers, company research, and pre-interview composure. Interviews are won in preparation, not in the room.'},
+ {key:'nc',name:'Network Capital',metaname:'The Rope Team',color:'#7C3AED',
+  desc:'Who is climbing with you: mentors, meaningful professional connections, structured peer practice, events, and your alumni network. In Indonesia especially, the hidden job market moves through people.'},
+ {key:'cm',name:'Career Mindset',metaname:'The Mountain Mind',color:'#1A2E4A',
+  desc:'Whether you can sustain the climb through the storm: goal clarity, rejection recovery, structured consistency, honest progress measurement, and calibrated confidence.'}
+];
+
+/* Each question: text, opts[4], and report meta:
+   sName: short label · strength: full strength text (score>=2) · gapName/gap: gap text (score<=1)
+   fix: the ONE fastest action · why: why it matters · time: estimate */
+const Q=[
+ // ---- A · Career Intelligence ----
+ {id:'A1',d:0,q:'When you apply for a job online, what happens to your CV before a human reads it?',
+  o:["I'm not sure — I assume someone reviews it","I know it might be filtered somehow","I know it goes through an ATS (Applicant Tracking System) that scans for keywords","I know it goes through ATS, and I actively optimize my CV with keywords from each job description before applying"],
+  sName:'ATS fluency', strength:'You understand how the machine works — and you use that knowledge actively, optimizing keywords for every application. This alone puts you ahead of roughly 80% of the applicants you compete with, most of whom are eliminated by software without ever knowing why.',
+  gapName:'The ATS wall', gap:'Here is the most important thing in this report: most large employers run your CV through an Applicant Tracking System before any human sees it. If your CV is not keyword-matched to the job description, it is filtered out — silently. This is the "application black hole." It is not about your worth; it is about a machine you were never told about.',
+  fix:'Take one real job posting for your target role. Highlight every skill and keyword in it, then rewrite your CV to mirror the exact language where it is honestly true of you.', why:'One in-context rewrite teaches you the pattern for every future application.', time:'2 hours'},
+ {id:'A2',d:0,q:'How familiar are you with the typical recruitment timeline and process for a BUMN or large Indonesian corporation?',
+  o:['I have no idea what the typical process looks like','I have a general sense but have never researched it specifically','I understand the general stages (written test, group discussion, interview, medical)','I know the stages, typical timelines, key assessment competencies, and how to prepare for each'],
+  sName:'Process mastery', strength:'You know the stages, the timelines, and the competencies each stage assesses — written test, FGD, interview, medical. That means you prepare for the right thing at the right time, while others discover each stage only when it hits them.',
+  gapName:'Flying blind through the process', gap:'Large Indonesian employers — especially BUMN — run multi-stage processes that reward candidates who know what is coming. If you cannot name the stages and what each one measures, you are preparing generically for a very specific game.',
+  fix:'Pick your top 2 target companies and map their full recruitment process from public sources (official career pages, employee posts, forum threads). Write the stages, timeline, and what each stage assesses.', why:'You cannot train for a race you have never seen the course of.', time:'3 hours'},
+ {id:'A3',d:0,q:'Do you know the market salary range for your target role, at your experience level, in your target industry?',
+  o:['No — I have never researched salary benchmarks',"I have a rough idea but it's based on what a friend told me",'I have researched it on Glassdoor or LinkedIn Salary and have a specific range in mind','I have researched it across multiple sources, I know the range by company tier, and I know how to negotiate effectively'],
+  sName:'Salary intelligence', strength:'You know your market value across sources and company tiers, and you know how to negotiate. That knowledge typically converts into millions of rupiah per year that under-informed candidates simply leave on the table.',
+  gapName:'Negotiating in the dark', gap:'Without salary benchmarks you cannot recognize a fair offer, a great one, or a lowball — and employers can tell. Salary research is one of the fastest, highest-return pieces of homework in the entire job search.',
+  fix:'Spend one evening on Glassdoor, LinkedIn Salary, and Indonesian salary reports for your target role. Write down a floor, a target, and a stretch number.', why:'Three numbers turn the scariest interview question into your most confident answer.', time:'2 hours'},
+ {id:'A4',d:0,q:'How well do you understand what "cultural fit" vs. "competency fit" means in the hiring process?',
+  o:["I haven't thought about this distinction","I understand it conceptually but don't factor it into how I prepare",'I research company culture before interviews and adjust how I present myself','I research company culture AND competency frameworks (e.g., BUMN Talent Score criteria, competency models) and tailor my preparation to each'],
+  sName:'Fit-model awareness', strength:'You prepare on two axes — culture and competency frameworks — and tailor your presentation to each employer. This is exactly how strong candidates make interviewers feel "this person already belongs here."',
+  gapName:'One-size-fits-all preparation', gap:'Employers evaluate you against two different lenses: will you thrive in our culture, and can you do the work at our standard. Preparing identically for every company means both lenses stay blurry.',
+  fix:'For your next interview, spend 45 minutes on the company\'s stated values and any published competency criteria, then map one of your stories to each.', why:'Interviewers hire people who speak their framework back to them.', time:'45 min per interview'},
+ {id:'A5',d:0,q:'How strategically do you approach your job search?',
+  o:['I apply to everything I see that seems relevant',"I have some criteria but they're loose — I apply broadly",'I have a defined target list (specific companies, roles, industries) and I apply with purpose','I have a full target list, a weekly application cadence, a tracking system, and I review and adjust my strategy regularly'],
+  sName:'Strategic targeting', strength:'You run your search like a campaign: a defined target list, a weekly cadence, a tracking system, and regular strategy reviews. This converts effort into learning — every week your aim gets better.',
+  gapName:'Spray-and-pray applying', gap:'Applying to everything feels productive but teaches you nothing — you cannot tell what is working. Forty-five scattered applications lose to fifteen targeted ones almost every time.',
+  fix:'Build a target list of 15–20 companies across three tiers (dream, strong-fit, safety) in a simple spreadsheet, and commit to a weekly application number.', why:'A list turns anxiety into a plan you can execute and measure.', time:'2 hours'},
+ // ---- B · Profile Strength ----
+ {id:'B1',d:1,q:'How recently was your CV last updated and reviewed?',
+  o:['It was last updated more than 6 months ago','It was updated 3–6 months ago','It was updated within the last 3 months','It was updated within the last month AND reviewed by someone with hiring or recruiting experience'],
+  sName:'Fresh, reviewed CV', strength:'Your CV is current and has been pressure-tested by someone who has actually hired. That external review is what separates a document you like from a document that works.',
+  gapName:'A stale pack', gap:'A CV untouched for months quietly drifts out of date — and worse, it has probably never been challenged by someone who knows what recruiters actually scan for in the first 6 seconds.',
+  fix:'Update your CV this week, then get it reviewed by one person with hiring or recruiting experience (an alum, a senior, an HR contact).', why:'One experienced reviewer catches in ten minutes what you have missed for months.', time:'3 hours'},
+ {id:'B2',d:1,q:'How many quantified achievements appear in your CV? (e.g., "Increased event attendance by 40%")',
+  o:['None — my CV describes responsibilities, not outcomes','1–2 quantified results','3–5 quantified results','6 or more quantified results, and each one is specific and verifiable'],
+  sName:'Quantified impact', strength:'Your CV speaks in outcomes — six or more specific, verifiable numbers. Recruiters skim; numbers stop the skim. You have given them six reasons to pause on your name.',
+  gapName:'Responsibilities, not results', gap:'"Responsible for social media" tells a recruiter what you were assigned. "Grew Instagram engagement 3× in one semester" tells them what you can do. Without numbers, your real impact is invisible.',
+  fix:'Rewrite your top 5 CV bullets with a number in each: scale (how many), growth (how much), or time (how fast). Estimate honestly where exact figures are unavailable.', why:'Numbers are the only language every recruiter reads at speed.', time:'2 hours'},
+ {id:'B3',d:1,q:'How does your CV perform in ATS screening?',
+  o:['I have never thought about ATS optimization',"I've heard of it but I'm not sure how to test or optimize for it",'I have manually checked my CV against job descriptions and adjusted keywords','I have run my CV through an ATS scanner (e.g., Jobscan, Resumeworded) and scored above 70% on my target roles'],
+  sName:'ATS-tested gear', strength:'You have actually tested your CV against the machine and scored above 70% for your target roles. Your applications reach humans — which is the entire point of the document.',
+  gapName:'Untested against the machine', gap:'You may have a beautiful CV that software cannot parse. Complex layouts, graphics, and missing keywords silently kill applications. Until you test it, you are guessing.',
+  fix:'Run your CV through a free ATS scanner against two real job descriptions this week. Fix formatting first, keywords second, until you clear 70%.', why:'Thirty minutes of testing can revive a whole pipeline of dead applications.', time:'1 hour'},
+ {id:'B4',d:1,q:'How complete and active is your LinkedIn profile?',
+  o:["I have a LinkedIn profile but it's mostly empty or not updated",'I have a profile with basic information but no profile photo or summary','I have a complete profile with photo, headline, summary, and work history','I have a complete profile with 500+ connections, regular activity (posts or comments), and recommendations from peers or supervisors'],
+  sName:'Living LinkedIn presence', strength:'Complete profile, 500+ connections, real activity, recommendations — your LinkedIn works as a second front door. Recruiters who search your target keywords can actually find and trust you.',
+  gapName:'An empty storefront', gap:'Recruiters check LinkedIn before they shortlist — an empty or bare profile reads as absence. In Indonesia\'s market, where recruiters actively source on LinkedIn, this is a free channel you are leaving closed.',
+  fix:'This week: professional photo, a headline with your target role keywords, a 3-sentence summary, and your full experience history.', why:'A complete profile makes every other networking move twice as effective.', time:'3 hours'},
+ {id:'B5',d:1,q:'Beyond your CV and LinkedIn, do you have any portfolio, GitHub, personal website, or professional digital presence?',
+  o:['No — just a CV','I have a basic LinkedIn and nothing else',"I have a portfolio or GitHub but it's not prominently linked or recently updated",'I have an active, updated portfolio or professional presence that I include in every application'],
+  sName:'Proof of work', strength:'You show, not just tell: an active portfolio or professional presence attached to every application. Evidence beats claims — you are giving employers something concrete to believe.',
+  gapName:'No visible evidence', gap:'A CV makes claims; a portfolio proves them. Without any work sample, case study, or project link, you are asking employers to take your skills on faith — and faith loses to evidence.',
+  fix:'Assemble one simple proof-of-work page: 2–3 projects, campaigns, analyses, or case studies with a short outcome note each. A free Notion page is enough.', why:'One tangible work sample outweighs three adjectives on a CV.', time:'4 hours'},
+ // ---- C · Interview Readiness ----
+ {id:'C1',d:2,q:'How recently have you done a full mock interview with another person?',
+  o:['Never','More than 6 months ago','Within the last 3 months',"Within the last 30 days — and I received specific feedback I'm actively working on"],
+  sName:'Live practice reps', strength:'You practiced with a real person within the last month and you are actively working on specific feedback. Interviews are performance — and you are training like a performer.',
+  gapName:'Performing without rehearsal', gap:'An interview is a live performance, and you are walking on stage without a single rehearsal. Nerves, rambling answers, and missed opportunities are not character flaws — they are what un-practiced performance looks like for everyone.',
+  fix:'Book one full mock interview this week — a friend, a senior, or a peer preparing for the same roles. Record it. Watch it once.', why:'Your first mock is worth more than ten articles about interviewing.', time:'90 min'},
+ {id:'C2',d:2,q:'When you answer a behavioral interview question, what structure do you use?',
+  o:['I answer naturally without a specific structure',"I know about STAR (Situation, Task, Action, Result) but don't consistently use it",'I consistently use STAR and have pre-prepared stories for common themes','I use STAR, have 10+ prepared stories mapped to different competency themes, and I practice adapting them to different questions'],
+  sName:'STAR story bank', strength:'You hold a bank of 10+ STAR stories mapped to competencies, and you can adapt them live. That is exactly the machinery behind candidates who sound effortlessly structured under pressure.',
+  gapName:'Unstructured answers', gap:'Interviewers are trained to listen for structure: Situation, Task, Action, Result. Without it, even genuinely strong experiences come out as wandering stories that are hard to score.',
+  fix:'Write 5 STAR stories from your real experience (a leadership moment, a conflict, a failure, an achievement, an initiative). One page total.', why:'Five prepared stories cover roughly 80% of all behavioral questions.', time:'3 hours'},
+ {id:'C3',d:2,q:'How prepared are you for the most common behavioral interview questions?',
+  o:['I answer these spontaneously — I have not practiced specific answers',"I've thought about these questions but haven't written or practiced answers",'I have drafted answers and practiced them at least once',"I have polished, timed answers for all common questions and I've practiced them aloud multiple times"],
+  sName:'Polished core answers', strength:'"Tell me about yourself" will never ambush you — your core answers are written, timed, and rehearsed aloud. The most predictable questions are your strongest moments, exactly as they should be.',
+  gapName:'Improvising the predictable', gap:'The most common interview questions are completely predictable — which means improvising them is leaving free points on the table. These questions decide first impressions; first impressions decide interviews.',
+  fix:'Write and rehearse aloud a 60–90 second answer for: "Tell me about yourself", "Why this company?", and "Tell me about a failure."', why:'The first two minutes set the frame for the whole interview.', time:'2 hours'},
+ {id:'C4',d:2,q:'Do you research companies specifically before interviews?',
+  o:['No — I go in with general knowledge','I do a quick Google search the night before',"I research the company's products, recent news, culture, and common interview questions","I research the company, the specific team/division, the interviewer's background (LinkedIn), and I prepare role-specific questions to ask at the end"],
+  sName:'Deep company research', strength:'You research the company, the team, and the interviewer, and you arrive with role-specific questions. This practice alone multiplies offer conversion an estimated 2–3× versus candidates who walk in generic.',
+  gapName:'Generic walk-ins', gap:'Interviewers can tell within minutes whether you researched them — and they read it as a preview of how you would treat clients and colleagues. Generic preparation reads as generic interest.',
+  fix:'Build a 30-minute pre-interview ritual: products, one recent news item, stated values, the interviewer\'s LinkedIn, and two genuine questions to ask.', why:'"I saw your team just launched X" changes the temperature of the room.', time:'30 min per interview'},
+ {id:'C5',d:2,q:'How do you typically feel in the 30 minutes before an interview?',
+  o:['Very anxious — I often struggle to perform my best','Somewhat nervous — it affects my performance','Mildly nervous but I can manage it and perform reasonably well','Focused and prepared — I have a pre-interview routine that puts me in the right state'],
+  sName:'Composure routine', strength:'You have a pre-interview routine that reliably puts you in a focused state. Composure under evaluation is a trainable skill — and you have trained it.',
+  gapName:'The storm before the room', gap:'Pre-interview anxiety is not weakness — it is untrained physiology. But left untrained, it taxes the exact working memory you need for structured answers. The good news: routines fix this more reliably than willpower.',
+  fix:'Script a 15-minute pre-interview routine: review your 3 core stories, 2 minutes of slow breathing (4s in, 6s out), one power question you will ask them.', why:'A routine gives your nerves a job to do.', time:'15 min per interview'},
+ // ---- D · Network Capital ----
+ {id:'D1',d:3,q:'Do you have a mentor or professional guide in your target industry or role?',
+  o:['No — I am navigating this entirely on my own','I have a few alumni contacts but no structured mentorship','I have had 1–2 conversations with professionals in my target field','I have an active mentor relationship with someone in my target field who gives me regular guidance'],
+  sName:'Active mentorship', strength:'You have a real mentor in your target field giving you regular guidance. That single relationship compresses years of trial-and-error into conversations — the closest thing to a shortcut this mountain has.',
+  gapName:'Climbing without a guide', gap:'You are navigating alone terrain that thousands have already crossed. A mentor does not carry you up the mountain — they simply tell you where the crevasses are. Without one, you pay for every lesson at full price.',
+  fix:'Send three respectful outreach messages this week to alumni or professionals in your target role, asking for one 20-minute conversation about their path.', why:'One conversation with someone ahead of you rewrites your map.', time:'1 hour'},
+ {id:'D2',d:3,q:'In the last 6 months, how many meaningful professional connections have you built in your target industry?',
+  o:['None','1–2','3–5','6 or more'],
+  sName:'Growing professional circle', strength:'Six or more real conversations with people in your target industry in six months — you are systematically building the web that carries most opportunity in Indonesia\'s market before jobs are ever posted.',
+  gapName:'A cold network', gap:'A large share of roles — especially good ones — move through people before they ever reach a job board. With no meaningful industry connections, you only see the jobs everyone else sees, and you compete in the largest possible crowd.',
+  fix:'Set a small, honest target: two meaningful conversations per month with people in your target field. Warm sources first: alumni, seniors, event speakers.', why:'Networks compound; the best time to grow one is before you need it.', time:'2 hours/month'},
+ {id:'D3',d:3,q:'Do you have peers you practice job search skills with regularly?',
+  o:['No — I do this entirely alone',"I occasionally discuss job search with friends but it's not structured",'I have 1–2 friends I exchange feedback with occasionally','I am part of a structured peer group or cohort that meets regularly to practice and support each other'],
+  sName:'A working rope team', strength:'You practice in a structured peer group that meets regularly — mock interviews, CV reviews, honest accountability. Job seekers with structured peer practice get offers dramatically faster, and you are already climbing roped-in.',
+  gapName:'Climbing solo', gap:'You are doing the hardest part of early career life completely alone — no rope team. Peer practice is not just emotional support: it is free mock interviews, free CV review, and accountability that survives bad weeks.',
+  fix:'Form a practice pod this week: message 3–4 friends who are also searching and set one fixed weekly session (mock interview + feedback rotation).', why:'Job seekers in structured peer groups land offers roughly 40% faster.', time:'2 hours/week'},
+ {id:'D4',d:3,q:'Have you attended any professional events in the last 90 days?',
+  o:['None','1 event','2–3 events','4 or more events — and I followed up with at least one new contact from each'],
+  sName:'Present in the field', strength:'Four or more events in 90 days, each with real follow-up — you are consistently putting yourself where your industry gathers, and converting presence into relationships.',
+  gapName:'Absent from the room', gap:'Career fairs, webinars, alumni talks — these rooms are where information and referrals move informally. Ninety days without entering any of them means the ecosystem literally has not seen you.',
+  fix:'Register for two events in the next 30 days (one industry talk, one alumni or campus event). Afterward, send one genuine follow-up message per event.', why:'Events are the lowest-pressure place to start real professional conversations.', time:'4 hours/month'},
+ {id:'D5',d:3,q:'How actively do you use your university alumni network?',
+  o:['I have never reached out to any alumni',"I follow alumni on LinkedIn but haven't had personal contact",'I have reached out to a few alumni and had occasional conversations','I actively use my alumni network, have warm relationships with multiple alumni in my target field, and use them as a genuine resource'],
+  sName:'Activated alumni network', strength:'You treat your alumni network as the genuine resource it is — warm relationships, real conversations, honest asks. Alumni open doors that applications alone cannot: referrals, insider context, honest warnings.',
+  gapName:'An unopened gift', gap:'Your university handed you a pre-built network of people who are inclined to help you — and it is sitting unopened. Alumni respond to juniors at remarkable rates; the door is unlocked, you have simply never pushed it.',
+  fix:'Find five alumni in your target field on LinkedIn. Send each a short, specific message: who you are, one genuine question, a 15-minute ask.', why:'"Same campus" is the warmest cold-open that exists in this market.', time:'90 min'},
+ // ---- E · Career Mindset ----
+ {id:'E1',d:4,q:'How clear is your picture of your target career destination?',
+  o:["I have no clear idea — I'm applying broadly to see what happens",'I have a general direction but not a specific role or company type','I have a defined target: specific role, specific industry, specific company types','I have a fully defined target with a primary path and a backup plan, and both are researched in detail'],
+  sName:'A defined summit', strength:'You know exactly which summit you are climbing — primary path and backup, both researched. Clarity like this makes every other decision easier: which skills, which events, which applications.',
+  gapName:'Climbing without a summit', gap:'Applying broadly "to see what happens" feels open-minded, but it dilutes everything: your CV speaks to no one in particular, your preparation spreads thin, and rejections teach you nothing because there was no hypothesis to test.',
+  fix:'Run a one-evening targeting session: list 3 candidate roles, score each on interest, skills-fit, and market demand, and commit to one primary + one backup for 90 days.', why:'A 90-day commitment beats a perfect choice — you can re-aim later with better data.', time:'2 hours'},
+ {id:'E2',d:4,q:'When you receive a rejection (or silence), how do you typically respond?',
+  o:['It hits hard — it takes me days to recover and I often question whether I should keep trying',"It's discouraging — I take a break and come back when I feel better",'I acknowledge the disappointment, then return to my process within a day or two','I treat rejection as data — I review what I can improve, adjust, and continue without significant disruption to my momentum'],
+  sName:'Rejection as data', strength:'You have made peace with the weather: rejection stings, you extract the lesson, you keep moving. This is the single strongest predictor of who finishes the climb — not talent, but recovery speed.',
+  gapName:'Storm damage', gap:'Rejections are hitting you hard enough to cost days of momentum — and in a numbers-driven search, lost days compound. This is not a character flaw; it is the natural result of treating each rejection as a verdict on you rather than noise in a system.',
+  fix:'Adopt a rejection protocol: when one lands, write one line — what (if anything) it teaches — then do one small next action within 24 hours, even just one follow-up message.', why:'The protocol shrinks recovery time from days to hours, and hours win searches.', time:'10 min per rejection'},
+ {id:'E3',d:4,q:'How structured is your current job search process?',
+  o:["I apply when I see something interesting — there's no system",'I have loose goals but no structured weekly routine','I have a weekly routine: set application targets, track applications, review progress','I have a full system: weekly targets, daily tracking, weekly review, monthly strategy adjustment, and I consistently hit my own targets'],
+  sName:'A running system', strength:'Weekly targets, daily tracking, monthly strategy reviews — and you actually hit your own numbers. You have turned an emotional rollercoaster into an operating system, which is what sustained ascents look like.',
+  gapName:'Mood-driven searching', gap:'Searching only when motivation strikes means your progress depends on your best days. Systems exist precisely for the other days — and right now you do not have one.',
+  fix:'Set a minimum weekly routine: a fixed 3-hour block, a target number of quality applications, and a 15-minute Friday review of what happened.', why:'A system produces progress on bad weeks; motivation only works on good ones.', time:'30 min to set up'},
+ {id:'E4',d:4,q:'How do you measure your progress in your job search?',
+  o:["I don't — I just feel how it's going",'I count the number of applications sent','I track applications, responses, interview rates, and offer rates','I track all of the above AND I measure qualitative improvements (CV quality, interview performance, network growth) alongside the numbers'],
+  sName:'Full-funnel measurement', strength:'You track the whole funnel — applications, responses, interviews, offers — plus the qualitative gains underneath. That means you can locate exactly where your pipeline leaks and fix that stage, not everything at once.',
+  gapName:'Navigating by feel', gap:'Without numbers, a bad week feels like a failing strategy and a lucky week feels like progress — both can be wrong. You cannot fix a funnel you cannot see.',
+  fix:'Start a one-tab tracker today: company, role, date applied, response, stage reached. Review it every Friday for 10 minutes.', why:'Two weeks of data will tell you more than two months of feelings.', time:'20 min to set up'},
+ {id:'E5',d:4,q:'How confident are you that your current approach will result in an offer within 90 days?',
+  o:["Not confident at all — I'm not sure what I'm doing wrong","Somewhat uncertain — I hope things will work out but I'm not sure","Cautiously optimistic — I think I'm on the right track but have clear gaps","Confident — I have a clear plan, I'm executing it, and I can see the progress"],
+  sName:'Grounded confidence', strength:'Your confidence is not bravado — it is built on a plan you are executing and progress you can point to. That calibration shows in interviews, in networking, in negotiation. People trust climbers who know where they are.',
+  gapName:'Lost in the fog', gap:'"I don\'t know what I\'m doing wrong" is the fog talking — and fog is not fixed by trying harder, it is fixed by visibility. Everything else in this report is designed to give you exactly that.',
+  fix:'Do not fix confidence directly. Fix the top gap in this report, see one measurable improvement, and let confidence follow the evidence.', why:'Real confidence is downstream of visible progress — and progress is now mapped.', time:'—'}
+];
+
+const SECTIONS=[
+ {name:'Career Intelligence',meta:'The Map',line:'How well do you understand the terrain? Five questions on how hiring actually works.'},
+ {name:'Profile & Document Strength',meta:'The Pack',line:'Is your gear ready for the climb? Your CV, LinkedIn, and digital footprint.'},
+ {name:'Interview Readiness',meta:'The Rope',line:'Can you perform when it matters most? Structure, practice, and composure.'},
+ {name:'Network & Community Capital',meta:'The Rope Team',line:'Who is climbing with you? Mentors, peers, events, and alumni.'},
+ {name:'Career Mindset & Resilience',meta:'The Mountain Mind',line:'Can you sustain the climb through the storm? Clarity, recovery, and systems.'}
+];
+
+const PROFILE_Q=[
+ {id:'name',type:'name',q:"First — what should we call you?",hint:'Just your first name. It goes on your Career Map.'},
+ {id:'status',q:"What's your current status?",o:['Still studying (final year)','Fresh graduate (0–1 year since graduation)','Early professional (1–3 years experience)','Career changer / looking to pivot']},
+ {id:'direction',q:'What is your target career direction?',other:true,
+  o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / BUMN','Management Trainee','Other (type here)']},
+ {id:'challenge',q:'What is your biggest current challenge?',
+  o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty"]}
+];
+
+/* ================= STATE ================= */
+const S={ step:-1, profile:{name:'',status:null,direction:null,directionText:'',challenge:null}, answers:{}, seenInter:{} };
+try{ const saved=JSON.parse(localStorage.getItem('mtCareerMap')||'null'); if(saved&&saved.answers) Object.assign(S,saved);}catch(e){}
+const save=()=>{ try{localStorage.setItem('mtCareerMap',JSON.stringify(S));}catch(e){} };
+
+/* ================= FLOW =================
+   steps: 0..3 profiling (name + 3) · 4..28 questions (Q index step-4) */
+const TOTAL_P=PROFILE_Q.length, TOTAL_Q=Q.length;
+const show=id=>{document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');window.scrollTo(0,0);};
+window.goHero=()=>{show('s-hero');return false;};
+
+document.getElementById('beginBtn').onclick=()=>{ S.step=0; renderStep(); show('s-quiz'); };
+
+function renderStep(){
+  if(S.step<0) return;
+  const isProfile=S.step<TOTAL_P;
+  const qc=document.getElementById('qcount'), qs=document.getElementById('qsec'),
+        qt=document.getElementById('qtext'), qh=document.getElementById('qhint'),
+        opts=document.getElementById('opts'), fill=document.getElementById('pfill'),
+        ob=document.getElementById('otherbox'), nb=document.getElementById('namebox'),
+        next=document.getElementById('nextBtn'), back=document.getElementById('backBtn');
+  ob.style.display='none'; nb.style.display='none'; opts.innerHTML='';
+  back.style.visibility = S.step===0 ? 'hidden' : 'visible';
+
+  if(isProfile){
+    const p=PROFILE_Q[S.step];
+    qc.textContent = tt('ui.profiling') + ` · ${S.step+1}/${TOTAL_P}`;
+    qs.textContent = 'Metanoia Labs';
+    fill.style.width = ((S.step)/(TOTAL_P+TOTAL_Q)*100)+'%';
+    qt.textContent = p.q;
+    if(p.hint){qh.textContent=p.hint;qh.style.display='block';}else qh.style.display='none';
+    if(p.type==='name'){
+      nb.style.display='block';
+      const inp=document.getElementById('nameinput');
+      inp.value=S.profile.name||''; inp.placeholder='e.g., Reza';
+      setTimeout(()=>inp.focus(),50);
+      next.disabled = !inp.value.trim();
+      inp.oninput=()=>{ next.disabled=!inp.value.trim(); };
+      inp.onkeydown=e=>{ if(e.key==='Enter'&&inp.value.trim()) goNext(); };
+    } else {
+      const cur=S.profile[p.id];
+      p.o.forEach((o,i)=>{
+        const b=document.createElement('button'); b.className='opt'+(cur===i?' sel':''); b.textContent=o;
+        b.onclick=()=>selectProfile(p,i,b); opts.appendChild(b);
+      });
+      if(p.other && cur===p.o.length-1){ ob.style.display='block';
+        const oi=document.getElementById('otherinput'); oi.value=S.profile.directionText||''; oi.placeholder='Type your direction...';
+        oi.oninput=()=>{S.profile.directionText=oi.value;save();};
+      }
+      next.disabled = cur==null;
+    }
+  } else {
+    const qi=S.step-TOTAL_P, item=Q[qi], sec=item.d;
+    // interstitial before first question of each section
+    if(qi%5===0 && !S.seenInter[sec]){ showInter(sec); return; }
+    qc.textContent = tt('ui.q',{x:qi+1,y:TOTAL_Q});
+    qs.textContent = tt('ui.sec',{x:sec+1,name:SECTIONS[sec].name});
+    fill.style.width = ((TOTAL_P+qi)/(TOTAL_P+TOTAL_Q)*100)+'%';
+    qt.textContent = item.q; qh.style.display='none';
+    const cur=S.answers[item.id];
+    item.o.forEach((o,i)=>{
+      const b=document.createElement('button'); b.className='opt'+(cur===i?' sel':''); b.textContent=o;
+      b.onclick=()=>selectAnswer(item,i,b); opts.appendChild(b);
+    });
+    next.disabled = cur==null;
+  }
+  applyLang();
+}
+function selectProfile(p,i,btn){
+  document.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel'));
+  btn.classList.add('sel','flash');
+  S.profile[p.id]=i; save();
+  document.getElementById('nextBtn').disabled=false;
+  if(p.other && i===p.o.length-1){ renderStep(); return; }
+  setTimeout(goNext,340);
+}
+function selectAnswer(item,i,btn){
+  document.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel'));
+  btn.classList.add('sel','flash');
+  S.answers[item.id]=i; save();
+  document.getElementById('nextBtn').disabled=false;
+  setTimeout(goNext,340);
+}
+function goNext(){
+  if(S.step===0){ const v=document.getElementById('nameinput').value.trim(); if(!v) return; S.profile.name=v.split(' ')[0]; save(); }
+  S.step++;
+  if(S.step>=TOTAL_P+TOTAL_Q){ startLoading(); return; }
+  renderStep();
+}
+document.getElementById('nextBtn').onclick=goNext;
+document.getElementById('backBtn').onclick=()=>{ if(S.step>0){ S.step--; const qi=S.step-TOTAL_P;
+  if(qi>=0&&qi%5===0) S.seenInter[Q[qi].d]=true; renderStep(); show('s-quiz'); } };
+
+function showInter(sec){
+  S.seenInter[sec]=true; save();
+  document.getElementById('interBadge').textContent=`Section ${sec+1} of 5 · ${SECTIONS[sec].meta}`;
+  document.getElementById('interTitle').textContent=SECTIONS[sec].name;
+  document.getElementById('interLine').textContent=SECTIONS[sec].line;
+  show('s-inter');
+  const done=()=>{show('s-quiz');renderStep();};
+  document.getElementById('interTap').onclick=done;
+  setTimeout(done,2600);
+}
+
+/* ================= LOADING ================= */
+const LOADMSGS=['Mapping your career terrain...','Analyzing your preparation pack...','Calculating your readiness altitude...','Identifying your highest-leverage next moves...','Plotting your 90-day route...'];
+function startLoading(){
+  show('s-loading');
+  const el=document.getElementById('loadmsg'); let i=0;
+  el.textContent=LOADMSGS[0];
+  const iv=setInterval(()=>{ i++; if(i<LOADMSGS.length){ el.style.opacity=0;
+    setTimeout(()=>{el.textContent=LOADMSGS[i];el.style.opacity=1;},300);} },1050);
+  setTimeout(()=>{ clearInterval(iv); buildReport(); show('s-report'); },5400);
+}
+
+/* ================= SCORING ================= */
+function calcScores(){
+  const s=[0,0,0,0,0];
+  Q.forEach(q=>{ s[q.d]+= (S.answers[q.id]??0); });
+  return s;
+}
+const total100=s=>Math.round(s.reduce((a,b)=>a+b,0)/75*100);
+function band(t){
+  if(t>=90)return{label:'Summit Ready',lv:5,desc:'exceptional preparation — your work now is execution, pipeline volume, and closing.'};
+  if(t>=75)return{label:'High Camp',lv:4,desc:'strong readiness — you are in the final preparation phase before the summit push.'};
+  if(t>=60)return{label:'Mid-Mountain',lv:3,desc:'a solid foundation with targeted development needed on specific faces.'};
+  if(t>=40)return{label:'First Ascent',lv:2,desc:'real momentum in places, with key gaps that are still deciding your results.'};
+  return{label:'Base Camp',lv:1,desc:'the honest starting point — significant gaps, and a clear route to close them.'};
+}
+
+/* ================= NARRATIVE ENGINE ================= */
+const STATUS_OPEN=[
+ 'You are in your final year — which means you hold the one advantage every graduate wishes they could buy back: time before the clock starts.',
+ 'You are a fresh graduate in the most competitive stretch of the Indonesian market, where thousands of strong CVs chase the same management trainee and entry roles.',
+ 'You are an early professional — you have proof you can hold a job, and your next move decides the slope of your whole trajectory.',
+ 'You are changing direction — the boldest kind of climb, because it means trading a known trail for a truer one.'];
+const CHALLENGE_CORE=[
+ 'Your applications are disappearing into silence — the "application black hole." Here is what the assessment shows: this is rarely about your worth and almost always about the machine layer (ATS screening and untargeted applications) standing between you and human eyes. That layer is beatable, and beating it is largely mechanical.',
+ 'You are getting into rooms but not converting them into offers — which is actually the expensive kind of good news: your profile works. The gap is in the performance layer (structure, preparation depth, composure), and that layer responds to practice faster than any other skill in this report.',
+ 'Your deepest challenge is direction — and it quietly taxes everything else: a CV aimed at no one, preparation spread thin, rejections that teach nothing. The single highest-leverage move in your 90-day route is a decision, not an effort.',
+ 'You named unpreparedness and confidence as your wall. Read your report closely: confidence built on evidence is the only kind that holds under pressure, and evidence is exactly what the route below is designed to produce, week by week.',
+ 'You named the network gap — and in this market it is real: a large share of good roles move through people before they are ever posted. The good news is that network is the most buildable asset in this entire assessment, starting from wherever you are.',
+ 'You named the mental weight of rejection and uncertainty — and it deserves to be named. Nothing in this report treats that as weakness. The route below is deliberately structured to produce small, visible wins early, because momentum is the most honest medicine this mountain has.'];
+const DIRECTION_LINE={
+ 0:'Consulting and management tracks screen hard for structured thinking — your STAR stories and case practice will carry unusual weight.',
+ 1:'Finance and banking run some of the most staged, competitive processes in the market — process intelligence and polish decide margins here.',
+ 2:'Tech and product hiring reward visible proof of work — a portfolio or project link often outweighs a page of claims.',
+ 3:'Marketing and creative roles are portfolio-first — employers want to see the work, and your digital presence is part of the audition.',
+ 4:'HR and people roles reward exactly what this assessment measures — self-awareness, structure, and genuine human insight.',
+ 5:'Engineering and operations employers screen for rigor and safety of judgment — quantified results and process knowledge stand out.',
+ 6:'BUMN and public-sector processes are long, staged, and highly specific — candidates who map the stages in advance hold a real edge.',
+ 7:'Management trainee programs are the most competitive funnels in Indonesia — thousands of applicants, multi-stage assessments, and heavy weight on leadership stories.',
+ 8:'Your custom direction means your map is less crowded — but it also means research and network matter double, because fewer ready-made routes exist.'};
+
+function pctl(t){ return Math.min(94,Math.max(8,Math.round(t*0.9)+4)); }
+
+function positionNarrative(t,bd,scores){
+  const p=S.profile, name=S.profile.name||'Climber';
+  const dimPct=scores.map(s=>s/15);
+  let hi=0,lo=0; dimPct.forEach((v,i)=>{ if(v>dimPct[hi])hi=i; if(v<dimPct[lo])lo=i; });
+  const dirIdx = p.direction==null?8:p.direction;
+  const paras=[];
+  paras.push(`${name}, you are at <b>${bd.label}</b> — ${bd.desc} ${STATUS_OPEN[p.status??1]}`);
+  paras.push(CHALLENGE_CORE[p.challenge??0]);
+  let third = DIRECTION_LINE[dirIdx]||DIRECTION_LINE[8];
+  if(p.direction===8&&p.directionText) third = `Your target — ${escapeHtml(p.directionText)} — ` + 'means your map is less crowded, but research and network matter double, because fewer ready-made routes exist.';
+  third += ` Right now, your strongest face is <b>${DIMS[hi].name}</b> (${scores[hi]}/15) and your steepest is <b>${DIMS[lo].name}</b> (${scores[lo]}/15). The route in this report is built around exactly that shape — protect the strength, work the face.`;
+  paras.push(third);
+  return paras;
+}
+
+function dimInterpretation(di,score,items){
+  const pct=score/15;
+  const strong=items.filter(q=>(S.answers[q.id]??0)>=2);
+  const weak=items.filter(q=>(S.answers[q.id]??0)<=1).sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0));
+  let lead;
+  if(pct>=.8) lead=`This is one of your strongest faces. Across ${DIMS[di].name.toLowerCase()}, your answers show deliberate, practiced habits — the kind that compound quietly while others guess. Your work here is maintenance and sharpening, not repair.`;
+  else if(pct>=.5) lead=`You have a real foundation here — several practiced habits that many of your competitors lack — alongside specific gaps that are still costing you results. The good news: in this dimension, the gaps are unusually mechanical to close.`;
+  else lead=`This is your steepest face right now — and likely where most of your frustration is coming from. Read this section without judgment: every gap named below is a learnable behavior, not a talent, and each one comes with the fastest known fix.`;
+  // add one sharp specific observation from the most extreme answer
+  const top=items.reduce((a,b)=>(S.answers[a.id]??0)>=(S.answers[b.id]??0)?a:b);
+  const bot=items.reduce((a,b)=>(S.answers[a.id]??0)<=(S.answers[b.id]??0)?a:b);
+  if((S.answers[top.id]??0)===3) lead+=` One thing worth naming plainly: ${top.strength.split('.')[0].toLowerCase().replace(/^you /,'you ')}.`;
+  else if((S.answers[bot.id]??0)===0) lead+=` Start with the first gap below — it is the one moving your results the most.`;
+  return {lead,strong,weak};
+}
+
+/* ================= REPORT BUILD ================= */
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+const dimIcon=(i)=>['🗺️','🎒','🪢','⛺','🧠'][i];
+
+function buildReport(){
+  const scores=calcScores(), t=total100(scores), bd=band(t);
+  const name=escapeHtml(S.profile.name||'Climber');
+  const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+  const R=document.getElementById('report-content'); R.innerHTML='';
+
+  /* ---- Page 1 · Cover ---- */
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp dark" style="text-align:center">
+    <svg class="topo" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g fill="none" stroke="#7FA3CE" stroke-width="1">
+        <path d="M-40,560 C240,460 400,600 660,500 S1030,380 1260,450"/>
+        <path d="M-40,470 C260,390 420,530 680,430 S1040,310 1260,370"/>
+        <path d="M-40,380 C280,320 440,460 700,360 S1050,240 1260,290"/></g></svg>
+    <div style="position:relative">
+      <div style="display:flex;justify-content:center;margin-bottom:22px">
+        <svg width="52" height="52" viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18.2" stroke="#F5A623" stroke-width="1.6" opacity=".9"/>
+          <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#F5A623" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
+      </div>
+      <div class="eyebrow">Career Map Assessment · Metanoia Labs</div>
+      <h2 style="font-size:clamp(1.9rem,6vw,2.7rem)">Your Career Map</h2>
+      <p class="lead">Prepared for <b style="color:#fff">${name}</b> · ${dateStr}</p>
+      <div class="cover-gauge"><canvas id="gauge" width="360" height="360" style="max-width:230px;width:100%;height:auto" role="img" aria-label="Career readiness score ${t} out of 100"></canvas>
+        <div class="band-chip">▲ ${bd.label}</div></div>
+      <div class="cover-meta"><span>25 questions · 5 dimensions</span><span>Score band ${bd.lv} of 5</span><span>~${pctl(t)}th percentile of assessed job seekers</span></div>
+      <div class="rfoot">Generated by Metanoia Labs · metanoialabs.id · Transformation · Access · Potential</div>
+    </div>
+  </div>`);
+
+  /* ---- Page 2 · Position ---- */
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp"><div class="eyebrow">Part 1 · Where you stand</div>
+    <h2>Your Position on the Mountain</h2>
+    <div class="rnarr">${positionNarrative(t,bd,scores).map(p=>`<p>${p}</p>`).join('')}</div>
+  </div>`);
+
+  /* ---- Page 3 · Radar ---- */
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp"><div class="eyebrow">Part 2 · The five faces</div>
+    <h2>Your Readiness Radar</h2>
+    <p class="lead">Five dimensions, scored 0–15. The shape matters more than the size: it shows which face of the mountain to work first.</p>
+    <div class="radar-wrap"><canvas id="radar" width="640" height="560" style="max-width:420px;width:100%;height:auto" role="img" aria-label="Radar chart of five dimension scores"></canvas></div>
+    <div class="radar-legend">${DIMS.map((d,i)=>`<span><i style="width:10px;height:10px;border-radius:3px;background:${d.color};display:inline-block"></i>${d.name} <b>${scores[i]}/15</b></span>`).join('')}</div>
+  </div>`);
+
+  /* ---- Pages 4–8 · Deep dives ---- */
+  DIMS.forEach((d,i)=>{
+    const items=Q.filter(q=>q.d===i), sc=scores[i], pct=Math.round(sc/15*100);
+    const {lead,strong,weak}=dimInterpretation(i,sc,items);
+    const acts=weak.slice(0,2); const actsFinal = acts.length?acts: items.slice().sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0)).slice(0,2);
+    R.insertAdjacentHTML('beforeend',`
+    <div class="rp"><div class="eyebrow">Part 3 · Dimension ${i+1} of 5</div>
+      <div class="dim-head" style="margin-top:10px">
+        <div class="dim-ic" style="background:${d.color}">${dimIcon(i)}</div>
+        <div><h2 style="font-size:1.35rem;margin:0">${d.name}</h2>
+          <span style="font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.08em;text-transform:uppercase">${d.metaname}</span></div>
+        <div class="dim-score"><b>${sc}/15</b><span>${pct}%</span></div>
+      </div>
+      <div class="dimbar"><i style="width:${pct}%;background:${d.color}"></i></div>
+      <p class="lead" style="margin-top:18px">${d.desc}</p>
+      <div class="rnarr"><p>${lead}</p></div>
+      <div class="sg">
+        <div class="col s"><h4>Your strengths</h4><ul>${
+          strong.length?strong.map(q=>`<li><b>${q.sName}.</b> ${q.strength.split('.').slice(0,1).join('.')}.</li>`).join('')
+          :'<li>No established strengths in this dimension yet — which means every action below is pure upside.</li>'}</ul></div>
+        <div class="col g"><h4>Your gaps</h4><ul>${
+          weak.length?weak.map(q=>`<li><b>${q.gapName}.</b> ${q.gap.split('.').slice(0,1).join('.')}.</li>`).join('')
+          :'<li>No significant gaps here — maintain the habit and spend your energy on steeper faces.</li>'}</ul></div>
+      </div>
+      <div class="actions"><h4>Two immediate actions</h4><ol>${
+        actsFinal.map(q=>`<li><b>${q.fix}</b> <span style="color:var(--muted)">(${q.time})</span></li>`).join('')}</ol></div>
+    </div>`);
+  });
+
+  /* ---- Page 9 · Top strengths ---- */
+  const ranked=Q.slice().sort((a,b)=>(S.answers[b.id]??0)-(S.answers[a.id]??0));
+  const top3=ranked.filter(q=>(S.answers[q.id]??0)>=2).slice(0,3);
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp"><div class="eyebrow">Part 4 · Build on these</div>
+    <h2>Your Top 3 Strengths</h2>
+    <p class="lead">${top3.length?'These are the strongest holds you already have on the rock. Protect them — and lead with them in interviews.':'Your assessment shows early-stage preparation across the board — which means your strengths are ahead of you, not behind you. Return after 30 days on the route below and watch this page fill.'}</p>
+    ${top3.map((q,i)=>`<div class="bigitem st"><span class="tag">Strength ${i+1} · ${DIMS[q.d].name}</span>
+      <h3>${q.sName}</h3><p>${q.strength}</p></div>`).join('')}
+  </div>`);
+
+  /* ---- Page 10 · Critical gaps ---- */
+  const rankedLow=Q.slice().sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0));
+  const gap3=rankedLow.slice(0,3);
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp"><div class="eyebrow">Part 5 · Close these first</div>
+    <h2>Your 3 Critical Gaps</h2>
+    <p class="lead">Not judgments — coordinates. Each gap comes with the single fastest action that closes it.</p>
+    ${gap3.map((q,i)=>`<div class="bigitem gp"><span class="tag">Gap ${i+1} · ${DIMS[q.d].name}</span>
+      <h3>${q.gapName}</h3><p>${q.gap}</p>
+      <div class="fix"><b>The fastest fix:</b> ${q.fix} <span style="color:var(--muted)">· ${q.time}</span></div></div>`).join('')}
+  </div>`);
+
+  /* ---- Page 11 · 90-day route ---- */
+  const m1=rankedLow.slice(0,4);
+  const dimPct=scores.map(s=>s/15);
+  const weakDims=dimPct.map((v,i)=>({v,i})).sort((a,b)=>a.v-b.v).map(x=>x.i);
+  const m2=[
+    {p:'p1',t:'3–4 hrs/wk',h:'Set your weekly application cadence: 5–8 targeted, ATS-checked applications per week from your tier list',w:'Volume without targeting is noise; targeting without volume is luck. This is the balance point.'},
+    {p:'p2',t:'2 hrs/wk',h:'Run your networking rhythm: 2 meaningful conversations per week (alumni, seniors, professionals in '+(S.profile.direction!=null&&S.profile.direction<8?['consulting','finance','tech','marketing','HR','engineering','the public sector','management trainee circles'][S.profile.direction]:'your target field')+')',w:'By day 60 this quietly becomes your referral engine.'},
+    {p:'p2',t:'2 hrs/wk',h:'Weekly practice session with your peer pod: one mock interview + one CV/application review, rotating roles',w:'Structured peers keep your quality rising while your volume runs.'},
+    {p:'p3',t:'30 min/wk',h:'Friday review: update your tracker, compute response and interview rates, adjust next week\'s targets',w:'The funnel tells you which stage to fix — feelings do not.'}
+  ];
+  const m3=[
+    {p:'p1',t:'ongoing',h:'Interview pipeline target: convert your response flow into 2–4 interviews; run your 30-minute research ritual before each',w:'This is where the first two months compound into offers.'},
+    {p:'p2',t:'2 hrs',h:'Prepare negotiation: refresh your salary benchmarks, write your floor/target/stretch numbers, rehearse the conversation once aloud',w:'Ten minutes of negotiation often outearns a month of applications.'},
+    {p:'p2',t:'1 hr',h:'Run the contingency review: if interviews < 2 by day 75, tighten targeting (fewer, deeper applications) and double referral-based channels',w:'A pre-decided plan B protects momentum from panic.'},
+    {p:'p3',t:'30 min',h:'Retake this assessment at day 90 and compare your radar shape',w:'Progress you can see is progress you can trust.'}
+  ];
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp"><div class="eyebrow">Part 6 · The route</div>
+    <h2>Your 90-Day Route</h2>
+    <p class="lead">Three phases, built from your exact gap profile. Follow the sequence — foundation before altitude.</p>
+    <div class="phase"><div class="phase-h"><span class="m">Month 1</span><h3>Foundation Repair</h3></div>
+      ${m1.map((q,i)=>`<div class="ritem"><span class="pr ${i<2?'p1':'p2'}">${i<2?'Priority':'High'}</span>
+        <div><h4>${q.fix}<span class="t">· ${q.time}</span></h4><p>${q.why}</p></div></div>`).join('')}
+    </div>
+    <div class="phase"><div class="phase-h"><span class="m">Month 2</span><h3>Activation</h3></div>
+      ${m2.map(a=>`<div class="ritem"><span class="pr ${a.p}">${a.p==='p1'?'Priority':a.p==='p2'?'High':'Steady'}</span>
+        <div><h4>${a.h}<span class="t">· ${a.t}</span></h4><p>${a.w}</p></div></div>`).join('')}
+    </div>
+    <div class="phase"><div class="phase-h"><span class="m">Month 3</span><h3>Execution & Iteration</h3></div>
+      ${m3.map(a=>`<div class="ritem"><span class="pr ${a.p}">${a.p==='p1'?'Priority':a.p==='p2'?'High':'Steady'}</span>
+        <div><h4>${a.h}<span class="t">· ${a.t}</span></h4><p>${a.w}</p></div></div>`).join('')}
+    </div>
+  </div>`);
+
+  /* ---- Page 12 · Next steps on Metanoia ---- */
+  const FEAT={
+    ci:{n:'The Map — Career Intelligence module',d:'A 90-minute deep dive into how hiring actually works here: ATS, BUMN processes, salary data, and targeting strategy.',c:'#1D5FAB',ic:'M'},
+    ps:{n:'CV Studio — ATS optimizer + recruiter review',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#0D7377',ic:'CV'},
+    ir:{n:'Interview Coach — STAR mock interviews',d:'Calibrated mock interviews for your target role, with structured feedback on every answer.',c:'#B45309',ic:'IC'},
+    nc:{n:'Basecamp — your matched cohort',d:'A structured peer group at your stage and direction: weekly practice, honest feedback, and people who refuse to let you quit.',c:'#7C3AED',ic:'B'},
+    cm:{n:'Mind Palace — rejection-recovery & confidence',d:'A program for the inner climb: rejection protocols, confidence built on evidence, and momentum that survives bad weeks.',c:'#1A2E4A',ic:'MP'}
+  };
+  const recs=weakDims.slice(0,3).map(i=>FEAT[DIMS[i].key]);
+  R.insertAdjacentHTML('beforeend',`
+  <div class="rp dark"><div class="eyebrow">Part 7 · What happens next</div>
+    <h2>Your Next Steps on Metanoia</h2>
+    <p class="lead">Matched to your lowest faces — start where the route starts.</p>
+    ${recs.map((f,i)=>`<div class="featrec" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14)">
+      <div class="fi" style="background:${f.c}">${f.ic}</div>
+      <div><h3 style="color:#fff">${i===0?'Start here: ':''}${f.n}</h3><p style="color:#B9C7DA">${f.d}</p></div></div>`).join('')}
+    <div style="text-align:center;margin-top:34px">
+      <p style="font-size:1.25rem;font-weight:800;color:#fff">Your route is mapped. The climb starts now.</p>
+      <button class="btn btn-primary" style="margin-top:18px" onclick="document.getElementById('capture').scrollIntoView({behavior:'smooth'})">Join the Metanoia waitlist</button>
+    </div>
+    <div class="rfoot">Metanoia Labs · metanoialabs.id · This report was generated from your answers on ${dateStr}. Retake anytime — mountains reward second attempts.</div>
+  </div>`);
+
+  drawGauge(t); drawRadar(scores);
+  // hidden form fields
+  document.getElementById('hidden-score').value=t;
+  document.getElementById('hidden-band').value=bd.label;
+  document.getElementById('hidden-dimensions').value=JSON.stringify(Object.fromEntries(DIMS.map((d,i)=>[d.key,scores[i]])));
+  document.getElementById('hidden-profile').value=JSON.stringify(S.profile);
+  document.getElementById('hidden-answers').value=JSON.stringify(S.answers);
+  const cn=document.getElementById('capName'); if(!cn.value) cn.value=S.profile.name||'';
+  save();
+}
+
+/* ---- gauge ---- */
+function drawGauge(t){
+  const c=document.getElementById('gauge'); if(!c)return; const x=c.getContext('2d');
+  const W=360,H=360,cx=W/2,cy=H/2,r=140,lw=26,start=Math.PI*0.75,span=Math.PI*1.5;
+  x.clearRect(0,0,W,H);
+  x.lineCap='round';
+  x.beginPath();x.arc(cx,cy,r,start,start+span);x.strokeStyle='rgba(255,255,255,.12)';x.lineWidth=lw;x.stroke();
+  const g=x.createLinearGradient(0,H,W,0);g.addColorStop(0,'#1D5FAB');g.addColorStop(1,'#0D7377');
+  let cur=0; const target=t;
+  (function anim(){
+    cur=Math.min(target,cur+2);
+    x.clearRect(0,0,W,H);
+    x.beginPath();x.arc(cx,cy,r,start,start+span);x.strokeStyle='rgba(255,255,255,.12)';x.lineWidth=lw;x.stroke();
+    x.beginPath();x.arc(cx,cy,r,start,start+span*(cur/100));x.strokeStyle=g;x.lineWidth=lw;x.stroke();
+    x.fillStyle='#fff';x.textAlign='center';
+    x.font='800 84px Inter,system-ui,sans-serif';x.fillText(cur,cx,cy+18);
+    x.font='600 17px Inter,system-ui,sans-serif';x.fillStyle='#8FA2BC';x.fillText('/ 100',cx,cy+52);
+    x.font='700 13px Inter,system-ui,sans-serif';x.fillStyle='#B9C7DA';x.fillText('CAREER READINESS',cx,cy+88);
+    if(cur<target)requestAnimationFrame(anim);
+  })();
+}
+
+/* ---- radar (hand-drawn pentagon; no external library needed) ---- */
+function drawRadar(scores){
+  const c=document.getElementById('radar'); if(!c)return; const x=c.getContext('2d');
+  const W=640,H=560,cx=W/2,cy=H/2+14,R=180,n=5;
+  const pt=(i,f)=>{const a=-Math.PI/2+i*2*Math.PI/n;return[cx+Math.cos(a)*R*f,cy+Math.sin(a)*R*f];};
+  x.clearRect(0,0,W,H);
+  // grid rings
+  for(let ring=1;ring<=5;ring++){ x.beginPath();
+    for(let i=0;i<=n;i++){const[a,b]=pt(i%n,ring/5); i?x.lineTo(a,b):x.moveTo(a,b);}
+    x.strokeStyle='#E2E8F0';x.lineWidth=1;x.stroke(); }
+  // spokes
+  for(let i=0;i<n;i++){const[a,b]=pt(i,1);x.beginPath();x.moveTo(cx,cy);x.lineTo(a,b);x.strokeStyle='#E2E8F0';x.stroke();}
+  // data
+  x.beginPath();
+  scores.forEach((s,i)=>{const[a,b]=pt(i,Math.max(.06,s/15)); i?x.lineTo(a,b):x.moveTo(a,b);});
+  x.closePath();
+  x.fillStyle='rgba(29,95,171,.22)';x.fill();
+  x.strokeStyle='#1D5FAB';x.lineWidth=2.5;x.lineJoin='round';x.stroke();
+  scores.forEach((s,i)=>{const[a,b]=pt(i,Math.max(.06,s/15));x.beginPath();x.arc(a,b,5,0,7);x.fillStyle=DIMS[i].color;x.fill();
+    x.beginPath();x.arc(a,b,5,0,7);x.strokeStyle='#fff';x.lineWidth=2;x.stroke();});
+  // labels
+  x.textAlign='center';x.fillStyle='#111827';x.font='700 15px Inter,system-ui,sans-serif';
+  const labels=DIMS.map(d=>d.name.split(' '));
+  for(let i=0;i<n;i++){ const[a,b]=pt(i,1.22);
+    labels[i].forEach((w,li)=>x.fillText(w,a,b-8+li*17));
+    x.font='800 14px Inter,system-ui,sans-serif';x.fillStyle=DIMS[i].color;
+    x.fillText(scores[i]+'/15',a,b-8+labels[i].length*17+2);
+    x.font='700 15px Inter,system-ui,sans-serif';x.fillStyle='#111827';
+  }
+}
+
+/* ================= PDF / SHARE / FORM ================= */
+window.downloadReport=function(){
+  const el=document.getElementById('report-content');
+  if(window.html2pdf){
+    el.classList.add('pdf-mode');
+    const nm=(S.profile.name||'Metanoia').replace(/[^\w-]/g,'');
+    html2pdf().set({margin:[8,8],filename:`Metanoia-Career-Map-${nm}.pdf`,
+      image:{type:'jpeg',quality:0.96},html2canvas:{scale:2,useCORS:true},
+      jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},
+      pagebreak:{mode:['css','legacy']}})
+      .from(el).save().then(()=>el.classList.remove('pdf-mode')).catch(()=>{el.classList.remove('pdf-mode');window.print();});
+  } else window.print();
+};
+document.getElementById('shareBtn').onclick=async()=>{
+  const t=total100(calcScores()),bd=band(t);
+  const msg=`I just mapped my career readiness: ${t}/100 — ${bd.label} on the Metanoia Career Map. Find your altitude: metanoialabs.id`;
+  try{ if(navigator.share){await navigator.share({text:msg});} else {await navigator.clipboard.writeText(msg);
+    const b=document.getElementById('shareBtn');const o=b.textContent;b.textContent='Copied!';setTimeout(()=>b.textContent=o,1600);} }catch(e){}
+};
+document.getElementById('capform').addEventListener('submit',async function(e){
+  e.preventDefault();
+  const f=this, email=document.getElementById('capEmail').value, name=document.getElementById('capName').value;
+  const th=document.getElementById('thanks');
+  let ok=false;
+  try{ const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}); ok=r.ok; }catch(err){}
+  th.style.display='block';
+  th.innerHTML = `<b>Your Career Map has been saved${ok?`. We'll send a copy to ${escapeHtml(email)}`:' on this device'}.</b><br>
+    ${name?escapeHtml(name)+', y':'Y'}ou've taken the most important step: you now know exactly where you stand and what to do next. The mountain is waiting.${
+    ok?'':'<br><span style="opacity:.75;font-size:12.5px">(The email service is not configured yet — download the PDF above to keep your copy.)</span>'}`;
+  f.style.display='none';
+  th.scrollIntoView({behavior:'smooth',block:'center'});
+});
+
+applyLang();
+})();
+</script>
+</body>
+</html>
