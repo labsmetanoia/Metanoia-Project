@@ -11,29 +11,40 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
 <style>
   :root{
-    --navy:#1A2E4A; --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
-    --white:#FFFFFF; --light:#F1F5F9; --mid:#64748B; --deep-navy:#0F1C2E;
-    --glass:rgba(255,255,255,0.06); --glass-border:rgba(255,255,255,0.12);
-    --gold1:#C97B1E; --gold2:#F5A623;
+    --bg:#070d18; --ink:#1B2434; --text:#F5EFE6; --muted:#93a3b8;
+    --ember:#F97316; --ember2:#F59E0B; --ember-ink:#160d03; --accent-print:#B4550E;
+    --gold1:#C97B1E; --gold2:#F5A623; --gold3:#FFD98A;
+    --amber:#B45309; --forest:#1A5C38;
+    --white:#FFFFFF; --light:#F1F5F9; --mid:#64748B;
+    --glass:rgba(7,13,24,.5); --glass-border:rgba(245,239,230,.14);
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
-  body{font-family:'Inter',ui-sans-serif,system-ui,sans-serif;color:#fff;font-size:16px;line-height:1.6;
-    -webkit-font-smoothing:antialiased;min-height:100vh;background-color:var(--deep-navy);
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='0.6' opacity='0.07'%3E%3Cpath d='M-20 180 C40 140 80 190 130 150 S 210 110 250 140'/%3E%3Cpath d='M-20 140 C50 100 90 150 140 110 S 215 70 250 100'/%3E%3Cpath d='M-20 100 C60 65 100 110 150 72 S 220 35 250 60'/%3E%3Cpath d='M-20 60 C70 30 110 70 160 36 S 225 5 250 24'/%3E%3C/g%3E%3C/svg%3E");
-    background-size:220px 220px}
+  body{font-family:'Inter',ui-sans-serif,system-ui,sans-serif;color:var(--text);font-size:16px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;min-height:100vh;background-color:var(--bg)}
+  /* photographic section backdrops (fixed layer + readability scrim) */
+  body::before{content:"";position:fixed;inset:0;z-index:-2;background:var(--bg) center/cover no-repeat}
+  body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:linear-gradient(180deg,rgba(7,13,24,.22) 0%,rgba(7,13,24,.42) 55%,rgba(7,13,24,.8) 100%)}
+  body[data-bg=""]::after{background:none}
+  body[data-bg="start"]::before{background-image:url("assets/bg/start.jpg")}
+  body[data-bg="map"]::before{background-image:url("assets/bg/map.jpg")}
+  body[data-bg="pack"]::before{background-image:url("assets/bg/pack.jpg")}
+  body[data-bg="rope"]::before{background-image:url("assets/bg/rope.jpg")}
+  body[data-bg="team"]::before{background-image:url("assets/bg/rope-team.jpg")}
+  body[data-bg="mind"]::before{background-image:url("assets/bg/start.jpg")}
   h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-.015em}
   p{margin:0} button{font-family:inherit;cursor:pointer}
   .screen{display:none;min-height:100vh;min-height:100svh}
   .screen.active{display:block}
 
   /* ============ shared ============ */
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;
     font-weight:600;font-size:1rem;padding:14px 28px;text-decoration:none;min-height:48px;
     transition:transform .2s ease,box-shadow .2s ease,background .2s}
-  .btn:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px}
-  .btn-cobalt{background:var(--cobalt);color:#fff;box-shadow:0 4px 16px rgba(29,95,171,.4)}
-  .btn-cobalt:hover{background:#1a54a0;transform:translateY(-1px);box-shadow:0 6px 20px rgba(29,95,171,.5)}
+  .btn:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
+  .btn-ember{background:linear-gradient(120deg,var(--ember2),var(--ember));color:var(--ember-ink);border-radius:999px;box-shadow:0 8px 30px rgba(249,115,22,.35)}
+  .btn-ember:hover{transform:translateY(-1px);box-shadow:0 10px 34px rgba(249,115,22,.45)}
   .btn-glass{background:transparent;border:1px solid rgba(255,255,255,.25);color:#fff}
   .btn-glass:hover{border-color:rgba(255,255,255,.5)}
   .lockup{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
@@ -55,17 +66,20 @@
   #s-hero .fine{color:rgba(255,255,255,.4);font-size:12.5px;margin-top:16px}
 
   /* ============ HEADER (quiz) ============ */
-  .qhead{position:sticky;top:0;z-index:20;background:rgba(15,28,46,.95);backdrop-filter:blur(12px);
-    border-bottom:1px solid rgba(255,255,255,.08)}
+  .qhead{position:sticky;top:0;z-index:20;background:rgba(7,13,24,.88);backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(245,239,230,.12)}
   .qhead-in{max-width:1080px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px}
-  .qhead .ptext{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#93C5FD;text-align:center;flex:1}
-  .qhead .plabel{font-size:.7rem;font-weight:700;letter-spacing:.18em;color:rgba(255,255,255,.4)}
-  @media(max-width:640px){.qhead .plabel{display:none}}
+  .qhead-right{display:flex;align-items:center;gap:12px;justify-content:flex-end}
+  .qhead .ptext{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold3);
+    border:1px solid rgba(245,239,230,.28);border-radius:999px;padding:6px 15px;backdrop-filter:blur(6px);
+    background:rgba(7,13,24,.35);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .qhead-right{min-width:0;flex:1}
+  .qhead .plabel{font-size:.68rem;font-weight:700;letter-spacing:.18em;color:rgba(245,239,230,.4);white-space:nowrap}
+  @media(max-width:640px){.qhead .plabel{display:none}.qhead .ptext{font-size:.6rem;padding:5px 12px;letter-spacing:.08em}}
   .alt-meter{max-width:1080px;margin:0 auto;padding:0 20px 10px}
-  .alt-track{height:4px;border-radius:99px;background:rgba(255,255,255,.1);overflow:visible;position:relative}
-  .alt-fill{height:100%;width:0%;border-radius:99px;background:linear-gradient(90deg,var(--cobalt),var(--teal));
-    box-shadow:0 0 8px rgba(29,95,171,.6);transition:width .35s ease}
-  .alt-ridge{display:block;width:100%;height:26px;margin-top:4px}
+  .alt-track{height:4px;border-radius:99px;background:rgba(245,239,230,.12);overflow:visible;position:relative}
+  .alt-fill{height:100%;width:0%;border-radius:99px;background:linear-gradient(90deg,var(--gold1),var(--ember2));
+    box-shadow:0 0 8px rgba(245,158,11,.55);transition:width .35s ease}
 
   /* ============ QUESTION SCREEN ============ */
   .qview{min-height:calc(100vh - 110px);min-height:calc(100svh - 110px);display:flex;flex-direction:column;
@@ -73,9 +87,9 @@
   #qcard{transition:opacity .25s ease,transform .25s ease}
   #qcard.out-l{opacity:0;transform:translateX(-40px)} #qcard.out-r{opacity:0;transform:translateX(40px)}
   #qcard.in-r{opacity:0;transform:translateX(40px);transition:none} #qcard.in-l{opacity:0;transform:translateX(-40px);transition:none}
-  .section-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(29,95,171,.15);
-    border:1px solid rgba(29,95,171,.3);border-radius:999px;padding:5px 14px;font-size:.7rem;font-weight:600;
-    letter-spacing:.1em;text-transform:uppercase;color:#93C5FD;margin-bottom:22px}
+  .section-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(249,115,22,.15);
+    border:1px solid rgba(249,115,22,.3);border-radius:999px;padding:5px 14px;font-size:.7rem;font-weight:600;
+    letter-spacing:.1em;text-transform:uppercase;color:#FFD98A;margin-bottom:22px}
   .qcounter{font-size:.8rem;font-weight:500;color:rgba(255,255,255,.35);margin-bottom:12px;letter-spacing:.05em}
   .qtext{font-size:clamp(1.4rem,3vw,2rem);font-weight:700;line-height:1.3;color:#fff;letter-spacing:-.02em}
   .qhint{color:rgba(255,255,255,.4);font-size:.85rem;margin-top:10px}
@@ -83,54 +97,55 @@
   .option-card{width:100%;max-width:640px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.10);
     border-radius:12px;padding:15px 20px;cursor:pointer;transition:all .2s ease;display:flex;align-items:flex-start;
     gap:14px;text-align:left;color:rgba(255,255,255,.9);font-size:1rem;font-weight:500;line-height:1.5;min-height:48px}
-  .option-card:hover{background:rgba(29,95,171,.15);border-color:rgba(29,95,171,.4);transform:translateX(4px)}
-  .option-card.selected{background:rgba(29,95,171,.25);border-color:var(--cobalt);
-    box-shadow:0 0 0 1px rgba(29,95,171,.3),inset 0 0 20px rgba(29,95,171,.1)}
+  .option-card:hover{background:rgba(249,115,22,.15);border-color:rgba(249,115,22,.4);transform:translateX(4px)}
+  .option-card.selected{background:rgba(249,115,22,.25);border-color:var(--ember);
+    box-shadow:0 0 0 1px rgba(249,115,22,.3),inset 0 0 20px rgba(249,115,22,.1)}
   .option-card.pulse{animation:selpulse .2s ease}
   @keyframes selpulse{50%{transform:scale(1.01)}}
   .option-dot{width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,.25);flex-shrink:0;
     margin-top:2px;transition:all .2s ease;position:relative}
-  .option-card.selected .option-dot{background:var(--cobalt);border-color:var(--cobalt);box-shadow:0 0 0 3px rgba(29,95,171,.25)}
+  .option-card.selected .option-dot{background:var(--ember);border-color:var(--ember);box-shadow:0 0 0 3px rgba(249,115,22,.25)}
   .option-card.selected .option-dot::after{content:"";position:absolute;left:5.5px;top:2.5px;width:4px;height:8px;
     border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
   .text-input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:12px;
     padding:16px 20px;color:#fff;font-size:1.1rem;font-family:'Inter',sans-serif;width:100%;max-width:480px;
     outline:none;transition:border-color .2s,box-shadow .2s;margin-top:26px}
-  .text-input:focus{border-color:var(--cobalt);box-shadow:0 0 0 3px rgba(29,95,171,.2)}
+  .text-input:focus{border-color:var(--ember);box-shadow:0 0 0 3px rgba(249,115,22,.2)}
   .text-input::placeholder{color:rgba(255,255,255,.25)}
   .otherwrap{margin-top:12px;display:none}
   .otherwrap .text-input{margin-top:0}
   .qnav{display:flex;justify-content:space-between;align-items:center;max-width:680px;margin:26px auto 0;width:100%}
-  .btn-back{background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.6);
-    border-radius:8px;padding:12px 20px;font-size:.875rem;font-weight:500;transition:all .2s;min-height:48px}
+  .btn-back{background:transparent;border:1px solid rgba(245,239,230,.22);color:rgba(245,239,230,.65);
+    border-radius:999px;padding:12px 20px;font-size:.875rem;font-weight:500;transition:all .2s;min-height:48px}
   .btn-back:hover{border-color:rgba(255,255,255,.35);color:#fff}
-  .btn-next{background:var(--cobalt);border:none;color:#fff;border-radius:8px;padding:12px 28px;font-size:.9rem;
-    font-weight:600;transition:all .2s;box-shadow:0 4px 16px rgba(29,95,171,.4);min-height:48px}
-  .btn-next:hover{background:#1a54a0;transform:translateY(-1px);box-shadow:0 6px 20px rgba(29,95,171,.5)}
+  .btn-next{background:linear-gradient(120deg,var(--ember2),var(--ember));border:none;color:var(--ember-ink);border-radius:999px;padding:12px 28px;font-size:.9rem;
+    font-weight:600;transition:all .2s;box-shadow:0 4px 16px rgba(249,115,22,.4);min-height:48px}
+  .btn-next:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(249,115,22,.5)}
   .btn-next[disabled]{opacity:.35;pointer-events:none}
 
   /* ============ INTERSTITIAL ============ */
-  #s-inter{background:var(--deep-navy);background-image:none}
+  /* interstitials sit on the section's photographic backdrop with a deeper scrim */
+  #s-inter{background:linear-gradient(180deg,rgba(7,13,24,.3),rgba(7,13,24,.55))}
   .inter{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;
     justify-content:center;text-align:center;cursor:pointer;padding:40px 24px;animation:interIn .4s ease}
   @keyframes interIn{from{opacity:0}to{opacity:1}}
-  .inter .chapter{font-size:.75rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--teal)}
-  .inter .icon{margin:26px 0 22px;color:var(--cobalt)}
+  .inter .chapter{font-size:.75rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--ember2)}
+  .inter .icon{margin:26px 0 22px;color:var(--ember)}
   .inter h2{font-size:clamp(1.8rem,6vw,2.5rem);font-weight:800;color:#fff;max-width:14em}
   .inter .subtitle{font-size:1rem;color:rgba(255,255,255,.55);margin-top:14px;max-width:30em}
   .inter .peaks{display:flex;gap:14px;margin-top:56px}
   .inter .peaks svg{opacity:.28;transition:opacity .3s}
-  .inter .peaks svg.on{opacity:1;filter:drop-shadow(0 0 8px rgba(29,95,171,.9))}
+  .inter .peaks svg.on{opacity:1;filter:drop-shadow(0 0 8px rgba(249,115,22,.9))}
   .inter .tap{margin-top:22px;font-size:.65rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.25)}
 
   /* ============ LOADING ============ */
-  #s-loading{background:var(--deep-navy);background-image:none}
+  #s-loading{background:var(--bg)}
   #s-loading.active{display:flex;align-items:center;justify-content:center;text-align:center}
   #s-loading .in{max-width:520px;padding:24px;width:100%}
-  .analyz{font-size:clamp(1.3rem,4vw,1.7rem);font-weight:800;color:#93C5FD;margin-top:30px}
+  .analyz{font-size:clamp(1.3rem,4vw,1.7rem);font-weight:800;color:#FFD98A;margin-top:30px}
   .loadmsg{margin-top:14px;font-size:.95rem;color:rgba(255,255,255,.5);min-height:1.6em;transition:opacity .4s}
-  .loadline{position:fixed;left:0;bottom:0;height:3px;width:0%;background:linear-gradient(90deg,var(--cobalt),var(--teal));
-    box-shadow:0 0 10px rgba(29,95,171,.8);transition:width .3s linear}
+  .loadline{position:fixed;left:0;bottom:0;height:3px;width:0%;background:linear-gradient(90deg,var(--ember),var(--ember2));
+    box-shadow:0 0 10px rgba(249,115,22,.8);transition:width .3s linear}
 
   /* ============ REPORT (screen shell) ============ */
   #s-report{padding-bottom:60px}
@@ -149,55 +164,55 @@
   .report-page + .report-page{margin-top:26px}
   .pdf-mode .report-page + .report-page{margin-top:0}
   .rphead{width:100%;padding:14px 48px 10px;display:flex;justify-content:space-between;align-items:center;
-    border-bottom:2px solid var(--cobalt)}
-  .rphead b{font-size:8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);font-weight:700}
+    border-bottom:2px solid var(--ember)}
+  .rphead b{font-size:8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:700}
   .rphead span{font-size:8pt;color:var(--mid)}
   .rpfoot{position:absolute;bottom:0;left:0;width:100%;padding:10px 48px;display:flex;justify-content:space-between;
     align-items:center;border-top:1px solid #E2E8F0;font-size:7pt;color:var(--mid)}
   .rpad{padding:30px 48px 60px}
   .report-section-header,.dimension-card,.strength-item,.gap-item,.action-item{page-break-inside:avoid;break-inside:avoid}
   /* cover */
-  .rp-cover{background:var(--navy);color:#fff;display:flex;flex-direction:column;padding:44px 52px}
+  .rp-cover{background:var(--ink);color:#fff;display:flex;flex-direction:column;padding:44px 52px}
   .rp-cover .top{display:flex;align-items:center;gap:10px}
   .rp-cover .mega{margin-top:110px;font-size:64pt;line-height:.98;font-weight:800;letter-spacing:-.02em}
-  .rp-cover .rule{width:60px;height:4px;background:var(--cobalt);margin:34px 0 40px}
+  .rp-cover .rule{width:60px;height:4px;background:var(--ember);margin:34px 0 40px}
   .rp-cover .pf{font-size:9pt;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.4)}
-  .rp-cover .pname{font-size:28pt;font-weight:800;color:#93C5FD;margin-top:6px}
+  .rp-cover .pname{font-size:28pt;font-weight:800;color:#FFD98A;margin-top:6px}
   .rp-cover .dots{display:flex;gap:8px;margin:26px 0 34px}
   .rp-cover .dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.15)}
-  .rp-cover .dots i.on{background:var(--cobalt)}
+  .rp-cover .dots i.on{background:var(--ember)}
   .rp-cover .scorewrap{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
-  .rp-cover .bandlbl{font-size:13pt;font-weight:700;color:#93C5FD;letter-spacing:.04em}
+  .rp-cover .bandlbl{font-size:13pt;font-weight:700;color:#FFD98A;letter-spacing:.04em}
   .rp-cover .cfoot{margin-top:auto;border-top:1px solid rgba(255,255,255,.18);padding-top:14px;
     font-size:8pt;color:rgba(255,255,255,.45);line-height:1.7}
   /* exec */
   .exec-grid{display:flex;gap:34px;margin-top:8px}
   .exec-grid .l{flex:1} .exec-grid .r{flex:1;display:flex;align-items:flex-start;justify-content:center}
-  .h-cobalt{font-size:14pt;font-weight:700;color:var(--cobalt)}
+  .h-ember{font-size:14pt;font-weight:700;color:var(--accent-print)}
   .exec-narr{font-size:10pt;line-height:1.7;color:#374151;margin-top:12px}
   .exec-narr p{margin-bottom:10px}
-  .callout{border-left:4px solid var(--cobalt);background:#F0F7FF;border-radius:0 8px 8px 0;padding:13px 16px;
-    font-size:10.5pt;font-weight:700;color:var(--navy);margin-top:8px}
+  .callout{border-left:4px solid var(--accent-print);background:#FFF6EA;border-radius:0 8px 8px 0;padding:13px 16px;
+    font-size:10.5pt;font-weight:700;color:var(--ink);margin-top:8px}
   .exec-meta{font-size:8pt;color:var(--mid);margin-top:14px}
   .scorebars{display:flex;gap:14px;margin-top:30px}
   .scorebars .col{flex:1}
   .scorebars .nm{font-size:7.2pt;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#374151;min-height:22px}
-  .scorebars .pc{font-size:11pt;font-weight:800;color:var(--cobalt);margin:3px 0 5px}
+  .scorebars .pc{font-size:11pt;font-weight:800;color:var(--accent-print);margin:3px 0 5px}
   .scorebars .tr{height:6px;border-radius:99px;background:#E2E8F0;overflow:hidden}
-  .scorebars .fl{height:100%;border-radius:99px;background:var(--cobalt)}
+  .scorebars .fl{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold1),var(--ember))}
   /* dimension pages */
   .dim-toprow{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
   .sec-chip-print{display:inline-block;font-size:7.5pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--cobalt);border:1px solid rgba(29,95,171,.4);border-radius:999px;padding:3px 12px}
-  .dim-score-print{font-size:11pt;font-weight:800;color:var(--navy);white-space:nowrap}
-  .dim-title{font-size:18pt;font-weight:800;color:var(--cobalt);margin-top:12px;letter-spacing:-.01em}
+    color:var(--accent-print);border:1px solid rgba(180,85,14,.45);border-radius:999px;padding:3px 12px}
+  .dim-score-print{font-size:11pt;font-weight:800;color:var(--ink);white-space:nowrap}
+  .dim-title{font-size:18pt;font-weight:800;color:var(--accent-print);margin-top:12px;letter-spacing:-.01em}
   .dim-meta{font-size:10pt;font-style:italic;color:var(--mid);margin-top:4px}
-  .rule-c{height:2px;background:var(--cobalt);opacity:.35;margin:18px 0}
+  .rule-c{height:2px;background:var(--ember);opacity:.35;margin:18px 0}
   .lbl-sc{font-size:8pt;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mid);margin-bottom:8px}
   .brow{display:flex;align-items:center;gap:12px;margin-bottom:16px}
   .brow .tr{flex:1;height:8px;border-radius:99px;background:#E2E8F0;overflow:hidden}
   .brow .fl{height:100%;border-radius:99px}
-  .brow b{font-size:10pt;color:var(--navy);white-space:nowrap}
+  .brow b{font-size:10pt;color:var(--ink);white-space:nowrap}
   .dim-narr{font-size:10pt;line-height:1.65;color:#374151;margin:6px 0 18px}
   .sgrow{display:flex;gap:16px}
   .strengths-box{background:#F0FDF4;border:1px solid #86EFAC;border-left:4px solid var(--forest);border-radius:8px;padding:14px 16px;flex:1}
@@ -209,12 +224,12 @@
   .strengths-box li::before{content:"•";position:absolute;left:0;color:var(--forest);font-weight:800}
   .gaps-box li::before{content:"•";position:absolute;left:0;color:var(--amber);font-weight:800}
   .action-item{display:flex;gap:14px;margin-bottom:11px;padding:13px 14px;background:#F8FAFC;
-    border-left:3px solid var(--cobalt);border-radius:0 6px 6px 0}
+    border-left:3px solid var(--ember);border-radius:0 6px 6px 0}
   .action-number{font-size:18pt;font-weight:800;color:#E2E8F0;flex-shrink:0;line-height:1}
   .action-text{font-size:9.5pt;line-height:1.6;color:#374151}
   .action-text .tm{color:var(--mid);font-size:8.5pt}
   /* summary page */
-  .navbar-strip{background:var(--navy);color:#fff;font-size:10pt;font-weight:800;letter-spacing:.12em;
+  .navbar-strip{background:var(--ink);color:#fff;font-size:10pt;font-weight:800;letter-spacing:.12em;
     text-transform:uppercase;padding:10px 16px;border-radius:6px;margin:8px 0 14px}
   .cards3{display:flex;gap:14px}
   .cards3 .c{flex:1;border:1px solid #E2E8F0;border-radius:10px;padding:14px;display:flex;flex-direction:column}
@@ -224,31 +239,31 @@
   .cards3 .c.st h4{color:var(--forest)} .cards3 .c.gp h4{color:var(--amber)}
   .cards3 p{font-size:8.2pt;line-height:1.55;color:#374151;margin-top:7px}
   .cards3 .fx{margin-top:auto;padding-top:9px;font-size:8.2pt;color:#111827}
-  .cards3 .fx b{color:var(--cobalt)}
+  .cards3 .fx b{color:var(--accent-print)}
   /* route */
   .route3{display:flex;gap:14px;margin-top:10px}
   .route3 .mcol{flex:1;border:1px solid #E2E8F0;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
   .route3 .mtop{height:5px}
-  .route3 .m1 .mtop{background:var(--cobalt)} .route3 .m2 .mtop{background:var(--teal)} .route3 .m3 .mtop{background:var(--forest)}
+  .route3 .m1 .mtop{background:var(--ember)} .route3 .m2 .mtop{background:var(--ember2)} .route3 .m3 .mtop{background:var(--forest)}
   .route3 .mpad{padding:13px 13px 14px;display:flex;flex-direction:column;flex:1}
   .route3 .mh{font-size:8pt;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mid)}
-  .route3 .mt{font-size:11pt;font-weight:800;color:var(--navy);margin:2px 0 10px}
-  .route3 .wk{font-size:7.4pt;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--cobalt);margin:8px 0 5px}
+  .route3 .mt{font-size:11pt;font-weight:800;color:var(--ink);margin:2px 0 10px}
+  .route3 .wk{font-size:7.4pt;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-print);margin:8px 0 5px}
   .route3 .ai{font-size:8pt;line-height:1.5;color:#374151;padding-left:12px;position:relative;margin-bottom:6px}
   .route3 .ai::before{content:"•";position:absolute;left:0;color:var(--mid)}
   .route3 .ai.star::before{content:"★";color:var(--amber);font-size:7pt;top:1px}
-  .route3 .mile{margin-top:auto;background:#F0F7FF;border:1px solid #D3E4F8;border-radius:8px;padding:8px 10px;
-    font-size:7.6pt;font-weight:700;color:var(--cobalt);text-align:center}
+  .route3 .mile{margin-top:auto;background:#FFF6EA;border:1px solid #F2DFC2;border-radius:8px;padding:8px 10px;
+    font-size:7.6pt;font-weight:700;color:var(--accent-print);text-align:center}
   /* next steps */
-  .ns-hero{background:var(--navy);height:120px;display:flex;align-items:center;padding:0 48px}
+  .ns-hero{background:var(--ink);height:120px;display:flex;align-items:center;padding:0 48px}
   .ns-hero h2{color:#fff;font-size:24pt;font-weight:800}
   .featc{display:flex;gap:14px;margin-top:18px}
   .featc .c{flex:1;border:1px solid #E2E8F0;border-radius:10px;padding:16px}
   .featc .ic{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:9pt}
-  .featc h4{font-size:10.5pt;margin-top:10px;color:var(--navy)}
+  .featc h4{font-size:10.5pt;margin-top:10px;color:var(--ink)}
   .featc p{font-size:8.4pt;color:#374151;line-height:1.55;margin-top:6px}
-  .ns-cta{display:block;margin:30px auto 0;background:var(--cobalt);color:#fff;text-align:center;text-decoration:none;
-    border-radius:10px;padding:16px 30px;font-size:12pt;font-weight:700;max-width:420px;box-shadow:0 4px 20px rgba(29,95,171,.35)}
+  .ns-cta{display:block;margin:30px auto 0;background:var(--ember);color:#fff;text-align:center;text-decoration:none;
+    border-radius:10px;padding:16px 30px;font-size:12pt;font-weight:700;max-width:420px;box-shadow:0 4px 20px rgba(249,115,22,.35)}
   .ns-url{text-align:center;font-size:9pt;color:var(--mid);margin-top:12px}
 
   /* ============ CAPTURE ============ */
@@ -260,11 +275,11 @@
   .capform{margin-top:22px;display:flex;flex-direction:column;gap:12px}
   .capform .text-input{margin-top:0;max-width:none;font-size:1rem}
   .capform label.ck{display:flex;gap:11px;align-items:flex-start;font-size:.85rem;color:rgba(255,255,255,.65);cursor:pointer}
-  .capform input[type=checkbox]{width:18px;height:18px;accent-color:var(--teal);margin-top:2px}
+  .capform input[type=checkbox]{width:18px;height:18px;accent-color:var(--ember2);margin-top:2px}
   .cap-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:6px}
 
   /* ============ COMPLETION ============ */
-  #s-done{background:var(--deep-navy);
+  #s-done{background:var(--bg);
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='0.6' opacity='0.1'%3E%3Cpath d='M-20 180 C40 140 80 190 130 150 S 210 110 250 140'/%3E%3Cpath d='M-20 140 C50 100 90 150 140 110 S 215 70 250 100'/%3E%3Cpath d='M-20 100 C60 65 100 110 150 72 S 220 35 250 60'/%3E%3C/g%3E%3C/svg%3E")}
   .done-in{max-width:720px;margin:0 auto;padding:0 22px 70px;text-align:center}
   .summit-art{width:100%;height:200px;display:block}
@@ -277,30 +292,30 @@
   .score-card{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:26px 34px;
     max-width:420px;margin:34px auto 32px;display:flex;align-items:center;gap:26px;text-align:left}
   .score-card .k{font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.4)}
-  .score-card .n{font-size:clamp(1.7rem,7.5vw,2.5rem);font-weight:800;color:#93C5FD;line-height:1.1;white-space:nowrap}
+  .score-card .n{font-size:clamp(1.7rem,7.5vw,2.5rem);font-weight:800;color:#FFD98A;line-height:1.1;white-space:nowrap}
   .score-card .b{font-size:.9rem;color:#fff;font-weight:600}
   .score-card .d{font-size:.62rem;color:rgba(255,255,255,.3);margin-top:4px}
   .done-btns{display:flex;flex-direction:column;gap:12px;max-width:420px;margin:0 auto}
-  .btn-climb{background:linear-gradient(135deg,var(--teal),var(--cobalt));color:#fff;padding:18px 32px;border-radius:10px;
-    font-size:1rem;font-weight:700;box-shadow:0 4px 24px rgba(13,115,119,.45);border:0;text-decoration:none;
+  .btn-climb{background:linear-gradient(120deg,var(--ember2),var(--ember));color:var(--ember-ink);padding:18px 32px;border-radius:999px;
+    font-size:1rem;font-weight:700;box-shadow:0 4px 24px rgba(245,158,11,.45);border:0;text-decoration:none;
     display:flex;flex-direction:column;align-items:center;gap:3px;transition:transform .2s,box-shadow .2s}
-  .btn-climb:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 8px 32px rgba(13,115,119,.55)}
-  .btn-climb small{font-size:.68rem;font-weight:500;color:rgba(255,255,255,.7)}
+  .btn-climb:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 8px 32px rgba(245,158,11,.55)}
+  .btn-climb small{font-size:.68rem;font-weight:600;color:rgba(22,13,3,.72)}
   .done-div{height:1px;background:rgba(255,255,255,.1);max-width:520px;margin:44px auto 26px}
   .waitlbl{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.35)}
   .featgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
   @media(max-width:700px){.featgrid{grid-template-columns:1fr 1fr}}
   .feature-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;
     padding:16px;text-align:left;position:relative}
-  .feature-card.hot{border-color:var(--cobalt);box-shadow:0 0 22px rgba(29,95,171,.25)}
-  .feature-card .prio{font-size:.56rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#93C5FD;
+  .feature-card.hot{border-color:var(--ember);box-shadow:0 0 22px rgba(249,115,22,.25)}
+  .feature-card .prio{font-size:.56rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A;
     display:block;margin-bottom:5px}
   .feature-icon{font-size:1.4rem;margin-bottom:8px;display:block}
-  .feature-name{font-size:.85rem;font-weight:700;color:#93C5FD;margin-bottom:6px}
+  .feature-name{font-size:.85rem;font-weight:700;color:#FFD98A;margin-bottom:6px}
   .feature-desc{font-size:.75rem;color:rgba(255,255,255,.5);line-height:1.5}
   .share-row{display:flex;gap:10px;justify-content:center;margin-top:26px}
   .share-row .btn{padding:9px 18px;font-size:.8rem;min-height:0}
-  .done-foot{margin-top:44px;border-top:1px solid rgba(29,95,171,.35);padding-top:22px;font-size:.68rem;
+  .done-foot{margin-top:44px;border-top:1px solid rgba(249,115,22,.35);padding-top:22px;font-size:.68rem;
     color:rgba(255,255,255,.3);line-height:1.8}
   /* entry animation */
   .dstep{opacity:0;transform:translateY(18px)}
@@ -316,7 +331,7 @@
   @media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
 </style>
 </head>
-<body>
+<body data-bg="start">
 
 <!-- ============ HERO ============ -->
 <section class="screen active" id="s-hero">
@@ -340,14 +355,14 @@
     <h1 data-t="hero.h1">Your Career Map starts here.</h1>
     <p class="sub" data-t="hero.sub">A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.</p>
     <ul class="getlist">
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b1">Your Career Readiness Score across 5 dimensions</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b2">Your position on the mountain (honestly mapped)</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b3">Top 3 strengths to build on</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b4">Top 3 gaps to close immediately</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b5">A personalized 90-day route to your target role</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b1">Your Career Readiness Score across 5 dimensions</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b2">Your position on the mountain (honestly mapped)</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b3">Top 3 strengths to build on</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b4">Top 3 gaps to close immediately</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b5">A personalized 90-day route to your target role</span></li>
     </ul>
     <div style="margin-top:34px">
-      <button class="btn btn-cobalt" id="beginBtn" style="font-size:1.05rem;padding:16px 32px"><span data-t="hero.cta">Begin the Climb</span>
+      <button class="btn btn-ember" id="beginBtn" style="font-size:1.05rem;padding:16px 32px"><span data-t="hero.cta">Begin the Climb</span>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
       <p class="fine" data-t="hero.fine">Free · Takes 15 minutes · No login required · Your results are private</p>
@@ -361,21 +376,21 @@
     <div class="qhead-in">
       <a class="lockup" href="#" onclick="return goHero()">
         <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-          <circle cx="20" cy="20" r="18.2" stroke="#1D5FAB" stroke-width="2"/>
-          <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#1D5FAB" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs><linearGradient id="lgQ" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+          <circle cx="20" cy="20" r="18.2" stroke="url(#lgQ)" stroke-width="1.8" opacity=".9"/>
+          <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgQ)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
         </svg>
         <span class="wm"><b>Metanoia</b><i>Labs</i></span>
       </a>
-      <span class="ptext" id="ptext"></span>
-      <span class="plabel">CAREER MAP</span>
+      <div class="qhead-right">
+        <span class="ptext" id="ptext"></span>
+        <span class="plabel">CAREER MAP</span>
+      </div>
     </div>
     <div class="alt-meter">
       <div class="alt-track"><div class="alt-fill" id="altfill"></div></div>
-      <svg class="alt-ridge" viewBox="0 0 1000 26" preserveAspectRatio="none" aria-hidden="true">
-        <path id="ridgePath" d="M0 24 L120 14 L220 20 L340 8 L440 16 L560 5 L680 13 L800 4 L900 10 L1000 2"
-          fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2" stroke-linejoin="round"/>
-        <circle id="climberDot" r="4" cx="0" cy="24" fill="#1D5FAB" style="filter:drop-shadow(0 0 6px rgba(29,95,171,.9))"/>
-      </svg>
     </div>
   </div>
   <div class="qview">
@@ -413,13 +428,13 @@
     <svg width="300" height="150" viewBox="0 0 300 150" fill="none" aria-hidden="true" style="max-width:300px;width:100%">
       <defs>
         <linearGradient id="trailg" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#1D5FAB" stop-opacity="0"/><stop offset="100%" stop-color="#0D7377"/></linearGradient>
+          <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient>
       </defs>
       <path id="loadRidge" d="M10 140 L75 78 L112 104 L165 38 L215 82 L282 14"
         stroke="rgba(255,255,255,.12)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
       <path id="loadTrail" d="M10 140 L75 78 L112 104 L165 38 L215 82 L282 14"
         stroke="url(#trailg)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <circle id="loadDot" r="5" cx="10" cy="140" fill="#93C5FD" style="filter:drop-shadow(0 0 8px rgba(29,95,171,1))"/>
+      <circle id="loadDot" r="5" cx="10" cy="140" fill="#FFD98A" style="filter:drop-shadow(0 0 8px rgba(249,115,22,1))"/>
       <circle id="peakFlash" r="0" cx="282" cy="14" fill="#F5A623" opacity="0"/>
     </svg>
     <div class="analyz">Analyzing your climb...</div>
@@ -431,9 +446,9 @@
 <!-- ============ REPORT ============ -->
 <section class="screen" id="s-report">
   <div class="rtoolbar">
-    <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#93C5FD" data-t="ui.yourmap">Your Career Map</span>
+    <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A" data-t="ui.yourmap">Your Career Map</span>
     <div class="acts">
-      <button class="btn btn-cobalt" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
+      <button class="btn btn-ember" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
       <button class="btn btn-glass" onclick="document.getElementById('capture').scrollIntoView({behavior:'smooth'})"><span data-t="ui.emailme">Email me my report</span></button>
       <button class="btn btn-glass" id="shareBtn"><span data-t="ui.share">Share</span></button>
     </div>
@@ -455,7 +470,7 @@
         <label class="ck"><input type="checkbox" name="waitlist" checked id="capWaitlist">
           <span data-t="cap.wait">Join the Metanoia waitlist — be first on the rope when the platform opens.</span></label>
         <div class="cap-actions">
-          <button type="submit" class="btn btn-cobalt"><span data-t="cap.send">Send my Career Map</span></button>
+          <button type="submit" class="btn btn-ember"><span data-t="cap.send">Send my Career Map</span></button>
           <button type="button" class="btn btn-glass" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
         </div>
       </form>
@@ -481,11 +496,11 @@
         <circle cx="240" cy="8" r="1" opacity=".3"/><circle cx="590" cy="6" r="1" opacity=".28"/>
       </g>
       <ellipse class="glowp" cx="360" cy="200" rx="330" ry="130" fill="url(#dawn)"/>
-      <path d="M0 200 L120 120 L210 200 Z" fill="#1A2E4A"/>
-      <path d="M470 200 L610 128 L720 200 Z" fill="#1A2E4A"/>
-      <path d="M150 200 L360 58 L570 200 Z" fill="#1A2E4A"/>
-      <circle class="summit-dot" cx="360" cy="58" fill="#1D5FAB"/>
-      <circle cx="360" cy="58" r="3.4" fill="#93C5FD"/>
+      <path d="M0 200 L120 120 L210 200 Z" fill="#111c30"/>
+      <path d="M470 200 L610 128 L720 200 Z" fill="#111c30"/>
+      <path d="M150 200 L360 58 L570 200 Z" fill="#152238"/>
+      <circle class="summit-dot" cx="360" cy="58" fill="#F59E0B"/>
+      <circle cx="360" cy="58" r="3.4" fill="#FFD98A"/>
     </svg>
     <h2 class="done-h dstep d1">You've done something rare.</h2>
     <p class="done-sub dstep d1">Most people never stop to honestly assess where they stand. You did. That changes everything.</p>
@@ -499,7 +514,7 @@
       </div>
     </div>
     <div class="done-btns">
-      <button class="btn btn-cobalt dstep d3" id="doneDl" onclick="downloadReport()">↓ Download Your Career Map (PDF)</button>
+      <button class="btn btn-ember dstep d3" id="doneDl" onclick="downloadReport()">↓ Download Your Career Map (PDF)</button>
       <button class="btn btn-glass dstep d3" id="doneEmail">✉ Email me my report</button>
       <a class="btn-climb dstep d4" href="landing.html" id="doneClimb">
         <span>Begin Your Climb at Metanoia Labs →</span>
@@ -559,15 +574,15 @@ const tt=(k,v)=>{let s=T[lang][k]||k;Object.entries(v||{}).forEach(([a,b])=>s=s.
 
 /* ================= DATA ================= */
 const DIMS=[
- {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#1D5FAB',
+ {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#B4550E',
   desc:'How well you understand the real mechanics of hiring in the Indonesian market — ATS screening, recruitment processes, salary benchmarks, and strategic targeting. You cannot navigate terrain you cannot see.'},
- {key:'ps',name:'Profile Strength',metaname:'The Pack',color:'#0D7377',
+ {key:'ps',name:'Profile Strength',metaname:'The Pack',color:'#C97B1E',
   desc:'The condition of your gear: CV quality, quantified achievements, ATS performance, LinkedIn presence, and digital footprint. Your profile does the climbing when you are not in the room.'},
- {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#B45309',
+ {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#F59E0B',
   desc:'Your ability to perform when it matters most: structured storytelling (STAR), practiced answers, company research, and pre-interview composure. Interviews are won in preparation, not in the room.'},
- {key:'nc',name:'Network Capital',metaname:'The Rope Team',color:'#7C3AED',
+ {key:'nc',name:'Network Capital',metaname:'The Rope Team',color:'#5A6A80',
   desc:'Who is climbing with you: mentors, meaningful professional connections, structured peer practice, events, and your alumni network. In Indonesia especially, the hidden job market moves through people.'},
- {key:'cm',name:'Career Mindset',metaname:'The Mountain Mind',color:'#1A2E4A',
+ {key:'cm',name:'Career Mindset',metaname:'The Mountain Mind',color:'#1B2434',
   desc:'Whether you can sustain the climb through the storm: goal clarity, rejection recovery, structured consistency, honest progress measurement, and calibrated confidence.'}
 ];
 
@@ -581,10 +596,10 @@ const Q=[
   sName:'ATS fluency', strength:'You understand how the machine works — and you use that knowledge actively, optimizing keywords for every application. This alone puts you ahead of roughly 80% of the applicants you compete with, most of whom are eliminated by software without ever knowing why.',
   gapName:'The ATS wall', gap:'Here is the most important thing in this report: most large employers run your CV through an Applicant Tracking System before any human sees it. If your CV is not keyword-matched to the job description, it is filtered out — silently. This is the "application black hole." It is not about your worth; it is about a machine you were never told about.',
   fix:'Take one real job posting for your target role. Highlight every skill and keyword in it, then rewrite your CV to mirror the exact language where it is honestly true of you.', why:'One in-context rewrite teaches you the pattern for every future application.', time:'2 hours'},
- {id:'A2',d:0,q:'How familiar are you with the typical recruitment timeline and process for a BUMN or large Indonesian corporation?',
+ {id:'A2',d:0,q:'How familiar are you with the typical recruitment process and hiring timeline at leading companies or within your target employers?',
   o:['I have no idea what the typical process looks like','I have a general sense but have never researched it specifically','I understand the general stages (written test, group discussion, interview, medical)','I know the stages, typical timelines, key assessment competencies, and how to prepare for each'],
   sName:'Process mastery', strength:'You know the stages, the timelines, and the competencies each stage assesses — written test, FGD, interview, medical. That means you prepare for the right thing at the right time, while others discover each stage only when it hits them.',
-  gapName:'Flying blind through the process', gap:'Large Indonesian employers — especially BUMN — run multi-stage processes that reward candidates who know what is coming. If you cannot name the stages and what each one measures, you are preparing generically for a very specific game.',
+  gapName:'Flying blind through the process', gap:'Large Indonesian employers — especially State-Owned Enterprises (SOE/BUMN) — run multi-stage processes that reward candidates who know what is coming. If you cannot name the stages and what each one measures, you are preparing generically for a very specific game.',
   fix:'Pick your top 2 target companies and map their full recruitment process from public sources (official career pages, employee posts, forum threads). Write the stages, timeline, and what each stage assesses.', why:'You cannot train for a race you have never seen the course of.', time:'3 hours'},
  {id:'A3',d:0,q:'Do you know the market salary range for your target role, at your experience level, in your target industry?',
   o:['No — I have never researched salary benchmarks',"I have a rough idea but it's based on what a friend told me",'I have researched it on Glassdoor or LinkedIn Salary and have a specific range in mind','I have researched it across multiple sources, I know the range by company tier, and I know how to negotiate effectively'],
@@ -592,7 +607,7 @@ const Q=[
   gapName:'Negotiating in the dark', gap:'Without salary benchmarks you cannot recognize a fair offer, a great one, or a lowball — and employers can tell. Salary research is one of the fastest, highest-return pieces of homework in the entire job search.',
   fix:'Spend one evening on Glassdoor, LinkedIn Salary, and Indonesian salary reports for your target role. Write down a floor, a target, and a stretch number.', why:'Three numbers turn the scariest interview question into your most confident answer.', time:'2 hours'},
  {id:'A4',d:0,q:'How well do you understand what "cultural fit" vs. "competency fit" means in the hiring process?',
-  o:["I haven't thought about this distinction","I understand it conceptually but don't factor it into how I prepare",'I research company culture before interviews and adjust how I present myself','I research company culture AND competency frameworks (e.g., BUMN Talent Score criteria, competency models) and tailor my preparation to each'],
+  o:["I haven't thought about this distinction","I understand it conceptually but don't factor it into how I prepare",'I research company culture before interviews and adjust how I present myself','I research company culture AND competency frameworks (e.g., State-Owned Enterprise (SOE/BUMN) Talent Score criteria, competency models) and tailor my preparation to each'],
   sName:'Fit-model awareness', strength:'You prepare on two axes — culture and competency frameworks — and tailor your presentation to each employer. This is exactly how strong candidates make interviewers feel "this person already belongs here."',
   gapName:'One-size-fits-all preparation', gap:'Employers evaluate you against two different lenses: will you thrive in our culture, and can you do the work at our standard. Preparing identically for every company means both lenses stay blurry.',
   fix:'For your next interview, spend 45 minutes on the company\'s stated values and any published competency criteria, then map one of your stories to each.', why:'Interviewers hire people who speak their framework back to them.', time:'45 min per interview'},
@@ -669,10 +684,10 @@ const Q=[
   sName:'A working rope team', strength:'You practice in a structured peer group that meets regularly — mock interviews, CV reviews, honest accountability. Job seekers with structured peer practice get offers dramatically faster, and you are already climbing roped-in.',
   gapName:'Climbing solo', gap:'You are doing the hardest part of early career life completely alone — no rope team. Peer practice is not just emotional support: it is free mock interviews, free CV review, and accountability that survives bad weeks.',
   fix:'Form a practice pod this week: message 3–4 friends who are also searching and set one fixed weekly session (mock interview + feedback rotation).', why:'Job seekers in structured peer groups land offers roughly 40% faster.', time:'2 hours/week'},
- {id:'D4',d:3,q:'Have you attended any professional events in the last 90 days?',
+ {id:'D4',d:3,q:'Have you attended any professional events in the last 30 days?',
   o:['None','1 event','2–3 events','4 or more events — and I followed up with at least one new contact from each'],
-  sName:'Present in the field', strength:'Four or more events in 90 days, each with real follow-up — you are consistently putting yourself where your industry gathers, and converting presence into relationships.',
-  gapName:'Absent from the room', gap:'Career fairs, webinars, alumni talks — these rooms are where information and referrals move informally. Ninety days without entering any of them means the ecosystem literally has not seen you.',
+  sName:'Present in the field', strength:'Four or more events in 30 days, each with real follow-up — you are consistently putting yourself where your industry gathers, and converting presence into relationships.',
+  gapName:'Absent from the room', gap:'Career fairs, webinars, alumni talks — these rooms are where information and referrals move informally. Thirty days without entering any of them means the ecosystem literally has not seen you.',
   fix:'Register for two events in the next 30 days (one industry talk, one alumni or campus event). Afterward, send one genuine follow-up message per event.', why:'Events are the lowest-pressure place to start real professional conversations.', time:'4 hours/month'},
  {id:'D5',d:3,q:'How actively do you use your university alumni network?',
   o:['I have never reached out to any alumni',"I follow alumni on LinkedIn but haven't had personal contact",'I have reached out to a few alumni and had occasional conversations','I actively use my alumni network, have warm relationships with multiple alumni in my target field, and use them as a genuine resource'],
@@ -719,13 +734,13 @@ const PROFILE_Q=[
  {id:'name',type:'name',q:"First — what should we call you?",hint:'Just your first name. It goes on your Career Map.'},
  {id:'status',q:"What's your current status?",o:['Still studying (final year)','Fresh graduate (0–1 year since graduation)','Early professional (1–3 years experience)','Career changer / looking to pivot']},
  {id:'direction',q:'What is your target career direction?',other:true,
-  o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / BUMN','Management Trainee','Other (type here)']},
- {id:'challenge',q:'What is your biggest current challenge?',
-  o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty"]}
+  o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / State-Owned Enterprise (SOE/BUMN)','Management Trainee','Managerial Level Promotion','Other (type here)']},
+ {id:'challenge',q:'What is your biggest current challenge?',other:true,
+  o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty",'Other (please specify)']}
 ];
 
 /* ================= STATE ================= */
-const S={ step:-1, profile:{name:'',status:null,direction:null,directionText:'',challenge:null}, answers:{}, seenInter:{}, dl:false, em:false };
+const S={ step:-1, profile:{name:'',status:null,direction:null,directionText:'',challenge:null,challengeText:''}, answers:{}, seenInter:{}, dl:false, em:false };
 try{ const saved=JSON.parse(localStorage.getItem('mtCareerMap')||'null'); if(saved&&saved.answers) Object.assign(S,saved);}catch(e){}
 const save=()=>{ try{localStorage.setItem('mtCareerMap',JSON.stringify(S));}catch(e){} };
 
@@ -766,9 +781,10 @@ const DIRECTION_LINE={
  3:'Marketing and creative roles are portfolio-first — employers want to see the work, and your digital presence is part of the audition.',
  4:'HR and people roles reward exactly what this assessment measures — self-awareness, structure, and genuine human insight.',
  5:'Engineering and operations employers screen for rigor and safety of judgment — quantified results and process knowledge stand out.',
- 6:'BUMN and public-sector processes are long, staged, and highly specific — candidates who map the stages in advance hold a real edge.',
+ 6:'State-Owned Enterprise (SOE/BUMN) and public-sector processes are long, staged, and highly specific — candidates who map the stages in advance hold a real edge.',
  7:'Management trainee programs are the most competitive funnels in Indonesia — thousands of applicants, multi-stage assessments, and heavy weight on leadership stories.',
- 8:'Your custom direction means your map is less crowded — but it also means research and network matter double, because fewer ready-made routes exist.'};
+ 8:'A managerial promotion is won on different terrain than a new job: visibility, sponsorship, and documented results inside your organization decide it — treat your current role as the interview.',
+ 9:'Your custom direction means your map is less crowded — but it also means research and network matter double, because fewer ready-made routes exist.'};
 
 function pctl(t){ return Math.min(94,Math.max(8,Math.round(t*0.9)+4)); }
 
@@ -776,12 +792,14 @@ function positionNarrative(t,bd,scores){
   const p=S.profile, name=S.profile.name||'Climber';
   const dimPct=scores.map(s=>s/15);
   let hi=0,lo=0; dimPct.forEach((v,i)=>{ if(v>dimPct[hi])hi=i; if(v<dimPct[lo])lo=i; });
-  const dirIdx = p.direction==null?8:p.direction;
+  const dirIdx = p.direction==null?9:p.direction;
   const paras=[];
   paras.push(`${name}, you are at <b>${bd.label}</b> — ${bd.desc} ${STATUS_OPEN[p.status??1]}`);
-  paras.push(CHALLENGE_CORE[p.challenge??0]);
-  let third = DIRECTION_LINE[dirIdx]||DIRECTION_LINE[8];
-  if(p.direction===8&&p.directionText) third = `Your target — ${escapeHtml(p.directionText)} — ` + 'means your map is less crowded, but research and network matter double, because fewer ready-made routes exist.';
+  let second = CHALLENGE_CORE[p.challenge??0];
+  if(second==null) second = `You named your challenge in your own words${p.challengeText?` — "${escapeHtml(p.challengeText)}"`:''} — and that precision is already an asset. The route below strengthens every face of your readiness at once, and specific problems yield fastest to structured weekly reps.`;
+  paras.push(second);
+  let third = DIRECTION_LINE[dirIdx]||DIRECTION_LINE[9];
+  if(p.direction===9&&p.directionText) third = `Your target — ${escapeHtml(p.directionText)} — ` + 'means your map is less crowded, but research and network matter double, because fewer ready-made routes exist.';
   third += ` Right now, your strongest face is <b>${DIMS[hi].name}</b> (${scores[hi]}/15) and your steepest is <b>${DIMS[lo].name}</b> (${scores[lo]}/15). The route in this report is built around exactly that shape — protect the strength, work the face.`;
   paras.push(third);
   return paras;
@@ -811,21 +829,22 @@ const SECICONS=[
  `<svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="22" r="6"/><circle cx="44" cy="22" r="6"/><circle cx="32" cy="45" r="6"/><path d="M24 26 L30 40 M40 26 L34 40 M26 22 h12"/></svg>`,
  `<svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="46" cy="16" r="6"/><path d="M6 52 L24 24 L34 38 L42 28 L58 52 Z"/></svg>`
 ];
-const PEAK_SM=`<svg width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="#1D5FAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16 L9 5 L13 10 L17 4 L24 16"/></svg>`;
+const PEAK_SM=`<svg width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16 L9 5 L13 10 L17 4 L24 16"/></svg>`;
 
 /* ================= FLOW ================= */
 const TOTAL_P=PROFILE_Q.length, TOTAL_Q=Q.length;
+const BGKEYS=['map','pack','rope','team','mind'];
+const setBg=k=>{document.body.dataset.bg=k;};
 const show=id=>{document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');window.scrollTo(0,0);};
+  document.getElementById(id).classList.add('active');window.scrollTo(0,0);
+  if(id==='s-hero') setBg('start');
+  else if(id==='s-loading'||id==='s-report'||id==='s-done') setBg('');};
 window.goHero=()=>{show('s-hero');return false;};
 document.getElementById('beginBtn').onclick=()=>{ S.step=0; paint(); show('s-quiz'); };
 
-const ridge=document.getElementById('ridgePath'), climber=document.getElementById('climberDot');
 function paintHeader(){
   const prog=Math.max(0,S.step)/(TOTAL_P+TOTAL_Q);
   document.getElementById('altfill').style.width=(prog*100)+'%';
-  try{ const L=ridge.getTotalLength(), p=ridge.getPointAtLength(prog*L);
-    climber.setAttribute('cx',p.x); climber.setAttribute('cy',p.y);}catch(e){}
   const isP=S.step<TOTAL_P;
   document.getElementById('ptext').textContent = isP ? tt('ui.profiling')
     : tt('ui.sec',{x:Q[S.step-TOTAL_P].d+1,name:SECTIONS[Q[S.step-TOTAL_P].d].name});
@@ -833,6 +852,7 @@ function paintHeader(){
 function paint(){
   if(S.step<0) return;
   window.scrollTo(0,0);
+  setBg(S.step<TOTAL_P ? 'start' : BGKEYS[Q[S.step-TOTAL_P].d]);
   paintHeader();
   const isP=S.step<TOTAL_P;
   const qt=document.getElementById('qtext'), qh=document.getElementById('qhint'),
@@ -864,8 +884,10 @@ function paint(){
         b.onclick=()=>selectProfile(p,i,b); opts.appendChild(b);
       });
       if(p.other && cur===p.o.length-1){ ow.style.display='block';
-        const oi=document.getElementById('otherinput'); oi.value=S.profile.directionText||''; oi.placeholder='Type your direction...';
-        oi.oninput=()=>{S.profile.directionText=oi.value;save();};
+        const oi=document.getElementById('otherinput'), key=p.id+'Text';
+        oi.value=S.profile[key]||'';
+        oi.placeholder = p.id==='challenge' ? 'Describe your challenge...' : 'Type your direction...';
+        oi.oninput=()=>{S.profile[key]=oi.value;save();};
       }
       next.disabled=cur==null;
     }
@@ -925,6 +947,7 @@ document.getElementById('backBtn').onclick=()=>{ if(S.step>0){ S.step--;
 
 function showInter(sec){
   S.seenInter[sec]=true; save();
+  setBg(BGKEYS[sec]);
   const RN=['I','II','III','IV','V'];
   document.getElementById('interCh').textContent=`Chapter ${RN[sec]}`;
   document.getElementById('interIcon').innerHTML=SECICONS[sec];
@@ -972,11 +995,11 @@ function svgDial(t,size,dark){
   const r=size*0.4, C=2*Math.PI*r, track=C*(1-0.25), off=C*(1-0.75*t/100);
   const cx=size/2, fs1=Math.round(size*.2), fs2=Math.round(size*.07);
   const trackC=dark?'rgba(255,255,255,0.10)':'#E2E8F0';
-  const txtC=dark?'#FFFFFF':'#1A2E4A', subC=dark?'rgba(255,255,255,0.5)':'#64748B';
+  const txtC=dark?'#F5EFE6':'#1B2434', subC=dark?'rgba(255,255,255,0.5)':'#64748B';
   return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
     <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="${trackC}" stroke-width="${size*.05}"
       stroke-dasharray="${C}" stroke-dashoffset="${C-track}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
-    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="#1D5FAB" stroke-width="${size*.05}"
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="#F59E0B" stroke-width="${size*.05}"
       stroke-dasharray="${C}" stroke-dashoffset="${off}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
     <text x="${cx}" y="${cx*0.96}" text-anchor="middle" dominant-baseline="middle" fill="${txtC}" font-size="${fs1}" font-weight="800" font-family="Inter,sans-serif">${t}</text>
     <text x="${cx}" y="${cx+fs1*0.62}" text-anchor="middle" fill="${subC}" font-size="${fs2}" font-family="Inter,sans-serif">/ 100</text>
@@ -993,16 +1016,16 @@ function svgRadar(scores,size){
   let axes=''; for(let i=0;i<n;i++){const[a,b]=pt(i,1);axes+=`<line x1="${cx}" y1="${cy}" x2="${a.toFixed(1)}" y2="${b.toFixed(1)}" stroke="#E2E8F0" stroke-width="1"/>`;}
   const spts=scores.map((s,i)=>pt(i,Math.max(.06,s/15)));
   const poly=spts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
-  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="4" fill="#1D5FAB" stroke="#fff" stroke-width="1.6"/>`).join('');
+  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="4" fill="#F59E0B" stroke="#fff" stroke-width="1.6"/>`).join('');
   let labels='';
   const two=DIMS.map(d=>d.name.split(' '));
   for(let i=0;i<n;i++){ const[a,b]=pt(i,1.28);
     const lines=two[i].map((w,li)=>`<tspan x="${a.toFixed(1)}" dy="${li?11:0}">${w}</tspan>`).join('');
     labels+=`<text x="${a.toFixed(1)}" y="${(b-6).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="600" fill="#334155" font-family="Inter,sans-serif">${lines}</text>
-      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*11+3).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="800" fill="#1D5FAB" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
+      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*11+3).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="800" fill="#B4550E" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
   }
   return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${rings}${axes}
-    <polygon points="${poly}" fill="rgba(29,95,171,0.3)" stroke="#1D5FAB" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
+    <polygon points="${poly}" fill="rgba(249,115,22,0.3)" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
 }
 
 /* ================= REPORT BUILD ================= */
@@ -1022,8 +1045,8 @@ function buildReport(){
   <div class="report-page rp-cover">
     <div class="top">
       <svg width="30" height="30" viewBox="0 0 40 40" fill="none">
-        <circle cx="20" cy="20" r="18.2" stroke="#1D5FAB" stroke-width="2"/>
-        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#1D5FAB" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <circle cx="20" cy="20" r="18.2" stroke="#F59E0B" stroke-width="2"/>
+        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#F59E0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span style="font-size:9pt;font-weight:800;letter-spacing:.26em">METANOIA LABS</span>
     </div>
     <div class="mega">CAREER<br>MAP</div>
@@ -1042,7 +1065,7 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      <div class="h-cobalt report-section-header">Your Career Readiness Profile</div>
+      <div class="h-ember report-section-header">Your Career Readiness Profile</div>
       <div class="exec-grid">
         <div class="l">
           <div class="exec-narr">${paras.map(p=>`<p>${p}</p>`).join('')}</div>
@@ -1104,7 +1127,7 @@ function buildReport(){
       ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="k">Strength ${i+1} · ${DIMS[q.d].name}</span>
         <h4>${q.sName}</h4><p>${q.strength}</p></div>`).join('')}</div>`
         :'<p style="font-size:9.5pt;color:#374151">Your assessment shows early-stage preparation across the board — your strengths are ahead of you, not behind you. Return after 30 days on the route and watch this section fill.</p>'}
-      <div style="height:2px;background:#1D5FAB;opacity:.3;margin:26px 0"></div>
+      <div style="height:2px;background:#F59E0B;opacity:.3;margin:26px 0"></div>
       <div class="navbar-strip report-section-header" style="background:#7A3E08">Your 3 Critical Gaps</div>
       <div class="cards3">${gap3.map((q,i)=>`<div class="c gp gap-item"><span class="k">Gap ${i+1} · ${DIMS[q.d].name}</span>
         <h4>${q.gapName}</h4><p>${q.gap}</p><div class="fx"><b>The Fix:</b> ${q.fix}</div></div>`).join('')}</div>
@@ -1114,8 +1137,8 @@ function buildReport(){
   /* 90-day route */
   pageNo++;
   const m1=gap3.concat(Q.slice().sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0)).slice(3,4));
-  const dirTxt=(S.profile.direction!=null&&S.profile.direction<8)
-    ?['consulting','finance','tech','marketing','HR','engineering','the public sector','management trainee circles'][S.profile.direction]
+  const dirTxt=(S.profile.direction!=null&&S.profile.direction<9)
+    ?['consulting','finance','tech','marketing','HR','engineering','the public sector','management trainee circles','your own organization and industry'][S.profile.direction]
     :'your target field';
   const m2w1=[`Set your weekly cadence: 5–8 targeted, ATS-checked applications per week from your tier list`,
               `Start your networking rhythm: 2 meaningful conversations per week with people in ${dirTxt}`];
@@ -1128,7 +1151,7 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      <div class="h-cobalt report-section-header">Your 90-Day Route</div>
+      <div class="h-ember report-section-header">Your 90-Day Route</div>
       <p style="font-size:9.5pt;color:#374151;margin-top:8px">Three phases, built from your exact gap profile. ★ marks highest-priority actions. Foundation before altitude.</p>
       <div class="route3">
         <div class="mcol m1"><div class="mtop"></div><div class="mpad">
@@ -1158,11 +1181,11 @@ function buildReport(){
   /* Next steps */
   pageNo++;
   const FEAT={
-    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, BUMN processes, salary data, targeting strategy.',c:'#1D5FAB',ic:'M'},
-    ps:{n:'CV Studio',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#0D7377',ic:'CV'},
-    ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#B45309',ic:'IC'},
-    nc:{n:'Basecamp — your cohort',d:'A matched peer group at your stage and direction: weekly practice and people who refuse to let you quit.',c:'#7C3AED',ic:'B'},
-    cm:{n:'Mind Palace',d:'Rejection-recovery protocols and confidence built on evidence — the inner climb, trained.',c:'#1A2E4A',ic:'MP'}
+    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, State-Owned Enterprise (SOE/BUMN) processes, salary data, targeting strategy.',c:'#B4550E',ic:'M'},
+    ps:{n:'CV Studio',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#C97B1E',ic:'CV'},
+    ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#F59E0B',ic:'IC'},
+    nc:{n:'Basecamp — your cohort',d:'A matched peer group at your stage and direction: weekly practice and people who refuse to let you quit.',c:'#5A6A80',ic:'B'},
+    cm:{n:'Mind Palace',d:'Rejection-recovery protocols and confidence built on evidence — the inner climb, trained.',c:'#1B2434',ic:'MP'}
   };
   const weakDims=scores.map((v,i)=>({v,i})).sort((a,b)=>a.v-b.v).map(x=>x.i);
   const recs=weakDims.slice(0,3).map(i=>FEAT[DIMS[i].key]);
