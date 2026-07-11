@@ -120,26 +120,45 @@
   .bar.top{top:0}.bar.bot{bottom:0;background:linear-gradient(var(--barc2,rgba(2,4,9,.75)),var(--barc,rgba(2,4,9,.92)))}
   :root[data-theme="light"] .bar{--barc:rgba(228,235,243,.94);--barc2:rgba(228,235,243,.7)}
 
-  /* THE RANGE — choose-your-path portal grid */
-  .paths{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:36px;text-align:left}
-  @media(max-width:960px){.paths{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:560px){.paths{grid-template-columns:1fr 1fr;gap:9px}}
-  .path{position:relative;display:block;text-decoration:none;border:1px solid var(--card-border);
-      background:var(--card-bg);border-radius:14px;padding:16px 15px 13px;overflow:hidden;
-      transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s}
-  .path svg{display:block;width:100%;height:60px;margin-bottom:12px;border-radius:9px;
-      filter:saturate(.92);transition:filter .35s ease}
-  .path:hover svg,.path:focus-visible svg{filter:saturate(1) brightness(1.07)}
-  .path h4{margin:0;font-size:13.5px;font-weight:700;letter-spacing:.02em;color:var(--text)}
-  .path p{font-size:11.5px;color:var(--muted);margin-top:4px;line-height:1.45}
-  .path::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s;pointer-events:none;
-      background:linear-gradient(160deg, rgba(255,255,255,.07), transparent 55%)}
-  .path:hover,.path:focus-visible{transform:translateY(-4px);border-color:color-mix(in srgb, var(--text) 34%, transparent);
-      box-shadow:0 16px 48px rgba(0,0,0,.28)}
-  .path:hover::after,.path:focus-visible::after{opacity:1}
-  .path:focus-visible{outline:3px solid var(--ember2);outline-offset:2px}
-  .has-video .path{background:rgba(7,13,24,.6);--card-border:rgba(245,239,230,.16)}
-  .has-video .path h4{color:#F5EFE6}.has-video .path p{color:#C7D0DB;text-shadow:none}
+  /* THE RANGE — Eight Trails: cinematic glass cards + gold icons */
+  :root{--trail-gold-bright:#F0D878;--trail-gold:#C9A84C;--trail-gold-deep:#8B6914;
+    --trail-glass:rgba(8,14,26,.70);--trail-glass-deep:rgba(8,14,26,.92);
+    --trail-border:rgba(180,140,60,.18);--trail-border-hi:rgba(201,168,76,.40)}
+  .trails-eye{color:var(--trail-gold) !important}
+  .trails-sub{color:rgba(255,255,255,.82) !important}
+  .paths{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px;text-align:center}
+  @media(max-width:960px){.paths{grid-template-columns:repeat(2,1fr);gap:12px}}
+  @media(max-width:560px){.paths{grid-template-columns:1fr 1fr;gap:10px}}
+  .trail-card{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;
+    padding:30px 20px 22px;border-radius:18px;text-decoration:none;overflow:hidden;
+    background:var(--trail-glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+    border:1px solid var(--trail-border);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 8px 32px rgba(0,0,0,.35),0 2px 8px rgba(0,0,0,.2);
+    opacity:0;transform:translateY(22px);
+    transition:transform .3s cubic-bezier(.34,1.56,.64,1),border-color .3s ease,box-shadow .3s ease,background .3s ease,opacity .5s ease}
+  .on .trail-card{opacity:1;transform:none}
+  .on .trail-card:nth-child(1){transition-delay:.05s}.on .trail-card:nth-child(2){transition-delay:.13s}
+  .on .trail-card:nth-child(3){transition-delay:.21s}.on .trail-card:nth-child(4){transition-delay:.29s}
+  .on .trail-card:nth-child(5){transition-delay:.37s}.on .trail-card:nth-child(6){transition-delay:.45s}
+  .on .trail-card:nth-child(7){transition-delay:.53s}.on .trail-card:nth-child(8){transition-delay:.61s}
+  .trail-card:hover{transform:translateY(-6px) scale(1.01);background:rgba(12,20,36,.82);border-color:var(--trail-border-hi);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.10),0 20px 60px rgba(0,0,0,.5),0 0 0 1px rgba(201,168,76,.08),0 0 40px rgba(201,168,76,.10)}
+  .trail-card:focus-visible{outline:2px solid var(--trail-gold);outline-offset:4px}
+  .trail-card::before{content:"";position:absolute;top:0;left:20%;right:20%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.55),transparent);opacity:0;transition:opacity .3s ease}
+  .trail-card:hover::before{opacity:1}
+  .trail-icon{width:64px;height:64px;margin-bottom:16px;display:flex;align-items:center;justify-content:center;
+    filter:drop-shadow(0 4px 16px rgba(180,140,60,.28));transition:transform .3s cubic-bezier(.34,1.56,.64,1),filter .3s ease}
+  .trail-icon svg{width:100%;height:100%;display:block}
+  .trail-card:hover .trail-icon{transform:translateY(-3px) scale(1.06);filter:drop-shadow(0 8px 24px rgba(201,168,76,.48))}
+  .trail-card h4{margin:0 0 7px;font-size:16px;font-weight:700;letter-spacing:-.01em;line-height:1.2;color:#fff}
+  .trail-card p{margin:0;font-size:12.5px;font-weight:400;line-height:1.5;color:rgba(255,255,255,.55);flex:1 0 auto}
+  .trail-arrow{margin-top:16px;align-self:flex-end;font-size:15px;line-height:1;color:var(--trail-gold);opacity:.7;
+    transition:transform .25s ease,opacity .25s ease}
+  .trail-card:hover .trail-arrow{transform:translateX(5px);opacity:1}
+  @media(max-width:560px){.trail-card{padding:22px 14px 16px;border-radius:14px}
+    .trail-icon{width:52px;height:52px;margin-bottom:12px}.trail-card h4{font-size:14px}.trail-card p{font-size:11.5px}.trail-arrow{margin-top:12px}}
+  @media (prefers-reduced-motion: reduce){.trail-card{opacity:1;transform:none;transition:none}}
   .content{position:relative;z-index:2;max-width:1020px;width:100%;padding:84px 30px 150px;pointer-events:auto;
       max-height:100vh;overflow-y:auto;scrollbar-width:none}
   .content::-webkit-scrollbar{display:none}
@@ -259,17 +278,29 @@
       border-radius:50%;background:var(--rail)}
   .menu a:hover,.menu a:focus-visible{color:var(--text);background:color-mix(in srgb, var(--text) 9%, transparent);
       box-shadow:inset 0 0 0 1px var(--nav-border)}
-  /* trail-marker preview on hover: a small vista card rises beneath each item */
-  .menu a .peek{position:absolute;top:calc(100% + 12px);left:50%;transform:translate(-50%,-8px) scale(.96);
-      width:170px;padding:8px 8px 10px;border-radius:12px;border:1px solid var(--nav-border);
-      background:color-mix(in srgb, var(--bg) 78%, transparent);backdrop-filter:blur(14px);
-      box-shadow:0 18px 46px rgba(0,0,0,.35);opacity:0;pointer-events:none;
-      transition:opacity .28s cubic-bezier(.2,.7,.2,1),transform .28s cubic-bezier(.2,.7,.2,1);
-      text-align:center;z-index:20}
-  .menu a .peek svg{display:block;width:100%;height:56px;border-radius:8px;margin-bottom:7px}
-  .menu a .peek em{display:block;font-style:normal;font-size:9.5px;font-weight:600;letter-spacing:.05em;
-      text-transform:none;color:var(--muted);line-height:1.45;white-space:normal}
+  /* nav preview: same glass + gold trail-card system as the Eight Trails grid */
+  .menu a .peek{position:absolute;top:calc(100% + 14px);left:50%;transform:translate(-50%,-8px) scale(.96);
+      width:212px;padding:16px 14px 13px;border-radius:14px;border:1px solid rgba(180,140,60,.18);
+      background:rgba(8,14,26,.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 24px 64px rgba(0,0,0,.55);opacity:0;pointer-events:none;
+      display:flex;flex-direction:column;align-items:center;text-align:center;
+      transition:opacity .28s cubic-bezier(.2,.7,.2,1),transform .28s cubic-bezier(.34,1.56,.64,1);z-index:30}
+  .menu a .peek::before{content:"";position:absolute;top:0;left:18%;right:18%;height:1px;
+      background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent)}
+  .menu a .peek::after{content:"";position:absolute;top:-7px;left:50%;transform:translateX(-50%);width:14px;height:7px;
+      background:rgba(8,14,26,.92);clip-path:polygon(0 100%,50% 0,100% 100%);
+      border-left:1px solid rgba(180,140,60,.18);border-top:1px solid rgba(180,140,60,.18)}
+  .menu a .peek .dt-icon{width:40px;height:40px;margin-bottom:10px;display:block;
+      filter:drop-shadow(0 2px 8px rgba(180,140,60,.32));transition:transform .2s ease,filter .2s ease}
+  .menu a .peek .dt-icon svg{width:100%;height:100%;display:block}
+  .menu a .peek strong{display:block;font-size:12px;font-weight:700;letter-spacing:.02em;text-transform:none;color:#fff;margin-bottom:4px}
+  .menu a .peek em{display:block;font-style:normal;font-size:10.5px;font-weight:400;letter-spacing:.01em;
+      text-transform:none;color:rgba(255,255,255,.5);line-height:1.45;white-space:normal}
+  .menu a .peek .dt-arrow{margin-top:9px;font-size:11px;line-height:1;color:var(--trail-gold,#C9A84C);opacity:0;
+      transform:translateX(-4px);transition:opacity .2s ease,transform .2s ease}
   .menu a:hover .peek,.menu a:focus-visible .peek{opacity:1;transform:translate(-50%,0) scale(1)}
+  .menu a:hover .peek .dt-icon,.menu a:focus-visible .peek .dt-icon{transform:scale(1.1);filter:drop-shadow(0 4px 12px rgba(201,168,76,.5))}
+  .menu a:hover .peek .dt-arrow,.menu a:focus-visible .peek .dt-arrow{opacity:1;transform:translateX(0)}
   @media (prefers-reduced-motion: reduce){.menu a .peek{transition:opacity .2s}}
   .burger{display:none;background:none;border:1px solid var(--nav-border);border-radius:999px;width:38px;height:38px;
       align-items:center;justify-content:center;color:var(--text);cursor:pointer;backdrop-filter:blur(6px)}
@@ -409,6 +440,11 @@
     .fx{opacity:1 !important;transform:none !important}
   }
 </style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F0D878"/><stop offset="42%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#7A5A10"/></linearGradient>
+<linearGradient id="goldEdge" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F8E898" stop-opacity=".95"/><stop offset="100%" stop-color="#C9A84C" stop-opacity=".5"/></linearGradient>
+</defs></svg>
 
 <canvas id="scene" aria-hidden="true"></canvas>
 <div class="vignette" aria-hidden="true"></div>
@@ -642,119 +678,15 @@
 
         <span class="eyebrow fx d2" style="display:block;margin-top:44px" data-i18n="paths.eye">Choose your path</span>
         <p class="lede fx d2" style="margin-top:10px;font-size:15px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
-        <div class="paths fx d3" role="navigation" aria-label="Audience pathways">
-          <a class="path" href="pages/student.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#26334F"/><stop offset="100%" stop-color="#8C96AC"/></linearGradient>
-              <radialGradient id="vs1g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#D8E4F2" stop-opacity=".5"/><stop offset="100%" stop-color="#D8E4F2" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs1v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs1)"/>
-            <rect width="100" height="44" fill="url(#vs1g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#5E6C88" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#3C4763" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#1E2740"/>
-            <rect width="100" height="44" fill="url(#vs1v)"/>
-          </svg><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p></a>
-          <a class="path" href="pages/fresh-graduate.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#57493C"/><stop offset="100%" stop-color="#C4B097"/></linearGradient>
-              <radialGradient id="vs2g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F6E7C8" stop-opacity=".5"/><stop offset="100%" stop-color="#F6E7C8" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs2v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs2)"/>
-            <rect width="100" height="44" fill="url(#vs2g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#8A7860" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#5C4E3F" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#332B22"/>
-            <rect width="100" height="44" fill="url(#vs2v)"/>
-          </svg><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p></a>
-          <a class="path" href="pages/early-professional.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#33526F"/><stop offset="100%" stop-color="#9FB9CE"/></linearGradient>
-              <radialGradient id="vs3g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#EAF3FA" stop-opacity=".5"/><stop offset="100%" stop-color="#EAF3FA" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs3v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs3)"/>
-            <rect width="100" height="44" fill="url(#vs3g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#5F7C96" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#3D5670" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#22344A"/>
-            <rect width="100" height="44" fill="url(#vs3v)"/>
-          </svg><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p></a>
-          <a class="path" href="pages/mature-professional.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#493E5C"/><stop offset="100%" stop-color="#A78FA0"/></linearGradient>
-              <radialGradient id="vs4g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F0E0E4" stop-opacity=".5"/><stop offset="100%" stop-color="#F0E0E4" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs4v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs4)"/>
-            <rect width="100" height="44" fill="url(#vs4g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#6E5C7C" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#493C58" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#28223A"/>
-            <rect width="100" height="44" fill="url(#vs4v)"/>
-          </svg><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p></a>
-          <a class="path" href="pages/enterprise.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B3542"/><stop offset="100%" stop-color="#7E8B99"/></linearGradient>
-              <radialGradient id="vs5g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#D9E2EA" stop-opacity=".5"/><stop offset="100%" stop-color="#D9E2EA" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs5v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs5)"/>
-            <rect width="100" height="44" fill="url(#vs5g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#556472" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#37434F" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#1F2831"/>
-            <rect width="100" height="44" fill="url(#vs5v)"/>
-          </svg><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Hire on verified capability.</p></a>
-          <a class="path" href="pages/mentors.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#45334A"/><stop offset="100%" stop-color="#B08578"/></linearGradient>
-              <radialGradient id="vs6g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#FBD9C0" stop-opacity=".5"/><stop offset="100%" stop-color="#FBD9C0" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs6v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs6)"/>
-            <rect width="100" height="44" fill="url(#vs6g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#6E5364" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#4A3648" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#271F2C"/>
-            <rect width="100" height="44" fill="url(#vs6v)"/>
-          </svg><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p></a>
-          <a class="path" href="pages/mind-palace.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0E1526"/><stop offset="100%" stop-color="#2E3A57"/></linearGradient>
-              <radialGradient id="vs7g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#C9D4EE" stop-opacity=".5"/><stop offset="100%" stop-color="#C9D4EE" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs7v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs7)"/>
-            <rect width="100" height="44" fill="url(#vs7g)"/><circle cx="18" cy="6" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="34" cy="11" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="52" cy="5" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="66" cy="9" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="82" cy="4" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="90" cy="13" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="44" cy="15" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="20" cy="8" r="2.6" fill="#E8ECF5" opacity=".75"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#232E4C" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#151E38" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#0A101F"/>
-            <rect width="100" height="44" fill="url(#vs7v)"/>
-          </svg><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p></a>
-          <a class="path" href="pages/about.html"><svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161C2C"/><stop offset="100%" stop-color="#453A44"/></linearGradient>
-              <radialGradient id="vs8g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F0C9A0" stop-opacity=".5"/><stop offset="100%" stop-color="#F0C9A0" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs8v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs8)"/>
-            <rect width="100" height="44" fill="url(#vs8g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#3A3448" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#241F32" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#120F1B"/>
-            <rect width="100" height="44" fill="url(#vs8v)"/>
-          </svg><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p></a>
+        <div class="paths" role="navigation" aria-label="Audience pathways">
+          <a class="trail-card" href="pages/student.html" data-trail="student"><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/fresh-graduate.html" data-trail="fresh"><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/early-professional.html" data-trail="early"><span class="trail-icon" data-icon="early" aria-hidden="true"></span><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mature-professional.html" data-trail="mature"><span class="trail-icon" data-icon="mature" aria-hidden="true"></span><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/enterprise.html" data-trail="ent"><span class="trail-icon" data-icon="ent" aria-hidden="true"></span><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Hire on verified capability.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mentors.html" data-trail="mentor"><span class="trail-icon" data-icon="mentor" aria-hidden="true"></span><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mind-palace.html" data-trail="mind"><span class="trail-icon" data-icon="mind" aria-hidden="true"></span><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/about.html" data-trail="about"><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
 
         <div class="fx d3" style="margin-top:40px"><a class="cta" href="career-map-assessment.html" data-i18n="hor.cta">Get your free Career Map — the climb starts in 15 minutes</a></div>
@@ -1021,125 +953,21 @@
 
   // trail-marker hover previews in the top menu
   const PEEK_ART={"#": "home", "pages/student.html": "student", "pages/fresh-graduate.html": "fresh", "pages/early-professional.html": "early", "pages/mature-professional.html": "mature", "pages/enterprise.html": "ent", "pages/mentors.html": "mentor", "pages/mind-palace.html": "mind", "pages/about.html": "about"};
-  const PEEK_SVG={"student":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#26334F"/><stop offset="100%" stop-color="#8C96AC"/></linearGradient>
-              <radialGradient id="vs1g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#D8E4F2" stop-opacity=".5"/><stop offset="100%" stop-color="#D8E4F2" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs1v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs1)"/>
-            <rect width="100" height="44" fill="url(#vs1g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#5E6C88" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#3C4763" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#1E2740"/>
-            <rect width="100" height="44" fill="url(#vs1v)"/>
-          </svg>`,"fresh":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#57493C"/><stop offset="100%" stop-color="#C4B097"/></linearGradient>
-              <radialGradient id="vs2g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F6E7C8" stop-opacity=".5"/><stop offset="100%" stop-color="#F6E7C8" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs2v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs2)"/>
-            <rect width="100" height="44" fill="url(#vs2g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#8A7860" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#5C4E3F" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#332B22"/>
-            <rect width="100" height="44" fill="url(#vs2v)"/>
-          </svg>`,"early":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#33526F"/><stop offset="100%" stop-color="#9FB9CE"/></linearGradient>
-              <radialGradient id="vs3g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#EAF3FA" stop-opacity=".5"/><stop offset="100%" stop-color="#EAF3FA" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs3v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs3)"/>
-            <rect width="100" height="44" fill="url(#vs3g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#5F7C96" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#3D5670" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#22344A"/>
-            <rect width="100" height="44" fill="url(#vs3v)"/>
-          </svg>`,"mature":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#493E5C"/><stop offset="100%" stop-color="#A78FA0"/></linearGradient>
-              <radialGradient id="vs4g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F0E0E4" stop-opacity=".5"/><stop offset="100%" stop-color="#F0E0E4" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs4v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs4)"/>
-            <rect width="100" height="44" fill="url(#vs4g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#6E5C7C" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#493C58" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#28223A"/>
-            <rect width="100" height="44" fill="url(#vs4v)"/>
-          </svg>`,"ent":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B3542"/><stop offset="100%" stop-color="#7E8B99"/></linearGradient>
-              <radialGradient id="vs5g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#D9E2EA" stop-opacity=".5"/><stop offset="100%" stop-color="#D9E2EA" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs5v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs5)"/>
-            <rect width="100" height="44" fill="url(#vs5g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#556472" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#37434F" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#1F2831"/>
-            <rect width="100" height="44" fill="url(#vs5v)"/>
-          </svg>`,"mentor":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#45334A"/><stop offset="100%" stop-color="#B08578"/></linearGradient>
-              <radialGradient id="vs6g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#FBD9C0" stop-opacity=".5"/><stop offset="100%" stop-color="#FBD9C0" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs6v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs6)"/>
-            <rect width="100" height="44" fill="url(#vs6g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#6E5364" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#4A3648" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#271F2C"/>
-            <rect width="100" height="44" fill="url(#vs6v)"/>
-          </svg>`,"mind":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0E1526"/><stop offset="100%" stop-color="#2E3A57"/></linearGradient>
-              <radialGradient id="vs7g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#C9D4EE" stop-opacity=".5"/><stop offset="100%" stop-color="#C9D4EE" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs7v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs7)"/>
-            <rect width="100" height="44" fill="url(#vs7g)"/><circle cx="18" cy="6" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="34" cy="11" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="52" cy="5" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="66" cy="9" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="82" cy="4" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="90" cy="13" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="44" cy="15" r=".55" fill="#DCE3F2" opacity=".6"/><circle cx="20" cy="8" r="2.6" fill="#E8ECF5" opacity=".75"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#232E4C" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#151E38" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#0A101F"/>
-            <rect width="100" height="44" fill="url(#vs7v)"/>
-          </svg>`,"about":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161C2C"/><stop offset="100%" stop-color="#453A44"/></linearGradient>
-              <radialGradient id="vs8g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#F0C9A0" stop-opacity=".5"/><stop offset="100%" stop-color="#F0C9A0" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs8v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs8)"/>
-            <rect width="100" height="44" fill="url(#vs8g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#3A3448" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#241F32" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#120F1B"/>
-            <rect width="100" height="44" fill="url(#vs8v)"/>
-          </svg>`,"home":`<svg viewBox="0 0 100 44" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="vs0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1B2740"/><stop offset="100%" stop-color="#6E7C96"/></linearGradient>
-              <radialGradient id="vs0g" cx=".62" cy=".28" r=".55"><stop offset="0%" stop-color="#E5EDF7" stop-opacity=".5"/><stop offset="100%" stop-color="#E5EDF7" stop-opacity="0"/></radialGradient>
-              <linearGradient id="vs0v" x1="0" y1="0" x2="0" y2="1"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".28"/></linearGradient>
-            </defs>
-            <rect width="100" height="44" fill="url(#vs0)"/>
-            <rect width="100" height="44" fill="url(#vs0g)"/>
-            <path d="M0 26 C12 24 20 17 30 15 C40 13 46 20 58 16 C70 12 78 8 88 12 C93 14 97 15 100 16 V44 H0 Z" fill="#4A5874" opacity=".75"/>
-            <path d="M0 32 C14 29 24 23 36 24 C48 25 56 18 68 20 C80 22 90 27 100 25 V44 H0 Z" fill="#2E3A56" opacity=".92"/>
-            <rect y="26" width="100" height="8" fill="#FFFFFF" opacity=".05"/>
-            <path d="M0 39 C16 35 30 37 44 34 C58 31 74 35 100 32 V44 H0 Z" fill="#182238"/>
-            <rect width="100" height="44" fill="url(#vs0v)"/>
-          </svg>`};
+  const TRAIL_ICON={
+   home:`<svg viewBox="0 0 64 64" fill="none"><circle cx="44" cy="20" r="7" fill="url(#goldEdge)"/><path d="M6 50 L22 28 L34 44 L44 31 L58 50 Z" fill="url(#goldGrad)"/><path d="M22 28 L34 44 L26 46 Z" fill="url(#goldEdge)"/></svg>`,
+   student:`<svg viewBox="0 0 64 64" fill="none"><path d="M32 13 L57 24 L32 35 L7 24 Z" fill="url(#goldGrad)"/><path d="M32 13 L57 24 L32 27 L7 24 Z" fill="url(#goldEdge)"/><path d="M22 30.5 L42 30.5 L42 39 C42 43.4 37 46 32 46 C27 46 22 43.4 22 39 Z" fill="url(#goldGrad)"/><path d="M22 30.5 L42 30.5 L42 33 L32 37 L22 33 Z" fill="#7A5A10" opacity=".35"/><path d="M53 24 L53 35" stroke="url(#goldGrad)" stroke-width="1.6" stroke-linecap="round"/><circle cx="53" cy="37.6" r="2.4" fill="url(#goldGrad)"/></svg>`,
+   fresh:`<svg viewBox="0 0 64 64" fill="none"><path d="M25 21 C25 17 27.5 15 32 15 C36.5 15 39 17 39 21 L39 24 L35.5 24 L35.5 21.4 C35.5 19.4 34.2 18.4 32 18.4 C29.8 18.4 28.5 19.4 28.5 21.4 L28.5 24 L25 24 Z" fill="url(#goldGrad)"/><rect x="10" y="24" width="44" height="27" rx="4.5" fill="url(#goldGrad)"/><rect x="10" y="24" width="44" height="4" rx="2" fill="url(#goldEdge)"/><rect x="10" y="35" width="44" height="2.4" fill="#5E440C" opacity=".5"/><rect x="28" y="33.5" width="8" height="5.4" rx="1.4" fill="#5E440C"/></svg>`,
+   early:`<svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="21" stroke="url(#goldGrad)" stroke-width="4.2"/><circle cx="32" cy="32" r="21" stroke="url(#goldEdge)" stroke-width="1.2" opacity=".5"/><path d="M32 15 L37 32 L32 30.5 L27 32 Z" fill="url(#goldEdge)"/><path d="M32 49 L37 32 L32 33.5 L27 32 Z" fill="url(#goldGrad)"/><circle cx="32" cy="32" r="2.6" fill="#5E440C"/></svg>`,
+   mature:`<svg viewBox="0 0 64 64" fill="none"><path d="M5 50 L22 27 L31 39 L41 22 L59 50 Z" fill="url(#goldGrad)"/><path d="M22 27 L31 39 L24 42 Z" fill="url(#goldEdge)"/><path d="M41 22 L48 32 L41 34 Z" fill="url(#goldEdge)"/><rect x="40.2" y="8" width="1.8" height="15" fill="url(#goldGrad)"/><path d="M42 8 L52 11.2 L42 14.6 Z" fill="url(#goldEdge)"/></svg>`,
+   ent:`<svg viewBox="0 0 64 64" fill="none"><rect x="13" y="27" width="15" height="24" rx="1.5" fill="url(#goldGrad)"/><rect x="30" y="16" width="14" height="35" rx="1.5" fill="url(#goldGrad)"/><rect x="30" y="16" width="14" height="3" rx="1.5" fill="url(#goldEdge)"/><rect x="45" y="31" width="9.5" height="20" rx="1.5" fill="url(#goldEdge)"/><g fill="#5E440C" opacity=".55"><rect x="16.5" y="31" width="3" height="3"/><rect x="22" y="31" width="3" height="3"/><rect x="16.5" y="37" width="3" height="3"/><rect x="22" y="37" width="3" height="3"/><rect x="16.5" y="43" width="3" height="3"/><rect x="22" y="43" width="3" height="3"/><rect x="33.5" y="21" width="3.2" height="3.2"/><rect x="39" y="21" width="3.2" height="3.2"/><rect x="33.5" y="27" width="3.2" height="3.2"/><rect x="39" y="27" width="3.2" height="3.2"/><rect x="33.5" y="33" width="3.2" height="3.2"/><rect x="39" y="33" width="3.2" height="3.2"/><rect x="33.5" y="39" width="3.2" height="3.2"/><rect x="39" y="39" width="3.2" height="3.2"/></g></svg>`,
+   mentor:`<svg viewBox="0 0 64 64" fill="none"><path d="M9 51 L55 43" stroke="url(#goldGrad)" stroke-width="2.4" stroke-linecap="round" opacity=".45"/><circle cx="44" cy="18" r="5" fill="url(#goldEdge)"/><path d="M44 24 L44 37" stroke="url(#goldGrad)" stroke-width="5.4" stroke-linecap="round"/><path d="M44 28 L34 33" stroke="url(#goldGrad)" stroke-width="3.2" stroke-linecap="round"/><circle cx="23" cy="33" r="4.4" fill="url(#goldGrad)"/><path d="M23 37 L23 48" stroke="url(#goldGrad)" stroke-width="4.8" stroke-linecap="round"/><path d="M23 39 L33 33.5" stroke="url(#goldGrad)" stroke-width="2.8" stroke-linecap="round"/></svg>`,
+   mind:`<svg viewBox="0 0 64 64" fill="none"><path d="M32 13 C22 13 15.5 19 15.5 27 C13.5 29.5 13.5 33.5 16.5 35.5 C16 41 21.5 46 29 44.5 C30 47.5 34 47.5 35 44.5 C42.5 46 48 41 47.5 35.5 C50.5 33.5 50.5 29.5 48.5 27 C48.5 19 42 13 32 13 Z" fill="url(#goldGrad)"/><path d="M32 13 C22 13 15.5 19 15.5 27 C24 24 27 20 32 20 Z" fill="url(#goldEdge)"/><path d="M32 15 L32 45 M24 22 C28 26 28 32 23 35 M40 22 C36 26 36 32 41 35" stroke="#5E440C" stroke-width="1.5" stroke-linecap="round" opacity=".5"/></svg>`,
+   about:`<svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="21" stroke="url(#goldGrad)" stroke-width="3.2"/><path d="M18 42 L29 22 L36 34 L40 27 L47 42 Z" fill="url(#goldGrad)"/><path d="M29 22 L36 34 L31 36 Z" fill="url(#goldEdge)"/></svg>`
+  };
+  document.querySelectorAll('.trail-icon[data-icon]').forEach(el=>{ const g=TRAIL_ICON[el.dataset.icon]; if(g) el.innerHTML=g; });
+
   const PEEK_TAG={home:"nav.home.peek",student:"paths.student.d",fresh:"paths.fresh.d",early:"paths.early.d",mature:"paths.mature.d",ent:"paths.ent.d",mentor:"paths.mentor.d",mind:"paths.mind.d",about:"paths.about.d"};
+  const PEEK_TITLE={home:"nav.home",student:"paths.student",fresh:"paths.fresh",early:"paths.early",mature:"paths.mature",ent:"paths.ent",mentor:"paths.mentor",mind:"paths.mind",about:"paths.about"};
   document.querySelectorAll('#menuBar a').forEach(a=>{
     const key=PEEK_ART[a.getAttribute('href')]; if(!key) return;
     // move the localized label into its own span so renderLang doesn't wipe the peek
@@ -1147,7 +975,10 @@
     if(a.dataset.i18n){ lbl.dataset.i18n=a.dataset.i18n; a.removeAttribute('data-i18n'); }
     lbl.textContent=a.textContent; a.textContent=''; a.appendChild(lbl);
     const p=document.createElement('span'); p.className='peek'; p.setAttribute('aria-hidden','true');
-    p.innerHTML=PEEK_SVG[key]+`<em data-i18n="${PEEK_TAG[key]}"></em>`;
+    p.innerHTML=`<span class="dt-icon">${TRAIL_ICON[key]||''}</span>`
+      +`<strong data-i18n="${PEEK_TITLE[key]}"></strong>`
+      +`<em data-i18n="${PEEK_TAG[key]}"></em>`
+      +`<span class="dt-arrow" aria-hidden="true">&rarr;</span>`;
     a.appendChild(p);
   });
 
