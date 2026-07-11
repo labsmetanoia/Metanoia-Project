@@ -307,8 +307,9 @@
   .cap-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:6px}
 
   /* ============ COMPLETION ============ */
-  #s-done{background:var(--bg);
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='0.6' opacity='0.1'%3E%3Cpath d='M-20 180 C40 140 80 190 130 150 S 210 110 250 140'/%3E%3Cpath d='M-20 140 C50 100 90 150 140 110 S 215 70 250 100'/%3E%3Cpath d='M-20 100 C60 65 100 110 150 72 S 220 35 250 60'/%3E%3C/g%3E%3C/svg%3E")}
+  #s-done{background-color:var(--bg);
+    background-image:linear-gradient(180deg,rgba(7,13,24,.74) 0%,rgba(7,13,24,.82) 46%,rgba(7,13,24,.93) 100%),url("assets/bg/hero.jpg");
+    background-size:cover;background-position:center top;background-repeat:no-repeat}
   .done-in{max-width:720px;margin:0 auto;padding:0 22px 70px;text-align:center}
   .summit-art{width:100%;height:200px;display:block}
   .summit-dot{animation:sdot 2s ease-in-out infinite}
@@ -789,7 +790,7 @@ const PROFILE_Q=[
 
 /* ================= BAHASA INDONESIA — assessment flow ================= */
 const QI={
- A1:{q:'Saat kamu melamar kerja online, apa yang terjadi pada CV‑mu sebelum dibaca oleh manusia?',
+ A1:{q:'Saat melamar pekerjaan, baik secara online maupun offline, apa yang biasanya kamu lakukan terhadap CV‑mu sebelum dikirim kepada recruiter?',
   o:['Saya tidak yakin — saya berasumsi seseorang akan meninjaunya','Saya tahu CV mungkin difilter dengan cara tertentu','Saya tahu CV melewati ATS (Applicant Tracking System) yang memindai kata kunci','Saya tahu CV melewati ATS, dan saya aktif mengoptimalkan CV dengan kata kunci dari setiap deskripsi pekerjaan sebelum melamar']},
  A2:{q:'Seberapa paham kamu dengan proses rekrutmen dan linimasa perekrutan di perusahaan terkemuka atau calon pemberi kerja targetmu?',
   o:['Saya sama sekali tidak tahu seperti apa prosesnya','Saya punya gambaran umum tapi belum pernah menelitinya secara khusus','Saya paham tahapan umumnya (tes tertulis, diskusi kelompok, wawancara, tes kesehatan)','Saya tahu tahapannya, linimasa umumnya, kompetensi utama yang dinilai, dan cara mempersiapkan masing-masing']},
@@ -798,7 +799,7 @@ const QI={
  A4:{q:'Seberapa paham kamu perbedaan "cultural fit" vs. "competency fit" dalam proses rekrutmen?',
   o:['Saya belum pernah memikirkan perbedaan ini','Saya paham konsepnya tapi tidak memakainya dalam persiapan','Saya meriset budaya perusahaan sebelum wawancara dan menyesuaikan cara saya membawakan diri','Saya meriset budaya perusahaan DAN kerangka kompetensi (mis. kriteria Talent Score BUMN, model kompetensi) dan menyesuaikan persiapan untuk masing-masing']},
  A5:{q:'Seberapa strategis pendekatanmu dalam mencari kerja?',
-  o:['Saya melamar ke semua lowongan yang terlihat relevan','Saya punya kriteria tapi longgar — saya melamar secara luas','Saya punya daftar target yang jelas (perusahaan, peran, industri spesifik) dan melamar dengan tujuan','Saya punya daftar target lengkap, ritme lamaran mingguan, sistem pelacakan, dan rutin meninjau serta menyesuaikan strategi']},
+  o:['Saya melamar ke semua lowongan yang terlihat relevan','Saya memiliki beberapa kriteria, tetapi tidak harus semuanya terpenuhi. Saya menyesuaikan strategi lamaran berdasarkan peluang yang tersedia.','Saya punya daftar target yang jelas (perusahaan, peran, industri spesifik) dan melamar dengan tujuan','Saya memiliki daftar target perusahaan yang jelas, jadwal rutin untuk mengirim lamaran (harian maupun mingguan), sistem untuk memantau setiap lamaran yang telah dikirim, serta secara berkala mengevaluasi dan menyempurnakan strategi saya.']},
  B1:{q:'Kapan terakhir CV‑mu diperbarui dan ditinjau?',
   o:['Terakhir diperbarui lebih dari 6 bulan lalu','Diperbarui 3–6 bulan lalu','Diperbarui dalam 3 bulan terakhir','Diperbarui dalam sebulan terakhir DAN ditinjau oleh orang yang berpengalaman merekrut']},
  B2:{q:'Berapa banyak pencapaian terukur yang ada di CV‑mu? (mis. "Meningkatkan kehadiran acara sebesar 40%")',
@@ -830,20 +831,20 @@ const QI={
  D5:{q:'Seberapa aktif kamu menggunakan jaringan alumni kampusmu?',
   o:['Saya belum pernah menghubungi alumni','Saya mengikuti alumni di LinkedIn tapi belum pernah kontak personal','Saya sudah menghubungi beberapa alumni dan sesekali berbincang','Saya aktif memakai jaringan alumni, punya hubungan hangat dengan beberapa alumni di bidang target, dan menjadikannya sumber daya yang nyata']},
  E1:{q:'Seberapa jelas gambaranmu tentang tujuan karier targetmu?',
-  o:['Belum jelas — saya melamar secara luas untuk melihat apa yang terjadi','Saya punya arah umum tapi belum ada peran atau tipe perusahaan spesifik','Saya punya target yang jelas: peran, industri, dan tipe perusahaan spesifik','Target saya terdefinisi penuh: jalur utama plus rencana cadangan, dan keduanya sudah diriset mendalam']},
+  o:['Belum jelas — saya melamar secara luas untuk melihat apa yang terjadi','Saya sudah memiliki gambaran umum mengenai karier yang diinginkan, tetapi belum menentukan posisi maupun jenis perusahaan yang menjadi target utama.','Saya punya target yang jelas: peran, industri, dan tipe perusahaan spesifik','Target saya terdefinisi penuh: jalur utama plus rencana cadangan, dan keduanya sudah diriset mendalam']},
  E2:{q:'Saat menerima penolakan (atau tidak ada kabar), bagaimana biasanya responsmu?',
   o:['Terasa berat — butuh berhari-hari untuk pulih dan saya sering mempertanyakan apakah harus terus mencoba','Mengecewakan — saya rehat dulu dan kembali saat merasa lebih baik','Saya mengakui kecewa, lalu kembali ke proses dalam satu-dua hari','Saya memperlakukan penolakan sebagai data — saya tinjau apa yang bisa diperbaiki, sesuaikan, dan lanjut tanpa kehilangan momentum']},
  E3:{q:'Seberapa terstruktur proses pencarian kerjamu saat ini?',
-  o:['Saya melamar saat melihat sesuatu yang menarik — tidak ada sistem','Saya punya tujuan longgar tapi tanpa rutinitas mingguan yang terstruktur','Saya punya rutinitas mingguan: target lamaran, pelacakan, dan tinjauan kemajuan','Saya punya sistem penuh: target mingguan, pelacakan harian, tinjauan mingguan, penyesuaian strategi bulanan — dan konsisten mencapai target saya sendiri']},
+  o:['Saya melamar saat melihat sesuatu yang menarik — tidak ada sistem','Saya memiliki daftar perusahaan target secara umum, tetapi belum memiliki rutinitas yang terstruktur untuk mencari dan melamar lowongan setiap minggu.','Saya punya rutinitas mingguan: target lamaran, pelacakan, dan tinjauan kemajuan','Saya punya sistem penuh: target mingguan, pelacakan harian, tinjauan mingguan, penyesuaian strategi bulanan — dan konsisten mencapai target saya sendiri']},
  E4:{q:'Bagaimana kamu mengukur kemajuan pencarian kerjamu?',
   o:['Tidak saya ukur — saya hanya merasakan bagaimana jalannya','Saya menghitung jumlah lamaran yang terkirim','Saya melacak lamaran, respons, tingkat wawancara, dan tingkat penawaran','Saya melacak semua itu DAN mengukur peningkatan kualitatif (kualitas CV, performa wawancara, pertumbuhan jaringan) bersama angkanya']},
  E5:{q:'Seberapa yakin kamu bahwa pendekatanmu saat ini akan menghasilkan tawaran dalam 90 hari?',
   o:['Sama sekali tidak yakin — saya tidak tahu apa yang salah','Agak ragu — saya berharap berhasil tapi tidak yakin','Cukup optimis — saya rasa berada di jalur yang benar tapi masih ada kesenjangan yang jelas','Yakin — saya punya rencana yang jelas, sedang mengeksekusinya, dan bisa melihat kemajuannya']}
 };
 const PI={
- name:{q:'Pertama — kami harus memanggilmu siapa?',hint:'Cukup nama depanmu. Akan tercetak di Peta Kariermu.',ph:'mis., Maverick'},
+ name:{q:'Pertama, kami harus memanggilmu dengan panggilan apa?',hint:'Cukup nama depanmu. Akan tercetak di Peta Kariermu.',ph:'mis., Maverick'},
  status:{q:'Apa statusmu saat ini?',o:['Masih kuliah (tingkat akhir)','Fresh graduate (0–1 tahun sejak lulus)','Profesional awal (1–3 tahun pengalaman)','Beralih karier / ingin pivot']},
- direction:{q:'Apa arah karier targetmu?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / BUMN','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
+ direction:{q:'Ke mana arah karier yang ingin kamu capai?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / BUMN','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
  challenge:{q:'Apa tantangan terbesarmu saat ini?',o:['Saya mengirim banyak lamaran tapi tidak ada respons','Saya mendapat wawancara tapi jarang berujung tawaran','Saya tidak tahu peran atau arah yang harus dituju','Saya merasa belum siap dan kurang percaya diri','Saya tidak punya jaringan atau koneksi yang tepat','Saya berjuang secara mental menghadapi penolakan dan ketidakpastian','Lainnya (tulis sendiri)'],ph:'Ceritakan tantanganmu...'}
 };
 const SI=[
