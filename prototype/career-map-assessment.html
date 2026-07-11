@@ -591,12 +591,12 @@ const T = {
  id:{ 'ui.back':'Kembali','ui.next':'Lanjut','ui.tap':'Ketuk untuk lanjut','ui.q':'Pertanyaan {x} dari {y}','ui.sec':'Bagian {x} dari 5 · {name}',
       'ui.profiling':'Berkenalan denganmu','ui.pdf':'Unduh PDF','ui.emailme':'Kirim laporan ke email','ui.share':'Bagikan','ui.yourmap':'Peta Kariermu',
       'hero.h1':'Peta Kariermu dimulai di sini.','hero.cta':'Mulai Pendakian',
-      'hero.sub':'Diagnostik 15 menit yang menunjukkan posisimu di gunung — dan rute menuju tawaran pertamamu.',
+      'hero.sub':'Diagnostik 15 menit yang menunjukkan persis posisimu di gunung ini — dan rute yang jelas menuju offer pertamamu.',
       'hero.b1':'Skor Kesiapan Karier di 5 dimensi','hero.b2':'Posisimu di gunung (dipetakan jujur)',
-      'hero.b3':'3 kekuatan utama untuk dibangun','hero.b4':'3 kesenjangan untuk segera ditutup','hero.b5':'Rute 90 hari yang dipersonalisasi',
+      'hero.b3':'3 kekuatan teratas untuk kamu bangun','hero.b4':'3 kesenjangan untuk segera ditutup','hero.b5':'Rute 90 hari yang dipersonalisasi menuju role targetmu',
       'hero.fine':'Gratis · 15 menit · Tanpa login · Hasilmu privat',
       'cap.h':'Simpan Peta Kariermu','cap.send':'Kirim Peta Karierku',
-      'cap.lead':'Masukkan datamu dan kami kirim laporan lengkap — plus satu email jujur dan berguna tiap minggu. Tanpa spam.',
+      'cap.lead':'Masukkan datamu dan kami kirim laporan lengkapmu — plus satu email yang jujur dan berguna tiap minggu, langsung dari gunung ini. Tanpa spam, selamanya.',
       'cap.wait':'Gabung waitlist Metanoia — jadi yang pertama di tali saat platform dibuka.',
       'ui.chapter':'Bab {x}','load.analyz':'Menganalisis pendakianmu...',
       'done.h':'Kamu baru saja melakukan hal yang langka.','done.sub':'Kebanyakan orang tak pernah berhenti untuk menilai posisinya secara jujur. Kamu melakukannya. Itu mengubah segalanya.',
@@ -789,7 +789,7 @@ const PROFILE_Q=[
 
 /* ================= BAHASA INDONESIA — assessment flow ================= */
 const QI={
- A1:{q:'Saat kamu melamar kerja online, apa yang terjadi pada CV-mu sebelum dibaca oleh manusia?',
+ A1:{q:'Saat kamu melamar kerja online, apa yang terjadi pada CV‑mu sebelum dibaca oleh manusia?',
   o:['Saya tidak yakin — saya berasumsi seseorang akan meninjaunya','Saya tahu CV mungkin difilter dengan cara tertentu','Saya tahu CV melewati ATS (Applicant Tracking System) yang memindai kata kunci','Saya tahu CV melewati ATS, dan saya aktif mengoptimalkan CV dengan kata kunci dari setiap deskripsi pekerjaan sebelum melamar']},
  A2:{q:'Seberapa paham kamu dengan proses rekrutmen dan linimasa perekrutan di perusahaan terkemuka atau calon pemberi kerja targetmu?',
   o:['Saya sama sekali tidak tahu seperti apa prosesnya','Saya punya gambaran umum tapi belum pernah menelitinya secara khusus','Saya paham tahapan umumnya (tes tertulis, diskusi kelompok, wawancara, tes kesehatan)','Saya tahu tahapannya, linimasa umumnya, kompetensi utama yang dinilai, dan cara mempersiapkan masing-masing']},
@@ -799,13 +799,13 @@ const QI={
   o:['Saya belum pernah memikirkan perbedaan ini','Saya paham konsepnya tapi tidak memakainya dalam persiapan','Saya meriset budaya perusahaan sebelum wawancara dan menyesuaikan cara saya membawakan diri','Saya meriset budaya perusahaan DAN kerangka kompetensi (mis. kriteria Talent Score BUMN, model kompetensi) dan menyesuaikan persiapan untuk masing-masing']},
  A5:{q:'Seberapa strategis pendekatanmu dalam mencari kerja?',
   o:['Saya melamar ke semua lowongan yang terlihat relevan','Saya punya kriteria tapi longgar — saya melamar secara luas','Saya punya daftar target yang jelas (perusahaan, peran, industri spesifik) dan melamar dengan tujuan','Saya punya daftar target lengkap, ritme lamaran mingguan, sistem pelacakan, dan rutin meninjau serta menyesuaikan strategi']},
- B1:{q:'Kapan terakhir CV-mu diperbarui dan ditinjau?',
+ B1:{q:'Kapan terakhir CV‑mu diperbarui dan ditinjau?',
   o:['Terakhir diperbarui lebih dari 6 bulan lalu','Diperbarui 3–6 bulan lalu','Diperbarui dalam 3 bulan terakhir','Diperbarui dalam sebulan terakhir DAN ditinjau oleh orang yang berpengalaman merekrut']},
- B2:{q:'Berapa banyak pencapaian terukur yang ada di CV-mu? (mis. "Meningkatkan kehadiran acara sebesar 40%")',
+ B2:{q:'Berapa banyak pencapaian terukur yang ada di CV‑mu? (mis. "Meningkatkan kehadiran acara sebesar 40%")',
   o:['Tidak ada — CV saya berisi tanggung jawab, bukan hasil','1–2 hasil terukur','3–5 hasil terukur','6 atau lebih hasil terukur, masing-masing spesifik dan dapat diverifikasi']},
- B3:{q:'Bagaimana performa CV-mu dalam penyaringan ATS?',
+ B3:{q:'Bagaimana performa CV‑mu dalam penyaringan ATS?',
   o:['Saya tidak pernah memikirkan optimasi ATS','Saya pernah dengar tapi tidak yakin cara menguji atau mengoptimalkannya','Saya sudah memeriksa CV secara manual terhadap deskripsi pekerjaan dan menyesuaikan kata kunci','Saya sudah menguji CV lewat pemindai ATS (mis. Jobscan, Resumeworded) dan skor di atas 70% untuk peran target']},
- B4:{q:'Seberapa lengkap dan aktif profil LinkedIn-mu?',
+ B4:{q:'Seberapa lengkap dan aktif profil LinkedIn‑mu?',
   o:['Saya punya LinkedIn tapi sebagian besar kosong atau tidak diperbarui','Profil saya berisi info dasar tapi tanpa foto profil atau ringkasan','Profil saya lengkap: foto, headline, ringkasan, dan riwayat kerja','Profil lengkap dengan 500+ koneksi, aktivitas rutin (posting atau komentar), dan rekomendasi dari rekan atau atasan']},
  B5:{q:'Selain CV dan LinkedIn, apakah kamu punya portofolio, GitHub, situs pribadi, atau jejak digital profesional lain?',
   o:['Tidak — hanya CV','Saya punya LinkedIn dasar dan tidak ada yang lain','Saya punya portofolio atau GitHub tapi tidak tertaut jelas atau jarang diperbarui','Saya punya portofolio atau kehadiran profesional yang aktif, terbarui, dan saya sertakan di setiap lamaran']},
@@ -908,6 +908,152 @@ const DIRECTION_LINE={
  8:'A managerial promotion is won on different terrain than a new job: visibility, sponsorship, and documented results inside your organization decide it — treat your current role as the interview.',
  9:'Your custom direction means your map is less crowded — but it also means research and network matter double, because fewer ready-made routes exist.'};
 
+
+/* ---- Bahasa Indonesia: report engine (localized, not literal) ---- */
+const QM={
+ A1:{sn:'Fasih ATS',st:'Kamu paham cara kerja mesinnya — dan kamu memakainya secara aktif, mengoptimalkan kata kunci di setiap lamaran. Ini saja sudah menempatkanmu di depan sekitar 80% pesaingmu, yang kebanyakan tersingkir oleh software tanpa pernah tahu alasannya.',
+  gn:'Tembok ATS',gp:'Ini hal terpenting di laporan ini: sebagian besar perusahaan besar menyaring CV‑mu lewat Applicant Tracking System sebelum dibaca manusia. Kalau CV‑mu tidak cocok kata kunci dengan job description, ia tersingkir — tanpa suara. Inilah “black hole lamaran.” Ini bukan soal nilaimu sebagai kandidat; ini soal mesin yang tak pernah diberitahukan padamu.',
+  fx:'Ambil satu lowongan asli untuk role targetmu. Tandai setiap skill dan kata kunci di dalamnya, lalu tulis ulang CV‑mu memakai bahasa yang sama persis, selama itu jujur tentang dirimu.',
+  wy:'Satu kali menulis ulang dengan konteks nyata mengajarkanmu pola untuk semua lamaran berikutnya.',tm:'2 jam'},
+ A2:{sn:'Menguasai prosesnya',st:'Kamu tahu tahapannya, linimasanya, dan kompetensi yang dinilai di tiap tahap — tes tertulis, FGD, wawancara, medical. Artinya kamu menyiapkan hal yang tepat di waktu yang tepat, sementara yang lain baru menyadari setiap tahap saat sudah di depan mata.',
+  gn:'Berjalan buta di dalam proses',gp:'Perusahaan besar di Indonesia — terutama BUMN — menjalankan proses berlapis yang menguntungkan kandidat yang tahu apa yang akan datang. Kalau kamu tak bisa menyebut tahapannya dan apa yang diukur masing‑masing, kamu sedang berlatih generik untuk permainan yang sangat spesifik.',
+  fx:'Pilih 2 perusahaan target utamamu dan petakan proses rekrutmennya dari sumber publik (laman karier resmi, cerita karyawan, thread forum). Tulis tahapan, linimasa, dan apa yang dinilai di tiap tahap.',
+  wy:'Kamu tak bisa berlatih untuk lomba yang lintasannya belum pernah kamu lihat.',tm:'3 jam'},
+ A3:{sn:'Intelijen gaji',st:'Kamu tahu nilai pasarmu dari berbagai sumber dan tier perusahaan, dan kamu tahu cara bernegosiasi. Pengetahuan ini biasanya berubah menjadi jutaan rupiah per tahun yang dibiarkan begitu saja oleh kandidat yang kurang informasi.',
+  gn:'Bernegosiasi dalam gelap',gp:'Tanpa benchmark gaji, kamu tak bisa membedakan offer yang wajar, yang bagus, atau yang terlalu rendah — dan perusahaan bisa merasakannya. Riset gaji adalah salah satu PR tercepat dengan hasil terbesar di seluruh proses mencari kerja.',
+  fx:'Luangkan satu malam di Glassdoor, LinkedIn Salary, dan laporan gaji Indonesia untuk role targetmu. Tulis tiga angka: batas bawah, target, dan angka mimpi.',
+  wy:'Tiga angka mengubah pertanyaan wawancara paling menakutkan menjadi jawaban paling percaya dirimu.',tm:'2 jam'},
+ A4:{sn:'Paham dua lensa penilaian',st:'Kamu menyiapkan diri di dua sumbu — budaya dan kerangka kompetensi — dan menyesuaikan caramu tampil untuk setiap perusahaan. Persis seperti inilah kandidat kuat membuat pewawancara merasa “orang ini sudah seperti bagian dari kami.”',
+  gn:'Persiapan satu ukuran untuk semua',gp:'Perusahaan menilaimu lewat dua lensa berbeda: apakah kamu akan berkembang di budaya kami, dan apakah kamu bisa bekerja di standar kami. Persiapan yang identik untuk semua perusahaan membuat kedua lensa itu tetap buram.',
+  fx:'Untuk wawancara berikutnya, luangkan 45 menit mempelajari nilai perusahaan dan kriteria kompetensi yang dipublikasikan, lalu petakan satu ceritamu ke masing‑masing.',
+  wy:'Pewawancara merekrut orang yang berbicara memakai kerangka mereka sendiri.',tm:'45 menit per wawancara'},
+ A5:{sn:'Target yang strategis',st:'Kamu menjalankan pencarianmu seperti kampanye: daftar target yang jelas, ritme mingguan, sistem pelacakan, dan review strategi berkala. Usahamu berubah menjadi pembelajaran — setiap minggu bidikanmu makin tajam.',
+  gn:'Melamar asal sebar',gp:'Melamar ke mana‑mana terasa produktif tapi tak mengajarkan apa‑apa — kamu tak bisa tahu mana yang berhasil. Empat puluh lima lamaran acak hampir selalu kalah dari lima belas lamaran yang terarah.',
+  fx:'Susun daftar target 15–20 perusahaan dalam tiga tier (impian, cocok, aman) di spreadsheet sederhana, dan tetapkan jumlah lamaran mingguan.',
+  wy:'Sebuah daftar mengubah kecemasan menjadi rencana yang bisa dieksekusi dan diukur.',tm:'2 jam'},
+ B1:{sn:'CV segar dan teruji',st:'CV‑mu terkini dan sudah diuji oleh orang yang benar‑benar pernah merekrut. Review eksternal itulah yang membedakan dokumen yang kamu sukai dari dokumen yang bekerja.',
+  gn:'Ransel yang usang',gp:'CV yang tak disentuh berbulan‑bulan pelan‑pelan kedaluwarsa — dan lebih buruk lagi, mungkin belum pernah diuji oleh orang yang tahu apa yang dipindai recruiter dalam 6 detik pertama.',
+  fx:'Perbarui CV‑mu minggu ini, lalu minta review dari satu orang yang berpengalaman merekrut (alumni, senior, atau kenalan HR).',
+  wy:'Satu reviewer berpengalaman menangkap dalam sepuluh menit apa yang kamu lewatkan berbulan‑bulan.',tm:'3 jam'},
+ B2:{sn:'Dampak yang terukur',st:'CV‑mu berbicara dengan hasil — enam atau lebih angka yang spesifik dan bisa diverifikasi. Recruiter membaca sekilas; angka menghentikan mata. Kamu sudah memberi mereka enam alasan untuk berhenti di namamu.',
+  gn:'Tanggung jawab, bukan hasil',gp:'“Bertanggung jawab atas media sosial” hanya memberi tahu recruiter apa tugasmu. “Menaikkan engagement Instagram 3× dalam satu semester” memberi tahu apa yang bisa kamu lakukan. Tanpa angka, dampak nyatamu tak terlihat.',
+  fx:'Tulis ulang 5 poin teratas CV‑mu dengan satu angka di masing‑masing: skala (berapa banyak), pertumbuhan (berapa besar), atau waktu (berapa cepat). Estimasikan dengan jujur bila angka pasti tak tersedia.',
+  wy:'Angka adalah satu‑satunya bahasa yang dibaca cepat oleh semua recruiter.',tm:'2 jam'},
+ B3:{sn:'Teruji melawan mesin',st:'Kamu sudah benar‑benar menguji CV‑mu terhadap mesin dan mencetak skor di atas 70% untuk role targetmu. Lamaranmu sampai ke manusia — dan memang itulah tujuan seluruh dokumen ini.',
+  gn:'Belum teruji melawan mesin',gp:'Bisa jadi CV‑mu indah tapi tak terbaca software. Layout rumit, grafis, dan kata kunci yang hilang membunuh lamaran secara diam‑diam. Sebelum diuji, kamu hanya menebak.',
+  fx:'Uji CV‑mu lewat ATS scanner gratis terhadap dua job description asli minggu ini. Perbaiki format dulu, lalu kata kunci, sampai skor tembus 70%.',
+  wy:'Tiga puluh menit pengujian bisa menghidupkan kembali seluruh pipeline lamaran yang mati.',tm:'1 jam'},
+ B4:{sn:'LinkedIn yang hidup',st:'Profil lengkap, 500+ koneksi, aktivitas nyata, rekomendasi — LinkedIn‑mu bekerja sebagai pintu depan kedua. Recruiter yang mencari kata kunci role targetmu benar‑benar bisa menemukan dan memercayaimu.',
+  gn:'Etalase yang kosong',gp:'Recruiter memeriksa LinkedIn sebelum menyusun shortlist — profil kosong terbaca sebagai ketidakhadiran. Di pasar Indonesia, tempat recruiter aktif mencari kandidat di LinkedIn, ini kanal gratis yang kamu biarkan tertutup.',
+  fx:'Minggu ini: foto profesional, headline berisi kata kunci role targetmu, ringkasan 3 kalimat, dan riwayat pengalaman lengkap.',
+  wy:'Profil yang lengkap membuat setiap langkah networking‑mu dua kali lebih efektif.',tm:'3 jam'},
+ B5:{sn:'Bukti karya',st:'Kamu menunjukkan, bukan sekadar mengklaim: portofolio atau kehadiran profesional yang aktif menyertai setiap lamaran. Bukti mengalahkan klaim — kamu memberi perusahaan sesuatu yang konkret untuk dipercaya.',
+  gn:'Tanpa bukti yang terlihat',gp:'CV berisi klaim; portofolio membuktikannya. Tanpa contoh karya, studi kasus, atau tautan proyek, kamu meminta perusahaan memercayai skill‑mu begitu saja — dan kepercayaan kalah dari bukti.',
+  fx:'Susun satu halaman bukti karya sederhana: 2–3 proyek, kampanye, analisis, atau studi kasus dengan catatan hasil singkat. Halaman Notion gratis pun cukup.',
+  wy:'Satu contoh karya nyata lebih berat dari tiga kata sifat di CV.',tm:'4 jam'},
+ C1:{sn:'Jam terbang latihan',st:'Kamu berlatih dengan orang sungguhan dalam sebulan terakhir dan sedang mengerjakan feedback yang spesifik. Wawancara adalah pertunjukan — dan kamu berlatih layaknya seorang performer.',
+  gn:'Tampil tanpa gladi resik',gp:'Wawancara adalah pertunjukan langsung, dan kamu naik panggung tanpa satu kali pun gladi. Gugup, jawaban bertele‑tele, momen yang terlewat — itu bukan cacat karakter; begitulah penampilan tanpa latihan terlihat pada siapa pun.',
+  fx:'Jadwalkan satu mock interview penuh minggu ini — teman, senior, atau rekan yang menyiapkan role serupa. Rekam. Tonton sekali.',
+  wy:'Mock interview pertamamu bernilai lebih dari sepuluh artikel tentang wawancara.',tm:'90 menit'},
+ C2:{sn:'Bank cerita STAR',st:'Kamu memegang 10+ cerita STAR yang terpeta ke kompetensi, dan bisa mengadaptasinya secara langsung. Persis itulah mesin di balik kandidat yang terdengar terstruktur tanpa usaha di bawah tekanan.',
+  gn:'Jawaban tanpa struktur',gp:'Pewawancara dilatih mendengarkan struktur: Situation, Task, Action, Result. Tanpa itu, pengalaman yang sesungguhnya kuat pun keluar sebagai cerita yang mengambang dan sulit dinilai.',
+  fx:'Tulis 5 cerita STAR dari pengalaman nyatamu (momen memimpin, konflik, kegagalan, pencapaian, inisiatif). Cukup satu halaman.',
+  wy:'Lima cerita siap pakai mencakup sekitar 80% dari semua pertanyaan behavioral.',tm:'3 jam'},
+ C3:{sn:'Jawaban inti yang matang',st:'“Ceritakan tentang dirimu” tak akan pernah menyergapmu — jawaban intimu tertulis, terukur waktunya, dan sudah dilatih bersuara. Pertanyaan paling mudah ditebak menjadi momen terkuatmu, persis sebagaimana mestinya.',
+  gn:'Mengimprovisasi yang mudah ditebak',gp:'Pertanyaan wawancara paling umum sepenuhnya bisa ditebak — artinya mengimprovisasinya sama dengan membuang poin gratis. Pertanyaan seperti ini menentukan kesan pertama; kesan pertama menentukan wawancara.',
+  fx:'Tulis dan latih bersuara jawaban 60–90 detik untuk: “Ceritakan tentang dirimu”, “Kenapa perusahaan ini?”, dan “Ceritakan sebuah kegagalan.”',
+  wy:'Dua menit pertama menentukan bingkai seluruh wawancara.',tm:'2 jam'},
+ C4:{sn:'Riset perusahaan yang dalam',st:'Kamu meriset perusahaan, tim, dan pewawancaranya, lalu datang membawa pertanyaan yang spesifik untuk role itu. Kebiasaan ini saja diperkirakan melipatgandakan konversi offer 2–3× dibanding kandidat yang datang generik.',
+  gn:'Datang dengan bekal generik',gp:'Pewawancara bisa tahu dalam hitungan menit apakah kamu meriset mereka — dan mereka membacanya sebagai pratinjau caramu memperlakukan klien dan kolega. Persiapan generik terbaca sebagai minat generik.',
+  fx:'Bangun ritual 30 menit sebelum wawancara: produk, satu berita terbaru, nilai perusahaan, LinkedIn pewawancara, dan dua pertanyaan tulus untuk diajukan.',
+  wy:'“Saya lihat tim Anda baru meluncurkan X” mengubah suhu ruangan.',tm:'30 menit per wawancara'},
+ C5:{sn:'Rutinitas ketenangan',st:'Kamu punya rutinitas sebelum wawancara yang andal menempatkanmu dalam kondisi fokus. Ketenangan di bawah penilaian adalah skill yang bisa dilatih — dan kamu sudah melatihnya.',
+  gn:'Badai sebelum masuk ruangan',gp:'Kecemasan sebelum wawancara bukan kelemahan — itu fisiologi yang belum dilatih. Tapi bila dibiarkan, ia menggerogoti working memory yang justru kamu butuhkan untuk jawaban terstruktur. Kabar baiknya: rutinitas memperbaikinya jauh lebih andal daripada tekad.',
+  fx:'Susun rutinitas 15 menit sebelum wawancara: ulas 3 cerita intimu, 2 menit napas lambat (4 detik masuk, 6 detik keluar), dan satu pertanyaan bagus yang akan kamu ajukan.',
+  wy:'Rutinitas memberi pekerjaan pada rasa gugupmu.',tm:'15 menit per wawancara'},
+ D1:{sn:'Mentor yang aktif',st:'Kamu punya mentor sungguhan di bidang targetmu yang rutin membimbing. Satu hubungan itu memampatkan bertahun‑tahun trial and error menjadi percakapan — hal terdekat dengan jalan pintas yang dimiliki gunung ini.',
+  gn:'Mendaki tanpa pemandu',gp:'Kamu menjelajah sendirian medan yang sudah dilalui ribuan orang. Mentor tidak menggendongmu ke puncak — mereka hanya memberi tahu di mana jurangnya. Tanpa mentor, kamu membayar setiap pelajaran dengan harga penuh.',
+  fx:'Kirim tiga pesan yang sopan minggu ini ke alumni atau profesional di role targetmu, minta satu percakapan 20 menit tentang jalan mereka.',
+  wy:'Satu percakapan dengan orang yang sudah di depanmu menggambar ulang petamu.',tm:'1 jam'},
+ D2:{sn:'Lingkaran yang bertumbuh',st:'Enam atau lebih percakapan nyata dengan orang di industri targetmu dalam enam bulan — kamu sedang membangun secara sistematis jaring yang membawa sebagian besar peluang di pasar Indonesia sebelum lowongan pernah diposting.',
+  gn:'Jaringan yang dingin',gp:'Sebagian besar role — terutama yang bagus — berpindah lewat orang sebelum sampai ke job board. Tanpa koneksi industri yang bermakna, kamu hanya melihat lowongan yang dilihat semua orang, dan bersaing di kerumunan terbesar.',
+  fx:'Pasang target kecil yang jujur: dua percakapan bermakna per bulan dengan orang di bidang targetmu. Mulai dari sumber hangat: alumni, senior, pembicara acara.',
+  wy:'Jaringan itu berbunga majemuk; waktu terbaik menumbuhkannya adalah sebelum kamu membutuhkannya.',tm:'2 jam/bulan'},
+ D3:{sn:'Rope team yang bekerja',st:'Kamu berlatih dalam kelompok terstruktur yang rutin bertemu — mock interview, review CV, akuntabilitas yang jujur. Pencari kerja dengan latihan kelompok terstruktur mendapat offer jauh lebih cepat, dan kamu sudah mendaki dengan tali terpasang.',
+  gn:'Mendaki solo',gp:'Kamu menjalani bagian tersulit dari awal karier sepenuhnya sendirian — tanpa rope team. Latihan bersama bukan sekadar dukungan emosional: itu mock interview gratis, review CV gratis, dan akuntabilitas yang bertahan melewati minggu yang buruk.',
+  fx:'Bentuk pod latihan minggu ini: hubungi 3–4 teman yang juga sedang mencari kerja dan tetapkan satu sesi mingguan tetap (mock interview + rotasi feedback).',
+  wy:'Pencari kerja dalam kelompok terstruktur mendapatkan offer kira‑kira 40% lebih cepat.',tm:'2 jam/minggu'},
+ D4:{sn:'Hadir di lapangan',st:'Empat acara atau lebih dalam 30 hari, masing‑masing dengan follow‑up nyata — kamu konsisten menempatkan diri di tempat industrimu berkumpul, dan mengubah kehadiran menjadi hubungan.',
+  gn:'Absen dari ruangan',gp:'Job fair, webinar, temu alumni — di ruangan seperti itulah informasi dan referral berpindah secara informal. Tiga puluh hari tanpa memasukinya berarti ekosistem ini benar‑benar belum melihatmu.',
+  fx:'Daftar dua acara dalam 30 hari ke depan (satu talk industri, satu acara alumni atau kampus). Setelahnya, kirim satu pesan follow‑up yang tulus per acara.',
+  wy:'Acara adalah tempat bertekanan paling rendah untuk memulai percakapan profesional yang nyata.',tm:'4 jam/bulan'},
+ D5:{sn:'Jaringan alumni yang menyala',st:'Kamu memperlakukan jaringan alumni sebagai sumber daya sebagaimana mestinya — hubungan hangat, percakapan nyata, permintaan yang jujur. Alumni membuka pintu yang tak bisa dibuka lamaran: referral, konteks orang dalam, peringatan yang jujur.',
+  gn:'Hadiah yang belum dibuka',gp:'Kampusmu memberimu jaringan siap pakai berisi orang yang cenderung ingin membantumu — dan ia masih tersegel. Alumni membalas junior dengan tingkat yang mengejutkan; pintunya tidak terkunci, kamu saja yang belum pernah mendorongnya.',
+  fx:'Temukan lima alumni di bidang targetmu di LinkedIn. Kirim pesan singkat dan spesifik: siapa kamu, satu pertanyaan tulus, dan permintaan 15 menit.',
+  wy:'“Satu almamater” adalah pembuka percakapan paling hangat yang ada di pasar ini.',tm:'90 menit'},
+ E1:{sn:'Puncak yang terdefinisi',st:'Kamu tahu persis puncak mana yang kamu daki — jalur utama dan cadangan, keduanya sudah diriset. Kejelasan seperti ini membuat semua keputusan lain lebih mudah: skill yang mana, acara yang mana, lamaran yang mana.',
+  gn:'Mendaki tanpa puncak',gp:'Melamar luas “untuk melihat apa yang terjadi” terasa terbuka, tapi ia mengencerkan segalanya: CV‑mu tak berbicara pada siapa pun secara khusus, persiapanmu menipis, dan penolakan tak mengajarkan apa‑apa karena tak ada hipotesis yang diuji.',
+  fx:'Jalankan sesi penentuan target satu malam: tulis 3 kandidat role, beri skor pada minat, kecocokan skill, dan permintaan pasar, lalu tetapkan satu jalur utama + satu cadangan untuk 90 hari.',
+  wy:'Komitmen 90 hari mengalahkan pilihan yang sempurna — kamu bisa membidik ulang nanti dengan data yang lebih baik.',tm:'2 jam'},
+ E2:{sn:'Penolakan sebagai data',st:'Kamu sudah berdamai dengan cuaca: penolakan tetap perih, kamu ambil pelajarannya, kamu terus bergerak. Ini prediktor terkuat tentang siapa yang menyelesaikan pendakian — bukan bakat, tapi kecepatan pulih.',
+  gn:'Kerusakan akibat badai',gp:'Penolakan menghantammu cukup keras hingga menghabiskan momentum berhari‑hari — dan dalam pencarian yang digerakkan angka, hari yang hilang ikut berbunga. Ini bukan cacat karakter; ini akibat wajar dari memperlakukan tiap penolakan sebagai vonis atas dirimu, bukan derau dalam sebuah sistem.',
+  fx:'Terapkan protokol penolakan: saat satu datang, tulis satu baris — apa (kalau ada) pelajarannya — lalu lakukan satu aksi kecil berikutnya dalam 24 jam, sekadar satu pesan follow‑up pun cukup.',
+  wy:'Protokol memangkas waktu pemulihan dari hitungan hari menjadi jam, dan jam memenangkan pencarian.',tm:'10 menit per penolakan'},
+ E3:{sn:'Sistem yang berjalan',st:'Target mingguan, pelacakan harian, review strategi bulanan — dan kamu benar‑benar mencapai angkamu sendiri. Kamu telah mengubah roller coaster emosi menjadi sistem operasi, dan seperti itulah pendakian yang bertahan.',
+  gn:'Mencari kerja sesuai suasana hati',gp:'Mencari hanya saat termotivasi berarti kemajuanmu bergantung pada hari terbaikmu. Sistem ada justru untuk hari yang lain — dan saat ini kamu belum memilikinya.',
+  fx:'Tetapkan rutinitas mingguan minimum: satu blok tetap 3 jam, target jumlah lamaran berkualitas, dan review 15 menit tiap Jumat tentang apa yang terjadi.',
+  wy:'Sistem menghasilkan kemajuan di minggu yang buruk; motivasi hanya bekerja di minggu yang baik.',tm:'30 menit persiapan'},
+ E4:{sn:'Mengukur seluruh corong',st:'Kamu melacak seluruh corong — lamaran, respons, wawancara, offer — plus perbaikan kualitatif di baliknya. Artinya kamu bisa menemukan persis di mana pipeline‑mu bocor dan memperbaiki tahap itu saja, bukan semuanya sekaligus.',
+  gn:'Menavigasi dengan perasaan',gp:'Tanpa angka, minggu yang buruk terasa seperti strategi yang gagal dan minggu yang mujur terasa seperti kemajuan — dua‑duanya bisa keliru. Kamu tak bisa memperbaiki corong yang tak bisa kamu lihat.',
+  fx:'Mulai tracker satu tab hari ini: perusahaan, role, tanggal melamar, respons, tahap yang tercapai. Tinjau tiap Jumat selama 10 menit.',
+  wy:'Dua minggu data memberitahumu lebih banyak daripada dua bulan perasaan.',tm:'20 menit persiapan'},
+ E5:{sn:'Percaya diri yang berpijak',st:'Kepercayaan dirimu bukan gertakan — ia dibangun di atas rencana yang sedang kamu eksekusi dan kemajuan yang bisa kamu tunjuk. Kalibrasi itu terlihat di wawancara, di networking, di negosiasi. Orang percaya pada pendaki yang tahu posisinya.',
+  gn:'Tersesat dalam kabut',gp:'“Saya tidak tahu apa yang salah” adalah suara kabut — dan kabut tidak diperbaiki dengan berusaha lebih keras, melainkan dengan jarak pandang. Semua hal lain dalam laporan ini dirancang untuk memberimu persis itu.',
+  fx:'Jangan perbaiki kepercayaan diri secara langsung. Perbaiki kesenjangan teratas di laporan ini, lihat satu perbaikan yang terukur, dan biarkan kepercayaan diri mengikuti bukti.',
+  wy:'Percaya diri yang sejati adalah hilir dari kemajuan yang terlihat — dan kemajuanmu kini sudah terpetakan.',tm:'—'}
+};
+const qm=(it,f)=>{
+  const map={sn:'sName',st:'strength',gn:'gapName',gp:'gap',fx:'fix',wy:'why',tm:'time'};
+  return lang==='id'&&QM[it.id]&&QM[it.id][f]!=null ? QM[it.id][f] : it[map[f]];
+};
+const BAND_ID=[
+ 'titik awal yang jujur — kesenjangan yang nyata, dan rute yang jelas untuk menutupnya.',
+ 'momentum yang nyata di beberapa titik, dengan kesenjangan kunci yang masih menentukan hasilmu.',
+ 'fondasi yang kokoh, dengan pengembangan terarah yang dibutuhkan di sisi tertentu.',
+ 'kesiapan yang kuat — kamu berada di fase persiapan terakhir sebelum serangan puncak.',
+ 'persiapan yang luar biasa — tugasmu sekarang adalah eksekusi, volume pipeline, dan menutup offer.'];
+const bandDesc=bd=>lang==='id'?BAND_ID[bd.lv-1]:bd.desc;
+const STATUS_ID=[
+ 'Kamu di tahun terakhir kuliah — artinya kamu memegang satu keunggulan yang ingin dibeli kembali oleh semua lulusan: waktu, sebelum jamnya mulai berdetak.',
+ 'Kamu fresh graduate di rentang paling kompetitif pasar Indonesia, tempat ribuan CV kuat memperebutkan role management trainee dan entry level yang sama.',
+ 'Kamu profesional muda — kamu punya bukti mampu memegang pekerjaan, dan langkah berikutnya menentukan kemiringan seluruh lintasanmu.',
+ 'Kamu sedang berpindah arah — pendakian paling berani, karena berarti menukar jalur yang dikenal dengan jalur yang lebih benar.'];
+const CHALL_ID=[
+ 'Lamaranmu menghilang ke dalam sunyi — “black hole lamaran.” Inilah yang ditunjukkan asesmen ini: ini hampir tak pernah soal nilaimu, dan hampir selalu soal lapisan mesin (penyaringan ATS dan lamaran yang tak terarah) yang berdiri antara kamu dan mata manusia. Lapisan itu bisa dikalahkan, dan mengalahkannya sebagian besar bersifat mekanis.',
+ 'Kamu berhasil masuk ke ruangan tapi belum mengubahnya menjadi offer — dan sebenarnya ini kabar baik yang mahal: profilmu bekerja. Kesenjangannya ada di lapisan performa (struktur, kedalaman persiapan, ketenangan), dan lapisan itu merespons latihan lebih cepat daripada skill mana pun di laporan ini.',
+ 'Tantangan terdalammu adalah arah — dan ia diam‑diam memajaki segalanya: CV yang tak membidik siapa pun, persiapan yang menipis, penolakan yang tak mengajarkan apa‑apa. Langkah paling berdampak di rute 90 harimu adalah sebuah keputusan, bukan sebuah usaha.',
+ 'Kamu menyebut rasa belum siap dan kepercayaan diri sebagai tembokmu. Baca laporan ini dengan saksama: kepercayaan diri yang dibangun di atas bukti adalah satu‑satunya yang bertahan di bawah tekanan, dan bukti itulah yang dirancang untuk dihasilkan rute di bawah, minggu demi minggu.',
+ 'Kamu menyebut kesenjangan jaringan — dan di pasar ini itu nyata: sebagian besar role bagus berpindah lewat orang sebelum pernah diposting. Kabar baiknya, jaringan adalah aset yang paling bisa dibangun di seluruh asesmen ini, mulai dari titik mana pun kamu berada.',
+ 'Kamu menyebut beban mental dari penolakan dan ketidakpastian — dan itu layak disebut. Tak ada satu pun bagian laporan ini yang memperlakukannya sebagai kelemahan. Rute di bawah sengaja disusun untuk menghasilkan kemenangan kecil yang terlihat sejak awal, karena momentum adalah obat paling jujur yang dimiliki gunung ini.'];
+const DIR_ID={
+ 0:'Jalur konsultan dan manajemen menyaring keras kemampuan berpikir terstruktur — cerita STAR dan latihan case‑mu akan berbobot lebih dari biasanya.',
+ 1:'Keuangan dan perbankan menjalankan proses paling berlapis dan kompetitif di pasar — kecerdasan proses dan kerapian menentukan selisih di sini.',
+ 2:'Rekrutmen tech dan product menghargai bukti karya yang terlihat — tautan portofolio atau proyek sering lebih berat daripada satu halaman klaim.',
+ 3:'Role marketing dan kreatif mengutamakan portofolio — perusahaan ingin melihat karyamu, dan jejak digitalmu adalah bagian dari audisinya.',
+ 4:'Role HR dan people justru menghargai persis yang diukur asesmen ini — kesadaran diri, struktur, dan pemahaman manusia yang tulus.',
+ 5:'Perusahaan teknik dan operasi menyaring ketelitian dan keamanan penilaian — hasil yang terukur dan pengetahuan proses membuatmu menonjol.',
+ 6:'Proses BUMN dan sektor publik itu panjang, berlapis, dan sangat spesifik — kandidat yang memetakan tahapannya lebih dulu memegang keunggulan nyata.',
+ 7:'Program management trainee adalah corong paling kompetitif di Indonesia — ribuan pelamar, asesmen berlapis, dan bobot besar pada cerita kepemimpinan.',
+ 8:'Promosi manajerial dimenangkan di medan yang berbeda dari pekerjaan baru: visibilitas, sponsor, dan hasil yang terdokumentasi di dalam organisasimu — perlakukan role‑mu saat ini sebagai wawancaranya.',
+ 9:'Arah pilihanmu sendiri berarti petamu tak seramai yang lain — tapi juga berarti riset dan jaringan berbobot ganda, karena rute siap pakai lebih sedikit.'};
+const DIMDESC_ID=[
+ 'Seberapa baik kamu memahami mekanika rekrutmen yang sebenarnya di pasar Indonesia — penyaringan ATS, proses rekrutmen, benchmark gaji, dan penargetan strategis. Kamu tak bisa menavigasi medan yang tak bisa kamu lihat.',
+ 'Kondisi perlengkapanmu: kualitas CV, pencapaian terukur, performa ATS, kehadiran LinkedIn, dan jejak digital. Profilmu yang mendaki saat kamu tak ada di ruangan.',
+ 'Kemampuanmu tampil saat paling menentukan: bercerita terstruktur (STAR), jawaban terlatih, riset perusahaan, dan ketenangan sebelum wawancara. Wawancara dimenangkan dalam persiapan, bukan di ruangan.',
+ 'Siapa yang mendaki bersamamu: mentor, koneksi profesional yang bermakna, latihan kelompok terstruktur, acara, dan jaringan alumni. Di Indonesia khususnya, pasar kerja tersembunyi bergerak lewat orang.',
+ 'Apakah kamu bisa mempertahankan pendakian menembus badai: kejelasan tujuan, pemulihan dari penolakan, konsistensi terstruktur, pengukuran kemajuan yang jujur, dan kepercayaan diri yang terkalibrasi.'];
+const dimDesc=i=>lang==='id'?DIMDESC_ID[i]:DIMS[i].desc;
+
 function pctl(t){ return Math.min(94,Math.max(8,Math.round(t*0.9)+4)); }
 
 function positionNarrative(t,bd,scores){
@@ -915,14 +1061,22 @@ function positionNarrative(t,bd,scores){
   const dimPct=scores.map(s=>s/15);
   let hi=0,lo=0; dimPct.forEach((v,i)=>{ if(v>dimPct[hi])hi=i; if(v<dimPct[lo])lo=i; });
   const dirIdx = p.direction==null?9:p.direction;
-  const paras=[];
-  paras.push(`${name}, you are at <b>${bd.label}</b> — ${bd.desc} ${STATUS_OPEN[p.status??1]}`);
-  let second = CHALLENGE_CORE[p.challenge??0];
-  if(second==null) second = `You named your challenge in your own words${p.challengeText?` — "${escapeHtml(p.challengeText)}"`:''} — and that precision is already an asset. The route below strengthens every face of your readiness at once, and specific problems yield fastest to structured weekly reps.`;
+  const paras=[], ID=lang==='id';
+  paras.push(ID
+    ? `${name}, kamu berada di <b>${bd.label}</b> — ${bandDesc(bd)} ${STATUS_ID[p.status??1]}`
+    : `${name}, you are at <b>${bd.label}</b> — ${bd.desc} ${STATUS_OPEN[p.status??1]}`);
+  let second = ID ? CHALL_ID[p.challenge??0] : CHALLENGE_CORE[p.challenge??0];
+  if(second==null) second = ID
+    ? `Kamu menuliskan tantanganmu dengan katamu sendiri${p.challengeText?` — "${escapeHtml(p.challengeText)}"`:''} — dan ketepatan itu sudah menjadi aset. Rute di bawah menguatkan setiap sisi kesiapanmu sekaligus, dan masalah yang spesifik paling cepat takluk pada latihan mingguan yang terstruktur.`
+    : `You named your challenge in your own words${p.challengeText?` — "${escapeHtml(p.challengeText)}"`:''} — and that precision is already an asset. The route below strengthens every face of your readiness at once, and specific problems yield fastest to structured weekly reps.`;
   paras.push(second);
-  let third = DIRECTION_LINE[dirIdx]||DIRECTION_LINE[9];
-  if(p.direction===9&&p.directionText) third = `Your target — ${escapeHtml(p.directionText)} — ` + 'means your map is less crowded, but research and network matter double, because fewer ready-made routes exist.';
-  third += ` Right now, your strongest face is <b>${DIMS[hi].name}</b> (${scores[hi]}/15) and your steepest is <b>${DIMS[lo].name}</b> (${scores[lo]}/15). The route in this report is built around exactly that shape — protect the strength, work the face.`;
+  let third = ID ? (DIR_ID[dirIdx]||DIR_ID[9]) : (DIRECTION_LINE[dirIdx]||DIRECTION_LINE[9]);
+  if(p.direction===9&&p.directionText) third = ID
+    ? `Targetmu — ${escapeHtml(p.directionText)} — berarti petamu tak seramai yang lain, tapi riset dan jaringan berbobot ganda, karena rute siap pakai lebih sedikit.`
+    : `Your target — ${escapeHtml(p.directionText)} — ` + 'means your map is less crowded, but research and network matter double, because fewer ready-made routes exist.';
+  third += ID
+    ? ` Saat ini, sisi terkuatmu adalah <b>${DIMS[hi].name}</b> (${scores[hi]}/15) dan yang paling terjal adalah <b>${DIMS[lo].name}</b> (${scores[lo]}/15). Rute dalam laporan ini dibangun persis di sekitar bentuk itu — jaga kekuatannya, garap sisi terjalnya.`
+    : ` Right now, your strongest face is <b>${DIMS[hi].name}</b> (${scores[hi]}/15) and your steepest is <b>${DIMS[lo].name}</b> (${scores[lo]}/15). The route in this report is built around exactly that shape — protect the strength, work the face.`;
   paras.push(third);
   return paras;
 }
@@ -931,15 +1085,27 @@ function dimInterpretation(di,score,items){
   const pct=score/15;
   const strong=items.filter(q=>(S.answers[q.id]??0)>=2);
   const weak=items.filter(q=>(S.answers[q.id]??0)<=1).sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0));
-  let lead;
-  if(pct>=.8) lead=`This is one of your strongest faces. Across ${DIMS[di].name.toLowerCase()}, your answers show deliberate, practiced habits — the kind that compound quietly while others guess. Your work here is maintenance and sharpening, not repair.`;
-  else if(pct>=.5) lead=`You have a real foundation here — several practiced habits that many of your competitors lack — alongside specific gaps that are still costing you results. The good news: in this dimension, the gaps are unusually mechanical to close.`;
-  else lead=`This is your steepest face right now — and likely where most of your frustration is coming from. Read this section without judgment: every gap named below is a learnable behavior, not a talent, and each one comes with the fastest known fix.`;
+  let lead; const ID=lang==='id';
+  if(pct>=.8) lead = ID
+    ? `Ini salah satu sisi terkuatmu. Di seluruh ${DIMS[di].name}, jawabanmu menunjukkan kebiasaan yang disengaja dan terlatih — jenis yang diam-diam berbunga sementara yang lain menebak. Tugasmu di sini adalah merawat dan menajamkan, bukan memperbaiki.`
+    : `This is one of your strongest faces. Across ${DIMS[di].name.toLowerCase()}, your answers show deliberate, practiced habits — the kind that compound quietly while others guess. Your work here is maintenance and sharpening, not repair.`;
+  else if(pct>=.5) lead = ID
+    ? `Kamu punya fondasi yang nyata di sini — beberapa kebiasaan terlatih yang tak dimiliki banyak pesaingmu — berdampingan dengan kesenjangan spesifik yang masih menggerus hasilmu. Kabar baiknya: di dimensi ini, kesenjangannya luar biasa mekanis untuk ditutup.`
+    : `You have a real foundation here — several practiced habits that many of your competitors lack — alongside specific gaps that are still costing you results. The good news: in this dimension, the gaps are unusually mechanical to close.`;
+  else lead = ID
+    ? `Inilah sisi paling terjalmu saat ini — dan kemungkinan besar sumber sebagian besar frustrasimu. Baca bagian ini tanpa menghakimi diri: setiap kesenjangan di bawah adalah perilaku yang bisa dipelajari, bukan bakat, dan masing-masing datang dengan perbaikan tercepat yang diketahui.`
+    : `This is your steepest face right now — and likely where most of your frustration is coming from. Read this section without judgment: every gap named below is a learnable behavior, not a talent, and each one comes with the fastest known fix.`;
   // add one sharp specific observation from the most extreme answer
   const top=items.reduce((a,b)=>(S.answers[a.id]??0)>=(S.answers[b.id]??0)?a:b);
   const bot=items.reduce((a,b)=>(S.answers[a.id]??0)<=(S.answers[b.id]??0)?a:b);
-  if((S.answers[top.id]??0)===3) lead+=` One thing worth naming plainly: ${top.strength.split('.')[0].toLowerCase().replace(/^you /,'you ')}.`;
-  else if((S.answers[bot.id]??0)===0) lead+=` Start with the first gap below — it is the one moving your results the most.`;
+  if((S.answers[top.id]??0)===3){
+    const s1=qm(top,'st').split('.')[0];
+    lead+= ID ? ` Satu hal yang layak disebut terang-terangan: ${s1.charAt(0).toLowerCase()+s1.slice(1)}.`
+              : ` One thing worth naming plainly: ${s1.toLowerCase().replace(/^you /,'you ')}.`;
+  } else if((S.answers[bot.id]??0)===0){
+    lead+= ID ? ` Mulai dari kesenjangan pertama di bawah — itulah yang paling menggerakkan hasilmu.`
+              : ` Start with the first gap below — it is the one moving your results the most.`;
+  }
   return {lead,strong,weak};
 }
 
@@ -1157,8 +1323,11 @@ function svgRadar(scores,size){
 
 /* ================= REPORT BUILD ================= */
 const RP_TOTAL=10;
-function rphead(){ return `<div class="rphead"><b>Metanoia Career Map</b><span>Career Readiness Assessment · ${escapeHtml(S.profile.name||'Climber')}</span></div>`; }
-function rpfoot(n){ return `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.id</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
+function rphead(){ const t=lang==='id'?'Asesmen Kesiapan Karier':'Career Readiness Assessment';
+  return `<div class="rphead"><b>Metanoia Career Map</b><span>${t} · ${escapeHtml(S.profile.name||'Climber')}</span></div>`; }
+function rpfoot(n){ return lang==='id'
+  ? `<div class="rpfoot"><span>Rahasia · Bukan untuk disebarluaskan · metanoialabs.id</span><span>Halaman ${n} dari ${RP_TOTAL}</span></div>`
+  : `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.id</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
 const kick=(n,t)=>`<div class="kick report-section-header"><span class="kn">${n}</span><span class="kt">${t}</span></div>`;
 function bandScale(t,lv){
   const NAMES=['Base Camp','First Ascent','Mid-Mountain','High Camp','Summit Ready'];
@@ -1168,11 +1337,50 @@ function bandScale(t,lv){
     <div class="lbls">${NAMES.map((nm,i)=>`<span class="${i===lv-1?'on':''}" style="flex:0 0 ${W[i]}%">${nm}</span>`).join('')}</div></div>`;
 }
 
+const RT={
+ en:{coverKick:'Career Intelligence Report',pf:'Prepared for',bandOf:(lv,d)=>`Band ${lv} of 5 · ${d}`,
+     cfoot:my=>`Metanoia Labs · Career Intelligence Report<br>${my} · Confidential`,
+     k1:'Executive Summary',kDim:'Dimension Deep Dive',k7:'Strengths & Critical Gaps',k8:'Action Plan',k9:'Next Steps',
+     execTitle:'Your Career Readiness Profile',execSub:'Where you stand on the mountain — and the shape of the climb ahead.',
+     s1:'Overall readiness',s2:'Readiness band',s3:'Estimated percentile',s4:'Steepest face',
+     pctile:t=>`${pctl(t)}<small>th</small>`,
+     callout:bd=>`You are at ${bd.label} — band ${bd.lv} of 5 on the Metanoia readiness scale.`,
+     method:d=>`Methodology: 25 behavioral questions across 5 readiness dimensions, scored 0–3 per item and normalized to 100. Completed ${d} · Career Map v2.1 · Percentile is an estimate against the Metanoia candidate base.`,
+     section:'Section',score:'Score',sb:'Score breakdown',strengths:'✓ Strengths',gapsLbl:'⚠ Gaps to close',
+     noStrength:'No established strengths yet — every action below is pure upside.',
+     noGap:'No significant gaps — maintain the habit and work steeper faces.',ia:'Immediate actions',
+     top3:'Your Top 3 Strengths',gaps3:'Your 3 Critical Gaps',strengthN:'Strength',gapN:'Gap',fixLbl:'The Fix:',
+     noTop3:'Your assessment shows early-stage preparation across the board — your strengths are ahead of you, not behind you. Return after 30 days on the route and watch this section fill.',
+     routeTitle:'Your 90-Day Route',routeSub:'Three phases, built from your exact gap profile. ★ marks highest-priority actions. Foundation before altitude.',
+     month:'Month',m1t:'Foundation Repair',m2t:'Activation',m3t:'Execution & Iteration',wk:'Week',
+     mile1:'▲ Milestone: Foundation complete',mile2:'▲ Milestone: First interviews secured',mile3:'▲ Milestone: Offer conversations open',
+     nsTitle:'Your route is mapped.',nsLead:'Based on your lowest-scoring dimensions, these are your first moves on Metanoia — in order.',
+     start:'Start here: ',nsCta:'Begin Your Climb at Metanoia Labs →'},
+ id:{coverKick:'Laporan Career Intelligence',pf:'Disiapkan untuk',bandOf:(lv,d)=>`Band ${lv} dari 5 · ${d}`,
+     cfoot:my=>`Metanoia Labs · Laporan Career Intelligence<br>${my} · Rahasia`,
+     k1:'Ringkasan Eksekutif',kDim:'Telaah Dimensi',k7:'Kekuatan & Kesenjangan Kritis',k8:'Rencana Aksi',k9:'Langkah Berikutnya',
+     execTitle:'Profil Kesiapan Kariermu',execSub:'Posisimu di gunung ini — dan bentuk pendakian di depanmu.',
+     s1:'Kesiapan keseluruhan',s2:'Band kesiapan',s3:'Estimasi persentil',s4:'Sisi paling terjal',
+     pctile:t=>`ke‑${pctl(t)}`,
+     callout:bd=>`Kamu berada di ${bd.label} — band ${bd.lv} dari 5 pada skala kesiapan Metanoia.`,
+     method:d=>`Metodologi: 25 pertanyaan perilaku di 5 dimensi kesiapan, dinilai 0–3 per butir dan dinormalisasi ke 100. Diselesaikan ${d} · Career Map v2.1 · Persentil adalah estimasi terhadap basis kandidat Metanoia.`,
+     section:'Bagian',score:'Skor',sb:'Rincian skor',strengths:'✓ Kekuatan',gapsLbl:'⚠ Kesenjangan untuk ditutup',
+     noStrength:'Belum ada kekuatan yang mapan — setiap aksi di bawah adalah keuntungan murni.',
+     noGap:'Tak ada kesenjangan yang berarti — pertahankan kebiasaannya dan garap sisi yang lebih terjal.',ia:'Aksi segera',
+     top3:'3 Kekuatan Teratasmu',gaps3:'3 Kesenjangan Kritismu',strengthN:'Kekuatan',gapN:'Kesenjangan',fixLbl:'Perbaikannya:',
+     noTop3:'Asesmenmu menunjukkan persiapan tahap awal di semua sisi — kekuatanmu ada di depan, bukan di belakang. Kembalilah setelah 30 hari menjalani rute dan lihat bagian ini terisi.',
+     routeTitle:'Rute 90 Harimu',routeSub:'Tiga fase, dibangun dari profil kesenjanganmu yang sebenarnya. ★ menandai aksi prioritas tertinggi. Fondasi sebelum ketinggian.',
+     month:'Bulan',m1t:'Perbaikan Fondasi',m2t:'Aktivasi',m3t:'Eksekusi & Iterasi',wk:'Minggu',
+     mile1:'▲ Milestone: Fondasi selesai',mile2:'▲ Milestone: Wawancara pertama didapat',mile3:'▲ Milestone: Percakapan offer terbuka',
+     nsTitle:'Rutemu sudah terpetakan.',nsLead:'Berdasarkan dimensi dengan skor terendahmu, inilah langkah pertamamu di Metanoia — berurutan.',
+     start:'Mulai di sini: ',nsCta:'Mulai Pendakianmu di Metanoia Labs →'}
+};
 function buildReport(){
   const scores=calcScores(), t=total100(scores), bd=band(t);
+  const L=RT[lang==='id'?'id':'en'], loc=lang==='id'?'id-ID':'en-GB';
   const name=escapeHtml(S.profile.name||'Climber');
-  const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
-  const monthYear=new Date().toLocaleDateString('en-GB',{month:'long',year:'numeric'});
+  const dateStr=new Date().toLocaleDateString(loc,{day:'numeric',month:'long',year:'numeric'});
+  const monthYear=new Date().toLocaleDateString(loc,{month:'long',year:'numeric'});
   const R=document.getElementById('report-content'); R.innerHTML='';
   let pageNo=1;
 
@@ -1187,15 +1395,15 @@ function buildReport(){
         <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgC)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span style="font-size:9pt;font-weight:800;letter-spacing:.26em">METANOIA LABS</span>
     </div>
-    <div class="kicker">Career Intelligence Report</div>
+    <div class="kicker">${L.coverKick}</div>
     <div class="mega">CAREER<br>MAP</div>
     <div class="rule"></div>
-    <div class="pf">Prepared for</div>
+    <div class="pf">${L.pf}</div>
     <div class="pname">${name.toUpperCase()}</div>
     <div class="dots">${[1,2,3,4,5].map(i=>`<i class="${i<=bd.lv?'on':''}"></i>`).join('')}</div>
     <div class="scorewrap">${svgDial(t,110,true)}<div class="bandlbl">${bd.label}<br>
-      <span style="font-size:8pt;font-weight:600;color:rgba(245,239,230,.65);letter-spacing:.04em">Band ${bd.lv} of 5 · ${dateStr}</span></div></div>
-    <div class="cfoot"><span>Metanoia Labs · Career Intelligence Report<br>${monthYear} · Confidential</span><span style="letter-spacing:.18em;font-weight:800">metanoialabs.id</span></div>
+      <span style="font-size:8pt;font-weight:600;color:rgba(245,239,230,.65);letter-spacing:.04em">${L.bandOf(bd.lv,dateStr)}</span></div></div>
+    <div class="cfoot"><span>${L.cfoot(monthYear)}</span><span style="letter-spacing:.18em;font-weight:800">metanoialabs.id</span></div>
   </div>`);
 
   /* Executive summary */
@@ -1205,20 +1413,20 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('01','Executive Summary')}
-      <div class="rtitle report-section-header">Your Career Readiness Profile</div>
-      <div class="rsub">Where you stand on the mountain — and the shape of the climb ahead.</div>
+      ${kick('01',L.k1)}
+      <div class="rtitle report-section-header">${L.execTitle}</div>
+      <div class="rsub">${L.execSub}</div>
       <div class="statrow">
-        <div class="stat"><div class="l">Overall readiness</div><div class="v">${t} <small>/ 100</small></div></div>
-        <div class="stat"><div class="l">Readiness band</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
-        <div class="stat"><div class="l">Estimated percentile</div><div class="v">${pctl(t)}<small>th</small></div></div>
-        <div class="stat"><div class="l">Steepest face</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
+        <div class="stat"><div class="l">${L.s1}</div><div class="v">${t} <small>/ 100</small></div></div>
+        <div class="stat"><div class="l">${L.s2}</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
+        <div class="stat"><div class="l">${L.s3}</div><div class="v">${L.pctile(t)}</div></div>
+        <div class="stat"><div class="l">${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
       </div>
       ${bandScale(t,bd.lv)}
       <div class="exec-grid" style="margin-top:16px">
         <div class="l">
           <div class="exec-narr">${paras.map(p=>`<p>${p}</p>`).join('')}</div>
-          <div class="callout">You are at ${bd.label} — band ${bd.lv} of 5 on the Metanoia readiness scale.</div>
+          <div class="callout">${L.callout(bd)}</div>
         </div>
         <div class="r">${svgRadar(scores,300)}</div>
       </div>
@@ -1226,7 +1434,7 @@ function buildReport(){
         ${DIMS.map((d,i)=>`<div class="col"><div class="nm">${d.name}</div><div class="pc">${pct[i]}%</div>
           <div class="tr"><div class="fl" style="width:${pct[i]}%"></div></div></div>`).join('')}
       </div>
-      <div class="exec-meta">Methodology: 25 behavioral questions across 5 readiness dimensions, scored 0–3 per item and normalized to 100. Completed ${dateStr} · Career Map v2.1 · Percentile is an estimate against the Metanoia candidate base.</div>
+      <div class="exec-meta">${L.method(dateStr)}</div>
     </div>${rpfoot(pageNo)}
   </div>`);
 
@@ -1239,28 +1447,28 @@ function buildReport(){
     R.insertAdjacentHTML('beforeend',`
     <div class="report-page">${rphead()}
       <div class="rpad">
-        ${kick('0'+(i+2),'Dimension Deep Dive · '+d.metaname)}
+        ${kick('0'+(i+2),L.kDim+' · '+d.metaname)}
         <div class="dim-toprow report-section-header">
-          <span class="sec-chip-print">Section ${['A','B','C','D','E'][i]}</span>
-          <span class="dim-score-print">Score: ${sc}/15 · ${p100}%</span>
+          <span class="sec-chip-print">${L.section} ${['A','B','C','D','E'][i]}</span>
+          <span class="dim-score-print">${L.score}: ${sc}/15 · ${p100}%</span>
         </div>
         <div class="dim-title">${d.name}</div>
-        <div class="dim-meta">${d.metaname} — ${d.desc.split('.')[0].toLowerCase().replace(/^./,c=>c.toUpperCase())}.</div>
+        <div class="dim-meta">${d.metaname} — ${dimDesc(i).split('.')[0].replace(/^./,c=>c.toUpperCase())}.</div>
         <div class="rule-c"></div>
-        <div class="lbl-sc">Score breakdown</div>
+        <div class="lbl-sc">${L.sb}</div>
         <div class="brow"><div class="tr"><div class="fl" style="width:${p100}%;background:${d.color}"></div></div><b>${p100}%</b></div>
         <p class="dim-narr">${lead}</p>
         <div class="sgrow">
-          <div class="strengths-box"><div class="sbx-lbl">✓ Strengths</div><ul class="sbx-ul">${
-            strong.length?strong.map(q=>`<li class="strength-item"><b>${q.sName}.</b> ${q.strength.split('.').slice(0,1).join('.')}.</li>`).join('')
-            :'<li>No established strengths yet — every action below is pure upside.</li>'}</ul></div>
-          <div class="gaps-box"><div class="sbx-lbl">⚠ Gaps to close</div><ul class="sbx-ul">${
-            weak.length?weak.map(q=>`<li class="gap-item"><b>${q.gapName}.</b> ${q.gap.split('.').slice(0,1).join('.')}.</li>`).join('')
-            :'<li>No significant gaps — maintain the habit and work steeper faces.</li>'}</ul></div>
+          <div class="strengths-box"><div class="sbx-lbl">${L.strengths}</div><ul class="sbx-ul">${
+            strong.length?strong.map(q=>`<li class="strength-item"><b>${qm(q,'sn')}.</b> ${qm(q,'st').split('.').slice(0,1).join('.')}.</li>`).join('')
+            :`<li>${L.noStrength}</li>`}</ul></div>
+          <div class="gaps-box"><div class="sbx-lbl">${L.gapsLbl}</div><ul class="sbx-ul">${
+            weak.length?weak.map(q=>`<li class="gap-item"><b>${qm(q,'gn')}.</b> ${qm(q,'gp').split('.').slice(0,1).join('.')}.</li>`).join('')
+            :`<li>${L.noGap}</li>`}</ul></div>
         </div>
-        <div class="lbl-sc" style="margin-top:18px">Immediate actions</div>
+        <div class="lbl-sc" style="margin-top:18px">${L.ia}</div>
         ${acts.map((q,ai)=>`<div class="action-item"><div class="action-number">0${ai+1}</div>
-          <div class="action-text">${q.fix} <span class="tm">· ${q.time} · ${q.why}</span></div></div>`).join('')}
+          <div class="action-text">${qm(q,'fx')} <span class="tm">· ${qm(q,'tm')} · ${qm(q,'wy')}</span></div></div>`).join('')}
       </div>${rpfoot(pageNo)}
     </div>`);
   });
@@ -1273,17 +1481,17 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('07','Strengths & Critical Gaps')}
-      <div class="rtitle report-section-header" style="font-size:15pt">Your Top 3 Strengths</div>
+      ${kick('07',L.k7)}
+      <div class="rtitle report-section-header" style="font-size:15pt">${L.top3}</div>
       <div style="height:10px"></div>
-      ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="k">Strength ${i+1} · ${DIMS[q.d].name}</span>
-        <h4>${q.sName}</h4><p>${q.strength}</p></div>`).join('')}</div>`
-        :'<p style="font-size:9.5pt;color:#374151">Your assessment shows early-stage preparation across the board — your strengths are ahead of you, not behind you. Return after 30 days on the route and watch this section fill.</p>'}
+      ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="k">${L.strengthN} ${i+1} · ${DIMS[q.d].name}</span>
+        <h4>${qm(q,'sn')}</h4><p>${qm(q,'st')}</p></div>`).join('')}</div>`
+        :`<p style="font-size:9.5pt;color:#374151">${L.noTop3}</p>`}
       <div style="height:1px;background:#E5E0D5;margin:24px 0"></div>
-      <div class="rtitle report-section-header" style="font-size:15pt;color:var(--accent-print)">Your 3 Critical Gaps</div>
+      <div class="rtitle report-section-header" style="font-size:15pt;color:var(--accent-print)">${L.gaps3}</div>
       <div style="height:10px"></div>
-      <div class="cards3">${gap3.map((q,i)=>`<div class="c gp gap-item"><span class="k">Gap ${i+1} · ${DIMS[q.d].name}</span>
-        <h4>${q.gapName}</h4><p>${q.gap}</p><div class="fx"><b>The Fix:</b> ${q.fix}</div></div>`).join('')}</div>
+      <div class="cards3">${gap3.map((q,i)=>`<div class="c gp gap-item"><span class="k">${L.gapN} ${i+1} · ${DIMS[q.d].name}</span>
+        <h4>${qm(q,'gn')}</h4><p>${qm(q,'gp')}</p><div class="fx"><b>${L.fixLbl}</b> ${qm(q,'fx')}</div></div>`).join('')}</div>
     </div>${rpfoot(pageNo)}
   </div>`);
 
@@ -1291,42 +1499,56 @@ function buildReport(){
   pageNo++;
   const m1=gap3.concat(Q.slice().sort((a,b)=>(S.answers[a.id]??0)-(S.answers[b.id]??0)).slice(3,4));
   const dirTxt=(S.profile.direction!=null&&S.profile.direction<9)
-    ?['consulting','finance','tech','marketing','HR','engineering','the public sector','management trainee circles','your own organization and industry'][S.profile.direction]
-    :'your target field';
-  const m2w1=[`Set your weekly cadence: 5–8 targeted, ATS-checked applications per week from your tier list`,
-              `Start your networking rhythm: 2 meaningful conversations per week with people in ${dirTxt}`];
-  const m2w2=[`Run weekly peer practice: one mock interview + one CV review, rotating roles`,
-              `Friday review: update your tracker, compute response and interview rates, adjust targets`];
-  const m3w1=[`Convert response flow into 2–4 interviews; run your 30-minute research ritual before each`,
-              `Refresh salary benchmarks; write your floor / target / stretch numbers and rehearse aloud`];
-  const m3w2=[`If interviews < 2 by day 75: tighten targeting and double referral-based channels`,
-              `Retake this assessment at day 90 and compare your radar shape`];
+    ?(lang==='id'
+      ?['konsultan','keuangan','tech','marketing','HR','teknik','sektor publik','lingkar management trainee','organisasimu dan industrimu sendiri']
+      :['consulting','finance','tech','marketing','HR','engineering','the public sector','management trainee circles','your own organization and industry'])[S.profile.direction]
+    :(lang==='id'?'bidang targetmu':'your target field');
+  const m2w1=lang==='id'
+    ?[`Tetapkan ritme mingguanmu: 5–8 lamaran terarah yang sudah dicek ATS per minggu dari daftar tiermu`,
+      `Mulai ritme networking: 2 percakapan bermakna per minggu dengan orang di ${dirTxt}`]
+    :[`Set your weekly cadence: 5–8 targeted, ATS-checked applications per week from your tier list`,
+      `Start your networking rhythm: 2 meaningful conversations per week with people in ${dirTxt}`];
+  const m2w2=lang==='id'
+    ?[`Jalankan latihan rekan mingguan: satu mock interview + satu review CV, bergantian peran`,
+      `Review Jumat: perbarui tracker, hitung tingkat respons dan wawancara, sesuaikan target`]
+    :[`Run weekly peer practice: one mock interview + one CV review, rotating roles`,
+      `Friday review: update your tracker, compute response and interview rates, adjust targets`];
+  const m3w1=lang==='id'
+    ?[`Ubah aliran respons menjadi 2–4 wawancara; jalankan ritual riset 30 menit sebelum masing-masing`,
+      `Segarkan benchmark gaji; tulis angka batas bawah / target / mimpi, lalu latih mengucapkannya`]
+    :[`Convert response flow into 2–4 interviews; run your 30-minute research ritual before each`,
+      `Refresh salary benchmarks; write your floor / target / stretch numbers and rehearse aloud`];
+  const m3w2=lang==='id'
+    ?[`Jika wawancara < 2 pada hari ke-75: pertajam penargetan dan gandakan kanal berbasis referral`,
+      `Ulangi asesmen ini di hari ke-90 dan bandingkan bentuk radarmu`]
+    :[`If interviews < 2 by day 75: tighten targeting and double referral-based channels`,
+      `Retake this assessment at day 90 and compare your radar shape`];
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('08','Action Plan')}
-      <div class="rtitle report-section-header">Your 90-Day Route</div>
-      <p style="font-size:9.5pt;color:#374151;margin-top:8px">Three phases, built from your exact gap profile. ★ marks highest-priority actions. Foundation before altitude.</p>
+      ${kick('08',L.k8)}
+      <div class="rtitle report-section-header">${L.routeTitle}</div>
+      <p style="font-size:9.5pt;color:#374151;margin-top:8px">${L.routeSub}</p>
       <div class="route3">
         <div class="mcol m1"><div class="mtop"></div><div class="mpad">
-          <div class="mh">Month 1</div><div class="mt">Foundation Repair</div>
-          <div class="wk">Week 1–2</div>
-          ${m1.slice(0,2).map(q=>`<div class="ai star action-item">${q.fix} <i style="color:#64748B;font-style:normal">(${q.time})</i></div>`).join('')}
-          <div class="wk">Week 3–4</div>
-          ${m1.slice(2,4).map(q=>`<div class="ai action-item">${q.fix} <i style="color:#64748B;font-style:normal">(${q.time})</i></div>`).join('')}
-          <div class="mile">▲ Milestone: Foundation complete</div>
+          <div class="mh">${L.month} 1</div><div class="mt">${L.m1t}</div>
+          <div class="wk">${L.wk} 1–2</div>
+          ${m1.slice(0,2).map(q=>`<div class="ai star action-item">${qm(q,'fx')} <i style="color:#64748B;font-style:normal">(${qm(q,'tm')})</i></div>`).join('')}
+          <div class="wk">${L.wk} 3–4</div>
+          ${m1.slice(2,4).map(q=>`<div class="ai action-item">${qm(q,'fx')} <i style="color:#64748B;font-style:normal">(${qm(q,'tm')})</i></div>`).join('')}
+          <div class="mile">${L.mile1}</div>
         </div></div>
         <div class="mcol m2"><div class="mtop"></div><div class="mpad">
-          <div class="mh">Month 2</div><div class="mt">Activation</div>
-          <div class="wk">Week 5–6</div>${m2w1.map((a,i)=>`<div class="ai ${i===0?'star':''} action-item">${a}</div>`).join('')}
-          <div class="wk">Week 7–8</div>${m2w2.map(a=>`<div class="ai action-item">${a}</div>`).join('')}
-          <div class="mile">▲ Milestone: First interviews secured</div>
+          <div class="mh">${L.month} 2</div><div class="mt">${L.m2t}</div>
+          <div class="wk">${L.wk} 5–6</div>${m2w1.map((a,i)=>`<div class="ai ${i===0?'star':''} action-item">${a}</div>`).join('')}
+          <div class="wk">${L.wk} 7–8</div>${m2w2.map(a=>`<div class="ai action-item">${a}</div>`).join('')}
+          <div class="mile">${L.mile2}</div>
         </div></div>
         <div class="mcol m3"><div class="mtop"></div><div class="mpad">
-          <div class="mh">Month 3</div><div class="mt">Execution & Iteration</div>
-          <div class="wk">Week 9–10</div>${m3w1.map((a,i)=>`<div class="ai ${i===0?'star':''} action-item">${a}</div>`).join('')}
-          <div class="wk">Week 11–12</div>${m3w2.map(a=>`<div class="ai action-item">${a}</div>`).join('')}
-          <div class="mile">▲ Milestone: Offer conversations open</div>
+          <div class="mh">${L.month} 3</div><div class="mt">${L.m3t}</div>
+          <div class="wk">${L.wk} 9–10</div>${m3w1.map((a,i)=>`<div class="ai ${i===0?'star':''} action-item">${a}</div>`).join('')}
+          <div class="wk">${L.wk} 11–12</div>${m3w2.map(a=>`<div class="ai action-item">${a}</div>`).join('')}
+          <div class="mile">${L.mile3}</div>
         </div></div>
       </div>
     </div>${rpfoot(pageNo)}
@@ -1334,7 +1556,13 @@ function buildReport(){
 
   /* Next steps */
   pageNo++;
-  const FEAT={
+  const FEAT=lang==='id'?{
+    ci:{n:'The Map — Career Intelligence',d:'Telaah 90 menit tentang cara rekrutmen benar-benar bekerja di sini: ATS, proses BUMN, data gaji, strategi penargetan.',c:'#B4550E',ic:'M'},
+    ps:{n:'CV Studio',d:'Skor CV‑mu terhadap job description asli, perbaiki baris demi baris, dan dapatkan feedback dari kacamata recruiter.',c:'#C97B1E',ic:'CV'},
+    ir:{n:'Interview Coach',d:'Mock interview STAR yang dikalibrasi ke role targetmu, dengan feedback terstruktur di setiap jawaban.',c:'#F59E0B',ic:'IC'},
+    nc:{n:'Basecamp — kohortmu',d:'Kelompok rekan yang dipasangkan sesuai tahap dan arahmu: latihan mingguan dan orang-orang yang menolak membiarkanmu menyerah.',c:'#5A6A80',ic:'B'},
+    cm:{n:'Mind Palace',d:'Protokol pemulihan dari penolakan dan kepercayaan diri yang dibangun di atas bukti — pendakian batin, dilatih.',c:'#1B2434',ic:'MP'}
+  }:{
     ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, State-Owned Enterprise (SOE/BUMN) processes, salary data, targeting strategy.',c:'#B4550E',ic:'M'},
     ps:{n:'CV Studio',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#C97B1E',ic:'CV'},
     ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#F59E0B',ic:'IC'},
@@ -1345,14 +1573,14 @@ function buildReport(){
   const recs=weakDims.slice(0,3).map(i=>FEAT[DIMS[i].key]);
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">
-    <div class="ns-hero"><h2>Your route is mapped.</h2></div>
+    <div class="ns-hero"><h2>${L.nsTitle}</h2></div>
     <div class="rpad">
-      ${kick('09','Next Steps')}
-      <p style="font-size:10pt;color:#374151">Based on your lowest-scoring dimensions, these are your first moves on Metanoia — in order.</p>
+      ${kick('09',L.k9)}
+      <p style="font-size:10pt;color:#374151">${L.nsLead}</p>
       <div class="featc">${recs.map((f,i)=>`<div class="c dimension-card">
         <div class="ic" style="background:${f.c}">${f.ic}</div>
-        <h4>${i===0?'Start here: ':''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
-      <a class="ns-cta" href="landing.html">Begin Your Climb at Metanoia Labs →</a>
+        <h4>${i===0?L.start:''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
+      <a class="ns-cta" href="landing.html">${L.nsCta}</a>
       <div class="ns-url">metanoialabs.id</div>
     </div>${rpfoot(pageNo)}
   </div>`);
