@@ -400,9 +400,12 @@
       height:auto;align-items:stretch}
   body.m .frame::before{opacity:0 !important}
   body.m .haze,body.m .bloom,body.m .bar{display:none}
+  /* Vertically centre each scene's content between the fixed header and the
+     footer rail, so every section reads with the same balanced hierarchy.
+     Scenes taller than the viewport (e.g. The Range) simply fill and scroll. */
   body.m .content{max-height:none;overflow:visible;transform:none !important;
-      padding:110px 26px 108px;display:flex;flex-direction:column;justify-content:flex-end}
-  body.m #call .content{justify-content:center;padding-bottom:84px}
+      padding:110px 26px 108px;display:flex;flex-direction:column;justify-content:center}
+  body.m #call .content{padding-bottom:84px}
   /* portrait stills replace cropped landscape video (The Valley keeps its film) */
   .mbg{display:none}
   body.m .mbg{display:block;position:absolute;inset:0;background-size:cover;background-position:center}
