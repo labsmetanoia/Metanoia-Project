@@ -31,7 +31,7 @@
      luminous morning-light veil so the dashboard reads like paper */
   body::before{content:"";position:fixed;inset:0;z-index:-2;background:url('assets/bg/portal.jpg') center top/cover no-repeat}
   body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
-    background:linear-gradient(180deg,rgba(238,241,246,.84) 0%,rgba(238,241,246,.93) 42%,rgba(238,241,246,.985) 100%)}
+    background:linear-gradient(180deg,rgba(240,243,248,.42) 0%,rgba(240,243,248,.66) 34%,rgba(238,241,246,.88) 68%,rgba(238,241,246,.94) 100%)}
   h1,h2,h3,h4{margin:0}
   p{text-wrap:pretty}
   button{font-family:inherit;cursor:pointer}
@@ -86,7 +86,8 @@
   .module-title{font-size:1.7rem;font-weight:800;letter-spacing:-.02em;color:var(--text)}
   .module-sub{font-size:.9rem;color:var(--text-muted);margin:6px 0 0;line-height:1.6}
   .module-sub strong{color:var(--gold);font-weight:700}
-  .module-date{font-size:12px;color:var(--text-faint);white-space:nowrap;padding-top:6px}
+  .module-date{font-size:12px;color:var(--text-muted);white-space:nowrap;background:rgba(255,255,255,.6);
+    backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.5);border-radius:999px;padding:5px 13px;margin-top:2px}
 
   /* ── hero readiness ── */
   .hero-readiness{background:linear-gradient(135deg,rgba(29,95,171,.06) 0%,rgba(255,255,255,.94) 55%);border:1px solid rgba(29,95,171,.16);
