@@ -319,6 +319,11 @@
   :root{--gold-1:#C97B1E;--gold-2:#F5A623;--gold-3:#FFD98A}
   :root[data-theme="light"]{--gold-1:#8F5209;--gold-2:#B4700F;--gold-3:#E09A2D}
   .nav-right{display:flex;gap:12px;align-items:center;flex:none}
+  .nav-signin{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;letter-spacing:.04em;
+    color:var(--accent-text);border:1px solid var(--nav-border);border-radius:999px;padding:8px 15px;white-space:nowrap;
+    backdrop-filter:blur(6px);transition:border-color .2s,color .2s,background .2s}
+  .nav-signin:hover{color:var(--text);border-color:color-mix(in srgb,var(--accent-text) 55%,transparent);background:color-mix(in srgb,var(--accent-text) 8%,transparent)}
+  @media(max-width:480px){.nav-signin{display:none}}
   .ctl{display:flex;align-items:center;border:1px solid var(--nav-border);border-radius:999px;backdrop-filter:blur(6px);overflow:hidden}
   .ctl button{background:none;border:0;color:var(--muted);font-size:12.5px;font-weight:700;letter-spacing:.06em;
       padding:9px 13px;cursor:pointer;transition:color .25s,background .25s}
@@ -480,6 +485,7 @@
     <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
     </button>
+    <a class="nav-signin" href="login.html" data-i18n="nav.signin">Sign in</a>
     <div class="ctl" role="group" aria-label="Language / Bahasa">
       <button id="langEn" aria-pressed="true">EN</button>
       <button id="langId" aria-pressed="false">ID</button>
@@ -788,7 +794,7 @@
       'paths.mentor':'For Mentors','paths.mentor.d':'Hold the map for the next climber.',
       'paths.about':'About Metanoia','paths.about.d':'The mission behind the mountain.',
       'paths.mind':'Mind Palace','paths.mind.d':'Train the mind that climbs — resilience, focus, inner altitude.',
-      'nav.home':'Home','nav.about':'About Us','nav.home.peek':'Return to the valley floor.',
+      'nav.home':'Home','nav.signin':'Sign in','nav.about':'About Us','nav.home.peek':'Return to the valley floor.',
       'foot.emp':'Employers','foot.mentors':'Mentors','foot.dignity':'Data Dignity',
       'foot.tag':'Metanoia · © 2026 · Every summit lights the next.',
       'contact.ch':'Chapter VI · The fire stays lit','contact.h2':'Contact Us',
@@ -867,7 +873,7 @@
       'paths.mentor':'Untuk Mentor','paths.mentor.d':'Pegang peta untuk pendaki berikutnya.',
       'paths.about':'Tentang Metanoia','paths.about.d':'Misi di balik gunung ini.',
       'paths.mind':'Mind Palace','paths.mind.d':'Latih pikiran yang mendaki — ketangguhan, fokus, ketinggian batin.',
-      'nav.home':'Beranda','nav.about':'Tentang Kami','nav.home.peek':'Kembali ke dasar lembah.',
+      'nav.home':'Beranda','nav.signin':'Masuk','nav.about':'Tentang Kami','nav.home.peek':'Kembali ke dasar lembah.',
       'foot.emp':'Perusahaan','foot.mentors':'Mentor','foot.dignity':'Martabat Data',
       'foot.tag':'Metanoia · © 2026 · Setiap puncak menyalakan puncak berikutnya.',
       'contact.ch':'Bab VI · Api tetap menyala','contact.h2':'Hubungi Kami',

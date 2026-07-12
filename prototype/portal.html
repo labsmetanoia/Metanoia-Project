@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Basecamp — Metanoia Labs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
+    --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+    --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
+    --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92);
+    --glass-border:rgba(180,140,60,.16); --glass-border-hover:rgba(201,168,76,.38); --glass-blur:blur(20px);
+    --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
+    --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
+    --sidebar-width:240px; --topbar-height:56px; --font:'Inter',sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:var(--font);background:var(--bg-base);color:var(--text);-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{margin:0}
+  button{font-family:inherit;cursor:pointer}
+
+  /* ═══ TOP BAR ═══ */
+  .portal-topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-height);background:rgba(8,14,26,.96);
+    backdrop-filter:blur(12px);border-bottom:1px solid rgba(180,140,60,.10);display:flex;align-items:center;
+    justify-content:space-between;padding:0 20px 0 0;z-index:100}
+  .tb-lockup{display:flex;align-items:center;gap:10px;text-decoration:none;padding:0 18px;height:100%}
+  .tb-lockup .wm b{display:block;font-size:12px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;line-height:1;color:#fff}
+  .tb-lockup .wm i{display:block;font-style:normal;font-size:7px;font-weight:800;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-bright);text-align:right;margin-top:2px}
+  .position-pill{display:flex;align-items:center;gap:8px;background:rgba(201,168,76,.08);border:1px solid rgba(180,140,60,.22);
+    border-radius:999px;padding:5px 14px;font-size:12px;font-weight:600;color:var(--gold)}
+  .position-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(201,168,76,.5)}50%{box-shadow:0 0 0 5px rgba(201,168,76,0)}}
+  .tb-right{display:flex;align-items:center;gap:14px}
+  .tb-bell{background:none;border:0;color:var(--text-muted);display:flex;position:relative;padding:6px;border-radius:8px;transition:color .2s,background .2s}
+  .tb-bell:hover{color:#fff;background:rgba(255,255,255,.06)}
+  .tb-bell .dot{position:absolute;top:5px;right:6px;width:6px;height:6px;border-radius:50%;background:var(--amber);border:1.5px solid var(--bg-panel)}
+  .tb-user{display:flex;align-items:center;gap:9px}
+  .tb-avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#1D5FAB,#0D7377);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff}
+  .tb-name{font-size:13px;font-weight:600}
+  @media(max-width:768px){.tb-name{display:none}.position-pill{font-size:11px;padding:4px 11px}}
+
+  /* ═══ SIDEBAR ═══ */
+  .portal-sidebar{position:fixed;left:0;top:var(--topbar-height);bottom:0;width:var(--sidebar-width);
+    background:rgba(5,10,18,.98);border-right:1px solid rgba(180,140,60,.08);display:flex;flex-direction:column;
+    padding:24px 0;z-index:90;overflow-y:auto}
+  .sidebar-identity{display:flex;align-items:center;gap:12px;padding:0 16px 24px;border-bottom:1px solid rgba(180,140,60,.08);margin-bottom:20px}
+  .user-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#1D5FAB,#0D7377);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#fff;flex-shrink:0}
+  .user-name{font-size:14px;font-weight:700;color:#fff}
+  .user-trail{font-size:11px;color:rgba(255,255,255,.4);margin-top:2px}
+  .sidebar-nav{display:flex;flex-direction:column;flex:1}
+  .nav-section-label{display:block;font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.22);padding:0 16px 8px}
+  .sidebar-item{display:flex;align-items:center;gap:10px;padding:10px 16px;margin:1px 8px;border-radius:8px;text-decoration:none;
+    color:rgba(255,255,255,.5);font-size:13.5px;font-weight:500;transition:all .18s;border:1px solid transparent;background:none;width:calc(100% - 16px);text-align:left}
+  .sidebar-item:hover{background:rgba(255,255,255,.05);color:rgba(255,255,255,.85)}
+  .sidebar-item.active{background:rgba(201,168,76,.10);color:#fff;border:1px solid rgba(180,140,60,.24)}
+  .sidebar-item.active .sidebar-icon{color:var(--gold)}
+  .sidebar-icon{width:16px;height:16px;flex-shrink:0;color:currentColor}
+  .nav-badge{margin-left:auto;background:rgba(201,168,76,.18);border:1px solid rgba(180,140,60,.30);color:var(--gold);font-size:10px;font-weight:700;padding:2px 7px;border-radius:999px}
+  .nav-progress{margin-left:auto;font-size:11px;color:var(--gold);font-weight:600}
+  .logout-item{color:rgba(255,255,255,.35);margin-top:6px}
+  .logout-item:hover{color:#EF4444;background:rgba(239,68,68,.08)}
+
+  /* ═══ MAIN CONTENT ═══ */
+  .portal-content{margin-left:var(--sidebar-width);margin-top:var(--topbar-height);min-height:calc(100vh - var(--topbar-height));background:var(--bg-dark);padding:32px 36px}
+  .module{display:none;animation:modIn .35s ease}
+  .module.active{display:block}
+  @keyframes modIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .module-header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:24px}
+  .module-title{font-size:1.7rem;font-weight:800;letter-spacing:-.02em}
+  .module-sub{font-size:.9rem;color:var(--text-muted);margin:6px 0 0}
+  .module-sub strong{color:var(--gold);font-weight:700}
+  .module-date{font-size:12px;color:var(--text-faint);white-space:nowrap;padding-top:6px}
+
+  /* ── hero readiness ── */
+  .hero-readiness{background:linear-gradient(135deg,rgba(29,95,171,.15) 0%,rgba(8,14,26,.80) 100%);border:1px solid rgba(29,95,171,.22);
+    border-radius:16px;padding:28px 32px;display:flex;align-items:center;gap:32px;margin-bottom:24px;flex-wrap:wrap}
+  .hero-dial{flex:none;text-align:center}
+  .hero-dial .band{margin-top:8px;font-size:12px;font-weight:700;color:var(--gold);letter-spacing:.02em}
+  .hero-body{flex:1;min-width:280px}
+  .hero-body .rt{font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-sub)}
+  .hero-body .rt span{color:var(--gold)}
+  .hero-rule{height:1px;background:rgba(255,255,255,.10);margin:12px 0 14px}
+  .hero-body p{font-size:13.5px;color:var(--text-muted);line-height:1.6;margin:0 0 18px}
+  .mtn-track{position:relative;display:flex;justify-content:space-between;margin:20px 0 26px}
+  .mtn-track::before{content:"";position:absolute;left:4%;right:4%;top:5px;height:2px;background:rgba(255,255,255,.12)}
+  .mtn-track .fill{content:"";position:absolute;left:4%;top:5px;height:2px;background:linear-gradient(90deg,#1D5FAB,#0D7377)}
+  .mtn-stop{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:8px;flex:1}
+  .mtn-stop i{width:12px;height:12px;border-radius:50%;background:#0A1420;border:2px solid rgba(255,255,255,.2)}
+  .mtn-stop.done i{background:#1D5FAB;border-color:#1D5FAB}
+  .mtn-stop.here i{background:#1D5FAB;border-color:#7FB0E6;box-shadow:0 0 0 4px rgba(29,95,171,.25);animation:pulse 2s infinite}
+  .mtn-stop span{font-size:9.5px;font-weight:600;letter-spacing:.04em;color:var(--text-faint);text-transform:uppercase}
+  .mtn-stop.here span{color:var(--gold)}
+  .dim-mini{display:flex;gap:14px;flex-wrap:wrap}
+  .dim-mini .d{flex:1;min-width:90px}
+  .dim-mini .d .l{display:flex;justify-content:space-between;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-muted);margin-bottom:5px}
+  .dim-mini .d .l b{color:#fff}
+  .dim-mini .d .tr{height:4px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden}
+  .dim-mini .d .fl{height:100%;border-radius:2px;background:linear-gradient(90deg,#1D5FAB,#0D7377)}
+
+  /* ── pillars ── */
+  .pillars-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:24px}
+  .pillar-card{background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:14px;padding:20px;backdrop-filter:var(--glass-blur);
+    transition:border-color .2s,transform .2s;cursor:pointer;border-left-width:3px}
+  .pillar-card:hover{border-color:var(--glass-border-hover);transform:translateY(-3px)}
+  .pillar-card[data-pillar="map"]{border-left-color:var(--cobalt)}
+  .pillar-card[data-pillar="pack"]{border-left-color:var(--teal)}
+  .pillar-card[data-pillar="rope"]{border-left-color:var(--gold)}
+  .pillar-card[data-pillar="route"]{border-left-color:var(--forest)}
+  .pillar-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
+  .pillar-icon{width:38px;height:38px;filter:drop-shadow(0 3px 10px rgba(180,140,60,.25))}
+  .pillar-icon svg{width:100%;height:100%;display:block}
+  .pillar-score{font-size:28px;font-weight:800;color:#fff;line-height:1}
+  .pillar-score span{font-size:14px;color:var(--text-muted)}
+  .pillar-name{font-size:16px;font-weight:700;color:#fff;margin:0 0 2px}
+  .pillar-sub{font-size:11px;color:var(--text-muted);margin:0 0 12px}
+  .pillar-bar{height:4px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:12px;overflow:hidden}
+  .pillar-fill{height:100%;background:linear-gradient(90deg,#1D5FAB,#0D7377);border-radius:2px}
+  .pillar-next{font-size:11.5px;color:var(--gold);margin:0;line-height:1.45}
+
+  /* ── lower two-col ── */
+  .journey-lower{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .next-action-card{background:linear-gradient(135deg,rgba(180,83,9,.12) 0%,rgba(8,14,26,.80) 100%);border:1px solid rgba(180,83,9,.25);border-radius:14px;padding:24px}
+  .next-action-label{display:flex;align-items:center;gap:6px;font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#F59E0B;margin-bottom:12px}
+  .label-dot{width:6px;height:6px;border-radius:50%;background:#F59E0B}
+  .next-action-title{font-size:17px;font-weight:700;color:#fff;margin:0 0 10px}
+  .next-action-desc{font-size:13px;color:rgba(255,255,255,.6);line-height:1.6;margin:0 0 14px}
+  .next-action-time{font-size:11px;color:rgba(255,255,255,.35);margin-bottom:16px}
+  .btn-action-primary{display:block;width:100%;padding:11px;background:var(--amber);color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:600;margin-bottom:8px;transition:background .2s,transform .2s}
+  .btn-action-primary:hover{background:#92400E;transform:translateY(-1px)}
+  .btn-action-ghost{display:block;width:100%;padding:9px;background:transparent;border:1px solid rgba(255,255,255,.10);color:rgba(255,255,255,.35);border-radius:8px;font-size:12px;transition:border-color .2s,color .2s}
+  .btn-action-ghost:hover{border-color:rgba(255,255,255,.20);color:rgba(255,255,255,.55)}
+
+  .route-card{background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:14px;padding:22px 24px;backdrop-filter:var(--glass-blur)}
+  .route-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+  .route-header h3{font-size:15px;font-weight:700}
+  .route-day{font-size:11px;font-weight:600;color:var(--gold);background:rgba(201,168,76,.10);border:1px solid var(--gold-border);border-radius:999px;padding:3px 10px}
+  .route-phase{padding:0 0 14px 0}
+  .phase-label{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px}
+  .phase-label.cobalt{color:#6FA6E0}.phase-label.teal{color:#3FA9AD}.phase-label.forest{color:#5AA97C}
+  .route-milestone{display:flex;align-items:center;gap:10px;padding:6px 0;font-size:12.5px;color:var(--text-muted)}
+  .milestone-dot{width:11px;height:11px;border-radius:50%;background:#0A1420;border:2px solid rgba(255,255,255,.18);flex:none}
+  .milestone-dot.done{background:var(--forest);border-color:var(--forest)}
+  .milestone-dot.current{background:var(--cobalt);border-color:#7FB0E6;box-shadow:0 0 0 3px rgba(29,95,171,.25)}
+  .route-milestone.done span{color:var(--text-sub);text-decoration:line-through;text-decoration-color:rgba(255,255,255,.25)}
+  .route-milestone.current span{color:#fff;font-weight:600}
+  .route-phase.collapsed{border-top:1px solid rgba(255,255,255,.06);padding-top:14px}
+  .phase-preview{font-size:11.5px;color:var(--text-faint)}
+
+  /* ── tabs ── */
+  .tab-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+  .tab{padding:8px 16px;border-radius:999px;font-size:12.5px;font-weight:600;color:var(--text-muted);background:transparent;border:1px solid rgba(255,255,255,.10);transition:all .18s}
+  .tab:hover{color:#fff;border-color:rgba(255,255,255,.22)}
+  .tab.active{color:var(--gold);background:rgba(201,168,76,.10);border-color:var(--gold-border-hover)}
+
+  /* ── learning ── */
+  .learning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .learning-card{background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s;position:relative}
+  .learning-card:hover{border-color:var(--glass-border-hover);transform:translateY(-3px)}
+  .lc-header{height:80px;display:flex;align-items:center;justify-content:center}
+  .lc-header svg{width:30px;height:30px;color:#fff;opacity:.9}
+  .lc-header.cobalt{background:rgba(29,95,171,.20)}.lc-header.teal{background:rgba(13,115,119,.20)}.lc-header.gold{background:rgba(201,168,76,.12)}
+  .lc-body{padding:16px;flex:1}
+  .lc-category{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .lc-title{font-size:14px;font-weight:700;color:#fff;margin:0 0 8px}
+  .lc-desc{font-size:12px;color:var(--text-muted);line-height:1.5;margin:0 0 12px}
+  .lc-meta{display:flex;gap:12px;font-size:11px;color:var(--text-faint);margin-bottom:12px}
+  .lc-progress-bar{height:3px;background:rgba(255,255,255,.08);border-radius:2px;margin-bottom:4px;overflow:hidden}
+  .lc-progress-fill{height:100%;background:linear-gradient(90deg,#1D5FAB,#0D7377);border-radius:2px}
+  .lc-progress-label{font-size:10px;color:var(--text-faint)}
+  .lc-cta{margin:0 16px 16px;padding:10px;background:var(--cobalt);color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:600;transition:background .2s}
+  .lc-cta:hover{background:#1752A0}
+  .lc-cta.secondary{background:transparent;border:1px solid rgba(201,168,76,.3);color:var(--gold)}
+  .lc-completed-badge{position:absolute;top:12px;right:12px;font-size:10px;font-weight:700;color:var(--teal);background:rgba(13,115,119,.15);border:1px solid rgba(13,115,119,.35);border-radius:999px;padding:3px 9px;z-index:2}
+  .learning-card.locked{opacity:.72}
+  .lc-locked-overlay{position:absolute;inset:0;background:rgba(5,10,18,.55);backdrop-filter:blur(1px);display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;z-index:3}
+  .lc-locked-overlay span{font-size:12px;font-weight:600;color:var(--text-sub);background:var(--glass-bg-heavy);border:1px solid var(--gold-border);border-radius:10px;padding:10px 14px}
+
+  /* ── certificates ── */
+  .cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .cert-card{background:linear-gradient(135deg,rgba(201,168,76,.12) 0%,rgba(8,14,26,.85) 100%);border:1px solid rgba(201,168,76,.28);border-radius:14px;padding:20px;display:flex;align-items:center;gap:20px}
+  .cert-emblem{width:56px;height:56px;background:rgba(201,168,76,.15);border:2px solid rgba(201,168,76,.35);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative}
+  .cert-star{position:absolute;bottom:-4px;right:-4px;font-size:14px;color:var(--gold-bright)}
+  .cert-body{flex:1}
+  .cert-issued{font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:4px}
+  .cert-name{font-size:16px;font-weight:700;color:#fff;margin:0 0 4px}
+  .cert-date{font-size:11px;color:var(--text-faint)}
+  .cert-download{margin-left:auto;padding:8px 16px;background:transparent;border:1px solid rgba(201,168,76,.30);color:var(--gold);border-radius:8px;font-size:12px;font-weight:600;flex:none}
+
+  /* ── settings ── */
+  .settings-layout{display:grid;grid-template-columns:200px 1fr;gap:24px}
+  .settings-subnav{display:flex;flex-direction:column;gap:2px}
+  .subnav-item{text-align:left;padding:10px 14px;border-radius:8px;font-size:13px;font-weight:500;color:var(--text-muted);background:none;border:1px solid transparent;transition:all .18s}
+  .subnav-item:hover{background:rgba(255,255,255,.05);color:#fff}
+  .subnav-item.active{background:rgba(201,168,76,.10);color:#fff;border-color:var(--gold-border)}
+  .settings-panel{background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:14px;padding:26px 28px;backdrop-filter:var(--glass-blur)}
+  .settings-panel h3{font-size:16px;font-weight:700;margin:0 0 4px}
+  .settings-panel .ph-sub{font-size:12.5px;color:var(--text-muted);margin:0 0 20px}
+  .set-field{margin-bottom:16px}
+  .set-field label{display:block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px}
+  .set-input,.set-select{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:9px;padding:11px 14px;color:#fff;font-size:13.5px;font-family:var(--font);outline:none;transition:border-color .2s,box-shadow .2s}
+  .set-input:focus,.set-select:focus{border-color:var(--cobalt);box-shadow:0 0 0 3px rgba(29,95,171,.15)}
+  .set-input[readonly]{opacity:.6;cursor:not-allowed}
+  .set-row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .managed-badge{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;color:var(--text-muted);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.10);border-radius:999px;padding:3px 9px;margin-left:8px}
+  .photo-up{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+  .photo-circle{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#1D5FAB,#0D7377);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:#fff;flex:none}
+  .photo-up .up-link{font-size:12.5px;color:var(--gold);font-weight:600}
+  .photo-up .up-note{font-size:11px;color:var(--text-faint);margin-top:3px}
+  .chip-select{display:flex;gap:8px;flex-wrap:wrap}
+  .sel-chip{padding:7px 13px;border-radius:999px;font-size:12px;font-weight:600;color:var(--text-muted);background:transparent;border:1px solid rgba(255,255,255,.12);transition:all .18s}
+  .sel-chip.on,.sel-chip:hover{color:var(--gold);border-color:var(--gold-border-hover);background:rgba(201,168,76,.08)}
+  .btn-save{margin-top:8px;padding:11px 22px;background:var(--cobalt);color:#fff;border:none;border-radius:9px;font-size:13.5px;font-weight:700;box-shadow:0 4px 16px rgba(29,95,171,.3);transition:transform .2s,background .2s}
+  .btn-save:hover{background:#1752A0;transform:translateY(-1px)}
+  .btn-ghost-set{padding:11px 20px;background:transparent;border:1px solid var(--gold-border);color:var(--gold);border-radius:9px;font-size:13px;font-weight:600}
+  .set-note{font-size:11.5px;color:var(--text-faint);margin-top:8px}
+  .readonly-score{display:flex;align-items:center;gap:12px;background:rgba(29,95,171,.10);border:1px solid rgba(29,95,171,.22);border-radius:10px;padding:12px 16px}
+  .readonly-score b{font-size:22px;font-weight:800}
+  .toggle-lang{display:flex;border:1px solid rgba(255,255,255,.12);border-radius:999px;overflow:hidden;width:max-content}
+  .toggle-lang button{padding:8px 18px;background:none;border:0;color:var(--text-muted);font-size:12.5px;font-weight:700}
+  .toggle-lang button.on{background:linear-gradient(120deg,var(--gold),var(--gold-bright));color:#160d03}
+  .plan-box{border:1px solid var(--gold-border);border-radius:12px;padding:20px;margin-bottom:16px}
+  .plan-name{font-size:15px;font-weight:800;color:var(--gold)}
+  .plan-feat{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+  .plan-feat li{display:flex;gap:9px;font-size:12.5px;color:var(--text-sub)}
+  .empty-state{font-size:12.5px;color:var(--text-faint);padding:16px;border:1px dashed rgba(255,255,255,.10);border-radius:10px;text-align:center}
+
+  /* ── help ── */
+  .help-search-wrap{position:relative;margin-bottom:24px;max-width:560px}
+  .help-search{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:14px 16px 14px 44px;color:#fff;font-size:14px;font-family:var(--font);outline:none;transition:border-color .2s,box-shadow .2s}
+  .help-search:focus{border-color:var(--cobalt);box-shadow:0 0 0 3px rgba(29,95,171,.15)}
+  .help-search-icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--text-faint)}
+  .help-quicklinks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:34px}
+  .help-quick-card{display:flex;align-items:center;gap:12px;background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:12px;padding:16px 18px;cursor:pointer;transition:border-color .2s,transform .2s}
+  .help-quick-card:hover{border-color:var(--glass-border-hover);transform:translateY(-2px)}
+  .help-quick-card svg{width:22px;height:22px;color:var(--gold);flex:none}
+  .help-quick-card span{font-size:13px;font-weight:600}
+  .help-section-title{font-size:16px;font-weight:700;margin:0 0 16px}
+  .faq-list{display:flex;flex-direction:column;gap:10px}
+  .faq-item{background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden}
+  .faq-question{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px;background:none;border:0;color:#fff;font-size:13.5px;font-weight:600;text-align:left}
+  .faq-chevron{width:16px;height:16px;color:var(--text-muted);transition:transform .25s;flex:none}
+  .faq-item.open .faq-chevron{transform:rotate(180deg)}
+  .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease;font-size:13px;color:var(--text-muted);line-height:1.65}
+  .faq-answer div{padding:0 20px 18px}
+  .faq-item.open .faq-answer{max-height:320px}
+  .support-cta-block{margin-top:40px;background:linear-gradient(135deg,rgba(13,115,119,.15) 0%,rgba(8,14,26,.85) 100%);border:1px solid rgba(13,115,119,.28);border-radius:16px;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+  .support-cta-left{display:flex;align-items:center;gap:20px}
+  .support-avatar-group{display:flex}
+  .support-avatar{width:40px;height:40px;border-radius:50%;border:2px solid var(--bg-dark);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff;margin-right:-10px}
+  .support-text h3{font-size:16px;font-weight:700;color:#fff;margin:0 0 6px}
+  .support-text p{font-size:13px;color:rgba(255,255,255,.55);margin:0;max-width:360px;line-height:1.5}
+  .support-actions{display:flex;flex-direction:column;gap:10px;flex-shrink:0}
+  .btn-support-primary{padding:12px 24px;background:var(--teal);color:#fff;border-radius:9px;font-size:14px;font-weight:600;text-decoration:none;text-align:center;transition:background .2s,transform .2s}
+  .btn-support-primary:hover{background:#0A5E62;transform:translateY(-1px)}
+  .btn-support-ghost{padding:11px 24px;background:transparent;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.55);border-radius:9px;font-size:13px;text-decoration:none;text-align:center;transition:border-color .2s}
+  .btn-support-ghost:hover{border-color:rgba(255,255,255,.24)}
+
+  /* ═══ ONBOARDING MODAL ═══ */
+  .onb-veil{position:fixed;inset:0;z-index:300;background:rgba(5,10,18,.86);backdrop-filter:blur(14px);display:none;align-items:center;justify-content:center;padding:24px}
+  .onb-veil.show{display:flex}
+  .onb-card{width:100%;max-width:480px;background:var(--glass-bg-heavy);border:1px solid var(--glass-border);border-radius:18px;padding:34px 34px 30px;position:relative;overflow:hidden}
+  .onb-card::before{content:"";position:absolute;top:0;left:16%;right:16%;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent)}
+  .onb-step{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+  .onb-card h2{font-size:1.35rem;font-weight:800;line-height:1.25;margin:0 0 18px}
+  .onb-card .onb-body{margin-bottom:22px}
+  .onb-opt{display:block;width:100%;text-align:left;padding:14px 16px;margin-bottom:10px;border-radius:11px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);color:#fff;font-size:13.5px;font-weight:600;transition:all .18s}
+  .onb-opt:hover{border-color:var(--gold-border-hover);background:rgba(201,168,76,.08)}
+  .onb-opt small{display:block;font-weight:400;color:var(--text-muted);margin-top:3px;font-size:11.5px}
+  .onb-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px}
+  .onb-skip{background:none;border:0;color:var(--text-faint);font-size:12px}
+  .onb-skip:hover{color:var(--text-muted)}
+  .onb-next{padding:12px 26px;background:var(--cobalt);color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:700;box-shadow:0 4px 18px rgba(29,95,171,.36);transition:transform .2s,background .2s}
+  .onb-next:hover{background:#1752A0;transform:translateY(-1px)}
+  .onb-final{text-align:center}
+  .onb-final .fmtn{width:100%;height:130px;display:block;margin:6px 0 18px}
+  .onb-dots{display:flex;gap:6px;justify-content:center;margin-top:18px}
+  .onb-dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.18)}
+  .onb-dots i.on{background:var(--gold)}
+
+  /* ═══ RESPONSIVE ═══ */
+  @media(max-width:980px){.learning-grid{grid-template-columns:repeat(2,1fr)}.help-quicklinks{grid-template-columns:1fr}}
+  @media(max-width:768px){
+    .portal-sidebar{width:100%;height:60px;top:auto;bottom:0;left:0;flex-direction:row;padding:0 4px;border-right:none;border-top:1px solid rgba(255,255,255,.06);overflow-x:auto}
+    .portal-content{margin-left:0;margin-bottom:60px;padding:22px 16px}
+    .sidebar-nav{flex-direction:row;flex:1;align-items:center}
+    .sidebar-item{flex-direction:column;gap:3px;padding:8px 12px;font-size:10px;margin:0;width:auto;border:none !important;background:none !important;flex:1;justify-content:center}
+    .sidebar-item.active{color:var(--gold)}.sidebar-item.active .sidebar-icon{color:var(--gold)}
+    .sidebar-icon{width:20px;height:20px}
+    .nav-section-label,.user-name,.user-trail,.sidebar-identity,.nav-badge,.nav-progress,.logout-item span{display:none}
+    .logout-item{flex:0 0 auto}
+    .pillars-grid,.journey-lower,.learning-grid,.cert-grid,.settings-layout{grid-template-columns:1fr}
+    .settings-subnav{flex-direction:row;overflow-x:auto}
+    .support-cta-block{flex-direction:column;align-items:flex-start}
+    .hero-readiness{padding:22px}
+    .module-header{flex-direction:column}.module-date{padding-top:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+
+<!-- ═══ TOP BAR ═══ -->
+<header class="portal-topbar">
+  <a class="tb-lockup" href="landing.html" aria-label="Metanoia Labs home">
+    <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lgT" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lgT)" stroke-width="1.7"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgT)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
+    <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+  </a>
+  <div class="position-pill"><span class="position-dot"></span><span id="posPill">Mid-Mountain · 72/100</span></div>
+  <div class="tb-right">
+    <button class="tb-bell" aria-label="Notifications"><span class="dot"></span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+    </button>
+    <div class="tb-user"><div class="tb-avatar" id="tbAvatar">M</div><span class="tb-name" id="tbName">Maverick</span></div>
+  </div>
+</header>
+
+<!-- ═══ SIDEBAR ═══ -->
+<aside class="portal-sidebar">
+  <div class="sidebar-identity">
+    <div class="user-avatar" id="sbAvatar">M</div>
+    <div><div class="user-name" id="sbName">Maverick</div><div class="user-trail" id="sbTrail">Fresh Graduate · Finance</div></div>
+  </div>
+  <nav class="sidebar-nav">
+    <span class="nav-section-label">My Climb</span>
+    <a href="#journey" class="sidebar-item active" data-module="journey">
+      <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20l6-14 4 8 3-5 5 11z" stroke-linejoin="round"/></svg>
+      <span>My Journey</span><span class="nav-badge">3</span></a>
+    <a href="#learning" class="sidebar-item" data-module="learning">
+      <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" stroke-linejoin="round"/><path d="M12 6v11"/></svg>
+      <span>My Learning</span><span class="nav-progress">40%</span></a>
+    <span class="nav-section-label" style="margin-top:20px">Account</span>
+    <a href="#settings" class="sidebar-item" data-module="settings">
+      <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 6.6 19l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H2a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 3.4 6.6l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H8a1.6 1.6 0 0 0 1-1.5V2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V8a1.6 1.6 0 0 0 1.5 1H22a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
+      <span>Settings</span></a>
+    <a href="#help" class="sidebar-item" data-module="help">
+      <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9.5"/><path d="M9.2 9a2.8 2.8 0 0 1 5.5.8c0 1.9-2.8 2.5-2.8 2.5" stroke-linecap="round"/><circle cx="12" cy="17" r="0.6" fill="currentColor" stroke="none"/></svg>
+      <span>Help Center</span></a>
+    <div style="flex:1"></div>
+    <button class="sidebar-item logout-item" onclick="handleLogout()">
+      <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>
+      <span>Sign Out</span></button>
+  </nav>
+</aside>
+
+<!-- ═══ MAIN CONTENT ═══ -->
+<main class="portal-content">
+
+  <!-- ── MODULE: MY JOURNEY ── -->
+  <section class="module active" id="module-journey">
+    <div class="module-header">
+      <div>
+        <h1 class="module-title">My Journey</h1>
+        <p class="module-sub">Good morning, <span id="greetName">Maverick</span>. You're at <strong>Mid-Mountain</strong>. Here's your route.</p>
+      </div>
+      <div class="module-date" id="todayDate">Sunday, 12 July 2026</div>
+    </div>
+
+    <div class="hero-readiness">
+      <div class="hero-dial">
+        <div id="heroDial"></div>
+        <div class="band">Mid-Mountain</div>
+      </div>
+      <div class="hero-body">
+        <div class="rt">Career Readiness · <span>Mid-Mountain</span></div>
+        <div class="hero-rule"></div>
+        <p>You're climbing well. Your <strong style="color:#fff">interview readiness</strong> is your highest strength — your steepest face right now is network capital.</p>
+        <div class="mtn-track" id="mtnTrack">
+          <div class="fill" style="width:52%"></div>
+          <div class="mtn-stop done"><i></i><span>Base Camp</span></div>
+          <div class="mtn-stop done"><i></i><span>First Ascent</span></div>
+          <div class="mtn-stop here"><i></i><span>Mid-Mountain</span></div>
+          <div class="mtn-stop"><i></i><span>High Camp</span></div>
+          <div class="mtn-stop"><i></i><span>Summit</span></div>
+        </div>
+        <div class="dim-mini">
+          <div class="d"><div class="l">Career Int. <b>73%</b></div><div class="tr"><div class="fl" style="width:73%"></div></div></div>
+          <div class="d"><div class="l">Profile Str. <b>60%</b></div><div class="tr"><div class="fl" style="width:60%"></div></div></div>
+          <div class="d"><div class="l">Interview <b>80%</b></div><div class="tr"><div class="fl" style="width:80%"></div></div></div>
+          <div class="d"><div class="l">Network <b>47%</b></div><div class="tr"><div class="fl" style="width:47%"></div></div></div>
+          <div class="d"><div class="l">Mindset <b>67%</b></div><div class="tr"><div class="fl" style="width:67%"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillars-grid">
+      <div class="pillar-card" data-pillar="map">
+        <div class="pillar-top">
+          <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="13" stroke="url(#pg)" stroke-width="2.6"/><path d="M20 9 L23 20 L20 19 L17 20 Z" fill="url(#pg)"/><path d="M20 31 L23 20 L20 21 L17 20 Z" fill="#8B6914"/></svg></div>
+          <div class="pillar-score">73<span>/100</span></div>
+        </div>
+        <h3 class="pillar-name">The Map</h3><p class="pillar-sub">Career Intelligence</p>
+        <div class="pillar-bar"><div class="pillar-fill" style="width:73%"></div></div>
+        <p class="pillar-next">Next: Research salary benchmarks for your target role →</p>
+      </div>
+      <div class="pillar-card" data-pillar="pack">
+        <div class="pillar-top">
+          <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><rect x="9" y="15" width="22" height="16" rx="2.5" fill="url(#pg)"/><rect x="9" y="15" width="22" height="3" rx="1.5" fill="url(#pgL)"/><path d="M16 15 v-2.5 a4 4 0 0 1 8 0 V15" stroke="url(#pg)" stroke-width="2.4"/></svg></div>
+          <div class="pillar-score">60<span>/100</span></div>
+        </div>
+        <h3 class="pillar-name">The Pack</h3><p class="pillar-sub">Profile Strength</p>
+        <div class="pillar-bar"><div class="pillar-fill" style="width:60%"></div></div>
+        <p class="pillar-next">Next: Add two quantified achievements to your CV →</p>
+      </div>
+      <div class="pillar-card" data-pillar="rope">
+        <div class="pillar-top">
+          <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M14 8 c-6 0 -9 5 -9 10 0 8 9 6 9 14" stroke="url(#pg)" stroke-width="2.6" stroke-linecap="round"/><path d="M26 32 c6 0 9 -5 9 -10 0 -8 -9 -6 -9 -14" stroke="url(#pg)" stroke-width="2.6" stroke-linecap="round"/></svg></div>
+          <div class="pillar-score">80<span>/100</span></div>
+        </div>
+        <h3 class="pillar-name">The Rope</h3><p class="pillar-sub">Interview Readiness</p>
+        <div class="pillar-bar"><div class="pillar-fill" style="width:80%"></div></div>
+        <p class="pillar-next">Next: Run a timed mock for behavioural questions →</p>
+      </div>
+      <div class="pillar-card" data-pillar="route">
+        <div class="pillar-top">
+          <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M6 30 L16 14 L22 22 L28 12 L34 30 Z" fill="url(#pg)"/><path d="M28 12 L31 18 L28 19 Z" fill="url(#pgL)"/></svg></div>
+          <div class="pillar-score">47<span>/100</span></div>
+        </div>
+        <h3 class="pillar-name">The Route</h3><p class="pillar-sub">Network Capital</p>
+        <div class="pillar-bar"><div class="pillar-fill" style="width:47%"></div></div>
+        <p class="pillar-next">Next: Build a peer practice pod this week →</p>
+      </div>
+    </div>
+
+    <div class="journey-lower">
+      <div class="next-action-card">
+        <div class="next-action-label"><span class="label-dot"></span>Your Next Move</div>
+        <h3 class="next-action-title">Build your peer practice pod this week</h3>
+        <p class="next-action-desc">Network Capital is your lowest-scoring dimension at 47/100. The fastest way to close this gap is to join or form a structured practice group — three peers at your level, meeting twice weekly.</p>
+        <div class="next-action-time">⏱ 30 minutes to set up</div>
+        <button class="btn-action-primary" onclick="showModule('learning')">Start This →</button>
+        <button class="btn-action-ghost">Skip for now</button>
+      </div>
+
+      <div class="route-card">
+        <div class="route-header"><h3>90-Day Route</h3><span class="route-day">Day 14 of 90</span></div>
+        <div class="route-phase active">
+          <div class="phase-label cobalt">Month 1 · Foundation</div>
+          <div class="route-milestone done"><div class="milestone-dot done"></div><span>Career diagnostic completed</span></div>
+          <div class="route-milestone done"><div class="milestone-dot done"></div><span>CV uploaded for review</span></div>
+          <div class="route-milestone current"><div class="milestone-dot current"></div><span>Build peer practice pod ← You are here</span></div>
+          <div class="route-milestone"><div class="milestone-dot"></div><span>Complete first mock interview</span></div>
+        </div>
+        <div class="route-phase collapsed">
+          <div class="phase-label teal">Month 2 · Activation</div>
+          <div class="phase-preview">5 milestones · unlocks Day 31</div>
+        </div>
+        <div class="route-phase collapsed">
+          <div class="phase-label forest">Month 3 · Execution</div>
+          <div class="phase-preview">6 milestones · unlocks Day 61</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MODULE: MY LEARNING ── -->
+  <section class="module" id="module-learning">
+    <div class="module-header"><div>
+      <h1 class="module-title">My Learning</h1>
+      <p class="module-sub">Your pack — every tool, program, and resource for the climb.</p>
+    </div></div>
+    <div class="tab-row" id="learnTabs">
+      <button class="tab active" data-tab="all">All</button>
+      <button class="tab" data-tab="progress">In Progress</button>
+      <button class="tab" data-tab="completed">Completed</button>
+      <button class="tab" data-tab="recommended">Recommended</button>
+      <button class="tab" data-tab="certificates">Certificates</button>
+    </div>
+
+    <div class="learning-grid" id="learnGrid">
+      <div class="learning-card" data-state="progress">
+        <div class="lc-header cobalt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
+        <div class="lc-body"><div class="lc-category">The Map · Career Intelligence</div>
+          <h3 class="lc-title">How ATS Actually Works</h3>
+          <p class="lc-desc">Understand how your CV is screened before a human ever reads it — and how to pass every filter.</p>
+          <div class="lc-meta"><span>📖 12 lessons</span><span>⏱ 45 min</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:65%"></div></div>
+          <div class="lc-progress-label">65% complete</div></div>
+        <button class="lc-cta">Continue →</button>
+      </div>
+
+      <div class="learning-card" data-state="progress">
+        <div class="lc-header teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z" stroke-linejoin="round"/><path d="M12 12v9M12 12L4 7.5M12 12l8-4.5"/></svg></div>
+        <div class="lc-body"><div class="lc-category">The Pack · Profile Strength</div>
+          <h3 class="lc-title">The Quantified CV</h3>
+          <p class="lc-desc">Turn responsibilities into results. Rewrite every bullet around numbers recruiters actually scan for.</p>
+          <div class="lc-meta"><span>📖 8 lessons</span><span>⏱ 30 min</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:25%"></div></div>
+          <div class="lc-progress-label">25% complete</div></div>
+        <button class="lc-cta">Continue →</button>
+      </div>
+
+      <div class="learning-card completed" data-state="completed">
+        <div class="lc-completed-badge">✓ Completed</div>
+        <div class="lc-header gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/><path d="M8.5 13.5L7 22l5-3 5 3-1.5-8.5"/></svg></div>
+        <div class="lc-body"><div class="lc-category">The Rope · Interview Readiness</div>
+          <h3 class="lc-title">STAR Story Bank</h3>
+          <p class="lc-desc">Build ten adaptable STAR stories mapped to the competencies interviewers score you on.</p>
+          <div class="lc-meta"><span>📖 10 lessons</span><span>⏱ 40 min</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:100%"></div></div>
+          <div class="lc-progress-label">100% complete</div></div>
+        <button class="lc-cta secondary">View Certificate</button>
+      </div>
+
+      <div class="learning-card" data-state="recommended">
+        <div class="lc-header cobalt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+        <div class="lc-body"><div class="lc-category">The Route · Network Capital</div>
+          <h3 class="lc-title">Building Your Rope Team</h3>
+          <p class="lc-desc">Form a structured peer pod and turn weekly practice into referrals and offers.</p>
+          <div class="lc-meta"><span>📖 6 lessons</span><span>⏱ 25 min</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
+          <div class="lc-progress-label">Recommended for you</div></div>
+        <button class="lc-cta">Start →</button>
+      </div>
+
+      <div class="learning-card" data-state="recommended">
+        <div class="lc-header teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <div class="lc-body"><div class="lc-category">The Map · Career Intelligence</div>
+          <h3 class="lc-title">Salary Negotiation Playbook</h3>
+          <p class="lc-desc">Walk into every offer with a floor, a target, and a stretch number — and the script to defend them.</p>
+          <div class="lc-meta"><span>📖 7 lessons</span><span>⏱ 35 min</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
+          <div class="lc-progress-label">Recommended for you</div></div>
+        <button class="lc-cta">Start →</button>
+      </div>
+
+      <div class="learning-card locked" data-state="recommended">
+        <div class="lc-locked-overlay"><span>🔒 Complete Month 1 milestones to unlock</span></div>
+        <div class="lc-header gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20l8-4 8 4V6l-8-4-8 4z" stroke-linejoin="round"/></svg></div>
+        <div class="lc-body"><div class="lc-category">Simulation · Finance</div>
+          <h3 class="lc-title">Investment Analyst Simulation</h3>
+          <p class="lc-desc">A structured virtual work experience co-created with an employer partner. Real tasks, employer-graded.</p>
+          <div class="lc-meta"><span>📖 4 modules</span><span>⏱ 3 hours</span></div>
+          <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
+          <div class="lc-progress-label">Locked</div></div>
+        <button class="lc-cta">Locked</button>
+      </div>
+    </div>
+
+    <div class="cert-grid" id="certGrid" style="display:none">
+      <div class="cert-card">
+        <div class="cert-emblem"><svg width="26" height="26" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="17" stroke="#C9A84C" stroke-width="1.6"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#C9A84C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="cert-star">★</div></div>
+        <div class="cert-body"><div class="cert-issued">Certificate of Completion</div><h3 class="cert-name">STAR Story Bank</h3><div class="cert-date">Issued 5 July 2026</div></div>
+        <button class="cert-download">↓ Download</button>
+      </div>
+      <div class="cert-card">
+        <div class="cert-emblem"><svg width="26" height="26" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="17" stroke="#C9A84C" stroke-width="1.6"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#C9A84C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="cert-star">★</div></div>
+        <div class="cert-body"><div class="cert-issued">Certificate of Completion</div><h3 class="cert-name">ATS Mastery Program</h3><div class="cert-date">Issued 28 June 2026</div></div>
+        <button class="cert-download">↓ Download</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MODULE: SETTINGS ── -->
+  <section class="module" id="module-settings">
+    <div class="module-header"><div>
+      <h1 class="module-title">Settings</h1>
+      <p class="module-sub">Manage your account, your target, and how Metanoia works for you.</p>
+    </div></div>
+    <div class="settings-layout">
+      <div class="settings-subnav" id="setSubnav">
+        <button class="subnav-item active" data-set="profile">Profile</button>
+        <button class="subnav-item" data-set="target">Career Target</button>
+        <button class="subnav-item" data-set="notifications">Notifications</button>
+        <button class="subnav-item" data-set="language">Language &amp; Region</button>
+        <button class="subnav-item" data-set="privacy">Privacy &amp; Data</button>
+        <button class="subnav-item" data-set="subscription">Subscription</button>
+      </div>
+      <div class="settings-panel" id="setPanel"><!-- filled by JS --></div>
+    </div>
+  </section>
+
+  <!-- ── MODULE: HELP ── -->
+  <section class="module" id="module-help">
+    <div class="module-header"><div>
+      <h1 class="module-title">Help Center</h1>
+      <p class="module-sub">Answers, guides, and a team that climbs with you.</p>
+    </div></div>
+    <div class="help-search-wrap">
+      <svg class="help-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" class="help-search" id="helpSearch" placeholder="Search for help…">
+    </div>
+    <div class="help-quicklinks">
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z" stroke-linejoin="round"/><path d="M9 3v15M15 6v15"/></svg><span>Getting Started Guide</span></div>
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg><span>Platform Walkthrough</span></div>
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Assessment Guide</span></div>
+    </div>
+
+    <h2 class="help-section-title">Frequently Asked Questions</h2>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item"><button class="faq-question">How does the Career Map Assessment work?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div>The Career Map Assessment is a 25-question diagnostic across five dimensions: Career Intelligence, Profile Strength, Interview Readiness, Network Capital, and Career Mindset. It takes approximately 15 minutes and generates a personalized readiness score and 90-day action plan.</div></div></div>
+      <div class="faq-item"><button class="faq-question">Is Metanoia Labs free to use?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div>Yes — the core platform including the Career Map, peer matching, community access, and foundational learning modules is completely free for job seekers. Premium features (advanced AI coaching, priority mentor access, verified employer simulations) are available on the Premium Trail plan.</div></div></div>
+      <div class="faq-item"><button class="faq-question">How is my data used and protected?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div>Your data is stored securely and never sold to third parties. We use your career profile data only to personalize your experience on the platform. You can export or delete your data at any time from Settings → Privacy &amp; Data. We comply with Indonesia's Personal Data Protection Law (PDP Law).</div></div></div>
+      <div class="faq-item"><button class="faq-question">What is the difference between a Metanoia simulation and a regular course?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div>A Metanoia simulation is a structured virtual work experience co-created with an employer partner. You complete real tasks that the company uses in its actual work, assessed against the employer's standards. A simulation completion certificate is employer-acknowledged — it signals capability, not just course completion. Regular courses build knowledge; simulations demonstrate it.</div></div></div>
+      <div class="faq-item"><button class="faq-question">How do I retake the Career Map Assessment?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div>Go to Settings → Career Target and click "Retake Career Map Assessment." You can retake it every 30 days. Your new scores will update your readiness dashboard and 90-day route.</div></div></div>
+    </div>
+
+    <div class="support-cta-block">
+      <div class="support-cta-left">
+        <div class="support-avatar-group">
+          <div class="support-avatar" style="background:#1D5FAB">A</div>
+          <div class="support-avatar" style="background:#0D7377">B</div>
+          <div class="support-avatar" style="background:#C9A84C;color:#050A12">C</div>
+        </div>
+        <div class="support-text"><h3>Need additional support?</h3>
+          <p>The Metanoia Team is here to help with any questions or challenges you may have. We typically respond within one business day.</p></div>
+      </div>
+      <div class="support-actions">
+        <a href="mailto:hello@metanoialabs.id" class="btn-support-primary">Email the Team →</a>
+        <a href="#" class="btn-support-ghost">WhatsApp Support</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- shared gradient defs for pillar icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F0D878"/><stop offset="45%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#8B6914"/></linearGradient>
+  <linearGradient id="pgL" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F8E898"/><stop offset="100%" stop-color="#C9A84C"/></linearGradient>
+</defs></svg>
+
+<!-- ═══ ONBOARDING MODAL ═══ -->
+<div class="onb-veil" id="onbVeil">
+  <div class="onb-card">
+    <div class="onb-step" id="onbStep">Step 1 of 3</div>
+    <div id="onbContent"></div>
+    <div class="onb-dots" id="onbDots"><i class="on"></i><i></i><i></i></div>
+  </div>
+</div>
+
+<script>
+(() => {
+'use strict';
+/* ═══════════════════════════════════════════════════════════════
+   SESSION GUARD (mock) — replace with Supabase:
+     const { data:{ session } } = await supabase.auth.getSession()
+     if(!session) location.href='login.html'
+   ═══════════════════════════════════════════════════════════════ */
+function getSession(){ try{ return JSON.parse(localStorage.getItem('metanoia_session')||'null'); }catch(e){ return null; } }
+let session = getSession();
+if(!session){
+  // demo fallback: allow direct preview without forcing login, but seed a guest so UI is populated
+  session = { name:'Maverick', email:'guest@metanoia.demo', provider:'demo', guest:true };
+}
+const firstName = (session.name||'Climber').split(' ')[0];
+const initial = firstName.charAt(0).toUpperCase();
+['tbName','sbName','greetName'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=firstName; });
+['tbAvatar','sbAvatar'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=initial; });
+
+// today's date
+try{ document.getElementById('todayDate').textContent =
+  new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }catch(e){}
+
+/* ── SVG score dial (crisp, brand cobalt→teal) ── */
+function svgDial(t,size){
+  const r=size*0.4, C=2*Math.PI*r, track=C*0.75, off=C*(1-0.75*t/100), cx=size/2;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <defs><linearGradient id="dialg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1D5FAB"/><stop offset="100%" stop-color="#0D7377"/></linearGradient></defs>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="${size*.06}" stroke-dasharray="${C}" stroke-dashoffset="${C-track}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="url(#dialg)" stroke-width="${size*.06}" stroke-dasharray="${C}" stroke-dashoffset="${off}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
+    <text x="${cx}" y="${cx*0.98}" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-size="${size*.26}" font-weight="800" font-family="Inter,sans-serif">${t}</text>
+    <text x="${cx}" y="${cx+size*.17}" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="${size*.09}" font-family="Inter,sans-serif">/ 100</text></svg>`;
+}
+document.getElementById('heroDial').innerHTML = svgDial(72,120);
+
+/* ═══ MODULE SWITCHING ═══ */
+const modules = ['journey','learning','settings','help'];
+window.showModule = function(id){
+  modules.forEach(m=>{
+    document.getElementById('module-'+m).classList.toggle('active', m===id);
+    document.querySelector('.sidebar-item[data-module="'+m+'"]')?.classList.toggle('active', m===id);
+  });
+  document.querySelector('.portal-content').scrollTop = 0;
+  window.scrollTo(0,0);
+};
+document.querySelectorAll('.sidebar-item[data-module]').forEach(item=>{
+  item.addEventListener('click', e=>{ e.preventDefault(); showModule(item.dataset.module); });
+});
+
+/* ═══ LEARNING tabs ═══ */
+const learnGrid=document.getElementById('learnGrid'), certGrid=document.getElementById('certGrid');
+document.querySelectorAll('#learnTabs .tab').forEach(tab=>{
+  tab.addEventListener('click', ()=>{
+    document.querySelectorAll('#learnTabs .tab').forEach(t=>t.classList.remove('active'));
+    tab.classList.add('active');
+    const f=tab.dataset.tab;
+    if(f==='certificates'){ learnGrid.style.display='none'; certGrid.style.display='grid'; return; }
+    learnGrid.style.display='grid'; certGrid.style.display='none';
+    learnGrid.querySelectorAll('.learning-card').forEach(c=>{
+      c.style.display = (f==='all' || c.dataset.state===f) ? 'flex' : 'none';
+    });
+  });
+});
+
+/* ═══ SETTINGS panels ═══ */
+const P = {
+  profile:`<h3>Profile</h3><p class="ph-sub">This is how you appear across Metanoia.</p>
+    <div class="photo-up"><div class="photo-circle">${initial}</div><div><div class="up-link" style="cursor:pointer">Upload a photo</div><div class="up-note">PNG or JPG, up to 2MB.</div></div></div>
+    <div class="set-row2"><div class="set-field"><label>First name</label><input class="set-input" value="${firstName}"></div>
+      <div class="set-field"><label>Last name</label><input class="set-input" placeholder="Your last name"></div></div>
+    <div class="set-field"><label>Email ${session.provider&&session.provider!=='email'&&session.provider!=='demo'?'<span class="managed-badge">Managed by '+session.provider.charAt(0).toUpperCase()+session.provider.slice(1)+'</span>':''}</label>
+      <input class="set-input" value="${session.email||''}" ${session.provider&&session.provider!=='email'&&session.provider!=='demo'?'readonly':''}></div>
+    <div class="set-row2"><div class="set-field"><label>Phone / WhatsApp (optional)</label><input class="set-input" placeholder="+62…"></div>
+      <div class="set-field"><label>Year of graduation</label><input class="set-input" placeholder="2025"></div></div>
+    <div class="set-field"><label>University / Institution</label><input class="set-input" placeholder="e.g., Universitas Indonesia"></div>
+    <button class="btn-save">Save Changes</button>`,
+  target:`<h3>Career Target</h3><p class="ph-sub">The clearer your target, the sharper your route.</p>
+    <div class="set-field"><label>Target role</label><input class="set-input" value="Financial Analyst"></div>
+    <div class="set-field"><label>Target industry</label><select class="set-select"><option>Finance / Banking / Investment</option><option>Technology / Digital / Product</option><option>Government / Public Sector / State-Owned Enterprise (SOE/BUMN)</option><option>Consulting / Strategy</option><option>Marketing / Communications</option></select></div>
+    <div class="set-field"><label>Target company type</label><div class="chip-select">
+      <button class="sel-chip on">State-Owned Enterprise (SOE/BUMN)</button><button class="sel-chip">Multinational</button><button class="sel-chip on">Big 4</button><button class="sel-chip">Startup</button><button class="sel-chip">Government</button></div></div>
+    <div class="set-row2"><div class="set-field"><label>Target location</label><select class="set-select"><option>Jakarta</option><option>Remote</option><option>Open to relocate</option></select></div>
+      <div class="set-field"><label>Expected start date</label><input class="set-input" type="month" value="2026-09"></div></div>
+    <div class="set-field"><label>Current readiness</label><div class="readonly-score"><b>72</b><span style="color:var(--text-muted);font-size:12.5px">/ 100 · Mid-Mountain — from your latest Career Map Assessment</span></div></div>
+    <a href="career-map-assessment.html" class="btn-ghost-set" style="display:inline-block;text-decoration:none;margin-top:6px">Retake Career Map Assessment</a>
+    <div class="set-note">This will update your scores and 90-day route. You can retake every 30 days.</div>`,
+  notifications:`<h3>Notifications</h3><p class="ph-sub">Choose what reaches you, and how.</p>
+    ${['Weekly route check-in email','New milestone unlocked','Peer pod activity','Mentor replies','Product updates from the mountain'].map((t,i)=>`<label class="terms-row" style="margin-bottom:14px;color:var(--text-sub)"><input type="checkbox" ${i<3?'checked':''} style="accent-color:var(--cobalt)"> ${t}</label>`).join('')}
+    <button class="btn-save">Save Preferences</button>`,
+  language:`<h3>Language &amp; Region</h3><p class="ph-sub">Metanoia speaks your language.</p>
+    <div class="set-field"><label>Language</label><div class="toggle-lang"><button class="on">English</button><button>Bahasa Indonesia</button></div></div>
+    <div class="set-field"><label>Date format</label><select class="set-select"><option>DD Month YYYY (12 July 2026)</option><option>MM/DD/YYYY</option><option>YYYY-MM-DD</option></select></div>
+    <div class="set-field"><label>Currency display</label><div class="toggle-lang"><button class="on">IDR (Rp)</button><button>USD ($)</button></div></div>
+    <button class="btn-save">Save</button>`,
+  privacy:`<h3>Privacy &amp; Data</h3><p class="ph-sub">Your climb, your data. Always yours.</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin:0 0 18px">We store your data securely and never sell it to third parties. We comply with Indonesia's Personal Data Protection Law (PDP Law).</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn-ghost-set">Export my data</button><button class="btn-ghost-set" style="border-color:rgba(239,68,68,.3);color:#F87171">Delete my account</button></div>`,
+  subscription:`<h3>Subscription</h3><p class="ph-sub">You're on the free trail — and always can be.</p>
+    <div class="plan-box"><div class="plan-name">Free Climber</div>
+      <ul class="plan-feat">
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Career Map assessment &amp; 90-day route</li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Peer matching &amp; community access</li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Foundational learning modules</li>
+      </ul></div>
+    <button class="btn-save" style="background:var(--cobalt)">Unlock Premium Trail</button>
+    <h3 style="font-size:14px;margin:24px 0 10px">Billing history</h3>
+    <div class="empty-state">No transactions yet.</div>`,
+};
+const setPanel=document.getElementById('setPanel');
+function renderSet(key){ setPanel.innerHTML=P[key]||''; }
+renderSet('profile');
+document.querySelectorAll('#setSubnav .subnav-item').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    document.querySelectorAll('#setSubnav .subnav-item').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active'); renderSet(b.dataset.set);
+    // chip toggles inside target panel
+    setPanel.querySelectorAll('.sel-chip').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+    setPanel.querySelectorAll('.toggle-lang button').forEach(bt=>bt.addEventListener('click',()=>{ bt.parentElement.querySelectorAll('button').forEach(x=>x.classList.remove('on')); bt.classList.add('on'); }));
+  });
+});
+
+/* ═══ FAQ accordion ═══ */
+document.querySelectorAll('#faqList .faq-question').forEach(q=>{
+  q.addEventListener('click', ()=>{ q.parentElement.classList.toggle('open'); });
+});
+/* help search: filter FAQ */
+document.getElementById('helpSearch').addEventListener('input', e=>{
+  const q=e.target.value.toLowerCase();
+  document.querySelectorAll('#faqList .faq-item').forEach(it=>{
+    it.style.display = it.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+});
+
+/* ═══ LOGOUT ═══ */
+window.handleLogout = function(){ localStorage.removeItem('metanoia_session'); location.href='login.html'; };
+
+/* ═══ ONBOARDING (first-time via ?onboarding=true) ═══ */
+const onbVeil=document.getElementById('onbVeil'), onbContent=document.getElementById('onbContent'),
+      onbStepEl=document.getElementById('onbStep'), onbDots=document.getElementById('onbDots');
+let onbStep=1;
+function paintOnb(){
+  onbStepEl.textContent='Step '+onbStep+' of 3';
+  [...onbDots.children].forEach((d,i)=>d.classList.toggle('on', i<onbStep));
+  if(onbStep===1){
+    onbContent.innerHTML=`<h2>Welcome to Basecamp, ${firstName}.<br>Before we plot your route, tell us where you're headed.</h2>
+      <div class="onb-body">
+        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">Target role</label><input class="set-input" id="onbRole" placeholder="e.g., Financial Analyst"></div>
+        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">Target industry</label>
+          <select class="set-select" id="onbInd"><option>Finance / Banking / Investment</option><option>Technology / Digital / Product</option><option>Government / Public Sector / SOE (BUMN)</option><option>Consulting / Strategy</option><option>Marketing / Communications</option></select></div>
+      </div>
+      <div class="onb-actions"><button class="onb-skip" onclick="onbSkip()">Skip for now</button><button class="onb-next" onclick="onbNext()">Continue →</button></div>`;
+  } else if(onbStep===2){
+    onbContent.innerHTML=`<h2>Have you taken the Career Map Assessment yet?</h2>
+      <div class="onb-body">
+        <button class="onb-opt" onclick="onbNext()">Yes, let me see my results<small>We'll load your scores into your basecamp.</small></button>
+        <a class="onb-opt" href="career-map-assessment.html" style="text-decoration:none;display:block">Not yet — take it now<small>15 minutes · five dimensions · your honest starting point.</small></a>
+        <button class="onb-opt" onclick="onbNext()">Skip for now — I'll explore first<small>You can take it anytime from your dashboard.</small></button>
+      </div>
+      <div class="onb-actions"><button class="onb-skip" onclick="onbBack()">← Back</button><span></span></div>`;
+  } else {
+    onbContent.innerHTML=`<div class="onb-final">
+      <h2>Your basecamp is ready.</h2>
+      <svg class="fmtn" viewBox="0 0 400 130" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+        <defs><linearGradient id="odawn" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#F59E0B" stop-opacity=".28"/><stop offset="100%" stop-color="#B45309" stop-opacity="0"/></linearGradient></defs>
+        <ellipse cx="200" cy="130" rx="190" ry="90" fill="url(#odawn)"/>
+        <path d="M0 130 L80 70 L130 130 Z" fill="#101C2E"/><path d="M260 130 L330 78 L400 130 Z" fill="#101C2E"/>
+        <path d="M90 130 L200 40 L310 130 Z" fill="#16233A"/>
+        <circle cx="200" cy="40" r="4.5" fill="#1D5FAB"/><circle cx="200" cy="40" r="2.4" fill="#F0D878"/></svg>
+      <p style="color:var(--text-muted);font-size:.92rem;margin:0 0 4px">Everything your career needs, in one place. Let's begin.</p>
+      <div class="onb-actions" style="justify-content:center;margin-top:20px"><button class="onb-next" onclick="onbDone()">Enter Your Portal →</button></div></div>`;
+  }
+}
+window.onbNext=()=>{ onbStep=Math.min(3,onbStep+1); paintOnb(); };
+window.onbBack=()=>{ onbStep=Math.max(1,onbStep-1); paintOnb(); };
+window.onbSkip=()=>onbDone();
+window.onbDone=()=>{ onbVeil.classList.remove('show'); try{ localStorage.setItem('metanoia_onboarded','1'); }catch(e){} history.replaceState(null,'','portal.html'); };
+if(new URLSearchParams(location.search).get('onboarding')==='true'){ paintOnb(); onbVeil.classList.add('show'); }
+})();
+</script>
+</body>
+</html>
