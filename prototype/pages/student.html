@@ -1113,11 +1113,14 @@ sheet.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>sheet.cla
 const vid = document.getElementById('heroVideo');
 const fallback = document.getElementById('heroFallback');
 function showFallback(){ fallback.classList.add('show'); vid.style.display='none'; }
+function showVideo(){ fallback.classList.remove('show'); vid.style.display=''; }
 if(vid){
   vid.addEventListener('error', showFallback);
   const src = vid.querySelector('source');
   if(src) src.addEventListener('error', showFallback);
-  // source-load failures don't always bubble; verify readiness after a beat
+  // slow networks: hold the still until the video can actually play,
+  // then hand back to the film
+  vid.addEventListener('canplay', showVideo);
   setTimeout(()=>{ if(vid.readyState < 2) showFallback(); }, 1800);
 }
 
