@@ -111,41 +111,103 @@
   .scroll-text{font-size:9px;letter-spacing:.20em;text-transform:uppercase;color:var(--text-faint)}
   @keyframes scrollPulse{0%,100%{opacity:.4}50%{opacity:1}}
 
-  /* ═══ SECTION 2 — THE REALIZATION ═══ */
+  /* ═══ SECTION 2 — THE REALIZATION (editorial redesign) ═══ */
   .realization-section{background:var(--bg-base);padding:120px 0;position:relative;overflow:hidden}
   .realization-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
-  .realization-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
-  .realization-headline{font-size:clamp(1.8rem,3.2vw,2.6rem);font-weight:800;color:var(--text);line-height:1.2;
-    margin:0 0 32px;letter-spacing:-.01em}
+  .realization-section::after{content:'';position:absolute;top:-140px;left:-160px;width:560px;height:560px;
+    background:radial-gradient(circle,rgba(201,168,76,.05) 0%,transparent 65%);pointer-events:none}
+  .realization-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:start}
+  .realization-headline{font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:800;color:var(--text);line-height:1.18;
+    margin:0 0 30px;letter-spacing:-.015em}
   .realization-headline em{font-style:italic;color:var(--gold)}
-  .realization-body p{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0 0 18px}
-  .realization-quote{margin:36px 0 0;padding:24px 28px;background:var(--glass-bg);border:1px solid var(--gold-border);
-    border-left:3px solid var(--gold);border-radius:12px;backdrop-filter:var(--glass-blur);position:relative}
-  .quote-mark{position:absolute;top:-8px;left:20px;font-size:48px;color:var(--gold);line-height:1;
-    font-family:Georgia,serif;opacity:.7}
-  .realization-quote p{font-size:16px;color:var(--text-sub);line-height:1.6;font-style:italic;margin:0}
-  .university-timeline{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:20px;
-    padding:36px 32px;backdrop-filter:var(--glass-blur)}
-  .timeline-header{font-size:10px;font-weight:700;letter-spacing:.20em;text-transform:uppercase;color:var(--gold);
-    margin-bottom:32px;text-align:center}
+  .realization-body p{font-size:15px;color:var(--text-muted);line-height:1.8;margin:0 0 18px}
+  .realization-body p.lead-statement{font-size:16px;font-weight:700;color:var(--gold);line-height:1.65}
+  .realization-quote{margin:36px 0 0;padding:28px 30px 26px;background:var(--glass-bg);border:1px solid var(--gold-border);
+    border-left:3px solid var(--gold);border-radius:14px;backdrop-filter:var(--glass-blur);position:relative}
+  .quote-mark{position:absolute;top:-10px;left:22px;font-size:52px;color:var(--gold);line-height:1;
+    font-family:Georgia,serif;opacity:.75}
+  .realization-quote p{font-size:16.5px;color:var(--text-sub);line-height:1.65;font-style:italic;margin:0}
+
+  /* — journey timeline (right column) — */
+  .university-timeline{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:22px;
+    padding:34px 30px 30px;backdrop-filter:var(--glass-blur);position:relative;overflow:hidden}
+  .university-timeline::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent)}
+  .timeline-header{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);
+    margin-bottom:30px;text-align:center;line-height:1.7}
   .timeline-track{display:flex;flex-direction:column}
-  .timeline-year{display:flex;gap:16px;align-items:flex-start}
-  .year-dot{width:12px;height:12px;border-radius:50%;border:2px solid rgba(180,140,60,.35);background:var(--bg-dark);
-    flex-shrink:0;margin-top:3px;transition:all .3s}
-  .year-dot.active{background:var(--gold);border-color:var(--gold);box-shadow:0 0 10px rgba(201,168,76,.5)}
-  .year-label{font-size:12px;font-weight:700;color:var(--text);margin-bottom:6px}
-  .year-actions span{display:block;font-size:11px;color:var(--text-faint);line-height:1.5;margin-bottom:2px}
-  .timeline-connector{width:1px;height:24px;background:rgba(180,140,60,.20);margin-left:5px}
-  .timeline-graduation{display:flex;gap:16px;align-items:flex-start;margin-top:4px}
-  .grad-dot{width:16px;height:16px;border-radius:50%;background:linear-gradient(135deg,var(--gold-deep),var(--gold));
-    box-shadow:0 0 14px rgba(201,168,76,.55);flex-shrink:0;margin-top:2px}
-  .grad-label{font-size:13px;font-weight:800;color:var(--gold);margin-bottom:10px}
-  .grad-contrast{display:flex;flex-direction:column;gap:6px}
-  .grad-path{font-size:11px;padding:6px 10px;border-radius:6px;font-weight:600}
-  .grad-path.prepared{background:rgba(13,115,119,.15);border:1px solid rgba(13,115,119,.30);color:#4ECDC4}
-  .grad-path.unprepared{background:rgba(155,35,53,.12);border:1px solid rgba(155,35,53,.25);color:rgba(255,255,255,.40);
-    text-decoration:line-through;text-decoration-color:rgba(155,35,53,.5)}
+  .timeline-year{display:flex;gap:18px;align-items:flex-start}
+  .stage-badge{flex:none;width:46px;height:46px;border-radius:50%;background:rgba(201,168,76,.06);
+    border:1px solid rgba(180,140,60,.32);display:flex;align-items:center;justify-content:center;
+    transition:box-shadow .45s ease,border-color .45s ease,background .45s ease}
+  .stage-badge svg{width:22px;height:22px;display:block}
+  .stage-badge.active{border-color:rgba(201,168,76,.65);background:rgba(201,168,76,.12);
+    box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .stage-kicker{font-size:9px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:3px}
+  .year-label{font-size:16px;font-weight:800;color:var(--text);margin-bottom:6px;letter-spacing:-.01em}
+  .year-actions span{display:block;font-size:11.5px;color:var(--text-faint);line-height:1.55;margin-bottom:2px}
+  .timeline-connector{width:2px;height:30px;margin-left:22px;border-radius:2px;position:relative;
+    background:linear-gradient(180deg,rgba(201,168,76,.45),rgba(201,168,76,.15))}
+  .timeline-connector::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    width:5px;height:5px;border-radius:50%;background:var(--gold);opacity:.7}
+  .timeline-graduation{display:flex;gap:18px;align-items:flex-start;margin-top:0}
+  .grad-badge{flex:none;width:52px;height:52px;margin-left:-3px;border-radius:50%;
+    background:linear-gradient(135deg,rgba(139,105,20,.4),rgba(201,168,76,.22));
+    border:1px solid rgba(201,168,76,.6);display:flex;align-items:center;justify-content:center;
+    box-shadow:0 0 22px rgba(201,168,76,.35)}
+  .grad-badge svg{width:24px;height:24px;display:block}
+  .grad-label{font-size:16px;font-weight:800;color:var(--gold);margin-bottom:6px;letter-spacing:-.01em}
+  .grad-lines span{display:block;font-size:11.5px;color:var(--text-faint);line-height:1.55;margin-bottom:2px}
+  .grad-lines b{color:var(--text);font-weight:700}
+
+  /* — two paths comparison — */
+  .paths-compare{margin-top:88px}
+  .compare-eyebrow{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:40px;
+    font-size:10px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)}
+  .compare-eyebrow i{width:32px;height:1px;background:rgba(255,255,255,.2);font-style:normal}
+  .compare-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:22px;align-items:stretch}
+  .compare-card{border-radius:20px;padding:30px 30px 32px;position:relative;overflow:hidden}
+  .compare-card.without{background:var(--glass-bg);border:1px solid rgba(255,255,255,.08)}
+  .compare-card.with{background:linear-gradient(135deg,rgba(201,168,76,.10) 0%,var(--glass-bg) 70%);
+    border:1px solid rgba(201,168,76,.28);box-shadow:0 0 44px rgba(201,168,76,.06)}
+  .compare-head{display:flex;align-items:center;justify-content:center;gap:9px;font-size:11px;font-weight:800;
+    letter-spacing:.18em;text-transform:uppercase;margin-bottom:4px}
+  .compare-card.without .compare-head{color:#E27D8B}
+  .compare-card.with .compare-head{color:#7FCF9B}
+  .compare-sub{text-align:center;font-size:12px;color:var(--text-faint);margin:0 0 24px}
+  .cv-mock{background:rgba(235,237,240,.94);border-radius:10px;padding:16px 16px 14px;max-width:250px;margin:0 auto 20px}
+  .cv-mock .cv-top{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+  .cv-mock .cv-ava{width:30px;height:30px;border-radius:50%;background:#AEB6C2;flex:none}
+  .cv-mock .cv-bar{height:6px;border-radius:3px;background:#C3CAD4;margin-bottom:5px}
+  .cv-mock ul{list-style:none;margin:0;padding:0}
+  .cv-mock li{font-size:11px;color:#5A6474;padding:4px 0 4px 13px;position:relative;border-top:1px solid #DDE1E7}
+  .cv-mock li::before{content:'•';position:absolute;left:2px;color:#9AA3B0}
+  .with-list{list-style:none;margin:0 auto 20px;padding:14px 18px;max-width:300px;background:rgba(8,14,26,.55);
+    border:1px solid rgba(201,168,76,.22);border-radius:12px}
+  .with-list li{display:flex;gap:9px;align-items:flex-start;font-size:12px;color:var(--text-sub);padding:4.5px 0}
+  .with-list li svg{flex:none;margin-top:2px}
+  .with-stars{display:flex;gap:3px;justify-content:center;margin:2px 0 18px}
+  .compare-verdict{text-align:center;font-size:13px;line-height:1.6;margin:0 0 18px}
+  .compare-card.without .compare-verdict{color:var(--text-muted)}
+  .compare-card.with .compare-verdict{color:var(--gold);font-weight:700}
+  .crowd{display:block;margin:0 auto}
+  .vs-medal{align-self:center;width:58px;height:58px;border-radius:50%;background:var(--glass-bg-heavy);
+    border:1px solid rgba(201,168,76,.35);display:flex;align-items:center;justify-content:center;
+    font-size:14px;font-weight:800;letter-spacing:.06em;color:var(--gold);box-shadow:0 0 26px rgba(201,168,76,.18)}
+
+  /* — closing strip — */
+  .realize-close{margin-top:56px;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;
+    background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:20px;padding:36px 40px;
+    backdrop-filter:var(--glass-blur);position:relative;overflow:hidden}
+  .realize-close::before{content:'';position:absolute;top:0;left:16%;right:16%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent)}
+  .realize-close .close-text{font-size:16.5px;line-height:1.65;color:var(--text-sub);margin:0}
+  .realize-close .close-text b{display:block;margin-top:8px;color:var(--gold);font-weight:800}
+  .close-icons{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;text-align:center}
+  .close-icons svg{width:26px;height:26px;display:block;margin:0 auto 9px}
+  .close-icons span{display:block;font-size:10.5px;color:var(--text-faint);line-height:1.5}
+  .close-icons b{display:block;font-size:10.5px;color:var(--text-sub);font-weight:700;line-height:1.5}
 
   /* ═══ SECTION 3 — CAREER OS ═══ */
   .career-os-section{background:var(--bg-dark);padding:120px 0;position:relative;overflow:hidden}
@@ -286,6 +348,10 @@
     .hero-headline{font-size:2rem}
     .hero-sub{font-size:.95rem}
     .realization-grid{grid-template-columns:1fr;gap:48px}
+    .compare-grid{grid-template-columns:1fr}
+    .vs-medal{margin:0 auto}
+    .realize-close{grid-template-columns:1fr;gap:26px;padding:28px 24px}
+    .close-icons{grid-template-columns:1fr 1fr;gap:18px 12px}
     .university-timeline{padding:28px 20px}
     .pillars-grid-four{grid-template-columns:1fr}
     .product-featured-inner{grid-template-columns:1fr}
@@ -382,9 +448,9 @@
       Your career doesn't begin<br>after graduation.<br><em>It began the day you<br>walked through those doors.</em>
     </h1>
 
-    <p class="hero-sub" data-en="Every student graduates. Very few graduate ready.<br>Metanoia exists for the ones who choose to be ready." data-id="Semua mahasiswa lulus. Tapi hanya sedikit yang lulus benar-benar siap.<br>Metanoia hadir untuk mereka yang memilih untuk siap.">
-      Every student graduates. Very few graduate ready.<br>
-      Metanoia exists for the ones who choose to be ready.
+    <p class="hero-sub" data-en="Millions of students graduate every year. But only a few are truly prepared to enter the professional world.<br>Metanoia is built for those who choose to be ready." data-id="Dari sekian banyak mahasiswa yang lulus, hanya sedikit yang benar-benar siap memasuki dunia kerja.<br>Metanoia hadir untuk mereka yang memilih untuk siap.">
+      Millions of students graduate every year. But only a few are truly prepared to enter the professional world.<br>
+      Metanoia is built for those who choose to be ready.
     </p>
 
     <a href="#why-now" class="hero-cta" data-en="Begin Your Climb →" data-id="Mulai Perjalananmu →">Begin Your Climb →</a>
@@ -409,42 +475,47 @@
     <div class="realization-grid reveal">
 
       <div class="realization-narrative">
-        <h2 class="realization-headline" data-en="The career advantage isn&apos;t built<br>in your final semester.<br><em>It&apos;s built across all four years.</em>" data-id="Keunggulan karier tidak dibangun<br>di semester akhir.<br><em>Ia dibangun selama empat tahun penuh.</em>">
-          The career advantage isn't built<br>in your final semester.<br>
-          <em>It's built across all four years.</em>
+        <h2 class="realization-headline" data-en="Your career doesn&apos;t start after graduation—<br><em>it starts the moment you begin preparing for it.</em>" data-id="Hari wisuda bukan garis start kariermu.<br><em>Itu hanyalah hari ketika persiapanmu mulai terlihat.</em>">
+          Your career doesn't start after graduation—<br><em>it starts the moment you begin preparing for it.</em>
         </h2>
 
         <div class="realization-body">
-          <p data-en="Looking back from the Mature Professional stage, one thing is clear: my career journey didn&apos;t begin the day I graduated. It began on the first day I walked into university — I just didn&apos;t know it at the time." data-id="Melihat ke belakang dari tahap Mature Professional, satu hal menjadi jelas: perjalanan karier saya tidak dimulai saat wisuda. Ia dimulai pada hari pertama saya memasuki kampus — saya hanya belum menyadarinya saat itu.">
-            Looking back from the Mature Professional stage, one thing is clear: my career journey didn't begin the day I graduated. It began on the first day I walked into university — I just didn't know it at the time.
+          <p data-en="Looking back from the Mature Professional stage, one realization stands above the rest:" data-id="Sebagai seseorang yang sudah berada di tahap Mature Professional, saya menyadari satu hal penting:">
+            Looking back from the Mature Professional stage, one realization stands above the rest:
           </p>
-          <p data-en="Fortunately, I discovered this early. By the time I graduated, my CV wasn&apos;t limited to coursework or academic achievements. It already reflected meaningful internships, volunteer work, national and international competitions, student organization leadership, and experiences that demonstrated real-world capability — not just academic potential." data-id="Beruntungnya, saya menyadari ini lebih awal. Saat saya lulus, CV saya tidak hanya berisi nilai dan prestasi akademik. Di sana sudah ada pengalaman magang yang bermakna, kerja sukarela, kompetisi nasional dan internasional, kepemimpinan organisasi, dan pengalaman nyata yang membuktikan kemampuan — bukan hanya potensi.">
-            Fortunately, I discovered this early. By the time I graduated, my CV wasn't limited to coursework or academic achievements. It already reflected meaningful internships, volunteer work, national and international competitions, student organization leadership, and experiences that demonstrated real-world capability — not just academic potential.
+          <p class="lead-statement" data-en="The career journey doesn&apos;t begin after you graduate. It begins on the first day you walk onto campus." data-id="Perjalanan karier tidak dimulai setelah lulus kuliah. Ia dimulai sejak hari pertama kamu masuk kampus.">
+            The career journey doesn't begin after you graduate. It begins on the first day you walk onto campus.
           </p>
-          <p data-en="Those experiences made my CV stand out significantly from other graduates applying for the same positions. Looking back, I recognize that this was an advantage — and one that many students unfortunately never have the opportunity to build before graduation." data-id="Pengalaman-pengalaman itu membuat CV saya jauh berbeda dari lulusan lain yang melamar posisi yang sama. Saya kini menyadari bahwa itu adalah sebuah keistimewaan — dan sayangnya, banyak mahasiswa tidak pernah mendapat kesempatan untuk membangunnya sebelum lulus.">
-            Those experiences made my CV stand out significantly from other graduates applying for the same positions. Looking back, I recognize that this was an advantage — and one that many students unfortunately never have the opportunity to build before graduation.
+          <p data-en="By the time I graduated, my CV wasn&apos;t just coursework and grades. It already carried internships, student organizations, volunteer work, national and international competitions, student exchange — the experiences that made it stand out from every other applicant&apos;s." data-id="Saat saya lulus, CV saya tidak hanya berisi mata kuliah dan nilai. Di dalamnya sudah ada pengalaman magang, organisasi, volunteer, lomba nasional &amp; internasional, student exchange, dan banyak hal lain yang membuat saya stand out dibandingkan pelamar lain.">
+            By the time I graduated, my CV wasn't just coursework and grades. It already carried internships, student organizations, volunteer work, national and international competitions, student exchange — the experiences that made it stand out from every other applicant's.
+          </p>
+          <p data-en="I was fortunate to realize it early. Unfortunately, not every student gets that kind of luck." data-id="Saya beruntung menyadarinya lebih awal. Sayangnya, tidak semua mahasiswa mendapatkan keberuntungan itu.">
+            I was fortunate to realize it early. Unfortunately, not every student gets that kind of luck.
           </p>
         </div>
 
         <blockquote class="realization-quote">
           <span class="quote-mark">"</span>
-          <p data-en="The students who arrive at graduation with the strongest CVs didn&apos;t get lucky. They made decisions in Year 1 that their classmates didn&apos;t." data-id="Mahasiswa yang tiba di wisuda dengan CV terkuat bukan karena keberuntungan. Mereka membuat keputusan di tahun pertama yang tidak dibuat oleh teman sekelasnya.">
-            The students who arrive at graduation with the strongest CVs didn't get lucky. They made decisions in Year 1 that their classmates didn't.
+          <p data-en="The strongest CV isn&apos;t written during the final semester. It&apos;s written through thousands of decisions made over four years." data-id="CV terkuat tidak ditulis di semester akhir. Ia ditulis melalui ribuan keputusan yang dibuat selama empat tahun.">
+            The strongest CV isn't written during the final semester. It's written through thousands of decisions made over four years.
           </p>
         </blockquote>
       </div>
 
       <div class="university-timeline">
-        <div class="timeline-header" data-en="Your 4-Year Window" data-id="Jendela 4 Tahun Kamu">Your 4-Year Window</div>
+        <div class="timeline-header" data-en="From Student to Professional:<br>Your Four-Stage Career Journey" data-id="Dari Mahasiswa ke Profesional:<br>Empat Tahap Perjalanan Kariermu">From Student to Professional:<br>Your Four-Stage Career Journey</div>
 
         <div class="timeline-track">
 
           <div class="timeline-year" data-year="1">
-            <div class="year-dot active"></div>
+            <div class="stage-badge active" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.3 13.3 L8.5 15.5 L10.7 10.7 Z"/></svg>
+            </div>
             <div class="year-content">
-              <div class="year-label" data-en="Year 1 · Foundation" data-id="Tahun 1 · Fondasi">Year 1 · Foundation</div>
+              <div class="stage-kicker" data-en="Stage 1" data-id="Tahap 1">Stage 1</div>
+              <div class="year-label" data-en="Foundation" data-id="Fondasi">Foundation</div>
               <div class="year-actions">
-                <span data-en="Discover yourself and your direction" data-id="Temukan diri dan arahmu">Discover yourself and your direction</span>
+                <span data-en="Discover yourself and your direction" data-id="Mengenal diri dan arahmu">Discover yourself and your direction</span>
                 <span data-en="Join your first student organisation" data-id="Bergabung dengan organisasi pertama">Join your first student organisation</span>
               </div>
             </div>
@@ -453,9 +524,12 @@
           <div class="timeline-connector"></div>
 
           <div class="timeline-year" data-year="2">
-            <div class="year-dot"></div>
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.7" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 L21 21"/></svg>
+            </div>
             <div class="year-content">
-              <div class="year-label" data-en="Year 2 · Exploration" data-id="Tahun 2 · Eksplorasi">Year 2 · Exploration</div>
+              <div class="stage-kicker" data-en="Stage 2" data-id="Tahap 2">Stage 2</div>
+              <div class="year-label" data-en="Exploration" data-id="Eksplorasi">Exploration</div>
               <div class="year-actions">
                 <span data-en="First internship or competition" data-id="Magang pertama atau kompetisi">First internship or competition</span>
                 <span data-en="Build your professional online presence" data-id="Bangun kehadiran profesional online">Build your professional online presence</span>
@@ -466,9 +540,12 @@
           <div class="timeline-connector"></div>
 
           <div class="timeline-year" data-year="3">
-            <div class="year-dot"></div>
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16 C7 16 6 10 7.5 5.5 C12 7 17 8 16.5 13 C16.2 15 14.5 16 12 16 Z" transform="rotate(45 12 12)"/><path d="M9 15 L5.5 18.5 M12 21 l1.5-3.5"/><circle cx="13.5" cy="9.5" r="1.1"/></svg>
+            </div>
             <div class="year-content">
-              <div class="year-label" data-en="Year 3 · Activation" data-id="Tahun 3 · Aktivasi">Year 3 · Activation</div>
+              <div class="stage-kicker" data-en="Stage 3" data-id="Tahap 3">Stage 3</div>
+              <div class="year-label" data-en="Activation" data-id="Aktivasi">Activation</div>
               <div class="year-actions">
                 <span data-en="Leadership roles, scholarship applications" data-id="Peran kepemimpinan, beasiswa">Leadership roles, scholarship applications</span>
                 <span data-en="Strategic internships aligned to target role" data-id="Magang strategis sesuai target karier">Strategic internships aligned to target role</span>
@@ -479,9 +556,12 @@
           <div class="timeline-connector"></div>
 
           <div class="timeline-year" data-year="4">
-            <div class="year-dot"></div>
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.7"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.7"/><circle cx="12" cy="12" r="1.3" fill="url(#stGold)" stroke="none"/></svg>
+            </div>
             <div class="year-content">
-              <div class="year-label" data-en="Year 4 · Execution" data-id="Tahun 4 · Eksekusi">Year 4 · Execution</div>
+              <div class="stage-kicker" data-en="Stage 4" data-id="Tahap 4">Stage 4</div>
+              <div class="year-label" data-en="Execution" data-id="Eksekusi">Execution</div>
               <div class="year-actions">
                 <span data-en="Final internship, ATS-optimised CV" data-id="Magang akhir, CV teroptimasi ATS">Final internship, ATS-optimised CV</span>
                 <span data-en="Interview preparation, offer negotiation" data-id="Persiapan wawancara, negosiasi tawaran">Interview preparation, offer negotiation</span>
@@ -492,20 +572,104 @@
           <div class="timeline-connector"></div>
 
           <div class="timeline-graduation">
-            <div class="grad-dot"></div>
+            <div class="grad-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F0D878" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9 L12 4.5 L21.5 9 L12 13.5 Z" fill="rgba(240,216,120,.25)"/><path d="M6.5 11.2 V16 c0 1.6 2.5 3 5.5 3 s5.5-1.4 5.5-3 v-4.8"/><path d="M21.5 9 v5"/></svg>
+            </div>
             <div>
-              <div class="grad-label" data-en="Graduation Day" data-id="Hari Wisuda">Graduation Day</div>
-              <div class="grad-contrast">
-                <div class="grad-path prepared" data-en="✓ Prepared: CV already tells a story" data-id="✓ Siap: CV sudah bercerita sendiri">✓ Prepared: CV already tells a story</div>
-                <div class="grad-path unprepared" data-en="✗ Unprepared: Starts from zero" data-id="✗ Tidak siap: Mulai dari nol">✗ Unprepared: Starts from zero</div>
+              <div class="stage-kicker" data-en="Graduation Day" data-id="Hari Wisuda">Graduation Day</div>
+              <div class="grad-label" data-en="Your preparation shows" data-id="Persiapanmu Terlihat">Your preparation shows</div>
+              <div class="grad-lines">
+                <span data-en="A strong CV opens doors." data-id="CV yang kuat membuka peluang.">A strong CV opens doors.</span>
+                <span data-en="You&apos;re not just another candidate. <b>You are the first choice.</b>" data-id="Kamu bukan sekadar kandidat. <b>Kamu adalah pilihan utama.</b>">You're not just another candidate. <b>You are the first choice.</b></span>
               </div>
             </div>
           </div>
 
         </div>
+
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+          <linearGradient id="stGold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#F0D878"/><stop offset="100%" stop-color="#C9A84C"/></linearGradient>
+        </defs></svg>
       </div>
 
     </div>
+
+    <!-- Two paths, two outcomes -->
+    <div class="paths-compare reveal">
+      <div class="compare-eyebrow"><i></i><span data-en="Two paths. Two very different outcomes." data-id="Dua jalur. Dua hasil yang berbeda.">Two paths. Two very different outcomes.</span><i></i></div>
+      <div class="compare-grid">
+
+        <div class="compare-card without">
+          <div class="compare-head">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <span data-en="Without preparation" data-id="Tanpa persiapan">Without preparation</span>
+          </div>
+          <p class="compare-sub" data-en="Your CV on graduation day" data-id="CV di hari wisuda">Your CV on graduation day</p>
+          <div class="cv-mock" aria-hidden="true">
+            <div class="cv-top"><div class="cv-ava"></div><div style="flex:1"><div class="cv-bar" style="width:70%"></div><div class="cv-bar" style="width:45%"></div></div></div>
+            <ul>
+              <li data-en="Coursework" data-id="Mata Kuliah">Coursework</li>
+              <li data-en="Academic grades" data-id="Nilai Akademik">Academic grades</li>
+              <li data-en="Thesis" data-id="Skripsi">Thesis</li>
+              <li data-en="Basic information" data-id="Informasi Dasar">Basic information</li>
+            </ul>
+          </div>
+          <p class="compare-verdict" data-en="Competing among the ordinary." data-id="Hanya bersaing di antara yang biasa.">Competing among the ordinary.</p>
+          <svg class="crowd" width="180" height="30" viewBox="0 0 180 30" aria-hidden="true"><g transform="translate(12,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(36,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(60,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(84,0) scale(1.25)" fill="#E05B6E"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(108,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(132,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(156,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g></svg>
+        </div>
+
+        <div class="vs-medal" aria-hidden="true">VS</div>
+
+        <div class="compare-card with">
+          <div class="compare-head">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#7FCF9B" stroke-width="1.6"/><path d="M7.5 12.5 l3 3 6-7" stroke="#7FCF9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-en="With preparation" data-id="Dengan persiapan">With preparation</span>
+          </div>
+          <p class="compare-sub" data-en="Your CV on graduation day" data-id="CV di hari wisuda">Your CV on graduation day</p>
+          <ul class="with-list">
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Internships &amp; work experience" data-id="Magang &amp; Pengalaman Kerja">Internships &amp; work experience</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Organisation leadership" data-id="Kepemimpinan Organisasi">Organisation leadership</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Volunteering &amp; impact" data-id="Volunteer &amp; Impact">Volunteering &amp; impact</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Competitions &amp; achievements" data-id="Lomba &amp; Prestasi">Competitions &amp; achievements</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Scholarships" data-id="Beasiswa">Scholarships</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Student exchange" data-id="Student Exchange">Student exchange</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Skills &amp; certifications" data-id="Skill &amp; Sertifikasi">Skills &amp; certifications</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Portfolio &amp; projects" data-id="Portofolio &amp; Proyek">Portfolio &amp; projects</span></li>
+          </ul>
+          <div class="with-stars" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg></div>
+          <p class="compare-verdict" data-en="Ready to stand among the top 1% of candidates." data-id="Bersiap menjadi bagian dari top 1% kandidat.">Ready to stand among the top 1% of candidates.</p>
+          <svg class="crowd" width="180" height="30" viewBox="0 0 180 30" aria-hidden="true"><g transform="translate(12,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(36,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(60,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(84,0) scale(1.25)" fill="#C9A84C"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(108,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(132,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(156,3) scale(1.0)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g></svg>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Closing strip -->
+    <div class="realize-close reveal">
+      <p class="close-text" data-en="You can&apos;t change the past — but you can maximise the time you have left. <b>Your four years are your greatest asset. Use them with the right strategy.</b>" data-id="Kamu tidak bisa mengubah masa lalu, tapi kamu bisa memaksimalkan sisa waktumu. <b>Empat tahun adalah aset terbesarmu. Gunakan dengan strategi yang tepat.</b>">
+        You can't change the past — but you can maximise the time you have left. <b>Your four years are your greatest asset. Use them with the right strategy.</b>
+      </p>
+      <div class="close-icons" aria-hidden="false">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>
+          <b data-en="A clear map." data-id="Peta yang jelas.">A clear map.</b><span data-en="A measured direction." data-id="Arah yang terukur.">A measured direction.</span>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8" width="14" height="12" rx="2.4"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M5 13 h14"/></svg>
+          <b data-en="The right gear." data-id="Bekal yang tepat.">The right gear.</b><span data-en="Thorough preparation." data-id="Persiapan yang matang.">Thorough preparation.</span>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M7 20 Q12 6 17 20"/><circle cx="7" cy="20" r="1.8"/><circle cx="17" cy="20" r="1.8"/><circle cx="12" cy="11" r="1.8"/></svg>
+          <b data-en="Strong support." data-id="Dukungan yang kuat.">Strong support.</b><span data-en="Mentors &amp; community." data-id="Mentor &amp; komunitas.">Mentors &amp; community.</span>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 L10 9 L14 14 L17 6 L20 20"/><path d="M17 6 V3"/><path d="M17 3 h3.4 l-1.1 1.4 1.1 1.4 H17"/></svg>
+          <b data-en="A strategic route." data-id="Rute yang strategis.">A strategic route.</b><span data-en="A meaningful journey." data-id="Perjalanan yang bermakna.">A meaningful journey.</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -972,7 +1136,7 @@ const timelineYears = document.querySelectorAll('.timeline-year');
 const dotObserver = new IntersectionObserver((entries)=>{
   entries.forEach((entry,i)=>{
     if(entry.isIntersecting){
-      setTimeout(()=>{ entry.target.querySelector('.year-dot')?.classList.add('active'); }, i*150);
+      setTimeout(()=>{ entry.target.querySelector('.stage-badge')?.classList.add('active'); }, i*150);
       dotObserver.unobserve(entry.target);
     }
   });
