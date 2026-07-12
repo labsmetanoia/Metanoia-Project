@@ -1,6 +1,6 @@
 <title>Metanoia — The Ascent</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/landing.html">
+<link rel="canonical" href="https://metanoialabs.net/landing.html"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/landing.html">
 <style>
   :root{
@@ -51,10 +51,11 @@
   *{box-sizing:border-box}
   html,body{margin:0}
   body{background:var(--bg);color:var(--text);font-family:var(--disp);font-size:17px;line-height:1.6;
-       -webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background-color .5s ease,color .5s ease}
+       -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-kerning:normal;
+       overflow-x:hidden;transition:background-color .5s ease,color .5s ease}
   a{color:inherit}
   h1,h2,h3{margin:0;line-height:1.05;letter-spacing:-.02em;text-wrap:balance;font-weight:700}
-  p{margin:0}
+  p{margin:0;text-wrap:pretty}
   button{font-family:inherit}
 
   /* fixed environment */
@@ -153,24 +154,25 @@
     filter:drop-shadow(0 4px 16px rgba(180,140,60,.28));transition:transform .3s cubic-bezier(.34,1.56,.64,1),filter .3s ease}
   .trail-icon svg{width:100%;height:100%;display:block}
   .trail-card:hover .trail-icon{transform:translateY(-3px) scale(1.06);filter:drop-shadow(0 8px 24px rgba(201,168,76,.48))}
-  .trail-card h4{margin:0 0 7px;font-size:16px;font-weight:700;letter-spacing:-.01em;line-height:1.2;color:#fff}
-  .trail-card p{margin:0;font-size:12.5px;font-weight:400;line-height:1.5;color:rgba(255,255,255,.55);flex:1 0 auto}
+  .trail-card h4{margin:0 0 7px;font-size:16px;font-weight:700;letter-spacing:-.01em;line-height:1.2;color:#fff;text-wrap:balance}
+  .trail-card p{margin:0;font-size:12.5px;font-weight:400;line-height:1.55;letter-spacing:.004em;color:rgba(255,255,255,.58);flex:1 0 auto;text-wrap:balance}
   .trail-arrow{margin-top:16px;align-self:flex-end;font-size:15px;line-height:1;color:var(--trail-gold);opacity:.7;
     transition:transform .25s ease,opacity .25s ease}
   .trail-card:hover .trail-arrow{transform:translateX(5px);opacity:1}
   @media(max-width:560px){.trail-card{padding:22px 14px 16px;border-radius:14px}
     .trail-icon{width:52px;height:52px;margin-bottom:12px}.trail-card h4{font-size:14px}.trail-card p{font-size:11.5px}.trail-arrow{margin-top:12px}}
   @media (prefers-reduced-motion: reduce){.trail-card{opacity:1;transform:none;transition:none}}
-  .content{position:relative;z-index:2;max-width:1020px;width:100%;padding:84px 30px 150px;pointer-events:auto;
+  .content{position:relative;z-index:2;max-width:1060px;width:100%;padding:84px clamp(34px,5.5vw,68px) 150px;pointer-events:auto;
       max-height:100vh;overflow-y:auto;scrollbar-width:none}
   .content::-webkit-scrollbar{display:none}
 
   .eyebrow{font-size:12px;font-weight:700;letter-spacing:.34em;text-transform:uppercase;color:var(--accent-text)}
-  .chapter{font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:12px}
-  .content h2{font-size:clamp(1.9rem,4.6vw,3.4rem);margin-top:14px;max-width:17em}
-  .content .lede{font-size:clamp(1rem,1.5vw,1.15rem);color:var(--muted);max-width:36em;margin-top:18px}
+  .chapter{font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:14px}
+  .content h2{font-size:clamp(1.9rem,4.6vw,3.4rem);margin-top:14px;max-width:17em;line-height:1.08}
+  .content .lede{font-size:clamp(1rem,1.5vw,1.16rem);color:var(--muted);max-width:33.5em;margin-top:20px;
+      line-height:1.72;letter-spacing:.004em}
   .content .lede:empty{display:none;margin:0}
-  .voice{font-style:italic;font-weight:500;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.45;letter-spacing:-.005em;color:var(--text);max-width:28em;margin-top:32px}
+  .voice{font-style:italic;font-weight:500;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.5;letter-spacing:-.005em;color:var(--text);max-width:26em;margin-top:36px;text-wrap:balance}
   .voice em{color:var(--accent-text);font-style:inherit}
 
   /* content reveal inside the active scene */
@@ -200,8 +202,8 @@
   .boot .brand .labs{animation:labsIn .9s ease 1s both,labsGlow 5s ease-in-out 2s infinite}
   #call h1{font-size:clamp(2.2rem,5.3vw,4.3rem);text-transform:uppercase;letter-spacing:-.015em;line-height:1.06;font-weight:800}
   #call h1 em{font-style:normal;color:var(--accent-text)}
-  #call .whisper{font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:18px}
-  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:34em;margin-top:22px}
+  #call .whisper{font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:20px;letter-spacing:.01em;text-wrap:balance;max-width:30em}
+  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:31em;margin-top:24px;line-height:1.7;letter-spacing:.004em}
   .cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;text-decoration:none;font-weight:600;font-size:15.5px;
       color:var(--ember-ink);background:linear-gradient(120deg,var(--ember2),var(--ember));border-radius:999px;padding:15px 28px;
       box-shadow:0 8px 40px rgba(249,115,22,.35);transition:transform .2s ease;cursor:pointer;border:0}
@@ -222,19 +224,19 @@
   .card .badge svg{display:block}
   .card .k{font-size:10px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text)}
   .card .kick::after{content:"";flex:1;height:1px;background:var(--hair)}
-  .card h3{font-size:17px;margin-top:0}
-  .card p{font-size:14px;color:var(--muted);margin-top:8px}
+  .card h3{font-size:17px;margin-top:0;letter-spacing:-.012em}
+  .card p{font-size:14px;color:var(--muted);margin-top:9px;line-height:1.64;letter-spacing:.004em}
   .card.warm{background:var(--card-warm);border-color:var(--card-warm-border)}
 
   .gear{margin-top:34px;display:flex;flex-direction:column;max-width:620px}
-  .gear .row{display:flex;gap:16px;padding:14px 0;border-bottom:1px solid var(--hair);align-items:baseline}
+  .gear .row{display:flex;gap:18px;padding:15px 0;border-bottom:1px solid var(--hair);align-items:baseline}
   .gear .n{font-variant-numeric:tabular-nums;font-size:12px;color:var(--accent-text);letter-spacing:.2em;flex:none;width:2.2em}
-  .gear h3{font-size:16px;font-weight:600}
-  .gear p{font-size:13.5px;color:var(--muted);margin-top:4px}
+  .gear h3{font-size:16px;font-weight:600;letter-spacing:-.01em}
+  .gear p{font-size:13.5px;color:var(--muted);margin-top:5px;line-height:1.64;letter-spacing:.004em;max-width:44em}
 
   #summit .content{text-align:center}
   #summit h2{max-width:none;font-size:clamp(2.2rem,6vw,4.4rem);text-transform:uppercase}
-  #summit .lede{margin-left:auto;margin-right:auto}
+  #summit .lede{margin-left:auto;margin-right:auto;text-wrap:balance;max-width:31em}
   .stats{display:flex;justify-content:center;gap:44px;margin-top:40px;flex-wrap:wrap}
   .stat b{font-size:clamp(1.7rem,3.4vw,2.4rem);font-variant-numeric:tabular-nums;display:block}
   .stat span{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
@@ -242,12 +244,13 @@
 
   #horizon .content{text-align:center}
   #horizon .voice,#horizon h2,#horizon .lede{margin-left:auto;margin-right:auto}
+  #horizon .lede{text-wrap:balance;max-width:32em}
 
   /* CONTACT — the fire stays lit */
   #contact .content{max-width:900px}
   .contact-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:28px;margin-top:40px;align-items:start}
   @media(max-width:840px){.contact-grid{grid-template-columns:1fr}}
-  .cinfo{display:flex;flex-direction:column;gap:16px}
+  .cinfo{display:flex;flex-direction:column;gap:18px;line-height:1.65}
   .cinfo a{color:var(--text);text-decoration:none;font-weight:600}
   .cinfo a:hover{color:var(--accent-text)}
   .cinfo .ln{font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-text)}
@@ -260,7 +263,7 @@
   .cform .cta{margin-top:6px;align-self:flex-start;padding:13px 24px;font-size:14.5px}
   .has-video .cform{background:rgba(7,13,24,.62)}
   .has-video .cform input,.has-video .cform textarea{background:rgba(245,239,230,.08);color:#F5EFE6}
-  .foot-links{margin-top:44px;font-size:12.5px;color:var(--muted)}
+  .foot-links{margin-top:44px;font-size:12.5px;color:var(--muted);line-height:1.8;letter-spacing:.01em}
   .foot-links a{color:var(--muted);text-decoration:none;margin:0 9px}
   .foot-links a:hover{color:var(--text)}
 
@@ -383,14 +386,14 @@
   body.m .frame::before{opacity:0 !important}
   body.m .haze,body.m .bloom,body.m .bar{display:none}
   body.m .content{max-height:none;overflow:visible;transform:none !important;
-      padding:110px 22px 108px;display:flex;flex-direction:column;justify-content:flex-end}
+      padding:110px 26px 108px;display:flex;flex-direction:column;justify-content:flex-end}
   body.m #call .content{justify-content:center;padding-bottom:84px}
   /* portrait stills replace cropped landscape video (The Valley keeps its film) */
   .mbg{display:none}
   body.m .mbg{display:block;position:absolute;inset:0;background-size:cover;background-position:center}
   body.m .sceneCard:not(#call) .frame video{display:none}
-  body.m .content h2{font-size:clamp(1.75rem,8vw,2.3rem)}
-  body.m .lede{font-size:15px;line-height:1.6}
+  body.m .content h2{font-size:clamp(1.75rem,8vw,2.3rem);line-height:1.12}
+  body.m .lede{font-size:15px;line-height:1.68}
   body.m .voice{font-size:1.12rem;margin-top:24px}
   body.m .chapter{font-size:10px;margin-bottom:10px}
   body.m .card{padding:16px 15px}
