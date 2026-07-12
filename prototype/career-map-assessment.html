@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/career-map-assessment.html">
+<link rel="canonical" href="https://metanoialabs.net/career-map-assessment.html"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/career-map-assessment.html">
 <title>Career Map Assessment — Metanoia Labs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -295,6 +295,18 @@
   .ns-cta{display:block;margin:30px auto 0;background:var(--ember);color:#fff;text-align:center;text-decoration:none;
     border-radius:10px;padding:16px 30px;font-size:12pt;font-weight:700;max-width:420px;box-shadow:0 4px 20px rgba(249,115,22,.35)}
   .ns-url{text-align:center;font-size:9pt;color:var(--mid);margin-top:12px}
+
+  /* ── report visual system: icon badges, gauges, ascent infographic ── */
+  .kick .kic{flex:none;width:21px;height:21px;border-radius:50%;border:1px solid rgba(180,85,14,.38);
+    background:#FFF6EA;display:flex;align-items:center;justify-content:center}
+  .stat .l{display:flex;align-items:center;gap:5px}
+  .stat .l svg{flex:none}
+  .dim-gauge{display:flex;align-items:center;gap:12px;flex:none}
+  .cards3 .cic{width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:7px}
+  .cards3 .c.st .cic{background:rgba(26,92,56,.10)}
+  .cards3 .c.gp .cic{background:rgba(180,83,9,.12)}
+  .ascent-info{display:block;width:100%;height:auto;margin:12px 0 2px}
+  .featc .ic svg{display:block}
 
   /* ============ CAPTURE ============ */
   #capture{max-width:640px;margin:34px auto 0;padding:0 16px}
@@ -1324,6 +1336,59 @@ function svgRadar(scores,size){
     <polygon points="${poly}" fill="rgba(249,115,22,0.3)" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
 }
 
+/* ── report icon library (print-safe inline SVG, stroke-based) ── */
+const RICON={
+ exec:'<path d="M4 20 L10 8 L13.5 13.5 L16.5 8.5 L21 20 Z"/><path d="M16.5 8.5 V3"/><path d="M16.5 3 h4 l-1.3 1.7 1.3 1.7 h-4"/>',
+ ci:'<circle cx="12" cy="12" r="8.6"/><path d="M15.5 8.5 L13.3 13.3 L8.5 15.5 L10.7 10.7 Z"/>',
+ ps:'<rect x="6" y="8.5" width="12" height="12" rx="2.4"/><path d="M9 8.5 V7 a3 3 0 0 1 6 0 v1.5"/><path d="M6 13.5 h12"/>',
+ ir:'<rect x="9" y="3" width="6" height="10.5" rx="3"/><path d="M5.5 11 a6.5 6.5 0 0 0 13 0"/><path d="M12 17.5 V21"/>',
+ nc:'<circle cx="6.2" cy="6.4" r="2.3"/><circle cx="17.8" cy="7.4" r="2.3"/><circle cx="12" cy="17.6" r="2.3"/><path d="M8.5 6.7 L15.5 7.2 M7.1 8.5 L10.9 15.5 M16.8 9.4 L13.1 15.6"/>',
+ cm:'<path d="M12 3.5 C9.2 6.6 7.4 9 7.4 12.2 a4.6 4.6 0 0 0 9.2 0 C16.6 9 14.8 6.6 12 3.5 Z"/><path d="M12 20.5 v-3.6"/>',
+ sg:'<path d="M4 17 L9.5 11.5 L13 15 L20 8"/><path d="M15.5 8 H20 v4.5"/>',
+ route:'<path d="M6 21 C6 15.5 12.5 16 12.5 11 C12.5 7.2 9 7.5 9 4.8"/><circle cx="9" cy="3.6" r="1.5"/><circle cx="6" cy="21" r="1.5"/>',
+ next:'<path d="M4 12 h13.5"/><path d="M12.5 6.5 L18 12 l-5.5 5.5"/>',
+ target:'<circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1.4"/>',
+ layers:'<path d="M12 3.5 L20.5 8 L12 12.5 L3.5 8 Z"/><path d="M3.5 12.5 L12 17 L20.5 12.5"/>',
+ pct:'<path d="M18.5 5.5 L5.5 18.5"/><circle cx="7.6" cy="7.6" r="2.3"/><circle cx="16.4" cy="16.4" r="2.3"/>',
+ steep:'<path d="M3.5 19.5 L10.5 6.5 L14 12 L16.5 8.5 L20.5 19.5 Z"/>',
+ doc:'<path d="M7 3.5 h6.5 L18 8 v12.5 H7 Z"/><path d="M13.5 3.5 V8 H18"/><path d="M10 13 h4.5 M10 16.5 h4.5"/>',
+ fire:'<path d="M12 2.8 C9.2 5.9 7.4 8.3 7.4 11.5 a4.6 4.6 0 0 0 9.2 0 C16.6 8.3 14.8 5.9 12 2.8 Z"/><path d="M7.6 20.8 L16.4 18.2 M7.6 18.2 L16.4 20.8"/>',
+ medal:'<circle cx="12" cy="10" r="5.6"/><path d="M9.2 14.8 L7.8 21 L12 18.6 L16.2 21 L14.8 14.8"/>',
+ alert:'<path d="M12 3.5 L21 19.5 H3 Z"/><path d="M12 9.5 v4.5"/><circle cx="12" cy="16.8" r="0.6"/>'
+};
+function rIcon(name,color,size,sw){
+  return `<svg width="${size||14}" height="${size||14}" viewBox="0 0 24 24" fill="none" stroke="${color||'#B4550E'}" stroke-width="${sw||1.9}" stroke-linecap="round" stroke-linejoin="round" style="display:block">${RICON[name]||RICON.exec}</svg>`;
+}
+/* donut gauge for dimension pages */
+function donutGauge(p,color,size){
+  const r=(size-9)/2, C=2*Math.PI*r, off=C*(1-p/100), cx=size/2;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="#EFEAE0" stroke-width="6.5"/>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="${color}" stroke-width="6.5" stroke-linecap="round"
+      stroke-dasharray="${C}" stroke-dashoffset="${off}" transform="rotate(-90 ${cx} ${cx})"/>
+    <text x="${cx}" y="${cx+1}" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="${Math.round(size*.23)}" font-weight="800" fill="#111827">${p}%</text></svg>`;
+}
+/* 90-day ascent profile infographic (route page) */
+function ascentSvg(){
+  const dayA=lang==='id'?'Hari 1':'Day 1', dayB=lang==='id'?'Hari 90':'Day 90';
+  return `<svg class="ascent-info" viewBox="0 0 698 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs><linearGradient id="ascg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F97316"/><stop offset=".5" stop-color="#F59E0B"/><stop offset="1" stop-color="#1A5C38"/></linearGradient></defs>
+    <rect x="0.5" y="0.5" width="697" height="99" rx="8" fill="#FAF8F3" stroke="#E7E2D8"/>
+    <path d="M0 100 L96 66 L156 80 L266 44 L336 58 L476 26 L566 40 L698 12 L698 100 Z" fill="#EFEAE0"/>
+    <path d="M28 84 C 100 76, 170 68, 233 60 C 330 48, 410 44, 466 34 C 540 22, 600 20, 656 15"
+      fill="none" stroke="url(#ascg)" stroke-width="2.4" stroke-dasharray="5 4" stroke-linecap="round"/>
+    <circle cx="28" cy="84" r="3.4" fill="#5A6A80"/>
+    <text x="40" y="88" font-family="Inter,sans-serif" font-size="8.4" font-weight="700" fill="#5A6A80">${dayA}</text>
+    <circle cx="150" cy="70" r="8" fill="#F97316"/><text x="150" y="73.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">1</text>
+    <circle cx="380" cy="47" r="8" fill="#F59E0B"/><text x="380" y="50.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">2</text>
+    <circle cx="580" cy="24" r="8" fill="#1A5C38"/><text x="580" y="27.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">3</text>
+    <path d="M656 15 V38" stroke="#111827" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M656 15 h15 l-4.5 4 4.5 4 h-15 Z" fill="#F97316"/>
+    <text x="648" y="50" text-anchor="end" font-family="Inter,sans-serif" font-size="8.4" font-weight="700" fill="#5A6A80">${dayB}</text>
+  </svg>`;
+}
+
 /* ================= REPORT BUILD ================= */
 const RP_TOTAL=10;
 function rphead(){ const t=lang==='id'?'Asesmen Kesiapan Karier':'Career Readiness Assessment';
@@ -1331,7 +1396,7 @@ function rphead(){ const t=lang==='id'?'Asesmen Kesiapan Karier':'Career Readine
 function rpfoot(n){ return lang==='id'
   ? `<div class="rpfoot"><span>Rahasia · Bukan untuk disebarluaskan · metanoialabs.net</span><span>Halaman ${n} dari ${RP_TOTAL}</span></div>`
   : `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.net</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
-const kick=(n,t)=>`<div class="kick report-section-header"><span class="kn">${n}</span><span class="kt">${t}</span></div>`;
+const kick=(n,t,ic)=>`<div class="kick report-section-header">${ic?`<span class="kic">${rIcon(ic,'#B4550E',12,2)}</span>`:''}<span class="kn">${n}</span><span class="kt">${t}</span></div>`;
 function bandScale(t,lv){
   const NAMES=['Base Camp','First Ascent','Mid-Mountain','High Camp','Summit Ready'];
   const W=[40,20,15,15,10]; // actual band score ranges, in points of 100
@@ -1416,14 +1481,14 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('01',L.k1)}
+      ${kick('01',L.k1,'exec')}
       <div class="rtitle report-section-header">${L.execTitle}</div>
       <div class="rsub">${L.execSub}</div>
       <div class="statrow">
-        <div class="stat"><div class="l">${L.s1}</div><div class="v">${t} <small>/ 100</small></div></div>
-        <div class="stat"><div class="l">${L.s2}</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
-        <div class="stat"><div class="l">${L.s3}</div><div class="v">${L.pctile(t)}</div></div>
-        <div class="stat"><div class="l">${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
+        <div class="stat"><div class="l">${rIcon('target','#B4550E',11,2)}${L.s1}</div><div class="v">${t} <small>/ 100</small></div></div>
+        <div class="stat"><div class="l">${rIcon('layers','#B4550E',11,2)}${L.s2}</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
+        <div class="stat"><div class="l">${rIcon('pct','#B4550E',11,2)}${L.s3}</div><div class="v">${L.pctile(t)}</div></div>
+        <div class="stat"><div class="l">${rIcon('steep','#B4550E',11,2)}${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
       </div>
       ${bandScale(t,bd.lv)}
       <div class="exec-grid" style="margin-top:16px">
@@ -1450,10 +1515,10 @@ function buildReport(){
     R.insertAdjacentHTML('beforeend',`
     <div class="report-page">${rphead()}
       <div class="rpad">
-        ${kick('0'+(i+2),L.kDim+' · '+d.metaname)}
+        ${kick('0'+(i+2),L.kDim+' · '+d.metaname,d.key)}
         <div class="dim-toprow report-section-header">
           <span class="sec-chip-print">${L.section} ${['A','B','C','D','E'][i]}</span>
-          <span class="dim-score-print">${L.score}: ${sc}/15 · ${p100}%</span>
+          <span class="dim-gauge"><span class="dim-score-print">${L.score}: ${sc}/15</span>${donutGauge(p100,d.color,52)}</span>
         </div>
         <div class="dim-title">${d.name}</div>
         <div class="dim-meta">${d.metaname} — ${dimDesc(i).split('.')[0].replace(/^./,c=>c.toUpperCase())}.</div>
@@ -1484,16 +1549,16 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('07',L.k7)}
+      ${kick('07',L.k7,'sg')}
       <div class="rtitle report-section-header" style="font-size:15pt">${L.top3}</div>
       <div style="height:10px"></div>
-      ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="k">${L.strengthN} ${i+1} · ${DIMS[q.d].name}</span>
+      ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="cic">${rIcon('medal','#1A5C38',14,1.9)}</span><span class="k">${L.strengthN} ${i+1} · ${DIMS[q.d].name}</span>
         <h4>${qm(q,'sn')}</h4><p>${qm(q,'st')}</p></div>`).join('')}</div>`
         :`<p style="font-size:9.5pt;color:#374151">${L.noTop3}</p>`}
       <div style="height:1px;background:#E5E0D5;margin:24px 0"></div>
       <div class="rtitle report-section-header" style="font-size:15pt;color:var(--accent-print)">${L.gaps3}</div>
       <div style="height:10px"></div>
-      <div class="cards3">${gap3.map((q,i)=>`<div class="c gp gap-item"><span class="k">${L.gapN} ${i+1} · ${DIMS[q.d].name}</span>
+      <div class="cards3">${gap3.map((q,i)=>`<div class="c gp gap-item"><span class="cic">${rIcon('alert','#B45309',14,1.9)}</span><span class="k">${L.gapN} ${i+1} · ${DIMS[q.d].name}</span>
         <h4>${qm(q,'gn')}</h4><p>${qm(q,'gp')}</p><div class="fx"><b>${L.fixLbl}</b> ${qm(q,'fx')}</div></div>`).join('')}</div>
     </div>${rpfoot(pageNo)}
   </div>`);
@@ -1529,9 +1594,10 @@ function buildReport(){
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">${rphead()}
     <div class="rpad">
-      ${kick('08',L.k8)}
+      ${kick('08',L.k8,'route')}
       <div class="rtitle report-section-header">${L.routeTitle}</div>
       <p style="font-size:9.5pt;color:#374151;margin-top:8px">${L.routeSub}</p>
+      ${ascentSvg()}
       <div class="route3">
         <div class="mcol m1"><div class="mtop"></div><div class="mpad">
           <div class="mh">${L.month} 1</div><div class="mt">${L.m1t}</div>
@@ -1573,15 +1639,16 @@ function buildReport(){
     cm:{n:'Mind Palace',d:'Rejection-recovery protocols and confidence built on evidence — the inner climb, trained.',c:'#1B2434',ic:'MP'}
   };
   const weakDims=scores.map((v,i)=>({v,i})).sort((a,b)=>a.v-b.v).map(x=>x.i);
-  const recs=weakDims.slice(0,3).map(i=>FEAT[DIMS[i].key]);
+  const recs=weakDims.slice(0,3).map(i=>({fkey:DIMS[i].key,...FEAT[DIMS[i].key]}));
+  const FICON={ci:'ci',ps:'doc',ir:'ir',nc:'fire',cm:'cm'};
   R.insertAdjacentHTML('beforeend',`
   <div class="report-page">
     <div class="ns-hero"><h2>${L.nsTitle}</h2></div>
     <div class="rpad">
-      ${kick('09',L.k9)}
+      ${kick('09',L.k9,'next')}
       <p style="font-size:10pt;color:#374151">${L.nsLead}</p>
       <div class="featc">${recs.map((f,i)=>`<div class="c dimension-card">
-        <div class="ic" style="background:${f.c}">${f.ic}</div>
+        <div class="ic" style="background:${f.c}">${rIcon(FICON[f.fkey]||'ci','#FFFFFF',19,1.8)}</div>
         <h4>${i===0?L.start:''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
       <a class="ns-cta" href="landing.html">${L.nsCta}</a>
       <div class="ns-url">metanoialabs.net</div>
