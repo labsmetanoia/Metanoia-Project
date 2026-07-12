@@ -244,7 +244,19 @@
 
   #horizon .content{text-align:center}
   #horizon .voice,#horizon h2,#horizon .lede{margin-left:auto;margin-right:auto}
-  #horizon .lede{text-wrap:balance;max-width:32em}
+  #horizon .lede{text-wrap:balance;max-width:34em}
+  /* Horizon — tightened vertical rhythm so the primary CTA lands within the
+     first viewport (the 8-trail grid + CTA are the conversion moment) */
+  body:not(.m) #horizon .content{padding-top:40px;padding-bottom:40px}
+  #horizon h2{margin-top:6px;font-size:clamp(1.55rem,3.4vw,2.5rem)}
+  #horizon .lede{font-size:clamp(.86rem,1.12vw,.95rem);margin-top:10px;line-height:1.5;max-width:52em}
+  #horizon .voice{margin-top:12px;font-size:clamp(.95rem,1.55vw,1.14rem);line-height:1.38;max-width:50em}
+  #horizon .paths{margin-top:10px;gap:10px}
+  #horizon .trail-card{padding:12px 12px 11px;border-radius:14px}
+  #horizon .trail-icon{width:40px;height:40px;margin-bottom:7px}
+  #horizon .trail-card h4{font-size:13.5px;margin-bottom:3px}
+  #horizon .trail-card p{font-size:11px;line-height:1.38}
+  #horizon .trail-arrow{margin-top:7px}
 
   /* CONTACT — the fire stays lit */
   #contact .content{max-width:900px}
@@ -686,8 +698,8 @@
         <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
         <p class="voice fx d2" data-i18n="hor.voice">“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”</p>
 
-        <span class="eyebrow fx d2" style="display:block;margin-top:44px" data-i18n="paths.eye">Choose your path</span>
-        <p class="lede fx d2" style="margin-top:10px;font-size:15px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
+        <span class="eyebrow fx d2" style="display:block;margin-top:22px" data-i18n="paths.eye">Choose your path</span>
+        <p class="lede fx d2" style="margin-top:6px;font-size:13.5px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
         <div class="paths" role="navigation" aria-label="Audience pathways">
           <a class="trail-card" href="pages/student.html" data-trail="student"><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
           <a class="trail-card" href="pages/fresh-graduate.html" data-trail="fresh"><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
@@ -699,8 +711,8 @@
           <a class="trail-card" href="pages/about.html" data-trail="about"><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
 
-        <div class="fx d3" style="margin-top:40px"><a class="cta" href="career-map-assessment.html" data-i18n="hor.cta">Get your free Career Map — the climb starts in 15 minutes</a></div>
-        <p class="fx d4" style="margin-top:16px;font-size:12.5px;color:var(--muted)" data-i18n="hor.fine">Free diagnostic · Personalized route · No credit card, no spam, no generic advice</p>
+        <div class="fx d3" style="margin-top:16px"><a class="cta" href="career-map-assessment.html" data-i18n="hor.cta">Get your free Career Map — the climb starts in 15 minutes</a></div>
+        <p class="fx d4" style="margin-top:9px;font-size:12px;color:var(--muted)" data-i18n="hor.fine">Free diagnostic · Personalized route · No credit card, no spam, no generic advice</p>
       </div>
     </div>
   </section>
@@ -871,7 +883,7 @@
       'hor.ch':'Bab V · Pegunungan di kejauhan','hor.h2':'Dari puncak ini, kamu bisa melihat puncak-puncak berikutnya.',
       'hor.lede':'',
       'hor.voice':'“Metanoia—teman perjalanan yang membantumu berkembang, bertumbuh, dan mencapai puncak karier impianmu. <em>Ini bukan sekadar tentang mendapatkan pekerjaan, tetapi tentang menjadi versi terbaik dari dirimu.</em>”',
-      'hor.cta':'Ambil Career Map gratismu — pendakianmu dimulai dalam 15 menit',
+      'hor.cta':'Buat Career Map Assessment-mu secara Gratis',
       'hor.fine':'Diagnostik gratis · Rute personal · Tanpa kartu kredit, tanpa spam, tanpa saran generik',
       'paths.eye':'Pilih jalurmu','paths.h3':'Delapan jalur berlanjut dari puncak ini. Pilih milikmu.',
       'paths.student':'Mahasiswa','paths.student.d':'Susun petamu sebelum hari wisuda.',
