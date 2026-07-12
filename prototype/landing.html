@@ -247,16 +247,19 @@
   #horizon .lede{text-wrap:balance;max-width:34em}
   /* Horizon — tightened vertical rhythm so the primary CTA lands within the
      first viewport (the 8-trail grid + CTA are the conversion moment) */
-  body:not(.m) #horizon .content{padding-top:40px;padding-bottom:40px}
-  #horizon h2{margin-top:6px;font-size:clamp(1.55rem,3.4vw,2.5rem)}
-  #horizon .lede{font-size:clamp(.86rem,1.12vw,.95rem);margin-top:10px;line-height:1.5;max-width:52em}
-  #horizon .voice{margin-top:12px;font-size:clamp(.95rem,1.55vw,1.14rem);line-height:1.38;max-width:50em}
-  #horizon .paths{margin-top:10px;gap:10px}
-  #horizon .trail-card{padding:12px 12px 11px;border-radius:14px}
-  #horizon .trail-icon{width:40px;height:40px;margin-bottom:7px}
+  body:not(.m) #horizon .content{padding-top:34px;padding-bottom:36px}
+  /* The core brand line — the emotional focal point of the section.
+     Enlarged size scoped to desktop; mobile keeps the standard scene scale. */
+  #horizon h2{margin-top:4px;font-weight:800}
+  body:not(.m) #horizon h2{font-size:clamp(2.3rem,4.8vw,3.6rem);line-height:1.04;letter-spacing:-.028em}
+  #horizon .lede{font-size:clamp(.86rem,1.12vw,.95rem);margin-top:14px;line-height:1.5;max-width:52em}
+  #horizon .voice{margin-top:12px;font-size:clamp(.92rem,1.5vw,1.1rem);line-height:1.38;max-width:50em}
+  #horizon .paths{margin-top:10px;gap:9px}
+  #horizon .trail-card{padding:11px 12px 10px;border-radius:14px}
+  #horizon .trail-icon{width:38px;height:38px;margin-bottom:6px}
   #horizon .trail-card h4{font-size:13.5px;margin-bottom:3px}
-  #horizon .trail-card p{font-size:11px;line-height:1.38}
-  #horizon .trail-arrow{margin-top:7px}
+  #horizon .trail-card p{font-size:11px;line-height:1.35}
+  #horizon .trail-arrow{margin-top:6px}
 
   /* CONTACT — the fire stays lit */
   #contact .content{max-width:900px}
@@ -698,7 +701,7 @@
         <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
         <p class="voice fx d2" data-i18n="hor.voice">“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”</p>
 
-        <span class="eyebrow fx d2" style="display:block;margin-top:22px" data-i18n="paths.eye">Choose your path</span>
+        <span class="eyebrow fx d2" style="display:block;margin-top:16px" data-i18n="paths.eye">Choose your path</span>
         <p class="lede fx d2" style="margin-top:6px;font-size:13.5px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
         <div class="paths" role="navigation" aria-label="Audience pathways">
           <a class="trail-card" href="pages/student.html" data-trail="student"><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
