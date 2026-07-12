@@ -562,7 +562,7 @@
       <button class="btn btn-glass" id="shareX" data-t="done.shx">Share on X</button>
     </div>
     <div class="done-foot dstep d5">
-      <b style="color:rgba(255,255,255,.55)">Metanoia Labs · metanoialabs.id</b><br>
+      <b style="color:rgba(255,255,255,.55)">Metanoia Labs · metanoialabs.net</b><br>
       <span id="doneFootDate">Your Career Map was generated today.</span> It is personal to you and not for distribution.<br>
       Every summit story was first told around a fire. Yours starts here.
     </div>
@@ -1327,8 +1327,8 @@ const RP_TOTAL=10;
 function rphead(){ const t=lang==='id'?'Asesmen Kesiapan Karier':'Career Readiness Assessment';
   return `<div class="rphead"><b>Metanoia Career Map</b><span>${t} · ${escapeHtml(S.profile.name||'Climber')}</span></div>`; }
 function rpfoot(n){ return lang==='id'
-  ? `<div class="rpfoot"><span>Rahasia · Bukan untuk disebarluaskan · metanoialabs.id</span><span>Halaman ${n} dari ${RP_TOTAL}</span></div>`
-  : `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.id</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
+  ? `<div class="rpfoot"><span>Rahasia · Bukan untuk disebarluaskan · metanoialabs.net</span><span>Halaman ${n} dari ${RP_TOTAL}</span></div>`
+  : `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.net</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
 const kick=(n,t)=>`<div class="kick report-section-header"><span class="kn">${n}</span><span class="kt">${t}</span></div>`;
 function bandScale(t,lv){
   const NAMES=['Base Camp','First Ascent','Mid-Mountain','High Camp','Summit Ready'];
@@ -1404,7 +1404,7 @@ function buildReport(){
     <div class="dots">${[1,2,3,4,5].map(i=>`<i class="${i<=bd.lv?'on':''}"></i>`).join('')}</div>
     <div class="scorewrap">${svgDial(t,110,true)}<div class="bandlbl">${bd.label}<br>
       <span style="font-size:8pt;font-weight:600;color:rgba(245,239,230,.65);letter-spacing:.04em">${L.bandOf(bd.lv,dateStr)}</span></div></div>
-    <div class="cfoot"><span>${L.cfoot(monthYear)}</span><span style="letter-spacing:.18em;font-weight:800">metanoialabs.id</span></div>
+    <div class="cfoot"><span>${L.cfoot(monthYear)}</span><span style="letter-spacing:.18em;font-weight:800">metanoialabs.net</span></div>
   </div>`);
 
   /* Executive summary */
@@ -1582,7 +1582,7 @@ function buildReport(){
         <div class="ic" style="background:${f.c}">${f.ic}</div>
         <h4>${i===0?L.start:''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
       <a class="ns-cta" href="landing.html">${L.nsCta}</a>
-      <div class="ns-url">metanoialabs.id</div>
+      <div class="ns-url">metanoialabs.net</div>
     </div>${rpfoot(pageNo)}
   </div>`);
 
@@ -1678,7 +1678,7 @@ document.getElementById('shareBtn').onclick=async()=>{
   try{ if(navigator.share){await navigator.share({text});} else {await navigator.clipboard.writeText(text);
     const b=document.getElementById('shareBtn');const o=b.textContent;b.textContent='Copied!';setTimeout(()=>b.textContent=o,1600);} }catch(e){}
 };
-document.getElementById('shareLi').onclick=()=>open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent('https://metanoialabs.id'),'_blank');
+document.getElementById('shareLi').onclick=()=>open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent('https://metanoialabs.net'),'_blank');
 document.getElementById('shareX').onclick=()=>open('https://twitter.com/intent/tweet?text='+encodeURIComponent(shareData().text),'_blank');
 
 document.getElementById('capform').addEventListener('submit',async function(e){
