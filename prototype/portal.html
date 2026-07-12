@@ -21,6 +21,10 @@
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{font-family:var(--font);background:var(--bg-base);color:var(--text);-webkit-font-smoothing:antialiased}
+  /* photographic summit backdrop, fixed, behind the whole portal */
+  body::before{content:"";position:fixed;inset:0;z-index:-2;background:url('assets/bg/portal.jpg') center top/cover no-repeat}
+  body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:linear-gradient(180deg,rgba(5,10,18,.82) 0%,rgba(5,10,18,.90) 45%,rgba(5,10,18,.96) 100%)}
   h1,h2,h3,h4{margin:0}
   button{font-family:inherit;cursor:pointer}
 
@@ -66,7 +70,7 @@
   .logout-item:hover{color:#EF4444;background:rgba(239,68,68,.08)}
 
   /* ═══ MAIN CONTENT ═══ */
-  .portal-content{margin-left:var(--sidebar-width);margin-top:var(--topbar-height);min-height:calc(100vh - var(--topbar-height));background:var(--bg-dark);padding:32px 36px}
+  .portal-content{margin-left:var(--sidebar-width);margin-top:var(--topbar-height);min-height:calc(100vh - var(--topbar-height));background:transparent;padding:32px 36px}
   .module{display:none;animation:modIn .35s ease}
   .module.active{display:block}
   @keyframes modIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
@@ -619,7 +623,7 @@
           <p>The Metanoia Team is here to help with any questions or challenges you may have. We typically respond within one business day.</p></div>
       </div>
       <div class="support-actions">
-        <a href="mailto:hello@metanoialabs.id" class="btn-support-primary">Email the Team →</a>
+        <a href="mailto:hello@metanoialabs.net" class="btn-support-primary">Email the Team →</a>
         <a href="#" class="btn-support-ghost">WhatsApp Support</a>
       </div>
     </div>
