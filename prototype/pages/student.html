@@ -113,8 +113,11 @@
 
   /* ═══ SECTION 2 — THE REALIZATION (editorial redesign) ═══ */
   .realization-section{background:var(--bg-base);padding:120px 0;position:relative;overflow:hidden}
+  .realization-bg{position:absolute;inset:0;background:url('../assets/bg/ch1-realization.jpg') center/cover no-repeat;opacity:.32;pointer-events:none}
+  .realization-bg::after{content:'';position:absolute;inset:0;
+    background:linear-gradient(180deg,var(--bg-base) 0%,transparent 18%,transparent 70%,var(--bg-base) 100%)}
   .realization-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
-    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent);z-index:1}
   .realization-section::after{content:'';position:absolute;top:-140px;left:-160px;width:560px;height:560px;
     background:radial-gradient(circle,rgba(201,168,76,.05) 0%,transparent 65%);pointer-events:none}
   .realization-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:start}
@@ -128,6 +131,10 @@
   .quote-mark{position:absolute;top:-10px;left:22px;font-size:52px;color:var(--gold);line-height:1;
     font-family:Georgia,serif;opacity:.75}
   .realization-quote p{font-size:16.5px;color:var(--text-sub);line-height:1.65;font-style:italic;margin:0}
+  .realization-quote.declaration{border-left:3px solid var(--gold-bright);text-align:center;padding:32px 36px}
+  .realization-quote.declaration .quote-mark{display:none}
+  .realization-quote.declaration p{font-style:normal;font-weight:800;font-size:clamp(14px,1.6vw,17px);
+    letter-spacing:.12em;color:var(--gold-bright);line-height:1.6}
 
   /* — journey timeline (right column) — */
   .university-timeline{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:22px;
@@ -464,7 +471,8 @@
 
 <!-- ═══ SECTION 2 — THE REALIZATION ═══ -->
 <section class="realization-section" id="why-now">
-  <div class="section-inner">
+  <div class="realization-bg"></div>
+  <div class="section-inner" style="position:relative;z-index:1">
 
     <div class="section-chapter-label">
       <span class="chapter-line-sm"></span>
@@ -475,31 +483,33 @@
     <div class="realization-grid reveal">
 
       <div class="realization-narrative">
-        <h2 class="realization-headline" data-en="Your career doesn&apos;t start after graduation—<br><em>it starts the moment you begin preparing for it.</em>" data-id="Hari wisuda bukan garis start kariermu.<br><em>Itu hanyalah hari ketika persiapanmu mulai terlihat.</em>">
-          Your career doesn't start after graduation—<br><em>it starts the moment you begin preparing for it.</em>
+        <h2 class="realization-headline" data-en="Your career doesn&apos;t begin after graduation—<br><em>it begins the moment you start preparing for it.</em>" data-id="Kariermu tidak dimulai setelah wisuda—<br><em>ia dimulai sejak kamu mulai mempersiapkannya.</em>">
+          Your career doesn't begin after graduation—<br><em>it begins the moment you start preparing for it.</em>
         </h2>
 
         <div class="realization-body">
-          <p data-en="Looking back from the Mature Professional stage, one realization stands above the rest:" data-id="Sebagai seseorang yang sudah berada di tahap Mature Professional, saya menyadari satu hal penting:">
-            Looking back from the Mature Professional stage, one realization stands above the rest:
+          <p data-en="Looking back from the perspective of experienced professionals, one realization stands above all others:" data-id="Melihat ke belakang dari sudut pandang para profesional berpengalaman, satu kesadaran menonjol di atas yang lain:">
+            Looking back from the perspective of experienced professionals, one realization stands above all others:
           </p>
           <p class="lead-statement" data-en="The career journey doesn&apos;t begin after you graduate. It begins on the first day you walk onto campus." data-id="Perjalanan karier tidak dimulai setelah lulus kuliah. Ia dimulai sejak hari pertama kamu masuk kampus.">
             The career journey doesn't begin after you graduate. It begins on the first day you walk onto campus.
           </p>
-          <p data-en="By the time I graduated, my CV wasn&apos;t just coursework and grades. It already carried internships, student organizations, volunteer work, national and international competitions, student exchange — the experiences that made it stand out from every other applicant&apos;s." data-id="Saat saya lulus, CV saya tidak hanya berisi mata kuliah dan nilai. Di dalamnya sudah ada pengalaman magang, organisasi, volunteer, lomba nasional &amp; internasional, student exchange, dan banyak hal lain yang membuat saya stand out dibandingkan pelamar lain.">
-            By the time I graduated, my CV wasn't just coursework and grades. It already carried internships, student organizations, volunteer work, national and international competitions, student exchange — the experiences that made it stand out from every other applicant's.
-          </p>
-          <p data-en="I was fortunate to realize it early. Unfortunately, not every student gets that kind of luck." data-id="Saya beruntung menyadarinya lebih awal. Sayangnya, tidak semua mahasiswa mendapatkan keberuntungan itu.">
-            I was fortunate to realize it early. Unfortunately, not every student gets that kind of luck.
+          <p data-en="By the time the Metanoia team graduated, their résumés reflected far more than academic performance. They showcased internships, leadership roles in student organizations, volunteer initiatives, national and international competitions, student exchange programs, and other meaningful experiences that distinguished them from thousands of equally qualified graduates." data-id="Saat tim Metanoia lulus, CV mereka mencerminkan jauh lebih dari sekadar prestasi akademik. CV tersebut memuat pengalaman magang, peran kepemimpinan di organisasi mahasiswa, inisiatif volunteer, kompetisi nasional dan internasional, program pertukaran pelajar, serta berbagai pengalaman bermakna yang membedakan mereka dari ribuan lulusan dengan kualifikasi serupa.">
+            By the time the Metanoia team graduated, their résumés reflected far more than academic performance. They showcased internships, leadership roles in student organizations, volunteer initiatives, national and international competitions, student exchange programs, and other meaningful experiences that distinguished them from thousands of equally qualified graduates.
           </p>
         </div>
 
-        <blockquote class="realization-quote">
-          <span class="quote-mark">"</span>
-          <p data-en="The strongest CV isn&apos;t written during the final semester. It&apos;s written through thousands of decisions made over four years." data-id="CV terkuat tidak ditulis di semester akhir. Ia ditulis melalui ribuan keputusan yang dibuat selama empat tahun.">
-            The strongest CV isn't written during the final semester. It's written through thousands of decisions made over four years.
+        <blockquote class="realization-quote declaration">
+          <p data-en="THE DIFFERENCE WAS NEVER JUST TALENT, IT WAS PREPARATION." data-id="PERBEDAANNYA BUKAN SEKADAR BAKAT, TAPI PERSIAPAN.">
+            THE DIFFERENCE WAS NEVER JUST TALENT, IT WAS PREPARATION.
           </p>
         </blockquote>
+
+        <div class="realization-body">
+          <p data-en="The Metanoia team was fortunate to recognize this early. Unfortunately, many students only realize it after graduation, when opportunities have already passed them by." data-id="Tim Metanoia beruntung menyadari hal ini lebih awal. Sayangnya, banyak mahasiswa baru menyadarinya setelah wisuda, ketika peluang sudah terlewat.">
+            The Metanoia team was fortunate to recognize this early. Unfortunately, many students only realize it after graduation, when opportunities have already passed them by.
+          </p>
+        </div>
       </div>
 
       <div class="university-timeline">
