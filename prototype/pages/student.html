@@ -131,8 +131,8 @@
   .rz-texture{position:absolute;inset:0;pointer-events:none;opacity:.016;
     background-image:url('../assets/topo-pattern.svg');background-size:560px}
 
-  /* — opening grid: serif narrative left, archway visual right — */
-  .ro-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:44px;
+  /* — opening grid: serif narrative left, doorway visual right — */
+  .ro-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:56px;
     align-items:center;margin-bottom:78px}
   .ro-chapter{display:flex;align-items:center;gap:14px;font-size:10.5px;font-weight:700;
     letter-spacing:.30em;text-transform:uppercase;color:var(--gold);margin-bottom:30px}
@@ -162,29 +162,27 @@
   .ro-grid.revealed .ro-visual{opacity:1;transform:none;transition-delay:.30s}
   .ro-grid.revealed .ro-intro{opacity:1;transform:none;transition-delay:.42s}
 
-  /* — archway visual + milestone trail — */
-  .ro-visual{position:relative;min-height:560px}
-  .arch-wrap{position:absolute;top:6px;right:22px;width:min(292px,68%)}
-  .arch-halo{position:absolute;inset:-14px;border-radius:999px 999px 22px 22px;pointer-events:none;
+  /* — doorway visual (prominent focal point) — */
+  .ro-visual{position:relative}
+  .arch-wrap{position:relative;width:100%}
+  .arch-halo{position:absolute;inset:-16px;border-radius:20px;pointer-events:none;
     border:1px solid rgba(201,168,76,.22)}
-  .arch-wrap::after{content:'';position:absolute;left:50%;bottom:-38px;transform:translateX(-50%);
-    width:130%;height:64px;pointer-events:none;filter:blur(7px);
-    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.20), transparent 78%)}
-  .arch-frame{width:100%;aspect-ratio:3/4.5;border-radius:999px 999px 14px 14px;overflow:hidden;
-    border:1px solid rgba(201,168,76,.42);animation:archGlow 7s ease-in-out infinite}
+  .arch-wrap::after{content:'';position:absolute;left:50%;bottom:-40px;transform:translateX(-50%);
+    width:88%;height:70px;pointer-events:none;filter:blur(9px);
+    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.22), transparent 78%)}
+  .arch-frame{width:100%;aspect-ratio:3/2;border-radius:14px;overflow:hidden;
+    border:1px solid rgba(201,168,76,.42);animation:archGlow 7s ease-in-out infinite;position:relative}
   @keyframes archGlow{
     0%,100%{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
     50%{box-shadow:0 0 84px rgba(201,168,76,.24),0 26px 64px rgba(0,0,0,.42)}}
-  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 62%;display:block}
+  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block}
   .arch-frame::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-    background:linear-gradient(180deg,transparent 60%,rgba(5,10,18,.52) 100%);
-    box-shadow:inset 0 0 0 5px rgba(5,10,18,.30),inset 0 0 48px rgba(5,10,18,.40)}
-  .ro-path{position:absolute;left:-14px;bottom:-4px;width:80%;max-width:410px;pointer-events:none}
-  .ro-path svg{width:100%;height:auto;display:block;overflow:visible}
-  .ro-path text{font-family:var(--font);font-size:11.5px;font-weight:600;letter-spacing:.2em;fill:var(--text-sub);
-    paint-order:stroke;stroke:var(--bg-base);stroke-width:3.5px;stroke-linejoin:round}
-  .ms-dot{animation:msPulse 2.8s ease-in-out infinite}
-  @keyframes msPulse{0%,100%{opacity:.55}50%{opacity:1}}
+    box-shadow:inset 0 0 0 5px rgba(5,10,18,.22),inset 0 0 60px rgba(5,10,18,.20)}
+  .arch-corner{position:absolute;width:22px;height:22px;pointer-events:none}
+  .arch-corner.tl{top:10px;left:10px;border-top:1px solid rgba(201,168,76,.7);border-left:1px solid rgba(201,168,76,.7);border-radius:6px 0 0 0}
+  .arch-corner.tr{top:10px;right:10px;border-top:1px solid rgba(201,168,76,.7);border-right:1px solid rgba(201,168,76,.7);border-radius:0 6px 0 0}
+  .arch-corner.bl{bottom:10px;left:10px;border-bottom:1px solid rgba(201,168,76,.7);border-left:1px solid rgba(201,168,76,.7);border-radius:0 0 0 6px}
+  .arch-corner.br{bottom:10px;right:10px;border-bottom:1px solid rgba(201,168,76,.7);border-right:1px solid rgba(201,168,76,.7);border-radius:0 0 6px 0}
 
   /* — glass quote card — */
   .ro-quote{max-width:780px;margin:0 auto 64px;background:var(--glass-bg);border:1px solid var(--gold-border-hover);
@@ -502,9 +500,8 @@
   :root[data-theme="light"] .ro-qmark,:root[data-theme="light"] .ro-divider svg,
   :root[data-theme="light"] .ro-endmark svg{background:var(--bg-base)}
   :root[data-theme="light"] .arch-frame{animation:none;
-    box-shadow:0 0 54px rgba(139,105,20,.15),0 22px 54px rgba(27,36,52,.24)}
-  :root[data-theme="light"] .arch-frame::after{background:linear-gradient(180deg,transparent 60%,rgba(15,22,36,.46) 100%);
-    box-shadow:inset 0 0 0 5px rgba(255,255,255,.16),inset 0 0 40px rgba(27,36,52,.20)}
+    box-shadow:0 0 54px rgba(139,105,20,.14),0 22px 54px rgba(27,36,52,.22)}
+  :root[data-theme="light"] .arch-frame::after{box-shadow:inset 0 0 0 5px rgba(255,255,255,.16),inset 0 0 40px rgba(27,36,52,.14)}
   :root[data-theme="light"] .arch-halo{border-color:rgba(139,105,20,.30)}
   :root[data-theme="light"] .arch-wrap::after{background:radial-gradient(50% 100% at 50% 0%, rgba(139,105,20,.18), transparent 78%)}
   :root[data-theme="light"] .rz-texture{opacity:.028}
@@ -529,10 +526,9 @@
     .pillars-grid-four{grid-template-columns:1fr 1fr}
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
-    .ro-grid{grid-template-columns:1fr;gap:52px}
-    .ro-visual{min-height:0;display:flex;flex-direction:column;align-items:center;gap:44px}
-    .arch-wrap{position:relative;top:auto;right:auto;width:min(280px,80%)}
-    .ro-path{position:static;width:min(400px,92%)}
+    .ro-grid{grid-template-columns:1fr;gap:48px}
+    .ro-visual{min-height:0}
+    .arch-wrap{width:100%;max-width:640px;margin:0 auto}
     .traits-panel{grid-template-columns:repeat(3,1fr)}
     .trait{border-left:1px solid rgba(201,168,76,.13)}
     .trait:nth-child(3n+1){border-left:0}
@@ -705,24 +701,14 @@
 
       <div class="ro-visual" aria-hidden="true">
         <div class="arch-wrap">
-          <div class="arch-frame"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy"></div>
+          <div class="arch-frame">
+            <img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy">
+            <span class="arch-corner tl"></span>
+            <span class="arch-corner tr"></span>
+            <span class="arch-corner bl"></span>
+            <span class="arch-corner br"></span>
+          </div>
           <div class="arch-halo"></div>
-        </div>
-        <div class="ro-path">
-          <svg viewBox="0 0 440 300" fill="none">
-            <line x1="36" y1="258" x2="140" y2="196" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-            <line x1="140" y1="196" x2="244" y2="134" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-            <line x1="244" y1="134" x2="348" y2="72" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-            <line x1="348" y1="72" x2="404" y2="38" stroke="rgba(240,216,120,.16)" stroke-width="1" stroke-dasharray="3 5"/>
-            <g class="ms-dot"><circle cx="36" cy="258" r="9" fill="rgba(240,216,120,.15)"/><circle cx="36" cy="258" r="5" fill="rgba(240,216,120,.32)"/><circle cx="36" cy="258" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:.6s"><circle cx="140" cy="196" r="9" fill="rgba(240,216,120,.15)"/><circle cx="140" cy="196" r="5" fill="rgba(240,216,120,.32)"/><circle cx="140" cy="196" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:1.2s"><circle cx="244" cy="134" r="9" fill="rgba(240,216,120,.15)"/><circle cx="244" cy="134" r="5" fill="rgba(240,216,120,.32)"/><circle cx="244" cy="134" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:1.8s"><circle cx="348" cy="72" r="9" fill="rgba(240,216,120,.15)"/><circle cx="348" cy="72" r="5" fill="rgba(240,216,120,.32)"/><circle cx="348" cy="72" r="2.6" fill="#F0D878"/></g>
-            <text x="54" y="263">AWARENESS</text>
-            <text x="158" y="201">EXPLORATION</text>
-            <text x="228" y="139" text-anchor="end">DEVELOPMENT</text>
-            <text x="332" y="77" text-anchor="end">IMPACT</text>
-          </svg>
         </div>
       </div>
     </div>
