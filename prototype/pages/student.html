@@ -124,33 +124,62 @@
   .realization-section{background:var(--bg-base);padding:120px 0 100px;position:relative;overflow:hidden}
   .realization-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent);z-index:1}
-  .realization-section::after{content:'';position:absolute;top:-140px;right:-180px;width:640px;height:640px;
-    background:radial-gradient(circle,rgba(201,168,76,.06) 0%,transparent 65%);pointer-events:none}
+  .rz-ambience{position:absolute;inset:0;pointer-events:none;background:
+    radial-gradient(44% 32% at 76% 8%, rgba(201,168,76,.10), transparent 72%),
+    radial-gradient(34% 26% at 10% 46%, rgba(29,95,171,.055), transparent 72%),
+    radial-gradient(50% 30% at 50% 100%, rgba(201,168,76,.045), transparent 75%)}
+  .rz-texture{position:absolute;inset:0;pointer-events:none;opacity:.016;
+    background-image:url('../assets/topo-pattern.svg');background-size:560px}
 
   /* — opening grid: serif narrative left, archway visual right — */
-  .ro-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:48px;
-    align-items:center;margin-bottom:70px}
-  .ro-chapter{font-size:10.5px;font-weight:700;letter-spacing:.30em;text-transform:uppercase;
-    color:var(--gold);margin-bottom:28px}
-  .ro-headline{font-family:var(--serif);font-size:clamp(2.1rem,3.7vw,3.25rem);font-weight:600;
-    color:var(--text);line-height:1.2;letter-spacing:.002em;margin:0 0 40px}
-  .ro-headline em{font-style:italic;color:var(--gold);font-weight:500}
-  .ro-intro{display:flex;gap:20px;align-items:center;max-width:540px}
-  .ro-icon{flex:none;width:64px;height:64px;border-radius:50%;border:1px solid rgba(201,168,76,.42);
-    display:flex;align-items:center;justify-content:center;background:rgba(201,168,76,.06);
-    box-shadow:0 0 26px rgba(201,168,76,.14);color:var(--gold)}
-  .ro-icon svg{width:30px;height:30px;display:block}
-  .ro-intro p{font-size:15px;color:var(--text-sub);line-height:1.75;margin:0}
+  .ro-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:44px;
+    align-items:center;margin-bottom:78px}
+  .ro-chapter{display:flex;align-items:center;gap:14px;font-size:10.5px;font-weight:700;
+    letter-spacing:.30em;text-transform:uppercase;color:var(--gold);margin-bottom:30px}
+  .ro-chapter::before{content:'';width:36px;height:1px;background:var(--gold);opacity:.65;flex:none}
+  .ro-headline{font-family:var(--serif);font-size:clamp(2.05rem,3.5vw,3.05rem);font-weight:600;
+    color:var(--text);line-height:1.22;letter-spacing:.002em;margin:0 0 42px}
+  .ro-headline em{font-style:italic;font-weight:500;
+    background:linear-gradient(105deg,var(--gold-deep) 0%,var(--gold-bright) 55%,var(--gold) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .ro-intro{display:flex;gap:24px;align-items:center;max-width:560px}
+  .ro-icon{flex:none;width:68px;height:68px;border-radius:50%;border:1px solid rgba(201,168,76,.45);
+    display:flex;align-items:center;justify-content:center;position:relative;
+    background:radial-gradient(circle at 38% 30%, rgba(201,168,76,.14), rgba(201,168,76,.03) 70%);
+    box-shadow:0 0 30px rgba(201,168,76,.16);color:var(--gold)}
+  .ro-icon::after{content:'';position:absolute;inset:-8px;border-radius:50%;
+    border:1px dashed rgba(201,168,76,.30);animation:emblemSpin 46s linear infinite}
+  @keyframes emblemSpin{to{transform:rotate(360deg)}}
+  .ro-icon svg{width:32px;height:32px;display:block}
+  .ro-intro p{font-family:var(--serif);font-style:italic;font-size:16.5px;color:var(--text-sub);
+    line-height:1.7;margin:0}
 
-  /* — archway visual + milestone path — */
-  .ro-visual{position:relative;min-height:540px}
-  .arch-frame{position:absolute;top:0;right:8px;width:min(295px,70%);aspect-ratio:3/4.5;
-    border-radius:999px 999px 18px 18px;overflow:hidden;border:1px solid rgba(201,168,76,.38);
-    box-shadow:0 0 64px rgba(201,168,76,.15),0 26px 64px rgba(0,0,0,.42)}
-  .arch-frame img{width:100%;height:100%;object-fit:cover;display:block}
+  /* — staggered reveal choreography for the opening — */
+  .ro-grid .ro-chapter,.ro-grid .ro-headline,.ro-grid .ro-intro,.ro-grid .ro-visual{
+    opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+  .ro-grid.revealed .ro-chapter{opacity:1;transform:none;transition-delay:.05s}
+  .ro-grid.revealed .ro-headline{opacity:1;transform:none;transition-delay:.18s}
+  .ro-grid.revealed .ro-visual{opacity:1;transform:none;transition-delay:.30s}
+  .ro-grid.revealed .ro-intro{opacity:1;transform:none;transition-delay:.42s}
+
+  /* — archway visual + milestone trail — */
+  .ro-visual{position:relative;min-height:560px}
+  .arch-wrap{position:absolute;top:6px;right:22px;width:min(292px,68%)}
+  .arch-halo{position:absolute;inset:-14px;border-radius:999px 999px 22px 22px;pointer-events:none;
+    border:1px solid rgba(201,168,76,.22)}
+  .arch-wrap::after{content:'';position:absolute;left:50%;bottom:-38px;transform:translateX(-50%);
+    width:130%;height:64px;pointer-events:none;filter:blur(7px);
+    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.20), transparent 78%)}
+  .arch-frame{width:100%;aspect-ratio:3/4.5;border-radius:999px 999px 14px 14px;overflow:hidden;
+    border:1px solid rgba(201,168,76,.42);animation:archGlow 7s ease-in-out infinite}
+  @keyframes archGlow{
+    0%,100%{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
+    50%{box-shadow:0 0 84px rgba(201,168,76,.24),0 26px 64px rgba(0,0,0,.42)}}
+  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 62%;display:block}
   .arch-frame::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-    box-shadow:inset 0 0 0 5px rgba(5,10,18,.30),inset 0 0 48px rgba(5,10,18,.42)}
-  .ro-path{position:absolute;left:-12px;bottom:0;width:78%;max-width:400px;pointer-events:none}
+    background:linear-gradient(180deg,transparent 60%,rgba(5,10,18,.52) 100%);
+    box-shadow:inset 0 0 0 5px rgba(5,10,18,.30),inset 0 0 48px rgba(5,10,18,.40)}
+  .ro-path{position:absolute;left:-14px;bottom:-4px;width:80%;max-width:410px;pointer-events:none}
   .ro-path svg{width:100%;height:auto;display:block;overflow:visible}
   .ro-path text{font-family:var(--font);font-size:11.5px;font-weight:600;letter-spacing:.2em;fill:var(--text-sub);
     paint-order:stroke;stroke:var(--bg-base);stroke-width:3.5px;stroke-linejoin:round}
@@ -158,16 +187,27 @@
   @keyframes msPulse{0%,100%{opacity:.55}50%{opacity:1}}
 
   /* — glass quote card — */
-  .ro-quote{max-width:780px;margin:0 auto 60px;background:var(--glass-bg);border:1px solid var(--gold-border);
-    border-radius:18px;padding:44px 48px 38px;position:relative;backdrop-filter:var(--glass-blur);text-align:center}
-  .ro-qmark{position:absolute;top:-20px;left:50%;transform:translateX(-50%);font-family:Georgia,serif;
-    font-size:58px;line-height:.7;color:var(--gold);background:var(--bg-base);padding:0 16px}
-  .ro-quote p{font-family:var(--serif);font-size:clamp(1.15rem,1.9vw,1.45rem);color:var(--gold);
-    line-height:1.65;margin:0;font-weight:500}
+  .ro-quote{max-width:780px;margin:0 auto 64px;background:var(--glass-bg);border:1px solid var(--gold-border-hover);
+    border-radius:20px;padding:54px 56px 42px;position:relative;backdrop-filter:var(--glass-blur);text-align:center;
+    box-shadow:0 26px 70px rgba(0,0,0,.32)}
+  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;
+    border-top:1px solid rgba(201,168,76,.5);border-left:1px solid rgba(201,168,76,.5);border-radius:7px 0 0 0}
+  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;
+    border-bottom:1px solid rgba(201,168,76,.5);border-right:1px solid rgba(201,168,76,.5);border-radius:0 0 7px 0}
+  .ro-qmark{position:absolute;top:-26px;left:50%;transform:translateX(-50%);width:52px;height:52px;
+    border-radius:50%;background:var(--bg-base);border:1px solid rgba(201,168,76,.5);
+    display:flex;align-items:center;justify-content:center;
+    font-family:Georgia,serif;font-size:34px;line-height:0;color:var(--gold);
+    box-shadow:0 0 22px rgba(201,168,76,.18)}
+  .ro-qmark i{font-style:normal;transform:translateY(9px)}
+  .ro-quote p{font-family:var(--serif);font-size:clamp(1.18rem,1.9vw,1.5rem);color:var(--gold);
+    line-height:1.68;margin:0;font-weight:500}
+  .q-diamond{width:8px;height:8px;margin:24px auto 0;transform:rotate(45deg);
+    background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.85}
 
   /* — narrative body with gold highlights — */
-  .ro-body{max-width:780px;margin:0 auto 62px}
-  .ro-body p{font-size:15px;color:var(--text-sub);line-height:2;margin:0}
+  .ro-body{max-width:740px;margin:0 auto 62px}
+  .ro-body p{font-size:15.5px;color:var(--text-sub);line-height:2;margin:0}
   .hl-gold{color:var(--gold);font-weight:600}
 
   /* — crest divider — */
@@ -461,8 +501,17 @@
   /* section components */
   :root[data-theme="light"] .ro-qmark,:root[data-theme="light"] .ro-divider svg,
   :root[data-theme="light"] .ro-endmark svg{background:var(--bg-base)}
-  :root[data-theme="light"] .arch-frame{box-shadow:0 0 54px rgba(139,105,20,.14),0 22px 54px rgba(27,36,52,.22)}
-  :root[data-theme="light"] .arch-frame::after{box-shadow:inset 0 0 0 5px rgba(255,255,255,.18),inset 0 0 40px rgba(27,36,52,.18)}
+  :root[data-theme="light"] .arch-frame{animation:none;
+    box-shadow:0 0 54px rgba(139,105,20,.15),0 22px 54px rgba(27,36,52,.24)}
+  :root[data-theme="light"] .arch-frame::after{background:linear-gradient(180deg,transparent 60%,rgba(15,22,36,.46) 100%);
+    box-shadow:inset 0 0 0 5px rgba(255,255,255,.16),inset 0 0 40px rgba(27,36,52,.20)}
+  :root[data-theme="light"] .arch-halo{border-color:rgba(139,105,20,.30)}
+  :root[data-theme="light"] .arch-wrap::after{background:radial-gradient(50% 100% at 50% 0%, rgba(139,105,20,.18), transparent 78%)}
+  :root[data-theme="light"] .rz-texture{opacity:.028}
+  :root[data-theme="light"] .rz-ambience{background:
+    radial-gradient(44% 32% at 76% 8%, rgba(139,105,20,.08), transparent 72%),
+    radial-gradient(34% 26% at 10% 46%, rgba(29,95,171,.05), transparent 72%)}
+  :root[data-theme="light"] .ro-quote{box-shadow:0 26px 60px rgba(27,36,52,.14)}
   :root[data-theme="light"] .stage-badge{background:#FFFFFF}
   :root[data-theme="light"] .stage-badge.active{background:#FDF6E3}
   :root[data-theme="light"] .stage-row.graduation .stage-badge{
@@ -481,8 +530,8 @@
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
     .ro-grid{grid-template-columns:1fr;gap:52px}
-    .ro-visual{min-height:0;display:flex;flex-direction:column;align-items:center;gap:30px}
-    .arch-frame{position:static;width:min(280px,80%)}
+    .ro-visual{min-height:0;display:flex;flex-direction:column;align-items:center;gap:44px}
+    .arch-wrap{position:relative;top:auto;right:auto;width:min(280px,80%)}
     .ro-path{position:static;width:min(400px,92%)}
     .traits-panel{grid-template-columns:repeat(3,1fr)}
     .trait{border-left:1px solid rgba(201,168,76,.13)}
@@ -518,6 +567,8 @@
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
     .reveal{opacity:1;transform:none}
+    .ro-grid .ro-chapter,.ro-grid .ro-headline,.ro-grid .ro-intro,.ro-grid .ro-visual{opacity:1;transform:none}
+    .arch-frame{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
   }
 </style>
 </head>
@@ -625,13 +676,15 @@
 
 <!-- ═══ SECTION 2 — THE REALIZATION ═══ -->
 <section class="realization-section" id="why-now">
+  <div class="rz-ambience" aria-hidden="true"></div>
+  <div class="rz-texture" aria-hidden="true"></div>
   <div class="section-inner" style="position:relative;z-index:1">
 
     <div class="ro-grid reveal">
       <div class="ro-left">
         <div class="ro-chapter" data-en="Chapter I · The Realization" data-id="Bab I · Kesadaran Awal">Chapter I · The Realization</div>
-        <h2 class="ro-headline" data-en="Your career doesn&apos;t begin<br>after graduation<br><em>it begins the moment you<br>start preparing for it.</em>" data-id="Kariermu tidak dimulai<br>setelah wisuda<br><em>ia dimulai sejak kamu mulai<br>mempersiapkannya.</em>">
-          Your career doesn't begin<br>after graduation<br><em>it begins the moment you<br>start preparing for it.</em>
+        <h2 class="ro-headline" data-en="Your career doesn&apos;t begin after graduation<br><em>it begins the moment you start preparing for it.</em>" data-id="Kariermu tidak dimulai setelah wisuda<br><em>ia dimulai sejak kamu mulai mempersiapkannya.</em>">
+          Your career doesn't begin after graduation<br><em>it begins the moment you start preparing for it.</em>
         </h2>
         <div class="ro-intro">
           <div class="ro-icon" aria-hidden="true">
@@ -651,30 +704,35 @@
       </div>
 
       <div class="ro-visual" aria-hidden="true">
-        <div class="arch-frame"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy"></div>
+        <div class="arch-wrap">
+          <div class="arch-frame"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy"></div>
+          <div class="arch-halo"></div>
+        </div>
         <div class="ro-path">
           <svg viewBox="0 0 440 300" fill="none">
-            <line x1="36" y1="258" x2="130" y2="192" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-            <line x1="130" y1="192" x2="224" y2="126" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-            <line x1="224" y1="126" x2="318" y2="60" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
+            <line x1="36" y1="258" x2="140" y2="196" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
+            <line x1="140" y1="196" x2="244" y2="134" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
+            <line x1="244" y1="134" x2="348" y2="72" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
+            <line x1="348" y1="72" x2="404" y2="38" stroke="rgba(240,216,120,.16)" stroke-width="1" stroke-dasharray="3 5"/>
             <g class="ms-dot"><circle cx="36" cy="258" r="9" fill="rgba(240,216,120,.15)"/><circle cx="36" cy="258" r="5" fill="rgba(240,216,120,.32)"/><circle cx="36" cy="258" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:.6s"><circle cx="130" cy="192" r="9" fill="rgba(240,216,120,.15)"/><circle cx="130" cy="192" r="5" fill="rgba(240,216,120,.32)"/><circle cx="130" cy="192" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:1.2s"><circle cx="224" cy="126" r="9" fill="rgba(240,216,120,.15)"/><circle cx="224" cy="126" r="5" fill="rgba(240,216,120,.32)"/><circle cx="224" cy="126" r="2.6" fill="#F0D878"/></g>
-            <g class="ms-dot" style="animation-delay:1.8s"><circle cx="318" cy="60" r="9" fill="rgba(240,216,120,.15)"/><circle cx="318" cy="60" r="5" fill="rgba(240,216,120,.32)"/><circle cx="318" cy="60" r="2.6" fill="#F0D878"/></g>
+            <g class="ms-dot" style="animation-delay:.6s"><circle cx="140" cy="196" r="9" fill="rgba(240,216,120,.15)"/><circle cx="140" cy="196" r="5" fill="rgba(240,216,120,.32)"/><circle cx="140" cy="196" r="2.6" fill="#F0D878"/></g>
+            <g class="ms-dot" style="animation-delay:1.2s"><circle cx="244" cy="134" r="9" fill="rgba(240,216,120,.15)"/><circle cx="244" cy="134" r="5" fill="rgba(240,216,120,.32)"/><circle cx="244" cy="134" r="2.6" fill="#F0D878"/></g>
+            <g class="ms-dot" style="animation-delay:1.8s"><circle cx="348" cy="72" r="9" fill="rgba(240,216,120,.15)"/><circle cx="348" cy="72" r="5" fill="rgba(240,216,120,.32)"/><circle cx="348" cy="72" r="2.6" fill="#F0D878"/></g>
             <text x="54" y="263">AWARENESS</text>
-            <text x="148" y="197">EXPLORATION</text>
-            <text x="242" y="131">DEVELOPMENT</text>
-            <text x="336" y="65">IMPACT</text>
+            <text x="158" y="201">EXPLORATION</text>
+            <text x="228" y="139" text-anchor="end">DEVELOPMENT</text>
+            <text x="332" y="77" text-anchor="end">IMPACT</text>
           </svg>
         </div>
       </div>
     </div>
 
     <blockquote class="ro-quote reveal">
-      <span class="ro-qmark" aria-hidden="true">&#8220;</span>
+      <span class="ro-qmark" aria-hidden="true"><i>&#8220;</i></span>
       <p data-en="The career journey doesn&apos;t begin after you graduate.<br>It begins on the first day you walk onto campus." data-id="Perjalanan karier tidak dimulai setelah lulus kuliah.<br>Ia dimulai sejak hari pertama kamu masuk kampus.">
         The career journey doesn't begin after you graduate.<br>It begins on the first day you walk onto campus.
       </p>
+      <div class="q-diamond" aria-hidden="true"></div>
     </blockquote>
 
     <div class="ro-body reveal">
