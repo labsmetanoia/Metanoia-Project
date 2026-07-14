@@ -522,6 +522,16 @@
   :root[data-theme="light"] .journey-rail{background:rgba(139,105,20,.18)}
 
   /* ═══ RESPONSIVE ═══ */
+  /* — desktop-only typographic bump for the journey timeline (mobile keeps base sizes) — */
+  @media(min-width:961px){
+    .journey-block{padding:60px 60px 50px}
+    .journey-kicker{font-size:11px;letter-spacing:.32em;margin-bottom:14px}
+    .journey-title{font-size:clamp(15px,1.55vw,18px);letter-spacing:.17em;line-height:1.7}
+    .stage-kicker{font-size:11px;letter-spacing:.24em;margin-bottom:6px}
+    .year-label{font-size:24px;margin-bottom:12px}
+    .year-actions span{font-size:15px;line-height:1.65;margin-bottom:4px}
+    .stage-row.graduation .year-label{font-size:24px}
+  }
   @media(max-width:960px){
     .pillars-grid-four{grid-template-columns:1fr 1fr}
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
