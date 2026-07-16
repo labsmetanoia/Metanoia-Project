@@ -130,6 +130,26 @@
     radial-gradient(50% 30% at 50% 100%, rgba(201,168,76,.045), transparent 75%)}
   .rz-texture{position:absolute;inset:0;pointer-events:none;opacity:.016;
     background-image:url('../assets/topo-pattern.svg');background-size:560px}
+  /* — cinematic layers: light shaft + drifting dust motes — */
+  .rz-beam{position:absolute;top:-12%;right:6%;width:44%;height:70%;pointer-events:none;
+    background:linear-gradient(115deg,transparent 30%,rgba(240,216,120,.05) 50%,transparent 70%);
+    filter:blur(4px);transform:rotate(8deg);animation:beamBreathe 11s ease-in-out infinite}
+  @keyframes beamBreathe{0%,100%{opacity:.5}50%{opacity:1}}
+  .rz-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+  .rz-particles i{position:absolute;bottom:-3%;border-radius:50%;background:#F0D878;filter:blur(1px);
+    opacity:0;animation:moteRise linear infinite}
+  @keyframes moteRise{
+    0%{transform:translateY(0);opacity:0}
+    12%{opacity:var(--mo,.22)}
+    82%{opacity:var(--mo,.22)}
+    100%{transform:translateY(-108vh);opacity:0}}
+  .rz-particles i:nth-child(1){left:8%;width:3px;height:3px;--mo:.20;animation-duration:26s;animation-delay:0s}
+  .rz-particles i:nth-child(2){left:22%;width:4px;height:4px;--mo:.16;animation-duration:32s;animation-delay:6s}
+  .rz-particles i:nth-child(3){left:38%;width:3px;height:3px;--mo:.24;animation-duration:24s;animation-delay:12s}
+  .rz-particles i:nth-child(4){left:55%;width:5px;height:5px;--mo:.13;animation-duration:36s;animation-delay:3s}
+  .rz-particles i:nth-child(5){left:70%;width:3px;height:3px;--mo:.22;animation-duration:28s;animation-delay:16s}
+  .rz-particles i:nth-child(6){left:84%;width:4px;height:4px;--mo:.18;animation-duration:30s;animation-delay:9s}
+  .rz-particles i:nth-child(7){left:93%;width:3px;height:3px;--mo:.20;animation-duration:25s;animation-delay:20s}
 
   /* — opening grid: serif narrative left, doorway visual right — */
   .ro-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:56px;
@@ -162,6 +182,35 @@
   .ro-grid.revealed .ro-visual{opacity:1;transform:none;transition-delay:.30s}
   .ro-grid.revealed .ro-intro{opacity:1;transform:none;transition-delay:.42s}
 
+  /* — cinematic reveal choreography: quote, declaration, traits, stage media — */
+  .ro-quote.reveal{transform:translateY(24px) scale(.985)}
+  .ro-quote.reveal.revealed{transform:none}
+  .ro-quote .ro-qmark{opacity:0;transform:translate(-50%,10px) scale(.55);
+    transition:opacity .5s ease .35s,transform .55s cubic-bezier(.34,1.56,.64,1) .35s}
+  .ro-quote.revealed .ro-qmark{opacity:1;transform:translate(-50%,0) scale(1)}
+  .ro-quote .q-diamond{opacity:0;transform:rotate(45deg) scale(.4);
+    transition:opacity .45s ease .6s,transform .45s cubic-bezier(.34,1.56,.64,1) .6s}
+  .ro-quote.revealed .q-diamond{opacity:.85;transform:rotate(45deg) scale(1)}
+  .ro-decl.reveal{opacity:0;transform:translateY(18px);letter-spacing:.15em;
+    transition:opacity .9s ease,transform .9s ease,letter-spacing 1.25s cubic-bezier(.23,.6,.3,1)}
+  .ro-decl.reveal.revealed{opacity:1;transform:none;letter-spacing:.055em}
+  .traits-panel.reveal .trait{opacity:0;transform:translateY(16px);
+    transition:opacity .55s ease,transform .55s ease}
+  .traits-panel.revealed .trait{opacity:1;transform:none}
+  .traits-panel.revealed .trait:nth-child(1){transition-delay:.06s}
+  .traits-panel.revealed .trait:nth-child(2){transition-delay:.15s}
+  .traits-panel.revealed .trait:nth-child(3){transition-delay:.24s}
+  .traits-panel.revealed .trait:nth-child(4){transition-delay:.33s}
+  .traits-panel.revealed .trait:nth-child(5){transition-delay:.42s}
+  .traits-panel.revealed .trait:nth-child(6){transition-delay:.51s}
+  .trait{transition:background .35s ease}
+  .trait:hover{background:rgba(201,168,76,.045)}
+  .trait svg{transition:transform .35s cubic-bezier(.34,1.3,.64,1)}
+  .trait:hover svg{transform:translateY(-4px)}
+  .stage-row.reveal .stage-media{opacity:0;transform:translateX(26px);
+    transition:opacity .65s ease .18s,transform .65s ease .18s}
+  .stage-row.reveal.revealed .stage-media{opacity:1;transform:none}
+
   /* — doorway visual (prominent focal point) — */
   .ro-visual{position:relative}
   .arch-wrap{position:relative;width:100%}
@@ -175,7 +224,9 @@
   @keyframes archGlow{
     0%,100%{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
     50%{box-shadow:0 0 84px rgba(201,168,76,.24),0 26px 64px rgba(0,0,0,.42)}}
-  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block}
+  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block;
+    animation:kenBurns 26s ease-in-out infinite alternate;will-change:transform}
+  @keyframes kenBurns{from{transform:scale(1.001)}to{transform:scale(1.065)}}
   .arch-frame::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
     box-shadow:inset 0 0 0 5px rgba(5,10,18,.22),inset 0 0 60px rgba(5,10,18,.20)}
   .arch-corner{position:absolute;width:22px;height:22px;pointer-events:none}
@@ -336,28 +387,41 @@
 
   /* ═══ SECTION 3 — CAREER OS ═══ */
   .career-os-section{background:var(--bg-dark);padding:120px 0;position:relative;overflow:hidden}
-  .topo-bg{position:absolute;inset:0;background-image:url('../assets/topo-pattern.svg');opacity:.025;background-size:600px}
+  .topo-bg{position:absolute;inset:0;background-image:url('../assets/topo-pattern.svg');opacity:.038;background-size:600px}
+  .cos-ambience{position:absolute;inset:0;pointer-events:none;background:
+    radial-gradient(40% 30% at 14% 18%, rgba(29,95,171,.09), transparent 72%),
+    radial-gradient(36% 28% at 86% 38%, rgba(13,115,119,.08), transparent 72%),
+    radial-gradient(42% 30% at 22% 74%, rgba(201,168,76,.07), transparent 72%),
+    radial-gradient(34% 26% at 82% 92%, rgba(26,92,56,.08), transparent 72%)}
+  .cos-route{position:absolute;inset:0;pointer-events:none;opacity:.14}
+  .cos-route svg{width:100%;height:100%;display:block}
+  .cos-route .route-dash{stroke-dasharray:5 9;animation:routeDrift 90s linear infinite}
+  @keyframes routeDrift{to{stroke-dashoffset:-1400}}
   .cos-headline-block{text-align:center;max-width:720px;margin:0 auto 80px;position:relative}
   .cos-pretext{font-size:16px;color:var(--text-muted);line-height:1.7;margin:0 0 16px;font-weight:300}
   .cos-headline{font-size:clamp(2.4rem,5vw,4rem);font-weight:800;color:var(--text);font-style:italic;
     margin:0 0 24px;letter-spacing:-.02em}
   .cos-posttext{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
-  .pillars-header{text-align:center;margin-bottom:32px;position:relative}
-  .pillars-label{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--text-faint)}
-  .pillars-grid-four{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:80px;position:relative}
-  .pillar-card-full{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:16px;padding:28px 24px;
-    backdrop-filter:var(--glass-blur);transition:border-color .25s,transform .25s;position:relative;overflow:hidden}
-  .pillar-card-full:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pillar-card-full.map{border-left:3px solid var(--cobalt)}
-  .pillar-card-full.pack{border-left:3px solid var(--teal)}
-  .pillar-card-full.rope{border-left:3px solid var(--gold)}
-  .pillar-card-full.route{border-left:3px solid var(--forest)}
-  .pillar-number{font-size:11px;font-weight:800;color:var(--text-faint);letter-spacing:.15em;margin-bottom:16px}
-  .pillar-icon-wrap{width:40px;height:40px;margin-bottom:20px}
-  .pillar-svg{width:40px;height:40px;display:block}
-  .pillar-title{font-size:18px;font-weight:800;color:var(--text);margin:0 0 4px}
-  .pillar-subtitle{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 14px}
-  .pillar-desc{font-size:13px;color:var(--text-muted);line-height:1.65;margin:0}
+
+  /* — the Metanoia Career System: immersive journey (mirrors Ch1 pattern) — */
+  .system-journey{margin-bottom:80px}
+  .sys-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 10px}
+  .sys-desc{font-size:13.5px;color:var(--text-muted);line-height:1.75;margin:0;max-width:400px}
+  .stage-row.sys-map .stage-kicker{color:#60A5FA}
+  .stage-row.sys-pack .stage-kicker{color:#4ECDC4}
+  .stage-row.sys-rope .stage-kicker{color:var(--gold)}
+  .stage-row.sys-route .stage-kicker{color:#6EE7B7}
+  .stage-row.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
+  .stage-row.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
+  .stage-row.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+
+  .one-percent-block{text-align:center;padding:60px 0 0;position:relative}
+  .one-percent-inner{max-width:640px;margin:0 auto}
+  .one-percent-line{width:64px;height:2px;background:var(--gold);margin:0 auto 24px;opacity:.5}
+  .one-percent-label{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
+  .one-percent-statement{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;color:var(--text);margin:0 0 20px;
+    line-height:1.2;letter-spacing:-.01em}
+  .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 32px}
   .one-percent-block{text-align:center;padding:60px 0 0;position:relative}
   .one-percent-inner{max-width:640px;margin:0 auto}
   .one-percent-line{width:64px;height:2px;background:var(--gold);margin:0 auto 24px;opacity:.5}
@@ -509,6 +573,11 @@
     radial-gradient(44% 32% at 76% 8%, rgba(139,105,20,.08), transparent 72%),
     radial-gradient(34% 26% at 10% 46%, rgba(29,95,171,.05), transparent 72%)}
   :root[data-theme="light"] .ro-quote{box-shadow:0 26px 60px rgba(27,36,52,.14)}
+  :root[data-theme="light"] .rz-beam{background:linear-gradient(115deg,transparent 30%,rgba(139,105,20,.05) 50%,transparent 70%)}
+  :root[data-theme="light"] .rz-particles i{background:#8B6914;filter:blur(1px)}
+  :root[data-theme="light"] .topo-bg{opacity:.055}
+  :root[data-theme="light"] .cos-route{opacity:.18}
+  :root[data-theme="light"] .sys-desc{color:var(--text-muted)}
   :root[data-theme="light"] .stage-badge{background:#FFFFFF}
   :root[data-theme="light"] .stage-badge.active{background:#FDF6E3}
   :root[data-theme="light"] .stage-row.graduation .stage-badge{
@@ -531,9 +600,10 @@
     .year-label{font-size:24px;margin-bottom:12px}
     .year-actions span{font-size:15px;line-height:1.65;margin-bottom:4px}
     .stage-row.graduation .year-label{font-size:24px}
+    .sys-sub{font-size:16px}
+    .sys-desc{font-size:14.5px;max-width:460px}
   }
   @media(max-width:960px){
-    .pillars-grid-four{grid-template-columns:1fr 1fr}
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
     .ro-grid{grid-template-columns:1fr;gap:48px}
@@ -560,7 +630,6 @@
     .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
     .trait:nth-child(2n+1){border-left:0}
     .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
-    .pillars-grid-four{grid-template-columns:1fr}
     .product-featured-inner{grid-template-columns:1fr}
     .product-right{display:none}
     .products-sub-grid{grid-template-columns:1fr}
@@ -575,6 +644,12 @@
     .reveal{opacity:1;transform:none}
     .ro-grid .ro-chapter,.ro-grid .ro-headline,.ro-grid .ro-intro,.ro-grid .ro-visual{opacity:1;transform:none}
     .arch-frame{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
+    .ro-quote .ro-qmark,.ro-quote .q-diamond{opacity:1;transform:translate(-50%,0)}
+    .ro-quote .q-diamond{transform:rotate(45deg)}
+    .ro-decl.reveal{opacity:1;transform:none;letter-spacing:.055em}
+    .traits-panel.reveal .trait{opacity:1;transform:none}
+    .stage-row.reveal .stage-media{opacity:1;transform:none}
+    .rz-particles{display:none}
   }
 </style>
 </head>
@@ -684,6 +759,8 @@
 <section class="realization-section" id="why-now">
   <div class="rz-ambience" aria-hidden="true"></div>
   <div class="rz-texture" aria-hidden="true"></div>
+  <div class="rz-beam" aria-hidden="true"></div>
+  <div class="rz-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
   <div class="section-inner" style="position:relative;z-index:1">
 
     <div class="ro-grid reveal">
@@ -967,8 +1044,19 @@
 <!-- ═══ SECTION 3 — THE TOP 1% / CAREER OS ═══ -->
 <section class="career-os-section" id="career-os">
   <div class="topo-bg" aria-hidden="true"></div>
+  <div class="cos-ambience" aria-hidden="true"></div>
+  <div class="cos-route" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="none" fill="none">
+      <path class="route-dash" d="M-40 830 C 240 790, 340 700, 470 640 S 700 520, 820 450 S 1050 330, 1160 250 S 1380 120, 1480 60"
+        stroke="#C9A84C" stroke-width="1.5"/>
+      <circle cx="470" cy="640" r="5" fill="#1D5FAB" opacity=".8"/>
+      <circle cx="820" cy="450" r="5" fill="#0D7377" opacity=".8"/>
+      <circle cx="1160" cy="250" r="5" fill="#C9A84C" opacity=".8"/>
+      <circle cx="1400" cy="105" r="5" fill="#1A5C38" opacity=".8"/>
+    </svg>
+  </div>
 
-  <div class="section-inner">
+  <div class="section-inner" style="position:relative;z-index:1">
 
     <div class="section-chapter-label">
       <span class="chapter-line-sm"></span>
@@ -989,85 +1077,76 @@
       </p>
     </div>
 
-    <div class="pillars-header">
-      <span class="pillars-label" data-en="The Metanoia Career System" data-id="Sistem Karier Metanoia">The Metanoia Career System</span>
-    </div>
-
-    <div class="pillars-grid-four reveal">
-
-      <div class="pillar-card-full map">
-        <div class="pillar-number">01</div>
-        <div class="pillar-icon-wrap">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="pillar-svg">
-            <circle cx="20" cy="20" r="17" stroke="url(#goldGrad01)" stroke-width="1.5"/>
-            <polygon points="20,6 23,20 20,34 17,20" fill="url(#goldGrad01)" opacity="0.9"/>
-            <defs><linearGradient id="goldGrad01" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0%" stop-color="#F0D878"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs>
-          </svg>
-        </div>
-        <h3 class="pillar-title">The Map</h3>
-        <p class="pillar-subtitle" data-en="Career Intelligence" data-id="Kecerdasan Karier">Career Intelligence</p>
-        <p class="pillar-desc" data-en="Know where you are. Know where you&apos;re going. Know exactly what the market needs from you and how far you are from delivering it." data-id="Ketahui posisimu. Ketahui ke mana kamu menuju. Ketahui persis apa yang dibutuhkan pasar darimu dan seberapa jauh kamu dari sana.">
-          Know where you are. Know where you're going. Know exactly what the market needs from you and how far you are from delivering it.
-        </p>
+    <div class="journey-block system-journey reveal">
+      <div class="journey-header">
+        <div class="journey-kicker" data-en="Four instruments. One integrated ascent." data-id="Empat instrumen. Satu pendakian terpadu.">Four instruments. One integrated ascent.</div>
+        <h3 class="journey-title" data-en="The Metanoia Career System" data-id="Sistem Karier Metanoia">The Metanoia Career System</h3>
       </div>
 
-      <div class="pillar-card-full pack">
-        <div class="pillar-number">02</div>
-        <div class="pillar-icon-wrap">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="pillar-svg">
-            <rect x="8" y="14" width="24" height="20" rx="3" stroke="url(#goldGrad02)" stroke-width="1.5"/>
-            <path d="M14 14V11a6 6 0 0 1 12 0v3" stroke="url(#goldGrad02)" stroke-width="1.5"/>
-            <line x1="20" y1="20" x2="20" y2="28" stroke="url(#goldGrad02)" stroke-width="1.5"/>
-            <line x1="16" y1="24" x2="24" y2="24" stroke="url(#goldGrad02)" stroke-width="1.5"/>
-            <defs><linearGradient id="goldGrad02" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0%" stop-color="#F0D878"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs>
-          </svg>
-        </div>
-        <h3 class="pillar-title">The Pack</h3>
-        <p class="pillar-subtitle" data-en="Career Documents &amp; Skills" data-id="Dokumen &amp; Keterampilan Karier">Career Documents &amp; Skills</p>
-        <p class="pillar-desc" data-en="The gear that opens doors. An ATS-passing CV, a portfolio that proves capability, the psychometric and case-interview skills that most candidates learn the night before." data-id="Perlengkapan yang membuka pintu. CV yang lolos ATS, portofolio yang membuktikan kemampuan, keterampilan psikotes dan case interview yang kebanyakan kandidat pelajari malam sebelumnya.">
-          The gear that opens doors. An ATS-passing CV, a portfolio that proves capability, the psychometric and case-interview skills that most candidates learn the night before.
-        </p>
-      </div>
+      <div class="journey-track">
+        <div class="journey-rail" aria-hidden="true"><div class="journey-rail-fill"></div></div>
 
-      <div class="pillar-card-full rope">
-        <div class="pillar-number">03</div>
-        <div class="pillar-icon-wrap">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="pillar-svg">
-            <path d="M8 32 Q20 8 32 32" stroke="url(#goldGrad03)" stroke-width="1.5" fill="none"/>
-            <circle cx="8" cy="32" r="3" fill="url(#goldGrad03)"/>
-            <circle cx="32" cy="32" r="3" fill="url(#goldGrad03)"/>
-            <circle cx="20" cy="15" r="3" fill="url(#goldGrad03)"/>
-            <defs><linearGradient id="goldGrad03" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0%" stop-color="#F0D878"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs>
-          </svg>
+        <div class="stage-row sys-map reveal">
+          <div class="stage-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="url(#stGold)" stroke="none" opacity=".9"/></svg>
+          </div>
+          <div class="year-content">
+            <div class="stage-kicker" data-en="System 01" data-id="Sistem 01">System 01</div>
+            <div class="year-label">The Map</div>
+            <p class="sys-sub" data-en="Career Intelligence" data-id="Kecerdasan Karier">Career Intelligence</p>
+            <p class="sys-desc" data-en="Know where you are. Know where you&apos;re going. Know exactly what the market needs from you and how far you are from delivering it." data-id="Ketahui posisimu. Ketahui ke mana kamu menuju. Ketahui persis apa yang dibutuhkan pasar darimu dan seberapa jauh kamu dari sana.">
+              Know where you are. Know where you're going. Know exactly what the market needs from you and how far you are from delivering it.
+            </p>
+          </div>
+          <div class="stage-media"><img src="../assets/bg/map.jpg" alt="A climber studying a map high above the valley" loading="lazy"></div>
         </div>
-        <h3 class="pillar-title">The Rope</h3>
-        <p class="pillar-subtitle" data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</p>
-        <p class="pillar-desc" data-en="The interview is the final gate. Practice with AI feedback that remembers your last session. Know your weak points before they cost you an offer." data-id="Wawancara adalah gerbang terakhir. Berlatih dengan feedback AI yang mengingat sesi terakhirmu. Kenali titik lemahmu sebelum membuatmu kehilangan tawaran.">
-          The interview is the final gate. Practice with AI feedback that remembers your last session. Know your weak points before they cost you an offer.
-        </p>
-      </div>
 
-      <div class="pillar-card-full route">
-        <div class="pillar-number">04</div>
-        <div class="pillar-icon-wrap">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="pillar-svg">
-            <polyline points="6,34 14,22 22,28 34,10" stroke="url(#goldGrad04)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="6" cy="34" r="2.5" fill="url(#goldGrad04)"/>
-            <circle cx="34" cy="10" r="2.5" fill="url(#goldGrad04)"/>
-            <defs><linearGradient id="goldGrad04" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0%" stop-color="#F0D878"/><stop offset="100%" stop-color="#8B6914"/></linearGradient></defs>
-          </svg>
+        <div class="stage-row sys-pack reveal">
+          <div class="stage-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/><path d="M12 12 v4.5 M9.5 14.2 h5"/></svg>
+          </div>
+          <div class="year-content">
+            <div class="stage-kicker" data-en="System 02" data-id="Sistem 02">System 02</div>
+            <div class="year-label">The Pack</div>
+            <p class="sys-sub" data-en="Career Documents &amp; Skills" data-id="Dokumen &amp; Keterampilan Karier">Career Documents &amp; Skills</p>
+            <p class="sys-desc" data-en="The gear that opens doors. An ATS-passing CV, a portfolio that proves capability, the psychometric and case-interview skills that most candidates learn the night before." data-id="Perlengkapan yang membuka pintu. CV yang lolos ATS, portofolio yang membuktikan kemampuan, keterampilan psikotes dan case interview yang kebanyakan kandidat pelajari malam sebelumnya.">
+              The gear that opens doors. An ATS-passing CV, a portfolio that proves capability, the psychometric and case-interview skills that most candidates learn the night before.
+            </p>
+          </div>
+          <div class="stage-media"><img src="../assets/bg/pack.jpg" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
         </div>
-        <h3 class="pillar-title">The Route</h3>
-        <p class="pillar-subtitle" data-en="Your 90-Day Plan" data-id="Rencana 90 Hari Kamu">Your 90-Day Plan</p>
-        <p class="pillar-desc" data-en="One highest-leverage action at a time. Your route re-draws itself as you grow, as the market shifts, and as your goals become clearer." data-id="Satu tindakan paling berdampak dalam satu waktu. Rutenya menggambar ulang dirinya seiring pertumbuhanmu, perubahan pasar, dan semakin jelasnya tujuanmu.">
-          One highest-leverage action at a time. Your route re-draws itself as you grow, as the market shifts, and as your goals become clearer.
-        </p>
-      </div>
 
+        <div class="stage-row sys-rope reveal">
+          <div class="stage-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="5" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="19" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="12" cy="9" r="1.8" fill="url(#stGold)" stroke="none"/></svg>
+          </div>
+          <div class="year-content">
+            <div class="stage-kicker" data-en="System 03" data-id="Sistem 03">System 03</div>
+            <div class="year-label">The Rope</div>
+            <p class="sys-sub" data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</p>
+            <p class="sys-desc" data-en="The interview is the final gate. Practice with AI feedback that remembers your last session. Know your weak points before they cost you an offer." data-id="Wawancara adalah gerbang terakhir. Berlatih dengan feedback AI yang mengingat sesi terakhirmu. Kenali titik lemahmu sebelum membuatmu kehilangan tawaran.">
+              The interview is the final gate. Practice with AI feedback that remembers your last session. Know your weak points before they cost you an offer.
+            </p>
+          </div>
+          <div class="stage-media"><img src="../assets/bg/rope.jpg" alt="A climbing rope securing the ascent" loading="lazy"></div>
+        </div>
+
+        <div class="stage-row sys-route reveal">
+          <div class="stage-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/><circle cx="4" cy="20" r="1.7" fill="url(#stGold)" stroke="none"/><circle cx="20" cy="6.5" r="1.7" fill="url(#stGold)" stroke="none"/></svg>
+          </div>
+          <div class="year-content">
+            <div class="stage-kicker" data-en="System 04" data-id="Sistem 04">System 04</div>
+            <div class="year-label">The Route</div>
+            <p class="sys-sub" data-en="Your 90-Day Plan" data-id="Rencana 90 Hari Kamu">Your 90-Day Plan</p>
+            <p class="sys-desc" data-en="One highest-leverage action at a time. Your route re-draws itself as you grow, as the market shifts, and as your goals become clearer." data-id="Satu tindakan paling berdampak dalam satu waktu. Rutenya menggambar ulang dirinya seiring pertumbuhanmu, perubahan pasar, dan semakin jelasnya tujuanmu.">
+              One highest-leverage action at a time. Your route re-draws itself as you grow, as the market shifts, and as your goals become clearer.
+            </p>
+          </div>
+          <div class="stage-media"><img src="../assets/bg/start.jpg" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
+        </div>
+
+      </div>
     </div>
 
     <div class="one-percent-block reveal">
@@ -1437,22 +1516,55 @@ const dotObserver = new IntersectionObserver((entries)=>{
 },{threshold:.4});
 stageRows.forEach(y=>dotObserver.observe(y));
 
-/* ─── Journey rail: gold progress line draws with scroll ─── */
-const journeyTrack = document.getElementById('journeyTrack');
-const railFill = document.getElementById('railFill');
-if(journeyTrack && railFill){
+/* ─── Journey rails: gold progress lines draw with scroll (all tracks) ─── */
+const railTracks = [...document.querySelectorAll('.journey-track')]
+  .map(track => ({ track, fill: track.querySelector('.journey-rail-fill') }))
+  .filter(t => t.fill);
+if(railTracks.length){
   let railTick = false;
-  const updateRail = ()=>{
-    const r = journeyTrack.getBoundingClientRect();
+  const updateRails = ()=>{
     const anchor = innerHeight * 0.65;
-    const p = Math.min(1, Math.max(0, (anchor - r.top) / r.height));
-    railFill.style.height = (p * 100).toFixed(2) + '%';
+    railTracks.forEach(({track, fill})=>{
+      const r = track.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (anchor - r.top) / r.height));
+      fill.style.height = (p * 100).toFixed(2) + '%';
+    });
     railTick = false;
   };
   addEventListener('scroll', ()=>{
-    if(!railTick){ requestAnimationFrame(updateRail); railTick = true; }
+    if(!railTick){ requestAnimationFrame(updateRails); railTick = true; }
   }, {passive:true});
-  updateRail();
+  updateRails();
+}
+
+/* ─── Ch1 cinematic parallax: doorway drifts slower than scroll,
+       ambience counter-drifts, creating layered depth ─── */
+const archWrap = document.querySelector('.arch-wrap');
+const rzAmbience = document.querySelector('.rz-ambience');
+const rzSection = document.querySelector('.realization-section');
+if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  let pTick = false;
+  const updateParallax = ()=>{
+    const r = rzSection.getBoundingClientRect();
+    if(r.bottom > -200 && r.top < innerHeight + 200){
+      const base = (innerHeight * 0.5) - (r.top + r.height * 0.25);
+      if(archWrap && innerWidth > 960){
+        const shift = Math.max(-46, Math.min(46, base * 0.055));
+        archWrap.style.transform = 'translateY(' + shift.toFixed(1) + 'px)';
+      } else if(archWrap){
+        archWrap.style.transform = '';
+      }
+      if(rzAmbience){
+        const drift = Math.max(-30, Math.min(30, -base * 0.03));
+        rzAmbience.style.transform = 'translateY(' + drift.toFixed(1) + 'px)';
+      }
+    }
+    pTick = false;
+  };
+  addEventListener('scroll', ()=>{
+    if(!pTick){ requestAnimationFrame(updateParallax); pTick = true; }
+  }, {passive:true});
+  updateParallax();
 }
 
 /* ─── Theme: day / night toggle (shared with landing via mt-theme) ─── */
