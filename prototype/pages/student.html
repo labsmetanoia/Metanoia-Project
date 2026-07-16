@@ -403,17 +403,45 @@
     margin:0 0 24px;letter-spacing:-.02em}
   .cos-posttext{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
 
-  /* — the Metanoia Career System: immersive journey (mirrors Ch1 pattern) — */
-  .system-journey{margin-bottom:80px}
+  /* — the Metanoia Career System: horizontal integrated flow — */
+  .system-journey{margin-bottom:80px;max-width:1160px}
+  .system-flow{position:relative}
+  .flow-rail{position:absolute;top:23px;left:0;right:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.16) 7%,rgba(201,168,76,.16) 93%,transparent)}
+  .flow-rail-fill{position:absolute;left:0;top:0;height:100%;width:0;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold) 55%,var(--gold-bright));
+    box-shadow:0 0 12px rgba(201,168,76,.45)}
+  .flow-rail-fill::after{content:'';position:absolute;right:-4px;top:50%;transform:translateY(-50%);
+    width:8px;height:8px;border-radius:50%;background:var(--gold-bright);
+    box-shadow:0 0 14px rgba(240,216,120,.85)}
+  .flow-chev{position:absolute;top:23px;transform:translate(-50%,-50%);width:22px;height:22px;
+    border-radius:50%;background:var(--bg-panel);border:1px solid rgba(201,168,76,.28);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);z-index:1}
+  .flow-chev svg{width:9px;height:9px;display:block}
+  .flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px;position:relative}
+  .flow-item{position:relative;text-align:left}
+  .flow-item .stage-badge{margin:0 auto 28px}
+  .flow-item .stage-media{margin-bottom:22px;aspect-ratio:3/2}
+  .flow-item .sys-desc{max-width:none}
+  .flow-item:hover .stage-media img{transform:scale(1.05)}
   .sys-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 10px}
-  .sys-desc{font-size:13.5px;color:var(--text-muted);line-height:1.75;margin:0;max-width:400px}
-  .stage-row.sys-map .stage-kicker{color:#60A5FA}
-  .stage-row.sys-pack .stage-kicker{color:#4ECDC4}
-  .stage-row.sys-rope .stage-kicker{color:var(--gold)}
-  .stage-row.sys-route .stage-kicker{color:#6EE7B7}
-  .stage-row.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
-  .stage-row.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
-  .stage-row.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+  .sys-desc{font-size:13px;color:var(--text-muted);line-height:1.75;margin:0}
+  .flow-item.sys-map .stage-kicker{color:#60A5FA}
+  .flow-item.sys-pack .stage-kicker{color:#4ECDC4}
+  .flow-item.sys-rope .stage-kicker{color:var(--gold)}
+  .flow-item.sys-route .stage-kicker{color:#6EE7B7}
+  .flow-item.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
+  .flow-item.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
+  .flow-item.sys-rope:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .flow-item.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+  /* staggered left-to-right reveal */
+  .system-journey.reveal .flow-item{opacity:0;transform:translateY(20px);
+    transition:opacity .6s ease,transform .6s ease}
+  .system-journey.revealed .flow-item{opacity:1;transform:none}
+  .system-journey.revealed .flow-item:nth-child(1){transition-delay:.08s}
+  .system-journey.revealed .flow-item:nth-child(2){transition-delay:.24s}
+  .system-journey.revealed .flow-item:nth-child(3){transition-delay:.40s}
+  .system-journey.revealed .flow-item:nth-child(4){transition-delay:.56s}
 
   .one-percent-block{text-align:center;padding:60px 0 0;position:relative}
   .one-percent-inner{max-width:640px;margin:0 auto}
@@ -600,12 +628,16 @@
     .year-label{font-size:24px;margin-bottom:12px}
     .year-actions span{font-size:15px;line-height:1.65;margin-bottom:4px}
     .stage-row.graduation .year-label{font-size:24px}
-    .sys-sub{font-size:16px}
-    .sys-desc{font-size:14.5px;max-width:460px}
+    .sys-sub{font-size:15.5px}
+    .sys-desc{font-size:13.5px}
   }
   @media(max-width:960px){
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
+    .flow-grid{grid-template-columns:1fr 1fr;gap:44px 28px}
+    .flow-rail,.flow-chev{display:none}
+    .flow-item .stage-badge{margin:0 0 20px}
+    .flow-item .stage-media{grid-column:auto;margin-top:0;max-width:none}
     .ro-grid{grid-template-columns:1fr;gap:48px}
     .ro-visual{min-height:0}
     .arch-wrap{width:100%;max-width:640px;margin:0 auto}
@@ -625,6 +657,8 @@
     .journey-block{padding:34px 22px 30px}
     .stage-row{grid-template-columns:56px minmax(0,1fr);gap:0 16px;padding:20px 0}
     .stage-media{max-width:none}
+    .flow-grid{grid-template-columns:1fr;gap:0}
+    .flow-item + .flow-item{margin-top:36px;padding-top:36px;border-top:1px solid rgba(201,168,76,.13)}
     .ro-quote{padding:36px 26px 30px}
     .traits-panel{grid-template-columns:1fr 1fr}
     .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
@@ -649,6 +683,7 @@
     .ro-decl.reveal{opacity:1;transform:none;letter-spacing:.055em}
     .traits-panel.reveal .trait{opacity:1;transform:none}
     .stage-row.reveal .stage-media{opacity:1;transform:none}
+    .system-journey.reveal .flow-item{opacity:1;transform:none}
     .rz-particles{display:none}
   }
 </style>
@@ -1083,14 +1118,19 @@
         <h3 class="journey-title" data-en="The Metanoia Career System" data-id="Sistem Karier Metanoia">The Metanoia Career System</h3>
       </div>
 
-      <div class="journey-track">
-        <div class="journey-rail" aria-hidden="true"><div class="journey-rail-fill"></div></div>
+      <div class="system-flow">
+        <div class="flow-rail" aria-hidden="true"><div class="flow-rail-fill" id="flowFill"></div></div>
+        <div class="flow-chev" style="left:25%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:50%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:75%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
 
-        <div class="stage-row sys-map reveal">
-          <div class="stage-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="url(#stGold)" stroke="none" opacity=".9"/></svg>
-          </div>
-          <div class="year-content">
+        <div class="flow-grid">
+
+          <div class="flow-item sys-map">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="url(#stGold)" stroke="none" opacity=".9"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/map.jpg" alt="A climber studying a map high above the valley" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 01" data-id="Sistem 01">System 01</div>
             <div class="year-label">The Map</div>
             <p class="sys-sub" data-en="Career Intelligence" data-id="Kecerdasan Karier">Career Intelligence</p>
@@ -1098,14 +1138,12 @@
               Know where you are. Know where you're going. Know exactly what the market needs from you and how far you are from delivering it.
             </p>
           </div>
-          <div class="stage-media"><img src="../assets/bg/map.jpg" alt="A climber studying a map high above the valley" loading="lazy"></div>
-        </div>
 
-        <div class="stage-row sys-pack reveal">
-          <div class="stage-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/><path d="M12 12 v4.5 M9.5 14.2 h5"/></svg>
-          </div>
-          <div class="year-content">
+          <div class="flow-item sys-pack">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/><path d="M12 12 v4.5 M9.5 14.2 h5"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/pack.jpg" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 02" data-id="Sistem 02">System 02</div>
             <div class="year-label">The Pack</div>
             <p class="sys-sub" data-en="Career Documents &amp; Skills" data-id="Dokumen &amp; Keterampilan Karier">Career Documents &amp; Skills</p>
@@ -1113,14 +1151,12 @@
               The gear that opens doors. An ATS-passing CV, a portfolio that proves capability, the psychometric and case-interview skills that most candidates learn the night before.
             </p>
           </div>
-          <div class="stage-media"><img src="../assets/bg/pack.jpg" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
-        </div>
 
-        <div class="stage-row sys-rope reveal">
-          <div class="stage-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="5" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="19" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="12" cy="9" r="1.8" fill="url(#stGold)" stroke="none"/></svg>
-          </div>
-          <div class="year-content">
+          <div class="flow-item sys-rope">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="5" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="19" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="12" cy="9" r="1.8" fill="url(#stGold)" stroke="none"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/rope.jpg" alt="A climbing rope securing the ascent" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 03" data-id="Sistem 03">System 03</div>
             <div class="year-label">The Rope</div>
             <p class="sys-sub" data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</p>
@@ -1128,14 +1164,12 @@
               The interview is the final gate. Practice with AI feedback that remembers your last session. Know your weak points before they cost you an offer.
             </p>
           </div>
-          <div class="stage-media"><img src="../assets/bg/rope.jpg" alt="A climbing rope securing the ascent" loading="lazy"></div>
-        </div>
 
-        <div class="stage-row sys-route reveal">
-          <div class="stage-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/><circle cx="4" cy="20" r="1.7" fill="url(#stGold)" stroke="none"/><circle cx="20" cy="6.5" r="1.7" fill="url(#stGold)" stroke="none"/></svg>
-          </div>
-          <div class="year-content">
+          <div class="flow-item sys-route">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/><circle cx="4" cy="20" r="1.7" fill="url(#stGold)" stroke="none"/><circle cx="20" cy="6.5" r="1.7" fill="url(#stGold)" stroke="none"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/start.jpg" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 04" data-id="Sistem 04">System 04</div>
             <div class="year-label">The Route</div>
             <p class="sys-sub" data-en="Your 90-Day Plan" data-id="Rencana 90 Hari Kamu">Your 90-Day Plan</p>
@@ -1143,9 +1177,8 @@
               One highest-leverage action at a time. Your route re-draws itself as you grow, as the market shifts, and as your goals become clearer.
             </p>
           </div>
-          <div class="stage-media"><img src="../assets/bg/start.jpg" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
-        </div>
 
+        </div>
       </div>
     </div>
 
@@ -1505,7 +1538,7 @@ document.querySelectorAll('.faq-q').forEach(btn=>{
 });
 
 /* ─── Timeline: activate stage badges on scroll ─── */
-const stageRows = document.querySelectorAll('.stage-row');
+const stageRows = document.querySelectorAll('.stage-row, .flow-item');
 const dotObserver = new IntersectionObserver((entries)=>{
   entries.forEach((entry,i)=>{
     if(entry.isIntersecting){
@@ -1516,11 +1549,14 @@ const dotObserver = new IntersectionObserver((entries)=>{
 },{threshold:.4});
 stageRows.forEach(y=>dotObserver.observe(y));
 
-/* ─── Journey rails: gold progress lines draw with scroll (all tracks) ─── */
+/* ─── Journey rails: vertical tracks fill downward, the horizontal
+       system flow fills left-to-right, all driven by scroll ─── */
 const railTracks = [...document.querySelectorAll('.journey-track')]
   .map(track => ({ track, fill: track.querySelector('.journey-rail-fill') }))
   .filter(t => t.fill);
-if(railTracks.length){
+const flowEl = document.querySelector('.system-flow');
+const flowFill = document.getElementById('flowFill');
+if(railTracks.length || (flowEl && flowFill)){
   let railTick = false;
   const updateRails = ()=>{
     const anchor = innerHeight * 0.65;
@@ -1529,6 +1565,11 @@ if(railTracks.length){
       const p = Math.min(1, Math.max(0, (anchor - r.top) / r.height));
       fill.style.height = (p * 100).toFixed(2) + '%';
     });
+    if(flowEl && flowFill){
+      const r = flowEl.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (innerHeight * 0.82 - r.top) / (r.height * 1.05)));
+      flowFill.style.width = (p * 100).toFixed(2) + '%';
+    }
     railTick = false;
   };
   addEventListener('scroll', ()=>{
