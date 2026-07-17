@@ -489,50 +489,54 @@
   .fs-pill.gold{color:#0A0F1A;background:linear-gradient(120deg,#C9A84C,#F0D878)}
   .fs-pill.gold:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.4)}
   /* — hero scene — */
-  .fsx-hero{padding:130px 0 150px;position:relative}
+  .fsx-hero{padding:120px 0 190px;position:relative}
+  .fsx-hero-mtn{position:absolute;left:-120px;right:-120px;bottom:-40px;pointer-events:none;z-index:0;opacity:.95}
+  .fsx-hero-mtn svg{width:100%;height:auto;display:block}
+  .fsx-hero-grid{position:relative;z-index:1}
   .fsx-hero-grid{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:40px;align-items:center}
   .fsx-kicker{font-size:11px;font-weight:700;letter-spacing:.30em;text-transform:uppercase;
     color:var(--gold);margin-bottom:26px}
-  .fsx-copy h2{font-family:var(--serif);font-size:clamp(2.8rem,5vw,4.2rem);font-weight:600;
-    line-height:1.08;letter-spacing:.002em;color:#fff;margin:0 0 26px}
+  .fsx-copy h2{font-family:var(--serif);font-size:clamp(2.9rem,5.4vw,4.6rem);font-weight:600;
+    line-height:1.05;letter-spacing:.002em;color:#fff;margin:0 0 24px}
   .fsx-copy h2 em{font-style:normal;color:#E8C766}
   .fsx-copy h2 em .w{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
     -webkit-background-clip:text;background-clip:text;color:transparent}
-  .fsx-copy > p{font-size:15px;color:rgba(255,255,255,.6);line-height:1.8;margin:0 0 36px;max-width:380px}
+  .fsx-copy > p{font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.85;margin:0 0 34px;max-width:350px}
   /* — compass + card cascade — */
-  .fsx-visual{position:relative;height:660px}
-  .fsx-compass{position:absolute;left:-8px;top:100px;width:270px;height:270px;
-    filter:drop-shadow(0 0 44px rgba(201,168,76,.28));opacity:0;transform:scale(.85);
+  .fsx-visual{position:relative;height:620px}
+  .fsx-compass{position:absolute;left:-26px;top:120px;width:300px;height:316px;z-index:6;
+    filter:drop-shadow(0 24px 40px rgba(0,0,0,.5)) drop-shadow(0 0 46px rgba(201,168,76,.22));
+    opacity:0;transform:scale(.85);
     transition:opacity .9s ease .25s,transform .9s cubic-bezier(.3,.9,.3,1) .25s}
   .revealed .fsx-compass{opacity:1;transform:none}
   .fsx-compass svg{width:100%;height:100%;display:block}
-  .fsx-rose{transform-origin:100px 104px;animation:roseSpin 60s linear infinite}
+  .fsx-rose{transform-origin:110px 122px;animation:roseSpin 70s linear infinite}
   @keyframes roseSpin{to{transform:rotate(360deg)}}
-  .fsx-card{position:absolute;width:330px;border-radius:16px;padding:20px 22px;
-    display:flex;gap:16px;align-items:center;text-align:left;
-    background:linear-gradient(160deg,rgba(23,30,46,.96),rgba(10,15,26,.97));
-    border:1px solid rgba(201,168,76,.24);
-    box-shadow:0 28px 60px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.05);
+  .fsx-card{position:absolute;width:344px;border-radius:18px;padding:18px 22px 20px;
+    display:flex;gap:14px;align-items:center;text-align:left;
+    background:linear-gradient(160deg,#182136 0%,#0D1424 100%);
+    border:1px solid rgba(255,255,255,.09);
+    box-shadow:0 32px 64px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);
     opacity:0;transform:translateY(56px) rotate(calc(var(--cr,-6deg) + 7deg));
     transition:opacity .7s ease,transform .8s cubic-bezier(.25,.9,.3,1),box-shadow .3s ease;
     transition-delay:var(--cd,0s)}
   .revealed .fsx-card{opacity:1;transform:translateY(0) rotate(var(--cr,-6deg))}
   .fsx-card:hover{transform:translateY(-8px) rotate(var(--cr,-6deg));
     box-shadow:0 38px 76px rgba(0,0,0,.55),0 0 34px rgba(201,168,76,.12);z-index:9}
-  .fsx-card.c1{top:-38px;right:118px;--cr:-7deg;--cd:.1s;z-index:4}
-  .fsx-card.c2{top:118px;right:62px;--cr:-6deg;--cd:.28s;z-index:3}
-  .fsx-card.c3{top:286px;right:24px;--cr:-6deg;--cd:.46s;z-index:2}
-  .fsx-card.c4{top:452px;right:-6px;--cr:-5deg;--cd:.64s;z-index:1}
+  .fsx-card.c1{top:-46px;right:112px;--cr:-9deg;--cd:.1s;z-index:4}
+  .fsx-card.c2{top:104px;right:66px;--cr:-8deg;--cd:.28s;z-index:3}
+  .fsx-card.c3{top:256px;right:26px;--cr:-8deg;--cd:.46s;z-index:2}
+  .fsx-card.c4{top:408px;right:-10px;--cr:-7deg;--cd:.64s;z-index:5}
   .fsx-card .cnum{position:absolute;top:14px;left:18px;font-size:11px;font-weight:700;
     color:rgba(255,255,255,.18);letter-spacing:.08em}
   .fsx-card .cbody{flex:1;min-width:0;padding-left:26px}
   .fsx-card .ck{font-size:9px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;
     color:var(--gold);margin-bottom:6px}
-  .fsx-card b{display:block;font-family:var(--serif);font-size:16.5px;font-weight:600;color:#fff;
-    line-height:1.28;margin-bottom:6px}
-  .fsx-card p{font-size:11px;color:rgba(255,255,255,.45);line-height:1.55;margin:0}
-  .fsx-card .cico{flex:none;width:52px;height:52px;display:flex;align-items:center;justify-content:center}
-  .fsx-card .cico svg{width:44px;height:44px;display:block}
+  .fsx-card b{display:block;font-family:var(--serif);font-size:18px;font-weight:600;color:#fff;
+    line-height:1.24;margin-bottom:6px}
+  .fsx-card p{font-size:11px;color:rgba(255,255,255,.42);line-height:1.55;margin:0;max-width:200px}
+  .fsx-card .cico{flex:none;width:56px;height:56px;display:flex;align-items:center;justify-content:center}
+  .fsx-card .cico svg{width:50px;height:50px;display:block}
   /* — marquee bridge (motion preserved) — */
   .fsx-marquee{padding:20px 0 60px;text-align:center;position:relative;z-index:2}
   .mq-viewport{overflow:hidden;margin:0 0 40px;
@@ -1390,9 +1394,9 @@
     <div class="fsx-stars" aria-hidden="true"></div>
     <div class="fsx-rings" aria-hidden="true"><i></i><i></i><i></i></div>
     <div class="fsx-mountain" aria-hidden="true">
-      <svg viewBox="0 0 1440 260" fill="none" preserveAspectRatio="none">
-        <path d="M0 260 L0 190 L160 120 L300 200 L430 90 L560 180 L720 60 L880 170 L1020 100 L1180 190 L1320 130 L1440 180 L1440 260 Z" fill="#04070E"/>
-        <path d="M0 260 L0 225 L200 175 L380 235 L540 160 L720 220 L900 150 L1100 225 L1280 185 L1440 225 L1440 260 Z" fill="#060A13"/>
+      <svg viewBox="0 0 1440 430" fill="none" preserveAspectRatio="none">
+        <path d="M0 430 L0 240 L120 150 L260 40 L330 110 L420 70 L560 210 L700 130 L860 260 L1030 180 L1200 300 L1330 240 L1440 300 L1440 430 Z" fill="#05080F"/>
+        <path d="M0 430 L0 330 L180 265 L340 340 L520 245 L710 330 L900 250 L1090 340 L1270 290 L1440 350 L1440 430 Z" fill="#070C15"/>
       </svg>
     </div>
 
@@ -1400,6 +1404,12 @@
 
       <!-- Scene A — hero: copy left, compass + cascade right -->
       <div class="fsx-hero reveal">
+        <div class="fsx-hero-mtn" aria-hidden="true">
+          <svg viewBox="0 0 1200 300" fill="none" preserveAspectRatio="none">
+            <path d="M0 300 L0 190 L110 120 L230 30 L300 95 L380 60 L520 200 L660 130 L820 240 L980 180 L1200 280 L1200 300 Z" fill="#04070E"/>
+            <path d="M0 300 L0 250 L160 200 L330 265 L520 195 L720 265 L920 210 L1200 285 L1200 300 Z" fill="#060B14" opacity=".9"/>
+          </svg>
+        </div>
         <div class="fsx-hero-grid">
           <div class="fsx-copy">
             <div class="fsx-kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
@@ -1410,34 +1420,61 @@
 
           <div class="fsx-visual">
             <div class="fsx-compass" aria-hidden="true">
-              <svg viewBox="0 0 200 208" fill="none">
+              <svg viewBox="0 0 220 232" fill="none">
                 <defs>
-                  <linearGradient id="fxg1" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stop-color="#F0D878"/><stop offset="50%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#8B6914"/>
+                  <linearGradient id="fxBezel" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#FBEFB8"/><stop offset="28%" stop-color="#E8C766"/>
+                    <stop offset="55%" stop-color="#9C7422"/><stop offset="78%" stop-color="#D9B858"/>
+                    <stop offset="100%" stop-color="#7A5A16"/>
                   </linearGradient>
-                  <radialGradient id="fxg2" cx="42%" cy="36%" r="70%">
-                    <stop offset="0%" stop-color="#1A2338"/><stop offset="100%" stop-color="#0A1120"/>
+                  <linearGradient id="fxBezel2" x1="1" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#8A6518"/><stop offset="45%" stop-color="#F2DC8C"/>
+                    <stop offset="100%" stop-color="#A87F26"/>
+                  </linearGradient>
+                  <radialGradient id="fxDial" cx="40%" cy="34%" r="75%">
+                    <stop offset="0%" stop-color="#26314D"/><stop offset="55%" stop-color="#141C30"/>
+                    <stop offset="100%" stop-color="#0A101E"/>
                   </radialGradient>
+                  <linearGradient id="fxRoseL" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#F7E6A2"/><stop offset="100%" stop-color="#D9B858"/>
+                  </linearGradient>
+                  <linearGradient id="fxRoseD" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#A87F26"/><stop offset="100%" stop-color="#6E5013"/>
+                  </linearGradient>
                 </defs>
-                <rect x="94" y="2" width="12" height="12" rx="3" fill="url(#fxg1)"/>
-                <circle cx="100" cy="6" r="5" stroke="url(#fxg1)" stroke-width="2.4" fill="none"/>
-                <circle cx="100" cy="104" r="92" stroke="url(#fxg1)" stroke-width="7"/>
-                <circle cx="100" cy="104" r="83" fill="url(#fxg2)"/>
-                <circle cx="100" cy="104" r="80" stroke="rgba(240,216,120,.35)" stroke-width="1"/>
-                <circle cx="100" cy="104" r="72" stroke="url(#fxg1)" stroke-width="5" stroke-dasharray="1 11.9" opacity=".75"/>
-                <g class="fsx-rose">
-                  <polygon points="100,40 108,96 100,112 92,96" fill="url(#fxg1)"/>
-                  <polygon points="100,168 108,112 100,96 92,112" fill="url(#fxg1)" opacity=".55"/>
-                  <polygon points="36,104 92,112 108,112 92,96" fill="url(#fxg1)" opacity=".55" transform="rotate(0)"/>
-                  <polygon points="36,104 92,96 100,104 92,112" fill="url(#fxg1)" opacity=".7"/>
-                  <polygon points="164,104 108,96 100,104 108,112" fill="url(#fxg1)" opacity=".7"/>
-                  <polygon points="100,58 104,100 100,104 96,100" fill="#F0D878" transform="rotate(45 100 104)"/>
-                  <polygon points="100,58 104,100 100,104 96,100" fill="#F0D878" opacity=".6" transform="rotate(135 100 104)"/>
-                  <polygon points="100,58 104,100 100,104 96,100" fill="#F0D878" opacity=".6" transform="rotate(225 100 104)"/>
-                  <polygon points="100,58 104,100 100,104 96,100" fill="#F0D878" transform="rotate(315 100 104)"/>
+                <g transform="rotate(-10 110 122)">
+                  <rect x="101" y="10" width="18" height="14" rx="4" fill="url(#fxBezel)"/>
+                  <circle cx="110" cy="8" r="6.5" stroke="url(#fxBezel2)" stroke-width="3.4" fill="none"/>
+                  <circle cx="110" cy="122" r="97" fill="url(#fxBezel)"/>
+                  <circle cx="110" cy="122" r="88" fill="url(#fxBezel2)"/>
+                  <circle cx="110" cy="122" r="83" fill="url(#fxDial)"/>
+                  <circle cx="110" cy="122" r="83" stroke="rgba(0,0,0,.55)" stroke-width="2"/>
+                  <circle cx="110" cy="122" r="76" stroke="rgba(240,216,120,.28)" stroke-width="1"/>
+                  <circle cx="110" cy="122" r="70" stroke="#D9B858" stroke-width="7"
+                    stroke-dasharray="1.1 6.2" opacity=".8"/>
+                  <circle cx="110" cy="122" r="70" stroke="#F2DC8C" stroke-width="11"
+                    stroke-dasharray="2 108" opacity=".9"/>
+                  <g class="fsx-rose">
+                    <polygon points="110,52 116,116 110,122" fill="url(#fxRoseL)"/>
+                    <polygon points="110,52 104,116 110,122" fill="url(#fxRoseD)"/>
+                    <polygon points="110,192 116,128 110,122" fill="url(#fxRoseD)"/>
+                    <polygon points="110,192 104,128 110,122" fill="url(#fxRoseL)"/>
+                    <polygon points="40,122 104,128 110,122" fill="url(#fxRoseL)"/>
+                    <polygon points="40,122 104,116 110,122" fill="url(#fxRoseD)"/>
+                    <polygon points="180,122 116,116 110,122" fill="url(#fxRoseL)"/>
+                    <polygon points="180,122 116,128 110,122" fill="url(#fxRoseD)"/>
+                    <g opacity=".85">
+                      <polygon points="146,86 116,116 110,122 116,128" fill="url(#fxRoseD)" transform="rotate(0 110 122)"/>
+                      <polygon points="146,86 113,113 110,122" fill="url(#fxRoseL)"/>
+                      <polygon points="74,86 107,113 110,122" fill="url(#fxRoseD)"/>
+                      <polygon points="74,158 107,131 110,122" fill="url(#fxRoseL)"/>
+                      <polygon points="146,158 113,131 110,122" fill="url(#fxRoseD)"/>
+                    </g>
+                  </g>
+                  <circle cx="110" cy="122" r="7" fill="url(#fxBezel)"/>
+                  <circle cx="110" cy="122" r="2.6" fill="#0A101E"/>
+                  <ellipse cx="82" cy="84" rx="46" ry="26" fill="rgba(255,255,255,.05)" transform="rotate(-28 82 84)"/>
                 </g>
-                <circle cx="100" cy="104" r="6" fill="#F0D878"/>
-                <circle cx="100" cy="104" r="2.4" fill="#0A1120"/>
               </svg>
             </div>
 
@@ -1449,7 +1486,7 @@
                 <p data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</p>
               </div>
               <div class="cico" aria-hidden="true">
-                <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="19" stroke="rgba(240,216,120,.35)" stroke-width="1.4"/><circle cx="24" cy="24" r="12" stroke="rgba(240,216,120,.2)" stroke-width="1"/><polygon points="24,8 27,24 24,40 21,24" fill="#E8C766" opacity=".95"/><polygon points="8,24 24,21 40,24 24,27" fill="#E8C766" opacity=".45"/></svg>
+                <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="21" fill="#101828"/><circle cx="24" cy="24" r="21" stroke="#D9B858" stroke-width="1.6"/><circle cx="24" cy="24" r="15.5" stroke="rgba(240,216,120,.3)" stroke-width="1" stroke-dasharray="1 3.3"/><polygon points="24,6.5 27,24 24,28 24,6.5" fill="#F2DC8C"/><polygon points="24,6.5 21,24 24,28 24,6.5" fill="#A87F26"/><polygon points="24,41.5 21,24 24,20 24,41.5" fill="#F2DC8C" opacity=".55"/><polygon points="24,41.5 27,24 24,20 24,41.5" fill="#6E5013" opacity=".7"/><circle cx="24" cy="24" r="2.4" fill="#F2DC8C"/></svg>
               </div>
             </div>
 
@@ -1461,7 +1498,7 @@
                 <p data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk mendapatkan pekerjaan.">The complete toolkit for getting hired.</p>
               </div>
               <div class="cico" aria-hidden="true">
-                <svg viewBox="0 0 48 48" fill="none" stroke="#4ECDC4" stroke-width="1.8" stroke-linejoin="round"><rect x="12" y="16" width="24" height="24" rx="5"/><path d="M17 16 v-2 a7 7 0 0 1 14 0 v2"/><path d="M12 26 h24" opacity=".6"/><path d="M20 22 v8 M28 22 v8" opacity=".6"/></svg>
+                <svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="fxPk" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4ED8CB"/><stop offset="100%" stop-color="#12756C"/></linearGradient></defs><path d="M17 15 v-1.5 a7 7 0 0 1 14 0 V15" stroke="#2FA89C" stroke-width="3" fill="none"/><rect x="10.5" y="14" width="27" height="27" rx="7" fill="url(#fxPk)"/><rect x="10.5" y="14" width="27" height="27" rx="7" stroke="rgba(255,255,255,.22)" stroke-width="1"/><rect x="16" y="26" width="16" height="12" rx="4" fill="#0E5A53"/><rect x="16" y="26" width="16" height="5.5" rx="2.6" fill="#16867C"/><rect x="21.6" y="30" width="4.8" height="3.4" rx="1.4" fill="#4ED8CB"/><path d="M14 14.5 L13 24 M34 14.5 L35 24" stroke="#0E5A53" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="18" cy="18.5" rx="6" ry="2.6" fill="rgba(255,255,255,.22)" transform="rotate(-18 18 18.5)"/></svg>
               </div>
             </div>
 
@@ -1473,7 +1510,7 @@
                 <p data-en="Build experiences that set you apart." data-id="Bangun pengalaman yang membedakanmu.">Build experiences that set you apart.</p>
               </div>
               <div class="cico" aria-hidden="true">
-                <svg viewBox="0 0 48 48" fill="none" stroke="#E8C766" stroke-width="2" stroke-linecap="round"><path d="M12 38 Q10 26 20 22 Q30 18 28 12"/><path d="M28 12 Q34 8 38 12 Q42 16 38 20 Q34 24 28 20 Q24 17 26 12" opacity=".85"/><path d="M20 22 Q28 26 24 34 Q22 39 14 38" opacity=".7"/></svg>
+                <svg viewBox="0 0 48 48" fill="none" stroke-linecap="round"><defs><linearGradient id="fxRp" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F2DC8C"/><stop offset="100%" stop-color="#A87F26"/></linearGradient></defs><path d="M10 40 Q6 26 18 21 Q30 16 27 9" stroke="url(#fxRp)" stroke-width="4.6"/><path d="M27 9 Q33 4 38.5 9 Q43.5 14 38 19 Q32.5 24 27.5 19 Q23.5 15 26.5 10" stroke="url(#fxRp)" stroke-width="4.6"/><path d="M18 21 Q28 25 25 33 Q23 39 13 39.5" stroke="url(#fxRp)" stroke-width="4.6"/><path d="M10 40 Q6 26 18 21 Q30 16 27 9" stroke="rgba(110,80,19,.55)" stroke-width="1.4" stroke-dasharray="2.5 3.5"/><path d="M27 9 Q33 4 38.5 9 Q43.5 14 38 19 Q32.5 24 27.5 19" stroke="rgba(110,80,19,.55)" stroke-width="1.4" stroke-dasharray="2.5 3.5"/><path d="M18 21 Q28 25 25 33 Q23 39 13 39.5" stroke="rgba(110,80,19,.55)" stroke-width="1.4" stroke-dasharray="2.5 3.5"/></svg>
               </div>
             </div>
 
@@ -1485,7 +1522,7 @@
                 <p data-en="Personalized guidance from first steps to next milestones." data-id="Bimbingan personal dari langkah pertama hingga pencapaian berikutnya.">Personalized guidance from first steps to next milestones.</p>
               </div>
               <div class="cico" aria-hidden="true">
-                <svg viewBox="0 0 48 48" fill="none" stroke="#B79AF0" stroke-width="2.2" stroke-linecap="round"><path d="M14 42 C26 36 12 28 24 22 C36 16 24 12 32 6"/><circle cx="14" cy="42" r="2.2" fill="#B79AF0" stroke="none"/><circle cx="32" cy="6" r="2.2" fill="#B79AF0" stroke="none"/></svg>
+                <svg viewBox="0 0 48 48" fill="none" stroke-linecap="round"><defs><linearGradient id="fxRt" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#8F6FE0"/><stop offset="100%" stop-color="#D3C0FA"/></linearGradient></defs><path d="M13 43 C27 37 10 28 24 21.5 C38 15 24 11 32.5 4.5" stroke="url(#fxRt)" stroke-width="7"/><path d="M13 43 C27 37 10 28 24 21.5 C38 15 24 11 32.5 4.5" stroke="rgba(255,255,255,.75)" stroke-width="1.2" stroke-dasharray="3 4"/><circle cx="32.5" cy="4.5" r="2.6" fill="#EDE4FF"/><circle cx="13" cy="43" r="2.2" fill="#B79AF0"/></svg>
               </div>
             </div>
           </div>
