@@ -458,7 +458,7 @@
     line-height:1.2;letter-spacing:-.01em}
   .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 32px}
 
-  /* ═══ FLAGSHIP SHOWCASE — "Every tool. One climb." (reference visual) ═══ */
+  /* ═══ FLAGSHIP SHOWCASE — Product Suite (reference visual) ═══ */
   .fsx-band{position:relative;background:linear-gradient(180deg,#070B14 0%,#080D18 100%);
     color:#fff;overflow:hidden}
   .fsx-band::before{content:'';position:absolute;top:0;left:0;right:0;height:110px;z-index:5;
@@ -502,6 +502,9 @@
   .fsx-copy h2 em .w{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
     -webkit-background-clip:text;background-clip:text;color:transparent}
   .fsx-copy > p{font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.85;margin:0 0 34px;max-width:350px}
+  .fsx-vp{font-family:var(--serif);font-size:clamp(1.25rem,2.2vw,1.6rem);font-weight:400;
+    line-height:1.55;color:rgba(255,255,255,.82);margin:0 0 34px;max-width:420px;letter-spacing:.01em}
+  .fsx-vp em{font-style:normal;color:#E8C766}
   /* — compass + card cascade — */
   .fsx-visual{position:relative;height:620px}
   .fsx-compass{position:absolute;left:-26px;top:120px;width:300px;height:316px;z-index:6;
@@ -538,7 +541,7 @@
   .fsx-card .cico{flex:none;width:56px;height:56px;display:flex;align-items:center;justify-content:center}
   .fsx-card .cico svg{width:50px;height:50px;display:block}
   /* — marquee bridge (motion preserved) — */
-  .fsx-marquee{padding:20px 0 60px;text-align:center;position:relative;z-index:2}
+  .fsx-marquee{padding:20px 0 40px;text-align:center;position:relative;z-index:2}
   .mq-viewport{overflow:hidden;margin:0 0 40px;
     -webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
     mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
@@ -557,9 +560,6 @@
   .mq-chip.pack{background:rgba(13,115,119,.2);color:#7ADFD6;border:1px solid rgba(13,115,119,.4)}
   .mq-chip.rope{background:rgba(201,168,76,.14);color:#F0D878;border:1px solid rgba(201,168,76,.4)}
   .mq-chip.route{background:rgba(26,92,56,.2);color:#8FE3B4;border:1px solid rgba(26,92,56,.4)}
-  .fsx-marquee h2{font-family:var(--serif);font-size:clamp(1.7rem,3vw,2.5rem);font-weight:600;
-    color:#fff;margin:0 0 10px;padding:0 30px}
-  .fsx-marquee h2 em{font-style:normal;color:#E8C766}
   .fsx-marquee p{font-size:13.5px;color:rgba(255,255,255,.5);margin:0 auto;max-width:460px;
     line-height:1.7;padding:0 30px}
   /* — six pillars panel — */
@@ -568,9 +568,7 @@
     border-radius:26px;padding:64px 56px 44px;backdrop-filter:blur(10px)}
   .fsx-panel-head{text-align:center;margin-bottom:48px}
   .fsx-panel-head .fsx-kicker{margin-bottom:16px}
-  .fsx-panel-head h2{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.8rem);font-weight:600;
-    color:#fff;margin:0 0 12px;letter-spacing:.002em}
-  .fsx-panel-head p{font-size:14px;color:rgba(255,255,255,.5);margin:0}
+  .fsx-panel-head p{font-size:15px;color:rgba(255,255,255,.55);margin:0;letter-spacing:.01em}
   .fsx-pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
   .fsx-pill-card{background:rgba(18,25,40,.85);border:1px solid rgba(255,255,255,.05);
     border-radius:16px;padding:26px 24px 22px;position:relative;
@@ -1413,8 +1411,7 @@
         <div class="fsx-hero-grid">
           <div class="fsx-copy">
             <div class="fsx-kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
-            <h2 class="fs-split" data-en="Every tool.<br><em>One climb.</em>" data-id="Semua alat.<br><em>Satu pendakian.</em>">Every tool.<br><em>One climb.</em></h2>
-            <p data-en="An integrated ecosystem of tools and experiences designed to help you discover your path, build real-world readiness, and create meaningful impact." data-id="Ekosistem terpadu berisi alat dan pengalaman yang dirancang untuk membantumu menemukan arah, membangun kesiapan dunia nyata, dan menciptakan dampak yang bermakna.">An integrated ecosystem of tools and experiences designed to help you discover your path, build real-world readiness, and create meaningful impact.</p>
+            <p class="fsx-vp" data-en="Five curated products built for students who are serious about graduating career-ready. <em>Available exclusively to Metanoia Premium members.</em>" data-id="Lima produk kurasi yang dibangun untuk mahasiswa yang serius lulus siap berkarier. <em>Tersedia eksklusif untuk anggota Metanoia Premium.</em>">Five curated products built for students who are serious about graduating career-ready. <em>Available exclusively to Metanoia Premium members.</em></p>
             <a class="fs-pill gold" href="#products-grid" data-en="Explore the Ecosystem →" data-id="Jelajahi Ekosistem →">Explore the Ecosystem →</a>
           </div>
 
@@ -1553,8 +1550,6 @@
             <div class="mq-tile"><img src="../assets/bg/stage-graduation.jpg" alt="" loading="lazy"></div>
           </div>
         </div>
-        <h2 data-en="You&apos;ll find every step <em>of the climb here.</em>" data-id="Setiap langkah pendakian <em>ada di sini.</em>">You'll find every step <em>of the climb here.</em></h2>
-        <p data-en="Self-discovery, documents, interviews, planning — the whole journey lives inside one integrated career operating system." data-id="Penemuan diri, dokumen, wawancara, perencanaan — seluruh perjalanan hidup dalam satu sistem operasi karier terpadu.">Self-discovery, documents, interviews, planning — the whole journey lives inside one integrated career operating system.</p>
         <div class="mq-viewport below" aria-hidden="true">
           <div class="mq-row rev">
             <div class="mq-tile"><img src="../assets/bg/map.jpg" alt="" loading="lazy"></div>
@@ -1580,7 +1575,6 @@
         <div class="fsx-panel">
           <div class="fsx-panel-head">
             <div class="fsx-kicker" data-en="Built on Six Pillars" data-id="Dibangun di Atas Enam Pilar">Built on Six Pillars</div>
-            <h2 data-en="A complete career operating system" data-id="Sistem operasi karier yang lengkap">A complete career operating system</h2>
             <p data-en="Everything you need. All in one place." data-id="Semua yang kamu butuhkan. Dalam satu tempat.">Everything you need. All in one place.</p>
           </div>
 
