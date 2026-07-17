@@ -458,8 +458,98 @@
     line-height:1.2;letter-spacing:-.01em}
   .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 32px}
 
-  /* ═══ SECTION 4 — PRODUCTS ═══ */
-  .products-section{background:var(--bg-base);padding:120px 0;position:relative}
+  /* ═══ CINEMATIC PRODUCT SHOWCASE STAGE ═══ */
+  /* Default = static premium layout (mobile / no-JS / reduced motion).
+     JS adds .stage-live on desktop to switch to the sticky 3D scroll scene. */
+  .showcase-stage{position:relative;background:#070C16;color:#fff;overflow:hidden;
+    padding:110px 24px 90px;text-align:center}
+  .showcase-stage::before{content:'';position:absolute;top:0;left:0;right:0;height:120px;
+    background:linear-gradient(180deg,var(--bg-base),transparent);pointer-events:none;z-index:2}
+  .showcase-stage::after{content:'';position:absolute;bottom:0;left:0;right:0;height:120px;
+    background:linear-gradient(0deg,var(--bg-base),transparent);pointer-events:none;z-index:2}
+  .stage-ambient{position:absolute;inset:0;pointer-events:none;background:
+    radial-gradient(46% 36% at 50% 30%, rgba(201,168,76,.09), transparent 70%),
+    radial-gradient(60% 40% at 50% 96%, rgba(201,168,76,.06), transparent 75%),
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0,0,0,.5) 100%)}
+  .stage-sticky{position:relative;max-width:1180px;margin:0 auto}
+  .stage-headline{font-size:clamp(2.2rem,4.6vw,3.8rem);font-weight:800;color:#fff;margin:0 0 14px;
+    letter-spacing:-.015em;
+    text-shadow:0 0 calc(46px * var(--glow,1)) rgba(240,216,120,calc(.38 * var(--glow,1)))}
+  .stage-headline em{font-style:normal;color:var(--gold-bright,#F0D878);
+    background:linear-gradient(100deg,#8B6914,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .stage-sub{font-size:14.5px;color:rgba(255,255,255,.6);line-height:1.7;margin:0 auto 44px;max-width:520px}
+  /* — 3D compass emblem — */
+  .stage-compass{width:280px;height:280px;margin:0 auto 46px;perspective:900px;opacity:.85}
+  .cmp-3d{width:100%;height:100%;position:relative;transform-style:preserve-3d;
+    animation:cmpSpin 30s linear infinite}
+  .cmp-ring{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(201,168,76,.4)}
+  .cmp-ring.r2{inset:12%;border-color:rgba(240,216,120,.3);transform:rotateX(68deg)}
+  .cmp-ring.r3{inset:12%;border-color:rgba(201,168,76,.22);transform:rotateY(68deg)}
+  .cmp-ring.r4{inset:28%;border-color:rgba(240,216,120,.16);transform:rotateX(68deg) rotateZ(45deg)}
+  .cmp-needle{position:absolute;left:50%;top:50%;width:14px;height:62%;
+    transform:translate(-50%,-50%);clip-path:polygon(50% 0,72% 50%,50% 100%,28% 50%);
+    background:linear-gradient(180deg,#F0D878 0%,#C9A84C 48%,#8B6914 100%);
+    filter:drop-shadow(0 0 12px rgba(240,216,120,.5))}
+  .cmp-core{position:absolute;left:50%;top:50%;width:12px;height:12px;border-radius:50%;
+    transform:translate(-50%,-50%);background:#F0D878;box-shadow:0 0 18px rgba(240,216,120,.9)}
+  @keyframes cmpSpin{to{transform:rotateY(360deg)}}
+  /* — showcase cards — */
+  .stage-cards{position:relative;display:flex;justify-content:center;gap:24px;flex-wrap:wrap;
+    perspective:1300px}
+  .stage-card{width:340px;max-width:92vw}
+  .stage-card-float{animation:cardIdle 7s ease-in-out infinite}
+  .stage-card:nth-child(2) .stage-card-float{animation-delay:2.3s}
+  .stage-card:nth-child(3) .stage-card-float{animation-delay:4.6s}
+  @keyframes cardIdle{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  .stage-card-inner{position:relative;text-align:left;border-radius:20px;padding:30px 28px 26px;
+    background:linear-gradient(160deg,rgba(22,30,46,.92),rgba(9,14,24,.94));
+    border:1px solid rgba(201,168,76,.26);backdrop-filter:blur(18px);
+    box-shadow:0 34px 70px rgba(0,0,0,.55),0 8px 22px rgba(0,0,0,.4),
+      inset 0 1px 0 rgba(255,255,255,.06);
+    transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;
+    transform-style:preserve-3d;overflow:hidden}
+  .stage-card-inner::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(240,216,120,.55),transparent)}
+  .stage-card-inner::after{content:'';position:absolute;inset:0;pointer-events:none;opacity:0;
+    background:linear-gradient(115deg,transparent 32%,rgba(240,216,120,.07) 48%,transparent 64%);
+    transition:opacity .4s ease}
+  .stage-card:hover .stage-card-inner{border-color:rgba(201,168,76,.5);
+    box-shadow:0 44px 90px rgba(0,0,0,.6),0 0 44px rgba(201,168,76,.10),
+      inset 0 1px 0 rgba(255,255,255,.08)}
+  .stage-card:hover .stage-card-inner::after{opacity:1}
+  .sc-num{font-size:9.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+    color:rgba(255,255,255,.34);margin-bottom:12px}
+  .stage-card .product-pillar-tag{margin-bottom:14px}
+  .sc-name{font-size:19px;font-weight:800;color:#fff;margin:0 0 8px;line-height:1.25}
+  .sc-tag{font-family:var(--serif);font-style:italic;font-size:13.5px;color:rgba(255,255,255,.55);
+    margin:0 0 20px;line-height:1.55}
+  .sc-rule{height:1px;background:linear-gradient(90deg,rgba(201,168,76,.35),transparent);margin-bottom:18px}
+  .sc-cta{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;
+    letter-spacing:.05em;color:#F0D878;text-decoration:none;transition:gap .25s ease,color .25s}
+  .sc-cta:hover{gap:12px;color:#fff}
+  .stage-hint{margin-top:52px;font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;
+    color:rgba(255,255,255,.35)}
+  /* — live cinematic mode (desktop, JS-driven) — */
+  .stage-live{height:300vh;padding:0;overflow:visible}
+  .stage-live .stage-sticky{position:sticky;top:0;height:100vh;max-width:none;
+    display:block;overflow:hidden}
+  .stage-live::before,.stage-live::after{z-index:3}
+  .stage-live .stage-headline{position:absolute;left:50%;top:20%;transform:translateX(-50%);
+    width:min(900px,90vw);opacity:0;will-change:transform,opacity}
+  .stage-live .stage-sub{position:absolute;left:50%;top:calc(20% + 84px);transform:translateX(-50%);
+    width:min(560px,84vw);opacity:0;margin:0;will-change:opacity}
+  .stage-live .stage-compass{position:absolute;left:50%;top:52%;margin:0;opacity:0;
+    transform:translate(-50%,-50%);will-change:transform,opacity}
+  .stage-live .stage-cards{position:absolute;left:50%;top:57%;width:0;height:0;display:block;
+    flex-wrap:nowrap;gap:0}
+  .stage-live .stage-card{position:absolute;left:0;top:0;margin-left:-170px;margin-top:-190px;
+    opacity:0;will-change:transform,opacity,filter}
+  .stage-live .stage-hint{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);
+    margin:0;opacity:0;will-change:opacity}
+  @media(max-width:1280px){
+    .stage-live .stage-card{width:296px;margin-left:-148px}
+  }
   .products-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
   .products-intro{text-align:center;max-width:600px;margin:0 auto 64px}
@@ -1202,15 +1292,72 @@
 <!-- ═══ SECTION 4 — PRODUCT MARKETPLACE ═══ -->
 <section class="products-section" id="products">
   <div class="section-inner">
-
     <div class="section-chapter-label">
       <span class="chapter-line-sm"></span>
       <span data-en="Chapter III · The Product Suite" data-id="Bab III · Rangkaian Produk">Chapter III · The Product Suite</span>
       <span class="chapter-line-sm"></span>
     </div>
+  </div>
 
-    <div class="products-intro">
-      <h2 class="products-headline" data-en="Every tool. One climb." data-id="Semua alat. Satu pendakian.">Every tool. One climb.</h2>
+  <!-- ═══ Cinematic product showcase stage ═══ -->
+  <div class="showcase-stage" id="showcaseStage">
+    <div class="stage-ambient" aria-hidden="true"></div>
+    <div class="stage-sticky">
+
+      <h2 class="stage-headline" data-en="Every tool. <em>One climb.</em>" data-id="Semua alat. <em>Satu pendakian.</em>">Every tool. <em>One climb.</em></h2>
+      <p class="stage-sub" data-en="The Metanoia ecosystem — three flagship experiences, one ascent." data-id="Ekosistem Metanoia — tiga pengalaman unggulan, satu pendakian.">The Metanoia ecosystem — three flagship experiences, one ascent.</p>
+
+      <div class="stage-compass" aria-hidden="true">
+        <div class="cmp-3d">
+          <span class="cmp-ring r1"></span>
+          <span class="cmp-ring r2"></span>
+          <span class="cmp-ring r3"></span>
+          <span class="cmp-ring r4"></span>
+          <span class="cmp-needle"></span>
+          <span class="cmp-core"></span>
+        </div>
+      </div>
+
+      <div class="stage-cards">
+        <div class="stage-card">
+          <div class="stage-card-float"><div class="stage-card-inner">
+            <div class="sc-num" data-en="Product 01" data-id="Produk 01">Product 01</div>
+            <div class="product-pillar-tag map">The Map</div>
+            <h3 class="sc-name">Project Aladin</h3>
+            <p class="sc-tag" data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</p>
+            <div class="sc-rule"></div>
+            <a class="sc-cta" href="products/project-aladin.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
+          </div></div>
+        </div>
+        <div class="stage-card">
+          <div class="stage-card-float"><div class="stage-card-inner">
+            <div class="sc-num" data-en="Product 02" data-id="Produk 02">Product 02</div>
+            <div class="product-pillar-tag pack">The Pack</div>
+            <h3 class="sc-name" data-en="Understanding the Professional World" data-id="Memahami Dunia Profesional">Understanding the Professional World</h3>
+            <p class="sc-tag" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk mendapatkan pekerjaan.">The complete toolkit for getting hired.</p>
+            <div class="sc-rule"></div>
+            <a class="sc-cta" href="products/professional-world.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
+          </div></div>
+        </div>
+        <div class="stage-card">
+          <div class="stage-card-float"><div class="stage-card-inner">
+            <div class="sc-num" data-en="Product 03" data-id="Produk 03">Product 03</div>
+            <div class="product-pillar-tag rope">The Rope</div>
+            <h3 class="sc-name" data-en="Becoming a High-Impact Individual" data-id="Menjadi Individu Berdampak Tinggi">Becoming a High-Impact Individual</h3>
+            <p class="sc-tag" data-en="Build experiences that set you apart." data-id="Bangun pengalaman yang membedakanmu.">Build experiences that set you apart.</p>
+            <div class="sc-rule"></div>
+            <a class="sc-cta" href="products/high-impact.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="stage-hint" data-en="The full suite awaits below" data-id="Rangkaian lengkap menanti di bawah">The full suite awaits below</div>
+    </div>
+  </div>
+
+  <div class="section-inner">
+
+    <div class="products-intro" style="margin-top:72px">
       <p class="products-sub" data-en="Five curated products built for students who are serious about graduating ready.<br>Available exclusively to Metanoia Premium members." data-id="Lima produk yang dikurasi untuk mahasiswa yang serius lulus dengan persiapan matang.<br>Tersedia eksklusif untuk anggota Metanoia Premium.">
         Five curated products built for students who are serious about graduating ready.<br>
         Available exclusively to Metanoia Premium members.
@@ -1606,6 +1753,100 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
     if(!pTick){ requestAnimationFrame(updateParallax); pTick = true; }
   }, {passive:true});
   updateParallax();
+}
+
+/* ─── Cinematic product showcase: scroll-driven 3D stage ─── */
+const stage = document.getElementById('showcaseStage');
+if(stage){
+  const headline = stage.querySelector('.stage-headline');
+  const stageSub = stage.querySelector('.stage-sub');
+  const compass  = stage.querySelector('.stage-compass');
+  const hint     = stage.querySelector('.stage-hint');
+  const sCards   = [...stage.querySelectorAll('.stage-card')];
+  const animEls  = [headline, stageSub, compass, hint, ...sCards];
+  const mqDesk = matchMedia('(min-width:961px)');
+  const mqRM   = matchMedia('(prefers-reduced-motion: reduce)');
+  const clamp01 = v => Math.min(1, Math.max(0, v));
+  const seg  = (p,a,b) => clamp01((p-a)/(b-a));
+  const ease = t => t<.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2;
+  let live = false, stTick = false;
+
+  const setLive = on => {
+    if(on === live) return;
+    live = on;
+    stage.classList.toggle('stage-live', on);
+    if(!on) animEls.forEach(el => { el.style.opacity=''; el.style.transform=''; el.style.filter=''; });
+  };
+
+  const updateStage = () => {
+    stTick = false;
+    const wantLive = mqDesk.matches && !mqRM.matches;
+    setLive(wantLive);
+    if(!wantLive) return;
+    const total = stage.offsetHeight - innerHeight;
+    const p = clamp01(-stage.getBoundingClientRect().top / total);
+
+    // Act 1 — headline breathes in with gold glow, sub follows
+    const hIn = ease(seg(p, 0, .15));
+    const hUp = ease(seg(p, .58, .86));
+    headline.style.opacity = hIn.toFixed(3);
+    headline.style.transform =
+      'translateX(-50%) translateY(' + ((1-hIn)*38 - hUp*54).toFixed(1) + 'px) ' +
+      'scale(' + (1 - hUp*.10).toFixed(3) + ')';
+    headline.style.setProperty('--glow', (hIn*(1-hUp*.55)).toFixed(2));
+    stageSub.style.opacity = (ease(seg(p,.05,.2)) * (1-hUp)).toFixed(3);
+
+    // Act 2 — the compass surfaces, then recedes as the cards arrive
+    const cIn = ease(seg(p, .04, .2));
+    const cBk = ease(seg(p, .5, .8));
+    compass.style.opacity = (cIn*.85 * (1 - cBk*.8)).toFixed(3);
+    compass.style.transform =
+      'translate(-50%,-50%) translateY(' + ((1-cIn)*46 - cBk*150).toFixed(1) + 'px) ' +
+      'scale(' + (1 - cBk*.4).toFixed(3) + ')';
+
+    // Act 3 — the three cards emerge, rotate true, and assemble
+    sCards.forEach((card,i)=>{
+      const t = ease(seg(p, .24 + i*.13, .56 + i*.13));
+      const w = card.offsetWidth || 340;
+      const fx = (i-1) * (w + 28);
+      const x  = (i-1)*54 + (fx-(i-1)*54)*t;
+      const y  = (1-t) * innerHeight * .58;
+      const rx = (1-t) * 34;
+      const ry = (1-t) * (i-1) * -20;
+      const sc = .82 + .18*t;
+      card.style.opacity = clamp01(t*1.7).toFixed(3);
+      card.style.filter  = 'blur(' + ((1-t)*7).toFixed(1) + 'px)';
+      card.style.transform =
+        'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) ' +
+        'rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) ' +
+        'scale(' + sc.toFixed(3) + ')';
+    });
+
+    // Act 4 — closing hint
+    hint.style.opacity = ease(seg(p, .88, .99)).toFixed(3);
+  };
+
+  addEventListener('scroll', ()=>{
+    if(!stTick){ requestAnimationFrame(updateStage); stTick = true; }
+  }, {passive:true});
+  addEventListener('resize', ()=>{
+    if(!stTick){ requestAnimationFrame(updateStage); stTick = true; }
+  });
+  updateStage();
+
+  // pointer tilt on the assembled cards (depth micro-interaction)
+  if(matchMedia('(pointer:fine)').matches && !mqRM.matches){
+    sCards.forEach(card=>{
+      const inner = card.querySelector('.stage-card-inner');
+      card.addEventListener('mousemove', e=>{
+        const b = card.getBoundingClientRect();
+        const rx = ((e.clientY - b.top)/b.height - .5) * -7;
+        const ry = ((e.clientX - b.left)/b.width - .5) * 8;
+        inner.style.transform = 'rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg)';
+      });
+      card.addEventListener('mouseleave', ()=>{ inner.style.transform=''; });
+    });
+  }
 }
 
 /* ─── Theme: day / night toggle (shared with landing via mt-theme) ─── */
