@@ -458,98 +458,132 @@
     line-height:1.2;letter-spacing:-.01em}
   .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 32px}
 
-  /* ═══ CINEMATIC PRODUCT SHOWCASE STAGE ═══ */
-  /* Default = static premium layout (mobile / no-JS / reduced motion).
-     JS adds .stage-live on desktop to switch to the sticky 3D scroll scene. */
-  .showcase-stage{position:relative;background:#070C16;color:#fff;overflow:hidden;
-    padding:110px 24px 90px;text-align:center}
-  .showcase-stage::before{content:'';position:absolute;top:0;left:0;right:0;height:120px;
-    background:linear-gradient(180deg,var(--bg-base),transparent);pointer-events:none;z-index:2}
-  .showcase-stage::after{content:'';position:absolute;bottom:0;left:0;right:0;height:120px;
-    background:linear-gradient(0deg,var(--bg-base),transparent);pointer-events:none;z-index:2}
-  .stage-ambient{position:absolute;inset:0;pointer-events:none;background:
-    radial-gradient(46% 36% at 50% 30%, rgba(201,168,76,.09), transparent 70%),
-    radial-gradient(60% 40% at 50% 96%, rgba(201,168,76,.06), transparent 75%),
-    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0,0,0,.5) 100%)}
-  .stage-sticky{position:relative;max-width:1180px;margin:0 auto}
-  .stage-headline{font-size:clamp(2.2rem,4.6vw,3.8rem);font-weight:800;color:#fff;margin:0 0 14px;
-    letter-spacing:-.015em;
-    text-shadow:0 0 calc(46px * var(--glow,1)) rgba(240,216,120,calc(.38 * var(--glow,1)))}
-  .stage-headline em{font-style:normal;color:var(--gold-bright,#F0D878);
-    background:linear-gradient(100deg,#8B6914,#F0D878 55%,#C9A84C);
+  /* ═══ FLAGSHIP SHOWCASE — framed product presentation ═══ */
+  .suite-wrap{padding:26px 20px 10px}
+  .suite-frame{max-width:1240px;margin:0 auto;border-radius:26px;overflow:hidden;position:relative;
+    background:linear-gradient(180deg,#0C1322 0%,#080E1A 100%);
+    border:1px solid rgba(201,168,76,.20);
+    box-shadow:0 70px 150px rgba(0,0,0,.55),0 24px 60px rgba(0,0,0,.4)}
+  .frame-bar{display:flex;align-items:center;justify-content:space-between;gap:18px;
+    padding:14px 26px;border-bottom:1px solid rgba(255,255,255,.06);
+    background:rgba(255,255,255,.02)}
+  .fb-brand{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:800;
+    letter-spacing:.14em;text-transform:uppercase;color:#fff;white-space:nowrap}
+  .fb-brand svg{width:22px;height:22px;display:block}
+  .fb-links{display:flex;gap:2px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+  .fb-links span{font-size:10.5px;font-weight:600;letter-spacing:.08em;color:rgba(255,255,255,.42);
+    padding:7px 12px;border-radius:999px;white-space:nowrap}
+  .fb-cta{font-size:11px;font-weight:700;color:#0A0F1A;text-decoration:none;white-space:nowrap;
+    padding:8px 16px;border-radius:999px;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    transition:transform .2s ease,box-shadow .2s ease}
+  .fb-cta:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(201,168,76,.4)}
+  .fs-scene{position:relative;padding:84px 48px}
+  .fs-scene + .fs-scene{border-top:1px solid rgba(255,255,255,.05)}
+  .fs-kicker{font-size:10px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:18px}
+  .fs-split .w{display:inline-block;opacity:0;transform:translateY(16px);filter:blur(5px);
+    transition:opacity .55s ease,transform .55s ease,filter .55s ease;transition-delay:var(--wd,0s)}
+  .revealed .fs-split .w{opacity:1;transform:none;filter:none}
+  /* — scene A: title — */
+  .fs-hero{text-align:center;padding-top:92px}
+  .fs-hero h2{font-size:clamp(2.2rem,4.4vw,3.6rem);font-weight:800;color:#fff;margin:0 0 16px;
+    letter-spacing:-.015em;line-height:1.16}
+  .fs-hero h2 em{font-style:normal;color:#F0D878}
+  .fs-hero h2 em .w{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
     -webkit-background-clip:text;background-clip:text;color:transparent}
-  .stage-sub{font-size:14.5px;color:rgba(255,255,255,.6);line-height:1.7;margin:0 auto 44px;max-width:520px}
-  /* — 3D compass emblem — */
-  .stage-compass{width:280px;height:280px;margin:0 auto 46px;perspective:900px;opacity:.85}
-  .cmp-3d{width:100%;height:100%;position:relative;transform-style:preserve-3d;
-    animation:cmpSpin 30s linear infinite}
-  .cmp-ring{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(201,168,76,.4)}
-  .cmp-ring.r2{inset:12%;border-color:rgba(240,216,120,.3);transform:rotateX(68deg)}
-  .cmp-ring.r3{inset:12%;border-color:rgba(201,168,76,.22);transform:rotateY(68deg)}
-  .cmp-ring.r4{inset:28%;border-color:rgba(240,216,120,.16);transform:rotateX(68deg) rotateZ(45deg)}
-  .cmp-needle{position:absolute;left:50%;top:50%;width:14px;height:62%;
-    transform:translate(-50%,-50%);clip-path:polygon(50% 0,72% 50%,50% 100%,28% 50%);
-    background:linear-gradient(180deg,#F0D878 0%,#C9A84C 48%,#8B6914 100%);
-    filter:drop-shadow(0 0 12px rgba(240,216,120,.5))}
-  .cmp-core{position:absolute;left:50%;top:50%;width:12px;height:12px;border-radius:50%;
-    transform:translate(-50%,-50%);background:#F0D878;box-shadow:0 0 18px rgba(240,216,120,.9)}
-  @keyframes cmpSpin{to{transform:rotateY(360deg)}}
-  /* — showcase cards — */
-  .stage-cards{position:relative;display:flex;justify-content:center;gap:24px;flex-wrap:wrap;
-    perspective:1300px}
-  .stage-card{width:340px;max-width:92vw}
-  .stage-card-float{animation:cardIdle 7s ease-in-out infinite}
-  .stage-card:nth-child(2) .stage-card-float{animation-delay:2.3s}
-  .stage-card:nth-child(3) .stage-card-float{animation-delay:4.6s}
-  @keyframes cardIdle{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-  .stage-card-inner{position:relative;text-align:left;border-radius:20px;padding:30px 28px 26px;
-    background:linear-gradient(160deg,rgba(22,30,46,.92),rgba(9,14,24,.94));
-    border:1px solid rgba(201,168,76,.26);backdrop-filter:blur(18px);
-    box-shadow:0 34px 70px rgba(0,0,0,.55),0 8px 22px rgba(0,0,0,.4),
-      inset 0 1px 0 rgba(255,255,255,.06);
-    transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;
-    transform-style:preserve-3d;overflow:hidden}
-  .stage-card-inner::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
-    background:linear-gradient(90deg,transparent,rgba(240,216,120,.55),transparent)}
-  .stage-card-inner::after{content:'';position:absolute;inset:0;pointer-events:none;opacity:0;
-    background:linear-gradient(115deg,transparent 32%,rgba(240,216,120,.07) 48%,transparent 64%);
-    transition:opacity .4s ease}
-  .stage-card:hover .stage-card-inner{border-color:rgba(201,168,76,.5);
-    box-shadow:0 44px 90px rgba(0,0,0,.6),0 0 44px rgba(201,168,76,.10),
-      inset 0 1px 0 rgba(255,255,255,.08)}
-  .stage-card:hover .stage-card-inner::after{opacity:1}
-  .sc-num{font-size:9.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
-    color:rgba(255,255,255,.34);margin-bottom:12px}
-  .stage-card .product-pillar-tag{margin-bottom:14px}
-  .sc-name{font-size:19px;font-weight:800;color:#fff;margin:0 0 8px;line-height:1.25}
-  .sc-tag{font-family:var(--serif);font-style:italic;font-size:13.5px;color:rgba(255,255,255,.55);
-    margin:0 0 20px;line-height:1.55}
-  .sc-rule{height:1px;background:linear-gradient(90deg,rgba(201,168,76,.35),transparent);margin-bottom:18px}
-  .sc-cta{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;
-    letter-spacing:.05em;color:#F0D878;text-decoration:none;transition:gap .25s ease,color .25s}
-  .sc-cta:hover{gap:12px;color:#fff}
-  .stage-hint{margin-top:52px;font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;
-    color:rgba(255,255,255,.35)}
-  /* — live cinematic mode (desktop, JS-driven) — */
-  .stage-live{height:300vh;padding:0;overflow:visible}
-  .stage-live .stage-sticky{position:sticky;top:0;height:100vh;max-width:none;
-    display:block;overflow:hidden}
-  .stage-live::before,.stage-live::after{z-index:3}
-  .stage-live .stage-headline{position:absolute;left:50%;top:20%;transform:translateX(-50%);
-    width:min(900px,90vw);opacity:0;will-change:transform,opacity}
-  .stage-live .stage-sub{position:absolute;left:50%;top:calc(20% + 84px);transform:translateX(-50%);
-    width:min(560px,84vw);opacity:0;margin:0;will-change:opacity}
-  .stage-live .stage-compass{position:absolute;left:50%;top:52%;margin:0;opacity:0;
-    transform:translate(-50%,-50%);will-change:transform,opacity}
-  .stage-live .stage-cards{position:absolute;left:50%;top:57%;width:0;height:0;display:block;
-    flex-wrap:nowrap;gap:0}
-  .stage-live .stage-card{position:absolute;left:0;top:0;margin-left:-170px;margin-top:-190px;
-    opacity:0;will-change:transform,opacity,filter}
-  .stage-live .stage-hint{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);
-    margin:0;opacity:0;will-change:opacity}
-  @media(max-width:1280px){
-    .stage-live .stage-card{width:296px;margin-left:-148px}
-  }
+  .fs-hero p{font-size:14.5px;color:rgba(255,255,255,.55);margin:0 auto 46px;max-width:480px;line-height:1.7}
+  .fs-hero-card{display:inline-block;transform:rotate(-6deg);transition:transform .45s cubic-bezier(.3,.9,.3,1)}
+  .fs-hero-card:hover{transform:rotate(0deg) scale(1.03)}
+  /* — deck cards — */
+  .deck-card{width:216px;border-radius:16px;overflow:hidden;text-align:left;
+    background:linear-gradient(165deg,rgba(26,34,52,.98),rgba(11,17,29,.98));
+    border:1px solid rgba(201,168,76,.28);
+    box-shadow:0 26px 60px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.06)}
+  .deck-card img{width:100%;height:112px;object-fit:cover;display:block}
+  .deck-card .dc-body{padding:14px 16px 16px}
+  .deck-card .product-pillar-tag{margin-bottom:8px}
+  .deck-card b{display:block;font-size:13px;font-weight:800;color:#fff;line-height:1.3;margin-bottom:4px}
+  .deck-card span{display:block;font-size:10.5px;color:rgba(255,255,255,.45);line-height:1.5}
+  /* — scene B: ecosystem deck — */
+  .fs-deck-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:48px;align-items:center}
+  .fs-deck-copy h2{font-size:clamp(1.7rem,2.9vw,2.5rem);font-weight:800;color:#fff;margin:0 0 18px;
+    line-height:1.22;letter-spacing:-.01em}
+  .fs-deck-copy h2 em{font-style:normal;color:#F0D878}
+  .fs-deck-copy p{font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.75;margin:0 0 28px;max-width:400px}
+  .fs-pills{display:flex;gap:12px;flex-wrap:wrap}
+  .fs-pill{display:inline-block;font-size:12px;font-weight:700;text-decoration:none;
+    padding:11px 22px;border-radius:999px;transition:transform .2s,box-shadow .2s,background .2s}
+  .fs-pill.gold{color:#0A0F1A;background:linear-gradient(120deg,#C9A84C,#F0D878)}
+  .fs-pill.gold:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.4)}
+  .fs-pill.ghost{color:#F0D878;border:1px solid rgba(201,168,76,.4)}
+  .fs-pill.ghost:hover{background:rgba(201,168,76,.1)}
+  .fs-deck-visual{position:relative;height:430px}
+  .fs-deck-visual .deck-card{position:absolute;top:50%;left:0;margin-top:-140px;
+    opacity:0;transform:translate(var(--dx,0),60px) rotate(calc(var(--dr,0deg) + 10deg));
+    transition:opacity .7s ease,transform .8s cubic-bezier(.25,.9,.3,1);transition-delay:var(--dd,0s)}
+  .revealed .fs-deck-visual .deck-card{opacity:1;transform:translate(var(--dx,0),var(--dy,0)) rotate(var(--dr,0deg))}
+  .fs-deck-visual .deck-card:hover{transform:translate(var(--dx,0),calc(var(--dy,0) - 10px)) rotate(var(--dr,0deg));z-index:9 !important}
+  .deck-badge{position:absolute;z-index:8;font-size:10.5px;font-weight:700;letter-spacing:.06em;
+    padding:6px 13px;border-radius:999px;color:#0A0F1A;white-space:nowrap;
+    box-shadow:0 10px 26px rgba(0,0,0,.4);animation:badgeBob 5.5s ease-in-out infinite;
+    opacity:0;transition:opacity .6s ease .7s}
+  .revealed .deck-badge{opacity:1}
+  .deck-badge.b1{background:#8FB8F0;top:2%;left:16%}
+  .deck-badge.b2{background:#7ADFD6;top:16%;right:-2%;animation-delay:1.4s}
+  .deck-badge.b3{background:#F0D878;bottom:14%;left:2%;animation-delay:2.8s}
+  .deck-badge.b4{background:#8FE3B4;bottom:-2%;right:14%;animation-delay:4.2s}
+  @keyframes badgeBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+  /* — scene C: marquee — */
+  .fs-marquee{padding-left:0;padding-right:0;text-align:center}
+  .mq-viewport{overflow:hidden;margin:0 0 44px;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
+    mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+  .mq-viewport.below{margin:44px 0 0}
+  .mq-row{display:flex;gap:16px;width:max-content;animation:mqScrollL 46s linear infinite}
+  .mq-row.rev{animation:mqScrollR 52s linear infinite}
+  @keyframes mqScrollL{to{transform:translateX(-50%)}}
+  @keyframes mqScrollR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+  .mq-tile{flex:none;width:132px;height:92px;border-radius:14px;overflow:hidden;
+    border:1px solid rgba(201,168,76,.22)}
+  .mq-tile img{width:100%;height:100%;object-fit:cover;display:block}
+  .mq-chip{flex:none;height:92px;display:flex;align-items:center;justify-content:center;
+    padding:0 26px;border-radius:14px;font-size:12.5px;font-weight:800;letter-spacing:.1em;
+    text-transform:uppercase;white-space:nowrap}
+  .mq-chip.map{background:rgba(29,95,171,.2);color:#8FB8F0;border:1px solid rgba(29,95,171,.4)}
+  .mq-chip.pack{background:rgba(13,115,119,.2);color:#7ADFD6;border:1px solid rgba(13,115,119,.4)}
+  .mq-chip.rope{background:rgba(201,168,76,.14);color:#F0D878;border:1px solid rgba(201,168,76,.4)}
+  .mq-chip.route{background:rgba(26,92,56,.2);color:#8FE3B4;border:1px solid rgba(26,92,56,.4)}
+  .fs-marquee h2{font-size:clamp(1.8rem,3.2vw,2.7rem);font-weight:800;color:#fff;margin:0 0 12px;
+    letter-spacing:-.012em;padding:0 30px}
+  .fs-marquee h2 em{font-style:normal;color:#F0D878}
+  .fs-marquee p{font-size:13.5px;color:rgba(255,255,255,.5);margin:0 auto;max-width:460px;
+    line-height:1.7;padding:0 30px}
+  /* — scene D: suite banner — */
+  .fs-banner-card{border-radius:20px;padding:56px 48px;text-align:center;position:relative;overflow:hidden;
+    background:
+      radial-gradient(70% 120% at 50% 0%, rgba(201,168,76,.28), rgba(201,168,76,.06) 60%, transparent),
+      linear-gradient(180deg,#141a29,#0B1120);
+    border:1px solid rgba(201,168,76,.35)}
+  .fs-banner-card h2{font-size:clamp(1.6rem,2.9vw,2.4rem);font-weight:800;color:#fff;margin:0 0 12px;
+    letter-spacing:-.01em}
+  .fs-banner-card h2 em{font-style:normal;background:linear-gradient(100deg,#8B6914,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .fs-banner-card > p{font-size:13.5px;color:rgba(255,255,255,.55);margin:0 auto 30px;max-width:480px;line-height:1.7}
+  .fs-glyphs{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
+  .fs-glyph{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(201,168,76,.35);background:rgba(8,14,26,.6);color:#F0D878;
+    opacity:0;transform:translateY(14px) scale(.8);
+    transition:opacity .5s ease,transform .5s cubic-bezier(.34,1.4,.64,1)}
+  .revealed .fs-glyph{opacity:1;transform:none}
+  .revealed .fs-glyph:nth-child(1){transition-delay:.1s}
+  .revealed .fs-glyph:nth-child(2){transition-delay:.2s}
+  .revealed .fs-glyph:nth-child(3){transition-delay:.3s}
+  .revealed .fs-glyph:nth-child(4){transition-delay:.4s}
+  .revealed .fs-glyph:nth-child(5){transition-delay:.5s}
+  .fs-glyph svg{width:24px;height:24px;display:block}
+
+  /* ═══ SECTION 4 — PRODUCTS ═══ */
+  .products-section{background:var(--bg-base);padding:120px 0;position:relative}
   .products-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
   .products-intro{text-align:center;max-width:600px;margin:0 auto 64px}
@@ -749,6 +783,17 @@
     .stage-media{max-width:none}
     .flow-grid{grid-template-columns:1fr;gap:0}
     .flow-item + .flow-item{margin-top:36px;padding-top:36px;border-top:1px solid rgba(201,168,76,.13)}
+    .suite-wrap{padding:16px 12px 6px}
+    .fs-scene{padding:56px 22px}
+    .fs-hero{padding-top:64px}
+    .frame-bar .fb-links{display:none}
+    .fs-deck-grid{grid-template-columns:1fr;gap:40px}
+    .fs-deck-visual{height:auto;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .fs-deck-visual .deck-card{position:static;margin-top:0;width:100%;
+      opacity:1;transform:none !important;transition:none}
+    .deck-badge{display:none}
+    .fs-marquee{padding-left:0;padding-right:0}
+    .fs-banner-card{padding:40px 24px}
     .ro-quote{padding:36px 26px 30px}
     .traits-panel{grid-template-columns:1fr 1fr}
     .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
@@ -774,6 +819,10 @@
     .traits-panel.reveal .trait{opacity:1;transform:none}
     .stage-row.reveal .stage-media{opacity:1;transform:none}
     .system-journey.reveal .flow-item{opacity:1;transform:none}
+    .fs-split .w{opacity:1;transform:none;filter:none}
+    .fs-deck-visual .deck-card{opacity:1;transform:translate(var(--dx,0),var(--dy,0)) rotate(var(--dr,0deg))}
+    .deck-badge{opacity:1}
+    .fs-glyph{opacity:1;transform:none}
     .rz-particles{display:none}
   }
 </style>
@@ -1299,59 +1348,155 @@
     </div>
   </div>
 
-  <!-- ═══ Cinematic product showcase stage ═══ -->
-  <div class="showcase-stage" id="showcaseStage">
-    <div class="stage-ambient" aria-hidden="true"></div>
-    <div class="stage-sticky">
+  <!-- ═══ Flagship showcase: the Metanoia OS, framed ═══ -->
+  <div class="suite-wrap">
+    <div class="suite-frame" id="suiteFrame">
 
-      <h2 class="stage-headline" data-en="Every tool. <em>One climb.</em>" data-id="Semua alat. <em>Satu pendakian.</em>">Every tool. <em>One climb.</em></h2>
-      <p class="stage-sub" data-en="The Metanoia ecosystem — three flagship experiences, one ascent." data-id="Ekosistem Metanoia — tiga pengalaman unggulan, satu pendakian.">The Metanoia ecosystem — three flagship experiences, one ascent.</p>
+      <div class="frame-bar" aria-hidden="true">
+        <div class="fb-brand">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18.2" stroke="#C9A84C" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#C9A84C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Metanoia&nbsp;OS</span>
+        </div>
+        <div class="fb-links">
+          <span data-en="Products" data-id="Produk">Products</span>
+          <span data-en="Career OS" data-id="Career OS">Career OS</span>
+          <span data-en="Mentors" data-id="Mentor">Mentors</span>
+          <span data-en="Community" data-id="Komunitas">Community</span>
+        </div>
+        <a class="fb-cta" href="../register.html" data-en="Get Started" data-id="Mulai">Get Started</a>
+      </div>
 
-      <div class="stage-compass" aria-hidden="true">
-        <div class="cmp-3d">
-          <span class="cmp-ring r1"></span>
-          <span class="cmp-ring r2"></span>
-          <span class="cmp-ring r3"></span>
-          <span class="cmp-ring r4"></span>
-          <span class="cmp-needle"></span>
-          <span class="cmp-core"></span>
+      <!-- Scene A — title -->
+      <div class="fs-scene fs-hero reveal">
+        <h2 class="fs-split" data-en="Every tool. <em>One climb.</em>" data-id="Semua alat. <em>Satu pendakian.</em>">Every tool. <em>One climb.</em></h2>
+        <p data-en="One platform for the entire ascent — from knowing yourself to signing the offer." data-id="Satu platform untuk seluruh pendakian — dari mengenali diri hingga menandatangani tawaran.">One platform for the entire ascent — from knowing yourself to signing the offer.</p>
+        <div class="fs-hero-card">
+          <div class="deck-card">
+            <img src="../assets/bg/map.jpg" alt="" loading="lazy">
+            <div class="dc-body">
+              <div class="product-pillar-tag map">The Map</div>
+              <b>Project Aladin</b>
+              <span data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="stage-cards">
-        <div class="stage-card">
-          <div class="stage-card-float"><div class="stage-card-inner">
-            <div class="sc-num" data-en="Product 01" data-id="Produk 01">Product 01</div>
-            <div class="product-pillar-tag map">The Map</div>
-            <h3 class="sc-name">Project Aladin</h3>
-            <p class="sc-tag" data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</p>
-            <div class="sc-rule"></div>
-            <a class="sc-cta" href="products/project-aladin.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
-          </div></div>
-        </div>
-        <div class="stage-card">
-          <div class="stage-card-float"><div class="stage-card-inner">
-            <div class="sc-num" data-en="Product 02" data-id="Produk 02">Product 02</div>
-            <div class="product-pillar-tag pack">The Pack</div>
-            <h3 class="sc-name" data-en="Understanding the Professional World" data-id="Memahami Dunia Profesional">Understanding the Professional World</h3>
-            <p class="sc-tag" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk mendapatkan pekerjaan.">The complete toolkit for getting hired.</p>
-            <div class="sc-rule"></div>
-            <a class="sc-cta" href="products/professional-world.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
-          </div></div>
-        </div>
-        <div class="stage-card">
-          <div class="stage-card-float"><div class="stage-card-inner">
-            <div class="sc-num" data-en="Product 03" data-id="Produk 03">Product 03</div>
-            <div class="product-pillar-tag rope">The Rope</div>
-            <h3 class="sc-name" data-en="Becoming a High-Impact Individual" data-id="Menjadi Individu Berdampak Tinggi">Becoming a High-Impact Individual</h3>
-            <p class="sc-tag" data-en="Build experiences that set you apart." data-id="Bangun pengalaman yang membedakanmu.">Build experiences that set you apart.</p>
-            <div class="sc-rule"></div>
-            <a class="sc-cta" href="products/high-impact.html"><span data-en="Explore" data-id="Jelajahi">Explore</span> <span aria-hidden="true">→</span></a>
-          </div></div>
+      <!-- Scene B — the four-pillar deck -->
+      <div class="fs-scene fs-deck reveal">
+        <div class="fs-deck-grid">
+          <div class="fs-deck-copy">
+            <div class="fs-kicker" data-en="The complete ecosystem" data-id="Ekosistem lengkap">The complete ecosystem</div>
+            <h2 data-en="Four pillars, working as <em>one operating system.</em>" data-id="Empat pilar, bekerja sebagai <em>satu sistem operasi.</em>">Four pillars, working as <em>one operating system.</em></h2>
+            <p data-en="The Map knows where you stand. The Pack readies your gear. The Rope secures the interview. The Route plans every next step. Not four tools — one climb." data-id="The Map tahu posisimu. The Pack menyiapkan perlengkapanmu. The Rope mengamankan wawancara. The Route merencanakan setiap langkah berikutnya. Bukan empat alat — satu pendakian.">The Map knows where you stand. The Pack readies your gear. The Rope secures the interview. The Route plans every next step. Not four tools — one climb.</p>
+            <div class="fs-pills">
+              <a class="fs-pill gold" href="#products-grid" data-en="Explore the suite ↓" data-id="Jelajahi rangkaian ↓">Explore the suite ↓</a>
+              <a class="fs-pill ghost" href="#career-os" data-en="How the system works" data-id="Cara kerja sistemnya">How the system works</a>
+            </div>
+          </div>
+          <div class="fs-deck-visual">
+            <span class="deck-badge b1">The Map</span>
+            <span class="deck-badge b2">The Pack</span>
+            <span class="deck-badge b3">The Rope</span>
+            <span class="deck-badge b4">The Route</span>
+            <div class="deck-card" style="--dx:0px;--dy:-30px;--dr:-9deg;--dd:.05s;z-index:1">
+              <img src="../assets/bg/map.jpg" alt="" loading="lazy">
+              <div class="dc-body">
+                <div class="product-pillar-tag map">The Map</div>
+                <b data-en="Career Intelligence" data-id="Kecerdasan Karier">Career Intelligence</b>
+                <span data-en="Know where you are, and where you&apos;re going." data-id="Ketahui posisimu, dan ke mana kamu menuju.">Know where you are, and where you're going.</span>
+              </div>
+            </div>
+            <div class="deck-card" style="--dx:110px;--dy:8px;--dr:-3deg;--dd:.2s;z-index:2">
+              <img src="../assets/bg/pack.jpg" alt="" loading="lazy">
+              <div class="dc-body">
+                <div class="product-pillar-tag pack">The Pack</div>
+                <b data-en="Documents &amp; Skills" data-id="Dokumen &amp; Keterampilan">Documents &amp; Skills</b>
+                <span data-en="The gear that opens doors." data-id="Perlengkapan yang membuka pintu.">The gear that opens doors.</span>
+              </div>
+            </div>
+            <div class="deck-card" style="--dx:220px;--dy:-16px;--dr:4deg;--dd:.35s;z-index:3">
+              <img src="../assets/bg/rope.jpg" alt="" loading="lazy">
+              <div class="dc-body">
+                <div class="product-pillar-tag rope">The Rope</div>
+                <b data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</b>
+                <span data-en="The final gate, secured." data-id="Gerbang terakhir, terjamin.">The final gate, secured.</span>
+              </div>
+            </div>
+            <div class="deck-card" style="--dx:330px;--dy:22px;--dr:10deg;--dd:.5s;z-index:4">
+              <img src="../assets/bg/start.jpg" alt="" loading="lazy">
+              <div class="dc-body">
+                <div class="product-pillar-tag route">The Route</div>
+                <b data-en="Your 90-Day Plan" data-id="Rencana 90 Hari">Your 90-Day Plan</b>
+                <span data-en="One highest-leverage step at a time." data-id="Satu langkah paling berdampak setiap saat.">One highest-leverage step at a time.</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="stage-hint" data-en="The full suite awaits below" data-id="Rangkaian lengkap menanti di bawah">The full suite awaits below</div>
+      <!-- Scene C — marquee -->
+      <div class="fs-scene fs-marquee reveal">
+        <div class="mq-viewport" aria-hidden="true">
+          <div class="mq-row">
+            <div class="mq-tile"><img src="../assets/bg/stage-foundation.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip map">The Map</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-exploration.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip pack">The Pack</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-activation.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip rope">The Rope</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-execution.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip route">The Route</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-graduation.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/stage-foundation.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip map">The Map</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-exploration.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip pack">The Pack</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-activation.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip rope">The Rope</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-execution.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip route">The Route</div>
+            <div class="mq-tile"><img src="../assets/bg/stage-graduation.jpg" alt="" loading="lazy"></div>
+          </div>
+        </div>
+        <h2 data-en="You&apos;ll find every step <em>of the climb here.</em>" data-id="Setiap langkah pendakian <em>ada di sini.</em>">You'll find every step <em>of the climb here.</em></h2>
+        <p data-en="Self-discovery, documents, interviews, planning — the whole journey lives inside one integrated career operating system." data-id="Penemuan diri, dokumen, wawancara, perencanaan — seluruh perjalanan hidup dalam satu sistem operasi karier terpadu.">Self-discovery, documents, interviews, planning — the whole journey lives inside one integrated career operating system.</p>
+        <div class="mq-viewport below" aria-hidden="true">
+          <div class="mq-row rev">
+            <div class="mq-tile"><img src="../assets/bg/map.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/pack.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip rope">Aladin</div>
+            <div class="mq-tile"><img src="../assets/bg/rope.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/start.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip route">The Climb</div>
+            <div class="mq-tile"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/map.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/pack.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip rope">Aladin</div>
+            <div class="mq-tile"><img src="../assets/bg/rope.jpg" alt="" loading="lazy"></div>
+            <div class="mq-tile"><img src="../assets/bg/start.jpg" alt="" loading="lazy"></div>
+            <div class="mq-chip route">The Climb</div>
+            <div class="mq-tile"><img src="../assets/bg/ch1-realization.jpg" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scene D — suite banner -->
+      <div class="fs-scene fs-banner reveal">
+        <div class="fs-banner-card">
+          <h2 data-en="All five products. All four pillars. <em>One membership.</em>" data-id="Lima produk. Empat pilar. <em>Satu keanggotaan.</em>">All five products. All four pillars. <em>One membership.</em></h2>
+          <p data-en="Metanoia Premium unlocks the entire ecosystem — every product below, every pillar of the system, one climb." data-id="Metanoia Premium membuka seluruh ekosistem — semua produk di bawah, semua pilar sistem, satu pendakian.">Metanoia Premium unlocks the entire ecosystem — every product below, every pillar of the system, one climb.</p>
+          <div class="fs-glyphs" aria-hidden="true">
+            <div class="fs-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="12,5 13.5,12 12,19 10.5,12" fill="currentColor" stroke="none" opacity=".9"/></svg></div>
+            <div class="fs-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/></svg></div>
+            <div class="fs-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="12" cy="9" r="1.8" fill="currentColor" stroke="none"/></svg></div>
+            <div class="fs-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/></svg></div>
+            <div class="fs-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9 L12 4.5 L21.5 9 L12 13.5 Z"/><path d="M6.5 11.2 V16 c0 1.6 2.5 3 5.5 3 s5.5-1.4 5.5-3 v-4.8"/></svg></div>
+          </div>
+          <a class="fs-pill gold" href="#products-grid" data-en="See the full suite ↓" data-id="Lihat rangkaian lengkap ↓">See the full suite ↓</a>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1370,7 +1515,7 @@
       </div>
     </div>
 
-    <div class="products-grid reveal">
+    <div class="products-grid reveal" id="products-grid">
 
       <!-- Product 1: Project Aladin — FEATURED -->
       <div class="product-card featured" data-product="aladin">
@@ -1755,99 +1900,36 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
   updateParallax();
 }
 
-/* ─── Cinematic product showcase: scroll-driven 3D stage ─── */
-const stage = document.getElementById('showcaseStage');
-if(stage){
-  const headline = stage.querySelector('.stage-headline');
-  const stageSub = stage.querySelector('.stage-sub');
-  const compass  = stage.querySelector('.stage-compass');
-  const hint     = stage.querySelector('.stage-hint');
-  const sCards   = [...stage.querySelectorAll('.stage-card')];
-  const animEls  = [headline, stageSub, compass, hint, ...sCards];
-  const mqDesk = matchMedia('(min-width:961px)');
-  const mqRM   = matchMedia('(prefers-reduced-motion: reduce)');
-  const clamp01 = v => Math.min(1, Math.max(0, v));
-  const seg  = (p,a,b) => clamp01((p-a)/(b-a));
-  const ease = t => t<.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2;
-  let live = false, stTick = false;
-
-  const setLive = on => {
-    if(on === live) return;
-    live = on;
-    stage.classList.toggle('stage-live', on);
-    if(!on) animEls.forEach(el => { el.style.opacity=''; el.style.transform=''; el.style.filter=''; });
-  };
-
-  const updateStage = () => {
-    stTick = false;
-    const wantLive = mqDesk.matches && !mqRM.matches;
-    setLive(wantLive);
-    if(!wantLive) return;
-    const total = stage.offsetHeight - innerHeight;
-    const p = clamp01(-stage.getBoundingClientRect().top / total);
-
-    // Act 1 — headline breathes in with gold glow, sub follows
-    const hIn = ease(seg(p, 0, .15));
-    const hUp = ease(seg(p, .58, .86));
-    headline.style.opacity = hIn.toFixed(3);
-    headline.style.transform =
-      'translateX(-50%) translateY(' + ((1-hIn)*38 - hUp*54).toFixed(1) + 'px) ' +
-      'scale(' + (1 - hUp*.10).toFixed(3) + ')';
-    headline.style.setProperty('--glow', (hIn*(1-hUp*.55)).toFixed(2));
-    stageSub.style.opacity = (ease(seg(p,.05,.2)) * (1-hUp)).toFixed(3);
-
-    // Act 2 — the compass surfaces, then recedes as the cards arrive
-    const cIn = ease(seg(p, .04, .2));
-    const cBk = ease(seg(p, .5, .8));
-    compass.style.opacity = (cIn*.85 * (1 - cBk*.8)).toFixed(3);
-    compass.style.transform =
-      'translate(-50%,-50%) translateY(' + ((1-cIn)*46 - cBk*150).toFixed(1) + 'px) ' +
-      'scale(' + (1 - cBk*.4).toFixed(3) + ')';
-
-    // Act 3 — the three cards emerge, rotate true, and assemble
-    sCards.forEach((card,i)=>{
-      const t = ease(seg(p, .24 + i*.13, .56 + i*.13));
-      const w = card.offsetWidth || 340;
-      const fx = (i-1) * (w + 28);
-      const x  = (i-1)*54 + (fx-(i-1)*54)*t;
-      const y  = (1-t) * innerHeight * .58;
-      const rx = (1-t) * 34;
-      const ry = (1-t) * (i-1) * -20;
-      const sc = .82 + .18*t;
-      card.style.opacity = clamp01(t*1.7).toFixed(3);
-      card.style.filter  = 'blur(' + ((1-t)*7).toFixed(1) + 'px)';
-      card.style.transform =
-        'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) ' +
-        'rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) ' +
-        'scale(' + sc.toFixed(3) + ')';
-    });
-
-    // Act 4 — closing hint
-    hint.style.opacity = ease(seg(p, .88, .99)).toFixed(3);
-  };
-
-  addEventListener('scroll', ()=>{
-    if(!stTick){ requestAnimationFrame(updateStage); stTick = true; }
-  }, {passive:true});
-  addEventListener('resize', ()=>{
-    if(!stTick){ requestAnimationFrame(updateStage); stTick = true; }
-  });
-  updateStage();
-
-  // pointer tilt on the assembled cards (depth micro-interaction)
-  if(matchMedia('(pointer:fine)').matches && !mqRM.matches){
-    sCards.forEach(card=>{
-      const inner = card.querySelector('.stage-card-inner');
-      card.addEventListener('mousemove', e=>{
-        const b = card.getBoundingClientRect();
-        const rx = ((e.clientY - b.top)/b.height - .5) * -7;
-        const ry = ((e.clientX - b.left)/b.width - .5) * 8;
-        inner.style.transform = 'rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg)';
+/* ─── Flagship showcase: staggered word reveals (re-split on language change) ─── */
+function splitShowcaseWords(){
+  document.querySelectorAll('.fs-split').forEach(el=>{
+    let i = 0;
+    const wrap = node=>{
+      [...node.childNodes].forEach(ch=>{
+        if(ch.nodeType === 3){
+          const frag = document.createDocumentFragment();
+          ch.textContent.split(/(\s+)/).forEach(tok=>{
+            if(tok === '') return;
+            if(/^\s+$/.test(tok)){ frag.appendChild(document.createTextNode(tok)); return; }
+            const sp = document.createElement('span');
+            sp.className = 'w';
+            sp.textContent = tok;
+            sp.style.setProperty('--wd', (i++ * 0.08).toFixed(2) + 's');
+            frag.appendChild(sp);
+          });
+          node.replaceChild(frag, ch);
+        } else if(ch.nodeType === 1 && !ch.classList.contains('w')){
+          wrap(ch);
+        }
       });
-      card.addEventListener('mouseleave', ()=>{ inner.style.transform=''; });
-    });
-  }
+    };
+    wrap(el);
+  });
 }
+splitShowcaseWords();
+document.querySelectorAll('.ctl button[data-lang]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{ requestAnimationFrame(splitShowcaseWords); });
+});
 
 /* ─── Theme: day / night toggle (shared with landing via mt-theme) ─── */
 const root = document.documentElement;
