@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://metanoialabs.net/landing.html"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/landing.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
 <style>
   :root{
     --ember:#F97316; --ember2:#F59E0B; --accent-text:#F59E0B;
@@ -13,6 +15,7 @@
     --frame-scrim:rgba(5,10,20,.38); --frame-edge:rgba(245,239,230,.16);
     --vig:rgba(0,0,0,.42); --grain-o:.05; --ember-ink:#160d03;
     --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
+    --serif:"Playfair Display",Georgia,"Times New Roman",serif;
     color-scheme: dark;
   }
   @media (prefers-color-scheme: light){
@@ -168,11 +171,12 @@
 
   .eyebrow{font-size:12px;font-weight:700;letter-spacing:.34em;text-transform:uppercase;color:var(--accent-text)}
   .chapter{font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:14px}
-  .content h2{font-size:clamp(1.9rem,4.6vw,3.4rem);margin-top:14px;max-width:17em;line-height:1.08}
+  .content h2{font-family:var(--serif);font-weight:600;letter-spacing:.002em;
+      font-size:clamp(1.85rem,4.4vw,3.25rem);margin-top:14px;max-width:17em;line-height:1.14}
   .content .lede{font-size:clamp(1rem,1.5vw,1.16rem);color:var(--muted);max-width:33.5em;margin-top:20px;
       line-height:1.72;letter-spacing:.004em}
   .content .lede:empty{display:none;margin:0}
-  .voice{font-style:italic;font-weight:500;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.5;letter-spacing:-.005em;color:var(--text);max-width:26em;margin-top:36px;text-wrap:balance}
+  .voice{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.15rem,2.3vw,1.6rem);line-height:1.5;letter-spacing:-.005em;color:var(--text);max-width:26em;margin-top:36px;text-wrap:balance}
   .voice em{color:var(--accent-text);font-style:inherit}
 
   /* content reveal inside the active scene */
@@ -202,12 +206,33 @@
   .boot .brand .labs{animation:labsIn .9s ease 1s both,labsGlow 5s ease-in-out 2s infinite}
   #call h1{font-size:clamp(2.2rem,5.3vw,4.3rem);text-transform:uppercase;letter-spacing:-.015em;line-height:1.06;font-weight:800}
   #call h1 em{font-style:normal;color:var(--accent-text)}
-  #call .whisper{font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:20px;letter-spacing:.01em;text-wrap:balance;max-width:30em}
+  #call .whisper{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:20px;letter-spacing:.01em;text-wrap:balance;max-width:30em}
   #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:31em;margin-top:24px;line-height:1.7;letter-spacing:.004em}
   .cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;text-decoration:none;font-weight:600;font-size:15.5px;
       color:var(--ember-ink);background:linear-gradient(120deg,var(--ember2),var(--ember));border-radius:999px;padding:15px 28px;
       box-shadow:0 8px 40px rgba(249,115,22,.35);transition:transform .2s ease;cursor:pointer;border:0}
   .cta:hover{transform:translateY(-2px)}
+  .cta.soft{background:transparent;color:var(--accent-text);box-shadow:none;
+      border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent)}
+  .cta.soft:hover{background:color-mix(in srgb,var(--accent-text) 10%,transparent)}
+  .spec{margin-top:20px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+      color:var(--accent-text);opacity:.92}
+  /* — proof: counters + testimonial (Chapter IV) — */
+  .proof{display:flex;gap:clamp(26px,4vw,54px);justify-content:center;margin-top:36px;flex-wrap:wrap}
+  .pstat b{display:flex;align-items:baseline;justify-content:center;white-space:nowrap;
+      font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:700;color:var(--accent-text);line-height:1}
+  .pstat span{display:block;font-size:11px;color:var(--muted);letter-spacing:.08em;
+      text-transform:uppercase;margin-top:7px;max-width:170px}
+  .ptesti{margin:32px auto 0;max-width:600px;display:flex;flex-direction:column;align-items:center;gap:12px}
+  .pavatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      font-weight:700;font-size:15px;letter-spacing:.05em;color:#241800;
+      background:linear-gradient(135deg,var(--ember2),#FFD98A);
+      box-shadow:0 6px 20px rgba(249,115,22,.35)}
+  .ptesti blockquote{margin:0;font-family:var(--serif);font-style:italic;
+      font-size:clamp(1rem,1.7vw,1.2rem);line-height:1.6;text-wrap:balance}
+  .ptesti cite{font-style:normal;font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
+  body.m .proof{gap:22px}
+  body.m .ptesti blockquote{font-size:1rem}
 
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
   @media(max-width:840px){.cards{grid-template-columns:1fr;gap:12px}}
@@ -347,6 +372,15 @@
     backdrop-filter:blur(6px);transition:border-color .2s,color .2s,background .2s}
   .nav-signin:hover{color:var(--text);border-color:color-mix(in srgb,var(--accent-text) 55%,transparent);background:color-mix(in srgb,var(--accent-text) 8%,transparent)}
   @media(max-width:1330px){.nav-signin{display:none}}
+  .nav-cta{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;
+    letter-spacing:.03em;color:#241800;background:linear-gradient(120deg,var(--ember2),var(--ember));
+    border-radius:999px;padding:9px 16px;white-space:nowrap;
+    box-shadow:0 4px 18px rgba(249,115,22,.35);transition:transform .2s,box-shadow .2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(249,115,22,.45)}
+  @media(max-width:480px){.nav-cta{font-size:11px;padding:8px 12px}}
+  .sheet .sheet-cta{color:#241800;background:linear-gradient(120deg,var(--ember2),var(--ember));
+    border-radius:999px;padding:12px 26px;margin-bottom:14px;display:inline-block;
+    font-size:clamp(1.05rem,3.6vw,1.3rem)}
   .ctl{display:flex;align-items:center;border:1px solid var(--nav-border);border-radius:999px;backdrop-filter:blur(6px);overflow:hidden}
   .ctl button{background:none;border:0;color:var(--muted);font-size:12.5px;font-weight:700;letter-spacing:.06em;
       padding:9px 13px;cursor:pointer;transition:color .25s,background .25s}
@@ -427,15 +461,16 @@
   body.m #call .cta{width:auto}
   /* altitude chip — handheld companion to the desktop rail */
   .mchip{display:none}
-  body.m .mchip{display:flex;position:fixed;top:62px;right:14px;z-index:9;align-items:center;gap:6px;
+  body.m .mchip{display:flex;position:fixed;bottom:60px;right:12px;top:auto;z-index:9;align-items:center;gap:6px;
       border:1px solid var(--nav-border);border-radius:999px;padding:5px 11px;pointer-events:none;
       backdrop-filter:blur(10px);background:color-mix(in srgb, var(--bg) 42%, transparent);
       font-size:10.5px;font-weight:700;letter-spacing:.08em;font-variant-numeric:tabular-nums;color:var(--text)}
   .mchip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ember);
       box-shadow:0 0 8px rgba(249,115,22,.8)}
-  body.m .sceneCard:last-child .content{padding-bottom:110px}
+  body.m .sceneCard:last-child .content{padding-bottom:210px}
   body.m .stats{gap:26px}
   body.m .contact-grid{grid-template-columns:1fr}
+  body.m #contact .content{padding-bottom:210px}
   body.m .paths{grid-template-columns:1fr 1fr;gap:9px}
   body.m .path{padding:12px 12px 11px}
   body.m .path svg{height:46px;margin-bottom:8px}
@@ -525,6 +560,7 @@
       </svg>
     </button>
     <a class="nav-signin" href="login.html" data-i18n="nav.signin">Sign in</a>
+    <a class="nav-cta" href="career-map-assessment.html" data-i18n="nav.cta">Free Career Map</a>
   </div>
 </nav>
 
@@ -552,6 +588,7 @@
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="links">
+    <a href="career-map-assessment.html" class="sheet-cta" data-i18n="nav.cta2">Get your free Career Map →</a>
     <a href="login.html" class="sheet-signin" data-i18n="nav.signin">Sign in</a>
     <a href="#" data-i18n="nav.home">Home</a>
     <a href="pages/student.html" data-i18n="paths.student">Student</a>
@@ -602,6 +639,7 @@
           <span data-i18n="hero.l3">navigated <em>alone.</em></span>
         </h1>
         <p class="sub fx d2" data-i18n="hero.sub">The career mountain was always climbable. You were just never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.</p>
+        <p class="spec fx d2" data-i18n="hero.spec">15-minute diagnostic · Personalized 4-year plan · Five tools to execute it</p>
         <div class="fx d3"><button class="cta" data-goto="1"><span data-i18n="hero.cta">Begin the Climb</span>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button></div>
@@ -622,10 +660,11 @@
         <h2 class="fx d1" data-i18n="prep.h2">No one summits on talent alone. They summit prepared.</h2>
         <p class="lede fx d2" data-i18n="prep.lede">Privileged climbers arrive with routes marked and packs filled by people who've climbed before. Metanoia packs yours: a readiness diagnostic that maps your true starting point, then a personalized 90-day route to your target role.</p>
         <div class="gear">
-          <div class="row fx d1"><span class="n">01</span><div><h3 data-i18n="prep.g1h">The Map — Career Diagnostic</h3><p data-i18n="prep.g1p">Fifteen minutes. Five dimensions. Your honest position on the mountain — probably stronger than you think, clearer than you feared.</p></div></div>
-          <div class="row fx d2"><span class="n">02</span><div><h3 data-i18n="prep.g2h">The Pack — CV Studio</h3><p data-i18n="prep.g2p">Real ATS scoring against real job descriptions, with line-by-line fixes. Carry only what opens doors.</p></div></div>
-          <div class="row fx d3"><span class="n">03</span><div><h3 data-i18n="prep.g3h">The Rope — Interview Coach</h3><p data-i18n="prep.g3p">AI mock interviews calibrated to your role and your weak points, with STAR-level feedback after every rep.</p></div></div>
-          <div class="row fx d4"><span class="n">04</span><div><h3 data-i18n="prep.g4h">The Route — 90-Day Plan</h3><p data-i18n="prep.g4p">One highest-leverage action at a time. The route re-draws itself as you grow and as the weather shifts.</p></div></div>
+          <div class="row fx d1"><span class="n">01</span><div><h3 data-i18n="prep.g1h">The Map — Project Aladin</h3><p data-i18n="prep.g1p">Know yourself before you climb: a structured self-discovery diagnostic that turns strengths and values into direction.</p></div></div>
+          <div class="row fx d2"><span class="n">02</span><div><h3 data-i18n="prep.g2h">The Pack — Understanding the Professional World</h3><p data-i18n="prep.g2p">CV &amp; ATS studio, psychometric prep, AI mock interviews — the complete toolkit for getting hired.</p></div></div>
+          <div class="row fx d3"><span class="n">03</span><div><h3 data-i18n="prep.g3h">The Rope — Becoming a High-Impact Individual</h3><p data-i18n="prep.g3p">Organisations, competitions, exchanges, leadership — experiences that set you apart, built deliberately.</p></div></div>
+          <div class="row fx d4"><span class="n">04</span><div><h3 data-i18n="prep.g4h">The Route — Scholarship Preparation</h3><p data-i18n="prep.g4p">From LPDP to Chevening: opportunity mapping, essays, and interview simulation to fund your ascent.</p></div></div>
+          <div class="row fx d4"><span class="n">05</span><div><h3 data-i18n="prep.g5h">The Climb — Your Progress Tracker</h3><p data-i18n="prep.g5p">Every step mapped to a 4-year university timeline — readiness tracked semester by semester.</p></div></div>
         </div>
       </div>
     </div>
@@ -649,6 +688,7 @@
           <div class="card fx d3"><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 L11 10 L12.8 12.4 L15.5 8.8"/></svg></span><span class="k" data-i18n="climb.c3k">Resilience</span></span><h3 data-i18n="climb.c3h">Weatherproofing the mind</h3><p data-i18n="climb.c3p">Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.</p></div>
         </div>
         <p class="voice fx d4" data-i18n="climb.voice">“You are not failing. <em>You've been climbing without a rope team.</em>”</p>
+        <div class="fx d4" style="margin-top:22px"><a class="cta soft" style="margin-top:0" href="career-map-assessment.html" data-i18n="climb.cta">Find your starting point — free, 15 minutes</a></div>
       </div>
     </div>
   </section>
@@ -686,6 +726,16 @@
         <span class="chapter fx" data-i18n="summit.ch">Chapter IV · Sunrise</span>
         <h2 class="fx" data-i18n="summit.h2">When can you start?</h2>
         <p class="lede fx d1" data-i18n="summit.lede">Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.</p>
+        <div class="proof fx d2">
+          <div class="pstat"><b><span data-count="12000">0</span>+</b><span data-i18n="proof.s1">students on the climb</span></div>
+          <div class="pstat"><b><span data-count="87">0</span>%</b><span data-i18n="proof.s2">report clearer direction within 30 days</span></div>
+          <div class="pstat"><b><span data-count="500">0</span>+</b><span data-i18n="proof.s3">mentor sessions hosted</span></div>
+        </div>
+        <div class="ptesti fx d3">
+          <span class="pavatar" aria-hidden="true">SA</span>
+          <blockquote data-i18n="proof.q">“Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.”</blockquote>
+          <cite data-i18n="proof.qa">Sinta A. — Management ’25 · Business Analyst offer</cite>
+        </div>
         <p class="voice fx d4" data-i18n="summit.voice">“The view was never the point. <em>Look who you became on the way up.</em>”</p>
       </div>
     </div>
@@ -776,13 +826,20 @@
       'hero.l1':'Your future was','hero.l2':'never meant to be','hero.l3':'navigated <em>alone.</em>',
       'hero.sub':"The career mountain was always climbable. You were just never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.",
       'hero.cta':'Begin the Climb',
+      'hero.spec':'15-minute diagnostic · Personalized 4-year plan · Five tools to execute it',
+      'nav.cta':'Free Career Map','nav.cta2':'Get your free Career Map →',
+      'climb.cta':'Find your starting point — free, 15 minutes',
+      'proof.s1':'students on the climb','proof.s2':'report clearer direction within 30 days','proof.s3':'mentor sessions hosted',
+      'proof.q':'“Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.”',
+      'proof.qa':'Sinta A. — Management ’25 · Business Analyst offer',
       'prep.ch':'Chapter I · First light','prep.eye':'Preparation',
       'prep.h2':'No one summits on talent alone. They summit prepared.',
-      'prep.lede':"Privileged climbers arrive with routes marked and packs filled by people who've climbed before. Metanoia packs yours: a readiness diagnostic that maps your true starting point, then a personalized 90-day route to your target role.",
-      'prep.g1h':'The Map — Career Diagnostic','prep.g1p':'Fifteen minutes. Five dimensions. Your honest position on the mountain — probably stronger than you think, clearer than you feared.',
-      'prep.g2h':'The Pack — CV Studio','prep.g2p':'Real ATS scoring against real job descriptions, with line-by-line fixes. Carry only what opens doors.',
-      'prep.g3h':'The Rope — Interview Coach','prep.g3p':'AI mock interviews calibrated to your role and your weak points, with STAR-level feedback after every rep.',
-      'prep.g4h':'The Route — 90-Day Plan','prep.g4p':'One highest-leverage action at a time. The route re-draws itself as you grow and as the weather shifts.',
+      'prep.lede':"Privileged climbers arrive with routes marked and packs filled by people who've climbed before. Metanoia packs yours: a readiness diagnostic that maps your true starting point, then a personalized route to your target role.",
+      'prep.g1h':'The Map — Project Aladin','prep.g1p':'Know yourself before you climb: a structured self-discovery diagnostic that turns strengths and values into direction.',
+      'prep.g2h':'The Pack — Understanding the Professional World','prep.g2p':'CV &amp; ATS studio, psychometric prep, AI mock interviews — the complete toolkit for getting hired.',
+      'prep.g3h':'The Rope — Becoming a High-Impact Individual','prep.g3p':'Organisations, competitions, exchanges, leadership — experiences that set you apart, built deliberately.',
+      'prep.g4h':'The Route — Scholarship Preparation','prep.g4p':'From LPDP to Chevening: opportunity mapping, essays, and interview simulation to fund your ascent.',
+      'prep.g5h':'The Climb — Your Progress Tracker','prep.g5p':'Every step mapped to a 4-year university timeline — readiness tracked semester by semester.',
       'climb.ch':'Chapter II · The weather turns','climb.eye':'The Climb',
       'climb.h2':'Two hundred applications into silence. This is the storm.',
       'climb.lede':"Rejection. Ghosting. Doubt that sounds like your own voice. This is where most climbers turn back — not because they're weak, but because they're climbing alone. You won't be.",
@@ -808,7 +865,7 @@
       'summit.s1':'Readiness at summit','summit.s2':'Offers on the table','summit.s3':'Days of climbing','summit.s4':'What changed',
       'summit.voice':'“The view was never the point. <em>Look who you became on the way up.</em>”',
       'hor.ch':'Chapter V · The range beyond','hor.h2':'From this summit, you can see the others.',
-      'hor.lede':"Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.",
+      'hor.lede':"Careers are no longer one mountain — skills shift and new peaks rise from the fog. Metanoia stays on your rope for all of them. And one day, you'll stand at basecamp again: this time holding the map for someone else.",
       'hor.voice':'“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”',
       'hor.cta':'Get your free Career Map — the climb starts in 15 minutes',
       'hor.fine':'Free diagnostic · Personalized route · No credit card, no spam, no generic advice',
@@ -831,11 +888,12 @@
       'contact.send':'Send message',
       'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
       'hero.sub@m':'The map, the gear, the rope team — everything the privileged inherit, now yours.',
-      'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a 90-day route to your target role.',
-      'prep.g1p@m':'Fifteen minutes to your honest position on the mountain.',
-      'prep.g2p@m':'Real ATS scoring with line-by-line fixes.',
-      'prep.g3p@m':'AI mocks tuned to your weak points. STAR feedback every rep.',
-      'prep.g4p@m':'One highest-leverage step at a time.',
+      'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a personalized route to your target role.',
+      'prep.g1p@m':'Know yourself first — insight turned into direction.',
+      'prep.g2p@m':'CV, ATS, psychometrics, AI mock interviews.',
+      'prep.g3p@m':'Experiences that set you apart, built deliberately.',
+      'prep.g4p@m':'Scholarships mapped, essays sharpened, interviews rehearsed.',
+      'prep.g5p@m':'Semester-by-semester readiness tracking.',
       'climb.lede@m':"Rejection. Ghosting. Doubt. This is where climbers turn back — because they climb alone. You won't.",
       'climb.c1p@m':'Meta remembers every rep — and calls your next move.',
       'climb.c2p@m':"Practice partners at your stage. Catch each other's falls.",
@@ -855,13 +913,20 @@
       'hero.l1':'Masa depanmu tak','hero.l2':'seharusnya didaki','hero.l3':'<em>sendirian.</em>',
       'hero.sub':'Gunung karier sebenarnya selalu bisa didaki. Hanya saja, banyak orang tidak pernah dibekali peta, persiapan, maupun tim pemandu yang tepat. Metanoia hadir sebagai teman perjalananmu—membimbing setiap langkah hingga mencapai puncak karier impianmu.',
       'hero.cta':'Mulai Pendakian',
+      'hero.spec':'Diagnostik 15 menit · Rencana 4 tahun yang personal · Lima produk untuk menjalankannya',
+      'nav.cta':'Career Map Gratis','nav.cta2':'Ambil Career Map Gratis →',
+      'climb.cta':'Temukan titik awalmu — gratis, 15 menit',
+      'proof.s1':'mahasiswa dalam pendakian','proof.s2':'merasa arah lebih jelas dalam 30 hari','proof.s3':'sesi mentoring terselenggara',
+      'proof.q':'“Empat puluh lamaran tanpa jawaban, lalu aku bergabung dengan rope team. Dua bulan kemudian aku menandatangani offer — dan aku tahu persis mengapa berhasil.”',
+      'proof.qa':'Sinta A. — Manajemen ’25 · Offer Business Analyst',
       'prep.ch':'Bab I · Cahaya pertama','prep.eye':'Persiapan',
       'prep.h2':'Tak ada yang sampai ke puncak dengan modal bakat saja. Mereka sampai karena siap.',
       'prep.lede':'Pendaki yang beruntung datang dengan rute yang sudah ditandai dan ransel yang diisikan orang lain. Metanoia membantu mengisi ransel perjalananmu melalui asesmen kesiapan yang memetakan titik awalmu secara objektif, lalu menyusun rute yang dipersonalisasi menuju peran yang selama ini kamu impikan.',
-      'prep.g1h':'The Map — Diagnostik Karier','prep.g1p':'Luangkan waktu sekitar lima belas menit untuk menjawab lima dimensi pertanyaan. Hasilnya akan memetakan posisi awalmu di jalur pendakian karier serta memberikan gambaran yang lebih jelas mengenai potensi dan tantangan yang ada di depanmu.',
-      'prep.g2h':'The Pack — CV Studio','prep.g2p':'Uji ATS Score‑mu langsung terhadap job description yang menjadi targetmu. Dapatkan rekomendasi perbaikan secara rinci agar CV‑mu memiliki peluang lebih besar untuk membuka pintu menuju karier impianmu.',
-      'prep.g3h':'The Rope — Interview Coach','prep.g3p':'Mock interview AI yang dikalibrasi ke role dan titik lemahmu, dengan feedback berstandar STAR di setiap latihan.',
-      'prep.g4h':'The Route — Rencana 90 Hari','prep.g4p':'Fokus pada satu langkah paling berdampak di setiap tahap perjalanan. Rute pengembanganmu akan terus berkembang seiring pertumbuhan dirimu dan perubahan tantangan yang dihadapi.',
+      'prep.g1h':'The Map — Project Aladin','prep.g1p':'Kenali dirimu sebelum mendaki: diagnostik penemuan diri terstruktur yang mengubah kekuatan dan nilai menjadi arah yang jelas.',
+      'prep.g2h':'The Pack — Memahami Dunia Profesional','prep.g2p':'Studio CV &amp; ATS, persiapan psikotes, mock interview AI — perangkat lengkap untuk mendapatkan pekerjaan.',
+      'prep.g3h':'The Rope — Menjadi Individu Berdampak Tinggi','prep.g3p':'Organisasi, kompetisi, pertukaran, kepemimpinan — pengalaman yang membedakanmu, dibangun dengan sengaja.',
+      'prep.g4h':'The Route — Persiapan Beasiswa','prep.g4p':'Dari LPDP hingga Chevening: pemetaan peluang, penulisan esai, dan simulasi wawancara untuk mendanai pendakianmu.',
+      'prep.g5h':'The Climb — Pelacak Kemajuanmu','prep.g5p':'Setiap langkah dipetakan ke linimasa 4 tahun kuliah — kesiapan terlacak semester demi semester.',
       'climb.ch':'Bab II · Cuaca berubah','climb.eye':'Pendakian',
       'climb.h2':'Dua ratus lamaran, tanpa satu pun jawaban. Inilah badainya.',
       'climb.lede':'Penolakan, ghosting, serta keraguan yang terdengar seperti dari dalam suaramu sendiri. Di titik inilah banyak pendaki memilih berhenti, bukan karena mereka tidak mampu, tetapi karena harus mendaki sendirian. Kami berharap kamu tidak perlu mengalaminya.',
@@ -911,10 +976,11 @@
       'page.wip':'Jalur ini masih dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
       'hero.sub@m':'Peta, persiapan, dan tim pemandu yang tepat—semua yang selama ini hanya dimiliki segelintir orang, kini jadi milikmu.',
       'prep.lede@m':'Ransel perjalananmu terisi: asesmen yang memetakan titik awalmu, lalu rute personal menuju peran impianmu.',
-      'prep.g1p@m':'Sekitar lima belas menit menuju gambaran jujur posisimu di jalur karier.',
-      'prep.g2p@m':'Uji ATS Score‑mu ke job description target, dengan rekomendasi perbaikan yang rinci.',
-      'prep.g3p@m':'Mock interview AI untuk titik lemahmu. Feedback STAR di setiap latihan.',
-      'prep.g4p@m':'Satu langkah paling berdampak di setiap tahap. Rutenya berkembang bersamamu.',
+      'prep.g1p@m':'Kenali dirimu dulu — wawasan menjadi arah.',
+      'prep.g2p@m':'CV, ATS, psikotes, mock interview AI.',
+      'prep.g3p@m':'Pengalaman yang membedakanmu, dibangun dengan sengaja.',
+      'prep.g4p@m':'Beasiswa terpetakan, esai terasah, wawancara terlatih.',
+      'prep.g5p@m':'Pelacakan kesiapan semester demi semester.',
       'climb.lede@m':'Penolakan. Ghosting. Keraguan. Di sinilah banyak pendaki berhenti—karena mendaki sendirian. Kami harap kamu tidak.',
       'climb.c1p@m':'Meta Assistant mengingat setiap latihan—lalu merekomendasikan langkah berikutnya dari progresmu.',
       'climb.c2p@m':'Partner latihan sesuai tahapmu. Saling menangkap saat jatuh.',
@@ -1185,6 +1251,8 @@
       // layered motion: copy drifts on its own plane inside the frame
       const ct=sc.querySelector('.content');
       ct.style.transform=reduce?'none':`translateY(${(d*4).toFixed(2)}vh)`;
+      // copy fades faster than the world, so headlines never double mid-transition
+      ct.style.opacity=reduce?'':(1-smooth(clamp((Math.abs(d)-.16)/.42,0,1))).toFixed(3);
       // content: reveal as the scene approaches, release once it has receded
       if(d<.7 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.5) fireCounts(sc); }
       else sc.classList.remove('on');
