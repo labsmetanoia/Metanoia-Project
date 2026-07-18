@@ -121,7 +121,20 @@
   @keyframes scrollPulse{0%,100%{opacity:.4}50%{opacity:1}}
 
   /* ═══ SECTION 2 — THE REALIZATION (reference editorial redesign) ═══ */
-  .realization-section{background:var(--bg-base);padding:120px 0 100px;position:relative;overflow:hidden}
+  /* ═══ THE JOURNEY — shared continuous background for Chapters I–III ═══ */
+  .journey-wrap{position:relative}
+  .journey-bg{position:sticky;top:0;height:100vh;margin-bottom:-100vh;z-index:0;
+    overflow:hidden;pointer-events:none}
+  .journey-bg img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+  .journey-veil{position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(4,8,15,.92) 0%,rgba(4,8,15,.74) 22%,
+      rgba(4,8,15,.70) 78%,rgba(4,8,15,.92) 100%)}
+  :root[data-theme="light"] .journey-veil{
+    background:linear-gradient(180deg,rgba(238,241,246,.94) 0%,rgba(238,241,246,.88) 22%,
+      rgba(238,241,246,.88) 78%,rgba(238,241,246,.94) 100%)}
+  .journey-bg .rz-particles{position:absolute;inset:0}
+  .journey-wrap > section{position:relative;z-index:1}
+  .realization-section{background:transparent;padding:120px 0 100px;position:relative;overflow:hidden}
   .realization-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent);z-index:1}
   .rz-ambience{position:absolute;inset:0;pointer-events:none;background:
@@ -386,7 +399,7 @@
   .close-icons b{display:block;font-size:10.5px;color:var(--text-sub);font-weight:700;line-height:1.5}
 
   /* ═══ SECTION 3 — CAREER OS ═══ */
-  .career-os-section{background:var(--bg-dark);padding:120px 0;position:relative;overflow:hidden}
+  .career-os-section{background:transparent;padding:120px 0;position:relative;overflow:hidden}
   .topo-bg{position:absolute;inset:0;background-image:url('../assets/topo-pattern.svg');opacity:.038;background-size:600px}
   .cos-ambience{position:absolute;inset:0;pointer-events:none;background:
     radial-gradient(40% 30% at 14% 18%, rgba(29,95,171,.09), transparent 72%),
@@ -459,12 +472,12 @@
   .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 32px}
 
   /* ═══ FLAGSHIP SHOWCASE — Product Suite (reference visual) ═══ */
-  .fsx-band{position:relative;background:linear-gradient(180deg,#070B14 0%,#080D18 100%);
-    color:#fff;overflow:hidden}
-  .fsx-band::before{content:'';position:absolute;top:0;left:0;right:0;height:110px;z-index:5;
-    background:linear-gradient(180deg,var(--bg-base),transparent);pointer-events:none}
-  .fsx-band::after{content:'';position:absolute;bottom:0;left:0;right:0;height:110px;z-index:5;
-    background:linear-gradient(0deg,var(--bg-base),transparent);pointer-events:none}
+  .fsx-band{position:relative;color:#fff;overflow:hidden;
+    background:linear-gradient(180deg,rgba(7,11,20,0) 0%,rgba(7,11,20,.60) 5%,
+      rgba(8,13,24,.62) 95%,rgba(8,13,24,0) 100%)}
+  :root[data-theme="light"] .fsx-band{
+    background:linear-gradient(180deg,rgba(7,11,20,0) 0%,rgba(7,11,20,.94) 5%,
+      rgba(8,13,24,.94) 95%,rgba(8,13,24,0) 100%)}
   .fsx-stars{position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:
     radial-gradient(1.2px 1.2px at 22% 34%, rgba(255,255,255,.8), transparent),
     radial-gradient(1px 1px at 68% 14%, rgba(255,255,255,.7), transparent),
@@ -500,7 +513,7 @@
   .fsx-quote span{font-size:11.5px;letter-spacing:.12em;color:rgba(255,255,255,.4);text-transform:uppercase}
 
   /* ═══ SECTION 4 — THE ASCENT (cinematic product showcase) ═══ */
-  .products-section{background:var(--bg-base);padding:120px 0 0;position:relative}
+  .products-section{background:transparent;padding:120px 0 0;position:relative}
   .products-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
   .asc-lead{width:1px;height:72px;margin:30px auto 0;
@@ -920,11 +933,18 @@
 </section>
 
 <!-- ═══ SECTION 2 — THE REALIZATION ═══ -->
+<!-- ═══ THE JOURNEY — one continuous background across Chapters I–III ═══ -->
+<div class="journey-wrap">
+  <div class="journey-bg" aria-hidden="true">
+    <img src="../assets/bg/journey-bg.jpg" alt="" onerror="this.style.display='none'">
+    <div class="journey-veil"></div>
+    <div class="rz-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+
 <section class="realization-section" id="why-now">
   <div class="rz-ambience" aria-hidden="true"></div>
   <div class="rz-texture" aria-hidden="true"></div>
   <div class="rz-beam" aria-hidden="true"></div>
-  <div class="rz-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
   <div class="section-inner" style="position:relative;z-index:1">
 
     <div class="ro-grid reveal">
@@ -1558,6 +1578,8 @@
   </div>
 </section>
 
+</div><!-- /journey-wrap -->
+
 <!-- ═══ SECTION 5 — CTA + FAQ ═══ -->
 <section class="student-cta-section" id="cta">
   <div class="section-inner">
@@ -1788,8 +1810,19 @@ if(railTracks.length || (flowEl && flowFill)){
 const ascEl = document.querySelector('.asc');
 if(ascEl){
   const ascFill = document.getElementById('ascFill');
+  const ascRail = ascEl.querySelector('.asc-rail');
+  const ascFinal = ascEl.querySelector('.asc-panel.final');
   const ascPanels = [...ascEl.querySelectorAll('.asc-panel')];
   const ascReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // the rail ends at the final "All Pillars" node — nothing runs past it
+  const sizeRail = ()=>{
+    if(ascRail && ascFinal){
+      ascRail.style.bottom = (ascEl.offsetHeight - ascFinal.offsetTop - 22) + 'px';
+    }
+  };
+  sizeRail();
+  addEventListener('resize', sizeRail, {passive:true});
+  addEventListener('load', sizeRail);
   let ascTick = false;
   const updateAscent = ()=>{
     const r = ascEl.getBoundingClientRect();
