@@ -67,7 +67,7 @@
   .nav-signin:hover{color:var(--text);border-color:rgba(245,158,11,.55);background:rgba(245,158,11,.08)}
   .burger{display:none;background:none;border:1px solid rgba(245,239,230,.35);border-radius:999px;width:38px;height:38px;
     align-items:center;justify-content:center;color:var(--text);backdrop-filter:blur(6px)}
-  @media(max-width:1200px){.menu{display:none}.burger{display:flex}}
+  @media(max-width:1560px){.menu{display:none}.burger{display:flex}}
   @media(max-width:640px){.nav-signin{display:none}}
   @media(max-width:480px){.logo .wm,.logo .lbar{display:none}}
   .sheet{position:fixed;inset:0;z-index:200;background:rgba(5,10,18,.92);backdrop-filter:blur(14px);
@@ -422,7 +422,7 @@
   @keyframes routeDrift{to{stroke-dashoffset:-1400}}
   .cos-headline-block{text-align:center;max-width:720px;margin:0 auto 80px;position:relative}
   .cos-pretext{font-size:16px;color:var(--text-muted);line-height:1.7;margin:0 0 16px;font-weight:300}
-  .cos-headline{font-size:clamp(2.4rem,5vw,4rem);font-weight:800;color:var(--text);font-style:italic;
+  .cos-headline{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);font-weight:600;color:var(--text);font-style:italic;
     margin:0 0 24px;letter-spacing:-.02em}
   .cos-posttext{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
 
@@ -542,7 +542,7 @@
   .fsx-quote{position:relative;z-index:2;text-align:center;padding:56px 30px 96px}
   .fsx-quote p{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.8vw,19px);
     color:#D9BC6A;margin:0 0 12px;line-height:1.7}
-  .fsx-quote span{font-size:11.5px;letter-spacing:.12em;color:rgba(255,255,255,.4);text-transform:uppercase}
+  .fsx-quote span{font-size:11.5px;letter-spacing:.12em;color:rgba(255,255,255,.55);text-transform:uppercase}
 
   /* ═══ SECTION 4 — THE ASCENT (cinematic product showcase) ═══ */
   .products-section{background:transparent;padding:120px 0 0;position:relative}
@@ -590,10 +590,10 @@
   .asc-name{font-family:var(--serif);font-size:clamp(1.7rem,2.6vw,2.4rem);font-weight:600;
     color:#fff;line-height:1.16;margin:0 0 12px;letter-spacing:.002em}
   .asc-tag{font-family:var(--serif);font-style:italic;font-size:15.5px;color:#D9BC6A;margin:0 0 18px}
-  .asc-desc{font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;margin:0 0 22px;max-width:440px}
+  .asc-desc{font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.8;margin:0 0 22px;max-width:440px}
   .asc-feats{list-style:none;padding:0;margin:0 0 26px;display:grid;
     grid-template-columns:1fr 1fr;gap:7px 20px}
-  .asc-feats li{font-size:12px;color:rgba(255,255,255,.62);line-height:1.5;
+  .asc-feats li{font-size:12px;color:rgba(255,255,255,.74);line-height:1.5;
     padding-left:18px;position:relative;
     opacity:0;transform:translateX(-14px);transition:opacity .5s ease,transform .5s ease}
   .asc-feats li::before{content:'→';position:absolute;left:0;top:0;color:var(--gold);font-size:10.5px}
@@ -708,10 +708,11 @@
     color:#050A12;font-size:15px;font-weight:800;border-radius:999px;text-decoration:none;transition:all .2s;
     box-shadow:0 4px 24px rgba(201,168,76,.30)}
   .cta-btn-primary:hover{transform:translateY(-3px);box-shadow:0 10px 32px rgba(201,168,76,.45)}
-  .cta-btn-ghost{padding:14px 28px;background:transparent;border:1px solid var(--gold-border);color:var(--text-sub);
-    font-size:14px;font-weight:600;border-radius:999px;text-decoration:none;transition:all .2s}
-  .cta-btn-ghost:hover{border-color:var(--gold-border-hover);color:var(--text)}
-  .cta-footnote{font-size:11px;color:rgba(255,255,255,.48)}
+  .cta-btn-ghost{padding:14px 6px;background:transparent;border:none;color:rgba(255,255,255,.72);
+    font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:5px;
+    text-decoration-color:rgba(201,168,76,.5);transition:all .2s}
+  .cta-btn-ghost:hover{color:#fff;text-decoration-color:var(--gold-bright)}
+  .cta-footnote{font-size:11px;color:rgba(255,255,255,.62)}
   .faq-section{max-width:760px;margin:0 auto}
   .faq-title{font-size:1.6rem;font-weight:800;color:var(--text);text-align:center;margin:0 0 40px}
   .faq-list{display:flex;flex-direction:column;gap:8px}
@@ -814,6 +815,99 @@
     .sys-sub{font-size:15.5px}
     .sys-desc{font-size:13.5px}
   }
+  /* ═══ NAV CTA (persistent conversion action) ═══ */
+  .nav-cta{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;
+    letter-spacing:.03em;color:#241800;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    border-radius:999px;padding:9px 16px;white-space:nowrap;
+    box-shadow:0 4px 18px rgba(201,168,76,.35);transition:transform .2s,box-shadow .2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(201,168,76,.5)}
+  @media(max-width:480px){.nav-cta{font-size:11px;padding:8px 12px}}
+  .sheet .sheet-cta{color:#241800 !important;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    border-radius:999px;padding:12px 26px;margin-bottom:10px;display:inline-block}
+
+  /* ═══ STICKY CHAPTER SUB-NAV ═══ */
+  .chap-nav{position:fixed;top:70px;left:50%;transform:translateX(-50%) translateY(-8px);z-index:40;
+    display:flex;gap:4px;background:rgba(8,14,26,.80);border:1px solid rgba(201,168,76,.22);
+    border-radius:999px;padding:5px;backdrop-filter:blur(12px);
+    opacity:0;pointer-events:none;transition:opacity .35s ease,transform .35s ease;
+    max-width:calc(100vw - 24px)}
+  .chap-nav.show{opacity:1;pointer-events:auto;transform:translateX(-50%)}
+  .chap-nav a{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:rgba(255,255,255,.62);text-decoration:none;padding:7px 14px;border-radius:999px;
+    transition:color .25s,background .25s;white-space:nowrap}
+  .chap-nav a:hover{color:#F0D878}
+  .chap-nav a.act{background:rgba(201,168,76,.18);color:#F0D878}
+  :root[data-theme="light"] .chap-nav{background:rgba(255,255,255,.85);border-color:rgba(139,105,20,.3)}
+  :root[data-theme="light"] .chap-nav a{color:rgba(27,36,52,.62)}
+  :root[data-theme="light"] .chap-nav a:hover{color:#8B6914}
+  :root[data-theme="light"] .chap-nav a.act{background:rgba(139,105,20,.14);color:#8B6914}
+  @media(max-width:640px){.chap-nav{top:62px;overflow-x:auto;scrollbar-width:none}
+    .chap-nav a{padding:6px 11px;font-size:9.5px}}
+
+  /* ═══ HERO SPEC LINE (concrete value) ═══ */
+  .hero-spec{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--gold-bright);margin:-22px 0 38px;opacity:.95}
+
+  /* ═══ MID-STORY CTA BEAT ═══ */
+  .ch-cta{text-align:center;margin:64px auto 0}
+  .ch-cta a{display:inline-block;font-size:13px;font-weight:700;color:var(--gold);
+    text-decoration:none;padding:13px 30px;border-radius:999px;
+    border:1px solid rgba(201,168,76,.4);transition:all .25s}
+  .ch-cta a:hover{background:linear-gradient(120deg,var(--gold),var(--gold-bright));color:#241800;
+    transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.35)}
+  .ch-cta span{display:block;margin-top:10px;font-size:11px;color:var(--text-faint);letter-spacing:.04em}
+
+  /* ═══ PRODUCT UI PEEKS (inside Ascent frames) ═══ */
+  .asc-ui{position:absolute;top:-22px;right:-16px;z-index:3;width:186px;border-radius:14px;
+    padding:13px 15px;background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.28);
+    box-shadow:0 18px 44px rgba(0,0,0,.5),0 0 20px rgba(201,168,76,.08);
+    transform:translateZ(84px);text-align:left}
+  .asc-panel.rev .asc-ui{right:auto;left:-16px}
+  .asc-panel.final .asc-ui{right:-8px}
+  .asc-ui .uttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+    color:#E8C766;margin-bottom:9px}
+  .asc-ui .urow{display:flex;align-items:center;gap:7px;font-size:9.8px;font-weight:600;
+    color:rgba(255,255,255,.78);padding:2.5px 0;line-height:1.35}
+  .asc-ui .urow .tick{color:#4ECDC4;font-size:9px;flex:none}
+  .asc-ui .urow .dot-on{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
+  .asc-ui .urow .dot-off{width:5px;height:5px;border-radius:50%;border:1px solid rgba(255,255,255,.35);flex:none}
+  .asc-ui .ubig{display:flex;align-items:baseline;gap:5px;margin:2px 0 6px}
+  .asc-ui .ubig b{font-size:24px;font-weight:800;color:#F0D878;line-height:1}
+  .asc-ui .ubig span{font-size:9px;color:rgba(255,255,255,.55);letter-spacing:.04em}
+  .asc-ui svg{display:block}
+  @media(max-width:768px){.asc-ui{right:8px;top:-14px;width:164px;padding:11px 12px}
+    .asc-panel.rev .asc-ui{left:8px}.asc-panel.final .asc-ui{right:8px}}
+
+  /* ═══ PROOF SECTION ═══ */
+  .proof-section{background:var(--bg-dark);padding:110px 0;position:relative}
+  .proof-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .proof-head{text-align:center;margin-bottom:54px}
+  .proof-head .fsx-kicker{margin-bottom:18px}
+  .proof-head h2{font-family:var(--serif);font-size:clamp(1.8rem,3.4vw,2.7rem);font-weight:600;
+    color:var(--text);margin:0;letter-spacing:.002em}
+  .proof-head h2 em{font-style:normal;color:var(--gold)}
+  .proof-stats{display:flex;justify-content:center;gap:clamp(30px,6vw,90px);margin-bottom:64px;flex-wrap:wrap}
+  .pstat{text-align:center}
+  .pstat b{display:block;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:var(--gold);line-height:1}
+  .pstat span{display:block;margin-top:9px;font-size:11px;font-weight:600;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--text-muted);max-width:190px}
+  .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .pcard{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:18px;
+    padding:30px 26px;display:flex;flex-direction:column;gap:16px;
+    transition:border-color .25s,transform .25s}
+  .pcard:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
+  .pcard blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:14.5px;
+    line-height:1.75;color:var(--text-sub);flex:1}
+  .pcard .pwho{display:flex;align-items:center;gap:12px}
+  .pcard .pface{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;
+    justify-content:center;font-size:13px;font-weight:800;letter-spacing:.04em;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 6px 16px rgba(201,168,76,.3)}
+  .pcard .pwho div b{display:block;font-size:13px;color:var(--text);font-weight:700}
+  .pcard .pwho div span{display:block;font-size:11px;color:var(--text-muted);margin-top:2px}
+  .proof-note{text-align:center;margin-top:34px;font-size:11px;color:var(--text-faint);letter-spacing:.04em}
+
   @media(max-width:960px){
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
@@ -852,6 +946,9 @@
     .fsx-inner{padding:0 20px}
     .fsx-statement{padding:100px 0 70px}
     .asc-feats{grid-template-columns:1fr}
+    .proof-grid{grid-template-columns:1fr}
+    .proof-stats{gap:26px 34px}
+    .proof-section{padding:80px 0}
     .asc-frame img{height:240px}
     .asc-panel.final .asc-frame img{height:260px}
     .asc-emblem{width:60px;height:60px;border-radius:16px;bottom:-14px;left:-10px}
@@ -936,12 +1033,21 @@
       </svg>
     </button>
     <a class="nav-signin" href="../login.html" data-en="Sign in" data-id="Masuk">Sign in</a>
+    <a class="nav-cta" href="../career-map-assessment.html" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
   </div>
 </nav>
+
+<div class="chap-nav" id="chapNav" aria-label="Chapters">
+  <a href="#why-now" data-en="Realization" data-id="Kesadaran">Realization</a>
+  <a href="#career-os" data-en="The System" data-id="Sistem">The System</a>
+  <a href="#products" data-en="Products" data-id="Produk">Products</a>
+  <a href="#cta" data-en="Start" data-id="Mulai">Start</a>
+</div>
 
 <div class="sheet" id="sheet">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="links">
+    <a class="sheet-cta" href="../career-map-assessment.html" data-en="Get your free Career Map →" data-id="Ambil Career Map Gratis →">Get your free Career Map →</a>
     <a href="../landing.html" data-en="Home" data-id="Beranda">Home</a>
     <a href="student.html" data-en="Student" data-id="Mahasiswa">Student</a>
     <a href="fresh-graduate.html" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
@@ -984,6 +1090,7 @@
       Millions of students graduate every year. But only a few are truly prepared to enter the professional world.<br>
       Metanoia is built for those who choose to be ready.
     </p>
+    <p class="hero-spec" data-en="15-minute diagnostic · Personalized 4-year plan · Five tools to execute it" data-id="Diagnostik 15 menit · Rencana 4 tahun yang personal · Lima produk untuk menjalankannya">15-minute diagnostic · Personalized 4-year plan · Five tools to execute it</p>
 
     <a href="#why-now" class="hero-cta" data-en="Begin Your Climb →" data-id="Mulai Perjalananmu →">Begin Your Climb →</a>
   </div>
@@ -1115,6 +1222,11 @@
         <path d="M6 21.5 L13.5 7 L20 15 L26.5 5 L34 21.5"/>
         <circle cx="26.5" cy="5" r="1.5" fill="currentColor" stroke="none"/>
       </svg>
+    </div>
+
+    <div class="ch-cta reveal">
+      <a href="../career-map-assessment.html" data-en="Find your starting point — free, 15 minutes" data-id="Temukan titik awalmu — gratis, 15 menit">Find your starting point — free, 15 minutes</a>
+      <span data-en="No credit card · Instant results" data-id="Tanpa kartu kredit · Hasil langsung">No credit card · Instant results</span>
     </div>
 
     <div class="journey-block reveal">
@@ -1467,6 +1579,15 @@
                   <img src="../assets/bg/map.jpg" alt="" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Profile Mapped</div>
+                  <svg viewBox="0 0 80 46" width="100%" height="46" fill="none">
+                    <polygon points="40,3 74,18 61,43 19,43 6,18" stroke="rgba(126,179,245,.4)" stroke-width="1"/>
+                    <polygon points="40,10 63,20 55,37 25,37 17,20" fill="rgba(126,179,245,.22)" stroke="#7EB3F5" stroke-width="1.2"/>
+                    <circle cx="40" cy="10" r="1.8" fill="#F0D878"/>
+                  </svg>
+                  <div class="urow" style="margin-top:6px"><span class="dot-on"></span>Direction · Product Strategy</div>
+                </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><polygon points="12,6.2 13.9,12 12,17.8 10.1,12" fill="currentColor" stroke="none"/></svg>
                 </div>
@@ -1507,6 +1628,12 @@
                   <img src="../assets/bg/pack.jpg" alt="" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">ATS Score</div>
+                  <div class="ubig"><b>86</b><span>/ 100 · +24 this month</span></div>
+                  <div class="urow"><span class="tick">✓</span>Impact verbs detected</div>
+                  <div class="urow"><span class="tick">✓</span>Format parses cleanly</div>
+                </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg>
                 </div>
@@ -1545,6 +1672,12 @@
                   <img src="../assets/bg/rope.jpg" alt="" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Experience Log</div>
+                  <div class="urow"><span class="tick">✓</span>Committee Lead — BEM</div>
+                  <div class="urow"><span class="tick">✓</span>Case Competition Finalist</div>
+                  <div class="urow"><span class="dot-on"></span>Exchange Semester — applying</div>
+                </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg>
                 </div>
@@ -1582,6 +1715,12 @@
                   <img src="../assets/bg/start.jpg" alt="" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Scholarship Track</div>
+                  <div class="urow"><span class="tick">✓</span>Essay draft 3 reviewed</div>
+                  <div class="urow"><span class="dot-on"></span>Interview simulation · Fri</div>
+                  <div class="urow"><span class="dot-off"></span>Award decision</div>
+                </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg>
                 </div>
@@ -1602,6 +1741,19 @@
                   <img src="../assets/bg/stage-graduation.jpg" alt="" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Readiness · Semester 5</div>
+                  <svg viewBox="0 0 96 34" width="100%" height="34" fill="none">
+                    <rect x="2"  y="24" width="8" height="8"  rx="1.5" fill="rgba(201,168,76,.35)"/>
+                    <rect x="15" y="21" width="8" height="11" rx="1.5" fill="rgba(201,168,76,.45)"/>
+                    <rect x="28" y="17" width="8" height="15" rx="1.5" fill="rgba(201,168,76,.55)"/>
+                    <rect x="41" y="13" width="8" height="19" rx="1.5" fill="rgba(201,168,76,.7)"/>
+                    <rect x="54" y="8"  width="8" height="24" rx="1.5" fill="#C9A84C"/>
+                    <rect x="67" y="12" width="8" height="20" rx="1.5" fill="rgba(255,255,255,.14)"/>
+                    <rect x="80" y="6"  width="8" height="26" rx="1.5" fill="rgba(255,255,255,.14)"/>
+                  </svg>
+                  <div class="urow" style="margin-top:5px"><span class="dot-on"></span>72% ready · on track</div>
+                </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3.5 19.5 L10 8.5 L14 14 L16.8 10.6 L20.5 19.5 Z"/><path d="M10 8.5 V4 h4 L12.4 5.6 L14 7.2 h-4"/></svg>
                 </div>
@@ -1636,6 +1788,38 @@
 </div><!-- /journey-wrap -->
 
 <!-- ═══ SECTION 5 — CTA + FAQ ═══ -->
+<!-- ═══ PROOF OF ASCENT ═══ -->
+<section class="proof-section" id="proof">
+  <div class="section-inner">
+    <div class="proof-head reveal">
+      <div class="fsx-kicker" data-en="Proof of Ascent" data-id="Bukti Pendakian">Proof of Ascent</div>
+      <h2 data-en="The climb works. <em>Climbers prove it.</em>" data-id="Pendakian ini berhasil. <em>Para pendakinya buktinya.</em>">The climb works. <em>Climbers prove it.</em></h2>
+    </div>
+
+    <div class="proof-stats reveal">
+      <div class="pstat"><b>12,000+</b><span data-en="students on the climb" data-id="mahasiswa dalam pendakian">students on the climb</span></div>
+      <div class="pstat"><b>87%</b><span data-en="report clearer direction within 30 days" data-id="merasa arah lebih jelas dalam 30 hari">report clearer direction within 30 days</span></div>
+      <div class="pstat"><b>500+</b><span data-en="mentor sessions hosted" data-id="sesi mentoring terselenggara">mentor sessions hosted</span></div>
+    </div>
+
+    <div class="proof-grid reveal">
+      <div class="pcard">
+        <blockquote data-en="&#8220;Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.&#8221;" data-id="&#8220;Empat puluh lamaran tanpa jawaban, lalu aku bergabung dengan rope team. Dua bulan kemudian aku menandatangani offer — dan aku tahu persis mengapa berhasil.&#8221;">&#8220;Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.&#8221;</blockquote>
+        <div class="pwho"><span class="pface" aria-hidden="true">SA</span><div><b>Sinta A.</b><span data-en="Management ’25 · Business Analyst offer" data-id="Manajemen ’25 · Offer Business Analyst">Management ’25 · Business Analyst offer</span></div></div>
+      </div>
+      <div class="pcard">
+        <blockquote data-en="&#8220;The Map told me what I actually wanted. The Pack got me through ATS. My CV finally spoke the language recruiters read.&#8221;" data-id="&#8220;The Map menunjukkan apa yang sebenarnya kuinginkan. The Pack meloloskanku dari ATS. CV-ku akhirnya berbicara dalam bahasa yang dibaca rekruter.&#8221;">&#8220;The Map told me what I actually wanted. The Pack got me through ATS. My CV finally spoke the language recruiters read.&#8221;</blockquote>
+        <div class="pwho"><span class="pface" aria-hidden="true">RP</span><div><b>Raka P.</b><span data-en="Informatics ’24 · Software Engineer" data-id="Informatika ’24 · Software Engineer">Informatics ’24 · Software Engineer</span></div></div>
+      </div>
+      <div class="pcard">
+        <blockquote data-en="&#8220;Scholarship Prep turned a dream into a timeline. Essay by essay, mock by mock — until the award letter came.&#8221;" data-id="&#8220;Persiapan Beasiswa mengubah mimpi menjadi linimasa. Esai demi esai, simulasi demi simulasi — sampai surat penghargaan itu datang.&#8221;">&#8220;Scholarship Prep turned a dream into a timeline. Essay by essay, mock by mock — until the award letter came.&#8221;</blockquote>
+        <div class="pwho"><span class="pface" aria-hidden="true">DK</span><div><b>Dewi K.</b><span data-en="Economics ’26 · LPDP Awardee" data-id="Ekonomi ’26 · Penerima LPDP">Economics ’26 · LPDP Awardee</span></div></div>
+      </div>
+    </div>
+    <p class="proof-note" data-en="Numbers from the Metanoia pilot community · updated quarterly" data-id="Angka dari komunitas pilot Metanoia · diperbarui setiap kuartal">Numbers from the Metanoia pilot community · updated quarterly</p>
+  </div>
+</section>
+
 <section class="student-cta-section" id="cta">
   <div class="cta-banner">
     <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
@@ -1653,8 +1837,8 @@
         <a href="../career-map-assessment.html" class="cta-btn-primary" data-en="Take the Free Career Map →" data-id="Ambil Career Map Gratis →">Take the Free Career Map →</a>
         <a href="../register.html" class="cta-btn-ghost" data-en="Create Free Account" data-id="Buat Akun Gratis">Create Free Account</a>
       </div>
-      <p class="cta-footnote" data-en="Free diagnostic included · No credit card required · Premium unlocks all 5 products" data-id="Diagnostik gratis termasuk · Tidak perlu kartu kredit · Premium membuka semua 5 produk">
-        Free diagnostic included · No credit card required · Premium unlocks all 5 products
+      <p class="cta-footnote" data-en="Free diagnostic included · One membership unlocks all five products · Student-friendly monthly plans" data-id="Diagnostik gratis termasuk · Satu keanggotaan membuka semua lima produk · Paket bulanan ramah kantong mahasiswa">
+        Free diagnostic included · One membership unlocks all five products · Student-friendly monthly plans
       </p>
     </div>
   </div>
@@ -1968,6 +2152,41 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
     if(!pTick){ requestAnimationFrame(updateParallax); pTick = true; }
   }, {passive:true});
   updateParallax();
+}
+
+/* ─── Sticky chapter sub-nav: appears past the hero, tracks the active chapter ─── */
+const chapNav = document.getElementById('chapNav');
+if(chapNav){
+  const heroEl = document.querySelector('.student-hero');
+  let cnTick = false;
+  const updateChapNav = ()=>{
+    chapNav.classList.toggle('show', heroEl ? scrollY > heroEl.offsetHeight * 0.7 : scrollY > 600);
+    cnTick = false;
+  };
+  addEventListener('scroll', ()=>{ if(!cnTick){ requestAnimationFrame(updateChapNav); cnTick = true; } }, {passive:true});
+  updateChapNav();
+  const chapLinks = [...chapNav.querySelectorAll('a')];
+  const chapTargets = chapLinks
+    .map(a=>document.querySelector(a.getAttribute('href')))
+    .filter(Boolean);
+  const chapObs = new IntersectionObserver(entries=>{
+    entries.forEach(en=>{
+      if(!en.isIntersecting) return;
+      chapLinks.forEach(a=>a.classList.toggle('act', a.getAttribute('href') === '#' + en.target.id));
+    });
+  }, {rootMargin:'-30% 0px -55% 0px'});
+  chapTargets.forEach(t=>chapObs.observe(t));
+}
+
+/* ─── Battery care: pause ambient loops while their scene is off screen ─── */
+{
+  const looping = [...document.querySelectorAll('.asc-glow'), document.querySelector('.cta-banner-img')].filter(Boolean);
+  if(looping.length){
+    const loopObs = new IntersectionObserver(entries=>{
+      entries.forEach(en=>{ en.target.style.animationPlayState = en.isIntersecting ? 'running' : 'paused'; });
+    }, {rootMargin:'120px 0px'});
+    looping.forEach(el=>loopObs.observe(el));
+  }
 }
 
 /* ─── Theme: day / night toggle (shared with landing via mt-theme) ─── */
