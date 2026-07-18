@@ -83,9 +83,9 @@
 
   /* ═══ SHARED SECTION SCAFFOLD ═══ */
   .section-inner{max-width:1180px;margin:0 auto;padding:0 40px}
-  .section-chapter-label{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:64px;
-    font-size:10px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
-  .chapter-line-sm{width:32px;height:1px;background:var(--gold);opacity:.5}
+  .section-chapter-label{display:flex;align-items:center;justify-content:center;gap:22px;margin-bottom:64px;
+    font-size:15px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+  .chapter-line-sm{width:46px;height:1px;background:var(--gold);opacity:.5}
 
   /* ═══ SECTION 1 — HERO ═══ */
   .student-hero{position:relative;width:100%;height:100vh;min-height:600px;display:flex;align-items:center;
@@ -175,9 +175,9 @@
   /* — opening grid: serif narrative left, doorway visual right — */
   .ro-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:56px;
     align-items:center;margin-bottom:78px}
-  .ro-chapter{display:flex;align-items:center;gap:14px;font-size:10.5px;font-weight:700;
-    letter-spacing:.30em;text-transform:uppercase;color:var(--gold);margin-bottom:30px}
-  .ro-chapter::before{content:'';width:36px;height:1px;background:var(--gold);opacity:.65;flex:none}
+  .ro-chapter{display:flex;align-items:center;gap:16px;font-size:15px;font-weight:700;
+    letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:30px}
+  .ro-chapter::before{content:'';width:44px;height:1px;background:var(--gold);opacity:.65;flex:none}
   .ro-headline{font-family:var(--serif);font-size:clamp(2.05rem,3.5vw,3.05rem);font-weight:600;
     color:var(--text);line-height:1.22;letter-spacing:.002em;margin:0 0 42px}
   .ro-headline em{font-style:italic;font-weight:500;
@@ -485,9 +485,33 @@
   .fsx-band{position:relative;color:#fff;overflow:hidden;
     background:linear-gradient(180deg,rgba(7,11,20,0) 0%,rgba(7,11,20,.60) 5%,
       rgba(8,13,24,.62) 95%,rgba(8,13,24,0) 100%)}
-  :root[data-theme="light"] .fsx-band{
-    background:linear-gradient(180deg,rgba(7,11,20,0) 0%,rgba(7,11,20,.94) 5%,
-      rgba(8,13,24,.94) 95%,rgba(8,13,24,0) 100%)}
+  :root[data-theme="light"] .fsx-band{background:none;color:var(--text)}
+  :root[data-theme="light"] .fsx-stars{display:none}
+  :root[data-theme="light"] .fsx-rings i{border-color:rgba(139,105,20,.14)}
+  :root[data-theme="light"] .fsx-rings i:nth-child(3){border-color:rgba(139,105,20,.20)}
+  :root[data-theme="light"] .fsx-vp{color:rgba(27,36,52,.88)}
+  :root[data-theme="light"] .fsx-vp em{background:linear-gradient(100deg,#8B6914,#B08A2E);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  :root[data-theme="light"] .fsx-quote p{color:#8B6914}
+  :root[data-theme="light"] .fsx-quote span{color:rgba(27,36,52,.45)}
+  :root[data-theme="light"] .asc-name{color:var(--text)}
+  :root[data-theme="light"] .asc-tag{color:#8B6914}
+  :root[data-theme="light"] .asc-desc{color:rgba(27,36,52,.66)}
+  :root[data-theme="light"] .asc-feats li{color:rgba(27,36,52,.72)}
+  :root[data-theme="light"] .asc-feats li::before{color:#8B6914}
+  :root[data-theme="light"] .asc-cta{color:#8B6914;border-color:rgba(139,105,20,.42)}
+  :root[data-theme="light"] .asc-prem{color:rgba(139,105,20,.9)}
+  :root[data-theme="light"] .asc-chip{color:rgb(var(--accRaw))}
+  :root[data-theme="light"] .asc-panel[data-accent="rope"] .asc-chip,
+  :root[data-theme="light"] .asc-panel[data-accent="all"] .asc-chip{color:#8B6914}
+  :root[data-theme="light"] .asc-rail{background:rgba(139,105,20,.18)}
+  :root[data-theme="light"] .asc-rail-fill{background:linear-gradient(180deg,rgba(139,105,20,.3),#8B6914);
+    box-shadow:0 0 10px rgba(139,105,20,.3)}
+  :root[data-theme="light"] .asc-node{background:#F6F7FA;color:#8B6914;border-color:rgba(139,105,20,.45);
+    box-shadow:0 0 0 7px rgba(238,241,246,.92)}
+  :root[data-theme="light"] .asc-panel.revealed .asc-node{border-color:rgba(139,105,20,.8);
+    box-shadow:0 0 0 7px rgba(238,241,246,.92),0 0 22px rgba(139,105,20,.22)}
+  :root[data-theme="light"] .asc-ghost{-webkit-text-stroke:1px rgba(139,105,20,.24)}
   .fsx-stars{position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:
     radial-gradient(1.2px 1.2px at 22% 34%, rgba(255,255,255,.8), transparent),
     radial-gradient(1px 1px at 68% 14%, rgba(255,255,255,.7), transparent),
@@ -647,16 +671,39 @@
   .asc-panel.final .asc-node{border-color:rgba(201,168,76,.55)}
 
   /* ═══ SECTION 5 — CTA + FAQ ═══ */
-  .student-cta-section{background:var(--bg-dark);padding:120px 0;position:relative;overflow:hidden}
-  .student-cta-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  .student-cta-section{background:var(--bg-dark);padding:0 0 120px;position:relative;overflow:hidden}
+  .student-cta-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;z-index:3;
     background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
-  .student-cta-block{text-align:center;max-width:680px;margin:0 auto 100px;position:relative}
-  .cta-bg-glow{position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:500px;height:300px;
-    background:radial-gradient(ellipse,rgba(201,168,76,.07) 0%,transparent 70%);pointer-events:none}
-  .cta-overline{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
-  .cta-headline{font-size:clamp(2rem,4vw,3.2rem);font-weight:800;color:var(--text);line-height:1.15;margin:0 0 20px}
-  .cta-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0 0 36px}
-  .cta-actions{display:flex;gap:16px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
+  /* — closing banner: summit sunrise, copy against the dark ridge — */
+  .cta-banner{position:relative;display:flex;align-items:center;min-height:660px;
+    overflow:hidden;margin-bottom:100px}
+  .cta-banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    object-position:center 32%;transform:scale(1.06);
+    animation:ctaDrift 30s ease-in-out infinite alternate}
+  @keyframes ctaDrift{from{transform:scale(1.06) translate3d(0,0,0)}
+    to{transform:scale(1.13) translate3d(-18px,-8px,0)}}
+  .cta-banner-veil{position:absolute;inset:0;pointer-events:none;background:
+    linear-gradient(90deg,rgba(4,8,16,.90) 0%,rgba(4,8,16,.66) 40%,rgba(4,8,16,.16) 72%,rgba(4,8,16,.34) 100%),
+    linear-gradient(180deg,rgba(4,8,16,.5) 0%,transparent 24%,transparent 70%,var(--bg-dark) 100%)}
+  .cta-banner-inner{position:relative;z-index:2;width:100%;max-width:1180px;margin:0 auto;
+    padding:130px 40px 120px}
+  .cta-banner-inner > *{opacity:0;transform:translateY(24px);
+    transition:opacity .7s ease,transform .7s cubic-bezier(.25,.8,.3,1)}
+  .cta-banner-inner.revealed > *{opacity:1;transform:none}
+  .cta-banner-inner.revealed > :nth-child(1){transition-delay:.05s}
+  .cta-banner-inner.revealed > :nth-child(2){transition-delay:.15s}
+  .cta-banner-inner.revealed > :nth-child(3){transition-delay:.25s}
+  .cta-banner-inner.revealed > :nth-child(4){transition-delay:.35s}
+  .cta-banner-inner.revealed > :nth-child(5){transition-delay:.45s}
+  .cta-overline{display:flex;align-items:center;gap:14px;font-size:11px;font-weight:700;
+    letter-spacing:.30em;text-transform:uppercase;color:#E8C766;margin:0 0 20px}
+  .cta-overline::before{content:'';width:44px;height:1px;background:#C9A84C;opacity:.7;flex:none}
+  .cta-headline{font-family:var(--serif);font-size:clamp(2.2rem,4.4vw,3.6rem);font-weight:600;
+    color:#fff;line-height:1.14;letter-spacing:.002em;margin:0 0 22px;max-width:660px}
+  .cta-headline em{font-style:normal;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .cta-sub{font-size:15px;color:rgba(255,255,255,.72);line-height:1.75;margin:0 0 38px;max-width:540px}
+  .cta-actions{display:flex;gap:16px;margin-bottom:22px;flex-wrap:wrap}
   .cta-btn-primary{padding:15px 32px;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));
     color:#050A12;font-size:15px;font-weight:800;border-radius:999px;text-decoration:none;transition:all .2s;
     box-shadow:0 4px 24px rgba(201,168,76,.30)}
@@ -664,7 +711,7 @@
   .cta-btn-ghost{padding:14px 28px;background:transparent;border:1px solid var(--gold-border);color:var(--text-sub);
     font-size:14px;font-weight:600;border-radius:999px;text-decoration:none;transition:all .2s}
   .cta-btn-ghost:hover{border-color:var(--gold-border-hover);color:var(--text)}
-  .cta-footnote{font-size:11px;color:var(--text-faint)}
+  .cta-footnote{font-size:11px;color:rgba(255,255,255,.48)}
   .faq-section{max-width:760px;margin:0 auto}
   .faq-title{font-size:1.6rem;font-weight:800;color:var(--text);text-align:center;margin:0 0 40px}
   .faq-list{display:flex;flex-direction:column;gap:8px}
@@ -815,9 +862,16 @@
     .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
     .trait:nth-child(2n+1){border-left:0}
     .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
-    .cta-actions{flex-direction:column;align-items:center}
+    .cta-banner{min-height:540px}
+    .cta-banner-inner{padding:100px 20px 90px}
+    .cta-banner-veil{background:
+      linear-gradient(90deg,rgba(4,8,16,.86) 0%,rgba(4,8,16,.55) 55%,rgba(4,8,16,.40) 100%),
+      linear-gradient(180deg,rgba(4,8,16,.5) 0%,transparent 24%,transparent 70%,var(--bg-dark) 100%)}
+    .cta-actions{flex-direction:column;align-items:flex-start}
     .cta-btn-primary,.cta-btn-ghost{width:100%;text-align:center}
-    .realization-section,.career-os-section,.products-section,.student-cta-section{padding:80px 0}
+    .cta-banner .cta-actions{width:100%}
+    .realization-section,.career-os-section,.products-section{padding:80px 0}
+    .student-cta-section{padding:0 0 80px}
     .foot-grid{flex-direction:column}
   }
   @media (prefers-reduced-motion:reduce){
@@ -832,6 +886,7 @@
     .stage-row.reveal .stage-media{opacity:1;transform:none}
     .system-journey.reveal .flow-item{opacity:1;transform:none}
     .asc-copy > *,.asc-feats li,.asc-stage{opacity:1 !important;transform:none !important}
+    .cta-banner-inner > *{opacity:1 !important;transform:none !important}
     .asc-glow{opacity:1}
     .rz-particles{display:none}
   }
@@ -1582,13 +1637,13 @@
 
 <!-- ═══ SECTION 5 — CTA + FAQ ═══ -->
 <section class="student-cta-section" id="cta">
-  <div class="section-inner">
-
-    <div class="student-cta-block">
-      <div class="cta-bg-glow" aria-hidden="true"></div>
+  <div class="cta-banner">
+    <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
+    <div class="cta-banner-veil" aria-hidden="true"></div>
+    <div class="cta-banner-inner reveal">
       <p class="cta-overline" data-en="Your journey starts here" data-id="Perjalananmu dimulai di sini">Your journey starts here</p>
-      <h2 class="cta-headline" data-en="Find the right tools for your ambitions.<br>Start today." data-id="Temukan alat yang tepat untuk ambisimu.<br>Mulai hari ini.">
-        Find the right tools for your ambitions.<br>Start today.
+      <h2 class="cta-headline" data-en="Find the right tools for your ambitions.<br><em>Start today.</em>" data-id="Temukan alat yang tepat untuk ambisimu.<br><em>Mulai hari ini.</em>">
+        Find the right tools for your ambitions.<br><em>Start today.</em>
       </h2>
       <p class="cta-sub" data-en="Metanoia delivers personalised products and guidance tailored to your strengths, ambitions, and career goals.<br>Your future begins here — not at graduation." data-id="Metanoia menghadirkan produk dan panduan yang dipersonalisasi sesuai kekuatan, ambisi, dan tujuan kariermu.<br>Masa depanmu dimulai di sini — bukan saat wisuda.">
         Metanoia delivers personalised products and guidance tailored to your strengths, ambitions, and career goals.<br>
@@ -1602,6 +1657,9 @@
         Free diagnostic included · No credit card required · Premium unlocks all 5 products
       </p>
     </div>
+  </div>
+
+  <div class="section-inner">
 
     <div class="faq-section">
       <h3 class="faq-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h3>
