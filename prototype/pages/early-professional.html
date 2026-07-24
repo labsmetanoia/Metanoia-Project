@@ -8,6 +8,15 @@
 <link rel="canonical" href="https://metanoialabs.net/pages/early-professional.html">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/early-professional.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Early Professional — Metanoia Labs">
+<meta property="og:description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Early Professional — Metanoia Labs">
+<meta name="twitter:description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
 <style>
@@ -137,8 +146,9 @@
   .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:30px;
     font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
   .hero-pill::before,.hero-pill::after{content:'';width:44px;height:1px;background:rgba(201,168,76,.6)}
-  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 26px;letter-spacing:-.01em}
-  .hero h1 em{font-style:italic;color:#E8C766;font-weight:700}
+  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 16px;letter-spacing:-.01em}
+  .hero-em{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.1vw,1.4rem);
+    color:#E8C766;line-height:1.55;margin:0 auto 24px;max-width:700px}
   .hero-sub{font-size:clamp(1rem,1.8vw,1.15rem);color:rgba(255,255,255,.82);line-height:1.7;margin:0 auto 40px;
     max-width:640px;font-weight:300}
   .hero-cta{display:inline-block;padding:16px 36px;background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);
@@ -302,7 +312,7 @@
   .prod-cta{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);text-decoration:none;
     padding:11px 24px;border-radius:999px;border:1px solid rgba(201,168,76,.35);transition:all .25s}
   .prod-cta:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800;transform:translateY(-2px)}
-  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:10.5px;font-weight:600;
+  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:11px;font-weight:600;
     letter-spacing:.06em;color:rgba(232,199,102,.85)}
   :root[data-theme="light"] .prem{color:#8B6914}
   .prem svg{width:12px;height:12px;flex:none}
@@ -311,7 +321,7 @@
     box-shadow:0 18px 44px rgba(0,0,0,.5);text-align:left}
   .prod-feat.rev .mock{right:auto;left:22px}
   .mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:8px}
-  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2.5px 0;line-height:1.4}
   .mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -319,9 +329,11 @@
   .prod-card{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
     backdrop-filter:var(--glass-blur);display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
   .prod-card:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pc-img{position:relative;height:150px}
-  .pc-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .pc-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,18,.7))}
+  .pc-head{position:relative;height:112px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .pc-head svg{width:42px;height:42px;color:rgba(255,255,255,.92);position:relative;z-index:1}
+  .pc-head::before{content:'';position:absolute;width:150px;height:150px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.14);top:-40px;right:-30px}
+  .pc-head::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
   .pc-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
   .pc-body .ptag{margin-bottom:12px;align-self:flex-start}
   .pc-body h3{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--text);margin:0 0 6px}
@@ -332,7 +344,7 @@
   .pc-mock{margin:0 0 18px;border-radius:12px;padding:12px 14px;background:rgba(10,16,28,.94);
     border:1px solid rgba(201,168,76,.28)}
   .pc-mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:7px}
-  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2px 0;line-height:1.4}
   .pc-mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -419,6 +431,165 @@
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.25,.8,.3,1)}
   .reveal.revealed{opacity:1;transform:none}
 
+  /* ═══ AUDIENCE ROUTER ═══ */
+  .stage-router{position:relative;z-index:3;background:var(--bg-dark);border-bottom:1px solid var(--gold-border);padding:16px 0 18px}
+  .router-in{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:center}
+  .router-label{font-size:10.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+  .router-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .router-chips a{display:flex;flex-direction:column;align-items:center;gap:1px;text-decoration:none;
+    padding:7px 14px;border-radius:12px;border:1px solid rgba(201,168,76,.16);transition:border-color .2s,background .2s}
+  .router-chips a b{font-size:11.5px;font-weight:700;color:var(--text-sub);white-space:nowrap}
+  .router-chips a span{font-size:9.5px;color:var(--text-muted);white-space:nowrap}
+  .router-chips a:hover{border-color:var(--gold-border-hover);background:rgba(201,168,76,.06)}
+  .router-chips a.cur{border-color:rgba(201,168,76,.5);background:rgba(201,168,76,.10)}
+  .router-chips a.cur b{color:var(--gold-bright)}
+  :root[data-theme="light"] .router-chips a.cur b{color:var(--gold)}
+
+  /* ═══ CH1 CALLOUT — ATS funnel (FG) ═══ */
+  .funnel{max-width:780px;margin:76px auto 0;padding:36px 42px 32px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .funnel .fttl{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 22px;text-align:center}
+  .fun-row{display:grid;grid-template-columns:minmax(120px,190px) 1fr 56px;gap:14px;align-items:center;padding:7px 0}
+  .fun-row .fl{font-size:12.5px;font-weight:600;color:var(--text-sub)}
+  .fun-bar{height:20px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden}
+  :root[data-theme="light"] .fun-bar{background:rgba(27,36,52,.10)}
+  .fun-fill{display:block;height:100%;width:0;border-radius:6px;background:rgba(255,255,255,.30);
+    transition:width 1.1s cubic-bezier(.3,.9,.3,1) .25s}
+  :root[data-theme="light"] .fun-fill{background:rgba(27,36,52,.30)}
+  .fun-row.gold .fun-fill{background:linear-gradient(90deg,var(--gold-deep),var(--gold))}
+  .fun-row.bright .fun-fill{background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .funnel.revealed .fun-fill{width:var(--w)}
+  .fun-row .fv{font-size:12px;font-weight:800;color:var(--gold-bright);text-align:right}
+  :root[data-theme="light"] .fun-row .fv{color:var(--gold)}
+  .fun-cap{margin:18px 0 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ CH1 CALLOUT — career capital ledger (MP) ═══ */
+  .ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:76px auto 0}
+  .led{padding:28px 26px 26px;border-radius:18px;background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .led .lt{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 6px}
+  .led .ls{font-size:11.5px;color:var(--text-muted);margin:0 0 16px;line-height:1.5}
+  .led ul{list-style:none;margin:0;padding:0}
+  .led li{position:relative;padding:6px 0 6px 20px;font-size:12.5px;color:var(--text-sub);line-height:1.55}
+  .led li::before{content:'';position:absolute;left:0;top:13px;width:9px;height:2px;background:currentColor;opacity:.45}
+  .led.keep .lt{color:#8FE3B4}.led.translate .lt{color:#F5B47A}.led.new .lt{color:#8FB8F0}
+  :root[data-theme="light"] .led.keep .lt{color:#1A5C38}
+  :root[data-theme="light"] .led.translate .lt{color:#B45309}
+  :root[data-theme="light"] .led.new .lt{color:#1D5FAB}
+  .ledger-cap{max-width:760px;margin:26px auto 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ SEE IT WORK (ported from student.html) ═══ */
+  .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
+  .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .how-head{text-align:center;max-width:720px;margin:0 auto 58px}
+  .how-head h2{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:600;color:var(--text);
+    margin:0 0 16px;line-height:1.16}
+  .how-head h2 em{font-style:normal;color:var(--gold)}
+  .how-head p{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+  .how-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 auto 72px;position:relative}
+  .how-steps::before{content:'';position:absolute;top:26px;left:12%;right:12%;height:1px;
+    background:linear-gradient(90deg,rgba(201,168,76,.35),rgba(201,168,76,.12));z-index:0}
+  .how-step{position:relative;z-index:1;text-align:center;padding:0 8px;
+    opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+  .how-steps.revealed .how-step{opacity:1;transform:none}
+  .how-steps.revealed .how-step:nth-child(1){transition-delay:.06s}
+  .how-steps.revealed .how-step:nth-child(2){transition-delay:.16s}
+  .how-steps.revealed .how-step:nth-child(3){transition-delay:.26s}
+  .how-steps.revealed .how-step:nth-child(4){transition-delay:.36s}
+  .how-step .hnum{width:52px;height:52px;margin:0 auto 20px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 7px var(--bg-base),0 8px 22px rgba(201,168,76,.32)}
+  .how-step h3{font-size:15px;font-weight:700;color:var(--text);margin:0 0 8px}
+  .how-step p{font-size:12.5px;color:var(--text-muted);line-height:1.6;margin:0}
+  .how-step .hmeta{display:block;margin-top:9px;font-size:10px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gold)}
+  .how-demo{max-width:920px;margin:0 auto}
+  .demo-frame{border-radius:18px;overflow:hidden;background:#0A101D;border:1px solid rgba(201,168,76,.22);
+    box-shadow:0 40px 90px rgba(0,0,0,.5),0 0 60px rgba(201,168,76,.06)}
+  .demo-bar{display:flex;align-items:center;gap:14px;padding:13px 18px;
+    background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07)}
+  .demo-dots{display:flex;gap:7px;flex:none}
+  .demo-dots i{width:11px;height:11px;border-radius:50%;background:rgba(255,255,255,.16)}
+  .demo-url{flex:1;text-align:center;font-size:11px;letter-spacing:.06em;color:rgba(255,255,255,.4);font-weight:600}
+  .demo-url b{color:#E8C766;font-weight:700}
+  .demo-screen{padding:32px 34px 36px;background:#0A101D}
+  .demo-h{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin:0 0 4px}
+  .demo-sub{font-size:12.5px;color:rgba(255,255,255,.5);margin:0 0 26px;line-height:1.55}
+  .sc-grid{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center}
+  .sc-ring{position:relative;width:180px;height:180px;margin:0 auto}
+  .sc-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+  .sc-ring .rbg{fill:none;stroke:rgba(255,255,255,.08);stroke-width:11}
+  .sc-ring .rfg{fill:none;stroke:url(#scGold);stroke-width:11;stroke-linecap:round;
+    stroke-dasharray:471;stroke-dashoffset:471;transition:stroke-dashoffset 1.4s cubic-bezier(.3,.9,.3,1) .2s}
+  .how-demo.revealed .sc-ring .rfg{stroke-dashoffset:var(--off)}
+  .sc-ring .rcen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .sc-ring .rcen b{font-size:34px;font-weight:800;color:#fff;line-height:1}
+  .sc-ring .rcen span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E8C766;margin-top:5px}
+  .sc-dims{display:flex;flex-direction:column;gap:15px}
+  .dim{display:grid;grid-template-columns:minmax(120px,170px) 1fr 42px;align-items:center;gap:14px}
+  .dim .dlab{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.82)}
+  .dim .dbar{display:block;height:7px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+  .dim .dfill{display:block;height:100%;border-radius:999px;width:0;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));
+    transition:width 1.2s cubic-bezier(.3,.9,.3,1) .3s}
+  .how-demo.revealed .dim .dfill{width:var(--v)}
+  .dim .dval{font-size:12px;font-weight:800;color:#E8C766;text-align:right}
+  .dim.low .dfill{background:linear-gradient(90deg,#8B6914,#C97B1E)}
+  .route-item{display:flex;gap:16px;align-items:flex-start;padding:17px 18px;border-radius:13px;
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);margin-top:26px}
+  .route-item .rtag{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:7px;
+    color:#E8C766;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.3)}
+  .route-item p{font-size:13px;color:rgba(255,255,255,.8);line-height:1.55;margin:0}
+  .demo-cap{text-align:center;font-size:11.5px;color:var(--text-faint);margin:22px auto 0;max-width:560px;line-height:1.6}
+
+  /* ═══ ENTERPRISE CONTACT ═══ */
+  .contact-sec{padding:104px 0;background:var(--bg-mid);position:relative}
+  .contact-sec::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+  .contact-copy h2{font-family:var(--serif);font-size:clamp(1.7rem,3vw,2.4rem);font-weight:600;color:var(--text);
+    line-height:1.2;margin:0 0 16px}
+  .contact-copy h2 em{font-style:italic;color:var(--gold)}
+  .contact-copy p{font-size:14px;color:var(--text-muted);line-height:1.75;margin:0 0 24px}
+  .contact-copy ul{list-style:none;margin:0 0 28px;padding:0}
+  .contact-copy li{position:relative;padding:7px 0 7px 26px;font-size:13.5px;color:var(--text-sub);line-height:1.6}
+  .contact-copy li::before{content:'✓';position:absolute;left:0;top:7px;color:var(--gold);font-size:12px}
+  .contact-direct{font-size:13px;color:var(--text-muted)}
+  .contact-direct a{color:var(--gold);font-weight:700;text-decoration:none}
+  .contact-direct a:hover{text-decoration:underline}
+  .cform{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:34px 34px 30px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .cfield{display:flex;flex-direction:column;gap:6px}
+  .cfield.full{grid-column:1/-1}
+  .cfield label{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+  .cfield input,.cfield select,.cfield textarea{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;padding:12px 14px;color:var(--text);font-family:inherit;font-size:14px;width:100%}
+  .cfield textarea{resize:vertical;min-height:88px}
+  .cfield select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' stroke='%23C9A84C' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 14px center}
+  :root[data-theme="light"] .cfield input,:root[data-theme="light"] .cfield select,:root[data-theme="light"] .cfield textarea{
+    background:#FFFFFF;border-color:rgba(27,36,52,.22)}
+  .cfield input:focus,.cfield select:focus,.cfield textarea:focus{outline:none;border-color:var(--gold)}
+  .cform .csubmit{grid-column:1/-1;margin-top:6px;padding:15px 32px;border:none;border-radius:999px;
+    background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);color:#050A12;
+    font-size:14.5px;font-weight:800;letter-spacing:.02em;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 6px 24px rgba(201,168,76,.3)}
+  .cform .csubmit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,168,76,.42)}
+  .cform-note{grid-column:1/-1;font-size:11px;color:var(--text-faint);text-align:center;margin:2px 0 0}
+
+  /* ═══ motion: CTA banner pan + parallax ═══ */
+  @keyframes ctaPan{from{transform:scale(1.1) translateX(-1.4%)}to{transform:scale(1.1) translateX(1.4%)}}
+  .cta-banner-img{animation:ctaPan 38s ease-in-out infinite alternate}
+  .nar-visual img{will-change:transform}
+
+  /* ═══ a11y focus ═══ */
+  .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
+  .prod-cta:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .trait span{color:rgba(255,255,255,.68)}
+  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
+
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
     .nar-grid{grid-template-columns:1fr;gap:40px}
@@ -439,6 +610,11 @@
     .prod-feat.rev .pf-visual{order:2}
     .pf-visual{min-height:260px}
     .pain-grid{grid-template-columns:1fr}
+    .how-steps{grid-template-columns:1fr 1fr;gap:34px 18px}
+    .how-steps::before{display:none}
+    .sc-grid{grid-template-columns:1fr;gap:28px}
+    .ledger{grid-template-columns:1fr}
+    .contact-grid{grid-template-columns:1fr;gap:40px}
   }
   @media(max-width:768px){
     .section-inner{padding:0 20px}
@@ -454,6 +630,10 @@
     .foot-grid{flex-direction:column}
     .hero-cta2{margin-left:0;margin-top:12px}
     .mock{position:static;width:auto;margin:14px}
+    .how-steps{grid-template-columns:1fr;gap:28px}
+    .cform{grid-template-columns:1fr;padding:26px 20px 24px}
+    .fun-row{grid-template-columns:minmax(90px,120px) 1fr 44px}
+    .router-in{gap:10px}
   }
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
@@ -530,15 +710,31 @@
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
   <video autoplay muted loop playsinline id="heroVideo"><source src="../assets/early-professional-hero.mp4" type="video/mp4"></video>
-  <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/stage-activation.jpg')"></div>
+  <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/hero.jpg')"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-pill" data-en="Chapter · Early Professionals" data-id="Bab · Profesional Muda">Chapter · Early Professionals</div>
-    <h1 data-en="The first five years don’t just build experience. They set the trajectory. <em>Most people spend them reacting. A few spend them building.</em>" data-id="Lima tahun pertama tidak hanya membangun pengalaman. Mereka menentukan trajektori. <em>Kebanyakan orang menghabiskannya dengan bereaksi. Sebagian kecil menghabiskannya dengan membangun.</em>">The first five years don’t just build experience. They set the trajectory. <em>Most people spend them reacting. A few spend them building.</em></h1>
+    <h1 data-en="The first five years don’t just build experience. They set the trajectory." data-id="Lima tahun pertama tidak hanya membangun pengalaman. Mereka menentukan trajektori.">The first five years don’t just build experience. They set the trajectory.</h1>
+    <p class="hero-em" data-en="Most people spend them reacting. A few spend them building." data-id="Kebanyakan orang menghabiskannya dengan bereaksi. Sebagian kecil menghabiskannya dengan membangun.">Most people spend them reacting. A few spend them building.</p>
     <p class="hero-sub" data-en="There is a narrow window in every professional’s career when the path is still fully open — when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it." data-id="Ada jendela sempit dalam setiap karier seorang profesional ketika jalur masih benar-benar terbuka — ketika satu pivot strategis, investasi yang tepat waktu pada keterampilan baru, atau peluang yang dipilih dengan sengaja dapat mengubah segalanya yang mengikutinya. Jendela itu adalah sekarang. Metanoia hadir untuk profesional yang berniat menggunakannya.">There is a narrow window in every professional’s career when the path is still fully open — when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it.</p>
     <a href="../career-map-assessment.html" class="hero-cta" data-en="Map Your Trajectory →" data-id="Petakan Trajektorimu →">Map Your Trajectory →</a>
   </div>
 </section>
+
+<!-- ═══ AUDIENCE ROUTER ═══ -->
+<div class="stage-router" aria-label="Choose your career stage">
+  <div class="router-in">
+    <span class="router-label" data-en="Where are you on the mountain?" data-id="Di mana kamu di gunung ini?">Where are you on the mountain?</span>
+    <div class="router-chips">
+      <a href="student.html"><b data-en="Student" data-id="Mahasiswa">Student</b><span data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a>
+      <a href="fresh-graduate.html"><b data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</b><span data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a>
+      <a href="early-professional.html" class="cur" aria-current="page"><b data-en="Early Professional" data-id="Profesional Muda">Early Professional</b><span data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a>
+      <a href="mature-professional.html"><b data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</b><span data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a>
+      <a href="enterprise.html"><b data-en="Enterprise" data-id="Perusahaan">Enterprise</b><span data-en="Building teams" data-id="Membangun tim">Building teams</span></a>
+      <a href="mentors.html"><b data-en="Mentors" data-id="Mentor">Mentors</b><span data-en="Giving back" data-id="Berbagi kembali">Giving back</span></a>
+    </div>
+  </div>
+</div>
 
 <!-- ═══ CHAPTER I ═══ -->
 <section class="block" id="why-now">
@@ -549,9 +745,9 @@
       <div class="nar-copy reveal">
         <p data-en="The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn’t get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available." data-id="Profesional yang mencapai peran senior di usia 30-an, bertransisi ke karier internasional, atau membangun jaringan yang membuka pintu selama puluhan tahun — mereka tidak beruntung di tahun kelima atau keenam. Mereka membuat keputusan berbeda di tahun pertama dan kedua. Mereka tahu apa yang sedang mereka bangun. Mereka disengaja dalam keterampilan mana yang dikembangkan, hubungan mana yang diinvestasikan, dan peluang mana yang dikejar bahkan saat opsi yang lebih mudah tersedia.">The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn’t get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available.</p>
         <p data-en="Most early professionals don’t operate this way — not because they’re less capable, but because no one gave them a system. They move from performance review to performance review, from one job posting to the next, waiting for clarity that doesn’t naturally arrive. The professionals who accelerate are the ones who stopped waiting and started designing." data-id="Kebanyakan profesional muda tidak beroperasi seperti ini — bukan karena mereka kurang mampu, tapi karena tidak ada yang memberi mereka sistem. Mereka bergerak dari satu review kinerja ke berikutnya, dari satu lowongan ke lowongan berikutnya, menunggu kejelasan yang tidak datang secara alami. Profesional yang berakselerasi adalah mereka yang berhenti menunggu dan mulai merancang.">Most early professionals don’t operate this way — not because they’re less capable, but because no one gave them a system. They move from performance review to performance review, from one job posting to the next, waiting for clarity that doesn’t naturally arrive. The professionals who accelerate are the ones who stopped waiting and started designing.</p>
-        <blockquote class="nar-quote reveal"><p data-en="“I spent my first three years waiting to be developed. My next three I spent building myself. The difference in outcome was not incremental — it was total.”" data-id="“Tiga tahun pertama saya habiskan menunggu untuk dikembangkan. Tiga tahun berikutnya saya habiskan membangun diri sendiri. Perbedaan hasilnya bukan bertahap — itu menyeluruh.”">“I spent my first three years waiting to be developed. My next three I spent building myself. The difference in outcome was not incremental — it was total.”</p><cite>Senior Manager, FMCG · Metanoia Cohort 2024</cite></blockquote>
+        <blockquote class="nar-quote reveal"><p data-en="“Spend these years waiting to be developed, and you learn to wait. Spend them building, and the difference in outcome is not incremental — it is total.”" data-id="“Habiskan tahun-tahun ini menunggu untuk dikembangkan, dan kamu belajar menunggu. Habiskan untuk membangun, dan perbedaan hasilnya bukan bertahap — itu menyeluruh.”">“Spend these years waiting to be developed, and you learn to wait. Spend them building, and the difference in outcome is not incremental — it is total.”</p><cite>Metanoia Labs</cite></blockquote>
       </div>
-      <div class="nar-visual reveal"><img src="../assets/bg/stage-activation.jpg" alt="A professional ascending a steep pitch with focus" loading="lazy"></div>
+      <div class="nar-visual reveal"><img src="../assets/bg/portal.jpg" alt="A professional standing above the cloud line, surveying the route ahead" loading="lazy"></div>
     </div>
 
     <h3 class="traits-head reveal" data-en="What accelerating professionals do differently" data-id="Apa yang dilakukan berbeda oleh profesional yang berakselerasi">What accelerating professionals do differently</h3>
@@ -559,7 +755,7 @@
       <div class="trait"><i>01</i><b data-en="They define the target before the path" data-id="Mereka mendefinisikan target sebelum jalur">They define the target before the path</b><span data-en="They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required." data-id="Mereka tahu ingin berada di mana dalam tiga tahun — bukan samar-samar, tapi spesifik. Jabatan, tipe perusahaan, senioritas, keterampilan yang dibutuhkan.">They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required.</span></div>
       <div class="trait"><i>02</i><b data-en="They manage visibility, not just performance" data-id="Mereka mengelola visibilitas, bukan hanya kinerja">They manage visibility, not just performance</b><span data-en="They understand that being good at the job is necessary but not sufficient. They invest in being known for being good." data-id="Mereka paham bahwa mahir dalam pekerjaan itu perlu tapi tidak cukup. Mereka berinvestasi untuk dikenal karena kemahirannya.">They understand that being good at the job is necessary but not sufficient. They invest in being known for being good.</span></div>
       <div class="trait"><i>03</i><b data-en="They build external optionality" data-id="Mereka membangun opsionalitas eksternal">They build external optionality</b><span data-en="Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth." data-id="Nilai profesional mereka tidak sepenuhnya bergantung pada penilaian satu pemberi kerja. Mereka memiliki data pasar tentang nilai mereka sendiri.">Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth.</span></div>
-      <div class="trait"><i>04</i><b data-en="They pivot when the evidence demands it" data-id="Mereka berpivot ketika buktinya menuntutnya">They pivot when the evidence demands it</b><span data-en="They don’t stay in the wrong role out of sunk-cost thinking. They recognise when a strategic change will compound in their favour." data-id="Mereka tidak bertahan di peran yang salah karena pola pikir sunk-cost. Mereka mengenali kapan perubahan strategis akan berlipat menguntungkan mereka.">They don’t stay in the wrong role out of sunk-cost thinking. They recognise when a strategic change will compound in their favour.</span></div>
+      <div class="trait"><i>04</i><b data-en="They pivot when the evidence demands it" data-id="Mereka berpivot ketika buktinya menuntutnya">They pivot when the evidence demands it</b><span data-en="They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor." data-id="Mereka tidak bertahan di peran yang salah karena pola pikir sunk-cost. Mereka mengenali kapan perubahan strategis akan berlipat menguntungkan mereka.">They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor.</span></div>
       <div class="trait"><i>05</i><b data-en="They treat learning as a system, not an event" data-id="Mereka memperlakukan pembelajaran sebagai sistem, bukan peristiwa">They treat learning as a system, not an event</b><span data-en="They don’t wait for their company to develop them. They identify their gaps and close them deliberately." data-id="Mereka tidak menunggu perusahaan mengembangkan mereka. Mereka mengidentifikasi kesenjangan dan menutupnya dengan sengaja.">They don’t wait for their company to develop them. They identify their gaps and close them deliberately.</span></div>
       <div class="trait"><i>06</i><b data-en="They invest in people, not just projects" data-id="Mereka berinvestasi pada orang, bukan hanya proyek">They invest in people, not just projects</b><span data-en="They understand that the network built in years 1–5 will open more doors than the résumé will." data-id="Mereka paham bahwa jaringan yang dibangun di tahun 1–5 akan membuka lebih banyak pintu daripada résumé.">They understand that the network built in years 1–5 will open more doors than the résumé will.</span></div>
     </div>
@@ -661,6 +857,7 @@
       <h3 data-en="Reach your next level on your timeline — <em>not when your company decides you’re ready.</em>" data-id="Capai level berikutmu pada garis waktumu — <em>bukan ketika perusahaanmu memutuskan kamu siap.</em>">Reach your next level on your timeline — <em>not when your company decides you’re ready.</em></h3>
       <p data-en="Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value." data-id="Melalui kejelasan tentang ke mana kamu pergi. Melalui presisi dalam apa yang kamu bangun. Melalui kepercayaan diri yang datang dari mengetahui nilaimu.">Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value.</p>
     </div>
+    <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="See where you stand — free Career Map →" data-id="Lihat posisimu — Career Map gratis →">See where you stand — free Career Map →</a></div>
   </div>
 </section>
 
@@ -688,7 +885,7 @@
         <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
       </div>
       <div class="pf-visual">
-        <img src="../assets/bg/map.jpg" alt="Career Audit &amp; Direction" loading="lazy">
+        <img src="../assets/bg/auth.jpg" alt="Career Audit &amp; Direction" loading="lazy">
     <div class="mock" aria-hidden="true">
       <div class="mttl">Readiness · 4 Dimensions</div>
       <div class="mrow"><span class="tick">✓</span><span>Direction 82% · Readiness 74%</span></div>
@@ -699,7 +896,7 @@
     </div>
     <div class="prod-grid">
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/pack.jpg" alt="Professional Accelerator" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
         <div class="pc-body">
           <span class="ptag teal">02 · The Pack</span>
           <h3 data-en="Professional Accelerator" data-id="Professional Accelerator">Professional Accelerator</h3>
@@ -723,7 +920,7 @@
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/rope.jpg" alt="The Pivot Framework" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
         <div class="pc-body">
           <span class="ptag amber">03 · The Rope</span>
           <h3 data-en="The Pivot Framework" data-id="The Pivot Framework">The Pivot Framework</h3>
@@ -746,7 +943,7 @@
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/start.jpg" alt="LPDP &amp; Advanced Degrees" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
         <div class="pc-body">
           <span class="ptag forest">04 · The Route</span>
           <h3 data-en="LPDP &amp; Advanced Degrees" data-id="LPDP &amp; Gelar Lanjutan">LPDP &amp; Advanced Degrees</h3>
@@ -779,7 +976,7 @@
         <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
       </div>
       <div class="pf-visual">
-        <img src="../assets/bg/stage-activation.jpg" alt="The Climb — Professional Edition" loading="lazy">
+        <img src="../assets/bg/journey-bg.jpg" alt="The Climb — Professional Edition" loading="lazy">
     <div class="mock" aria-hidden="true">
       <div class="mttl">3-Year Arch · Year 1 Q3</div>
       <div class="mrow"><span class="tick">✓</span><span>On track</span></div>
@@ -790,13 +987,104 @@
   </div>
 </section>
 
+<!-- ═══ SEE IT WORK ═══ -->
+<section class="how-section" id="see-it-work">
+  <div class="section-inner">
+    <div class="how-head reveal">
+      <div class="chapter-label" data-en="See It Work" data-id="Lihat Cara Kerjanya">See It Work</div>
+      <h2 data-en="Your career, measured like <em>a system.</em>" data-id="Kariermu, diukur seperti <em>sebuah sistem.</em>">Your career, measured like <em>a system.</em></h2>
+      <p data-en="Not a feed of advice — a live picture of your position, and the one move that matters next." data-id="Bukan aliran saran — gambaran langsung posisimu, dan satu langkah yang paling penting berikutnya.">Not a feed of advice — a live picture of your position, and the one move that matters next.</p>
+    </div>
+    <div class="how-steps reveal">
+      <div class="how-step">
+        <div class="hnum">1</div>
+        <h3 data-en="Audit your position" data-id="Audit posisimu">Audit your position</h3>
+        <p data-en="The free 15-minute Career Map scores you across the four dimensions that decide the next level." data-id="Career Map gratis 15 menit menilai kamu di empat dimensi yang menentukan level berikutnya.">The free 15-minute Career Map scores you across the four dimensions that decide the next level.</p>
+        <span class="hmeta" data-en="Free · 15 minutes" data-id="Gratis · 15 menit">Free · 15 minutes</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">2</div>
+        <h3 data-en="Design the architecture" data-id="Rancang arsitekturnya">Design the architecture</h3>
+        <p data-en="Define the 3-year destination and the skills, visibility, and relationships it requires." data-id="Tetapkan tujuan 3 tahun serta keterampilan, visibilitas, dan hubungan yang dibutuhkannya.">Define the 3-year destination and the skills, visibility, and relationships it requires.</p>
+        <span class="hmeta" data-en="The Map" data-id="The Map">The Map</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">3</div>
+        <h3 data-en="Build with focus" data-id="Bangun dengan fokus">Build with focus</h3>
+        <p data-en="Close your specific gaps — presence, positioning, network — with precision-targeted development." data-id="Tutup kesenjangan spesifikmu — kehadiran, pemosisian, jaringan — dengan pengembangan tertarget presisi.">Close your specific gaps — presence, positioning, network — with precision-targeted development.</p>
+        <span class="hmeta" data-en="The Pack · The Rope" data-id="The Pack · The Rope">The Pack · The Rope</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">4</div>
+        <h3 data-en="Move on your timeline" data-id="Bergerak pada garis waktumu">Move on your timeline</h3>
+        <p data-en="Promotion, pivot, or a move abroad — executed from evidence, on a route that recalibrates as you grow." data-id="Promosi, pivot, atau pindah ke luar negeri — dieksekusi dari bukti, pada rute yang dikalibrasi ulang seiring kamu berkembang.">Promotion, pivot, or a move abroad — executed from evidence, on a route that recalibrates as you grow.</p>
+        <span class="hmeta" data-en="The Route" data-id="The Route">The Route</span>
+      </div>
+    </div>
+    <div class="how-demo reveal">
+      <div class="demo-frame">
+        <div class="demo-bar">
+          <div class="demo-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="demo-url">portal.metanoialabs.net/<b>professional/readiness</b></div>
+        </div>
+        <div class="demo-screen">
+          <h3 class="demo-h" data-en="Career Readiness" data-id="Kesiapan Karier">Career Readiness</h3>
+          <p class="demo-sub" data-en="Your position across the four dimensions that determine whether the next level opens." data-id="Posisimu di empat dimensi yang menentukan apakah level berikutnya terbuka.">Your position across the four dimensions that determine whether the next level opens.</p>
+          <div class="sc-grid">
+            <div class="sc-ring" style="--off:155">
+              <svg viewBox="0 0 180 180" aria-hidden="true">
+                <defs><linearGradient id="scGold" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#8B6914"/><stop offset="55%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#F0D878"/>
+                </linearGradient></defs>
+                <circle class="rbg" cx="90" cy="90" r="75"/>
+                <circle class="rfg" cx="90" cy="90" r="75"/>
+              </svg>
+              <div class="rcen"><b>67</b><span data-en="Readiness" data-id="Kesiapan">Readiness</span></div>
+            </div>
+            <div class="sc-dims">
+            <div class="dim">
+              <span class="dlab" data-en="Direction" data-id="Arah">Direction</span>
+              <span class="dbar"><span class="dfill" style="--v:82%"></span></span>
+              <span class="dval">82</span>
+            </div>
+            <div class="dim low">
+              <span class="dlab" data-en="Positioning" data-id="Pemosisian">Positioning</span>
+              <span class="dbar"><span class="dfill" style="--v:61%"></span></span>
+              <span class="dval">61</span>
+            </div>
+            <div class="dim">
+              <span class="dlab" data-en="Skill readiness" data-id="Kesiapan keterampilan">Skill readiness</span>
+              <span class="dbar"><span class="dfill" style="--v:74%"></span></span>
+              <span class="dval">74</span>
+            </div>
+            <div class="dim low">
+              <span class="dlab" data-en="Network" data-id="Jaringan">Network</span>
+              <span class="dbar"><span class="dfill" style="--v:48%"></span></span>
+              <span class="dval">48</span>
+            </div>
+            </div>
+          </div>
+          <div class="route-item">
+            <div>
+              <span class="rtag" data-en="Next action" data-id="Tindakan berikutnya">Next action</span>
+              <p data-en="Map the three stakeholders who influence your next promotion — then book the first conversation." data-id="Petakan tiga pemangku kepentingan yang memengaruhi promosimu berikutnya — lalu jadwalkan percakapan pertama.">Map the three stakeholders who influence your next promotion — then book the first conversation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="demo-cap" data-en="Illustrative preview of the Professional dashboard. Your own scores come from your free Career Map." data-id="Pratinjau ilustratif dasbor Profesional. Skormu sendiri berasal dari Career Map gratismu.">Illustrative preview of the Professional dashboard. Your own scores come from your free Career Map.</p>
+    </div>
+    <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="Get your readiness score — free →" data-id="Dapatkan skor kesiapanmu — gratis →">Get your readiness score — free →</a></div>
+  </div>
+</section>
+
 <!-- ═══ CTA + FAQ ═══ -->
 <section class="cta-sec" id="cta">
   <div class="cta-banner">
     <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
     <div class="cta-veil" aria-hidden="true"></div>
     <div class="cta-in reveal">
-      <blockquote class="cta-quote"><span data-en="“I stopped waiting for my company to tell me I was ready. Three months into Metanoia, I had the language, the plan, and the offer I’d been building toward for two years.”" data-id="“Saya berhenti menunggu perusahaan memberi tahu saya bahwa saya siap. Tiga bulan dalam Metanoia, saya memiliki bahasa, rencana, dan tawaran yang sudah saya bangun selama dua tahun.”">“I stopped waiting for my company to tell me I was ready. Three months into Metanoia, I had the language, the plan, and the offer I’d been building toward for two years.”</span><cite>Product Manager, Tech · Metanoia Cohort 2025</cite></blockquote>
+      <blockquote class="cta-quote"><span data-en="“Stop waiting to be told you are ready. The language, the plan, and the next role are built — not awarded.”" data-id="“Berhenti menunggu diberi tahu bahwa kamu siap. Bahasa, rencana, dan peran berikutnya itu dibangun — bukan dianugerahkan.”">“Stop waiting to be told you are ready. The language, the plan, and the next role are built — not awarded.”</span><cite>Metanoia Labs</cite></blockquote>
       <h2 class="cta-head" data-en="Design your career <em>before someone else does.</em>" data-id="Rancang kariermu <em>sebelum orang lain melakukannya.</em>">Design your career <em>before someone else does.</em></h2>
       <p class="cta-sub" data-en="The window for a first-principles career redesign is open right now — and it does not stay open. Your free Career Map tells you exactly where you are and what needs to move. Start in 15 minutes." data-id="Jendela untuk perancangan ulang karier dari prinsip pertama terbuka sekarang — dan tidak akan tetap terbuka. Career Map gratismu memberitahu persis di mana kamu berada dan apa yang perlu bergerak. Mulai dalam 15 menit.">The window for a first-principles career redesign is open right now — and it does not stay open. Your free Career Map tells you exactly where you are and what needs to move. Start in 15 minutes.</p>
       <div class="cta-actions">
@@ -812,28 +1100,28 @@
       <h3 class="faq-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h3>
       <div class="faq-list">
         <div class="faq-item">
-          <button class="faq-q"><span data-en="How do I know if I should stay in my current job or move?" data-id="Bagaimana saya tahu apakah harus bertahan di pekerjaan sekarang atau pindah?">How do I know if I should stay in my current job or move?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Stay-or-move is an evidence question, not a feeling question. The Pivot Framework walks you through the criteria that matter: whether your learning curve has flattened, whether your compensation tracks your market value, whether the next role you want exists at your current company, and whether your network is still growing. If three of those four point outward, it’s time to design a move. If they point inward, the smarter play is usually to renegotiate your current role — and Metanoia prepares you for that conversation too." data-id="Bertahan-atau-pindah adalah pertanyaan bukti, bukan pertanyaan perasaan. The Pivot Framework memandumu melalui kriteria yang penting: apakah kurva belajarmu sudah mendatar, apakah kompensasimu mengikuti nilai pasarmu, apakah peran berikutnya yang kamu inginkan ada di perusahaanmu sekarang, dan apakah jaringanmu masih bertumbuh. Jika tiga dari empat itu mengarah keluar, saatnya merancang perpindahan. Jika mengarah ke dalam, langkah yang lebih cerdas biasanya adalah menegosiasikan ulang peranmu saat ini — dan Metanoia juga mempersiapkanmu untuk percakapan itu.">Stay-or-move is an evidence question, not a feeling question. The Pivot Framework walks you through the criteria that matter: whether your learning curve has flattened, whether your compensation tracks your market value, whether the next role you want exists at your current company, and whether your network is still growing. If three of those four point outward, it’s time to design a move. If they point inward, the smarter play is usually to renegotiate your current role — and Metanoia prepares you for that conversation too.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-1"><span data-en="How do I know if I should stay in my current job or move?" data-id="Bagaimana saya tahu apakah harus bertahan di pekerjaan sekarang atau pindah?">How do I know if I should stay in my current job or move?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-1" data-en="Stay-or-move is an evidence question, not a feeling question. The Pivot Framework walks you through the criteria that matter: whether your learning curve has flattened, whether your compensation tracks your market value, whether the next role you want exists at your current company, and whether your network is still growing. If three of those four point outward, it’s time to design a move. If they point inward, the smarter play is usually to renegotiate your current role — and Metanoia prepares you for that conversation too." data-id="Bertahan-atau-pindah adalah pertanyaan bukti, bukan pertanyaan perasaan. The Pivot Framework memandumu melalui kriteria yang penting: apakah kurva belajarmu sudah mendatar, apakah kompensasimu mengikuti nilai pasarmu, apakah peran berikutnya yang kamu inginkan ada di perusahaanmu sekarang, dan apakah jaringanmu masih bertumbuh. Jika tiga dari empat itu mengarah keluar, saatnya merancang perpindahan. Jika mengarah ke dalam, langkah yang lebih cerdas biasanya adalah menegosiasikan ulang peranmu saat ini — dan Metanoia juga mempersiapkanmu untuk percakapan itu.">Stay-or-move is an evidence question, not a feeling question. The Pivot Framework walks you through the criteria that matter: whether your learning curve has flattened, whether your compensation tracks your market value, whether the next role you want exists at your current company, and whether your network is still growing. If three of those four point outward, it’s time to design a move. If they point inward, the smarter play is usually to renegotiate your current role — and Metanoia prepares you for that conversation too.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="I’m 27 and feel like I haven’t progressed enough. Is it too late to change direction?" data-id="Saya 27 tahun dan merasa belum cukup berkembang. Apakah sudah terlambat untuk mengubah arah?">I’m 27 and feel like I haven’t progressed enough. Is it too late to change direction?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="At 27 you have roughly 35 working years ahead of you — you are closer to the start of your career than to its middle. What feels like “behind” is almost always a comparison problem, not a trajectory problem. The Career Audit measures where you actually are against where you want to go, and builds the shortest credible path between the two. Most members who join feeling behind discover their gap is 12–18 months of deliberate work — not the decade they feared." data-id="Di usia 27 kamu masih memiliki sekitar 35 tahun kerja di depanmu — kamu lebih dekat ke awal kariermu daripada ke pertengahannya. Yang terasa seperti “tertinggal” hampir selalu masalah perbandingan, bukan masalah trajektori. Career Audit mengukur di mana kamu sebenarnya berada terhadap ke mana kamu ingin pergi, dan membangun jalur kredibel terpendek di antara keduanya. Kebanyakan anggota yang bergabung dengan perasaan tertinggal menemukan kesenjangan mereka adalah 12–18 bulan kerja terarah — bukan satu dekade yang mereka takutkan.">At 27 you have roughly 35 working years ahead of you — you are closer to the start of your career than to its middle. What feels like “behind” is almost always a comparison problem, not a trajectory problem. The Career Audit measures where you actually are against where you want to go, and builds the shortest credible path between the two. Most members who join feeling behind discover their gap is 12–18 months of deliberate work — not the decade they feared.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="I’m 27 and feel like I haven’t progressed enough. Is it too late to change direction?" data-id="Saya 27 tahun dan merasa belum cukup berkembang. Apakah sudah terlambat untuk mengubah arah?">I’m 27 and feel like I haven’t progressed enough. Is it too late to change direction?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-2" data-en="At 27 you have roughly 35 working years ahead of you — you are closer to the start of your career than to its middle. What feels like “behind” is almost always a comparison problem, not a trajectory problem. The Career Audit measures where you actually are against where you want to go, and builds the shortest credible path between the two. Most members who join feeling behind discover their gap is 12–18 months of deliberate work — not the decade they feared." data-id="Di usia 27 kamu masih memiliki sekitar 35 tahun kerja di depanmu — kamu lebih dekat ke awal kariermu daripada ke pertengahannya. Yang terasa seperti “tertinggal” hampir selalu masalah perbandingan, bukan masalah trajektori. Career Audit mengukur di mana kamu sebenarnya berada terhadap ke mana kamu ingin pergi, dan membangun jalur kredibel terpendek di antara keduanya. Kebanyakan anggota yang bergabung dengan perasaan tertinggal menemukan kesenjangan mereka adalah 12–18 bulan kerja terarah — bukan satu dekade yang mereka takutkan.">At 27 you have roughly 35 working years ahead of you — you are closer to the start of your career than to its middle. What feels like “behind” is almost always a comparison problem, not a trajectory problem. The Career Audit measures where you actually are against where you want to go, and builds the shortest credible path between the two. Most members who join feeling behind discover their gap is 12–18 months of deliberate work — not the decade they feared.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="How is Metanoia different from executive coaching or an MBA?" data-id="Apa bedanya Metanoia dengan executive coaching atau MBA?">How is Metanoia different from executive coaching or an MBA?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="An MBA is a two-year, high-cost credential that makes sense for specific paths — and Metanoia will tell you honestly if yours is one of them. Executive coaching is powerful but typically unstructured and expensive per hour. Metanoia sits between: a continuous system with diagnostics, structured development, AI practice tools, and mentor access — at a fraction of either cost. Many members use Metanoia to decide whether an MBA is even the right investment, before committing years and hundreds of millions of rupiah." data-id="MBA adalah kredensial dua tahun berbiaya tinggi yang masuk akal untuk jalur tertentu — dan Metanoia akan memberitahumu dengan jujur jika jalurmu salah satunya. Executive coaching itu ampuh tapi biasanya tidak terstruktur dan mahal per jam. Metanoia berada di antaranya: sistem berkelanjutan dengan diagnostik, pengembangan terstruktur, alat latihan AI, dan akses mentor — dengan sebagian kecil dari kedua biaya itu. Banyak anggota menggunakan Metanoia untuk memutuskan apakah MBA memang investasi yang tepat, sebelum mengikatkan diri bertahun-tahun dan ratusan juta rupiah.">An MBA is a two-year, high-cost credential that makes sense for specific paths — and Metanoia will tell you honestly if yours is one of them. Executive coaching is powerful but typically unstructured and expensive per hour. Metanoia sits between: a continuous system with diagnostics, structured development, AI practice tools, and mentor access — at a fraction of either cost. Many members use Metanoia to decide whether an MBA is even the right investment, before committing years and hundreds of millions of rupiah.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-3"><span data-en="How is Metanoia different from executive coaching or an MBA?" data-id="Apa bedanya Metanoia dengan executive coaching atau MBA?">How is Metanoia different from executive coaching or an MBA?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-3" data-en="An MBA is a two-year, high-cost credential that makes sense for specific paths — and Metanoia will tell you honestly if yours is one of them. Executive coaching is powerful but typically unstructured and expensive per hour. Metanoia sits between: a continuous system with diagnostics, structured development, AI practice tools, and mentor access — at a fraction of either cost. Many members use Metanoia to decide whether an MBA is even the right investment, before committing years and hundreds of millions of rupiah." data-id="MBA adalah kredensial dua tahun berbiaya tinggi yang masuk akal untuk jalur tertentu — dan Metanoia akan memberitahumu dengan jujur jika jalurmu salah satunya. Executive coaching itu ampuh tapi biasanya tidak terstruktur dan mahal per jam. Metanoia berada di antaranya: sistem berkelanjutan dengan diagnostik, pengembangan terstruktur, alat latihan AI, dan akses mentor — dengan sebagian kecil dari kedua biaya itu. Banyak anggota menggunakan Metanoia untuk memutuskan apakah MBA memang investasi yang tepat, sebelum mengikatkan diri bertahun-tahun dan ratusan juta rupiah.">An MBA is a two-year, high-cost credential that makes sense for specific paths — and Metanoia will tell you honestly if yours is one of them. Executive coaching is powerful but typically unstructured and expensive per hour. Metanoia sits between: a continuous system with diagnostics, structured development, AI practice tools, and mentor access — at a fraction of either cost. Many members use Metanoia to decide whether an MBA is even the right investment, before committing years and hundreds of millions of rupiah.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="I want to pivot industries. How realistic is that at 2 years of experience?" data-id="Saya ingin pindah industri. Seberapa realistis itu dengan pengalaman 2 tahun?">I want to pivot industries. How realistic is that at 2 years of experience?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Two years is close to the ideal pivot window: you have enough professional evidence to be credible, and little enough tenure that employers read you as adaptable rather than entrenched. The Pivot Framework maps your transferable skills against the target industry, identifies the one or two genuine gaps, and builds the narrative that turns your “different background” into a differentiated angle. Cross-industry moves at years 1–4 are among the most common transitions Metanoia members make." data-id="Dua tahun mendekati jendela pivot yang ideal: kamu punya cukup bukti profesional untuk kredibel, dan masa kerja yang cukup singkat sehingga pemberi kerja membacamu sebagai adaptif, bukan terpaku. The Pivot Framework memetakan keterampilanmu yang dapat dialihkan terhadap industri target, mengidentifikasi satu atau dua kesenjangan yang sesungguhnya, dan membangun narasi yang mengubah “latar belakang berbeda” menjadi sudut pandang yang membedakan. Perpindahan lintas industri di tahun 1–4 termasuk transisi paling umum yang dilakukan anggota Metanoia.">Two years is close to the ideal pivot window: you have enough professional evidence to be credible, and little enough tenure that employers read you as adaptable rather than entrenched. The Pivot Framework maps your transferable skills against the target industry, identifies the one or two genuine gaps, and builds the narrative that turns your “different background” into a differentiated angle. Cross-industry moves at years 1–4 are among the most common transitions Metanoia members make.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-4"><span data-en="I want to pivot industries. How realistic is that at 2 years of experience?" data-id="Saya ingin pindah industri. Seberapa realistis itu dengan pengalaman 2 tahun?">I want to pivot industries. How realistic is that at 2 years of experience?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-4" data-en="Two years is close to the ideal pivot window: you have enough professional evidence to be credible, and little enough tenure that employers read you as adaptable rather than entrenched. The Pivot Framework maps your transferable skills against the target industry, identifies the one or two genuine gaps, and builds the narrative that turns your “different background” into a differentiated angle. Cross-industry moves at years 1–4 are among the most common transitions Metanoia members make." data-id="Dua tahun mendekati jendela pivot yang ideal: kamu punya cukup bukti profesional untuk kredibel, dan masa kerja yang cukup singkat sehingga pemberi kerja membacamu sebagai adaptif, bukan terpaku. The Pivot Framework memetakan keterampilanmu yang dapat dialihkan terhadap industri target, mengidentifikasi satu atau dua kesenjangan yang sesungguhnya, dan membangun narasi yang mengubah “latar belakang berbeda” menjadi sudut pandang yang membedakan. Perpindahan lintas industri di tahun 1–4 termasuk transisi paling umum yang dilakukan anggota Metanoia.">Two years is close to the ideal pivot window: you have enough professional evidence to be credible, and little enough tenure that employers read you as adaptable rather than entrenched. The Pivot Framework maps your transferable skills against the target industry, identifies the one or two genuine gaps, and builds the narrative that turns your “different background” into a differentiated angle. Cross-industry moves at years 1–4 are among the most common transitions Metanoia members make.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="Should I prioritise LPDP now or focus on my career first?" data-id="Apakah saya harus memprioritaskan LPDP sekarang atau fokus karier dulu?">Should I prioritise LPDP now or focus on my career first?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="The LPDP age thresholds are real, but they should sharpen the decision — not make it for you. The LPDP &amp; Advanced Degrees product starts with the question that matters: does your three-year career target actually require a graduate degree? If yes, it builds your application timeline backwards from the deadlines. If not, or not yet, it shows you what one or two more years of deliberate professional experience would add to both your career and a future application. Either way, you decide from a framework, not from deadline panic." data-id="Ambang usia LPDP itu nyata, tapi seharusnya mempertajam keputusan — bukan mengambil keputusan untukmu. Produk LPDP &amp; Gelar Lanjutan dimulai dari pertanyaan yang penting: apakah target karier tiga tahunmu benar-benar membutuhkan gelar pascasarjana? Jika ya, ia membangun garis waktu lamaranmu mundur dari tenggat. Jika tidak, atau belum, ia menunjukkan apa yang akan ditambahkan oleh satu atau dua tahun pengalaman profesional terarah bagi kariermu sekaligus lamaran masa depanmu. Apa pun itu, kamu memutuskan dari kerangka kerja, bukan dari kepanikan tenggat.">The LPDP age thresholds are real, but they should sharpen the decision — not make it for you. The LPDP &amp; Advanced Degrees product starts with the question that matters: does your three-year career target actually require a graduate degree? If yes, it builds your application timeline backwards from the deadlines. If not, or not yet, it shows you what one or two more years of deliberate professional experience would add to both your career and a future application. Either way, you decide from a framework, not from deadline panic.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-5"><span data-en="Should I prioritise LPDP now or focus on my career first?" data-id="Apakah saya harus memprioritaskan LPDP sekarang atau fokus karier dulu?">Should I prioritise LPDP now or focus on my career first?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-5" data-en="The LPDP age thresholds are real, but they should sharpen the decision — not make it for you. The LPDP &amp; Advanced Degrees product starts with the question that matters: does your three-year career target actually require a graduate degree? If yes, it builds your application timeline backwards from the deadlines. If not, or not yet, it shows you what one or two more years of deliberate professional experience would add to both your career and a future application. Either way, you decide from a framework, not from deadline panic." data-id="Ambang usia LPDP itu nyata, tapi seharusnya mempertajam keputusan — bukan mengambil keputusan untukmu. Produk LPDP &amp; Gelar Lanjutan dimulai dari pertanyaan yang penting: apakah target karier tiga tahunmu benar-benar membutuhkan gelar pascasarjana? Jika ya, ia membangun garis waktu lamaranmu mundur dari tenggat. Jika tidak, atau belum, ia menunjukkan apa yang akan ditambahkan oleh satu atau dua tahun pengalaman profesional terarah bagi kariermu sekaligus lamaran masa depanmu. Apa pun itu, kamu memutuskan dari kerangka kerja, bukan dari kepanikan tenggat.">The LPDP age thresholds are real, but they should sharpen the decision — not make it for you. The LPDP &amp; Advanced Degrees product starts with the question that matters: does your three-year career target actually require a graduate degree? If yes, it builds your application timeline backwards from the deadlines. If not, or not yet, it shows you what one or two more years of deliberate professional experience would add to both your career and a future application. Either way, you decide from a framework, not from deadline panic.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?" data-id="Kinerja saya baik tapi tidak pernah dipromosikan. Apa yang diatasi Metanoia yang tidak diatasi kinerja saja?">I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental." data-id="Promosi adalah fungsi dari kinerja dikalikan visibilitas, pemosisian, dan waktu — dan kebanyakan pekerja berkinerja tinggi hanya mengelola variabel pertama. Professional Accelerator menangani tiga lainnya: bagaimana pengambil keputusan memandangmu, apakah kontribusimu dibingkai dalam bahasa yang dihargai pimpinanmu, dan apakah kamu terposisikan untuk peran yang terbuka sebelum diumumkan. Kebenaran yang tidak nyaman adalah profesional yang sama mampunya mendapatkan hasil yang sangat berbeda berdasarkan faktor-faktor ini. Metanoia menjadikannya disengaja, bukan kebetulan.">Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?" data-id="Kinerja saya baik tapi tidak pernah dipromosikan. Apa yang diatasi Metanoia yang tidak diatasi kinerja saja?">I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-6" data-en="Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental." data-id="Promosi adalah fungsi dari kinerja dikalikan visibilitas, pemosisian, dan waktu — dan kebanyakan pekerja berkinerja tinggi hanya mengelola variabel pertama. Professional Accelerator menangani tiga lainnya: bagaimana pengambil keputusan memandangmu, apakah kontribusimu dibingkai dalam bahasa yang dihargai pimpinanmu, dan apakah kamu terposisikan untuk peran yang terbuka sebelum diumumkan. Kebenaran yang tidak nyaman adalah profesional yang sama mampunya mendapatkan hasil yang sangat berbeda berdasarkan faktor-faktor ini. Metanoia menjadikannya disengaja, bukan kebetulan.">Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental.</div>
         </div>
       </div>
     </div>
@@ -957,15 +1245,47 @@ if(vid){
   setTimeout(()=>{ if(vid.readyState < 2) showFallback(); }, 1800);
 }
 
-/* ─── FAQ accordion ─── */
+/* ─── FAQ accordion (aria-synced) ─── */
 document.querySelectorAll('.faq-q').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     const item = btn.closest('.faq-item');
     const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
-    if(!isOpen) item.classList.add('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>{
+      i.classList.remove('open');
+      const b = i.querySelector('.faq-q'); if(b) b.setAttribute('aria-expanded','false');
+    });
+    if(!isOpen){ item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
   });
 });
+
+/* ─── Chapter I parallax (subtle, reduced-motion aware) ─── */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const parImg = document.querySelector('.nar-visual img');
+if(parImg && !reduceMotion){
+  let pTick = false;
+  const par = ()=>{
+    const r = parImg.getBoundingClientRect();
+    const mid = r.top + r.height/2 - innerHeight/2;
+    const y = Math.max(-18, Math.min(18, mid * -0.045));
+    parImg.style.transform = 'translateY(' + y.toFixed(1) + 'px) scale(1.06)';
+    pTick = false;
+  };
+  addEventListener('scroll', ()=>{ if(!pTick){ requestAnimationFrame(par); pTick = true; } }, {passive:true});
+  par();
+}
+
+/* ─── Enterprise contact form → structured email ─── */
+const cform = document.getElementById('cform');
+if(cform){
+  cform.addEventListener('submit', e=>{
+    e.preventDefault();
+    const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
+    const subject = 'Enterprise Inquiry — ' + (v('cf-interest')||'General') + (v('cf-company') ? ' — ' + v('cf-company') : '');
+    const body = ['Name: ' + v('cf-name'), 'Company: ' + v('cf-company'), 'Role: ' + v('cf-role'),
+      'Cohort size: ' + v('cf-size'), 'Interest: ' + v('cf-interest'), '', v('cf-msg')].join('\n');
+    location.href = 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+}
 
 /* ─── Scroll reveal ─── */
 const revealObserver = new IntersectionObserver((entries)=>{

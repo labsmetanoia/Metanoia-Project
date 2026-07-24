@@ -164,6 +164,10 @@
         <input class="auth-input" type="email" id="email" placeholder="Email address" autocomplete="email" required>
         <input class="auth-input" type="password" id="password" placeholder="Password (min. 8 characters)" autocomplete="new-password" required>
         <input class="auth-input" type="password" id="confirm" placeholder="Confirm password" autocomplete="new-password" required>
+        <div id="mentorFields" style="display:none">
+          <input class="auth-input" type="text" id="expertise" placeholder="Industry &amp; functional expertise (e.g. Consulting · Strategy)">
+          <input class="auth-input" type="text" id="years" placeholder="Years of professional experience" inputmode="numeric">
+        </div>
         <label class="terms-row"><input type="checkbox" id="terms"> <span>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span></label>
         <div class="form-err" id="formErr"></div>
         <button class="btn-primary-auth" type="submit">Create My Account →</button>
@@ -194,13 +198,32 @@
    ═══════════════════════════════════════════════════════════════ */
 const Auth = {
   userKey: e => 'metanoia_user_' + e.toLowerCase(),
-  register({ name, email, password }){
-    localStorage.setItem(this.userKey(email), JSON.stringify({ name, email, password, createdAt: Date.now() }));
-    this.setSession({ name, email, provider:'email' });
+  register({ name, email, password, ...extra }){
+    localStorage.setItem(this.userKey(email), JSON.stringify({ name, email, password, ...extra, createdAt: Date.now() }));
+    this.setSession({ name, email, provider:'email', role: extra.role || 'member' });
   },
   exists(email){ return !!localStorage.getItem(this.userKey(email)); },
   setSession(s){ localStorage.setItem('metanoia_session', JSON.stringify({ ...s, ts: Date.now() })); },
 };
+/* ── Mentor application mode (?role=mentor) ── */
+const isMentor = new URLSearchParams(location.search).get('role') === 'mentor';
+if(isMentor){
+  const set=(sel,txt)=>{ const el=document.querySelector(sel); if(el) el.textContent=txt; };
+  set('.left-head','Your experience is the shortcut someone else is looking for. Bring it here.');
+  const props=document.querySelectorAll('.left-props li span');
+  const ptxt=['Matched to mentees by your industry and expertise',
+              'Session guides provided — 4 sessions per semester, no prep required',
+              'A documented mentor profile you can link from LinkedIn'];
+  props.forEach((p,i)=>{ if(ptxt[i]) p.textContent=ptxt[i]; });
+  set('.social-chip','Join the mentors guiding the next ascent →');
+  set('.auth-h1','Apply to become a mentor.');
+  set('.auth-desc','Tell us about your expertise — the application takes less than five minutes.');
+  document.getElementById('mentorFields').style.display='';
+  const sub=document.querySelector('.btn-primary-auth'); if(sub) sub.textContent='Submit Mentor Application →';
+  set('.form-note','No cost to join · 4 sessions per semester per mentee · Full onboarding provided');
+  document.title='Apply as a Mentor — Metanoia Labs';
+}
+
 window.oauth = function(provider){
   // MOCK: real flow → supabase.auth.signInWithOAuth({ provider })
   const name = provider === 'google' ? 'Maverick' : 'Maverick';
@@ -227,7 +250,16 @@ form.addEventListener('submit', e => {
   if(pw!==cf) return fail('Passwords do not match.',['password','confirm']);
   if(!agree) return fail('Please accept the Terms to continue.',[]);
   if(Auth.exists(email)) return fail('An account with that email already exists. Try signing in.',['email']);
-  Auth.register({ name, email, password: pw });
+  if(isMentor && !F('expertise').value.trim()) return fail('Please tell us your area of expertise.',['expertise']);
+  Auth.register({ name, email, password: pw, role: isMentor ? 'mentor' : 'member',
+    expertise: isMentor ? F('expertise').value.trim() : undefined,
+    years: isMentor ? F('years').value.trim() : undefined });
+  if(isMentor){
+    const veil=document.getElementById('successVeil');
+    const h=veil.querySelector('h2'), p=veil.querySelector('p');
+    if(h) h.textContent='Application received.';
+    if(p) p.textContent='Preparing your mentor onboarding…';
+  }
   goSuccess(true);
 });
 })();
