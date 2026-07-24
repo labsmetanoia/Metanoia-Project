@@ -670,6 +670,131 @@
   .asc-panel.final .asc-prem{justify-content:center}
   .asc-panel.final .asc-node{border-color:rgba(201,168,76,.55)}
 
+  /* ═══ SECTION 4B — HOW IT WORKS / SEE THE SYSTEM ═══ */
+  .how-section{background:var(--bg-base);padding:118px 0 124px;position:relative}
+  .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .how-head{text-align:center;max-width:720px;margin:0 auto 62px}
+  .how-head .fsx-kicker{margin-bottom:18px}
+  .how-head h2{font-family:var(--serif);font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:600;
+    color:var(--text);margin:0 0 16px;letter-spacing:.002em;line-height:1.16}
+  .how-head h2 em{font-style:normal;color:var(--gold)}
+  .how-head p{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+  /* — 4-step end-to-end path — */
+  .how-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 auto 76px;position:relative}
+  .how-steps::before{content:'';position:absolute;top:26px;left:12%;right:12%;height:1px;
+    background:linear-gradient(90deg,rgba(201,168,76,.35),rgba(201,168,76,.12));z-index:0}
+  .how-step{position:relative;z-index:1;text-align:center;padding:0 8px;
+    opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+  .how-steps.revealed .how-step{opacity:1;transform:none}
+  .how-steps.revealed .how-step:nth-child(1){transition-delay:.06s}
+  .how-steps.revealed .how-step:nth-child(2){transition-delay:.16s}
+  .how-steps.revealed .how-step:nth-child(3){transition-delay:.26s}
+  .how-steps.revealed .how-step:nth-child(4){transition-delay:.36s}
+  .how-step .hnum{width:52px;height:52px;margin:0 auto 20px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 7px var(--bg-base),0 8px 22px rgba(201,168,76,.32)}
+  .how-step h3{font-size:15px;font-weight:700;color:var(--text);margin:0 0 8px;letter-spacing:-.01em}
+  .how-step p{font-size:12.5px;color:var(--text-muted);line-height:1.6;margin:0}
+  .how-step .hmeta{display:block;margin-top:9px;font-size:10px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gold)}
+  /* — product preview: an app window made real — */
+  .how-demo{max-width:940px;margin:0 auto}
+  .demo-frame{border-radius:18px;overflow:hidden;background:#0A101D;
+    border:1px solid rgba(201,168,76,.22);
+    box-shadow:0 40px 90px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.03),0 0 60px rgba(201,168,76,.06)}
+  .demo-bar{display:flex;align-items:center;gap:14px;padding:13px 18px;
+    background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07)}
+  .demo-dots{display:flex;gap:7px;flex:none}
+  .demo-dots i{width:11px;height:11px;border-radius:50%;background:rgba(255,255,255,.16)}
+  .demo-url{flex:1;text-align:center;font-size:11px;letter-spacing:.06em;color:rgba(255,255,255,.4);
+    font-weight:600}
+  .demo-url b{color:#E8C766;font-weight:700}
+  .demo-tabs{display:flex;gap:6px;padding:14px 18px 0;background:rgba(255,255,255,.015);flex-wrap:wrap}
+  .demo-tab{font-size:12px;font-weight:700;letter-spacing:.02em;color:rgba(255,255,255,.55);
+    background:none;border:1px solid transparent;border-radius:999px 999px 0 0;padding:10px 18px;
+    cursor:pointer;transition:color .2s,background .2s;font-family:inherit;position:relative;bottom:-1px}
+  .demo-tab:hover{color:#fff}
+  .demo-tab.act{color:#E8C766;background:rgba(10,16,29,1);border-color:rgba(255,255,255,.07);
+    border-bottom-color:#0A101D}
+  .demo-screen{padding:32px 34px 36px;min-height:360px;background:#0A101D}
+  .demo-panel{display:none}
+  .demo-panel.act{display:block;animation:demoFade .45s ease both}
+  @keyframes demoFade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .demo-h{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+    color:#E8C766;margin:0 0 4px}
+  .demo-sub{font-size:12.5px;color:rgba(255,255,255,.5);margin:0 0 26px;line-height:1.55}
+  /* scorecard */
+  .sc-grid{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center}
+  .sc-ring{position:relative;width:180px;height:180px;margin:0 auto}
+  .sc-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+  .sc-ring .rbg{fill:none;stroke:rgba(255,255,255,.08);stroke-width:11}
+  .sc-ring .rfg{fill:none;stroke:url(#scGold);stroke-width:11;stroke-linecap:round;
+    stroke-dasharray:471;stroke-dashoffset:471;transition:stroke-dashoffset 1.4s cubic-bezier(.3,.9,.3,1) .2s}
+  .how-demo.revealed .sc-ring .rfg{stroke-dashoffset:198}
+  .sc-ring .rcen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .sc-ring .rcen b{font-size:34px;font-weight:800;color:#fff;line-height:1}
+  .sc-ring .rcen span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:#E8C766;margin-top:5px}
+  .sc-dims{display:flex;flex-direction:column;gap:15px}
+  .dim{display:grid;grid-template-columns:150px 1fr 42px;align-items:center;gap:14px}
+  .dim .dlab{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.82)}
+  .dim .dbar{display:block;height:7px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+  .dim .dfill{display:block;height:100%;border-radius:999px;width:0;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));
+    transition:width 1.2s cubic-bezier(.3,.9,.3,1) .3s}
+  .how-demo.revealed .dim .dfill{width:var(--v)}
+  .dim .dval{font-size:12px;font-weight:800;color:#E8C766;text-align:right}
+  .dim.low .dfill{background:linear-gradient(90deg,#8B6914,#C97B1E)}
+  /* route */
+  .route-list{display:flex;flex-direction:column;gap:12px}
+  .route-item{display:flex;gap:16px;align-items:flex-start;padding:17px 18px;border-radius:13px;
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07)}
+  .route-item .rp{flex:none;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;
+    justify-content:center;font-size:12px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright))}
+  .route-item .rbody{flex:1;min-width:0}
+  .route-item .rtag{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:7px;
+    color:#E8C766;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.3)}
+  .route-item .rbody p{font-size:13px;color:rgba(255,255,255,.8);line-height:1.55;margin:0}
+  .route-item .rgo{flex:none;align-self:center;font-size:15px;color:#E8C766;opacity:.7}
+  /* progress */
+  .prog-years{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+  .prog-year{padding:14px 12px 16px;border-radius:12px;background:rgba(255,255,255,.03);
+    border:1px solid rgba(255,255,255,.07);text-align:center}
+  .prog-year.done{border-color:rgba(201,168,76,.32);background:rgba(201,168,76,.07)}
+  .prog-year.now{border-color:rgba(201,168,76,.55);background:rgba(201,168,76,.12);
+    box-shadow:0 0 22px rgba(201,168,76,.14)}
+  .prog-year .py{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:#E8C766;margin-bottom:9px}
+  .prog-year .pd{display:flex;justify-content:center;gap:5px;margin-bottom:9px}
+  .prog-year .pd i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.14)}
+  .prog-year.done .pd i,.prog-year.now .pd i.on{background:#E8C766}
+  .prog-year .pl{font-size:10.5px;color:rgba(255,255,255,.55);line-height:1.4}
+  .prog-note{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:11px;
+    background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.22);
+    font-size:12.5px;color:rgba(255,255,255,.82)}
+  .prog-note svg{width:17px;height:17px;flex:none;color:#E8C766}
+  .demo-cap{text-align:center;font-size:11.5px;color:var(--text-faint);margin:22px auto 0;max-width:560px;
+    line-height:1.6}
+  /* — honest assurance strip — */
+  .how-assure{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:940px;margin:56px auto 0}
+  .assure{display:flex;align-items:flex-start;gap:12px;padding:18px 20px;border-radius:13px;
+    background:var(--glass-bg);border:1px solid var(--gold-border)}
+  .assure svg{width:19px;height:19px;flex:none;color:var(--gold);margin-top:1px}
+  .assure b{display:block;font-size:13px;font-weight:700;color:var(--text);margin-bottom:3px}
+  .assure span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.5}
+  .how-demo-cta{text-align:center;margin-top:44px}
+  .how-demo-cta a{display:inline-block;font-size:14px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));
+    padding:15px 34px;border-radius:999px;text-decoration:none;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 6px 24px rgba(201,168,76,.32)}
+  .how-demo-cta a:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(201,168,76,.45)}
+  .how-demo-cta p{margin:12px 0 0;font-size:11px;color:var(--text-faint)}
+  :root[data-theme="light"] .demo-cap,:root[data-theme="light"] .how-step .hmeta{opacity:.9}
+
   /* ═══ SECTION 5 — CTA + FAQ ═══ */
   .student-cta-section{background:var(--bg-dark);padding:0 0 120px;position:relative;overflow:hidden}
   .student-cta-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;z-index:3;
@@ -875,6 +1000,11 @@
     .asc-panel.rev .asc-ui{left:8px}.asc-panel.final .asc-ui{right:8px}}
 
   @media(max-width:960px){
+    .how-steps{grid-template-columns:1fr 1fr;gap:34px 18px}
+    .how-steps::before{display:none}
+    .how-assure{grid-template-columns:1fr 1fr}
+    .sc-grid{grid-template-columns:1fr;gap:28px}
+    .sc-ring{width:150px;height:150px}
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
     .flow-grid{grid-template-columns:1fr 1fr;gap:44px 28px}
@@ -898,6 +1028,14 @@
   }
   @media(max-width:768px){
     .section-inner{padding:0 20px}
+    .how-section{padding:80px 0 84px}
+    .how-assure{grid-template-columns:1fr}
+    .demo-screen{padding:24px 18px 28px}
+    .demo-tabs{padding:12px 12px 0}
+    .demo-tab{padding:9px 13px;font-size:11px}
+    .dim{grid-template-columns:112px 1fr 36px;gap:10px}
+    .dim .dlab{font-size:11.5px}
+    .prog-years{grid-template-columns:1fr 1fr;gap:10px}
     .hero-headline{font-size:2rem}
     .hero-sub{font-size:.95rem}
     .compare-grid{grid-template-columns:1fr}
@@ -947,6 +1085,9 @@
     .system-journey.reveal .flow-item{opacity:1;transform:none}
     .asc-copy > *,.asc-feats li,.asc-stage{opacity:1 !important;transform:none !important}
     .cta-banner-inner > *{opacity:1 !important;transform:none !important}
+    .how-step{opacity:1 !important;transform:none !important}
+    .sc-ring .rfg{stroke-dashoffset:198 !important}
+    .dim .dfill{width:var(--v) !important}
     .asc-glow{opacity:1}
     .rz-particles{display:none}
   }
@@ -1004,6 +1145,7 @@
   <a href="#why-now" data-en="Realization" data-id="Kesadaran">Realization</a>
   <a href="#career-os" data-en="The System" data-id="Sistem">The System</a>
   <a href="#products" data-en="Products" data-id="Produk">Products</a>
+  <a href="#how" data-en="See It Work" data-id="Cara Kerja">See It Work</a>
   <a href="#cta" data-en="Start" data-id="Mulai">Start</a>
 </div>
 
@@ -1748,6 +1890,161 @@
 
 </div><!-- /journey-wrap -->
 
+<!-- ═══ SECTION 4B — SEE THE SYSTEM WORK ═══ -->
+<section class="how-section" id="how">
+  <div class="section-inner">
+    <div class="how-head reveal">
+      <div class="fsx-kicker" data-en="See It Work" data-id="Lihat Cara Kerjanya">See It Work</div>
+      <h2 data-en="You've seen the promise. <em>Here's the product.</em>" data-id="Kamu sudah melihat janjinya. <em>Inilah produknya.</em>">You've seen the promise. <em>Here's the product.</em></h2>
+      <p data-en="Every Metanoia claim resolves to something you can actually use. Here is the exact path from your first fifteen minutes to a career-ready graduation." data-id="Setiap klaim Metanoia mewujud menjadi sesuatu yang benar-benar bisa kamu gunakan. Inilah jalur yang jelas dari lima belas menit pertamamu hingga lulus siap berkarier.">Every Metanoia claim resolves to something you can actually use. Here is the exact path from your first fifteen minutes to a career-ready graduation.</p>
+    </div>
+
+    <!-- 4-step end-to-end path -->
+    <div class="how-steps reveal">
+      <div class="how-step">
+        <div class="hnum">1</div>
+        <h3 data-en="Take the free Career Map" data-id="Ambil Career Map gratis">Take the free Career Map</h3>
+        <p data-en="Five dimensions, honest questions, no account needed to begin." data-id="Lima dimensi, pertanyaan jujur, tanpa perlu akun untuk memulai.">Five dimensions, honest questions, no account needed to begin.</p>
+        <span class="hmeta" data-en="15 minutes" data-id="15 menit">15 minutes</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">2</div>
+        <h3 data-en="Get your readiness scorecard" data-id="Dapatkan kartu skor kesiapanmu">Get your readiness scorecard</h3>
+        <p data-en="See exactly where you stand today — and where your real leverage is." data-id="Lihat persis di mana posisimu hari ini — dan di mana leverage sesungguhnya.">See exactly where you stand today — and where your real leverage is.</p>
+        <span class="hmeta" data-en="Instant" data-id="Instan">Instant</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">3</div>
+        <h3 data-en="Follow your personalized route" data-id="Ikuti rute personalmu">Follow your personalized route</h3>
+        <p data-en="One highest-impact next step at a time, mapped to the five products." data-id="Satu langkah paling berdampak di satu waktu, dipetakan ke lima produk.">One highest-impact next step at a time, mapped to the five products.</p>
+        <span class="hmeta" data-en="Adaptive" data-id="Adaptif">Adaptive</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">4</div>
+        <h3 data-en="Track your climb" data-id="Lacak pendakianmu">Track your climb</h3>
+        <p data-en="Watch your readiness rise, semester by semester, to graduation." data-id="Saksikan kesiapanmu meningkat, semester demi semester, hingga wisuda.">Watch your readiness rise, semester by semester, to graduation.</p>
+        <span class="hmeta" data-en="4 years" data-id="4 tahun">4 years</span>
+      </div>
+    </div>
+
+    <!-- tangible product preview -->
+    <div class="how-demo reveal">
+      <div class="demo-frame">
+        <div class="demo-bar" aria-hidden="true">
+          <div class="demo-dots"><i></i><i></i><i></i></div>
+          <div class="demo-url"><b>metanoialabs.net</b>/portal</div>
+        </div>
+        <div class="demo-tabs" role="tablist">
+          <button class="demo-tab act" data-tab="score" role="tab" aria-selected="true" data-en="Your Career Map" data-id="Career Map-mu">Your Career Map</button>
+          <button class="demo-tab" data-tab="route" role="tab" aria-selected="false" data-en="Your Route" data-id="Rutemu">Your Route</button>
+          <button class="demo-tab" data-tab="prog" role="tab" aria-selected="false" data-en="Your Progress" data-id="Progresmu">Your Progress</button>
+        </div>
+        <div class="demo-screen">
+
+          <!-- Panel: Scorecard -->
+          <div class="demo-panel act" data-panel="score">
+            <p class="demo-h" data-en="Readiness Scorecard · Semester 5" data-id="Kartu Skor Kesiapan · Semester 5">Readiness Scorecard · Semester 5</p>
+            <p class="demo-sub" data-en="Generated from your Career Map diagnostic. Stronger than most students fear — with two clear places to focus." data-id="Dihasilkan dari diagnostik Career Map-mu. Lebih kuat dari yang ditakutkan kebanyakan mahasiswa — dengan dua area fokus yang jelas.">Generated from your Career Map diagnostic. Stronger than most students fear — with two clear places to focus.</p>
+            <div class="sc-grid">
+              <div class="sc-ring" aria-hidden="true">
+                <svg viewBox="0 0 180 180">
+                  <defs><linearGradient id="scGold" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#8B6914"/><stop offset="55%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
+                  <circle class="rbg" cx="90" cy="90" r="75"/>
+                  <circle class="rfg" cx="90" cy="90" r="75"/>
+                </svg>
+                <div class="rcen"><b>58%</b><span data-en="Foundation" data-id="Fondasi">Foundation</span></div>
+              </div>
+              <div class="sc-dims">
+                <div class="dim" style="--v:74%"><span class="dlab" data-en="Self-Awareness" data-id="Kesadaran Diri">Self-Awareness</span><span class="dbar"><span class="dfill"></span></span><span class="dval">74</span></div>
+                <div class="dim" style="--v:52%"><span class="dlab" data-en="Professional Readiness" data-id="Kesiapan Profesional">Professional Readiness</span><span class="dbar"><span class="dfill"></span></span><span class="dval">52</span></div>
+                <div class="dim" style="--v:61%"><span class="dlab" data-en="Experience &amp; Impact" data-id="Pengalaman &amp; Dampak">Experience &amp; Impact</span><span class="dbar"><span class="dfill"></span></span><span class="dval">61</span></div>
+                <div class="dim low" style="--v:38%"><span class="dlab" data-en="Scholarship Readiness" data-id="Kesiapan Beasiswa">Scholarship Readiness</span><span class="dbar"><span class="dfill"></span></span><span class="dval">38</span></div>
+                <div class="dim" style="--v:67%"><span class="dlab" data-en="Execution &amp; Consistency" data-id="Eksekusi &amp; Konsistensi">Execution &amp; Consistency</span><span class="dbar"><span class="dfill"></span></span><span class="dval">67</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Route -->
+          <div class="demo-panel" data-panel="route">
+            <p class="demo-h" data-en="Your Personalized Route" data-id="Rute Personalmu">Your Personalized Route</p>
+            <p class="demo-sub" data-en="Not a to-do list — a priority order. Your route re-sequences itself every time your scorecard changes." data-id="Bukan daftar tugas — melainkan urutan prioritas. Rutemu menata ulang dirinya setiap kali kartu skormu berubah.">Not a to-do list — a priority order. Your route re-sequences itself every time your scorecard changes.</p>
+            <div class="route-list">
+              <div class="route-item">
+                <span class="rp">1</span>
+                <div class="rbody"><span class="rtag" data-en="The Pack · Professional Readiness" data-id="The Pack · Kesiapan Profesional">The Pack · Professional Readiness</span><p data-en="Rebuild your CV against your target role. A stronger ATS score is your fastest win this month." data-id="Bangun ulang CV-mu terhadap peran targetmu. Skor ATS yang lebih kuat adalah kemenangan tercepatmu bulan ini.">Rebuild your CV against your target role. A stronger ATS score is your fastest win this month.</p></div>
+                <span class="rgo" aria-hidden="true">→</span>
+              </div>
+              <div class="route-item">
+                <span class="rp">2</span>
+                <div class="rbody"><span class="rtag" data-en="The Route · Scholarship Readiness" data-id="The Route · Kesiapan Beasiswa">The Route · Scholarship Readiness</span><p data-en="Start your LPDP timeline now — essays open in four months, and this is your lowest-scoring dimension." data-id="Mulai linimasa LPDP-mu sekarang — esai dibuka dalam empat bulan, dan ini dimensi dengan skor terendahmu.">Start your LPDP timeline now — essays open in four months, and this is your lowest-scoring dimension.</p></div>
+                <span class="rgo" aria-hidden="true">→</span>
+              </div>
+              <div class="route-item">
+                <span class="rp">3</span>
+                <div class="rbody"><span class="rtag" data-en="The Rope · Experience &amp; Impact" data-id="The Rope · Pengalaman &amp; Dampak">The Rope · Experience &amp; Impact</span><p data-en="Add one high-impact experience this semester — a committee lead or a case competition closes your biggest CV gap." data-id="Tambahkan satu pengalaman berdampak tinggi semester ini — memimpin komite atau kompetisi kasus menutup celah CV terbesarmu.">Add one high-impact experience this semester — a committee lead or a case competition closes your biggest CV gap.</p></div>
+                <span class="rgo" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Progress -->
+          <div class="demo-panel" data-panel="prog">
+            <p class="demo-h" data-en="Your 4-Year Climb" data-id="Pendakian 4 Tahunmu">Your 4-Year Climb</p>
+            <p class="demo-sub" data-en="The Climb maps every product and milestone to your university timeline, so preparation never becomes a final-semester panic." data-id="The Climb memetakan setiap produk dan tonggak ke linimasa kuliahmu, agar persiapan tak pernah jadi kepanikan semester akhir.">The Climb maps every product and milestone to your university timeline, so preparation never becomes a final-semester panic.</p>
+            <div class="prog-years">
+              <div class="prog-year done"><div class="py" data-en="Year 1 · Foundation" data-id="Tahun 1 · Fondasi">Year 1 · Foundation</div><div class="pd"><i></i><i></i></div><div class="pl" data-en="Self-discovery complete" data-id="Penemuan diri selesai">Self-discovery complete</div></div>
+              <div class="prog-year done"><div class="py" data-en="Year 2 · Exploration" data-id="Tahun 2 · Eksplorasi">Year 2 · Exploration</div><div class="pd"><i></i><i></i></div><div class="pl" data-en="First experiences logged" data-id="Pengalaman pertama tercatat">First experiences logged</div></div>
+              <div class="prog-year now"><div class="py" data-en="Year 3 · Activation" data-id="Tahun 3 · Aktivasi">Year 3 · Activation</div><div class="pd"><i class="on"></i><i></i></div><div class="pl" data-en="You are here — Semester 5" data-id="Kamu di sini — Semester 5">You are here — Semester 5</div></div>
+              <div class="prog-year"><div class="py" data-en="Year 4 · Launch" data-id="Tahun 4 · Peluncuran">Year 4 · Launch</div><div class="pd"><i></i><i></i></div><div class="pl" data-en="Offers &amp; scholarships" data-id="Offer &amp; beasiswa">Offers &amp; scholarships</div></div>
+            </div>
+            <div class="prog-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20 L9 8 L13 14 L16 9 L21 20 Z"/></svg>
+              <span data-en="3 milestones complete · 2 ahead before graduation. On track for a career-ready Year 4." data-id="3 tonggak selesai · 2 di depan sebelum wisuda. Sesuai jalur menuju Tahun 4 yang siap berkarier.">3 milestones complete · 2 ahead before graduation. On track for a career-ready Year 4.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <p class="demo-cap" data-en="A live preview of your Career Portal. Your real scorecard and route are generated from your own 15-minute Career Map — no two students climb the same way." data-id="Pratinjau langsung Portal Karier-mu. Kartu skor dan rute sebenarnya dihasilkan dari Career Map 15 menitmu sendiri — tak ada dua mahasiswa yang mendaki dengan cara yang sama.">A live preview of your Career Portal. Your real scorecard and route are generated from your own 15-minute Career Map — no two students climb the same way.</p>
+    </div>
+
+    <!-- honest assurances (no invented metrics) -->
+    <div class="how-assure reveal">
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 L9 17 L4 12"/></svg>
+        <div><b data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</b><span data-en="Your full diagnostic and scorecard — no credit card." data-id="Diagnostik dan kartu skor lengkapmu — tanpa kartu kredit.">Your full diagnostic and scorecard — no credit card.</span></div>
+      </div>
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="9" width="16" height="11" rx="2"/><path d="M8 9 V6.5 a4 4 0 0 1 8 0 V9"/></svg>
+        <div><b data-en="One membership, five products" data-id="Satu keanggotaan, lima produk">One membership, five products</b><span data-en="Aladin, the Pack, the Rope, the Route and the Climb — together." data-id="Aladin, the Pack, the Rope, the Route dan the Climb — sekaligus.">Aladin, the Pack, the Rope, the Route and the Climb — together.</span></div>
+      </div>
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 L20 6 v5 c0 4.5 -3 8.5 -8 10 c-5 -1.5 -8 -5.5 -8 -10 V6 Z"/></svg>
+        <div><b data-en="Private by design" data-id="Privat sejak dirancang">Private by design</b><span data-en="Your results are yours. We practise data dignity, not data harvesting." data-id="Hasilmu adalah milikmu. Kami menjunjung martabat data, bukan memanen data.">Your results are yours. We practise data dignity, not data harvesting.</span></div>
+      </div>
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19 L10 8 L14 14 L20 4"/><path d="M4 19 h16"/></svg>
+        <div><b data-en="A five-pillar framework" data-id="Kerangka lima pilar">A five-pillar framework</b><span data-en="A structured readiness model — not another content library." data-id="Model kesiapan terstruktur — bukan sekadar perpustakaan konten.">A structured readiness model — not another content library.</span></div>
+      </div>
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 v5 l3 3"/></svg>
+        <div><b data-en="Guidance, not just content" data-id="Bimbingan, bukan sekadar konten">Guidance, not just content</b><span data-en="A route that adapts to your gaps — not a course to finish." data-id="Rute yang beradaptasi dengan celahmu — bukan kursus untuk diselesaikan.">A route that adapts to your gaps — not a course to finish.</span></div>
+      </div>
+      <div class="assure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 a8 8 0 1 1 3 6.2"/><path d="M4 20 v-4 h4"/></svg>
+        <div><b data-en="Cancel anytime" data-id="Batalkan kapan saja">Cancel anytime</b><span data-en="Student-friendly monthly plans. No lock-in." data-id="Paket bulanan ramah kantong mahasiswa. Tanpa terikat.">Student-friendly monthly plans. No lock-in.</span></div>
+      </div>
+    </div>
+
+    <div class="how-demo-cta reveal">
+      <a href="../career-map-assessment.html" data-en="Generate my Career Map — free →" data-id="Buat Career Map-ku — gratis →">Generate my Career Map — free →</a>
+      <p data-en="15 minutes · No credit card · Your scorecard is yours to keep" data-id="15 menit · Tanpa kartu kredit · Kartu skormu jadi milikmu">15 minutes · No credit card · Your scorecard is yours to keep</p>
+    </div>
+
+  </div>
+</section>
+
 <!-- ═══ SECTION 5 — CTA + FAQ ═══ -->
 <section class="student-cta-section" id="cta">
   <div class="cta-banner">
@@ -2136,6 +2433,24 @@ document.getElementById('themeBtn').addEventListener('click', ()=>{
 mqLight.addEventListener('change', e=>{
   try{ if(localStorage.getItem('mt-theme')) return; }catch(err){}
   applyTheme(e.matches ? 'light' : 'dark', false);
+});
+
+/* ─── Product preview: tab switching ─── */
+document.querySelectorAll('.demo-tabs').forEach(tabs=>{
+  const frame = tabs.closest('.demo-frame');
+  tabs.querySelectorAll('.demo-tab').forEach(tab=>{
+    tab.addEventListener('click', ()=>{
+      const key = tab.dataset.tab;
+      tabs.querySelectorAll('.demo-tab').forEach(t=>{
+        const on = t===tab;
+        t.classList.toggle('act', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      frame.querySelectorAll('.demo-panel').forEach(p=>{
+        p.classList.toggle('act', p.dataset.panel===key);
+      });
+    });
+  });
 });
 
 /* ─── Scroll reveal ─── */
