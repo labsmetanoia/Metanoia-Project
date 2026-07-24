@@ -874,36 +874,6 @@
   @media(max-width:768px){.asc-ui{right:8px;top:-14px;width:164px;padding:11px 12px}
     .asc-panel.rev .asc-ui{left:8px}.asc-panel.final .asc-ui{right:8px}}
 
-  /* ═══ PROOF SECTION ═══ */
-  .proof-section{background:var(--bg-dark);padding:110px 0;position:relative}
-  .proof-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
-    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
-  .proof-head{text-align:center;margin-bottom:54px}
-  .proof-head .fsx-kicker{margin-bottom:18px}
-  .proof-head h2{font-family:var(--serif);font-size:clamp(1.8rem,3.4vw,2.7rem);font-weight:600;
-    color:var(--text);margin:0;letter-spacing:.002em}
-  .proof-head h2 em{font-style:normal;color:var(--gold)}
-  .proof-stats{display:flex;justify-content:center;gap:clamp(30px,6vw,90px);margin-bottom:64px;flex-wrap:wrap}
-  .pstat{text-align:center}
-  .pstat b{display:block;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:var(--gold);line-height:1}
-  .pstat span{display:block;margin-top:9px;font-size:11px;font-weight:600;letter-spacing:.1em;
-    text-transform:uppercase;color:var(--text-muted);max-width:190px}
-  .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .pcard{background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:18px;
-    padding:30px 26px;display:flex;flex-direction:column;gap:16px;
-    transition:border-color .25s,transform .25s}
-  .pcard:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pcard blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:14.5px;
-    line-height:1.75;color:var(--text-sub);flex:1}
-  .pcard .pwho{display:flex;align-items:center;gap:12px}
-  .pcard .pface{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;
-    justify-content:center;font-size:13px;font-weight:800;letter-spacing:.04em;color:#241800;
-    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
-    box-shadow:0 6px 16px rgba(201,168,76,.3)}
-  .pcard .pwho div b{display:block;font-size:13px;color:var(--text);font-weight:700}
-  .pcard .pwho div span{display:block;font-size:11px;color:var(--text-muted);margin-top:2px}
-  .proof-note{text-align:center;margin-top:34px;font-size:11px;color:var(--text-faint);letter-spacing:.04em}
-
   @media(max-width:960px){
     .stage-row{grid-template-columns:64px minmax(0,1fr);align-items:start;gap:0 22px}
     .stage-media{grid-column:2;margin-top:16px;max-width:420px}
@@ -942,9 +912,6 @@
     .fsx-inner{padding:0 20px}
     .fsx-statement{padding:100px 0 70px}
     .asc-feats{grid-template-columns:1fr}
-    .proof-grid{grid-template-columns:1fr}
-    .proof-stats{gap:26px 34px}
-    .proof-section{padding:80px 0}
     .asc-frame img{height:240px}
     .asc-panel.final .asc-frame img{height:260px}
     .asc-emblem{width:60px;height:60px;border-radius:16px;bottom:-14px;left:-10px}
@@ -1782,38 +1749,6 @@
 </div><!-- /journey-wrap -->
 
 <!-- ═══ SECTION 5 — CTA + FAQ ═══ -->
-<!-- ═══ PROOF OF ASCENT ═══ -->
-<section class="proof-section" id="proof">
-  <div class="section-inner">
-    <div class="proof-head reveal">
-      <div class="fsx-kicker" data-en="Proof of Ascent" data-id="Bukti Pendakian">Proof of Ascent</div>
-      <h2 data-en="The climb works. <em>Climbers prove it.</em>" data-id="Pendakian ini berhasil. <em>Para pendakinya buktinya.</em>">The climb works. <em>Climbers prove it.</em></h2>
-    </div>
-
-    <div class="proof-stats reveal">
-      <div class="pstat"><b>12,000+</b><span data-en="students on the climb" data-id="mahasiswa dalam pendakian">students on the climb</span></div>
-      <div class="pstat"><b>87%</b><span data-en="report clearer direction within 30 days" data-id="merasa arah lebih jelas dalam 30 hari">report clearer direction within 30 days</span></div>
-      <div class="pstat"><b>500+</b><span data-en="mentor sessions hosted" data-id="sesi mentoring terselenggara">mentor sessions hosted</span></div>
-    </div>
-
-    <div class="proof-grid reveal">
-      <div class="pcard">
-        <blockquote data-en="&#8220;Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.&#8221;" data-id="&#8220;Empat puluh lamaran tanpa jawaban, lalu aku bergabung dengan rope team. Dua bulan kemudian aku menandatangani offer — dan aku tahu persis mengapa berhasil.&#8221;">&#8220;Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.&#8221;</blockquote>
-        <div class="pwho"><span class="pface" aria-hidden="true">SA</span><div><b>Sinta A.</b><span data-en="Management ’25 · Business Analyst offer" data-id="Manajemen ’25 · Offer Business Analyst">Management ’25 · Business Analyst offer</span></div></div>
-      </div>
-      <div class="pcard">
-        <blockquote data-en="&#8220;The Map told me what I actually wanted. The Pack got me through ATS. My CV finally spoke the language recruiters read.&#8221;" data-id="&#8220;The Map menunjukkan apa yang sebenarnya kuinginkan. The Pack meloloskanku dari ATS. CV-ku akhirnya berbicara dalam bahasa yang dibaca rekruter.&#8221;">&#8220;The Map told me what I actually wanted. The Pack got me through ATS. My CV finally spoke the language recruiters read.&#8221;</blockquote>
-        <div class="pwho"><span class="pface" aria-hidden="true">RP</span><div><b>Raka P.</b><span data-en="Informatics ’24 · Software Engineer" data-id="Informatika ’24 · Software Engineer">Informatics ’24 · Software Engineer</span></div></div>
-      </div>
-      <div class="pcard">
-        <blockquote data-en="&#8220;Scholarship Prep turned a dream into a timeline. Essay by essay, mock by mock — until the award letter came.&#8221;" data-id="&#8220;Persiapan Beasiswa mengubah mimpi menjadi linimasa. Esai demi esai, simulasi demi simulasi — sampai surat penghargaan itu datang.&#8221;">&#8220;Scholarship Prep turned a dream into a timeline. Essay by essay, mock by mock — until the award letter came.&#8221;</blockquote>
-        <div class="pwho"><span class="pface" aria-hidden="true">DK</span><div><b>Dewi K.</b><span data-en="Economics ’26 · LPDP Awardee" data-id="Ekonomi ’26 · Penerima LPDP">Economics ’26 · LPDP Awardee</span></div></div>
-      </div>
-    </div>
-    <p class="proof-note" data-en="Numbers from the Metanoia pilot community · updated quarterly" data-id="Angka dari komunitas pilot Metanoia · diperbarui setiap kuartal">Numbers from the Metanoia pilot community · updated quarterly</p>
-  </div>
-</section>
-
 <section class="student-cta-section" id="cta">
   <div class="cta-banner">
     <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
