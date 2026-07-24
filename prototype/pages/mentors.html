@@ -8,6 +8,15 @@
 <link rel="canonical" href="https://metanoialabs.net/pages/mentors.html">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/mentors.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="For Mentors — Metanoia Labs">
+<meta property="og:description" content="Metanoia Labs for Mentors — your experience is the most valuable resource a young professional can access. Here is a structure worthy of it.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/rope-team.jpg">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="For Mentors — Metanoia Labs">
+<meta name="twitter:description" content="Metanoia Labs for Mentors — your experience is the most valuable resource a young professional can access. Here is a structure worthy of it.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/rope-team.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
 <style>
@@ -137,8 +146,9 @@
   .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:30px;
     font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
   .hero-pill::before,.hero-pill::after{content:'';width:44px;height:1px;background:rgba(201,168,76,.6)}
-  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 26px;letter-spacing:-.01em}
-  .hero h1 em{font-style:italic;color:#E8C766;font-weight:700}
+  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 16px;letter-spacing:-.01em}
+  .hero-em{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.1vw,1.4rem);
+    color:#E8C766;line-height:1.55;margin:0 auto 24px;max-width:700px}
   .hero-sub{font-size:clamp(1rem,1.8vw,1.15rem);color:rgba(255,255,255,.82);line-height:1.7;margin:0 auto 40px;
     max-width:640px;font-weight:300}
   .hero-cta{display:inline-block;padding:16px 36px;background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);
@@ -302,7 +312,7 @@
   .prod-cta{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);text-decoration:none;
     padding:11px 24px;border-radius:999px;border:1px solid rgba(201,168,76,.35);transition:all .25s}
   .prod-cta:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800;transform:translateY(-2px)}
-  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:10.5px;font-weight:600;
+  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:11px;font-weight:600;
     letter-spacing:.06em;color:rgba(232,199,102,.85)}
   :root[data-theme="light"] .prem{color:#8B6914}
   .prem svg{width:12px;height:12px;flex:none}
@@ -311,7 +321,7 @@
     box-shadow:0 18px 44px rgba(0,0,0,.5);text-align:left}
   .prod-feat.rev .mock{right:auto;left:22px}
   .mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:8px}
-  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2.5px 0;line-height:1.4}
   .mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -319,9 +329,11 @@
   .prod-card{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
     backdrop-filter:var(--glass-blur);display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
   .prod-card:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pc-img{position:relative;height:150px}
-  .pc-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .pc-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,18,.7))}
+  .pc-head{position:relative;height:112px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .pc-head svg{width:42px;height:42px;color:rgba(255,255,255,.92);position:relative;z-index:1}
+  .pc-head::before{content:'';position:absolute;width:150px;height:150px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.14);top:-40px;right:-30px}
+  .pc-head::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
   .pc-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
   .pc-body .ptag{margin-bottom:12px;align-self:flex-start}
   .pc-body h3{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--text);margin:0 0 6px}
@@ -332,7 +344,7 @@
   .pc-mock{margin:0 0 18px;border-radius:12px;padding:12px 14px;background:rgba(10,16,28,.94);
     border:1px solid rgba(201,168,76,.28)}
   .pc-mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:7px}
-  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2px 0;line-height:1.4}
   .pc-mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -419,6 +431,165 @@
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.25,.8,.3,1)}
   .reveal.revealed{opacity:1;transform:none}
 
+  /* ═══ AUDIENCE ROUTER ═══ */
+  .stage-router{position:relative;z-index:3;background:var(--bg-dark);border-bottom:1px solid var(--gold-border);padding:16px 0 18px}
+  .router-in{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:center}
+  .router-label{font-size:10.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+  .router-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .router-chips a{display:flex;flex-direction:column;align-items:center;gap:1px;text-decoration:none;
+    padding:7px 14px;border-radius:12px;border:1px solid rgba(201,168,76,.16);transition:border-color .2s,background .2s}
+  .router-chips a b{font-size:11.5px;font-weight:700;color:var(--text-sub);white-space:nowrap}
+  .router-chips a span{font-size:9.5px;color:var(--text-muted);white-space:nowrap}
+  .router-chips a:hover{border-color:var(--gold-border-hover);background:rgba(201,168,76,.06)}
+  .router-chips a.cur{border-color:rgba(201,168,76,.5);background:rgba(201,168,76,.10)}
+  .router-chips a.cur b{color:var(--gold-bright)}
+  :root[data-theme="light"] .router-chips a.cur b{color:var(--gold)}
+
+  /* ═══ CH1 CALLOUT — ATS funnel (FG) ═══ */
+  .funnel{max-width:780px;margin:76px auto 0;padding:36px 42px 32px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .funnel .fttl{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 22px;text-align:center}
+  .fun-row{display:grid;grid-template-columns:minmax(120px,190px) 1fr 56px;gap:14px;align-items:center;padding:7px 0}
+  .fun-row .fl{font-size:12.5px;font-weight:600;color:var(--text-sub)}
+  .fun-bar{height:20px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden}
+  :root[data-theme="light"] .fun-bar{background:rgba(27,36,52,.10)}
+  .fun-fill{display:block;height:100%;width:0;border-radius:6px;background:rgba(255,255,255,.30);
+    transition:width 1.1s cubic-bezier(.3,.9,.3,1) .25s}
+  :root[data-theme="light"] .fun-fill{background:rgba(27,36,52,.30)}
+  .fun-row.gold .fun-fill{background:linear-gradient(90deg,var(--gold-deep),var(--gold))}
+  .fun-row.bright .fun-fill{background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .funnel.revealed .fun-fill{width:var(--w)}
+  .fun-row .fv{font-size:12px;font-weight:800;color:var(--gold-bright);text-align:right}
+  :root[data-theme="light"] .fun-row .fv{color:var(--gold)}
+  .fun-cap{margin:18px 0 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ CH1 CALLOUT — career capital ledger (MP) ═══ */
+  .ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:76px auto 0}
+  .led{padding:28px 26px 26px;border-radius:18px;background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .led .lt{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 6px}
+  .led .ls{font-size:11.5px;color:var(--text-muted);margin:0 0 16px;line-height:1.5}
+  .led ul{list-style:none;margin:0;padding:0}
+  .led li{position:relative;padding:6px 0 6px 20px;font-size:12.5px;color:var(--text-sub);line-height:1.55}
+  .led li::before{content:'';position:absolute;left:0;top:13px;width:9px;height:2px;background:currentColor;opacity:.45}
+  .led.keep .lt{color:#8FE3B4}.led.translate .lt{color:#F5B47A}.led.new .lt{color:#8FB8F0}
+  :root[data-theme="light"] .led.keep .lt{color:#1A5C38}
+  :root[data-theme="light"] .led.translate .lt{color:#B45309}
+  :root[data-theme="light"] .led.new .lt{color:#1D5FAB}
+  .ledger-cap{max-width:760px;margin:26px auto 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ SEE IT WORK (ported from student.html) ═══ */
+  .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
+  .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .how-head{text-align:center;max-width:720px;margin:0 auto 58px}
+  .how-head h2{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:600;color:var(--text);
+    margin:0 0 16px;line-height:1.16}
+  .how-head h2 em{font-style:normal;color:var(--gold)}
+  .how-head p{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+  .how-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 auto 72px;position:relative}
+  .how-steps::before{content:'';position:absolute;top:26px;left:12%;right:12%;height:1px;
+    background:linear-gradient(90deg,rgba(201,168,76,.35),rgba(201,168,76,.12));z-index:0}
+  .how-step{position:relative;z-index:1;text-align:center;padding:0 8px;
+    opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+  .how-steps.revealed .how-step{opacity:1;transform:none}
+  .how-steps.revealed .how-step:nth-child(1){transition-delay:.06s}
+  .how-steps.revealed .how-step:nth-child(2){transition-delay:.16s}
+  .how-steps.revealed .how-step:nth-child(3){transition-delay:.26s}
+  .how-steps.revealed .how-step:nth-child(4){transition-delay:.36s}
+  .how-step .hnum{width:52px;height:52px;margin:0 auto 20px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 7px var(--bg-base),0 8px 22px rgba(201,168,76,.32)}
+  .how-step h3{font-size:15px;font-weight:700;color:var(--text);margin:0 0 8px}
+  .how-step p{font-size:12.5px;color:var(--text-muted);line-height:1.6;margin:0}
+  .how-step .hmeta{display:block;margin-top:9px;font-size:10px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gold)}
+  .how-demo{max-width:920px;margin:0 auto}
+  .demo-frame{border-radius:18px;overflow:hidden;background:#0A101D;border:1px solid rgba(201,168,76,.22);
+    box-shadow:0 40px 90px rgba(0,0,0,.5),0 0 60px rgba(201,168,76,.06)}
+  .demo-bar{display:flex;align-items:center;gap:14px;padding:13px 18px;
+    background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07)}
+  .demo-dots{display:flex;gap:7px;flex:none}
+  .demo-dots i{width:11px;height:11px;border-radius:50%;background:rgba(255,255,255,.16)}
+  .demo-url{flex:1;text-align:center;font-size:11px;letter-spacing:.06em;color:rgba(255,255,255,.4);font-weight:600}
+  .demo-url b{color:#E8C766;font-weight:700}
+  .demo-screen{padding:32px 34px 36px;background:#0A101D}
+  .demo-h{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin:0 0 4px}
+  .demo-sub{font-size:12.5px;color:rgba(255,255,255,.5);margin:0 0 26px;line-height:1.55}
+  .sc-grid{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center}
+  .sc-ring{position:relative;width:180px;height:180px;margin:0 auto}
+  .sc-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+  .sc-ring .rbg{fill:none;stroke:rgba(255,255,255,.08);stroke-width:11}
+  .sc-ring .rfg{fill:none;stroke:url(#scGold);stroke-width:11;stroke-linecap:round;
+    stroke-dasharray:471;stroke-dashoffset:471;transition:stroke-dashoffset 1.4s cubic-bezier(.3,.9,.3,1) .2s}
+  .how-demo.revealed .sc-ring .rfg{stroke-dashoffset:var(--off)}
+  .sc-ring .rcen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .sc-ring .rcen b{font-size:34px;font-weight:800;color:#fff;line-height:1}
+  .sc-ring .rcen span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E8C766;margin-top:5px}
+  .sc-dims{display:flex;flex-direction:column;gap:15px}
+  .dim{display:grid;grid-template-columns:minmax(120px,170px) 1fr 42px;align-items:center;gap:14px}
+  .dim .dlab{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.82)}
+  .dim .dbar{display:block;height:7px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+  .dim .dfill{display:block;height:100%;border-radius:999px;width:0;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));
+    transition:width 1.2s cubic-bezier(.3,.9,.3,1) .3s}
+  .how-demo.revealed .dim .dfill{width:var(--v)}
+  .dim .dval{font-size:12px;font-weight:800;color:#E8C766;text-align:right}
+  .dim.low .dfill{background:linear-gradient(90deg,#8B6914,#C97B1E)}
+  .route-item{display:flex;gap:16px;align-items:flex-start;padding:17px 18px;border-radius:13px;
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);margin-top:26px}
+  .route-item .rtag{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:7px;
+    color:#E8C766;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.3)}
+  .route-item p{font-size:13px;color:rgba(255,255,255,.8);line-height:1.55;margin:0}
+  .demo-cap{text-align:center;font-size:11.5px;color:var(--text-faint);margin:22px auto 0;max-width:560px;line-height:1.6}
+
+  /* ═══ ENTERPRISE CONTACT ═══ */
+  .contact-sec{padding:104px 0;background:var(--bg-mid);position:relative}
+  .contact-sec::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+  .contact-copy h2{font-family:var(--serif);font-size:clamp(1.7rem,3vw,2.4rem);font-weight:600;color:var(--text);
+    line-height:1.2;margin:0 0 16px}
+  .contact-copy h2 em{font-style:italic;color:var(--gold)}
+  .contact-copy p{font-size:14px;color:var(--text-muted);line-height:1.75;margin:0 0 24px}
+  .contact-copy ul{list-style:none;margin:0 0 28px;padding:0}
+  .contact-copy li{position:relative;padding:7px 0 7px 26px;font-size:13.5px;color:var(--text-sub);line-height:1.6}
+  .contact-copy li::before{content:'✓';position:absolute;left:0;top:7px;color:var(--gold);font-size:12px}
+  .contact-direct{font-size:13px;color:var(--text-muted)}
+  .contact-direct a{color:var(--gold);font-weight:700;text-decoration:none}
+  .contact-direct a:hover{text-decoration:underline}
+  .cform{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:34px 34px 30px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .cfield{display:flex;flex-direction:column;gap:6px}
+  .cfield.full{grid-column:1/-1}
+  .cfield label{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+  .cfield input,.cfield select,.cfield textarea{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;padding:12px 14px;color:var(--text);font-family:inherit;font-size:14px;width:100%}
+  .cfield textarea{resize:vertical;min-height:88px}
+  .cfield select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' stroke='%23C9A84C' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 14px center}
+  :root[data-theme="light"] .cfield input,:root[data-theme="light"] .cfield select,:root[data-theme="light"] .cfield textarea{
+    background:#FFFFFF;border-color:rgba(27,36,52,.22)}
+  .cfield input:focus,.cfield select:focus,.cfield textarea:focus{outline:none;border-color:var(--gold)}
+  .cform .csubmit{grid-column:1/-1;margin-top:6px;padding:15px 32px;border:none;border-radius:999px;
+    background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);color:#050A12;
+    font-size:14.5px;font-weight:800;letter-spacing:.02em;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 6px 24px rgba(201,168,76,.3)}
+  .cform .csubmit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,168,76,.42)}
+  .cform-note{grid-column:1/-1;font-size:11px;color:var(--text-faint);text-align:center;margin:2px 0 0}
+
+  /* ═══ motion: CTA banner pan + parallax ═══ */
+  @keyframes ctaPan{from{transform:scale(1.1) translateX(-1.4%)}to{transform:scale(1.1) translateX(1.4%)}}
+  .cta-banner-img{animation:ctaPan 38s ease-in-out infinite alternate}
+  .nar-visual img{will-change:transform}
+
+  /* ═══ a11y focus ═══ */
+  .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
+  .prod-cta:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .trait span{color:rgba(255,255,255,.68)}
+  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
+
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
     .nar-grid{grid-template-columns:1fr;gap:40px}
@@ -439,6 +610,11 @@
     .prod-feat.rev .pf-visual{order:2}
     .pf-visual{min-height:260px}
     .pain-grid{grid-template-columns:1fr}
+    .how-steps{grid-template-columns:1fr 1fr;gap:34px 18px}
+    .how-steps::before{display:none}
+    .sc-grid{grid-template-columns:1fr;gap:28px}
+    .ledger{grid-template-columns:1fr}
+    .contact-grid{grid-template-columns:1fr;gap:40px}
   }
   @media(max-width:768px){
     .section-inner{padding:0 20px}
@@ -454,6 +630,10 @@
     .foot-grid{flex-direction:column}
     .hero-cta2{margin-left:0;margin-top:12px}
     .mock{position:static;width:auto;margin:14px}
+    .how-steps{grid-template-columns:1fr;gap:28px}
+    .cform{grid-template-columns:1fr;padding:26px 20px 24px}
+    .fun-row{grid-template-columns:minmax(90px,120px) 1fr 44px}
+    .router-in{gap:10px}
   }
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
@@ -534,12 +714,28 @@
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-pill" data-en="For Mentors · Join the Expedition" data-id="Untuk Mentor · Bergabunglah dalam Ekspedisi">For Mentors · Join the Expedition</div>
-    <h1 data-en="You didn’t build what you have by accident. <em>Now imagine what you could unlock in someone else.</em>" data-id="Kamu tidak membangun apa yang kamu miliki secara kebetulan. <em>Sekarang bayangkan apa yang bisa kamu buka dalam diri orang lain.</em>">You didn’t build what you have by accident. <em>Now imagine what you could unlock in someone else.</em></h1>
+    <h1 data-en="You didn’t build what you have by accident." data-id="Kamu tidak membangun apa yang kamu miliki secara kebetulan.">You didn’t build what you have by accident.</h1>
+    <p class="hero-em" data-en="Now imagine what you could unlock in someone else." data-id="Sekarang bayangkan apa yang bisa kamu buka dalam diri orang lain.">Now imagine what you could unlock in someone else.</p>
     <p class="hero-sub" data-en="The professionals who shaped your career were not necessarily the most technically brilliant people you encountered. They were the ones who saw your potential before you did — and knew exactly what to say at exactly the right moment. Metanoia gives professionals like you the structure to be that person for the next generation." data-id="Profesional yang membentuk kariermu belum tentu orang yang paling brilian secara teknis yang kamu temui. Mereka adalah orang-orang yang melihat potensimu sebelum kamu melihatnya — dan tahu persis apa yang harus dikatakan pada saat yang tepat. Metanoia memberi profesional sepertimu struktur untuk menjadi orang itu bagi generasi berikutnya.">The professionals who shaped your career were not necessarily the most technically brilliant people you encountered. They were the ones who saw your potential before you did — and knew exactly what to say at exactly the right moment. Metanoia gives professionals like you the structure to be that person for the next generation.</p>
     <a href="../register.html?role=mentor" class="hero-cta" data-en="Apply to Become a Mentor →" data-id="Daftar untuk Menjadi Mentor →">Apply to Become a Mentor →</a>
     <a href="#how-it-works" class="hero-cta2" data-en="Learn How It Works" data-id="Pelajari Cara Kerjanya">Learn How It Works</a>
   </div>
 </section>
+
+<!-- ═══ AUDIENCE ROUTER ═══ -->
+<div class="stage-router" aria-label="Choose your career stage">
+  <div class="router-in">
+    <span class="router-label" data-en="Where are you on the mountain?" data-id="Di mana kamu di gunung ini?">Where are you on the mountain?</span>
+    <div class="router-chips">
+      <a href="student.html"><b data-en="Student" data-id="Mahasiswa">Student</b><span data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a>
+      <a href="fresh-graduate.html"><b data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</b><span data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a>
+      <a href="early-professional.html"><b data-en="Early Professional" data-id="Profesional Muda">Early Professional</b><span data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a>
+      <a href="mature-professional.html"><b data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</b><span data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a>
+      <a href="enterprise.html"><b data-en="Enterprise" data-id="Perusahaan">Enterprise</b><span data-en="Building teams" data-id="Membangun tim">Building teams</span></a>
+      <a href="mentors.html" class="cur" aria-current="page"><b data-en="Mentors" data-id="Mentor">Mentors</b><span data-en="Giving back" data-id="Berbagi kembali">Giving back</span></a>
+    </div>
+  </div>
+</div>
 
 <!-- ═══ CHAPTER I ═══ -->
 <section class="block" id="why-now">
@@ -549,9 +745,9 @@
     <div class="nar-grid">
       <div class="nar-copy reveal">
         <p data-en="Research consistently shows that professionals with access to mentorship earn more, advance faster, and make career pivots more successfully than equally capable peers without it. In Indonesia, that access is not equally distributed. Students from well-connected families, elite universities, or the right social networks encounter potential mentors naturally. The majority do not." data-id="Penelitian secara konsisten menunjukkan bahwa profesional yang memiliki akses ke mentorship menghasilkan lebih banyak, berkembang lebih cepat, dan membuat pivot karier dengan lebih sukses daripada rekan yang sama mampunya tanpa itu. Di Indonesia, akses itu tidak terdistribusi secara merata. Mahasiswa dari keluarga berkoneksi baik, universitas elit, atau jaringan sosial yang tepat secara alami menemukan calon mentor. Mayoritas tidak.">Research consistently shows that professionals with access to mentorship earn more, advance faster, and make career pivots more successfully than equally capable peers without it. In Indonesia, that access is not equally distributed. Students from well-connected families, elite universities, or the right social networks encounter potential mentors naturally. The majority do not.</p>
-        <p data-en="The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured programme. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most." data-id="Mahasiswa di platform Metanoia serius. Mereka telah menyelesaikan penilaian karier, mengidentifikasi kesenjangan mereka, dan berkomitmen pada program terstruktur. Mereka tidak mencari percakapan santai — mereka mencari keahlian, diterapkan pada situasi spesifik mereka, pada saat yang paling penting.">The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured programme. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most.</p>
+        <p data-en="The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured program. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most." data-id="Mahasiswa di platform Metanoia serius. Mereka telah menyelesaikan penilaian karier, mengidentifikasi kesenjangan mereka, dan berkomitmen pada program terstruktur. Mereka tidak mencari percakapan santai — mereka mencari keahlian, diterapkan pada situasi spesifik mereka, pada saat yang paling penting.">The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured program. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most.</p>
       </div>
-      <div class="nar-visual reveal"><img src="../assets/bg/rope-team.jpg" alt="A rope team ascending together, led by an experienced climber" loading="lazy"></div>
+      <div class="nar-visual reveal"><img src="../assets/bg/stage-activation.jpg" alt="A mentor guiding a working session" loading="lazy"></div>
     </div>
 
     <div class="contrast reveal">
@@ -583,8 +779,8 @@
 <!-- ═══ CHAPTER II ═══ -->
 <section class="block alt" id="how-it-works">
   <div class="section-inner">
-    <div class="chapter-label reveal" data-en="Chapter II · The Mentor Programme" data-id="Bab II · Program Mentor">Chapter II · The Mentor Programme</div>
-    <h2 class="sec-head reveal" data-en="A programme built to respect <em>your time and your expertise.</em>" data-id="Program yang dibangun untuk menghormati <em>waktu dan keahlianmu.</em>">A programme built to respect <em>your time and your expertise.</em></h2>
+    <div class="chapter-label reveal" data-en="Chapter II · The Mentor Program" data-id="Bab II · Program Mentor">Chapter II · The Mentor Program</div>
+    <h2 class="sec-head reveal" data-en="A program built to respect <em>your time and your expertise.</em>" data-id="Program yang dibangun untuk menghormati <em>waktu dan keahlianmu.</em>">A program built to respect <em>your time and your expertise.</em></h2>
     <div class="prog-list" style="margin-top:60px">
     <div class="prog reveal">
       <div class="pnum" style="background:#1D5FAB">01</div>
@@ -600,7 +796,7 @@
     </div>
     <div class="prog reveal">
       <div class="pnum" style="background:#1A5C38">04</div>
-      <div><h3 data-en="Visible, not invisible" data-id="Terlihat, bukan tak terlihat">Visible, not invisible</h3><p data-en="Your mentor profile, session history, and impact metrics are documented on the platform. Mentees you’ve supported carry your contribution into their careers. The Metanoia community knows who is contributing — and recognises it." data-id="Profil mentormu, riwayat sesi, dan metrik dampak terdokumentasi di platform. Mentee yang kamu dukung membawa kontribusimu ke dalam karier mereka. Komunitas Metanoia tahu siapa yang berkontribusi — dan mengakuinya.">Your mentor profile, session history, and impact metrics are documented on the platform. Mentees you’ve supported carry your contribution into their careers. The Metanoia community knows who is contributing — and recognises it.</p></div>
+      <div><h3 data-en="Visible, not invisible" data-id="Terlihat, bukan tak terlihat">Visible, not invisible</h3><p data-en="Your mentor profile, session history, and impact metrics are documented on the platform. Mentees you’ve supported carry your contribution into their careers. The Metanoia community knows who is contributing — and recognizes it." data-id="Profil mentormu, riwayat sesi, dan metrik dampak terdokumentasi di platform. Mentee yang kamu dukung membawa kontribusimu ke dalam karier mereka. Komunitas Metanoia tahu siapa yang berkontribusi — dan mengakuinya.">Your mentor profile, session history, and impact metrics are documented on the platform. Mentees you’ve supported carry your contribution into their careers. The Metanoia community knows who is contributing — and recognizes it.</p></div>
     </div>
     </div>
     <div class="commit reveal">
@@ -613,6 +809,7 @@
         <li data-en="Recognition: Mentor badge, profile feature, community invitation" data-id="Pengakuan: Lencana mentor, fitur profil, undangan komunitas">Recognition: Mentor badge, profile feature, community invitation</li>
       </ul>
     </div>
+    <div class="ch-cta reveal"><a href="../register.html?role=mentor" data-en="Ready? Apply to become a mentor →" data-id="Siap? Daftar untuk menjadi mentor →">Ready? Apply to become a mentor →</a></div>
   </div>
 </section>
 
@@ -629,7 +826,7 @@
         <span class="ptag cobalt">01 · Onboarding</span>
         <h3 class="prod-name" data-en="Mentor Onboarding &amp; Certification" data-id="Onboarding &amp; Sertifikasi Mentor">Mentor Onboarding &amp; Certification</h3>
         <p class="prod-sub" data-en="Get started with confidence, not guesswork." data-id="Mulai dengan percaya diri, bukan tebakan.">Get started with confidence, not guesswork.</p>
-      <p class="prod-desc" data-en="A self-paced orientation programme designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation programme designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p>
+      <p class="prod-desc" data-en="A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p>
       <ul class="prod-feats">
         <li data-en="Assessment framework walkthrough" data-id="Panduan lengkap kerangka asesmen">Assessment framework walkthrough</li>
         <li data-en="Session guide training" data-id="Pelatihan panduan sesi">Session guide training</li>
@@ -651,7 +848,7 @@
     </div>
     <div class="prod-grid">
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/map.jpg" alt="Mentee Matching &amp; Dashboard" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
         <div class="pc-body">
           <span class="ptag teal">02 · Matching</span>
           <h3 data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</h3>
@@ -674,7 +871,7 @@
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/pack.jpg" alt="Session Guides &amp; Frameworks" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
         <div class="pc-body">
           <span class="ptag amber">03 · Guides</span>
           <h3 data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</h3>
@@ -696,7 +893,7 @@
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/rope.jpg" alt="Mentor Community &amp; Peer Network" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
         <div class="pc-body">
           <span class="ptag forest">04 · Community</span>
           <h3 data-en="Mentor Community &amp; Peer Network" data-id="Komunitas Mentor &amp; Jaringan Rekan">Mentor Community &amp; Peer Network</h3>
@@ -747,7 +944,7 @@
     <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
     <div class="cta-veil" aria-hidden="true"></div>
     <div class="cta-in reveal">
-      <blockquote class="cta-quote"><span data-en="“The most valuable thing I have to offer is not on my résumé. It is the ten years of hard-won perspective I hadn’t found a way to share — until Metanoia.”" data-id="“Hal paling berharga yang bisa saya tawarkan tidak ada di résumé saya. Ini adalah sepuluh tahun perspektif yang susah payah diperoleh yang belum saya temukan cara untuk dibagikan — sampai Metanoia.”">“The most valuable thing I have to offer is not on my résumé. It is the ten years of hard-won perspective I hadn’t found a way to share — until Metanoia.”</span><cite>Mentor, Financial Services · Joined 2025</cite></blockquote>
+      <blockquote class="cta-quote"><span data-en="“The most valuable thing you have to offer is not on your résumé. It is the hard-won perspective you haven’t yet found a way to share.”" data-id="“Hal paling berharga yang bisa kamu tawarkan tidak ada di résumé-mu. Itu adalah perspektif hasil perjuangan yang belum kamu temukan cara membagikannya.”">“The most valuable thing you have to offer is not on your résumé. It is the hard-won perspective you haven’t yet found a way to share.”</span><cite>Metanoia Labs</cite></blockquote>
       <h2 class="cta-head" data-en="Your experience is the shortcut <em>someone else is desperately looking for.</em>" data-id="Pengalamanmu adalah jalan pintas <em>yang sedang dicari-cari seseorang.</em>">Your experience is the shortcut <em>someone else is desperately looking for.</em></h2>
       <p class="cta-sub" data-en="Metanoia gives it structure, scale, and a community worthy of it. Join as a mentor — it takes less than five minutes to apply." data-id="Metanoia memberinya struktur, skala, dan komunitas yang sepadan dengannya. Bergabunglah sebagai mentor — pendaftarannya membutuhkan kurang dari lima menit.">Metanoia gives it structure, scale, and a community worthy of it. Join as a mentor — it takes less than five minutes to apply.</p>
       <div class="cta-actions">
@@ -763,28 +960,28 @@
       <h3 class="faq-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h3>
       <div class="faq-list">
         <div class="faq-item">
-          <button class="faq-q"><span data-en="How much time does it actually require to be a Metanoia mentor?" data-id="Berapa banyak waktu yang sebenarnya dibutuhkan untuk menjadi mentor Metanoia?">How much time does it actually require to be a Metanoia mentor?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="The standard commitment is four 60-minute sessions per mentee per semester, and you choose how many mentees to take — one is completely fine. With session guides provided, preparation is optional rather than expected. In practice, most mentors spend four to twelve hours per semester in total. The onboarding programme is a one-time 90 minutes. If a semester gets busy, you can pause intake — the commitment is designed to flex around your professional life, not compete with it." data-id="Komitmen standarnya adalah empat sesi 60 menit per mentee per semester, dan kamu memilih berapa mentee yang diambil — satu pun sepenuhnya tidak masalah. Dengan panduan sesi yang disediakan, persiapan bersifat opsional, bukan keharusan. Dalam praktiknya, sebagian besar mentor menghabiskan total empat hingga dua belas jam per semester. Program onboarding hanya sekali, 90 menit. Jika satu semester menjadi sibuk, kamu bisa menjeda penerimaan mentee — komitmen ini dirancang untuk menyesuaikan kehidupan profesionalmu, bukan bersaing dengannya.">The standard commitment is four 60-minute sessions per mentee per semester, and you choose how many mentees to take — one is completely fine. With session guides provided, preparation is optional rather than expected. In practice, most mentors spend four to twelve hours per semester in total. The onboarding programme is a one-time 90 minutes. If a semester gets busy, you can pause intake — the commitment is designed to flex around your professional life, not compete with it.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-1"><span data-en="How much time does it actually require to be a Metanoia mentor?" data-id="Berapa banyak waktu yang sebenarnya dibutuhkan untuk menjadi mentor Metanoia?">How much time does it actually require to be a Metanoia mentor?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-1" data-en="The standard commitment is four 60-minute sessions per mentee per semester, and you choose how many mentees to take — one is completely fine. With session guides provided, preparation is optional rather than expected. In practice, most mentors spend four to twelve hours per semester in total. The onboarding program is a one-time 90 minutes. If a semester gets busy, you can pause intake — the commitment is designed to flex around your professional life, not compete with it." data-id="Komitmen standarnya adalah empat sesi 60 menit per mentee per semester, dan kamu memilih berapa mentee yang diambil — satu pun sepenuhnya tidak masalah. Dengan panduan sesi yang disediakan, persiapan bersifat opsional, bukan keharusan. Dalam praktiknya, sebagian besar mentor menghabiskan total empat hingga dua belas jam per semester. Program onboarding hanya sekali, 90 menit. Jika satu semester menjadi sibuk, kamu bisa menjeda penerimaan mentee — komitmen ini dirancang untuk menyesuaikan kehidupan profesionalmu, bukan bersaing dengannya.">The standard commitment is four 60-minute sessions per mentee per semester, and you choose how many mentees to take — one is completely fine. With session guides provided, preparation is optional rather than expected. In practice, most mentors spend four to twelve hours per semester in total. The onboarding program is a one-time 90 minutes. If a semester gets busy, you can pause intake — the commitment is designed to flex around your professional life, not compete with it.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="What expertise or seniority level do I need to qualify as a mentor?" data-id="Keahlian atau tingkat senioritas apa yang saya butuhkan untuk memenuhi syarat sebagai mentor?">What expertise or seniority level do I need to qualify as a mentor?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="The baseline is five years of professional experience and genuine depth in something a mentee needs: an industry, a function, a career transition you’ve navigated, a selection process you’ve been through or evaluated for. You do not need to be a director or a public speaker. A fourth-year analyst who has passed consulting interviews recently is exactly the right mentor for a student preparing for them. The application asks about your experience and what you can speak to credibly — matching does the rest." data-id="Dasarnya adalah lima tahun pengalaman profesional dan kedalaman yang sungguh-sungguh dalam sesuatu yang dibutuhkan mentee: sebuah industri, sebuah fungsi, transisi karier yang pernah kamu navigasi, proses seleksi yang pernah kamu jalani atau nilai. Kamu tidak perlu menjadi direktur atau pembicara publik. Seorang analis tahun keempat yang baru saja lulus wawancara konsulting adalah mentor yang tepat bagi mahasiswa yang sedang mempersiapkannya. Formulir pendaftaran menanyakan pengalamanmu dan apa yang bisa kamu bicarakan secara kredibel — pencocokan melakukan sisanya.">The baseline is five years of professional experience and genuine depth in something a mentee needs: an industry, a function, a career transition you’ve navigated, a selection process you’ve been through or evaluated for. You do not need to be a director or a public speaker. A fourth-year analyst who has passed consulting interviews recently is exactly the right mentor for a student preparing for them. The application asks about your experience and what you can speak to credibly — matching does the rest.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="What expertise or seniority level do I need to qualify as a mentor?" data-id="Keahlian atau tingkat senioritas apa yang saya butuhkan untuk memenuhi syarat sebagai mentor?">What expertise or seniority level do I need to qualify as a mentor?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-2" data-en="The baseline is five years of professional experience and genuine depth in something a mentee needs: an industry, a function, a career transition you’ve navigated, a selection process you’ve been through or evaluated for. You do not need to be a director or a public speaker. A fourth-year analyst who has passed consulting interviews recently is exactly the right mentor for a student preparing for them. The application asks about your experience and what you can speak to credibly — matching does the rest." data-id="Dasarnya adalah lima tahun pengalaman profesional dan kedalaman yang sungguh-sungguh dalam sesuatu yang dibutuhkan mentee: sebuah industri, sebuah fungsi, transisi karier yang pernah kamu navigasi, proses seleksi yang pernah kamu jalani atau nilai. Kamu tidak perlu menjadi direktur atau pembicara publik. Seorang analis tahun keempat yang baru saja lulus wawancara konsulting adalah mentor yang tepat bagi mahasiswa yang sedang mempersiapkannya. Formulir pendaftaran menanyakan pengalamanmu dan apa yang bisa kamu bicarakan secara kredibel — pencocokan melakukan sisanya.">The baseline is five years of professional experience and genuine depth in something a mentee needs: an industry, a function, a career transition you’ve navigated, a selection process you’ve been through or evaluated for. You do not need to be a director or a public speaker. A fourth-year analyst who has passed consulting interviews recently is exactly the right mentor for a student preparing for them. The application asks about your experience and what you can speak to credibly — matching does the rest.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="How are mentors and mentees matched?" data-id="Bagaimana mentor dan mentee dicocokkan?">How are mentors and mentees matched?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Matching runs on data from both sides. Mentees arrive with a completed Career Map — target industry, role, and their highest-priority gaps. Mentors register their industry, functional expertise, and the topics they can guide. Metanoia proposes matches where your specific experience addresses the mentee’s specific need, and you confirm each match before it begins. You will never be assigned a mentee whose situation you can’t genuinely help with — that protects your time and their progress equally." data-id="Pencocokan berjalan berdasarkan data dari kedua sisi. Mentee datang dengan Career Map yang sudah selesai — industri target, jabatan, dan kesenjangan prioritas tertinggi mereka. Mentor mendaftarkan industri, keahlian fungsional, dan topik yang bisa mereka pandu. Metanoia mengusulkan pencocokan di mana pengalaman spesifikmu menjawab kebutuhan spesifik mentee, dan kamu mengonfirmasi setiap pencocokan sebelum dimulai. Kamu tidak akan pernah ditugaskan mentee yang situasinya tidak benar-benar bisa kamu bantu — itu melindungi waktumu dan kemajuan mereka secara setara.">Matching runs on data from both sides. Mentees arrive with a completed Career Map — target industry, role, and their highest-priority gaps. Mentors register their industry, functional expertise, and the topics they can guide. Metanoia proposes matches where your specific experience addresses the mentee’s specific need, and you confirm each match before it begins. You will never be assigned a mentee whose situation you can’t genuinely help with — that protects your time and their progress equally.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-3"><span data-en="How are mentors and mentees matched?" data-id="Bagaimana mentor dan mentee dicocokkan?">How are mentors and mentees matched?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-3" data-en="Matching runs on data from both sides. Mentees arrive with a completed Career Map — target industry, role, and their highest-priority gaps. Mentors register their industry, functional expertise, and the topics they can guide. Metanoia proposes matches where your specific experience addresses the mentee’s specific need, and you confirm each match before it begins. You will never be assigned a mentee whose situation you can’t genuinely help with — that protects your time and their progress equally." data-id="Pencocokan berjalan berdasarkan data dari kedua sisi. Mentee datang dengan Career Map yang sudah selesai — industri target, jabatan, dan kesenjangan prioritas tertinggi mereka. Mentor mendaftarkan industri, keahlian fungsional, dan topik yang bisa mereka pandu. Metanoia mengusulkan pencocokan di mana pengalaman spesifikmu menjawab kebutuhan spesifik mentee, dan kamu mengonfirmasi setiap pencocokan sebelum dimulai. Kamu tidak akan pernah ditugaskan mentee yang situasinya tidak benar-benar bisa kamu bantu — itu melindungi waktumu dan kemajuan mereka secara setara.">Matching runs on data from both sides. Mentees arrive with a completed Career Map — target industry, role, and their highest-priority gaps. Mentors register their industry, functional expertise, and the topics they can guide. Metanoia proposes matches where your specific experience addresses the mentee’s specific need, and you confirm each match before it begins. You will never be assigned a mentee whose situation you can’t genuinely help with — that protects your time and their progress equally.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="Do I need to prepare content or a curriculum for each session?" data-id="Apakah saya perlu menyiapkan konten atau kurikulum untuk setiap sesi?">Do I need to prepare content or a curriculum for each session?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="No. Every session comes with a Metanoia-designed guide built from the mentee’s assessment data and progress: what to cover, how to frame it, and what a good outcome looks like. Your job is the part no guide can do — applying your lived experience to their specific situation. Many mentors glance at the guide ten minutes before the call and that is enough. If you prefer to bring your own material, you’re welcome to, but the programme never requires it." data-id="Tidak. Setiap sesi dilengkapi panduan rancangan Metanoia yang dibangun dari data asesmen dan kemajuan mentee: apa yang dibahas, bagaimana membingkainya, dan seperti apa hasil yang baik. Tugasmu adalah bagian yang tidak bisa dilakukan panduan mana pun — menerapkan pengalaman hidupmu pada situasi spesifik mereka. Banyak mentor melirik panduan sepuluh menit sebelum panggilan dan itu cukup. Jika kamu lebih suka membawa materimu sendiri, silakan, tapi program tidak pernah mewajibkannya.">No. Every session comes with a Metanoia-designed guide built from the mentee’s assessment data and progress: what to cover, how to frame it, and what a good outcome looks like. Your job is the part no guide can do — applying your lived experience to their specific situation. Many mentors glance at the guide ten minutes before the call and that is enough. If you prefer to bring your own material, you’re welcome to, but the programme never requires it.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-4"><span data-en="Do I need to prepare content or a curriculum for each session?" data-id="Apakah saya perlu menyiapkan konten atau kurikulum untuk setiap sesi?">Do I need to prepare content or a curriculum for each session?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-4" data-en="No. Every session comes with a Metanoia-designed guide built from the mentee’s assessment data and progress: what to cover, how to frame it, and what a good outcome looks like. Your job is the part no guide can do — applying your lived experience to their specific situation. Many mentors glance at the guide ten minutes before the call and that is enough. If you prefer to bring your own material, you’re welcome to, but the program never requires it." data-id="Tidak. Setiap sesi dilengkapi panduan rancangan Metanoia yang dibangun dari data asesmen dan kemajuan mentee: apa yang dibahas, bagaimana membingkainya, dan seperti apa hasil yang baik. Tugasmu adalah bagian yang tidak bisa dilakukan panduan mana pun — menerapkan pengalaman hidupmu pada situasi spesifik mereka. Banyak mentor melirik panduan sepuluh menit sebelum panggilan dan itu cukup. Jika kamu lebih suka membawa materimu sendiri, silakan, tapi program tidak pernah mewajibkannya.">No. Every session comes with a Metanoia-designed guide built from the mentee’s assessment data and progress: what to cover, how to frame it, and what a good outcome looks like. Your job is the part no guide can do — applying your lived experience to their specific situation. Many mentors glance at the guide ten minutes before the call and that is enough. If you prefer to bring your own material, you’re welcome to, but the program never requires it.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="Is there a fee to join as a mentor, or is there compensation?" data-id="Apakah ada biaya untuk bergabung sebagai mentor, atau adakah kompensasi?">Is there a fee to join as a mentor, or is there compensation?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="There is no fee to join, and the standard programme is voluntary rather than paid — mentors join for the impact, the community, and the recognition, and we are honest about that. What you receive in return is structural: certification, a documented expert profile you can link from LinkedIn, the quarterly mentor community, and priority invitations to Metanoia events and panels. For mentors who want deeper involvement, paid engagements — workshop facilitation, programme design, enterprise mentorship — are offered separately as they arise." data-id="Tidak ada biaya untuk bergabung, dan program standarnya bersifat sukarela, bukan berbayar — mentor bergabung untuk dampak, komunitas, dan pengakuan, dan kami jujur tentang itu. Yang kamu terima sebagai imbalan bersifat struktural: sertifikasi, profil pakar terdokumentasi yang bisa ditautkan dari LinkedIn, komunitas mentor kuartalan, dan undangan prioritas ke acara dan panel Metanoia. Bagi mentor yang ingin keterlibatan lebih dalam, kerja sama berbayar — fasilitasi workshop, perancangan program, mentorship perusahaan — ditawarkan secara terpisah saat tersedia.">There is no fee to join, and the standard programme is voluntary rather than paid — mentors join for the impact, the community, and the recognition, and we are honest about that. What you receive in return is structural: certification, a documented expert profile you can link from LinkedIn, the quarterly mentor community, and priority invitations to Metanoia events and panels. For mentors who want deeper involvement, paid engagements — workshop facilitation, programme design, enterprise mentorship — are offered separately as they arise.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-5"><span data-en="Is there a fee to join as a mentor, or is there compensation?" data-id="Apakah ada biaya untuk bergabung sebagai mentor, atau adakah kompensasi?">Is there a fee to join as a mentor, or is there compensation?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-5" data-en="There is no fee to join, and the standard program is voluntary rather than paid — mentors join for the impact, the community, and the recognition, and we are honest about that. What you receive in return is structural: certification, a documented expert profile you can link from LinkedIn, the quarterly mentor community, and priority invitations to Metanoia events and panels. For mentors who want deeper involvement, paid engagements — workshop facilitation, program design, enterprise mentorship — are offered separately as they arise." data-id="Tidak ada biaya untuk bergabung, dan program standarnya bersifat sukarela, bukan berbayar — mentor bergabung untuk dampak, komunitas, dan pengakuan, dan kami jujur tentang itu. Yang kamu terima sebagai imbalan bersifat struktural: sertifikasi, profil pakar terdokumentasi yang bisa ditautkan dari LinkedIn, komunitas mentor kuartalan, dan undangan prioritas ke acara dan panel Metanoia. Bagi mentor yang ingin keterlibatan lebih dalam, kerja sama berbayar — fasilitasi workshop, perancangan program, mentorship perusahaan — ditawarkan secara terpisah saat tersedia.">There is no fee to join, and the standard program is voluntary rather than paid — mentors join for the impact, the community, and the recognition, and we are honest about that. What you receive in return is structural: certification, a documented expert profile you can link from LinkedIn, the quarterly mentor community, and priority invitations to Metanoia events and panels. For mentors who want deeper involvement, paid engagements — workshop facilitation, program design, enterprise mentorship — are offered separately as they arise.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="Can I be a Metanoia mentor while also being a client using the platform for my own career?" data-id="Bisakah saya menjadi mentor Metanoia sekaligus klien yang menggunakan platform untuk karier saya sendiri?">Can I be a Metanoia mentor while also being a client using the platform for my own career?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Yes — and it’s common. Many of our best mentors are mid-career professionals using Metanoia to design their own next chapter while guiding someone a few years behind them. The two roles run on separate profiles: your mentee never sees your own assessment data, and your mentor profile shows only your expertise and mentoring record. If anything, mentoring sharpens your own career thinking — explaining the terrain to someone else is a famously effective way to see your own position more clearly." data-id="Ya — dan itu umum. Banyak mentor terbaik kami adalah profesional karier menengah yang menggunakan Metanoia untuk merancang babak berikutnya mereka sendiri sambil membimbing seseorang beberapa tahun di belakang mereka. Kedua peran berjalan pada profil terpisah: mentee-mu tidak pernah melihat data asesmenmu sendiri, dan profil mentormu hanya menampilkan keahlian dan rekam mentoringmu. Justru, menjadi mentor mempertajam pemikiran kariermu sendiri — menjelaskan medan kepada orang lain adalah cara yang terkenal efektif untuk melihat posisimu sendiri dengan lebih jernih.">Yes — and it’s common. Many of our best mentors are mid-career professionals using Metanoia to design their own next chapter while guiding someone a few years behind them. The two roles run on separate profiles: your mentee never sees your own assessment data, and your mentor profile shows only your expertise and mentoring record. If anything, mentoring sharpens your own career thinking — explaining the terrain to someone else is a famously effective way to see your own position more clearly.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="Can I be a Metanoia mentor while also being a client using the platform for my own career?" data-id="Bisakah saya menjadi mentor Metanoia sekaligus klien yang menggunakan platform untuk karier saya sendiri?">Can I be a Metanoia mentor while also being a client using the platform for my own career?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-6" data-en="Yes — and it’s common. Many of our best mentors are mid-career professionals using Metanoia to design their own next chapter while guiding someone a few years behind them. The two roles run on separate profiles: your mentee never sees your own assessment data, and your mentor profile shows only your expertise and mentoring record. If anything, mentoring sharpens your own career thinking — explaining the terrain to someone else is a famously effective way to see your own position more clearly." data-id="Ya — dan itu umum. Banyak mentor terbaik kami adalah profesional karier menengah yang menggunakan Metanoia untuk merancang babak berikutnya mereka sendiri sambil membimbing seseorang beberapa tahun di belakang mereka. Kedua peran berjalan pada profil terpisah: mentee-mu tidak pernah melihat data asesmenmu sendiri, dan profil mentormu hanya menampilkan keahlian dan rekam mentoringmu. Justru, menjadi mentor mempertajam pemikiran kariermu sendiri — menjelaskan medan kepada orang lain adalah cara yang terkenal efektif untuk melihat posisimu sendiri dengan lebih jernih.">Yes — and it’s common. Many of our best mentors are mid-career professionals using Metanoia to design their own next chapter while guiding someone a few years behind them. The two roles run on separate profiles: your mentee never sees your own assessment data, and your mentor profile shows only your expertise and mentoring record. If anything, mentoring sharpens your own career thinking — explaining the terrain to someone else is a famously effective way to see your own position more clearly.</div>
         </div>
       </div>
     </div>
@@ -908,15 +1105,47 @@ if(vid){
   setTimeout(()=>{ if(vid.readyState < 2) showFallback(); }, 1800);
 }
 
-/* ─── FAQ accordion ─── */
+/* ─── FAQ accordion (aria-synced) ─── */
 document.querySelectorAll('.faq-q').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     const item = btn.closest('.faq-item');
     const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
-    if(!isOpen) item.classList.add('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>{
+      i.classList.remove('open');
+      const b = i.querySelector('.faq-q'); if(b) b.setAttribute('aria-expanded','false');
+    });
+    if(!isOpen){ item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
   });
 });
+
+/* ─── Chapter I parallax (subtle, reduced-motion aware) ─── */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const parImg = document.querySelector('.nar-visual img');
+if(parImg && !reduceMotion){
+  let pTick = false;
+  const par = ()=>{
+    const r = parImg.getBoundingClientRect();
+    const mid = r.top + r.height/2 - innerHeight/2;
+    const y = Math.max(-18, Math.min(18, mid * -0.045));
+    parImg.style.transform = 'translateY(' + y.toFixed(1) + 'px) scale(1.06)';
+    pTick = false;
+  };
+  addEventListener('scroll', ()=>{ if(!pTick){ requestAnimationFrame(par); pTick = true; } }, {passive:true});
+  par();
+}
+
+/* ─── Enterprise contact form → structured email ─── */
+const cform = document.getElementById('cform');
+if(cform){
+  cform.addEventListener('submit', e=>{
+    e.preventDefault();
+    const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
+    const subject = 'Enterprise Inquiry — ' + (v('cf-interest')||'General') + (v('cf-company') ? ' — ' + v('cf-company') : '');
+    const body = ['Name: ' + v('cf-name'), 'Company: ' + v('cf-company'), 'Role: ' + v('cf-role'),
+      'Cohort size: ' + v('cf-size'), 'Interest: ' + v('cf-interest'), '', v('cf-msg')].join('\n');
+    location.href = 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+}
 
 /* ─── Scroll reveal ─── */
 const revealObserver = new IntersectionObserver((entries)=>{

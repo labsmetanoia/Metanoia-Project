@@ -8,6 +8,15 @@
 <link rel="canonical" href="https://metanoialabs.net/pages/fresh-graduate.html">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/fresh-graduate.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fresh Graduate — Metanoia Labs">
+<meta property="og:description" content="Metanoia Labs for Fresh Graduates — graduation was the starting gun, not the finish line. Build the system that turns your degree into an offer.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/ch1-realization.jpg">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fresh Graduate — Metanoia Labs">
+<meta name="twitter:description" content="Metanoia Labs for Fresh Graduates — graduation was the starting gun, not the finish line. Build the system that turns your degree into an offer.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/ch1-realization.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
 <style>
@@ -137,8 +146,9 @@
   .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:30px;
     font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
   .hero-pill::before,.hero-pill::after{content:'';width:44px;height:1px;background:rgba(201,168,76,.6)}
-  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 26px;letter-spacing:-.01em}
-  .hero h1 em{font-style:italic;color:#E8C766;font-weight:700}
+  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 16px;letter-spacing:-.01em}
+  .hero-em{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.1vw,1.4rem);
+    color:#E8C766;line-height:1.55;margin:0 auto 24px;max-width:700px}
   .hero-sub{font-size:clamp(1rem,1.8vw,1.15rem);color:rgba(255,255,255,.82);line-height:1.7;margin:0 auto 40px;
     max-width:640px;font-weight:300}
   .hero-cta{display:inline-block;padding:16px 36px;background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);
@@ -302,7 +312,7 @@
   .prod-cta{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);text-decoration:none;
     padding:11px 24px;border-radius:999px;border:1px solid rgba(201,168,76,.35);transition:all .25s}
   .prod-cta:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800;transform:translateY(-2px)}
-  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:10.5px;font-weight:600;
+  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:11px;font-weight:600;
     letter-spacing:.06em;color:rgba(232,199,102,.85)}
   :root[data-theme="light"] .prem{color:#8B6914}
   .prem svg{width:12px;height:12px;flex:none}
@@ -311,7 +321,7 @@
     box-shadow:0 18px 44px rgba(0,0,0,.5);text-align:left}
   .prod-feat.rev .mock{right:auto;left:22px}
   .mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:8px}
-  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2.5px 0;line-height:1.4}
   .mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -319,9 +329,11 @@
   .prod-card{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
     backdrop-filter:var(--glass-blur);display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
   .prod-card:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pc-img{position:relative;height:150px}
-  .pc-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .pc-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,18,.7))}
+  .pc-head{position:relative;height:112px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .pc-head svg{width:42px;height:42px;color:rgba(255,255,255,.92);position:relative;z-index:1}
+  .pc-head::before{content:'';position:absolute;width:150px;height:150px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.14);top:-40px;right:-30px}
+  .pc-head::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
   .pc-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
   .pc-body .ptag{margin-bottom:12px;align-self:flex-start}
   .pc-body h3{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--text);margin:0 0 6px}
@@ -332,7 +344,7 @@
   .pc-mock{margin:0 0 18px;border-radius:12px;padding:12px 14px;background:rgba(10,16,28,.94);
     border:1px solid rgba(201,168,76,.28)}
   .pc-mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:7px}
-  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;color:rgba(255,255,255,.8);
+  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
     padding:2px 0;line-height:1.4}
   .pc-mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
   .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
@@ -419,6 +431,165 @@
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.25,.8,.3,1)}
   .reveal.revealed{opacity:1;transform:none}
 
+  /* ═══ AUDIENCE ROUTER ═══ */
+  .stage-router{position:relative;z-index:3;background:var(--bg-dark);border-bottom:1px solid var(--gold-border);padding:16px 0 18px}
+  .router-in{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:center}
+  .router-label{font-size:10.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+  .router-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .router-chips a{display:flex;flex-direction:column;align-items:center;gap:1px;text-decoration:none;
+    padding:7px 14px;border-radius:12px;border:1px solid rgba(201,168,76,.16);transition:border-color .2s,background .2s}
+  .router-chips a b{font-size:11.5px;font-weight:700;color:var(--text-sub);white-space:nowrap}
+  .router-chips a span{font-size:9.5px;color:var(--text-muted);white-space:nowrap}
+  .router-chips a:hover{border-color:var(--gold-border-hover);background:rgba(201,168,76,.06)}
+  .router-chips a.cur{border-color:rgba(201,168,76,.5);background:rgba(201,168,76,.10)}
+  .router-chips a.cur b{color:var(--gold-bright)}
+  :root[data-theme="light"] .router-chips a.cur b{color:var(--gold)}
+
+  /* ═══ CH1 CALLOUT — ATS funnel (FG) ═══ */
+  .funnel{max-width:780px;margin:76px auto 0;padding:36px 42px 32px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .funnel .fttl{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 22px;text-align:center}
+  .fun-row{display:grid;grid-template-columns:minmax(120px,190px) 1fr 56px;gap:14px;align-items:center;padding:7px 0}
+  .fun-row .fl{font-size:12.5px;font-weight:600;color:var(--text-sub)}
+  .fun-bar{height:20px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden}
+  :root[data-theme="light"] .fun-bar{background:rgba(27,36,52,.10)}
+  .fun-fill{display:block;height:100%;width:0;border-radius:6px;background:rgba(255,255,255,.30);
+    transition:width 1.1s cubic-bezier(.3,.9,.3,1) .25s}
+  :root[data-theme="light"] .fun-fill{background:rgba(27,36,52,.30)}
+  .fun-row.gold .fun-fill{background:linear-gradient(90deg,var(--gold-deep),var(--gold))}
+  .fun-row.bright .fun-fill{background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .funnel.revealed .fun-fill{width:var(--w)}
+  .fun-row .fv{font-size:12px;font-weight:800;color:var(--gold-bright);text-align:right}
+  :root[data-theme="light"] .fun-row .fv{color:var(--gold)}
+  .fun-cap{margin:18px 0 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ CH1 CALLOUT — career capital ledger (MP) ═══ */
+  .ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:76px auto 0}
+  .led{padding:28px 26px 26px;border-radius:18px;background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .led .lt{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 6px}
+  .led .ls{font-size:11.5px;color:var(--text-muted);margin:0 0 16px;line-height:1.5}
+  .led ul{list-style:none;margin:0;padding:0}
+  .led li{position:relative;padding:6px 0 6px 20px;font-size:12.5px;color:var(--text-sub);line-height:1.55}
+  .led li::before{content:'';position:absolute;left:0;top:13px;width:9px;height:2px;background:currentColor;opacity:.45}
+  .led.keep .lt{color:#8FE3B4}.led.translate .lt{color:#F5B47A}.led.new .lt{color:#8FB8F0}
+  :root[data-theme="light"] .led.keep .lt{color:#1A5C38}
+  :root[data-theme="light"] .led.translate .lt{color:#B45309}
+  :root[data-theme="light"] .led.new .lt{color:#1D5FAB}
+  .ledger-cap{max-width:760px;margin:26px auto 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+
+  /* ═══ SEE IT WORK (ported from student.html) ═══ */
+  .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
+  .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .how-head{text-align:center;max-width:720px;margin:0 auto 58px}
+  .how-head h2{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:600;color:var(--text);
+    margin:0 0 16px;line-height:1.16}
+  .how-head h2 em{font-style:normal;color:var(--gold)}
+  .how-head p{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+  .how-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 auto 72px;position:relative}
+  .how-steps::before{content:'';position:absolute;top:26px;left:12%;right:12%;height:1px;
+    background:linear-gradient(90deg,rgba(201,168,76,.35),rgba(201,168,76,.12));z-index:0}
+  .how-step{position:relative;z-index:1;text-align:center;padding:0 8px;
+    opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+  .how-steps.revealed .how-step{opacity:1;transform:none}
+  .how-steps.revealed .how-step:nth-child(1){transition-delay:.06s}
+  .how-steps.revealed .how-step:nth-child(2){transition-delay:.16s}
+  .how-steps.revealed .how-step:nth-child(3){transition-delay:.26s}
+  .how-steps.revealed .how-step:nth-child(4){transition-delay:.36s}
+  .how-step .hnum{width:52px;height:52px;margin:0 auto 20px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 7px var(--bg-base),0 8px 22px rgba(201,168,76,.32)}
+  .how-step h3{font-size:15px;font-weight:700;color:var(--text);margin:0 0 8px}
+  .how-step p{font-size:12.5px;color:var(--text-muted);line-height:1.6;margin:0}
+  .how-step .hmeta{display:block;margin-top:9px;font-size:10px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gold)}
+  .how-demo{max-width:920px;margin:0 auto}
+  .demo-frame{border-radius:18px;overflow:hidden;background:#0A101D;border:1px solid rgba(201,168,76,.22);
+    box-shadow:0 40px 90px rgba(0,0,0,.5),0 0 60px rgba(201,168,76,.06)}
+  .demo-bar{display:flex;align-items:center;gap:14px;padding:13px 18px;
+    background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.07)}
+  .demo-dots{display:flex;gap:7px;flex:none}
+  .demo-dots i{width:11px;height:11px;border-radius:50%;background:rgba(255,255,255,.16)}
+  .demo-url{flex:1;text-align:center;font-size:11px;letter-spacing:.06em;color:rgba(255,255,255,.4);font-weight:600}
+  .demo-url b{color:#E8C766;font-weight:700}
+  .demo-screen{padding:32px 34px 36px;background:#0A101D}
+  .demo-h{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin:0 0 4px}
+  .demo-sub{font-size:12.5px;color:rgba(255,255,255,.5);margin:0 0 26px;line-height:1.55}
+  .sc-grid{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center}
+  .sc-ring{position:relative;width:180px;height:180px;margin:0 auto}
+  .sc-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+  .sc-ring .rbg{fill:none;stroke:rgba(255,255,255,.08);stroke-width:11}
+  .sc-ring .rfg{fill:none;stroke:url(#scGold);stroke-width:11;stroke-linecap:round;
+    stroke-dasharray:471;stroke-dashoffset:471;transition:stroke-dashoffset 1.4s cubic-bezier(.3,.9,.3,1) .2s}
+  .how-demo.revealed .sc-ring .rfg{stroke-dashoffset:var(--off)}
+  .sc-ring .rcen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .sc-ring .rcen b{font-size:34px;font-weight:800;color:#fff;line-height:1}
+  .sc-ring .rcen span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E8C766;margin-top:5px}
+  .sc-dims{display:flex;flex-direction:column;gap:15px}
+  .dim{display:grid;grid-template-columns:minmax(120px,170px) 1fr 42px;align-items:center;gap:14px}
+  .dim .dlab{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.82)}
+  .dim .dbar{display:block;height:7px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+  .dim .dfill{display:block;height:100%;border-radius:999px;width:0;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));
+    transition:width 1.2s cubic-bezier(.3,.9,.3,1) .3s}
+  .how-demo.revealed .dim .dfill{width:var(--v)}
+  .dim .dval{font-size:12px;font-weight:800;color:#E8C766;text-align:right}
+  .dim.low .dfill{background:linear-gradient(90deg,#8B6914,#C97B1E)}
+  .route-item{display:flex;gap:16px;align-items:flex-start;padding:17px 18px;border-radius:13px;
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);margin-top:26px}
+  .route-item .rtag{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:7px;
+    color:#E8C766;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.3)}
+  .route-item p{font-size:13px;color:rgba(255,255,255,.8);line-height:1.55;margin:0}
+  .demo-cap{text-align:center;font-size:11.5px;color:var(--text-faint);margin:22px auto 0;max-width:560px;line-height:1.6}
+
+  /* ═══ ENTERPRISE CONTACT ═══ */
+  .contact-sec{padding:104px 0;background:var(--bg-mid);position:relative}
+  .contact-sec::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+  .contact-copy h2{font-family:var(--serif);font-size:clamp(1.7rem,3vw,2.4rem);font-weight:600;color:var(--text);
+    line-height:1.2;margin:0 0 16px}
+  .contact-copy h2 em{font-style:italic;color:var(--gold)}
+  .contact-copy p{font-size:14px;color:var(--text-muted);line-height:1.75;margin:0 0 24px}
+  .contact-copy ul{list-style:none;margin:0 0 28px;padding:0}
+  .contact-copy li{position:relative;padding:7px 0 7px 26px;font-size:13.5px;color:var(--text-sub);line-height:1.6}
+  .contact-copy li::before{content:'✓';position:absolute;left:0;top:7px;color:var(--gold);font-size:12px}
+  .contact-direct{font-size:13px;color:var(--text-muted)}
+  .contact-direct a{color:var(--gold);font-weight:700;text-decoration:none}
+  .contact-direct a:hover{text-decoration:underline}
+  .cform{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:34px 34px 30px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
+  .cfield{display:flex;flex-direction:column;gap:6px}
+  .cfield.full{grid-column:1/-1}
+  .cfield label{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+  .cfield input,.cfield select,.cfield textarea{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;padding:12px 14px;color:var(--text);font-family:inherit;font-size:14px;width:100%}
+  .cfield textarea{resize:vertical;min-height:88px}
+  .cfield select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' stroke='%23C9A84C' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 14px center}
+  :root[data-theme="light"] .cfield input,:root[data-theme="light"] .cfield select,:root[data-theme="light"] .cfield textarea{
+    background:#FFFFFF;border-color:rgba(27,36,52,.22)}
+  .cfield input:focus,.cfield select:focus,.cfield textarea:focus{outline:none;border-color:var(--gold)}
+  .cform .csubmit{grid-column:1/-1;margin-top:6px;padding:15px 32px;border:none;border-radius:999px;
+    background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);color:#050A12;
+    font-size:14.5px;font-weight:800;letter-spacing:.02em;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 6px 24px rgba(201,168,76,.3)}
+  .cform .csubmit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,168,76,.42)}
+  .cform-note{grid-column:1/-1;font-size:11px;color:var(--text-faint);text-align:center;margin:2px 0 0}
+
+  /* ═══ motion: CTA banner pan + parallax ═══ */
+  @keyframes ctaPan{from{transform:scale(1.1) translateX(-1.4%)}to{transform:scale(1.1) translateX(1.4%)}}
+  .cta-banner-img{animation:ctaPan 38s ease-in-out infinite alternate}
+  .nar-visual img{will-change:transform}
+
+  /* ═══ a11y focus ═══ */
+  .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
+  .prod-cta:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .trait span{color:rgba(255,255,255,.68)}
+  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
+
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
     .nar-grid{grid-template-columns:1fr;gap:40px}
@@ -439,6 +610,11 @@
     .prod-feat.rev .pf-visual{order:2}
     .pf-visual{min-height:260px}
     .pain-grid{grid-template-columns:1fr}
+    .how-steps{grid-template-columns:1fr 1fr;gap:34px 18px}
+    .how-steps::before{display:none}
+    .sc-grid{grid-template-columns:1fr;gap:28px}
+    .ledger{grid-template-columns:1fr}
+    .contact-grid{grid-template-columns:1fr;gap:40px}
   }
   @media(max-width:768px){
     .section-inner{padding:0 20px}
@@ -454,6 +630,10 @@
     .foot-grid{flex-direction:column}
     .hero-cta2{margin-left:0;margin-top:12px}
     .mock{position:static;width:auto;margin:14px}
+    .how-steps{grid-template-columns:1fr;gap:28px}
+    .cform{grid-template-columns:1fr;padding:26px 20px 24px}
+    .fun-row{grid-template-columns:minmax(90px,120px) 1fr 44px}
+    .router-in{gap:10px}
   }
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
@@ -530,15 +710,31 @@
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
   <video autoplay muted loop playsinline id="heroVideo"><source src="../assets/fresh-graduate-hero.mp4" type="video/mp4"></video>
-  <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/stage-graduation.jpg')"></div>
+  <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/ch1-realization.jpg')"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-pill" data-en="Chapter · Fresh Graduates" data-id="Bab · Fresh Graduate">Chapter · Fresh Graduates</div>
-    <h1 data-en="Graduation was the starting gun, not the finish line. <em>The degree got you to the door. What you do next determines whether it opens.</em>" data-id="Wisuda adalah tanda mulai, bukan garis akhir. <em>Gelarmu membawamu sampai ke pintu. Yang kamu lakukan setelahnya menentukan apakah pintu itu terbuka.</em>">Graduation was the starting gun, not the finish line. <em>The degree got you to the door. What you do next determines whether it opens.</em></h1>
+    <h1 data-en="Graduation was the starting gun, not the finish line." data-id="Wisuda adalah tanda mulai, bukan garis akhir.">Graduation was the starting gun, not the finish line.</h1>
+    <p class="hero-em" data-en="The degree got you to the door. What you do next determines whether it opens." data-id="Gelarmu membawamu sampai ke pintu. Yang kamu lakukan setelahnya menentukan apakah pintu itu terbuka.">The degree got you to the door. What you do next determines whether it opens.</p>
     <p class="hero-sub" data-en="Every year, hundreds of thousands of Indonesian graduates enter the market with the same degree, the same GPA range, and the same uncertainty. A rare few know exactly what to do next. Metanoia exists to make you one of them." data-id="Setiap tahun, ratusan ribu lulusan Indonesia memasuki pasar kerja dengan gelar yang sama, rentang IPK yang sama, dan ketidakpastian yang sama. Sebagian kecil tahu persis langkah selanjutnya. Metanoia hadir untuk menjadikanmu salah satu dari mereka.">Every year, hundreds of thousands of Indonesian graduates enter the market with the same degree, the same GPA range, and the same uncertainty. A rare few know exactly what to do next. Metanoia exists to make you one of them.</p>
     <a href="../career-map-assessment.html" class="hero-cta" data-en="Find Your Starting Point →" data-id="Temukan Titik Mulaimu →">Find Your Starting Point →</a>
   </div>
 </section>
+
+<!-- ═══ AUDIENCE ROUTER ═══ -->
+<div class="stage-router" aria-label="Choose your career stage">
+  <div class="router-in">
+    <span class="router-label" data-en="Where are you on the mountain?" data-id="Di mana kamu di gunung ini?">Where are you on the mountain?</span>
+    <div class="router-chips">
+      <a href="student.html"><b data-en="Student" data-id="Mahasiswa">Student</b><span data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a>
+      <a href="fresh-graduate.html" class="cur" aria-current="page"><b data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</b><span data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a>
+      <a href="early-professional.html"><b data-en="Early Professional" data-id="Profesional Muda">Early Professional</b><span data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a>
+      <a href="mature-professional.html"><b data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</b><span data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a>
+      <a href="enterprise.html"><b data-en="Enterprise" data-id="Perusahaan">Enterprise</b><span data-en="Building teams" data-id="Membangun tim">Building teams</span></a>
+      <a href="mentors.html"><b data-en="Mentors" data-id="Mentor">Mentors</b><span data-en="Giving back" data-id="Berbagi kembali">Giving back</span></a>
+    </div>
+  </div>
+</div>
 
 <!-- ═══ CHAPTER I ═══ -->
 <section class="block" id="why-now">
@@ -551,7 +747,26 @@
         <p data-en="The professionals who entered the market confidently didn’t have a better degree. They had a better system. They understood that the job market doesn’t reward years spent — it rewards evidence produced. And they knew how to produce it." data-id="Para profesional yang memasuki pasar kerja dengan percaya diri bukan memiliki gelar yang lebih baik. Mereka memiliki sistem yang lebih baik. Mereka memahami bahwa pasar kerja tidak menghargai tahun yang dihabiskan — ia menghargai bukti yang dihasilkan. Dan mereka tahu cara menghasilkannya.">The professionals who entered the market confidently didn’t have a better degree. They had a better system. They understood that the job market doesn’t reward years spent — it rewards evidence produced. And they knew how to produce it.</p>
         <blockquote class="nar-quote reveal"><p data-en="“The first job is not just a job. It is the foundation every subsequent opportunity is built on.”" data-id="“Pekerjaan pertama bukan sekadar pekerjaan. Ia adalah fondasi dari setiap peluang berikutnya.”">“The first job is not just a job. It is the foundation every subsequent opportunity is built on.”</p><cite>Metanoia Labs</cite></blockquote>
       </div>
-      <div class="nar-visual reveal"><img src="../assets/bg/stage-graduation.jpg" alt="Graduates at the summit of their university climb" loading="lazy"></div>
+      <div class="nar-visual reveal"><img src="../assets/bg/hero.jpg" alt="A graduate setting out on the ascent at first light" loading="lazy"></div>
+    </div>
+    <div class="funnel reveal">
+      <h3 class="fttl" data-en="What actually happens to 100 applications" data-id="Apa yang sebenarnya terjadi pada 100 lamaran">What actually happens to 100 applications</h3>
+      <div class="fun-row">
+        <span class="fl" data-en="Applications sent" data-id="Lamaran terkirim">Applications sent</span>
+        <span class="fun-bar"><span class="fun-fill" style="--w:100%"></span></span>
+        <span class="fv">100</span>
+      </div>
+      <div class="fun-row gold">
+        <span class="fl" data-en="Pass ATS screening" data-id="Lolos penyaringan ATS">Pass ATS screening</span>
+        <span class="fun-bar"><span class="fun-fill" style="--w:22%"></span></span>
+        <span class="fv">~20</span>
+      </div>
+      <div class="fun-row bright">
+        <span class="fl" data-en="Read by a human" data-id="Dibaca oleh manusia">Read by a human</span>
+        <span class="fun-bar"><span class="fun-fill" style="--w:15%"></span></span>
+        <span class="fv">~12</span>
+      </div>
+      <p class="fun-cap" data-en="Most CVs are eliminated by software before anyone reads them. Everything Metanoia builds with you is designed to put your application in the last bar." data-id="Sebagian besar CV tereliminasi oleh perangkat lunak sebelum dibaca siapa pun. Semua yang dibangun Metanoia bersamamu dirancang untuk menempatkan lamaranmu di bilah terakhir.">Most CVs are eliminated by software before anyone reads them. Everything Metanoia builds with you is designed to put your application in the last bar.</p>
     </div>
 
     <h3 class="traits-head reveal" data-en="What sets prepared graduates apart" data-id="Apa yang membedakan lulusan yang siap">What sets prepared graduates apart</h3>
@@ -580,7 +795,7 @@
       </div>
       <div class="stage reveal">
         <div class="stage-badge">3</div>
-        <div class="stage-info"><div class="stage-kicker" data-en="Stage 3 · Interview Mastery" data-id="Tahap 3 · Penguasaan Wawancara">Stage 3 · Interview Mastery</div><p data-en="Practice with AI feedback. Learn to answer behavioural, case, and competency-based questions with precision and confidence." data-id="Berlatih dengan umpan balik AI. Pelajari cara menjawab pertanyaan behavioral, case, dan berbasis kompetensi dengan presisi dan percaya diri.">Practice with AI feedback. Learn to answer behavioural, case, and competency-based questions with precision and confidence.</p></div>
+        <div class="stage-info"><div class="stage-kicker" data-en="Stage 3 · Interview Mastery" data-id="Tahap 3 · Penguasaan Wawancara">Stage 3 · Interview Mastery</div><p data-en="Practice with AI feedback. Learn to answer behavioral, case, and competency-based questions with precision and confidence." data-id="Berlatih dengan umpan balik AI. Pelajari cara menjawab pertanyaan behavioral, case, dan berbasis kompetensi dengan presisi dan percaya diri.">Practice with AI feedback. Learn to answer behavioral, case, and competency-based questions with precision and confidence.</p></div>
         <div class="stage-media"><img src="../assets/bg/stage-activation.jpg" alt="Stage 3 · Interview Mastery" loading="lazy"></div>
       </div>
       <div class="stage reveal">
@@ -601,8 +816,8 @@
         <ul>
         <li data-en="Generic CV sent to 80+ companies" data-id="CV generik dikirim ke 80+ perusahaan">Generic CV sent to 80+ companies</li>
         <li data-en="ATS score below threshold — filtered before any human reads it" data-id="Skor ATS di bawah ambang — tersaring sebelum dibaca manusia">ATS score below threshold — filtered before any human reads it</li>
-        <li data-en="Cover letter: one template, zero personalisation" data-id="Surat lamaran: satu template, nol personalisasi">Cover letter: one template, zero personalisation</li>
-        <li data-en="Interview prep: practised alone the night before" data-id="Persiapan wawancara: latihan sendirian semalam sebelumnya">Interview prep: practised alone the night before</li>
+        <li data-en="Cover letter: one template, zero personalization" data-id="Surat lamaran: satu template, nol personalizasi">Cover letter: one template, zero personalization</li>
+        <li data-en="Interview prep: practiced alone the night before" data-id="Persiapan wawancara: latihan sendirian semalam sebelumnya">Interview prep: practiced alone the night before</li>
         <li data-en="No clarity on target role or industry" data-id="Tidak ada kejelasan jabatan atau industri target">No clarity on target role or industry</li>
         <li data-en="Offer, if any: the first company that responded" data-id="Tawaran, kalaupun ada: perusahaan pertama yang merespons">Offer, if any: the first company that responded</li>
         </ul>
@@ -611,7 +826,7 @@
         <h3 data-en="Your application with Metanoia" data-id="Lamaranmu dengan Metanoia">Your application with Metanoia</h3>
         <ul>
         <li data-en="Targeted applications to 15–20 high-fit companies" data-id="Lamaran tertarget ke 15–20 perusahaan berkesesuaian tinggi">Targeted applications to 15–20 high-fit companies</li>
-        <li data-en="ATS-optimised CV with quantified impact statements" data-id="CV teroptimasi ATS dengan pernyataan dampak terkuantifikasi">ATS-optimised CV with quantified impact statements</li>
+        <li data-en="ATS-optimized CV with quantified impact statements" data-id="CV teroptimasi ATS dengan pernyataan dampak terkuantifikasi">ATS-optimized CV with quantified impact statements</li>
         <li data-en="Tailored positioning for each application category" data-id="Pemosisian yang disesuaikan untuk setiap kategori lamaran">Tailored positioning for each application category</li>
         <li data-en="Interview simulation with AI feedback and session memory" data-id="Simulasi wawancara dengan umpan balik AI dan memori sesi">Interview simulation with AI feedback and session memory</li>
         <li data-en="Clear target: role, industry, company tier, salary range" data-id="Target jelas: jabatan, industri, tingkat perusahaan, rentang gaji">Clear target: role, industry, company tier, salary range</li>
@@ -649,7 +864,7 @@
       </div>
       <div class="sys reveal">
         <div class="sys-img"><img src="../assets/bg/rope.jpg" alt="Interview Readiness" loading="lazy"><span class="sys-tag" style="background:#B45309">System 03 · The Rope</span></div>
-        <div class="sys-body"><h3 data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</h3><p data-en="Behavioural, case, aptitude, FGD — practised with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work." data-id="Wawancara behavioral, case, aptitude, FGD — dilatih dengan AI yang mengingat sesi terakhirmu dan menargetkan jawabanmu yang paling lemah. Hadapi setiap wawancara dengan mengetahui persis di mana kamu sudah berkembang dan apa yang masih perlu dikerjakan.">Behavioural, case, aptitude, FGD — practised with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work.</p></div>
+        <div class="sys-body"><h3 data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</h3><p data-en="Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work." data-id="Wawancara behavioral, case, aptitude, FGD — dilatih dengan AI yang mengingat sesi terakhirmu dan menargetkan jawabanmu yang paling lemah. Hadapi setiap wawancara dengan mengetahui persis di mana kamu sudah berkembang dan apa yang masih perlu dikerjakan.">Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work.</p></div>
       </div>
       <div class="sys reveal">
         <div class="sys-img"><img src="../assets/bg/start.jpg" alt="Your 90-Day Plan" loading="lazy"><span class="sys-tag" style="background:#1A5C38">System 04 · The Route</span></div>
@@ -661,6 +876,7 @@
       <h3 data-en="Land your first offer at a company you chose — <em>not the first company that said yes.</em>" data-id="Dapatkan tawaran pertamamu di perusahaan yang kamu pilih — <em>bukan perusahaan pertama yang mengatakan ya.</em>">Land your first offer at a company you chose — <em>not the first company that said yes.</em></h3>
       <p data-en="Not by luck. Not by connections alone. By preparation that made you impossible to overlook." data-id="Bukan karena keberuntungan. Bukan hanya karena koneksi. Tapi karena persiapan yang membuatmu tidak bisa diabaikan.">Not by luck. Not by connections alone. By preparation that made you impossible to overlook.</p>
     </div>
+    <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="Start with the free Career Map →" data-id="Mulai dengan Career Map gratis →">Start with the free Career Map →</a></div>
   </div>
 </section>
 
@@ -688,7 +904,7 @@
         <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
       </div>
       <div class="pf-visual">
-        <img src="../assets/bg/map.jpg" alt="Project Aladin — Direction Edition" loading="lazy">
+        <img src="../assets/bg/auth.jpg" alt="Project Aladin — Direction Edition" loading="lazy">
     <div class="mock" aria-hidden="true">
       <div class="mttl">Direction Profile</div>
       <div class="mrow"><span class="don"></span><span>Direction: Product Management</span></div>
@@ -699,16 +915,16 @@
     </div>
     <div class="prod-grid">
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/pack.jpg" alt="The Application Engine" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
         <div class="pc-body">
           <span class="ptag teal">02 · The Pack</span>
           <h3 data-en="The Application Engine" data-id="The Application Engine">The Application Engine</h3>
           <p class="prod-sub" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk direkrut.">The complete toolkit for getting hired.</p>
           <ul>
-          <li data-en="ATS-optimised CV builder with score preview" data-id="Pembangun CV teroptimasi ATS dengan pratinjau skor">ATS-optimised CV builder with score preview</li>
+          <li data-en="ATS-optimized CV builder with score preview" data-id="Pembangun CV teroptimasi ATS dengan pratinjau skor">ATS-optimized CV builder with score preview</li>
           <li data-en="Impact statement rewriter — duties → outcomes" data-id="Penulis ulang pernyataan dampak — tugas → hasil">Impact statement rewriter — duties → outcomes</li>
           <li data-en="Cover letter framework by role category" data-id="Kerangka surat lamaran berdasarkan kategori jabatan">Cover letter framework by role category</li>
-          <li data-en="LinkedIn profile optimisation checklist" data-id="Daftar periksa optimasi profil LinkedIn">LinkedIn profile optimisation checklist</li>
+          <li data-en="LinkedIn profile optimization checklist" data-id="Daftar periksa optimasi profil LinkedIn">LinkedIn profile optimization checklist</li>
           <li data-en="Psychometric &amp; aptitude test preparation" data-id="Persiapan tes psikometri &amp; bakat">Psychometric &amp; aptitude test preparation</li>
           <li data-en="FGD / LGD simulation modules" data-id="Modul simulasi FGD / LGD">FGD / LGD simulation modules</li>
           </ul>
@@ -716,20 +932,20 @@
       <div class="mttl">ATS Score · 74/100</div>
       <div class="mrow"><span class="tick">✓</span><span>Impact verbs detected</span></div>
       <div class="mrow"><span class="tick">✓</span><span>Quantified achievements</span></div>
-      <div class="mrow"><span class="don"></span><span>Keyword density: optimise</span></div>
+      <div class="mrow"><span class="don"></span><span>Keyword density: optimize</span></div>
     </div>
           <a href="products/professional-world.html" class="prod-cta" data-en="Explore the Engine →" data-id="Jelajahi Mesinnya →">Explore the Engine →</a>
           <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/rope.jpg" alt="Interview Mastery" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
         <div class="pc-body">
           <span class="ptag amber">03 · The Rope</span>
           <h3 data-en="Interview Mastery" data-id="Interview Mastery">Interview Mastery</h3>
           <p class="prod-sub" data-en="Walk in prepared. Walk out with an offer." data-id="Masuk dengan persiapan. Keluar dengan tawaran.">Walk in prepared. Walk out with an offer.</p>
           <ul>
-          <li data-en="Behavioural interview: STAR framework with AI scoring" data-id="Wawancara behavioural: kerangka STAR dengan penilaian AI">Behavioural interview: STAR framework with AI scoring</li>
+          <li data-en="Behavioral interview: STAR framework with AI scoring" data-id="Wawancara behavioral: kerangka STAR dengan penilaian AI">Behavioral interview: STAR framework with AI scoring</li>
           <li data-en="Case interview preparation (consulting, banking, strategy)" data-id="Persiapan wawancara kasus (konsulting, perbankan, strategi)">Case interview preparation (consulting, banking, strategy)</li>
           <li data-en="Competency-based and HR interview modules" data-id="Modul wawancara berbasis kompetensi dan HR">Competency-based and HR interview modules</li>
           <li data-en="AI mock sessions with session-memory feedback" data-id="Sesi simulasi AI dengan umpan balik berbasis memori sesi">AI mock sessions with session-memory feedback</li>
@@ -746,15 +962,15 @@
         </div>
       </div>
       <div class="prod-card reveal">
-        <div class="pc-img"><img src="../assets/bg/start.jpg" alt="Scholarship &amp; Graduate Programs" loading="lazy"></div>
+        <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
         <div class="pc-body">
           <span class="ptag forest">04 · The Route</span>
           <h3 data-en="Scholarship &amp; Graduate Programs" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
           <p class="prod-sub" data-en="Fund your next chapter. Or accelerate into it." data-id="Danai babak berikutmu. Atau berakselerasi memasukinya.">Fund your next chapter. Or accelerate into it.</p>
           <ul>
-          <li data-en="LPDP, Chevening, AAS, and corporate graduate programme mapping" data-id="Pemetaan LPDP, Chevening, AAS, dan program lulusan korporasi">LPDP, Chevening, AAS, and corporate graduate programme mapping</li>
+          <li data-en="LPDP, Chevening, AAS, and corporate graduate program mapping" data-id="Pemetaan LPDP, Chevening, AAS, dan program lulusan korporasi">LPDP, Chevening, AAS, and corporate graduate program mapping</li>
           <li data-en="Personal statement and essay workshops" data-id="Workshop pernyataan pribadi dan esai">Personal statement and essay workshops</li>
-          <li data-en="Selection interview simulation for scholarship and MT programmes" data-id="Simulasi wawancara seleksi untuk beasiswa dan program MT">Selection interview simulation for scholarship and MT programmes</li>
+          <li data-en="Selection interview simulation for scholarship and MT programs" data-id="Simulasi wawancara seleksi untuk beasiswa dan program MT">Selection interview simulation for scholarship and MT programs</li>
           <li data-en="Application timeline and milestone planner" data-id="Perencana garis waktu lamaran dan pencapaian">Application timeline and milestone planner</li>
           </ul>
     <div class="pc-mock" aria-hidden="true">
@@ -773,12 +989,12 @@
         <span class="ptag goldp">05 · All Systems</span>
         <h3 class="prod-name" data-en="The Climb — Graduate Edition" data-id="The Climb — Edisi Lulusan">The Climb — Graduate Edition</h3>
         <p class="prod-sub" data-en="Track every step from graduation to offer." data-id="Lacak setiap langkah dari wisuda ke tawaran.">Track every step from graduation to offer.</p>
-      <p class="prod-desc" data-en="Your personalised progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimisation status, and 90-day sprint milestones. The Climb doesn’t just show you where you are — it shows you exactly what to do next to move forward." data-id="Dasbor kemajuan personal di semua empat sistem. Melacak jalur lamaranmu, skor kesiapan wawancara, status optimasi CV, dan pencapaian sprint 90 hari. The Climb tidak hanya menunjukkan di mana kamu berada — ia menunjukkan persis apa yang harus kamu lakukan selanjutnya untuk melangkah maju.">Your personalised progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimisation status, and 90-day sprint milestones. The Climb doesn’t just show you where you are — it shows you exactly what to do next to move forward.</p>
+      <p class="prod-desc" data-en="Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Climb doesn’t just show you where you are — it shows you exactly what to do next to move forward." data-id="Dasbor kemajuan personal di semua empat sistem. Melacak jalur lamaranmu, skor kesiapan wawancara, status optimasi CV, dan pencapaian sprint 90 hari. The Climb tidak hanya menunjukkan di mana kamu berada — ia menunjukkan persis apa yang harus kamu lakukan selanjutnya untuk melangkah maju.">Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Climb doesn’t just show you where you are — it shows you exactly what to do next to move forward.</p>
         <a href="products/the-climb.html" class="prod-cta" data-en="Explore The Climb →" data-id="Jelajahi The Climb →">Explore The Climb →</a>
         <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
       </div>
       <div class="pf-visual">
-        <img src="../assets/bg/stage-graduation.jpg" alt="The Climb — Graduate Edition" loading="lazy">
+        <img src="../assets/bg/journey-bg.jpg" alt="The Climb — Graduate Edition" loading="lazy">
     <div class="mock" aria-hidden="true">
       <div class="mttl">Graduate Sprint · Week 4 of 12</div>
       <div class="mrow"><span class="tick">✓</span><span>Applications: 8 sent, 2 in review</span></div>
@@ -790,13 +1006,104 @@
   </div>
 </section>
 
+<!-- ═══ SEE IT WORK ═══ -->
+<section class="how-section" id="see-it-work">
+  <div class="section-inner">
+    <div class="how-head reveal">
+      <div class="chapter-label" data-en="See It Work" data-id="Lihat Cara Kerjanya">See It Work</div>
+      <h2 data-en="From CV to offer, <em>one connected system.</em>" data-id="Dari CV ke tawaran, <em>satu sistem terhubung.</em>">From CV to offer, <em>one connected system.</em></h2>
+      <p data-en="This is not a course library. It is a working system — here is the exact loop you will run from the day you join." data-id="Ini bukan perpustakaan kursus. Ini sistem yang bekerja — inilah alur persis yang akan kamu jalankan sejak hari pertama bergabung.">This is not a course library. It is a working system — here is the exact loop you will run from the day you join.</p>
+    </div>
+    <div class="how-steps reveal">
+      <div class="how-step">
+        <div class="hnum">1</div>
+        <h3 data-en="Map your direction" data-id="Petakan arahmu">Map your direction</h3>
+        <p data-en="The free 15-minute Career Map defines your target role, industry, and realistic company tier." data-id="Career Map gratis 15 menit menetapkan jabatan target, industri, dan tingkat perusahaan yang realistis.">The free 15-minute Career Map defines your target role, industry, and realistic company tier.</p>
+        <span class="hmeta" data-en="Free · 15 minutes" data-id="Gratis · 15 menit">Free · 15 minutes</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">2</div>
+        <h3 data-en="Build the arsenal" data-id="Bangun arsenalmu">Build the arsenal</h3>
+        <p data-en="Rebuild your CV against live ATS scoring until it clears the screen that filters most graduates out." data-id="Bangun ulang CV-mu dengan penilaian ATS langsung sampai lolos penyaringan yang menyaring sebagian besar lulusan.">Rebuild your CV against live ATS scoring until it clears the screen that filters most graduates out.</p>
+        <span class="hmeta" data-en="The Pack" data-id="The Pack">The Pack</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">3</div>
+        <h3 data-en="Practice until it’s reflex" data-id="Berlatih sampai refleks">Practice until it’s reflex</h3>
+        <p data-en="AI mock interviews that remember your last session and drill your weakest answers first." data-id="Simulasi wawancara AI yang mengingat sesi terakhirmu dan melatih jawaban terlemahmu lebih dulu.">AI mock interviews that remember your last session and drill your weakest answers first.</p>
+        <span class="hmeta" data-en="The Rope" data-id="The Rope">The Rope</span>
+      </div>
+      <div class="how-step">
+        <div class="hnum">4</div>
+        <h3 data-en="Run the 90-day sprint" data-id="Jalankan sprint 90 hari">Run the 90-day sprint</h3>
+        <p data-en="One highest-leverage action per day — applications, follow-ups, and practice, sequenced to an offer." data-id="Satu tindakan paling berdampak per hari — lamaran, tindak lanjut, dan latihan, diurutkan menuju tawaran.">One highest-leverage action per day — applications, follow-ups, and practice, sequenced to an offer.</p>
+        <span class="hmeta" data-en="The Route" data-id="The Route">The Route</span>
+      </div>
+    </div>
+    <div class="how-demo reveal">
+      <div class="demo-frame">
+        <div class="demo-bar">
+          <div class="demo-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="demo-url">portal.metanoialabs.net/<b>graduate/scorecard</b></div>
+        </div>
+        <div class="demo-screen">
+          <h3 class="demo-h" data-en="Application Scorecard" data-id="Kartu Skor Lamaran">Application Scorecard</h3>
+          <p class="demo-sub" data-en="How your CV performs against automated screening — before a recruiter ever sees it." data-id="Bagaimana performa CV-mu terhadap penyaringan otomatis — sebelum dilihat rekruter.">How your CV performs against automated screening — before a recruiter ever sees it.</p>
+          <div class="sc-grid">
+            <div class="sc-ring" style="--off:122">
+              <svg viewBox="0 0 180 180" aria-hidden="true">
+                <defs><linearGradient id="scGold" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#8B6914"/><stop offset="55%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#F0D878"/>
+                </linearGradient></defs>
+                <circle class="rbg" cx="90" cy="90" r="75"/>
+                <circle class="rfg" cx="90" cy="90" r="75"/>
+              </svg>
+              <div class="rcen"><b>74</b><span data-en="ATS Score" data-id="Skor ATS">ATS Score</span></div>
+            </div>
+            <div class="sc-dims">
+            <div class="dim">
+              <span class="dlab" data-en="Keyword match" data-id="Kecocokan kata kunci">Keyword match</span>
+              <span class="dbar"><span class="dfill" style="--v:81%"></span></span>
+              <span class="dval">81</span>
+            </div>
+            <div class="dim">
+              <span class="dlab" data-en="Impact statements" data-id="Pernyataan dampak">Impact statements</span>
+              <span class="dbar"><span class="dfill" style="--v:74%"></span></span>
+              <span class="dval">74</span>
+            </div>
+            <div class="dim low">
+              <span class="dlab" data-en="Quantified results" data-id="Hasil terkuantifikasi">Quantified results</span>
+              <span class="dbar"><span class="dfill" style="--v:62%"></span></span>
+              <span class="dval">62</span>
+            </div>
+            <div class="dim">
+              <span class="dlab" data-en="Format &amp; parsing" data-id="Format &amp; parsing">Format &amp; parsing</span>
+              <span class="dbar"><span class="dfill" style="--v:90%"></span></span>
+              <span class="dval">90</span>
+            </div>
+            </div>
+          </div>
+          <div class="route-item">
+            <div>
+              <span class="rtag" data-en="Next action" data-id="Tindakan berikutnya">Next action</span>
+              <p data-en="Rewrite two experience bullets as quantified outcomes — your score updates as you type." data-id="Tulis ulang dua poin pengalaman sebagai hasil terkuantifikasi — skormu diperbarui saat kamu mengetik.">Rewrite two experience bullets as quantified outcomes — your score updates as you type.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="demo-cap" data-en="Illustrative preview of the Graduate dashboard. Your own data comes from your CV and your free Career Map." data-id="Pratinjau ilustratif dasbor Lulusan. Datamu sendiri berasal dari CV-mu dan Career Map gratismu.">Illustrative preview of the Graduate dashboard. Your own data comes from your CV and your free Career Map.</p>
+    </div>
+    <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="Start the loop — free Career Map →" data-id="Mulai alurnya — Career Map gratis →">Start the loop — free Career Map →</a></div>
+  </div>
+</section>
+
 <!-- ═══ CTA + FAQ ═══ -->
 <section class="cta-sec" id="cta">
   <div class="cta-banner">
     <img class="cta-banner-img" src="../assets/bg/journey-start.jpg" alt="" loading="lazy">
     <div class="cta-veil" aria-hidden="true"></div>
     <div class="cta-in reveal">
-      <blockquote class="cta-quote"><span data-en="“Direction is the foundation. Preparation is the advantage. The offer is the proof.”" data-id="“Arah adalah fondasi. Persiapan adalah keunggulan. Tawarannya adalah buktinya.”">“Direction is the foundation. Preparation is the advantage. The offer is the proof.”</span><cite>A Metanoia Graduate · Batch 2025</cite></blockquote>
+      <blockquote class="cta-quote"><span data-en="“Direction is the foundation. Preparation is the advantage. The offer is the proof.”" data-id="“Arah adalah fondasi. Persiapan adalah keunggulan. Tawarannya adalah buktinya.”">“Direction is the foundation. Preparation is the advantage. The offer is the proof.”</span><cite>Metanoia Labs</cite></blockquote>
       <h2 class="cta-head" data-en="Your first offer is a system, not a lottery. <em>Build yours today.</em>" data-id="Tawaran pertamamu adalah sebuah sistem, bukan lotere. <em>Bangun milikmu hari ini.</em>">Your first offer is a system, not a lottery. <em>Build yours today.</em></h2>
       <p class="cta-sub" data-en="Metanoia gives you the direction, documents, practice, and plan to enter the market as the candidate companies actually want to hire. Start with your free Career Map — it takes 15 minutes." data-id="Metanoia memberimu arah, dokumen, latihan, dan rencana untuk memasuki pasar sebagai kandidat yang benar-benar ingin direkrut perusahaan. Mulai dengan Career Map gratismu — hanya 15 menit.">Metanoia gives you the direction, documents, practice, and plan to enter the market as the candidate companies actually want to hire. Start with your free Career Map — it takes 15 minutes.</p>
       <div class="cta-actions">
@@ -812,28 +1119,28 @@
       <h3 class="faq-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h3>
       <div class="faq-list">
         <div class="faq-item">
-          <button class="faq-q"><span data-en="I graduated 8 months ago and still don’t have a job. Is it too late?" data-id="Saya wisuda 8 bulan lalu dan masih belum dapat pekerjaan. Apakah sudah terlambat?">I graduated 8 months ago and still don’t have a job. Is it too late?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them." data-id="Tidak — tetapi pertanyaan yang tepat adalah apakah kamu sudah melamar secara strategis atau sekadar massal. Kebanyakan pencarian kerja yang berlarut-larut gagal bukan karena kurang usaha, tapi karena kurang arah: melamar secara luas, mempresentasikan CV yang generik, dan berlatih wawancara sendiri tanpa umpan balik. Metanoia dirancang khusus untuk memperbaiki ketiga masalah ini, tidak peduli sudah berapa lama kamu mencari. Pasar masih punya lowongan terbuka. Kamu butuh sistem yang tepat untuk mencapainya.">No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-1"><span data-en="I graduated 8 months ago and still don’t have a job. Is it too late?" data-id="Saya wisuda 8 bulan lalu dan masih belum dapat pekerjaan. Apakah sudah terlambat?">I graduated 8 months ago and still don’t have a job. Is it too late?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-1" data-en="No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them." data-id="Tidak — tetapi pertanyaan yang tepat adalah apakah kamu sudah melamar secara strategis atau sekadar massal. Kebanyakan pencarian kerja yang berlarut-larut gagal bukan karena kurang usaha, tapi karena kurang arah: melamar secara luas, mempresentasikan CV yang generik, dan berlatih wawancara sendiri tanpa umpan balik. Metanoia dirancang khusus untuk memperbaiki ketiga masalah ini, tidak peduli sudah berapa lama kamu mencari. Pasar masih punya lowongan terbuka. Kamu butuh sistem yang tepat untuk mencapainya.">No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="What does Metanoia Premium include, and how much does it cost?" data-id="Apa yang termasuk dalam Metanoia Premium, dan berapa biayanya?">What does Metanoia Premium include, and how much does it cost?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Climb tracker — plus the authenticated Career Portal with your personalised 90-day route. Your Career Map diagnostic is always free. Subscription pricing is available on the membership page, with student-friendly monthly and semester plans." data-id="Metanoia Premium untuk Lulusan Baru memberimu akses penuh ke semua lima produk — Project Aladin (Edisi Arah), The Application Engine, Interview Mastery, Beasiswa &amp; Program Lulusan, dan pelacak The Climb — ditambah Portal Karier terotentikasi dengan rute 90 hari personal. Diagnostik Career Map selalu gratis. Harga langganan tersedia di halaman keanggotaan, dengan paket bulanan dan semester yang ramah mahasiswa.">Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Climb tracker — plus the authenticated Career Portal with your personalised 90-day route. Your Career Map diagnostic is always free. Subscription pricing is available on the membership page, with student-friendly monthly and semester plans.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="What does Metanoia Premium include, and how much does it cost?" data-id="Apa yang termasuk dalam Metanoia Premium, dan berapa biayanya?">What does Metanoia Premium include, and how much does it cost?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-2" data-en="Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Climb tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans." data-id="Metanoia Premium untuk Lulusan Baru memberimu akses penuh ke semua lima produk — Project Aladin (Edisi Arah), The Application Engine, Interview Mastery, Beasiswa &amp; Program Lulusan, dan pelacak The Climb — ditambah Portal Karier terotentikasi dengan rute 90 hari personal. Diagnostik Career Map selalu gratis. Harga ditampilkan saat kamu membuat akun gratis, dengan paket bulanan dan semester yang ramah mahasiswa.">Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Climb tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="I don’t have any internship experience. Can Metanoia still help me?" data-id="Saya tidak punya pengalaman magang sama sekali. Apakah Metanoia masih bisa membantu saya?">I don’t have any internship experience. Can Metanoia still help me?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organisation roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it." data-id="Ya — dan inilah target utama Metanoia. The Application Engine mengajarkanmu untuk membingkai ulang apa yang sudah kamu miliki: proyek akademis, peran organisasi, kerja sukarela, bahkan mata kuliah bisa disajikan sebagai bukti kemampuan yang meyakinkan jika disusun dengan benar. Project Aladin juga akan membantumu memahami jabatan mana yang realistis berdasarkan profilmu saat ini — dan pengalaman apa yang perlu cepat dibangun untuk memperkuatnya.">Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organisation roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-3"><span data-en="I don’t have any internship experience. Can Metanoia still help me?" data-id="Saya tidak punya pengalaman magang sama sekali. Apakah Metanoia masih bisa membantu saya?">I don’t have any internship experience. Can Metanoia still help me?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-3" data-en="Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it." data-id="Ya — dan inilah target utama Metanoia. The Application Engine mengajarkanmu untuk membingkai ulang apa yang sudah kamu miliki: proyek akademis, peran organisasi, kerja sukarela, bahkan mata kuliah bisa disajikan sebagai bukti kemampuan yang meyakinkan jika disusun dengan benar. Project Aladin juga akan membantumu memahami jabatan mana yang realistis berdasarkan profilmu saat ini — dan pengalaman apa yang perlu cepat dibangun untuk memperkuatnya.">Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?" data-id="Apa bedanya Metanoia dengan sekadar menonton YouTube atau menggunakan ChatGPT untuk CV saya?">How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="YouTube gives you information. ChatGPT can generate text. Metanoia gives you a system applied to your specific situation. Your Career Map tells you exactly which gaps you need to close, in what order, given your target role. Your interview practice session knows what you said last week and targets your actual weak points. Your 90-day route is built around your specific timeline. The difference is personalisation and accountability — not content volume." data-id="YouTube memberimu informasi. ChatGPT bisa menghasilkan teks. Metanoia memberimu sistem yang diterapkan pada situasimu yang spesifik. Career Map-mu menunjukkan persis celah apa yang perlu kamu tutup, dalam urutan apa, berdasarkan jabatan target. Sesi latihan wawancaramu mengetahui apa yang kamu katakan minggu lalu dan menarget titik lemahmu yang sebenarnya. Rute 90 harimu dibangun berdasarkan garis waktumu yang spesifik. Perbedaannya adalah personalisasi dan akuntabilitas — bukan volume konten.">YouTube gives you information. ChatGPT can generate text. Metanoia gives you a system applied to your specific situation. Your Career Map tells you exactly which gaps you need to close, in what order, given your target role. Your interview practice session knows what you said last week and targets your actual weak points. Your 90-day route is built around your specific timeline. The difference is personalisation and accountability — not content volume.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-4"><span data-en="How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?" data-id="Apa bedanya Metanoia dengan sekadar menonton YouTube atau menggunakan ChatGPT untuk CV saya?">How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-4" data-en="YouTube gives you information. ChatGPT can generate text. Metanoia gives you a system applied to your specific situation. Your Career Map tells you exactly which gaps you need to close, in what order, given your target role. Your interview practice session knows what you said last week and targets your actual weak points. Your 90-day route is built around your specific timeline. The difference is personalization and accountability — not content volume." data-id="YouTube memberimu informasi. ChatGPT bisa menghasilkan teks. Metanoia memberimu sistem yang diterapkan pada situasimu yang spesifik. Career Map-mu menunjukkan persis celah apa yang perlu kamu tutup, dalam urutan apa, berdasarkan jabatan target. Sesi latihan wawancaramu mengetahui apa yang kamu katakan minggu lalu dan menarget titik lemahmu yang sebenarnya. Rute 90 harimu dibangun berdasarkan garis waktumu yang spesifik. Perbedaannya adalah personalizasi dan akuntabilitas — bukan volume konten.">YouTube gives you information. ChatGPT can generate text. Metanoia gives you a system applied to your specific situation. Your Career Map tells you exactly which gaps you need to close, in what order, given your target role. Your interview practice session knows what you said last week and targets your actual weak points. Your 90-day route is built around your specific timeline. The difference is personalization and accountability — not content volume.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="Should I apply for LPDP first or focus on getting a job?" data-id="Apakah saya harus mendaftar LPDP terlebih dahulu atau fokus mencari pekerjaan?">Should I apply for LPDP first or focus on getting a job?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="It depends on your goal, your readiness, and your financial situation — and Metanoia can help you decide. If your target career path clearly benefits from an advanced degree (academia, policy, certain management consulting tracks), LPDP-first can be the right move. If your career goal is achievable without a master’s, or if you’re not yet competitive for LPDP, building 1–2 years of professional experience first typically strengthens both your LPDP application and your career trajectory. The Scholarship &amp; Graduate Programs product walks through this decision framework specifically." data-id="Itu tergantung pada tujuanmu, kesiapanmu, dan situasi keuanganmu — dan Metanoia bisa membantumu memutuskan. Jika jalur karier targetmu jelas mendapat manfaat dari gelar lanjut (akademisi, kebijakan, jalur konsulting manajemen tertentu), mendaftar LPDP terlebih dahulu bisa menjadi langkah yang tepat. Jika tujuan kariermu bisa dicapai tanpa S2, atau jika kamu belum kompetitif untuk LPDP, membangun 1–2 tahun pengalaman profesional terlebih dahulu biasanya memperkuat baik lamaran LPDP maupun trajektori kariermu. Produk Beasiswa &amp; Program Lulusan membahas kerangka keputusan ini secara khusus.">It depends on your goal, your readiness, and your financial situation — and Metanoia can help you decide. If your target career path clearly benefits from an advanced degree (academia, policy, certain management consulting tracks), LPDP-first can be the right move. If your career goal is achievable without a master’s, or if you’re not yet competitive for LPDP, building 1–2 years of professional experience first typically strengthens both your LPDP application and your career trajectory. The Scholarship &amp; Graduate Programs product walks through this decision framework specifically.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-5"><span data-en="Should I apply for LPDP first or focus on getting a job?" data-id="Apakah saya harus mendaftar LPDP terlebih dahulu atau fokus mencari pekerjaan?">Should I apply for LPDP first or focus on getting a job?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-5" data-en="It depends on your goal, your readiness, and your financial situation — and Metanoia can help you decide. If your target career path clearly benefits from an advanced degree (academia, policy, certain management consulting tracks), LPDP-first can be the right move. If your career goal is achievable without a master’s, or if you’re not yet competitive for LPDP, building 1–2 years of professional experience first typically strengthens both your LPDP application and your career trajectory. The Scholarship &amp; Graduate Programs product walks through this decision framework specifically." data-id="Itu tergantung pada tujuanmu, kesiapanmu, dan situasi keuanganmu — dan Metanoia bisa membantumu memutuskan. Jika jalur karier targetmu jelas mendapat manfaat dari gelar lanjut (akademisi, kebijakan, jalur konsulting manajemen tertentu), mendaftar LPDP terlebih dahulu bisa menjadi langkah yang tepat. Jika tujuan kariermu bisa dicapai tanpa S2, atau jika kamu belum kompetitif untuk LPDP, membangun 1–2 tahun pengalaman profesional terlebih dahulu biasanya memperkuat baik lamaran LPDP maupun trajektori kariermu. Produk Beasiswa &amp; Program Lulusan membahas kerangka keputusan ini secara khusus.">It depends on your goal, your readiness, and your financial situation — and Metanoia can help you decide. If your target career path clearly benefits from an advanced degree (academia, policy, certain management consulting tracks), LPDP-first can be the right move. If your career goal is achievable without a master’s, or if you’re not yet competitive for LPDP, building 1–2 years of professional experience first typically strengthens both your LPDP application and your career trajectory. The Scholarship &amp; Graduate Programs product walks through this decision framework specifically.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q"><span data-en="My degree is in a different field from the career I want. What should I do?" data-id="Gelar saya berbeda bidang dengan karier yang saya inginkan. Apa yang harus saya lakukan?">My degree is in a different field from the career I want. What should I do?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" data-en="A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Many Metanoia members have successfully transitioned into consulting, product management, finance, and other competitive fields from unrelated degrees." data-id="Ketidaksesuaian gelar sangat umum, bisa dikelola, dan seringkali menjadi keunggulan jika dibingkai dengan benar. Kebanyakan jabatan — terutama di tingkat karier awal — merekrut berdasarkan kemampuan yang terbukti dan potensi, bukan berdasarkan gelar tertentu. Project Aladin akan membantumu mengidentifikasi keterampilan yang dapat dialihkan yang dibangun oleh gelarmu, memahami industri mana yang benar-benar dapat kamu masuki, dan memposisikan latar belakangmu sebagai perspektif yang berbeda daripada sebagai kekurangan. Banyak anggota Metanoia telah berhasil berpindah ke konsulting, manajemen produk, keuangan, dan bidang kompetitif lainnya dari gelar yang tidak terkait.">A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Many Metanoia members have successfully transitioned into consulting, product management, finance, and other competitive fields from unrelated degrees.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="My degree is in a different field from the career I want. What should I do?" data-id="Gelar saya berbeda bidang dengan karier yang saya inginkan. Apa yang harus saya lakukan?">My degree is in a different field from the career I want. What should I do?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-6" data-en="A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Many Metanoia members have successfully transitioned into consulting, product management, finance, and other competitive fields from unrelated degrees." data-id="Ketidaksesuaian gelar sangat umum, bisa dikelola, dan seringkali menjadi keunggulan jika dibingkai dengan benar. Kebanyakan jabatan — terutama di tingkat karier awal — merekrut berdasarkan kemampuan yang terbukti dan potensi, bukan berdasarkan gelar tertentu. Project Aladin akan membantumu mengidentifikasi keterampilan yang dapat dialihkan yang dibangun oleh gelarmu, memahami industri mana yang benar-benar dapat kamu masuki, dan memposisikan latar belakangmu sebagai perspektif yang berbeda daripada sebagai kekurangan. Banyak anggota Metanoia telah berhasil berpindah ke konsulting, manajemen produk, keuangan, dan bidang kompetitif lainnya dari gelar yang tidak terkait.">A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Many Metanoia members have successfully transitioned into consulting, product management, finance, and other competitive fields from unrelated degrees.</div>
         </div>
       </div>
     </div>
@@ -957,15 +1264,47 @@ if(vid){
   setTimeout(()=>{ if(vid.readyState < 2) showFallback(); }, 1800);
 }
 
-/* ─── FAQ accordion ─── */
+/* ─── FAQ accordion (aria-synced) ─── */
 document.querySelectorAll('.faq-q').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     const item = btn.closest('.faq-item');
     const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
-    if(!isOpen) item.classList.add('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>{
+      i.classList.remove('open');
+      const b = i.querySelector('.faq-q'); if(b) b.setAttribute('aria-expanded','false');
+    });
+    if(!isOpen){ item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
   });
 });
+
+/* ─── Chapter I parallax (subtle, reduced-motion aware) ─── */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const parImg = document.querySelector('.nar-visual img');
+if(parImg && !reduceMotion){
+  let pTick = false;
+  const par = ()=>{
+    const r = parImg.getBoundingClientRect();
+    const mid = r.top + r.height/2 - innerHeight/2;
+    const y = Math.max(-18, Math.min(18, mid * -0.045));
+    parImg.style.transform = 'translateY(' + y.toFixed(1) + 'px) scale(1.06)';
+    pTick = false;
+  };
+  addEventListener('scroll', ()=>{ if(!pTick){ requestAnimationFrame(par); pTick = true; } }, {passive:true});
+  par();
+}
+
+/* ─── Enterprise contact form → structured email ─── */
+const cform = document.getElementById('cform');
+if(cform){
+  cform.addEventListener('submit', e=>{
+    e.preventDefault();
+    const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
+    const subject = 'Enterprise Inquiry — ' + (v('cf-interest')||'General') + (v('cf-company') ? ' — ' + v('cf-company') : '');
+    const body = ['Name: ' + v('cf-name'), 'Company: ' + v('cf-company'), 'Role: ' + v('cf-role'),
+      'Cohort size: ' + v('cf-size'), 'Interest: ' + v('cf-interest'), '', v('cf-msg')].join('\n');
+    location.href = 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+}
 
 /* ─── Scroll reveal ─── */
 const revealObserver = new IntersectionObserver((entries)=>{
