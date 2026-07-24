@@ -215,22 +215,6 @@
   .cta.soft{background:transparent;color:var(--accent-text);box-shadow:none;
       border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent)}
   .cta.soft:hover{background:color-mix(in srgb,var(--accent-text) 10%,transparent)}
-  /* — proof: counters + testimonial (Chapter IV) — */
-  .proof{display:flex;gap:clamp(26px,4vw,54px);justify-content:center;margin-top:36px;flex-wrap:wrap}
-  .pstat b{display:flex;align-items:baseline;justify-content:center;white-space:nowrap;
-      font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:700;color:var(--accent-text);line-height:1}
-  .pstat span{display:block;font-size:11px;color:var(--muted);letter-spacing:.08em;
-      text-transform:uppercase;margin-top:7px;max-width:170px}
-  .ptesti{margin:32px auto 0;max-width:600px;display:flex;flex-direction:column;align-items:center;gap:12px}
-  .pavatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-      font-weight:700;font-size:15px;letter-spacing:.05em;color:#241800;
-      background:linear-gradient(135deg,var(--ember2),#FFD98A);
-      box-shadow:0 6px 20px rgba(249,115,22,.35)}
-  .ptesti blockquote{margin:0;font-family:var(--serif);font-style:italic;
-      font-size:clamp(1rem,1.7vw,1.2rem);line-height:1.6;text-wrap:balance}
-  .ptesti cite{font-style:normal;font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
-  body.m .proof{gap:22px}
-  body.m .ptesti blockquote{font-size:1rem}
 
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
   @media(max-width:840px){.cards{grid-template-columns:1fr;gap:12px}}
@@ -723,16 +707,6 @@
         <span class="chapter fx" data-i18n="summit.ch">Chapter IV · Sunrise</span>
         <h2 class="fx" data-i18n="summit.h2">When can you start?</h2>
         <p class="lede fx d1" data-i18n="summit.lede">Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.</p>
-        <div class="proof fx d2">
-          <div class="pstat"><b><span data-count="12000">0</span>+</b><span data-i18n="proof.s1">students on the climb</span></div>
-          <div class="pstat"><b><span data-count="87">0</span>%</b><span data-i18n="proof.s2">report clearer direction within 30 days</span></div>
-          <div class="pstat"><b><span data-count="500">0</span>+</b><span data-i18n="proof.s3">mentor sessions hosted</span></div>
-        </div>
-        <div class="ptesti fx d3">
-          <span class="pavatar" aria-hidden="true">SA</span>
-          <blockquote data-i18n="proof.q">“Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.”</blockquote>
-          <cite data-i18n="proof.qa">Sinta A. — Management ’25 · Business Analyst offer</cite>
-        </div>
         <p class="voice fx d4" data-i18n="summit.voice">“The view was never the point. <em>Look who you became on the way up.</em>”</p>
       </div>
     </div>
@@ -825,9 +799,6 @@
       'hero.cta':'Begin the Climb',
       'nav.cta':'Free Career Map','nav.cta2':'Get your free Career Map →',
       'climb.cta':'Find your starting point — free, 15 minutes',
-      'proof.s1':'students on the climb','proof.s2':'report clearer direction within 30 days','proof.s3':'mentor sessions hosted',
-      'proof.q':'“Forty applications into silence, I joined the rope team. Two months later I signed my offer — and I knew exactly why it worked.”',
-      'proof.qa':'Sinta A. — Management ’25 · Business Analyst offer',
       'prep.ch':'Chapter I · First light','prep.eye':'Preparation',
       'prep.h2':'No one summits on talent alone. They summit prepared.',
       'prep.lede':"Privileged climbers arrive with routes marked and packs filled by people who've climbed before. Metanoia packs yours: a readiness diagnostic that maps your true starting point, then a personalized route to your target role.",
@@ -911,9 +882,6 @@
       'hero.cta':'Mulai Pendakian',
       'nav.cta':'Career Map Gratis','nav.cta2':'Ambil Career Map Gratis →',
       'climb.cta':'Temukan titik awalmu — gratis, 15 menit',
-      'proof.s1':'mahasiswa dalam pendakian','proof.s2':'merasa arah lebih jelas dalam 30 hari','proof.s3':'sesi mentoring terselenggara',
-      'proof.q':'“Empat puluh lamaran tanpa jawaban, lalu aku bergabung dengan rope team. Dua bulan kemudian aku menandatangani offer — dan aku tahu persis mengapa berhasil.”',
-      'proof.qa':'Sinta A. — Manajemen ’25 · Offer Business Analyst',
       'prep.ch':'Bab I · Cahaya pertama','prep.eye':'Persiapan',
       'prep.h2':'Tak ada yang sampai ke puncak dengan modal bakat saja. Mereka sampai karena siap.',
       'prep.lede':'Pendaki yang beruntung datang dengan rute yang sudah ditandai dan ransel yang diisikan orang lain. Metanoia membantu mengisi ransel perjalananmu melalui asesmen kesiapan yang memetakan titik awalmu secara objektif, lalu menyusun rute yang dipersonalisasi menuju peran yang selama ini kamu impikan.',
