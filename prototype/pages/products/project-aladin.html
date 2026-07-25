@@ -1202,12 +1202,15 @@ const isDemoMode = params.get('demo') === 'true';
 let isAuthenticated = false, isPremium = false;
 try {
   isAuthenticated = sessionStorage.getItem('metanoia_auth') === 'true' || !!localStorage.getItem('metanoia_session');
-  isPremium = sessionStorage.getItem('metanoia_premium') === 'true';
+  /* Metanoia membership includes Premium access on this platform.
+     Only an explicit 'false' flag (future billing states) raises the upgrade prompt. */
+  isPremium = isAuthenticated && sessionStorage.getItem('metanoia_premium') !== 'false';
 } catch (e) {}
 function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.add('show'); }
 if (!isDemoMode) {
   if (!isAuthenticated) {
-    window.location.replace('../../register.html?redirect=' + encodeURIComponent('pages/products/project-aladin.html'));
+    /* returning members sign in; login carries the redirect through to register for new visitors */
+    window.location.replace('../../login.html?redirect=' + encodeURIComponent('pages/products/project-aladin.html'));
   } else if (!isPremium) {
     showUpgradePrompt();
   }
