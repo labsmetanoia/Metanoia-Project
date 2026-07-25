@@ -230,8 +230,9 @@
   .rp-cover .cfoot{margin-top:auto;border-top:1px solid rgba(245,239,230,.28);padding-top:14px;
     font-size:8pt;color:rgba(245,239,230,.75);line-height:1.7;display:flex;justify-content:space-between;align-items:flex-end}
   /* exec */
-  .exec-grid{display:flex;gap:34px;margin-top:8px}
-  .exec-grid .l{flex:1} .exec-grid .r{flex:1;display:flex;align-items:flex-start;justify-content:center}
+  .exec-grid{display:flex;gap:24px;margin-top:8px}
+  .exec-grid .l{flex:1}
+  .exec-grid .r{flex:0 0 372px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:2px}
   .h-ember{font-size:14pt;font-weight:700;color:var(--accent-print)}
   .exec-narr{font-size:10pt;line-height:1.7;color:#374151;margin-top:12px}
   .exec-narr p{margin-bottom:10px}
@@ -403,7 +404,21 @@
   .gate-small{color:rgba(255,255,255,.45);font-size:.85rem;margin-top:20px}
   .loadpct{font-size:2rem;font-weight:800;color:var(--gold-light);margin-top:14px;font-variant-numeric:tabular-nums}
   .cmpline{margin-top:10px;font-size:8.6pt;color:#8B6914;font-weight:700}
-  .radar-cap{font-size:7.6pt;color:#6B7280;margin-top:6px;text-align:center;max-width:300px}
+  .radar-cap{font-size:7.4pt;color:#6B7280;margin-top:0;text-align:center;max-width:340px;line-height:1.45}
+  /* page-2 visual band — image keyed to the user's steepest dimension */
+  .rp-exec .rpad{padding-bottom:24px}
+  .rp-exec .exec-narr{font-size:9.4pt;line-height:1.62}
+  .rp-exec .scorebars{margin-top:16px}
+  .rp-exec .exec-meta{margin-top:8px}
+  .exec-visual{position:relative;height:148px;border-radius:10px;overflow:hidden;margin-top:14px}
+  .exec-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 38%;display:block}
+  .exec-visual .ev-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,13,24,.06) 30%,rgba(7,13,24,.78) 100%)}
+  .exec-visual .ev-txt{position:absolute;left:20px;right:20px;bottom:14px;color:#fff}
+  .exec-visual .ev-txt b{display:block;font-size:10.5pt;font-weight:800;letter-spacing:.02em}
+  .exec-visual .ev-txt span{display:block;font-size:8pt;color:rgba(255,255,255,.82);margin-top:2px}
+  /* final-page footer artwork (supplied "Footer for report" template) */
+  .ns-footimg{position:absolute;left:0;right:0;bottom:35px;height:430px;overflow:hidden}
+  .ns-footimg img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
   .ahead{margin-top:8px;font-size:8pt;font-weight:700;color:#8B6914}
   .rr-note{margin-top:18px;border:1px dashed rgba(139,105,20,.5);border-radius:10px;padding:12px 16px;font-size:9pt;
     color:#374151;background:#FAF8F3;line-height:1.6}
@@ -1696,7 +1711,7 @@ function svgDial(t,size,dark){
   </svg>`;
 }
 function svgRadar(scores,size){
-  const cx=size/2, cy=size/2+8, R=size*0.32, n=5;
+  const cx=size/2, cy=size/2+8, R=size*0.32, n=5, fs=size/300;
   const pt=(i,f)=>{const a=-Math.PI/2+i*2*Math.PI/n;return[cx+Math.cos(a)*R*f,cy+Math.sin(a)*R*f];};
   let rings='';
   for(let ring=1;ring<=5;ring++){
@@ -1708,13 +1723,14 @@ function svgRadar(scores,size){
   const ref=`<polygon points="${rpts}" fill="none" stroke="#8B6914" stroke-width="1.4" stroke-dasharray="5 4" opacity=".75"/>`;
   const spts=scores.map((s,i)=>pt(i,Math.max(.06,s/15)));
   const poly=spts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
-  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="4" fill="#C9A84C" stroke="#fff" stroke-width="1.6"/>`).join('');
+  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${(4*fs).toFixed(1)}" fill="#C9A84C" stroke="#fff" stroke-width="1.6"/>`).join('');
   let labels='';
   const two=DIMS.map(d=>d.name.split(' '));
   for(let i=0;i<n;i++){ const[a,b]=pt(i,1.28);
-    const lines=two[i].map((w,li)=>`<tspan x="${a.toFixed(1)}" dy="${li?11:0}">${w}</tspan>`).join('');
-    labels+=`<text x="${a.toFixed(1)}" y="${(b-6).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="600" fill="#334155" font-family="Inter,sans-serif">${lines}</text>
-      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*11+3).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="800" fill="#8B6914" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
+    const lh=11*fs;
+    const lines=two[i].map((w,li)=>`<tspan x="${a.toFixed(1)}" dy="${li?lh.toFixed(1):0}">${w}</tspan>`).join('');
+    labels+=`<text x="${a.toFixed(1)}" y="${(b-6).toFixed(1)}" text-anchor="middle" font-size="${(9.5*fs).toFixed(1)}" font-weight="600" fill="#334155" font-family="Inter,sans-serif">${lines}</text>
+      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*lh+3*fs).toFixed(1)}" text-anchor="middle" font-size="${(9.5*fs).toFixed(1)}" font-weight="800" fill="#8B6914" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
   }
   return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${rings}${axes}${ref}
     <polygon points="${poly}" fill="rgba(201,168,76,0.3)" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
@@ -1811,6 +1827,7 @@ const RT={
      cmp:p=>`You scored higher than ${p}% of ${STATUS_EN[S.profile.status??1]||'candidates'} who have taken this assessment.`,
      radarCap:'Dashed line: the typical threshold for competitive readiness in your target sector (60%).',
      ahead:p=>`This puts you ahead of roughly ${p}% of candidates at your stage.`,
+     evLine:'Your steepest face — where your 90-day route begins.',
      rrT:'Track your climb. Come back in 30 days and retake this assessment.',
      rrS:'Climbers who measure their progress reach the summit faster. Your results stay private to you.'},
  id:{coverKick:'Laporan Career Intelligence',pf:'Disiapkan untuk',bandOf:(lv,d)=>`Band ${lv} dari 5 · ${d}`,
@@ -1834,6 +1851,7 @@ const RT={
      cmp:p=>`Skormu lebih tinggi dari ${p}% ${STATUS_IDN[S.profile.status??1]||'kandidat'} yang telah mengambil asesmen ini.`,
      radarCap:'Garis putus-putus: ambang tipikal kesiapan kompetitif di sektor targetmu (60%).',
      ahead:p=>`Ini menempatkanmu di depan kira-kira ${p}% kandidat di tahapmu.`,
+     evLine:'Sisi tercuramu — tempat rute 90 harimu dimulai.',
      rrT:'Lacak pendakianmu. Kembalilah dalam 30 hari dan ulangi asesmen ini.',
      rrS:'Pendaki yang mengukur kemajuannya mencapai puncak lebih cepat. Hasilmu tetap privat milikmu.'}
 };
@@ -1874,7 +1892,7 @@ function buildReport(){
   const paras=positionNarrative(t,bd,scores);
   const pct=scores.map(s=>Math.round(s/15*100));
   R.insertAdjacentHTML('beforeend',`
-  <div class="report-page">${rphead()}
+  <div class="report-page rp-exec">${rphead()}
     <div class="rpad">
       ${kick('01',L.k1,'exec')}
       <div class="rtitle report-section-header">${L.execTitle}</div>
@@ -1886,16 +1904,21 @@ function buildReport(){
         <div class="stat"><div class="l">${rIcon('steep','#8B6914',11,2)}${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
       </div>
       ${bandScale(t,bd.lv)}
-      <div class="exec-grid" style="margin-top:16px">
+      <div class="exec-grid" style="margin-top:10px">
         <div class="l">
           <div class="exec-narr">${paras.map(p=>`<p>${p}</p>`).join('')}</div>
           <div class="callout">${L.callout(bd)}</div>
         </div>
-        <div class="r">${svgRadar(scores,300)}<div class="radar-cap">${L.radarCap}</div></div>
+        <div class="r">${svgRadar(scores,364)}<div class="radar-cap">${L.radarCap}</div></div>
       </div>
       <div class="scorebars">
         ${DIMS.map((d,i)=>`<div class="col"><div class="nm">${d.name}</div><div class="pc">${pct[i]}%</div>
           <div class="tr"><div class="fl" style="width:${pct[i]}%"></div></div></div>`).join('')}
+      </div>
+      <div class="exec-visual">
+        <img src="${['assets/bg/map.jpg','assets/bg/pack.jpg','assets/bg/rope.jpg','assets/bg/rope-team.jpg','assets/bg/journey-start.jpg'][scores.indexOf(Math.min(...scores))]}" alt="">
+        <div class="ev-shade"></div>
+        <div class="ev-txt"><b>${DIMS[scores.indexOf(Math.min(...scores))].name} · ${DIMS[scores.indexOf(Math.min(...scores))].metaname}</b><span>${L.evLine}</span></div>
       </div>
       <div class="exec-meta">${L.method(dateStr)}</div>
     </div>${rpfoot(pageNo)}
@@ -2048,7 +2071,9 @@ function buildReport(){
       <a class="ns-cta" href="landing.html">${L.nsCta}</a>
       <div class="rr-note"><b>${L.rrT}</b><br>${L.rrS}</div>
       <div class="ns-url">metanoialabs.net</div>
-    </div>${rpfoot(pageNo)}
+    </div>
+    <div class="ns-footimg"><img src="assets/bg/report-footer.jpg" alt="Your journey starts here — find the right tools for your ambitions. Start today."></div>
+    ${rpfoot(pageNo)}
   </div>`);
 
   /* hidden fields + done screen data */
