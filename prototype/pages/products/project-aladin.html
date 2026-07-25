@@ -29,6 +29,11 @@
   html,body{margin:0}
   body{display:flex;flex-direction:column;min-height:100vh;background:var(--bg-base);color:var(--text);
     font-family:var(--font);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  /* page-wide Aladdin backdrop — fixed art layer + readability veil behind every tab */
+  body::before{content:'';position:fixed;inset:0;z-index:-2;
+    background:#050A12 url('../../assets/bg/aladdin-hero.jpg') center 28%/cover no-repeat}
+  body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+    linear-gradient(180deg,rgba(5,10,18,.82) 0%,rgba(5,10,18,.87) 50%,rgba(5,10,18,.93) 100%)}
   h1,h2,h3,h4{margin:0;line-height:1.25}
   p{margin:0} button{font-family:inherit;cursor:pointer}
   a{color:inherit}
