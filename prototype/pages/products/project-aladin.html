@@ -25,10 +25,20 @@
     --font:'Inter',sans-serif; --serif:"Playfair Display",Georgia,serif;
     color-scheme:dark;
   }
+  /* ═══ LIGHT THEME — token flip (shared mt-theme key, site standard) ═══ */
+  :root[data-theme="light"]{
+    --bg-base:#EEF1F6; --bg-dark:#E6EAF1; --bg-mid:#E2E8F0; --bg-panel:#DDE4EE;
+    --gold:#8A6A14; --gold-bright:#B4891F; --gold-deep:#6B5210;
+    --gold-border:rgba(122,90,16,.22); --gold-border-hover:rgba(122,90,16,.46); --gold-glow:rgba(154,123,36,.10);
+    --glass-bg:rgba(255,255,255,.82); --glass-blur:blur(20px);
+    --text:#1B2434; --text-sub:rgba(27,36,52,.82); --text-muted:rgba(27,36,52,.60); --text-faint:rgba(27,36,52,.38);
+    color-scheme:light;
+  }
   *{box-sizing:border-box}
   html,body{margin:0}
   body{display:flex;flex-direction:column;min-height:100vh;background:var(--bg-base);color:var(--text);
-    font-family:var(--font);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+    font-family:var(--font);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;
+    transition:background-color .45s ease,color .45s ease}
   /* page-wide Aladdin backdrop — fixed art layer + readability veil behind every tab */
   body::before{content:'';position:fixed;inset:0;z-index:-2;
     background:#050A12 url('../../assets/bg/aladdin-hero.jpg') center 28%/cover no-repeat}
@@ -56,6 +66,16 @@
   .ctl{display:flex;align-items:center;border:1px solid rgba(245,239,230,.3);border-radius:999px;overflow:hidden}
   .ctl button{background:none;border:0;color:var(--text-muted);font-size:11px;font-weight:800;letter-spacing:.06em;padding:7px 11px;transition:color .2s,background .2s}
   .ctl button[aria-pressed="true"]{color:#160d03;background:linear-gradient(120deg,#F59E0B,#F97316)}
+  .theme-btn{position:relative;width:34px;height:34px;border-radius:50%;border:1px solid rgba(245,239,230,.3);
+    background:transparent;color:var(--text-sub);display:flex;align-items:center;justify-content:center;flex:none;
+    transition:border-color .2s,color .2s}
+  .theme-btn:hover{border-color:var(--gold);color:var(--gold)}
+  .theme-btn svg{position:absolute;width:16px;height:16px;transition:opacity .35s ease,transform .35s ease}
+  .theme-btn .sun{opacity:0;transform:rotate(-60deg) scale(.6)}
+  .theme-btn .moon{opacity:1;transform:none}
+  :root[data-theme="light"] .theme-btn .sun{opacity:1;transform:none}
+  :root[data-theme="light"] .theme-btn .moon{opacity:0;transform:rotate(60deg) scale(.6)}
+  :root[data-theme="light"] .theme-btn{border-color:rgba(27,36,52,.30)}
   .avatar{width:32px;height:32px;border-radius:50%;border:1px solid rgba(201,168,76,.5);background:var(--bg-panel);
     display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:var(--gold);flex:none;text-decoration:none}
   .prem-badge{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#241800;
@@ -324,6 +344,48 @@
   .upgrade-card h2{font-size:1.4rem;font-weight:800;margin:14px 0 10px}
   .upgrade-card p{color:var(--text-sub);font-size:13.5px;line-height:1.7;margin-bottom:22px}
 
+  /* ═══ LIGHT THEME — chrome & surfaces (arch backdrop kept, veiled light) ═══ */
+  :root[data-theme="light"] body::after{background:
+    linear-gradient(180deg,rgba(238,241,246,.90) 0%,rgba(238,241,246,.93) 50%,rgba(238,241,246,.97) 100%)}
+  :root[data-theme="light"] .topbar{background:rgba(255,255,255,.92);border-bottom-color:rgba(122,90,16,.18)}
+  :root[data-theme="light"] .ctl{border-color:rgba(27,36,52,.30)}
+  :root[data-theme="light"] .avatar{background:#fff;border-color:rgba(122,90,16,.45)}
+  :root[data-theme="light"] .sidebar{background:rgba(250,251,253,.97);border-right-color:rgba(122,90,16,.18)}
+  :root[data-theme="light"] .gold-pill{background:rgba(138,106,20,.10);border-color:rgba(138,106,20,.32)}
+  :root[data-theme="light"] .nav-item:hover{background:rgba(138,106,20,.07)}
+  :root[data-theme="light"] .module-body{background:rgba(255,255,255,.62)}
+  :root[data-theme="light"] .lesson-card[data-status="available"]:hover{background:rgba(138,106,20,.06)}
+  :root[data-theme="light"] .cert-preview{background:#FDFCF8}
+  :root[data-theme="light"] .cert-preview.locked .cert-lock{background:rgba(238,241,246,.72)}
+  :root[data-theme="light"] .track-chip{color:#0A5D60;background:rgba(13,115,119,.10);border-color:rgba(13,115,119,.35)}
+  :root[data-theme="light"] .module-status.available{background:rgba(13,115,119,.10);color:#0A5D60;border-color:rgba(13,115,119,.35)}
+  :root[data-theme="light"] .assignment-status.available{color:#0A5D60;border-color:rgba(13,115,119,.4)}
+  :root[data-theme="light"] .grade-total{background:rgba(138,106,20,.08)}
+  :root[data-theme="light"] .course-hero{box-shadow:0 24px 56px rgba(27,36,52,.22)}
+  /* photo hero stays night art — pin its type to light-on-dark in both themes */
+  :root[data-theme="light"] .course-head{color:#fff}
+  :root[data-theme="light"] .course-head h1{color:#fff}
+  :root[data-theme="light"] .course-hero .tagline{color:#F0D878}
+  :root[data-theme="light"] .course-hero .gold-pill{color:#F0D878;background:rgba(201,168,76,.14);border-color:rgba(201,168,76,.35)}
+  :root[data-theme="light"] .course-hero .meta-row{color:rgba(255,255,255,.66)}
+  :root[data-theme="light"] .course-hero .meta-row span::after{color:rgba(255,255,255,.35)}
+  :root[data-theme="light"] .course-hero .course-progress-bar{background:rgba(255,255,255,.22)}
+  :root[data-theme="light"] .course-hero .progress-label{color:rgba(255,255,255,.66)}
+  :root[data-theme="light"] .course-hero .progress-fill{background:linear-gradient(90deg,#8B6914,#C9A84C)}
+  :root[data-theme="light"] .course-hero .btn-ghost{color:#F0D878;border-color:rgba(240,216,120,.5)}
+  :root[data-theme="light"] .course-hero .btn-ghost:hover{background:rgba(240,216,120,.12)}
+  :root[data-theme="light"] .course-hero .btn-ghost:disabled,:root[data-theme="light"] .course-hero .btn-disabled{color:rgba(255,255,255,.55);border-color:rgba(255,255,255,.25)}
+  /* gold CTAs keep the bright signature gradient in both themes */
+  :root[data-theme="light"] .btn-gold{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#160d03}
+  :root[data-theme="light"] .prem-badge{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800}
+  :root[data-theme="light"] .btn-start:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#160d03}
+  :root[data-theme="light"] .comp-dot.done{background:linear-gradient(135deg,#C9A84C,#F0D878);border-color:#B4891F}
+  :root[data-theme="light"] .mobile-tab-bar{background:rgba(250,251,253,.97);border-top-color:rgba(122,90,16,.18)}
+  :root[data-theme="light"] .upgrade-veil{background:rgba(238,241,246,.66)}
+  :root[data-theme="light"] .upgrade-card{background:rgba(255,255,255,.97);border-color:rgba(138,106,20,.4);box-shadow:0 40px 90px rgba(27,36,52,.28)}
+  .topbar,.sidebar,.glass-card,.module-body,.grade-row{
+    transition:background-color .45s ease,border-color .45s ease,color .45s ease}
+
   /* ═══ MOBILE ═══ */
   .mobile-tab-bar{display:none}
   @media(max-width:1080px){
@@ -356,6 +418,13 @@
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
+<script>
+/* apply saved theme before first paint (shared mt-theme key; dark is the page default) */
+(function(){try{var t=localStorage.getItem('mt-theme');
+if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t;}
+else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.documentElement.dataset.theme='light';}
+}catch(e){}})();
+</script>
 </head>
 <body>
 
@@ -379,6 +448,10 @@
       <button data-lang="en" aria-pressed="true">EN</button>
       <button data-lang="id" aria-pressed="false">ID</button>
     </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme" title="Toggle theme">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
     <a class="avatar" href="../../portal.html" id="avatar" aria-label="Your profile">M</a>
     <span class="prem-badge">Premium</span>
   </div>
@@ -1391,6 +1464,20 @@ document.querySelectorAll('.ctl button').forEach(b => {
   });
 });
 applyLang();
+
+/* ─── THEME TOGGLE (shared mt-theme key, site standard) ─── */
+const mtRoot = document.documentElement;
+const mqLight = window.matchMedia('(prefers-color-scheme: light)');
+function applyTheme(t, save) {
+  mtRoot.dataset.theme = t;
+  if (save) { try { localStorage.setItem('mt-theme', t); } catch (e) {} }
+}
+document.getElementById('themeBtn').addEventListener('click', () => {
+  applyTheme(mtRoot.dataset.theme === 'light' ? 'dark' : 'light', true);
+});
+mqLight.addEventListener('change', e => {
+  try { if (!localStorage.getItem('mt-theme')) applyTheme(e.matches ? 'light' : 'dark', false); } catch (err) {}
+});
 
 /* ─── SCROLL REVEAL ─── */
 const ro = new IntersectionObserver(entries => {

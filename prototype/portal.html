@@ -20,18 +20,34 @@
     --hairline:rgba(27,36,52,.10); --hairline-soft:rgba(27,36,52,.06);
     --card-shadow:0 1px 2px rgba(27,36,52,.04),0 10px 30px rgba(27,36,52,.07);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
+    --dial-track:rgba(27,36,52,.08);
     --sidebar-width:240px; --topbar-height:56px; --font:'Inter',sans-serif;
     color-scheme:light;
+  }
+  /* ═══ DARK THEME — token flip (shared mt-theme key, site standard) ═══ */
+  :root[data-theme="dark"]{
+    --bg-base:#0A1220; --paper:#101C2E; --paper-soft:#0E1929;
+    --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+    --gold-border:rgba(201,168,76,.28); --gold-border-hover:rgba(201,168,76,.52); --gold-glow:rgba(201,168,76,.12);
+    --glass-bg:rgba(13,22,38,.78); --glass-bg-heavy:rgba(13,22,38,.96);
+    --glass-border:rgba(255,255,255,.10); --glass-border-hover:rgba(201,168,76,.45);
+    --text:#F2F5FA; --text-sub:rgba(242,245,250,.82); --text-muted:rgba(242,245,250,.62); --text-faint:rgba(242,245,250,.40);
+    --hairline:rgba(255,255,255,.10); --hairline-soft:rgba(255,255,255,.06);
+    --card-shadow:0 1px 2px rgba(0,0,0,.25),0 10px 30px rgba(0,0,0,.35);
+    --dial-track:rgba(255,255,255,.12);
+    color-scheme:dark;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{font-family:var(--font);background:var(--bg-base);color:var(--text);-webkit-font-smoothing:antialiased;
-    text-rendering:optimizeLegibility}
+    text-rendering:optimizeLegibility;transition:background-color .45s ease,color .45s ease}
   /* photographic summit backdrop, fixed, behind the whole portal — washed to a
      luminous morning-light veil so the dashboard reads like paper */
   body::before{content:"";position:fixed;inset:0;z-index:-2;background:url('assets/bg/portal.jpg') center top/cover no-repeat}
   body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
     background:linear-gradient(180deg,rgba(240,243,248,.42) 0%,rgba(240,243,248,.66) 34%,rgba(238,241,246,.88) 68%,rgba(238,241,246,.94) 100%)}
+  :root[data-theme="dark"] body::after{
+    background:linear-gradient(180deg,rgba(7,12,22,.60) 0%,rgba(7,12,22,.76) 34%,rgba(8,13,24,.91) 68%,rgba(8,13,24,.96) 100%)}
   h1,h2,h3,h4{margin:0}
   p{text-wrap:pretty}
   button{font-family:inherit;cursor:pointer}
@@ -51,10 +67,30 @@
   .tb-bell{background:none;border:0;color:var(--text-muted);display:flex;position:relative;padding:6px;border-radius:8px;transition:color .2s,background .2s}
   .tb-bell:hover{color:var(--text);background:rgba(27,36,52,.05)}
   .tb-bell .dot{position:absolute;top:5px;right:6px;width:6px;height:6px;border-radius:50%;background:var(--amber);border:1.5px solid #fff}
+  .ctl{display:flex;border:1px solid rgba(27,36,52,.26);border-radius:999px;overflow:hidden;flex:none}
+  .ctl button{background:none;border:0;color:var(--text-muted);font-size:11px;font-weight:800;letter-spacing:.06em;padding:6px 10px;transition:color .2s,background .2s}
+  .ctl button[aria-pressed="true"]{color:#fff;background:linear-gradient(120deg,var(--gold),var(--gold-bright))}
+  :root[data-theme="dark"] .ctl{border-color:rgba(255,255,255,.26)}
+  :root[data-theme="dark"] .ctl button[aria-pressed="true"]{color:#241800}
+  .theme-btn{position:relative;width:32px;height:32px;border-radius:50%;border:1px solid rgba(27,36,52,.26);
+    background:transparent;color:var(--text-muted);display:flex;align-items:center;justify-content:center;flex:none;
+    transition:border-color .2s,color .2s}
+  .theme-btn:hover{border-color:var(--gold);color:var(--gold)}
+  .theme-btn svg{position:absolute;width:15px;height:15px;transition:opacity .35s ease,transform .35s ease}
+  .theme-btn .sun{opacity:1;transform:none}
+  .theme-btn .moon{opacity:0;transform:rotate(60deg) scale(.6)}
+  :root[data-theme="dark"] .theme-btn{border-color:rgba(255,255,255,.26)}
+  :root[data-theme="dark"] .theme-btn .sun{opacity:0;transform:rotate(-60deg) scale(.6)}
+  :root[data-theme="dark"] .theme-btn .moon{opacity:1;transform:none}
   .tb-user{display:flex;align-items:center;gap:9px}
   .tb-avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#1D5FAB,#0D7377);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff}
   .tb-name{font-size:13px;font-weight:600}
-  @media(max-width:768px){.tb-name{display:none}.position-pill{font-size:11px;padding:4px 11px}}
+  @media(max-width:768px){
+    .tb-name{display:none}.position-pill{font-size:10px;padding:4px 8px;white-space:nowrap}
+    .portal-topbar{padding:0 10px 0 0}.tb-lockup{padding:0 10px}.tb-right{gap:7px}
+    .ctl button{padding:5px 8px;font-size:10px}.theme-btn{width:29px;height:29px}
+  }
+  @media(max-width:480px){.tb-lockup .wm{display:none}.tb-bell{display:none}}
 
   /* ═══ SIDEBAR ═══ */
   .portal-sidebar{position:fixed;left:0;top:var(--topbar-height);bottom:0;width:var(--sidebar-width);
@@ -302,6 +338,75 @@
   .onb-dots i{width:7px;height:7px;border-radius:50%;background:rgba(27,36,52,.15)}
   .onb-dots i.on{background:var(--gold)}
 
+  /* ═══ DARK THEME — surfaces & hard-coded chrome ═══ */
+  :root[data-theme="dark"] .portal-topbar{background:rgba(10,17,30,.88)}
+  :root[data-theme="dark"] .tb-bell:hover{background:rgba(255,255,255,.06)}
+  :root[data-theme="dark"] .tb-bell .dot{border-color:#0A1220}
+  :root[data-theme="dark"] .position-pill{background:rgba(201,168,76,.12)}
+  :root[data-theme="dark"] .portal-sidebar{background:rgba(10,17,30,.92)}
+  :root[data-theme="dark"] .sidebar-item:hover{background:rgba(255,255,255,.05)}
+  :root[data-theme="dark"] .sidebar-item.active{background:rgba(201,168,76,.10)}
+  :root[data-theme="dark"] .nav-badge{background:rgba(201,168,76,.14)}
+  :root[data-theme="dark"] .logout-item:hover{color:#F87171;background:rgba(248,113,113,.08)}
+  :root[data-theme="dark"] .module-date{background:rgba(13,22,38,.6);border-color:rgba(255,255,255,.10)}
+  :root[data-theme="dark"] .hero-readiness{background:linear-gradient(135deg,rgba(29,95,171,.16) 0%,rgba(13,22,38,.90) 55%);border-color:rgba(91,150,220,.24)}
+  :root[data-theme="dark"] .mtn-track::before{background:rgba(255,255,255,.12)}
+  :root[data-theme="dark"] .mtn-stop i{background:#0E1929;border-color:rgba(255,255,255,.25)}
+  :root[data-theme="dark"] .mtn-stop.done i{background:#5B96DC;border-color:#5B96DC}
+  :root[data-theme="dark"] .mtn-stop.here i{background:#5B96DC}
+  :root[data-theme="dark"] .dim-mini .d .tr{background:rgba(255,255,255,.10)}
+  :root[data-theme="dark"] .pillar-bar{background:rgba(255,255,255,.10)}
+  :root[data-theme="dark"] .next-action-card{background:linear-gradient(135deg,rgba(180,83,9,.18) 0%,rgba(13,22,38,.90) 60%);border-color:rgba(245,158,11,.26)}
+  :root[data-theme="dark"] .next-action-label{color:#F5A623}
+  :root[data-theme="dark"] .label-dot{background:#F5A623}
+  :root[data-theme="dark"] .btn-action-ghost:hover{border-color:rgba(255,255,255,.30);color:var(--text-sub)}
+  :root[data-theme="dark"] .route-day{background:rgba(201,168,76,.10)}
+  :root[data-theme="dark"] .phase-label.cobalt{color:#7FB0E6}
+  :root[data-theme="dark"] .phase-label.teal{color:#4ECDC4}
+  :root[data-theme="dark"] .phase-label.forest{color:#5FB57F}
+  :root[data-theme="dark"] .milestone-dot{background:#0E1929;border-color:rgba(255,255,255,.22)}
+  :root[data-theme="dark"] .milestone-dot.done{background:#2E7D52;border-color:#2E7D52}
+  :root[data-theme="dark"] .route-milestone.done span{text-decoration-color:rgba(255,255,255,.3)}
+  :root[data-theme="dark"] .tab{background:rgba(13,22,38,.70)}
+  :root[data-theme="dark"] .tab:hover{border-color:rgba(255,255,255,.26)}
+  :root[data-theme="dark"] .tab.active{background:rgba(201,168,76,.12)}
+  :root[data-theme="dark"] .lc-header.cobalt{background:rgba(29,95,171,.18)}
+  :root[data-theme="dark"] .lc-header.cobalt svg{color:#7FB0E6}
+  :root[data-theme="dark"] .lc-header.teal{background:rgba(13,115,119,.20)}
+  :root[data-theme="dark"] .lc-header.teal svg{color:#4ECDC4}
+  :root[data-theme="dark"] .lc-header.gold{background:rgba(201,168,76,.14)}
+  :root[data-theme="dark"] .lc-header.gold svg{color:#C9A84C}
+  :root[data-theme="dark"] .lc-completed-badge{color:#4ECDC4;background:rgba(13,115,119,.16);border-color:rgba(78,205,196,.35)}
+  :root[data-theme="dark"] .lc-locked-overlay{background:rgba(8,13,24,.55)}
+  :root[data-theme="dark"] .cert-card{background:linear-gradient(135deg,rgba(201,168,76,.13) 0%,rgba(13,22,38,.94) 60%);border-color:rgba(201,168,76,.35)}
+  :root[data-theme="dark"] .cert-emblem{background:rgba(201,168,76,.10);border-color:rgba(201,168,76,.42)}
+  :root[data-theme="dark"] .cert-emblem svg circle,:root[data-theme="dark"] .cert-emblem svg path{stroke:#C9A84C}
+  :root[data-theme="dark"] .subnav-item:hover{background:rgba(255,255,255,.05)}
+  :root[data-theme="dark"] .subnav-item.active{background:rgba(201,168,76,.10)}
+  :root[data-theme="dark"] .set-input,:root[data-theme="dark"] .set-select{background:rgba(8,13,24,.55);border-color:rgba(255,255,255,.14)}
+  :root[data-theme="dark"] .set-input:focus,:root[data-theme="dark"] .set-select:focus{border-color:#5B96DC;box-shadow:0 0 0 3px rgba(91,150,220,.18)}
+  :root[data-theme="dark"] .set-input[readonly]{background:rgba(255,255,255,.04)}
+  :root[data-theme="dark"] .managed-badge{background:rgba(255,255,255,.05)}
+  :root[data-theme="dark"] .sel-chip{background:rgba(8,13,24,.55);border-color:rgba(255,255,255,.14)}
+  :root[data-theme="dark"] .sel-chip.on,:root[data-theme="dark"] .sel-chip:hover{background:rgba(201,168,76,.10)}
+  :root[data-theme="dark"] .toggle-lang{background:rgba(8,13,24,.55);border-color:rgba(255,255,255,.16)}
+  :root[data-theme="dark"] .toggle-lang button.on{color:#241800}
+  :root[data-theme="dark"] .plan-box{background:rgba(201,168,76,.07)}
+  :root[data-theme="dark"] .empty-state{border-color:rgba(255,255,255,.18)}
+  :root[data-theme="dark"] .readonly-score{background:rgba(29,95,171,.15);border-color:rgba(91,150,220,.30)}
+  :root[data-theme="dark"] .btn-danger{border-color:rgba(248,113,113,.4) !important;color:#F87171 !important}
+  :root[data-theme="dark"] .help-search{background:rgba(8,13,24,.55);border-color:rgba(255,255,255,.14)}
+  :root[data-theme="dark"] .help-search:focus{border-color:#5B96DC;box-shadow:0 0 0 3px rgba(91,150,220,.18)}
+  :root[data-theme="dark"] .support-cta-block{background:linear-gradient(135deg,rgba(13,115,119,.18) 0%,rgba(13,22,38,.94) 60%);border-color:rgba(13,115,119,.38)}
+  :root[data-theme="dark"] .support-avatar{border-color:#0E1929}
+  :root[data-theme="dark"] .btn-support-ghost:hover{border-color:rgba(255,255,255,.30)}
+  :root[data-theme="dark"] .onb-veil{background:rgba(8,13,24,.74)}
+  :root[data-theme="dark"] .onb-card{background:#101C2E;box-shadow:0 2px 6px rgba(0,0,0,.3),0 30px 80px rgba(0,0,0,.5)}
+  :root[data-theme="dark"] .onb-dots i{background:rgba(255,255,255,.18)}
+  .portal-topbar,.portal-sidebar,.route-card,.settings-panel,.faq-item,.onb-card,.hero-readiness,
+  .next-action-card,.cert-card,.support-cta-block{
+    transition:background-color .45s ease,border-color .45s ease,color .45s ease}
+
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:980px){.learning-grid{grid-template-columns:repeat(2,1fr)}.help-quicklinks{grid-template-columns:1fr}}
   @media(max-width:768px){
@@ -321,6 +426,13 @@
   }
   @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
 </style>
+<script>
+/* apply saved theme before first paint (shared mt-theme key; light is the portal default) */
+(function(){try{var t=localStorage.getItem('mt-theme');
+if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t;}
+else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.dataset.theme='dark';}
+}catch(e){}})();
+</script>
 </head>
 <body>
 
@@ -336,6 +448,14 @@
   </a>
   <div class="position-pill"><span class="position-dot"></span><span id="posPill">Mid-Mountain · 72/100</span></div>
   <div class="tb-right">
+    <div class="ctl" role="group" aria-label="Language / Bahasa">
+      <button data-lang="en" aria-pressed="true">EN</button>
+      <button data-lang="id" aria-pressed="false">ID</button>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme" title="Toggle theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
     <button class="tb-bell" aria-label="Notifications"><span class="dot"></span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
     </button>
@@ -347,27 +467,27 @@
 <aside class="portal-sidebar">
   <div class="sidebar-identity">
     <div class="user-avatar" id="sbAvatar">M</div>
-    <div><div class="user-name" id="sbName">Maverick</div><div class="user-trail" id="sbTrail">Fresh Graduate · Finance</div></div>
+    <div><div class="user-name" id="sbName">Maverick</div><div class="user-trail" id="sbTrail" data-en="Fresh Graduate · Finance" data-id="Lulusan Baru · Keuangan">Fresh Graduate · Finance</div></div>
   </div>
   <nav class="sidebar-nav">
-    <span class="nav-section-label">My Climb</span>
+    <span class="nav-section-label" data-en="My Climb" data-id="Pendakianku">My Climb</span>
     <a href="#journey" class="sidebar-item active" data-module="journey">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20l6-14 4 8 3-5 5 11z" stroke-linejoin="round"/></svg>
-      <span>My Journey</span><span class="nav-badge">3</span></a>
+      <span data-en="My Journey" data-id="Perjalananku">My Journey</span><span class="nav-badge">3</span></a>
     <a href="#learning" class="sidebar-item" data-module="learning">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" stroke-linejoin="round"/><path d="M12 6v11"/></svg>
-      <span>My Learning</span><span class="nav-progress">40%</span></a>
-    <span class="nav-section-label" style="margin-top:20px">Account</span>
+      <span data-en="My Learning" data-id="Pembelajaranku">My Learning</span><span class="nav-progress">40%</span></a>
+    <span class="nav-section-label" style="margin-top:20px" data-en="Account" data-id="Akun">Account</span>
     <a href="#settings" class="sidebar-item" data-module="settings">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 6.6 19l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H2a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 3.4 6.6l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H8a1.6 1.6 0 0 0 1-1.5V2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V8a1.6 1.6 0 0 0 1.5 1H22a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
-      <span>Settings</span></a>
+      <span data-en="Settings" data-id="Pengaturan">Settings</span></a>
     <a href="#help" class="sidebar-item" data-module="help">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9.5"/><path d="M9.2 9a2.8 2.8 0 0 1 5.5.8c0 1.9-2.8 2.5-2.8 2.5" stroke-linecap="round"/><circle cx="12" cy="17" r="0.6" fill="currentColor" stroke="none"/></svg>
-      <span>Help Center</span></a>
+      <span data-en="Help Center" data-id="Pusat Bantuan">Help Center</span></a>
     <div style="flex:1"></div>
     <button class="sidebar-item logout-item" onclick="handleLogout()">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>
-      <span>Sign Out</span></button>
+      <span data-en="Sign Out" data-id="Keluar">Sign Out</span></button>
   </nav>
 </aside>
 
@@ -378,8 +498,8 @@
   <section class="module active" id="module-journey">
     <div class="module-header">
       <div>
-        <h1 class="module-title">My Journey</h1>
-        <p class="module-sub">Good morning, <span id="greetName">Maverick</span>. You're at <strong>Mid-Mountain</strong>. Here's your route.</p>
+        <h1 class="module-title" data-en="My Journey" data-id="Perjalananku">My Journey</h1>
+        <p class="module-sub" data-en='Good morning, <span id="greetName">Maverick</span>. You&#39;re at <strong>Mid-Mountain</strong>. Here&#39;s your route.' data-id='Selamat pagi, <span id="greetName">Maverick</span>. Kamu berada di <strong>Mid-Mountain</strong>. Ini rutemu.'>Good morning, <span id="greetName">Maverick</span>. You're at <strong>Mid-Mountain</strong>. Here's your route.</p>
       </div>
       <div class="module-date" id="todayDate">Sunday, 12 July 2026</div>
     </div>
@@ -390,9 +510,9 @@
         <div class="band">Mid-Mountain</div>
       </div>
       <div class="hero-body">
-        <div class="rt">Career Readiness · <span>Mid-Mountain</span></div>
+        <div class="rt" data-en="Career Readiness · <span>Mid-Mountain</span>" data-id="Kesiapan Karier · <span>Mid-Mountain</span>">Career Readiness · <span>Mid-Mountain</span></div>
         <div class="hero-rule"></div>
-        <p>You're climbing well. Your <strong style="color:var(--text)">interview readiness</strong> is your highest strength — your steepest face right now is network capital.</p>
+        <p data-en='You&#39;re climbing well. Your <strong style="color:var(--text)">interview readiness</strong> is your highest strength — your steepest face right now is network capital.' data-id='Pendakianmu berjalan baik. <strong style="color:var(--text)">Kesiapan wawancara</strong> adalah kekuatan tertinggimu — tebing tercuram saat ini adalah modal jaringan.'>You're climbing well. Your <strong style="color:var(--text)">interview readiness</strong> is your highest strength — your steepest face right now is network capital.</p>
         <div class="mtn-track" id="mtnTrack">
           <div class="fill" style="width:52%"></div>
           <div class="mtn-stop done"><i></i><span>Base Camp</span></div>
@@ -402,11 +522,11 @@
           <div class="mtn-stop"><i></i><span>Summit</span></div>
         </div>
         <div class="dim-mini">
-          <div class="d"><div class="l">Career Int. <b>73%</b></div><div class="tr"><div class="fl" style="width:73%"></div></div></div>
-          <div class="d"><div class="l">Profile Str. <b>60%</b></div><div class="tr"><div class="fl" style="width:60%"></div></div></div>
-          <div class="d"><div class="l">Interview <b>80%</b></div><div class="tr"><div class="fl" style="width:80%"></div></div></div>
-          <div class="d"><div class="l">Network <b>47%</b></div><div class="tr"><div class="fl" style="width:47%"></div></div></div>
-          <div class="d"><div class="l">Mindset <b>67%</b></div><div class="tr"><div class="fl" style="width:67%"></div></div></div>
+          <div class="d"><div class="l" data-en="Career Int. <b>73%</b>" data-id="Intel. Karier <b>73%</b>">Career Int. <b>73%</b></div><div class="tr"><div class="fl" style="width:73%"></div></div></div>
+          <div class="d"><div class="l" data-en="Profile Str. <b>60%</b>" data-id="Kekuatan Profil <b>60%</b>">Profile Str. <b>60%</b></div><div class="tr"><div class="fl" style="width:60%"></div></div></div>
+          <div class="d"><div class="l" data-en="Interview <b>80%</b>" data-id="Wawancara <b>80%</b>">Interview <b>80%</b></div><div class="tr"><div class="fl" style="width:80%"></div></div></div>
+          <div class="d"><div class="l" data-en="Network <b>47%</b>" data-id="Jaringan <b>47%</b>">Network <b>47%</b></div><div class="tr"><div class="fl" style="width:47%"></div></div></div>
+          <div class="d"><div class="l" data-en="Mindset <b>67%</b>" data-id="Pola Pikir <b>67%</b>">Mindset <b>67%</b></div><div class="tr"><div class="fl" style="width:67%"></div></div></div>
         </div>
       </div>
     </div>
@@ -417,65 +537,65 @@
           <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="13" stroke="url(#pg)" stroke-width="2.6"/><path d="M20 9 L23 20 L20 19 L17 20 Z" fill="url(#pg)"/><path d="M20 31 L23 20 L20 21 L17 20 Z" fill="#8B6914"/></svg></div>
           <div class="pillar-score">73<span>/100</span></div>
         </div>
-        <h3 class="pillar-name">The Map</h3><p class="pillar-sub">Career Intelligence</p>
+        <h3 class="pillar-name">The Map</h3><p class="pillar-sub" data-en="Career Intelligence" data-id="Inteligensi Karier">Career Intelligence</p>
         <div class="pillar-bar"><div class="pillar-fill" style="width:73%"></div></div>
-        <p class="pillar-next">Next: Research salary benchmarks for your target role →</p>
+        <p class="pillar-next" data-en="Next: Research salary benchmarks for your target role →" data-id="Berikutnya: Riset tolok ukur gaji untuk posisi targetmu →">Next: Research salary benchmarks for your target role →</p>
       </div>
       <div class="pillar-card" data-pillar="pack">
         <div class="pillar-top">
           <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><rect x="9" y="15" width="22" height="16" rx="2.5" fill="url(#pg)"/><rect x="9" y="15" width="22" height="3" rx="1.5" fill="url(#pgL)"/><path d="M16 15 v-2.5 a4 4 0 0 1 8 0 V15" stroke="url(#pg)" stroke-width="2.4"/></svg></div>
           <div class="pillar-score">60<span>/100</span></div>
         </div>
-        <h3 class="pillar-name">The Pack</h3><p class="pillar-sub">Profile Strength</p>
+        <h3 class="pillar-name">The Pack</h3><p class="pillar-sub" data-en="Profile Strength" data-id="Kekuatan Profil">Profile Strength</p>
         <div class="pillar-bar"><div class="pillar-fill" style="width:60%"></div></div>
-        <p class="pillar-next">Next: Add two quantified achievements to your CV →</p>
+        <p class="pillar-next" data-en="Next: Add two quantified achievements to your CV →" data-id="Berikutnya: Tambahkan dua pencapaian terukur ke CV-mu →">Next: Add two quantified achievements to your CV →</p>
       </div>
       <div class="pillar-card" data-pillar="rope">
         <div class="pillar-top">
           <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M14 8 c-6 0 -9 5 -9 10 0 8 9 6 9 14" stroke="url(#pg)" stroke-width="2.6" stroke-linecap="round"/><path d="M26 32 c6 0 9 -5 9 -10 0 -8 -9 -6 -9 -14" stroke="url(#pg)" stroke-width="2.6" stroke-linecap="round"/></svg></div>
           <div class="pillar-score">80<span>/100</span></div>
         </div>
-        <h3 class="pillar-name">The Rope</h3><p class="pillar-sub">Interview Readiness</p>
+        <h3 class="pillar-name">The Rope</h3><p class="pillar-sub" data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</p>
         <div class="pillar-bar"><div class="pillar-fill" style="width:80%"></div></div>
-        <p class="pillar-next">Next: Run a timed mock for behavioural questions →</p>
+        <p class="pillar-next" data-en="Next: Run a timed mock for behavioural questions →" data-id="Berikutnya: Jalankan simulasi berwaktu untuk pertanyaan perilaku →">Next: Run a timed mock for behavioural questions →</p>
       </div>
       <div class="pillar-card" data-pillar="route">
         <div class="pillar-top">
           <div class="pillar-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M6 30 L16 14 L22 22 L28 12 L34 30 Z" fill="url(#pg)"/><path d="M28 12 L31 18 L28 19 Z" fill="url(#pgL)"/></svg></div>
           <div class="pillar-score">47<span>/100</span></div>
         </div>
-        <h3 class="pillar-name">The Route</h3><p class="pillar-sub">Network Capital</p>
+        <h3 class="pillar-name">The Route</h3><p class="pillar-sub" data-en="Network Capital" data-id="Modal Jaringan">Network Capital</p>
         <div class="pillar-bar"><div class="pillar-fill" style="width:47%"></div></div>
-        <p class="pillar-next">Next: Build a peer practice pod this week →</p>
+        <p class="pillar-next" data-en="Next: Build a peer practice pod this week →" data-id="Berikutnya: Bentuk pod latihan bersama rekan minggu ini →">Next: Build a peer practice pod this week →</p>
       </div>
     </div>
 
     <div class="journey-lower">
       <div class="next-action-card">
-        <div class="next-action-label"><span class="label-dot"></span>Your Next Move</div>
-        <h3 class="next-action-title">Build your peer practice pod this week</h3>
-        <p class="next-action-desc">Network Capital is your lowest-scoring dimension at 47/100. The fastest way to close this gap is to join or form a structured practice group — three peers at your level, meeting twice weekly.</p>
-        <div class="next-action-time">⏱ 30 minutes to set up</div>
-        <button class="btn-action-primary" onclick="showModule('learning')">Start This →</button>
-        <button class="btn-action-ghost">Skip for now</button>
+        <div class="next-action-label" data-en='<span class="label-dot"></span>Your Next Move' data-id='<span class="label-dot"></span>Langkah Berikutnya'><span class="label-dot"></span>Your Next Move</div>
+        <h3 class="next-action-title" data-en="Build your peer practice pod this week" data-id="Bentuk pod latihan bersama rekan minggu ini">Build your peer practice pod this week</h3>
+        <p class="next-action-desc" data-en="Network Capital is your lowest-scoring dimension at 47/100. The fastest way to close this gap is to join or form a structured practice group — three peers at your level, meeting twice weekly." data-id="Modal Jaringan adalah dimensi dengan skor terendahmu, 47/100. Cara tercepat menutup kesenjangan ini adalah bergabung atau membentuk kelompok latihan terstruktur — tiga rekan selevelmu, bertemu dua kali seminggu.">Network Capital is your lowest-scoring dimension at 47/100. The fastest way to close this gap is to join or form a structured practice group — three peers at your level, meeting twice weekly.</p>
+        <div class="next-action-time" data-en="⏱ 30 minutes to set up" data-id="⏱ 30 menit untuk memulai">⏱ 30 minutes to set up</div>
+        <button class="btn-action-primary" onclick="showModule('learning')" data-en="Start This →" data-id="Mulai Ini →">Start This →</button>
+        <button class="btn-action-ghost" data-en="Skip for now" data-id="Lewati dulu">Skip for now</button>
       </div>
 
       <div class="route-card">
-        <div class="route-header"><h3>90-Day Route</h3><span class="route-day">Day 14 of 90</span></div>
+        <div class="route-header"><h3 data-en="90-Day Route" data-id="Rute 90 Hari">90-Day Route</h3><span class="route-day" data-en="Day 14 of 90" data-id="Hari 14 dari 90">Day 14 of 90</span></div>
         <div class="route-phase active">
-          <div class="phase-label cobalt">Month 1 · Foundation</div>
-          <div class="route-milestone done"><div class="milestone-dot done"></div><span>Career diagnostic completed</span></div>
-          <div class="route-milestone done"><div class="milestone-dot done"></div><span>CV uploaded for review</span></div>
-          <div class="route-milestone current"><div class="milestone-dot current"></div><span>Build peer practice pod ← You are here</span></div>
-          <div class="route-milestone"><div class="milestone-dot"></div><span>Complete first mock interview</span></div>
+          <div class="phase-label cobalt" data-en="Month 1 · Foundation" data-id="Bulan 1 · Fondasi">Month 1 · Foundation</div>
+          <div class="route-milestone done"><div class="milestone-dot done"></div><span data-en="Career diagnostic completed" data-id="Diagnostik karier selesai">Career diagnostic completed</span></div>
+          <div class="route-milestone done"><div class="milestone-dot done"></div><span data-en="CV uploaded for review" data-id="CV diunggah untuk ditinjau">CV uploaded for review</span></div>
+          <div class="route-milestone current"><div class="milestone-dot current"></div><span data-en="Build peer practice pod ← You are here" data-id="Bentuk pod latihan rekan ← Kamu di sini">Build peer practice pod ← You are here</span></div>
+          <div class="route-milestone"><div class="milestone-dot"></div><span data-en="Complete first mock interview" data-id="Selesaikan simulasi wawancara pertama">Complete first mock interview</span></div>
         </div>
         <div class="route-phase collapsed">
-          <div class="phase-label teal">Month 2 · Activation</div>
-          <div class="phase-preview">5 milestones · unlocks Day 31</div>
+          <div class="phase-label teal" data-en="Month 2 · Activation" data-id="Bulan 2 · Aktivasi">Month 2 · Activation</div>
+          <div class="phase-preview" data-en="5 milestones · unlocks Day 31" data-id="5 tonggak · terbuka Hari 31">5 milestones · unlocks Day 31</div>
         </div>
         <div class="route-phase collapsed">
-          <div class="phase-label forest">Month 3 · Execution</div>
-          <div class="phase-preview">6 milestones · unlocks Day 61</div>
+          <div class="phase-label forest" data-en="Month 3 · Execution" data-id="Bulan 3 · Eksekusi">Month 3 · Execution</div>
+          <div class="phase-preview" data-en="6 milestones · unlocks Day 61" data-id="6 tonggak · terbuka Hari 61">6 milestones · unlocks Day 61</div>
         </div>
       </div>
     </div>
@@ -484,97 +604,97 @@
   <!-- ── MODULE: MY LEARNING ── -->
   <section class="module" id="module-learning">
     <div class="module-header"><div>
-      <h1 class="module-title">My Learning</h1>
-      <p class="module-sub">Your pack — every tool, program, and resource for the climb.</p>
+      <h1 class="module-title" data-en="My Learning" data-id="Pembelajaranku">My Learning</h1>
+      <p class="module-sub" data-en="Your pack — every tool, program, and resource for the climb." data-id="Ranselmu — semua alat, program, dan sumber daya untuk pendakian.">Your pack — every tool, program, and resource for the climb.</p>
     </div></div>
     <div class="tab-row" id="learnTabs">
-      <button class="tab active" data-tab="all">All</button>
-      <button class="tab" data-tab="progress">In Progress</button>
-      <button class="tab" data-tab="completed">Completed</button>
-      <button class="tab" data-tab="recommended">Recommended</button>
-      <button class="tab" data-tab="certificates">Certificates</button>
+      <button class="tab active" data-tab="all" data-en="All" data-id="Semua">All</button>
+      <button class="tab" data-tab="progress" data-en="In Progress" data-id="Sedang Berjalan">In Progress</button>
+      <button class="tab" data-tab="completed" data-en="Completed" data-id="Selesai">Completed</button>
+      <button class="tab" data-tab="recommended" data-en="Recommended" data-id="Direkomendasikan">Recommended</button>
+      <button class="tab" data-tab="certificates" data-en="Certificates" data-id="Sertifikat">Certificates</button>
     </div>
 
     <div class="learning-grid" id="learnGrid">
       <div class="learning-card" data-state="progress">
         <div class="lc-header cobalt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
-        <div class="lc-body"><div class="lc-category">The Map · Career Intelligence</div>
+        <div class="lc-body"><div class="lc-category" data-en="The Map · Career Intelligence" data-id="The Map · Inteligensi Karier">The Map · Career Intelligence</div>
           <h3 class="lc-title">How ATS Actually Works</h3>
-          <p class="lc-desc">Understand how your CV is screened before a human ever reads it — and how to pass every filter.</p>
-          <div class="lc-meta"><span>📖 12 lessons</span><span>⏱ 45 min</span></div>
+          <p class="lc-desc" data-en="Understand how your CV is screened before a human ever reads it — and how to pass every filter." data-id="Pahami bagaimana CV-mu disaring sebelum dibaca manusia — dan cara melewati setiap filternya.">Understand how your CV is screened before a human ever reads it — and how to pass every filter.</p>
+          <div class="lc-meta"><span data-en="📖 12 lessons" data-id="📖 12 pelajaran">📖 12 lessons</span><span data-en="⏱ 45 min" data-id="⏱ 45 mnt">⏱ 45 min</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:65%"></div></div>
-          <div class="lc-progress-label">65% complete</div></div>
-        <button class="lc-cta">Continue →</button>
+          <div class="lc-progress-label" data-en="65% complete" data-id="65% selesai">65% complete</div></div>
+        <button class="lc-cta" data-en="Continue →" data-id="Lanjutkan →">Continue →</button>
       </div>
 
       <div class="learning-card" data-state="progress">
         <div class="lc-header teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z" stroke-linejoin="round"/><path d="M12 12v9M12 12L4 7.5M12 12l8-4.5"/></svg></div>
-        <div class="lc-body"><div class="lc-category">The Pack · Profile Strength</div>
+        <div class="lc-body"><div class="lc-category" data-en="The Pack · Profile Strength" data-id="The Pack · Kekuatan Profil">The Pack · Profile Strength</div>
           <h3 class="lc-title">The Quantified CV</h3>
-          <p class="lc-desc">Turn responsibilities into results. Rewrite every bullet around numbers recruiters actually scan for.</p>
-          <div class="lc-meta"><span>📖 8 lessons</span><span>⏱ 30 min</span></div>
+          <p class="lc-desc" data-en="Turn responsibilities into results. Rewrite every bullet around numbers recruiters actually scan for." data-id="Ubah tanggung jawab menjadi hasil. Tulis ulang setiap poin dengan angka yang benar-benar dicari perekrut.">Turn responsibilities into results. Rewrite every bullet around numbers recruiters actually scan for.</p>
+          <div class="lc-meta"><span data-en="📖 8 lessons" data-id="📖 8 pelajaran">📖 8 lessons</span><span data-en="⏱ 30 min" data-id="⏱ 30 mnt">⏱ 30 min</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:25%"></div></div>
-          <div class="lc-progress-label">25% complete</div></div>
-        <button class="lc-cta">Continue →</button>
+          <div class="lc-progress-label" data-en="25% complete" data-id="25% selesai">25% complete</div></div>
+        <button class="lc-cta" data-en="Continue →" data-id="Lanjutkan →">Continue →</button>
       </div>
 
       <div class="learning-card completed" data-state="completed">
-        <div class="lc-completed-badge">✓ Completed</div>
+        <div class="lc-completed-badge" data-en="✓ Completed" data-id="✓ Selesai">✓ Completed</div>
         <div class="lc-header gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/><path d="M8.5 13.5L7 22l5-3 5 3-1.5-8.5"/></svg></div>
-        <div class="lc-body"><div class="lc-category">The Rope · Interview Readiness</div>
+        <div class="lc-body"><div class="lc-category" data-en="The Rope · Interview Readiness" data-id="The Rope · Kesiapan Wawancara">The Rope · Interview Readiness</div>
           <h3 class="lc-title">STAR Story Bank</h3>
-          <p class="lc-desc">Build ten adaptable STAR stories mapped to the competencies interviewers score you on.</p>
-          <div class="lc-meta"><span>📖 10 lessons</span><span>⏱ 40 min</span></div>
+          <p class="lc-desc" data-en="Build ten adaptable STAR stories mapped to the competencies interviewers score you on." data-id="Bangun sepuluh cerita STAR yang adaptif, dipetakan ke kompetensi yang dinilai pewawancara.">Build ten adaptable STAR stories mapped to the competencies interviewers score you on.</p>
+          <div class="lc-meta"><span data-en="📖 10 lessons" data-id="📖 10 pelajaran">📖 10 lessons</span><span data-en="⏱ 40 min" data-id="⏱ 40 mnt">⏱ 40 min</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:100%"></div></div>
-          <div class="lc-progress-label">100% complete</div></div>
-        <button class="lc-cta secondary">View Certificate</button>
+          <div class="lc-progress-label" data-en="100% complete" data-id="100% selesai">100% complete</div></div>
+        <button class="lc-cta secondary" data-en="View Certificate" data-id="Lihat Sertifikat">View Certificate</button>
       </div>
 
       <div class="learning-card" data-state="recommended">
         <div class="lc-header cobalt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
-        <div class="lc-body"><div class="lc-category">The Route · Network Capital</div>
+        <div class="lc-body"><div class="lc-category" data-en="The Route · Network Capital" data-id="The Route · Modal Jaringan">The Route · Network Capital</div>
           <h3 class="lc-title">Building Your Rope Team</h3>
-          <p class="lc-desc">Form a structured peer pod and turn weekly practice into referrals and offers.</p>
-          <div class="lc-meta"><span>📖 6 lessons</span><span>⏱ 25 min</span></div>
+          <p class="lc-desc" data-en="Form a structured peer pod and turn weekly practice into referrals and offers." data-id="Bentuk pod rekan terstruktur dan ubah latihan mingguan menjadi rujukan dan tawaran kerja.">Form a structured peer pod and turn weekly practice into referrals and offers.</p>
+          <div class="lc-meta"><span data-en="📖 6 lessons" data-id="📖 6 pelajaran">📖 6 lessons</span><span data-en="⏱ 25 min" data-id="⏱ 25 mnt">⏱ 25 min</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
-          <div class="lc-progress-label">Recommended for you</div></div>
-        <button class="lc-cta">Start →</button>
+          <div class="lc-progress-label" data-en="Recommended for you" data-id="Direkomendasikan untukmu">Recommended for you</div></div>
+        <button class="lc-cta" data-en="Start →" data-id="Mulai →">Start →</button>
       </div>
 
       <div class="learning-card" data-state="recommended">
         <div class="lc-header teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
-        <div class="lc-body"><div class="lc-category">The Map · Career Intelligence</div>
+        <div class="lc-body"><div class="lc-category" data-en="The Map · Career Intelligence" data-id="The Map · Inteligensi Karier">The Map · Career Intelligence</div>
           <h3 class="lc-title">Salary Negotiation Playbook</h3>
-          <p class="lc-desc">Walk into every offer with a floor, a target, and a stretch number — and the script to defend them.</p>
-          <div class="lc-meta"><span>📖 7 lessons</span><span>⏱ 35 min</span></div>
+          <p class="lc-desc" data-en="Walk into every offer with a floor, a target, and a stretch number — and the script to defend them." data-id="Hadapi setiap tawaran dengan angka dasar, target, dan angka ambisius — beserta naskah untuk mempertahankannya.">Walk into every offer with a floor, a target, and a stretch number — and the script to defend them.</p>
+          <div class="lc-meta"><span data-en="📖 7 lessons" data-id="📖 7 pelajaran">📖 7 lessons</span><span data-en="⏱ 35 min" data-id="⏱ 35 mnt">⏱ 35 min</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
-          <div class="lc-progress-label">Recommended for you</div></div>
-        <button class="lc-cta">Start →</button>
+          <div class="lc-progress-label" data-en="Recommended for you" data-id="Direkomendasikan untukmu">Recommended for you</div></div>
+        <button class="lc-cta" data-en="Start →" data-id="Mulai →">Start →</button>
       </div>
 
       <div class="learning-card locked" data-state="recommended">
-        <div class="lc-locked-overlay"><span>🔒 Complete Month 1 milestones to unlock</span></div>
+        <div class="lc-locked-overlay"><span data-en="🔒 Complete Month 1 milestones to unlock" data-id="🔒 Selesaikan tonggak Bulan 1 untuk membuka">🔒 Complete Month 1 milestones to unlock</span></div>
         <div class="lc-header gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20l8-4 8 4V6l-8-4-8 4z" stroke-linejoin="round"/></svg></div>
-        <div class="lc-body"><div class="lc-category">Simulation · Finance</div>
-          <h3 class="lc-title">Investment Analyst Simulation</h3>
-          <p class="lc-desc">A structured virtual work experience co-created with an employer partner. Real tasks, employer-graded.</p>
-          <div class="lc-meta"><span>📖 4 modules</span><span>⏱ 3 hours</span></div>
+        <div class="lc-body"><div class="lc-category" data-en="Simulation · Finance" data-id="Simulasi · Keuangan">Simulation · Finance</div>
+          <h3 class="lc-title" data-en="Investment Analyst Simulation" data-id="Simulasi Analis Investasi">Investment Analyst Simulation</h3>
+          <p class="lc-desc" data-en="A structured virtual work experience co-created with an employer partner. Real tasks, employer-graded." data-id="Pengalaman kerja virtual terstruktur yang dibuat bersama mitra pemberi kerja. Tugas nyata, dinilai pemberi kerja.">A structured virtual work experience co-created with an employer partner. Real tasks, employer-graded.</p>
+          <div class="lc-meta"><span data-en="📖 4 modules" data-id="📖 4 modul">📖 4 modules</span><span data-en="⏱ 3 hours" data-id="⏱ 3 jam">⏱ 3 hours</span></div>
           <div class="lc-progress-bar"><div class="lc-progress-fill" style="width:0%"></div></div>
-          <div class="lc-progress-label">Locked</div></div>
-        <button class="lc-cta">Locked</button>
+          <div class="lc-progress-label" data-en="Locked" data-id="Terkunci">Locked</div></div>
+        <button class="lc-cta" data-en="Locked" data-id="Terkunci">Locked</button>
       </div>
     </div>
 
     <div class="cert-grid" id="certGrid" style="display:none">
       <div class="cert-card">
         <div class="cert-emblem"><svg width="26" height="26" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="17" stroke="#9A7B24" stroke-width="1.6"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#9A7B24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="cert-star">★</div></div>
-        <div class="cert-body"><div class="cert-issued">Certificate of Completion</div><h3 class="cert-name">STAR Story Bank</h3><div class="cert-date">Issued 5 July 2026</div></div>
-        <button class="cert-download">↓ Download</button>
+        <div class="cert-body"><div class="cert-issued" data-en="Certificate of Completion" data-id="Sertifikat Penyelesaian">Certificate of Completion</div><h3 class="cert-name">STAR Story Bank</h3><div class="cert-date" data-en="Issued 5 July 2026" data-id="Diterbitkan 5 Juli 2026">Issued 5 July 2026</div></div>
+        <button class="cert-download" data-en="↓ Download" data-id="↓ Unduh">↓ Download</button>
       </div>
       <div class="cert-card">
         <div class="cert-emblem"><svg width="26" height="26" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="17" stroke="#9A7B24" stroke-width="1.6"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#9A7B24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="cert-star">★</div></div>
-        <div class="cert-body"><div class="cert-issued">Certificate of Completion</div><h3 class="cert-name">ATS Mastery Program</h3><div class="cert-date">Issued 28 June 2026</div></div>
-        <button class="cert-download">↓ Download</button>
+        <div class="cert-body"><div class="cert-issued" data-en="Certificate of Completion" data-id="Sertifikat Penyelesaian">Certificate of Completion</div><h3 class="cert-name">ATS Mastery Program</h3><div class="cert-date" data-en="Issued 28 June 2026" data-id="Diterbitkan 28 Juni 2026">Issued 28 June 2026</div></div>
+        <button class="cert-download" data-en="↓ Download" data-id="↓ Unduh">↓ Download</button>
       </div>
     </div>
   </section>
@@ -582,17 +702,17 @@
   <!-- ── MODULE: SETTINGS ── -->
   <section class="module" id="module-settings">
     <div class="module-header"><div>
-      <h1 class="module-title">Settings</h1>
-      <p class="module-sub">Manage your account, your target, and how Metanoia works for you.</p>
+      <h1 class="module-title" data-en="Settings" data-id="Pengaturan">Settings</h1>
+      <p class="module-sub" data-en="Manage your account, your target, and how Metanoia works for you." data-id="Kelola akunmu, targetmu, dan cara Metanoia bekerja untukmu.">Manage your account, your target, and how Metanoia works for you.</p>
     </div></div>
     <div class="settings-layout">
       <div class="settings-subnav" id="setSubnav">
-        <button class="subnav-item active" data-set="profile">Profile</button>
-        <button class="subnav-item" data-set="target">Career Target</button>
-        <button class="subnav-item" data-set="notifications">Notifications</button>
-        <button class="subnav-item" data-set="language">Language &amp; Region</button>
-        <button class="subnav-item" data-set="privacy">Privacy &amp; Data</button>
-        <button class="subnav-item" data-set="subscription">Subscription</button>
+        <button class="subnav-item active" data-set="profile" data-en="Profile" data-id="Profil">Profile</button>
+        <button class="subnav-item" data-set="target" data-en="Career Target" data-id="Target Karier">Career Target</button>
+        <button class="subnav-item" data-set="notifications" data-en="Notifications" data-id="Notifikasi">Notifications</button>
+        <button class="subnav-item" data-set="language" data-en="Language &amp; Region" data-id="Bahasa &amp; Wilayah">Language &amp; Region</button>
+        <button class="subnav-item" data-set="privacy" data-en="Privacy &amp; Data" data-id="Privasi &amp; Data">Privacy &amp; Data</button>
+        <button class="subnav-item" data-set="subscription" data-en="Subscription" data-id="Langganan">Subscription</button>
       </div>
       <div class="settings-panel" id="setPanel"><!-- filled by JS --></div>
     </div>
@@ -601,31 +721,31 @@
   <!-- ── MODULE: HELP ── -->
   <section class="module" id="module-help">
     <div class="module-header"><div>
-      <h1 class="module-title">Help Center</h1>
-      <p class="module-sub">Answers, guides, and a team that climbs with you.</p>
+      <h1 class="module-title" data-en="Help Center" data-id="Pusat Bantuan">Help Center</h1>
+      <p class="module-sub" data-en="Answers, guides, and a team that climbs with you." data-id="Jawaban, panduan, dan tim yang mendaki bersamamu.">Answers, guides, and a team that climbs with you.</p>
     </div></div>
     <div class="help-search-wrap">
       <svg class="help-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-      <input type="text" class="help-search" id="helpSearch" placeholder="Search for help…">
+      <input type="text" class="help-search" id="helpSearch" placeholder="Search for help…" data-ph-en="Search for help…" data-ph-id="Cari bantuan…">
     </div>
     <div class="help-quicklinks">
-      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z" stroke-linejoin="round"/><path d="M9 3v15M15 6v15"/></svg><span>Getting Started Guide</span></div>
-      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg><span>Platform Walkthrough</span></div>
-      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Assessment Guide</span></div>
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z" stroke-linejoin="round"/><path d="M9 3v15M15 6v15"/></svg><span data-en="Getting Started Guide" data-id="Panduan Memulai">Getting Started Guide</span></div>
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg><span data-en="Platform Walkthrough" data-id="Tur Platform">Platform Walkthrough</span></div>
+      <div class="help-quick-card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h9l4 4v14H6z" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span data-en="Assessment Guide" data-id="Panduan Asesmen">Assessment Guide</span></div>
     </div>
 
-    <h2 class="help-section-title">Frequently Asked Questions</h2>
+    <h2 class="help-section-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h2>
     <div class="faq-list" id="faqList">
-      <div class="faq-item"><button class="faq-question">How does the Career Map Assessment work?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="faq-answer"><div>The Career Map Assessment is a 25-question diagnostic across five dimensions: Career Intelligence, Profile Strength, Interview Readiness, Network Capital, and Career Mindset. It takes approximately 15 minutes and generates a personalized readiness score and 90-day action plan.</div></div></div>
-      <div class="faq-item"><button class="faq-question">Is Metanoia Labs free to use?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="faq-answer"><div>Yes — the core platform including the Career Map, peer matching, community access, and foundational learning modules is completely free for job seekers. Premium features (advanced AI coaching, priority mentor access, verified employer simulations) are available on the Premium Trail plan.</div></div></div>
-      <div class="faq-item"><button class="faq-question">How is my data used and protected?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="faq-answer"><div>Your data is stored securely and never sold to third parties. We use your career profile data only to personalize your experience on the platform. You can export or delete your data at any time from Settings → Privacy &amp; Data. We comply with Indonesia's Personal Data Protection Law (PDP Law).</div></div></div>
-      <div class="faq-item"><button class="faq-question">What is the difference between a Metanoia simulation and a regular course?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="faq-answer"><div>A Metanoia simulation is a structured virtual work experience co-created with an employer partner. You complete real tasks that the company uses in its actual work, assessed against the employer's standards. A simulation completion certificate is employer-acknowledged — it signals capability, not just course completion. Regular courses build knowledge; simulations demonstrate it.</div></div></div>
-      <div class="faq-item"><button class="faq-question">How do I retake the Career Map Assessment?<svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="faq-answer"><div>Go to Settings → Career Target and click "Retake Career Map Assessment." You can retake it every 30 days. Your new scores will update your readiness dashboard and 90-day route.</div></div></div>
+      <div class="faq-item"><button class="faq-question"><span data-en="How does the Career Map Assessment work?" data-id="Bagaimana cara kerja Career Map Assessment?">How does the Career Map Assessment work?</span><svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div data-en="The Career Map Assessment is a 25-question diagnostic across five dimensions: Career Intelligence, Profile Strength, Interview Readiness, Network Capital, and Career Mindset. It takes approximately 15 minutes and generates a personalized readiness score and 90-day action plan." data-id="Career Map Assessment adalah diagnostik 25 pertanyaan yang mencakup lima dimensi: Inteligensi Karier, Kekuatan Profil, Kesiapan Wawancara, Modal Jaringan, dan Pola Pikir Karier. Waktu pengerjaan sekitar 15 menit dan menghasilkan skor kesiapan yang dipersonalisasi beserta rencana aksi 90 hari.">The Career Map Assessment is a 25-question diagnostic across five dimensions: Career Intelligence, Profile Strength, Interview Readiness, Network Capital, and Career Mindset. It takes approximately 15 minutes and generates a personalized readiness score and 90-day action plan.</div></div></div>
+      <div class="faq-item"><button class="faq-question"><span data-en="Is Metanoia Labs free to use?" data-id="Apakah Metanoia Labs gratis digunakan?">Is Metanoia Labs free to use?</span><svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div data-en="Yes — the core platform including the Career Map, peer matching, community access, and foundational learning modules is completely free for job seekers. Premium features (advanced AI coaching, priority mentor access, verified employer simulations) are available on the Premium Trail plan." data-id="Ya — platform inti termasuk Career Map, pencocokan rekan, akses komunitas, dan modul pembelajaran dasar sepenuhnya gratis untuk pencari kerja. Fitur Premium (pembinaan AI lanjutan, akses mentor prioritas, simulasi terverifikasi pemberi kerja) tersedia pada paket Premium Trail.">Yes — the core platform including the Career Map, peer matching, community access, and foundational learning modules is completely free for job seekers. Premium features (advanced AI coaching, priority mentor access, verified employer simulations) are available on the Premium Trail plan.</div></div></div>
+      <div class="faq-item"><button class="faq-question"><span data-en="How is my data used and protected?" data-id="Bagaimana dataku digunakan dan dilindungi?">How is my data used and protected?</span><svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div data-en="Your data is stored securely and never sold to third parties. We use your career profile data only to personalize your experience on the platform. You can export or delete your data at any time from Settings → Privacy &amp; Data. We comply with Indonesia&#39;s Personal Data Protection Law (PDP Law)." data-id="Datamu disimpan dengan aman dan tidak pernah dijual ke pihak ketiga. Kami menggunakan data profil kariermu hanya untuk mempersonalisasi pengalamanmu di platform. Kamu dapat mengekspor atau menghapus datamu kapan saja melalui Pengaturan → Privasi &amp; Data. Kami mematuhi Undang-Undang Pelindungan Data Pribadi (UU PDP) Indonesia.">Your data is stored securely and never sold to third parties. We use your career profile data only to personalize your experience on the platform. You can export or delete your data at any time from Settings → Privacy &amp; Data. We comply with Indonesia's Personal Data Protection Law (PDP Law).</div></div></div>
+      <div class="faq-item"><button class="faq-question"><span data-en="What is the difference between a Metanoia simulation and a regular course?" data-id="Apa perbedaan antara simulasi Metanoia dan kursus biasa?">What is the difference between a Metanoia simulation and a regular course?</span><svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div data-en="A Metanoia simulation is a structured virtual work experience co-created with an employer partner. You complete real tasks that the company uses in its actual work, assessed against the employer&#39;s standards. A simulation completion certificate is employer-acknowledged — it signals capability, not just course completion. Regular courses build knowledge; simulations demonstrate it." data-id="Simulasi Metanoia adalah pengalaman kerja virtual terstruktur yang dibuat bersama mitra pemberi kerja. Kamu menyelesaikan tugas nyata yang digunakan perusahaan dalam pekerjaan sesungguhnya, dinilai berdasarkan standar pemberi kerja. Sertifikat penyelesaian simulasi diakui pemberi kerja — menandakan kapabilitas, bukan sekadar penyelesaian kursus. Kursus biasa membangun pengetahuan; simulasi membuktikannya.">A Metanoia simulation is a structured virtual work experience co-created with an employer partner. You complete real tasks that the company uses in its actual work, assessed against the employer's standards. A simulation completion certificate is employer-acknowledged — it signals capability, not just course completion. Regular courses build knowledge; simulations demonstrate it.</div></div></div>
+      <div class="faq-item"><button class="faq-question"><span data-en="How do I retake the Career Map Assessment?" data-id="Bagaimana cara mengulang Career Map Assessment?">How do I retake the Career Map Assessment?</span><svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="faq-answer"><div data-en='Go to Settings → Career Target and click "Retake Career Map Assessment." You can retake it every 30 days. Your new scores will update your readiness dashboard and 90-day route.' data-id='Buka Pengaturan → Target Karier lalu klik "Ulangi Career Map Assessment." Kamu dapat mengulanginya setiap 30 hari. Skor barumu akan memperbarui dasbor kesiapan dan rute 90 harimu.'>Go to Settings → Career Target and click "Retake Career Map Assessment." You can retake it every 30 days. Your new scores will update your readiness dashboard and 90-day route.</div></div></div>
     </div>
 
     <div class="support-cta-block">
@@ -635,12 +755,12 @@
           <div class="support-avatar" style="background:#0D7377">B</div>
           <div class="support-avatar" style="background:#9A7B24;color:#fff">C</div>
         </div>
-        <div class="support-text"><h3>Need additional support?</h3>
-          <p>The Metanoia Team is here to help with any questions or challenges you may have. We typically respond within one business day.</p></div>
+        <div class="support-text"><h3 data-en="Need additional support?" data-id="Butuh bantuan tambahan?">Need additional support?</h3>
+          <p data-en="The Metanoia Team is here to help with any questions or challenges you may have. We typically respond within one business day." data-id="Tim Metanoia siap membantu setiap pertanyaan atau kendala yang kamu hadapi. Kami biasanya merespons dalam satu hari kerja.">The Metanoia Team is here to help with any questions or challenges you may have. We typically respond within one business day.</p></div>
       </div>
       <div class="support-actions">
-        <a href="mailto:hello@metanoialabs.net" class="btn-support-primary">Email the Team →</a>
-        <a href="#" class="btn-support-ghost">WhatsApp Support</a>
+        <a href="mailto:hello@metanoialabs.net" class="btn-support-primary" data-en="Email the Team →" data-id="Email Tim Kami →">Email the Team →</a>
+        <a href="#" class="btn-support-ghost" data-en="WhatsApp Support" data-id="Dukungan WhatsApp">WhatsApp Support</a>
       </div>
     </div>
   </section>
@@ -680,19 +800,24 @@ const initial = firstName.charAt(0).toUpperCase();
 ['tbName','sbName','greetName'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=firstName; });
 ['tbAvatar','sbAvatar'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=initial; });
 
-// today's date
-try{ document.getElementById('todayDate').textContent =
-  new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }catch(e){}
+/* ─── language state (shared mtLang key, site standard) ─── */
+let lang='en';
+try{ const l=localStorage.getItem('mtLang'); if(l==='id'||l==='en') lang=l; }catch(e){}
+
+// today's date, in the active language
+function paintDate(){ try{ document.getElementById('todayDate').textContent =
+  new Date().toLocaleDateString(lang==='id'?'id-ID':'en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }catch(e){} }
+paintDate();
 
 /* ── SVG score dial (crisp, brand cobalt→teal) ── */
 function svgDial(t,size){
   const r=size*0.4, C=2*Math.PI*r, track=C*0.75, off=C*(1-0.75*t/100), cx=size/2;
   return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
     <defs><linearGradient id="dialg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1D5FAB"/><stop offset="100%" stop-color="#0D7377"/></linearGradient></defs>
-    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="rgba(27,36,52,0.08)" stroke-width="${size*.06}" stroke-dasharray="${C}" stroke-dashoffset="${C-track}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="var(--dial-track)" stroke-width="${size*.06}" stroke-dasharray="${C}" stroke-dashoffset="${C-track}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
     <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="url(#dialg)" stroke-width="${size*.06}" stroke-dasharray="${C}" stroke-dashoffset="${off}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
-    <text x="${cx}" y="${cx*0.98}" text-anchor="middle" dominant-baseline="middle" fill="#1B2434" font-size="${size*.26}" font-weight="800" font-family="Inter,sans-serif">${t}</text>
-    <text x="${cx}" y="${cx+size*.17}" text-anchor="middle" fill="rgba(27,36,52,0.45)" font-size="${size*.09}" font-family="Inter,sans-serif">/ 100</text></svg>`;
+    <text x="${cx}" y="${cx*0.98}" text-anchor="middle" dominant-baseline="middle" fill="var(--text)" font-size="${size*.26}" font-weight="800" font-family="Inter,sans-serif">${t}</text>
+    <text x="${cx}" y="${cx+size*.17}" text-anchor="middle" fill="var(--text-faint)" font-size="${size*.09}" font-family="Inter,sans-serif">/ 100</text></svg>`;
 }
 document.getElementById('heroDial').innerHTML = svgDial(72,120);
 
@@ -725,60 +850,133 @@ document.querySelectorAll('#learnTabs .tab').forEach(tab=>{
   });
 });
 
-/* ═══ SETTINGS panels ═══ */
-const P = {
-  profile:`<h3>Profile</h3><p class="ph-sub">This is how you appear across Metanoia.</p>
-    <div class="photo-up"><div class="photo-circle">${initial}</div><div><div class="up-link" style="cursor:pointer">Upload a photo</div><div class="up-note">PNG or JPG, up to 2MB.</div></div></div>
-    <div class="set-row2"><div class="set-field"><label>First name</label><input class="set-input" value="${firstName}"></div>
-      <div class="set-field"><label>Last name</label><input class="set-input" placeholder="Your last name"></div></div>
-    <div class="set-field"><label>Email ${session.provider&&session.provider!=='email'&&session.provider!=='demo'?'<span class="managed-badge">Managed by '+session.provider.charAt(0).toUpperCase()+session.provider.slice(1)+'</span>':''}</label>
-      <input class="set-input" value="${session.email||''}" ${session.provider&&session.provider!=='email'&&session.provider!=='demo'?'readonly':''}></div>
-    <div class="set-row2"><div class="set-field"><label>Phone / WhatsApp (optional)</label><input class="set-input" placeholder="+62…"></div>
-      <div class="set-field"><label>Year of graduation</label><input class="set-input" placeholder="2025"></div></div>
-    <div class="set-field"><label>University / Institution</label><input class="set-input" placeholder="e.g., Universitas Indonesia"></div>
-    <button class="btn-save">Save Changes</button>`,
-  target:`<h3>Career Target</h3><p class="ph-sub">The clearer your target, the sharper your route.</p>
-    <div class="set-field"><label>Target role</label><input class="set-input" value="Financial Analyst"></div>
-    <div class="set-field"><label>Target industry</label><select class="set-select"><option>Finance / Banking / Investment</option><option>Technology / Digital / Product</option><option>Government / Public Sector / State-Owned Enterprise (SOE/BUMN)</option><option>Consulting / Strategy</option><option>Marketing / Communications</option></select></div>
-    <div class="set-field"><label>Target company type</label><div class="chip-select">
-      <button class="sel-chip on">State-Owned Enterprise (SOE/BUMN)</button><button class="sel-chip">Multinational</button><button class="sel-chip on">Big 4</button><button class="sel-chip">Startup</button><button class="sel-chip">Government</button></div></div>
-    <div class="set-row2"><div class="set-field"><label>Target location</label><select class="set-select"><option>Jakarta</option><option>Remote</option><option>Open to relocate</option></select></div>
-      <div class="set-field"><label>Expected start date</label><input class="set-input" type="month" value="2026-09"></div></div>
-    <div class="set-field"><label>Current readiness</label><div class="readonly-score"><b>72</b><span style="color:var(--text-muted);font-size:12.5px">/ 100 · Mid-Mountain — from your latest Career Map Assessment</span></div></div>
-    <a href="career-map-assessment.html" class="btn-ghost-set" style="display:inline-block;text-decoration:none;margin-top:6px">Retake Career Map Assessment</a>
-    <div class="set-note">This will update your scores and 90-day route. You can retake every 30 days.</div>`,
-  notifications:`<h3>Notifications</h3><p class="ph-sub">Choose what reaches you, and how.</p>
-    ${['Weekly route check-in email','New milestone unlocked','Peer pod activity','Mentor replies','Product updates from the mountain'].map((t,i)=>`<label class="terms-row" style="margin-bottom:14px;color:var(--text-sub)"><input type="checkbox" ${i<3?'checked':''} style="accent-color:var(--cobalt)"> ${t}</label>`).join('')}
-    <button class="btn-save">Save Preferences</button>`,
-  language:`<h3>Language &amp; Region</h3><p class="ph-sub">Metanoia speaks your language.</p>
-    <div class="set-field"><label>Language</label><div class="toggle-lang"><button class="on">English</button><button>Bahasa Indonesia</button></div></div>
-    <div class="set-field"><label>Date format</label><select class="set-select"><option>DD Month YYYY (12 July 2026)</option><option>MM/DD/YYYY</option><option>YYYY-MM-DD</option></select></div>
-    <div class="set-field"><label>Currency display</label><div class="toggle-lang"><button class="on">IDR (Rp)</button><button>USD ($)</button></div></div>
-    <button class="btn-save">Save</button>`,
-  privacy:`<h3>Privacy &amp; Data</h3><p class="ph-sub">Your climb, your data. Always yours.</p>
-    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin:0 0 18px">We store your data securely and never sell it to third parties. We comply with Indonesia's Personal Data Protection Law (PDP Law).</p>
-    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn-ghost-set">Export my data</button><button class="btn-ghost-set" style="border-color:rgba(185,28,28,.32);color:#B91C1C">Delete my account</button></div>`,
-  subscription:`<h3>Subscription</h3><p class="ph-sub">You're on the free trail — and always can be.</p>
-    <div class="plan-box"><div class="plan-name">Free Climber</div>
-      <ul class="plan-feat">
-        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Career Map assessment &amp; 90-day route</li>
-        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Peer matching &amp; community access</li>
-        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Foundational learning modules</li>
-      </ul></div>
-    <button class="btn-save" style="background:var(--cobalt)">Unlock Premium Trail</button>
-    <h3 style="font-size:14px;margin:24px 0 10px">Billing history</h3>
-    <div class="empty-state">No transactions yet.</div>`,
+/* ═══ SETTINGS panels (bilingual — rendered from the SP dictionary) ═══ */
+const SP = {
+  en:{
+    profile:'Profile', profileSub:'This is how you appear across Metanoia.', upload:'Upload a photo', upNote:'PNG or JPG, up to 2MB.',
+    first:'First name', last:'Last name', lastPh:'Your last name', email:'Email', managedBy:'Managed by',
+    phone:'Phone / WhatsApp (optional)', gradYear:'Year of graduation', uni:'University / Institution', uniPh:'e.g., Universitas Indonesia', save:'Save Changes',
+    target:'Career Target', targetSub:'The clearer your target, the sharper your route.', role:'Target role', industry:'Target industry',
+    ind1:'Finance / Banking / Investment', ind2:'Technology / Digital / Product', ind3:'Government / Public Sector / State-Owned Enterprise (SOE/BUMN)', ind4:'Consulting / Strategy', ind5:'Marketing / Communications',
+    ctype:'Target company type', soe:'State-Owned Enterprise (SOE/BUMN)', mnc:'Multinational', big4:'Big 4', startup:'Startup', gov:'Government',
+    loc:'Target location', loc1:'Jakarta', loc2:'Remote', loc3:'Open to relocate', start:'Expected start date',
+    readiness:'Current readiness', readNote:'/ 100 · Mid-Mountain — from your latest Career Map Assessment',
+    retake:'Retake Career Map Assessment', retakeNote:'This will update your scores and 90-day route. You can retake every 30 days.',
+    notif:'Notifications', notifSub:'Choose what reaches you, and how.',
+    n1:'Weekly route check-in email', n2:'New milestone unlocked', n3:'Peer pod activity', n4:'Mentor replies', n5:'Product updates from the mountain', savePrefs:'Save Preferences',
+    langTitle:'Language &amp; Region', langSub:'Metanoia speaks your language.', langLbl:'Language',
+    dateFmt:'Date format', dateOpt1:'DD Month YYYY (12 July 2026)', currency:'Currency display', saveBtn:'Save',
+    priv:'Privacy &amp; Data', privSub:'Your climb, your data. Always yours.',
+    privBody:"We store your data securely and never sell it to third parties. We comply with Indonesia's Personal Data Protection Law (PDP Law).",
+    exportBtn:'Export my data', delBtn:'Delete my account',
+    sub:'Subscription', subSub:"You're on the free trail — and always can be.", plan:'Free Climber',
+    f1:'Career Map assessment &amp; 90-day route', f2:'Peer matching &amp; community access', f3:'Foundational learning modules',
+    unlock:'Unlock Premium Trail', billing:'Billing history', noTx:'No transactions yet.',
+    step:'Step {n} of 3',
+    onbWelcome:"Welcome to Basecamp, {name}.<br>Before we plot your route, tell us where you're headed.",
+    onbRolePh:'e.g., Financial Analyst', onbInd3:'Government / Public Sector / SOE (BUMN)',
+    skip:'Skip for now', cont:'Continue →', back:'← Back',
+    onbQ2:'Have you taken the Career Map Assessment yet?',
+    onbYes:'Yes, let me see my results', onbYesS:"We'll load your scores into your basecamp.",
+    onbNot:'Not yet — take it now', onbNotS:'15 minutes · five dimensions · your honest starting point.',
+    onbSkip2:"Skip for now — I'll explore first", onbSkip2S:'You can take it anytime from your dashboard.',
+    onbReady:'Your basecamp is ready.', onbFinal:"Everything your career needs, in one place. Let's begin.", onbEnter:'Enter Your Portal →'
+  },
+  id:{
+    profile:'Profil', profileSub:'Beginilah tampilanmu di seluruh Metanoia.', upload:'Unggah foto', upNote:'PNG atau JPG, maksimum 2MB.',
+    first:'Nama depan', last:'Nama belakang', lastPh:'Nama belakangmu', email:'Email', managedBy:'Dikelola oleh',
+    phone:'Telepon / WhatsApp (opsional)', gradYear:'Tahun kelulusan', uni:'Universitas / Institusi', uniPh:'mis., Universitas Indonesia', save:'Simpan Perubahan',
+    target:'Target Karier', targetSub:'Semakin jelas targetmu, semakin tajam rutemu.', role:'Posisi target', industry:'Industri target',
+    ind1:'Keuangan / Perbankan / Investasi', ind2:'Teknologi / Digital / Produk', ind3:'Pemerintahan / Sektor Publik / BUMN', ind4:'Konsultansi / Strategi', ind5:'Pemasaran / Komunikasi',
+    ctype:'Tipe perusahaan target', soe:'BUMN', mnc:'Multinasional', big4:'Big 4', startup:'Startup', gov:'Pemerintahan',
+    loc:'Lokasi target', loc1:'Jakarta', loc2:'Jarak jauh (remote)', loc3:'Bersedia relokasi', start:'Perkiraan mulai kerja',
+    readiness:'Kesiapan saat ini', readNote:'/ 100 · Mid-Mountain — dari Career Map Assessment terakhirmu',
+    retake:'Ulangi Career Map Assessment', retakeNote:'Ini akan memperbarui skor dan rute 90 harimu. Kamu dapat mengulang setiap 30 hari.',
+    notif:'Notifikasi', notifSub:'Pilih apa yang sampai kepadamu, dan bagaimana caranya.',
+    n1:'Email cek rute mingguan', n2:'Tonggak baru terbuka', n3:'Aktivitas pod rekan', n4:'Balasan mentor', n5:'Kabar produk dari gunung', savePrefs:'Simpan Preferensi',
+    langTitle:'Bahasa &amp; Wilayah', langSub:'Metanoia berbicara dalam bahasamu.', langLbl:'Bahasa',
+    dateFmt:'Format tanggal', dateOpt1:'DD Bulan YYYY (12 Juli 2026)', currency:'Tampilan mata uang', saveBtn:'Simpan',
+    priv:'Privasi &amp; Data', privSub:'Pendakianmu, datamu. Selalu milikmu.',
+    privBody:'Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Kami mematuhi Undang-Undang Pelindungan Data Pribadi (UU PDP) Indonesia.',
+    exportBtn:'Ekspor data saya', delBtn:'Hapus akun saya',
+    sub:'Langganan', subSub:'Kamu berada di jalur gratis — dan selalu bisa begitu.', plan:'Free Climber',
+    f1:'Career Map assessment &amp; rute 90 hari', f2:'Pencocokan rekan &amp; akses komunitas', f3:'Modul pembelajaran dasar',
+    unlock:'Buka Premium Trail', billing:'Riwayat tagihan', noTx:'Belum ada transaksi.',
+    step:'Langkah {n} dari 3',
+    onbWelcome:'Selamat datang di Basecamp, {name}.<br>Sebelum kami memetakan rutemu, ceritakan tujuanmu.',
+    onbRolePh:'mis., Analis Keuangan', onbInd3:'Pemerintahan / Sektor Publik / BUMN',
+    skip:'Lewati dulu', cont:'Lanjut →', back:'← Kembali',
+    onbQ2:'Sudah mengambil Career Map Assessment?',
+    onbYes:'Sudah, tunjukkan hasilku', onbYesS:'Kami akan memuat skormu ke basecamp-mu.',
+    onbNot:'Belum — ambil sekarang', onbNotS:'15 menit · lima dimensi · titik awalmu yang jujur.',
+    onbSkip2:'Lewati dulu — aku mau menjelajah', onbSkip2S:'Kamu bisa mengambilnya kapan saja dari dasbormu.',
+    onbReady:'Basecamp-mu sudah siap.', onbFinal:'Semua yang dibutuhkan kariermu, di satu tempat. Ayo mulai.', onbEnter:'Masuk ke Portalmu →'
+  }
 };
+const TT = k => (SP[lang] && SP[lang][k] != null) ? SP[lang][k] : SP.en[k];
+const CHECK = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function panels(key){
+  const managed = session.provider && session.provider!=='email' && session.provider!=='demo';
+  const map = {
+  profile:`<h3>${TT('profile')}</h3><p class="ph-sub">${TT('profileSub')}</p>
+    <div class="photo-up"><div class="photo-circle">${initial}</div><div><div class="up-link" style="cursor:pointer">${TT('upload')}</div><div class="up-note">${TT('upNote')}</div></div></div>
+    <div class="set-row2"><div class="set-field"><label>${TT('first')}</label><input class="set-input" value="${firstName}"></div>
+      <div class="set-field"><label>${TT('last')}</label><input class="set-input" placeholder="${TT('lastPh')}"></div></div>
+    <div class="set-field"><label>${TT('email')} ${managed?'<span class="managed-badge">'+TT('managedBy')+' '+session.provider.charAt(0).toUpperCase()+session.provider.slice(1)+'</span>':''}</label>
+      <input class="set-input" value="${session.email||''}" ${managed?'readonly':''}></div>
+    <div class="set-row2"><div class="set-field"><label>${TT('phone')}</label><input class="set-input" placeholder="+62…"></div>
+      <div class="set-field"><label>${TT('gradYear')}</label><input class="set-input" placeholder="2025"></div></div>
+    <div class="set-field"><label>${TT('uni')}</label><input class="set-input" placeholder="${TT('uniPh')}"></div>
+    <button class="btn-save">${TT('save')}</button>`,
+  target:`<h3>${TT('target')}</h3><p class="ph-sub">${TT('targetSub')}</p>
+    <div class="set-field"><label>${TT('role')}</label><input class="set-input" value="Financial Analyst"></div>
+    <div class="set-field"><label>${TT('industry')}</label><select class="set-select"><option>${TT('ind1')}</option><option>${TT('ind2')}</option><option>${TT('ind3')}</option><option>${TT('ind4')}</option><option>${TT('ind5')}</option></select></div>
+    <div class="set-field"><label>${TT('ctype')}</label><div class="chip-select">
+      <button class="sel-chip on">${TT('soe')}</button><button class="sel-chip">${TT('mnc')}</button><button class="sel-chip on">${TT('big4')}</button><button class="sel-chip">${TT('startup')}</button><button class="sel-chip">${TT('gov')}</button></div></div>
+    <div class="set-row2"><div class="set-field"><label>${TT('loc')}</label><select class="set-select"><option>${TT('loc1')}</option><option>${TT('loc2')}</option><option>${TT('loc3')}</option></select></div>
+      <div class="set-field"><label>${TT('start')}</label><input class="set-input" type="month" value="2026-09"></div></div>
+    <div class="set-field"><label>${TT('readiness')}</label><div class="readonly-score"><b>72</b><span style="color:var(--text-muted);font-size:12.5px">${TT('readNote')}</span></div></div>
+    <a href="career-map-assessment.html" class="btn-ghost-set" style="display:inline-block;text-decoration:none;margin-top:6px">${TT('retake')}</a>
+    <div class="set-note">${TT('retakeNote')}</div>`,
+  notifications:`<h3>${TT('notif')}</h3><p class="ph-sub">${TT('notifSub')}</p>
+    ${['n1','n2','n3','n4','n5'].map((k,i)=>`<label class="terms-row" style="display:block;margin-bottom:14px;color:var(--text-sub)"><input type="checkbox" ${i<3?'checked':''} style="accent-color:var(--cobalt)"> ${TT(k)}</label>`).join('')}
+    <button class="btn-save">${TT('savePrefs')}</button>`,
+  language:`<h3>${TT('langTitle')}</h3><p class="ph-sub">${TT('langSub')}</p>
+    <div class="set-field"><label>${TT('langLbl')}</label><div class="toggle-lang" id="setLangToggle"><button data-lang="en" class="${lang==='en'?'on':''}">English</button><button data-lang="id" class="${lang==='id'?'on':''}">Bahasa Indonesia</button></div></div>
+    <div class="set-field"><label>${TT('dateFmt')}</label><select class="set-select"><option>${TT('dateOpt1')}</option><option>MM/DD/YYYY</option><option>YYYY-MM-DD</option></select></div>
+    <div class="set-field"><label>${TT('currency')}</label><div class="toggle-lang"><button class="on">IDR (Rp)</button><button>USD ($)</button></div></div>
+    <button class="btn-save">${TT('saveBtn')}</button>`,
+  privacy:`<h3>${TT('priv')}</h3><p class="ph-sub">${TT('privSub')}</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin:0 0 18px">${TT('privBody')}</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn-ghost-set">${TT('exportBtn')}</button><button class="btn-ghost-set btn-danger" style="border-color:rgba(185,28,28,.32);color:#B91C1C">${TT('delBtn')}</button></div>`,
+  subscription:`<h3>${TT('sub')}</h3><p class="ph-sub">${TT('subSub')}</p>
+    <div class="plan-box"><div class="plan-name">${TT('plan')}</div>
+      <ul class="plan-feat">
+        <li>${CHECK}${TT('f1')}</li>
+        <li>${CHECK}${TT('f2')}</li>
+        <li>${CHECK}${TT('f3')}</li>
+      </ul></div>
+    <button class="btn-save" style="background:var(--cobalt)">${TT('unlock')}</button>
+    <h3 style="font-size:14px;margin:24px 0 10px">${TT('billing')}</h3>
+    <div class="empty-state">${TT('noTx')}</div>`,
+  };
+  return map[key]||'';
+}
 const setPanel=document.getElementById('setPanel');
-function renderSet(key){ setPanel.innerHTML=P[key]||''; }
+let curSet='profile';
+function renderSet(key){
+  curSet=key;
+  setPanel.innerHTML=panels(key);
+  setPanel.querySelectorAll('.sel-chip').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+  setPanel.querySelectorAll('.toggle-lang button').forEach(bt=>bt.addEventListener('click',()=>{ bt.parentElement.querySelectorAll('button').forEach(x=>x.classList.remove('on')); bt.classList.add('on'); }));
+  // the Language & Region panel's language switch drives the global language
+  setPanel.querySelectorAll('#setLangToggle button').forEach(bt=>bt.addEventListener('click',()=>setLang(bt.dataset.lang)));
+}
 renderSet('profile');
 document.querySelectorAll('#setSubnav .subnav-item').forEach(b=>{
   b.addEventListener('click', ()=>{
     document.querySelectorAll('#setSubnav .subnav-item').forEach(x=>x.classList.remove('active'));
     b.classList.add('active'); renderSet(b.dataset.set);
-    // chip toggles inside target panel
-    setPanel.querySelectorAll('.sel-chip').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
-    setPanel.querySelectorAll('.toggle-lang button').forEach(bt=>bt.addEventListener('click',()=>{ bt.parentElement.querySelectorAll('button').forEach(x=>x.classList.remove('on')); bt.classList.add('on'); }));
   });
 });
 
@@ -802,35 +1000,35 @@ const onbVeil=document.getElementById('onbVeil'), onbContent=document.getElement
       onbStepEl=document.getElementById('onbStep'), onbDots=document.getElementById('onbDots');
 let onbStep=1;
 function paintOnb(){
-  onbStepEl.textContent='Step '+onbStep+' of 3';
+  onbStepEl.textContent=TT('step').replace('{n}',onbStep);
   [...onbDots.children].forEach((d,i)=>d.classList.toggle('on', i<onbStep));
   if(onbStep===1){
-    onbContent.innerHTML=`<h2>Welcome to Basecamp, ${firstName}.<br>Before we plot your route, tell us where you're headed.</h2>
+    onbContent.innerHTML=`<h2>${TT('onbWelcome').replace('{name}',firstName)}</h2>
       <div class="onb-body">
-        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">Target role</label><input class="set-input" id="onbRole" placeholder="e.g., Financial Analyst"></div>
-        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">Target industry</label>
-          <select class="set-select" id="onbInd"><option>Finance / Banking / Investment</option><option>Technology / Digital / Product</option><option>Government / Public Sector / SOE (BUMN)</option><option>Consulting / Strategy</option><option>Marketing / Communications</option></select></div>
+        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">${TT('role')}</label><input class="set-input" id="onbRole" placeholder="${TT('onbRolePh')}"></div>
+        <div class="set-field"><label style="font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:7px">${TT('industry')}</label>
+          <select class="set-select" id="onbInd"><option>${TT('ind1')}</option><option>${TT('ind2')}</option><option>${TT('onbInd3')}</option><option>${TT('ind4')}</option><option>${TT('ind5')}</option></select></div>
       </div>
-      <div class="onb-actions"><button class="onb-skip" onclick="onbSkip()">Skip for now</button><button class="onb-next" onclick="onbNext()">Continue →</button></div>`;
+      <div class="onb-actions"><button class="onb-skip" onclick="onbSkip()">${TT('skip')}</button><button class="onb-next" onclick="onbNext()">${TT('cont')}</button></div>`;
   } else if(onbStep===2){
-    onbContent.innerHTML=`<h2>Have you taken the Career Map Assessment yet?</h2>
+    onbContent.innerHTML=`<h2>${TT('onbQ2')}</h2>
       <div class="onb-body">
-        <button class="onb-opt" onclick="onbNext()">Yes, let me see my results<small>We'll load your scores into your basecamp.</small></button>
-        <a class="onb-opt" href="career-map-assessment.html" style="text-decoration:none;display:block">Not yet — take it now<small>15 minutes · five dimensions · your honest starting point.</small></a>
-        <button class="onb-opt" onclick="onbNext()">Skip for now — I'll explore first<small>You can take it anytime from your dashboard.</small></button>
+        <button class="onb-opt" onclick="onbNext()">${TT('onbYes')}<small>${TT('onbYesS')}</small></button>
+        <a class="onb-opt" href="career-map-assessment.html" style="text-decoration:none;display:block">${TT('onbNot')}<small>${TT('onbNotS')}</small></a>
+        <button class="onb-opt" onclick="onbNext()">${TT('onbSkip2')}<small>${TT('onbSkip2S')}</small></button>
       </div>
-      <div class="onb-actions"><button class="onb-skip" onclick="onbBack()">← Back</button><span></span></div>`;
+      <div class="onb-actions"><button class="onb-skip" onclick="onbBack()">${TT('back')}</button><span></span></div>`;
   } else {
     onbContent.innerHTML=`<div class="onb-final">
-      <h2>Your basecamp is ready.</h2>
+      <h2>${TT('onbReady')}</h2>
       <svg class="fmtn" viewBox="0 0 400 130" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
         <defs><linearGradient id="odawn" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#F59E0B" stop-opacity=".28"/><stop offset="100%" stop-color="#B45309" stop-opacity="0"/></linearGradient></defs>
         <ellipse cx="200" cy="130" rx="190" ry="90" fill="url(#odawn)"/>
         <path d="M0 130 L80 70 L130 130 Z" fill="#101C2E"/><path d="M260 130 L330 78 L400 130 Z" fill="#101C2E"/>
         <path d="M90 130 L200 40 L310 130 Z" fill="#16233A"/>
         <circle cx="200" cy="40" r="4.5" fill="#1D5FAB"/><circle cx="200" cy="40" r="2.4" fill="#F0D878"/></svg>
-      <p style="color:var(--text-muted);font-size:.92rem;margin:0 0 4px">Everything your career needs, in one place. Let's begin.</p>
-      <div class="onb-actions" style="justify-content:center;margin-top:20px"><button class="onb-next" onclick="onbDone()">Enter Your Portal →</button></div></div>`;
+      <p style="color:var(--text-muted);font-size:.92rem;margin:0 0 4px">${TT('onbFinal')}</p>
+      <div class="onb-actions" style="justify-content:center;margin-top:20px"><button class="onb-next" onclick="onbDone()">${TT('onbEnter')}</button></div></div>`;
   }
 }
 window.onbNext=()=>{ onbStep=Math.min(3,onbStep+1); paintOnb(); };
@@ -838,6 +1036,42 @@ window.onbBack=()=>{ onbStep=Math.max(1,onbStep-1); paintOnb(); };
 window.onbSkip=()=>onbDone();
 window.onbDone=()=>{ onbVeil.classList.remove('show'); try{ localStorage.setItem('metanoia_onboarded','1'); }catch(e){} history.replaceState(null,'','portal.html'); };
 if(new URLSearchParams(location.search).get('onboarding')==='true'){ paintOnb(); onbVeil.classList.add('show'); }
+
+/* ═══ LANGUAGE TOGGLE (shared mtLang key, site standard) ═══ */
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el=>{ const v=el.dataset[lang]; if(v!=null) el.innerHTML=v; });
+  document.querySelectorAll('[data-ph-en]').forEach(el=>{ el.placeholder = lang==='id' ? el.dataset.phId : el.dataset.phEn; });
+  document.querySelectorAll('.ctl button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===lang?'true':'false'));
+  // re-fill dynamic content living inside translated templates
+  const g=document.getElementById('greetName'); if(g) g.textContent=firstName;
+  paintDate();
+  renderSet(curSet);
+  if(onbVeil.classList.contains('show')) paintOnb();
+}
+window.setLang = function(l){
+  if(l!=='en'&&l!=='id') return;
+  lang=l; try{ localStorage.setItem('mtLang',l); }catch(e){}
+  applyLang();
+};
+document.querySelectorAll('.portal-topbar .ctl button').forEach(b=>{
+  b.addEventListener('click',()=>setLang(b.dataset.lang));
+});
+applyLang();
+
+/* ═══ THEME TOGGLE (shared mt-theme key, site standard) ═══ */
+const mtRoot=document.documentElement;
+const mqDark=window.matchMedia('(prefers-color-scheme: dark)');
+function applyTheme(t,save){
+  mtRoot.dataset.theme=t;
+  if(save){ try{ localStorage.setItem('mt-theme',t); }catch(e){} }
+}
+document.getElementById('themeBtn').addEventListener('click',()=>{
+  applyTheme(mtRoot.dataset.theme==='dark'?'light':'dark',true);
+});
+mqDark.addEventListener('change',e=>{
+  try{ if(!localStorage.getItem('mt-theme')) applyTheme(e.matches?'dark':'light',false); }catch(err){}
+});
 })();
 </script>
 </body>
