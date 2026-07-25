@@ -109,9 +109,21 @@
     .left-rule{margin:14px 0 0}
     .auth-right{padding:34px 22px 54px}
   }
+  /* ─── language toggle (site-standard) ─── */
+  .lang{position:fixed;top:18px;right:22px;z-index:150;display:flex;border:1px solid rgba(255,255,255,.3);
+    border-radius:999px;overflow:hidden;backdrop-filter:blur(8px);background:rgba(5,10,18,.35)}
+  .lang button{background:none;border:0;color:#fff;opacity:.6;font-size:11px;font-weight:800;letter-spacing:.08em;
+    padding:6px 12px;cursor:pointer;transition:opacity .2s,background .2s}
+  .lang button[aria-pressed="true"]{opacity:1;background:rgba(255,255,255,.16)}
+  .lang button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 </style>
 </head>
 <body>
+<div class="lang" role="group" aria-label="Language / Bahasa">
+  <button data-lang="en" aria-pressed="true">EN</button>
+  <button data-lang="id" aria-pressed="false">ID</button>
+</div>
+
 <div class="auth-split">
 
   <!-- ═══ LEFT — BRAND STORY ═══ -->
@@ -127,14 +139,14 @@
       <span class="wm"><b>Metanoia</b><i>Labs</i></span>
     </a>
 
-    <h1 class="left-head">Your summit has always been there. You just needed the right rope team.</h1>
+    <h1 class="left-head" data-en="Your summit has always been there. You just needed the right rope team." data-id="Puncakmu selalu ada di sana. Kamu hanya membutuhkan tim pendaki yang tepat.">Your summit has always been there. You just needed the right rope team.</h1>
     <div class="left-rule"></div>
     <ul class="left-props">
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A personalized readiness map built around your goals</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AI coaching, peer matching, and verified credentials</span></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Every tool the system never gave you — now in one place</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="A personalized readiness map built around your goals" data-id="Peta kesiapan personal yang dibangun di sekitar tujuanmu">A personalized readiness map built around your goals</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="AI coaching, peer matching, and verified credentials" data-id="Coaching AI, pencocokan rekan, dan kredensial terverifikasi">AI coaching, peer matching, and verified credentials</span></li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Every tool the system never gave you — now in one place" data-id="Semua alat yang tidak pernah diberikan sistem — kini di satu tempat">Every tool the system never gave you — now in one place</span></li>
     </ul>
-    <a class="social-chip" href="#">Join 2,400 climbers currently on the ascent →</a>
+    <a class="social-chip" href="#" data-en="Join 2,400 climbers currently on the ascent →" data-id="Bergabung dengan 2.400 pendaki yang sedang mendaki →">Join 2,400 climbers currently on the ascent →</a>
 
     <svg class="left-silhouette" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
       <path d="M0 120 L120 60 L210 96 L330 34 L440 82 L560 26 L680 74 L800 30 L900 70 L1000 40 L1000 120 Z" fill="rgba(255,255,255,0.04)"/>
@@ -144,33 +156,33 @@
   <!-- ═══ RIGHT — REGISTRATION FORM ═══ -->
   <section class="auth-right">
     <div class="auth-form-wrap">
-      <div class="top-switch">Already have an account? <a class="gold-link" href="login.html">Sign in →</a></div>
-      <h2 class="auth-h1">Begin your ascent.</h2>
-      <p class="auth-desc">Create your free account — takes 30 seconds.</p>
+      <div class="top-switch"><span data-en="Already have an account?" data-id="Sudah punya akun?">Already have an account?</span> <a class="gold-link" href="login.html" data-en="Sign in →" data-id="Masuk →">Sign in →</a></div>
+      <h2 class="auth-h1" data-en="Begin your ascent." data-id="Mulailah pendakianmu.">Begin your ascent.</h2>
+      <p class="auth-desc" data-en="Create your free account — takes 30 seconds." data-id="Buat akun gratismu — hanya 30 detik.">Create your free account — takes 30 seconds.</p>
 
       <button class="btn-oauth" type="button" onclick="oauth('google')">
         <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"/><path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38Z"/></svg>
-        Continue with Google
+        <span data-en="Continue with Google" data-id="Lanjutkan dengan Google">Continue with Google</span>
       </button>
       <button class="btn-oauth" type="button" onclick="oauth('linkedin')">
         <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path fill="#0A66C2" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
-        Continue with LinkedIn
+        <span data-en="Continue with LinkedIn" data-id="Lanjutkan dengan LinkedIn">Continue with LinkedIn</span>
       </button>
 
-      <div class="auth-divider">or continue with email</div>
+      <div class="auth-divider" data-en="or continue with email" data-id="atau lanjutkan dengan email">or continue with email</div>
 
       <form id="regForm" novalidate>
-        <input class="auth-input" type="text" id="firstName" placeholder="First name" autocomplete="given-name" required>
-        <input class="auth-input" type="email" id="email" placeholder="Email address" autocomplete="email" required>
-        <input class="auth-input" type="password" id="password" placeholder="Password (min. 8 characters)" autocomplete="new-password" required>
-        <input class="auth-input" type="password" id="confirm" placeholder="Confirm password" autocomplete="new-password" required>
+        <input class="auth-input" type="text" id="firstName" placeholder="First name" data-ph-en="First name" data-ph-id="Nama depan" autocomplete="given-name" required>
+        <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
+        <input class="auth-input" type="password" id="password" placeholder="Password (min. 8 characters)" data-ph-en="Password (min. 8 characters)" data-ph-id="Kata sandi (min. 8 karakter)" autocomplete="new-password" required>
+        <input class="auth-input" type="password" id="confirm" placeholder="Confirm password" data-ph-en="Confirm password" data-ph-id="Konfirmasi kata sandi" autocomplete="new-password" required>
         <div id="mentorFields" style="display:none">
-          <input class="auth-input" type="text" id="expertise" placeholder="Industry &amp; functional expertise (e.g. Consulting · Strategy)">
-          <input class="auth-input" type="text" id="years" placeholder="Years of professional experience" inputmode="numeric">
+          <input class="auth-input" type="text" id="expertise" placeholder="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-en="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-id="Keahlian industri &amp; fungsional (mis. Konsultasi · Strategi)">
+          <input class="auth-input" type="text" id="years" placeholder="Years of professional experience" data-ph-en="Years of professional experience" data-ph-id="Tahun pengalaman profesional" inputmode="numeric">
         </div>
-        <label class="terms-row"><input type="checkbox" id="terms"> <span>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span></label>
+        <label class="terms-row"><input type="checkbox" id="terms"> <span data-en='I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.' data-id='Saya menyetujui <a href="#">Ketentuan Layanan</a> dan <a href="#">Kebijakan Privasi</a>.'>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span></label>
         <div class="form-err" id="formErr"></div>
-        <button class="btn-primary-auth" type="submit">Create My Account →</button>
+        <button class="btn-primary-auth" type="submit" data-en="Create My Account →" data-id="Buat Akun Saya →">Create My Account →</button>
       </form>
       <p class="form-note" hidden></p>
     </div>
@@ -180,13 +192,38 @@
 <!-- success state -->
 <div class="success-veil" id="successVeil">
   <div class="success-ring"><svg viewBox="0 0 24 24" fill="none"><path class="chk" d="M4 12.5l5 5L20 6" stroke="#0D7377" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <h2>Account created.</h2>
-  <p>Preparing your basecamp…</p>
+  <h2 data-en="Account created." data-id="Akun berhasil dibuat.">Account created.</h2>
+  <p data-en="Preparing your basecamp…" data-id="Menyiapkan basecamp-mu…">Preparing your basecamp…</p>
 </div>
 
 <script>
 (() => {
 'use strict';
+const I18N = {
+  en:{ noName:'Please enter your first name.', badEmail:'Please enter a valid email address.',
+       shortPw:'Password must be at least 8 characters.', noMatch:'Passwords do not match.',
+       noTerms:'Please accept the Terms to continue.', exists:'An account with that email already exists. Try signing in.',
+       noExpertise:'Please tell us your area of expertise.' },
+  id:{ noName:'Silakan masukkan nama depanmu.', badEmail:'Silakan masukkan alamat email yang valid.',
+       shortPw:'Kata sandi minimal 8 karakter.', noMatch:'Kata sandi tidak cocok.',
+       noTerms:'Silakan setujui Ketentuan untuk melanjutkan.', exists:'Akun dengan email itu sudah ada. Coba masuk.',
+       noExpertise:'Silakan beri tahu bidang keahlianmu.' }
+};
+/* ─── Language toggle (shared mtLang key, site pattern) ─── */
+let lang = 'en';
+try{ const l = localStorage.getItem('mtLang'); if(l==='id'||l==='en') lang = l; }catch(e){}
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el=>{ const v = el.dataset[lang]; if(v != null) el.innerHTML = v; });
+  document.querySelectorAll('[data-ph-en]').forEach(el=>{ el.placeholder = lang==='id' ? el.dataset.phId : el.dataset.phEn; });
+  document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===lang)));
+}
+document.querySelectorAll('.lang button').forEach(b=>{
+  b.addEventListener('click', ()=>{ lang = b.dataset.lang; try{ localStorage.setItem('mtLang', lang); }catch(e){} applyLang(); });
+});
+const TT = k => (I18N[lang] && I18N[lang][k]) || I18N.en[k];
+applyLang();
+
 /* ═══════════════════════════════════════════════════════════════
    MOCK AUTH LAYER — localStorage session simulation.
    ▸ Replace with Supabase Auth when configured:
@@ -207,22 +244,26 @@ const Auth = {
 };
 /* ── Mentor application mode (?role=mentor) ── */
 const isMentor = new URLSearchParams(location.search).get('role') === 'mentor';
+const setB=(sel,en,id)=>{ const el=document.querySelector(sel); if(el){ el.dataset.en=en; el.dataset.id=id; } };
 if(isMentor){
-  const set=(sel,txt)=>{ const el=document.querySelector(sel); if(el) el.textContent=txt; };
-  set('.left-head','Your experience is the shortcut someone else is looking for. Bring it here.');
+  setB('.left-head','Your experience is the shortcut someone else is looking for. Bring it here.',
+       'Pengalamanmu adalah jalan pintas yang sedang dicari orang lain. Bawalah ke sini.');
   const props=document.querySelectorAll('.left-props li span');
-  const ptxt=['Matched to mentees by your industry and expertise',
-              'Session guides provided — 4 sessions per semester, no prep required',
-              'A documented mentor profile you can link from LinkedIn'];
-  props.forEach((p,i)=>{ if(ptxt[i]) p.textContent=ptxt[i]; });
-  set('.social-chip','Join the mentors guiding the next ascent →');
-  set('.auth-h1','Apply to become a mentor.');
-  set('.auth-desc','Tell us about your expertise — the application takes less than five minutes.');
+  const ptxt=[['Matched to mentees by your industry and expertise','Dicocokkan dengan mentee berdasarkan industri dan keahlianmu'],
+              ['Session guides provided — 4 sessions per semester, no prep required','Panduan sesi disediakan — 4 sesi per semester, tanpa persiapan'],
+              ['A documented mentor profile you can link from LinkedIn','Profil mentor terdokumentasi yang dapat ditautkan dari LinkedIn']];
+  props.forEach((p,i)=>{ if(ptxt[i]){ p.dataset.en=ptxt[i][0]; p.dataset.id=ptxt[i][1]; } });
+  setB('.social-chip','Join the mentors guiding the next ascent →','Bergabunglah dengan para mentor pemandu pendakian berikutnya →');
+  setB('.auth-h1','Apply to become a mentor.','Daftar untuk menjadi mentor.');
+  setB('.auth-desc','Tell us about your expertise — the application takes less than five minutes.',
+       'Ceritakan keahlianmu — pendaftarannya kurang dari lima menit.');
   document.getElementById('mentorFields').style.display='';
-  const sub=document.querySelector('.btn-primary-auth'); if(sub) sub.textContent='Submit Mentor Application →';
+  setB('.btn-primary-auth','Submit Mentor Application →','Kirim Lamaran Mentor →');
   const fn=document.querySelector('.form-note');
-  if(fn){ fn.hidden=false; fn.textContent='No cost to join · 4 sessions per semester per mentee · Full onboarding provided'; }
+  if(fn){ fn.hidden=false; fn.dataset.en='No cost to join · 4 sessions per semester per mentee · Full onboarding provided';
+    fn.dataset.id='Tanpa biaya bergabung · 4 sesi per semester per mentee · Onboarding penuh disediakan'; }
   document.title='Apply as a Mentor — Metanoia Labs';
+  applyLang();
 }
 
 window.oauth = function(provider){
@@ -254,21 +295,20 @@ form.addEventListener('submit', e => {
   const name=F('firstName').value.trim(), email=F('email').value.trim(),
         pw=F('password').value, cf=F('confirm').value, agree=F('terms').checked;
   const fail=(msg,ids)=>{ err.textContent=msg; (ids||[]).forEach(id=>F(id).classList.add('field-error')); return false; };
-  if(!name) return fail('Please enter your first name.',['firstName']);
-  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return fail('Please enter a valid email address.',['email']);
-  if(pw.length<8) return fail('Password must be at least 8 characters.',['password']);
-  if(pw!==cf) return fail('Passwords do not match.',['password','confirm']);
-  if(!agree) return fail('Please accept the Terms to continue.',[]);
-  if(Auth.exists(email)) return fail('An account with that email already exists. Try signing in.',['email']);
-  if(isMentor && !F('expertise').value.trim()) return fail('Please tell us your area of expertise.',['expertise']);
+  if(!name) return fail(TT('noName'),['firstName']);
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return fail(TT('badEmail'),['email']);
+  if(pw.length<8) return fail(TT('shortPw'),['password']);
+  if(pw!==cf) return fail(TT('noMatch'),['password','confirm']);
+  if(!agree) return fail(TT('noTerms'),[]);
+  if(Auth.exists(email)) return fail(TT('exists'),['email']);
+  if(isMentor && !F('expertise').value.trim()) return fail(TT('noExpertise'),['expertise']);
   Auth.register({ name, email, password: pw, role: isMentor ? 'mentor' : 'member',
     expertise: isMentor ? F('expertise').value.trim() : undefined,
     years: isMentor ? F('years').value.trim() : undefined });
   if(isMentor){
-    const veil=document.getElementById('successVeil');
-    const h=veil.querySelector('h2'), p=veil.querySelector('p');
-    if(h) h.textContent='Application received.';
-    if(p) p.textContent='Preparing your mentor onboarding…';
+    setB('#successVeil h2','Application received.','Lamaran diterima.');
+    setB('#successVeil p','Preparing your mentor onboarding…','Menyiapkan onboarding mentormu…');
+    applyLang();
   }
   goSuccess(true);
 });
