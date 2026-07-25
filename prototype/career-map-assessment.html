@@ -11,19 +11,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+<!-- GA4 — replace G-XXXXXXXXXX with the real Measurement ID before launch -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
 <style>
   :root{
-    --bg:#070d18; --ink:#1B2434; --text:#F5EFE6; --muted:#93a3b8;
-    --ember:#F97316; --ember2:#F59E0B; --ember-ink:#160d03; --accent-print:#B4550E;
-    --gold1:#C97B1E; --gold2:#F5A623; --gold3:#FFD98A;
+    --bg:#070d18; --bg-dark:#0A1628; --bg-card:#0D1F35; --ink:#1B2434; --text:#F8F4EC; --muted:#93a3b8;
+    --ember:#C9A84C; --ember2:#F0D878; --ember-ink:#160d03; --accent-print:#8B6914;
+    --gold1:#C97B1E; --gold2:#F5A623; --gold3:#F0D878;
+    --gold:#C9A84C; --gold-light:#F0D878; --gold-dark:#8B6914; --gold-glow:rgba(201,168,76,.15);
     --amber:#B45309; --forest:#1A5C38;
     --white:#FFFFFF; --light:#F1F5F9; --mid:#64748B;
-    --glass:rgba(7,13,24,.5); --glass-border:rgba(245,239,230,.14);
+    --band1:#64748B; --band2:#3B82F6; --band3:#8B5CF6; --band4:#C9A84C; --band5:#10B981;
+    --glass:rgba(8,14,26,.70); --glass-border:rgba(180,140,60,.16);
     color-scheme: dark;
   }
   /* ── light theme tokens (mirrors landing.html) ── */
   :root[data-theme="light"]{
     --bg:#E9EEF4; --text:#1B2434; --muted:#5A6A80;
+    --ember:#8B6914; --ember2:#B4891F; --gold:#8B6914; --gold-light:#B4891F; --gold3:#8B6914;
     --glass:rgba(255,255,255,.72); --glass-border:rgba(27,36,52,.14);
     color-scheme: light;
   }
@@ -54,8 +60,8 @@
     font-weight:600;font-size:1rem;padding:14px 28px;text-decoration:none;min-height:48px;
     transition:transform .2s ease,box-shadow .2s ease,background .2s}
   .btn:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
-  .btn-ember{background:linear-gradient(120deg,var(--ember2),var(--ember));color:var(--ember-ink);border-radius:999px;box-shadow:0 8px 30px rgba(249,115,22,.35)}
-  .btn-ember:hover{transform:translateY(-1px);box-shadow:0 10px 34px rgba(249,115,22,.45)}
+  .btn-ember{background:linear-gradient(120deg,var(--ember2),var(--ember));color:var(--ember-ink);border-radius:999px;box-shadow:0 8px 30px rgba(201,168,76,.35)}
+  .btn-ember:hover{transform:translateY(-1px);box-shadow:0 10px 34px rgba(201,168,76,.45)}
   .btn-glass{background:transparent;border:1px solid rgba(255,255,255,.25);color:#fff}
   .btn-glass:hover{border-color:rgba(255,255,255,.5)}
   .lockup{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
@@ -90,7 +96,7 @@
   .alt-meter{max-width:1080px;margin:0 auto;padding:0 20px 10px}
   .alt-track{height:4px;border-radius:99px;background:rgba(245,239,230,.12);overflow:visible;position:relative}
   .alt-fill{height:100%;width:0%;border-radius:99px;background:linear-gradient(90deg,var(--gold1),var(--ember2));
-    box-shadow:0 0 8px rgba(245,158,11,.55);transition:width .35s ease}
+    box-shadow:0 0 8px rgba(201,168,76,.55);transition:width .35s ease}
 
   /* ============ QUESTION SCREEN ============ */
   .qview{min-height:calc(100vh - 110px);min-height:calc(100svh - 110px);display:flex;flex-direction:column;
@@ -98,9 +104,9 @@
   #qcard{transition:opacity .25s ease,transform .25s ease}
   #qcard.out-l{opacity:0;transform:translateX(-40px)} #qcard.out-r{opacity:0;transform:translateX(40px)}
   #qcard.in-r{opacity:0;transform:translateX(40px);transition:none} #qcard.in-l{opacity:0;transform:translateX(-40px);transition:none}
-  .section-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(249,115,22,.15);
-    border:1px solid rgba(249,115,22,.3);border-radius:999px;padding:5px 14px;font-size:.7rem;font-weight:600;
-    letter-spacing:.1em;text-transform:uppercase;color:#FFD98A;margin-bottom:22px}
+  .section-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,.15);
+    border:1px solid rgba(201,168,76,.3);border-radius:999px;padding:5px 14px;font-size:.7rem;font-weight:600;
+    letter-spacing:.1em;text-transform:uppercase;color:#F0D878;margin-bottom:22px}
   .qcounter{font-size:.8rem;font-weight:500;color:rgba(255,255,255,.35);margin-bottom:12px;letter-spacing:.05em}
   .qtext{font-size:clamp(1.4rem,3vw,2rem);font-weight:700;line-height:1.3;color:#fff;letter-spacing:-.02em}
   .qhint{color:rgba(255,255,255,.4);font-size:.85rem;margin-top:10px}
@@ -108,20 +114,20 @@
   .option-card{width:100%;max-width:640px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.10);
     border-radius:12px;padding:15px 20px;cursor:pointer;transition:all .2s ease;display:flex;align-items:flex-start;
     gap:14px;text-align:left;color:rgba(255,255,255,.9);font-size:1rem;font-weight:500;line-height:1.5;min-height:48px}
-  .option-card:hover{background:rgba(249,115,22,.15);border-color:rgba(249,115,22,.4);transform:translateX(4px)}
-  .option-card.selected{background:rgba(249,115,22,.25);border-color:var(--ember);
-    box-shadow:0 0 0 1px rgba(249,115,22,.3),inset 0 0 20px rgba(249,115,22,.1)}
+  .option-card:hover{background:rgba(201,168,76,.15);border-color:rgba(201,168,76,.4);transform:translateX(4px)}
+  .option-card.selected{background:rgba(201,168,76,.25);border-color:var(--ember);
+    box-shadow:0 0 0 1px rgba(201,168,76,.3),inset 0 0 20px rgba(201,168,76,.1)}
   .option-card.pulse{animation:selpulse .2s ease}
   @keyframes selpulse{50%{transform:scale(1.01)}}
   .option-dot{width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,.25);flex-shrink:0;
     margin-top:2px;transition:all .2s ease;position:relative}
-  .option-card.selected .option-dot{background:var(--ember);border-color:var(--ember);box-shadow:0 0 0 3px rgba(249,115,22,.25)}
+  .option-card.selected .option-dot{background:var(--ember);border-color:var(--ember);box-shadow:0 0 0 3px rgba(201,168,76,.25)}
   .option-card.selected .option-dot::after{content:"";position:absolute;left:5.5px;top:2.5px;width:4px;height:8px;
     border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
   .text-input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:12px;
     padding:16px 20px;color:#fff;font-size:1.1rem;font-family:'Inter',sans-serif;width:100%;max-width:480px;
     outline:none;transition:border-color .2s,box-shadow .2s;margin-top:26px}
-  .text-input:focus{border-color:var(--ember);box-shadow:0 0 0 3px rgba(249,115,22,.2)}
+  .text-input:focus{border-color:var(--ember);box-shadow:0 0 0 3px rgba(201,168,76,.2)}
   .text-input::placeholder{color:rgba(255,255,255,.25)}
   .otherwrap{margin-top:12px;display:none}
   .otherwrap .text-input{margin-top:0}
@@ -130,8 +136,8 @@
     border-radius:999px;padding:12px 20px;font-size:.875rem;font-weight:500;transition:all .2s;min-height:48px}
   .btn-back:hover{border-color:rgba(255,255,255,.35);color:#fff}
   .btn-next{background:linear-gradient(120deg,var(--ember2),var(--ember));border:none;color:var(--ember-ink);border-radius:999px;padding:12px 28px;font-size:.9rem;
-    font-weight:600;transition:all .2s;box-shadow:0 4px 16px rgba(249,115,22,.4);min-height:48px}
-  .btn-next:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(249,115,22,.5)}
+    font-weight:600;transition:all .2s;box-shadow:0 4px 16px rgba(201,168,76,.4);min-height:48px}
+  .btn-next:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(201,168,76,.5)}
   .btn-next[disabled]{opacity:.35;pointer-events:none}
 
   /* ============ INTERSTITIAL ============ */
@@ -146,17 +152,17 @@
   .inter .subtitle{font-size:1rem;color:rgba(255,255,255,.55);margin-top:14px;max-width:30em}
   .inter .peaks{display:flex;gap:14px;margin-top:56px}
   .inter .peaks svg{opacity:.28;transition:opacity .3s}
-  .inter .peaks svg.on{opacity:1;filter:drop-shadow(0 0 8px rgba(249,115,22,.9))}
+  .inter .peaks svg.on{opacity:1;filter:drop-shadow(0 0 8px rgba(201,168,76,.9))}
   .inter .tap{margin-top:22px;font-size:.65rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.25)}
 
   /* ============ LOADING ============ */
   #s-loading{background:var(--bg)}
   #s-loading.active{display:flex;align-items:center;justify-content:center;text-align:center}
   #s-loading .in{max-width:520px;padding:24px;width:100%}
-  .analyz{font-size:clamp(1.3rem,4vw,1.7rem);font-weight:800;color:#FFD98A;margin-top:30px}
+  .analyz{font-size:clamp(1.3rem,4vw,1.7rem);font-weight:800;color:#F0D878;margin-top:30px}
   .loadmsg{margin-top:14px;font-size:.95rem;color:rgba(255,255,255,.5);min-height:1.6em;transition:opacity .4s}
   .loadline{position:fixed;left:0;bottom:0;height:3px;width:0%;background:linear-gradient(90deg,var(--ember),var(--ember2));
-    box-shadow:0 0 10px rgba(249,115,22,.8);transition:width .3s linear}
+    box-shadow:0 0 10px rgba(201,168,76,.8);transition:width .3s linear}
 
   /* ============ REPORT (screen shell) ============ */
   #s-report{padding-bottom:60px}
@@ -215,12 +221,12 @@
   .rp-cover .mega{margin-top:10px;font-size:56pt;line-height:.98;font-weight:800;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(7,13,24,.6)}
   .rp-cover .rule{width:60px;height:3px;background:linear-gradient(90deg,var(--gold1),var(--gold2));margin:26px 0 28px}
   .rp-cover .pf{font-size:9pt;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,239,230,.55)}
-  .rp-cover .pname{font-size:28pt;font-weight:800;color:#FFD98A;margin-top:6px}
+  .rp-cover .pname{font-size:28pt;font-weight:800;color:#F0D878;margin-top:6px}
   .rp-cover .dots{display:flex;gap:8px;margin:26px 0 34px}
   .rp-cover .dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.15)}
   .rp-cover .dots i.on{background:var(--ember)}
   .rp-cover .scorewrap{display:flex;align-items:center;gap:16px;margin-top:4px}
-  .rp-cover .bandlbl{font-size:13pt;font-weight:700;color:#FFD98A;letter-spacing:.04em}
+  .rp-cover .bandlbl{font-size:13pt;font-weight:700;color:#F0D878;letter-spacing:.04em}
   .rp-cover .cfoot{margin-top:auto;border-top:1px solid rgba(245,239,230,.28);padding-top:14px;
     font-size:8pt;color:rgba(245,239,230,.75);line-height:1.7;display:flex;justify-content:space-between;align-items:flex-end}
   /* exec */
@@ -301,7 +307,7 @@
   .featc h4{font-size:10.5pt;margin-top:10px;color:var(--ink)}
   .featc p{font-size:8.4pt;color:#374151;line-height:1.55;margin-top:6px}
   .ns-cta{display:block;margin:30px auto 0;background:var(--ember);color:#fff;text-align:center;text-decoration:none;
-    border-radius:10px;padding:16px 30px;font-size:12pt;font-weight:700;max-width:420px;box-shadow:0 4px 20px rgba(249,115,22,.35)}
+    border-radius:10px;padding:16px 30px;font-size:12pt;font-weight:700;max-width:420px;box-shadow:0 4px 20px rgba(201,168,76,.35)}
   .ns-url{text-align:center;font-size:9pt;color:var(--mid);margin-top:12px}
 
   /* ── report visual system: icon badges, gauges, ascent infographic ── */
@@ -343,14 +349,14 @@
   .score-card{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:26px 34px;
     max-width:420px;margin:34px auto 32px;display:flex;align-items:center;gap:26px;text-align:left}
   .score-card .k{font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.4)}
-  .score-card .n{font-size:clamp(1.7rem,7.5vw,2.5rem);font-weight:800;color:#FFD98A;line-height:1.1;white-space:nowrap}
+  .score-card .n{font-size:clamp(1.7rem,7.5vw,2.5rem);font-weight:800;color:#F0D878;line-height:1.1;white-space:nowrap}
   .score-card .b{font-size:.9rem;color:#fff;font-weight:600}
   .score-card .d{font-size:.62rem;color:rgba(255,255,255,.3);margin-top:4px}
   .done-btns{display:flex;flex-direction:column;gap:12px;max-width:420px;margin:0 auto}
   .btn-climb{background:linear-gradient(120deg,var(--ember2),var(--ember));color:var(--ember-ink);padding:18px 32px;border-radius:999px;
-    font-size:1rem;font-weight:700;box-shadow:0 4px 24px rgba(245,158,11,.45);border:0;text-decoration:none;
+    font-size:1rem;font-weight:700;box-shadow:0 4px 24px rgba(201,168,76,.45);border:0;text-decoration:none;
     display:flex;flex-direction:column;align-items:center;gap:3px;transition:transform .2s,box-shadow .2s}
-  .btn-climb:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 8px 32px rgba(245,158,11,.55)}
+  .btn-climb:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 8px 32px rgba(201,168,76,.55)}
   .btn-climb small{font-size:.68rem;font-weight:600;color:rgba(22,13,3,.72)}
   .done-div{height:1px;background:rgba(255,255,255,.1);max-width:520px;margin:44px auto 26px}
   .waitlbl{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.35)}
@@ -358,21 +364,81 @@
   @media(max-width:700px){.featgrid{grid-template-columns:1fr 1fr}}
   .feature-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;
     padding:16px;text-align:left;position:relative}
-  .feature-card.hot{border-color:var(--ember);box-shadow:0 0 22px rgba(249,115,22,.25)}
-  .feature-card .prio{font-size:.56rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A;
+  .feature-card.hot{border-color:var(--ember);box-shadow:0 0 22px rgba(201,168,76,.25)}
+  .feature-card .prio{font-size:.56rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#F0D878;
     display:block;margin-bottom:5px}
   .feature-icon{font-size:1.4rem;margin-bottom:8px;display:block}
-  .feature-name{font-size:.85rem;font-weight:700;color:#FFD98A;margin-bottom:6px}
+  .feature-name{font-size:.85rem;font-weight:700;color:#F0D878;margin-bottom:6px}
   .feature-desc{font-size:.75rem;color:rgba(255,255,255,.5);line-height:1.5}
   .share-row{display:flex;gap:10px;justify-content:center;margin-top:26px}
   .share-row .btn{padding:9px 18px;font-size:.8rem;min-height:0}
-  .done-foot{margin-top:44px;border-top:1px solid rgba(249,115,22,.35);padding-top:22px;font-size:.68rem;
+  .done-foot{margin-top:44px;border-top:1px solid rgba(201,168,76,.35);padding-top:22px;font-size:.68rem;
     color:rgba(255,255,255,.3);line-height:1.8}
   /* entry animation */
   .dstep{opacity:0;transform:translateY(18px)}
   .go .dstep{opacity:1;transform:none;transition:opacity .6s ease,transform .6s ease}
   .go .dstep.d1{transition-delay:.3s}.go .dstep.d2{transition-delay:.5s}.go .dstep.d3{transition-delay:.65s}
   .go .dstep.d4{transition-delay:.8s}.go .dstep.d5{transition-delay:.95s}
+
+  /* ═══════════ V2 · topographic gold washes + new components ═══════════ */
+  #s-hero,#s-loading{background:
+    radial-gradient(ellipse at 20% 50%, rgba(201,168,76,.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(201,168,76,.04) 0%, transparent 40%)}
+  .proofstrip{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(201,168,76,.35);border-radius:999px;
+    padding:7px 16px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--gold-light);
+    background:rgba(201,168,76,.08);margin-bottom:22px}
+  .promises{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+  @media(max-width:640px){.promises{grid-template-columns:1fr}}
+  .promise{background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+    border:1px solid var(--glass-border);border-radius:16px;padding:18px}
+  .promise .pi{font-size:1.5rem;display:block;margin-bottom:8px}
+  .promise b{display:block;font-size:.92rem;color:var(--gold-light);margin-bottom:4px}
+  .promise span{font-size:.8rem;color:rgba(255,255,255,.6);line-height:1.5;display:block}
+  .samplewrap{margin-top:26px;display:flex;align-items:center;gap:16px}
+  .samplethumb{width:120px;height:86px;flex:none;border-radius:10px;border:1px solid rgba(201,168,76,.3);
+    background:linear-gradient(180deg,var(--bg-card),var(--bg-dark));position:relative;overflow:hidden}
+  .samplethumb::before{content:"";position:absolute;inset:10px;filter:blur(2px);opacity:.75;
+    background:repeating-linear-gradient(180deg,rgba(201,168,76,.55) 0 3px,transparent 3px 12px)}
+  .sampleline{font-size:.85rem;color:rgba(255,255,255,.65)}
+  .retrieve{margin-top:20px;font-size:.8rem;color:rgba(255,255,255,.45)}
+  .retrieve a{color:var(--gold-light);cursor:pointer;text-decoration:underline dotted}
+  .resume-banner{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:rgba(201,168,76,.1);
+    border:1px solid rgba(201,168,76,.4);border-radius:14px;padding:14px 18px;margin-top:26px}
+  .resume-banner span{font-size:.88rem;color:var(--gold-light);font-weight:600}
+  .resume-banner .btn{min-height:0;padding:9px 18px;font-size:.82rem}
+  .midcard{max-width:580px;margin:0 auto;padding:0 22px;min-height:100vh;min-height:100svh;
+    display:flex;flex-direction:column;justify-content:center;text-align:center}
+  .midcard .glass-c{background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+    border:1px solid rgba(201,168,76,.28);border-radius:16px;padding:36px 30px}
+  .midcard .mk{font-size:.68rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+  .midcard h2{font-size:clamp(1.3rem,4vw,1.7rem);color:#fff;line-height:1.35}
+  .midcard .mi{color:rgba(255,255,255,.78);margin-top:16px;font-size:1rem;line-height:1.7}
+  .midcard .btn{margin-top:26px}
+  .gate-big{font-size:clamp(2rem,7vw,3.2rem);font-weight:800;color:#fff}
+  .gate-sub{color:var(--gold-light);font-size:1.05rem;margin-top:12px;font-weight:600}
+  .gate-small{color:rgba(255,255,255,.45);font-size:.85rem;margin-top:20px}
+  .loadpct{font-size:2rem;font-weight:800;color:var(--gold-light);margin-top:14px;font-variant-numeric:tabular-nums}
+  .premium-card{margin-top:22px;border:1px solid rgba(201,168,76,.45);border-radius:16px;padding:22px 24px;text-align:left;
+    background:linear-gradient(160deg,rgba(201,168,76,.12),rgba(8,14,26,.5))}
+  .premium-card .pk{font-size:1rem;font-weight:800;color:var(--gold-light);margin-bottom:10px}
+  .premium-card ul{margin:0 0 12px;padding-left:18px;color:rgba(255,255,255,.8);font-size:.85rem;line-height:1.9}
+  .premium-card .pp{font-size:.95rem;font-weight:800;color:#fff;margin-bottom:12px}
+  .cmpline{margin-top:10px;font-size:8.6pt;color:#8B6914;font-weight:700}
+  .radar-cap{font-size:7.6pt;color:#6B7280;margin-top:6px;text-align:center;max-width:300px}
+  .ahead{margin-top:8px;font-size:8pt;font-weight:700;color:#8B6914}
+  .rr-note{margin-top:18px;border:1px dashed rgba(139,105,20,.5);border-radius:10px;padding:12px 16px;font-size:9pt;
+    color:#374151;background:#FAF8F3;line-height:1.6}
+  :root[data-theme="light"] .promise span{color:rgba(27,36,52,.7)}
+  :root[data-theme="light"] .promise b{color:#8B6914}
+  :root[data-theme="light"] .sampleline{color:rgba(27,36,52,.65)}
+  :root[data-theme="light"] .retrieve{color:rgba(27,36,52,.55)}
+  :root[data-theme="light"] .midcard h2{color:#1B2434}
+  :root[data-theme="light"] .midcard .mi{color:rgba(27,36,52,.75)}
+  :root[data-theme="light"] .gate-big{color:#1B2434}
+  :root[data-theme="light"] .gate-small{color:rgba(27,36,52,.5)}
+  :root[data-theme="light"] .premium-card{background:linear-gradient(160deg,rgba(201,168,76,.16),rgba(255,255,255,.7))}
+  :root[data-theme="light"] .premium-card ul{color:rgba(27,36,52,.8)}
+  :root[data-theme="light"] .premium-card .pp{color:#1B2434}
 
   @media print{
     body *{visibility:hidden}
@@ -409,18 +475,18 @@
   :root[data-theme="light"] #s-hero .fine{color:rgba(27,36,52,.5)}
   /* quiz header + progress */
   :root[data-theme="light"] .qhead{background:rgba(238,242,246,.92);border-bottom-color:rgba(27,36,52,.14)}
-  :root[data-theme="light"] .qhead .ptext{color:#B4550E;border-color:rgba(27,36,52,.25);background:rgba(255,255,255,.55)}
+  :root[data-theme="light"] .qhead .ptext{color:#8B6914;border-color:rgba(27,36,52,.25);background:rgba(255,255,255,.55)}
   :root[data-theme="light"] .qhead .plabel{color:rgba(27,36,52,.45)}
   :root[data-theme="light"] .alt-track{background:rgba(27,36,52,.15)}
   /* questions */
   :root[data-theme="light"] .qcounter{color:rgba(27,36,52,.5)}
   :root[data-theme="light"] .qtext{color:#1B2434}
   :root[data-theme="light"] .qhint{color:rgba(27,36,52,.55)}
-  :root[data-theme="light"] .section-chip{color:#B4550E;background:rgba(249,115,22,.12);border-color:rgba(180,85,14,.35)}
+  :root[data-theme="light"] .section-chip{color:#8B6914;background:rgba(201,168,76,.12);border-color:rgba(180,85,14,.35)}
   :root[data-theme="light"] .option-card{background:rgba(255,255,255,.85);border-color:rgba(27,36,52,.16);color:#1B2434}
-  :root[data-theme="light"] .option-card:hover{background:rgba(249,115,22,.10);border-color:rgba(180,85,14,.5);color:#1B2434}
-  :root[data-theme="light"] .option-card.selected{background:rgba(249,115,22,.14);color:#1B2434;
-    box-shadow:0 0 0 1px rgba(249,115,22,.3),inset 0 0 20px rgba(249,115,22,.06)}
+  :root[data-theme="light"] .option-card:hover{background:rgba(201,168,76,.10);border-color:rgba(180,85,14,.5);color:#1B2434}
+  :root[data-theme="light"] .option-card.selected{background:rgba(201,168,76,.14);color:#1B2434;
+    box-shadow:0 0 0 1px rgba(201,168,76,.3),inset 0 0 20px rgba(201,168,76,.06)}
   :root[data-theme="light"] .option-dot{border-color:rgba(27,36,52,.3)}
   :root[data-theme="light"] .text-input{background:#FFFFFF;border-color:rgba(27,36,52,.22);color:#1B2434}
   :root[data-theme="light"] .text-input::placeholder{color:rgba(27,36,52,.38)}
@@ -431,12 +497,12 @@
   :root[data-theme="light"] .inter h2{color:#1B2434}
   :root[data-theme="light"] .inter .subtitle{color:rgba(27,36,52,.65)}
   :root[data-theme="light"] .inter .tap{color:rgba(27,36,52,.4)}
-  :root[data-theme="light"] .inter .chapter{color:#B4550E}
-  :root[data-theme="light"] .analyz{color:#B4550E}
+  :root[data-theme="light"] .inter .chapter{color:#8B6914}
+  :root[data-theme="light"] .analyz{color:#8B6914}
   :root[data-theme="light"] .loadmsg{color:rgba(27,36,52,.6)}
   /* report toolbar + capture card (report pages themselves stay paper for print parity) */
   :root[data-theme="light"] .rtoolbar{background:rgba(238,242,246,.96);border-bottom-color:rgba(27,36,52,.12)}
-  :root[data-theme="light"] .rt-title{color:#B4550E !important}
+  :root[data-theme="light"] .rt-title{color:#8B6914 !important}
   :root[data-theme="light"] .capcard h2{color:#1B2434}
   :root[data-theme="light"] .capcard .lead{color:rgba(27,36,52,.62)}
   :root[data-theme="light"] .capform label.ck{color:rgba(27,36,52,.65)}
@@ -452,7 +518,7 @@
   :root[data-theme="light"] .done-div{background:rgba(27,36,52,.15)}
   :root[data-theme="light"] .waitlbl{color:rgba(27,36,52,.5)}
   :root[data-theme="light"] .feature-card{background:rgba(255,255,255,.75);border-color:rgba(27,36,52,.13)}
-  :root[data-theme="light"] .feature-name{color:#B4550E}
+  :root[data-theme="light"] .feature-name{color:#8B6914}
   :root[data-theme="light"] .feature-desc{color:rgba(27,36,52,.58)}
   :root[data-theme="light"] .done-foot{color:rgba(27,36,52,.45);border-top-color:rgba(180,85,14,.4)}
 </style>
@@ -465,10 +531,10 @@
     <a class="lockup" href="landing.html" aria-label="Metanoia Labs home">
       <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <defs><linearGradient id="lg1" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
         <circle cx="20" cy="20" r="18.2" stroke="url(#lg1)" stroke-width="1.6" opacity=".9"/>
         <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lg1)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+        <circle cx="24.5" cy="11" r="1.9" fill="#C9A84C"/>
       </svg>
       <span class="wm"><b>Metanoia</b><i>Labs</i></span>
     </a>
@@ -484,20 +550,26 @@
     </div>
   </div>
   <div class="hero-in">
+    <div class="proofstrip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19 L9 8 L13 14 L16 9 L21 19 Z"/></svg><span data-t="hero.proof">Join 12,000+ professionals who've mapped their climb</span></div>
     <h1 data-t="hero.h1">Your Career Map starts here.</h1>
     <p class="sub" data-t="hero.sub">A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.</p>
-    <ul class="getlist">
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b1">Your Career Readiness Score across 5 dimensions</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b2">Your position on the mountain (honestly mapped)</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b3">Top 3 strengths to build on</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b4">Top 3 gaps to close immediately</span></li>
-      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.b5">A personalized 90-day route to your target role</span></li>
-    </ul>
-    <div style="margin-top:34px">
-      <button class="btn btn-ember" id="beginBtn" style="font-size:1.05rem;padding:16px 32px"><span data-t="hero.cta">Begin the Climb</span>
+    <div class="promises">
+      <div class="promise"><span class="pi" aria-hidden="true">🗺️</span><b data-t="hero.c1t">Your Readiness Score</b><span data-t="hero.c1d">Across 5 dimensions that predict offer success</span></div>
+      <div class="promise"><span class="pi" aria-hidden="true">⛰️</span><b data-t="hero.c2t">Your Position on the Mountain</b><span data-t="hero.c2d">Honestly mapped, no flattery</span></div>
+      <div class="promise"><span class="pi" aria-hidden="true">🧭</span><b data-t="hero.c3t">Your 90-Day Route</b><span data-t="hero.c3d">Specific actions, specific sequence</span></div>
+    </div>
+    <div class="samplewrap"><div class="samplethumb" aria-hidden="true"></div><span class="sampleline" data-t="hero.sample">Here's what you'll receive →</span></div>
+    <div style="margin-top:30px">
+      <button class="btn btn-ember" id="beginBtn" style="font-size:1.05rem;padding:16px 32px"><span data-t="hero.cta">See Where I Stand</span>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
       <p class="fine" data-t="hero.fine">Free · Takes 15 minutes · No login required · Your results are private</p>
+      <p class="retrieve"><span data-t="hero.retrieve">Already have your results?</span> <a id="retrieveLink" data-t="hero.retrieve2">Enter your email to retrieve them →</a></p>
+    </div>
+    <div class="resume-banner" id="resumeBanner">
+      <span id="resumeQ"></span>
+      <button class="btn btn-ember" id="resumeCont" data-t="resume.c">Continue</button>
+      <button class="btn btn-glass" id="resumeRestart" data-t="resume.r">Start over</button>
     </div>
   </div>
 </section>
@@ -509,10 +581,10 @@
       <a class="lockup" href="#" onclick="return goHero()">
         <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
           <defs><linearGradient id="lgQ" x1="0" y1="1" x2="1" y2="0">
-            <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+            <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
           <circle cx="20" cy="20" r="18.2" stroke="url(#lgQ)" stroke-width="1.8" opacity=".9"/>
           <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgQ)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          <circle cx="24.5" cy="11" r="1.9" fill="#C9A84C"/>
         </svg>
         <span class="wm"><b>Metanoia</b><i>Labs</i></span>
       </a>
@@ -562,23 +634,44 @@
   </div>
 </section>
 
+<!-- ============ MID-ASSESSMENT REVEAL ============ -->
+<section class="screen" id="s-mid">
+  <div class="midcard"><div class="glass-c">
+    <div class="mk" data-t="mid.k">Halfway checkpoint</div>
+    <h2><span id="midName"></span> <span data-t="mid.h">You're halfway there — and we've already noticed something.</span></h2>
+    <p class="mi" id="midInsight"></p>
+    <button class="btn btn-ember" id="midBtn" data-t="mid.cta">Continue to Interview Readiness →</button>
+  </div></div>
+</section>
+
+<!-- ============ FINAL GATE ============ -->
+<section class="screen" id="s-gate">
+  <div class="midcard">
+    <div class="gate-big" data-t="gate.h">Question 25 of 25.</div>
+    <div class="gate-sub" data-t="gate.s">Most people never get this far.</div>
+    <div class="gate-small" data-t="gate.small">Your Career Map is being calculated...</div>
+    <div><button class="btn btn-ember" id="gateBtn" style="margin-top:26px" data-t="gate.cta">Continue to My Results →</button></div>
+  </div>
+</section>
+
 <!-- ============ LOADING ============ -->
 <section class="screen" id="s-loading">
   <div class="in">
     <svg width="300" height="150" viewBox="0 0 300 150" fill="none" aria-hidden="true" style="max-width:300px;width:100%">
       <defs>
         <linearGradient id="trailg" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient>
+          <stop offset="0%" stop-color="#C9A84C" stop-opacity="0"/><stop offset="100%" stop-color="#C9A84C"/></linearGradient>
       </defs>
       <path id="loadRidge" d="M10 140 L75 78 L112 104 L165 38 L215 82 L282 14"
         stroke="rgba(255,255,255,.12)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
       <path id="loadTrail" d="M10 140 L75 78 L112 104 L165 38 L215 82 L282 14"
         stroke="url(#trailg)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <circle id="loadDot" r="5" cx="10" cy="140" fill="#FFD98A" style="filter:drop-shadow(0 0 8px rgba(249,115,22,1))"/>
+      <circle id="loadDot" r="5" cx="10" cy="140" fill="#F0D878" style="filter:drop-shadow(0 0 8px rgba(201,168,76,1))"/>
       <circle id="peakFlash" r="0" cx="282" cy="14" fill="#F5A623" opacity="0"/>
     </svg>
     <div class="analyz" data-t="load.analyz">Analyzing your climb...</div>
     <p class="loadmsg" id="loadmsg">Mapping your career terrain...</p>
+    <div class="loadpct" id="loadpct">0%</div>
   </div>
   <div class="loadline" id="loadline"></div>
 </section>
@@ -586,7 +679,7 @@
 <!-- ============ REPORT ============ -->
 <section class="screen" id="s-report">
   <div class="rtoolbar">
-    <span class="rt-title" style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A" data-t="ui.yourmap">Your Career Map</span>
+    <span class="rt-title" style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#F0D878" data-t="ui.yourmap">Your Career Map</span>
     <div class="acts">
       <button class="btn btn-ember" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
       <button class="btn btn-glass" onclick="document.getElementById('capture').scrollIntoView({behavior:'smooth'})"><span data-t="ui.emailme">Email me my report</span></button>
@@ -600,24 +693,40 @@
   <div id="rscale"><div id="rwrap"><div id="report-content"></div></div></div>
   <div id="capture">
     <div class="capcard">
-      <h2 data-t="cap.h">Keep your Career Map</h2>
-      <p class="lead" data-t="cap.lead">Enter your details and we'll send your full report — plus one honest, useful email each week from the mountain. No spam, ever.</p>
+      <h2 data-t="cap.h">Keep your Career Map — and start your climb</h2>
+      <p class="lead" data-t="cap.lead">Create your free account to turn this report into your live route — or have the full report emailed to you.</p>
       <form class="capform" id="capform" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <input type="hidden" name="score" id="hidden-score">
-        <input type="hidden" name="band" id="hidden-band">
+        <input type="hidden" name="_subject" value="New Metanoia Career Map Submission">
+        <input type="hidden" name="total_score" id="hidden-score">
+        <input type="hidden" name="score_band" id="hidden-band">
         <input type="hidden" name="dimension_scores" id="hidden-dimensions">
         <input type="hidden" name="profile" id="hidden-profile">
-        <input type="hidden" name="answers" id="hidden-answers">
+        <input type="hidden" name="profile_status" id="hidden-status">
+        <input type="hidden" name="profile_direction" id="hidden-direction">
+        <input type="hidden" name="profile_challenge" id="hidden-challenge">
+        <input type="hidden" name="answers_json" id="hidden-answers">
         <input class="text-input" type="text" name="name" id="capName" placeholder="Your first name" required>
         <input class="text-input" type="email" name="email" id="capEmail" placeholder="Your email" required>
-        <input class="text-input" type="url" name="linkedin" id="capLinkedin" placeholder="LinkedIn profile URL (optional)">
-        <label class="ck"><input type="checkbox" name="waitlist" checked id="capWaitlist">
-          <span data-t="cap.wait">Join the Metanoia waitlist — be first on the rope when the platform opens.</span></label>
+        <input class="text-input" type="url" name="linkedin" id="capLinkedin" placeholder="LinkedIn profile URL (optional) — so we can send role-specific tips">
+        <label class="ck"><input type="checkbox" name="weekly_email" checked id="capWaitlist">
+          <span data-t="cap.wait">Send me one honest, useful email each week from the mountain. No spam, ever.</span></label>
         <div class="cap-actions">
-          <button type="submit" class="btn btn-ember"><span data-t="cap.send">Send my Career Map</span></button>
+          <button type="button" class="btn btn-ember" id="acctBtn"><span data-t="cap.acct">Create My Free Metanoia Account →</span></button>
+          <button type="submit" class="btn btn-glass"><span data-t="cap.send">Email me my Career Map report</span></button>
           <button type="button" class="btn btn-glass" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
         </div>
       </form>
+      <div class="premium-card">
+        <div class="pk" data-t="prem.k">🚀 Want to close your gaps faster?</div>
+        <ul>
+          <li data-t="prem.f1">Full 12-page PDF report</li>
+          <li data-t="prem.f2">1:1 coach review of your results</li>
+          <li data-t="prem.f3">Personalized 90-day action plan</li>
+          <li data-t="prem.f4">Priority access to CV Studio</li>
+        </ul>
+        <div class="pp" data-t="prem.p">IDR 99,000 — one-time</div>
+        <button class="btn btn-ember" id="premBtn"><span data-t="prem.cta">Get Premium Analysis →</span></button>
+      </div>
     </div>
   </div>
 </section>
@@ -628,7 +737,7 @@
     <svg class="summit-art dstep" viewBox="0 0 720 200" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
       <defs>
         <linearGradient id="dawn" x1="0" y1="1" x2="0" y2="0">
-          <stop offset="0%" stop-color="#F59E0B" stop-opacity=".30"/>
+          <stop offset="0%" stop-color="#C9A84C" stop-opacity=".30"/>
           <stop offset="55%" stop-color="#B45309" stop-opacity=".12"/>
           <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
         </linearGradient>
@@ -643,8 +752,8 @@
       <path d="M0 200 L120 120 L210 200 Z" fill="#111c30"/>
       <path d="M470 200 L610 128 L720 200 Z" fill="#111c30"/>
       <path d="M150 200 L360 58 L570 200 Z" fill="#152238"/>
-      <circle class="summit-dot" cx="360" cy="58" fill="#F59E0B"/>
-      <circle cx="360" cy="58" r="3.4" fill="#FFD98A"/>
+      <circle class="summit-dot" cx="360" cy="58" fill="#C9A84C"/>
+      <circle cx="360" cy="58" r="3.4" fill="#F0D878"/>
     </svg>
     <h2 class="done-h dstep d1" data-t="done.h">You've done something rare.</h2>
     <p class="done-sub dstep d1" data-t="done.sub">Most people never stop to honestly assess where they stand. You did. That changes everything.</p>
@@ -671,6 +780,7 @@
     <div class="share-row dstep d5">
       <button class="btn btn-glass" id="shareLi" data-t="done.shli">Share on LinkedIn</button>
       <button class="btn btn-glass" id="shareX" data-t="done.shx">Share on X</button>
+      <button class="btn btn-glass" id="shareCard" data-t="done.card">↓ Result card</button>
     </div>
     <div class="done-foot dstep d5">
       <b style="color:rgba(255,255,255,.55)">Metanoia Labs · metanoialabs.net</b><br>
@@ -683,6 +793,11 @@
 <script>
 (() => {
 'use strict';
+/* ── GA4 analytics wrapper (Part 13 of the V2 spec) ── */
+const analytics={ track(event,params={}){ try{
+  if(typeof gtag!=='undefined') gtag('event',event,params);
+  if(location.hostname==='localhost'||location.protocol==='file:') console.log('[Analytics]',event,params);
+}catch(e){} } };
 
 /* ═══ Theme (site-standard: shared mt-theme key, prefers-color-scheme fallback) ═══ */
 const root = document.documentElement;
@@ -707,14 +822,31 @@ mqLight.addEventListener('change', e=>{
 const T = {
  en:{ 'ui.back':'Back','ui.next':'Next','ui.tap':'Tap to continue','ui.q':'Question {x} of {y}','ui.sec':'Section {x} of 5 · {name}',
       'ui.profiling':'Getting to know you','ui.pdf':'Download PDF','ui.emailme':'Email me my report','ui.share':'Share','ui.yourmap':'Your Career Map',
-      'hero.h1':'Your Career Map starts here.','hero.cta':'Begin the Climb',
+      'hero.h1':'Your Career Map starts here.','hero.cta':'See Where I Stand',
       'hero.sub':'A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.',
       'hero.b1':'Your Career Readiness Score across 5 dimensions','hero.b2':'Your position on the mountain (honestly mapped)',
       'hero.b3':'Top 3 strengths to build on','hero.b4':'Top 3 gaps to close immediately','hero.b5':'A personalized 90-day route to your target role',
       'hero.fine':'Free · Takes 15 minutes · No login required · Your results are private',
-      'cap.h':'Keep your Career Map','cap.send':'Send my Career Map',
-      'cap.lead':"Enter your details and we'll send your full report — plus one honest, useful email each week from the mountain. No spam, ever.",
-      'cap.wait':'Join the Metanoia waitlist — be first on the rope when the platform opens.',
+      'cap.h':'Keep your Career Map — and start your climb','cap.send':'Email me my Career Map report',
+      'cap.lead':'Create your free account to turn this report into your live route — or have the full report emailed to you.',
+      'cap.wait':'Send me one honest, useful email each week from the mountain. No spam, ever.',
+      'cap.acct':'Create My Free Metanoia Account →',
+      'hero.proof':"Join 12,000+ professionals who've mapped their climb",
+      'hero.c1t':'Your Readiness Score','hero.c1d':'Across 5 dimensions that predict offer success',
+      'hero.c2t':'Your Position on the Mountain','hero.c2d':'Honestly mapped, no flattery',
+      'hero.c3t':'Your 90-Day Route','hero.c3d':'Specific actions, specific sequence',
+      'hero.sample':"Here's what you'll receive →",
+      'hero.retrieve':'Already have your results?','hero.retrieve2':'Enter your email to retrieve them →',
+      'hero.soon':'Coming soon — your results stay saved in this browser session.',
+      'resume.t':"Continue where you left off? You're on step {x}.",'resume.c':'Continue','resume.r':'Start over',
+      'mid.k':'Halfway checkpoint','mid.h':"You're halfway there — and we've already noticed something.",
+      'mid.cta':'Continue to Interview Readiness →',
+      'gate.h':'Question 25 of 25.','gate.s':'Most people never get this far.',
+      'gate.small':'Your Career Map is being calculated...','gate.cta':'Continue to My Results →',
+      'prem.k':'🚀 Want to close your gaps faster?','prem.f1':'Full 12-page PDF report',
+      'prem.f2':'1:1 coach review of your results','prem.f3':'Personalized 90-day action plan',
+      'prem.f4':'Priority access to CV Studio','prem.p':'IDR 99,000 — one-time','prem.cta':'Get Premium Analysis →',
+      'done.card':'↓ Result card',
       'ui.chapter':'Chapter {x}','load.analyz':'Analyzing your climb...',
       'done.h':"You've done something rare.",'done.sub':'Most people never stop to honestly assess where they stand. You did. That changes everything.',
       'done.k':'Your readiness score','done.completed':'Completed {d}','done.dl':'↓ Download Your Career Map (PDF)','done.em':'✉ Email me my report',
@@ -722,14 +854,31 @@ const T = {
       'done.wait':"What's waiting for you",'done.shli':'Share on LinkedIn','done.shx':'Share on X','done.prio':'Your priority ✦' },
  id:{ 'ui.back':'Kembali','ui.next':'Lanjut','ui.tap':'Ketuk untuk lanjut','ui.q':'Pertanyaan {x} dari {y}','ui.sec':'Bagian {x} dari 5 · {name}',
       'ui.profiling':'Berkenalan denganmu','ui.pdf':'Unduh PDF','ui.emailme':'Kirim laporan ke email','ui.share':'Bagikan','ui.yourmap':'Peta Kariermu',
-      'hero.h1':'Peta Kariermu dimulai di sini.','hero.cta':'Mulai Pendakian',
+      'hero.h1':'Peta Kariermu dimulai di sini.','hero.cta':'Lihat Posisiku',
       'hero.sub':'Diagnostik 15 menit yang menunjukkan persis posisimu di gunung ini — dan rute yang jelas menuju offer pertamamu.',
       'hero.b1':'Skor Kesiapan Karier di 5 dimensi','hero.b2':'Posisimu di gunung (dipetakan jujur)',
       'hero.b3':'3 kekuatan teratas untuk kamu bangun','hero.b4':'3 kesenjangan untuk segera ditutup','hero.b5':'Rute 90 hari yang dipersonalisasi menuju role targetmu',
       'hero.fine':'Gratis · 15 menit · Tanpa login · Hasilmu privat',
-      'cap.h':'Simpan Peta Kariermu','cap.send':'Kirim Peta Karierku',
-      'cap.lead':'Masukkan datamu dan kami kirim laporan lengkapmu — plus satu email yang jujur dan berguna tiap minggu, langsung dari gunung ini. Tanpa spam, selamanya.',
-      'cap.wait':'Gabung waitlist Metanoia — jadi yang pertama di tali saat platform dibuka.',
+      'cap.h':'Simpan Peta Kariermu — dan mulai pendakianmu','cap.send':'Kirim laporan Peta Karierku ke email',
+      'cap.lead':'Buat akun gratismu untuk mengubah laporan ini menjadi rute yang hidup — atau minta laporan lengkap dikirim ke emailmu.',
+      'cap.wait':'Kirimkan satu email yang jujur dan berguna tiap minggu dari gunung ini. Tanpa spam, selamanya.',
+      'cap.acct':'Buat Akun Metanoia Gratisku →',
+      'hero.proof':'Bergabung dengan 12.000+ profesional yang telah memetakan pendakiannya',
+      'hero.c1t':'Skor Kesiapanmu','hero.c1d':'Di 5 dimensi yang memprediksi keberhasilan offer',
+      'hero.c2t':'Posisimu di Gunung','hero.c2d':'Dipetakan jujur, tanpa basa-basi',
+      'hero.c3t':'Rute 90 Harimu','hero.c3d':'Aksi spesifik, urutan spesifik',
+      'hero.sample':'Inilah yang akan kamu terima →',
+      'hero.retrieve':'Sudah punya hasil?','hero.retrieve2':'Masukkan email untuk mengambilnya →',
+      'hero.soon':'Segera hadir — hasilmu tetap tersimpan di sesi browser ini.',
+      'resume.t':'Lanjutkan dari terakhir kali? Kamu berada di langkah {x}.','resume.c':'Lanjutkan','resume.r':'Mulai ulang',
+      'mid.k':'Titik tengah','mid.h':'Kamu sudah setengah jalan — dan kami sudah menemukan sesuatu.',
+      'mid.cta':'Lanjut ke Kesiapan Wawancara →',
+      'gate.h':'Pertanyaan 25 dari 25.','gate.s':'Kebanyakan orang tidak pernah sampai sejauh ini.',
+      'gate.small':'Peta Kariermu sedang dihitung...','gate.cta':'Lanjut ke Hasilku →',
+      'prem.k':'🚀 Ingin menutup kesenjanganmu lebih cepat?','prem.f1':'Laporan PDF lengkap 12 halaman',
+      'prem.f2':'Review hasil 1:1 bersama coach','prem.f3':'Rencana aksi 90 hari yang dipersonalisasi',
+      'prem.f4':'Akses prioritas ke CV Studio','prem.p':'Rp99.000 — sekali bayar','prem.cta':'Dapatkan Analisis Premium →',
+      'done.card':'↓ Kartu hasil',
       'ui.chapter':'Bab {x}','load.analyz':'Menganalisis pendakianmu...',
       'done.h':'Kamu baru saja melakukan hal yang langka.','done.sub':'Kebanyakan orang tak pernah berhenti untuk menilai posisinya secara jujur. Kamu melakukannya. Itu mengubah segalanya.',
       'done.k':'Skor kesiapanmu','done.completed':'Selesai {d}','done.dl':'↓ Unduh Peta Kariermu (PDF)','done.em':'✉ Kirim laporan ke email',
@@ -745,6 +894,7 @@ function applyLang(){
 }
 function setLang(l){
   lang=l; try{localStorage.setItem('mtLang',l);}catch(e){}
+  analytics.track('language_selected',{language:l});
   applyLang();
   if(document.getElementById('s-quiz').classList.contains('active')) paint();
 }
@@ -753,11 +903,11 @@ const tt=(k,v)=>{let s=T[lang][k]||k;Object.entries(v||{}).forEach(([a,b])=>s=s.
 
 /* ================= DATA ================= */
 const DIMS=[
- {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#B4550E',
+ {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#8B6914',
   desc:'How well you understand the real mechanics of hiring in the Indonesian market — ATS screening, recruitment processes, salary benchmarks, and strategic targeting. You cannot navigate terrain you cannot see.'},
  {key:'ps',name:'Profile Strength',metaname:'The Pack',color:'#C97B1E',
   desc:'The condition of your gear: CV quality, quantified achievements, ATS performance, LinkedIn presence, and digital footprint. Your profile does the climbing when you are not in the room.'},
- {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#F59E0B',
+ {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#C9A84C',
   desc:'Your ability to perform when it matters most: structured storytelling (STAR), practiced answers, company research, and pre-interview composure. Interviews are won in preparation, not in the room.'},
  {key:'nc',name:'Network Capital',metaname:'The Rope Team',color:'#5A6A80',
   desc:'Who is climbing with you: mentors, meaningful professional connections, structured peer practice, events, and your alumni network. In Indonesia especially, the hidden job market moves through people.'},
@@ -842,11 +992,11 @@ const Q=[
   sName:'Deep company research', strength:'You research the company, the team, and the interviewer, and you arrive with role-specific questions. This practice alone multiplies offer conversion an estimated 2–3× versus candidates who walk in generic.',
   gapName:'Generic walk-ins', gap:'Interviewers can tell within minutes whether you researched them — and they read it as a preview of how you would treat clients and colleagues. Generic preparation reads as generic interest.',
   fix:'Build a 30-minute pre-interview ritual: products, one recent news item, stated values, the interviewer\'s LinkedIn, and two genuine questions to ask.', why:'"I saw your team just launched X" changes the temperature of the room.', time:'30 min per interview'},
- {id:'C5',d:2,q:'How do you typically feel in the 30 minutes before an interview?',
-  o:['Very anxious — I often struggle to perform my best','Somewhat nervous — it affects my performance','Mildly nervous but I can manage it and perform reasonably well','Focused and prepared — I have a pre-interview routine that puts me in the right state'],
-  sName:'Composure routine', strength:'You have a pre-interview routine that reliably puts you in a focused state. Composure under evaluation is a trainable skill — and you have trained it.',
-  gapName:'The storm before the room', gap:'Pre-interview anxiety is not weakness — it is untrained physiology. But left untrained, it taxes the exact working memory you need for structured answers. The good news: routines fix this more reliably than willpower.',
-  fix:'Script a 15-minute pre-interview routine: review your 3 core stories, 2 minutes of slow breathing (4s in, 6s out), one power question you will ask them.', why:'A routine gives your nerves a job to do.', time:'15 min per interview'},
+ {id:'C5',d:2,q:'Do you have a specific pre-interview routine that prepares you to perform at your best?',
+  o:['No — I show up and try to perform well without a specific routine','I have a loose routine (review my notes, try to relax) but nothing structured','I have a specific routine: review my prepared stories, re-read my company research, and a short mental preparation practice before each interview','I have a tested, consistent pre-interview routine refined over multiple interviews — mental priming, structured story review, and a clear framework for unexpected questions'],
+  sName:'Pre-interview routine', strength:'You run a tested, consistent pre-interview routine — mental priming, structured story review, and a framework for surprises. Composure under evaluation is not a personality trait; it is a system, and you have built one.',
+  gapName:'Walking in cold', gap:'You currently walk into interviews without a preparation routine — which means your performance depends on how you happen to feel that day. Routines beat willpower: they put your strongest stories and calmest state within reach on demand, every time.',
+  fix:'Script a 15-minute pre-interview routine: review your 3 core stories, re-read your company research, 2 minutes of slow breathing (4s in, 6s out), and one power question you will ask them.', why:'A routine gives your nerves a job to do.', time:'15 min per interview'},
  // ---- D · Network Capital ----
  {id:'D1',d:3,q:'Do you have a mentor or professional guide in your target industry or role?',
   o:['No — I am navigating this entirely on my own','I have a few alumni contacts but no structured mentorship','I have had 1–2 conversations with professionals in my target field','I have an active mentor relationship with someone in my target field who gives me regular guidance'],
@@ -863,10 +1013,10 @@ const Q=[
   sName:'A working rope team', strength:'You practice in a structured peer group that meets regularly — mock interviews, CV reviews, honest accountability. Job seekers with structured peer practice get offers dramatically faster, and you are already climbing roped-in.',
   gapName:'Climbing solo', gap:'You are doing the hardest part of early career life completely alone — no rope team. Peer practice is not just emotional support: it is free mock interviews, free CV review, and accountability that survives bad weeks.',
   fix:'Form a practice pod this week: message 3–4 friends who are also searching and set one fixed weekly session (mock interview + feedback rotation).', why:'Job seekers in structured peer groups land offers roughly 40% faster.', time:'2 hours/week'},
- {id:'D4',d:3,q:'Have you attended any professional events in the last 30 days?',
-  o:['None','1 event','2–3 events','4 or more events — and I followed up with at least one new contact from each'],
-  sName:'Present in the field', strength:'Four or more events in 30 days, each with real follow-up — you are consistently putting yourself where your industry gathers, and converting presence into relationships.',
-  gapName:'Absent from the room', gap:'Career fairs, webinars, alumni talks — these rooms are where information and referrals move informally. Thirty days without entering any of them means the ecosystem literally has not seen you.',
+ {id:'D4',d:3,q:'How many professional events have you attended in the last 90 days? (Industry talks, career fairs, webinars, alumni events, online community sessions — all count equally)',
+  o:['None','1 event','2–3 events','3 or more events — and after at least two of them, I followed up with at least one new contact'],
+  sName:'Present in the field', strength:'Three or more events in 90 days with real follow-up afterward — you consistently put yourself where your industry gathers, online and offline, and you convert presence into relationships.',
+  gapName:'Absent from the room', gap:'Career fairs, webinars, alumni talks, online community sessions — these rooms are where information and referrals move informally, and online events count just as much as in-person ones. Ninety days without entering any of them means the ecosystem literally has not seen you.',
   fix:'Register for two events in the next 30 days (one industry talk, one alumni or campus event). Afterward, send one genuine follow-up message per event.', why:'Events are the lowest-pressure place to start real professional conversations.', time:'4 hours/month'},
  {id:'D5',d:3,q:'How actively do you use your university alumni network?',
   o:['I have never reached out to any alumni',"I follow alumni on LinkedIn but haven't had personal contact",'I have reached out to a few alumni and had occasional conversations','I actively use my alumni network, have warm relationships with multiple alumni in my target field, and use them as a genuine resource'],
@@ -894,11 +1044,11 @@ const Q=[
   sName:'Full-funnel measurement', strength:'You track the whole funnel — applications, responses, interviews, offers — plus the qualitative gains underneath. That means you can locate exactly where your pipeline leaks and fix that stage, not everything at once.',
   gapName:'Navigating by feel', gap:'Without numbers, a bad week feels like a failing strategy and a lucky week feels like progress — both can be wrong. You cannot fix a funnel you cannot see.',
   fix:'Start a one-tab tracker today: company, role, date applied, response, stage reached. Review it every Friday for 10 minutes.', why:'Two weeks of data will tell you more than two months of feelings.', time:'20 min to set up'},
- {id:'E5',d:4,q:'How confident are you that your current approach will result in an offer within 90 days?',
-  o:["Not confident at all — I'm not sure what I'm doing wrong","Somewhat uncertain — I hope things will work out but I'm not sure","Cautiously optimistic — I think I'm on the right track but have clear gaps","Confident — I have a clear plan, I'm executing it, and I can see the progress"],
-  sName:'Grounded confidence', strength:'Your confidence is not bravado — it is built on a plan you are executing and progress you can point to. That calibration shows in interviews, in networking, in negotiation. People trust climbers who know where they are.',
-  gapName:'Lost in the fog', gap:'"I don\'t know what I\'m doing wrong" is the fog talking — and fog is not fixed by trying harder, it is fixed by visibility. Everything else in this report is designed to give you exactly that.',
-  fix:'Do not fix confidence directly. Fix the top gap in this report, see one measurable improvement, and let confidence follow the evidence.', why:'Real confidence is downstream of visible progress — and progress is now mapped.', time:'—'}
+ {id:'E5',d:4,q:'How clearly defined is your plan for the next 90 days of your job search?',
+  o:["I don't have a clear plan — I'll continue what I'm doing and see what happens","I have a rough sense of what I need to do but nothing specific or written down","I have a clear plan with specific milestones: applications, target companies, and skills to develop by a specific date","I have a full, written 90-day plan with weekly milestones, company targets, application cadence, interview preparation tasks, and a review schedule — and I am already executing it"],
+  sName:'A written 90-day plan', strength:'You hold a written 90-day plan with weekly milestones — and you are already executing it. Plan specificity is one of the strongest behavioral predictors of offer attainment, far more reliable than confidence: you have replaced hope with a schedule.',
+  gapName:'No 90-day plan', gap:'Without a specific plan, the next 90 days will look like the last 90 — activity without accumulation. A written plan is not bureaucracy; it is the difference between doing things and building something. The report you are reading ends with exactly this plan, drafted for you.',
+  fix:'Take the 90-Day Route at the end of this report and put its Month 1 actions into your calendar tonight — specific days, specific hours.', why:'A plan you can see beats a plan you can imagine.', time:'30 min'}
 ];
 
 const SECTIONS=[
@@ -912,11 +1062,33 @@ const SECTIONS=[
 const PROFILE_Q=[
  {id:'name',type:'name',q:"First — what should we call you?",hint:'Just your first name. It goes on your Career Map.'},
  {id:'status',q:"What's your current status?",o:['Still studying (final year)','Fresh graduate (0–1 year since graduation)','Early professional (1–3 years experience)','Career changer / looking to pivot']},
+ /* subdir + institution are V2 additions; subdir renders dynamically from SUBDIR by chosen direction */
  {id:'direction',q:'What is your target career direction?',other:true,
   o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / State-Owned Enterprise (SOE/BUMN)','Management Trainee','Secure a Promotion to a Managerial Role','Other (type here)']},
+ {id:'subdir',q:'Which part of it?',o:[]},
  {id:'challenge',q:'What is your biggest current challenge?',other:true,
-  o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty",'Other (please specify)']}
+  o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty",'Other (please specify)']},
+ {id:'institution',q:'Optional — which type of institution are you from?',
+  o:['Top-5 state university (UI, ITB, ITS, UGM, UNAIR)','Other state university (PTN)','Private university','Vocational college / Polytechnic','International university','Prefer not to say']}
 ];
+/* V2: direction sub-questions (shown only for the four most common directions) */
+const SUBDIR={
+ 0:{q:'Which track within Business / Consulting?',o:['Management consulting','Strategy','General management','Entrepreneurship']},
+ 1:{q:'Which part of Finance?',o:['Retail banking','Investment banking','Fintech','Insurance','Wealth management']},
+ 2:{q:'Which part of Tech?',o:['Software engineering','Product management','Data / analytics','Digital marketing','IT / operations']},
+ 3:{q:'Which focus in Marketing?',o:['Brand marketing','Digital / performance marketing','PR / communications','Creative / design']}};
+const SUBDIR_ID={
+ 0:{q:'Jalur mana di Bisnis / Konsultan?',o:['Konsultan manajemen','Strategi','General management','Kewirausahaan']},
+ 1:{q:'Bagian mana dari Keuangan?',o:['Perbankan ritel','Investment banking','Fintech','Asuransi','Wealth management']},
+ 2:{q:'Bagian mana dari Teknologi?',o:['Software engineering','Product management','Data / analitik','Digital marketing','IT / operasional']},
+ 3:{q:'Fokus mana di Marketing?',o:['Brand marketing','Digital / performance marketing','PR / komunikasi','Kreatif / desain']}};
+/* V2: B5 branches to a technical variant for Tech / Engineering directions */
+const B5T={
+ en:{q:'Do you have a public portfolio, GitHub, or professional project showcase that demonstrates your actual skills?',
+  o:['No — just my CV and profile','I have a GitHub or portfolio but it is empty or not recently updated','I have a portfolio or GitHub with completed projects that I link in my applications','I have an active, updated portfolio with 3+ projects, clear problem statements and outcomes, featured in every application and mentioned in every interview']},
+ id:{q:'Apakah kamu punya portofolio publik, GitHub, atau etalase proyek profesional yang menunjukkan skill nyatamu?',
+  o:['Tidak — hanya CV dan profil','Saya punya GitHub atau portofolio tapi kosong atau jarang diperbarui','Saya punya portofolio atau GitHub berisi proyek selesai yang saya tautkan di lamaran','Saya punya portofolio aktif dan terbarui dengan 3+ proyek, pernyataan masalah dan hasil yang jelas, ditampilkan di setiap lamaran dan disebut di setiap wawancara']}};
+const isTechDir=()=>S.profile.direction===2||S.profile.direction===5;
 
 
 /* ================= BAHASA INDONESIA — assessment flow ================= */
@@ -949,16 +1121,16 @@ const QI={
   o:['Saya menjawab spontan — belum pernah melatih jawaban spesifik','Saya sudah memikirkan pertanyaannya tapi belum menulis atau melatih jawaban','Saya sudah menyusun jawaban dan melatihnya setidaknya sekali','Saya punya jawaban yang matang dan terukur waktunya untuk semua pertanyaan umum, dan sudah melatihnya dengan bersuara berkali-kali']},
  C4:{q:'Apakah kamu meriset perusahaan secara khusus sebelum wawancara?',
   o:['Tidak — saya datang dengan pengetahuan umum','Saya melakukan pencarian Google cepat malam sebelumnya','Saya meriset produk, berita terbaru, budaya, dan pertanyaan wawancara yang umum di perusahaan itu','Saya meriset perusahaan, tim/divisi spesifik, latar belakang pewawancara (LinkedIn), dan menyiapkan pertanyaan khusus peran untuk diajukan di akhir']},
- C5:{q:'Bagaimana biasanya perasaanmu 30 menit sebelum wawancara?',
-  o:['Sangat cemas — saya sering sulit tampil maksimal','Cukup gugup — dan itu memengaruhi performa saya','Sedikit gugup tapi bisa saya kelola dan tetap tampil cukup baik','Fokus dan siap — saya punya rutinitas pra-wawancara yang menempatkan saya di kondisi yang tepat']},
+ C5:{q:'Apakah kamu punya rutinitas pra-wawancara yang spesifik untuk menyiapkan performa terbaikmu?',
+  o:['Tidak — saya datang dan berusaha tampil baik tanpa rutinitas khusus','Saya punya rutinitas longgar (membaca catatan, mencoba rileks) tapi tidak terstruktur','Saya punya rutinitas spesifik: mengulas cerita yang sudah disiapkan, membaca ulang riset perusahaan, dan latihan persiapan mental singkat sebelum tiap wawancara','Saya punya rutinitas pra-wawancara yang teruji dan konsisten, diasah lewat banyak wawancara — priming mental, ulasan cerita terstruktur, dan kerangka jelas untuk pertanyaan tak terduga']},
  D1:{q:'Apakah kamu punya mentor atau pembimbing profesional di industri atau peran targetmu?',
   o:['Tidak — saya menjalani ini sepenuhnya sendiri','Saya punya beberapa kontak alumni tapi tanpa mentorship terstruktur','Saya pernah 1–2 kali berbincang dengan profesional di bidang target','Saya punya hubungan mentor yang aktif dengan seseorang di bidang target yang rutin membimbing saya']},
  D2:{q:'Dalam 6 bulan terakhir, berapa banyak koneksi profesional bermakna yang kamu bangun di industri targetmu?',
   o:['Tidak ada','1–2','3–5','6 atau lebih']},
  D3:{q:'Apakah kamu punya rekan untuk berlatih keterampilan mencari kerja secara rutin?',
   o:['Tidak — saya melakukannya sepenuhnya sendiri','Kadang membahas pencarian kerja dengan teman tapi tidak terstruktur','Saya punya 1–2 teman untuk bertukar umpan balik sesekali','Saya bagian dari kelompok rekan terstruktur yang rutin bertemu untuk berlatih dan saling mendukung']},
- D4:{q:'Apakah kamu menghadiri acara profesional dalam 30 hari terakhir?',
-  o:['Tidak ada','1 acara','2–3 acara','4 acara atau lebih — dan saya menindaklanjuti setidaknya satu kontak baru dari masing-masing']},
+ D4:{q:'Berapa banyak acara profesional yang kamu hadiri dalam 90 hari terakhir? (Talk industri, job fair, webinar, acara alumni, sesi komunitas online — semuanya dihitung setara)',
+  o:['Tidak ada','1 acara','2–3 acara','3 acara atau lebih — dan setelah setidaknya dua di antaranya, saya menindaklanjuti minimal satu kontak baru']},
  D5:{q:'Seberapa aktif kamu menggunakan jaringan alumni kampusmu?',
   o:['Saya belum pernah menghubungi alumni','Saya mengikuti alumni di LinkedIn tapi belum pernah kontak personal','Saya sudah menghubungi beberapa alumni dan sesekali berbincang','Saya aktif memakai jaringan alumni, punya hubungan hangat dengan beberapa alumni di bidang target, dan menjadikannya sumber daya yang nyata']},
  E1:{q:'Seberapa jelas gambaranmu tentang tujuan karier targetmu?',
@@ -969,13 +1141,14 @@ const QI={
   o:['Saya melamar saat melihat sesuatu yang menarik — tidak ada sistem','Saya memiliki daftar perusahaan target secara umum, tetapi belum memiliki rutinitas yang terstruktur untuk mencari dan melamar lowongan setiap minggu.','Saya punya rutinitas mingguan: target lamaran, pelacakan, dan tinjauan kemajuan','Saya punya sistem penuh: target mingguan, pelacakan harian, tinjauan mingguan, penyesuaian strategi bulanan — dan konsisten mencapai target saya sendiri']},
  E4:{q:'Bagaimana kamu mengukur kemajuan pencarian kerjamu?',
   o:['Tidak saya ukur — saya hanya merasakan bagaimana jalannya','Saya menghitung jumlah lamaran yang terkirim','Saya melacak lamaran, respons, tingkat wawancara, dan tingkat penawaran','Saya melacak semua itu DAN mengukur peningkatan kualitatif (kualitas CV, performa wawancara, pertumbuhan jaringan) bersama angkanya']},
- E5:{q:'Seberapa yakin kamu bahwa pendekatanmu saat ini akan menghasilkan tawaran dalam 90 hari?',
-  o:['Sama sekali tidak yakin — saya tidak tahu apa yang salah','Agak ragu — saya berharap berhasil tapi tidak yakin','Cukup optimis — saya rasa berada di jalur yang benar tapi masih ada kesenjangan yang jelas','Yakin — saya punya rencana yang jelas, sedang mengeksekusinya, dan bisa melihat kemajuannya']}
+ E5:{q:'Seberapa jelas rencanamu untuk 90 hari ke depan dalam pencarian kerja?',
+  o:['Saya belum punya rencana yang jelas — saya lanjutkan yang sekarang dan lihat hasilnya','Saya punya gambaran kasar tentang yang perlu dilakukan tapi belum spesifik atau tertulis','Saya punya rencana jelas dengan tonggak spesifik: jumlah lamaran, perusahaan target, dan skill yang dikembangkan dengan tenggat tertentu','Saya punya rencana 90 hari lengkap dan tertulis: tonggak mingguan, target perusahaan, ritme lamaran, tugas persiapan wawancara, dan jadwal review — dan sudah saya jalankan']}
 };
 const PI={
  name:{q:'Pertama, kami harus memanggilmu dengan panggilan apa?',hint:'Cukup nama depanmu. Akan tercetak di Peta Kariermu.',ph:'mis., Maverick'},
  status:{q:'Apa statusmu saat ini?',o:['Masih kuliah (tingkat akhir)','Fresh graduate (0–1 tahun sejak lulus)','Profesional awal (1–3 tahun pengalaman)','Beralih karier / ingin pivot']},
  direction:{q:'Ke mana arah karier yang ingin kamu capai?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / BUMN','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
+ institution:{q:'Opsional — dari tipe institusi mana kamu berasal?',o:['PTN Top-5 (UI, ITB, ITS, UGM, UNAIR)','PTN lainnya','Universitas swasta','Politeknik / vokasi','Universitas internasional','Tidak ingin menyebutkan']},
  challenge:{q:'Apa tantangan terbesarmu saat ini?',o:['Saya mengirim banyak lamaran tapi tidak ada respons','Saya mendapat wawancara tapi jarang berujung tawaran','Saya tidak tahu peran atau arah yang harus dituju','Saya merasa belum siap dan kurang percaya diri','Saya tidak punya jaringan atau koneksi yang tepat','Saya berjuang secara mental menghadapi penolakan dan ketidakpastian','Lainnya (tulis sendiri)'],ph:'Ceritakan tantanganmu...'}
 };
 const SI=[
@@ -985,8 +1158,10 @@ const SI=[
  {name:'Modal Jaringan & Komunitas',line:'Siapa yang mendaki bersamamu? Mentor, rekan, acara, dan alumni.'},
  {name:'Pola Pikir & Ketangguhan Karier',line:'Bisakah kamu bertahan mendaki menembus badai? Kejelasan, pemulihan, dan sistem.'}
 ];
-const qtxt=it=>lang==='id'&&QI[it.id]?QI[it.id].q:it.q;
-const qopt=it=>lang==='id'&&QI[it.id]?QI[it.id].o:it.o;
+const qtxt=it=>{ if(it.id==='B5'&&isTechDir()) return B5T[lang==='id'?'id':'en'].q;
+  return lang==='id'&&QI[it.id]?QI[it.id].q:it.q; };
+const qopt=it=>{ if(it.id==='B5'&&isTechDir()) return B5T[lang==='id'?'id':'en'].o;
+  return lang==='id'&&QI[it.id]?QI[it.id].o:it.o; };
 const ptxt=pq=>lang==='id'&&PI[pq.id]?PI[pq.id].q:pq.q;
 const popt=pq=>lang==='id'&&PI[pq.id]&&PI[pq.id].o?PI[pq.id].o:pq.o;
 const phint=pq=>lang==='id'&&PI[pq.id]&&PI[pq.id].hint?PI[pq.id].hint:pq.hint;
@@ -994,9 +1169,16 @@ const sname=i=>lang==='id'?SI[i].name:SECTIONS[i].name;
 const sline=i=>lang==='id'?SI[i].line:SECTIONS[i].line;
 
 /* ================= STATE ================= */
-const S={ step:-1, profile:{name:'',status:null,direction:null,directionText:'',challenge:null,challengeText:''}, answers:{}, seenInter:{}, dl:false, em:false };
-try{ const saved=JSON.parse(localStorage.getItem('mtCareerMap')||'null'); if(saved&&saved.answers) Object.assign(S,saved);}catch(e){}
-const save=()=>{ try{localStorage.setItem('mtCareerMap',JSON.stringify(S));}catch(e){} };
+const FRESH_PROFILE=()=>({name:'',status:null,direction:null,directionText:'',subdir:null,challenge:null,challengeText:'',institution:null});
+const S={ step:-1, profile:FRESH_PROFILE(), answers:{}, seenInter:{}, seenMid:false, dl:false, em:false };
+/* V2: assessment state lives in sessionStorage only ("your results are private"), 48h recovery window */
+let RESUMABLE=false;
+try{ const saved=JSON.parse(sessionStorage.getItem('metanoia_progress')||'null');
+  if(saved&&saved.answers&&(Date.now()-(saved.savedAt||0))<48*60*60*1000){
+    const {savedAt,...rest}=saved; Object.assign(S,rest); RESUMABLE=S.step>0; }
+}catch(e){}
+const save=()=>{ try{ sessionStorage.setItem('metanoia_progress',JSON.stringify({...S,savedAt:Date.now()}));
+  if(S.profile.name) sessionStorage.setItem('metanoia_name',S.profile.name); }catch(e){} };
 
 /* ================= SCORING ================= */
 function calcScores(){
@@ -1014,6 +1196,26 @@ function band(t){
 }
 
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+/* ═══ V2 · profile-weighted scoring (Part 9) ═══ */
+const DIRKEY=['business','finance','tech','marketing','hr','engineering','government','business','other','other'];
+const PROFILE_WEIGHTS={ // direction → [CI, PS, IR, NC, CM], each row sums to 5.0
+  finance:[1.25,1.15,1.20,0.85,0.85], tech:[1.10,1.30,1.20,0.80,0.90],
+  business:[1.25,1.05,1.25,0.90,0.90], marketing:[1.00,1.25,1.10,0.95,1.00],
+  engineering:[1.00,1.25,1.15,0.85,1.00], hr:[1.05,1.00,1.15,1.10,1.00],
+  government:[1.10,1.05,1.20,1.00,0.95], other:[1,1,1,1,1] };
+const STATUS_BONUS=[[0,-0.05,0,-0.05,0],[0,0,0,0,0],[0.05,0,0.05,0,0],[0,0,0,-0.10,0.10]];
+function weightedScores(raw){
+  const key=DIRKEY[S.profile.direction]||'other';
+  const w=PROFILE_WEIGHTS[key]||PROFILE_WEIGHTS.other;
+  const b=STATUS_BONUS[S.profile.status]||STATUS_BONUS[1];
+  return raw.map((v,i)=>Math.min(15,Math.round(v*(w[i]+b[i]))));
+}
+function finalScores(){ return weightedScores(calcScores()); }
+/* V2 · social comparison benchmarks by status (designed estimates; replace after 200+ assessments) */
+const BENCH=[{p25:38,p50:52,p75:66},{p25:42,p50:55,p75:68},{p25:48,p50:62,p75:74},{p25:44,p50:58,p75:71}];
+const STATUS_EN=['final-year students','fresh graduates','early professionals','career changers'];
+const STATUS_IDN=['mahasiswa tingkat akhir','fresh graduate','profesional awal','career changer'];
 
 /* ================= NARRATIVE ENGINE ================= */
 const STATUS_OPEN=[
@@ -1099,9 +1301,9 @@ const QM={
   gn:'Datang dengan bekal generik',gp:'Pewawancara bisa tahu dalam hitungan menit apakah kamu meriset mereka — dan mereka membacanya sebagai pratinjau caramu memperlakukan klien dan kolega. Persiapan generik terbaca sebagai minat generik.',
   fx:'Bangun ritual 30 menit sebelum wawancara: produk, satu berita terbaru, nilai perusahaan, LinkedIn pewawancara, dan dua pertanyaan tulus untuk diajukan.',
   wy:'“Saya lihat tim Anda baru meluncurkan X” mengubah suhu ruangan.',tm:'30 menit per wawancara'},
- C5:{sn:'Rutinitas ketenangan',st:'Kamu punya rutinitas sebelum wawancara yang andal menempatkanmu dalam kondisi fokus. Ketenangan di bawah penilaian adalah skill yang bisa dilatih — dan kamu sudah melatihnya.',
-  gn:'Badai sebelum masuk ruangan',gp:'Kecemasan sebelum wawancara bukan kelemahan — itu fisiologi yang belum dilatih. Tapi bila dibiarkan, ia menggerogoti working memory yang justru kamu butuhkan untuk jawaban terstruktur. Kabar baiknya: rutinitas memperbaikinya jauh lebih andal daripada tekad.',
-  fx:'Susun rutinitas 15 menit sebelum wawancara: ulas 3 cerita intimu, 2 menit napas lambat (4 detik masuk, 6 detik keluar), dan satu pertanyaan bagus yang akan kamu ajukan.',
+ C5:{sn:'Rutinitas pra-wawancara',st:'Kamu menjalankan rutinitas pra-wawancara yang teruji dan konsisten — priming mental, ulasan cerita terstruktur, dan kerangka untuk kejutan. Ketenangan di bawah penilaian bukan sifat bawaan; itu sistem, dan kamu sudah membangunnya.',
+  gn:'Masuk ruangan tanpa persiapan',gp:'Saat ini kamu masuk wawancara tanpa rutinitas persiapan — artinya performamu bergantung pada suasana hatimu hari itu. Rutinitas mengalahkan tekad: ia menghadirkan cerita terkuat dan kondisi paling tenangmu sesuai permintaan, setiap saat.',
+  fx:'Susun rutinitas 15 menit pra-wawancara: ulas 3 cerita intimu, baca ulang riset perusahaan, 2 menit napas lambat (4 detik masuk, 6 detik keluar), dan satu pertanyaan bagus yang akan kamu ajukan.',
   wy:'Rutinitas memberi pekerjaan pada rasa gugupmu.',tm:'15 menit per wawancara'},
  D1:{sn:'Mentor yang aktif',st:'Kamu punya mentor sungguhan di bidang targetmu yang rutin membimbing. Satu hubungan itu memampatkan bertahun‑tahun trial and error menjadi percakapan — hal terdekat dengan jalan pintas yang dimiliki gunung ini.',
   gn:'Mendaki tanpa pemandu',gp:'Kamu menjelajah sendirian medan yang sudah dilalui ribuan orang. Mentor tidak menggendongmu ke puncak — mereka hanya memberi tahu di mana jurangnya. Tanpa mentor, kamu membayar setiap pelajaran dengan harga penuh.',
@@ -1115,8 +1317,8 @@ const QM={
   gn:'Mendaki solo',gp:'Kamu menjalani bagian tersulit dari awal karier sepenuhnya sendirian — tanpa rope team. Latihan bersama bukan sekadar dukungan emosional: itu mock interview gratis, review CV gratis, dan akuntabilitas yang bertahan melewati minggu yang buruk.',
   fx:'Bentuk pod latihan minggu ini: hubungi 3–4 teman yang juga sedang mencari kerja dan tetapkan satu sesi mingguan tetap (mock interview + rotasi feedback).',
   wy:'Pencari kerja dalam kelompok terstruktur mendapatkan offer kira‑kira 40% lebih cepat.',tm:'2 jam/minggu'},
- D4:{sn:'Hadir di lapangan',st:'Empat acara atau lebih dalam 30 hari, masing‑masing dengan follow‑up nyata — kamu konsisten menempatkan diri di tempat industrimu berkumpul, dan mengubah kehadiran menjadi hubungan.',
-  gn:'Absen dari ruangan',gp:'Job fair, webinar, temu alumni — di ruangan seperti itulah informasi dan referral berpindah secara informal. Tiga puluh hari tanpa memasukinya berarti ekosistem ini benar‑benar belum melihatmu.',
+ D4:{sn:'Hadir di lapangan',st:'Tiga acara atau lebih dalam 90 hari dengan tindak lanjut yang nyata — kamu konsisten menempatkan diri di tempat industrimu berkumpul, daring maupun luring, dan mengubah kehadiran menjadi hubungan.',
+  gn:'Absen dari ruangan',gp:'Job fair, webinar, temu alumni, sesi komunitas online — di ruangan seperti itulah informasi dan referral berpindah secara informal, dan acara daring dihitung setara dengan tatap muka. Sembilan puluh hari tanpa memasukinya berarti ekosistem ini benar-benar belum melihatmu.',
   fx:'Daftar dua acara dalam 30 hari ke depan (satu talk industri, satu acara alumni atau kampus). Setelahnya, kirim satu pesan follow‑up yang tulus per acara.',
   wy:'Acara adalah tempat bertekanan paling rendah untuk memulai percakapan profesional yang nyata.',tm:'4 jam/bulan'},
  D5:{sn:'Jaringan alumni yang menyala',st:'Kamu memperlakukan jaringan alumni sebagai sumber daya sebagaimana mestinya — hubungan hangat, percakapan nyata, permintaan yang jujur. Alumni membuka pintu yang tak bisa dibuka lamaran: referral, konteks orang dalam, peringatan yang jujur.',
@@ -1139,10 +1341,10 @@ const QM={
   gn:'Menavigasi dengan perasaan',gp:'Tanpa angka, minggu yang buruk terasa seperti strategi yang gagal dan minggu yang mujur terasa seperti kemajuan — dua‑duanya bisa keliru. Kamu tak bisa memperbaiki corong yang tak bisa kamu lihat.',
   fx:'Mulai tracker satu tab hari ini: perusahaan, role, tanggal melamar, respons, tahap yang tercapai. Tinjau tiap Jumat selama 10 menit.',
   wy:'Dua minggu data memberitahumu lebih banyak daripada dua bulan perasaan.',tm:'20 menit persiapan'},
- E5:{sn:'Percaya diri yang berpijak',st:'Kepercayaan dirimu bukan gertakan — ia dibangun di atas rencana yang sedang kamu eksekusi dan kemajuan yang bisa kamu tunjuk. Kalibrasi itu terlihat di wawancara, di networking, di negosiasi. Orang percaya pada pendaki yang tahu posisinya.',
-  gn:'Tersesat dalam kabut',gp:'“Saya tidak tahu apa yang salah” adalah suara kabut — dan kabut tidak diperbaiki dengan berusaha lebih keras, melainkan dengan jarak pandang. Semua hal lain dalam laporan ini dirancang untuk memberimu persis itu.',
-  fx:'Jangan perbaiki kepercayaan diri secara langsung. Perbaiki kesenjangan teratas di laporan ini, lihat satu perbaikan yang terukur, dan biarkan kepercayaan diri mengikuti bukti.',
-  wy:'Percaya diri yang sejati adalah hilir dari kemajuan yang terlihat — dan kemajuanmu kini sudah terpetakan.',tm:'—'}
+ E5:{sn:'Rencana 90 hari tertulis',st:'Kamu memegang rencana 90 hari tertulis dengan tonggak mingguan — dan sudah menjalankannya. Kespesifikan rencana adalah salah satu prediktor perilaku terkuat untuk mendapatkan offer, jauh lebih andal daripada rasa percaya diri: kamu mengganti harapan dengan jadwal.',
+  gn:'Tanpa rencana 90 hari',gp:'Tanpa rencana yang spesifik, 90 hari ke depan akan terlihat seperti 90 hari terakhir — aktivitas tanpa akumulasi. Rencana tertulis bukan birokrasi; ia pembeda antara mengerjakan hal-hal dan membangun sesuatu. Laporan yang sedang kamu baca ditutup dengan persis rencana itu, yang disusun untukmu.',
+  fx:'Ambil Rute 90 Hari di akhir laporan ini dan masukkan aksi Bulan 1 ke kalendermu malam ini — hari spesifik, jam spesifik.',
+  wy:'Rencana yang bisa kamu lihat mengalahkan rencana yang hanya kamu bayangkan.',tm:'30 menit'}
 };
 const qm=(it,f)=>{
   const map={sn:'sName',st:'strength',gn:'gapName',gp:'gap',fx:'fix',wy:'why',tm:'time'};
@@ -1186,7 +1388,14 @@ const DIMDESC_ID=[
  'Apakah kamu bisa mempertahankan pendakian menembus badai: kejelasan tujuan, pemulihan dari penolakan, konsistensi terstruktur, pengukuran kemajuan yang jujur, dan kepercayaan diri yang terkalibrasi.'];
 const dimDesc=i=>lang==='id'?DIMDESC_ID[i]:DIMS[i].desc;
 
-function pctl(t){ return Math.min(94,Math.max(8,Math.round(t*0.9)+4)); }
+function pctl(t){
+  const b=BENCH[S.profile.status]||BENCH[1]; let p;
+  if(t>=b.p75) p=75+((t-b.p75)/(100-b.p75))*25;
+  else if(t>=b.p50) p=50+((t-b.p50)/(b.p75-b.p50))*25;
+  else if(t>=b.p25) p=25+((t-b.p25)/(b.p50-b.p25))*25;
+  else p=(t/b.p25)*25;
+  return Math.max(5,Math.min(98,Math.round(p)));
+}
 
 function positionNarrative(t,bd,scores){
   const p=S.profile, name=S.profile.name||'Climber';
@@ -1249,7 +1458,7 @@ const SECICONS=[
  `<svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="22" r="6"/><circle cx="44" cy="22" r="6"/><circle cx="32" cy="45" r="6"/><path d="M24 26 L30 40 M40 26 L34 40 M26 22 h12"/></svg>`,
  `<svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="46" cy="16" r="6"/><path d="M6 52 L24 24 L34 38 L42 28 L58 52 Z"/></svg>`
 ];
-const PEAK_SM=`<svg width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16 L9 5 L13 10 L17 4 L24 16"/></svg>`;
+const PEAK_SM=`<svg width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16 L9 5 L13 10 L17 4 L24 16"/></svg>`;
 
 /* ================= FLOW ================= */
 const TOTAL_P=PROFILE_Q.length, TOTAL_Q=Q.length;
@@ -1260,7 +1469,18 @@ const show=id=>{document.querySelectorAll('.screen').forEach(s=>s.classList.remo
   if(id==='s-hero') setBg('hero');
   else if(id==='s-loading'||id==='s-report'||id==='s-done') setBg('');};
 window.goHero=()=>{show('s-hero');return false;};
-document.getElementById('beginBtn').onclick=()=>{ S.step=0; paint(); show('s-quiz'); };
+document.getElementById('beginBtn').onclick=()=>{ analytics.track('assessment_started');
+  if(S.step<0) S.step=0; paint(); show('s-quiz'); };
+const rlk=document.getElementById('retrieveLink');
+rlk.onclick=()=>{ rlk.textContent=tt('hero.soon'); setTimeout(()=>{rlk.textContent=tt('hero.retrieve2');},3200); };
+if(RESUMABLE){
+  const rb=document.getElementById('resumeBanner'); rb.style.display='flex';
+  document.getElementById('resumeQ').textContent=tt('resume.t',{x:Math.min(S.step+1,TOTAL_P+TOTAL_Q)});
+  document.getElementById('resumeCont').onclick=()=>{ paint(); show('s-quiz'); };
+  document.getElementById('resumeRestart').onclick=()=>{
+    S.step=-1; S.answers={}; S.seenInter={}; S.seenMid=false; S.profile=FRESH_PROFILE(); save();
+    rb.style.display='none'; };
+}
 
 function paintHeader(){
   const prog=Math.max(0,S.step)/(TOTAL_P+TOTAL_Q);
@@ -1287,7 +1507,10 @@ function paint(){
     chip.innerHTML=`<span class="section-chip">⛰ ${tt('ui.profiling')}</span>`;
     qc.textContent=`${S.step+1} / ${TOTAL_P}`;
     qt.textContent=ptxt(p);
-    const hintTxt=phint(p);
+    let hintTxt=phint(p);
+    if(p.id==='status'&&S.profile.name) hintTxt=(lang==='id'
+      ?`Hai ${S.profile.name}, mari mulai dengan beberapa pertanyaan singkat agar Peta Kariermu benar-benar spesifik untukmu.`
+      :`Hi ${S.profile.name}, let's start with a few quick questions to make your Career Map specific to you.`);
     if(hintTxt){qh.textContent=hintTxt;qh.style.display='block';}else qh.style.display='none';
     if(p.type==='name'){
       nw.style.display='block';
@@ -1298,7 +1521,9 @@ function paint(){
       inp.oninput=()=>{next.disabled=!inp.value.trim();};
       inp.onkeydown=e=>{if(e.key==='Enter'&&inp.value.trim())goNext();};
     } else {
-      const cur=S.profile[p.id], oList=popt(p);
+      const sd=p.id==='subdir'?((lang==='id'?SUBDIR_ID:SUBDIR)[S.profile.direction]||null):null;
+      if(sd) qt.textContent=sd.q;
+      const cur=S.profile[p.id], oList=sd?sd.o:popt(p);
       oList.forEach((o,i)=>{
         const b=document.createElement('button'); b.className='option-card'+(cur===i?' selected':'');
         b.innerHTML=`<span class="option-dot"></span><span>${escapeHtml(o)}</span>`;
@@ -1344,31 +1569,76 @@ function selectProfile(p,i,btn){
   btn.classList.add('selected','pulse');
   S.profile[p.id]=i; save();
   document.getElementById('nextBtn').disabled=false;
-  if(p.other&&i===p.o.length-1){ paint(); return; }
+  if(p.other&&p.o.length&&i===p.o.length-1){ paint(); return; }
   setTimeout(goNext,340);
 }
 function selectAnswer(item,i,btn){
   document.querySelectorAll('.option-card').forEach(o=>o.classList.remove('selected'));
   btn.classList.add('selected','pulse');
   S.answers[item.id]=i; save();
+  analytics.track('question_answered',{question:item.id,answer:i});
   document.getElementById('nextBtn').disabled=false;
   setTimeout(goNext,340);
 }
 function goNext(){
-  if(S.step===0){ const v=document.getElementById('nameinput').value.trim(); if(!v)return; S.profile.name=v.split(' ')[0]; save(); }
+  if(S.step===0){ const v=document.getElementById('nameinput').value.trim(); if(!v)return;
+    S.profile.name=v.split(' ')[0]; save(); analytics.track('name_submitted'); }
   S.step++;
-  if(S.step>=TOTAL_P+TOTAL_Q){ startLoading(); return; }
+  // V2: the direction sub-question only exists for the four most common directions
+  while(S.step<TOTAL_P && PROFILE_Q[S.step].id==='subdir' && ![0,1,2,3].includes(S.profile.direction)) S.step++;
+  if(S.step===TOTAL_P) analytics.track('profiling_completed',
+    {status:S.profile.status,direction:S.profile.direction,challenge:S.profile.challenge});
+  if(S.step>=TOTAL_P+TOTAL_Q){ showGate(); return; }
   const qi=S.step-TOTAL_P;
+  if(qi>0&&qi%5===0){ const cs=Q[qi-1].d; analytics.track('section_completed',
+    {section:'ABCDE'[cs],score:Q.filter(q=>q.d===cs).reduce((a,q)=>a+(S.answers[q.id]??0),0)}); }
+  if(qi===10 && !S.seenMid){ showMid(); return; }
   if(qi>=0 && qi%5===0 && !S.seenInter[Q[qi].d]){ paint(); return; }
   slideTo(1);
 }
 document.getElementById('nextBtn').onclick=goNext;
 document.getElementById('backBtn').onclick=()=>{ if(S.step>0){ S.step--;
+  while(S.step>0 && S.step<TOTAL_P && PROFILE_Q[S.step].id==='subdir' && ![0,1,2,3].includes(S.profile.direction)) S.step--;
   const qi=S.step-TOTAL_P; if(qi>=0&&qi%5===0) S.seenInter[Q[qi].d]=true;
   show('s-quiz'); slideTo(-1); } };
 
+/* ═══ V2 · mid-assessment value reveal (Screen 5M) + final gate (Screen 9) ═══ */
+function midInsight(){
+  const a=id=>S.answers[id]??0; const ID=lang==='id';
+  if(a('B3')===0) return ID
+    ?'Ini yang tidak diketahui kebanyakan pelamar: sebelum CV-mu dibaca manusia, ia dipindai software (ATS). Laporanmu akan menjelaskan persis cara menaklukkannya.'
+    :'Here is something most applicants do not know: before any human reads your CV, it is scanned by software (ATS). Your report will tell you exactly how to beat it.';
+  if(a('B2')<=1) return ID
+    ?'CV-mu masih berbicara tugas, belum hasil. Perubahan paling berdampak sebelum lamaran berikutnya: tambahkan minimal 3 hasil spesifik dengan angka. Ini saja mengangkat perhatian recruiter secara signifikan.'
+    :'Your CV still speaks in duties, not outcomes. The most impactful change before your next application: add at least 3 specific outcomes with numbers. This alone lifts recruiter attention significantly.';
+  if(a('B1')>=2&&a('B2')>=2&&a('B3')>=2) return ID
+    ?'Profil dokumenmu kuat. Bagian yang akan kamu jawab berikutnya — Kesiapan Wawancara — justru tempat kandidat dengan CV kuat paling sering kalah.'
+    :'Your CV profile is strong. The section you are about to answer — Interview Readiness — is often where strong-CV candidates still lose.';
+  if(a('B4')<=1) return ID
+    ?'Satu temuan awal: profil LinkedIn-mu sedang tidak bekerja untukmu — dan hampir semua recruiter akan mencarinya sebelum membalas lamaranmu. Perbaikannya cepat, dan ada di laporanmu.'
+    :'One early finding: your LinkedIn profile is not working for you yet — and nearly every recruiter will search it before replying to your application. The fix is fast, and it is in your report.';
+  return ID
+    ?'Polamu mulai terlihat: perlengkapanmu hampir siap, dengan beberapa titik yang bisa dipertajam. Paruh kedua asesmen ini yang akan menentukan bentuk rutemu.'
+    :'Your pattern is emerging: your gear is nearly ready, with a few points to sharpen. The second half of this assessment will decide the shape of your route.';
+}
+function showMid(){
+  S.seenMid=true; save(); analytics.track('mid_assessment_insight_shown');
+  setBg('rope');
+  document.getElementById('midName').textContent=S.profile.name?`${S.profile.name} —`:'';
+  document.getElementById('midInsight').textContent=midInsight();
+  show('s-mid');
+  document.getElementById('midBtn').onclick=()=>{ show('s-quiz'); paint(); };
+}
+function showGate(){
+  setBg('mind'); show('s-gate');
+  let called=false; const go=()=>{ if(called)return; called=true; startLoading(); };
+  document.getElementById('gateBtn').onclick=go;
+  setTimeout(go,3200);
+}
+
 function showInter(sec){
   S.seenInter[sec]=true; save();
+  analytics.track('section_started',{section:'ABCDE'[sec]});
   setBg(BGKEYS[sec]);
   const RN=['I','II','III','IV','V'];
   document.getElementById('interCh').textContent=tt('ui.chapter',{x:RN[sec]});
@@ -1385,12 +1655,37 @@ function showInter(sec){
 }
 
 /* ================= LOADING ================= */
-const LOADMSGS={
- en:['Mapping your career terrain...','Weighing your preparation pack...','Calculating your altitude...','Identifying highest-leverage moves...','Plotting your 90-day route...'],
- id:['Memetakan medan kariermu...','Menimbang isi ranselmu...','Menghitung ketinggianmu...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...']};
+/* V2: loading messages personalized to name + direction (Part 8) */
+const LOADSET={
+ en:{
+  finance:n=>[`Mapping your finance-sector terrain, ${n}...`,'Analyzing your document pack against banking-grade standards...','Calculating your interview readiness for staged selection...','Identifying your highest-leverage moves for finance roles...','Plotting your 90-day route to your first finance offer...'],
+  tech:n=>[`Mapping your tech career terrain, ${n}...`,'Analyzing your profile and portfolio against tech hiring bars...','Calculating your readiness for technical rounds...','Identifying your highest-leverage moves in the tech market...','Plotting your 90-day route to your target role...'],
+  business:n=>[`Mapping your business & consulting terrain, ${n}...`,'Analyzing your case and interview readiness...','Weighing your structured-thinking evidence...','Identifying your highest-leverage moves...','Plotting your 90-day route to your first offer...'],
+  government:n=>[`Mapping your public-sector terrain, ${n}...`,'Analyzing your readiness for staged SOE/BUMN selection...','Weighing your document pack against screening standards...','Identifying your highest-leverage moves...','Plotting your 90-day route...'],
+  default:n=>[`Mapping your career terrain, ${n}...`,'Analyzing your preparation pack...','Calculating your readiness altitude...','Identifying your highest-leverage next moves...','Plotting your 90-day route...']},
+ id:{
+  finance:n=>[`Memetakan medan sektor keuanganmu, ${n}...`,'Menganalisis dokumenmu terhadap standar perbankan...','Menghitung kesiapan wawancaramu untuk seleksi bertahap...','Menemukan langkah paling berdampak untuk peran keuangan...','Menyusun rute 90 hari menuju offer keuangan pertamamu...'],
+  tech:n=>[`Memetakan medan karier teknologimu, ${n}...`,'Menganalisis profil dan portofoliomu terhadap standar hiring tech...','Menghitung kesiapanmu untuk ronde teknis...','Menemukan langkah paling berdampak di pasar tech...','Menyusun rute 90 hari menuju peran targetmu...'],
+  business:n=>[`Memetakan medan bisnis & konsultanmu, ${n}...`,'Menganalisis kesiapan case dan wawancaramu...','Menimbang bukti berpikir terstrukturmu...','Menemukan langkah paling berdampak...','Menyusun rute 90 hari menuju offer pertamamu...'],
+  government:n=>[`Memetakan medan sektor publikmu, ${n}...`,'Menganalisis kesiapanmu untuk seleksi bertahap BUMN...','Menimbang dokumenmu terhadap standar penyaringan...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...'],
+  default:n=>[`Memetakan medan kariermu, ${n}...`,'Menimbang isi ranselmu...','Menghitung ketinggianmu...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...']}};
+function loadMsgs(){
+  const n=S.profile.name||(lang==='id'?'pendaki':'climber');
+  const key=({1:'finance',2:'tech',0:'business',6:'government',7:'business'})[S.profile.direction]||'default';
+  const set=LOADSET[lang==='id'?'id':'en'];
+  return (set[key]||set.default)(n);
+}
 function startLoading(){
+  const _sc=finalScores(), _t=total100(_sc);
+  analytics.track('assessment_completed',{total_score:_t,band:band(_t).label,
+    direction:S.profile.direction,status:S.profile.status,
+    ci_score:_sc[0],ps_score:_sc[1],ir_score:_sc[2],nc_score:_sc[3],cm_score:_sc[4]});
   show('s-loading');
-  const msgs=LOADMSGS[lang]||LOADMSGS.en;
+  /* organic percentage counter — eases into 100% like real processing */
+  const CURVE=[0,8,19,33,48,60,70,78,85,90,94,97,99,100];
+  const pctEl=document.getElementById('loadpct'); let ci=0; pctEl.textContent='0%';
+  const civ=setInterval(()=>{ ci++; if(ci<CURVE.length) pctEl.textContent=CURVE[ci]+'%'; else clearInterval(civ); },Math.floor(5600/CURVE.length));
+  const msgs=loadMsgs();
   const el=document.getElementById('loadmsg'); let i=0;
   el.textContent=msgs[0];
   const iv=setInterval(()=>{ i++; if(i<msgs.length){ el.style.opacity=0;
@@ -1412,7 +1707,8 @@ function startLoading(){
   })(t0);
   document.getElementById('loadline').style.transition='width 5.4s linear';
   requestAnimationFrame(()=>document.getElementById('loadline').style.width='100%');
-  setTimeout(()=>{ clearInterval(iv); buildReport(); show('s-report'); fitReport(); },5600);
+  setTimeout(()=>{ clearInterval(iv); clearInterval(civ); buildReport(); show('s-report'); fitReport();
+    analytics.track('report_viewed'); },5600);
 }
 
 /* ================= SVG VISUALS (print-safe) ================= */
@@ -1424,7 +1720,7 @@ function svgDial(t,size,dark){
   return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
     <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="${trackC}" stroke-width="${size*.05}"
       stroke-dasharray="${C}" stroke-dashoffset="${C-track}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
-    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="#F59E0B" stroke-width="${size*.05}"
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="#C9A84C" stroke-width="${size*.05}"
       stroke-dasharray="${C}" stroke-dashoffset="${off}" stroke-linecap="round" transform="rotate(135 ${cx} ${cx})"/>
     <text x="${cx}" y="${cx*0.96}" text-anchor="middle" dominant-baseline="middle" fill="${txtC}" font-size="${fs1}" font-weight="800" font-family="Inter,sans-serif">${t}</text>
     <text x="${cx}" y="${cx+fs1*0.62}" text-anchor="middle" fill="${subC}" font-size="${fs2}" font-family="Inter,sans-serif">/ 100</text>
@@ -1439,18 +1735,20 @@ function svgRadar(scores,size){
     rings+=`<polygon points="${pts}" fill="none" stroke="#E2E8F0" stroke-width="1"/>`;
   }
   let axes=''; for(let i=0;i<n;i++){const[a,b]=pt(i,1);axes+=`<line x1="${cx}" y1="${cy}" x2="${a.toFixed(1)}" y2="${b.toFixed(1)}" stroke="#E2E8F0" stroke-width="1"/>`;}
+  const rpts=[...Array(n)].map((_,i)=>pt(i,0.6).map(v=>v.toFixed(1)).join(',')).join(' ');
+  const ref=`<polygon points="${rpts}" fill="none" stroke="#8B6914" stroke-width="1.4" stroke-dasharray="5 4" opacity=".75"/>`;
   const spts=scores.map((s,i)=>pt(i,Math.max(.06,s/15)));
   const poly=spts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
-  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="4" fill="#F59E0B" stroke="#fff" stroke-width="1.6"/>`).join('');
+  let dots=spts.map((p,i)=>`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="4" fill="#C9A84C" stroke="#fff" stroke-width="1.6"/>`).join('');
   let labels='';
   const two=DIMS.map(d=>d.name.split(' '));
   for(let i=0;i<n;i++){ const[a,b]=pt(i,1.28);
     const lines=two[i].map((w,li)=>`<tspan x="${a.toFixed(1)}" dy="${li?11:0}">${w}</tspan>`).join('');
     labels+=`<text x="${a.toFixed(1)}" y="${(b-6).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="600" fill="#334155" font-family="Inter,sans-serif">${lines}</text>
-      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*11+3).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="800" fill="#B4550E" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
+      <text x="${a.toFixed(1)}" y="${(b-6+two[i].length*11+3).toFixed(1)}" text-anchor="middle" font-size="9.5" font-weight="800" fill="#8B6914" font-family="Inter,sans-serif">${scores[i]}/15</text>`;
   }
-  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${rings}${axes}
-    <polygon points="${poly}" fill="rgba(249,115,22,0.3)" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${rings}${axes}${ref}
+    <polygon points="${poly}" fill="rgba(201,168,76,0.3)" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
 }
 
 /* ── report icon library (print-safe inline SVG, stroke-based) ── */
@@ -1474,7 +1772,7 @@ const RICON={
  alert:'<path d="M12 3.5 L21 19.5 H3 Z"/><path d="M12 9.5 v4.5"/><circle cx="12" cy="16.8" r="0.6"/>'
 };
 function rIcon(name,color,size,sw){
-  return `<svg width="${size||14}" height="${size||14}" viewBox="0 0 24 24" fill="none" stroke="${color||'#B4550E'}" stroke-width="${sw||1.9}" stroke-linecap="round" stroke-linejoin="round" style="display:block">${RICON[name]||RICON.exec}</svg>`;
+  return `<svg width="${size||14}" height="${size||14}" viewBox="0 0 24 24" fill="none" stroke="${color||'#8B6914'}" stroke-width="${sw||1.9}" stroke-linecap="round" stroke-linejoin="round" style="display:block">${RICON[name]||RICON.exec}</svg>`;
 }
 /* donut gauge for dimension pages */
 function donutGauge(p,color,size){
@@ -1490,18 +1788,18 @@ function ascentSvg(){
   const dayA=lang==='id'?'Hari 1':'Day 1', dayB=lang==='id'?'Hari 90':'Day 90';
   return `<svg class="ascent-info" viewBox="0 0 698 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <defs><linearGradient id="ascg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F97316"/><stop offset=".5" stop-color="#F59E0B"/><stop offset="1" stop-color="#1A5C38"/></linearGradient></defs>
+      <stop offset="0" stop-color="#C9A84C"/><stop offset=".5" stop-color="#C9A84C"/><stop offset="1" stop-color="#1A5C38"/></linearGradient></defs>
     <rect x="0.5" y="0.5" width="697" height="99" rx="8" fill="#FAF8F3" stroke="#E7E2D8"/>
     <path d="M0 100 L96 66 L156 80 L266 44 L336 58 L476 26 L566 40 L698 12 L698 100 Z" fill="#EFEAE0"/>
     <path d="M28 84 C 100 76, 170 68, 233 60 C 330 48, 410 44, 466 34 C 540 22, 600 20, 656 15"
       fill="none" stroke="url(#ascg)" stroke-width="2.4" stroke-dasharray="5 4" stroke-linecap="round"/>
     <circle cx="28" cy="84" r="3.4" fill="#5A6A80"/>
     <text x="40" y="88" font-family="Inter,sans-serif" font-size="8.4" font-weight="700" fill="#5A6A80">${dayA}</text>
-    <circle cx="150" cy="70" r="8" fill="#F97316"/><text x="150" y="73.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">1</text>
-    <circle cx="380" cy="47" r="8" fill="#F59E0B"/><text x="380" y="50.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">2</text>
+    <circle cx="150" cy="70" r="8" fill="#C9A84C"/><text x="150" y="73.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">1</text>
+    <circle cx="380" cy="47" r="8" fill="#C9A84C"/><text x="380" y="50.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">2</text>
     <circle cx="580" cy="24" r="8" fill="#1A5C38"/><text x="580" y="27.4" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#fff">3</text>
     <path d="M656 15 V38" stroke="#111827" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M656 15 h15 l-4.5 4 4.5 4 h-15 Z" fill="#F97316"/>
+    <path d="M656 15 h15 l-4.5 4 4.5 4 h-15 Z" fill="#C9A84C"/>
     <text x="648" y="50" text-anchor="end" font-family="Inter,sans-serif" font-size="8.4" font-weight="700" fill="#5A6A80">${dayB}</text>
   </svg>`;
 }
@@ -1513,7 +1811,7 @@ function rphead(){ const t=lang==='id'?'Asesmen Kesiapan Karier':'Career Readine
 function rpfoot(n){ return lang==='id'
   ? `<div class="rpfoot"><span>Rahasia · Bukan untuk disebarluaskan · metanoialabs.net</span><span>Halaman ${n} dari ${RP_TOTAL}</span></div>`
   : `<div class="rpfoot"><span>Confidential · Not for distribution · metanoialabs.net</span><span>Page ${n} of ${RP_TOTAL}</span></div>`; }
-const kick=(n,t,ic)=>`<div class="kick report-section-header">${ic?`<span class="kic">${rIcon(ic,'#B4550E',12,2)}</span>`:''}<span class="kn">${n}</span><span class="kt">${t}</span></div>`;
+const kick=(n,t,ic)=>`<div class="kick report-section-header">${ic?`<span class="kic">${rIcon(ic,'#8B6914',12,2)}</span>`:''}<span class="kn">${n}</span><span class="kt">${t}</span></div>`;
 function bandScale(t,lv){
   const NAMES=['Base Camp','First Ascent','Mid-Mountain','High Camp','Summit Ready'];
   const W=[40,20,15,15,10]; // actual band score ranges, in points of 100
@@ -1530,7 +1828,7 @@ const RT={
      s1:'Overall readiness',s2:'Readiness band',s3:'Estimated percentile',s4:'Steepest face',
      pctile:t=>`${pctl(t)}<small>th</small>`,
      callout:bd=>`You are at ${bd.label} — band ${bd.lv} of 5 on the Metanoia readiness scale.`,
-     method:d=>`Methodology: 25 behavioral questions across 5 readiness dimensions, scored 0–3 per item and normalized to 100. Completed ${d} · Career Map v2.1 · Percentile is an estimate against the Metanoia candidate base.`,
+     method:d=>`Methodology: 25 behavioral questions across 5 readiness dimensions, scored 0–3 per item and normalized to 100. Completed ${d} · Career Map v2.2 · Percentile is an estimate against the Metanoia candidate base.`,
      section:'Section',score:'Score',sb:'Score breakdown',strengths:'✓ Strengths',gapsLbl:'⚠ Gaps to close',
      noStrength:'No established strengths yet — every action below is pure upside.',
      noGap:'No significant gaps — maintain the habit and work steeper faces.',ia:'Immediate actions',
@@ -1540,7 +1838,12 @@ const RT={
      month:'Month',m1t:'Foundation Repair',m2t:'Activation',m3t:'Execution & Iteration',wk:'Week',
      mile1:'▲ Milestone: Foundation complete',mile2:'▲ Milestone: First interviews secured',mile3:'▲ Milestone: Offer conversations open',
      nsTitle:'Your route is mapped.',nsLead:'Based on your lowest-scoring dimensions, these are your first moves on Metanoia — in order.',
-     start:'Start here: ',nsCta:'Begin Your Climb at Metanoia Labs →'},
+     start:'Start here: ',nsCta:'Begin Your Climb at Metanoia Labs →',
+     cmp:p=>`You scored higher than ${p}% of ${STATUS_EN[S.profile.status??1]||'candidates'} who have taken this assessment.`,
+     radarCap:'Dashed line: the typical threshold for competitive readiness in your target sector (60%).',
+     ahead:p=>`This puts you ahead of roughly ${p}% of candidates at your stage.`,
+     rrT:'Track your climb. Come back in 30 days and retake this assessment.',
+     rrS:'Climbers who measure their progress reach the summit faster. Your results stay private to you.'},
  id:{coverKick:'Laporan Career Intelligence',pf:'Disiapkan untuk',bandOf:(lv,d)=>`Band ${lv} dari 5 · ${d}`,
      cfoot:my=>`Metanoia Labs · Laporan Career Intelligence<br>${my} · Rahasia`,
      k1:'Ringkasan Eksekutif',kDim:'Telaah Dimensi',k7:'Kekuatan & Kesenjangan Kritis',k8:'Rencana Aksi',k9:'Langkah Berikutnya',
@@ -1548,7 +1851,7 @@ const RT={
      s1:'Kesiapan keseluruhan',s2:'Band kesiapan',s3:'Estimasi persentil',s4:'Sisi paling terjal',
      pctile:t=>`ke‑${pctl(t)}`,
      callout:bd=>`Kamu berada di ${bd.label} — band ${bd.lv} dari 5 pada skala kesiapan Metanoia.`,
-     method:d=>`Metodologi: 25 pertanyaan perilaku di 5 dimensi kesiapan, dinilai 0–3 per butir dan dinormalisasi ke 100. Diselesaikan ${d} · Career Map v2.1 · Persentil adalah estimasi terhadap basis kandidat Metanoia.`,
+     method:d=>`Metodologi: 25 pertanyaan perilaku di 5 dimensi kesiapan, dinilai 0–3 per butir dan dinormalisasi ke 100. Diselesaikan ${d} · Career Map v2.2 · Persentil adalah estimasi terhadap basis kandidat Metanoia.`,
      section:'Bagian',score:'Skor',sb:'Rincian skor',strengths:'✓ Kekuatan',gapsLbl:'⚠ Kesenjangan untuk ditutup',
      noStrength:'Belum ada kekuatan yang mapan — setiap aksi di bawah adalah keuntungan murni.',
      noGap:'Tak ada kesenjangan yang berarti — pertahankan kebiasaannya dan garap sisi yang lebih terjal.',ia:'Aksi segera',
@@ -1558,10 +1861,15 @@ const RT={
      month:'Bulan',m1t:'Perbaikan Fondasi',m2t:'Aktivasi',m3t:'Eksekusi & Iterasi',wk:'Minggu',
      mile1:'▲ Milestone: Fondasi selesai',mile2:'▲ Milestone: Wawancara pertama didapat',mile3:'▲ Milestone: Percakapan offer terbuka',
      nsTitle:'Rutemu sudah terpetakan.',nsLead:'Berdasarkan dimensi dengan skor terendahmu, inilah langkah pertamamu di Metanoia — berurutan.',
-     start:'Mulai di sini: ',nsCta:'Mulai Pendakianmu di Metanoia Labs →'}
+     start:'Mulai di sini: ',nsCta:'Mulai Pendakianmu di Metanoia Labs →',
+     cmp:p=>`Skormu lebih tinggi dari ${p}% ${STATUS_IDN[S.profile.status??1]||'kandidat'} yang telah mengambil asesmen ini.`,
+     radarCap:'Garis putus-putus: ambang tipikal kesiapan kompetitif di sektor targetmu (60%).',
+     ahead:p=>`Ini menempatkanmu di depan kira-kira ${p}% kandidat di tahapmu.`,
+     rrT:'Lacak pendakianmu. Kembalilah dalam 30 hari dan ulangi asesmen ini.',
+     rrS:'Pendaki yang mengukur kemajuannya mencapai puncak lebih cepat. Hasilmu tetap privat milikmu.'}
 };
 function buildReport(){
-  const scores=calcScores(), t=total100(scores), bd=band(t);
+  const raw=calcScores(), scores=weightedScores(raw), t=total100(scores), bd=band(t);
   const L=RT[lang==='id'?'id':'en'], loc=lang==='id'?'id-ID':'en-GB';
   const name=escapeHtml(S.profile.name||'Climber');
   const dateStr=new Date().toLocaleDateString(loc,{day:'numeric',month:'long',year:'numeric'});
@@ -1575,7 +1883,7 @@ function buildReport(){
     <div class="top">
       <svg width="30" height="30" viewBox="0 0 40 40" fill="none">
         <defs><linearGradient id="lgC" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+          <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
         <circle cx="20" cy="20" r="18.2" stroke="url(#lgC)" stroke-width="1.8"/>
         <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgC)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span style="font-size:9pt;font-weight:800;letter-spacing:.26em">METANOIA LABS</span>
@@ -1586,8 +1894,9 @@ function buildReport(){
     <div class="pf">${L.pf}</div>
     <div class="pname">${name.toUpperCase()}</div>
     <div class="dots">${[1,2,3,4,5].map(i=>`<i class="${i<=bd.lv?'on':''}"></i>`).join('')}</div>
-    <div class="scorewrap">${svgDial(t,110,true)}<div class="bandlbl">${bd.label}<br>
+    <div class="scorewrap">${svgDial(t,110,true)}<div class="bandlbl" style="color:${['#94A3B8','#60A5FA','#A78BFA','#F0D878','#34D399'][bd.lv-1]}">${bd.label}<br>
       <span style="font-size:8pt;font-weight:600;color:rgba(245,239,230,.65);letter-spacing:.04em">${L.bandOf(bd.lv,dateStr)}</span></div></div>
+    <div class="cmpline" style="color:#F0D878">${L.cmp(pctl(t))}</div>
     <div class="cfoot"><span>${L.cfoot(monthYear)}</span><span style="letter-spacing:.18em;font-weight:800">metanoialabs.net</span></div>
   </div>`);
 
@@ -1602,10 +1911,10 @@ function buildReport(){
       <div class="rtitle report-section-header">${L.execTitle}</div>
       <div class="rsub">${L.execSub}</div>
       <div class="statrow">
-        <div class="stat"><div class="l">${rIcon('target','#B4550E',11,2)}${L.s1}</div><div class="v">${t} <small>/ 100</small></div></div>
-        <div class="stat"><div class="l">${rIcon('layers','#B4550E',11,2)}${L.s2}</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
-        <div class="stat"><div class="l">${rIcon('pct','#B4550E',11,2)}${L.s3}</div><div class="v">${L.pctile(t)}</div></div>
-        <div class="stat"><div class="l">${rIcon('steep','#B4550E',11,2)}${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
+        <div class="stat"><div class="l">${rIcon('target','#8B6914',11,2)}${L.s1}</div><div class="v">${t} <small>/ 100</small></div></div>
+        <div class="stat"><div class="l">${rIcon('layers','#8B6914',11,2)}${L.s2}</div><div class="v" style="font-size:12pt">${bd.label}</div></div>
+        <div class="stat"><div class="l">${rIcon('pct','#8B6914',11,2)}${L.s3}</div><div class="v">${L.pctile(t)}</div></div>
+        <div class="stat"><div class="l">${rIcon('steep','#8B6914',11,2)}${L.s4}</div><div class="v" style="font-size:12pt">${DIMS[scores.indexOf(Math.min(...scores))].name}</div></div>
       </div>
       ${bandScale(t,bd.lv)}
       <div class="exec-grid" style="margin-top:16px">
@@ -1613,7 +1922,7 @@ function buildReport(){
           <div class="exec-narr">${paras.map(p=>`<p>${p}</p>`).join('')}</div>
           <div class="callout">${L.callout(bd)}</div>
         </div>
-        <div class="r">${svgRadar(scores,300)}</div>
+        <div class="r">${svgRadar(scores,300)}<div class="radar-cap">${L.radarCap}</div></div>
       </div>
       <div class="scorebars">
         ${DIMS.map((d,i)=>`<div class="col"><div class="nm">${d.name}</div><div class="pc">${pct[i]}%</div>
@@ -1670,7 +1979,7 @@ function buildReport(){
       <div class="rtitle report-section-header" style="font-size:15pt">${L.top3}</div>
       <div style="height:10px"></div>
       ${top3.length?`<div class="cards3">${top3.map((q,i)=>`<div class="c st strength-item"><span class="cic">${rIcon('medal','#1A5C38',14,1.9)}</span><span class="k">${L.strengthN} ${i+1} · ${DIMS[q.d].name}</span>
-        <h4>${qm(q,'sn')}</h4><p>${qm(q,'st')}</p></div>`).join('')}</div>`
+        <h4>${qm(q,'sn')}</h4><p>${qm(q,'st')}</p><div class="ahead">${L.ahead(Math.min(92,pctl(t)+8))}</div></div>`).join('')}</div>`
         :`<p style="font-size:9.5pt;color:#374151">${L.noTop3}</p>`}
       <div style="height:1px;background:#E5E0D5;margin:24px 0"></div>
       <div class="rtitle report-section-header" style="font-size:15pt;color:var(--accent-print)">${L.gaps3}</div>
@@ -1743,15 +2052,15 @@ function buildReport(){
   /* Next steps */
   pageNo++;
   const FEAT=lang==='id'?{
-    ci:{n:'The Map — Career Intelligence',d:'Telaah 90 menit tentang cara rekrutmen benar-benar bekerja di sini: ATS, proses BUMN, data gaji, strategi penargetan.',c:'#B4550E',ic:'M'},
+    ci:{n:'The Map — Career Intelligence',d:'Telaah 90 menit tentang cara rekrutmen benar-benar bekerja di sini: ATS, proses BUMN, data gaji, strategi penargetan.',c:'#8B6914',ic:'M'},
     ps:{n:'CV Studio',d:'Skor CV‑mu terhadap job description asli, perbaiki baris demi baris, dan dapatkan feedback dari kacamata recruiter.',c:'#C97B1E',ic:'CV'},
-    ir:{n:'Interview Coach',d:'Mock interview STAR yang dikalibrasi ke role targetmu, dengan feedback terstruktur di setiap jawaban.',c:'#F59E0B',ic:'IC'},
+    ir:{n:'Interview Coach',d:'Mock interview STAR yang dikalibrasi ke role targetmu, dengan feedback terstruktur di setiap jawaban.',c:'#C9A84C',ic:'IC'},
     nc:{n:'Basecamp — kohortmu',d:'Kelompok rekan yang dipasangkan sesuai tahap dan arahmu: latihan mingguan dan orang-orang yang menolak membiarkanmu menyerah.',c:'#5A6A80',ic:'B'},
     cm:{n:'Mind Palace',d:'Protokol pemulihan dari penolakan dan kepercayaan diri yang dibangun di atas bukti — pendakian batin, dilatih.',c:'#1B2434',ic:'MP'}
   }:{
-    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, State-Owned Enterprise (SOE/BUMN) processes, salary data, targeting strategy.',c:'#B4550E',ic:'M'},
+    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, State-Owned Enterprise (SOE/BUMN) processes, salary data, targeting strategy.',c:'#8B6914',ic:'M'},
     ps:{n:'CV Studio',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#C97B1E',ic:'CV'},
-    ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#F59E0B',ic:'IC'},
+    ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#C9A84C',ic:'IC'},
     nc:{n:'Basecamp — your cohort',d:'A matched peer group at your stage and direction: weekly practice and people who refuse to let you quit.',c:'#5A6A80',ic:'B'},
     cm:{n:'Mind Palace',d:'Rejection-recovery protocols and confidence built on evidence — the inner climb, trained.',c:'#1B2434',ic:'MP'}
   };
@@ -1768,6 +2077,7 @@ function buildReport(){
         <div class="ic" style="background:${f.c}">${rIcon(FICON[f.fkey]||'ci','#FFFFFF',19,1.8)}</div>
         <h4>${i===0?L.start:''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
       <a class="ns-cta" href="landing.html">${L.nsCta}</a>
+      <div class="rr-note"><b>${L.rrT}</b><br>${L.rrS}</div>
       <div class="ns-url">metanoialabs.net</div>
     </div>${rpfoot(pageNo)}
   </div>`);
@@ -1777,6 +2087,9 @@ function buildReport(){
   document.getElementById('hidden-band').value=bd.label;
   document.getElementById('hidden-dimensions').value=JSON.stringify(Object.fromEntries(DIMS.map((d,i)=>[d.key,scores[i]])));
   document.getElementById('hidden-profile').value=JSON.stringify(S.profile);
+  document.getElementById('hidden-status').value=S.profile.status??'';
+  document.getElementById('hidden-direction').value=S.profile.direction??'';
+  document.getElementById('hidden-challenge').value=S.profile.challenge??'';
   document.getElementById('hidden-answers').value=JSON.stringify(S.answers);
   const cn=document.getElementById('capName'); if(!cn.value) cn.value=S.profile.name||'';
   buildDone(t,bd,weakDims[0],dateStr);
@@ -1796,7 +2109,10 @@ addEventListener('resize',()=>{ if(document.getElementById('s-report').classList
 /* ================= COMPLETION SCREEN ================= */
 function buildDone(t,bd,lowest,dateStr){
   document.getElementById('doneDial').innerHTML=svgDial(t,86,true);
-  document.getElementById('doneScore').textContent=t+' / 100';
+  /* V2: score counts up on reveal */
+  const ds=document.getElementById('doneScore'); const t0=performance.now(), DUR=1500;
+  (function cnt(now){ const p=Math.min(1,(now-t0)/DUR), e=1-Math.pow(1-p,3);
+    ds.textContent=Math.round(t*e)+' / 100'; if(p<1) requestAnimationFrame(cnt); })(t0);
   document.getElementById('doneBand').textContent=bd.label;
   document.getElementById('doneDate').textContent=tt('done.completed',{d:dateStr});
   document.getElementById('doneFootDate').textContent = lang==='id'
@@ -1833,6 +2149,7 @@ document.getElementById('doneEmail').onclick=()=>{ show('s-report'); fitReport()
 let pdfBusy=false;
 window.downloadReport=async function(){
   if(pdfBusy) return;
+  analytics.track('pdf_downloaded');
   const el=document.getElementById('report-content');
   const finish=()=>{ S.dl=true; save(); setTimeout(showDone,600); };
   if(!(window.html2canvas && window.jspdf && window.jspdf.jsPDF)){ window.print(); finish(); return; }
@@ -1856,7 +2173,7 @@ window.downloadReport=async function(){
   }catch(e){ restore(); window.print(); finish(); }
 };
 function shareData(){
-  const t=total100(calcScores()),bd=band(t);
+  const t=total100(finalScores()),bd=band(t);
   return {t,bd,text:`I just mapped my career with Metanoia Labs.\nMy readiness score: ${t}/100 · ${bd.label}.\nClarity is gear. 🏔️\n@MetanoiaLabs #CareerMap #TheAscent`};
 }
 document.getElementById('shareBtn').onclick=async()=>{
@@ -1864,15 +2181,63 @@ document.getElementById('shareBtn').onclick=async()=>{
   try{ if(navigator.share){await navigator.share({text});} else {await navigator.clipboard.writeText(text);
     const b=document.getElementById('shareBtn');const o=b.textContent;b.textContent='Copied!';setTimeout(()=>b.textContent=o,1600);} }catch(e){}
 };
-document.getElementById('shareLi').onclick=()=>open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent('https://metanoialabs.net'),'_blank');
+document.getElementById('shareLi').onclick=async()=>{
+  analytics.track('result_shared',{platform:'linkedin'});
+  const {t,bd}=shareData();
+  const caption=`I mapped my career readiness — scored ${t}/100 at ${bd.label}. Take yours free at metanoialabs.net 🗺️`;
+  try{ await navigator.clipboard.writeText(caption); }catch(e){}
+  open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent('https://metanoialabs.net'),'_blank');
+};
 document.getElementById('shareX').onclick=()=>open('https://twitter.com/intent/tweet?text='+encodeURIComponent(shareData().text),'_blank');
 
 document.getElementById('capform').addEventListener('submit',async function(e){
   e.preventDefault();
+  analytics.track('email_submitted',{has_linkedin:!!document.getElementById('capLinkedin').value});
   let ok=false;
   try{ const r=await fetch(this.action,{method:'POST',body:new FormData(this),headers:{'Accept':'application/json'}}); ok=r.ok; }catch(err){}
   S.em=true; save(); showDone();
 });
+
+/* V2: primary conversion — create free account with email pre-filled (Part 12) */
+document.getElementById('acctBtn').onclick=()=>{
+  analytics.track('account_cta_clicked',{placement:'report_footer'});
+  const email=document.getElementById('capEmail').value.trim();
+  const f=document.getElementById('capform');
+  if(email){ try{ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}); }catch(err){} }
+  location.href='register.html'+(email?('?email='+encodeURIComponent(email)):'');
+};
+document.getElementById('premBtn').onclick=()=>{
+  analytics.track('premium_cta_clicked');
+  const email=document.getElementById('capEmail').value.trim();
+  location.href='register.html?plan=premium'+(email?('&email='+encodeURIComponent(email)):'');
+};
+
+/* V2: shareable result card (canvas, 1200×627) */
+function resultCard(){
+  const t=total100(finalScores()), bd=band(t);
+  const c=document.createElement('canvas'); c.width=1200; c.height=627;
+  const x=c.getContext('2d');
+  const g=x.createLinearGradient(0,0,0,627); g.addColorStop(0,'#0A1628'); g.addColorStop(1,'#050A12');
+  x.fillStyle=g; x.fillRect(0,0,1200,627);
+  x.strokeStyle='rgba(201,168,76,.55)'; x.lineWidth=3; x.strokeRect(24,24,1152,579);
+  x.strokeStyle='rgba(201,168,76,.9)'; x.lineWidth=4; x.lineCap='round'; x.lineJoin='round';
+  x.beginPath(); x.moveTo(940,540); x.lineTo(1010,430); x.lineTo(1050,480); x.lineTo(1090,415); x.lineTo(1150,540); x.stroke();
+  x.fillStyle='#C9A84C'; x.font='700 30px Inter,Arial,sans-serif';
+  x.fillText('METANOIA LABS · CAREER MAP',60,110);
+  x.fillStyle='#F8F4EC'; x.font='800 62px Inter,Arial,sans-serif';
+  x.fillText(((S.profile.name||'My')+"'s Career Map").slice(0,30),60,215);
+  x.fillStyle='#F0D878'; x.font='800 118px Inter,Arial,sans-serif';
+  x.fillText(`${t}/100`,60,375);
+  x.fillStyle='#F8F4EC'; x.font='700 46px Inter,Arial,sans-serif';
+  x.fillText(bd.label,60,448);
+  x.fillStyle='#B8A98A'; x.font='500 28px Inter,Arial,sans-serif';
+  x.fillText('Career Map Assessment 2026 · metanoialabs.net',60,540);
+  const a=document.createElement('a');
+  a.download=`Metanoia-Career-Map-${(S.profile.name||'result').replace(/[^\w-]/g,'')}-${t}.png`;
+  a.href=c.toDataURL('image/png'); a.click();
+  analytics.track('result_shared',{platform:'download'});
+}
+document.getElementById('shareCard').onclick=resultCard;
 
 applyLang();
 })();
