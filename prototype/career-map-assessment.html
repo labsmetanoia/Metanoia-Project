@@ -384,22 +384,6 @@
   #s-hero,#s-loading{background:
     radial-gradient(ellipse at 20% 50%, rgba(201,168,76,.05) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 20%, rgba(201,168,76,.04) 0%, transparent 40%)}
-  .proofstrip{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(201,168,76,.35);border-radius:999px;
-    padding:7px 16px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--gold-light);
-    background:rgba(201,168,76,.08);margin-bottom:22px}
-  .promises{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
-  @media(max-width:640px){.promises{grid-template-columns:1fr}}
-  .promise{background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-    border:1px solid var(--glass-border);border-radius:16px;padding:18px}
-  .promise .pi{font-size:1.5rem;display:block;margin-bottom:8px}
-  .promise b{display:block;font-size:.92rem;color:var(--gold-light);margin-bottom:4px}
-  .promise span{font-size:.8rem;color:rgba(255,255,255,.6);line-height:1.5;display:block}
-  .samplewrap{margin-top:26px;display:flex;align-items:center;gap:16px}
-  .samplethumb{width:120px;height:86px;flex:none;border-radius:10px;border:1px solid rgba(201,168,76,.3);
-    background:linear-gradient(180deg,var(--bg-card),var(--bg-dark));position:relative;overflow:hidden}
-  .samplethumb::before{content:"";position:absolute;inset:10px;filter:blur(2px);opacity:.75;
-    background:repeating-linear-gradient(180deg,rgba(201,168,76,.55) 0 3px,transparent 3px 12px)}
-  .sampleline{font-size:.85rem;color:rgba(255,255,255,.65)}
   .retrieve{margin-top:20px;font-size:.8rem;color:rgba(255,255,255,.45)}
   .retrieve a{color:var(--gold-light);cursor:pointer;text-decoration:underline dotted}
   .resume-banner{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:rgba(201,168,76,.1);
@@ -418,27 +402,16 @@
   .gate-sub{color:var(--gold-light);font-size:1.05rem;margin-top:12px;font-weight:600}
   .gate-small{color:rgba(255,255,255,.45);font-size:.85rem;margin-top:20px}
   .loadpct{font-size:2rem;font-weight:800;color:var(--gold-light);margin-top:14px;font-variant-numeric:tabular-nums}
-  .premium-card{margin-top:22px;border:1px solid rgba(201,168,76,.45);border-radius:16px;padding:22px 24px;text-align:left;
-    background:linear-gradient(160deg,rgba(201,168,76,.12),rgba(8,14,26,.5))}
-  .premium-card .pk{font-size:1rem;font-weight:800;color:var(--gold-light);margin-bottom:10px}
-  .premium-card ul{margin:0 0 12px;padding-left:18px;color:rgba(255,255,255,.8);font-size:.85rem;line-height:1.9}
-  .premium-card .pp{font-size:.95rem;font-weight:800;color:#fff;margin-bottom:12px}
   .cmpline{margin-top:10px;font-size:8.6pt;color:#8B6914;font-weight:700}
   .radar-cap{font-size:7.6pt;color:#6B7280;margin-top:6px;text-align:center;max-width:300px}
   .ahead{margin-top:8px;font-size:8pt;font-weight:700;color:#8B6914}
   .rr-note{margin-top:18px;border:1px dashed rgba(139,105,20,.5);border-radius:10px;padding:12px 16px;font-size:9pt;
     color:#374151;background:#FAF8F3;line-height:1.6}
-  :root[data-theme="light"] .promise span{color:rgba(27,36,52,.7)}
-  :root[data-theme="light"] .promise b{color:#8B6914}
-  :root[data-theme="light"] .sampleline{color:rgba(27,36,52,.65)}
   :root[data-theme="light"] .retrieve{color:rgba(27,36,52,.55)}
   :root[data-theme="light"] .midcard h2{color:#1B2434}
   :root[data-theme="light"] .midcard .mi{color:rgba(27,36,52,.75)}
   :root[data-theme="light"] .gate-big{color:#1B2434}
   :root[data-theme="light"] .gate-small{color:rgba(27,36,52,.5)}
-  :root[data-theme="light"] .premium-card{background:linear-gradient(160deg,rgba(201,168,76,.16),rgba(255,255,255,.7))}
-  :root[data-theme="light"] .premium-card ul{color:rgba(27,36,52,.8)}
-  :root[data-theme="light"] .premium-card .pp{color:#1B2434}
 
   @media print{
     body *{visibility:hidden}
@@ -550,15 +523,13 @@
     </div>
   </div>
   <div class="hero-in">
-    <div class="proofstrip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19 L9 8 L13 14 L16 9 L21 19 Z"/></svg><span data-t="hero.proof">Join 12,000+ professionals who've mapped their climb</span></div>
     <h1 data-t="hero.h1">Your Career Map starts here.</h1>
     <p class="sub" data-t="hero.sub">A 15-minute diagnostic that reveals exactly where you stand on the mountain — and the precise route to your first offer.</p>
-    <div class="promises">
-      <div class="promise"><span class="pi" aria-hidden="true">🗺️</span><b data-t="hero.c1t">Your Readiness Score</b><span data-t="hero.c1d">Across 5 dimensions that predict offer success</span></div>
-      <div class="promise"><span class="pi" aria-hidden="true">⛰️</span><b data-t="hero.c2t">Your Position on the Mountain</b><span data-t="hero.c2d">Honestly mapped, no flattery</span></div>
-      <div class="promise"><span class="pi" aria-hidden="true">🧭</span><b data-t="hero.c3t">Your 90-Day Route</b><span data-t="hero.c3d">Specific actions, specific sequence</span></div>
-    </div>
-    <div class="samplewrap"><div class="samplethumb" aria-hidden="true"></div><span class="sampleline" data-t="hero.sample">Here's what you'll receive →</span></div>
+    <ul class="getlist">
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.l1">Your Readiness Score — across 5 dimensions that predict offer success</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.l2">Your Position on the Mountain — honestly mapped, no flattery</span></li>
+      <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#C9A84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-t="hero.l3">Your 90-Day Route — specific actions, specific sequence</span></li>
+    </ul>
     <div style="margin-top:30px">
       <button class="btn btn-ember" id="beginBtn" style="font-size:1.05rem;padding:16px 32px"><span data-t="hero.cta">See Where I Stand</span>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -716,17 +687,6 @@
           <button type="button" class="btn btn-glass" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
         </div>
       </form>
-      <div class="premium-card">
-        <div class="pk" data-t="prem.k">🚀 Want to close your gaps faster?</div>
-        <ul>
-          <li data-t="prem.f1">Full 12-page PDF report</li>
-          <li data-t="prem.f2">1:1 coach review of your results</li>
-          <li data-t="prem.f3">Personalized 90-day action plan</li>
-          <li data-t="prem.f4">Priority access to CV Studio</li>
-        </ul>
-        <div class="pp" data-t="prem.p">IDR 99,000 — one-time</div>
-        <button class="btn btn-ember" id="premBtn"><span data-t="prem.cta">Get Premium Analysis →</span></button>
-      </div>
     </div>
   </div>
 </section>
@@ -831,21 +791,19 @@ const T = {
       'cap.lead':'Create your free account to turn this report into your live route — or have the full report emailed to you.',
       'cap.wait':'Send me one honest, useful email each week from the mountain. No spam, ever.',
       'cap.acct':'Create My Free Metanoia Account →',
-      'hero.proof':"Join 12,000+ professionals who've mapped their climb",
-      'hero.c1t':'Your Readiness Score','hero.c1d':'Across 5 dimensions that predict offer success',
-      'hero.c2t':'Your Position on the Mountain','hero.c2d':'Honestly mapped, no flattery',
-      'hero.c3t':'Your 90-Day Route','hero.c3d':'Specific actions, specific sequence',
-      'hero.sample':"Here's what you'll receive →",
+      'hero.l1':'Your Readiness Score — across 5 dimensions that predict offer success',
+      'hero.l2':'Your Position on the Mountain — honestly mapped, no flattery',
+      'hero.l3':'Your 90-Day Route — specific actions, specific sequence',
       'hero.retrieve':'Already have your results?','hero.retrieve2':'Enter your email to retrieve them →',
       'hero.soon':'Coming soon — your results stay saved in this browser session.',
-      'resume.t':"Continue where you left off? You're on step {x}.",'resume.c':'Continue','resume.r':'Start over',
+      'resume.t':"Continue where you left off? You're on setup step {x}.",
+      'resume.q':"Continue where you left off? You're on question {x} of 25.",
+      'resume.done':'Welcome back — your Career Map is ready.','resume.view':'View my results',
+      'resume.c':'Continue','resume.r':'Start over',
       'mid.k':'Halfway checkpoint','mid.h':"You're halfway there — and we've already noticed something.",
       'mid.cta':'Continue to Interview Readiness →',
       'gate.h':'Question 25 of 25.','gate.s':'Most people never get this far.',
       'gate.small':'Your Career Map is being calculated...','gate.cta':'Continue to My Results →',
-      'prem.k':'🚀 Want to close your gaps faster?','prem.f1':'Full 12-page PDF report',
-      'prem.f2':'1:1 coach review of your results','prem.f3':'Personalized 90-day action plan',
-      'prem.f4':'Priority access to CV Studio','prem.p':'IDR 99,000 — one-time','prem.cta':'Get Premium Analysis →',
       'done.card':'↓ Result card',
       'ui.chapter':'Chapter {x}','load.analyz':'Analyzing your climb...',
       'done.h':"You've done something rare.",'done.sub':'Most people never stop to honestly assess where they stand. You did. That changes everything.',
@@ -863,21 +821,19 @@ const T = {
       'cap.lead':'Buat akun gratismu untuk mengubah laporan ini menjadi rute yang hidup — atau minta laporan lengkap dikirim ke emailmu.',
       'cap.wait':'Kirimkan satu email yang jujur dan berguna tiap minggu dari gunung ini. Tanpa spam, selamanya.',
       'cap.acct':'Buat Akun Metanoia Gratisku →',
-      'hero.proof':'Bergabung dengan 12.000+ profesional yang telah memetakan pendakiannya',
-      'hero.c1t':'Skor Kesiapanmu','hero.c1d':'Di 5 dimensi yang memprediksi keberhasilan offer',
-      'hero.c2t':'Posisimu di Gunung','hero.c2d':'Dipetakan jujur, tanpa basa-basi',
-      'hero.c3t':'Rute 90 Harimu','hero.c3d':'Aksi spesifik, urutan spesifik',
-      'hero.sample':'Inilah yang akan kamu terima →',
+      'hero.l1':'Skor Kesiapanmu — di 5 dimensi yang memprediksi keberhasilan offer',
+      'hero.l2':'Posisimu di Gunung — dipetakan jujur, tanpa basa-basi',
+      'hero.l3':'Rute 90 Harimu — aksi spesifik, urutan spesifik',
       'hero.retrieve':'Sudah punya hasil?','hero.retrieve2':'Masukkan email untuk mengambilnya →',
       'hero.soon':'Segera hadir — hasilmu tetap tersimpan di sesi browser ini.',
-      'resume.t':'Lanjutkan dari terakhir kali? Kamu berada di langkah {x}.','resume.c':'Lanjutkan','resume.r':'Mulai ulang',
+      'resume.t':'Lanjutkan dari terakhir kali? Kamu berada di langkah persiapan {x}.',
+      'resume.q':'Lanjutkan dari terakhir kali? Kamu berada di pertanyaan {x} dari 25.',
+      'resume.done':'Selamat datang kembali — Peta Kariermu sudah siap.','resume.view':'Lihat hasilku',
+      'resume.c':'Lanjutkan','resume.r':'Mulai ulang',
       'mid.k':'Titik tengah','mid.h':'Kamu sudah setengah jalan — dan kami sudah menemukan sesuatu.',
       'mid.cta':'Lanjut ke Kesiapan Wawancara →',
       'gate.h':'Pertanyaan 25 dari 25.','gate.s':'Kebanyakan orang tidak pernah sampai sejauh ini.',
       'gate.small':'Peta Kariermu sedang dihitung...','gate.cta':'Lanjut ke Hasilku →',
-      'prem.k':'🚀 Ingin menutup kesenjanganmu lebih cepat?','prem.f1':'Laporan PDF lengkap 12 halaman',
-      'prem.f2':'Review hasil 1:1 bersama coach','prem.f3':'Rencana aksi 90 hari yang dipersonalisasi',
-      'prem.f4':'Akses prioritas ke CV Studio','prem.p':'Rp99.000 — sekali bayar','prem.cta':'Dapatkan Analisis Premium →',
       'done.card':'↓ Kartu hasil',
       'ui.chapter':'Bab {x}','load.analyz':'Menganalisis pendakianmu...',
       'done.h':'Kamu baru saja melakukan hal yang langka.','done.sub':'Kebanyakan orang tak pernah berhenti untuk menilai posisinya secara jujur. Kamu melakukannya. Itu mengubah segalanya.',
@@ -1069,7 +1025,7 @@ const PROFILE_Q=[
  {id:'challenge',q:'What is your biggest current challenge?',other:true,
   o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty",'Other (please specify)']},
  {id:'institution',q:'Optional — which type of institution are you from?',
-  o:['Top-5 state university (UI, ITB, ITS, UGM, UNAIR)','Other state university (PTN)','Private university','Vocational college / Polytechnic','International university','Prefer not to say']}
+  o:['Top-tier state university','Other state university','Private university','Vocational college / Polytechnic','International university','Prefer not to say']}
 ];
 /* V2: direction sub-questions (shown only for the four most common directions) */
 const SUBDIR={
@@ -1148,7 +1104,7 @@ const PI={
  name:{q:'Pertama, kami harus memanggilmu dengan panggilan apa?',hint:'Cukup nama depanmu. Akan tercetak di Peta Kariermu.',ph:'mis., Maverick'},
  status:{q:'Apa statusmu saat ini?',o:['Masih kuliah (tingkat akhir)','Fresh graduate (0–1 tahun sejak lulus)','Profesional awal (1–3 tahun pengalaman)','Beralih karier / ingin pivot']},
  direction:{q:'Ke mana arah karier yang ingin kamu capai?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / BUMN','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
- institution:{q:'Opsional — dari tipe institusi mana kamu berasal?',o:['PTN Top-5 (UI, ITB, ITS, UGM, UNAIR)','PTN lainnya','Universitas swasta','Politeknik / vokasi','Universitas internasional','Tidak ingin menyebutkan']},
+ institution:{q:'Opsional — dari tipe institusi mana kamu berasal?',o:['Universitas negeri unggulan','Universitas negeri lainnya','Universitas swasta','Politeknik / vokasi','Universitas internasional','Tidak ingin menyebutkan']},
  challenge:{q:'Apa tantangan terbesarmu saat ini?',o:['Saya mengirim banyak lamaran tapi tidak ada respons','Saya mendapat wawancara tapi jarang berujung tawaran','Saya tidak tahu peran atau arah yang harus dituju','Saya merasa belum siap dan kurang percaya diri','Saya tidak punya jaringan atau koneksi yang tepat','Saya berjuang secara mental menghadapi penolakan dan ketidakpastian','Lainnya (tulis sendiri)'],ph:'Ceritakan tantanganmu...'}
 };
 const SI=[
@@ -1475,8 +1431,20 @@ const rlk=document.getElementById('retrieveLink');
 rlk.onclick=()=>{ rlk.textContent=tt('hero.soon'); setTimeout(()=>{rlk.textContent=tt('hero.retrieve2');},3200); };
 if(RESUMABLE){
   const rb=document.getElementById('resumeBanner'); rb.style.display='flex';
-  document.getElementById('resumeQ').textContent=tt('resume.t',{x:Math.min(S.step+1,TOTAL_P+TOTAL_Q)});
-  document.getElementById('resumeCont').onclick=()=>{ paint(); show('s-quiz'); };
+  const rc=document.getElementById('resumeCont');
+  const finished=S.step>=TOTAL_P+TOTAL_Q;
+  if(finished){
+    document.getElementById('resumeQ').textContent=tt('resume.done');
+    rc.removeAttribute('data-t'); rc.textContent=tt('resume.view');
+  } else {
+    document.getElementById('resumeQ').textContent = S.step<TOTAL_P
+      ? tt('resume.t',{x:S.step+1})
+      : tt('resume.q',{x:Math.min(S.step-TOTAL_P+1,TOTAL_Q)});
+  }
+  rc.onclick=()=>{
+    if(S.step>=TOTAL_P+TOTAL_Q){ buildReport(); show('s-report'); fitReport(); analytics.track('report_viewed'); }
+    else { show('s-quiz'); paint(); }
+  };
   document.getElementById('resumeRestart').onclick=()=>{
     S.step=-1; S.answers={}; S.seenInter={}; S.seenMid=false; S.profile=FRESH_PROFILE(); save();
     rb.style.display='none'; };
@@ -1491,6 +1459,7 @@ function paintHeader(){
 }
 function paint(){
   if(S.step<0) return;
+  if(S.step>=TOTAL_P+TOTAL_Q){ buildReport(); show('s-report'); fitReport(); return; }
   window.scrollTo(0,0);
   setBg(S.step<TOTAL_P ? 'start' : BGKEYS[Q[S.step-TOTAL_P].d]);
   paintHeader();
@@ -2163,8 +2132,12 @@ window.downloadReport=async function(){
     // page separately keeps canvases small and page breaks exact
     const pdf=new window.jspdf.jsPDF({unit:'px',format:[794,1123],orientation:'portrait',hotfixes:['px_scaling']});
     const pages=el.querySelectorAll('.report-page');
+    // per-page watchdog: a hung render (blocked font/image request) must never
+    // stall the download silently — fail fast and fall back to print
+    const withTimeout=(pr,ms)=>Promise.race([pr,new Promise((_,rj)=>setTimeout(()=>rj(new Error('render timeout')),ms))]);
     for(let i=0;i<pages.length;i++){
-      const c=await html2canvas(pages[i],{scale:2,useCORS:true,letterRendering:true,logging:false,backgroundColor:'#ffffff'});
+      const c=await withTimeout(html2canvas(pages[i],{scale:2,useCORS:true,letterRendering:true,logging:false,
+        backgroundColor:'#ffffff',imageTimeout:8000}),30000);
       if(i>0) pdf.addPage([794,1123],'portrait');
       pdf.addImage(c.toDataURL('image/jpeg',0.95),'JPEG',0,0,794,1123);
     }
@@ -2205,11 +2178,6 @@ document.getElementById('acctBtn').onclick=()=>{
   const f=document.getElementById('capform');
   if(email){ try{ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}); }catch(err){} }
   location.href='register.html'+(email?('?email='+encodeURIComponent(email)):'');
-};
-document.getElementById('premBtn').onclick=()=>{
-  analytics.track('premium_cta_clicked');
-  const email=document.getElementById('capEmail').value.trim();
-  location.href='register.html?plan=premium'+(email?('&email='+encodeURIComponent(email)):'');
 };
 
 /* V2: shareable result card (canvas, 1200×627) */
