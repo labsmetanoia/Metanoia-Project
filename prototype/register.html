@@ -230,9 +230,15 @@ window.oauth = function(provider){
   Auth.setSession({ name, email: name.toLowerCase()+'@'+provider+'.demo', provider });
   goSuccess(true);
 };
+/* Safe same-site redirect target (e.g. ?redirect=pages/products/project-aladin.html) */
+const redirectTo = (() => {
+  const r = new URLSearchParams(location.search).get('redirect') || '';
+  return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
+})();
 function goSuccess(onboarding){
+  try{ sessionStorage.setItem('metanoia_auth','true'); }catch(e){}
   document.getElementById('successVeil').classList.add('show');
-  setTimeout(()=>{ location.href = 'portal.html' + (onboarding ? '?onboarding=true' : ''); }, 1500);
+  setTimeout(()=>{ location.href = redirectTo || ('portal.html' + (onboarding ? '?onboarding=true' : '')); }, 1500);
 }
 
 const form = document.getElementById('regForm'), err = document.getElementById('formErr');
