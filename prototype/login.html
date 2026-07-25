@@ -216,9 +216,24 @@ window.oauth = function(provider){
   Auth.setSession({ name:'Maverick', email:'maverick@'+provider+'.demo', provider });
   goSuccess();
 };
+/* Safe same-site redirect target (e.g. ?redirect=pages/products/project-aladin.html) */
+const redirectTo = (() => {
+  const r = new URLSearchParams(location.search).get('redirect') || '';
+  return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
+})();
+// carry the redirect through to registration for first-time visitors
+if(redirectTo){
+  document.querySelectorAll('a[href="register.html"]').forEach(a=>{
+    a.href = 'register.html?redirect=' + encodeURIComponent(redirectTo);
+  });
+}
 function goSuccess(){
+  try{
+    sessionStorage.setItem('metanoia_auth','true');
+    sessionStorage.setItem('metanoia_premium','true');   // membership includes Premium access
+  }catch(e){}
   document.getElementById('successVeil').classList.add('show');
-  setTimeout(()=>{ location.href = 'portal.html'; }, 1400);   // returning user → no onboarding
+  setTimeout(()=>{ location.href = redirectTo || 'portal.html'; }, 1400);   // returning user → no onboarding
 }
 const F = id => document.getElementById(id);
 

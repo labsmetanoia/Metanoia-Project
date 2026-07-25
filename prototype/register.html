@@ -236,7 +236,10 @@ const redirectTo = (() => {
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';
 })();
 function goSuccess(onboarding){
-  try{ sessionStorage.setItem('metanoia_auth','true'); }catch(e){}
+  try{
+    sessionStorage.setItem('metanoia_auth','true');
+    sessionStorage.setItem('metanoia_premium','true');   // membership includes Premium access
+  }catch(e){}
   document.getElementById('successVeil').classList.add('show');
   setTimeout(()=>{ location.href = redirectTo || ('portal.html' + (onboarding ? '?onboarding=true' : '')); }, 1500);
 }
