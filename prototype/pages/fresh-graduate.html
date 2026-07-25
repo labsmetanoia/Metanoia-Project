@@ -477,6 +477,50 @@
   :root[data-theme="light"] .led.new .lt{color:#1D5FAB}
   .ledger-cap{max-width:760px;margin:26px auto 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
 
+  /* ═══ HIRING GAUNTLET (FG Chapter II) ═══ */
+  section.gauntlet-sec{background:var(--bg-mid)}
+  .g-lede{max-width:780px;margin:0 auto}
+  .g-lede p{font-size:15.5px;color:var(--text-sub);line-height:1.85;margin:0 0 22px}
+  .g-banner{max-width:880px;margin:52px auto 0;padding:28px 40px;text-align:center;border-radius:18px;
+    background:var(--glass-bg);border:1px solid rgba(201,168,76,.42);backdrop-filter:var(--glass-blur)}
+  .g-banner p{font-family:var(--serif);font-style:italic;font-size:15.5px;color:var(--text);line-height:1.8;margin:0}
+  .g-banner b{color:var(--gold-bright);font-weight:700}
+  :root[data-theme="light"] .g-banner b{color:var(--gold)}
+  .gates{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:64px 0 0}
+  .gates .reveal{transition-delay:calc(var(--i,0)*80ms)}
+  .g-div{grid-column:1/-1;display:flex;align-items:center;gap:16px;margin:2px 0;color:var(--gold)}
+  .g-div::before,.g-div::after{content:'';flex:1;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.35),transparent)}
+  .g-div svg{width:16px;height:16px;flex:none}
+  .gate{position:relative;display:flex;flex-direction:column;padding:24px 22px 22px;border-radius:16px;
+    background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur);
+    transition:border-color .25s,transform .25s,opacity .7s ease}
+  .gate:hover{border-color:var(--gold-border-hover);transform:translateY(-3px)}
+  .gate.dest{border-color:rgba(13,115,119,.4)}
+  .gate.dest:hover{border-color:rgba(13,115,119,.7)}
+  .g-badge{align-self:flex-start;font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--gold);background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);
+    border-radius:999px;padding:4px 12px;margin-bottom:14px;white-space:nowrap}
+  .gate.dest .g-badge{color:#4ECDC4;background:rgba(13,115,119,.15);border-color:rgba(13,115,119,.45)}
+  :root[data-theme="light"] .gate.dest .g-badge{color:#0D7377}
+  .gate h4{font-size:14.5px;font-weight:600;color:var(--text);margin:0 0 10px;line-height:1.35}
+  .gate .g-eval{flex:1;font-size:12.5px;color:var(--text-sub);line-height:1.66;margin:0}
+  .gate .g-sep{border-top:1px solid var(--gold-border);margin:14px 0 11px}
+  .gate .g-fall-l{display:block;font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:7px}
+  .gate.dest .g-fall-l{color:#4ECDC4}
+  :root[data-theme="light"] .gate.dest .g-fall-l{color:#0D7377}
+  .gate .g-fall{font-size:11.8px;color:var(--text-muted);line-height:1.62;margin:0}
+  .g-callout{max-width:820px;margin:60px auto 0;padding:36px 48px;border-radius:20px;
+    background:var(--glass-bg);border:1px solid rgba(201,168,76,.42);backdrop-filter:var(--glass-blur)}
+  .g-callout h4{font-size:1rem;font-weight:800;letter-spacing:.04em;color:var(--gold);margin:0 0 14px}
+  .g-callout p{font-size:14px;color:var(--text-sub);line-height:1.85;margin:0}
+  .g-bridge{max-width:640px;margin:52px auto 0;text-align:center}
+  .g-bridge p{font-size:15px;color:var(--text-sub);line-height:1.85;margin:0 0 18px}
+  .g-bridge p:last-child{margin-bottom:0}
+  .g-bridge em{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.15em}
+  @media(max-width:1100px){.gates{grid-template-columns:1fr 1fr}}
+
   /* ═══ SEE IT WORK (ported from student.html) ═══ */
   .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
   .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
@@ -631,6 +675,14 @@
     .hero-cta2{margin-left:0;margin-top:12px}
     .mock{position:static;width:auto;margin:14px}
     .how-steps{grid-template-columns:1fr;gap:28px}
+    .gates{grid-template-columns:1fr;gap:14px;padding-left:10px}
+    .gates .reveal{transition-delay:0s}
+    .gate{border-left:2px solid rgba(201,168,76,.35);border-radius:4px 16px 16px 4px}
+    .gate::before{content:'';position:absolute;left:-7px;top:26px;width:12px;height:12px;border-radius:50%;
+      background:var(--bg-mid);border:2px solid var(--gold)}
+    .gate.dest{border-left-color:rgba(13,115,119,.55)}
+    .gate.dest::before{border-color:#0D7377}
+    .g-callout{padding:28px 24px}
     .cform{grid-template-columns:1fr;padding:26px 20px 24px}
     .fun-row{grid-template-columns:minmax(90px,120px) 1fr 44px}
     .router-in{gap:10px}
@@ -685,6 +737,7 @@
 
 <div class="chap-nav" id="chapNav" aria-label="Sections">
   <a href="#why-now" data-en="Reckoning" data-id="Perhitungan">Reckoning</a>
+  <a href="#hiring-gauntlet" data-en="The Gauntlet" data-id="Delapan Gerbang">The Gauntlet</a>
   <a href="#career-os" data-en="The System" data-id="Sistemnya">The System</a>
   <a href="#products" data-en="Products" data-id="Produk">Products</a>
   <a href="#cta" data-en="Start" data-id="Mulai">Start</a>
@@ -844,10 +897,102 @@
   </div>
 </section>
 
+<!-- ═══ CHAPTER II · THE HIRING GAUNTLET ═══ -->
+<section class="block gauntlet-sec" id="hiring-gauntlet">
+  <div class="section-inner">
+    <div class="chapter-label reveal" data-en="Chapter II · The Hiring Gauntlet" data-id="Bab II · Gauntlet Rekrutmen">Chapter II · The Hiring Gauntlet</div>
+    <h2 class="sec-head reveal" data-en="The job market is not a lottery. It is a structured elimination process — <em>and most candidates don’t know the rules.</em>" data-id="Pasar kerja bukan lotere. Ini adalah proses eliminasi yang terstruktur — <em>dan kebanyakan kandidat tidak mengetahui aturannya.</em>">The job market is not a lottery. It is a structured elimination process — <em>and most candidates don’t know the rules.</em></h2>
+    <div class="g-lede reveal" style="margin-top:48px">
+      <p data-en="Every year, thousands of Indonesian fresh graduates submit applications to the same companies, wait weeks for a response, and receive a rejection with no explanation. What they don’t realize is that their application never reached a human reviewer — it was filtered before anyone read it, by an algorithm, a formatting rule, or a qualification checklist no one told them about." data-id="Setiap tahun, ribuan lulusan baru Indonesia mengirimkan lamaran ke perusahaan yang sama, menunggu berminggu-minggu untuk mendapat respons, dan menerima penolakan tanpa penjelasan. Yang tidak mereka sadari adalah lamaran mereka tidak pernah sampai ke peninjau manusia — ia disaring sebelum siapa pun membacanya, oleh algoritma, aturan format, atau daftar kualifikasi yang tidak pernah ada yang memberitahu mereka.">Every year, thousands of Indonesian fresh graduates submit applications to the same companies, wait weeks for a response, and receive a rejection with no explanation. What they don’t realize is that their application never reached a human reviewer — it was filtered before anyone read it, by an algorithm, a formatting rule, or a qualification checklist no one told them about.</p>
+      <p data-en="The recruitment process at any serious company is not a single step. It is a structured sequence of eight distinct evaluation gates — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously." data-id="Proses rekrutmen di perusahaan mana pun yang serius bukan satu langkah tunggal. Ini adalah urutan terstruktur dari delapan gerbang evaluasi yang berbeda — masing-masing dirancang untuk menyaring kualitas yang berbeda. Memahami apa yang terjadi di setiap gerbang bukan keunggulan opsional. Ini adalah persyaratan minimum untuk bersaing secara serius.">The recruitment process at any serious company is not a single step. It is a structured sequence of eight distinct evaluation gates — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously.</p>
+    </div>
+    <div class="g-banner reveal">
+      <p data-en="At a leading Indonesian management trainee program, a single intake cycle may receive between <b>5,000 and 20,000 applications</b> for <b>20 to 50 positions</b>. Every application faces the same <b>eight gates</b>. Very few candidates are prepared for all of them." data-id="Dalam satu siklus penerimaan program management trainee Indonesia terkemuka, mungkin ada antara <b>5.000 hingga 20.000 lamaran</b> untuk <b>20 hingga 50 posisi</b>. Setiap lamaran menghadapi <b>delapan gerbang</b> yang sama. Sangat sedikit kandidat yang siap untuk semuanya.">At a leading Indonesian management trainee program, a single intake cycle may receive between <b>5,000 and 20,000 applications</b> for <b>20 to 50 positions</b>. Every application faces the same <b>eight gates</b>. Very few candidates are prepared for all of them.</p>
+    </div>
+    <div class="gates">
+      <div class="gate reveal" style="--i:0">
+        <span class="g-badge" data-en="Gate 01 · Submission" data-id="Gerbang 01 · Pengiriman">Gate 01 · Submission</span>
+        <h4 data-en="Application Submission" data-id="Pengumpulan Lamaran">Application Submission</h4>
+        <p class="g-eval" data-en="Candidates prepare and submit their CV, cover letter, academic transcript, portfolio, certificates, and all required supporting documents. In competitive intakes, hundreds of applications arrive the same day as yours. This is the recruiter’s first — and often only — impression of who you are." data-id="Kandidat mempersiapkan dan mengirimkan CV, surat lamaran, transkrip akademis, portofolio, sertifikat, dan semua dokumen pendukung yang diperlukan. Dalam penerimaan kompetitif, ratusan lamaran tiba pada hari yang sama. Ini adalah kesan pertama — dan sering kali satu-satunya — rekruter tentang siapa dirimu.">Candidates prepare and submit their CV, cover letter, academic transcript, portfolio, certificates, and all required supporting documents. In competitive intakes, hundreds of applications arrive the same day as yours. This is the recruiter’s first — and often only — impression of who you are.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Generic CV not tailored to the role. Missing or incomplete supporting documents. Formatting errors that signal carelessness before the content is even read." data-id="CV generik yang tidak disesuaikan dengan jabatan. Dokumen pendukung yang hilang atau tidak lengkap. Kesalahan format yang menandakan kecerobohan sebelum kontennya bahkan dibaca.">Generic CV not tailored to the role. Missing or incomplete supporting documents. Formatting errors that signal carelessness before the content is even read.</p>
+      </div>
+      <div class="gate reveal" style="--i:1">
+        <span class="g-badge" data-en="Gate 02 · Screening" data-id="Gerbang 02 · Penyaringan">Gate 02 · Screening</span>
+        <h4 data-en="Administrative Screening" data-id="Penyaringan Administratif">Administrative Screening</h4>
+        <p class="g-eval" data-en="Before any human carefully reviews your application, automated systems check for minimum qualifications — GPA thresholds, required degree fields, ATS keyword matching, and document completeness. Applications that fail this gate are rejected without a human ever reading them." data-id="Sebelum siapa pun meninjau lamaranmu dengan cermat, sistem otomatis memeriksa kualifikasi minimum — ambang IPK, bidang gelar yang diperlukan, pencocokan kata kunci ATS, dan kelengkapan dokumen. Lamaran yang gagal di gerbang ini ditolak tanpa manusia yang pernah membacanya.">Before any human carefully reviews your application, automated systems check for minimum qualifications — GPA thresholds, required degree fields, ATS keyword matching, and document completeness. Applications that fail this gate are rejected without a human ever reading them.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="ATS-unfriendly CV formatting — tables, graphics, embedded text boxes that confuse automated parsing. Missing job-description keywords. Qualification gaps not addressed or explained anywhere in the application." data-id="Format CV yang tidak ramah ATS — tabel, grafik, kotak teks tertanam yang membingungkan pembacaan otomatis. Kata kunci deskripsi jabatan yang hilang. Kesenjangan kualifikasi yang tidak ditangani atau dijelaskan di mana pun dalam lamaran.">ATS-unfriendly CV formatting — tables, graphics, embedded text boxes that confuse automated parsing. Missing job-description keywords. Qualification gaps not addressed or explained anywhere in the application.</p>
+      </div>
+      <div class="gate reveal" style="--i:2">
+        <span class="g-badge" data-en="Gate 03 · Assessment" data-id="Gerbang 03 · Penilaian">Gate 03 · Assessment</span>
+        <h4 data-en="Online Assessment" data-id="Penilaian Online">Online Assessment</h4>
+        <p class="g-eval" data-en="Timed cognitive ability tests, logical and numerical reasoning, personality questionnaires, and situational judgment exercises — administered digitally and algorithmically scored. Companies use these to rank large candidate pools without manual review. Your score relative to other candidates determines whether you advance to the next stage." data-id="Tes kemampuan kognitif berwaktu, penalaran logis dan numeris, kuesioner kepribadian, dan latihan penilaian situasional — diadministrasikan secara digital dan dinilai secara algoritmik. Perusahaan menggunakannya untuk menentukan peringkat kumpulan kandidat besar tanpa tinjauan manual. Skormu relatif terhadap kandidat lain menentukan apakah kamu melangkah ke tahap berikutnya.">Timed cognitive ability tests, logical and numerical reasoning, personality questionnaires, and situational judgment exercises — administered digitally and algorithmically scored. Companies use these to rank large candidate pools without manual review. Your score relative to other candidates determines whether you advance to the next stage.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Unfamiliarity with test formats and time pressure. No prior practice with logical and numerical reasoning under exam conditions. Treating personality assessments casually rather than responding with self-awareness and internal consistency." data-id="Ketidakbiasaan dengan format tes dan tekanan waktu. Tidak ada latihan sebelumnya dengan penalaran logis dan numeris dalam kondisi ujian berwaktu. Memperlakukan penilaian kepribadian dengan santai daripada merespons dengan kesadaran diri dan konsistensi internal.">Unfamiliarity with test formats and time pressure. No prior practice with logical and numerical reasoning under exam conditions. Treating personality assessments casually rather than responding with self-awareness and internal consistency.</p>
+      </div>
+      <div class="gate reveal" style="--i:3">
+        <span class="g-badge" data-en="Gate 04 · Evaluation" data-id="Gerbang 04 · Evaluasi">Gate 04 · Evaluation</span>
+        <h4 data-en="Written Test · Case Study · FGD · LGD · Technical" data-id="Tes Tertulis · Studi Kasus · FGD · LGD · Teknis">Written Test · Case Study · FGD · LGD · Technical</h4>
+        <p class="g-eval" data-en="Depending on the role, this stage takes multiple forms: structured business case studies, written analytical tests, Focus Group Discussions (FGD), Leaderless Group Discussions (LGD), or technical assessments. Each form evaluates a distinct dimension — analytical rigor, communication clarity, leadership under ambiguity, problem-solving under pressure, or domain knowledge." data-id="Tergantung jabatan, tahap ini mengambil beberapa bentuk: studi kasus bisnis terstruktur, tes analitis tertulis, Focus Group Discussion (FGD), Leaderless Group Discussion (LGD), atau penilaian teknis. Setiap bentuk mengevaluasi dimensi yang berbeda — ketelitian analitis, kejelasan komunikasi, kepemimpinan dalam ambiguitas, pemecahan masalah di bawah tekanan, atau pengetahuan domain.">Depending on the role, this stage takes multiple forms: structured business case studies, written analytical tests, Focus Group Discussions (FGD), Leaderless Group Discussions (LGD), or technical assessments. Each form evaluates a distinct dimension — analytical rigor, communication clarity, leadership under ambiguity, problem-solving under pressure, or domain knowledge.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Case work: poor structure, shallow analysis, failure to quantify findings. FGD/LGD: speaking too much or too little, failing to build on others’ contributions, aggression or passivity in group dynamics. Technical: foundational gaps that deliberate preparation could have closed." data-id="Studi kasus: struktur yang buruk, analisis dangkal, gagal mengkuantifikasi temuan. FGD/LGD: berbicara terlalu banyak atau terlalu sedikit, gagal membangun kontribusi orang lain, agresi atau kepasifan dalam dinamika kelompok. Teknis: celah fundamental yang persiapan yang disengaja bisa menutupnya.">Case work: poor structure, shallow analysis, failure to quantify findings. FGD/LGD: speaking too much or too little, failing to build on others’ contributions, aggression or passivity in group dynamics. Technical: foundational gaps that deliberate preparation could have closed.</p>
+      </div>
+      <div class="g-div reveal" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+      <div class="gate reveal" style="--i:0">
+        <span class="g-badge" data-en="Gate 05 · Interview" data-id="Gerbang 05 · Wawancara">Gate 05 · Interview</span>
+        <h4 data-en="HR Screening Interview" data-id="Wawancara Penyaringan HR">HR Screening Interview</h4>
+        <p class="g-eval" data-en="An introductory conversation — by phone, video, or in person — with an HR representative. The agenda: your career story, your motivation for this specific company and role, your values, your self-awareness, and your initial cultural fit. This gate is less about what you know and more about how clearly you know yourself." data-id="Percakapan pengantar — melalui telepon, video, atau tatap muka — dengan perwakilan HR. Agendanya: kisah kariermu, motivasimu untuk perusahaan dan jabatan spesifik ini, nilai-nilaimu, kesadaran dirimu, dan kesesuaian budaya awalmu. Gerbang ini kurang tentang apa yang kamu ketahui dan lebih tentang seberapa jelas kamu mengenal dirimu sendiri.">An introductory conversation — by phone, video, or in person — with an HR representative. The agenda: your career story, your motivation for this specific company and role, your values, your self-awareness, and your initial cultural fit. This gate is less about what you know and more about how clearly you know yourself.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Vague career goals — “I want to gain experience” is not a goal. Generic motivation — “I’ve always admired this company” without specifics. Long, unfocused answers that signal low self-awareness or insufficient preparation." data-id="Tujuan karier yang samar — “Saya ingin mendapatkan pengalaman” bukan tujuan. Motivasi generik — “Saya selalu mengagumi perusahaan ini” tanpa spesifik. Jawaban panjang dan tidak terfokus yang menandakan kesadaran diri yang rendah atau persiapan yang tidak memadai.">Vague career goals — “I want to gain experience” is not a goal. Generic motivation — “I’ve always admired this company” without specifics. Long, unfocused answers that signal low self-awareness or insufficient preparation.</p>
+      </div>
+      <div class="gate reveal" style="--i:1">
+        <span class="g-badge" data-en="Gate 06 · Final Interview" data-id="Gerbang 06 · Wawancara Akhir">Gate 06 · Final Interview</span>
+        <h4 data-en="Hiring Manager / Final Interview" data-id="Wawancara Akhir dengan Hiring Manager">Hiring Manager / Final Interview</h4>
+        <p class="g-eval" data-en="The deepest evaluation in the process. You meet the person or panel who will make the final decision — the hiring manager, department head, director, executive leadership, or founders. They assess how you think under pressure, whether you can operate at the level their team requires, and whether they trust you with the role. This is professional judgment — not a competency checklist." data-id="Evaluasi terdalam dalam proses ini. Kamu bertemu dengan orang atau panel yang akan membuat keputusan akhir — manajer perekrutan, kepala departemen, direktur, kepemimpinan eksekutif, atau pendiri. Mereka menilai cara kamu berpikir di bawah tekanan, apakah kamu bisa beroperasi di level yang dibutuhkan tim mereka, dan apakah mereka mempercayaimu dengan jabatan itu. Ini adalah penilaian profesional — bukan daftar periksa kompetensi.">The deepest evaluation in the process. You meet the person or panel who will make the final decision — the hiring manager, department head, director, executive leadership, or founders. They assess how you think under pressure, whether you can operate at the level their team requires, and whether they trust you with the role. This is professional judgment — not a competency checklist.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Unstructured answers to behavioral and competency questions. Insufficient research into the company’s actual priorities and current challenges. Inability to articulate genuine professional value in the context of this specific role, company, and team." data-id="Jawaban yang tidak terstruktur untuk pertanyaan behavioral dan kompetensi. Riset yang tidak memadai tentang prioritas aktual perusahaan dan tantangan saat ini. Ketidakmampuan untuk mengartikulasikan nilai profesional yang tulus dalam konteks jabatan, perusahaan, dan tim spesifik ini.">Unstructured answers to behavioral and competency questions. Insufficient research into the company’s actual priorities and current challenges. Inability to articulate genuine professional value in the context of this specific role, company, and team.</p>
+      </div>
+      <div class="gate reveal" style="--i:2">
+        <span class="g-badge" data-en="Gate 07 · Optional" data-id="Gerbang 07 · Opsional">Gate 07 · Optional</span>
+        <h4 data-en="Medical Examination" data-id="Pemeriksaan Medis">Medical Examination</h4>
+        <p class="g-eval" data-en="Required by certain employers — particularly in banking, government-linked companies, energy, healthcare, and operational roles — to confirm physical and medical fitness for the position. Typically conducted only after an offer has been verbally confirmed, making this a condition rather than a filter in most professional roles." data-id="Diperlukan oleh perusahaan tertentu — terutama di perbankan, perusahaan terkait pemerintah, energi, kesehatan, dan jabatan operasional — untuk mengkonfirmasi kebugaran fisik dan medis untuk posisi tersebut. Biasanya dilakukan hanya setelah tawaran dikonfirmasi secara lisan, menjadikan ini sebagai syarat daripada filter untuk sebagian besar jabatan profesional.">Required by certain employers — particularly in banking, government-linked companies, energy, healthcare, and operational roles — to confirm physical and medical fitness for the position. Typically conducted only after an offer has been verbally confirmed, making this a condition rather than a filter in most professional roles.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="For office-based roles, this gate rarely eliminates candidates. For physical, operational, or heavily regulated roles, awareness of any health considerations in advance is recommended. No special preparation is required beyond general health awareness." data-id="Untuk jabatan berbasis kantor, gerbang ini jarang mengeliminasi kandidat. Untuk jabatan fisik, operasional, atau yang sangat diatur, kesadaran akan pertimbangan kesehatan apa pun sebelumnya direkomendasikan. Tidak diperlukan persiapan khusus selain kesadaran kesehatan umum.">For office-based roles, this gate rarely eliminates candidates. For physical, operational, or heavily regulated roles, awareness of any health considerations in advance is recommended. No special preparation is required beyond general health awareness.</p>
+      </div>
+      <div class="gate dest reveal" style="--i:3">
+        <span class="g-badge" data-en="Gate 08 · The Destination" data-id="Gerbang 08 · Tujuan Akhir">Gate 08 · The Destination</span>
+        <h4 data-en="Job Offer &amp; Hiring" data-id="Penawaran Kerja &amp; Perekrutan">Job Offer &amp; Hiring</h4>
+        <p class="g-eval" data-en="A formal offer letter arrives: role title, compensation package, benefits, reporting line, and start date. This is not simply the end of the process — it is the beginning of the negotiation. How you evaluate, respond to, and finalize an offer shapes your starting conditions for everything that follows in your career at this company." data-id="Surat penawaran resmi tiba: judul jabatan, paket kompensasi, tunjangan, jalur pelaporan, dan tanggal mulai. Ini bukan sekadar akhir proses — ini adalah awal negosiasi. Cara kamu mengevaluasi, merespons, dan menyelesaikan penawaran membentuk kondisi awal untuk segalanya yang mengikutinya dalam kariermu di perusahaan ini.">A formal offer letter arrives: role title, compensation package, benefits, reporting line, and start date. This is not simply the end of the process — it is the beginning of the negotiation. How you evaluate, respond to, and finalize an offer shapes your starting conditions for everything that follows in your career at this company.</p>
+        <div class="g-sep" aria-hidden="true"></div>
+        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
+        <p class="g-fall" data-en="Accepting the first number offered without understanding market compensation ranges. Failing to negotiate professionally due to fear or uncertainty. Not clarifying key terms — start date, review timeline, benefits scope — before accepting." data-id="Menerima angka pertama yang ditawarkan tanpa memahami kisaran kompensasi pasar. Gagal bernegosiasi secara profesional karena takut atau tidak pasti. Tidak mengklarifikasi syarat-syarat kunci — tanggal mulai, garis waktu tinjauan, cakupan tunjangan — sebelum menerima.">Accepting the first number offered without understanding market compensation ranges. Failing to negotiate professionally due to fear or uncertainty. Not clarifying key terms — start date, review timeline, benefits scope — before accepting.</p>
+      </div>
+    </div>
+    <div class="g-callout reveal">
+      <h4 data-en="What most candidates don’t realize until it’s too late" data-id="Yang kebanyakan kandidat tidak sadari hingga terlambat">What most candidates don’t realize until it’s too late</h4>
+      <p data-en="The recruitment process is sequential and cumulative. Passing Gate 5 does not compensate for underperforming at Gate 3. Each gate requires independent preparation — and each demands a different kind of readiness.<br>A polished CV will not save you in an online assessment. A high cognitive score will not carry you through an HR interview.<br>The candidates who consistently reach Gate 8 are not more talented. They are more prepared — across all eight dimensions." data-id="Proses rekrutmen bersifat berurutan dan kumulatif. Lulus Gerbang 5 tidak mengkompensasi kinerja yang kurang baik di Gerbang 3. Setiap gerbang memerlukan persiapan yang independen — dan masing-masing menuntut jenis kesiapan yang berbeda.<br>CV yang dipoles tidak akan menyelamatkanmu dalam penilaian online. Skor kognitif yang tinggi tidak akan membawamu melalui wawancara HR.<br>Kandidat yang secara konsisten mencapai Gerbang 8 bukan lebih berbakat. Mereka lebih siap — di semua delapan dimensi.">The recruitment process is sequential and cumulative. Passing Gate 5 does not compensate for underperforming at Gate 3. Each gate requires independent preparation — and each demands a different kind of readiness.<br>A polished CV will not save you in an online assessment. A high cognitive score will not carry you through an HR interview.<br>The candidates who consistently reach Gate 8 are not more talented. They are more prepared — across all eight dimensions.</p>
+    </div>
+    <div class="g-bridge reveal">
+      <p data-en="Every stage of this gauntlet is learnable. Every gate is beatable — not through shortcuts, not through guesswork, but through preparation that is specific, sequential, and deliberate." data-id="Setiap tahap gauntlet ini bisa dipelajari. Setiap gerbang bisa diatasi — bukan melalui jalan pintas, bukan melalui tebak-tebakan, melainkan melalui persiapan yang spesifik, berurutan, dan disengaja.">Every stage of this gauntlet is learnable. Every gate is beatable — not through shortcuts, not through guesswork, but through preparation that is specific, sequential, and deliberate.</p>
+      <p data-en="The question is not whether you are capable of passing these eight gates. The question is whether you have the system to prepare for all of them: in the right order, with the right tools, and with enough time remaining." data-id="Pertanyaannya bukan apakah kamu mampu melewati delapan gerbang ini. Pertanyaannya adalah apakah kamu memiliki sistem untuk mempersiapkan semuanya: dalam urutan yang tepat, dengan alat yang tepat, dan dengan cukup waktu tersisa.">The question is not whether you are capable of passing these eight gates. The question is whether you have the system to prepare for all of them: in the right order, with the right tools, and with enough time remaining.</p>
+      <p data-en="<em>Metanoia was built to answer that question.</em>" data-id="<em>Metanoia dibangun untuk menjawab pertanyaan itu.</em>"><em>Metanoia was built to answer that question.</em></p>
+    </div>
+    <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="See where you stand against the eight gates — free, 15 minutes →" data-id="Lihat posisimu terhadap delapan gerbang — gratis, 15 menit →">See where you stand against the eight gates — free, 15 minutes →</a></div>
+  </div>
+</section>
+
 <!-- ═══ CHAPTER II ═══ -->
 <section class="block alt" id="career-os">
   <div class="section-inner">
-    <div class="chapter-label reveal" data-en="Chapter II · The Career Operating System" data-id="Bab II · Sistem Operasi Karier">Chapter II · The Career Operating System</div>
+    <div class="chapter-label reveal" data-en="Chapter III · The Career Operating System" data-id="Bab III · Sistem Operasi Karier">Chapter III · The Career Operating System</div>
     <div class="beat reveal">
       <p class="b1" data-en="Most graduates send the same CV to the same job boards and wait for a response that rarely comes." data-id="Kebanyakan lulusan mengirimkan CV yang sama ke job board yang sama dan menunggu respons yang jarang datang.">Most graduates send the same CV to the same job boards and wait for a response that rarely comes.</p>
       <p class="b2" data-en="A very few do not." data-id="Sebagian kecil tidak melakukan itu.">A very few do not.</p>
@@ -883,7 +1028,7 @@
 <!-- ═══ CHAPTER III ═══ -->
 <section class="block" id="products">
   <div class="section-inner">
-    <div class="chapter-label reveal" data-en="Chapter III · The Product Suite" data-id="Bab III · Rangkaian Produk">Chapter III · The Product Suite</div>
+    <div class="chapter-label reveal" data-en="Chapter IV · The Product Suite" data-id="Bab IV · Rangkaian Produk">Chapter IV · The Product Suite</div>
     <div class="prod-intro reveal">
       <div class="kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
       <p data-en="Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members." data-id="Lima alat yang dirancang khusus untuk lulusan baru yang menavigasi pintu masuk pertama ke dunia profesional. Tersedia eksklusif untuk anggota Metanoia Premium.">Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members.</p>
