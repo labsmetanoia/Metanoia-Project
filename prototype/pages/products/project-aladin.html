@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Project Aladin — Metanoia Labs</title>
+<title>Project Aladdin — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Project Aladin — Know yourself before you climb. The self-discovery and career direction program at the heart of the Metanoia Premium suite.">
+<meta name="description" content="Project Aladdin — Know yourself before you climb. The self-discovery and career direction program at the heart of the Metanoia Premium suite.">
 <link rel="canonical" href="https://metanoialabs.net/pages/products/project-aladin.html">
 <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192.png"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/products/project-aladin.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Project Aladin — Metanoia Labs">
+<meta property="og:title" content="Project Aladdin — Metanoia Labs">
 <meta property="og:description" content="Know yourself before you climb. The self-discovery and career direction program at the heart of the Metanoia Premium suite.">
 <meta property="og:image" content="https://metanoialabs.net/assets/bg/map.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,7 +103,17 @@
   .tab-head{margin-bottom:30px}
 
   /* ═══ HOME ═══ */
-  .course-head{margin-bottom:34px}
+  .course-hero{position:relative;border-radius:20px;overflow:hidden;margin-bottom:38px;
+    border:1px solid rgba(201,168,76,.3);box-shadow:0 30px 70px rgba(0,0,0,.45)}
+  .course-hero::before{content:'';position:absolute;inset:-6%;
+    background:url('../../assets/bg/aladdin-hero.jpg') 78% 26%/cover no-repeat;
+    animation:heroPan 46s ease-in-out infinite alternate}
+  @keyframes heroPan{from{transform:scale(1.06) translateY(-1.4%)}to{transform:scale(1.06) translateY(1.4%)}}
+  .course-hero::after{content:'';position:absolute;inset:0;background:
+    linear-gradient(90deg,rgba(5,10,18,.72) 0%,rgba(5,10,18,.34) 55%,rgba(5,10,18,.06) 100%),
+    linear-gradient(180deg,rgba(5,10,18,.08) 0%,rgba(5,10,18,.5) 100%)}
+  .course-head{position:relative;z-index:2;padding:46px 46px 42px}
+  @media(max-width:768px){.course-head{padding:30px 20px 28px}}
   .course-head h1{font-size:clamp(1.8rem,3.4vw,2.4rem);font-weight:800;margin:12px 0 4px}
   .tagline{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.05rem}
   .meta-row{display:flex;gap:8px;flex-wrap:wrap;color:var(--text-muted);font-size:12.5px;margin:12px 0 18px}
@@ -281,6 +291,25 @@
   .cert-card p{color:var(--text-sub);font-size:13.5px;line-height:1.7;margin-bottom:6px}
   .cert-card .cc-progress{color:var(--text-muted);font-size:12.5px;margin-bottom:16px}
 
+  /* ═══ MOTION ═══ */
+  .tab-content{animation:tabIn .45s cubic-bezier(.25,.8,.3,1)}
+  @keyframes tabIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .reveal{opacity:0;transform:translateY(18px);
+    transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1);transition-delay:calc(var(--i,0)*80ms)}
+  .reveal.revealed{opacity:1;transform:none}
+  .syl-card,.assignment-card,.side-card,.outcome-card{transition:border-color .25s,transform .25s,opacity .6s ease}
+  .syl-card:hover,.assignment-card:hover{border-color:var(--gold-border-hover);transform:translateY(-3px)}
+  .side-card:hover,.outcome-card:hover{border-color:var(--gold-border-hover)}
+  .lesson-card{transition:background .2s}
+  .lesson-card[data-status="available"]:hover{background:rgba(201,168,76,.05)}
+  .lesson-icon svg{transition:transform .2s}
+  .lesson-card[data-status="available"]:hover .lesson-icon svg{transform:scale(1.12)}
+  .nav-item .nav-icon{transition:transform .2s}
+  .nav-item:hover .nav-icon{transform:translateX(2px)}
+  .btn-gold.pulse{animation:breath 3.4s ease-in-out infinite}
+  @keyframes breath{0%,100%{box-shadow:0 4px 18px rgba(201,168,76,.30)}50%{box-shadow:0 8px 32px rgba(201,168,76,.55)}}
+  .progress-fill,.pbar i,.ov-bar i{transition:width .9s cubic-bezier(.3,.9,.3,1)}
+
   /* ═══ UPGRADE OVERLAY ═══ */
   .upgrade-veil{position:fixed;inset:0;z-index:300;display:none;align-items:center;justify-content:center;
     background:rgba(5,10,18,.7);backdrop-filter:blur(10px);padding:20px}
@@ -337,7 +366,7 @@
     <nav class="breadcrumb" aria-label="breadcrumb">
       <a href="../../portal.html#my-learning" class="breadcrumb-back">← <span data-en="My Learning" data-id="Pembelajaran Saya">My Learning</span></a>
       <span class="breadcrumb-sep">·</span>
-      <span class="breadcrumb-current">Project Aladin</span>
+      <span class="breadcrumb-current">Project Aladdin</span>
     </nav>
   </div>
   <div class="tb-right">
@@ -355,11 +384,11 @@
   <aside class="sidebar">
     <div class="sb-head">
       <span class="gold-pill">01 · The Map</span>
-      <span class="cname">Project Aladin</span>
+      <span class="cname">Project Aladdin</span>
     </div>
     <nav class="sb-nav" aria-label="Course navigation">
       <button class="nav-item" data-tab="home"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h13V9"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></button>
-      <button class="nav-item" data-tab="syllabus"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="Project Aladin Syllabus" data-id="Silabus Project Aladin">Project Aladin Syllabus</span></button>
+      <button class="nav-item" data-tab="syllabus"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="Project Aladdin Syllabus" data-id="Silabus Project Aladdin">Project Aladdin Syllabus</span></button>
       <button class="nav-item" data-tab="modules"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg></span><span data-en="Modules" data-id="Modul">Modules</span></button>
       <button class="nav-item" data-tab="assignments"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg></span><span data-en="Assignments" data-id="Tugas">Assignments</span></button>
       <button class="nav-item" data-tab="grades"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span data-en="Grades" data-id="Nilai">Grades</span></button>
@@ -380,9 +409,10 @@
 
     <!-- ─── TAB: HOME ─── -->
     <section class="tab-content" id="tab-home">
+      <div class="course-hero">
       <div class="course-head">
         <span class="gold-pill">01 · The Map</span>
-        <h1>Project Aladin</h1>
+        <h1>Project Aladdin</h1>
         <p class="tagline" data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</p>
         <div class="meta-row">
           <span data-en="Beginner" data-id="Pemula">Beginner</span>
@@ -393,33 +423,32 @@
         <div class="course-progress-bar"><span class="progress-fill" style="--progress:0%"></span></div>
         <p class="progress-label" data-en="0% complete — start Module 1 to begin your journey" data-id="0% selesai — mulai Modul 1 untuk memulai perjalananmu">0% complete — start Module 1 to begin your journey</p>
         <div class="course-actions">
-          <button class="btn-gold" data-goto-module="1" data-en="Start Module 1 →" data-id="Mulai Modul 1 →">Start Module 1 →</button>
+          <button class="btn-gold pulse" data-goto-module="1" data-en="Start Module 1 →" data-id="Mulai Modul 1 →">Start Module 1 →</button>
           <button class="btn-ghost" id="viewCertBtn" disabled data-en="View Certificate" data-id="Lihat Sertifikat">View Certificate</button>
         </div>
+      </div>
       </div>
 
       <div class="home-grid">
         <div class="home-left">
-          <div class="home-sec">
+          <div class="home-sec reveal">
             <h3 class="sec-label" data-en="What's Included" data-id="Apa yang Termasuk">What's Included</h3>
             <div class="inc-grid">
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2.5h8a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></svg></span><span data-en="6 Learning Modules" data-id="6 Modul Pembelajaran">6 Learning Modules</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/></svg></span><span data-en="6 Practice Assignments" data-id="6 Tugas Latihan">6 Practice Assignments</span></div>
-        <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M7 4h10v5a5 5 0 0 1-10 0Z"/><path d="M7 5H4v2a3 3 0 0 0 3 3M17 5h3v2a3 3 0 0 1-3 3"/><path d="M12 14v3M8.5 21h7M12 17c-1.5 0-2.5 1-3.5 4h7c-1-3-2-4-3.5-4Z"/></svg></span><span data-en="Certificate of Completion" data-id="Sertifikat Penyelesaian">Certificate of Completion</span></div>
-        <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 15.5c-2 0-4-1.5-4-3.5s2-3.5 4-3.5c3.5 0 4.5 7 8 7 2 0 4-1.5 4-3.5s-2-3.5-4-3.5c-3.5 0-4.5 7-8 7Z"/></svg></span><span data-en="Lifetime Access" data-id="Akses Seumur Hidup">Lifetime Access</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="2.5"/><path d="M12 8V4.5M9.5 4.5h5"/><circle cx="9.5" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M9.5 16.5h5"/></svg></span><span data-en="AI-Assisted Practice Tools" data-id="Alat Latihan Berbantuan AI">AI-Assisted Practice Tools</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span><span data-en="Self-Paced Schedule" data-id="Jadwal Mandiri">Self-Paced Schedule</span></div>
             </div>
           </div>
-          <div class="home-sec">
+          <div class="home-sec reveal">
             <h3 class="sec-label" data-en="Course Description" data-id="Deskripsi Kursus">Course Description</h3>
             <div class="desc-full" id="descFull">
-              <p data-en="Project Aladin is the starting point of the Metanoia career system. Before you can plan the right career, interview for the right role, or build the right professional profile, you need to understand who you are — what drives you, where your strengths lie, and what kind of professional you intend to become." data-id="Project Aladin adalah titik awal dari sistem karier Metanoia. Sebelum kamu bisa merencanakan karier yang tepat, wawancara untuk jabatan yang tepat, atau membangun profil profesional yang tepat, kamu perlu memahami siapa dirimu — apa yang mendorongmu, di mana kekuatanmu, dan profesional seperti apa yang ingin kamu jadilah.">Project Aladin is the starting point of the Metanoia career system. Before you can plan the right career, interview for the right role, or build the right professional profile, you need to understand who you are — what drives you, where your strengths lie, and what kind of professional you intend to become.</p>
-              <p data-en="This course guides you through six structured learning modules covering self-awareness, the habits of effective people, structured problem-solving, communication for impact, well-being and digital capability, and virtual career preparation. By the time you complete Project Aladin, you won't just have a clearer picture of yourself — you'll have a career direction grounded in genuine self-knowledge rather than guesswork." data-id="Kursus ini memandumu melalui enam modul pembelajaran terstruktur yang mencakup kesadaran diri, kebiasaan orang efektif, pemecahan masalah terstruktur, komunikasi yang berdampak, kesejahteraan dan kemampuan digital, serta persiapan karier virtual. Pada saat kamu menyelesaikan Project Aladin, kamu tidak hanya akan memiliki gambaran yang lebih jelas tentang dirimu — kamu akan memiliki arah karier yang berakar pada pengetahuan diri yang nyata, bukan tebak-tebakan.">This course guides you through six structured learning modules covering self-awareness, the habits of effective people, structured problem-solving, communication for impact, well-being and digital capability, and virtual career preparation. By the time you complete Project Aladin, you won't just have a clearer picture of yourself — you'll have a career direction grounded in genuine self-knowledge rather than guesswork.</p>
+              <p data-en="Project Aladdin is the starting point of the Metanoia career system. Before you can plan the right career, interview for the right role, or build the right professional profile, you need to understand who you are — what drives you, where your strengths lie, and what kind of professional you intend to become." data-id="Project Aladdin adalah titik awal dari sistem karier Metanoia. Sebelum kamu bisa merencanakan karier yang tepat, wawancara untuk jabatan yang tepat, atau membangun profil profesional yang tepat, kamu perlu memahami siapa dirimu — apa yang mendorongmu, di mana kekuatanmu, dan profesional seperti apa yang ingin kamu jadilah.">Project Aladdin is the starting point of the Metanoia career system. Before you can plan the right career, interview for the right role, or build the right professional profile, you need to understand who you are — what drives you, where your strengths lie, and what kind of professional you intend to become.</p>
+              <p data-en="This course guides you through six structured learning modules covering self-awareness, the habits of effective people, structured problem-solving, communication for impact, well-being and digital capability, and virtual career preparation. By the time you complete Project Aladdin, you won't just have a clearer picture of yourself — you'll have a career direction grounded in genuine self-knowledge rather than guesswork." data-id="Kursus ini memandumu melalui enam modul pembelajaran terstruktur yang mencakup kesadaran diri, kebiasaan orang efektif, pemecahan masalah terstruktur, komunikasi yang berdampak, kesejahteraan dan kemampuan digital, serta persiapan karier virtual. Pada saat kamu menyelesaikan Project Aladdin, kamu tidak hanya akan memiliki gambaran yang lebih jelas tentang dirimu — kamu akan memiliki arah karier yang berakar pada pengetahuan diri yang nyata, bukan tebak-tebakan.">This course guides you through six structured learning modules covering self-awareness, the habits of effective people, structured problem-solving, communication for impact, well-being and digital capability, and virtual career preparation. By the time you complete Project Aladdin, you won't just have a clearer picture of yourself — you'll have a career direction grounded in genuine self-knowledge rather than guesswork.</p>
             </div>
             <button class="desc-toggle" data-en="Show more ↓" data-id="Tampilkan lebih banyak ↓">Show more ↓</button>
           </div>
-          <div class="home-sec">
+          <div class="home-sec reveal">
             <h3 class="sec-label" data-en="Skills Covered in This Course" data-id="Keterampilan dalam Kursus Ini">Skills Covered in This Course</h3>
             <div class="skill-chips">
         <span class="skill-chip" data-en="Self-Awareness" data-id="Kesadaran Diri">Self-Awareness</span>
@@ -432,24 +461,24 @@
         <span class="skill-chip" data-en="Professional Habits" data-id="Kebiasaan Profesional">Professional Habits</span>
             </div>
           </div>
-          <div class="home-sec">
+          <div class="home-sec reveal">
             <h3 class="sec-label" data-en="What You'll Learn" data-id="Apa yang Akan Kamu Pelajari">What You'll Learn</h3>
             <div class="outcome-grid">
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Understand your strengths, values, and professional identity" data-id="Memahami kekuatan, nilai, dan identitas profesionalmu">Understand your strengths, values, and professional identity</span></div>
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Apply the habits of highly effective people to your daily life" data-id="Menerapkan kebiasaan orang yang sangat efektif dalam kehidupan sehari-hari">Apply the habits of highly effective people to your daily life</span></div>
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Use structured frameworks to solve complex problems with confidence" data-id="Menggunakan kerangka terstruktur untuk memecahkan masalah kompleks dengan percaya diri">Use structured frameworks to solve complex problems with confidence</span></div>
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Communicate with clarity and impact in professional settings" data-id="Berkomunikasi dengan kejelasan dan dampak dalam lingkungan profesional">Communicate with clarity and impact in professional settings</span></div>
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Build sustainable well-being habits and practical digital productivity systems" data-id="Membangun kebiasaan kesejahteraan yang berkelanjutan dan sistem produktivitas digital yang praktis">Build sustainable well-being habits and practical digital productivity systems</span></div>
-        <div class="outcome-card"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Navigate virtual job simulations across Accounting, Banking, Consulting, Law, FMCG, and Technology" data-id="Menavigasi simulasi pekerjaan virtual di bidang Akuntansi, Perbankan, Konsultasi, Hukum, FMCG, dan Teknologi">Navigate virtual job simulations across Accounting, Banking, Consulting, Law, FMCG, and Technology</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Understand your strengths, values, and professional identity" data-id="Memahami kekuatan, nilai, dan identitas profesionalmu">Understand your strengths, values, and professional identity</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Apply the habits of highly effective people to your daily life" data-id="Menerapkan kebiasaan orang yang sangat efektif dalam kehidupan sehari-hari">Apply the habits of highly effective people to your daily life</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Use structured frameworks to solve complex problems with confidence" data-id="Menggunakan kerangka terstruktur untuk memecahkan masalah kompleks dengan percaya diri">Use structured frameworks to solve complex problems with confidence</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Communicate with clarity and impact in professional settings" data-id="Berkomunikasi dengan kejelasan dan dampak dalam lingkungan profesional">Communicate with clarity and impact in professional settings</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Build sustainable well-being habits and practical digital productivity systems" data-id="Membangun kebiasaan kesejahteraan yang berkelanjutan dan sistem produktivitas digital yang praktis">Build sustainable well-being habits and practical digital productivity systems</span></div>
+        <div class="outcome-card reveal"><span class="oc-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg></span><span data-en="Navigate virtual job simulations across Accounting, Banking, Consulting, Law, FMCG, and Technology" data-id="Menavigasi simulasi pekerjaan virtual di bidang Akuntansi, Perbankan, Konsultasi, Hukum, FMCG, dan Teknologi">Navigate virtual job simulations across Accounting, Banking, Consulting, Law, FMCG, and Technology</span></div>
             </div>
           </div>
-          <div class="home-sec">
+          <div class="home-sec reveal">
             <h3 class="sec-label" data-en="Shareable Certificate" data-id="Sertifikat yang Dapat Dibagikan">Shareable Certificate</h3>
             <div class="cert-sec">
               <div class="cert-preview locked" aria-hidden="true">
       <div class="cp-wm">METANOIA <i>LABS</i></div>
       <div class="cp-title" data-en="Certificate of Completion" data-id="Sertifikat Penyelesaian">Certificate of Completion</div>
-      <div class="cp-course">Project Aladin</div>
+      <div class="cp-course">Project Aladdin</div>
       <div class="cp-name" data-en="[Your Name]" data-id="[Namamu]">[Your Name]</div>
       <div class="cert-lock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F0D878" stroke-width="1.7" width="28" height="28"><rect x="5.5" y="10" width="13" height="10" rx="2"/><path d="M8.5 10V7.5a3.5 3.5 0 0 1 7 0V10"/></svg></div>
     </div>
@@ -464,7 +493,7 @@
         </div>
 
         <div class="home-right">
-          <div class="glass-card side-card">
+          <div class="glass-card side-card reveal">
             <h3 data-en="Your Progress" data-id="Kemajuanmu">Your Progress</h3>
           <div class="ms-row"><span class="ms-num">M1</span><span class="ms-name" data-en="Self-Awareness &amp; Personal Audit" data-id="Kesadaran Diri &amp; Audit Pribadi">Self-Awareness &amp; Personal Audit</span><span class="ms-badge" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
           <div class="ms-row"><span class="ms-num">M2</span><span class="ms-name" data-en="Habits of Effective People" data-id="Kebiasaan Orang Efektif">Habits of Effective People</span><span class="ms-badge" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
@@ -474,12 +503,12 @@
           <div class="ms-row"><span class="ms-num">M6</span><span class="ms-name" data-en="Virtual Job Simulations" data-id="Simulasi Pekerjaan Virtual">Virtual Job Simulations</span><span class="ms-badge" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
             <button class="side-cta" data-goto-module="1" data-en="Start Module 1 →" data-id="Mulai Modul 1 →">Start Module 1 →</button>
           </div>
-          <div class="glass-card side-card">
+          <div class="glass-card side-card reveal">
             <h3 data-en="Where to Begin" data-id="Di Mana Harus Mulai">Where to Begin</h3>
             <p class="qa-line" data-en="Begin with Module 1 · Self-Awareness and Personal Audit" data-id="Mulai dengan Modul 1 · Kesadaran Diri dan Audit Pribadi">Begin with Module 1 · Self-Awareness and Personal Audit</p>
             <button class="btn-gold" data-goto-module="1" data-en="Start Lesson 1.1: Adaptability and Resilience →" data-id="Mulai Pelajaran 1.1: Adaptabilitas dan Ketangguhan →" style="font-size:12.5px;padding:11px 18px">Start Lesson 1.1: Adaptability and Resilience →</button>
           </div>
-          <div class="glass-card side-card">
+          <div class="glass-card side-card reveal">
             <h3 data-en="Your Assignments" data-id="Tugasmu">Your Assignments</h3>
             <div class="asg-mini">
               <span class="am-status" data-en="Assignment 1 — Available" data-id="Tugas 1 — Tersedia">Assignment 1 — Available</span>
@@ -496,10 +525,10 @@
     <!-- ─── TAB: SYLLABUS ─── -->
     <section class="tab-content" id="tab-syllabus" hidden>
       <div class="tab-head">
-        <h2 data-en="Project Aladin — Course Syllabus" data-id="Project Aladin — Silabus Kursus">Project Aladin — Course Syllabus</h2>
+        <h2 data-en="Project Aladdin — Course Syllabus" data-id="Project Aladdin — Silabus Kursus">Project Aladdin — Course Syllabus</h2>
         <p class="tab-sub" data-en="6 modules · Self-paced · Complete at your own speed" data-id="6 modul · Mandiri · Selesaikan dengan kecepatanmu sendiri">6 modules · Self-paced · Complete at your own speed</p>
       </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">01</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 01" data-id="Modul 01">Module 01</span>
@@ -513,7 +542,7 @@
         </div>
       </div>
     </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">02</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 02" data-id="Modul 02">Module 02</span>
@@ -527,7 +556,7 @@
         </div>
       </div>
     </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">03</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 03" data-id="Modul 03">Module 03</span>
@@ -541,7 +570,7 @@
         </div>
       </div>
     </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">04</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 04" data-id="Modul 04">Module 04</span>
@@ -555,7 +584,7 @@
         </div>
       </div>
     </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">05</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 05" data-id="Modul 05">Module 05</span>
@@ -569,7 +598,7 @@
         </div>
       </div>
     </div>
-    <div class="syl-card">
+    <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">06</div>
       <div class="syl-body">
         <span class="gold-pill" data-en="Module 06" data-id="Modul 06">Module 06</span>
@@ -974,7 +1003,7 @@
       <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
       <button class="filter-pill" data-filter="graded" data-en="Graded" data-id="Dinilai">Graded</button>
       </div>
-    <div class="assignment-card" data-module="1" data-status="available">
+    <div class="assignment-card reveal" data-module="1" data-status="available">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 01 · The Map" data-id="Modul 01 · The Map">Module 01 · The Map</span>
         <span class="assignment-status available" data-en="Available" data-id="Tersedia">Available</span>
@@ -988,7 +1017,7 @@
       </div>
       <div class="assignment-footer"><button class="btn-gold" data-en="Start Assignment →" data-id="Mulai Tugas →">Start Assignment →</button></div>
     </div>
-    <div class="assignment-card" data-module="2" data-status="locked">
+    <div class="assignment-card reveal" data-module="2" data-status="locked">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 02 · Habits" data-id="Modul 02 · Kebiasaan">Module 02 · Habits</span>
         <span class="assignment-status locked" data-en="Locked — complete Module 2 first" data-id="Terkunci — selesaikan Modul 2 terlebih dahulu">Locked — complete Module 2 first</span>
@@ -1002,7 +1031,7 @@
       </div>
       <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
     </div>
-    <div class="assignment-card" data-module="3" data-status="locked">
+    <div class="assignment-card reveal" data-module="3" data-status="locked">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 03 · Problem Solving" data-id="Modul 03 · Pemecahan Masalah">Module 03 · Problem Solving</span>
         <span class="assignment-status locked" data-en="Locked — complete Module 3 first" data-id="Terkunci — selesaikan Modul 3 terlebih dahulu">Locked — complete Module 3 first</span>
@@ -1016,7 +1045,7 @@
       </div>
       <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
     </div>
-    <div class="assignment-card" data-module="4" data-status="locked">
+    <div class="assignment-card reveal" data-module="4" data-status="locked">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 04 · Communication" data-id="Modul 04 · Komunikasi">Module 04 · Communication</span>
         <span class="assignment-status locked" data-en="Locked — complete Module 4 first" data-id="Terkunci — selesaikan Modul 4 terlebih dahulu">Locked — complete Module 4 first</span>
@@ -1030,7 +1059,7 @@
       </div>
       <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
     </div>
-    <div class="assignment-card" data-module="5" data-status="locked">
+    <div class="assignment-card reveal" data-module="5" data-status="locked">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 05 · Well-Being &amp; Digital" data-id="Modul 05 · Kesejahteraan &amp; Digital">Module 05 · Well-Being &amp; Digital</span>
         <span class="assignment-status locked" data-en="Locked — complete Module 5 first" data-id="Terkunci — selesaikan Modul 5 terlebih dahulu">Locked — complete Module 5 first</span>
@@ -1044,7 +1073,7 @@
       </div>
       <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
     </div>
-    <div class="assignment-card" data-module="6" data-status="locked">
+    <div class="assignment-card reveal" data-module="6" data-status="locked">
       <div class="assignment-header">
         <span class="gold-pill" data-en="Module 06 · Career Simulation" data-id="Modul 06 · Simulasi Karier">Module 06 · Career Simulation</span>
         <span class="assignment-status locked" data-en="Locked — complete Module 6 first" data-id="Terkunci — selesaikan Modul 6 terlebih dahulu">Locked — complete Module 6 first</span>
@@ -1064,7 +1093,7 @@
     </div>
       <p class="filter-empty" data-en="No assignments in this state yet." data-id="Belum ada tugas dalam status ini.">No assignments in this state yet.</p>
       <div class="glass-card points-card">
-        <p data-en="<b>Total Possible Score: 600 points across 6 assignments.</b><br>Complete all assignments to unlock your Project Aladin Certificate of Completion." data-id="<b>Total Skor yang Mungkin: 600 poin di 6 tugas.</b><br>Selesaikan semua tugas untuk membuka Sertifikat Penyelesaian Project Aladin kamu."><b>Total Possible Score: 600 points across 6 assignments.</b><br>Complete all assignments to unlock your Project Aladin Certificate of Completion.</p>
+        <p data-en="<b>Total Possible Score: 600 points across 6 assignments.</b><br>Complete all assignments to unlock your Project Aladdin Certificate of Completion." data-id="<b>Total Skor yang Mungkin: 600 poin di 6 tugas.</b><br>Selesaikan semua tugas untuk membuka Sertifikat Penyelesaian Project Aladdin kamu."><b>Total Possible Score: 600 points across 6 assignments.</b><br>Complete all assignments to unlock your Project Aladdin Certificate of Completion.</p>
       </div>
     </section>
 
@@ -1072,15 +1101,15 @@
     <section class="tab-content" id="tab-grades" hidden>
       <div class="tab-head">
         <h2 data-en="Your Grades" data-id="Nilaimu">Your Grades</h2>
-        <p class="tab-sub" data-en="Performance across all Project Aladin assignments" data-id="Kinerja di semua tugas Project Aladin">Performance across all Project Aladin assignments</p>
+        <p class="tab-sub" data-en="Performance across all Project Aladdin assignments" data-id="Kinerja di semua tugas Project Aladdin">Performance across all Project Aladdin assignments</p>
       </div>
-      <div class="glass-card overall-card">
+      <div class="glass-card overall-card reveal">
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">600</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
         <p class="ov-note" data-en="Complete Module 1 and submit your first assignment to start earning your grade." data-id="Selesaikan Modul 1 dan kirimkan tugas pertamamu untuk mulai mendapatkan nilaimu.">Complete Module 1 and submit your first assignment to start earning your grade.</p>
       </div>
-      <div class="grade-table">
+      <div class="grade-table reveal">
         <div class="grade-hrow">
           <span>#</span>
           <span data-en="Assignment" data-id="Tugas">Assignment</span>
@@ -1146,7 +1175,7 @@
           <span class="gr-max">600</span>
         </div>
       </div>
-      <div class="glass-card comp-grid">
+      <div class="glass-card comp-grid reveal">
         <div class="comp-cell"><span class="comp-dot" data-module="1"></span><span class="comp-lbl">M1</span><span class="comp-status" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
         <div class="comp-cell"><span class="comp-dot" data-module="2"></span><span class="comp-lbl">M2</span><span class="comp-status" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
         <div class="comp-cell"><span class="comp-dot" data-module="3"></span><span class="comp-lbl">M3</span><span class="comp-status" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
@@ -1154,16 +1183,16 @@
         <div class="comp-cell"><span class="comp-dot" data-module="5"></span><span class="comp-lbl">M5</span><span class="comp-status" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
         <div class="comp-cell"><span class="comp-dot" data-module="6"></span><span class="comp-lbl">M6</span><span class="comp-status" data-en="Not Started" data-id="Belum Dimulai">Not Started</span></div>
       </div>
-      <div class="glass-card cert-card">
+      <div class="glass-card cert-card reveal">
         <div class="cert-preview locked" aria-hidden="true">
       <div class="cp-wm">METANOIA <i>LABS</i></div>
       <div class="cp-title" data-en="Certificate of Completion" data-id="Sertifikat Penyelesaian">Certificate of Completion</div>
-      <div class="cp-course">Project Aladin</div>
+      <div class="cp-course">Project Aladdin</div>
       <div class="cp-name" data-en="[Your Name]" data-id="[Namamu]">[Your Name]</div>
       <div class="cert-lock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F0D878" stroke-width="1.7" width="28" height="28"><rect x="5.5" y="10" width="13" height="10" rx="2"/><path d="M8.5 10V7.5a3.5 3.5 0 0 1 7 0V10"/></svg></div>
     </div>
         <div>
-          <h3 data-en="Project Aladin Certificate of Completion" data-id="Sertifikat Penyelesaian Project Aladin">Project Aladin Certificate of Completion</h3>
+          <h3 data-en="Project Aladdin Certificate of Completion" data-id="Sertifikat Penyelesaian Project Aladdin">Project Aladdin Certificate of Completion</h3>
           <p data-en="Complete all 6 modules and submit all 6 assignments to unlock your certificate." data-id="Selesaikan semua 6 modul dan kirimkan semua 6 tugas untuk membuka sertifikatmu.">Complete all 6 modules and submit all 6 assignments to unlock your certificate.</p>
           <p class="cc-progress" data-en="0 of 6 modules completed · 0 of 6 assignments submitted" data-id="0 dari 6 modul diselesaikan · 0 dari 6 tugas dikirimkan">0 of 6 modules completed · 0 of 6 assignments submitted</p>
           <button class="btn-disabled" disabled data-en="🔒 Unlock Certificate" data-id="🔒 Buka Sertifikat">🔒 Unlock Certificate</button>
@@ -1186,9 +1215,9 @@
 <div class="upgrade-veil" id="upgradeVeil" role="dialog" aria-modal="true" aria-labelledby="upgradeTitle">
   <div class="upgrade-card">
     <span class="gold-pill">01 · The Map</span>
-    <h2 id="upgradeTitle" data-en="Project Aladin is part of Metanoia Premium" data-id="Project Aladin adalah bagian dari Metanoia Premium">Project Aladin is part of Metanoia Premium</h2>
+    <h2 id="upgradeTitle" data-en="Project Aladdin is part of Metanoia Premium" data-id="Project Aladdin adalah bagian dari Metanoia Premium">Project Aladdin is part of Metanoia Premium</h2>
     <p data-en="Six learning modules, six practice assignments, AI-assisted practice tools, and a shareable certificate — one membership unlocks all five Metanoia products." data-id="Enam modul pembelajaran, enam tugas latihan, alat latihan berbantuan AI, dan sertifikat yang dapat dibagikan — satu keanggotaan membuka semua lima produk Metanoia.">Six learning modules, six practice assignments, AI-assisted practice tools, and a shareable certificate — one membership unlocks all five Metanoia products.</p>
-    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access Project Aladin →" data-id="Tingkatkan ke Premium untuk Mengakses Project Aladin →">Upgrade to Premium to Access Project Aladin →</a>
+    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access Project Aladdin →" data-id="Tingkatkan ke Premium untuk Mengakses Project Aladdin →">Upgrade to Premium to Access Project Aladdin →</a>
   </div>
 </div>
 
@@ -1357,6 +1386,14 @@ document.querySelectorAll('.ctl button').forEach(b => {
   });
 });
 applyLang();
+
+/* ─── SCROLL REVEAL ─── */
+const ro = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) { en.target.classList.add('revealed'); ro.unobserve(en.target); }
+  });
+}, {threshold: .12});
+document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
 /* ─── INIT: restore tab, expand Module 1 ─── */
 let initTab = window.location.hash.replace('#', '');
