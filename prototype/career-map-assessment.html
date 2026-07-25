@@ -19,11 +19,19 @@
     --amber:#B45309; --forest:#1A5C38;
     --white:#FFFFFF; --light:#F1F5F9; --mid:#64748B;
     --glass:rgba(7,13,24,.5); --glass-border:rgba(245,239,230,.14);
+    color-scheme: dark;
+  }
+  /* ── light theme tokens (mirrors landing.html) ── */
+  :root[data-theme="light"]{
+    --bg:#E9EEF4; --text:#1B2434; --muted:#5A6A80;
+    --glass:rgba(255,255,255,.72); --glass-border:rgba(27,36,52,.14);
+    color-scheme: light;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{font-family:'Inter',ui-sans-serif,system-ui,sans-serif;color:var(--text);font-size:16px;line-height:1.6;
-    -webkit-font-smoothing:antialiased;min-height:100vh;background-color:var(--bg)}
+    -webkit-font-smoothing:antialiased;min-height:100vh;background-color:var(--bg);
+    transition:background-color .45s ease,color .45s ease}
   /* photographic section backdrops (fixed layer + readability scrim) */
   body::before{content:"";position:fixed;inset:0;z-index:-2;background:var(--bg) center/cover no-repeat}
   body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
@@ -372,6 +380,81 @@
     #report-content{position:absolute;top:0;left:0;width:100%;margin:0;padding:0}
   }
   @media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
+  /* ═══════════ THEME TOGGLE (site-standard, mt-theme) ═══════════ */
+  .theme-btn{background:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;width:36px;height:36px;
+    flex:none;display:flex;align-items:center;justify-content:center;color:#fff;position:relative;
+    backdrop-filter:blur(6px);transition:border-color .25s,color .25s}
+  .theme-btn:hover{border-color:var(--ember2)}
+  .theme-btn:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
+  .theme-btn svg{position:absolute;transition:opacity .35s ease,transform .45s ease}
+  .theme-btn .sun{opacity:0;transform:rotate(-60deg) scale(.6)}
+  .theme-btn .moon{opacity:1;transform:none}
+  :root[data-theme="light"] .theme-btn .sun{opacity:1;transform:none}
+  :root[data-theme="light"] .theme-btn .moon{opacity:0;transform:rotate(60deg) scale(.6)}
+
+  /* ═══════════ LIGHT THEME — app chrome & quiz (report stays paper) ═══════════ */
+  /* photographic backdrop gets a light haze instead of a dark scrim */
+  :root[data-theme="light"] body::after{
+    background:linear-gradient(180deg,rgba(238,242,246,.60) 0%,rgba(238,242,246,.74) 55%,rgba(238,242,246,.94) 100%)}
+  :root[data-theme="light"] .theme-btn{border-color:rgba(27,36,52,.35);color:#1B2434}
+  :root[data-theme="light"] .lockup{color:#1B2434}
+  :root[data-theme="light"] .lang{border-color:rgba(27,36,52,.35)}
+  :root[data-theme="light"] .lang button{color:#1B2434}
+  :root[data-theme="light"] .lang button[aria-pressed="true"]{background:rgba(27,36,52,.12)}
+  :root[data-theme="light"] .btn-glass{border-color:rgba(27,36,52,.35);color:#1B2434}
+  :root[data-theme="light"] .btn-glass:hover{border-color:rgba(27,36,52,.6)}
+  /* hero */
+  :root[data-theme="light"] #s-hero .sub{color:rgba(27,36,52,.75)}
+  :root[data-theme="light"] .getlist li{color:rgba(27,36,52,.85)}
+  :root[data-theme="light"] #s-hero .fine{color:rgba(27,36,52,.5)}
+  /* quiz header + progress */
+  :root[data-theme="light"] .qhead{background:rgba(238,242,246,.92);border-bottom-color:rgba(27,36,52,.14)}
+  :root[data-theme="light"] .qhead .ptext{color:#B4550E;border-color:rgba(27,36,52,.25);background:rgba(255,255,255,.55)}
+  :root[data-theme="light"] .qhead .plabel{color:rgba(27,36,52,.45)}
+  :root[data-theme="light"] .alt-track{background:rgba(27,36,52,.15)}
+  /* questions */
+  :root[data-theme="light"] .qcounter{color:rgba(27,36,52,.5)}
+  :root[data-theme="light"] .qtext{color:#1B2434}
+  :root[data-theme="light"] .qhint{color:rgba(27,36,52,.55)}
+  :root[data-theme="light"] .section-chip{color:#B4550E;background:rgba(249,115,22,.12);border-color:rgba(180,85,14,.35)}
+  :root[data-theme="light"] .option-card{background:rgba(255,255,255,.78);border-color:rgba(27,36,52,.16)}
+  :root[data-theme="light"] .option-card:hover{border-color:rgba(180,85,14,.5)}
+  :root[data-theme="light"] .option-card.selected{background:rgba(249,115,22,.14);
+    box-shadow:0 0 0 1px rgba(249,115,22,.3),inset 0 0 20px rgba(249,115,22,.06)}
+  :root[data-theme="light"] .option-dot{border-color:rgba(27,36,52,.3)}
+  :root[data-theme="light"] .text-input{background:#FFFFFF;border-color:rgba(27,36,52,.22);color:#1B2434}
+  :root[data-theme="light"] .text-input::placeholder{color:rgba(27,36,52,.38)}
+  :root[data-theme="light"] .btn-back{border-color:rgba(27,36,52,.28);color:rgba(27,36,52,.65)}
+  :root[data-theme="light"] .btn-back:hover{border-color:rgba(27,36,52,.55);color:#1B2434}
+  /* interstitial + loading */
+  :root[data-theme="light"] #s-inter{background:linear-gradient(180deg,rgba(238,242,246,.5),rgba(238,242,246,.72))}
+  :root[data-theme="light"] .inter h2{color:#1B2434}
+  :root[data-theme="light"] .inter .subtitle{color:rgba(27,36,52,.65)}
+  :root[data-theme="light"] .inter .tap{color:rgba(27,36,52,.4)}
+  :root[data-theme="light"] .inter .chapter{color:#B4550E}
+  :root[data-theme="light"] .analyz{color:#B4550E}
+  :root[data-theme="light"] .loadmsg{color:rgba(27,36,52,.6)}
+  /* report toolbar + capture card (report pages themselves stay paper for print parity) */
+  :root[data-theme="light"] .rtoolbar{background:rgba(238,242,246,.96);border-bottom-color:rgba(27,36,52,.12)}
+  :root[data-theme="light"] .rt-title{color:#B4550E !important}
+  :root[data-theme="light"] .capcard h2{color:#1B2434}
+  :root[data-theme="light"] .capcard .lead{color:rgba(27,36,52,.62)}
+  :root[data-theme="light"] .capform label.ck{color:rgba(27,36,52,.65)}
+  /* completion */
+  :root[data-theme="light"] #s-done{background-image:
+    linear-gradient(180deg,rgba(238,242,246,.80) 0%,rgba(238,242,246,.86) 46%,rgba(238,242,246,.96) 100%),
+    url("assets/bg/hero.jpg")}
+  :root[data-theme="light"] .done-h{color:#1B2434}
+  :root[data-theme="light"] .done-sub{color:rgba(27,36,52,.65)}
+  :root[data-theme="light"] .score-card .k{color:rgba(27,36,52,.5)}
+  :root[data-theme="light"] .score-card .b{color:#1B2434}
+  :root[data-theme="light"] .score-card .d{color:rgba(27,36,52,.45)}
+  :root[data-theme="light"] .done-div{background:rgba(27,36,52,.15)}
+  :root[data-theme="light"] .waitlbl{color:rgba(27,36,52,.5)}
+  :root[data-theme="light"] .feature-card{background:rgba(255,255,255,.75);border-color:rgba(27,36,52,.13)}
+  :root[data-theme="light"] .feature-name{color:#B4550E}
+  :root[data-theme="light"] .feature-desc{color:rgba(27,36,52,.58)}
+  :root[data-theme="light"] .done-foot{color:rgba(27,36,52,.45);border-top-color:rgba(180,85,14,.4)}
 </style>
 </head>
 <body data-bg="hero">
@@ -389,9 +472,15 @@
       </svg>
       <span class="wm"><b>Metanoia</b><i>Labs</i></span>
     </a>
-    <div class="lang" role="group" aria-label="Language">
-      <button data-lang="en" aria-pressed="true">EN</button>
-      <button data-lang="id" aria-pressed="false">ID</button>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="id" aria-pressed="false">ID</button>
+      </div>
+      <button class="theme-btn" aria-label="Toggle dark / light theme">
+        <svg class="moon" width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <svg class="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </div>
   </div>
   <div class="hero-in">
@@ -434,6 +523,10 @@
           <button data-lang="en" aria-pressed="true">EN</button>
           <button data-lang="id" aria-pressed="false">ID</button>
         </div>
+        <button class="theme-btn" aria-label="Toggle dark / light theme">
+          <svg class="moon" width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <svg class="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
       </div>
     </div>
     <div class="alt-meter">
@@ -493,11 +586,15 @@
 <!-- ============ REPORT ============ -->
 <section class="screen" id="s-report">
   <div class="rtoolbar">
-    <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A" data-t="ui.yourmap">Your Career Map</span>
+    <span class="rt-title" style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFD98A" data-t="ui.yourmap">Your Career Map</span>
     <div class="acts">
       <button class="btn btn-ember" onclick="downloadReport()"><span data-t="ui.pdf">Download PDF</span></button>
       <button class="btn btn-glass" onclick="document.getElementById('capture').scrollIntoView({behavior:'smooth'})"><span data-t="ui.emailme">Email me my report</span></button>
       <button class="btn btn-glass" id="shareBtn"><span data-t="ui.share">Share</span></button>
+      <button class="theme-btn" aria-label="Toggle dark / light theme">
+        <svg class="moon" width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <svg class="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </div>
   </div>
   <div id="rscale"><div id="rwrap"><div id="report-content"></div></div></div>
@@ -586,6 +683,26 @@
 <script>
 (() => {
 'use strict';
+
+/* ═══ Theme (site-standard: shared mt-theme key, prefers-color-scheme fallback) ═══ */
+const root = document.documentElement;
+const mqLight = matchMedia('(prefers-color-scheme: light)');
+function initialTheme(){
+  try{ const s = localStorage.getItem('mt-theme'); if(s === 'light' || s === 'dark') return s; }catch(e){}
+  return mqLight.matches ? 'light' : 'dark';
+}
+function applyTheme(t, save){
+  root.dataset.theme = t;
+  if(save){ try{ localStorage.setItem('mt-theme', t); }catch(e){} }
+}
+applyTheme(initialTheme(), false);
+document.querySelectorAll('.theme-btn').forEach(b=>{
+  b.addEventListener('click', ()=>applyTheme(root.dataset.theme === 'light' ? 'dark' : 'light', true));
+});
+mqLight.addEventListener('change', e=>{
+  try{ if(localStorage.getItem('mt-theme')) return; }catch(err){}
+  applyTheme(e.matches ? 'light' : 'dark', false);
+});
 
 const T = {
  en:{ 'ui.back':'Back','ui.next':'Next','ui.tap':'Tap to continue','ui.q':'Question {x} of {y}','ui.sec':'Section {x} of 5 · {name}',
