@@ -172,7 +172,7 @@
         <div class="form-err" id="formErr"></div>
         <button class="btn-primary-auth" type="submit">Create My Account →</button>
       </form>
-      <p class="form-note">Free forever for job seekers. No credit card required.</p>
+      <p class="form-note" hidden></p>
     </div>
   </section>
 </div>
@@ -220,7 +220,8 @@ if(isMentor){
   set('.auth-desc','Tell us about your expertise — the application takes less than five minutes.');
   document.getElementById('mentorFields').style.display='';
   const sub=document.querySelector('.btn-primary-auth'); if(sub) sub.textContent='Submit Mentor Application →';
-  set('.form-note','No cost to join · 4 sessions per semester per mentee · Full onboarding provided');
+  const fn=document.querySelector('.form-note');
+  if(fn){ fn.hidden=false; fn.textContent='No cost to join · 4 sessions per semester per mentee · Full onboarding provided'; }
   document.title='Apply as a Mentor — Metanoia Labs';
 }
 
