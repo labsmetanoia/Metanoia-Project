@@ -1463,5 +1463,41 @@ const revealObserver = new IntersectionObserver((entries)=>{
 document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 })();
 </script>
+
+<!-- ═══ Mobile-first refinement layer: tighter type scale, digestible prose ═══ -->
+<style id="mfx">
+@media(max-width:640px){
+  h1{font-size:min(2.3rem,9vw)!important;line-height:1.16!important}
+  h2{font-size:min(1.8rem,7.4vw)!important;line-height:1.24!important}
+  h3{font-size:min(1.2rem,5.6vw)!important}
+  .mfx-clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .mfx-clamp.open{display:block;-webkit-line-clamp:unset}
+  .mfx-more{display:inline-flex;align-items:center;gap:6px;background:none;border:0;
+    color:var(--accent-text,#F5A623);font-weight:700;font-size:.84rem;letter-spacing:.02em;
+    padding:8px 0 0;cursor:pointer;font-family:inherit}
+  .mfx-more::after{content:"\2193";display:inline-block;transition:transform .25s}
+  .mfx-more.open::after{transform:rotate(180deg)}
+}
+</style>
+<script>
+(function(){
+  if(!matchMedia('(max-width:640px)').matches) return;
+  var isID=function(){ return (document.documentElement.lang||'').toLowerCase().indexOf('id')===0; };
+  var label=function(open){ return open ? (isID()?'Tutup':'Show less') : (isID()?'Baca selengkapnya':'Read more'); };
+  document.querySelectorAll('section p, main p, article p').forEach(function(p){
+    if(p.closest('nav,header,footer,form,button,a')) return;
+    if(p.querySelector('button,input,select,img,svg')) return;
+    if((p.textContent||'').trim().length<300) return;
+    if(p.dataset.mfx) return; p.dataset.mfx='1';
+    p.classList.add('mfx-clamp');
+    var b=document.createElement('button'); b.type='button'; b.className='mfx-more';
+    b.textContent=label(false);
+    b.addEventListener('click',function(){
+      var open=p.classList.toggle('open'); b.classList.toggle('open',open); b.textContent=label(open);
+    });
+    p.after(b);
+  });
+})();
+</script>
 </body>
 </html>

@@ -405,9 +405,36 @@
 
   #spacer{position:relative;z-index:-1;width:1px}
 
-  /* ============ MOBILE FLOW MODE ============
-     Below 761px the pinned camera stage becomes a naturally scrolling
-     vertical narrative: same world, no transforms, no inner scrolling. */
+  /* ============ CONTINUOUS FLOW MODE (all viewports) ============
+     The pinned camera stage is retired: every scene is a naturally
+     scrolling section — one uninterrupted cinematic journey. The
+     procedural environment canvas breathes through feathered scene
+     edges, so chapters blend atmospherically instead of "breaking". */
+  body.flow #stage{position:static;overflow:visible}
+  body.flow #spacer{display:none}
+  body.flow .sceneCard{position:relative;inset:auto;visibility:visible !important;min-height:100vh;min-height:100svh;
+      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important}
+  body.flow .frame{border-radius:0 !important;border:none !important;box-shadow:none !important;min-height:100vh;min-height:100svh;
+      height:auto;align-items:stretch}
+  body.flow .frame::before{opacity:0 !important}
+  body.flow .haze,body.flow .bloom,body.flow .bar{display:none}
+  /* desktop flow: content centres inside each scene, grows naturally when taller */
+  body.flow:not(.m) .content{max-height:none;overflow:visible;min-height:100vh;min-height:100svh;
+      display:flex;flex-direction:column;justify-content:center;padding-top:104px;padding-bottom:110px}
+  /* atmospheric blending: scene footage feathers into the environment canvas */
+  body.flow:not(.m) .frame{
+      -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 91%,transparent 100%);
+      mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 91%,transparent 100%)}
+  body.flow:not(.m) #call .frame{
+      -webkit-mask-image:linear-gradient(180deg,#000 0,#000 91%,transparent 100%);
+      mask-image:linear-gradient(180deg,#000 0,#000 91%,transparent 100%)}
+  body.flow:not(.m) #contact .frame{
+      -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 100%);
+      mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 100%)}
+  /* content parallax runs on its own layer; keep it crisp */
+  body.flow .content{will-change:transform}
+
+  /* legacy mobile aliases (kept for the ≤760px presentation rules below) */
   body.m #stage{position:static;overflow:visible}
   body.m #spacer{display:none}
   body.m .sceneCard{position:relative;inset:auto;visibility:visible !important;min-height:100vh;min-height:100svh;
@@ -483,6 +510,36 @@
   .pageview .pv-sub{color:var(--muted);font-size:15px;margin-bottom:22px}
   .pageview p{color:var(--muted);line-height:1.7;margin:0 0 8px}
   .pageview .cta{margin-top:26px}
+
+  /* ============ 14-INCH LAPTOP PASS ============
+     Short desktop viewports (≈768–950px tall) get a tightened scale so the
+     hero lands in one screen and headings keep editorial balance. */
+  @media (min-width:761px) and (max-height:950px){
+    body.flow:not(.m) .content{padding-top:88px;padding-bottom:96px}
+    .brand{margin-bottom:22px;gap:16px}
+    .brand .glyph{width:clamp(44px,5vw,56px) !important}
+    .brand .lbar{height:clamp(36px,4.6vw,48px)}
+    .brand .mark{font-size:clamp(1.25rem,2.5vw,1.9rem)}
+    #call h1{font-size:clamp(1.9rem,4.1vw,3.2rem)}
+    #call .whisper{font-size:clamp(.95rem,1.6vw,1.15rem);margin-bottom:14px}
+    #call .sub{margin-top:16px;font-size:clamp(.92rem,1.35vw,1.05rem);line-height:1.62}
+    .content h2{font-size:clamp(1.6rem,3.5vw,2.6rem)}
+    .content .lede{font-size:clamp(.92rem,1.3vw,1.06rem);margin-top:14px;line-height:1.62}
+    .voice{font-size:clamp(1rem,1.9vw,1.35rem);margin-top:24px}
+    .chapter{margin-bottom:10px}
+    .cta{margin-top:22px;padding:13px 24px;font-size:14.5px}
+    .gear{margin-top:24px}
+    .gear .row{padding:11px 0}
+    .gear h3{font-size:14.5px}
+    .gear p{font-size:12.5px;margin-top:3px}
+    .cards{margin-top:26px}
+    .card{padding:16px}
+    .card h3{font-size:15.5px}
+    .card p{font-size:13px}
+    .stats{margin-top:28px}
+    #summit h2{font-size:clamp(2rem,5vw,3.4rem)}
+    body:not(.m) #horizon h2{font-size:clamp(2rem,4.2vw,3rem)}
+  }
 
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important}
@@ -1080,10 +1137,11 @@
   function layout(){
     const was=mobile;
     mobile = matchMedia('(max-width:760px)').matches;
+    document.body.classList.add('flow');            // continuous storytelling on every viewport
     document.body.classList.toggle('m', mobile);
     SCENES.forEach((sc,i)=>{ if(i>0) sc.querySelector('.frame').classList.toggle('has-still', mobile && !!sc.querySelector('.mbg')); });
     SEG=innerHeight*1.7;
-    spacer.style.height = mobile ? '0px' : (SEG*(N-1)+innerHeight)+'px';
+    spacer.style.height='0px';
     return was!==mobile;
   }
   const navEl=document.querySelector('nav'), logoEl=navEl.querySelector('.logo'), navRightEl=navEl.querySelector('.nav-right'), menuEl=document.getElementById('menuBar');
@@ -1121,19 +1179,17 @@
     });
   }
   function goTo(i){
-    const top = mobile ? SCENES[i].offsetTop : i*SEG;
-    scrollTo({top,behavior:reduce?'auto':'smooth'});
+    scrollTo({top:SCENES[i].offsetTop,behavior:reduce?'auto':'smooth'});
   }
   document.querySelectorAll('[data-goto]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();goTo(+el.dataset.goto);}));
   addEventListener('keydown',e=>{
-    if(['ArrowRight','ArrowDown','PageDown'].includes(e.key)){ e.preventDefault(); goTo(Math.min(N-1,Math.round(cur)+1)); }
-    if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ e.preventDefault(); goTo(Math.max(0,Math.round(cur)-1)); }
+    if(['ArrowRight','ArrowDown','PageDown'].includes(e.key)){ e.preventDefault(); goTo(Math.min(N-1,Math.floor(cur+0.05)+1)); }
+    if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ e.preventDefault(); goTo(Math.max(0,Math.ceil(cur-0.05)-1)); }
   });
 
   let target=0, cur=0;
   function measure(){
-    if(!mobile){ target=Math.max(0,Math.min(N-1, scrollY/SEG)); return; }
-    // mobile flow: continuous index from the section under the viewport centre
+    // continuous index from the section under the viewport centre (all viewports)
     const mid=scrollY+innerHeight*.55; let f=N-1;
     for(let i=0;i<N;i++){ const t=SCENES[i].offsetTop,h=SCENES[i].offsetHeight;
       if(mid<t){ f=Math.max(0,i-.5); break; }
@@ -1160,79 +1216,28 @@
   const barTop=document.getElementById('barTop'),barBot=document.getElementById('barBot');
   let lastActive=-1;
   function updateScenes(){
-    const active=Math.round(cur);
-    if(mobile){
-      // vertical flow: portrait stills carry scenes 2+; only The Valley streams film
-      SCENES.forEach((sc,i)=>{
-        const d=i-cur, vid=sc.querySelector('video');
-        if(i>0 && sc.querySelector('.mbg')){ if(vid && !vid.paused) vid.pause(); }
-        else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
-        else if(vid && sc.querySelector('.frame').classList.contains('has-video')){
-          if(vid.preload!=='auto') vid.preload='auto';
-          if(vid.paused) vid.play().catch(()=>{});
-        }
-        if(d<.85 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.6) fireCounts(sc); }
-      });
-      expNav.querySelectorAll('.wp').forEach((b,i)=>b.setAttribute('aria-current', i===active));
-      lastActive=active;
-      return 0;
-    }
-    const tf=cur-Math.floor(cur), trans=reduce?0:4*tf*(1-tf);   // 0 at rest → 1 mid-transition
+    const active=Math.max(0,Math.min(N-1,Math.floor(cur+0.05)));
     SCENES.forEach((sc,i)=>{
-      const d=i-cur;                                     // + ahead of camera, − left behind
-      const vid=sc.querySelector('video');
-      if(Math.abs(d)>1.2){ sc.style.visibility='hidden'; sc.classList.remove('on');
-        if(vid && !vid.paused) vid.pause(); return; }
-      sc.style.visibility='visible';
-      if(vid && sc.querySelector('.frame').classList.contains('has-video')){
+      const d=i-cur, vid=sc.querySelector('video');
+      // footage: stills carry scenes 2+ on mobile; desktop streams film for
+      // any scene near the viewport and rests the others
+      if(mobile && i>0 && sc.querySelector('.mbg')){ if(vid && !vid.paused) vid.pause(); }
+      else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
+      else if(vid && sc.querySelector('.frame').classList.contains('has-video')){
         if(vid.preload!=='auto') vid.preload='auto';
         if(vid.paused) vid.play().catch(()=>{});
       }
-      // camera pull-back: eased scale envelopes (gentle at rest, fluid mid-flight)
-      const e = d<0 ? -smooth(clamp(-d,0,1)) : smooth(clamp(d,0,1));
-      const scale = d<0 ? Math.pow(4.0,e) : Math.pow(2.2,e);
-      const y = e<0 ? e*-6 : 0;                          // receding card drifts (vh)
-      const opa = d<0 ? 1-smooth(clamp((-d-.5)/.35,0,1))   // gone by −0.85
-                      : 1-smooth(clamp((d-.5)/.4,0,1));    // gone by +0.9
-      sc.style.transform=`translateY(${y.toFixed(3)}vh) scale(${scale.toFixed(4)})`;
-      sc.style.opacity=opa.toFixed(3);
-      // gaussian cross-fade: both participants soften mid-transition, sharp at rest
-      const g=canBlur ? trans*smooth(clamp(Math.abs(d),0,1))*8 : 0;
-      sc.style.filter=g>.4?`blur(${g.toFixed(1)}px)`:'none';
-      sc.style.zIndex=String(50-Math.round(d*20));       // receding card floats above the incoming world
-      const fr=sc.querySelector('.frame');
-      const card=smooth(clamp(-d/.55,0,1));              // 0 fullscreen → 1 floating card
-      const cs=card*card;                                // shadow/scrim ease in later than shape
-      fr.style.borderRadius=(card*24)+'px';
-      fr.style.borderColor=`color-mix(in srgb, var(--frame-edge) ${Math.round(card*90)}%, transparent)`;
-      // scrim deepens slightly mid-transition so copy stays readable while the world moves
-      fr.style.setProperty('--card-o',Math.max(cs*.85, trans*.22).toFixed(2));
-      fr.style.boxShadow=cs>.03?`0 ${22*cs}px ${64*cs}px rgba(0,0,0,${(.26*cs).toFixed(2)})`:'none';
-      // atmospheric depth haze instead of blur filters (GPU-cheap depth-of-field)
-      const haze=sc.querySelector('.haze');
-      haze.style.opacity=(smooth(clamp(Math.abs(d)/.95,0,1))*.9).toFixed(3);
-      // layered motion: copy drifts on its own plane inside the frame
-      const ct=sc.querySelector('.content');
-      ct.style.transform=reduce?'none':`translateY(${(d*4).toFixed(2)}vh)`;
-      // copy fades faster than the world, so headlines never double mid-transition
-      ct.style.opacity=reduce?'':(1-smooth(clamp((Math.abs(d)-.16)/.42,0,1))).toFixed(3);
-      // content: reveal as the scene approaches, release once it has receded
-      if(d<.7 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.5) fireCounts(sc); }
-      else sc.classList.remove('on');
-      sc.style.pointerEvents = i===active?'auto':'none';
+      // layered parallax: copy drifts gently on its own plane (desktop only)
+      if(!mobile && !reduce){
+        const ct=sc.querySelector('.content');
+        ct.style.transform = Math.abs(d)<=1.4 ? `translateY(${(d*-3.2).toFixed(2)}vh)` : 'none';
+      }
+      // elegant scene reveal as each chapter enters the viewport
+      if(d<.85 && d>-1.0){ sc.classList.add('on'); if(Math.abs(d)<.6) fireCounts(sc); }
     });
-    // arrival bloom: a breath of light each time a new scene settles
-    if(active!==lastActive){
-      if(lastActive>=0 && !reduce){ const a=SCENES[active];
-        a.classList.remove('arrived'); void a.offsetWidth; a.classList.add('arrived'); }
-      lastActive=active;
-    }
     expNav.querySelectorAll('.wp').forEach((b,i)=>b.setAttribute('aria-current', i===active));
-    // cinematic letterbox breathes in mid-transition, synchronized with the camera
-    const bh=(trans*4.5).toFixed(2);
-    barTop.style.height=bh+'vh'; barBot.style.height=bh+'vh';
-    barTop.style.opacity=barBot.style.opacity=(trans*.85).toFixed(2);
-    return trans;
+    lastActive=active;
+    return 0;
   }
   function fireCounts(sc){
     sc.querySelectorAll('[data-count]').forEach(el=>{
