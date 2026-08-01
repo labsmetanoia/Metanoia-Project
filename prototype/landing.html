@@ -53,6 +53,7 @@
 
   *{box-sizing:border-box}
   html,body{margin:0}
+  html{overflow-x:clip}
   body{background:var(--bg);color:var(--text);font-family:var(--disp);font-size:17px;line-height:1.6;
        -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-kerning:normal;
        overflow-x:hidden;transition:background-color .5s ease,color .5s ease}
@@ -429,16 +430,26 @@
   /* desktop flow: content centres inside each scene, grows naturally when taller */
   body.flow:not(.m) .content{max-height:none;overflow:visible;min-height:100vh;min-height:100svh;
       display:flex;flex-direction:column;justify-content:center;padding-top:104px;padding-bottom:110px}
-  /* atmospheric blending: scene footage feathers into the environment canvas */
-  body.flow:not(.m) .frame{
-      -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 91%,transparent 100%);
-      mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 91%,transparent 100%)}
-  body.flow:not(.m) #call .frame{
-      -webkit-mask-image:linear-gradient(180deg,#000 0,#000 91%,transparent 100%);
-      mask-image:linear-gradient(180deg,#000 0,#000 91%,transparent 100%)}
-  body.flow:not(.m) #contact .frame{
-      -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 100%);
-      mask-image:linear-gradient(180deg,transparent 0,#000 9%,#000 100%)}
+  /* seamless chapter crossfades: each scene's footage and colour grade extend
+     18svh past the scene and feather across the neighbour with an eased ramp,
+     so video dissolves directly into video — no canvas gap, no hard mask edge.
+     Text is no longer masked, so copy stays crisp through every transition. */
+  body.flow:not(.m) .frame{overflow:visible}
+  body.flow:not(.m) .frame video,
+  body.flow:not(.m) .frame.has-video::after{
+      top:-18svh;height:calc(100% + 36svh);
+      -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%);
+      mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%)}
+  body.flow:not(.m) #call .frame video,
+  body.flow:not(.m) #call .frame.has-video::after{
+      top:0;height:calc(100% + 18svh);
+      -webkit-mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%);
+      mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%)}
+  body.flow:not(.m) #contact .frame video,
+  body.flow:not(.m) #contact .frame.has-video::after{
+      top:-18svh;height:calc(100% + 18svh);
+      -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 100%);
+      mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 100%)}
   /* content parallax runs on its own layer; keep it crisp */
   body.flow .content{will-change:transform}
 
