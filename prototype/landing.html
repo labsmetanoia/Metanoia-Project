@@ -422,7 +422,8 @@
   body.flow #stage{position:static;overflow:visible}
   body.flow #spacer{display:none}
   body.flow .sceneCard{position:relative;inset:auto;visibility:visible !important;min-height:100vh;min-height:100svh;
-      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important}
+      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important;
+      will-change:auto}  /* a will-change containing block would break the fixed chapter backdrops */
   body.flow .frame{border-radius:0 !important;border:none !important;box-shadow:none !important;min-height:100vh;min-height:100svh;
       height:auto;align-items:stretch}
   body.flow .frame::before{opacity:0 !important}
@@ -430,26 +431,12 @@
   /* desktop flow: content centres inside each scene, grows naturally when taller */
   body.flow:not(.m) .content{max-height:none;overflow:visible;min-height:100vh;min-height:100svh;
       display:flex;flex-direction:column;justify-content:center;padding-top:104px;padding-bottom:110px}
-  /* seamless chapter crossfades: each scene's footage and colour grade extend
-     18svh past the scene and feather across the neighbour with an eased ramp,
-     so video dissolves directly into video — no canvas gap, no hard mask edge.
-     Text is no longer masked, so copy stays crisp through every transition. */
-  body.flow:not(.m) .frame{overflow:visible}
-  body.flow:not(.m) .frame video,
-  body.flow:not(.m) .frame.has-video::after{
-      top:-18svh;height:calc(100% + 36svh);
-      -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%);
-      mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%)}
-  body.flow:not(.m) #call .frame video,
-  body.flow:not(.m) #call .frame.has-video::after{
-      top:0;height:calc(100% + 18svh);
-      -webkit-mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%);
-      mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 21svh),rgba(0,0,0,.85) calc(100% - 16svh),rgba(0,0,0,.55) calc(100% - 11svh),rgba(0,0,0,.22) calc(100% - 6svh),transparent 100%)}
-  body.flow:not(.m) #contact .frame video,
-  body.flow:not(.m) #contact .frame.has-video::after{
-      top:-18svh;height:calc(100% + 18svh);
-      -webkit-mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 100%);
-      mask-image:linear-gradient(180deg,transparent 0,rgba(0,0,0,.22) 6svh,rgba(0,0,0,.55) 11svh,rgba(0,0,0,.85) 16svh,#000 21svh,#000 100%)}
+  /* cinematic scroll dissolves: each chapter's footage (and its grade) is a
+     fixed viewport backdrop whose opacity is driven by scroll position, so
+     one chapter's film dissolves into the next with no seams, no double
+     exposure at rest, and no visible boundary — content scrolls over it. */
+  body.flow:not(.m) .frame video{position:fixed;inset:0;width:100%;height:100%;opacity:0;transition:none}
+  body.flow:not(.m) .frame.has-video::after{position:fixed;inset:0;opacity:var(--fo,0);transition:none}
   /* content parallax runs on its own layer; keep it crisp */
   body.flow .content{will-change:transform}
 
@@ -457,7 +444,7 @@
   body.m #stage{position:static;overflow:visible}
   body.m #spacer{display:none}
   body.m .sceneCard{position:relative;inset:auto;visibility:visible !important;min-height:100vh;min-height:100svh;
-      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important}
+      transform:none !important;opacity:1 !important;filter:none !important;pointer-events:auto !important;will-change:auto}
   body.m .frame{border-radius:0 !important;border:none !important;box-shadow:none !important;min-height:100vh;min-height:100svh;
       height:auto;align-items:stretch}
   body.m .frame::before{opacity:0 !important}
@@ -1264,6 +1251,18 @@
         if(vid.preload!=='auto') vid.preload='auto';
         if(vid.paused) vid.play().catch(()=>{});
       }
+      // scroll-driven dissolve: a chapter is fully present while centred
+      // (cur = i + .55) and crossfades into the next as the boundary sweeps
+      // the viewport; the final chapter ramps over its shorter scroll leg
+      if(!mobile){
+        const sgn=d+.55, e=Math.abs(sgn);
+        let o;
+        if(i===N-1){ o = sgn>=1 ? 0 : sgn<=.58 ? 1 : 1-(sgn-.58)/.42; }
+        else { o = e<=.45 ? 1 : e>=.70 ? 0 : 1-(e-.45)/.25; }
+        o = o*o*(3-2*o); // smoothstep easing
+        if(vid) vid.style.opacity=o.toFixed(3);
+        sc.querySelector('.frame').style.setProperty('--fo', o.toFixed(3));
+      }
       // layered parallax: copy drifts gently on its own plane (desktop only)
       if(!mobile && !reduce){
         const ct=sc.querySelector('.content');
@@ -1354,7 +1353,13 @@
     const dt=Math.min((t-last)/1000,.05); last=t;
     cur+=(target-cur)*(reduce?1:Math.min(1,dt*4.2));   // inertial camera
     mx+=(mtx-mx)*Math.min(1,dt*3); my+=(mty-my)*Math.min(1,dt*3);
-    stage.style.transform=(Math.abs(mx)>.05||Math.abs(my)>.05)?`translate(${mx.toFixed(2)}px,${my.toFixed(2)}px)`:'none';
+    /* in flow mode the stage is static document flow; a transform here would
+       turn the fixed chapter backdrops into clipped absolutes, so keep none */
+    if(document.body.classList.contains('flow')||document.body.classList.contains('m')){
+      if(stage.style.transform!=='') stage.style.transform='';
+    } else {
+      stage.style.transform=(Math.abs(mx)>.05||Math.abs(my)>.05)?`translate(${mx.toFixed(2)}px,${my.toFixed(2)}px)`:'none';
+    }
     themeMix+=(themeTarget-themeMix)*(reduce?1:Math.min(1,dt*4));
     const m=smooth(clamp(themeMix,0,1));
 
