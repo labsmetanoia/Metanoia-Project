@@ -602,10 +602,17 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
 
     <!-- ─── TAB: SYLLABUS ─── -->
     <section class="tab-content" id="tab-syllabus" hidden>
-      <div class="tab-head">
-        <h2 data-en="Project Aladdin — Course Syllabus" data-id="Project Aladdin — Silabus Kursus">Project Aladdin — Course Syllabus</h2>
-        <p class="tab-sub" data-en="6 modules · Self-paced · Complete at your own speed" data-id="6 modul · Mandiri · Selesaikan dengan kecepatanmu sendiri">6 modules · Self-paced · Complete at your own speed</p>
+      <div class="tab-banner">
+        <div class="tb-art" style="background-image:url('../../assets/bg/map.jpg')"></div>
+        <div class="tb-veil"></div>
+        <div class="tb-inner">
+          <span class="tb-kicker" data-en="Learning Journey" data-id="Perjalanan Belajar">Learning Journey</span>
+          <h2 data-en="Project Aladdin — Course Syllabus" data-id="Project Aladdin — Silabus Kursus">Project Aladdin — Course Syllabus</h2>
+          <p class="tab-sub" data-en="6 modules · Self-paced · Complete at your own speed" data-id="6 modul · Mandiri · Selesaikan dengan kecepatanmu sendiri">6 modules · Self-paced · Complete at your own speed</p>
+          <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Modules" data-id="Modul">Modules</span></span><span class="tb-stat"><b>23</b><span data-en="Lessons" data-id="Pelajaran">Lessons</span></span><span class="tb-stat"><b>~6.5</b><span data-en="Hours" data-id="Jam">Hours</span></span><span class="tb-stat"><b>6</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span></div>
+        </div>
       </div>
+    <div class="syl-track">
     <div class="syl-card reveal">
       <div class="syl-num" aria-hidden="true">01</div>
       <div class="syl-body">
@@ -691,13 +698,20 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         </div>
       </div>
     </div>
+    </div>
     </section>
 
     <!-- ─── TAB: MODULES ─── -->
     <section class="tab-content" id="tab-modules" hidden>
-      <div class="tab-head">
-        <h2 data-en="Modules" data-id="Modul">Modules</h2>
-        <p class="tab-sub" data-en="6 modules · 23 lessons · Complete in sequence" data-id="6 modul · 23 pelajaran · Selesaikan secara berurutan">6 modules · 23 lessons · Complete in sequence</p>
+      <div class="tab-banner">
+        <div class="tb-art" style="background-image:url('../../assets/bg/stage-exploration.jpg')"></div>
+        <div class="tb-veil"></div>
+        <div class="tb-inner">
+          <span class="tb-kicker" data-en="Curriculum" data-id="Kurikulum">Curriculum</span>
+          <h2 data-en="Modules" data-id="Modul">Modules</h2>
+          <p class="tab-sub" data-en="6 modules · 23 lessons · Complete in sequence" data-id="6 modul · 23 pelajaran · Selesaikan secara berurutan">6 modules · 23 lessons · Complete in sequence</p>
+          <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Modules" data-id="Modul">Modules</span></span><span class="tb-stat"><b>23</b><span data-en="Lessons" data-id="Pelajaran">Lessons</span></span><span class="tb-stat"><b>1→6</b><span data-en="Sequential Unlock" data-id="Buka Berurutan">Sequential Unlock</span></span></div>
+        </div>
       </div>
     <div class="module-accordion" data-module="1" aria-expanded="true">
       <button class="module-header" aria-expanded="true" aria-controls="mbody-1">
@@ -1070,9 +1084,15 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
 
     <!-- ─── TAB: ASSIGNMENTS ─── -->
     <section class="tab-content" id="tab-assignments" hidden>
-      <div class="tab-head">
-        <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-        <p class="tab-sub" data-en="One assignment per module · 100 points each · 600 points total" data-id="Satu tugas per modul · 100 poin masing-masing · 600 poin total">One assignment per module · 100 points each · 600 points total</p>
+      <div class="tab-banner">
+        <div class="tb-art" style="background-image:url('../../assets/bg/stage-foundation.jpg')"></div>
+        <div class="tb-veil"></div>
+        <div class="tb-inner">
+          <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
+          <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
+          <p class="tab-sub" data-en="One assignment per module · 100 points each · 600 points total" data-id="Satu tugas per modul · 100 poin masing-masing · 600 poin total">One assignment per module · 100 points each · 600 points total</p>
+          <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>600</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin Tiap">Pts Each</span></span></div>
+        </div>
       </div>
       <div class="filter-row" role="group" aria-label="Filter assignments">
       <button class="filter-pill act" data-filter="all" data-en="All" data-id="Semua">All</button>
@@ -1087,6 +1107,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status available" data-en="Available" data-id="Tersedia">Available</span>
       </div>
       <h3 class="assignment-title" data-en="Personal Audit — Strengths, Patterns, and Goals Reflection" data-id="Audit Pribadi — Refleksi Kekuatan, Pola, dan Tujuan">Personal Audit — Strengths, Patterns, and Goals Reflection</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Reflect on your core strengths, your behavioral patterns under pressure, and your career goals for the next two years. This assignment forms the foundation of your Metanoia Career Profile — the personal map that everything else in your career system is built on top of." data-id="Renungkan kekuatan inti kamu, pola perilaku kamu di bawah tekanan, dan tujuan karier kamu untuk dua tahun ke depan. Tugas ini membentuk fondasi dari Profil Karier Metanoia kamu — peta pribadi yang menjadi dasar dari semua hal lain dalam sistem kariermu.">Reflect on your core strengths, your behavioral patterns under pressure, and your career goals for the next two years. This assignment forms the foundation of your Metanoia Career Profile — the personal map that everything else in your career system is built on top of.</p>
       <div class="assignment-meta">
         <span data-en="Format: Written reflection (500–700 words)" data-id="Format: Refleksi tertulis (500–700 kata)">Format: Written reflection (500–700 words)</span>
@@ -1101,6 +1122,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status locked" data-en="Locked — complete Module 2 first" data-id="Terkunci — selesaikan Modul 2 terlebih dahulu">Locked — complete Module 2 first</span>
       </div>
       <h3 class="assignment-title" data-en="My Habits — A 30-Day Personal Application Plan" data-id="Kebiasaanku — Rencana Penerapan Pribadi 30 Hari">My Habits — A 30-Day Personal Application Plan</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Identify one core principle from each of the three habits covered in this module and create a concrete 30-day action plan for applying them in your academic or professional life. The plan should include specific, observable daily actions and a simple reflection format for tracking follow-through." data-id="Identifikasi satu prinsip inti dari masing-masing tiga kebiasaan yang dibahas dalam modul ini dan buat rencana tindakan 30 hari yang konkret untuk menerapkannya dalam kehidupan akademis atau profesionalmu. Rencananya harus mencakup tindakan harian yang spesifik dan dapat diamati serta format refleksi sederhana untuk melacak pelaksanaannya.">Identify one core principle from each of the three habits covered in this module and create a concrete 30-day action plan for applying them in your academic or professional life. The plan should include specific, observable daily actions and a simple reflection format for tracking follow-through.</p>
       <div class="assignment-meta">
         <span data-en="Format: Written plan + daily commitment tracker" data-id="Format: Rencana tertulis + pelacak komitmen harian">Format: Written plan + daily commitment tracker</span>
@@ -1115,6 +1137,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status locked" data-en="Locked — complete Module 3 first" data-id="Terkunci — selesaikan Modul 3 terlebih dahulu">Locked — complete Module 3 first</span>
       </div>
       <h3 class="assignment-title" data-en="Problem Statement and Solution Brief" data-id="Pernyataan Masalah dan Ringkasan Solusi">Problem Statement and Solution Brief</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module. Define the problem precisely using the provided template, generate at least three distinct solutions, evaluate each against your criteria, and select and clearly justify your recommended approach." data-id="Pilih tantangan nyata yang sedang kamu hadapi — akademis, pribadi, atau profesional — dan terapkan kerangka pemecahan masalah terstruktur dari modul ini. Definisikan masalah dengan tepat menggunakan template yang disediakan, hasilkan setidaknya tiga solusi yang berbeda, evaluasi masing-masing berdasarkan kriteriamu, serta pilih dan justifikasi dengan jelas pendekatan yang kamu rekomendasikan.">Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module. Define the problem precisely using the provided template, generate at least three distinct solutions, evaluate each against your criteria, and select and clearly justify your recommended approach.</p>
       <div class="assignment-meta">
         <span data-en="Format: Structured brief (400–600 words) following the module framework template" data-id="Format: Ringkasan terstruktur (400–600 kata) mengikuti template kerangka modul">Format: Structured brief (400–600 words) following the module framework template</span>
@@ -1129,6 +1152,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status locked" data-en="Locked — complete Module 4 first" data-id="Terkunci — selesaikan Modul 4 terlebih dahulu">Locked — complete Module 4 first</span>
       </div>
       <h3 class="assignment-title" data-en="Professional Introduction — Video Assessment" data-id="Perkenalan Profesional — Penilaian Video">Professional Introduction — Video Assessment</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Record a 3-minute video introducing yourself for a professional context — an internship interview, a company presentation, or a networking event. Your introduction should demonstrate the communication principles covered in this module: clarity, structure, energy, and professional presence. After recording, self-assess your performance using the communication rubric provided in the module before submitting." data-id="Rekam video 3 menit yang memperkenalkan dirimu dalam konteks profesional — wawancara magang, presentasi perusahaan, atau acara networking. Perkenalan kamu harus menunjukkan prinsip-prinsip komunikasi yang dibahas dalam modul ini: kejelasan, struktur, energi, dan kehadiran profesional. Setelah merekam, nilai sendiri penampilanmu menggunakan rubrik komunikasi yang disediakan dalam modul sebelum mengirimkan.">Record a 3-minute video introducing yourself for a professional context — an internship interview, a company presentation, or a networking event. Your introduction should demonstrate the communication principles covered in this module: clarity, structure, energy, and professional presence. After recording, self-assess your performance using the communication rubric provided in the module before submitting.</p>
       <div class="assignment-meta">
         <span data-en="Format: Video submission (3 minutes) + self-assessment form" data-id="Format: Pengiriman video (3 menit) + formulir penilaian diri">Format: Video submission (3 minutes) + self-assessment form</span>
@@ -1143,6 +1167,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status locked" data-en="Locked — complete Module 5 first" data-id="Terkunci — selesaikan Modul 5 terlebih dahulu">Locked — complete Module 5 first</span>
       </div>
       <h3 class="assignment-title" data-en="My Digital Productivity System" data-id="Sistem Produktivitas Digital Saya">My Digital Productivity System</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Design and document a personal digital productivity system using at least three tools introduced in this module. Submit a one-page system overview that explains: what your system is designed to achieve, which tools you chose and why, how the tools work together within your workflow, and how you plan to maintain and review the system over the next 90 days." data-id="Rancang dan dokumentasikan sistem produktivitas digital pribadi menggunakan setidaknya tiga alat yang diperkenalkan dalam modul ini. Kirimkan gambaran umum sistem satu halaman yang menjelaskan: apa yang dirancang sistem kamu untuk dicapai, alat mana yang kamu pilih dan mengapa, bagaimana alat-alat itu bekerja bersama dalam alur kerjamu, dan bagaimana kamu berencana untuk mempertahankan dan meninjau sistem selama 90 hari ke depan.">Design and document a personal digital productivity system using at least three tools introduced in this module. Submit a one-page system overview that explains: what your system is designed to achieve, which tools you chose and why, how the tools work together within your workflow, and how you plan to maintain and review the system over the next 90 days.</p>
       <div class="assignment-meta">
         <span data-en="Format: One-page system design with tool screenshots" data-id="Format: Desain sistem satu halaman dengan tangkapan layar alat">Format: One-page system design with tool screenshots</span>
@@ -1157,6 +1182,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
         <span class="assignment-status locked" data-en="Locked — complete Module 6 first" data-id="Terkunci — selesaikan Modul 6 terlebih dahulu">Locked — complete Module 6 first</span>
       </div>
       <h3 class="assignment-title" data-en="Virtual Job Simulation — Reflection Report" data-id="Simulasi Pekerjaan Virtual — Laporan Refleksi">Virtual Job Simulation — Reflection Report</h3>
+      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
       <p class="assignment-desc" data-en="Complete one full virtual job simulation from your chosen industry track and write a structured reflection report. Your report should cover four sections: (1) what the simulation required and how it was structured; (2) how you performed against the stated evaluation criteria; (3) what you learned about the industry, the role, and your own professional readiness; and (4) what you would approach differently in a real application process." data-id="Selesaikan satu simulasi pekerjaan virtual penuh dari jalur industri yang kamu pilih dan tulis laporan refleksi terstruktur. Laporanmu harus mencakup empat bagian: (1) apa yang dibutuhkan simulasi dan bagaimana strukturnya; (2) bagaimana kamu berkinerja berdasarkan kriteria evaluasi yang dinyatakan; (3) apa yang kamu pelajari tentang industri, jabatan, dan kesiapan profesional kamu sendiri; dan (4) apa yang akan kamu dekati secara berbeda dalam proses lamaran nyata.">Complete one full virtual job simulation from your chosen industry track and write a structured reflection report. Your report should cover four sections: (1) what the simulation required and how it was structured; (2) how you performed against the stated evaluation criteria; (3) what you learned about the industry, the role, and your own professional readiness; and (4) what you would approach differently in a real application process.</p>
       <div class="track-select">
         <span class="ts-label" data-en="Choose your industry track:" data-id="Pilih jalur industrimu:">Choose your industry track:</span>
@@ -1494,6 +1520,151 @@ if (!VALID.includes(initTab)) {
 }
 activateTab(initTab);
 expandModule(document.querySelector('.module-accordion[data-module="1"]'));
+})();
+</script>
+
+
+<!-- ═══ LUX: premium learning-experience layer (Syllabus · Modules · Assignments) ═══ -->
+<style id="lux">
+  /* ── Tab banners: cinematic imagery headers ── */
+  .tab-banner{position:relative;border-radius:18px;overflow:hidden;margin-bottom:36px;min-height:205px;
+    display:flex;align-items:flex-end;border:1px solid rgba(201,168,76,.30);box-shadow:0 26px 60px rgba(0,0,0,.42)}
+  .tb-art{position:absolute;inset:-8%;background-size:cover;background-position:center 35%;
+    filter:brightness(1.16) saturate(1.05);animation:heroPan 52s ease-in-out infinite alternate}
+  .tb-veil{position:absolute;inset:0;background:
+    linear-gradient(90deg,rgba(5,10,18,.86) 0%,rgba(5,10,18,.44) 55%,rgba(5,10,18,.08) 100%),
+    linear-gradient(180deg,rgba(5,10,18,.06) 0%,rgba(5,10,18,.60) 100%)}
+  .tb-inner{position:relative;z-index:2;padding:40px 40px 30px;max-width:660px}
+  .tb-kicker{display:inline-flex;align-items:center;gap:9px;font-size:.66rem;font-weight:800;letter-spacing:.22em;
+    text-transform:uppercase;color:#F0D878;margin-bottom:12px}
+  .tb-kicker::before{content:'';width:26px;height:1px;background:linear-gradient(90deg,#C9A84C,transparent)}
+  .tab-banner h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,3vw,2.05rem);color:#fff;line-height:1.22}
+  .tab-banner .tab-sub{color:rgba(255,255,255,.72);font-size:13.5px;margin-top:8px;max-width:540px}
+  .tb-stats{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+  .tb-stat{display:inline-flex;align-items:baseline;gap:7px;background:rgba(8,14,26,.58);backdrop-filter:blur(8px);
+    border:1px solid rgba(201,168,76,.32);border-radius:999px;padding:6px 15px;font-size:11.5px;font-weight:600;
+    color:rgba(255,255,255,.78);letter-spacing:.02em;white-space:nowrap}
+  .tb-stat b{color:#F0D878;font-size:14.5px;font-weight:800}
+  @media(max-width:768px){.tb-inner{padding:26px 20px 22px}.tab-banner{min-height:175px;margin-bottom:28px}}
+
+  /* ── Syllabus: learning-journey timeline ── */
+  .syl-track{position:relative;padding-left:42px}
+  .syl-track::before{content:'';position:absolute;left:13px;top:16px;bottom:26px;width:1px;
+    background:linear-gradient(180deg,transparent,rgba(201,168,76,.45) 5%,rgba(201,168,76,.45) 95%,transparent)}
+  .syl-card{position:relative;grid-template-columns:88px minmax(0,1fr);gap:8px 24px;padding:30px 34px;
+    border-left:1px solid var(--gold-border);border-radius:16px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+  .syl-card::before{content:'';position:absolute;left:-33.5px;top:46px;width:9px;height:9px;transform:rotate(45deg);
+    background:var(--bg-base);border:1.5px solid rgba(201,168,76,.55)}
+  .syl-card:has(.module-status.available)::before{background:var(--gold);border-color:var(--gold-bright);
+    box-shadow:0 0 14px rgba(201,168,76,.8)}
+  .syl-card::after{content:attr(data-num);position:absolute;right:24px;top:8px;font-family:var(--serif);
+    font-style:italic;font-size:5.6rem;line-height:1;color:rgba(201,168,76,.07);pointer-events:none;user-select:none}
+  .syl-card:hover{box-shadow:inset 0 1px 0 rgba(240,216,120,.18),0 18px 44px rgba(0,0,0,.32)}
+  .syl-num{width:66px;height:66px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-size:1.4rem;font-weight:600;color:var(--gold);line-height:1;
+    border:1px solid rgba(201,168,76,.45);background:radial-gradient(circle at 32% 28%,rgba(201,168,76,.16),rgba(201,168,76,.03));
+    box-shadow:0 0 0 5px rgba(201,168,76,.05)}
+  .syl-card:has(.module-status.available) .syl-num{background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));
+    color:#160d03;border-color:transparent;box-shadow:0 0 0 5px rgba(201,168,76,.12),0 6px 20px rgba(201,168,76,.35)}
+  .syl-card:has(.module-status.locked) .syl-num{color:var(--text-faint);border-color:var(--gold-border);
+    background:none;box-shadow:none}
+  .syl-body h3{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.01em;margin:10px 0 9px}
+  .syl-desc{line-height:1.75;max-width:64ch}
+  .syl-foot{gap:10px;margin-top:18px}
+  .syl-meta{border:1px solid var(--gold-border);border-radius:999px;padding:4px 13px;font-size:12px;
+    background:rgba(201,168,76,.04)}
+  @media(max-width:768px){
+    .syl-track{padding-left:0}
+    .syl-track::before,.syl-card::before{display:none}
+    .syl-card{padding:24px 20px}
+    .syl-card::after{font-size:4rem;right:14px}
+    .syl-num{width:52px;height:52px;font-size:1.15rem}
+  }
+
+  /* ── Modules: refined accordion ── */
+  .module-header{padding:19px 24px;border-radius:12px;transition:border-color .2s,background .3s,box-shadow .3s}
+  .module-name{font-family:var(--serif);font-weight:600;font-size:15.5px}
+  .module-number{border:1px solid rgba(201,168,76,.4);border-radius:999px;padding:4px 12px;
+    background:rgba(201,168,76,.08)}
+  .module-accordion[aria-expanded="true"] .module-header{border-color:rgba(201,168,76,.5);
+    background:linear-gradient(180deg,rgba(201,168,76,.11),var(--glass-bg));box-shadow:0 10px 30px rgba(0,0,0,.30)}
+  .module-body{border-radius:0 0 12px 12px}
+  .module-intro{position:relative;padding:18px 26px 18px 30px;background:rgba(201,168,76,.05)}
+  .module-intro::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:linear-gradient(180deg,var(--gold),transparent)}
+  .lesson-card{grid-template-columns:44px minmax(0,1fr) auto auto;padding:14px 26px}
+  .lesson-card[data-status="available"]:hover{transform:translateX(5px)}
+  .lesson-icon{width:36px;height:36px;border-radius:50%;background:rgba(201,168,76,.10);
+    border:1px solid rgba(201,168,76,.28);display:flex;align-items:center;justify-content:center}
+  .lesson-icon svg{width:17px;height:17px}
+  @keyframes lessIn{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
+  .module-accordion[aria-expanded="true"] .module-intro,
+  .module-accordion[aria-expanded="true"] .lesson-card{animation:lessIn .5s cubic-bezier(.25,.8,.3,1) both}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(2){animation-delay:50ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(3){animation-delay:100ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(4){animation-delay:150ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(5){animation-delay:200ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(6){animation-delay:250ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(7){animation-delay:300ms}
+  .module-accordion[aria-expanded="true"] .module-body>*:nth-child(8){animation-delay:350ms}
+  @media(max-width:768px){
+    .lesson-card{grid-template-columns:34px minmax(0,1fr) auto;padding:12px 14px}
+    .lesson-icon{width:28px;height:28px}
+    .lesson-icon svg{width:14px;height:14px}
+  }
+
+  /* ── Assignments: mission-brief cards ── */
+  .filter-row{gap:9px;margin-bottom:26px}
+  .filter-pill{padding:8px 18px;font-size:12.5px}
+  .filter-pill[data-count]::after{content:attr(data-count);margin-left:7px;font-size:10px;font-weight:800;opacity:.55}
+  .assignment-card{position:relative;padding:28px 30px;border-radius:16px;border-left:3px solid transparent;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+  .assignment-card[data-status="available"]{border-left-color:var(--gold)}
+  .assignment-card::after{content:attr(data-num);position:absolute;right:24px;bottom:6px;font-family:var(--serif);
+    font-style:italic;font-size:5rem;line-height:1;color:rgba(201,168,76,.06);pointer-events:none;user-select:none}
+  .assignment-title{font-family:var(--serif);font-weight:600;font-size:18.5px}
+  .asg-brief-lbl{display:block;font-size:.64rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--text-faint);margin:10px 0 6px}
+  .assignment-desc{max-width:72ch}
+  .assignment-meta{margin:16px 0 18px}
+  .assignment-meta span{padding:5px 13px;background:rgba(201,168,76,.04)}
+  .assignment-meta span:nth-of-type(2){color:var(--gold);border-color:rgba(201,168,76,.45);font-weight:700}
+
+  /* ── Light theme adjustments ── */
+  :root[data-theme="light"] .syl-card::after,
+  :root[data-theme="light"] .assignment-card::after{color:rgba(107,82,16,.09)}
+  :root[data-theme="light"] .syl-card::before{background:#EEF1F6}
+  :root[data-theme="light"] .syl-card:has(.module-status.available)::before{background:var(--gold)}
+  :root[data-theme="light"] .syl-card,
+  :root[data-theme="light"] .assignment-card{box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+  :root[data-theme="light"] .module-accordion[aria-expanded="true"] .module-header{
+    background:linear-gradient(180deg,rgba(138,106,20,.10),var(--glass-bg))}
+  :root[data-theme="light"] .tab-banner{box-shadow:0 22px 50px rgba(27,36,52,.25)}
+</style>
+<script>
+(function(){
+  document.querySelectorAll('.syl-card').forEach(function(c){
+    var n=c.querySelector('.syl-num'); if(n) c.dataset.num=n.textContent.trim();
+  });
+  document.querySelectorAll('.assignment-card').forEach(function(c){
+    if(c.dataset.module) c.dataset.num=('0'+c.dataset.module).slice(-2);
+  });
+  var fixExpanded=function(){
+    document.querySelectorAll('.module-accordion[aria-expanded="true"] .module-body').forEach(function(bd){
+      if(parseInt(bd.style.maxHeight||'0',10) < bd.scrollHeight) bd.style.maxHeight = bd.scrollHeight+'px';
+    });
+  };
+  document.querySelectorAll('[data-tab]').forEach(function(btn){
+    btn.addEventListener('click',function(){ setTimeout(fixExpanded,80); });
+  });
+  setTimeout(fixExpanded,150);
+  var cards=document.querySelectorAll('.assignment-card');
+  document.querySelectorAll('.filter-pill').forEach(function(p){
+    var f=p.dataset.filter; if(!f) return;
+    p.dataset.count = f==='all' ? cards.length
+      : document.querySelectorAll('.assignment-card[data-status="'+f+'"]').length;
+  });
 })();
 </script>
 
