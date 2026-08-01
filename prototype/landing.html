@@ -182,6 +182,14 @@
   /* content reveal inside the active scene */
   .fx{opacity:0;transform:translateY(34px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
   .on .fx{opacity:1;transform:none}
+  /* — crest section border (Student-page treatment; adapts via --accent-text per theme/surface) — */
+  .crest-divider{display:flex;align-items:center;gap:22px;width:100%;max-width:920px;margin:0 auto 30px}
+  .crest-divider::before,.crest-divider::after{content:'';flex:1;height:1px}
+  .crest-divider::before{background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--accent-text) 42%,transparent))}
+  .crest-divider::after{background:linear-gradient(270deg,transparent,color-mix(in srgb,var(--accent-text) 42%,transparent))}
+  .crest-divider svg{width:auto;height:24px;flex:none;color:var(--accent-text);
+    filter:drop-shadow(0 0 12px color-mix(in srgb,var(--accent-text) 40%,transparent))}
+  @media(max-width:640px){.crest-divider{gap:14px;margin-bottom:24px}.crest-divider svg{height:19px}}
   .on .fx.d1{transition-delay:.12s}.on .fx.d2{transition-delay:.24s}.on .fx.d3{transition-delay:.36s}.on .fx.d4{transition-delay:.48s}
 
   /* hero scene — the Metanoia Labs masthead (official lockup: glyph | bar | wordmark) */
@@ -693,6 +701,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="prep.ch">Chapter I · First light</span>
         <span class="eyebrow fx" data-i18n="prep.eye">Preparation</span>
         <h2 class="fx d1" data-i18n="prep.h2">No one summits on talent alone. They summit prepared.</h2>
@@ -716,6 +727,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="climb.ch">Chapter II · The weather turns</span>
         <span class="eyebrow fx" data-i18n="climb.eye">The Climb</span>
         <h2 class="fx d1" data-i18n="climb.h2">Two hundred applications into silence. This is the storm.</h2>
@@ -739,6 +753,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="base.ch">Chapter III · Nightfall, firelight</span>
         <span class="eyebrow fx" data-i18n="base.eye">Basecamp</span>
         <h2 class="fx d1" data-i18n="base.h2">Every summit story was first told around a fire.</h2>
@@ -761,6 +778,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="summit.ch">Chapter IV · Sunrise</span>
         <h2 class="fx" data-i18n="summit.h2">When can you start?</h2>
         <p class="lede fx d1" data-i18n="summit.lede">Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.</p>
@@ -777,6 +797,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="hor.ch">Chapter V · The range beyond</span>
         <h2 class="fx" data-i18n="hor.h2">From this summit, you can see the others.</h2>
         <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
@@ -808,6 +831,9 @@
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
+        <div class="crest-divider fx" aria-hidden="true">
+          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+        </div>
         <span class="chapter fx" data-i18n="contact.ch">Chapter VI · The fire stays lit</span>
         <h2 class="fx" data-i18n="contact.h2">Contact Us</h2>
         <p class="lede fx d1" data-i18n="contact.lede">Whether you're a climber, a mentor, a university, or an employer — the rope team is open. Tell us where you are on the mountain.</p>
