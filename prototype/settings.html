@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050A12">
+<title>Settings — Metanoia Labs</title>
+<link rel="canonical" href="https://metanoialabs.net/settings.html">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+:root{
+  --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
+  --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+  --gold-border:rgba(180,140,60,0.16); --gold-border-hover:rgba(201,168,76,0.38); --gold-glow:rgba(201,168,76,0.12);
+  --glass-bg:rgba(8,14,26,0.70); --glass-blur:blur(20px);
+  --text:#FFFFFF; --text-sub:rgba(255,255,255,0.82); --text-muted:rgba(255,255,255,0.55); --text-faint:rgba(255,255,255,0.30);
+  --red:#DC2626;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --text-xs:0.6875rem; --text-sm:0.75rem; --text-base:0.875rem; --text-md:1rem; --text-lg:1.125rem; --text-xl:1.25rem; --text-2xl:1.5rem;
+  --space-1:0.25rem; --space-2:0.5rem; --space-3:0.75rem; --space-4:1rem; --space-5:1.25rem; --space-6:1.5rem; --space-8:2rem; --space-10:2.5rem; --space-16:4rem;
+  --radius-md:8px; --radius-lg:12px; --radius-xl:16px; --radius-full:9999px;
+  --glow-gold-sm:0 0 12px rgba(201,168,76,0.15);
+  --focus-ring:0 0 0 2px var(--bg-base),0 0 0 4px var(--gold);
+  --t-micro:150ms ease; --t-feature:400ms ease;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{font-family:var(--font-sans);font-size:var(--text-base);color:var(--text);line-height:1.5;min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+  background:radial-gradient(ellipse 80% 40% at 50% -5%, rgba(201,168,76,0.06) 0%, transparent 60%),var(--bg-base)}
+a{text-decoration:none} button{font-family:var(--font-sans);cursor:pointer} svg{display:inline-block;vertical-align:middle}
+h1,h2,h3{font-weight:inherit;margin:0}
+.topbar{position:fixed;top:0;left:0;right:0;height:56px;z-index:100;display:flex;align-items:center;justify-content:space-between;
+  padding:0 var(--space-6);background:rgba(8,14,26,0.96);border-bottom:1px solid var(--gold-border);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.tb-left{display:flex;align-items:center;gap:var(--space-4)}
+.tb-wordmark{font-size:var(--text-base);font-weight:700;color:var(--gold);letter-spacing:0.04em;display:inline-flex;align-items:center;gap:var(--space-2)}
+.tb-sep{width:1px;height:20px;background:var(--gold-border)}
+.tb-crumb{font-size:var(--text-sm);color:var(--text-muted)} .tb-crumb a{color:var(--text-muted);transition:color var(--t-micro)}
+.tb-crumb a:hover{color:var(--gold)} .tb-crumb .cur{color:var(--gold);font-weight:500}
+.lang-toggle{display:flex;align-items:center;background:rgba(255,255,255,0.05);border:1px solid var(--gold-border);border-radius:var(--radius-full);overflow:hidden}
+.lang-btn{padding:4px 10px;font-size:var(--text-xs);font-weight:600;letter-spacing:0.04em;border:none;background:transparent;color:var(--text-muted);transition:all var(--t-micro)}
+.lang-btn.active{background:var(--gold);color:var(--bg-base)}
+.shell{padding-top:56px;min-height:100vh}
+.content{max-width:880px;margin:0 auto;padding:var(--space-8) var(--space-6) var(--space-16)}
+.page-title{font-size:var(--text-2xl);font-weight:700;letter-spacing:-0.03em;margin-bottom:var(--space-2)}
+.page-sub{font-size:var(--text-base);color:var(--text-muted);margin-bottom:var(--space-8)}
+.subnav{display:flex;gap:var(--space-2);flex-wrap:wrap;margin-bottom:var(--space-6)}
+.subnav button{background:transparent;border:1px solid var(--gold-border);border-radius:var(--radius-full);color:var(--text-muted);
+  font-size:var(--text-sm);font-weight:600;padding:7px var(--space-4);transition:all var(--t-micro)}
+.subnav button:hover{border-color:var(--gold-border-hover);color:var(--text-sub)}
+.subnav button.active{background:var(--gold-glow);color:var(--gold);border-color:var(--gold-border-hover)}
+.panel{background:var(--glass-bg);backdrop-filter:var(--glass-blur);-webkit-backdrop-filter:var(--glass-blur);
+  border:1px solid var(--gold-border);border-radius:var(--radius-xl);padding:var(--space-8);animation:fadeIn var(--t-feature) ease both}
+.panel h2{font-size:var(--text-lg);font-weight:600;margin-bottom:var(--space-1)}
+.panel .ph-sub{font-size:var(--text-sm);color:var(--text-muted);margin-bottom:var(--space-6)}
+.f-label{display:block;font-size:var(--text-xs);font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-muted);margin-bottom:var(--space-2)}
+.f-input,.f-select{width:100%;padding:10px var(--space-4);background:rgba(8,14,26,0.60);border:1px solid var(--gold-border);
+  border-radius:var(--radius-md);color:var(--text);font-family:var(--font-sans);font-size:var(--text-base);outline:none;
+  transition:border-color var(--t-micro);appearance:none}
+.f-input:hover,.f-select:hover{border-color:var(--gold-border-hover)}
+.f-input:focus,.f-select:focus{border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-glow)}
+.f-input::placeholder{color:var(--text-faint)}
+.f-group{margin-bottom:var(--space-5)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)}
+.check-row{display:flex;align-items:center;gap:var(--space-3);font-size:var(--text-base);color:var(--text-sub);margin-bottom:var(--space-4)}
+.check-row input{accent-color:var(--gold);width:16px;height:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);font-weight:600;font-size:var(--text-base);
+  line-height:1;border-radius:var(--radius-md);border:1px solid transparent;padding:10px var(--space-6);text-decoration:none;
+  white-space:nowrap;transition:all var(--t-micro);outline:none}
+.btn:focus-visible{box-shadow:var(--focus-ring)}
+.btn-primary{background:linear-gradient(135deg,var(--gold) 0%,var(--gold-deep) 100%);color:var(--bg-base)}
+.btn-primary:hover{background:linear-gradient(135deg,var(--gold-bright) 0%,var(--gold) 100%);box-shadow:var(--glow-gold-sm);transform:translateY(-1px)}
+.btn-secondary{background:transparent;color:var(--gold);border-color:var(--gold-border-hover)}
+.btn-secondary:hover{background:var(--gold-glow);border-color:var(--gold)}
+.btn-destructive{background:transparent;color:var(--red);border-color:rgba(220,38,38,0.30)}
+.btn-destructive:hover{background:rgba(220,38,38,0.10);border-color:var(--red)}
+.note{font-size:var(--text-sm);color:var(--text-faint);margin-top:var(--space-3);line-height:1.625}
+.avatar-big{width:64px;height:64px;border-radius:var(--radius-full);background:var(--gold-glow);border:1.5px solid var(--gold-border);
+  color:var(--gold);font-size:var(--text-xl);font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:var(--space-5)}
+.toast-container{position:fixed;bottom:var(--space-6);right:var(--space-6);z-index:300;display:flex;flex-direction:column;gap:var(--space-3);pointer-events:none}
+.toast{padding:var(--space-4) var(--space-5);background:rgba(10,20,36,0.97);border:1px solid var(--gold-border);
+  border-radius:var(--radius-lg);box-shadow:0 8px 24px rgba(0,0,0,0.60),var(--glow-gold-sm);min-width:240px;pointer-events:all;
+  font-size:var(--text-sm);color:var(--text-sub);animation:toastIn 300ms ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes toastIn{from{opacity:0;transform:translateX(100%)}to{opacity:1;transform:translateX(0)}}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:0.01ms !important;transition-duration:0.01ms !important}}
+@media (prefers-contrast: more){:root{--gold-border:rgba(201,168,76,0.45);--gold-border-hover:rgba(201,168,76,0.85);--text-muted:rgba(255,255,255,0.75);--text-faint:rgba(255,255,255,0.50)}}
+@media (max-width:768px){.content{padding:var(--space-6) var(--space-4) var(--space-10)}.f-row{grid-template-columns:1fr}.panel{padding:var(--space-5)}}
+</style>
+</head>
+<body>
+<header class="topbar" role="banner">
+  <div class="tb-left">
+    <a href="landing.html" class="tb-wordmark" aria-label="Metanoia Labs home">
+      <svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="currentColor"/></svg>
+      <span>Metanoia Labs</span></a>
+    <div class="tb-sep"></div>
+    <nav class="tb-crumb" aria-label="Breadcrumb"><a href="portal.html" data-en="Portal" data-id="Portal">Portal</a> › <span class="cur" data-en="Settings" data-id="Pengaturan">Settings</span></nav>
+  </div>
+  <div class="lang-toggle" role="group" aria-label="Language">
+    <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')">EN</button>
+    <button class="lang-btn" id="lang-id" onclick="setLanguage('id')">ID</button>
+  </div>
+</header>
+
+<div class="shell"><main class="content" role="main">
+  <h1 class="page-title" data-en="Settings" data-id="Pengaturan">Settings</h1>
+  <p class="page-sub" data-en="Manage your account, your target, and how Metanoia works for you." data-id="Kelola akunmu, targetmu, dan cara Metanoia bekerja untukmu.">Manage your account, your target, and how Metanoia works for you.</p>
+
+  <div class="subnav" role="tablist" id="subnav">
+    <button class="active" data-set="profile" data-en="Profile" data-id="Profil">Profile</button>
+    <button data-set="target" data-en="Career Target" data-id="Target Karier">Career Target</button>
+    <button data-set="notifications" data-en="Notifications" data-id="Notifikasi">Notifications</button>
+    <button data-set="privacy" data-en="Privacy &amp; Data" data-id="Privasi &amp; Data">Privacy &amp; Data</button>
+    <button data-set="subscription" data-en="Subscription" data-id="Langganan">Subscription</button>
+  </div>
+
+  <div class="panel" id="panel"></div>
+</main></div>
+
+<div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+<script>
+(() => {
+'use strict';
+let lang = 'en';
+try { const l = localStorage.getItem('mtLang') || sessionStorage.getItem('metanoia_lang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
+const L = (en, id) => (lang === 'id' ? id : en);
+let session = null;
+try { session = JSON.parse(localStorage.getItem('metanoia_session') || 'null'); } catch (e) {}
+const name = (session && session.name) || 'Explorer';
+const email = (session && session.email) || '';
+const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+
+window.setLanguage = function (l) {
+  if (l !== 'en' && l !== 'id') return;
+  lang = l;
+  try { localStorage.setItem('mtLang', l); sessionStorage.setItem('metanoia_lang', l); } catch (e) {}
+  document.getElementById('lang-en').classList.toggle('active', l === 'en');
+  document.getElementById('lang-id').classList.toggle('active', l === 'id');
+  document.querySelectorAll('[data-en]').forEach(el => {
+    el.innerHTML = l === 'id' ? (el.dataset.id || el.dataset.en) : el.dataset.en;
+  });
+  document.documentElement.lang = l;
+  render(cur);
+};
+
+function toast(msg) {
+  const t = document.createElement('div');
+  t.className = 'toast'; t.textContent = msg;
+  document.getElementById('toast-container').appendChild(t);
+  setTimeout(() => t.remove(), 3000);
+}
+
+let cur = 'profile';
+const PANELS = {
+  profile: () => '<h2>' + L('Profile', 'Profil') + '</h2><p class="ph-sub">' + L('This is how you appear across Metanoia.', 'Beginilah tampilanmu di seluruh Metanoia.') + '</p>' +
+    '<div class="avatar-big">' + initials + '</div>' +
+    '<div class="f-row"><div class="f-group"><label class="f-label">' + L('First name', 'Nama depan') + '</label><input class="f-input" value="' + name.split(' ')[0] + '"></div>' +
+    '<div class="f-group"><label class="f-label">' + L('Last name', 'Nama belakang') + '</label><input class="f-input" placeholder="' + L('Your last name', 'Nama belakangmu') + '" value="' + (name.split(' ').slice(1).join(' ') || '') + '"></div></div>' +
+    '<div class="f-group"><label class="f-label">Email</label><input class="f-input" value="' + email + '" placeholder="you@example.com"></div>' +
+    '<div class="f-row"><div class="f-group"><label class="f-label">' + L('Phone / WhatsApp (optional)', 'Telepon / WhatsApp (opsional)') + '</label><input class="f-input" placeholder="+62…"></div>' +
+    '<div class="f-group"><label class="f-label">' + L('University / Institution', 'Universitas / Institusi') + '</label><input class="f-input" placeholder="' + L('e.g., Universitas Indonesia', 'mis., Universitas Indonesia') + '"></div></div>' +
+    '<button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button>',
+  target: () => {
+    let cal = {}; try { cal = JSON.parse(sessionStorage.getItem('compass_calibration') || '{}') || {}; } catch (e) {}
+    return '<h2>' + L('Career Target', 'Target Karier') + '</h2><p class="ph-sub">' + L('The clearer your target, the sharper your bearing.', 'Semakin jelas targetmu, semakin tajam arahmu.') + '</p>' +
+    '<div class="f-group"><label class="f-label">' + L('Target role', 'Posisi target') + '</label><input class="f-input" placeholder="' + L('e.g., Financial Analyst', 'mis., Analis Keuangan') + '"></div>' +
+    '<div class="f-group"><label class="f-label">' + L('Target industry', 'Industri target') + '</label><input class="f-input" value="' + (cal.industry || '') + '" placeholder="' + L('Set during calibration', 'Ditetapkan saat kalibrasi') + '"></div>' +
+    '<div class="f-group"><label class="f-label">' + L('Career stage', 'Tahap karier') + '</label><input class="f-input" value="' + (cal.careerStage || '') + '" placeholder="' + L('Set during calibration', 'Ditetapkan saat kalibrasi') + '"></div>' +
+    '<button class="btn btn-secondary" onclick="window.location.href=\'portal.html?onboarding=true\'">' + L('Recalibrate the Compass', 'Kalibrasi Ulang Kompas') + '</button>' +
+    '<p class="note">' + L('Recalibrating re-runs the five-question baseline and updates your seed scores.', 'Kalibrasi ulang menjalankan kembali lima pertanyaan dasar dan memperbarui skor awalmu.') + '</p>' +
+    '<div style="margin-top:1.25rem"><button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button></div>';
+  },
+  notifications: () => '<h2>' + L('Notifications', 'Notifikasi') + '</h2><p class="ph-sub">' + L('Choose what reaches you, and how.', 'Pilih apa yang sampai kepadamu, dan bagaimana caranya.') + '</p>' +
+    ['<label class="check-row"><input type="checkbox" checked> ' + L('Weekly navigation summary email', 'Email ringkasan navigasi mingguan') + '</label>',
+     '<label class="check-row"><input type="checkbox" checked> ' + L('New waypoint unlocked', 'Waypoint baru terbuka') + '</label>',
+     '<label class="check-row"><input type="checkbox" checked> ' + L('Route deadlines and overdue actions', 'Tenggat rute dan tindakan terlambat') + '</label>',
+     '<label class="check-row"><input type="checkbox"> ' + L('Product updates from the mountain', 'Kabar produk dari gunung') + '</label>'].join('') +
+    '<button class="btn btn-primary save-btn" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
+  privacy: () => '<h2>' + L('Privacy &amp; Data', 'Privasi &amp; Data') + '</h2><p class="ph-sub">' + L('Your climb, your data. Always yours.', 'Pendakianmu, datamu. Selalu milikmu.') + '</p>' +
+    '<p style="font-size:var(--text-sm);color:var(--text-muted);line-height:1.625;margin-bottom:1.5rem">' +
+    L("We store your data securely and never sell it to third parties. Your Compass data lives in your browser's local storage and is never deleted on subscription lapse. We comply with Indonesia's Personal Data Protection Law (PDP Law).",
+      'Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Data Compass-mu tersimpan di penyimpanan lokal perambanmu dan tidak pernah dihapus saat langganan berakhir. Kami mematuhi Undang-Undang Pelindungan Data Pribadi (UU PDP) Indonesia.') + '</p>' +
+    '<div style="display:flex;gap:0.75rem;flex-wrap:wrap"><button class="btn btn-secondary" id="export-btn">' + L('Export my data', 'Ekspor data saya') + '</button>' +
+    '<button class="btn btn-destructive" id="delete-btn">' + L('Delete my account', 'Hapus akun saya') + '</button></div>',
+  subscription: () => {
+    const tier = (() => { try { return sessionStorage.getItem('metanoia_compass_tier') || 'free'; } catch (e) { return 'free'; } })();
+    return '<h2>' + L('Subscription', 'Langganan') + '</h2><p class="ph-sub">' + L('Your current plan and what it unlocks.', 'Paket saat ini dan apa yang dibukanya.') + '</p>' +
+    '<div class="f-group"><label class="f-label">' + L('Current plan', 'Paket saat ini') + '</label>' +
+    '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'Project Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Learning Access (free)', 'Akses Belajar (gratis)')) + '</div></div>' +
+    '<p class="note">' + L('Project Compass unlocks unlimited routes, the full Waypoints chart, and the complete Navigation Briefing. Your data is never deleted if a subscription lapses.',
+      'Project Compass membuka rute tanpa batas, peta Waypoints lengkap, dan Briefing Navigasi menyeluruh. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
+    '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register.html?plan=premium\'">' + L('Activate Project Compass →', 'Aktifkan Project Compass →') + '</button>';
+  }
+};
+
+function render(key) {
+  cur = key;
+  const panel = document.getElementById('panel');
+  panel.innerHTML = PANELS[key]();
+  panel.querySelectorAll('.save-btn').forEach(b => b.addEventListener('click', () => toast(L('Saved.', 'Tersimpan.'))));
+  const ex = document.getElementById('export-btn');
+  if (ex) ex.addEventListener('click', () => {
+    try {
+      const data = {};
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.indexOf('compass_') === 0) data[k] = localStorage.getItem(k);
+      }
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob); a.download = 'metanoia-compass-data.json'; a.click();
+    } catch (e) { toast(L('Export failed.', 'Ekspor gagal.')); }
+  });
+  const del = document.getElementById('delete-btn');
+  if (del) del.addEventListener('click', () => toast(L('Contact hello@metanoialabs.net to delete your account.', 'Hubungi hello@metanoialabs.net untuk menghapus akunmu.')));
+}
+document.querySelectorAll('#subnav button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#subnav button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  render(b.dataset.set);
+}));
+setLanguage(lang);
+render('profile');
+})();
+</script>
+</body>
+</html>
