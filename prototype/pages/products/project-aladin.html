@@ -438,7 +438,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
   <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg><span class="wm">Metanoia<i>Labs</i></span></a>
     <span class="tb-sep" aria-hidden="true"></span>
     <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="../../portal.html#my-learning" class="breadcrumb-back">← <span data-en="My Learning" data-id="Pembelajaran Saya">My Learning</span></a>
+      <a href="../../portal.html" class="breadcrumb-back">← <span data-en="Portal" data-id="Portal">Portal</span></a>
       <span class="breadcrumb-sep">·</span>
       <span class="breadcrumb-current">Project Aladin</span>
     </nav>
@@ -478,7 +478,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
       <div class="spm" data-en="0 of 6 modules complete" data-id="0 dari 6 modul selesai">0 of 6 modules complete</div>
     </div>
     <div class="sb-foot">
-      <a href="../../portal.html#my-learning">← <span data-en="Back to My Learning Portal" data-id="Kembali ke Portal Pembelajaran">Back to My Learning Portal</span></a>
+      <a href="../../portal.html">← <span data-en="Back to Portal" data-id="Kembali ke Portal">Back to Portal</span></a>
     </div>
   </aside>
 
@@ -1710,7 +1710,7 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
   var b = document.createElement('div');
   b.setAttribute('style', 'position:fixed;top:56px;left:0;right:0;z-index:99;display:flex;justify-content:center;padding:7px 12px;background:rgba(8,14,26,.94);border-bottom:1px solid rgba(201,168,76,.35);backdrop-filter:blur(12px)');
   var lang = 'en'; try { var l = localStorage.getItem('mtLang'); if (l === 'id') lang = 'id'; } catch (e) {}
-  b.innerHTML = '<a href="../../portal.html#bearing" style="color:#C9A84C;font-size:12.5px;font-weight:700;text-decoration:none;letter-spacing:.02em">' +
+  b.innerHTML = '<a href="the-compass.html#bearing" style="color:#C9A84C;font-size:12.5px;font-weight:700;text-decoration:none;letter-spacing:.02em">' +
     (lang === 'id' ? '← Kembali ke Project Compass' : '← Back to Project Compass') + '</a>';
   document.body.appendChild(b);
 } catch (e) {} })();
