@@ -195,6 +195,8 @@
 
   /* ═══ CH1 — THE RECKONING (Student Ch1 editorial design system) ═══ */
   .journey-wrap{position:relative}
+  /* chapters inside the journey ride on the shared artwork — solid backdrops go transparent */
+  .journey-wrap section.alt,.journey-wrap section.gauntlet-sec{background:transparent}
   .journey-bg{position:sticky;top:0;height:100vh;margin-bottom:-100vh;z-index:0;
     overflow:hidden;pointer-events:none}
   .journey-bg img{width:100%;height:auto;min-height:100.5%;object-fit:cover;
@@ -1155,7 +1157,6 @@
     </div>
   </div>
 </section>
-</div><!-- /journey-wrap -->
 
 <!-- ═══ CHAPTER II · THE HIRING GAUNTLET ═══ -->
 <section class="block gauntlet-sec" id="hiring-gauntlet">
@@ -1410,6 +1411,7 @@
     </div>
   </div>
 </section>
+</div><!-- /journey-wrap -->
 
 <!-- ═══ SEE IT WORK ═══ -->
 <section class="how-section" id="see-it-work">
