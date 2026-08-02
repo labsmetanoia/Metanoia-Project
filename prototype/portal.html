@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://metanoialabs.net/portal.html"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/portal.html">
-<title>The Climb — Your Basecamp · Metanoia Labs</title>
+<title>The Compass — Your Basecamp · Metanoia Labs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
@@ -485,6 +485,7 @@
     .module-title{font-size:1.65rem}
   }
   @media(max-width:480px){.tb-lockup .wm{display:none}.tb-bell{display:none}}
+  @keyframes compassSettle{0%{transform:rotate(0)}60%{transform:rotate(375deg)}80%{transform:rotate(358deg)}100%{transform:rotate(360deg)}}
   @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
 </style>
 <style>
@@ -962,7 +963,7 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
       <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
     <span class="wm"><b>Metanoia</b><i>Labs</i></span>
   </a>
-  <div class="position-pill" id="posPillWrap" role="button" tabindex="0" onclick="showModule(&quot;dashboard&quot;)" aria-label="Career readiness — open dashboard"><span class="position-dot"></span><span id="posPill">— · 0/100</span></div>
+  <div class="position-pill" id="posPillWrap" role="button" tabindex="0" onclick="showModule(&quot;bearing&quot;)" aria-label="Career readiness — open dashboard"><span class="position-dot"></span><span id="posPill">— · 0/100</span></div>
   <div class="tb-right">
     <div class="ctl" role="group" aria-label="Language / Bahasa">
       <button data-lang="en" aria-pressed="true">EN</button>
@@ -994,22 +995,22 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
     <div class="idn-streaks" id="idnStreaks"></div>
   </div>
   <nav class="sidebar-nav">
-    <span class="nav-section-label" data-en="The Climb" data-id="The Climb">The Climb</span>
-    <a href="#dashboard" class="sidebar-item active" data-module="dashboard">
+    <span class="nav-section-label" data-en="The Compass" data-id="Kompas">The Compass</span>
+    <a href="#bearing" class="sidebar-item active" data-module="bearing">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg>
-      <span data-en="Dashboard" data-id="Dasbor">Dashboard</span></a>
-    <a href="#applications" class="sidebar-item" data-module="applications">
+      <span data-en="Bearing" data-id="Bearing">Bearing</span></a>
+    <a href="#course-plotter" class="sidebar-item" data-module="course-plotter">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg>
-      <span data-en="Applications" data-id="Lamaran">Applications</span><span class="nav-badge" id="appsBadge" style="display:none">0</span></a>
+      <span data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</span><span class="nav-badge" id="appsBadge" style="display:none">0</span></a>
     <a href="#my-learning" class="sidebar-item" data-module="learning">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" stroke-linejoin="round"/><path d="M12 6v11"/></svg>
       <span data-en="My Learning" data-id="Pembelajaran Saya">My Learning</span><span class="nav-progress" id="learnPct">0%</span></a>
-    <a href="#milestones" class="sidebar-item" data-module="milestones">
+    <a href="#waypoints" class="sidebar-item" data-module="waypoints">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg>
-      <span data-en="Milestones" data-id="Tonggak Pencapaian">Milestones</span></a>
-    <a href="#insights" class="sidebar-item" data-module="insights">
+      <span data-en="Waypoints" data-id="Titik Singgah">Waypoints</span></a>
+    <a href="#nav-briefing" class="sidebar-item" data-module="nav-briefing">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg>
-      <span data-en="Insights" data-id="Wawasan">Insights</span><span class="nav-badge" id="insightsBadge">3</span></a>
+      <span data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</span><span class="nav-badge" id="insightsBadge">3</span></a>
     <span class="nav-section-label" style="margin-top:20px" data-en="Account" data-id="Akun">Account</span>
     <a href="#settings" class="sidebar-item" data-module="settings">
       <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 6.6 19l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H2a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 3.4 6.6l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H8a1.6 1.6 0 0 0 1-1.5V2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V8a1.6 1.6 0 0 0 1.5 1H22a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
@@ -1027,33 +1028,33 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
 <!-- ═══ MAIN CONTENT ═══ -->
 <main class="portal-content">
 
-  <!-- ── MODULE: DASHBOARD (The Climb home state) ── -->
-  <section class="module active" id="module-dashboard">
+  <!-- ── MODULE: BEARING (Project Compass home state) ── -->
+  <section class="module active" id="module-bearing">
     <div class="module-header">
       <div>
-        <h1 class="module-title" data-en="Dashboard" data-id="Dasbor">Dashboard</h1>
+        <h1 class="module-title" data-en="Bearing" data-id="Bearing">Bearing</h1>
         <p class="module-sub" id="dashGreeting"></p>
       </div>
       <div class="module-date" id="todayDate"></div>
     </div>
     <div id="dashTodaysMoveSlot"></div>
     <div class="glass-card char-sheet" id="charSheet"></div>
-    <h3 class="sec-label" data-en="Five Dimensions" data-id="Lima Dimensi">Five Dimensions</h3>
+    <h3 class="sec-label" data-en="Compass Points" data-id="Titik Kompas">Compass Points</h3>
     <div class="dim-grid" id="dimGrid"></div>
-    <h3 class="sec-label" data-en="Application Pipeline" data-id="Alur Lamaran">Application Pipeline</h3>
+    <h3 class="sec-label" data-en="Course Pipeline" data-id="Alur Rute">Course Pipeline</h3>
     <div class="glass-card pipe-sum" id="pipeSum"></div>
-    <h3 class="sec-label" data-en="Learning Progress" data-id="Kemajuan Belajar">Learning Progress</h3>
+    <h3 class="sec-label" data-en="Curriculum Progress" data-id="Kemajuan Kurikulum">Curriculum Progress</h3>
     <div class="pmap-grid" id="pmapGrid"></div>
   </section>
 
   <!-- ── MODULE: APPLICATIONS (Job Application Tracker) ── -->
-  <section class="module" id="module-applications">
+  <section class="module" id="module-course-plotter">
     <div class="module-header"><div>
-      <h1 class="module-title" data-en="Application Tracker" data-id="Pelacak Lamaran">Application Tracker</h1>
-      <p class="module-sub" data-en="Your complete job search history — every application, every stage, every next move." data-id="Riwayat pencarian kerja lengkapmu — setiap lamaran, setiap tahap, setiap langkah berikutnya.">Your complete job search history — every application, every stage, every next move.</p>
+      <h1 class="module-title" data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</h1>
+      <p class="module-sub" data-en="Every application is a route. Track every stage, every move, every result." data-id="Setiap lamaran adalah rute. Lacak setiap tahap, setiap langkah, setiap hasil.">Every application is a route. Track every stage, every move, every result.</p>
     </div></div>
     <div class="apps-controls">
-      <button class="btn-gold" id="addAppBtn"><span data-en="+ Add Application" data-id="+ Tambah Lamaran">+ Add Application</span></button>
+      <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Tambah Rute Baru">+ Plot New Route</span></button>
       <span class="spacer"></span>
       <div class="seg-toggle" role="group" aria-label="View mode">
         <button id="viewBoardBtn" data-en="Board" data-id="Papan">Board</button>
@@ -1091,12 +1092,12 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
   </section>
 
   <!-- ── MODULE: MILESTONES ── -->
-  <section class="module" id="module-milestones">
+  <section class="module" id="module-waypoints">
     <div class="module-header"><div>
-      <h1 class="module-title" data-en="Career Milestones" data-id="Tonggak Pencapaian Karier">Career Milestones</h1>
-      <p class="module-sub" data-en="Every step documented. Every achievement permanent." data-id="Setiap langkah terdokumentasi. Setiap pencapaian bersifat permanen.">Every step documented. Every achievement permanent.</p>
+      <h1 class="module-title" data-en="Waypoints" data-id="Titik Singgah">Waypoints</h1>
+      <p class="module-sub" data-en="Every achievement, permanently marked. Every step forward, permanently yours." data-id="Setiap pencapaian, ditandai selamanya. Setiap langkah maju, milikmu selamanya.">Every achievement, permanently marked. Every step forward, permanently yours.</p>
     </div></div>
-    <h3 class="sec-label" data-en="The 4-Year Journey Map" data-id="Peta Perjalanan 4 Tahun">The 4-Year Journey Map</h3>
+    <h3 class="sec-label" data-en="The 4-Year Career Chart" data-id="Peta Karier 4 Tahun">The 4-Year Career Chart</h3>
     <div class="glass-card journey-map" id="journeyMap"></div>
     <div class="glass-card xp-line" id="xpLine"></div>
     <h3 class="sec-label" data-en="Achievement Badges" data-id="Lencana Pencapaian">Achievement Badges</h3>
@@ -1108,29 +1109,29 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
     </div>
     <h3 class="sec-label" data-en="Certificate Gallery" data-id="Galeri Sertifikat">Certificate Gallery</h3>
     <div class="cert-grid" id="certGallery"></div>
-    <h3 class="sec-label" data-en="Coming to The Climb" data-id="Segera Hadir di The Climb">Coming to The Climb</h3>
+    <h3 class="sec-label" data-en="Coming to Project Compass" data-id="Segera Hadir di Project Compass">Coming to Project Compass</h3>
     <div class="future-strip" id="futureStrip"></div>
   </section>
 
   <!-- ── MODULE: INSIGHTS ── -->
-  <section class="module" id="module-insights">
+  <section class="module" id="module-nav-briefing">
     <div class="module-header"><div>
-      <h1 class="module-title" data-en="Your Insights" data-id="Wawasanmu">Your Insights</h1>
-      <p class="module-sub" data-en="Data-driven guidance built around your specific journey. Updated every time you log progress." data-id="Panduan berbasis data yang dibangun di sekitar perjalananmu yang spesifik. Diperbarui setiap kali kamu mencatat kemajuan.">Data-driven guidance built around your specific journey. Updated every time you log progress.</p>
+      <h1 class="module-title" data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</h1>
+      <p class="module-sub" data-en="Your career position analysis. Updated every time you log progress or advance a route." data-id="Analisis posisi kariermu. Diperbarui setiap kali kamu mencatat kemajuan atau memajukan rute.">Your career position analysis. Updated every time you log progress or advance a route.</p>
     </div></div>
     <h3 class="sec-label" data-en="Your Priority Actions" data-id="Tindakan Prioritasmu">Your Priority Actions</h3>
     <div id="priActions"></div>
     <div id="insLocked">
-      <h3 class="sec-label" data-en="Application Pattern Analysis" data-id="Analisis Pola Lamaran">Application Pattern Analysis</h3>
+      <h3 class="sec-label" data-en="Route Pattern Analysis" data-id="Analisis Pola Rute">Route Pattern Analysis</h3>
       <div class="glass-card ins-panel" id="patternPanel"></div>
       <div id="deepDives"></div>
-      <h3 class="sec-label" data-en="Weekly Summary" data-id="Ringkasan Mingguan">Weekly Summary</h3>
+      <h3 class="sec-label" data-en="Weekly Navigation Summary" data-id="Ringkasan Navigasi Mingguan">Weekly Navigation Summary</h3>
       <div class="glass-card week-card" id="weekCard"></div>
     </div>
     <div class="glass-card soon-card">
-      <div class="sc-lock">🔒 <span data-en="Coming Soon — Metanoia Benchmark Intelligence" data-id="Segera Hadir — Metanoia Benchmark Intelligence">Coming Soon — Metanoia Benchmark Intelligence</span></div>
+      <div class="sc-lock">🔒 <span data-en="Coming Soon — Compass Intelligence" data-id="Segera Hadir — Compass Intelligence">Coming Soon — Compass Intelligence</span></div>
       <h4 data-en="Competitive Positioning" data-id="Posisi Kompetitif">Competitive Positioning</h4>
-      <p data-en="Once enough Metanoia students have completed The Climb, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark." data-id="Setelah cukup banyak pelajar Metanoia menyelesaikan The Climb, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan — datamu sudah berkontribusi pada benchmark.">Once enough Metanoia students have completed The Climb, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark.</p>
+      <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark." data-id="Setelah jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan — datamu sudah berkontribusi pada benchmark.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark.</p>
     </div>
   </section>
 
@@ -1226,7 +1227,7 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
 <div class="veil" id="appModal" role="dialog" aria-modal="true" aria-labelledby="appModalTitle">
   <div class="modal-card">
     <div class="modal-head">
-      <h3 id="appModalTitle" data-en="Add Application" data-id="Tambah Lamaran">Add Application</h3>
+      <h3 id="appModalTitle" data-en="Plot New Route" data-id="Tambah Rute Baru">Plot New Route</h3>
       <button class="modal-x" data-close="appModal" aria-label="Close">✕</button>
     </div>
     <form id="appForm" novalidate>
@@ -1293,19 +1294,19 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
 <div class="veil" id="rejectModal" role="dialog" aria-modal="true" aria-labelledby="rejectTitle">
   <div class="modal-card" style="max-width:520px">
     <div class="modal-head">
-      <h3 id="rejectTitle" style="display:flex;align-items:center;gap:10px"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 30 L15 12 L20 20 L25 9 L34 30" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Rejection Logged" data-id="Penolakan Tercatat">Rejection Logged</span></h3>
+      <h3 id="rejectTitle" style="display:flex;align-items:center;gap:10px"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 30 L15 12 L20 20 L25 9 L34 30" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Route Closed" data-id="Rute Ditutup">Route Closed</span></h3>
       <button class="modal-x" data-close="rejectModal" aria-label="Close">✕</button>
     </div>
-    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every rejection is information. Climbers who learn from each fall reach the summit faster than those who don't." data-id="Setiap penolakan adalah informasi. Pendaki yang belajar dari setiap jatuh mencapai puncak lebih cepat daripada yang tidak.">Every rejection is information. Climbers who learn from each fall reach the summit faster than those who don't.</p>
+    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every closed route teaches you something the open ones can&#39;t. Navigate better next time." data-id="Setiap rute yang ditutup mengajarkan sesuatu yang tidak bisa diajarkan rute yang terbuka. Bernavigasilah lebih baik lain kali.">Every closed route teaches you something the open ones can't. Navigate better next time.</p>
     <form id="rejectForm" novalidate>
       <div class="f-grid">
         <div class="f-field full"><label for="rjStage"><span data-en="Which stage did you reach?" data-id="Tahap mana yang kamu capai?">Which stage did you reach?</span></label><select id="rjStage"></select></div>
         <div class="f-field full"><label for="rjAgain"><span data-en="Would you apply again?" data-id="Apakah kamu akan melamar lagi?">Would you apply again?</span></label><select id="rjAgain"></select></div>
-        <div class="f-field full"><label for="rjDiff"><span data-en="One thing to do differently" data-id="Satu hal yang akan dilakukan berbeda">One thing to do differently</span></label><input id="rjDiff" type="text"></div>
+        <div class="f-field full"><label for="rjDiff"><span data-en="One navigation adjustment" data-id="Satu penyesuaian navigasi">One navigation adjustment</span></label><input id="rjDiff" type="text"></div>
       </div>
       <div class="modal-foot">
         <button type="button" class="btn-plain" id="rejectSkip" data-en="Skip" data-id="Lewati">Skip</button>
-        <button type="submit" class="btn-gold"><span data-en="Log &amp; Learn →" data-id="Catat &amp; Pelajari →">Log &amp; Learn →</span></button>
+        <button type="submit" class="btn-gold"><span data-en="Log &amp; Calibrate →" data-id="Catat &amp; Kalibrasi →">Log &amp; Calibrate →</span></button>
       </div>
     </form>
   </div>
@@ -1331,7 +1332,7 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
 <div class="veil" id="offerModal" role="dialog" aria-modal="true" aria-labelledby="offerTitle">
   <div class="modal-card" style="max-width:600px">
     <div class="modal-head">
-      <h3 id="offerTitle" data-en="Offer Evaluation" data-id="Evaluasi Penawaran">Offer Evaluation</h3>
+      <h3 id="offerTitle" data-en="Route Evaluation" data-id="Evaluasi Rute">Route Evaluation</h3>
       <button class="modal-x" data-close="offerModal" aria-label="Close">✕</button>
     </div>
     <div class="offer-sec" style="margin-top:0">
@@ -1386,7 +1387,7 @@ else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.docu
       <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in Project Nexus Module 8." data-id="&lt;b&gt;Langkah 4 — Dapatkan secara tertulis.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di Project Nexus Modul 8."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in Project Nexus Module 8.</p>
     </div>
     <div class="modal-foot">
-      <a class="btn-ghost" href="pages/products/project-nexus.html"><span data-en="Open Project Nexus →" data-id="Buka Project Nexus →">Open Project Nexus →</span></a>
+      <a class="btn-ghost" href="pages/products/project-nexus.html?context=compass"><span data-en="Open Project Nexus →" data-id="Buka Project Nexus →">Open Project Nexus →</span></a>
     </div>
   </div>
 </div>
@@ -1446,7 +1447,7 @@ function svgDial(t,size){
 }
 
 /* ═══ MODULE SWITCHING ═══ */
-const modules = ['dashboard','applications','learning','milestones','insights','settings','help'];
+const modules = ['bearing','course-plotter','learning','waypoints','nav-briefing','settings','help'];
 window.showModule = function(id){
   modules.forEach(m=>{
     document.getElementById('module-'+m).classList.toggle('active', m===id);
@@ -1454,7 +1455,7 @@ window.showModule = function(id){
   });
   document.querySelector('.portal-content').scrollTop = 0;
   window.scrollTo(0,0);
-  if(window.climbOnModule) window.climbOnModule(id);
+  if(window.compassOnModule) window.compassOnModule(id);
 };
 document.querySelectorAll('.sidebar-item[data-module]').forEach(item=>{
   item.addEventListener('click', e=>{ e.preventDefault(); showModule(item.dataset.module); });
@@ -1631,8 +1632,8 @@ function applyLang(){
   const g=document.getElementById('greetName'); if(g) g.textContent=firstName;
   paintDate();
   renderSet(curSet);
-  if(window.climbOnbRepaint) window.climbOnbRepaint();
-  if(window.climbRefresh) window.climbRefresh();
+  if(window.compassOnbRepaint) window.compassOnbRepaint();
+  if(window.compassRefresh) window.compassRefresh();
 }
 window.setLang = function(l){
   if(l!=='en'&&l!=='id') return;
@@ -1723,16 +1724,16 @@ function seedDemo() {
           surpriseQuestions: 'Where does sustainability conflict with profit here?',
           betterAnswers: 'Quantify the trade-off examples.', keyLearning: 'Strategic questions landed extremely well.' }] })
   ];
-  demoStore['climb_applications'] = JSON.stringify(apps);
-  demoStore['climb_manual_ci'] = '23';
-  demoStore['climb_manual_ps'] = '35';
-  demoStore['climb_manual_ir'] = '26';
-  demoStore['climb_network_capital'] = '47';
-  demoStore['climb_manual_cm'] = '10';
-  demoStore['climb_milestones_log'] = JSON.stringify([
-    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First application submitted — Danone, Sustainability Graduate Trainee', id: 'Lamaran pertama dikirim — Danone, Sustainability Graduate Trainee' },
-    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed Project Aladdin Module 4 (Communication for Impact)', id: 'Menyelesaikan Project Aladdin Modul 4 (Komunikasi untuk Dampak)' },
-    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Logged application to McKinsey & Company — Business Analyst', id: 'Mencatat lamaran ke McKinsey & Company — Business Analyst' },
+  demoStore['compass_applications'] = JSON.stringify(apps);
+  demoStore['compass_manual_ci'] = '23';
+  demoStore['compass_manual_ps'] = '35';
+  demoStore['compass_manual_ir'] = '26';
+  demoStore['compass_network_capital'] = '47';
+  demoStore['compass_manual_cm'] = '10';
+  demoStore['compass_milestones_log'] = JSON.stringify([
+    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama direncanakan — Danone, Sustainability Graduate Trainee' },
+    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed Project Aladin Module 4 (Communication for Impact)', id: 'Menyelesaikan Project Aladin Modul 4 (Komunikasi untuk Dampak)' },
+    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Plotted route to McKinsey & Company — Business Analyst', id: 'Merencanakan rute ke McKinsey & Company — Business Analyst' },
     { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Telkom Indonesia (CV Screening) — debrief completed', id: 'Penolakan tercatat — Telkom Indonesia (Seleksi CV) — debrief selesai' },
     { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Final Interview di Danone' },
     { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — HR Interview CIMB Niaga' },
@@ -1741,6 +1742,18 @@ function seedDemo() {
   ]);
 }
 if (isDemoMode) seedDemo();
+
+/* one-time namespace migration: The Climb -> Project Compass (data is never lost) */
+try {
+  if (!isDemoMode && !localStorage.getItem('compass_applications') && localStorage.getItem('cl' + 'imb_applications')) {
+    ['applications', 'milestones_log', 'badges_earned', 'offer_evaluations', 'manual_ci', 'manual_ps', 'manual_ir', 'manual_cm',
+     'network_capital', 'view_mode', 'filter_status', 'streak_state', 'personal_goals', 'last_level'].forEach(function (k) {
+      var v = localStorage.getItem('cl' + 'imb_' + k);
+      if (v != null) localStorage.setItem('compass_' + k, v);
+    });
+  }
+} catch (e) {}
+
 
 function getLS(key, def) {
   if (isDemoMode) return (key in demoStore) ? demoStore[key] : def;
@@ -1879,9 +1892,9 @@ function generateUUID() {
   });
 }
 function getApplications() {
-  try { const a = JSON.parse(getLS('climb_applications', '[]')); return Array.isArray(a) ? a : []; } catch (e) { return []; }
+  try { const a = JSON.parse(getLS('compass_applications', '[]')); return Array.isArray(a) ? a : []; } catch (e) { return []; }
 }
-function writeApplications(apps) { setLS('climb_applications', JSON.stringify(apps)); }
+function writeApplications(apps) { setLS('compass_applications', JSON.stringify(apps)); }
 function saveApplication(app) {
   const apps = getApplications();
   const now = new Date().toISOString();
@@ -1891,8 +1904,8 @@ function saveApplication(app) {
   } else {
     app = Object.assign({}, app, { id: generateUUID(), createdAt: now, updatedAt: now });
     apps.push(app);
-    logMilestone('app', 'Logged application to ' + app.company + ' — ' + app.role,
-                        'Mencatat lamaran ke ' + app.company + ' — ' + app.role);
+    logMilestone('app', 'Plotted route to ' + app.company + ' — ' + app.role,
+                        'Merencanakan rute ke ' + app.company + ' — ' + app.role);
   }
   writeApplications(apps);
   checkAndAwardBadges();
@@ -1929,26 +1942,30 @@ function advanceStage(id) {
 
 /* ─── MILESTONE LOG ─── */
 function getMilestones() {
-  try { const m = JSON.parse(getLS('climb_milestones_log', '[]')); return Array.isArray(m) ? m : []; } catch (e) { return []; }
+  try { const m = JSON.parse(getLS('compass_milestones_log', '[]')); return Array.isArray(m) ? m : []; } catch (e) { return []; }
 }
 function logMilestone(cat, en, idn) {
   const log = getMilestones();
   log.push({ date: new Date().toISOString().slice(0, 10), cat: cat, en: en, id: idn });
-  setLS('climb_milestones_log', JSON.stringify(log));
+  setLS('compass_milestones_log', JSON.stringify(log));
 }
 
-/* ─── DIMENSION SCORES ─── */
+/* ─── CAREER BEARING — Compass Point scores + calibration seeds ─── */
+function seedScores() {
+  try { const s = JSON.parse(getLS('compass_seed_scores', '{}')); return s && typeof s === 'object' ? s : {}; } catch (e) { return {}; }
+}
 function calculateScores() {
   const apps = getApplications();
+  const seed = seedScores();
   const aladinDone = modulesDone('aladin_progress', 6);
   const ciBase = Math.round((aladinDone / 6) * 75);
-  const ciManual = parseInt(getLS('climb_manual_ci', '0'), 10) || 0;
-  const careerIntelligence = Math.min(100, ciBase + ciManual);
+  const ciManual = parseInt(getLS('compass_manual_ci', '0'), 10) || 0;
+  const careerIntelligence = Math.min(100, Math.max(ciBase, seed.careerIntelligence || 0) + ciManual);
 
   const mavDone = modulesDone('maverick_progress', 9);
   const psBase = Math.round((mavDone / 9) * 75);
-  const psManual = parseInt(getLS('climb_manual_ps', '0'), 10) || 0;
-  const profileStrength = Math.min(100, psBase + psManual);
+  const psManual = parseInt(getLS('compass_manual_ps', '0'), 10) || 0;
+  const profileStrength = Math.min(100, Math.max(psBase, seed.profileStrength || 0) + psManual);
 
   const nexusDone = modulesDone('nexus_progress', 9);
   const irBase = Math.round((nexusDone / 9) * 60);
@@ -1956,22 +1973,25 @@ function calculateScores() {
   const irActivity = Math.min(20, interviewApps.length * 3);
   const debriefsAll = apps.reduce((n, a) => n + (a.interviewDebriefs || []).length, 0);
   const irDebriefs = Math.min(10, debriefsAll * 2);
-  const irManual = parseInt(getLS('climb_manual_ir', '0'), 10) || 0;
-  const interviewReadiness = Math.min(100, irBase + irActivity + irDebriefs + irManual);
+  const irManual = parseInt(getLS('compass_manual_ir', '0'), 10) || 0;
+  const interviewReadiness = Math.min(100, Math.max(irBase, seed.interviewReadiness || 0) + irActivity + irDebriefs + irManual);
 
-  const networkCapital = Math.min(100, parseInt(getLS('climb_network_capital', '15'), 10) || 15);
+  const networkCapital = Math.min(100, parseInt(getLS('compass_network_capital', String(seed.networkCapital || 15)), 10) || 15);
 
+  const horizonDone = modulesDone('horizon_progress', 9);
+  const cmHorizon = Math.round((horizonDone / 9) * 30);
   const thirtyDaysAgo = NOW - 30 * DAY;
   const recentApps = apps.filter(a => new Date(a.applicationDate).getTime() >= thirtyDaysAgo);
-  const cmActivity = Math.min(50, recentApps.length * 3);
+  const cmActivity = Math.min(40, recentApps.length * 3);
   const rejectionDebriefs = apps.filter(a => a.rejectionDebrief).length;
-  const cmResilience = Math.min(20, rejectionDebriefs * 4);
-  const cmManual = parseInt(getLS('climb_manual_cm', '10'), 10) || 0;
-  const careerMindset = Math.min(100, cmActivity + cmResilience + cmManual);
+  const cmResilience = Math.min(15, rejectionDebriefs * 3);
+  const cmManual = parseInt(getLS('compass_manual_cm', '10'), 10) || 0;
+  const cmSeed = seed.careerMindset || 0;
+  const careerMindset = Math.min(100, cmHorizon + cmActivity + cmResilience + Math.max(0, cmSeed - cmHorizon) + cmManual);
 
   const overall = Math.round((careerIntelligence + profileStrength + interviewReadiness + networkCapital + careerMindset) / 5);
   return { careerIntelligence, profileStrength, interviewReadiness, networkCapital, careerMindset, overall,
-           aladinDone, mavDone, nexusDone, horizonDone: modulesDone('horizon_progress', 9), debriefsAll, rejectionDebriefs, recentCount: recentApps.length };
+           aladinDone, mavDone, nexusDone, horizonDone, debriefsAll, rejectionDebriefs, recentCount: recentApps.length };
 }
 function getLevel(score) {
   if (score >= 81) return { en: 'Summit',        idn: 'Puncak',               icon: '⛰️', min: 81, next: null };
@@ -1983,7 +2003,7 @@ function getLevel(score) {
 
 /* ─── PRODUCTS (Progress tab + completion map) ─── */
 const PRODUCT_REGISTRY = [
-  { key: 'aladin', badge: '01 · The Map', nameEn: 'Project Aladdin', nameId: 'Project Aladdin', file: 'pages/products/project-aladin.html', total: 6, pts: 100,
+  { key: 'aladin', badge: '01 · The Map', nameEn: 'Project Aladin', nameId: 'Project Aladin', file: 'pages/products/project-aladin.html', total: 6, pts: 100,
     modules: [
       { en: 'Self-Awareness and Personal Audit', idn: 'Kesadaran Diri dan Audit Pribadi', skills: [['Self-Awareness', 'Kesadaran Diri']] },
       { en: 'The Habits of Effective People', idn: 'Kebiasaan Orang yang Efektif', skills: [['Effective Habits', 'Kebiasaan Efektif']] },
@@ -2032,21 +2052,21 @@ const PRODUCT_REGISTRY = [
 
 
 /* extensibility contract (MED0041 Part 12): each product declares the dimension
-   it improves and its weight; The Climb discovers products from this registry */
+   it improves and its weight; Project Compass discovers products from this registry */
 const REGISTRY_META = {
   aladin:   { dimension: 'careerIntelligence', dimEn: 'Career Intelligence', dimId: 'Kecerdasan Karier', weight: .75 },
   maverick: { dimension: 'profileStrength',    dimEn: 'Profile Strength',    dimId: 'Kekuatan Profil',   weight: .75 },
   nexus:    { dimension: 'interviewReadiness', dimEn: 'Interview Readiness', dimId: 'Kesiapan Wawancara', weight: .60 },
-  horizon:  { dimension: 'careerMindset',      dimEn: 'Career Mindset',      dimId: 'Pola Pikir Karier',  weight: .50 }
+  horizon:  { dimension: 'careerMindset',      dimEn: 'Career Mindset',      dimId: 'Pola Pikir Karier',  weight: .30 }
 };
 PRODUCT_REGISTRY.forEach(p => Object.assign(p, REGISTRY_META[p.key] || {}));
 const PRODUCTS = PRODUCT_REGISTRY;
 
 /* ─── BADGES ─── */
 const BADGES = [
-  { id: 'a1', cat: 'Aladin',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete Aladdin Module 1', cId: 'Selesaikan Aladdin Modul 1', check: c => c.aladinDone >= 1 },
-  { id: 'a3', cat: 'Aladin',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete Aladdin Module 3', cId: 'Selesaikan Aladdin Modul 3', check: c => c.aladinDone >= 3 },
-  { id: 'ac', cat: 'Aladin',   icon: '🗺️', en: 'Aladdin Complete',  idn: 'Aladdin Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
+  { id: 'a1', cat: 'Aladin',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete Aladin Module 1', cId: 'Selesaikan Aladin Modul 1', check: c => c.aladinDone >= 1 },
+  { id: 'a3', cat: 'Aladin',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete Aladin Module 3', cId: 'Selesaikan Aladin Modul 3', check: c => c.aladinDone >= 3 },
+  { id: 'ac', cat: 'Aladin',   icon: '🗺️', en: 'Aladin Complete',  idn: 'Aladin Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
   { id: 'm2', cat: 'Maverick', icon: '📄', en: 'CV Builder',        idn: 'Perancang CV',        cEn: 'Complete Maverick Module 2', cId: 'Selesaikan Maverick Modul 2', check: c => c.mavDone >= 2 },
   { id: 'm6', cat: 'Maverick', icon: '🤖', en: 'ATS Cleared',       idn: 'Lolos ATS',           cEn: 'Complete Maverick Module 6', cId: 'Selesaikan Maverick Modul 6', check: c => c.mavDone >= 6 },
   { id: 'm7', cat: 'Maverick', icon: '📊', en: 'Case Ready',        idn: 'Siap Kasus',          cEn: 'Complete Maverick Module 7', cId: 'Selesaikan Maverick Modul 7', check: c => c.mavDone >= 7 },
@@ -2055,17 +2075,20 @@ const BADGES = [
   { id: 'n7', cat: 'Nexus',    icon: '🎭', en: 'Interview Performer', idn: 'Performer Wawancara', cEn: 'Complete Nexus Module 7', cId: 'Selesaikan Nexus Modul 7', check: c => c.nexusDone >= 7 },
   { id: 'n8', cat: 'Nexus',    icon: '🤝', en: 'Negotiator',        idn: 'Negosiator',          cEn: 'Complete Nexus Module 8', cId: 'Selesaikan Nexus Modul 8', check: c => c.nexusDone >= 8 },
   { id: 'nc', cat: 'Nexus',    icon: '🧗', en: 'Nexus Complete',    idn: 'Nexus Selesai',       cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.nexusDone >= 9 },
-  { id: 't1', cat: 'Tracker',  icon: '👣', en: 'First Step',        idn: 'Langkah Pertama',     cEn: 'Log your first application', cId: 'Catat lamaran pertamamu', check: c => c.total >= 1 },
-  { id: 't10', cat: 'Tracker', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Atas Gunung',      cEn: '10 applications logged', cId: '10 lamaran tercatat', check: c => c.total >= 10 },
-  { id: 't25', cat: 'Tracker', icon: '🏕️', en: 'High Camp',         idn: 'Kamp Tinggi',         cEn: '25 applications logged', cId: '25 lamaran tercatat', check: c => c.total >= 25 },
-  { id: 't50', cat: 'Tracker', icon: '🦾', en: 'Persistent Climber', idn: 'Pendaki Gigih',      cEn: '50 applications logged', cId: '50 lamaran tercatat', check: c => c.total >= 50 },
-  { id: 'thr', cat: 'Tracker', icon: '📞', en: 'First Call',        idn: 'Panggilan Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap HR Interview', check: c => c.maxStage >= 8 },
-  { id: 'tfi', cat: 'Tracker', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Final Interview', check: c => c.maxStage >= 10 },
-  { id: 'tof', cat: 'Tracker', icon: '✉️', en: 'The Offer',         idn: 'Sang Penawaran',      cEn: 'Receive your first offer', cId: 'Terima penawaran pertamamu', check: c => c.offers >= 1 },
-  { id: 'tsm', cat: 'Tracker', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah penawaran', check: c => c.accepted >= 1 },
+  { id: 'h1', cat: 'Horizon',  icon: '🧭', en: 'Career Architect',  idn: 'Arsitek Karier',      cEn: 'Complete Horizon Module 1', cId: 'Selesaikan Horizon Modul 1', check: c => c.horizonDone >= 1 },
+  { id: 'h4', cat: 'Horizon',  icon: '📡', en: 'Visibility Builder', idn: 'Pembangun Visibilitas', cEn: 'Complete Horizon Module 4', cId: 'Selesaikan Horizon Modul 4', check: c => c.horizonDone >= 4 },
+  { id: 'hc', cat: 'Horizon',  icon: '🌅', en: 'Horizon Complete',  idn: 'Horizon Selesai',     cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.horizonDone >= 9 },
+  { id: 't1', cat: 'Plotter',  icon: '👣', en: 'First Route',       idn: 'Rute Pertama',        cEn: 'Plot your first route', cId: 'Rencanakan rute pertamamu', check: c => c.total >= 1 },
+  { id: 't10', cat: 'Plotter', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Atas Gunung',      cEn: '10 routes plotted', cId: '10 rute tercatat', check: c => c.total >= 10 },
+  { id: 't25', cat: 'Plotter', icon: '🏕️', en: 'High Camp',         idn: 'Kamp Tinggi',         cEn: '25 routes plotted', cId: '25 rute tercatat', check: c => c.total >= 25 },
+  { id: 't50', cat: 'Plotter', icon: '🦾', en: 'Persistent Navigator', idn: 'Navigator Gigih',      cEn: '50 routes plotted', cId: '50 rute tercatat', check: c => c.total >= 50 },
+  { id: 'thr', cat: 'Plotter', icon: '📞', en: 'First Signal',      idn: 'Sinyal Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap HR Interview', check: c => c.maxStage >= 8 },
+  { id: 'tfi', cat: 'Plotter', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Final Interview', check: c => c.maxStage >= 10 },
+  { id: 'tof', cat: 'Plotter', icon: '✉️', en: 'The Offer',         idn: 'Sang Penawaran',      cEn: 'Receive your first offer', cId: 'Terima penawaran pertamamu', check: c => c.offers >= 1 },
+  { id: 'tsm', cat: 'Plotter', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah penawaran', check: c => c.accepted >= 1 },
   { id: 'md5', cat: 'Mindset', icon: '📝', en: 'Debriefer',         idn: 'Sang Debriefer',      cEn: 'Complete 5 interview debriefs', cId: 'Selesaikan 5 debrief wawancara', check: c => c.debriefs >= 5 },
-  { id: 'mp10', cat: 'Mindset', icon: '🧩', en: 'Pattern Finder',   idn: 'Penemu Pola',         cEn: 'Log and learn from 10 rejections', cId: 'Catat dan pelajari 10 penolakan', check: c => c.rejDebriefs >= 10 },
-  { id: 'mmo', cat: 'Mindset', icon: '🔥', en: 'Momentum',          idn: 'Momentum',            cEn: '4 consecutive weeks with ≥3 applications', cId: '4 minggu berturut-turut dengan ≥3 lamaran', check: c => c.momentum }
+  { id: 'mp10', cat: 'Mindset', icon: '🧩', en: 'Pattern Reader',   idn: 'Pembaca Pola',         cEn: 'Log and learn from 10 rejections', cId: 'Catat dan pelajari 10 penolakan', check: c => c.rejDebriefs >= 10 },
+  { id: 'mmo', cat: 'Mindset', icon: '🔥', en: 'Momentum',          idn: 'Momentum',            cEn: '4 consecutive weeks with ≥3 routes plotted', cId: '4 minggu berturut-turut dengan ≥3 rute', check: c => c.momentum }
 ];
 function badgeCtx() {
   const apps = getApplications();
@@ -2075,7 +2098,7 @@ function badgeCtx() {
     if (age >= 0 && age < 4) weeks[age]++;
   });
   return {
-    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 9),
+    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 9), horizonDone: modulesDone('horizon_progress', 9),
     total: apps.length,
     maxStage: apps.reduce((m, a) => Math.max(m, a.stage), 0),
     offers: apps.filter(a => a.status === 'offer' || a.stage >= 12).length,
@@ -2086,7 +2109,7 @@ function badgeCtx() {
   };
 }
 function getEarnedBadges() {
-  try { const b = JSON.parse(getLS('climb_badges_earned', '[]')); return Array.isArray(b) ? b : []; } catch (e) { return []; }
+  try { const b = JSON.parse(getLS('compass_badges_earned', '[]')); return Array.isArray(b) ? b : []; } catch (e) { return []; }
 }
 function checkAndAwardBadges() {
   const ctx = badgeCtx();
@@ -2099,8 +2122,8 @@ function checkAndAwardBadges() {
       logMilestone('metanoia', 'Badge earned — ' + b.en, 'Lencana diraih — ' + b.idn);
     }
   });
-  setLS('climb_badges_earned', JSON.stringify(earned));
-  if (newly.length && window.__climbReady) notifyBadges(newly);
+  setLS('compass_badges_earned', JSON.stringify(earned));
+  if (newly.length && window.__compassReady) notifyBadges(newly);
   return earned;
 }
 
@@ -2114,7 +2137,7 @@ function getTodaysMove(apps, scores) {
     return {
       en: 'You have ' + (iv.stage === 8 ? 'an' : 'a') + ' <b>' + st.en + '</b> at <b>' + esc(iv.company) + '</b> in under 72 hours. The single highest-leverage thing you can do today: run one focused mock interview against this role’s competency framework — it takes 15 minutes.',
       id: 'Kamu punya <b>' + st.idn + '</b> di <b>' + esc(iv.company) + '</b> dalam waktu kurang dari 72 jam. Satu hal dengan daya ungkit tertinggi hari ini: jalankan satu latihan wawancara terfokus terhadap kerangka kompetensi peran ini — hanya butuh 15 menit.',
-      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka latihan Nexus →', href: 'pages/products/project-nexus.html'
+      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka latihan Nexus →', href: 'pages/products/project-nexus.html?context=compass'
     };
   }
   const overdue = active.filter(a => a.nextActionDue).find(a => new Date(a.nextActionDue + 'T23:59:59').getTime() < NOW);
@@ -2134,10 +2157,10 @@ function getTodaysMove(apps, scores) {
     };
   }
   const dims = [
-    { key: 'careerIntelligence', en: 'Career Intelligence', idn: 'Kecerdasan Karier', aEn: 'complete your next Aladdin module', aId: 'selesaikan modul Aladdin berikutnya', href: 'pages/products/project-aladin.html' },
-    { key: 'profileStrength', en: 'Profile Strength', idn: 'Kekuatan Profil', aEn: 'complete your next Maverick module', aId: 'selesaikan modul Maverick berikutnya', href: 'pages/products/project-maverick.html' },
-    { key: 'interviewReadiness', en: 'Interview Readiness', idn: 'Kesiapan Wawancara', aEn: 'complete your next Nexus module', aId: 'selesaikan modul Nexus berikutnya', href: 'pages/products/project-nexus.html' },
-    { key: 'networkCapital', en: 'Network Capital', idn: 'Modal Jaringan', aEn: 'reach out to one mentor or peer this week', aId: 'hubungi satu mentor atau rekan minggu ini', tab: 'insights' },
+    { key: 'careerIntelligence', en: 'Career Intelligence', idn: 'Kecerdasan Karier', aEn: 'complete your next Aladin module', aId: 'selesaikan modul Aladin berikutnya', href: 'pages/products/project-aladin.html?context=compass' },
+    { key: 'profileStrength', en: 'Profile Strength', idn: 'Kekuatan Profil', aEn: 'complete your next Maverick module', aId: 'selesaikan modul Maverick berikutnya', href: 'pages/products/project-maverick.html?context=compass' },
+    { key: 'interviewReadiness', en: 'Interview Readiness', idn: 'Kesiapan Wawancara', aEn: 'complete your next Nexus module', aId: 'selesaikan modul Nexus berikutnya', href: 'pages/products/project-nexus.html?context=compass' },
+    { key: 'networkCapital', en: 'Network Capital', idn: 'Modal Jaringan', aEn: 'reach out to one mentor or peer this week', aId: 'hubungi satu mentor atau rekan minggu ini', tab: 'nav-briefing' },
     { key: 'careerMindset', en: 'Career Mindset', idn: 'Pola Pikir Karier', aEn: 'log at least 3 applications before the end of the week', aId: 'catat minimal 3 lamaran sebelum akhir minggu', action: 'add' }
   ];
   const lowest = dims.slice().sort((a, b) => scores[a.key] - scores[b.key])[0];
@@ -2195,8 +2218,8 @@ function renderDashboard() {
 
   const dims = [
     { s: scores.careerIntelligence, en: 'Career Intelligence', idn: 'Kecerdasan Karier',
-      st: L('Aladdin: ' + scores.aladinDone + '/6 modules done', 'Aladdin: ' + scores.aladinDone + '/6 modul selesai'),
-      tip: L('Improves with each Aladdin module (75 pts max) plus self-reported learning activities.', 'Meningkat dengan setiap modul Aladdin (maks 75 poin) plus aktivitas belajar yang dilaporkan sendiri.') },
+      st: L('Aladin: ' + scores.aladinDone + '/6 modules done', 'Aladin: ' + scores.aladinDone + '/6 modul selesai'),
+      tip: L('Improves with each Aladin module (75 pts max) plus self-reported learning activities.', 'Meningkat dengan setiap modul Aladin (maks 75 poin) plus aktivitas belajar yang dilaporkan sendiri.') },
     { s: scores.profileStrength, en: 'Profile Strength', idn: 'Kekuatan Profil',
       st: L('Maverick: ' + scores.mavDone + '/9 modules done', 'Maverick: ' + scores.mavDone + '/9 modul selesai'),
       tip: L('Improves with each Maverick module (75 pts max) — CV, ATS, LinkedIn, and application assets.', 'Meningkat dengan setiap modul Maverick (maks 75 poin) — CV, ATS, LinkedIn, dan aset lamaran.') },
@@ -2207,8 +2230,8 @@ function renderDashboard() {
       st: L('Mentors, pods & alumni outreach', 'Mentor, pod & jaringan alumni'),
       tip: L('Mostly self-reported: mentors, practice pods, alumni conversations. Update it from the Insights tab.', 'Sebagian besar dilaporkan sendiri: mentor, pod latihan, percakapan alumni. Perbarui dari tab Wawasan.') },
     { s: scores.careerMindset, en: 'Career Mindset', idn: 'Pola Pikir Karier',
-      st: L(scores.recentCount + ' applications in the last 30 days', scores.recentCount + ' lamaran dalam 30 hari terakhir'),
-      tip: L('Application velocity (50) + rejection debriefs completed (20) + consistency habits.', 'Kecepatan lamaran (50) + debrief penolakan selesai (20) + kebiasaan konsistensi.') }
+      st: L('Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' routes/30d', 'Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' rute/30hr'),
+      tip: L('Horizon modules (30) + route velocity (40) + off-course debriefs (15) + consistency.', 'Modul Horizon (30) + kecepatan rute (40) + debrief keluar jalur (15) + konsistensi.') }
   ];
   $('dimGrid').innerHTML = dims.map((d, i) =>
     '<div class="glass-card dim-card' + (i === 4 ? ' dim-center' : '') + '">' + ringHTML(60, 6, d.s, 15) +
@@ -2218,35 +2241,35 @@ function renderDashboard() {
   renderTodaysMove(apps);
   renderPipeSum(apps);
   renderPmap();
-  animateRings($('module-dashboard'));
+  animateRings($('module-bearing'));
   refreshTopScore();
 }
 
 function renderTodaysMove(apps) {
   const slot = $('dashTodaysMoveSlot');
   if (getTier() !== 'climb') { slot.innerHTML = gateHTML('tm'); wireGate(slot); return; }
-  const dismissed = getLS('climb_today_move_dismissed', '') === new Date().toISOString().slice(0, 10);
+  const dismissed = getLS('compass_true_north_dismissed', '') === new Date().toISOString().slice(0, 10);
   if (dismissed) {
     slot.innerHTML = '<div class="glass-card" style="padding:14px 20px;margin-bottom:22px;font-size:12.5px;color:var(--text-muted)">' +
-      L('Today’s Move dismissed — it returns tomorrow. ', 'Langkah Hari Ini dilewati — kembali besok. ') +
+      L('True North dismissed — it returns tomorrow. ', 'True North dilewati — kembali besok. ') +
       '<button class="tm-skip" id="tmUndo">' + L('Bring it back', 'Tampilkan lagi') + '</button></div>';
-    const u = $('tmUndo'); if (u) u.addEventListener('click', () => { setLS('climb_today_move_dismissed', ''); renderDashboard(); });
+    const u = $('tmUndo'); if (u) u.addEventListener('click', () => { setLS('compass_true_north_dismissed', ''); renderDashboard(); });
     return;
   }
   const mv = getTodaysMove(apps, scores);
   slot.innerHTML = '<div class="glass-card todays-move"><div class="tm-label">' +
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg>' +
-    L("Today's Move", 'Langkah Hari Ini') + '</div>' +
+    L('True North', 'True North') + '</div>' +
     '<p class="tm-body">' + L(mv.en, mv.id) + '</p>' +
     '<div class="tm-actions"><button class="btn-gold" id="tmCta">' + L(mv.ctaEn, mv.ctaId) + '</button>' +
     '<button class="tm-skip" id="tmSkip">' + L('Skip for today', 'Lewati untuk hari ini') + '</button></div></div>';
-  $('tmSkip').addEventListener('click', () => { setLS('climb_today_move_dismissed', new Date().toISOString().slice(0, 10)); renderDashboard(); });
+  $('tmSkip').addEventListener('click', () => { setLS('compass_true_north_dismissed', new Date().toISOString().slice(0, 10)); renderDashboard(); });
   $('tmCta').addEventListener('click', () => {
     if (mv.href) { window.location.href = mv.href; return; }
-    if (mv.appId) { activateTab('applications'); openDrawer(mv.appId); return; }
-    if (mv.action === 'add') { activateTab('applications'); openAppModal(null); return; }
+    if (mv.appId) { activateTab('course-plotter'); openDrawer(mv.appId); return; }
+    if (mv.action === 'add') { activateTab('course-plotter'); openAppModal(null); return; }
     if (mv.tab) { activateTab(mv.tab); return; }
-    activateTab('applications');
+    activateTab('course-plotter');
   });
 }
 
@@ -2266,7 +2289,7 @@ function renderPipeSum(apps) {
       'Total aktif: <b>' + act.length + '</b> · Ditolak bulan ini: <b>' + rejMonth + '</b> · Penawaran: <b>' + offers + '</b> · Tingkat keberhasilan: <b>' + rate + '%</b>') + '</div>';
   $('pipeSum').querySelectorAll('.pipe-seg').forEach(b => b.addEventListener('click', () => {
     pipeGroupFilter = b.dataset.group;
-    activateTab('applications');
+    activateTab('course-plotter');
   }));
 }
 
@@ -2280,7 +2303,7 @@ function renderPmap() {
       '<div class="pmap-dim">' + L('Improves', 'Meningkatkan') + ': ' + L(p.dimEn, p.dimId) + ' · +' + dimGain(p) + ' pts / ' + L('module', 'modul') + '</div>' +
       '<div class="pmap-bar"><i style="--p:' + pct + '%"></i></div>' +
       '<div class="pmap-foot"><span class="pm-pct">' + pct + '%</span>' +
-      '<a href="' + p.file + (done < p.total ? '?resume=module_' + (done + 1) : '') + '">' + (done > 0 ? L('Continue →', 'Lanjutkan →') : L('Start →', 'Mulai →')) + '</a></div></div>';
+      '<a href="' + p.file + (done < p.total ? '?resume=module_' + (done + 1) + '&context=compass' : '?context=compass') + '">' + (done > 0 ? L('Continue →', 'Lanjutkan →') : L('Start →', 'Mulai →')) + '</a></div></div>';
   }).join('');
 }
 
@@ -2289,13 +2312,13 @@ let pipeGroupFilter = null;
 let sortKey = 'date', sortAsc = false;
 const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
 function viewMode() {
-  const saved = getLS('climb_view_mode', '');
+  const saved = getLS('compass_view_mode', '');
   if (saved === 'board' || saved === 'list') return saved;
   return isMobile() ? 'list' : 'board';
 }
 function filteredApps() {
   let apps = getApplications();
-  const f = getLS('climb_filter_status', 'all');
+  const f = getLS('compass_filter_status', 'all');
   if (f !== 'all') apps = apps.filter(a => a.status === f);
   if (pipeGroupFilter) apps = apps.filter(a => groupOf(a.stage) === pipeGroupFilter);
   const dir = sortAsc ? 1 : -1;
@@ -2316,7 +2339,7 @@ function renderApplications() {
   $('viewBoardBtn').classList.toggle('on', mode === 'board');
   $('viewListBtn').classList.toggle('on', mode === 'list');
 
-  const f = getLS('climb_filter_status', 'all');
+  const f = getLS('compass_filter_status', 'all');
   $('filterSel').innerHTML =
     '<option value="all"' + (f === 'all' ? ' selected' : '') + '>' + L('Filter: All', 'Filter: Semua') + (pipeGroupFilter ? ' · ' + L(GROUPS.find(g => g.key === pipeGroupFilter).en, GROUPS.find(g => g.key === pipeGroupFilter).idn) : '') + '</option>' +
     STATUSES.map(s => '<option value="' + s.v + '"' + (f === s.v ? ' selected' : '') + '>' + L(s.en, s.idn) + '</option>').join('');
@@ -2333,13 +2356,13 @@ function renderApplications() {
   const win = closed ? Math.round(offers / closed * 100) : 0;
   const month = apps.filter(a => (NOW - new Date(a.applicationDate).getTime()) <= 30 * DAY).length;
   $('appsStats').innerHTML = L(
-    'Active: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Interviews: <b>' + interviews + '</b> · Offers: <b>' + offers + '</b> · Rejected: <b>' + rejected + '</b> · Win rate: <b>' + win + '%</b> · This month: <b>' + month + '</b>',
-    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Penawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat menang: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
+    'Active: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Interviews: <b>' + interviews + '</b> · Offers: <b>' + offers + '</b> · Rejected: <b>' + rejected + '</b> · Route success rate: <b>' + win + '%</b> · This month: <b>' + month + '</b>',
+    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Penawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat keberhasilan rute: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
 
   if (!shown.length) {
     $('appsView').innerHTML = '<div class="glass-card apps-empty"><div class="ae-ic">🗻</div>' +
-      L('No applications here yet. Every summit starts with a first step — log your first application.',
-        'Belum ada lamaran di sini. Setiap puncak dimulai dengan langkah pertama — catat lamaran pertamamu.') + '</div>';
+      L('No routes plotted here yet. Every summit starts with a first bearing — plot your first route.',
+        'Belum ada rute di sini. Setiap puncak dimulai dengan arah pertama — rencanakan rute pertamamu.') + '</div>';
   } else if (mode === 'board') {
     renderBoard(shown);
   } else {
@@ -2507,7 +2530,7 @@ function openAppModal(app, presetStage) {
   if (!app && getTier() === 'free' && getApplications().length >= 5) { openGateModal(); return; }
   editingId = app ? app.id : null;
   editingDocs = app ? (app.documents || []).slice() : [];
-  $('appModalTitle').textContent = app ? L('Edit Application', 'Edit Lamaran') : L('Add Application', 'Tambah Lamaran');
+  $('appModalTitle').textContent = app ? L('Edit Route', 'Edit Rute') : L('Plot New Route', 'Tambah Rute Baru');
   $('fStage').innerHTML = STAGES.map(s => '<option value="' + s.id + '">' + s.id + ' · ' + L(s.en, s.idn) + '</option>').join('');
   $('fStatus').innerHTML = STATUSES.map(s => '<option value="' + s.v + '">' + L(s.en, s.idn) + '</option>').join('');
   $('fCompanyType').innerHTML = COMPANY_TYPES.map(t => '<option value="' + t.v + '">' + L(t.en, t.idn) + '</option>').join('');
@@ -2618,7 +2641,7 @@ function openDrawer(id) {
     '<div class="dr-badges"><span class="status-chip" style="color:var(--gold);border:1px solid var(--gold-border-hover)">' + L('Stage', 'Tahap') + ' ' + app.stage + ' · ' + stageName(app.stage) + '</span>' +
     '<span class="status-chip" style="color:' + st.color + ';border:1px solid ' + st.color + '">' + L(st.en, st.idn) + '</span></div>' +
     (app.stage === 12 ? '<div class="offer-banner"><p>⭐ ' + L('<b>You have an offer.</b> Don’t accept the first number you hear.', '<b>Kamu punya penawaran.</b> Jangan terima angka pertama yang kamu dengar.') + '</p>' +
-      '<button class="btn-gold" id="offerActivate">' + L('Activate Offer Evaluation →', 'Aktifkan Evaluasi Penawaran →') + '</button></div>' : '') +
+      '<button class="btn-gold" id="offerActivate">' + L('Activate Route Evaluation →', 'Aktifkan Evaluasi Rute →') + '</button></div>' : '') +
     '<div class="dr-sec"><h4>' + L('Smart Recommendation', 'Rekomendasi Cerdas') + '</h4><div class="dr-rec">💡 ' + esc(recFor(app)) + '</div></div>' +
     '<div class="dr-sec"><h4>' + L('Stage Timeline', 'Linimasa Tahap') + '</h4><div class="dr-pipe">' +
     STAGES.map(s => '<span class="dp-node' + (s.id === app.stage ? ' cur' : done(s.id) ? ' done' : '') + '">' + s.id + ' ' + L(s.en, s.idn) + '</span>').join('') + '</div></div>' +
@@ -2734,7 +2757,7 @@ $('rejectForm').addEventListener('submit', e => {
 /* ═══ OFFER EVALUATION ═══ */
 let offerFor = null;
 function getOfferEvals() {
-  try { const o = JSON.parse(getLS('climb_offer_evaluations', '{}')); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; }
+  try { const o = JSON.parse(getLS('compass_offer_evaluations', '{}')); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; }
 }
 function openOfferModal(appId) {
   offerFor = appId;
@@ -2775,7 +2798,7 @@ $('offerSave').addEventListener('click', () => {
   evals[offerFor] = { base: v('oeBase'), transport: v('oeTransport'), meal: v('oeMeal'), health: v('oeHealth'),
     thr: v('oeThr'), bonus: v('oeBonus'), mktMin: v('oeMktMin'), mktMax: v('oeMktMax'),
     target: v('oeTarget'), floor: v('oeFloor'), talking: v('oeTalking'), total: recalcOffer(), savedAt: new Date().toISOString() };
-  setLS('climb_offer_evaluations', JSON.stringify(evals));
+  setLS('compass_offer_evaluations', JSON.stringify(evals));
   const apps = getApplications();
   const app = apps.find(a => a.id === offerFor);
   if (app) { app.offerEvaluationId = offerFor; app.updatedAt = new Date().toISOString(); writeApplications(apps); }
@@ -2799,7 +2822,7 @@ function renderMilestones() {
     { en: 'Year 4', idn: 'Tahun 4', tEn: 'Execution', tId: 'Eksekusi' }
   ];
   const SEM_NOTES = [
-    ['Aladdin M1–3', 'Aladdin M1–3'], ['Aladdin M4–6', 'Aladdin M4–6'],
+    ['Aladin M1–3', 'Aladin M1–3'], ['Aladin M4–6', 'Aladin M4–6'],
     ['Maverick starts · first org role', 'Maverick mulai · peran organisasi pertama'], ['First internship applications', 'Lamaran magang pertama'],
     ['Nexus · internship season', 'Nexus · musim magang'], ['Leadership role · competitions', 'Peran kepemimpinan · kompetisi'],
     ['Full-time applications open', 'Lamaran penuh waktu dibuka'], ['Offers · thesis · transition', 'Penawaran · skripsi · transisi']
@@ -2856,12 +2879,12 @@ function renderInsights() {
   const urgent = apps.filter(a => (a.status === 'active' || a.status === 'offer') && a.stage >= 7 && a.nextActionDue)
     .sort((a, b) => String(a.nextActionDue).localeCompare(String(b.nextActionDue)))[0];
   if (urgent) {
-    pris.push({ tag: L('Priority 1 · 🔥 Urgent', 'Prioritas 1 · 🔥 Mendesak'),
+    pris.push({ tag: L('Priority 1 · 🧭 Navigate Now', 'Prioritas 1 · 🧭 Navigasi Sekarang'),
       h: L('Prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company), 'Bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company)),
       p: L('Due ' + fmtDY(urgent.nextActionDue) + '. ' + recFor(urgent), 'Jatuh tempo ' + fmtDY(urgent.nextActionDue) + '. ' + recFor(urgent)),
-      ctaEn: 'Open Nexus interview prep →', ctaId: 'Buka persiapan wawancara Nexus →', href: 'pages/products/project-nexus.html' });
+      ctaEn: 'Open Nexus interview prep →', ctaId: 'Buka persiapan wawancara Nexus →', href: 'pages/products/project-nexus.html?context=compass' });
   } else {
-    pris.push({ tag: L('Priority 1 · 🔥 Urgent', 'Prioritas 1 · 🔥 Mendesak'),
+    pris.push({ tag: L('Priority 1 · 🧭 Navigate Now', 'Prioritas 1 · 🧭 Navigasi Sekarang'),
       h: L('Keep your pipeline moving', 'Jaga pipeline-mu tetap bergerak'),
       p: L('No interviews are on the calendar. The single best lead indicator is application velocity: log 3 quality applications this week.',
            'Tidak ada wawancara terjadwal. Indikator awal terbaik adalah kecepatan lamaran: catat 3 lamaran berkualitas minggu ini.'),
@@ -2872,20 +2895,20 @@ function renderInsights() {
   const rejCv = apps.filter(a => a.status === 'rejected' && groupOf((a.rejectionDebrief && a.rejectionDebrief.stageReached) || a.stage) === 'applied').length;
   const rejAll = apps.filter(a => a.status === 'rejected').length;
   if (rejCv >= 2) {
-    pris.push({ tag: L('Priority 2 · ⚡ High Impact', 'Prioritas 2 · ⚡ Dampak Tinggi'),
+    pris.push({ tag: L('Priority 2 · ⚡ Course Correction', 'Prioritas 2 · ⚡ Koreksi Arah'),
       h: L('Your CV Screening rejection rate needs attention', 'Tingkat penolakan Seleksi CV-mu perlu perhatian'),
       p: L(rejCv + ' of your ' + rejAll + ' rejections happened at CV Screening — before a human read your application. This strongly indicates an ATS issue. Run an ATS audit against your next 3 target roles.',
            rejCv + ' dari ' + rejAll + ' penolakanmu terjadi di Seleksi CV — sebelum manusia membaca lamaranmu. Ini sangat mengindikasikan masalah ATS. Jalankan audit ATS untuk 3 peran target berikutnya.'),
-      ctaEn: 'Open ATS Optimisation in Maverick →', ctaId: 'Buka Optimasi ATS di Maverick →', href: 'pages/products/project-maverick.html' });
+      ctaEn: 'Open ATS Optimisation in Maverick →', ctaId: 'Buka Optimasi ATS di Maverick →', href: 'pages/products/project-maverick.html?context=compass' });
   } else {
     const nextMod = PRODUCTS.map(p => ({ p, done: modulesDone(p.key + '_progress', p.total) })).find(x => x.done < x.p.total);
-    pris.push({ tag: L('Priority 2 · ⚡ High Impact', 'Prioritas 2 · ⚡ Dampak Tinggi'),
+    pris.push({ tag: L('Priority 2 · ⚡ Course Correction', 'Prioritas 2 · ⚡ Koreksi Arah'),
       h: nextMod ? L('Finish ' + nextMod.p.nameEn + ' Module ' + (nextMod.done + 1), 'Selesaikan ' + nextMod.p.nameEn + ' Modul ' + (nextMod.done + 1))
                  : L('All course modules complete', 'Semua modul kursus selesai'),
       p: nextMod ? L('“' + nextMod.p.modules[nextMod.done].en + '” is your next unfinished module — completing it raises your dimension scores directly.',
                      '“' + nextMod.p.modules[nextMod.done].idn + '” adalah modul berikutnya yang belum selesai — menyelesaikannya langsung menaikkan skor dimensimu.')
                  : L('Your learning system is fully complete. Focus entirely on live applications now.', 'Sistem belajarmu sudah lengkap. Fokus sepenuhnya pada lamaran nyata sekarang.'),
-      ctaEn: nextMod ? 'Continue →' : 'Open tracker →', ctaId: nextMod ? 'Lanjutkan →' : 'Buka pelacak →', href: nextMod ? nextMod.p.file : null, tab: nextMod ? null : 'applications' });
+      ctaEn: nextMod ? 'Continue →' : 'Open tracker →', ctaId: nextMod ? 'Lanjutkan →' : 'Buka pelacak →', href: nextMod ? nextMod.p.file + '?context=compass' : null, tab: nextMod ? null : 'course-plotter' });
   }
 
   /* Priority 3 — lowest dimension */
@@ -2898,7 +2921,7 @@ function renderInsights() {
   ];
   const lowest = dims.slice().sort((a, b) => scores[a.key] - scores[b.key])[0];
   const lift = Math.round(((Math.min(100, scores[lowest.key] + 13)) - scores[lowest.key]) / 5 * 10) / 10;
-  pris.push({ tag: L('Priority 3 · 📈 Growth', 'Prioritas 3 · 📈 Pertumbuhan'),
+  pris.push({ tag: L('Priority 3 · 📡 Strengthen Your Signal', 'Prioritas 3 · 📡 Perkuat Sinyalmu'),
     h: L(lowest.en + ' is your lowest dimension (' + scores[lowest.key] + '/100)', lowest.idn + ' adalah dimensi terendahmu (' + scores[lowest.key] + '/100)'),
     p: lowest.key === 'networkCapital'
       ? L('Building a 3-person practice pod would raise your interview readiness faster than any other action this week. Raising this dimension by 13 points adds +' + lift + ' to your overall score.',
@@ -2913,7 +2936,7 @@ function renderInsights() {
   $('priActions').querySelectorAll('.pri-go').forEach((b, i) => b.addEventListener('click', () => {
     const p = pris[i];
     if (p.href) { window.location.href = p.href; return; }
-    if (p.action === 'add') { activateTab('applications'); openAppModal(null); return; }
+    if (p.action === 'add') { activateTab('course-plotter'); openAppModal(null); return; }
     if (p.tab) { activateTab(p.tab); return; }
     if (p.scroll) { const el = $(p.scroll); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   }));
@@ -2948,8 +2971,8 @@ function renderInsights() {
   /* dimension deep-dives (<70) */
   const DEEP = {
     careerIntelligence: {
-      hold: [L('Aladdin modules unfinished (' + scores.aladinDone + '/6)', 'Modul Aladdin belum selesai (' + scores.aladinDone + '/6)'), L('Self-audit not refreshed this term', 'Audit diri belum diperbarui semester ini')],
-      act: [L('Complete Aladdin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladdin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan 3 bulan lalu')] },
+      hold: [L('Aladin modules unfinished (' + scores.aladinDone + '/6)', 'Modul Aladin belum selesai (' + scores.aladinDone + '/6)'), L('Self-audit not refreshed this term', 'Audit diri belum diperbarui semester ini')],
+      act: [L('Complete Aladin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan 3 bulan lalu')] },
     profileStrength: {
       hold: [L('Maverick modules unfinished (' + scores.mavDone + '/9)', 'Modul Maverick belum selesai (' + scores.mavDone + '/9)'), L('CV not yet ATS-audited against live roles', 'CV belum diaudit ATS terhadap peran nyata')],
       act: [L('Complete Maverick Module ' + Math.min(9, scores.mavDone + 1), 'Selesaikan Maverick Modul ' + Math.min(9, scores.mavDone + 1)), L('Run one ATS audit against a target job description', 'Jalankan satu audit ATS terhadap deskripsi pekerjaan target')] },
@@ -2992,7 +3015,7 @@ function renderInsights() {
     '<p><b>' + L("This week's single most important action", 'Satu tindakan terpenting minggu ini') + ':</b> ' +
     (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + ' — run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + ' — jalankan 2 latihan wawancara sebelumnya.')
             : L('log 3 quality applications and complete one course module.', 'catat 3 lamaran berkualitas dan selesaikan satu modul kursus.')) + '</p>';
-  animateRings($('module-insights'));
+  animateRings($('module-nav-briefing'));
 }
 
 /* ═══ GLOBAL WIRING ═══ */
@@ -3004,9 +3027,9 @@ document.addEventListener('keydown', e => {
 });
 $('addAppBtn').addEventListener('click', () => openAppModal(null));
 $('fabAdd').addEventListener('click', () => openAppModal(null));
-$('viewBoardBtn').addEventListener('click', () => { setLS('climb_view_mode', 'board'); renderApplications(); });
-$('viewListBtn').addEventListener('click', () => { setLS('climb_view_mode', 'list'); renderApplications(); });
-$('filterSel').addEventListener('change', () => { setLS('climb_filter_status', $('filterSel').value); if ($('filterSel').value !== 'all') pipeGroupFilter = null; renderApplications(); });
+$('viewBoardBtn').addEventListener('click', () => { setLS('compass_view_mode', 'board'); renderApplications(); });
+$('viewListBtn').addEventListener('click', () => { setLS('compass_view_mode', 'list'); renderApplications(); });
+$('filterSel').addEventListener('change', () => { setLS('compass_filter_status', $('filterSel').value); if ($('filterSel').value !== 'all') pipeGroupFilter = null; renderApplications(); });
 $('sortSel').addEventListener('change', () => { sortKey = $('sortSel').value; sortAsc = sortKey === 'company'; renderApplications(); });
 $('veloToggle').addEventListener('click', () => {
   const v = $('velo'); v.classList.toggle('open');
@@ -3016,21 +3039,21 @@ $('veloToggle').addEventListener('click', () => {
 
 
 /* ═══════════════════════════════════════════════════════════════
-   PORTAL LAYER (MED0041) — The Climb IS the portal.
+   PORTAL LAYER (ME7DAF1) — Project Compass IS the portal.
    Tier gating · onboarding calibration · personalization ·
    gamification (streaks, toasts, level moments) · product registry.
    ═══════════════════════════════════════════════════════════════ */
 
 const firstName = window.mtFirstName || 'Climber';
 
-/* ─── TIER MODEL — metanoia_climb_tier: 'free' | 'climb' | 'expired'.
+/* ─── TIER MODEL — metanoia_compass_tier: 'free' | 'climb' | 'expired'.
    Set at login; ?tier= param allows previewing each state. Data is
    NEVER deleted on downgrade — gates only cover the rendering. ─── */
 function getTier() {
   const p = params.get('tier');
   if (p === 'free' || p === 'expired' || p === 'climb') return p;
   try {
-    const t = sessionStorage.getItem('metanoia_climb_tier');
+    const t = sessionStorage.getItem('metanoia_compass_tier');
     if (t === 'free' || t === 'expired') return t;
   } catch (e) {}
   return 'climb';
@@ -3040,14 +3063,14 @@ function gateHTML(ctx) {
   const apps = getApplications().length;
   const sc = scores || calculateScores();
   const head = tier === 'expired'
-    ? L('Welcome back. Your journey is exactly where you left it.', 'Selamat datang kembali. Perjalananmu tepat di tempat terakhirmu.')
-    : L('This is part of The Climb.', 'Ini adalah bagian dari The Climb.');
+    ? L('Welcome back. Your compass is exactly where you left it.', 'Selamat datang kembali. Kompasmu tepat di tempat terakhirmu.')
+    : L('This is part of Project Compass.', 'Ini adalah bagian dari Project Compass.');
   const body = tier === 'expired'
-    ? L('Your ' + apps + ' applications, your milestones, and your Career Readiness of ' + sc.overall + ' are all waiting — nothing was deleted. Reactivate The Climb to continue your ascent.',
-        apps + ' lamaranmu, tonggak pencapaianmu, dan Kesiapan Karier ' + sc.overall + ' semuanya menunggu — tidak ada yang dihapus. Aktifkan kembali The Climb untuk melanjutkan pendakianmu.')
+    ? L('Your ' + apps + ' applications, your milestones, and your Career Readiness of ' + sc.overall + ' are all waiting — nothing was deleted. Reactivate Project Compass to continue navigating.',
+        apps + ' lamaranmu, tonggak pencapaianmu, dan Kesiapan Karier ' + sc.overall + ' semuanya menunggu — tidak ada yang dihapus. Aktifkan kembali Project Compass untuk melanjutkan navigasi.')
     : L('Unlock unlimited applications, personalized insights, AI-powered coaching, and your complete career readiness dashboard. Your learning progress is already feeding in.',
         'Buka lamaran tanpa batas, wawasan personal, pembinaan bertenaga AI, dan dasbor kesiapan karier lengkapmu. Kemajuan belajarmu sudah mengalir ke dalamnya.');
-  const cta = tier === 'expired' ? L('Reactivate The Climb →', 'Aktifkan Kembali The Climb →') : L('Upgrade to The Climb →', 'Tingkatkan ke The Climb →');
+  const cta = tier === 'expired' ? L('Reactivate Project Compass →', 'Aktifkan Kembali Project Compass →') : L('Activate Project Compass →', 'Aktifkan Project Compass →');
   return '<div class="glass-card gate-card" data-gate="' + ctx + '"><div class="gt-lock">🔒</div><h4>' + head + '</h4><p>' + body + '</p>' +
     '<div class="gt-actions"><button class="btn-gold gt-up">' + cta + '</button>' +
     '<button class="btn-ghost gt-later">' + L('Maybe later', 'Mungkin nanti') + '</button></div></div>';
@@ -3056,8 +3079,8 @@ function wireGate(root) {
   root.querySelectorAll('.gt-up').forEach(b => b.addEventListener('click', () => {
     /* prototype: upgrading/reactivating flips the tier flag in-session */
     const wasExpired = getTier() === 'expired';
-    try { sessionStorage.setItem('metanoia_climb_tier', 'climb'); } catch (e) {}
-    if (wasExpired) logMilestone('metanoia', 'Returned to The Climb', 'Kembali ke The Climb');
+    try { sessionStorage.setItem('metanoia_compass_tier', 'climb'); } catch (e) {}
+    if (wasExpired) logMilestone('metanoia', 'Returned to Project Compass', 'Kembali ke Project Compass');
     if (params.get('tier')) { params.delete('tier'); history.replaceState(null, '', 'portal.html' + (params.toString() ? '?' + params.toString() : '') + location.hash); }
     updateAll();
   }));
@@ -3080,8 +3103,8 @@ const FUTURE_PRODUCTS = [
 
 /* ─── CALIBRATION (onboarding answers seed the baseline scores) ─── */
 function getCalibration() {
-  if (isDemoMode) return { year: '3', industry: 'fmcg', apps: '6-15', interviews: '1-3', challenge: 'interviews' };
-  try { return JSON.parse(sessionStorage.getItem('climb_calibration') || 'null') || {}; } catch (e) { return {}; }
+  if (isDemoMode) return { careerStage: 'student', industry: 'fmcg', careerObjective: 'first_role', growthPath: 'external', longTermVision: 'exploring' };
+  try { return JSON.parse(sessionStorage.getItem('compass_calibration') || 'null') || {}; } catch (e) { return {}; }
 }
 const INDUSTRY_CONTEXT = {
   finance:    { en: 'Finance', idn: 'Keuangan', lensEn: 'FX, S&T, IBD and Big 4 pathways', lensId: 'Jalur FX, S&T, IBD, dan Big 4', bmEn: 'Finance target: 8+ applications/month for competitive roles.', bmId: 'Target Keuangan: 8+ lamaran/bulan untuk peran kompetitif.' },
@@ -3096,7 +3119,7 @@ function journeyState() {
   const accepted = apps.some(a => a.stage === 13 && a.status !== 'rejected' && a.status !== 'withdrawn');
   if (accepted) return { en: 'Ascended', idn: 'Telah Mendaki' };
   if (apps.some(a => a.stage >= 10 || a.status === 'offer')) return { en: 'Finalist', idn: 'Finalis' };
-  if (apps.length >= 5 && apps.some(a => a.stage >= 7)) return { en: 'Active Climber', idn: 'Pendaki Aktif' };
+  if (apps.length >= 5 && apps.some(a => a.stage >= 7)) return { en: 'Active Navigator', idn: 'Navigator Aktif' };
   const building = modulesDone('maverick_progress', 9) > 0 || modulesDone('nexus_progress', 9) > 0 || apps.length > 0;
   if (building) return { en: 'Builder', idn: 'Pembangun' };
   return { en: 'Explorer', idn: 'Penjelajah' };
@@ -3129,26 +3152,26 @@ function learnStreakDays() {
 function refreshStreakState() {
   const cur = appStreakWeeks();
   let st = null;
-  try { st = JSON.parse(getLS('climb_streak_state', 'null')); } catch (e) {}
+  try { st = JSON.parse(getLS('compass_streak_state', 'null')); } catch (e) {}
   st = st || { best: 0, brokenAt: null, prevBest: 0 };
   if (cur > st.best) st.best = cur;
   if (cur === 0 && st.best > 0 && !st.brokenAt) { st.brokenAt = new Date().toISOString(); st.prevBest = st.best; st.best = 0; }
   if (st.brokenAt && cur >= st.prevBest && st.prevBest > 0 && (NOW - new Date(st.brokenAt).getTime()) <= 14 * DAY) {
     comebackEarned = true; st.brokenAt = null; st.prevBest = 0;
   }
-  setLS('climb_streak_state', JSON.stringify(st));
+  setLS('compass_streak_state', JSON.stringify(st));
   return cur;
 }
-BADGES.push({ id: 'cbk', cat: 'Mindset', icon: '🔁', en: 'Comeback', idn: 'Kebangkitan',
+BADGES.push({ id: 'cbk', cat: 'Mindset', icon: '🔁', en: 'Comeback Navigator', idn: 'Navigator Comeback',
   cEn: 'Rebuild a broken application streak to its previous length within 14 days',
   cId: 'Bangun kembali streak lamaran yang putus ke panjang sebelumnya dalam 14 hari',
   check: () => comebackEarned });
 
 /* ─── NOTIFICATIONS: toasts + bell (Part 7) ─── */
-window.__climbReady = false;
-function bellCount() { try { return parseInt(sessionStorage.getItem('climb_bell') || '0', 10) || 0; } catch (e) { return 0; } }
+window.__compassReady = false;
+function bellCount() { try { return parseInt(sessionStorage.getItem('compass_bell') || '0', 10) || 0; } catch (e) { return 0; } }
 function setBell(n) {
-  try { sessionStorage.setItem('climb_bell', String(n)); } catch (e) {}
+  try { sessionStorage.setItem('compass_bell', String(n)); } catch (e) {}
   const bell = $('tbBell');
   if (bell) bell.classList.toggle('unread', n > 0);
 }
@@ -3163,7 +3186,7 @@ function showToast(icon, title, body, sub) {
   t.className = 'toast';
   t.innerHTML = '<span class="tst-ic">' + icon + '</span><div><div class="tst-t">' + title + '</div>' +
     '<div class="tst-b">' + esc(body) + '</div>' + (sub ? '<div class="tst-s">' + esc(sub) + '</div>' : '') + '</div>';
-  t.addEventListener('click', () => { window.showModule('milestones'); dismiss(); });
+  t.addEventListener('click', () => { window.showModule('waypoints'); dismiss(); });
   wrap.appendChild(t);
   let gone = false;
   function dismiss() { if (gone) return; gone = true; t.classList.add('hide'); setTimeout(() => t.remove(), 450); }
@@ -3180,11 +3203,11 @@ const LEVEL_MEANING = {
 function checkLevelUp() {
   const sc = scores || calculateScores();
   const lv = getLevel(sc.overall);
-  const stored = getLS('climb_last_level', null);
-  if (stored === null) { setLS('climb_last_level', String(lv.min)); return; }
+  const stored = getLS('compass_last_level', null);
+  if (stored === null) { setLS('compass_last_level', String(lv.min)); return; }
   if (lv.min > parseInt(stored, 10)) {
-    setLS('climb_last_level', String(lv.min));
-    if (!window.__climbReady) return;
+    setLS('compass_last_level', String(lv.min));
+    if (!window.__compassReady) return;
     setBell(bellCount() + 1);
     const meaning = LEVEL_MEANING[lv.min] || { en: '', idn: '' };
     $('lvlCard').innerHTML =
@@ -3224,17 +3247,24 @@ function refreshTopScore() {
   const stEl = $('idnState'); if (stEl) stEl.textContent = L(js.en, js.idn);
   const cal = getCalibration();
   const trail = $('sbTrail');
-  if (trail && cal.industry && INDUSTRY_CONTEXT[cal.industry]) {
-    trail.textContent = L('Target', 'Target') + ': ' + L(INDUSTRY_CONTEXT[cal.industry].en, INDUSTRY_CONTEXT[cal.industry].idn);
+  if (trail && cal.careerStage) {
+    const stageMap = {
+      student: ['Student', 'Mahasiswa'], fresh_graduate: ['Graduate', 'Lulusan Baru'],
+      early_professional: ['Early Professional', 'Profesional Awal'],
+      experienced_professional: ['Professional', 'Profesional'], senior_professional: ['Senior Professional', 'Profesional Senior']
+    };
+    const st = stageMap[cal.careerStage] || ['Explorer', 'Penjelajah'];
+    const ind = INDUSTRY_CONTEXT[cal.industry];
+    trail.textContent = L(st[0], st[1]) + (ind ? ' · ' + L(ind.en, ind.idn) : '');
   }
   /* streaks */
   const aw = refreshStreakState(), ld = learnStreakDays();
   const stk = $('idnStreaks');
   if (stk) {
     const parts = [];
-    if (aw > 0) parts.push('🔥 <b>' + aw + '</b> ' + L('week application streak', 'minggu streak lamaran'));
+    if (aw > 0) parts.push('🔥 <b>' + aw + '</b> ' + L('week route streak', 'minggu streak rute'));
     if (ld > 0) parts.push('📚 <b>' + ld + '</b> ' + L('day learning streak', 'hari streak belajar'));
-    stk.innerHTML = parts.length ? parts.join(' · ') : L('Start a streak: 3 applications this week.', 'Mulai streak: 3 lamaran minggu ini.');
+    stk.innerHTML = parts.length ? parts.join(' · ') : L('Start a streak: plot 3 routes this week.', 'Mulai streak: rencanakan 3 rute minggu ini.');
   }
   /* nav badges */
   const active = getApplications().filter(a => a.status === 'active').length;
@@ -3243,7 +3273,7 @@ function refreshTopScore() {
   const totalMods = PRODUCT_REGISTRY.reduce((n, p) => n + p.total, 0);
   const doneMods = PRODUCT_REGISTRY.reduce((n, p) => n + modulesDone(p.key + '_progress', p.total), 0);
   const lp = $('learnPct'); if (lp) lp.textContent = Math.round(doneMods / totalMods * 100) + '%';
-  let insSeen = false; try { insSeen = sessionStorage.getItem('climb_insights_seen') === '1'; } catch (e) {}
+  let insSeen = false; try { insSeen = sessionStorage.getItem('compass_insights_seen') === '1'; } catch (e) {}
   const ib = $('insightsBadge'); if (ib) ib.style.display = insSeen ? 'none' : '';
   setBell(bellCount());
 }
@@ -3261,7 +3291,7 @@ function renderGreeting() {
   el.innerHTML = tg + ', <strong>' + esc(firstName) + '</strong>. ' +
     L("You're at", 'Kamu berada di') + ' <strong>' + L(lv.en, lv.idn) + '</strong> (' + sc.overall + '/100).' +
     (last ? ' ' + L('Latest', 'Terbaru') + ': ' + esc(L(last.en, last.id || last.en)) + '.' : '') +
-    ' ' + L('Your next move is ready.', 'Langkah berikutnya sudah siap.');
+    ' ' + L('Your True North is ready.', 'True North-mu siap.');
 }
 
 /* ─── MY LEARNING (Part 10) — rendered from the PRODUCT_REGISTRY ─── */
@@ -3309,7 +3339,7 @@ function renderLearning() {
       '<div class="lc-meta"><span>📖 ' + done + '/' + p.total + ' ' + L('modules', 'modul') + '</span><span>⭐ ' + (done * p.pts) + ' XP</span></div>' +
       '<div class="lc-progress-bar"><div class="lc-progress-fill" style="width:' + pct + '%"></div></div>' +
       '<div class="lc-progress-label">' + (isReco && !complete ? L('Recommended for you', 'Direkomendasikan untukmu') : pct + '% ' + L('complete', 'selesai')) + '</div></div>' +
-      '<a class="lc-cta' + (complete ? ' secondary' : '') + '" style="text-align:center;text-decoration:none" href="' + p.file + (complete ? '' : '?resume=module_' + (done + 1)) + '">' +
+      '<a class="lc-cta' + (complete ? ' secondary' : '') + '" style="text-align:center;text-decoration:none" href="' + p.file + (complete ? '?context=compass' : '?resume=module_' + (done + 1) + '&context=compass') + '">' +
       (complete ? L('Review course', 'Tinjau kursus') : done > 0 ? L('Continue →', 'Lanjutkan →') : L('Start →', 'Mulai →')) + '</a></div>';
   }).join('');
   $('learnGrid').innerHTML = cards;
@@ -3332,7 +3362,7 @@ function renderCerts(target) {
 }
 
 /* ─── MILESTONES EXTRAS: XP · personal goals · certs · future ─── */
-function getGoals() { try { return JSON.parse(getLS('climb_personal_goals', '{}')) || {}; } catch (e) { return {}; } }
+function getGoals() { try { return JSON.parse(getLS('compass_personal_goals', '{}')) || {}; } catch (e) { return {}; } }
 function milestoneExtras() {
   /* XP line */
   let xp = 0;
@@ -3358,7 +3388,7 @@ function milestoneExtras() {
         const v = window.prompt(L('Personal goal for Semester ' + n + ' (leave empty to clear):', 'Target pribadi untuk Semester ' + n + ' (kosongkan untuk menghapus):'), cur[n] || '');
         if (v === null) return;
         if (v.trim()) cur[n] = v.trim(); else delete cur[n];
-        setLS('climb_personal_goals', JSON.stringify(cur));
+        setLS('compass_personal_goals', JSON.stringify(cur));
         renderMilestones(); milestoneExtras();
       }, { once: true });
     });
@@ -3370,21 +3400,21 @@ function milestoneExtras() {
   renderCerts($('certGallery'));
   /* future products */
   $('futureStrip').innerHTML = FUTURE_PRODUCTS.map(f => {
-    const interested = getLS('climb_interested_' + f.id, '') === '1';
+    const interested = getLS('compass_interested_' + f.id, '') === '1';
     return '<div class="glass-card future-card"><span class="fc-name">' + L(f.en, f.idn) + '</span>' +
       '<span class="fc-desc">' + L(f.dEn, f.dId) + '</span>' +
       '<button class="btn-ghost' + (interested ? ' done' : '') + '" data-notify="' + f.id + '">' +
       (interested ? '✓ ' + L("We'll notify you", 'Kami akan memberitahumu') : L('Notify me', 'Beritahu saya')) + '</button></div>';
   }).join('');
   $('futureStrip').querySelectorAll('[data-notify]').forEach(b => b.addEventListener('click', () => {
-    setLS('climb_interested_' + b.dataset.notify, '1');
+    setLS('compass_interested_' + b.dataset.notify, '1');
     milestoneExtras();
   }));
 }
 
 /* ─── INSIGHTS EXTRAS: gating · industry lens · AI ethics footer ─── */
 function insightsExtras() {
-  try { sessionStorage.setItem('climb_insights_seen', '1'); } catch (e) {}
+  try { sessionStorage.setItem('compass_insights_seen', '1'); } catch (e) {}
   const tier = getTier();
   const lockWrap = $('insLocked');
   if (tier !== 'climb') {
@@ -3420,31 +3450,52 @@ const onbVeil = document.getElementById('onbVeil');
 let onbStep = 1;
 const onbAns = {};
 const CAL_QS = [
-  { key: 'year', qEn: 'Which year of university are you in?', qId: 'Tahun ke berapa kamu di universitas?',
-    opts: [['1', '1st year', 'Tahun ke-1'], ['2', '2nd year', 'Tahun ke-2'], ['3', '3rd year', 'Tahun ke-3'], ['4', '4th year', 'Tahun ke-4'], ['grad', 'Graduate', 'Lulusan']] },
-  { key: 'industry', qEn: "What's your target industry?", qId: 'Apa industri targetmu?',
-    opts: [['finance', 'Finance', 'Keuangan'], ['consulting', 'Consulting', 'Konsultansi'], ['tech', 'Tech', 'Teknologi'], ['fmcg', 'FMCG', 'FMCG'], ['other', 'Other', 'Lainnya']] },
-  { key: 'apps', qEn: 'How many applications have you submitted in the last 3 months?', qId: 'Berapa lamaran yang kamu kirim dalam 3 bulan terakhir?',
-    opts: [['0', 'None yet', 'Belum ada'], ['1-5', '1–5', '1–5'], ['6-15', '6–15', '6–15'], ['15+', '15+', '15+']] },
-  { key: 'interviews', qEn: 'Have you had any formal interviews?', qId: 'Sudah pernah wawancara formal?',
-    opts: [['none', 'None', 'Belum'], ['1-3', '1–3', '1–3'], ['4+', '4+', '4+']] },
-  { key: 'challenge', qEn: "What's your biggest current challenge?", qId: 'Apa tantangan terbesarmu saat ini?',
-    opts: [['cv', 'Building my CV', 'Membangun CV'], ['assessments', 'Passing assessments', 'Lolos asesmen'], ['interviews', 'Interviews', 'Wawancara'], ['targeting', 'Finding the right roles', 'Menemukan peran yang tepat'], ['consistency', 'Staying consistent', 'Tetap konsisten']] }
+  { key: 'careerStage', qEn: 'Where are you in your career journey right now?', qId: 'Di mana posisimu dalam perjalanan karier saat ini?',
+    opts: [['student', 'Student — currently enrolled in university', 'Mahasiswa — sedang kuliah'],
+           ['fresh_graduate', 'Fresh Graduate — graduated within the last year', 'Lulusan Baru — lulus dalam setahun terakhir'],
+           ['early_professional', 'Early Professional — 1–5 years of experience', 'Profesional Awal — pengalaman 1–5 tahun'],
+           ['experienced_professional', 'Experienced Professional — 5–10 years', 'Profesional Berpengalaman — 5–10 tahun'],
+           ['senior_professional', 'Senior Professional — 10+ years', 'Profesional Senior — 10+ tahun']] },
+  { key: 'industry', qEn: 'Which industry are you in — or aiming to enter?', qId: 'Industri apa yang sedang kamu jalani — atau targetkan?',
+    opts: [['finance', 'Finance & Banking', 'Keuangan & Perbankan'], ['consulting', 'Consulting & Professional Services', 'Konsultansi & Jasa Profesional'],
+           ['tech', 'Technology & Digital', 'Teknologi & Digital'], ['fmcg', 'FMCG & Consumer Goods', 'FMCG & Barang Konsumen'],
+           ['healthcare', 'Healthcare & Life Sciences', 'Kesehatan & Ilmu Hayati'], ['energy', 'Energy, Resources & Manufacturing', 'Energi, Sumber Daya & Manufaktur'],
+           ['public', 'Public Sector, Education & NGO', 'Sektor Publik, Pendidikan & LSM'], ['media', 'Media, Creative & Communications', 'Media, Kreatif & Komunikasi'],
+           ['other', 'Other', 'Lainnya']] },
+  { key: 'careerObjective', qEn: 'What is your primary career objective right now?', qId: 'Apa tujuan karier utamamu saat ini?',
+    opts: [['first_role', 'Secure my first internship or graduate role', 'Mendapatkan magang atau peran graduate pertamaku'],
+           ['transition', 'Transition into a new industry or function', 'Beralih ke industri atau fungsi baru'],
+           ['promotion', 'Earn a promotion or advance internally', 'Meraih promosi atau naik di organisasi saat ini'],
+           ['leadership', 'Move into a leadership or management role', 'Masuk ke peran kepemimpinan atau manajemen'],
+           ['growth', 'Accelerate my growth and build new capabilities', 'Mempercepat pertumbuhan dan membangun kapabilitas baru'],
+           ['foundations', 'Build long-term, future-ready foundations', 'Membangun fondasi jangka panjang yang siap masa depan']] },
+  { key: 'growthPath', qEn: 'How do you see your next significant career move?', qId: 'Bagaimana kamu melihat langkah karier besar berikutnya?',
+    opts: [['external', 'Moving to a new company or organisation', 'Pindah ke perusahaan atau organisasi baru'],
+           ['internal', 'Progressing internally — greater responsibility', 'Berkembang internal — tanggung jawab lebih besar'],
+           ['specialist', 'Building deep expertise in a specialism', 'Membangun keahlian mendalam di satu spesialisasi'],
+           ['leadership', 'Developing leadership and management capabilities', 'Mengembangkan kapabilitas kepemimpinan'],
+           ['pivot', 'A significant career pivot into a new field', 'Pivot karier signifikan ke bidang baru']] },
+  { key: 'longTermVision', qEn: 'Looking 5–10 years ahead, what does your ideal career look like?', qId: 'Melihat 5–10 tahun ke depan, seperti apa karier idealmu?',
+    opts: [['executive', 'A senior leadership or executive role', 'Peran kepemimpinan senior atau eksekutif'],
+           ['expert', 'A recognised expert or specialist in my field', 'Pakar atau spesialis yang diakui di bidangku'],
+           ['founder', 'Building my own business or venture', 'Membangun bisnis atau usaha sendiri'],
+           ['impact', 'A high-impact role aligned with my values', 'Peran berdampak tinggi yang selaras dengan nilaiku'],
+           ['exploring', 'Still exploring — I want Compass to help me find my direction', 'Masih menjelajah — aku ingin Compass membantuku menemukan arah']] }
 ];
 let calQ = 0;
-window.climbOnbRepaint = function () { if (onbVeil.classList.contains('show')) paintClimbOnb(); };
+window.compassOnbRepaint = function () { if (onbVeil.classList.contains('show')) paintClimbOnb(); };
 function paintClimbOnb() {
   try { const l = localStorage.getItem('mtLang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
   $('onbStep').textContent = L('Step ' + onbStep + ' of 3', 'Langkah ' + onbStep + ' dari 3');
   [...$('onbDots').children].forEach((d, i) => d.classList.toggle('on', i < onbStep));
   const c = $('onbContent');
   if (onbStep === 1) {
-    c.innerHTML = '<h2>' + L('This is The Climb.', 'Ini adalah The Climb.') + '</h2>' +
+    c.innerHTML = '<svg width="72" height="72" viewBox="0 0 72 72" style="display:block;margin:0 auto 14px;animation:compassSettle 1.6s cubic-bezier(.34,1.56,.64,1) both" aria-hidden="true"><circle cx="36" cy="36" r="32" fill="none" stroke="var(--gold)" stroke-width="1.6" opacity=".55"/><circle cx="36" cy="36" r="2.6" fill="var(--gold)"/><path d="M36 8 L41 36 L36 64 L31 36 Z" fill="var(--gold)" opacity=".9"/><path d="M8 36 L36 31 L64 36 L36 41 Z" fill="var(--gold)" opacity=".35"/></svg>' + '<h2 style="text-align:center">' + L('Setting the Compass', 'Mengatur Kompas') + '</h2>' +
       '<div class="onb-body"><p style="font-size:13.5px;color:var(--muted);line-height:1.75">' +
-      L('Your career command centre. It gets smarter every time you complete a module, log an application, or reflect on an interview. Let’s get a baseline for your career readiness — five questions, sixty seconds.',
-        'Pusat komando kariermu. Ia semakin cerdas setiap kali kamu menyelesaikan modul, mencatat lamaran, atau merefleksikan wawancara. Mari ambil titik awal kesiapan kariermu — lima pertanyaan, enam puluh detik.') + '</p></div>' +
+      L('Before we set your bearing, we need a baseline. Five questions. Sixty seconds. Then your compass is calibrated.',
+        'Sebelum menentukan arahmu, kami butuh titik awal. Lima pertanyaan. Enam puluh detik. Kompasmu siap dikalibrasi.') + '</p></div>' +
       '<div class="onb-actions"><button class="onb-skip" id="onbSkipBtn">' + L('Skip for now', 'Lewati dulu') + '</button>' +
-      '<button class="onb-next" id="onbNextBtn">' + L('Start calibration →', 'Mulai kalibrasi →') + '</button></div>';
+      '<button class="onb-next" id="onbNextBtn">' + L('Begin Calibration →', 'Mulai Kalibrasi →') + '</button></div>';
     $('onbNextBtn').addEventListener('click', () => { onbStep = 2; calQ = 0; paintClimbOnb(); });
     $('onbSkipBtn').addEventListener('click', finishOnb);
   } else if (onbStep === 2) {
@@ -3462,39 +3513,45 @@ function paintClimbOnb() {
     const sc = calculateScores();
     const lv = getLevel(sc.overall);
     const CH_PATH = {
-      cv: ['Project Maverick Module 2 — your CV becomes an asset this week.', 'Project Maverick Modul 2 — CV-mu menjadi aset minggu ini.'],
-      assessments: ['Project Maverick Module 3 — timed psychometric practice.', 'Project Maverick Modul 3 — latihan psikometri berbatas waktu.'],
-      interviews: ['Project Nexus Module 2 — build your STAR story library.', 'Project Nexus Modul 2 — bangun perpustakaan kisah STAR-mu.'],
-      targeting: ['Project Aladdin Module 1 — self-audit before you aim.', 'Project Aladdin Modul 1 — audit diri sebelum membidik.'],
-      consistency: ['Log 3 applications this week in the tracker — momentum first.', 'Catat 3 lamaran minggu ini di pelacak — momentum dulu.']
+      first_role: ['Project Maverick Module 1 — understand the professional world you are entering.', 'Project Maverick Modul 1 — pahami dunia profesional yang akan kamu masuki.'],
+      transition: ['Project Aladin Module 1 — re-audit who you are before you re-aim.', 'Project Aladin Modul 1 — audit ulang dirimu sebelum membidik ulang.'],
+      promotion: ['Project Horizon Module 2 — play the performance game deliberately.', 'Project Horizon Modul 2 — mainkan permainan performa secara sengaja.'],
+      leadership: ['Project Horizon Module 9 — leadership foundations before the title.', 'Project Horizon Modul 9 — fondasi kepemimpinan sebelum gelar.'],
+      growth: ['Project Nexus Module 2 — build the story library that carries every room.', 'Project Nexus Modul 2 — bangun perpustakaan kisah yang membawa setiap ruangan.'],
+      foundations: ['Project Aladin Module 2 — the habits that compound for decades.', 'Project Aladin Modul 2 — kebiasaan yang berlipat selama puluhan tahun.']
     };
-    const path = CH_PATH[onbAns.challenge] || CH_PATH.targeting;
-    c.innerHTML = '<div class="onb-final"><h2>' + L('Your baseline is set.', 'Titik awalmu sudah ditetapkan.') + '</h2>' +
+    const path = CH_PATH[onbAns.careerObjective] || CH_PATH.first_role;
+    c.innerHTML = '<div class="onb-final"><h2>' + L('Your compass is set.', 'Kompasmu sudah diatur.') + '</h2>' +
       '<div style="margin:14px 0 10px">' + ringHTML(96, 8, sc.overall, 24) + '</div>' +
       '<p style="color:var(--muted);font-size:.92rem;line-height:1.7;margin:0 0 6px">' +
-      L('Your Career Readiness starts at <b style="color:var(--gold)">' + sc.overall + ' / 100 — ' + lv.en + '</b>.<br>Quickest path upward: ' + path[0],
-        'Kesiapan Kariermu dimulai di <b style="color:var(--gold)">' + sc.overall + ' / 100 — ' + lv.idn + '</b>.<br>Jalur naik tercepat: ' + path[1]) + '</p>' +
-      '<div class="onb-actions" style="justify-content:center;margin-top:20px"><button class="onb-next" id="onbGoBtn">' + L('Go to My Dashboard →', 'Ke Dasborku →') + '</button></div></div>';
+      L('Your starting Career Bearing: <b style="color:var(--gold)">' + sc.overall + ' / 100 — ' + lv.en + '</b>.<br>Your first True North: ' + path[0],
+        'Career Bearing awalmu: <b style="color:var(--gold)">' + sc.overall + ' / 100 — ' + lv.idn + '</b>.<br>True North pertamamu: ' + path[1]) + '</p>' +
+      '<div class="onb-actions" style="justify-content:center;margin-top:20px"><button class="onb-next" id="onbGoBtn">' + L('Begin Your Ascent →', 'Mulai Pendakianmu →') + '</button></div></div>';
     animateRings(c);
     $('onbGoBtn').addEventListener('click', finishOnb);
   }
 }
 function applyCalibration() {
-  try { sessionStorage.setItem('climb_calibration', JSON.stringify(onbAns)); } catch (e) {}
-  /* conservative baseline seeds — the "not calculated from course data" starting scores */
-  const yearCI = { '1': 5, '2': 5, '3': 10, '4': 15, grad: 15 }[onbAns.year] || 5;
-  const appsCM = { '0': 0, '1-5': 6, '6-15': 12, '15+': 18 }[onbAns.apps] || 0;
-  const appsIR = { '0': 0, '1-5': 3, '6-15': 6, '15+': 9 }[onbAns.apps] || 0;
-  const ivIR = { none: 0, '1-3': 8, '4+': 14 }[onbAns.interviews] || 0;
-  const bump = (key, v) => { const cur = parseInt(getLS(key, '0'), 10) || 0; if (v > cur) setLS(key, String(v)); };
-  bump('climb_manual_ci', yearCI);
-  bump('climb_manual_ir', appsIR + ivIR);
-  bump('climb_manual_cm', 10 + appsCM);
-  if (onbAns.apps && onbAns.apps !== '0') bump('climb_manual_ps', 5);
+  try { sessionStorage.setItem('compass_calibration', JSON.stringify(onbAns)); } catch (e) {}
+  /* seed scores scale with career stage — conservative baselines that
+     course completion then builds upon (max(base, seed) in the engine) */
+  const stageScores = {
+    student:                  { ci: 15, ps: 10, ir: 10, nc: 10, cm: 15 },
+    fresh_graduate:           { ci: 20, ps: 15, ir: 15, nc: 15, cm: 20 },
+    early_professional:       { ci: 30, ps: 25, ir: 25, nc: 30, cm: 30 },
+    experienced_professional: { ci: 40, ps: 35, ir: 35, nc: 45, cm: 40 },
+    senior_professional:      { ci: 50, ps: 45, ir: 45, nc: 60, cm: 50 }
+  };
+  const base = stageScores[onbAns.careerStage] || stageScores.student;
+  setLS('compass_seed_scores', JSON.stringify({
+    careerIntelligence: base.ci, profileStrength: base.ps, interviewReadiness: base.ir,
+    networkCapital: base.nc, careerMindset: base.cm
+  }));
+  setLS('compass_network_capital', String(base.nc));
 }
 function finishOnb() {
   onbVeil.classList.remove('show');
-  try { sessionStorage.setItem('climb_onboarded', 'true'); } catch (e) {}
+  try { sessionStorage.setItem('compass_onboarded', 'true'); } catch (e) {}
   try { localStorage.setItem('metanoia_onboarded', '1'); } catch (e) {}
   if (params.get('onboarding')) history.replaceState(null, '', 'portal.html');
   updateAll();
@@ -3502,56 +3559,56 @@ function finishOnb() {
 (function maybeOnboard() {
   if (isDemoMode) return;
   let done = false;
-  try { done = sessionStorage.getItem('climb_onboarded') === 'true' || !!localStorage.getItem('metanoia_onboarded'); } catch (e) {}
+  try { done = sessionStorage.getItem('compass_onboarded') === 'true' || !!localStorage.getItem('metanoia_onboarded'); } catch (e) {}
   if (params.get('onboarding') === 'true' || !done) { onbStep = 1; paintClimbOnb(); onbVeil.classList.add('show'); }
 })();
 
-/* ─── MODULE INTEGRATION — The Climb renders inside the portal shell ─── */
+/* ─── MODULE INTEGRATION — Project Compass renders inside the portal shell ─── */
 function activateTab(t) { window.showModule(t === 'progress' ? 'learning' : t); }
-const CLIMB_MODULES = ['dashboard', 'applications', 'learning', 'milestones', 'insights'];
-let curModule = 'dashboard';
-window.climbOnModule = function (id) {
+const COMPASS_MODULES = ['bearing', 'course-plotter', 'learning', 'waypoints', 'nav-briefing'];
+let curModule = 'bearing';
+window.compassOnModule = function (id) {
   curModule = id;
   try { sessionStorage.setItem('portal_active_tab', id); } catch (e) {}
   if (history.replaceState) history.replaceState(null, '', '#' + (id === 'learning' ? 'my-learning' : id));
-  if (!CLIMB_MODULES.includes(id)) { refreshTopScore(); return; }
+  if (!COMPASS_MODULES.includes(id)) { refreshTopScore(); return; }
   scores = calculateScores();
-  if (id === 'dashboard') { renderDashboard(); renderGreeting(); }
-  if (id === 'applications') renderApplications();
+  if (id === 'bearing') { renderDashboard(); renderGreeting(); }
+  if (id === 'course-plotter') renderApplications();
   if (id === 'learning') renderLearning();
-  if (id === 'milestones') { renderMilestones(); milestoneExtras(); }
-  if (id === 'insights') { renderInsights(); insightsExtras(); }
+  if (id === 'waypoints') { renderMilestones(); milestoneExtras(); }
+  if (id === 'nav-briefing') { renderInsights(); insightsExtras(); }
   refreshTopScore();
   checkLevelUp();
-  const fab = $('fabAdd'); if (fab) fab.classList.toggle('show', id === 'applications');
+  const fab = $('fabAdd'); if (fab) fab.classList.toggle('show', id === 'course-plotter');
 };
 function updateAll() {
   scores = calculateScores();
-  window.climbOnModule(curModule);
+  window.compassOnModule(curModule);
 }
-window.climbRefresh = function () {
+window.compassRefresh = function () {
   try { const l = localStorage.getItem('mtLang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
   updateAll();
 };
 
 /* bell */
 const bell = $('tbBell');
-if (bell) bell.addEventListener('click', () => { setBell(0); window.showModule('milestones'); });
+if (bell) bell.addEventListener('click', () => { setBell(0); window.showModule('waypoints'); });
 
 /* mobile: re-render applications view mode on breakpoint change */
 try {
-  window.matchMedia('(max-width: 768px)').addEventListener('change', () => { if (curModule === 'applications') renderApplications(); });
+  window.matchMedia('(max-width: 768px)').addEventListener('change', () => { if (curModule === 'course-plotter') renderApplications(); });
 } catch (e) {}
 
 /* ─── INIT ─── */
 checkAndAwardBadges();
-let initModule = 'dashboard';
-try { initModule = sessionStorage.getItem('portal_active_tab') || 'dashboard'; } catch (e) {}
+let initModule = 'bearing';
+try { initModule = sessionStorage.getItem('portal_active_tab') || 'bearing'; } catch (e) {}
 const h = (location.hash || '').slice(1);
 if (h === 'my-learning' || h === 'learning') initModule = 'learning';
-else if (['dashboard', 'applications', 'milestones', 'insights', 'settings', 'help'].includes(h)) initModule = h;
+else if (['bearing', 'course-plotter', 'waypoints', 'nav-briefing', 'settings', 'help'].includes(h)) initModule = h;
 window.showModule(initModule);
-window.__climbReady = true;
+window.__compassReady = true;
 
 })();
 </script>
