@@ -142,22 +142,43 @@
   .hero-fallback{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity .5s}
   .hero-fallback.show{opacity:1}
   .hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(5,10,18,.30) 0%,rgba(5,10,18,.88) 100%)}
-  .hero-content{position:relative;z-index:2;text-align:center;max-width:900px;padding:0 24px;color:#fff}
-  .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:30px;
-    font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
+  /* Home-page hero design system: same display stack, type scale, container and spacing as landing #call */
+  .hero-content{position:relative;z-index:2;text-align:left;max-width:1060px;width:100%;color:#fff;
+    padding:84px clamp(34px,5.5vw,68px) 150px;
+    --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif}
+  .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:14px;font-family:var(--disp);
+    font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
   .hero-pill::before,.hero-pill::after{content:'';width:44px;height:1px;background:rgba(201,168,76,.6)}
-  .hero h1{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;line-height:1.15;margin:0 0 16px;letter-spacing:-.01em}
-  .hero-em{font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.1vw,1.4rem);
-    color:#E8C766;line-height:1.55;margin:0 auto 24px;max-width:700px}
-  .hero-sub{font-size:clamp(1rem,1.8vw,1.15rem);color:rgba(255,255,255,.82);line-height:1.7;margin:0 auto 40px;
-    max-width:640px;font-weight:300}
-  .hero-cta{display:inline-block;padding:16px 36px;background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);
-    color:#050A12;font-size:15px;font-weight:800;border-radius:999px;text-decoration:none;letter-spacing:.02em;
-    box-shadow:0 6px 28px rgba(201,168,76,.4);transition:transform .2s,box-shadow .2s}
-  .hero-cta:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(201,168,76,.5)}
+  .hero-em{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);
+    color:#D3DAE3;line-height:1.55;margin:0 0 20px;letter-spacing:.01em;text-wrap:balance;max-width:30em}
+  .hero h1{font-family:var(--disp);font-size:clamp(2.2rem,5.3vw,4.3rem);font-weight:800;text-transform:uppercase;
+    line-height:1.06;margin:0;letter-spacing:-.015em;text-wrap:balance}
+  .hero-sub{font-family:var(--disp);font-size:clamp(.98rem,1.6vw,1.15rem);color:rgba(255,255,255,.82);line-height:1.7;
+    margin:24px 0 0;max-width:31em;font-weight:400;letter-spacing:.004em}
+  .hero-cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;padding:15px 28px;
+    background:linear-gradient(135deg,var(--gold-deep),#C9A84C,#F0D878);
+    color:#050A12;font-family:var(--disp);font-size:15.5px;font-weight:600;border-radius:999px;text-decoration:none;
+    letter-spacing:normal;box-shadow:0 8px 40px rgba(201,168,76,.35);transition:transform .2s ease}
+  .hero-cta:hover{transform:translateY(-2px)}
   .hero-cta2{display:inline-block;margin-left:14px;padding:15px 30px;border:1px solid rgba(201,168,76,.45);
     color:#E8C766;font-size:14px;font-weight:700;border-radius:999px;text-decoration:none;transition:all .2s}
   .hero-cta2:hover{background:rgba(201,168,76,.12)}
+  /* Home-hero responsive parity — compact desktop (mirrors landing's max-height:950 rules) */
+  @media(min-width:769px) and (max-height:950px){
+    .hero-content{padding-top:88px;padding-bottom:96px}
+    .hero-pill{margin-bottom:10px}
+    .hero-em{font-size:clamp(.95rem,1.6vw,1.15rem);margin-bottom:14px}
+    .hero h1{font-size:clamp(1.9rem,4.1vw,3.2rem)}
+    .hero-sub{margin-top:16px;font-size:clamp(.92rem,1.35vw,1.05rem);line-height:1.62}
+    .hero-cta{margin-top:22px;padding:13px 24px;font-size:14.5px}
+  }
+  /* Home-hero responsive parity — mobile (mirrors landing's body.m presentation) */
+  @media(max-width:768px){
+    .hero{height:auto;min-height:100svh}
+    .hero-content{padding:110px 26px 84px}
+    .hero-pill{font-size:10px;margin-bottom:10px;letter-spacing:.24em;gap:10px;white-space:nowrap}
+    .hero-pill::before,.hero-pill::after{width:20px}
+  }
 
   /* ═══ SECTION SCAFFOLD ═══ */
   .section-inner{max-width:1180px;margin:0 auto;padding:0 40px}
@@ -767,8 +788,8 @@
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-pill" data-en="Chapter · Early Professionals" data-id="Bab · Profesional Muda">Chapter · Early Professionals</div>
-    <h1 data-en="The first five years don’t just build experience. They set the trajectory." data-id="Lima tahun pertama tidak hanya membangun pengalaman. Mereka menentukan trajektori.">The first five years don’t just build experience. They set the trajectory.</h1>
     <p class="hero-em" data-en="Most people spend them reacting. A few spend them building." data-id="Kebanyakan orang menghabiskannya dengan bereaksi. Sebagian kecil menghabiskannya dengan membangun.">Most people spend them reacting. A few spend them building.</p>
+    <h1 data-en="The first five years don’t just build experience. They set the trajectory." data-id="Lima tahun pertama tidak hanya membangun pengalaman. Mereka menentukan trajektori.">The first five years don’t just build experience. They set the trajectory.</h1>
     <p class="hero-sub" data-en="There is a narrow window in every professional’s career when the path is still fully open — when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it." data-id="Ada jendela sempit dalam setiap karier seorang profesional ketika jalur masih benar-benar terbuka — ketika satu pivot strategis, investasi yang tepat waktu pada keterampilan baru, atau peluang yang dipilih dengan sengaja dapat mengubah segalanya yang mengikutinya. Jendela itu adalah sekarang. Metanoia hadir untuk profesional yang berniat menggunakannya.">There is a narrow window in every professional’s career when the path is still fully open — when a single strategic pivot, a well-timed investment in a new skill, or a deliberately chosen opportunity can change everything that follows. That window is now. Metanoia exists for professionals who intend to use it.</p>
     <a href="../career-map-assessment.html" class="hero-cta" data-en="Map Your Trajectory →" data-id="Petakan Trajektorimu →">Map Your Trajectory →</a>
   </div>
