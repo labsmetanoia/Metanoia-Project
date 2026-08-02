@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>The Climb — Metanoia Labs</title>
+<title>The Compass — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="The career command centre of the Metanoia platform. Track every application, aggregate your learning progress, and watch your career readiness climb. Student Product 05.">
-<link rel="canonical" href="https://metanoialabs.net/pages/products/the-climb.html">
+<meta name="description" content="The career navigation system of the Metanoia platform. Know where you are, know where you're going — every application, every module, one Career Bearing. Student Product 05.">
+<link rel="canonical" href="https://metanoialabs.net/pages/products/the-compass.html">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192.png"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/pages/products/the-climb.html">
+<meta property="og:url" content="https://metanoialabs.net/pages/products/the-compass.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="The Climb — Metanoia Labs">
-<meta property="og:description" content="Every step tracked. Every move made for a reason. The live career dashboard of the Metanoia Premium suite.">
+<meta property="og:title" content="The Compass — Metanoia Labs">
+<meta property="og:description" content="Know where you are. Know where you're going. The career navigation system of the Metanoia Premium suite.">
 <meta property="og:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
@@ -602,11 +602,11 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
     <nav class="breadcrumb" aria-label="breadcrumb">
       <a href="../../portal.html#my-learning" class="breadcrumb-back">← <span data-en="My Learning" data-id="Pembelajaran Saya">My Learning</span></a>
       <span class="breadcrumb-sep">·</span>
-      <span class="breadcrumb-current">The Climb</span>
+      <span class="breadcrumb-current">Project Compass</span>
     </nav>
   </div>
   <div class="tb-center">
-    <button class="readiness-pill" id="tbReadiness" data-tab-jump="dashboard" aria-label="Career readiness score">
+    <button class="readiness-pill" id="tbReadiness" data-tab-jump="bearing" aria-label="Career readiness score">
       <span data-en="Readiness:" data-id="Kesiapan:">Readiness:</span> <b id="tbScore">0 / 100</b> <span class="rp-lv" id="tbLevel">·</span>
     </button>
   </div>
@@ -628,16 +628,16 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
   <!-- ═══ SIDEBAR ═══ -->
   <aside class="sidebar">
     <div class="sb-head">
-      <span class="gold-pill">05 · The Climb</span>
-      <span class="cname">The Climb</span>
-      <span class="csub" data-en="Your Career Command Centre" data-id="Pusat Komando Kariermu">Your Career Command Centre</span>
+      <span class="gold-pill">05 · The Compass</span>
+      <span class="cname">Project Compass</span>
+      <span class="csub" data-en="Your Career Navigation System" data-id="Sistem Navigasi Kariermu">Your Career Navigation System</span>
     </div>
     <nav class="sb-nav" aria-label="Dashboard navigation">
-      <button class="nav-item" data-tab="dashboard"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg></span><span data-en="Dashboard" data-id="Dasbor">Dashboard</span></button>
-      <button class="nav-item" data-tab="applications"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></span><span data-en="Applications" data-id="Lamaran">Applications</span><span class="nav-badge" id="appsBadge">0</span></button>
-      <button class="nav-item" data-tab="progress"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="Progress" data-id="Kemajuan">Progress</span></button>
-      <button class="nav-item" data-tab="milestones"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></span><span data-en="Milestones" data-id="Tonggak Pencapaian">Milestones</span></button>
-      <button class="nav-item" data-tab="insights"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg></span><span data-en="Insights" data-id="Wawasan">Insights</span></button>
+      <button class="nav-item" data-tab="bearing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg></span><span data-en="Bearing" data-id="Bearing">Bearing</span></button>
+      <button class="nav-item" data-tab="course-plotter"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></span><span data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</span><span class="nav-badge" id="appsBadge">0</span></button>
+      <button class="nav-item" data-tab="my-learning"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="My Learning" data-id="Kurikulumku">My Learning</span></button>
+      <button class="nav-item" data-tab="waypoints"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></span><span data-en="Waypoints" data-id="Titik Singgah">Waypoints</span></button>
+      <button class="nav-item" data-tab="nav-briefing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg></span><span data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</span></button>
     </nav>
     <div class="sb-ring-card" id="sbRingCard" role="button" tabindex="0" aria-label="Career readiness — open dashboard">
       <span class="ring" id="sbRing" style="width:56px;height:56px">
@@ -657,29 +657,29 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
   <main class="main-content">
 
     <!-- ─── TAB: DASHBOARD ─── -->
-    <section class="tab-content" id="tab-dashboard">
+    <section class="tab-content" id="tab-bearing">
       <div class="tab-head">
-        <h2 data-en="Dashboard" data-id="Dasbor">Dashboard</h2>
-        <p class="tab-sub" data-en="Your career character sheet — five dimensions, one score, and the single most important move to make today." data-id="Lembar karakter kariermu — lima dimensi, satu skor, dan satu langkah terpenting untuk dilakukan hari ini.">Your career character sheet — five dimensions, one score, and the single most important move to make today.</p>
+        <h2 data-en="Bearing" data-id="Bearing">Bearing</h2>
+        <p class="tab-sub" data-en="Your current career position and heading — five Compass Points, one Career Bearing, and your True North for today." data-id="Posisi dan arah kariermu saat ini — lima Titik Kompas, satu Career Bearing, dan True North-mu untuk hari ini.">Your current career position and heading — five Compass Points, one Career Bearing, and your True North for today.</p>
       </div>
       <div id="dashTodaysMoveSlot"></div>
       <div class="glass-card char-sheet" id="charSheet"></div>
-      <h3 class="sec-label" data-en="Five Dimensions" data-id="Lima Dimensi">Five Dimensions</h3>
+      <h3 class="sec-label" data-en="Compass Points" data-id="Titik Kompas">Compass Points</h3>
       <div class="dim-grid" id="dimGrid"></div>
-      <h3 class="sec-label" data-en="Application Pipeline" data-id="Alur Lamaran">Application Pipeline</h3>
+      <h3 class="sec-label" data-en="Course Pipeline" data-id="Alur Rute">Course Pipeline</h3>
       <div class="glass-card pipe-sum" id="pipeSum"></div>
       <h3 class="sec-label" data-en="Product Completion Map" data-id="Peta Penyelesaian Produk">Product Completion Map</h3>
       <div class="pmap-grid" id="pmapGrid"></div>
     </section>
 
     <!-- ─── TAB: APPLICATIONS ─── -->
-    <section class="tab-content" id="tab-applications" hidden>
+    <section class="tab-content" id="tab-course-plotter" hidden>
       <div class="tab-head">
-        <h2 data-en="Application Tracker" data-id="Pelacak Lamaran">Application Tracker</h2>
-        <p class="tab-sub" data-en="Your complete job search history — every application, every stage, every next move." data-id="Riwayat pencarian kerja lengkapmu — setiap lamaran, setiap tahap, setiap langkah berikutnya.">Your complete job search history — every application, every stage, every next move.</p>
+        <h2 data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</h2>
+        <p class="tab-sub" data-en="Every application is a route. Track every stage, every move, every result." data-id="Setiap lamaran adalah rute. Lacak setiap tahap, setiap langkah, setiap hasil.">Every application is a route. Track every stage, every move, every result.</p>
       </div>
       <div class="apps-controls">
-        <button class="btn-gold" id="addAppBtn"><span data-en="+ Add Application" data-id="+ Tambah Lamaran">+ Add Application</span></button>
+        <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Tambah Rute Baru">+ Plot New Route</span></button>
         <span class="spacer"></span>
         <div class="seg-toggle" role="group" aria-label="View mode">
           <button id="viewBoardBtn" data-en="Board" data-id="Papan">Board</button>
@@ -697,9 +697,9 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
     </section>
 
     <!-- ─── TAB: PROGRESS ─── -->
-    <section class="tab-content" id="tab-progress" hidden>
+    <section class="tab-content" id="tab-my-learning" hidden>
       <div class="tab-head">
-        <h2 data-en="Learning Progress" data-id="Kemajuan Belajar">Learning Progress</h2>
+        <h2 data-en="My Learning" data-id="Kurikulumku">My Learning</h2>
         <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed, skills earned, certificates unlocked." data-id="Kurikulum Metanoia lengkapmu — modul selesai, keterampilan diperoleh, sertifikat terbuka.">Your complete Metanoia curriculum — modules completed, skills earned, certificates unlocked.</p>
         <p class="tab-stats" id="progTotals"></p>
       </div>
@@ -709,10 +709,10 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
     </section>
 
     <!-- ─── TAB: MILESTONES ─── -->
-    <section class="tab-content" id="tab-milestones" hidden>
+    <section class="tab-content" id="tab-waypoints" hidden>
       <div class="tab-head">
-        <h2 data-en="Career Milestones" data-id="Tonggak Pencapaian Karier">Career Milestones</h2>
-        <p class="tab-sub" data-en="Every step documented. Every achievement permanent." data-id="Setiap langkah terdokumentasi. Setiap pencapaian bersifat permanen.">Every step documented. Every achievement permanent.</p>
+        <h2 data-en="Waypoints" data-id="Titik Singgah">Waypoints</h2>
+        <p class="tab-sub" data-en="Every achievement, permanently marked. Every step forward, permanently yours." data-id="Setiap pencapaian, ditandai selamanya. Setiap langkah maju, milikmu selamanya.">Every achievement, permanently marked. Every step forward, permanently yours.</p>
       </div>
       <h3 class="sec-label" data-en="The 4-Year Journey Map" data-id="Peta Perjalanan 4 Tahun">The 4-Year Journey Map</h3>
       <div class="glass-card journey-map" id="journeyMap"></div>
@@ -726,22 +726,22 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
     </section>
 
     <!-- ─── TAB: INSIGHTS ─── -->
-    <section class="tab-content" id="tab-insights" hidden>
+    <section class="tab-content" id="tab-nav-briefing" hidden>
       <div class="tab-head">
-        <h2 data-en="Your Insights" data-id="Wawasanmu">Your Insights</h2>
-        <p class="tab-sub" data-en="Data-driven guidance built around your specific journey. Updated every time you log progress." data-id="Panduan berbasis data yang dibangun di sekitar perjalananmu yang spesifik. Diperbarui setiap kali kamu mencatat kemajuan.">Data-driven guidance built around your specific journey. Updated every time you log progress.</p>
+        <h2 data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</h2>
+        <p class="tab-sub" data-en="Your career position analysis. Updated every time you log progress or advance a route." data-id="Analisis posisi kariermu. Diperbarui setiap kali kamu mencatat kemajuan atau memajukan rute.">Your career position analysis. Updated every time you log progress or advance a route.</p>
       </div>
       <h3 class="sec-label" data-en="Your Priority Actions" data-id="Tindakan Prioritasmu">Your Priority Actions</h3>
       <div id="priActions"></div>
-      <h3 class="sec-label" data-en="Application Pattern Analysis" data-id="Analisis Pola Lamaran">Application Pattern Analysis</h3>
+      <h3 class="sec-label" data-en="Route Pattern Analysis" data-id="Analisis Pola Rute">Route Pattern Analysis</h3>
       <div class="glass-card ins-panel" id="patternPanel"></div>
       <div id="deepDives"></div>
       <div class="glass-card soon-card">
-        <div class="sc-lock">🔒 <span data-en="Coming Soon — Metanoia Benchmark Intelligence" data-id="Segera Hadir — Metanoia Benchmark Intelligence">Coming Soon — Metanoia Benchmark Intelligence</span></div>
+        <div class="sc-lock">🔒 <span data-en="Coming Soon — Compass Intelligence" data-id="Segera Hadir — Compass Intelligence">Coming Soon — Compass Intelligence</span></div>
         <h4 data-en="Competitive Positioning" data-id="Posisi Kompetitif">Competitive Positioning</h4>
-        <p data-en="Once enough Metanoia students have completed The Climb, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark." data-id="Setelah cukup banyak pelajar Metanoia menyelesaikan The Climb, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan — datamu sudah berkontribusi pada benchmark.">Once enough Metanoia students have completed The Climb, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark.</p>
+        <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark." data-id="Setelah jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan — datamu sudah berkontribusi pada benchmark.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark.</p>
       </div>
-      <h3 class="sec-label" data-en="Weekly Summary" data-id="Ringkasan Mingguan">Weekly Summary</h3>
+      <h3 class="sec-label" data-en="Weekly Navigation Summary" data-id="Ringkasan Navigasi Mingguan">Weekly Navigation Summary</h3>
       <div class="glass-card week-card" id="weekCard"></div>
     </section>
 
@@ -750,11 +750,11 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
 
 <!-- ═══ MOBILE BOTTOM BAR + FAB ═══ -->
 <nav class="bottom-bar" aria-label="Dashboard navigation (mobile)">
-  <button class="bottom-tab-item" data-tab="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg><span data-en="Dashboard" data-id="Dasbor">Dashboard</span></button>
-  <button class="bottom-tab-item" data-tab="applications"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg><span data-en="Apps" data-id="Lamaran">Apps</span></button>
-  <button class="bottom-tab-item" data-tab="progress"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg><span data-en="Progress" data-id="Kemajuan">Progress</span></button>
-  <button class="bottom-tab-item" data-tab="milestones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg><span data-en="Milestones" data-id="Tonggak">Milestones</span></button>
-  <button class="bottom-tab-item" data-tab="insights"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg><span data-en="Insights" data-id="Wawasan">Insights</span></button>
+  <button class="bottom-tab-item" data-tab="bearing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg><span data-en="Bearing" data-id="Bearing">Bearing</span></button>
+  <button class="bottom-tab-item" data-tab="course-plotter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg><span data-en="Routes" data-id="Rute">Routes</span></button>
+  <button class="bottom-tab-item" data-tab="my-learning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg><span data-en="Learning" data-id="Belajar">Learning</span></button>
+  <button class="bottom-tab-item" data-tab="waypoints"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg><span data-en="Waypoints" data-id="Titik">Waypoints</span></button>
+  <button class="bottom-tab-item" data-tab="nav-briefing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg><span data-en="Briefing" data-id="Briefing">Briefing</span></button>
 </nav>
 <button class="fab-add" id="fabAdd" aria-label="Add application">+</button>
 
@@ -762,7 +762,7 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
 <div class="veil" id="appModal" role="dialog" aria-modal="true" aria-labelledby="appModalTitle">
   <div class="modal-card">
     <div class="modal-head">
-      <h3 id="appModalTitle" data-en="Add Application" data-id="Tambah Lamaran">Add Application</h3>
+      <h3 id="appModalTitle" data-en="Plot New Route" data-id="Tambah Rute Baru">Plot New Route</h3>
       <button class="modal-x" data-close="appModal" aria-label="Close">✕</button>
     </div>
     <form id="appForm" novalidate>
@@ -829,19 +829,19 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
 <div class="veil" id="rejectModal" role="dialog" aria-modal="true" aria-labelledby="rejectTitle">
   <div class="modal-card" style="max-width:520px">
     <div class="modal-head">
-      <h3 id="rejectTitle" style="display:flex;align-items:center;gap:10px"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 30 L15 12 L20 20 L25 9 L34 30" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Rejection Logged" data-id="Penolakan Tercatat">Rejection Logged</span></h3>
+      <h3 id="rejectTitle" style="display:flex;align-items:center;gap:10px"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 30 L15 12 L20 20 L25 9 L34 30" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Route Closed" data-id="Rute Ditutup">Route Closed</span></h3>
       <button class="modal-x" data-close="rejectModal" aria-label="Close">✕</button>
     </div>
-    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every rejection is information. Climbers who learn from each fall reach the summit faster than those who don't." data-id="Setiap penolakan adalah informasi. Pendaki yang belajar dari setiap jatuh mencapai puncak lebih cepat daripada yang tidak.">Every rejection is information. Climbers who learn from each fall reach the summit faster than those who don't.</p>
+    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every closed route teaches you something the open ones can&#39;t. Navigate better next time." data-id="Setiap rute yang ditutup mengajarkan sesuatu yang tidak bisa diajarkan rute yang terbuka. Bernavigasilah lebih baik lain kali.">Every closed route teaches you something the open ones can't. Navigate better next time.</p>
     <form id="rejectForm" novalidate>
       <div class="f-grid">
         <div class="f-field full"><label for="rjStage"><span data-en="Which stage did you reach?" data-id="Tahap mana yang kamu capai?">Which stage did you reach?</span></label><select id="rjStage"></select></div>
         <div class="f-field full"><label for="rjAgain"><span data-en="Would you apply again?" data-id="Apakah kamu akan melamar lagi?">Would you apply again?</span></label><select id="rjAgain"></select></div>
-        <div class="f-field full"><label for="rjDiff"><span data-en="One thing to do differently" data-id="Satu hal yang akan dilakukan berbeda">One thing to do differently</span></label><input id="rjDiff" type="text"></div>
+        <div class="f-field full"><label for="rjDiff"><span data-en="One navigation adjustment" data-id="Satu penyesuaian navigasi">One navigation adjustment</span></label><input id="rjDiff" type="text"></div>
       </div>
       <div class="modal-foot">
         <button type="button" class="btn-plain" id="rejectSkip" data-en="Skip" data-id="Lewati">Skip</button>
-        <button type="submit" class="btn-gold"><span data-en="Log &amp; Learn →" data-id="Catat &amp; Pelajari →">Log &amp; Learn →</span></button>
+        <button type="submit" class="btn-gold"><span data-en="Log &amp; Calibrate →" data-id="Catat &amp; Kalibrasi →">Log &amp; Calibrate →</span></button>
       </div>
     </form>
   </div>
@@ -867,7 +867,7 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
 <div class="veil" id="offerModal" role="dialog" aria-modal="true" aria-labelledby="offerTitle">
   <div class="modal-card" style="max-width:600px">
     <div class="modal-head">
-      <h3 id="offerTitle" data-en="Offer Evaluation" data-id="Evaluasi Penawaran">Offer Evaluation</h3>
+      <h3 id="offerTitle" data-en="Route Evaluation" data-id="Evaluasi Rute">Route Evaluation</h3>
       <button class="modal-x" data-close="offerModal" aria-label="Close">✕</button>
     </div>
     <div class="offer-sec" style="margin-top:0">
@@ -922,7 +922,7 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
       <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in Project Nexus Module 8." data-id="&lt;b&gt;Langkah 4 — Dapatkan secara tertulis.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di Project Nexus Modul 8."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in Project Nexus Module 8.</p>
     </div>
     <div class="modal-foot">
-      <a class="btn-ghost" href="project-nexus.html"><span data-en="Open Project Nexus →" data-id="Buka Project Nexus →">Open Project Nexus →</span></a>
+      <a class="btn-ghost" href="project-nexus.html?context=compass"><span data-en="Open Project Nexus →" data-id="Buka Project Nexus →">Open Project Nexus →</span></a>
     </div>
   </div>
 </div>
@@ -934,10 +934,10 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
 <!-- ═══ UPGRADE VEIL ═══ -->
 <div class="upgrade-veil" id="upgradeVeil" role="dialog" aria-modal="true" aria-labelledby="upgradeTitle">
   <div class="upgrade-card">
-    <span class="gold-pill">05 · The Climb</span>
-    <h2 id="upgradeTitle" data-en="The Climb is part of Metanoia Premium" data-id="The Climb adalah bagian dari Metanoia Premium">The Climb is part of Metanoia Premium</h2>
+    <span class="gold-pill">05 · The Compass</span>
+    <h2 id="upgradeTitle" data-en="Project Compass is part of Metanoia Premium" data-id="Project Compass adalah bagian dari Metanoia Premium">Project Compass is part of Metanoia Premium</h2>
     <p data-en="The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product." data-id="Dasbor karier langsung: pelacak lamaran sadar-tahap, lima dimensi kesiapan, lencana pencapaian, dan mesin rekomendasi yang memberitahumu satu langkah terbaik untuk dilakukan hari ini — satu keanggotaan membuka semua produk Metanoia.">The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product.</p>
-    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access The Climb →" data-id="Tingkatkan ke Premium untuk Mengakses The Climb →">Upgrade to Premium to Access The Climb →</a>
+    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access Project Compass →" data-id="Tingkatkan ke Premium untuk Mengakses Project Compass →">Upgrade to Premium to Access Project Compass →</a>
   </div>
 </div>
 
@@ -959,7 +959,7 @@ function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.
 if (!isDemoMode) {
   if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
-    window.location.replace('../../login.html?redirect=' + encodeURIComponent('pages/products/the-climb.html'));
+    window.location.replace('../../login.html?redirect=' + encodeURIComponent('pages/products/the-compass.html'));
   } else if (!isPremium) {
     showUpgradePrompt();
   }
@@ -1026,16 +1026,16 @@ function seedDemo() {
           surpriseQuestions: 'Where does sustainability conflict with profit here?',
           betterAnswers: 'Quantify the trade-off examples.', keyLearning: 'Strategic questions landed extremely well.' }] })
   ];
-  demoStore['climb_applications'] = JSON.stringify(apps);
-  demoStore['climb_manual_ci'] = '23';
-  demoStore['climb_manual_ps'] = '35';
-  demoStore['climb_manual_ir'] = '26';
-  demoStore['climb_network_capital'] = '47';
-  demoStore['climb_manual_cm'] = '10';
-  demoStore['climb_milestones_log'] = JSON.stringify([
-    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First application submitted — Danone, Sustainability Graduate Trainee', id: 'Lamaran pertama dikirim — Danone, Sustainability Graduate Trainee' },
-    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed Project Aladdin Module 4 (Communication for Impact)', id: 'Menyelesaikan Project Aladdin Modul 4 (Komunikasi untuk Dampak)' },
-    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Logged application to McKinsey & Company — Business Analyst', id: 'Mencatat lamaran ke McKinsey & Company — Business Analyst' },
+  demoStore['compass_applications'] = JSON.stringify(apps);
+  demoStore['compass_manual_ci'] = '23';
+  demoStore['compass_manual_ps'] = '35';
+  demoStore['compass_manual_ir'] = '26';
+  demoStore['compass_network_capital'] = '47';
+  demoStore['compass_manual_cm'] = '10';
+  demoStore['compass_milestones_log'] = JSON.stringify([
+    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama direncanakan — Danone, Sustainability Graduate Trainee' },
+    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed Project Aladin Module 4 (Communication for Impact)', id: 'Menyelesaikan Project Aladin Modul 4 (Komunikasi untuk Dampak)' },
+    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Plotted route to McKinsey & Company — Business Analyst', id: 'Merencanakan rute ke McKinsey & Company — Business Analyst' },
     { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Telkom Indonesia (CV Screening) — debrief completed', id: 'Penolakan tercatat — Telkom Indonesia (Seleksi CV) — debrief selesai' },
     { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Final Interview di Danone' },
     { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — HR Interview CIMB Niaga' },
@@ -1044,6 +1044,18 @@ function seedDemo() {
   ]);
 }
 if (isDemoMode) seedDemo();
+
+/* one-time namespace migration: The Climb -> Project Compass (data is never lost) */
+try {
+  if (!isDemoMode && !localStorage.getItem('compass_applications') && localStorage.getItem('cl' + 'imb_applications')) {
+    ['applications', 'milestones_log', 'badges_earned', 'offer_evaluations', 'manual_ci', 'manual_ps', 'manual_ir', 'manual_cm',
+     'network_capital', 'view_mode', 'filter_status', 'streak_state', 'personal_goals', 'last_level'].forEach(function (k) {
+      var v = localStorage.getItem('cl' + 'imb_' + k);
+      if (v != null) localStorage.setItem('compass_' + k, v);
+    });
+  }
+} catch (e) {}
+
 
 function getLS(key, def) {
   if (isDemoMode) return (key in demoStore) ? demoStore[key] : def;
@@ -1182,9 +1194,9 @@ function generateUUID() {
   });
 }
 function getApplications() {
-  try { const a = JSON.parse(getLS('climb_applications', '[]')); return Array.isArray(a) ? a : []; } catch (e) { return []; }
+  try { const a = JSON.parse(getLS('compass_applications', '[]')); return Array.isArray(a) ? a : []; } catch (e) { return []; }
 }
-function writeApplications(apps) { setLS('climb_applications', JSON.stringify(apps)); }
+function writeApplications(apps) { setLS('compass_applications', JSON.stringify(apps)); }
 function saveApplication(app) {
   const apps = getApplications();
   const now = new Date().toISOString();
@@ -1194,8 +1206,8 @@ function saveApplication(app) {
   } else {
     app = Object.assign({}, app, { id: generateUUID(), createdAt: now, updatedAt: now });
     apps.push(app);
-    logMilestone('app', 'Logged application to ' + app.company + ' — ' + app.role,
-                        'Mencatat lamaran ke ' + app.company + ' — ' + app.role);
+    logMilestone('app', 'Plotted route to ' + app.company + ' — ' + app.role,
+                        'Merencanakan rute ke ' + app.company + ' — ' + app.role);
   }
   writeApplications(apps);
   checkAndAwardBadges();
@@ -1232,26 +1244,30 @@ function advanceStage(id) {
 
 /* ─── MILESTONE LOG ─── */
 function getMilestones() {
-  try { const m = JSON.parse(getLS('climb_milestones_log', '[]')); return Array.isArray(m) ? m : []; } catch (e) { return []; }
+  try { const m = JSON.parse(getLS('compass_milestones_log', '[]')); return Array.isArray(m) ? m : []; } catch (e) { return []; }
 }
 function logMilestone(cat, en, idn) {
   const log = getMilestones();
   log.push({ date: new Date().toISOString().slice(0, 10), cat: cat, en: en, id: idn });
-  setLS('climb_milestones_log', JSON.stringify(log));
+  setLS('compass_milestones_log', JSON.stringify(log));
 }
 
-/* ─── DIMENSION SCORES ─── */
+/* ─── CAREER BEARING — Compass Point scores + calibration seeds ─── */
+function seedScores() {
+  try { const s = JSON.parse(getLS('compass_seed_scores', '{}')); return s && typeof s === 'object' ? s : {}; } catch (e) { return {}; }
+}
 function calculateScores() {
   const apps = getApplications();
+  const seed = seedScores();
   const aladinDone = modulesDone('aladin_progress', 6);
   const ciBase = Math.round((aladinDone / 6) * 75);
-  const ciManual = parseInt(getLS('climb_manual_ci', '0'), 10) || 0;
-  const careerIntelligence = Math.min(100, ciBase + ciManual);
+  const ciManual = parseInt(getLS('compass_manual_ci', '0'), 10) || 0;
+  const careerIntelligence = Math.min(100, Math.max(ciBase, seed.careerIntelligence || 0) + ciManual);
 
   const mavDone = modulesDone('maverick_progress', 9);
   const psBase = Math.round((mavDone / 9) * 75);
-  const psManual = parseInt(getLS('climb_manual_ps', '0'), 10) || 0;
-  const profileStrength = Math.min(100, psBase + psManual);
+  const psManual = parseInt(getLS('compass_manual_ps', '0'), 10) || 0;
+  const profileStrength = Math.min(100, Math.max(psBase, seed.profileStrength || 0) + psManual);
 
   const nexusDone = modulesDone('nexus_progress', 9);
   const irBase = Math.round((nexusDone / 9) * 60);
@@ -1259,22 +1275,25 @@ function calculateScores() {
   const irActivity = Math.min(20, interviewApps.length * 3);
   const debriefsAll = apps.reduce((n, a) => n + (a.interviewDebriefs || []).length, 0);
   const irDebriefs = Math.min(10, debriefsAll * 2);
-  const irManual = parseInt(getLS('climb_manual_ir', '0'), 10) || 0;
-  const interviewReadiness = Math.min(100, irBase + irActivity + irDebriefs + irManual);
+  const irManual = parseInt(getLS('compass_manual_ir', '0'), 10) || 0;
+  const interviewReadiness = Math.min(100, Math.max(irBase, seed.interviewReadiness || 0) + irActivity + irDebriefs + irManual);
 
-  const networkCapital = Math.min(100, parseInt(getLS('climb_network_capital', '15'), 10) || 15);
+  const networkCapital = Math.min(100, parseInt(getLS('compass_network_capital', String(seed.networkCapital || 15)), 10) || 15);
 
+  const horizonDone = modulesDone('horizon_progress', 9);
+  const cmHorizon = Math.round((horizonDone / 9) * 30);
   const thirtyDaysAgo = NOW - 30 * DAY;
   const recentApps = apps.filter(a => new Date(a.applicationDate).getTime() >= thirtyDaysAgo);
-  const cmActivity = Math.min(50, recentApps.length * 3);
+  const cmActivity = Math.min(40, recentApps.length * 3);
   const rejectionDebriefs = apps.filter(a => a.rejectionDebrief).length;
-  const cmResilience = Math.min(20, rejectionDebriefs * 4);
-  const cmManual = parseInt(getLS('climb_manual_cm', '10'), 10) || 0;
-  const careerMindset = Math.min(100, cmActivity + cmResilience + cmManual);
+  const cmResilience = Math.min(15, rejectionDebriefs * 3);
+  const cmManual = parseInt(getLS('compass_manual_cm', '10'), 10) || 0;
+  const cmSeed = seed.careerMindset || 0;
+  const careerMindset = Math.min(100, cmHorizon + cmActivity + cmResilience + Math.max(0, cmSeed - cmHorizon) + cmManual);
 
   const overall = Math.round((careerIntelligence + profileStrength + interviewReadiness + networkCapital + careerMindset) / 5);
   return { careerIntelligence, profileStrength, interviewReadiness, networkCapital, careerMindset, overall,
-           aladinDone, mavDone, nexusDone, horizonDone: modulesDone('horizon_progress', 9), debriefsAll, rejectionDebriefs, recentCount: recentApps.length };
+           aladinDone, mavDone, nexusDone, horizonDone, debriefsAll, rejectionDebriefs, recentCount: recentApps.length };
 }
 function getLevel(score) {
   if (score >= 81) return { en: 'Summit',        idn: 'Puncak',               icon: '⛰️', min: 81, next: null };
@@ -1286,7 +1305,7 @@ function getLevel(score) {
 
 /* ─── PRODUCTS (Progress tab + completion map) ─── */
 const PRODUCTS = [
-  { key: 'aladin', badge: '01 · The Map', nameEn: 'Project Aladdin', nameId: 'Project Aladdin', file: 'project-aladin.html', total: 6, pts: 100,
+  { key: 'aladin', badge: '01 · The Map', nameEn: 'Project Aladin', nameId: 'Project Aladin', file: 'project-aladin.html', total: 6, pts: 100,
     modules: [
       { en: 'Self-Awareness and Personal Audit', idn: 'Kesadaran Diri dan Audit Pribadi', skills: [['Self-Awareness', 'Kesadaran Diri']] },
       { en: 'The Habits of Effective People', idn: 'Kebiasaan Orang yang Efektif', skills: [['Effective Habits', 'Kebiasaan Efektif']] },
@@ -1335,9 +1354,9 @@ const PRODUCTS = [
 
 /* ─── BADGES ─── */
 const BADGES = [
-  { id: 'a1', cat: 'Aladin',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete Aladdin Module 1', cId: 'Selesaikan Aladdin Modul 1', check: c => c.aladinDone >= 1 },
-  { id: 'a3', cat: 'Aladin',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete Aladdin Module 3', cId: 'Selesaikan Aladdin Modul 3', check: c => c.aladinDone >= 3 },
-  { id: 'ac', cat: 'Aladin',   icon: '🗺️', en: 'Aladdin Complete',  idn: 'Aladdin Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
+  { id: 'a1', cat: 'Aladin',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete Aladin Module 1', cId: 'Selesaikan Aladin Modul 1', check: c => c.aladinDone >= 1 },
+  { id: 'a3', cat: 'Aladin',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete Aladin Module 3', cId: 'Selesaikan Aladin Modul 3', check: c => c.aladinDone >= 3 },
+  { id: 'ac', cat: 'Aladin',   icon: '🗺️', en: 'Aladin Complete',  idn: 'Aladin Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
   { id: 'm2', cat: 'Maverick', icon: '📄', en: 'CV Builder',        idn: 'Perancang CV',        cEn: 'Complete Maverick Module 2', cId: 'Selesaikan Maverick Modul 2', check: c => c.mavDone >= 2 },
   { id: 'm6', cat: 'Maverick', icon: '🤖', en: 'ATS Cleared',       idn: 'Lolos ATS',           cEn: 'Complete Maverick Module 6', cId: 'Selesaikan Maverick Modul 6', check: c => c.mavDone >= 6 },
   { id: 'm7', cat: 'Maverick', icon: '📊', en: 'Case Ready',        idn: 'Siap Kasus',          cEn: 'Complete Maverick Module 7', cId: 'Selesaikan Maverick Modul 7', check: c => c.mavDone >= 7 },
@@ -1346,17 +1365,20 @@ const BADGES = [
   { id: 'n7', cat: 'Nexus',    icon: '🎭', en: 'Interview Performer', idn: 'Performer Wawancara', cEn: 'Complete Nexus Module 7', cId: 'Selesaikan Nexus Modul 7', check: c => c.nexusDone >= 7 },
   { id: 'n8', cat: 'Nexus',    icon: '🤝', en: 'Negotiator',        idn: 'Negosiator',          cEn: 'Complete Nexus Module 8', cId: 'Selesaikan Nexus Modul 8', check: c => c.nexusDone >= 8 },
   { id: 'nc', cat: 'Nexus',    icon: '🧗', en: 'Nexus Complete',    idn: 'Nexus Selesai',       cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.nexusDone >= 9 },
-  { id: 't1', cat: 'Tracker',  icon: '👣', en: 'First Step',        idn: 'Langkah Pertama',     cEn: 'Log your first application', cId: 'Catat lamaran pertamamu', check: c => c.total >= 1 },
-  { id: 't10', cat: 'Tracker', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Atas Gunung',      cEn: '10 applications logged', cId: '10 lamaran tercatat', check: c => c.total >= 10 },
-  { id: 't25', cat: 'Tracker', icon: '🏕️', en: 'High Camp',         idn: 'Kamp Tinggi',         cEn: '25 applications logged', cId: '25 lamaran tercatat', check: c => c.total >= 25 },
-  { id: 't50', cat: 'Tracker', icon: '🦾', en: 'Persistent Climber', idn: 'Pendaki Gigih',      cEn: '50 applications logged', cId: '50 lamaran tercatat', check: c => c.total >= 50 },
-  { id: 'thr', cat: 'Tracker', icon: '📞', en: 'First Call',        idn: 'Panggilan Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap HR Interview', check: c => c.maxStage >= 8 },
-  { id: 'tfi', cat: 'Tracker', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Final Interview', check: c => c.maxStage >= 10 },
-  { id: 'tof', cat: 'Tracker', icon: '✉️', en: 'The Offer',         idn: 'Sang Penawaran',      cEn: 'Receive your first offer', cId: 'Terima penawaran pertamamu', check: c => c.offers >= 1 },
-  { id: 'tsm', cat: 'Tracker', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah penawaran', check: c => c.accepted >= 1 },
+  { id: 'h1', cat: 'Horizon',  icon: '🧭', en: 'Career Architect',  idn: 'Arsitek Karier',      cEn: 'Complete Horizon Module 1', cId: 'Selesaikan Horizon Modul 1', check: c => c.horizonDone >= 1 },
+  { id: 'h4', cat: 'Horizon',  icon: '📡', en: 'Visibility Builder', idn: 'Pembangun Visibilitas', cEn: 'Complete Horizon Module 4', cId: 'Selesaikan Horizon Modul 4', check: c => c.horizonDone >= 4 },
+  { id: 'hc', cat: 'Horizon',  icon: '🌅', en: 'Horizon Complete',  idn: 'Horizon Selesai',     cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.horizonDone >= 9 },
+  { id: 't1', cat: 'Plotter',  icon: '👣', en: 'First Route',       idn: 'Rute Pertama',        cEn: 'Plot your first route', cId: 'Rencanakan rute pertamamu', check: c => c.total >= 1 },
+  { id: 't10', cat: 'Plotter', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Atas Gunung',      cEn: '10 routes plotted', cId: '10 rute tercatat', check: c => c.total >= 10 },
+  { id: 't25', cat: 'Plotter', icon: '🏕️', en: 'High Camp',         idn: 'Kamp Tinggi',         cEn: '25 routes plotted', cId: '25 rute tercatat', check: c => c.total >= 25 },
+  { id: 't50', cat: 'Plotter', icon: '🦾', en: 'Persistent Navigator', idn: 'Navigator Gigih',      cEn: '50 routes plotted', cId: '50 rute tercatat', check: c => c.total >= 50 },
+  { id: 'thr', cat: 'Plotter', icon: '📞', en: 'First Signal',      idn: 'Sinyal Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap HR Interview', check: c => c.maxStage >= 8 },
+  { id: 'tfi', cat: 'Plotter', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Final Interview', check: c => c.maxStage >= 10 },
+  { id: 'tof', cat: 'Plotter', icon: '✉️', en: 'The Offer',         idn: 'Sang Penawaran',      cEn: 'Receive your first offer', cId: 'Terima penawaran pertamamu', check: c => c.offers >= 1 },
+  { id: 'tsm', cat: 'Plotter', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah penawaran', check: c => c.accepted >= 1 },
   { id: 'md5', cat: 'Mindset', icon: '📝', en: 'Debriefer',         idn: 'Sang Debriefer',      cEn: 'Complete 5 interview debriefs', cId: 'Selesaikan 5 debrief wawancara', check: c => c.debriefs >= 5 },
-  { id: 'mp10', cat: 'Mindset', icon: '🧩', en: 'Pattern Finder',   idn: 'Penemu Pola',         cEn: 'Log and learn from 10 rejections', cId: 'Catat dan pelajari 10 penolakan', check: c => c.rejDebriefs >= 10 },
-  { id: 'mmo', cat: 'Mindset', icon: '🔥', en: 'Momentum',          idn: 'Momentum',            cEn: '4 consecutive weeks with ≥3 applications', cId: '4 minggu berturut-turut dengan ≥3 lamaran', check: c => c.momentum }
+  { id: 'mp10', cat: 'Mindset', icon: '🧩', en: 'Pattern Reader',   idn: 'Pembaca Pola',         cEn: 'Log and learn from 10 rejections', cId: 'Catat dan pelajari 10 penolakan', check: c => c.rejDebriefs >= 10 },
+  { id: 'mmo', cat: 'Mindset', icon: '🔥', en: 'Momentum',          idn: 'Momentum',            cEn: '4 consecutive weeks with ≥3 routes plotted', cId: '4 minggu berturut-turut dengan ≥3 rute', check: c => c.momentum }
 ];
 function badgeCtx() {
   const apps = getApplications();
@@ -1366,7 +1388,7 @@ function badgeCtx() {
     if (age >= 0 && age < 4) weeks[age]++;
   });
   return {
-    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 9),
+    aladinDone: modulesDone('aladin_progress', 6), mavDone: modulesDone('maverick_progress', 9), nexusDone: modulesDone('nexus_progress', 9), horizonDone: modulesDone('horizon_progress', 9),
     total: apps.length,
     maxStage: apps.reduce((m, a) => Math.max(m, a.stage), 0),
     offers: apps.filter(a => a.status === 'offer' || a.stage >= 12).length,
@@ -1377,7 +1399,7 @@ function badgeCtx() {
   };
 }
 function getEarnedBadges() {
-  try { const b = JSON.parse(getLS('climb_badges_earned', '[]')); return Array.isArray(b) ? b : []; } catch (e) { return []; }
+  try { const b = JSON.parse(getLS('compass_badges_earned', '[]')); return Array.isArray(b) ? b : []; } catch (e) { return []; }
 }
 function checkAndAwardBadges() {
   const ctx = badgeCtx();
@@ -1388,7 +1410,7 @@ function checkAndAwardBadges() {
       logMilestone('metanoia', 'Badge earned — ' + b.en, 'Lencana diraih — ' + b.idn);
     }
   });
-  setLS('climb_badges_earned', JSON.stringify(earned));
+  setLS('compass_badges_earned', JSON.stringify(earned));
   return earned;
 }
 
@@ -1402,7 +1424,7 @@ function getTodaysMove(apps, scores) {
     return {
       en: 'You have ' + (iv.stage === 8 ? 'an' : 'a') + ' <b>' + st.en + '</b> at <b>' + esc(iv.company) + '</b> in under 72 hours. The single highest-leverage thing you can do today: run one focused mock interview against this role’s competency framework — it takes 15 minutes.',
       id: 'Kamu punya <b>' + st.idn + '</b> di <b>' + esc(iv.company) + '</b> dalam waktu kurang dari 72 jam. Satu hal dengan daya ungkit tertinggi hari ini: jalankan satu latihan wawancara terfokus terhadap kerangka kompetensi peran ini — hanya butuh 15 menit.',
-      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka latihan Nexus →', href: 'project-nexus.html'
+      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka latihan Nexus →', href: 'project-nexus.html?context=compass'
     };
   }
   const overdue = active.filter(a => a.nextActionDue).find(a => new Date(a.nextActionDue + 'T23:59:59').getTime() < NOW);
@@ -1422,10 +1444,10 @@ function getTodaysMove(apps, scores) {
     };
   }
   const dims = [
-    { key: 'careerIntelligence', en: 'Career Intelligence', idn: 'Kecerdasan Karier', aEn: 'complete your next Aladdin module', aId: 'selesaikan modul Aladdin berikutnya', href: 'project-aladin.html' },
-    { key: 'profileStrength', en: 'Profile Strength', idn: 'Kekuatan Profil', aEn: 'complete your next Maverick module', aId: 'selesaikan modul Maverick berikutnya', href: 'project-maverick.html' },
-    { key: 'interviewReadiness', en: 'Interview Readiness', idn: 'Kesiapan Wawancara', aEn: 'complete your next Nexus module', aId: 'selesaikan modul Nexus berikutnya', href: 'project-nexus.html' },
-    { key: 'networkCapital', en: 'Network Capital', idn: 'Modal Jaringan', aEn: 'reach out to one mentor or peer this week', aId: 'hubungi satu mentor atau rekan minggu ini', tab: 'insights' },
+    { key: 'careerIntelligence', en: 'Career Intelligence', idn: 'Kecerdasan Karier', aEn: 'complete your next Aladin module', aId: 'selesaikan modul Aladin berikutnya', href: 'project-aladin.html?context=compass' },
+    { key: 'profileStrength', en: 'Profile Strength', idn: 'Kekuatan Profil', aEn: 'complete your next Maverick module', aId: 'selesaikan modul Maverick berikutnya', href: 'project-maverick.html?context=compass' },
+    { key: 'interviewReadiness', en: 'Interview Readiness', idn: 'Kesiapan Wawancara', aEn: 'complete your next Nexus module', aId: 'selesaikan modul Nexus berikutnya', href: 'project-nexus.html?context=compass' },
+    { key: 'networkCapital', en: 'Network Capital', idn: 'Modal Jaringan', aEn: 'reach out to one mentor or peer this week', aId: 'hubungi satu mentor atau rekan minggu ini', tab: 'nav-briefing' },
     { key: 'careerMindset', en: 'Career Mindset', idn: 'Pola Pikir Karier', aEn: 'log at least 3 applications before the end of the week', aId: 'catat minimal 3 lamaran sebelum akhir minggu', action: 'add' }
   ];
   const lowest = dims.slice().sort((a, b) => scores[a.key] - scores[b.key])[0];
@@ -1483,8 +1505,8 @@ function renderDashboard() {
 
   const dims = [
     { s: scores.careerIntelligence, en: 'Career Intelligence', idn: 'Kecerdasan Karier',
-      st: L('Aladdin: ' + scores.aladinDone + '/6 modules done', 'Aladdin: ' + scores.aladinDone + '/6 modul selesai'),
-      tip: L('Improves with each Aladdin module (75 pts max) plus self-reported learning activities.', 'Meningkat dengan setiap modul Aladdin (maks 75 poin) plus aktivitas belajar yang dilaporkan sendiri.') },
+      st: L('Aladin: ' + scores.aladinDone + '/6 modules done', 'Aladin: ' + scores.aladinDone + '/6 modul selesai'),
+      tip: L('Improves with each Aladin module (75 pts max) plus self-reported learning activities.', 'Meningkat dengan setiap modul Aladin (maks 75 poin) plus aktivitas belajar yang dilaporkan sendiri.') },
     { s: scores.profileStrength, en: 'Profile Strength', idn: 'Kekuatan Profil',
       st: L('Maverick: ' + scores.mavDone + '/9 modules done', 'Maverick: ' + scores.mavDone + '/9 modul selesai'),
       tip: L('Improves with each Maverick module (75 pts max) — CV, ATS, LinkedIn, and application assets.', 'Meningkat dengan setiap modul Maverick (maks 75 poin) — CV, ATS, LinkedIn, dan aset lamaran.') },
@@ -1495,8 +1517,8 @@ function renderDashboard() {
       st: L('Mentors, pods & alumni outreach', 'Mentor, pod & jaringan alumni'),
       tip: L('Mostly self-reported: mentors, practice pods, alumni conversations. Update it from the Insights tab.', 'Sebagian besar dilaporkan sendiri: mentor, pod latihan, percakapan alumni. Perbarui dari tab Wawasan.') },
     { s: scores.careerMindset, en: 'Career Mindset', idn: 'Pola Pikir Karier',
-      st: L(scores.recentCount + ' applications in the last 30 days', scores.recentCount + ' lamaran dalam 30 hari terakhir'),
-      tip: L('Application velocity (50) + rejection debriefs completed (20) + consistency habits.', 'Kecepatan lamaran (50) + debrief penolakan selesai (20) + kebiasaan konsistensi.') }
+      st: L('Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' routes/30d', 'Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' rute/30hr'),
+      tip: L('Horizon modules (30) + route velocity (40) + off-course debriefs (15) + consistency.', 'Modul Horizon (30) + kecepatan rute (40) + debrief keluar jalur (15) + konsistensi.') }
   ];
   $('dimGrid').innerHTML = dims.map((d, i) =>
     '<div class="glass-card dim-card' + (i === 4 ? ' dim-center' : '') + '">' + ringHTML(60, 6, d.s, 15) +
@@ -1506,34 +1528,34 @@ function renderDashboard() {
   renderTodaysMove(apps);
   renderPipeSum(apps);
   renderPmap();
-  animateRings($('tab-dashboard'));
+  animateRings($('tab-bearing'));
   refreshTopScore();
 }
 
 function renderTodaysMove(apps) {
   const slot = $('dashTodaysMoveSlot');
-  const dismissed = getLS('climb_today_move_dismissed', '') === new Date().toISOString().slice(0, 10);
+  const dismissed = getLS('compass_true_north_dismissed', '') === new Date().toISOString().slice(0, 10);
   if (dismissed) {
     slot.innerHTML = '<div class="glass-card" style="padding:14px 20px;margin-bottom:22px;font-size:12.5px;color:var(--text-muted)">' +
-      L('Today’s Move dismissed — it returns tomorrow. ', 'Langkah Hari Ini dilewati — kembali besok. ') +
+      L('True North dismissed — it returns tomorrow. ', 'True North dilewati — kembali besok. ') +
       '<button class="tm-skip" id="tmUndo">' + L('Bring it back', 'Tampilkan lagi') + '</button></div>';
-    const u = $('tmUndo'); if (u) u.addEventListener('click', () => { setLS('climb_today_move_dismissed', ''); renderDashboard(); });
+    const u = $('tmUndo'); if (u) u.addEventListener('click', () => { setLS('compass_true_north_dismissed', ''); renderDashboard(); });
     return;
   }
   const mv = getTodaysMove(apps, scores);
   slot.innerHTML = '<div class="glass-card todays-move"><div class="tm-label">' +
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg>' +
-    L("Today's Move", 'Langkah Hari Ini') + '</div>' +
+    L('True North', 'True North') + '</div>' +
     '<p class="tm-body">' + L(mv.en, mv.id) + '</p>' +
     '<div class="tm-actions"><button class="btn-gold" id="tmCta">' + L(mv.ctaEn, mv.ctaId) + '</button>' +
     '<button class="tm-skip" id="tmSkip">' + L('Skip for today', 'Lewati untuk hari ini') + '</button></div></div>';
-  $('tmSkip').addEventListener('click', () => { setLS('climb_today_move_dismissed', new Date().toISOString().slice(0, 10)); renderDashboard(); });
+  $('tmSkip').addEventListener('click', () => { setLS('compass_true_north_dismissed', new Date().toISOString().slice(0, 10)); renderDashboard(); });
   $('tmCta').addEventListener('click', () => {
     if (mv.href) { window.location.href = mv.href; return; }
-    if (mv.appId) { activateTab('applications'); openDrawer(mv.appId); return; }
-    if (mv.action === 'add') { activateTab('applications'); openAppModal(null); return; }
+    if (mv.appId) { activateTab('course-plotter'); openDrawer(mv.appId); return; }
+    if (mv.action === 'add') { activateTab('course-plotter'); openAppModal(null); return; }
     if (mv.tab) { activateTab(mv.tab); return; }
-    activateTab('applications');
+    activateTab('course-plotter');
   });
 }
 
@@ -1553,7 +1575,7 @@ function renderPipeSum(apps) {
       'Total aktif: <b>' + act.length + '</b> · Ditolak bulan ini: <b>' + rejMonth + '</b> · Penawaran: <b>' + offers + '</b> · Tingkat keberhasilan: <b>' + rate + '%</b>') + '</div>';
   $('pipeSum').querySelectorAll('.pipe-seg').forEach(b => b.addEventListener('click', () => {
     pipeGroupFilter = b.dataset.group;
-    activateTab('applications');
+    activateTab('course-plotter');
   }));
 }
 
@@ -1566,7 +1588,7 @@ function renderPmap() {
       '<span class="pm-frac">' + done + '/' + p.total + ' ' + L('modules', 'modul') + '</span></div>' +
       '<div class="pmap-bar"><i style="--p:' + pct + '%"></i></div>' +
       '<div class="pmap-foot"><span class="pm-pct">' + pct + '%</span>' +
-      '<a href="' + p.file + '">' + (done > 0 ? L('Continue →', 'Lanjutkan →') : L('Start →', 'Mulai →')) + '</a></div></div>';
+      '<a href="' + p.file + '?context=compass">' + (done > 0 ? L('Continue →', 'Lanjutkan →') : L('Start →', 'Mulai →')) + '</a></div></div>';
   }).join('');
 }
 
@@ -1575,13 +1597,13 @@ let pipeGroupFilter = null;
 let sortKey = 'date', sortAsc = false;
 const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
 function viewMode() {
-  const saved = getLS('climb_view_mode', '');
+  const saved = getLS('compass_view_mode', '');
   if (saved === 'board' || saved === 'list') return saved;
   return isMobile() ? 'list' : 'board';
 }
 function filteredApps() {
   let apps = getApplications();
-  const f = getLS('climb_filter_status', 'all');
+  const f = getLS('compass_filter_status', 'all');
   if (f !== 'all') apps = apps.filter(a => a.status === f);
   if (pipeGroupFilter) apps = apps.filter(a => groupOf(a.stage) === pipeGroupFilter);
   const dir = sortAsc ? 1 : -1;
@@ -1602,7 +1624,7 @@ function renderApplications() {
   $('viewBoardBtn').classList.toggle('on', mode === 'board');
   $('viewListBtn').classList.toggle('on', mode === 'list');
 
-  const f = getLS('climb_filter_status', 'all');
+  const f = getLS('compass_filter_status', 'all');
   $('filterSel').innerHTML =
     '<option value="all"' + (f === 'all' ? ' selected' : '') + '>' + L('Filter: All', 'Filter: Semua') + (pipeGroupFilter ? ' · ' + L(GROUPS.find(g => g.key === pipeGroupFilter).en, GROUPS.find(g => g.key === pipeGroupFilter).idn) : '') + '</option>' +
     STATUSES.map(s => '<option value="' + s.v + '"' + (f === s.v ? ' selected' : '') + '>' + L(s.en, s.idn) + '</option>').join('');
@@ -1619,13 +1641,13 @@ function renderApplications() {
   const win = closed ? Math.round(offers / closed * 100) : 0;
   const month = apps.filter(a => (NOW - new Date(a.applicationDate).getTime()) <= 30 * DAY).length;
   $('appsStats').innerHTML = L(
-    'Active: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Interviews: <b>' + interviews + '</b> · Offers: <b>' + offers + '</b> · Rejected: <b>' + rejected + '</b> · Win rate: <b>' + win + '%</b> · This month: <b>' + month + '</b>',
-    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Penawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat menang: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
+    'Active: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Interviews: <b>' + interviews + '</b> · Offers: <b>' + offers + '</b> · Rejected: <b>' + rejected + '</b> · Route success rate: <b>' + win + '%</b> · This month: <b>' + month + '</b>',
+    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Penawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat keberhasilan rute: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
 
   if (!shown.length) {
     $('appsView').innerHTML = '<div class="glass-card apps-empty"><div class="ae-ic">🗻</div>' +
-      L('No applications here yet. Every summit starts with a first step — log your first application.',
-        'Belum ada lamaran di sini. Setiap puncak dimulai dengan langkah pertama — catat lamaran pertamamu.') + '</div>';
+      L('No routes plotted here yet. Every summit starts with a first bearing — plot your first route.',
+        'Belum ada rute di sini. Setiap puncak dimulai dengan arah pertama — rencanakan rute pertamamu.') + '</div>';
   } else if (mode === 'board') {
     renderBoard(shown);
   } else {
@@ -1792,7 +1814,7 @@ let editingDocs = [];
 function openAppModal(app, presetStage) {
   editingId = app ? app.id : null;
   editingDocs = app ? (app.documents || []).slice() : [];
-  $('appModalTitle').textContent = app ? L('Edit Application', 'Edit Lamaran') : L('Add Application', 'Tambah Lamaran');
+  $('appModalTitle').textContent = app ? L('Edit Route', 'Edit Rute') : L('Plot New Route', 'Tambah Rute Baru');
   $('fStage').innerHTML = STAGES.map(s => '<option value="' + s.id + '">' + s.id + ' · ' + L(s.en, s.idn) + '</option>').join('');
   $('fStatus').innerHTML = STATUSES.map(s => '<option value="' + s.v + '">' + L(s.en, s.idn) + '</option>').join('');
   $('fCompanyType').innerHTML = COMPANY_TYPES.map(t => '<option value="' + t.v + '">' + L(t.en, t.idn) + '</option>').join('');
@@ -1903,7 +1925,7 @@ function openDrawer(id) {
     '<div class="dr-badges"><span class="status-chip" style="color:var(--gold);border:1px solid var(--gold-border-hover)">' + L('Stage', 'Tahap') + ' ' + app.stage + ' · ' + stageName(app.stage) + '</span>' +
     '<span class="status-chip" style="color:' + st.color + ';border:1px solid ' + st.color + '">' + L(st.en, st.idn) + '</span></div>' +
     (app.stage === 12 ? '<div class="offer-banner"><p>⭐ ' + L('<b>You have an offer.</b> Don’t accept the first number you hear.', '<b>Kamu punya penawaran.</b> Jangan terima angka pertama yang kamu dengar.') + '</p>' +
-      '<button class="btn-gold" id="offerActivate">' + L('Activate Offer Evaluation →', 'Aktifkan Evaluasi Penawaran →') + '</button></div>' : '') +
+      '<button class="btn-gold" id="offerActivate">' + L('Activate Route Evaluation →', 'Aktifkan Evaluasi Rute →') + '</button></div>' : '') +
     '<div class="dr-sec"><h4>' + L('Smart Recommendation', 'Rekomendasi Cerdas') + '</h4><div class="dr-rec">💡 ' + esc(recFor(app)) + '</div></div>' +
     '<div class="dr-sec"><h4>' + L('Stage Timeline', 'Linimasa Tahap') + '</h4><div class="dr-pipe">' +
     STAGES.map(s => '<span class="dp-node' + (s.id === app.stage ? ' cur' : done(s.id) ? ' done' : '') + '">' + s.id + ' ' + L(s.en, s.idn) + '</span>').join('') + '</div></div>' +
@@ -2019,7 +2041,7 @@ $('rejectForm').addEventListener('submit', e => {
 /* ═══ OFFER EVALUATION ═══ */
 let offerFor = null;
 function getOfferEvals() {
-  try { const o = JSON.parse(getLS('climb_offer_evaluations', '{}')); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; }
+  try { const o = JSON.parse(getLS('compass_offer_evaluations', '{}')); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; }
 }
 function openOfferModal(appId) {
   offerFor = appId;
@@ -2060,7 +2082,7 @@ $('offerSave').addEventListener('click', () => {
   evals[offerFor] = { base: v('oeBase'), transport: v('oeTransport'), meal: v('oeMeal'), health: v('oeHealth'),
     thr: v('oeThr'), bonus: v('oeBonus'), mktMin: v('oeMktMin'), mktMax: v('oeMktMax'),
     target: v('oeTarget'), floor: v('oeFloor'), talking: v('oeTalking'), total: recalcOffer(), savedAt: new Date().toISOString() };
-  setLS('climb_offer_evaluations', JSON.stringify(evals));
+  setLS('compass_offer_evaluations', JSON.stringify(evals));
   const apps = getApplications();
   const app = apps.find(a => a.id === offerFor);
   if (app) { app.offerEvaluationId = offerFor; app.updatedAt = new Date().toISOString(); writeApplications(apps); }
@@ -2091,7 +2113,7 @@ function renderProgress() {
       '<div class="pc-bar"><i style="--p:' + pct + '%"></i></div>' +
       '<div class="pc-mods">' + rows + '</div>' +
       '<div class="pc-foot"><span>' + L('Points', 'Poin') + ': <b style="color:var(--text-sub)">' + (done * p.pts) + ' / ' + (p.total * p.pts) + '</b></span>' +
-      '<span class="spacer"></span><a class="btn-ghost" href="' + p.file + '" style="padding:8px 18px;font-size:11.5px">' +
+      '<span class="spacer"></span><a class="btn-ghost" href="' + p.file + '?context=compass" style="padding:8px 18px;font-size:11.5px">' +
       (done >= p.total ? L('Review course →', 'Tinjau kursus →') : done > 0 ? L('Continue Module ' + (done + 1) + ' →', 'Lanjut Modul ' + (done + 1) + ' →') : L('Start →', 'Mulai →')) + '</a></div>' +
       (done >= p.total ? '<div class="cert-banner">🏔️ ' + L('Certificate unlocked — ' + p.nameEn + ' complete.', 'Sertifikat terbuka — ' + p.nameEn + ' selesai.') + '</div>' : '') + '</div>';
   }).join('');
@@ -2126,7 +2148,7 @@ function renderMilestones() {
     { en: 'Year 4', idn: 'Tahun 4', tEn: 'Execution', tId: 'Eksekusi' }
   ];
   const SEM_NOTES = [
-    ['Aladdin M1–3', 'Aladdin M1–3'], ['Aladdin M4–6', 'Aladdin M4–6'],
+    ['Aladin M1–3', 'Aladin M1–3'], ['Aladin M4–6', 'Aladin M4–6'],
     ['Maverick starts · first org role', 'Maverick mulai · peran organisasi pertama'], ['First internship applications', 'Lamaran magang pertama'],
     ['Nexus · internship season', 'Nexus · musim magang'], ['Leadership role · competitions', 'Peran kepemimpinan · kompetisi'],
     ['Full-time applications open', 'Lamaran penuh waktu dibuka'], ['Offers · thesis · transition', 'Penawaran · skripsi · transisi']
@@ -2183,12 +2205,12 @@ function renderInsights() {
   const urgent = apps.filter(a => (a.status === 'active' || a.status === 'offer') && a.stage >= 7 && a.nextActionDue)
     .sort((a, b) => String(a.nextActionDue).localeCompare(String(b.nextActionDue)))[0];
   if (urgent) {
-    pris.push({ tag: L('Priority 1 · 🔥 Urgent', 'Prioritas 1 · 🔥 Mendesak'),
+    pris.push({ tag: L('Priority 1 · 🧭 Navigate Now', 'Prioritas 1 · 🧭 Navigasi Sekarang'),
       h: L('Prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company), 'Bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company)),
       p: L('Due ' + fmtDY(urgent.nextActionDue) + '. ' + recFor(urgent), 'Jatuh tempo ' + fmtDY(urgent.nextActionDue) + '. ' + recFor(urgent)),
-      ctaEn: 'Open Nexus interview prep →', ctaId: 'Buka persiapan wawancara Nexus →', href: 'project-nexus.html' });
+      ctaEn: 'Open Nexus interview prep →', ctaId: 'Buka persiapan wawancara Nexus →', href: 'project-nexus.html?context=compass' });
   } else {
-    pris.push({ tag: L('Priority 1 · 🔥 Urgent', 'Prioritas 1 · 🔥 Mendesak'),
+    pris.push({ tag: L('Priority 1 · 🧭 Navigate Now', 'Prioritas 1 · 🧭 Navigasi Sekarang'),
       h: L('Keep your pipeline moving', 'Jaga pipeline-mu tetap bergerak'),
       p: L('No interviews are on the calendar. The single best lead indicator is application velocity: log 3 quality applications this week.',
            'Tidak ada wawancara terjadwal. Indikator awal terbaik adalah kecepatan lamaran: catat 3 lamaran berkualitas minggu ini.'),
@@ -2199,20 +2221,20 @@ function renderInsights() {
   const rejCv = apps.filter(a => a.status === 'rejected' && groupOf((a.rejectionDebrief && a.rejectionDebrief.stageReached) || a.stage) === 'applied').length;
   const rejAll = apps.filter(a => a.status === 'rejected').length;
   if (rejCv >= 2) {
-    pris.push({ tag: L('Priority 2 · ⚡ High Impact', 'Prioritas 2 · ⚡ Dampak Tinggi'),
+    pris.push({ tag: L('Priority 2 · ⚡ Course Correction', 'Prioritas 2 · ⚡ Koreksi Arah'),
       h: L('Your CV Screening rejection rate needs attention', 'Tingkat penolakan Seleksi CV-mu perlu perhatian'),
       p: L(rejCv + ' of your ' + rejAll + ' rejections happened at CV Screening — before a human read your application. This strongly indicates an ATS issue. Run an ATS audit against your next 3 target roles.',
            rejCv + ' dari ' + rejAll + ' penolakanmu terjadi di Seleksi CV — sebelum manusia membaca lamaranmu. Ini sangat mengindikasikan masalah ATS. Jalankan audit ATS untuk 3 peran target berikutnya.'),
-      ctaEn: 'Open ATS Optimisation in Maverick →', ctaId: 'Buka Optimasi ATS di Maverick →', href: 'project-maverick.html' });
+      ctaEn: 'Open ATS Optimisation in Maverick →', ctaId: 'Buka Optimasi ATS di Maverick →', href: 'project-maverick.html?context=compass' });
   } else {
     const nextMod = PRODUCTS.map(p => ({ p, done: modulesDone(p.key + '_progress', p.total) })).find(x => x.done < x.p.total);
-    pris.push({ tag: L('Priority 2 · ⚡ High Impact', 'Prioritas 2 · ⚡ Dampak Tinggi'),
+    pris.push({ tag: L('Priority 2 · ⚡ Course Correction', 'Prioritas 2 · ⚡ Koreksi Arah'),
       h: nextMod ? L('Finish ' + nextMod.p.nameEn + ' Module ' + (nextMod.done + 1), 'Selesaikan ' + nextMod.p.nameEn + ' Modul ' + (nextMod.done + 1))
                  : L('All course modules complete', 'Semua modul kursus selesai'),
       p: nextMod ? L('“' + nextMod.p.modules[nextMod.done].en + '” is your next unfinished module — completing it raises your dimension scores directly.',
                      '“' + nextMod.p.modules[nextMod.done].idn + '” adalah modul berikutnya yang belum selesai — menyelesaikannya langsung menaikkan skor dimensimu.')
                  : L('Your learning system is fully complete. Focus entirely on live applications now.', 'Sistem belajarmu sudah lengkap. Fokus sepenuhnya pada lamaran nyata sekarang.'),
-      ctaEn: nextMod ? 'Continue →' : 'Open tracker →', ctaId: nextMod ? 'Lanjutkan →' : 'Buka pelacak →', href: nextMod ? nextMod.p.file : null, tab: nextMod ? null : 'applications' });
+      ctaEn: nextMod ? 'Continue →' : 'Open tracker →', ctaId: nextMod ? 'Lanjutkan →' : 'Buka pelacak →', href: nextMod ? nextMod.p.file : null, tab: nextMod ? null : 'course-plotter' });
   }
 
   /* Priority 3 — lowest dimension */
@@ -2225,7 +2247,7 @@ function renderInsights() {
   ];
   const lowest = dims.slice().sort((a, b) => scores[a.key] - scores[b.key])[0];
   const lift = Math.round(((Math.min(100, scores[lowest.key] + 13)) - scores[lowest.key]) / 5 * 10) / 10;
-  pris.push({ tag: L('Priority 3 · 📈 Growth', 'Prioritas 3 · 📈 Pertumbuhan'),
+  pris.push({ tag: L('Priority 3 · 📡 Strengthen Your Signal', 'Prioritas 3 · 📡 Perkuat Sinyalmu'),
     h: L(lowest.en + ' is your lowest dimension (' + scores[lowest.key] + '/100)', lowest.idn + ' adalah dimensi terendahmu (' + scores[lowest.key] + '/100)'),
     p: lowest.key === 'networkCapital'
       ? L('Building a 3-person practice pod would raise your interview readiness faster than any other action this week. Raising this dimension by 13 points adds +' + lift + ' to your overall score.',
@@ -2240,7 +2262,7 @@ function renderInsights() {
   $('priActions').querySelectorAll('.pri-go').forEach((b, i) => b.addEventListener('click', () => {
     const p = pris[i];
     if (p.href) { window.location.href = p.href; return; }
-    if (p.action === 'add') { activateTab('applications'); openAppModal(null); return; }
+    if (p.action === 'add') { activateTab('course-plotter'); openAppModal(null); return; }
     if (p.tab) { activateTab(p.tab); return; }
     if (p.scroll) { const el = $(p.scroll); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   }));
@@ -2275,8 +2297,8 @@ function renderInsights() {
   /* dimension deep-dives (<70) */
   const DEEP = {
     careerIntelligence: {
-      hold: [L('Aladdin modules unfinished (' + scores.aladinDone + '/6)', 'Modul Aladdin belum selesai (' + scores.aladinDone + '/6)'), L('Self-audit not refreshed this term', 'Audit diri belum diperbarui semester ini')],
-      act: [L('Complete Aladdin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladdin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan 3 bulan lalu')] },
+      hold: [L('Aladin modules unfinished (' + scores.aladinDone + '/6)', 'Modul Aladin belum selesai (' + scores.aladinDone + '/6)'), L('Self-audit not refreshed this term', 'Audit diri belum diperbarui semester ini')],
+      act: [L('Complete Aladin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan 3 bulan lalu')] },
     profileStrength: {
       hold: [L('Maverick modules unfinished (' + scores.mavDone + '/9)', 'Modul Maverick belum selesai (' + scores.mavDone + '/9)'), L('CV not yet ATS-audited against live roles', 'CV belum diaudit ATS terhadap peran nyata')],
       act: [L('Complete Maverick Module ' + Math.min(9, scores.mavDone + 1), 'Selesaikan Maverick Modul ' + Math.min(9, scores.mavDone + 1)), L('Run one ATS audit against a target job description', 'Jalankan satu audit ATS terhadap deskripsi pekerjaan target')] },
@@ -2319,7 +2341,7 @@ function renderInsights() {
     '<p><b>' + L("This week's single most important action", 'Satu tindakan terpenting minggu ini') + ':</b> ' +
     (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + ' — run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + ' — jalankan 2 latihan wawancara sebelumnya.')
             : L('log 3 quality applications and complete one course module.', 'catat 3 lamaran berkualitas dan selesaikan satu modul kursus.')) + '</p>';
-  animateRings($('tab-insights'));
+  animateRings($('tab-nav-briefing'));
 }
 
 /* ═══ TOPBAR / SIDEBAR SCORE ═══ */
@@ -2338,38 +2360,38 @@ function refreshTopScore() {
 }
 
 /* ═══ TABS ═══ */
-const CLIMB_TABS = ['dashboard', 'applications', 'progress', 'milestones', 'insights'];
+const COMPASS_TABS = ['bearing', 'course-plotter', 'my-learning', 'waypoints', 'nav-briefing'];
 const navItems = document.querySelectorAll('.nav-item, .bottom-tab-item');
 function activateTab(tabId) {
-  if (!CLIMB_TABS.includes(tabId)) tabId = 'dashboard';
+  if (!COMPASS_TABS.includes(tabId)) tabId = 'bearing';
   navItems.forEach(i => i.classList.toggle('active', i.dataset.tab === tabId));
-  CLIMB_TABS.forEach(id => { $('tab-' + id).hidden = id !== tabId; });
+  COMPASS_TABS.forEach(id => { $('tab-' + id).hidden = id !== tabId; });
   if (history.replaceState) history.replaceState(null, '', '#' + tabId);
-  try { sessionStorage.setItem('climb_active_tab', tabId); } catch (e) {}
+  try { sessionStorage.setItem('compass_active_tab', tabId); } catch (e) {}
   window.scrollTo({ top: 0 });
   scores = calculateScores();
-  if (tabId === 'dashboard') renderDashboard();
-  if (tabId === 'applications') renderApplications();
-  if (tabId === 'progress') renderProgress();
-  if (tabId === 'milestones') renderMilestones();
-  if (tabId === 'insights') renderInsights();
-  if (tabId !== 'applications') pipeGroupFilter = null;
+  if (tabId === 'bearing') renderDashboard();
+  if (tabId === 'course-plotter') renderApplications();
+  if (tabId === 'my-learning') renderProgress();
+  if (tabId === 'waypoints') renderMilestones();
+  if (tabId === 'nav-briefing') renderInsights();
+  if (tabId !== 'course-plotter') pipeGroupFilter = null;
   refreshTopScore();
-  $('fabAdd').classList.toggle('show', tabId === 'applications');
+  $('fabAdd').classList.toggle('show', tabId === 'course-plotter');
 }
 navItems.forEach(i => i.addEventListener('click', () => activateTab(i.dataset.tab)));
 document.querySelectorAll('[data-tab-jump]').forEach(el => el.addEventListener('click', () => activateTab(el.dataset.tabJump)));
-$('sbRingCard').addEventListener('click', () => activateTab('dashboard'));
-$('sbRingCard').addEventListener('keydown', e => { if (e.key === 'Enter') activateTab('dashboard'); });
+$('sbRingCard').addEventListener('click', () => activateTab('bearing'));
+$('sbRingCard').addEventListener('keydown', e => { if (e.key === 'Enter') activateTab('bearing'); });
 
 function updateAll() {
   scores = calculateScores();
-  const cur = (sessionStorage.getItem && (function () { try { return sessionStorage.getItem('climb_active_tab'); } catch (e) { return null; } })()) || 'dashboard';
-  if (cur === 'dashboard') renderDashboard();
-  if (cur === 'applications') renderApplications();
-  if (cur === 'progress') renderProgress();
-  if (cur === 'milestones') renderMilestones();
-  if (cur === 'insights') renderInsights();
+  const cur = (sessionStorage.getItem && (function () { try { return sessionStorage.getItem('compass_active_tab'); } catch (e) { return null; } })()) || 'bearing';
+  if (cur === 'bearing') renderDashboard();
+  if (cur === 'course-plotter') renderApplications();
+  if (cur === 'my-learning') renderProgress();
+  if (cur === 'waypoints') renderMilestones();
+  if (cur === 'nav-briefing') renderInsights();
   refreshTopScore();
 }
 
@@ -2382,9 +2404,9 @@ document.addEventListener('keydown', e => {
 });
 $('addAppBtn').addEventListener('click', () => openAppModal(null));
 $('fabAdd').addEventListener('click', () => openAppModal(null));
-$('viewBoardBtn').addEventListener('click', () => { setLS('climb_view_mode', 'board'); renderApplications(); });
-$('viewListBtn').addEventListener('click', () => { setLS('climb_view_mode', 'list'); renderApplications(); });
-$('filterSel').addEventListener('change', () => { setLS('climb_filter_status', $('filterSel').value); if ($('filterSel').value !== 'all') pipeGroupFilter = null; renderApplications(); });
+$('viewBoardBtn').addEventListener('click', () => { setLS('compass_view_mode', 'board'); renderApplications(); });
+$('viewListBtn').addEventListener('click', () => { setLS('compass_view_mode', 'list'); renderApplications(); });
+$('filterSel').addEventListener('change', () => { setLS('compass_filter_status', $('filterSel').value); if ($('filterSel').value !== 'all') pipeGroupFilter = null; renderApplications(); });
 $('sortSel').addEventListener('change', () => { sortKey = $('sortSel').value; sortAsc = sortKey === 'company'; renderApplications(); });
 $('veloToggle').addEventListener('click', () => {
   const v = $('velo'); v.classList.toggle('open');
@@ -2430,14 +2452,14 @@ try {
 /* ═══ INIT ═══ */
 applyLang();
 checkAndAwardBadges();
-let initTab = 'dashboard';
-try { initTab = sessionStorage.getItem('climb_active_tab') || 'dashboard'; } catch (e) {}
+let initTab = 'bearing';
+try { initTab = sessionStorage.getItem('compass_active_tab') || 'bearing'; } catch (e) {}
 const hashTab = (window.location.hash || '').slice(1);
-if (CLIMB_TABS.includes(hashTab)) initTab = hashTab;
+if (COMPASS_TABS.includes(hashTab)) initTab = hashTab;
 activateTab(initTab);
 window.matchMedia('(max-width: 768px)').addEventListener('change', () => {
-  let cur = 'dashboard'; try { cur = sessionStorage.getItem('climb_active_tab') || 'dashboard'; } catch (e) {}
-  if (cur === 'applications') renderApplications();
+  let cur = 'bearing'; try { cur = sessionStorage.getItem('compass_active_tab') || 'bearing'; } catch (e) {}
+  if (cur === 'course-plotter') renderApplications();
 });
 })();
 </script>

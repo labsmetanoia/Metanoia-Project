@@ -524,7 +524,7 @@ else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.doc
           <div class="home-sec reveal">
             <h3 class="sec-label" data-en="Course Description" data-id="Deskripsi Kursus">Course Description</h3>
             <div class="desc-full" id="descFull">
-              <p data-en="Project Maverick is the application toolkit of the Metanoia career system — The Pack. Once you know yourself (Project Aladdin), the next challenge is presenting that self with precision, strategy, and confidence to the hiring systems and people who determine your professional future." data-id="Project Maverick adalah perangkat lamaran dalam sistem karier Metanoia — The Pack. Setelah kamu mengenal dirimu (Project Aladdin), tantangan berikutnya adalah mempresentasikan diri itu dengan presisi, strategi, dan kepercayaan diri kepada sistem dan orang-orang yang menentukan masa depan profesionalmu.">Project Maverick is the application toolkit of the Metanoia career system — The Pack. Once you know yourself (Project Aladdin), the next challenge is presenting that self with precision, strategy, and confidence to the hiring systems and people who determine your professional future.</p>
+              <p data-en="Project Maverick is the application toolkit of the Metanoia career system — The Pack. Once you know yourself (Project Aladin), the next challenge is presenting that self with precision, strategy, and confidence to the hiring systems and people who determine your professional future." data-id="Project Maverick adalah perangkat lamaran dalam sistem karier Metanoia — The Pack. Setelah kamu mengenal dirimu (Project Aladin), tantangan berikutnya adalah mempresentasikan diri itu dengan presisi, strategi, dan kepercayaan diri kepada sistem dan orang-orang yang menentukan masa depan profesionalmu.">Project Maverick is the application toolkit of the Metanoia career system — The Pack. Once you know yourself (Project Aladin), the next challenge is presenting that self with precision, strategy, and confidence to the hiring systems and people who determine your professional future.</p>
               <p data-en="This course takes you through nine structured modules covering every layer of the application process: understanding how modern hiring actually works, crafting an ATS-optimised CV and LinkedIn profile, mastering psychometric tests and FGD/LGD simulations, preparing for case interviews, using AI tools to build and optimize your entire application suite — and the professional etiquette that separates candidates who get remembered from those who get overlooked." data-id="Kursus ini membawamu melalui sembilan modul terstruktur yang mencakup setiap lapisan proses lamaran: memahami cara rekrutmen modern sebenarnya bekerja, membuat CV dan profil LinkedIn yang dioptimalkan ATS, menguasai tes psikometri dan simulasi FGD/LGD, mempersiapkan wawancara kasus, menggunakan alat AI untuk membangun dan mengoptimalkan seluruh paket lamaranmu — serta etiket profesional yang memisahkan kandidat yang diingat dari yang terlewatkan.">This course takes you through nine structured modules covering every layer of the application process: understanding how modern hiring actually works, crafting an ATS-optimised CV and LinkedIn profile, mastering psychometric tests and FGD/LGD simulations, preparing for case interviews, using AI tools to build and optimize your entire application suite — and the professional etiquette that separates candidates who get remembered from those who get overlooked.</p>
               <p data-en="Project Maverick ends where the human conversation begins. Everything here is designed to ensure you reach that conversation in the first place." data-id="Project Maverick berakhir di mana percakapan manusia dimulai. Semua yang ada di sini dirancang untuk memastikan kamu mencapai percakapan itu terlebih dahulu.">Project Maverick ends where the human conversation begins. Everything here is designed to ensure you reach that conversation in the first place.</p>
             </div>
@@ -1966,6 +1966,18 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
     p.after(b);
   });
 })();
+</script>
+<script>
+/* Compass deep-link context: persistent return banner (ME7DAF1 Part 3) */
+(function () { try {
+  if (new URLSearchParams(location.search).get('context') !== 'compass') return;
+  var b = document.createElement('div');
+  b.setAttribute('style', 'position:fixed;top:56px;left:0;right:0;z-index:99;display:flex;justify-content:center;padding:7px 12px;background:rgba(8,14,26,.94);border-bottom:1px solid rgba(201,168,76,.35);backdrop-filter:blur(12px)');
+  var lang = 'en'; try { var l = localStorage.getItem('mtLang'); if (l === 'id') lang = 'id'; } catch (e) {}
+  b.innerHTML = '<a href="../../portal.html#bearing" style="color:#C9A84C;font-size:12.5px;font-weight:700;text-decoration:none;letter-spacing:.02em">' +
+    (lang === 'id' ? '← Kembali ke Project Compass' : '← Back to Project Compass') + '</a>';
+  document.body.appendChild(b);
+} catch (e) {} })();
 </script>
 </body>
 </html>
