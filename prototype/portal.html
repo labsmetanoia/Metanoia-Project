@@ -41,8 +41,6 @@
   --text-faint: rgba(255,255,255,0.30);
 
   /* Semantic */
-  --cobalt: #1D5FAB;
-  --teal:   #0D7377;
   --red:    #DC2626;
   --green:  #16A34A;
 
@@ -129,10 +127,19 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-base);
+}
+/* Hero backdrop — summit imagery beneath a readability veil. The image gives
+   the first screen its premium weight; the veil keeps every card legible. */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -2;
+  background: var(--bg-base) url('assets/bg/hero.jpg') center 30% / cover no-repeat;
+}
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
   background:
-    radial-gradient(ellipse 80% 40% at 50% -5%, rgba(201,168,76,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 30% at 85% 50%, rgba(13,115,119,0.03) 0%, transparent 55%),
-    var(--bg-base);
+    radial-gradient(ellipse 80% 40% at 50% -5%, rgba(201,168,76,0.10) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(5,10,18,0.78) 0%, rgba(5,10,18,0.88) 45%, rgba(5,10,18,0.96) 100%);
 }
 a { text-decoration: none; }
 button { font-family: var(--font-sans); cursor: pointer; }
@@ -150,13 +157,20 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 .icon-md { width: 20px; height: 20px; flex-shrink: 0; }
 .icon-lg { width: 24px; height: 24px; flex-shrink: 0; }
 
-/* ===== Shell ===== */
-.portal-shell { padding-top: 56px; min-height: 100vh; }
-.portal-content {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: var(--space-8) var(--space-10) var(--space-16);
+/* ===== Shell — two-panel (sidebar + main), identical structure to Compass ===== */
+.portal-shell {
+  display: flex;
+  margin-top: 56px;
+  min-height: calc(100vh - 56px);
 }
+.portal-main {
+  margin-left: 240px;
+  flex: 1;
+  padding: var(--space-8) var(--space-10) var(--space-16);
+  overflow-y: auto;
+  min-width: 0;
+}
+.portal-inner { max-width: 1100px; margin: 0 auto; }
 .portal-section { margin-bottom: var(--space-10); }
 
 /* Accessibility: skip link */
@@ -227,6 +241,340 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
   flex-shrink: 0;
 }
 .topbar-avatar:hover { border-color: var(--gold); background: rgba(201,168,76,0.16); }
+
+/* Hamburger — mobile only */
+.topbar-hamburger {
+  display: none;
+  width: 36px; height: 36px;
+  align-items: center; justify-content: center;
+  background: transparent; border: none; border-radius: var(--radius-md);
+  color: var(--text-muted); cursor: pointer;
+  transition: all var(--t-micro);
+}
+.topbar-hamburger:hover { color: var(--gold); background: var(--gold-glow); }
+.topbar-hamburger:focus-visible { box-shadow: var(--focus-ring); outline: none; }
+
+/* ===== SIDEBAR SHELL (account navigation — ME93171) ===== */
+.portal-sidebar {
+  position: fixed;
+  top: 56px; left: 0;
+  width: 240px;
+  height: calc(100vh - 56px);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(5,10,18,0.98);
+  border-right: 1px solid var(--gold-border);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(201,168,76,0.12) transparent;
+  transition: width var(--t-component), transform var(--t-component);
+}
+.portal-sidebar:hover { overflow-y: auto; }
+.portal-sidebar::-webkit-scrollbar { width: 3px; }
+.portal-sidebar::-webkit-scrollbar-thumb { background: rgba(201,168,76,0.12); border-radius: 2px; }
+
+/* Identity card */
+.sidebar-identity {
+  padding: var(--space-5) var(--space-4);
+  border-bottom: 1px solid var(--gold-border);
+  flex-shrink: 0;
+  transition: padding var(--t-component);
+}
+.sidebar-identity-top {
+  display: flex; align-items: center; gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.sidebar-avatar {
+  width: 40px; height: 40px; flex-shrink: 0;
+  border-radius: var(--radius-full);
+  background: rgba(201,168,76,0.10);
+  border: 1.5px solid var(--gold-border);
+  color: var(--gold); font-size: var(--text-sm); font-weight: var(--weight-bold);
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color var(--t-micro);
+}
+.sidebar-avatar:hover { border-color: var(--gold); }
+.sidebar-identity-text { min-width: 0; flex: 1; }
+.sidebar-name {
+  font-size: var(--text-base); font-weight: var(--weight-semibold);
+  color: var(--text); line-height: var(--leading-tight);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sidebar-stage {
+  font-size: var(--text-xs); color: var(--text-muted);
+  margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sidebar-tier-badge {
+  display: inline-flex; align-items: center; gap: var(--space-1);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full); border: 1px solid;
+  font-size: 10px; font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-wide); text-transform: uppercase;
+  width: fit-content;
+}
+.sidebar-tier-badge.tier-free {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.10);
+  color: var(--text-faint);
+}
+.sidebar-tier-badge.tier-compass {
+  background: linear-gradient(135deg, var(--gold-deep), var(--gold));
+  border-color: transparent; color: var(--bg-base);
+}
+
+/* Nav scroll area */
+.sidebar-nav-area {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var(--space-3) 0;
+  scrollbar-width: none;
+}
+.sidebar-nav-area::-webkit-scrollbar { display: none; }
+
+/* Section label */
+.nav-section-label {
+  padding: var(--space-4) var(--space-5) var(--space-2);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  color: var(--text-faint);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  flex-shrink: 0;
+  transition: opacity var(--t-component);
+}
+
+/* Nav item */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px var(--space-5);
+  margin: 1px var(--space-3) 1px 0;
+  color: var(--text-muted);
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-left: 3px solid transparent;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  width: 100%;
+  text-align: left;
+  font-family: var(--font-sans);
+  transition: color var(--t-micro), background var(--t-micro), border-color var(--t-micro);
+  position: relative;
+  user-select: none;
+}
+.nav-item svg { flex-shrink: 0; opacity: 0.55; transition: opacity var(--t-micro); }
+.nav-item:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.04);
+  border-left-color: rgba(201,168,76,0.25);
+}
+.nav-item:hover svg { opacity: 0.85; }
+.nav-item:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+.nav-item.active {
+  color: var(--gold);
+  background: var(--gold-glow);
+  border-left-color: var(--gold);
+  font-weight: var(--weight-semibold);
+}
+.nav-item.active svg { opacity: 1; color: var(--gold); }
+.nav-item-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 0;
+  gap: var(--space-2);
+}
+.nav-item-label {
+  flex: 1; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transition: opacity var(--t-component);
+}
+
+/* Badges */
+.nav-badge-dot {
+  width: 7px; height: 7px;
+  border-radius: var(--radius-full);
+  background: var(--gold);
+  flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(201,168,76,0.40);
+}
+.nav-badge-count {
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; padding: 0 4px;
+  background: var(--gold); color: var(--bg-base);
+  border-radius: var(--radius-full);
+  font-size: 10px; font-weight: var(--weight-bold); line-height: 1;
+  flex-shrink: 0;
+  transition: opacity var(--t-component);
+}
+
+/* Tooltip (collapsed state only) */
+.nav-item-tooltip {
+  display: none;
+  position: absolute;
+  left: calc(100% + var(--space-3));
+  top: 50%; transform: translateY(-50%);
+  background: rgba(10,20,36,0.97);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  color: var(--text-sub);
+  font-size: var(--text-sm); font-weight: var(--weight-medium);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 200;
+  box-shadow: var(--shadow-md);
+  animation: fadeIn 150ms ease;
+}
+.nav-item-tooltip::before {
+  content: '';
+  position: absolute; right: 100%; top: 50%; transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-right-color: var(--gold-border);
+}
+.nav-item-tooltip::after {
+  content: '';
+  position: absolute; right: calc(100% - 1px); top: 50%; transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-right-color: rgba(10,20,36,0.97);
+}
+.portal-sidebar.collapsed .nav-item:hover .nav-item-tooltip,
+.portal-sidebar.collapsed .nav-item:focus-visible .nav-item-tooltip { display: block; }
+
+/* Sidebar footer (Sign Out) */
+.sidebar-footer {
+  flex-shrink: 0;
+  padding: var(--space-3) var(--space-3) var(--space-5);
+  border-top: 1px solid var(--gold-border);
+}
+.sidebar-footer-link {
+  display: flex;
+  align-items: center; gap: var(--space-3);
+  width: 100%; padding: 10px var(--space-2);
+  color: var(--text-faint);
+  font-size: var(--text-base); font-weight: var(--weight-medium);
+  background: transparent; border: none; border-radius: var(--radius-md);
+  cursor: pointer; text-align: left; font-family: var(--font-sans);
+  transition: color var(--t-micro), background var(--t-micro);
+}
+.sidebar-footer-link:hover {
+  color: var(--red);
+  background: rgba(220,38,38,0.06);
+}
+.sidebar-footer-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(220,38,38,0.40);
+}
+.sidebar-footer-link svg { flex-shrink: 0; opacity: 0.55; transition: opacity var(--t-micro); }
+.sidebar-footer-link:hover svg { opacity: 1; color: var(--red); }
+.sidebar-footer-label { transition: opacity var(--t-component); }
+.portal-sidebar.collapsed .sidebar-footer-label { display: none; }
+
+/* Collapsed state (tablet) */
+.portal-sidebar.collapsed {
+  width: 64px;
+  overflow: visible;
+}
+.portal-sidebar.collapsed .nav-item-label,
+.portal-sidebar.collapsed .nav-section-label,
+.portal-sidebar.collapsed .nav-badge-count { display: none; }
+.portal-sidebar.collapsed .nav-item {
+  justify-content: center;
+  padding: 12px 0;
+  margin: 1px var(--space-2);
+  border-left: none;
+  border-radius: var(--radius-md);
+  width: auto;
+}
+.portal-sidebar.collapsed .nav-item.active {
+  background: var(--gold-glow); color: var(--gold);
+  border: 1px solid var(--gold-border);
+}
+.portal-sidebar.collapsed .sidebar-identity {
+  padding: var(--space-4) var(--space-2);
+  display: flex; align-items: center; justify-content: center;
+}
+.portal-sidebar.collapsed .sidebar-identity-text,
+.portal-sidebar.collapsed .sidebar-tier-badge { display: none; }
+.portal-sidebar.collapsed .sidebar-identity-top { margin-bottom: 0; }
+.portal-sidebar.collapsed .sidebar-footer { padding: var(--space-3) var(--space-2); }
+.portal-sidebar.collapsed .sidebar-footer-link { justify-content: center; padding: 10px 0; }
+
+/* Mobile overlay backdrop */
+.sidebar-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(5,10,18,0.65);
+  backdrop-filter: blur(4px);
+  z-index: 140;
+  animation: fadeIn 250ms ease;
+}
+.sidebar-overlay.visible { display: block; }
+
+/* ===== UPDATES DRAWER ===== */
+.updates-drawer {
+  position: fixed; top: 56px; right: 0;
+  width: 380px; height: calc(100vh - 56px);
+  background: rgba(8,14,26,0.98);
+  border-left: 1px solid var(--gold-border);
+  z-index: 151;
+  display: flex; flex-direction: column;
+  animation: slideInRight 250ms ease;
+  backdrop-filter: blur(24px);
+}
+.updates-drawer.exiting { animation: slideOutRight 250ms ease forwards; }
+.updates-drawer-header {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  padding: var(--space-5) var(--space-5) var(--space-4);
+  border-bottom: 1px solid var(--gold-border);
+  flex-shrink: 0;
+}
+.updates-drawer-title { font-size: var(--text-lg); font-weight: var(--weight-semibold); color: var(--text); }
+.updates-drawer-sub { font-size: var(--text-sm); color: var(--text-muted); margin-top: 2px; }
+.updates-drawer-body {
+  flex: 1; overflow-y: auto; padding: var(--space-4) var(--space-5);
+  display: flex; flex-direction: column; gap: var(--space-4);
+  scrollbar-width: thin; scrollbar-color: rgba(201,168,76,0.12) transparent;
+}
+.update-item {
+  padding: var(--space-4);
+  background: var(--bg-panel); border: 1px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-lg);
+  display: flex; flex-direction: column; gap: var(--space-2);
+}
+.update-item-header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.update-date { font-size: var(--text-xs); color: var(--text-faint); }
+.update-badge {
+  font-size: 10px; font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-wide); text-transform: uppercase;
+  color: var(--gold); background: var(--gold-glow);
+  border: 1px solid var(--gold-border); border-radius: var(--radius-full);
+  padding: 1px var(--space-2);
+}
+.update-title { font-size: var(--text-base); font-weight: var(--weight-semibold); color: var(--text); }
+.update-body { font-size: var(--text-sm); color: var(--text-muted); line-height: var(--leading-relaxed); }
+.btn-icon {
+  width: 36px; height: 36px; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent; border: none; border-radius: var(--radius-md);
+  color: var(--text-muted); cursor: pointer; flex-shrink: 0;
+  transition: all var(--t-micro);
+}
+.btn-icon:hover { color: var(--gold); background: var(--gold-glow); }
+.btn-icon:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 /* ===== Welcome header ===== */
 .portal-welcome {
@@ -467,6 +815,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 
 /* ===== Footer ===== */
 .portal-footer {
+  margin-left: 240px;
   padding: var(--space-6) var(--space-10);
   border-top: 1px solid var(--gold-border);
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
@@ -570,6 +919,13 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
   from { opacity: 0; transform: scale(0.97); }
   to   { opacity: 1; transform: scale(1); }
 }
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideOutRight {
+  to { opacity: 0; transform: translateX(100%); }
+}
 @keyframes toastIn  { from { opacity: 0; transform: translateX(100%); } to { opacity: 1; transform: translateX(0); } }
 @keyframes toastOut { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(100%); } }
 @keyframes compassSettle {
@@ -619,13 +975,29 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 }
 
 /* ===== Responsive ===== */
+/* Desktop ≥1025px — full sidebar (240px) */
+@media (min-width: 1025px) {
+  .portal-sidebar { width: 240px; transform: none !important; }
+  .portal-main    { margin-left: 240px; }
+}
+/* Tablet 769–1024px — icon-only sidebar (64px); .collapsed added by JS */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .portal-sidebar { width: 64px; }
+  .portal-main    { margin-left: 64px; padding: var(--space-6) var(--space-6) var(--space-12); }
+  .portal-footer  { margin-left: 64px; }
+}
 @media (max-width: 1024px) {
-  .portal-content { padding: var(--space-8) var(--space-8) var(--space-12); }
   .products-grid  { grid-template-columns: repeat(2, 1fr); }
   .compass-entry-card { padding: var(--space-6); }
 }
+/* Mobile ≤768px — sidebar hidden; hamburger opens overlay drawer */
 @media (max-width: 768px) {
-  .portal-content  { padding: var(--space-6) var(--space-4) var(--space-10); }
+  .portal-sidebar  { transform: translateX(-100%); width: 280px; z-index: 150; }
+  .portal-sidebar.mobile-open { transform: translateX(0); box-shadow: var(--shadow-lg); }
+  .portal-main     { margin-left: 0; padding: var(--space-5) var(--space-4) var(--space-12); }
+  .portal-footer   { margin-left: 0; }
+  .topbar-hamburger{ display: flex; }
+  .updates-drawer  { width: 100%; }
   .products-grid   { grid-template-columns: 1fr; }
   .portal-welcome  { flex-direction: column; align-items: flex-start; }
   .compass-entry-card {
@@ -651,6 +1023,17 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 <!-- ===== TOPBAR ===== -->
 <header class="portal-topbar" role="banner">
   <div class="topbar-left">
+    <!-- Hamburger: mobile only -->
+    <button class="topbar-hamburger" id="sidebar-toggle"
+            aria-label="Open navigation" aria-expanded="false"
+            aria-controls="portal-sidebar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
     <a href="landing.html" class="topbar-wordmark" aria-label="Metanoia Labs home">
       <svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/>
@@ -686,9 +1069,55 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
   </div>
 </header>
 
+<!-- ===== MOBILE OVERLAY BACKDROP ===== -->
+<div class="sidebar-overlay" id="sidebar-overlay"
+     role="presentation" aria-hidden="true"></div>
+
+<!-- ===== PORTAL SIDEBAR (account navigation — ME93171) ===== -->
+<aside class="portal-sidebar" id="portal-sidebar"
+       role="navigation" aria-label="Account navigation">
+
+  <!-- Identity card -->
+  <div class="sidebar-identity" id="sidebar-identity">
+    <div class="sidebar-identity-top">
+      <div class="sidebar-avatar" id="sidebar-avatar" aria-hidden="true">–</div>
+      <div class="sidebar-identity-text">
+        <div class="sidebar-name"  id="sidebar-name">–</div>
+        <div class="sidebar-stage" id="sidebar-stage">–</div>
+      </div>
+    </div>
+    <div class="sidebar-tier-badge tier-free" id="sidebar-tier">
+      <span data-en="Free Plan" data-id="Paket Gratis">Free Plan</span>
+    </div>
+  </div>
+
+  <!-- Scrollable nav -->
+  <div class="sidebar-nav-area" role="list">
+    <div class="nav-section-label" data-en="ACCOUNT" data-id="AKUN">ACCOUNT</div>
+    <!-- Nav items — rendered by renderSidebar() via the PORTAL_NAV registry -->
+    <div id="sidebar-nav-items"></div>
+  </div>
+
+  <!-- Footer: Sign Out -->
+  <div class="sidebar-footer">
+    <button class="sidebar-footer-link" id="sign-out-btn"
+            aria-label="Sign out of Metanoia">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+        <polyline points="16 17 21 12 16 7"/>
+        <line x1="21" y1="12" x2="9" y2="12"/>
+      </svg>
+      <span class="sidebar-footer-label" data-en="Sign Out" data-id="Keluar">Sign Out</span>
+    </button>
+  </div>
+
+</aside>
+
 <!-- ===== PAGE SHELL ===== -->
 <div class="portal-shell">
-  <main id="main-content" class="portal-content" role="main">
+  <main id="main-content" class="portal-main" role="main">
+   <div class="portal-inner">
 
     <!-- Section 1: Welcome header -->
     <section class="portal-welcome portal-section" aria-label="Welcome">
@@ -808,6 +1237,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
       </div>
     </section>
 
+   </div>
   </main>
 </div>
 
@@ -871,6 +1301,8 @@ window.setLanguage = function (l) {
   renderWelcome();
   renderCompassCard();
   renderStats();
+  renderSidebarIdentity();
+  renderSidebar();
   if (onbShown()) paintOnb();
 };
 
@@ -1011,7 +1443,7 @@ const PRODUCTS = [
     description: { en: 'Know yourself before you navigate. Strengths, values, and career foundations.',
                    id: 'Kenali dirimu sebelum bernavigasi. Kekuatan, nilai, dan fondasi karier.' },
     file: 'pages/products/project-aladin.html', storageKey: 'aladin_progress', totalModules: 6,
-    compassPoint: 'Career Intelligence', accent: '#0D7377' },
+    compassPoint: 'Career Intelligence', accent: '#F0D878' },
   { id: 'maverick', number: '02', mountain: 'The Pack', name: 'Project Maverick', tagline: 'Profile Strength',
     description: { en: 'Build the tools to be seen. CV, LinkedIn, applications, and AI-powered strategy.',
                    id: 'Bangun alat agar terlihat. CV, LinkedIn, lamaran, dan strategi berbasis AI.' },
@@ -1021,12 +1453,12 @@ const PRODUCTS = [
     description: { en: 'Perform inside the room. Competency frameworks, STAR stories, and offer strategy.',
                    id: 'Tampil di dalam ruangan. Kerangka kompetensi, cerita STAR, dan strategi penawaran.' },
     file: 'pages/products/project-nexus.html', storageKey: 'nexus_progress', totalModules: 9,
-    compassPoint: 'Interview Readiness', accent: '#1D5FAB' },
+    compassPoint: 'Interview Readiness', accent: '#B08E36' },
   { id: 'horizon', number: '04', mountain: 'The Horizon', name: 'Project Horizon', tagline: 'Career Mindset',
     description: { en: 'Plan the long game. Career architecture, workplace performance, and your second move.',
                    id: 'Rencanakan jangka panjang. Arsitektur karier, kinerja, dan langkah berikutnya.' },
     file: 'pages/products/project-horizon.html', storageKey: 'horizon_progress', totalModules: 9,
-    compassPoint: 'Career Mindset', accent: '#84439C' },
+    compassPoint: 'Career Mindset', accent: '#DCC05E' },
   { id: 'compass', number: '05', mountain: 'The Compass', name: 'Project Compass', tagline: 'Your Navigation Dashboard',
     description: { en: 'The complete career navigation system. Your Bearing, applications, waypoints, and intelligence — unified.',
                    id: 'Sistem navigasi karier lengkap. Bearing, lamaran, waypoint, dan kecerdasan — bersatu.' },
@@ -1097,12 +1529,246 @@ document.getElementById('notif-btn').addEventListener('click', () => {
   window.location.href = 'pages/products/the-compass.html#waypoints';
 });
 
-/* ═══ 9. SIGN OUT ═══ */
-document.getElementById('signout-link').addEventListener('click', e => {
-  e.preventDefault();
-  try { localStorage.removeItem('metanoia_session'); sessionStorage.removeItem('metanoia_auth'); } catch (err) {}
-  window.location.href = 'login.html';
+/* ═══ 9. SIGN OUT (sidebar footer + page footer share one path) ═══ */
+function signOut() {
+  try {
+    sessionStorage.removeItem('metanoia_auth');
+    sessionStorage.removeItem('metanoia_name');
+    sessionStorage.removeItem('metanoia_compass_tier');
+    sessionStorage.removeItem('metanoia_lang');
+    sessionStorage.removeItem('compass_calibration');
+    sessionStorage.removeItem('compass_active_tab');
+    sessionStorage.removeItem('metanoia_has_visited_portal');
+    localStorage.removeItem('metanoia_session');
+  } catch (err) {}
+  /* localStorage user data (applications, progress, compass scores) is
+     intentionally preserved — it persists for account re-entry. */
+  window.location.href = 'login.html?signed_out=true';
+}
+document.getElementById('signout-link').addEventListener('click', e => { e.preventDefault(); signOut(); });
+document.getElementById('sign-out-btn').addEventListener('click', signOut);
+
+/* ═══ 9b. SIDEBAR — ME93171 account navigation ═══ */
+const PORTAL_NAV = [
+  { id: 'my-learning', en: 'My Learning', id_: 'Pembelajaran Saya',
+    href: 'pages/products/the-compass.html?tab=my-learning&context=portal', badge: null,
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' },
+  { id: 'my-purchases', en: 'My Purchases', id_: 'Pembelian Saya',
+    href: 'purchases.html', badge: null,
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' },
+  { id: 'settings', en: 'Settings', id_: 'Pengaturan',
+    href: 'settings.html', badge: null,
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>' },
+  { id: 'updates', en: 'Updates', id_: 'Pembaruan',
+    href: null, action: 'openUpdates', badge: 'dot',
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>' },
+  { id: 'help-center', en: 'Help Center', id_: 'Pusat Bantuan',
+    href: 'help.html', badge: null,
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>' }
+];
+
+/* Platform updates data (newest first — append when shipping new features) */
+const PLATFORM_UPDATES = [
+  { date: '2026-08-02',
+    title: { en: 'Portal account navigation', id: 'Navigasi akun Portal' },
+    body:  { en: 'Reach My Learning, purchases, settings, and help from the new sidebar.',
+             id: 'Akses Pembelajaran, pembelian, pengaturan, dan bantuan dari sidebar baru.' },
+    badge: { en: 'New', id: 'Baru' } },
+  { date: '2026-07-15',
+    title: { en: 'Project Compass launched', id: 'Project Compass diluncurkan' },
+    body:  { en: 'Your complete career navigation dashboard is now live.',
+             id: 'Dasbor navigasi karier lengkap Anda kini tersedia.' },
+    badge: { en: 'Compass', id: 'Compass' } }
+];
+
+function checkForNewUpdates() {
+  let lastSeen = '0';
+  try { lastSeen = localStorage.getItem('compass_updates_last_seen') || '0'; } catch (e) {}
+  const latest = PLATFORM_UPDATES.reduce((m, u) => (u.date > m ? u.date : m), '0');
+  return latest > lastSeen;
+}
+
+function getActiveNavId() {
+  const path = window.location.pathname;
+  if (path.includes('purchases')) return 'my-purchases';
+  if (path.includes('settings'))  return 'settings';
+  if (path.includes('help'))      return 'help-center';
+  if (path.includes('the-compass') && params.get('tab') === 'my-learning') return 'my-learning';
+  /* On portal.html itself no item is active — the user is on the hub. */
+  return null;
+}
+
+function renderSidebarIdentity() {
+  const name = getName();
+  const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  let calib = {}, tier = 'free';
+  try {
+    calib = JSON.parse(sessionStorage.getItem('compass_calibration') || '{}') || {};
+    tier = sessionStorage.getItem('metanoia_compass_tier') || 'free';
+  } catch (e) {}
+  if (isDemo) tier = 'compass';
+
+  const stageMap = {
+    student:                  L('Student', 'Mahasiswa'),
+    fresh_graduate:           L('Graduate', 'Lulusan Baru'),
+    early_professional:       L('Early Professional', 'Profesional Awal'),
+    experienced_professional: L('Professional', 'Profesional'),
+    senior_professional:      L('Senior Professional', 'Profesional Senior')
+  };
+  const industryMap = {
+    finance: 'Finance', consulting: 'Consulting', tech: 'Technology', fmcg: 'FMCG',
+    healthcare: 'Healthcare', energy: 'Energy', public: L('Public Sector', 'Sektor Publik'),
+    media: 'Media', other: ''
+  };
+  const stage = stageMap[calib.careerStage] || L('Explorer', 'Penjelajah');
+  const industry = industryMap[calib.industry] || '';
+  document.getElementById('sidebar-avatar').textContent = initials;
+  document.getElementById('sidebar-name').textContent = name;
+  document.getElementById('sidebar-stage').textContent = [stage, industry].filter(Boolean).join(' · ');
+
+  const tierData = {
+    free:    { cls: 'tier-free',    en: 'Free Plan', id: 'Paket Gratis' },
+    compass: { cls: 'tier-compass', en: 'Compass',   id: 'Compass' },
+    expired: { cls: 'tier-free',    en: 'Inactive',  id: 'Tidak Aktif' }
+  };
+  const t = tierData[tier] || tierData.free;
+  const tierEl = document.getElementById('sidebar-tier');
+  tierEl.className = 'sidebar-tier-badge ' + t.cls;
+  const tierSpan = tierEl.querySelector('[data-en]');
+  tierSpan.dataset.en = t.en; tierSpan.dataset.id = t.id;
+  tierSpan.textContent = L(t.en, t.id);
+}
+
+function renderSidebar() {
+  const container = document.getElementById('sidebar-nav-items');
+  if (!container) return;
+  const activeId = getActiveNavId();
+  const hasUpdates = checkForNewUpdates();
+
+  container.innerHTML = PORTAL_NAV.map(item => {
+    const isActive = item.id === activeId;
+    const label = lang === 'id' ? item.id_ : item.en;
+    const tag = item.href ? 'a' : 'button';
+    const attrs = item.href ? 'href="' + item.href + '"' : 'type="button"';
+    let badgeHTML = '';
+    if (item.badge === 'dot' && hasUpdates) {
+      badgeHTML = '<span class="nav-badge-dot" role="status" aria-label="' +
+                  L('New updates available', 'Ada pembaruan baru') + '"></span>';
+    } else if (item.badge === 'count' && item._count > 0) {
+      badgeHTML = '<span class="nav-badge-count" aria-label="' + item._count + '">' + item._count + '</span>';
+    }
+    return '<' + tag + ' class="nav-item' + (isActive ? ' active' : '') + '" ' + attrs +
+           ' data-nav-id="' + item.id + '"' + (item.action ? ' data-action="' + item.action + '"' : '') +
+           (isActive ? ' aria-current="page"' : '') + ' role="listitem">' +
+           item.icon +
+           '<div class="nav-item-inner"><span class="nav-item-label">' + label + '</span>' + badgeHTML + '</div>' +
+           '<span class="nav-item-tooltip" aria-hidden="true">' + label + '</span>' +
+           '</' + tag + '>';
+  }).join('');
+
+  container.querySelectorAll('[data-action="openUpdates"]').forEach(el =>
+    el.addEventListener('click', e => { e.preventDefault(); openUpdates(); }));
+  container.querySelectorAll('a.nav-item').forEach(el =>
+    el.addEventListener('click', () => { if (window.innerWidth <= 768) closeMobileSidebar(); }));
+}
+
+/* Mobile drawer toggle */
+const sidebarEl = document.getElementById('portal-sidebar');
+const overlayEl = document.getElementById('sidebar-overlay');
+const toggleBtn = document.getElementById('sidebar-toggle');
+
+function openMobileSidebar() {
+  sidebarEl.classList.add('mobile-open');
+  overlayEl.classList.add('visible');
+  toggleBtn.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+  sidebarEl.setAttribute('tabindex', '-1');
+  sidebarEl.focus();
+}
+function closeMobileSidebar() {
+  sidebarEl.classList.remove('mobile-open');
+  overlayEl.classList.remove('visible');
+  toggleBtn.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+  toggleBtn.focus();
+}
+toggleBtn.addEventListener('click', () => {
+  sidebarEl.classList.contains('mobile-open') ? closeMobileSidebar() : openMobileSidebar();
 });
+overlayEl.addEventListener('click', () => {
+  if (document.getElementById('updates-drawer')) closeUpdatesDrawer();
+  else closeMobileSidebar();
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (document.getElementById('updates-drawer')) closeUpdatesDrawer();
+  else if (sidebarEl.classList.contains('mobile-open')) closeMobileSidebar();
+});
+
+/* Tablet collapsed state */
+function initSidebarCollapse() {
+  const sync = () => {
+    const isTablet = window.innerWidth > 768 && window.innerWidth <= 1024;
+    sidebarEl.classList.toggle('collapsed', isTablet);
+  };
+  sync();
+  window.addEventListener('resize', sync, { passive: true });
+}
+
+/* Updates drawer */
+function openUpdates() {
+  try { localStorage.setItem('compass_updates_last_seen', new Date().toISOString().split('T')[0]); } catch (e) {}
+  const dot = document.querySelector('[data-nav-id="updates"] .nav-badge-dot');
+  if (dot) dot.remove();
+  if (document.getElementById('updates-drawer')) return;
+
+  if (sidebarEl.classList.contains('mobile-open')) closeMobileSidebar();
+
+  const drawer = document.createElement('div');
+  drawer.className = 'updates-drawer';
+  drawer.id = 'updates-drawer';
+  drawer.setAttribute('role', 'dialog');
+  drawer.setAttribute('aria-label', L('Platform updates', 'Pembaruan platform'));
+  drawer.setAttribute('aria-modal', 'true');
+  drawer.innerHTML =
+    '<div class="updates-drawer-header"><div>' +
+      '<div class="updates-drawer-title" data-en="Updates" data-id="Pembaruan">' + L('Updates', 'Pembaruan') + '</div>' +
+      '<div class="updates-drawer-sub" data-en="What\'s new on the platform" data-id="Yang baru di platform">' +
+        L("What's new on the platform", 'Yang baru di platform') + '</div>' +
+    '</div>' +
+    '<button class="btn-icon" id="updates-close-btn" aria-label="' + L('Close updates', 'Tutup pembaruan') + '">' +
+      '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">' +
+      '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>' +
+    '</button></div>' +
+    '<div class="updates-drawer-body" id="updates-list"></div>';
+  document.body.appendChild(drawer);
+  populateUpdates();
+  drawer.querySelector('#updates-close-btn').addEventListener('click', closeUpdatesDrawer);
+  overlayEl.classList.add('visible');
+  drawer.setAttribute('tabindex', '-1');
+  drawer.focus();
+}
+function closeUpdatesDrawer() {
+  const drawer = document.getElementById('updates-drawer');
+  if (drawer) {
+    drawer.classList.add('exiting');
+    setTimeout(() => drawer.remove(), 250);
+  }
+  overlayEl.classList.remove('visible');
+}
+function populateUpdates() {
+  const list = document.getElementById('updates-list');
+  if (!list) return;
+  list.innerHTML = PLATFORM_UPDATES.map(u =>
+    '<div class="update-item">' +
+      '<div class="update-item-header">' +
+        '<span class="update-date">' + u.date + '</span>' +
+        '<span class="update-badge" data-en="' + u.badge.en + '" data-id="' + u.badge.id + '">' + (u.badge[lang] || u.badge.en) + '</span>' +
+      '</div>' +
+      '<div class="update-title" data-en="' + u.title.en + '" data-id="' + u.title.id + '">' + (u.title[lang] || u.title.en) + '</div>' +
+      '<div class="update-body" data-en="' + u.body.en + '" data-id="' + u.body.id + '">' + (u.body[lang] || u.body.en) + '</div>' +
+    '</div>').join('');
+}
 
 /* ═══ 10. CALIBRATION ONBOARDING (ME7DAF1 Part 6 — hosted at the hub) ═══ */
 const onbOverlay = document.getElementById('onb-overlay');
@@ -1234,6 +1900,9 @@ function maybeOnboard() {
 
 /* ═══ 11. INIT SEQUENCE ═══ */
 setLanguage(lang);
+renderSidebarIdentity();
+renderSidebar();
+initSidebarCollapse();
 renderWelcome();
 renderCompassCard();
 renderProductsGrid();

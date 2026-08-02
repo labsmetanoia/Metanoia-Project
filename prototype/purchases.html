@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050A12">
+<title>My Purchases — Metanoia Labs</title>
+<link rel="canonical" href="https://metanoialabs.net/purchases.html">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+:root{
+  --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
+  --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
+  --gold-border:rgba(180,140,60,0.16); --gold-border-hover:rgba(201,168,76,0.38); --gold-glow:rgba(201,168,76,0.12);
+  --glass-bg:rgba(8,14,26,0.70); --glass-blur:blur(20px);
+  --text:#FFFFFF; --text-sub:rgba(255,255,255,0.82); --text-muted:rgba(255,255,255,0.55); --text-faint:rgba(255,255,255,0.30);
+  --green:#16A34A;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --text-xs:0.6875rem; --text-sm:0.75rem; --text-base:0.875rem; --text-md:1rem; --text-lg:1.125rem; --text-xl:1.25rem; --text-2xl:1.5rem;
+  --space-1:0.25rem; --space-2:0.5rem; --space-3:0.75rem; --space-4:1rem; --space-5:1.25rem; --space-6:1.5rem; --space-8:2rem; --space-10:2.5rem; --space-16:4rem;
+  --radius-md:8px; --radius-lg:12px; --radius-xl:16px; --radius-full:9999px;
+  --glow-gold-sm:0 0 12px rgba(201,168,76,0.15);
+  --focus-ring:0 0 0 2px var(--bg-base),0 0 0 4px var(--gold);
+  --t-micro:150ms ease; --t-feature:400ms ease;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{font-family:var(--font-sans);font-size:var(--text-base);color:var(--text);line-height:1.5;min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+  background:radial-gradient(ellipse 80% 40% at 50% -5%, rgba(201,168,76,0.06) 0%, transparent 60%),var(--bg-base)}
+a{text-decoration:none} button{font-family:var(--font-sans);cursor:pointer} svg{display:inline-block;vertical-align:middle}
+h1,h2,h3{font-weight:inherit;margin:0}
+.topbar{position:fixed;top:0;left:0;right:0;height:56px;z-index:100;display:flex;align-items:center;justify-content:space-between;
+  padding:0 var(--space-6);background:rgba(8,14,26,0.96);border-bottom:1px solid var(--gold-border);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.tb-left{display:flex;align-items:center;gap:var(--space-4)}
+.tb-wordmark{font-size:var(--text-base);font-weight:700;color:var(--gold);letter-spacing:0.04em;display:inline-flex;align-items:center;gap:var(--space-2)}
+.tb-sep{width:1px;height:20px;background:var(--gold-border)}
+.tb-crumb{font-size:var(--text-sm);color:var(--text-muted)} .tb-crumb a{color:var(--text-muted);transition:color var(--t-micro)}
+.tb-crumb a:hover{color:var(--gold)} .tb-crumb .cur{color:var(--gold);font-weight:500}
+.lang-toggle{display:flex;align-items:center;background:rgba(255,255,255,0.05);border:1px solid var(--gold-border);border-radius:var(--radius-full);overflow:hidden}
+.lang-btn{padding:4px 10px;font-size:var(--text-xs);font-weight:600;letter-spacing:0.04em;border:none;background:transparent;color:var(--text-muted);transition:all var(--t-micro)}
+.lang-btn.active{background:var(--gold);color:var(--bg-base)}
+.shell{padding-top:56px;min-height:100vh}
+.content{max-width:880px;margin:0 auto;padding:var(--space-8) var(--space-6) var(--space-16)}
+.page-title{font-size:var(--text-2xl);font-weight:700;letter-spacing:-0.03em;margin-bottom:var(--space-2)}
+.page-sub{font-size:var(--text-base);color:var(--text-muted);margin-bottom:var(--space-8)}
+.panel{background:var(--glass-bg);backdrop-filter:var(--glass-blur);-webkit-backdrop-filter:var(--glass-blur);
+  border:1px solid var(--gold-border);border-radius:var(--radius-xl);padding:var(--space-8);animation:fadeIn var(--t-feature) ease both}
+.panel + .panel{margin-top:var(--space-6)}
+.panel h2{font-size:var(--text-lg);font-weight:600;margin-bottom:var(--space-1)}
+.panel .ph-sub{font-size:var(--text-sm);color:var(--text-muted);margin-bottom:var(--space-6)}
+/* Plan summary */
+.plan-row{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap}
+.plan-name{font-size:var(--text-xl);font-weight:700;color:var(--gold);letter-spacing:-0.015em}
+.plan-meta{font-size:var(--text-sm);color:var(--text-muted);margin-top:var(--space-1)}
+.plan-badge{display:inline-flex;align-items:center;gap:var(--space-2);padding:3px var(--space-3);border-radius:var(--radius-full);
+  font-size:var(--text-xs);font-weight:700;letter-spacing:0.04em;text-transform:uppercase}
+.plan-badge.active{background:rgba(22,163,74,0.12);border:1px solid rgba(22,163,74,0.35);color:#4ADE80}
+.plan-badge.free{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.10);color:var(--text-faint)}
+.plan-badge.expired{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.10);color:var(--text-faint)}
+/* Purchase list */
+.purchase-item{display:flex;align-items:center;gap:var(--space-4);padding:var(--space-4) 0;border-bottom:1px solid rgba(255,255,255,0.06)}
+.purchase-item:last-child{border-bottom:none;padding-bottom:0}
+.purchase-item:first-of-type{padding-top:0}
+.purchase-icon{width:40px;height:40px;flex-shrink:0;border-radius:var(--radius-md);background:var(--gold-glow);
+  border:1px solid var(--gold-border);color:var(--gold);display:flex;align-items:center;justify-content:center}
+.purchase-body{flex:1;min-width:0}
+.purchase-name{font-size:var(--text-base);font-weight:600;color:var(--text)}
+.purchase-meta{font-size:var(--text-sm);color:var(--text-muted);margin-top:2px}
+.purchase-right{display:flex;align-items:center;gap:var(--space-4);flex-shrink:0}
+.purchase-price{font-size:var(--text-base);font-weight:600;color:var(--text-sub);font-variant-numeric:tabular-nums}
+.receipt-btn{background:transparent;border:1px solid var(--gold-border);border-radius:var(--radius-md);color:var(--text-muted);
+  font-size:var(--text-sm);font-weight:600;padding:6px var(--space-3);transition:all var(--t-micro)}
+.receipt-btn:hover{border-color:var(--gold-border-hover);color:var(--gold)}
+.receipt-btn:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+/* Empty state */
+.empty{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-8) var(--space-4)}
+.empty svg{color:var(--text-faint);margin-bottom:var(--space-4)}
+.empty-title{font-size:var(--text-md);font-weight:600;color:var(--text-sub);margin-bottom:var(--space-2)}
+.empty-sub{font-size:var(--text-sm);color:var(--text-muted);max-width:400px;margin-bottom:var(--space-6);line-height:1.625}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);font-weight:600;font-size:var(--text-base);
+  line-height:1;border-radius:var(--radius-md);border:1px solid transparent;padding:10px var(--space-6);text-decoration:none;
+  white-space:nowrap;transition:all var(--t-micro);outline:none}
+.btn:focus-visible{box-shadow:var(--focus-ring)}
+.btn-primary{background:linear-gradient(135deg,var(--gold) 0%,var(--gold-deep) 100%);color:var(--bg-base)}
+.btn-primary:hover{background:linear-gradient(135deg,var(--gold-bright) 0%,var(--gold) 100%);box-shadow:var(--glow-gold-sm);transform:translateY(-1px)}
+.btn-secondary{background:transparent;color:var(--gold);border-color:var(--gold-border-hover)}
+.btn-secondary:hover{background:var(--gold-glow);border-color:var(--gold)}
+.note{font-size:var(--text-sm);color:var(--text-faint);margin-top:var(--space-4);line-height:1.625}
+.toast-container{position:fixed;bottom:var(--space-6);right:var(--space-6);z-index:300;display:flex;flex-direction:column;gap:var(--space-3);pointer-events:none}
+.toast{padding:var(--space-4) var(--space-5);background:rgba(10,20,36,0.97);border:1px solid var(--gold-border);
+  border-radius:var(--radius-lg);box-shadow:0 8px 24px rgba(0,0,0,0.60),var(--glow-gold-sm);min-width:240px;pointer-events:all;
+  font-size:var(--text-sm);color:var(--text-sub);animation:toastIn 300ms ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes toastIn{from{opacity:0;transform:translateX(100%)}to{opacity:1;transform:translateX(0)}}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:0.01ms !important;transition-duration:0.01ms !important}}
+@media (prefers-contrast: more){:root{--gold-border:rgba(201,168,76,0.45);--gold-border-hover:rgba(201,168,76,0.85);--text-muted:rgba(255,255,255,0.75);--text-faint:rgba(255,255,255,0.50)}}
+@media (max-width:768px){
+  .content{padding:var(--space-6) var(--space-4) var(--space-10)}
+  .panel{padding:var(--space-5)}
+  .purchase-item{flex-wrap:wrap}
+  .purchase-right{width:100%;justify-content:space-between;padding-left:calc(40px + var(--space-4))}
+}
+</style>
+</head>
+<body>
+<header class="topbar" role="banner">
+  <div class="tb-left">
+    <a href="landing.html" class="tb-wordmark" aria-label="Metanoia Labs home">
+      <svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="currentColor"/></svg>
+      <span>Metanoia Labs</span></a>
+    <div class="tb-sep"></div>
+    <nav class="tb-crumb" aria-label="Breadcrumb"><a href="portal.html" data-en="Portal" data-id="Portal">Portal</a> › <span class="cur" data-en="My Purchases" data-id="Pembelian Saya">My Purchases</span></nav>
+  </div>
+  <div class="lang-toggle" role="group" aria-label="Language">
+    <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')">EN</button>
+    <button class="lang-btn" id="lang-id" onclick="setLanguage('id')">ID</button>
+  </div>
+</header>
+
+<div class="shell"><main class="content" role="main">
+  <h1 class="page-title" data-en="My Purchases" data-id="Pembelian Saya">My Purchases</h1>
+  <p class="page-sub" data-en="Your plan, your purchase history, and your receipts — all in one place." data-id="Paketmu, riwayat pembelianmu, dan kuitansimu — semua di satu tempat.">Your plan, your purchase history, and your receipts — all in one place.</p>
+
+  <section class="panel" aria-label="Current plan">
+    <h2 data-en="Current Plan" data-id="Paket Saat Ini">Current Plan</h2>
+    <p class="ph-sub" data-en="What your account unlocks today." data-id="Apa yang dibuka akunmu hari ini.">What your account unlocks today.</p>
+    <div class="plan-row">
+      <div>
+        <div class="plan-name" id="plan-name">–</div>
+        <div class="plan-meta" id="plan-meta">–</div>
+      </div>
+      <span class="plan-badge free" id="plan-badge">–</span>
+    </div>
+    <div id="plan-cta" style="margin-top:1.25rem"></div>
+  </section>
+
+  <section class="panel" aria-label="Purchase history">
+    <h2 data-en="Purchase History" data-id="Riwayat Pembelian">Purchase History</h2>
+    <p class="ph-sub" data-en="Every transaction on your account." data-id="Setiap transaksi di akunmu.">Every transaction on your account.</p>
+    <div id="purchase-list"></div>
+    <p class="note" data-en="Need an invoice or have a billing question? Email hello@metanoialabs.net and we'll sort it out." data-id="Butuh faktur atau punya pertanyaan tagihan? Email hello@metanoialabs.net dan kami akan membantu.">Need an invoice or have a billing question? Email hello@metanoialabs.net and we'll sort it out.</p>
+  </section>
+</main></div>
+
+<div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+<script>
+(() => {
+'use strict';
+const params = new URLSearchParams(window.location.search);
+const isDemo = params.get('demo') === 'true';
+
+let lang = 'en';
+try { const l = localStorage.getItem('mtLang') || sessionStorage.getItem('metanoia_lang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
+const L = (en, id) => (lang === 'id' ? id : en);
+
+window.setLanguage = function (l) {
+  if (l !== 'en' && l !== 'id') return;
+  lang = l;
+  try { localStorage.setItem('mtLang', l); sessionStorage.setItem('metanoia_lang', l); } catch (e) {}
+  document.getElementById('lang-en').classList.toggle('active', l === 'en');
+  document.getElementById('lang-id').classList.toggle('active', l === 'id');
+  document.querySelectorAll('[data-en]').forEach(el => {
+    el.innerHTML = l === 'id' ? (el.dataset.id || el.dataset.en) : el.dataset.en;
+  });
+  document.documentElement.lang = l;
+  render();
+};
+
+function toast(msg) {
+  const t = document.createElement('div');
+  t.className = 'toast'; t.textContent = msg;
+  document.getElementById('toast-container').appendChild(t);
+  setTimeout(() => t.remove(), 3000);
+}
+
+function getTier() {
+  if (isDemo) return 'compass';
+  try { return sessionStorage.getItem('metanoia_compass_tier') || 'free'; } catch (e) { return 'free'; }
+}
+
+/* Purchase records — real accounts read from storage; demo shows a sample history. */
+function getPurchases() {
+  if (isDemo) {
+    return [
+      { id: 'compass-sub', name: 'Project Compass — Annual', date: '2026-07-15', price: 'Rp 1.490.000',
+        icon: 'compass' },
+      { id: 'assessment', name: 'Career Map Assessment', date: '2026-07-02', price: 'Rp 0', icon: 'map' }
+    ];
+  }
+  try {
+    const stored = JSON.parse(localStorage.getItem('metanoia_purchases') || '[]');
+    if (Array.isArray(stored) && stored.length) return stored;
+  } catch (e) {}
+  /* Derive a minimal record from tier so an active subscriber always sees their plan. */
+  if (getTier() === 'compass') {
+    return [{ id: 'compass-sub', name: 'Project Compass — Annual', date: '', price: '', icon: 'compass' }];
+  }
+  return [];
+}
+
+const ICONS = {
+  compass: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>',
+  map: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>',
+  bag: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>'
+};
+
+function render() {
+  const tier = getTier();
+  const planName = document.getElementById('plan-name');
+  const planMeta = document.getElementById('plan-meta');
+  const planBadge = document.getElementById('plan-badge');
+  const planCta = document.getElementById('plan-cta');
+
+  if (tier === 'compass') {
+    planName.textContent = 'Project Compass';
+    planMeta.textContent = L('Full navigation system — unlimited routes, waypoints, and briefings.', 'Sistem navigasi penuh — rute, waypoint, dan briefing tanpa batas.');
+    planBadge.className = 'plan-badge active';
+    planBadge.textContent = L('Active', 'Aktif');
+    planCta.innerHTML = '<a href="pages/products/the-compass.html" class="btn btn-secondary">' + L('Open Project Compass →', 'Buka Project Compass →') + '</a>';
+  } else if (tier === 'expired') {
+    planName.textContent = L('Compass (expired)', 'Compass (berakhir)');
+    planMeta.textContent = L('Your subscription has lapsed. Your data is safe and waiting.', 'Langgananmu telah berakhir. Datamu aman dan menunggu.');
+    planBadge.className = 'plan-badge expired';
+    planBadge.textContent = L('Expired', 'Berakhir');
+    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Reactivate Compass →', 'Aktifkan Ulang Compass →') + '</a>';
+  } else {
+    planName.textContent = L('Learning Access (free)', 'Akses Belajar (gratis)');
+    planMeta.textContent = L('Course access with limited Compass features.', 'Akses kursus dengan fitur Compass terbatas.');
+    planBadge.className = 'plan-badge free';
+    planBadge.textContent = L('Free', 'Gratis');
+    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Activate Project Compass →', 'Aktifkan Project Compass →') + '</a>';
+  }
+
+  const list = document.getElementById('purchase-list');
+  const purchases = getPurchases();
+  if (!purchases.length) {
+    list.innerHTML = '<div class="empty">' +
+      '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' +
+      '<div class="empty-title">' + L('No purchases yet', 'Belum ada pembelian') + '</div>' +
+      '<div class="empty-sub">' + L('When you activate Project Compass or purchase a course, your receipts will appear here.', 'Saat kamu mengaktifkan Project Compass atau membeli kursus, kuitansimu akan muncul di sini.') + '</div>' +
+      '<a href="portal.html" class="btn btn-secondary">' + L('Explore products', 'Jelajahi produk') + '</a></div>';
+    return;
+  }
+  list.innerHTML = purchases.map(p =>
+    '<div class="purchase-item">' +
+      '<div class="purchase-icon">' + (ICONS[p.icon] || ICONS.bag) + '</div>' +
+      '<div class="purchase-body">' +
+        '<div class="purchase-name">' + p.name + '</div>' +
+        '<div class="purchase-meta">' + (p.date || L('Active subscription', 'Langganan aktif')) + '</div>' +
+      '</div>' +
+      '<div class="purchase-right">' +
+        (p.price ? '<span class="purchase-price">' + p.price + '</span>' : '') +
+        '<button class="receipt-btn" data-receipt="' + p.id + '">' + L('Receipt', 'Kuitansi') + '</button>' +
+      '</div>' +
+    '</div>').join('');
+  list.querySelectorAll('[data-receipt]').forEach(b =>
+    b.addEventListener('click', () => toast(L('Receipt sent to your email.', 'Kuitansi dikirim ke emailmu.'))));
+}
+
+setLanguage(lang);
+})();
+</script>
+</body>
+</html>
