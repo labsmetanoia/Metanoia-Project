@@ -25,6 +25,18 @@
     --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
     --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
     --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92); --glass-blur:blur(20px);
+    /* Gauntlet Journey tokens (ME2E721 Part 2) */
+    --glass-border:rgba(180,140,60,.16); --elevated-bg:rgba(10,20,36,.96);
+    --gold-dim:rgba(201,168,76,.18); --gold-mid:rgba(201,168,76,.40); --gold-text:#E8C96A;
+    --font-sans:'Inter',system-ui,sans-serif; --font-display:'Inter',system-ui,sans-serif;
+    --text-primary:#F0EDE8; --text-secondary:rgba(240,237,232,.65); --text-tertiary:rgba(240,237,232,.40);
+    --surface-warning:rgba(239,68,68,.12); --border-warning:rgba(239,68,68,.30);
+    --surface-success:rgba(34,197,94,.10); --border-success:rgba(34,197,94,.25);
+    --ease-out:cubic-bezier(.22,1,.36,1); --ease-in-out:cubic-bezier(.65,0,.35,1);
+    --t-fast:200ms; --t-med:350ms; --t-slow:500ms; --t-cinematic:700ms;
+    --act1-accent:#0D7377; --act1-accent-dim:rgba(13,115,119,.20);
+    --act2-accent:#C9A84C; --act2-accent-dim:rgba(201,168,76,.20);
+    --act3-accent:#E8C96A; --act3-accent-dim:rgba(232,201,106,.20);
     --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
     --font:'Inter',sans-serif;
@@ -726,6 +738,198 @@
   .g-bridge em{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.15em}
   @media(max-width:1100px){.gates{grid-template-columns:1fr 1fr}}
 
+  /* ═══════════════════════════════════════════════════════════
+     THE GAUNTLET — Journey Experience (ME2E721)
+     ═══════════════════════════════════════════════════════════ */
+  .gauntlet-section{position:relative;width:100%;background:var(--bg-base);overflow:hidden;
+    border:1px solid var(--glass-border);border-radius:18px;margin-top:52px}
+  .gauntlet-progress-bar{position:sticky;top:64px;z-index:50;display:flex;align-items:center;
+    justify-content:space-between;padding:0 32px;height:52px;background:rgba(5,10,18,.85);
+    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--glass-border);gap:16px}
+  .gpb-left,.gpb-right{flex:1}
+  .gpb-right{text-align:right}
+  .gpb-act-label{font-family:var(--font-sans);font-size:11px;font-weight:500;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--text-secondary);
+    transition:opacity var(--t-med) var(--ease-out),color var(--t-med) var(--ease-out)}
+  .gpb-dots{display:flex;align-items:center;gap:6px;justify-content:center}
+  .gpb-dot{width:8px;height:8px;border-radius:50%;background:rgba(240,237,232,.20);cursor:pointer;
+    border:none;padding:0;position:relative;
+    transition:background var(--t-med) var(--ease-out),transform var(--t-med) var(--ease-out),width var(--t-med) var(--ease-out)}
+  .gpb-dot:hover{background:rgba(201,168,76,.50);transform:scale(1.25)}
+  .gpb-dot.completed{background:var(--gold)}
+  .gpb-dot.active{width:24px;border-radius:4px;background:var(--gold)}
+  .gpb-dot::after{content:attr(data-gate);position:absolute;bottom:150%;left:50%;transform:translateX(-50%);
+    background:var(--elevated-bg);border:1px solid var(--glass-border);color:var(--text-primary);
+    font-size:11px;font-weight:500;padding:3px 7px;border-radius:4px;white-space:nowrap;opacity:0;
+    pointer-events:none;transition:opacity var(--t-fast) var(--ease-out)}
+  .gpb-dot:hover::after{opacity:1}
+  .gpb-mode-toggle{font-family:var(--font-sans);font-size:12px;font-weight:500;letter-spacing:.04em;
+    color:var(--text-secondary);background:none;border:1px solid rgba(240,237,232,.15);border-radius:6px;
+    padding:5px 12px;cursor:pointer;
+    transition:color var(--t-fast) var(--ease-out),border-color var(--t-fast) var(--ease-out)}
+  .gpb-mode-toggle:hover{color:var(--text-primary);border-color:var(--gold-mid)}
+  .gauntlet-journey-mode{position:relative;width:100%;height:88vh;min-height:560px;max-height:800px;overflow:hidden}
+  .gauntlet-image-layer{position:absolute;inset:0;overflow:hidden}
+  .gauntlet-hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
+    transition:opacity var(--t-cinematic) var(--ease-out);transform-origin:center center;
+    will-change:opacity,transform}
+  .gauntlet-hero-img.active{opacity:1}
+  @keyframes kbRight{from{transform:scale(1.00) translate(0%,0%)}to{transform:scale(1.08) translate(-2%,-1%)}}
+  @keyframes kbLeft{from{transform:scale(1.00) translate(0%,0%)}to{transform:scale(1.08) translate(2%,-1%)}}
+  @keyframes kbUp{from{transform:scale(1.00) translate(0%,0%)}to{transform:scale(1.08) translate(0%,-2%)}}
+  @keyframes kbDown{from{transform:scale(1.00) translate(0%,0%)}to{transform:scale(1.08) translate(0%,2%)}}
+  .gauntlet-hero-img.kb-right{animation:kbRight 12s linear forwards}
+  .gauntlet-hero-img.kb-left{animation:kbLeft 12s linear forwards}
+  .gauntlet-hero-img.kb-up{animation:kbUp 12s linear forwards}
+  .gauntlet-hero-img.kb-down{animation:kbDown 12s linear forwards}
+  .gauntlet-overlay{position:absolute;inset:0;z-index:1;background:
+    linear-gradient(90deg,rgba(5,10,18,.92) 0%,rgba(5,10,18,.70) 40%,rgba(5,10,18,.20) 65%,rgba(5,10,18,0) 100%),
+    linear-gradient(180deg,rgba(5,10,18,0) 40%,rgba(5,10,18,.85) 100%)}
+  .gauntlet-content{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;
+    justify-content:flex-end;padding:40px 48px 100px;max-width:680px;will-change:transform,opacity}
+  @keyframes gContentIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes gContentOut{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-16px)}}
+  .gauntlet-content.entering{animation:gContentIn var(--t-med) var(--ease-out) forwards}
+  .gauntlet-content.exiting{animation:gContentOut var(--t-fast) var(--ease-in-out) forwards}
+  .g-gate-badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:16px}
+  .g-gate-number{font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gold-text);background:var(--gold-dim);
+    border:1px solid rgba(201,168,76,.30);border-radius:4px;padding:3px 10px}
+  .gate-act-1 .g-gate-number{color:#4DD0D3;background:rgba(13,115,119,.20);border-color:rgba(13,115,119,.35)}
+  .gate-act-3 .g-gate-number{color:var(--gold-text);background:rgba(232,201,106,.20);border-color:rgba(232,201,106,.40)}
+  .g-title{font-family:var(--font-display);font-size:clamp(28px,4vw,48px);font-weight:700;line-height:1.1;
+    letter-spacing:-.02em;color:var(--text-primary);margin:0 0 12px}
+  .g-hook{font-size:clamp(14px,1.5vw,16px);font-weight:400;font-style:italic;color:var(--text-secondary);
+    margin:0 0 24px;line-height:1.5}
+  .g-stats{display:flex;align-items:center;gap:20px;margin-bottom:24px;flex-wrap:wrap}
+  .g-stat{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--text-secondary)}
+  .g-stat-icon{color:var(--gold);flex-shrink:0}
+  .g-stat-label{color:var(--text-tertiary);font-size:11px;margin-right:2px}
+  .g-difficulty-stars{display:flex;gap:3px}
+  .g-star{color:var(--text-tertiary);font-size:12px}
+  .g-star.lit{color:var(--gold)}
+  .g-expandable{max-height:0;overflow:hidden;opacity:0;
+    transition:max-height var(--t-slow) var(--ease-out),opacity var(--t-med) var(--ease-out)}
+  .g-expandable.open{max-height:600px;opacity:1;overflow-y:auto}
+  .g-description{font-size:15px;line-height:1.7;color:var(--text-secondary);margin:0 0 20px}
+  .g-insights{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+  .g-insight-card{background:var(--glass-bg);backdrop-filter:var(--glass-blur);
+    -webkit-backdrop-filter:var(--glass-blur);border-radius:8px;padding:14px 16px}
+  .g-insight-card.mistake{border:1px solid var(--border-warning);background:var(--surface-warning)}
+  .g-insight-card.winning{border:1px solid var(--border-success);background:var(--surface-success)}
+  .g-insight-label{font-size:10px;font-weight:700;letter-spacing:.10em;text-transform:uppercase;margin-bottom:6px}
+  .g-insight-card.mistake .g-insight-label{color:#F87171}
+  .g-insight-card.winning .g-insight-label{color:#4ADE80}
+  .g-insight-text{font-size:13px;line-height:1.55;color:var(--text-secondary);margin:0}
+  .g-recruiter-quote{border-left:2px solid var(--gold);padding:10px 16px;margin:0;background:var(--gold-dim);
+    border-radius:0 6px 6px 0}
+  .g-recruiter-quote blockquote{font-size:14px;line-height:1.6;color:var(--text-secondary);font-style:italic;margin:0 0 6px}
+  .g-recruiter-quote cite{font-size:11px;color:var(--text-tertiary);font-style:normal;font-weight:500;
+    letter-spacing:.05em;text-transform:uppercase}
+  .g-expand-btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;
+    color:var(--gold-text);background:none;border:1px solid var(--gold-mid);border-radius:6px;padding:7px 14px;
+    cursor:pointer;margin-bottom:12px;
+    transition:background var(--t-fast) var(--ease-out),color var(--t-fast) var(--ease-out)}
+  .g-expand-btn:hover{background:var(--gold-dim)}
+  .g-expand-btn svg{transition:transform var(--t-med) var(--ease-out)}
+  .g-expand-btn.open svg{transform:rotate(180deg)}
+  /* top:auto guards against the page-wide `nav{position:fixed;top:0}` rule */
+  .gauntlet-nav{position:absolute;top:auto;bottom:0;left:0;right:0;height:auto;z-index:3;
+    display:flex;align-items:center;justify-content:space-between;padding:16px 48px 24px;
+    pointer-events:none;background:linear-gradient(0deg,rgba(5,10,18,.90) 0%,transparent 100%)}
+  .gauntlet-nav-btn,.gauntlet-survive{pointer-events:auto}
+  .gauntlet-nav-btn{display:flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:14px;
+    font-weight:600;color:var(--text-primary);background:var(--glass-bg);backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);border:1px solid var(--glass-border);border-radius:8px;
+    padding:10px 20px;cursor:pointer;
+    transition:background var(--t-fast) var(--ease-out),border-color var(--t-fast) var(--ease-out),opacity var(--t-fast) var(--ease-out)}
+  .gauntlet-nav-btn:hover:not(:disabled){background:rgba(201,168,76,.12);border-color:var(--gold-mid)}
+  .gauntlet-nav-btn:disabled{opacity:.30;cursor:not-allowed}
+  .gauntlet-nav-btn.next{background:var(--gold-dim);border-color:rgba(201,168,76,.35)}
+  .gauntlet-nav-btn.next:hover:not(:disabled){background:rgba(201,168,76,.25)}
+  .gauntlet-nav-btn.next.final-gate{background:linear-gradient(135deg,rgba(201,168,76,.30),rgba(232,201,106,.20));
+    border-color:var(--gold);color:var(--gold-text);animation:finalGlowPulse 2.5s ease-in-out infinite;opacity:1}
+  @keyframes finalGlowPulse{0%,100%{box-shadow:0 0 0 0 rgba(201,168,76,0)}50%{box-shadow:0 0 20px 4px rgba(201,168,76,.25)}}
+  .gauntlet-survive{display:flex;align-items:center;gap:10px;flex:1;justify-content:center}
+  .gauntlet-survive-label{font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--text-tertiary);white-space:nowrap}
+  .gauntlet-survive-bar{width:120px;height:4px;background:rgba(240,237,232,.10);border-radius:2px;overflow:hidden}
+  .gauntlet-survive-fill{height:100%;border-radius:2px;
+    transition:width 600ms var(--ease-out),background-color 600ms var(--ease-out)}
+  .gauntlet-survive-fill.high{background:#4ADE80}
+  .gauntlet-survive-fill.mid{background:var(--gold)}
+  .gauntlet-survive-fill.low{background:#F87171}
+  .gauntlet-survive-pct{font-size:13px;font-weight:600;color:var(--text-secondary);min-width:36px}
+  .gauntlet-journey-mode.is-final-gate .gauntlet-overlay{background:
+    linear-gradient(90deg,rgba(5,10,18,.90) 0%,rgba(12,10,5,.65) 50%,rgba(5,10,18,.10) 100%),
+    linear-gradient(180deg,rgba(5,10,18,0) 30%,rgba(10,8,2,.90) 100%)}
+  .gauntlet-celebration-overlay{position:absolute;inset:0;z-index:4;pointer-events:none}
+  .gauntlet-overview-mode{padding:40px 48px;min-height:400px}
+  .gauntlet-overview-mode.hidden{display:none}
+  .gauntlet-overview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .gog-card{position:relative;aspect-ratio:4/3;border-radius:10px;overflow:hidden;cursor:pointer;
+    border:1px solid transparent;background:none;padding:0;text-align:left;
+    transition:border-color var(--t-fast) var(--ease-out),transform var(--t-fast) var(--ease-out)}
+  .gog-card:hover{border-color:var(--gold-mid);transform:translateY(-3px)}
+  .gog-card-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .gog-card-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,10,18,0) 30%,rgba(5,10,18,.90) 100%)}
+  .gog-card-info{position:absolute;bottom:0;left:0;right:0;padding:12px}
+  .gog-gate-num{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--gold-text);margin-bottom:2px}
+  .gog-title{font-size:13px;font-weight:600;color:var(--text-primary);line-height:1.3}
+  .gog-survive{font-size:11px;color:var(--text-tertiary);margin-top:4px}
+  .gog-act-divider{grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:8px 0 4px}
+  .gog-act-divider-line{flex:1;height:1px;background:var(--glass-border)}
+  .gog-act-divider-label{font-size:11px;font-weight:600;letter-spacing:.10em;text-transform:uppercase;
+    color:var(--text-tertiary);white-space:nowrap}
+  @keyframes gSlideInRight{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:translateX(0)}}
+  @keyframes gSlideInLeft{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:translateX(0)}}
+  @keyframes gSlideOutLeft{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(-40px)}}
+  @keyframes gSlideOutRight{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(40px)}}
+  .gauntlet-content.slide-in-right{animation:gSlideInRight var(--t-med) var(--ease-out) forwards}
+  .gauntlet-content.slide-in-left{animation:gSlideInLeft var(--t-med) var(--ease-out) forwards}
+  .gauntlet-content.slide-out-left{animation:gSlideOutLeft var(--t-fast) var(--ease-in-out) forwards}
+  .gauntlet-content.slide-out-right{animation:gSlideOutRight var(--t-fast) var(--ease-in-out) forwards}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .gauntlet-nav-btn:focus-visible,.gpb-dot:focus-visible,.gpb-mode-toggle:focus-visible,
+  .g-expand-btn:focus-visible,.gog-card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .gauntlet-swipe-hint{position:absolute;bottom:70px;left:50%;transform:translateX(-50%);z-index:10;
+    display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-tertiary);pointer-events:none;
+    animation:swipeHintFade 3s ease-out 1.5s forwards;opacity:0}
+  @keyframes swipeHintFade{0%{opacity:0}20%{opacity:1}80%{opacity:1}100%{opacity:0}}
+  @media (max-width:768px){
+    .gauntlet-journey-mode{height:auto;max-height:none;min-height:auto;display:flex;flex-direction:column}
+    .gauntlet-image-layer{position:relative;height:45vw;min-height:220px;max-height:320px;flex-shrink:0}
+    .gauntlet-hero-img{position:absolute}
+    .gauntlet-overlay{background:linear-gradient(180deg,rgba(5,10,18,0) 60%,rgba(5,10,18,.95) 100%)}
+    .gauntlet-content{position:relative;max-width:100%;padding:24px 20px 16px;background:var(--bg-base);
+      inset:auto;justify-content:flex-start}
+    .g-title{font-size:24px}
+    .g-insights{grid-template-columns:1fr}
+    .gauntlet-nav{position:relative;background:var(--bg-base);padding:16px 20px 20px;
+      border-top:1px solid var(--glass-border)}
+    .gauntlet-survive{display:none}
+    .gauntlet-progress-bar{padding:0 16px;top:60px}
+    .gauntlet-overview-mode{padding:24px 16px}
+    .gauntlet-overview-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  }
+  @media (max-width:480px){
+    .gpb-act-label{display:none}
+    .gpb-right{display:none}
+    .gpb-center{flex:1}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .gauntlet-hero-img{animation:none !important;transition:opacity var(--t-slow) linear}
+    .gauntlet-content{animation:none !important;opacity:1 !important;transform:none !important}
+  }
+  @media (forced-colors:active){
+    .gauntlet-hero-img{opacity:.30}
+    .gauntlet-overlay{background:Canvas;opacity:.90}
+    .gpb-dot.active,.gpb-dot.completed{background:Highlight}
+  }
+
   /* ═══ SEE IT WORK (ported from student.html) ═══ */
   .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
   .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
@@ -1253,73 +1457,57 @@
     <div class="g-banner reveal">
       <p data-en="At a leading Indonesian management trainee program, a single intake cycle may receive between <b>5,000 and 20,000 applications</b> for <b>20 to 50 positions</b>. Every application faces the same <b>eight gates</b>. Very few candidates are prepared for all of them." data-id="Dalam satu siklus penerimaan program management trainee Indonesia terkemuka, mungkin ada antara <b>5.000 hingga 20.000 lamaran</b> untuk <b>20 hingga 50 posisi</b>. Setiap lamaran menghadapi <b>delapan gerbang</b> yang sama. Sangat sedikit kandidat yang siap untuk semuanya.">At a leading Indonesian management trainee program, a single intake cycle may receive between <b>5,000 and 20,000 applications</b> for <b>20 to 50 positions</b>. Every application faces the same <b>eight gates</b>. Very few candidates are prepared for all of them.</p>
     </div>
-    <div class="gates">
-      <div class="gate reveal" style="--i:0">
-        <span class="g-badge" data-en="Gate 01 · Submission" data-id="Gerbang 01 · Pengiriman">Gate 01 · Submission</span>
-        <h4 data-en="Application Submission" data-id="Pengumpulan Lamaran">Application Submission</h4>
-        <p class="g-eval" data-en="Candidates prepare and submit their CV, cover letter, academic transcript, portfolio, certificates, and all required supporting documents. In competitive intakes, hundreds of applications arrive the same day as yours. This is the recruiter’s first — and often only — impression of who you are." data-id="Kandidat mempersiapkan dan mengirimkan CV, surat lamaran, transkrip akademis, portofolio, sertifikat, dan semua dokumen pendukung yang diperlukan. Dalam penerimaan kompetitif, ratusan lamaran tiba pada hari yang sama. Ini adalah kesan pertama — dan sering kali satu-satunya — rekruter tentang siapa dirimu.">Candidates prepare and submit their CV, cover letter, academic transcript, portfolio, certificates, and all required supporting documents. In competitive intakes, hundreds of applications arrive the same day as yours. This is the recruiter’s first — and often only — impression of who you are.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Generic CV not tailored to the role. Missing or incomplete supporting documents. Formatting errors that signal carelessness before the content is even read." data-id="CV generik yang tidak disesuaikan dengan jabatan. Dokumen pendukung yang hilang atau tidak lengkap. Kesalahan format yang menandakan kecerobohan sebelum kontennya bahkan dibaca.">Generic CV not tailored to the role. Missing or incomplete supporting documents. Formatting errors that signal carelessness before the content is even read.</p>
+    <!-- GAUNTLET JOURNEY SECTION (ME2E721) — replaces the static 8-gate grid -->
+    <section class="gauntlet-section reveal" id="gauntlet-journey" aria-label="The Gauntlet - 8-Gate Journey">
+
+      <!-- Sticky progress bar -->
+      <div class="gauntlet-progress-bar" id="gauntlet-progress-bar" aria-live="polite" aria-atomic="true">
+        <div class="gpb-left">
+          <span class="gpb-act-label" id="gpb-act-label"></span>
+        </div>
+        <div class="gpb-center">
+          <div class="gpb-dots" id="gpb-dots" role="list" aria-label="Gate progress"></div>
+        </div>
+        <div class="gpb-right">
+          <button class="gpb-mode-toggle" id="gpb-mode-toggle" aria-label="Switch to overview mode">&#8801; Overview</button>
+        </div>
       </div>
-      <div class="gate reveal" style="--i:1">
-        <span class="g-badge" data-en="Gate 02 · Screening" data-id="Gerbang 02 · Penyaringan">Gate 02 · Screening</span>
-        <h4 data-en="Administrative Screening" data-id="Penyaringan Administratif">Administrative Screening</h4>
-        <p class="g-eval" data-en="Before any human carefully reviews your application, automated systems check for minimum qualifications — GPA thresholds, required degree fields, ATS keyword matching, and document completeness. Applications that fail this gate are rejected without a human ever reading them." data-id="Sebelum siapa pun meninjau lamaranmu dengan cermat, sistem otomatis memeriksa kualifikasi minimum — ambang IPK, bidang gelar yang diperlukan, pencocokan kata kunci ATS, dan kelengkapan dokumen. Lamaran yang gagal di gerbang ini ditolak tanpa manusia yang pernah membacanya.">Before any human carefully reviews your application, automated systems check for minimum qualifications — GPA thresholds, required degree fields, ATS keyword matching, and document completeness. Applications that fail this gate are rejected without a human ever reading them.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="ATS-unfriendly CV formatting — tables, graphics, embedded text boxes that confuse automated parsing. Missing job-description keywords. Qualification gaps not addressed or explained anywhere in the application." data-id="Format CV yang tidak ramah ATS — tabel, grafik, kotak teks tertanam yang membingungkan pembacaan otomatis. Kata kunci deskripsi jabatan yang hilang. Kesenjangan kualifikasi yang tidak ditangani atau dijelaskan di mana pun dalam lamaran.">ATS-unfriendly CV formatting — tables, graphics, embedded text boxes that confuse automated parsing. Missing job-description keywords. Qualification gaps not addressed or explained anywhere in the application.</p>
+
+      <!-- Journey mode -->
+      <div class="gauntlet-journey-mode" id="gauntlet-journey-mode" aria-live="polite">
+        <div class="gauntlet-image-layer" id="gauntlet-image-layer" aria-hidden="true">
+          <img class="gauntlet-hero-img active" id="gauntlet-img-a" src="" alt="">
+          <img class="gauntlet-hero-img" id="gauntlet-img-b" src="" alt="">
+        </div>
+        <div class="gauntlet-overlay" aria-hidden="true"></div>
+        <div class="gauntlet-content" id="gauntlet-content"><!-- injected by renderGate() --></div>
+        <nav class="gauntlet-nav" id="gauntlet-nav" aria-label="Gate navigation">
+          <button class="gauntlet-nav-btn prev" id="gauntlet-prev" aria-label="Previous gate" disabled>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 15L7 10L12 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-en="Previous" data-id="Sebelumnya">Previous</span>
+          </button>
+          <div class="gauntlet-survive" id="gauntlet-survive" aria-hidden="true">
+            <span class="gauntlet-survive-label" data-en="Survive Rate" data-id="Tingkat Lolos">Survive Rate</span>
+            <div class="gauntlet-survive-bar"><div class="gauntlet-survive-fill" id="gauntlet-survive-fill"></div></div>
+            <span class="gauntlet-survive-pct" id="gauntlet-survive-pct"></span>
+          </div>
+          <button class="gauntlet-nav-btn next" id="gauntlet-next" aria-label="Next gate">
+            <span data-en="Next" data-id="Selanjutnya">Next</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </nav>
+      </div><!-- /gauntlet-journey-mode -->
+
+      <!-- Overview mode -->
+      <div class="gauntlet-overview-mode hidden" id="gauntlet-overview-mode" aria-label="All gates overview">
+        <div class="gauntlet-overview-grid" id="gauntlet-overview-grid"><!-- injected by renderOverviewGrid() --></div>
       </div>
-      <div class="gate reveal" style="--i:2">
-        <span class="g-badge" data-en="Gate 03 · Assessment" data-id="Gerbang 03 · Penilaian">Gate 03 · Assessment</span>
-        <h4 data-en="Online Assessment" data-id="Penilaian Online">Online Assessment</h4>
-        <p class="g-eval" data-en="Timed cognitive ability tests, logical and numerical reasoning, personality questionnaires, and situational judgment exercises — administered digitally and algorithmically scored. Companies use these to rank large candidate pools without manual review. Your score relative to other candidates determines whether you advance to the next stage." data-id="Tes kemampuan kognitif berwaktu, penalaran logis dan numeris, kuesioner kepribadian, dan latihan penilaian situasional — diadministrasikan secara digital dan dinilai secara algoritmik. Perusahaan menggunakannya untuk menentukan peringkat kumpulan kandidat besar tanpa tinjauan manual. Skormu relatif terhadap kandidat lain menentukan apakah kamu melangkah ke tahap berikutnya.">Timed cognitive ability tests, logical and numerical reasoning, personality questionnaires, and situational judgment exercises — administered digitally and algorithmically scored. Companies use these to rank large candidate pools without manual review. Your score relative to other candidates determines whether you advance to the next stage.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Unfamiliarity with test formats and time pressure. No prior practice with logical and numerical reasoning under exam conditions. Treating personality assessments casually rather than responding with self-awareness and internal consistency." data-id="Ketidakbiasaan dengan format tes dan tekanan waktu. Tidak ada latihan sebelumnya dengan penalaran logis dan numeris dalam kondisi ujian berwaktu. Memperlakukan penilaian kepribadian dengan santai daripada merespons dengan kesadaran diri dan konsistensi internal.">Unfamiliarity with test formats and time pressure. No prior practice with logical and numerical reasoning under exam conditions. Treating personality assessments casually rather than responding with self-awareness and internal consistency.</p>
-      </div>
-      <div class="gate reveal" style="--i:3">
-        <span class="g-badge" data-en="Gate 04 · Evaluation" data-id="Gerbang 04 · Evaluasi">Gate 04 · Evaluation</span>
-        <h4 data-en="Written Test · Case Study · FGD · LGD · Technical" data-id="Tes Tertulis · Studi Kasus · FGD · LGD · Teknis">Written Test · Case Study · FGD · LGD · Technical</h4>
-        <p class="g-eval" data-en="Depending on the role, this stage takes multiple forms: structured business case studies, written analytical tests, Focus Group Discussions (FGD), Leaderless Group Discussions (LGD), or technical assessments. Each form evaluates a distinct dimension — analytical rigor, communication clarity, leadership under ambiguity, problem-solving under pressure, or domain knowledge." data-id="Tergantung jabatan, tahap ini mengambil beberapa bentuk: studi kasus bisnis terstruktur, tes analitis tertulis, Focus Group Discussion (FGD), Leaderless Group Discussion (LGD), atau penilaian teknis. Setiap bentuk mengevaluasi dimensi yang berbeda — ketelitian analitis, kejelasan komunikasi, kepemimpinan dalam ambiguitas, pemecahan masalah di bawah tekanan, atau pengetahuan domain.">Depending on the role, this stage takes multiple forms: structured business case studies, written analytical tests, Focus Group Discussions (FGD), Leaderless Group Discussions (LGD), or technical assessments. Each form evaluates a distinct dimension — analytical rigor, communication clarity, leadership under ambiguity, problem-solving under pressure, or domain knowledge.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Case work: poor structure, shallow analysis, failure to quantify findings. FGD/LGD: speaking too much or too little, failing to build on others’ contributions, aggression or passivity in group dynamics. Technical: foundational gaps that deliberate preparation could have closed." data-id="Studi kasus: struktur yang buruk, analisis dangkal, gagal mengkuantifikasi temuan. FGD/LGD: berbicara terlalu banyak atau terlalu sedikit, gagal membangun kontribusi orang lain, agresi atau kepasifan dalam dinamika kelompok. Teknis: celah fundamental yang persiapan yang disengaja bisa menutupnya.">Case work: poor structure, shallow analysis, failure to quantify findings. FGD/LGD: speaking too much or too little, failing to build on others’ contributions, aggression or passivity in group dynamics. Technical: foundational gaps that deliberate preparation could have closed.</p>
-      </div>
-      <div class="g-div reveal" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
-      <div class="gate reveal" style="--i:0">
-        <span class="g-badge" data-en="Gate 05 · Interview" data-id="Gerbang 05 · Wawancara">Gate 05 · Interview</span>
-        <h4 data-en="HR Screening Interview" data-id="Wawancara Penyaringan HR">HR Screening Interview</h4>
-        <p class="g-eval" data-en="An introductory conversation — by phone, video, or in person — with an HR representative. The agenda: your career story, your motivation for this specific company and role, your values, your self-awareness, and your initial cultural fit. This gate is less about what you know and more about how clearly you know yourself." data-id="Percakapan pengantar — melalui telepon, video, atau tatap muka — dengan perwakilan HR. Agendanya: kisah kariermu, motivasimu untuk perusahaan dan jabatan spesifik ini, nilai-nilaimu, kesadaran dirimu, dan kesesuaian budaya awalmu. Gerbang ini kurang tentang apa yang kamu ketahui dan lebih tentang seberapa jelas kamu mengenal dirimu sendiri.">An introductory conversation — by phone, video, or in person — with an HR representative. The agenda: your career story, your motivation for this specific company and role, your values, your self-awareness, and your initial cultural fit. This gate is less about what you know and more about how clearly you know yourself.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Vague career goals — “I want to gain experience” is not a goal. Generic motivation — “I’ve always admired this company” without specifics. Long, unfocused answers that signal low self-awareness or insufficient preparation." data-id="Tujuan karier yang samar — “Saya ingin mendapatkan pengalaman” bukan tujuan. Motivasi generik — “Saya selalu mengagumi perusahaan ini” tanpa spesifik. Jawaban panjang dan tidak terfokus yang menandakan kesadaran diri yang rendah atau persiapan yang tidak memadai.">Vague career goals — “I want to gain experience” is not a goal. Generic motivation — “I’ve always admired this company” without specifics. Long, unfocused answers that signal low self-awareness or insufficient preparation.</p>
-      </div>
-      <div class="gate reveal" style="--i:1">
-        <span class="g-badge" data-en="Gate 06 · Final Interview" data-id="Gerbang 06 · Wawancara Akhir">Gate 06 · Final Interview</span>
-        <h4 data-en="Hiring Manager / Final Interview" data-id="Wawancara Akhir dengan Hiring Manager">Hiring Manager / Final Interview</h4>
-        <p class="g-eval" data-en="The deepest evaluation in the process. You meet the person or panel who will make the final decision — the hiring manager, department head, director, executive leadership, or founders. They assess how you think under pressure, whether you can operate at the level their team requires, and whether they trust you with the role. This is professional judgment — not a competency checklist." data-id="Evaluasi terdalam dalam proses ini. Kamu bertemu dengan orang atau panel yang akan membuat keputusan akhir — manajer perekrutan, kepala departemen, direktur, kepemimpinan eksekutif, atau pendiri. Mereka menilai cara kamu berpikir di bawah tekanan, apakah kamu bisa beroperasi di level yang dibutuhkan tim mereka, dan apakah mereka mempercayaimu dengan jabatan itu. Ini adalah penilaian profesional — bukan daftar periksa kompetensi.">The deepest evaluation in the process. You meet the person or panel who will make the final decision — the hiring manager, department head, director, executive leadership, or founders. They assess how you think under pressure, whether you can operate at the level their team requires, and whether they trust you with the role. This is professional judgment — not a competency checklist.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Unstructured answers to behavioral and competency questions. Insufficient research into the company’s actual priorities and current challenges. Inability to articulate genuine professional value in the context of this specific role, company, and team." data-id="Jawaban yang tidak terstruktur untuk pertanyaan behavioral dan kompetensi. Riset yang tidak memadai tentang prioritas aktual perusahaan dan tantangan saat ini. Ketidakmampuan untuk mengartikulasikan nilai profesional yang tulus dalam konteks jabatan, perusahaan, dan tim spesifik ini.">Unstructured answers to behavioral and competency questions. Insufficient research into the company’s actual priorities and current challenges. Inability to articulate genuine professional value in the context of this specific role, company, and team.</p>
-      </div>
-      <div class="gate reveal" style="--i:2">
-        <span class="g-badge" data-en="Gate 07 · Optional" data-id="Gerbang 07 · Opsional">Gate 07 · Optional</span>
-        <h4 data-en="Medical Examination" data-id="Pemeriksaan Medis">Medical Examination</h4>
-        <p class="g-eval" data-en="Required by certain employers — particularly in banking, government-linked companies, energy, healthcare, and operational roles — to confirm physical and medical fitness for the position. Typically conducted only after an offer has been verbally confirmed, making this a condition rather than a filter in most professional roles." data-id="Diperlukan oleh perusahaan tertentu — terutama di perbankan, perusahaan terkait pemerintah, energi, kesehatan, dan jabatan operasional — untuk mengkonfirmasi kebugaran fisik dan medis untuk posisi tersebut. Biasanya dilakukan hanya setelah tawaran dikonfirmasi secara lisan, menjadikan ini sebagai syarat daripada filter untuk sebagian besar jabatan profesional.">Required by certain employers — particularly in banking, government-linked companies, energy, healthcare, and operational roles — to confirm physical and medical fitness for the position. Typically conducted only after an offer has been verbally confirmed, making this a condition rather than a filter in most professional roles.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="For office-based roles, this gate rarely eliminates candidates. For physical, operational, or heavily regulated roles, awareness of any health considerations in advance is recommended. No special preparation is required beyond general health awareness." data-id="Untuk jabatan berbasis kantor, gerbang ini jarang mengeliminasi kandidat. Untuk jabatan fisik, operasional, atau yang sangat diatur, kesadaran akan pertimbangan kesehatan apa pun sebelumnya direkomendasikan. Tidak diperlukan persiapan khusus selain kesadaran kesehatan umum.">For office-based roles, this gate rarely eliminates candidates. For physical, operational, or heavily regulated roles, awareness of any health considerations in advance is recommended. No special preparation is required beyond general health awareness.</p>
-      </div>
-      <div class="gate dest reveal" style="--i:3">
-        <span class="g-badge" data-en="Gate 08 · The Destination" data-id="Gerbang 08 · Tujuan Akhir">Gate 08 · The Destination</span>
-        <h4 data-en="Job Offer &amp; Hiring" data-id="Penawaran Kerja &amp; Perekrutan">Job Offer &amp; Hiring</h4>
-        <p class="g-eval" data-en="A formal offer letter arrives: role title, compensation package, benefits, reporting line, and start date. This is not simply the end of the process — it is the beginning of the negotiation. How you evaluate, respond to, and finalize an offer shapes your starting conditions for everything that follows in your career at this company." data-id="Surat penawaran resmi tiba: judul jabatan, paket kompensasi, tunjangan, jalur pelaporan, dan tanggal mulai. Ini bukan sekadar akhir proses — ini adalah awal negosiasi. Cara kamu mengevaluasi, merespons, dan menyelesaikan penawaran membentuk kondisi awal untuk segalanya yang mengikutinya dalam kariermu di perusahaan ini.">A formal offer letter arrives: role title, compensation package, benefits, reporting line, and start date. This is not simply the end of the process — it is the beginning of the negotiation. How you evaluate, respond to, and finalize an offer shapes your starting conditions for everything that follows in your career at this company.</p>
-        <div class="g-sep" aria-hidden="true"></div>
-        <span class="g-fall-l" data-en="Where most candidates fall" data-id="Di mana kebanyakan kandidat gugur">Where most candidates fall</span>
-        <p class="g-fall" data-en="Accepting the first number offered without understanding market compensation ranges. Failing to negotiate professionally due to fear or uncertainty. Not clarifying key terms — start date, review timeline, benefits scope — before accepting." data-id="Menerima angka pertama yang ditawarkan tanpa memahami kisaran kompensasi pasar. Gagal bernegosiasi secara profesional karena takut atau tidak pasti. Tidak mengklarifikasi syarat-syarat kunci — tanggal mulai, garis waktu tinjauan, cakupan tunjangan — sebelum menerima.">Accepting the first number offered without understanding market compensation ranges. Failing to negotiate professionally due to fear or uncertainty. Not clarifying key terms — start date, review timeline, benefits scope — before accepting.</p>
-      </div>
-    </div>
+
+      <!-- Screen reader announcement -->
+      <div class="sr-only" id="gauntlet-sr-announce" aria-live="assertive" aria-atomic="true"></div>
+
+    </section>
+
     <div class="g-callout reveal">
       <h4 data-en="What most candidates don’t realize until it’s too late" data-id="Yang kebanyakan kandidat tidak sadari hingga terlambat">What most candidates don’t realize until it’s too late</h4>
       <p data-en="The recruitment process is sequential and cumulative. Passing Gate 5 does not compensate for underperforming at Gate 3. Each gate requires independent preparation — and each demands a different kind of readiness.<br>A polished CV will not save you in an online assessment. A high cognitive score will not carry you through an HR interview.<br>The candidates who consistently reach Gate 8 are not more talented. They are more prepared — across all eight dimensions." data-id="Proses rekrutmen bersifat berurutan dan kumulatif. Lulus Gerbang 5 tidak mengkompensasi kinerja yang kurang baik di Gerbang 3. Setiap gerbang memerlukan persiapan yang independen — dan masing-masing menuntut jenis kesiapan yang berbeda.<br>CV yang dipoles tidak akan menyelamatkanmu dalam penilaian online. Skor kognitif yang tinggi tidak akan membawamu melalui wawancara HR.<br>Kandidat yang secara konsisten mencapai Gerbang 8 bukan lebih berbakat. Mereka lebih siap — di semua delapan dimensi.">The recruitment process is sequential and cumulative. Passing Gate 5 does not compensate for underperforming at Gate 3. Each gate requires independent preparation — and each demands a different kind of readiness.<br>A polished CV will not save you in an online assessment. A high cognitive score will not carry you through an HR interview.<br>The candidates who consistently reach Gate 8 are not more talented. They are more prepared — across all eight dimensions.</p>
@@ -1684,6 +1872,7 @@ function applyLang(){
     if(v != null) el.innerHTML = v;
   });
   document.querySelectorAll('.ctl button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===lang ? 'true':'false'));
+  document.dispatchEvent(new CustomEvent('metanoia:langchange'));
 }
 document.querySelectorAll('.ctl button').forEach(b=>{
   b.addEventListener('click', ()=>{
@@ -1890,6 +2079,679 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
   }, {passive:true});
   updateParallax();
 }
+})();
+</script>
+
+<script>
+/* ═══════════════════════════════════════════════════
+   THE GAUNTLET — Gate Data Registry (ME2E721 Part 3)
+   ═══════════════════════════════════════════════════ */
+const GAUNTLET_GATES = [
+  {
+    id: 'gate-01', number: '01', act: 1,
+    actLabel: { en: 'Act I · Before You’re Seen', id: 'Babak I · Sebelum Kamu Terlihat' },
+    title: { en: 'Application Submission', id: 'Pengiriman Lamaran' },
+    hook: { en: 'Most candidates lose before anyone reads their name.', id: 'Kebanyakan kandidat kalah sebelum nama mereka dibaca.' },
+    description: {
+      en: 'Your CV, cover letter, and portfolio are the only things between you and a recruiter’s attention. This gate is silent — no one tells you if you failed. The application either opens a door or disappears.',
+      id: 'CV, surat lamaran, dan portofolio kamu adalah satu-satunya hal antara kamu dan perhatian recruiter. Gate ini sunyi — tidak ada yang memberitahu jika kamu gagal. Lamaran membuka pintu atau menghilang begitu saja.'
+    },
+    biggestMistake: {
+      en: 'Sending the same generic CV to 40 companies. Recruiters see hundreds of applications — a generic one is invisible.',
+      id: 'Mengirim CV generik yang sama ke 40 perusahaan. Recruiter melihat ratusan lamaran — yang generik tidak terlihat.'
+    },
+    winningMove: {
+      en: 'Tailor your CV headline and summary to each role. Three targeted applications beat thirty generic ones.',
+      id: 'Sesuaikan headline dan ringkasan CV untuk setiap posisi. Tiga lamaran bertarget mengalahkan tiga puluh yang generik.'
+    },
+    recruiterMind: {
+      en: '“I spend eight seconds on a CV before deciding. Clarity, relevance, and proof — that’s what keeps me reading.”',
+      id: '“Saya menghabiskan delapan detik untuk CV sebelum memutuskan. Kejelasan, relevansi, dan bukti — itulah yang membuat saya terus membaca.”'
+    },
+    stats: { difficulty: 2, duration: { en: '2–4 hours prep', id: '2–4 jam persiapan' }, surviveRate: 100 },
+    image: '../assets/bg/gauntlet/gate-01-submission.jpg',
+    imageAlt: { en: 'Person crafting a resume at a desk', id: 'Seseorang menyusun resume di meja' },
+    kbDirection: 'right'
+  },
+  {
+    id: 'gate-02', number: '02', act: 1,
+    actLabel: { en: 'Act I · Before You’re Seen', id: 'Babak I · Sebelum Kamu Terlihat' },
+    title: { en: 'Administrative Screening', id: 'Seleksi Administrasi' },
+    hook: { en: 'A machine — or a junior HR assistant — decides your fate in minutes.', id: 'Mesin — atau asisten HR junior — menentukan nasibmu dalam hitungan menit.' },
+    description: {
+      en: 'Before any human assessment, your documents are verified against a checklist. Missing a GPA requirement, submitting an uneditable file, or ignoring a mandatory field ends your application here — instantly, without appeal.',
+      id: 'Sebelum penilaian manusia, dokumen kamu diverifikasi terhadap checklist. Melewatkan syarat IPK, mengirim file yang tidak bisa diedit, atau mengabaikan kolom wajib mengakhiri lamaranmu di sini — seketika, tanpa banding.'
+    },
+    biggestMistake: {
+      en: 'Not reading the requirements page carefully. This gate is mechanical — it’s the only gate where preparation is 100% in your control.',
+      id: 'Tidak membaca halaman persyaratan dengan cermat. Gate ini mekanis — ini satu-satunya gate di mana persiapan 100% ada di tanganmu.'
+    },
+    winningMove: {
+      en: 'Build a personal checklist before applying to any role: requirements, file formats, deadlines, and optional extras. Check it twice.',
+      id: 'Buat checklist pribadi sebelum mendaftar ke posisi manapun: persyaratan, format file, deadline, dan tambahan opsional. Periksa dua kali.'
+    },
+    recruiterMind: {
+      en: '“If a candidate can’t follow application instructions, I wonder how they’ll follow work instructions.”',
+      id: '“Jika kandidat tidak bisa mengikuti instruksi lamaran, saya bertanya-tanya bagaimana mereka mengikuti instruksi kerja.”'
+    },
+    stats: { difficulty: 1, duration: { en: '30 min review', id: '30 menit review' }, surviveRate: 78 },
+    image: '../assets/bg/gauntlet/gate-02-screening.jpg',
+    imageAlt: { en: 'Documents and checklist on a desk', id: 'Dokumen dan checklist di atas meja' },
+    kbDirection: 'left'
+  },
+  {
+    id: 'gate-03', number: '03', act: 2,
+    actLabel: { en: 'Act II · The Gauntlet', id: 'Babak II · The Gauntlet' },
+    title: { en: 'Online Assessment', id: 'Tes Online' },
+    hook: { en: 'Here, your instincts and preparation are tested without warning.', id: 'Di sini, insting dan persiapanmu diuji tanpa peringatan.' },
+    description: {
+      en: 'Psychometric tests, numerical reasoning, verbal comprehension, and logic batteries — often timed, always algorithm-scored. Companies use these to filter at scale. A candidate who studied for three days outperforms one who didn’t know these tests existed.',
+      id: 'Tes psikometrik, penalaran numerik, pemahaman verbal, dan baterai logika — sering berwaktu, selalu dinilai algoritma. Perusahaan menggunakan ini untuk menyaring dalam skala besar. Kandidat yang belajar tiga hari mengungguli yang bahkan tidak tahu tes ini ada.'
+    },
+    biggestMistake: {
+      en: 'Treating this as “just a personality test.” The numerical and logical sections are genuine ability tests — they have right and wrong answers, and time pressure is deliberate.',
+      id: 'Menganggap ini sebagai “sekadar tes kepribadian.” Bagian numerik dan logis adalah tes kemampuan nyata — ada jawaban benar dan salah, dan tekanan waktu disengaja.'
+    },
+    winningMove: {
+      en: 'Practice with free tools (Criteria Corp, Assessment Day) for at least 5 hours across numerical and logical tests. Speed is a learned skill.',
+      id: 'Berlatih dengan alat gratis (Criteria Corp, Assessment Day) minimal 5 jam untuk tes numerik dan logis. Kecepatan adalah keterampilan yang dipelajari.'
+    },
+    recruiterMind: {
+      en: '“We use these tests because gut feel is biased. A high scorer gets through regardless of their school name or how they look.”',
+      id: '“Kami menggunakan tes ini karena insting bisa bias. Penilaian tinggi lolos tanpa memandang nama sekolah atau penampilan mereka.”'
+    },
+    stats: { difficulty: 3, duration: { en: '60–120 min', id: '60–120 menit' }, surviveRate: 52 },
+    image: '../assets/bg/gauntlet/gate-03-assessment.jpg',
+    imageAlt: { en: 'Person focused on laptop screen taking an assessment', id: 'Seseorang fokus pada layar laptop mengerjakan tes' },
+    kbDirection: 'up'
+  },
+  {
+    id: 'gate-04', number: '04', act: 2,
+    actLabel: { en: 'Act II · The Gauntlet', id: 'Babak II · The Gauntlet' },
+    title: { en: 'Written Test · Case Study · FGD · LGD', id: 'Tes Tertulis · Studi Kasus · FGD · LGD' },
+    hook: { en: 'Now they test how you think — not just what you know.', id: 'Kini mereka menguji cara berpikirmu — bukan hanya apa yang kamu tahu.' },
+    description: {
+      en: 'This gate takes many forms: a written case, a group discussion observed by assessors, or a leaderless group discussion (LGD). What every format has in common: companies want to see how you reason, communicate, and handle ambiguity under pressure.',
+      id: 'Gate ini memiliki banyak bentuk: kasus tertulis, diskusi kelompok yang diamati assessor, atau leaderless group discussion (LGD). Yang sama dari setiap format: perusahaan ingin melihat cara kamu bernalar, berkomunikasi, dan menangani ketidakpastian di bawah tekanan.'
+    },
+    biggestMistake: {
+      en: 'In FGDs: dominating the conversation or going completely silent. Assessors are watching group dynamics, not solo performance.',
+      id: 'Di FGD: mendominasi percakapan atau diam sepenuhnya. Assessor mengamati dinamika kelompok, bukan performa solo.'
+    },
+    winningMove: {
+      en: 'Structure everything with a framework. For cases: situation → complication → your hypothesis → analysis → recommendation. For FGDs: listen first, build on others, then introduce your angle.',
+      id: 'Strukturkan segalanya dengan kerangka kerja. Untuk kasus: situasi → komplikasi → hipotesismu → analisis → rekomendasi. Untuk FGD: dengarkan dulu, bangun dari orang lain, lalu perkenalkan sudut pandangmu.'
+    },
+    recruiterMind: {
+      en: '“I want to see how they think when they don’t know the answer — because that’s what the job actually is.”',
+      id: '“Saya ingin melihat bagaimana mereka berpikir ketika tidak tahu jawabannya — karena itulah pekerjaan yang sebenarnya.”'
+    },
+    stats: { difficulty: 4, duration: { en: '2–4 hours', id: '2–4 jam' }, surviveRate: 34 },
+    image: '../assets/bg/gauntlet/gate-04-casestudy.jpg',
+    imageAlt: { en: 'Group of professionals in a discussion session', id: 'Sekelompok profesional dalam sesi diskusi' },
+    kbDirection: 'right'
+  },
+  {
+    id: 'gate-05', number: '05', act: 2,
+    actLabel: { en: 'Act II · The Gauntlet', id: 'Babak II · The Gauntlet' },
+    title: { en: 'HR Screening Interview', id: 'Wawancara Screening HR' },
+    hook: { en: 'Your competency is assumed. They’re deciding if you’re worth the investment.', id: 'Kompetensimu diasumsikan. Mereka memutuskan apakah kamu layak investasi.' },
+    description: {
+      en: 'The HR interview is not about technical skills. It’s a cultural fit and motivation check. The recruiter is asking: does this person know what they want, do they align with our values, and will they stay if we hire them? Clarity and confidence win this gate.',
+      id: 'Wawancara HR bukan tentang keterampilan teknis. Ini adalah pemeriksaan kecocokan budaya dan motivasi. Recruiter bertanya: apakah orang ini tahu apa yang mereka inginkan, apakah mereka selaras dengan nilai kami, dan apakah mereka akan bertahan jika kami merekrut mereka? Kejelasan dan kepercayaan diri memenangkan gate ini.'
+    },
+    biggestMistake: {
+      en: '“I want to work here because it’s a big company.” This answer tells the recruiter nothing and signals that you’d work anywhere. Specificity is respect.',
+      id: '“Saya ingin bekerja di sini karena ini perusahaan besar.” Jawaban ini tidak memberitahu recruiter apa pun dan menunjukkan bahwa kamu akan bekerja di mana saja. Spesifisitas adalah bentuk rasa hormat.'
+    },
+    winningMove: {
+      en: 'Know three specific things about the company: a recent initiative, a product you’ve used, or a value statement that genuinely matches your beliefs. Connect your “why” to their “what.”',
+      id: 'Ketahui tiga hal spesifik tentang perusahaan: inisiatif terbaru, produk yang pernah kamu gunakan, atau pernyataan nilai yang benar-benar sesuai dengan keyakinanmu. Hubungkan “why” kamu dengan “what” mereka.'
+    },
+    recruiterMind: {
+      en: '“People leave because of culture, not because of salary. I’m trying to prevent a bad hire — for both sides.”',
+      id: '“Orang pergi karena budaya, bukan karena gaji. Saya mencoba mencegah rekrutmen yang buruk — untuk kedua belah pihak.”'
+    },
+    stats: { difficulty: 3, duration: { en: '30–60 min', id: '30–60 menit' }, surviveRate: 22 },
+    image: '../assets/bg/gauntlet/gate-05-hr-interview.jpg',
+    imageAlt: { en: 'Professional interview setting, two people across a table', id: 'Suasana wawancara profesional, dua orang di meja' },
+    kbDirection: 'left'
+  },
+  {
+    id: 'gate-06', number: '06', act: 2,
+    actLabel: { en: 'Act II · The Gauntlet', id: 'Babak II · The Gauntlet' },
+    title: { en: 'Hiring Manager Interview', id: 'Wawancara Hiring Manager' },
+    hook: { en: 'You’re almost there. And the stakes have never been higher.', id: 'Kamu hampir sampai. Dan taruhannya belum pernah setinggi ini.' },
+    description: {
+      en: 'The hiring manager will be your direct supervisor. They’re not checking a cultural box — they’re evaluating whether you can actually do the work and whether they want to spend eight hours a day with you. Competence and coachability matter equally here.',
+      id: 'Hiring manager akan menjadi atasan langsungmu. Mereka tidak mencentang kotak budaya — mereka mengevaluasi apakah kamu benar-benar bisa melakukan pekerjaan dan apakah mereka ingin menghabiskan delapan jam sehari bersamamu. Kompetensi dan kemampuan untuk dibimbing sama pentingnya di sini.'
+    },
+    biggestMistake: {
+      en: 'Giving vague answers. “I contributed to a team project” tells them nothing. Specificity — numbers, timelines, your exact role — is the difference between memorable and forgettable.',
+      id: 'Memberikan jawaban yang tidak jelas. “Saya berkontribusi pada proyek tim” tidak memberitahu mereka apa pun. Spesifisitas — angka, timeline, peran tepatmu — adalah perbedaan antara berkesan dan terlupakan.'
+    },
+    winningMove: {
+      en: 'Prepare 6 STAR stories (Situation, Task, Action, Result) from your academic and project experience. Map each to: leadership, problem-solving, teamwork, initiative, failure/recovery, and domain-relevant skill.',
+      id: 'Siapkan 6 cerita STAR (Situasi, Tugas, Aksi, Hasil) dari pengalaman akademik dan proyekmu. Petakan masing-masing ke: kepemimpinan, pemecahan masalah, kerja tim, inisiatif, kegagalan/pemulihan, dan keterampilan relevan domain.'
+    },
+    recruiterMind: {
+      en: '“I can teach skills. I can’t teach judgment. I’m listening for how they handled situations where there was no clear answer.”',
+      id: '“Saya bisa mengajarkan keterampilan. Saya tidak bisa mengajarkan penilaian. Saya mendengarkan bagaimana mereka menangani situasi di mana tidak ada jawaban yang jelas.”'
+    },
+    stats: { difficulty: 5, duration: { en: '45–90 min', id: '45–90 menit' }, surviveRate: 13 },
+    image: '../assets/bg/gauntlet/gate-06-final-interview.jpg',
+    imageAlt: { en: 'High-stakes moment before the final ascent', id: 'Momen bertaruh tinggi sebelum pendakian akhir' },
+    kbDirection: 'up'
+  },
+  {
+    id: 'gate-07', number: '07', act: 3,
+    actLabel: { en: 'Act III · The Final Mile', id: 'Babak III · Mil Terakhir' },
+    title: { en: 'Medical Examination', id: 'Pemeriksaan Medis' },
+    hook: { en: 'The end is in sight. Don’t let negligence cost you everything.', id: 'Akhir sudah terlihat. Jangan biarkan kelalaian menghilangkan segalanya.' },
+    description: {
+      en: 'Required for most formal corporate roles, especially in banking, BUMN (SOEs), and regulated industries. The examination assesses general health, vision, hearing, and sometimes drug screening. This gate is rarely about fitness — it’s about being informed and prepared.',
+      id: 'Diperlukan untuk sebagian besar peran korporat formal, terutama di perbankan, BUMN, dan industri terregulasi. Pemeriksaan menilai kesehatan umum, penglihatan, pendengaran, dan terkadang tes narkoba. Gate ini jarang tentang kebugaran — ini tentang mengetahui dan mempersiapkan diri.'
+    },
+    biggestMistake: {
+      en: 'Arriving uninformed. Not knowing what the exam covers — or assuming certain conditions disqualify you without checking — leads to unnecessary anxiety or preventable failure.',
+      id: 'Datang tanpa informasi. Tidak mengetahui apa yang dicakup pemeriksaan — atau mengasumsikan kondisi tertentu mendiskualifikasimu tanpa mengecek — menyebabkan kecemasan yang tidak perlu atau kegagalan yang bisa dicegah.'
+    },
+    winningMove: {
+      en: 'Ask HR specifically what the medical exam covers for your role. Most conditions that feel disqualifying are actually managed case-by-case. Disclosure and documentation beat assumptions.',
+      id: 'Tanya HR secara spesifik apa yang dicakup pemeriksaan medis untuk peranmu. Sebagian besar kondisi yang terasa mendiskualifikasi sebenarnya ditangani kasus per kasus. Pengungkapan dan dokumentasi mengalahkan asumsi.'
+    },
+    recruiterMind: {
+      en: '“This gate is often a formality. We’ve already made the call — this confirms it. Just show up, be honest, and you’re done.”',
+      id: '“Gate ini sering hanya formalitas. Kami sudah membuat keputusan — ini mengkonfirmasinya. Datang saja, jujur, dan selesai.”'
+    },
+    stats: { difficulty: 2, duration: { en: '2–4 hours', id: '2–4 jam' }, surviveRate: 11 },
+    image: '../assets/bg/gauntlet/gate-07-medical.jpg',
+    imageAlt: { en: 'Calm dawn overlook — the end of the route in sight', id: 'Pemandangan fajar yang tenang — akhir rute sudah terlihat' },
+    kbDirection: 'right'
+  },
+  {
+    id: 'gate-08', number: '08', act: 3,
+    actLabel: { en: 'Act III · The Final Mile', id: 'Babak III · Mil Terakhir' },
+    title: { en: 'Job Offer & Hiring', id: 'Penawaran Kerja & Rekrutmen' },
+    hook: { en: 'You made it. Now negotiate like someone who knows their worth.', id: 'Kamu berhasil. Sekarang negosiasikan seperti seseorang yang tahu nilai dirinya.' },
+    description: {
+      en: 'The offer letter arrives. But acceptance is not the final move — negotiation is. Most fresh graduates accept the first number. The ones who ask — professionally, with evidence — get more. This gate rewards preparation, not luck.',
+      id: 'Surat penawaran datang. Tapi penerimaan bukan langkah terakhir — negosiasi adalah. Sebagian besar fresh graduate menerima angka pertama. Mereka yang bertanya — secara profesional, dengan bukti — mendapatkan lebih. Gate ini memberikan hadiah pada persiapan, bukan keberuntungan.'
+    },
+    biggestMistake: {
+      en: 'Saying yes on the spot to the first offer. The company expects you to ask. Silence is not gratitude — it’s a signal that you don’t know your value.',
+      id: 'Mengatakan ya di tempat untuk penawaran pertama. Perusahaan mengharapkan kamu bertanya. Diam bukan rasa terima kasih — itu sinyal bahwa kamu tidak tahu nilai dirimu.'
+    },
+    winningMove: {
+      en: 'Research salary ranges on LinkedIn Salary, Glassdoor, and JobStreet before the call. Respond with: “Thank you — I’m very interested. Could I have 48 hours to review the full offer?” Then counter with a specific number and one-sentence rationale.',
+      id: 'Riset kisaran gaji di LinkedIn Salary, Glassdoor, dan JobStreet sebelum telepon. Jawab dengan: “Terima kasih — saya sangat tertarik. Bisakah saya punya 48 jam untuk meninjau penawaran lengkap?” Lalu counter dengan angka spesifik dan rasional satu kalimat.'
+    },
+    recruiterMind: {
+      en: '“When a candidate negotiates professionally, it actually increases my confidence in them. It shows self-awareness and preparation.”',
+      id: '“Ketika kandidat bernegosiasi secara profesional, itu justru meningkatkan kepercayaan saya kepada mereka. Ini menunjukkan kesadaran diri dan persiapan.”'
+    },
+    stats: { difficulty: 3, duration: { en: '48–72 hours', id: '48–72 jam' }, surviveRate: 8 },
+    image: '../assets/bg/gauntlet/gate-08-offer.jpg',
+    imageAlt: { en: 'Golden light on the ridge — arrival', id: 'Cahaya keemasan di punggungan — kedatangan' },
+    kbDirection: 'left',
+    isFinal: true
+  }
+];
+
+/* ═══════════════════════════════════════════════════
+   THE GAUNTLET — Journey Experience Controller
+   ═══════════════════════════════════════════════════ */
+(function () {
+  'use strict';
+
+  let currentGateIndex = 0;
+  let isAnimating = false;
+  let mode = 'journey';
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let expandedMap = {};
+  let activeBuffer = 'a';
+
+  const els = {
+    section:      () => document.getElementById('gauntlet-journey'),
+    actLabel:     () => document.getElementById('gpb-act-label'),
+    dots:         () => document.getElementById('gpb-dots'),
+    modeToggle:   () => document.getElementById('gpb-mode-toggle'),
+    journeyMode:  () => document.getElementById('gauntlet-journey-mode'),
+    overviewMode: () => document.getElementById('gauntlet-overview-mode'),
+    imgA:         () => document.getElementById('gauntlet-img-a'),
+    imgB:         () => document.getElementById('gauntlet-img-b'),
+    content:      () => document.getElementById('gauntlet-content'),
+    prevBtn:      () => document.getElementById('gauntlet-prev'),
+    nextBtn:      () => document.getElementById('gauntlet-next'),
+    surviveFill:  () => document.getElementById('gauntlet-survive-fill'),
+    survivePct:   () => document.getElementById('gauntlet-survive-pct'),
+    overviewGrid: () => document.getElementById('gauntlet-overview-grid'),
+    srAnnounce:   () => document.getElementById('gauntlet-sr-announce'),
+  };
+
+  /* this page stores language on <html lang> (mtLang key) */
+  function lang() {
+    return (document.documentElement.lang || 'en').toLowerCase().indexOf('id') === 0 ? 'id' : 'en';
+  }
+  function t(obj) {
+    if (!obj) return '';
+    return obj[lang()] || obj.en || '';
+  }
+
+  function initGauntlet() {
+    if (!els.section()) return;
+    renderProgressDots();
+    renderOverviewGrid();
+    renderGate(0, null);
+    bindEvents();
+    preloadImage(1);
+  }
+
+  function renderProgressDots() {
+    const container = els.dots();
+    container.innerHTML = '';
+    GAUNTLET_GATES.forEach((gate, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'gpb-dot';
+      btn.dataset.index = i;
+      btn.dataset.gate = 'Gate ' + gate.number;
+      btn.setAttribute('role', 'listitem');
+      btn.setAttribute('aria-label', 'Gate ' + gate.number + ': ' + t(gate.title));
+      btn.addEventListener('click', () => {
+        if (!isAnimating && i !== currentGateIndex) {
+          navigateTo(i, i > currentGateIndex ? 'next' : 'prev');
+        }
+      });
+      container.appendChild(btn);
+    });
+    updateProgressDots();
+  }
+
+  function updateProgressDots() {
+    els.dots().querySelectorAll('.gpb-dot').forEach((dot, i) => {
+      dot.classList.remove('active', 'completed');
+      if (i === currentGateIndex) dot.classList.add('active');
+      else if (i < currentGateIndex) dot.classList.add('completed');
+    });
+  }
+
+  function renderGate(index, direction) {
+    const gate = GAUNTLET_GATES[index];
+    const l = lang();
+
+    const actLabelEl = els.actLabel();
+    actLabelEl.style.opacity = '0';
+    setTimeout(() => {
+      actLabelEl.textContent = t(gate.actLabel);
+      actLabelEl.style.opacity = '1';
+    }, 150);
+
+    updateHeroImage(gate);
+    updateSurviveRate(gate.stats.surviveRate);
+
+    const prevBtn = els.prevBtn();
+    const nextBtn = els.nextBtn();
+    prevBtn.disabled = index === 0;
+
+    const nextLabel = nextBtn.querySelector('[data-en]');
+    if (gate.isFinal) {
+      nextBtn.disabled = true;
+      nextBtn.classList.add('final-gate');
+      if (nextLabel) {
+        nextLabel.setAttribute('data-en', 'You Made It');
+        nextLabel.setAttribute('data-id', 'Kamu Berhasil');
+        nextLabel.textContent = l === 'id' ? 'Kamu Berhasil' : 'You Made It';
+      }
+      setTimeout(() => triggerCelebration(), 600);
+    } else {
+      nextBtn.disabled = false;
+      nextBtn.classList.remove('final-gate');
+      if (nextLabel) {
+        nextLabel.setAttribute('data-en', 'Next');
+        nextLabel.setAttribute('data-id', 'Selanjutnya');
+        nextLabel.textContent = l === 'id' ? 'Selanjutnya' : 'Next';
+      }
+    }
+
+    els.journeyMode().classList.toggle('is-final-gate', !!gate.isFinal);
+
+    const expanded = expandedMap[gate.id] || false;
+    let difficultyStars = '';
+    for (let i = 0; i < 5; i++) {
+      difficultyStars += '<span class="g-star' + (i < gate.stats.difficulty ? ' lit' : '') + '">★</span>';
+    }
+
+    const contentHTML =
+      '<div class="g-gate-badge"><span class="g-gate-number">Gate ' + gate.number + '</span></div>' +
+      '<h3 class="g-title">' + t(gate.title) + '</h3>' +
+      '<p class="g-hook">' + t(gate.hook) + '</p>' +
+      '<div class="g-stats">' +
+        '<div class="g-stat">' +
+          '<svg class="g-stat-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1L8.6 5.2H13L9.7 7.8L11 12L7 9.3L3 12L4.3 7.8L1 5.2H5.4L7 1Z" fill="currentColor"/></svg>' +
+          '<span class="g-stat-label">' + (l === 'id' ? 'Tingkat Kesulitan' : 'Difficulty') + '</span>' +
+          '<div class="g-difficulty-stars">' + difficultyStars + '</div>' +
+        '</div>' +
+        '<div class="g-stat">' +
+          '<svg class="g-stat-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.2"/><path d="M7 4V7.5L9.5 10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>' +
+          '<span>' + t(gate.stats.duration) + '</span>' +
+        '</div>' +
+        '<div class="g-stat">' +
+          '<svg class="g-stat-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 12L5 8L8 10L12 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+          '<span>' + gate.stats.surviveRate + '% ' + (l === 'id' ? 'lolos' : 'pass') + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<button class="g-expand-btn' + (expanded ? ' open' : '') + '" id="g-expand-' + gate.id + '" aria-expanded="' + expanded + '" aria-controls="g-expandable-' + gate.id + '">' +
+        '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5L7 9L11 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+        '<span>' + (l === 'id' ? 'Yang Dicari Recruiter' : 'What Recruiters Look For') + '</span>' +
+      '</button>' +
+      '<div class="g-expandable' + (expanded ? ' open' : '') + '" id="g-expandable-' + gate.id + '">' +
+        '<p class="g-description">' + t(gate.description) + '</p>' +
+        '<div class="g-insights">' +
+          '<div class="g-insight-card mistake">' +
+            '<div class="g-insight-label">⚠ ' + (l === 'id' ? 'Kesalahan Terbesar' : 'Biggest Mistake') + '</div>' +
+            '<p class="g-insight-text">' + t(gate.biggestMistake) + '</p>' +
+          '</div>' +
+          '<div class="g-insight-card winning">' +
+            '<div class="g-insight-label">✓ ' + (l === 'id' ? 'Langkah Terbaik' : 'Winning Move') + '</div>' +
+            '<p class="g-insight-text">' + t(gate.winningMove) + '</p>' +
+          '</div>' +
+        '</div>' +
+        '<div class="g-recruiter-quote">' +
+          '<blockquote>' + t(gate.recruiterMind) + '</blockquote>' +
+          '<cite>' + (l === 'id' ? 'Perspektif Recruiter' : 'Recruiter Perspective') + '</cite>' +
+        '</div>' +
+      '</div>';
+
+    const contentEl = els.content();
+    const outClass = direction === 'next' ? 'slide-out-left' : 'slide-out-right';
+    const inClass  = direction === 'next' ? 'slide-in-right' : 'slide-in-left';
+
+    if (direction) {
+      contentEl.classList.remove('slide-in-right', 'slide-in-left', 'slide-out-left', 'slide-out-right');
+      contentEl.classList.add(outClass);
+      setTimeout(() => {
+        contentEl.innerHTML = contentHTML;
+        contentEl.className = 'gauntlet-content ' + inClass + ' gate-act-' + gate.act;
+        bindExpandButton(gate.id);
+      }, 200);
+    } else {
+      contentEl.innerHTML = contentHTML;
+      contentEl.className = 'gauntlet-content slide-in-right gate-act-' + gate.act;
+      bindExpandButton(gate.id);
+    }
+
+    setTimeout(() => { announce('Gate ' + gate.number + ': ' + t(gate.title)); }, 300);
+    updateProgressDots();
+  }
+
+  function bindExpandButton(gateId) {
+    const btn = document.getElementById('g-expand-' + gateId);
+    const panel = document.getElementById('g-expandable-' + gateId);
+    if (!btn || !panel) return;
+    btn.addEventListener('click', () => {
+      const isOpen = !expandedMap[gateId];
+      expandedMap[gateId] = isOpen;
+      btn.classList.toggle('open', isOpen);
+      panel.classList.toggle('open', isOpen);
+      btn.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+
+  function updateHeroImage(gate) {
+    const imgA = els.imgA();
+    const imgB = els.imgB();
+    const incoming = activeBuffer === 'a' ? imgB : imgA;
+    const outgoing = activeBuffer === 'a' ? imgA : imgB;
+
+    incoming.classList.remove('kb-right', 'kb-left', 'kb-up', 'kb-down');
+    incoming.alt = t(gate.imageAlt);
+
+    const swap = () => {
+      void incoming.offsetWidth;
+      incoming.classList.add('kb-' + gate.kbDirection);
+      incoming.classList.add('active');
+      outgoing.classList.remove('active', 'kb-right', 'kb-left', 'kb-up', 'kb-down');
+      activeBuffer = activeBuffer === 'a' ? 'b' : 'a';
+    };
+
+    if (incoming.src && incoming.src.endsWith(gate.image.replace('../', ''))) {
+      swap();
+    } else {
+      incoming.onload = swap;
+      incoming.onerror = () => {
+        incoming.style.background = 'linear-gradient(135deg, var(--bg-panel) 0%, rgba(5,10,18,1) 100%)';
+        swap();
+      };
+      incoming.src = gate.image;
+    }
+  }
+
+  function preloadImage(index) {
+    if (index < 0 || index >= GAUNTLET_GATES.length) return;
+    const img = new Image();
+    img.src = GAUNTLET_GATES[index].image;
+  }
+
+  function updateSurviveRate(pct) {
+    const fill = els.surviveFill();
+    const label = els.survivePct();
+    if (!fill || !label) return;
+    fill.style.width = pct + '%';
+    fill.classList.remove('high', 'mid', 'low');
+    if (pct >= 50) fill.classList.add('high');
+    else if (pct >= 20) fill.classList.add('mid');
+    else fill.classList.add('low');
+    label.textContent = pct + '%';
+  }
+
+  function navigateTo(newIndex, direction) {
+    if (isAnimating) return;
+    if (newIndex < 0 || newIndex >= GAUNTLET_GATES.length) return;
+    isAnimating = true;
+    currentGateIndex = newIndex;
+    renderGate(newIndex, direction);
+    preloadImage(newIndex + 1);
+    setTimeout(() => { isAnimating = false; }, 500);
+  }
+
+  function goNext() {
+    if (currentGateIndex < GAUNTLET_GATES.length - 1) navigateTo(currentGateIndex + 1, 'next');
+  }
+  function goPrev() {
+    if (currentGateIndex > 0) navigateTo(currentGateIndex - 1, 'prev');
+  }
+
+  function renderOverviewGrid() {
+    const grid = els.overviewGrid();
+    if (!grid) return;
+    const l = lang();
+    let html = '';
+    let lastAct = null;
+
+    const ACT_LABELS = {
+      1: { en: 'Act I · Before You’re Seen', id: 'Babak I · Sebelum Kamu Terlihat' },
+      2: { en: 'Act II · The Gauntlet', id: 'Babak II · The Gauntlet' },
+      3: { en: 'Act III · The Final Mile', id: 'Babak III · Mil Terakhir' },
+    };
+
+    GAUNTLET_GATES.forEach((gate, i) => {
+      if (gate.act !== lastAct) {
+        lastAct = gate.act;
+        const actText = ACT_LABELS[gate.act][l] || ACT_LABELS[gate.act].en;
+        html += '<div class="gog-act-divider"><div class="gog-act-divider-line"></div>' +
+          '<span class="gog-act-divider-label">' + actText + '</span>' +
+          '<div class="gog-act-divider-line"></div></div>';
+      }
+      html += '<button class="gog-card" data-index="' + i + '" aria-label="Go to Gate ' + gate.number + ': ' + t(gate.title) + '">' +
+        '<img class="gog-card-img" src="' + gate.image + '" alt="' + t(gate.imageAlt) + '" loading="lazy">' +
+        '<div class="gog-card-overlay"></div>' +
+        '<div class="gog-card-info">' +
+          '<div class="gog-gate-num">Gate ' + gate.number + '</div>' +
+          '<div class="gog-title">' + t(gate.title) + '</div>' +
+          '<div class="gog-survive">' + gate.stats.surviveRate + '% ' + (l === 'id' ? 'lolos' : 'pass') + '</div>' +
+        '</div></button>';
+    });
+
+    grid.innerHTML = html;
+    grid.querySelectorAll('.gog-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const index = parseInt(card.dataset.index, 10);
+        switchMode('journey');
+        setTimeout(() => navigateTo(index, index >= currentGateIndex ? 'next' : 'prev'), 50);
+      });
+    });
+  }
+
+  function switchMode(newMode) {
+    mode = newMode;
+    const journeyEl = els.journeyMode();
+    const overviewEl = els.overviewMode();
+    const toggleBtn = els.modeToggle();
+    const l = lang();
+    if (mode === 'overview') {
+      journeyEl.style.display = 'none';
+      overviewEl.classList.remove('hidden');
+      if (toggleBtn) {
+        toggleBtn.textContent = l === 'id' ? '✕ Tutup' : '✕ Close Overview';
+        toggleBtn.setAttribute('aria-label', 'Switch to journey mode');
+      }
+    } else {
+      journeyEl.style.display = '';
+      overviewEl.classList.add('hidden');
+      if (toggleBtn) {
+        toggleBtn.textContent = l === 'id' ? '≡ Semua Gate' : '≡ Overview';
+        toggleBtn.setAttribute('aria-label', 'Switch to overview mode');
+      }
+    }
+  }
+
+  function triggerCelebration() {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const host = els.journeyMode();
+    if (!host || host.querySelector('.gauntlet-celebration-overlay')) return;
+    const canvas = document.createElement('canvas');
+    canvas.className = 'gauntlet-celebration-overlay';
+    host.appendChild(canvas);
+    const ctx = canvas.getContext('2d');
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    const particles = [];
+    for (let i = 0; i < 60; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: canvas.height + 10,
+        vx: (Math.random() - 0.5) * 3,
+        vy: -(Math.random() * 4 + 2),
+        size: Math.random() * 4 + 2,
+        opacity: 1,
+        color: ['#C9A84C', '#E8C96A', '#F0D880'][Math.floor(Math.random() * 3)]
+      });
+    }
+    let frame = 0;
+    function animateCelebration() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.x += p.vx; p.y += p.vy; p.vy += 0.08; p.opacity -= 0.008;
+        ctx.globalAlpha = Math.max(0, p.opacity);
+        ctx.fillStyle = p.color;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fill();
+      });
+      frame++;
+      if (frame < 200) requestAnimationFrame(animateCelebration);
+      else canvas.remove();
+    }
+    requestAnimationFrame(animateCelebration);
+  }
+
+  function announce(msg) {
+    const el = els.srAnnounce();
+    if (!el) return;
+    el.textContent = '';
+    setTimeout(() => { el.textContent = msg; }, 50);
+  }
+
+  function onTouchStart(e) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  }
+  function onTouchEnd(e) {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+      if (dx < 0) goNext(); else goPrev();
+    }
+  }
+
+  function onKeyDown(e) {
+    const section = els.section();
+    if (!section) return;
+    if (/input|textarea|select/i.test(document.activeElement?.tagName || '')) return;
+    const rect = section.getBoundingClientRect();
+    const inView = rect.top < window.innerHeight && rect.bottom > 0;
+    if (!inView || mode !== 'journey') return;
+    switch (e.key) {
+      case 'ArrowRight': e.preventDefault(); goNext(); break;
+      case 'ArrowLeft':  e.preventDefault(); goPrev(); break;
+      case 'o': case 'O': switchMode(mode === 'overview' ? 'journey' : 'overview'); break;
+    }
+    const num = parseInt(e.key, 10);
+    if (num >= 1 && num <= 8) {
+      navigateTo(num - 1, num - 1 > currentGateIndex ? 'next' : 'prev');
+    }
+  }
+
+  function bindEvents() {
+    els.prevBtn()?.addEventListener('click', goPrev);
+    els.nextBtn()?.addEventListener('click', goNext);
+    els.modeToggle()?.addEventListener('click', () => {
+      switchMode(mode === 'overview' ? 'journey' : 'overview');
+    });
+
+    const journeyEl = els.journeyMode();
+    if (journeyEl) {
+      journeyEl.addEventListener('touchstart', onTouchStart, { passive: true });
+      journeyEl.addEventListener('touchend', onTouchEnd, { passive: true });
+    }
+
+    document.addEventListener('keydown', onKeyDown);
+
+    let hintShown = null;
+    try { hintShown = sessionStorage.getItem('gauntlet_swipe_hint_shown'); } catch (e) {}
+    if (!hintShown && window.innerWidth <= 768 && journeyEl) {
+      const hint = document.createElement('div');
+      hint.className = 'gauntlet-swipe-hint';
+      hint.innerHTML = '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8H12M9 5L12 8L9 11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>' +
+        (lang() === 'id' ? 'Geser untuk navigasi' : 'Swipe to navigate');
+      journeyEl.appendChild(hint);
+      try { sessionStorage.setItem('gauntlet_swipe_hint_shown', '1'); } catch (e) {}
+    }
+
+    document.addEventListener('metanoia:langchange', () => {
+      if (!gauntletInitialised) return;
+      renderOverviewGrid();
+      renderGate(currentGateIndex, null);
+      switchMode(mode); // refresh toggle label
+    });
+  }
+
+  let gauntletInitialised = false;
+  function initGauntletOnce() {
+    if (gauntletInitialised) return;
+    gauntletInitialised = true;
+    initGauntlet();
+  }
+  window.initGauntlet = initGauntletOnce;
+
+  if (document.getElementById('gauntlet-journey')) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initGauntletOnce);
+    } else {
+      initGauntletOnce();
+    }
+  }
 })();
 </script>
 
