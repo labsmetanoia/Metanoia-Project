@@ -567,6 +567,39 @@
   .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
   .pc-body .prod-cta{align-self:flex-start}
 
+  /* ═══ CH4 — product suite auto-scroll carousel ═══ */
+  .pcar{position:relative;margin-top:8px}
+  .pcar-viewport{overflow:hidden;padding:6px 0 10px;
+    mask-image:linear-gradient(90deg,transparent,#000 3.5%,#000 96.5%,transparent);
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 3.5%,#000 96.5%,transparent)}
+  .pcar-track{display:flex;gap:18px;align-items:stretch;will-change:transform}
+  .pcar-track > .prod-card{flex:0 0 400px;width:400px}
+  .pcar-track > .prod-card:hover{transform:translateY(-4px)}
+  .pcar-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:46px;height:46px;
+    border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--elevated-bg);
+    border:1px solid var(--glass-border);color:var(--text-primary);cursor:pointer;
+    box-shadow:0 8px 24px rgba(0,0,0,.45);
+    transition:border-color var(--t-fast) var(--ease-out),color var(--t-fast) var(--ease-out),
+      background var(--t-fast) var(--ease-out),transform var(--t-fast) var(--ease-out)}
+  .pcar-arrow.prev{left:-10px}
+  .pcar-arrow.next{right:-10px}
+  .pcar-arrow:hover{border-color:var(--gold-mid);color:var(--gold-text);background:rgba(20,24,32,1);
+    transform:translateY(-50%) scale(1.07)}
+  .pcar-arrow:active{transform:translateY(-50%) scale(.96)}
+  .pcar-arrow:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .pcar-hint{text-align:center;font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--text-faint);margin-top:18px}
+  @media (max-width:768px){
+    .pcar-track{gap:14px}
+    .pcar-track > .prod-card{flex:0 0 82vw;width:82vw}
+    .pcar-arrow{width:40px;height:40px}
+    .pcar-arrow.prev{left:2px}
+    .pcar-arrow.next{right:2px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .pcar-track{transition:none !important}
+  }
+
   /* ═══ pain cards (enterprise) ═══ */
   .pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:70px}
   .pain{border-radius:20px;padding:34px 30px;background:var(--glass-bg);border:1px solid var(--gold-border);
@@ -1618,120 +1651,128 @@
       <div class="kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
       <p data-en="Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members." data-id="Lima alat yang dirancang khusus untuk lulusan baru yang menavigasi pintu masuk pertama ke dunia profesional. Tersedia eksklusif untuk anggota Metanoia Premium.">Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members.</p>
     </div>
-    <div class="prod-feat reveal">
-      <div class="pf-copy">
-        <span class="ptag cobalt">01 · The Map</span>
-        <h3 class="prod-name" data-en="Project Aladin — Direction Edition" data-id="Project Aladin — Edisi Arah">Project Aladin — Direction Edition</h3>
-        <p class="prod-sub" data-en="Know where you’re going before you run." data-id="Ketahui tujuanmu sebelum berlari.">Know where you’re going before you run.</p>
-      <p class="prod-desc" data-en="The single most costly mistake graduates make is applying without direction — targeting every industry, every role, every company that posts a vacancy. Project Aladin for graduates begins at a deeper question: not what jobs are available, but what career is right for you. A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application." data-id="Kesalahan paling mahal yang dilakukan lulusan adalah melamar tanpa arah — menarget setiap industri, setiap jabatan, setiap perusahaan yang membuka lowongan. Project Aladin untuk lulusan dimulai dari pertanyaan yang lebih dalam: bukan pekerjaan apa yang tersedia, tapi karier apa yang tepat untukmu. Program penemuan diri dan pengarahan karier terstruktur yang menerjemahkan siapa dirimu menjadi target profesional yang presisi — sebelum kamu mengirimkan satu lamaran pun.">The single most costly mistake graduates make is applying without direction — targeting every industry, every role, every company that posts a vacancy. Project Aladin for graduates begins at a deeper question: not what jobs are available, but what career is right for you. A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application.</p>
-      <ul class="prod-feats">
-        <li data-en="Career direction diagnostic (strengths, values, industry fit)" data-id="Diagnostik arah karier (kekuatan, nilai, kesesuaian industri)">Career direction diagnostic (strengths, values, industry fit)</li>
-        <li data-en="Target role and company-type definition" data-id="Definisi jabatan target dan tipe perusahaan">Target role and company-type definition</li>
-        <li data-en="Gap analysis — what you have vs. what your target role requires" data-id="Analisis kesenjangan — apa yang kamu miliki vs. apa yang dibutuhkan jabatan target">Gap analysis — what you have vs. what your target role requires</li>
-        <li data-en="Priority application list by fit score" data-id="Daftar lamaran prioritas berdasarkan skor kesesuaian">Priority application list by fit score</li>
-      </ul>
-        <a href="products/project-aladin.html" class="prod-cta" data-en="Explore Project Aladin →" data-id="Jelajahi Project Aladin →">Explore Project Aladin →</a>
-        <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
-      </div>
-      <div class="pf-visual">
-        <img src="../assets/bg/auth.jpg" alt="Project Aladin — Direction Edition" loading="lazy">
-    <div class="mock" aria-hidden="true">
-      <div class="mttl">Direction Profile</div>
-      <div class="mrow"><span class="don"></span><span>Direction: Product Management</span></div>
-      <div class="mrow"><span class="tick">✓</span><span>Fit score: 84%</span></div>
-      <div class="mrow"><span class="don"></span><span>Targets: 3 companies shortlisted</span></div>
-    </div>
-      </div>
-    </div>
-    <div class="prod-grid">
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag teal">02 · The Pack</span>
-          <h3 data-en="The Application Engine" data-id="The Application Engine">The Application Engine</h3>
-          <p class="prod-sub" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk direkrut.">The complete toolkit for getting hired.</p>
-          <ul>
-          <li data-en="ATS-optimized CV builder with score preview" data-id="Pembangun CV teroptimasi ATS dengan pratinjau skor">ATS-optimized CV builder with score preview</li>
-          <li data-en="Impact statement rewriter — duties → outcomes" data-id="Penulis ulang pernyataan dampak — tugas → hasil">Impact statement rewriter — duties → outcomes</li>
-          <li data-en="Cover letter framework by role category" data-id="Kerangka surat lamaran berdasarkan kategori jabatan">Cover letter framework by role category</li>
-          <li data-en="LinkedIn profile optimization checklist" data-id="Daftar periksa optimasi profil LinkedIn">LinkedIn profile optimization checklist</li>
-          <li data-en="Psychometric &amp; aptitude test preparation" data-id="Persiapan tes psikometri &amp; bakat">Psychometric &amp; aptitude test preparation</li>
-          <li data-en="FGD / LGD simulation modules" data-id="Modul simulasi FGD / LGD">FGD / LGD simulation modules</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">ATS Score · 74/100</div>
-      <div class="mrow"><span class="tick">✓</span><span>Impact verbs detected</span></div>
-      <div class="mrow"><span class="tick">✓</span><span>Quantified achievements</span></div>
-      <div class="mrow"><span class="don"></span><span>Keyword density: optimize</span></div>
-    </div>
-          <a href="products/project-maverick.html" class="prod-cta" data-en="Explore Project Maverick →" data-id="Jelajahi Project Maverick →">Explore Project Maverick →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+    <!-- PRODUCT SUITE — auto-scrolling premium carousel -->
+    <div class="pcar reveal" id="prod-carousel" role="region" aria-label="Metanoia product suite carousel">
+      <button class="pcar-arrow prev" id="pcar-prev" aria-label="Previous product">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 15L7 10L12 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="pcar-arrow next" id="pcar-next" aria-label="Next product">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="pcar-viewport" id="pcar-viewport">
+        <div class="pcar-track" id="pcar-track">
+
+          <div class="prod-card">
+            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
+            <div class="pc-body">
+              <span class="ptag cobalt">01 · The Map</span>
+              <h3 data-en="Project Aladin — Direction Edition" data-id="Project Aladin — Edisi Arah">Project Aladin — Direction Edition</h3>
+              <p class="prod-sub" data-en="Know where you’re going before you run." data-id="Ketahui tujuanmu sebelum berlari.">Know where you’re going before you run.</p>
+              <p class="prod-desc" style="flex:1" data-en="A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application. Direction diagnostic, target role definition, gap analysis, and a priority application list by fit score." data-id="Program penemuan diri dan pengarahan karier terstruktur yang menerjemahkan siapa dirimu menjadi target profesional yang presisi — sebelum kamu mengirimkan satu lamaran pun. Diagnostik arah, definisi jabatan target, analisis kesenjangan, dan daftar lamaran prioritas berdasarkan skor kesesuaian.">A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application. Direction diagnostic, target role definition, gap analysis, and a priority application list by fit score.</p>
+              <div class="pc-mock" aria-hidden="true">
+                <div class="mttl">Direction Profile</div>
+                <div class="mrow"><span class="don"></span><span>Direction: Product Management</span></div>
+                <div class="mrow"><span class="tick">✓</span><span>Fit score: 84%</span></div>
+                <div class="mrow"><span class="don"></span><span>Targets: 3 companies shortlisted</span></div>
+              </div>
+              <a href="products/project-aladin.html" class="prod-cta" data-en="Explore Project Aladin →" data-id="Jelajahi Project Aladin →">Explore Project Aladin →</a>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
+            <div class="pc-body">
+              <span class="ptag teal">02 · The Pack</span>
+              <h3 data-en="The Application Engine" data-id="The Application Engine">The Application Engine</h3>
+              <p class="prod-sub" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk direkrut.">The complete toolkit for getting hired.</p>
+              <ul>
+              <li data-en="ATS-optimized CV builder with score preview" data-id="Pembangun CV teroptimasi ATS dengan pratinjau skor">ATS-optimized CV builder with score preview</li>
+              <li data-en="Impact statement rewriter — duties → outcomes" data-id="Penulis ulang pernyataan dampak — tugas → hasil">Impact statement rewriter — duties → outcomes</li>
+              <li data-en="Cover letter framework by role category" data-id="Kerangka surat lamaran berdasarkan kategori jabatan">Cover letter framework by role category</li>
+              <li data-en="LinkedIn profile optimization checklist" data-id="Daftar periksa optimasi profil LinkedIn">LinkedIn profile optimization checklist</li>
+              <li data-en="Psychometric &amp; aptitude test preparation" data-id="Persiapan tes psikometri &amp; bakat">Psychometric &amp; aptitude test preparation</li>
+              <li data-en="FGD / LGD simulation modules" data-id="Modul simulasi FGD / LGD">FGD / LGD simulation modules</li>
+              </ul>
+              <div class="pc-mock" aria-hidden="true">
+                <div class="mttl">ATS Score · 74/100</div>
+                <div class="mrow"><span class="tick">✓</span><span>Impact verbs detected</span></div>
+                <div class="mrow"><span class="tick">✓</span><span>Quantified achievements</span></div>
+                <div class="mrow"><span class="don"></span><span>Keyword density: optimize</span></div>
+              </div>
+              <a href="products/project-maverick.html" class="prod-cta" data-en="Explore Project Maverick →" data-id="Jelajahi Project Maverick →">Explore Project Maverick →</a>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
+            <div class="pc-body">
+              <span class="ptag amber">03 · The Rope</span>
+              <h3 data-en="Project Nexus" data-id="Project Nexus">Project Nexus</h3>
+              <p class="prod-sub" data-en="Walk in prepared. Walk out with an offer." data-id="Masuk dengan persiapan. Keluar dengan tawaran.">Walk in prepared. Walk out with an offer.</p>
+              <ul>
+              <li data-en="Behavioral interview: STAR framework with AI scoring" data-id="Wawancara behavioral: kerangka STAR dengan penilaian AI">Behavioral interview: STAR framework with AI scoring</li>
+              <li data-en="Case interview preparation (consulting, banking, strategy)" data-id="Persiapan wawancara kasus (konsulting, perbankan, strategi)">Case interview preparation (consulting, banking, strategy)</li>
+              <li data-en="Competency-based and HR interview modules" data-id="Modul wawancara berbasis kompetensi dan HR">Competency-based and HR interview modules</li>
+              <li data-en="AI mock sessions with session-memory feedback" data-id="Sesi simulasi AI dengan umpan balik berbasis memori sesi">AI mock sessions with session-memory feedback</li>
+              <li data-en="Salary and offer negotiation playbook" data-id="Panduan negosiasi gaji dan tawaran">Salary and offer negotiation playbook</li>
+              </ul>
+              <div class="pc-mock" aria-hidden="true">
+                <div class="mttl">Last Session · Case Interview</div>
+                <div class="mrow"><span class="don"></span><span>Weak point: structuring the hypothesis</span></div>
+                <div class="mrow"><span class="tick">✓</span><span>Improved: opening frameworks</span></div>
+                <div class="mrow"><span class="don"></span><span>Next: market sizing practice</span></div>
+              </div>
+              <a href="products/project-nexus.html" class="prod-cta" data-en="Explore Project Nexus →" data-id="Jelajahi Project Nexus →">Explore Project Nexus →</a>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
+            <div class="pc-body">
+              <span class="ptag forest">04 · The Horizon</span>
+              <h3 data-en="Scholarship &amp; Graduate Programs" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
+              <p class="prod-sub" data-en="Fund your next chapter. Or accelerate into it." data-id="Danai babak berikutmu. Atau berakselerasi memasukinya.">Fund your next chapter. Or accelerate into it.</p>
+              <ul>
+              <li data-en="LPDP, Chevening, AAS, and corporate graduate program mapping" data-id="Pemetaan LPDP, Chevening, AAS, dan program lulusan korporasi">LPDP, Chevening, AAS, and corporate graduate program mapping</li>
+              <li data-en="Personal statement and essay workshops" data-id="Workshop pernyataan pribadi dan esai">Personal statement and essay workshops</li>
+              <li data-en="Selection interview simulation for scholarship and MT programs" data-id="Simulasi wawancara seleksi untuk beasiswa dan program MT">Selection interview simulation for scholarship and MT programs</li>
+              <li data-en="Application timeline and milestone planner" data-id="Perencana garis waktu lamaran dan pencapaian">Application timeline and milestone planner</li>
+              </ul>
+              <div class="pc-mock" aria-hidden="true">
+                <div class="mttl">LPDP Domestic · Tracker</div>
+                <div class="mrow"><span class="tick">✓</span><span>Essay draft 2 reviewed</span></div>
+                <div class="mrow"><span class="don"></span><span>Interview simulation: Wed</span></div>
+                <div class="mrow"><span class="don"></span><span>Deadline: 23 days</span></div>
+              </div>
+              <a href="products/project-horizon.html" class="prod-cta" data-en="Explore Project Horizon →" data-id="Jelajahi Project Horizon →">Explore Project Horizon →</a>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="pc-head" style="background:linear-gradient(140deg,#8B6914,#241800)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.3,13.3 8.5,15.5 10.7,10.7"/></svg></div>
+            <div class="pc-body">
+              <span class="ptag goldp">05 · All Systems</span>
+              <h3 data-en="The Compass — Graduate Edition" data-id="The Compass — Edisi Lulusan">The Compass — Graduate Edition</h3>
+              <p class="prod-sub" data-en="Track every step from graduation to offer." data-id="Lacak setiap langkah dari wisuda ke tawaran.">Track every step from graduation to offer.</p>
+              <p class="prod-desc" style="flex:1" data-en="Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Compass doesn’t just show you where you are — it shows you exactly what to do next to move forward." data-id="Dasbor kemajuan personal di semua empat sistem. Melacak jalur lamaranmu, skor kesiapan wawancara, status optimasi CV, dan pencapaian sprint 90 hari. The Compass tidak hanya menunjukkan di mana kamu berada — ia menunjukkan persis apa yang harus kamu lakukan selanjutnya untuk melangkah maju.">Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Compass doesn’t just show you where you are — it shows you exactly what to do next to move forward.</p>
+              <div class="pc-mock" aria-hidden="true">
+                <div class="mttl">Graduate Sprint · Week 4 of 12</div>
+                <div class="mrow"><span class="tick">✓</span><span>Applications: 8 sent, 2 in review</span></div>
+                <div class="mrow"><span class="don"></span><span>Interview readiness: 71/100</span></div>
+                <div class="mrow"><span class="don"></span><span>Next: follow up pending application</span></div>
+              </div>
+              <a href="products/the-compass.html" class="prod-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+            </div>
+          </div>
+
         </div>
       </div>
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag amber">03 · The Rope</span>
-          <h3 data-en="Project Nexus" data-id="Project Nexus">Project Nexus</h3>
-          <p class="prod-sub" data-en="Walk in prepared. Walk out with an offer." data-id="Masuk dengan persiapan. Keluar dengan tawaran.">Walk in prepared. Walk out with an offer.</p>
-          <ul>
-          <li data-en="Behavioral interview: STAR framework with AI scoring" data-id="Wawancara behavioral: kerangka STAR dengan penilaian AI">Behavioral interview: STAR framework with AI scoring</li>
-          <li data-en="Case interview preparation (consulting, banking, strategy)" data-id="Persiapan wawancara kasus (konsulting, perbankan, strategi)">Case interview preparation (consulting, banking, strategy)</li>
-          <li data-en="Competency-based and HR interview modules" data-id="Modul wawancara berbasis kompetensi dan HR">Competency-based and HR interview modules</li>
-          <li data-en="AI mock sessions with session-memory feedback" data-id="Sesi simulasi AI dengan umpan balik berbasis memori sesi">AI mock sessions with session-memory feedback</li>
-          <li data-en="Salary and offer negotiation playbook" data-id="Panduan negosiasi gaji dan tawaran">Salary and offer negotiation playbook</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">Last Session · Case Interview</div>
-      <div class="mrow"><span class="don"></span><span>Weak point: structuring the hypothesis</span></div>
-      <div class="mrow"><span class="tick">✓</span><span>Improved: opening frameworks</span></div>
-      <div class="mrow"><span class="don"></span><span>Next: market sizing practice</span></div>
-    </div>
-          <a href="products/project-nexus.html" class="prod-cta" data-en="Explore Project Nexus →" data-id="Jelajahi Project Nexus →">Explore Project Nexus →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
-        </div>
-      </div>
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag forest">04 · The Horizon</span>
-          <h3 data-en="Scholarship &amp; Graduate Programs" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
-          <p class="prod-sub" data-en="Fund your next chapter. Or accelerate into it." data-id="Danai babak berikutmu. Atau berakselerasi memasukinya.">Fund your next chapter. Or accelerate into it.</p>
-          <ul>
-          <li data-en="LPDP, Chevening, AAS, and corporate graduate program mapping" data-id="Pemetaan LPDP, Chevening, AAS, dan program lulusan korporasi">LPDP, Chevening, AAS, and corporate graduate program mapping</li>
-          <li data-en="Personal statement and essay workshops" data-id="Workshop pernyataan pribadi dan esai">Personal statement and essay workshops</li>
-          <li data-en="Selection interview simulation for scholarship and MT programs" data-id="Simulasi wawancara seleksi untuk beasiswa dan program MT">Selection interview simulation for scholarship and MT programs</li>
-          <li data-en="Application timeline and milestone planner" data-id="Perencana garis waktu lamaran dan pencapaian">Application timeline and milestone planner</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">LPDP Domestic · Tracker</div>
-      <div class="mrow"><span class="tick">✓</span><span>Essay draft 2 reviewed</span></div>
-      <div class="mrow"><span class="don"></span><span>Interview simulation: Wed</span></div>
-      <div class="mrow"><span class="don"></span><span>Deadline: 23 days</span></div>
-    </div>
-          <a href="products/project-horizon.html" class="prod-cta" data-en="Explore Project Horizon →" data-id="Jelajahi Project Horizon →">Explore Project Horizon →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="prod-feat rev reveal">
-      <div class="pf-copy">
-        <span class="ptag goldp">05 · All Systems</span>
-        <h3 class="prod-name" data-en="The Compass — Graduate Edition" data-id="The Compass — Edisi Lulusan">The Compass — Graduate Edition</h3>
-        <p class="prod-sub" data-en="Track every step from graduation to offer." data-id="Lacak setiap langkah dari wisuda ke tawaran.">Track every step from graduation to offer.</p>
-      <p class="prod-desc" data-en="Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Compass doesn’t just show you where you are — it shows you exactly what to do next to move forward." data-id="Dasbor kemajuan personal di semua empat sistem. Melacak jalur lamaranmu, skor kesiapan wawancara, status optimasi CV, dan pencapaian sprint 90 hari. The Compass tidak hanya menunjukkan di mana kamu berada — ia menunjukkan persis apa yang harus kamu lakukan selanjutnya untuk melangkah maju.">Your personalized progress dashboard across all four systems. Tracks your application pipeline, interview readiness score, CV optimization status, and 90-day sprint milestones. The Compass doesn’t just show you where you are — it shows you exactly what to do next to move forward.</p>
-        <a href="products/the-compass.html" class="prod-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
-        <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
-      </div>
-      <div class="pf-visual">
-        <img src="../assets/bg/journey-bg.jpg" alt="The Compass — Graduate Edition" loading="lazy">
-    <div class="mock" aria-hidden="true">
-      <div class="mttl">Graduate Sprint · Week 4 of 12</div>
-      <div class="mrow"><span class="tick">✓</span><span>Applications: 8 sent, 2 in review</span></div>
-      <div class="mrow"><span class="don"></span><span>Interview readiness: 71/100</span></div>
-      <div class="mrow"><span class="don"></span><span>Next: follow up pending application</span></div>
-    </div>
-      </div>
+      <div class="pcar-hint" data-en="Hover to pause · Drag or use the arrows to browse" data-id="Arahkan kursor untuk jeda · Geser atau gunakan panah untuk menjelajah">Hover to pause · Drag or use the arrows to browse</div>
     </div>
   </div>
 </section>
@@ -2970,6 +3011,123 @@ const GAUNTLET_GATES = [
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
+})();
+</script>
+
+<script>
+/* ═══ CH4 — product suite auto-scroll carousel controller ═══ */
+(function () {
+  'use strict';
+  const track = document.getElementById('pcar-track');
+  const viewport = document.getElementById('pcar-viewport');
+  const root = document.getElementById('prod-carousel');
+  if (!track || !viewport || !root) return;
+
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const GAP = () => parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 18;
+
+  /* clone the card set once for a seamless loop */
+  const originals = Array.from(track.children);
+  originals.forEach(card => {
+    const clone = card.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    clone.querySelectorAll('a, button').forEach(el => el.setAttribute('tabindex', '-1'));
+    track.appendChild(clone);
+  });
+
+  let offset = 0;
+  let playing = !reduced;
+  let hoverPause = false;
+  let touchPause = false;
+  let resumeTimer = null;
+  let easing = null; /* {from,to,start,dur} */
+  const SPEED = 26; /* px per second, right-to-left */
+
+  const loopWidth = () => (track.scrollWidth + GAP()) / 2;
+  const stepWidth = () => originals[0].getBoundingClientRect().width + GAP();
+
+  function apply() {
+    const lw = loopWidth();
+    offset = ((offset % lw) + lw) % lw;
+    track.style.transform = 'translate3d(' + (-offset).toFixed(2) + 'px,0,0)';
+  }
+
+  let last = performance.now();
+  let visible = false;
+  let lastVisCheck = 0;
+  function step(now) {
+    const dt = Math.min(0.25, (now - last) / 1000);
+    last = now;
+    if (now - lastVisCheck > 400) {
+      lastVisCheck = now;
+      const r = root.getBoundingClientRect();
+      visible = r.top < innerHeight && r.bottom > 0;
+    }
+    if (easing) {
+      const p = Math.min(1, (now - easing.start) / easing.dur);
+      const e = 1 - Math.pow(1 - p, 3); /* ease-out cubic */
+      offset = easing.from + (easing.to - easing.from) * e;
+      if (p >= 1) easing = null;
+      apply();
+    } else if (visible && playing && !hoverPause && !touchPause) {
+      offset += SPEED * dt;
+      apply();
+    }
+  }
+  function tick(now) {
+    step(now);
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+  /* watchdog: rAF stalls in throttled/background contexts — keep the
+     clock-driven position current so the marquee never freezes */
+  setInterval(() => {
+    const now = performance.now();
+    if (now - last > 200) step(now);
+  }, 250);
+
+  function stepBy(dir) {
+    const target = offset + dir * stepWidth();
+    easing = { from: offset, to: target, start: performance.now(), dur: reduced ? 1 : 520 };
+    /* hold the marquee briefly after a manual step */
+    playing = false;
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(() => { playing = !reduced; }, 2600);
+  }
+
+  document.getElementById('pcar-next').addEventListener('click', () => stepBy(1));
+  document.getElementById('pcar-prev').addEventListener('click', () => stepBy(-1));
+
+  /* pause on hover; focus pauses only for keyboard users so a clicked
+     arrow (which keeps focus) doesn't freeze the marquee */
+  viewport.addEventListener('mouseenter', () => { hoverPause = true; });
+  viewport.addEventListener('mouseleave', () => { hoverPause = false; });
+  root.addEventListener('focusin', e => {
+    if (e.target.matches && e.target.matches(':focus-visible')) hoverPause = true;
+  });
+  root.addEventListener('focusout', () => {
+    if (!root.contains(document.activeElement)) hoverPause = false;
+  });
+
+  /* touch drag */
+  let tx = 0, tOffset = 0, dragging = false;
+  viewport.addEventListener('touchstart', e => {
+    touchPause = true; dragging = true; easing = null;
+    tx = e.touches[0].clientX; tOffset = offset;
+  }, { passive: true });
+  viewport.addEventListener('touchmove', e => {
+    if (!dragging) return;
+    offset = tOffset + (tx - e.touches[0].clientX);
+    apply();
+  }, { passive: true });
+  viewport.addEventListener('touchend', () => {
+    dragging = false;
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(() => { touchPause = false; }, 1800);
+  }, { passive: true });
+
+  /* visibility: periodic rect check inside the ticker (IO delivery is
+     unreliable in throttled contexts) */
 })();
 </script>
 
