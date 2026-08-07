@@ -567,14 +567,23 @@
   .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
   .pc-body .prod-cta{align-self:flex-start}
 
-  /* ═══ CH4 — product suite auto-scroll carousel ═══ */
+  /* ═══ CH4 — product suite carousel: one full-width immersive slide per product ═══ */
   .pcar{position:relative;margin-top:8px}
-  .pcar-viewport{overflow:hidden;padding:6px 0 10px;
-    mask-image:linear-gradient(90deg,transparent,#000 3.5%,#000 96.5%,transparent);
-    -webkit-mask-image:linear-gradient(90deg,transparent,#000 3.5%,#000 96.5%,transparent)}
-  .pcar-track{display:flex;gap:18px;align-items:stretch;will-change:transform}
-  .pcar-track > .prod-card{flex:0 0 400px;width:400px}
-  .pcar-track > .prod-card:hover{transform:translateY(-4px)}
+  .pcar-viewport{overflow:hidden;padding:6px 0 10px}
+  .pcar-track{display:flex;gap:24px;align-items:stretch;will-change:transform}
+  .pcar-track > .prod-card{flex:0 0 100%;width:100%;flex-direction:row;min-height:440px}
+  .pcar-track > .prod-card:hover{transform:none}
+  .pcar-track .pc-head{width:38%;height:auto;min-height:100%;flex:none}
+  .pcar-track .pc-head svg{width:78px;height:78px}
+  .pcar-track .pc-head::before{width:300px;height:300px;top:-80px;right:-70px}
+  .pcar-track .pc-head::after{background:linear-gradient(90deg,transparent 45%,rgba(5,10,18,.35))}
+  .pcar-track .pc-body{padding:46px 54px 42px;justify-content:center}
+  .pcar-track .pc-body h3{font-size:clamp(22px,2.6vw,32px);margin-bottom:8px}
+  .pcar-track .pc-body .prod-sub{font-size:15px;margin-bottom:18px}
+  .pcar-track .pc-body ul{flex:0 0 auto;columns:2;column-gap:36px;margin:0 0 24px;max-width:780px}
+  .pcar-track .pc-body li{break-inside:avoid;font-size:12.5px;padding:5px 0 5px 18px}
+  .pcar-track .pc-body .prod-desc{flex:0 0 auto !important;max-width:720px;font-size:13.5px;margin-bottom:22px}
+  .pcar-track .pc-mock{max-width:520px;width:100%}
   .pcar-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:46px;height:46px;
     border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--elevated-bg);
     border:1px solid var(--glass-border);color:var(--text-primary);cursor:pointer;
@@ -590,8 +599,14 @@
   .pcar-hint{text-align:center;font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
     color:var(--text-faint);margin-top:18px}
   @media (max-width:768px){
-    .pcar-track{gap:14px}
-    .pcar-track > .prod-card{flex:0 0 82vw;width:82vw}
+    .pcar-track{gap:16px}
+    .pcar-track > .prod-card{flex-direction:column;min-height:0}
+    .pcar-track .pc-head{width:100%;min-height:0;height:130px}
+    .pcar-track .pc-head svg{width:52px;height:52px}
+    .pcar-track .pc-head::before{width:170px;height:170px;top:-50px;right:-40px}
+    .pcar-track .pc-head::after{background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
+    .pcar-track .pc-body{padding:26px 22px 28px}
+    .pcar-track .pc-body ul{columns:1;column-gap:0}
     .pcar-arrow{width:40px;height:40px}
     .pcar-arrow.prev{left:2px}
     .pcar-arrow.next{right:2px}
@@ -3015,7 +3030,7 @@ const GAUNTLET_GATES = [
 </script>
 
 <script>
-/* ═══ CH4 — product suite auto-scroll carousel controller ═══ */
+/* ═══ CH4 — product suite carousel controller: one slide per view, auto-advancing ═══ */
 (function () {
   'use strict';
   const track = document.getElementById('pcar-track');
@@ -3024,9 +3039,9 @@ const GAUNTLET_GATES = [
   if (!track || !viewport || !root) return;
 
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const GAP = () => parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 18;
+  const GAP = () => parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 24;
 
-  /* clone the card set once for a seamless loop */
+  /* clone the slide set once for a seamless loop */
   const originals = Array.from(track.children);
   originals.forEach(card => {
     const clone = card.cloneNode(true);
@@ -3035,13 +3050,16 @@ const GAUNTLET_GATES = [
     track.appendChild(clone);
   });
 
+  const AUTOPLAY = 6500; /* ms each slide rests before auto-advancing */
+  const GLIDE = 950;     /* ms cinematic auto-advance glide */
+  const MANUAL = 620;    /* ms manual arrow / snap glide */
+
   let offset = 0;
-  let playing = !reduced;
   let hoverPause = false;
   let touchPause = false;
   let resumeTimer = null;
-  let easing = null; /* {from,to,start,dur} */
-  const SPEED = 26; /* px per second, right-to-left */
+  let easing = null; /* {from,to,start,dur,inOut} */
+  let nextAuto = performance.now() + AUTOPLAY;
 
   const loopWidth = () => (track.scrollWidth + GAP()) / 2;
   const stepWidth = () => originals[0].getBoundingClientRect().width + GAP();
@@ -3052,11 +3070,14 @@ const GAUNTLET_GATES = [
     track.style.transform = 'translate3d(' + (-offset).toFixed(2) + 'px,0,0)';
   }
 
+  function glideTo(target, dur, inOut) {
+    easing = { from: offset, to: target, start: performance.now(), dur: reduced ? 1 : dur, inOut: !!inOut };
+  }
+
   let last = performance.now();
   let visible = false;
   let lastVisCheck = 0;
   function step(now) {
-    const dt = Math.min(0.25, (now - last) / 1000);
     last = now;
     if (now - lastVisCheck > 400) {
       lastVisCheck = now;
@@ -3065,13 +3086,18 @@ const GAUNTLET_GATES = [
     }
     if (easing) {
       const p = Math.min(1, (now - easing.start) / easing.dur);
-      const e = 1 - Math.pow(1 - p, 3); /* ease-out cubic */
+      const e = easing.inOut
+        ? (p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2) /* ease-in-out cubic */
+        : 1 - Math.pow(1 - p, 3);                                     /* ease-out cubic */
       offset = easing.from + (easing.to - easing.from) * e;
-      if (p >= 1) easing = null;
       apply();
-    } else if (visible && playing && !hoverPause && !touchPause) {
-      offset += SPEED * dt;
-      apply();
+      if (p >= 1) { easing = null; nextAuto = now + AUTOPLAY; }
+    } else if (reduced || !visible || hoverPause || touchPause) {
+      /* rest while paused or offscreen; a full interval runs after resuming */
+      nextAuto = now + AUTOPLAY;
+    } else if (now >= nextAuto) {
+      /* automatic advance: glide one full slide, right-to-left */
+      glideTo(Math.round(offset / stepWidth()) * stepWidth() + stepWidth(), GLIDE, true);
     }
   }
   function tick(now) {
@@ -3080,26 +3106,23 @@ const GAUNTLET_GATES = [
   }
   requestAnimationFrame(tick);
   /* watchdog: rAF stalls in throttled/background contexts — keep the
-     clock-driven position current so the marquee never freezes */
+     clock-driven position current so autoplay never freezes */
   setInterval(() => {
     const now = performance.now();
     if (now - last > 200) step(now);
   }, 250);
 
   function stepBy(dir) {
-    const target = offset + dir * stepWidth();
-    easing = { from: offset, to: target, start: performance.now(), dur: reduced ? 1 : 520 };
-    /* hold the marquee briefly after a manual step */
-    playing = false;
-    clearTimeout(resumeTimer);
-    resumeTimer = setTimeout(() => { playing = !reduced; }, 2600);
+    const w = stepWidth();
+    const base = easing ? easing.to : offset;
+    glideTo(Math.round(base / w) * w + dir * w, MANUAL, false);
   }
 
   document.getElementById('pcar-next').addEventListener('click', () => stepBy(1));
   document.getElementById('pcar-prev').addEventListener('click', () => stepBy(-1));
 
   /* pause on hover; focus pauses only for keyboard users so a clicked
-     arrow (which keeps focus) doesn't freeze the marquee */
+     arrow (which keeps focus) doesn't freeze autoplay */
   viewport.addEventListener('mouseenter', () => { hoverPause = true; });
   viewport.addEventListener('mouseleave', () => { hoverPause = false; });
   root.addEventListener('focusin', e => {
@@ -3109,7 +3132,7 @@ const GAUNTLET_GATES = [
     if (!root.contains(document.activeElement)) hoverPause = false;
   });
 
-  /* touch drag */
+  /* touch drag, snapping to the nearest slide on release */
   let tx = 0, tOffset = 0, dragging = false;
   viewport.addEventListener('touchstart', e => {
     touchPause = true; dragging = true; easing = null;
@@ -3120,10 +3143,17 @@ const GAUNTLET_GATES = [
     offset = tOffset + (tx - e.touches[0].clientX);
     apply();
   }, { passive: true });
-  viewport.addEventListener('touchend', () => {
+  viewport.addEventListener('touchend', e => {
     dragging = false;
+    const w = stepWidth();
+    const dx = tx - e.changedTouches[0].clientX;
+    /* a deliberate swipe moves one slide; a nudge snaps back */
+    const target = Math.abs(dx) > 40
+      ? (Math.round(tOffset / w) + (dx > 0 ? 1 : -1)) * w
+      : Math.round(offset / w) * w;
+    glideTo(target, MANUAL, false);
     clearTimeout(resumeTimer);
-    resumeTimer = setTimeout(() => { touchPause = false; }, 1800);
+    resumeTimer = setTimeout(() => { touchPause = false; }, 1200);
   }, { passive: true });
 
   /* visibility: periodic rect check inside the ticker (IO delivery is
