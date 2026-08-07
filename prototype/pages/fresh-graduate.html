@@ -930,6 +930,54 @@
     .gpb-dot.active,.gpb-dot.completed{background:Highlight}
   }
 
+  /* ═══ CH3 — Career OS slide carousel (Gauntlet interaction language) ═══ */
+  .sysc{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--glass-border);
+    background:var(--bg-base);height:66vh;min-height:480px;max-height:640px}
+  .sysc-imglayer{position:absolute;inset:0;overflow:hidden}
+  .sysc-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
+    transition:opacity var(--t-cinematic) var(--ease-out);transform-origin:center center;
+    will-change:opacity,transform}
+  .sysc-img.active{opacity:1}
+  .sysc-img.kb-right{animation:kbRight 14s linear forwards}
+  .sysc-img.kb-left{animation:kbLeft 14s linear forwards}
+  .sysc-img.kb-up{animation:kbUp 14s linear forwards}
+  .sysc-img.kb-down{animation:kbDown 14s linear forwards}
+  .sysc-overlay{position:absolute;inset:0;z-index:1;background:
+    linear-gradient(90deg,rgba(5,10,18,.92) 0%,rgba(5,10,18,.68) 42%,rgba(5,10,18,.16) 70%,rgba(5,10,18,0) 100%),
+    linear-gradient(180deg,rgba(5,10,18,0) 42%,rgba(5,10,18,.86) 100%)}
+  .sysc-counter{position:absolute;top:18px;right:24px;z-index:3;font-size:11px;font-weight:700;
+    letter-spacing:.18em;color:var(--text-tertiary);text-transform:uppercase;font-variant-numeric:tabular-nums}
+  .sysc-content{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:40px 48px 96px;max-width:660px;will-change:transform,opacity}
+  .sysc-content.slide-in-right{animation:gSlideInRight var(--t-med) var(--ease-out) both}
+  .sysc-content.slide-in-left{animation:gSlideInLeft var(--t-med) var(--ease-out) both}
+  .sysc-content.slide-out-left{animation:gSlideOutLeft var(--t-fast) var(--ease-in-out) both}
+  .sysc-content.slide-out-right{animation:gSlideOutRight var(--t-fast) var(--ease-in-out) both}
+  .sysc-tag{display:inline-flex;width:fit-content;font-size:10px;font-weight:800;letter-spacing:.16em;
+    text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff;margin-bottom:16px}
+  .sysc-title{font-family:var(--serif);font-size:clamp(26px,3.4vw,42px);font-weight:600;
+    color:var(--text-primary);line-height:1.15;margin:0 0 14px}
+  .sysc-desc{font-size:15px;line-height:1.75;color:var(--text-secondary);margin:0}
+  .sysc-nav{position:absolute;top:auto;bottom:0;left:0;right:0;height:auto;z-index:3;display:flex;
+    align-items:center;justify-content:space-between;padding:16px 48px 22px;pointer-events:none;
+    background:linear-gradient(0deg,rgba(5,10,18,.90) 0%,transparent 100%)}
+  .sysc-nav .gauntlet-nav-btn{pointer-events:auto}
+  .sysc-dots{display:flex;align-items:center;gap:6px;pointer-events:auto}
+  @media (max-width:768px){
+    .sysc{height:auto;min-height:0;max-height:none;display:flex;flex-direction:column}
+    .sysc-imglayer{position:relative;height:45vw;min-height:200px;max-height:300px;flex-shrink:0}
+    .sysc-overlay{background:linear-gradient(180deg,rgba(5,10,18,0) 55%,rgba(5,10,18,.95) 100%)}
+    .sysc-content{position:relative;inset:auto;max-width:100%;padding:22px 20px 10px;
+      background:var(--bg-base);justify-content:flex-start}
+    .sysc-title{font-size:22px}
+    .sysc-nav{position:relative;background:var(--bg-base);padding:14px 20px 18px;
+      border-top:1px solid var(--glass-border)}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .sysc-img{animation:none !important;transition:opacity var(--t-slow) linear}
+    .sysc-content{animation:none !important;opacity:1 !important;transform:none !important}
+  }
+
   /* ═══ SEE IT WORK (ported from student.html) ═══ */
   .how-section{background:var(--bg-base);padding:110px 0 116px;position:relative}
   .how-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
@@ -1530,24 +1578,29 @@
       <p class="b2" data-en="A very few do not." data-id="Sebagian kecil tidak melakukan itu.">A very few do not.</p>
       <p class="b3" data-en="They are not more talented. They do not have better degrees. They simply know exactly what they’re doing — and why it works. Metanoia gives every graduate the same system." data-id="Mereka bukan lebih berbakat. Mereka tidak memiliki gelar yang lebih baik. Mereka hanya tahu persis apa yang mereka lakukan — dan mengapa itu berhasil. Metanoia memberikan sistem yang sama kepada setiap lulusan.">They are not more talented. They do not have better degrees. They simply know exactly what they’re doing — and why it works. Metanoia gives every graduate the same system.</p>
     </div>
-    <div class="sys-grid">
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/map.jpg" alt="Career Intelligence" loading="lazy"><span class="sys-tag" style="background:#1D5FAB">System 01 · The Map</span></div>
-        <div class="sys-body"><h3 data-en="Career Intelligence" data-id="Inteligensi Karier">Career Intelligence</h3><p data-en="Know what the market actually wants from a candidate at your stage. Know where your experience maps — and where the gaps are. Know which companies are realistically within reach this cycle." data-id="Ketahui apa yang sebenarnya diinginkan pasar dari kandidat di tahapmu. Ketahui ke mana pengalamanmu bisa dipetakan — dan di mana kesenjangan yang ada. Ketahui perusahaan mana yang realistis dapat dicapai siklus ini.">Know what the market actually wants from a candidate at your stage. Know where your experience maps — and where the gaps are. Know which companies are realistically within reach this cycle.</p></div>
+    <!-- SYSTEMS 1-4 — cinematic slide carousel (Gauntlet interaction language) -->
+    <div class="sysc reveal" id="sys-carousel" role="group" aria-roledescription="carousel" aria-label="The four systems">
+      <div class="sysc-imglayer" aria-hidden="true">
+        <img class="sysc-img active" id="sysc-img-a" src="" alt="">
+        <img class="sysc-img" id="sysc-img-b" src="" alt="">
       </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/pack.jpg" alt="Application Arsenal" loading="lazy"><span class="sys-tag" style="background:#0D7377">System 02 · The Pack</span></div>
-        <div class="sys-body"><h3 data-en="Application Arsenal" data-id="Arsenal Lamaran">Application Arsenal</h3><p data-en="The ATS-passing CV. The tailored cover positioning. The portfolio that proves capability rather than just listing experience. The documents that make a recruiter stop scrolling." data-id="CV yang lolos ATS. Posisi cover yang disesuaikan. Portofolio yang membuktikan kemampuan bukan sekadar mencantumkan pengalaman. Dokumen yang membuat rekruter berhenti menggulir.">The ATS-passing CV. The tailored cover positioning. The portfolio that proves capability rather than just listing experience. The documents that make a recruiter stop scrolling.</p></div>
+      <div class="sysc-overlay" aria-hidden="true"></div>
+      <div class="sysc-counter" id="sysc-counter" aria-hidden="true"></div>
+      <div class="sysc-content" id="sysc-content" aria-live="polite"><!-- injected by renderSysSlide() --></div>
+      <div class="sysc-nav" aria-label="System navigation">
+        <button class="gauntlet-nav-btn prev" id="sysc-prev" aria-label="Previous system" disabled>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 15L7 10L12 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span data-en="Previous" data-id="Sebelumnya">Previous</span>
+        </button>
+        <div class="sysc-dots" id="sysc-dots" role="list" aria-label="Systems"></div>
+        <button class="gauntlet-nav-btn next" id="sysc-next" aria-label="Next system">
+          <span data-en="Next" data-id="Selanjutnya">Next</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
       </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/rope.jpg" alt="Interview Readiness" loading="lazy"><span class="sys-tag" style="background:#B45309">System 03 · The Rope</span></div>
-        <div class="sys-body"><h3 data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</h3><p data-en="Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work." data-id="Wawancara behavioral, case, aptitude, FGD — dilatih dengan AI yang mengingat sesi terakhirmu dan menargetkan jawabanmu yang paling lemah. Hadapi setiap wawancara dengan mengetahui persis di mana kamu sudah berkembang dan apa yang masih perlu dikerjakan.">Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you’ve improved and what still needs work.</p></div>
-      </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/start.jpg" alt="Your 90-Day Plan" loading="lazy"><span class="sys-tag" style="background:#1A5C38">System 04 · The Horizon</span></div>
-        <div class="sys-body"><h3 data-en="Your 90-Day Plan" data-id="Rencana 90 Harimu">Your 90-Day Plan</h3><p data-en="One highest-leverage action every day. Applications, practice, network outreach, company research — sequenced in the order that produces an offer fastest. Your route adjusts as you learn more about what the market is responding to." data-id="Satu tindakan paling berdampak setiap hari. Lamaran, latihan, jangkauan jaringan, riset perusahaan — diurutkan dalam urutan yang menghasilkan tawaran paling cepat. Jalurmu disesuaikan saat kamu semakin memahami apa yang direspons oleh pasar.">One highest-leverage action every day. Applications, practice, network outreach, company research — sequenced in the order that produces an offer fastest. Your route adjusts as you learn more about what the market is responding to.</p></div>
-      </div>
+      <div class="sr-only" id="sysc-sr-announce" aria-live="polite" aria-atomic="true"></div>
     </div>
+
     <div class="goal reveal">
       <p class="g-label" data-en="The Goal" data-id="Tujuan">The Goal</p>
       <h3 data-en="Land your first offer at a company you chose — <em>not the first company that said yes.</em>" data-id="Dapatkan tawaran pertamamu di perusahaan yang kamu pilih — <em>bukan perusahaan pertama yang mengatakan ya.</em>">Land your first offer at a company you chose — <em>not the first company that said yes.</em></h3>
@@ -2752,6 +2805,171 @@ const GAUNTLET_GATES = [
       initGauntletOnce();
     }
   }
+})();
+</script>
+
+<script>
+/* ═══ CH3 — Career OS carousel controller (Gauntlet interaction language) ═══ */
+(function () {
+  'use strict';
+
+  const SYS_SLIDES = [
+    {
+      tag: { en: 'System 01 · The Map', id: 'Sistem 01 · The Map' }, color: '#1D5FAB',
+      title: { en: 'Career Intelligence', id: 'Inteligensi Karier' },
+      desc: {
+        en: 'Know what the market actually wants from a candidate at your stage. Know where your experience maps — and where the gaps are. Know which companies are realistically within reach this cycle.',
+        id: 'Ketahui apa yang sebenarnya diinginkan pasar dari kandidat di tahapmu. Ketahui ke mana pengalamanmu bisa dipetakan — dan di mana kesenjangan yang ada. Ketahui perusahaan mana yang realistis dapat dicapai siklus ini.'
+      },
+      image: '../assets/bg/map.jpg', kb: 'right'
+    },
+    {
+      tag: { en: 'System 02 · The Pack', id: 'Sistem 02 · The Pack' }, color: '#0D7377',
+      title: { en: 'Application Arsenal', id: 'Arsenal Lamaran' },
+      desc: {
+        en: 'The ATS-passing CV. The tailored cover positioning. The portfolio that proves capability rather than just listing experience. The documents that make a recruiter stop scrolling.',
+        id: 'CV yang lolos ATS. Posisi cover yang disesuaikan. Portofolio yang membuktikan kemampuan bukan sekadar mencantumkan pengalaman. Dokumen yang membuat rekruter berhenti menggulir.'
+      },
+      image: '../assets/bg/pack.jpg', kb: 'left'
+    },
+    {
+      tag: { en: 'System 03 · The Rope', id: 'Sistem 03 · The Rope' }, color: '#B45309',
+      title: { en: 'Interview Readiness', id: 'Kesiapan Wawancara' },
+      desc: {
+        en: 'Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you\u2019ve improved and what still needs work.',
+        id: 'Wawancara behavioral, case, aptitude, FGD — dilatih dengan AI yang mengingat sesi terakhirmu dan menargetkan jawabanmu yang paling lemah. Hadapi setiap wawancara dengan mengetahui persis di mana kamu sudah berkembang dan apa yang masih perlu dikerjakan.'
+      },
+      image: '../assets/bg/rope.jpg', kb: 'up'
+    },
+    {
+      tag: { en: 'System 04 · The Horizon', id: 'Sistem 04 · The Horizon' }, color: '#1A5C38',
+      title: { en: 'Your 90-Day Plan', id: 'Rencana 90 Harimu' },
+      desc: {
+        en: 'One highest-leverage action every day. Applications, practice, network outreach, company research — sequenced in the order that produces an offer fastest. Your route adjusts as you learn more about what the market is responding to.',
+        id: 'Satu tindakan paling berdampak setiap hari. Lamaran, latihan, jangkauan jaringan, riset perusahaan — diurutkan dalam urutan yang menghasilkan tawaran paling cepat. Jalurmu disesuaikan saat kamu semakin memahami apa yang direspons oleh pasar.'
+      },
+      image: '../assets/bg/start.jpg', kb: 'right'
+    }
+  ];
+
+  let current = 0;
+  let animating = false;
+  let buffer = 'a';
+  let tx = 0, ty = 0;
+
+  const el = id => document.getElementById(id);
+  const lang = () => (document.documentElement.lang || 'en').toLowerCase().indexOf('id') === 0 ? 'id' : 'en';
+  const t = obj => obj[lang()] || obj.en;
+
+  function renderDots() {
+    const dots = el('sysc-dots');
+    dots.innerHTML = '';
+    SYS_SLIDES.forEach((slide, i) => {
+      const b = document.createElement('button');
+      b.className = 'gpb-dot';
+      b.dataset.gate = t(slide.tag);
+      b.setAttribute('role', 'listitem');
+      b.setAttribute('aria-label', t(slide.title));
+      b.addEventListener('click', () => { if (!animating && i !== current) go(i, i > current ? 'next' : 'prev'); });
+      dots.appendChild(b);
+    });
+    syncDots();
+  }
+
+  function syncDots() {
+    el('sysc-dots').querySelectorAll('.gpb-dot').forEach((d, i) => {
+      d.classList.remove('active', 'completed');
+      if (i === current) d.classList.add('active');
+      else if (i < current) d.classList.add('completed');
+    });
+  }
+
+  function updateImage(slide) {
+    const a = el('sysc-img-a'), b = el('sysc-img-b');
+    const incoming = buffer === 'a' ? b : a;
+    const outgoing = buffer === 'a' ? a : b;
+    incoming.classList.remove('kb-right', 'kb-left', 'kb-up', 'kb-down');
+    const swap = () => {
+      void incoming.offsetWidth;
+      incoming.classList.add('kb-' + slide.kb, 'active');
+      outgoing.classList.remove('active', 'kb-right', 'kb-left', 'kb-up', 'kb-down');
+      buffer = buffer === 'a' ? 'b' : 'a';
+    };
+    if (incoming.src && incoming.src.indexOf(slide.image.replace('../', '')) !== -1) { swap(); }
+    else { incoming.onload = swap; incoming.src = slide.image; }
+  }
+
+  function render(index, direction) {
+    const slide = SYS_SLIDES[index];
+    updateImage(slide);
+    el('sysc-counter').textContent = '0' + (index + 1) + ' / 0' + SYS_SLIDES.length;
+    el('sysc-prev').disabled = index === 0;
+    el('sysc-next').disabled = index === SYS_SLIDES.length - 1;
+
+    const html =
+      '<span class="sysc-tag" style="background:' + slide.color + '">' + t(slide.tag) + '</span>' +
+      '<h3 class="sysc-title">' + t(slide.title) + '</h3>' +
+      '<p class="sysc-desc">' + t(slide.desc) + '</p>';
+
+    const content = el('sysc-content');
+    if (direction) {
+      content.classList.remove('slide-in-right', 'slide-in-left', 'slide-out-left', 'slide-out-right');
+      content.classList.add(direction === 'next' ? 'slide-out-left' : 'slide-out-right');
+      setTimeout(() => {
+        content.innerHTML = html;
+        content.className = 'sysc-content ' + (direction === 'next' ? 'slide-in-right' : 'slide-in-left');
+      }, 200);
+    } else {
+      content.innerHTML = html;
+      content.className = 'sysc-content slide-in-right';
+    }
+
+    const sr = el('sysc-sr-announce');
+    if (sr) { sr.textContent = ''; setTimeout(() => { sr.textContent = t(slide.tag) + ': ' + t(slide.title); }, 60); }
+    syncDots();
+    const next = SYS_SLIDES[index + 1];
+    if (next) { const img = new Image(); img.src = next.image; }
+  }
+
+  function go(i, dir) {
+    if (animating || i < 0 || i >= SYS_SLIDES.length) return;
+    animating = true;
+    current = i;
+    render(i, dir);
+    setTimeout(() => { animating = false; }, 500);
+  }
+  const next = () => { if (current < SYS_SLIDES.length - 1) go(current + 1, 'next'); };
+  const prev = () => { if (current > 0) go(current - 1, 'prev'); };
+
+  function init() {
+    const root = el('sys-carousel');
+    if (!root) return;
+    renderDots();
+    render(0, null);
+    el('sysc-next').addEventListener('click', next);
+    el('sysc-prev').addEventListener('click', prev);
+
+    root.addEventListener('touchstart', e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+    root.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
+      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) { if (dx < 0) next(); else prev(); }
+    }, { passive: true });
+
+    document.addEventListener('keydown', e => {
+      if (/input|textarea|select/i.test((document.activeElement || {}).tagName || '')) return;
+      const r = root.getBoundingClientRect();
+      /* strict centre-band check so arrows don't clash with the Gauntlet handler */
+      const centred = r.top < window.innerHeight * 0.55 && r.bottom > window.innerHeight * 0.45;
+      if (!centred) return;
+      if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+    });
+
+    document.addEventListener('metanoia:langchange', () => { renderDots(); render(current, null); });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();
 </script>
 
