@@ -823,10 +823,9 @@
     </div>
   </section>
 
-  <!-- SCENE 7 · CONTACT -->
+  <!-- SCENE 7 · CONTACT — no footage: the chapter rests on the ambient background -->
   <section class="sceneCard" id="contact">
     <div class="frame">
-      <video muted loop playsinline preload="metadata"><source src="assets/07-contact.mp4" type="video/mp4"></video>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -1184,6 +1183,7 @@
   // video layers: activate when the file is actually present (real footage drop-in)
   SCENES.forEach(sc=>{
     const v=sc.querySelector('video');
+    if(!v) return;
     const arm=()=>{ sc.querySelector('.frame').classList.add('has-video'); v.play().catch(()=>{}); };
     if(v.readyState>=1) arm();
     else v.addEventListener('loadedmetadata',arm,{once:true});
