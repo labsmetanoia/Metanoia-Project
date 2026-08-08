@@ -876,8 +876,18 @@
   /* ═══ HIRING GAUNTLET (FG Chapter II) ═══ */
   section.gauntlet-sec{background:var(--bg-mid)}
   /* — Gauntlet opening: narrative beside the filtered-application evidence — */
-  .g-open{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:56px;
-    align-items:center;max-width:1100px;margin:48px auto 0}
+  .g-open{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:56px;
+    align-items:center;max-width:1140px;margin:0 auto}
+  .go-kicker{display:flex;align-items:center;gap:18px;font-size:13px;font-weight:800;
+    letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+  .go-kicker::after{content:'';flex:1;max-width:110px;height:1px;background:var(--gold);opacity:.6}
+  .go-head{font-family:var(--serif);font-size:clamp(1.95rem,3.1vw,2.8rem);font-weight:600;
+    color:var(--text);line-height:1.2;letter-spacing:.002em;margin:0}
+  .go-head em{font-style:italic;font-weight:500;
+    background:linear-gradient(105deg,var(--gold-deep) 0%,var(--gold-bright) 55%,var(--gold) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .go-rule{width:46px;height:2px;border-radius:2px;margin:26px 0 28px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
   .g-lede{max-width:none;margin:0}
   .g-lede p{font-size:15px;color:var(--text-sub);line-height:1.85;margin:0 0 22px}
   .g-lede p:first-child{font-size:16.5px;line-height:1.8}
@@ -892,43 +902,51 @@
     animation:kenBurns 26s ease-in-out infinite alternate;will-change:transform}
   .gf-img::after{content:'';position:absolute;inset:0;pointer-events:none;
     background:linear-gradient(180deg,rgba(5,10,18,.08) 0%,transparent 32%,transparent 62%,rgba(5,10,18,.4) 100%)}
-  .gf-chip{position:absolute;left:-20px;bottom:26px;z-index:3;width:238px;border-radius:14px;
-    padding:14px 16px;background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.32);
+  .gf-chip{position:absolute;left:-26px;bottom:22px;z-index:3;width:250px;border-radius:16px;
+    padding:16px 18px;background:rgba(10,16,28,.95);border:1px solid rgba(201,168,76,.38);
     box-shadow:0 18px 44px rgba(0,0,0,.5),0 0 20px rgba(201,168,76,.09);
-    opacity:0;transform:translateY(14px);transition:opacity .6s ease .5s,transform .6s ease .5s}
+    opacity:0;transform:translateY(14px);transition:opacity .6s ease .55s,transform .6s ease .55s}
   .g-open.revealed .gf-chip{opacity:1;transform:none}
-  .gf-chip .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
-    color:#E8C766;margin-bottom:8px}
-  .gf-chip .mrow{display:flex;align-items:center;gap:7px;font-size:10.5px;font-weight:600;
-    color:rgba(255,255,255,.8);padding:2.5px 0;line-height:1.4}
-  .gf-chip .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
-  .gf-chip .mrow .mx{color:#E0808A;font-size:9px;flex:none}
-  .g-open .g-lede p,.g-open .g-frame{opacity:0;transform:translateY(18px);
+  .gf-chip .mttl{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    color:#F0D878;margin-bottom:10px}
+  .gf-chip .mrow{display:flex;align-items:center;gap:10px;font-size:11.5px;font-weight:600;
+    color:rgba(255,255,255,.85);padding:4px 0;line-height:1.4}
+  .gf-chip .gx{width:17px;height:17px;border-radius:50%;flex:none;display:flex;align-items:center;
+    justify-content:center;border:1px solid rgba(201,168,76,.65);color:#E8C766}
+  .gf-chip .gx svg{width:7px;height:7px;display:block}
+  .g-open .g-lede > *,.g-open .g-frame{opacity:0;transform:translateY(18px);
     transition:opacity .7s ease,transform .7s ease}
-  .g-open.revealed .g-lede p:nth-child(1){opacity:1;transform:none;transition-delay:.08s}
-  .g-open.revealed .g-lede p:nth-child(2){opacity:1;transform:none;transition-delay:.22s}
+  .g-open.revealed .g-lede > :nth-child(1){opacity:1;transform:none;transition-delay:.04s}
+  .g-open.revealed .g-lede > :nth-child(2){opacity:1;transform:none;transition-delay:.14s}
+  .g-open.revealed .g-lede > :nth-child(3){opacity:1;transform:none;transition-delay:.24s}
+  .g-open.revealed .g-lede > :nth-child(4){opacity:1;transform:none;transition-delay:.34s}
+  .g-open.revealed .g-lede > :nth-child(5){opacity:1;transform:none;transition-delay:.44s}
   .g-open.revealed .g-frame{opacity:1;transform:none;transition-delay:.3s}
   /* — intake-cycle stat tiles — */
   .g-stats{max-width:1100px;margin:56px auto 0}
-  .gs-kicker{text-align:center;font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
-    color:var(--text-faint);margin-bottom:22px}
-  .gs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-  .gs-tile{position:relative;text-align:center;padding:32px 20px 36px;border-radius:18px;overflow:hidden;
-    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
-    border:1px solid rgba(201,168,76,.26)}
-  .gs-tile::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
-    background:linear-gradient(90deg,transparent,var(--gold),transparent);
-    filter:drop-shadow(0 0 10px rgba(240,216,120,.75))}
-  .gs-num{display:block;font-family:var(--serif);font-size:clamp(1.9rem,3vw,2.7rem);font-weight:600;
-    color:#F0D878;line-height:1;margin-bottom:12px;font-variant-numeric:tabular-nums}
-  .gs-lab{display:block;font-size:12.5px;color:rgba(255,255,255,.64);line-height:1.6}
-  .g-stats.reveal .gs-tile{opacity:0;transform:translateY(18px);
+  .gs-kicker{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--text-faint);margin:0 0 18px 6px}
+  .gs-bar{display:grid;grid-template-columns:repeat(3,1fr);border-radius:22px;padding:28px 10px;
+    background:linear-gradient(180deg,rgba(14,20,33,.9),rgba(9,14,24,.94));
+    border:1px solid rgba(201,168,76,.42);
+    box-shadow:0 24px 60px rgba(0,0,0,.3),0 0 40px rgba(201,168,76,.05)}
+  .gs-item{display:flex;align-items:center;justify-content:flex-start;gap:20px;
+    padding:8px 34px;border-left:1px solid rgba(201,168,76,.22)}
+  .gs-item:first-child{border-left:0}
+  .gs-ico{flex:none;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;color:#E8C766;border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.14), rgba(201,168,76,.03) 72%)}
+  .gs-ico svg{width:26px;height:26px;display:block}
+  .gs-num{display:block;font-family:var(--serif);font-size:clamp(1.6rem,2.4vw,2.2rem);font-weight:600;
+    color:#F0D878;line-height:1.1;margin-bottom:6px;font-variant-numeric:tabular-nums}
+  .gs-lab{display:block;font-size:12.5px;color:rgba(255,255,255,.64);line-height:1.55}
+  .g-stats.reveal .gs-item{opacity:0;transform:translateY(16px);
     transition:opacity .6s ease,transform .6s ease}
-  .g-stats.revealed .gs-tile{opacity:1;transform:none}
-  .g-stats.revealed .gs-tile:nth-child(1){transition-delay:.06s}
-  .g-stats.revealed .gs-tile:nth-child(2){transition-delay:.18s}
-  .g-stats.revealed .gs-tile:nth-child(3){transition-delay:.30s}
-  .gs-cap{text-align:center;margin:26px 0 0;font-family:var(--serif);font-style:italic;
+  .g-stats.revealed .gs-item{opacity:1;transform:none}
+  .g-stats.revealed .gs-item:nth-child(1){transition-delay:.08s}
+  .g-stats.revealed .gs-item:nth-child(2){transition-delay:.2s}
+  .g-stats.revealed .gs-item:nth-child(3){transition-delay:.32s}
+  .gs-cap{margin:22px 0 0 6px;font-family:var(--serif);font-style:italic;
     font-size:15.5px;color:#D9BC6A;line-height:1.7}
   :root[data-theme="light"] .gs-cap{color:#8B6914}
   .gates{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:64px 0 0}
@@ -1428,7 +1446,9 @@
     .gate.dest{border-left-color:rgba(13,115,119,.55)}
     .gate.dest::before{border-color:#0D7377}
     .g-callout{padding:32px 22px 36px}
-    .gs-grid{grid-template-columns:1fr}
+    .gs-bar{grid-template-columns:1fr;padding:14px 22px}
+    .gs-item{border-left:0;border-top:1px solid rgba(201,168,76,.22);padding:18px 4px}
+    .gs-item:first-child{border-top:0}
     .gb-row{grid-template-columns:52px 1fr;gap:0 16px}
     .gb-ico{width:48px;height:48px}
     .gb-ico svg{width:22px;height:22px}
@@ -1448,7 +1468,7 @@
     .ro-quote .q-l1,.ro-quote .q-l2,.fun-row,.fun-insight,.ro-take{opacity:1 !important;transform:none !important}
     .con-card,.p4{opacity:1 !important;transform:none !important}
     .con-arrow{opacity:1 !important}
-    .g-open .g-lede p,.g-open .g-frame,.gf-chip,.gs-tile,.gc-emblem,.gc-body,.gb-row,.gb-quote{opacity:1 !important;transform:none !important}
+    .g-open .g-lede > *,.g-open .g-frame,.gf-chip,.gs-item,.gc-emblem,.gc-body,.gb-row,.gb-quote{opacity:1 !important;transform:none !important}
   }
 </style>
 </head>
@@ -1883,37 +1903,47 @@
 <!-- ═══ CHAPTER II · THE HIRING GAUNTLET ═══ -->
 <section class="block gauntlet-sec" id="hiring-gauntlet">
   <div class="section-inner">
-    <div class="chapter-label reveal" data-en="Chapter II · The Hiring Gauntlet" data-id="Bab II · Gauntlet Rekrutmen">Chapter II · The Hiring Gauntlet</div>
-    <h2 class="sec-head reveal" data-en="The job market is not a lottery. It is a structured elimination process — <em>and most candidates don’t know the rules.</em>" data-id="Pasar kerja bukan lotere. Ini adalah proses eliminasi yang terstruktur — <em>dan kebanyakan kandidat tidak mengetahui aturannya.</em>">The job market is not a lottery. It is a structured elimination process — <em>and most candidates don’t know the rules.</em></h2>
-    <div class="g-open reveal" style="margin-top:48px">
+    <div class="g-open reveal">
       <div class="g-lede">
+        <div class="go-kicker" data-en="Chapter II · The Hiring Gauntlet" data-id="Bab II · Gauntlet Rekrutmen">Chapter II · The Hiring Gauntlet</div>
+        <h2 class="go-head" data-en="The job market is not a lottery. <br>It is a structured elimination process — <br><em>and most candidates don’t know the rules.</em>" data-id="Pasar kerja bukan lotere. <br>Ini adalah proses eliminasi yang terstruktur — <br><em>dan kebanyakan kandidat tidak mengetahui aturannya.</em>">The job market is not a lottery. <br>It is a structured elimination process — <br><em>and most candidates don’t know the rules.</em></h2>
+        <div class="go-rule" aria-hidden="true"></div>
         <p data-en="Every year, thousands of Indonesian fresh graduates submit applications to the same companies, wait weeks for a response, and receive a rejection with no explanation. What they don’t realize is that their application never reached a human reviewer — it was filtered before anyone read it, by an algorithm, a formatting rule, or a qualification checklist no one told them about." data-id="Setiap tahun, ribuan lulusan baru Indonesia mengirimkan lamaran ke perusahaan yang sama, menunggu berminggu-minggu untuk mendapat respons, dan menerima penolakan tanpa penjelasan. Yang tidak mereka sadari adalah lamaran mereka tidak pernah sampai ke peninjau manusia — ia disaring sebelum siapa pun membacanya, oleh algoritma, aturan format, atau daftar kualifikasi yang tidak pernah ada yang memberitahu mereka.">Every year, thousands of Indonesian fresh graduates submit applications to the same companies, wait weeks for a response, and receive a rejection with no explanation. What they don’t realize is that their application never reached a human reviewer — it was filtered before anyone read it, by an algorithm, a formatting rule, or a qualification checklist no one told them about.</p>
-        <p data-en="The recruitment process at any serious company is not a single step. It is a structured sequence of eight distinct evaluation gates — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously." data-id="Proses rekrutmen di perusahaan mana pun yang serius bukan satu langkah tunggal. Ini adalah urutan terstruktur dari delapan gerbang evaluasi yang berbeda — masing-masing dirancang untuk menyaring kualitas yang berbeda. Memahami apa yang terjadi di setiap gerbang bukan keunggulan opsional. Ini adalah persyaratan minimum untuk bersaing secara serius.">The recruitment process at any serious company is not a single step. It is a structured sequence of eight distinct evaluation gates — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously.</p>
+        <p data-en="The recruitment process at any serious company is not a single step. It is a structured sequence of <span class='hl-gold'>eight distinct evaluation gates</span> — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously." data-id="Proses rekrutmen di perusahaan mana pun yang serius bukan satu langkah tunggal. Ini adalah urutan terstruktur dari <span class='hl-gold'>delapan gerbang evaluasi yang berbeda</span> — masing-masing dirancang untuk menyaring kualitas yang berbeda. Memahami apa yang terjadi di setiap gerbang bukan keunggulan opsional. Ini adalah persyaratan minimum untuk bersaing secara serius.">The recruitment process at any serious company is not a single step. It is a structured sequence of <span class='hl-gold'>eight distinct evaluation gates</span> — each designed to filter for a different quality. Understanding what happens at each gate is not an optional advantage. It is the minimum requirement for competing seriously.</p>
       </div>
       <div class="g-frame" aria-hidden="true">
         <div class="gf-img"><img src="../assets/bg/gauntlet/gate-01-submission.jpg" alt="" loading="lazy"></div>
         <div class="gf-chip">
-          <div class="mttl">Application #4,382</div>
-          <div class="mrow"><span class="don"></span><span>Submitted · 09:14</span></div>
-          <div class="mrow"><span class="mx">✕</span><span>Filtered by ATS · 09:14:02</span></div>
-          <div class="mrow"><span class="mx">✕</span><span>Never seen by a human</span></div>
+          <div class="mttl" data-en="Applications fail at:" data-id="Lamaran gagal di:">Applications fail at:</div>
+          <div class="mrow"><span class="gx"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Submitted – 08:14" data-id="Dikirim – 08:14">Submitted – 08:14</span></div>
+          <div class="mrow"><span class="gx"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Filtered by ATS – 08:14:02" data-id="Disaring ATS – 08:14:02">Filtered by ATS – 08:14:02</span></div>
+          <div class="mrow"><span class="gx"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Never seen by a human" data-id="Tidak pernah dilihat manusia">Never seen by a human</span></div>
         </div>
       </div>
     </div>
     <div class="g-stats reveal">
       <div class="gs-kicker" data-en="A leading Indonesian management trainee program · one intake cycle" data-id="Program management trainee Indonesia terkemuka · satu siklus penerimaan">A leading Indonesian management trainee program · one intake cycle</div>
-      <div class="gs-grid">
-        <div class="gs-tile">
-          <span class="gs-num" data-en="5,000–20,000" data-id="5.000–20.000">5,000–20,000</span>
-          <span class="gs-lab" data-en="applications received" data-id="lamaran diterima">applications received</span>
+      <div class="gs-bar">
+        <div class="gs-item">
+          <span class="gs-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9.5" r="2.8"/><circle cx="16" cy="10.2" r="2.2"/><path d="M4 18.5 a5 5 0 0 1 10 0"/><path d="M14.5 18.5 a4.3 4.3 0 0 1 6.4-3.6"/></svg></span>
+          <span class="gs-txt">
+            <span class="gs-num" data-en="5,000–20,000" data-id="5.000–20.000">5,000–20,000</span>
+            <span class="gs-lab" data-en="applications received" data-id="lamaran diterima">applications received</span>
+          </span>
         </div>
-        <div class="gs-tile">
-          <span class="gs-num">20–50</span>
-          <span class="gs-lab" data-en="positions available" data-id="posisi tersedia">positions available</span>
+        <div class="gs-item">
+          <span class="gs-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></span>
+          <span class="gs-txt">
+            <span class="gs-num">20–50</span>
+            <span class="gs-lab" data-en="positions available" data-id="posisi tersedia">positions available</span>
+          </span>
         </div>
-        <div class="gs-tile">
-          <span class="gs-num">8</span>
-          <span class="gs-lab" data-en="evaluation gates — the same for every application" data-id="gerbang evaluasi — sama untuk setiap lamaran">evaluation gates — the same for every application</span>
+        <div class="gs-item">
+          <span class="gs-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4" y="4.5" width="16" height="15" rx="1.8"/><path d="M9.3 4.5 v15 M14.6 4.5 v15"/></svg></span>
+          <span class="gs-txt">
+            <span class="gs-num">8</span>
+            <span class="gs-lab" data-en="evaluation gates — the same for every application" data-id="gerbang evaluasi — sama untuk setiap lamaran">evaluation gates — the same for every application</span>
+          </span>
         </div>
       </div>
       <p class="gs-cap" data-en="Very few candidates are prepared for all of them." data-id="Sangat sedikit kandidat yang siap untuk semuanya.">Very few candidates are prepared for all of them.</p>
