@@ -401,19 +401,39 @@
     line-height:1.6;color:var(--text);margin:0 auto 56px;max-width:920px;text-transform:uppercase}
   .ro-decl .gold{color:var(--gold)}
 
-  /* — six-trait panel — */
-  .traits-panel{display:grid;grid-template-columns:repeat(6,1fr);max-width:1100px;margin:0 auto 62px;
-    background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:20px;overflow:hidden;
-    backdrop-filter:var(--glass-blur)}
-  .trait{padding:36px 18px 32px;text-align:center;border-left:1px solid rgba(201,168,76,.13);
-    transition:background .35s ease}
-  .trait:first-child{border-left:0}
-  .trait:hover{background:rgba(201,168,76,.045)}
-  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:24px;font-weight:600;
-    color:var(--gold);margin:0 auto 14px;transition:transform .35s cubic-bezier(.34,1.3,.64,1)}
-  .trait:hover i{transform:translateY(-4px)}
-  .trait b{display:block;font-size:13.5px;font-weight:700;color:var(--text);margin-bottom:10px;line-height:1.4}
-  .trait span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.62}
+  /* — six-trait cards: numbered, badged, chained by gold connectors — */
+  .traits-panel{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;max-width:1160px;margin:0 auto 62px}
+  .trait{position:relative;border-radius:18px;padding:22px 16px 26px;text-align:center;
+    background:linear-gradient(180deg,rgba(16,23,38,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.30);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .trait:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.55);
+    box-shadow:0 18px 44px rgba(0,0,0,.42),0 0 26px rgba(201,168,76,.12)}
+  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:26px;font-weight:600;
+    color:var(--gold);text-align:left;line-height:1;margin:0 0 14px}
+  .t-ico{width:64px;height:64px;margin:0 auto 18px;border-radius:50%;position:relative;
+    display:flex;align-items:center;justify-content:center;color:#E8C766;
+    border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.18), rgba(201,168,76,.03) 72%);
+    box-shadow:0 0 26px rgba(201,168,76,.14);
+    transition:transform .35s cubic-bezier(.34,1.3,.64,1),box-shadow .35s ease}
+  .t-ico::after{content:'';position:absolute;inset:-6px;border-radius:50%;
+    border:1px dashed rgba(201,168,76,.26)}
+  .trait:hover .t-ico{transform:translateY(-4px);box-shadow:0 0 34px rgba(201,168,76,.28)}
+  .t-ico svg{width:28px;height:28px;display:block}
+  .trait b{display:flex;align-items:center;justify-content:center;min-height:40px;
+    font-size:14px;font-weight:700;color:#fff;line-height:1.4;margin-bottom:12px}
+  .t-rule{display:block;width:26px;height:2px;margin:0 auto 12px;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .trait .t-desc{display:block;font-size:11.5px;color:rgba(255,255,255,.64);line-height:1.68}
+  .t-next{position:absolute;top:83px;right:-20px;z-index:2;width:26px;height:26px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 4px rgba(10,15,26,.85),0 0 18px rgba(201,168,76,.4)}
+  .t-next svg{width:11px;height:11px;display:block}
+  .trait:last-child .t-next{display:none}
+  .traits-panel.reveal .t-next{opacity:0;transition:opacity .5s ease .85s}
+  .traits-panel.revealed .t-next{opacity:1}
 
   /* — closing lines + end mark — */
   .ro-close{text-align:center;max-width:740px;margin:0 auto 58px}
@@ -1193,8 +1213,6 @@
   /* ═══ a11y focus ═══ */
   .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
   .prod-cta:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-  .trait span{color:rgba(255,255,255,.68)}
-  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
 
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
@@ -1206,9 +1224,7 @@
     .ro-visual{min-height:0}
     .arch-wrap{width:100%;max-width:640px;margin:0 auto}
     .traits-panel{grid-template-columns:repeat(3,1fr)}
-    .trait{border-left:1px solid rgba(201,168,76,.13)}
-    .trait:nth-child(3n+1){border-left:0}
-    .trait:nth-child(n+4){border-top:1px solid rgba(201,168,76,.13)}
+    .t-next{display:none}
     .stage-row{grid-template-columns:56px minmax(0,1fr);gap:0 16px;padding:20px 0}
     .stage-media{grid-column:2;margin-top:14px;max-width:420px}
     .contrast{grid-template-columns:1fr}
@@ -1232,9 +1248,6 @@
     .realization-section{padding:80px 0}
     .ro-quote{padding:72px 22px 50px}
     .traits-panel{grid-template-columns:1fr 1fr}
-    .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
-    .trait:nth-child(2n+1){border-left:0}
-    .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
     .journey-block{padding:34px 22px 30px}
     .stage-media{max-width:none}
     .pf-copy{padding:30px 24px}
@@ -1484,12 +1497,53 @@
 
     <h3 class="ro-decl reveal" data-en="What sets <span class='gold'>prepared graduates</span> apart" data-id="Apa yang membedakan <span class='gold'>lulusan yang siap</span>">What sets <span class='gold'>prepared graduates</span> apart</h3>
     <div class="traits-panel reveal">
-      <div class="trait"><i>01</i><b data-en="Direction before applications" data-id="Arah sebelum lamaran">Direction before applications</b><span data-en="They know the role, industry, and company type they’re targeting before they send a single application." data-id="Mereka tahu jabatan, industri, dan tipe perusahaan yang ditarget sebelum mengirim satu lamaran pun.">They know the role, industry, and company type they’re targeting before they send a single application.</span></div>
-      <div class="trait"><i>02</i><b data-en="Evidence-first CV" data-id="CV berbasis bukti">Evidence-first CV</b><span data-en="They frame every experience as impact delivered, not duties performed." data-id="Mereka membingkai setiap pengalaman sebagai dampak yang dihasilkan, bukan tugas yang dijalankan.">They frame every experience as impact delivered, not duties performed.</span></div>
-      <div class="trait"><i>03</i><b data-en="ATS fluency" data-id="Mahir ATS">ATS fluency</b><span data-en="Their CV passes automated screening — 80% of applications are filtered before a human reads them." data-id="CV mereka lolos penyaringan otomatis — 80% lamaran tersaring sebelum dibaca manusia.">Their CV passes automated screening — 80% of applications are filtered before a human reads them.</span></div>
-      <div class="trait"><i>04</i><b data-en="Interview architecture" data-id="Arsitektur wawancara">Interview architecture</b><span data-en="They structure answers using proven frameworks. They’ve practiced with feedback, not just rehearsed alone." data-id="Mereka menyusun jawaban dengan kerangka teruji. Mereka berlatih dengan umpan balik, bukan sekadar mengulang sendirian.">They structure answers using proven frameworks. They’ve practiced with feedback, not just rehearsed alone.</span></div>
-      <div class="trait"><i>05</i><b data-en="Strategic target list" data-id="Daftar target strategis">Strategic target list</b><span data-en="They apply to 20 companies with precision, not 200 companies with hope." data-id="Mereka melamar ke 20 perusahaan dengan presisi, bukan 200 perusahaan dengan harapan.">They apply to 20 companies with precision, not 200 companies with hope.</span></div>
-      <div class="trait"><i>06</i><b data-en="First 90 days ready" data-id="Siap 90 hari pertama">First 90 days ready</b><span data-en="They know how to succeed once the offer is accepted — not just how to get it." data-id="Mereka tahu cara sukses setelah tawaran diterima — bukan hanya cara mendapatkannya.">They know how to succeed once the offer is accepted — not just how to get it.</span></div>
+      <div class="trait">
+        <i>01</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><polygon points="12,6 13.7,12 12,18 10.3,12" fill="currentColor" stroke="none" opacity=".9"/></svg></span>
+        <b data-en="Direction before applications" data-id="Arah sebelum lamaran">Direction before applications</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They know the role, industry, and company type they’re targeting before they send a single application." data-id="Mereka tahu jabatan, industri, dan tipe perusahaan yang ditarget sebelum mengirim satu lamaran pun.">They know the role, industry, and company type they’re targeting before they send a single application.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>02</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5 h8 L18 7 v13.5 H6.5 Z"/><path d="M14.5 3.5 V7 H18"/><path d="M9.3 11 h6 M9.3 14 h6 M9.3 17 h3.8"/></svg></span>
+        <b data-en="Evidence-first CV" data-id="CV berbasis bukti">Evidence-first CV</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They frame every experience as impact delivered, not duties performed." data-id="Mereka membingkai setiap pengalaman sebagai dampak yang dihasilkan, bukan tugas yang dijalankan.">They frame every experience as impact delivered, not duties performed.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>03</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 20 v-5.5 M10 20 v-8.5 M14.5 20 v-6.5 M19 20 v-10.5"/><path d="M5 9.5 L10.5 5.8 L13.8 8.2 L19 4.5"/><path d="M15.9 4.5 H19 V7.6"/></svg></span>
+        <b data-en="ATS fluency" data-id="Mahir ATS">ATS fluency</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="Their CV passes automated screening — 80% of applications are filtered before a human reads them." data-id="CV mereka lolos penyaringan otomatis — 80% lamaran tersaring sebelum dibaca manusia.">Their CV passes automated screening — 80% of applications are filtered before a human reads them.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>04</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5 h10.5 a1.5 1.5 0 0 1 1.5 1.5 v4.6 a1.5 1.5 0 0 1 -1.5 1.5 H9.8 L6.4 16 v-2.9 H4 a1.5 1.5 0 0 1 -1.5 -1.5 V7 A1.5 1.5 0 0 1 4 5.5 Z"/><path d="M18.5 9.8 h1 a1.5 1.5 0 0 1 1.5 1.5 v4.4 a1.5 1.5 0 0 1 -1.5 1.5 h-.8 v2.8 l-3.2 -2.8 h-3.4"/></svg></span>
+        <b data-en="Interview architecture" data-id="Arsitektur wawancara">Interview architecture</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They structure answers using proven frameworks. They’ve practiced with feedback, not just rehearsed alone." data-id="Mereka menyusun jawaban dengan kerangka teruji. Mereka berlatih dengan umpan balik, bukan sekadar mengulang sendirian.">They structure answers using proven frameworks. They’ve practiced with feedback, not just rehearsed alone.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>05</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="13" r="7.6"/><circle cx="11" cy="13" r="3.8"/><circle cx="11" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M11 13 L18.6 5.4 M18.6 5.4 h-3 M18.6 5.4 v3"/></svg></span>
+        <b data-en="Strategic target list" data-id="Daftar target strategis">Strategic target list</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They apply to 20 companies with precision, not 200 companies with hope." data-id="Mereka melamar ke 20 perusahaan dengan presisi, bukan 200 perusahaan dengan harapan.">They apply to 20 companies with precision, not 200 companies with hope.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>06</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3.5 19.5 L10 8.5 L14 14 L16.8 10.6 L20.5 19.5 Z"/><path d="M10 8.5 V4 h4 L12.4 5.6 L14 7.2 h-4"/></svg></span>
+        <b data-en="First 90 days ready" data-id="Siap 90 hari pertama">First 90 days ready</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They know how to succeed once the offer is accepted — not just how to get it." data-id="Mereka tahu cara sukses setelah tawaran diterima — bukan hanya cara mendapatkannya.">They know how to succeed once the offer is accepted — not just how to get it.</span>
+      </div>
     </div>
     <div class="ro-close reveal">
       <p data-en="Most graduates learn these things through trial, error, and months of rejection.<br><span class='hl-gold'>Metanoia compresses that learning into a system</span> —<br>so you enter the market with the clarity that others only find after they’ve already fallen behind." data-id="Kebanyakan lulusan mempelajari hal-hal ini melalui coba-coba, kesalahan, dan berbulan-bulan penolakan.<br><span class='hl-gold'>Metanoia memadatkan pembelajaran itu ke dalam sebuah sistem</span> —<br>sehingga kamu memasuki pasar kerja dengan kejelasan yang baru ditemukan orang lain setelah mereka sudah tertinggal.">
