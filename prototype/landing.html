@@ -1239,6 +1239,7 @@
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
   const barTop=document.getElementById('barTop'),barBot=document.getElementById('barBot');
+  const finalHasVideo=!!SCENES[N-1].querySelector('video');
   let lastActive=-1;
   function updateScenes(){
     const active=Math.max(0,Math.min(N-1,Math.floor(cur+0.05)));
@@ -1260,6 +1261,14 @@
         let o;
         if(i===N-1){ o = sgn>=1 ? 0 : sgn<=.58 ? 1 : 1-(sgn-.58)/.42; }
         else { o = e<=.45 ? 1 : e>=.70 ? 0 : 1-(e-.45)/.25; }
+        // the finale carries no film of its own — the preceding scene's
+        // fixed video bows out on the same ramp the finale rides in on,
+        // leaving the chapter on the ambient static backdrop
+        if(i===N-2 && !finalHasVideo){
+          const sgnF=(N-1-cur)+.55;
+          const oF = sgnF>=1 ? 0 : sgnF<=.78 ? 1 : 1-(sgnF-.78)/.22;
+          o = Math.min(o, 1-oF);
+        }
         o = o*o*(3-2*o); // smoothstep easing
         if(vid) vid.style.opacity=o.toFixed(3);
         sc.querySelector('.frame').style.setProperty('--fo', o.toFixed(3));
