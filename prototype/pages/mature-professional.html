@@ -1053,6 +1053,119 @@
     .con-arrow{opacity:1 !important}
   }
 </style>
+<style id="megaNavCss">
+/* ═══ MEGA NAVIGATION HUB — the gateway to the Metanoia ecosystem ═══ */
+.burger{display:flex !important}
+.sheet{align-items:flex-start !important;overflow-y:auto;padding:76px 18px 44px}
+.mega{position:relative;width:100%;max-width:1180px;margin:0 auto;border-radius:26px;text-align:left;
+  background:linear-gradient(180deg,rgba(12,18,32,.97),rgba(7,11,20,.985));
+  border:1px solid rgba(201,168,76,.24);
+  box-shadow:0 40px 120px rgba(0,0,0,.55),0 0 80px rgba(201,168,76,.06);
+  padding:36px 44px 28px;
+  opacity:0;transform:translateY(18px) scale(.985);
+  transition:opacity .45s ease,transform .5s cubic-bezier(.25,.8,.3,1)}
+.sheet.open .mega{opacity:1;transform:none}
+.mega::before{content:'';position:absolute;top:0;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(240,216,120,.55),transparent)}
+.mega-head{display:flex;align-items:baseline;gap:18px;margin-bottom:22px;flex-wrap:wrap}
+.mh-kicker{font-size:11px;font-weight:800;letter-spacing:.32em;text-transform:uppercase;color:#C9A84C}
+.mh-sub{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:13.5px;color:rgba(255,255,255,.45)}
+.mega-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 36px}
+.mg-group{position:relative;padding:14px 0 16px;opacity:0;transform:translateY(10px);
+  transition:opacity .5s ease,transform .5s ease}
+.sheet.open .mg-group{opacity:1;transform:none}
+.sheet.open .mg-group:nth-child(1){transition-delay:.08s}
+.sheet.open .mg-group:nth-child(2){transition-delay:.14s}
+.sheet.open .mg-group:nth-child(3){transition-delay:.20s}
+.sheet.open .mg-group:nth-child(4){transition-delay:.26s}
+.sheet.open .mg-group:nth-child(5){transition-delay:.32s}
+.sheet.open .mg-group:nth-child(6){transition-delay:.38s}
+.mg-head{display:flex;align-items:center;gap:12px;text-decoration:none;padding:2px 0 10px}
+.mg-ico{flex:none;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  color:#E8C766;background:rgba(201,168,76,.10);border:1px solid rgba(201,168,76,.28);
+  transition:background .25s,box-shadow .25s,transform .25s}
+.mg-ico svg{width:17px;height:17px}
+.mg-ttl{font-size:15.5px !important;font-weight:800;color:#F2F5FA;letter-spacing:.01em;transition:color .2s}
+.mg-go{margin-left:auto;color:#C9A84C;font-size:14px;opacity:0;transform:translateX(-6px);
+  transition:opacity .22s,transform .25s}
+.mg-head:hover .mg-ttl{color:#F0D878}
+.mg-head:hover .mg-go{opacity:1;transform:none}
+.mg-head:hover .mg-ico{background:rgba(201,168,76,.2);box-shadow:0 0 16px rgba(201,168,76,.25);transform:translateY(-1px)}
+.mg-kicker{font-size:9px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;
+  color:rgba(201,168,76,.72);margin:0 0 7px}
+.mg-list{list-style:none;margin:0;padding:0}
+.sheet .mg-list a{position:relative;display:block;padding:6px 0 6px 16px;font-size:13px;font-weight:500;
+  color:rgba(233,238,246,.62);text-decoration:none;letter-spacing:.005em;line-height:1.45;text-align:left;
+  transition:color .18s,padding-left .22s}
+.sheet .mg-list a::before{content:'→';position:absolute;left:0;top:6px;font-size:11px;color:#C9A84C;
+  opacity:0;transform:translateX(-5px);transition:opacity .2s,transform .22s}
+.sheet .mg-list a:hover{color:#fff;padding-left:20px}
+.sheet .mg-list a:hover::before{opacity:1;transform:none}
+.mg-tgl{display:none}
+.mega-foot{display:flex;align-items:center;gap:26px;margin-top:12px;padding-top:20px;
+  border-top:1px solid rgba(201,168,76,.16);flex-wrap:wrap}
+.mf-links{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.sheet .mega-foot a{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;
+  color:rgba(233,238,246,.75);text-decoration:none;letter-spacing:.02em;transition:color .2s;padding:4px 0}
+.sheet .mega-foot a:hover{color:#F0D878}
+.mf-ico{flex:none;width:16px;height:16px;color:#C9A84C;display:inline-flex}
+.mf-ico svg{width:16px;height:16px}
+.sheet .mega-foot a.mf-signin{color:#E8C766}
+.sheet .mega-foot a.mf-cta{margin-left:auto;padding:11px 22px;border-radius:999px;font-size:13.5px;font-weight:800;
+  background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;
+  box-shadow:0 6px 26px rgba(201,168,76,.35);transition:transform .2s,box-shadow .2s}
+.sheet .mega-foot a.mf-cta:hover{transform:translateY(-2px);color:#10131B;box-shadow:0 10px 32px rgba(201,168,76,.45)}
+/* — light theme — */
+:root[data-theme="light"] .mega{background:linear-gradient(180deg,rgba(252,253,255,.985),rgba(240,243,248,.99));
+  border-color:rgba(139,105,20,.25);box-shadow:0 40px 110px rgba(27,36,52,.28),0 0 60px rgba(139,105,20,.05)}
+:root[data-theme="light"] .mega::before{background:linear-gradient(90deg,transparent,rgba(139,105,20,.5),transparent)}
+:root[data-theme="light"] .mh-sub{color:rgba(27,36,52,.5)}
+:root[data-theme="light"] .mh-kicker{color:#8B6914}
+:root[data-theme="light"] .mg-ttl{color:#1B2434}
+:root[data-theme="light"] .mg-head:hover .mg-ttl{color:#8B6914}
+:root[data-theme="light"] .mg-ico{color:#8B6914;background:rgba(139,105,20,.08);border-color:rgba(139,105,20,.3)}
+:root[data-theme="light"] .mg-kicker{color:rgba(139,105,20,.85)}
+:root[data-theme="light"] .sheet .mg-list a{color:rgba(27,36,52,.62)}
+:root[data-theme="light"] .sheet .mg-list a:hover{color:#1B2434}
+:root[data-theme="light"] .sheet .mg-list a::before{color:#8B6914}
+:root[data-theme="light"] .sheet .mega-foot a{color:rgba(27,36,52,.72)}
+:root[data-theme="light"] .sheet .mega-foot a:hover{color:#8B6914}
+:root[data-theme="light"] .sheet .mega-foot a.mf-signin{color:#8B6914}
+:root[data-theme="light"] .sheet .mega-foot a.mf-cta{color:#241800}
+:root[data-theme="light"] .mf-ico{color:#8B6914}
+:root[data-theme="light"] .mega-foot{border-top-color:rgba(139,105,20,.2)}
+:root[data-theme="light"] .mg-go{color:#8B6914}
+/* — mobile-first hub: full-sheet accordion — */
+@media(max-width:900px){
+  .sheet{padding:68px 10px 22px}
+  .mega{padding:20px 16px 16px;border-radius:20px}
+  .mega-head{flex-direction:column;gap:3px;margin-bottom:8px}
+  .mega-grid{grid-template-columns:1fr;gap:0}
+  .mg-group{padding:2px 0;border-bottom:1px solid rgba(201,168,76,.13)}
+  .mg-group:last-child{border-bottom:0}
+  .sheet.open .mg-group{transition-delay:0s !important}
+  .mg-head{padding:12px 48px 12px 0}
+  .mg-tgl{display:flex;position:absolute;top:9px;right:0;width:42px;height:42px;border-radius:11px;
+    align-items:center;justify-content:center;background:none;border:1px solid rgba(201,168,76,.28);
+    color:#C9A84C;cursor:pointer;transition:background .2s}
+  .mg-tgl:active{background:rgba(201,168,76,.14)}
+  .mg-tgl svg{width:14px;height:14px;transition:transform .35s ease}
+  .mg-group.exp .mg-tgl svg{transform:rotate(180deg)}
+  .mg-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .38s cubic-bezier(.25,.8,.3,1)}
+  .mg-group.exp .mg-body{grid-template-rows:1fr}
+  .mg-bin{min-height:0;overflow:hidden}
+  .mg-group.exp .mg-bin{padding-bottom:10px}
+  .sheet .mg-list a{padding:11px 0 11px 16px;font-size:14px}
+  .sheet .mg-list a::before{top:11px}
+  .mega-foot{flex-direction:column;align-items:stretch;gap:0;margin-top:12px;padding-top:8px}
+  .mf-links{flex-direction:column;align-items:stretch;gap:0}
+  .sheet .mega-foot a{padding:13px 2px;font-size:14.5px;border-bottom:1px solid rgba(201,168,76,.10)}
+  .sheet .mega-foot a.mf-signin{border-bottom:0}
+  .sheet .mega-foot a.mf-cta{margin:14px 0 0;justify-content:center;border-bottom:0}
+  :root[data-theme="light"] .mg-group{border-bottom-color:rgba(139,105,20,.16)}
+  :root[data-theme="light"] .sheet .mega-foot a{border-bottom-color:rgba(139,105,20,.12)}
+}
+</style>
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1103,20 +1216,136 @@
   <a href="#cta" data-en="Start" data-id="Mulai">Start</a>
 </div>
 
-<div class="sheet" id="sheet">
+<div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
-  <div class="links">
-    <a class="sheet-cta" href="../career-map-assessment.html" data-en="Take the Free Career Map →" data-id="Ikuti Career Map Gratis →">Take the Free Career Map →</a>
-    <a href="../landing.html" data-en="Home" data-id="Beranda">Home</a>
-    <a href="student.html" data-en="Student" data-id="Mahasiswa">Student</a>
-    <a href="fresh-graduate.html" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
-    <a href="early-professional.html" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
-    <a href="mature-professional.html" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
-    <a href="enterprise.html" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
-    <a href="mentors.html" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
-    <a href="mind-palace.html" data-en="Mind Palace" data-id="Mind Palace">Mind Palace</a>
-    <a href="about.html" data-en="About Us" data-id="Tentang Kami">About Us</a>
-    <a href="../login.html" data-en="Sign in" data-id="Masuk">Sign in</a>
+  <div class="mega" role="menu">
+    <div class="mega-head">
+      <div class="mh-kicker" data-en="Explore Metanoia" data-id="Jelajahi Metanoia">Explore Metanoia</div>
+      <div class="mh-sub" data-en="One platform. Every stage of the climb." data-id="Satu platform. Setiap tahap pendakian.">One platform. Every stage of the climb.</div>
+    </div>
+    <div class="mega-grid">
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="student.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 4.5 21 9l-9 4.5L3 9z"/><path d="M6.5 11v4.4c0 1.2 2.5 2.6 5.5 2.6s5.5-1.4 5.5-2.6V11"/><path d="M21 9v4.5"/></svg></span>
+          <span class="mg-ttl" data-en="Student" data-id="Mahasiswa">Student</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Products" data-id="Produk">Products</div>
+          <ul class="mg-list">
+            <li><a href="products/project-aladin.html" data-en="Project Aladdin" data-id="Project Aladdin">Project Aladdin</a></li>
+            <li><a href="products/project-maverick.html" data-en="CV &amp; Resume Studio" data-id="Studio CV &amp; Resume">CV &amp; Resume Studio</a></li>
+            <li><a href="products/project-maverick.html" data-en="ATS Screening Mastery" data-id="Penguasaan Seleksi ATS">ATS Screening Mastery</a></li>
+            <li><a href="products/project-maverick.html" data-en="FGD / LGD Simulation" data-id="Simulasi FGD / LGD">FGD / LGD Simulation</a></li>
+            <li><a href="products/project-maverick.html" data-en="Psychometric Test Preparation" data-id="Persiapan Tes Psikometri">Psychometric Test Preparation</a></li>
+            <li><a href="products/project-nexus.html" data-en="Case Interview Preparation" data-id="Persiapan Case Interview">Case Interview Preparation</a></li>
+            <li><a href="products/project-nexus.html" data-en="Interview Mastery" data-id="Penguasaan Wawancara">Interview Mastery</a></li>
+            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="fresh-graduate.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="4.5"/><path d="m8.8 12.6-1.3 7 4.5-2.4 4.5 2.4-1.3-7"/></svg></span>
+          <span class="mg-ttl" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Products" data-id="Produk">Products</div>
+          <ul class="mg-list">
+            <li><a href="products/project-aladin.html" data-en="Project Aladdin" data-id="Project Aladdin">Project Aladdin</a></li>
+            <li><a href="products/project-maverick.html" data-en="CV &amp; Resume Studio" data-id="Studio CV &amp; Resume">CV &amp; Resume Studio</a></li>
+            <li><a href="products/project-maverick.html" data-en="ATS Screening Mastery" data-id="Penguasaan Seleksi ATS">ATS Screening Mastery</a></li>
+            <li><a href="products/project-maverick.html" data-en="FGD / LGD Simulation" data-id="Simulasi FGD / LGD">FGD / LGD Simulation</a></li>
+            <li><a href="products/project-maverick.html" data-en="Psychometric Test Preparation" data-id="Persiapan Tes Psikometri">Psychometric Test Preparation</a></li>
+            <li><a href="products/project-nexus.html" data-en="Case Interview Preparation" data-id="Persiapan Case Interview">Case Interview Preparation</a></li>
+            <li><a href="products/project-nexus.html" data-en="Interview Mastery" data-id="Penguasaan Wawancara">Interview Mastery</a></li>
+            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="early-professional.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 5.5-5.5 3.5 3.5L20 7"/><path d="M14.5 7H20v5.5"/></svg></span>
+          <span class="mg-ttl" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Products" data-id="Produk">Products</div>
+          <ul class="mg-list">
+            <li><a href="products/project-aladin.html" data-en="Career Audit &amp; Direction" data-id="Audit &amp; Arah Karier">Career Audit &amp; Direction</a></li>
+            <li><a href="products/project-maverick.html" data-en="Professional Accelerator" data-id="Akselerator Profesional">Professional Accelerator</a></li>
+            <li><a href="products/project-nexus.html" data-en="The Pivot Framework" data-id="Kerangka Pivot">The Pivot Framework</a></li>
+            <li><a href="products/project-horizon.html" data-en="LPDP &amp; Advanced Degrees" data-id="LPDP &amp; Pendidikan Lanjutan">LPDP &amp; Advanced Degrees</a></li>
+            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="mature-professional.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 19.5 10 8.5l4 5.5 2.8-3.4 3.7 8.9Z"/><path d="M10 8.5V4h4l-1.6 1.6L14 7.2h-4"/></svg></span>
+          <span class="mg-ttl" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Products" data-id="Produk">Products</div>
+          <ul class="mg-list">
+            <li><a href="products/project-aladin.html" data-en="Leadership Assessment &amp; Gap Analysis" data-id="Asesmen Kepemimpinan &amp; Analisis Kesenjangan">Leadership Assessment &amp; Gap Analysis</a></li>
+            <li><a href="products/project-maverick.html" data-en="Executive Presence Program" data-id="Program Kehadiran Eksekutif">Executive Presence Program</a></li>
+            <li><a href="products/project-nexus.html" data-en="Strategic Repositioning" data-id="Pemosisian Ulang Strategis">Strategic Repositioning</a></li>
+            <li><a href="products/project-horizon.html" data-en="LPDP &amp; Advanced Degrees" data-id="LPDP &amp; Pendidikan Lanjutan">LPDP &amp; Advanced Degrees</a></li>
+            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="enterprise.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 20V6.5L12 4v16"/><path d="M12 8.5 18 10v10"/><path d="M8.5 9h.01M8.5 12h.01M8.5 15h.01M15 13h.01M15 16h.01"/></svg></span>
+          <span class="mg-ttl" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Solutions" data-id="Solusi">Solutions</div>
+          <ul class="mg-list">
+            <li><a href="enterprise.html#products" data-en="Campus Scholarship Sponsorship" data-id="Sponsor Beasiswa Kampus">Campus Scholarship Sponsorship</a></li>
+            <li><a href="enterprise.html#products" data-en="Cohort Onboarding License" data-id="Lisensi Onboarding Kohort">Cohort Onboarding License</a></li>
+            <li><a href="enterprise.html#products" data-en="Custom Career Academy" data-id="Akademi Karier Kustom">Custom Career Academy</a></li>
+            <li><a href="enterprise.html#products" data-en="Recruitment Intelligence" data-id="Inteligensi Rekrutmen">Recruitment Intelligence</a></li>
+            <li><a href="enterprise.html#products" data-en="Executive Mentorship Network" data-id="Jaringan Mentorship Eksekutif">Executive Mentorship Network</a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="mentors.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="8.5" cy="8" r="2.8"/><path d="M3.5 18.5a5 5 0 0 1 10 0"/><circle cx="16.5" cy="9.5" r="2.2"/><path d="M14.6 14.6a4 4 0 0 1 5.9 3.9"/></svg></span>
+          <span class="mg-ttl" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span>
+          <span class="mg-go" aria-hidden="true">→</span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <div class="mg-kicker" data-en="Tools" data-id="Alat">Tools</div>
+          <ul class="mg-list">
+            <li><a href="../register.html?role=mentor" data-en="Apply to Become a Mentor" data-id="Daftar Menjadi Mentor">Apply to Become a Mentor</a></li>
+            <li><a href="mentors.html#products" data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</a></li>
+            <li><a href="mentors.html#products" data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</a></li>
+          </ul>
+        </div></div>
+      </section>
+    </div>
+    <div class="mega-foot">
+      <div class="mf-links">
+        <a href="../landing.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
+        <a href="mind-palace.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
+        <a href="about.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
+        <a class="mf-signin" href="../login.html"><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
+      </div>
+      <a class="mf-cta" href="../career-map-assessment.html" data-en="Get your free Career Map →" data-id="Ambil Career Map Gratis →">Get your free Career Map →</a>
+    </div>
   </div>
 </div>
 
@@ -2162,6 +2391,40 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
     clearTimeout(resumeTimer);
     resumeTimer = setTimeout(() => { touchPause = false; }, 1200);
   }, { passive: true });
+})();
+</script>
+<script>
+/* ═══ Mega navigation hub: mobile accordions, Esc close, landing lang shim ═══ */
+(function(){
+  'use strict';
+  var sheet = document.getElementById('sheet');
+  if(!sheet) return;
+  sheet.querySelectorAll('.mg-tgl').forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      var g = b.closest('.mg-group');
+      var open = g.classList.toggle('exp');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  addEventListener('keydown', function(e){
+    if(e.key === 'Escape') sheet.classList.remove('open');
+  });
+  /* landing.html speaks data-i18n; the hub speaks data-en/data-id — bridge it */
+  var langEn = document.getElementById('langEn'), langId = document.getElementById('langId');
+  if(langEn && langId){
+    var sweep = function(l){
+      sheet.querySelectorAll('[data-en]').forEach(function(el){
+        var v = l === 'id' ? el.getAttribute('data-id') : el.getAttribute('data-en');
+        if(v != null) el.innerHTML = v;
+      });
+    };
+    var stored = null;
+    try{ stored = localStorage.getItem('mt-lang'); }catch(err){}
+    sweep(stored || ((navigator.language||'').toLowerCase().indexOf('id') === 0 ? 'id' : 'en'));
+    langEn.addEventListener('click', function(){ sweep('en'); });
+    langId.addEventListener('click', function(){ sweep('id'); });
+  }
 })();
 </script>
 </body>
