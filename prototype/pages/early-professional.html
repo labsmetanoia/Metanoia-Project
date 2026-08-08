@@ -246,35 +246,40 @@
   .rz-particles i:nth-child(14){left:4%;width:4px;height:4px;--mo:.17;animation-duration:31s;animation-delay:11s}
 
   /* — opening grid: serif narrative left, framed visual right — */
-  .ro-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:56px;
-    align-items:center;margin-bottom:78px}
-  .ro-chapter{display:flex;align-items:center;gap:16px;font-size:15px;font-weight:700;
-    letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:30px}
-  .ro-chapter::before{content:'';width:44px;height:1px;background:var(--gold);opacity:.65;flex:none}
-  .ro-headline{font-family:var(--serif);font-size:clamp(2.05rem,3.5vw,3.05rem);font-weight:600;
-    color:var(--text);line-height:1.22;letter-spacing:.002em;margin:0 0 42px}
+  .ro-grid{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:56px;
+    align-items:center;margin-bottom:84px}
+  .ro-chapter{display:flex;align-items:center;gap:18px;font-size:13px;font-weight:800;
+    letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+  .ro-chapter::after{content:'';flex:1;max-width:120px;height:1px;background:var(--gold);opacity:.6}
+  .ro-headline{font-family:var(--serif);font-size:clamp(2.2rem,3.9vw,3.4rem);font-weight:600;
+    color:var(--text);line-height:1.14;letter-spacing:.002em;margin:0 0 30px}
+  .ro-headline .nw{white-space:nowrap}
   .ro-headline em{font-style:italic;font-weight:500;
     background:linear-gradient(105deg,var(--gold-deep) 0%,var(--gold-bright) 55%,var(--gold) 100%);
     -webkit-background-clip:text;background-clip:text;color:transparent}
-  .ro-intro{display:flex;gap:24px;align-items:center;max-width:560px}
-  .ro-icon{flex:none;width:68px;height:68px;border-radius:50%;border:1px solid rgba(201,168,76,.45);
+  .ro-intro{max-width:440px}
+  .ro-intro p{font-size:14.5px;color:var(--text-sub);line-height:1.78;margin:0}
+  .ro-take{display:flex;align-items:center;gap:22px;margin-top:36px}
+  .ro-icon{flex:none;width:64px;height:64px;border-radius:50%;border:1px solid rgba(201,168,76,.45);
     display:flex;align-items:center;justify-content:center;position:relative;
     background:radial-gradient(circle at 38% 30%, rgba(201,168,76,.14), rgba(201,168,76,.03) 70%);
     box-shadow:0 0 30px rgba(201,168,76,.16);color:var(--gold)}
   .ro-icon::after{content:'';position:absolute;inset:-8px;border-radius:50%;
     border:1px dashed rgba(201,168,76,.30);animation:emblemSpin 46s linear infinite}
   @keyframes emblemSpin{to{transform:rotate(360deg)}}
-  .ro-icon svg{width:32px;height:32px;display:block}
-  .ro-intro p{font-family:var(--serif);font-style:italic;font-size:16.5px;color:var(--text-sub);
-    line-height:1.7;margin:0}
+  .ro-icon svg{width:30px;height:30px;display:block}
+  .ro-take .rt-rule{flex:none;width:1px;height:46px;background:linear-gradient(180deg,transparent,rgba(201,168,76,.55),transparent)}
+  .ro-take .rt-txt b{display:block;font-size:15.5px;font-weight:700;color:var(--text);line-height:1.5}
+  .ro-take .rt-txt i{display:block;font-style:normal;font-size:15.5px;font-weight:700;color:var(--gold);line-height:1.5}
 
   /* — staggered reveal choreography for the opening — */
-  .ro-grid .ro-chapter,.ro-grid .ro-headline,.ro-grid .ro-intro,.ro-grid .ro-visual{
+  .ro-grid .ro-chapter,.ro-grid .ro-headline,.ro-grid .ro-intro,.ro-grid .ro-take,.ro-grid .ro-visual{
     opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
   .ro-grid.revealed .ro-chapter{opacity:1;transform:none;transition-delay:.05s}
   .ro-grid.revealed .ro-headline{opacity:1;transform:none;transition-delay:.18s}
   .ro-grid.revealed .ro-visual{opacity:1;transform:none;transition-delay:.30s}
   .ro-grid.revealed .ro-intro{opacity:1;transform:none;transition-delay:.42s}
+  .ro-grid.revealed .ro-take{opacity:1;transform:none;transition-delay:.56s}
 
   /* — cinematic reveal choreography: quote, declaration, traits — */
   .ro-quote.reveal{transform:translateY(24px) scale(.985)}
@@ -298,50 +303,69 @@
   .traits-panel.revealed .trait:nth-child(5){transition-delay:.42s}
   .traits-panel.revealed .trait:nth-child(6){transition-delay:.51s}
 
-  /* — framed visual (prominent focal point) — */
+  /* — framed visual: gold cut-corner frame with edge glints — */
   .ro-visual{position:relative}
   .arch-wrap{position:relative;width:100%}
-  .arch-halo{position:absolute;inset:-16px;border-radius:20px;pointer-events:none;
-    border:1px solid rgba(201,168,76,.22)}
   .arch-wrap::after{content:'';position:absolute;left:50%;bottom:-40px;transform:translateX(-50%);
     width:88%;height:70px;pointer-events:none;filter:blur(9px);
-    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.22), transparent 78%)}
-  .arch-frame{width:100%;aspect-ratio:3/2;border-radius:14px;overflow:hidden;
-    border:1px solid rgba(201,168,76,.42);animation:archGlow 7s ease-in-out infinite;position:relative}
-  @keyframes archGlow{
-    0%,100%{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
-    50%{box-shadow:0 0 84px rgba(201,168,76,.24),0 26px 64px rgba(0,0,0,.42)}}
-  .arch-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block;
+    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.24), transparent 78%)}
+  .cut-frame{--cut:36px;position:relative;width:100%;aspect-ratio:3/2;padding:2px;
+    background:linear-gradient(135deg,rgba(240,216,120,.95),rgba(201,168,76,.5) 38%,rgba(139,105,20,.65) 68%,rgba(240,216,120,.9));
+    clip-path:polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut))}
+  .cut-inner{position:relative;width:100%;height:100%;overflow:hidden;
+    clip-path:polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut))}
+  .cut-inner img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block;
     animation:kenBurns 26s ease-in-out infinite alternate;will-change:transform}
   @keyframes kenBurns{from{transform:scale(1.001)}to{transform:scale(1.065)}}
-  .arch-frame::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-    box-shadow:inset 0 0 0 5px rgba(5,10,18,.22),inset 0 0 60px rgba(5,10,18,.20)}
-  .arch-corner{position:absolute;width:22px;height:22px;pointer-events:none}
-  .arch-corner.tl{top:10px;left:10px;border-top:1px solid rgba(201,168,76,.7);border-left:1px solid rgba(201,168,76,.7);border-radius:6px 0 0 0}
-  .arch-corner.tr{top:10px;right:10px;border-top:1px solid rgba(201,168,76,.7);border-right:1px solid rgba(201,168,76,.7);border-radius:0 6px 0 0}
-  .arch-corner.bl{bottom:10px;left:10px;border-bottom:1px solid rgba(201,168,76,.7);border-left:1px solid rgba(201,168,76,.7);border-radius:0 0 0 6px}
-  .arch-corner.br{bottom:10px;right:10px;border-bottom:1px solid rgba(201,168,76,.7);border-right:1px solid rgba(201,168,76,.7);border-radius:0 0 6px 0}
+  .cut-inner::after{content:'';position:absolute;inset:0;pointer-events:none;
+    box-shadow:inset 0 0 70px rgba(5,10,18,.28);
+    background:linear-gradient(180deg,rgba(5,10,18,.10) 0%,transparent 30%,transparent 70%,rgba(5,10,18,.22) 100%)}
+  .cf-glint{position:absolute;pointer-events:none;z-index:2;mix-blend-mode:screen;filter:blur(7px);
+    animation:glintPulse 6.5s ease-in-out infinite}
+  .cf-glint.gl-bl{left:-36px;bottom:-26px;width:210px;height:74px;transform:rotate(-14deg);
+    background:radial-gradient(closest-side,rgba(255,232,160,.85),transparent 72%)}
+  .cf-glint.gl-tr{right:-30px;top:-24px;width:170px;height:64px;transform:rotate(-14deg);
+    background:radial-gradient(closest-side,rgba(255,232,160,.6),transparent 72%);animation-delay:3.2s}
+  @keyframes glintPulse{0%,100%{opacity:.55}50%{opacity:1}}
 
-  /* — glass quote card — */
-  .ro-quote{max-width:780px;margin:0 auto 64px;background:var(--glass-bg);border:1px solid var(--gold-border-hover);
-    border-radius:20px;padding:54px 56px 42px;position:relative;backdrop-filter:var(--glass-blur);text-align:center;
-    box-shadow:0 26px 70px rgba(0,0,0,.32)}
-  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;
-    border-top:1px solid rgba(201,168,76,.5);border-left:1px solid rgba(201,168,76,.5);border-radius:7px 0 0 0}
-  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;
-    border-bottom:1px solid rgba(201,168,76,.5);border-right:1px solid rgba(201,168,76,.5);border-radius:0 0 7px 0}
-  .ro-qmark{position:absolute;top:-26px;left:50%;transform:translateX(-50%);width:52px;height:52px;
-    border-radius:50%;background:var(--bg-base);border:1px solid rgba(201,168,76,.5);
-    display:flex;align-items:center;justify-content:center;
-    font-family:Georgia,serif;font-size:34px;line-height:0;color:var(--gold);
-    box-shadow:0 0 22px rgba(201,168,76,.18)}
-  .ro-qmark i{font-style:normal;transform:translateY(9px)}
-  .ro-quote p{font-family:var(--serif);font-size:clamp(1.18rem,1.9vw,1.5rem);color:var(--gold);
-    line-height:1.68;margin:0;font-weight:500}
-  .q-diamond{width:8px;height:8px;margin:24px auto 0;transform:rotate(45deg);
+  /* — cinematic statement band (full content width, no dead margin) — */
+  .ro-quote{position:relative;margin:0 auto 64px;border-radius:22px;text-align:center;
+    border:1px solid rgba(201,168,76,.38);padding:96px 48px 72px;
+    box-shadow:0 34px 90px rgba(0,0,0,.42),0 0 60px rgba(201,168,76,.07)}
+  .q-bg{position:absolute;inset:0;z-index:0;pointer-events:none;border-radius:21px;overflow:hidden}
+  .q-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 42%;display:block;
+    animation:qDrift 32s ease-in-out infinite alternate;will-change:transform}
+  @keyframes qDrift{from{transform:scale(1.02)}to{transform:scale(1.12)}}
+  .q-veil{position:absolute;inset:0;background:
+    radial-gradient(70% 90% at 50% 108%, rgba(201,168,76,.17), transparent 62%),
+    linear-gradient(180deg, rgba(5,10,18,.90) 0%, rgba(5,10,18,.70) 45%, rgba(5,10,18,.87) 100%)}
+  .q-beam{position:absolute;top:-30%;left:16%;width:32%;height:160%;pointer-events:none;
+    background:linear-gradient(105deg,transparent 30%,rgba(240,216,120,.08) 50%,transparent 70%);
+    filter:blur(6px);transform:rotate(10deg);animation:beamBreathe 9s ease-in-out infinite}
+  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;z-index:2;
+    border-top:1px solid rgba(201,168,76,.55);border-left:1px solid rgba(201,168,76,.55);border-radius:7px 0 0 0}
+  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;z-index:2;
+    border-bottom:1px solid rgba(201,168,76,.55);border-right:1px solid rgba(201,168,76,.55);border-radius:0 0 7px 0}
+  .ro-qmark{position:absolute;top:-27px;left:50%;transform:translateX(-50%);width:54px;height:54px;z-index:3;
+    border-radius:50%;background:#0A101D;border:1px solid rgba(201,168,76,.55);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);
+    box-shadow:0 0 22px rgba(201,168,76,.22)}
+  .ro-qmark svg{width:22px;height:22px;display:block}
+  .ro-quote p{position:relative;z-index:2;font-family:var(--serif);font-weight:500;
+    font-size:clamp(1.45rem,2.7vw,2.2rem);line-height:1.5;margin:0;letter-spacing:.002em}
+  .ro-quote .q-l1{color:#F2F5FA;text-shadow:0 2px 24px rgba(5,10,18,.6)}
+  .ro-quote .q-l2{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .ro-quote .q-l1,.ro-quote .q-l2{display:inline-block;opacity:0;transform:translateY(20px);
+    transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
+  .ro-quote.revealed .q-l1{opacity:1;transform:none;transition-delay:.28s}
+  .ro-quote.revealed .q-l2{opacity:1;transform:none;transition-delay:.5s}
+  .q-diamond{position:relative;z-index:2;width:8px;height:8px;margin:28px auto 0;transform:rotate(45deg);
     background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.85}
-  .ro-cite{display:block;margin-top:18px;font-style:normal;font-size:11px;font-weight:700;
-    letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
+  .ro-cite{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:16px;
+    margin-top:20px;font-style:normal;font-size:11px;font-weight:700;
+    letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+  .ro-cite::before,.ro-cite::after{content:'';width:38px;height:1px;background:rgba(201,168,76,.45)}
 
   /* — narrative body with gold highlights — */
   .ro-body{max-width:740px;margin:0 auto 62px}
@@ -361,19 +385,39 @@
     line-height:1.6;color:var(--text);margin:0 auto 56px;max-width:920px;text-transform:uppercase}
   .ro-decl .gold{color:var(--gold)}
 
-  /* — six-trait panel — */
-  .traits-panel{display:grid;grid-template-columns:repeat(6,1fr);max-width:1100px;margin:0 auto 62px;
-    background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:20px;overflow:hidden;
-    backdrop-filter:var(--glass-blur)}
-  .trait{padding:36px 18px 32px;text-align:center;border-left:1px solid rgba(201,168,76,.13);
-    transition:background .35s ease}
-  .trait:first-child{border-left:0}
-  .trait:hover{background:rgba(201,168,76,.045)}
-  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:24px;font-weight:600;
-    color:var(--gold);margin:0 auto 14px;transition:transform .35s cubic-bezier(.34,1.3,.64,1)}
-  .trait:hover i{transform:translateY(-4px)}
-  .trait b{display:block;font-size:13.5px;font-weight:700;color:var(--text);margin-bottom:10px;line-height:1.4}
-  .trait span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.62}
+  /* — six-trait cards: numbered, badged, chained by gold connectors — */
+  .traits-panel{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;max-width:1160px;margin:0 auto 62px}
+  .trait{position:relative;border-radius:18px;padding:22px 16px 26px;text-align:center;
+    background:linear-gradient(180deg,rgba(16,23,38,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.30);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .trait:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.55);
+    box-shadow:0 18px 44px rgba(0,0,0,.42),0 0 26px rgba(201,168,76,.12)}
+  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:26px;font-weight:600;
+    color:var(--gold);text-align:left;line-height:1;margin:0 0 14px}
+  .t-ico{width:64px;height:64px;margin:0 auto 18px;border-radius:50%;position:relative;
+    display:flex;align-items:center;justify-content:center;color:#E8C766;
+    border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.18), rgba(201,168,76,.03) 72%);
+    box-shadow:0 0 26px rgba(201,168,76,.14);
+    transition:transform .35s cubic-bezier(.34,1.3,.64,1),box-shadow .35s ease}
+  .t-ico::after{content:'';position:absolute;inset:-6px;border-radius:50%;
+    border:1px dashed rgba(201,168,76,.26)}
+  .trait:hover .t-ico{transform:translateY(-4px);box-shadow:0 0 34px rgba(201,168,76,.28)}
+  .t-ico svg{width:28px;height:28px;display:block}
+  .trait b{display:flex;align-items:center;justify-content:center;min-height:40px;
+    font-size:14px;font-weight:700;color:#fff;line-height:1.4;margin-bottom:12px}
+  .t-rule{display:block;width:26px;height:2px;margin:0 auto 12px;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .trait .t-desc{display:block;font-size:11.5px;color:rgba(255,255,255,.64);line-height:1.68}
+  .t-next{position:absolute;top:83px;right:-20px;z-index:2;width:26px;height:26px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 4px rgba(10,15,26,.85),0 0 18px rgba(201,168,76,.4)}
+  .t-next svg{width:11px;height:11px;display:block}
+  .trait:last-child .t-next{display:none}
+  .traits-panel.reveal .t-next{opacity:0;transition:opacity .5s ease .85s}
+  .traits-panel.revealed .t-next{opacity:1}
 
   /* — closing lines + end mark — */
   .ro-close{text-align:center;max-width:740px;margin:0 auto 58px}
@@ -436,29 +480,87 @@
   .stage-row.graduation .stage-media{border-color:rgba(201,168,76,.42);box-shadow:0 0 34px rgba(201,168,76,.14)}
   .stage-row.graduation .year-actions b{color:var(--text);font-weight:700}
 
-  /* ═══ contrast block ═══ */
-  .contrast{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:96px 0 0}
-  .con-card{border-radius:20px;padding:38px 34px;background:var(--glass-bg);backdrop-filter:var(--glass-blur);
+  /* ═══ contrast block: without vs with, bridged by a transformation badge ═══ */
+  .contrast{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:44px;margin:96px 0 0}
+  .con-card{position:relative;border-radius:22px;padding:32px 34px 26px;
+    background:linear-gradient(180deg,rgba(14,20,33,.94),rgba(9,14,24,.97));
     border:1px solid rgba(255,255,255,.10)}
-  :root[data-theme="light"] .con-card{border-color:rgba(27,36,52,.14)}
-  .con-card.with{border-color:rgba(201,168,76,.38);background:linear-gradient(160deg,rgba(201,168,76,.08),var(--glass-bg))}
-  .con-card h3{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 22px;
-    color:var(--text-muted)}
-  .con-card.with h3{color:var(--gold)}
+  .con-card.with{border-color:rgba(201,168,76,.55);
+    background:linear-gradient(180deg,rgba(20,26,38,.95),rgba(11,16,26,.97));
+    box-shadow:0 0 44px rgba(201,168,76,.10),0 24px 60px rgba(0,0,0,.35)}
+  .con-card.with::after{content:'';position:absolute;left:8%;right:8%;bottom:-1px;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold-bright),transparent);
+    filter:drop-shadow(0 0 8px rgba(240,216,120,.7))}
+  .con-head{display:flex;align-items:center;gap:16px;padding-bottom:20px;margin-bottom:4px;
+    border-bottom:1px solid rgba(255,255,255,.08)}
+  .con-card.with .con-head{border-bottom-color:rgba(201,168,76,.22)}
+  .con-badge{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1.5px solid rgba(255,255,255,.5);color:rgba(255,255,255,.78)}
+  .con-badge svg{width:18px;height:18px;display:block}
+  .con-card.with .con-badge{border-color:var(--gold);color:#F0D878;
+    background:radial-gradient(circle at 35% 30%, rgba(201,168,76,.22), rgba(201,168,76,.04) 72%);
+    box-shadow:0 0 20px rgba(201,168,76,.3)}
+  .con-card h3{flex:1;font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    margin:0;line-height:1.55;color:#fff}
+  .con-card h3 .c2{display:block}
+  .con-card.with h3 .c2{color:var(--gold)}
+  .con-mark{flex:none;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1px solid rgba(201,168,76,.45);color:var(--gold)}
+  .con-mark svg{width:24px;height:24px;display:block}
   .con-card ul{list-style:none;margin:0;padding:0}
-  .con-card li{position:relative;padding:9px 0 9px 26px;font-size:13.5px;color:var(--text-sub);line-height:1.6;
-    border-bottom:1px solid rgba(255,255,255,.05)}
+  .con-card li{display:flex;align-items:flex-start;gap:14px;padding:15px 0;font-size:13.5px;
+    color:rgba(255,255,255,.84);line-height:1.55;border-bottom:1px solid rgba(255,255,255,.07)}
+  .con-card.with li{border-bottom-color:rgba(201,168,76,.16)}
   .con-card li:last-child{border-bottom:0}
-  .con-card li::before{content:'✕';position:absolute;left:0;top:10px;font-size:11px;color:var(--text-faint)}
-  .con-card.with li::before{content:'✓';color:var(--gold)}
+  .li-ico{flex:none;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1px solid rgba(255,255,255,.35);color:rgba(255,255,255,.6);margin-top:1px}
+  .li-ico svg{width:10px;height:10px;display:block}
+  .con-card.with .li-ico{border-color:rgba(201,168,76,.7);color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));box-shadow:0 0 10px rgba(201,168,76,.3)}
+  .con-arrow{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;
+    width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    color:#241800;background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 6px rgba(9,14,24,.92),0 0 30px rgba(201,168,76,.45)}
+  .con-arrow svg{width:24px;height:24px;display:block}
+  /* choreography: without settles, badge pops, with answers */
+  .contrast.reveal .con-card{opacity:0;transform:translateY(22px);
+    transition:opacity .7s ease,transform .7s ease}
+  .contrast.reveal .con-card.with{transition-delay:.18s}
+  .contrast.revealed .con-card{opacity:1;transform:none}
+  .contrast.reveal .con-arrow{opacity:0;transform:translate(-50%,-50%) scale(.45);
+    transition:opacity .5s ease .5s,transform .55s cubic-bezier(.34,1.56,.64,1) .5s}
+  .contrast.revealed .con-arrow{opacity:1;transform:translate(-50%,-50%) scale(1)}
   .con-close{max-width:760px;margin:60px auto 0;text-align:center;font-family:var(--serif);font-style:italic;
     font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--text-sub);line-height:1.85}
-  .pillars4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:980px;margin:56px auto 0}
-  .p4{text-align:center;padding:26px 18px;border-radius:16px;background:var(--glass-bg);
-    border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
-  .p4 svg{width:30px;height:30px;color:var(--gold);margin-bottom:12px}
-  .p4 b{display:block;font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px}
-  .p4 span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.5}
+  /* — four pillars: numbered emblem cards with gold base glow — */
+  .pillars4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:1080px;margin:64px auto 0}
+  .p4{position:relative;text-align:center;padding:28px 20px 36px;border-radius:18px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.26);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .p4:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.5);
+    box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .p4::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    filter:drop-shadow(0 0 10px rgba(240,216,120,.75))}
+  .p4 i{position:absolute;top:16px;left:19px;font-style:normal;font-size:12px;font-weight:800;
+    letter-spacing:.08em;color:var(--gold)}
+  .p4-ico{width:64px;height:64px;margin:16px auto 22px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;color:#E8C766;border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.16), rgba(201,168,76,.03) 72%);
+    transition:transform .35s cubic-bezier(.34,1.3,.64,1),box-shadow .35s ease}
+  .p4:hover .p4-ico{transform:translateY(-4px);box-shadow:0 0 30px rgba(201,168,76,.3)}
+  .p4-ico svg{width:28px;height:28px;display:block}
+  .p4 b{display:block;font-family:var(--serif);font-size:clamp(19px,1.8vw,24px);font-weight:600;
+    color:#fff;margin-bottom:12px;letter-spacing:.002em}
+  .p4 .p4-d{display:block;font-size:12.5px;color:rgba(255,255,255,.64);line-height:1.62}
+  .pillars4.reveal .p4{opacity:0;transform:translateY(18px);
+    transition:opacity .6s ease,transform .6s ease}
+  .pillars4.revealed .p4{opacity:1;transform:none}
+  .pillars4.revealed .p4:nth-child(1){transition-delay:.06s}
+  .pillars4.revealed .p4:nth-child(2){transition-delay:.16s}
+  .pillars4.revealed .p4:nth-child(3){transition-delay:.26s}
+  .pillars4.revealed .p4:nth-child(4){transition-delay:.36s}
 
   /* ═══ CH2 — the Career Operating System (Student Chapter II design system) ═══ */
   .cos-headline-block{text-align:center;max-width:720px;margin:0 auto 80px;position:relative}
@@ -1009,8 +1111,6 @@
   /* ═══ a11y focus ═══ */
   .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
   .asc-cta:focus-visible,.fs-pill:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-  .trait span{color:rgba(255,255,255,.68)}
-  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
 
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
@@ -1018,12 +1118,11 @@
     .ro-visual{min-height:0}
     .arch-wrap{width:100%;max-width:640px;margin:0 auto}
     .traits-panel{grid-template-columns:repeat(3,1fr)}
-    .trait{border-left:1px solid rgba(201,168,76,.13)}
-    .trait:nth-child(3n+1){border-left:0}
-    .trait:nth-child(n+4){border-top:1px solid rgba(201,168,76,.13)}
+    .t-next{display:none}
     .stage-row{grid-template-columns:56px minmax(0,1fr);gap:0 16px;padding:20px 0}
     .stage-media{grid-column:2;margin-top:14px;max-width:420px}
-    .contrast{grid-template-columns:1fr}
+    .contrast{grid-template-columns:1fr;gap:70px}
+    .con-arrow svg{transform:rotate(90deg)}
     .pillars4{grid-template-columns:1fr 1fr}
     .flow-grid{grid-template-columns:1fr 1fr;gap:44px 28px}
     .flow-rail,.flow-chev{display:none}
@@ -1047,11 +1146,8 @@
     .section-inner{padding:0 20px}
     section.block{padding:80px 0}
     .realization-section{padding:80px 0}
-    .ro-quote{padding:36px 26px 30px}
+    .ro-quote{padding:72px 22px 50px}
     .traits-panel{grid-template-columns:1fr 1fr}
-    .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
-    .trait:nth-child(2n+1){border-left:0}
-    .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
     .journey-block{padding:34px 22px 30px}
     .stage-media{max-width:none}
     .flow-grid{grid-template-columns:1fr;gap:0}
@@ -1085,6 +1181,8 @@
     .reveal{opacity:1;transform:none}
     .system-journey.reveal .flow-item{opacity:1;transform:none}
     .asc-copy > *,.asc-feats li,.asc-stage{opacity:1 !important;transform:none !important}
+    .ro-quote .q-l1,.ro-quote .q-l2,.ro-take,.con-card,.p4{opacity:1 !important;transform:none !important}
+    .con-arrow{opacity:1 !important}
   }
 </style>
 </head>
@@ -1201,10 +1299,15 @@
     <div class="ro-grid reveal">
       <div class="ro-left">
         <div class="ro-chapter" data-en="Chapter I · The Inflection" data-id="Bab I · Titik Belok">Chapter I · The Inflection</div>
-        <h2 class="ro-headline" data-en="Years 1–5 are not the beginning of your career. <em>They are the foundation of it.</em>" data-id="Tahun 1–5 bukan awal kariermu. <em>Mereka adalah fondasinya.</em>">
-          Years 1–5 are not the beginning of your career. <em>They are the foundation of it.</em>
+        <h2 class="ro-headline" data-en="Years <span class='nw'>1–5</span> are not <br>the beginning of your career. <br><em>They are the foundation of it.</em>" data-id="Tahun <span class='nw'>1–5</span> bukan <br>awal kariermu. <br><em>Mereka adalah fondasinya.</em>">
+          Years <span class='nw'>1–5</span> are not <br>the beginning of your career. <br><em>They are the foundation of it.</em>
         </h2>
         <div class="ro-intro">
+          <p data-en="The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn’t get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available." data-id="Profesional yang mencapai peran senior di usia 30-an, bertransisi ke karier internasional, atau membangun jaringan yang membuka pintu selama puluhan tahun — mereka tidak beruntung di tahun kelima atau keenam. Mereka membuat keputusan berbeda di tahun pertama dan kedua. Mereka tahu apa yang sedang mereka bangun. Mereka disengaja dalam keterampilan mana yang dikembangkan, hubungan mana yang diinvestasikan, dan peluang mana yang dikejar bahkan saat opsi yang lebih mudah tersedia.">
+            The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn't get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available.
+          </p>
+        </div>
+        <div class="ro-take">
           <div class="ro-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 19 C9 19 9 12.5 13 9.5 C16 7.3 18.4 6.2 20 5.6"/>
@@ -1212,30 +1315,36 @@
               <circle cx="4" cy="19" r="1.5" fill="currentColor" stroke="none"/>
             </svg>
           </div>
-          <p data-en="The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn’t get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available." data-id="Profesional yang mencapai peran senior di usia 30-an, bertransisi ke karier internasional, atau membangun jaringan yang membuka pintu selama puluhan tahun — mereka tidak beruntung di tahun kelima atau keenam. Mereka membuat keputusan berbeda di tahun pertama dan kedua. Mereka tahu apa yang sedang mereka bangun. Mereka disengaja dalam keterampilan mana yang dikembangkan, hubungan mana yang diinvestasikan, dan peluang mana yang dikejar bahkan saat opsi yang lebih mudah tersedia.">
-            The professionals who reach senior roles by 30, transition to international careers, or build the kind of network that opens doors for decades — they didn't get lucky in their fifth or sixth year. They made different decisions in their first and second. They knew what they were building. They were deliberate about which skills to develop, which relationships to invest in, and which opportunities to pursue even when easier options were available.
-          </p>
+          <span class="rt-rule" aria-hidden="true"></span>
+          <div class="rt-txt">
+            <b data-en="The early years compound." data-id="Tahun-tahun awal berbunga majemuk.">The early years compound.</b>
+            <i data-en="Design them deliberately." data-id="Rancang dengan sengaja.">Design them deliberately.</i>
+          </div>
         </div>
       </div>
 
       <div class="ro-visual" aria-hidden="true">
         <div class="arch-wrap">
-          <div class="arch-frame">
-            <img src="../assets/bg/portal.jpg" alt="" loading="lazy">
-            <span class="arch-corner tl"></span>
-            <span class="arch-corner tr"></span>
-            <span class="arch-corner bl"></span>
-            <span class="arch-corner br"></span>
+          <div class="cut-frame">
+            <div class="cut-inner">
+              <img src="../assets/bg/portal.jpg" alt="" loading="lazy">
+            </div>
           </div>
-          <div class="arch-halo"></div>
+          <span class="cf-glint gl-bl" aria-hidden="true"></span>
+          <span class="cf-glint gl-tr" aria-hidden="true"></span>
         </div>
       </div>
     </div>
 
     <blockquote class="ro-quote reveal">
-      <span class="ro-qmark" aria-hidden="true"><i>&#8220;</i></span>
-      <p data-en="Spend these years waiting to be developed, and you learn to wait.<br>Spend them building, and the difference in outcome is not incremental — it is total." data-id="Habiskan tahun-tahun ini menunggu untuk dikembangkan, dan kamu belajar menunggu.<br>Habiskan untuk membangun, dan perbedaan hasilnya bukan bertahap — itu menyeluruh.">
-        Spend these years waiting to be developed, and you learn to wait.<br>Spend them building, and the difference in outcome is not incremental — it is total.
+      <div class="q-bg" aria-hidden="true">
+        <img src="../assets/bg/rope-team.jpg" alt="" loading="lazy">
+        <div class="q-veil"></div>
+        <div class="q-beam"></div>
+      </div>
+      <span class="ro-qmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.2 5.8C7 6.9 5 9.3 5 12.6V18h6.2v-6H8.1c.1-2 1.2-3.4 3.1-4.2L10.2 5.8Zm8.6 0c-3.2 1.1-5.2 3.5-5.2 6.8V18h6.2v-6h-3.1c.1-2 1.2-3.4 3.1-4.2l-1-2Z"/></svg></span>
+      <p data-en="<span class='q-l1'>Spend these years waiting to be developed, and you learn to wait.</span><br><span class='q-l2'>Spend them building, and the difference in outcome is not incremental — it is total.</span>" data-id="<span class='q-l1'>Habiskan tahun-tahun ini menunggu untuk dikembangkan, dan kamu belajar menunggu.</span><br><span class='q-l2'>Habiskan untuk membangun, dan perbedaan hasilnya bukan bertahap — itu menyeluruh.</span>">
+        <span class='q-l1'>Spend these years waiting to be developed, and you learn to wait.</span><br><span class='q-l2'>Spend them building, and the difference in outcome is not incremental — it is total.</span>
       </p>
       <div class="q-diamond" aria-hidden="true"></div>
       <cite class="ro-cite">Metanoia Labs</cite>
@@ -1256,12 +1365,53 @@
 
     <h3 class="ro-decl reveal" data-en="What <span class='gold'>accelerating professionals</span> do differently" data-id="Apa yang dilakukan berbeda oleh <span class='gold'>profesional yang berakselerasi</span>">What <span class='gold'>accelerating professionals</span> do differently</h3>
     <div class="traits-panel reveal">
-      <div class="trait"><i>01</i><b data-en="They define the target before the path" data-id="Mereka mendefinisikan target sebelum jalur">They define the target before the path</b><span data-en="They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required." data-id="Mereka tahu ingin berada di mana dalam tiga tahun — bukan samar-samar, tapi spesifik. Jabatan, tipe perusahaan, senioritas, keterampilan yang dibutuhkan.">They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required.</span></div>
-      <div class="trait"><i>02</i><b data-en="They manage visibility, not just performance" data-id="Mereka mengelola visibilitas, bukan hanya kinerja">They manage visibility, not just performance</b><span data-en="They understand that being good at the job is necessary but not sufficient. They invest in being known for being good." data-id="Mereka paham bahwa mahir dalam pekerjaan itu perlu tapi tidak cukup. Mereka berinvestasi untuk dikenal karena kemahirannya.">They understand that being good at the job is necessary but not sufficient. They invest in being known for being good.</span></div>
-      <div class="trait"><i>03</i><b data-en="They build external optionality" data-id="Mereka membangun opsionalitas eksternal">They build external optionality</b><span data-en="Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth." data-id="Nilai profesional mereka tidak sepenuhnya bergantung pada penilaian satu pemberi kerja. Mereka memiliki data pasar tentang nilai mereka sendiri.">Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth.</span></div>
-      <div class="trait"><i>04</i><b data-en="They pivot when the evidence demands it" data-id="Mereka berpivot ketika buktinya menuntutnya">They pivot when the evidence demands it</b><span data-en="They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor." data-id="Mereka tidak bertahan di peran yang salah karena pola pikir sunk-cost. Mereka mengenali kapan perubahan strategis akan berlipat menguntungkan mereka.">They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor.</span></div>
-      <div class="trait"><i>05</i><b data-en="They treat learning as a system, not an event" data-id="Mereka memperlakukan pembelajaran sebagai sistem, bukan peristiwa">They treat learning as a system, not an event</b><span data-en="They don’t wait for their company to develop them. They identify their gaps and close them deliberately." data-id="Mereka tidak menunggu perusahaan mengembangkan mereka. Mereka mengidentifikasi kesenjangan dan menutupnya dengan sengaja.">They don’t wait for their company to develop them. They identify their gaps and close them deliberately.</span></div>
-      <div class="trait"><i>06</i><b data-en="They invest in people, not just projects" data-id="Mereka berinvestasi pada orang, bukan hanya proyek">They invest in people, not just projects</b><span data-en="They understand that the network built in years 1–5 will open more doors than the résumé will." data-id="Mereka paham bahwa jaringan yang dibangun di tahun 1–5 akan membuka lebih banyak pintu daripada résumé.">They understand that the network built in years 1–5 will open more doors than the résumé will.</span></div>
+      <div class="trait">
+        <i>01</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="13" r="7.6"/><circle cx="11" cy="13" r="3.8"/><circle cx="11" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M11 13 L18.6 5.4 M18.6 5.4 h-3 M18.6 5.4 v3"/></svg></span>
+        <b data-en="They define the target before the path" data-id="Mereka mendefinisikan target sebelum jalur">They define the target before the path</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required." data-id="Mereka tahu ingin berada di mana dalam tiga tahun — bukan samar-samar, tapi spesifik. Jabatan, tipe perusahaan, senioritas, keterampilan yang dibutuhkan.">They know where they want to be in three years — not vaguely, but specifically. Role, company type, seniority, skills required.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>02</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2.5 12 C5 7.2 8.5 4.9 12 4.9 s7 2.3 9.5 7.1 C19 16.8 15.5 19.1 12 19.1 s-7-2.3-9.5-7.1Z"/><circle cx="12" cy="12" r="3.1"/></svg></span>
+        <b data-en="They manage visibility, not just performance" data-id="Mereka mengelola visibilitas, bukan hanya kinerja">They manage visibility, not just performance</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They understand that being good at the job is necessary but not sufficient. They invest in being known for being good." data-id="Mereka paham bahwa mahir dalam pekerjaan itu perlu tapi tidak cukup. Mereka berinvestasi untuk dikenal karena kemahirannya.">They understand that being good at the job is necessary but not sufficient. They invest in being known for being good.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>03</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12 h6.5"/><path d="M10 12 C13 12 13 7 16.5 7 h2.5 M10 12 C13 12 13 17 16.5 17 h2.5"/><path d="M16.8 4.8 L19.5 7 L16.8 9.2 M16.8 14.8 L19.5 17 L16.8 19.2"/></svg></span>
+        <b data-en="They build external optionality" data-id="Mereka membangun opsionalitas eksternal">They build external optionality</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth." data-id="Nilai profesional mereka tidak sepenuhnya bergantung pada penilaian satu pemberi kerja. Mereka memiliki data pasar tentang nilai mereka sendiri.">Their professional value is not entirely dependent on one employer’s assessment of them. They have market data on their own worth.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>04</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 19.5 V10 a4.5 4.5 0 0 1 4.5-4.5 h8"/><path d="M14.8 2.3 L18.5 5.5 L14.8 8.7"/></svg></span>
+        <b data-en="They pivot when the evidence demands it" data-id="Mereka berpivot ketika buktinya menuntutnya">They pivot when the evidence demands it</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor." data-id="Mereka tidak bertahan di peran yang salah karena pola pikir sunk-cost. Mereka mengenali kapan perubahan strategis akan berlipat menguntungkan mereka.">They don’t stay in the wrong role out of sunk-cost thinking. They recognize when a strategic change will compound in their favor.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>05</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.6 12 a7.4 7.4 0 1 1 2.1 5.2"/><path d="M4.6 17.6 v-5 h5"/></svg></span>
+        <b data-en="They treat learning as a system, not an event" data-id="Mereka memperlakukan pembelajaran sebagai sistem, bukan peristiwa">They treat learning as a system, not an event</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They don’t wait for their company to develop them. They identify their gaps and close them deliberately." data-id="Mereka tidak menunggu perusahaan mengembangkan mereka. Mereka mengidentifikasi kesenjangan dan menutupnya dengan sengaja.">They don’t wait for their company to develop them. They identify their gaps and close them deliberately.</span>
+        <span class="t-next" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></span>
+      </div>
+      <div class="trait">
+        <i>06</i>
+        <span class="t-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9.5" r="2.8"/><circle cx="16" cy="10.2" r="2.2"/><path d="M4 18.5 a5 5 0 0 1 10 0"/><path d="M14.5 18.5 a4.3 4.3 0 0 1 6.4-3.6"/></svg></span>
+        <b data-en="They invest in people, not just projects" data-id="Mereka berinvestasi pada orang, bukan hanya proyek">They invest in people, not just projects</b>
+        <span class="t-rule" aria-hidden="true"></span>
+        <span class="t-desc" data-en="They understand that the network built in years 1–5 will open more doors than the résumé will." data-id="Mereka paham bahwa jaringan yang dibangun di tahun 1–5 akan membuka lebih banyak pintu daripada résumé.">They understand that the network built in years 1–5 will open more doors than the résumé will.</span>
+      </div>
     </div>
     <div class="ro-close reveal">
       <p data-en="None of these are personality traits.<br><span class='hl-gold'>They are practices</span> — learnable, repeatable,<br>and far easier to sustain inside a system built to reinforce them." data-id="Tidak satu pun dari ini adalah sifat kepribadian.<br><span class='hl-gold'>Semuanya adalah praktik</span> — dapat dipelajari, dapat diulang,<br>dan jauh lebih mudah dipertahankan di dalam sistem yang dibangun untuk memperkuatnya.">
@@ -1372,34 +1522,62 @@
 
     <div class="contrast reveal">
       <div class="con-card">
-        <h3 data-en="Your career without a system" data-id="Kariermu tanpa sistem">Your career without a system</h3>
+        <div class="con-head">
+          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6.5 6.5 L17.5 17.5 M17.5 6.5 L6.5 17.5"/></svg></span>
+          <h3 data-en="Your career <span class='c2'>without a system</span>" data-id="Kariermu <span class='c2'>tanpa sistem</span>">Your career <span class='c2'>without a system</span></h3>
+        </div>
         <ul>
-        <li data-en="Waiting for performance review to learn where you stand" data-id="Menunggu review kinerja untuk tahu posisimu">Waiting for performance review to learn where you stand</li>
-        <li data-en="Learning whatever your company decides to train you on" data-id="Mempelajari apa pun yang diputuskan perusahaan untuk dilatihkan">Learning whatever your company decides to train you on</li>
-        <li data-en="Applying to jobs only when desperate or unhappy" data-id="Melamar pekerjaan hanya saat terdesak atau tidak bahagia">Applying to jobs only when desperate or unhappy</li>
-        <li data-en="Building relationships only within your current team" data-id="Membangun hubungan hanya di dalam tim saat ini">Building relationships only within your current team</li>
-        <li data-en="Unsure whether to stay, pivot, or go abroad" data-id="Tidak yakin harus bertahan, berpivot, atau ke luar negeri">Unsure whether to stay, pivot, or go abroad</li>
-        <li data-en="Salary determined by HR bands, not by market value awareness" data-id="Gaji ditentukan pita HR, bukan kesadaran nilai pasar">Salary determined by HR bands, not by market value awareness</li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Waiting for performance review to learn where you stand" data-id="Menunggu review kinerja untuk tahu posisimu">Waiting for performance review to learn where you stand</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Learning whatever your company decides to train you on" data-id="Mempelajari apa pun yang diputuskan perusahaan untuk dilatihkan">Learning whatever your company decides to train you on</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Applying to jobs only when desperate or unhappy" data-id="Melamar pekerjaan hanya saat terdesak atau tidak bahagia">Applying to jobs only when desperate or unhappy</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Building relationships only within your current team" data-id="Membangun hubungan hanya di dalam tim saat ini">Building relationships only within your current team</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Unsure whether to stay, pivot, or go abroad" data-id="Tidak yakin harus bertahan, berpivot, atau ke luar negeri">Unsure whether to stay, pivot, or go abroad</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Salary determined by HR bands, not by market value awareness" data-id="Gaji ditentukan pita HR, bukan kesadaran nilai pasar">Salary determined by HR bands, not by market value awareness</span></li>
         </ul>
       </div>
+      <span class="con-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5 L12.5 12 L6 19"/><path d="M12.5 5 L19 12 L12.5 19"/></svg></span>
       <div class="con-card with">
-        <h3 data-en="Your career with Metanoia" data-id="Kariermu dengan Metanoia">Your career with Metanoia</h3>
+        <div class="con-head">
+          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 12.5 L10 17 L18.5 7.5"/></svg></span>
+          <h3 data-en="Your career <span class='c2'>with Metanoia</span>" data-id="Kariermu <span class='c2'>dengan Metanoia</span>">Your career <span class='c2'>with Metanoia</span></h3>
+          <span class="con-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor"><circle cx="20" cy="20" r="16.5" stroke-width="1.4" opacity=".85"/><path d="M11 25.5 L16.5 14 L20 19.5 L23.5 12.5 L29 25.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
         <ul>
-        <li data-en="Real-time readiness score across all four career dimensions" data-id="Skor kesiapan real-time di empat dimensi karier">Real-time readiness score across all four career dimensions</li>
-        <li data-en="Deliberate skill roadmap targeted to your 3-year destination" data-id="Peta jalan keterampilan terarah ke tujuan 3 tahunmu">Deliberate skill roadmap targeted to your 3-year destination</li>
-        <li data-en="Market-calibrated positioning — knowing your worth externally" data-id="Pemosisian terkalibrasi pasar — mengetahui nilaimu secara eksternal">Market-calibrated positioning — knowing your worth externally</li>
-        <li data-en="Strategic network built across industries and seniority levels" data-id="Jaringan strategis lintas industri dan tingkat senioritas">Strategic network built across industries and seniority levels</li>
-        <li data-en="Clear criteria for staying vs. pivoting — based on evidence, not emotion" data-id="Kriteria jelas bertahan vs. berpivot — berdasarkan bukti, bukan emosi">Clear criteria for staying vs. pivoting — based on evidence, not emotion</li>
-        <li data-en="Compensation negotiated from a position of demonstrated value" data-id="Kompensasi dinegosiasikan dari posisi nilai yang terbukti">Compensation negotiated from a position of demonstrated value</li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Real-time readiness score across all four career dimensions" data-id="Skor kesiapan real-time di empat dimensi karier">Real-time readiness score across all four career dimensions</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Deliberate skill roadmap targeted to your 3-year destination" data-id="Peta jalan keterampilan terarah ke tujuan 3 tahunmu">Deliberate skill roadmap targeted to your 3-year destination</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Market-calibrated positioning — knowing your worth externally" data-id="Pemosisian terkalibrasi pasar — mengetahui nilaimu secara eksternal">Market-calibrated positioning — knowing your worth externally</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Strategic network built across industries and seniority levels" data-id="Jaringan strategis lintas industri dan tingkat senioritas">Strategic network built across industries and seniority levels</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Clear criteria for staying vs. pivoting — based on evidence, not emotion" data-id="Kriteria jelas bertahan vs. berpivot — berdasarkan bukti, bukan emosi">Clear criteria for staying vs. pivoting — based on evidence, not emotion</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Compensation negotiated from a position of demonstrated value" data-id="Kompensasi dinegosiasikan dari posisi nilai yang terbukti">Compensation negotiated from a position of demonstrated value</span></li>
         </ul>
       </div>
     </div>
     <p class="con-close reveal" data-en="The early career window doesn’t stay open indefinitely. The professionals who design it win. The ones who wait discover, usually around year seven, that they’ve been moving in the wrong direction for a long time. <em>Design it now.</em>" data-id="Jendela karier awal tidak tetap terbuka selamanya. Profesional yang merancangnya menang. Yang menunggu menemukan, biasanya sekitar tahun ketujuh, bahwa mereka telah bergerak dalam arah yang salah untuk waktu yang lama. <em>Rancang sekarang.</em>">The early career window doesn’t stay open indefinitely. The professionals who design it win. The ones who wait discover, usually around year seven, that they’ve been moving in the wrong direction for a long time. <em>Design it now.</em></p>
     <div class="pillars4 reveal">
-      <div class="p4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg><b data-en="A clear map" data-id="Peta yang jelas">A clear map</b><span data-en="Your position, your destination, your gap — measured" data-id="Posisimu, tujuanmu, kesenjanganmu — terukur">Your position, your destination, your gap — measured</span></div>
-      <div class="p4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg><b data-en="The right gear" data-id="Perlengkapan yang tepat">The right gear</b><span data-en="Skills, presence, and brand that open the next level" data-id="Keterampilan, kehadiran, dan merek yang membuka level berikutnya">Skills, presence, and brand that open the next level</span></div>
-      <div class="p4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg><b data-en="Strong support" data-id="Dukungan yang kuat">Strong support</b><span data-en="Mentors, peers, and AI tools that keep you accountable" data-id="Mentor, rekan, dan alat AI yang menjagamu tetap akuntabel">Mentors, peers, and AI tools that keep you accountable</span></div>
-      <div class="p4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg><b data-en="A strategic route" data-id="Rute yang strategis">A strategic route</b><span data-en="A 3-year plan built around your specific ambition" data-id="Rencana 3 tahun yang dibangun di sekitar ambisi spesifikmu">A 3-year plan built around your specific ambition</span></div>
+      <div class="p4">
+        <i>01</i>
+        <span class="p4-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></span>
+        <b data-en="A clear map" data-id="Peta yang jelas">A clear map</b>
+        <span class="p4-d" data-en="Your position, your destination, your gap — measured" data-id="Posisimu, tujuanmu, kesenjanganmu — terukur">Your position, your destination, your gap — measured</span>
+      </div>
+      <div class="p4">
+        <i>02</i>
+        <span class="p4-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></span>
+        <b data-en="The right gear" data-id="Perlengkapan yang tepat">The right gear</b>
+        <span class="p4-d" data-en="Skills, presence, and brand that open the next level" data-id="Keterampilan, kehadiran, dan merek yang membuka level berikutnya">Skills, presence, and brand that open the next level</span>
+      </div>
+      <div class="p4">
+        <i>03</i>
+        <span class="p4-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></span>
+        <b data-en="Strong support" data-id="Dukungan yang kuat">Strong support</b>
+        <span class="p4-d" data-en="Mentors, peers, and AI tools that keep you accountable" data-id="Mentor, rekan, dan alat AI yang menjagamu tetap akuntabel">Mentors, peers, and AI tools that keep you accountable</span>
+      </div>
+      <div class="p4">
+        <i>04</i>
+        <span class="p4-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></span>
+        <b data-en="A strategic route" data-id="Rute yang strategis">A strategic route</b>
+        <span class="p4-d" data-en="A 3-year plan built around your specific ambition" data-id="Rencana 3 tahun yang dibangun di sekitar ambisi spesifikmu">A 3-year plan built around your specific ambition</span>
+      </div>
     </div>
   </div>
 </section>
