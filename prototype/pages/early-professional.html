@@ -460,30 +460,70 @@
   .p4 b{display:block;font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px}
   .p4 span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.5}
 
-  /* ═══ CH2 — system ═══ */
-  .beat{max-width:780px;margin:0 auto 74px;text-align:center}
-  .beat .b1{font-size:16px;color:var(--text-muted);line-height:1.75;margin:0 0 26px}
-  .beat .b2{font-family:var(--serif);font-style:italic;font-size:clamp(2rem,4.4vw,3.3rem);font-weight:600;
-    color:var(--text);margin:0 0 26px;line-height:1.2}
-  .beat .b3{font-size:15px;color:var(--text-sub);line-height:1.8;margin:0}
-  .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  .sys{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
-    backdrop-filter:var(--glass-blur);transition:border-color .25s,transform .25s}
-  .sys:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .sys .sys-img{position:relative;height:170px}
-  .sys .sys-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .sys .sys-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,18,.72))}
-  .sys .sys-tag{position:absolute;left:18px;bottom:14px;z-index:2;font-size:10px;font-weight:800;
-    letter-spacing:.16em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff}
-  .sys-body{padding:24px 26px 28px}
-  .sys-body h3{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--text);margin:0 0 10px}
-  .sys-body p{font-size:13.5px;color:var(--text-muted);line-height:1.75;margin:0}
-  .goal{max-width:680px;margin:86px auto 0;text-align:center;position:relative;padding:44px 30px;
-    border-top:1px solid rgba(201,168,76,.3);border-bottom:1px solid rgba(201,168,76,.3)}
-  .goal .g-label{font-size:11px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
-  .goal h3{font-family:var(--serif);font-size:clamp(1.4rem,2.6vw,2rem);font-weight:600;color:var(--text);
-    line-height:1.35;margin:0 0 18px}
-  .goal p{font-size:14.5px;color:var(--text-muted);line-height:1.8;margin:0}
+  /* ═══ CH2 — the Career Operating System (Student Chapter II design system) ═══ */
+  .cos-headline-block{text-align:center;max-width:720px;margin:0 auto 80px;position:relative}
+  .cos-pretext{font-size:16px;color:var(--text-muted);line-height:1.7;margin:0 0 16px;font-weight:300}
+  .cos-headline{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);font-weight:600;color:var(--text);font-style:italic;
+    margin:0 0 24px;letter-spacing:-.02em}
+  .cos-posttext{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+
+  /* — the Metanoia Career System: horizontal integrated flow — */
+  .system-journey{margin:0 auto 80px;max-width:1160px}
+  .system-flow{position:relative}
+  .flow-rail{position:absolute;top:23px;left:0;right:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.16) 7%,rgba(201,168,76,.16) 93%,transparent)}
+  .flow-rail-fill{position:absolute;left:0;top:0;height:100%;width:0;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold) 55%,var(--gold-bright));
+    box-shadow:0 0 12px rgba(201,168,76,.45)}
+  .flow-rail-fill::after{content:'';position:absolute;right:-4px;top:50%;transform:translateY(-50%);
+    width:8px;height:8px;border-radius:50%;background:var(--gold-bright);
+    box-shadow:0 0 14px rgba(240,216,120,.85)}
+  .flow-chev{position:absolute;top:23px;transform:translate(-50%,-50%);width:22px;height:22px;
+    border-radius:50%;background:var(--bg-panel);border:1px solid rgba(201,168,76,.28);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);z-index:1}
+  .flow-chev svg{width:9px;height:9px;display:block}
+  .flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px;position:relative}
+  .flow-item{position:relative;text-align:left}
+  .flow-item .stage-badge{margin:0 auto 28px}
+  .flow-item .stage-media{margin-bottom:22px;aspect-ratio:3/2}
+  .flow-item .sys-desc{max-width:none}
+  .flow-item:hover .stage-media img{transform:scale(1.05)}
+  .sys-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 10px}
+  .sys-desc{font-size:13px;color:var(--text-muted);line-height:1.75;margin:0}
+  .flow-item.sys-map .stage-kicker{color:#60A5FA}
+  .flow-item.sys-pack .stage-kicker{color:#4ECDC4}
+  .flow-item.sys-rope .stage-kicker{color:var(--gold)}
+  .flow-item.sys-route .stage-kicker{color:#6EE7B7}
+  .flow-item.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
+  .flow-item.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
+  .flow-item.sys-rope:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .flow-item.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+  /* staggered left-to-right reveal */
+  .system-journey.reveal .flow-item{opacity:0;transform:translateY(20px);
+    transition:opacity .6s ease,transform .6s ease}
+  .system-journey.revealed .flow-item{opacity:1;transform:none}
+  .system-journey.revealed .flow-item:nth-child(1){transition-delay:.08s}
+  .system-journey.revealed .flow-item:nth-child(2){transition-delay:.24s}
+  .system-journey.revealed .flow-item:nth-child(3){transition-delay:.40s}
+  .system-journey.revealed .flow-item:nth-child(4){transition-delay:.56s}
+  /* desktop-only typographic bump matching the Student Chapter II scale */
+  @media(min-width:961px){
+    .system-journey{padding:60px 60px 50px}
+    .system-journey .journey-kicker{font-size:11px;letter-spacing:.32em;margin-bottom:14px}
+    .system-journey .journey-title{font-size:clamp(15px,1.55vw,18px);letter-spacing:.17em;line-height:1.7}
+    .system-journey .stage-kicker{font-size:11px;letter-spacing:.24em;margin-bottom:6px}
+    .system-journey .year-label{font-size:24px;margin-bottom:12px}
+    .sys-sub{font-size:15.5px}
+    .sys-desc{font-size:13.5px}
+  }
+
+  .one-percent-block{text-align:center;padding:60px 0 0;position:relative}
+  .one-percent-inner{max-width:640px;margin:0 auto}
+  .one-percent-line{width:64px;height:2px;background:var(--gold);margin:0 auto 24px;opacity:.5}
+  .one-percent-label{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
+  .one-percent-statement{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;color:var(--text);margin:0 0 20px;
+    line-height:1.2;letter-spacing:-.01em}
+  .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0}
 
   /* ═══ CH3 — products ═══ */
   .prod-intro{text-align:center;max-width:640px;margin:0 auto 60px}
@@ -851,7 +891,10 @@
     .stage-media{grid-column:2;margin-top:14px;max-width:420px}
     .contrast{grid-template-columns:1fr}
     .pillars4{grid-template-columns:1fr 1fr}
-    .sys-grid{grid-template-columns:1fr}
+    .flow-grid{grid-template-columns:1fr 1fr;gap:44px 28px}
+    .flow-rail,.flow-chev{display:none}
+    .flow-item .stage-badge{margin:0 0 20px}
+    .flow-item .stage-media{grid-column:auto;margin-top:0;max-width:none}
     .prod-grid{grid-template-columns:1fr}
     .prod-feat{grid-template-columns:1fr}
     .prod-feat.rev .pf-copy{order:1}
@@ -875,6 +918,8 @@
     .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
     .journey-block{padding:34px 22px 30px}
     .stage-media{max-width:none}
+    .flow-grid{grid-template-columns:1fr;gap:0}
+    .flow-item + .flow-item{margin-top:36px;padding-top:36px;border-top:1px solid rgba(201,168,76,.13)}
     .pf-copy{padding:30px 24px}
     .prod-feats{grid-template-columns:1fr}
     .prog{grid-template-columns:1fr;gap:14px}
@@ -901,6 +946,7 @@
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
     .reveal{opacity:1;transform:none}
+    .system-journey.reveal .flow-item{opacity:1;transform:none}
   }
 </style>
 </head>
@@ -1224,33 +1270,101 @@
 <section class="block alt" id="career-os">
   <div class="section-inner">
     <div class="chapter-label reveal" data-en="Chapter II · The Career Operating System" data-id="Bab II · Sistem Operasi Karier">Chapter II · The Career Operating System</div>
-    <div class="beat reveal">
-      <p class="b1" data-en="Most early professionals perform well. They receive positive reviews. They get incremental raises. They wait." data-id="Kebanyakan profesional muda berkinerja baik. Mereka menerima review positif. Mereka mendapat kenaikan bertahap. Mereka menunggu.">Most early professionals perform well. They receive positive reviews. They get incremental raises. They wait.</p>
-      <p class="b2" data-en="A very few do not wait." data-id="Sebagian kecil tidak menunggu.">A very few do not wait.</p>
-      <p class="b3" data-en="They are not more talented or more connected. They have a clearer picture of where they are going and a deliberate system for getting there. Metanoia gives every professional the same system." data-id="Mereka bukan lebih berbakat atau lebih berkoneksi. Mereka memiliki gambaran yang lebih jelas tentang ke mana mereka pergi dan sistem yang disengaja untuk sampai ke sana. Metanoia memberikan sistem yang sama kepada setiap profesional.">They are not more talented or more connected. They have a clearer picture of where they are going and a deliberate system for getting there. Metanoia gives every professional the same system.</p>
+    <div class="cos-headline-block reveal">
+      <p class="cos-pretext" data-en="Most early professionals perform well.<br>They receive positive reviews. They get incremental raises. They wait." data-id="Kebanyakan profesional muda berkinerja baik.<br>Mereka menerima review positif. Mereka mendapat kenaikan bertahap. Mereka menunggu.">
+        Most early professionals perform well.<br>
+        They receive positive reviews. They get incremental raises. They wait.
+      </p>
+      <h2 class="cos-headline" data-en="A very few do not wait." data-id="Sebagian kecil tidak menunggu.">A very few do not wait.</h2>
+      <p class="cos-posttext" data-en="They are not more talented or more connected.<br>They have a clearer picture of where they are going and a deliberate system for getting there.<br>Metanoia gives every professional the same system." data-id="Mereka bukan lebih berbakat atau lebih berkoneksi.<br>Mereka memiliki gambaran yang lebih jelas tentang ke mana mereka pergi dan sistem yang disengaja untuk sampai ke sana.<br>Metanoia memberikan sistem yang sama kepada setiap profesional.">
+        They are not more talented or more connected.<br>
+        They have a clearer picture of where they are going and a deliberate system for getting there.<br>
+        Metanoia gives every professional the same system.
+      </p>
     </div>
-    <div class="sys-grid">
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/map.jpg" alt="Career Intelligence" loading="lazy"><span class="sys-tag" style="background:#1D5FAB">System 01 · The Map</span></div>
-        <div class="sys-body"><h3 data-en="Career Intelligence" data-id="Inteligensi Karier">Career Intelligence</h3><p data-en="A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level." data-id="Diagnostik di mana kamu sebenarnya berada — bukan di mana kamu pikir berada. Kesiapanmu di empat dimensi profesional, dibandingkan dengan jabatan yang kamu targetkan dan tingkat senioritas yang kamu tuju. Ketahui apa yang memisahkanmu dari level berikutnya.">A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level.</p></div>
+
+    <div class="journey-block system-journey reveal">
+      <div class="journey-header">
+        <div class="journey-kicker" data-en="Four instruments. One deliberate ascent." data-id="Empat instrumen. Satu pendakian yang disengaja.">Four instruments. One deliberate ascent.</div>
+        <h3 class="journey-title" data-en="The Metanoia Career System" data-id="Sistem Karier Metanoia">The Metanoia Career System</h3>
       </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/pack.jpg" alt="Professional Identity" loading="lazy"><span class="sys-tag" style="background:#0D7377">System 02 · The Pack</span></div>
-        <div class="sys-body"><h3 data-en="Professional Identity" data-id="Identitas Profesional">Professional Identity</h3><p data-en="The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template." data-id="Kehadiran eksekutif, merek pribadi, dan keterampilan komunikasi yang membuat perbedaan antara orang yang dipromosikan dan orang yang sama mampunya namun tidak. Dibangun dari kekuatanmu saat ini, bukan template generik.">The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template.</p></div>
-      </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/rope.jpg" alt="Skill &amp; Network Architecture" loading="lazy"><span class="sys-tag" style="background:#B45309">System 03 · The Rope</span></div>
-        <div class="sys-body"><h3 data-en="Skill &amp; Network Architecture" data-id="Arsitektur Keterampilan &amp; Jaringan">Skill &amp; Network Architecture</h3><p data-en="The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition." data-id="Keterampilan spesifik, hubungan, dan eksposur pasar yang dibutuhkan untuk mencapai tujuan berikutmu. Bukan pengembangan profesional umum — pengembangan yang ditarget secara presisi berdasarkan kesenjangan aktualmu dan ambisi spesifikmu.">The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition.</p></div>
-      </div>
-      <div class="sys reveal">
-        <div class="sys-img"><img src="../assets/bg/start.jpg" alt="Your 3-Year Plan" loading="lazy"><span class="sys-tag" style="background:#1A5C38">System 04 · The Horizon</span></div>
-        <div class="sys-body"><h3 data-en="Your 3-Year Plan" data-id="Rencana 3 Tahunmu">Your 3-Year Plan</h3><p data-en="A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined." data-id="Arsitektur karier yang hidup. Bukan dokumen statis — rute dinamis yang dikalibrasi ulang saat kamu berkembang, saat pasar bergeser, dan saat tujuanmu semakin tajam. Satu tindakan paling berdampak pada satu waktu, selalu mengarah ke tujuan yang kamu tetapkan.">A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined.</p></div>
+
+      <div class="system-flow">
+        <div class="flow-rail" aria-hidden="true"><div class="flow-rail-fill" id="flowFill"></div></div>
+        <div class="flow-chev" style="left:25%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:50%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:75%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+
+        <div class="flow-grid">
+
+          <div class="flow-item sys-map">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="url(#stGold)" stroke="none" opacity=".9"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/map.jpg" alt="A climber studying a map high above the valley" loading="lazy"></div>
+            <div class="stage-kicker" data-en="System 01" data-id="Sistem 01">System 01</div>
+            <div class="year-label">The Map</div>
+            <p class="sys-sub" data-en="Career Intelligence" data-id="Inteligensi Karier">Career Intelligence</p>
+            <p class="sys-desc" data-en="A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level." data-id="Diagnostik di mana kamu sebenarnya berada — bukan di mana kamu pikir berada. Kesiapanmu di empat dimensi profesional, dibandingkan dengan jabatan yang kamu targetkan dan tingkat senioritas yang kamu tuju. Ketahui apa yang memisahkanmu dari level berikutnya.">
+              A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level.
+            </p>
+          </div>
+
+          <div class="flow-item sys-pack">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/><path d="M12 12 v4.5 M9.5 14.2 h5"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/pack.jpg" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
+            <div class="stage-kicker" data-en="System 02" data-id="Sistem 02">System 02</div>
+            <div class="year-label">The Pack</div>
+            <p class="sys-sub" data-en="Professional Identity" data-id="Identitas Profesional">Professional Identity</p>
+            <p class="sys-desc" data-en="The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template." data-id="Kehadiran eksekutif, merek pribadi, dan keterampilan komunikasi yang membuat perbedaan antara orang yang dipromosikan dan orang yang sama mampunya namun tidak. Dibangun dari kekuatanmu saat ini, bukan template generik.">
+              The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template.
+            </p>
+          </div>
+
+          <div class="flow-item sys-rope">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="5" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="19" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="12" cy="9" r="1.8" fill="url(#stGold)" stroke="none"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/rope.jpg" alt="A climbing rope securing the ascent" loading="lazy"></div>
+            <div class="stage-kicker" data-en="System 03" data-id="Sistem 03">System 03</div>
+            <div class="year-label">The Rope</div>
+            <p class="sys-sub" data-en="Skill &amp; Network Architecture" data-id="Arsitektur Keterampilan &amp; Jaringan">Skill &amp; Network Architecture</p>
+            <p class="sys-desc" data-en="The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition." data-id="Keterampilan spesifik, hubungan, dan eksposur pasar yang dibutuhkan untuk mencapai tujuan berikutmu. Bukan pengembangan profesional umum — pengembangan yang ditarget secara presisi berdasarkan kesenjangan aktualmu dan ambisi spesifikmu.">
+              The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition.
+            </p>
+          </div>
+
+          <div class="flow-item sys-route">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/><circle cx="4" cy="20" r="1.7" fill="url(#stGold)" stroke="none"/><circle cx="20" cy="6.5" r="1.7" fill="url(#stGold)" stroke="none"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/bg/start.jpg" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
+            <div class="stage-kicker" data-en="System 04" data-id="Sistem 04">System 04</div>
+            <div class="year-label">The Horizon</div>
+            <p class="sys-sub" data-en="Your 3-Year Plan" data-id="Rencana 3 Tahunmu">Your 3-Year Plan</p>
+            <p class="sys-desc" data-en="A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined." data-id="Arsitektur karier yang hidup. Bukan dokumen statis — rute dinamis yang dikalibrasi ulang saat kamu berkembang, saat pasar bergeser, dan saat tujuanmu semakin tajam. Satu tindakan paling berdampak pada satu waktu, selalu mengarah ke tujuan yang kamu tetapkan.">
+              A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined.
+            </p>
+          </div>
+
+        </div>
       </div>
     </div>
-    <div class="goal reveal">
-      <p class="g-label" data-en="The Goal" data-id="Tujuan">The Goal</p>
-      <h3 data-en="Reach your next level on your timeline — <em>not when your company decides you’re ready.</em>" data-id="Capai level berikutmu pada garis waktumu — <em>bukan ketika perusahaanmu memutuskan kamu siap.</em>">Reach your next level on your timeline — <em>not when your company decides you’re ready.</em></h3>
-      <p data-en="Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value." data-id="Melalui kejelasan tentang ke mana kamu pergi. Melalui presisi dalam apa yang kamu bangun. Melalui kepercayaan diri yang datang dari mengetahui nilaimu.">Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value.</p>
+
+    <div class="one-percent-block reveal">
+      <div class="one-percent-inner">
+        <div class="one-percent-line"></div>
+        <p class="one-percent-label" data-en="The Goal" data-id="Tujuan">The Goal</p>
+        <h3 class="one-percent-statement" data-en="Reach your next level on your timeline — <em>not when your company decides you’re ready.</em>" data-id="Capai level berikutmu pada garis waktumu — <em>bukan ketika perusahaanmu memutuskan kamu siap.</em>">
+          Reach your next level on your timeline — <em>not when your company decides you’re ready.</em>
+        </h3>
+        <p class="one-percent-sub" data-en="Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value." data-id="Melalui kejelasan tentang ke mana kamu pergi. Melalui presisi dalam apa yang kamu bangun. Melalui kepercayaan diri yang datang dari mengetahui nilaimu.">
+          Through clarity about where you’re going. Through precision in what you’re building. Through the confidence that comes from knowing your value.
+        </p>
+        <div class="one-percent-line"></div>
+      </div>
     </div>
     <div class="ch-cta reveal"><a href="../career-map-assessment.html" data-en="See where you stand — free Career Map →" data-id="Lihat posisimu — Career Map gratis →">See where you stand — free Career Map →</a></div>
   </div>
@@ -1709,15 +1823,25 @@ const dotObserver = new IntersectionObserver((entries)=>{
 },{threshold:.4});
 stageRows.forEach(y=>dotObserver.observe(y));
 
-/* ─── Journey rail: the vertical track fills downward, driven by scroll ─── */
+/* ─── Journey rails: the vertical track fills downward, the horizontal
+       system flow fills left-to-right, all driven by scroll ─── */
 const railTrack = document.getElementById('journeyTrack');
 const railFill = document.getElementById('railFill');
-if(railTrack && railFill){
+const flowEl = document.querySelector('.system-flow');
+const flowFill = document.getElementById('flowFill');
+if((railTrack && railFill) || (flowEl && flowFill)){
   let railTick = false;
   const updateRails = ()=>{
-    const r = railTrack.getBoundingClientRect();
-    const p = Math.min(1, Math.max(0, (innerHeight * 0.65 - r.top) / r.height));
-    railFill.style.height = (p * 100).toFixed(2) + '%';
+    if(railTrack && railFill){
+      const r = railTrack.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (innerHeight * 0.65 - r.top) / r.height));
+      railFill.style.height = (p * 100).toFixed(2) + '%';
+    }
+    if(flowEl && flowFill){
+      const r = flowEl.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (innerHeight * 0.82 - r.top) / (r.height * 1.05)));
+      flowFill.style.width = (p * 100).toFixed(2) + '%';
+    }
     railTick = false;
   };
   addEventListener('scroll', ()=>{
