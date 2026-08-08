@@ -172,209 +172,576 @@
     line-height:1.18;letter-spacing:.002em;text-align:center;max-width:820px;margin:0 auto 22px}
   .sec-head em{font-style:italic;color:var(--gold)}
 
-  /* ═══ CH1 — narrative + quote + image ═══ */
-  .nar-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center;
-    margin:64px 0 0}
-  .nar-copy p{font-size:15.5px;color:var(--text-sub);line-height:1.85;margin:0 0 22px}
-  .nar-quote{margin:30px 0 0;padding:26px 30px;border-left:2px solid var(--gold);
-    background:var(--glass-bg);backdrop-filter:var(--glass-blur);border-radius:0 14px 14px 0}
-  .nar-quote p{font-family:var(--serif);font-style:italic;font-size:17px;color:var(--text);line-height:1.7;margin:0}
-  .nar-quote cite{display:block;margin-top:12px;font-style:normal;font-size:11px;font-weight:700;
-    letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
-  .nar-visual{position:relative}
-  .nar-visual img{width:100%;height:460px;object-fit:cover;border-radius:20px;display:block;
-    border:1px solid var(--gold-border);box-shadow:0 30px 70px rgba(0,0,0,.4)}
-  .nar-visual::after{content:'';position:absolute;inset:0;border-radius:20px;pointer-events:none;
-    background:linear-gradient(180deg,transparent 55%,rgba(5,10,18,.5))}
+  /* ═══ CH1 — opening hero: narrative beside framed evidence (FG design system) ═══ */
+  .hl-gold{color:var(--gold);font-weight:600}
+  @keyframes kenBurns{from{transform:scale(1.001)}to{transform:scale(1.065)}}
+  @keyframes beamBreathe{0%,100%{opacity:.5}50%{opacity:1}}
+  @keyframes emblemSpin{to{transform:rotate(360deg)}}
+  .g-open{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:56px;
+    align-items:center;max-width:1140px;margin:0 auto}
+  .go-kicker{display:flex;align-items:center;gap:18px;font-size:13px;font-weight:800;
+    letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+  .go-kicker::after{content:'';flex:1;max-width:110px;height:1px;background:var(--gold);opacity:.6}
+  .go-head{font-family:var(--serif);font-size:clamp(1.95rem,3.1vw,2.8rem);font-weight:600;
+    color:var(--text);line-height:1.2;letter-spacing:.002em;margin:0}
+  .go-head em{font-style:italic;font-weight:500;
+    background:linear-gradient(105deg,var(--gold-deep) 0%,var(--gold-bright) 55%,var(--gold) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .go-rule{width:46px;height:2px;border-radius:2px;margin:26px 0 28px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .g-lede p{font-size:14.5px;color:var(--text-sub);line-height:1.82;margin:0 0 22px}
+  .g-lede p:last-child{margin-bottom:0}
+  .g-frame{position:relative}
+  .g-frame::after{content:'';position:absolute;left:50%;bottom:-36px;transform:translateX(-50%);
+    width:86%;height:64px;pointer-events:none;filter:blur(9px);
+    background:radial-gradient(50% 100% at 50% 0%, rgba(201,168,76,.22), transparent 78%)}
+  .gf-img{border-radius:18px;overflow:hidden;position:relative;aspect-ratio:4/3;
+    border:1px solid rgba(201,168,76,.42);box-shadow:0 30px 70px rgba(0,0,0,.45)}
+  .gf-img img{width:100%;height:100%;object-fit:cover;display:block;
+    animation:kenBurns 26s ease-in-out infinite alternate;will-change:transform}
+  .gf-img::after{content:'';position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(180deg,rgba(5,10,18,.08) 0%,transparent 32%,transparent 62%,rgba(5,10,18,.4) 100%)}
+  .g-open .g-lede > *,.g-open .g-frame{opacity:0;transform:translateY(18px);
+    transition:opacity .7s ease,transform .7s ease}
+  .g-open.revealed .g-lede > :nth-child(1){opacity:1;transform:none;transition-delay:.04s}
+  .g-open.revealed .g-lede > :nth-child(2){opacity:1;transform:none;transition-delay:.14s}
+  .g-open.revealed .g-lede > :nth-child(3){opacity:1;transform:none;transition-delay:.24s}
+  .g-open.revealed .g-lede > :nth-child(4){opacity:1;transform:none;transition-delay:.34s}
+  .g-open.revealed .g-lede > :nth-child(5){opacity:1;transform:none;transition-delay:.44s}
+  .g-open.revealed .g-frame{opacity:1;transform:none;transition-delay:.3s}
+  /* — cinematic statement band (full content width) — */
+  .ro-quote{position:relative;margin:76px auto 0;border-radius:22px;text-align:center;
+    border:1px solid rgba(201,168,76,.38);padding:96px 48px 72px;
+    box-shadow:0 34px 90px rgba(0,0,0,.42),0 0 60px rgba(201,168,76,.07)}
+  .q-bg{position:absolute;inset:0;z-index:0;pointer-events:none;border-radius:21px;overflow:hidden}
+  .q-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 42%;display:block;
+    animation:qDrift 32s ease-in-out infinite alternate;will-change:transform}
+  @keyframes qDrift{from{transform:scale(1.02)}to{transform:scale(1.12)}}
+  .q-veil{position:absolute;inset:0;background:
+    radial-gradient(70% 90% at 50% 108%, rgba(201,168,76,.17), transparent 62%),
+    linear-gradient(180deg, rgba(5,10,18,.90) 0%, rgba(5,10,18,.70) 45%, rgba(5,10,18,.87) 100%)}
+  .q-beam{position:absolute;top:-30%;left:16%;width:32%;height:160%;pointer-events:none;
+    background:linear-gradient(105deg,transparent 30%,rgba(240,216,120,.08) 50%,transparent 70%);
+    filter:blur(6px);transform:rotate(10deg);animation:beamBreathe 9s ease-in-out infinite}
+  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;z-index:2;
+    border-top:1px solid rgba(201,168,76,.55);border-left:1px solid rgba(201,168,76,.55);border-radius:7px 0 0 0}
+  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;z-index:2;
+    border-bottom:1px solid rgba(201,168,76,.55);border-right:1px solid rgba(201,168,76,.55);border-radius:0 0 7px 0}
+  .ro-qmark{position:absolute;top:-27px;left:50%;transform:translateX(-50%);width:54px;height:54px;z-index:3;
+    border-radius:50%;background:#0A101D;border:1px solid rgba(201,168,76,.55);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);
+    box-shadow:0 0 22px rgba(201,168,76,.22)}
+  .ro-qmark svg{width:22px;height:22px;display:block}
+  .ro-quote p{position:relative;z-index:2;font-family:var(--serif);font-weight:500;
+    font-size:clamp(1.35rem,2.4vw,1.95rem);line-height:1.55;margin:0;letter-spacing:.002em}
+  .ro-quote .q-l1{color:#F2F5FA;text-shadow:0 2px 24px rgba(5,10,18,.6);display:inline-block;
+    opacity:0;transform:translateY(20px);transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
+  .ro-quote.revealed .q-l1{opacity:1;transform:none;transition-delay:.28s}
+  .ro-quote .q-l2{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block;
+    opacity:0;transform:translateY(20px);transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
+  .ro-quote.revealed .q-l2{opacity:1;transform:none;transition-delay:.5s}
+  .ro-quote.reveal{transform:translateY(24px) scale(.985)}
+  .ro-quote.reveal.revealed{transform:none}
+  .ro-quote .ro-qmark{opacity:0;transform:translate(-50%,10px) scale(.55);
+    transition:opacity .5s ease .35s,transform .55s cubic-bezier(.34,1.56,.64,1) .35s}
+  .ro-quote.revealed .ro-qmark{opacity:1;transform:translate(-50%,0) scale(1)}
+  .q-diamond{position:relative;z-index:2;width:8px;height:8px;margin:28px auto 0;transform:rotate(45deg);
+    background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.85}
+  .ro-cite{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:16px;
+    margin-top:20px;font-style:normal;font-size:11px;font-weight:700;
+    letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+  .ro-cite::before,.ro-cite::after{content:'';width:38px;height:1px;background:rgba(201,168,76,.45)}
 
-  /* ═══ traits panel ═══ */
-  .traits-head{text-align:center;font-family:var(--serif);font-size:clamp(1.35rem,2.4vw,1.8rem);font-weight:600;
-    color:var(--text);margin:96px 0 40px}
-  .traits{display:grid;grid-template-columns:repeat(3,1fr);max-width:1100px;margin:0 auto;
-    background:var(--glass-bg);border:1px solid var(--gold-border);border-radius:20px;overflow:hidden;
-    backdrop-filter:var(--glass-blur)}
-  .trait{padding:34px 26px 30px;border-left:1px solid rgba(201,168,76,.13)}
-  .trait:nth-child(3n+1){border-left:0}
-  .trait:nth-child(n+4){border-top:1px solid rgba(201,168,76,.13)}
-  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:22px;font-weight:600;color:var(--gold);margin-bottom:12px}
-  .trait b{display:block;font-size:14px;font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.4}
-  .trait span{display:block;font-size:12.5px;color:var(--text-muted);line-height:1.62}
-  .bridge{max-width:720px;margin:44px auto 0;text-align:center;font-size:15px;color:var(--text-sub);line-height:1.8}
+  /* ═══ traits: numbered cards chained by gold connectors (FG design system) ═══ */
+  .traits-head{text-align:center;font-size:clamp(1.25rem,2.4vw,1.8rem);font-weight:700;letter-spacing:.055em;
+    line-height:1.6;color:var(--text);margin:96px auto 46px;max-width:920px;text-transform:uppercase}
+  .traits-head .gold{color:var(--gold)}
+  .traits-panel{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1160px;margin:0 auto}
+  .trait{position:relative;border-radius:18px;padding:22px 20px 26px;text-align:center;
+    background:linear-gradient(180deg,rgba(16,23,38,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.30);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .trait:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.55);
+    box-shadow:0 18px 44px rgba(0,0,0,.42),0 0 26px rgba(201,168,76,.12)}
+  .trait i{display:block;font-style:normal;font-family:var(--serif);font-size:26px;font-weight:600;
+    color:var(--gold);text-align:left;line-height:1;margin:0 0 14px}
+  .t-ico{width:64px;height:64px;margin:0 auto 18px;border-radius:50%;position:relative;
+    display:flex;align-items:center;justify-content:center;color:#E8C766;
+    border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.18), rgba(201,168,76,.03) 72%);
+    box-shadow:0 0 26px rgba(201,168,76,.14);
+    transition:transform .35s cubic-bezier(.34,1.3,.64,1),box-shadow .35s ease}
+  .t-ico::after{content:'';position:absolute;inset:-6px;border-radius:50%;
+    border:1px dashed rgba(201,168,76,.26)}
+  .trait:hover .t-ico{transform:translateY(-4px);box-shadow:0 0 34px rgba(201,168,76,.28)}
+  .t-ico svg{width:28px;height:28px;display:block}
+  .trait b{display:flex;align-items:center;justify-content:center;min-height:40px;
+    font-size:14px;font-weight:700;color:#fff;line-height:1.4;margin-bottom:12px}
+  .t-rule{display:block;width:26px;height:2px;margin:0 auto 12px;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright))}
+  .trait .t-desc{display:block;font-size:11.5px;color:rgba(255,255,255,.64);line-height:1.68}
+  .traits-panel.reveal .trait{opacity:0;transform:translateY(16px);
+    transition:opacity .55s ease,transform .55s ease}
+  .traits-panel.revealed .trait{opacity:1;transform:none}
+  .traits-panel.revealed .trait:nth-child(1){transition-delay:.06s}
+  .traits-panel.revealed .trait:nth-child(2){transition-delay:.15s}
+  .traits-panel.revealed .trait:nth-child(3){transition-delay:.24s}
+  .traits-panel.revealed .trait:nth-child(4){transition-delay:.33s}
+  .traits-panel.revealed .trait:nth-child(5){transition-delay:.42s}
+  .traits-panel.revealed .trait:nth-child(6){transition-delay:.51s}
+  .bridge{max-width:760px;margin:56px auto 0;text-align:center;font-family:var(--serif);font-style:italic;
+    font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--text-sub);line-height:1.85}
   .ch-cta{text-align:center;margin:40px auto 0}
   .ch-cta a{display:inline-block;font-size:13px;font-weight:700;color:var(--gold);text-decoration:none;
     padding:13px 30px;border-radius:999px;border:1px solid rgba(201,168,76,.4);transition:all .25s}
   .ch-cta a:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800;
     transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.35)}
 
-  /* ═══ timeline (journey block) ═══ */
-  .journey{max-width:980px;margin:100px auto 0;background:var(--glass-bg);border:1px solid var(--gold-border);
+  /* ═══ timeline (journey block — Student four-stage journey design system) ═══ */
+  .journey-block{max-width:980px;margin:100px auto 0;background:var(--glass-bg);border:1px solid var(--gold-border);
     border-radius:26px;padding:54px 56px 46px;backdrop-filter:var(--glass-blur);position:relative;overflow:hidden}
-  .journey::before{content:'';position:absolute;top:0;left:16%;right:16%;height:1px;
-    background:linear-gradient(90deg,transparent,rgba(201,168,76,.45),transparent)}
-  .journey-title{text-align:center;font-size:clamp(15px,1.55vw,18px);font-weight:800;letter-spacing:.17em;
-    text-transform:uppercase;color:var(--text);line-height:1.7;margin:0 0 44px}
-  .stage{display:grid;grid-template-columns:64px minmax(0,1fr) 300px;gap:0 26px;align-items:center;
-    padding:26px 0;border-top:1px solid rgba(201,168,76,.13)}
-  .stage:first-of-type{border-top:0}
-  .stage-badge{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-    background:var(--bg-panel);border:1px solid rgba(201,168,76,.35);color:var(--gold);
-    font-size:14px;font-weight:800}
-  :root[data-theme="light"] .stage-badge{background:#FFFFFF}
-  .stage-info .stage-kicker{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
-    color:var(--gold);margin-bottom:6px}
-  .stage-info p{font-size:14.5px;color:var(--text-sub);line-height:1.7;margin:0}
-  .stage-media img{width:100%;height:130px;object-fit:cover;border-radius:12px;display:block;
-    border:1px solid var(--gold-border)}
-  .stage.final{background:linear-gradient(90deg,rgba(201,168,76,.07),transparent);border-radius:14px;
-    padding-left:14px;padding-right:14px;margin:8px -14px 0;border-top:1px solid rgba(201,168,76,.3)}
-  .stage.final .stage-badge{background:linear-gradient(135deg,#C9A84C,#F0D878);color:#241800;border:none;
-    box-shadow:0 0 24px rgba(201,168,76,.35)}
-  .stage.final .hl{display:block;margin-top:8px;font-weight:800;color:var(--gold)}
+  .journey-block::before{content:'';position:absolute;top:0;left:16%;right:16%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent)}
+  .journey-header{text-align:center;margin-bottom:44px}
+  .journey-kicker{font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--text-faint);
+    margin-bottom:12px}
+  .journey-title{font-size:clamp(13px,1.5vw,16px);font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--gold);line-height:1.75;margin:0}
+  .journey-track{position:relative}
+  .journey-rail{position:absolute;left:22px;top:28px;bottom:56px;width:2px;border-radius:2px;
+    background:rgba(201,168,76,.15)}
+  .journey-rail-fill{position:absolute;left:0;top:0;width:100%;height:0;border-radius:2px;
+    background:linear-gradient(180deg,var(--gold-bright),var(--gold));box-shadow:0 0 12px rgba(201,168,76,.5)}
+  .stage-row{position:relative;display:grid;grid-template-columns:64px minmax(0,1fr) 320px;gap:0 30px;
+    align-items:center;padding:24px 0}
+  .stage-badge{width:46px;height:46px;border-radius:50%;background:#0A1220;position:relative;z-index:1;
+    border:1px solid rgba(180,140,60,.32);display:flex;align-items:center;justify-content:center;
+    transition:box-shadow .45s ease,border-color .45s ease,background .45s ease}
+  .stage-badge svg{width:22px;height:22px;display:block}
+  .stage-badge.active{border-color:rgba(201,168,76,.65);background:rgba(20,24,32,1);
+    box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .stage-kicker{font-size:9px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+  .year-label{font-size:19px;font-weight:800;color:var(--text);margin-bottom:8px;letter-spacing:-.01em}
+  .year-actions span{display:block;font-size:12.5px;color:var(--text-faint);line-height:1.6;margin-bottom:2px}
+  .stage-media{border-radius:14px;overflow:hidden;border:1px solid rgba(201,168,76,.18);position:relative;
+    aspect-ratio:3/2;background:#0A1220;box-shadow:0 10px 34px rgba(0,0,0,.35)}
+  .stage-media img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.001);
+    transition:transform .65s cubic-bezier(.3,.6,.3,1)}
+  .stage-media::after{content:'';position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(180deg,transparent 58%,rgba(5,10,18,.34));
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
+  .stage-row:hover .stage-media img{transform:scale(1.05)}
+  .stage-row:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .stage-row.reveal .stage-media{opacity:0;transform:translateX(26px);
+    transition:opacity .65s ease .18s,transform .65s ease .18s}
+  .stage-row.reveal.revealed .stage-media{opacity:1;transform:none}
+  .stage-row.graduation .stage-badge{width:50px;height:50px;margin-left:-2px;
+    background:linear-gradient(135deg,rgba(139,105,20,.4),rgba(20,24,32,1));
+    border-color:rgba(201,168,76,.6);box-shadow:0 0 22px rgba(201,168,76,.35)}
+  .stage-row.graduation .stage-badge svg{width:24px;height:24px}
+  .stage-row.graduation .year-label{color:var(--gold)}
+  .stage-row.graduation .stage-media{border-color:rgba(201,168,76,.42);box-shadow:0 0 34px rgba(201,168,76,.14)}
+  .stage-row.graduation .year-actions b{color:var(--text);font-weight:700}
 
-  /* ═══ contrast block ═══ */
-  .contrast{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:96px 0 0}
-  .con-card{border-radius:20px;padding:38px 34px;background:var(--glass-bg);backdrop-filter:var(--glass-blur);
+  /* ═══ contrast block: without vs with, bridged by a transformation badge ═══ */
+  .contrast{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:44px;margin:96px 0 0}
+  .con-card{position:relative;border-radius:22px;padding:32px 34px 26px;
+    background:linear-gradient(180deg,rgba(14,20,33,.94),rgba(9,14,24,.97));
     border:1px solid rgba(255,255,255,.10)}
-  :root[data-theme="light"] .con-card{border-color:rgba(27,36,52,.14)}
-  .con-card.with{border-color:rgba(201,168,76,.38);background:linear-gradient(160deg,rgba(201,168,76,.08),var(--glass-bg))}
-  .con-card h3{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 22px;
-    color:var(--text-muted)}
-  .con-card.with h3{color:var(--gold)}
+  .con-card.with{border-color:rgba(201,168,76,.55);
+    background:linear-gradient(180deg,rgba(20,26,38,.95),rgba(11,16,26,.97));
+    box-shadow:0 0 44px rgba(201,168,76,.10),0 24px 60px rgba(0,0,0,.35)}
+  .con-card.with::after{content:'';position:absolute;left:8%;right:8%;bottom:-1px;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold-bright),transparent);
+    filter:drop-shadow(0 0 8px rgba(240,216,120,.7))}
+  .con-head{display:flex;align-items:center;gap:16px;padding-bottom:20px;margin-bottom:4px;
+    border-bottom:1px solid rgba(255,255,255,.08)}
+  .con-card.with .con-head{border-bottom-color:rgba(201,168,76,.22)}
+  .con-badge{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1.5px solid rgba(255,255,255,.5);color:rgba(255,255,255,.78)}
+  .con-badge svg{width:18px;height:18px;display:block}
+  .con-card.with .con-badge{border-color:var(--gold);color:#F0D878;
+    background:radial-gradient(circle at 35% 30%, rgba(201,168,76,.22), rgba(201,168,76,.04) 72%);
+    box-shadow:0 0 20px rgba(201,168,76,.3)}
+  .con-card h3{flex:1;font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    margin:0;line-height:1.55;color:#fff}
+  .con-card h3 .c2{display:block}
+  .con-card.with h3 .c2{color:var(--gold)}
+  .con-mark{flex:none;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1px solid rgba(201,168,76,.45);color:var(--gold)}
+  .con-mark svg{width:24px;height:24px;display:block}
   .con-card ul{list-style:none;margin:0;padding:0}
-  .con-card li{position:relative;padding:9px 0 9px 26px;font-size:13.5px;color:var(--text-sub);line-height:1.6;
-    border-bottom:1px solid rgba(255,255,255,.05)}
+  .con-card li{display:flex;align-items:flex-start;gap:14px;padding:15px 0;font-size:13.5px;
+    color:rgba(255,255,255,.84);line-height:1.55;border-bottom:1px solid rgba(255,255,255,.07)}
+  .con-card.with li{border-bottom-color:rgba(201,168,76,.16)}
   .con-card li:last-child{border-bottom:0}
-  .con-card li::before{content:'✕';position:absolute;left:0;top:10px;font-size:11px;color:var(--text-faint)}
-  .con-card.with li::before{content:'✓';color:var(--gold)}
+  .li-ico{flex:none;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;border:1px solid rgba(255,255,255,.35);color:rgba(255,255,255,.6);margin-top:1px}
+  .li-ico svg{width:10px;height:10px;display:block}
+  .con-card.with .li-ico{border-color:rgba(201,168,76,.7);color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));box-shadow:0 0 10px rgba(201,168,76,.3)}
+  .con-arrow{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;
+    width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    color:#241800;background:linear-gradient(135deg,var(--gold),var(--gold-bright));
+    box-shadow:0 0 0 6px rgba(9,14,24,.92),0 0 30px rgba(201,168,76,.45)}
+  .con-arrow svg{width:24px;height:24px;display:block}
+  .contrast.reveal .con-card{opacity:0;transform:translateY(22px);
+    transition:opacity .7s ease,transform .7s ease}
+  .contrast.reveal .con-card.with{transition-delay:.18s}
+  .contrast.revealed .con-card{opacity:1;transform:none}
+  .contrast.reveal .con-arrow{opacity:0;transform:translate(-50%,-50%) scale(.45);
+    transition:opacity .5s ease .5s,transform .55s cubic-bezier(.34,1.56,.64,1) .5s}
+  .contrast.revealed .con-arrow{opacity:1;transform:translate(-50%,-50%) scale(1)}
   .con-close{max-width:760px;margin:60px auto 0;text-align:center;font-family:var(--serif);font-style:italic;
     font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--text-sub);line-height:1.85}
-  .pillars4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:980px;margin:56px auto 0}
-  .p4{text-align:center;padding:26px 18px;border-radius:16px;background:var(--glass-bg);
-    border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
-  .p4 svg{width:30px;height:30px;color:var(--gold);margin-bottom:12px}
-  .p4 b{display:block;font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px}
-  .p4 span{display:block;font-size:11.5px;color:var(--text-muted);line-height:1.5}
+  /* — four pillars: numbered emblem cards with gold base glow — */
+  .pillars4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:1080px;margin:64px auto 0}
+  .p4{position:relative;text-align:center;padding:28px 20px 36px;border-radius:18px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.26);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .p4:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.5);
+    box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .p4::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    filter:drop-shadow(0 0 10px rgba(240,216,120,.75))}
+  .p4 i{position:absolute;top:16px;left:19px;font-style:normal;font-size:12px;font-weight:800;
+    letter-spacing:.08em;color:var(--gold)}
+  .p4-ico{width:64px;height:64px;margin:16px auto 22px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;color:#E8C766;border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.16), rgba(201,168,76,.03) 72%);
+    transition:transform .35s cubic-bezier(.34,1.3,.64,1),box-shadow .35s ease}
+  .p4:hover .p4-ico{transform:translateY(-4px);box-shadow:0 0 30px rgba(201,168,76,.3)}
+  .p4-ico svg{width:28px;height:28px;display:block}
+  .p4 b{display:block;font-family:var(--serif);font-size:clamp(19px,1.8vw,24px);font-weight:600;
+    color:#fff;margin-bottom:12px;letter-spacing:.002em}
+  .p4 .p4-d{display:block;font-size:12.5px;color:rgba(255,255,255,.64);line-height:1.62}
+  .pillars4.reveal .p4{opacity:0;transform:translateY(18px);
+    transition:opacity .6s ease,transform .6s ease}
+  .pillars4.revealed .p4{opacity:1;transform:none}
+  .pillars4.revealed .p4:nth-child(1){transition-delay:.06s}
+  .pillars4.revealed .p4:nth-child(2){transition-delay:.16s}
+  .pillars4.revealed .p4:nth-child(3){transition-delay:.26s}
+  .pillars4.revealed .p4:nth-child(4){transition-delay:.36s}
 
-  /* ═══ CH2 — system ═══ */
-  .beat{max-width:780px;margin:0 auto 74px;text-align:center}
-  .beat .b1{font-size:16px;color:var(--text-muted);line-height:1.75;margin:0 0 26px}
-  .beat .b2{font-family:var(--serif);font-style:italic;font-size:clamp(2rem,4.4vw,3.3rem);font-weight:600;
-    color:var(--text);margin:0 0 26px;line-height:1.2}
-  .beat .b3{font-size:15px;color:var(--text-sub);line-height:1.8;margin:0}
-  .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  .sys{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
-    backdrop-filter:var(--glass-blur);transition:border-color .25s,transform .25s}
-  .sys:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .sys .sys-img{position:relative;height:170px}
-  .sys .sys-img img{width:100%;height:100%;object-fit:cover;display:block}
-  .sys .sys-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,18,.72))}
-  .sys .sys-tag{position:absolute;left:18px;bottom:14px;z-index:2;font-size:10px;font-weight:800;
-    letter-spacing:.16em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff}
-  .sys-body{padding:24px 26px 28px}
-  .sys-body h3{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--text);margin:0 0 10px}
-  .sys-body p{font-size:13.5px;color:var(--text-muted);line-height:1.75;margin:0}
-  .goal{max-width:680px;margin:86px auto 0;text-align:center;position:relative;padding:44px 30px;
-    border-top:1px solid rgba(201,168,76,.3);border-bottom:1px solid rgba(201,168,76,.3)}
-  .goal .g-label{font-size:11px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
-  .goal h3{font-family:var(--serif);font-size:clamp(1.4rem,2.6vw,2rem);font-weight:600;color:var(--text);
-    line-height:1.35;margin:0 0 18px}
-  .goal p{font-size:14.5px;color:var(--text-muted);line-height:1.8;margin:0}
+  /* ═══ CH2 — the Career Operating System (Student Chapter II design system) ═══ */
+  .cos-headline-block{text-align:center;max-width:720px;margin:0 auto 80px;position:relative}
+  .cos-pretext{font-size:16px;color:var(--text-muted);line-height:1.7;margin:0 0 16px;font-weight:300}
+  .cos-headline{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);font-weight:600;color:var(--text);font-style:italic;
+    margin:0 0 24px;letter-spacing:-.02em}
+  .cos-posttext{font-size:15px;color:var(--text-muted);line-height:1.75;margin:0}
+  .system-journey{margin:0 auto 80px;max-width:1160px}
+  .system-flow{position:relative}
+  .flow-rail{position:absolute;top:23px;left:0;right:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,rgba(201,168,76,.16) 7%,rgba(201,168,76,.16) 93%,transparent)}
+  .flow-rail-fill{position:absolute;left:0;top:0;height:100%;width:0;border-radius:2px;
+    background:linear-gradient(90deg,var(--gold-deep),var(--gold) 55%,var(--gold-bright));
+    box-shadow:0 0 12px rgba(201,168,76,.45)}
+  .flow-rail-fill::after{content:'';position:absolute;right:-4px;top:50%;transform:translateY(-50%);
+    width:8px;height:8px;border-radius:50%;background:var(--gold-bright);
+    box-shadow:0 0 14px rgba(240,216,120,.85)}
+  .flow-chev{position:absolute;top:23px;transform:translate(-50%,-50%);width:22px;height:22px;
+    border-radius:50%;background:var(--bg-panel);border:1px solid rgba(201,168,76,.28);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);z-index:1}
+  .flow-chev svg{width:9px;height:9px;display:block}
+  .flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px;position:relative}
+  .flow-item{position:relative;text-align:left}
+  .flow-item .stage-badge{margin:0 auto 28px}
+  .flow-item .stage-media{margin-bottom:22px;aspect-ratio:3/2}
+  .flow-item .sys-desc{max-width:none}
+  .flow-item:hover .stage-media img{transform:scale(1.05)}
+  .sys-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 10px}
+  .sys-desc{font-size:13px;color:var(--text-muted);line-height:1.75;margin:0}
+  .flow-item.sys-map .stage-kicker{color:#60A5FA}
+  .flow-item.sys-pack .stage-kicker{color:#4ECDC4}
+  .flow-item.sys-rope .stage-kicker{color:var(--gold)}
+  .flow-item.sys-route .stage-kicker{color:#6EE7B7}
+  .flow-item.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
+  .flow-item.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
+  .flow-item.sys-rope:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
+  .flow-item.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+  .system-journey.reveal .flow-item{opacity:0;transform:translateY(20px);
+    transition:opacity .6s ease,transform .6s ease}
+  .system-journey.revealed .flow-item{opacity:1;transform:none}
+  .system-journey.revealed .flow-item:nth-child(1){transition-delay:.08s}
+  .system-journey.revealed .flow-item:nth-child(2){transition-delay:.24s}
+  .system-journey.revealed .flow-item:nth-child(3){transition-delay:.40s}
+  .system-journey.revealed .flow-item:nth-child(4){transition-delay:.56s}
+  @media(min-width:961px){
+    .system-journey{padding:60px 60px 50px}
+    .system-journey .journey-kicker{font-size:11px;letter-spacing:.32em;margin-bottom:14px}
+    .system-journey .journey-title{font-size:clamp(15px,1.55vw,18px);letter-spacing:.17em;line-height:1.7}
+    .system-journey .stage-kicker{font-size:11px;letter-spacing:.24em;margin-bottom:6px}
+    .system-journey .year-label{font-size:24px;margin-bottom:12px}
+    .sys-sub{font-size:15.5px}
+    .sys-desc{font-size:13.5px}
+  }
+  .one-percent-block{text-align:center;padding:60px 0 0;position:relative}
+  .one-percent-inner{max-width:640px;margin:0 auto}
+  .one-percent-line{width:64px;height:2px;background:var(--gold);margin:0 auto 24px;opacity:.5}
+  .one-percent-label{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
+  .one-percent-statement{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.4rem);font-weight:600;color:var(--text);margin:0 0 20px;
+    line-height:1.25;letter-spacing:-.01em}
+  .one-percent-statement em{font-style:italic;color:var(--gold)}
+  .one-percent-sub{font-size:15px;color:var(--text-muted);line-height:1.7;margin:0}
 
-  /* ═══ CH3 — products ═══ */
-  .prod-intro{text-align:center;max-width:640px;margin:0 auto 60px}
-  .prod-intro .kicker{font-size:11px;font-weight:700;letter-spacing:.30em;text-transform:uppercase;
-    color:var(--gold);margin-bottom:18px}
-  .prod-intro p{font-family:var(--serif);font-size:clamp(1.15rem,2vw,1.45rem);color:var(--text-sub);line-height:1.6;margin:0}
-  .prod-feat{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:0;border-radius:22px;
-    overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur);
-    margin-bottom:18px;transition:border-color .25s}
-  .prod-feat:hover{border-color:var(--gold-border-hover)}
-  .prod-feat.rev .pf-copy{order:2}
-  .prod-feat.rev .pf-visual{order:1}
-  .pf-copy{padding:44px 46px}
-  .pf-visual{position:relative;min-height:340px}
-  .pf-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .pf-visual::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.55),transparent 45%)}
-  .prod-feat.rev .pf-visual::after{background:linear-gradient(270deg,rgba(5,10,18,.55),transparent 45%)}
-  .ptag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
-    padding:5px 13px;border-radius:999px;margin-bottom:16px;color:#fff}
-  .ptag.cobalt{background:rgba(29,95,171,.25);border:1px solid rgba(29,95,171,.55);color:#8FB8F0}
-  .ptag.teal{background:rgba(13,115,119,.25);border:1px solid rgba(13,115,119,.55);color:#7ADFD6}
-  .ptag.amber{background:rgba(180,83,9,.22);border:1px solid rgba(180,83,9,.55);color:#F5B47A}
-  .ptag.forest{background:rgba(26,92,56,.25);border:1px solid rgba(26,92,56,.55);color:#8FE3B4}
-  .ptag.goldp{background:rgba(201,168,76,.16);border:1px solid rgba(201,168,76,.45);color:#F0D878}
-  .prod-name{font-family:var(--serif);font-size:clamp(1.35rem,2.4vw,1.8rem);font-weight:600;color:var(--text);margin:0 0 8px}
-  .prod-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 18px}
-  .prod-desc{font-size:13.5px;color:var(--text-muted);line-height:1.78;margin:0 0 20px}
-  .prod-feats{list-style:none;margin:0 0 24px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:7px 18px}
-  .prod-feats li{position:relative;padding-left:18px;font-size:12px;color:var(--text-sub);line-height:1.5}
-  .prod-feats li::before{content:'→';position:absolute;left:0;top:0;color:var(--gold);font-size:10.5px}
-  .prod-cta{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);text-decoration:none;
-    padding:11px 24px;border-radius:999px;border:1px solid rgba(201,168,76,.35);transition:all .25s}
-  .prod-cta:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#241800;transform:translateY(-2px)}
-  .prem{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:11px;font-weight:600;
-    letter-spacing:.06em;color:rgba(232,199,102,.85)}
-  :root[data-theme="light"] .prem{color:#8B6914}
-  .prem svg{width:12px;height:12px;flex:none}
-  .mock{position:absolute;z-index:3;right:22px;bottom:22px;width:230px;border-radius:14px;padding:14px 16px;
-    background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.3);
-    box-shadow:0 18px 44px rgba(0,0,0,.5);text-align:left}
-  .prod-feat.rev .mock{right:auto;left:22px}
-  .mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:8px}
-  .mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
-    padding:2.5px 0;line-height:1.4}
-  .mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
-  .mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
-  .prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:18px}
-  .prod-card{border-radius:20px;overflow:hidden;background:var(--glass-bg);border:1px solid var(--gold-border);
-    backdrop-filter:var(--glass-blur);display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
-  .prod-card:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
-  .pc-head{position:relative;height:112px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-  .pc-head svg{width:42px;height:42px;color:rgba(255,255,255,.92);position:relative;z-index:1}
-  .pc-head::before{content:'';position:absolute;width:150px;height:150px;border-radius:50%;
-    border:1px solid rgba(255,255,255,.14);top:-40px;right:-30px}
-  .pc-head::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
-  .pc-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
-  .pc-body .ptag{margin-bottom:12px;align-self:flex-start}
-  .pc-body h3{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--text);margin:0 0 6px}
-  .pc-body .prod-sub{margin-bottom:14px}
-  .pc-body ul{list-style:none;margin:0 0 20px;padding:0;flex:1}
-  .pc-body li{position:relative;padding:4px 0 4px 18px;font-size:12px;color:var(--text-sub);line-height:1.5}
-  .pc-body li::before{content:'→';position:absolute;left:0;top:4px;color:var(--gold);font-size:10.5px}
-  .pc-mock{margin:0 0 18px;border-radius:12px;padding:12px 14px;background:rgba(10,16,28,.94);
-    border:1px solid rgba(201,168,76,.28)}
-  .pc-mock .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:7px}
-  .pc-mock .mrow{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:600;color:rgba(255,255,255,.8);
-    padding:2px 0;line-height:1.4}
-  .pc-mock .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
-  .pc-mock .mrow .don{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
-  .pc-body .prod-cta{align-self:flex-start}
+  /* ═══ CH3 — FLAGSHIP SHOWCASE — Product Suite (Student Chapter III design system) ═══ */
+  .fsx-band{position:relative;color:#fff;overflow:hidden;
+    background:linear-gradient(180deg,rgba(7,11,20,0) 0%,rgba(7,11,20,.60) 5%,
+      rgba(8,13,24,.62) 95%,rgba(8,13,24,0) 100%)}
+  :root[data-theme="light"] .fsx-band{background:none;color:var(--text)}
+  :root[data-theme="light"] .fsx-stars{display:none}
+  :root[data-theme="light"] .fsx-rings i{border-color:rgba(139,105,20,.14)}
+  :root[data-theme="light"] .fsx-rings i:nth-child(3){border-color:rgba(139,105,20,.20)}
+  :root[data-theme="light"] .fsx-vp{color:rgba(27,36,52,.88)}
+  :root[data-theme="light"] .fsx-vp em{background:linear-gradient(100deg,#8B6914,#B08A2E);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  :root[data-theme="light"] .fsx-quote p{color:#8B6914}
+  :root[data-theme="light"] .fsx-quote span{color:rgba(27,36,52,.45)}
+  :root[data-theme="light"] .asc-name{color:var(--text)}
+  :root[data-theme="light"] .asc-tag{color:#8B6914}
+  :root[data-theme="light"] .asc-desc{color:rgba(27,36,52,.66)}
+  :root[data-theme="light"] .asc-feats li{color:rgba(27,36,52,.72)}
+  :root[data-theme="light"] .asc-feats li::before{color:#8B6914}
+  :root[data-theme="light"] .asc-cta{color:#8B6914;border-color:rgba(139,105,20,.42)}
+  :root[data-theme="light"] .asc-prem{color:rgba(139,105,20,.9)}
+  :root[data-theme="light"] .asc-chip{color:rgb(var(--accRaw))}
+  :root[data-theme="light"] .asc-panel[data-accent="rope"] .asc-chip,
+  :root[data-theme="light"] .asc-panel[data-accent="all"] .asc-chip{color:#8B6914}
+  :root[data-theme="light"] .asc-rail{background:rgba(139,105,20,.18)}
+  :root[data-theme="light"] .asc-rail-fill{background:linear-gradient(180deg,rgba(139,105,20,.3),#8B6914);
+    box-shadow:0 0 10px rgba(139,105,20,.3)}
+  :root[data-theme="light"] .asc-node{background:#F6F7FA;color:#8B6914;border-color:rgba(139,105,20,.45);
+    box-shadow:0 0 0 7px rgba(238,241,246,.92)}
+  :root[data-theme="light"] .asc-panel.revealed .asc-node{border-color:rgba(139,105,20,.8);
+    box-shadow:0 0 0 7px rgba(238,241,246,.92),0 0 22px rgba(139,105,20,.22)}
+  :root[data-theme="light"] .asc-ghost{-webkit-text-stroke:1px rgba(139,105,20,.24)}
+  .fsx-stars{position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:
+    radial-gradient(1.2px 1.2px at 22% 34%, rgba(255,255,255,.8), transparent),
+    radial-gradient(1px 1px at 68% 14%, rgba(255,255,255,.7), transparent),
+    radial-gradient(1.4px 1.4px at 85% 58%, rgba(240,216,120,.8), transparent),
+    radial-gradient(1px 1px at 44% 72%, rgba(255,255,255,.6), transparent),
+    radial-gradient(1.1px 1.1px at 8% 88%, rgba(255,255,255,.5), transparent);
+    background-size:430px 430px,560px 560px,690px 690px,510px 510px,470px 470px}
+  .fsx-rings{position:absolute;top:-60px;right:-140px;width:960px;height:960px;pointer-events:none}
+  .fsx-rings i{position:absolute;border-radius:50%;border:1px solid rgba(201,168,76,.10)}
+  .fsx-rings i:nth-child(1){inset:0}
+  .fsx-rings i:nth-child(2){inset:150px}
+  .fsx-rings i:nth-child(3){inset:300px;border-color:rgba(201,168,76,.14)}
+  .fsx-inner{position:relative;z-index:2;max-width:1180px;margin:0 auto;padding:0 40px}
+  .fs-pill{display:inline-block;font-size:13px;font-weight:700;text-decoration:none;
+    padding:13px 26px;border-radius:999px;transition:transform .2s,box-shadow .2s,background .2s}
+  .fs-pill.gold{color:#0A0F1A;background:linear-gradient(120deg,#C9A84C,#F0D878)}
+  .fs-pill.gold:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.4)}
+  .fsx-statement{position:relative;z-index:2;text-align:center;padding:160px 0 140px;
+    max-width:860px;margin:0 auto}
+  .fsx-kicker{font-size:11px;font-weight:700;letter-spacing:.30em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:30px}
+  .fsx-vp{font-family:var(--serif);font-size:clamp(1.7rem,3.3vw,2.7rem);font-weight:500;
+    line-height:1.5;color:rgba(255,255,255,.92);margin:0 0 46px;letter-spacing:.004em}
+  .fsx-vp em{font-style:normal;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .fsx-quote{position:relative;z-index:2;text-align:center;padding:56px 30px 96px}
+  .fsx-quote p{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.8vw,19px);
+    color:#D9BC6A;margin:0 0 12px;line-height:1.7}
+  .fsx-quote span{font-size:11.5px;letter-spacing:.12em;color:rgba(255,255,255,.55);text-transform:uppercase}
+
+  /* ═══ THE ASCENT (cinematic product showcase) ═══ */
+  .products-section{background:transparent;padding:120px 0 0;position:relative}
+  .products-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold-border),transparent)}
+  .asc-lead{width:1px;height:72px;margin:30px auto 0;
+    background:linear-gradient(180deg,var(--gold),transparent)}
+  .asc{position:relative;padding:30px 0 50px}
+  .asc-rail{position:absolute;top:0;bottom:30px;left:50%;width:1px;margin-left:-.5px;
+    background:rgba(201,168,76,.13)}
+  .asc-rail-fill{position:absolute;top:0;left:0;width:100%;height:0;
+    background:linear-gradient(180deg,rgba(201,168,76,.25),#C9A84C);
+    box-shadow:0 0 14px rgba(201,168,76,.45)}
+  .asc-panel{position:relative;padding:86px 0 60px;
+    --acc:#E8C766;--accRaw:201,168,76}
+  .asc-panel[data-accent="map"]{--acc:#7EB3F5;--accRaw:29,95,171}
+  .asc-panel[data-accent="pack"]{--acc:#4ECDC4;--accRaw:13,115,119}
+  .asc-panel[data-accent="rope"]{--acc:#E8C766;--accRaw:201,168,76}
+  .asc-panel[data-accent="route"]{--acc:#6EE7B7;--accRaw:26,92,56}
+  .asc-node{position:absolute;left:50%;top:22px;transform:translateX(-50%);z-index:3;
+    width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:#0A101D;border:1px solid rgba(201,168,76,.30);
+    font-size:12px;font-weight:700;letter-spacing:.06em;color:#E8C766;
+    box-shadow:0 0 0 7px #070C15;transition:border-color .7s ease,box-shadow .7s ease}
+  .asc-panel.revealed .asc-node{border-color:rgba(201,168,76,.8);
+    box-shadow:0 0 0 7px #070C15,0 0 26px rgba(201,168,76,.38)}
+  .asc-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 128px;align-items:center}
+  .asc-panel.rev .asc-copy{order:2}
+  .asc-panel.rev .asc-stage{order:1}
+  .asc-copy > *{opacity:0;transform:translateY(22px);
+    transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+  .asc-panel.revealed .asc-copy > *{opacity:1;transform:none}
+  .asc-panel.revealed .asc-copy > :nth-child(1){transition-delay:.05s}
+  .asc-panel.revealed .asc-copy > :nth-child(2){transition-delay:.13s}
+  .asc-panel.revealed .asc-copy > :nth-child(3){transition-delay:.21s}
+  .asc-panel.revealed .asc-copy > :nth-child(4){transition-delay:.29s}
+  .asc-panel.revealed .asc-copy > :nth-child(5){transition-delay:.37s}
+  .asc-panel.revealed .asc-copy > :nth-child(6){transition-delay:.45s}
+  .asc-panel.revealed .asc-copy > :nth-child(7){transition-delay:.53s}
+  .asc-chip{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.22em;
+    text-transform:uppercase;padding:5px 14px;border-radius:999px;margin-bottom:20px;
+    color:var(--acc);background:rgba(var(--accRaw),.14);border:1px solid rgba(var(--accRaw),.35)}
+  .asc-name{font-family:var(--serif);font-size:clamp(1.7rem,2.6vw,2.4rem);font-weight:600;
+    color:#fff;line-height:1.16;margin:0 0 12px;letter-spacing:.002em}
+  .asc-tag{font-family:var(--serif);font-style:italic;font-size:15.5px;color:#D9BC6A;margin:0 0 18px}
+  .asc-desc{font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.8;margin:0 0 22px;max-width:440px}
+  .asc-feats{list-style:none;padding:0;margin:0 0 26px;display:grid;
+    grid-template-columns:1fr 1fr;gap:7px 20px}
+  .asc-feats li{font-size:12px;color:rgba(255,255,255,.74);line-height:1.5;
+    padding-left:18px;position:relative;
+    opacity:0;transform:translateX(-14px);transition:opacity .5s ease,transform .5s ease}
+  .asc-feats li::before{content:'→';position:absolute;left:0;top:0;color:var(--gold);font-size:10.5px}
+  .asc-panel.revealed .asc-feats li{opacity:1;transform:none}
+  .asc-panel.revealed .asc-feats li:nth-child(1){transition-delay:.42s}
+  .asc-panel.revealed .asc-feats li:nth-child(2){transition-delay:.48s}
+  .asc-panel.revealed .asc-feats li:nth-child(3){transition-delay:.54s}
+  .asc-panel.revealed .asc-feats li:nth-child(4){transition-delay:.60s}
+  .asc-panel.revealed .asc-feats li:nth-child(5){transition-delay:.66s}
+  .asc-panel.revealed .asc-feats li:nth-child(6){transition-delay:.72s}
+  .asc-panel.revealed .asc-feats li:nth-child(7){transition-delay:.78s}
+  .asc-panel.revealed .asc-feats li:nth-child(8){transition-delay:.84s}
+  .asc-cta{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);
+    text-decoration:none;padding:11px 24px;border-radius:999px;
+    border:1px solid rgba(201,168,76,.35);
+    transition:background .25s,color .25s,transform .25s,box-shadow .25s}
+  .asc-cta:hover{background:linear-gradient(120deg,#C9A84C,#F0D878);color:#0A0F1A;
+    transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.35)}
+  .asc-prem{display:flex;align-items:center;gap:8px;margin-top:20px;
+    font-size:10.5px;font-weight:600;letter-spacing:.06em;color:rgba(232,199,102,.75)}
+  .asc-prem svg{width:12px;height:12px;flex:none;filter:drop-shadow(0 0 6px rgba(240,216,120,.5))}
+  .asc-stage{position:relative;perspective:1100px;
+    opacity:0;transform:translateX(56px);
+    transition:opacity .8s ease .15s,transform .9s cubic-bezier(.25,.85,.3,1) .15s}
+  .asc-panel.rev .asc-stage{transform:translateX(-56px)}
+  .asc-panel.revealed .asc-stage{opacity:1;transform:none}
+  .asc-tilt{position:relative;transform-style:preserve-3d;
+    transition:transform .5s cubic-bezier(.2,.8,.3,1)}
+  .asc-glow{position:absolute;inset:-14% -16%;pointer-events:none;z-index:0;
+    background:radial-gradient(58% 52% at 50% 46%,rgba(var(--accRaw),.34),transparent 72%);
+    filter:blur(8px);opacity:0;transition:opacity 1.1s ease .35s;
+    animation:ascBreathe 7.5s ease-in-out infinite}
+  .asc-panel.revealed .asc-glow{opacity:1}
+  @keyframes ascBreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+  .asc-frame{position:relative;margin:0;border-radius:22px;overflow:hidden;z-index:1;
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:0 42px 90px rgba(0,0,0,.55),0 0 0 1px rgba(201,168,76,.05);
+    transform:translateZ(28px)}
+  .asc-frame img{width:100%;height:330px;object-fit:cover;display:block;
+    transform:translate3d(0,var(--py,0),0) scale(1.14)}
+  .asc-veil{position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(180deg,rgba(7,11,20,0) 52%,rgba(7,11,20,.55) 100%)}
+  .asc-frame::after{content:'';position:absolute;inset:0;pointer-events:none;opacity:0;
+    background:linear-gradient(115deg,transparent 32%,rgba(255,255,255,.09) 46%,transparent 60%);
+    transition:opacity .5s ease}
+  .asc-stage:hover .asc-frame::after{opacity:1}
+  .asc-emblem{position:absolute;bottom:-20px;left:-20px;z-index:2;width:72px;height:72px;
+    border-radius:20px;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(160deg,#182136,#0D1424);
+    border:1px solid rgba(var(--accRaw),.5);color:var(--acc);
+    box-shadow:0 18px 40px rgba(0,0,0,.5),0 0 22px rgba(var(--accRaw),.22);
+    transform:translateZ(64px)}
+  .asc-panel.rev .asc-emblem{left:auto;right:-20px}
+  .asc-emblem svg{width:34px;height:34px;display:block}
+  .asc-ghost{position:absolute;top:-72px;right:-8px;z-index:0;pointer-events:none;
+    font-family:var(--serif);font-weight:600;line-height:1;
+    font-size:clamp(110px,13vw,180px);color:transparent;
+    -webkit-text-stroke:1px rgba(201,168,76,.16);
+    transform:translate3d(0,var(--gy,0),0)}
+  .asc-panel.rev .asc-ghost{right:auto;left:-8px}
+  .asc-panel.final{padding-top:110px;padding-bottom:30px}
+  .asc-panel.final .asc-grid{grid-template-columns:minmax(0,760px);justify-content:center;
+    text-align:center;gap:44px 0}
+  .asc-panel.final .asc-stage{order:1;transform:translateY(48px)}
+  .asc-panel.final .asc-copy{order:2}
+  .asc-panel.final.revealed .asc-stage{transform:none}
+  .asc-panel.final .asc-frame{box-shadow:0 42px 100px rgba(0,0,0,.6),0 0 60px rgba(201,168,76,.14)}
+  .asc-panel.final .asc-frame img{height:360px}
+  .asc-panel.final .asc-desc{max-width:560px;margin-left:auto;margin-right:auto}
+  .asc-panel.final .asc-emblem{left:50%;bottom:-26px;transform:translateX(-50%) translateZ(64px)}
+  .asc-panel.final .asc-ghost{top:-58px;right:-30px;left:auto}
+  .asc-panel.final .asc-prem{justify-content:center}
+  .asc-panel.final .asc-node{border-color:rgba(201,168,76,.55)}
+
+  /* ═══ PRODUCT UI PEEKS (inside Ascent frames) ═══ */
+  .asc-ui{position:absolute;top:-22px;right:-16px;z-index:3;width:186px;border-radius:14px;
+    padding:13px 15px;background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.28);
+    box-shadow:0 18px 44px rgba(0,0,0,.5),0 0 20px rgba(201,168,76,.08);
+    transform:translateZ(84px);text-align:left}
+  .asc-panel.rev .asc-ui{right:auto;left:-16px}
+  .asc-panel.final .asc-ui{right:-8px}
+  .asc-ui .uttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+    color:#E8C766;margin-bottom:9px}
+  .asc-ui .urow{display:flex;align-items:center;gap:7px;font-size:9.8px;font-weight:600;
+    color:rgba(255,255,255,.78);padding:2.5px 0;line-height:1.35}
+  .asc-ui .urow .tick{color:#4ECDC4;font-size:9px;flex:none}
+  .asc-ui .urow .dot-on{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none}
+  .asc-ui .urow .dot-off{width:5px;height:5px;border-radius:50%;border:1px solid rgba(255,255,255,.35);flex:none}
+  .asc-ui .ubig{display:flex;align-items:baseline;gap:5px;margin:2px 0 6px}
+  .asc-ui .ubig b{font-size:24px;font-weight:800;color:#F0D878;line-height:1}
+  .asc-ui .ubig span{font-size:9px;color:rgba(255,255,255,.55);letter-spacing:.04em}
+  .asc-ui svg{display:block}
+  @media(max-width:768px){.asc-ui{right:8px;top:-14px;width:164px;padding:11px 12px}
+    .asc-panel.rev .asc-ui{left:8px}.asc-panel.final .asc-ui{right:8px}}
 
   /* ═══ pain cards (enterprise) ═══ */
   .pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:70px}
-  .pain{border-radius:20px;padding:34px 30px;background:var(--glass-bg);border:1px solid var(--gold-border);
-    backdrop-filter:var(--glass-blur)}
-  .pain svg{width:34px;height:34px;color:var(--gold);margin-bottom:18px}
-  .pain b{display:block;font-size:16px;font-weight:800;color:var(--text);margin-bottom:10px}
-  .pain p{font-size:13px;color:var(--text-muted);line-height:1.7;margin:0}
+  .pain{position:relative;border-radius:18px;padding:30px 28px 34px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.26);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .pain:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.5);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .pain::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    filter:drop-shadow(0 0 10px rgba(240,216,120,.75))}
+  .pain .pn-ico{width:58px;height:58px;border-radius:50%;margin-bottom:20px;position:relative;
+    display:flex;align-items:center;justify-content:center;color:#E8C766;
+    border:1px solid rgba(201,168,76,.5);
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.16), rgba(201,168,76,.03) 72%)}
+  .pain .pn-ico::after{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px dashed rgba(201,168,76,.26)}
+  .pain svg{width:26px;height:26px;color:#E8C766;display:block}
+  .pain b{display:block;font-family:var(--serif);font-size:20px;font-weight:600;color:#fff;margin-bottom:12px}
+  .pain p{font-size:13px;color:rgba(255,255,255,.64);line-height:1.72;margin:0}
 
   /* ═══ programme rows (enterprise ch2) / mentor pillars ═══ */
-  .prog-list{display:flex;flex-direction:column;gap:16px;max-width:900px;margin:0 auto}
-  .prog{display:grid;grid-template-columns:70px 1fr;gap:24px;align-items:flex-start;
-    border-radius:18px;padding:30px 32px;background:var(--glass-bg);border:1px solid var(--gold-border);
-    backdrop-filter:var(--glass-blur);transition:border-color .25s}
-  .prog:hover{border-color:var(--gold-border-hover)}
-  .prog .pnum{width:54px;height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;
-    font-size:15px;font-weight:800;color:#fff}
-  .prog h3{font-size:17px;font-weight:800;color:var(--text);margin:0 0 8px}
-  .prog p{font-size:13.5px;color:var(--text-muted);line-height:1.75;margin:0}
-  .commit{max-width:720px;margin:44px auto 0;border-radius:18px;padding:32px 36px;
-    background:linear-gradient(160deg,rgba(201,168,76,.09),var(--glass-bg));
-    border:1px solid rgba(201,168,76,.4);backdrop-filter:var(--glass-blur)}
-  .commit h3{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
+  .prog-list{display:flex;flex-direction:column;gap:16px;max-width:940px;margin:0 auto}
+  .prog{position:relative;display:grid;grid-template-columns:76px 1fr;gap:26px;align-items:center;
+    border-radius:20px;padding:32px 36px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.26);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .prog:hover{transform:translateY(-4px);border-color:rgba(201,168,76,.5);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .prog::after{content:'';position:absolute;left:0;top:14%;bottom:14%;width:2px;border-radius:2px;
+    background:linear-gradient(180deg,transparent,var(--gold),transparent);
+    filter:drop-shadow(0 0 8px rgba(240,216,120,.6))}
+  .prog .pnum{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-size:19px;font-weight:600;color:#F0D878;position:relative;
+    background:radial-gradient(circle at 36% 30%, rgba(201,168,76,.16), rgba(201,168,76,.03) 72%) !important;
+    border:1px solid rgba(201,168,76,.5)}
+  .prog .pnum::after{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px dashed rgba(201,168,76,.26)}
+  .prog h3{font-family:var(--serif);font-size:20px;font-weight:600;color:#fff;margin:0 0 8px}
+  .prog p{font-size:13.5px;color:rgba(255,255,255,.66);line-height:1.75;margin:0}
+  .commit{position:relative;max-width:760px;margin:56px auto 0;border-radius:22px;padding:36px 40px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(20,26,38,.95),rgba(11,16,26,.97));
+    border:1px solid rgba(201,168,76,.5);
+    box-shadow:0 0 44px rgba(201,168,76,.10),0 24px 60px rgba(0,0,0,.35)}
+  .commit::after{content:'';position:absolute;left:8%;right:8%;bottom:-1px;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold-bright),transparent);
+    filter:drop-shadow(0 0 8px rgba(240,216,120,.7))}
+  .commit h3{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#F0D878;margin:0 0 18px}
   .commit ul{list-style:none;margin:0;padding:0}
-  .commit li{position:relative;padding:7px 0 7px 24px;font-size:13.5px;color:var(--text-sub);line-height:1.6}
-  .commit li::before{content:'✓';position:absolute;left:0;top:7px;color:var(--gold);font-size:12px}
+  .commit li{display:flex;align-items:flex-start;gap:14px;padding:10px 0;font-size:13.5px;
+    color:rgba(255,255,255,.84);line-height:1.6;border-bottom:1px solid rgba(201,168,76,.14)}
+  .commit li:last-child{border-bottom:0}
+  .commit li::before{content:'✓';flex:none;width:22px;height:22px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:10px;color:#241800;
+    background:linear-gradient(135deg,var(--gold),var(--gold-bright));box-shadow:0 0 10px rgba(201,168,76,.3)}
 
   /* ═══ CTA banner + FAQ ═══ */
   .cta-sec{background:var(--bg-dark);padding:0 0 110px;position:relative;overflow:hidden}
@@ -464,18 +831,32 @@
   .fun-cap{margin:18px 0 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
 
   /* ═══ CH1 CALLOUT — career capital ledger (MP) ═══ */
-  .ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:76px auto 0}
-  .led{padding:28px 26px 26px;border-radius:18px;background:var(--glass-bg);border:1px solid var(--gold-border);backdrop-filter:var(--glass-blur)}
-  .led .lt{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 6px}
-  .led .ls{font-size:11.5px;color:var(--text-muted);margin:0 0 16px;line-height:1.5}
+  .ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1080px;margin:76px auto 0}
+  .led{position:relative;padding:30px 28px 34px;border-radius:18px;overflow:hidden;
+    background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+    border:1px solid rgba(201,168,76,.26);
+    transition:transform .35s cubic-bezier(.25,.8,.3,1),border-color .35s ease,box-shadow .35s ease}
+  .led:hover{transform:translateY(-5px);border-color:rgba(201,168,76,.5);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .led::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    filter:drop-shadow(0 0 10px rgba(240,216,120,.75))}
+  .led .lt{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:0 0 8px}
+  .led .ls{font-size:12px;color:rgba(255,255,255,.55);margin:0 0 18px;line-height:1.5}
   .led ul{list-style:none;margin:0;padding:0}
-  .led li{position:relative;padding:6px 0 6px 20px;font-size:12.5px;color:var(--text-sub);line-height:1.55}
-  .led li::before{content:'';position:absolute;left:0;top:13px;width:9px;height:2px;background:currentColor;opacity:.45}
+  .led li{display:flex;align-items:flex-start;gap:12px;padding:9px 0;font-size:12.5px;
+    color:rgba(255,255,255,.8);line-height:1.55;border-bottom:1px solid rgba(255,255,255,.06)}
+  .led li:last-child{border-bottom:0}
+  .led li::before{content:'';flex:none;width:8px;height:8px;margin-top:5px;transform:rotate(45deg);
+    background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.8}
   .led.keep .lt{color:#8FE3B4}.led.translate .lt{color:#F5B47A}.led.new .lt{color:#8FB8F0}
-  :root[data-theme="light"] .led.keep .lt{color:#1A5C38}
-  :root[data-theme="light"] .led.translate .lt{color:#B45309}
-  :root[data-theme="light"] .led.new .lt{color:#1D5FAB}
-  .ledger-cap{max-width:760px;margin:26px auto 0;text-align:center;font-size:12.5px;color:var(--text-muted);line-height:1.65}
+  .ledger.reveal .led{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  .ledger.revealed .led{opacity:1;transform:none}
+  .ledger.revealed .led:nth-child(1){transition-delay:.06s}
+  .ledger.revealed .led:nth-child(2){transition-delay:.18s}
+  .ledger.revealed .led:nth-child(3){transition-delay:.30s}
+  .ledger-cap{max-width:760px;margin:30px auto 0;text-align:center;font-family:var(--serif);font-style:italic;
+    font-size:15px;color:#D9BC6A;line-height:1.75}
+  :root[data-theme="light"] .ledger-cap{color:#8B6914}
 
   /* ═══ HIRING GAUNTLET (FG Chapter II) ═══ */
   section.gauntlet-sec{background:var(--bg-mid)}
@@ -630,29 +1011,28 @@
 
   /* ═══ a11y focus ═══ */
   .faq-q:focus-visible,.chap-nav a:focus-visible,.menu a:focus-visible,.router-chips a:focus-visible,
-  .prod-cta:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-  .trait span{color:rgba(255,255,255,.68)}
-  :root[data-theme="light"] .trait span{color:rgba(27,36,52,.68)}
+  .asc-cta:focus-visible,.fs-pill:focus-visible,.hero-cta:focus-visible,.cta-primary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
-    .nar-grid{grid-template-columns:1fr;gap:40px}
-    .nar-visual img{height:340px}
-    .traits{grid-template-columns:1fr 1fr}
-    .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
-    .trait:nth-child(2n+1){border-left:0}
-    .trait:nth-child(n+3){border-top:1px solid rgba(201,168,76,.13)}
-    .stage{grid-template-columns:56px minmax(0,1fr)}
-    .stage-media{grid-column:2;margin-top:14px}
-    .stage-media img{height:150px;max-width:420px}
-    .contrast{grid-template-columns:1fr}
+    .g-open{grid-template-columns:1fr;gap:44px}
+    .traits-panel{grid-template-columns:1fr 1fr}
+    .stage-row{grid-template-columns:56px minmax(0,1fr);gap:0 16px;padding:20px 0}
+    .stage-media{grid-column:2;margin-top:14px;max-width:420px}
+    .contrast{grid-template-columns:1fr;gap:70px}
+    .con-arrow svg{transform:rotate(90deg)}
     .pillars4{grid-template-columns:1fr 1fr}
-    .sys-grid{grid-template-columns:1fr}
-    .prod-grid{grid-template-columns:1fr}
-    .prod-feat{grid-template-columns:1fr}
-    .prod-feat.rev .pf-copy{order:1}
-    .prod-feat.rev .pf-visual{order:2}
-    .pf-visual{min-height:260px}
+    .flow-grid{grid-template-columns:1fr 1fr;gap:44px 28px}
+    .flow-rail,.flow-chev{display:none}
+    .flow-item .stage-badge{margin:0 0 20px}
+    .flow-item .stage-media{grid-column:auto;margin-top:0;max-width:none}
+    .asc-grid{grid-template-columns:1fr;gap:36px 0}
+    .asc-rail,.asc-node{display:none}
+    .asc-panel{padding:56px 0 26px}
+    .asc-panel .asc-stage{order:1;transform:translateY(40px)}
+    .asc-panel .asc-copy{order:2}
+    .asc-panel.revealed .asc-stage{transform:none}
+    .asc-ghost{top:-52px;font-size:clamp(90px,20vw,130px)}
     .pain-grid{grid-template-columns:1fr}
     .how-steps{grid-template-columns:1fr 1fr;gap:34px 18px}
     .how-steps::before{display:none}
@@ -663,10 +1043,17 @@
   @media(max-width:768px){
     .section-inner{padding:0 20px}
     section.block{padding:80px 0}
-    .journey{padding:34px 22px 30px}
-    .pf-copy{padding:30px 24px}
-    .prod-feats{grid-template-columns:1fr}
-    .prog{grid-template-columns:1fr;gap:14px}
+    .journey-block{padding:34px 22px 30px}
+    .stage-media{max-width:none}
+    .flow-grid{grid-template-columns:1fr;gap:0}
+    .flow-item + .flow-item{margin-top:36px;padding-top:36px;border-top:1px solid rgba(201,168,76,.13)}
+    .fsx-inner{padding:0 20px}
+    .fsx-statement{padding:100px 0 70px}
+    .asc-feats{grid-template-columns:1fr}
+    .asc-frame img{height:240px}
+    .ro-quote{padding:72px 22px 50px}
+    .traits-panel{grid-template-columns:1fr}
+    .prog{grid-template-columns:1fr;gap:18px}
     .cta-banner{min-height:520px}
     .cta-in{padding:100px 20px 90px}
     .cta-actions{flex-direction:column;align-items:flex-start}
@@ -690,6 +1077,10 @@
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
     .reveal{opacity:1;transform:none}
+    .g-open .g-lede > *,.g-open .g-frame,.ro-quote .q-l1,.ro-quote .q-l2,.con-card,.p4,.led,.pain,.prog,
+    .traits-panel .trait,.system-journey.reveal .flow-item,.stage-row.reveal .stage-media,
+    .asc-copy > *,.asc-feats li,.asc-stage{opacity:1 !important;transform:none !important}
+    .con-arrow{opacity:1 !important}
   }
 </style>
 </head>
@@ -792,35 +1183,46 @@
 <!-- ═══ CHAPTER I ═══ -->
 <section class="block" id="why-now">
   <div class="section-inner">
-    <div class="chapter-label reveal" data-en="Chapter I · The Impact" data-id="Bab I · Dampak">Chapter I · The Impact</div>
-    <h2 class="sec-head reveal" data-en="The right mentor at the right moment <em>changes a career’s entire trajectory.</em>" data-id="Mentor yang tepat pada saat yang tepat <em>mengubah seluruh trajektori karier.</em>">The right mentor at the right moment <em>changes a career’s entire trajectory.</em></h2>
-    <div class="nar-grid">
-      <div class="nar-copy reveal">
+    <div class="g-open reveal">
+      <div class="g-lede">
+        <div class="go-kicker" data-en="Chapter I · The Impact" data-id="Bab I · Dampak">Chapter I · The Impact</div>
+        <h2 class="go-head" data-en="The right mentor at the right moment <br><em>changes a career’s entire trajectory.</em>" data-id="Mentor yang tepat pada saat yang tepat <br><em>mengubah seluruh trajektori karier.</em>">The right mentor at the right moment <br><em>changes a career’s entire trajectory.</em></h2>
+        <div class="go-rule" aria-hidden="true"></div>
         <p data-en="Research consistently shows that professionals with access to mentorship earn more, advance faster, and make career pivots more successfully than equally capable peers without it. In Indonesia, that access is not equally distributed. Students from well-connected families, elite universities, or the right social networks encounter potential mentors naturally. The majority do not." data-id="Penelitian secara konsisten menunjukkan bahwa profesional yang memiliki akses ke mentorship menghasilkan lebih banyak, berkembang lebih cepat, dan membuat pivot karier dengan lebih sukses daripada rekan yang sama mampunya tanpa itu. Di Indonesia, akses itu tidak terdistribusi secara merata. Mahasiswa dari keluarga berkoneksi baik, universitas elit, atau jaringan sosial yang tepat secara alami menemukan calon mentor. Mayoritas tidak.">Research consistently shows that professionals with access to mentorship earn more, advance faster, and make career pivots more successfully than equally capable peers without it. In Indonesia, that access is not equally distributed. Students from well-connected families, elite universities, or the right social networks encounter potential mentors naturally. The majority do not.</p>
         <p data-en="The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured program. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most." data-id="Mahasiswa di platform Metanoia serius. Mereka telah menyelesaikan penilaian karier, mengidentifikasi kesenjangan mereka, dan berkomitmen pada program terstruktur. Mereka tidak mencari percakapan santai — mereka mencari keahlian, diterapkan pada situasi spesifik mereka, pada saat yang paling penting.">The students on the Metanoia platform are serious. They have completed a career assessment, identified their gaps, and committed to a structured program. They are not looking for coffee chats — they are looking for expertise, applied to their specific situation, at the moment when it matters most.</p>
       </div>
-      <div class="nar-visual reveal"><img src="../assets/bg/stage-activation.jpg" alt="A mentor guiding a working session" loading="lazy"></div>
+      <div class="g-frame" aria-hidden="true">
+        <div class="gf-img"><img src="../assets/bg/stage-activation.jpg" alt="" loading="lazy"></div>
+      </div>
     </div>
 
     <div class="contrast reveal">
       <div class="con-card">
-        <h3 data-en="Without a mentor" data-id="Tanpa mentor">Without a mentor</h3>
+        <div class="con-head">
+          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6.5 6.5 L17.5 17.5 M17.5 6.5 L6.5 17.5"/></svg></span>
+          <h3 data-en="Navigating <span class='c2'>without a mentor</span>" data-id="Bernavigasi <span class='c2'>tanpa mentor</span>">Navigating <span class='c2'>without a mentor</span></h3>
+        </div>
         <ul>
-        <li data-en="Students navigate by guesswork and peer comparison" data-id="Mahasiswa bernavigasi dengan tebakan dan perbandingan dengan teman">Students navigate by guesswork and peer comparison</li>
-        <li data-en="Critical decisions (LPDP vs job, which industry, which role) made without evidence" data-id="Keputusan penting (LPDP vs kerja, industri mana, jabatan mana) dibuat tanpa bukti">Critical decisions (LPDP vs job, which industry, which role) made without evidence</li>
-        <li data-en="Months lost pursuing the wrong direction" data-id="Berbulan-bulan hilang mengejar arah yang salah">Months lost pursuing the wrong direction</li>
-        <li data-en="Interview preparation limited to YouTube and self-practice" data-id="Persiapan wawancara terbatas pada YouTube dan latihan sendiri">Interview preparation limited to YouTube and self-practice</li>
-        <li data-en="No professional who has walked the path to ask" data-id="Tidak ada profesional yang pernah menempuh jalannya untuk ditanya">No professional who has walked the path to ask</li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Students navigate by guesswork and peer comparison" data-id="Mahasiswa bernavigasi dengan tebakan dan perbandingan dengan teman">Students navigate by guesswork and peer comparison</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Critical decisions (LPDP vs job, which industry, which role) made without evidence" data-id="Keputusan penting (LPDP vs kerja, industri mana, jabatan mana) dibuat tanpa bukti">Critical decisions (LPDP vs job, which industry, which role) made without evidence</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Months lost pursuing the wrong direction" data-id="Berbulan-bulan hilang mengejar arah yang salah">Months lost pursuing the wrong direction</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Interview preparation limited to YouTube and self-practice" data-id="Persiapan wawancara terbatas pada YouTube dan latihan sendiri">Interview preparation limited to YouTube and self-practice</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="No professional who has walked the path to ask" data-id="Tidak ada profesional yang pernah menempuh jalannya untuk ditanya">No professional who has walked the path to ask</span></li>
         </ul>
       </div>
+      <span class="con-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5 L12.5 12 L6 19"/><path d="M12.5 5 L19 12 L12.5 19"/></svg></span>
       <div class="con-card with">
-        <h3 data-en="With a Metanoia Mentor" data-id="Dengan Mentor Metanoia">With a Metanoia Mentor</h3>
+        <div class="con-head">
+          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 12.5 L10 17 L18.5 7.5"/></svg></span>
+          <h3 data-en="Navigating <span class='c2'>with a Metanoia Mentor</span>" data-id="Bernavigasi <span class='c2'>dengan Mentor Metanoia</span>">Navigating <span class='c2'>with a Metanoia Mentor</span></h3>
+          <span class="con-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor"><circle cx="20" cy="20" r="16.5" stroke-width="1.4" opacity=".85"/><path d="M11 25.5 L16.5 14 L20 19.5 L23.5 12.5 L29 25.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
         <ul>
-        <li data-en="Decisions made with the input of someone who has navigated the same terrain" data-id="Keputusan dibuat dengan masukan dari orang yang pernah menavigasi medan yang sama">Decisions made with the input of someone who has navigated the same terrain</li>
-        <li data-en="Application strategies refined by someone who has evaluated hundreds of candidates" data-id="Strategi lamaran diasah oleh orang yang telah mengevaluasi ratusan kandidat">Application strategies refined by someone who has evaluated hundreds of candidates</li>
-        <li data-en="Industry knowledge translated from career insider to student context" data-id="Pengetahuan industri diterjemahkan dari orang dalam ke konteks mahasiswa">Industry knowledge translated from career insider to student context</li>
-        <li data-en="Interview feedback from someone who has sat on both sides of the table" data-id="Umpan balik wawancara dari orang yang pernah duduk di kedua sisi meja">Interview feedback from someone who has sat on both sides of the table</li>
-        <li data-en="The confidence that comes from access — not just information" data-id="Kepercayaan diri yang datang dari akses — bukan sekadar informasi">The confidence that comes from access — not just information</li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Decisions made with the input of someone who has navigated the same terrain" data-id="Keputusan dibuat dengan masukan dari orang yang pernah menavigasi medan yang sama">Decisions made with the input of someone who has navigated the same terrain</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Application strategies refined by someone who has evaluated hundreds of candidates" data-id="Strategi lamaran diasah oleh orang yang telah mengevaluasi ratusan kandidat">Application strategies refined by someone who has evaluated hundreds of candidates</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Industry knowledge translated from career insider to student context" data-id="Pengetahuan industri diterjemahkan dari orang dalam ke konteks mahasiswa">Industry knowledge translated from career insider to student context</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Interview feedback from someone who has sat on both sides of the table" data-id="Umpan balik wawancara dari orang yang pernah duduk di kedua sisi meja">Interview feedback from someone who has sat on both sides of the table</span></li>
+          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="The confidence that comes from access — not just information" data-id="Kepercayaan diri yang datang dari akses — bukan sekadar informasi">The confidence that comes from access — not just information</span></li>
         </ul>
       </div>
     </div>
@@ -866,126 +1268,226 @@
 </section>
 
 <!-- ═══ CHAPTER III ═══ -->
-<section class="block" id="products">
+<section class="products-section" id="products">
   <div class="section-inner">
     <div class="chapter-label reveal" data-en="Chapter III · Your Tools" data-id="Bab III · Alatmu">Chapter III · Your Tools</div>
-    <div class="prod-intro reveal">
-      <div class="kicker" data-en="Your Tools" data-id="Alatmu">Your Tools</div>
-      <p data-en="Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. Available exclusively to registered Metanoia Mentors." data-id="Semua yang kamu butuhkan untuk menjadi mentor yang efektif — tanpa menambahkan beban administratif pada kehidupan profesionalmu yang sudah penuh. Tersedia eksklusif untuk Mentor Metanoia terdaftar.">Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. Available exclusively to registered Metanoia Mentors.</p>
-    </div>
-    <div class="prod-feat reveal">
-      <div class="pf-copy">
-        <span class="ptag cobalt">01 · Onboarding</span>
-        <h3 class="prod-name" data-en="Mentor Onboarding &amp; Certification" data-id="Onboarding &amp; Sertifikasi Mentor">Mentor Onboarding &amp; Certification</h3>
-        <p class="prod-sub" data-en="Get started with confidence, not guesswork." data-id="Mulai dengan percaya diri, bukan tebakan.">Get started with confidence, not guesswork.</p>
-      <p class="prod-desc" data-en="A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p>
-      <ul class="prod-feats">
-        <li data-en="Assessment framework walkthrough" data-id="Panduan lengkap kerangka asesmen">Assessment framework walkthrough</li>
-        <li data-en="Session guide training" data-id="Pelatihan panduan sesi">Session guide training</li>
-        <li data-en="Mentoring best-practice modules" data-id="Modul praktik terbaik mentoring">Mentoring best-practice modules</li>
-        <li data-en="Mentor certification on completion" data-id="Sertifikasi mentor setelah selesai">Mentor certification on completion</li>
-      </ul>
-        <a href="../register.html?role=mentor" class="prod-cta" data-en="Explore Onboarding →" data-id="Jelajahi Onboarding →">Explore Onboarding →</a>
-        <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
+    <div class="asc-lead" aria-hidden="true"></div>
+  </div>
+
+  <div class="fsx-band">
+    <div class="fsx-stars" aria-hidden="true"></div>
+    <div class="fsx-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="fsx-inner">
+
+      <div class="fsx-statement reveal">
+        <div class="fsx-kicker" data-en="Your Tools" data-id="Alatmu">Your Tools</div>
+        <p class="fsx-vp" data-en="Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. <em>Available exclusively to registered Metanoia Mentors.</em>" data-id="Semua yang kamu butuhkan untuk menjadi mentor yang efektif — tanpa menambahkan beban administratif pada kehidupan profesionalmu yang sudah penuh. <em>Tersedia eksklusif untuk Mentor Metanoia terdaftar.</em>">Everything you need to mentor effectively — without adding administrative burden to your already-full professional life. <em>Available exclusively to registered Metanoia Mentors.</em></p>
+        <a class="fs-pill gold" href="#products-grid" data-en="Explore Your Tools →" data-id="Jelajahi Alatmu →">Explore Your Tools →</a>
       </div>
-      <div class="pf-visual">
-        <img src="../assets/bg/stage-foundation.jpg" alt="Mentor Onboarding &amp; Certification" loading="lazy">
-    <div class="mock" aria-hidden="true">
-      <div class="mttl">Onboarding · Module 3 of 5</div>
-      <div class="mrow"><span class="tick">✓</span><span>Assessment framework: complete</span></div>
-      <div class="mrow"><span class="don"></span><span>52 min remaining</span></div>
-      <div class="mrow"><span class="don"></span><span>Certification: pending</span></div>
-    </div>
+
+      <div class="asc" id="products-grid">
+        <div class="asc-rail" aria-hidden="true"><i class="asc-rail-fill" id="ascFill"></i></div>
+
+        <article class="asc-panel reveal" data-accent="map">
+          <div class="asc-node" aria-hidden="true">01</div>
+          <div class="asc-grid">
+            <div class="asc-copy">
+              <div class="asc-chip" data-en="Onboarding" data-id="Onboarding">Onboarding</div>
+              <h3 class="asc-name" data-en="Mentor Onboarding &amp; Certification" data-id="Onboarding &amp; Sertifikasi Mentor">Mentor Onboarding &amp; Certification</h3>
+              <p class="asc-tag" data-en="Get started with confidence, not guesswork." data-id="Mulai dengan percaya diri, bukan tebakan.">Get started with confidence, not guesswork.</p>
+              <p class="asc-desc" data-en="A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included." data-id="Program orientasi mandiri yang dirancang untuk profesional sibuk. Pelajari cara kerja kerangka asesmen Metanoia, bagaimana kemajuan mentee distrukturkan, dan cara menggunakan panduan sesi secara efektif. Total 90 menit. Sertifikasi termasuk.">A self-paced orientation program designed for busy professionals. Learn how Metanoia’s assessment framework works, how mentee progress is structured, and how to use the session guides effectively. Takes 90 minutes total. Certification included.</p>
+              <ul class="asc-feats">
+                <li data-en="Assessment framework walkthrough" data-id="Panduan lengkap kerangka asesmen">Assessment framework walkthrough</li>
+                <li data-en="Session guide training" data-id="Pelatihan panduan sesi">Session guide training</li>
+                <li data-en="Mentoring best-practice modules" data-id="Modul praktik terbaik mentoring">Mentoring best-practice modules</li>
+                <li data-en="Mentor certification on completion" data-id="Sertifikasi mentor setelah selesai">Mentor certification on completion</li>
+              </ul>
+              <a href="../register.html?role=mentor" class="asc-cta" data-en="Explore Onboarding →" data-id="Jelajahi Onboarding →">Explore Onboarding →</a>
+              <div class="asc-prem">
+                <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
+                <span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span>
+              </div>
+            </div>
+            <div class="asc-stage">
+              <div class="asc-ghost" aria-hidden="true">01</div>
+              <div class="asc-glow" aria-hidden="true"></div>
+              <div class="asc-tilt">
+                <figure class="asc-frame">
+                  <img src="../assets/bg/stage-foundation.jpg" alt="" loading="lazy">
+                  <div class="asc-veil" aria-hidden="true"></div>
+                </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Onboarding · Module 3 of 5</div>
+                  <div class="urow"><span class="dot-on"></span>52 min remaining</div>
+                  <div class="urow"><span class="dot-on"></span>Certification: pending</div>
+                </div>
+                <div class="asc-emblem" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><polygon points="12,6.2 13.9,12 12,17.8 10.1,12" fill="currentColor" stroke="none"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="asc-panel rev reveal" data-accent="pack">
+          <div class="asc-node" aria-hidden="true">02</div>
+          <div class="asc-grid">
+            <div class="asc-copy">
+              <div class="asc-chip" data-en="Matching" data-id="Pencocokan">Matching</div>
+              <h3 class="asc-name" data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</h3>
+              <p class="asc-tag" data-en="Know who you’re meeting before you meet them." data-id="Kenali siapa yang kamu temui sebelum bertemu.">Know who you’re meeting before you meet them.</p>
+              <ul class="asc-feats">
+                <li data-en="Mentee Career Map score" data-id="Skor Career Map mentee">Mentee Career Map score</li>
+                <li data-en="Gap profile and development priority" data-id="Profil kesenjangan dan prioritas pengembangan">Gap profile and development priority</li>
+                <li data-en="Session history and notes" data-id="Riwayat sesi dan catatan">Session history and notes</li>
+                <li data-en="Progress tracking between sessions" data-id="Pelacakan kemajuan antar sesi">Progress tracking between sessions</li>
+                <li data-en="Communication tools" data-id="Alat komunikasi">Communication tools</li>
+              </ul>
+              <a href="../register.html?role=mentor" class="asc-cta" data-en="Explore the Dashboard →" data-id="Jelajahi Dasbor →">Explore the Dashboard →</a>
+              <div class="asc-prem">
+                <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
+                <span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span>
+              </div>
+            </div>
+            <div class="asc-stage">
+              <div class="asc-ghost" aria-hidden="true">02</div>
+              <div class="asc-glow" aria-hidden="true"></div>
+              <div class="asc-tilt">
+                <figure class="asc-frame">
+                  <img src="../assets/bg/map.jpg" alt="" loading="lazy">
+                  <div class="asc-veil" aria-hidden="true"></div>
+                </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Ayu R. · Year 3 · UI</div>
+                  <div class="urow"><span class="dot-on"></span>Target: Consulting · Map 62/100</div>
+                  <div class="urow"><span class="dot-on"></span>Priority gap: interview readiness</div>
+                </div>
+                <div class="asc-emblem" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="asc-panel reveal" data-accent="rope">
+          <div class="asc-node" aria-hidden="true">03</div>
+          <div class="asc-grid">
+            <div class="asc-copy">
+              <div class="asc-chip" data-en="Guides" data-id="Panduan">Guides</div>
+              <h3 class="asc-name" data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</h3>
+              <p class="asc-tag" data-en="Walk in knowing what to cover and why it matters." data-id="Masuk dengan tahu apa yang dibahas dan mengapa itu penting.">Walk in knowing what to cover and why it matters.</p>
+              <ul class="asc-feats">
+                <li data-en="Session-by-session conversation guides" data-id="Panduan percakapan sesi demi sesi">Session-by-session conversation guides</li>
+                <li data-en="Role-specific frameworks — consulting prep, LPDP essays, corporate navigation" data-id="Kerangka spesifik peran — persiapan konsulting, esai LPDP, navigasi korporat">Role-specific frameworks — consulting prep, LPDP essays, corporate navigation</li>
+                <li data-en="Scenario-based response suggestions" data-id="Saran respons berbasis skenario">Scenario-based response suggestions</li>
+                <li data-en="Post-session summary templates" data-id="Template ringkasan pasca-sesi">Post-session summary templates</li>
+              </ul>
+              <a href="../register.html?role=mentor" class="asc-cta" data-en="Explore the Guides →" data-id="Jelajahi Panduannya →">Explore the Guides →</a>
+              <div class="asc-prem">
+                <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
+                <span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span>
+              </div>
+            </div>
+            <div class="asc-stage">
+              <div class="asc-ghost" aria-hidden="true">03</div>
+              <div class="asc-glow" aria-hidden="true"></div>
+              <div class="asc-tilt">
+                <figure class="asc-frame">
+                  <img src="../assets/bg/pack.jpg" alt="" loading="lazy">
+                  <div class="asc-veil" aria-hidden="true"></div>
+                </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Session 2 · Case Prep</div>
+                  <div class="urow"><span class="dot-on"></span>Framework: hypothesis trees</div>
+                  <div class="urow"><span class="dot-on"></span>Summary template: ready</div>
+                </div>
+                <div class="asc-emblem" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="asc-panel rev reveal" data-accent="route">
+          <div class="asc-node" aria-hidden="true">04</div>
+          <div class="asc-grid">
+            <div class="asc-copy">
+              <div class="asc-chip" data-en="Community" data-id="Komunitas">Community</div>
+              <h3 class="asc-name" data-en="Mentor Community &amp; Peer Network" data-id="Komunitas Mentor &amp; Jaringan Rekan">Mentor Community &amp; Peer Network</h3>
+              <p class="asc-tag" data-en="You are not mentoring alone." data-id="Kamu tidak menjadi mentor sendirian.">You are not mentoring alone.</p>
+              <ul class="asc-feats">
+                <li data-en="Quarterly Mentor Cohort sessions" data-id="Sesi Kohort Mentor kuartalan">Quarterly Mentor Cohort sessions</li>
+                <li data-en="Cross-industry peer exchange" data-id="Pertukaran rekan lintas industri">Cross-industry peer exchange</li>
+                <li data-en="Case discussions with fellow mentors" data-id="Diskusi kasus dengan sesama mentor">Case discussions with fellow mentors</li>
+                <li data-en="Access to Metanoia expert knowledge base" data-id="Akses ke basis pengetahuan pakar Metanoia">Access to Metanoia expert knowledge base</li>
+                <li data-en="Priority invitations to Metanoia events and panels" data-id="Undangan prioritas ke acara dan panel Metanoia">Priority invitations to Metanoia events and panels</li>
+              </ul>
+              <a href="../register.html?role=mentor" class="asc-cta" data-en="Explore the Community →" data-id="Jelajahi Komunitasnya →">Explore the Community →</a>
+              <div class="asc-prem">
+                <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
+                <span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span>
+              </div>
+            </div>
+            <div class="asc-stage">
+              <div class="asc-ghost" aria-hidden="true">04</div>
+              <div class="asc-glow" aria-hidden="true"></div>
+              <div class="asc-tilt">
+                <figure class="asc-frame">
+                  <img src="../assets/bg/rope-team.jpg" alt="" loading="lazy">
+                  <div class="asc-veil" aria-hidden="true"></div>
+                </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Mentor Cohort · Q3</div>
+                  <div class="urow"><span class="dot-on"></span>Case discussion: fintech pivot</div>
+                  <div class="urow"><span class="dot-on"></span>Event invite: careers panel</div>
+                </div>
+                <div class="asc-emblem" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="asc-panel final reveal" data-accent="all">
+          <div class="asc-node" aria-hidden="true">05</div>
+          <div class="asc-grid">
+            <div class="asc-stage">
+              <div class="asc-ghost" aria-hidden="true">05</div>
+              <div class="asc-glow" aria-hidden="true"></div>
+              <div class="asc-tilt">
+                <figure class="asc-frame">
+                  <img src="../assets/bg/stage-execution.jpg" alt="" loading="lazy">
+                  <div class="asc-veil" aria-hidden="true"></div>
+                </figure>
+                <div class="asc-ui" aria-hidden="true">
+                  <div class="uttl">Mentor Profile</div>
+                  <div class="urow"><span class="dot-on"></span>Mentees guided: 3</div>
+                  <div class="urow"><span class="dot-on"></span>LinkedIn link: active</div>
+                </div>
+                <div class="asc-emblem" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3.5 19.5 L10 8.5 L14 14 L16.8 10.6 L20.5 19.5 Z"/><path d="M10 8.5 V4 h4 L12.4 5.6 L14 7.2 h-4"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="asc-copy">
+              <div class="asc-chip" data-en="Profile" data-id="Profil">Profile</div>
+              <h3 class="asc-name" data-en="Expert Profile &amp; Portfolio" data-id="Profil Pakar &amp; Portofolio">Expert Profile &amp; Portfolio</h3>
+              <p class="asc-tag" data-en="Let your contribution speak." data-id="Biarkan kontribusimu yang berbicara.">Let your contribution speak.</p>
+              <p class="asc-desc" data-en="Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile." data-id="Profil Mentor Metanoia-mu mendokumentasikan keahlianmu, riwayat mentoringmu, dan pencapaian pengembangan profesional yang diraih mentee-mu. Ini bukan halaman testimoni — ini adalah catatan profesional atas dampak yang kamu ciptakan. Dibagikan dengan komunitas platform dan dapat ditautkan dari profil LinkedIn-mu.">Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile.</p>
+              <a href="../register.html?role=mentor" class="asc-cta" data-en="Build Your Mentor Profile →" data-id="Bangun Profil Mentormu →">Build Your Mentor Profile →</a>
+              <div class="asc-prem">
+                <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
+                <span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
       </div>
-    </div>
-    <div class="prod-grid">
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag teal">02 · Matching</span>
-          <h3 data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</h3>
-          <p class="prod-sub" data-en="Know who you’re meeting before you meet them." data-id="Kenali siapa yang kamu temui sebelum bertemu.">Know who you’re meeting before you meet them.</p>
-          <ul>
-          <li data-en="Mentee Career Map score" data-id="Skor Career Map mentee">Mentee Career Map score</li>
-          <li data-en="Gap profile and development priority" data-id="Profil kesenjangan dan prioritas pengembangan">Gap profile and development priority</li>
-          <li data-en="Session history and notes" data-id="Riwayat sesi dan catatan">Session history and notes</li>
-          <li data-en="Progress tracking between sessions" data-id="Pelacakan kemajuan antar sesi">Progress tracking between sessions</li>
-          <li data-en="Communication tools" data-id="Alat komunikasi">Communication tools</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">Ayu R. · Year 3 · UI</div>
-      <div class="mrow"><span class="don"></span><span>Target: Consulting · Map 62/100</span></div>
-      <div class="mrow"><span class="don"></span><span>Priority gap: interview readiness</span></div>
-      <div class="mrow"><span class="tick">✓</span><span>Next session: Fri 14:00</span></div>
-    </div>
-          <a href="../register.html?role=mentor" class="prod-cta" data-en="Explore the Dashboard →" data-id="Jelajahi Dasbor →">Explore the Dashboard →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-        </div>
-      </div>
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag amber">03 · Guides</span>
-          <h3 data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</h3>
-          <p class="prod-sub" data-en="Walk in knowing what to cover and why it matters." data-id="Masuk dengan tahu apa yang dibahas dan mengapa itu penting.">Walk in knowing what to cover and why it matters.</p>
-          <ul>
-          <li data-en="Session-by-session conversation guides" data-id="Panduan percakapan sesi demi sesi">Session-by-session conversation guides</li>
-          <li data-en="Role-specific frameworks — consulting prep, LPDP essays, corporate navigation" data-id="Kerangka spesifik peran — persiapan konsulting, esai LPDP, navigasi korporat">Role-specific frameworks — consulting prep, LPDP essays, corporate navigation</li>
-          <li data-en="Scenario-based response suggestions" data-id="Saran respons berbasis skenario">Scenario-based response suggestions</li>
-          <li data-en="Post-session summary templates" data-id="Template ringkasan pasca-sesi">Post-session summary templates</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">Session 2 · Case Prep</div>
-      <div class="mrow"><span class="tick">✓</span><span>Guide: consulting interview</span></div>
-      <div class="mrow"><span class="don"></span><span>Framework: hypothesis trees</span></div>
-      <div class="mrow"><span class="don"></span><span>Summary template: ready</span></div>
-    </div>
-          <a href="../register.html?role=mentor" class="prod-cta" data-en="Explore the Guides →" data-id="Jelajahi Panduannya →">Explore the Guides →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-        </div>
-      </div>
-      <div class="prod-card reveal">
-        <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
-        <div class="pc-body">
-          <span class="ptag forest">04 · Community</span>
-          <h3 data-en="Mentor Community &amp; Peer Network" data-id="Komunitas Mentor &amp; Jaringan Rekan">Mentor Community &amp; Peer Network</h3>
-          <p class="prod-sub" data-en="You are not mentoring alone." data-id="Kamu tidak menjadi mentor sendirian.">You are not mentoring alone.</p>
-          <ul>
-          <li data-en="Quarterly Mentor Cohort sessions" data-id="Sesi Kohort Mentor kuartalan">Quarterly Mentor Cohort sessions</li>
-          <li data-en="Cross-industry peer exchange" data-id="Pertukaran rekan lintas industri">Cross-industry peer exchange</li>
-          <li data-en="Case discussions with fellow mentors" data-id="Diskusi kasus dengan sesama mentor">Case discussions with fellow mentors</li>
-          <li data-en="Access to Metanoia expert knowledge base" data-id="Akses ke basis pengetahuan pakar Metanoia">Access to Metanoia expert knowledge base</li>
-          <li data-en="Priority invitations to Metanoia events and panels" data-id="Undangan prioritas ke acara dan panel Metanoia">Priority invitations to Metanoia events and panels</li>
-          </ul>
-    <div class="pc-mock" aria-hidden="true">
-      <div class="mttl">Mentor Cohort · Q3</div>
-      <div class="mrow"><span class="tick">✓</span><span>Peer exchange: 12 Aug</span></div>
-      <div class="mrow"><span class="don"></span><span>Case discussion: fintech pivot</span></div>
-      <div class="mrow"><span class="don"></span><span>Event invite: careers panel</span></div>
-    </div>
-          <a href="../register.html?role=mentor" class="prod-cta" data-en="Explore the Community →" data-id="Jelajahi Komunitasnya →">Explore the Community →</a>
-          <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="prod-feat rev reveal">
-      <div class="pf-copy">
-        <span class="ptag goldp">05 · Profile</span>
-        <h3 class="prod-name" data-en="Expert Profile &amp; Portfolio" data-id="Profil Pakar &amp; Portofolio">Expert Profile &amp; Portfolio</h3>
-        <p class="prod-sub" data-en="Let your contribution speak." data-id="Biarkan kontribusimu yang berbicara.">Let your contribution speak.</p>
-      <p class="prod-desc" data-en="Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile." data-id="Profil Mentor Metanoia-mu mendokumentasikan keahlianmu, riwayat mentoringmu, dan pencapaian pengembangan profesional yang diraih mentee-mu. Ini bukan halaman testimoni — ini adalah catatan profesional atas dampak yang kamu ciptakan. Dibagikan dengan komunitas platform dan dapat ditautkan dari profil LinkedIn-mu.">Your Metanoia Mentor profile documents your expertise, your mentoring history, and the professional development milestones your mentees achieve. It’s not a testimonial page — it’s a professional record of the impact you’ve created. Shared with the platform community and available to link from your LinkedIn profile.</p>
-        <a href="../register.html?role=mentor" class="prod-cta" data-en="Build Your Mentor Profile →" data-id="Bangun Profil Mentormu →">Build Your Mentor Profile →</a>
-        <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="For registered Metanoia Mentors" data-id="Untuk Mentor Metanoia terdaftar">For registered Metanoia Mentors</span></div>
-      </div>
-      <div class="pf-visual">
-        <img src="../assets/bg/stage-execution.jpg" alt="Expert Profile &amp; Portfolio" loading="lazy">
-    <div class="mock" aria-hidden="true">
-      <div class="mttl">Mentor Profile</div>
-      <div class="mrow"><span class="tick">✓</span><span>Sessions logged: 14</span></div>
-      <div class="mrow"><span class="don"></span><span>Mentees guided: 3</span></div>
-      <div class="mrow"><span class="don"></span><span>LinkedIn link: active</span></div>
-    </div>
-      </div>
+
     </div>
   </div>
 </section>
@@ -1245,6 +1747,105 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
     });
     p.after(b);
   });
+})();
+</script>
+
+<script>
+/* ─── FG design system motion: stage badges, rails, ascent ─── */
+(function(){
+  'use strict';
+  /* stage badges light up on scroll */
+  const stageRows = document.querySelectorAll('.stage-row');
+  if(stageRows.length){
+    const dotObserver = new IntersectionObserver((entries)=>{
+      entries.forEach((entry,i)=>{
+        if(entry.isIntersecting){
+          setTimeout(()=>{ entry.target.querySelector('.stage-badge')?.classList.add('active'); }, i*150);
+          dotObserver.unobserve(entry.target);
+        }
+      });
+    },{threshold:.4});
+    stageRows.forEach(y=>dotObserver.observe(y));
+  }
+
+  /* vertical journey rail + horizontal system flow fill on scroll */
+  const railTrack = document.getElementById('journeyTrack');
+  const railFill = document.getElementById('railFill');
+  const flowEl = document.querySelector('.system-flow');
+  const flowFill = document.getElementById('flowFill');
+  if((railTrack && railFill) || (flowEl && flowFill)){
+    let railTick = false;
+    const updateRails = ()=>{
+      if(railTrack && railFill){
+        const r = railTrack.getBoundingClientRect();
+        const p = Math.min(1, Math.max(0, (innerHeight * 0.65 - r.top) / r.height));
+        railFill.style.height = (p * 100).toFixed(2) + '%';
+      }
+      if(flowEl && flowFill){
+        const r = flowEl.getBoundingClientRect();
+        const p = Math.min(1, Math.max(0, (innerHeight * 0.82 - r.top) / (r.height * 1.05)));
+        flowFill.style.width = (p * 100).toFixed(2) + '%';
+      }
+      railTick = false;
+    };
+    addEventListener('scroll', ()=>{
+      if(!railTick){ requestAnimationFrame(updateRails); railTick = true; }
+    }, {passive:true});
+    updateRails();
+  }
+
+  /* Ascent gallery: rail fill, layered parallax, 3D tilt */
+  const ascEl = document.querySelector('.asc');
+  if(ascEl){
+    const ascFill = document.getElementById('ascFill');
+    const ascRail = ascEl.querySelector('.asc-rail');
+    const ascFinal = ascEl.querySelector('.asc-panel.final');
+    const ascPanels = [...ascEl.querySelectorAll('.asc-panel')];
+    const ascReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const sizeRail = ()=>{
+      if(ascRail && ascFinal){
+        ascRail.style.bottom = (ascEl.offsetHeight - ascFinal.offsetTop - 22) + 'px';
+      }
+    };
+    sizeRail();
+    addEventListener('resize', sizeRail, {passive:true});
+    addEventListener('load', sizeRail);
+    let ascTick = false;
+    const updateAscent = ()=>{
+      const r = ascEl.getBoundingClientRect();
+      if(ascFill){
+        const p = Math.min(1, Math.max(0, (innerHeight * 0.72 - r.top) / r.height));
+        ascFill.style.height = (p * 100).toFixed(2) + '%';
+      }
+      if(!ascReduced && r.bottom > -300 && r.top < innerHeight + 300){
+        ascPanels.forEach(pn=>{
+          const pr = pn.getBoundingClientRect();
+          const c = (pr.top + pr.height / 2 - innerHeight / 2) / innerHeight;
+          pn.style.setProperty('--py', (c * 30).toFixed(1) + 'px');
+          pn.style.setProperty('--gy', (c * -44).toFixed(1) + 'px');
+        });
+      }
+      ascTick = false;
+    };
+    addEventListener('scroll', ()=>{
+      if(!ascTick){ requestAnimationFrame(updateAscent); ascTick = true; }
+    }, {passive:true});
+    updateAscent();
+
+    if(!ascReduced && matchMedia('(hover: hover)').matches){
+      ascEl.querySelectorAll('.asc-stage').forEach(stage=>{
+        const tilt = stage.querySelector('.asc-tilt');
+        if(!tilt) return;
+        stage.addEventListener('mousemove', e=>{
+          const r = tilt.getBoundingClientRect();
+          const x = (e.clientX - r.left) / r.width - .5;
+          const y = (e.clientY - r.top) / r.height - .5;
+          tilt.style.transform = 'rotateY(' + (x * 8).toFixed(2) + 'deg) rotateX(' + (-y * 6).toFixed(2) + 'deg)';
+        });
+        stage.addEventListener('mouseleave', ()=>{ tilt.style.transform = ''; });
+      });
+    }
+  }
 })();
 </script>
 </body>
