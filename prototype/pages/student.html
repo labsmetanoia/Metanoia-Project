@@ -281,23 +281,43 @@
   .arch-corner.br{bottom:10px;right:10px;border-bottom:1px solid rgba(201,168,76,.7);border-right:1px solid rgba(201,168,76,.7);border-radius:0 0 6px 0}
 
   /* — glass quote card — */
-  .ro-quote{max-width:780px;margin:0 auto 64px;background:var(--glass-bg);border:1px solid var(--gold-border-hover);
-    border-radius:20px;padding:54px 56px 42px;position:relative;backdrop-filter:var(--glass-blur);text-align:center;
-    box-shadow:0 26px 70px rgba(0,0,0,.32)}
-  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;
-    border-top:1px solid rgba(201,168,76,.5);border-left:1px solid rgba(201,168,76,.5);border-radius:7px 0 0 0}
-  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;
-    border-bottom:1px solid rgba(201,168,76,.5);border-right:1px solid rgba(201,168,76,.5);border-radius:0 0 7px 0}
-  .ro-qmark{position:absolute;top:-26px;left:50%;transform:translateX(-50%);width:52px;height:52px;
-    border-radius:50%;background:var(--bg-base);border:1px solid rgba(201,168,76,.5);
-    display:flex;align-items:center;justify-content:center;
-    font-family:Georgia,serif;font-size:34px;line-height:0;color:var(--gold);
-    box-shadow:0 0 22px rgba(201,168,76,.18)}
-  .ro-qmark i{font-style:normal;transform:translateY(9px)}
-  .ro-quote p{font-family:var(--serif);font-size:clamp(1.18rem,1.9vw,1.5rem);color:var(--gold);
-    line-height:1.68;margin:0;font-weight:500}
-  .q-diamond{width:8px;height:8px;margin:24px auto 0;transform:rotate(45deg);
+  .ro-quote{position:relative;margin:0 auto 64px;border-radius:22px;text-align:center;
+    border:1px solid rgba(201,168,76,.38);padding:96px 48px 72px;
+    box-shadow:0 34px 90px rgba(0,0,0,.42),0 0 60px rgba(201,168,76,.07)}
+  .q-bg{position:absolute;inset:0;z-index:0;pointer-events:none;border-radius:21px;overflow:hidden}
+  .q-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 42%;display:block;
+    animation:qDrift 32s ease-in-out infinite alternate;will-change:transform}
+  @keyframes qDrift{from{transform:scale(1.02)}to{transform:scale(1.12)}}
+  .q-veil{position:absolute;inset:0;background:
+    radial-gradient(70% 90% at 50% 108%, rgba(201,168,76,.17), transparent 62%),
+    linear-gradient(180deg, rgba(5,10,18,.90) 0%, rgba(5,10,18,.70) 45%, rgba(5,10,18,.87) 100%)}
+  .q-beam{position:absolute;top:-30%;left:16%;width:32%;height:160%;pointer-events:none;
+    background:linear-gradient(105deg,transparent 30%,rgba(240,216,120,.08) 50%,transparent 70%);
+    filter:blur(6px);transform:rotate(10deg);animation:beamBreathe 9s ease-in-out infinite}
+  .ro-quote::before{content:'';position:absolute;top:16px;left:16px;width:26px;height:26px;z-index:2;
+    border-top:1px solid rgba(201,168,76,.55);border-left:1px solid rgba(201,168,76,.55);border-radius:7px 0 0 0}
+  .ro-quote::after{content:'';position:absolute;bottom:16px;right:16px;width:26px;height:26px;z-index:2;
+    border-bottom:1px solid rgba(201,168,76,.55);border-right:1px solid rgba(201,168,76,.55);border-radius:0 0 7px 0}
+  .ro-qmark{position:absolute;top:-27px;left:50%;transform:translateX(-50%);width:54px;height:54px;z-index:3;
+    border-radius:50%;background:#0A101D;border:1px solid rgba(201,168,76,.55);
+    display:flex;align-items:center;justify-content:center;color:var(--gold);
+    box-shadow:0 0 22px rgba(201,168,76,.22)}
+  .ro-qmark svg{width:22px;height:22px;display:block}
+  .ro-quote p{position:relative;z-index:2;font-family:var(--serif);font-weight:500;
+    font-size:clamp(1.45rem,2.7vw,2.2rem);line-height:1.5;margin:0;letter-spacing:.002em}
+  .ro-quote .q-l1{color:#F2F5FA;text-shadow:0 2px 24px rgba(5,10,18,.6)}
+  .ro-quote .q-l2{background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .ro-quote .q-l1,.ro-quote .q-l2{display:inline-block;opacity:0;transform:translateY(20px);
+    transition:opacity .75s ease,transform .75s cubic-bezier(.25,.8,.3,1)}
+  .ro-quote.revealed .q-l1{opacity:1;transform:none;transition-delay:.28s}
+  .ro-quote.revealed .q-l2{opacity:1;transform:none;transition-delay:.5s}
+  .q-diamond{position:relative;z-index:2;width:8px;height:8px;margin:28px auto 0;transform:rotate(45deg);
     background:linear-gradient(135deg,var(--gold-bright),var(--gold));opacity:.85}
+  .ro-cite{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:16px;
+    margin-top:20px;font-style:normal;font-size:11px;font-weight:700;
+    letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+  .ro-cite::before,.ro-cite::after{content:'';width:38px;height:1px;background:rgba(201,168,76,.45)}
 
   /* — narrative body with gold highlights — */
   .ro-body{max-width:740px;margin:0 auto 62px}
@@ -923,7 +943,6 @@
   :root[data-theme="light"] .sheet{background:rgba(238,241,246,.95)}
   :root[data-theme="light"] .sheet .close{border-color:rgba(27,36,52,.3)}
   /* section components */
-  :root[data-theme="light"] .ro-qmark{background:var(--bg-base)}
   :root[data-theme="light"] .arch-frame{animation:none;
     box-shadow:0 0 54px rgba(139,105,20,.14),0 22px 54px rgba(27,36,52,.22)}
   :root[data-theme="light"] .arch-frame::after{box-shadow:inset 0 0 0 5px rgba(255,255,255,.16),inset 0 0 40px rgba(27,36,52,.14)}
@@ -933,7 +952,6 @@
   :root[data-theme="light"] .rz-ambience{background:
     radial-gradient(44% 32% at 76% 8%, rgba(139,105,20,.08), transparent 72%),
     radial-gradient(34% 26% at 10% 46%, rgba(29,95,171,.05), transparent 72%)}
-  :root[data-theme="light"] .ro-quote{box-shadow:0 26px 60px rgba(27,36,52,.14)}
   :root[data-theme="light"] .rz-beam{background:linear-gradient(115deg,transparent 30%,rgba(139,105,20,.05) 50%,transparent 70%)}
   :root[data-theme="light"] .rz-particles i{background:#8B6914;filter:blur(1px)}
   :root[data-theme="light"] .topo-bg{opacity:.055}
@@ -1077,7 +1095,7 @@
     .asc-emblem{width:60px;height:60px;border-radius:16px;bottom:-14px;left:-10px}
     .asc-panel.rev .asc-emblem{right:-10px}
     .asc-panel.final .asc-emblem{bottom:-18px}
-    .ro-quote{padding:36px 26px 30px}
+    .ro-quote{padding:72px 22px 50px}
     .traits-panel{grid-template-columns:1fr 1fr}
     .trait:nth-child(3n+1){border-left:1px solid rgba(201,168,76,.13)}
     .trait:nth-child(2n+1){border-left:0}
@@ -1101,6 +1119,7 @@
     .arch-frame{box-shadow:0 0 58px rgba(201,168,76,.13),0 26px 64px rgba(0,0,0,.42)}
     .ro-quote .ro-qmark,.ro-quote .q-diamond{opacity:1;transform:translate(-50%,0)}
     .ro-quote .q-diamond{transform:rotate(45deg)}
+    .ro-quote .q-l1,.ro-quote .q-l2{opacity:1 !important;transform:none !important}
     .ro-decl.reveal{opacity:1;transform:none;letter-spacing:.055em}
     .traits-panel.reveal .trait{opacity:1;transform:none}
     .stage-row.reveal .stage-media{opacity:1;transform:none}
@@ -1279,11 +1298,17 @@
     </div>
 
     <blockquote class="ro-quote reveal">
-      <span class="ro-qmark" aria-hidden="true"><i>&#8220;</i></span>
-      <p data-en="The career journey doesn&apos;t begin after you graduate.<br>It begins on the first day you walk onto campus." data-id="Perjalanan karier tidak dimulai setelah lulus kuliah.<br>Ia dimulai sejak hari pertama kamu masuk kampus.">
-        The career journey doesn't begin after you graduate.<br>It begins on the first day you walk onto campus.
+      <div class="q-bg" aria-hidden="true">
+        <img src="../assets/bg/start.jpg" alt="" loading="lazy">
+        <div class="q-veil"></div>
+        <div class="q-beam"></div>
+      </div>
+      <span class="ro-qmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.2 5.8C7 6.9 5 9.3 5 12.6V18h6.2v-6H8.1c.1-2 1.2-3.4 3.1-4.2L10.2 5.8Zm8.6 0c-3.2 1.1-5.2 3.5-5.2 6.8V18h6.2v-6h-3.1c.1-2 1.2-3.4 3.1-4.2l-1-2Z"/></svg></span>
+      <p data-en="<span class='q-l1'>The career journey doesn&apos;t begin after you graduate.</span><br><span class='q-l2'>It begins on the first day you walk onto campus.</span>" data-id="<span class='q-l1'>Perjalanan karier tidak dimulai setelah lulus kuliah.</span><br><span class='q-l2'>Ia dimulai sejak hari pertama kamu masuk kampus.</span>">
+        <span class='q-l1'>The career journey doesn't begin after you graduate.</span><br><span class='q-l2'>It begins on the first day you walk onto campus.</span>
       </p>
       <div class="q-diamond" aria-hidden="true"></div>
+      <cite class="ro-cite">Metanoia Labs</cite>
     </blockquote>
 
     <div class="ro-body reveal">
