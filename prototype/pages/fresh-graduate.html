@@ -258,13 +258,8 @@
   .rz-particles i:nth-child(14){left:4%;width:4px;height:4px;--mo:.17;animation-duration:31s;animation-delay:11s}
 
   /* — opening grid: serif narrative left, framed visual right — */
-  .ro-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:64px;
+  .ro-grid{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:56px;
     align-items:center;margin-bottom:84px}
-  .ro-left{position:relative}
-  .ro-ghost{position:absolute;top:-88px;left:-40px;z-index:0;pointer-events:none;user-select:none;
-    font-family:var(--serif);font-weight:600;font-size:clamp(150px,16vw,230px);line-height:1;
-    color:transparent;-webkit-text-stroke:1px rgba(201,168,76,.15)}
-  .ro-left > *{position:relative;z-index:1}
   .ro-chapter{display:flex;align-items:center;gap:18px;font-size:13px;font-weight:800;
     letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
   .ro-chapter::after{content:'';flex:1;max-width:120px;height:1px;background:var(--gold);opacity:.6}
@@ -1217,7 +1212,6 @@
   /* ═══ RESPONSIVE ═══ */
   @media(max-width:960px){
     .ro-grid{grid-template-columns:1fr;gap:48px}
-    .ro-ghost{top:-62px;left:-10px;font-size:118px}
     .fun-grid{grid-template-columns:1fr;gap:32px;padding:0 30px 36px}
     .fun-rows{padding-right:0}
     .fun-insight{border-left:0;border-top:1px solid rgba(201,168,76,.22);padding:30px 4px 0}
@@ -1397,7 +1391,6 @@
 
     <div class="ro-grid reveal">
       <div class="ro-left">
-        <div class="ro-ghost" aria-hidden="true">I</div>
         <div class="ro-chapter" data-en="Chapter I · The Reckoning" data-id="Bab I · Perhitungan">Chapter I · The Reckoning</div>
         <h2 class="ro-headline" data-en="Graduation <br>doesn&apos;t close the gap. <br><em>It reveals it.</em>" data-id="Wisuda tidak menutup <br>kesenjangannya. <br><em>Wisuda mengungkapkannya.</em>">
           Graduation <br>doesn't close the gap. <br><em>It reveals it.</em>
