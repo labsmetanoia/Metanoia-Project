@@ -875,13 +875,13 @@ const tt=(k,v)=>{let s=T[lang][k]||k;Object.entries(v||{}).forEach(([a,b])=>s=s.
 /* ================= DATA ================= */
 const DIMS=[
  {key:'ci',name:'Career Intelligence',metaname:'The Map',color:'#8B6914',
-  desc:'How well you understand the real mechanics of hiring in the Indonesian market — ATS screening, recruitment processes, salary benchmarks, and strategic targeting. You cannot navigate terrain you cannot see.'},
+  desc:'How well you understand the real mechanics of hiring in today’s market — ATS screening, recruitment processes, salary benchmarks, and strategic targeting. You cannot navigate terrain you cannot see.'},
  {key:'ps',name:'Profile Strength',metaname:'The Pack',color:'#C97B1E',
   desc:'The condition of your gear: CV quality, quantified achievements, ATS performance, LinkedIn presence, and digital footprint. Your profile does the climbing when you are not in the room.'},
  {key:'ir',name:'Interview Readiness',metaname:'The Rope',color:'#C9A84C',
   desc:'Your ability to perform when it matters most: structured storytelling (STAR), practiced answers, company research, and pre-interview composure. Interviews are won in preparation, not in the room.'},
  {key:'nc',name:'Network Capital',metaname:'The Rope Team',color:'#5A6A80',
-  desc:'Who is climbing with you: mentors, meaningful professional connections, structured peer practice, events, and your alumni network. In Indonesia especially, the hidden job market moves through people.'},
+  desc:'Who is climbing with you: mentors, meaningful professional connections, structured peer practice, events, and your alumni network. In every market, the hidden job market moves through people.'},
  {key:'cm',name:'Career Mindset',metaname:'The Mountain Mind',color:'#1B2434',
   desc:'Whether you can sustain the climb through the storm: goal clarity, rejection recovery, structured consistency, honest progress measurement, and calibrated confidence.'}
 ];
@@ -899,15 +899,15 @@ const Q=[
  {id:'A2',d:0,q:'How familiar are you with the typical recruitment process and hiring timeline at leading companies or within your target employers?',
   o:['I have no idea what the typical process looks like','I have a general sense but have never researched it specifically','I understand the general stages (written test, group discussion, interview, medical)','I know the stages, typical timelines, key assessment competencies, and how to prepare for each'],
   sName:'Process mastery', strength:'You know the stages, the timelines, and the competencies each stage assesses — written test, FGD, interview, medical. That means you prepare for the right thing at the right time, while others discover each stage only when it hits them.',
-  gapName:'Flying blind through the process', gap:'Large Indonesian employers — especially State-Owned Enterprises (SOE/BUMN) — run multi-stage processes that reward candidates who know what is coming. If you cannot name the stages and what each one measures, you are preparing generically for a very specific game.',
+  gapName:'Flying blind through the process', gap:'Large employers — especially state-owned and public-sector enterprises — run multi-stage processes that reward candidates who know what is coming. If you cannot name the stages and what each one measures, you are preparing generically for a very specific game.',
   fix:'Pick your top 2 target companies and map their full recruitment process from public sources (official career pages, employee posts, forum threads). Write the stages, timeline, and what each stage assesses.', why:'You cannot train for a race you have never seen the course of.', time:'3 hours'},
  {id:'A3',d:0,q:'Do you know the market salary range for your target role, at your experience level, in your target industry?',
   o:['No — I have never researched salary benchmarks',"I have a rough idea but it's based on what a friend told me",'I have researched it on Glassdoor or LinkedIn Salary and have a specific range in mind','I have researched it across multiple sources, I know the range by company tier, and I know how to negotiate effectively'],
-  sName:'Salary intelligence', strength:'You know your market value across sources and company tiers, and you know how to negotiate. That knowledge typically converts into millions of rupiah per year that under-informed candidates simply leave on the table.',
+  sName:'Salary intelligence', strength:'You know your market value across sources and company tiers, and you know how to negotiate. That knowledge typically converts into a significant share of salary every year that under-informed candidates simply leave on the table.',
   gapName:'Negotiating in the dark', gap:'Without salary benchmarks you cannot recognize a fair offer, a great one, or a lowball — and employers can tell. Salary research is one of the fastest, highest-return pieces of homework in the entire job search.',
-  fix:'Spend one evening on Glassdoor, LinkedIn Salary, and Indonesian salary reports for your target role. Write down a floor, a target, and a stretch number.', why:'Three numbers turn the scariest interview question into your most confident answer.', time:'2 hours'},
+  fix:'Spend one evening on Glassdoor, LinkedIn Salary, and local salary reports for your target role. Write down a floor, a target, and a stretch number.', why:'Three numbers turn the scariest interview question into your most confident answer.', time:'2 hours'},
  {id:'A4',d:0,q:'How well do you understand what "cultural fit" vs. "competency fit" means in the hiring process?',
-  o:["I haven't thought about this distinction","I understand it conceptually but don't factor it into how I prepare",'I research company culture before interviews and adjust how I present myself','I research company culture AND competency frameworks (e.g., State-Owned Enterprise (SOE/BUMN) Talent Score criteria, competency models) and tailor my preparation to each'],
+  o:["I haven't thought about this distinction","I understand it conceptually but don't factor it into how I prepare",'I research company culture before interviews and adjust how I present myself','I research company culture AND competency frameworks (e.g., graduate-program talent score criteria, competency models) and tailor my preparation to each'],
   sName:'Fit-model awareness', strength:'You prepare on two axes — culture and competency frameworks — and tailor your presentation to each employer. This is exactly how strong candidates make interviewers feel "this person already belongs here."',
   gapName:'One-size-fits-all preparation', gap:'Employers evaluate you against two different lenses: will you thrive in our culture, and can you do the work at our standard. Preparing identically for every company means both lenses stay blurry.',
   fix:'For your next interview, spend 45 minutes on the company\'s stated values and any published competency criteria, then map one of your stories to each.', why:'Interviewers hire people who speak their framework back to them.', time:'45 min per interview'},
@@ -935,7 +935,7 @@ const Q=[
  {id:'B4',d:1,q:'How complete and active is your LinkedIn profile?',
   o:["I have a LinkedIn profile but it's mostly empty or not updated",'I have a profile with basic information but no profile photo or summary','I have a complete profile with photo, headline, summary, and work history','I have a complete profile with 500+ connections, regular activity (posts or comments), and recommendations from peers or supervisors'],
   sName:'Living LinkedIn presence', strength:'Complete profile, 500+ connections, real activity, recommendations — your LinkedIn works as a second front door. Recruiters who search your target keywords can actually find and trust you.',
-  gapName:'An empty storefront', gap:'Recruiters check LinkedIn before they shortlist — an empty or bare profile reads as absence. In Indonesia\'s market, where recruiters actively source on LinkedIn, this is a free channel you are leaving closed.',
+  gapName:'An empty storefront', gap:'Recruiters check LinkedIn before they shortlist — an empty or bare profile reads as absence. In today\'s market, where recruiters actively source on LinkedIn, this is a free channel you are leaving closed.',
   fix:'This week: professional photo, a headline with your target role keywords, a 3-sentence summary, and your full experience history.', why:'A complete profile makes every other networking move twice as effective.', time:'3 hours'},
  {id:'B5',d:1,q:'Beyond your CV and LinkedIn, do you have any portfolio, GitHub, personal website, or professional digital presence?',
   o:['No — just a CV','I have a basic LinkedIn and nothing else',"I have a portfolio or GitHub but it's not prominently linked or recently updated",'I have an active, updated portfolio or professional presence that I include in every application'],
@@ -976,7 +976,7 @@ const Q=[
   fix:'Send three respectful outreach messages this week to alumni or professionals in your target role, asking for one 20-minute conversation about their path.', why:'One conversation with someone ahead of you rewrites your map.', time:'1 hour'},
  {id:'D2',d:3,q:'In the last 6 months, how many meaningful professional connections have you built in your target industry?',
   o:['None','1–2','3–5','6 or more'],
-  sName:'Growing professional circle', strength:'Six or more real conversations with people in your target industry in six months — you are systematically building the web that carries most opportunity in Indonesia\'s market before jobs are ever posted.',
+  sName:'Growing professional circle', strength:'Six or more real conversations with people in your target industry in six months — you are systematically building the web that carries most opportunity in the market before jobs are ever posted.',
   gapName:'A cold network', gap:'A large share of roles — especially good ones — move through people before they ever reach a job board. With no meaningful industry connections, you only see the jobs everyone else sees, and you compete in the largest possible crowd.',
   fix:'Set a small, honest target: two meaningful conversations per month with people in your target field. Warm sources first: alumni, seniors, event speakers.', why:'Networks compound; the best time to grow one is before you need it.', time:'2 hours/month'},
  {id:'D3',d:3,q:'Do you have peers you practice job search skills with regularly?',
@@ -1035,7 +1035,7 @@ const PROFILE_Q=[
  {id:'status',q:"What's your current status?",o:['Still studying (final year)','Fresh graduate (0–1 year since graduation)','Early professional (1–3 years experience)','Career changer / looking to pivot']},
  /* subdir + institution are V2 additions; subdir renders dynamically from SUBDIR by chosen direction */
  {id:'direction',q:'What is your target career direction?',other:true,
-  o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / State-Owned Enterprise (SOE/BUMN)','Management Trainee','Secure a Promotion to a Managerial Role','Other (type here)']},
+  o:['Business / Management / Consulting','Finance / Banking / Investment','Technology / Digital / Product','Marketing / Communications / Creative','Human Resources / Organizational Development','Engineering / Manufacturing / Operations','Government / Public Sector / State-Owned Enterprise','Management Trainee','Secure a Promotion to a Managerial Role','Other (type here)']},
  {id:'subdir',q:'Which part of it?',o:[]},
  {id:'challenge',q:'What is your biggest current challenge?',other:true,
   o:["I'm sending applications but getting no responses",'I get interviews but rarely convert them to offers',"I don't know what roles or direction to target",'I feel unprepared and not confident enough',"I don't have the right network or connections","I'm struggling mentally with rejection and uncertainty",'Other (please specify)']},
@@ -1071,7 +1071,7 @@ const QI={
  A3:{q:'Apakah kamu tahu kisaran gaji pasar untuk peran targetmu, di level pengalamanmu, di industri targetmu?',
   o:['Tidak — saya belum pernah meriset benchmark gaji','Saya punya perkiraan kasar tapi hanya berdasarkan cerita teman','Saya sudah meriset di Glassdoor atau LinkedIn Salary dan punya kisaran spesifik','Saya sudah meriset dari banyak sumber, tahu kisaran per tier perusahaan, dan tahu cara bernegosiasi secara efektif']},
  A4:{q:'Seberapa paham kamu perbedaan "cultural fit" vs. "competency fit" dalam proses rekrutmen?',
-  o:['Saya belum pernah memikirkan perbedaan ini','Saya paham konsepnya tapi tidak memakainya dalam persiapan','Saya meriset budaya perusahaan sebelum wawancara dan menyesuaikan cara saya membawakan diri','Saya meriset budaya perusahaan DAN kerangka kompetensi (mis. kriteria Talent Score BUMN, model kompetensi) dan menyesuaikan persiapan untuk masing-masing']},
+  o:['Saya belum pernah memikirkan perbedaan ini','Saya paham konsepnya tapi tidak memakainya dalam persiapan','Saya meriset budaya perusahaan sebelum wawancara dan menyesuaikan cara saya membawakan diri','Saya meriset budaya perusahaan DAN kerangka kompetensi (mis. kriteria talent score program lulusan, model kompetensi) dan menyesuaikan persiapan untuk masing-masing']},
  A5:{q:'Seberapa strategis pendekatanmu dalam mencari kerja?',
   o:['Saya melamar ke semua lowongan yang terlihat relevan','Saya memiliki beberapa kriteria, tetapi tidak harus semuanya terpenuhi. Saya menyesuaikan strategi lamaran berdasarkan peluang yang tersedia.','Saya punya daftar target yang jelas (perusahaan, peran, industri spesifik) dan melamar dengan tujuan','Saya memiliki daftar target perusahaan yang jelas, jadwal rutin untuk mengirim lamaran (harian maupun mingguan), sistem untuk memantau setiap lamaran yang telah dikirim, serta secara berkala mengevaluasi dan menyempurnakan strategi saya.']},
  B1:{q:'Kapan terakhir CV‑mu diperbarui dan ditinjau?',
@@ -1118,7 +1118,7 @@ const QI={
 const PI={
  name:{q:'Pertama, kami harus memanggilmu dengan panggilan apa?',hint:'Cukup nama depanmu. Akan tercetak di Peta Kariermu.',ph:'mis., Maverick'},
  status:{q:'Apa statusmu saat ini?',o:['Masih kuliah (tingkat akhir)','Fresh graduate (0–1 tahun sejak lulus)','Profesional awal (1–3 tahun pengalaman)','Beralih karier / ingin pivot']},
- direction:{q:'Ke mana arah karier yang ingin kamu capai?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / BUMN','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
+ direction:{q:'Ke mana arah karier yang ingin kamu capai?',o:['Bisnis / Manajemen / Konsultan','Keuangan / Perbankan / Investasi','Teknologi / Digital / Produk','Marketing / Komunikasi / Kreatif','SDM (HR) / Pengembangan Organisasi','Teknik / Manufaktur / Operasi','Pemerintahan / Sektor Publik / Perusahaan Milik Negara','Management Trainee','Promosi ke Level Manajerial','Lainnya (ketik di sini)'],ph:'Tulis arah kariermu...'},
  institution:{q:'Opsional — dari tipe institusi mana kamu berasal?',o:['Universitas negeri unggulan','Universitas negeri lainnya','Universitas swasta','Politeknik / vokasi','Universitas internasional','Tidak ingin menyebutkan']},
  challenge:{q:'Apa tantangan terbesarmu saat ini?',o:['Saya mengirim banyak lamaran tapi tidak ada respons','Saya mendapat wawancara tapi jarang berujung tawaran','Saya tidak tahu peran atau arah yang harus dituju','Saya merasa belum siap dan kurang percaya diri','Saya tidak punya jaringan atau koneksi yang tepat','Saya berjuang secara mental menghadapi penolakan dan ketidakpastian','Lainnya (tulis sendiri)'],ph:'Ceritakan tantanganmu...'}
 };
@@ -1191,7 +1191,7 @@ const STATUS_IDN=['mahasiswa tingkat akhir','fresh graduate','profesional awal',
 /* ================= NARRATIVE ENGINE ================= */
 const STATUS_OPEN=[
  'You are in your final year — which means you hold the one advantage every graduate wishes they could buy back: time before the clock starts.',
- 'You are a fresh graduate in the most competitive stretch of the Indonesian market, where thousands of strong CVs chase the same management trainee and entry roles.',
+ 'You are a fresh graduate in the most competitive stretch of the graduate market, where thousands of strong CVs chase the same management trainee and entry roles.',
  'You are an early professional — you have proof you can hold a job, and your next move decides the slope of your whole trajectory.',
  'You are changing direction — the boldest kind of climb, because it means trading a known trail for a truer one.'];
 const CHALLENGE_CORE=[
@@ -1208,8 +1208,8 @@ const DIRECTION_LINE={
  3:'Marketing and creative roles are portfolio-first — employers want to see the work, and your digital presence is part of the audition.',
  4:'HR and people roles reward exactly what this assessment measures — self-awareness, structure, and genuine human insight.',
  5:'Engineering and operations employers screen for rigor and safety of judgment — quantified results and process knowledge stand out.',
- 6:'State-Owned Enterprise (SOE/BUMN) and public-sector processes are long, staged, and highly specific — candidates who map the stages in advance hold a real edge.',
- 7:'Management trainee programs are the most competitive funnels in Indonesia — thousands of applicants, multi-stage assessments, and heavy weight on leadership stories.',
+ 6:'State-owned enterprise and public-sector processes are long, staged, and highly specific — candidates who map the stages in advance hold a real edge.',
+ 7:'Management trainee programs are the most competitive funnels in the market — thousands of applicants, multi-stage assessments, and heavy weight on leadership stories.',
  8:'A managerial promotion is won on different terrain than a new job: visibility, sponsorship, and documented results inside your organization decide it — treat your current role as the interview.',
  9:'Your custom direction means your map is less crowded — but it also means research and network matter double, because fewer ready-made routes exist.'};
 
@@ -1221,12 +1221,12 @@ const QM={
   fx:'Ambil satu lowongan asli untuk role targetmu. Tandai setiap skill dan kata kunci di dalamnya, lalu tulis ulang CV‑mu memakai bahasa yang sama persis, selama itu jujur tentang dirimu.',
   wy:'Satu kali menulis ulang dengan konteks nyata mengajarkanmu pola untuk semua lamaran berikutnya.',tm:'2 jam'},
  A2:{sn:'Menguasai prosesnya',st:'Kamu tahu tahapannya, linimasanya, dan kompetensi yang dinilai di tiap tahap — tes tertulis, FGD, wawancara, medical. Artinya kamu menyiapkan hal yang tepat di waktu yang tepat, sementara yang lain baru menyadari setiap tahap saat sudah di depan mata.',
-  gn:'Berjalan buta di dalam proses',gp:'Perusahaan besar di Indonesia — terutama BUMN — menjalankan proses berlapis yang menguntungkan kandidat yang tahu apa yang akan datang. Kalau kamu tak bisa menyebut tahapannya dan apa yang diukur masing‑masing, kamu sedang berlatih generik untuk permainan yang sangat spesifik.',
+  gn:'Berjalan buta di dalam proses',gp:'Perusahaan besar — terutama perusahaan milik negara dan sektor publik — menjalankan proses berlapis yang menguntungkan kandidat yang tahu apa yang akan datang. Kalau kamu tak bisa menyebut tahapannya dan apa yang diukur masing‑masing, kamu sedang berlatih generik untuk permainan yang sangat spesifik.',
   fx:'Pilih 2 perusahaan target utamamu dan petakan proses rekrutmennya dari sumber publik (laman karier resmi, cerita karyawan, thread forum). Tulis tahapan, linimasa, dan apa yang dinilai di tiap tahap.',
   wy:'Kamu tak bisa berlatih untuk lomba yang lintasannya belum pernah kamu lihat.',tm:'3 jam'},
- A3:{sn:'Intelijen gaji',st:'Kamu tahu nilai pasarmu dari berbagai sumber dan tier perusahaan, dan kamu tahu cara bernegosiasi. Pengetahuan ini biasanya berubah menjadi jutaan rupiah per tahun yang dibiarkan begitu saja oleh kandidat yang kurang informasi.',
+ A3:{sn:'Intelijen gaji',st:'Kamu tahu nilai pasarmu dari berbagai sumber dan tier perusahaan, dan kamu tahu cara bernegosiasi. Pengetahuan ini biasanya berubah menjadi porsi gaji yang signifikan per tahun yang dibiarkan begitu saja oleh kandidat yang kurang informasi.',
   gn:'Bernegosiasi dalam gelap',gp:'Tanpa benchmark gaji, kamu tak bisa membedakan offer yang wajar, yang bagus, atau yang terlalu rendah — dan perusahaan bisa merasakannya. Riset gaji adalah salah satu PR tercepat dengan hasil terbesar di seluruh proses mencari kerja.',
-  fx:'Luangkan satu malam di Glassdoor, LinkedIn Salary, dan laporan gaji Indonesia untuk role targetmu. Tulis tiga angka: batas bawah, target, dan angka mimpi.',
+  fx:'Luangkan satu malam di Glassdoor, LinkedIn Salary, dan laporan gaji lokal untuk role targetmu. Tulis tiga angka: batas bawah, target, dan angka mimpi.',
   wy:'Tiga angka mengubah pertanyaan wawancara paling menakutkan menjadi jawaban paling percaya dirimu.',tm:'2 jam'},
  A4:{sn:'Paham dua lensa penilaian',st:'Kamu menyiapkan diri di dua sumbu — budaya dan kerangka kompetensi — dan menyesuaikan caramu tampil untuk setiap perusahaan. Persis seperti inilah kandidat kuat membuat pewawancara merasa “orang ini sudah seperti bagian dari kami.”',
   gn:'Persiapan satu ukuran untuk semua',gp:'Perusahaan menilaimu lewat dua lensa berbeda: apakah kamu akan berkembang di budaya kami, dan apakah kamu bisa bekerja di standar kami. Persiapan yang identik untuk semua perusahaan membuat kedua lensa itu tetap buram.',
@@ -1249,7 +1249,7 @@ const QM={
   fx:'Uji CV‑mu lewat ATS scanner gratis terhadap dua job description asli minggu ini. Perbaiki format dulu, lalu kata kunci, sampai skor tembus 70%.',
   wy:'Tiga puluh menit pengujian bisa menghidupkan kembali seluruh pipeline lamaran yang mati.',tm:'1 jam'},
  B4:{sn:'LinkedIn yang hidup',st:'Profil lengkap, 500+ koneksi, aktivitas nyata, rekomendasi — LinkedIn‑mu bekerja sebagai pintu depan kedua. Recruiter yang mencari kata kunci role targetmu benar‑benar bisa menemukan dan memercayaimu.',
-  gn:'Etalase yang kosong',gp:'Recruiter memeriksa LinkedIn sebelum menyusun shortlist — profil kosong terbaca sebagai ketidakhadiran. Di pasar Indonesia, tempat recruiter aktif mencari kandidat di LinkedIn, ini kanal gratis yang kamu biarkan tertutup.',
+  gn:'Etalase yang kosong',gp:'Recruiter memeriksa LinkedIn sebelum menyusun shortlist — profil kosong terbaca sebagai ketidakhadiran. Di pasar saat ini, tempat recruiter aktif mencari kandidat di LinkedIn, ini kanal gratis yang kamu biarkan tertutup.',
   fx:'Minggu ini: foto profesional, headline berisi kata kunci role targetmu, ringkasan 3 kalimat, dan riwayat pengalaman lengkap.',
   wy:'Profil yang lengkap membuat setiap langkah networking‑mu dua kali lebih efektif.',tm:'3 jam'},
  B5:{sn:'Bukti karya',st:'Kamu menunjukkan, bukan sekadar mengklaim: portofolio atau kehadiran profesional yang aktif menyertai setiap lamaran. Bukti mengalahkan klaim — kamu memberi perusahaan sesuatu yang konkret untuk dipercaya.',
@@ -1280,7 +1280,7 @@ const QM={
   gn:'Mendaki tanpa pemandu',gp:'Kamu menjelajah sendirian medan yang sudah dilalui ribuan orang. Mentor tidak menggendongmu ke puncak — mereka hanya memberi tahu di mana jurangnya. Tanpa mentor, kamu membayar setiap pelajaran dengan harga penuh.',
   fx:'Kirim tiga pesan yang sopan minggu ini ke alumni atau profesional di role targetmu, minta satu percakapan 20 menit tentang jalan mereka.',
   wy:'Satu percakapan dengan orang yang sudah di depanmu menggambar ulang petamu.',tm:'1 jam'},
- D2:{sn:'Lingkaran yang bertumbuh',st:'Enam atau lebih percakapan nyata dengan orang di industri targetmu dalam enam bulan — kamu sedang membangun secara sistematis jaring yang membawa sebagian besar peluang di pasar Indonesia sebelum lowongan pernah diposting.',
+ D2:{sn:'Lingkaran yang bertumbuh',st:'Enam atau lebih percakapan nyata dengan orang di industri targetmu dalam enam bulan — kamu sedang membangun secara sistematis jaring yang membawa sebagian besar peluang di pasar kerja sebelum lowongan pernah diposting.',
   gn:'Jaringan yang dingin',gp:'Sebagian besar role — terutama yang bagus — berpindah lewat orang sebelum sampai ke job board. Tanpa koneksi industri yang bermakna, kamu hanya melihat lowongan yang dilihat semua orang, dan bersaing di kerumunan terbesar.',
   fx:'Pasang target kecil yang jujur: dua percakapan bermakna per bulan dengan orang di bidang targetmu. Mulai dari sumber hangat: alumni, senior, pembicara acara.',
   wy:'Jaringan itu berbunga majemuk; waktu terbaik menumbuhkannya adalah sebelum kamu membutuhkannya.',tm:'2 jam/bulan'},
@@ -1330,7 +1330,7 @@ const BAND_ID=[
 const bandDesc=bd=>lang==='id'?BAND_ID[bd.lv-1]:bd.desc;
 const STATUS_ID=[
  'Kamu di tahun terakhir kuliah — artinya kamu memegang satu keunggulan yang ingin dibeli kembali oleh semua lulusan: waktu, sebelum jamnya mulai berdetak.',
- 'Kamu fresh graduate di rentang paling kompetitif pasar Indonesia, tempat ribuan CV kuat memperebutkan role management trainee dan entry level yang sama.',
+ 'Kamu fresh graduate di rentang paling kompetitif pasar kerja, tempat ribuan CV kuat memperebutkan role management trainee dan entry level yang sama.',
  'Kamu profesional muda — kamu punya bukti mampu memegang pekerjaan, dan langkah berikutnya menentukan kemiringan seluruh lintasanmu.',
  'Kamu sedang berpindah arah — pendakian paling berani, karena berarti menukar jalur yang dikenal dengan jalur yang lebih benar.'];
 const CHALL_ID=[
@@ -1347,15 +1347,15 @@ const DIR_ID={
  3:'Role marketing dan kreatif mengutamakan portofolio — perusahaan ingin melihat karyamu, dan jejak digitalmu adalah bagian dari audisinya.',
  4:'Role HR dan people justru menghargai persis yang diukur asesmen ini — kesadaran diri, struktur, dan pemahaman manusia yang tulus.',
  5:'Perusahaan teknik dan operasi menyaring ketelitian dan keamanan penilaian — hasil yang terukur dan pengetahuan proses membuatmu menonjol.',
- 6:'Proses BUMN dan sektor publik itu panjang, berlapis, dan sangat spesifik — kandidat yang memetakan tahapannya lebih dulu memegang keunggulan nyata.',
- 7:'Program management trainee adalah corong paling kompetitif di Indonesia — ribuan pelamar, asesmen berlapis, dan bobot besar pada cerita kepemimpinan.',
+ 6:'Proses perusahaan milik negara dan sektor publik itu panjang, berlapis, dan sangat spesifik — kandidat yang memetakan tahapannya lebih dulu memegang keunggulan nyata.',
+ 7:'Program management trainee adalah corong paling kompetitif di pasar kerja — ribuan pelamar, asesmen berlapis, dan bobot besar pada cerita kepemimpinan.',
  8:'Promosi manajerial dimenangkan di medan yang berbeda dari pekerjaan baru: visibilitas, sponsor, dan hasil yang terdokumentasi di dalam organisasimu — perlakukan role‑mu saat ini sebagai wawancaranya.',
  9:'Arah pilihanmu sendiri berarti petamu tak seramai yang lain — tapi juga berarti riset dan jaringan berbobot ganda, karena rute siap pakai lebih sedikit.'};
 const DIMDESC_ID=[
- 'Seberapa baik kamu memahami mekanika rekrutmen yang sebenarnya di pasar Indonesia — penyaringan ATS, proses rekrutmen, benchmark gaji, dan penargetan strategis. Kamu tak bisa menavigasi medan yang tak bisa kamu lihat.',
+ 'Seberapa baik kamu memahami mekanika rekrutmen yang sebenarnya di pasar saat ini — penyaringan ATS, proses rekrutmen, benchmark gaji, dan penargetan strategis. Kamu tak bisa menavigasi medan yang tak bisa kamu lihat.',
  'Kondisi perlengkapanmu: kualitas CV, pencapaian terukur, performa ATS, kehadiran LinkedIn, dan jejak digital. Profilmu yang mendaki saat kamu tak ada di ruangan.',
  'Kemampuanmu tampil saat paling menentukan: bercerita terstruktur (STAR), jawaban terlatih, riset perusahaan, dan ketenangan sebelum wawancara. Wawancara dimenangkan dalam persiapan, bukan di ruangan.',
- 'Siapa yang mendaki bersamamu: mentor, koneksi profesional yang bermakna, latihan kelompok terstruktur, acara, dan jaringan alumni. Di Indonesia khususnya, pasar kerja tersembunyi bergerak lewat orang.',
+ 'Siapa yang mendaki bersamamu: mentor, koneksi profesional yang bermakna, latihan kelompok terstruktur, acara, dan jaringan alumni. Di pasar mana pun, pasar kerja tersembunyi bergerak lewat orang.',
  'Apakah kamu bisa mempertahankan pendakian menembus badai: kejelasan tujuan, pemulihan dari penolakan, konsistensi terstruktur, pengukuran kemajuan yang jujur, dan kepercayaan diri yang terkalibrasi.'];
 const dimDesc=i=>lang==='id'?DIMDESC_ID[i]:DIMS[i].desc;
 
@@ -1645,13 +1645,13 @@ const LOADSET={
   finance:n=>[`Mapping your finance-sector terrain, ${n}...`,'Analyzing your document pack against banking-grade standards...','Calculating your interview readiness for staged selection...','Identifying your highest-leverage moves for finance roles...','Plotting your 90-day route to your first finance offer...'],
   tech:n=>[`Mapping your tech career terrain, ${n}...`,'Analyzing your profile and portfolio against tech hiring bars...','Calculating your readiness for technical rounds...','Identifying your highest-leverage moves in the tech market...','Plotting your 90-day route to your target role...'],
   business:n=>[`Mapping your business & consulting terrain, ${n}...`,'Analyzing your case and interview readiness...','Weighing your structured-thinking evidence...','Identifying your highest-leverage moves...','Plotting your 90-day route to your first offer...'],
-  government:n=>[`Mapping your public-sector terrain, ${n}...`,'Analyzing your readiness for staged SOE/BUMN selection...','Weighing your document pack against screening standards...','Identifying your highest-leverage moves...','Plotting your 90-day route...'],
+  government:n=>[`Mapping your public-sector terrain, ${n}...`,'Analyzing your readiness for staged public-sector selection...','Weighing your document pack against screening standards...','Identifying your highest-leverage moves...','Plotting your 90-day route...'],
   default:n=>[`Mapping your career terrain, ${n}...`,'Analyzing your preparation pack...','Calculating your readiness altitude...','Identifying your highest-leverage next moves...','Plotting your 90-day route...']},
  id:{
   finance:n=>[`Memetakan medan sektor keuanganmu, ${n}...`,'Menganalisis dokumenmu terhadap standar perbankan...','Menghitung kesiapan wawancaramu untuk seleksi bertahap...','Menemukan langkah paling berdampak untuk peran keuangan...','Menyusun rute 90 hari menuju offer keuangan pertamamu...'],
   tech:n=>[`Memetakan medan karier teknologimu, ${n}...`,'Menganalisis profil dan portofoliomu terhadap standar hiring tech...','Menghitung kesiapanmu untuk ronde teknis...','Menemukan langkah paling berdampak di pasar tech...','Menyusun rute 90 hari menuju peran targetmu...'],
   business:n=>[`Memetakan medan bisnis & konsultanmu, ${n}...`,'Menganalisis kesiapan case dan wawancaramu...','Menimbang bukti berpikir terstrukturmu...','Menemukan langkah paling berdampak...','Menyusun rute 90 hari menuju offer pertamamu...'],
-  government:n=>[`Memetakan medan sektor publikmu, ${n}...`,'Menganalisis kesiapanmu untuk seleksi bertahap BUMN...','Menimbang dokumenmu terhadap standar penyaringan...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...'],
+  government:n=>[`Memetakan medan sektor publikmu, ${n}...`,'Menganalisis kesiapanmu untuk seleksi bertahap sektor publik...','Menimbang dokumenmu terhadap standar penyaringan...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...'],
   default:n=>[`Memetakan medan kariermu, ${n}...`,'Menimbang isi ranselmu...','Menghitung ketinggianmu...','Menemukan langkah paling berdampak...','Menyusun rute 90 harimu...']}};
 function loadMsgs(){
   const n=S.profile.name||(lang==='id'?'pendaki':'climber');
@@ -2044,13 +2044,13 @@ function buildReport(){
   /* Next steps */
   pageNo++;
   const FEAT=lang==='id'?{
-    ci:{n:'The Map — Career Intelligence',d:'Telaah 90 menit tentang cara rekrutmen benar-benar bekerja di sini: ATS, proses BUMN, data gaji, strategi penargetan.',c:'#8B6914',ic:'M'},
+    ci:{n:'The Map — Career Intelligence',d:'Telaah 90 menit tentang cara rekrutmen benar-benar bekerja di sini: ATS, proses korporasi dan sektor publik, data gaji, strategi penargetan.',c:'#8B6914',ic:'M'},
     ps:{n:'CV Studio',d:'Skor CV‑mu terhadap job description asli, perbaiki baris demi baris, dan dapatkan feedback dari kacamata recruiter.',c:'#C97B1E',ic:'CV'},
     ir:{n:'Interview Coach',d:'Mock interview STAR yang dikalibrasi ke role targetmu, dengan feedback terstruktur di setiap jawaban.',c:'#C9A84C',ic:'IC'},
     nc:{n:'Basecamp — kohortmu',d:'Kelompok rekan yang dipasangkan sesuai tahap dan arahmu: latihan mingguan dan orang-orang yang menolak membiarkanmu menyerah.',c:'#5A6A80',ic:'B'},
     cm:{n:'Mind Palace',d:'Protokol pemulihan dari penolakan dan kepercayaan diri yang dibangun di atas bukti — pendakian batin, dilatih.',c:'#1B2434',ic:'MP'}
   }:{
-    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, State-Owned Enterprise (SOE/BUMN) processes, salary data, targeting strategy.',c:'#8B6914',ic:'M'},
+    ci:{n:'The Map — Career Intelligence',d:'A 90-minute deep dive into how hiring actually works here: ATS, corporate and public-sector processes, salary data, targeting strategy.',c:'#8B6914',ic:'M'},
     ps:{n:'CV Studio',d:'Score your CV against real job descriptions, fix it line by line, and get recruiter-experienced feedback.',c:'#C97B1E',ic:'CV'},
     ir:{n:'Interview Coach',d:'STAR mock interviews calibrated to your target role, with structured feedback on every answer.',c:'#C9A84C',ic:'IC'},
     nc:{n:'Basecamp — your cohort',d:'A matched peer group at your stage and direction: weekly practice and people who refuse to let you quit.',c:'#5A6A80',ic:'B'},

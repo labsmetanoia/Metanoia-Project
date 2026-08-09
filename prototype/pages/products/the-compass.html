@@ -873,29 +873,29 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
     <div class="offer-sec" style="margin-top:0">
       <h4 data-en="Total Compensation Breakdown" data-id="Rincian Total Kompensasi">Total Compensation Breakdown</h4>
       <div class="offer-grid">
-        <span class="og-l" data-en="Base Salary (monthly)" data-id="Gaji Pokok (bulanan)">Base Salary (monthly)</span><input id="oeBase" type="number" min="0" placeholder="IDR">
-        <span class="og-l" data-en="Transport Allowance (monthly)" data-id="Tunjangan Transpor (bulanan)">Transport Allowance (monthly)</span><input id="oeTransport" type="number" min="0" placeholder="IDR">
-        <span class="og-l" data-en="Meal Allowance (monthly)" data-id="Tunjangan Makan (bulanan)">Meal Allowance (monthly)</span><input id="oeMeal" type="number" min="0" placeholder="IDR">
+        <span class="og-l" data-en="Base Salary (monthly)" data-id="Gaji Pokok (bulanan)">Base Salary (monthly)</span><input id="oeBase" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="Transport Allowance (monthly)" data-id="Tunjangan Transpor (bulanan)">Transport Allowance (monthly)</span><input id="oeTransport" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="Meal Allowance (monthly)" data-id="Tunjangan Makan (bulanan)">Meal Allowance (monthly)</span><input id="oeMeal" type="number" min="0" placeholder="Amount">
         <span class="og-l" data-en="Health Insurance" data-id="Asuransi Kesehatan">Health Insurance</span><select id="oeHealth"></select>
-        <span class="og-l"><span data-en="THR (Holiday Bonus)" data-id="THR (Tunjangan Hari Raya)">THR (Holiday Bonus)</span><small data-en="Leave empty for auto: 1× monthly base" data-id="Kosongkan untuk otomatis: 1× gaji pokok">Leave empty for auto: 1× monthly base</small></span><input id="oeThr" type="number" min="0" placeholder="auto">
-        <span class="og-l" data-en="Performance Bonus (annual est.)" data-id="Bonus Kinerja (perkiraan tahunan)">Performance Bonus (annual est.)</span><input id="oeBonus" type="number" min="0" placeholder="IDR">
-        <span class="og-l"><span data-en="BPJS (employer contribution)" data-id="BPJS (kontribusi pemberi kerja)">BPJS (employer contribution)</span><small data-en="Auto-calculated at 3.7% of base" data-id="Dihitung otomatis 3,7% dari gaji pokok">Auto-calculated at 3.7% of base</small></span><input id="oeBpjs" type="text" disabled value="—">
+        <span class="og-l"><span data-en="13th-Month / Holiday Bonus" data-id="Bonus Hari Raya / Gaji ke-13">13th-Month / Holiday Bonus)</span><small data-en="Leave empty for auto: 1× monthly base" data-id="Kosongkan untuk otomatis: 1× gaji pokok">Leave empty for auto: 1× monthly base</small></span><input id="oeThr" type="number" min="0" placeholder="auto">
+        <span class="og-l" data-en="Performance Bonus (annual est.)" data-id="Bonus Kinerja (perkiraan tahunan)">Performance Bonus (annual est.)</span><input id="oeBonus" type="number" min="0" placeholder="Amount">
+        <span class="og-l"><span data-en="Statutory benefits (employer contribution)" data-id="Iuran wajib (kontribusi pemberi kerja)">BPJS (employer contribution)</span><small data-en="Auto-calculated at 3.7% of base" data-id="Dihitung otomatis 3,7% dari gaji pokok">Auto-calculated at 3.7% of base</small></span><input id="oeBpjs" type="text" disabled value="—">
       </div>
-      <div class="offer-total"><span data-en="Total Annual Package" data-id="Total Paket Tahunan">Total Annual Package</span><span class="ot-v" id="oeTotal">IDR 0</span></div>
+      <div class="offer-total"><span data-en="Total Annual Package" data-id="Total Paket Tahunan">Total Annual Package</span><span class="ot-v" id="oeTotal">0</span></div>
     </div>
     <div class="offer-sec">
       <h4 data-en="Market Rate Comparison" data-id="Perbandingan Harga Pasar">Market Rate Comparison</h4>
       <div class="offer-grid">
-        <span class="og-l" data-en="Market Range — minimum (annual)" data-id="Kisaran Pasar — minimum (tahunan)">Market Range — minimum (annual)</span><input id="oeMktMin" type="number" min="0" placeholder="IDR">
-        <span class="og-l" data-en="Market Range — maximum (annual)" data-id="Kisaran Pasar — maksimum (tahunan)">Market Range — maximum (annual)</span><input id="oeMktMax" type="number" min="0" placeholder="IDR">
+        <span class="og-l" data-en="Market Range — minimum (annual)" data-id="Kisaran Pasar — minimum (tahunan)">Market Range — minimum (annual)</span><input id="oeMktMin" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="Market Range — maximum (annual)" data-id="Kisaran Pasar — maksimum (tahunan)">Market Range — maximum (annual)</span><input id="oeMktMax" type="number" min="0" placeholder="Amount">
       </div>
       <div id="oePosition"></div>
     </div>
     <div class="offer-sec">
       <h4 data-en="Negotiation Notes" data-id="Catatan Negosiasi">Negotiation Notes</h4>
       <div class="offer-grid">
-        <span class="og-l" data-en="My target number (annual)" data-id="Angka targetku (tahunan)">My target number (annual)</span><input id="oeTarget" type="number" min="0" placeholder="IDR">
-        <span class="og-l" data-en="My floor — walk-away (annual)" data-id="Batas bawahku — walk-away (tahunan)">My floor — walk-away (annual)</span><input id="oeFloor" type="number" min="0" placeholder="IDR">
+        <span class="og-l" data-en="My target number (annual)" data-id="Angka targetku (tahunan)">My target number (annual)</span><input id="oeTarget" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="My floor — walk-away (annual)" data-id="Batas bawahku — walk-away (tahunan)">My floor — walk-away (annual)</span><input id="oeFloor" type="number" min="0" placeholder="Amount">
       </div>
       <div class="f-field" style="margin-top:12px"><label for="oeTalking"><span data-en="Talking points" data-id="Poin pembicaraan">Talking points</span></label><textarea id="oeTalking" rows="3"></textarea></div>
     </div>
@@ -1016,7 +1016,7 @@ function seedDemo() {
           betterAnswers: 'Lead with the resolution, not the conflict.', keyLearning: 'My STAR stories need sharper results statements.' }] }),
     A({ id: 'demo-5', company: 'GoTo', role: 'Product Operations Associate', applicationDate: iso(NOW - 8 * DAY), stage: 4, status: 'active',
         companyType: 'startup', nextAction: 'Review Maverick Module 3 psychometric materials and run one timed practice.', nextActionDue: iso(NOW - 1 * DAY) }),
-    A({ id: 'demo-6', company: 'Telkom Indonesia', role: 'Data Analyst — Great People Trainee', applicationDate: iso(NOW - 40 * DAY), stage: 3, status: 'rejected',
+    A({ id: 'demo-6', company: 'Vertex Telecom', role: 'Data Analyst — Great People Trainee', applicationDate: iso(NOW - 40 * DAY), stage: 3, status: 'rejected',
         companyType: 'indonesian', nextAction: '', rejectionDebrief: { stageReached: 3, wouldApplyAgain: 'maybe', doingDifferently: 'Run an ATS audit — the CV may be losing keywords in parsing.' } }),
     A({ id: 'demo-7', company: 'Astra International', role: 'Management Trainee', applicationDate: iso(NOW - 2 * DAY), stage: 1, status: 'active',
         companyType: 'indonesian', nextAction: 'Research the company and confirm this role matches your target.', nextActionDue: iso(NOW + 6 * DAY) }),
@@ -1036,7 +1036,7 @@ function seedDemo() {
     { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama direncanakan — Danone, Sustainability Graduate Trainee' },
     { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed Project Aladin Module 4 (Communication for Impact)', id: 'Menyelesaikan Project Aladin Modul 4 (Komunikasi untuk Dampak)' },
     { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Plotted route to McKinsey & Company — Business Analyst', id: 'Merencanakan rute ke McKinsey & Company — Business Analyst' },
-    { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Telkom Indonesia (CV Screening) — debrief completed', id: 'Penolakan tercatat — Telkom Indonesia (Seleksi CV) — debrief selesai' },
+    { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Vertex Telecom (CV Screening) — debrief completed', id: 'Penolakan tercatat — Vertex Telecom (Seleksi CV) — debrief selesai' },
     { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Final Interview di Danone' },
     { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — HR Interview CIMB Niaga' },
     { date: iso(NOW - 6 * DAY), cat: 'metanoia', en: 'Completed Project Nexus Module 6 (The Final & Leadership Interview)', id: 'Menyelesaikan Project Nexus Modul 6 (Final & Wawancara Kepemimpinan)' },
@@ -1109,9 +1109,9 @@ const groupOf = n => stageOf(n).group;
 
 const COMPANY_TYPES = [
   { v: 'multinational', en: 'Multinational', idn: 'Multinasional' },
-  { v: 'indonesian',    en: 'Indonesian Corporate', idn: 'Korporasi Indonesia' },
+  { v: 'indonesian',    en: 'National Corporate', idn: 'Korporasi Nasional' },
   { v: 'startup',       en: 'Startup', idn: 'Startup' },
-  { v: 'public',        en: 'Public Sector / BUMN', idn: 'Sektor Publik / BUMN' }
+  { v: 'public',        en: 'Public Sector / State-Owned', idn: 'Sektor Publik / Milik Negara' }
 ];
 const STATUSES = [
   { v: 'active',    en: 'Active',    idn: 'Aktif',    color: 'var(--status-active)' },
@@ -2056,7 +2056,7 @@ function openOfferModal(appId) {
   recalcOffer();
   $('offerModal').classList.add('show');
 }
-const fmtIDR = n => 'IDR ' + Math.round(n).toLocaleString(LOCALE());
+const fmtIDR = n => Math.round(n).toLocaleString(LOCALE());
 function recalcOffer() {
   const num = id => parseFloat($(id).value) || 0;
   const base = num('oeBase');
