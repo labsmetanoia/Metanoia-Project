@@ -1259,6 +1259,33 @@
   .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
 }
 </style>
+<style id="polishCss">
+/* ═══ design polish: balanced openings, refined quote typography ═══ */
+.ro-headline{font-size:clamp(1.9rem,3.2vw,2.8rem);text-wrap:balance;line-height:1.22}
+.ro-headline em{display:block;margin-top:10px}
+.go-head{text-wrap:balance}
+.go-head em{display:block;margin-top:8px}
+.ro-grid{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:52px}
+.ro-intro p{margin-bottom:16px}
+.ro-quote{padding:64px 44px 52px}
+.ro-quote p{font-size:clamp(1.12rem,1.85vw,1.55rem);line-height:1.62;max-width:880px;margin:0 auto}
+.ro-qmark{width:48px;height:48px;top:-24px}
+.ro-qmark svg{width:19px;height:19px}
+.q-diamond{margin:22px auto 0}
+.ro-cite{margin-top:16px}
+/* visual column fills its row — no dead space beside longer copy */
+@media(min-width:901px){
+  .g-open,.ro-grid{align-items:stretch}
+  .g-open > .g-frame,.ro-grid > .ro-visual{display:flex;flex-direction:column;justify-content:center}
+  .g-frame .gf-img{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+  .ro-visual .arch-wrap{height:100%;display:flex;flex-direction:column}
+  .ro-visual .cut-frame{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+}
+@media(max-width:900px){
+  .ro-grid{grid-template-columns:1fr}
+  .ro-quote{padding:52px 20px 42px}
+}
+</style>
 </head>
 <body>
 
@@ -1517,8 +1544,8 @@
     <div class="ro-grid reveal">
       <div class="ro-left">
         <div class="ro-chapter" data-en="Chapter I · The Realization" data-id="Bab I · Kesadaran Awal">Chapter I · The Realization</div>
-        <h2 class="ro-headline" data-en="Your career doesn&apos;t begin after graduation<br><em>it begins the moment you start preparing for it.</em>" data-id="Kariermu tidak dimulai setelah wisuda<br><em>ia dimulai sejak kamu mulai mempersiapkannya.</em>">
-          Your career doesn't begin after graduation<br><em>it begins the moment you start preparing for it.</em>
+        <h2 class="ro-headline" data-en="Your career doesn&apos;t begin after graduation <em>it begins the moment you start preparing for it.</em>" data-id="Kariermu tidak dimulai setelah wisuda <em>ia dimulai sejak kamu mulai mempersiapkannya.</em>">
+          Your career doesn't begin after graduation <em>it begins the moment you start preparing for it.</em>
         </h2>
         <div class="ro-intro">
           <div class="ro-icon" aria-hidden="true">

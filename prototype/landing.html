@@ -631,6 +631,16 @@
   </div>
 </div>
 
+<style id="contrastFixCss">
+/* readability: stronger wash behind glass cards over bright footage */
+.has-video .card,body.m .has-still .card{background:rgba(7,13,24,.80)}
+.has-video .cform{background:rgba(7,13,24,.80)}
+.has-video .cform input,.has-video .cform textarea{background:rgba(245,239,230,.10)}
+:root[data-theme="light"] .has-video .card,:root[data-theme="light"] body.m .has-still .card{background:rgba(7,13,24,.85)}
+:root[data-theme="light"] .has-video .cform{background:rgba(7,13,24,.85)}
+:root[data-theme="light"] .has-video .content,:root[data-theme="light"] body.m .has-still .content{
+  --text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623}
+</style>
 <style id="megaNavCss">
 /* ═══ MEGA NAVIGATION HUB v2 — premium dashboard gateway ═══ */
 .burger{display:flex !important}
