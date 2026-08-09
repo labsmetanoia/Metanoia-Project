@@ -1150,6 +1150,33 @@
   .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
 }
 </style>
+<style id="polishCss">
+/* ═══ design polish: balanced openings, refined quote typography ═══ */
+.ro-headline{font-size:clamp(1.9rem,3.2vw,2.8rem);text-wrap:balance;line-height:1.22}
+.ro-headline em{display:block;margin-top:10px}
+.go-head{text-wrap:balance}
+.go-head em{display:block;margin-top:8px}
+.ro-grid{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:52px}
+.ro-intro p{margin-bottom:16px}
+.ro-quote{padding:64px 44px 52px}
+.ro-quote p{font-size:clamp(1.12rem,1.85vw,1.55rem);line-height:1.62;max-width:880px;margin:0 auto}
+.ro-qmark{width:48px;height:48px;top:-24px}
+.ro-qmark svg{width:19px;height:19px}
+.q-diamond{margin:22px auto 0}
+.ro-cite{margin-top:16px}
+/* visual column fills its row — no dead space beside longer copy */
+@media(min-width:901px){
+  .g-open,.ro-grid{align-items:stretch}
+  .g-open > .g-frame,.ro-grid > .ro-visual{display:flex;flex-direction:column;justify-content:center}
+  .g-frame .gf-img{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+  .ro-visual .arch-wrap{height:100%;display:flex;flex-direction:column}
+  .ro-visual .cut-frame{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+}
+@media(max-width:900px){
+  .ro-grid{grid-template-columns:1fr}
+  .ro-quote{padding:52px 20px 42px}
+}
+</style>
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1405,7 +1432,7 @@
     <div class="g-open reveal">
       <div class="g-lede">
         <div class="go-kicker" data-en="Chapter I · The Challenge" data-id="Bab I · Tantangan">Chapter I · The Challenge</div>
-        <h2 class="go-head" data-en="The talent gap is not a pipeline problem. <br><em>It is a preparation problem.</em>" data-id="Kesenjangan talenta bukan masalah jalur masuk. <br><em>Ini adalah masalah persiapan.</em>">The talent gap is not a pipeline problem. <br><em>It is a preparation problem.</em></h2>
+        <h2 class="go-head" data-en="The talent gap is not a pipeline problem. <em>It is a preparation problem.</em>" data-id="Kesenjangan talenta bukan masalah jalur masuk. <em>Ini adalah masalah persiapan.</em>">The talent gap is not a pipeline problem. <em>It is a preparation problem.</em></h2>
         <div class="go-rule" aria-hidden="true"></div>
         <p data-en="Organizations worldwide consistently cite the same challenge: the candidates coming through recruitment are technically competent on paper, but arrive at Day 1 without the professional readiness that productive employment requires. They lack clear career direction, struggle to communicate their value, and have never been taught how professional organizations actually work. The result is a ramp period that is longer, more expensive, and more disruptive than it needs to be." data-id="Organisasi di seluruh dunia secara konsisten mengutip tantangan yang sama: kandidat yang melewati rekrutmen secara teknis kompeten di atas kertas, tetapi tiba pada Hari 1 tanpa kesiapan profesional yang dibutuhkan pekerjaan yang produktif. Mereka kurang memiliki arah karier yang jelas, berjuang untuk mengkomunikasikan nilai mereka, dan tidak pernah diajarkan bagaimana organisasi profesional sebenarnya bekerja. Hasilnya adalah periode orientasi yang lebih lama, lebih mahal, dan lebih mengganggu dari yang seharusnya.">Organizations worldwide consistently cite the same challenge: the candidates coming through recruitment are technically competent on paper, but arrive at Day 1 without the professional readiness that productive employment requires. They lack clear career direction, struggle to communicate their value, and have never been taught how professional organizations actually work. The result is a ramp period that is longer, more expensive, and more disruptive than it needs to be.</p>
         <p data-en="The cause is structural, not individual. The university system develops academic competence well. It develops professional readiness poorly. No single candidate is at fault — and no recruitment process can fully solve a problem that begins four years before the interview. Metanoia exists upstream of recruitment, building the talent that organizations actually need." data-id="Penyebabnya struktural, bukan individual. Sistem universitas mengembangkan kompetensi akademis dengan baik. Kesiapan profesional dikembangkan dengan buruk. Tidak ada kandidat tunggal yang bersalah — dan tidak ada proses rekrutmen yang dapat sepenuhnya memecahkan masalah yang dimulai empat tahun sebelum wawancara. Metanoia hadir di hulu rekrutmen, membangun talenta yang benar-benar dibutuhkan organisasi.">The cause is structural, not individual. The university system develops academic competence well. It develops professional readiness poorly. No single candidate is at fault — and no recruitment process can fully solve a problem that begins four years before the interview. Metanoia exists upstream of recruitment, building the talent that organizations actually need.</p>

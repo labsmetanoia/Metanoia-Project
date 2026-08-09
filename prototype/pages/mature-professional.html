@@ -1179,6 +1179,99 @@
   .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
 }
 </style>
+<style id="polishCss">
+/* ═══ design polish: balanced openings, refined quote typography ═══ */
+.ro-headline{font-size:clamp(1.9rem,3.2vw,2.8rem);text-wrap:balance;line-height:1.22}
+.ro-headline em{display:block;margin-top:10px}
+.go-head{text-wrap:balance}
+.go-head em{display:block;margin-top:8px}
+.ro-grid{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:52px}
+.ro-intro p{margin-bottom:16px}
+.ro-quote{padding:64px 44px 52px}
+.ro-quote p{font-size:clamp(1.12rem,1.85vw,1.55rem);line-height:1.62;max-width:880px;margin:0 auto}
+.ro-qmark{width:48px;height:48px;top:-24px}
+.ro-qmark svg{width:19px;height:19px}
+.q-diamond{margin:22px auto 0}
+.ro-cite{margin-top:16px}
+/* visual column fills its row — no dead space beside longer copy */
+@media(min-width:901px){
+  .g-open,.ro-grid{align-items:stretch}
+  .g-open > .g-frame,.ro-grid > .ro-visual{display:flex;flex-direction:column;justify-content:center}
+  .g-frame .gf-img{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+  .ro-visual .arch-wrap{height:100%;display:flex;flex-direction:column}
+  .ro-visual .cut-frame{aspect-ratio:auto;flex:1 1 auto;min-height:420px}
+}
+@media(max-width:900px){
+  .ro-grid{grid-template-columns:1fr}
+  .ro-quote{padding:52px 20px 42px}
+}
+</style>
+<style id="compareCss">
+/* ═══ Two paths, two outcomes — visual compare (Student design system) ═══ */
+.paths-compare{margin:96px 0 0;position:relative;z-index:1}
+.compare-eyebrow{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:40px;
+  font-size:11.5px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.compare-eyebrow i{width:32px;height:1px;background:rgba(201,168,76,.4);font-style:normal}
+.compare-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:22px;align-items:stretch}
+.compare-card{border-radius:20px;padding:30px 30px 32px;position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+  transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
+.compare-card.without{background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
+  border:1px solid rgba(255,255,255,.08)}
+.compare-card.without:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.16)}
+.compare-card.with{background:linear-gradient(135deg,rgba(201,168,76,.14) 0%,rgba(15,21,35,.95) 55%,rgba(10,15,26,.97) 100%);
+  border:1px solid rgba(201,168,76,.4)}
+.compare-card.with:hover{transform:translateY(-4px);border-color:rgba(240,216,120,.6);
+  box-shadow:0 18px 46px rgba(0,0,0,.4),0 0 34px rgba(201,168,76,.15)}
+.compare-card.with::after{content:'';position:absolute;left:10%;right:10%;bottom:0;height:2px;border-radius:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  filter:drop-shadow(0 0 10px rgba(240,216,120,.7))}
+.compare-head{display:flex;align-items:center;justify-content:center;gap:9px;font-size:11px;font-weight:800;
+  letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}
+.compare-head svg{flex:none}
+.compare-card.without .compare-head{color:#E27D8B}
+.compare-card.with .compare-head{color:#7FCF9B}
+.cmp-list{list-style:none;margin:0 0 20px;padding:16px 18px;border-radius:12px;flex:1;
+  background:rgba(8,14,26,.62);border:1px solid rgba(255,255,255,.05)}
+.compare-card.with .cmp-list{border-color:rgba(201,168,76,.16)}
+.cmp-list li{display:flex;gap:11px;align-items:flex-start;font-size:12.5px;line-height:1.55;
+  color:rgba(233,238,246,.75);padding:6px 0}
+.cmp-list li svg{flex:none;margin-top:2.5px}
+.with-stars{display:flex;gap:3px;justify-content:center;margin:2px 0 16px}
+.compare-verdict{text-align:center;font-size:13.5px;line-height:1.6;margin:0 0 18px}
+.compare-card.without .compare-verdict{color:rgba(233,238,246,.5)}
+.compare-card.with .compare-verdict{color:#F0D878;font-weight:700}
+.crowd{display:block;margin:0 auto}
+.vs-medal{align-self:center;width:58px;height:58px;border-radius:50%;flex:none;
+  background:linear-gradient(180deg,rgba(15,21,35,.98),rgba(10,15,26,1));
+  border:1px solid rgba(201,168,76,.45);display:flex;align-items:center;justify-content:center;
+  font-size:14px;font-weight:800;letter-spacing:.06em;color:var(--gold);box-shadow:0 0 26px rgba(201,168,76,.2)}
+/* reveal choreography */
+.paths-compare.reveal .compare-eyebrow{opacity:0;transition:opacity .6s ease}
+.paths-compare.reveal .compare-card{opacity:0;transform:translateY(22px);
+  transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1)}
+.paths-compare.reveal .vs-medal{opacity:0;transform:scale(.4);
+  transition:opacity .45s ease .35s,transform .5s cubic-bezier(.34,1.56,.64,1) .35s}
+.paths-compare.revealed .compare-eyebrow{opacity:1}
+.paths-compare.revealed .compare-card{opacity:1;transform:none}
+.paths-compare.revealed .compare-card.with{transition-delay:.16s}
+.paths-compare.revealed .vs-medal{opacity:1;transform:scale(1)}
+/* light theme — deep-gold accents for contrast, cards stay premium dark */
+:root[data-theme="light"] .compare-eyebrow{color:#8B6914}
+:root[data-theme="light"] .compare-eyebrow i{background:rgba(139,105,20,.4)}
+:root[data-theme="light"] .compare-card.without{border-color:rgba(27,36,52,.2)}
+:root[data-theme="light"] .compare-card.with{border-color:rgba(139,105,20,.55)}
+:root[data-theme="light"] .compare-card.with .compare-verdict{color:#E8C766}
+:root[data-theme="light"] .vs-medal{border-color:rgba(139,105,20,.55);color:#E8C766}
+@media(max-width:900px){
+  .compare-grid{grid-template-columns:1fr;gap:18px}
+  .vs-medal{margin:0 auto}
+}
+@media (prefers-reduced-motion:reduce){
+  .paths-compare.reveal .compare-card,.paths-compare.reveal .vs-medal,.paths-compare.reveal .compare-eyebrow{
+    opacity:1 !important;transform:none !important}
+}
+</style>
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1437,7 +1530,7 @@
     <div class="g-open reveal">
       <div class="g-lede">
         <div class="go-kicker" data-en="Chapter I · The Turn" data-id="Bab I · Titik Balik">Chapter I · The Turn</div>
-        <h2 class="go-head" data-en="At some point in every successful career, <br>performance is no longer the question. <br><em>Direction is.</em>" data-id="Pada suatu titik dalam setiap karier yang sukses, <br>kinerja bukan lagi pertanyaannya. <br><em>Arah yang menjadi pertanyaannya.</em>">At some point in every successful career, <br>performance is no longer the question. <br><em>Direction is.</em></h2>
+        <h2 class="go-head" data-en="At some point in every successful career, performance is no longer the question. <em>Direction is.</em>" data-id="Pada suatu titik dalam setiap karier yang sukses, kinerja bukan lagi pertanyaannya. <em>Arah yang menjadi pertanyaannya.</em>">At some point in every successful career, performance is no longer the question. <em>Direction is.</em></h2>
         <div class="go-rule" aria-hidden="true"></div>
         <p data-en="There is a specific kind of career crisis that doesn’t look like a crisis from the outside. The title is respectable. The income is real. The colleagues are good. But somewhere in the middle of a Wednesday, a question surfaces that is difficult to dismiss: is this still the right direction?" data-id="Ada jenis krisis karier tertentu yang tidak tampak seperti krisis dari luar. Gelarnya terhormat. Penghasilannya nyata. Rekan-rekan kerjanya baik. Tapi di suatu tempat di tengah hari Rabu, sebuah pertanyaan muncul yang sulit untuk diabaikan: apakah ini masih arah yang tepat?">There is a specific kind of career crisis that doesn’t look like a crisis from the outside. The title is respectable. The income is real. The colleagues are good. But somewhere in the middle of a Wednesday, a question surfaces that is difficult to dismiss: is this still the right direction?</p>
         <p data-en="The professionals who navigate this moment well are not the ones who ignore the question or make impulsive decisions. They are the ones who bring the same rigor to evaluating their career that they would bring to any complex professional problem — with data, with frameworks, and with the honesty to act on what they find." data-id="Profesional yang menavigasi momen ini dengan baik bukan mereka yang mengabaikan pertanyaan atau membuat keputusan impulsif. Mereka adalah orang-orang yang membawa ketelitian yang sama untuk mengevaluasi karier mereka seperti yang mereka bawa ke masalah profesional yang kompleks — dengan data, dengan kerangka kerja, dan dengan kejujuran untuk bertindak berdasarkan apa yang mereka temukan.">The professionals who navigate this moment well are not the ones who ignore the question or make impulsive decisions. They are the ones who bring the same rigor to evaluating their career that they would bring to any complex professional problem — with data, with frameworks, and with the honesty to act on what they find.</p>
@@ -1629,36 +1722,39 @@
       </defs></svg>
     </div>
 
-    <div class="contrast reveal">
-      <div class="con-card">
-        <div class="con-head">
-          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6.5 6.5 L17.5 17.5 M17.5 6.5 L6.5 17.5"/></svg></span>
-          <h3 data-en="Career <span class='c2'>without a second chapter</span>" data-id="Karier <span class='c2'>tanpa babak kedua</span>">Career <span class='c2'>without a second chapter</span></h3>
+    <div class="paths-compare reveal">
+      <div class="compare-eyebrow"><i></i><span data-en="Two paths. Two very different outcomes." data-id="Dua jalur. Dua hasil yang sangat berbeda.">Two paths. Two very different outcomes.</span><i></i></div>
+      <div class="compare-grid">
+        <div class="compare-card without">
+          <div class="compare-head"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Career without a second chapter" data-id="Karier tanpa babak kedua">Career without a second chapter</span></div>
+          <ul class="cmp-list">
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Incremental roles at the same seniority for years" data-id="Peran bertahap di senioritas yang sama selama bertahun-tahun">Incremental roles at the same seniority for years</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Expertise that’s respected but not leveraged" data-id="Keahlian yang dihormati tapi tidak didayagunakan">Expertise that’s respected but not leveraged</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Network that’s wide but not strategic for future goals" data-id="Jaringan yang luas tapi tidak strategis untuk tujuan masa depan">Network that’s wide but not strategic for future goals</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Income plateau without clear path forward" data-id="Penghasilan mendatar tanpa jalur maju yang jelas">Income plateau without clear path forward</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Vague feeling of having more to offer than the current role allows" data-id="Perasaan samar memiliki lebih banyak untuk ditawarkan daripada yang dimungkinkan peran saat ini">Vague feeling of having more to offer than the current role allows</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#E27D8B" stroke-width="1.6"/><path d="M8.5 8.5 l7 7 M15.5 8.5 l-7 7" stroke="#E27D8B" stroke-width="1.8" stroke-linecap="round"/></svg><span data-en="Watching less-experienced people move into roles you could lead" data-id="Menyaksikan orang yang kurang berpengalaman masuk ke peran yang bisa kamu pimpin">Watching less-experienced people move into roles you could lead</span></li>
+          </ul>
+          <p class="compare-verdict" data-en="Waiting for the second chapter to happen." data-id="Menunggu babak kedua terjadi begitu saja.">Waiting for the second chapter to happen.</p>
+          <svg class="crowd" width="180" height="30" viewBox="0 0 180 30" aria-hidden="true"><g transform="translate(12,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(36,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(60,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(84,0) scale(1.25)" fill="#E05B6E"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(108,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(132,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(156,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g></svg>
         </div>
-        <ul>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Incremental roles at the same seniority for years" data-id="Peran bertahap di senioritas yang sama selama bertahun-tahun">Incremental roles at the same seniority for years</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Expertise that’s respected but not leveraged" data-id="Keahlian yang dihormati tapi tidak didayagunakan">Expertise that’s respected but not leveraged</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Network that’s wide but not strategic for future goals" data-id="Jaringan yang luas tapi tidak strategis untuk tujuan masa depan">Network that’s wide but not strategic for future goals</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Income plateau without clear path forward" data-id="Penghasilan mendatar tanpa jalur maju yang jelas">Income plateau without clear path forward</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Vague feeling of having more to offer than the current role allows" data-id="Perasaan samar memiliki lebih banyak untuk ditawarkan daripada yang dimungkinkan peran saat ini">Vague feeling of having more to offer than the current role allows</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2.8 2.8 L7.2 7.2 M7.2 2.8 L2.8 7.2"/></svg></span><span data-en="Watching less-experienced people move into roles you could lead" data-id="Menyaksikan orang yang kurang berpengalaman masuk ke peran yang bisa kamu pimpin">Watching less-experienced people move into roles you could lead</span></li>
-        </ul>
-      </div>
-      <span class="con-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5 L12.5 12 L6 19"/><path d="M12.5 5 L19 12 L12.5 19"/></svg></span>
-      <div class="con-card with">
-        <div class="con-head">
-          <span class="con-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 12.5 L10 17 L18.5 7.5"/></svg></span>
-          <h3 data-en="Career <span class='c2'>with a designed second chapter</span>" data-id="Karier <span class='c2'>dengan babak kedua yang dirancang</span>">Career <span class='c2'>with a designed second chapter</span></h3>
-          <span class="con-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor"><circle cx="20" cy="20" r="16.5" stroke-width="1.4" opacity=".85"/><path d="M11 25.5 L16.5 14 L20 19.5 L23.5 12.5 L29 25.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+
+        <div class="vs-medal" aria-hidden="true">VS</div>
+
+        <div class="compare-card with">
+          <div class="compare-head"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#7FCF9B" stroke-width="1.6"/><path d="M7.5 12.5 l3 3 6-7" stroke="#7FCF9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Career with a designed second chapter" data-id="Karier dengan babak kedua yang dirancang">Career with a designed second chapter</span></div>
+          <ul class="cmp-list">
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Clear picture of the next role, level, or venture" data-id="Gambaran jelas tentang peran, level, atau usaha berikutnya">Clear picture of the next role, level, or venture</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Explicit map of transferable expertise across sectors or contexts" data-id="Peta eksplisit keahlian yang dapat dialihkan lintas sektor atau konteks">Explicit map of transferable expertise across sectors or contexts</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Relationships built in the direction of the next chapter" data-id="Hubungan yang dibangun ke arah babak berikutnya">Relationships built in the direction of the next chapter</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Income and impact trajectory that continues to grow" data-id="Trajektori penghasilan dan dampak yang terus bertumbuh">Income and impact trajectory that continues to grow</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Specific development plan that closes the gaps for the next destination" data-id="Rencana pengembangan spesifik yang menutup kesenjangan menuju tujuan berikutnya">Specific development plan that closes the gaps for the next destination</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Moving forward on your timeline, in your direction" data-id="Melangkah maju pada garis waktumu, ke arahmu">Moving forward on your timeline, in your direction</span></li>
+          </ul>
+          <div class="with-stars" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><svg width="13" height="13" viewBox="0 0 14 14" fill="none"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg></div>
+          <p class="compare-verdict" data-en="Authoring the second chapter on your own terms." data-id="Menulis babak kedua sesuai caramu sendiri.">Authoring the second chapter on your own terms.</p>
+          <svg class="crowd" width="180" height="30" viewBox="0 0 180 30" aria-hidden="true"><g transform="translate(12,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(36,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(60,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(84,0) scale(1.25)" fill="#C9A84C"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(108,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(132,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g><g transform="translate(156,3) scale(1)" fill="#4A5568"><circle cx="0" cy="5" r="3.4"/><path d="M-4.6 22 v-7.2 a4.6 4.6 0 0 1 9.2 0 V22 Z"/></g></svg>
         </div>
-        <ul>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Clear picture of the next role, level, or venture" data-id="Gambaran jelas tentang peran, level, atau usaha berikutnya">Clear picture of the next role, level, or venture</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Explicit map of transferable expertise across sectors or contexts" data-id="Peta eksplisit keahlian yang dapat dialihkan lintas sektor atau konteks">Explicit map of transferable expertise across sectors or contexts</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Relationships built in the direction of the next chapter" data-id="Hubungan yang dibangun ke arah babak berikutnya">Relationships built in the direction of the next chapter</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Income and impact trajectory that continues to grow" data-id="Trajektori penghasilan dan dampak yang terus bertumbuh">Income and impact trajectory that continues to grow</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Specific development plan that closes the gaps for the next destination" data-id="Rencana pengembangan spesifik yang menutup kesenjangan menuju tujuan berikutnya">Specific development plan that closes the gaps for the next destination</span></li>
-          <li><span class="li-ico" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.2 5.2 L4.2 7.2 L7.8 3.2"/></svg></span><span data-en="Moving forward on your timeline, in your direction" data-id="Melangkah maju pada garis waktumu, ke arahmu">Moving forward on your timeline, in your direction</span></li>
-        </ul>
       </div>
     </div>
     <p class="con-close reveal" data-en="Experience compounds — but only in the direction you point it. The professionals who thrive after forty are the ones who chose that direction deliberately. <em>The second chapter is written by the author, not the momentum.</em>" data-id="Pengalaman berlipat — tapi hanya ke arah yang kamu tujukan. Profesional yang berkembang setelah empat puluh adalah mereka yang memilih arah itu dengan sengaja. <em>Babak kedua ditulis oleh penulisnya, bukan oleh momentum.</em>">Experience compounds — but only in the direction you point it. The professionals who thrive after forty are the ones who chose that direction deliberately. <em>The second chapter is written by the author, not the momentum.</em></p>
