@@ -164,7 +164,7 @@ const PANELS = {
     '<div class="f-group"><label class="f-label">' + L('Last name', 'Nama belakang') + '</label><input class="f-input" placeholder="' + L('Your last name', 'Nama belakangmu') + '" value="' + (name.split(' ').slice(1).join(' ') || '') + '"></div></div>' +
     '<div class="f-group"><label class="f-label">Email</label><input class="f-input" value="' + email + '" placeholder="you@example.com"></div>' +
     '<div class="f-row"><div class="f-group"><label class="f-label">' + L('Phone / WhatsApp (optional)', 'Telepon / WhatsApp (opsional)') + '</label><input class="f-input" placeholder="+62…"></div>' +
-    '<div class="f-group"><label class="f-label">' + L('University / Institution', 'Universitas / Institusi') + '</label><input class="f-input" placeholder="' + L('e.g., Universitas Indonesia', 'mis., Universitas Indonesia') + '"></div></div>' +
+    '<div class="f-group"><label class="f-label">' + L('University / Institution', 'Universitas / Institusi') + '</label><input class="f-input" placeholder="' + L('e.g., National University', 'mis., Universitas Nasional') + '"></div></div>' +
     '<button class="btn btn-primary save-btn">' + L('Save Changes', 'Simpan Perubahan') + '</button>',
   target: () => {
     let cal = {}; try { cal = JSON.parse(sessionStorage.getItem('compass_calibration') || '{}') || {}; } catch (e) {}
@@ -184,8 +184,8 @@ const PANELS = {
     '<button class="btn btn-primary save-btn" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
   privacy: () => '<h2>' + L('Privacy &amp; Data', 'Privasi &amp; Data') + '</h2><p class="ph-sub">' + L('Your climb, your data. Always yours.', 'Pendakianmu, datamu. Selalu milikmu.') + '</p>' +
     '<p style="font-size:var(--text-sm);color:var(--text-muted);line-height:1.625;margin-bottom:1.5rem">' +
-    L("We store your data securely and never sell it to third parties. Your Compass data lives in your browser's local storage and is never deleted on subscription lapse. We comply with Indonesia's Personal Data Protection Law (PDP Law).",
-      'Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Data Compass-mu tersimpan di penyimpanan lokal perambanmu dan tidak pernah dihapus saat langganan berakhir. Kami mematuhi Undang-Undang Pelindungan Data Pribadi (UU PDP) Indonesia.') + '</p>' +
+    L("We store your data securely and never sell it to third parties. Your Compass data lives in your browser's local storage and is never deleted on subscription lapse. We comply with applicable data-protection regulations, including the GDPR.",
+      'Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Data Compass-mu tersimpan di penyimpanan lokal perambanmu dan tidak pernah dihapus saat langganan berakhir. Kami mematuhi regulasi pelindungan data yang berlaku, termasuk GDPR.') + '</p>' +
     '<div style="display:flex;gap:0.75rem;flex-wrap:wrap"><button class="btn btn-secondary" id="export-btn">' + L('Export my data', 'Ekspor data saya') + '</button>' +
     '<button class="btn btn-destructive" id="delete-btn">' + L('Delete my account', 'Hapus akun saya') + '</button></div>',
   subscription: () => {
