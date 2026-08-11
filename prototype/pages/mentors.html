@@ -1130,13 +1130,13 @@
     align-items:center;justify-content:center;background:none;border:1px solid rgba(201,168,76,.3);
     color:#C9A84C;cursor:pointer;transition:background .2s,border-color .25s}
   .mg-tgl:active{background:rgba(201,168,76,.14)}
-  .mg-group.exp .mg-tgl{border-color:rgba(240,216,120,.6)}
+  .mg-group.mgx .mg-tgl{border-color:rgba(240,216,120,.6)}
   .mg-tgl svg{width:15px;height:15px;transition:transform .35s ease}
-  .mg-group.exp .mg-tgl svg{transform:rotate(180deg)}
+  .mg-group.mgx .mg-tgl svg{transform:rotate(180deg)}
   .mg-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s cubic-bezier(.25,.8,.3,1)}
-  .mg-group.exp .mg-body{grid-template-rows:1fr}
+  .mg-group.mgx .mg-body{grid-template-rows:1fr}
   .mg-bin{min-height:0;overflow:hidden}
-  .mg-group.exp .mg-bin{padding:2px 0 16px}
+  .mg-group.mgx .mg-bin{padding:2px 0 16px}
   .sheet .mg-list a{padding:11px 0;font-size:14.5px}
   .sheet .mg-list a::before{margin-top:8.5px}
   .sheet a.mg-cta{margin-top:12px;padding:11px 22px;font-size:13px}
@@ -1489,7 +1489,7 @@
 <!-- ═══ THE JOURNEY — one continuous backdrop across Chapters I–III ═══ -->
 <div class="journey-wrap">
   <div class="journey-bg" aria-hidden="true">
-    <img src="../assets/For%20Mentor.jpg" alt="" onerror="this.style.display='none'">
+    <img src="../assets/For%20Mentor.jpg" alt="" loading="lazy" onerror="this.style.display='none'">
     <div class="journey-veil"></div>
   </div>
 
@@ -1996,6 +1996,29 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   .reveal{transition-duration:.5s}
 }
 </style>
+<style id="mfx3">
+/* mobile audit fixes: tap targets, micro-type floor, nav fit */
+@media(max-width:640px){
+  .chap-nav a{padding:11px 12px !important;font-size:10px !important}
+  .mfx-more{min-height:40px;padding:8px 8px 8px 0}
+  .journey-kicker,.stage-kicker,.one-percent-label{font-size:10px !important}
+  .router-chips a span,.asc-chip{font-size:10px}
+  .hero-headline{overflow-wrap:break-word}
+  footer a{display:inline-block;padding:5px 2px}
+}
+@media(max-width:900px){
+  #sheet .mg-kick{font-size:10px}
+}
+@media(max-width:760px){
+  .hero-content>*{max-width:100%}
+  button[data-lang]{min-height:38px}
+}
+@media(max-width:430px){
+  .nav-right{gap:6px}
+  .nav-cta{font-size:10.5px;padding:8px 10px;letter-spacing:.04em}
+  .hero-headline{font-size:min(1.8rem,7.4vw)!important}
+}
+</style>
 <style id="mfx">
 @media(max-width:640px){
   h1{font-size:min(2.3rem,9vw)!important;line-height:1.16!important}
@@ -2261,7 +2284,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
     b.addEventListener('click', function(e){
       e.stopPropagation();
       var g = b.closest('.mg-group');
-      var open = g.classList.toggle('exp');
+      var open = g.classList.toggle('mgx');
       b.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   });
