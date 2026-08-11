@@ -2752,6 +2752,44 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
 </script>
 
 <!-- ═══ Mobile-first refinement layer: tighter type scale, digestible prose ═══ -->
+<style id="mfx2">
+/* ═══ mobile experience layer v2 — rhythm, density, touch (design system) ═══ */
+@media(max-width:640px){
+  /* section rhythm: consistent, tighter vertical cadence */
+  section.block,.realization-section,.career-os-section,.products-section,.gauntlet-sec,.how-section{
+    padding:60px 0 !important}
+  .section-inner{padding:0 20px}
+  /* chapter openings: compact frames, tighter gaps */
+  .ro-grid,.g-open{gap:26px}
+  .ro-grid{margin-bottom:52px}
+  .g-frame .gf-img,.ro-visual .cut-frame{min-height:0;aspect-ratio:4/3}
+  .ro-intro p,.g-open p{font-size:13.8px;line-height:1.72}
+  .ro-headline,.go-head{font-size:min(1.65rem,7vw) !important;line-height:1.24}
+  /* quote bands: elegant, compact */
+  .ro-quote{margin-bottom:44px}
+  .ro-quote p{font-size:min(1.05rem,4.9vw)}
+  /* compare + trait density */
+  .cmp-list li{font-size:12.5px;padding:7px 0}
+  .compare-card{padding:24px 20px 26px}
+  .trait{padding:22px 18px}
+  .t-desc{font-size:12px}
+  /* product carousel: digestible slides */
+  .pcar-track .pc-body{padding:24px 18px 26px}
+  .prod-desc{font-size:12.5px;line-height:1.7}
+  .pc-body li{font-size:12px}
+  .pcar-arrow{width:44px;height:44px}
+  /* FAQ scanability */
+  .faq-q{font-size:14.5px}
+  .faq-a{font-size:13px;line-height:1.7}
+  /* primary CTAs become full-width touch targets */
+  .hero-cta,.cta-primary{display:flex;width:100%;justify-content:center;text-align:center}
+  .ch-cta a{display:block;text-align:center}
+}
+/* gentle mobile motion: reveals rise a shorter distance, feel snappier */
+@media(max-width:640px) and (prefers-reduced-motion:no-preference){
+  .reveal{transition-duration:.5s}
+}
+</style>
 <style id="mfx">
 @media(max-width:640px){
   h1{font-size:min(2.3rem,9vw)!important;line-height:1.16!important}
@@ -2774,7 +2812,7 @@ if(rzSection && !matchMedia('(prefers-reduced-motion: reduce)').matches){
   document.querySelectorAll('section p, main p, article p').forEach(function(p){
     if(p.closest('nav,header,footer,form,button,a')) return;
     if(p.querySelector('button,input,select,img,svg')) return;
-    if((p.textContent||'').trim().length<300) return;
+    if((p.textContent||'').trim().length<240) return;
     if(p.dataset.mfx) return; p.dataset.mfx='1';
     p.classList.add('mfx-clamp');
     var b=document.createElement('button'); b.type='button'; b.className='mfx-more';
