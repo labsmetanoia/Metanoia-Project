@@ -1587,20 +1587,20 @@
         <p class="contact-direct" data-en="Prefer email? Write to <a href=&quot;mailto:hello@metanoialabs.net?subject=Enterprise%20Partnership%20Inquiry&quot;>hello@metanoialabs.net</a>" data-id="Lebih suka email? Tulis ke <a href=&quot;mailto:hello@metanoialabs.net?subject=Enterprise%20Partnership%20Inquiry&quot;>hello@metanoialabs.net</a>">Prefer email? Write to <a href="mailto:hello@metanoialabs.net?subject=Enterprise%20Partnership%20Inquiry">hello@metanoialabs.net</a></p>
       </div>
       <form class="cform reveal" id="cform" novalidate>
-      <div class="cfield"><label for="cf-name">Name</label><input id="cf-name" name="name" type="text" autocomplete="name" required></div>
-      <div class="cfield"><label for="cf-company">Company</label><input id="cf-company" name="company" type="text" autocomplete="organization" required></div>
-      <div class="cfield"><label for="cf-role">Role</label><input id="cf-role" name="role" type="text" autocomplete="organization-title"></div>
-      <div class="cfield"><label for="cf-size">Cohort size</label><input id="cf-size" name="size" type="text" inputmode="numeric"></div>
-      <div class="cfield full"><label for="cf-interest">Area of interest</label>
+      <div class="cfield"><label for="cf-name" data-en="Name" data-id="Nama">Name</label><input id="cf-name" name="name" type="text" autocomplete="name" required></div>
+      <div class="cfield"><label for="cf-company" data-en="Company" data-id="Perusahaan">Company</label><input id="cf-company" name="company" type="text" autocomplete="organization" required></div>
+      <div class="cfield"><label for="cf-role" data-en="Role" data-id="Jabatan">Role</label><input id="cf-role" name="role" type="text" autocomplete="organization-title"></div>
+      <div class="cfield"><label for="cf-size" data-en="Cohort size" data-id="Ukuran kohort">Cohort size</label><input id="cf-size" name="size" type="text" inputmode="numeric"></div>
+      <div class="cfield full"><label for="cf-interest" data-en="Area of interest" data-id="Bidang yang diminati">Area of interest</label>
         <select id="cf-interest" name="interest">
-          <option>Pre-Hire Partnership</option>
-          <option>Onboarding Integration</option>
-          <option>L&amp;D Partnership</option>
-          <option>Campus Scholarship Sponsorship</option>
-          <option>Recruitment Intelligence</option>
-          <option>Executive Mentorship Network</option>
+          <option data-en="Pre-Hire Partnership" data-id="Kemitraan Pra-Rekrutmen">Pre-Hire Partnership</option>
+          <option data-en="Onboarding Integration" data-id="Integrasi Onboarding">Onboarding Integration</option>
+          <option data-en="L&amp;D Partnership" data-id="Kemitraan L&amp;D">L&amp;D Partnership</option>
+          <option data-en="Campus Scholarship Sponsorship" data-id="Sponsor Beasiswa Kampus">Campus Scholarship Sponsorship</option>
+          <option data-en="Recruitment Intelligence" data-id="Inteligensi Rekrutmen">Recruitment Intelligence</option>
+          <option data-en="Executive Mentorship Network" data-id="Jaringan Mentorship Eksekutif">Executive Mentorship Network</option>
         </select></div>
-      <div class="cfield full"><label for="cf-msg">Anything else</label><textarea id="cf-msg" name="message"></textarea></div>
+      <div class="cfield full"><label for="cf-msg" data-en="Anything else" data-id="Hal lain">Anything else</label><textarea id="cf-msg" name="message"></textarea></div>
         <button class="csubmit" type="submit" data-en="Request the Discovery Call →" data-id="Ajukan Panggilan Eksplorasi →">Request the Discovery Call →</button>
         <p class="cform-note" data-en="Submitting opens a pre-filled email in your mail client — nothing is sent until you press send." data-id="Mengirim formulir membuka email terisi otomatis di aplikasi email Anda — tidak ada yang terkirim sampai Anda menekan kirim.">Submitting opens a pre-filled email in your mail client — nothing is sent until you press send.</p>
       </form>
@@ -1853,6 +1853,44 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 </script>
 
 <!-- ═══ Mobile-first refinement layer: tighter type scale, digestible prose ═══ -->
+<style id="mfx2">
+/* ═══ mobile experience layer v2 — rhythm, density, touch (design system) ═══ */
+@media(max-width:640px){
+  /* section rhythm: consistent, tighter vertical cadence */
+  section.block,.realization-section,.career-os-section,.products-section,.gauntlet-sec,.how-section{
+    padding:60px 0 !important}
+  .section-inner{padding:0 20px}
+  /* chapter openings: compact frames, tighter gaps */
+  .ro-grid,.g-open{gap:26px}
+  .ro-grid{margin-bottom:52px}
+  .g-frame .gf-img,.ro-visual .cut-frame{min-height:0;aspect-ratio:4/3}
+  .ro-intro p,.g-open p{font-size:13.8px;line-height:1.72}
+  .ro-headline,.go-head{font-size:min(1.65rem,7vw) !important;line-height:1.24}
+  /* quote bands: elegant, compact */
+  .ro-quote{margin-bottom:44px}
+  .ro-quote p{font-size:min(1.05rem,4.9vw)}
+  /* compare + trait density */
+  .cmp-list li{font-size:12.5px;padding:7px 0}
+  .compare-card{padding:24px 20px 26px}
+  .trait{padding:22px 18px}
+  .t-desc{font-size:12px}
+  /* product carousel: digestible slides */
+  .pcar-track .pc-body{padding:24px 18px 26px}
+  .prod-desc{font-size:12.5px;line-height:1.7}
+  .pc-body li{font-size:12px}
+  .pcar-arrow{width:44px;height:44px}
+  /* FAQ scanability */
+  .faq-q{font-size:14.5px}
+  .faq-a{font-size:13px;line-height:1.7}
+  /* primary CTAs become full-width touch targets */
+  .hero-cta,.cta-primary{display:flex;width:100%;justify-content:center;text-align:center}
+  .ch-cta a{display:block;text-align:center}
+}
+/* gentle mobile motion: reveals rise a shorter distance, feel snappier */
+@media(max-width:640px) and (prefers-reduced-motion:no-preference){
+  .reveal{transition-duration:.5s}
+}
+</style>
 <style id="mfx">
 @media(max-width:640px){
   h1{font-size:min(2.3rem,9vw)!important;line-height:1.16!important}
@@ -1875,7 +1913,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   document.querySelectorAll('section p, main p, article p').forEach(function(p){
     if(p.closest('nav,header,footer,form,button,a')) return;
     if(p.querySelector('button,input,select,img,svg')) return;
-    if((p.textContent||'').trim().length<300) return;
+    if((p.textContent||'').trim().length<240) return;
     if(p.dataset.mfx) return; p.dataset.mfx='1';
     p.classList.add('mfx-clamp');
     var b=document.createElement('button'); b.type='button'; b.className='mfx-more';

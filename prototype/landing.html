@@ -632,6 +632,18 @@
 </div>
 
 <style id="contrastFixCss">
+/* darker cinematic grade over footage — readability in both themes */
+#call .frame{--grade:rgba(6,11,22,.74)}
+#prep .frame{--grade:rgba(16,20,30,.70)}
+#climb .frame{--grade:rgba(7,9,14,.78)}
+#basecamp .frame,#summit .frame,#horizon .frame{--grade:rgba(5,9,18,.70)}
+:root[data-theme="light"] #call .frame{--grade:rgba(24,32,48,.62)}
+:root[data-theme="light"] #prep .frame{--grade:rgba(30,36,50,.56)}
+:root[data-theme="light"] #climb .frame{--grade:rgba(20,24,34,.66)}
+:root[data-theme="light"] #basecamp .frame,
+:root[data-theme="light"] #summit .frame,
+:root[data-theme="light"] #horizon .frame{--grade:rgba(26,32,46,.58)}
+
 /* readability: stronger wash behind glass cards over bright footage */
 .has-video .card,body.m .has-still .card{background:rgba(7,13,24,.80)}
 .has-video .cform{background:rgba(7,13,24,.80)}
