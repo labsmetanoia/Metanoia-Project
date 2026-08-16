@@ -1,1 +1,4 @@
 node_modules/
+
+# Local QA artifacts (Playwright screenshots) — not part of the deployed site
+prototype/audit/
