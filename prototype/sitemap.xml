@@ -77,4 +77,32 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://metanoialabs.net/help.html"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://metanoialabs.net/help.html"/>
   </url>
+  <url>
+    <loc>https://metanoialabs.net/pricing.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanoialabs.net/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://metanoialabs.net/pricing.html"/>
+  </url>
+  <url>
+    <loc>https://metanoialabs.net/legal/privacy.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanoialabs.net/legal/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://metanoialabs.net/legal/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://metanoialabs.net/legal/terms.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanoialabs.net/legal/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://metanoialabs.net/legal/terms.html"/>
+  </url>
+  <url>
+    <loc>https://metanoialabs.net/legal/data-dignity.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metanoialabs.net/legal/data-dignity.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://metanoialabs.net/legal/data-dignity.html"/>
+  </url>
 </urlset>

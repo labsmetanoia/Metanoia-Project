@@ -249,7 +249,7 @@ window.oauth = function(provider){
   /* OAuth ships with the real auth backend (WS-5); no fabricated sessions. */ return;
   goSuccess();
 };
-/* Safe same-site redirect target (e.g. ?redirect=pages/products/project-aladin.html) */
+/* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
 const redirectTo = (() => {
   const r = new URLSearchParams(location.search).get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';

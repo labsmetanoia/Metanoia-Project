@@ -1596,6 +1596,19 @@
 @media (prefers-reduced-motion:reduce){
   .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
 }
+
+/* ── pillar IA nav rows + availability chips ── */
+.nv-list li a{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.nv-num{font-size:10.5px;font-weight:800;color:rgba(201,168,76,.75);letter-spacing:.08em;min-width:20px}
+.nv-main{font-weight:700;color:inherit}
+.nv-sub{font-size:11.5px;color:rgba(233,238,246,.45);letter-spacing:.02em}
+.nv-chip{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;padding:2.5px 8px;border-radius:4px;border:1px solid;margin-left:auto;white-space:nowrap}
+.nv-chip i{width:4px;height:4px;border-radius:50%;background:currentColor}
+.nv-chip b{font-weight:inherit}
+.nv-chip--gold{color:#E8C96A;background:rgba(201,168,76,.14);border-color:rgba(201,168,76,.4)}
+.nv-chip--neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.16)}
+@media(max-width:900px){.nv-chip{margin-left:0}}
 </style>
 <style id="polishCss">
 /* ═══ design polish: balanced openings, refined quote typography ═══ */
@@ -1690,6 +1703,33 @@
     opacity:1 !important;transform:none !important}
 }
 </style>
+
+<style id="pricingBandCss">
+.pricing-band{max-width:860px;margin:0 auto 84px;padding:44px 40px;border:1px solid rgba(201,168,76,.22);
+  border-radius:20px;background:linear-gradient(165deg,rgba(201,168,76,.06),rgba(8,14,26,.55));text-align:center}
+.pb-chapter{font-size:11px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:#E8C96A}
+.pricing-band h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin:12px 0 10px;color:var(--text,#F0EDE8)}
+.pb-body{color:rgba(240,237,232,.62);font-size:15px;max-width:56ch;margin:0 auto 26px}
+.pb-plan{display:inline-block;text-align:left;border:1px solid rgba(240,237,232,.12);border-radius:14px;
+  padding:22px 30px;background:rgba(5,10,18,.55);min-width:min(420px,100%)}
+.pb-plan-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.pb-plan-name{font-weight:800;font-size:15px;color:#F0EDE8}
+.pb-chip{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;padding:3px 9px;border-radius:4px;border:1px solid;white-space:nowrap}
+.pb-chip i{width:4.5px;height:4.5px;border-radius:50%;background:currentColor}
+.pb-chip.gold{color:#E8C96A;background:rgba(201,168,76,.16);border-color:rgba(201,168,76,.4)}
+.pb-chip.neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.15)}
+.pb-price{margin:12px 0 2px}
+.pb-amount{font-size:1.8rem;font-weight:800;color:#F0EDE8;letter-spacing:-.01em}
+.pb-period{font-size:.85rem;color:rgba(240,237,232,.45);font-weight:600}
+.pb-alt{font-size:12.5px;color:rgba(240,237,232,.45);margin:2px 0 16px}
+.pb-cta{display:inline-flex;padding:11px 24px;border-radius:999px;font-weight:700;font-size:13.5px;
+  text-decoration:none;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}
+.pb-honesty{font-size:12.5px;color:rgba(240,237,232,.5);margin-top:22px}
+.pb-honesty a{color:#E8C96A}
+:root[data-theme="light"] .pricing-band{background:linear-gradient(165deg,rgba(201,168,76,.10),rgba(9,16,29,.92))}
+@media(max-width:640px){.pricing-band{padding:32px 22px;margin-bottom:64px}.pb-plan{padding:18px 20px}}
+</style>
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1752,125 +1792,58 @@
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
         <a class="mg-head" href="student.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 4.5 21 9l-9 4.5L3 9z"/><path d="M6.5 11v4.4c0 1.2 2.5 2.6 5.5 2.6s5.5-1.4 5.5-2.6V11"/><path d="M21 9v4.5"/></svg></span>
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span>
           <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Students" data-id="Untuk Mahasiswa">For Students</span>
-            <span class="mg-ttl" data-en="Student" data-id="Mahasiswa">Student</span>
+            <span class="mg-kick" data-en="Find your stage" data-id="Temukan tahapmu">Find your stage</span>
+            <span class="mg-ttl" data-en="Who it's for" data-id="Untuk siapa">Who it's for</span>
           </span>
         </a>
         <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="products/project-aladin.html" data-en="Project Aladdin" data-id="Project Aladdin">Project Aladdin</a></li>
-            <li><a href="products/project-maverick.html" data-en="CV &amp; Resume Studio" data-id="Studio CV &amp; Resume">CV &amp; Resume Studio</a></li>
-            <li><a href="products/project-maverick.html" data-en="ATS Screening Mastery" data-id="Penguasaan Seleksi ATS">ATS Screening Mastery</a></li>
-            <li><a href="products/project-maverick.html" data-en="Group Discussion Simulation" data-id="Simulasi Diskusi Kelompok">Group Discussion Simulation</a></li>
-            <li><a href="products/project-maverick.html" data-en="Psychometric Test Preparation" data-id="Persiapan Tes Psikometri">Psychometric Test Preparation</a></li>
-            <li><a href="products/project-nexus.html" data-en="Case Interview Preparation" data-id="Persiapan Case Interview">Case Interview Preparation</a></li>
-            <li><a href="products/project-nexus.html" data-en="Interview Mastery" data-id="Penguasaan Wawancara">Interview Mastery</a></li>
-            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          <ul class="mg-list nv-list">
+            <li><a href="student.html"><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="fresh-graduate.html"><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="early-professional.html"><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="mature-professional.html"><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="enterprise.html"><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="mentors.html"><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
           </ul>
-          <a class="mg-cta" href="student.html"><span data-en="Explore Student" data-id="Jelajahi Mahasiswa">Explore Student</span><i>→</i></a>
         </div></div>
       </section>
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="fresh-graduate.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v16l-5-3-5 3z"/><path d="M9.5 9h5"/></svg></span>
+        <a class="mg-head" href="../products/the-map/">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 20.5 8 12 12.5 3.5 8z"/><path d="m3.5 12 8.5 4.5L20.5 12"/><path d="m3.5 16 8.5 4.5 8.5-4.5"/></svg></span>
           <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Fresh Graduates" data-id="Untuk Fresh Graduate">For Fresh Graduates</span>
-            <span class="mg-ttl" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span>
+            <span class="mg-kick" data-en="One spine · five pillars" data-id="Satu tulang punggung · lima pilar">One spine · five pillars</span>
+            <span class="mg-ttl" data-en="What you get" data-id="Yang kamu dapatkan">What you get</span>
           </span>
         </a>
         <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="products/project-aladin.html" data-en="Project Aladdin" data-id="Project Aladdin">Project Aladdin</a></li>
-            <li><a href="products/project-maverick.html" data-en="CV &amp; Resume Studio" data-id="Studio CV &amp; Resume">CV &amp; Resume Studio</a></li>
-            <li><a href="products/project-maverick.html" data-en="ATS Screening Mastery" data-id="Penguasaan Seleksi ATS">ATS Screening Mastery</a></li>
-            <li><a href="products/project-maverick.html" data-en="Group Discussion Simulation" data-id="Simulasi Diskusi Kelompok">Group Discussion Simulation</a></li>
-            <li><a href="products/project-maverick.html" data-en="Psychometric Test Preparation" data-id="Persiapan Tes Psikometri">Psychometric Test Preparation</a></li>
-            <li><a href="products/project-nexus.html" data-en="Case Interview Preparation" data-id="Persiapan Case Interview">Case Interview Preparation</a></li>
-            <li><a href="products/project-nexus.html" data-en="Interview Mastery" data-id="Penguasaan Wawancara">Interview Mastery</a></li>
-            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          <ul class="mg-list nv-list">
+            <li><a href="../products/the-map/"><span class="nv-num">01</span><span class="nv-main">The Map</span><span class="nv-sub" data-en="Direction" data-id="Arah">Direction</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-pack/"><span class="nv-num">02</span><span class="nv-main">The Pack</span><span class="nv-sub" data-en="Application" data-id="Lamaran">Application</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-rope/"><span class="nv-num">03</span><span class="nv-main">The Rope</span><span class="nv-sub" data-en="Interview" data-id="Wawancara">Interview</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-route/"><span class="nv-num">04</span><span class="nv-main">The Route</span><span class="nv-sub" data-en="What's next" data-id="Selanjutnya">What's next</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-compass/"><span class="nv-num">05</span><span class="nv-main">The Compass</span><span class="nv-sub" data-en="Navigation" data-id="Navigasi">Navigation</span><span class="nv-chip nv-chip--neutral"><i></i><b data-en="In beta" data-id="Versi beta">In beta</b></span></a></li>
           </ul>
-          <a class="mg-cta" href="fresh-graduate.html"><span data-en="Explore Fresh Graduate" data-id="Jelajahi Fresh Graduate">Explore Fresh Graduate</span><i>→</i></a>
         </div></div>
       </section>
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="early-professional.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 5.5-5.5 3.5 3.5L20 7"/><path d="M14.5 7H20v5.5"/></svg></span>
+        <a class="mg-head" href="../career-map-assessment.html">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span>
           <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Early Professionals" data-id="Untuk Profesional Muda">For Early Professionals</span>
-            <span class="mg-ttl" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span>
+            <span class="mg-kick" data-en="Free, today" data-id="Gratis, hari ini">Free, today</span>
+            <span class="mg-ttl" data-en="Start here" data-id="Mulai di sini">Start here</span>
           </span>
         </a>
         <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="products/project-aladin.html" data-en="Career Audit &amp; Direction" data-id="Audit &amp; Arah Karier">Career Audit &amp; Direction</a></li>
-            <li><a href="products/project-maverick.html" data-en="Professional Accelerator" data-id="Akselerator Profesional">Professional Accelerator</a></li>
-            <li><a href="products/project-nexus.html" data-en="The Pivot Framework" data-id="Kerangka Pivot">The Pivot Framework</a></li>
-            <li><a href="products/project-horizon.html" data-en="Scholarships &amp; Advanced Degrees" data-id="Beasiswa &amp; Pendidikan Lanjutan">Scholarships &amp; Advanced Degrees</a></li>
-            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
+          <ul class="mg-list nv-list">
+            <li><a href="fresh-graduate.html#gauntlet-journey"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></a></li>
+            <li><a href="../career-map-assessment.html"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></a></li>
+            <li><a href="../pricing.html"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></a></li>
+            <li><a href="../help.html"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></a></li>
           </ul>
-          <a class="mg-cta" href="early-professional.html"><span data-en="Explore Early Professional" data-id="Jelajahi Profesional Muda">Explore Early Professional</span><i>→</i></a>
-        </div></div>
-      </section>
-      <section class="mg-group">
-        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="mature-professional.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="8.6" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span>
-          <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Mature Professionals" data-id="Untuk Profesional Berpengalaman">For Mature Professionals</span>
-            <span class="mg-ttl" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span>
-          </span>
-        </a>
-        <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="products/project-aladin.html" data-en="Leadership Assessment &amp; Gap Analysis" data-id="Asesmen Kepemimpinan &amp; Analisis Kesenjangan">Leadership Assessment &amp; Gap Analysis</a></li>
-            <li><a href="products/project-maverick.html" data-en="Executive Presence Program" data-id="Program Kehadiran Eksekutif">Executive Presence Program</a></li>
-            <li><a href="products/project-nexus.html" data-en="Strategic Repositioning" data-id="Pemosisian Ulang Strategis">Strategic Repositioning</a></li>
-            <li><a href="products/project-horizon.html" data-en="Scholarships &amp; Advanced Degrees" data-id="Beasiswa &amp; Pendidikan Lanjutan">Scholarships &amp; Advanced Degrees</a></li>
-            <li><a href="products/the-compass.html" data-en="Personalized Progress Tracker" data-id="Pelacak Kemajuan Personal">Personalized Progress Tracker</a></li>
-          </ul>
-          <a class="mg-cta" href="mature-professional.html"><span data-en="Explore Mature Professional" data-id="Jelajahi Profesional Berpengalaman">Explore Mature Professional</span><i>→</i></a>
-        </div></div>
-      </section>
-      <section class="mg-group">
-        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="enterprise.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/><path d="M4.5 13h15" opacity=".65"/></svg></span>
-          <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Enterprises" data-id="Untuk Perusahaan">For Enterprises</span>
-            <span class="mg-ttl" data-en="For Enterprise" data-id="For Enterprise">For Enterprise</span>
-          </span>
-        </a>
-        <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="enterprise.html#products" data-en="Campus Scholarship Sponsorship" data-id="Sponsor Beasiswa Kampus">Campus Scholarship Sponsorship</a></li>
-            <li><a href="enterprise.html#products" data-en="Cohort Onboarding License" data-id="Lisensi Onboarding Kohort">Cohort Onboarding License</a></li>
-            <li><a href="enterprise.html#products" data-en="Custom Career Academy" data-id="Akademi Karier Kustom">Custom Career Academy</a></li>
-            <li><a href="enterprise.html#products" data-en="Recruitment Intelligence" data-id="Inteligensi Rekrutmen">Recruitment Intelligence</a></li>
-            <li><a href="enterprise.html#products" data-en="Executive Mentorship Network" data-id="Jaringan Mentorship Eksekutif">Executive Mentorship Network</a></li>
-          </ul>
-          <a class="mg-cta" href="enterprise.html"><span data-en="Explore Enterprise" data-id="Jelajahi Perusahaan">Explore Enterprise</span><i>→</i></a>
-        </div></div>
-      </section>
-      <section class="mg-group">
-        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="mentors.html">
-          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8.5" cy="8" r="2.8"/><path d="M3.5 18.5a5 5 0 0 1 10 0"/><circle cx="16.5" cy="9.5" r="2.2"/><path d="M14.6 14.6a4 4 0 0 1 5.9 3.9"/></svg></span>
-          <span class="mg-hstack">
-            <span class="mg-kick" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span>
-            <span class="mg-ttl" data-en="For Mentors" data-id="For Mentors">For Mentors</span>
-          </span>
-        </a>
-        <div class="mg-body"><div class="mg-bin">
-          <ul class="mg-list">
-            <li><a href="../register.html?role=mentor" data-en="Apply to Become a Mentor" data-id="Daftar Menjadi Mentor">Apply to Become a Mentor</a></li>
-            <li><a href="mentors.html#products" data-en="Mentee Matching &amp; Dashboard" data-id="Pencocokan Mentee &amp; Dasbor">Mentee Matching &amp; Dashboard</a></li>
-            <li><a href="mentors.html#products" data-en="Session Guides &amp; Frameworks" data-id="Panduan Sesi &amp; Kerangka Kerja">Session Guides &amp; Frameworks</a></li>
-          </ul>
-          <a class="mg-cta" href="mentors.html"><span data-en="Explore Mentors" data-id="Jelajahi Mentor">Explore Mentors</span><i>→</i></a>
         </div></div>
       </section>
     </div>
@@ -2439,7 +2412,7 @@
             <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
             <div class="pc-body">
               <span class="ptag cobalt">01 · The Map</span>
-              <h3 data-en="Project Aladin — Direction Edition" data-id="Project Aladin — Edisi Arah">Project Aladin — Direction Edition</h3>
+              <h3 data-en="The Map — Direction Edition" data-id="The Map — Edisi Arah">The Map — Direction Edition</h3>
               <p class="prod-sub" data-en="Know where you’re going before you run." data-id="Ketahui tujuanmu sebelum berlari.">Know where you’re going before you run.</p>
               <p class="prod-desc" style="flex:1" data-en="A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application. Direction diagnostic, target role definition, gap analysis, and a priority application list by fit score." data-id="Program penemuan diri dan pengarahan karier terstruktur yang menerjemahkan siapa dirimu menjadi target profesional yang presisi — sebelum kamu mengirimkan satu lamaran pun. Diagnostik arah, definisi jabatan target, analisis kesenjangan, dan daftar lamaran prioritas berdasarkan skor kesesuaian.">A structured self-discovery and career-direction program that translates who you are into a precise professional target — before you send a single application. Direction diagnostic, target role definition, gap analysis, and a priority application list by fit score.</p>
               <div class="pc-mock" aria-hidden="true">
@@ -2448,7 +2421,7 @@
                 <div class="mrow"><span class="tick">✓</span><span>Fit score: 84%</span></div>
                 <div class="mrow"><span class="don"></span><span>Targets: 3 companies shortlisted</span></div>
               </div>
-              <a href="products/project-aladin.html" class="prod-cta" data-en="Explore Project Aladin →" data-id="Jelajahi Project Aladin →">Explore Project Aladin →</a>
+              <a href="/products/the-map/" class="prod-cta" data-en="Explore The Map →" data-id="Jelajahi The Map →">Explore The Map →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
             </div>
           </div>
@@ -2457,7 +2430,7 @@
             <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
             <div class="pc-body">
               <span class="ptag teal">02 · The Pack</span>
-              <h3 data-en="The Application Engine" data-id="The Application Engine">The Application Engine</h3>
+              <h3 data-en="The Pack — The Application Toolkit" data-id="The Pack — Perangkat Lamaran">The Pack — The Application Toolkit</h3>
               <p class="prod-sub" data-en="The complete toolkit for getting hired." data-id="Perangkat lengkap untuk direkrut.">The complete toolkit for getting hired.</p>
               <ul>
               <li data-en="ATS-optimized CV builder with score preview" data-id="Pembangun CV teroptimasi ATS dengan pratinjau skor">ATS-optimized CV builder with score preview</li>
@@ -2473,7 +2446,7 @@
                 <div class="mrow"><span class="tick">✓</span><span>Quantified achievements</span></div>
                 <div class="mrow"><span class="don"></span><span>Keyword density: optimize</span></div>
               </div>
-              <a href="products/project-maverick.html" class="prod-cta" data-en="Explore Project Maverick →" data-id="Jelajahi Project Maverick →">Explore Project Maverick →</a>
+              <a href="/products/the-pack/" class="prod-cta" data-en="Explore The Pack →" data-id="Jelajahi The Pack →">Explore The Pack →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
             </div>
           </div>
@@ -2482,7 +2455,7 @@
             <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
             <div class="pc-body">
               <span class="ptag amber">03 · The Rope</span>
-              <h3 data-en="Project Nexus" data-id="Project Nexus">Project Nexus</h3>
+              <h3 data-en="The Rope — Interview Mastery" data-id="The Rope — Penguasaan Wawancara">The Rope — Interview Mastery</h3>
               <p class="prod-sub" data-en="Walk in prepared. Walk out with an offer." data-id="Masuk dengan persiapan. Keluar dengan tawaran.">Walk in prepared. Walk out with an offer.</p>
               <ul>
               <li data-en="Behavioral interview: STAR framework with AI scoring" data-id="Wawancara behavioral: kerangka STAR dengan penilaian AI">Behavioral interview: STAR framework with AI scoring</li>
@@ -2497,7 +2470,7 @@
                 <div class="mrow"><span class="tick">✓</span><span>Improved: opening frameworks</span></div>
                 <div class="mrow"><span class="don"></span><span>Next: market sizing practice</span></div>
               </div>
-              <a href="products/project-nexus.html" class="prod-cta" data-en="Explore Project Nexus →" data-id="Jelajahi Project Nexus →">Explore Project Nexus →</a>
+              <a href="/products/the-rope/" class="prod-cta" data-en="Explore The Rope →" data-id="Jelajahi The Rope →">Explore The Rope →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
             </div>
           </div>
@@ -2505,8 +2478,8 @@
           <div class="prod-card">
             <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
             <div class="pc-body">
-              <span class="ptag forest">04 · The Horizon</span>
-              <h3 data-en="Scholarship &amp; Graduate Programs" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
+              <span class="ptag forest">04 · The Route</span>
+              <h3 data-en="The Route — Scholarship &amp; Graduate Programmes" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
               <p class="prod-sub" data-en="Fund your next chapter. Or accelerate into it." data-id="Danai babak berikutmu. Atau berakselerasi memasukinya.">Fund your next chapter. Or accelerate into it.</p>
               <ul>
               <li data-en="Chevening, Fulbright, AAS, and corporate graduate program mapping" data-id="Pemetaan Chevening, Fulbright, AAS, dan program lulusan korporasi">Chevening, Fulbright, AAS, and corporate graduate program mapping</li>
@@ -2520,7 +2493,7 @@
                 <div class="mrow"><span class="don"></span><span>Interview simulation: Wed</span></div>
                 <div class="mrow"><span class="don"></span><span>Deadline: 23 days</span></div>
               </div>
-              <a href="products/project-horizon.html" class="prod-cta" data-en="Explore Project Horizon →" data-id="Jelajahi Project Horizon →">Explore Project Horizon →</a>
+              <a href="/products/the-route/" class="prod-cta" data-en="Explore The Route →" data-id="Jelajahi The Route →">Explore The Route →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
             </div>
           </div>
@@ -2538,7 +2511,7 @@
                 <div class="mrow"><span class="don"></span><span>Interview readiness: 71/100</span></div>
                 <div class="mrow"><span class="don"></span><span>Next: follow up pending application</span></div>
               </div>
-              <a href="products/the-compass.html" class="prod-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
+              <a href="/products/the-compass/" class="prod-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
               <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
             </div>
           </div>
@@ -2582,7 +2555,7 @@
         <div class="hnum">4</div>
         <h3 data-en="Run the 90-day sprint" data-id="Jalankan sprint 90 hari">Run the 90-day sprint</h3>
         <p data-en="One highest-leverage action per day — applications, follow-ups, and practice, sequenced to an offer." data-id="Satu tindakan paling berdampak per hari — lamaran, tindak lanjut, dan latihan, diurutkan menuju tawaran.">One highest-leverage action per day — applications, follow-ups, and practice, sequenced to an offer.</p>
-        <span class="hmeta" data-en="The Horizon" data-id="The Horizon">The Horizon</span>
+        <span class="hmeta" data-en="The Route" data-id="The Route">The Route</span>
       </div>
     </div>
     <div class="how-demo reveal">
@@ -2660,6 +2633,23 @@
   </div>
 
   <div class="section-inner">
+    
+    <section class="pricing-band" aria-labelledby="pb-title">
+      <span class="pb-chapter" data-en="Chapter · The cost of the climb" data-id="Bab · Biaya pendakian">Chapter · The cost of the climb</span>
+      <h2 id="pb-title" data-en="Everything above is free to start." data-id="Semua di atas gratis untuk memulai.">Everything above is free to start.</h2>
+      <p class="pb-body" data-en="Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The membership opens the five pillars and The Compass." data-id="Career Map-mu, skor kesiapanmu, dan Gauntlet lengkap tidak berbayar dan akan selalu begitu. Keanggotaan membuka lima pilar dan The Compass.">Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The membership opens the five pillars and The Compass.</p>
+      <div class="pb-plan">
+        <div class="pb-plan-head">
+          <span class="pb-plan-name" data-en="Fresh Graduate Edition" data-id="Edisi Fresh Graduate">Fresh Graduate Edition</span>
+          <span class="pb-chip gold"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
+        </div>
+        <div class="pb-price"><span class="pb-amount">Rp 379.000</span> <span class="pb-period" data-en="/ 90-day sprint" data-id="/ sprint 90 hari">/ 90-day sprint</span></div>
+        <p class="pb-alt" data-en="or Rp 149.000/month · 14-day refund · cancel anytime" data-id="atau Rp 149.000/bulan · refund 14 hari · batalkan kapan saja">or Rp 149.000/month · 14-day refund · cancel anytime</p>
+        <a class="pb-cta" href="../pricing.html" data-en="See what's included →" data-id="Lihat yang termasuk →">See what's included →</a>
+      </div>
+      <p class="pb-honesty" data-en="We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a>" data-id="Kami dalam tahap akses awal. <a href='../pricing.html'>Inilah persis apa yang sudah dibangun hari ini dan apa yang belum.</a>">We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a></p>
+    </section>
+
     <div class="faq-wrap" id="faq">
       <h3 class="faq-title" data-en="Frequently Asked Questions" data-id="Pertanyaan yang Sering Diajukan">Frequently Asked Questions</h3>
       <div class="faq-list">
@@ -2669,11 +2659,11 @@
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="What does Metanoia Premium include, and how much does it cost?" data-id="Apa yang termasuk dalam Metanoia Premium, dan berapa biayanya?">What does Metanoia Premium include, and how much does it cost?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-2" data-en="Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans." data-id="Metanoia Premium untuk Lulusan Baru memberimu akses penuh ke semua lima produk — Project Aladin (Edisi Arah), The Application Engine, Interview Mastery, Beasiswa &amp; Program Lulusan, dan pelacak The Compass — ditambah Portal Karier terotentikasi dengan rute 90 hari personal. Diagnostik Career Map selalu gratis. Harga ditampilkan saat kamu membuat akun gratis, dengan paket bulanan dan semester yang ramah mahasiswa.">Metanoia Premium for Fresh Graduates gives you full access to all five products — Project Aladin (Direction Edition), The Application Engine, Interview Mastery, Scholarship &amp; Graduate Programs, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans.</div>
+          <div class="faq-a" id="faqa-2" data-en="Metanoia Premium for Fresh Graduates gives you full access to all five products — all five pillars — The Map, The Pack, The Rope, The Route, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans." data-id="Metanoia Premium untuk Lulusan Baru memberimu akses penuh ke semua lima produk — The Map (Edisi Arah), The Pack, Interview Mastery, Beasiswa &amp; Program Lulusan, dan pelacak The Compass — ditambah Portal Karier terotentikasi dengan rute 90 hari personal. Diagnostik Career Map selalu gratis. Harga ditampilkan saat kamu membuat akun gratis, dengan paket bulanan dan semester yang ramah mahasiswa.">Metanoia Premium for Fresh Graduates gives you full access to all five products — all five pillars — The Map, The Pack, The Rope, The Route, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-3"><span data-en="I don’t have any internship experience. Can Metanoia still help me?" data-id="Saya tidak punya pengalaman magang sama sekali. Apakah Metanoia masih bisa membantu saya?">I don’t have any internship experience. Can Metanoia still help me?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-3" data-en="Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it." data-id="Ya — dan inilah target utama Metanoia. The Application Engine mengajarkanmu untuk membingkai ulang apa yang sudah kamu miliki: proyek akademis, peran organisasi, kerja sukarela, bahkan mata kuliah bisa disajikan sebagai bukti kemampuan yang meyakinkan jika disusun dengan benar. Project Aladin juga akan membantumu memahami jabatan mana yang realistis berdasarkan profilmu saat ini — dan pengalaman apa yang perlu cepat dibangun untuk memperkuatnya.">Yes — and this is exactly who Metanoia is built for. The Application Engine teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. Project Aladin will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it.</div>
+          <div class="faq-a" id="faqa-3" data-en="Yes — and this is exactly who Metanoia is built for. The Pack teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. The Map will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it." data-id="Ya — dan inilah target utama Metanoia. The Pack mengajarkanmu untuk membingkai ulang apa yang sudah kamu miliki: proyek akademis, peran organisasi, kerja sukarela, bahkan mata kuliah bisa disajikan sebagai bukti kemampuan yang meyakinkan jika disusun dengan benar. The Map juga akan membantumu memahami jabatan mana yang realistis berdasarkan profilmu saat ini — dan pengalaman apa yang perlu cepat dibangun untuk memperkuatnya.">Yes — and this is exactly who Metanoia is built for. The Pack teaches you to reframe what you do have: academic projects, organization roles, volunteer work, and even coursework can be presented as compelling evidence of capability when structured correctly. The Map will also help you understand which roles are realistic given your current profile — and which experiences to build quickly to strengthen it.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-4"><span data-en="How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?" data-id="Apa bedanya Metanoia dengan sekadar menonton YouTube atau menggunakan ChatGPT untuk CV saya?">How is Metanoia different from just watching YouTube videos or using ChatGPT for my CV?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
@@ -2685,7 +2675,7 @@
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="My degree is in a different field from the career I want. What should I do?" data-id="Gelar saya berbeda bidang dengan karier yang saya inginkan. Apa yang harus saya lakukan?">My degree is in a different field from the career I want. What should I do?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-6" data-en="A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Metanoia is built specifically for this transition, and we're in early access — which means we're building our outcome record now rather than claiming one we don't have. When we have results, we'll publish them honestly, including the ones that disappoint us." data-id="Ketidaksesuaian gelar sangat umum, bisa dikelola, dan seringkali menjadi keunggulan jika dibingkai dengan benar. Kebanyakan jabatan — terutama di tingkat karier awal — merekrut berdasarkan kemampuan yang terbukti dan potensi, bukan berdasarkan gelar tertentu. Project Aladin akan membantumu mengidentifikasi keterampilan yang dapat dialihkan yang dibangun oleh gelarmu, memahami industri mana yang benar-benar dapat kamu masuki, dan memposisikan latar belakangmu sebagai perspektif yang berbeda daripada sebagai kekurangan. Metanoia dibangun khusus untuk transisi ini, dan kami dalam tahap akses awal — artinya kami sedang membangun rekam jejak hasil sekarang, bukan mengklaim sesuatu yang belum kami miliki. Saat hasilnya ada, kami akan mempublikasikannya dengan jujur, termasuk yang mengecewakan kami.">A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. Project Aladin will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Metanoia is built specifically for this transition, and we're in early access — which means we're building our outcome record now rather than claiming one we don't have. When we have results, we'll publish them honestly, including the ones that disappoint us.</div>
+          <div class="faq-a" id="faqa-6" data-en="A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. The Map will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Metanoia is built specifically for this transition, and we're in early access — which means we're building our outcome record now rather than claiming one we don't have. When we have results, we'll publish them honestly, including the ones that disappoint us." data-id="Ketidaksesuaian gelar sangat umum, bisa dikelola, dan seringkali menjadi keunggulan jika dibingkai dengan benar. Kebanyakan jabatan — terutama di tingkat karier awal — merekrut berdasarkan kemampuan yang terbukti dan potensi, bukan berdasarkan gelar tertentu. The Map akan membantumu mengidentifikasi keterampilan yang dapat dialihkan yang dibangun oleh gelarmu, memahami industri mana yang benar-benar dapat kamu masuki, dan memposisikan latar belakangmu sebagai perspektif yang berbeda daripada sebagai kekurangan. Metanoia dibangun khusus untuk transisi ini, dan kami dalam tahap akses awal — artinya kami sedang membangun rekam jejak hasil sekarang, bukan mengklaim sesuatu yang belum kami miliki. Saat hasilnya ada, kami akan mempublikasikannya dengan jujur, termasuk yang mengecewakan kami.">A degree mismatch is common, manageable, and often an advantage when framed correctly. Most roles — especially at the early career level — hire for demonstrated ability and potential, not for a specific degree. The Map will help you identify the transferable skills your degree built, understand which industries are genuinely accessible to you, and position your background as a differentiated perspective rather than a liability. Metanoia is built specifically for this transition, and we're in early access — which means we're building our outcome record now rather than claiming one we don't have. When we have results, we'll publish them honestly, including the ones that disappoint us.</div>
         </div>
       </div>
     </div>
@@ -3681,7 +3671,7 @@ const GAUNTLET_GATES = [
       image: '../assets/bg/rope.jpg', kb: 'up'
     },
     {
-      tag: { en: 'System 04 · The Horizon', id: 'Sistem 04 · The Horizon' }, color: '#1A5C38',
+      tag: { en: 'System 04 · The Route', id: 'Sistem 04 · The Route' }, color: '#1A5C38',
       title: { en: 'Your 90-Day Plan', id: 'Rencana 90 Harimu' },
       desc: {
         en: 'One highest-leverage action every day. Applications, practice, network outreach, company research — sequenced in the order that produces an offer fastest. Your route adjusts as you learn more about what the market is responding to.',

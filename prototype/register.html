@@ -273,7 +273,7 @@ window.oauth = function(provider){
   
   goSuccess(true);
 };
-/* Safe same-site redirect target (e.g. ?redirect=pages/products/project-aladin.html) */
+/* Safe same-site redirect target (e.g. ?redirect=/products/the-map/) */
 const redirectTo = (() => {
   const r = new URLSearchParams(location.search).get('redirect') || '';
   return (r && !r.includes(':') && !r.startsWith('//') && !r.includes('..')) ? r : '';

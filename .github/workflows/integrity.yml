@@ -1,0 +1,12 @@
+name: Integrity check
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run integrity gates
+        run: bash scripts/integrity-check.sh
