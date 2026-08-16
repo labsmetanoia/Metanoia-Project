@@ -620,14 +620,14 @@
   .flow-item:hover .stage-media img{transform:scale(1.05)}
   .sys-sub{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold);margin:0 0 10px}
   .sys-desc{font-size:13px;color:var(--text-muted);line-height:1.75;margin:0}
-  .flow-item.sys-map .stage-kicker{color:#60A5FA}
-  .flow-item.sys-pack .stage-kicker{color:#4ECDC4}
-  .flow-item.sys-rope .stage-kicker{color:var(--gold)}
-  .flow-item.sys-route .stage-kicker{color:#6EE7B7}
-  .flow-item.sys-map:hover .stage-badge{border-color:rgba(96,165,250,.55);box-shadow:0 0 18px rgba(29,95,171,.30)}
-  .flow-item.sys-pack:hover .stage-badge{border-color:rgba(78,205,196,.55);box-shadow:0 0 18px rgba(13,115,119,.30)}
-  .flow-item.sys-rope:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
-  .flow-item.sys-route:hover .stage-badge{border-color:rgba(110,231,183,.55);box-shadow:0 0 18px rgba(26,92,56,.30)}
+  .flow-item.sys-map .stage-kicker,
+  .flow-item.sys-pack .stage-kicker,
+  .flow-item.sys-rope .stage-kicker,
+  .flow-item.sys-route .stage-kicker{color:var(--gold)}
+  .flow-item.sys-map:hover .stage-badge,
+  .flow-item.sys-pack:hover .stage-badge,
+  .flow-item.sys-rope:hover .stage-badge,
+  .flow-item.sys-route:hover .stage-badge{border-color:rgba(201,168,76,.65);box-shadow:0 0 18px rgba(201,168,76,.28)}
   /* staggered left-to-right reveal */
   .system-journey.reveal .flow-item{opacity:0;transform:translateY(20px);
     transition:opacity .6s ease,transform .6s ease}
@@ -1351,6 +1351,61 @@
 .nv-chip--gold{color:#E8C96A;background:rgba(201,168,76,.14);border-color:rgba(201,168,76,.4)}
 .nv-chip--neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.16)}
 @media(max-width:900px){.nv-chip{margin-left:0}}
+/* ═══ MEGA NAV v3 — photographic art layers + row iconography ═══ */
+.mega{overflow:hidden}
+.mega-head,.mega-grid,.mega-foot{position:relative;z-index:2}
+.mg-art{position:absolute;pointer-events:none;z-index:1;opacity:0;
+  transition:opacity .9s ease .3s,transform 1.2s cubic-bezier(.22,.8,.3,1) .3s}
+.sheet.open .mg-art{opacity:1;transform:none !important}
+.mg-art img{display:block;width:100%;height:auto}
+.mg-art--mountain{top:0;right:-24px;width:min(44%,580px);transform:translateY(-16px);
+  -webkit-mask-image:linear-gradient(180deg,#000 55%,transparent 97%);
+  mask-image:linear-gradient(180deg,#000 55%,transparent 97%)}
+.mg-art--compass{right:22px;bottom:74px;width:min(17%,225px);transform:translateY(18px) rotate(4deg)}
+.mg-art--climbers{left:-10px;bottom:66px;width:min(27%,360px);transform:translateY(18px)}
+.sheet.open .mg-art--compass{opacity:.94}
+.sheet.open .mg-art--climbers{opacity:.9}
+/* rows become quiet cards with real iconography */
+.sheet .mg-list a{align-items:center;padding:7px 10px;margin:2px -10px;border-radius:12px;
+  transition:background .2s,color .18s,transform .25s cubic-bezier(.25,.8,.3,1)}
+.sheet .mg-list a::before{display:none}
+.sheet .mg-list a:hover{background:rgba(201,168,76,.09);transform:translateX(3px)}
+.nv-dico,.nv-pico,.nv-sico{flex:none;display:inline-flex;align-items:center;justify-content:center;
+  color:#E8C766;border:1px solid rgba(201,168,76,.42);background:rgba(201,168,76,.06);
+  transition:border-color .25s,box-shadow .25s,transform .25s}
+.nv-dico{width:31px;height:31px;border-radius:8px;transform:rotate(45deg)}
+.nv-dico svg{width:15px;height:15px;transform:rotate(-45deg)}
+.nv-pico{width:34px;height:34px;border-radius:50%;
+  background:radial-gradient(62% 62% at 50% 36%,rgba(201,168,76,.14),rgba(201,168,76,.03) 78%)}
+.nv-pico svg{width:16px;height:16px}
+.nv-sico{width:32px;height:32px;border-radius:9px}
+.nv-sico svg{width:16px;height:16px}
+.sheet .mg-list a:hover .nv-dico{transform:rotate(45deg) scale(1.06)}
+.sheet .mg-list a:hover .nv-dico,.sheet .mg-list a:hover .nv-pico,.sheet .mg-list a:hover .nv-sico{
+  border-color:rgba(240,216,120,.85);box-shadow:0 0 16px rgba(201,168,76,.35)}
+.nv-stack{display:flex;flex-direction:column;gap:1px;min-width:0}
+.nv-stack .nv-sub{font-size:11px;line-height:1.35}
+/* product pillar timeline (column 2) */
+.mg-group:nth-child(2) .mg-list{position:relative;padding-left:16px}
+.mg-group:nth-child(2) .mg-list::before{content:'';position:absolute;left:2.5px;top:16px;bottom:16px;width:1px;
+  background:repeating-linear-gradient(180deg,rgba(201,168,76,.45) 0 3px,transparent 3px 8px)}
+.mg-group:nth-child(2) .mg-list li{position:relative}
+.mg-group:nth-child(2) .mg-list li::after{content:'';position:absolute;left:-16.5px;top:50%;
+  transform:translateY(-50%);width:7px;height:7px;border-radius:50%;
+  background:linear-gradient(135deg,#F0D878,#C9A84C);box-shadow:0 0 8px rgba(240,216,120,.55)}
+.mg-group:nth-child(2) .nv-num{font-size:13px;min-width:26px;color:rgba(240,216,120,.9)}
+.mg-group:nth-child(2) .mg-list a{flex-wrap:nowrap}
+.mg-group:nth-child(2) .nv-chip{margin-left:auto}
+.mg-group:nth-child(2) .nv-stack{flex:1;min-width:0}
+@media(max-width:1080px){.mg-art--climbers{display:none}}
+@media(max-width:900px){.mg-group:nth-child(2) .mg-list a{flex-wrap:wrap}.mg-group:nth-child(2) .nv-chip{margin-left:0}}
+@media(max-width:900px){
+  .mg-art{display:none}
+  .sheet .mg-list a{margin:0;padding:10px 6px}
+  .mg-group:nth-child(2) .mg-list{padding-left:14px}
+}
+@media (prefers-reduced-motion:reduce){.mg-art{transition:none !important}}
+
 </style>
 <style id="polishCss">
 /* ═══ design polish: balanced openings, refined quote typography ═══ */
@@ -1590,6 +1645,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="mega" role="menu">
+    <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="../assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--climbers" aria-hidden="true"><img src="../assets/nav-climbers.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--compass" aria-hidden="true"><img src="../assets/nav-compass.png" alt="" loading="lazy" decoding="async"></div>
     <div class="mega-head">
       <div class="mh-title" data-en="Explore <em>Metanoia.</em>" data-id="Jelajahi <em>Metanoia.</em>">Explore <em>Metanoia.</em></div>
       <div class="mh-sub" data-en="One platform. Every stage of the climb." data-id="Satu platform. Setiap tahap pendakian.">One platform. Every stage of the climb.</div>
@@ -1606,12 +1664,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="student.html"><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
-            <li><a href="fresh-graduate.html"><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
-            <li><a href="early-professional.html"><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
-            <li><a href="mature-professional.html"><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
-            <li><a href="enterprise.html"><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
-            <li><a href="mentors.html"><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
+            <li><a href="student.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="fresh-graduate.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="early-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="mature-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="enterprise.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="mentors.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
           </ul>
         </div></div>
       </section>
@@ -1626,11 +1684,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="../products/the-map/"><span class="nv-num">01</span><span class="nv-main">The Map</span><span class="nv-sub" data-en="Project Aladdin · Direction" data-id="Project Aladdin · Arah">Project Aladdin · Direction</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
-            <li><a href="../products/the-pack/"><span class="nv-num">02</span><span class="nv-main">The Pack</span><span class="nv-sub" data-en="Project Maverick · Application" data-id="Project Maverick · Lamaran">Project Maverick · Application</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
-            <li><a href="../products/the-rope/"><span class="nv-num">03</span><span class="nv-main">The Rope</span><span class="nv-sub" data-en="Project Nexus · Interview" data-id="Project Nexus · Wawancara">Project Nexus · Interview</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
-            <li><a href="../products/the-route/"><span class="nv-num">04</span><span class="nv-main">The Route</span><span class="nv-sub" data-en="Project Horizon · What's next" data-id="Project Horizon · Selanjutnya">Project Horizon · What's next</span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
-            <li><a href="../products/the-compass/"><span class="nv-num">05</span><span class="nv-main">The Compass</span><span class="nv-sub" data-en="Navigation" data-id="Navigasi">Navigation</span><span class="nv-chip nv-chip--neutral"><i></i><b data-en="In beta" data-id="Versi beta">In beta</b></span></a></li>
+            <li><a href="../products/the-map/"><span class="nv-num">01</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6-5.1-6-9.9a6 6 0 1 1 12 0C18 15.9 12 21 12 21Z"/><circle cx="12" cy="11" r="2.2"/></svg></span><span class="nv-stack"><span class="nv-main">The Map</span><span class="nv-sub" data-en="Project Aladdin · Direction" data-id="Project Aladdin · Arah">Project Aladdin · Direction</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-pack/"><span class="nv-num">02</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="8" width="12" height="12" rx="3"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M6 14h12"/></svg></span><span class="nv-stack"><span class="nv-main">The Pack</span><span class="nv-sub" data-en="Project Maverick · Application" data-id="Project Maverick · Lamaran">Project Maverick · Application</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-rope/"><span class="nv-num">03</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.5 14.5 5-5"/><path d="M8 12l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="m16 12 2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></span><span class="nv-stack"><span class="nv-main">The Rope</span><span class="nv-sub" data-en="Project Nexus · Interview" data-id="Project Nexus · Wawancara">Project Nexus · Interview</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-route/"><span class="nv-num">04</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V4"/><path d="M6 5h9.5l-2.2 3.2L15.5 11.5H6"/></svg></span><span class="nv-stack"><span class="nv-main">The Route</span><span class="nv-sub" data-en="Project Horizon · What's next" data-id="Project Horizon · Selanjutnya">Project Horizon · What's next</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="../products/the-compass/"><span class="nv-num">05</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m12 6.8 1.6 3.6 3.6 1.6-3.6 1.6-1.6 3.6-1.6-3.6-3.6-1.6 3.6-1.6Z"/></svg></span><span class="nv-stack"><span class="nv-main">The Compass</span><span class="nv-sub" data-en="Navigation" data-id="Navigasi">Navigation</span></span><span class="nv-chip nv-chip--neutral"><i></i><b data-en="In beta" data-id="Versi beta">In beta</b></span></a></li>
           </ul>
         </div></div>
       </section>
@@ -1645,10 +1703,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="fresh-graduate.html#gauntlet-journey"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></a></li>
-            <li><a href="../career-map-assessment.html"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></a></li>
-            <li><a href="../pricing.html"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></a></li>
-            <li><a href="../help.html"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></a></li>
+            <li><a href="fresh-graduate.html#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
+            <li><a href="../career-map-assessment.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
+            <li><a href="../pricing.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
+            <li><a href="../help.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
           </ul>
         </div></div>
       </section>
