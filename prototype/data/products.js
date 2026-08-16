@@ -10,6 +10,25 @@
 
 export const PILLARS = [
   {
+    id: 'lookout',
+    number: '00',
+    pillar:      { en: 'The Lookout', id: 'Pandang' },
+    definition:  { en: 'Discovering which directions could be yours',
+                   id: 'Menemukan arah yang mungkin menjadi milikmu' },
+    question:    { en: 'What could be mine?',
+                   id: 'Apa yang bisa menjadi milikku?' },
+    mode: 'divergent',
+    slug: 'the-lookout',
+    free: true,   // acquisition wedge — discovery is never gated
+    editions: {
+      student:              { name: { en: 'Career Discovery',    id: 'Penjelajahan Karier' } },
+      'fresh-graduate':     { name: { en: 'Career Discovery',    id: 'Penjelajahan Karier' } },
+      'early-professional': { name: { en: 'Direction Reset',     id: 'Reset Arah' } },
+      'mature-professional':{ name: { en: 'Reinvention Mapping', id: 'Pemetaan Reinvensi' } }
+    },
+    retiredNames: ['Eksplorasi Puncak Tujuan']
+  },
+  {
     id: 'map',
     number: '01',
     pillar:      { en: 'The Map',   id: 'Peta' },
