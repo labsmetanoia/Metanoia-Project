@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>Pricing — Metanoia Labs</title>
+<meta name="description" content="One membership, four editions, a free tier that stays free. Transparent pricing with a 14-day refund — and an honest list of what's built today.">
+<link rel="canonical" href="https://metanoialabs.net/pricing.html">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<!-- ⚠️ PRICE POINTS ARE PROVISIONAL — founder must confirm before public launch. Structure from /data/pricing.js. -->
+<style>
+:root{--bg:#050A12;--panel:rgba(8,14,26,.7);--border:rgba(180,140,60,.16);--gold:#C9A84C;--gold-text:#E8C96A;
+  --gold-bright:#F0D878;--text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
+  --sans:'Inter',system-ui,-apple-system,sans-serif;--ease:cubic-bezier(.22,1,.36,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;font-size:16px}
+a{color:var(--gold-text)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0;position:sticky;top:0;
+  background:rgba(5,10,18,.88);backdrop-filter:blur(14px);z-index:50;border-bottom:1px solid rgba(240,237,232,.07)}
+nav.top .brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:800;letter-spacing:.14em;font-size:13.5px}
+nav.top .brand svg{flex:none}
+.nav-right{display:flex;gap:10px;align-items:center}
+.lang button{background:none;border:1px solid rgba(240,237,232,.2);color:var(--muted);padding:7px 13px;
+  font:inherit;font-size:12px;font-weight:700;cursor:pointer;min-height:38px}
+.lang button.on{background:var(--gold);color:#050A12;border-color:var(--gold)}
+.nav-cta{display:inline-flex;align-items:center;text-decoration:none;font-size:12.5px;font-weight:700;
+  padding:10px 18px;border-radius:999px;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}
+header.hero{padding:76px 0 40px;text-align:center}
+.kicker{font-size:11.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-text)}
+h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:800;letter-spacing:-.015em;margin:14px 0 12px}
+.lede{color:var(--muted);max-width:52ch;margin:0 auto;font-size:17px}
+.honesty{max-width:640px;margin:26px auto 0;border:1px solid rgba(201,168,76,.35);background:rgba(201,168,76,.07);
+  border-radius:12px;padding:14px 20px;font-size:14px;color:var(--gold-text)}
+.commit-row{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin:30px 0 0;color:var(--faint);font-size:13px}
+.commit-row span{display:inline-flex;align-items:center;gap:7px}
+.commit-row svg{color:var(--gold);flex:none}
+.state-chip{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;padding:3.5px 9px;border-radius:4px;border:1px solid;white-space:nowrap}
+.state-chip i{width:5px;height:5px;border-radius:50%;background:currentColor}
+.chip-gold{color:var(--gold-text);background:rgba(201,168,76,.18);border-color:rgba(201,168,76,.4)}
+.chip-neutral{color:var(--muted);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.14)}
+.chip-success{color:#4ADE80;background:rgba(34,197,94,.10);border-color:rgba(34,197,94,.25)}
+section.free{padding:34px 0 8px}
+.free-card{display:flex;gap:34px;align-items:flex-start;flex-wrap:wrap;border:1px solid rgba(34,197,94,.28);
+  background:linear-gradient(160deg,rgba(34,197,94,.05),rgba(8,14,26,.7));border-radius:18px;padding:34px 38px}
+.free-card .fc-left{flex:1 1 260px}
+.free-card h2{font-size:1.5rem;font-weight:800}
+.free-card .fc-tag{color:#4ADE80;font-weight:700;font-size:14px;margin-top:4px}
+.free-card ul{list-style:none;flex:1 1 300px;display:grid;gap:9px;margin-top:4px}
+.free-card li{display:flex;gap:10px;color:var(--muted);font-size:14.5px}
+.free-card li svg{flex:none;margin-top:3px;color:#4ADE80}
+.free-card .fc-cta{display:inline-flex;margin-top:18px;padding:12px 26px;border-radius:999px;font-weight:700;
+  text-decoration:none;border:1px solid rgba(34,197,94,.45);color:#4ADE80;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;padding:34px 0 10px}
+.plan{border:1px solid var(--border);background:var(--panel);border-radius:16px;padding:28px 26px;display:flex;flex-direction:column;position:relative}
+.plan.reco{border-color:rgba(201,168,76,.5);box-shadow:0 18px 60px rgba(201,168,76,.10)}
+.plan .p-aud{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-text)}
+.plan h3{font-size:1.25rem;font-weight:800;margin:6px 0 2px}
+.plan .p-elig{font-size:12px;color:var(--faint);min-height:18px}
+.plan .p-price{margin:18px 0 2px;font-size:1.9rem;font-weight:800;letter-spacing:-.01em}
+.plan .p-price small{font-size:.85rem;font-weight:600;color:var(--faint)}
+.plan .p-alt{font-size:12.5px;color:var(--faint);margin-bottom:14px}
+.plan .p-note{font-size:12.5px;color:var(--muted);border-top:1px solid rgba(240,237,232,.08);padding-top:14px;margin-top:auto}
+.plan .p-cta{display:inline-flex;justify-content:center;margin-top:16px;padding:12px 22px;border-radius:999px;
+  font-weight:700;font-size:14px;text-decoration:none;transition:transform .2s var(--ease)}
+.plan .p-cta.buy{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}
+.plan .p-cta.wait{border:1px solid rgba(240,237,232,.25);color:var(--muted)}
+.plan .p-cta:hover{transform:translateY(-2px)}
+.reco-tag{position:absolute;top:-11px;left:26px;background:linear-gradient(135deg,#C9A84C,#F0D878);color:#10131B;
+  font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+section.built{padding:44px 0 12px}
+h2.sec{font-size:1.5rem;font-weight:800;margin-bottom:6px}
+.sec-sub{color:var(--muted);font-size:14.5px;margin-bottom:22px;max-width:64ch}
+.built-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:720px){.built-grid{grid-template-columns:1fr}}
+.built-col{border:1px solid var(--border);border-radius:14px;padding:24px 26px;background:var(--panel)}
+.built-col h3{font-size:1.02rem;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.built-col ul{list-style:none;display:grid;gap:9px}
+.built-col li{display:flex;gap:10px;font-size:14px;color:var(--muted)}
+.built-col li svg{flex:none;margin-top:3px}
+.live svg{color:#4ADE80}.coming svg{color:var(--faint)}
+section.faq{padding:44px 0 80px}
+.faq-item{border-bottom:1px solid rgba(240,237,232,.09);padding:18px 0}
+.faq-item h3{font-size:15.5px;font-weight:700;margin-bottom:6px}
+.faq-item p{color:var(--muted);font-size:14px;max-width:74ch}
+footer{border-top:1px solid rgba(240,237,232,.08);padding:28px 0 60px;color:var(--faint);font-size:13px;display:flex;gap:22px;flex-wrap:wrap}
+footer a{color:var(--muted);text-decoration:none}
+@media(max-width:640px){header.hero{padding:52px 0 30px}.free-card{padding:26px 22px}}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center;width:100%">
+  <a class="brand" href="/"><svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="#C9A84C" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#E8C96A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="#F0D878"/></svg>METANOIA</a>
+  <div class="nav-right">
+    <span class="lang"><button data-lang="en" class="on">EN</button><button data-lang="id">ID</button></span>
+    <a class="nav-cta" href="career-map-assessment.html" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+  </div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <span class="kicker" data-en="Chapter V · The cost of the climb" data-id="Bab V · Biaya pendakian">Chapter V · The cost of the climb</span>
+  <h1 data-en="Everything essential is free to start." data-id="Semua yang esensial gratis untuk memulai.">Everything essential is free to start.</h1>
+  <p class="lede" data-en="Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. One membership — in the edition that matches your stage — opens the five pillars and The Compass."
+     data-id="Career Map-mu, skor kesiapanmu, dan Gauntlet lengkap tidak berbayar dan akan selalu begitu. Satu keanggotaan — dalam edisi yang sesuai tahapmu — membuka lima pilar dan The Compass.">Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. One membership — in the edition that matches your stage — opens the five pillars and The Compass.</p>
+  <div class="honesty" data-en="We're in early access. This page shows exactly what's built today and what isn't — and early-access prices are locked for as long as you stay subscribed."
+       data-id="Kami dalam tahap akses awal. Halaman ini menunjukkan persis apa yang sudah dibangun hari ini dan apa yang belum — dan harga akses awal terkunci selama kamu tetap berlangganan.">We're in early access. This page shows exactly what's built today and what isn't — and early-access prices are locked for as long as you stay subscribed.</div>
+  <div class="commit-row">
+    <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><b data-en="14-day refund, no questions" data-id="Refund 14 hari, tanpa pertanyaan">14-day refund, no questions</b></span>
+    <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><b data-en="No card to start free" data-id="Tanpa kartu untuk mulai gratis">No card to start free</b></span>
+    <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><b data-en="Cancel in one click" data-id="Batalkan dengan satu klik">Cancel in one click</b></span>
+    <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><b data-en="3-month instalments available" data-id="Cicilan 3 bulan tersedia">3-month instalments available</b></span>
+  </div>
+</div></header>
+
+<section class="free"><div class="wrap">
+  <div class="free-card">
+    <div class="fc-left">
+      <span class="state-chip chip-success"><i></i><span data-en="Free · Available now" data-id="Gratis · Tersedia sekarang">Free · Available now</span></span>
+      <h2 style="margin-top:12px">Basecamp</h2>
+      <p class="fc-tag" data-en="Free, always. Not a trial." data-id="Gratis, selamanya. Bukan uji coba.">Free, always. Not a trial.</p>
+      <a class="fc-cta" href="career-map-assessment.html" data-en="Start free →" data-id="Mulai gratis →">Start free →</a>
+    </div>
+    <ul>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Career Map assessment — the full version" data-id="Asesmen Career Map — versi lengkap">Career Map assessment — the full version</span></li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Your readiness score across 5 dimensions" data-id="Skor kesiapanmu di 5 dimensi">Your readiness score across 5 dimensions</span></li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Gauntlet — the full 8-gate hiring guide" data-id="The Gauntlet — panduan 8 gerbang rekrutmen lengkap">The Gauntlet — the full 8-gate hiring guide</span></li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Your 90-day route outline" data-id="Kerangka rute 90 harimu">Your 90-day route outline</span></li>
+      <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Community access" data-id="Akses komunitas">Community access</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<div class="wrap"><div class="grid">
+  <div class="plan">
+    <span class="p-aud" data-en="Student" data-id="Mahasiswa">Student</span>
+    <h3 data-en="Student Edition" data-id="Edisi Mahasiswa">Student Edition</h3>
+    <p class="p-elig" data-en="Requires active student verification" data-id="Perlu verifikasi status mahasiswa">Requires active student verification</p>
+    <span class="state-chip chip-gold" style="align-self:flex-start;margin-top:8px"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
+    <div class="p-price">Rp 449.000<small data-en=" / semester" data-id=" / semester"> / semester</small></div>
+    <p class="p-alt" data-en="or Rp 99.000/month · annual Rp 799.000 (save 33%)" data-id="atau Rp 99.000/bulan · tahunan Rp 799.000 (hemat 33%)">or Rp 99.000/month · annual Rp 799.000 (save 33%)</p>
+    <p class="p-note" data-en="All five pillars, Student edition · The Compass on a 4-year timeline" data-id="Lima pilar, edisi Mahasiswa · The Compass dengan linimasa 4 tahun">All five pillars, Student edition · The Compass on a 4-year timeline</p>
+    <a class="p-cta buy" href="register.html" data-en="Start with the free tier →" data-id="Mulai dari paket gratis →">Start with the free tier →</a>
+  </div>
+  <div class="plan reco">
+    <span class="reco-tag" data-en="Most acute need" data-id="Kebutuhan paling mendesak">Most acute need</span>
+    <span class="p-aud">Fresh Graduate</span>
+    <h3 data-en="Fresh Graduate Edition" data-id="Edisi Fresh Graduate">Fresh Graduate Edition</h3>
+    <p class="p-elig"></p>
+    <span class="state-chip chip-gold" style="align-self:flex-start;margin-top:8px"><i></i><span data-en="Early access" data-id="Akses awal">Early access</span></span>
+    <div class="p-price">Rp 379.000<small data-en=" / 90-day sprint" data-id=" / sprint 90 hari"> / 90-day sprint</small></div>
+    <p class="p-alt" data-en="or Rp 149.000/month · annual Rp 1.190.000 (save 33%)" data-id="atau Rp 149.000/bulan · tahunan Rp 1.190.000 (hemat 33%)">or Rp 149.000/month · annual Rp 1.190.000 (save 33%)</p>
+    <p class="p-note" data-en="All five pillars, Fresh Graduate edition · The Compass as a 90-day sprint" data-id="Lima pilar, edisi Fresh Graduate · The Compass sebagai sprint 90 hari">All five pillars, Fresh Graduate edition · The Compass as a 90-day sprint</p>
+    <a class="p-cta buy" href="register.html" data-en="Start with the free tier →" data-id="Mulai dari paket gratis →">Start with the free tier →</a>
+  </div>
+  <div class="plan">
+    <span class="p-aud" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span>
+    <h3 data-en="Early Professional Edition" data-id="Edisi Profesional Muda">Early Professional Edition</h3>
+    <p class="p-elig"></p>
+    <span class="state-chip chip-neutral" style="align-self:flex-start;margin-top:8px"><i></i><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span></span>
+    <div class="p-price">Rp 249.000<small data-en=" / month, at launch" data-id=" / bulan, saat rilis"> / month, at launch</small></div>
+    <p class="p-alt" data-en="annual Rp 1.990.000 (save 33%) · not purchasable yet" data-id="tahunan Rp 1.990.000 (hemat 33%) · belum dapat dibeli">annual Rp 1.990.000 (save 33%) · not purchasable yet</p>
+    <p class="p-note" data-en="The edition exists in design; the product is in development. Waitlist members get founding pricing." data-id="Edisi ini sudah dirancang; produknya sedang dikembangkan. Anggota daftar tunggu mendapat harga perdana.">The edition exists in design; the product is in development. Waitlist members get founding pricing.</p>
+    <a class="p-cta wait" href="register.html" data-en="Join the waitlist →" data-id="Gabung daftar tunggu →">Join the waitlist →</a>
+  </div>
+  <div class="plan">
+    <span class="p-aud" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span>
+    <h3 data-en="Mature Professional Edition" data-id="Edisi Profesional Berpengalaman">Mature Professional Edition</h3>
+    <p class="p-elig"></p>
+    <span class="state-chip chip-neutral" style="align-self:flex-start;margin-top:8px"><i></i><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span></span>
+    <div class="p-price">Rp 449.000<small data-en=" / month, at launch" data-id=" / bulan, saat rilis"> / month, at launch</small></div>
+    <p class="p-alt" data-en="annual Rp 3.590.000 (save 33%) · not purchasable yet" data-id="tahunan Rp 3.590.000 (hemat 33%) · belum dapat dibeli">annual Rp 3.590.000 (save 33%) · not purchasable yet</p>
+    <p class="p-note" data-en="The edition exists in design; the product is in development. Waitlist members get founding pricing." data-id="Edisi ini sudah dirancang; produknya sedang dikembangkan. Anggota daftar tunggu mendapat harga perdana.">The edition exists in design; the product is in development. Waitlist members get founding pricing.</p>
+    <a class="p-cta wait" href="register.html" data-en="Join the waitlist →" data-id="Gabung daftar tunggu →">Join the waitlist →</a>
+  </div>
+</div></div>
+
+<section class="built"><div class="wrap">
+  <h2 class="sec" data-en="What's live today, and what isn't" data-id="Apa yang sudah tersedia hari ini, dan apa yang belum">What's live today, and what isn't</h2>
+  <p class="sec-sub" data-en="We would rather show you a short true list than a long invented one. This table updates as we ship."
+     data-id="Kami lebih memilih menunjukkan daftar pendek yang benar daripada daftar panjang yang dikarang. Tabel ini diperbarui saat kami merilis.">We would rather show you a short true list than a long invented one. This table updates as we ship.</p>
+  <div class="built-grid">
+    <div class="built-col live">
+      <h3><span class="state-chip chip-success"><i></i><span data-en="Live today" data-id="Tersedia hari ini">Live today</span></span></h3>
+      <ul>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Career Map assessment with readiness score" data-id="Asesmen Career Map dengan skor kesiapan">Career Map assessment with readiness score</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Gauntlet — full 8-gate guide, free and public" data-id="The Gauntlet — panduan 8 gerbang lengkap, gratis dan publik">The Gauntlet — full 8-gate guide, free and public</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Map &amp; The Pack — Student and Fresh Graduate curricula (early access)" data-id="The Map &amp; The Pack — kurikulum Mahasiswa dan Fresh Graduate (akses awal)">The Map &amp; The Pack — Student and Fresh Graduate curricula (early access)</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Compass tracker (beta, browser-stored)" data-id="Pelacak The Compass (beta, tersimpan di peramban)">The Compass tracker (beta, browser-stored)</span></li>
+      </ul>
+    </div>
+    <div class="built-col coming">
+      <h3><span class="state-chip chip-neutral"><i></i><span data-en="In development" data-id="Sedang dikembangkan">In development</span></span></h3>
+      <ul>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="The Rope &amp; The Route — full curricula" data-id="The Rope &amp; The Route — kurikulum lengkap">The Rope &amp; The Route — full curricula</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Early &amp; Mature Professional editions" data-id="Edisi Profesional Muda &amp; Berpengalaman">Early &amp; Mature Professional editions</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Accounts with real authentication and payments" data-id="Akun dengan autentikasi dan pembayaran sungguhan">Accounts with real authentication and payments</span></li>
+        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Mentor matching (concierge first, software later)" data-id="Pencocokan mentor (manual dahulu, perangkat lunak kemudian)">Mentor matching (concierge first, software later)</span></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="faq"><div class="wrap">
+  <h2 class="sec" data-en="Questions, answered honestly" data-id="Pertanyaan, dijawab dengan jujur">Questions, answered honestly</h2>
+  <div class="faq-item">
+    <h3 data-en="Can I actually buy a membership today?" data-id="Apakah saya benar-benar bisa membeli keanggotaan hari ini?">Can I actually buy a membership today?</h3>
+    <p data-en="Not yet — payment processing is in development, which is why every button on this page starts you on the free tier instead of a checkout. When checkout opens, early-access prices apply and stay locked for as long as you stay subscribed."
+       data-id="Belum — pemrosesan pembayaran sedang dikembangkan, itulah mengapa setiap tombol di halaman ini mengarahkanmu ke paket gratis, bukan ke pembayaran. Saat pembayaran dibuka, harga akses awal berlaku dan terkunci selama kamu tetap berlangganan.">Not yet — payment processing is in development, which is why every button on this page starts you on the free tier instead of a checkout. When checkout opens, early-access prices apply and stay locked for as long as you stay subscribed.</p>
+  </div>
+  <div class="faq-item">
+    <h3 data-en="Why should I pay when ChatGPT is free?" data-id="Mengapa saya harus membayar padahal ChatGPT gratis?">Why should I pay when ChatGPT is free?</h3>
+    <p data-en="Use both. ChatGPT will rewrite your CV well. It won't remember what you got wrong last week, know how local ATS parsing differs from the templates it was trained on, tell you your CV is fine and your interview technique is the real problem, or notice you stopped working three weeks ago. We are the system that tells you which tool to use, in what order, and whether it worked."
+       data-id="Gunakan keduanya. ChatGPT bisa menulis ulang CV-mu dengan baik. Tapi ia tidak mengingat kesalahanmu minggu lalu, tidak tahu bagaimana ATS lokal berbeda dari templat yang melatihnya, tidak memberitahumu bahwa CV-mu sudah bagus dan teknik wawancaramu yang jadi masalah, dan tidak menyadari kamu berhenti berusaha tiga minggu lalu. Kami adalah sistem yang memberitahumu alat mana yang dipakai, dalam urutan apa, dan apakah itu berhasil.">Use both. ChatGPT will rewrite your CV well. It won't remember what you got wrong last week, know how local ATS parsing differs from the templates it was trained on, tell you your CV is fine and your interview technique is the real problem, or notice you stopped working three weeks ago. We are the system that tells you which tool to use, in what order, and whether it worked.</p>
+  </div>
+  <div class="faq-item">
+    <h3 data-en="Is the free tier a crippled trial?" data-id="Apakah paket gratis hanyalah uji coba terbatas?">Is the free tier a crippled trial?</h3>
+    <p data-en="No. The Career Map, your score, and the full Gauntlet are complete products, free forever, no card. The membership adds the pillar curricula and The Compass — it doesn't unlock the things we said were free."
+       data-id="Tidak. Career Map, skormu, dan Gauntlet lengkap adalah produk utuh, gratis selamanya, tanpa kartu. Keanggotaan menambahkan kurikulum pilar dan The Compass — bukan membuka hal-hal yang sudah kami katakan gratis.">No. The Career Map, your score, and the full Gauntlet are complete products, free forever, no card. The membership adds the pillar curricula and The Compass — it doesn't unlock the things we said were free.</p>
+  </div>
+  <div class="faq-item">
+    <h3 data-en="Do you guarantee a job?" data-id="Apakah kalian menjamin pekerjaan?">Do you guarantee a job?</h3>
+    <p data-en="No — and we'd encourage you to be careful with anyone who does. We build your readiness; hiring decisions belong to employers. What we do promise: a 14-day refund, honest availability states, and outcome data published truthfully once we have it."
+       data-id="Tidak — dan kami menyarankanmu berhati-hati terhadap siapa pun yang menjaminnya. Kami membangun kesiapanmu; keputusan perekrutan ada di tangan pemberi kerja. Yang kami janjikan: refund 14 hari, status ketersediaan yang jujur, dan data hasil yang dipublikasikan dengan benar begitu kami memilikinya.">No — and we'd encourage you to be careful with anyone who does. We build your readiness; hiring decisions belong to employers. What we do promise: a 14-day refund, honest availability states, and outcome data published truthfully once we have it.</p>
+  </div>
+  <div class="faq-item">
+    <h3 data-en="Can I pay in instalments?" data-id="Bisakah saya membayar dengan cicilan?">Can I pay in instalments?</h3>
+    <p data-en="Yes — a native 3-month split will be available at checkout launch, and we are evaluating financing partners. Career investment shouldn't require having the income the investment is meant to produce."
+       data-id="Bisa — pembagian 3 bulan akan tersedia saat pembayaran dibuka, dan kami sedang mengevaluasi mitra pembiayaan. Investasi karier seharusnya tidak mensyaratkan penghasilan yang justru ingin dihasilkan oleh investasi itu.">Yes — a native 3-month split will be available at checkout launch, and we are evaluating financing partners. Career investment shouldn't require having the income the investment is meant to produce.</p>
+  </div>
+  <div class="faq-item">
+    <h3 data-en="How do I cancel?" data-id="Bagaimana cara membatalkan?">How do I cancel?</h3>
+    <p data-en="One click, from Settings, effective at the end of your paid period. No retention flows, no phone calls, no countdown timers — ever."
+       data-id="Satu klik, dari Pengaturan, berlaku hingga akhir periode berbayarmu. Tanpa alur retensi, tanpa telepon, tanpa penghitung waktu — selamanya.">One click, from Settings, effective at the end of your paid period. No retention flows, no phone calls, no countdown timers — ever.</p>
+  </div>
+</div></section>
+
+<footer><div class="wrap" style="display:flex;gap:22px;flex-wrap:wrap">
+  <a href="/" data-en="Home" data-id="Beranda">Home</a>
+  <a href="legal/terms.html" data-en="Terms" data-id="Ketentuan">Terms</a>
+  <a href="legal/privacy.html" data-en="Privacy" data-id="Privasi">Privacy</a>
+  <a href="legal/data-dignity.html">Data Dignity</a>
+  <span style="margin-left:auto" data-en="Prices provisional during early access." data-id="Harga bersifat sementara selama akses awal.">Prices provisional during early access.</span>
+</div></footer>
+
+<script>
+(function(){
+  var KEY='mtLang';
+  function sweep(l){
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      var v=l==='id'?el.getAttribute('data-id'):el.getAttribute('data-en');
+      if(v!=null) el.innerHTML=v;
+    });
+    document.documentElement.lang=l;
+    document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.lang===l);});
+    try{localStorage.setItem(KEY,l);}catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){
+    b.addEventListener('click',function(){sweep(b.dataset.lang);});
+  });
+  var st=null; try{st=localStorage.getItem(KEY);}catch(e){}
+  if(st==='id') sweep('id');
+})();
+</script>
+</body>
+</html>

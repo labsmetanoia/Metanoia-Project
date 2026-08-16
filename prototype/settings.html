@@ -193,10 +193,10 @@ const PANELS = {
     const tier = (() => { try { return sessionStorage.getItem('metanoia_compass_tier') || 'free'; } catch (e) { return 'free'; } })();
     return '<h2>' + L('Subscription', 'Langganan') + '</h2><p class="ph-sub">' + L('Your current plan and what it unlocks.', 'Paket saat ini dan apa yang dibukanya.') + '</p>' +
     '<div class="f-group"><label class="f-label">' + L('Current plan', 'Paket saat ini') + '</label>' +
-    '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'Project Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Learning Access (free)', 'Akses Belajar (gratis)')) + '</div></div>' +
-    '<p class="note">' + L('Project Compass unlocks unlimited routes, the full Waypoints chart, and the complete Navigation Briefing. Your data is never deleted if a subscription lapses.',
-      'Project Compass membuka rute tanpa batas, peta Waypoints lengkap, dan Briefing Navigasi menyeluruh. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
-    '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register.html?plan=premium\'">' + L('Activate Project Compass →', 'Aktifkan Project Compass →') + '</button>';
+    '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'The Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Learning Access (free)', 'Akses Belajar (gratis)')) + '</div></div>' +
+    '<p class="note">' + L('The Compass unlocks unlimited routes, the full Waypoints chart, and the complete Navigation Briefing. Your data is never deleted if a subscription lapses.',
+      'The Compass membuka rute tanpa batas, peta Waypoints lengkap, dan Briefing Navigasi menyeluruh. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
+    '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register.html?plan=premium\'">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</button>';
   }
 };
 

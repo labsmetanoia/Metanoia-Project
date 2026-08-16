@@ -189,7 +189,7 @@ function getTier() {
 function getPurchases() {
   if (isDemo) {
     return [
-      { id: 'compass-sub', name: 'Project Compass — Annual', date: '2026-07-15', price: '$99',
+      { id: 'compass-sub', name: 'The Compass — Annual', date: '2026-07-15', price: '$99',
         icon: 'compass' },
       { id: 'assessment', name: 'Career Map Assessment', date: '2026-07-02', price: '$0', icon: 'map' }
     ];
@@ -200,7 +200,7 @@ function getPurchases() {
   } catch (e) {}
   /* Derive a minimal record from tier so an active subscriber always sees their plan. */
   if (getTier() === 'compass') {
-    return [{ id: 'compass-sub', name: 'Project Compass — Annual', date: '', price: '', icon: 'compass' }];
+    return [{ id: 'compass-sub', name: 'The Compass — Annual', date: '', price: '', icon: 'compass' }];
   }
   return [];
 }
@@ -219,11 +219,11 @@ function render() {
   const planCta = document.getElementById('plan-cta');
 
   if (tier === 'compass') {
-    planName.textContent = 'Project Compass';
+    planName.textContent = 'The Compass';
     planMeta.textContent = L('Full navigation system — unlimited routes, waypoints, and briefings.', 'Sistem navigasi penuh — rute, waypoint, dan briefing tanpa batas.');
     planBadge.className = 'plan-badge active';
     planBadge.textContent = L('Active', 'Aktif');
-    planCta.innerHTML = '<a href="pages/products/the-compass.html" class="btn btn-secondary">' + L('Open Project Compass →', 'Buka Project Compass →') + '</a>';
+    planCta.innerHTML = '<a href="/products/the-compass/" class="btn btn-secondary">' + L('Open The Compass →', 'Buka The Compass →') + '</a>';
   } else if (tier === 'expired') {
     planName.textContent = L('Compass (expired)', 'Compass (berakhir)');
     planMeta.textContent = L('Your subscription has lapsed. Your data is safe and waiting.', 'Langgananmu telah berakhir. Datamu aman dan menunggu.');
@@ -235,7 +235,7 @@ function render() {
     planMeta.textContent = L('Course access with limited Compass features.', 'Akses kursus dengan fitur Compass terbatas.');
     planBadge.className = 'plan-badge free';
     planBadge.textContent = L('Free', 'Gratis');
-    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Activate Project Compass →', 'Aktifkan Project Compass →') + '</a>';
+    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</a>';
   }
 
   const list = document.getElementById('purchase-list');
@@ -244,7 +244,7 @@ function render() {
     list.innerHTML = '<div class="empty">' +
       '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' +
       '<div class="empty-title">' + L('No purchases yet', 'Belum ada pembelian') + '</div>' +
-      '<div class="empty-sub">' + L('When you activate Project Compass or purchase a course, your receipts will appear here.', 'Saat kamu mengaktifkan Project Compass atau membeli kursus, kuitansimu akan muncul di sini.') + '</div>' +
+      '<div class="empty-sub">' + L('When you activate The Compass or purchase a course, your receipts will appear here.', 'Saat kamu mengaktifkan The Compass atau membeli kursus, kuitansimu akan muncul di sini.') + '</div>' +
       '<a href="portal.html" class="btn btn-secondary">' + L('Explore products', 'Jelajahi produk') + '</a></div>';
     return;
   }
