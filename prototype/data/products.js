@@ -10,23 +10,23 @@
 
 export const PILLARS = [
   {
-    id: 'lookout',
+    id: 'range',
     number: '00',
-    pillar:      { en: 'The Lookout', id: 'Pandang' },
-    definition:  { en: 'Discovering which directions could be yours',
-                   id: 'Menemukan arah yang mungkin menjadi milikmu' },
-    question:    { en: 'What could be mine?',
-                   id: 'Apa yang bisa menjadi milikku?' },
-    mode: 'divergent',
-    slug: 'the-lookout',
-    free: true,   // acquisition wedge — discovery is never gated
+    pillar:      { en: 'The Range', id: 'Bentang' },
+    definition:  { en: 'Making a career possibility decidable',
+                   id: 'Membuat kemungkinan karier bisa diputuskan' },
+    question:    { en: 'What could fit me — and what would it take?',
+                   id: 'Apa yang bisa cocok untukku — dan apa yang dibutuhkan?' },
+    mode: 'exploration',
+    slug: 'the-range',
+    free: true,   // free to start — exploration is never gated
     editions: {
-      student:              { name: { en: 'Career Discovery',    id: 'Penjelajahan Karier' } },
-      'fresh-graduate':     { name: { en: 'Career Discovery',    id: 'Penjelajahan Karier' } },
+      student:              { name: { en: 'Career Exploration',  id: 'Penjelajahan Karier' } },
+      'fresh-graduate':     { name: { en: 'Career Exploration',  id: 'Penjelajahan Karier' } },
       'early-professional': { name: { en: 'Direction Reset',     id: 'Reset Arah' } },
       'mature-professional':{ name: { en: 'Reinvention Mapping', id: 'Pemetaan Reinvensi' } }
     },
-    retiredNames: ['Eksplorasi Puncak Tujuan']
+    retiredNames: ['Eksplorasi Puncak Tujuan', 'The Lookout']
   },
   {
     id: 'map',

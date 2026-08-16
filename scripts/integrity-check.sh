@@ -12,7 +12,7 @@ echo "── 1. retired product names"
 # identifiers as of the restoration round — only misspellings and retired
 # sub-product names remain banned.
 RETIRED=(
-  'Eksplorasi Puncak Tujuan'
+  'Eksplorasi Puncak Tujuan' 'The Lookout'
   'Project Aladin' 'Aladin Direction Edition'
   'Understanding the Professional World' 'The Application Engine'
   'CV &amp; Resume Studio' 'ATS Screening Mastery' 'Group Discussion Simulation'
