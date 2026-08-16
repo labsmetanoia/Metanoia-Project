@@ -74,7 +74,7 @@
     transition:background-color .45s ease,color .45s ease}
   /* page-wide summit backdrop — fixed art layer + readability veil behind every tab */
   body::before{content:'';position:fixed;inset:0;z-index:-2;
-    background:#050A12 url('../../assets/product-art/the-compass.svg') center 30%/cover no-repeat}
+    background:#050A12 url('../../assets/compass-product-bg.jpg') center 24%/cover no-repeat}
   body::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:
     linear-gradient(180deg,rgba(5,10,18,.86) 0%,rgba(5,10,18,.90) 50%,rgba(5,10,18,.95) 100%)}
   :root[data-theme="light"] body::after{background:linear-gradient(180deg,rgba(238,241,246,.92) 0%,rgba(238,241,246,.95) 55%,rgba(238,241,246,.97) 100%)}
@@ -740,7 +740,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <section class="tab-content" id="tab-my-learning" hidden>
       <div class="tab-head">
         <h2 data-en="My Learning" data-id="Kurikulumku">My Learning</h2>
-        <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed, skills earned, certificates unlocked." data-id="Kurikulum Metanoia lengkapmu — modul selesai, keterampilan diperoleh, sertifikat terbuka.">Your complete Metanoia curriculum — modules completed, skills earned, certificates unlocked.</p>
+        <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed and skills earned across every product." data-id="Kurikulum Metanoia lengkapmu — modul yang selesai dan keterampilan yang diperoleh di semua produk.">Your complete Metanoia curriculum — modules completed and skills earned across every product.</p>
         <p class="tab-stats" id="progTotals"></p>
       </div>
       <div id="progCards"></div>
@@ -2145,12 +2145,11 @@ $('negoScriptBtn').addEventListener('click', () => $('negoModal').classList.add(
 
 /* ═══ RENDER: PROGRESS ═══ */
 function renderProgress() {
-  let totalDone = 0, totalMods = 0, totalPts = 0, ptsMax = 0, certs = 0;
+  let totalDone = 0, totalMods = 0, totalPts = 0, ptsMax = 0;
   const cards = PRODUCTS.map(p => {
     const done = modulesDone(p.key + '_progress', p.total);
     totalDone += done; totalMods += p.total; totalPts += done * p.pts; ptsMax += p.total * p.pts;
     const pct = Math.round(done / p.total * 100);
-    if (done >= p.total) certs++;
     const rows = p.modules.map((m, i) => {
       const n = i + 1;
       let cls = 'locked', ic = '🔒';
@@ -2166,12 +2165,11 @@ function renderProgress() {
       '<div class="pc-mods">' + rows + '</div>' +
       '<div class="pc-foot"><span>' + L('Points', 'Poin') + ': <b style="color:var(--text-sub)">' + (done * p.pts) + ' / ' + (p.total * p.pts) + '</b></span>' +
       '<span class="spacer"></span><a class="btn-ghost" href="' + p.file + '?context=compass" style="padding:8px 18px;font-size:11.5px">' +
-      (done >= p.total ? L('Review course →', 'Tinjau kursus →') : done > 0 ? L('Continue Module ' + (done + 1) + ' →', 'Lanjut Modul ' + (done + 1) + ' →') : L('Start →', 'Mulai →')) + '</a></div>' +
-      (done >= p.total ? '<div class="cert-banner">🏔️ ' + L('Certificate unlocked — ' + p.nameEn + ' complete.', 'Sertifikat terbuka — ' + p.nameEn + ' selesai.') + '</div>' : '') + '</div>';
+      (done >= p.total ? L('Review course →', 'Tinjau kursus →') : done > 0 ? L('Continue Module ' + (done + 1) + ' →', 'Lanjut Modul ' + (done + 1) + ' →') : L('Start →', 'Mulai →')) + '</a></div>' +  '</div>';
   }).join('');
   $('progCards').innerHTML = cards;
-  $('progTotals').innerHTML = L('Total: <b>' + totalDone + ' / ' + totalMods + '</b> modules complete · <b>' + certs + '</b> ' + (certs === 1 ? 'certificate' : 'certificates') + ' · <b>' + totalPts.toLocaleString('en-GB') + ' / ' + ptsMax.toLocaleString('en-GB') + '</b> points',
-    'Total: <b>' + totalDone + ' / ' + totalMods + '</b> modul selesai · <b>' + certs + '</b> sertifikat · <b>' + totalPts.toLocaleString('id-ID') + ' / ' + ptsMax.toLocaleString('id-ID') + '</b> poin');
+  $('progTotals').innerHTML = L('Total: <b>' + totalDone + ' / ' + totalMods + '</b> modules complete · <b>' + totalPts.toLocaleString('en-GB') + ' / ' + ptsMax.toLocaleString('en-GB') + '</b> points',
+    'Total: <b>' + totalDone + ' / ' + totalMods + '</b> modul selesai · <b>' + totalPts.toLocaleString('id-ID') + ' / ' + ptsMax.toLocaleString('id-ID') + '</b> poin');
 
   const chips = [];
   PRODUCTS.forEach(p => {
