@@ -92,6 +92,16 @@
         '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>' +
       '<button class="lmsp-back"><span aria-hidden="true">←</span> <span data-en="Back to Modules" data-id="Kembali ke Modul">Back to Modules</span></button>' +
       '<div class="lmsp-crumb"><div class="lc-prod"></div><div class="lc-les"></div></div>' +
+      '<div class="lmsp-ctl">' +
+        '<span class="lct-lang" role="group" aria-label="Language">' +
+          '<button data-lms-lang="en">EN</button>' +
+          '<button data-lms-lang="id">ID</button>' +
+        '</span>' +
+        '<button class="lct-theme" aria-label="Toggle theme">' +
+          '<svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>' +
+          '<svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>' +
+        '</button>' +
+      '</div>' +
       '<span class="lmsp-count"></span>' +
       '<div class="lmsp-bar"></div>' +
     '</div>' +
@@ -393,6 +403,7 @@
     next.disabled = i === FLAT.length - 1 || !canAccess(i + 1);
     refreshComplete();
     renderRail();
+    syncCtl();
     railEl.classList.remove('open');
     contentEl.scrollTop = 0;
   }
@@ -539,6 +550,33 @@
       }, 50);
     });
   });
+
+  /* ─── in-player theme + language controls ───
+     Theme uses the site-wide mt-theme key and data-theme attribute; language
+     delegates to the host page's own switcher when present so every surface
+     (page + player) stays in sync. */
+  function syncCtl() {
+    var cur = lang();
+    root.querySelectorAll('[data-lms-lang]').forEach(function (b) {
+      b.classList.toggle('on', b.getAttribute('data-lms-lang') === cur);
+    });
+  }
+  root.querySelector('.lct-theme').addEventListener('click', function () {
+    var next = (document.documentElement.dataset.theme === 'light') ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('mt-theme', next); } catch (e) {}
+  });
+  root.querySelectorAll('[data-lms-lang]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var lg = b.getAttribute('data-lms-lang');
+      try { localStorage.setItem('mtLang', lg); } catch (e) {}
+      var hostBtn = document.querySelector('.ctl button[data-lang="' + lg + '"], button[data-lang="' + lg + '"]');
+      if (hostBtn) hostBtn.click();
+      syncCtl();
+      if (root.classList.contains('open') && current !== null) openLesson(current);
+    });
+  });
+  syncCtl();
 
   /* expose a tiny API for the host page (e.g. resume buttons) */
   window.MT_LMS_PLAYER = {
