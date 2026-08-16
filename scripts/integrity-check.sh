@@ -8,13 +8,16 @@ cd "$(dirname "$0")/.."
 FAIL=0
 
 echo "── 1. retired product names"
+# Project codenames (Aladdin/Maverick/Nexus/Horizon) are sanctioned secondary
+# identifiers as of the restoration round — only misspellings and retired
+# sub-product names remain banned.
 RETIRED=(
-  'Project Aladin' 'Project Aladdin' 'Aladin Direction Edition'
-  'Project Maverick' 'Understanding the Professional World' 'The Application Engine'
+  'Project Aladin' 'Aladin Direction Edition'
+  'Understanding the Professional World' 'The Application Engine'
   'CV &amp; Resume Studio' 'ATS Screening Mastery' 'Group Discussion Simulation'
   'Psychometric Test Preparation'
-  'Project Nexus' 'Case Interview Preparation'
-  'Project Horizon' 'Scholarship Preparation' 'The Horizon'
+  'Case Interview Preparation'
+  'Scholarship Preparation' 'The Horizon'
   'Project Compass' 'Personalized Progress Tracker'
 )
 for name in "${RETIRED[@]}"; do

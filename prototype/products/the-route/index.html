@@ -30,7 +30,7 @@
 })();
 </script>
 
-<title>The Route — Metanoia Labs</title>
+<title>The Route (Project Horizon) — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="The career acceleration system for early professionals. Design your trajectory, build your visibility, time your next move, and lead before the title arrives. Product 04 in the Metanoia career system.">
 <link rel="canonical" href="https://metanoialabs.net/products/the-route/">
@@ -476,7 +476,7 @@
 /* apply saved theme before first paint (shared mt-theme key; dark is the page default) */
 (function(){try{var t=localStorage.getItem('mt-theme');
 if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t;}
-else if(window.matchMedia('(prefers-color-scheme: light)').matches){document.documentElement.dataset.theme='light';}
+else{document.documentElement.dataset.theme='dark';}
 }catch(e){}})();
 </script>
 
@@ -550,8 +550,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="course-hero">
       <div class="course-head">
         <span class="gold-pill">04 · The Route</span>
+        <p class="proj-name" style="font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:rgba(232,201,106,.75);margin:0 0 4px">Project Horizon</p>
         <h1>The Route</h1>
-        <p class="renamed-note" style="font-size:12.5px;color:rgba(240,237,232,.45);margin:4px 0 0" data-en="Previously known as Project Horizon." data-id="Sebelumnya dikenal sebagai Project Horizon.">Previously known as Project Horizon.</p>
         <p class="tagline" data-en="The summit is a waypoint, not a destination." data-id="Puncak adalah titik singgah, bukan tujuan akhir.">The summit is a waypoint, not a destination.</p>
         <p style="margin:10px 0 0"><span class="state-chip state-chip--gold" data-state="early-access"><span class="state-chip-dot" aria-hidden="true"></span><span data-en="Early access" data-id="Akses awal">Early access</span></span>&nbsp; <span style="font-size:12.5px;color:rgba(240,237,232,.6)" data-en="Fresh Graduate edition · Scholarship &amp; Graduate Programmes" data-id="Edisi Fresh Graduate · Beasiswa &amp; Program Pascasarjana">Fresh Graduate edition · Scholarship &amp; Graduate Programmes</span></p>
         <p class="access-line" data-en='Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.' data-id='Termasuk dalam keanggotaan Fresh Graduate — <a href="/pricing.html">lihat harga</a>. Refund 14 hari.'>Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.</p>
@@ -1921,7 +1921,7 @@ document.getElementById('themeBtn').addEventListener('click', () => {
   applyTheme(mtRoot.dataset.theme === 'light' ? 'dark' : 'light', true);
 });
 mqLight.addEventListener('change', e => {
-  try { if (!localStorage.getItem('mt-theme')) /* no auto-flip: dark stays default until the user chooses */ } catch (err) {}
+  try { if (!localStorage.getItem('mt-theme')) { ;/* no auto-flip: dark stays default until the user chooses */ } } catch (err) {}
 });
 
 /* ─── TRILOGY PROGRESS (reads sibling-course progress from sessionStorage) ─── */
