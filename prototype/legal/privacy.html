@@ -9,115 +9,283 @@
 <link rel="canonical" href="https://metanoialabs.net/legal/privacy.html">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <style>
-:root{--bg:#050A12;--panel:rgba(8,14,26,.7);--gold:#C9A84C;--gold-text:#E8C96A;
-  --text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
-  --sans:'Inter',system-ui,-apple-system,sans-serif}
+:root{--bg:#050A12;--panel:rgba(8,14,26,.7);--border:rgba(180,140,60,.16);--gold:#C9A84C;--gold-text:#E8C96A;
+  --gold-bright:#F0D878;--text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
+  --sans:'Inter',system-ui,-apple-system,sans-serif;--ease:cubic-bezier(.22,1,.36,1)}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.75;font-size:16px}
-.wrap{max-width:760px;margin:0 auto;padding:56px 24px 96px}
-.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:44px}
-.top a{color:var(--gold-text);text-decoration:none;font-size:14px;font-weight:600}
-.lang button{background:none;border:1px solid rgba(240,237,232,.2);color:var(--muted);padding:7px 14px;
-  font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;min-height:38px}
-.lang button.on{background:var(--gold);color:#050A12;border-color:var(--gold)}
-.kicker{font-size:11.5px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-text)}
-h1{font-size:clamp(1.9rem,4.6vw,2.6rem);font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
-.meta{color:var(--faint);font-size:13.5px;margin-bottom:30px}
-.counsel{border:1px solid rgba(201,168,76,.4);background:rgba(201,168,76,.08);border-radius:10px;
-  padding:14px 18px;font-size:13.5px;color:var(--gold-text);margin-bottom:40px}
-h2{font-size:1.15rem;font-weight:700;margin:40px 0 12px;color:var(--text)}
-p,li{color:var(--muted);font-size:15px}
-ul{padding-left:22px;margin:10px 0}
-li{margin:6px 0}
-strong{color:var(--text)}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.75;font-size:16px;overflow-x:hidden}
 a{color:var(--gold-text)}
-hr{border:0;border-top:1px solid rgba(240,237,232,.1);margin:44px 0}
-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
-th,td{text-align:left;padding:9px 12px;border-bottom:1px solid rgba(240,237,232,.1);color:var(--muted);vertical-align:top}
-th{color:var(--text);font-weight:700}
-@media(max-width:640px){table{display:block;overflow-x:auto}}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+nav.top{position:sticky;top:0;z-index:50;background:rgba(5,10,18,.86);backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(240,237,232,.07)}
+nav.top .bar{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+nav.top .back{display:inline-flex;align-items:center;gap:9px;color:var(--gold-text);text-decoration:none;
+  font-size:14px;font-weight:700}
+.lang{display:flex;border:1px solid rgba(240,237,232,.18);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--muted);padding:8px 15px;font:inherit;font-size:12px;
+  font-weight:700;cursor:pointer;min-height:38px}
+.lang button.on{background:var(--gold);color:#050A12}
+/* hero */
+header.hero{position:relative;padding:64px 0 36px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:30px;align-items:center}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero-art-box{display:none}}
+.kicker{font-size:11.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-text)}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);font-weight:800;letter-spacing:-.02em;margin:12px 0 8px;line-height:1.08}
+.meta{color:var(--faint);font-size:13.5px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.meta i{font-style:normal}
+.lede{color:var(--muted);font-size:16px;margin-top:14px;max-width:56ch}
+.hero-art-box{position:relative;display:flex;justify-content:center}
+.hero-art-box svg{width:min(300px,100%);height:auto;filter:drop-shadow(0 24px 60px rgba(201,168,76,.14))}
+.counsel{display:flex;gap:16px;align-items:flex-start;border:1px solid rgba(201,168,76,.4);
+  background:linear-gradient(150deg,rgba(201,168,76,.09),rgba(8,14,26,.5));border-radius:14px;
+  padding:17px 21px;margin-top:26px}
+.counsel .c-ico{flex:none;width:42px;height:42px;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.4);color:var(--gold-bright)}
+.counsel b{color:var(--gold-text);font-size:14px;display:block;margin-bottom:2px}
+.counsel p{font-size:13.5px;color:var(--muted)}
+/* TOC chips */
+.toc{position:sticky;top:69px;z-index:40;background:rgba(5,10,18,.82);backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(240,237,232,.06);padding:10px 0;margin-top:30px}
+.toc .row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.toc .row::-webkit-scrollbar{display:none}
+.toc a{flex:none;font-size:12px;font-weight:700;color:var(--muted);text-decoration:none;
+  border:1px solid rgba(240,237,232,.13);border-radius:999px;padding:7px 14px;min-height:34px;
+  display:inline-flex;align-items:center;gap:7px;transition:all .2s}
+.toc a:hover,.toc a.on{color:var(--gold-text);border-color:rgba(201,168,76,.45);background:rgba(201,168,76,.08)}
+.toc a b{color:var(--gold-text);font-weight:800}
+/* sections */
+main{padding:36px 0 60px}
+.sec{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:38px 0;border-top:1px solid rgba(240,237,232,.07);
+  scroll-margin-top:130px}
+.sec:first-of-type{border-top:0}
+@media(max-width:640px){.sec{grid-template-columns:1fr;gap:14px}}
+.tile{align-self:start;display:flex;flex-direction:column;align-items:center;gap:9px;width:82px;
+  border:1px solid rgba(201,168,76,.28);border-radius:16px;background:linear-gradient(165deg,rgba(201,168,76,.09),rgba(8,14,26,.5));
+  padding:15px 10px 14px}
+@media(max-width:640px){.tile{flex-direction:row;width:auto;align-self:flex-start;padding:10px 16px;gap:12px}}
+.tile .n{font-size:1.45rem;font-weight:800;color:var(--gold-bright);line-height:1;letter-spacing:-.01em}
+.tile .ic{color:var(--gold);display:flex}
+.sec-body{position:relative;padding-left:26px;border-left:1px solid rgba(201,168,76,.18)}
+@media(max-width:640px){.sec-body{padding-left:0;border-left:0}}
+.sec-body h2{font-size:1.35rem;font-weight:800;letter-spacing:-.01em;margin-bottom:4px}
+.sec-body .rule{width:44px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--gold),var(--gold-bright));
+  margin:10px 0 16px}
+.sec-body p,.sec-body li{color:var(--muted);font-size:15px}
+.sec-body ul{padding-left:0;list-style:none;display:grid;gap:10px;margin:12px 0 4px}
+.sec-body ul li{display:flex;gap:12px}
+.sec-body ul li .li-ic{flex:none;margin-top:4px;color:var(--gold-text)}
+.sec-body p + p{margin-top:12px}
+strong{color:var(--text)}
+/* callouts */
+.callout{display:flex;gap:16px;align-items:flex-start;border:1px solid rgba(240,237,232,.15);
+  background:rgba(240,237,232,.035);border-radius:14px;padding:18px 22px;margin:18px 0 4px}
+.callout.goldc{border-color:rgba(201,168,76,.4);background:rgba(201,168,76,.07)}
+.callout .co-ico{flex:none;width:40px;height:40px;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;border:1px solid rgba(201,168,76,.4);background:rgba(201,168,76,.1);color:var(--gold-bright)}
+.callout p{font-size:14px}
+/* data table (privacy) */
+.dtab{border:1px solid rgba(240,237,232,.1);border-radius:14px;overflow:hidden;margin:16px 0 4px}
+.dtab .dhead,.dtab .drow{display:grid;grid-template-columns:1.5fr 1.1fr .95fr;gap:14px;padding:13px 18px;align-items:center}
+.dtab .dhead{background:rgba(201,168,76,.07);font-size:11px;font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--gold-text)}
+.dtab .drow{border-top:1px solid rgba(240,237,232,.07);font-size:13.5px;color:var(--muted)}
+.dtab .dcell1{display:flex;gap:12px;align-items:center}
+.dtab .d-ic{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid rgba(201,168,76,.32);
+  display:flex;align-items:center;justify-content:center;color:var(--gold-text);background:rgba(201,168,76,.07)}
+@media(max-width:700px){
+  .dtab .dhead{display:none}
+  .dtab .drow{grid-template-columns:1fr;gap:7px;padding:15px 16px}
+  .dtab .drow > span:nth-child(2)::before{content:attr(data-lbl1) ": ";color:var(--gold-text);font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+  .dtab .drow > span:nth-child(3)::before{content:attr(data-lbl2) ": ";color:var(--gold-text);font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+}
+/* dignity commitments */
+.cmt{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:26px 0;border-top:1px solid rgba(240,237,232,.07);scroll-margin-top:130px}
+.cmt:first-of-type{border-top:0}
+@media(max-width:640px){.cmt{grid-template-columns:1fr;gap:12px}}
+.cmt h2{font-size:1.14rem;font-weight:800;margin-bottom:5px}
+.cmt p{color:var(--muted);font-size:14.5px}
+.trust-band{display:flex;gap:18px;align-items:flex-start;border:1px solid rgba(201,168,76,.4);border-radius:16px;
+  background:linear-gradient(160deg,rgba(201,168,76,.1),rgba(8,14,26,.6));padding:24px 28px;margin-top:36px}
+.trust-band .tb-ico{flex:none;width:50px;height:50px;border-radius:50%;border:1px solid rgba(201,168,76,.45);
+  display:flex;align-items:center;justify-content:center;color:var(--gold-bright);background:rgba(201,168,76,.12)}
+.trust-band b{display:block;color:var(--gold-text);font-size:15.5px;margin-bottom:3px}
+.trust-band p{font-size:14px;color:var(--muted)}
+/* footer links */
+.xlinks{display:flex;gap:10px 26px;flex-wrap:wrap;border-top:1px solid rgba(240,237,232,.08);
+  margin-top:44px;padding:26px 0 40px;font-size:14px}
+/* reveals */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .55s var(--ease),transform .55s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <div class="top">
-    <a href="/">← Metanoia Labs</a>
-    <span class="lang"><button data-lang="en" class="on">EN</button><button data-lang="id">ID</button></span>
+<nav class="top"><div class="wrap bar">
+  <a class="back" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>Metanoia Labs</a>
+  <span class="lang"><button data-lang="en" class="on">EN</button><button data-lang="id">ID</button></span>
+</div></nav>
+<header class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="kicker" data-en="Legal" data-id="Legal">Legal</span>
+      <h1 data-en="Privacy Notice" data-id="Pemberitahuan Privasi">Privacy Notice</h1>
+      <p class="meta"><i data-en="Version 1.0" data-id="Versi 1.0">Version 1.0</i> · <i data-en="Draft of 16 August 2026" data-id="Draf 16 Agustus 2026">Draft of 16 August 2026</i> · <i data-en="Applies to metanoialabs.net" data-id="Berlaku untuk metanoialabs.net">Applies to metanoialabs.net</i></p>
+      <div class="counsel rv">
+        <span class="c-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="9.5" rx="2.5"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/><circle cx="12" cy="15.2" r="1.3" fill="currentColor" stroke="none"/></svg></span>
+        <div>
+          <b data-en="This notice is a working draft prepared for review by Indonesian legal counsel." data-id="Pemberitahuan ini adalah draf kerja yang disiapkan untuk ditinjau oleh konsultan hukum Indonesia.">This notice is a working draft prepared for review by Indonesian legal counsel.</b>
+          <p data-en="It describes our practices honestly as they stand today, and it will be finalised — and versioned — before any broad data collection begins."
+             data-id="Isinya menggambarkan praktik kami secara jujur sebagaimana adanya hari ini, dan akan difinalkan — serta diberi versi — sebelum pengumpulan data secara luas dimulai.">It describes our practices honestly as they stand today, and it will be finalised — and versioned — before any broad data collection begins.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-art-box rv"><svg viewBox="0 0 300 300" fill="none" aria-hidden="true">
+  <defs><radialGradient id="pg" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#C9A84C" stop-opacity=".2"/><stop offset="1" stop-color="#C9A84C" stop-opacity="0"/></radialGradient>
+  <linearGradient id="pl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0D878"/><stop offset="1" stop-color="#C9A84C"/></linearGradient></defs>
+  <circle cx="150" cy="140" r="130" fill="url(#pg)"/>
+  <g stroke="#C9A84C" opacity=".28"><circle cx="150" cy="140" r="112" stroke-dasharray="3 7"/><circle cx="150" cy="140" r="88"/></g>
+  <path d="M150 60 95 82v46c0 36 22.5 61 55 72 32.5-11 55-36 55-72V82Z" fill="rgba(8,14,26,.9)" stroke="url(#pl)" stroke-width="2.4"/>
+  <rect x="126" y="122" width="48" height="36" rx="8" fill="none" stroke="#E8C96A" stroke-width="2.2"/>
+  <path d="M136 122v-9a14 14 0 0 1 28 0v9" stroke="#E8C96A" stroke-width="2.2" fill="none"/>
+  <circle cx="150" cy="139" r="4.5" fill="#F0D878"/><path d="M150 143v7" stroke="#F0D878" stroke-width="2.4" stroke-linecap="round"/>
+  <g stroke="#C9A84C" stroke-width="1.4" opacity=".55" stroke-linecap="round">
+    <path d="M52 220c30-14 60 8 98 0s60-16 98-4"/><path d="M44 238c34-14 66 8 106 0s58-14 104-4"/>
+  </g>
+</svg></div>
   </div>
-
-  <span class="kicker" data-en="Legal" data-id="Legal">Legal</span>
-  <h1 data-en="Privacy Notice" data-id="Pemberitahuan Privasi">Privacy Notice</h1>
-  <p class="meta" data-en="Version 1.0 · Draft of 16 August 2026 · Applies to metanoialabs.net"
-     data-id="Versi 1.0 · Draf 16 Agustus 2026 · Berlaku untuk metanoialabs.net">Version 1.0 · Draft of 16 August 2026 · Applies to metanoialabs.net</p>
-
-  <div class="counsel" data-en="This notice is a working draft prepared for review by Indonesian legal counsel. It describes our practices honestly as they stand today, and it will be finalised — and versioned — before any broad data collection begins."
-       data-id="Pemberitahuan ini adalah draf kerja yang disiapkan untuk ditinjau oleh konsultan hukum Indonesia. Isinya menggambarkan praktik kami secara jujur sebagaimana adanya hari ini, dan akan difinalkan — serta diberi versi — sebelum pengumpulan data secara luas dimulai.">This notice is a working draft prepared for review by Indonesian legal counsel. It describes our practices honestly as they stand today, and it will be finalised — and versioned — before any broad data collection begins.</div>
-
-  <h2 data-en="1. Who we are" data-id="1. Siapa kami">1. Who we are</h2>
-  <p data-en="Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;we&rdquo;) operates metanoialabs.net, a career-preparation platform. We are the controller of the personal data described in this notice. Contact: hello@metanoialabs.net. Our registered legal entity and address will be published here upon incorporation counsel review."
-     data-id="Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;kami&rdquo;) mengoperasikan metanoialabs.net, platform persiapan karier. Kami adalah pengendali data pribadi yang dijelaskan dalam pemberitahuan ini. Kontak: hello@metanoialabs.net. Badan hukum terdaftar dan alamat kami akan dipublikasikan di sini setelah tinjauan konsultan hukum.">Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;we&rdquo;) operates metanoialabs.net, a career-preparation platform. We are the controller of the personal data described in this notice. Contact: hello@metanoialabs.net. Our registered legal entity and address will be published here upon incorporation counsel review.</p>
-
-  <h2 data-en="2. What we collect, and why" data-id="2. Apa yang kami kumpulkan, dan mengapa">2. What we collect, and why</h2>
-  <table>
-    <tr><th data-en="Data" data-id="Data">Data</th><th data-en="Purpose" data-id="Tujuan">Purpose</th><th data-en="Lawful basis" data-id="Dasar hukum">Lawful basis</th></tr>
-    <tr><td data-en="Account: name, email, password hash" data-id="Akun: nama, email, hash kata sandi">Account: name, email, password hash</td>
-        <td data-en="Creating and securing your account" data-id="Membuat dan mengamankan akunmu">Creating and securing your account</td>
-        <td data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</td></tr>
-    <tr><td data-en="Assessment: responses, scores, five dimension values" data-id="Asesmen: jawaban, skor, nilai lima dimensi">Assessment: responses, scores, five dimension values</td>
-        <td data-en="Producing your Career Map and readiness score" data-id="Menyusun Career Map dan skor kesiapanmu">Producing your Career Map and readiness score</td>
-        <td data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</td></tr>
-    <tr><td data-en="Career profile: target role, industry, education, graduation year" data-id="Profil karier: peran target, industri, pendidikan, tahun lulus">Career profile: target role, industry, education, graduation year</td>
-        <td data-en="Personalising your route and content" data-id="Mempersonalisasi rute dan kontenmu">Personalising your route and content</td>
-        <td data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</td></tr>
-    <tr><td data-en="Usage: modules accessed, progress, session timestamps" data-id="Penggunaan: modul yang diakses, progres, stempel waktu sesi">Usage: modules accessed, progress, session timestamps</td>
-        <td data-en="Tracking your progress in The Compass" data-id="Melacak progresmu di The Compass">Tracking your progress in The Compass</td>
-        <td data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</td></tr>
-    <tr><td data-en="Marketing email address" data-id="Alamat email pemasaran">Marketing email address</td>
-        <td data-en="Career insights and product updates" data-id="Wawasan karier dan pembaruan produk">Career insights and product updates</td>
-        <td data-en="Consent — optional, withdrawable any time" data-id="Persetujuan — opsional, dapat ditarik kapan saja">Consent — optional, withdrawable any time</td></tr>
-    <tr><td data-en="Technical: IP address, user agent, device class" data-id="Teknis: alamat IP, user agent, kelas perangkat">Technical: IP address, user agent, device class</td>
-        <td data-en="Security, abuse prevention, performance" data-id="Keamanan, pencegahan penyalahgunaan, performa">Security, abuse prevention, performance</td>
-        <td data-en="Legitimate operation of the service" data-id="Operasional layanan yang sah">Legitimate operation of the service</td></tr>
-  </table>
-  <p data-en="Today, in this pre-alpha, most product data (Compass tracker, progress, assessment results) is stored in your own browser&rsquo;s local storage on your device — we do not receive it on our servers unless you create an account or ask us to email you a report."
-     data-id="Saat ini, pada tahap pra-alfa, sebagian besar data produk (pelacak Compass, progres, hasil asesmen) tersimpan di penyimpanan lokal peramban di perangkatmu sendiri — kami tidak menerimanya di server kami kecuali kamu membuat akun atau meminta kami mengirim laporan lewat email.">Today, in this pre-alpha, most product data (Compass tracker, progress, assessment results) is stored in your own browser&rsquo;s local storage on your device — we do not receive it on our servers unless you create an account or ask us to email you a report.</p>
-
-  <h2 data-en="3. How long we keep it" data-id="3. Berapa lama kami menyimpannya">3. How long we keep it</h2>
-  <ul>
-    <li data-en="Account and profile data: for the life of your account, deleted within 7 days of account deletion." data-id="Data akun dan profil: selama akunmu aktif, dihapus dalam 7 hari setelah penghapusan akun.">Account and profile data: for the life of your account, deleted within 7 days of account deletion.</li>
-    <li data-en="Assessment history: for the life of your account, so you can see your own trajectory." data-id="Riwayat asesmen: selama akunmu aktif, agar kamu dapat melihat lintasan perkembanganmu sendiri.">Assessment history: for the life of your account, so you can see your own trajectory.</li>
-    <li data-en="Marketing consent records: for as long as required to evidence consent." data-id="Catatan persetujuan pemasaran: selama diperlukan untuk membuktikan persetujuan.">Marketing consent records: for as long as required to evidence consent.</li>
-    <li data-en="Local-storage data: on your device, under your control, until you clear it." data-id="Data penyimpanan lokal: di perangkatmu, dalam kendalimu, sampai kamu menghapusnya.">Local-storage data: on your device, under your control, until you clear it.</li>
-  </ul>
-
-  <h2 data-en="4. Who we share it with" data-id="4. Dengan siapa kami membagikannya">4. Who we share it with</h2>
-  <p data-en="We never sell your data. We never provide individual scores to employers — aggregate, anonymised insight only. Our current processors: GitHub Pages (site hosting, USA). As we add processors — authentication, email delivery, payments — each will be named here with its jurisdiction before it touches user data. If any processor stores data outside Indonesia, we will state it here together with the safeguard applied."
-     data-id="Kami tidak pernah menjual datamu. Kami tidak pernah memberikan skor individual kepada pemberi kerja — hanya wawasan agregat dan anonim. Pemroses kami saat ini: GitHub Pages (hosting situs, AS). Saat kami menambahkan pemroses — autentikasi, pengiriman email, pembayaran — masing-masing akan dicantumkan di sini beserta yurisdiksinya sebelum menyentuh data pengguna. Jika ada pemroses yang menyimpan data di luar Indonesia, kami akan menyatakannya di sini beserta pengamanan yang diterapkan.">We never sell your data. We never provide individual scores to employers — aggregate, anonymised insight only. Our current processors: GitHub Pages (site hosting, USA). As we add processors — authentication, email delivery, payments — each will be named here with its jurisdiction before it touches user data. If any processor stores data outside Indonesia, we will state it here together with the safeguard applied.</p>
-
-  <h2 data-en="5. Your rights" data-id="5. Hak-hakmu">5. Your rights</h2>
-  <ul>
-    <li data-en="Access, correct, export, or delete your data — from Settings → Privacy &amp; Data, or by emailing hello@metanoialabs.net." data-id="Mengakses, memperbaiki, mengekspor, atau menghapus datamu — dari Pengaturan → Privasi &amp; Data, atau melalui email ke hello@metanoialabs.net.">Access, correct, export, or delete your data — from Settings → Privacy &amp; Data, or by emailing hello@metanoialabs.net.</li>
-    <li data-en="Withdraw marketing consent at any time — every email carries an unsubscribe link." data-id="Menarik persetujuan pemasaran kapan saja — setiap email memuat tautan berhenti berlangganan.">Withdraw marketing consent at any time — every email carries an unsubscribe link.</li>
-    <li data-en="Object to processing, and complain — first to us, then to the Indonesian data-protection supervisory authority." data-id="Mengajukan keberatan atas pemrosesan, dan mengadu — pertama kepada kami, lalu kepada otoritas pengawas pelindungan data Indonesia.">Object to processing, and complain — first to us, then to the Indonesian data-protection supervisory authority.</li>
-  </ul>
-
-  <h2 data-en="6. Breach notification" data-id="6. Pemberitahuan kebocoran">6. Breach notification</h2>
-  <p data-en="If a breach affects your personal data, we will notify you and the supervisory authority within the statutory window required by Indonesian law (UU 27/2022), and we will say plainly what happened, what was affected, and what we are doing about it."
-     data-id="Jika terjadi kebocoran yang memengaruhi data pribadimu, kami akan memberi tahu kamu dan otoritas pengawas dalam jangka waktu yang diwajibkan hukum Indonesia (UU 27/2022), dan kami akan menyampaikan dengan jelas apa yang terjadi, apa yang terdampak, dan apa yang kami lakukan.">If a breach affects your personal data, we will notify you and the supervisory authority within the statutory window required by Indonesian law (UU 27/2022), and we will say plainly what happened, what was affected, and what we are doing about it.</p>
-
-  <h2 data-en="7. Children" data-id="7. Anak-anak">7. Children</h2>
-  <p data-en="Metanoia is intended for users aged 17 and above. We do not knowingly collect data from anyone younger; if you believe we have, contact us and we will delete it."
-     data-id="Metanoia ditujukan untuk pengguna berusia 17 tahun ke atas. Kami tidak dengan sengaja mengumpulkan data dari siapa pun yang lebih muda; jika kamu yakin kami melakukannya, hubungi kami dan kami akan menghapusnya.">Metanoia is intended for users aged 17 and above. We do not knowingly collect data from anyone younger; if you believe we have, contact us and we will delete it.</p>
-
-  <h2 data-en="8. Changes" data-id="8. Perubahan">8. Changes</h2>
-  <p data-en="When this notice materially changes, we will version it, date it, and ask for your consent again where the law requires it. We will not quietly swap the terms underneath you."
-     data-id="Ketika pemberitahuan ini berubah secara material, kami akan memberinya versi, tanggal, dan meminta persetujuanmu kembali jika diwajibkan hukum. Kami tidak akan diam-diam mengganti ketentuan di belakangmu.">When this notice materially changes, we will version it, date it, and ask for your consent again where the law requires it. We will not quietly swap the terms underneath you.</p>
-
-  <hr>
-  <p style="font-size:13.5px" data-en="Compliance status, stated honestly: we are building Metanoia to comply with Indonesia&rsquo;s Personal Data Protection Law (UU 27/2022). This notice explains what we collect, why, and how to exercise your rights."
-     data-id="Status kepatuhan, dinyatakan dengan jujur: kami membangun Metanoia untuk mematuhi Undang-Undang Pelindungan Data Pribadi Indonesia (UU 27/2022). Pemberitahuan ini menjelaskan apa yang kami kumpulkan, mengapa, dan bagaimana menggunakan hak-hakmu.">Compliance status, stated honestly: we are building Metanoia to comply with Indonesia&rsquo;s Personal Data Protection Law (UU 27/2022). This notice explains what we collect, why, and how to exercise your rights.</p>
-  <p style="margin-top:18px"><a href="terms.html" data-en="Terms of Service →" data-id="Ketentuan Layanan →">Terms of Service →</a> &nbsp;·&nbsp; <a href="data-dignity.html" data-en="Data Dignity commitments →" data-id="Komitmen Martabat Data →">Data Dignity commitments →</a></p>
-</div>
+</div></header>
+  <div class="toc"><div class="wrap row">
+    <a href="#who"><b>01</b><span data-en="Who we are" data-id="Siapa kami">Who we are</span></a>
+    <a href="#collect"><b>02</b><span data-en="What we collect" data-id="Yang kami kumpulkan">What we collect</span></a>
+    <a href="#retain"><b>03</b><span data-en="Retention" data-id="Retensi">Retention</span></a>
+    <a href="#share"><b>04</b><span data-en="Sharing" data-id="Pembagian">Sharing</span></a>
+    <a href="#rights"><b>05</b><span data-en="Your rights" data-id="Hak-hakmu">Your rights</span></a>
+    <a href="#breach"><b>06</b><span data-en="Breach" data-id="Kebocoran">Breach</span></a>
+    <a href="#children"><b>07</b><span data-en="Children" data-id="Anak-anak">Children</span></a>
+    <a href="#changes"><b>08</b><span data-en="Changes" data-id="Perubahan">Changes</span></a>
+  </div></div>
+<main><div class="wrap">
+    <section class="sec rv" id="who">
+      <div class="tile"><span class="n">01</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.4" r="3.3"/><path d="M5.5 20c.7-3.5 3.2-5.5 6.5-5.5s5.8 2 6.5 5.5"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Who we are" data-id="Siapa kami">Who we are</h2>
+        <div class="rule"></div>
+        <p data-en="Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;we&rdquo;) operates metanoialabs.net, a career-preparation platform. We are the controller of the personal data described in this notice. Contact: <a href='mailto:hello@metanoialabs.net'>hello@metanoialabs.net</a>. Our registered legal entity and address will be published here upon incorporation counsel review." data-id="Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;kami&rdquo;) mengoperasikan metanoialabs.net, platform persiapan karier. Kami adalah pengendali data pribadi yang dijelaskan dalam pemberitahuan ini. Kontak: <a href='mailto:hello@metanoialabs.net'>hello@metanoialabs.net</a>. Badan hukum terdaftar dan alamat kami akan dipublikasikan di sini setelah tinjauan konsultan hukum.">Metanoia Labs (&ldquo;Metanoia&rdquo;, &ldquo;we&rdquo;) operates metanoialabs.net, a career-preparation platform. We are the controller of the personal data described in this notice. Contact: <a href='mailto:hello@metanoialabs.net'>hello@metanoialabs.net</a>. Our registered legal entity and address will be published here upon incorporation counsel review.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="collect">
+      <div class="tile"><span class="n">02</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="2.8"/><path d="M4.5 5.5v13c0 1.6 3.4 2.8 7.5 2.8s7.5-1.2 7.5-2.8v-13"/><path d="M4.5 12c0 1.6 3.4 2.8 7.5 2.8s7.5-1.2 7.5-2.8"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="What we collect, and why" data-id="Apa yang kami kumpulkan, dan mengapa">What we collect, and why</h2>
+        <div class="rule"></div>
+        <div class="dtab">
+        <div class="dhead"><span data-en="Data" data-id="Data">Data</span><span data-en="Purpose" data-id="Tujuan">Purpose</span><span data-en="Lawful basis" data-id="Dasar hukum">Lawful basis</span></div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.2" r="3.4"/><path d="M5.5 20c.7-3.6 3.2-5.6 6.5-5.6s5.8 2 6.5 5.6"/></svg></span><span data-en="Account: name, email, password hash" data-id="Akun: nama, email, hash kata sandi">Account: name, email, password hash</span></span>
+          <span data-lbl1="Purpose" data-en="Creating and securing your account" data-id="Membuat dan mengamankan akunmu">Creating and securing your account</span>
+          <span data-lbl2="Lawful basis" data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</span>
+        </div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5h6.5L19 8v12.5H8Z" transform="translate(-1.5 0)"/><path d="M13 3.5V8h4.5" transform="translate(-1.5 0)"/><path d="m9.5 15 1.8 1.8 3.2-3.8"/></svg></span><span data-en="Assessment: responses, scores, five dimension values" data-id="Asesmen: jawaban, skor, nilai lima dimensi">Assessment: responses, scores, five dimension values</span></span>
+          <span data-lbl1="Purpose" data-en="Producing your Career Map and readiness score" data-id="Menyusun Career Map dan skor kesiapanmu">Producing your Career Map and readiness score</span>
+          <span data-lbl2="Lawful basis" data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</span>
+        </div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10.5h18"/></svg></span><span data-en="Career profile: target role, industry, education, graduation year" data-id="Profil karier: peran target, industri, pendidikan, tahun lulus">Career profile: target role, industry, education, graduation year</span></span>
+          <span data-lbl1="Purpose" data-en="Personalising your route and content" data-id="Mempersonalisasi rute dan kontenmu">Personalising your route and content</span>
+          <span data-lbl2="Lawful basis" data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</span>
+        </div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19V10M10 19V5.5M15 19v-6M20 19V8.5"/></svg></span><span data-en="Usage: modules accessed, progress, session timestamps" data-id="Penggunaan: modul yang diakses, progres, stempel waktu sesi">Usage: modules accessed, progress, session timestamps</span></span>
+          <span data-lbl1="Purpose" data-en="Tracking your progress in The Compass" data-id="Melacak progresmu di The Compass">Tracking your progress in The Compass</span>
+          <span data-lbl2="Lawful basis" data-en="Contract performance" data-id="Pelaksanaan kontrak">Contract performance</span>
+        </div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4.5V9h4.5"/></svg></span><span data-en="Marketing email address" data-id="Alamat email pemasaran">Marketing email address</span></span>
+          <span data-lbl1="Purpose" data-en="Career insights and product updates" data-id="Wawasan karier dan pembaruan produk">Career insights and product updates</span>
+          <span data-lbl2="Lawful basis" data-en="Consent — optional, withdrawable any time" data-id="Persetujuan — opsional, dapat ditarik kapan saja">Consent — optional, withdrawable any time</span>
+        </div>
+        <div class="drow">
+          <span class="dcell1"><span class="d-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/></svg></span><span data-en="Technical: IP address, user agent, device class" data-id="Teknis: alamat IP, user agent, kelas perangkat">Technical: IP address, user agent, device class</span></span>
+          <span data-lbl1="Purpose" data-en="Security, abuse prevention, performance" data-id="Keamanan, pencegahan penyalahgunaan, performa">Security, abuse prevention, performance</span>
+          <span data-lbl2="Lawful basis" data-en="Legitimate operation of the service" data-id="Operasional layanan yang sah">Legitimate operation of the service</span>
+        </div>
+        </div>
+        <div class="callout">
+          <span class="co-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M12 11v5M12 7.8v.2"/></svg></span>
+          <p data-en="Today, in this pre-alpha, most product data (Compass tracker, progress, assessment results) is stored in your own browser&rsquo;s local storage on your device — we do not receive it on our servers unless you create an account or ask us to email you a report."
+             data-id="Saat ini, pada tahap pra-alfa, sebagian besar data produk (pelacak Compass, progres, hasil asesmen) tersimpan di penyimpanan lokal peramban di perangkatmu sendiri — kami tidak menerimanya di server kami kecuali kamu membuat akun atau meminta kami mengirim laporan lewat email.">Today, in this pre-alpha, most product data (Compass tracker, progress, assessment results) is stored in your own browser&rsquo;s local storage on your device — we do not receive it on our servers unless you create an account or ask us to email you a report.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sec rv" id="retain">
+      <div class="tile"><span class="n">03</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M12 7.5v4.7l3 2.1"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="How long we keep it" data-id="Berapa lama kami menyimpannya">How long we keep it</h2>
+        <div class="rule"></div>
+        <ul>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Account and profile data: for the life of your account, deleted within 7 days of account deletion." data-id="Data akun dan profil: selama akunmu aktif, dihapus dalam 7 hari setelah penghapusan akun.">Account and profile data: for the life of your account, deleted within 7 days of account deletion.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Assessment history: for the life of your account, so you can see your own trajectory." data-id="Riwayat asesmen: selama akunmu aktif, agar kamu dapat melihat lintasan perkembanganmu sendiri.">Assessment history: for the life of your account, so you can see your own trajectory.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Marketing consent records: for as long as required to evidence consent." data-id="Catatan persetujuan pemasaran: selama diperlukan untuk membuktikan persetujuan.">Marketing consent records: for as long as required to evidence consent.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Local-storage data: on your device, under your control, until you clear it." data-id="Data penyimpanan lokal: di perangkatmu, dalam kendalimu, sampai kamu menghapusnya.">Local-storage data: on your device, under your control, until you clear it.</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="sec rv" id="share">
+      <div class="tile"><span class="n">04</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="12" r="2.6"/><circle cx="17.5" cy="5.5" r="2.6"/><circle cx="17.5" cy="18.5" r="2.6"/><path d="m8.4 10.7 6.8-4M8.4 13.3l6.8 4"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Who we share it with" data-id="Dengan siapa kami membagikannya">Who we share it with</h2>
+        <div class="rule"></div>
+        <p data-en="<strong>We never sell your data. We never provide individual scores to employers</strong> — aggregate, anonymised insight only. Our current processors: GitHub Pages (site hosting, USA). As we add processors — authentication, email delivery, payments — each will be named here with its jurisdiction before it touches user data. If any processor stores data outside Indonesia, we will state it here together with the safeguard applied." data-id="<strong>Kami tidak pernah menjual datamu. Kami tidak pernah memberikan skor individual kepada pemberi kerja</strong> — hanya wawasan agregat dan anonim. Pemroses kami saat ini: GitHub Pages (hosting situs, AS). Saat kami menambahkan pemroses — autentikasi, pengiriman email, pembayaran — masing-masing akan dicantumkan di sini beserta yurisdiksinya sebelum menyentuh data pengguna. Jika ada pemroses yang menyimpan data di luar Indonesia, kami akan menyatakannya di sini beserta pengamanan yang diterapkan."><strong>We never sell your data. We never provide individual scores to employers</strong> — aggregate, anonymised insight only. Our current processors: GitHub Pages (site hosting, USA). As we add processors — authentication, email delivery, payments — each will be named here with its jurisdiction before it touches user data. If any processor stores data outside Indonesia, we will state it here together with the safeguard applied.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="rights">
+      <div class="tile"><span class="n">05</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Your rights" data-id="Hak-hakmu">Your rights</h2>
+        <div class="rule"></div>
+        <ul>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Access, correct, export, or delete your data — from Settings → Privacy &amp; Data, or by emailing hello@metanoialabs.net." data-id="Mengakses, memperbaiki, mengekspor, atau menghapus datamu — dari Pengaturan → Privasi &amp; Data, atau melalui email ke hello@metanoialabs.net.">Access, correct, export, or delete your data — from Settings → Privacy &amp; Data, or by emailing hello@metanoialabs.net.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Withdraw marketing consent at any time — every email carries an unsubscribe link." data-id="Menarik persetujuan pemasaran kapan saja — setiap email memuat tautan berhenti berlangganan.">Withdraw marketing consent at any time — every email carries an unsubscribe link.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Object to processing, and complain — first to us, then to the Indonesian data-protection supervisory authority." data-id="Mengajukan keberatan atas pemrosesan, dan mengadu — pertama kepada kami, lalu kepada otoritas pengawas pelindungan data Indonesia.">Object to processing, and complain — first to us, then to the Indonesian data-protection supervisory authority.</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="sec rv" id="breach">
+      <div class="tile"><span class="n">06</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 3 19.5h18Z"/><path d="M12 10v4.2M12 16.8v.2"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Breach notification" data-id="Pemberitahuan kebocoran">Breach notification</h2>
+        <div class="rule"></div>
+        <p data-en="If a breach affects your personal data, we will notify you and the supervisory authority within the statutory window required by Indonesian law (UU 27/2022), and we will say plainly what happened, what was affected, and what we are doing about it." data-id="Jika terjadi kebocoran yang memengaruhi data pribadimu, kami akan memberi tahu kamu dan otoritas pengawas dalam jangka waktu yang diwajibkan hukum Indonesia (UU 27/2022), dan kami akan menyampaikan dengan jelas apa yang terjadi, apa yang terdampak, dan apa yang kami lakukan.">If a breach affects your personal data, we will notify you and the supervisory authority within the statutory window required by Indonesian law (UU 27/2022), and we will say plainly what happened, what was affected, and what we are doing about it.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="children">
+      <div class="tile"><span class="n">07</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><circle cx="9.3" cy="10.3" r=".9" fill="currentColor" stroke="none"/><circle cx="14.7" cy="10.3" r=".9" fill="currentColor" stroke="none"/><path d="M9 14.5c.8 1 1.8 1.5 3 1.5s2.2-.5 3-1.5"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Children" data-id="Anak-anak">Children</h2>
+        <div class="rule"></div>
+        <p data-en="Metanoia is intended for users aged 17 and above. We do not knowingly collect data from anyone younger; if you believe we have, contact us and we will delete it." data-id="Metanoia ditujukan untuk pengguna berusia 17 tahun ke atas. Kami tidak dengan sengaja mengumpulkan data dari siapa pun yang lebih muda; jika kamu yakin kami melakukannya, hubungi kami dan kami akan menghapusnya.">Metanoia is intended for users aged 17 and above. We do not knowingly collect data from anyone younger; if you believe we have, contact us and we will delete it.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="changes">
+      <div class="tile"><span class="n">08</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4.5V9h4.5"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Changes" data-id="Perubahan">Changes</h2>
+        <div class="rule"></div>
+        <p data-en="When this notice materially changes, we will version it, date it, and ask for your consent again where the law requires it. We will not quietly swap the terms underneath you." data-id="Ketika pemberitahuan ini berubah secara material, kami akan memberinya versi, tanggal, dan meminta persetujuanmu kembali jika diwajibkan hukum. Kami tidak akan diam-diam mengganti ketentuan di belakangmu.">When this notice materially changes, we will version it, date it, and ask for your consent again where the law requires it. We will not quietly swap the terms underneath you.</p>
+        <div class="callout goldc" style="margin-top:16px">
+          <span class="co-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span>
+          <p data-en="<strong>Compliance status, stated honestly:</strong> we are building Metanoia to comply with Indonesia&rsquo;s Personal Data Protection Law (UU 27/2022). This notice explains what we collect, why, and how to exercise your rights."
+             data-id="<strong>Status kepatuhan, dinyatakan dengan jujur:</strong> kami membangun Metanoia untuk mematuhi Undang-Undang Pelindungan Data Pribadi Indonesia (UU 27/2022). Pemberitahuan ini menjelaskan apa yang kami kumpulkan, mengapa, dan bagaimana menggunakan hak-hakmu."><strong>Compliance status, stated honestly:</strong> we are building Metanoia to comply with Indonesia&rsquo;s Personal Data Protection Law (UU 27/2022). This notice explains what we collect, why, and how to exercise your rights.</p>
+        </div>
+      </div>
+    </section>
+  <div class="xlinks">
+    <a href="terms.html" data-en="Terms of Service →" data-id="Ketentuan Layanan →">Terms of Service →</a>
+    <a href="data-dignity.html" data-en="Data Dignity commitments →" data-id="Komitmen Martabat Data →">Data Dignity commitments →</a>
+  </div>
+</div></main>
 <script>
 (function(){
   var KEY='mtLang';
@@ -135,6 +303,28 @@ th{color:var(--text);font-weight:700}
   });
   var st=null; try{st=localStorage.getItem(KEY);}catch(e){}
   if(st==='id') sweep('id');
+})();
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});
+  } else {
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+    },{rootMargin:'0px 0px -6% 0px'});
+    document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  }
+  var links=[].slice.call(document.querySelectorAll('.toc a'));
+  if(links.length){
+    var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
+    var so=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id);});
+        }
+      });
+    },{rootMargin:'-30% 0px -60% 0px'});
+    secs.forEach(function(s){ if(s) so.observe(s); });
+  }
 })();
 </script>
 </body>

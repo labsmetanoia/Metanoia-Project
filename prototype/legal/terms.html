@@ -9,90 +9,240 @@
 <link rel="canonical" href="https://metanoialabs.net/legal/terms.html">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <style>
-:root{--bg:#050A12;--gold:#C9A84C;--gold-text:#E8C96A;--text:#F0EDE8;
-  --muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);--sans:'Inter',system-ui,-apple-system,sans-serif}
+:root{--bg:#050A12;--panel:rgba(8,14,26,.7);--border:rgba(180,140,60,.16);--gold:#C9A84C;--gold-text:#E8C96A;
+  --gold-bright:#F0D878;--text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
+  --sans:'Inter',system-ui,-apple-system,sans-serif;--ease:cubic-bezier(.22,1,.36,1)}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.75;font-size:16px}
-.wrap{max-width:760px;margin:0 auto;padding:56px 24px 96px}
-.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:44px}
-.top a{color:var(--gold-text);text-decoration:none;font-size:14px;font-weight:600}
-.lang button{background:none;border:1px solid rgba(240,237,232,.2);color:var(--muted);padding:7px 14px;
-  font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;min-height:38px}
-.lang button.on{background:var(--gold);color:#050A12;border-color:var(--gold)}
-.kicker{font-size:11.5px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-text)}
-h1{font-size:clamp(1.9rem,4.6vw,2.6rem);font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
-.meta{color:var(--faint);font-size:13.5px;margin-bottom:30px}
-.counsel{border:1px solid rgba(201,168,76,.4);background:rgba(201,168,76,.08);border-radius:10px;
-  padding:14px 18px;font-size:13.5px;color:var(--gold-text);margin-bottom:40px}
-.callout{border:1px solid rgba(240,237,232,.16);background:rgba(240,237,232,.04);border-radius:10px;
-  padding:16px 20px;margin:18px 0}
-h2{font-size:1.15rem;font-weight:700;margin:40px 0 12px}
-p,li{color:var(--muted);font-size:15px}
-ul{padding-left:22px;margin:10px 0}
-li{margin:6px 0}
-strong{color:var(--text)}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.75;font-size:16px;overflow-x:hidden}
 a{color:var(--gold-text)}
-hr{border:0;border-top:1px solid rgba(240,237,232,.1);margin:44px 0}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+nav.top{position:sticky;top:0;z-index:50;background:rgba(5,10,18,.86);backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(240,237,232,.07)}
+nav.top .bar{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+nav.top .back{display:inline-flex;align-items:center;gap:9px;color:var(--gold-text);text-decoration:none;
+  font-size:14px;font-weight:700}
+.lang{display:flex;border:1px solid rgba(240,237,232,.18);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--muted);padding:8px 15px;font:inherit;font-size:12px;
+  font-weight:700;cursor:pointer;min-height:38px}
+.lang button.on{background:var(--gold);color:#050A12}
+/* hero */
+header.hero{position:relative;padding:64px 0 36px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:30px;align-items:center}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero-art-box{display:none}}
+.kicker{font-size:11.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-text)}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);font-weight:800;letter-spacing:-.02em;margin:12px 0 8px;line-height:1.08}
+.meta{color:var(--faint);font-size:13.5px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.meta i{font-style:normal}
+.lede{color:var(--muted);font-size:16px;margin-top:14px;max-width:56ch}
+.hero-art-box{position:relative;display:flex;justify-content:center}
+.hero-art-box svg{width:min(300px,100%);height:auto;filter:drop-shadow(0 24px 60px rgba(201,168,76,.14))}
+.counsel{display:flex;gap:16px;align-items:flex-start;border:1px solid rgba(201,168,76,.4);
+  background:linear-gradient(150deg,rgba(201,168,76,.09),rgba(8,14,26,.5));border-radius:14px;
+  padding:17px 21px;margin-top:26px}
+.counsel .c-ico{flex:none;width:42px;height:42px;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.4);color:var(--gold-bright)}
+.counsel b{color:var(--gold-text);font-size:14px;display:block;margin-bottom:2px}
+.counsel p{font-size:13.5px;color:var(--muted)}
+/* TOC chips */
+.toc{position:sticky;top:69px;z-index:40;background:rgba(5,10,18,.82);backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(240,237,232,.06);padding:10px 0;margin-top:30px}
+.toc .row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.toc .row::-webkit-scrollbar{display:none}
+.toc a{flex:none;font-size:12px;font-weight:700;color:var(--muted);text-decoration:none;
+  border:1px solid rgba(240,237,232,.13);border-radius:999px;padding:7px 14px;min-height:34px;
+  display:inline-flex;align-items:center;gap:7px;transition:all .2s}
+.toc a:hover,.toc a.on{color:var(--gold-text);border-color:rgba(201,168,76,.45);background:rgba(201,168,76,.08)}
+.toc a b{color:var(--gold-text);font-weight:800}
+/* sections */
+main{padding:36px 0 60px}
+.sec{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:38px 0;border-top:1px solid rgba(240,237,232,.07);
+  scroll-margin-top:130px}
+.sec:first-of-type{border-top:0}
+@media(max-width:640px){.sec{grid-template-columns:1fr;gap:14px}}
+.tile{align-self:start;display:flex;flex-direction:column;align-items:center;gap:9px;width:82px;
+  border:1px solid rgba(201,168,76,.28);border-radius:16px;background:linear-gradient(165deg,rgba(201,168,76,.09),rgba(8,14,26,.5));
+  padding:15px 10px 14px}
+@media(max-width:640px){.tile{flex-direction:row;width:auto;align-self:flex-start;padding:10px 16px;gap:12px}}
+.tile .n{font-size:1.45rem;font-weight:800;color:var(--gold-bright);line-height:1;letter-spacing:-.01em}
+.tile .ic{color:var(--gold);display:flex}
+.sec-body{position:relative;padding-left:26px;border-left:1px solid rgba(201,168,76,.18)}
+@media(max-width:640px){.sec-body{padding-left:0;border-left:0}}
+.sec-body h2{font-size:1.35rem;font-weight:800;letter-spacing:-.01em;margin-bottom:4px}
+.sec-body .rule{width:44px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--gold),var(--gold-bright));
+  margin:10px 0 16px}
+.sec-body p,.sec-body li{color:var(--muted);font-size:15px}
+.sec-body ul{padding-left:0;list-style:none;display:grid;gap:10px;margin:12px 0 4px}
+.sec-body ul li{display:flex;gap:12px}
+.sec-body ul li .li-ic{flex:none;margin-top:4px;color:var(--gold-text)}
+.sec-body p + p{margin-top:12px}
+strong{color:var(--text)}
+/* callouts */
+.callout{display:flex;gap:16px;align-items:flex-start;border:1px solid rgba(240,237,232,.15);
+  background:rgba(240,237,232,.035);border-radius:14px;padding:18px 22px;margin:18px 0 4px}
+.callout.goldc{border-color:rgba(201,168,76,.4);background:rgba(201,168,76,.07)}
+.callout .co-ico{flex:none;width:40px;height:40px;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;border:1px solid rgba(201,168,76,.4);background:rgba(201,168,76,.1);color:var(--gold-bright)}
+.callout p{font-size:14px}
+/* data table (privacy) */
+.dtab{border:1px solid rgba(240,237,232,.1);border-radius:14px;overflow:hidden;margin:16px 0 4px}
+.dtab .dhead,.dtab .drow{display:grid;grid-template-columns:1.5fr 1.1fr .95fr;gap:14px;padding:13px 18px;align-items:center}
+.dtab .dhead{background:rgba(201,168,76,.07);font-size:11px;font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--gold-text)}
+.dtab .drow{border-top:1px solid rgba(240,237,232,.07);font-size:13.5px;color:var(--muted)}
+.dtab .dcell1{display:flex;gap:12px;align-items:center}
+.dtab .d-ic{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid rgba(201,168,76,.32);
+  display:flex;align-items:center;justify-content:center;color:var(--gold-text);background:rgba(201,168,76,.07)}
+@media(max-width:700px){
+  .dtab .dhead{display:none}
+  .dtab .drow{grid-template-columns:1fr;gap:7px;padding:15px 16px}
+  .dtab .drow > span:nth-child(2)::before{content:attr(data-lbl1) ": ";color:var(--gold-text);font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+  .dtab .drow > span:nth-child(3)::before{content:attr(data-lbl2) ": ";color:var(--gold-text);font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+}
+/* dignity commitments */
+.cmt{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:26px 0;border-top:1px solid rgba(240,237,232,.07);scroll-margin-top:130px}
+.cmt:first-of-type{border-top:0}
+@media(max-width:640px){.cmt{grid-template-columns:1fr;gap:12px}}
+.cmt h2{font-size:1.14rem;font-weight:800;margin-bottom:5px}
+.cmt p{color:var(--muted);font-size:14.5px}
+.trust-band{display:flex;gap:18px;align-items:flex-start;border:1px solid rgba(201,168,76,.4);border-radius:16px;
+  background:linear-gradient(160deg,rgba(201,168,76,.1),rgba(8,14,26,.6));padding:24px 28px;margin-top:36px}
+.trust-band .tb-ico{flex:none;width:50px;height:50px;border-radius:50%;border:1px solid rgba(201,168,76,.45);
+  display:flex;align-items:center;justify-content:center;color:var(--gold-bright);background:rgba(201,168,76,.12)}
+.trust-band b{display:block;color:var(--gold-text);font-size:15.5px;margin-bottom:3px}
+.trust-band p{font-size:14px;color:var(--muted)}
+/* footer links */
+.xlinks{display:flex;gap:10px 26px;flex-wrap:wrap;border-top:1px solid rgba(240,237,232,.08);
+  margin-top:44px;padding:26px 0 40px;font-size:14px}
+/* reveals */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .55s var(--ease),transform .55s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <div class="top">
-    <a href="/">← Metanoia Labs</a>
-    <span class="lang"><button data-lang="en" class="on">EN</button><button data-lang="id">ID</button></span>
+<nav class="top"><div class="wrap bar">
+  <a class="back" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>Metanoia Labs</a>
+  <span class="lang"><button data-lang="en" class="on">EN</button><button data-lang="id">ID</button></span>
+</div></nav>
+<header class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="kicker" data-en="Legal" data-id="Legal">Legal</span>
+      <h1 data-en="Terms of Service" data-id="Ketentuan Layanan">Terms of Service</h1>
+      <p class="meta"><i data-en="Version 1.0" data-id="Versi 1.0">Version 1.0</i> · <i data-en="Draft of 16 August 2026" data-id="Draf 16 Agustus 2026">Draft of 16 August 2026</i></p>
+      <div class="counsel rv">
+        <span class="c-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5h6.5L19 8v12.5H8Z" transform="translate(-1.5 0)"/><path d="M13 3.5V8h4.5" transform="translate(-1.5 0)"/><path d="m9.5 15 1.8 1.8 3.2-3.8"/></svg></span>
+        <div>
+          <b data-en="Working draft prepared for review by Indonesian legal counsel before finalisation." data-id="Draf kerja yang disiapkan untuk ditinjau oleh konsultan hukum Indonesia sebelum difinalkan.">Working draft prepared for review by Indonesian legal counsel before finalisation.</b>
+          <p data-en="Written to be read, not to intimidate." data-id="Ditulis untuk dibaca, bukan untuk mengintimidasi.">Written to be read, not to intimidate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-art-box rv"><svg viewBox="0 0 300 300" fill="none" aria-hidden="true">
+  <defs><radialGradient id="tg" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#C9A84C" stop-opacity=".18"/><stop offset="1" stop-color="#C9A84C" stop-opacity="0"/></radialGradient>
+  <linearGradient id="tl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0D878"/><stop offset="1" stop-color="#C9A84C"/></linearGradient></defs>
+  <circle cx="150" cy="145" r="128" fill="url(#tg)"/>
+  <ellipse cx="150" cy="238" rx="92" ry="14" stroke="#C9A84C" opacity=".4"/>
+  <ellipse cx="150" cy="238" rx="62" ry="9" stroke="#C9A84C" opacity=".25"/>
+  <path d="M105 60h68l24 24v138a8 8 0 0 1-8 8h-84a8 8 0 0 1-8-8V68a8 8 0 0 1 8-8Z" fill="rgba(8,14,26,.92)" stroke="url(#tl)" stroke-width="2.2"/>
+  <path d="M173 60v24h24" stroke="url(#tl)" stroke-width="2.2" fill="none"/>
+  <g stroke="#C9A84C" stroke-width="2" opacity=".6" stroke-linecap="round">
+    <path d="M116 104h48M116 120h66M116 136h66M116 152h40"/>
+  </g>
+  <circle cx="178" cy="182" r="30" fill="rgba(8,14,26,.95)" stroke="url(#tl)" stroke-width="2.2"/>
+  <g stroke="#E8C96A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M178 168v26M169 194h18M178 171l-8 3m8-3 8 3"/>
+    <path d="M166 181.5 170 174l4 7.5a4.2 4.2 0 0 1-8 0ZM182 181.5 186 174l4 7.5a4.2 4.2 0 0 1-8 0Z"/>
+  </g>
+</svg></div>
   </div>
-
-  <span class="kicker">Legal</span>
-  <h1 data-en="Terms of Service" data-id="Ketentuan Layanan">Terms of Service</h1>
-  <p class="meta" data-en="Version 1.0 · Draft of 16 August 2026" data-id="Versi 1.0 · Draf 16 Agustus 2026">Version 1.0 · Draft of 16 August 2026</p>
-
-  <div class="counsel" data-en="Working draft prepared for review by Indonesian legal counsel before finalisation. Written to be read, not to intimidate."
-       data-id="Draf kerja yang disiapkan untuk ditinjau oleh konsultan hukum Indonesia sebelum difinalkan. Ditulis untuk dibaca, bukan untuk mengintimidasi.">Working draft prepared for review by Indonesian legal counsel before finalisation. Written to be read, not to intimidate.</div>
-
-  <h2 data-en="1. The service" data-id="1. Layanan">1. The service</h2>
-  <p data-en="Metanoia Labs provides career-preparation tools: a free readiness assessment (the Career Map), learning modules organised in five pillars, and a progress tracker (The Compass). We are in early access: some parts are live, some are in development, and every product states which on its own page."
-     data-id="Metanoia Labs menyediakan alat persiapan karier: asesmen kesiapan gratis (Career Map), modul pembelajaran yang tersusun dalam lima pilar, dan pelacak progres (The Compass). Kami dalam tahap akses awal: sebagian sudah tersedia, sebagian masih dikembangkan, dan setiap produk menyatakan statusnya di halamannya masing-masing.">Metanoia Labs provides career-preparation tools: a free readiness assessment (the Career Map), learning modules organised in five pillars, and a progress tracker (The Compass). We are in early access: some parts are live, some are in development, and every product states which on its own page.</p>
-
-  <div class="callout">
-    <p data-en="<strong>What we do not promise:</strong> Metanoia does not guarantee employment, interviews, offers, scholarships, or admission to any programme. We build your readiness; hiring decisions belong to employers. Anyone in this market who promises you a job is selling you something else."
-       data-id="<strong>Yang tidak kami janjikan:</strong> Metanoia tidak menjamin pekerjaan, wawancara, tawaran, beasiswa, atau penerimaan ke program mana pun. Kami membangun kesiapanmu; keputusan perekrutan ada di tangan pemberi kerja. Siapa pun di pasar ini yang menjanjikan pekerjaan sedang menjual hal lain kepadamu."><strong>What we do not promise:</strong> Metanoia does not guarantee employment, interviews, offers, scholarships, or admission to any programme. We build your readiness; hiring decisions belong to employers. Anyone in this market who promises you a job is selling you something else.</p>
+</div></header>
+  <div class="toc"><div class="wrap row">
+    <a href="#service"><b>01</b><span data-en="Service" data-id="Layanan">Service</span></a>
+    <a href="#account"><b>02</b><span data-en="Account" data-id="Akun">Account</span></a>
+    <a href="#billing"><b>03</b><span data-en="Billing" data-id="Penagihan">Billing</span></a>
+    <a href="#use"><b>04</b><span data-en="Acceptable use" data-id="Penggunaan">Acceptable use</span></a>
+    <a href="#content"><b>05</b><span data-en="Content" data-id="Konten">Content</span></a>
+    <a href="#liability"><b>06</b><span data-en="Liability" data-id="Tanggung jawab">Liability</span></a>
+    <a href="#law"><b>07</b><span data-en="Law" data-id="Hukum">Law</span></a>
+  </div></div>
+<main><div class="wrap">
+    <section class="sec rv" id="service">
+      <div class="tile"><span class="n">01</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="The service" data-id="Layanan">The service</h2>
+        <div class="rule"></div>
+        <p data-en="Metanoia Labs provides career-preparation tools: a free readiness assessment (the Career Map), learning modules organised in five pillars, and a progress tracker (The Compass). We are in early access: some parts are live, some are in development, and every product states which on its own page." data-id="Metanoia Labs menyediakan alat persiapan karier: asesmen kesiapan gratis (Career Map), modul pembelajaran yang tersusun dalam lima pilar, dan pelacak progres (The Compass). Kami dalam tahap akses awal: sebagian sudah tersedia, sebagian masih dikembangkan, dan setiap produk menyatakan statusnya di halamannya masing-masing.">Metanoia Labs provides career-preparation tools: a free readiness assessment (the Career Map), learning modules organised in five pillars, and a progress tracker (The Compass). We are in early access: some parts are live, some are in development, and every product states which on its own page.</p>
+        <div class="callout">
+          <span class="co-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/></svg></span>
+          <p data-en="<strong>What we do not promise:</strong> Metanoia does not guarantee employment, interviews, offers, scholarships, or admission to any programme. We build your readiness; hiring decisions belong to employers. Anyone in this market who promises you a job is selling you something else."
+             data-id="<strong>Yang tidak kami janjikan:</strong> Metanoia tidak menjamin pekerjaan, wawancara, tawaran, beasiswa, atau penerimaan ke program mana pun. Kami membangun kesiapanmu; keputusan perekrutan ada di tangan pemberi kerja. Siapa pun di pasar ini yang menjanjikan pekerjaan sedang menjual hal lain kepadamu."><strong>What we do not promise:</strong> Metanoia does not guarantee employment, interviews, offers, scholarships, or admission to any programme. We build your readiness; hiring decisions belong to employers. Anyone in this market who promises you a job is selling you something else.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sec rv" id="account">
+      <div class="tile"><span class="n">02</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.2" r="3.4"/><path d="M5.5 20c.7-3.6 3.2-5.6 6.5-5.6s5.8 2 6.5 5.6"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Eligibility and your account" data-id="Kelayakan dan akunmu">Eligibility and your account</h2>
+        <div class="rule"></div>
+        <p data-en="You must be at least 17 to use Metanoia. Keep your credentials to yourself, tell us if your account is compromised, and give us information that is true. Student pricing requires verification of active student status." data-id="Kamu harus berusia minimal 17 tahun untuk menggunakan Metanoia. Jaga kredensialmu, beri tahu kami jika akunmu disusupi, dan berikan informasi yang benar. Harga mahasiswa memerlukan verifikasi status mahasiswa aktif.">You must be at least 17 to use Metanoia. Keep your credentials to yourself, tell us if your account is compromised, and give us information that is true. Student pricing requires verification of active student status.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="billing">
+      <div class="tile"><span class="n">03</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10.5h18"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Subscriptions, billing, and cancellation" data-id="Langganan, penagihan, dan pembatalan">Subscriptions, billing, and cancellation</h2>
+        <div class="rule"></div>
+        <ul>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="The free tier is free, always, and requires no card." data-id="Paket gratis selalu gratis, dan tidak memerlukan kartu.">The free tier is free, always, and requires no card.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Paid plans renew on the schedule shown at purchase. We state the renewal price before you commit, and we email you before any renewal." data-id="Paket berbayar diperpanjang sesuai jadwal yang ditampilkan saat pembelian. Kami menyatakan harga perpanjangan sebelum kamu berkomitmen, dan mengirim email sebelum perpanjangan.">Paid plans renew on the schedule shown at purchase. We state the renewal price before you commit, and we email you before any renewal.</span></li>
+      <li><span class="li-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="Cancellation is one click from Settings, effective at the end of the paid period. No retention flows, no phone calls." data-id="Pembatalan cukup satu klik dari Pengaturan, berlaku hingga akhir periode berbayar. Tanpa alur retensi, tanpa telepon.">Cancellation is one click from Settings, effective at the end of the paid period. No retention flows, no phone calls.</span></li>
+        </ul>
+        <div class="callout goldc">
+          <span class="co-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3.2v3.4M16 3.2v3.4"/><path d="m9 14.5 2 2 4-4.5"/></svg></span>
+          <p data-en="<strong>Refund policy: 14 days, no questions asked.</strong> If a paid plan is not what you hoped, tell us within 14 days of purchase and we refund it in full."
+             data-id="<strong>Kebijakan pengembalian dana: 14 hari, tanpa pertanyaan.</strong> Jika paket berbayar tidak sesuai harapanmu, beri tahu kami dalam 14 hari sejak pembelian dan kami kembalikan dananya penuh."><strong>Refund policy: 14 days, no questions asked.</strong> If a paid plan is not what you hoped, tell us within 14 days of purchase and we refund it in full.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sec rv" id="use">
+      <div class="tile"><span class="n">04</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Acceptable use" data-id="Penggunaan yang wajar">Acceptable use</h2>
+        <div class="rule"></div>
+        <p data-en="Do not attack the platform, scrape other users&rsquo; data, resell access, impersonate others, or upload unlawful content. We may suspend accounts that do, and we will say why." data-id="Jangan menyerang platform, mengambil data pengguna lain, menjual kembali akses, menyamar sebagai orang lain, atau mengunggah konten yang melanggar hukum. Kami dapat menangguhkan akun yang melakukannya, dan kami akan menyampaikan alasannya.">Do not attack the platform, scrape other users&rsquo; data, resell access, impersonate others, or upload unlawful content. We may suspend accounts that do, and we will say why.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="content">
+      <div class="tile"><span class="n">05</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4.5h8.5A2.5 2.5 0 0 1 19 7v12.5l-3.2-2.3-3.3 2.3-3.3-2.3L6 19.5V7a2.5 2.5 0 0 1 2-2.5Z"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Your content, our content" data-id="Kontenmu, konten kami">Your content, our content</h2>
+        <div class="rule"></div>
+        <p data-en="What you write in Metanoia — assessment answers, CV drafts, notes — is yours. You grant us the licence needed to store and process it to run the service, and nothing more. Our curriculum, brand, and platform are ours; personal, non-commercial use only." data-id="Apa yang kamu tulis di Metanoia — jawaban asesmen, draf CV, catatan — adalah milikmu. Kamu memberi kami lisensi yang diperlukan untuk menyimpan dan memprosesnya demi menjalankan layanan, tidak lebih. Kurikulum, merek, dan platform adalah milik kami; hanya untuk penggunaan pribadi non-komersial.">What you write in Metanoia — assessment answers, CV drafts, notes — is yours. You grant us the licence needed to store and process it to run the service, and nothing more. Our curriculum, brand, and platform are ours; personal, non-commercial use only.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="liability">
+      <div class="tile"><span class="n">06</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16M7 20h10M12 6.5 6 8m6-1.5L18 8"/><path d="M3.5 13.5 6 8l2.5 5.5a2.6 2.6 0 0 1-5 0ZM15.5 13.5 18 8l2.5 5.5a2.6 2.6 0 0 1-5 0Z"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Liability" data-id="Tanggung jawab">Liability</h2>
+        <div class="rule"></div>
+        <p data-en="We provide the service with care but as-is; career outcomes depend on factors beyond any platform. To the extent Indonesian law permits, our liability is limited to the amount you paid us in the twelve months before the claim. Nothing here limits liability that cannot lawfully be limited." data-id="Kami menyediakan layanan dengan cermat namun apa adanya; hasil karier bergantung pada faktor di luar platform mana pun. Sejauh diizinkan hukum Indonesia, tanggung jawab kami terbatas pada jumlah yang kamu bayarkan dalam dua belas bulan sebelum klaim. Tidak ada ketentuan di sini yang membatasi tanggung jawab yang tidak dapat dibatasi secara hukum.">We provide the service with care but as-is; career outcomes depend on factors beyond any platform. To the extent Indonesian law permits, our liability is limited to the amount you paid us in the twelve months before the claim. Nothing here limits liability that cannot lawfully be limited.</p>
+      </div>
+    </section>
+    <section class="sec rv" id="law">
+      <div class="tile"><span class="n">07</span><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V4.5A1.5 1.5 0 0 1 5.5 3h9L19 7.5V21"/><path d="M14 3v5h5"/><path d="M8 12h8M8 15.5h8"/></svg></span></div>
+      <div class="sec-body">
+        <h2 data-en="Termination, law, disputes" data-id="Pengakhiran, hukum, sengketa">Termination, law, disputes</h2>
+        <div class="rule"></div>
+        <p data-en="You may close your account any time (Settings → Privacy &amp; Data). These terms are governed by the laws of the Republic of Indonesia. Disputes go first to good-faith discussion with us at hello@metanoialabs.net, then to the competent Indonesian courts." data-id="Kamu dapat menutup akunmu kapan saja (Pengaturan → Privasi &amp; Data). Ketentuan ini diatur oleh hukum Republik Indonesia. Sengketa diselesaikan lebih dulu melalui diskusi itikad baik bersama kami di hello@metanoialabs.net, lalu ke pengadilan Indonesia yang berwenang.">You may close your account any time (Settings → Privacy &amp; Data). These terms are governed by the laws of the Republic of Indonesia. Disputes go first to good-faith discussion with us at hello@metanoialabs.net, then to the competent Indonesian courts.</p>
+      </div>
+    </section>
+  <div class="xlinks">
+    <a href="privacy.html" data-en="Privacy Notice →" data-id="Pemberitahuan Privasi →">Privacy Notice →</a>
+    <a href="data-dignity.html" data-en="Data Dignity commitments →" data-id="Komitmen Martabat Data →">Data Dignity commitments →</a>
   </div>
-
-  <h2 data-en="2. Eligibility and your account" data-id="2. Kelayakan dan akunmu">2. Eligibility and your account</h2>
-  <p data-en="You must be at least 17 to use Metanoia. Keep your credentials to yourself, tell us if your account is compromised, and give us information that is true. Student pricing requires verification of active student status."
-     data-id="Kamu harus berusia minimal 17 tahun untuk menggunakan Metanoia. Jaga kredensialmu, beri tahu kami jika akunmu disusupi, dan berikan informasi yang benar. Harga mahasiswa memerlukan verifikasi status mahasiswa aktif.">You must be at least 17 to use Metanoia. Keep your credentials to yourself, tell us if your account is compromised, and give us information that is true. Student pricing requires verification of active student status.</p>
-
-  <h2 data-en="3. Subscriptions, billing, and cancellation" data-id="3. Langganan, penagihan, dan pembatalan">3. Subscriptions, billing, and cancellation</h2>
-  <ul>
-    <li data-en="The free tier is free, always, and requires no card." data-id="Paket gratis selalu gratis, dan tidak memerlukan kartu.">The free tier is free, always, and requires no card.</li>
-    <li data-en="Paid plans renew on the schedule shown at purchase. We state the renewal price before you commit, and we email you before any renewal." data-id="Paket berbayar diperpanjang sesuai jadwal yang ditampilkan saat pembelian. Kami menyatakan harga perpanjangan sebelum kamu berkomitmen, dan mengirim email sebelum perpanjangan.">Paid plans renew on the schedule shown at purchase. We state the renewal price before you commit, and we email you before any renewal.</li>
-    <li data-en="Cancellation is one click from Settings, effective at the end of the paid period. No retention flows, no phone calls." data-id="Pembatalan cukup satu klik dari Pengaturan, berlaku hingga akhir periode berbayar. Tanpa alur retensi, tanpa telepon.">Cancellation is one click from Settings, effective at the end of the paid period. No retention flows, no phone calls.</li>
-  </ul>
-
-  <div class="callout">
-    <p data-en="<strong>Refund policy: 14 days, no questions asked.</strong> If a paid plan is not what you hoped, tell us within 14 days of purchase and we refund it in full."
-       data-id="<strong>Kebijakan pengembalian dana: 14 hari, tanpa pertanyaan.</strong> Jika paket berbayar tidak sesuai harapanmu, beri tahu kami dalam 14 hari sejak pembelian dan kami kembalikan dananya penuh."><strong>Refund policy: 14 days, no questions asked.</strong> If a paid plan is not what you hoped, tell us within 14 days of purchase and we refund it in full.</p>
-  </div>
-
-  <h2 data-en="4. Acceptable use" data-id="4. Penggunaan yang wajar">4. Acceptable use</h2>
-  <p data-en="Do not attack the platform, scrape other users&rsquo; data, resell access, impersonate others, or upload unlawful content. We may suspend accounts that do, and we will say why."
-     data-id="Jangan menyerang platform, mengambil data pengguna lain, menjual kembali akses, menyamar sebagai orang lain, atau mengunggah konten yang melanggar hukum. Kami dapat menangguhkan akun yang melakukannya, dan kami akan menyampaikan alasannya.">Do not attack the platform, scrape other users&rsquo; data, resell access, impersonate others, or upload unlawful content. We may suspend accounts that do, and we will say why.</p>
-
-  <h2 data-en="5. Your content, our content" data-id="5. Kontenmu, konten kami">5. Your content, our content</h2>
-  <p data-en="What you write in Metanoia — assessment answers, CV drafts, notes — is yours. You grant us the licence needed to store and process it to run the service, and nothing more. Our curriculum, brand, and platform are ours; personal, non-commercial use only."
-     data-id="Apa yang kamu tulis di Metanoia — jawaban asesmen, draf CV, catatan — adalah milikmu. Kamu memberi kami lisensi yang diperlukan untuk menyimpan dan memprosesnya demi menjalankan layanan, tidak lebih. Kurikulum, merek, dan platform adalah milik kami; hanya untuk penggunaan pribadi non-komersial.">What you write in Metanoia — assessment answers, CV drafts, notes — is yours. You grant us the licence needed to store and process it to run the service, and nothing more. Our curriculum, brand, and platform are ours; personal, non-commercial use only.</p>
-
-  <h2 data-en="6. Liability" data-id="6. Tanggung jawab">6. Liability</h2>
-  <p data-en="We provide the service with care but as-is; career outcomes depend on factors beyond any platform. To the extent Indonesian law permits, our liability is limited to the amount you paid us in the twelve months before the claim. Nothing here limits liability that cannot lawfully be limited."
-     data-id="Kami menyediakan layanan dengan cermat namun apa adanya; hasil karier bergantung pada faktor di luar platform mana pun. Sejauh diizinkan hukum Indonesia, tanggung jawab kami terbatas pada jumlah yang kamu bayarkan dalam dua belas bulan sebelum klaim. Tidak ada ketentuan di sini yang membatasi tanggung jawab yang tidak dapat dibatasi secara hukum.">We provide the service with care but as-is; career outcomes depend on factors beyond any platform. To the extent Indonesian law permits, our liability is limited to the amount you paid us in the twelve months before the claim. Nothing here limits liability that cannot lawfully be limited.</p>
-
-  <h2 data-en="7. Termination, law, disputes" data-id="7. Pengakhiran, hukum, sengketa">7. Termination, law, disputes</h2>
-  <p data-en="You may close your account any time (Settings → Privacy &amp; Data). These terms are governed by the laws of the Republic of Indonesia. Disputes go first to good-faith discussion with us at hello@metanoialabs.net, then to the competent Indonesian courts."
-     data-id="Kamu dapat menutup akunmu kapan saja (Pengaturan → Privasi &amp; Data). Ketentuan ini diatur oleh hukum Republik Indonesia. Sengketa diselesaikan lebih dulu melalui diskusi itikad baik bersama kami di hello@metanoialabs.net, lalu ke pengadilan Indonesia yang berwenang.">You may close your account any time (Settings → Privacy &amp; Data). These terms are governed by the laws of the Republic of Indonesia. Disputes go first to good-faith discussion with us at hello@metanoialabs.net, then to the competent Indonesian courts.</p>
-
-  <hr>
-  <p style="margin-top:18px"><a href="privacy.html" data-en="Privacy Notice →" data-id="Pemberitahuan Privasi →">Privacy Notice →</a> &nbsp;·&nbsp; <a href="data-dignity.html" data-en="Data Dignity commitments →" data-id="Komitmen Martabat Data →">Data Dignity commitments →</a></p>
-</div>
+</div></main>
 <script>
 (function(){
   var KEY='mtLang';
@@ -110,6 +260,28 @@ hr{border:0;border-top:1px solid rgba(240,237,232,.1);margin:44px 0}
   });
   var st=null; try{st=localStorage.getItem(KEY);}catch(e){}
   if(st==='id') sweep('id');
+})();
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});
+  } else {
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+    },{rootMargin:'0px 0px -6% 0px'});
+    document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  }
+  var links=[].slice.call(document.querySelectorAll('.toc a'));
+  if(links.length){
+    var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
+    var so=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id);});
+        }
+      });
+    },{rootMargin:'-30% 0px -60% 0px'});
+    secs.forEach(function(s){ if(s) so.observe(s); });
+  }
 })();
 </script>
 </body>
