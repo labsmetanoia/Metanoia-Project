@@ -33,7 +33,10 @@
     block_4: { en: "what you're drawn to", id: 'apa yang menarikmu' },
     block_5: { en: 'how you like to work', id: 'cara kerja favoritmu' },
     block_6: { en: 'what matters to you', id: 'apa yang penting bagimu' },
-    block_7: { en: "what's in the way", id: 'apa yang menghalangi' }
+    block_7: { en: "what's in the way", id: 'apa yang menghalangi' },
+    block_8: { en: 'industries you named', id: 'industri yang kamu sebut' },
+    block_9: { en: 'functions you named', id: 'fungsi yang kamu sebut' },
+    block_10: { en: 'your aspiration', id: 'aspirasimu' }
   };
 
   var ATTR_PHRASES = {
@@ -50,7 +53,7 @@
   };
 
   function completeness(identity) {
-    var blocks = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7'];
+    var blocks = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10'];
     var done = blocks.filter(function (b) { return identity[b] && identity[b].done; }).length;
     return done / blocks.length;
   }
@@ -103,6 +106,27 @@
               : 'People ask you for help with ' + s.label + '. Revealed demand means more than self-assessment.'
           });
         }
+      }
+    });
+
+    (identity.prefIndustries || []).forEach(function (ind) {
+      if ((dir.industry_ids || []).indexOf(ind) !== -1) {
+        ev.push({
+          kind: 'stated', src: 'block_8',
+          text: lang === 'id'
+            ? 'Kamu sendiri menyebut industri ini sebagai yang ingin kamu jelajahi.'
+            : 'You named this industry yourself as one you want to explore.'
+        });
+      }
+    });
+    (identity.prefFunctions || []).forEach(function (fn) {
+      if ((dir.function_ids || []).indexOf(fn) !== -1) {
+        ev.push({
+          kind: 'stated', src: 'block_9',
+          text: lang === 'id'
+            ? 'Fungsi kerja ini termasuk yang kamu pilih sendiri.'
+            : 'This working function is one you picked yourself.'
+        });
       }
     });
 

@@ -8,6 +8,13 @@
 (function () {
   'use strict';
   var G = window.MT_RANGE_GRAPH, F = window.MT_RANGE_FIT, O = window.MT_RANGE_OPPS;
+  var COS = O.companies();
+  var OPPS_ALL = O.opps();
+  function CO(id) { return COS.filter(function (c) { return c.id === id; })[0]; }
+  function monogram(name) {
+    var parts = name.replace(/\(.*\)/g, '').trim().split(/\s+/);
+    return (parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase();
+  }
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
   var esc = function (s) { return (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
@@ -18,9 +25,19 @@
 
   function applyLang() {
     $$('[data-en]').forEach(function (n) { n.innerHTML = n.getAttribute(lang() === 'id' ? 'data-id' : 'data-en'); });
-    $$('.rail .lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang()); });
+    $('#themeBtn').addEventListener('click', function () {
+    var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('mt-theme', next); } catch (e) {}
+  });
+  $$('.rail .lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang()); });
     document.documentElement.lang = lang();
   }
+  $('#themeBtn').addEventListener('click', function () {
+    var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('mt-theme', next); } catch (e) {}
+  });
   $$('.rail .lang button').forEach(function (b) {
     b.addEventListener('click', function () {
       try { localStorage.setItem('mtLang', b.dataset.lang); } catch (e) {}
@@ -41,11 +58,15 @@
     } catch (e) { return freshId(); }
   }
   function freshId() {
-    return { b1: {}, b2: {}, b3: {}, b4: {}, b5: {}, b6: {}, b7: {}, quick: {},
+    return { b1: {}, b2: {}, b3: {}, b4: {}, b5: {}, b6: {}, b7: {}, b8: {}, b9: {}, b10: {}, quick: {},
       attributes: {}, attributeSources: {}, skills: [], interests: [],
+      prefIndustries: [], prefFunctions: [],
       topValues: [], constraints: [], dismissed: [], statement: null };
   }
   var ID = loadId();
+  ['b8', 'b9', 'b10'].forEach(function (k) { if (!ID[k]) ID[k] = {}; });
+  if (!ID.prefIndustries) ID.prefIndustries = [];
+  if (!ID.prefFunctions) ID.prefFunctions = [];
   function saveId() { try { localStorage.setItem(IKEY, JSON.stringify(ID)); } catch (e) {} }
 
   function loadPoss() { try { return JSON.parse(localStorage.getItem(PKEY) || '[]'); } catch (e) { return []; } }
@@ -91,42 +112,59 @@
   /* ═══ S1 · LANDING ═══ */
   function renderHome() {
     var host = $('#v-home');
-    var shopee = G.programmes.filter(function (p) { return p.id === 'shopee-gdp'; })[0];
+    var shopee = G.programmes.filter(function (p2) { return p2.id === 'shopee-gdp'; })[0];
+    var FLOW = [
+      [t('Explore', 'Jelajah'), t('Browse industries, companies and roles — freely, no account.', 'Jelajahi industri, perusahaan, dan peran — bebas, tanpa akun.')],
+      [t('Select', 'Pilih'), t('Open an opportunity that catches your eye.', 'Buka peluang yang menarik perhatianmu.')],
+      [t('Investigate', 'Selidiki'), t('See how they actually hire, and whether you can apply.', 'Lihat cara mereka merekrut, dan apakah kamu bisa melamar.')],
+      [t('Compare', 'Bandingkan'), t('Put possibilities side by side, trade-offs in the open.', 'Sandingkan kemungkinan, kompromi di permukaan.')],
+      [t('Understand', 'Pahami'), t('Know your gaps and the honest preparation cost.', 'Ketahui kesenjanganmu dan biaya persiapan yang jujur.')],
+      [t('Decide', 'Putuskan'), t('Commit to one — and hand off to the pillars that prepare you.', 'Tetapkan satu — lalu lanjut ke pilar yang menyiapkanmu.')]
+    ];
     host.innerHTML =
-      '<div style="max-width:640px;padding-top:26px">' +
-      '<p class="micro" style="color:var(--r-explore)">The Range · Bentang · ' + t('Free to start', 'Gratis untuk memulai') + '</p>' +
-      '<h1 style="font-size:clamp(30px,5vw,44px);letter-spacing:-.02em;line-height:1.12;margin:14px 0 14px">' +
-      t('See what&rsquo;s out there. Then find out what it takes.', 'Lihat apa yang ada di luar sana. Lalu cari tahu apa yang dibutuhkan.') + '</h1>' +
+      '<div style="max-width:680px;padding-top:22px">' +
+      '<p class="micro">00 · The Range · Bentang · ' + t('Free to start', 'Gratis untuk memulai') + '</p>' +
+      '<h1 class="serif" style="font-size:clamp(30px,5vw,46px);letter-spacing:-.01em;line-height:1.14;margin:14px 0 14px">' +
+      t('See what&rsquo;s out there. <em style="color:var(--r-explore)">Then find out what it takes.</em>',
+        'Lihat apa yang ada di luar sana. <em style="color:var(--r-explore)">Lalu cari tahu apa yang dibutuhkan.</em>') + '</h1>' +
       '<p style="font-size:16px;color:var(--r-text-2);margin-bottom:24px">' +
       t('You don&rsquo;t need to know what you want yet. Start with three questions.',
         'Kamu belum perlu tahu apa yang kamu mau. Mulailah dengan tiga pertanyaan.') + '</p>' +
       '<div style="display:flex;gap:12px;flex-wrap:wrap">' +
-      '<button class="btn-p" id="homeStart" style="background:var(--r-explore);color:#06090F">' + t('Start with three questions', 'Mulai dengan tiga pertanyaan') + ' →</button>' +
+      '<button class="btn-p" id="homeStart">' + t('Start with three questions', 'Mulai dengan tiga pertanyaan') + ' →</button>' +
       '<button class="btn-s" id="homeBrowse">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
       '<p class="note3" style="margin-top:14px">' + t('Free. No account needed to start. We&rsquo;ll tell you what we don&rsquo;t know.',
         'Gratis. Tanpa akun untuk memulai. Kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
 
-      '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
-      '<div class="card" style="max-width:640px">' +
-      '<p class="micro">Shopee (Sea Group) Indonesia</p>' +
-      '<h3 style="font-size:16px;margin:4px 0 2px">' + L(shopee.name) + '</h3>' +
-      '<p class="note3" style="margin-bottom:14px">' + L(shopee.length) + ' · <span class="prov v">✓ ' + t('official · verified', 'resmi · diverifikasi') + ' ' + shopee.last_verified + '</span></p>' +
-      shopee.stages.map(function (s) {
-        return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + s.seq + '</span><span>' + L(s.name) + '</span></div>';
-      }).join('') +
-      '<button class="btn-q" data-open-opp="shopee-gdp" style="color:var(--r-explore);margin-top:8px">' + t('See the full opportunity', 'Lihat peluang lengkapnya') + ' →</button>' +
-      '</div></div>' +
+      '<div class="sec"><p class="sec-h">' + t('How The Range works', 'Cara kerja The Range') + '</p>' +
+      '<div class="flow-strip">' + FLOW.map(function (f2, i) {
+        return '<div class="fs-step"><span class="n">' + (i + 1) + '</span><b>' + f2[0] + '</b><span>' + f2[1] + '</span></div>';
+      }).join('') + '</div></div>' +
 
-      '<div class="sec"><p class="sec-h">' + t('How it works', 'Cara kerjanya') + '</p>' +
-      '<div class="grid2">' +
-      [[t('Tell us a little', 'Ceritakan sedikit'), t('Three questions, ninety seconds. &ldquo;I genuinely don&rsquo;t know&rdquo; is a real answer here.', 'Tiga pertanyaan, sembilan puluh detik. &ldquo;Aku benar-benar tidak tahu&rdquo; adalah jawaban yang sah di sini.')],
-       [t('See what fits', 'Lihat yang cocok'), t('Directions with evidence for and against — traced to what you said, never a percentage.', 'Arah dengan bukti mendukung dan menentang — dirunut ke jawabanmu, tanpa persentase.')],
-       [t('Find out what it takes', 'Cari tahu apa yang dibutuhkan'), t('Real companies, how they actually hire, whether you can apply, and the honest preparation cost.', 'Perusahaan nyata, cara mereka merekrut, apakah kamu bisa melamar, dan biaya persiapan yang jujur.')]
-      ].map(function (x, i) {
-        return '<div class="card"><p class="micro" style="color:var(--r-explore)">0' + (i + 1) + '</p><h3 style="font-size:15px;margin:6px 0 5px">' + x[0] + '</h3><p style="font-size:13px;color:var(--r-text-2)">' + x[1] + '</p></div>';
-      }).join('') + '</div></div>' + disclaimer();
+      '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
+      '<div class="card" style="max-width:680px">' +
+      '<div style="display:flex;gap:14px;align-items:center;margin-bottom:6px">' +
+      '<span class="mono">' + monogram('Shopee Indonesia') + '</span>' +
+      '<div style="min-width:0"><p class="micro">Shopee (Sea Group) Indonesia</p>' +
+      '<h3 class="serif" style="font-size:18px;margin:2px 0 0">' + L(shopee.name) + '</h3></div>' +
+      '<span class="prov v" style="margin-left:auto;white-space:nowrap">✓ ' + t('official · verified', 'resmi · diverifikasi') + '</span></div>' +
+      '<p class="note3" style="margin:0 0 16px">' + L(shopee.length) + ' · ' + L(shopee.window) + '</p>' +
+      shopee.stages.map(function (st2, i) {
+        return '<div class="demo-stage' + (i === 0 ? ' open' : '') + '"><button data-demo="' + i + '">' +
+          '<span class="sn2">' + st2.seq + '</span><span>' + L(st2.name) + '</span><span class="pm">+</span></button>' +
+          '<div class="body">' + (st2.assess ? t('Assesses: ', 'Menilai: ') + L(st2.assess) : '') +
+          (st2.failure ? '<br><span style="color:var(--r-against)">' + t('Most common failure: ', 'Kegagalan paling umum: ') + L(st2.failure) + '</span>' : '') +
+          '</div></div>';
+      }).join('') +
+      '<p class="note3" style="margin:10px 0 12px">' + t('Every stage above links to the pillar that prepares you for it — that bridge is the product.',
+        'Setiap tahap di atas terhubung ke pilar yang menyiapkanmu — jembatan itulah produknya.') + '</p>' +
+      '<button class="btn-s" data-open-opp="shopee-gdp">' + t('Open the full opportunity', 'Buka peluang lengkapnya') + ' →</button>' +
+      '</div></div>' + disclaimer();
     $('#homeStart').addEventListener('click', function () { go('quick'); });
     $('#homeBrowse').addEventListener('click', function () { go('explore'); });
+    $$('[data-demo]', host).forEach(function (b) {
+      b.addEventListener('click', function () { b.parentElement.classList.toggle('open'); });
+    });
     wireOppButtons(host);
   }
   function disclaimer() {
@@ -325,7 +363,52 @@
         }).join('') + '</div>';
         wireMulti('i_constraints', ID.constraints, function () { ID.b7.done = true; saveId(); });
       },
-      collect: function () { ID.b7.done = ID.b7.done || ID.constraints.length > 0; } }
+      collect: function () { ID.b7.done = ID.b7.done || ID.constraints.length > 0; } },
+    { key: 'b8', title: { en: 'Industries that pull you', id: 'Industri yang menarikmu' },
+      payoff: { en: 'weights results toward industries you actually want', id: 'memberi bobot pada industri yang benar-benar kamu mau' },
+      render: function (h) {
+        h.innerHTML = '<div class="tags" id="i_inds">' + G.industries.map(function (ind) {
+          return '<button class="tag' + ((ID.prefIndustries || []).indexOf(ind.id) !== -1 ? ' on' : '') + '" data-id="' + ind.id + '">' + L(ind.name) + '</button>';
+        }).join('') + '</div><p class="note3" style="margin-top:8px">' +
+        t('Pick any that genuinely interest you — or none.', 'Pilih yang benar-benar menarik bagimu — atau tidak sama sekali.') + '</p>';
+        wireMulti('i_inds', ID.prefIndustries, function () { ID.b8.done = ID.prefIndustries.length > 0; saveId(); });
+      },
+      collect: function () { ID.b8.done = ID.prefIndustries.length > 0; } },
+    { key: 'b9', title: { en: 'Functions you gravitate toward', id: 'Fungsi yang kamu condongi' },
+      payoff: { en: 'surfaces roles in the functions you name', id: 'memunculkan peran di fungsi yang kamu sebut' },
+      render: function (h) {
+        h.innerHTML = '<div class="tags" id="i_fns">' + G.functions.map(function (fn) {
+          return '<button class="tag' + ((ID.prefFunctions || []).indexOf(fn.id) !== -1 ? ' on' : '') + '" data-id="' + fn.id + '">' + L(fn.name) + '</button>';
+        }).join('') + '</div>';
+        wireMulti('i_fns', ID.prefFunctions, function () { ID.b9.done = ID.prefFunctions.length > 0; saveId(); });
+      },
+      collect: function () { ID.b9.done = ID.prefFunctions.length > 0; } },
+    { key: 'b10', title: { en: 'Where you hope this goes', id: 'Ke mana harapanmu membawa ini' },
+      payoff: { en: 'anchors recommendations to your own aspiration', id: 'menautkan rekomendasi pada aspirasimu sendiri' },
+      render: function (h) {
+        var b = ID.b10;
+        h.innerHTML =
+          '<label class="fieldl">' + t('In a sentence or two — what do you hope your work life looks like in five years?', 'Dalam satu-dua kalimat — seperti apa harapanmu tentang kehidupan kerjamu lima tahun lagi?') + '</label>' +
+          '<textarea id="i_asp">' + esc(b.text || '') + '</textarea>' +
+          '<label class="fieldl" style="margin-top:14px">' + t('Which sounds closest?', 'Mana yang paling mendekati?') + '</label>' +
+          '<div class="tags" id="i_horizon">' +
+          [['depth', t('Going deep in one craft', 'Mendalami satu keahlian')],
+           ['breadth', t('Leading across many areas', 'Memimpin lintas banyak area')],
+           ['build', t('Building something of my own someday', 'Suatu saat membangun milikku sendiri')],
+           ['secure', t('A stable, respected profession', 'Profesi yang stabil dan dihormati')]]
+            .map(function (o) { return '<button class="tag' + (b.horizon === o[0] ? ' on' : '') + '" data-id="' + o[0] + '">' + o[1] + '</button>'; }).join('') + '</div>';
+        $$('#i_horizon .tag').forEach(function (tg) {
+          tg.addEventListener('click', function () {
+            ID.b10.text = val('i_asp') || ID.b10.text;
+            ID.b10.horizon = tg.dataset.id; ID.b10.done = true; saveId();
+            $$('#i_horizon .tag').forEach(function (x) { x.classList.toggle('on', x === tg); });
+          });
+        });
+      },
+      collect: function () {
+        ID.b10.text = val('i_asp') || ID.b10.text;
+        ID.b10.done = !!(ID.b10.text && ID.b10.text.length > 5) || !!ID.b10.horizon;
+      } }
   ];
 
   function fSel(id, label, opts, cur) {
@@ -507,6 +590,10 @@
       (unexpected ? '<span class="band unex">✦ ' + t('Unexpected', 'Tak terduga') + '</span>' : '') +
       '<h3 style="font-size:16px;flex:1;min-width:160px">' + L(d.name) + '</h3>' + bandChip(r) + '</div>' +
       '<p class="serif" style="font-size:14.5px;color:var(--r-text-2);margin:8px 0 10px">' + L(d.summary) + '</p>' +
+      (r.evidence.length ? '<div style="border-left:2px solid var(--r-line2);padding:2px 0 2px 12px;margin:0 0 10px">' +
+        '<p style="font-size:12.5px;color:var(--r-text-2);line-height:1.6"><b style="color:var(--r-explore)">' +
+        t('Worth a look because', 'Layak dilihat karena') + ':</b> ' +
+        r.evidence.slice(0, 2).map(function (e) { return e.text.replace(/\.$/, ''); }).join('; ').toLowerCase().replace(/^./, function (ch) { return ch.toUpperCase(); }) + '.</p></div>' : '') +
       '<p style="font-size:12.5px;color:var(--r-text-2)">' +
       t(r.evidence.length + ' things point here · ' + r.counterEvidence.length + ' point away',
         r.evidence.length + ' hal menunjuk ke sini · ' + r.counterEvidence.length + ' menjauh') +
@@ -555,8 +642,8 @@
     var host = $('#v-ddetail');
     if (!d) { host.innerHTML = ''; return; }
     var r = F.analyseDirection(ID, d, lang());
-    var opps = O.OPPS.filter(function (o) { return o.dir === d.id; });
-    var companies = G.companies.filter(function (c) { return d.industry_ids.indexOf(c.industry_id) !== -1; });
+    var opps = OPPS_ALL.filter(function (o) { return o.dir === d.id; });
+    var companies = COS.filter(function (c) { return d.industry_ids.indexOf(c.industry_id) !== -1; });
     host.innerHTML =
       '<button class="btn-q" onclick="history.back()">← ' + t('Back', 'Kembali') + '</button>' +
       '<div style="max-width:680px">' +
@@ -583,45 +670,67 @@
     wireDirCards(host); wireOppButtons(host);
   }
 
-  /* ═══ S6 · EXPLORE — faceted, ungated ═══ */
-  var XF = { ind: '', fn: '', elig: false };
+  /* ═══ S6 · EXPLORE — scoped, company-first, ungated ═══ */
+  var XF = { geo: 'id', ind: '', fn: '' };
+  function coRoles(c) {
+    return OPPS_ALL.filter(function (o) { return o.company === c.id; });
+  }
   function renderExplore() {
     var host = $('#v-explore');
     var hasId = ID.b1 && (ID.b1.age != null || ID.b1.gpa != null);
-    var opps = O.OPPS.filter(function (o) {
-      var co = G.companies.filter(function (c) { return c.id === o.company; })[0];
-      var d = G.directions.filter(function (x) { return x.id === o.dir; })[0];
-      if (XF.ind && co.industry_id !== XF.ind) return false;
-      if (XF.fn && d.function_ids.indexOf(XF.fn) === -1) return false;
+    var cos = COS.filter(function (c) {
+      if (XF.geo && c.geo !== XF.geo) return false;
+      if (XF.ind && c.industry_id !== XF.ind) return false;
+      if (XF.fn && c.fns.indexOf(XF.fn) === -1) return false;
       return true;
     });
     host.innerHTML =
       '<h1 class="h-page">' + t('Explore', 'Jelajah') + '</h1>' +
       '<p class="h-sub">' + t('Browse freely. No identity or account needed.', 'Jelajahi dengan bebas. Tanpa identitas atau akun.') + '</p>' +
-      '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px">' +
+      '<div class="scope" id="xScope" style="margin-bottom:16px">' +
+      '<button data-g="id" class="' + (XF.geo === 'id' ? 'on' : '') + '">' + t('Indonesia only', 'Hanya Indonesia') + '</button>' +
+      '<button data-g="intl" class="' + (XF.geo === 'intl' ? 'on' : '') + '">' + t('International', 'Internasional') + '</button></div>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px">' +
       '<select id="xInd" style="width:auto"><option value="">' + t('All industries', 'Semua industri') + '</option>' +
-      G.industries.map(function (i) { return '<option value="' + i.id + '"' + (XF.ind === i.id ? ' selected' : '') + '>' + L(i.name) + '</option>'; }).join('') + '</select>' +
+      G.industries.map(function (i2) { return '<option value="' + i2.id + '"' + (XF.ind === i2.id ? ' selected' : '') + '>' + L(i2.name) + '</option>'; }).join('') + '</select>' +
       '<select id="xFn" style="width:auto"><option value="">' + t('All functions', 'Semua fungsi') + '</option>' +
-      G.functions.map(function (f2) { return '<option value="' + f2.id + '"' + (XF.fn === f2.id ? ' selected' : '') + '>' + L(f2.name) + '</option>'; }).join('') + '</select>' +
-      (hasId ? '<button class="btn-s explore" id="xElig">' + (XF.elig ? '✓ ' : '⚡ ') + t('Eligible for me', 'Layak untukku') + '</button>' : '') +
+      Object.keys(O.FN_ROLES).map(function (fn) { return '<option value="' + fn + '"' + (XF.fn === fn ? ' selected' : '') + '>' + L(O.FN_ROLES[fn].role) + '</option>'; }).join('') + '</select>' +
       '</div>' +
-      '<p class="note3" style="margin-bottom:12px">' + opps.length + ' ' + t('opportunities', 'peluang') + ' · ' +
-      t('30 documented at launch — depth over breadth', '30 terdokumentasi saat rilis — kedalaman di atas keluasan') + '</p>' +
-      '<div class="grid2">' + opps.map(oppCardSmall).join('') + '</div>' +
-      '<p class="sec-h" style="margin-top:44px">' + t('Or start from a direction', 'Atau mulai dari arah') + '</p>' +
-      '<div class="grid2">' + G.directions.slice(0, 6).map(function (d) {
-        return '<button class="card" style="text-align:left" data-look="' + d.id + '"><b style="font-size:14px">' + L(d.name) + '</b>' +
-          '<span class="note3" style="display:block;margin-top:3px">' + L(d.summary).slice(0, 80) + '…</span></button>';
-      }).join('') + '</div>';
+      '<p class="note3" style="margin-bottom:14px">' + cos.length + ' ' + t('companies', 'perusahaan') + ' · ' +
+      cos.reduce(function (a, c) { return a + coRoles(c).length; }, 0) + ' ' + t('explorable roles', 'peran yang bisa dijelajahi') +
+      (hasId ? '' : ' · ' + t('add your identity for eligibility signals', 'tambahkan identitasmu untuk sinyal kelayakan')) + '</p>' +
+      '<div class="grid2">' + cos.map(coCard).join('') + '</div>';
+    $$('#xScope button').forEach(function (b) {
+      b.addEventListener('click', function () { XF.geo = b.dataset.g; renderExplore(); applyLang(); });
+    });
     $('#xInd').addEventListener('change', function () { XF.ind = this.value; renderExplore(); applyLang(); });
     $('#xFn').addEventListener('change', function () { XF.fn = this.value; renderExplore(); applyLang(); });
-    if ($('#xElig')) $('#xElig').addEventListener('click', function () { XF.elig = !XF.elig; renderExplore(); applyLang(); });
-    wireOppButtons(host); wireDirCards(host);
+    wireOppButtons(host);
+  }
+  function coCard(c) {
+    var roles = coRoles(c);
+    var documented = roles.some(function (o) { return o.proc === 'documented'; });
+    var ind = G.industries.filter(function (i2) { return i2.id === c.industry_id; })[0];
+    return '<button class="card co-card" data-open-co="' + c.id + '">' +
+      '<div style="display:flex;gap:12px;align-items:center">' +
+      '<span class="mono">' + monogram(c.name) + '</span>' +
+      '<span style="min-width:0"><b style="font-size:14.5px;display:block">' + c.name + '</b>' +
+      '<span class="note3">' + L(ind.name) + ' · ' + (c.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span></span></div>' +
+      '<span style="font-size:12.5px;color:var(--r-text-2);line-height:1.55">' + L(c.desc).slice(0, 110) + (L(c.desc).length > 110 ? '…' : '') + '</span>' +
+      '<span class="chips">' + c.fns.slice(0, 4).map(function (fn) {
+        return '<span class="chip-min">' + L(O.FN_ROLES[fn].role).split(' ')[0].replace(/&.*$/, '') + '</span>';
+      }).join('') + (c.fns.length > 4 ? '<span class="chip-min">+' + (c.fns.length - 4) + '</span>' : '') + '</span>' +
+      '<span style="display:flex;gap:10px;align-items:center;margin-top:2px">' +
+      (documented ? '<span class="prov v">✓ ' + t('documented process', 'proses terdokumentasi') + '</span>'
+        : '<span class="prov i">~ ' + t('typical process', 'proses umum') + '</span>') +
+      '<span class="note3">' + roles.length + ' ' + t('roles', 'peran') + '</span>' +
+      '<span style="margin-left:auto;color:var(--r-explore);font-size:12.5px;font-weight:800">' + t('Explore', 'Jelajahi') + ' →</span></span>' +
+      '</button>';
   }
   function oppCardSmall(o) {
-    var co = G.companies.filter(function (c) { return c.id === o.company; })[0];
+    var co = CO(o.company);
     var documented = o.proc === 'documented';
-    var prog = o.prog ? G.programmes.filter(function (p) { return p.id === o.prog; })[0] : null;
+    var prog = o.prog ? G.programmes.filter(function (p2) { return p2.id === o.prog; })[0] : null;
     return '<button class="card" style="text-align:left" data-open-opp="' + o.id + '">' +
       '<b style="font-size:14px;display:block">' + co.name + '</b>' +
       '<span style="font-size:12.5px;color:var(--r-text-2)">' + L(o.role) + '</span>' +
@@ -640,20 +749,35 @@
     });
   }
 
-  /* ═══ S7 · COMPANY ═══ */
+  /* ═══ S7 · COMPANY — Company → Function → Role ═══ */
   function renderCompany(args) {
-    var c = G.companies.filter(function (x) { return x.id === args[0]; })[0];
+    var c = CO(args[0]);
     var host = $('#v-company');
     if (!c) { host.innerHTML = ''; return; }
-    var opps = O.OPPS.filter(function (o) { return o.company === c.id; });
+    var roles = coRoles(c);
+    var ind = G.industries.filter(function (i2) { return i2.id === c.industry_id; })[0];
     host.innerHTML =
       '<button class="btn-q" onclick="history.back()">← ' + t('Back', 'Kembali') + '</button>' +
-      '<div style="max-width:680px"><h1 class="h-page" style="margin-top:10px">' + c.name + '</h1>' +
-      '<p style="font-size:14.5px;color:var(--r-text-2);margin-bottom:6px">' + L(c.description) + '</p>' +
-      '<p class="note3" style="margin-bottom:20px"><a href="' + c.website + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + c.website.replace('https://', '') + '</a></p>' +
-      '<p class="sec-h">' + t('Ways in', 'Jalur masuk') + '</p>' +
-      '<div class="grid2">' + (opps.length ? opps.map(oppCardSmall).join('') :
-        '<div class="empty">' + t('No entry route documented yet. We only list what we can source.', 'Belum ada jalur masuk terdokumentasi. Kami hanya mencantumkan yang bersumber.') + '</div>') + '</div>' +
+      '<div style="max-width:720px">' +
+      '<div style="display:flex;gap:16px;align-items:center;margin:14px 0 10px">' +
+      '<span class="mono" style="width:58px;height:58px;font-size:21px">' + monogram(c.name) + '</span>' +
+      '<div><h1 class="h-page" style="margin:0">' + c.name + '</h1>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px">' +
+      '<span class="chip-min gold">' + L(ind.name) + '</span>' +
+      '<span class="chip-min">' + (c.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' +
+      (c.bumn ? '<span class="chip-min">BUMN</span>' : '') + '</div></div></div>' +
+      '<p style="font-size:14.5px;color:var(--r-text-2);margin-bottom:6px">' + L(c.desc) + '</p>' +
+      '<p class="note3" style="margin-bottom:22px"><a href="' + c.website + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + c.website.replace('https://', '') + '</a></p>' +
+      '<p class="sec-h">' + t('Roles you can explore here', 'Peran yang bisa kamu jelajahi di sini') + ' · ' + roles.length + '</p>' +
+      '<div class="grid2">' + roles.map(function (o) {
+        var documented = o.proc === 'documented';
+        return '<button class="card" style="text-align:left" data-open-opp="' + o.id + '">' +
+          '<b style="font-size:14px;display:block">' + L(o.role) + '</b>' +
+          '<span style="display:flex;gap:10px;margin-top:8px">' +
+          (documented ? '<span class="prov v">✓ ' + t('documented', 'terdokumentasi') + '</span>'
+            : '<span class="prov i">~ ' + t('typical', 'umum') + '</span>') +
+          '<span style="margin-left:auto;color:var(--r-explore);font-size:12px;font-weight:800">' + t('Open', 'Buka') + ' →</span></span></button>';
+      }).join('') + '</div>' +
       provBlock(c, null) + '</div>';
     wireOppButtons(host);
   }
@@ -678,10 +802,11 @@
     return { pillar: m.pillar, pct: lmsPct(m.pillar), module: m.module };
   }
   function renderOpp(args) {
-    var o = O.OPPS.filter(function (x) { return x.id === args[0]; })[0];
+    var o = OPPS_ALL.filter(function (x) { return x.id === args[0]; })[0];
     var host = $('#v-opp');
     if (!o) { host.innerHTML = ''; return; }
-    var co = G.companies.filter(function (c) { return c.id === o.company; })[0];
+    var co = CO(o.company);
+    var oind = G.industries.filter(function (i2) { return i2.id === co.industry_id; })[0];
     var d = G.directions.filter(function (x) { return x.id === o.dir; })[0];
     var prog = o.prog ? G.programmes.filter(function (p) { return p.id === o.prog; })[0] : null;
     var documented = o.proc === 'documented' && prog && prog.stages;
@@ -696,8 +821,14 @@
     host.innerHTML =
       '<button class="btn-q" onclick="history.back()">← ' + t('Back', 'Kembali') + '</button>' +
       '<div style="max-width:720px">' +
-      '<p class="micro" style="margin-top:10px">' + co.name + '</p>' +
-      '<h1 class="h-page">' + L(o.role) + '</h1>' +
+      '<div style="display:flex;gap:16px;align-items:center;margin:14px 0 8px">' +
+      '<span class="mono" style="width:58px;height:58px;font-size:21px">' + monogram(co.name) + '</span>' +
+      '<div><p class="micro" style="margin:0 0 2px">' + co.name + '</p>' +
+      '<h1 class="h-page" style="margin:0">' + L(o.role) + '</h1></div></div>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px">' +
+      (oind ? '<span class="chip-min gold">' + L(oind.name) + '</span>' : '') +
+      '<span class="chip-min">' + (co.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' +
+      (co.bumn ? '<span class="chip-min">BUMN</span>' : '') + '</div>' +
       '<p class="h-sub">' + L(d.name) + (o.hours ? ' · ' + L(o.hours) : '') + '</p>' +
 
       /* 1 · WHAT THIS ACTUALLY IS */
@@ -754,6 +885,21 @@
           return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(x.s.name) +
             ' — <a href="../' + x.r.pillar + '/" style="color:var(--r-explore)">' + (x.r.pillar === 'the-pack' ? 'The Pack' : 'The Rope') + ' · ' + L(x.r.module) + ' →</a></span></div>';
         }).join('') : '') +
+      '</div>' +
+
+      /* 6 · LEVELS & COMPENSATION */
+      '<p class="sec-h" style="margin-top:34px">6 · ' + t('Levels & compensation', 'Level & kompensasi') + '</p>' +
+      '<div class="card">' +
+      '<p class="prov i" style="margin-bottom:12px">~ ' + t('Metanoia analysis — how scope typically grows in roles like this. Not this company’s own ladder.', 'Analisis Metanoia — bagaimana cakupan biasanya tumbuh di peran seperti ini. Bukan jenjang milik perusahaan ini.') + '</p>' +
+      O.LEVELS.map(function (lv, i) {
+        return '<div class="stage"><span class="sn">' + (i + 1) + '</span><div>' +
+          '<h4>' + L(lv.name) + '</h4><p>' + L(lv.scope) + '</p></div></div>';
+      }).join('') +
+      '<p class="note3" style="margin-top:14px">' + t('We don’t publish salary figures for this role. We haven’t found a source we can defend, and we won’t estimate one — an invented number would be worse than none. When we can cite reliable data, it will appear here.',
+        'Kami tidak menampilkan angka gaji untuk peran ini. Kami belum menemukan sumber yang bisa dipertanggungjawabkan, dan kami tidak akan mengira-ngira — angka karangan lebih buruk daripada tidak ada. Saat ada data andal yang bisa dikutip, angkanya akan muncul di sini.') + '</p>' +
+      '<p class="note3" style="margin-top:8px">' + t('Third-party data (not Metanoia): ', 'Data pihak ketiga (bukan Metanoia): ') +
+      '<a href="https://www.glassdoor.com/Search/results.htm?keyword=' + encodeURIComponent(co.name) + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + t('search this company on Glassdoor', 'cari perusahaan ini di Glassdoor') + ' →</a> · ' +
+      t('external site; we can’t verify its figures.', 'situs eksternal; kami tidak bisa memverifikasi angkanya.') + '</p>' +
       '</div>' +
 
       '<div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap" id="oppActs">' +
@@ -817,9 +963,9 @@
       var d = G.directions.filter(function (x) { return x.id === p.ref; })[0];
       return d ? { name: L(d.name), open: function () { go('ddetail', d.id); }, sub: L(d.summary).slice(0, 70) + '…' } : null;
     }
-    var o = O.OPPS.filter(function (x) { return x.id === p.ref; })[0];
+    var o = OPPS_ALL.filter(function (x) { return x.id === p.ref; })[0];
     if (!o) return null;
-    var co = G.companies.filter(function (c) { return c.id === o.company; })[0];
+    var co = CO(o.company);
     return { name: co.name + ' · ' + L(o.role), open: function () { go('opp', o.id); }, sub: '' };
   }
   function renderRange() {
@@ -891,7 +1037,7 @@
     }
     function dirOf(p) {
       if (p.type === 'direction') return G.directions.filter(function (x) { return x.id === p.ref; })[0];
-      var o = O.OPPS.filter(function (x) { return x.id === p.ref; })[0];
+      var o = OPPS_ALL.filter(function (x) { return x.id === p.ref; })[0];
       return o ? G.directions.filter(function (x) { return x.id === o.dir; })[0] : null;
     }
     function nameOf(p) { var v = possView(p); return v ? v.name : p.ref; }
@@ -921,11 +1067,11 @@
   function kSearch(q) {
     q = q.toLowerCase();
     var out = [];
-    G.companies.forEach(function (c) {
+    COS.forEach(function (c) {
       if (!q || c.name.toLowerCase().indexOf(q) !== -1) out.push({ n: c.name, tp: t('Company', 'Perusahaan'), go: function () { go('company', c.id); } });
     });
-    O.OPPS.forEach(function (o) {
-      var co = G.companies.filter(function (c) { return c.id === o.company; })[0];
+    OPPS_ALL.forEach(function (o) {
+      var co = CO(o.company);
       var nm = co.name + ' · ' + L(o.role);
       if (!q || nm.toLowerCase().indexOf(q) !== -1) out.push({ n: nm, tp: t('Opportunity', 'Peluang'), go: function () { go('opp', o.id); } });
     });
