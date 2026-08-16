@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="robots" content="noindex, nofollow, noarchive">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
@@ -1012,6 +1013,11 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
   .portal-footer { flex-direction: column; align-items: flex-start; }
   .topbar-page-label { display: none; }
 }
+
+.demo-banner{position:sticky;top:0;z-index:999;display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:9px 16px;background:linear-gradient(90deg,rgba(201,168,76,.16),rgba(201,168,76,.10));
+  border-bottom:1px solid rgba(201,168,76,.4);color:#E8C96A;font-size:12.5px;font-weight:600;letter-spacing:.04em}
+.demo-banner a{color:#F0D878;text-decoration:underline}
 </style>
 </head>
 <body>
@@ -1034,7 +1040,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
         <line x1="3" y1="18" x2="21" y2="18"/>
       </svg>
     </button>
-    <a href="landing.html" class="topbar-wordmark" aria-label="Metanoia Labs home">
+    <a href="/" class="topbar-wordmark" aria-label="Metanoia Labs home">
       <svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/>
         <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1248,7 +1254,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
     <a href="help.html"     class="portal-footer-link" data-en="Help" data-id="Bantuan">Help</a>
     <a href="settings.html" class="portal-footer-link" data-en="Settings" data-id="Pengaturan">Settings</a>
     <a href="help.html#privacy" class="portal-footer-link" data-en="Privacy" data-id="Privasi">Privacy</a>
-    <a href="#" class="portal-footer-link" id="signout-link" data-en="Sign Out" data-id="Keluar">Sign Out</a>
+    <a href="login.html" class="portal-footer-link" id="signout-link" data-en="Sign Out" data-id="Keluar">Sign Out</a>
   </nav>
 </footer>
 
@@ -1271,6 +1277,15 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 /* ═══ 1. AUTH GATE ═══ */
 const params = new URLSearchParams(window.location.search);
 const isDemo = params.get('demo') === 'true';
+if (isDemo) document.addEventListener('DOMContentLoaded', function () {
+  const db = document.createElement('div');
+  db.className = 'demo-banner'; db.setAttribute('role', 'status');
+  db.innerHTML = (document.documentElement.lang || 'en').indexOf('id') === 0
+    ? 'Demo — ini data contoh, bukan akun nyata. <a href="register.html">Buat akunmu sendiri →</a>'
+    : 'Demo — this is sample data, not a real account. <a href="register.html">Create your own →</a>';
+  document.body.prepend(db);
+});
+
 let isAuth = false;
 try {
   isAuth = sessionStorage.getItem('metanoia_auth') === 'true' || !!localStorage.getItem('metanoia_session');
@@ -1308,7 +1323,7 @@ window.setLanguage = function (l) {
 
 /* ═══ 3. DATA READS (Compass localStorage namespace) ═══ */
 const DEMO = {
-  name: 'Maverick',
+  name: 'Demo User',
   seeds: { careerIntelligence: 62, profileStrength: 48, interviewReadiness: 66, networkCapital: 47, careerMindset: 55 },
   apps: 5, streak: 3,
   progress: { aladin: 4, maverick: 3, nexus: 6, horizon: 0 }

@@ -517,7 +517,7 @@
 <!-- ============ HERO ============ -->
 <section class="screen active" id="s-hero">
   <div class="brandbar">
-    <a class="lockup" href="landing.html" aria-label="Metanoia Labs home">
+    <a class="lockup" href="/" aria-label="Metanoia Labs home">
       <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <defs><linearGradient id="lg1" x1="0" y1="1" x2="1" y2="0">
           <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
@@ -565,7 +565,7 @@
 <section class="screen" id="s-quiz">
   <div class="qhead">
     <div class="qhead-in">
-      <a class="lockup" href="#" onclick="return goHero()">
+      <a class="lockup" href="career-map-assessment.html" onclick="return goHero()">
         <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
           <defs><linearGradient id="lgQ" x1="0" y1="1" x2="1" y2="0">
             <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
@@ -695,7 +695,9 @@
         <input class="text-input" type="text" name="name" id="capName" placeholder="Your first name" required>
         <input class="text-input" type="email" name="email" id="capEmail" placeholder="Your email" required>
         <input class="text-input" type="url" name="linkedin" id="capLinkedin" placeholder="LinkedIn profile URL (optional) — so we can send role-specific tips">
-        <label class="ck"><input type="checkbox" name="weekly_email" checked id="capWaitlist">
+        
+        <p style="font-size:12px;color:rgba(240,237,232,.45);margin:6px 0 0">By continuing you agree to our <a href="legal/privacy.html" target="_blank" rel="noopener" style="color:rgba(232,201,106,.8)">Privacy Notice</a>. Your report, your data — never sold, never shown to employers.</p>
+        <label class="ck"><input type="checkbox" name="weekly_email" id="capWaitlist">
           <span data-t="cap.wait">Send me one honest, useful email each week from the mountain. No spam, ever.</span></label>
         <div class="cap-actions">
           <button type="button" class="btn btn-ember" id="acctBtn"><span data-t="cap.acct">Create My Free Metanoia Account →</span></button>
@@ -745,7 +747,7 @@
     <div class="done-btns">
       <button class="btn btn-ember dstep d3" id="doneDl" onclick="downloadReport()" data-t="done.dl">↓ Download Your Career Map (PDF)</button>
       <button class="btn btn-glass dstep d3" id="doneEmail" data-t="done.em">✉ Email me my report</button>
-      <a class="btn-climb dstep d4" href="landing.html" id="doneClimb">
+      <a class="btn-climb dstep d4" href="/" id="doneClimb">
         <span data-t="done.climb">Begin Your Climb at Metanoia Labs →</span>
         <small data-t="done.climbsub">Free · Your Career Map becomes your personalized route</small>
       </a>
@@ -2069,7 +2071,7 @@ function buildReport(){
       <div class="featc">${recs.map((f,i)=>`<div class="c dimension-card">
         <div class="ic" style="background:${f.c}">${rIcon(FICON[f.fkey]||'ci','#FFFFFF',19,1.8)}</div>
         <h4>${i===0?L.start:''}${f.n}</h4><p>${f.d}</p></div>`).join('')}</div>
-      <a class="ns-cta" href="landing.html">${L.nsCta}</a>
+      <a class="ns-cta" href="/">${L.nsCta}</a>
       <div class="rr-note"><b>${L.rrT}</b><br>${L.rrS}</div>
       <div class="ns-url">metanoialabs.net</div>
     </div>
