@@ -1109,15 +1109,27 @@ function setLS(key, val) {
 /* demo course-progress sample (memory only — never written to sessionStorage,
    so sibling course pages in the same tab keep their real state) */
 const DEMO_PROGRESS = { aladin: 4, maverick: 3, nexus: 6, horizon: 0 };
+const LMS_SLUG = { aladin: 'the-map', maverick: 'the-pack', nexus: 'the-rope', horizon: 'the-route' };
 function modulesDone(key, total) {
   if (isDemoMode) return DEMO_PROGRESS[key.replace('_progress', '')] || 0;
+  let done = 0;
   try {
     const p = JSON.parse(sessionStorage.getItem(key) || 'null');
-    if (!p || typeof p !== 'object') return 0;
-    let done = 0;
-    for (let i = 1; i <= total; i++) if (p['module_' + i + '_complete'] === true) done++;
-    return done;
-  } catch (e) { return 0; }
+    if (p && typeof p === 'object') {
+      for (let i = 1; i <= total; i++) if (p['module_' + i + '_complete'] === true) done++;
+    }
+  } catch (e) {}
+  /* merge real LMS lesson progress (localStorage summary written by the player) */
+  try {
+    const slug = LMS_SLUG[key.replace('_progress', '')];
+    if (slug) {
+      const mods = JSON.parse(localStorage.getItem('mt-lms-mods:' + slug) || '{}');
+      let lmsDone = 0;
+      for (let i = 1; i <= total; i++) if (mods[i]) lmsDone++;
+      done = Math.max(done, lmsDone);
+    }
+  } catch (e) {}
+  return done;
 }
 
 /* ─── 13-STAGE PIPELINE ─── */
