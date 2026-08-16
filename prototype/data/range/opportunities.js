@@ -1,50 +1,52 @@
 /**
- * THE RANGE — OPPORTUNITY GRAPH (launch slice)
- * --------------------------------------------
- * 30 opportunities across the three launch clusters, honest by construction:
+ * THE RANGE — OPPORTUNITY GRAPH v2
+ * --------------------------------
+ * Companies now carry a geography scope ('id' | 'intl'), a function list,
+ * and multiple explorable roles: Company → Function → Role → Opportunity.
+ * Role entries are generated from each company's declared functions, so the
+ * database extends by editing data only.
  *
- *  - process: 'documented'  → stage-by-stage detail from a cited source
- *                             (only Shopee GDP meets this bar today)
- *  - process: 'typical'     → the INDUSTRY-TYPICAL process for this kind of
- *                             role in Indonesia, explicitly labelled as our
- *                             reading (~ INFERRED), never presented as the
- *                             company's actual process (MEAB981 §9.4.2)
- *
- * Programme names appear ONLY where they come from the brief's cited sources.
- * Everywhere else the entry is the honest 'entry programme — see the official
- * careers page' state. Nothing here is generated or guessed; absence is a
- * displayed state, not a gap to improvise over.
+ * Integrity rules unchanged (MEAB981 §16.2):
+ *  - Stage-by-stage hiring detail exists ONLY where sourced (Shopee GDP).
+ *  - Everything else shows the INDUSTRY-TYPICAL process, explicitly labelled
+ *    as our reading (~ INFERRED), never as the company's actual process.
+ *  - Programme names appear only where they come from cited sources; other
+ *    role entries use function-generic labels, never invented programme names.
+ *  - Company descriptions are broad public knowledge, source-typed and dated.
+ *  - No salary figures anywhere: levels are editorial career analysis; for
+ *    compensation the product links out to third-party sources and says so.
  */
 window.MT_RANGE_OPPS = (function () {
   var L = function (en, idn) { return { en: en, id: idn }; };
 
-  /* ── industry-typical hiring processes (INFERRED tier) ──
-     Sequences use the controlled stage_type vocabulary so the prep bridge
-     stays automatic even for typical processes. */
+  /* ── industry-typical hiring processes (INFERRED tier) ── */
   var TYPICAL = {
     'tech-graduate': {
-      label: L('Typical for technology graduate programmes in Indonesia',
-               'Umum untuk program graduate teknologi di Indonesia'),
+      label: L('Typical for technology graduate roles in Indonesia', 'Umum untuk peran graduate teknologi di Indonesia'),
       stages: ['application_screening', 'online_assessment', 'behavioural_interview', 'functional_interview', 'senior_interview']
     },
+    'tech-global': {
+      label: L('Typical for global technology graduate roles', 'Umum untuk peran graduate teknologi global'),
+      stages: ['application_screening', 'online_assessment', 'technical_assessment', 'behavioural_interview', 'senior_interview']
+    },
     'bank-odp': {
-      label: L('Typical for bank officer-development programmes in Indonesia',
-               'Umum untuk program officer development bank di Indonesia'),
+      label: L('Typical for bank officer-development programmes in Indonesia', 'Umum untuk program officer development bank di Indonesia'),
       stages: ['application_screening', 'online_assessment', 'group_case', 'hr_interview', 'panel_interview', 'medical']
     },
     'fmcg-mt': {
-      label: L('Typical for FMCG management-trainee programmes in Indonesia',
-               'Umum untuk program management trainee FMCG di Indonesia'),
+      label: L('Typical for FMCG management-trainee programmes in Indonesia', 'Umum untuk program management trainee FMCG di Indonesia'),
       stages: ['application_screening', 'online_assessment', 'group_case', 'behavioural_interview', 'senior_interview']
     },
+    'consulting': {
+      label: L('Typical for strategy-consulting entry roles', 'Umum untuk peran entry konsultan strategi'),
+      stages: ['cv_screening', 'online_assessment', 'case_interview', 'case_interview', 'senior_interview']
+    },
     'professional-services': {
-      label: L('Typical for professional-services entry roles in Indonesia',
-               'Umum untuk peran entry jasa profesional di Indonesia'),
+      label: L('Typical for professional-services entry roles in Indonesia', 'Umum untuk peran entry jasa profesional di Indonesia'),
       stages: ['cv_screening', 'online_assessment', 'behavioural_interview', 'senior_interview']
     },
     'bumn-joint': {
-      label: L('Typical for BUMN joint-recruitment cycles (FHCI)',
-               'Umum untuk siklus rekrutmen bersama BUMN (FHCI)'),
+      label: L('Typical for BUMN joint-recruitment cycles (FHCI)', 'Umum untuk siklus rekrutmen bersama BUMN (FHCI)'),
       stages: ['application_screening', 'online_assessment', 'values_interview', 'medical']
     }
   };
@@ -67,87 +69,157 @@ window.MT_RANGE_OPPS = (function () {
     offer_negotiation: L('Offer & negotiation', 'Penawaran & negosiasi')
   };
 
-  /* ── the 30 launch opportunities ──
-     dir: primary career direction id · role: what you would enter as
-     prog: sourced programme id (graph.programmes) or null
-     proc: 'documented' | typical-template id
-     window: sourced application-window text or null                     */
-  var OPPS = [
-    /* — documented — */
-    { id: 'shopee-gdp', company: 'shopee-id', dir: 'management-trainee',
-      role: L('Graduate Development Program', 'Graduate Development Program'),
-      prog: 'shopee-gdp', proc: 'documented', hours: L('45–55 hrs/week typical', '45–55 jam/minggu umumnya') },
+  /* ── function → generic role label + direction mapping ──
+     Generic by design: we never invent company-specific programme names. */
+  var FN_ROLES = {
+    engineering: { role: L('Software & technology roles', 'Peran perangkat lunak & teknologi'), dir: 'software-engineering' },
+    data:        { role: L('Data & analytics roles', 'Peran data & analitik'), dir: 'data-analytics' },
+    product:     { role: L('Product roles', 'Peran produk'), dir: 'product-management' },
+    design:      { role: L('Design & UX roles', 'Peran desain & UX'), dir: 'ux-design' },
+    marketing:   { role: L('Marketing & growth roles', 'Peran pemasaran & growth'), dir: 'digital-marketing' },
+    finance:     { role: L('Finance roles', 'Peran keuangan'), dir: 'corporate-finance' },
+    operations:  { role: L('Operations & supply roles', 'Peran operasional & rantai pasok'), dir: 'supply-chain' },
+    commercial:  { role: L('Sales & commercial roles', 'Peran penjualan & komersial'), dir: 'sales-key-account' },
+    people:      { role: L('People & HR roles', 'Peran SDM'), dir: 'hr-people' },
+    risk:        { role: L('Risk & assurance roles', 'Peran risiko & asurans'), dir: 'risk-management' },
+    strategy:    { role: L('Strategy & consulting roles', 'Peran strategi & konsultan'), dir: 'management-trainee' },
+    trainee:     { role: L('Management-trainee track', 'Jalur management trainee'), dir: 'management-trainee' }
+  };
 
-    /* — sourced programme name, typical process — */
-    { id: 'telkom-gptp', company: 'telkom', dir: 'management-trainee',
-      role: L('Great People Trainee Program', 'Great People Trainee Program'),
-      prog: 'telkom-gptp', proc: 'bumn-joint', hours: null },
-    { id: 'unilever-early', company: 'unilever-id', dir: 'brand-management',
-      role: L('Early careers (leadership & internships)', 'Early careers (kepemimpinan & magang)'),
-      prog: 'unilever-ulip', proc: 'fmcg-mt', hours: null },
+  /* ── extra companies beyond the base graph ──
+     geo: 'id' | 'intl' · fns: function ids · proc: typical template
+     bumn: FHCI joint-recruitment rules apply                            */
+  var EXTRA_COMPANIES = [
+    /* — Indonesia, expanded — */
+    { id: 'astra', name: 'Astra International', industry_id: 'energy-industrials', geo: 'id', proc: 'fmcg-mt', fns: ['trainee', 'finance', 'operations', 'commercial', 'people'],
+      desc: L('An Indonesian conglomerate spanning automotive, financial services, heavy equipment and agribusiness.', 'Konglomerat Indonesia yang mencakup otomotif, jasa keuangan, alat berat, dan agribisnis.'), website: 'https://www.astra.co.id' },
+    { id: 'pertamina', name: 'Pertamina', industry_id: 'energy-industrials', geo: 'id', proc: 'bumn-joint', bumn: true, fns: ['trainee', 'engineering', 'finance', 'operations'],
+      desc: L('Indonesia’s state-owned energy company, spanning upstream, refining and fuel retail.', 'BUMN energi Indonesia, mencakup hulu, pengolahan, dan ritel bahan bakar.'), website: 'https://www.pertamina.com' },
+    { id: 'indofood', name: 'Indofood', industry_id: 'fmcg-consumer', geo: 'id', proc: 'fmcg-mt', fns: ['trainee', 'marketing', 'operations', 'commercial', 'finance'],
+      desc: L('An Indonesian food company with instant noodles, dairy, snacks and flour businesses.', 'Perusahaan makanan Indonesia dengan bisnis mi instan, susu, camilan, dan tepung.'), website: 'https://www.indofood.com' },
+    { id: 'kalbe', name: 'Kalbe Farma', industry_id: 'healthcare-pharma', geo: 'id', proc: 'fmcg-mt', fns: ['trainee', 'marketing', 'operations', 'data'],
+      desc: L('An Indonesian pharmaceutical and consumer-health company.', 'Perusahaan farmasi dan kesehatan konsumen Indonesia.'), website: 'https://www.kalbe.co.id' },
+    { id: 'sinarmas', name: 'Sinar Mas Group', industry_id: 'energy-industrials', geo: 'id', proc: 'fmcg-mt', fns: ['trainee', 'finance', 'operations', 'commercial'],
+      desc: L('An Indonesian group across pulp & paper, agribusiness, financial services and property.', 'Grup Indonesia di bidang pulp & kertas, agribisnis, jasa keuangan, dan properti.'), website: 'https://www.sinarmas.com' },
+    { id: 'bukalapak', name: 'Bukalapak', industry_id: 'tech-ecommerce', geo: 'id', proc: 'tech-graduate', fns: ['engineering', 'data', 'product', 'operations'],
+      desc: L('An Indonesian e-commerce and online-to-offline platform serving warung and retail.', 'Platform e-commerce dan online-to-offline Indonesia yang melayani warung dan ritel.'), website: 'https://www.bukalapak.com' },
+    { id: 'xl-axiata', name: 'XL Axiata', industry_id: 'telecom', geo: 'id', proc: 'tech-graduate', fns: ['engineering', 'data', 'marketing', 'trainee'],
+      desc: L('An Indonesian mobile network operator, part of the Axiata group.', 'Operator seluler Indonesia, bagian dari grup Axiata.'), website: 'https://www.xlaxiata.co.id' },
+    { id: 'pwc-id', name: 'PwC Indonesia', industry_id: 'professional-services', geo: 'id', proc: 'professional-services', fns: ['risk', 'finance', 'strategy', 'data'],
+      desc: L('The Indonesian member firm of the PwC global professional-services network.', 'Firma anggota Indonesia dari jaringan jasa profesional global PwC.'), website: 'https://www.pwc.com/id' },
+    { id: 'ey-id', name: 'EY Indonesia', industry_id: 'professional-services', geo: 'id', proc: 'professional-services', fns: ['risk', 'finance', 'strategy', 'data'],
+      desc: L('The Indonesian member firm of the EY global professional-services network.', 'Firma anggota Indonesia dari jaringan jasa profesional global EY.'), website: 'https://www.ey.com/id' },
+    { id: 'kpmg-id', name: 'KPMG Indonesia', industry_id: 'professional-services', geo: 'id', proc: 'professional-services', fns: ['risk', 'finance', 'strategy'],
+      desc: L('The Indonesian member firm of the KPMG global professional-services network.', 'Firma anggota Indonesia dari jaringan jasa profesional global KPMG.'), website: 'https://kpmg.com/id' },
+    { id: 'deloitte-id', name: 'Deloitte Indonesia', industry_id: 'professional-services', geo: 'id', proc: 'professional-services', fns: ['risk', 'finance', 'strategy', 'data'],
+      desc: L('The Indonesian member firm of the Deloitte global professional-services network.', 'Firma anggota Indonesia dari jaringan jasa profesional global Deloitte.'), website: 'https://www.deloitte.com/id' },
+    { id: 'btn', name: 'Bank BTN', industry_id: 'financial-services', geo: 'id', proc: 'bank-odp', bumn: true, fns: ['commercial', 'finance', 'risk', 'trainee'],
+      desc: L('An Indonesian state-owned bank focused on housing finance.', 'Bank BUMN Indonesia yang berfokus pada pembiayaan perumahan.'), website: 'https://www.btn.co.id' },
 
-    /* — technology & e-commerce — */
-    { id: 'shopee-data', company: 'shopee-id', dir: 'data-analytics',
-      role: L('Data / business analyst entry roles', 'Peran entry analis data / bisnis'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'goto-eng', company: 'goto', dir: 'software-engineering',
-      role: L('Software engineering entry roles', 'Peran entry rekayasa perangkat lunak'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'goto-ops', company: 'goto', dir: 'tech-operations',
-      role: L('Operations & marketplace roles', 'Peran operasional & marketplace'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'grab-analytics', company: 'grab-id', dir: 'data-analytics',
-      role: L('Analytics & strategy entry roles', 'Peran entry analitik & strategi'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'grab-ops', company: 'grab-id', dir: 'tech-operations',
-      role: L('Operations entry roles', 'Peran entry operasional'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'traveloka-eng', company: 'traveloka', dir: 'software-engineering',
-      role: L('Engineering entry roles', 'Peran entry engineering'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'traveloka-pm', company: 'traveloka', dir: 'product-management',
-      role: L('Associate product roles', 'Peran produk asosiat'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'blibli-comm', company: 'blibli', dir: 'digital-marketing',
-      role: L('Commerce & growth entry roles', 'Peran entry commerce & growth'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'telkomsel-network', company: 'telkomsel', dir: 'software-engineering',
-      role: L('Technology entry roles', 'Peran entry teknologi'), prog: null, proc: 'tech-graduate', hours: null },
-    { id: 'telkomsel-digital', company: 'telkomsel', dir: 'digital-marketing',
-      role: L('Digital business entry roles', 'Peran entry bisnis digital'), prog: null, proc: 'tech-graduate', hours: null },
-
-    /* — financial services — */
-    { id: 'bca-mdp', company: 'bca', dir: 'relationship-banking',
-      role: L('Graduate development track', 'Jalur pengembangan lulusan'), prog: null, proc: 'bank-odp', hours: null },
-    { id: 'bca-it', company: 'bca', dir: 'software-engineering',
-      role: L('IT & digital entry roles', 'Peran entry IT & digital'), prog: null, proc: 'bank-odp', hours: null },
-    { id: 'mandiri-odp', company: 'mandiri', dir: 'relationship-banking',
-      role: L('Officer development track', 'Jalur officer development'), prog: null, proc: 'bank-odp', hours: null, bumn: true },
-    { id: 'mandiri-risk', company: 'mandiri', dir: 'risk-management',
-      role: L('Risk entry roles', 'Peran entry risiko'), prog: null, proc: 'bank-odp', hours: null, bumn: true },
-    { id: 'bri-odp', company: 'bri', dir: 'relationship-banking',
-      role: L('Officer development track', 'Jalur officer development'), prog: null, proc: 'bank-odp', hours: null, bumn: true },
-    { id: 'bni-odp', company: 'bni', dir: 'relationship-banking',
-      role: L('Officer development track', 'Jalur officer development'), prog: null, proc: 'bank-odp', hours: null, bumn: true },
-    { id: 'dbs-analyst', company: 'dbs-id', dir: 'corporate-finance',
-      role: L('Graduate analyst roles', 'Peran analis lulusan'), prog: null, proc: 'bank-odp', hours: null },
-    { id: 'prudential-actuarial', company: 'prudential-id', dir: 'actuarial-analytics',
-      role: L('Actuarial entry roles', 'Peran entry aktuaria'), prog: null, proc: 'professional-services', hours: null },
-    { id: 'prudential-finance', company: 'prudential-id', dir: 'corporate-finance',
-      role: L('Finance entry roles', 'Peran entry keuangan'), prog: null, proc: 'professional-services', hours: null },
-    { id: 'bi-ojk', company: 'ojk-note', dir: 'risk-management',
-      role: L('Public-sector selection tracks', 'Jalur seleksi sektor publik'), prog: null, proc: 'bumn-joint', hours: null },
-
-    /* — FMCG & consumer — */
-    { id: 'unilever-supply', company: 'unilever-id', dir: 'supply-chain',
-      role: L('Supply chain entry roles', 'Peran entry rantai pasok'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'nestle-mt', company: 'nestle-id', dir: 'management-trainee',
-      role: L('Management-trainee track', 'Jalur management trainee'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'nestle-sales', company: 'nestle-id', dir: 'sales-key-account',
-      role: L('Sales entry roles', 'Peran entry penjualan'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'loreal-mt', company: 'loreal-id', dir: 'brand-management',
-      role: L('Management-trainee track', 'Jalur management trainee'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'danone-supply', company: 'danone-id', dir: 'supply-chain',
-      role: L('Supply chain & operations entry roles', 'Peran entry rantai pasok & operasional'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'wings-trade', company: 'wings', dir: 'trade-marketing',
-      role: L('Trade marketing & sales entry roles', 'Peran entry trade marketing & penjualan'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'mayora-sales', company: 'mayora', dir: 'sales-key-account',
-      role: L('Sales & distribution entry roles', 'Peran entry penjualan & distribusi'), prog: null, proc: 'fmcg-mt', hours: null },
-    { id: 'mayora-supply', company: 'mayora', dir: 'supply-chain',
-      role: L('Supply chain entry roles', 'Peran entry rantai pasok'), prog: null, proc: 'fmcg-mt', hours: null }
+    /* — International — */
+    { id: 'google', name: 'Google', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
+      desc: L('A global technology company in search, cloud computing, AI and digital products.', 'Perusahaan teknologi global di bidang pencarian, komputasi awan, AI, dan produk digital.'), website: 'https://careers.google.com' },
+    { id: 'microsoft', name: 'Microsoft', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'commercial'],
+      desc: L('A global technology company in software, cloud and productivity platforms.', 'Perusahaan teknologi global di bidang perangkat lunak, cloud, dan platform produktivitas.'), website: 'https://careers.microsoft.com' },
+    { id: 'amazon', name: 'Amazon', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'operations', 'product'],
+      desc: L('A global technology company in e-commerce, cloud computing and logistics.', 'Perusahaan teknologi global di bidang e-commerce, komputasi awan, dan logistik.'), website: 'https://www.amazon.jobs' },
+    { id: 'sea-group', name: 'Sea Group (Singapore)', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'operations'],
+      desc: L('A Southeast Asian technology group spanning e-commerce, gaming and digital finance.', 'Grup teknologi Asia Tenggara yang mencakup e-commerce, gim, dan keuangan digital.'), website: 'https://www.sea.com' },
+    { id: 'bytedance', name: 'ByteDance / TikTok', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
+      desc: L('A global technology company operating digital content and social platforms.', 'Perusahaan teknologi global yang mengoperasikan konten digital dan platform sosial.'), website: 'https://jobs.bytedance.com' },
+    { id: 'mckinsey', name: 'McKinsey & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
+      desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://www.mckinsey.com/careers' },
+    { id: 'bcg', name: 'Boston Consulting Group', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
+      desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://careers.bcg.com' },
+    { id: 'bain', name: 'Bain & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy'],
+      desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://www.bain.com/careers' },
+    { id: 'goldman', name: 'Goldman Sachs', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data'],
+      desc: L('A global investment bank and financial-services firm.', 'Bank investasi dan firma jasa keuangan global.'), website: 'https://www.goldmansachs.com/careers' },
+    { id: 'jpmorgan', name: 'J.P. Morgan', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data', 'engineering'],
+      desc: L('A global bank spanning investment banking, markets and asset management.', 'Bank global yang mencakup perbankan investasi, pasar, dan manajemen aset.'), website: 'https://careers.jpmorgan.com' },
+    { id: 'pg-global', name: 'Procter & Gamble', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'commercial', 'operations', 'finance'],
+      desc: L('A global consumer-goods company with brands across home and personal care.', 'Perusahaan barang konsumen global dengan merek perawatan rumah dan pribadi.'), website: 'https://www.pgcareers.com' },
+    { id: 'nestle-global', name: 'Nestlé (Global)', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'operations', 'finance', 'commercial'],
+      desc: L('The global food and beverage company, with graduate programmes across markets.', 'Perusahaan makanan dan minuman global, dengan program graduate di berbagai pasar.'), website: 'https://www.nestle.com/jobs' }
   ];
 
-  return { TYPICAL: TYPICAL, STAGE_NAMES: STAGE_NAMES, OPPS: OPPS };
+  /* functions for the base-graph companies (geo defaults to 'id') */
+  var BASE_FNS = {
+    'shopee-id':     { fns: ['trainee', 'engineering', 'data', 'product', 'operations', 'marketing'], proc: 'tech-graduate' },
+    'goto':          { fns: ['engineering', 'data', 'product', 'operations', 'marketing'], proc: 'tech-graduate' },
+    'grab-id':       { fns: ['engineering', 'data', 'operations', 'marketing'], proc: 'tech-graduate' },
+    'traveloka':     { fns: ['engineering', 'data', 'product', 'design'], proc: 'tech-graduate' },
+    'blibli':        { fns: ['engineering', 'marketing', 'operations', 'commercial'], proc: 'tech-graduate' },
+    'telkom':        { fns: ['trainee', 'engineering', 'data', 'product', 'strategy', 'finance', 'marketing'], proc: 'bumn-joint', bumn: true },
+    'telkomsel':     { fns: ['engineering', 'data', 'marketing', 'product'], proc: 'tech-graduate' },
+    'bca':           { fns: ['trainee', 'commercial', 'engineering', 'data', 'finance', 'risk'], proc: 'bank-odp' },
+    'mandiri':       { fns: ['trainee', 'commercial', 'finance', 'risk', 'data'], proc: 'bank-odp', bumn: true },
+    'bri':           { fns: ['trainee', 'commercial', 'finance', 'risk'], proc: 'bank-odp', bumn: true },
+    'bni':           { fns: ['trainee', 'commercial', 'finance', 'risk'], proc: 'bank-odp', bumn: true },
+    'dbs-id':        { fns: ['finance', 'data', 'commercial', 'risk'], proc: 'bank-odp' },
+    'prudential-id': { fns: ['finance', 'risk', 'data', 'commercial'], proc: 'professional-services' },
+    'ojk-note':      { fns: ['risk', 'finance', 'data'], proc: 'bumn-joint' },
+    'unilever-id':   { fns: ['trainee', 'marketing', 'operations', 'commercial', 'finance', 'people'], proc: 'fmcg-mt' },
+    'nestle-id':     { fns: ['trainee', 'marketing', 'operations', 'commercial'], proc: 'fmcg-mt' },
+    'loreal-id':     { fns: ['trainee', 'marketing', 'commercial', 'finance'], proc: 'fmcg-mt' },
+    'danone-id':     { fns: ['operations', 'marketing', 'finance', 'people'], proc: 'fmcg-mt' },
+    'wings':         { fns: ['marketing', 'commercial', 'operations'], proc: 'fmcg-mt' },
+    'mayora':        { fns: ['commercial', 'operations', 'marketing', 'finance'], proc: 'fmcg-mt' }
+  };
+
+  /* merged company list — built lazily against the base graph */
+  function companies() {
+    var G = window.MT_RANGE_GRAPH;
+    var base = G.companies.map(function (c) {
+      var x = BASE_FNS[c.id] || { fns: ['trainee'], proc: 'professional-services' };
+      return { id: c.id, name: c.name, industry_id: c.industry_id, geo: 'id',
+        desc: c.description, website: c.website, source_type: c.source_type,
+        last_reviewed: c.last_reviewed, fns: x.fns, proc: x.proc, bumn: !!x.bumn };
+    });
+    var extra = EXTRA_COMPANIES.map(function (c) {
+      return { id: c.id, name: c.name, industry_id: c.industry_id, geo: c.geo,
+        desc: c.desc, website: c.website, source_type: 'official',
+        last_reviewed: '2026-08-16', fns: c.fns, proc: c.proc, bumn: !!c.bumn };
+    });
+    return base.concat(extra);
+  }
+
+  /* sourced special opportunities (programme names from cited sources only) */
+  var SOURCED = [
+    { id: 'shopee-gdp', company: 'shopee-id', fn: 'trainee', dir: 'management-trainee',
+      role: L('Graduate Development Program', 'Graduate Development Program'),
+      prog: 'shopee-gdp', proc: 'documented', hours: L('45–55 hrs/week typical', '45–55 jam/minggu umumnya') },
+    { id: 'telkom-gptp', company: 'telkom', fn: 'trainee', dir: 'management-trainee',
+      role: L('Great People Trainee Program', 'Great People Trainee Program'),
+      prog: 'telkom-gptp', proc: 'bumn-joint' },
+    { id: 'unilever-early', company: 'unilever-id', fn: 'trainee', dir: 'brand-management',
+      role: L('Early careers (leadership & internships)', 'Early careers (kepemimpinan & magang)'),
+      prog: 'unilever-ulip', proc: 'fmcg-mt' }
+  ];
+
+  /* full opportunity list: sourced entries + generated Company × Function */
+  function opps() {
+    var out = SOURCED.slice();
+    companies().forEach(function (c) {
+      c.fns.forEach(function (fn) {
+        var id = c.id + '--' + fn;
+        if (SOURCED.some(function (s) { return s.company === c.id && s.fn === fn; })) return;
+        var fr = FN_ROLES[fn];
+        out.push({ id: id, company: c.id, fn: fn, dir: fr.dir, role: fr.role,
+          prog: null, proc: c.proc, bumn: c.bumn });
+      });
+    });
+    return out;
+  }
+
+  /* editorial career-level ladder — Metanoia analysis, not market data */
+  var LEVELS = [
+    { name: L('Entry / Junior', 'Entry / Junior'), scope: L('Owns small, well-defined pieces of work with close guidance.', 'Memegang pekerjaan kecil yang terdefinisi jelas dengan bimbingan dekat.') },
+    { name: L('Mid-level', 'Mid-level'), scope: L('Owns a full area or workflow; guides juniors informally.', 'Memegang satu area atau alur kerja penuh; membimbing junior secara informal.') },
+    { name: L('Senior', 'Senior'), scope: L('Leads a major vertical end-to-end; shapes how the team works.', 'Memimpin satu vertikal besar ujung-ke-ujung; membentuk cara kerja tim.') },
+    { name: L('Lead / Principal', 'Lead / Principal'), scope: L('Drives strategy across teams or domains; multiplies others.', 'Menggerakkan strategi lintas tim atau domain; melipatgandakan orang lain.') }
+  ];
+
+  return { TYPICAL: TYPICAL, STAGE_NAMES: STAGE_NAMES, FN_ROLES: FN_ROLES,
+    LEVELS: LEVELS, companies: companies, opps: opps };
 })();

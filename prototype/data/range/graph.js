@@ -43,6 +43,50 @@ window.MT_RANGE_GRAPH = {
     "en": "The companies behind everyday products, and the brand, sales and supply machinery that moves them.",
     "id": "Perusahaan di balik produk sehari-hari, beserta mesin merek, penjualan, dan rantai pasoknya."
    }
+  },
+  {
+   "id": "professional-services",
+   "name": {
+    "en": "Consulting & Professional Services",
+    "id": "Konsultan & Jasa Profesional"
+   },
+   "desc": {
+    "en": "Consulting, audit, tax and advisory firms — client work across many industries at once.",
+    "id": "Firma konsultan, audit, pajak, dan advisory — kerja klien lintas banyak industri sekaligus."
+   }
+  },
+  {
+   "id": "energy-industrials",
+   "name": {
+    "en": "Energy & Industrials",
+    "id": "Energi & Industri"
+   },
+   "desc": {
+    "en": "Energy, mining, manufacturing and the conglomerates that run heavy operations at national scale.",
+    "id": "Energi, tambang, manufaktur, dan konglomerasi yang menjalankan operasi berat berskala nasional."
+   }
+  },
+  {
+   "id": "healthcare-pharma",
+   "name": {
+    "en": "Healthcare & Pharma",
+    "id": "Kesehatan & Farmasi"
+   },
+   "desc": {
+    "en": "Pharmaceutical and health companies — regulated products where quality and evidence matter most.",
+    "id": "Perusahaan farmasi dan kesehatan — produk teregulasi di mana mutu dan bukti paling menentukan."
+   }
+  },
+  {
+   "id": "telecom",
+   "name": {
+    "en": "Telecommunications",
+    "id": "Telekomunikasi"
+   },
+   "desc": {
+    "en": "The operators behind national connectivity — networks, digital services and massive subscriber bases.",
+    "id": "Operator di balik konektivitas nasional — jaringan, layanan digital, dan basis pelanggan raksasa."
+   }
   }
  ],
  "functions": [
@@ -585,7 +629,7 @@ window.MT_RANGE_GRAPH = {
    ],
    "common_myths": [
     {
-     "en": "Ops is where many of Indonesia\\u2019s tech leaders actually started.",
+     "en": "Ops is where many of Indonesia’s tech leaders actually started.",
      "id": "Ops adalah titik awal banyak pemimpin teknologi Indonesia."
     }
    ],
@@ -632,7 +676,7 @@ window.MT_RANGE_GRAPH = {
     "id": "Membangun audiens dan kehadiran merek — video pendek, komunitas, kalender editorial, dan analitik di balik jangkauan."
    },
    "day_in_life": {
-    "en": "You script and shoot in the morning, edit after lunch, post at the algorithm\\u2019s favourite hour, and study tomorrow what tonight\\u2019s numbers say.",
+    "en": "You script and shoot in the morning, edit after lunch, post at the algorithm’s favourite hour, and study tomorrow what tonight’s numbers say.",
     "id": "Kamu menulis naskah dan syuting pagi hari, mengedit setelah makan siang, mengunggah di jam favorit algoritma, dan besok mempelajari apa kata angka semalam."
    },
    "tradeoffs": [
@@ -1099,7 +1143,7 @@ window.MT_RANGE_GRAPH = {
     "id": "Memiliki merek konsumen seperti bisnis kecil — positioning, kampanye, harga, dan garis labanya."
    },
    "day_in_life": {
-    "en": "You review campaign cuts at ten, defend next year\\u2019s pricing at one, and visit a traditional-trade store at four to see the shelf yourself.",
+    "en": "You review campaign cuts at ten, defend next year’s pricing at one, and visit a traditional-trade store at four to see the shelf yourself.",
     "id": "Kamu meninjau potongan kampanye jam sepuluh, mempertahankan harga tahun depan jam satu, dan mengunjungi toko tradisional jam empat untuk melihat rak dengan matamu sendiri."
    },
    "tradeoffs": [
@@ -1390,7 +1434,7 @@ window.MT_RANGE_GRAPH = {
     "id": "Membangun sistem yang menemukan, menumbuhkan, dan mempertahankan orang — rekrutmen, pembelajaran, kinerja, dan desain organisasi."
    },
    "day_in_life": {
-    "en": "A morning of interviews, an afternoon designing the graduate programme you wish you\\u2019d had, and one hard conversation done kindly.",
+    "en": "A morning of interviews, an afternoon designing the graduate programme you wish you’d had, and one hard conversation done kindly.",
     "id": "Pagi berisi wawancara, siang merancang program graduate yang dulu kamu harapkan ada, dan satu percakapan sulit yang dilakukan dengan baik."
    },
    "tradeoffs": [
@@ -1571,7 +1615,7 @@ window.MT_RANGE_GRAPH = {
     "id": "Merancang cara orang belajar — kurikulum, lokakarya, kursus digital, dan keahlian membuat hal kompleks jadi mudah dipelajari."
    },
    "day_in_life": {
-    "en": "You take a subject expert\\u2019s tangled knowledge, find its spine, and build the module that makes a novice feel capable in forty minutes.",
+    "en": "You take a subject expert’s tangled knowledge, find its spine, and build the module that makes a novice feel capable in forty minutes.",
     "id": "Kamu mengambil pengetahuan kusut seorang ahli, menemukan tulang punggungnya, dan membangun modul yang membuat pemula merasa mampu dalam empat puluh menit."
    },
    "tradeoffs": [
@@ -1669,7 +1713,7 @@ window.MT_RANGE_GRAPH = {
    "name": "Telkom Indonesia",
    "industry_id": "tech-ecommerce",
    "description": {
-    "en": "Indonesia\\u2019s state-owned telecommunications company, providing network, data and digital services nationally.",
+    "en": "Indonesia’s state-owned telecommunications company, providing network, data and digital services nationally.",
     "id": "BUMN telekomunikasi Indonesia yang menyediakan layanan jaringan, data, dan digital secara nasional."
    },
    "website": "https://www.telkom.co.id",
@@ -1682,7 +1726,7 @@ window.MT_RANGE_GRAPH = {
    "name": "Telkomsel",
    "industry_id": "tech-ecommerce",
    "description": {
-    "en": "Indonesia\\u2019s largest mobile network operator, part of the Telkom group.",
+    "en": "Indonesia’s largest mobile network operator, part of the Telkom group.",
     "id": "Operator jaringan seluler terbesar Indonesia, bagian dari grup Telkom."
    },
    "website": "https://www.telkomsel.com",
@@ -1695,7 +1739,7 @@ window.MT_RANGE_GRAPH = {
    "name": "Bank Central Asia (BCA)",
    "industry_id": "financial-services",
    "description": {
-    "en": "One of Indonesia\\u2019s largest private banks, known for transaction banking and its graduate development programmes.",
+    "en": "One of Indonesia’s largest private banks, known for transaction banking and its graduate development programmes.",
     "id": "Salah satu bank swasta terbesar Indonesia, dikenal dengan perbankan transaksi dan program pengembangan lulusannya."
    },
    "website": "https://www.bca.co.id",
@@ -1721,7 +1765,7 @@ window.MT_RANGE_GRAPH = {
    "name": "Bank Rakyat Indonesia (BRI)",
    "industry_id": "financial-services",
    "description": {
-    "en": "A state-owned bank with Indonesia\\u2019s widest micro and small-business banking network.",
+    "en": "A state-owned bank with Indonesia’s widest micro and small-business banking network.",
     "id": "Bank BUMN dengan jaringan perbankan mikro dan usaha kecil terluas di Indonesia."
    },
    "website": "https://www.bri.co.id",
@@ -1773,7 +1817,7 @@ window.MT_RANGE_GRAPH = {
    "name": "Bank Indonesia / OJK (regulators)",
    "industry_id": "financial-services",
    "description": {
-    "en": "Indonesia\\u2019s central bank and financial services authority — public-sector careers with their own selection processes.",
+    "en": "Indonesia’s central bank and financial services authority — public-sector careers with their own selection processes.",
     "id": "Bank sentral dan otoritas jasa keuangan Indonesia — karier sektor publik dengan proses seleksi tersendiri."
    },
    "website": "https://www.bi.go.id",
@@ -2091,7 +2135,7 @@ window.MT_RANGE_GRAPH = {
     "id": "~6 bulan, termasuk 2 minggu bimbingan mental (Bintal), lalu diangkat menjadi karyawan tetap"
    },
    "desc": {
-    "en": "Telkom\\u2019s flagship entry programme for fresh graduates across technology and business tracks.",
+    "en": "Telkom’s flagship entry programme for fresh graduates across technology and business tracks.",
     "id": "Program masuk unggulan Telkom untuk lulusan baru di jalur teknologi dan bisnis."
    },
    "window": {
@@ -2178,7 +2222,7 @@ window.MT_RANGE_GRAPH = {
     "id": "Struktur program bervariasi per angkatan"
    },
    "desc": {
-    "en": "Unilever Indonesia\\u2019s early-careers entry points, listed on the official careers site.",
+    "en": "Unilever Indonesia’s early-careers entry points, listed on the official careers site.",
     "id": "Pintu masuk early-careers Unilever Indonesia, tercantum di situs karier resmi."
    },
    "window": {
