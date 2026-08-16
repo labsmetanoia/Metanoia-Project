@@ -3,6 +3,33 @@
 <head>
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta charset="UTF-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#050A12">
@@ -92,6 +119,12 @@ h1,h2,h3{font-weight:inherit;margin:0}
 @media (prefers-contrast: more){:root{--gold-border:rgba(201,168,76,0.45);--gold-border-hover:rgba(201,168,76,0.85);--text-muted:rgba(255,255,255,0.75);--text-faint:rgba(255,255,255,0.50)}}
 @media (max-width:768px){.content{padding:var(--space-6) var(--space-4) var(--space-10)}.f-row{grid-template-columns:1fr}.panel{padding:var(--space-5)}}
 </style>
+
+<style id="langFlagCss">
+.flg{width:14px;height:14px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+.lang-btn{display:inline-flex;align-items:center;gap:6px}
+@media(max-width:640px){.flg{width:15px;height:15px}}
+</style>
 </head>
 <body>
 <header class="topbar" role="banner">
@@ -103,8 +136,8 @@ h1,h2,h3{font-weight:inherit;margin:0}
     <nav class="tb-crumb" aria-label="Breadcrumb"><a href="portal.html" data-en="Portal" data-id="Portal">Portal</a> › <span class="cur" data-en="Settings" data-id="Pengaturan">Settings</span></nav>
   </div>
   <div class="lang-toggle" role="group" aria-label="Language">
-    <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')">EN</button>
-    <button class="lang-btn" id="lang-id" onclick="setLanguage('id')">ID</button>
+    <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+    <button class="lang-btn" id="lang-id" onclick="setLanguage('id')"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
   </div>
 </header>
 

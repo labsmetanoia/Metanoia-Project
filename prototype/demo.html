@@ -1,4 +1,31 @@
 <meta charset="utf-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
 <title>Demo — Metanoia Labs</title>
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta http-equiv="refresh" content="0; url=/portal.html?demo=true">

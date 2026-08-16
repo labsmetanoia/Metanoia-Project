@@ -3,6 +3,33 @@
 <head>
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta charset="utf-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
 <title>The Compass — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="The career navigation system of the Metanoia platform. Know where you are, know where you're going — every application, every module, one Career Bearing. Student Product 05.">
@@ -588,6 +615,12 @@
 (function(){try{var t=localStorage.getItem('mt-theme');
 if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
 </script>
+
+<style id="langFlagCss">
+.flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
+@media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
 </head>
 <body>
 
@@ -619,8 +652,8 @@ if(t==='light'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme
   </div>
   <div class="tb-right">
     <div class="ctl" role="group" aria-label="Language / Bahasa">
-      <button data-lang="en" aria-pressed="true">EN</button>
-      <button data-lang="id" aria-pressed="false">ID</button>
+      <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
     </div>
     <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme" title="Toggle theme">
       <svg class="moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -2452,7 +2485,7 @@ $('themeBtn').addEventListener('click', () => {
 });
 try {
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
-    try { if (!localStorage.getItem('mt-theme')) applyTheme(e.matches ? 'light' : 'dark', false); } catch (err) {}
+    try { if (!localStorage.getItem('mt-theme')) /* no auto-flip: dark stays default until the user chooses */ } catch (err) {}
   });
 } catch (e) {}
 

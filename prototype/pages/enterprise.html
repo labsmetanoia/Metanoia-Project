@@ -2,6 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
 <title>For Enterprise — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Enterprise — close the talent readiness gap. Your new hires are not underperforming. They were underprepared before they arrived.">
@@ -1190,6 +1217,39 @@
   .ro-quote{padding:52px 20px 42px}
 }
 </style>
+
+<style id="langFlagCss">
+.flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
+@media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
+
+<style id="faqV2Css">
+.faq-title{text-align:center;font-size:clamp(1.5rem,3vw,2rem) !important;letter-spacing:-.01em;position:relative;padding-top:26px}
+.faq-title::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:56px;height:3px;
+  border-radius:2px;background:linear-gradient(90deg,transparent,#C9A84C 30%,#F0D878 50%,#C9A84C 70%,transparent)}
+.faq-sub2{text-align:center;color:rgba(240,237,232,.5);font-size:14px;margin:8px 0 30px}
+:root[data-theme="light"] .faq-sub2{color:var(--text-muted,rgba(27,36,52,.55))}
+.faq-list{counter-reset:faqn;display:grid;gap:11px}
+.faq-item{counter-increment:faqn;border-radius:14px !important;transition:border-color .25s,box-shadow .25s !important}
+.faq-item:hover{border-color:rgba(201,168,76,.34)}
+.faq-item.open{box-shadow:0 14px 44px rgba(0,0,0,.22)}
+.faq-q{padding:17px 22px !important;font-size:14.5px !important;font-weight:700 !important;min-height:52px;align-items:center}
+.faq-q::before{content:counter(faqn,decimal-leading-zero);flex:none;width:34px;height:34px;border-radius:50%;
+  border:1px solid rgba(201,168,76,.42);color:#E8C96A;background:rgba(201,168,76,.08);
+  display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;letter-spacing:.03em;
+  margin-right:14px}
+:root[data-theme="light"] .faq-q::before{color:#8B6914;border-color:rgba(138,105,20,.45);background:rgba(201,168,76,.12)}
+.faq-q span:first-of-type{flex:1}
+.faq-a{transition:max-height .4s cubic-bezier(.22,1,.36,1) !important}
+.faq-item.open .faq-a{padding-bottom:20px}
+.faq-a{padding-left:70px !important}
+@media(max-width:640px){
+  .faq-q{padding:15px 16px !important;min-height:56px}
+  .faq-q::before{width:30px;height:30px;margin-right:11px;font-size:11px}
+  .faq-a{padding-left:57px !important;padding-right:16px !important}
+}
+</style>
 </head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
@@ -1221,8 +1281,8 @@
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
     </button>
     <div class="ctl" role="group" aria-label="Language / Bahasa">
-      <button data-lang="en" aria-pressed="true">EN</button>
-      <button data-lang="id" aria-pressed="false">ID</button>
+      <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
     </div>
     <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
       <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
@@ -1666,7 +1726,7 @@ const root = document.documentElement;
 const mqLight = matchMedia('(prefers-color-scheme: light)');
 function initialTheme(){
   try{ const s = localStorage.getItem('mt-theme'); if(s) return s; }catch(e){}
-  return mqLight.matches ? 'light' : 'dark';
+  return 'dark';  /* dark is the default experience */
 }
 function applyTheme(t, save){
   root.dataset.theme = t;

@@ -2,6 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>
+/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
+   Runs only when the visitor has never chosen; a manual choice always wins. */
+(function () {
+  var has = null;
+  try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
+  if (has) {
+    try {
+      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
+      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
+    } catch (e) {}
+    return;
+  }
+  var indo = false;
+  try {
+    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
+  } catch (e) {}
+  if (!indo) {
+    var langs = (navigator.languages || [navigator.language || '']).join(',');
+    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
+  }
+  var l = indo ? 'id' : 'en';
+  try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
+})();
+</script>
+
 <title>Early Professional — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
@@ -1420,30 +1447,79 @@
 </style>
 
 <style id="pricingBandCss">
-.pricing-band{max-width:860px;margin:0 auto 84px;padding:44px 40px;border:1px solid rgba(201,168,76,.22);
-  border-radius:20px;background:linear-gradient(165deg,rgba(201,168,76,.06),rgba(8,14,26,.55));text-align:center}
-.pb-chapter{font-size:11px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:#E8C96A}
-.pricing-band h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin:12px 0 10px;color:var(--text,#F0EDE8)}
-.pb-body{color:rgba(240,237,232,.62);font-size:15px;max-width:56ch;margin:0 auto 26px}
-.pb-plan{display:inline-block;text-align:left;border:1px solid rgba(240,237,232,.12);border-radius:14px;
-  padding:22px 30px;background:rgba(5,10,18,.55);min-width:min(420px,100%)}
+.pricing-band{max-width:900px;margin:0 auto 88px;padding:52px 48px 40px;border:1px solid rgba(201,168,76,.24);
+  border-radius:24px;background:
+  radial-gradient(70% 60% at 50% 0%,rgba(201,168,76,.07),transparent 70%),
+  linear-gradient(170deg,rgba(8,14,26,.72),rgba(5,10,18,.55));text-align:center;position:relative;overflow:hidden}
+.pb-chapter{font-size:11px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#E8C96A}
+.pricing-band h2{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:800;letter-spacing:-.015em;
+  margin:14px 0 10px;color:var(--text,#F0EDE8);line-height:1.15}
+.pricing-band h2 em{font-style:normal;color:#F0D878}
+.pb-body{color:rgba(240,237,232,.6);font-size:15px;max-width:52ch;margin:0 auto 30px}
+.pb-plan{display:grid;grid-template-columns:1fr auto;gap:26px;align-items:center;text-align:left;
+  border:1px solid rgba(240,237,232,.13);border-radius:18px;padding:28px 34px;background:rgba(5,10,18,.6)}
 .pb-plan-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.pb-plan-name{font-weight:800;font-size:15px;color:#F0EDE8}
-.pb-chip{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;padding:3px 9px;border-radius:4px;border:1px solid;white-space:nowrap}
+.pb-plan-name{font-weight:800;font-size:16.5px;color:#F0EDE8;letter-spacing:-.01em}
+.pb-chip{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;padding:3.5px 10px;border-radius:5px;border:1px solid;white-space:nowrap}
 .pb-chip i{width:4.5px;height:4.5px;border-radius:50%;background:currentColor}
-.pb-chip.gold{color:#E8C96A;background:rgba(201,168,76,.16);border-color:rgba(201,168,76,.4)}
+.pb-chip.gold{color:#E8C96A;background:rgba(201,168,76,.16);border-color:rgba(201,168,76,.42)}
 .pb-chip.neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.15)}
-.pb-price{margin:12px 0 2px}
-.pb-amount{font-size:1.8rem;font-weight:800;color:#F0EDE8;letter-spacing:-.01em}
-.pb-period{font-size:.85rem;color:rgba(240,237,232,.45);font-weight:600}
-.pb-alt{font-size:12.5px;color:rgba(240,237,232,.45);margin:2px 0 16px}
-.pb-cta{display:inline-flex;padding:11px 24px;border-radius:999px;font-weight:700;font-size:13.5px;
-  text-decoration:none;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}
-.pb-honesty{font-size:12.5px;color:rgba(240,237,232,.5);margin-top:22px}
+.pb-price{margin:14px 0 2px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pb-amount{font-size:2.5rem;font-weight:800;color:#F0EDE8;letter-spacing:-.025em;line-height:1}
+.pb-period{font-size:.9rem;color:rgba(240,237,232,.45);font-weight:600}
+.pb-alt{font-size:12.5px;color:rgba(240,237,232,.45);margin:6px 0 20px}
+.pb-cta{display:inline-flex;align-items:center;gap:9px;padding:13px 28px;border-radius:999px;font-weight:700;
+  font-size:14px;text-decoration:none;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;
+  box-shadow:0 10px 32px rgba(201,168,76,.26);transition:transform .22s cubic-bezier(.22,1,.36,1)}
+.pb-cta:hover{transform:translateY(-2px)}
+.pb-cta.wait{background:none;border:1px solid rgba(240,237,232,.28);color:rgba(240,237,232,.8);box-shadow:none}
+.pb-medal{width:172px;height:172px;flex:none}
+.pb-honesty{display:flex;align-items:center;justify-content:center;gap:11px;font-size:13px;
+  color:rgba(240,237,232,.55);margin-top:26px;flex-wrap:wrap}
+.pb-honesty .pbh-ico{flex:none;width:32px;height:32px;border-radius:50%;border:1px solid rgba(201,168,76,.4);
+  display:inline-flex;align-items:center;justify-content:center;color:#E8C96A;background:rgba(201,168,76,.08)}
 .pb-honesty a{color:#E8C96A}
-:root[data-theme="light"] .pricing-band{background:linear-gradient(165deg,rgba(201,168,76,.10),rgba(9,16,29,.92))}
-@media(max-width:640px){.pricing-band{padding:32px 22px;margin-bottom:64px}.pb-plan{padding:18px 20px}}
+:root[data-theme="light"] .pricing-band{background:linear-gradient(170deg,rgba(9,16,29,.94),rgba(9,16,29,.88))}
+@media(max-width:700px){
+  .pricing-band{padding:36px 22px 30px;margin-bottom:64px}
+  .pb-plan{grid-template-columns:1fr;padding:24px 22px}
+  .pb-medal{width:128px;height:128px;margin:0 auto;order:-1}
+  .pb-cta{width:100%;justify-content:center;min-height:46px}
+}
+</style>
+
+<style id="langFlagCss">
+.flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
+button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
+@media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
+
+<style id="faqV2Css">
+.faq-title{text-align:center;font-size:clamp(1.5rem,3vw,2rem) !important;letter-spacing:-.01em;position:relative;padding-top:26px}
+.faq-title::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:56px;height:3px;
+  border-radius:2px;background:linear-gradient(90deg,transparent,#C9A84C 30%,#F0D878 50%,#C9A84C 70%,transparent)}
+.faq-sub2{text-align:center;color:rgba(240,237,232,.5);font-size:14px;margin:8px 0 30px}
+:root[data-theme="light"] .faq-sub2{color:var(--text-muted,rgba(27,36,52,.55))}
+.faq-list{counter-reset:faqn;display:grid;gap:11px}
+.faq-item{counter-increment:faqn;border-radius:14px !important;transition:border-color .25s,box-shadow .25s !important}
+.faq-item:hover{border-color:rgba(201,168,76,.34)}
+.faq-item.open{box-shadow:0 14px 44px rgba(0,0,0,.22)}
+.faq-q{padding:17px 22px !important;font-size:14.5px !important;font-weight:700 !important;min-height:52px;align-items:center}
+.faq-q::before{content:counter(faqn,decimal-leading-zero);flex:none;width:34px;height:34px;border-radius:50%;
+  border:1px solid rgba(201,168,76,.42);color:#E8C96A;background:rgba(201,168,76,.08);
+  display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;letter-spacing:.03em;
+  margin-right:14px}
+:root[data-theme="light"] .faq-q::before{color:#8B6914;border-color:rgba(138,105,20,.45);background:rgba(201,168,76,.12)}
+.faq-q span:first-of-type{flex:1}
+.faq-a{transition:max-height .4s cubic-bezier(.22,1,.36,1) !important}
+.faq-item.open .faq-a{padding-bottom:20px}
+.faq-a{padding-left:70px !important}
+@media(max-width:640px){
+  .faq-q{padding:15px 16px !important;min-height:56px}
+  .faq-q::before{width:30px;height:30px;margin-right:11px;font-size:11px}
+  .faq-a{padding-left:57px !important;padding-right:16px !important}
+}
 </style>
 </head>
 <body>
@@ -1476,8 +1552,8 @@
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
     </button>
     <div class="ctl" role="group" aria-label="Language / Bahasa">
-      <button data-lang="en" aria-pressed="true">EN</button>
-      <button data-lang="id" aria-pressed="false">ID</button>
+      <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
     </div>
     <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
       <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
@@ -2367,7 +2443,7 @@
         <a href="../career-map-assessment.html" class="cta-primary" data-en="Take the Free Career Map →" data-id="Ikuti Career Map Gratis →">Take the Free Career Map →</a>
         <a href="../register.html" class="cta-ghost" data-en="Create Free Account" data-id="Buat Akun Gratis">Create Free Account</a>
       </div>
-      <p class="cta-trust" data-en="Free diagnostic included · One membership unlocks all five products · No credit card to start" data-id="Diagnostik gratis termasuk · Satu keanggotaan membuka semua lima produk · Tanpa kartu kredit untuk memulai">Free diagnostic included · One membership unlocks all five products · No credit card to start</p>
+      <p class="cta-trust" data-en="Free diagnostic included · No credit card to start" data-id="Diagnostik gratis termasuk · Tanpa kartu kredit untuk memulai">Free diagnostic included · No credit card to start</p>
     </div>
   </div>
 
@@ -2375,18 +2451,33 @@
     
     <section class="pricing-band" aria-labelledby="pb-title">
       <span class="pb-chapter" data-en="Chapter · The cost of the climb" data-id="Bab · Biaya pendakian">Chapter · The cost of the climb</span>
-      <h2 id="pb-title" data-en="Everything above is free to start." data-id="Semua di atas gratis untuk memulai.">Everything above is free to start.</h2>
-      <p class="pb-body" data-en="Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The membership opens the five pillars and The Compass." data-id="Career Map-mu, skor kesiapanmu, dan Gauntlet lengkap tidak berbayar dan akan selalu begitu. Keanggotaan membuka lima pilar dan The Compass.">Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The membership opens the five pillars and The Compass.</p>
+      <h2 id="pb-title" data-en="Everything above is <em>free</em> to start." data-id="Semua di atas <em>gratis</em> untuk memulai.">Everything above is <em>free</em> to start.</h2>
+      <p class="pb-body" data-en="Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The full edition opens the five pillars and The Compass." data-id="Career Map-mu, skor kesiapanmu, dan Gauntlet lengkap tidak berbayar dan akan selalu begitu. Edisi lengkap membuka lima pilar dan The Compass.">Your Career Map, your readiness score, and the full Gauntlet cost nothing and always will. The full edition opens the five pillars and The Compass.</p>
       <div class="pb-plan">
-        <div class="pb-plan-head">
-          <span class="pb-plan-name" data-en="Early Professional Edition" data-id="Edisi Profesional Muda">Early Professional Edition</span>
-          <span class="pb-chip neutral"><i></i><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span></span>
+        <div>
+          <div class="pb-plan-head">
+            <span class="pb-plan-name" data-en="Early Professional Edition" data-id="Edisi Profesional Muda">Early Professional Edition</span>
+            <span class="pb-chip neutral"><i></i><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span></span>
+          </div>
+          <div class="pb-price"><span class="pb-amount">Rp 0</span><span class="pb-period" data-en="/ at beta launch" data-id="/ saat beta rilis">/ at beta launch</span></div>
+          <p class="pb-alt" data-en="Beta introductory price — USD 0 · standard pricing at commercial launch" data-id="Harga perkenalan beta — USD 0 · harga standar saat rilis komersial">Beta introductory price — USD 0 · standard pricing at commercial launch</p>
+          <a class="pb-cta wait" href="../register.html"><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
         </div>
-        <div class="pb-price"><span class="pb-amount">Rp 0</span> <span class="pb-period" data-en="/ month, at launch" data-id="/ bulan, saat rilis">/ month, at launch</span></div>
-        <p class="pb-alt" data-en="Beta introductory price — USD 0 · standard pricing at commercial launch" data-id="Harga perkenalan beta — USD 0 · harga standar saat rilis komersial">Beta introductory price — USD 0 · standard pricing at commercial launch</p>
-        <a class="pb-cta" href="../register.html" data-en="Join the waitlist →" data-id="Gabung daftar tunggu →">Join the waitlist →</a>
+        <svg class="pb-medal" viewBox="0 0 180 180" fill="none" aria-hidden="true">
+        <defs><linearGradient id="pmG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0D878"/><stop offset="1" stop-color="#C9A84C"/></linearGradient>
+        <radialGradient id="pmR" cx=".5" cy=".45" r=".55"><stop offset="0" stop-color="#C9A84C" stop-opacity=".16"/><stop offset="1" stop-color="#C9A84C" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="90" cy="90" r="86" fill="url(#pmR)"/>
+        <circle cx="90" cy="90" r="76" fill="rgba(5,10,18,.65)" stroke="url(#pmG)" stroke-width="1.8"/>
+        <circle cx="90" cy="90" r="66" fill="none" stroke="#C9A84C" stroke-opacity=".3" stroke-dasharray="2 6"/>
+        <g stroke="url(#pmG)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+          <path d="M38 122 66 76l14 20 12-24 22 50Z"/>
+          <path d="M92 72V46"/><path d="M92 46l16 7-16 7Z" fill="url(#pmG)" stroke="none"/>
+        </g>
+        <g stroke="#C9A84C" stroke-width="1.3" opacity=".55" stroke-linecap="round">
+          <path d="M46 132c14-6 28 4 44 0s28-8 46-2"/>
+        </g></svg>
       </div>
-      <p class="pb-honesty" data-en="We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a>" data-id="Kami dalam tahap akses awal. <a href='../pricing.html'>Inilah persis apa yang sudah dibangun hari ini dan apa yang belum.</a>">We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a></p>
+      <p class="pb-honesty"><span class="pbh-ico"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a>" data-id="Kami dalam tahap akses awal. <a href='../pricing.html'>Inilah persis apa yang sudah dibangun hari ini dan apa yang belum.</a>">We&rsquo;re in early access. <a href='../pricing.html'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a></span></p>
     </section>
 
     <div class="faq-wrap" id="faq">
@@ -2483,7 +2574,7 @@ const root = document.documentElement;
 const mqLight = matchMedia('(prefers-color-scheme: light)');
 function initialTheme(){
   try{ const s = localStorage.getItem('mt-theme'); if(s) return s; }catch(e){}
-  return mqLight.matches ? 'light' : 'dark';
+  return 'dark';  /* dark is the default experience */
 }
 function applyTheme(t, save){
   root.dataset.theme = t;
