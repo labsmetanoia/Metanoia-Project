@@ -1,5 +1,5 @@
 /**
- * THE LOOKOUT — CAREER GRAPH (MVP slice)
+ * THE RANGE — CAREER GRAPH (MVP slice)
  * --------------------------------------
  * Three industry clusters, 25 career directions, 20 real companies.
  * Integrity rules (ME30AC1 Part 11): company facts are limited to
@@ -9,7 +9,7 @@
  * documented' state. Nothing here is fabricated, and nothing here
  * implies affiliation with or endorsement by any company named.
  */
-window.MT_LOOKOUT_GRAPH = {
+window.MT_RANGE_GRAPH = {
  "industries": [
   {
    "id": "tech-ecommerce",

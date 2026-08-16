@@ -1,5 +1,5 @@
 /**
- * THE LOOKOUT — FIT MODEL
+ * THE RANGE — FIT MODEL
  * -----------------------
  * Attribute-distance matching with explicit evidence tracing (ME30AC1 Part 6).
  * Deliberately simple and inspectable: a model you cannot explain is a model
@@ -210,7 +210,7 @@
     };
   }
 
-  window.MT_LOOKOUT_FIT = {
+  window.MT_RANGE_FIT = {
     ATTRIBUTES: ATTRIBUTES,
     BANDS: BANDS,
     BLOCK_LABELS: BLOCK_LABELS,
