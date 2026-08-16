@@ -111,6 +111,17 @@
     padding:6px 12px;cursor:pointer;transition:opacity .2s,background .2s}
   .lang button[aria-pressed="true"]{opacity:1;background:rgba(255,255,255,.16)}
   .lang button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+  .pw-wrap{position:relative;width:100%}
+  .pw-wrap .auth-input{padding-right:52px}
+  .pw-toggle{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:40px;height:40px;
+    display:flex;align-items:center;justify-content:center;background:none;border:0;cursor:pointer;
+    color:rgba(240,237,232,.45);border-radius:9px;transition:color .2s}
+  .pw-toggle:hover,.pw-toggle:focus-visible{color:#E8C96A}
+  .pw-toggle:focus-visible{outline:2px solid rgba(201,168,76,.6);outline-offset:1px}
+  .pw-toggle .eye-off{display:none}
+  .pw-toggle[aria-pressed="true"] .eye-on{display:none}
+  .pw-toggle[aria-pressed="true"] .eye-off{display:block}
 </style>
 </head>
 <body>
@@ -168,7 +179,11 @@
 
         <form id="loginForm" novalidate>
           <input class="auth-input" type="email" id="email" placeholder="Email address" data-ph-en="Email address" data-ph-id="Alamat email" autocomplete="email" required>
-          <input class="auth-input" type="password" id="password" placeholder="Password" data-ph-en="Password" data-ph-id="Kata sandi" autocomplete="current-password" required>
+          <span class="pw-wrap"><input class="auth-input" type="password" id="password" placeholder="Password" data-ph-en="Password" data-ph-id="Kata sandi" autocomplete="current-password" required>
+          <button type="button" class="pw-toggle" aria-pressed="false" data-aria-en="Show password" data-aria-id="Tampilkan kata sandi" aria-label="Show password" title="Show password">
+            <svg class="eye-on" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+            <svg class="eye-off" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16"/><path d="M10.6 6c.46-.07.93-.1 1.4-.1 6 0 9.5 6.1 9.5 6.1a17.6 17.6 0 0 1-2.7 3.4M7.2 7.3A17 17 0 0 0 2.5 12s3.5 6.5 9.5 6.5c1.5 0 2.9-.4 4.1-1"/><path d="M9.9 10a3.2 3.2 0 0 0 4.3 4.4"/></svg>
+          </button></span>
           <div class="row-between">
             <label class="remember"><input type="checkbox" id="remember" checked> <span data-en="Remember me" data-id="Ingat saya">Remember me</span></label>
             <a class="gold-link" onclick="showForgot()" data-en="Forgot password?" data-id="Lupa kata sandi?">Forgot password?</a>
@@ -292,6 +307,22 @@ document.getElementById('forgotForm').addEventListener('submit', e => {
   document.getElementById('resetNote').classList.add('show');
 });
 })();
+
+/* password visibility toggles */
+document.querySelectorAll('.pw-toggle').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var input = btn.parentElement.querySelector('input');
+    var show = input.type === 'password';
+    input.type = show ? 'text' : 'password';
+    btn.setAttribute('aria-pressed', show ? 'true' : 'false');
+    var isID = (document.documentElement.lang || 'en').indexOf('id') === 0;
+    var label = show ? (isID ? 'Sembunyikan kata sandi' : 'Hide password')
+                     : (isID ? 'Tampilkan kata sandi' : 'Show password');
+    btn.setAttribute('aria-label', label);
+    btn.setAttribute('title', label);
+    input.focus({ preventScroll: true });
+  });
+});
 </script>
 </body>
 </html>

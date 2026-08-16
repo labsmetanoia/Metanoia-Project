@@ -79,3 +79,31 @@ export const COMMITMENTS = {
   cancel:  { en: 'Cancel anytime, in one click, from Settings.',
              id: 'Batalkan kapan saja, satu klik, dari Pengaturan.' }
 };
+
+/**
+ * BETA PRICING — while Metanoia is in beta, every displayed price is
+ * IDR 0 / USD 0. Flip `active` to false at commercial launch and the
+ * pricing page falls back to the PLANS / PRODUCTS amounts above.
+ * The pricing page reads this file's mirror config (window.MT_PRICING)
+ * embedded in pricing.html — keep the two in sync when editing.
+ */
+export const BETA_PRICING = {
+  active: true,
+  label:    { en: 'Beta introductory price', id: 'Harga perkenalan beta' },
+  note:     { en: 'Free during beta. Standard pricing applies at commercial launch — beta members are told before anything changes.',
+              id: 'Gratis selama beta. Harga standar berlaku saat rilis komersial — anggota beta diberi tahu sebelum ada perubahan.' }
+};
+
+/** Individual products — purchasable one by one, not only as bundles. */
+export const PRODUCTS = [
+  { pillar: 'map',     slug: 'the-map',     accent: '#7EB3F5', state: 'EARLY_ACCESS',
+    price: { monthly: { amount: 59000, currency: 'IDR' } } },
+  { pillar: 'pack',    slug: 'the-pack',    accent: '#4ECDC4', state: 'EARLY_ACCESS',
+    price: { monthly: { amount: 59000, currency: 'IDR' } } },
+  { pillar: 'rope',    slug: 'the-rope',    accent: '#E8C766', state: 'EARLY_ACCESS',
+    price: { monthly: { amount: 69000, currency: 'IDR' } } },
+  { pillar: 'route',   slug: 'the-route',   accent: '#6EE7B7', state: 'EARLY_ACCESS',
+    price: { monthly: { amount: 69000, currency: 'IDR' } } },
+  { pillar: 'compass', slug: 'the-compass', accent: '#E8C766', state: 'BETA',
+    price: { monthly: { amount: 39000, currency: 'IDR' } } }
+];
