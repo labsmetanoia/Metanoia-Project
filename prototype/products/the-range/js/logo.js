@@ -30,6 +30,9 @@ window.MT_LOGO = (function () {
      that answer with a generic placeholder image instead of failing must come
      last, since we cannot distinguish their placeholder from a real mark. */
   var SOURCES = [
+    /* unavatar aggregates several mark sources and honours ?fallback=false,
+       returning a real error instead of a placeholder when it has nothing. */
+    function (d) { return 'https://unavatar.io/' + d + '?fallback=false'; },
     function (d) { return 'https://icons.duckduckgo.com/ip3/' + d + '.ico'; },
     function (d) { return 'https://www.google.com/s2/favicons?domain=' + d + '&sz=128'; }
   ];
@@ -126,8 +129,10 @@ window.MT_LOGO = (function () {
       probe.referrerPolicy = 'no-referrer';
       probe.onerror = next;
       probe.onload = function () {
-        /* Some sources answer 200 with a 1×1 or empty image rather than 404. */
-        if (probe.naturalWidth < 8 || probe.naturalHeight < 8) { next(); return; }
+        /* Some sources answer 200 with a placeholder or tiny favicon rather
+           than 404. Anything under 24px would upscale into an unreadable blob
+           on a 46–58px tile, so treat it as a miss and try the next source. */
+        if (probe.naturalWidth < 24 || probe.naturalHeight < 24) { next(); return; }
         img.src = url;
         el.classList.remove('x');
         cacheSet(d, OVERRIDES[d] && i === 1 ? '0' : String(Math.max(0, i - 1 - offset)));
