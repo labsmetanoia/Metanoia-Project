@@ -15,6 +15,21 @@
     var parts = name.replace(/\(.*\)/g, '').trim().split(/\s+/);
     return (parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase();
   }
+  /* Company logo tile. Marks load from each company's own domain via a
+   * public logo service; they are third-party trademarks shown nominatively.
+   * On any failure the tile falls back to a monogram — never a broken image. */
+  function logoTile(c, size) {
+    var d = c.domain || '';
+    return '<span class="logow' + (size ? ' ' + size : '') + (d ? '' : ' x') + '">' +
+      (d ? '<img src="https://logo.clearbit.com/' + d + '" alt="" loading="lazy" ' +
+        'onerror="this.parentNode.classList.add(&quot;x&quot;)">' : '') +
+      '<span class="mg">' + monogram(c.name) + '</span></span>';
+  }
+  function countryName(c) {
+    if (c.geo === 'id' || c.country === 'id') return 'Indonesia';
+    var DB = window.MT_RANGE_DB, n = DB && DB.CC[c.country];
+    return n ? (lang() === 'id' ? n.id : n.en.replace(/^the /, '')) : t('International', 'Internasional');
+  }
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
   var esc = function (s) { return (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
@@ -25,12 +40,7 @@
 
   function applyLang() {
     $$('[data-en]').forEach(function (n) { n.innerHTML = n.getAttribute(lang() === 'id' ? 'data-id' : 'data-en'); });
-    $('#themeBtn').addEventListener('click', function () {
-    var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
-    document.documentElement.dataset.theme = next;
-    try { localStorage.setItem('mt-theme', next); } catch (e) {}
-  });
-  $$('.rail .lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang()); });
+    $$('.rail .lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang()); });
     document.documentElement.lang = lang();
   }
   $('#themeBtn').addEventListener('click', function () {
@@ -86,7 +96,7 @@
   }
 
   /* ── router ── */
-  var views = ['home', 'quick', 'identity', 'directions', 'ddetail', 'explore', 'company', 'opp', 'range', 'compare'];
+  var views = ['home', 'quick', 'identity', 'directions', 'ddetail', 'explore', 'company', 'opp', 'range', 'profile', 'compare'];
   function go(v, arg) { location.hash = '#/' + v + (arg ? '/' + arg : ''); }
   function route() {
     var h = (location.hash || '').replace('#/', '').split('/');
@@ -100,7 +110,7 @@
     });
     var R = { home: renderHome, quick: renderQuick, identity: renderIdentity, directions: renderDirections,
       ddetail: renderDDetail, explore: renderExplore, company: renderCompany, opp: renderOpp,
-      range: renderRange, compare: renderCompare };
+      range: renderRange, profile: renderProfile, compare: renderCompare };
     R[v](h.slice(1));
     updateNavCnt();
     applyLang();
@@ -251,7 +261,7 @@
     ['markets', { en: 'Financial markets', id: 'Pasar keuangan' }]
   ];
   var VALUES = ['money', 'impact', 'stability', 'learning', 'autonomy', 'recognition',
-    'balance', 'prestige', 'purpose', 'security', 'creativity', 'people'];
+    'balance', 'prestige', 'purpose', 'security', 'creativity', 'people', 'achievement', 'leadership'];
   var CONSTRAINTS = [
     ['family', { en: 'Family expectations', id: 'Ekspektasi keluarga' }],
     ['financial', { en: 'Financial pressure', id: 'Tekanan finansial' }],
@@ -265,8 +275,14 @@
     ['structure_ambiguity', { en: 'Clear structure', id: 'Struktur jelas' }, { en: 'Open ambiguity', id: 'Ambiguitas terbuka' }],
     ['independent_collab', { en: 'Independent', id: 'Mandiri' }, { en: 'Highly collaborative', id: 'Sangat kolaboratif' }],
     ['steady_intense', { en: 'Steady pace', id: 'Ritme stabil' }, { en: 'High intensity', id: 'Intensitas tinggi' }],
-    ['build_advise', { en: 'Build things', id: 'Membangun sesuatu' }, { en: 'Advise others', id: 'Menasihati orang' }]
+    ['build_advise', { en: 'Build things', id: 'Membangun sesuatu' }, { en: 'Advise others', id: 'Menasihati orang' }],
+    ['customer_internal', { en: 'Customer-facing', id: 'Berhadapan dengan pelanggan' }, { en: 'Internally focused', id: 'Fokus internal' }]
   ];
+  var IND_ICONS = { 'tech-ecommerce': '⌘', 'financial-services': '◈', 'fmcg-consumer': '◉',
+    'professional-services': '▤', 'energy-industrials': '⚡', 'healthcare-pharma': '✚',
+    'telecom': '⌁', 'media-gaming': '▶', 'travel-hospitality': '✈', 'education': '✎' };
+  var FN_ICONS = { engineering: '⌘', data: '◫', product: '◧', design: '✎', marketing: '◉',
+    finance: '◈', operations: '⚙', commercial: '⇄', people: '☺', risk: '▣' };
 
   var SECTIONS = [
     { key: 'b1', title: { en: 'Where you are', id: 'Posisimu' },
@@ -274,8 +290,10 @@
       render: function (h) {
         var b = ID.b1;
         h.innerHTML = '<div class="grid2">' +
-          fSel('i_degree', t('Education level', 'Jenjang'), [['s1', 'S1'], ['d3_d4', 'D3 / D4'], ['s2', 'S2']], b.degree) +
-          fSel('i_uni', t('Institution type', 'Jenis institusi'), [['ptn', 'PTN'], ['pts', 'PTS'], ['abroad', t('Overseas', 'Luar negeri')]], b.uni) +
+          fSel('i_degree', t('Education level', 'Jenjang'),
+            [['s1', t('Bachelor’s degree (S1)', 'Sarjana (S1)')], ['d3_d4', t('Associate / vocational degree (D3–D4)', 'Diploma (D3/D4)')], ['s2', t('Master’s degree (S2)', 'Magister (S2)')]], b.degree) +
+          fSel('i_uni', t('Institution type', 'Jenis institusi'),
+            [['ptn', t('Public university', 'Universitas negeri (PTN)')], ['pts', t('Private university', 'Universitas swasta (PTS)')], ['abroad', t('Overseas', 'Luar negeri')]], b.uni) +
           fNum('i_gradyear', t('Graduation year', 'Tahun lulus'), b.gradYear) +
           fNum('i_age', t('Age', 'Usia'), b.age) +
           fNum('i_gpa', t('GPA (0–4)', 'IPK (0–4)'), b.gpa, '0.01') +
@@ -291,10 +309,22 @@
     { key: 'b2', title: { en: "What you've done", id: 'Apa yang pernah kamu lakukan' },
       payoff: { en: 'grounds your identity statement in real experience', id: 'melandasi pernyataan identitasmu pada pengalaman nyata' },
       render: function (h) {
-        h.innerHTML = '<label class="fieldl">' + t('One experience — what did you actually do?', 'Satu pengalaman — apa yang benar-benar kamu kerjakan?') + '</label>' +
-          '<textarea id="i_exp1">' + esc(ID.b2.exp1 || '') + '</textarea>';
+        var b = ID.b2;
+        h.innerHTML = '<div class="grid2">' +
+          fTxt('i_role', t('Current role, if any', 'Peran saat ini, jika ada'), b.role) +
+          fTxt('i_prev', t('Previous roles or internships', 'Peran atau magang sebelumnya'), b.prev) +
+          fNum('i_years', t('Years of experience', 'Tahun pengalaman'), b.years) +
+          fTxt('i_ach', t('One achievement you’re proud of', 'Satu pencapaian yang kamu banggakan'), b.ach) + '</div>' +
+          '<label class="fieldl" style="margin-top:14px">' + t('One experience — what did you actually do?', 'Satu pengalaman — apa yang benar-benar kamu kerjakan?') + '</label>' +
+          '<textarea id="i_exp1">' + esc(b.exp1 || '') + '</textarea>';
       },
-      collect: function () { ID.b2.exp1 = val('i_exp1') || ID.b2.exp1; ID.b2.done = !!(ID.b2.exp1 && ID.b2.exp1.length > 10); } },
+      collect: function () {
+        var b = ID.b2;
+        b.role = val('i_role') || b.role; b.prev = val('i_prev') || b.prev;
+        b.years = numv('i_years', b.years); b.ach = val('i_ach') || b.ach;
+        b.exp1 = val('i_exp1') || b.exp1;
+        b.done = !!(b.exp1 && b.exp1.length > 10) || !!b.role || !!b.ach || b.years != null;
+      } },
     { key: 'b3', title: { en: "What you're good at", id: 'Apa yang kamu kuasai' },
       payoff: { en: 'unlocks skill-based evidence in your results', id: 'membuka bukti berbasis keahlian di hasilmu' },
       render: function (h) {
@@ -323,11 +353,16 @@
         h.innerHTML = '<div class="tags" id="i_interests">' + INTERESTS.map(function (s) {
           return '<button class="tag' + ((ID.interests || []).indexOf(s[0]) !== -1 ? ' on' : '') + '" data-id="' + s[0] + '">' + L(s[1]) + '</button>';
         }).join('') + '</div>' +
+        '<label class="fieldl" style="margin-top:16px">' + t('Hobbies and things you do outside study or work', 'Hobi dan hal yang kamu lakukan di luar kuliah atau kerja') + '</label>' +
+        '<input type="text" id="i_hobby" value="' + esc(ID.b4.hobbies || '') + '" placeholder="' + t('e.g. photography, futsal, chess, baking…', 'mis. fotografi, futsal, catur, membuat kue…') + '">' +
         '<label class="fieldl" style="margin-top:16px">' + t('Describe a time you lost track of hours. What were you doing?', 'Ceritakan saat kamu lupa waktu. Apa yang sedang kamu kerjakan?') + '</label>' +
         '<textarea id="i_flow">' + esc(ID.b4.flow || '') + '</textarea>';
         wireMulti('i_interests', ID.interests, function () { ID.b4.done = ID.interests.length > 0; saveId(); });
       },
-      collect: function () { ID.b4.flow = val('i_flow') || ID.b4.flow; ID.b4.done = ID.interests.length > 0 || !!(ID.b4.flow && ID.b4.flow.length > 10); } },
+      collect: function () {
+        ID.b4.flow = val('i_flow') || ID.b4.flow; ID.b4.hobbies = val('i_hobby') || ID.b4.hobbies;
+        ID.b4.done = ID.interests.length > 0 || !!(ID.b4.flow && ID.b4.flow.length > 10) || !!ID.b4.hobbies;
+      } },
     { key: 'b5', title: { en: 'How you like to work', id: 'Cara kerja favoritmu' },
       payoff: { en: 'surfaces conflicts you can’t see yet', id: 'memunculkan konflik yang belum kamu lihat' },
       render: function (h) {
@@ -367,18 +402,27 @@
     { key: 'b8', title: { en: 'Industries that pull you', id: 'Industri yang menarikmu' },
       payoff: { en: 'weights results toward industries you actually want', id: 'memberi bobot pada industri yang benar-benar kamu mau' },
       render: function (h) {
-        h.innerHTML = '<div class="tags" id="i_inds">' + G.industries.map(function (ind) {
-          return '<button class="tag' + ((ID.prefIndustries || []).indexOf(ind.id) !== -1 ? ' on' : '') + '" data-id="' + ind.id + '">' + L(ind.name) + '</button>';
-        }).join('') + '</div><p class="note3" style="margin-top:8px">' +
-        t('Pick any that genuinely interest you — or none.', 'Pilih yang benar-benar menarik bagimu — atau tidak sama sekali.') + '</p>';
-        wireMulti('i_inds', ID.prefIndustries, function () { ID.b8.done = ID.prefIndustries.length > 0; saveId(); });
+        h.innerHTML = '<div class="pickgrid" id="i_inds">' + G.industries.map(function (ind) {
+          return '<button class="pick tag' + ((ID.prefIndustries || []).indexOf(ind.id) !== -1 ? ' on' : '') + '" data-id="' + ind.id + '">' +
+            '<span class="ic">' + (IND_ICONS[ind.id] || '◇') + '</span><b>' + L(ind.name) + '</b>' +
+            '<span>' + L(ind.desc).split('—')[0].slice(0, 64) + '</span></button>';
+        }).join('') + '</div><p class="note3" style="margin-top:10px">' +
+        t('Pick any that genuinely interest you — or none.', 'Pilih yang benar-benar menarik bagimu — atau tidak sama sekali.') + '</p>' +
+        '<div class="idfb" id="i_indfb"></div>';
+        wireMulti('i_inds', ID.prefIndustries, function () {
+          ID.b8.done = ID.prefIndustries.length > 0; saveId();
+          $('#i_indfb').textContent = ID.prefIndustries.length
+            ? t(ID.prefIndustries.length + ' industries will weight your results.', ID.prefIndustries.length + ' industri akan memberi bobot pada hasilmu.')
+            : '';
+        });
       },
       collect: function () { ID.b8.done = ID.prefIndustries.length > 0; } },
     { key: 'b9', title: { en: 'Functions you gravitate toward', id: 'Fungsi yang kamu condongi' },
       payoff: { en: 'surfaces roles in the functions you name', id: 'memunculkan peran di fungsi yang kamu sebut' },
       render: function (h) {
-        h.innerHTML = '<div class="tags" id="i_fns">' + G.functions.map(function (fn) {
-          return '<button class="tag' + ((ID.prefFunctions || []).indexOf(fn.id) !== -1 ? ' on' : '') + '" data-id="' + fn.id + '">' + L(fn.name) + '</button>';
+        h.innerHTML = '<div class="pickgrid" id="i_fns">' + G.functions.map(function (fn) {
+          return '<button class="pick tag' + ((ID.prefFunctions || []).indexOf(fn.id) !== -1 ? ' on' : '') + '" data-id="' + fn.id + '">' +
+            '<span class="ic">' + (FN_ICONS[fn.id] || '◇') + '</span><b>' + L(fn.name) + '</b></button>';
         }).join('') + '</div>';
         wireMulti('i_fns', ID.prefFunctions, function () { ID.b9.done = ID.prefFunctions.length > 0; saveId(); });
       },
@@ -390,6 +434,8 @@
         h.innerHTML =
           '<label class="fieldl">' + t('In a sentence or two — what do you hope your work life looks like in five years?', 'Dalam satu-dua kalimat — seperti apa harapanmu tentang kehidupan kerjamu lima tahun lagi?') + '</label>' +
           '<textarea id="i_asp">' + esc(b.text || '') + '</textarea>' +
+          '<label class="fieldl" style="margin-top:14px">' + t('And in the next 12 months?', 'Dan dalam 12 bulan ke depan?') + '</label>' +
+          '<input type="text" id="i_short" value="' + esc(b.shortTerm || '') + '" placeholder="' + t('e.g. land a first analyst role, pass one selection process…', 'mis. dapat peran analis pertama, lolos satu proses seleksi…') + '">' +
           '<label class="fieldl" style="margin-top:14px">' + t('Which sounds closest?', 'Mana yang paling mendekati?') + '</label>' +
           '<div class="tags" id="i_horizon">' +
           [['depth', t('Going deep in one craft', 'Mendalami satu keahlian')],
@@ -407,7 +453,8 @@
       },
       collect: function () {
         ID.b10.text = val('i_asp') || ID.b10.text;
-        ID.b10.done = !!(ID.b10.text && ID.b10.text.length > 5) || !!ID.b10.horizon;
+        ID.b10.shortTerm = val('i_short') || ID.b10.shortTerm;
+        ID.b10.done = !!(ID.b10.text && ID.b10.text.length > 5) || !!ID.b10.horizon || !!ID.b10.shortTerm;
       } }
   ];
 
@@ -446,15 +493,162 @@
     ID.attributes = a; ID.attributeSources = s;
   }
 
+  /* ── CV / resume / portfolio analysis — deterministic, on this device ──
+   * Transparent keyword matching against the same dictionaries the
+   * questionnaire uses. No upload, no external service, no black box:
+   * every extracted signal shows the exact phrase that produced it, and
+   * nothing is saved until the user applies it. */
+  var CV_DICT = {
+    skills: {
+      'programming': ['python', 'java', 'javascript', 'typescript', 'c++', 'golang', 'software develop', 'coding', 'programmer', 'backend', 'frontend', 'full stack', 'fullstack'],
+      'sql-excel': ['sql', 'excel', 'spreadsheet', 'google sheets', 'pivot'],
+      'statistics': ['statistic', 'regression', 'econometric', 'spss', 'hypothesis test', 'a/b test'],
+      'writing': ['writing', 'copywrit', 'journalis', 'article', 'blog', 'menulis'],
+      'communication': ['public speaking', 'presentation', 'presenter', 'moderator', 'debate', 'mc '],
+      'negotiation': ['negotiat', 'negosiasi'],
+      'design-tools': ['figma', 'photoshop', 'illustrator', 'ui design', 'ux design', 'canva', 'after effects'],
+      'content-creation': ['content creat', 'tiktok', 'instagram', 'youtube', 'video edit', 'konten'],
+      'financial-modelling': ['financial model', 'valuation', 'dcf', 'equity research', 'investment analysis'],
+      'accounting': ['accounting', 'akuntansi', 'audit', 'bookkeep', 'tax '],
+      'planning': ['project management', 'event organiz', 'perencanaan', 'timeline', 'gantt'],
+      'coordination': ['led a team', 'led the team', 'team lead', 'chairman', 'ketua', 'koordinator', 'coordinated', 'head of'],
+      'user-research': ['user research', 'user interview', 'survey', 'focus group', 'wawancara pengguna'],
+      'problem-solving': ['problem solving', 'case competition', 'business case', 'olympiad', 'olimpiade', 'hackathon'],
+      'data-storytelling': ['dashboard', 'tableau', 'power bi', 'looker', 'data visuali'],
+      'empathy': ['volunteer', 'mentoring', 'counsel', 'relawan', 'community service', 'teaching']
+    },
+    inds: {
+      'financial-services': ['bank', 'fintech', 'investment', 'insurance', 'asuransi', 'keuangan', 'capital market'],
+      'tech-ecommerce': ['software', 'startup', 'e-commerce', 'ecommerce', 'tech company', 'teknologi', 'saas', 'marketplace'],
+      'fmcg-consumer': ['fmcg', 'consumer goods', 'brand management', 'retail', 'barang konsumen'],
+      'professional-services': ['consulting', 'consultant', 'audit firm', 'advisory', 'konsultan'],
+      'energy-industrials': ['energy', 'mining', 'manufactur', 'oil and gas', 'tambang', 'energi', 'pabrik', 'logistics', 'supply chain'],
+      'healthcare-pharma': ['health', 'hospital', 'pharma', 'medical', 'kesehatan', 'farmasi', 'rumah sakit'],
+      'telecom': ['telecom', 'telekomunikasi', 'telco', 'network operator'],
+      'media-gaming': ['media', 'game', 'gaming', 'entertainment', 'agency', 'advertising', 'hiburan'],
+      'travel-hospitality': ['travel', 'hotel', 'airline', 'tourism', 'hospitality', 'pariwisata', 'maskapai'],
+      'education': ['education', 'edtech', 'school', 'university program', 'pendidikan', 'tutoring', 'bimbel']
+    },
+    fns: {
+      'engineering': ['software engineer', 'developer', 'programmer', 'devops', 'engineer'],
+      'data': ['data analyst', 'data scien', 'analytics', 'business intelligence', 'analis data'],
+      'product': ['product manager', 'product owner', 'manajer produk'],
+      'design': ['designer', 'ui/ux', 'desainer'],
+      'marketing': ['marketing', 'growth', 'brand', 'pemasaran', 'social media'],
+      'finance': ['finance', 'financial analyst', 'accounting', 'keuangan', 'treasury'],
+      'operations': ['operations', 'supply chain', 'logistics', 'operasional', 'warehouse', 'procurement'],
+      'commercial': ['sales', 'business development', 'account manager', 'penjualan', 'partnership'],
+      'people': ['human resources', 'hr ', 'recruitment', 'talent', 'sdm', 'people operations'],
+      'risk': ['risk', 'compliance', 'internal audit', 'risiko', 'kepatuhan']
+    }
+  };
+  function cvAnalyse(text) {
+    var low = ' ' + text.toLowerCase() + ' ';
+    function scan(dict) {
+      var hits = [];
+      Object.keys(dict).forEach(function (id) {
+        for (var i = 0; i < dict[id].length; i++) {
+          if (low.indexOf(dict[id][i]) !== -1) { hits.push({ id: id, term: dict[id][i].trim() }); return; }
+        }
+      });
+      return hits;
+    }
+    var out = { skills: scan(CV_DICT.skills), inds: scan(CV_DICT.inds), fns: scan(CV_DICT.fns), degree: null, gpa: null };
+    if (/master|magister|\bs2\b|mba|msc/i.test(text)) out.degree = 's2';
+    else if (/bachelor|sarjana|\bs1\b|undergraduate|b\.sc|b\.a\b/i.test(text)) out.degree = 's1';
+    else if (/diploma|\bd3\b|\bd4\b|vocational/i.test(text)) out.degree = 'd3_d4';
+    var g = text.match(/(?:gpa|ipk)\s*[:\s]\s*([0-3][.,]\d{1,2}|4[.,]0{1,2})/i) || text.match(/([0-3][.,]\d{1,2}|4[.,]0{1,2})\s*\/\s*4/);
+    if (g) out.gpa = parseFloat(g[1].replace(',', '.'));
+    return out;
+  }
+  function cvApply(res) {
+    res.skills.forEach(function (s) {
+      if (!ID.skills.some(function (x) { return x.id === s.id; })) {
+        var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
+        if (def) ID.skills.push({ id: s.id, label: L(def[1]), asked: false });
+      }
+    });
+    res.inds.forEach(function (s) { if (ID.prefIndustries.indexOf(s.id) === -1) ID.prefIndustries.push(s.id); });
+    res.fns.forEach(function (s) { if (ID.prefFunctions.indexOf(s.id) === -1) ID.prefFunctions.push(s.id); });
+    if (res.degree && !ID.b1.degree) ID.b1.degree = res.degree;
+    if (res.gpa != null && ID.b1.gpa == null) ID.b1.gpa = res.gpa;
+    if (ID.skills.length) ID.b3.done = true;
+    if (ID.prefIndustries.length) ID.b8.done = true;
+    if (ID.prefFunctions.length) ID.b9.done = true;
+    if (ID.b1.degree || ID.b1.gpa != null) ID.b1.done = true;
+    saveId();
+  }
+  function cvPanel() {
+    return '<details class="card" style="max-width:640px;margin-bottom:18px;padding:0" id="cvBox">' +
+      '<summary style="list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:12px;align-items:center">' +
+      '<span class="mono" style="width:38px;height:38px;font-size:15px">↑</span>' +
+      '<span style="flex:1"><b style="font-size:14px">' + t('Or start from your CV, resume or portfolio', 'Atau mulai dari CV, resume, atau portofoliomu') + '</b>' +
+      '<span class="note3" style="display:block;margin-top:2px">' + t('Analysed on this device with transparent keyword matching — nothing is uploaded anywhere.', 'Dianalisis di perangkat ini dengan pencocokan kata kunci yang transparan — tidak ada yang diunggah ke mana pun.') + '</span></span>' +
+      '<span style="color:var(--r-explore);font-weight:800">▾</span></summary>' +
+      '<div style="padding:0 18px 18px">' +
+      '<div class="cvzone">' +
+      '<p class="note3" style="margin-bottom:10px">' + t('Paste the text of your CV or portfolio, or choose a .txt / .md file. PDF? Open it and copy the text in.', 'Tempel teks CV atau portofoliomu, atau pilih berkas .txt / .md. PDF? Buka lalu salin teksnya ke sini.') + '</p>' +
+      '<textarea id="cvText" placeholder="' + t('Paste your CV text here…', 'Tempel teks CV-mu di sini…') + '"></textarea>' +
+      '<div style="display:flex;gap:10px;justify-content:center;margin-top:12px;flex-wrap:wrap">' +
+      '<input type="file" id="cvFile" accept=".txt,.md,.text" style="display:none">' +
+      '<button class="btn-s" id="cvPick">' + t('Choose a file', 'Pilih berkas') + '</button>' +
+      '<button class="btn-p" id="cvGo" style="background:var(--r-explore)">' + t('Analyse on this device', 'Analisis di perangkat ini') + ' →</button></div></div>' +
+      '<div id="cvOut" style="margin-top:14px"></div></div></details>';
+  }
+  function wireCvPanel(afterApply) {
+    if (!$('#cvBox')) return;
+    $('#cvPick').addEventListener('click', function () { $('#cvFile').click(); });
+    $('#cvFile').addEventListener('change', function () {
+      var f = this.files[0]; if (!f) return;
+      var rd = new FileReader();
+      rd.onload = function () { $('#cvText').value = String(rd.result).slice(0, 60000); };
+      rd.readAsText(f);
+    });
+    $('#cvGo').addEventListener('click', function () {
+      var txt = $('#cvText').value || '';
+      var out = $('#cvOut');
+      if (txt.trim().length < 80) {
+        out.innerHTML = '<p class="note3">' + t('That’s too short to read anything meaningful from. Paste the full text.', 'Terlalu pendek untuk dibaca secara berarti. Tempel teks lengkapnya.') + '</p>';
+        return;
+      }
+      var res = cvAnalyse(txt);
+      var rows = res.skills.map(function (s) {
+        var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
+        return '<div class="sig-row"><span class="k">' + t('Skill', 'Keahlian') + '</span><span>' + (def ? L(def[1]) : s.id) +
+          ' <span class="note3">· ' + t('matched', 'cocok dengan') + ' “' + esc(s.term) + '”</span></span></div>';
+      }).concat(res.inds.map(function (s) {
+        var ind = G.industries.filter(function (x) { return x.id === s.id; })[0];
+        return '<div class="sig-row"><span class="k">' + t('Industry', 'Industri') + '</span><span>' + (ind ? L(ind.name) : s.id) +
+          ' <span class="note3">· “' + esc(s.term) + '”</span></span></div>';
+      })).concat(res.fns.map(function (s) {
+        var fn = G.functions.filter(function (x) { return x.id === s.id; })[0];
+        return '<div class="sig-row"><span class="k">' + t('Function', 'Fungsi') + '</span><span>' + (fn ? L(fn.name) : s.id) +
+          ' <span class="note3">· “' + esc(s.term) + '”</span></span></div>';
+      }));
+      if (res.degree) rows.push('<div class="sig-row"><span class="k">' + t('Education', 'Pendidikan') + '</span><span>' +
+        ({ s1: t('Bachelor’s degree', 'Sarjana (S1)'), s2: t('Master’s degree', 'Magister (S2)'), d3_d4: t('Associate / vocational degree', 'Diploma (D3/D4)') })[res.degree] + '</span></div>');
+      if (res.gpa != null) rows.push('<div class="sig-row"><span class="k">GPA</span><span>' + res.gpa + '</span></div>');
+      out.innerHTML = rows.length ?
+        '<p class="micro" style="margin-bottom:6px">' + t('What we read — and exactly why', 'Yang kami baca — dan alasan persisnya') + ' · ' + rows.length + '</p>' +
+        rows.join('') +
+        '<p class="note3" style="margin:10px 0">' + t('Keyword matching misses nuance by design — it’s honest, not clever. Fix anything wrong in the sections below after applying.', 'Pencocokan kata kunci memang melewatkan nuansa — jujur, bukan pintar. Perbaiki yang keliru di bagian bawah setelah diterapkan.') + '</p>' +
+        '<button class="btn-p" id="cvApply" style="background:var(--r-explore)">' + t('Apply to my identity', 'Terapkan ke identitasku') + ' →</button>'
+        : '<p class="note3">' + t('We couldn’t match anything we recognise. The questionnaire below will work better.', 'Tidak ada yang cocok dengan yang kami kenali. Kuesioner di bawah akan bekerja lebih baik.') + '</p>';
+      if ($('#cvApply')) $('#cvApply').addEventListener('click', function () { cvApply(res); afterApply(); });
+    });
+  }
+
   var openSection = null;
   function renderIdentity() {
     var host = $('#v-identity');
     var pct = Math.round(F.completeness(ID) * 100);
     host.innerHTML =
+      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Your identity', 'Identitasmu') + '</h1>' +
-      '<p class="h-sub">' + t('Nothing is required. Each section states what it buys you.', 'Tidak ada yang wajib. Setiap bagian menyebutkan manfaat spesifiknya.') + '</p>' +
+      '<p class="h-sub">' + t('Nothing is required. Each section states what it buys you. Two ways in: answer questions, or start from your CV.', 'Tidak ada yang wajib. Setiap bagian menyebutkan manfaatnya. Dua jalan masuk: jawab pertanyaan, atau mulai dari CV-mu.') + '</p>' +
       '<div style="display:flex;align-items:center;gap:14px;max-width:640px;margin-bottom:22px">' +
       '<div class="meter" style="flex:1"><i style="width:' + pct + '%"></i></div><span class="micro">' + pct + '%</span></div>' +
+      cvPanel() +
       '<div style="max-width:640px" id="idSecs">' +
       SECTIONS.map(function (sec, i) {
         var done = ID[sec.key] && ID[sec.key].done;
@@ -467,8 +661,19 @@
       }).join('') + '</div>' +
       '<div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">' +
       '<button class="btn-p" id="idSee" style="background:var(--r-explore)">' + t('See what fits', 'Lihat yang cocok') + ' →</button>' +
-      '<button class="btn-s" id="idStmt">' + t('My identity statement', 'Pernyataan identitasku') + '</button></div>' +
+      '<button class="btn-s" id="idProf">' + t('My career profile', 'Profil karierku') + ' →</button>' +
+      '<button class="btn-q" id="idStmt" style="color:var(--r-explore)">' + t('My identity statement', 'Pernyataan identitasku') + '</button></div>' +
       '<div id="stmtWrap" style="max-width:640px;margin-top:22px"></div>';
+    wireCvPanel(function () {
+      var wasOpen = $('#cvBox') && $('#cvBox').open;
+      renderIdentity(); applyLang();
+      if (wasOpen && $('#cvBox')) $('#cvBox').open = false;
+      window.scrollTo(0, 0);
+    });
+    $('#idProf').addEventListener('click', function () {
+      if (openSection != null) SECTIONS[openSection].collect();
+      deriveAttributes(); saveId(); go('profile');
+    });
     $$('#idSecs [data-sec]').forEach(function (b) {
       b.addEventListener('click', function () {
         var i = +b.dataset.sec;
@@ -527,6 +732,124 @@
   /* ═══ prep-cost estimate (honest, difficulty-derived) ═══ */
   function prepWeeks(d) {
     return { 'accessible': 8, 'competitive': 12, 'highly-competitive': 16 }[d.entry_difficulty] || 10;
+  }
+
+  /* ═══ S3b · CAREER IDENTITY PROFILE — the structured output ═══ */
+  function renderProfile() {
+    var host = $('#v-profile');
+    var pct = Math.round(F.completeness(ID) * 100);
+    if (pct === 0 && !(ID.quick && ID.quick.done)) {
+      host.innerHTML = '<h1 class="h-page">' + t('Your career identity', 'Identitas kariermu') + '</h1>' +
+        '<div class="empty" style="max-width:560px">' +
+        t('There’s nothing to build a profile from yet. Answer a few questions or start from your CV.', 'Belum ada bahan untuk membangun profil. Jawab beberapa pertanyaan atau mulai dari CV-mu.') +
+        '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/quick\'">' + t('Three questions', 'Tiga pertanyaan') + ' →</button> ' +
+        '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Identity', 'Identitas') + ' →</button></div>';
+      return;
+    }
+    var res = F.analyseAll(ID, G, lang());
+    var dirs = res.insufficient ? (ID.quick && ID.quick.done ? quickResults().shown : []) : res.shown;
+    var topDirs = dirs.slice(0, 5);
+    /* industries worth exploring: stated preferences first, then where the top directions live */
+    var indIds = ID.prefIndustries.slice();
+    topDirs.forEach(function (r) {
+      (r.direction.industry_ids || []).forEach(function (i2) { if (indIds.indexOf(i2) === -1) indIds.push(i2); });
+    });
+    indIds = indIds.slice(0, 5);
+    /* companies worth exploring: curated entries in those industries, then the wider DB */
+    var pool = COS.filter(function (c) { return indIds.indexOf(c.industry_id) !== -1; });
+    pool.sort(function (a, b) {
+      var ca = a.source_type === 'directory' ? 1 : 0, cb = b.source_type === 'directory' ? 1 : 0;
+      return ca - cb;
+    });
+    var cosPick = pool.slice(0, 6);
+    /* roles worth exploring: opportunities in the top directions, documented first */
+    var dirIds = topDirs.map(function (r) { return r.direction.id; });
+    var oppPool = OPPS_ALL.filter(function (o) { return dirIds.indexOf(o.dir) !== -1; })
+      .sort(function (a, b) { return (a.proc === 'documented' ? 0 : 1) - (b.proc === 'documented' ? 0 : 1); });
+    var oppPick = [], seenDir = {};
+    oppPool.forEach(function (o) { if (!seenDir[o.dir] && oppPick.length < 4) { seenDir[o.dir] = 1; oppPick.push(o); } });
+    oppPool.forEach(function (o) { if (oppPick.length < 4 && oppPick.indexOf(o) === -1) oppPick.push(o); });
+    if (!oppPick.length && ID.prefFunctions.length) {
+      /* no computable directions yet — fall back to the functions the user named */
+      var pickIds = cosPick.map(function (c) { return c.id; });
+      oppPick = OPPS_ALL.filter(function (o) {
+        return ID.prefFunctions.indexOf(o.fn) !== -1 && pickIds.indexOf(o.company) !== -1;
+      }).slice(0, 4);
+    }
+    /* gaps: counter-evidence themes across the top directions */
+    var gaps = [], seenG = {};
+    topDirs.forEach(function (r) {
+      r.counterEvidence.forEach(function (e) {
+        if (!seenG[e.text]) { seenG[e.text] = 1; gaps.push(e); }
+      });
+    });
+    gaps = gaps.slice(0, 3);
+    var sliderRead = SLIDERS.filter(function (s) { return ID.b5[s[0]] != null; }).map(function (s) {
+      var v = ID.b5[s[0]];
+      var side = v <= 40 ? L(s[1]) : v >= 60 ? L(s[2]) : null;
+      return side ? '<span class="chip-min">' + side + '</span>' : '';
+    }).join('');
+    function chipRow(list) { return '<div style="display:flex;gap:8px;flex-wrap:wrap">' + list.join('') + '</div>'; }
+    host.innerHTML =
+      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
+      '<h1 class="h-page">' + t('Your career identity', 'Identitas kariermu') + '</h1>' +
+      '<p class="h-sub">' + t('Built only from what you gave us — every line traces back to an answer. It sharpens as you do.', 'Dibangun hanya dari yang kamu berikan — setiap baris merujuk ke sebuah jawaban. Ia menajam seiring dirimu.') + '</p>' +
+      '<div style="max-width:680px">' +
+      '<div class="prof-sec"><p class="ph">' + t('Who you are', 'Siapa dirimu') + '</p><div id="profStmt"></div></div>' +
+      (ID.skills.length ? '<div class="prof-sec card"><p class="ph">' + t('What you’re good at', 'Apa yang kamu kuasai') + '</p>' +
+        chipRow(ID.skills.map(function (s) { return '<span class="chip-min' + (s.asked ? ' gold' : '') + '">' + s.label + (s.asked ? ' ★' : '') + '</span>'; })) +
+        (ID.skills.some(function (s) { return s.asked; }) ? '<p class="note3" style="margin-top:8px">★ ' + t('people actually ask you for this — stronger evidence than self-rating', 'orang benar-benar memintanya darimu — bukti lebih kuat daripada penilaian diri') + '</p>' : '') + '</div>' : '') +
+      ((ID.interests.length || ID.b4.hobbies) ? '<div class="prof-sec card"><p class="ph">' + t('What you may enjoy', 'Apa yang mungkin kamu nikmati') + '</p>' +
+        chipRow(ID.interests.map(function (i2) {
+          var def = INTERESTS.filter(function (x) { return x[0] === i2; })[0];
+          return '<span class="chip-min">' + (def ? L(def[1]) : i2) + '</span>';
+        })) +
+        (ID.b4.hobbies ? '<p class="note3" style="margin-top:8px">' + t('Outside work: ', 'Di luar kerja: ') + esc(ID.b4.hobbies) + '</p>' : '') + '</div>' : '') +
+      (sliderRead ? '<div class="prof-sec card"><p class="ph">' + t('How you like to work', 'Cara kerja yang kamu sukai') + '</p>' + chipRow([sliderRead]) + '</div>' : '') +
+      (ID.topValues.length ? '<div class="prof-sec card"><p class="ph">' + t('What motivates you', 'Apa yang memotivasimu') + '</p>' +
+        chipRow(ID.topValues.map(function (v) { return '<span class="chip-min gold">' + F.valueLabel(v, lang()) + '</span>'; })) + '</div>' : '') +
+      (topDirs.length ? '<div class="prof-sec"><p class="ph">' + t('Where you may fit — directions worth investigating', 'Di mana kamu mungkin cocok — arah yang layak diselidiki') + '</p>' +
+        topDirs.map(function (r) {
+          var d = r.direction;
+          return '<div class="card pcard" style="margin-bottom:8px"><span class="mono">' + monogram(L(d.name)) + '</span>' +
+            '<span class="meta"><b>' + L(d.name) + '</b>' +
+            (r.evidence.length ? '<span class="sub">' + t('Why it may fit: ', 'Mengapa mungkin cocok: ') + r.evidence.slice(0, 2).map(function (e) { return e.text.replace(/\.$/, '').toLowerCase(); }).join('; ') + '</span>' : '') +
+            '</span><span style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">' + bandChip(r) +
+            '<button class="btn-q go" data-look="' + d.id + '">' + t('Look', 'Lihat') + ' →</button></span></div>';
+        }).join('') + '</div>' : '') +
+      (indIds.length ? '<div class="prof-sec card"><p class="ph">' + t('Industries worth exploring', 'Industri yang layak dijelajahi') + '</p>' +
+        chipRow(indIds.map(function (i2) {
+          var ind = G.industries.filter(function (x) { return x.id === i2; })[0];
+          return '<button class="chip-min tag" data-xind="' + i2 + '" style="cursor:pointer">' + (IND_ICONS[i2] || '') + ' ' + (ind ? L(ind.name) : i2) + ' →</button>';
+        })) + '</div>' : '') +
+      (cosPick.length ? '<div class="prof-sec"><p class="ph">' + t('Companies worth exploring', 'Perusahaan yang layak dijelajahi') + '</p>' +
+        '<div class="grid2">' + cosPick.map(function (c) {
+          return '<button class="card pcard" data-open-co="' + c.id + '">' + logoTile(c) +
+            '<span class="meta"><b>' + c.name + '</b><span class="sub">' + countryName(c) + '</span></span>' +
+            '<span class="go">→</span></button>';
+        }).join('') + '</div>' +
+        '<p class="note3" style="margin-top:8px">' + t('Chosen because they hire in the industries above — a starting set, not a shortlist.', 'Dipilih karena mereka merekrut di industri di atas — titik awal, bukan daftar final.') + '</p></div>' : '') +
+      (oppPick.length ? '<div class="prof-sec"><p class="ph">' + t('Roles worth exploring', 'Peran yang layak dijelajahi') + '</p>' +
+        '<div class="grid2">' + oppPick.map(function (o) {
+          var co = CO(o.company);
+          return '<button class="card pcard" data-open-opp="' + o.id + '">' + logoTile(co) +
+            '<span class="meta"><b>' + co.name + '</b><span class="sub">' + L(o.role) + '</span></span><span class="go">→</span></button>';
+        }).join('') + '</div></div>' : '') +
+      (gaps.length ? '<div class="prof-sec card"><p class="ph">' + t('Gaps worth addressing', 'Kesenjangan yang layak digarap') + '</p>' +
+        gaps.map(function (e) { return '<div class="ev-row against"><span class="m">⚠</span><span>' + e.text + '<span class="src">' + t('from · ', 'dari · ') + L(F.BLOCK_LABELS[e.src]) + '</span></span></div>'; }).join('') +
+        '<p class="note3" style="margin-top:8px">' + t('The Pack and The Rope exist for exactly these.', 'The Pack dan The Rope ada persis untuk hal-hal ini.') + '</p></div>' : '') +
+      '<div style="display:flex;gap:12px;margin-top:20px;flex-wrap:wrap">' +
+      '<button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/range\'">' + t('Continue to Your Range', 'Lanjut ke Bentangmu') + ' →</button>' +
+      '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Refine my identity', 'Pertajam identitasku') + '</button></div>' +
+      '</div>' + disclaimer();
+    renderStatement($('#profStmt'));
+    $$('[data-look]', host).forEach(function (b) {
+      b.addEventListener('click', function () { go('ddetail', b.dataset.look); });
+    });
+    $$('[data-xind]', host).forEach(function (b) {
+      b.addEventListener('click', function () { XF.ind = b.dataset.xind; XF.limit = 24; go('explore'); });
+    });
+    wireOppButtons(host);
   }
 
   /* ═══ S4 · DIRECTIONS — compact cards, depth on demand ═══ */
@@ -670,21 +993,26 @@
     wireDirCards(host); wireOppButtons(host);
   }
 
-  /* ═══ S6 · EXPLORE — scoped, company-first, ungated ═══ */
-  var XF = { geo: 'id', ind: '', fn: '' };
+  /* ═══ S6 · EXPLORE — scoped, company-first, ungated, paginated ═══ */
+  var XF = { geo: 'id', ind: '', fn: '', q: '', limit: 24 };
   function coRoles(c) {
     return OPPS_ALL.filter(function (o) { return o.company === c.id; });
   }
   function renderExplore() {
     var host = $('#v-explore');
     var hasId = ID.b1 && (ID.b1.age != null || ID.b1.gpa != null);
+    var q = (XF.q || '').toLowerCase();
     var cos = COS.filter(function (c) {
       if (XF.geo && c.geo !== XF.geo) return false;
       if (XF.ind && c.industry_id !== XF.ind) return false;
       if (XF.fn && c.fns.indexOf(XF.fn) === -1) return false;
+      if (q && c.name.toLowerCase().indexOf(q) === -1) return false;
       return true;
     });
+    var totalRoles = cos.reduce(function (a, c) { return a + c.fns.length; }, 0);
+    var page = cos.slice(0, XF.limit);
     host.innerHTML =
+      '<img class="vmap" src="../../assets/' + (XF.geo === 'intl' ? 'global-map.png' : 'indonesia-map.png') + '" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Explore', 'Jelajah') + '</h1>' +
       '<p class="h-sub">' + t('Browse freely. No identity or account needed.', 'Jelajahi dengan bebas. Tanpa identitas atau akun.') + '</p>' +
       '<div class="scope" id="xScope" style="margin-bottom:16px">' +
@@ -695,27 +1023,37 @@
       G.industries.map(function (i2) { return '<option value="' + i2.id + '"' + (XF.ind === i2.id ? ' selected' : '') + '>' + L(i2.name) + '</option>'; }).join('') + '</select>' +
       '<select id="xFn" style="width:auto"><option value="">' + t('All functions', 'Semua fungsi') + '</option>' +
       Object.keys(O.FN_ROLES).map(function (fn) { return '<option value="' + fn + '"' + (XF.fn === fn ? ' selected' : '') + '>' + L(O.FN_ROLES[fn].role) + '</option>'; }).join('') + '</select>' +
+      '<input type="text" id="xQ" value="' + esc(XF.q) + '" placeholder="' + t('Filter by name…', 'Saring nama…') + '" style="width:180px">' +
       '</div>' +
       '<p class="note3" style="margin-bottom:14px">' + cos.length + ' ' + t('companies', 'perusahaan') + ' · ' +
-      cos.reduce(function (a, c) { return a + coRoles(c).length; }, 0) + ' ' + t('explorable roles', 'peran yang bisa dijelajahi') +
+      totalRoles + ' ' + t('explorable roles', 'peran yang bisa dijelajahi') +
       (hasId ? '' : ' · ' + t('add your identity for eligibility signals', 'tambahkan identitasmu untuk sinyal kelayakan')) + '</p>' +
-      '<div class="grid2">' + cos.map(coCard).join('') + '</div>';
+      '<div class="grid2">' + page.map(coCard).join('') + '</div>' +
+      (cos.length > XF.limit ?
+        '<div style="text-align:center;margin-top:22px"><button class="btn-s" id="xMore">' +
+        t('Show more', 'Tampilkan lebih banyak') + ' · ' + (cos.length - XF.limit) + ' ' + t('remaining', 'tersisa') + '</button></div>' : '');
     $$('#xScope button').forEach(function (b) {
-      b.addEventListener('click', function () { XF.geo = b.dataset.g; renderExplore(); applyLang(); });
+      b.addEventListener('click', function () { XF.geo = b.dataset.g; XF.limit = 24; renderExplore(); applyLang(); });
     });
-    $('#xInd').addEventListener('change', function () { XF.ind = this.value; renderExplore(); applyLang(); });
-    $('#xFn').addEventListener('change', function () { XF.fn = this.value; renderExplore(); applyLang(); });
+    $('#xInd').addEventListener('change', function () { XF.ind = this.value; XF.limit = 24; renderExplore(); applyLang(); });
+    $('#xFn').addEventListener('change', function () { XF.fn = this.value; XF.limit = 24; renderExplore(); applyLang(); });
+    $('#xQ').addEventListener('input', function () {
+      XF.q = this.value; XF.limit = 24;
+      var keep = this.value;
+      renderExplore(); applyLang();
+      var el = $('#xQ'); el.focus(); el.setSelectionRange(keep.length, keep.length);
+    });
+    if ($('#xMore')) $('#xMore').addEventListener('click', function () { XF.limit += 48; renderExplore(); applyLang(); });
     wireOppButtons(host);
   }
   function coCard(c) {
-    var roles = coRoles(c);
-    var documented = roles.some(function (o) { return o.proc === 'documented'; });
+    var documented = c.proc === 'documented' || coRoles(c).some(function (o) { return o.proc === 'documented'; });
     var ind = G.industries.filter(function (i2) { return i2.id === c.industry_id; })[0];
     return '<button class="card co-card" data-open-co="' + c.id + '">' +
       '<div style="display:flex;gap:12px;align-items:center">' +
-      '<span class="mono">' + monogram(c.name) + '</span>' +
+      logoTile(c) +
       '<span style="min-width:0"><b style="font-size:14.5px;display:block">' + c.name + '</b>' +
-      '<span class="note3">' + L(ind.name) + ' · ' + (c.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span></span></div>' +
+      '<span class="note3">' + L(ind.name) + ' · ' + countryName(c) + '</span></span></div>' +
       '<span style="font-size:12.5px;color:var(--r-text-2);line-height:1.55">' + L(c.desc).slice(0, 110) + (L(c.desc).length > 110 ? '…' : '') + '</span>' +
       '<span class="chips">' + c.fns.slice(0, 4).map(function (fn) {
         return '<span class="chip-min">' + L(O.FN_ROLES[fn].role).split(' ')[0].replace(/&.*$/, '') + '</span>';
@@ -723,7 +1061,7 @@
       '<span style="display:flex;gap:10px;align-items:center;margin-top:2px">' +
       (documented ? '<span class="prov v">✓ ' + t('documented process', 'proses terdokumentasi') + '</span>'
         : '<span class="prov i">~ ' + t('typical process', 'proses umum') + '</span>') +
-      '<span class="note3">' + roles.length + ' ' + t('roles', 'peran') + '</span>' +
+      '<span class="note3">' + c.fns.length + ' ' + t('roles', 'peran') + '</span>' +
       '<span style="margin-left:auto;color:var(--r-explore);font-size:12.5px;font-weight:800">' + t('Explore', 'Jelajahi') + ' →</span></span>' +
       '</button>';
   }
@@ -750,6 +1088,46 @@
   }
 
   /* ═══ S7 · COMPANY — Company → Function → Role ═══ */
+  /* Editorial role profiles per function — how this KIND of role typically
+   * works at entry level, generally. Explicitly not company-specific. */
+  var FN_META = {
+    engineering: { resp: [L('Build, test and ship features in a production codebase', 'Membangun, menguji, dan merilis fitur di codebase produksi'), L('Review code and debug issues with the team', 'Meninjau kode dan men-debug masalah bersama tim'), L('Own small services or components end-to-end over time', 'Lama-kelamaan memegang layanan atau komponen kecil ujung-ke-ujung')],
+      skills: [L('Programming', 'Pemrograman'), L('Data structures & debugging', 'Struktur data & debugging'), L('Version control & collaboration', 'Version control & kolaborasi'), L('Clear written communication', 'Komunikasi tertulis yang jelas')],
+      profile: L('People who like making things work, tolerate being stuck, and enjoy learning tools quickly.', 'Orang yang suka membuat sesuatu berfungsi, tahan saat buntu, dan senang cepat mempelajari alat baru.') },
+    data: { resp: [L('Pull, clean and join data to answer business questions', 'Menarik, membersihkan, dan menggabungkan data untuk menjawab pertanyaan bisnis'), L('Build dashboards and recurring reports people rely on', 'Membangun dasbor dan laporan rutin yang diandalkan orang'), L('Present findings so decisions actually change', 'Menyajikan temuan sehingga keputusan benar-benar berubah')],
+      skills: [L('SQL & spreadsheets', 'SQL & spreadsheet'), L('Statistics fundamentals', 'Dasar statistika'), L('Data storytelling', 'Bercerita dengan data'), L('Business sense', 'Kepekaan bisnis')],
+      profile: L('People who enjoy puzzles with messy inputs and like being the one who actually checked.', 'Orang yang menikmati teka-teki berbahan mentah berantakan dan suka menjadi pihak yang benar-benar memeriksa.') },
+    product: { resp: [L('Turn user problems into a prioritised backlog', 'Mengubah masalah pengguna menjadi backlog terprioritas'), L('Coordinate engineering, design and business around one plan', 'Mengoordinasikan engineering, desain, dan bisnis pada satu rencana'), L('Measure what shipped and decide what happens next', 'Mengukur yang sudah rilis dan memutuskan langkah berikutnya')],
+      skills: [L('Structured communication', 'Komunikasi terstruktur'), L('Prioritisation under constraint', 'Prioritisasi dalam keterbatasan'), L('Basic analytics', 'Analitik dasar'), L('User empathy', 'Empati pengguna')],
+      profile: L('Generalists who like owning outcomes without owning the code, and can hold ambiguity.', 'Generalis yang suka memegang hasil tanpa memegang kode, dan tahan terhadap ambiguitas.') },
+    design: { resp: [L('Translate requirements into flows, wireframes and interfaces', 'Menerjemahkan kebutuhan menjadi alur, wireframe, dan antarmuka'), L('Test designs with real users and iterate', 'Menguji desain ke pengguna nyata dan mengulanginya'), L('Maintain consistency through a design system', 'Menjaga konsistensi lewat design system')],
+      skills: [L('Design tools', 'Perangkat desain'), L('Interaction & visual craft', 'Keahlian interaksi & visual'), L('User research basics', 'Dasar riset pengguna'), L('Giving and taking critique', 'Memberi dan menerima kritik')],
+      profile: L('People who notice what others miss and can defend choices with reasons, not taste alone.', 'Orang yang melihat hal yang terlewat oleh orang lain dan bisa mempertahankan pilihan dengan alasan, bukan selera semata.') },
+    marketing: { resp: [L('Plan and run campaigns across channels', 'Merencanakan dan menjalankan kampanye lintas kanal'), L('Analyse performance and reallocate budget to what works', 'Menganalisis performa dan memindahkan anggaran ke yang berhasil'), L('Build messaging that fits the brand and the audience', 'Membangun pesan yang cocok dengan merek dan audiens')],
+      skills: [L('Copy & content sense', 'Kepekaan naskah & konten'), L('Channel analytics', 'Analitik kanal'), L('Experimentation habit', 'Kebiasaan bereksperimen'), L('Stakeholder management', 'Manajemen pemangku kepentingan')],
+      profile: L('People who like the mix of creative work and numbers, and can live with public results.', 'Orang yang suka campuran kerja kreatif dan angka, serta siap hasilnya terlihat publik.') },
+    finance: { resp: [L('Build and maintain budgets, forecasts and models', 'Menyusun dan memelihara anggaran, proyeksi, dan model'), L('Close the books and explain variances', 'Menutup pembukuan dan menjelaskan selisih'), L('Support decisions with numbers leadership can trust', 'Mendukung keputusan dengan angka yang dipercaya pimpinan')],
+      skills: [L('Excel / financial modelling', 'Excel / pemodelan keuangan'), L('Accounting fundamentals', 'Dasar akuntansi'), L('Attention to detail', 'Ketelitian'), L('Concise reporting', 'Pelaporan ringkas')],
+      profile: L('People who want precision to matter and like being close to how the business actually runs.', 'Orang yang ingin presisi berarti dan suka dekat dengan cara bisnis benar-benar berjalan.') },
+    operations: { resp: [L('Keep a process running: plan, monitor, unblock', 'Menjaga proses tetap berjalan: merencanakan, memantau, membuka hambatan'), L('Find and fix the bottleneck of the week', 'Menemukan dan membereskan hambatan minggu ini'), L('Coordinate vendors, warehouses or field teams', 'Mengoordinasikan vendor, gudang, atau tim lapangan')],
+      skills: [L('Planning & prioritising', 'Perencanaan & prioritisasi'), L('Spreadsheet fluency', 'Kefasihan spreadsheet'), L('Calm under pressure', 'Tenang di bawah tekanan'), L('Cross-team communication', 'Komunikasi lintas tim')],
+      profile: L('People who like visible, physical results and don’t need the spotlight to feel progress.', 'Orang yang suka hasil nyata terlihat dan tidak butuh sorotan untuk merasa maju.') },
+    commercial: { resp: [L('Own a portfolio of accounts or a territory', 'Memegang portofolio akun atau satu wilayah'), L('Prospect, pitch, negotiate and close', 'Mencari prospek, presentasi, negosiasi, dan closing'), L('Grow existing relationships quarter over quarter', 'Menumbuhkan relasi yang ada dari kuartal ke kuartal')],
+      skills: [L('Listening & persuasion', 'Mendengar & persuasi'), L('Resilience to rejection', 'Tahan terhadap penolakan'), L('Pipeline discipline', 'Disiplin pipeline'), L('Commercial arithmetic', 'Hitung-hitungan komersial')],
+      profile: L('People energised by people, comfortable with targets, and honest enough to keep clients.', 'Orang yang berenergi karena orang lain, nyaman dengan target, dan cukup jujur untuk mempertahankan klien.') },
+    people: { resp: [L('Run recruiting, onboarding or development programmes', 'Menjalankan program rekrutmen, onboarding, atau pengembangan'), L('Advise managers on people decisions', 'Menasihati manajer dalam keputusan tentang orang'), L('Hold difficult conversations well', 'Menjalani percakapan sulit dengan baik')],
+      skills: [L('Judgement about people', 'Penilaian tentang orang'), L('Confidentiality & fairness', 'Kerahasiaan & keadilan'), L('Process design', 'Perancangan proses'), L('Clear communication', 'Komunikasi jelas')],
+      profile: L('People who care how organisations treat humans and can be firm as well as warm.', 'Orang yang peduli cara organisasi memperlakukan manusia dan bisa tegas sekaligus hangat.') },
+    risk: { resp: [L('Test controls and investigate exceptions', 'Menguji kontrol dan menyelidiki pengecualian'), L('Document findings that stand up to scrutiny', 'Mendokumentasikan temuan yang tahan diuji'), L('Advise the business on what could go wrong', 'Menasihati bisnis tentang apa yang bisa salah')],
+      skills: [L('Skepticism with evidence', 'Skeptisisme berbasis bukti'), L('Regulatory literacy', 'Literasi regulasi'), L('Structured writing', 'Penulisan terstruktur'), L('Independence', 'Independensi')],
+      profile: L('People who like being right for defensible reasons and can disagree politely with power.', 'Orang yang suka benar dengan alasan yang bisa dipertanggungjawabkan dan berani berbeda pendapat secara santun dengan atasan.') },
+    strategy: { resp: [L('Break a vague problem into an answerable structure', 'Memecah masalah kabur menjadi struktur yang bisa dijawab'), L('Build the analysis and pressure-test it', 'Membangun analisis dan mengujinya'), L('Present recommendations to senior audiences', 'Mempresentasikan rekomendasi ke audiens senior')],
+      skills: [L('Structured problem solving', 'Pemecahan masalah terstruktur'), L('Slide & narrative craft', 'Keahlian slide & narasi'), L('Speed with numbers', 'Kecepatan dengan angka'), L('Poise under questioning', 'Tenang saat dicecar pertanyaan')],
+      profile: L('People who like intensity, feedback, and a steep curve more than they like routine.', 'Orang yang lebih menyukai intensitas, umpan balik, dan kurva belajar terjal daripada rutinitas.') },
+    trainee: { resp: [L('Rotate through functions on a structured programme', 'Berotasi antar fungsi dalam program terstruktur'), L('Deliver a project per rotation, presented upward', 'Menyelesaikan proyek per rotasi, dipresentasikan ke atasan'), L('Build a network across the organisation early', 'Membangun jejaring lintas organisasi sejak awal')],
+      skills: [L('Learning agility', 'Kelincahan belajar'), L('Adaptability across teams', 'Adaptabilitas lintas tim'), L('Leadership signals', 'Sinyal kepemimpinan'), L('Consistent delivery', 'Penyelesaian yang konsisten')],
+      profile: L('Generalists who want breadth before depth and accept placement uncertainty in exchange.', 'Generalis yang ingin keluasan sebelum kedalaman dan menerima ketidakpastian penempatan sebagai gantinya.') }
+  };
   function renderCompany(args) {
     var c = CO(args[0]);
     var host = $('#v-company');
@@ -760,19 +1138,24 @@
       '<button class="btn-q" onclick="history.back()">← ' + t('Back', 'Kembali') + '</button>' +
       '<div style="max-width:720px">' +
       '<div style="display:flex;gap:16px;align-items:center;margin:14px 0 10px">' +
-      '<span class="mono" style="width:58px;height:58px;font-size:21px">' + monogram(c.name) + '</span>' +
+      logoTile(c, 'lg') +
       '<div><h1 class="h-page" style="margin:0">' + c.name + '</h1>' +
       '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px">' +
       '<span class="chip-min gold">' + L(ind.name) + '</span>' +
-      '<span class="chip-min">' + (c.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' +
-      (c.bumn ? '<span class="chip-min">BUMN</span>' : '') + '</div></div></div>' +
+      '<span class="chip-min">' + countryName(c) + '</span>' +
+      (c.bumn ? '<span class="chip-min">' + t('State-owned (BUMN)', 'BUMN') + '</span>' : '') + '</div></div></div>' +
       '<p style="font-size:14.5px;color:var(--r-text-2);margin-bottom:6px">' + L(c.desc) + '</p>' +
-      '<p class="note3" style="margin-bottom:22px"><a href="' + c.website + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + c.website.replace('https://', '') + '</a></p>' +
+      '<p class="note3" style="margin-bottom:18px"><a href="' + c.website + '" target="_blank" rel="noopener" style="color:var(--r-explore)">' + c.website.replace('https://', '') + '</a></p>' +
+      '<p class="micro" style="margin-bottom:8px">' + t('Business areas you can enter', 'Area bisnis yang bisa kamu masuki') + '</p>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px">' +
+      c.fns.map(function (fn) { return '<span class="chip-min">' + L(O.FN_ROLES[fn].role).replace(/ roles| track|Peran |Jalur /g, '') + '</span>'; }).join('') + '</div>' +
       '<p class="sec-h">' + t('Roles you can explore here', 'Peran yang bisa kamu jelajahi di sini') + ' · ' + roles.length + '</p>' +
       '<div class="grid2">' + roles.map(function (o) {
         var documented = o.proc === 'documented';
+        var meta = FN_META[o.fn];
         return '<button class="card" style="text-align:left" data-open-opp="' + o.id + '">' +
           '<b style="font-size:14px;display:block">' + L(o.role) + '</b>' +
+          (meta ? '<span style="font-size:12px;color:var(--r-text-3);display:block;margin-top:4px;line-height:1.5">' + L(meta.profile).slice(0, 80) + '…</span>' : '') +
           '<span style="display:flex;gap:10px;margin-top:8px">' +
           (documented ? '<span class="prov v">✓ ' + t('documented', 'terdokumentasi') + '</span>'
             : '<span class="prov i">~ ' + t('typical', 'umum') + '</span>') +
@@ -822,13 +1205,13 @@
       '<button class="btn-q" onclick="history.back()">← ' + t('Back', 'Kembali') + '</button>' +
       '<div style="max-width:720px">' +
       '<div style="display:flex;gap:16px;align-items:center;margin:14px 0 8px">' +
-      '<span class="mono" style="width:58px;height:58px;font-size:21px">' + monogram(co.name) + '</span>' +
+      logoTile(co, 'lg') +
       '<div><p class="micro" style="margin:0 0 2px">' + co.name + '</p>' +
       '<h1 class="h-page" style="margin:0">' + L(o.role) + '</h1></div></div>' +
       '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px">' +
       (oind ? '<span class="chip-min gold">' + L(oind.name) + '</span>' : '') +
       '<span class="chip-min">' + (co.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' +
-      (co.bumn ? '<span class="chip-min">BUMN</span>' : '') + '</div>' +
+      (co.bumn ? '<span class="chip-min">' + t('State-owned (BUMN)', 'BUMN') + '</span>' : '') + '</div>' +
       '<p class="h-sub">' + L(d.name) + (o.hours ? ' · ' + L(o.hours) : '') + '</p>' +
 
       /* 1 · WHAT THIS ACTUALLY IS */
@@ -838,6 +1221,19 @@
       '<p class="micro" style="margin:' + (prog ? '14px' : '0') + ' 0 4px">' + t('A day in this kind of work — generally, not this company specifically', 'Sehari dalam pekerjaan seperti ini — secara umum, bukan spesifik perusahaan ini') + '</p>' +
       '<p class="serif" style="font-size:14.5px;color:var(--r-text-2)">' + L(d.day_in_life) + '</p>' +
       (prog && prog.window ? '<p class="note3" style="margin-top:10px">' + L(prog.window) + '</p>' : '') + '</div>' +
+      (FN_META[o.fn] ? (function (meta) {
+        return '<div class="card" style="margin-top:12px">' +
+          '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px">' +
+          '<p class="micro" style="margin:0">' + t('About this kind of role', 'Tentang peran seperti ini') + '</p>' +
+          '<span class="chip-min">' + t('Entry level / graduate', 'Level awal / fresh graduate') + '</span>' +
+          '<span class="prov i" style="margin-left:auto">~ ' + t('function-general, not company-specific', 'umum per fungsi, bukan spesifik perusahaan') + '</span></div>' +
+          '<p class="micro" style="margin:0 0 4px;color:var(--r-text-3)">' + t('Typical responsibilities', 'Tanggung jawab umum') + '</p>' +
+          meta.resp.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">·</span><span>' + L(x) + '</span></div>'; }).join('') +
+          '<p class="micro" style="margin:10px 0 6px;color:var(--r-text-3)">' + t('Skills that matter', 'Keahlian yang menentukan') + '</p>' +
+          '<div style="display:flex;gap:8px;flex-wrap:wrap">' + meta.skills.map(function (x) { return '<span class="chip-min">' + L(x) + '</span>'; }).join('') + '</div>' +
+          '<p class="micro" style="margin:12px 0 4px;color:var(--r-text-3)">' + t('Who tends to thrive', 'Siapa yang biasanya berkembang') + '</p>' +
+          '<p style="font-size:13px;color:var(--r-text-2);line-height:1.6">' + L(meta.profile) + '</p></div>';
+      })(FN_META[o.fn]) : '') +
 
       /* 2 · COULD YOU APPLY? */
       '<p class="sec-h" style="margin-top:34px">2 · ' + t('Could you apply?', 'Bisakah kamu melamar?') + '</p>' +
@@ -953,20 +1349,40 @@
         'Yang akan mengubah ini: dua karya nyata lebih berat daripada 0,2 IPK di kebanyakan perusahaan sejenis. ') +
       '<a href="../the-pack/" style="color:var(--r-commit)">' + t('Build the evidence — The Pack', 'Bangun buktinya — The Pack') + ' →</a></div>' +
       (o.bumn && b1.age != null && b1.age <= 27 ?
-        '<p class="note3" style="margin-top:10px">⏳ ' + t('A timing note: BUMN programmes cap S1 applicants at 27. That gives you roughly ' + Math.max(1, 27 - b1.age) + ' more cycles. Not to alarm you — it’s why sequence matters more than effort.',
+        '<p class="note3" style="margin-top:10px">⏳ ' + t('A timing note: state-owned (BUMN) programmes cap bachelor’s-degree applicants at 27. That gives you roughly ' + Math.max(1, 27 - b1.age) + ' more cycles. Not to alarm you — it’s why sequence matters more than effort.',
           'Catatan waktu: program BUMN membatasi pelamar S1 di usia 27. Itu memberimu kira-kira ' + Math.max(1, 27 - b1.age) + ' siklus lagi. Bukan untuk mencemaskanmu — itulah mengapa urutan lebih penting daripada usaha.') + '</p>' : '');
   }
 
-  /* ═══ S11 · YOUR RANGE — the home ═══ */
+  /* ═══ S11 · YOUR RANGE — a personal opportunity landscape ═══ */
   function possView(p) {
     if (p.type === 'direction') {
       var d = G.directions.filter(function (x) { return x.id === p.ref; })[0];
-      return d ? { name: L(d.name), open: function () { go('ddetail', d.id); }, sub: L(d.summary).slice(0, 70) + '…' } : null;
+      if (!d) return null;
+      var r = F.analyseDirection(ID, d, lang());
+      return { name: L(d.name), open: function () { go('ddetail', d.id); },
+        sub: L(d.summary).slice(0, 74) + '…',
+        logo: '<span class="mono">' + monogram(L(d.name)) + '</span>',
+        chips: bandChip(r) };
     }
     var o = OPPS_ALL.filter(function (x) { return x.id === p.ref; })[0];
     if (!o) return null;
     var co = CO(o.company);
-    return { name: co.name + ' · ' + L(o.role), open: function () { go('opp', o.id); }, sub: '' };
+    var ind = G.industries.filter(function (i2) { return i2.id === co.industry_id; })[0];
+    return { name: co.name, open: function () { go('opp', o.id); },
+      sub: L(o.role) + ' · ' + countryName(co),
+      logo: logoTile(co),
+      chips: '<span class="chip-min gold">' + L(ind.name) + '</span>' };
+  }
+  function recommendedRows() {
+    /* top untracked directions from the same deterministic fit run — each with
+       its own traced reason. Empty until there's something to reason from. */
+    var res = F.analyseAll(ID, G, lang());
+    if (res.insufficient) return [];
+    var tracked = {};
+    POSS.forEach(function (p) { if (p.type === 'direction') tracked[p.ref] = 1; });
+    return res.shown.filter(function (r) {
+      return !tracked[r.direction.id] && r.evidence.length && (!r.band || r.band.id !== 'stretch');
+    }).slice(0, 3);
   }
   function renderRange() {
     var host = $('#v-range');
@@ -976,16 +1392,22 @@
     function cardsFor(list, committed) {
       return list.map(function (p) {
         var v = possView(p); if (!v) return '';
-        return '<div class="card' + (committed ? ' card--committed' : '') + '" style="margin-bottom:10px">' +
-          '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><b style="font-size:14px;flex:1">' + v.name + '</b>' +
-          '<button class="btn-q" data-po="' + p.type + ':' + p.ref + '" style="color:var(--r-explore)">' + (committed ? t('Continue', 'Lanjutkan') : t('Look', 'Lihat')) + ' →</button></div>' +
-          (p.status === 'ruled_out' ? '<p class="note3" style="margin-top:4px">' + t('Ruled out. Things change — including you.', 'Disingkirkan. Banyak hal berubah — termasuk dirimu.') +
-            ' <button class="btn-q" data-rev="' + p.type + ':' + p.ref + '" style="display:inline;color:var(--r-explore)">' + t('Reconsider', 'Pertimbangkan lagi') + '</button></p>' : '') + '</div>';
+        return '<div class="card pcard' + (committed ? ' card--committed' : '') + '" style="margin-bottom:10px">' +
+          v.logo +
+          '<span class="meta"><b>' + v.name + '</b><span class="sub">' + v.sub + '</span>' +
+          (p.status === 'ruled_out' ? '<span class="note3" style="display:block;margin-top:4px">' + t('Ruled out. Things change — including you.', 'Disingkirkan. Banyak hal berubah — termasuk dirimu.') +
+            ' <button class="btn-q" data-rev="' + p.type + ':' + p.ref + '" style="display:inline;color:var(--r-explore)">' + t('Reconsider', 'Pertimbangkan lagi') + '</button></span>' : '') +
+          '</span>' +
+          '<span style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">' + v.chips +
+          '<button class="btn-q go" data-po="' + p.type + ':' + p.ref + '">' + (committed ? t('Continue', 'Lanjutkan') : t('Look', 'Lihat')) + ' →</button></span></div>';
       }).join('');
     }
+    var recs = recommendedRows();
     host.innerHTML =
+      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Your Range', 'Bentangmu') + '</h1>' +
-      '<p class="h-sub">' + t('The possibilities you’re currently tracking.', 'Kemungkinan-kemungkinan yang sedang kamu pantau.') + '</p>' +
+      '<p class="h-sub">' + t('The possibilities you’re currently tracking — and why they’re yours.', 'Kemungkinan yang sedang kamu pantau — dan mengapa itu milikmu.') + '</p>' +
+      '<div style="max-width:720px">' +
       (POSS.length === 0 ?
         '<div class="empty" style="max-width:560px">' +
         t('Nothing here yet. That’s the normal starting position. Most people begin by browsing a few companies they’ve heard of.',
@@ -1002,12 +1424,30 @@
           '<button class="btn-s explore" id="cmpGo">' + t('Compare', 'Bandingkan') + ' →</button>' : '') + '</div>' +
         (groups.ruled_out.length ? '<p class="sec-h" style="margin-top:26px">' + t('Ruled out', 'Disingkirkan') + ' · ' + groups.ruled_out.length + '</p>' + cardsFor(groups.ruled_out, false) : '')
       ) +
+      (recs.length ?
+        '<p class="sec-h" style="margin-top:30px">' + t('Recommended for you', 'Direkomendasikan untukmu') + '</p>' +
+        '<p class="note3" style="margin-bottom:10px">' + t('From what you’ve told Metanoia — reasons shown, never scores.', 'Dari apa yang kamu ceritakan pada Metanoia — alasan ditampilkan, bukan skor.') + '</p>' +
+        recs.map(function (r) {
+          var d = r.direction;
+          return '<div class="card pcard" style="margin-bottom:10px">' +
+            '<span class="mono">' + monogram(L(d.name)) + '</span>' +
+            '<span class="meta"><b>' + L(d.name) + '</b>' +
+            '<span class="sub">' + t('Why it may fit: ', 'Mengapa mungkin cocok: ') + r.evidence[0].text.replace(/\.$/, '').toLowerCase() + '</span></span>' +
+            '<span style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">' + bandChip(r) +
+            '<button class="btn-q go" data-rec="' + d.id + '">' + t('Look', 'Lihat') + ' →</button></span></div>';
+        }).join('') : '') +
+      '</div>' +
       '<div class="card" style="max-width:560px;margin-top:34px"><div style="display:flex;align-items:center;gap:12px">' +
       '<div style="flex:1"><p style="font-size:13px;color:var(--r-text-2)">' +
       t('Your identity is ' + pct + '% complete.', 'Identitasmu ' + pct + '% lengkap.') + ' ' +
       (pct < 100 ? t('A few more minutes would sharpen everything here.', 'Beberapa menit lagi akan mempertajam semuanya di sini.') : '') + '</p>' +
       '<div class="meter" style="margin-top:8px"><i style="width:' + pct + '%"></i></div></div>' +
-      '<button class="btn-s explore" onclick="location.hash=\'#/identity\'">' + t('Add detail', 'Tambah detail') + ' →</button></div></div>';
+      '<span style="display:flex;flex-direction:column;gap:8px">' +
+      '<button class="btn-s explore" onclick="location.hash=\'#/identity\'">' + t('Add detail', 'Tambah detail') + ' →</button>' +
+      '<button class="btn-q" onclick="location.hash=\'#/profile\'" style="color:var(--r-explore)">' + t('My career profile', 'Profil karierku') + ' →</button></span></div></div>';
+    $$('[data-rec]', host).forEach(function (b) {
+      b.addEventListener('click', function () { go('ddetail', b.dataset.rec); });
+    });
     $$('[data-po]', host).forEach(function (b) {
       b.addEventListener('click', function () {
         var pr = b.dataset.po.split(':');

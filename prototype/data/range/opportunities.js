@@ -117,29 +117,29 @@ window.MT_RANGE_OPPS = (function () {
       desc: L('An Indonesian state-owned bank focused on housing finance.', 'Bank BUMN Indonesia yang berfokus pada pembiayaan perumahan.'), website: 'https://www.btn.co.id' },
 
     /* — International — */
-    { id: 'google', name: 'Google', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
+    { id: 'google', country: 'us', name: 'Google', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
       desc: L('A global technology company in search, cloud computing, AI and digital products.', 'Perusahaan teknologi global di bidang pencarian, komputasi awan, AI, dan produk digital.'), website: 'https://careers.google.com' },
-    { id: 'microsoft', name: 'Microsoft', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'commercial'],
+    { id: 'microsoft', country: 'us', name: 'Microsoft', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'commercial'],
       desc: L('A global technology company in software, cloud and productivity platforms.', 'Perusahaan teknologi global di bidang perangkat lunak, cloud, dan platform produktivitas.'), website: 'https://careers.microsoft.com' },
-    { id: 'amazon', name: 'Amazon', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'operations', 'product'],
+    { id: 'amazon', country: 'us', name: 'Amazon', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'operations', 'product'],
       desc: L('A global technology company in e-commerce, cloud computing and logistics.', 'Perusahaan teknologi global di bidang e-commerce, komputasi awan, dan logistik.'), website: 'https://www.amazon.jobs' },
-    { id: 'sea-group', name: 'Sea Group (Singapore)', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'operations'],
+    { id: 'sea-group', country: 'sg', name: 'Sea Group (Singapore)', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'operations'],
       desc: L('A Southeast Asian technology group spanning e-commerce, gaming and digital finance.', 'Grup teknologi Asia Tenggara yang mencakup e-commerce, gim, dan keuangan digital.'), website: 'https://www.sea.com' },
-    { id: 'bytedance', name: 'ByteDance / TikTok', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
+    { id: 'bytedance', country: 'cn', name: 'ByteDance / TikTok', industry_id: 'tech-ecommerce', geo: 'intl', proc: 'tech-global', fns: ['engineering', 'data', 'product', 'marketing'],
       desc: L('A global technology company operating digital content and social platforms.', 'Perusahaan teknologi global yang mengoperasikan konten digital dan platform sosial.'), website: 'https://jobs.bytedance.com' },
-    { id: 'mckinsey', name: 'McKinsey & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
+    { id: 'mckinsey', country: 'us', name: 'McKinsey & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
       desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://www.mckinsey.com/careers' },
-    { id: 'bcg', name: 'Boston Consulting Group', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
+    { id: 'bcg', country: 'us', name: 'Boston Consulting Group', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy', 'data'],
       desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://careers.bcg.com' },
-    { id: 'bain', name: 'Bain & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy'],
+    { id: 'bain', country: 'us', name: 'Bain & Company', industry_id: 'professional-services', geo: 'intl', proc: 'consulting', fns: ['strategy'],
       desc: L('A global management-consulting firm.', 'Firma konsultan manajemen global.'), website: 'https://www.bain.com/careers' },
-    { id: 'goldman', name: 'Goldman Sachs', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data'],
+    { id: 'goldman', country: 'us', name: 'Goldman Sachs', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data'],
       desc: L('A global investment bank and financial-services firm.', 'Bank investasi dan firma jasa keuangan global.'), website: 'https://www.goldmansachs.com/careers' },
-    { id: 'jpmorgan', name: 'J.P. Morgan', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data', 'engineering'],
+    { id: 'jpmorgan', country: 'us', name: 'J.P. Morgan', industry_id: 'financial-services', geo: 'intl', proc: 'professional-services', fns: ['finance', 'risk', 'data', 'engineering'],
       desc: L('A global bank spanning investment banking, markets and asset management.', 'Bank global yang mencakup perbankan investasi, pasar, dan manajemen aset.'), website: 'https://careers.jpmorgan.com' },
-    { id: 'pg-global', name: 'Procter & Gamble', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'commercial', 'operations', 'finance'],
+    { id: 'pg-global', country: 'us', name: 'Procter & Gamble', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'commercial', 'operations', 'finance'],
       desc: L('A global consumer-goods company with brands across home and personal care.', 'Perusahaan barang konsumen global dengan merek perawatan rumah dan pribadi.'), website: 'https://www.pgcareers.com' },
-    { id: 'nestle-global', name: 'Nestlé (Global)', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'operations', 'finance', 'commercial'],
+    { id: 'nestle-global', country: 'ch', name: 'Nestlé (Global)', industry_id: 'fmcg-consumer', geo: 'intl', proc: 'fmcg-mt', fns: ['marketing', 'operations', 'finance', 'commercial'],
       desc: L('The global food and beverage company, with graduate programmes across markets.', 'Perusahaan makanan dan minuman global, dengan program graduate di berbagai pasar.'), website: 'https://www.nestle.com/jobs' }
   ];
 
@@ -167,21 +167,34 @@ window.MT_RANGE_OPPS = (function () {
     'mayora':        { fns: ['commercial', 'operations', 'marketing', 'finance'], proc: 'fmcg-mt' }
   };
 
-  /* merged company list — built lazily against the base graph */
+  /* merged company list — curated (base graph + extras) plus the scalable DB.
+   * Curated entries keep their hand-written descriptions and win on id clash. */
+  function domainOf(url) { return (url || '').replace(/^https?:\/\//, '').replace(/\/.*$/, ''); }
   function companies() {
     var G = window.MT_RANGE_GRAPH;
     var base = G.companies.map(function (c) {
       var x = BASE_FNS[c.id] || { fns: ['trainee'], proc: 'professional-services' };
-      return { id: c.id, name: c.name, industry_id: c.industry_id, geo: 'id',
-        desc: c.description, website: c.website, source_type: c.source_type,
+      return { id: c.id, name: c.name, industry_id: c.industry_id, geo: 'id', country: 'id',
+        desc: c.description, website: c.website, domain: domainOf(c.website), source_type: c.source_type,
         last_reviewed: c.last_reviewed, fns: x.fns, proc: x.proc, bumn: !!x.bumn };
     });
     var extra = EXTRA_COMPANIES.map(function (c) {
       return { id: c.id, name: c.name, industry_id: c.industry_id, geo: c.geo,
-        desc: c.desc, website: c.website, source_type: 'official',
+        country: c.geo === 'id' ? 'id' : (c.country || 'us'),
+        desc: c.desc, website: c.website, domain: domainOf(c.website), source_type: 'official',
         last_reviewed: '2026-08-16', fns: c.fns, proc: c.proc, bumn: !!c.bumn };
     });
-    return base.concat(extra);
+    var out = base.concat(extra);
+    var seen = {};
+    out.forEach(function (c) { seen[c.id] = true; });
+    if (window.MT_RANGE_DB) {
+      window.MT_RANGE_DB.expand().forEach(function (c) {
+        if (seen[c.id]) return;
+        seen[c.id] = true;
+        out.push(c);
+      });
+    }
+    return out;
   }
 
   /* sourced special opportunities (programme names from cited sources only) */
