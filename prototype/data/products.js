@@ -10,25 +10,6 @@
 
 export const PILLARS = [
   {
-    id: 'range',
-    number: '00',
-    pillar:      { en: 'The Range', id: 'Bentang' },
-    definition:  { en: 'Making a career possibility decidable',
-                   id: 'Membuat kemungkinan karier bisa diputuskan' },
-    question:    { en: 'What could fit me — and what would it take?',
-                   id: 'Apa yang bisa cocok untukku — dan apa yang dibutuhkan?' },
-    mode: 'exploration',
-    slug: 'the-range',
-    free: true,   // free to start — exploration is never gated
-    editions: {
-      student:              { name: { en: 'Career Exploration',  id: 'Penjelajahan Karier' } },
-      'fresh-graduate':     { name: { en: 'Career Exploration',  id: 'Penjelajahan Karier' } },
-      'early-professional': { name: { en: 'Direction Reset',     id: 'Reset Arah' } },
-      'mature-professional':{ name: { en: 'Reinvention Mapping', id: 'Pemetaan Reinvensi' } }
-    },
-    retiredNames: ['Eksplorasi Puncak Tujuan', 'The Lookout']
-  },
-  {
     id: 'map',
     number: '01',
     pillar:      { en: 'The Map',   id: 'Peta' },
@@ -44,7 +25,16 @@ export const PILLARS = [
       'early-professional': { name: { en: 'Career Audit & Pivot',    id: 'Audit & Pivot Karier' } },
       'mature-professional':{ name: { en: 'Leadership Positioning',  id: 'Positioning Kepemimpinan' } }
     },
-    retiredNames: ['Project Aladin', 'Aladin Direction Edition']
+    /* The Range was consolidated into The Map (2026-08): its exploration
+       capabilities now live at /products/the-map/#/… as an integrated section.
+       The name stays live as a feature identity, not a standalone product. */
+    integrates: {
+      name: { en: 'The Range', id: 'Bentang' },
+      definition: { en: 'Career & opportunity exploration', id: 'Penjelajahan karier & peluang' },
+      route: '/products/the-map/#/home'
+    },
+    retiredNames: ['Project Aladin', 'Aladin Direction Edition',
+      'Eksplorasi Puncak Tujuan', 'The Lookout']
   },
   {
     id: 'pack',

@@ -30,16 +30,13 @@
   function L(pair) { return pair ? (pair[lang()] || pair.en) : ''; }
   function t(en, idn) { return lang() === 'id' ? idn : en; }
 
+  var HOST = document.getElementById('tab-range') || document;
   function applyLang() {
-    $$('[data-en]').forEach(function (n) { n.innerHTML = n.getAttribute(lang() === 'id' ? 'data-id' : 'data-en'); });
+    $$('[data-en]', HOST).forEach(function (n) { n.innerHTML = n.getAttribute(lang() === 'id' ? 'data-id' : 'data-en'); });
     $$('.rail .lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang()); });
-    document.documentElement.lang = lang();
   }
-  $('#themeBtn').addEventListener('click', function () {
-    var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
-    document.documentElement.dataset.theme = next;
-    try { localStorage.setItem('mt-theme', next); } catch (e) {}
-  });
+  /* Embedded in The Map: the host page owns the theme toggle and language
+     switcher. Range-shell controls bind only when they exist. */
   $$('.rail .lang button').forEach(function (b) {
     b.addEventListener('click', function () {
       try { localStorage.setItem('mtLang', b.dataset.lang); } catch (e) {}
@@ -89,8 +86,9 @@
   }
   function updateNavCnt() {
     var act = POSS.filter(function (p) { return p.status !== 'ruled_out'; }).length;
-    $('#navCnt').textContent = act || '';
-    $('#navIdPct').textContent = Math.round(F.completeness(ID) * 100) + '%';
+    var c = $('#navCnt'), i = $('#navIdPct');
+    if (c) c.textContent = act || '';
+    if (i) i.textContent = Math.round(F.completeness(ID) * 100) + '%';
   }
 
   /* ── router ── */
@@ -132,7 +130,7 @@
     var host = $('#v-home');
     var shopee = G.programmes.filter(function (p2) { return p2.id === 'shopee-gdp'; })[0];
     var FLOW = [
-      [t('Explore', 'Jelajah'), t('Browse industries, companies and roles — freely, no account.', 'Jelajahi industri, perusahaan, dan peran — bebas, tanpa akun.')],
+      [t('Explore', 'Jelajah'), t('Browse industries, companies and roles — freely, at your own pace.', 'Jelajahi industri, perusahaan, dan peran — bebas, sesuai ritmemu.')],
       [t('Select', 'Pilih'), t('Open an opportunity that catches your eye.', 'Buka peluang yang menarik perhatianmu.')],
       [t('Investigate', 'Selidiki'), t('See how they actually hire, and whether you can apply.', 'Lihat cara mereka merekrut, dan apakah kamu bisa melamar.')],
       [t('Compare', 'Bandingkan'), t('Put possibilities side by side, trade-offs in the open.', 'Sandingkan kemungkinan, kompromi di permukaan.')],
@@ -142,7 +140,7 @@
     host.innerHTML =
       '<div class="hero">' +
       '<div class="hero-copy">' +
-      '<p class="micro">00 · The Range · Bentang · ' + t('Free to start', 'Gratis untuk memulai') + '</p>' +
+      '<p class="micro">' + t('The Range · Part of The Map', 'The Range · Bagian dari The Map') + '</p>' +
       '<h1 class="serif" style="font-size:clamp(30px,4.6vw,48px);letter-spacing:-.01em;line-height:1.13;margin:14px 0 14px">' +
       t('See what&rsquo;s out there. <em style="color:var(--r-explore)">Then find out what it takes.</em>',
         'Lihat apa yang ada di luar sana. <em style="color:var(--r-explore)">Lalu cari tahu apa yang dibutuhkan.</em>') + '</h1>' +
@@ -153,8 +151,8 @@
       '<button class="btn-p" id="homeCv">' + t('Start from my CV / resume', 'Mulai dari CV / resume-ku') + ' →</button>' +
       '<button class="btn-s explore" id="homeQs">' + t('Answer the questionnaire', 'Jawab kuesionernya') + ' →</button>' +
       '<button class="btn-q" id="homeBrowse" style="color:var(--r-explore)">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
-      '<p class="note3" style="margin-top:14px">' + t('Free. No account needed to start. Both paths feed the same analysis — and we&rsquo;ll tell you what we don&rsquo;t know.',
-        'Gratis. Tanpa akun untuk memulai. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
+      '<p class="note3" style="margin-top:14px">' + t('Included with The Map. Both paths feed the same analysis — and we&rsquo;ll tell you what we don&rsquo;t know.',
+        'Termasuk dalam The Map. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
       '<div class="hero-art"><img src="../../assets/nav-mountain.png" alt="" aria-hidden="true"></div>' +
       '</div>' +
 
@@ -1095,7 +1093,7 @@
     host.innerHTML =
       '<img class="vmap" src="../../assets/' + (XF.geo === 'intl' ? 'global-map.png' : 'indonesia-map.png') + '" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Explore', 'Jelajah') + '</h1>' +
-      '<p class="h-sub">' + t('Browse freely. No identity or account needed.', 'Jelajahi dengan bebas. Tanpa identitas atau akun.') + '</p>' +
+      '<p class="h-sub">' + t('Browse freely — no identity needed to start.', 'Jelajahi dengan bebas — tanpa perlu identitas untuk memulai.') + '</p>' +
       '<div class="scope" id="xScope" style="margin-bottom:16px">' +
       '<button data-g="id" class="' + (XF.geo === 'id' ? 'on' : '') + '">' + t('Indonesia only', 'Hanya Indonesia') + '</button>' +
       '<button data-g="intl" class="' + (XF.geo === 'intl' ? 'on' : '') + '">' + t('International', 'Internasional') + '</button></div>' +
@@ -1647,14 +1645,16 @@
     });
   }
   kInput.addEventListener('input', function () { kSearch(kInput.value); });
-  $('#srchBtn').addEventListener('click', kOpen);
-  $('#srchBtnM').addEventListener('click', kOpen);
+  if ($('#srchBtn')) $('#srchBtn').addEventListener('click', kOpen);
+  if ($('#srchBtnM')) $('#srchBtnM').addEventListener('click', kOpen);
+  if ($('#rangeSearch')) $('#rangeSearch').addEventListener('click', kOpen);
   kbar.addEventListener('click', function (e) { if (e.target === kbar) kClose(); });
   document.addEventListener('keydown', function (e) {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); kOpen(); }
     if (e.key === 'Escape') kClose();
   });
 
+  window.MT_RANGE_APP = { route: route, refresh: function () { applyLang(); route(); } };
   applyLang();
   route();
 })();

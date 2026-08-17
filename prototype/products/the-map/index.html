@@ -468,6 +468,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 @media(max-width:640px){.flg{width:16px;height:16px}}
 </style>
 <link rel="stylesheet" href="../../css/lms.css">
+<link rel="stylesheet" href="range-embed.css">
 </head>
 <body>
 
@@ -509,6 +510,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     </div>
     <nav class="sb-nav" aria-label="Course navigation">
       <button class="nav-item" data-tab="home"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h13V9"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></button>
+      <button class="nav-item" data-tab="range"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg></span><span data-en="The Range" data-id="The Range">The Range</span></button>
       <button class="nav-item" data-tab="syllabus"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="The Map Syllabus" data-id="Silabus The Map">The Map Syllabus</span></button>
       <button class="nav-item" data-tab="modules"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg></span><span data-en="Modules" data-id="Modul">Modules</span></button>
       <button class="nav-item" data-tab="assignments"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg></span><span data-en="Assignments" data-id="Tugas">Assignments</span></button>
@@ -543,11 +545,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <span data-en="6 Modules" data-id="6 Modul">6 Modules</span>
           <span data-en="Self-paced" data-id="Mandiri">Self-paced</span>
           <span data-en="Updated 2026" data-id="Diperbarui 2026">Updated 2026</span>
+          <span data-en="Includes The Range — 675 companies to explore" data-id="Termasuk The Range — 675 perusahaan untuk dijelajahi">Includes The Range — 675 companies to explore</span>
         </div>
         <div class="course-progress-bar"><span class="progress-fill" style="--progress:0%"></span></div>
         <p class="progress-label" data-en="0% complete — start Module 1 to begin your journey" data-id="0% selesai — mulai Modul 1 untuk memulai perjalananmu">0% complete — start Module 1 to begin your journey</p>
         <div class="course-actions">
           <button class="btn-gold pulse" data-goto-module="1" data-en="Start Module 1 →" data-id="Mulai Modul 1 →">Start Module 1 →</button>
+          <button class="side-cta" data-goto-tab="range" style="border:1px solid var(--gold-border-hover);border-radius:999px;background:none;color:var(--gold);font-weight:700;font-size:13px;padding:12px 20px;cursor:pointer" data-en="Explore the opportunity landscape — The Range →" data-id="Jelajahi lanskap peluang — The Range →">Explore the opportunity landscape — The Range →</button>
         </div>
       </div>
       </div>
@@ -628,6 +632,31 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     </section>
 
     <!-- ─── TAB: SYLLABUS ─── -->
+    <!-- ═══ THE RANGE — career & opportunity exploration, consolidated into The Map ═══ -->
+    <section class="tab-content" id="tab-range" hidden>
+      <div style="display:flex;justify-content:flex-end;margin-bottom:2px">
+        <button id="rangeSearch" class="btn-s" style="border:1px solid var(--gold-border);border-radius:999px;background:none;color:var(--gold);font-size:12px;font-weight:700;padding:8px 16px;display:inline-flex;align-items:center;gap:8px;cursor:pointer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7.5"/><path d="m16.8 16.8 4 4"/></svg>
+          <span data-en="Search companies &amp; roles" data-id="Cari perusahaan &amp; peran">Search companies &amp; roles</span> <kbd style="font-size:10px;border:1px solid var(--gold-border);border-radius:4px;padding:1px 5px">⌘K</kbd>
+        </button>
+      </div>
+      <section class="view" id="v-home"></section>
+      <section class="view" id="v-quick"></section>
+      <section class="view" id="v-identity"></section>
+      <section class="view" id="v-directions"></section>
+      <section class="view" id="v-ddetail"></section>
+      <section class="view" id="v-explore"></section>
+      <section class="view" id="v-company"></section>
+      <section class="view" id="v-opp"></section>
+      <section class="view" id="v-range"></section>
+      <section class="view" id="v-profile"></section>
+      <section class="view" id="v-compare"></section>
+      <div class="kbar" id="kbar"><div class="kpanel">
+        <input type="text" id="kInput" placeholder="Search companies, roles, directions…">
+        <div class="kres" id="kRes"></div>
+      </div></div>
+    </section>
+
     <section class="tab-content" id="tab-syllabus" hidden>
       <div class="tab-banner">
         <div class="tb-art" style="background-image:url('../../assets/bg/aladdin-hero.jpg');background-position:78% 26%"></div>
@@ -1326,6 +1355,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <!-- ═══ MOBILE TAB BAR ═══ -->
 <nav class="mobile-tab-bar" aria-label="Course navigation">
     <button class="mobile-tab-item" data-tab="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h13V9"/></svg><span data-en="Home" data-id="Beranda">Home</span></button>
+    <button class="mobile-tab-item" data-tab="range"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg><span data-en="Range" data-id="Range">Range</span></button>
     <button class="mobile-tab-item" data-tab="syllabus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg><span data-en="Syllabus" data-id="Silabus">Syllabus</span></button>
     <button class="mobile-tab-item" data-tab="modules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg><span data-en="Modules" data-id="Modul">Modules</span></button>
     <button class="mobile-tab-item" data-tab="assignments"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg><span data-en="Tasks" data-id="Tugas">Tasks</span></button>
@@ -1360,7 +1390,7 @@ function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.
 if (!isDemoMode) {
   if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
-    window.location.replace('../../login.html?redirect=' + encodeURIComponent('/products/the-map/'));
+    window.location.replace('../../login.html?redirect=' + encodeURIComponent('/products/the-map/' + (location.hash.indexOf('#/') === 0 ? location.hash : '')));
   } else if (!isPremium) {
     showUpgradePrompt();
   }
@@ -1373,12 +1403,16 @@ try {
 /* ─── TAB NAVIGATION ─── */
 const navItems = document.querySelectorAll('.nav-item, .mobile-tab-item');
 const tabs = document.querySelectorAll('.tab-content');
-const VALID = ['home', 'syllabus', 'modules', 'assignments', 'grades'];
+const VALID = ['home', 'range', 'syllabus', 'modules', 'assignments', 'grades'];
 function activateTab(tabId) {
   if (!VALID.includes(tabId)) tabId = 'home';
   navItems.forEach(item => item.classList.toggle('active', item.dataset.tab === tabId));
   tabs.forEach(tab => { tab.hidden = tab.id !== 'tab-' + tabId; });
-  if (history.replaceState) history.replaceState(null, '', '#' + tabId);
+  if (tabId === 'range') {
+    /* the Range keeps its own deep-linkable routes under #/… — never clobber one */
+    if (!location.hash.startsWith('#/')) history.replaceState(null, '', '#/home');
+    if (window.MT_RANGE_APP) window.MT_RANGE_APP.route();
+  } else if (history.replaceState) history.replaceState(null, '', '#' + tabId);
   try { sessionStorage.setItem('aladin_active_tab', tabId); } catch (e) {}
   window.scrollTo({top: 0});
 }
@@ -1504,6 +1538,7 @@ document.querySelectorAll('.ctl button').forEach(b => {
     lang = b.dataset.lang;
     try { localStorage.setItem('mtLang', lang); } catch (e) {}
     applyLang();
+    if (window.MT_RANGE_APP) window.MT_RANGE_APP.refresh();
   });
 });
 applyLang();
@@ -1531,7 +1566,10 @@ const ro = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
 /* ─── INIT: restore tab, expand Module 1 ─── */
-let initTab = window.location.hash.replace('#', '');
+window.addEventListener('hashchange', () => {
+  if (location.hash.startsWith('#/')) activateTab('range');
+});
+let initTab = window.location.hash.startsWith('#/') ? 'range' : window.location.hash.replace('#', '');
 if (!VALID.includes(initTab)) {
   try { initTab = sessionStorage.getItem('aladin_active_tab') || 'home'; } catch (e) { initTab = 'home'; }
 }
@@ -1732,6 +1770,13 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
   document.body.appendChild(b);
 } catch (e) {} })();
 </script>
+<script src="../../data/range/graph.js"></script>
+<script src="../../data/range/fit.js"></script>
+<script src="../../data/range/companies-db.js"></script>
+<script src="../../data/range/opportunities.js"></script>
+<script src="../../data/range/logo-overrides.js"></script>
+<script src="js/range-logo.js"></script>
+<script src="js/range-app.js"></script>
 <script src="../../data/lms/the-map.js"></script>
 <script src="../../js/lms-player.js"></script>
 </body>
