@@ -87,6 +87,39 @@ window.MT_RANGE_GRAPH = {
     "en": "The operators behind national connectivity — networks, digital services and massive subscriber bases.",
     "id": "Operator di balik konektivitas nasional — jaringan, layanan digital, dan basis pelanggan raksasa."
    }
+  },
+  {
+   "id": "media-gaming",
+   "name": {
+    "en": "Media, Gaming & Entertainment",
+    "id": "Media, Gim & Hiburan"
+   },
+   "desc": {
+    "en": "Studios, publishers, platforms and agencies — work where attention and craft decide what wins.",
+    "id": "Studio, penerbit, platform, dan agensi — kerja di mana perhatian dan keahlian menentukan pemenang."
+   }
+  },
+  {
+   "id": "travel-hospitality",
+   "name": {
+    "en": "Travel & Hospitality",
+    "id": "Perjalanan & Perhotelan"
+   },
+   "desc": {
+    "en": "Airlines, hotels and travel platforms — operations-heavy businesses built on service at scale.",
+    "id": "Maskapai, hotel, dan platform perjalanan — bisnis padat operasi yang dibangun di atas layanan berskala besar."
+   }
+  },
+  {
+   "id": "education",
+   "name": {
+    "en": "Education",
+    "id": "Pendidikan"
+   },
+   "desc": {
+    "en": "Learning companies and platforms — where product, content and teaching quality meet.",
+    "id": "Perusahaan dan platform pembelajaran — tempat produk, konten, dan mutu pengajaran bertemu."
+   }
   }
  ],
  "functions": [
@@ -2177,7 +2210,7 @@ window.MT_RANGE_GRAPH = {
     {
      "rule": "age",
      "label": {
-      "en": "Age cap: 27 for S1, 25 for D3/D4",
+      "en": "Age cap: 27 for bachelor’s graduates (S1), 25 for associate/vocational graduates (D3/D4)",
       "id": "Batas usia: 27 untuk S1, 25 untuk D3/D4"
      },
      "check": "age_max",
@@ -2194,8 +2227,8 @@ window.MT_RANGE_GRAPH = {
     {
      "rule": "gpa",
      "label": {
-      "en": "GPA minimum: 2.75 (PTN) / 3.00 (PTS)",
-      "id": "IPK minimum: 2,75 (PTN) / 3,00 (PTS)"
+      "en": "GPA minimum: 2.75 (public universities) / 3.00 (private universities)",
+      "id": "IPK minimum: 2,75 (universitas negeri/PTN) / 3,00 (universitas swasta/PTS)"
      },
      "check": "gpa_min",
      "value": {

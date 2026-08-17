@@ -195,7 +195,8 @@
       autonomy: { en: 'autonomy', id: 'otonomi' }, recognition: { en: 'recognition', id: 'pengakuan' },
       balance: { en: 'balance', id: 'keseimbangan' }, prestige: { en: 'prestige', id: 'prestise' },
       purpose: { en: 'purpose', id: 'makna' }, security: { en: 'security', id: 'keamanan' },
-      creativity: { en: 'creativity', id: 'kreativitas' }, people: { en: 'people', id: 'orang-orang' }
+      creativity: { en: 'creativity', id: 'kreativitas' }, people: { en: 'people', id: 'orang-orang' },
+      achievement: { en: 'achievement', id: 'pencapaian' }, leadership: { en: 'leadership', id: 'kepemimpinan' }
     };
     return (m[v] || { en: v, id: v })[lang];
   }
