@@ -20,24 +20,39 @@
 window.MT_LOGO = (function () {
   'use strict';
 
-  /* Locally hosted marks, keyed by domain. Highest priority — use this for
-     companies whose logo must be exact, or which block hotlinking. */
-  var OVERRIDES = {};
+  /* Locally hosted marks, keyed by brand domain — the only source that cannot
+     fail. scripts/fetch-logos.py vendors marks into assets/logos/ and writes
+     data/range/logo-overrides.js, which populates this map when present. */
+  var OVERRIDES = (window.MT_LOGO_OVERRIDES || {});
 
-  /* Remote sources, in order of preference. Each takes a bare domain.
-     Ordering rationale: sources that return a real 404 for unknown domains
-     come first, because a 404 gives us a clean signal to move on. Sources
-     that answer with a generic placeholder image instead of failing must come
-     last, since we cannot distinguish their placeholder from a real mark. */
+  /* Sources, in order of preference. Ordering rationale, learned the hard way:
+       1–2. The company's OWN domain. First-party, high resolution
+            (apple-touch-icon is typically 180px), and — decisively — not an
+            endpoint that privacy extensions and content blockers filter.
+            Third-party favicon APIs are a common blocklist entry, which is
+            why a chain made only of them renders monograms for a large share
+            of real users while looking perfectly healthy in a clean browser.
+       3–4. Third-party APIs, as a safety net for sites that expose no icon at
+            a predictable path. These may be blocked; by then we have already
+            tried the sources that usually are not. */
   var SOURCES = [
-    /* unavatar aggregates several mark sources and honours ?fallback=false,
-       returning a real error instead of a placeholder when it has nothing. */
-    function (d) { return 'https://unavatar.io/' + d + '?fallback=false'; },
+    function (d) { return 'https://' + d + '/apple-touch-icon.png'; },
+    function (d) { return 'https://' + d + '/apple-touch-icon-precomposed.png'; },
+    /* /favicon.ico is worth trying but is handled oddly by some browsers,
+       which route it through their own favicon machinery rather than the
+       normal image path — hence it sits after the touch icons. */
+    function (d) { return 'https://' + d + '/favicon.ico'; },
     function (d) { return 'https://icons.duckduckgo.com/ip3/' + d + '.ico'; },
     function (d) { return 'https://www.google.com/s2/favicons?domain=' + d + '&sz=128'; }
   ];
 
-  var CKEY = 'mt-logo-src:';
+  /* Vendored marks are read at lookup time, not captured at load time, so the
+     generated overrides file may load before or after this one. */
+  function override(d) { return (window.MT_LOGO_OVERRIDES || OVERRIDES)[d] || OVERRIDES[d]; }
+
+  /* Bumped whenever the chain changes: a stored "no mark here" verdict was
+     reached with an older chain and must not outlive it. */
+  var CKEY = 'mt-logo3:';
   function cacheGet(d) { try { return sessionStorage.getItem(CKEY + d); } catch (e) { return null; } }
   function cacheSet(d, v) { try { sessionStorage.setItem(CKEY + d, v); } catch (e) {} }
 
@@ -110,15 +125,15 @@ window.MT_LOGO = (function () {
     /* Already resolved this session: assign the known-good URL straight to the
        visible element. No probe request — the browser cache serves it — and an
        error handler still returns the tile to its fallback if that changes. */
-    if (cached != null && (OVERRIDES[d] || SOURCES[+cached])) {
+    if (cached != null && (override(d) || SOURCES[+cached])) {
       img.onerror = function () { el.classList.add('x'); };
-      img.src = OVERRIDES[d] || SOURCES[+cached](d);
+      img.src = override(d) || SOURCES[+cached](d);
       el.classList.remove('x');
       return;
     }
 
-    var chain = [], offset = 0;
-    if (OVERRIDES[d]) { chain.push(OVERRIDES[d]); offset = 1; }
+    var chain = [], offset = 0, ov = override(d);
+    if (ov) { chain.push(ov); offset = 1; }
     SOURCES.forEach(function (fn) { chain.push(fn(d)); });
 
     var i = 0;
@@ -129,13 +144,15 @@ window.MT_LOGO = (function () {
       probe.referrerPolicy = 'no-referrer';
       probe.onerror = next;
       probe.onload = function () {
-        /* Some sources answer 200 with a placeholder or tiny favicon rather
-           than 404. Anything under 24px would upscale into an unreadable blob
-           on a 46–58px tile, so treat it as a miss and try the next source. */
-        if (probe.naturalWidth < 24 || probe.naturalHeight < 24) { next(); return; }
+        /* Reject only what is genuinely unusable: 1×1 trackers and empty
+           responses. A 16px favicon is not beautiful, but it is the company's
+           real mark, and rejecting it (as an earlier 24px floor did) pushed
+           perfectly good tiles back to the monogram. Small marks are rendered
+           at their natural size rather than upscaled — see .logow img CSS. */
+        if (probe.naturalWidth < 12 || probe.naturalHeight < 12) { next(); return; }
         img.src = url;
         el.classList.remove('x');
-        cacheSet(d, OVERRIDES[d] && i === 1 ? '0' : String(Math.max(0, i - 1 - offset)));
+        cacheSet(d, ov && i === 1 ? '0' : String(Math.max(0, i - 1 - offset)));
       };
       probe.src = url;
     }
@@ -158,5 +175,18 @@ window.MT_LOGO = (function () {
     });
   }
 
-  return { tile: tile, wire: wire, monogram: monogram, OVERRIDES: OVERRIDES, SOURCES: SOURCES };
+  /* Self-wiring. Views re-render outside the router too — Explore repaints on
+     every filter change and on "show more" — and a tile that is never wired
+     silently keeps its monogram. Watching the document means every tile is
+     picked up however it got there, so this cannot regress again. */
+  if ('MutationObserver' in window) {
+    new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        if (muts[i].addedNodes.length) { wire(document); return; }
+      }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  }
+
+  return { tile: tile, wire: wire, load: load, monogram: monogram,
+    brandDomain: brandDomain, OVERRIDES: OVERRIDES, SOURCES: SOURCES };
 })();
