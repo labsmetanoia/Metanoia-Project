@@ -510,7 +510,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     </div>
     <nav class="sb-nav" aria-label="Course navigation">
       <button class="nav-item" data-tab="home"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h13V9"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></button>
-      <button class="nav-item" data-tab="range"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg></span><span data-en="The Range" data-id="The Range">The Range</span></button>
+      <button class="nav-item" data-tab="range"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg></span><span data-en="The Range (Explore)" data-id="The Range (Explore)">The Range (Explore)</span></button>
       <button class="nav-item" data-tab="syllabus"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="The Map Syllabus" data-id="Silabus The Map">The Map Syllabus</span></button>
       <button class="nav-item" data-tab="modules"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg></span><span data-en="Modules" data-id="Modul">Modules</span></button>
       <button class="nav-item" data-tab="assignments"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg></span><span data-en="Assignments" data-id="Tugas">Assignments</span></button>
@@ -545,13 +545,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <span data-en="6 Modules" data-id="6 Modul">6 Modules</span>
           <span data-en="Self-paced" data-id="Mandiri">Self-paced</span>
           <span data-en="Updated 2026" data-id="Diperbarui 2026">Updated 2026</span>
-          <span data-en="Includes The Range — 675 companies to explore" data-id="Termasuk The Range — 675 perusahaan untuk dijelajahi">Includes The Range — 675 companies to explore</span>
+          <span data-en="Includes The Range (Explore) — 675 companies" data-id="Termasuk The Range (Explore) — 675 perusahaan">Includes The Range (Explore) — 675 companies</span>
         </div>
         <div class="course-progress-bar"><span class="progress-fill" style="--progress:0%"></span></div>
         <p class="progress-label" data-en="0% complete — start Module 1 to begin your journey" data-id="0% selesai — mulai Modul 1 untuk memulai perjalananmu">0% complete — start Module 1 to begin your journey</p>
         <div class="course-actions">
           <button class="btn-gold pulse" data-goto-module="1" data-en="Start Module 1 →" data-id="Mulai Modul 1 →">Start Module 1 →</button>
-          <button class="side-cta" data-goto-tab="range" style="border:1px solid var(--gold-border-hover);border-radius:999px;background:none;color:var(--gold);font-weight:700;font-size:13px;padding:12px 20px;cursor:pointer" data-en="Explore the opportunity landscape — The Range →" data-id="Jelajahi lanskap peluang — The Range →">Explore the opportunity landscape — The Range →</button>
+          <button class="side-cta" data-goto-tab="range" style="border:1px solid var(--gold-border-hover);border-radius:999px;background:none;color:var(--gold);font-weight:700;font-size:13px;padding:12px 20px;cursor:pointer" data-en="Explore the opportunity landscape — The Range (Explore) →" data-id="Jelajahi lanskap peluang — The Range (Explore) →">Explore the opportunity landscape — The Range (Explore) →</button>
         </div>
       </div>
       </div>
@@ -634,8 +634,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <!-- ─── TAB: SYLLABUS ─── -->
     <!-- ═══ THE RANGE — career & opportunity exploration, consolidated into The Map ═══ -->
     <section class="tab-content" id="tab-range" hidden>
-      <div style="display:flex;justify-content:flex-end;margin-bottom:2px">
-        <button id="rangeSearch" class="btn-s" style="border:1px solid var(--gold-border);border-radius:999px;background:none;color:var(--gold);font-size:12px;font-weight:700;padding:8px 16px;display:inline-flex;align-items:center;gap:8px;cursor:pointer">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:2px;flex-wrap:wrap">
+        <button id="rangeBack" class="nav-back" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          <span id="rangeBackLabel" data-en="Back" data-id="Kembali">Back</span>
+        </button>
+        <button id="rangeSearch" class="btn-s" style="border:1px solid var(--gold-border);border-radius:999px;background:none;color:var(--gold);font-size:12px;font-weight:700;padding:8px 16px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;margin-left:auto">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7.5"/><path d="m16.8 16.8 4 4"/></svg>
           <span data-en="Search companies &amp; roles" data-id="Cari perusahaan &amp; peran">Search companies &amp; roles</span> <kbd style="font-size:10px;border:1px solid var(--gold-border);border-radius:4px;padding:1px 5px">⌘K</kbd>
         </button>
@@ -1355,7 +1359,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <!-- ═══ MOBILE TAB BAR ═══ -->
 <nav class="mobile-tab-bar" aria-label="Course navigation">
     <button class="mobile-tab-item" data-tab="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9v11h13V9"/></svg><span data-en="Home" data-id="Beranda">Home</span></button>
-    <button class="mobile-tab-item" data-tab="range"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg><span data-en="Range" data-id="Range">Range</span></button>
+    <button class="mobile-tab-item" data-tab="range"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 18 8.5 9l3.5 5 4-7L21 18Z"/><path d="M3 18h18" stroke-linecap="round"/></svg><span data-en="Explore" data-id="Jelajah">Explore</span></button>
     <button class="mobile-tab-item" data-tab="syllabus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg><span data-en="Syllabus" data-id="Silabus">Syllabus</span></button>
     <button class="mobile-tab-item" data-tab="modules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg><span data-en="Modules" data-id="Modul">Modules</span></button>
     <button class="mobile-tab-item" data-tab="assignments"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg><span data-en="Tasks" data-id="Tugas">Tasks</span></button>
@@ -1404,19 +1408,60 @@ try {
 const navItems = document.querySelectorAll('.nav-item, .mobile-tab-item');
 const tabs = document.querySelectorAll('.tab-content');
 const VALID = ['home', 'range', 'syllabus', 'modules', 'assignments', 'grades'];
+let prevTab = 'home';                 /* the section a reader came from, for Back */
+let lastRangeHash = '';               /* the Range screen they left, for re-entry */
+try { lastRangeHash = sessionStorage.getItem('aladin_range_route') || ''; } catch (e) {}
 function activateTab(tabId) {
   if (!VALID.includes(tabId)) tabId = 'home';
+  const current = [...tabs].find(t => !t.hidden);
+  if (current && current.id !== 'tab-' + tabId) prevTab = current.id.replace('tab-', '');
   navItems.forEach(item => item.classList.toggle('active', item.dataset.tab === tabId));
   tabs.forEach(tab => { tab.hidden = tab.id !== 'tab-' + tabId; });
   if (tabId === 'range') {
-    /* the Range keeps its own deep-linkable routes under #/… — never clobber one */
-    if (!location.hash.startsWith('#/')) history.replaceState(null, '', '#/home');
+    /* The Range keeps its own deep-linkable routes under #/…. Never clobber a
+       live one, and when the reader comes back from another section, return
+       them to the screen they left rather than the beginning. */
+    if (!location.hash.startsWith('#/')) history.replaceState(null, '', lastRangeHash || '#/home');
     if (window.MT_RANGE_APP) window.MT_RANGE_APP.route();
+    if (typeof syncBackLabel === 'function') syncBackLabel();
   } else if (history.replaceState) history.replaceState(null, '', '#' + tabId);
   try { sessionStorage.setItem('aladin_active_tab', tabId); } catch (e) {}
   window.scrollTo({top: 0});
 }
 navItems.forEach(item => item.addEventListener('click', () => activateTab(item.dataset.tab)));
+
+/* ─── BACK, FROM WITHIN THE RANGE ───
+   The Range is a routed experience inside a tab, so "back" means two things.
+   Inside it (a company, a role, the questionnaire) the reader expects the
+   previous Range screen; at its entry screen they expect the section they
+   came from. One control, both meanings — never a reset to the beginning. */
+const RANGE_ROOTS = ['#/home', '#/range', '#/explore'];
+let rangeDepth = 0;
+function rangeIsRoot() { return RANGE_ROOTS.includes(location.hash) || !location.hash.startsWith('#/'); }
+function syncBackLabel() {
+  const el = document.getElementById('rangeBackLabel');
+  if (!el) return;
+  const toSection = rangeIsRoot() || rangeDepth <= 0;
+  const names = { home: ['Home', 'Beranda'], syllabus: ['Syllabus', 'Silabus'], modules: ['Modules', 'Modul'],
+    assignments: ['Assignments', 'Tugas'], grades: ['Grades', 'Nilai'], range: ['Home', 'Beranda'] };
+  const n = names[prevTab] || names.home;
+  el.setAttribute('data-en', toSection ? 'Back to ' + n[0] : 'Back');
+  el.setAttribute('data-id', toSection ? 'Kembali ke ' + n[1] : 'Kembali');
+  el.textContent = el.getAttribute(document.documentElement.lang === 'id' ? 'data-id' : 'data-en');
+}
+window.addEventListener('hashchange', () => {
+  if (location.hash.startsWith('#/')) {
+    rangeDepth = rangeIsRoot() ? 0 : rangeDepth + 1;
+    lastRangeHash = location.hash;
+    try { sessionStorage.setItem('aladin_range_route', lastRangeHash); } catch (e) {}
+    syncBackLabel();
+  }
+});
+const backBtn = document.getElementById('rangeBack');
+if (backBtn) backBtn.addEventListener('click', () => {
+  if (!rangeIsRoot() && rangeDepth > 0) { rangeDepth--; history.back(); return; }
+  activateTab(prevTab === 'range' ? 'home' : prevTab);   /* leave the section, keep its state */
+});
 
 /* ─── MODULE ACCORDION ─── */
 function expandModule(accordion) {
@@ -1539,6 +1584,7 @@ document.querySelectorAll('.ctl button').forEach(b => {
     try { localStorage.setItem('mtLang', lang); } catch (e) {}
     applyLang();
     if (window.MT_RANGE_APP) window.MT_RANGE_APP.refresh();
+    if (typeof syncBackLabel === 'function') syncBackLabel();
   });
 });
 applyLang();
@@ -1775,6 +1821,7 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="../../data/range/companies-db.js"></script>
 <script src="../../data/range/opportunities.js"></script>
 <script src="../../data/range/logo-overrides.js"></script>
+<script src="js/range-doc.js"></script>
 <script src="js/range-logo.js"></script>
 <script src="js/range-app.js"></script>
 <script src="../../data/lms/the-map.js"></script>

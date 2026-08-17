@@ -36,7 +36,8 @@
     block_7: { en: "what's in the way", id: 'apa yang menghalangi' },
     block_8: { en: 'industries you named', id: 'industri yang kamu sebut' },
     block_9: { en: 'functions you named', id: 'fungsi yang kamu sebut' },
-    block_10: { en: 'your aspiration', id: 'aspirasimu' }
+    block_10: { en: 'your aspiration', id: 'aspirasimu' },
+    cv_document: { en: 'your uploaded document', id: 'dokumen yang kamu unggah' }
   };
 
   var ATTR_PHRASES = {
@@ -92,7 +93,14 @@
 
     (identity.skills || []).forEach(function (s) {
       if ((dir.core_skills || []).indexOf(s.id) !== -1) {
-        ev.push({
+        /* A skill read out of someone's CV is documented history, not a
+           self-rating — the evidence line has to say which one it is. */
+        ev.push(s.src === 'cv' ? {
+          kind: 'skill', src: 'cv_document',
+          text: lang === 'id'
+            ? 'CV-mu menunjukkan ' + s.label + ' — pekerjaan ini memakainya terus-menerus.'
+            : 'Your CV shows ' + s.label + ', which this work uses constantly.'
+        } : {
           kind: 'skill', src: 'block_3',
           text: lang === 'id'
             ? 'Kamu menilai dirimu mampu di ' + s.label + ' — pekerjaan ini memakainya terus-menerus.'
@@ -109,9 +117,15 @@
       }
     });
 
+    var cv = identity.cv || { skills: [], inds: [], fns: [] };
     (identity.prefIndustries || []).forEach(function (ind) {
       if ((dir.industry_ids || []).indexOf(ind) !== -1) {
-        ev.push({
+        ev.push((cv.inds || []).indexOf(ind) !== -1 ? {
+          kind: 'stated', src: 'cv_document',
+          text: lang === 'id'
+            ? 'CV-mu menunjukkan paparan pada industri ini.'
+            : 'Your CV shows exposure to this industry.'
+        } : {
           kind: 'stated', src: 'block_8',
           text: lang === 'id'
             ? 'Kamu sendiri menyebut industri ini sebagai yang ingin kamu jelajahi.'
@@ -121,7 +135,12 @@
     });
     (identity.prefFunctions || []).forEach(function (fn) {
       if ((dir.function_ids || []).indexOf(fn) !== -1) {
-        ev.push({
+        ev.push((cv.fns || []).indexOf(fn) !== -1 ? {
+          kind: 'stated', src: 'cv_document',
+          text: lang === 'id'
+            ? 'Pengalaman di CV-mu berada di fungsi kerja ini.'
+            : 'Your documented experience sits in this working function.'
+        } : {
           kind: 'stated', src: 'block_9',
           text: lang === 'id'
             ? 'Fungsi kerja ini termasuk yang kamu pilih sendiri.'
@@ -202,7 +221,12 @@
   }
 
   function analyseAll(identity, graph, lang) {
-    if (completeness(identity) < 4 / 7) {
+    /* A CV carrying several recognised signals is at least as much evidence
+       as four answered blocks — it must not be sent to the "tell us more"
+       state, which would mean asking for what the document already gave. */
+    var cv = identity.cv || {};
+    var docSignals = (cv.skills || []).length + (cv.inds || []).length + (cv.fns || []).length;
+    if (docSignals < 3 && completeness(identity) < 4 / 7) {
       return { insufficient: true, completeness: completeness(identity) };
     }
     var dismissed = identity.dismissed || [];

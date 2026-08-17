@@ -346,3 +346,20 @@
   --r-commit:var(--gold);
   --r-chipbg:var(--gold-glow);
 }
+
+/* hero without the mountain art: single column, comfortable reading measure */
+#tab-range .hero{display:block;max-width:760px}
+#tab-range .hero-art{display:none}
+
+/* Back control: The Map's nav idiom (gold on glass, same motion curve) */
+#tab-range .nav-back{display:inline-flex;align-items:center;gap:7px;background:none;
+  border:1px solid var(--gold-border);border-radius:999px;color:var(--gold);
+  font-family:var(--font);font-size:12px;font-weight:700;letter-spacing:.01em;
+  padding:8px 16px 8px 12px;cursor:pointer;
+  transition:border-color .2s cubic-bezier(.22,1,.36,1),background .2s cubic-bezier(.22,1,.36,1),transform .2s cubic-bezier(.22,1,.36,1)}
+#tab-range .nav-back:hover{border-color:var(--gold-border-hover);background:var(--gold-glow);transform:translateX(-2px)}
+#tab-range .nav-back svg{width:14px;height:14px;flex:none}
+@media(max-width:520px){
+  #tab-range .nav-back{padding:7px 13px 7px 10px;font-size:11.5px}
+  #tab-range #rangeSearch{padding:7px 12px !important;font-size:11.5px !important}
+}
