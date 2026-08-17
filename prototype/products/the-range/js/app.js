@@ -15,16 +15,8 @@
     var parts = name.replace(/\(.*\)/g, '').trim().split(/\s+/);
     return (parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase();
   }
-  /* Company logo tile. Marks load from each company's own domain via a
-   * public logo service; they are third-party trademarks shown nominatively.
-   * On any failure the tile falls back to a monogram — never a broken image. */
-  function logoTile(c, size) {
-    var d = c.domain || '';
-    return '<span class="logow' + (size ? ' ' + size : '') + (d ? '' : ' x') + '">' +
-      (d ? '<img src="https://logo.clearbit.com/' + d + '" alt="" loading="lazy" ' +
-        'onerror="this.parentNode.classList.add(&quot;x&quot;)">' : '') +
-      '<span class="mg">' + monogram(c.name) + '</span></span>';
-  }
+  /* Company logo tile — see js/logo.js for the source chain and fallback. */
+  function logoTile(c, size) { return window.MT_LOGO.tile(c, size); }
   function countryName(c) {
     if (c.geo === 'id' || c.country === 'id') return 'Indonesia';
     var DB = window.MT_RANGE_DB, n = DB && DB.CC[c.country];
@@ -114,6 +106,7 @@
     R[v](h.slice(1));
     updateNavCnt();
     applyLang();
+    window.MT_LOGO.wire($('#v-' + v));
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
@@ -1045,6 +1038,7 @@
     });
     if ($('#xMore')) $('#xMore').addEventListener('click', function () { XF.limit += 48; renderExplore(); applyLang(); });
     wireOppButtons(host);
+    window.MT_LOGO.wire(host);   /* filter/pagination re-renders bypass route() */
   }
   function coCard(c) {
     var documented = c.proc === 'documented' || coRoles(c).some(function (o) { return o.proc === 'documented'; });

@@ -224,19 +224,34 @@ table.cmp{border-collapse:collapse;width:100%;min-width:520px;font-size:13px}
 .demo-stage .body{display:none;padding:0 16px 14px 54px;font-size:12.5px;color:var(--r-text-2)}
 .demo-stage.open .body{display:block;animation:vin var(--r-base) var(--r-ease)}
 
-/* ── company logos (third-party marks, monogram fallback) ── */
+/* ── company logos (third-party marks, designed monogram fallback) ──
+   Both states share geometry, so resolving a mark never shifts layout. */
 .logow{flex:none;width:46px;height:46px;border-radius:12px;background:#fff;border:1px solid var(--r-line2);
-  display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
-.logow img{width:76%;height:76%;object-fit:contain;display:block}
+  display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;
+  transition:background var(--r-base),border-color var(--r-base)}
+.logow img{width:auto;height:auto;max-width:76%;max-height:76%;object-fit:contain;display:block}
 .logow .mg{display:none;position:absolute;inset:0;align-items:center;justify-content:center;
-  font-weight:800;font-size:16px;color:var(--r-explore);background:var(--r-chipbg)}
-.logow.x{background:var(--r-surface)}
+  font-weight:800;font-size:16px;letter-spacing:.02em;color:var(--r-explore)}
+/* fallback state: a deliberate tile in the product's gold band, not an error */
+.logow.x{background:
+  radial-gradient(120% 120% at 30% 20%,hsla(var(--lg-h,44),58%,62%,.20),transparent 62%),
+  linear-gradient(150deg,hsla(var(--lg-h,44),40%,26%,.42),hsla(var(--lg-h,44),34%,14%,.30));
+  border-color:var(--r-line2)}
 .logow.x img{display:none}
 .logow.x .mg{display:flex}
+:root[data-theme="light"] .logow.x{background:
+  radial-gradient(120% 120% at 30% 20%,hsla(var(--lg-h,44),62%,72%,.30),transparent 62%),
+  linear-gradient(150deg,hsla(var(--lg-h,44),46%,86%,.85),hsla(var(--lg-h,44),40%,78%,.70))}
 .logow.lg{width:58px;height:58px;border-radius:14px}
 .logow.lg .mg{font-size:20px}
 .logow.sm{width:34px;height:34px;border-radius:9px}
 .logow.sm .mg{font-size:12px}
+@media(max-width:520px){
+  .logow{width:40px;height:40px;border-radius:11px}
+  .logow .mg{font-size:14px}
+  .logow.lg{width:48px;height:48px;border-radius:12px}
+  .logow.lg .mg{font-size:17px}
+}
 
 /* ── geographic scope art (view backdrops) ── */
 .view{position:relative}
@@ -351,6 +366,7 @@ document.documentElement.dataset.theme='dark';}})();
 <script src="../../data/range/fit.js"></script>
 <script src="../../data/range/companies-db.js"></script>
 <script src="../../data/range/opportunities.js"></script>
+<script src="js/logo.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
