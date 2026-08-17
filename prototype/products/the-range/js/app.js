@@ -65,10 +65,16 @@
       prefIndustries: [], prefFunctions: [],
       topValues: [], constraints: [], dismissed: [], statement: null };
   }
-  var ID = loadId();
-  ['b8', 'b9', 'b10'].forEach(function (k) { if (!ID[k]) ID[k] = {}; });
-  if (!ID.prefIndustries) ID.prefIndustries = [];
-  if (!ID.prefFunctions) ID.prefFunctions = [];
+  /* Backfill every field a stored identity might predate — older schemas
+     (The Lookout, earlier Range rounds) lack keys like quick/b5/prefFunctions,
+     and one missing object turned every questionnaire click into a silent
+     TypeError. Normalising against freshId() makes old profiles safe forever. */
+  function normId(v) {
+    var f = freshId();
+    Object.keys(f).forEach(function (k) { if (v[k] == null) v[k] = f[k]; });
+    return v;
+  }
+  var ID = normId(loadId());
   function saveId() { try { localStorage.setItem(IKEY, JSON.stringify(ID)); } catch (e) {} }
 
   function loadPoss() { try { return JSON.parse(localStorage.getItem(PKEY) || '[]'); } catch (e) { return []; } }
@@ -113,6 +119,15 @@
   $$('[data-nav]').forEach(function (b) { b.addEventListener('click', function () { go(b.dataset.nav); }); });
 
   /* ═══ S1 · LANDING ═══ */
+  var FLOW_ICONS = [
+    /* compass · binoculars · magnifier · scales · bulb · target — one line icon per step */
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2.2 5-5 2.2 2.2-5z"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="15" r="3.5"/><circle cx="17" cy="15" r="3.5"/><path d="M10.5 15h3M8.5 8h7M9 8l-1.5 4M15 8l1.5 4"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5L20 20"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M5 8h14M5 8l-2.5 5a3 3 0 005 0zM19 8l-2.5 5a3 3 0 005 0z"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.8c.8.6 1.5 1.3 1.5 2.2h4c0-.9.7-1.6 1.5-2.2A6 6 0 0012 3z"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg>'
+  ];
   function renderHome() {
     var host = $('#v-home');
     var shopee = G.programmes.filter(function (p2) { return p2.id === 'shopee-gdp'; })[0];
@@ -125,32 +140,39 @@
       [t('Decide', 'Putuskan'), t('Commit to one — and hand off to the pillars that prepare you.', 'Tetapkan satu — lalu lanjut ke pilar yang menyiapkanmu.')]
     ];
     host.innerHTML =
-      '<div style="max-width:680px;padding-top:22px">' +
+      '<div class="hero">' +
+      '<div class="hero-copy">' +
       '<p class="micro">00 · The Range · Bentang · ' + t('Free to start', 'Gratis untuk memulai') + '</p>' +
-      '<h1 class="serif" style="font-size:clamp(30px,5vw,46px);letter-spacing:-.01em;line-height:1.14;margin:14px 0 14px">' +
+      '<h1 class="serif" style="font-size:clamp(30px,4.6vw,48px);letter-spacing:-.01em;line-height:1.13;margin:14px 0 14px">' +
       t('See what&rsquo;s out there. <em style="color:var(--r-explore)">Then find out what it takes.</em>',
         'Lihat apa yang ada di luar sana. <em style="color:var(--r-explore)">Lalu cari tahu apa yang dibutuhkan.</em>') + '</h1>' +
       '<p style="font-size:16px;color:var(--r-text-2);margin-bottom:24px">' +
-      t('You don&rsquo;t need to know what you want yet. Start with three questions.',
-        'Kamu belum perlu tahu apa yang kamu mau. Mulailah dengan tiga pertanyaan.') + '</p>' +
+      t('You don&rsquo;t need to know what you want yet. Build your Career Identity — from your CV, or by answering questions — and see which directions hold up.',
+        'Kamu belum perlu tahu apa yang kamu mau. Bangun Identitas Kariermu — dari CV, atau dengan menjawab pertanyaan — dan lihat arah mana yang bertahan.') + '</p>' +
       '<div style="display:flex;gap:12px;flex-wrap:wrap">' +
-      '<button class="btn-p" id="homeStart">' + t('Start with three questions', 'Mulai dengan tiga pertanyaan') + ' →</button>' +
-      '<button class="btn-s" id="homeBrowse">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
-      '<p class="note3" style="margin-top:14px">' + t('Free. No account needed to start. We&rsquo;ll tell you what we don&rsquo;t know.',
-        'Gratis. Tanpa akun untuk memulai. Kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
+      '<button class="btn-p" id="homeCv">' + t('Start from my CV / resume', 'Mulai dari CV / resume-ku') + ' →</button>' +
+      '<button class="btn-s explore" id="homeQs">' + t('Answer the questionnaire', 'Jawab kuesionernya') + ' →</button>' +
+      '<button class="btn-q" id="homeBrowse" style="color:var(--r-explore)">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
+      '<p class="note3" style="margin-top:14px">' + t('Free. No account needed to start. Both paths feed the same analysis — and we&rsquo;ll tell you what we don&rsquo;t know.',
+        'Gratis. Tanpa akun untuk memulai. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
+      '<div class="hero-art"><img src="../../assets/nav-mountain.png" alt="" aria-hidden="true"></div>' +
+      '</div>' +
 
       '<div class="sec"><p class="sec-h">' + t('How The Range works', 'Cara kerja The Range') + '</p>' +
       '<div class="flow-strip">' + FLOW.map(function (f2, i) {
-        return '<div class="fs-step"><span class="n">' + (i + 1) + '</span><b>' + f2[0] + '</b><span>' + f2[1] + '</span></div>';
+        return '<div class="fs-step"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">' +
+          '<span class="n">' + (i + 1) + '</span><span class="fi">' + FLOW_ICONS[i] + '</span></div>' +
+          '<b>' + f2[0] + '</b><span>' + f2[1] + '</span>' +
+          (i < 5 ? '<span class="fs-arr">›</span>' : '') + '</div>';
       }).join('') + '</div></div>' +
 
       '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
-      '<div class="card" style="max-width:680px">' +
+      '<div class="card" style="max-width:760px">' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:6px">' +
-      '<span class="mono">' + monogram('Shopee Indonesia') + '</span>' +
+      logoTile({ name: 'Shopee Indonesia', domain: 'shopee.co.id' }) +
       '<div style="min-width:0"><p class="micro">Shopee (Sea Group) Indonesia</p>' +
-      '<h3 class="serif" style="font-size:18px;margin:2px 0 0">' + L(shopee.name) + '</h3></div>' +
-      '<span class="prov v" style="margin-left:auto;white-space:nowrap">✓ ' + t('official · verified', 'resmi · diverifikasi') + '</span></div>' +
+      '<h3 class="serif" style="font-size:19px;margin:2px 0 0">' + L(shopee.name) + '</h3></div>' +
+      '<span class="prov v" style="margin-left:auto;white-space:nowrap;border:1px solid color-mix(in srgb,var(--r-for) 35%,transparent);border-radius:999px;padding:5px 12px">✓ ' + t('Official · Verified', 'Resmi · Terverifikasi') + '</span></div>' +
       '<p class="note3" style="margin:0 0 16px">' + L(shopee.length) + ' · ' + L(shopee.window) + '</p>' +
       shopee.stages.map(function (st2, i) {
         return '<div class="demo-stage' + (i === 0 ? ' open' : '') + '"><button data-demo="' + i + '">' +
@@ -159,11 +181,13 @@
           (st2.failure ? '<br><span style="color:var(--r-against)">' + t('Most common failure: ', 'Kegagalan paling umum: ') + L(st2.failure) + '</span>' : '') +
           '</div></div>';
       }).join('') +
-      '<p class="note3" style="margin:10px 0 12px">' + t('Every stage above links to the pillar that prepares you for it — that bridge is the product.',
+      '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px">' +
+      '<p class="note3" style="flex:1;min-width:220px;margin:0">' + t('Every stage above links to the pillar that prepares you for it — that bridge is the product.',
         'Setiap tahap di atas terhubung ke pilar yang menyiapkanmu — jembatan itulah produknya.') + '</p>' +
-      '<button class="btn-s" data-open-opp="shopee-gdp">' + t('Open the full opportunity', 'Buka peluang lengkapnya') + ' →</button>' +
+      '<button class="btn-p" data-open-opp="shopee-gdp" style="background:var(--r-explore)">' + t('Open the full opportunity', 'Buka peluang lengkapnya') + ' →</button></div>' +
       '</div></div>' + disclaimer();
-    $('#homeStart').addEventListener('click', function () { go('quick'); });
+    $('#homeCv').addEventListener('click', function () { go('identity', 'cv'); });
+    $('#homeQs').addEventListener('click', function () { go('identity'); });
     $('#homeBrowse').addEventListener('click', function () { go('explore'); });
     $$('[data-demo]', host).forEach(function (b) {
       b.addEventListener('click', function () { b.parentElement.classList.toggle('open'); });
@@ -535,23 +559,46 @@
       'risk': ['risk', 'compliance', 'internal audit', 'risiko', 'kepatuhan']
     }
   };
+  /* Structured pass over the document: every dictionary term is collected
+   * (not just the first hit), industries and functions are ranked by how many
+   * distinct signals support them, and roles, achievements and experience
+   * span are read from the document's own lines. Still fully deterministic
+   * and on-device — the structure is in the analysis, not in a black box. */
   function cvAnalyse(text) {
     var low = ' ' + text.toLowerCase() + ' ';
     function scan(dict) {
       var hits = [];
       Object.keys(dict).forEach(function (id) {
-        for (var i = 0; i < dict[id].length; i++) {
-          if (low.indexOf(dict[id][i]) !== -1) { hits.push({ id: id, term: dict[id][i].trim() }); return; }
-        }
+        var terms = dict[id].filter(function (term) { return low.indexOf(term) !== -1; })
+          .map(function (term) { return term.trim(); });
+        if (terms.length) hits.push({ id: id, term: terms[0], terms: terms, count: terms.length });
       });
+      hits.sort(function (a, b) { return b.count - a.count; });
       return hits;
     }
-    var out = { skills: scan(CV_DICT.skills), inds: scan(CV_DICT.inds), fns: scan(CV_DICT.fns), degree: null, gpa: null };
+    var out = { skills: scan(CV_DICT.skills), inds: scan(CV_DICT.inds).slice(0, 4), fns: scan(CV_DICT.fns).slice(0, 4),
+      degree: null, gpa: null, roles: [], achievements: [], years: null };
     if (/master|magister|\bs2\b|mba|msc/i.test(text)) out.degree = 's2';
     else if (/bachelor|sarjana|\bs1\b|undergraduate|b\.sc|b\.a\b/i.test(text)) out.degree = 's1';
     else if (/diploma|\bd3\b|\bd4\b|vocational/i.test(text)) out.degree = 'd3_d4';
     var g = text.match(/(?:gpa|ipk)\s*[:\s]\s*([0-3][.,]\d{1,2}|4[.,]0{1,2})/i) || text.match(/([0-3][.,]\d{1,2}|4[.,]0{1,2})\s*\/\s*4/);
     if (g) out.gpa = parseFloat(g[1].replace(',', '.'));
+    /* role lines: short lines naming a recognisable title */
+    var TITLE = /\b(intern|internship|analyst|engineer|developer|designer|manager|officer|assistant|consultant|specialist|coordinator|associate|staff|trainee|magang|analis)\b/i;
+    text.split(/\n+/).forEach(function (line) {
+      var ln = line.trim();
+      if (ln.length > 6 && ln.length <= 90 && TITLE.test(ln) && out.roles.length < 3 &&
+        !out.roles.some(function (r) { return r.toLowerCase() === ln.toLowerCase(); })) out.roles.push(ln);
+      if (ln.length > 10 && ln.length <= 140 && out.achievements.length < 2 &&
+        /(\d+\s?%|\bwon\b|juara|award|finalist|top\s?\d|peringkat)/i.test(ln)) out.achievements.push(ln);
+    });
+    /* experience span from date ranges, capped to stay honest about inference */
+    var span = 0, re = /(20\d\d)\s*[\u2013\u2014-]\s*(20\d\d|present|now|sekarang)/gi, m;
+    while ((m = re.exec(text))) {
+      var to = /\d{4}/.test(m[2]) ? +m[2] : new Date().getFullYear();
+      span += Math.max(0, Math.min(6, to - +m[1]));
+    }
+    if (span > 0) out.years = Math.min(15, span);
     return out;
   }
   function cvApply(res) {
@@ -565,6 +612,13 @@
     res.fns.forEach(function (s) { if (ID.prefFunctions.indexOf(s.id) === -1) ID.prefFunctions.push(s.id); });
     if (res.degree && !ID.b1.degree) ID.b1.degree = res.degree;
     if (res.gpa != null && ID.b1.gpa == null) ID.b1.gpa = res.gpa;
+    if (res.roles.length) {
+      if (!ID.b2.role) ID.b2.role = res.roles[0];
+      if (!ID.b2.prev && res.roles.length > 1) ID.b2.prev = res.roles.slice(1).join('; ');
+    }
+    if (res.achievements.length && !ID.b2.ach) ID.b2.ach = res.achievements[0];
+    if (res.years != null && ID.b2.years == null) ID.b2.years = res.years;
+    if (ID.b2.role || ID.b2.ach || ID.b2.years != null) ID.b2.done = true;
     if (ID.skills.length) ID.b3.done = true;
     if (ID.prefIndustries.length) ID.b8.done = true;
     if (ID.prefFunctions.length) ID.b9.done = true;
@@ -576,7 +630,7 @@
       '<summary style="list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:12px;align-items:center">' +
       '<span class="mono" style="width:38px;height:38px;font-size:15px">↑</span>' +
       '<span style="flex:1"><b style="font-size:14px">' + t('Or start from your CV, resume or portfolio', 'Atau mulai dari CV, resume, atau portofoliomu') + '</b>' +
-      '<span class="note3" style="display:block;margin-top:2px">' + t('Analysed on this device with transparent keyword matching — nothing is uploaded anywhere.', 'Dianalisis di perangkat ini dengan pencocokan kata kunci yang transparan — tidak ada yang diunggah ke mana pun.') + '</span></span>' +
+      '<span class="note3" style="display:block;margin-top:2px">' + t('Analysed entirely on this device — nothing is uploaded anywhere, and what you apply is stored only in this browser, readable only here.', 'Dianalisis sepenuhnya di perangkat ini — tidak ada yang diunggah ke mana pun, dan yang kamu terapkan hanya tersimpan di peramban ini, hanya terbaca di sini.') + '</span></span>' +
       '<span style="color:var(--r-explore);font-weight:800">▾</span></summary>' +
       '<div style="padding:0 18px 18px">' +
       '<div class="cvzone">' +
@@ -612,19 +666,24 @@
       }).concat(res.inds.map(function (s) {
         var ind = G.industries.filter(function (x) { return x.id === s.id; })[0];
         return '<div class="sig-row"><span class="k">' + t('Industry', 'Industri') + '</span><span>' + (ind ? L(ind.name) : s.id) +
-          ' <span class="note3">· “' + esc(s.term) + '”</span></span></div>';
+          ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
       })).concat(res.fns.map(function (s) {
         var fn = G.functions.filter(function (x) { return x.id === s.id; })[0];
         return '<div class="sig-row"><span class="k">' + t('Function', 'Fungsi') + '</span><span>' + (fn ? L(fn.name) : s.id) +
-          ' <span class="note3">· “' + esc(s.term) + '”</span></span></div>';
-      }));
+          ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
+      })).concat(res.roles.map(function (r) {
+        return '<div class="sig-row"><span class="k">' + t('Experience', 'Pengalaman') + '</span><span>' + esc(r) + '</span></div>';
+      })).concat(res.achievements.map(function (r) {
+        return '<div class="sig-row"><span class="k">' + t('Achievement', 'Pencapaian') + '</span><span>' + esc(r) + '</span></div>';
+      })).concat(res.years != null ? ['<div class="sig-row"><span class="k">' + t('Span', 'Rentang') + '</span><span>~' + res.years + ' ' +
+        t('years across dated entries (inferred from date ranges)', 'tahun dari entri bertanggal (disimpulkan dari rentang tanggal)') + '</span></div>'] : []);
       if (res.degree) rows.push('<div class="sig-row"><span class="k">' + t('Education', 'Pendidikan') + '</span><span>' +
         ({ s1: t('Bachelor’s degree', 'Sarjana (S1)'), s2: t('Master’s degree', 'Magister (S2)'), d3_d4: t('Associate / vocational degree', 'Diploma (D3/D4)') })[res.degree] + '</span></div>');
       if (res.gpa != null) rows.push('<div class="sig-row"><span class="k">GPA</span><span>' + res.gpa + '</span></div>');
       out.innerHTML = rows.length ?
         '<p class="micro" style="margin-bottom:6px">' + t('What we read — and exactly why', 'Yang kami baca — dan alasan persisnya') + ' · ' + rows.length + '</p>' +
         rows.join('') +
-        '<p class="note3" style="margin:10px 0">' + t('Keyword matching misses nuance by design — it’s honest, not clever. Fix anything wrong in the sections below after applying.', 'Pencocokan kata kunci memang melewatkan nuansa — jujur, bukan pintar. Perbaiki yang keliru di bagian bawah setelah diterapkan.') + '</p>' +
+        '<p class="note3" style="margin:10px 0">' + t('These signals feed the same traced analysis as the questionnaire — every recommendation will show which of them produced it. The reading misses nuance by design; fix anything wrong in the sections below after applying.', 'Sinyal-sinyal ini masuk ke analisis terlacak yang sama dengan kuesioner — setiap rekomendasi akan menunjukkan sinyal mana yang menghasilkannya. Pembacaan ini memang melewatkan nuansa; perbaiki yang keliru di bagian bawah setelah diterapkan.') + '</p>' +
         '<button class="btn-p" id="cvApply" style="background:var(--r-explore)">' + t('Apply to my identity', 'Terapkan ke identitasku') + ' →</button>'
         : '<p class="note3">' + t('We couldn’t match anything we recognise. The questionnaire below will work better.', 'Tidak ada yang cocok dengan yang kami kenali. Kuesioner di bawah akan bekerja lebih baik.') + '</p>';
       if ($('#cvApply')) $('#cvApply').addEventListener('click', function () { cvApply(res); afterApply(); });
@@ -632,7 +691,35 @@
   }
 
   var openSection = null;
-  function renderIdentity() {
+  function openSectionTo(i) {
+    if (openSection != null && SECTIONS[openSection]) SECTIONS[openSection].collect();
+    deriveAttributes(); saveId();
+    openSection = i;
+    renderIdentity(); applyLang();
+    var el = $('[data-body="' + i + '"]');
+    if (el) el.scrollIntoView({ block: 'center' });
+  }
+  function renderSecInto(i) {
+    var bodyEl = $('[data-body="' + i + '"]');
+    if (!bodyEl) return;
+    SECTIONS[i].render(bodyEl);
+    var nav = document.createElement('div');
+    nav.style.cssText = 'display:flex;gap:10px;margin-top:18px;justify-content:space-between;align-items:center';
+    nav.innerHTML =
+      (i > 0 ? '<button class="btn-q" data-secprev style="color:var(--r-explore)">← ' + t('Previous', 'Sebelumnya') + '</button>' : '<span></span>') +
+      '<span class="note3">' + (i + 1) + ' / ' + SECTIONS.length + '</span>' +
+      (i < SECTIONS.length - 1
+        ? '<button class="btn-s explore" data-secnext>' + t('Save & next', 'Simpan & lanjut') + ' →</button>'
+        : '<button class="btn-s explore" data-secdone>' + t('Save & see what fits', 'Simpan & lihat yang cocok') + ' →</button>');
+    bodyEl.appendChild(nav);
+    var pv = nav.querySelector('[data-secprev]'), nx = nav.querySelector('[data-secnext]'), dn = nav.querySelector('[data-secdone]');
+    if (pv) pv.addEventListener('click', function () { openSectionTo(i - 1); });
+    if (nx) nx.addEventListener('click', function () { openSectionTo(i + 1); });
+    if (dn) dn.addEventListener('click', function () {
+      SECTIONS[i].collect(); deriveAttributes(); saveId(); go('directions');
+    });
+  }
+  function renderIdentity(args) {
     var host = $('#v-identity');
     var pct = Math.round(F.completeness(ID) * 100);
     host.innerHTML =
@@ -657,6 +744,7 @@
       '<button class="btn-s" id="idProf">' + t('My career profile', 'Profil karierku') + ' →</button>' +
       '<button class="btn-q" id="idStmt" style="color:var(--r-explore)">' + t('My identity statement', 'Pernyataan identitasku') + '</button></div>' +
       '<div id="stmtWrap" style="max-width:640px;margin-top:22px"></div>';
+    if (args && args[0] === 'cv' && $('#cvBox')) { $('#cvBox').open = true; }
     wireCvPanel(function () {
       var wasOpen = $('#cvBox') && $('#cvBox').open;
       renderIdentity(); applyLang();
@@ -674,10 +762,9 @@
         deriveAttributes(); saveId();
         openSection = openSection === i ? null : i;
         renderIdentity(); applyLang();
-        if (openSection != null) SECTIONS[openSection].render($('[data-body="' + openSection + '"]'));
       });
     });
-    if (openSection != null) SECTIONS[openSection].render($('[data-body="' + openSection + '"]'));
+    if (openSection != null) renderSecInto(openSection);
     $('#idSee').addEventListener('click', function () {
       if (openSection != null) SECTIONS[openSection].collect();
       deriveAttributes(); saveId(); go('directions');
@@ -735,8 +822,8 @@
       host.innerHTML = '<h1 class="h-page">' + t('Your career identity', 'Identitas kariermu') + '</h1>' +
         '<div class="empty" style="max-width:560px">' +
         t('There’s nothing to build a profile from yet. Answer a few questions or start from your CV.', 'Belum ada bahan untuk membangun profil. Jawab beberapa pertanyaan atau mulai dari CV-mu.') +
-        '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/quick\'">' + t('Three questions', 'Tiga pertanyaan') + ' →</button> ' +
-        '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Identity', 'Identitas') + ' →</button></div>';
+        '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/identity/cv\'">' + t('Start from my CV', 'Mulai dari CV-ku') + ' →</button> ' +
+        '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Answer the questionnaire', 'Jawab kuesionernya') + ' →</button></div>';
       return;
     }
     var res = F.analyseAll(ID, G, lang());
@@ -860,8 +947,9 @@
         host.innerHTML = head + '<div class="empty" style="max-width:560px">' +
           '<b>' + t('We don’t know enough about you yet to say anything useful here.', 'Kami belum cukup mengenalmu untuk mengatakan sesuatu yang berguna di sini.') + '</b><br>' +
           t('Four more minutes would change that — but you can look at what we have anyway.', 'Empat menit lagi akan mengubahnya — tapi kamu tetap bisa melihat yang kami punya.') +
-          '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/quick\'">' + t('Three questions', 'Tiga pertanyaan') + ' →</button> ' +
-          '<button class="btn-s" onclick="location.hash=\'#/explore\'">' + t('Browse anyway', 'Jelajahi saja') + '</button></div>';
+          '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/identity/cv\'">' + t('Start from my CV', 'Mulai dari CV-ku') + ' →</button> ' +
+          '<button class="btn-s" onclick="location.hash=\'#/identity\'">' + t('Answer the questionnaire', 'Jawab kuesionernya') + '</button> ' +
+          '<button class="btn-q" onclick="location.hash=\'#/explore\'" style="color:var(--r-explore)">' + t('Browse anyway', 'Jelajahi saja') + '</button></div>';
         return;
       }
     }
@@ -1082,45 +1170,46 @@
   }
 
   /* ═══ S7 · COMPANY — Company → Function → Role ═══ */
+  var P = function (en, idn) { return { en: en, id: idn }; };
   /* Editorial role profiles per function — how this KIND of role typically
    * works at entry level, generally. Explicitly not company-specific. */
   var FN_META = {
-    engineering: { resp: [L('Build, test and ship features in a production codebase', 'Membangun, menguji, dan merilis fitur di codebase produksi'), L('Review code and debug issues with the team', 'Meninjau kode dan men-debug masalah bersama tim'), L('Own small services or components end-to-end over time', 'Lama-kelamaan memegang layanan atau komponen kecil ujung-ke-ujung')],
-      skills: [L('Programming', 'Pemrograman'), L('Data structures & debugging', 'Struktur data & debugging'), L('Version control & collaboration', 'Version control & kolaborasi'), L('Clear written communication', 'Komunikasi tertulis yang jelas')],
-      profile: L('People who like making things work, tolerate being stuck, and enjoy learning tools quickly.', 'Orang yang suka membuat sesuatu berfungsi, tahan saat buntu, dan senang cepat mempelajari alat baru.') },
-    data: { resp: [L('Pull, clean and join data to answer business questions', 'Menarik, membersihkan, dan menggabungkan data untuk menjawab pertanyaan bisnis'), L('Build dashboards and recurring reports people rely on', 'Membangun dasbor dan laporan rutin yang diandalkan orang'), L('Present findings so decisions actually change', 'Menyajikan temuan sehingga keputusan benar-benar berubah')],
-      skills: [L('SQL & spreadsheets', 'SQL & spreadsheet'), L('Statistics fundamentals', 'Dasar statistika'), L('Data storytelling', 'Bercerita dengan data'), L('Business sense', 'Kepekaan bisnis')],
-      profile: L('People who enjoy puzzles with messy inputs and like being the one who actually checked.', 'Orang yang menikmati teka-teki berbahan mentah berantakan dan suka menjadi pihak yang benar-benar memeriksa.') },
-    product: { resp: [L('Turn user problems into a prioritised backlog', 'Mengubah masalah pengguna menjadi backlog terprioritas'), L('Coordinate engineering, design and business around one plan', 'Mengoordinasikan engineering, desain, dan bisnis pada satu rencana'), L('Measure what shipped and decide what happens next', 'Mengukur yang sudah rilis dan memutuskan langkah berikutnya')],
-      skills: [L('Structured communication', 'Komunikasi terstruktur'), L('Prioritisation under constraint', 'Prioritisasi dalam keterbatasan'), L('Basic analytics', 'Analitik dasar'), L('User empathy', 'Empati pengguna')],
-      profile: L('Generalists who like owning outcomes without owning the code, and can hold ambiguity.', 'Generalis yang suka memegang hasil tanpa memegang kode, dan tahan terhadap ambiguitas.') },
-    design: { resp: [L('Translate requirements into flows, wireframes and interfaces', 'Menerjemahkan kebutuhan menjadi alur, wireframe, dan antarmuka'), L('Test designs with real users and iterate', 'Menguji desain ke pengguna nyata dan mengulanginya'), L('Maintain consistency through a design system', 'Menjaga konsistensi lewat design system')],
-      skills: [L('Design tools', 'Perangkat desain'), L('Interaction & visual craft', 'Keahlian interaksi & visual'), L('User research basics', 'Dasar riset pengguna'), L('Giving and taking critique', 'Memberi dan menerima kritik')],
-      profile: L('People who notice what others miss and can defend choices with reasons, not taste alone.', 'Orang yang melihat hal yang terlewat oleh orang lain dan bisa mempertahankan pilihan dengan alasan, bukan selera semata.') },
-    marketing: { resp: [L('Plan and run campaigns across channels', 'Merencanakan dan menjalankan kampanye lintas kanal'), L('Analyse performance and reallocate budget to what works', 'Menganalisis performa dan memindahkan anggaran ke yang berhasil'), L('Build messaging that fits the brand and the audience', 'Membangun pesan yang cocok dengan merek dan audiens')],
-      skills: [L('Copy & content sense', 'Kepekaan naskah & konten'), L('Channel analytics', 'Analitik kanal'), L('Experimentation habit', 'Kebiasaan bereksperimen'), L('Stakeholder management', 'Manajemen pemangku kepentingan')],
-      profile: L('People who like the mix of creative work and numbers, and can live with public results.', 'Orang yang suka campuran kerja kreatif dan angka, serta siap hasilnya terlihat publik.') },
-    finance: { resp: [L('Build and maintain budgets, forecasts and models', 'Menyusun dan memelihara anggaran, proyeksi, dan model'), L('Close the books and explain variances', 'Menutup pembukuan dan menjelaskan selisih'), L('Support decisions with numbers leadership can trust', 'Mendukung keputusan dengan angka yang dipercaya pimpinan')],
-      skills: [L('Excel / financial modelling', 'Excel / pemodelan keuangan'), L('Accounting fundamentals', 'Dasar akuntansi'), L('Attention to detail', 'Ketelitian'), L('Concise reporting', 'Pelaporan ringkas')],
-      profile: L('People who want precision to matter and like being close to how the business actually runs.', 'Orang yang ingin presisi berarti dan suka dekat dengan cara bisnis benar-benar berjalan.') },
-    operations: { resp: [L('Keep a process running: plan, monitor, unblock', 'Menjaga proses tetap berjalan: merencanakan, memantau, membuka hambatan'), L('Find and fix the bottleneck of the week', 'Menemukan dan membereskan hambatan minggu ini'), L('Coordinate vendors, warehouses or field teams', 'Mengoordinasikan vendor, gudang, atau tim lapangan')],
-      skills: [L('Planning & prioritising', 'Perencanaan & prioritisasi'), L('Spreadsheet fluency', 'Kefasihan spreadsheet'), L('Calm under pressure', 'Tenang di bawah tekanan'), L('Cross-team communication', 'Komunikasi lintas tim')],
-      profile: L('People who like visible, physical results and don’t need the spotlight to feel progress.', 'Orang yang suka hasil nyata terlihat dan tidak butuh sorotan untuk merasa maju.') },
-    commercial: { resp: [L('Own a portfolio of accounts or a territory', 'Memegang portofolio akun atau satu wilayah'), L('Prospect, pitch, negotiate and close', 'Mencari prospek, presentasi, negosiasi, dan closing'), L('Grow existing relationships quarter over quarter', 'Menumbuhkan relasi yang ada dari kuartal ke kuartal')],
-      skills: [L('Listening & persuasion', 'Mendengar & persuasi'), L('Resilience to rejection', 'Tahan terhadap penolakan'), L('Pipeline discipline', 'Disiplin pipeline'), L('Commercial arithmetic', 'Hitung-hitungan komersial')],
-      profile: L('People energised by people, comfortable with targets, and honest enough to keep clients.', 'Orang yang berenergi karena orang lain, nyaman dengan target, dan cukup jujur untuk mempertahankan klien.') },
-    people: { resp: [L('Run recruiting, onboarding or development programmes', 'Menjalankan program rekrutmen, onboarding, atau pengembangan'), L('Advise managers on people decisions', 'Menasihati manajer dalam keputusan tentang orang'), L('Hold difficult conversations well', 'Menjalani percakapan sulit dengan baik')],
-      skills: [L('Judgement about people', 'Penilaian tentang orang'), L('Confidentiality & fairness', 'Kerahasiaan & keadilan'), L('Process design', 'Perancangan proses'), L('Clear communication', 'Komunikasi jelas')],
-      profile: L('People who care how organisations treat humans and can be firm as well as warm.', 'Orang yang peduli cara organisasi memperlakukan manusia dan bisa tegas sekaligus hangat.') },
-    risk: { resp: [L('Test controls and investigate exceptions', 'Menguji kontrol dan menyelidiki pengecualian'), L('Document findings that stand up to scrutiny', 'Mendokumentasikan temuan yang tahan diuji'), L('Advise the business on what could go wrong', 'Menasihati bisnis tentang apa yang bisa salah')],
-      skills: [L('Skepticism with evidence', 'Skeptisisme berbasis bukti'), L('Regulatory literacy', 'Literasi regulasi'), L('Structured writing', 'Penulisan terstruktur'), L('Independence', 'Independensi')],
-      profile: L('People who like being right for defensible reasons and can disagree politely with power.', 'Orang yang suka benar dengan alasan yang bisa dipertanggungjawabkan dan berani berbeda pendapat secara santun dengan atasan.') },
-    strategy: { resp: [L('Break a vague problem into an answerable structure', 'Memecah masalah kabur menjadi struktur yang bisa dijawab'), L('Build the analysis and pressure-test it', 'Membangun analisis dan mengujinya'), L('Present recommendations to senior audiences', 'Mempresentasikan rekomendasi ke audiens senior')],
-      skills: [L('Structured problem solving', 'Pemecahan masalah terstruktur'), L('Slide & narrative craft', 'Keahlian slide & narasi'), L('Speed with numbers', 'Kecepatan dengan angka'), L('Poise under questioning', 'Tenang saat dicecar pertanyaan')],
-      profile: L('People who like intensity, feedback, and a steep curve more than they like routine.', 'Orang yang lebih menyukai intensitas, umpan balik, dan kurva belajar terjal daripada rutinitas.') },
-    trainee: { resp: [L('Rotate through functions on a structured programme', 'Berotasi antar fungsi dalam program terstruktur'), L('Deliver a project per rotation, presented upward', 'Menyelesaikan proyek per rotasi, dipresentasikan ke atasan'), L('Build a network across the organisation early', 'Membangun jejaring lintas organisasi sejak awal')],
-      skills: [L('Learning agility', 'Kelincahan belajar'), L('Adaptability across teams', 'Adaptabilitas lintas tim'), L('Leadership signals', 'Sinyal kepemimpinan'), L('Consistent delivery', 'Penyelesaian yang konsisten')],
-      profile: L('Generalists who want breadth before depth and accept placement uncertainty in exchange.', 'Generalis yang ingin keluasan sebelum kedalaman dan menerima ketidakpastian penempatan sebagai gantinya.') }
+    engineering: { resp: [P('Build, test and ship features in a production codebase', 'Membangun, menguji, dan merilis fitur di codebase produksi'), P('Review code and debug issues with the team', 'Meninjau kode dan men-debug masalah bersama tim'), P('Own small services or components end-to-end over time', 'Lama-kelamaan memegang layanan atau komponen kecil ujung-ke-ujung')],
+      skills: [P('Programming', 'Pemrograman'), P('Data structures & debugging', 'Struktur data & debugging'), P('Version control & collaboration', 'Version control & kolaborasi'), P('Clear written communication', 'Komunikasi tertulis yang jelas')],
+      profile: P('People who like making things work, tolerate being stuck, and enjoy learning tools quickly.', 'Orang yang suka membuat sesuatu berfungsi, tahan saat buntu, dan senang cepat mempelajari alat baru.') },
+    data: { resp: [P('Pull, clean and join data to answer business questions', 'Menarik, membersihkan, dan menggabungkan data untuk menjawab pertanyaan bisnis'), P('Build dashboards and recurring reports people rely on', 'Membangun dasbor dan laporan rutin yang diandalkan orang'), P('Present findings so decisions actually change', 'Menyajikan temuan sehingga keputusan benar-benar berubah')],
+      skills: [P('SQL & spreadsheets', 'SQL & spreadsheet'), P('Statistics fundamentals', 'Dasar statistika'), P('Data storytelling', 'Bercerita dengan data'), P('Business sense', 'Kepekaan bisnis')],
+      profile: P('People who enjoy puzzles with messy inputs and like being the one who actually checked.', 'Orang yang menikmati teka-teki berbahan mentah berantakan dan suka menjadi pihak yang benar-benar memeriksa.') },
+    product: { resp: [P('Turn user problems into a prioritised backlog', 'Mengubah masalah pengguna menjadi backlog terprioritas'), P('Coordinate engineering, design and business around one plan', 'Mengoordinasikan engineering, desain, dan bisnis pada satu rencana'), P('Measure what shipped and decide what happens next', 'Mengukur yang sudah rilis dan memutuskan langkah berikutnya')],
+      skills: [P('Structured communication', 'Komunikasi terstruktur'), P('Prioritisation under constraint', 'Prioritisasi dalam keterbatasan'), P('Basic analytics', 'Analitik dasar'), P('User empathy', 'Empati pengguna')],
+      profile: P('Generalists who like owning outcomes without owning the code, and can hold ambiguity.', 'Generalis yang suka memegang hasil tanpa memegang kode, dan tahan terhadap ambiguitas.') },
+    design: { resp: [P('Translate requirements into flows, wireframes and interfaces', 'Menerjemahkan kebutuhan menjadi alur, wireframe, dan antarmuka'), P('Test designs with real users and iterate', 'Menguji desain ke pengguna nyata dan mengulanginya'), P('Maintain consistency through a design system', 'Menjaga konsistensi lewat design system')],
+      skills: [P('Design tools', 'Perangkat desain'), P('Interaction & visual craft', 'Keahlian interaksi & visual'), P('User research basics', 'Dasar riset pengguna'), P('Giving and taking critique', 'Memberi dan menerima kritik')],
+      profile: P('People who notice what others miss and can defend choices with reasons, not taste alone.', 'Orang yang melihat hal yang terlewat oleh orang lain dan bisa mempertahankan pilihan dengan alasan, bukan selera semata.') },
+    marketing: { resp: [P('Plan and run campaigns across channels', 'Merencanakan dan menjalankan kampanye lintas kanal'), P('Analyse performance and reallocate budget to what works', 'Menganalisis performa dan memindahkan anggaran ke yang berhasil'), P('Build messaging that fits the brand and the audience', 'Membangun pesan yang cocok dengan merek dan audiens')],
+      skills: [P('Copy & content sense', 'Kepekaan naskah & konten'), P('Channel analytics', 'Analitik kanal'), P('Experimentation habit', 'Kebiasaan bereksperimen'), P('Stakeholder management', 'Manajemen pemangku kepentingan')],
+      profile: P('People who like the mix of creative work and numbers, and can live with public results.', 'Orang yang suka campuran kerja kreatif dan angka, serta siap hasilnya terlihat publik.') },
+    finance: { resp: [P('Build and maintain budgets, forecasts and models', 'Menyusun dan memelihara anggaran, proyeksi, dan model'), P('Close the books and explain variances', 'Menutup pembukuan dan menjelaskan selisih'), P('Support decisions with numbers leadership can trust', 'Mendukung keputusan dengan angka yang dipercaya pimpinan')],
+      skills: [P('Excel / financial modelling', 'Excel / pemodelan keuangan'), P('Accounting fundamentals', 'Dasar akuntansi'), P('Attention to detail', 'Ketelitian'), P('Concise reporting', 'Pelaporan ringkas')],
+      profile: P('People who want precision to matter and like being close to how the business actually runs.', 'Orang yang ingin presisi berarti dan suka dekat dengan cara bisnis benar-benar berjalan.') },
+    operations: { resp: [P('Keep a process running: plan, monitor, unblock', 'Menjaga proses tetap berjalan: merencanakan, memantau, membuka hambatan'), P('Find and fix the bottleneck of the week', 'Menemukan dan membereskan hambatan minggu ini'), P('Coordinate vendors, warehouses or field teams', 'Mengoordinasikan vendor, gudang, atau tim lapangan')],
+      skills: [P('Planning & prioritising', 'Perencanaan & prioritisasi'), P('Spreadsheet fluency', 'Kefasihan spreadsheet'), P('Calm under pressure', 'Tenang di bawah tekanan'), P('Cross-team communication', 'Komunikasi lintas tim')],
+      profile: P('People who like visible, physical results and don’t need the spotlight to feel progress.', 'Orang yang suka hasil nyata terlihat dan tidak butuh sorotan untuk merasa maju.') },
+    commercial: { resp: [P('Own a portfolio of accounts or a territory', 'Memegang portofolio akun atau satu wilayah'), P('Prospect, pitch, negotiate and close', 'Mencari prospek, presentasi, negosiasi, dan closing'), P('Grow existing relationships quarter over quarter', 'Menumbuhkan relasi yang ada dari kuartal ke kuartal')],
+      skills: [P('Listening & persuasion', 'Mendengar & persuasi'), P('Resilience to rejection', 'Tahan terhadap penolakan'), P('Pipeline discipline', 'Disiplin pipeline'), P('Commercial arithmetic', 'Hitung-hitungan komersial')],
+      profile: P('People energised by people, comfortable with targets, and honest enough to keep clients.', 'Orang yang berenergi karena orang lain, nyaman dengan target, dan cukup jujur untuk mempertahankan klien.') },
+    people: { resp: [P('Run recruiting, onboarding or development programmes', 'Menjalankan program rekrutmen, onboarding, atau pengembangan'), P('Advise managers on people decisions', 'Menasihati manajer dalam keputusan tentang orang'), P('Hold difficult conversations well', 'Menjalani percakapan sulit dengan baik')],
+      skills: [P('Judgement about people', 'Penilaian tentang orang'), P('Confidentiality & fairness', 'Kerahasiaan & keadilan'), P('Process design', 'Perancangan proses'), P('Clear communication', 'Komunikasi jelas')],
+      profile: P('People who care how organisations treat humans and can be firm as well as warm.', 'Orang yang peduli cara organisasi memperlakukan manusia dan bisa tegas sekaligus hangat.') },
+    risk: { resp: [P('Test controls and investigate exceptions', 'Menguji kontrol dan menyelidiki pengecualian'), P('Document findings that stand up to scrutiny', 'Mendokumentasikan temuan yang tahan diuji'), P('Advise the business on what could go wrong', 'Menasihati bisnis tentang apa yang bisa salah')],
+      skills: [P('Skepticism with evidence', 'Skeptisisme berbasis bukti'), P('Regulatory literacy', 'Literasi regulasi'), P('Structured writing', 'Penulisan terstruktur'), P('Independence', 'Independensi')],
+      profile: P('People who like being right for defensible reasons and can disagree politely with power.', 'Orang yang suka benar dengan alasan yang bisa dipertanggungjawabkan dan berani berbeda pendapat secara santun dengan atasan.') },
+    strategy: { resp: [P('Break a vague problem into an answerable structure', 'Memecah masalah kabur menjadi struktur yang bisa dijawab'), P('Build the analysis and pressure-test it', 'Membangun analisis dan mengujinya'), P('Present recommendations to senior audiences', 'Mempresentasikan rekomendasi ke audiens senior')],
+      skills: [P('Structured problem solving', 'Pemecahan masalah terstruktur'), P('Slide & narrative craft', 'Keahlian slide & narasi'), P('Speed with numbers', 'Kecepatan dengan angka'), P('Poise under questioning', 'Tenang saat dicecar pertanyaan')],
+      profile: P('People who like intensity, feedback, and a steep curve more than they like routine.', 'Orang yang lebih menyukai intensitas, umpan balik, dan kurva belajar terjal daripada rutinitas.') },
+    trainee: { resp: [P('Rotate through functions on a structured programme', 'Berotasi antar fungsi dalam program terstruktur'), P('Deliver a project per rotation, presented upward', 'Menyelesaikan proyek per rotasi, dipresentasikan ke atasan'), P('Build a network across the organisation early', 'Membangun jejaring lintas organisasi sejak awal')],
+      skills: [P('Learning agility', 'Kelincahan belajar'), P('Adaptability across teams', 'Adaptabilitas lintas tim'), P('Leadership signals', 'Sinyal kepemimpinan'), P('Consistent delivery', 'Penyelesaian yang konsisten')],
+      profile: P('Generalists who want breadth before depth and accept placement uncertainty in exchange.', 'Generalis yang ingin keluasan sebelum kedalaman dan menerima ketidakpastian penempatan sebagai gantinya.') }
   };
   function renderCompany(args) {
     var c = CO(args[0]);
@@ -1155,6 +1244,43 @@
             : '<span class="prov i">~ ' + t('typical', 'umum') + '</span>') +
           '<span style="margin-left:auto;color:var(--r-explore);font-size:12px;font-weight:800">' + t('Open', 'Buka') + ' →</span></span></button>';
       }).join('') + '</div>' +
+      (function () {
+        var tpl = O.TYPICAL[c.proc];
+        var documented = roles.some(function (o) { return o.proc === 'documented'; });
+        var out = '';
+        if (tpl) {
+          out += '<p class="sec-h" style="margin-top:30px">' + t('How they typically hire', 'Cara mereka biasanya merekrut') + '</p>' +
+            '<div class="card">' +
+            (documented
+              ? '<p class="prov v" style="margin-bottom:10px">✓ ' + t('A sourced, documented process exists for this company — open the marked role above for the stage-by-stage breakdown.', 'Proses terdokumentasi yang bersumber tersedia untuk perusahaan ini — buka peran bertanda di atas untuk rincian per tahap.') + '</p>'
+              : '<p class="prov i" style="margin-bottom:10px">~ ' + L(tpl.label) + ' — ' + t('our reading, not their published process', 'pembacaan kami, bukan proses resmi mereka') + '</p>') +
+            tpl.stages.map(function (st2, i) {
+              return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">' + (i + 1) + '</span><span>' + L(O.STAGE_NAMES[st2]) + '</span></div>';
+            }).join('') +
+            '<p class="note3" style="margin-top:10px">' + t('Open any role above for what each stage assesses, common failure points, and where you’d stand.', 'Buka peran mana pun di atas untuk melihat apa yang dinilai tiap tahap, titik kegagalan umum, dan posisimu.') + '</p></div>';
+          var pillars = {}, prepRows = [];
+          tpl.stages.forEach(function (st2) {
+            var m = G.stageTypes[st2];
+            if (m && m.pillar && !pillars[m.pillar + L(m.module)]) {
+              pillars[m.pillar + L(m.module)] = 1;
+              prepRows.push('<a class="chip-min tag" style="cursor:pointer;text-decoration:none" href="../' + m.pillar + '/">' +
+                (m.pillar === 'the-pack' ? 'The Pack' : 'The Rope') + ' · ' + L(m.module) + ' →</a>');
+            }
+          });
+          if (prepRows.length) {
+            out += '<p class="sec-h" style="margin-top:30px">' + t('Preparation that maps to this company', 'Persiapan yang terpetakan ke perusahaan ini') + '</p>' +
+              '<div class="card"><p class="note3" style="margin-bottom:10px">' + t('Derived from the hiring stages above — each module prepares a specific stage.', 'Diturunkan dari tahap rekrutmen di atas — tiap modul menyiapkan satu tahap spesifik.') + '</p>' +
+              '<div style="display:flex;gap:8px;flex-wrap:wrap">' + prepRows.join('') + '</div></div>';
+          }
+        }
+        if (!documented) {
+          out += '<div class="disc" style="margin-top:26px"><b>' + t('Not yet available for this company', 'Belum tersedia untuk perusahaan ini') + '</b><br>' +
+            t('A sourced hiring process · published programme names · sourced eligibility criteria. We only publish what we can cite, so these stay empty until we can. Been through their process? ',
+              'Proses rekrutmen bersumber · nama program terpublikasi · kriteria kelayakan bersumber. Kami hanya menerbitkan yang bisa dikutip, jadi bagian ini kosong sampai kami bisa. Pernah melewati proses mereka? ') +
+            '<a href="../../help.html" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></div>';
+        }
+        return out;
+      })() +
       provBlock(c, null) + '</div>';
     wireOppButtons(host);
   }
@@ -1407,7 +1533,8 @@
         t('Nothing here yet. That’s the normal starting position. Most people begin by browsing a few companies they’ve heard of.',
           'Belum ada apa-apa di sini. Itu posisi awal yang normal. Kebanyakan orang mulai dengan menjelajahi beberapa perusahaan yang pernah mereka dengar.') +
         '<br><br><button class="btn-p" style="background:var(--r-explore)" onclick="location.hash=\'#/explore\'">' + t('Explore', 'Jelajah') + ' →</button> ' +
-        '<button class="btn-s" onclick="location.hash=\'#/quick\'">' + t('Three questions', 'Tiga pertanyaan') + ' →</button></div>'
+        '<button class="btn-s" onclick="location.hash=\'#/identity/cv\'">' + t('Start from my CV', 'Mulai dari CV-ku') + ' →</button> ' +
+        '<button class="btn-q" onclick="location.hash=\'#/identity\'" style="color:var(--r-explore)">' + t('Questionnaire', 'Kuesioner') + ' →</button></div>'
         :
         (groups.committed.length ? '<p class="sec-h">' + t('Committed', 'Berkomitmen') + '</p>' + cardsFor(groups.committed, true) : '') +
         (groups.watching.length || groups.investigating.length ?
