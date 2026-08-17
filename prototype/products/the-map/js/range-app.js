@@ -140,23 +140,22 @@
     host.innerHTML =
       '<div class="hero">' +
       '<div class="hero-copy">' +
-      '<p class="micro">' + t('The Range · Part of The Map', 'The Range · Bagian dari The Map') + '</p>' +
+      '<p class="micro">' + t('The Range (Explore) · Part of The Map', 'The Range (Explore) · Bagian dari The Map') + '</p>' +
       '<h1 class="serif" style="font-size:clamp(30px,4.6vw,48px);letter-spacing:-.01em;line-height:1.13;margin:14px 0 14px">' +
       t('See what&rsquo;s out there. <em style="color:var(--r-explore)">Then find out what it takes.</em>',
         'Lihat apa yang ada di luar sana. <em style="color:var(--r-explore)">Lalu cari tahu apa yang dibutuhkan.</em>') + '</h1>' +
       '<p style="font-size:16px;color:var(--r-text-2);margin-bottom:24px">' +
-      t('You don&rsquo;t need to know what you want yet. Build your Career Identity — from your CV, or by answering questions — and see which directions hold up.',
-        'Kamu belum perlu tahu apa yang kamu mau. Bangun Identitas Kariermu — dari CV, atau dengan menjawab pertanyaan — dan lihat arah mana yang bertahan.') + '</p>' +
+      t('You don&rsquo;t need to know what you want yet. Upload the CV you already have — we read it here on your device — and see which directions hold up. No CV to hand? Answer the questions instead.',
+        'Kamu belum perlu tahu apa yang kamu mau. Unggah CV yang sudah kamu punya — kami membacanya di perangkatmu — lalu lihat arah mana yang bertahan. Tidak ada CV? Jawab pertanyaannya saja.') + '</p>' +
       '<div style="display:flex;gap:12px;flex-wrap:wrap">' +
-      '<button class="btn-p" id="homeCv">' + t('Start from my CV / resume', 'Mulai dari CV / resume-ku') + ' →</button>' +
-      '<button class="btn-s explore" id="homeQs">' + t('Answer the questionnaire', 'Jawab kuesionernya') + ' →</button>' +
+      '<button class="btn-p" id="homeCv">' + t('Upload my CV / resume', 'Unggah CV / resume-ku') + ' →</button>' +
+      '<button class="btn-s explore" id="homeQs">' + t('Answer the questionnaire instead', 'Jawab kuesionernya saja') + ' →</button>' +
       '<button class="btn-q" id="homeBrowse" style="color:var(--r-explore)">' + t('Or just browse companies', 'Atau jelajahi perusahaan saja') + ' →</button></div>' +
       '<p class="note3" style="margin-top:14px">' + t('Included with The Map. Both paths feed the same analysis — and we&rsquo;ll tell you what we don&rsquo;t know.',
         'Termasuk dalam The Map. Kedua jalur masuk ke analisis yang sama — dan kami akan memberi tahu apa yang tidak kami ketahui.') + '</p></div>' +
-      '<div class="hero-art"><img src="../../assets/nav-mountain.png" alt="" aria-hidden="true"></div>' +
       '</div>' +
 
-      '<div class="sec"><p class="sec-h">' + t('How The Range works', 'Cara kerja The Range') + '</p>' +
+      '<div class="sec"><p class="sec-h">' + t('How The Range (Explore) works', 'Cara kerja The Range (Explore)') + '</p>' +
       '<div class="flow-strip">' + FLOW.map(function (f2, i) {
         return '<div class="fs-step"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">' +
           '<span class="n">' + (i + 1) + '</span><span class="fi">' + FLOW_ICONS[i] + '</span></div>' +
@@ -501,9 +500,13 @@
     if (b5.focus_variety != null) put('detail_oriented', 100 - b5.focus_variety, 'block_5');
     var hit = function (list) { return ID.skills.filter(function (x) { return list.indexOf(x.id) !== -1; }).length; };
     if (ID.skills.length) {
-      put('analytical', 35 + hit(['statistics', 'sql-excel', 'financial-modelling', 'problem-solving', 'accounting', 'programming']) * 14, 'block_3');
-      put('creative', 30 + hit(['design-tools', 'content-creation', 'writing']) * 20, 'block_3');
-      put('technical_depth', 25 + hit(['programming', 'design-tools']) * 28, 'block_3');
+      /* When the skills were read from a CV the derived attributes trace to
+         the document, so the evidence line names what the reader actually
+         gave us rather than a question they never answered. */
+      var skillSrc = ID.skills.some(function (x) { return x.src === 'cv'; }) ? 'cv_document' : 'block_3';
+      put('analytical', 35 + hit(['statistics', 'sql-excel', 'financial-modelling', 'problem-solving', 'accounting', 'programming']) * 14, skillSrc);
+      put('creative', 30 + hit(['design-tools', 'content-creation', 'writing']) * 20, skillSrc);
+      put('technical_depth', 25 + hit(['programming', 'design-tools']) * 28, skillSrc);
     }
     ID.attributes = a; ID.attributeSources = s;
   }
@@ -599,15 +602,26 @@
     if (span > 0) out.years = Math.min(15, span);
     return out;
   }
-  function cvApply(res) {
+  function cvApply(res, docName) {
+    /* Signals lifted from the document are tagged, so every recommendation
+       can say it came from the CV rather than from a question never asked. */
+    ID.cv = { name: docName || (ID.cv && ID.cv.name) || null, at: Date.now(),
+      skills: [], inds: [], fns: [] };
     res.skills.forEach(function (s) {
-      if (!ID.skills.some(function (x) { return x.id === s.id; })) {
-        var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
-        if (def) ID.skills.push({ id: s.id, label: L(def[1]), asked: false });
-      }
+      ID.cv.skills.push(s.id);
+      var found = ID.skills.filter(function (x) { return x.id === s.id; })[0];
+      if (found) { found.src = 'cv'; return; }
+      var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
+      if (def) ID.skills.push({ id: s.id, label: L(def[1]), asked: false, src: 'cv' });
     });
-    res.inds.forEach(function (s) { if (ID.prefIndustries.indexOf(s.id) === -1) ID.prefIndustries.push(s.id); });
-    res.fns.forEach(function (s) { if (ID.prefFunctions.indexOf(s.id) === -1) ID.prefFunctions.push(s.id); });
+    res.inds.forEach(function (s) {
+      ID.cv.inds.push(s.id);
+      if (ID.prefIndustries.indexOf(s.id) === -1) ID.prefIndustries.push(s.id);
+    });
+    res.fns.forEach(function (s) {
+      ID.cv.fns.push(s.id);
+      if (ID.prefFunctions.indexOf(s.id) === -1) ID.prefFunctions.push(s.id);
+    });
     if (res.degree && !ID.b1.degree) ID.b1.degree = res.degree;
     if (res.gpa != null && ID.b1.gpa == null) ID.b1.gpa = res.gpa;
     if (res.roles.length) {
@@ -621,70 +635,160 @@
     if (ID.prefIndustries.length) ID.b8.done = true;
     if (ID.prefFunctions.length) ID.b9.done = true;
     if (ID.b1.degree || ID.b1.gpa != null) ID.b1.done = true;
+    /* Interests are implied by what someone has actually done: a documented
+       history is stronger evidence than a tag they would have ticked. */
+    if (res.skills.length >= 3 || res.roles.length) {
+      ID.b4.fromCv = true; ID.b4.done = true;
+      ID.b2.done = ID.b2.done || res.roles.length > 0;
+    }
+    /* Same derivation the questionnaire uses, applied to documented skills:
+       without it the model has no attributes to weigh and every direction is
+       suppressed for lack of counter-evidence — an empty page after an upload. */
+    deriveAttributes();
     saveId();
   }
+  function cvHasProfile() { return !!(ID.cv && (ID.cv.skills.length || ID.cv.inds.length || ID.cv.fns.length)); }
+  /* ── the document path: upload, extract, review, apply ─────────────────
+     Presented as the primary way in. Someone who has a CV should never be
+     asked to retype what it already says; the questionnaire stays available
+     to refine or replace the reading, never as a toll gate. */
   function cvPanel() {
-    return '<details class="card" style="max-width:640px;margin-bottom:18px;padding:0" id="cvBox">' +
+    var have = cvHasProfile();
+    var D = window.MT_RANGE_DOC;
+    return '<details class="card" style="max-width:680px;margin-bottom:18px;padding:0" id="cvBox"' + (have ? '' : ' open') + '>' +
       '<summary style="list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:12px;align-items:center">' +
-      '<span class="mono" style="width:38px;height:38px;font-size:15px">↑</span>' +
-      '<span style="flex:1"><b style="font-size:14px">' + t('Or start from your CV, resume or portfolio', 'Atau mulai dari CV, resume, atau portofoliomu') + '</b>' +
-      '<span class="note3" style="display:block;margin-top:2px">' + t('Analysed entirely on this device — nothing is uploaded anywhere, and what you apply is stored only in this browser, readable only here.', 'Dianalisis sepenuhnya di perangkat ini — tidak ada yang diunggah ke mana pun, dan yang kamu terapkan hanya tersimpan di peramban ini, hanya terbaca di sini.') + '</span></span>' +
+      '<span class="mono" style="width:38px;height:38px;font-size:15px">' + (have ? '✓' : '↑') + '</span>' +
+      '<span style="flex:1"><b style="font-size:14px">' +
+      (have ? t('Your document is the source of this profile', 'Dokumenmu adalah sumber profil ini')
+            : t('Start from your CV, resume or portfolio', 'Mulai dari CV, resume, atau portofoliomu')) + '</b>' +
+      '<span class="note3" style="display:block;margin-top:2px">' +
+      (have && ID.cv.name
+        ? t('Read from ', 'Dibaca dari ') + esc(ID.cv.name) + t(' — replace it below at any time.', ' — bisa diganti kapan saja di bawah.')
+        : t('Read entirely on this device — the file never leaves your browser, and nothing is uploaded to any server.', 'Dibaca sepenuhnya di perangkat ini — berkasnya tidak pernah meninggalkan peramban, dan tidak ada yang diunggah ke server mana pun.')) +
+      '</span></span>' +
       '<span style="color:var(--r-explore);font-weight:800">▾</span></summary>' +
       '<div style="padding:0 18px 18px">' +
-      '<div class="cvzone">' +
-      '<p class="note3" style="margin-bottom:10px">' + t('Paste the text of your CV or portfolio, or choose a .txt / .md file. PDF? Open it and copy the text in.', 'Tempel teks CV atau portofoliomu, atau pilih berkas .txt / .md. PDF? Buka lalu salin teksnya ke sini.') + '</p>' +
+      '<div class="cvzone" id="cvZone">' +
+      '<p style="font-size:13px;color:var(--r-text-2);margin-bottom:4px"><b>' +
+      t('Drop your file here, or choose one', 'Letakkan berkasmu di sini, atau pilih satu') + '</b></p>' +
+      '<p class="note3" style="margin-bottom:12px">' +
+      t('PDF · DOCX · ODT · RTF · TXT · MD — up to 10 MB. Scanned PDFs have no text layer; paste the text instead.',
+        'PDF · DOCX · ODT · RTF · TXT · MD — maksimal 10 MB. PDF hasil pindaian tidak punya lapisan teks; tempel teksnya saja.') + '</p>' +
+      '<input type="file" id="cvFile" accept="' + (D ? D.ACCEPT : '.txt,.md') + '" style="display:none">' +
+      '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">' +
+      '<button class="btn-p" id="cvPick" style="background:var(--r-explore)">' +
+      (have ? t('Replace document', 'Ganti dokumen') : t('Choose file', 'Pilih berkas')) + '</button>' +
+      '<button class="btn-q" id="cvPasteToggle" style="color:var(--r-explore)">' + t('or paste text instead', 'atau tempel teks saja') + '</button>' +
+      '</div>' +
+      '<div id="cvStatus" style="margin-top:12px" aria-live="polite"></div>' +
+      '<div id="cvPasteWrap" style="display:none;margin-top:12px">' +
       '<textarea id="cvText" placeholder="' + t('Paste your CV text here…', 'Tempel teks CV-mu di sini…') + '"></textarea>' +
-      '<div style="display:flex;gap:10px;justify-content:center;margin-top:12px;flex-wrap:wrap">' +
-      '<input type="file" id="cvFile" accept=".txt,.md,.text" style="display:none">' +
-      '<button class="btn-s" id="cvPick">' + t('Choose a file', 'Pilih berkas') + '</button>' +
-      '<button class="btn-p" id="cvGo" style="background:var(--r-explore)">' + t('Analyse on this device', 'Analisis di perangkat ini') + ' →</button></div></div>' +
+      '<div style="margin-top:10px"><button class="btn-s explore" id="cvGo">' + t('Analyse this text', 'Analisis teks ini') + ' →</button></div>' +
+      '</div></div>' +
       '<div id="cvOut" style="margin-top:14px"></div></div></details>';
   }
+
+  function cvStatus(kind, msg) {
+    var el = $('#cvStatus'); if (!el) return;
+    var colour = kind === 'error' ? 'var(--r-against)' : kind === 'ok' ? 'var(--r-for)' : 'var(--r-text-3)';
+    var mark = kind === 'error' ? '⚠' : kind === 'ok' ? '✓' : '⋯';
+    el.innerHTML = '<p style="font-size:12.5px;color:' + colour + ';line-height:1.55">' +
+      '<b style="margin-right:6px">' + mark + '</b>' + msg + '</p>';
+  }
+
+  function cvReport(res, source) {
+    var out = $('#cvOut');
+    var rows = res.skills.map(function (s) {
+      var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
+      return '<div class="sig-row"><span class="k">' + t('Skill', 'Keahlian') + '</span><span>' + (def ? L(def[1]) : s.id) +
+        ' <span class="note3">· ' + t('matched', 'cocok dengan') + ' “' + esc(s.term) + '”</span></span></div>';
+    }).concat(res.inds.map(function (s) {
+      var ind = G.industries.filter(function (x) { return x.id === s.id; })[0];
+      return '<div class="sig-row"><span class="k">' + t('Industry', 'Industri') + '</span><span>' + (ind ? L(ind.name) : s.id) +
+        ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
+    })).concat(res.fns.map(function (s) {
+      var fn = G.functions.filter(function (x) { return x.id === s.id; })[0];
+      return '<div class="sig-row"><span class="k">' + t('Function', 'Fungsi') + '</span><span>' + (fn ? L(fn.name) : s.id) +
+        ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
+    })).concat(res.roles.map(function (r) {
+      return '<div class="sig-row"><span class="k">' + t('Experience', 'Pengalaman') + '</span><span>' + esc(r) + '</span></div>';
+    })).concat(res.achievements.map(function (r) {
+      return '<div class="sig-row"><span class="k">' + t('Achievement', 'Pencapaian') + '</span><span>' + esc(r) + '</span></div>';
+    })).concat(res.years != null ? ['<div class="sig-row"><span class="k">' + t('Span', 'Rentang') + '</span><span>~' + res.years + ' ' +
+      t('years across dated entries (inferred from date ranges)', 'tahun dari entri bertanggal (disimpulkan dari rentang tanggal)') + '</span></div>'] : []);
+    if (res.degree) rows.push('<div class="sig-row"><span class="k">' + t('Education', 'Pendidikan') + '</span><span>' +
+      ({ s1: t('Bachelor’s degree', 'Sarjana (S1)'), s2: t('Master’s degree', 'Magister (S2)'), d3_d4: t('Associate / vocational degree', 'Diploma (D3/D4)') })[res.degree] + '</span></div>');
+    if (res.gpa != null) rows.push('<div class="sig-row"><span class="k">GPA</span><span>' + res.gpa + '</span></div>');
+
+    if (!rows.length) {
+      out.innerHTML = '<p class="note3">' + t('We couldn’t match anything we recognise in that document. The questionnaire below will work better.',
+        'Tidak ada yang cocok dengan yang kami kenali di dokumen itu. Kuesioner di bawah akan bekerja lebih baik.') + '</p>';
+      return;
+    }
+    out.innerHTML =
+      '<p class="micro" style="margin-bottom:6px">' + t('What we read — and exactly why', 'Yang kami baca — dan alasan persisnya') + ' · ' + rows.length + '</p>' +
+      rows.join('') +
+      '<p class="note3" style="margin:10px 0">' + t('These signals feed the traced analysis directly — every recommendation will show which of them produced it. The reading misses nuance by design; the questionnaire below is there to correct or deepen it, not to repeat it.',
+        'Sinyal-sinyal ini langsung masuk ke analisis terlacak — setiap rekomendasi akan menunjukkan sinyal mana yang menghasilkannya. Pembacaan ini memang melewatkan nuansa; kuesioner di bawah ada untuk mengoreksi atau memperdalam, bukan mengulang.') + '</p>' +
+      '<button class="btn-p" id="cvApply" style="background:var(--r-explore)">' + t('See what fits', 'Lihat yang cocok') + ' →</button>';
+    if ($('#cvApply')) $('#cvApply').addEventListener('click', function () {
+      cvApply(res, source);
+      /* Straight to the recommendations: the document was the questionnaire. */
+      go('directions');
+    });
+  }
+
   function wireCvPanel(afterApply) {
     if (!$('#cvBox')) return;
-    $('#cvPick').addEventListener('click', function () { $('#cvFile').click(); });
-    $('#cvFile').addEventListener('change', function () {
-      var f = this.files[0]; if (!f) return;
-      var rd = new FileReader();
-      rd.onload = function () { $('#cvText').value = String(rd.result).slice(0, 60000); };
-      rd.readAsText(f);
+    var D = window.MT_RANGE_DOC;
+    var zone = $('#cvZone');
+
+    $('#cvPasteToggle').addEventListener('click', function () {
+      var w = $('#cvPasteWrap');
+      w.style.display = w.style.display === 'none' ? 'block' : 'none';
+      if (w.style.display === 'block') $('#cvText').focus();
     });
+    $('#cvPick').addEventListener('click', function () { $('#cvFile').click(); });
+    $('#cvFile').addEventListener('change', function () { if (this.files[0]) handleFile(this.files[0]); });
+
+    ['dragenter', 'dragover'].forEach(function (ev) {
+      zone.addEventListener(ev, function (e) { e.preventDefault(); zone.style.borderColor = 'var(--r-explore)'; });
+    });
+    ['dragleave', 'drop'].forEach(function (ev) {
+      zone.addEventListener(ev, function (e) { e.preventDefault(); zone.style.borderColor = ''; });
+    });
+    zone.addEventListener('drop', function (e) {
+      var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+      if (f) handleFile(f);
+    });
+
+    function handleFile(f) {
+      $('#cvOut').innerHTML = '';
+      if (!D) { cvStatus('error', t('Document reading is unavailable here — paste the text instead.', 'Pembacaan dokumen tidak tersedia di sini — tempel teksnya saja.')); return; }
+      var kb = Math.max(1, Math.round(f.size / 1024));
+      cvStatus('work', t('Reading ', 'Membaca ') + esc(f.name) + ' (' + kb + ' KB)…');
+      D.extract(f).then(function (doc) {
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ' — ' + doc.chars.toLocaleString() + ' ' +
+          t('characters of text recovered. Analysing…', 'karakter teks berhasil diambil. Menganalisis…'));
+        var res = cvAnalyse(doc.text);
+        cvReport(res, doc.name);
+        cvStatus('ok', t('Read ', 'Terbaca ') + esc(doc.name) + ' — ' +
+          t('review what we found below, then continue.', 'tinjau temuan di bawah, lalu lanjutkan.'));
+      }).catch(function (err) {
+        cvStatus('error', D.message(err && err.message, lang()));
+        var w = $('#cvPasteWrap');
+        if (w) w.style.display = 'block';        /* always leave a way forward */
+      });
+    }
+
     $('#cvGo').addEventListener('click', function () {
       var txt = $('#cvText').value || '';
-      var out = $('#cvOut');
       if (txt.trim().length < 80) {
-        out.innerHTML = '<p class="note3">' + t('That’s too short to read anything meaningful from. Paste the full text.', 'Terlalu pendek untuk dibaca secara berarti. Tempel teks lengkapnya.') + '</p>';
+        cvStatus('error', t('That’s too short to read anything meaningful from. Paste the full text.', 'Terlalu pendek untuk dibaca secara berarti. Tempel teks lengkapnya.'));
         return;
       }
-      var res = cvAnalyse(txt);
-      var rows = res.skills.map(function (s) {
-        var def = SKILLS.filter(function (x) { return x[0] === s.id; })[0];
-        return '<div class="sig-row"><span class="k">' + t('Skill', 'Keahlian') + '</span><span>' + (def ? L(def[1]) : s.id) +
-          ' <span class="note3">· ' + t('matched', 'cocok dengan') + ' “' + esc(s.term) + '”</span></span></div>';
-      }).concat(res.inds.map(function (s) {
-        var ind = G.industries.filter(function (x) { return x.id === s.id; })[0];
-        return '<div class="sig-row"><span class="k">' + t('Industry', 'Industri') + '</span><span>' + (ind ? L(ind.name) : s.id) +
-          ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
-      })).concat(res.fns.map(function (s) {
-        var fn = G.functions.filter(function (x) { return x.id === s.id; })[0];
-        return '<div class="sig-row"><span class="k">' + t('Function', 'Fungsi') + '</span><span>' + (fn ? L(fn.name) : s.id) +
-          ' <span class="note3">· ' + s.count + ' ' + t('signals: ', 'sinyal: ') + '“' + esc(s.terms.join('”, “')) + '”</span></span></div>';
-      })).concat(res.roles.map(function (r) {
-        return '<div class="sig-row"><span class="k">' + t('Experience', 'Pengalaman') + '</span><span>' + esc(r) + '</span></div>';
-      })).concat(res.achievements.map(function (r) {
-        return '<div class="sig-row"><span class="k">' + t('Achievement', 'Pencapaian') + '</span><span>' + esc(r) + '</span></div>';
-      })).concat(res.years != null ? ['<div class="sig-row"><span class="k">' + t('Span', 'Rentang') + '</span><span>~' + res.years + ' ' +
-        t('years across dated entries (inferred from date ranges)', 'tahun dari entri bertanggal (disimpulkan dari rentang tanggal)') + '</span></div>'] : []);
-      if (res.degree) rows.push('<div class="sig-row"><span class="k">' + t('Education', 'Pendidikan') + '</span><span>' +
-        ({ s1: t('Bachelor’s degree', 'Sarjana (S1)'), s2: t('Master’s degree', 'Magister (S2)'), d3_d4: t('Associate / vocational degree', 'Diploma (D3/D4)') })[res.degree] + '</span></div>');
-      if (res.gpa != null) rows.push('<div class="sig-row"><span class="k">GPA</span><span>' + res.gpa + '</span></div>');
-      out.innerHTML = rows.length ?
-        '<p class="micro" style="margin-bottom:6px">' + t('What we read — and exactly why', 'Yang kami baca — dan alasan persisnya') + ' · ' + rows.length + '</p>' +
-        rows.join('') +
-        '<p class="note3" style="margin:10px 0">' + t('These signals feed the same traced analysis as the questionnaire — every recommendation will show which of them produced it. The reading misses nuance by design; fix anything wrong in the sections below after applying.', 'Sinyal-sinyal ini masuk ke analisis terlacak yang sama dengan kuesioner — setiap rekomendasi akan menunjukkan sinyal mana yang menghasilkannya. Pembacaan ini memang melewatkan nuansa; perbaiki yang keliru di bagian bawah setelah diterapkan.') + '</p>' +
-        '<button class="btn-p" id="cvApply" style="background:var(--r-explore)">' + t('Apply to my identity', 'Terapkan ke identitasku') + ' →</button>'
-        : '<p class="note3">' + t('We couldn’t match anything we recognise. The questionnaire below will work better.', 'Tidak ada yang cocok dengan yang kami kenali. Kuesioner di bawah akan bekerja lebih baik.') + '</p>';
-      if ($('#cvApply')) $('#cvApply').addEventListener('click', function () { cvApply(res); afterApply(); });
+      cvStatus('ok', t('Analysing pasted text…', 'Menganalisis teks yang ditempel…'));
+      cvReport(cvAnalyse(txt), t('pasted text', 'teks yang ditempel'));
     });
   }
 
@@ -721,12 +825,18 @@
     var host = $('#v-identity');
     var pct = Math.round(F.completeness(ID) * 100);
     host.innerHTML =
-      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Your identity', 'Identitasmu') + '</h1>' +
-      '<p class="h-sub">' + t('Nothing is required. Each section states what it buys you. Two ways in: answer questions, or start from your CV.', 'Tidak ada yang wajib. Setiap bagian menyebutkan manfaatnya. Dua jalan masuk: jawab pertanyaan, atau mulai dari CV-mu.') + '</p>' +
+      '<p class="h-sub">' + (cvHasProfile()
+        ? t('Built from your document. The questions below are optional — use them to correct or deepen what we read, not to repeat it.',
+            'Dibangun dari dokumenmu. Pertanyaan di bawah bersifat opsional — gunakan untuk mengoreksi atau memperdalam bacaan kami, bukan mengulanginya.')
+        : t('Nothing is required. Each section states what it buys you. Two ways in: start from your CV, or answer the questions.',
+            'Tidak ada yang wajib. Setiap bagian menyebutkan manfaatnya. Dua jalan masuk: mulai dari CV-mu, atau jawab pertanyaannya.')) + '</p>' +
       '<div style="display:flex;align-items:center;gap:14px;max-width:640px;margin-bottom:22px">' +
       '<div class="meter" style="flex:1"><i style="width:' + pct + '%"></i></div><span class="micro">' + pct + '%</span></div>' +
       cvPanel() +
+      (cvHasProfile()
+        ? '<p class="sec-h" style="margin-top:24px">' + t('Refine it (optional)', 'Pertajam (opsional)') + '</p>'
+        : '<p class="sec-h" style="margin-top:24px">' + t('Or answer the questions', 'Atau jawab pertanyaannya') + '</p>') +
       '<div style="max-width:640px" id="idSecs">' +
       SECTIONS.map(function (sec, i) {
         var done = ID[sec.key] && ID[sec.key].done;
@@ -869,7 +979,6 @@
     }).join('');
     function chipRow(list) { return '<div style="display:flex;gap:8px;flex-wrap:wrap">' + list.join('') + '</div>'; }
     host.innerHTML =
-      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Your career identity', 'Identitas kariermu') + '</h1>' +
       '<p class="h-sub">' + t('Built only from what you gave us — every line traces back to an answer. It sharpens as you do.', 'Dibangun hanya dari yang kamu berikan — setiap baris merujuk ke sebuah jawaban. Ia menajam seiring dirimu.') + '</p>' +
       '<div style="max-width:680px">' +
@@ -951,8 +1060,29 @@
         return;
       }
     }
+    if (res.shown.length < 5) {
+      /* The suppression rule (no counter-evidence ⇒ not enough known) thins
+         the set hard for a document-only profile: a CV says a great deal
+         about skills and nothing about working style, so little can point
+         away. Top up with the best-evidenced remaining directions and say
+         plainly that the counter-evidence is missing, rather than showing a
+         near-empty page after an upload. */
+      var have = {};
+      res.shown.forEach(function (r2) { have[r2.direction.id] = 1; });
+      if (res.unexpected) have[res.unexpected.direction.id] = 1;
+      var extra = G.directions
+        .filter(function (d) { return (ID.dismissed || []).indexOf(d.id) === -1 && !have[d.id]; })
+        .map(function (d) { return F.analyseDirection(ID, d, lang()); })
+        .filter(function (r2) { return r2.evidence.length; })
+        .sort(function (a, b) { return b.evidence.length - a.evidence.length || b.alignment - a.alignment; })
+        .slice(0, 5 - res.shown.length);
+      if (extra.length) { res.shown = res.shown.concat(extra); res.thin = true; }
+    }
     var cards = res.shown.map(function (r) { return dirCard(r, false); });
     if (res.unexpected) cards.push(dirCard(res.unexpected, true));
+    if (res.thin) cards.unshift('<p class="note3" style="margin-bottom:14px">' +
+      t('These come from what your document showed. Nothing yet says what would push you away from them — the working-style questions below are what surface that.',
+        'Ini berasal dari apa yang ditunjukkan dokumenmu. Belum ada yang menunjukkan apa yang justru menjauhkanmu — pertanyaan gaya kerja di bawah yang memunculkannya.') + '</p>');
     host.innerHTML = head + '<div style="max-width:680px">' + cards.join('') + '</div>' + disclaimer();
     wireDirCards(host);
   }
@@ -1522,7 +1652,6 @@
     }
     var recs = recommendedRows();
     host.innerHTML =
-      '<img class="vmap peak" src="../../assets/nav-mountain.png" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Your Range', 'Bentangmu') + '</h1>' +
       '<p class="h-sub">' + t('The possibilities you’re currently tracking — and why they’re yours.', 'Kemungkinan yang sedang kamu pantau — dan mengapa itu milikmu.') + '</p>' +
       '<div style="max-width:720px">' +

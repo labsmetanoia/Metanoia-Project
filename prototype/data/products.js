@@ -29,7 +29,7 @@ export const PILLARS = [
        capabilities now live at /products/the-map/#/… as an integrated section.
        The name stays live as a feature identity, not a standalone product. */
     integrates: {
-      name: { en: 'The Range', id: 'Bentang' },
+      name: { en: 'The Range (Explore)', id: 'The Range (Explore)' },
       definition: { en: 'Career & opportunity exploration', id: 'Penjelajahan karier & peluang' },
       route: '/products/the-map/#/home'
     },
