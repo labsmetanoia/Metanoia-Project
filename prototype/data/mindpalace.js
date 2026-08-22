@@ -30,12 +30,15 @@ window.MT_MP = (function () {
       desc: L('Internships, scholarships and programmes — dated, linked, verified.', 'Magang, beasiswa, dan program — bertanggal, tertaut, terverifikasi.') }
   ];
 
+  /* Editorial formats — each is a different reading experience, not a folder.
+     Roadmap formats (Field Note, Toolkit, Career Brief) join only when real
+     content of that kind exists; we never ship an empty format. */
   var FORMATS = {
-    guide: L('Guide', 'Panduan'),
+    guide: L('Playbook', 'Playbook'),
     explainer: L('Explainer', 'Penjelas'),
-    data: L('Data', 'Data'),
+    data: L('Signal', 'Sinyal'),
     perspective: L('Perspective', 'Perspektif'),
-    radar: L('Radar', 'Radar')
+    radar: L('Opportunity', 'Peluang')
   };
 
   var STAGES = {
@@ -44,6 +47,23 @@ window.MT_MP = (function () {
     'early-professional': L('Early professional', 'Profesional awal'),
     'mature-professional': L('Experienced professional', 'Profesional berpengalaman')
   };
+
+  /* Need-based doors: the hub is organized around the reader's question,
+     not our internal taxonomy. Each need maps onto registry topics. */
+  var NEEDS = [
+    { id: 'understand', topics: ['career'],
+      q: L('I want to understand my career', 'Aku ingin memahami karierku'),
+      sub: L('Direction, transitions, paths and industry exploration.', 'Arah, transisi, jalur, dan eksplorasi industri.') },
+    { id: 'hired', topics: ['recruitment'],
+      q: L('I want to get hired', 'Aku ingin lolos rekrutmen'),
+      sub: L('CV, applications, assessments and interviews.', 'CV, lamaran, asesmen, dan wawancara.') },
+    { id: 'better', topics: ['skills', 'worklife'],
+      q: L('I want to become better', 'Aku ingin menjadi lebih baik'),
+      sub: L('Skills, communication, habits and AI at work.', 'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.') },
+    { id: 'market', topics: ['market'],
+      q: L('I want to understand the market', 'Aku ingin memahami pasar'),
+      sub: L('Industries, companies and the labour market, read honestly.', 'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.') }
+  ];
 
   var AUTHOR = L('Metanoia Editorial', 'Metanoia Editorial');
 
@@ -66,6 +86,12 @@ window.MT_MP = (function () {
     ],
     why: L('Every company you apply to with weak materials is a company you usually cannot apply to again this cycle. The applicant pool is scored once; first impressions are literal.',
            'Setiap perusahaan yang kamu lamar dengan materi lemah biasanya tidak bisa dilamar lagi pada siklus yang sama. Kandidat dinilai sekali; kesan pertama berlaku harfiah.'),
+    means: {
+      'student': L('The same sequence wins internship hunts — aim, build materials, then apply in ranked waves, at smaller scale.',
+                   'Urutan yang sama memenangkan perburuan magang — bidik, bangun materi, lalu melamar dalam gelombang berperingkat, dalam skala lebih kecil.'),
+      'fresh-graduate': L('Your first cycle burns the most valuable targets fastest — plan the 90 days before sending anything.',
+                          'Siklus pertamamu menghanguskan target paling berharga paling cepat — rencanakan 90 hari sebelum mengirim apa pun.')
+    },
     act: [
       L('Days 1–14 — aim before you fire. Decide the two or three directions you are actually pursuing (not "anything"). Write the target list: 30 companies, ranked, with the 10 best explicitly reserved for later.',
         'Hari 1–14 — bidik sebelum menembak. Tentukan dua-tiga arah yang benar-benar kamu kejar (bukan "apa saja"). Susun daftar target: 30 perusahaan, berperingkat, dengan 10 terbaik sengaja disimpan untuk nanti.'),
@@ -103,6 +129,14 @@ window.MT_MP = (function () {
     ],
     why: L('Time spent gaming an imaginary algorithm is time not spent on the two failures that are real, common, and completely fixable before your next application.',
            'Waktu yang dihabiskan mengakali algoritme khayalan adalah waktu yang tidak dipakai memperbaiki dua kegagalan yang nyata, umum, dan sepenuhnya bisa dibereskan sebelum lamaran berikutnya.'),
+    means: {
+      'student': L('Make your internship CV parseable now — the formatting habits carry into every later application.',
+                   'Buat CV magangmu terbaca mesin sekarang — kebiasaan format ini terbawa ke setiap lamaran berikutnya.'),
+      'fresh-graduate': L('Before blaming an algorithm for silence, run the parse check — it is usually the fixable failure.',
+                          'Sebelum menyalahkan algoritme atas keheningan, jalankan uji parsing — biasanya itulah kegagalan yang bisa diperbaiki.'),
+      'early-professional': L('Your experience only counts if the parser can read it — mirror the vacancy’s words for skills you actually have.',
+                              'Pengalamanmu hanya dihitung jika parser bisa membacanya — cerminkan kata-kata lowongan untuk keahlian yang benar-benar kamu miliki.')
+    },
     act: [
       L('Fix parseability: single column, standard section names, no text in images or headers, exported as a text-based PDF. If you can select the text in your PDF, a parser usually can too.',
         'Perbaiki keterbacaan mesin: satu kolom, nama bagian standar, tanpa teks dalam gambar atau header, diekspor sebagai PDF berbasis teks. Jika teks PDF-mu bisa diblok, parser biasanya juga bisa membacanya.'),
@@ -135,6 +169,14 @@ window.MT_MP = (function () {
     ],
     why: L('Case-style rounds have spread far beyond consulting — group cases and business problems appear across the management-trainee and analyst processes documented in our database.',
            'Ronde bergaya kasus sudah menyebar jauh melampaui konsultan — kasus kelompok dan masalah bisnis muncul di berbagai proses management trainee dan analis yang terdokumentasi di basis data kami.'),
+    means: {
+      'student': L('Start the ten-minute arithmetic habit now — fluency compounds long before your first case round.',
+                   'Mulai kebiasaan aritmetika sepuluh menit sekarang — kefasihan terakumulasi jauh sebelum ronde kasus pertamamu.'),
+      'fresh-graduate': L('Expect case-style rounds beyond consulting — management-trainee and analyst processes use them too.',
+                          'Antisipasi ronde bergaya kasus di luar konsultan — proses management trainee dan analis juga memakainya.'),
+      'early-professional': L('Your work stories are case material — practise structuring them out loud, not just recalling them.',
+                              'Cerita kerjamu adalah bahan kasus — latih menstrukturkannya bersuara, bukan sekadar mengingatnya.')
+    },
     act: [
       L('Learn one spine, not ten frameworks: clarify the question → state a structure with 2–4 branches → pick a branch with a reason → do the arithmetic out loud → answer the question that was asked.',
         'Pelajari satu tulang punggung, bukan sepuluh kerangka: klarifikasi pertanyaan → nyatakan struktur dengan 2–4 cabang → pilih satu cabang dengan alasan → kerjakan hitungannya bersuara → jawab pertanyaan yang memang ditanyakan.'),
@@ -172,6 +214,16 @@ window.MT_MP = (function () {
     ],
     why: L('The differentiator employers describe is not tool knowledge — tools change quarterly — but the judgement to use them on real work without outsourcing responsibility for the result.',
            'Pembeda yang digambarkan pemberi kerja bukan pengetahuan alat — alat berganti tiap kuartal — melainkan penilaian untuk memakainya pada pekerjaan nyata tanpa menyerahkan tanggung jawab atas hasilnya.'),
+    means: {
+      'student': L('Start building AI literacy on coursework you already do — one rebuilt task beats a certificate list.',
+                   'Mulai bangun literasi AI pada tugas kuliah yang sudah kamu kerjakan — satu tugas yang dibangun ulang mengalahkan daftar sertifikat.'),
+      'fresh-graduate': L('Learn to demonstrate AI-enabled productivity in interviews: the task, the failure you caught, the time saved.',
+                          'Belajarlah menunjukkan produktivitas berbantuan AI di wawancara: tugasnya, kegagalan yang kamu tangkap, waktu yang dihemat.'),
+      'early-professional': L('Redesign one workflow you own so the tool does the repetitive part — then own the accountable part loudly.',
+                              'Rancang ulang satu alur kerja milikmu agar alat mengerjakan bagian repetitif — lalu pegang bagian yang dipertanggungjawabkan dengan jelas.'),
+      'mature-professional': L('Map which parts of your role are becoming automatable, and move your value toward judgement and domain depth.',
+                               'Petakan bagian mana dari peranmu yang mulai bisa diotomatisasi, dan geser nilaimu ke penilaian dan kedalaman domain.')
+    },
     act: [
       L('Pick one recurring task from your studies or work and rebuild it with an AI tool in the loop. Document before/after honestly, including where the tool failed. That document is interview material.',
         'Pilih satu tugas berulang dari kuliah atau pekerjaanmu dan bangun ulang dengan alat AI di dalamnya. Dokumentasikan sebelum/sesudah secara jujur, termasuk di mana alat itu gagal. Dokumen itu adalah bahan wawancara.'),
@@ -206,6 +258,12 @@ window.MT_MP = (function () {
     ],
     why: L('The hours a decimal of GPA costs are enormous at the margin. The same hours produce two portfolio pieces — and portfolio pieces compound into interview stories, while decimals do not.',
            'Jam yang dibutuhkan untuk satu desimal IPK sangat besar di titik marginal. Jam yang sama menghasilkan dua karya portofolio — dan karya portofolio berbunga menjadi cerita wawancara, sementara desimal tidak.'),
+    means: {
+      'student': L('Above the published thresholds, redirect marginal study-hours into two finished, visible pieces of work.',
+                   'Di atas ambang terpublikasi, alihkan jam belajar marginal ke dua karya selesai yang terlihat.'),
+      'fresh-graduate': L('If your GPA is set, your portfolio is the variable you still control — build proof, then narrate it.',
+                          'Jika IPK-mu sudah final, portofolio adalah variabel yang masih bisa kamu kendalikan — bangun bukti, lalu ceritakan.')
+    },
     act: [
       L('Protect the threshold first: know the published GPA minimums of your target programmes and stay safely above the highest one. Below threshold, GPA is the priority; above it, stop optimising.',
         'Amankan ambangnya dulu: ketahui IPK minimum terpublikasi dari program targetmu dan tetap aman di atas yang tertinggi. Di bawah ambang, IPK adalah prioritas; di atasnya, berhenti mengoptimalkan.'),
@@ -238,6 +296,14 @@ window.MT_MP = (function () {
     ],
     why: L('Preparation time is finite. Aiming it at what stages test — rather than at everything a vacancy lists — is the highest-leverage reallocation most candidates can make.',
            'Waktu persiapan itu terbatas. Mengarahkannya pada yang diuji tiap tahap — bukan pada semua yang tercantum di lowongan — adalah realokasi paling berdaya ungkit yang bisa dilakukan kebanyakan kandidat.'),
+    means: {
+      'student': L('Practise the transferable five before your first process — structure, numeracy and stories are trainable now.',
+                   'Latih lima kemampuan lintas bidang sebelum proses pertamamu — struktur, kecakapan angka, dan cerita bisa dilatih sekarang.'),
+      'fresh-graduate': L('Prepare stage by stage, not vacancy by vacancy — six verifiable stories cover most behavioural rounds.',
+                          'Bersiaplah per tahap, bukan per lowongan — enam cerita terverifikasi mencakup sebagian besar ronde perilaku.'),
+      'early-professional': L('Assessments reappear at every switch — keep the story bank current with dated, numbered wins.',
+                              'Asesmen muncul lagi di setiap perpindahan — jaga bank cerita tetap mutakhir dengan pencapaian bertanggal dan berangka.')
+    },
     act: [
       L('Map your target companies’ stages first (documented where available, clearly-labelled typical otherwise), then prepare stage by stage instead of vacancy by vacancy.',
         'Petakan dulu tahapan perusahaan targetmu (terdokumentasi bila tersedia, berlabel "umum" bila tidak), lalu bersiap per tahap alih-alih per lowongan.'),
@@ -275,6 +341,12 @@ window.MT_MP = (function () {
     ],
     why: L('People rarely regret an industry; they regret discovering its trade-offs after joining. Every industry’s trade-offs are knowable in advance — they are just rarely asked about.',
            'Orang jarang menyesali industri; mereka menyesal menemukan kompromi industri itu setelah bergabung. Kompromi setiap industri bisa diketahui di muka — hanya saja jarang ditanyakan.'),
+    means: {
+      'student': L('Use internships to test the curriculum question cheaply — one semester can rule an industry in or out.',
+                   'Gunakan magang untuk menguji pertanyaan kurikulum dengan murah — satu semester bisa memasukkan atau mencoret sebuah industri.'),
+      'fresh-graduate': L('Pick the default skills you want compounding first — then investigate two industries one level deeper.',
+                          'Pilih keahlian bawaan yang ingin kamu tumbuhkan lebih dulu — lalu selidiki dua industri satu tingkat lebih dalam.')
+    },
     act: [
       L('Ask the curriculum question: list the three skills each candidate industry would build in you by default in two years. Choose the list you want to own.',
         'Ajukan pertanyaan kurikulum: tulis tiga keahlian yang otomatis dibangun tiap industri kandidat dalam dua tahun. Pilih daftar yang ingin kamu miliki.'),
@@ -308,6 +380,12 @@ window.MT_MP = (function () {
     ],
     why: L('Mis-diagnosed pivots repeat: the same dread reappears in the new field once its novelty fades, now with the switching costs already paid.',
            'Pindah jalur yang salah diagnosis akan berulang: rasa berat yang sama muncul lagi di bidang baru begitu kebaruannya pudar, dengan biaya perpindahan yang telanjur dibayar.'),
+    means: {
+      'early-professional': L('Run the three-substitution test before paying switching costs — most dread has a cheaper cause.',
+                              'Jalankan uji tiga substitusi sebelum membayar biaya perpindahan — kebanyakan rasa berat punya penyebab yang lebih murah.'),
+      'mature-professional': L('If the work itself fails the test, pivot by adjacency: keep industry or function, change the other.',
+                               'Jika pekerjaannya sendiri gagal dalam uji itu, berpindahlah secara bersebelahan: pertahankan industri atau fungsi, ubah yang lain.')
+    },
     act: [
       L('Run the three-substitution test honestly, in writing. Manager, company, rest — cheapest first.',
         'Jalankan uji tiga substitusi dengan jujur, secara tertulis. Manajer, perusahaan, istirahat — yang termurah lebih dulu.'),
@@ -343,6 +421,12 @@ window.MT_MP = (function () {
     ],
     why: L('MT tracks appear across banking, FMCG, telecommunications and state-owned enterprises in our database — for many fresh graduates they are the single most common structured entry point, which makes their trade-offs everyone’s business.',
            'Jalur MT muncul di perbankan, FMCG, telekomunikasi, dan BUMN dalam basis data kami — bagi banyak fresh graduate ini titik masuk terstruktur paling umum, sehingga kompromi-kompromnya penting bagi semua orang.'),
+    means: {
+      'student': L('Check the published eligibility rules early — age caps and GPA minimums are set before you graduate.',
+                   'Periksa aturan kelayakan terpublikasi sejak awal — batas usia dan IPK minimum sudah ditetapkan sebelum kamu lulus.'),
+      'fresh-graduate': L('Choose MT for deliberate breadth; if you already know your function, direct entry often compounds faster.',
+                          'Pilih MT untuk keluasan yang disengaja; jika sudah tahu fungsimu, masuk langsung sering bertumbuh lebih cepat.')
+    },
     act: [
       L('Choose MT for breadth-before-depth on purpose, not because the brochure was shiny. If you already know your function, a direct functional entry often compounds faster.',
         'Pilih MT untuk keluasan-sebelum-kedalaman secara sengaja, bukan karena brosurnya mengilap. Jika kamu sudah tahu fungsimu, masuk langsung ke fungsi sering bertumbuh lebih cepat.'),
@@ -376,6 +460,16 @@ window.MT_MP = (function () {
     ],
     why: L('Interviewers can tell within minutes whether your research answered questions or collected trivia — and your own decision quality depends on the same four answers.',
            'Pewawancara bisa tahu dalam hitungan menit apakah risetmu menjawab pertanyaan atau mengoleksi trivia — dan kualitas keputusanmu sendiri bergantung pada empat jawaban yang sama.'),
+    means: {
+      'student': L('Run the four boxes on employers at career fairs — one page beats a stack of brochures.',
+                   'Jalankan empat kotak pada pemberi kerja di bursa karier — satu halaman mengalahkan setumpuk brosur.'),
+      'fresh-graduate': L('Do the evening routine before every application in your top ten — it doubles as interview preparation.',
+                          'Jalankan rutinitas satu malam sebelum tiap lamaran di sepuluh besar targetmu — sekaligus menjadi persiapan wawancara.'),
+      'early-professional': L('Apply the same four questions to your own employer yearly — box two tells you whether to stay.',
+                              'Terapkan empat pertanyaan yang sama pada pemberi kerjamu sendiri tiap tahun — kotak kedua memberitahumu layak bertahan atau tidak.'),
+      'mature-professional': L('At senior levels, box two is the interview: come with a view on the company’s next bet.',
+                               'Di level senior, kotak kedua adalah wawancaranya: datanglah dengan pandangan tentang taruhan berikutnya perusahaan.')
+    },
     act: [
       L('One evening, four boxes, one page. Write a sentence per question; if you cannot, that is your remaining research, precisely scoped.',
         'Satu malam, empat kotak, satu halaman. Tulis satu kalimat per pertanyaan; jika tidak bisa, itulah sisa risetmu, dengan cakupan yang presisi.'),
@@ -410,6 +504,12 @@ window.MT_MP = (function () {
     ],
     why: L('Trust is the currency that buys interesting work. Interesting work is what builds the skills that build a career. The chain starts with etiquette, which is why it is not trivial.',
            'Kepercayaan adalah mata uang yang membeli pekerjaan menarik. Pekerjaan menarik membangun keahlian yang membangun karier. Rantainya dimulai dari etiket — karena itu ia tidak sepele.'),
+    means: {
+      'fresh-graduate': L('Install the four habits in month one — reputations set early and compound either way.',
+                          'Pasang empat kebiasaan itu di bulan pertama — reputasi terbentuk sejak awal dan terakumulasi ke arah mana pun.'),
+      'early-professional': L('Audit which loops you close loudly and which slip silently — the gap is your reputation risk.',
+                              'Audit siklus mana yang kamu tutup dengan jelas dan mana yang meleset diam-diam — celah itulah risiko reputasimu.')
+    },
     act: [
       L('Close loops loudly: every task ends with a message saying it ended, what changed, and where the result lives.',
         'Tutup setiap siklus dengan jelas: tiap tugas diakhiri pesan yang menyatakan tugas selesai, apa yang berubah, dan di mana hasilnya berada.'),
@@ -443,6 +543,14 @@ window.MT_MP = (function () {
     ],
     why: L('Most opportunity moves through people before it reaches any portal — not as corruption but as trust reducing hiring risk. Being findable and specific is how you enter that flow honestly.',
            'Sebagian besar peluang mengalir lewat orang sebelum tiba di portal mana pun — bukan sebagai kecurangan, melainkan karena kepercayaan menurunkan risiko perekrutan. Menjadi mudah ditemukan dan spesifik adalah cara masuk ke aliran itu secara jujur.'),
+    means: {
+      'student': L('Two specific questions a month, starting with alumni — the ledger you keep now is a career asset.',
+                   'Dua pertanyaan spesifik per bulan, mulai dari alumni — buku besar yang kamu simpan sekarang adalah aset karier.'),
+      'fresh-graduate': L('Aim questions at people two years ahead of you — they remember the gap you are standing in.',
+                          'Arahkan pertanyaan ke orang yang dua tahun di depanmu — mereka masih ingat jurang tempatmu berdiri sekarang.'),
+      'early-professional': L('Start answering as well as asking — being findable and generous enters you into the flow from the other side.',
+                              'Mulailah menjawab, bukan hanya bertanya — menjadi mudah ditemukan dan murah hati memasukkanmu ke aliran itu dari sisi lain.')
+    },
     act: [
       L('Two specific questions to two relevant people per month. Sustainable and compounding beats a burst of fifty connection requests.',
         'Dua pertanyaan spesifik kepada dua orang relevan per bulan. Berkelanjutan dan terakumulasi mengalahkan ledakan lima puluh permintaan koneksi.'),
@@ -475,6 +583,16 @@ window.MT_MP = (function () {
     ],
     why: L('If your target function only has doors in certain industries, that is worth knowing before you aim — and if a function opens doors everywhere, it is a more resilient first skill-set than its glamour suggests.',
            'Jika fungsi targetmu hanya punya pintu di industri tertentu, itu layak diketahui sebelum membidik — dan jika sebuah fungsi membuka pintu di mana-mana, ia bekal awal yang lebih tangguh daripada kesan gemerlapnya.'),
+    means: {
+      'student': L('Count the doors of the function you are studying toward — breadth now is pivot insurance later.',
+                   'Hitung pintu fungsi yang sedang kamu tuju lewat kuliah — keluasan sekarang adalah asuransi pivot kelak.'),
+      'fresh-graduate': L('Target the industries where your function’s doors actually are, not just where its glamour is.',
+                          'Bidik industri tempat pintu fungsimu benar-benar berada, bukan sekadar tempat gemerlapnya.'),
+      'early-professional': L('Function breadth prices your pivot: moving within a wide function costs less than changing function.',
+                              'Keluasan fungsi menentukan harga pivotmu: berpindah di dalam fungsi yang luas lebih murah daripada berganti fungsi.'),
+      'mature-professional': L('Wide-door functions read as resilient seniority — narrow ones concentrate risk in one industry’s cycle.',
+                               'Fungsi berpintu lebar berarti senioritas yang tangguh — fungsi sempit memusatkan risiko pada siklus satu industri.')
+    },
     act: [
       L('Read the chart below against your own target function: count its doors, note its industries.',
         'Baca grafik di bawah terhadap fungsi targetmu sendiri: hitung pintunya, catat industrinya.'),
@@ -531,5 +649,5 @@ window.MT_MP = (function () {
       checked: '2026-08-17', url: 'https://www.bi.go.id/id/karir' }
   ];
 
-  return { TOPICS: TOPICS, FORMATS: FORMATS, STAGES: STAGES, ARTICLES: ARTICLES, RADAR: RADAR };
+  return { TOPICS: TOPICS, FORMATS: FORMATS, STAGES: STAGES, NEEDS: NEEDS, ARTICLES: ARTICLES, RADAR: RADAR };
 })();
