@@ -283,3 +283,63 @@ switch, theme, chart-source label, mobile overflow, and zero page errors.
 
 *Maintained by Metanoia Editorial. Changes to taxonomy or editorial rules amend this
 document first, then the registry.*
+
+---
+
+## 16. v2 revision — from content library to professional intelligence layer
+
+Adopted in full from stakeholder review (2026-08-22). The north star changed:
+Mind Palace is not Metanoia's content page; it is Metanoia's professional
+intelligence layer. The value chain it must serve on every surface is
+**information → insight → personal relevance → action → Metanoia product**.
+
+### 16.1 Positioning
+Brand line (Option A, chosen for simplicity and scalability):
+**"Mind Palace — Your guide to the professional world."** Supporting message:
+insights, opportunities and practical knowledge from first opportunity to next
+move. The hero leads with this plus a central search and two doors:
+Explore insights / Explore opportunities.
+
+### 16.2 Homepage storyline (replaces §5 ordering)
+1. **Hero + central search** — the search is the product's front door, framed
+   as "What are you trying to figure out?" with example questions.
+2. **What's worth knowing now** — explicit insight hierarchy: Tier 1 featured
+   insight (large), Tier 2 three featured reads (medium), so curation is
+   visible; nothing renders with equal weight.
+3. **The professional signals** — short, visual, data-first tiles. Every
+   figure is computed live from Metanoia's own database with provenance on the
+   tile; the signature section stays honest by construction.
+4. **Explore by what you need** — need-based doors replace content-type
+   navigation: *understand my career / get hired / become better / understand
+   the market*. Topics remain as the underlying taxonomy and as secondary
+   navigation.
+5. **Opportunities worth exploring** — the radar promoted to a first-class
+   tabbed module (graduate programmes / internships / scholarships / joint
+   recruitment) with a built-in bridge into The Range (Explore).
+6. **Practical playbooks** — the how-to shelf.
+7. **Perspectives** — opinion pieces; community and practitioner voices are on
+   the roadmap and the shelf says so instead of staging fake contributors.
+8. **Latest from Mind Palace** — dense chronological editorial list (long tail).
+9. **Your next move** — personalized, deterministic routing into the next
+   pillar (Career Identity → See What Fits → The Pack / The Rope), with the
+   selection logic explained on the surface. Read → explore → prepare →
+   practise is the ecosystem chain, not "related articles".
+
+### 16.3 Article frame v2
+The frame gains a mandatory personal-relevance layer between judgement and
+action: **What is happening → Why it matters → (What the data says) → What
+this means for you → What to do.** "What this means for you" is written per
+reader stage; the reader's chosen stage is highlighted. This is the layer that
+makes a piece distinctly Metanoia rather than generic career content.
+
+### 16.4 Formats as reading experiences
+Formats are renamed to editorial products: **Playbook** (step-by-step),
+**Explainer**, **Signal** (short data-driven), **Perspective**, **Opportunity**
+(radar entries). Roadmap formats — Field Note, Toolkit, Career Brief — join
+only when real content of that kind exists; an empty format never ships.
+
+### 16.5 Search as the front door
+Search results group **Insights · Opportunities · Do it in Metanoia** so a
+query can resolve to reading, to a programme, or to the product where the work
+happens. Example questions seed the empty state.
+
