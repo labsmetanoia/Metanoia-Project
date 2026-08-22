@@ -91,11 +91,24 @@
   function meta(a) {
     return '<div class="meta">' + fdate(a.date) + ' · ' + a.minutes + ' ' + t('min read', 'menit baca') + '</div>';
   }
-  function openBtn(a, inner, cls) {
-    return '<button class="card-a ' + (cls || '') + '" data-read="' + a.slug + '">' + inner + '</button>';
+  function openBtn(a, inner, cls, di) {
+    return '<button class="card-a ' + (cls || '') + '"' +
+      (di ? ' style="transition-delay:' + (di * 70) + 'ms"' : '') +
+      ' data-read="' + a.slug + '">' + inner + '</button>';
   }
-  /* Abstract artwork per topic — generated geometry, no stock imagery. */
+  /* Topic-mapped photography from the platform's curated inventory. */
+  function cardImg(a) {
+    if (!a.img) return '';
+    return '<div class="card-img"><img src="' + a.img + '" alt="' + esc(T(a.title)) + '" loading="lazy" decoding="async"></div>';
+  }
+  /* Lead artwork: the piece's photograph; generated geometry only as fallback. */
   function artwork(a) {
+    if (a.img) {
+      return '<div class="artwork photo" aria-hidden="true"><img src="' + a.img + '" alt="" decoding="async"></div>';
+    }
+    return artworkSvg(a);
+  }
+  function artworkSvg(a) {
     var tp = topicOf[a.topic], c = tp.accent, seed = a.slug.length;
     var lines = '';
     for (var i = 0; i < 7; i++) {
@@ -299,9 +312,12 @@
     ];
 
     document.getElementById('v-home').innerHTML =
-      '<div class="wrap"><header class="masthead">' +
+      '<header class="mp-hero">' +
+      '<div class="mp-hero-bg"><img src="../assets/bg/hero.jpg" alt="" decoding="async"></div>' +
+      '<div class="mp-hero-veil"></div>' +
+      '<div class="wrap mp-hero-in">' +
       '<div class="mast-kicker">Mind Palace</div>' +
-      '<h1 class="mast-title">' + t('Your guide to the<br>professional world.', 'Pemandumu di<br>dunia profesional.') + '</h1>' +
+      '<h1 class="mast-title">' + t('Your guide to the <em>professional world.</em>', 'Pemandumu di <em>dunia profesional.</em>') + '</h1>' +
       '<p class="mast-sub">' + t('Insights, opportunities and practical knowledge to help you navigate your career — from your first opportunity to your next move.',
         'Wawasan, peluang, dan pengetahuan praktis untuk membantumu menavigasi karier — dari kesempatan pertama sampai langkah berikutnya.') + '</p>' +
       '<button class="hsearch" id="heroSearch"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7.5"/><path d="m16.8 16.8 4 4"/></svg>' +
@@ -313,7 +329,7 @@
       '<button class="btn pri" data-jump="worth">' + t('Explore insights', 'Jelajahi wawasan') + '</button>' +
       '<button class="btn" data-jump="opps">' + t('Explore opportunities', 'Jelajahi peluang') + '</button></div>' +
       '<div class="mast-row">' + stageChips + '</div>' +
-      '</header></div>' +
+      '</div></header>' +
       topicTabs +
       '<div class="wrap">' +
 
@@ -322,9 +338,9 @@
       openBtn(lead,
         '<div class="lead"><div>' + kicker(lead) + '<h3>' + esc(T(lead.title)) + '</h3>' +
         '<p class="dek">' + esc(T(lead.dek)) + '</p>' + meta(lead) + '</div>' + artwork(lead) + '</div>') +
-      '<div class="grid3" style="border:none">' + tier2.map(function (a) {
-        return openBtn(a, '<div class="c3">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
-          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>');
+      '<div class="grid3" style="border:none">' + tier2.map(function (a, i) {
+        return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
+          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal', i);
       }).join('') + '</div></section>' +
 
       /* 3 — the professional signals */
@@ -333,10 +349,12 @@
 
       /* 4 — explore by what you need */
       '<section class="sec reveal">' + secH(t('Explore by what you need', 'Jelajahi sesuai kebutuhanmu')) +
-      '<div class="needs">' + MP.NEEDS.map(function (n) {
+      '<div class="needs">' + MP.NEEDS.map(function (n, i) {
         var cnt = A.filter(function (a) { return n.topics.indexOf(a.topic) !== -1; }).length;
-        return '<button class="needcard" data-need="' + n.id + '"><h3>' + esc(T(n.q)) + '</h3>' +
-          '<p>' + esc(T(n.sub)) + '</p><span class="cnt">' + cnt + ' ' + t('pieces →', 'artikel →') + '</span></button>';
+        return '<button class="needcard reveal" style="transition-delay:' + (i * 70) + 'ms" data-need="' + n.id + '">' +
+          (n.img ? '<div class="card-img"><img src="' + n.img + '" alt="" loading="lazy" decoding="async"></div>' : '') +
+          '<div class="nc-in"><h3>' + esc(T(n.q)) + '</h3>' +
+          '<p>' + esc(T(n.sub)) + '</p><span class="cnt">' + cnt + ' ' + t('pieces →', 'artikel →') + '</span></div></button>';
       }).join('') + '</div></section>' +
 
       /* 5 — opportunities worth exploring */
@@ -345,15 +363,16 @@
 
       /* 6 — practical playbooks */
       '<section class="sec reveal">' + secH(t('Practical playbooks', 'Playbook praktis')) +
-      '<div class="rail">' + playbooks.map(function (a) {
-        return openBtn(a, '<div class="railcard">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' + meta(a) + '</div>');
+      '<div class="rail">' + playbooks.map(function (a, i) {
+        return openBtn(a, '<div class="railcard">' + cardImg(a) + '<div class="rc-in">' + kicker(a) +
+          '<h3>' + esc(T(a.title)) + '</h3>' + meta(a) + '</div></div>', 'reveal', i);
       }).join('') + '</div></section>' +
 
       /* 7 — perspectives */
       '<section class="sec reveal">' + secH(t('Perspectives', 'Perspektif')) +
-      '<div class="grid3" style="border:none;padding-top:0">' + perspectives.map(function (a) {
-        return openBtn(a, '<div class="c3">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
-          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>');
+      '<div class="grid3" style="border:none;padding-top:0">' + perspectives.map(function (a, i) {
+        return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
+          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal', i);
       }).join('') + '</div>' +
       '<p class="persnote">' + t('Practitioner and community perspectives are on the roadmap; until real contributors write here, this shelf stays small rather than staged.',
         'Perspektif praktisi dan komunitas ada di peta jalan; sampai kontributor nyata menulis di sini, rak ini dibiarkan kecil alih-alih dipentaskan.') + '</p></section>' +
@@ -362,6 +381,7 @@
       '<section class="sec reveal">' + secH(t('Latest from Mind Palace', 'Terbaru dari Mind Palace')) +
       '<div class="list">' + newest(A).map(function (a) {
         return '<button class="lrow card-a" data-read="' + a.slug + '">' +
+          '<span class="thumb"><img src="' + a.img + '" alt="" loading="lazy" decoding="async"></span>' +
           '<span>' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3></span>' + meta(a) + '</button>';
       }).join('') + '</div></section>' +
 
@@ -410,9 +430,9 @@
       '<div class="filters">' + need.topics.map(function (tid) {
         return '<a class="chip" style="text-decoration:none" href="#/topic/' + tid + '">' + esc(T(topicOf[tid].name)) + ' →</a>';
       }).join('') + '</div>' +
-      '<div class="grid3" style="border:none">' + list.map(function (a) {
-        return openBtn(a, '<div class="c3">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
-          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>');
+      '<div class="grid3" style="border:none">' + list.map(function (a, i) {
+        return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
+          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal in', i);
       }).join('') + '</div>';
     wireReads(host); wireBack(host);
   }
@@ -458,9 +478,9 @@
         return '<button class="chip' + (f.stage === k ? ' on' : '') + '" data-stg="' + k + '">' + esc(T(MP.STAGES[k])) + ' (' + stagesHere[k] + ')</button>';
       }).join('') + '</div>' +
       (shown.length
-        ? '<div class="grid3" style="border:none">' + newest(shown).map(function (a) {
-            return openBtn(a, '<div class="c3">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
-              '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>');
+        ? '<div class="grid3" style="border:none">' + newest(shown).map(function (a, i) {
+            return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
+              '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal in', i);
           }).join('') + '</div>'
         : '<div class="empty" style="margin-top:22px">' + t('Nothing matches this combination yet. The registry grows piece by piece — clear a filter, or browse the front page.',
             'Belum ada yang cocok dengan kombinasi ini. Registri tumbuh sedikit demi sedikit — hapus satu filter, atau jelajahi halaman depan.') + '</div>');
@@ -500,6 +520,7 @@
       '<span class="acts"><button class="savebtn' + (isSaved(slug) ? ' on' : '') + '" id="artSave">' +
       (isSaved(slug) ? t('Saved ✓', 'Tersimpan ✓') : t('Save', 'Simpan')) + '</button>' +
       '<button class="savebtn" id="artShare">' + t('Copy link', 'Salin tautan') + '</button></span></div>' +
+      (a.img ? '<div class="art-img"><img src="' + a.img + '" alt="' + esc(T(a.title)) + '" decoding="async"></div>' : '') +
       '<div class="body">' +
       '<div class="blockh">' + t('What is happening', 'Apa yang terjadi') + '</div>' +
       a.what.map(function (p) { return '<p>' + esc(T(p)) + '</p>'; }).join('') +
@@ -536,7 +557,7 @@
       (related.length
         ? '<div class="related">' + secH(t('More in ', 'Lainnya di ') + esc(T(tp.name)), '#/topic/' + tp.id, t('All', 'Semua')) +
           '<div class="grid3" style="border:none;padding-top:6px">' + related.map(function (r) {
-            return openBtn(r, '<div class="c3">' + kicker(r) + '<h3>' + esc(T(r.title)) + '</h3>' + meta(r) + '</div>');
+            return openBtn(r, '<div class="c3">' + cardImg(r) + kicker(r) + '<h3>' + esc(T(r.title)) + '</h3>' + meta(r) + '</div>');
           }).join('') + '</div></div>'
         : '') +
       '</article>';
@@ -563,7 +584,7 @@
     return '<section class="sec">' + secH(title) +
       (items.length
         ? '<div class="grid3" style="border:none;padding-top:0">' + items.map(function (a) {
-            return openBtn(a, '<div class="c3">' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' + meta(a) + '</div>');
+            return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' + meta(a) + '</div>');
           }).join('') + '</div>'
         : '<div class="empty">' + emptyMsg + '</div>') + '</section>';
   }
@@ -712,15 +733,15 @@
   function applyStaticLang() {
     document.querySelectorAll('[data-en]').forEach(function (el) {
       var v = el.dataset[lang];
-      if (v) el.textContent = v;
+      if (v != null) el.innerHTML = v;
     });
-    document.querySelectorAll('.lang button').forEach(function (b) {
-      b.classList.toggle('on', b.dataset.lang === lang);
+    document.querySelectorAll('.ctl button').forEach(function (b) {
+      b.setAttribute('aria-pressed', b.dataset.lang === lang ? 'true' : 'false');
     });
     sInput.placeholder = t('What are you trying to figure out?', 'Apa yang sedang ingin kamu pahami?');
     document.documentElement.lang = lang;
   }
-  document.querySelectorAll('.lang button').forEach(function (b) {
+  document.querySelectorAll('.ctl button').forEach(function (b) {
     b.addEventListener('click', function () {
       if (b.dataset.lang === lang) return;
       lang = b.dataset.lang;
