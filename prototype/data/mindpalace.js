@@ -51,16 +51,16 @@ window.MT_MP = (function () {
   /* Need-based doors: the hub is organized around the reader's question,
      not our internal taxonomy. Each need maps onto registry topics. */
   var NEEDS = [
-    { id: 'understand', topics: ['career'],
+    { id: 'understand', topics: ['career'], img: '../assets/m/03-climb.jpg',
       q: L('I want to understand my career', 'Aku ingin memahami karierku'),
       sub: L('Direction, transitions, paths and industry exploration.', 'Arah, transisi, jalur, dan eksplorasi industri.') },
-    { id: 'hired', topics: ['recruitment'],
+    { id: 'hired', topics: ['recruitment'], img: '../assets/bg/gauntlet/gate-05-hr-interview.jpg',
       q: L('I want to get hired', 'Aku ingin lolos rekrutmen'),
       sub: L('CV, applications, assessments and interviews.', 'CV, lamaran, asesmen, dan wawancara.') },
-    { id: 'better', topics: ['skills', 'worklife'],
+    { id: 'better', topics: ['skills', 'worklife'], img: '../assets/m/04-basecamp.jpg',
       q: L('I want to become better', 'Aku ingin menjadi lebih baik'),
       sub: L('Skills, communication, habits and AI at work.', 'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.') },
-    { id: 'market', topics: ['market'],
+    { id: 'market', topics: ['market'], img: '../assets/global-map.png',
       q: L('I want to understand the market', 'Aku ingin memahami pasar'),
       sub: L('Industries, companies and the labour market, read honestly.', 'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.') }
   ];
@@ -71,7 +71,7 @@ window.MT_MP = (function () {
 
   /* ═══════════ RECRUITMENT ═══════════ */
   {
-    slug: 'first-90-days-of-a-job-search', topic: 'recruitment', format: 'guide',
+    slug: 'first-90-days-of-a-job-search', img: '../assets/m/02-prep.jpg', topic: 'recruitment', format: 'guide',
     stages: ['fresh-graduate', 'student'], featured: true,
     date: '2026-08-14', reviewed: '2026-08-14', minutes: 7, author: AUTHOR,
     title: L('The first 90 days of a job search, planned like a project',
@@ -115,7 +115,7 @@ window.MT_MP = (function () {
   },
 
   {
-    slug: 'ats-myths-decoded', topic: 'recruitment', format: 'explainer',
+    slug: 'ats-myths-decoded', img: '../assets/bg/gauntlet/gate-02-screening.jpg', topic: 'recruitment', format: 'explainer',
     stages: ['student', 'fresh-graduate', 'early-professional'],
     date: '2026-08-10', reviewed: '2026-08-10', minutes: 5, author: AUTHOR,
     title: L('What an ATS actually does with your CV', 'Apa yang sebenarnya dilakukan ATS terhadap CV-mu'),
@@ -155,7 +155,7 @@ window.MT_MP = (function () {
   },
 
   {
-    slug: 'case-interview-anatomy', topic: 'recruitment', format: 'guide',
+    slug: 'case-interview-anatomy', img: '../assets/bg/gauntlet/gate-04-casestudy.jpg', topic: 'recruitment', format: 'guide',
     stages: ['student', 'fresh-graduate', 'early-professional'],
     date: '2026-07-28', reviewed: '2026-08-12', minutes: 6, author: AUTHOR,
     title: L('The case interview, dissected', 'Wawancara kasus, dibedah'),
@@ -199,7 +199,7 @@ window.MT_MP = (function () {
 
   /* ═══════════ SKILLS ═══════════ */
   {
-    slug: 'ai-at-work-what-to-actually-learn', topic: 'skills', format: 'guide',
+    slug: 'ai-at-work-what-to-actually-learn', img: '../assets/bg/stage-execution.jpg', topic: 'skills', format: 'guide',
     stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'], trending: true,
     date: '2026-08-16', reviewed: '2026-08-16', minutes: 6, author: AUTHOR,
     title: L('AI at work: what to actually learn (and what to skip)',
@@ -244,7 +244,7 @@ window.MT_MP = (function () {
   },
 
   {
-    slug: 'portfolio-over-gpa', topic: 'skills', format: 'perspective',
+    slug: 'portfolio-over-gpa', img: '../assets/bg/stage-foundation.jpg', topic: 'skills', format: 'perspective',
     stages: ['student', 'fresh-graduate'],
     date: '2026-08-05', reviewed: '2026-08-05', minutes: 5, author: AUTHOR,
     title: L('Two pieces of demonstrated work beat 0.2 of GPA', 'Dua karya nyata mengalahkan 0,2 poin IPK'),
@@ -282,7 +282,7 @@ window.MT_MP = (function () {
   },
 
   {
-    slug: 'skills-employers-test-2026', topic: 'skills', format: 'explainer',
+    slug: 'skills-employers-test-2026', img: '../assets/bg/gauntlet/gate-03-assessment.jpg', topic: 'skills', format: 'explainer',
     stages: ['student', 'fresh-graduate', 'early-professional'],
     date: '2026-07-20', reviewed: '2026-08-12', minutes: 5, author: AUTHOR,
     title: L('What entry-level hiring actually tests', 'Apa yang benar-benar diuji rekrutmen level awal'),
@@ -326,7 +326,7 @@ window.MT_MP = (function () {
   /* ═══════════ CAREER ═══════════ */
   ARTICLES.push(
   {
-    slug: 'choosing-a-first-industry', topic: 'career', format: 'guide',
+    slug: 'choosing-a-first-industry', img: '../assets/bg/stage-exploration.jpg', topic: 'career', format: 'guide',
     stages: ['student', 'fresh-graduate'], featured: 'secondary',
     date: '2026-08-08', reviewed: '2026-08-08', minutes: 6, author: AUTHOR,
     title: L('Choosing a first industry when everything looks the same',
@@ -366,7 +366,7 @@ window.MT_MP = (function () {
     ]
   },
   {
-    slug: 'career-pivot-readiness', topic: 'career', format: 'explainer',
+    slug: 'career-pivot-readiness', img: '../assets/m/06-horizon.jpg', topic: 'career', format: 'explainer',
     stages: ['early-professional', 'mature-professional'],
     date: '2026-07-15', reviewed: '2026-08-10', minutes: 6, author: AUTHOR,
     title: L('Ready to pivot, or just tired? A diagnostic', 'Siap pindah jalur, atau hanya lelah? Sebuah diagnosis'),
@@ -406,7 +406,7 @@ window.MT_MP = (function () {
   /* ═══════════ MARKET ═══════════ */
   ARTICLES.push(
   {
-    slug: 'management-trainee-programmes-explained', topic: 'market', format: 'explainer',
+    slug: 'management-trainee-programmes-explained', img: '../assets/bg/stage-activation.jpg', topic: 'market', format: 'explainer',
     stages: ['student', 'fresh-graduate'],
     date: '2026-08-02', reviewed: '2026-08-15', minutes: 6, author: AUTHOR,
     title: L('Management-trainee programmes, explained without the brochure',
@@ -446,7 +446,7 @@ window.MT_MP = (function () {
     ]
   },
   {
-    slug: 'reading-a-company-before-you-apply', topic: 'market', format: 'guide',
+    slug: 'reading-a-company-before-you-apply', img: '../assets/for-enterprise-image.jpg', topic: 'market', format: 'guide',
     stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'],
     date: '2026-07-24', reviewed: '2026-08-12', minutes: 5, author: AUTHOR,
     title: L('How to read a company in one evening', 'Cara membaca sebuah perusahaan dalam satu malam'),
@@ -490,7 +490,7 @@ window.MT_MP = (function () {
   /* ═══════════ WORKLIFE ═══════════ */
   ARTICLES.push(
   {
-    slug: 'first-year-professional-etiquette', topic: 'worklife', format: 'guide',
+    slug: 'first-year-professional-etiquette', img: '../assets/bg/stage-graduation.jpg', topic: 'worklife', format: 'guide',
     stages: ['fresh-graduate', 'early-professional'],
     date: '2026-08-06', reviewed: '2026-08-06', minutes: 5, author: AUTHOR,
     title: L('The unwritten rules of a first year, written down', 'Aturan tak tertulis tahun pertama, dituliskan'),
@@ -529,7 +529,7 @@ window.MT_MP = (function () {
     ]
   },
   {
-    slug: 'networking-without-cringe', topic: 'worklife', format: 'guide',
+    slug: 'networking-without-cringe', img: '../assets/bg/rope-team.jpg', topic: 'worklife', format: 'guide',
     stages: ['student', 'fresh-graduate', 'early-professional'],
     date: '2026-07-18', reviewed: '2026-08-08', minutes: 5, author: AUTHOR,
     title: L('Networking for people who hate networking', 'Membangun jejaring bagi yang benci networking'),
@@ -569,7 +569,7 @@ window.MT_MP = (function () {
 
   /* ═══════════ DATA (market, own-database piece) ═══════════ */
   ARTICLES.push({
-    slug: 'what-675-companies-tell-us', topic: 'market', format: 'data',
+    slug: 'what-675-companies-tell-us', img: '../assets/bg/map.jpg', topic: 'market', format: 'data',
     stages: ['student', 'fresh-graduate', 'early-professional', 'mature-professional'], featured: 'secondary', trending: true,
     date: '2026-08-17', reviewed: '2026-08-17', minutes: 4, author: AUTHOR,
     title: L('What 675 companies tell us about where the doors are', 'Yang diceritakan 675 perusahaan tentang letak pintu-pintu masuk'),
