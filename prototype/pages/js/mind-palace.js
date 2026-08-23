@@ -180,15 +180,38 @@
     var trainee = d.bars.filter(function (b) { return b.fn === 'trainee'; })[0];
     var whence = '<div class="whence">' + t('Metanoia opportunity database', 'Basis data peluang Metanoia') + '</div>';
     function nm(b) { return T(FN_NAMES[b.fn] || { en: b.fn, id: b.fn }); }
+    var ICONS = {
+      building: '<rect x="4" y="3.5" width="10" height="17" rx="1"/><path d="M14 9h6v11.5"/><path d="M7 7.5h1M10.5 7.5h1M7 11h1M10.5 11h1M7 14.5h1M10.5 14.5h1M3 20.5h18"/>',
+      door: '<path d="M5 20.5V5a1.5 1.5 0 0 1 1.5-1.5h11A1.5 1.5 0 0 1 19 5v15.5"/><path d="M9 20.5V8h6v12.5"/><circle cx="13.2" cy="14.5" r=".9"/><path d="M3 20.5h18"/>',
+      globe: '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.3 3.9 5.1 3.9 8.5s-1.3 6.2-3.9 8.5c-2.6-2.3-3.9-5.1-3.9-8.5S9.4 5.8 12 3.5Z"/>',
+      cap: '<path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/>'
+    };
+    function tile(icon, big, desc) {
+      return '<div class="sig"><div class="sg-row"><span class="sg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + ICONS[icon] + '</svg></span><b>' + big + '</b></div>' +
+        '<span>' + desc + '</span>' + whence + '</div>';
+    }
     return '<div class="signals">' +
-      '<div class="sig"><b>' + d.total + '</b><span>' + t('companies mapped — ' + d.idn + ' Indonesian, ' + d.intl + ' international', 'perusahaan terpetakan — ' + d.idn + ' Indonesia, ' + d.intl + ' internasional') + '</span>' + whence + '</div>' +
-      '<div class="sig"><b>' + top.companies + '</b><span>' + t('companies open a ' + nm(top) + ' door — the widest entry function we track', 'perusahaan membuka pintu ' + nm(top) + ' — fungsi masuk terluas yang kami petakan') + '</span>' + whence + '</div>' +
-      '<div class="sig"><b>' + breadth.industries + '/' + d.industries + '</b><span>' + t('industries where ' + nm(breadth) + ' roles appear — breadth is pivot insurance', 'industri tempat peran ' + nm(breadth) + ' muncul — keluasan adalah asuransi pivot') + '</span>' + whence + '</div>' +
-      '<div class="sig"><b>' + (trainee ? trainee.companies : 0) + '</b><span>' + t('companies run a structured trainee track', 'perusahaan menjalankan jalur trainee terstruktur') + '</span>' + whence + '</div>' +
-      '</div>' +
-      '<p class="persnote">' + t('Every figure is computed at page load from Metanoia’s own database — a curated map, not a market census. Open the full reading:',
-        'Setiap angka dihitung saat halaman dimuat dari basis data Metanoia sendiri — peta kurasi, bukan sensus pasar. Buka bacaan lengkapnya:') +
-      ' <button class="card-a" style="display:inline;color:var(--gold);font-weight:700" data-read="what-675-companies-tell-us">' + t('What 675 companies tell us →', 'Yang diceritakan 675 perusahaan →') + '</button></p>';
+      tile('building', d.total, t('companies mapped — ' + d.idn + ' Indonesian, ' + d.intl + ' international', 'perusahaan terpetakan — ' + d.idn + ' Indonesia, ' + d.intl + ' internasional')) +
+      tile('door', top.companies, t('companies open a ' + nm(top) + ' door — the widest entry function we track', 'perusahaan membuka pintu ' + nm(top) + ' — fungsi masuk terluas yang kami petakan')) +
+      tile('globe', breadth.industries + '/' + d.industries, t('industries where ' + nm(breadth) + ' roles appear — breadth is pivot insurance', 'industri tempat peran ' + nm(breadth) + ' muncul — keluasan adalah asuransi pivot')) +
+      tile('cap', (trainee ? trainee.companies : 0), t('companies run a structured trainee track', 'perusahaan menjalankan jalur trainee terstruktur')) +
+      '</div>';
+  }
+  /* Lead feature helpers: gold-italic phrase + the "inside this playbook" plan card. */
+  function emTitle(s) {
+    var w = esc(s).split(' ');
+    if (w.length < 5) return w.join(' ');
+    var head = w.slice(0, w.length - 3).join(' ');
+    return head + ' <em>' + w.slice(w.length - 3).join(' ') + '</em>';
+  }
+  function planCard(a) {
+    if (!a.act || !a.act.length) return '';
+    var steps = a.act.slice(0, 5).map(function (p, i) {
+      var label = T(p).split('.')[0];
+      if (label.length > 54) label = label.slice(0, 52) + '…';
+      return '<li><i>' + (i + 1) + '</i><span>' + esc(label) + '</span></li>';
+    }).join('');
+    return '<div class="lead-plan" aria-hidden="true"><b>' + t('Inside this playbook', 'Di dalam playbook ini') + '</b><ol>' + steps + '</ol></div>';
   }
 
   /* ── opportunities module (tabbed radar) ── */
@@ -388,18 +411,43 @@
       '<div class="wrap">' +
 
       /* 2 — what's worth knowing now */
-      '<section class="sec reveal" id="worth">' + secH(t('What’s worth knowing now', 'Yang layak diketahui sekarang')) +
-      openBtn(lead,
-        '<div class="lead"><div>' + kicker(lead) + '<h3>' + esc(T(lead.title)) + '</h3>' +
-        '<p class="dek">' + esc(T(lead.dek)) + '</p>' + meta(lead) + '</div>' + artwork(lead) + '</div>') +
+      '<section class="sec reveal" id="worth">' +
+      '<div class="sec-h"><h2><span class="sec-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z"/><path d="M19 15l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9Z"/></svg></span>' +
+      t('What’s worth knowing now', 'Yang layak diketahui sekarang') + '</h2><div class="rule"></div></div>' +
+      '<div class="lead2"><div>' + kicker(lead) +
+      '<h3>' + emTitle(T(lead.title)) + '</h3>' +
+      '<p class="dek">' + esc(T(lead.dek)) + '</p>' + meta(lead) +
+      '<div class="lead-cta">' +
+      '<button class="btn pri" data-read="' + lead.slug + '">' +
+      (lead.format === 'guide' ? t('Read the playbook', 'Baca playbook-nya') : t('Read the piece', 'Baca artikelnya')) + ' →</button>' +
+      '<button class="lead-save' + (isSaved(lead.slug) ? ' on' : '') + '" id="leadSave">' +
+      '<span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></span>' +
+      '<span id="leadSaveTx">' + (isSaved(lead.slug) ? t('Saved ✓', 'Tersimpan ✓') : t('Save for later', 'Simpan untuk nanti')) + '</span></button>' +
+      '</div></div>' +
+      '<div class="lead-media">' +
+      '<button class="card-a lm-img" data-read="' + lead.slug + '" aria-label="' + esc(T(lead.title)) + '">' +
+      '<img src="' + lead.img + '" alt="" decoding="async"></button>' +
+      planCard(lead) + '</div></div>' +
       '<div class="grid3" style="border:none">' + tier2.map(function (a, i) {
-        return openBtn(a, '<div class="c3">' + cardImg(a) + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
-          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div>', 'reveal', i);
+        var tp = topicOf[a.topic];
+        return openBtn(a, '<div class="c3 t2">' +
+          '<div class="card-img"><img src="' + a.img + '" alt="' + esc(T(a.title)) + '" loading="lazy" decoding="async">' +
+          '<span class="img-badge">' + (a.trending ? '<span class="trend-dot"></span>' : '') +
+          '<span style="color:' + tp.accent + '">' + esc(T(tp.name)) + '</span> <span class="fmt">· ' + esc(T(MP.FORMATS[a.format])) + '</span></span></div>' +
+          '<div class="t2-body"><h3>' + esc(T(a.title)) + '</h3>' +
+          '<p class="dek">' + esc(T(a.dek)) + '</p>' + meta(a) + '</div></div>', 'reveal', i);
       }).join('') + '</div></section>' +
 
       /* 3 — the professional signals */
-      '<section class="sec reveal" id="signals">' + secH(t('The professional signals', 'Sinyal profesional')) +
-      signalsHTML() + '</section>' +
+      '<section class="sec reveal" id="signals"><div class="sigwrap">' +
+      '<div class="sw-head"><span class="sec-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-8M21 20H3"/></svg></span>' +
+      '<h2>' + t('The professional signals', 'Sinyal profesional') + '</h2>' +
+      '<a class="more" href="../products/the-map/#/explore">' + t('See full database →', 'Lihat basis data lengkap →') + '</a></div>' +
+      signalsHTML() +
+      '<div class="sw-foot"><span>' + t('Every figure is computed at page load from Metanoia’s own database — a curated map, not a market census.',
+        'Setiap angka dihitung saat halaman dimuat dari basis data Metanoia sendiri — peta kurasi, bukan sensus pasar.') + '</span>' +
+      '<button class="card-a" data-read="what-675-companies-tell-us">' + t('What 675 companies tell us →', 'Yang diceritakan 675 perusahaan →') + '</button></div>' +
+      '</div></section>' +
 
       /* 4 — explore by what you need */
       '<section class="sec reveal">' + secH(t('Explore by what you need', 'Jelajahi sesuai kebutuhanmu')) +
@@ -451,6 +499,12 @@
     renderOpps();
     wireStageChips(home);
     wireReads(home);
+    var ls = home.querySelector('#leadSave');
+    if (ls) ls.addEventListener('click', function () {
+      toggleSave(lead.slug);
+      ls.classList.toggle('on', isSaved(lead.slug));
+      ls.querySelector('#leadSaveTx').textContent = isSaved(lead.slug) ? t('Saved ✓', 'Tersimpan ✓') : t('Save for later', 'Simpan untuk nanti');
+    });
     home.querySelectorAll('[data-jump]').forEach(function (b) {
       b.addEventListener('click', function () {
         var el = document.getElementById(b.dataset.jump);
