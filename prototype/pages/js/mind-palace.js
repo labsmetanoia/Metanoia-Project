@@ -311,25 +311,79 @@
       [t('Find scholarships and graduate programmes', 'Cari beasiswa dan program graduate'), 'scholarship']
     ];
 
+    /* Six editorial doors under the hero — one per topic, photo-led, real routes. */
+    var railDoors = [
+      { id: 'career', img: '../assets/m/03-climb.jpg',
+        h: L('Navigate your next move', 'Arahkan langkah berikutnya') },
+      { id: 'skills', img: '../assets/bg/fg-stage-ascent.jpg',
+        h: L('What to learn — and how to prove it', 'Apa yang dipelajari — dan cara membuktikannya') },
+      { id: 'recruitment', img: '../assets/bg/gauntlet/gate-06-final-interview.jpg',
+        h: L('How the hiring gate really works', 'Cara gerbang rekrutmen benar-benar bekerja') },
+      { id: 'market', img: '../assets/bg/map.jpg',
+        h: L('Read the market honestly', 'Baca pasar dengan jujur') },
+      { id: 'worklife', img: '../assets/mentoring-session.jpg',
+        h: L('Thrive inside the work', 'Bertumbuh di dalam pekerjaan') },
+      { id: 'opportunities', img: '../assets/m/05-summit.jpg',
+        h: L('Opportunities worth pursuing', 'Peluang yang layak dikejar') }
+    ];
+    var trail =
+      '<svg class="trail" width="360" height="560" viewBox="0 0 360 560" fill="none" aria-hidden="true">' +
+      '<path class="tp-dash" d="M30 560 C 150 470, 90 380, 200 300 C 300 228, 250 160, 330 60" stroke="rgba(255,255,255,.75)" stroke-width="2.4" stroke-dasharray="2 12" stroke-linecap="round"/>' +
+      '<g><circle cx="200" cy="300" r="17" fill="rgba(8,14,26,.6)" stroke="rgba(240,216,120,.8)" stroke-width="1.4"/>' +
+      '<circle cx="194" cy="300" r="3.4" stroke="rgba(240,216,120,.9)" stroke-width="1.6"/><circle cx="206" cy="300" r="3.4" stroke="rgba(240,216,120,.9)" stroke-width="1.6"/></g>' +
+      '<g><circle cx="330" cy="60" r="17" fill="rgba(8,14,26,.6)" stroke="rgba(240,216,120,.8)" stroke-width="1.4"/>' +
+      '<path d="M326 68v-15l9 4-9 4" stroke="rgba(240,216,120,.9)" stroke-width="1.6" stroke-linejoin="round"/></g>' +
+      '</svg>';
+
     document.getElementById('v-home').innerHTML =
       '<header class="mp-hero">' +
-      '<div class="mp-hero-bg"><img src="../assets/bg/hero.jpg" alt="" decoding="async"></div>' +
-      '<div class="mp-hero-veil"></div>' +
+      '<div class="mp-hero-bg"><img src="../assets/bg/journey-start.jpg" alt="" decoding="async"></div>' +
+      '<div class="mp-hero-veil"></div>' + trail +
       '<div class="wrap mp-hero-in">' +
       '<div class="mast-kicker">Mind Palace</div>' +
       '<h1 class="mast-title">' + t('Your guide to the <em>professional world.</em>', 'Pemandumu di <em>dunia profesional.</em>') + '</h1>' +
       '<p class="mast-sub">' + t('Insights, opportunities and practical knowledge to help you navigate your career — from your first opportunity to your next move.',
         'Wawasan, peluang, dan pengetahuan praktis untuk membantumu menavigasi karier — dari kesempatan pertama sampai langkah berikutnya.') + '</p>' +
       '<button class="hsearch" id="heroSearch"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7.5"/><path d="m16.8 16.8 4 4"/></svg>' +
-      t('What are you trying to figure out?', 'Apa yang sedang ingin kamu pahami?') + '<kbd>/</kbd></button>' +
+      t('What are you trying to figure out?', 'Apa yang sedang ingin kamu pahami?') + '<kbd>/</kbd>' +
+      '<span class="hs-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></button>' +
+      '<div class="exq-label">' + t('Popular questions', 'Pertanyaan populer') + '</div>' +
       '<div class="exq">' + exq.map(function (x) {
         return '<button data-exq="' + x[1] + '">' + esc(x[0]) + '</button>';
       }).join('') + '</div>' +
       '<div class="cta-row">' +
-      '<button class="btn pri" data-jump="worth">' + t('Explore insights', 'Jelajahi wawasan') + '</button>' +
-      '<button class="btn" data-jump="opps">' + t('Explore opportunities', 'Jelajahi peluang') + '</button></div>' +
-      '<div class="mast-row">' + stageChips + '</div>' +
+      '<button class="btn pri" data-jump="worth"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 6.5C10.4 5 8.2 4.5 5 4.5v14c3.2 0 5.4.5 7 2 1.6-1.5 3.8-2 7-2v-14c-3.2 0-5.4.5-7 2Z"/><path d="M12 6.5v14"/></svg></span>' + t('Explore insights', 'Jelajahi wawasan') + '</button>' +
+      '<button class="btn" data-jump="opps"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/></svg></span>' + t('Explore opportunities', 'Jelajahi peluang') + '</button>' +
+      '<div class="cta-stage"><span class="lbl">' + t('I’m reading as', 'Aku membaca sebagai') + '</span>' +
+      '<button class="chip' + (stage === '' ? ' on' : '') + '" data-stage="">' + t('Everyone', 'Semua') + '</button>' +
+      Object.keys(MP.STAGES).map(function (s) {
+        return '<button class="chip' + (stage === s ? ' on' : '') + '" data-stage="' + s + '">' + esc(T(MP.STAGES[s])) + '</button>';
+      }).join('') + '</div></div>' +
       '</div></header>' +
+
+      '<section class="hero-rail wrap" id="heroRail"><div class="hr-track">' + railDoors.map(function (d) {
+        var tp = topicOf[d.id];
+        return '<a class="hrcard" href="#/topic/' + d.id + '">' +
+          '<div class="hr-img"><img src="' + d.img + '" alt="" loading="lazy" decoding="async"></div>' +
+          '<div class="hr-body"><span class="hr-kick" style="color:' + tp.accent + '">' + esc(T(tp.name)) + '</span>' +
+          '<h3>' + esc(T(d.h)) + '</h3><p>' + esc(T(tp.desc)) + '</p>' +
+          '<span class="hr-go">' + t('Explore →', 'Jelajahi →') + '</span></div></a>';
+      }).join('') + '</div></section>' +
+
+      '<section class="wrap"><div class="valstrip">' + [
+        ['<path d="M12 19.5 5 21l1.5-7L17 3.5a2.1 2.1 0 0 1 3 0l.5.5a2.1 2.1 0 0 1 0 3Z"/><path d="m14.5 6 3.5 3.5"/>',
+          t('Written as judgement', 'Ditulis sebagai pertimbangan'), t('Sources named; judgement labelled as judgement.', 'Sumber disebutkan; pertimbangan diberi label pertimbangan.')],
+        ['<path d="M13 2.5 4.5 13.5H11l-1 8L18.5 10H12Z"/>',
+          t('Actionable by design', 'Dirancang untuk ditindaklanjuti'), t('Every piece ends in what to do next.', 'Setiap artikel berakhir pada apa yang harus dilakukan.')],
+        ['<rect x="3.5" y="5" width="17" height="16" rx="2.5"/><path d="M8 2.8v4M16 2.8v4M3.5 10.5h17M8.7 15.4l2.2 2.2 4.2-4.2"/>',
+          t('Dated & reviewed', 'Bertanggal & ditinjau'), t('Publish and review dates visible on every piece.', 'Tanggal terbit dan tinjauan terlihat di setiap artikel.')],
+        ['<circle cx="12" cy="7" r="3.4"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/>',
+          t('Built for your stage', 'Dibuat untuk tahapmu'), t('Student through experienced professional.', 'Dari mahasiswa sampai profesional berpengalaman.')]
+      ].map(function (v) {
+        return '<div class="vitem"><span class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + v[0] + '</svg></span>' +
+          '<span><b>' + v[1] + '</b><span>' + v[2] + '</span></span></div>';
+      }).join('') + '</div></section>' +
+
       topicTabs +
       '<div class="wrap">' +
 
