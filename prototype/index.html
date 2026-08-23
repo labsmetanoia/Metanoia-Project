@@ -370,38 +370,78 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     align-items:start;align-content:center;width:100%;max-width:1280px;margin:0 auto;text-align:left}
   #climb .steprail{grid-area:rail}
   #climb .climb-main{grid-area:main}
-  #climb .content.climb2 .cards{grid-area:cards;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:0}
-  #climb .content.climb2 .card{position:relative;overflow:hidden;border:1px solid rgba(245,239,230,.16);border-radius:16px;
+  .content.chap2 .cards{grid-area:cards;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:0}
+  .content.chap2 .card{position:relative;overflow:hidden;border:1px solid rgba(245,239,230,.16);border-radius:16px;
     background:rgba(8,13,22,.62);padding:20px 20px 24px;min-height:236px;
     transition:transform .25s ease,border-color .25s ease}
-  #climb .content.climb2 .card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--accent-text) 55%,transparent)}
-  #climb .card .cbg{position:absolute;left:0;right:0;bottom:0;height:60%;z-index:0;pointer-events:none}
-  #climb .card .cbg img{width:100%;height:100%;object-fit:cover;opacity:.42;display:block;
+  .content.chap2 .card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--accent-text) 55%,transparent)}
+  .content.chap2 .card .cbg{position:absolute;left:0;right:0;bottom:0;height:60%;z-index:0;pointer-events:none}
+  .content.chap2 .card .cbg img{width:100%;height:100%;object-fit:cover;opacity:.42;display:block;
     -webkit-mask-image:linear-gradient(180deg,transparent,#000 60%);mask-image:linear-gradient(180deg,transparent,#000 60%)}
-  #climb .card>*{position:relative;z-index:1}
-  #climb .content.climb2 .card .kick{display:flex;align-items:center;gap:13px;margin-bottom:14px}
-  #climb .content.climb2 .card .badge{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--accent-text);
+  .content.chap2 .card>*{position:relative;z-index:1}
+  .content.chap2 .card .kick{display:flex;align-items:center;gap:13px;margin-bottom:14px}
+  .content.chap2 .card .badge{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--accent-text);
     color:var(--accent-text);background:rgba(6,11,20,.55);display:flex;align-items:center;justify-content:center}
-  #climb .content.climb2 .card .k{font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text)}
-  #climb .content.climb2 .card h3{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.002em;margin-bottom:9px}
-  #climb .content.climb2 .card p{font-size:12.5px;line-height:1.62;color:var(--muted)}
-  #climb .content.climb2 h2 em{font-style:normal;color:var(--accent-text)}
-  #climb .qband{grid-area:quote;display:flex;align-items:center;gap:clamp(16px,2.6vw,34px);flex-wrap:wrap;
+  .content.chap2 .card .k{font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text)}
+  .content.chap2 .card h3{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.002em;margin-bottom:9px}
+  .content.chap2 .card p{font-size:12.5px;line-height:1.62;color:var(--muted)}
+  .content.chap2 h2 em{font-style:normal;color:var(--accent-text)}
+  .content.chap2 .qband{grid-area:quote;display:flex;align-items:center;gap:clamp(16px,2.6vw,34px);flex-wrap:wrap;
     border-top:1px solid rgba(245,239,230,.14);padding-top:20px}
-  #climb .qmark{flex:none;width:34px;height:34px;color:var(--accent-text);opacity:.9}
-  #climb .qband .voice{margin:0;flex:1 1 340px;font-size:clamp(1.05rem,1.9vw,1.4rem)}
-  #climb .qdiv{width:1px;align-self:stretch;min-height:56px;background:rgba(245,239,230,.18)}
-  #climb .qcta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  #climb .qclock{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 55%,transparent);
+  .chap2 .qmark{flex:none;width:34px;height:34px;color:var(--accent-text);opacity:.9}
+  .chap2 .qband .voice{margin:0;flex:1 1 340px;font-size:clamp(1.05rem,1.9vw,1.4rem)}
+  .chap2 .qdiv{width:1px;align-self:stretch;min-height:56px;background:rgba(245,239,230,.18)}
+  .chap2 .qcta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .chap2 .qclock{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 55%,transparent);
     color:var(--accent-text);display:flex;align-items:center;justify-content:center}
-  #climb .qclock svg{width:18px;height:18px}
-  #climb .qcta b{display:block;font-size:15px}
-  #climb .qcta b+span,#climb .qcta div>span{display:block;font-size:12.5px;color:var(--muted);margin-top:2px}
-  #climb .qcta .cta{margin-top:0;padding:13px 24px;font-size:14.5px}
+  .chap2 .qclock svg{width:18px;height:18px}
+  .chap2 .qcta b{display:block;font-size:15px}
+  .chap2 .qcta b+span,.chap2 .qcta div>span{display:block;font-size:12.5px;color:var(--muted);margin-top:2px}
+  .chap2 .qcta .cta{margin-top:0;padding:13px 24px;font-size:14.5px}
   @media(max-width:1180px){#climb .content.climb2{grid-template-columns:1fr;grid-template-areas:"main" "cards" "quote"}}
-  @media(max-width:900px){#climb .content.climb2 .cards{grid-template-columns:1fr}
-    #climb .content.climb2 .card{min-height:0}
-    #climb .qdiv{display:none}}
+  @media(max-width:900px){.content.chap2 .cards{grid-template-columns:1fr}
+    .content.chap2 .card{min-height:0}
+    .chap2 .qdiv{display:none}}
+
+  /* ── Chapter III · basecamp composition ── */
+  #basecamp .content.base2{display:grid;grid-template-columns:230px minmax(0,1fr) 296px;
+    grid-template-areas:"rail main side" "rail cards side" "rail quote quote" "rail next next";
+    column-gap:clamp(24px,3.2vw,52px);row-gap:clamp(20px,3vh,32px);
+    align-items:start;align-content:center;width:100%;max-width:1320px;margin:0 auto;text-align:left}
+  #basecamp .steprail{grid-area:rail}
+  #basecamp .base-main{grid-area:main}
+  .sr-steps li.done i{color:var(--accent-text);border-color:color-mix(in srgb,var(--accent-text) 55%,transparent);
+    background:rgba(245,166,35,.08)}
+  .sr-steps li.done i svg{width:14px;height:14px}
+  .camp-panel{grid-area:side;align-self:start;border:1px solid rgba(245,239,230,.18);border-radius:16px;
+    background:rgba(8,13,22,.66);padding:18px 20px}
+  .cp-head{display:flex;gap:12px;align-items:center;padding-bottom:12px;border-bottom:1px dashed rgba(245,239,230,.18)}
+  .cp-ico{flex:none;width:42px;height:42px;border-radius:50%;border:1.5px solid var(--accent-text);color:var(--accent-text);
+    background:rgba(6,11,20,.5);display:flex;align-items:center;justify-content:center}
+  .cp-ico svg{width:18px;height:18px}
+  .cp-head b{font-size:14px;display:block}
+  .cp-head span{display:block;font-size:9.5px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;margin-top:2px}
+  .cp-h{font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text);margin:13px 0 9px}
+  .cp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+  .cp-list li{display:flex;gap:9px;font-size:12px;color:var(--muted);align-items:flex-start;line-height:1.5}
+  .cp-list li svg{width:14px;height:14px;color:var(--accent-text);flex:none;margin-top:2px}
+  .cp-ess{display:flex;gap:10px;padding-top:2px}
+  .cp-ess i{width:34px;height:34px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent);
+    color:var(--accent-text);display:flex;align-items:center;justify-content:center}
+  .cp-ess svg{width:15px;height:15px}
+  .nextup{grid-area:next;margin-bottom:44px;border:1px solid rgba(245,239,230,.14);border-radius:16px;background:rgba(8,13,22,.5);
+    padding:13px 18px;display:flex;gap:clamp(12px,2.2vw,28px);align-items:center;flex-wrap:wrap}
+  .nu-label{font-size:10px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--accent-text)}
+  .nu-card{display:flex;gap:12px;align-items:center;background:none;border:0;cursor:pointer;color:var(--text);
+    text-align:left;font-family:inherit;padding:6px 8px;border-radius:12px;transition:background .2s}
+  .nu-card:hover{background:rgba(245,239,230,.06)}
+  .nu-thumb{flex:none;width:74px;height:52px;border-radius:10px;overflow:hidden;border:1px solid rgba(245,239,230,.2)}
+  .nu-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .nu-card i{font-style:normal;font-size:14px;color:var(--muted);font-weight:700;margin-right:3px}
+  .nu-card b{font-size:13px}
+  .nu-card p{font-size:11.5px;color:var(--muted);margin-top:2px;max-width:210px;line-height:1.45}
+  @media(max-width:1180px){#basecamp .content.base2{grid-template-columns:1fr;
+    grid-template-areas:"main" "cards" "side" "quote" "next"}}
 
 
   #summit .content{text-align:center}
@@ -1190,7 +1230,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="mbg" style="background-image:url(assets/m/03-climb.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
-      <div class="content climb2">
+      <div class="content climb2 chap2">
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="climb.ch">Chapter II · The weather turns</div>
           <ol class="sr-steps">
@@ -1236,20 +1276,58 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="mbg" style="background-image:url(assets/m/04-basecamp.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
-      <div class="content">
-        <div class="crest-divider fx" aria-hidden="true">
-          <svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg>
+      <div class="content base2 chap2">
+        <aside class="steprail fx d1" aria-label="Chapters">
+          <div class="sr-ch" data-i18n="base.ch">Chapter III · Nightfall, firelight</div>
+          <ol class="sr-steps">
+            <li class="done" data-goto="1"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="prep.eye">Preparation</b></div></li>
+            <li class="done" data-goto="2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></i><div><b data-i18n="climb.eye">The Climb</b></div></li>
+            <li class="on" data-goto="3"><i>03</i><div><b data-i18n="base.eye">Basecamp</b></div></li>
+            <li data-goto="4"><i>04</i><div><b data-i18n="climb.s4">Sunrise</b></div></li>
+            <li data-goto="5"><i>05</i><div><b data-i18n="climb.s5">The range beyond</b></div></li>
+          </ol>
+          <div class="sr-foot"><span class="sr-pos"><b>03</b>/05</span>
+            <button type="button" data-goto="2" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button type="button" data-goto="4" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        </aside>
+        <div class="base-main">
+          <div class="eyewrap fx"><span class="eyebrow" data-i18n="base.eye">Basecamp</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
+          <h2 class="fx d1"><span data-i18n="base.h2a">Every summit story was first told</span> <em data-i18n="base.h2b">around a fire.</em></h2>
+          <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.</p>
         </div>
-        <span class="chapter fx" data-i18n="base.ch">Chapter III · Nightfall, firelight</span>
-        <span class="eyebrow fx" data-i18n="base.eye">Basecamp</span>
-        <h2 class="fx d1" data-i18n="base.h2">Every summit story was first told around a fire.</h2>
-        <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.</p>
+        <aside class="camp-panel fx d2" aria-label="Basecamp">
+          <div class="cp-head"><span class="cp-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
+          <div class="cp-h" data-i18n="base.ph">What happens here</div>
+          <ul class="cp-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p1">Build trust &amp; connections</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p2">Learn from real journeys</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p3">Share experiences</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p4">Prepare for what&rsquo;s ahead</span></li>
+          </ul>
+          <div class="cp-h" data-i18n="base.pe">Basecamp essentials</div>
+          <div class="cp-ess" aria-hidden="true"><i><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.4-6.5-10.3A6.5 6.5 0 0 1 12 4.2a6.5 6.5 0 0 1 6.5 6.5C18.5 15.6 12 21 12 21Z"/><circle cx="12" cy="10.6" r="2.2"/></svg></i></div>
+        </aside>
         <div class="cards">
           <div class="card warm fx d1"><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span class="k" data-i18n="base.c1k">Cohorts</span></span><h3 data-i18n="base.c1h">Your expedition party</h3><p data-i18n="base.c1p">Twenty climbers, one route, shared wins. When Sinta gets her offer, the whole camp feels the fire rise.</p></div>
           <div class="card warm fx d2"><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6M12 4v2"/><rect x="7.5" y="6" width="9" height="11" rx="2.5"/><path d="M12 9.5c1.1 1.2 1.6 2.2 1.6 3.2a1.6 1.6 0 1 1-3.2 0c0-1 .5-2 1.6-3.2Z"/><path d="M10 20h4"/></svg></span><span class="k" data-i18n="base.c2k">Mentors</span></span><h3 data-i18n="base.c2h">Voices from above</h3><p data-i18n="base.c2p">Professionals who made your exact jump, one conversation away — with free community sessions, always.</p></div>
           <div class="card warm fx d3"><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20 L10 6 L13.5 12 L17 5 L21 20"/><path d="M17 5v-2.2"/><path d="M17 2.8h3.4l-1.2 1.5 1.2 1.5H17"/></svg></span><span class="k" data-i18n="base.c3k">Alumni</span></span><h3 data-i18n="base.c3h">The ones who returned</h3><p data-i18n="base.c3p">Every climber who summits is invited back as a guide. The mountain gets easier for everyone who follows.</p></div>
         </div>
-        <p class="voice fx d4" data-i18n="base.voice">“The most important gear on any mountain <em>is other people.</em>”</p>
+        <div class="qband fx d4">
+          <span class="qmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 12.5C4 8.9 6.2 6.2 9.6 5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2C5.6 17 4 15.2 4 12.5Zm9 0c0-3.6 2.2-6.3 5.6-7.5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2-2.2 0-3.8-1.8-3.8-4.5Z"/></svg></span>
+          <p class="voice" data-i18n="base.voice">“The most important gear on any mountain <em>is other people.</em>”</p>
+          <span class="qdiv" aria-hidden="true"></span>
+          <div class="qcta">
+            <span class="qclock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c1.8 2.6 4.9 4.7 4.9 8.3A4.9 4.9 0 0 1 12 16.7a4.9 4.9 0 0 1-4.9-4.9c0-1.4.5-2.6 1.3-3.8.6 1 1.4 1.6 2.2 1.8-.4-2.2.2-4.5 1.4-6.3Z"/><path d="M8.5 20.5h7"/></svg></span>
+            <div><b data-i18n="base.qh">Ready to be part of the climb?</b><span data-i18n="base.qs">Join the community, find your people, prepare for the road ahead.</span></div>
+            <a class="cta" href="register.html"><span data-i18n="base.qb">Join Basecamp</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        <div class="nextup fx d4">
+          <span class="nu-label" data-i18n="base.nu">Next up</span>
+          <button type="button" class="nu-card" data-goto="4"><span class="nu-thumb"><img src="assets/m/05-summit.jpg" alt="" loading="lazy" decoding="async"></span><span><i>04</i> <b data-i18n="climb.s4">Sunrise</b><p data-i18n="summit.h2">When can you start?</p></span></button>
+          <button type="button" class="nu-card" data-goto="5"><span class="nu-thumb"><img src="assets/m/06-horizon.jpg" alt="" loading="lazy" decoding="async"></span><span><i>05</i> <b data-i18n="climb.s5">The range beyond</b><p data-i18n="hor.h2">From this summit, you can see the others.</p></span></button>
+        </div>
       </div>
     </div>
   </section>
@@ -1407,6 +1485,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       'base.c3k':'Alumni','base.c3h':'The ones who returned',
       'base.c3p':'Every climber who summits is invited back as a guide. The mountain gets easier for everyone who follows.',
       'base.voice':'“The most important gear on any mountain <em>is other people.</em>”',
+      'base.h2a':'Every summit story was first told','base.h2b':'around a fire.',
+      'base.ph':'What happens here',
+      'base.p1':'Build trust & connections','base.p2':'Learn from real journeys',
+      'base.p3':'Share experiences','base.p4':'Prepare for what&rsquo;s ahead',
+      'base.pe':'Basecamp essentials',
+      'base.qh':'Ready to be part of the climb?','base.qs':'Join the community, find your people, prepare for the road ahead.',
+      'base.qb':'Join Basecamp','base.nu':'Next up',
       'summit.ch':'Chapter IV · Sunrise','summit.h2':'When can you start?',
       'summit.lede':"Four words, and the sky changes. Verified credentials that outrank pedigree. Employers who watched your work before your postcode. An offer negotiated like you've done this before — because with us, you have.",
       'summit.s1':'Readiness at summit','summit.s2':'Offers on the table','summit.s3':'Days of climbing','summit.s4':'What changed',
@@ -1496,6 +1581,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       'climb.voice':'“Kamu bukan sedang gagal. <em>Kamu hanya mendaki tanpa tim pemandu yang tepat.</em>”',
       'base.ch':'Bab III · Malam turun, api menyala','base.eye':'Basecamp',
       'base.h2':'Setiap kisah puncak pertama kali diceritakan di sekeliling api unggun.',
+      'base.h2a':'Setiap kisah puncak pertama kali diceritakan','base.h2b':'di sekeliling api unggun.',
+      'base.ph':'Yang terjadi di sini',
+      'base.p1':'Bangun kepercayaan & koneksi','base.p2':'Belajar dari perjalanan nyata',
+      'base.p3':'Saling berbagi pengalaman','base.p4':'Bersiap untuk langkah berikutnya',
+      'base.pe':'Esensi Basecamp',
+      'base.qh':'Siap menjadi bagian dari pendakian?','base.qs':'Bergabung dengan komunitas, temukan orang-orangmu, dan bersiap untuk jalan di depan.',
+      'base.qb':'Gabung Basecamp','base.nu':'Selanjutnya',
       'base.lede':'Basecamp adalah tempat para pendaki menjadi komunitas: kohort yang bergerak bersama, mentor yang pernah berdiri di puncak yang kamu tuju, dan alumni yang turun kembali untuk memandu pendakian berikutnya.',
       'base.c1k':'Kohort','base.c1h':'Rombongan ekspedisimu',
       'base.c1p':'Dua puluh pendaki, satu rute, kemenangan yang dirayakan bersama. Saat Sinta menerima offer‑nya, seluruh kamp ikut merasakan apinya membesar.',
