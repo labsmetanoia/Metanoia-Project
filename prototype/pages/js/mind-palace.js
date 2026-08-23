@@ -285,11 +285,22 @@
     var sec = (stage === 'early-professional' || stage === 'mature-professional')
       ? { href: '../products/the-rope/', h: 'The Rope', p: t('Rehearse the live rounds your next move will demand.', 'Latih ronde langsung yang akan dituntut langkah berikutnya.') }
       : { href: '../products/the-pack/', h: 'The Pack', p: t('Get the materials ready before you spend your best targets.', 'Siapkan materi sebelum menghabiskan target terbaikmu.') };
-    return '<section class="nextmove reveal" id="nextmove"><h2>' + t('Your next move', 'Langkah berikutnya') + '</h2>' +
+    var ICO_COMPASS = '<circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/>';
+    var ICO_ROPE = '<circle cx="12" cy="8.5" r="4.5"/><path d="M12 13v7.5"/><path d="M9 17.5h6"/>';
+    var ICO_PACK = '<path d="M4 8l8-4.5L20 8v8l-8 4.5L4 16Z"/><path d="M4 8l8 4.5L20 8"/><path d="M12 12.5v8"/>';
+    function nmCard(c, ico) {
+      return '<a class="eco-card" href="' + c.href + '">' +
+        '<span class="eco-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + ico + '</svg></span>' +
+        '<span><b>' + c.h + '</b><span>' + c.p + '</span></span>' +
+        '<span class="goarrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></a>';
+    }
+    return '<section class="nextmove reveal" id="nextmove">' +
+      '<div class="nm-bg" aria-hidden="true"><img src="../assets/bg/fg-stage-horizon.jpg" alt="" loading="lazy" decoding="async"></div>' +
+      '<h2>' + t('Your <em>next move</em>', 'Langkah <em>berikutnya</em>') + '</h2>' +
       '<p>' + t('Reading is step one. The doing lives in the Metanoia pillars.', 'Membaca adalah langkah pertama. Pengerjaannya ada di pilar-pilar Metanoia.') + '</p>' +
       '<div class="eco-grid">' +
-      '<a class="eco-card" href="' + pri.href + '"><b>' + pri.h + '</b><span>' + pri.p + '</span></a>' +
-      '<a class="eco-card" href="' + sec.href + '"><b>' + sec.h + '</b><span>' + sec.p + '</span></a>' +
+      nmCard(pri, ICO_COMPASS) +
+      nmCard(sec, sec.h === 'The Rope' ? ICO_ROPE : ICO_PACK) +
       '</div>' +
       '<div class="why">' + t('Chosen from your stage choice above and whether a Career Identity exists on this device — nothing is tracked, nothing leaves the browser.',
         'Dipilih dari tahap yang kamu pilih di atas dan ada-tidaknya Identitas Karier di perangkat ini — tidak ada pelacakan, tidak ada yang meninggalkan peramban.') + '</div></section>';
@@ -501,20 +512,45 @@
       '<p class="persnote">' + t('Practitioner and community perspectives are on the roadmap; until real contributors write here, this shelf stays small rather than staged.',
         'Perspektif praktisi dan komunitas ada di peta jalan; sampai kontributor nyata menulis di sini, rak ini dibiarkan kecil alih-alih dipentaskan.') + '</p></section>' +
 
-      /* 8 — latest, dense editorial list */
-      '<section class="sec reveal">' + secH(t('Latest from Mind Palace', 'Terbaru dari Mind Palace')) +
-      '<div class="list">' + newest(A).map(function (a) {
-        return '<button class="lrow card-a" data-read="' + a.slug + '">' +
+      /* 8 — latest, editorial media rows (newest six, expandable to all) */
+      '<section class="sec reveal" id="latest">' + secH(t('Latest from Mind Palace', 'Terbaru dari Mind Palace')) +
+      '<div class="list">' + newest(A).map(function (a, i) {
+        return '<div class="lrow' + (i >= 6 ? ' hid' : '') + '">' +
+          '<button class="lmain card-a" data-read="' + a.slug + '">' +
           '<span class="thumb"><img src="' + a.img + '" alt="" loading="lazy" decoding="async"></span>' +
-          '<span>' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3></span>' + meta(a) + '</button>';
-      }).join('') + '</div></section>' +
+          '<span>' + kicker(a) + '<h3>' + esc(T(a.title)) + '</h3>' +
+          '<span class="ldek">' + esc(T(a.dek)) + '</span></span></button>' +
+          '<span class="rmeta"><span>' + fdate(a.date) + '</span>' +
+          '<span class="mn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>' +
+          a.minutes + ' ' + t('min read', 'menit baca') + '</span>' +
+          '<button class="rowsave' + (isSaved(a.slug) ? ' on' : '') + '" data-rowsave="' + a.slug + '" aria-label="' + t('Save', 'Simpan') + '">' +
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></button></span></div>';
+      }).join('') + '</div>' +
+      (A.length > 6 ? '<div class="viewall"><button id="latestMore">' + t('View all articles', 'Lihat semua artikel') +
+        ' <span aria-hidden="true">→</span></button></div>' : '') + '</section>' +
 
       /* 9 — your next move */
       nextMoveHTML() +
 
-      '<aside class="standard reveal"><h2>' + t('Our editorial standard', 'Standar editorial kami') + '</h2>' +
-      '<p>' + t('Numbers carry a named source or come from Metanoia’s own database. Judgement is written as judgement. Dates are visible, radar entries expire, and “trending” is an editorial choice — never a fake metric. When we don’t know, the page says so.',
-        'Angka membawa sumber bernama atau berasal dari basis data Metanoia sendiri. Pertimbangan ditulis sebagai pertimbangan. Tanggal terlihat, entri radar kedaluwarsa, dan “trending” adalah pilihan editorial — bukan metrik palsu. Saat kami tidak tahu, halaman ini mengatakannya.') + '</p></aside>' +
+      '<aside class="standard reveal">' +
+      '<div class="std-head"><span class="std-shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="m9 11.8 2.2 2.2L15.4 9.6"/></svg></span>' +
+      '<div><h2>' + t('Our editorial standard', 'Standar editorial kami') + '</h2>' +
+      '<p>' + t('Numbers carry a named source or come from Metanoia’s own database. Judgement is written as judgement.',
+        'Angka membawa sumber bernama atau berasal dari basis data Metanoia sendiri. Pertimbangan ditulis sebagai pertimbangan.') + '</p>' +
+      '<p>' + t('Dates are visible, radar entries expire, and “trending” is an editorial choice — never a fake metric. When we don’t know, the page says so.',
+        'Tanggal terlihat, entri radar kedaluwarsa, dan “trending” adalah pilihan editorial — bukan metrik palsu. Saat kami tidak tahu, halaman ini mengatakannya.') + '</p></div></div>' +
+      '<div class="std-marks">' + [
+        ['<ellipse cx="12" cy="5.5" rx="7.5" ry="2.8"/><path d="M4.5 5.5v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8v-6"/><path d="M4.5 11.5v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8v-6"/>',
+          t('Named sources', 'Sumber bernama')],
+        ['<rect x="3.5" y="5" width="17" height="16" rx="2.5"/><path d="M8 2.8v4M16 2.8v4M3.5 10.5h17M8.7 15.4l2.2 2.2 4.2-4.2"/>',
+          t('Dated & reviewed', 'Bertanggal & ditinjau')],
+        ['<path d="M3.5 17.5 9 12l3.5 3.5L20.5 7"/><path d="M15 7h5.5v5.5"/><path d="m4 4 3.5 3.5M7.5 4 4 7.5"/>',
+          t('No fake metrics', 'Tanpa metrik palsu')],
+        ['<circle cx="12" cy="7" r="3.4"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/>',
+          t('Built for your journey', 'Dibuat untuk perjalananmu')]
+      ].map(function (m) {
+        return '<div class="sm"><span class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + m[0] + '</svg></span>' + m[1] + '</div>';
+      }).join('') + '</div></aside>' +
       '</div>';
 
     var home = document.getElementById('v-home');
@@ -526,6 +562,22 @@
       toggleSave(lead.slug);
       ls.classList.toggle('on', isSaved(lead.slug));
       ls.querySelector('#leadSaveTx').textContent = isSaved(lead.slug) ? t('Saved ✓', 'Tersimpan ✓') : t('Save for later', 'Simpan untuk nanti');
+    });
+    home.querySelectorAll('[data-rowsave]').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        toggleSave(b.dataset.rowsave);
+        b.classList.toggle('on', isSaved(b.dataset.rowsave));
+        if (ls && b.dataset.rowsave === lead.slug) {
+          ls.classList.toggle('on', isSaved(lead.slug));
+          ls.querySelector('#leadSaveTx').textContent = isSaved(lead.slug) ? t('Saved ✓', 'Tersimpan ✓') : t('Save for later', 'Simpan untuk nanti');
+        }
+      });
+    });
+    var lm = home.querySelector('#latestMore');
+    if (lm) lm.addEventListener('click', function () {
+      home.querySelectorAll('#latest .lrow.hid').forEach(function (r) { r.classList.remove('hid'); });
+      lm.closest('.viewall').style.display = 'none';
     });
     home.querySelectorAll('[data-jump]').forEach(function (b) {
       b.addEventListener('click', function () {
