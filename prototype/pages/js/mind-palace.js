@@ -220,6 +220,12 @@
     if (!tab) return true;
     return (r.type.en || '').toLowerCase().indexOf(tab) !== -1;
   }
+  var OTAB_ICONS = {
+    'graduate programme': '<path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/>',
+    'internship': '<rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/>',
+    'scholarship': '<circle cx="12" cy="9" r="5.5"/><path d="m8.8 13.5-1.3 7 4.5-2.6 4.5 2.6-1.3-7"/>',
+    'joint recruitment': '<circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/>'
+  };
   function oppTabsHTML() {
     var tabs = [
       ['', t('All', 'Semua')],
@@ -230,7 +236,8 @@
     ];
     return '<div class="otabs">' + tabs.map(function (x) {
       var n = MP.RADAR.filter(function (r) { return oppMatches(r, x[0]); }).length;
-      return '<button class="chip' + (oppTab === x[0] ? ' on' : '') + '" data-otab="' + x[0] + '">' + x[1] + ' (' + n + ')</button>';
+      var ico = OTAB_ICONS[x[0]] ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + OTAB_ICONS[x[0]] + '</svg>' : '';
+      return '<button class="chip' + (oppTab === x[0] ? ' on' : '') + '" data-otab="' + x[0] + '">' + ico + x[1] + ' (' + n + ')</button>';
     }).join('') + '</div>';
   }
   function renderOpps() {
@@ -239,12 +246,15 @@
     var rows = MP.RADAR.filter(function (r) { return oppMatches(r, oppTab); });
     host.innerHTML = oppTabsHTML() +
       '<div class="radar">' + rows.map(radarCard).join('') +
-      '<a class="rcard" href="../products/the-map/#/explore" style="text-decoration:none;justify-content:center">' +
-      '<div class="org">The Range (Explore)</div><h3>' + t('675 companies, 25 directions — the doors behind these programmes', '675 perusahaan, 25 arah — pintu-pintu di balik program ini') + '</h3>' +
+      '<a class="rcard" href="../products/the-map/#/explore" style="text-decoration:none">' +
+      '<div class="rc-head"><span class="bridge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 6.5C10.4 5 8.2 4.5 5 4.5v14c3.2 0 5.4.5 7 2 1.6-1.5 3.8-2 7-2v-14c-3.2 0-5.4.5-7 2Z"/><path d="M12 6.5v14"/></svg></span>' +
+      '<div class="rc-tx"><div class="org">The Range (Explore)</div>' +
+      '<h3>' + t('675 companies, 25 directions — the doors behind these programmes', '675 perusahaan, 25 arah — pintu-pintu di balik program ini') + '</h3></div></div>' +
       '<div class="win">' + t('Investigate employers, functions and hiring stages before you commit weeks to one application.', 'Selidiki pemberi kerja, fungsi, dan tahapan rekrutmen sebelum menghabiskan berminggu-minggu untuk satu lamaran.') + '</div>' +
       '<div class="foot"><span class="pill verify">' + t('Part of The Map', 'Bagian dari The Map') + '</span></div></a></div>' +
-      '<p class="persnote">' + t('Real recurring programmes only, each with the date we last checked and the official link. Deadlines and eligibility live on the official pages, never here.',
-        'Hanya program nyata yang berulang, masing-masing dengan tanggal pengecekan terakhir dan tautan resmi. Tenggat dan syarat ada di laman resmi, tidak pernah di sini.') + '</p>';
+      '<div class="tipstrip"><span class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 1 3.5 10.9c-.7.5-1 1.3-1 2.1h-5c0-.8-.3-1.6-1-2.1A6 6 0 0 1 12 3Z"/><path d="M9.5 18.5h5M10.3 21h3.4"/></svg></span>' +
+      '<span><b>' + t('Tip:', 'Tip:') + '</b> ' + t('Opportunities change frequently — always verify dates, requirements and eligibility on the official page. Every card shows when we last checked it; deadlines never live here.',
+        'Peluang sering berubah — selalu cek tanggal, syarat, dan kelayakan di laman resmi. Setiap kartu menampilkan kapan terakhir kami cek; tenggat tidak pernah ada di sini.') + '</span></div>';
     host.querySelectorAll('[data-otab]').forEach(function (b) {
       b.addEventListener('click', function () { oppTab = b.dataset.otab; renderOpps(); });
     });
@@ -290,8 +300,13 @@
     var pill = r.status === 'closed'
       ? '<span class="pill closed">' + t('Window closed', 'Jendela tutup') + '</span>'
       : '<span class="pill verify">' + t('Verify on official page', 'Cek laman resmi') + '</span>';
-    return '<article class="rcard"><div class="org">' + esc(r.org) + '</div>' +
-      '<h3>' + esc(T(r.title)) + '</h3>' +
+    /* Same resolver as The Range: the organisation's own mark, or the designed monogram. */
+    var logo = (window.MT_LOGO && r.domain)
+      ? window.MT_LOGO.tile({ id: r.id, name: r.org, domain: r.domain })
+      : '';
+    return '<article class="rcard"><div class="rc-head">' + logo +
+      '<div class="rc-tx"><div class="org">' + esc(r.org) + '</div>' +
+      '<h3>' + esc(T(r.title)) + '</h3></div></div>' +
       '<div class="win">' + esc(T(r.type)) + ' — ' + esc(T(r.window)) + '</div>' +
       '<div class="foot">' + pill +
       '<span class="chk">' + t('Checked ', 'Dicek ') + fdate(r.checked) + '</span>' +
@@ -453,14 +468,21 @@
       '<section class="sec reveal">' + secH(t('Explore by what you need', 'Jelajahi sesuai kebutuhanmu')) +
       '<div class="needs">' + MP.NEEDS.map(function (n, i) {
         var cnt = A.filter(function (a) { return n.topics.indexOf(a.topic) !== -1; }).length;
+        var NDI = {
+          understand: '<circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/>',
+          hired: '<rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/>',
+          better: '<path d="M3.5 17.5 9 12l3.5 3.5L20.5 7"/><path d="M15 7h5.5v5.5"/>',
+          market: '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.3 3.9 5.1 3.9 8.5s-1.3 6.2-3.9 8.5c-2.6-2.3-3.9-5.1-3.9-8.5S9.4 5.8 12 3.5Z"/>'
+        };
         return '<button class="needcard reveal" style="transition-delay:' + (i * 70) + 'ms" data-need="' + n.id + '">' +
-          (n.img ? '<div class="card-img"><img src="' + n.img + '" alt="" loading="lazy" decoding="async"></div>' : '') +
+          (n.img ? '<div class="card-img"><span class="nd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + (NDI[n.id] || NDI.understand) + '</svg></span>' +
+            '<img src="' + n.img + '" alt="" loading="lazy" decoding="async"></div>' : '') +
           '<div class="nc-in"><h3>' + esc(T(n.q)) + '</h3>' +
           '<p>' + esc(T(n.sub)) + '</p><span class="cnt">' + cnt + ' ' + t('pieces →', 'artikel →') + '</span></div></button>';
       }).join('') + '</div></section>' +
 
       /* 5 — opportunities worth exploring */
-      '<section class="sec reveal" id="opps">' + secH(t('Opportunities worth exploring', 'Peluang yang layak dijelajahi'), '#/topic/opportunities', t('All', 'Semua')) +
+      '<section class="sec reveal" id="opps">' + secH(t('Opportunities worth exploring', 'Peluang yang layak dijelajahi'), '#/topic/opportunities', t('View all opportunities', 'Lihat semua peluang')) +
       '<div id="oppHost"></div></section>' +
 
       /* 6 — practical playbooks */
