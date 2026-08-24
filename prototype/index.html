@@ -908,24 +908,78 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </div>
 
 <style id="contrastFixCss">
-/* darker cinematic grade over footage — readability in both themes */
+/* ═══ Readability layer — per-scene cinematic grades, both themes ═══
+   The grade composite is gradient-shaped (reading-side radial + bottom and
+   left washes), so raising a scene's weight deepens the veil where copy
+   sits while the frame edges keep the footage. Each chapter is tuned to
+   its own film: bright frames (tent glow, white-out storm, sunrise flare)
+   carry more; darker frames keep their depth. Light mode is graded as its
+   own experience — footage stays luminous, but because the type stays
+   light-on-film the veil must run at or above the dark grade, never below. */
 #call .frame{--grade:rgba(6,11,22,.74)}
-#prep .frame{--grade:rgba(16,20,30,.70)}
-#climb .frame{--grade:rgba(7,9,14,.78)}
-#basecamp .frame,#summit .frame,#horizon .frame{--grade:rgba(5,9,18,.70)}
-:root[data-theme="light"] #call .frame{--grade:rgba(24,32,48,.62)}
-:root[data-theme="light"] #prep .frame{--grade:rgba(30,36,50,.56)}
-:root[data-theme="light"] #climb .frame{--grade:rgba(20,24,34,.66)}
+#prep .frame{--grade:rgba(10,14,24,.78)}
+#climb .frame{--grade:rgba(7,9,14,.80)}
+#basecamp .frame,#horizon .frame{--grade:rgba(5,9,18,.72)}
+#summit .frame{--grade:rgba(6,10,20,.76)}
+:root[data-theme="light"] .frame video{filter:brightness(1.06) saturate(1.03) contrast(.99)}
+:root[data-theme="light"] #call .frame{--grade:rgba(22,30,46,.74)}
+:root[data-theme="light"] #prep .frame{--grade:rgba(26,32,46,.78)}
+:root[data-theme="light"] #climb .frame{--grade:rgba(18,22,32,.82)}
 :root[data-theme="light"] #basecamp .frame,
-:root[data-theme="light"] #summit .frame,
-:root[data-theme="light"] #horizon .frame{--grade:rgba(26,32,46,.58)}
+:root[data-theme="light"] #horizon .frame{--grade:rgba(24,30,44,.72)}
+:root[data-theme="light"] #summit .frame{--grade:rgba(24,30,44,.76)}
 
-/* readability: stronger wash behind glass cards over bright footage */
-.has-video .card,body.m .has-still .card{background:rgba(7,13,24,.80)}
-.has-video .cform{background:rgba(7,13,24,.80)}
+/* type carries its own light: crisp core shadow + soft ambient halo,
+   so headlines and ledes hold even where footage flares bright */
+.has-video .content,body.m .has-still .content{
+  text-shadow:0 1px 2px rgba(2,5,10,.72),0 2px 10px rgba(2,5,10,.5),0 8px 34px rgba(2,5,10,.45)}
+
+/* glass surfaces: enough body to read over moving film; blur pulls the
+   footage into soft depth behind the panel instead of blacking it out */
+.has-video .card,body.m .has-still .card{background:rgba(7,13,24,.82)}
+.content.chap2 .card{background:rgba(8,13,22,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.content.chap2 .card .cbg img{opacity:.34}
+.pcc{background:rgba(8,13,22,.88)}
+.prep-vals{background:rgba(6,11,20,.76);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.camp-panel{background:rgba(8,13,22,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.nextup{background:rgba(8,13,22,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.journey{background:rgba(8,13,22,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+#horizon .horcta{background:rgba(8,13,22,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+#horizon .trail-card p{color:rgba(255,255,255,.72)}
+.sr-steps li i{background:rgba(6,11,20,.85)}
+
+/* quote bands become their own quiet panel instead of floating raw
+   over the film */
+.content.chap2 .qband{border-top:0;border:1px solid rgba(245,239,230,.14);border-radius:16px;
+  background:rgba(8,13,22,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  padding:16px 22px}
+
+/* nav: the landing is filmed edge to edge, so the header reads as
+   over-film chrome in both themes — a soft top gradient seats it, and
+   light mode keeps light ink instead of dropping dark ink onto film */
+nav::before{content:'';position:absolute;left:0;right:0;top:0;height:210%;pointer-events:none;z-index:-1;
+  background:linear-gradient(180deg,rgba(4,8,16,.58),rgba(4,8,16,.26) 55%,transparent)}
+:root[data-theme="light"] body.flow nav{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623;
+  --nav-border:rgba(245,239,230,.35);--bg:#0B1120;--rail:rgba(245,239,230,.18)}
+
+/* chapter pill: same over-film chrome — deep glass in both themes */
+.exp{background:rgba(8,13,22,.62);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-color:rgba(245,239,230,.28)}
+:root[data-theme="light"] body.flow .exp{--text:#F5EFE6;--muted:#C6CFDA;--rail:rgba(245,239,230,.22)}
+
+/* altitude readout + scroll hint hold over film in light mode too */
+.rail .alt{text-shadow:0 1px 2px rgba(2,5,10,.72),0 2px 10px rgba(2,5,10,.5)}
+:root[data-theme="light"] body.flow .rail .alt{color:#F5EFE6}
+:root[data-theme="light"] body.flow .rail .track{background:rgba(245,239,230,.28)}
+:root[data-theme="light"] body.flow .hint{color:#D3DAE3;text-shadow:0 1px 2px rgba(2,5,10,.6)}
+body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
+:root[data-theme="light"] body.m .mchip{color:#F5EFE6}
+
+/* contact form + inputs over any residual film */
+.has-video .cform{background:rgba(7,13,24,.82)}
 .has-video .cform input,.has-video .cform textarea{background:rgba(245,239,230,.10)}
-:root[data-theme="light"] .has-video .card,:root[data-theme="light"] body.m .has-still .card{background:rgba(7,13,24,.85)}
-:root[data-theme="light"] .has-video .cform{background:rgba(7,13,24,.85)}
+:root[data-theme="light"] .has-video .card,:root[data-theme="light"] body.m .has-still .card{background:rgba(7,13,24,.87)}
+:root[data-theme="light"] .has-video .cform{background:rgba(7,13,24,.87)}
 :root[data-theme="light"] .has-video .content,:root[data-theme="light"] body.m .has-still .content{
   --text:#F5EFE6;--muted:#D3DAE3;--accent-text:#F5A623}
 /* mobile audit fixes */
