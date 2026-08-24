@@ -44,7 +44,7 @@
 <meta property="og:title" content="Mind Palace — Metanoia Labs">
 <meta property="og:description" content="Know what's out there, and what to do about it.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 /* ═══ MIND PALACE — editorial layer of the Metanoia design system ═══ */
 :root{
@@ -53,7 +53,7 @@
   --gold-border:rgba(180,140,60,.16); --gold-border-hover:rgba(201,168,76,.38); --gold-glow:rgba(201,168,76,.12);
   --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92); --glass-blur:blur(20px);
   --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
-  --font:'Inter',sans-serif;
+  --font:'Roboto Condensed','Inter',sans-serif;
   --serif:'Playfair Display',Georgia,'Times New Roman',serif;
   /* Mind Palace aliases onto the shared system */
   --bg:var(--bg-base); --panel:var(--bg-panel); --glass:var(--glass-bg);
@@ -926,6 +926,11 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
 }
 @media (prefers-reduced-motion:reduce){.mg-art{transition:none !important}}
 
+</style>
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+.mp-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 </style>
 </head>
 <body>

@@ -41,7 +41,7 @@
 <meta property="og:description" content="Know where you are. Know where you're going. The career navigation system of the Metanoia Premium suite.">
 <meta property="og:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -54,7 +54,7 @@
     --stage-target:rgba(201,168,76,.15); --stage-applied:rgba(29,95,171,.15); --stage-assessment:rgba(13,115,119,.15);
     --stage-interview:rgba(132,67,156,.15); --stage-decision:rgba(22,163,74,.15);
     --status-active:#16A34A; --status-rejected:#DC2626; --status-withdrawn:rgba(255,255,255,.30); --status-offer:#F0D878;
-    --font:'Inter',sans-serif; --serif:"Playfair Display",Georgia,serif;
+    --font:'Roboto Condensed','Inter',sans-serif; --serif:"Playfair Display",Georgia,serif;
     color-scheme:dark;
   }
   /* ═══ LIGHT THEME — token flip (shared mt-theme key, site standard) ═══ */
@@ -620,6 +620,11 @@ if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}ca
 .flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
 button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
 @media(max-width:640px){.flg{width:16px;height:16px}}
+</style>
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+.course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 </style>
 </head>
 <body>

@@ -45,7 +45,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Enterprise — close the talent readiness gap. Your new hires are not underperforming. They were underprepared before they arrived.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/stage-graduation.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -54,7 +54,7 @@
     --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92); --glass-blur:blur(20px);
     --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
-    --font:'Inter',sans-serif;
+    --font:'Roboto Condensed','Inter',sans-serif;
     --serif:"Playfair Display",Georgia,"Times New Roman",serif;
   }
   :root[data-theme="light"]{
@@ -175,7 +175,7 @@
     background:linear-gradient(180deg,rgba(5,10,18,.35) 0%,rgba(5,10,18,.20) 40%,rgba(5,10,18,.55) 80%,rgba(5,10,18,.85) 100%)}
   .hero-content{position:relative;z-index:2;text-align:left;max-width:1060px;width:100%;
     padding:84px clamp(34px,5.5vw,68px) 150px;color:#fff;
-    --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif}
+    --disp:"Roboto Condensed","Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif}
   .hero-chapter-label{display:flex;align-items:center;justify-content:flex-start;gap:16px;margin-bottom:14px}
   .chapter-line{width:48px;height:1px;background:var(--gold);opacity:.6}
   .chapter-text{font-family:var(--disp);font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
@@ -1304,6 +1304,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .faq-q::before{width:30px;height:30px;margin-right:11px;font-size:11px}
   .faq-a{padding-left:57px !important;padding-right:16px !important}
 }
+</style>
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+.hero,.hero-content,.hero-scroll-cue{--font:'Inter',sans-serif;--font-display:'Inter',system-ui,sans-serif;--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:'Inter',sans-serif}
 </style>
 </head>
 <body>

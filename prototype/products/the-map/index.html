@@ -41,7 +41,7 @@
 <meta property="og:description" content="Know yourself before you climb. The self-discovery and career direction program at the heart of the Metanoia Premium suite.">
 <meta property="og:image" content="https://metanoialabs.net/assets/bg/map.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -50,7 +50,7 @@
     --glass-bg:rgba(8,14,26,.70); --glass-blur:blur(20px);
     --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
-    --font:'Inter',sans-serif; --serif:"Playfair Display",Georgia,serif;
+    --font:'Roboto Condensed','Inter',sans-serif; --serif:"Playfair Display",Georgia,serif;
     color-scheme:dark;
   }
   /* ═══ LIGHT THEME — token flip (shared mt-theme key, site standard) ═══ */
@@ -469,6 +469,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </style>
 <link rel="stylesheet" href="../../css/lms.css">
 <link rel="stylesheet" href="range-embed.css">
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+.course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
+</style>
 </head>
 <body>
 
