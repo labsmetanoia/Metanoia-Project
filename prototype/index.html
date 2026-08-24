@@ -251,7 +251,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #call h1{font-size:clamp(2.2rem,5.3vw,4.3rem);text-transform:uppercase;letter-spacing:-.015em;line-height:1.06;font-weight:800}
   #call h1 em{font-style:normal;color:var(--accent-text)}
   #call .whisper{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);margin-bottom:20px;letter-spacing:.01em;text-wrap:balance;max-width:30em}
-  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:31em;margin-top:24px;line-height:1.7;letter-spacing:.004em}
+  #call .sub{font-size:clamp(.98rem,1.6vw,1.15rem);color:var(--muted);max-width:28em;margin-top:24px;line-height:1.7;letter-spacing:.004em}
   .cta{display:inline-flex;align-items:center;gap:12px;margin-top:32px;text-decoration:none;font-weight:600;font-size:15.5px;
       color:var(--ember-ink);background:linear-gradient(120deg,var(--ember2),var(--ember));border-radius:999px;padding:15px 28px;
       box-shadow:0 8px 40px rgba(249,115,22,.35);transition:transform .2s ease;cursor:pointer;border:0}
@@ -326,15 +326,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     display:flex;align-items:center;justify-content:center;color:var(--accent-text);transition:border-color .2s,transform .2s}
   .prep-ghost:hover .ring{border-color:var(--accent-text);transform:translateY(2px)}
   .prep-ghost .ring svg{width:14px;height:14px}
-  .prep-vals{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:30px;
-    border:1px solid rgba(245,239,230,.16);border-radius:16px;background:rgba(6,11,20,.45);overflow:hidden}
-  .pv{display:flex;gap:12px;align-items:flex-start;padding:15px 17px;border-left:1px solid rgba(245,239,230,.12)}
-  .pv:first-child{border-left:none}
-  .pv-ico{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 55%,transparent);
-    color:var(--accent-text);display:flex;align-items:center;justify-content:center}
-  .pv-ico svg{width:17px;height:17px}
-  .pv b{font-size:13px;color:var(--text)}
-  .pv p{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.45}
   .prep-cards{grid-area:cards;pointer-events:auto}
   .pc-label{display:block;font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--accent-text);margin-bottom:11px}
   .pc-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(218px,258px);gap:14px;overflow-x:auto;
@@ -356,12 +347,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .pc-dots i{width:16px;height:3px;border-radius:99px;background:rgba(245,239,230,.25);transition:background .25s}
   .pc-dots i.on{background:var(--accent-text)}
   @media(max-width:1180px){.prep2{grid-template-columns:1fr}.steprail{display:none}}
-  @media(min-width:761px) and (max-height:848px){.pcc-img{aspect-ratio:16/6}.prep-vals{margin-top:22px}}
-  @media(min-width:761px) and (max-height:720px){.prep-vals{display:none}}
-  @media(max-width:900px){.prep-vals{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .pv{border-left:none;border-top:1px solid rgba(245,239,230,.12)}
-    .pv:nth-child(-n+2){border-top:none}.pv:nth-child(even){border-left:1px solid rgba(245,239,230,.12)}}
-  @media(max-width:1180px){#prep .content.prep2{grid-template-columns:1fr;grid-template-areas:"main" "cards"}}
+  @media(min-width:761px) and (max-height:848px){.pcc-img{aspect-ratio:16/6}}
+  
 
   /* ── Chapter II · reference composition (shares the chapter-rail system) ── */
   #climb .content.climb2{display:grid;grid-template-columns:230px minmax(0,1fr);
@@ -472,23 +459,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .cp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
   .cp-list li{display:flex;gap:9px;font-size:12px;color:var(--muted);align-items:flex-start;line-height:1.5}
   .cp-list li svg{width:14px;height:14px;color:var(--accent-text);flex:none;margin-top:2px}
-  .cp-ess{display:flex;gap:10px;padding-top:2px}
-  .cp-ess i{width:34px;height:34px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent);
-    color:var(--accent-text);display:flex;align-items:center;justify-content:center}
-  .cp-ess svg{width:15px;height:15px}
-  .nextup{grid-area:next;margin-bottom:44px;border:1px solid rgba(245,239,230,.14);border-radius:16px;background:rgba(8,13,22,.5);
-    padding:13px 18px;display:flex;gap:clamp(12px,2.2vw,28px);align-items:center;flex-wrap:wrap}
-  .nu-label{font-size:10px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--accent-text)}
-  .nu-card{display:flex;gap:12px;align-items:center;background:none;border:0;cursor:pointer;color:var(--text);
-    text-align:left;font-family:inherit;padding:6px 8px;border-radius:12px;transition:background .2s}
-  .nu-card:hover{background:rgba(245,239,230,.06)}
-  .nu-thumb{flex:none;width:74px;height:52px;border-radius:10px;overflow:hidden;border:1px solid rgba(245,239,230,.2)}
-  .nu-thumb img{width:100%;height:100%;object-fit:cover;display:block}
-  .nu-card i{font-style:normal;font-size:14px;color:var(--muted);font-weight:700;margin-right:3px}
-  .nu-card b{font-size:13px}
-  .nu-card p{font-size:11.5px;color:var(--muted);margin-top:2px;max-width:210px;line-height:1.45}
   @media(max-width:1180px){#basecamp .content.base2{grid-template-columns:1fr;
-    grid-template-areas:"main" "cards" "side" "quote" "next"}}
+    grid-template-areas:"main" "cards" "side" "quote"}}
 
   /* ── Chapter IV · summit composition ── */
   #summit .content.summit2{display:grid;grid-template-columns:230px minmax(0,1fr);
@@ -574,7 +546,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   @media(max-width:900px){.hc-div{display:none}#horizon .horcta .cta{margin-left:0;width:100%;justify-content:center}}
 
 
-  #summit .content{text-align:center}
+  #summit .content{text-align:left}
   #summit h2{max-width:none;font-size:clamp(2.2rem,6vw,4.4rem);text-transform:uppercase}
   #summit .lede{margin-left:auto;margin-right:auto;text-wrap:balance;max-width:31em}
   .stats{display:flex;justify-content:center;gap:44px;margin-top:40px;flex-wrap:wrap}
@@ -582,8 +554,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .stat span{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
   #summit .voice{margin-left:auto;margin-right:auto}
 
-  #horizon .content{text-align:center}
-  #horizon .voice,#horizon h2,#horizon .lede{margin-left:auto;margin-right:auto}
+  #horizon .content{text-align:left}
+  #horizon .voice,#horizon h2,#horizon .lede{margin-left:0;margin-right:0}
   #horizon .lede{text-wrap:balance;max-width:34em}
   /* Horizon — tightened vertical rhythm so the primary CTA lands within the
      first viewport (the 8-trail grid + CTA are the conversion moment) */
@@ -605,11 +577,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   /* Basecamp keeps its firelight character: ember-warm glass */
   #basecamp .content.chap2 .card{background:rgba(28,17,8,.86);border-color:rgba(249,160,60,.26)}
   #basecamp .content.chap2 .card .badge{background:rgba(30,16,5,.6)}
-  #basecamp .content.base2{grid-template-areas:"rail main side" "rail cards cards" "quote quote quote" "next next next"}
+  #basecamp .content.base2{grid-template-areas:"rail main side" "rail cards cards" "quote quote quote"}
   #basecamp .camp-panel{align-self:stretch}
-  .nu-thumb{width:92px;height:60px}
-  .nu-card{transition:background .2s,transform .2s}
-  .nu-card:hover{transform:translateY(-2px)}
+  #basecamp .qband{margin-bottom:44px}
 
   /* Chapter IV — left-anchored opening, claim tiles read icon-left */
   #summit .content.summit2{text-align:left;row-gap:clamp(16px,2.4vh,26px)}
@@ -1026,9 +996,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .content.chap2 .card{background:rgba(8,13,22,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 .content.chap2 .card .cbg img{opacity:.34}
 .pcc{background:rgba(8,13,22,.88)}
-.prep-vals{background:rgba(6,11,20,.76);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 .camp-panel{background:rgba(8,13,22,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
-.nextup{background:rgba(8,13,22,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .journey{background:rgba(8,13,22,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 #horizon .horcta{background:rgba(8,13,22,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 #horizon .trail-card p{color:rgba(255,255,255,.72)}
@@ -1397,7 +1365,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
           <span data-i18n="hero.l2">never meant to be</span><br>
           <span data-i18n="hero.l3">navigated <em>alone.</em></span>
         </h1>
-        <p class="sub fx d2" data-i18n="hero.sub">The career mountain was always climbable. You were just never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.</p>
+        <p class="sub fx d2" data-i18n="hero.sub">You were never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.</p>
         <div class="fx d3"><button class="cta" data-goto="1"><span data-i18n="hero.cta">Begin the Climb</span>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button></div>
@@ -1428,12 +1396,6 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
             <a class="cta" href="career-map-assessment.html"><span data-i18n="prep.cta1">Start your diagnostic</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             <button class="prep-ghost" type="button" data-goto="2"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
-          </div>
-          <div class="prep-vals fx d4">
-            <div class="pv"><span class="pv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/></svg></span><div><b data-i18n="prep.v1h">Clarity</b><p data-i18n="prep.v1p">Know where you stand before you climb.</p></div></div>
-            <div class="pv"><span class="pv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg></span><div><b data-i18n="prep.v2h">Direction</b><p data-i18n="prep.v2p">A personalized route, not a generic path.</p></div></div>
-            <div class="pv"><span class="pv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7V5.5a4 4 0 0 1 8 0V7"/><path d="M5.5 7h13l1 12.5a1.8 1.8 0 0 1-1.8 2H6.3a1.8 1.8 0 0 1-1.8-2Z"/></svg></span><div><b data-i18n="prep.v3h">Readiness</b><p data-i18n="prep.v3p">Preparation built from real hiring processes.</p></div></div>
-            <div class="pv"><span class="pv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19.5 9.5 8l3.2 4.6L16 7l5 12.5"/><circle cx="16" cy="7" r="1.5"/></svg></span><div><b data-i18n="prep.v4h">Elevation</b><p data-i18n="prep.v4p">Progress you can see, stage by stage.</p></div></div>
           </div>
         </div>
       <div class="prep-cards fx d4">
@@ -1527,8 +1489,6 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p3">Share experiences</span></li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p4">Prepare for what&rsquo;s ahead</span></li>
           </ul>
-          <div class="cp-h" data-i18n="base.pe">Basecamp essentials</div>
-          <div class="cp-ess" aria-hidden="true"><i><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></i><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.4-6.5-10.3A6.5 6.5 0 0 1 12 4.2a6.5 6.5 0 0 1 6.5 6.5C18.5 15.6 12 21 12 21Z"/><circle cx="12" cy="10.6" r="2.2"/></svg></i></div>
         </aside>
         <div class="cards">
           <div class="card warm fx d1"><span class="cbg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span class="k" data-i18n="base.c1k">Cohorts</span></span><h3 data-i18n="base.c1h">Your expedition party</h3><p data-i18n="base.c1p">Twenty climbers, one route, shared wins. When Sinta gets her offer, the whole camp feels the fire rise.</p></div>
@@ -1546,16 +1506,10 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
-        <div class="nextup fx d4">
-          <span class="nu-label" data-i18n="base.nu">Next up</span>
-          <button type="button" class="nu-card" data-goto="4"><span class="nu-thumb"><img src="assets/m/05-summit.jpg" alt="" loading="lazy" decoding="async"></span><span><i>04</i> <b data-i18n="climb.s4">Sunrise</b><p data-i18n="summit.h2">When can you start?</p></span></button>
-          <button type="button" class="nu-card" data-goto="5"><span class="nu-thumb"><img src="assets/m/06-horizon.jpg" alt="" loading="lazy" decoding="async"></span><span><i>05</i> <b data-i18n="climb.s5">The range beyond</b><p data-i18n="hor.h2">From this summit, you can see the others.</p></span></button>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- SCENE 5 · SUMMIT -->
   <!-- SCENE 5 · SUMMIT -->
   <section class="sceneCard" id="summit">
     <div class="frame">
@@ -1631,7 +1585,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
         <div class="hor-main">
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="climb.s5">The range beyond</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
           <h2 class="fx"><span data-i18n="hor.h2a">From this summit, you can</span> <em data-i18n="hor.h2b">see the others.</em></h2>
-          <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain. Skills shift, industries move, new peaks rise from the fog. Metanoia stays on your rope for all of them — reskilling routes, market intelligence, a lifelong career passport. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
+          <p class="lede fx d1" data-i18n="hor.lede">Careers are no longer one mountain — skills shift and new peaks rise from the fog. Metanoia stays on your rope for all of them. And one day, you'll stand at basecamp again: this time holding the map for someone else.</p>
           <p class="voice fx d2" data-i18n="hor.voice">“Metanoia — <em>a transformative change of heart.</em> It was never about the job. It was about who climbs.”</p>
         </div>
         <div class="paths-wrap fx d2">
@@ -1715,7 +1669,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
       'hint':'Scroll to move through the expedition',
       'hero.whisper':'Somewhere beyond the fog, there is a version of you that made it.',
       'hero.l1':'Your future was','hero.l2':'never meant to be','hero.l3':'navigated <em>alone.</em>',
-      'hero.sub':"The career mountain was always climbable. You were just never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.",
+      'hero.sub':"You were never given the map, the gear, or the rope team. Metanoia is all three — the career operating system for everyone the system forgot.",
       'hero.cta':'Begin the Climb',
       'nav.cta':'Free Career Map','nav.cta2':'Get your free Career Map →',
       'climb.cta':'Find your starting point — free, 15 minutes',
@@ -1828,7 +1782,7 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
       'hint':'Scroll untuk menjelajahi ekspedisinya',
       'hero.whisper':'Di balik kabut tebal di depanmu, ada versi dirimu yang telah berhasil mencapai puncak.',
       'hero.l1':'Masa depanmu tak','hero.l2':'seharusnya didaki','hero.l3':'<em>sendirian.</em>',
-      'hero.sub':'Gunung karier sebenarnya selalu bisa didaki. Hanya saja, banyak orang tidak pernah dibekali peta, persiapan, maupun tim pemandu yang tepat. Metanoia hadir sebagai teman perjalananmu—membimbing setiap langkah hingga mencapai puncak karier impianmu.',
+      'hero.sub':'Kamu hanya tak pernah dibekali peta, perlengkapan, dan tim pemandu. Metanoia adalah ketiganya — sistem operasi karier untuk siapa pun yang dilupakan sistem.',
       'hero.cta':'Mulai Pendakian',
       'nav.cta':'Career Map Gratis','nav.cta2':'Ambil Career Map Gratis →',
       'climb.cta':'Temukan titik awalmu — gratis, 15 menit',
