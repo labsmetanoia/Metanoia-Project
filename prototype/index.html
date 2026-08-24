@@ -365,7 +365,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
   /* ── Chapter II · reference composition (shares the chapter-rail system) ── */
   #climb .content.climb2{display:grid;grid-template-columns:230px minmax(0,1fr);
-    grid-template-areas:"rail main" "rail cards" "rail quote";
+    grid-template-areas:"rail main" "rail cards" "quote quote";
     column-gap:clamp(28px,4vw,66px);row-gap:clamp(22px,3.4vh,36px);
     align-items:start;align-content:center;width:100%;max-width:1280px;margin:0 auto;text-align:left}
   #climb .steprail{grid-area:rail}
@@ -402,6 +402,53 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   @media(max-width:900px){.content.chap2 .cards{grid-template-columns:1fr}
     .content.chap2 .card{min-height:0}
     .chap2 .qdiv{display:none}}
+
+  /* ── Chapter II refinement — premium card band + quote panel ── */
+  #climb .content.chap2 .cards{gap:20px}
+  #climb .content.chap2 .card{min-height:298px;padding:22px 24px 128px;border-radius:18px;
+    border-color:rgba(245,239,230,.18)}
+  #climb .content.chap2 .card::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
+    background:linear-gradient(90deg,transparent,rgba(245,166,35,.55),transparent);opacity:0;transition:opacity .35s ease}
+  #climb .content.chap2 .card:hover{transform:translateY(-6px)}
+  #climb .content.chap2 .card:hover::before{opacity:1}
+  #climb .content.chap2 .card .badge{width:48px;height:48px;transition:box-shadow .35s ease}
+  #climb .content.chap2 .card:hover .badge{box-shadow:0 0 0 4px rgba(245,166,35,.12),0 0 22px rgba(245,166,35,.28)}
+  #climb .content.chap2 .card h3{font-size:clamp(19px,1.55vw,21.5px);margin-bottom:9px}
+  #climb .content.chap2 .card p{font-size:12.5px;line-height:1.66;max-width:30em}
+  #climb .content.chap2 .card .kick{margin-bottom:13px}
+  /* imagery carries the lower half of the card, fading in under the copy */
+  #climb .card .cbg{height:58%}
+  #climb .card .cbg img{opacity:.85;
+    -webkit-mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);
+    mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);
+    transition:transform .8s cubic-bezier(.22,.8,.3,1)}
+  #climb .card:hover .cbg img{transform:scale(1.05)}
+  #climb .card .cbg img[src*="04-basecamp"]{object-position:50% 46%}
+  /* AI Coach: the living route — a glowing dotted ascent to a lit waypoint */
+  .cart{position:absolute;left:0;right:0;bottom:0;height:60%;z-index:0;pointer-events:none;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 32%);mask-image:linear-gradient(180deg,transparent,#000 32%)}
+  .cart svg{width:100%;height:100%;display:block}
+  .cart .crt{filter:drop-shadow(0 0 6px rgba(245,166,35,.55));animation:routeDrift 16s linear infinite}
+  @keyframes routeDrift{to{stroke-dashoffset:-96}}
+  @media (prefers-reduced-motion: reduce){.cart .crt{animation:none}}
+  /* quote panel: larger voice, flag waypoint, commanding CTA */
+  #climb .qband{padding:22px 30px;gap:clamp(18px,2.8vw,38px)}
+  #climb .qband .qdiv{display:none}
+  #climb .qband .qcta{margin-left:auto}
+  #climb .qband .qmark{width:44px;height:44px}
+  #climb .qband .voice{font-size:clamp(1.12rem,2vw,1.5rem);line-height:1.42;max-width:22em}
+  #climb .qband .qclock{width:50px;height:50px}
+  #climb .qband .qclock svg{width:20px;height:20px}
+  #climb .qband .qcta b{font-size:16px}
+  #climb .qband .qcta b+span,#climb .qband .qcta div>span{font-size:13px}
+  #climb .qband .qcta .cta{padding:15px 30px;font-size:15px}
+  @media(max-width:900px){
+    #climb .content.chap2 .card{min-height:0;padding-bottom:132px}
+    #climb .card .cbg,#climb .cart{height:46%}
+    #climb .qband{padding:20px 20px}
+    #climb .qband .qcta{width:100%}
+    #climb .qband .qcta .cta{margin-left:auto}
+  }
 
   /* ── Chapter III · basecamp composition ── */
   #basecamp .content.base2{display:grid;grid-template-columns:230px minmax(0,1fr) 296px;
@@ -1387,16 +1434,16 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
           <p class="lede fx d2" data-i18n="climb.lede">Rejection. Ghosting. Doubt that sounds like your own voice. This is where most climbers turn back — not because they're weak, but because they're climbing alone. You won't be.</p>
         </div>
         <div class="cards">
-          <div class="card fx d1"><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”</p></div>
+          <div class="card fx d1"><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”</p><span class="cart" aria-hidden="true"><svg viewBox="0 0 320 200" fill="none" preserveAspectRatio="xMidYMax slice"><path d="M42 200 L128 78 L172 128 L232 30 L320 200" stroke="rgba(245,239,230,.10)" stroke-width="1.4" stroke-linejoin="round"/><path d="M232 30 L286 118 L320 96" stroke="rgba(245,239,230,.07)" stroke-width="1.2"/><path class="crt" d="M20 196 C 74 176, 60 154, 108 140 C 150 128, 118 108, 158 92 C 196 77, 178 62, 224 38" stroke="#F5A623" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="1 11"/><circle cx="108" cy="140" r="2.4" fill="#F5A623" opacity=".65"/><circle cx="158" cy="92" r="2.4" fill="#F5A623" opacity=".65"/><circle cx="224" cy="38" r="9" fill="#F5A623" opacity=".16"/><circle cx="224" cy="38" r="4" fill="#F5A623"/></svg></span></div>
           <div class="card fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/rope-team.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></span><span class="k" data-i18n="climb.c2k">Rope Team</span></span><h3 data-i18n="climb.c2h">Peers on the same face</h3><p data-i18n="climb.c2p">Matched practice partners at your stage. Trade mock interviews. Catch each other's falls. Every session is a gift that comes back.</p></div>
-          <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/m/05-summit.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 L11 10 L12.8 12.4 L15.5 8.8"/></svg></span><span class="k" data-i18n="climb.c3k">Resilience</span></span><h3 data-i18n="climb.c3h">Weatherproofing the mind</h3><p data-i18n="climb.c3p">Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.</p></div>
+          <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 L11 10 L12.8 12.4 L15.5 8.8"/></svg></span><span class="k" data-i18n="climb.c3k">Resilience</span></span><h3 data-i18n="climb.c3h">Weatherproofing the mind</h3><p data-i18n="climb.c3p">Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.</p></div>
         </div>
         <div class="qband fx d4">
           <span class="qmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 12.5C4 8.9 6.2 6.2 9.6 5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2C5.6 17 4 15.2 4 12.5Zm9 0c0-3.6 2.2-6.3 5.6-7.5l.7 1.6c-2 1-3.1 2.5-3.3 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3.1 0 1.9-1.4 3.2-3.3 3.2-2.2 0-3.8-1.8-3.8-4.5Z"/></svg></span>
           <p class="voice" data-i18n="climb.voice">“You are not failing. <em>You've been climbing without a rope team.</em>”</p>
           <span class="qdiv" aria-hidden="true"></span>
           <div class="qcta">
-            <span class="qclock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+            <span class="qclock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 5h11l-2.6 3.5L17 12H6"/></svg></span>
             <div><b data-i18n="climb.qh">Find your starting point</b><span data-i18n="climb.qs">Free. 15 minutes.</span></div>
             <a class="cta" href="career-map-assessment.html"><span data-i18n="prep.cta1">Start your diagnostic</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
