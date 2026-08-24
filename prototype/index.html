@@ -38,7 +38,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <meta property="og:url" content="https://metanoialabs.net/">
 <link rel="preload" as="video" href="assets/01-call-v2.mp4" type="video/mp4" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   :root{
     --ember:#F97316; --ember2:#F59E0B; --accent-text:#F59E0B;
@@ -49,7 +49,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     --nav-border:rgba(245,239,230,.35); --nav-blend:normal;
     --frame-scrim:rgba(5,10,20,.38); --frame-edge:rgba(245,239,230,.16);
     --vig:rgba(0,0,0,.42); --grain-o:.05; --ember-ink:#160d03;
-    --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
+    --disp:"Roboto Condensed","Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
     --serif:"Playfair Display",Georgia,"Times New Roman",serif;
     color-scheme: dark;
   }
@@ -2391,3 +2391,8 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
   },{passive:true});
 })();
 </script>
+<style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+#call .content{--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:var(--disp)}
+</style>

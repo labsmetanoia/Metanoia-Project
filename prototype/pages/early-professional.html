@@ -45,7 +45,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -54,7 +54,7 @@
     --glass-bg:rgba(8,14,26,.70); --glass-bg-heavy:rgba(8,14,26,.92); --glass-blur:blur(20px);
     --text:#FFFFFF; --text-sub:rgba(255,255,255,.82); --text-muted:rgba(255,255,255,.55); --text-faint:rgba(255,255,255,.30);
     --cobalt:#1D5FAB; --teal:#0D7377; --amber:#B45309; --forest:#1A5C38;
-    --font:'Inter',sans-serif;
+    --font:'Roboto Condensed','Inter',sans-serif;
     --serif:"Playfair Display",Georgia,"Times New Roman",serif;
   }
   :root[data-theme="light"]{
@@ -172,7 +172,7 @@
   /* Home-page hero design system: same display stack, type scale, container and spacing as landing #call */
   .hero-content{position:relative;z-index:2;text-align:left;max-width:1060px;width:100%;color:#fff;
     padding:84px clamp(34px,5.5vw,68px) 150px;
-    --disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif}
+    --disp:"Roboto Condensed","Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif}
   .hero-pill{display:inline-flex;align-items:center;gap:14px;margin-bottom:14px;font-family:var(--disp);
     font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:#E8C766}
   .hero-pill::before,.hero-pill::after{content:'';width:44px;height:1px;background:rgba(201,168,76,.6)}
@@ -1592,7 +1592,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .faq-a{padding-left:57px !important;padding-right:16px !important}
 }
 </style>
-<style id="heroEmGold">.hero h1 em,h1.hero-h em{font-style:normal;color:var(--gold,#E8C766)}#hero h1 em{font-style:normal;color:var(--gold,#E8C766)}</style></head>
+<style id="heroEmGold">.hero h1 em,h1.hero-h em{font-style:normal;color:var(--gold,#E8C766)}#hero h1 em{font-style:normal;color:var(--gold,#E8C766)}</style><style id="rcHeroKeep">
+/* Hero typography preserved — Roboto Condensed is the global face,
+   but each page hero keeps its original type exactly as designed. */
+.hero,.hero-content,.hero-scroll-cue{--font:'Inter',sans-serif;--font-display:'Inter',system-ui,sans-serif;--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:'Inter',sans-serif}
+</style>
+</head>
 <body>
 <!-- ═══ NAV (inherited from student.html) ═══ -->
 <nav id="topNav">
