@@ -475,6 +475,20 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .cp-foot i svg{width:100%;display:block}
   .cp-foot b{display:block;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text)}
   .cp-foot span{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}
+  /* field notes under the lede — real destinations fill the column the panel outgrew */
+  .camp-log{margin-top:24px;display:flex;flex-direction:column;gap:10px;max-width:560px}
+  .camp-log a{display:flex;gap:13px;align-items:center;text-decoration:none;color:inherit;
+    border:1px solid rgba(245,239,230,.14);border-radius:13px;padding:12px 15px;
+    background:rgba(8,13,22,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    transition:border-color .25s,transform .25s}
+  .camp-log a:hover{border-color:rgba(201,168,76,.5);transform:translateY(-1px)}
+  .camp-log i{flex:none;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    border:1.5px solid var(--accent-text);color:var(--accent-text)}
+  .camp-log i svg{width:15px;height:15px}
+  .camp-log b{display:block;font-size:12.5px;font-weight:800;letter-spacing:.04em;color:var(--text)}
+  .camp-log a>div span{display:block;font-size:12.5px;color:var(--muted);margin-top:1px;line-height:1.45}
+  .camp-log .arr{flex:none;margin-left:auto;color:var(--accent-text);opacity:.7;width:15px}
+  body.m .camp-log{display:none}
   @media(max-width:1180px){#basecamp .content.base2{grid-template-columns:1fr;
     grid-template-areas:"main" "cards" "side" "quote"}}
 
@@ -1780,6 +1794,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="eyewrap fx"><span class="eyebrow" data-i18n="base.eye">Basecamp</span><span class="eyeline"></span><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg><span class="eyeline"></span></div>
           <h2 class="fx d1"><span data-i18n="base.h2a">Every summit story was first told</span> <em data-i18n="base.h2b">around a fire.</em></h2>
           <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.</p>
+          <div class="camp-log fx d3" aria-label="Field notes">
+            <a href="pages/mind-palace"><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg></i><div><b data-i18n="base.n1">The camp library</b><span data-i18n="base.n1d">Mind Palace — signals, playbooks and perspectives, open to every climber.</span></div><svg class="arr" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="pages/mentors"><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c1.8 2.6 4.9 4.7 4.9 8.3A4.9 4.9 0 0 1 12 16.7a4.9 4.9 0 0 1-4.9-4.9c0-1.4.5-2.6 1.3-3.8.6 1 1.4 1.6 2.2 1.8-.4-2.2.2-4.5 1.4-6.3Z"/><path d="M8.5 20.5h7"/></svg></i><div><b data-i18n="base.n2">Guides wanted</b><span data-i18n="base.n2d">Stood on a summit? The fire always has room for one more voice.</span></div><svg class="arr" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="pricing"><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12.6 3.5 20.5 11.4a2 2 0 0 1 0 2.8l-6.3 6.3a2 2 0 0 1-2.8 0L3.5 12.6V3.5h9.1Z"/><circle cx="8" cy="8" r="1.4"/></svg></i><div><b data-i18n="base.n3">Open during beta</b><span data-i18n="base.n3d">Every tool is Rp 0 while we build with the community.</span></div><svg class="arr" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
         </div>
         <aside class="camp-panel fx d2" aria-label="Basecamp">
           <div class="cp-head"><span class="cp-ico cp-med"><img src="assets/asset-medallion.png" alt="" decoding="async"></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
@@ -2043,6 +2062,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.c3k':'Alumni','base.c3h':'The ones who returned',
       'base.c3p':'Every climber who summits is invited back as a guide. The mountain gets easier for everyone who follows.',
       'base.voice':'“The most important gear on any mountain <em>is other people.</em>”',
+      'base.n1':'The camp library','base.n1d':'Mind Palace — signals, playbooks and perspectives, open to every climber.',
+      'base.n2':'Guides wanted','base.n2d':'Stood on a summit? The fire always has room for one more voice.',
+      'base.n3':'Open during beta','base.n3d':'Every tool is Rp 0 while we build with the community.',
       'base.h2a':'Every summit story was first told','base.h2b':'around a fire.',
       'base.ph':'What happens here',
       'base.p1':'Build trust & connections','base.p2':'Learn from real journeys',
@@ -2184,6 +2206,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.c3k':'Alumni','base.c3h':'Mereka yang kembali',
       'base.c3p':'Setiap pendaki yang sampai ke puncak diundang kembali sebagai pemandu. Gunung ini jadi lebih ramah bagi siapa pun yang menyusul.',
       'base.voice':'“Perlengkapan terpenting dalam setiap pendakian bukanlah perlengkapannya, <em>melainkan kerja sama antar manusianya.</em>”',
+      'base.n1':'Perpustakaan kamp','base.n1d':'Mind Palace — sinyal, playbook, dan perspektif, terbuka untuk setiap pendaki.',
+      'base.n2':'Dicari: pemandu','base.n2d':'Pernah berdiri di puncak? Api unggun ini selalu punya ruang untuk satu suara lagi.',
+      'base.n3':'Terbuka selama beta','base.n3d':'Setiap tool Rp 0 selama kami membangun bersama komunitas.',
       'summit.ch':'Bab IV · Matahari terbit','summit.h2':'Kapan kamu bisa mulai?',
       'summit.lede':'Kredensial terverifikasi berbicara lebih kuat daripada sekadar nama kampus. Recruiter melihat kualitas karyamu sebelum melihat latar belakangmu. Saat menerima penawaran kerja, kamu dapat bernegosiasi dengan lebih percaya diri, karena bersama Metanoia, kamu telah mempersiapkan semuanya seakan pernah mengalaminya.',
       'summit.s1':'Kesiapan di puncak','summit.s2':'Offer di tangan','summit.s3':'Hari pendakian','summit.s4':'Yang berubah',
@@ -2843,3 +2868,121 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   sync();
 })();
 </script>
+
+
+<style id="siteFooterCss">
+/* ═══ Global footer — one component across the ecosystem ═══ */
+.site-footer{position:relative;z-index:2;border-top:1px solid rgba(201,168,76,.24);background:#070C15;
+  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  padding:56px 0 30px;text-align:left}
+.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
+.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sf-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5EFE6}
+.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
+.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
+.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13px}
+.sf-mail:hover{color:#F0D878}
+.sf-soc{font-size:12.5px;color:#6E7887;letter-spacing:.04em}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
+.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:4.5px 0;font-size:13.5px;transition:color .2s}
+.sf-col a:hover{color:#F0D878}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;
+  border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#B9C2CE;text-decoration:none}
+.sf-bottom a:hover{color:#F0D878}
+/* the footer keeps its night palette in both themes — a deliberate boundary */
+:root[data-theme="light"] .site-footer{background:#0D1422;border-top-color:rgba(139,105,20,.35)}
+@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
+body.m .site-footer{display:none}
+/* the fixed journey rail floats at the viewport foot on the flow page */
+body.flow .site-footer{padding-bottom:96px}
+</style>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="sf-in">
+    <div class="sf-grid">
+      <div class="sf-brand">
+        <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          </svg>
+          <span class="sfb" aria-hidden="true"></span>
+          <span><b>Metanoia</b><i>Labs</i></span>
+        </a>
+        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
+        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span> — LinkedIn · Instagram · TikTok</span>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
+        <a href="pages/student" data-en="Student" data-id="Mahasiswa">Student</a>
+        <a href="pages/fresh-graduate">Fresh Graduate</a>
+        <a href="pages/early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+        <a href="pages/mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+        <a href="pages/enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+        <a href="pages/mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Platform" data-id="Platform">Platform</span>
+        <a href="products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
+        <a href="products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
+        <a href="products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
+        <a href="products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
+        <a href="products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Resources" data-id="Sumber Daya">Resources</span>
+        <a href="pages/mind-palace">Mind Palace</a>
+        <a href="career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+        <a href="pages/fresh-graduate#gauntlet-journey">The Gauntlet</a>
+        <a href="pricing" data-en="Pricing" data-id="Harga">Pricing</a>
+        <a href="help" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Company" data-id="Perusahaan">Company</span>
+        <a href="pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+        <a href="login" data-en="Sign in" data-id="Masuk">Sign in</a>
+        <a href="register" data-en="Create account" data-id="Buat akun">Create account</a>
+      </div>
+    </div>
+    <div class="sf-bottom">
+      <span data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</span>
+      
+      <span class="sf-legal">
+        <a href="legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
+        <a href="legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
+        <a href="legal/data-dignity">Data Dignity</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script id="siteFooterLangJs">
+/* the flow page speaks data-i18n; the footer speaks data-en/data-id — bridge it */
+(function(){
+  var f = document.getElementById('siteFooter');
+  if(!f) return;
+  function sweep(l){
+    f.querySelectorAll('[data-en]').forEach(function(el){
+      var v = l === 'id' ? el.getAttribute('data-id') : el.getAttribute('data-en');
+      if(v != null) el.innerHTML = v;
+    });
+  }
+  var en = document.getElementById('langEn'), id = document.getElementById('langId');
+  var stored = null;
+  try{ stored = localStorage.getItem('mt-lang') || localStorage.getItem('mtLang'); }catch(e){}
+  sweep(stored === 'id' ? 'id' : 'en');
+  if(en) en.addEventListener('click', function(){ sweep('en'); });
+  if(id) id.addEventListener('click', function(){ sweep('id'); });
+})();
+</script>
+
