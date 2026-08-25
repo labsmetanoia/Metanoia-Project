@@ -1394,25 +1394,50 @@ body.m .paths-wrap .lede{display:none}
 body.m #summit .summit-main .voice{margin-top:12px}
 
 
-/* ═══ Rukita-style chapter tabs: one destination at a time ═══ */
+/* ═══ Folder-style chapter tabs — the open folder fuses with its page ═══ */
 .mtabs{display:none}
+body.m{--paper:#0D1422;--paper-ink-ok:1}
+:root[data-theme="light"] body.m{--paper:#FFFFFF}
 body.m .mtabs{position:sticky;top:58px;z-index:12;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;
-  padding:10px 12px 8px;background:color-mix(in srgb,var(--bg) 88%,transparent);
-  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--hair)}
+  padding:12px 12px 0;background:var(--bg);border-bottom:1px solid var(--hair)}
 body.m .mtabs::-webkit-scrollbar{display:none}
-body.m .mtabs button{flex:none;display:flex;flex-direction:column;align-items:center;gap:5px;min-width:72px;
-  padding:7px 9px 9px;border:0;background:none;color:var(--muted);font-family:inherit;font-size:9.5px;
-  font-weight:700;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;border-radius:12px;
-  position:relative;transition:color .25s ease,transform .15s ease}
+body.m .mtabs button{flex:none;display:flex;flex-direction:column;align-items:center;gap:5px;min-width:76px;
+  padding:9px 12px 11px;border:1px solid transparent;border-bottom:0;background:none;color:var(--muted);
+  font-family:inherit;font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;
+  border-radius:14px 14px 0 0;position:relative;transition:color .25s ease,background .25s ease,transform .15s ease}
 body.m .mtabs button svg{width:21px;height:21px}
-body.m .mtabs button::after{content:'';position:absolute;bottom:1px;width:22px;height:2.5px;border-radius:99px;
-  background:var(--accent-text);opacity:0;transform:scaleX(.4);transition:opacity .25s ease,transform .3s ease}
-body.m .mtabs button.on{color:var(--accent-text)}
-body.m .mtabs button.on::after{opacity:1;transform:none}
+body.m .mtabs button.on{background:var(--paper);color:var(--accent-text);border-color:var(--hair);
+  margin-bottom:-1px;box-shadow:0 -8px 20px rgba(0,0,0,.10)}
 body.m .mtabs button:active{transform:scale(.95)}
-/* one destination visible at a time; the finale always closes the story */
+/* the open folder's page: chapters rest on clean paper, no imagery */
+body.m #prep,body.m #climb,body.m #basecamp,body.m #summit,body.m #horizon,body.m .mp-tease{background:var(--paper)}
 body.m .sceneCard.mhide{display:none}
 body.m .exp{display:none}
+
+/* story chain: every chapter hands over to the next */
+.mnext{display:none}
+body.m .mnext{display:flex;align-items:center;gap:10px;width:100%;margin-top:26px;padding:15px 17px;
+  border:1px solid var(--hair);border-radius:14px;background:none;color:var(--text);cursor:pointer;
+  font-family:inherit;text-align:left;transition:border-color .2s,transform .15s}
+body.m .mnext span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+body.m .mnext b{font-size:14px;margin-left:auto;color:var(--accent-text)}
+body.m .mnext svg{flex:none;color:var(--accent-text)}
+body.m .mnext:active{transform:scale(.985);border-color:var(--accent-text)}
+
+/* Mind Palace bridge — the knowledge layer before the fire stays lit */
+.mp-tease{display:none}
+body.m .mp-tease{display:block;position:relative;z-index:2;padding:60px 20px 80px;border-top:1px solid var(--hair)}
+body.m .mp-tease h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.45rem,6vw,1.8rem);
+  line-height:1.2;margin:12px 0 10px;color:var(--text)}
+body.m .mp-tease .mpt-sub{font-size:14.5px;line-height:1.6;color:var(--muted);max-width:34em}
+body.m .mpt-rows{display:flex;flex-direction:column;gap:10px;margin:20px 0 22px}
+body.m .mpt-row{display:flex;gap:13px;align-items:flex-start;padding:13px 15px;border:1px solid var(--hair);border-radius:14px}
+body.m .mpt-row i{flex:none;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  border:1px solid color-mix(in srgb,var(--accent-text) 50%,transparent);color:var(--accent-text)}
+body.m .mpt-row i svg{width:16px;height:16px}
+body.m .mpt-row b{font-size:13.5px;color:var(--text)}
+body.m .mpt-row p{font-size:12px;color:var(--muted);margin-top:2px;line-height:1.5}
+body.m .mp-tease .cta{width:100%;justify-content:center;margin-top:0}
 
 /* imageless chapters: compact stacked sections on the theme canvas —
    the hero keeps its film, every later chapter rests on the page itself */
@@ -1599,6 +1624,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="pc-dots" id="pcDots" aria-hidden="true"></div>
       </div>
       
+        <button class="mnext" type="button" data-goto="2"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.eye">The Climb</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1644,6 +1670,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
+        <button class="mnext" type="button" data-goto="3"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="base.eye">Basecamp</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1699,6 +1726,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
+        <button class="mnext" type="button" data-goto="4"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s4">Sunrise</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1749,6 +1777,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           </div>
           <div class="jy-cap" data-i18n="summit.tl">Every chapter prepares you for the next.</div>
         </div>
+        <button class="mnext" type="button" data-goto="5"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="climb.s5">The range beyond</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
   </section>
@@ -1803,8 +1832,24 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <a class="cta" href="career-map-assessment.html"><span data-i18n="hor.go">Start your Career Map</span>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
+        <button class="mnext" type="button" data-mscroll="mindtease"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="mpt.ch">Mind Palace</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
+  </section>
+
+
+  <!-- MOBILE · MIND PALACE BRIDGE — the knowledge layer before the fire -->
+  <section class="mp-tease" id="mindtease" aria-label="Mind Palace">
+    <span class="chapter" data-i18n="mpt.ch">Mind Palace</span>
+    <h3 data-i18n="mpt.h">Your guide to the professional world</h3>
+    <p class="mpt-sub" data-i18n="mpt.sub">Signals, playbooks and perspectives from people who've climbed — free to read.</p>
+    <div class="mpt-rows">
+      <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></i><div><b data-i18n="mpt.f1">Playbooks</b><p data-i18n="mpt.f1d">Practical steps you can use today.</p></div></div>
+      <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 9 12l3 3 7-8"/><path d="M15 7h4v4"/></svg></i><div><b data-i18n="mpt.f2">Signals</b><p data-i18n="mpt.f2d">Job-market shifts worth watching.</p></div></div>
+      <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></i><div><b data-i18n="mpt.f3">Perspectives</b><p data-i18n="mpt.f3d">Ways of thinking from those who climbed.</p></div></div>
+    </div>
+    <a class="cta" href="pages/mind-palace.html"><span data-i18n="mpt.cta">Explore Mind Palace</span>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
   </section>
 
   <!-- SCENE 7 · CONTACT — no footage: the chapter rests on the ambient background -->
@@ -1948,6 +1993,13 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'contact.direct':'Reach us directly','contact.follow':'Follow the expedition','contact.base':'Basecamp',
       'contact.name':'Your name','contact.email':'Email','contact.msg':'Your message — where are you on the mountain?',
       'contact.send':'Send message',
+      'mnext.l':'Next chapter',
+      'mpt.ch':'Mind Palace','mpt.h':'Your guide to the professional world',
+      'mpt.sub':"Signals, playbooks and perspectives from people who've climbed — free to read.",
+      'mpt.f1':'Playbooks','mpt.f1d':'Practical steps you can use today.',
+      'mpt.f2':'Signals','mpt.f2d':'Job-market shifts worth watching.',
+      'mpt.f3':'Perspectives','mpt.f3d':'Ways of thinking from those who climbed.',
+      'mpt.cta':'Explore Mind Palace',
       'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
       'hero.sub@m':'The map, the gear, the rope team — everything the privileged inherit, now yours.',
       'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a personalized route to your target role.',
@@ -2061,6 +2113,13 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'contact.direct':'Hubungi langsung','contact.follow':'Ikuti ekspedisinya','contact.base':'Basecamp',
       'contact.name':'Nama kamu','contact.email':'Email','contact.msg':'Pesanmu — di mana posisimu di gunung ini?',
       'contact.send':'Kirim pesan',
+      'mnext.l':'Bab berikutnya',
+      'mpt.ch':'Mind Palace','mpt.h':'Panduanmu memahami dunia profesional',
+      'mpt.sub':'Sinyal, playbook, dan perspektif dari mereka yang sudah mendaki — gratis dibaca.',
+      'mpt.f1':'Playbook','mpt.f1d':'Langkah praktis yang bisa langsung dipakai.',
+      'mpt.f2':'Sinyal','mpt.f2d':'Pergeseran pasar kerja yang layak dipantau.',
+      'mpt.f3':'Perspektif','mpt.f3d':'Cara berpikir dari yang sudah mendaki.',
+      'mpt.cta':'Jelajahi Mind Palace',
       'page.wip':'Jalur ini masih dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
       'hero.sub@m':'Peta, persiapan, dan tim pemandu yang tepat—semua yang selama ini hanya dimiliki segelintir orang, kini jadi milikmu.',
       'prep.lede@m':'Ransel perjalananmu terisi: asesmen yang memetakan titik awalmu, lalu rute personal menuju peran impianmu.',
@@ -2647,6 +2706,12 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     if(isM()){ var on=tabs.querySelector('button.on'); apply(on?on.dataset.ch:'prep',false); }
     else CH.forEach(function(cid){document.getElementById(cid).classList.remove('mhide');});
   }
+  document.querySelectorAll('[data-mscroll]').forEach(function(el){
+    el.addEventListener('click',function(){
+      var t=document.getElementById(el.dataset.mscroll);
+      if(t) scrollTo({top:t.getBoundingClientRect().top+scrollY-96,behavior:'smooth'});
+    });
+  });
   addEventListener('resize',sync);
   sync();
 })();
