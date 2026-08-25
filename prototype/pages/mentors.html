@@ -1378,7 +1378,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </style>
 <style id="navSlimCss">
 /* slim top navigation ported from Home: logo · search · language · menu */
-.ctl,.theme-btn,.nav-signin,.nav-cta{display:none !important}
+.ctl,.nav-signin,.nav-cta{display:none !important}
+.nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
+
 .nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
   border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
 .nav-ico:hover{border-color:#E8C766}
@@ -1472,7 +1474,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </div>
 
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
-  <div class="sheet-tools"><button class="st-btn" id="sheetTheme" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg><span data-en="Dark / Light mode" data-id="Mode Gelap / Terang">Dark / Light mode</span></button></div>
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="mega" role="menu">
     <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="../assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
