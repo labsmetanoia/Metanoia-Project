@@ -1391,6 +1391,16 @@ body.m .journey{display:none}
 body.m .paths-wrap .lede{display:none}
 body.m #summit .summit-main .voice{margin-top:12px}
 
+/* imageless chapters: compact stacked sections on the theme canvas —
+   the hero keeps its film, every later chapter rests on the page itself */
+body.m .sceneCard:not(#call){min-height:0}
+body.m .sceneCard:not(#call) .content{padding-top:60px;padding-bottom:80px;min-height:0}
+body.m .sceneCard + .sceneCard{border-top:1px solid var(--hair)}
+body.m .sceneCard:not(#call) .frame::after{display:none}
+/* the dark glass surfaces keep light ink in both themes */
+body.m .content.chap2 .card,body.m .content.chap2 .qband,body.m .camp-panel,body.m .horcta{
+  --text:#F5EFE6;--muted:#D3DAE3;color:var(--text)}
+
 /* contact: native-friendly form */
 body.m .cform input,body.m .cform textarea{font-size:16px;padding:13px 14px}
 body.m .cform .cta{align-self:stretch;justify-content:center}
@@ -1533,7 +1543,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <section class="sceneCard" id="prep">
     <div class="frame">
       <video muted loop playsinline preload="none"><source src="assets/02-prep.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/02-prep.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content prep2">
@@ -1568,7 +1577,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <section class="sceneCard" id="climb">
     <div class="frame">
       <video muted loop playsinline preload="none"><source src="assets/03-climb.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/03-climb.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content climb2 chap2">
@@ -1614,7 +1622,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <section class="sceneCard" id="basecamp">
     <div class="frame">
       <video muted loop playsinline preload="none"><source src="assets/04-basecamp.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/04-basecamp.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content base2 chap2">
@@ -1670,7 +1677,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <section class="sceneCard" id="summit">
     <div class="frame">
       <video muted loop playsinline preload="none"><source src="assets/05-summit.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/05-summit.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content summit2 chap2">
@@ -1721,7 +1727,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <section class="sceneCard" id="horizon">
     <div class="frame">
       <video muted loop playsinline preload="none"><source src="assets/06-horizon.mp4" type="video/mp4"></video>
-      <div class="mbg" style="background-image:url(assets/m/06-horizon.jpg)" aria-hidden="true"></div>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content horizon2 chap2">
@@ -2256,7 +2261,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       const d=i-cur, vid=sc.querySelector('video');
       // footage: stills carry scenes 2+ on mobile; desktop streams film for
       // any scene near the viewport and rests the others
-      if(mobile && i>0 && sc.querySelector('.mbg')){ if(vid && !vid.paused) vid.pause(); }
+      if(mobile && i>0){ if(vid && !vid.paused) vid.pause(); }
       else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
       else if(vid){
         // scenes ship with preload="none"; fetch metadata only once the

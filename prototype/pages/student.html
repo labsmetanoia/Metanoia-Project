@@ -1478,6 +1478,39 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
    but each page hero keeps its original type exactly as designed. */
 .hero,.hero-content,.hero-scroll-cue{--font:'Inter',sans-serif;--font-display:'Inter',system-ui,sans-serif;--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:'Inter',sans-serif}
 </style>
+<style id="navSlimCss">
+/* slim top navigation ported from Home: logo · search · language · menu */
+.ctl,.theme-btn,.nav-signin,.nav-cta{display:none !important}
+.nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
+  border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
+.nav-ico:hover{border-color:#E8C766}
+.lang-dd{position:relative}
+.ldd-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(245,239,230,.35);background:none;color:var(--text,#F5EFE6);font-family:inherit;
+  font-size:12.5px;font-weight:700;letter-spacing:.06em;backdrop-filter:blur(6px);transition:border-color .2s}
+.ldd-btn:hover{border-color:#E8C766}
+.ldd-btn svg:last-child{transition:transform .25s ease}
+.lang-dd.open .ldd-btn svg:last-child{transform:rotate(180deg)}
+.lang-dd .lf{width:15px;height:15px;border-radius:50%;flex:none;display:none}
+.lang-dd.is-en .ldd-btn .lf-en{display:block}
+.lang-dd:not(.is-en) .ldd-btn .lf-id{display:block}
+.ldd-menu{position:absolute;top:calc(100% + 8px);right:0;min-width:190px;padding:6px;border-radius:14px;z-index:230;
+  background:rgba(8,13,22,.96);border:1px solid rgba(201,168,76,.28);box-shadow:0 18px 48px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .2s ease,transform .25s ease}
+.lang-dd.open .ldd-menu{opacity:1;transform:none;pointer-events:auto}
+.ldd-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;background:none;cursor:pointer;
+  color:#D3DAE3;font-family:inherit;font-size:13px;font-weight:600;border-radius:10px;transition:background .2s,color .2s}
+.ldd-menu .lf{display:block}
+.ldd-menu button:hover{background:rgba(245,239,230,.08);color:#F5EFE6}
+.ldd-menu button.on{color:#E8C766}
+.ldd-menu button.on::after{content:'\2713';margin-left:auto;opacity:.9}
+.sheet .sheet-tools{width:100%;display:flex;justify-content:center;margin:0 0 16px}
+.sheet .st-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:999px;cursor:pointer;
+  font-family:inherit;font-size:13px;font-weight:700;color:#F5EFE6;background:rgba(10,16,28,.5);
+  border:1px solid rgba(245,239,230,.3);transition:border-color .2s}
+.sheet .st-btn:hover{border-color:#E8C766}
+.cta,.cta *,.hero-cta,.hero-cta *{text-shadow:none !important}
+</style>
 </head>
 <body>
 
@@ -1506,6 +1539,18 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <a href="about.html" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
   <div class="nav-right">
+    <a class="nav-ico" href="mind-palace.html" aria-label="Search Mind Palace" title="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
+    </a>
+    <div class="lang-dd" id="langDD">
+      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
+        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
+        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
+      </div>
+    </div>
+
     <button class="burger" id="burger" aria-label="Open menu">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -1536,6 +1581,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </div>
 
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
+  <div class="sheet-tools"><button class="st-btn" id="sheetTheme" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg><span data-en="Dark / Light mode" data-id="Mode Gelap / Terang">Dark / Light mode</span></button></div>
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="mega" role="menu">
     <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="../assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
@@ -3066,6 +3112,26 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
     langEn.addEventListener('click', function(){ sweep('en'); });
     langId.addEventListener('click', function(){ sweep('id'); });
   }
+})();
+</script>
+<script id="navSlimJs">
+(function(){
+  var dd=document.getElementById('langDD'),btn=document.getElementById('lddBtn'),
+      menu=document.getElementById('lddMenu'),cur=document.getElementById('lddCur'),
+      en=document.querySelector('.ctl [data-lang="en"]'),id=document.querySelector('.ctl [data-lang="id"]');
+  if(!dd||!en) return;
+  function sync(){var isEn=en.getAttribute('aria-pressed')==='true';
+    cur.textContent=isEn?'EN':'ID';dd.classList.toggle('is-en',isEn);
+    menu.querySelectorAll('[data-l]').forEach(function(b){b.classList.toggle('on',(b.dataset.l==='en')===isEn);});}
+  btn.addEventListener('click',function(e){e.stopPropagation();
+    var o=dd.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
+  menu.querySelectorAll('[data-l]').forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();
+    (b.dataset.l==='en'?en:id).click();dd.classList.remove('open');btn.setAttribute('aria-expanded','false');sync();});});
+  document.addEventListener('click',function(){dd.classList.remove('open');btn.setAttribute('aria-expanded','false');});
+  new MutationObserver(sync).observe(en,{attributes:true,attributeFilter:['aria-pressed']});
+  sync();
+  var st=document.getElementById('sheetTheme');
+  if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
 </body>
