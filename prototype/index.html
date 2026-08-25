@@ -346,7 +346,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .pc-dots{display:flex;gap:6px;justify-content:center;margin-top:10px}
   .pc-dots i{width:16px;height:3px;border-radius:99px;background:rgba(245,239,230,.25);transition:background .25s}
   .pc-dots i.on{background:var(--accent-text)}
-  @media(max-width:1180px){.prep2{grid-template-columns:1fr}.steprail{display:none}}
+  @media(max-width:1180px){.prep2{grid-template-columns:1fr}.steprail{display:none}
+    #prep .content.prep2{grid-template-columns:minmax(0,1fr);grid-template-areas:"main" "cards"}}
   @media(min-width:761px) and (max-height:848px){.pcc-img{aspect-ratio:16/6}}
   
 
@@ -1247,6 +1248,83 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 }
 @media (prefers-reduced-motion:reduce){.mg-art{transition:none !important}}
 
+</style>
+<style id="appMobileCss">
+/* ═══ APP-LIKE MOBILE LAYER — the phone experience is designed, not shrunk ═══
+   Same system, mobile-native patterns: one-hand rhythm, swipeable card
+   rails with a peek of the next card, compact glanceable panels,
+   full-width thumb targets, and a single alignment anchor per scene. */
+
+/* stacked-scene order fixes: the desktop grid areas re-assert after the
+   1180px overrides, so the mobile order is restated here (document-last) */
+@media(max-width:1180px){
+  #basecamp .content.base2{grid-template-columns:minmax(0,1fr);grid-template-areas:"main" "side" "cards" "quote"}
+  #climb .content.climb2,#summit .content.summit2,#horizon .content.horizon2{grid-template-columns:minmax(0,1fr)}
+}
+
+/* rhythm + type scale */
+body.m .content{padding-left:20px;padding-right:20px}
+body.m h2{font-size:clamp(1.65rem,7.2vw,2.1rem);line-height:1.18}
+body.m #summit h2{font-size:clamp(1.45rem,6.2vw,1.85rem)}
+body.m .lede{font-size:15px;line-height:1.62}
+body.m .eyewrap .eyeline,body.m .eyewrap svg{display:none}
+body.m .chapter{margin-bottom:10px}
+
+/* hero: single clear action */
+body.m #call .cta{width:100%;justify-content:center;padding:15px 20px;font-size:15px}
+body.m #call .sub{font-size:15px}
+
+/* chapter card rows become swipeable rails (peek of the next card) */
+body.m .content.chap2 .cards{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(78vw,300px);
+  gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+  margin:0 -20px;padding:4px 20px 10px}
+body.m .content.chap2 .cards::-webkit-scrollbar{display:none}
+body.m .content.chap2 .card{scroll-snap-align:center}
+body.m #summit .cards.sm{grid-auto-flow:row;grid-auto-columns:auto;margin:0;padding:0;overflow:visible}
+
+/* prep pillar rail: bigger snap cards, edge-bled */
+body.m .pc-track{grid-auto-columns:min(74vw,290px);scroll-snap-type:x mandatory;
+  margin:0 -20px;padding:0 20px 6px}
+body.m .prep-cta{gap:12px}
+body.m .prep-cta .cta{flex:1 1 auto;justify-content:center}
+
+/* camp panel: glanceable two-column checklist */
+body.m .camp-panel{padding:16px 18px}
+body.m .cp-list{display:grid;grid-template-columns:1fr 1fr;gap:9px 12px}
+body.m .cp-list li{font-size:11.5px;line-height:1.4}
+
+/* quote bands: stacked app card with a full-width thumb CTA */
+body.m .qband{flex-direction:column;align-items:flex-start;gap:14px;padding:18px}
+body.m .qband .voice{font-size:1.02rem;line-height:1.5}
+body.m .qband .qmark{width:30px;height:30px}
+body.m .qband .qcta{width:100%;margin-left:0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:center}
+body.m .qband .qcta .qclock{grid-row:span 2;width:42px;height:42px}
+body.m .qband .qcta .cta{grid-column:1/-1;width:100%;justify-content:center;margin-top:10px}
+
+/* summit: compact claim rows + full-width ascent CTA */
+body.m #summit .cards.sm .card{padding:13px 15px}
+body.m .summit-cta{gap:12px}
+body.m .cta.big2{width:100%;justify-content:center}
+body.m .summit-cta .prep-ghost{margin:0 auto}
+
+/* horizon: trail doors become clean icon tiles — title + arrow only */
+body.m #horizon .trail-card p{display:none}
+body.m #horizon .trail-card{min-height:0;padding:13px 12px 10px}
+body.m #horizon .trail-card h4{font-size:12.5px;margin-bottom:0}
+body.m #horizon .trail-arrow{margin-top:8px}
+body.m #horizon .paths{gap:10px}
+body.m #horizon .horcta{padding:16px 18px}
+
+/* contact: native-friendly form */
+body.m .cform input,body.m .cform textarea{font-size:16px;padding:13px 14px}
+body.m .cform .cta{align-self:stretch;justify-content:center}
+
+/* touch feedback + safe area */
+body.m .card:active,body.m .pcc:active,body.m .trail-card:active{transform:scale(.985)}
+body.m .cta:active,body.m .nav-cta:active{transform:scale(.97)}
+body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
+@media (prefers-reduced-motion:reduce){
+  body.m .card:active,body.m .pcc:active,body.m .trail-card:active,body.m .cta:active{transform:none}}
 </style>
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
