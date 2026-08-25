@@ -1023,7 +1023,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
    light mode keeps light ink instead of dropping dark ink onto film */
 nav::before{content:'';position:absolute;left:0;right:0;top:0;height:210%;pointer-events:none;z-index:-1;
   background:linear-gradient(180deg,rgba(4,8,16,.58),rgba(4,8,16,.26) 55%,transparent)}
-:root[data-theme="light"] body.flow nav{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#E8C766;
+:root[data-theme="light"] body.flow:not(.m) nav{--text:#F5EFE6;--muted:#D3DAE3;--accent-text:#E8C766;
   --nav-border:rgba(245,239,230,.35);--bg:#0B1120;--rail:rgba(245,239,230,.18)}
 
 /* chapter pill: same over-film chrome — deep glass in both themes */
@@ -1331,6 +1331,11 @@ body.m .chapter{margin-bottom:12px}
 body.m .pc-label{margin-bottom:12px}
 body.m #climb .content.chap2 .card,body.m #basecamp .content.chap2 .card,body.m #summit .content.chap2 .card{min-height:0;padding-bottom:112px}
 
+/* the toolbar is a real bar on mobile — solid, blurred, theme-correct */
+body.m nav{background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--hair);padding-top:10px;padding-bottom:10px}
+body.m nav::before{display:none}
+
 /* rhythm + type scale */
 body.m .content{padding-left:20px;padding-right:20px}
 body.m h2{font-size:clamp(1.65rem,7.2vw,2.1rem);line-height:1.18}
@@ -1424,7 +1429,9 @@ body.m .mnext:active{transform:scale(.985);border-color:var(--accent-text)}
 
 /* Mind Palace bridge — the knowledge layer before the fire stays lit */
 .mp-tease{display:none}
-body.m .mp-tease{display:block;position:relative;z-index:2;padding:60px 20px 80px;border-top:1px solid var(--hair)}
+body.m .mp-tease{display:block;position:relative;z-index:2;margin:28px 14px 34px;padding:36px 18px 40px;
+  border:1px solid color-mix(in srgb,var(--accent-text) 28%,transparent);border-radius:20px;
+  box-shadow:0 10px 40px rgba(0,0,0,.14)}
 body.m .mp-tease h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.45rem,6vw,1.8rem);
   line-height:1.2;margin:12px 0 10px;color:var(--text)}
 body.m .mp-tease .mpt-sub{font-size:14.5px;line-height:1.6;color:var(--muted);max-width:34em}
@@ -1446,6 +1453,16 @@ body.m .sceneCard:not(#call) .frame::after{display:none}
 /* the dark glass surfaces keep light ink in both themes */
 body.m .content.chap2 .card,body.m .content.chap2 .qband,body.m .camp-panel,body.m .horcta{
   --text:#F5EFE6;--muted:#D3DAE3;color:var(--text)}
+
+/* folder pages: one shared rhythm */
+body.m .sceneCard:not(#call) .content{padding-top:56px;padding-bottom:72px}
+body.m .lede{max-width:34em}
+body.m h2{letter-spacing:-.015em;margin-top:2px}
+body.m .chapter{margin-bottom:14px}
+body.m .content.chap2 .cards{padding-top:6px}
+body.m .qband{margin-top:6px}
+body.m .mnext{margin-top:22px}
+body.m .camp-panel{margin-top:2px}
 
 /* top-right story steer on every folder page */
 .msteer{display:none}
@@ -2717,7 +2734,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 <style id="rcHeroKeep">
 /* Hero typography preserved — Roboto Condensed is the global face,
    but each page hero keeps its original type exactly as designed. */
-#call .content{--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:var(--disp)}
+@media(min-width:761px){#call .content{--disp:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;font-family:var(--disp)}}
 </style>
 
 <script>
@@ -2757,7 +2774,9 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     tabs.querySelectorAll('button').forEach(function(b){
       var on=b.dataset.ch===id;
       b.classList.toggle('on',on); b.setAttribute('aria-selected',on?'true':'false');
-      if(on&&b.scrollIntoView) b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});
+      /* centre the active tab only on explicit selection — never on passive
+         re-syncs, where block:'nearest' would yank the page back up */
+      if(on&&scroll&&b.scrollIntoView) b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});
     });
     if(scroll&&isM()){
       var y=document.getElementById(id).getBoundingClientRect().top+scrollY-104;
@@ -2797,7 +2816,10 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       if(t) scrollTo({top:t.getBoundingClientRect().top+scrollY-96,behavior:'smooth'});
     });
   });
-  addEventListener('resize',sync);
+  /* mobile browsers fire resize as the URL bar collapses mid-scroll —
+     only a real mobile/desktop mode change may re-sync */
+  var lastM=isM();
+  addEventListener('resize',function(){ if(isM()===lastM) return; lastM=isM(); sync(); });
   sync();
 })();
 </script>
