@@ -35,9 +35,9 @@
 <meta name="theme-color" content="#050A12">
 <title>Portal — Metanoia Labs</title>
 <meta name="description" content="Your Metanoia Labs portal — the authenticated hub for The Compass and all five career products.">
-<link rel="canonical" href="https://metanoialabs.net/portal.html">
+<link rel="canonical" href="https://metanoialabs.net/portal">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/portal.html">
+<meta property="og:url" content="https://metanoialabs.net/portal">
 <meta property="og:title" content="Portal — Metanoia Labs">
 <meta property="og:description" content="The door to your career navigation system. The Compass and all five Metanoia products, one hub.">
 <style>
@@ -1102,7 +1102,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 
     <button class="topbar-avatar" id="topbar-avatar"
             aria-label="Account menu" aria-haspopup="true"
-            onclick="window.location.href='settings.html'">
+            onclick="window.location.href='settings'">
       <span id="topbar-initials" aria-hidden="true">–</span>
     </button>
   </div>
@@ -1284,10 +1284,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 <footer class="portal-footer" role="contentinfo">
   <span class="portal-footer-copy">© 2026 Metanoia Labs</span>
   <nav class="portal-footer-links" aria-label="Footer links">
-    <a href="help.html"     class="portal-footer-link" data-en="Help" data-id="Bantuan">Help</a>
-    <a href="settings.html" class="portal-footer-link" data-en="Settings" data-id="Pengaturan">Settings</a>
-    <a href="help.html#privacy" class="portal-footer-link" data-en="Privacy" data-id="Privasi">Privacy</a>
-    <a href="login.html" class="portal-footer-link" id="signout-link" data-en="Sign Out" data-id="Keluar">Sign Out</a>
+    <a href="help"     class="portal-footer-link" data-en="Help" data-id="Bantuan">Help</a>
+    <a href="settings" class="portal-footer-link" data-en="Settings" data-id="Pengaturan">Settings</a>
+    <a href="help#privacy" class="portal-footer-link" data-en="Privacy" data-id="Privasi">Privacy</a>
+    <a href="login" class="portal-footer-link" id="signout-link" data-en="Sign Out" data-id="Keluar">Sign Out</a>
   </nav>
 </footer>
 
@@ -1314,8 +1314,8 @@ if (isDemo) document.addEventListener('DOMContentLoaded', function () {
   const db = document.createElement('div');
   db.className = 'demo-banner'; db.setAttribute('role', 'status');
   db.innerHTML = (document.documentElement.lang || 'en').indexOf('id') === 0
-    ? 'Demo — ini data contoh, bukan akun nyata. <a href="register.html">Buat akunmu sendiri →</a>'
-    : 'Demo — this is sample data, not a real account. <a href="register.html">Create your own →</a>';
+    ? 'Demo — ini data contoh, bukan akun nyata. <a href="register">Buat akunmu sendiri →</a>'
+    : 'Demo — this is sample data, not a real account. <a href="register">Create your own →</a>';
   document.body.prepend(db);
 });
 
@@ -1324,7 +1324,7 @@ try {
   isAuth = sessionStorage.getItem('metanoia_auth') === 'true' || !!localStorage.getItem('metanoia_session');
 } catch (e) {}
 if (!isDemo && !isAuth) {
-  window.location.replace('login.html?redirect=portal.html');
+  window.location.replace('login?redirect=portal');
 }
 
 /* ═══ 2. LANGUAGE (shared mtLang key; metanoia_lang mirrored for spec compat) ═══ */
@@ -1591,7 +1591,7 @@ function signOut() {
   } catch (err) {}
   /* localStorage user data (applications, progress, compass scores) is
      intentionally preserved — it persists for account re-entry. */
-  window.location.href = 'login.html?signed_out=true';
+  window.location.href = 'login?signed_out=true';
 }
 document.getElementById('signout-link').addEventListener('click', e => { e.preventDefault(); signOut(); });
 document.getElementById('sign-out-btn').addEventListener('click', signOut);
@@ -1602,16 +1602,16 @@ const PORTAL_NAV = [
     href: '/products/the-compass/?tab=my-learning&context=portal', badge: null,
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' },
   { id: 'my-purchases', en: 'My Purchases', id_: 'Pembelian Saya',
-    href: 'purchases.html', badge: null,
+    href: 'purchases', badge: null,
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' },
   { id: 'settings', en: 'Settings', id_: 'Pengaturan',
-    href: 'settings.html', badge: null,
+    href: 'settings', badge: null,
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>' },
   { id: 'updates', en: 'Updates', id_: 'Pembaruan',
     href: null, action: 'openUpdates', badge: 'dot',
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>' },
   { id: 'help-center', en: 'Help Center', id_: 'Pusat Bantuan',
-    href: 'help.html', badge: null,
+    href: 'help', badge: null,
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>' }
 ];
 
@@ -1934,7 +1934,7 @@ function applyCalibration() {
 function finishOnb() {
   onbOverlay.classList.remove('show');
   try { sessionStorage.setItem('compass_onboarded', 'true'); localStorage.setItem('metanoia_onboarded', '1'); } catch (e) {}
-  if (params.get('onboarding')) history.replaceState(null, '', 'portal.html');
+  if (params.get('onboarding')) history.replaceState(null, '', 'portal');
   renderWelcome(); renderCompassCard(); renderStats();
 }
 function maybeOnboard() {

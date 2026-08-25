@@ -38,9 +38,9 @@
 <title>Mind Palace — Metanoia Labs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Mind Palace — Metanoia's professional knowledge hub. Careers, skills, recruitment, industries and opportunities: practical intelligence, honestly sourced, built to be acted on.">
-<link rel="canonical" href="https://metanoialabs.net/pages/mind-palace.html">
+<link rel="canonical" href="https://metanoialabs.net/pages/mind-palace">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/pages/mind-palace.html">
+<meta property="og:url" content="https://metanoialabs.net/pages/mind-palace">
 <meta property="og:title" content="Mind Palace — Metanoia Labs">
 <meta property="og:description" content="Know what's out there, and what to do about it.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -966,6 +966,10 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
   border:1px solid rgba(245,239,230,.3);transition:border-color .2s}
 .sheet .st-btn:hover{border-color:#E8C766}
 .cta,.cta *,.hero-cta,.hero-cta *{text-shadow:none !important}
+/* sheetScrollFix: the sheet always scrolls; nothing is clipped */
+.sheet{align-items:flex-start !important;justify-content:flex-start !important;overflow-y:auto !important;
+  max-height:100dvh;-webkit-overflow-scrolling:touch;padding-bottom:max(44px,env(safe-area-inset-bottom)) !important}
+.sheet .mega{margin-left:auto;margin-right:auto;flex:0 0 auto}
 </style>
 </head>
 <body>
@@ -986,14 +990,14 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
   </a>
   <div class="menu">
     <a href="/" data-en="Home" data-id="Beranda">Home</a>
-    <a href="student.html" data-en="Student" data-id="Mahasiswa">Student</a>
-    <a href="fresh-graduate.html" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
-    <a href="early-professional.html" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
-    <a href="mature-professional.html" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
-    <a href="enterprise.html" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
-    <a href="mentors.html" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
-    <a href="mind-palace.html" class="current" data-en="Mind Palace" data-id="Mind Palace">Mind Palace</a>
-    <a href="about.html" data-en="About Us" data-id="Tentang Kami">About Us</a>
+    <a href="student" data-en="Student" data-id="Mahasiswa">Student</a>
+    <a href="fresh-graduate" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
+    <a href="early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+    <a href="mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+    <a href="enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+    <a href="mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+    <a href="mind-palace" class="current" data-en="Mind Palace" data-id="Mind Palace">Mind Palace</a>
+    <a href="about" data-en="About Us" data-id="Tentang Kami">About Us</a>
   </div>
   <div class="nav-right">
     <button class="theme-btn" id="srchBtn" aria-label="Search Mind Palace" title="Search ( / )">
@@ -1003,7 +1007,7 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>
       <span id="savedCnt" class="savedcnt"></span>
     </button>
-    <a class="nav-ico" href="mind-palace.html" aria-label="Search Mind Palace" title="Search">
+    <a class="nav-ico" href="mind-palace" aria-label="Search Mind Palace" title="Search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
     </a>
     <div class="lang-dd" id="langDD">
@@ -1031,8 +1035,8 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
         <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
-    <a class="nav-signin" href="../login.html" data-en="Sign in" data-id="Masuk">Sign in</a>
-    <a class="nav-cta" href="../career-map-assessment.html" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+    <a class="nav-signin" href="../login" data-en="Sign in" data-id="Masuk">Sign in</a>
+    <a class="nav-cta" href="../career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
   </div>
 </nav>
 
@@ -1049,7 +1053,7 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
     <div class="mega-grid">
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="student.html">
+        <a class="mg-head" href="student">
           <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span>
           <span class="mg-hstack">
             <span class="mg-kick" data-en="Find your stage" data-id="Temukan tahapmu">Find your stage</span>
@@ -1058,12 +1062,12 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="student.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
-            <li><a href="fresh-graduate.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
-            <li><a href="early-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
-            <li><a href="mature-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
-            <li><a href="enterprise.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
-            <li><a href="mentors.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
+            <li><a href="student"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="fresh-graduate"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="early-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="mature-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="enterprise"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="mentors"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
           </ul>
         </div></div>
       </section>
@@ -1088,7 +1092,7 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
       </section>
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="../career-map-assessment.html">
+        <a class="mg-head" href="../career-map-assessment">
           <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span>
           <span class="mg-hstack">
             <span class="mg-kick" data-en="Free, today" data-id="Gratis, hari ini">Free, today</span>
@@ -1097,10 +1101,10 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="fresh-graduate.html#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
-            <li><a href="../career-map-assessment.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
-            <li><a href="../pricing.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
-            <li><a href="../help.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
+            <li><a href="fresh-graduate#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
+            <li><a href="../career-map-assessment"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
+            <li><a href="../pricing"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
+            <li><a href="../help"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
           </ul>
         </div></div>
       </section>
@@ -1108,11 +1112,11 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
     <div class="mega-foot">
       <div class="mf-links">
         <a href="/"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
-        <a href="mind-palace.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
-        <a href="about.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
-        <a class="mf-signin" href="../login.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
+        <a href="mind-palace"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
+        <a href="about"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
+        <a class="mf-signin" href="../login"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
       </div>
-      <a class="mf-cta" href="../career-map-assessment.html"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
+      <a class="mf-cta" href="../career-map-assessment"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
     </div>
   </div>
 </div>
@@ -1134,8 +1138,8 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
   <a href="../products/the-map/" data-en="The Map · The Range (Explore)" data-id="The Map · The Range (Explore)">The Map · The Range (Explore)</a>
   <a href="../products/the-pack/">The Pack</a>
   <a href="../products/the-rope/">The Rope</a>
-  <a href="../help.html" data-en="Help Centre" data-id="Pusat Bantuan">Help Centre</a>
-  <a href="../legal/privacy.html" data-en="Privacy" data-id="Privasi">Privacy</a>
+  <a href="../help" data-en="Help Centre" data-id="Pusat Bantuan">Help Centre</a>
+  <a href="../legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
 </footer>
 
 <script src="../data/range/graph.js"></script>

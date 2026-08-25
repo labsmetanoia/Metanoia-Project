@@ -34,7 +34,7 @@
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#050A12">
 <title>My Purchases — Metanoia Labs</title>
-<link rel="canonical" href="https://metanoialabs.net/purchases.html">
+<link rel="canonical" href="https://metanoialabs.net/purchases">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -148,7 +148,7 @@ h1,h2,h3{font-weight:inherit;margin:0}
       <svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="currentColor"/></svg>
       <span>Metanoia Labs</span></a>
     <div class="tb-sep"></div>
-    <nav class="tb-crumb" aria-label="Breadcrumb"><a href="portal.html" data-en="Portal" data-id="Portal">Portal</a> › <span class="cur" data-en="My Purchases" data-id="Pembelian Saya">My Purchases</span></nav>
+    <nav class="tb-crumb" aria-label="Breadcrumb"><a href="portal" data-en="Portal" data-id="Portal">Portal</a> › <span class="cur" data-en="My Purchases" data-id="Pembelian Saya">My Purchases</span></nav>
   </div>
   <div class="lang-toggle" role="group" aria-label="Language">
     <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
@@ -262,13 +262,13 @@ function render() {
     planMeta.textContent = L('Your subscription has lapsed. Your data is safe and waiting.', 'Langgananmu telah berakhir. Datamu aman dan menunggu.');
     planBadge.className = 'plan-badge expired';
     planBadge.textContent = L('Expired', 'Berakhir');
-    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Reactivate Compass →', 'Aktifkan Ulang Compass →') + '</a>';
+    planCta.innerHTML = '<a href="register?plan=premium" class="btn btn-primary">' + L('Reactivate Compass →', 'Aktifkan Ulang Compass →') + '</a>';
   } else {
     planName.textContent = L('Learning Access (free)', 'Akses Belajar (gratis)');
     planMeta.textContent = L('Course access with limited Compass features.', 'Akses kursus dengan fitur Compass terbatas.');
     planBadge.className = 'plan-badge free';
     planBadge.textContent = L('Free', 'Gratis');
-    planCta.innerHTML = '<a href="register.html?plan=premium" class="btn btn-primary">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</a>';
+    planCta.innerHTML = '<a href="register?plan=premium" class="btn btn-primary">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</a>';
   }
 
   const list = document.getElementById('purchase-list');
@@ -278,7 +278,7 @@ function render() {
       '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' +
       '<div class="empty-title">' + L('No purchases yet', 'Belum ada pembelian') + '</div>' +
       '<div class="empty-sub">' + L('When you activate The Compass or purchase a course, your receipts will appear here.', 'Saat kamu mengaktifkan The Compass atau membeli kursus, kuitansimu akan muncul di sini.') + '</div>' +
-      '<a href="portal.html" class="btn btn-secondary">' + L('Explore products', 'Jelajahi produk') + '</a></div>';
+      '<a href="portal" class="btn btn-secondary">' + L('Explore products', 'Jelajahi produk') + '</a></div>';
     return;
   }
   list.innerHTML = purchases.map(p =>

@@ -30,8 +30,8 @@
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/career-map-assessment.html"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/career-map-assessment.html">
+<link rel="canonical" href="https://metanoialabs.net/career-map-assessment"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:url" content="https://metanoialabs.net/career-map-assessment">
 <title>Career Map Assessment — Metanoia Labs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -598,7 +598,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <section class="screen" id="s-quiz">
   <div class="qhead">
     <div class="qhead-in">
-      <a class="lockup" href="career-map-assessment.html" onclick="return goHero()">
+      <a class="lockup" href="career-map-assessment" onclick="return goHero()">
         <svg width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
           <defs><linearGradient id="lgQ" x1="0" y1="1" x2="1" y2="0">
             <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>
@@ -729,7 +729,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <input class="text-input" type="email" name="email" id="capEmail" placeholder="Your email" required>
         <input class="text-input" type="url" name="linkedin" id="capLinkedin" placeholder="LinkedIn profile URL (optional) — so we can send role-specific tips">
         
-        <p style="font-size:12px;color:rgba(240,237,232,.45);margin:6px 0 0">By continuing you agree to our <a href="legal/privacy.html" target="_blank" rel="noopener" style="color:rgba(232,201,106,.8)">Privacy Notice</a>. Your report, your data — never sold, never shown to employers.</p>
+        <p style="font-size:12px;color:rgba(240,237,232,.45);margin:6px 0 0">By continuing you agree to our <a href="legal/privacy" target="_blank" rel="noopener" style="color:rgba(232,201,106,.8)">Privacy Notice</a>. Your report, your data — never sold, never shown to employers.</p>
         <label class="ck"><input type="checkbox" name="weekly_email" id="capWaitlist">
           <span data-t="cap.wait">Send me one honest, useful email each week from the mountain. No spam, ever.</span></label>
         <div class="cap-actions">
@@ -2238,7 +2238,7 @@ document.getElementById('acctBtn').onclick=()=>{
   const email=document.getElementById('capEmail').value.trim();
   const f=document.getElementById('capform');
   if(email){ try{ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}); }catch(err){} }
-  location.href='register.html'+(email?('?email='+encodeURIComponent(email)):'');
+  location.href='register'+(email?('?email='+encodeURIComponent(email)):'');
 };
 
 /* V2: shareable result card (canvas, 1200×627) */

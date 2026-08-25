@@ -30,8 +30,8 @@
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/register.html"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/register.html">
+<link rel="canonical" href="https://metanoialabs.net/register"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:url" content="https://metanoialabs.net/register">
 <title>Create your account — Metanoia Labs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -200,7 +200,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <!-- ═══ RIGHT — REGISTRATION FORM ═══ -->
   <section class="auth-right">
     <div class="auth-form-wrap">
-      <div class="top-switch"><span data-en="Already have an account?" data-id="Sudah punya akun?">Already have an account?</span> <a class="gold-link" href="login.html" data-en="Sign in →" data-id="Masuk →">Sign in →</a></div>
+      <div class="top-switch"><span data-en="Already have an account?" data-id="Sudah punya akun?">Already have an account?</span> <a class="gold-link" href="login" data-en="Sign in →" data-id="Masuk →">Sign in →</a></div>
       <h2 class="auth-h1" data-en="Begin your ascent." data-id="Mulailah pendakianmu.">Begin your ascent.</h2>
       <p class="auth-desc" data-en="Create your free account — takes 30 seconds." data-id="Buat akun gratismu — hanya 30 detik.">Create your free account — takes 30 seconds.</p>
 
@@ -232,7 +232,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <input class="auth-input" type="text" id="expertise" placeholder="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-en="Industry &amp; functional expertise (e.g. Consulting · Strategy)" data-ph-id="Keahlian industri &amp; fungsional (mis. Konsultasi · Strategi)">
           <input class="auth-input" type="text" id="years" placeholder="Years of professional experience" data-ph-en="Years of professional experience" data-ph-id="Tahun pengalaman profesional" inputmode="numeric">
         </div>
-        <label class="terms-row"><input type="checkbox" id="terms"> <span data-en='I agree to the <a href="legal/terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy.html" target="_blank" rel="noopener">Privacy Notice</a>.' data-id='Saya menyetujui <a href="legal/terms.html" target="_blank" rel="noopener">Ketentuan Layanan</a> dan <a href="legal/privacy.html" target="_blank" rel="noopener">Pemberitahuan Privasi</a>.'>I agree to the <a href="legal/terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy.html" target="_blank" rel="noopener">Privacy Notice</a>.</span></label>
+        <label class="terms-row"><input type="checkbox" id="terms"> <span data-en='I agree to the <a href="legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>.' data-id='Saya menyetujui <a href="legal/terms" target="_blank" rel="noopener">Ketentuan Layanan</a> dan <a href="legal/privacy" target="_blank" rel="noopener">Pemberitahuan Privasi</a>.'>I agree to the <a href="legal/terms" target="_blank" rel="noopener">Terms of Service</a> and <a href="legal/privacy" target="_blank" rel="noopener">Privacy Notice</a>.</span></label>
         <label class="terms-row"><input type="checkbox" id="marketingConsent"> <span data-en="Send me career insights and product updates. (Optional)" data-id="Kirimi saya wawasan karier dan pembaruan produk. (Opsional)">Send me career insights and product updates. (Optional)</span></label>
         <div class="form-err" id="formErr"></div>
         <button class="btn-primary-auth" type="submit" data-en="Create My Account →" data-id="Buat Akun Saya →">Create My Account →</button>
@@ -344,7 +344,7 @@ function goSuccess(onboarding){
         }));
       } catch (err) {}
   document.getElementById('successVeil').classList.add('show');
-  setTimeout(()=>{ location.href = redirectTo || ('portal.html' + (onboarding ? '?onboarding=true' : '')); }, 1500);
+  setTimeout(()=>{ location.href = redirectTo || ('portal' + (onboarding ? '?onboarding=true' : '')); }, 1500);
 }
 
 const form = document.getElementById('regForm'), err = document.getElementById('formErr');
