@@ -1449,6 +1449,46 @@ body.m .sceneCard:not(#call) .frame::after{display:none}
 body.m .content.chap2 .card,body.m .content.chap2 .qband,body.m .camp-panel,body.m .horcta{
   --text:#F5EFE6;--muted:#D3DAE3;color:var(--text)}
 
+/* top-right story steer on every folder page */
+.msteer{display:none}
+body.m .msteer{position:absolute;top:16px;right:16px;z-index:3;display:flex;align-items:center;gap:8px}
+body.m .msteer .ms-pos{font-size:11px;letter-spacing:.1em;color:var(--accent-text);font-weight:800;margin-right:2px}
+body.m .msteer .ms-pos i{font-style:normal;color:var(--muted);font-weight:600}
+body.m .msteer .ms-b{width:36px;height:36px;border-radius:50%;border:1px solid color-mix(in srgb,var(--accent-text) 45%,transparent);
+  background:none;color:var(--accent-text);display:flex;align-items:center;justify-content:center;cursor:pointer;
+  transition:border-color .2s,transform .15s}
+body.m .msteer .ms-b svg{width:14px;height:14px}
+body.m .msteer .ms-b:active{transform:scale(.92)}
+body.m .msteer .ms-b.dim{opacity:.32;pointer-events:none}
+body.m .sceneCard:not(#call) .content{position:relative}
+body.m .prep-ghost{display:none}
+@media (prefers-reduced-motion:no-preference){
+  body.m .sceneCard.mfade{animation:mfadeIn .35s ease}
+  @keyframes mfadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+}
+
+/* bridge: explore-by-need rail (Mind Palace's own doors, condensed) */
+body.m .mpt-k{display:inline-block;margin:20px 0 12px;font-size:10px;font-weight:800;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent-text)}
+body.m .mpt-needs{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(72vw,280px);
+  gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -20px;padding:2px 20px 8px}
+body.m .mpt-needs::-webkit-scrollbar{display:none}
+body.m .mpt-nc{scroll-snap-align:center;display:flex;flex-direction:column;border:1px solid var(--hair);border-radius:16px;
+  overflow:hidden;text-decoration:none;color:var(--text);background:color-mix(in srgb,var(--text) 3%,transparent)}
+body.m .mpt-nc .np{display:block;aspect-ratio:16/8;overflow:hidden}
+body.m .mpt-nc .np img{width:100%;height:100%;object-fit:cover;display:block}
+body.m .mpt-nc b{font-family:var(--serif);font-weight:600;font-size:16.5px;line-height:1.25;padding:13px 15px 0}
+body.m .mpt-nc p{font-size:12px;color:var(--muted);line-height:1.5;padding:6px 15px 0;flex:1}
+body.m .mpt-nc .go{align-self:flex-end;padding:10px 15px 13px;color:var(--accent-text);font-weight:700}
+body.m .mpt-nc:active{transform:scale(.985)}
+
+/* formats: the Student career-system card language, adapted */
+body.m .mpt-row{background:none;border-color:color-mix(in srgb,var(--accent-text) 22%,transparent)}
+body.m .mpt-row i{width:46px;height:46px;background:color-mix(in srgb,var(--text) 5%,transparent);
+  border-color:color-mix(in srgb,var(--accent-text) 38%,transparent)}
+body.m .mpt-row b{font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text)}
+body.m .mpt-row p{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--text);margin-top:4px}
+
 /* contact: native-friendly form */
 body.m .cform input,body.m .cform textarea{font-size:16px;padding:13px 14px}
 body.m .cform .cta{align-self:stretch;justify-content:center}
@@ -1601,6 +1641,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content prep2">
+        <div class="msteer"><span class="ms-pos">01<i>/05</i></span><button type="button" class="ms-b dim" data-mstep="-1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="ms-b" data-mstep="1" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        
         <aside class="steprail fx d1" id="steprail" aria-label="Chapter I contents">
           <div class="sr-ch" data-i18n="prep.ch">Chapter I · First light</div>
           <ol class="sr-steps"><li class="on" data-step="0"><i>01</i><div><b data-i18n="prep.s1h">Preparation</b><p data-i18n="prep.s1p">No one summits on talent alone.</p></div></li><li data-step="1"><i>02</i><div><b>The Map · The Range</b><p>Project Aladdin</p></div></li><li data-step="2"><i>03</i><div><b>The Pack</b><p>Project Maverick</p></div></li><li data-step="3"><i>04</i><div><b>The Rope</b><p>Project Nexus</p></div></li><li data-step="4"><i>05</i><div><b>The Route</b><p>Project Horizon</p></div></li><li data-step="5"><i>06</i><div><b>The Compass</b><p data-i18n="prep.c5s">Continuous Navigation</p></div></li></ol>
@@ -1636,6 +1678,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content climb2 chap2">
+        <div class="msteer"><span class="ms-pos">02<i>/05</i></span><button type="button" class="ms-b" data-mstep="-1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="ms-b" data-mstep="1" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="climb.ch">Chapter II · The weather turns</div>
           <ol class="sr-steps">
@@ -1682,6 +1726,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content base2 chap2">
+        <div class="msteer"><span class="ms-pos">03<i>/05</i></span><button type="button" class="ms-b" data-mstep="-1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="ms-b" data-mstep="1" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="base.ch">Chapter III · Nightfall, firelight</div>
           <ol class="sr-steps">
@@ -1738,6 +1784,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content summit2 chap2">
+        <div class="msteer"><span class="ms-pos">04<i>/05</i></span><button type="button" class="ms-b" data-mstep="-1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="ms-b" data-mstep="1" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="summit.ch">Chapter IV · Sunrise</div>
           <ol class="sr-steps">
@@ -1789,6 +1837,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content horizon2 chap2">
+        <div class="msteer"><span class="ms-pos">05<i>/05</i></span><button type="button" class="ms-b" data-mstep="-1" aria-label="Previous chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="ms-b" data-mstep="1" aria-label="Next chapter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div>
+        
         <aside class="steprail fx d1" aria-label="Chapters">
           <div class="sr-ch" data-i18n="hor.ch">Chapter V · The range beyond</div>
           <ol class="sr-steps">
@@ -1843,6 +1893,14 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     <span class="chapter" data-i18n="mpt.ch">Mind Palace</span>
     <h3 data-i18n="mpt.h">Your guide to the professional world</h3>
     <p class="mpt-sub" data-i18n="mpt.sub">Signals, playbooks and perspectives from people who've climbed — free to read.</p>
+
+    <span class="mpt-k" data-i18n="mpt.needs">Explore by what you need</span>
+    <div class="mpt-needs">
+      <a class="mpt-nc" href="pages/mind-palace.html#/need/understand"><span class="np"><img src="assets/m/03-climb.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace.html#/need/hired"><span class="np"><img src="assets/bg/gauntlet/gate-05-hr-interview.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n2">I want to get hired</b><p data-i18n="mpt.n2d">CV, applications, assessments and interviews.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace.html#/need/better"><span class="np"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace.html#/need/market"><span class="np"><img src="assets/global-map.png" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+    </div>
     <div class="mpt-rows">
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></i><div><b data-i18n="mpt.f1">Playbooks</b><p data-i18n="mpt.f1d">Practical steps you can use today.</p></div></div>
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 9 12l3 3 7-8"/><path d="M15 7h4v4"/></svg></i><div><b data-i18n="mpt.f2">Signals</b><p data-i18n="mpt.f2d">Job-market shifts worth watching.</p></div></div>
@@ -1999,7 +2057,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'mpt.f1':'Playbooks','mpt.f1d':'Practical steps you can use today.',
       'mpt.f2':'Signals','mpt.f2d':'Job-market shifts worth watching.',
       'mpt.f3':'Perspectives','mpt.f3d':'Ways of thinking from those who climbed.',
-      'mpt.cta':'Explore Mind Palace',
+      'mpt.cta':'Explore Mind Palace','mpt.needs':'Explore by what you need',
+      'mpt.n1':'I want to understand my career','mpt.n1d':'Direction, transitions, paths and industry exploration.',
+      'mpt.n2':'I want to get hired','mpt.n2d':'CV, applications, assessments and interviews.',
+      'mpt.n3':'I want to become better','mpt.n3d':'Skills, communication, habits and AI at work.',
+      'mpt.n4':'I want to understand the market','mpt.n4d':'Industries, companies and the labour market, read honestly.',
       'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
       'hero.sub@m':'The map, the gear, the rope team — everything the privileged inherit, now yours.',
       'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a personalized route to your target role.',
@@ -2119,7 +2181,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'mpt.f1':'Playbook','mpt.f1d':'Langkah praktis yang bisa langsung dipakai.',
       'mpt.f2':'Sinyal','mpt.f2d':'Pergeseran pasar kerja yang layak dipantau.',
       'mpt.f3':'Perspektif','mpt.f3d':'Cara berpikir dari yang sudah mendaki.',
-      'mpt.cta':'Jelajahi Mind Palace',
+      'mpt.cta':'Jelajahi Mind Palace','mpt.needs':'Jelajahi sesuai kebutuhanmu',
+      'mpt.n1':'Aku ingin memahami karierku','mpt.n1d':'Arah, transisi, jalur, dan eksplorasi industri.',
+      'mpt.n2':'Aku ingin lolos rekrutmen','mpt.n2d':'CV, lamaran, asesmen, dan wawancara.',
+      'mpt.n3':'Aku ingin menjadi lebih baik','mpt.n3d':'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.',
+      'mpt.n4':'Aku ingin memahami pasar','mpt.n4d':'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.',
       'page.wip':'Jalur ini masih dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
       'hero.sub@m':'Peta, persiapan, dan tim pemandu yang tepat—semua yang selama ini hanya dimiliki segelintir orang, kini jadi milikmu.',
       'prep.lede@m':'Ransel perjalananmu terisi: asesmen yang memetakan titik awalmu, lalu rute personal menuju peran impianmu.',
@@ -2689,11 +2755,23 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     if(scroll&&isM()){
       var y=document.getElementById(id).getBoundingClientRect().top+scrollY-104;
       scrollTo({top:Math.max(0,y),behavior:'instant'});
+      var el=document.getElementById(id);
+      el.classList.remove('mfade'); void el.offsetWidth; el.classList.add('mfade');
     }
     dispatchEvent(new Event('scroll'));
   }
   tabs.querySelectorAll('button').forEach(function(b){
     b.addEventListener('click',function(){apply(b.dataset.ch,true);});
+  });
+  document.querySelectorAll('[data-mstep]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var on=tabs.querySelector('button.on'); if(!on) return;
+      var i=CH.indexOf(on.dataset.ch), step=+b.dataset.mstep, t=i+step;
+      if(t>4){ var mt=document.getElementById('mindtease');
+        if(mt) scrollTo({top:mt.getBoundingClientRect().top+scrollY-96,behavior:'smooth'}); return; }
+      if(t<0) return;
+      apply(CH[t],true);
+    });
   });
   document.querySelectorAll('[data-goto]').forEach(function(el){
     el.addEventListener('click',function(){
