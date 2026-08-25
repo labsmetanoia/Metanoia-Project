@@ -486,7 +486,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg><span class="wm">Metanoia<i>Labs</i></span></a>
     <span class="tb-sep" aria-hidden="true"></span>
     <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="../../portal.html" class="breadcrumb-back">← <span data-en="Portal" data-id="Portal">Portal</span></a>
+      <a href="../../portal" class="breadcrumb-back">← <span data-en="Portal" data-id="Portal">Portal</span></a>
       <span class="breadcrumb-sep">·</span>
       <span class="breadcrumb-current">The Pack</span>
     </nav>
@@ -500,7 +500,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <svg class="moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <svg class="sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
     </button>
-    <a class="avatar" href="../../portal.html" id="avatar" aria-label="Your profile">M</a>
+    <a class="avatar" href="../../portal" id="avatar" aria-label="Your profile">M</a>
     <span class="prem-badge">Premium</span>
   </div>
 </header>
@@ -526,7 +526,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="spm" data-en="0 of 9 modules complete" data-id="0 dari 9 modul selesai">0 of 9 modules complete</div>
     </div>
     <div class="sb-foot">
-      <a href="../../portal.html">← <span data-en="Back to Portal" data-id="Kembali ke Portal">Back to Portal</span></a>
+      <a href="../../portal">← <span data-en="Back to Portal" data-id="Kembali ke Portal">Back to Portal</span></a>
     </div>
   </aside>
 
@@ -542,7 +542,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <h1>The Pack</h1>
         <p class="tagline" data-en="Pack the right gear before you climb." data-id="Siapkan perlengkapan yang tepat sebelum mendaki.">Pack the right gear before you climb.</p>
         <p style="margin:10px 0 0"><span class="state-chip state-chip--gold" data-state="early-access"><span class="state-chip-dot" aria-hidden="true"></span><span data-en="Early access" data-id="Akses awal">Early access</span></span>&nbsp; <span style="font-size:12.5px;color:rgba(240,237,232,.6)" data-en="Fresh Graduate edition · The Application Toolkit" data-id="Edisi Fresh Graduate · Perangkat Lamaran">Fresh Graduate edition · The Application Toolkit</span></p>
-        <p class="access-line" data-en='Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.' data-id='Termasuk dalam keanggotaan Fresh Graduate — <a href="/pricing.html">lihat harga</a>. Refund 14 hari.'>Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.</p>
+        <p class="access-line" data-en='Included in the Fresh Graduate membership — <a href="/pricing">see pricing</a>. 14-day refund.' data-id='Termasuk dalam keanggotaan Fresh Graduate — <a href="/pricing">lihat harga</a>. Refund 14 hari.'>Included in the Fresh Graduate membership — <a href="/pricing">see pricing</a>. 14-day refund.</p>
         <div class="meta-row">
           <span data-en="Beginner + Intermediate" data-id="Pemula + Menengah">Beginner + Intermediate</span>
           <span data-en="9 Modules" data-id="9 Modul">9 Modules</span>
@@ -1642,7 +1642,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <span class="gold-pill">02 · The Pack</span>
     <h2 id="upgradeTitle" data-en="The Pack is part of Metanoia Premium" data-id="The Pack adalah bagian dari Metanoia Premium">The Pack is part of Metanoia Premium</h2>
     <p data-en="Nine learning modules, nine practice assignments, AI-assisted practice tools, and the complete application toolkit — one membership unlocks every Metanoia product." data-id="Sembilan modul pembelajaran, sembilan tugas latihan, alat latihan berbantuan AI, dan perangkat lamaran lengkap — satu keanggotaan membuka semua produk Metanoia.">Nine learning modules, nine practice assignments, AI-assisted practice tools, and the complete application toolkit — one membership unlocks every Metanoia product.</p>
-    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access The Pack →" data-id="Tingkatkan ke Premium untuk Mengakses The Pack →">Upgrade to Premium to Access The Pack →</a>
+    <a class="btn-gold" href="../../register?plan=premium" data-en="Upgrade to Premium to Access The Pack →" data-id="Tingkatkan ke Premium untuk Mengakses The Pack →">Upgrade to Premium to Access The Pack →</a>
   </div>
 </div>
 
@@ -1664,7 +1664,7 @@ function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.
 if (!isDemoMode) {
   if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
-    window.location.replace('../../login.html?redirect=' + encodeURIComponent('/products/the-pack/'));
+    window.location.replace('../../login?redirect=' + encodeURIComponent('/products/the-pack/'));
   } else if (!isPremium) {
     showUpgradePrompt();
   }

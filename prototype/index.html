@@ -121,7 +121,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   /* cinematic grade over footage, tuned per scene for lighting continuity,
      with a text-protection wash on the reading side */
   .frame.has-video::after,body.m .frame.has-still::after{content:"";position:absolute;inset:0;pointer-events:none;
-      background:radial-gradient(72% 62% at 50% 46%, var(--grade,rgba(5,9,18,.58)) 0%, transparent 78%),
+      background:linear-gradient(rgba(0,0,0,.34),rgba(0,0,0,.34)),
+                 radial-gradient(72% 62% at 50% 46%, var(--grade,rgba(5,9,18,.58)) 0%, transparent 78%),
                  linear-gradient(to top, var(--grade,rgba(5,9,18,.58)), transparent 48%),
                  linear-gradient(100deg, var(--grade,rgba(5,9,18,.58)) 8%, transparent 64%),
                  radial-gradient(130% 95% at 50% 38%, transparent 58%, var(--grade,rgba(5,9,18,.5)) 100%)}
@@ -392,25 +393,25 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     .chap2 .qdiv{display:none}}
 
   /* ── Chapter II refinement — premium card band + quote panel ── */
-  #climb .content.chap2 .cards,#basecamp .content.chap2 .cards{gap:20px}
-  #climb .content.chap2 .card,#basecamp .content.chap2 .card{min-height:298px;padding:22px 24px 128px;border-radius:18px;
+  #climb .content.chap2 .cards,#basecamp .content.chap2 .cards,#summit .content.chap2 .cards.sm{gap:20px}
+  #climb .content.chap2 .card,#basecamp .content.chap2 .card,#summit .content.chap2 .card{min-height:298px;padding:22px 24px 128px;border-radius:18px;
     border-color:rgba(245,239,230,.18)}
-  #climb .content.chap2 .card::before,#basecamp .content.chap2 .card::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
+  #climb .content.chap2 .card::before,#basecamp .content.chap2 .card::before,#summit .content.chap2 .card::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
     background:linear-gradient(90deg,transparent,rgba(201,168,76,.55),transparent);opacity:0;transition:opacity .35s ease}
-  #climb .content.chap2 .card:hover,#basecamp .content.chap2 .card:hover{transform:translateY(-6px)}
-  #climb .content.chap2 .card:hover::before,#basecamp .content.chap2 .card:hover::before{opacity:1}
-  #climb .content.chap2 .card .badge,#basecamp .content.chap2 .card .badge{width:48px;height:48px;transition:box-shadow .35s ease}
-  #climb .content.chap2 .card:hover .badge,#basecamp .content.chap2 .card:hover .badge{box-shadow:0 0 0 4px rgba(201,168,76,.12),0 0 22px rgba(201,168,76,.28)}
-  #climb .content.chap2 .card h3,#basecamp .content.chap2 .card h3{font-size:clamp(19px,1.55vw,21.5px);margin-bottom:9px}
-  #climb .content.chap2 .card p,#basecamp .content.chap2 .card p{font-size:12.5px;line-height:1.66;max-width:30em}
-  #climb .content.chap2 .card .kick,#basecamp .content.chap2 .card .kick{margin-bottom:13px}
+  #climb .content.chap2 .card:hover,#basecamp .content.chap2 .card:hover,#summit .content.chap2 .card:hover{transform:translateY(-6px)}
+  #climb .content.chap2 .card:hover::before,#basecamp .content.chap2 .card:hover::before,#summit .content.chap2 .card:hover::before{opacity:1}
+  #climb .content.chap2 .card .badge,#basecamp .content.chap2 .card .badge,#summit .content.chap2 .card .badge{width:48px;height:48px;transition:box-shadow .35s ease}
+  #climb .content.chap2 .card:hover .badge,#basecamp .content.chap2 .card:hover .badge,#summit .content.chap2 .card:hover .badge{box-shadow:0 0 0 4px rgba(201,168,76,.12),0 0 22px rgba(201,168,76,.28)}
+  #climb .content.chap2 .card h3,#basecamp .content.chap2 .card h3,#summit .content.chap2 .card h3{font-size:clamp(19px,1.55vw,21.5px);margin-bottom:9px}
+  #climb .content.chap2 .card p,#basecamp .content.chap2 .card p,#summit .content.chap2 .card p{font-size:12.5px;line-height:1.66;max-width:30em}
+  #climb .content.chap2 .card .kick,#basecamp .content.chap2 .card .kick,#summit .content.chap2 .card .kick{margin-bottom:13px}
   /* imagery carries the lower half of the card, fading in under the copy */
-  #climb .card .cbg,#basecamp .card .cbg{height:58%}
-  #climb .card .cbg img,#basecamp .card .cbg img{opacity:.85;
+  #climb .card .cbg,#basecamp .card .cbg,#summit .card .cbg{height:58%}
+  #climb .card .cbg img,#basecamp .card .cbg img,#summit .card .cbg img{opacity:.85;
     -webkit-mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);
     mask-image:linear-gradient(180deg,transparent,rgba(0,0,0,.72) 34%,#000 60%);
     transition:transform .8s cubic-bezier(.22,.8,.3,1)}
-  #climb .card:hover .cbg img,#basecamp .card:hover .cbg img{transform:scale(1.05)}
+  #climb .card:hover .cbg img,#basecamp .card:hover .cbg img,#summit .card:hover .cbg img{transform:scale(1.05)}
   #climb .card .cbg img[src*="04-basecamp"]{object-position:50% 46%}
   /* AI Coach: the living route — a glowing dotted ascent to a lit waypoint */
   .cart{position:absolute;left:0;right:0;bottom:0;height:60%;z-index:0;pointer-events:none;
@@ -431,8 +432,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #climb .qband .qcta b+span,#climb .qband .qcta div>span,#basecamp .qband .qcta b+span,#basecamp .qband .qcta div>span{font-size:13px}
   #climb .qband .qcta .cta,#basecamp .qband .qcta .cta{padding:15px 30px;font-size:15px}
   @media(max-width:900px){
-    #climb .content.chap2 .card,#basecamp .content.chap2 .card{min-height:0;padding-bottom:132px}
-    #climb .card .cbg,#basecamp .card .cbg,#climb .cart{height:46%}
+    #climb .content.chap2 .card,#basecamp .content.chap2 .card,#summit .content.chap2 .card{min-height:0;padding-bottom:132px}
+    #climb .card .cbg,#basecamp .card .cbg,#summit .card .cbg{height:46%}
     #climb .qband,#basecamp .qband{padding:20px 20px}
     #climb .qband .qcta,#basecamp .qband .qcta{width:100%}
     #climb .qband .qcta .cta,#basecamp .qband .qcta .cta{margin-left:auto}
@@ -457,9 +458,21 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .cp-head b{font-size:14px;display:block}
   .cp-head span{display:block;font-size:9.5px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;margin-top:2px}
   .cp-h{font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text);margin:13px 0 9px}
-  .cp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
-  .cp-list li{display:flex;gap:9px;font-size:12px;color:var(--muted);align-items:flex-start;line-height:1.5}
-  .cp-list li svg{width:14px;height:14px;color:var(--accent-text);flex:none;margin-top:2px}
+  .cp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+  .cp-list li{display:flex;gap:12px;align-items:flex-start}
+  .cpi{flex:none;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    border:1px solid color-mix(in srgb,var(--accent-text) 52%,transparent);color:var(--accent-text);
+    background:rgba(6,11,20,.5);transition:box-shadow .3s ease}
+  .cp-list li:hover .cpi{box-shadow:0 0 0 3px rgba(201,168,76,.12),0 0 14px rgba(201,168,76,.22)}
+  .cpi svg{width:16px;height:16px}
+  .cp-list b{display:block;font-size:13px;color:var(--text);line-height:1.3}
+  .cp-list p{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.5}
+  .cp-foot{display:flex;gap:11px;align-items:center;margin-top:14px;padding-top:13px;
+    border-top:1px dashed rgba(245,239,230,.18)}
+  .cp-foot i{flex:none;width:30px;color:var(--accent-text);opacity:.85}
+  .cp-foot i svg{width:100%;display:block}
+  .cp-foot b{display:block;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text)}
+  .cp-foot span{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}
   @media(max-width:1180px){#basecamp .content.base2{grid-template-columns:1fr;
     grid-template-areas:"main" "cards" "side" "quote"}}
 
@@ -472,11 +485,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #summit .summit-main{grid-area:main}
   #summit .summit-main .voice{margin-top:20px}
   #summit .content.summit2 .cards.sm{grid-area:cards}
-  #summit .content.summit2 .cards.sm .card{min-height:0;padding:16px 18px}
-  #summit .content.summit2 .cards.sm .card .kick{margin-bottom:8px}
-  #summit .content.summit2 .cards.sm .card .k{font-size:12px;letter-spacing:.12em;text-transform:none;
-    font-weight:700;color:var(--text);font-size:14px}
-  #summit .content.summit2 .cards.sm .card .badge{width:42px;height:42px}
   #summit .summit-cta{grid-area:cta;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
   .cta.big2{display:inline-flex;align-items:center;gap:14px;padding:12px 24px;margin-top:0}
   .cta.big2 .bc-ico{flex:none;width:34px;height:34px;border-radius:50%;background:rgba(0,0,0,.18);
@@ -587,16 +595,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   #summit .content.summit2 h2{font-size:clamp(2rem,4.4vw,3.6rem);letter-spacing:-.012em;line-height:1.06;max-width:14em}
   #summit .content.summit2 .lede{margin-left:0;margin-right:0;margin-top:14px;max-width:37em}
   #summit .content.summit2 .voice{margin-left:0;margin-right:0;margin-top:16px;max-width:30em}
-  #summit .content.summit2 .cards.sm .card{display:grid;grid-template-columns:auto 1fr;column-gap:14px;align-items:start;
-    padding:17px 20px;border-radius:16px}
-  #summit .content.summit2 .cards.sm .card .kick{display:contents}
-  #summit .content.summit2 .cards.sm .card .badge{grid-row:span 2;margin-top:2px;transition:box-shadow .35s ease}
-  #summit .content.summit2 .cards.sm .card .k{align-self:center}
-  #summit .content.summit2 .cards.sm .card p{grid-column:2;font-size:12.5px;line-height:1.55;margin-top:2px}
-  #summit .content.summit2 .cards.sm .card::before{content:'';position:absolute;top:0;left:18%;right:18%;height:1px;
-    background:linear-gradient(90deg,transparent,rgba(201,168,76,.55),transparent);opacity:0;transition:opacity .35s ease}
-  #summit .content.summit2 .cards.sm .card:hover::before{opacity:1}
-  #summit .content.summit2 .cards.sm .card:hover .badge{box-shadow:0 0 0 4px rgba(201,168,76,.12),0 0 22px rgba(201,168,76,.28)}
 
   /* Chapter V — trail cards become left-anchored media doors */
   #horizon .trail-card{align-items:flex-start;text-align:left;padding:15px 16px 12px;min-height:174px}
@@ -912,17 +910,17 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   </a>
   <div class="menu" id="menuBar">
     <a href="/" data-i18n="nav.home">Home</a>
-    <a href="pages/student.html" data-i18n="paths.student">Student</a>
-    <a href="pages/fresh-graduate.html" data-i18n="paths.fresh">Fresh Graduate</a>
-    <a href="pages/early-professional.html" data-i18n="paths.early">Early Professional</a>
-    <a href="pages/mature-professional.html" data-i18n="paths.mature">Mature Professional</a>
-    <a href="pages/enterprise.html" data-i18n="paths.ent">For Enterprise</a>
-    <a href="pages/mentors.html" data-i18n="paths.mentor">For Mentors</a>
-    <a href="pages/mind-palace.html" data-i18n="paths.mind">Mind Palace</a>
-    <a href="pages/about.html" data-i18n="nav.about">About Us</a>
+    <a href="pages/student" data-i18n="paths.student">Student</a>
+    <a href="pages/fresh-graduate" data-i18n="paths.fresh">Fresh Graduate</a>
+    <a href="pages/early-professional" data-i18n="paths.early">Early Professional</a>
+    <a href="pages/mature-professional" data-i18n="paths.mature">Mature Professional</a>
+    <a href="pages/enterprise" data-i18n="paths.ent">For Enterprise</a>
+    <a href="pages/mentors" data-i18n="paths.mentor">For Mentors</a>
+    <a href="pages/mind-palace" data-i18n="paths.mind">Mind Palace</a>
+    <a href="pages/about" data-i18n="nav.about">About Us</a>
   </div>
   <div class="nav-right">
-    <a class="nav-ico" href="pages/mind-palace.html" aria-label="Search Mind Palace" title="Search">
+    <a class="nav-ico" href="pages/mind-palace" aria-label="Search Mind Palace" title="Search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
     </a>
     <div class="lang-dd" id="langDD">
@@ -949,8 +947,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
-    <a class="nav-signin" href="login.html" data-i18n="nav.signin">Sign in</a>
-    <a class="nav-cta" href="career-map-assessment.html" data-i18n="nav.cta">Free Career Map</a>
+    <a class="nav-signin" href="login" data-i18n="nav.signin">Sign in</a>
+    <a class="nav-cta" href="career-map-assessment" data-i18n="nav.cta">Free Career Map</a>
   </div>
 </nav>
 
@@ -1294,7 +1292,10 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 .ldd-menu .lf{display:block}
 .ldd-menu button{display:flex;align-items:center;gap:10px}
 /* the navigation sheet stacks: tools row above Explore Metanoia */
-.sheet{flex-direction:column;align-items:center !important}
+.sheet{flex-direction:column;align-items:stretch !important;justify-content:flex-start !important;
+  overflow-y:auto !important;max-height:100dvh;-webkit-overflow-scrolling:touch;
+  padding-bottom:max(44px,env(safe-area-inset-bottom))}
+.sheet .mega{margin-left:auto;margin-right:auto;flex:0 0 auto}
 /* sheet tools: the moved actions, first row of the navigation sheet */
 .sheet-tools{position:relative;z-index:1;width:100%;max-width:1240px;margin:0 0 14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .st-cta,.st-btn{gap:9px}
@@ -1328,7 +1329,7 @@ body.m .chapter,body.m .eyebrow,body.m .pc-label{display:inline-block;
   font-size:10px;letter-spacing:.2em}
 body.m .chapter{margin-bottom:12px}
 body.m .pc-label{margin-bottom:12px}
-body.m #climb .content.chap2 .card,body.m #basecamp .content.chap2 .card{min-height:0;padding-bottom:112px}
+body.m #climb .content.chap2 .card,body.m #basecamp .content.chap2 .card,body.m #summit .content.chap2 .card{min-height:0;padding-bottom:112px}
 
 /* rhythm + type scale */
 body.m .content{padding-left:20px;padding-right:20px}
@@ -1348,7 +1349,6 @@ body.m .content.chap2 .cards{display:grid;grid-template-columns:none;grid-auto-f
   margin:0 -20px;padding:4px 20px 10px}
 body.m .content.chap2 .cards::-webkit-scrollbar{display:none}
 body.m .content.chap2 .card{scroll-snap-align:center}
-body.m #summit .cards.sm{grid-auto-flow:row;grid-auto-columns:auto;margin:0;padding:0;overflow:visible}
 
 /* prep pillar rail: bigger snap cards, edge-bled */
 body.m .pc-track{grid-auto-columns:min(74vw,290px);scroll-snap-type:x mandatory;
@@ -1358,8 +1358,7 @@ body.m .prep-cta .cta{flex:1 1 auto;justify-content:center}
 
 /* camp panel: glanceable two-column checklist */
 body.m .camp-panel{padding:16px 18px}
-body.m .cp-list{display:grid;grid-template-columns:1fr 1fr;gap:9px 12px}
-body.m .cp-list li{font-size:11.5px;line-height:1.4}
+body.m .cp-list{gap:11px}
 
 /* quote bands: stacked app card with a full-width thumb CTA */
 body.m .qband{flex-direction:column;align-items:flex-start;gap:12px;padding:18px}
@@ -1371,7 +1370,6 @@ body.m .qband .qcta .qclock{grid-row:span 2;width:42px;height:42px}
 body.m .qband .qcta .cta{grid-column:1/-1;width:100%;justify-content:center;margin-top:10px}
 
 /* summit: compact claim rows + full-width ascent CTA */
-body.m #summit .cards.sm .card{padding:13px 15px}
 body.m .summit-cta{gap:12px}
 body.m .cta.big2{width:100%;justify-content:center}
 body.m .summit-cta .prep-ghost{margin:0 auto}
@@ -1513,7 +1511,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     <div class="mega-grid">
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="pages/student.html">
+        <a class="mg-head" href="pages/student">
           <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span>
           <span class="mg-hstack">
             <span class="mg-kick" data-en="Find your stage" data-id="Temukan tahapmu">Find your stage</span>
@@ -1522,12 +1520,12 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="pages/student.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
-            <li><a href="pages/fresh-graduate.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
-            <li><a href="pages/early-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
-            <li><a href="pages/mature-professional.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
-            <li><a href="pages/enterprise.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
-            <li><a href="pages/mentors.html"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
+            <li><a href="pages/student"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="pages/fresh-graduate"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="pages/early-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="pages/mature-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="pages/enterprise"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="pages/mentors"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
           </ul>
         </div></div>
       </section>
@@ -1552,7 +1550,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       </section>
       <section class="mg-group">
         <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
-        <a class="mg-head" href="career-map-assessment.html">
+        <a class="mg-head" href="career-map-assessment">
           <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span>
           <span class="mg-hstack">
             <span class="mg-kick" data-en="Free, today" data-id="Gratis, hari ini">Free, today</span>
@@ -1561,21 +1559,21 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         </a>
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
-            <li><a href="pages/fresh-graduate.html#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
-            <li><a href="pricing.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
-            <li><a href="help.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
+            <li><a href="pages/fresh-graduate#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
+            <li><a href="pricing"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
+            <li><a href="help"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
           </ul>
         </div></div>
       </section>
     </div>
     <div class="mega-foot">
       <div class="mf-links">
-        <a href="landing.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
-        <a href="pages/mind-palace.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
-        <a href="pages/about.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
-        <a class="mf-signin" href="login.html"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
+        <a href="landing"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
+        <a href="pages/mind-palace"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
+        <a href="pages/about"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
+        <a class="mf-signin" href="login"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
       </div>
-      <a class="mf-cta" href="career-map-assessment.html"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
+      <a class="mf-cta" href="career-map-assessment"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
     </div>
   </div>
 </div>
@@ -1655,7 +1653,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <h2 class="fx d1"><span data-i18n="prep.h2a">No one summits on talent alone.</span> <em data-i18n="prep.h2b">They summit prepared.</em></h2>
           <p class="lede fx d2" data-i18n="prep.lede">Privileged climbers arrive with routes marked and packs filled by people who've climbed before. Metanoia packs yours: a readiness diagnostic that maps your true starting point, then a personalized route to your target role.</p>
           <div class="prep-cta fx d3">
-            <a class="cta" href="career-map-assessment.html"><span data-i18n="prep.cta1">Start your diagnostic</span>
+            <a class="cta" href="career-map-assessment"><span data-i18n="prep.cta1">Start your diagnostic</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             <button class="prep-ghost" type="button" data-goto="2"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
           </div>
@@ -1699,7 +1697,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <p class="lede fx d2" data-i18n="climb.lede">Rejection. Ghosting. Doubt that sounds like your own voice. This is where most climbers turn back — not because they're weak, but because they're climbing alone. You won't be.</p>
         </div>
         <div class="cards">
-          <div class="card fx d1"><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”</p><span class="cart" aria-hidden="true"><svg viewBox="0 0 320 200" fill="none" preserveAspectRatio="xMidYMax slice"><path d="M42 200 L128 78 L172 128 L232 30 L320 200" stroke="rgba(245,239,230,.10)" stroke-width="1.4" stroke-linejoin="round"/><path d="M232 30 L286 118 L320 96" stroke="rgba(245,239,230,.07)" stroke-width="1.2"/><path class="crt" d="M20 196 C 74 176, 60 154, 108 140 C 150 128, 118 108, 158 92 C 196 77, 178 62, 224 38" stroke="#E8C766" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="1 11"/><circle cx="108" cy="140" r="2.4" fill="#E8C766" opacity=".65"/><circle cx="158" cy="92" r="2.4" fill="#E8C766" opacity=".65"/><circle cx="224" cy="38" r="9" fill="#E8C766" opacity=".16"/><circle cx="224" cy="38" r="4" fill="#E8C766"/></svg></span></div>
+          <div class="card fx d1"><span class="cbg" aria-hidden="true"><img src="assets/m/02-prep.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/></svg></span><span class="k" data-i18n="climb.c1k">AI Coach</span></span><h3 data-i18n="climb.c1h">A guide on every pitch</h3><p data-i18n="climb.c1p">Meta remembers your whole climb — every slip, every rep — and calls the next move: “Your STAR structure slipped on conflict questions. Fifteen minutes. Let's fix it.”</p></div>
           <div class="card fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/rope-team.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3.5 0-6 2.2-6 5.4 0 4.4 6 4.1 6 7.8 0 1.9-1.4 3-3.2 3"/><path d="M12 21c3.5 0 6-2.2 6-5.4 0-4.4-6-4.1-6-7.8C12 5.9 13.4 4.8 15.2 4.8"/></svg></span><span class="k" data-i18n="climb.c2k">Rope Team</span></span><h3 data-i18n="climb.c2h">Peers on the same face</h3><p data-i18n="climb.c2p">Matched practice partners at your stage. Trade mock interviews. Catch each other's falls. Every session is a gift that comes back.</p></div>
           <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3Z"/><path d="M8.5 13.5 L11 10 L12.8 12.4 L15.5 8.8"/></svg></span><span class="k" data-i18n="climb.c3k">Resilience</span></span><h3 data-i18n="climb.c3h">Weatherproofing the mind</h3><p data-i18n="climb.c3p">Rejection-recovery programs and confidence work — because the storm is part of the route, and no score drops when the sky does.</p></div>
         </div>
@@ -1710,7 +1708,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="qcta">
             <span class="qclock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4"/><path d="M6 5h11l-2.6 3.5L17 12H6"/></svg></span>
             <div><b data-i18n="climb.qh">Find your starting point</b><span data-i18n="climb.qs">Free. 15 minutes.</span></div>
-            <a class="cta" href="career-map-assessment.html"><span data-i18n="prep.cta1">Start your diagnostic</span>
+            <a class="cta" href="career-map-assessment"><span data-i18n="prep.cta1">Start your diagnostic</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
@@ -1750,11 +1748,12 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="cp-head"><span class="cp-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
           <div class="cp-h" data-i18n="base.ph">What happens here</div>
           <ul class="cp-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p1">Build trust &amp; connections</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p2">Learn from real journeys</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p3">Share experiences</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span data-i18n="base.p4">Prepare for what&rsquo;s ahead</span></li>
+            <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="M8.6 12.2l2.1 2.1 4.7-4.7"/></svg></i><div><b data-i18n="base.p1">Build trust &amp; connections</b><p data-i18n="base.p1d">Real people. Real conversations. Lasting relationships.</p></div></li>
+            <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg></i><div><b data-i18n="base.p2">Learn from real journeys</b><p data-i18n="base.p2d">Stories from the climb — wins, setbacks, and everything in between.</p></div></li>
+            <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></i><div><b data-i18n="base.p3">Share experiences</b><p data-i18n="base.p3d">Exchange insights and perspectives that move us all forward.</p></div></li>
+            <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/></svg></i><div><b data-i18n="base.p4">Prepare for what&rsquo;s ahead</b><p data-i18n="base.p4d">Gear up with clarity, confidence, and the right mindset.</p></div></li>
           </ul>
+          <div class="cp-foot"><i aria-hidden="true"><svg viewBox="0 0 44 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 L17 7 L22 13 L27 4 L36 21"/><circle cx="27" cy="4" r="1.6" fill="currentColor" stroke="none"/></svg></i><div><b data-i18n="base.cf1">This is your community.</b><span data-i18n="base.cf2">Climb higher, together.</span></div></div>
         </aside>
         <div class="cards">
           <div class="card warm fx d1"><span class="cbg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><span class="k" data-i18n="base.c1k">Cohorts</span></span><h3 data-i18n="base.c1h">Your expedition party</h3><p data-i18n="base.c1p">Twenty climbers, one route, shared wins. When Sinta gets her offer, the whole camp feels the fire rise.</p></div>
@@ -1768,7 +1767,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <div class="qcta">
             <span class="qclock" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c1.8 2.6 4.9 4.7 4.9 8.3A4.9 4.9 0 0 1 12 16.7a4.9 4.9 0 0 1-4.9-4.9c0-1.4.5-2.6 1.3-3.8.6 1 1.4 1.6 2.2 1.8-.4-2.2.2-4.5 1.4-6.3Z"/><path d="M8.5 20.5h7"/></svg></span>
             <div><b data-i18n="base.qh">Ready to be part of the climb?</b><span data-i18n="base.qs">Join the community, find your people, prepare for the road ahead.</span></div>
-            <a class="cta" href="register.html"><span data-i18n="base.qb">Join Basecamp</span>
+            <a class="cta" href="register"><span data-i18n="base.qb">Join Basecamp</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
@@ -1806,12 +1805,12 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <p class="voice fx d2" data-i18n="summit.voice">“The view was never the point. <em>Look who you became on the way up.</em>”</p>
         </div>
         <div class="cards sm">
-          <div class="card fx d2"><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="m9 11.8 2.2 2.2L15.4 9.6"/></svg></span><span class="k" data-i18n="summit.f1h">Verified &amp; trusted</span></span><p data-i18n="summit.f1p">Credentials that prove what you can do.</p></div>
-          <div class="card fx d3"><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg></span><span class="k" data-i18n="summit.f2h">Seen before you apply</span></span><p data-i18n="summit.f2p">Employers who&rsquo;ve already seen your work.</p></div>
-          <div class="card fx d3"><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12.5 7 8.5l4 1.5 3.5-3L21 11"/><path d="m11 10-3 3a1.6 1.6 0 0 0 2.3 2.3l.7-.7"/><path d="m13.5 12.5-2.5 2.5a1.6 1.6 0 0 0 2.3 2.3l1.2-1.2"/><path d="m16 14.5-1 1a1.6 1.6 0 0 0 2.3 2.3l1.7-1.8c1-1 1.5-2.3 1.5-3.5"/></svg></span><span class="k" data-i18n="summit.f3h">Negotiated with confidence</span></span><p data-i18n="summit.f3p">Offers discussed like you&rsquo;ve done this before.</p></div>
+          <div class="card fx d2"><span class="cbg" aria-hidden="true"><img src="assets/bg/stage-graduation.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="m9 11.8 2.2 2.2L15.4 9.6"/></svg></span><span class="k" data-i18n="summit.f1k">Credentials</span></span><h3 data-i18n="summit.f1h">Verified &amp; trusted</h3><p data-i18n="summit.f1p">Credentials that prove what you can do.</p></div>
+          <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/bg/gauntlet/gate-06-final-interview.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg></span><span class="k" data-i18n="summit.f2k">Visibility</span></span><h3 data-i18n="summit.f2h">Seen before you apply</h3><p data-i18n="summit.f2p">Employers who&rsquo;ve already seen your work.</p></div>
+          <div class="card fx d3"><span class="cbg" aria-hidden="true"><img src="assets/bg/gauntlet/gate-08-offer.jpg" alt="" loading="lazy" decoding="async"></span><span class="kick"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12.5 7 8.5l4 1.5 3.5-3L21 11"/><path d="m11 10-3 3a1.6 1.6 0 0 0 2.3 2.3l.7-.7"/><path d="m13.5 12.5-2.5 2.5a1.6 1.6 0 0 0 2.3 2.3l1.2-1.2"/><path d="m16 14.5-1 1a1.6 1.6 0 0 0 2.3 2.3l1.7-1.8c1-1 1.5-2.3 1.5-3.5"/></svg></span><span class="k" data-i18n="summit.f3k">Negotiation</span></span><h3 data-i18n="summit.f3h">Negotiated with confidence</h3><p data-i18n="summit.f3p">Offers discussed like you&rsquo;ve done this before.</p></div>
         </div>
         <div class="summit-cta fx d4">
-          <a class="cta big2" href="career-map-assessment.html"><span class="bc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c2.8 1.6 4.5 4.6 4.5 8.2l-2 2.3h-5l-2-2.3c0-3.6 1.7-6.6 4.5-8.2Z"/><circle cx="12" cy="10" r="1.6"/><path d="M9.5 14 8 19l4-2 4 2-1.5-5"/></svg></span><span class="bc-tx"><b data-i18n="summit.cta1">Start your next ascent</b><i data-i18n="summit.cta1s">It takes 15 minutes</i></span>
+          <a class="cta big2" href="career-map-assessment"><span class="bc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c2.8 1.6 4.5 4.6 4.5 8.2l-2 2.3h-5l-2-2.3c0-3.6 1.7-6.6 4.5-8.2Z"/><circle cx="12" cy="10" r="1.6"/><path d="M9.5 14 8 19l4-2 4 2-1.5-5"/></svg></span><span class="bc-tx"><b data-i18n="summit.cta1">Start your next ascent</b><i data-i18n="summit.cta1s">It takes 15 minutes</i></span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           <button class="prep-ghost" type="button" data-goto="5"><span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span data-i18n="prep.cta2">Continue the story</span></button>
         </div>
@@ -1862,14 +1861,14 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <span class="eyebrow" style="display:block" data-i18n="paths.eye">Choose your path</span>
           <p class="lede" style="margin-top:6px;font-size:13.5px" data-i18n="paths.h3">Eight trails lead on from this summit. Pick yours.</p>
           <div class="paths" role="navigation" aria-label="Audience pathways">
-          <a class="trail-card" href="pages/student.html" data-trail="student"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/stage-foundation.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/fresh-graduate.html" data-trail="fresh"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/early-professional.html" data-trail="early"><span class="tc-bg" aria-hidden="true"><img src="assets/early-professional-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="early" aria-hidden="true"></span><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mature-professional.html" data-trail="mature"><span class="tc-bg" aria-hidden="true"><img src="assets/mature-professional-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mature" aria-hidden="true"></span><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/enterprise.html" data-trail="ent"><span class="tc-bg" aria-hidden="true"><img src="assets/for-enterprise-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="ent" aria-hidden="true"></span><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Empower Your Employees with Future-Ready Skills.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mentors.html" data-trail="mentor"><span class="tc-bg" aria-hidden="true"><img src="assets/for-mentor.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mentor" aria-hidden="true"></span><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/mind-palace.html" data-trail="mind"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mind" aria-hidden="true"></span><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="trail-card" href="pages/about.html" data-trail="about"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/aladdin-hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/student" data-trail="student"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/stage-foundation.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="student" aria-hidden="true"></span><h4 data-i18n="paths.student">Student</h4><p data-i18n="paths.student.d">Build the map before graduation day.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/fresh-graduate" data-trail="fresh"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/fg-stage-ascent.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="fresh" aria-hidden="true"></span><h4 data-i18n="paths.fresh">Fresh Graduate</h4><p data-i18n="paths.fresh.d">Turn the degree into a first offer.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/early-professional" data-trail="early"><span class="tc-bg" aria-hidden="true"><img src="assets/early-professional-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="early" aria-hidden="true"></span><h4 data-i18n="paths.early">Early Professional</h4><p data-i18n="paths.early.d">Make the next move the right one.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mature-professional" data-trail="mature"><span class="tc-bg" aria-hidden="true"><img src="assets/mature-professional-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mature" aria-hidden="true"></span><h4 data-i18n="paths.mature">Mature Professional</h4><p data-i18n="paths.mature.d">Reinvent without starting over.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/enterprise" data-trail="ent"><span class="tc-bg" aria-hidden="true"><img src="assets/for-enterprise-background.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="ent" aria-hidden="true"></span><h4 data-i18n="paths.ent">For Enterprise</h4><p data-i18n="paths.ent.d">Empower Your Employees with Future-Ready Skills.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mentors" data-trail="mentor"><span class="tc-bg" aria-hidden="true"><img src="assets/for-mentor.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mentor" aria-hidden="true"></span><h4 data-i18n="paths.mentor">For Mentors</h4><p data-i18n="paths.mentor.d">Hold the map for the next climber.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/mind-palace" data-trail="mind"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="mind" aria-hidden="true"></span><h4 data-i18n="paths.mind">Mind Palace</h4><p data-i18n="paths.mind.d">Train the mind that climbs.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="trail-card" href="pages/about" data-trail="about"><span class="tc-bg" aria-hidden="true"><img src="assets/bg/aladdin-hero.jpg" alt="" loading="lazy" decoding="async"></span><span class="trail-icon" data-icon="about" aria-hidden="true"></span><h4 data-i18n="paths.about">About Metanoia</h4><p data-i18n="paths.about.d">The mission behind the mountain.</p><span class="trail-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
         </div>
         <div class="horcta fx d4">
@@ -1879,7 +1878,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <span class="hc-mini"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></i><span data-i18n="hor.f1">Free diagnostic</span></span>
           <span class="hc-mini"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15.5V9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6.5"/><circle cx="6" cy="18" r="2.4"/><circle cx="18" cy="18" r="2.4"/></svg></i><span data-i18n="hor.f2">Personalized route</span></span>
           <span class="hc-mini"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="m9 11.8 2.2 2.2L15.4 9.6"/></svg></i><span data-i18n="hor.f3">No credit card, no spam, no generic advice</span></span>
-          <a class="cta" href="career-map-assessment.html"><span data-i18n="hor.go">Start your Career Map</span>
+          <a class="cta" href="career-map-assessment"><span data-i18n="hor.go">Start your Career Map</span>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
         <button class="mnext" type="button" data-mscroll="mindtease"><span data-i18n="mnext.l">Next chapter</span><b data-i18n="mpt.ch">Mind Palace</b><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -1896,17 +1895,17 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 
     <span class="mpt-k" data-i18n="mpt.needs">Explore by what you need</span>
     <div class="mpt-needs">
-      <a class="mpt-nc" href="pages/mind-palace.html#/need/understand"><span class="np"><img src="assets/m/03-climb.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace.html#/need/hired"><span class="np"><img src="assets/bg/gauntlet/gate-05-hr-interview.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n2">I want to get hired</b><p data-i18n="mpt.n2d">CV, applications, assessments and interviews.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace.html#/need/better"><span class="np"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace.html#/need/market"><span class="np"><img src="assets/global-map.png" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/understand"><span class="np"><img src="assets/m/03-climb.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/hired"><span class="np"><img src="assets/bg/gauntlet/gate-05-hr-interview.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n2">I want to get hired</b><p data-i18n="mpt.n2d">CV, applications, assessments and interviews.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/better"><span class="np"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/market"><span class="np"><img src="assets/global-map.png" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="mpt-rows">
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></i><div><b data-i18n="mpt.f1">Playbooks</b><p data-i18n="mpt.f1d">Practical steps you can use today.</p></div></div>
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 9 12l3 3 7-8"/><path d="M15 7h4v4"/></svg></i><div><b data-i18n="mpt.f2">Signals</b><p data-i18n="mpt.f2d">Job-market shifts worth watching.</p></div></div>
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></i><div><b data-i18n="mpt.f3">Perspectives</b><p data-i18n="mpt.f3d">Ways of thinking from those who climbed.</p></div></div>
     </div>
-    <a class="cta" href="pages/mind-palace.html"><span data-i18n="mpt.cta">Explore Mind Palace</span>
+    <a class="cta" href="pages/mind-palace"><span data-i18n="mpt.cta">Explore Mind Palace</span>
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
   </section>
 
@@ -1928,10 +1927,8 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
               <a href="mailto:hello@metanoialabs.net">hello@metanoialabs.net</a></div>
             <div><span class="ln" data-i18n="contact.follow">Follow the expedition</span><br>
               <span>LinkedIn</span> · <span>Instagram</span> · <span>TikTok</span></div>
-            <div><span class="ln" data-i18n="contact.base">Basecamp</span><br>
-              <span style="color:var(--muted);font-size:14.5px">Jakarta, Indonesia</span></div>
             <div class="foot-links" style="margin-top:8px;text-align:left">
-              <a href="pages/enterprise.html" data-i18n="foot.emp" style="margin:0 14px 0 0">Employers</a><a href="pages/mentors.html" data-i18n="foot.mentors" style="margin:0 14px 0 0">Mentors</a><a href="legal/data-dignity.html" data-i18n="foot.dignity" style="margin:0">Data Dignity</a>
+              <a href="pages/enterprise" data-i18n="foot.emp" style="margin:0 14px 0 0">Employers</a><a href="pages/mentors" data-i18n="foot.mentors" style="margin:0 14px 0 0">Mentors</a><a href="legal/data-dignity" data-i18n="foot.dignity" style="margin:0">Data Dignity</a>
               <div style="margin-top:8px;font-size:11.5px" data-i18n="foot.tag">Metanoia · © 2026 · Every summit lights the next.</div>
             </div>
           </div>
@@ -2012,6 +2009,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.h2a':'Every summit story was first told','base.h2b':'around a fire.',
       'base.ph':'What happens here',
       'base.p1':'Build trust & connections','base.p2':'Learn from real journeys',
+      'base.p1d':'Real people. Real conversations. Lasting relationships.',
+      'base.p2d':'Stories from the climb — wins, setbacks, and everything in between.',
+      'base.p3d':'Exchange insights and perspectives that move us all forward.',
+      'base.p4d':'Gear up with clarity, confidence, and the right mindset.',
+      'base.cf1':'This is your community.','base.cf2':'Climb higher, together.',
       'base.p3':'Share experiences','base.p4':'Prepare for what&rsquo;s ahead',
       'base.pe':'Basecamp essentials',
       'base.qh':'Ready to be part of the climb?','base.qs':'Join the community, find your people, prepare for the road ahead.',
@@ -2021,7 +2023,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'summit.s1':'Readiness at summit','summit.s2':'Offers on the table','summit.s3':'Days of climbing','summit.s4':'What changed',
       'summit.voice':'“The view was never the point. <em>Look who you became on the way up.</em>”',
       'summit.eye':'The Summit',
-      'summit.f1h':'Verified &amp; trusted','summit.f1p':'Credentials that prove what you can do.',
+      'summit.f1k':'Credentials','summit.f2k':'Visibility','summit.f3k':'Negotiation','summit.f1h':'Verified &amp; trusted','summit.f1p':'Credentials that prove what you can do.',
       'summit.f2h':'Seen before you apply','summit.f2p':'Employers who&rsquo;ve already seen your work.',
       'summit.f3h':'Negotiated with confidence','summit.f3p':'Offers discussed like you&rsquo;ve done this before.',
       'summit.cta1':'Start your next ascent','summit.cta1s':'It takes 15 minutes',
@@ -2048,7 +2050,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'foot.tag':'Metanoia · © 2026 · Every summit lights the next.',
       'contact.ch':'Chapter VI · The fire stays lit','contact.h2':'Contact Us',
       'contact.lede':"Whether you're a climber, a mentor, a university, or an employer — the rope team is open. Tell us where you are on the mountain.",
-      'contact.direct':'Reach us directly','contact.follow':'Follow the expedition','contact.base':'Basecamp',
+      'contact.direct':'Reach us directly','contact.follow':'Follow the expedition',
       'contact.name':'Your name','contact.email':'Email','contact.msg':'Your message — where are you on the mountain?',
       'contact.send':'Send message',
       'mnext.l':'Next chapter',
@@ -2128,6 +2130,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'base.h2a':'Setiap kisah puncak pertama kali diceritakan','base.h2b':'di sekeliling api unggun.',
       'base.ph':'Yang terjadi di sini',
       'base.p1':'Bangun kepercayaan & koneksi','base.p2':'Belajar dari perjalanan nyata',
+      'base.p1d':'Orang nyata. Percakapan nyata. Hubungan yang bertahan.',
+      'base.p2d':'Kisah dari pendakian — kemenangan, kegagalan, dan semua di antaranya.',
+      'base.p3d':'Bertukar wawasan dan perspektif yang membawa kita maju bersama.',
+      'base.p4d':'Bersiap dengan kejelasan, kepercayaan diri, dan pola pikir yang tepat.',
+      'base.cf1':'Ini komunitasmu.','base.cf2':'Mendaki lebih tinggi, bersama.',
       'base.p3':'Saling berbagi pengalaman','base.p4':'Bersiap untuk langkah berikutnya',
       'base.pe':'Esensi Basecamp',
       'base.qh':'Siap menjadi bagian dari pendakian?','base.qs':'Bergabung dengan komunitas, temukan orang-orangmu, dan bersiap untuk jalan di depan.',
@@ -2145,7 +2152,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'summit.s1':'Kesiapan di puncak','summit.s2':'Offer di tangan','summit.s3':'Hari pendakian','summit.s4':'Yang berubah',
       'summit.voice':'“Puncak bukanlah satu-satunya tujuan. <em>Lihatlah bagaimana setiap langkah pendakian membentuk dirimu menjadi pribadi yang lebih kuat.</em>”',
       'summit.eye':'Puncak',
-      'summit.f1h':'Terverifikasi &amp; tepercaya','summit.f1p':'Kredensial yang membuktikan kemampuanmu.',
+      'summit.f1k':'Kredensial','summit.f2k':'Visibilitas','summit.f3k':'Negosiasi','summit.f1h':'Terverifikasi &amp; tepercaya','summit.f1p':'Kredensial yang membuktikan kemampuanmu.',
       'summit.f2h':'Dilihat sebelum kamu melamar','summit.f2p':'Pemberi kerja yang sudah melihat karyamu.',
       'summit.f3h':'Negosiasi dengan percaya diri','summit.f3p':'Penawaran dibahas seakan kamu pernah mengalaminya.',
       'summit.cta1':'Mulai pendakian berikutnya','summit.cta1s':'Hanya 15 menit',
@@ -2172,7 +2179,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'foot.tag':'Metanoia · © 2026 · Setiap puncak menyalakan puncak berikutnya.',
       'contact.ch':'Bab VI · Api tetap menyala','contact.h2':'Hubungi Kami',
       'contact.lede':'Baik kamu seorang pendaki, mentor, institusi pendidikan, maupun perusahaan, Metanoia Labs selalu terbuka untuk menjadi bagian dari perjalananmu. Ceritakan di mana posisimu hari ini, dan mari kita mulai pendakiannya bersama.',
-      'contact.direct':'Hubungi langsung','contact.follow':'Ikuti ekspedisinya','contact.base':'Basecamp',
+      'contact.direct':'Hubungi langsung','contact.follow':'Ikuti ekspedisinya',
       'contact.name':'Nama kamu','contact.email':'Email','contact.msg':'Pesanmu — di mana posisimu di gunung ini?',
       'contact.send':'Kirim pesan',
       'mnext.l':'Bab berikutnya',
@@ -2260,7 +2267,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   { const m=location.hash.match(/^#page:(.+)$/); if(m) routeTo(m[1]); }
 
   // trail-marker hover previews in the top menu
-  const PEEK_ART={"#": "home", "pages/student.html": "student", "pages/fresh-graduate.html": "fresh", "pages/early-professional.html": "early", "pages/mature-professional.html": "mature", "pages/enterprise.html": "ent", "pages/mentors.html": "mentor", "pages/mind-palace.html": "mind", "pages/about.html": "about"};
+  const PEEK_ART={"#": "home", "pages/student": "student", "pages/fresh-graduate": "fresh", "pages/early-professional": "early", "pages/mature-professional": "mature", "pages/enterprise": "ent", "pages/mentors": "mentor", "pages/mind-palace": "mind", "pages/about": "about"};
   const TRAIL_ICON={
    home:`<svg viewBox="0 0 64 64" fill="none"><circle cx="44" cy="20" r="7" fill="url(#goldEdge)"/><path d="M6 50 L22 28 L34 44 L44 31 L58 50 Z" fill="url(#goldGrad)"/><path d="M22 28 L34 44 L26 46 Z" fill="url(#goldEdge)"/></svg>`,
    student:`<svg viewBox="0 0 64 64" fill="none"><path d="M32 13 L57 24 L32 35 L7 24 Z" fill="url(#goldGrad)"/><path d="M32 13 L57 24 L32 27 L7 24 Z" fill="url(#goldEdge)"/><path d="M22 30.5 L42 30.5 L42 39 C42 43.4 37 46 32 46 C27 46 22 43.4 22 39 Z" fill="url(#goldGrad)"/><path d="M22 30.5 L42 30.5 L42 33 L32 37 L22 33 Z" fill="#7A5A10" opacity=".35"/><path d="M53 24 L53 35" stroke="url(#goldGrad)" stroke-width="1.6" stroke-linecap="round"/><circle cx="53" cy="37.6" r="2.4" fill="url(#goldGrad)"/></svg>`,

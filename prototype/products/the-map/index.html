@@ -487,7 +487,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg><span class="wm">Metanoia<i>Labs</i></span></a>
     <span class="tb-sep" aria-hidden="true"></span>
     <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="../../portal.html" class="breadcrumb-back">← <span data-en="Portal" data-id="Portal">Portal</span></a>
+      <a href="../../portal" class="breadcrumb-back">← <span data-en="Portal" data-id="Portal">Portal</span></a>
       <span class="breadcrumb-sep">·</span>
       <span class="breadcrumb-current">The Map</span>
     </nav>
@@ -501,7 +501,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <svg class="moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <svg class="sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
     </button>
-    <a class="avatar" href="../../portal.html" id="avatar" aria-label="Your profile">M</a>
+    <a class="avatar" href="../../portal" id="avatar" aria-label="Your profile">M</a>
     <span class="prem-badge">Premium</span>
   </div>
 </header>
@@ -528,7 +528,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="spm" data-en="0 of 6 modules complete" data-id="0 dari 6 modul selesai">0 of 6 modules complete</div>
     </div>
     <div class="sb-foot">
-      <a href="../../portal.html">← <span data-en="Back to Portal" data-id="Kembali ke Portal">Back to Portal</span></a>
+      <a href="../../portal">← <span data-en="Back to Portal" data-id="Kembali ke Portal">Back to Portal</span></a>
     </div>
   </aside>
 
@@ -544,7 +544,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <h1>The Map</h1>
         <p class="tagline" data-en="Know yourself before you climb." data-id="Kenali dirimu sebelum mendaki.">Know yourself before you climb.</p>
         <p style="margin:10px 0 0"><span class="state-chip state-chip--gold" data-state="early-access"><span class="state-chip-dot" aria-hidden="true"></span><span data-en="Early access" data-id="Akses awal">Early access</span></span>&nbsp; <span style="font-size:12.5px;color:rgba(240,237,232,.6)" data-en="Fresh Graduate edition · Career Direction" data-id="Edisi Fresh Graduate · Arah Karier">Fresh Graduate edition · Career Direction</span></p>
-        <p class="access-line" data-en='Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.' data-id='Termasuk dalam keanggotaan Fresh Graduate — <a href="/pricing.html">lihat harga</a>. Refund 14 hari.'>Included in the Fresh Graduate membership — <a href="/pricing.html">see pricing</a>. 14-day refund.</p>
+        <p class="access-line" data-en='Included in the Fresh Graduate membership — <a href="/pricing">see pricing</a>. 14-day refund.' data-id='Termasuk dalam keanggotaan Fresh Graduate — <a href="/pricing">lihat harga</a>. Refund 14 hari.'>Included in the Fresh Graduate membership — <a href="/pricing">see pricing</a>. 14-day refund.</p>
         <div class="meta-row">
           <span data-en="Beginner" data-id="Pemula">Beginner</span>
           <span data-en="6 Modules" data-id="6 Modul">6 Modules</span>
@@ -1377,7 +1377,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <span class="gold-pill">01 · The Map</span>
     <h2 id="upgradeTitle" data-en="The Map is part of Metanoia Premium" data-id="The Map adalah bagian dari Metanoia Premium">The Map is part of Metanoia Premium</h2>
     <p data-en="Six learning modules, six practice assignments, and AI-assisted practice tools — free while Metanoia is in beta." data-id="Enam modul pembelajaran, enam tugas latihan, dan alat latihan berbantuan AI — gratis selama Metanoia dalam masa beta.">Six learning modules, six practice assignments, and AI-assisted practice tools — free while Metanoia is in beta.</p>
-    <a class="btn-gold" href="../../register.html?plan=premium" data-en="Upgrade to Premium to Access The Map →" data-id="Tingkatkan ke Premium untuk Mengakses The Map →">Upgrade to Premium to Access The Map →</a>
+    <a class="btn-gold" href="../../register?plan=premium" data-en="Upgrade to Premium to Access The Map →" data-id="Tingkatkan ke Premium untuk Mengakses The Map →">Upgrade to Premium to Access The Map →</a>
   </div>
 </div>
 
@@ -1399,7 +1399,7 @@ function showUpgradePrompt() { document.getElementById('upgradeVeil').classList.
 if (!isDemoMode) {
   if (!isAuthenticated) {
     /* returning members sign in; login carries the redirect through to register for new visitors */
-    window.location.replace('../../login.html?redirect=' + encodeURIComponent('/products/the-map/' + (location.hash.indexOf('#/') === 0 ? location.hash : '')));
+    window.location.replace('../../login?redirect=' + encodeURIComponent('/products/the-map/' + (location.hash.indexOf('#/') === 0 ? location.hash : '')));
   } else if (!isPremium) {
     showUpgradePrompt();
   }

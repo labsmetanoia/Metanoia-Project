@@ -30,8 +30,8 @@
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/login.html"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/login.html">
+<link rel="canonical" href="https://metanoialabs.net/login"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:url" content="https://metanoialabs.net/login">
 <title>Sign in — Metanoia Labs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -224,7 +224,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <div class="form-err" id="formErr"></div>
           <button class="btn-primary-auth" type="submit" data-en="Continue the Ascent →" data-id="Lanjutkan Pendakian →">Continue the Ascent →</button>
         </form>
-        <p class="bottom-cta"><span data-en="No account?" data-id="Belum punya akun?">No account?</span> <a class="gold-link" href="register.html" data-en="Create one free →" data-id="Buat gratis →">Create one free →</a></p>
+        <p class="bottom-cta"><span data-en="No account?" data-id="Belum punya akun?">No account?</span> <a class="gold-link" href="register" data-en="Create one free →" data-id="Buat gratis →">Create one free →</a></p>
       </div>
 
       <!-- FORGOT PASSWORD VIEW -->
@@ -304,8 +304,8 @@ const redirectTo = (() => {
 })();
 // carry the redirect through to registration for first-time visitors
 if(redirectTo){
-  document.querySelectorAll('a[href="register.html"]').forEach(a=>{
-    a.href = 'register.html?redirect=' + encodeURIComponent(redirectTo);
+  document.querySelectorAll('a[href="register"]').forEach(a=>{
+    a.href = 'register?redirect=' + encodeURIComponent(redirectTo);
   });
 }
 function goSuccess(){
@@ -314,7 +314,7 @@ function goSuccess(){
     sessionStorage.setItem('metanoia_premium','true');   // membership includes Premium access
   }catch(e){}
   document.getElementById('successVeil').classList.add('show');
-  setTimeout(()=>{ location.href = redirectTo || 'portal.html'; }, 1400);   // returning user → no onboarding
+  setTimeout(()=>{ location.href = redirectTo || 'portal'; }, 1400);   // returning user → no onboarding
 }
 const F = id => document.getElementById(id);
 

@@ -1405,7 +1405,7 @@
           out += '<div class="disc" style="margin-top:26px"><b>' + t('Not yet available for this company', 'Belum tersedia untuk perusahaan ini') + '</b><br>' +
             t('A sourced hiring process · published programme names · sourced eligibility criteria. We only publish what we can cite, so these stay empty until we can. Been through their process? ',
               'Proses rekrutmen bersumber · nama program terpublikasi · kriteria kelayakan bersumber. Kami hanya menerbitkan yang bisa dikutip, jadi bagian ini kosong sampai kami bisa. Pernah melewati proses mereka? ') +
-            '<a href="../../help.html" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></div>';
+            '<a href="../../help" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></div>';
         }
         return out;
       })() +
@@ -1493,7 +1493,7 @@
       (documented ? '<p class="prov v" style="margin-bottom:12px">✓ ' + t('Official source · verified ', 'Sumber resmi · diverifikasi ') + prog.last_verified + '</p>'
         : '<p class="prov i" style="margin-bottom:4px">~ ' + t('Our reading — typical for this kind of role in Indonesia', 'Pembacaan kami — umum untuk peran seperti ini di Indonesia') + '</p>' +
           '<p class="note3" style="margin-bottom:12px">' + t('We don’t have this company’s own process yet. We only publish processes we can source; this is a guide, not their actual process. Been through it? ', 'Kami belum punya proses milik perusahaan ini. Kami hanya menerbitkan proses yang bersumber; ini panduan, bukan proses mereka sebenarnya. Pernah melewatinya? ') +
-          '<a href="../../help.html" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></p>') +
+          '<a href="../../help" style="color:var(--r-explore)">' + t('Tell us what happened', 'Ceritakan pengalamanmu') + ' →</a></p>') +
       stages.map(function (s, i) {
         var m = G.stageTypes[s.type];
         var prep = m && m.pillar ? '<a class="prep" href="../' + m.pillar + '/">' + t('Prepare: ', 'Persiapkan: ') +
