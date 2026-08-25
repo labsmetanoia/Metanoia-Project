@@ -2666,38 +2666,101 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </section>
 
 <!-- ═══ FOOTER ═══ -->
-<footer>
-  <div class="section-inner">
-    <div class="foot-grid">
-      <a class="foot-brand" href="/" aria-label="Metanoia Labs home">
-        <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-          <defs><linearGradient id="lgF" x1="0" y1="1" x2="1" y2="0">
-            <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
-          <circle cx="20" cy="20" r="18.2" stroke="url(#lgF)" stroke-width="1.6" opacity=".9"/>
-          <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
-        </svg>
-        <span style="display:flex;flex-direction:column">
-          <b style="font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1">Metanoia</b>
-          <i style="font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#F5A623;text-align:right;margin-top:3px">Labs</i>
-        </span>
-      </a>
-      <div class="foot-col">
-        <span class="ln" data-en="Reach us directly" data-id="Hubungi kami langsung">Reach us directly</span>
-        <a href="mailto:hello@metanoialabs.net">hello@metanoialabs.net</a>
+
+<style id="siteFooterCss">
+/* ═══ Global footer — one component across the ecosystem ═══ */
+.site-footer{position:relative;z-index:2;border-top:1px solid rgba(201,168,76,.24);background:#070C15;
+  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  padding:56px 0 30px;text-align:left}
+.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
+.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sf-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5EFE6}
+.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
+.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
+.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13px}
+.sf-mail:hover{color:#F0D878}
+.sf-soc{font-size:12.5px;color:#6E7887;letter-spacing:.04em}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
+.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:4.5px 0;font-size:13.5px;transition:color .2s}
+.sf-col a:hover{color:#F0D878}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;
+  border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#B9C2CE;text-decoration:none}
+.sf-bottom a:hover{color:#F0D878}
+/* the footer keeps its night palette in both themes — a deliberate boundary */
+:root[data-theme="light"] .site-footer{background:#0D1422;border-top-color:rgba(139,105,20,.35)}
+@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
+body.m .site-footer{display:none}
+</style>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="sf-in">
+    <div class="sf-grid">
+      <div class="sf-brand">
+        <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          </svg>
+          <span class="sfb" aria-hidden="true"></span>
+          <span><b>Metanoia</b><i>Labs</i></span>
+        </a>
+        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
+        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span> — LinkedIn · Instagram · TikTok</span>
       </div>
-      <div class="foot-col">
-        <span class="ln" data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span>
-        <span>LinkedIn</span> · <span>Instagram</span> · <span>TikTok</span>
+      <div class="sf-col">
+        <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
+        <a href="student" data-en="Student" data-id="Mahasiswa">Student</a>
+        <a href="fresh-graduate">Fresh Graduate</a>
+        <a href="early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+        <a href="mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+        <a href="enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+        <a href="mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
       </div>
-      <div class="foot-col">
-        <span class="ln">Basecamp</span>
-        <span>Jakarta, Indonesia</span>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Platform" data-id="Platform">Platform</span>
+        <a href="../products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
+        <a href="../products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
+        <a href="../products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
+        <a href="../products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
+        <a href="../products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Resources" data-id="Sumber Daya">Resources</span>
+        <a href="mind-palace">Mind Palace</a>
+        <a href="../career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+        <a href="fresh-graduate#gauntlet-journey">The Gauntlet</a>
+        <a href="../pricing" data-en="Pricing" data-id="Harga">Pricing</a>
+        <a href="../help" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Company" data-id="Perusahaan">Company</span>
+        <a href="about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+        <a href="../login" data-en="Sign in" data-id="Masuk">Sign in</a>
+        <a href="../register" data-en="Create account" data-id="Buat akun">Create account</a>
       </div>
     </div>
-    <div class="foot-tag" data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</div>
+    <div class="sf-bottom">
+      <span data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</span>
+      
+      <span class="sf-legal">
+        <a href="../legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
+        <a href="../legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
+        <a href="../legal/data-dignity">Data Dignity</a>
+      </span>
+    </div>
   </div>
 </footer>
+
 
 <script>
 (() => {

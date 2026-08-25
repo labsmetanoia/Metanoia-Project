@@ -209,6 +209,45 @@ window.MT_RANGE_DOC = (function () {
     });
   }
 
+  /* pdf.js fallback — vendored locally (assets/vendor/pdfjs), loaded only
+     when actually needed, and given the bytes directly: no network beyond
+     this site, no upload, same privacy contract as the hand-rolled reader. */
+  var pdfjsLib = null;
+  function loadPdfJs() {
+    if (pdfjsLib) return Promise.resolve(pdfjsLib);
+    var base = new URL('../../assets/vendor/pdfjs/', location.href.split('#')[0]).href;
+    return import(base + 'pdf.min.mjs').then(function (m) {
+      m.GlobalWorkerOptions.workerSrc = base + 'pdf.worker.min.mjs';
+      pdfjsLib = m; return m;
+    });
+  }
+  function fromPdfJs(bytes) {
+    return loadPdfJs().then(function (lib) {
+      return lib.getDocument({ data: bytes.slice(), isEvalSupported: false }).promise;
+    }).then(function (doc) {
+      var nums = [];
+      for (var i = 1; i <= Math.min(doc.numPages, 40); i++) nums.push(i);
+      return nums.reduce(function (chain, num) {
+        return chain.then(function (acc) {
+          return doc.getPage(num).then(function (page) { return page.getTextContent(); })
+            .then(function (tc) {
+              var line = '', out = [];
+              tc.items.forEach(function (it) {
+                line += it.str;
+                if (it.hasEOL) { out.push(line); line = ''; }
+                else if (it.str) line += ' ';
+              });
+              if (line) out.push(line);
+              acc.push(out.join('\n'));
+              return acc;
+            });
+        });
+      }, Promise.resolve([])).then(function (all) {
+        return all.join('\n\n').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+      });
+    });
+  }
+
   function fromRtf(bytes) {
     var raw = latin1.decode(bytes);
     return raw
@@ -249,7 +288,13 @@ window.MT_RANGE_DOC = (function () {
       if (kind === 'rtf') return fromRtf(bytes);
       if (kind === 'docx') return fromZipDoc(bytes, 'word/document.xml', 'w:p');
       if (kind === 'odt') return fromZipDoc(bytes, 'content.xml', 'text:p');
-      return fromPdf(bytes);
+      return fromPdf(bytes).then(function (text) {
+        /* CID-keyed subset fonts (Word / Google Docs exports) defeat the
+           marker reader — fall back to the vendored pdf.js build, which maps
+           glyphs through each font's ToUnicode table. Still on-device. */
+        if (readable(String(text || '').trim())) return text;
+        return fromPdfJs(bytes).catch(function () { return text; });
+      });
     }).then(function (text) {
       text = String(text || '').replace(/ /g, '').trim();
       if (!readable(text)) {

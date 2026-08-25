@@ -29,6 +29,9 @@
 })();
 </script>
 
+<script>
+(function(){try{var t=localStorage.getItem('mt-theme');if(t)document.documentElement.dataset.theme=t;else document.documentElement.dataset.theme='dark';}catch(e){document.documentElement.dataset.theme='dark';}})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <title>Pricing — Metanoia Labs</title>
@@ -67,7 +70,7 @@ nav.top .brand i{font-style:normal;color:var(--gold-text);font-weight:700;letter
   padding:10px 19px;border-radius:999px;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;
   box-shadow:0 6px 24px rgba(201,168,76,.25)}
 /* ── hero ── */
-header.hero{position:relative;padding:88px 0 46px;overflow:hidden}
+header.hero{position:relative;padding:126px 0 46px;overflow:hidden}
 .hero-art{position:absolute;inset:0;z-index:0;pointer-events:none}
 .hero-art img{position:absolute;right:-4%;top:0;height:118%;width:auto;object-fit:cover;opacity:.5;
   -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 45%);mask-image:linear-gradient(90deg,transparent 0%,#000 45%)}
@@ -219,15 +222,448 @@ footer a:hover{color:var(--gold-text)}
 button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
 @media(max-width:640px){.flg{width:16px;height:16px}}
 </style>
+<style id="navBaseCss">
+/* Student-system chrome: fixed top bar, folder sheet, theme toggle */
+nav#topNav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
+  gap:14px;padding:14px 26px;transition:background .3s ease,backdrop-filter .3s ease}
+nav#topNav.scrolled{background:rgba(5,10,18,.85);backdrop-filter:blur(14px);border-bottom:1px solid rgba(201,168,76,.22)}
+.logo{text-decoration:none;display:flex;gap:12px;align-items:center;color:var(--text);flex:none}
+.logo .lbar{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.logo .wm b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1}
+.logo .wm i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;
+  color:var(--gold-text);text-align:right;margin-top:3px}
+.menu{display:flex;gap:0;margin:0 auto;align-items:center;border:1px solid rgba(245,239,230,.35);border-radius:999px;
+  padding:5px 8px;backdrop-filter:blur(10px);background:rgba(5,10,18,.35)}
+.menu a{position:relative;color:var(--muted);text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.11em;
+  text-transform:uppercase;padding:8px 11px;border-radius:999px;white-space:nowrap;transition:color .25s,background .25s}
+.menu a+a::before{content:"";position:absolute;left:-1px;top:50%;transform:translateY(-50%);width:2.5px;height:2.5px;
+  border-radius:50%;background:rgba(245,239,230,.18)}
+.menu a:hover,.menu a:focus-visible{color:var(--text);background:rgba(255,255,255,.08)}
+.nav-right{display:flex;gap:10px;align-items:center;flex:none}
+.ctl{display:flex;align-items:center;border:1px solid rgba(245,239,230,.35);border-radius:999px;overflow:hidden}
+.ctl button{background:none;border:0;color:var(--muted);font-size:12.5px;font-weight:700;letter-spacing:.06em;padding:9px 13px}
+.burger{display:none;background:none;border:1px solid rgba(245,239,230,.35);border-radius:999px;width:38px;height:38px;
+  align-items:center;justify-content:center;color:var(--text);backdrop-filter:blur(6px);cursor:pointer}
+@media(max-width:1560px){.menu{display:none}.burger{display:flex}}
+@media(max-width:480px){.logo .wm,.logo .lbar{display:none}}
+.sheet{position:fixed;inset:0;z-index:200;background:rgba(5,10,18,.92);backdrop-filter:blur(14px);
+  display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .35s ease}
+.sheet.open{opacity:1;pointer-events:auto}
+.sheet .close{position:absolute;top:18px;right:24px;background:none;border:1px solid rgba(245,239,230,.35);
+  border-radius:999px;width:42px;height:42px;color:var(--text);font-size:17px;cursor:pointer;z-index:2}
+.theme-btn{background:none;border:1px solid rgba(245,239,230,.35);border-radius:999px;width:38px;height:38px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text);position:relative;
+  backdrop-filter:blur(6px);flex:none;transition:border-color .2s}
+.theme-btn:hover{border-color:rgba(201,168,76,.6)}
+.theme-btn svg{position:absolute;transition:opacity .35s ease,transform .45s ease}
+.theme-btn .sun{opacity:0;transform:rotate(-60deg) scale(.6)}
+.theme-btn .moon{opacity:1;transform:none}
+:root[data-theme="light"] .theme-btn .sun{opacity:1;transform:none}
+:root[data-theme="light"] .theme-btn .moon{opacity:0;transform:rotate(60deg) scale(.6)}
+</style>
+<style id="megaNavCss">
+/* ═══ MEGA NAVIGATION HUB v2 — premium dashboard gateway ═══ */
+.burger{display:flex !important}
+.sheet{align-items:flex-start !important;overflow-y:auto;padding:64px 18px 44px;
+  background:rgba(4,8,16,.82) !important;backdrop-filter:blur(16px)}
+.sheet .close{border-color:rgba(245,239,230,.35) !important;color:#F5EFE6 !important;background:rgba(10,16,28,.5)}
+.mega{position:relative;width:100%;max-width:1240px;margin:0 auto;border-radius:26px;text-align:left;
+  background:linear-gradient(180deg,rgba(11,16,29,.97),rgba(6,10,19,.99));
+  border:1px solid rgba(201,168,76,.26);
+  box-shadow:0 48px 140px rgba(0,0,0,.6),0 0 90px rgba(201,168,76,.07);
+  padding:44px 48px 30px;
+  opacity:0;transform:translateY(20px) scale(.985);
+  transition:opacity .45s ease,transform .55s cubic-bezier(.22,.8,.3,1)}
+.sheet.open .mega{opacity:1;transform:none}
+.mega::before{content:'';position:absolute;top:0;left:7%;right:7%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(240,216,120,.6),transparent)}
+.mega-head{margin-bottom:30px}
+.mh-title{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-weight:600;
+  font-size:clamp(1.9rem,3.4vw,2.75rem);line-height:1.12;color:#F2F5FA;letter-spacing:.002em}
+.mh-title em{font-style:italic;background:linear-gradient(100deg,#B08A2E,#F0D878 55%,#C9A84C);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.mh-sub{font-size:14.5px;color:rgba(233,238,246,.55);margin-top:8px;letter-spacing:.01em}
+.mega-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.mg-group{position:relative;display:flex;flex-direction:column;padding:26px 30px 28px;
+  opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}
+.mg-group:nth-child(3n+2),.mg-group:nth-child(3n){border-left:1px solid rgba(201,168,76,.11)}
+.mg-group:nth-child(n+4){border-top:1px solid rgba(201,168,76,.11)}
+.sheet.open .mg-group{opacity:1;transform:none}
+.sheet.open .mg-group:nth-child(1){transition-delay:.10s}
+.sheet.open .mg-group:nth-child(2){transition-delay:.16s}
+.sheet.open .mg-group:nth-child(3){transition-delay:.22s}
+.sheet.open .mg-group:nth-child(4){transition-delay:.28s}
+.sheet.open .mg-group:nth-child(5){transition-delay:.34s}
+.sheet.open .mg-group:nth-child(6){transition-delay:.40s}
+.mg-head{display:flex;align-items:center;gap:17px;text-decoration:none;
+  padding:0 0 16px;border-bottom:1px solid rgba(201,168,76,.16);margin-bottom:15px}
+.mg-ico{flex:none;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:#E8C766;background:radial-gradient(60% 60% at 50% 38%,rgba(201,168,76,.12),transparent 75%);
+  border:1px solid rgba(201,168,76,.45);
+  transition:box-shadow .3s,border-color .3s,transform .3s}
+.mg-ico svg{width:24px;height:24px}
+.mg-hstack{display:flex;flex-direction:column;gap:3px;min-width:0}
+.mg-kick{font-size:9.5px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#C9A84C}
+.mg-ttl{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:22px !important;
+  font-weight:600;color:#F2F5FA;letter-spacing:.005em;line-height:1.15;transition:color .25s}
+.mg-head:hover .mg-ttl{color:#F0D878}
+.mg-head:hover .mg-ico{border-color:rgba(240,216,120,.85);box-shadow:0 0 26px rgba(201,168,76,.35);
+  transform:translateY(-2px)}
+.mg-list{list-style:none;margin:0;padding:0}
+.sheet .mg-list a{position:relative;display:flex;align-items:flex-start;gap:12px;padding:6.5px 0;
+  font-size:13.5px;font-weight:500;color:rgba(233,238,246,.72);text-decoration:none;
+  letter-spacing:.006em;line-height:1.5;text-align:left;
+  transition:color .18s,transform .25s cubic-bezier(.25,.8,.3,1)}
+.sheet .mg-list a::before{content:'';flex:none;width:7px;height:7px;margin-top:6.5px;transform:rotate(45deg);
+  background:linear-gradient(135deg,#F0D878,#C9A84C);opacity:.8;
+  transition:opacity .2s,box-shadow .25s}
+.sheet .mg-list a:hover{color:#fff;transform:translateX(4px)}
+.sheet .mg-list a:hover::before{opacity:1;box-shadow:0 0 9px rgba(240,216,120,.7)}
+.sheet a.mg-cta{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;
+  margin-top:auto;padding:10px 21px;margin-top:20px;border-radius:999px;
+  border:1px solid rgba(201,168,76,.42);color:#E8C766;font-size:12.5px;font-weight:700;
+  letter-spacing:.03em;text-decoration:none;
+  transition:background .25s,border-color .25s,transform .25s}
+.sheet a.mg-cta i{font-style:normal;transition:transform .28s cubic-bezier(.25,.8,.3,1)}
+.sheet a.mg-cta:hover{background:rgba(201,168,76,.13);border-color:rgba(240,216,120,.7);transform:translateY(-1px)}
+.sheet a.mg-cta:hover i{transform:translateX(4px)}
+.mg-tgl{display:none}
+.mega-foot{display:flex;align-items:center;gap:30px;margin-top:4px;padding-top:24px;
+  border-top:1px solid rgba(201,168,76,.16);flex-wrap:wrap}
+.mf-links{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.sheet .mega-foot a{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;font-weight:700;
+  color:rgba(233,238,246,.78);text-decoration:none;letter-spacing:.02em;transition:color .2s;padding:4px 0}
+.sheet .mega-foot a:hover{color:#F0D878}
+.mf-ico{flex:none;width:17px;height:17px;color:#C9A84C;display:inline-flex}
+.mf-ico svg{width:17px;height:17px}
+.sheet .mega-foot a.mf-signin{color:#E8C766}
+.sheet .mega-foot a.mf-cta{margin-left:auto;padding:13px 26px;border-radius:999px;font-size:13.5px;font-weight:800;
+  background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;gap:10px;
+  box-shadow:0 8px 30px rgba(201,168,76,.38);transition:transform .22s,box-shadow .22s}
+.sheet .mega-foot a.mf-cta i{font-style:normal;transition:transform .28s cubic-bezier(.25,.8,.3,1)}
+.sheet .mega-foot a.mf-cta:hover{transform:translateY(-2px);color:#10131B;box-shadow:0 12px 38px rgba(201,168,76,.5)}
+.sheet .mega-foot a.mf-cta:hover i{transform:translateX(4px)}
+/* the hub commits to the cinematic dark look in both themes */
+:root[data-theme="light"] .sheet{background:rgba(4,8,16,.82) !important}
+:root[data-theme="light"] .sheet .close{background:rgba(10,16,28,.5)}
+/* ═══ mobile-first hub: full-sheet premium accordion ═══ */
+@media(max-width:900px){
+  .sheet{padding:62px 10px 22px}
+  .mega{padding:24px 18px 18px;border-radius:20px}
+  .mega-head{margin-bottom:6px}
+  .mh-title{font-size:1.75rem}
+  .mh-sub{font-size:13px;margin-top:4px}
+  .mega-grid{grid-template-columns:1fr}
+  .mg-group{padding:4px 0;border-left:0 !important;border-top:0 !important;
+    border-bottom:1px solid rgba(201,168,76,.14)}
+  .mg-group:last-child{border-bottom:0}
+  .sheet.open .mg-group{transition-delay:0s !important}
+  .mg-head{padding:13px 52px 13px 0;border-bottom:0;margin-bottom:0}
+  .mg-ico{width:46px;height:46px}
+  .mg-ico svg{width:20px;height:20px}
+  .mg-ttl{font-size:18px !important}
+  .mg-kick{font-size:8.5px}
+  .mg-tgl{display:flex;position:absolute;top:14px;right:0;width:44px;height:44px;border-radius:12px;
+    align-items:center;justify-content:center;background:none;border:1px solid rgba(201,168,76,.3);
+    color:#C9A84C;cursor:pointer;transition:background .2s,border-color .25s}
+  .mg-tgl:active{background:rgba(201,168,76,.14)}
+  .mg-group.mgx .mg-tgl{border-color:rgba(240,216,120,.6)}
+  .mg-tgl svg{width:15px;height:15px;transition:transform .35s ease}
+  .mg-group.mgx .mg-tgl svg{transform:rotate(180deg)}
+  .mg-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s cubic-bezier(.25,.8,.3,1)}
+  .mg-group.mgx .mg-body{grid-template-rows:1fr}
+  .mg-bin{min-height:0;overflow:hidden}
+  .mg-group.mgx .mg-bin{padding:2px 0 16px}
+  .sheet .mg-list a{padding:11px 0;font-size:14.5px}
+  .sheet .mg-list a::before{margin-top:8.5px}
+  .sheet a.mg-cta{margin-top:12px;padding:11px 22px;font-size:13px}
+  .mega-foot{flex-direction:column;align-items:stretch;gap:0;margin-top:10px;padding-top:8px}
+  .mf-links{flex-direction:column;align-items:stretch;gap:0}
+  .sheet .mega-foot a{padding:14px 2px;font-size:15px;border-bottom:1px solid rgba(201,168,76,.10)}
+  .sheet .mega-foot a.mf-signin{border-bottom:0}
+  .sheet .mega-foot a.mf-cta{margin:16px 0 0;justify-content:center;border-bottom:0}
+}
+@media (prefers-reduced-motion:reduce){
+  .mega,.mg-group,.sheet .mg-list a,.sheet a.mg-cta i{transition:none !important}
+}
+
+/* ── pillar IA nav rows + availability chips ── */
+.nv-list li a{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.nv-num{font-size:10.5px;font-weight:800;color:rgba(201,168,76,.75);letter-spacing:.08em;min-width:20px}
+.nv-main{font-weight:700;color:inherit}
+.nv-sub{font-size:11.5px;color:rgba(233,238,246,.45);letter-spacing:.02em}
+.nv-chip{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;padding:2.5px 8px;border-radius:4px;border:1px solid;margin-left:auto;white-space:nowrap}
+.nv-chip i{width:4px;height:4px;border-radius:50%;background:currentColor}
+.nv-chip b{font-weight:inherit}
+.nv-chip--gold{color:#E8C96A;background:rgba(201,168,76,.14);border-color:rgba(201,168,76,.4)}
+.nv-chip--neutral{color:rgba(240,237,232,.6);background:rgba(240,237,232,.05);border-color:rgba(240,237,232,.16)}
+@media(max-width:900px){.nv-chip{margin-left:0}}
+/* ═══ MEGA NAV v3 — photographic art layers + row iconography ═══ */
+.mega{overflow:hidden}
+.mega-head,.mega-grid,.mega-foot{position:relative;z-index:2}
+.mg-art{position:absolute;pointer-events:none;z-index:1;opacity:0;
+  transition:opacity .9s ease .3s,transform 1.2s cubic-bezier(.22,.8,.3,1) .3s}
+.sheet.open .mg-art{opacity:1;transform:none !important}
+.mg-art img{display:block;width:100%;height:auto}
+.mg-art--mountain{top:0;right:-24px;width:min(44%,580px);transform:translateY(-16px);
+  -webkit-mask-image:linear-gradient(180deg,#000 55%,transparent 97%);
+  mask-image:linear-gradient(180deg,#000 55%,transparent 97%)}
+.mg-art--compass{right:22px;bottom:74px;width:min(17%,225px);transform:translateY(18px) rotate(4deg)}
+.mg-art--climbers{left:-10px;bottom:66px;width:min(27%,360px);transform:translateY(18px)}
+.sheet.open .mg-art--compass{opacity:.94}
+.sheet.open .mg-art--climbers{opacity:.9}
+/* rows become quiet cards with real iconography */
+.sheet .mg-list a{align-items:center;padding:7px 10px;margin:2px -10px;border-radius:12px;
+  transition:background .2s,color .18s,transform .25s cubic-bezier(.25,.8,.3,1)}
+.sheet .mg-list a::before{display:none}
+.sheet .mg-list a:hover{background:rgba(201,168,76,.09);transform:translateX(3px)}
+.nv-dico,.nv-pico,.nv-sico{flex:none;display:inline-flex;align-items:center;justify-content:center;
+  color:#E8C766;border:1px solid rgba(201,168,76,.42);background:rgba(201,168,76,.06);
+  transition:border-color .25s,box-shadow .25s,transform .25s}
+.nv-dico{width:31px;height:31px;border-radius:8px;transform:rotate(45deg)}
+.nv-dico svg{width:15px;height:15px;transform:rotate(-45deg)}
+.nv-pico{width:34px;height:34px;border-radius:50%;
+  background:radial-gradient(62% 62% at 50% 36%,rgba(201,168,76,.14),rgba(201,168,76,.03) 78%)}
+.nv-pico svg{width:16px;height:16px}
+.nv-sico{width:32px;height:32px;border-radius:9px}
+.nv-sico svg{width:16px;height:16px}
+.sheet .mg-list a:hover .nv-dico{transform:rotate(45deg) scale(1.06)}
+.sheet .mg-list a:hover .nv-dico,.sheet .mg-list a:hover .nv-pico,.sheet .mg-list a:hover .nv-sico{
+  border-color:rgba(240,216,120,.85);box-shadow:0 0 16px rgba(201,168,76,.35)}
+.nv-stack{display:flex;flex-direction:column;gap:1px;min-width:0}
+.nv-stack .nv-sub{font-size:11px;line-height:1.35}
+/* product pillar timeline (column 2) */
+.mg-group:nth-child(2) .mg-list{position:relative;padding-left:16px}
+.mg-group:nth-child(2) .mg-list::before{content:'';position:absolute;left:2.5px;top:16px;bottom:16px;width:1px;
+  background:repeating-linear-gradient(180deg,rgba(201,168,76,.45) 0 3px,transparent 3px 8px)}
+.mg-group:nth-child(2) .mg-list li{position:relative}
+.mg-group:nth-child(2) .mg-list li::after{content:'';position:absolute;left:-16.5px;top:50%;
+  transform:translateY(-50%);width:7px;height:7px;border-radius:50%;
+  background:linear-gradient(135deg,#F0D878,#C9A84C);box-shadow:0 0 8px rgba(240,216,120,.55)}
+.mg-group:nth-child(2) .nv-num{font-size:13px;min-width:26px;color:rgba(240,216,120,.9)}
+.mg-group:nth-child(2) .mg-list a{flex-wrap:nowrap}
+.mg-group:nth-child(2) .nv-chip{margin-left:auto}
+.mg-group:nth-child(2) .nv-stack{flex:1;min-width:0}
+@media(max-width:1080px){.mg-art--climbers{display:none}}
+@media(max-width:900px){.mg-group:nth-child(2) .mg-list a{flex-wrap:wrap}.mg-group:nth-child(2) .nv-chip{margin-left:0}}
+@media(max-width:900px){
+  .mg-art{display:none}
+  .sheet .mg-list a{margin:0;padding:10px 6px}
+  .mg-group:nth-child(2) .mg-list{padding-left:14px}
+}
+@media (prefers-reduced-motion:reduce){.mg-art{transition:none !important}}
+
+</style>
+<style id="navSlimCss">
+/* slim top navigation ported from Home: logo · search · language · menu */
+.ctl,.nav-signin,.nav-cta{display:none !important}
+.nav-right .nav-ico{order:1}.nav-right .lang-dd{order:2}.nav-right .theme-btn{order:3}.nav-right .burger{order:4}
+
+.nav-ico{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:999px;
+  border:1px solid rgba(245,239,230,.35);color:var(--text,#F5EFE6);backdrop-filter:blur(6px);transition:border-color .2s}
+.nav-ico:hover{border-color:#E8C766}
+.lang-dd{position:relative}
+.ldd-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(245,239,230,.35);background:none;color:var(--text,#F5EFE6);font-family:inherit;
+  font-size:12.5px;font-weight:700;letter-spacing:.06em;backdrop-filter:blur(6px);transition:border-color .2s}
+.ldd-btn:hover{border-color:#E8C766}
+.ldd-btn svg:last-child{transition:transform .25s ease}
+.lang-dd.open .ldd-btn svg:last-child{transform:rotate(180deg)}
+.lang-dd .lf{width:15px;height:15px;border-radius:50%;flex:none;display:none}
+.lang-dd.is-en .ldd-btn .lf-en{display:block}
+.lang-dd:not(.is-en) .ldd-btn .lf-id{display:block}
+.ldd-menu{position:absolute;top:calc(100% + 8px);right:0;min-width:190px;padding:6px;border-radius:14px;z-index:230;
+  background:rgba(8,13,22,.96);border:1px solid rgba(201,168,76,.28);box-shadow:0 18px 48px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .2s ease,transform .25s ease}
+.lang-dd.open .ldd-menu{opacity:1;transform:none;pointer-events:auto}
+.ldd-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;background:none;cursor:pointer;
+  color:#D3DAE3;font-family:inherit;font-size:13px;font-weight:600;border-radius:10px;transition:background .2s,color .2s}
+.ldd-menu .lf{display:block}
+.ldd-menu button:hover{background:rgba(245,239,230,.08);color:#F5EFE6}
+.ldd-menu button.on{color:#E8C766}
+.ldd-menu button.on::after{content:'\2713';margin-left:auto;opacity:.9}
+.sheet .sheet-tools{width:100%;display:flex;justify-content:center;margin:0 0 16px}
+.sheet .st-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:999px;cursor:pointer;
+  font-family:inherit;font-size:13px;font-weight:700;color:#F5EFE6;background:rgba(10,16,28,.5);
+  border:1px solid rgba(245,239,230,.3);transition:border-color .2s}
+.sheet .st-btn:hover{border-color:#E8C766}
+.cta,.cta *,.hero-cta,.hero-cta *{text-shadow:none !important}
+/* sheetScrollFix: the sheet always scrolls; nothing is clipped */
+.sheet{align-items:flex-start !important;justify-content:flex-start !important;overflow-y:auto !important;
+  max-height:100dvh;-webkit-overflow-scrolling:touch;padding-bottom:max(44px,env(safe-area-inset-bottom)) !important}
+.sheet .mega{margin-left:auto;margin-right:auto;flex:0 0 auto}
+</style>
+<style id="pricingLightCss">
+/* day theme — same architecture, paper surfaces */
+body{transition:background-color .5s ease,color .5s ease}
+:root[data-theme="light"]{--bg:#EEF1F6;--panel:rgba(255,255,255,.85);--border:rgba(139,105,20,.24);
+  --gold-text:#8B6914;--gold-bright:#6E520F;--text:#1B2434;--muted:rgba(27,36,52,.66);--faint:rgba(27,36,52,.45);
+  color-scheme:light}
+:root[data-theme="light"] nav#topNav.scrolled{background:rgba(238,241,246,.92);border-bottom-color:rgba(139,105,20,.24)}
+:root[data-theme="light"] .logo .lbar{background:rgba(27,36,52,.3)}
+:root[data-theme="light"] .menu{border-color:rgba(27,36,52,.25);background:rgba(255,255,255,.55)}
+:root[data-theme="light"] .menu a+a::before{background:rgba(27,36,52,.22)}
+:root[data-theme="light"] .menu a:hover,:root[data-theme="light"] .menu a:focus-visible{background:rgba(27,36,52,.07)}
+:root[data-theme="light"] .burger,:root[data-theme="light"] .theme-btn,
+:root[data-theme="light"] .nav-ico,:root[data-theme="light"] .ldd-btn{border-color:rgba(27,36,52,.3)}
+:root[data-theme="light"] .hero-art img{opacity:.32}
+:root[data-theme="light"] .hero-art::after{background:
+  radial-gradient(60% 90% at 78% 30%,rgba(139,105,20,.08),transparent 65%),
+  linear-gradient(180deg,rgba(238,241,246,.55),rgba(238,241,246,.8) 55%,#EEF1F6 96%)}
+:root[data-theme="light"] .beta-banner{background:linear-gradient(150deg,rgba(139,105,20,.08),rgba(255,255,255,.72))}
+:root[data-theme="light"] .free-card{background:linear-gradient(160deg,rgba(34,197,94,.07),rgba(255,255,255,.82))}
+:root[data-theme="light"] .free-card li,:root[data-theme="light"] .beta-banner p{color:var(--muted)}
+:root[data-theme="light"] .p-note{border-top-color:rgba(27,36,52,.12)}
+:root[data-theme="light"] .p-cta.wait{border-color:rgba(27,36,52,.3)}
+:root[data-theme="light"] .plan:hover{box-shadow:0 22px 60px rgba(27,36,52,.14)}
+:root[data-theme="light"] .prod{border-color:rgba(27,36,52,.14)}
+:root[data-theme="light"] .chip--neutral{color:var(--muted);background:rgba(27,36,52,.05);border-color:rgba(27,36,52,.2)}
+:root[data-theme="light"] .commit-row .ci{background:rgba(139,105,20,.08)}
+:root[data-theme="light"] .pillar-band{background:linear-gradient(160deg,rgba(139,105,20,.07),rgba(255,255,255,.78))}
+:root[data-theme="light"] .faq-item{background:rgba(255,255,255,.72);border-color:rgba(27,36,52,.12)}
+:root[data-theme="light"] footer{border-top-color:rgba(27,36,52,.14)}
+:root[data-theme="light"] .chip--gold{background:rgba(139,105,20,.1)}
+</style>
 </head>
 <body>
-<nav class="top"><div class="wrap bar">
-  <a class="brand" href="/"><svg width="27" height="27" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="#C9A84C" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="#E8C96A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="#F0D878"/></svg>METANOIA<i>LABS</i></a>
+<nav id="topNav">
+  <a class="logo" href="/" aria-label="Metanoia Labs home">
+    <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <defs><linearGradient id="lgN" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+      <circle cx="20" cy="20" r="18.2" stroke="url(#lgN)" stroke-width="1.6" opacity=".9"/>
+      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgN)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+    </svg>
+    <span class="lbar" aria-hidden="true"></span>
+    <span class="wm"><b>Metanoia</b><i>Labs</i></span>
+  </a>
+  <div class="menu">
+    <a href="/" data-en="Home" data-id="Beranda">Home</a>
+    <a href="pages/student" class="current" data-en="Student" data-id="Mahasiswa">Student</a>
+    <a href="pages/fresh-graduate" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</a>
+    <a href="pages/early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+    <a href="pages/mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+    <a href="pages/enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+    <a href="pages/mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+    <a href="pages/mind-palace" data-en="Mind Palace" data-id="Mind Palace">Mind Palace</a>
+    <a href="pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+  </div>
   <div class="nav-right">
-    <span class="lang"><button data-lang="en" class="on"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button><button data-lang="id"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button></span>
+    <a class="nav-ico" href="pages/mind-palace" aria-label="Search Mind Palace" title="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
+    </a>
+    <div class="lang-dd" id="langDD">
+      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
+        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
+        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="nsM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#nsM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
+      </div>
+    </div>
+
+    <button class="burger" id="burger" aria-label="Open menu">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <div class="ctl" role="group" aria-label="Language">
+      <button data-lang="en" aria-pressed="true"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgE"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgE)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>EN</button>
+      <button data-lang="id" aria-pressed="false"><svg class="flg" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgI"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgI)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg>ID</button>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark / light theme">
+      <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="2"/>
+        <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.8 1.8M17.2 17.2 19 19M19 5l-1.8 1.8M6.8 17.2 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <a class="nav-signin" href="login" data-en="Sign in" data-id="Masuk">Sign in</a>
     <a class="nav-cta" href="career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
   </div>
-</div></nav>
+</nav>
+
+<div class="sheet" id="sheet" role="dialog" aria-label="Menu">
+  <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
+  <div class="mega" role="menu">
+    <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--climbers" aria-hidden="true"><img src="assets/nav-climbers.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mg-art mg-art--compass" aria-hidden="true"><img src="assets/nav-compass.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="mega-head">
+      <div class="mh-title" data-en="Explore <em>Metanoia.</em>" data-id="Jelajahi <em>Metanoia.</em>">Explore <em>Metanoia.</em></div>
+      <div class="mh-sub" data-en="One platform. Every stage of the climb." data-id="Satu platform. Setiap tahap pendakian.">One platform. Every stage of the climb.</div>
+    </div>
+    <div class="mega-grid">
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="pages/student">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.3c2.3.2 4 1.7 4.6 4.2"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="Find your stage" data-id="Temukan tahapmu">Find your stage</span>
+            <span class="mg-ttl" data-en="Who it's for" data-id="Untuk siapa">Who it's for</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="pages/student"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-4 9 4-9 4-9-4Z"/><path d="M7 11.2v3.6c0 1.6 10 1.6 10 0v-3.6"/><path d="M21 9v5"/></svg></span><span class="nv-main" data-en="Student" data-id="Mahasiswa">Student</span><span class="nv-sub" data-en="Still on campus" data-id="Masih di kampus">Still on campus</span></a></li>
+            <li><a href="pages/fresh-graduate"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7.5"/><path d="M12 13.5C12 9.5 9.3 7 5 7c0 4.3 2.7 6.5 7 6.5Z"/><path d="M12 13.5c0-4 2.7-6.5 7-6.5 0 4.3-2.7 6.5-7 6.5Z"/></svg></span><span class="nv-main" data-en="Fresh Graduate" data-id="Fresh Graduate">Fresh Graduate</span><span class="nv-sub" data-en="0–12 months out" data-id="0–12 bulan lulus">0–12 months out</span></a></li>
+            <li><a href="pages/early-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/></svg></span><span class="nv-main" data-en="Early Professional" data-id="Profesional Muda">Early Professional</span><span class="nv-sub" data-en="1–5 years in" data-id="1–5 tahun bekerja">1–5 years in</span></a></li>
+            <li><a href="pages/mature-professional"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><span class="nv-main" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</span><span class="nv-sub" data-en="7+ years leading" data-id="7+ tahun memimpin">7+ years leading</span></a></li>
+            <li><a href="pages/enterprise"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V6.5L10 4v16"/><path d="M10 20V8.5L16 7v13"/><path d="M16 20v-9.5l4 1V20"/><path d="M2.5 20h19"/></svg></span><span class="nv-main" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</span><span class="nv-sub" data-en="Universities & employers" data-id="Universitas & perusahaan">Universities & employers</span></a></li>
+            <li><a href="pages/mentors"><span class="nv-dico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8.2c1.1-2.2 4.3-1.8 4.3.8 0 2-4.3 4.6-4.3 4.6S7.7 11 7.7 9c0-2.6 3.2-3 4.3-.8Z"/><path d="M4 20.5c2.2-2.8 5-3 8-3s5.8.2 8 3"/></svg></span><span class="nv-main" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</span><span class="nv-sub" data-en="Give the rope back" data-id="Wariskan tali ke bawah">Give the rope back</span></a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="products/the-map/">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 20.5 8 12 12.5 3.5 8z"/><path d="m3.5 12 8.5 4.5L20.5 12"/><path d="m3.5 16 8.5 4.5 8.5-4.5"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="One spine · five pillars" data-id="Satu tulang punggung · lima pilar">One spine · five pillars</span>
+            <span class="mg-ttl" data-en="What you get" data-id="Yang kamu dapatkan">What you get</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="products/the-map/"><span class="nv-num">01</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6-5.1-6-9.9a6 6 0 1 1 12 0C18 15.9 12 21 12 21Z"/><circle cx="12" cy="11" r="2.2"/></svg></span><span class="nv-stack"><span class="nv-main">The Map</span><span class="nv-sub" data-en="Project Aladdin · Direction" data-id="Project Aladdin · Arah">Project Aladdin · Direction</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="products/the-pack/"><span class="nv-num">02</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="8" width="12" height="12" rx="3"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M6 14h12"/></svg></span><span class="nv-stack"><span class="nv-main">The Pack</span><span class="nv-sub" data-en="Project Maverick · Application" data-id="Project Maverick · Lamaran">Project Maverick · Application</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="products/the-rope/"><span class="nv-num">03</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.5 14.5 5-5"/><path d="M8 12l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="m16 12 2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></span><span class="nv-stack"><span class="nv-main">The Rope</span><span class="nv-sub" data-en="Project Nexus · Interview" data-id="Project Nexus · Wawancara">Project Nexus · Interview</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="products/the-route/"><span class="nv-num">04</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V4"/><path d="M6 5h9.5l-2.2 3.2L15.5 11.5H6"/></svg></span><span class="nv-stack"><span class="nv-main">The Route</span><span class="nv-sub" data-en="Project Horizon · What's next" data-id="Project Horizon · Selanjutnya">Project Horizon · What's next</span></span><span class="nv-chip nv-chip--gold"><i></i><b data-en="Early access" data-id="Akses awal">Early access</b></span></a></li>
+            <li><a href="products/the-compass/"><span class="nv-num">05</span><span class="nv-pico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m12 6.8 1.6 3.6 3.6 1.6-3.6 1.6-1.6 3.6-1.6-3.6-3.6-1.6 3.6-1.6Z"/></svg></span><span class="nv-stack"><span class="nv-main">The Compass</span><span class="nv-sub" data-en="Navigation" data-id="Navigasi">Navigation</span></span><span class="nv-chip nv-chip--neutral"><i></i><b data-en="In beta" data-id="Versi beta">In beta</b></span></a></li>
+          </ul>
+        </div></div>
+      </section>
+      <section class="mg-group">
+        <button class="mg-tgl" type="button" aria-expanded="false" aria-label="Toggle section"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 6 4.5 4.5L12.5 6"/></svg></button>
+        <a class="mg-head" href="career-map-assessment">
+          <span class="mg-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span>
+          <span class="mg-hstack">
+            <span class="mg-kick" data-en="Free, today" data-id="Gratis, hari ini">Free, today</span>
+            <span class="mg-ttl" data-en="Start here" data-id="Mulai di sini">Start here</span>
+          </span>
+        </a>
+        <div class="mg-body"><div class="mg-bin">
+          <ul class="mg-list nv-list">
+            <li><a href="pages/fresh-graduate#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
+            <li><a href="career-map-assessment"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
+            <li><a href="pricing"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
+            <li><a href="help"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
+          </ul>
+        </div></div>
+      </section>
+    </div>
+    <div class="mega-foot">
+      <div class="mf-links">
+        <a href="/"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
+        <a href="pages/mind-palace"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
+        <a href="pages/about"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
+        <a class="mf-signin" href="login"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
+      </div>
+      <a class="mf-cta" href="career-map-assessment"><span data-en="Get your free Career Map" data-id="Ambil Career Map Gratis">Get your free Career Map</span><i>→</i></a>
+    </div>
+  </div>
+</div>
 
 <header class="hero">
   <div class="hero-art" aria-hidden="true"><img src="assets/bg/hero.jpg" alt="" loading="eager" decoding="async"><span></span></div>
@@ -505,13 +941,101 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   </div>
 </div></section>
 
-<footer><div class="wrap frow">
-  <a href="/" data-en="Home" data-id="Beranda">Home</a>
-  <a href="legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
-  <a href="legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
-  <a href="legal/data-dignity">Data Dignity</a>
-  <span style="margin-left:auto" data-en="Beta pricing — final pricing announced at commercial launch." data-id="Harga beta — harga final diumumkan saat rilis komersial.">Beta pricing — final pricing announced at commercial launch.</span>
-</div></footer>
+
+<style id="siteFooterCss">
+/* ═══ Global footer — one component across the ecosystem ═══ */
+.site-footer{position:relative;z-index:2;border-top:1px solid rgba(201,168,76,.24);background:#070C15;
+  color:#D3DAE3;font-family:'Roboto Condensed','Inter',system-ui,sans-serif;font-size:13.5px;line-height:1.6;
+  padding:56px 0 30px;text-align:left}
+.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
+.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sf-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5EFE6}
+.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1;color:#F5EFE6}
+.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
+.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;text-decoration:none;font-weight:700;font-size:13px}
+.sf-mail:hover{color:#F0D878}
+.sf-soc{font-size:12.5px;color:#6E7887;letter-spacing:.04em}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
+.sf-col a{display:block;color:#B9C2CE;text-decoration:none;padding:4.5px 0;font-size:13.5px;transition:color .2s}
+.sf-col a:hover{color:#F0D878}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;
+  border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#B9C2CE;text-decoration:none}
+.sf-bottom a:hover{color:#F0D878}
+/* the footer keeps its night palette in both themes — a deliberate boundary */
+:root[data-theme="light"] .site-footer{background:#0D1422;border-top-color:rgba(139,105,20,.35)}
+@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
+body.m .site-footer{display:none}
+</style>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="sf-in">
+    <div class="sf-grid">
+      <div class="sf-brand">
+        <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
+            <circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/>
+            <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
+          </svg>
+          <span class="sfb" aria-hidden="true"></span>
+          <span><b>Metanoia</b><i>Labs</i></span>
+        </a>
+        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <a class="sf-mail" href="mailto:hello@metanoialabs.net"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>hello@metanoialabs.net</a>
+        <span class="sf-soc"><span data-en="Follow the expedition" data-id="Ikuti ekspedisinya">Follow the expedition</span> — LinkedIn · Instagram · TikTok</span>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
+        <a href="pages/student" data-en="Student" data-id="Mahasiswa">Student</a>
+        <a href="pages/fresh-graduate">Fresh Graduate</a>
+        <a href="pages/early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+        <a href="pages/mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+        <a href="pages/enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+        <a href="pages/mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Platform" data-id="Platform">Platform</span>
+        <a href="products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
+        <a href="products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
+        <a href="products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
+        <a href="products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
+        <a href="products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Resources" data-id="Sumber Daya">Resources</span>
+        <a href="pages/mind-palace">Mind Palace</a>
+        <a href="career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+        <a href="pages/fresh-graduate#gauntlet-journey">The Gauntlet</a>
+        <a href="pricing" data-en="Pricing" data-id="Harga">Pricing</a>
+        <a href="help" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Company" data-id="Perusahaan">Company</span>
+        <a href="pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+        <a href="login" data-en="Sign in" data-id="Masuk">Sign in</a>
+        <a href="register" data-en="Create account" data-id="Buat akun">Create account</a>
+      </div>
+    </div>
+    <div class="sf-bottom">
+      <span data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</span>
+      <span data-en="Beta pricing — final pricing announced at commercial launch." data-id="Harga beta — harga final diumumkan saat rilis komersial.">Beta pricing — final pricing announced at commercial launch.</span>
+      <span class="sf-legal">
+        <a href="legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
+        <a href="legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
+        <a href="legal/data-dignity">Data Dignity</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
 
 <script>
 /* ═══ PRICE CONFIG — the only place amounts live. Mirrors /data/pricing.js.
@@ -571,15 +1095,61 @@ document.querySelectorAll('.faq-item').forEach(function (item) {
       if (v != null) el.innerHTML = v;
     });
     document.documentElement.lang = l;
-    document.querySelectorAll('.lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === l); });
-    try { localStorage.setItem(KEY, l); } catch (e) {}
+    document.querySelectorAll('.ctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === l)); });
+    try { localStorage.setItem(KEY, l); localStorage.setItem('mt-lang', l); } catch (e) {}
     document.querySelectorAll('.faq-item.open .faq-a').forEach(function (a) { a.style.maxHeight = a.scrollHeight + 'px'; });
   }
-  document.querySelectorAll('.lang button').forEach(function (b) {
+  document.querySelectorAll('.ctl button').forEach(function (b) {
     b.addEventListener('click', function () { sweep(b.dataset.lang); });
   });
   var st = null; try { st = localStorage.getItem(KEY); } catch (e) {}
   if (st === 'id') sweep('id');
+})();
+</script>
+<script id="navChromeJs">
+(function(){
+  var nav = document.getElementById('topNav');
+  addEventListener('scroll', function(){ nav.classList.toggle('scrolled', scrollY > 10); }, {passive:true});
+  nav.classList.toggle('scrolled', scrollY > 10);
+  var sheet = document.getElementById('sheet');
+  document.getElementById('burger').addEventListener('click', function(){ sheet.classList.add('open'); });
+  document.getElementById('sheetClose').addEventListener('click', function(){ sheet.classList.remove('open'); });
+  sheet.addEventListener('click', function(e){ if(e.target === sheet) sheet.classList.remove('open'); });
+  sheet.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ sheet.classList.remove('open'); }); });
+  sheet.querySelectorAll('.mg-tgl').forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      var g = b.closest('.mg-group');
+      var open = g.classList.toggle('mgx');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  addEventListener('keydown', function(e){ if(e.key === 'Escape') sheet.classList.remove('open'); });
+  document.getElementById('themeBtn').addEventListener('click', function(){
+    var t = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = t;
+    try{ localStorage.setItem('mt-theme', t); }catch(e){}
+  });
+})();
+</script>
+<script id="navSlimJs">
+(function(){
+  var dd=document.getElementById('langDD'),btn=document.getElementById('lddBtn'),
+      menu=document.getElementById('lddMenu'),cur=document.getElementById('lddCur'),
+      en=document.querySelector('.ctl [data-lang="en"]'),id=document.querySelector('.ctl [data-lang="id"]');
+  if(!dd||!en) return;
+  function sync(){var isEn=en.getAttribute('aria-pressed')==='true';
+    cur.textContent=isEn?'EN':'ID';dd.classList.toggle('is-en',isEn);
+    menu.querySelectorAll('[data-l]').forEach(function(b){b.classList.toggle('on',(b.dataset.l==='en')===isEn);});}
+  btn.addEventListener('click',function(e){e.stopPropagation();
+    var o=dd.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
+  menu.querySelectorAll('[data-l]').forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();
+    (b.dataset.l==='en'?en:id).click();dd.classList.remove('open');btn.setAttribute('aria-expanded','false');sync();});});
+  document.addEventListener('click',function(){dd.classList.remove('open');btn.setAttribute('aria-expanded','false');});
+  new MutationObserver(sync).observe(en,{attributes:true,attributeFilter:['aria-pressed']});
+  sync();
+  var st=document.getElementById('sheetTheme');
+  if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
 </body>
