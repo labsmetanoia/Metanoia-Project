@@ -455,6 +455,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   .cp-ico{flex:none;width:42px;height:42px;border-radius:50%;border:1.5px solid var(--accent-text);color:var(--accent-text);
     background:rgba(6,11,20,.5);display:flex;align-items:center;justify-content:center}
   .cp-ico svg{width:18px;height:18px}
+  .cp-ico.cp-med{overflow:hidden;background:#070D16;border-color:rgba(201,168,76,.45);padding:0}
+  .cp-ico.cp-med img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.22)}
   .cp-head b{font-size:14px;display:block}
   .cp-head span{display:block;font-size:9.5px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;margin-top:2px}
   .cp-h{font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-text);margin:13px 0 9px}
@@ -1390,7 +1392,8 @@ body.m #horizon .horcta{padding:16px 18px}
 /* chapters distilled to the Chapter VI standard: label, message, action —
    ornaments and duplicate navigation step aside on the phone */
 body.m .qband .qmark{display:none}
-body.m .cp-head{display:none}
+body.m .cp-head{padding-bottom:10px}
+body.m .cp-head .cp-ico{width:38px;height:38px}
 body.m .camp-panel .cp-h:first-of-type{margin-top:2px}
 body.m .journey{display:none}
 body.m .paths-wrap .lede{display:none}
@@ -1463,6 +1466,12 @@ body.m .content.chap2 .cards{padding-top:6px}
 body.m .qband{margin-top:6px}
 body.m .mnext{margin-top:22px}
 body.m .camp-panel{margin-top:2px}
+
+/* mobile folders carry the story, not the diagnostic funnel */
+body.m .prep-cta{display:none}
+body.m #climb .qband .qcta{display:none}
+body.m #summit .summit-cta{display:none}
+body.m #climb .qband{padding-bottom:20px}
 
 /* top-right story steer on every folder page */
 .msteer{display:none}
@@ -1762,7 +1771,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           <p class="lede fx d2" data-i18n="base.lede">Basecamp is where climbers become a community: cohorts who move together, mentors who've stood on your summit, alumni who came back down to guide the next ascent.</p>
         </div>
         <aside class="camp-panel fx d2" aria-label="Basecamp">
-          <div class="cp-head"><span class="cp-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 L9 8 L15 19 Z"/><path d="M12.5 13.5 L16 8 L21 19 H15"/><path d="M9 19 v-3.5"/></svg></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
+          <div class="cp-head"><span class="cp-ico cp-med"><img src="assets/asset-medallion.png" alt="" decoding="async"></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
           <div class="cp-h" data-i18n="base.ph">What happens here</div>
           <ul class="cp-list">
             <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="M8.6 12.2l2.1 2.1 4.7-4.7"/></svg></i><div><b data-i18n="base.p1">Build trust &amp; connections</b><p data-i18n="base.p1d">Real people. Real conversations. Lasting relationships.</p></div></li>
