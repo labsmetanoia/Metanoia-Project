@@ -926,11 +926,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.2"/><path d="m16.6 16.6 4.2 4.2"/></svg>
     </a>
     <div class="lang-dd" id="langDD">
-      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><span id="lddCur">EN</span>
+      <button class="ldd-btn" id="lddBtn" type="button" aria-haspopup="listbox" aria-expanded="false"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgB2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgB2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span id="lddCur">EN</span>
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
       <div class="ldd-menu" id="lddMenu" role="listbox" aria-label="Language / Bahasa">
-        <button type="button" role="option" data-l="en">English</button>
-        <button type="button" role="option" data-l="id">Bahasa Indonesia</button>
+        <button type="button" role="option" data-l="en"><svg class="lf lf-en" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM1"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM1)"><rect width="20" height="20" fill="#1E3A6E"/><path d="M0 0 20 20M20 0 0 20" stroke="#F5F2EA" stroke-width="3.6"/><path d="M10 -1v22M-1 10h22" stroke="#F5F2EA" stroke-width="5.4"/><path d="M10 -1v22M-1 10h22" stroke="#B4453C" stroke-width="2.6"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>English</span></button>
+        <button type="button" role="option" data-l="id"><svg class="lf lf-id" viewBox="0 0 20 20" aria-hidden="true"><defs><clipPath id="fgM2"><circle cx="10" cy="10" r="9.4"/></clipPath></defs><g clip-path="url(#fgM2)"><rect width="20" height="10" fill="#C8433C"/><rect y="10" width="20" height="10" fill="#F5F2EA"/></g><circle cx="10" cy="10" r="9.4" fill="none" stroke="rgba(240,237,232,.35)" stroke-width="1"/></svg><span>Bahasa Indonesia</span></button>
       </div>
     </div>
     <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
@@ -1283,8 +1283,19 @@ body.m .mchip{background:rgba(8,13,22,.62);border-color:rgba(245,239,230,.28)}
 .ldd-menu button:hover{background:rgba(245,239,230,.08);color:#F5EFE6}
 .ldd-menu button.on{color:var(--accent-text)}
 .ldd-menu button.on::after{content:'✓';float:right;opacity:.9}
+/* CTAs carry no text shadow — weight and contrast do the work */
+.cta,.cta *,.nav-cta,.st-cta,.st-cta *,.st-btn,.st-btn *,.prep-ghost{text-shadow:none !important}
+/* flags inside the language dropdown */
+.lang-dd .lf{width:15px;height:15px;border-radius:50%;flex:none;display:none}
+.lang-dd.is-en .ldd-btn .lf-en{display:block}
+.lang-dd:not(.is-en) .ldd-btn .lf-id{display:block}
+.ldd-menu .lf{display:block}
+.ldd-menu button{display:flex;align-items:center;gap:10px}
+/* the navigation sheet stacks: tools row above Explore Metanoia */
+.sheet{flex-direction:column;align-items:center !important}
 /* sheet tools: the moved actions, first row of the navigation sheet */
-.sheet-tools{position:relative;z-index:1;width:100%;max-width:1240px;margin:0 auto 14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.sheet-tools{position:relative;z-index:1;width:100%;max-width:1240px;margin:0 0 14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.st-cta,.st-btn{gap:9px}
 .st-cta{display:inline-flex;align-items:center;padding:12px 22px;border-radius:999px;text-decoration:none;
   font-size:13.5px;font-weight:700;color:#050A12;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);
   box-shadow:0 6px 24px rgba(201,168,76,.3)}
@@ -1371,6 +1382,15 @@ body.m #horizon .trail-arrow{margin-top:8px}
 body.m #horizon .paths{gap:10px}
 body.m #horizon .horcta{padding:16px 18px}
 
+/* chapters distilled to the Chapter VI standard: label, message, action —
+   ornaments and duplicate navigation step aside on the phone */
+body.m .qband .qmark{display:none}
+body.m .cp-head{display:none}
+body.m .camp-panel .cp-h:first-of-type{margin-top:2px}
+body.m .journey{display:none}
+body.m .paths-wrap .lede{display:none}
+body.m #summit .summit-main .voice{margin-top:12px}
+
 /* contact: native-friendly form */
 body.m .cform input,body.m .cform textarea{font-size:16px;padding:13px 14px}
 body.m .cform .cta{align-self:stretch;justify-content:center}
@@ -1385,9 +1405,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 <div class="sheet" id="sheet" role="dialog" aria-label="Menu">
   <button class="close" id="sheetClose" aria-label="Close menu">✕</button>
   <div class="sheet-tools">
-    <a class="st-cta" href="career-map-assessment.html" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
-    <button class="st-btn" id="sheetTheme" type="button" data-en="Dark / Light mode" data-id="Mode Gelap / Terang">Dark / Light mode</button>
-    <a class="st-btn" href="login.html" data-en="Sign in" data-id="Masuk">Sign in</a>
+    <button class="st-btn" id="sheetTheme" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg><span data-en="Dark / Light mode" data-id="Mode Gelap / Terang">Dark / Light mode</span></button>
   </div>
   <div class="mega" role="menu">
     <div class="mg-art mg-art--mountain" aria-hidden="true"><img src="assets/nav-mountain.png" alt="" loading="lazy" decoding="async"></div>
@@ -1449,7 +1467,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         <div class="mg-body"><div class="mg-bin">
           <ul class="mg-list nv-list">
             <li><a href="pages/fresh-graduate.html#gauntlet-journey"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7.5h16V20"/><path d="M4 12h16"/><path d="M8 7.5V5M16 7.5V5M12 7.5V5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="The Gauntlet" data-id="The Gauntlet">The Gauntlet</span><span class="nv-sub" data-en="Free · The 8 hiring gates, mapped" data-id="Gratis · 8 gerbang rekrutmen, dipetakan">Free · The 8 hiring gates, mapped</span></span></a></li>
-            <li><a href="career-map-assessment.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</span><span class="nv-sub" data-en="15 minutes · your readiness score" data-id="15 menit · skor kesiapanmu">15 minutes · your readiness score</span></span></a></li>
             <li><a href="pricing.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Pricing" data-id="Harga">Pricing</span><span class="nv-sub" data-en="Transparent · refund-backed" data-id="Transparan · bergaransi refund">Transparent · refund-backed</span></span></a></li>
             <li><a href="help.html"><span class="nv-sico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1.1.9-1.1 1.9"/><path d="M12 16.6h.01"/></svg></span><span class="nv-stack"><span class="nv-main" data-en="Help & FAQ" data-id="Bantuan & FAQ">Help & FAQ</span><span class="nv-sub" data-en="Answers, honestly given" data-id="Jawaban yang jujur">Answers, honestly given</span></span></a></li>
           </ul>
@@ -2545,7 +2562,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       en=document.getElementById('langEn'),id=document.getElementById('langId');
   if(!dd||!en) return;
   function sync(){var isEn=en.getAttribute('aria-pressed')==='true';
-    cur.textContent=isEn?'EN':'ID';
+    cur.textContent=isEn?'EN':'ID';dd.classList.toggle('is-en',isEn);
     menu.querySelectorAll('[data-l]').forEach(function(b){b.classList.toggle('on',(b.dataset.l==='en')===isEn);});}
   btn.addEventListener('click',function(e){e.stopPropagation();
     var o=dd.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
