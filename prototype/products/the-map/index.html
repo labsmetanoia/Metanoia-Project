@@ -476,6 +476,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 }
 </style>
+<style id="mapLmsSkin">
+/* ═══ The Map player skin — the product background system inside the lesson room ═══ */
+.lmsp{background:var(--bg-base)}
+.lmsp::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:url('../../assets/bg/aladdin-hero.jpg') 70% 28%/cover no-repeat;opacity:.16;
+  animation:mapSkinPan 60s ease-in-out infinite alternate}
+@keyframes mapSkinPan{from{transform:scale(1.05) translateY(-1%)}to{transform:scale(1.05) translateY(1%)}}
+@media(prefers-reduced-motion:reduce){.lmsp::before{animation:none}}
+.lmsp::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(70% 60% at 50% 0%,rgba(201,168,76,.06),transparent 60%),
+  linear-gradient(180deg,rgba(5,10,18,.55) 0%,rgba(5,10,18,.86) 42%,rgba(5,10,18,.94) 100%)}
+:root[data-theme="light"] .lmsp::before{opacity:.1}
+:root[data-theme="light"] .lmsp::after{background:
+  radial-gradient(70% 60% at 50% 0%,rgba(139,105,20,.05),transparent 60%),
+  linear-gradient(180deg,rgba(238,241,246,.82) 0%,rgba(238,241,246,.93) 42%,rgba(238,241,246,.97) 100%)}
+.lmsp-top,.lmsp-main,.lmsp-foot{position:relative;z-index:1}
+.lmsp .lmsp-rail{background:rgba(5,10,18,.5);backdrop-filter:blur(10px)}
+:root[data-theme="light"] .lmsp .lmsp-rail{background:rgba(250,251,253,.8)}
+.lmsp .lms-title{letter-spacing:-.01em}
+.lmsp .lms-kicker{color:var(--gold);letter-spacing:.2em}
+.lmsp .lms-panel,.lmsp .lms-acc,.lmsp .lms-check{backdrop-filter:blur(8px)}
+.lmsp .lms-overview{font-size:15px;max-width:72ch}
+.lmsp .lmsp-inner{padding-top:6px}
+</style>
 </head>
 <body>
 
@@ -572,6 +596,19 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/></svg></span><span data-en="6 Practice Assignments" data-id="6 Tugas Latihan">6 Practice Assignments</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="2.5"/><path d="M12 8V4.5M9.5 4.5h5"/><circle cx="9.5" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M9.5 16.5h5"/></svg></span><span data-en="AI-Assisted Practice Tools" data-id="Alat Latihan Berbantuan AI">AI-Assisted Practice Tools</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span><span data-en="Self-Paced Schedule" data-id="Jadwal Mandiri">Self-Paced Schedule</span></div>
+            </div>
+          </div>
+          <div class="home-sec reveal" id="toolPromo">
+            <h3 class="sec-label" data-en="The Personal Audit" data-id="Audit Pribadi">The Personal Audit</h3>
+            <div class="glass-card" style="padding:26px 28px;border-color:rgba(201,168,76,.4)">
+              <p style="font-size:15.5px;color:var(--text-sub);margin:0 0 6px;font-weight:700" data-en="Before you map the territory, map yourself." data-id="Sebelum memetakan medan, petakan dirimu.">Before you map the territory, map yourself.</p>
+              <p style="font-size:13.5px;color:var(--text-muted);margin:0 0 16px;max-width:70ch" data-en="A guided self-audit across five readings &mdash; values in order, an energy map of real activities, strengths with verifiable evidence, a habit baseline mapped to the modules that train it, and your mission in pencil. The report mirrors your own answers back as a working development map, then bridges into The Range&rsquo;s career data." data-id="Audit diri terpandu lima pembacaan &mdash; nilai berurutan, peta energi dari aktivitas nyata, kekuatan dengan bukti terverifikasi, garis dasar kebiasaan yang terpeta ke modul pelatihnya, dan misimu dengan pensil. Laporannya memantulkan jawabanmu sendiri sebagai peta pengembangan kerja, lalu menjembatani ke data karier The Range.">A guided self-audit across five readings &mdash; values in order, an energy map of real activities, strengths with verifiable evidence, a habit baseline mapped to the modules that train it, and your mission in pencil. The report mirrors your own answers back as a working development map, then bridges into The Range&rsquo;s career data.</p>
+              <p style="font-size:12.5px;color:var(--text-muted);margin:0 0 16px" data-audit-status></p>
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <button class="btn-gold" data-map-audit="home" data-en="Start the Personal Audit &rarr;" data-id="Mulai Audit Pribadi &rarr;">Start the Personal Audit &rarr;</button>
+                <button class="btn-gold" data-map-audit="report" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="View my report" data-id="Lihat laporanku">View my report</button>
+              </div>
+              <p style="font-size:11.5px;color:var(--text-faint);margin:14px 0 0" data-en="Self-reported and computed on your device &mdash; stored only in this browser, never uploaded. This is a working map in your own words, not a psychometric verdict." data-id="Dilaporkan sendiri dan dihitung di perangkatmu &mdash; tersimpan hanya di peramban ini, tidak pernah diunggah. Ini peta kerja dengan kata-katamu sendiri, bukan vonis psikometrik.">Self-reported and computed on your device &mdash; stored only in this browser, never uploaded. This is a working map in your own words, not a psychometric verdict.</p>
             </div>
           </div>
           <div class="home-sec reveal">
@@ -1157,7 +1194,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-inner">
           <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
           <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-          <p class="tab-sub" data-en="One assignment per module · 100 points each · 600 points total" data-id="Satu tugas per modul · 100 poin masing-masing · 600 poin total">One assignment per module · 100 points each · 600 points total</p>
+          <p class="tab-sub" data-en="6 assignments · Autosaving workspace · Submit any time · Guided self-review rubric" data-id="6 tugas · Ruang kerja tersimpan otomatis · Kumpul kapan saja · Rubrik tinjauan mandiri terpandu">6 assignments · Autosaving workspace · Submit any time · Guided self-review rubric</p>
           <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>600</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin Tiap">Pts Each</span></span></div>
         </div>
       </div>
@@ -1166,7 +1203,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <button class="filter-pill" data-filter="available" data-en="Available" data-id="Tersedia">Available</button>
       <button class="filter-pill" data-filter="locked" data-en="Locked" data-id="Terkunci">Locked</button>
       <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
-      <button class="filter-pill" data-filter="graded" data-en="Graded" data-id="Dinilai">Graded</button>
+      <button class="filter-pill" data-filter="graded" data-en="Self-reviewed" data-id="Ditinjau mandiri">Self-reviewed</button>
       </div>
     <div class="assignment-card reveal" data-module="1" data-status="available">
       <div class="assignment-header">
@@ -1283,7 +1320,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">600</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
-        <p class="ov-note" data-en="Complete Module 1 and submit your first assignment to start earning your grade." data-id="Selesaikan Modul 1 dan kirimkan tugas pertamamu untuk mulai mendapatkan nilaimu.">Complete Module 1 and submit your first assignment to start earning your grade.</p>
+        <p class="ov-note" data-en="Complete Module 1, submit your first assignment, and run its self-review to see progress here." data-id="Selesaikan Modul 1, kirim tugas pertamamu, dan jalankan tinjauan mandirinya untuk melihat kemajuan di sini.">Complete Module 1, submit your first assignment, and run its self-review to see progress here.</p>
       </div>
       <div class="grade-table reveal">
         <div class="grade-hrow">
@@ -1833,5 +1870,8 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="js/range-app.js"></script>
 <script src="../../data/lms/the-map.js"></script>
 <script src="../../js/lms-player.js"></script>
+<script>window.MT_ASSIGN_CFG={slug:'the-map',title:{en:'The Map \u00b7 Assignment',id:'The Map \u00b7 Tugas'},bg:'../../assets/bg/aladdin-hero.jpg',bgPos:'70% 28%'};</script>
+<script src="../../js/lms-assign.js"></script>
+<script src="js/map-audit.js"></script>
 </body>
 </html>

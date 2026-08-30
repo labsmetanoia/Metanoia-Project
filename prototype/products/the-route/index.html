@@ -493,6 +493,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 }
 </style>
+<style id="routeLmsSkin">
+/* ═══ The Route player skin — the product background system inside the lesson room ═══ */
+.lmsp{background:var(--bg-base)}
+.lmsp::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:url('../../assets/bg/journey-bg.jpg') center 40%/cover no-repeat;opacity:.16;
+  animation:routeSkinPan 60s ease-in-out infinite alternate}
+@keyframes routeSkinPan{from{transform:scale(1.05) translateY(-1%)}to{transform:scale(1.05) translateY(1%)}}
+@media(prefers-reduced-motion:reduce){.lmsp::before{animation:none}}
+.lmsp::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(70% 60% at 50% 0%,rgba(201,168,76,.06),transparent 60%),
+  linear-gradient(180deg,rgba(5,10,18,.55) 0%,rgba(5,10,18,.86) 42%,rgba(5,10,18,.94) 100%)}
+:root[data-theme="light"] .lmsp::before{opacity:.1}
+:root[data-theme="light"] .lmsp::after{background:
+  radial-gradient(70% 60% at 50% 0%,rgba(139,105,20,.05),transparent 60%),
+  linear-gradient(180deg,rgba(238,241,246,.82) 0%,rgba(238,241,246,.93) 42%,rgba(238,241,246,.97) 100%)}
+.lmsp-top,.lmsp-main,.lmsp-foot{position:relative;z-index:1}
+.lmsp .lmsp-rail{background:rgba(5,10,18,.5);backdrop-filter:blur(10px)}
+:root[data-theme="light"] .lmsp .lmsp-rail{background:rgba(250,251,253,.8)}
+.lmsp .lms-title{letter-spacing:-.01em}
+.lmsp .lms-kicker{color:var(--gold);letter-spacing:.2em}
+.lmsp .lms-panel,.lmsp .lms-acc,.lmsp .lms-check{backdrop-filter:blur(8px)}
+.lmsp .lms-overview{font-size:15px;max-width:72ch}
+.lmsp .lmsp-inner{padding-top:6px}
+</style>
 </head>
 <body>
 
@@ -590,6 +614,20 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.4"/><path d="M15.8 14.2c2.4.3 4.1 1.8 4.7 4.3"/></svg></span><span data-en="Mentor &amp; Sponsor Network" data-id="Jaringan Mentor &amp; Sponsor">Mentor &amp; Sponsor Network</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4a3 3 0 0 1 6 0"/><path d="M9 11h6M9 15h4"/></svg></span><span data-en="Second-Move Strategy" data-id="Strategi Langkah Kedua">Second-Move Strategy</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 15.5c-2 0-4-1.5-4-3.5s2-3.5 4-3.5c3.5 0 4.5 7 8 7 2 0 4-1.5 4-3.5s-2-3.5-4-3.5c-3.5 0-4.5 7-8 7Z"/></svg></span><span data-en="Early Career Finance" data-id="Keuangan Awal Karier">Early Career Finance</span></div>
+            </div>
+          </div>
+          <div class="home-sec reveal" id="toolPromo">
+            <h3 class="sec-label" data-en="The Route Planner" data-id="Perencana Route">The Route Planner</h3>
+            <div class="glass-card" style="padding:26px 28px;border-color:rgba(201,168,76,.4)">
+              <p style="font-size:15.5px;color:var(--text-sub);margin:0 0 6px;font-weight:700" data-en="Your first years compound &mdash; if you steer them." data-id="Tahun-tahun pertamamu menggandakan diri &mdash; jika kamu mengemudikannya.">Your first years compound &mdash; if you steer them.</p>
+              <p style="font-size:13.5px;color:var(--text-muted);margin:0 0 16px;max-width:70ch" data-en="Three instruments in one workspace: a promotion-readiness self-diagnostic across the six dimensions the modules train; a 90-day plan builder that turns any new role or goal into three deliberate phases; and a win log that captures evidence while it is fresh &mdash; the raw material of reviews, promotion cases and CVs." data-id="Tiga instrumen dalam satu ruang kerja: diagnostik mandiri kesiapan promosi lintas enam dimensi yang dilatih modul; penyusun rencana 90 hari yang mengubah peran atau tujuan baru menjadi tiga fase yang disengaja; dan catatan kemenangan yang menangkap bukti selagi segar &mdash; bahan mentah tinjauan, kasus promosi, dan CV.">Three instruments in one workspace: a promotion-readiness self-diagnostic across the six dimensions the modules train; a 90-day plan builder that turns any new role or goal into three deliberate phases; and a win log that captures evidence while it is fresh &mdash; the raw material of reviews, promotion cases and CVs.</p>
+              <p style="font-size:12.5px;color:var(--text-muted);margin:0 0 16px" data-plan-status></p>
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <button class="btn-gold" data-route-plan="readiness" data-en="Run the readiness diagnostic &rarr;" data-id="Jalankan diagnostik kesiapan &rarr;">Run the readiness diagnostic &rarr;</button>
+                <button class="btn-gold" data-route-plan="plan" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="Build a 90-day plan" data-id="Susun rencana 90 hari">Build a 90-day plan</button>
+                <button class="btn-gold" data-route-plan="wins" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="Open the win log" data-id="Buka catatan kemenangan">Open the win log</button>
+              </div>
+              <p style="font-size:11.5px;color:var(--text-faint);margin:14px 0 0" data-en="Self-assessed and stored only in this browser. The diagnostic reflects your own ratings back with module recommendations &mdash; it does not predict or promise promotion." data-id="Dinilai sendiri dan tersimpan hanya di peramban ini. Diagnostik memantulkan penilaianmu sendiri dengan rekomendasi modul &mdash; ia tidak meramalkan atau menjanjikan promosi.">Self-assessed and stored only in this browser. The diagnostic reflects your own ratings back with module recommendations &mdash; it does not predict or promise promotion.</p>
             </div>
           </div>
           <div class="home-sec reveal">
@@ -1426,7 +1464,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-inner">
           <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
           <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-          <p class="tab-sub" data-en="9 assignments · 900 total points · Submit any time · Feedback within 3 business days" data-id="9 tugas · 900 total poin · Kumpul kapan saja · Umpan balik dalam 3 hari kerja">9 assignments · 900 total points · Submit any time · Feedback within 3 business days</p>
+          <p class="tab-sub" data-en="9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric" data-id="9 tugas · Ruang kerja tersimpan otomatis · Kumpul kapan saja · Rubrik tinjauan mandiri terpandu">9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric</p>
           <div class="tb-stats"><span class="tb-stat"><b>9</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>900</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin Tiap">Pts Each</span></span></div>
         </div>
       </div>
@@ -1435,7 +1473,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <button class="filter-pill" data-filter="available" data-en="Available" data-id="Tersedia">Available</button>
       <button class="filter-pill" data-filter="locked" data-en="Locked" data-id="Terkunci">Locked</button>
       <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
-      <button class="filter-pill" data-filter="graded" data-en="Graded" data-id="Dinilai">Graded</button>
+      <button class="filter-pill" data-filter="graded" data-en="Self-reviewed" data-id="Ditinjau mandiri">Self-reviewed</button>
       </div>
     <div class="assignment-card reveal" data-module="1" data-status="available">
       <div class="assignment-header">
@@ -1593,7 +1631,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">900</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
-        <p class="ov-note" data-en="Complete Module 1 and submit your first assignment to start earning your grade." data-id="Selesaikan Modul 1 dan kirimkan tugas pertamamu untuk mulai mendapatkan nilaimu.">Complete Module 1 and submit your first assignment to start earning your grade.</p>
+        <p class="ov-note" data-en="Complete Module 1, submit your first assignment, and run its self-review to see progress here." data-id="Selesaikan Modul 1, kirim tugas pertamamu, dan jalankan tinjauan mandirinya untuk melihat kemajuan di sini.">Complete Module 1, submit your first assignment, and run its self-review to see progress here.</p>
       </div>
       <div class="grade-table reveal">
         <div class="grade-hrow">
@@ -2140,5 +2178,8 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 </script>
 <script src="../../data/lms/the-route.js"></script>
 <script src="../../js/lms-player.js"></script>
+<script>window.MT_ASSIGN_CFG={slug:'the-route',title:{en:'The Route \u00b7 Assignment',id:'The Route \u00b7 Tugas'},bg:'../../assets/bg/journey-bg.jpg',bgPos:'center 40%'};</script>
+<script src="../../js/lms-assign.js"></script>
+<script src="js/route-plan.js"></script>
 </body>
 </html>

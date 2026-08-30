@@ -652,6 +652,13 @@
   }
 
   /* ─── host page sync: lesson cards, module statuses, progress bars ─── */
+  var KIND_LABEL = {
+    video: { en: 'Video', id: 'Video' },
+    reading: { en: 'Reading', id: 'Bacaan' },
+    interactive: { en: 'Interactive', id: 'Interaktif' },
+    slides: { en: 'Slides', id: 'Salindia' },
+    visual: { en: 'Visual', id: 'Visual' }
+  };
   function syncHostPage() {
     var p = progress();
     document.querySelectorAll('.lesson-card').forEach(function (card) {
@@ -660,6 +667,19 @@
       var n = numEl.textContent.trim();
       var i = flatIndex(n);
       if (i === -1) return;
+      /* registry is the source of truth for type + duration labels */
+      var lreg = FLAT[i].l;
+      var tp = card.querySelector('.lesson-type');
+      var kl = KIND_LABEL[lreg.kind];
+      if (tp && kl) {
+        tp.setAttribute('data-en', kl.en); tp.setAttribute('data-id', kl.id);
+        tp.textContent = kl[lang()];
+      }
+      var du = card.querySelector('.lesson-duration');
+      if (du && lreg.dur) {
+        du.setAttribute('data-en', lreg.dur.en); du.setAttribute('data-id', lreg.dur.id);
+        du.textContent = lreg.dur[lang()];
+      }
       if (p[n]) {
         card.dataset.status = 'completed';
         var ic = card.querySelector('.lesson-icon');

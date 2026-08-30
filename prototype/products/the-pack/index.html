@@ -475,6 +475,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 }
 </style>
+<style id="packLmsSkin">
+/* ═══ The Pack player skin — the product background system inside the lesson room ═══ */
+.lmsp{background:var(--bg-base)}
+.lmsp::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:url('../../assets/bg/pack.jpg') center 34%/cover no-repeat;opacity:.16;
+  animation:packSkinPan 60s ease-in-out infinite alternate}
+@keyframes packSkinPan{from{transform:scale(1.05) translateY(-1%)}to{transform:scale(1.05) translateY(1%)}}
+@media(prefers-reduced-motion:reduce){.lmsp::before{animation:none}}
+.lmsp::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(70% 60% at 50% 0%,rgba(201,168,76,.06),transparent 60%),
+  linear-gradient(180deg,rgba(5,10,18,.55) 0%,rgba(5,10,18,.86) 42%,rgba(5,10,18,.94) 100%)}
+:root[data-theme="light"] .lmsp::before{opacity:.1}
+:root[data-theme="light"] .lmsp::after{background:
+  radial-gradient(70% 60% at 50% 0%,rgba(139,105,20,.05),transparent 60%),
+  linear-gradient(180deg,rgba(238,241,246,.82) 0%,rgba(238,241,246,.93) 42%,rgba(238,241,246,.97) 100%)}
+.lmsp-top,.lmsp-main,.lmsp-foot{position:relative;z-index:1}
+.lmsp .lmsp-rail{background:rgba(5,10,18,.5);backdrop-filter:blur(10px)}
+:root[data-theme="light"] .lmsp .lmsp-rail{background:rgba(250,251,253,.8)}
+.lmsp .lms-title{letter-spacing:-.01em}
+.lmsp .lms-kicker{color:var(--gold);letter-spacing:.2em}
+.lmsp .lms-panel,.lmsp .lms-acc,.lmsp .lms-check{backdrop-filter:blur(8px)}
+.lmsp .lms-overview{font-size:15px;max-width:72ch}
+.lmsp .lmsp-inner{padding-top:6px}
+</style>
 </head>
 <body>
 
@@ -572,6 +596,24 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="Case Interview Practice" data-id="Latihan Wawancara Kasus">Case Interview Practice</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="2.5"/><path d="M12 8V4.5M9.5 4.5h5"/><circle cx="9.5" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M9.5 16.5h5"/></svg></span><span data-en="AI Application Tools" data-id="Alat Lamaran Berbantuan AI">AI Application Tools</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M7 4h10v5a5 5 0 0 1-10 0Z"/><path d="M7 5H4v2a3 3 0 0 0 3 3M17 5h3v2a3 3 0 0 1-3 3"/><path d="M12 14v3M8.5 21h7M12 17c-1.5 0-2.5 1-3.5 4h7c-1-3-2-4-3.5-4Z"/></svg></span><span data-en="Professional Etiquette" data-id="Etiket Profesional">Professional Etiquette</span></div>
+            </div>
+          </div>
+          <div class="home-sec reveal" id="toolPromo">
+            <h3 class="sec-label" data-en="The Screening Gym" data-id="Gym Penyaringan">The Screening Gym</h3>
+            <div class="glass-card" style="padding:26px 28px;border-color:rgba(201,168,76,.4)">
+              <p style="font-size:15.5px;color:var(--text-sub);margin:0 0 6px;font-weight:700" data-en="The screening stages are trainable. Train them." data-id="Tahap penyaringan bisa dilatih. Latihlah.">The screening stages are trainable. Train them.</p>
+              <p style="font-size:13.5px;color:var(--text-muted);margin:0 0 16px;max-width:70ch" data-en="Three stations in one workspace: timed aptitude drills &mdash; numerical, verbal, logical &mdash; scored transparently with worked explanations; an ATS readiness check that reads your CV against a real job description on your device; and an application pipeline tracker that turns your job search into a system." data-id="Tiga stasiun dalam satu ruang kerja: latihan bakat berwaktu &mdash; numerik, verbal, logis &mdash; dinilai transparan dengan pembahasan; pemeriksaan kesiapan ATS yang membaca CV-mu terhadap deskripsi kerja nyata di perangkatmu; dan pelacak pipeline lamaran yang mengubah pencarian kerjamu menjadi sistem.">Three stations in one workspace: timed aptitude drills &mdash; numerical, verbal, logical &mdash; scored transparently with worked explanations; an ATS readiness check that reads your CV against a real job description on your device; and an application pipeline tracker that turns your job search into a system.</p>
+              <div style="display:flex;gap:26px;flex-wrap:wrap;margin:0 0 18px">
+                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-gym-stat="questions">&mdash;</b><span data-en="drill questions" data-id="soal latihan">drill questions</span></span>
+                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-gym-stat="sets">&mdash;</b><span data-en="timed sets" data-id="set berwaktu">timed sets</span></span>
+                <span style="font-size:12px;color:var(--text-muted)"><b style="display:block;font-size:1.25rem;color:var(--gold-bright)" data-gym-stat="attempts">&mdash;</b><span data-en="your attempts" data-id="percobaanmu">your attempts</span></span>
+              </div>
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <button class="btn-gold" data-pack-gym="drill" data-en="Open the Screening Gym &rarr;" data-id="Buka Gym Penyaringan &rarr;">Open the Screening Gym &rarr;</button>
+                <button class="btn-gold" data-pack-gym="ats" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="Check my CV against a JD" data-id="Periksa CV-ku terhadap JD">Check my CV against a JD</button>
+                <button class="btn-gold" data-pack-gym="tracker" style="background:none;border:1px solid var(--gold-border-hover);color:var(--gold)" data-en="Application tracker" data-id="Pelacak lamaran">Application tracker</button>
+              </div>
+              <p style="font-size:11.5px;color:var(--text-faint);margin:14px 0 0" data-en="Question counts are computed live from the drill bank. Scoring is rule-based and explained per question; your CV text never leaves this browser." data-id="Jumlah soal dihitung langsung dari bank latihan. Penilaian berbasis aturan dan dijelaskan per soal; teks CV-mu tidak pernah meninggalkan peramban ini.">Question counts are computed live from the drill bank. Scoring is rule-based and explained per question; your CV text never leaves this browser.</p>
             </div>
           </div>
           <div class="home-sec reveal">
@@ -1355,7 +1397,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-inner">
           <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
           <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-          <p class="tab-sub" data-en="One assignment per module · 100 points each · 900 points total" data-id="Satu tugas per modul · 100 poin masing-masing · 900 poin total">One assignment per module · 100 points each · 900 points total</p>
+          <p class="tab-sub" data-en="9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric" data-id="9 tugas · Ruang kerja tersimpan otomatis · Kumpul kapan saja · Rubrik tinjauan mandiri terpandu">9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric</p>
           <div class="tb-stats"><span class="tb-stat"><b>9</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>900</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin Tiap">Pts Each</span></span></div>
         </div>
       </div>
@@ -1364,7 +1406,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <button class="filter-pill" data-filter="available" data-en="Available" data-id="Tersedia">Available</button>
       <button class="filter-pill" data-filter="locked" data-en="Locked" data-id="Terkunci">Locked</button>
       <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
-      <button class="filter-pill" data-filter="graded" data-en="Graded" data-id="Dinilai">Graded</button>
+      <button class="filter-pill" data-filter="graded" data-en="Self-reviewed" data-id="Ditinjau mandiri">Self-reviewed</button>
       </div>
     <div class="assignment-card reveal" data-module="1" data-status="available">
       <div class="assignment-header">
@@ -1522,7 +1564,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">900</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
-        <p class="ov-note" data-en="Complete Module 1 and submit your first assignment to start earning your grade." data-id="Selesaikan Modul 1 dan kirimkan tugas pertamamu untuk mulai mendapatkan nilaimu.">Complete Module 1 and submit your first assignment to start earning your grade.</p>
+        <p class="ov-note" data-en="Complete Module 1, submit your first assignment, and run its self-review to see progress here." data-id="Selesaikan Modul 1, kirim tugas pertamamu, dan jalankan tinjauan mandirinya untuk melihat kemajuan di sini.">Complete Module 1, submit your first assignment, and run its self-review to see progress here.</p>
       </div>
       <div class="grade-table reveal">
         <div class="grade-hrow">
@@ -2039,5 +2081,10 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 </script>
 <script src="../../data/lms/the-pack.js"></script>
 <script src="../../js/lms-player.js"></script>
+<script>window.MT_ASSIGN_CFG={slug:'the-pack',title:{en:'The Pack \u00b7 Assignment',id:'The Pack \u00b7 Tugas'},bg:'../../assets/bg/pack.jpg',bgPos:'center 34%'};</script>
+<script src="../../js/lms-assign.js"></script>
+<script src="../../data/pack/aptitude.js"></script>
+<script src="../the-map/js/range-doc.js"></script>
+<script src="js/pack-gym.js"></script>
 </body>
 </html>
