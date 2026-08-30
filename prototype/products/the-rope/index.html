@@ -493,6 +493,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 .course-hero{--font:'Inter',sans-serif;font-family:'Inter',sans-serif}
 }
 </style>
+<style id="ropeLmsSkin">
+/* ═══ The Rope player skin — the Home background system inside the lesson room ═══ */
+.lmsp{background:var(--bg-base)}
+.lmsp::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:url('../../assets/bg/rope.jpg') center 30%/cover no-repeat;opacity:.16;
+  animation:ropeSkinPan 60s ease-in-out infinite alternate}
+@keyframes ropeSkinPan{from{transform:scale(1.05) translateY(-1%)}to{transform:scale(1.05) translateY(1%)}}
+@media(prefers-reduced-motion:reduce){.lmsp::before{animation:none}}
+.lmsp::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(70% 60% at 50% 0%,rgba(201,168,76,.06),transparent 60%),
+  linear-gradient(180deg,rgba(5,10,18,.55) 0%,rgba(5,10,18,.86) 42%,rgba(5,10,18,.94) 100%)}
+:root[data-theme="light"] .lmsp::before{opacity:.1}
+:root[data-theme="light"] .lmsp::after{background:
+  radial-gradient(70% 60% at 50% 0%,rgba(139,105,20,.05),transparent 60%),
+  linear-gradient(180deg,rgba(238,241,246,.82) 0%,rgba(238,241,246,.93) 42%,rgba(238,241,246,.97) 100%)}
+.lmsp-top,.lmsp-main,.lmsp-foot{position:relative;z-index:1}
+.lmsp .lmsp-rail{background:rgba(5,10,18,.5);backdrop-filter:blur(10px)}
+:root[data-theme="light"] .lmsp .lmsp-rail{background:rgba(250,251,253,.8)}
+.lmsp .lms-title{letter-spacing:-.01em}
+.lmsp .lms-kicker{color:var(--gold);letter-spacing:.2em}
+.lmsp .lms-panel,.lmsp .lms-acc,.lmsp .lms-check{backdrop-filter:blur(8px)}
+.lmsp .lms-overview{font-size:15px;max-width:72ch}
+.lmsp .lmsp-inner{padding-top:6px}
+</style>
 </head>
 <body>
 
