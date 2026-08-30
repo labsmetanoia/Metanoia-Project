@@ -319,6 +319,104 @@
     host.appendChild(prog);
   }
 
+  /* ─── rich blocks: show → explain → practice ───
+     All of these render only when the registry declares them, so every
+     product stays backward compatible. */
+
+  /* diagram: {type:'flow'|'quad'|'ring'|'timeline'|'ladder', title, items:[{h,sub}], note} */
+  function renderDiagram(l, host) {
+    var d = l.diagram;
+    if (!d || !d.items || !d.items.length) return;
+    var box = el('div', 'lms-diagram t-' + (d.type || 'flow'));
+    if (d.title) box.appendChild(bi('h3', 'ld-title', d.title));
+    var stage = el('div', 'ld-stage');
+    d.items.forEach(function (it, i) {
+      if ((d.type === 'flow' || !d.type) && i > 0) stage.appendChild(el('span', 'ld-arrow', '→'));
+      var node = el('div', 'ld-node');
+      node.appendChild(el('span', 'ld-num', String(i + 1).padStart(2, '0')));
+      node.appendChild(bi('b', null, it.h));
+      if (it.sub) node.appendChild(bi('span', 'ld-sub', it.sub));
+      stage.appendChild(node);
+    });
+    box.appendChild(stage);
+    if (d.note) box.appendChild(bi('p', 'ld-note', d.note));
+    host.appendChild(box);
+  }
+
+  /* compare: [{tag,q,weak,strong,why}] — weak vs strong sample answers */
+  function renderCompare(l, host) {
+    if (!l.compare || !l.compare.length) return;
+    l.compare.forEach(function (c) {
+      var box = el('div', 'lms-compare');
+      box.appendChild(bi('h3', null, c.tag || { en: 'Sample answers — weak vs strong', id: 'Contoh jawaban — lemah vs kuat' }));
+      if (c.q) box.appendChild(bi('p', 'lc-q', c.q));
+      var grid = el('div', 'lc-grid');
+      var wk = el('div', 'lc-card lc-weak');
+      wk.appendChild(bi('span', 'lc-lbl', { en: '✗ Weak', id: '✗ Lemah' }));
+      wk.appendChild(bi('p', null, c.weak));
+      var st = el('div', 'lc-card lc-strong');
+      st.appendChild(bi('span', 'lc-lbl', { en: '✓ Strong', id: '✓ Kuat' }));
+      st.appendChild(bi('p', null, c.strong));
+      grid.appendChild(wk); grid.appendChild(st);
+      box.appendChild(grid);
+      if (c.why) {
+        var why = el('div', 'lc-why');
+        why.appendChild(bi('b', null, { en: 'Why it works', id: 'Mengapa berhasil' }));
+        why.appendChild(bi('span', null, c.why));
+        box.appendChild(why);
+      }
+      host.appendChild(box);
+    });
+  }
+
+  /* listen: [{label, text}] — model answers spoken aloud on-device */
+  function renderListen(l, host) {
+    if (!l.listen || !l.listen.length || !window.speechSynthesis) return;
+    var box = el('div', 'lms-listen');
+    box.appendChild(bi('h3', null, { en: '🔊 Hear it spoken', id: '🔊 Dengarkan diucapkan' }));
+    box.appendChild(bi('p', 'll-note', {
+      en: 'Model answers read aloud by your browser — listen for pacing and landing, then say your own version.',
+      id: 'Contoh jawaban dibacakan perambanmu — simak tempo dan pendaratannya, lalu ucapkan versimu sendiri.'
+    }));
+    l.listen.forEach(function (item) {
+      var row = el('div', 'll-row');
+      var btn = el('button', 'll-btn', '▶');
+      btn.setAttribute('aria-label', 'Play');
+      var lbl = bi('span', 'll-lbl', item.label);
+      btn.addEventListener('click', function () {
+        var ss = window.speechSynthesis;
+        if (btn.classList.contains('on')) { ss.cancel(); btn.classList.remove('on'); btn.textContent = '▶'; return; }
+        box.querySelectorAll('.ll-btn.on').forEach(function (b) { b.classList.remove('on'); b.textContent = '▶'; });
+        ss.cancel();
+        var u = new SpeechSynthesisUtterance(item.text[lang()] || item.text.en);
+        u.lang = lang() === 'id' ? 'id-ID' : 'en-US';
+        u.rate = 0.98;
+        u.onend = u.onerror = function () { btn.classList.remove('on'); btn.textContent = '▶'; };
+        btn.classList.add('on'); btn.textContent = '⏸';
+        ss.speak(u);
+      });
+      row.appendChild(btn); row.appendChild(lbl);
+      box.appendChild(row);
+    });
+    host.appendChild(box);
+  }
+
+  /* tryit: {qid, label, desc} — drill this exact question in the simulator */
+  function renderTryIt(l, host) {
+    var t = l.tryit;
+    if (!t) return;
+    var box = el('div', 'lms-tryit');
+    var txt = el('div');
+    txt.appendChild(bi('b', null, t.label || { en: 'Practice this now', id: 'Latih ini sekarang' }));
+    if (t.desc) txt.appendChild(bi('span', null, t.desc));
+    var b = bi('button', 'lms-complete', { en: 'Drill it in the simulator →', id: 'Latih di simulator →' });
+    b.addEventListener('click', function () {
+      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: 'simulator', mode: 'drill', qid: t.qid } }));
+    });
+    box.appendChild(txt); box.appendChild(b);
+    host.appendChild(box);
+  }
+
   /* Registry-declared tool launcher: a lesson may carry
      tool:{id:'simulator', mode:'setup', title:{en,id}, body:{en,id}, cta:{en,id}}.
      The player only renders the panel and dispatches an event — the tool
@@ -339,26 +437,25 @@
     host.appendChild(box);
   }
 
-  function renderCheck(l, host) {
-    if (!l.check) return;
+  function renderOneCheck(check, host) {
     var box = el('div', 'lms-check');
     box.appendChild(bi('h3', null, { en: 'Knowledge check', id: 'Cek pemahaman' }));
-    box.appendChild(bi('p', 'q', l.check.q));
+    box.appendChild(bi('p', 'q', check.q));
     var verdict = el('div', 'verdict');
-    l.check.options.forEach(function (opt, i) {
+    check.options.forEach(function (opt, i) {
       var b = el('button', 'lms-opt');
       b.appendChild(bi('span', null, opt));
       b.addEventListener('click', function () {
         box.querySelectorAll('.lms-opt').forEach(function (x) { x.disabled = true; });
-        if (i === l.check.correct) {
+        if (i === check.correct) {
           b.classList.add('correct');
           verdict.className = 'verdict ok';
-          verdict.innerHTML = l.check.why[lang()];
-          verdict.setAttribute('data-en', l.check.why.en);
-          verdict.setAttribute('data-id', l.check.why.id);
+          verdict.innerHTML = check.why[lang()];
+          verdict.setAttribute('data-en', check.why.en);
+          verdict.setAttribute('data-id', check.why.id);
         } else {
           b.classList.add('wrong');
-          box.querySelectorAll('.lms-opt')[l.check.correct].classList.add('correct');
+          box.querySelectorAll('.lms-opt')[check.correct].classList.add('correct');
           verdict.className = 'verdict no';
           verdict.setAttribute('data-en', 'Not quite — review the material above and look at the highlighted answer.');
           verdict.setAttribute('data-id', 'Belum tepat — tinjau kembali materi di atas dan lihat jawaban yang ditandai.');
@@ -369,6 +466,10 @@
     });
     box.appendChild(verdict);
     host.appendChild(box);
+  }
+  function renderCheck(l, host) {
+    if (l.check) renderOneCheck(l.check, host);
+    (l.checks || []).forEach(function (c) { renderOneCheck(c, host); });
   }
 
   /* ─── lesson render ─── */
@@ -383,6 +484,9 @@
     root.querySelector('.lmsp-bar').style.width = (doneCount() / FLAT.length * 100) + '%';
 
     innerEl.innerHTML = '';
+    innerEl.classList.remove('lms-enter');
+    void innerEl.offsetWidth;
+    innerEl.classList.add('lms-enter');
     if (l.placeholder) innerEl.appendChild(phNotice());
     innerEl.appendChild(bi('p', 'lms-kicker', { en: 'Module ' + m.num + ' · ' + m.title.en, id: 'Modul ' + m.num + ' · ' + m.title.id }));
     innerEl.appendChild(bi('h2', 'lms-title', l.title));
@@ -401,13 +505,17 @@
     obj.appendChild(ul);
     innerEl.appendChild(obj);
 
+    renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
     if (l.kind === 'interactive') renderSteps(l, innerEl);
     if (l.kind === 'slides') renderDeck(l, innerEl);
     if (l.kind === 'visual') renderVisual(l, innerEl);
+    renderCompare(l, innerEl);
+    renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     renderCheck(l, innerEl);
+    renderTryIt(l, innerEl);
 
     if (l.takeaways) {
       var tk = el('div', 'lms-panel');
