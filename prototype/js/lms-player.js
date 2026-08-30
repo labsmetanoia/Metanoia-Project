@@ -220,7 +220,7 @@
       st.appendChild(bi('p', null, s.body));
       var rb = bi('button', 'reveal-btn', { en: 'Reveal debrief →', id: 'Buka pembahasan →' });
       var rbody = el('div', 'reveal-body');
-      rbody.appendChild(bi('span', null, {
+      rbody.appendChild(bi('span', null, s.debrief || {
         en: 'Debrief — in the final content this step opens a guided scenario with model answers and coach commentary.',
         id: 'Pembahasan — pada konten final, langkah ini membuka skenario terpandu dengan contoh jawaban dan komentar mentor.'
       }));
@@ -319,6 +319,26 @@
     host.appendChild(prog);
   }
 
+  /* Registry-declared tool launcher: a lesson may carry
+     tool:{id:'simulator', mode:'setup', title:{en,id}, body:{en,id}, cta:{en,id}}.
+     The player only renders the panel and dispatches an event — the tool
+     itself (e.g. products/the-rope/js/rope-sim.js) listens on the host page. */
+  function renderTool(l, host) {
+    var t = l.tool;
+    if (!t || !t.id) return;
+    var box = el('div', 'lms-panel lms-tool');
+    box.style.borderColor = 'rgba(201,168,76,.45)';
+    if (t.title) box.appendChild(bi('h3', null, t.title));
+    if (t.body) box.appendChild(bi('p', null, t.body));
+    var b = bi('button', 'lms-complete', t.cta || { en: 'Launch →', id: 'Luncurkan →' });
+    b.style.marginTop = '12px';
+    b.addEventListener('click', function () {
+      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: t.id, mode: t.mode || 'home' } }));
+    });
+    box.appendChild(b);
+    host.appendChild(box);
+  }
+
   function renderCheck(l, host) {
     if (!l.check) return;
     var box = el('div', 'lms-check');
@@ -386,6 +406,7 @@
     if (l.kind === 'interactive') renderSteps(l, innerEl);
     if (l.kind === 'slides') renderDeck(l, innerEl);
     if (l.kind === 'visual') renderVisual(l, innerEl);
+    if (l.tool) renderTool(l, innerEl);
     renderCheck(l, innerEl);
 
     if (l.takeaways) {
