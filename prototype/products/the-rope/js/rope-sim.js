@@ -54,6 +54,15 @@
     return PERSONAS.filter(function (p) { return p.id === (state.cfg.persona || 'hr'); })[0] || PERSONAS[0];
   }
 
+  /* Realistic interviewer photography, cast from the project's licensed
+     asset library. Priority in the stage: real recorded video clip
+     (MT_ROPE_SIM_MEDIA) → persona photo below → animated avatar fallback. */
+  var PHOTOS = {
+    hr:      { src: '../../assets/bg/gauntlet/gate-05-hr-interview.jpg', pos: '62% 32%' },
+    manager: { src: '../../assets/mentoring-session.jpg',                pos: '86% 42%' },
+    exec:    { src: '../../assets/bg/gauntlet/gate-04-casestudy.jpg',    pos: '56% 22%' }
+  };
+
   /* ─── composed question space (graph-driven, counted honestly) ─── */
   function composedQuestions() {
     var out = [];
@@ -274,7 +283,7 @@
   /* ─── speech + avatar animation ─── */
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
   function speak(text, done) {
-    var av = root && root.querySelector('.rsim-avatar');
+    var tg = root && (root.querySelector('.rsim-stage') || root.querySelector('.rsim-avatar'));
     if (!state.tts || !window.speechSynthesis) { if (done) done(); return; }
     try {
       window.speechSynthesis.cancel();
@@ -282,8 +291,8 @@
       var per = persona();
       u.lang = lang() === 'id' ? 'id-ID' : 'en-US';
       u.rate = per.rate; u.pitch = per.pitch;
-      u.onstart = function () { if (av) av.classList.add('talking'); };
-      u.onend = u.onerror = function () { if (av) av.classList.remove('talking'); if (done) done(); };
+      u.onstart = function () { if (tg) tg.classList.add('talking'); };
+      u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (done) done(); };
       window.speechSynthesis.speak(u);
     } catch (e) { if (done) done(); }
   }
@@ -383,6 +392,18 @@
     'aspect-ratio:16/7;min-height:190px;background:#0C1626;margin-bottom:14px}' +
   '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
   '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
+  '.rsim-stage img.stage-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;' +
+    'animation:rsimKen 26s ease-in-out infinite alternate}' +
+  '@keyframes rsimKen{from{transform:scale(1.02)}to{transform:scale(1.09)}}' +
+  '@media(prefers-reduced-motion:reduce){.rsim-stage img.stage-photo{animation:none}}' +
+  '.rsim-stage .stage-grade{position:absolute;inset:0;pointer-events:none;background:' +
+    'linear-gradient(180deg,rgba(5,10,18,.22),transparent 32%,transparent 62%,rgba(4,8,16,.5)),' +
+    'radial-gradient(120% 90% at 50% 108%,rgba(201,168,76,.12),transparent 55%)}' +
+  '.rsim-stage .st-eq{display:inline-flex;gap:2.5px;align-items:flex-end;height:11px;margin-left:9px;opacity:0;transition:opacity .25s}' +
+  '.rsim-stage.talking .st-eq{opacity:1}' +
+  '.rsim-stage .st-eq i{width:2.5px;background:var(--gold-bright,#F0D878);border-radius:2px;animation:rsimEq .5s ease-in-out infinite alternate}' +
+  '.rsim-stage .st-eq i:nth-child(1){height:5px}.rsim-stage .st-eq i:nth-child(2){height:11px;animation-delay:.15s}.rsim-stage .st-eq i:nth-child(3){height:7px;animation-delay:.3s}' +
+  '.rsim-stage.talking .st-name .dot{animation:rsimPulse 1s infinite}' +
   '.rsim-stage .st-name{position:absolute;left:14px;top:12px;display:flex;gap:10px;align-items:center;z-index:3;' +
     'background:rgba(5,10,18,.62);backdrop-filter:blur(8px);border:1px solid var(--gold-border);border-radius:999px;padding:6px 14px 6px 8px}' +
   '.rsim-stage .st-name .dot{width:8px;height:8px;border-radius:50%;background:#4ADE80;flex:none}' +
@@ -407,7 +428,7 @@
   '@media(max-width:640px){.rsim-stage{aspect-ratio:16/10}.rsim-stage .st-pip{width:104px}}' +
   '.rsim-avatar svg{width:100%;height:100%;display:block}' +
   '.rsim-avatar .av-mouth{transform-origin:center;transition:transform .12s}' +
-  '.rsim-avatar.talking .av-mouth{animation:rsimTalk .34s ease-in-out infinite alternate}' +
+  '.rsim-avatar.talking .av-mouth,.rsim-stage.talking .rsim-avatar .av-mouth{animation:rsimTalk .34s ease-in-out infinite alternate}' +
   '@keyframes rsimTalk{from{transform:scaleY(.35)}to{transform:scaleY(1.25)}}' +
   '.rsim-avatar .av-eyes{animation:rsimBlink 4.6s infinite}' +
   '@keyframes rsimBlink{0%,94%,100%{transform:scaleY(1)}96%,98%{transform:scaleY(.1)}}' +
@@ -747,7 +768,14 @@
     PERSONAS.forEach(function (p) {
       var b = el('button', 'rsim-pcard' + ((cfg.persona || 'hr') === p.id ? ' on' : ''));
       b.type = 'button'; b.dataset.v = p.id;
-      var av = el('span', 'rsim-avatar'); av.innerHTML = avatarSvg(p);
+      var av = el('span', 'rsim-avatar');
+      var pph = PHOTOS[p.id];
+      if (pph) {
+        av.innerHTML = '<img src="' + pph.src + '" alt="" loading="lazy" decoding="async" ' +
+          'style="width:100%;height:100%;object-fit:cover;object-position:' + pph.pos + '">';
+      } else {
+        av.innerHTML = avatarSvg(p);
+      }
       var info = el('span');
       info.appendChild(el('b', null, esc(L(p.name))));
       info.appendChild(el('span', null, esc(L(p.title))));
@@ -960,13 +988,21 @@
     /* interviewer stage — a video call, not a form */
     var stage = el('div', 'rsim-stage');
     var media = (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[per.id]) || null;
-    var av = el('div', 'rsim-avatar');
+    var photo = PHOTOS[per.id] || null;
     if (media && media.idle) {
       var clip = document.createElement('video');
       clip.className = 'stage-clip'; clip.src = media.idle;
       clip.muted = true; clip.loop = true; clip.playsInline = true; clip.autoplay = true;
       stage.appendChild(clip);
+    } else if (photo) {
+      var ph = document.createElement('img');
+      ph.className = 'stage-photo'; ph.src = photo.src; ph.alt = '';
+      ph.decoding = 'async';
+      ph.style.objectPosition = photo.pos;
+      stage.appendChild(ph);
+      stage.appendChild(el('div', 'stage-grade'));
     } else {
+      var av = el('div', 'rsim-avatar');
       av.innerHTML = avatarSvg(per);
       stage.appendChild(av);
     }
@@ -976,6 +1012,8 @@
     nWrap.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
     nWrap.appendChild(el('span', null, ' — ' + esc(L(per.title))));
     nameChip.appendChild(nWrap);
+    var eqEl = el('span', 'st-eq'); eqEl.innerHTML = '<i></i><i></i><i></i>';
+    nameChip.appendChild(eqEl);
     stage.appendChild(nameChip);
     var cap = el('div', 'st-cap');
     stage.appendChild(cap);
