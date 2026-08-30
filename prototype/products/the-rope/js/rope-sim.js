@@ -378,6 +378,33 @@
   '.rsim-pcard span{display:block;font-size:11px;color:var(--text-muted);line-height:1.4;margin-top:2px}' +
   /* avatar */
   '.rsim-avatar{flex:none;width:64px;height:64px;border-radius:50%;position:relative;overflow:hidden;border:1.5px solid var(--gold-border)}' +
+  /* video-call stage */
+  '.rsim-stage{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--gold-border);' +
+    'aspect-ratio:16/7;min-height:190px;background:#0C1626;margin-bottom:14px}' +
+  '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
+  '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
+  '.rsim-stage .st-name{position:absolute;left:14px;top:12px;display:flex;gap:10px;align-items:center;z-index:3;' +
+    'background:rgba(5,10,18,.62);backdrop-filter:blur(8px);border:1px solid var(--gold-border);border-radius:999px;padding:6px 14px 6px 8px}' +
+  '.rsim-stage .st-name .dot{width:8px;height:8px;border-radius:50%;background:#4ADE80;flex:none}' +
+  '.rsim-stage .st-name b{font-size:12px;color:#F5EFE6}' +
+  '.rsim-stage .st-name span{font-size:10.5px;color:rgba(245,239,230,.6)}' +
+  '.rsim-stage .st-cap{position:absolute;left:0;right:0;bottom:0;z-index:3;padding:26px 16px 12px;' +
+    'background:linear-gradient(180deg,transparent,rgba(4,8,16,.88) 45%);color:#F5EFE6;font-size:14.5px;font-weight:600;line-height:1.5;' +
+    'opacity:0;transform:translateY(6px);transition:opacity .4s,transform .4s}' +
+  '.rsim-stage .st-cap.on{opacity:1;transform:none}' +
+  '.rsim-stage .st-pip{position:absolute;right:12px;bottom:12px;width:150px;aspect-ratio:4/3;z-index:4;border-radius:11px;overflow:hidden;' +
+    'border:1.5px solid rgba(245,239,230,.4);background:#060B14;box-shadow:0 10px 30px rgba(0,0,0,.5)}' +
+  '.rsim-stage .st-pip video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1);display:block}' +
+  '.rsim-stage .st-pip .pip-lbl{position:absolute;left:6px;bottom:5px;font-size:9px;font-weight:800;letter-spacing:.08em;color:rgba(245,239,230,.8);text-transform:uppercase}' +
+  '.rsim-stage .st-next{position:absolute;inset:0;z-index:5;display:none;align-items:center;justify-content:center;' +
+    'background:rgba(4,8,16,.72);backdrop-filter:blur(4px);color:var(--gold-bright);font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}' +
+  '.rsim-stage.transitioning .st-next{display:flex;animation:rsimEnter .3s ease}' +
+  '.rsim-avatar .av-body{animation:rsimSway 6.5s ease-in-out infinite}' +
+  '@keyframes rsimSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(.8deg)}}' +
+  '.rsim-avatar .av-head{animation:rsimNod 9s ease-in-out infinite}' +
+  '@keyframes rsimNod{0%,100%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(-1.2deg) translateY(.4px)}70%{transform:rotate(1deg)}}' +
+  '@media(prefers-reduced-motion:reduce){.rsim-avatar .av-body,.rsim-avatar .av-head{animation:none}}' +
+  '@media(max-width:640px){.rsim-stage{aspect-ratio:16/10}.rsim-stage .st-pip{width:104px}}' +
   '.rsim-avatar svg{width:100%;height:100%;display:block}' +
   '.rsim-avatar .av-mouth{transform-origin:center;transition:transform .12s}' +
   '.rsim-avatar.talking .av-mouth{animation:rsimTalk .34s ease-in-out infinite alternate}' +
@@ -409,9 +436,9 @@
   '.rsim-cam{width:250px;max-width:46vw;aspect-ratio:4/3;background:var(--bg-dark);border:1px solid var(--gold-border);border-radius:14px;overflow:hidden;position:relative}' +
   '.rsim-cam video{width:100%;height:100%;object-fit:cover;display:block;transform:scaleX(-1)}' +
   '.rsim-cam .off{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--text-faint);font-size:12px;text-align:center;padding:10px}' +
-  '.rsim-cam .recdot{position:absolute;top:10px;left:10px;display:none;align-items:center;gap:6px;font-size:10.5px;font-weight:800;letter-spacing:.08em;color:#fff;' +
+  '.rsim-cam .recdot,.st-pip .recdot{position:absolute;top:10px;left:10px;display:none;align-items:center;gap:6px;font-size:10.5px;font-weight:800;letter-spacing:.08em;color:#fff;' +
     'background:rgba(229,72,77,.9);border-radius:999px;padding:4px 10px}' +
-  '.rsim-cam.rec .recdot{display:inline-flex}' +
+  '.rsim-cam.rec .recdot,.st-pip.rec .recdot{display:inline-flex}' +
   '.rsim-cam .recdot i{width:7px;height:7px;border-radius:50%;background:#fff;animation:rsimPulse 1s infinite}' +
   '@keyframes rsimPulse{50%{opacity:.3}}' +
   '.rsim-meter{display:flex;gap:3px;align-items:flex-end;height:26px;margin:8px 0}' +
@@ -556,19 +583,42 @@
     return wrap;
   }
 
-  /* ─── avatar SVG ─── */
-  function avatarSvg(per, big) {
+  /* ─── avatar SVG — animated interviewer bust with office backdrop ───
+     Honesty note: this is deliberately an ANIMATED interviewer, not
+     synthetic human footage. When real recorded interviewer clips exist,
+     declare them via window.MT_ROPE_SIM_MEDIA = { personas: { hr: {
+     idle: 'url-to-looping-clip.mp4' } } } and the stage plays the video
+     instead of the avatar — the plumbing below already supports it. */
+  function avatarSvg(per) {
     var hue = per.hue;
-    return '<svg viewBox="0 0 100 100" aria-hidden="true">' +
-      '<rect width="100" height="100" fill="#0B1524"/>' +
-      '<circle cx="50" cy="112" r="42" fill="' + hue + '" opacity=".28"/>' +
-      '<circle cx="50" cy="40" r="21" fill="#E8C9A0"/>' +
-      '<path d="M29 40a21 21 0 0 1 42 0c0-14-8-24-21-24S29 26 29 40Z" fill="' + hue + '"/>' +
-      '<g class="av-eyes" style="transform-origin:50px 40px">' +
-      '<circle cx="42" cy="41" r="2.3" fill="#1A2333"/><circle cx="58" cy="41" r="2.3" fill="#1A2333"/></g>' +
-      '<rect class="av-mouth" x="44" y="50" width="12" height="3.4" rx="1.7" fill="#8A5A44"/>' +
-      '<path d="M22 96c3-18 13-27 28-27s25 9 28 27" fill="' + hue + '"/>' +
-      '<rect x="44" y="66" width="12" height="9" fill="#E8C9A0"/>' +
+    return '<svg viewBox="0 0 160 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' +
+      /* office backdrop */
+      '<rect width="160" height="90" fill="#0C1626"/>' +
+      '<rect x="0" y="0" width="160" height="90" fill="url(#rsimOff' + per.id + ')"/>' +
+      '<defs><linearGradient id="rsimOff' + per.id + '" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0" stop-color="#16233A"/><stop offset="1" stop-color="#0A1220"/></linearGradient></defs>' +
+      '<rect x="12" y="12" width="34" height="46" rx="2" fill="#111D31"/>' +
+      '<rect x="118" y="10" width="30" height="52" rx="2" fill="#101B2E"/>' +
+      '<rect x="120" y="14" width="26" height="3" rx="1.5" fill="' + hue + '" opacity=".25"/>' +
+      '<rect x="120" y="20" width="20" height="3" rx="1.5" fill="' + hue + '" opacity=".18"/>' +
+      '<circle cx="29" cy="30" r="8" fill="' + hue + '" opacity=".14"/>' +
+      /* body sway group */
+      '<g class="av-body" style="transform-origin:80px 90px">' +
+      '<path d="M46 90c4-22 16-33 34-33s30 11 34 33" fill="' + hue + '"/>' +
+      '<path d="M46 90c4-22 16-33 34-33 3.5 0 6.8.4 9.8 1.2L80 78 70.2 58.2c-14 2.6-21.7 13-24.2 31.8Z" fill="#0E1830" opacity=".35"/>' +
+      '<rect x="74" y="48" width="12" height="12" fill="#E8C9A0"/>' +
+      /* head */
+      '<g class="av-head" style="transform-origin:80px 34px">' +
+      '<circle cx="80" cy="32" r="17" fill="#E8C9A0"/>' +
+      '<path d="M63 32a17 17 0 0 1 34 0c0-12-6.5-20-17-20s-17 8-17 20Z" fill="' + hue + '"/>' +
+      '<g class="av-brows"><rect x="70" y="26.5" width="7" height="1.6" rx="0.8" fill="#6B4A36"/>' +
+      '<rect x="83" y="26.5" width="7" height="1.6" rx="0.8" fill="#6B4A36"/></g>' +
+      '<g class="av-eyes" style="transform-origin:80px 32px">' +
+      '<circle cx="73.5" cy="32" r="1.9" fill="#1A2333"/><circle cx="86.5" cy="32" r="1.9" fill="#1A2333"/></g>' +
+      '<path d="M78.5 35.5q1.5 1.4 3 0" stroke="#D3A886" stroke-width="1" fill="none" stroke-linecap="round"/>' +
+      '<g class="av-mouthset" style="transform-origin:80px 42px">' +
+      '<rect class="av-mouth" x="75" y="40.5" width="10" height="2.6" rx="1.3" fill="#8A5A44"/>' +
+      '</g></g></g>' +
       '</svg>';
   }
 
@@ -907,17 +957,41 @@
     });
     card.appendChild(dots);
 
-    /* interviewer panel */
-    var ip = el('div', 'rsim-interviewer');
-    var av = el('div', 'rsim-avatar big'); av.innerHTML = avatarSvg(per, true);
-    var info = el('div', 'ri-info');
-    info.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
-    info.appendChild(el('span', null, esc(L(per.title))));
-    var eq = el('span', 'rsim-speaking'); eq.innerHTML = '<i></i><i></i><i></i>';
-    info.appendChild(eq);
-    var replay = el('button', 'rsim-btn ghost ri-replay', '🔊 ' + T('Repeat question', 'Ulangi pertanyaan'));
-    ip.appendChild(av); ip.appendChild(info); ip.appendChild(replay);
-    card.appendChild(ip);
+    /* interviewer stage — a video call, not a form */
+    var stage = el('div', 'rsim-stage');
+    var media = (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[per.id]) || null;
+    var av = el('div', 'rsim-avatar');
+    if (media && media.idle) {
+      var clip = document.createElement('video');
+      clip.className = 'stage-clip'; clip.src = media.idle;
+      clip.muted = true; clip.loop = true; clip.playsInline = true; clip.autoplay = true;
+      stage.appendChild(clip);
+    } else {
+      av.innerHTML = avatarSvg(per);
+      stage.appendChild(av);
+    }
+    var nameChip = el('div', 'st-name');
+    nameChip.appendChild(el('span', 'dot'));
+    var nWrap = el('span');
+    nWrap.appendChild(el('b', null, esc(L(per.name)) + (s.cfg.company ? ' · ' + esc(s.cfg.company) : '')));
+    nWrap.appendChild(el('span', null, ' — ' + esc(L(per.title))));
+    nameChip.appendChild(nWrap);
+    stage.appendChild(nameChip);
+    var cap = el('div', 'st-cap');
+    stage.appendChild(cap);
+    var pip = el('div', 'st-pip'); pip.style.display = 'none';
+    var pipV = document.createElement('video'); pipV.muted = true; pipV.playsInline = true; pipV.autoplay = true;
+    pip.appendChild(pipV);
+    pip.appendChild(el('span', 'pip-lbl', T('You', 'Kamu')));
+    pip.appendChild(el('div', 'recdot', '<i></i>REC'));
+    stage.appendChild(pip);
+    stage.appendChild(el('div', 'st-next', T('Question ', 'Pertanyaan ') + (s.idx + 1)));
+    card.appendChild(stage);
+    if (s.idx > 0 && !followup) {
+      stage.classList.add('transitioning');
+      setTimeout(function () { stage.classList.remove('transitioning'); }, 650);
+    }
+    var replay = el('button', 'rsim-btn ghost', '🔊 ' + T('Repeat question', 'Ulangi pertanyaan'));
 
     var catName = '';
     B.categories.forEach(function (c) { if (c.id === q.cat) catName = L(c.name); });
@@ -937,7 +1011,21 @@
     }
     var spoken = (!s.greeted ? L(per.greet) + ' ' : '') + qText;
     s.greeted = true;
-    speak(spoken);
+    function armClock() {
+      if (!state.t0) state.t0 = Date.now();
+      cap.textContent = qText;
+      cap.classList.add('on');
+    }
+    state.t0 = null;
+    if (state.tts && window.speechSynthesis) {
+      var armed = false;
+      var armOnce = function () { if (!armed) { armed = true; armClock(); } };
+      speak(spoken, armOnce);
+      /* belt and braces: some engines never fire onend */
+      setTimeout(armOnce, Math.min(2200 + spoken.length * 55, 14000));
+    } else {
+      armClock();
+    }
     replay.addEventListener('click', function () { speak(qText); });
 
     /* answer format switcher */
@@ -989,7 +1077,8 @@
     function setFormat(f) {
       state.fmt = f;
       fmt.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.v === f); });
-      camBox.style.display = f === 'video' ? '' : 'none';
+      camBox.style.display = 'none';
+      pip.style.display = f === 'video' ? '' : 'none';
       meter.style.display = f === 'audio' ? '' : 'none';
       recRow.style.display = f === 'text' ? 'none' : '';
       playSlot.innerHTML = '';
@@ -1004,7 +1093,7 @@
       if (state.recog) { try { state.recog.stop(); } catch (e) {} state.recog = null; }
       if (state.recorder && state.recorder.state !== 'inactive') { try { state.recorder.stop(); } catch (e) {} }
       state.recorder = null; state.recOn = false;
-      camBox.classList.remove('rec');
+      camBox.classList.remove('rec'); pip.classList.remove('rec');
       recBtn.classList.remove('on'); recBtn.innerHTML = '● ' + T('Record answer', 'Rekam jawaban');
       if (state.stream) { state.stream.getTracks().forEach(function (t) { t.stop(); }); state.stream = null; }
       if (state.meterId) { cancelAnimationFrame(state.meterId); state.meterId = null; }
@@ -1014,7 +1103,7 @@
       navigator.mediaDevices.getUserMedia(f === 'video' ? { video: true, audio: true } : { audio: true })
         .then(function (stream) {
           state.stream = stream;
-          if (f === 'video') { vEl.srcObject = stream; vEl.play().catch(function () {}); }
+          if (f === 'video') { pipV.srcObject = stream; pipV.play().catch(function () {}); }
           if (f === 'audio') startMeter(stream);
         })
         .catch(function () {
@@ -1050,7 +1139,7 @@
         state.recorder.ondataavailable = function (e) { if (e.data && e.data.size) state.chunks.push(e.data); };
         state.recorder.start();
         state.recOn = true;
-        camBox.classList.add('rec');
+        camBox.classList.add('rec'); pip.classList.add('rec');
         recBtn.classList.add('on'); recBtn.innerHTML = '■ ' + T('Stop recording', 'Hentikan rekaman');
         startStt();
       } catch (e) { state.recorder = null; }
@@ -1061,7 +1150,7 @@
       state.recorder.onstop = function () {
         var blob = state.chunks.length ? new Blob(state.chunks, { type: state.fmt === 'video' ? 'video/webm' : 'audio/webm' }) : null;
         state.recOn = false;
-        camBox.classList.remove('rec');
+        camBox.classList.remove('rec'); pip.classList.remove('rec');
         recBtn.classList.remove('on'); recBtn.innerHTML = '● ' + T('Record again', 'Rekam ulang');
         if (cb) cb(blob);
       };
@@ -1118,21 +1207,21 @@
     var submit = el('button', 'rsim-btn', T('Submit answer →', 'Kirim jawaban →'));
     var skip = el('button', 'rsim-btn ghost', T('Skip question', 'Lewati pertanyaan'));
     var end = el('button', 'rsim-btn ghost', T('End session', 'Akhiri sesi'));
-    row.appendChild(submit); row.appendChild(skip); row.appendChild(end);
+    row.appendChild(submit); row.appendChild(skip); row.appendChild(replay); row.appendChild(end);
     card.appendChild(row);
     card.appendChild(el('p', 'rsim-note', T('Answers are analysed on your device with a transparent rubric — structure, evidence, delivery. Recordings never leave this browser.', 'Jawaban dianalisis di perangkatmu dengan rubrik transparan — struktur, bukti, penyampaian. Rekaman tidak pernah meninggalkan peramban ini.')));
     w.appendChild(card);
 
-    state.t0 = Date.now();
     if (state.timerId) clearInterval(state.timerId);
     state.timerId = setInterval(function () {
+      if (!state.t0) { timer.textContent = '0:00'; return; }
       var sSec = Math.floor((Date.now() - state.t0) / 1000);
       timer.textContent = Math.floor(sSec / 60) + ':' + String(sSec % 60).padStart(2, '0');
       if (sSec === 120) timer.style.color = '#FF9A7B';
     }, 400);
 
     function finishAnswer(skipped) {
-      var secs = Math.round((Date.now() - state.t0) / 1000);
+      var secs = state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0;
       if (state.timerId) { clearInterval(state.timerId); state.timerId = null; }
       function proceed(blob) {
         var text = ta.value.trim();

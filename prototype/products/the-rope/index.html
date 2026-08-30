@@ -1460,7 +1460,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-inner">
           <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
           <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-          <p class="tab-sub" data-en="9 assignments · 900 total points · Submit any time · Feedback within 3 business days" data-id="9 tugas · 900 total poin · Kumpul kapan saja · Umpan balik dalam 3 hari kerja">9 assignments · 900 total points · Submit any time · Feedback within 3 business days</p>
+          <p class="tab-sub" data-en="9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric" data-id="9 tugas · Ruang kerja tersimpan otomatis · Kumpul kapan saja · Rubrik tinjauan mandiri terpandu">9 assignments · Autosaving workspace · Submit any time · Guided self-review rubric</p>
           <div class="tb-stats"><span class="tb-stat"><b>9</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>900</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin Tiap">Pts Each</span></span></div>
         </div>
       </div>
@@ -1469,7 +1469,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <button class="filter-pill" data-filter="available" data-en="Available" data-id="Tersedia">Available</button>
       <button class="filter-pill" data-filter="locked" data-en="Locked" data-id="Terkunci">Locked</button>
       <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
-      <button class="filter-pill" data-filter="graded" data-en="Graded" data-id="Dinilai">Graded</button>
+      <button class="filter-pill" data-filter="graded" data-en="Self-reviewed" data-id="Ditinjau mandiri">Self-reviewed</button>
       </div>
     <div class="assignment-card reveal" data-module="1" data-status="available">
       <div class="assignment-header">
@@ -1627,7 +1627,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">900</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
-        <p class="ov-note" data-en="Complete Module 1 and submit your first assignment to start earning your grade." data-id="Selesaikan Modul 1 dan kirimkan tugas pertamamu untuk mulai mendapatkan nilaimu.">Complete Module 1 and submit your first assignment to start earning your grade.</p>
+        <p class="ov-note" data-en="Complete Module 1, submit your first assignment, and run its self-review to see progress here." data-id="Selesaikan Modul 1, kirim tugas pertamamu, dan jalankan tinjauan mandirinya untuk melihat kemajuan di sini.">Complete Module 1, submit your first assignment, and run its self-review to see progress here.</p>
       </div>
       <div class="grade-table reveal">
         <div class="grade-hrow">
@@ -2171,6 +2171,7 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
 <script src="../../data/lms/the-rope.js"></script>
 <script src="../../js/lms-player.js"></script>
 <script src="js/rope-sim.js"></script>
+<script src="js/rope-assign.js"></script>
 <script>
 /* honest, computed simulator stats on the home card */
 (function () {

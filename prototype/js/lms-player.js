@@ -201,10 +201,13 @@
     (l.sections || []).forEach(function (s, i) {
       var acc = el('div', 'lms-acc' + (i === 0 ? ' open' : ''));
       var btn = el('button');
-      btn.appendChild(bi('span', null, s.h));
+      var head = el('span', 'acc-h');
+      if (s.icon) head.appendChild(el('span', 'acc-ico', iconSvg(s.icon, 15)));
+      head.appendChild(bi('span', null, s.h));
+      btn.appendChild(head);
       btn.appendChild(el('span', 'pm', '+'));
       var body = el('div', 'acc-body');
-      body.appendChild(bi('p', null, s.body));
+      body.appendChild(bi('p', null, glossify(s.body, l.glossary)));
       btn.addEventListener('click', function () { acc.classList.toggle('open'); });
       acc.appendChild(btn); acc.appendChild(body);
       host.appendChild(acc);
@@ -323,11 +326,90 @@
      All of these render only when the registry declares them, so every
      product stays backward compatible. */
 
+  /* small icon set for scenario cards and section headers */
+  var ICONS = {
+    eye: '<circle cx="12" cy="12" r="3.2"/><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/>',
+    book: '<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>',
+    target: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
+    chat: '<path d="M20 12a8 8 0 1 0-3.1 6.3L21 20l-1.3-3.6A7.9 7.9 0 0 0 20 12Z"/>',
+    flag: '<path d="M5 21V4"/><path d="M5 5h11l-2.2 3.2L16 11.5H5"/>',
+    gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/>'
+  };
+  function iconSvg(name, size) {
+    return '<svg viewBox="0 0 24 24" width="' + (size || 18) + '" height="' + (size || 18) + '" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[name] || ICONS.book) + '</svg>';
+  }
+
+  /* inline glossary: wrap the first occurrence of each term in a body pair
+     with a tooltip span, per language, so the host language switch keeps
+     working through the data-en/data-id swap. */
+  function glossify(pair, glossary) {
+    if (!glossary || !glossary.length || !pair) return pair;
+    var out = { en: pair.en, id: pair.id };
+    ['en', 'id'].forEach(function (lg) {
+      glossary.forEach(function (g) {
+        var term = g.term[lg], def = g.def[lg];
+        if (!term || !def || !out[lg]) return;
+        var re = new RegExp('(^|[^\\w>])(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(?![\\w<])', 'i');
+        if (out[lg].indexOf('lms-term') !== -1 && out[lg].toLowerCase().indexOf(term.toLowerCase()) === -1) return;
+        out[lg] = out[lg].replace(re, function (m, pre, hit) {
+          return pre + '<span class="lms-term" tabindex="0" data-tip="' + def.replace(/"/g, '&quot;') + '">' + hit + '</span>';
+        });
+      });
+    });
+    return out;
+  }
+
+  /* scenario: {icon, title, img, name, body:[pair,...]} — an "In Focus"
+     narrative card in the benchmark style: icon divider, image, story. */
+  function renderScenario(l, host) {
+    var sc = l.scenario;
+    if (!sc) return;
+    var wrap = el('div', 'lms-scenario');
+    var div = el('div', 'lms-secdiv');
+    div.appendChild(el('span', 'sd-line'));
+    div.appendChild(el('span', 'sd-ico', iconSvg(sc.icon || 'eye', 20)));
+    div.appendChild(el('span', 'sd-line'));
+    wrap.appendChild(div);
+    if (sc.title) wrap.appendChild(bi('h3', 'sc-title', sc.title));
+    var row = el('div', 'sc-row');
+    if (sc.img) {
+      var im = document.createElement('img');
+      im.src = sc.img; im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
+      im.className = 'sc-img';
+      row.appendChild(im);
+    }
+    var txt = el('div', 'sc-body');
+    (sc.body || []).forEach(function (p) { txt.appendChild(bi('p', null, glossify(p, l.glossary))); });
+    row.appendChild(txt);
+    wrap.appendChild(row);
+    host.appendChild(wrap);
+  }
+
+  /* mistakes: {items:[{h,fix}]} — common mistakes and how to avoid them */
+  function renderMistakes(l, host) {
+    if (!l.mistakes || !l.mistakes.items) return;
+    var box = el('div', 'lms-mistakes');
+    box.appendChild(bi('h3', null, l.mistakes.title || { en: 'Common mistakes — and the fix', id: 'Kesalahan umum — dan perbaikannya' }));
+    l.mistakes.items.forEach(function (it) {
+      var r = el('div', 'mk-row');
+      var m = el('div', 'mk-m');
+      m.appendChild(el('span', 'mk-x', '✗'));
+      m.appendChild(bi('span', null, it.h));
+      var f = el('div', 'mk-f');
+      f.appendChild(el('span', 'mk-a', '→'));
+      f.appendChild(bi('span', null, it.fix));
+      r.appendChild(m); r.appendChild(f);
+      box.appendChild(r);
+    });
+    host.appendChild(box);
+  }
+
   /* diagram: {type:'flow'|'quad'|'ring'|'timeline'|'ladder', title, items:[{h,sub}], note} */
   function renderDiagram(l, host) {
     var d = l.diagram;
     if (!d || !d.items || !d.items.length) return;
     var box = el('div', 'lms-diagram t-' + (d.type || 'flow'));
+    if (d.exhibit) box.appendChild(bi('p', 'ld-exhibit', d.exhibit));
     if (d.title) box.appendChild(bi('h3', 'ld-title', d.title));
     var stage = el('div', 'ld-stage');
     d.items.forEach(function (it, i) {
@@ -340,6 +422,20 @@
     });
     box.appendChild(stage);
     if (d.note) box.appendChild(bi('p', 'ld-note', d.note));
+    if (d.longdesc) {
+      var acc = el('div', 'ld-long');
+      var btn = bi('button', 'ld-long-btn', { en: 'Long description', id: 'Deskripsi panjang' });
+      btn.innerHTML += ' <span aria-hidden="true">▾</span>';
+      var bodyEl = el('div', 'ld-long-body');
+      bodyEl.appendChild(bi('p', null, d.longdesc));
+      btn.setAttribute('aria-expanded', 'false');
+      btn.addEventListener('click', function () {
+        var open = acc.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      acc.appendChild(btn); acc.appendChild(bodyEl);
+      box.appendChild(acc);
+    }
     host.appendChild(box);
   }
 
@@ -496,7 +592,7 @@
     meta.appendChild(bi('span', 'lms-chip', l.dur));
     meta.appendChild(bi('span', 'lms-chip', isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
     innerEl.appendChild(meta);
-    innerEl.appendChild(bi('p', 'lms-overview', l.overview));
+    innerEl.appendChild(bi('p', 'lms-overview', glossify(l.overview, l.glossary)));
 
     var obj = el('div', 'lms-panel');
     obj.appendChild(bi('h3', null, { en: 'What you will learn', id: 'Yang akan kamu pelajari' }));
@@ -505,6 +601,7 @@
     obj.appendChild(ul);
     innerEl.appendChild(obj);
 
+    renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
@@ -512,6 +609,7 @@
     if (l.kind === 'slides') renderDeck(l, innerEl);
     if (l.kind === 'visual') renderVisual(l, innerEl);
     renderCompare(l, innerEl);
+    renderMistakes(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     renderCheck(l, innerEl);
