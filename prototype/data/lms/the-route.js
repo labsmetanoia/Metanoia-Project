@@ -221,6 +221,10 @@ window.MT_LMS['the-route'] = {
        "en": "Open the Route Planner →",
        "id": "Buka Route Planner →"
       }
+     },
+     "quote": {
+      "en": "Companies rent your time. Careers are built from what compounds in you meanwhile.",
+      "id": "Perusahaan menyewa waktumu. Karier dibangun dari yang menggandakan diri dalam dirimu sementara itu."
      }
     },
     {
@@ -277,7 +281,9 @@ window.MT_LMS['the-route'] = {
        "body": {
         "en": "Take your 3-year outcome (Map 2.3) and extend it to a 5-year destination role family — “senior analyst owning a domain”, “product manager of a small squad”, “team lead in operations”. Then ask: what role usually precedes that one? And what precedes that? Two or three way-stations emerge. For each transition, list the <b>asset gate</b>: what the next role's hiring manager must be able to verify — skills at what depth, results of what size, references from whom. Now the architecture reads backwards into the present: this year's job is to satisfy the first gate. Vague years disappear from the design; every quarter has a because.",
         "id": "Ambil hasil 3 tahunmu (Map 2.3) dan panjangkan ke keluarga peran tujuan 5 tahun — “analis senior yang memiliki satu ranah”, “manajer produk skuad kecil”, “pemimpin tim operasi”. Lalu tanyakan: peran apa yang biasanya mendahului itu? Dan apa yang mendahuluinya? Dua-tiga persinggahan muncul. Untuk tiap transisi, daftar <b>gerbang aset</b>: apa yang harus bisa diverifikasi manajer perekrut peran berikut — keterampilan sedalam apa, hasil sebesar apa, referensi dari siapa. Kini arsitektur terbaca mundur ke masa kini: tugas tahun ini adalah memenuhi gerbang pertama. Tahun-tahun samar hilang dari rancangan; tiap kuartal punya alasan."
-       }
+       },
+       "img": "../../assets/bg/journey-bg.jpg",
+       "imgPos": "center 45%"
       },
       {
        "icon": "gear",
@@ -676,7 +682,9 @@ window.MT_LMS['the-route'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/journey-start.jpg",
+   "heroPos": "center 45%"
   },
   {
    "num": 2,
@@ -798,7 +806,11 @@ window.MT_LMS['the-route'] = {
         "id": "Keduanya penting; gravitasi menentukan harga. Penyelarasan melayani misi dan papan skor sekaligus — sering dengan menerjemahkan satu ke bahasa lainnya."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Working hard on unmeasured things is a donation.",
+      "id": "Bekerja keras pada hal yang tak diukur adalah donasi."
+     }
     },
     {
      "n": "2.2",
@@ -1036,7 +1048,23 @@ window.MT_LMS['the-route'] = {
         "id": "Poin musiman itu mungkin emas sungguhan; “ceroboh” adalah cerita yang tak perlu kamu tanda tangani. Ketenangan plus tindak lanjut memenangkan ruangan lebih dari bantahan instan mana pun."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:feedback",
+      "title": {
+       "en": "Drill the feedback conversation",
+       "id": "Latih percakapan umpan balik"
+      },
+      "body": {
+       "en": "A peer review just called you 'hard to collaborate with'. Three decision points in the scenario coach — each choice answered against this lesson's frameworks.",
+       "id": "Tinjauan rekan baru saja menyebutmu 'sulit diajak kolaborasi'. Tiga titik keputusan di pelatih skenario — tiap pilihan dijawab terhadap kerangka pelajaran ini."
+      },
+      "cta": {
+       "en": "Run the scenario →",
+       "id": "Jalankan skenarionya →"
+      }
+     }
     },
     {
      "n": "2.4",
@@ -1154,7 +1182,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-execution.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 3,
@@ -1276,7 +1306,39 @@ window.MT_LMS['the-route'] = {
         "id": "Kanalnya melawan gaya keputusan. Kemasan yang menyesuaikan manual adalah pelayanan; substansinya tetap milikmu."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Managing up is not flattery; it is removing friction between your work and its sponsor.",
+      "id": "Managing up bukan menjilat; ia menghapus gesekan antara kerjamu dan sponsornya."
+     },
+     "listen": [
+      {
+       "label": {
+        "en": "A one-on-one agenda, sent ahead — hear the shape",
+        "id": "Agenda one-on-one, dikirim di muka — dengarkan bentuknya"
+       },
+       "text": {
+        "en": "One: decision needed on vendor A or B, context attached. Two: heads up on a migration risk. Three: feedback request on yesterday's client call. Four: development — I'd like the next presentation slot.",
+        "id": "Satu: butuh keputusan vendor A atau B, konteks terlampir. Dua: peringatan risiko migrasi. Tiga: minta umpan balik panggilan klien kemarin. Empat: pengembangan — saya ingin slot presentasi berikutnya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:up",
+      "title": {
+       "en": "Practice the difficult week",
+       "id": "Latih pekan yang sulit"
+      },
+      "body": {
+       "en": "A slipping deadline, a distracted manager, a capacity collision — the managing-up drill walks all three moments with feedback per move.",
+       "id": "Tenggat mundur, manajer terdistraksi, tabrakan kapasitas — latihan managing-up melewati ketiga momen dengan umpan balik per langkah."
+      },
+      "cta": {
+       "en": "Run the scenario →",
+       "id": "Jalankan skenarionya →"
+      }
+     }
     },
     {
      "n": "3.2",
@@ -1608,7 +1670,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/mentoring-session.jpg",
+   "heroPos": "80% 40%"
   },
   {
    "num": 4,
@@ -1730,7 +1794,11 @@ window.MT_LMS['the-route'] = {
         "id": "Asimetri itu fisika sistemnya: satu ledakan publik menghargai ulang satu kuartal penunaian. Ketenangan di momen tersampel adalah asuransi merek."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Your reputation is decided in rooms you are not in — unless you supply the samples.",
+      "id": "Reputasimu diputuskan di ruangan yang tak kamu hadiri — kecuali kamu memasok sampelnya."
+     }
     },
     {
      "n": "4.2",
@@ -2062,7 +2130,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/fg-stage-ascent.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 5,
@@ -2133,7 +2203,9 @@ window.MT_LMS['the-route'] = {
        "body": {
         "en": "A typical cycle: your manager <b>nominates</b> (or does not — the first gate); an <b>evidence file</b> is assembled — achievements, scope, next-level behaviours, often peer feedback; a <b>calibration committee</b> compares candidates across teams, where your manager has minutes to make your case against colleagues making theirs; <b>budget and headcount</b> constraints cut the approved list; announcements follow months later. Grasp what this means: most people in the deciding room have never worked with you. They know the file and the five sentences your advocate manages to say. Optimising the work without optimising the file is competing with one hand.",
         "id": "Siklus tipikal: manajermu <b>menominasikan</b> (atau tidak — gerbang pertama); <b>berkas bukti</b> disusun — pencapaian, lingkup, perilaku level-berikut, sering umpan balik rekan; <b>komite kalibrasi</b> membandingkan kandidat lintas tim, tempat manajermu punya hitungan menit untuk membela kasusmu melawan kolega yang membela kasus mereka; batasan <b>anggaran dan headcount</b> memangkas daftar yang disetujui; pengumuman menyusul berbulan-bulan kemudian. Pahami artinya: kebanyakan orang di ruang keputusan tak pernah bekerja denganmu. Mereka mengenal berkas dan lima kalimat yang sempat diucapkan pembelamu. Mengoptimalkan kerja tanpa mengoptimalkan berkas adalah bertanding dengan satu tangan."
-       }
+       },
+       "img": "../../assets/m/05-summit.jpg",
+       "imgPos": "center 40%"
       },
       {
        "icon": "target",
@@ -2184,7 +2256,11 @@ window.MT_LMS['the-route'] = {
         "id": "Berkas itulah kandidatnya, dan berkas ditutup satu kuartal atau lebih sebelum pengumuman. Bukti yang tiba setelah penutupan menunggu satu siklus penuh."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "In the calibration room, the file is the candidate.",
+      "id": "Di ruang kalibrasi, berkas itulah kandidatnya."
+     }
     },
     {
      "n": "5.2",
@@ -2315,7 +2391,23 @@ window.MT_LMS['the-route'] = {
         "id": "Kisah pertumbuhan adalah bukti persis meta-keterampilan yang dituntut level berikut — dan ia mengimunisasi berkas dari diskon kesempurnaan-kurasi."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "promo",
+      "title": {
+       "en": "Build the case from your win log",
+       "id": "Bangun kasus dari catatan kemenanganmu"
+      },
+      "body": {
+       "en": "The promotion case builder assembles a one-page file from your logged wins and three claims, then checks it against this module's evidence standards.",
+       "id": "Perakit kasus promosi menyusun berkas satu halaman dari kemenangan tercatatmu dan tiga klaim, lalu memeriksanya terhadap standar bukti modul ini."
+      },
+      "cta": {
+       "en": "Open the case builder →",
+       "id": "Buka perakit kasus →"
+      }
+     }
     },
     {
      "n": "5.3",
@@ -2598,7 +2690,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/m/05-summit.jpg",
+   "heroPos": "center 35%"
   },
   {
    "num": 6,
@@ -2720,7 +2814,11 @@ window.MT_LMS['the-route'] = {
         "id": "Bimbingan bukan lehernya; pembelaan iya. Celah tertutup lewat penunaian terlihat di dekat pengambil keputusan, bukan lewat nasihat tambahan."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "A mentor talks with you. A sponsor talks about you.",
+      "id": "Mentor berbicara denganmu. Sponsor berbicara tentangmu."
+     }
     },
     {
      "n": "6.2",
@@ -2934,7 +3032,23 @@ window.MT_LMS['the-route'] = {
         "id": "Sponsor memaafkan kegagalan terselamatkan dan tak pernah memaafkan penyergapan. Peringatan dini dengan rencana adalah cara taruhan dihormati bahkan saat goyah."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:sponsor",
+      "title": {
+       "en": "Earn the sponsor, move by move",
+       "id": "Peroleh sponsor, langkah demi langkah"
+      },
+      "body": {
+       "en": "A director knows your name and a stretch project is staffing next month. The drill plays the three moments where sponsorship is won or quietly lost.",
+       "id": "Seorang direktur tahu namamu dan proyek menantang akan diisi bulan depan. Latihan ini memainkan tiga momen tempat sponsorship dimenangkan atau diam-diam hilang."
+      },
+      "cta": {
+       "en": "Run the scenario →",
+       "id": "Jalankan skenarionya →"
+      }
+     }
     },
     {
      "n": "6.4",
@@ -3052,7 +3166,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/rope-team.jpg",
+   "heroPos": "center 35%"
   },
   {
    "num": 7,
@@ -3123,7 +3239,9 @@ window.MT_LMS['the-route'] = {
        "body": {
         "en": "Without sending one application: read live vacancies for your target next role and check which requirements you now meet (the 1.4 gap analysis, repriced by the market); note which of your skills appear in postings' first lines (those are the priced ones); watch what peers with similar profiles move into; and take the occasional recruiter call as free market data even when uninterested — “what would make a candidate compelling for this?” is a question they answer well. Log the reading quarterly in the Route Planner. The point is calibration: people who never look systematically underprice themselves, then anchor to their own underpricing in negotiations.",
         "id": "Tanpa mengirim satu lamaran pun: baca lowongan aktif untuk peran target berikutmu dan periksa persyaratan mana yang kini kamu penuhi (analisis celah 1.4, dihargai ulang oleh pasar); catat keterampilanmu mana yang muncul di baris-baris pertama iklan (itulah yang dihargai); amati rekan berprofil serupa pindah ke mana; dan terima sesekali telepon perekrut sebagai data pasar gratis bahkan saat tak berminat — “apa yang membuat kandidat menarik untuk peran ini?” adalah pertanyaan yang mereka jawab dengan baik. Catat pembacaannya kuartalan di Route Planner. Intinya kalibrasi: orang yang tak pernah melihat secara sistematis menghargai dirinya terlalu murah, lalu berjangkar pada harga murahnya sendiri dalam negosiasi."
-       }
+       },
+       "img": "../../assets/m/06-horizon.jpg",
+       "imgPos": "center 45%"
       },
       {
        "icon": "target",
@@ -3174,7 +3292,11 @@ window.MT_LMS['the-route'] = {
         "id": "Tawarannya mungkin benar — tetapi keputusan di puncak frustrasi, atas pujian, tanpa arsitektur, adalah lempar koin berbaju gaji."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Move when your assets peak — not when a bad week peaks.",
+      "id": "Pindahlah saat asetmu memuncak — bukan saat minggu buruk memuncak."
+     }
     },
     {
      "n": "7.2",
@@ -3512,7 +3634,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/m/06-horizon.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 8,
@@ -3634,7 +3758,76 @@ window.MT_LMS['the-route'] = {
         "id": "Tumpukan plus kurva, bukan pokok: celah efektif B hari ini kecil dan pertumbuhannya melewati A permanen — dengan asumsi kurva terverifikasi, itulah tugas interogasi."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "You cannot negotiate a number you do not understand.",
+      "id": "Kamu tak bisa menegosiasikan angka yang tak kamu pahami."
+     },
+     "diagram": {
+      "type": "bars",
+      "exhibit": {
+       "en": "Exhibit 2: The curve beats the number — the lesson's own worked example, year by year.",
+       "id": "Peraga 2: Kurva mengalahkan angka — contoh hitung pelajaran ini, tahun demi tahun."
+      },
+      "title": {
+       "en": "Rp 8m at 10% growth vs Rp 9.2m at 4% (illustrative arithmetic)",
+       "id": "Rp 8 jt tumbuh 10% vs Rp 9,2 jt tumbuh 4% (aritmetika ilustratif)"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Year 0 — offer A (9.2m, 4%)",
+         "id": "Tahun 0 — tawaran A (9,2 jt, 4%)"
+        },
+        "v": 79,
+        "label": "9.2"
+       },
+       {
+        "h": {
+         "en": "Year 0 — offer B (8.0m, 10%)",
+         "id": "Tahun 0 — tawaran B (8,0 jt, 10%)"
+        },
+        "v": 68,
+        "label": "8.0"
+       },
+       {
+        "h": {
+         "en": "Year 2 — offer A",
+         "id": "Tahun 2 — tawaran A"
+        },
+        "v": 85,
+        "label": "9.95"
+       },
+       {
+        "h": {
+         "en": "Year 2 — offer B",
+         "id": "Tahun 2 — tawaran B"
+        },
+        "v": 83,
+        "label": "9.68"
+       },
+       {
+        "h": {
+         "en": "Year 4 — offer A",
+         "id": "Tahun 4 — tawaran A"
+        },
+        "v": 92,
+        "label": "10.76"
+       },
+       {
+        "h": {
+         "en": "Year 4 — offer B",
+         "id": "Tahun 4 — tawaran B"
+        },
+        "v": 100,
+        "label": "11.71"
+       }
+      ],
+      "note": {
+       "en": "Bars are proportional to the computed salary in Rp millions. By year four the faster curve has passed the higher entry number — and the gap widens permanently from there.",
+       "id": "Batang proporsional terhadap gaji terhitung dalam juta rupiah. Pada tahun keempat kurva yang lebih cepat telah melewati angka awal yang lebih tinggi — dan celahnya melebar permanen sejak itu."
+      }
+     }
     },
     {
      "n": "8.2",
@@ -3741,7 +3934,23 @@ window.MT_LMS['the-route'] = {
         "id": "Investor tanpa dana menjual di dasar saat motor rusak; profesional tanpa dana menerima peran buruk karena takut. Dana ini memperbaiki kedua mode gagal sekaligus."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "money",
+      "title": {
+       "en": "Run your own numbers",
+       "id": "Hitung angkamu sendiri"
+      },
+      "body": {
+       "en": "Runway and compound-growth arithmetic on your income, expenses and horizon — formulas on screen, assumptions yours, computed on this device.",
+       "id": "Aritmetika landasan pacu dan bunga majemuk pada pendapatan, pengeluaran, dan horizonmu — rumus di layar, asumsi milikmu, dihitung di perangkat ini."
+      },
+      "cta": {
+       "en": "Open the money instruments →",
+       "id": "Buka instrumen uang →"
+      }
+     }
     },
     {
      "n": "8.3",
@@ -3957,7 +4166,9 @@ window.MT_LMS['the-route'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/mature-professional-feature.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 9,
@@ -4079,7 +4290,39 @@ window.MT_LMS['the-route'] = {
         "id": "Interupsi adalah ruangan memilih ketinggiannya — kehadiran berarti versi pendek sudah siap dan mendarat tanpa dendam atau pengisi."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "People follow evidence before they follow titles.",
+      "id": "Orang mengikuti bukti sebelum mengikuti gelar."
+     },
+     "listen": [
+      {
+       "label": {
+        "en": "A stop-shaped close, spoken with the silence after",
+        "id": "Penutup berbentuk berhenti, diucapkan dengan keheningan sesudahnya"
+       },
+       "text": {
+        "en": "Recommend approval of the pilot: three quarters of the decline is energy cost, and the retrofit addresses it directly. Main risk is capex payback, which we verify first. That is the recommendation.",
+        "id": "Merekomendasikan persetujuan pilot: tiga perempat penurunan adalah biaya energi, dan retrofit menanganinya langsung. Risiko utamanya balik modal capex, yang kita verifikasi dulu. Itulah rekomendasinya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:presence",
+      "title": {
+       "en": "Eight minutes with the leadership call",
+       "id": "Delapan menit di rapat pimpinan"
+      },
+      "body": {
+       "en": "Open under pressure, absorb a VP's interruption, and route the credit — the executive-presence drill scores all three choices.",
+       "id": "Membuka di bawah tekanan, menyerap selaan VP, dan mengarahkan kredit — latihan executive presence menilai ketiga pilihan."
+      },
+      "cta": {
+       "en": "Run the scenario →",
+       "id": "Jalankan skenarionya →"
+      }
+     }
     },
     {
      "n": "9.2",
@@ -4427,7 +4670,9 @@ window.MT_LMS['the-route'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/fg-stage-horizon.jpg",
+   "heroPos": "center 40%"
   }
  ]
 };

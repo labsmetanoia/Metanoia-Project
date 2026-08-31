@@ -97,7 +97,9 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "A popular graduate programme receives thousands of applications for dozens of seats. Reading every application deeply is impossible, so employers build a machine that discards cheaply at the top — software and six-second scans — and spends expensively only at the bottom, where interviews cost senior staff hours. Nothing personal operates in the first three gates. The candidates who survive are not always the best; they are the ones whose paper signals fit the machine. That is unfair, and it is also the game board. The Pack trains you gate by gate.",
         "id": "Program lulusan populer menerima ribuan lamaran untuk puluhan kursi. Membaca tiap lamaran secara mendalam mustahil, maka pemberi kerja membangun mesin yang membuang dengan murah di atas — perangkat lunak dan pindaian enam detik — dan menghabiskan mahal hanya di bawah, tempat wawancara memakan jam staf senior. Tak ada yang personal di tiga gerbang pertama. Kandidat yang lolos tak selalu yang terbaik; mereka yang sinyal kertasnya cocok dengan mesin. Itu tidak adil, dan itu juga papan permainannya. The Pack melatihmu gerbang demi gerbang."
-       }
+       },
+       "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "imgPos": "center 40%"
       },
       {
        "icon": "gear",
@@ -243,6 +245,10 @@ window.MT_LMS['the-pack'] = {
        "en": "Open the tracker →",
        "id": "Buka pelacak →"
       }
+     },
+     "quote": {
+      "en": "Every stage exists to say no cheaply. Your job is to make no difficult.",
+      "id": "Setiap tahap ada untuk berkata tidak dengan murah. Tugasmu membuat tidak menjadi sulit."
      }
     },
     {
@@ -582,7 +588,9 @@ window.MT_LMS['the-pack'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/pack.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 2,
@@ -728,7 +736,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Ia menambah skala, konteks nyata, dan konsekuensi yang bisa diperiksa — bukti, bukan kata sifat."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Recruiters buy evidence, not adjectives.",
+      "id": "Perekrut membeli bukti, bukan kata sifat."
+     }
     },
     {
      "n": "2.2",
@@ -869,7 +881,23 @@ window.MT_LMS['the-pack'] = {
         "id": "Ia memuat jabatan, level, keterampilan, dan lokasi yang dicari sebagai string harfiah — headline adalah entri indeks pencarian, bukan slogan."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "linkedin",
+      "title": {
+       "en": "Audit your profile now",
+       "id": "Audit profilmu sekarang"
+      },
+      "body": {
+       "en": "Paste your headline, About and bullets into the LinkedIn optimiser — it applies this lesson's rules on your device and hands back rewrite scaffolds from your own words.",
+       "id": "Tempel headline, About, dan butir pengalamanmu ke pengoptimal LinkedIn — ia menerapkan aturan pelajaran ini di perangkatmu dan mengembalikan kerangka tulis ulang dari kata-katamu sendiri."
+      },
+      "cta": {
+       "en": "Open the LinkedIn optimiser →",
+       "id": "Buka pengoptimal LinkedIn →"
+      }
+     }
     },
     {
      "n": "2.3",
@@ -1002,19 +1030,19 @@ window.MT_LMS['the-pack'] = {
       }
      ],
      "tool": {
-      "id": "gym",
-      "mode": "ats",
+      "id": "studio",
+      "mode": "cv",
       "title": {
-       "en": "Test the tailoring",
-       "id": "Uji penyesuaiannya"
+       "en": "Build the document in the studio",
+       "id": "Bangun dokumennya di studio"
       },
       "body": {
-       "en": "Paste your CV and a real JD into the ATS check — it computes keyword coverage and section signals on your device, before any employer's machine does.",
-       "id": "Tempel CV-mu dan JD nyata ke pemeriksa ATS — ia menghitung cakupan kata kunci dan sinyal bagian di perangkatmu, sebelum mesin pemberi kerja mana pun melakukannya."
+       "en": "The CV studio assembles an ATS-clean draft section by section, lints it against this lesson's rules, and exports plain text you can drop into any template.",
+       "id": "Studio CV merakit draf ramah ATS bagian demi bagian, memeriksanya terhadap aturan pelajaran ini, dan mengekspor teks polos yang bisa kamu masukkan ke templat mana pun."
       },
       "cta": {
-       "en": "Run the ATS check →",
-       "id": "Jalankan pemeriksa ATS →"
+       "en": "Open the CV studio →",
+       "id": "Buka studio CV →"
       }
      }
     },
@@ -1147,9 +1175,39 @@ window.MT_LMS['the-pack'] = {
         "id": "Pujian generik adalah bukti produksi massal; fakta spesifik membuktikan riset dan niat tulus — satu-satunya hal yang ingin dibuktikan P3."
        }
       }
-     ]
+     ],
+     "listen": [
+      {
+       "label": {
+        "en": "A strong opening paragraph, read aloud",
+        "id": "Paragraf pembuka yang kuat, dibacakan"
+       },
+       "text": {
+        "en": "I'm applying for the junior analyst role. Last semester I analysed three years of sales data for a forty store retailer as my thesis project. My stock allocation findings are now part of their quarterly planning, and that is the kind of work I want to do for your merchant analytics team.",
+        "id": "Saya melamar peran analis junior. Semester lalu saya menganalisis tiga tahun data penjualan peritel empat puluh toko sebagai proyek skripsi. Temuan alokasi stok saya kini bagian dari perencanaan kuartalan mereka, dan kerja semacam itulah yang ingin saya lakukan untuk tim analitik merchant Anda."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Draft the letter from your own evidence",
+       "id": "Susun suratnya dari buktimu sendiri"
+      },
+      "body": {
+       "en": "Answer five questions and the developer assembles them into the four-paragraph structure, then checks the draft against the JD you paste — mirroring included.",
+       "id": "Jawab lima pertanyaan dan pengembang merakitnya ke struktur empat paragraf, lalu memeriksa draf terhadap JD yang kamu tempel — termasuk pencerminan istilah."
+      },
+      "cta": {
+       "en": "Open the letter developer →",
+       "id": "Buka pengembang surat →"
+      }
+     }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+   "heroPos": "center 35%"
   },
   {
    "num": 3,
@@ -1366,6 +1424,10 @@ window.MT_LMS['the-pack'] = {
        "en": "Open the drills →",
        "id": "Buka latihan →"
       }
+     },
+     "quote": {
+      "en": "The most trainable stage of the funnel is the one candidates fear most.",
+      "id": "Tahap corong yang paling bisa dilatih justru yang paling ditakuti kandidat."
      }
     },
     {
@@ -1894,7 +1956,9 @@ window.MT_LMS['the-pack'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 4,
@@ -1965,7 +2029,9 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "Six to ten candidates, one case — a business problem, a ranking exercise, a policy debate — twenty to forty minutes, two or three silent assessors with clipboards. In an FGD (focus/free group discussion) no roles are assigned; in an LGD (leaderless group discussion) the absence of a leader is itself the test: assessors watch who creates order without claiming a crown. The fiction candidates believe: that the group must reach the right answer. The reality: groups that reach a mediocre answer through visibly good process outscore groups that stumble into brilliance through chaos.",
         "id": "Enam sampai sepuluh kandidat, satu kasus — masalah bisnis, latihan peringkat, debat kebijakan — dua puluh sampai empat puluh menit, dua-tiga asesor diam dengan papan jalan. Dalam FGD (diskusi kelompok terarah/bebas) tak ada peran ditugaskan; dalam LGD (diskusi kelompok tanpa pemimpin) ketiadaan pemimpin itulah ujiannya: asesor mengamati siapa yang menciptakan keteraturan tanpa merebut mahkota. Fiksi yang dipercaya kandidat: kelompok harus mencapai jawaban benar. Kenyataannya: kelompok yang mencapai jawaban biasa lewat proses yang tampak baik mengungguli kelompok yang tersandung ke kejeniusan lewat kekacauan."
-       }
+       },
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "center 35%"
       },
       {
        "icon": "book",
@@ -2073,7 +2139,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Satu langkah menghasilkan tiga turus — sintesis, ketenangan, inklusi — dan tampak menyelamatkan proses kelompok. Asesor selalu mencatatnya."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "The topic is a prop. The behaviours are the exam.",
+      "id": "Topiknya hanyalah properti panggung. Perilakumu itulah ujiannya."
+     }
     },
     {
      "n": "4.2",
@@ -2204,7 +2274,23 @@ window.MT_LMS['the-pack'] = {
         "id": "Kerangka yang bersaing terbaca sebagai ego; dukungan terlihat plus perbaikan terbaca sebagai kolaborasi dan tetap terhitung langkah struktur."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "fgd",
+      "title": {
+       "en": "Take a seat in the practice round",
+       "id": "Ambil kursi di ronde latihan"
+      },
+      "body": {
+       "en": "Six scripted rounds against three authored personas — a dominator, a silenced data-holder, a tangent-taker. Every choice is scored against the assessor functions from this module.",
+       "id": "Enam ronde terskrip melawan tiga persona — dominator, pemegang data yang tenggelam, pelantur. Tiap pilihan dinilai terhadap fungsi asesor dari modul ini."
+      },
+      "cta": {
+       "en": "Enter the FGD room →",
+       "id": "Masuk ruang FGD →"
+      }
+     }
     },
     {
      "n": "4.3",
@@ -2395,9 +2481,27 @@ window.MT_LMS['the-pack'] = {
         "id": "Momen ide diserang adalah uji ketenangan: langsung melipat berarti tanpa tulang punggung; membela selamanya berarti tanpa telinga. Satu pembelaan berdasar, lalu fleksibilitas, menunjukkan keduanya."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "fgd",
+      "title": {
+       "en": "Run the mock session",
+       "id": "Jalankan sesi simulasi"
+      },
+      "body": {
+       "en": "Warm up in the scripted round, note which assessor functions you missed, then stage the live mock this lesson describes with friends — and record it.",
+       "id": "Pemanasan di ronde terskrip, catat fungsi asesor yang terlewat, lalu gelar simulasi langsung yang dijelaskan pelajaran ini bersama teman — dan rekam."
+      },
+      "cta": {
+       "en": "Warm up in the simulator →",
+       "id": "Pemanasan di simulator →"
+      }
+     }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 5,
@@ -2576,7 +2680,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Setiap tahap corong ada untuk mengaproksimasi yang diukur langsung oleh magang. Sang magang melewati aproksimasinya."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "The calendar is the first filter — and it filters the unaware.",
+      "id": "Kalender adalah penyaring pertama — dan ia menyaring yang tak sadar."
+     }
     },
     {
      "n": "5.2",
@@ -2921,7 +3029,9 @@ window.MT_LMS['the-pack'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-graduation.jpg",
+   "heroPos": "center 35%"
   },
   {
    "num": 6,
@@ -3112,7 +3222,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Konten sama, kanal beda, hasil beda mengisolasi variabelnya: parsing mesin. Pelajaran berikutnya membangun versi aman-parse."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Before any human reads your application, a machine has already voted.",
+      "id": "Sebelum manusia mana pun membaca lamaranmu, sebuah mesin sudah memberi suara."
+     }
     },
     {
      "n": "6.2",
@@ -3528,7 +3642,9 @@ window.MT_LMS['the-pack'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+   "heroPos": "center 25%"
   },
   {
    "num": 7,
@@ -3599,7 +3715,9 @@ window.MT_LMS['the-pack'] = {
        "body": {
         "en": "<b>Interviewer-led:</b> the interviewer steers through prepared questions (“how would you structure this? now size this market; now read this exhibit”) — common in large consulting firms' first rounds. <b>Candidate-led:</b> you receive the problem and drive to a recommendation, asking for data as you go — the purest test of the Map 3 chain. <b>Written / group cases:</b> materials to digest and present under time, sometimes in the FGD format Module 4 trained. <b>Market sizing:</b> the estimation set-piece (“how many motorcycles are sold in Indonesia yearly?”) that can appear inside any format or alone. Beyond consulting: banks, tech companies, FMCG programmes and startup roles increasingly borrow case elements for analyst and product hiring.",
         "id": "<b>Dipandu pewawancara:</b> pewawancara mengarahkan lewat pertanyaan siap (“bagaimana kamu menstrukturkan ini? sekarang taksir pasarnya; sekarang baca peraga ini”) — lazim di ronde pertama firma konsultan besar. <b>Dipandu kandidat:</b> kamu menerima masalah dan mengemudi menuju rekomendasi, meminta data sepanjang jalan — ujian termurni rantai Map 3. <b>Kasus tertulis / kelompok:</b> materi untuk dicerna dan dipresentasikan dalam waktu, kadang dalam format FGD yang dilatih Modul 4. <b>Penaksiran pasar:</b> nomor estimasi (“berapa sepeda motor terjual di Indonesia per tahun?”) yang bisa muncul dalam format mana pun atau berdiri sendiri. Di luar konsultansi: bank, perusahaan teknologi, program FMCG, dan peran startup makin meminjam elemen kasus untuk perekrutan analis dan produk."
-       }
+       },
+       "img": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+       "imgPos": "center 25%"
       },
       {
        "icon": "eye",
@@ -3707,7 +3825,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Kesalahan yang tertangkap sendiri dan dikoreksi bersih dinilai sebagai penilaian dan ketenangan; kesalahan tersembunyi menggandakan diri dan muncul kemudian sebagai yang lebih buruk."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "The case tests how you think when you cannot know the answer.",
+      "id": "Kasus menguji caramu berpikir saat jawabannya mustahil kamu ketahui."
+     }
     },
     {
      "n": "7.2",
@@ -4110,7 +4232,9 @@ window.MT_LMS['the-pack'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+   "heroPos": "60% 32%"
   },
   {
    "num": 8,
@@ -4232,7 +4356,11 @@ window.MT_LMS['the-pack'] = {
         "id": "“Mengelola” mengklaim wewenang yang tak kamu pegang — satu pemeriksaan referensi dari diskualifikasi. Versi benar, dibingkai presisi, tetap baris yang kuat."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "AI may help you present your truth at its best — never someone else's.",
+      "id": "AI boleh membantumu menyajikan kebenaranmu pada versi terbaiknya — jangan pernah kebenaran orang lain."
+     }
     },
     {
      "n": "8.2",
@@ -4363,7 +4491,23 @@ window.MT_LMS['the-pack'] = {
         "id": "AI yang menaksir mengisi celah dengan fiksi; AI yang bertanya mengisinya dengan ingatanmu. Pertanyaannya itulah mekanisme pengamannya."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Let the rules do the reading",
+       "id": "Biarkan aturan yang membaca"
+      },
+      "body": {
+       "en": "The CV studio is this lesson in tool form: transparent lint rules for verbs, numbers and length — the checks AI tools run, shown openly so you learn what they reward.",
+       "id": "Studio CV adalah pelajaran ini dalam bentuk alat: aturan lint transparan untuk kata kerja, angka, dan panjang — pemeriksaan yang dijalankan alat AI, ditampilkan terbuka agar kamu paham yang dihargainya."
+      },
+      "cta": {
+       "en": "Open the CV studio →",
+       "id": "Buka studio CV →"
+      }
+     }
     },
     {
      "n": "8.3",
@@ -4593,9 +4737,27 @@ window.MT_LMS['the-pack'] = {
         "id": "Satu “fakta” halusinasi dalam surat membongkar delegasi tanpa periksa dan menenggelamkan lamaran. Verifikasi hitungan menit; kredibilitasnya segalanya."
        }
       }
-     ]
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Personalise against a real JD",
+       "id": "Personalisasi terhadap JD nyata"
+      },
+      "body": {
+       "en": "Paste a real JD into the letter developer's mirror check and watch which load-bearing terms your draft covers — the same gap analysis this lesson teaches, computed openly.",
+       "id": "Tempel JD nyata ke cek pencerminan pengembang surat dan lihat istilah penopang mana yang dicakup drafmu — analisis celah yang sama seperti diajarkan pelajaran ini, dihitung terbuka."
+      },
+      "cta": {
+       "en": "Open the letter developer →",
+       "id": "Buka pengembang surat →"
+      }
+     }
     }
-   ]
+   ],
+   "hero": "../../assets/m/02-prep.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 9,
@@ -4717,7 +4879,11 @@ window.MT_LMS['the-pack'] = {
         "id": "Jawaban wawancara dilatih; perilaku koridor tidak. Asesor membobot sinyal tak terlatih justru karena ia tak terlatih."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Etiquette is applied respect — read at every touchpoint before your qualifications are.",
+      "id": "Etiket adalah penghormatan yang diterapkan — terbaca di tiap titik kontak sebelum kualifikasimu."
+     }
     },
     {
      "n": "9.2",
@@ -4846,6 +5012,18 @@ window.MT_LMS['the-pack'] = {
        "why": {
         "en": "Composure beats immediacy: the callback request is standard professional behaviour and buys you a prepared, audible conversation.",
         "id": "Ketenangan mengalahkan kesegeraan: permintaan telepon balik adalah perilaku profesional standar dan membelikanmu percakapan yang siap dan terdengar."
+       }
+      }
+     ],
+     "listen": [
+      {
+       "label": {
+        "en": "Rescheduling an interview — the professional register, heard",
+        "id": "Menjadwalkan ulang wawancara — register profesional, didengar"
+       },
+       "text": {
+        "en": "A family emergency requires me tomorrow morning, and I want to give your team my full attention. Could we reschedule? I am available Thursday and Friday, any time. My apologies for the disruption, and thank you for understanding.",
+        "id": "Keadaan darurat keluarga mengharuskan saya besok pagi, dan saya ingin memberi tim Ibu perhatian penuh. Mungkinkah dijadwalkan ulang? Saya tersedia Kamis dan Jumat, jam berapa pun. Mohon maaf atas gangguannya, dan terima kasih atas pengertiannya."
        }
       }
      ]
@@ -5087,7 +5265,9 @@ window.MT_LMS['the-pack'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/mentoring-session.jpg",
+   "heroPos": "80% 40%"
   }
  ]
 };

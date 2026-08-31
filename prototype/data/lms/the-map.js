@@ -97,7 +97,9 @@ window.MT_LMS['the-map'] = {
        "body": {
         "en": "Adaptability answers the question <b>“is my method still working?”</b> — it is the willingness to drop a plan that reality has already rejected. Resilience answers <b>“can I keep going while I change it?”</b> — the capacity to absorb a hit without losing the week. Graduates often confuse them: they push harder with a failing method (resilient but not adaptive) or hop between methods without recovering (adaptive but not resilient). The strongest early-career pattern is boring: change the method quickly, recover the energy deliberately.",
         "id": "Adaptabilitas menjawab pertanyaan <b>“apakah metodeku masih berhasil?”</b> — kesediaan melepas rencana yang sudah ditolak kenyataan. Ketangguhan menjawab <b>“sanggupkah aku terus berjalan sambil mengubahnya?”</b> — kapasitas menerima pukulan tanpa kehilangan satu minggu. Lulusan baru sering mencampuradukkan keduanya: memaksa lebih keras dengan metode yang gagal (tangguh tapi tidak adaptif) atau melompat-lompat metode tanpa pulih (adaptif tapi tidak tangguh). Pola awal karier terkuat justru membosankan: ubah metode dengan cepat, pulihkan energi dengan sengaja."
-       }
+       },
+       "img": "../../assets/bg/start.jpg",
+       "imgPos": "center 45%"
       },
       {
        "icon": "gear",
@@ -233,6 +235,10 @@ window.MT_LMS['the-map'] = {
        "en": "Open the Personal Audit →",
        "id": "Buka Audit Pribadi →"
       }
+     },
+     "quote": {
+      "en": "A setback processed becomes data. A setback avoided becomes fear.",
+      "id": "Kemunduran yang diproses menjadi data. Kemunduran yang dihindari menjadi ketakutan."
      }
     },
     {
@@ -558,7 +564,9 @@ window.MT_LMS['the-map'] = {
       }
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/ch1-realization.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 2,
@@ -739,7 +747,11 @@ window.MT_LMS['the-map'] = {
         "id": "Praktik yang dipinjam tanpa lensanya tidak punya akar. Rutinitas sang berprestasi mengekspresikan paradigmanya tentang energi dan prioritas; meniru permukaan tidak meniru apa pun yang menopangnya."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Everything is created twice: first as a design, then as a result.",
+      "id": "Segala sesuatu diciptakan dua kali: pertama sebagai rancangan, lalu sebagai hasil."
+     }
     },
     {
      "n": "2.2",
@@ -1296,7 +1308,9 @@ window.MT_LMS['the-map'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-foundation.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 3,
@@ -1475,7 +1489,11 @@ window.MT_LMS['the-map'] = {
         "id": "Sebelum keadaan kini, diinginkan, dan hambatan tertulis, promosi dan pembandingan adalah solusi untuk masalah tak terdefinisi — gerak tanpa sasaran."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Nobody asks how much you know. They ask what happened to the thing you owned.",
+      "id": "Tak ada yang bertanya seberapa banyak kamu tahu. Mereka bertanya apa yang terjadi pada hal yang kamu miliki."
+     }
     },
     {
      "n": "3.2",
@@ -1813,7 +1831,9 @@ window.MT_LMS['the-map'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-exploration.jpg",
+   "heroPos": "center 45%"
   },
   {
    "num": 4,
@@ -1953,7 +1973,11 @@ window.MT_LMS['the-map'] = {
         "id": "Penyampaian lancar dengan pemahaman gagal adalah tanda kutukan pengetahuan: tangganya ada di kepalamu dan tak pernah ada di salindia."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "What they understood is what you communicated — regardless of what you meant.",
+      "id": "Yang mereka pahami adalah yang kamu komunikasikan — terlepas dari maksudmu."
+     }
     },
     {
      "n": "4.2",
@@ -2143,6 +2167,28 @@ window.MT_LMS['the-map'] = {
         "id": "Permintaan ketinggian harus dipenuhi segera — audiens memiliki ketinggian. Jawab dulu, lalu biarkan pertanyaan mereka memilih penurunan."
        }
       }
+     ],
+     "listen": [
+      {
+       "label": {
+        "en": "The pyramid, spoken: a project update that leads with the answer",
+        "id": "Piramida, diucapkan: pembaruan proyek yang memimpin dengan jawaban"
+       },
+       "text": {
+        "en": "On track for Friday's dashboard demo. One risk: the vendor A P I failed twice this week, costing two days. If it recurs, the demo slips to Tuesday. A mitigation call is booked for Monday.",
+        "id": "Sesuai jadwal untuk demo dasbor Jumat. Satu risiko: A P I vendor gagal dua kali minggu ini, memakan dua hari. Jika terulang, demo mundur ke Selasa. Panggilan mitigasi sudah dijadwalkan Senin."
+       }
+      },
+      {
+       "label": {
+        "en": "An altitude shift, announced out loud",
+        "id": "Perpindahan ketinggian, diumumkan bersuara"
+       },
+       "text": {
+        "en": "Zooming out: the point is that region C grows while the others shrink. To get concrete: C grew twenty five percent last quarter on our highest margin.",
+        "id": "Kalau diperbesar: intinya wilayah C tumbuh sementara yang lain menyusut. Konkretnya: C tumbuh dua puluh lima persen kuartal lalu pada margin tertinggi kita."
+       }
+      }
      ]
     },
     {
@@ -2308,7 +2354,9 @@ window.MT_LMS['the-map'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/mentoring-session.jpg",
+   "heroPos": "80% 40%"
   },
   {
    "num": 5,
@@ -2379,7 +2427,9 @@ window.MT_LMS['the-map'] = {
        "body": {
         "en": "<b>Sleep</b> consolidates what you studied and restores the prefrontal control you interview with; chronic short sleep produces measurable deficits comparable to alcohol impairment. <b>Movement</b> — thirty minutes of anything brisk, most days — is the single most reliable mood and focus intervention in the literature. <b>Fuel</b>: regular meals with protein, and caffeine before noon rather than after. <b>Recovery</b>: genuine off-switches (people, nature, play) rather than scroll-rest that leaves you tired and unrested. None of this is athletic; it is the boring machinery that decides whether your trained skills actually show up on the day.",
         "id": "<b>Tidur</b> mengonsolidasikan yang kamu pelajari dan memulihkan kendali prefrontal yang kamu pakai wawancara; kurang tidur kronis menghasilkan defisit terukur setara gangguan alkohol. <b>Gerak</b> — tiga puluh menit apa pun yang cukup cepat, hampir tiap hari — adalah intervensi suasana hati dan fokus paling andal dalam literatur. <b>Bahan bakar</b>: makan teratur dengan protein, dan kafein sebelum tengah hari, bukan sesudahnya. <b>Pemulihan</b>: sakelar mati sungguhan (orang, alam, main) alih-alih istirahat-scroll yang membuatmu lelah tanpa pulih. Tak ada yang atletis di sini; ini mesin membosankan yang menentukan apakah keterampilan terlatihmu benar-benar hadir pada harinya."
-       }
+       },
+       "img": "../../assets/bg/stage-activation.jpg",
+       "imgPos": "center 55%"
       },
       {
        "icon": "target",
@@ -2487,7 +2537,11 @@ window.MT_LMS['the-map'] = {
         "id": "Protokol dirancang untuk minggu terburuk: ia melentur turun ke lantai yang dijaga, karena wawancara itu sendiri berjalan pada energi yang diproduksinya."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "Energy, not time, is the base resource of a career.",
+      "id": "Energi, bukan waktu, adalah sumber daya dasar sebuah karier."
+     }
     },
     {
      "n": "5.2",
@@ -2774,7 +2828,9 @@ window.MT_LMS['the-map'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-activation.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 6,
@@ -2845,7 +2901,9 @@ window.MT_LMS['the-map'] = {
        "body": {
         "en": "Career mistakes are expensive precisely because the information arrives late — most people discover what consulting or audit actually feels like in month two of a job they committed years to reaching. Simulations move that discovery forward to an afternoon. Global employers increasingly publish job simulations for the same reason: they filter for people who have met the real work. Each track here compresses a representative workday — the actual task types, the actual trade-offs, junior-level versions — into 60–90 minutes.",
         "id": "Kesalahan karier mahal justru karena informasinya datang terlambat — kebanyakan orang menemukan rasa sebenarnya konsultan atau audit di bulan kedua pekerjaan yang mereka kejar bertahun-tahun. Simulasi memajukan penemuan itu ke satu sore. Pemberi kerja global makin banyak menerbitkan simulasi kerja dengan alasan sama: menyaring orang yang sudah bertemu pekerjaan nyata. Tiap jalur di sini memadatkan hari kerja representatif — jenis tugas sebenarnya, dilema sebenarnya, versi level junior — menjadi 60–90 menit."
-       }
+       },
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "center 35%"
       },
       {
        "icon": "eye",
@@ -2953,7 +3011,11 @@ window.MT_LMS['the-map'] = {
         "id": "Keterampilan bisa dibangun hampir di mana pun; energi tak bisa dipalsukan sepuluh tahun. Jalur kompetensi-tinggi energi-rendah adalah perangkap klasik yang ingin ditangkap debrief."
        }
       }
-     ]
+     ],
+     "quote": {
+      "en": "An afternoon of contact beats a month of reading about the work.",
+      "id": "Satu sore kontak langsung mengalahkan sebulan membaca tentang pekerjaannya."
+     }
     },
     {
      "n": "6.2",
@@ -3807,7 +3869,9 @@ window.MT_LMS['the-map'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+   "heroPos": "center 30%"
   }
  ]
 };

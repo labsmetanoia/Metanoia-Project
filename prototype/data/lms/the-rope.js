@@ -848,7 +848,9 @@ window.MT_LMS['the-rope'] = {
       ]
      }
     }
-   ]
+   ],
+   "hero": "../../assets/bg/rope.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 2,
@@ -1767,7 +1769,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/ch1-realization.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 3,
@@ -2617,7 +2621,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 4,
@@ -3499,7 +3505,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+   "heroPos": "60% 32%"
   },
   {
    "num": 5,
@@ -4299,7 +4307,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
+   "heroPos": "56% 22%"
   },
   {
    "num": 6,
@@ -5110,7 +5120,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 7,
@@ -6110,7 +6122,9 @@ window.MT_LMS['the-rope'] = {
       ]
      }
     }
-   ]
+   ],
+   "hero": "../../assets/m/02-prep.jpg",
+   "heroPos": "center 40%"
   },
   {
    "num": 8,
@@ -6881,7 +6895,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+   "heroPos": "center 30%"
   },
   {
    "num": 9,
@@ -7707,7 +7723,9 @@ window.MT_LMS['the-rope'] = {
       }
      ]
     }
-   ]
+   ],
+   "hero": "../../assets/bg/stage-execution.jpg",
+   "heroPos": "center 40%"
   }
  ]
 };
