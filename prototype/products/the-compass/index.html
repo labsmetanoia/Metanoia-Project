@@ -635,6 +635,12 @@ if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}ca
 .flg{width:15px;height:15px;flex:none;border-radius:50%;display:inline-block;vertical-align:-2px}
 button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px}
 @media(max-width:640px){.flg{width:16px;height:16px}}
+/* small screens: the beta chip and breadcrumb tail crowd the controls */
+@media(max-width:640px){
+  .topbar .state-chip{display:none}
+  .tb-left{min-width:0;flex:1 1 auto;overflow:hidden}
+  .breadcrumb{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+}
 </style>
 <style id="rcHeroKeep">
 /* Hero typography preserved — Roboto Condensed is the global face,
@@ -2535,5 +2541,6 @@ window.matchMedia('(max-width: 768px)').addEventListener('change', () => {
 });
 })();
 </script>
+<script src="../../js/mob-footer.js"></script>
 </body>
 </html>

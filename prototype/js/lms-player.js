@@ -722,7 +722,7 @@
 
   function refreshComplete() {
     var l = FLAT[current].l;
-    var btn = root.querySelector('.lms-complete');
+    var btn = root.querySelector('.lmsp-foot .lms-complete');
     if (isDone(l.n)) {
       btn.className = 'lms-complete done';
       btn.innerHTML = '✓ <span data-en="Completed" data-id="Selesai">' + (lang() === 'id' ? 'Selesai' : 'Completed') + '</span>';
@@ -850,7 +850,7 @@
   root.querySelector('.lms-next').addEventListener('click', function () {
     if (current < FLAT.length - 1 && canAccess(current + 1)) openLesson(current + 1);
   });
-  root.querySelector('.lms-complete').addEventListener('click', function () {
+  root.querySelector('.lmsp-foot .lms-complete').addEventListener('click', function () {
     var l = FLAT[current].l;
     if (isDone(l.n)) return;
     var p = progress(); p[l.n] = true; saveProgress(p);

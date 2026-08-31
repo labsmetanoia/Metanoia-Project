@@ -2898,7 +2898,11 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
 :root[data-theme="light"] .site-footer{background:#0D1422;border-top-color:rgba(139,105,20,.35)}
 @media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
-body.m .site-footer{display:none}
+/* mobile keeps the global footer — compact spacing, same night palette */
+body.m .site-footer{padding:42px 0 28px}
+body.m .site-footer .sf-in{padding:0 22px}
+body.m .sf-col a{padding:8px 0}
+body.m .sf-bottom{margin-top:28px}
 /* the fixed journey rail floats at the viewport foot on the flow page */
 body.flow .site-footer{padding-bottom:96px}
 </style>
@@ -2985,4 +2989,3 @@ body.flow .site-footer{padding-bottom:96px}
   if(id) id.addEventListener('click', function(){ sweep('id'); });
 })();
 </script>
-
