@@ -392,8 +392,11 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
 #v-topic,#v-read,#v-saved{padding-top:96px}
 @media(max-width:900px){#v-topic,#v-read,#v-saved{padding-top:84px}}
 @media(max-width:640px){
-  .mp-hero{min-height:72vh}
-  .mp-hero-in{padding-top:104px}
+  /* content-height hero: bottom-aligned min-height crops tall content
+     under the fixed nav, so let the content set the height instead */
+  .mp-hero{min-height:0;align-items:stretch}
+  /* beat .wrap's later padding shorthand with two classes */
+  .mp-hero .mp-hero-in{padding-top:118px;padding-bottom:120px}
   .list .lrow{grid-template-columns:72px 1fr auto;gap:10px}
   .list .lrow .thumb{width:72px;height:50px}
 }
