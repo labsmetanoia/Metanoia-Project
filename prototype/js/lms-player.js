@@ -132,8 +132,15 @@
   /* ─── outline rail ─── */
   function renderRail() {
     railEl.innerHTML = '';
+    var p = progress();
     REG.modules.forEach(function (m) {
-      var h = bi('h4', null, { en: 'Module ' + m.num + ' · ' + m.title.en, id: 'Modul ' + m.num + ' · ' + m.title.id });
+      var allDone = m.lessons.every(function (l) { return p[l.n]; });
+      var h = el('div', 'lr-mod' + (allDone ? ' done' : ''));
+      h.appendChild(bi('span', 'lr-mod-num', { en: 'Module ' + m.num, id: 'Modul ' + m.num }));
+      var row = el('span', 'lr-mod-t');
+      row.appendChild(bi('span', null, m.title));
+      if (allDone) row.appendChild(el('i', 'lr-mod-check', '✓'));
+      h.appendChild(row);
       railEl.appendChild(h);
       m.lessons.forEach(function (l) {
         var i = flatIndex(l.n);
@@ -145,6 +152,25 @@
         railEl.appendChild(b);
       });
     });
+    /* progress ring card */
+    var modsDone = REG.modules.filter(function (m) { return m.lessons.every(function (l) { return p[l.n]; }); }).length;
+    var pct = Math.round(doneCount() / FLAT.length * 100);
+    var card = el('div', 'lr-prog');
+    var C = 2 * Math.PI * 21;
+    card.innerHTML =
+      '<svg viewBox="0 0 50 50" aria-hidden="true">' +
+        '<circle cx="25" cy="25" r="21" fill="none" stroke="rgba(201,168,76,.18)" stroke-width="5"/>' +
+        '<circle cx="25" cy="25" r="21" fill="none" stroke="url(#lrGrad)" stroke-width="5" stroke-linecap="round" ' +
+          'stroke-dasharray="' + (C * pct / 100).toFixed(1) + ' ' + C.toFixed(1) + '" transform="rotate(-90 25 25)"/>' +
+        '<defs><linearGradient id="lrGrad" x1="0" y1="1" x2="1" y2="0">' +
+          '<stop offset="0%" stop-color="#8B6914"/><stop offset="100%" stop-color="#F0D878"/></linearGradient></defs>' +
+        '<text x="25" y="29" text-anchor="middle">' + pct + '%</text>' +
+      '</svg>';
+    var pt = el('div', 'lr-prog-t');
+    pt.appendChild(bi('b', null, { en: 'Your progress', id: 'Kemajuanmu' }));
+    pt.appendChild(bi('span', null, { en: modsDone + ' of ' + REG.modules.length + ' modules completed', id: modsDone + ' dari ' + REG.modules.length + ' modul selesai' }));
+    card.appendChild(pt);
+    railEl.appendChild(card);
   }
 
   /* ─── content kinds ─── */
@@ -207,6 +233,13 @@
       btn.appendChild(head);
       btn.appendChild(el('span', 'pm', '+'));
       var body = el('div', 'acc-body');
+      if (s.img) {
+        var sim = document.createElement('img');
+        sim.src = s.img; sim.alt = ''; sim.loading = 'lazy'; sim.decoding = 'async';
+        sim.className = 'acc-img';
+        if (s.imgPos) sim.style.objectPosition = s.imgPos;
+        body.appendChild(sim);
+      }
       body.appendChild(bi('p', null, glossify(s.body, l.glossary)));
       btn.addEventListener('click', function () { acc.classList.toggle('open'); });
       acc.appendChild(btn); acc.appendChild(body);
@@ -415,8 +448,22 @@
     d.items.forEach(function (it, i) {
       if ((d.type === 'flow' || !d.type) && i > 0) stage.appendChild(el('span', 'ld-arrow', '→'));
       var node = el('div', 'ld-node');
-      node.appendChild(el('span', 'ld-num', String(i + 1).padStart(2, '0')));
-      node.appendChild(bi('b', null, it.h));
+      if (d.type === 'bars') {
+        /* stat bar: {h, v: 0–100, label: shown value, sub} */
+        var lbl = el('b');
+        lbl.appendChild(bi('span', null, it.h));
+        lbl.appendChild(el('em', null, it.label || (it.v + '%')));
+        node.appendChild(lbl);
+        var bar = el('div', 'ld-bar');
+        var fill = el('i');
+        bar.appendChild(fill);
+        node.appendChild(bar);
+        setTimeout(function () { fill.style.width = Math.max(0, Math.min(100, it.v || 0)) + '%'; }, 60);
+      } else {
+        if (d.type === 'timeline') node.appendChild(el('span', 'ld-med', iconSvg(it.icon || ['flag', 'target', 'gear', 'book', 'eye'][i % 5], 20)));
+        node.appendChild(el('span', 'ld-num', String(i + 1).padStart(2, '0')));
+        node.appendChild(bi('b', null, it.h));
+      }
       if (it.sub) node.appendChild(bi('span', 'ld-sub', it.sub));
       stage.appendChild(node);
     });
@@ -584,22 +631,60 @@
     void innerEl.offsetWidth;
     innerEl.classList.add('lms-enter');
     if (l.placeholder) innerEl.appendChild(phNotice());
-    innerEl.appendChild(bi('p', 'lms-kicker', { en: 'Module ' + m.num + ' · ' + m.title.en, id: 'Modul ' + m.num + ' · ' + m.title.id }));
-    innerEl.appendChild(bi('h2', 'lms-title', l.title));
+
+    /* ─── lesson header: editorial left column + hero image card ───
+       hero source chain: lesson.hero → module.hero → registry media.poster.
+       With a hero, objectives live on the image card; without, they render
+       as the classic panel — fully backward compatible. */
+    var hero = l.hero || m.hero || (REG.media && REG.media.poster);
+    var head = el('div', 'lms-head' + (hero ? ' has-hero' : ''));
+    var hl = el('div', 'lms-head-l');
+    hl.appendChild(bi('span', 'lms-modchip', { en: 'Module ' + m.num, id: 'Modul ' + m.num }));
+    hl.appendChild(bi('h2', 'lms-title', l.title));
     var meta = el('div', 'lms-meta');
     var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'] }[l.kind];
-    meta.appendChild(bi('span', 'lms-chip gold', { en: kindLabel[0], id: kindLabel[1] }));
+    meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
-    meta.appendChild(bi('span', 'lms-chip', isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
-    innerEl.appendChild(meta);
-    innerEl.appendChild(bi('p', 'lms-overview', glossify(l.overview, l.glossary)));
+    meta.appendChild(bi('span', 'lms-chip' + (isDone(l.n) ? ' ok' : ''), isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
+    hl.appendChild(meta);
+    if (l.quote) {
+      var qt = el('div', 'lms-quote');
+      qt.appendChild(el('span', 'lq-mark', '“'));
+      qt.appendChild(bi('p', null, l.quote));
+      qt.appendChild(el('span', 'lq-spark', '✦'));
+      hl.appendChild(qt);
+    }
+    hl.appendChild(bi('p', 'lms-overview', glossify(l.overview, l.glossary)));
+    head.appendChild(hl);
 
-    var obj = el('div', 'lms-panel');
-    obj.appendChild(bi('h3', null, { en: 'What you will learn', id: 'Yang akan kamu pelajari' }));
-    var ul = el('ul');
-    l.objectives.forEach(function (o) { ul.appendChild(bi('li', null, o)); });
-    obj.appendChild(ul);
-    innerEl.appendChild(obj);
+    function objList() {
+      var ul = el('ul');
+      l.objectives.forEach(function (o) { ul.appendChild(bi('li', null, o)); });
+      return ul;
+    }
+    if (hero) {
+      var hr = el('div', 'lms-head-r');
+      var hcard = el('div', 'lms-hero');
+      var him = document.createElement('img');
+      him.src = hero; him.alt = ''; him.loading = 'lazy'; him.decoding = 'async';
+      if (l.heroPos || m.heroPos) him.style.objectPosition = l.heroPos || m.heroPos;
+      hcard.appendChild(him);
+      hcard.appendChild(el('div', 'lh-grade'));
+      var obj0 = el('div', 'lms-panel lms-obj');
+      obj0.appendChild(el('span', 'lh-badge', iconSvg(l.heroIcon || 'book', 17)));
+      obj0.appendChild(bi('h3', null, { en: 'What you will learn', id: 'Yang akan kamu pelajari' }));
+      obj0.appendChild(objList());
+      hcard.appendChild(obj0);
+      hr.appendChild(hcard);
+      head.appendChild(hr);
+      innerEl.appendChild(head);
+    } else {
+      innerEl.appendChild(head);
+      var obj = el('div', 'lms-panel lms-obj');
+      obj.appendChild(bi('h3', null, { en: 'What you will learn', id: 'Yang akan kamu pelajari' }));
+      obj.appendChild(objList());
+      innerEl.appendChild(obj);
+    }
 
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);

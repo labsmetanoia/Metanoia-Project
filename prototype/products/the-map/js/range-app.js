@@ -1078,13 +1078,44 @@
         .slice(0, 5 - res.shown.length);
       if (extra.length) { res.shown = res.shown.concat(extra); res.thin = true; }
     }
-    var cards = res.shown.map(function (r) { return dirCard(r, false); });
-    if (res.unexpected) cards.push(dirCard(res.unexpected, true));
-    if (res.thin) cards.unshift('<p class="note3" style="margin-bottom:14px">' +
+    var cards = res.shown.map(function (r, i) { return dirCard(r, false, i); });
+    if (res.unexpected) cards.push(dirCard(res.unexpected, true, res.shown.length));
+    if (res.thin) cards.unshift('<p class="note3" style="margin-bottom:14px;max-width:64ch">' +
       t('These come from what your document showed. Nothing yet says what would push you away from them — the working-style questions below are what surface that.',
         'Ini berasal dari apa yang ditunjukkan dokumenmu. Belum ada yang menunjukkan apa yang justru menjauhkanmu — pertanyaan gaya kerja di bawah yang memunculkannya.') + '</p>');
-    host.innerHTML = head + '<div style="max-width:680px">' + cards.join('') + '</div>' + disclaimer();
+    host.innerHTML = head +
+      '<div class="wal-grid">' +
+        '<div class="wal-list">' + cards.join('') + disclaimer() + '</div>' +
+        '<aside class="wal-side">' +
+          '<div class="wal-how card">' +
+            '<p class="wal-how-h">' + t('How The Map works', 'Bagaimana cara kerja The Map') + '</p>' +
+            [[walIco('scan'), t('Analyses your data & story', 'Menganalisis data & ceritamu')],
+             [walIco('map'), t('Maps the most relevant opportunities', 'Memetakan peluang yang paling relevan')],
+             [walIco('scale'), t('Shows what draws you closer & pushes away', 'Menunjukkan apa yang mendekatkan & menjauhkan')],
+             [walIco('bolt'), t('Gives you sharp action recommendations', 'Memberi kamu rekomendasi aksi yang tajam')]
+            ].map(function (s, i2) {
+              return '<div class="wal-how-r"><span class="wal-how-i">' + s[0] + '</span><span>' + s[1] + '</span>' +
+                (i2 < 3 ? '<span class="wal-how-l"></span>' : '') + '</div>';
+            }).join('') +
+            '<button class="wal-how-cta" onclick="location.hash=\'#/identity\'">' + t('Learn more', 'Pelajari lebih lanjut') + ' →</button>' +
+          '</div>' +
+        '</aside>' +
+      '</div>';
     wireDirCards(host);
+  }
+  function walIco(k) {
+    var P2 = {
+      scan: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 12h8M8 8.5h5M8 15.5h6"/>',
+      map: '<path d="M9 4 4 6v14l5-2 6 2 5-2V4l-5 2Z"/><path d="M9 4v14M15 6v14"/>',
+      scale: '<path d="M12 4v16M5 8h14"/><path d="m7 8-2.5 5a2.6 2.6 0 0 0 5 0L7 8ZM17 8l-2.5 5a2.6 2.6 0 0 0 5 0L17 8Z"/>',
+      bolt: '<path d="M13 3 5 13.5h5L10.5 21 19 10.5h-5.5L13 3Z"/>',
+      peak: '<path d="M3 18 9 7l3.5 5L16 6l5 12Z"/><path d="M3 18h18"/><circle cx="16" cy="6" r="1.4"/>',
+      screen: '<rect x="3.5" y="5" width="17" height="11" rx="2"/><path d="M9 19h6M12 16v3"/><path d="m10 9 3.5 1.8L10 12.6Z"/>',
+      shield: '<path d="M12 3 5 6v6c0 4 3 6.6 7 9 4-2.4 7-5 7-9V6Z"/><path d="m9 11.5 2 2 4-4.5"/>',
+      compass: '<circle cx="12" cy="12" r="8.5"/><path d="m9.5 14.5 1.6-4.4 4.4-1.6-1.6 4.4Z"/>',
+      chart: '<path d="M4 20V9M10 20V4M16 20v-7M22 20H2"/>'
+    };
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + (P2[k] || P2.peak) + '</svg>';
   }
   /* wider, exploratory set for "I genuinely don't know" or thin quick-signal input */
   function quickResults() {
@@ -1113,25 +1144,32 @@
     var cls = { strong: 'strong', worth: 'worth', stretch: 'stretch' }[r.band.id];
     return '<span class="band ' + cls + '"><span class="dot"></span>' + (lang() === 'id' ? r.band.id_ : r.band.en) + '</span>';
   }
-  function dirCard(r, unexpected) {
+  function dirCard(r, unexpected, idx) {
     var d = r.direction;
     var vconf = r.counterEvidence.filter(function (e) { return e.kind === 'values'; }).length;
     var inR = findPoss('direction', d.id);
-    return '<div class="card" style="margin-bottom:12px" id="dc-' + d.id + '">' +
-      '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">' +
+    var icons = ['peak', 'screen', 'shield', 'compass', 'chart', 'map'];
+    var num = String((idx || 0) + 1).padStart(2, '0');
+    return '<div class="card wal-card" id="dc-' + d.id + '">' +
+      '<span class="wal-num">' + num + '</span>' +
+      '<div class="wal-main">' +
+      '<div class="wal-top">' +
+      '<span class="wal-ico">' + walIco(icons[(idx || 0) % icons.length]) + '</span>' +
+      '<div class="wal-tt">' +
+      '<div class="wal-tr">' +
       (unexpected ? '<span class="band unex">✦ ' + t('Unexpected', 'Tak terduga') + '</span>' : '') +
-      '<h3 style="font-size:16px;flex:1;min-width:160px">' + L(d.name) + '</h3>' + bandChip(r) + '</div>' +
-      '<p class="serif" style="font-size:14.5px;color:var(--r-text-2);margin:8px 0 10px">' + L(d.summary) + '</p>' +
-      (r.evidence.length ? '<div style="border-left:2px solid var(--r-line2);padding:2px 0 2px 12px;margin:0 0 10px">' +
-        '<p style="font-size:12.5px;color:var(--r-text-2);line-height:1.6"><b style="color:var(--r-explore)">' +
+      '<h3>' + L(d.name) + '</h3>' + bandChip(r) + '</div>' +
+      '<p class="serif wal-sum">' + L(d.summary) + '</p>' +
+      (r.evidence.length ? '<p class="wal-because"><b>' +
         t('Worth a look because', 'Layak dilihat karena') + ':</b> ' +
-        r.evidence.slice(0, 2).map(function (e) { return e.text.replace(/\.$/, ''); }).join('; ').toLowerCase().replace(/^./, function (ch) { return ch.toUpperCase(); }) + '.</p></div>' : '') +
-      '<p style="font-size:12.5px;color:var(--r-text-2)">' +
-      t(r.evidence.length + ' things point here · ' + r.counterEvidence.length + ' point away',
-        r.evidence.length + ' hal menunjuk ke sini · ' + r.counterEvidence.length + ' menjauh') +
-      (vconf ? ' <span style="color:var(--r-against)">⚠ ' + t('one conflicts with a value you ranked top five', 'satu bertentangan dengan nilai lima teratasmu') + '</span>' : '') + '</p>' +
-      '<p class="note3" style="margin-top:4px">~' + prepWeeks(d) + ' ' + t('weeks preparation', 'minggu persiapan') + ' · ' +
-      ({ 'accessible': t('Accessible', 'Terbuka'), 'competitive': t('Competitive', 'Kompetitif'), 'highly-competitive': t('Highly competitive', 'Sangat kompetitif') }[d.entry_difficulty]) + '</p>' +
+        r.evidence.slice(0, 2).map(function (e) { return e.text.replace(/\.$/, ''); }).join('; ').toLowerCase().replace(/^./, function (ch) { return ch.toUpperCase(); }) + '.</p>' : '') +
+      '<p class="wal-meta">' +
+      '<span>' + t(r.evidence.length + ' things point here', r.evidence.length + ' hal menuju ke sini') + '</span><i>·</i>' +
+      '<span>' + t(r.counterEvidence.length + ' point away', r.counterEvidence.length + ' menjauh') + '</span><i>·</i>' +
+      '<span>~' + prepWeeks(d) + ' ' + t('weeks preparation', 'minggu persiapan') + '</span><i>·</i>' +
+      '<span>' + ({ 'accessible': t('Accessible', 'Terbuka'), 'competitive': t('Competitive', 'Kompetitif'), 'highly-competitive': t('Highly competitive', 'Sangat kompetitif') }[d.entry_difficulty]) + '</span></p>' +
+      (vconf ? '<p class="wal-meta" style="color:var(--r-against)">⚠ ' + t('one conflicts with a value you ranked top five', 'satu bertentangan dengan nilai lima teratasmu') + '</p>' : '') +
+      '</div></div>' +
       '<div class="whybox" data-why="' + d.id + '" style="display:none;border-top:1px solid var(--r-line);margin-top:12px;padding-top:6px">' +
       '<p class="micro" style="color:var(--r-for);margin:8px 0 2px">' + t('What points towards this', 'Yang menunjuk ke sini') + '</p>' +
       r.evidence.map(function (e) { return '<div class="ev-row for"><span class="m">✓</span><span>' + e.text + '<span class="src">' + t('from · ', 'dari · ') + L(F.BLOCK_LABELS[e.src]) + '</span></span></div>'; }).join('') +
@@ -1139,11 +1177,12 @@
       (r.counterEvidence.length ? r.counterEvidence.map(function (e) { return '<div class="ev-row against"><span class="m">⚠</span><span>' + e.text + '<span class="src">' + t('from · ', 'dari · ') + L(F.BLOCK_LABELS[e.src]) + '</span></span></div>'; }).join('')
         : '<p class="note3">' + t('Nothing yet — tell us more and this will fill in. An empty column here means thin input, not a perfect fit.', 'Belum ada — ceritakan lebih banyak dan kolom ini terisi. Kolom kosong berarti input tipis, bukan kecocokan sempurna.') + '</p>') +
       '</div>' +
-      '<div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap">' +
-      '<button class="btn-q" data-why-t="' + d.id + '" style="color:var(--r-explore)">' + t('Why this appeared', 'Mengapa ini muncul') + ' ▾</button>' +
-      '<button class="btn-s explore" data-addr="' + d.id + '">' + (inR && inR.status !== 'ruled_out' ? '✓ ' + t('In your range', 'Di bentangmu') : t('Add to my range', 'Tambah ke bentangku') + ' +') + '</button>' +
-      '<button class="btn-q" data-look="' + d.id + '">' + t('Look closer', 'Lihat lebih dekat') + ' →</button>' +
-      '<button class="btn-q" data-no="' + d.id + '">' + t('Not for me', 'Bukan untukku') + '</button></div></div>';
+      '<div class="wal-actions">' +
+      '<button class="wal-a ghost" data-why-t="' + d.id + '">' + walIco('scan') + t('Why this appeared', 'Mengapa ini muncul') + '</button>' +
+      '<button class="wal-a gold" data-addr="' + d.id + '">' + (inR && inR.status !== 'ruled_out' ? '✓ ' + t('In your range', 'Di bentangmu') : t('Add to my range', 'Tambah ke bentangku') + ' +') + '</button>' +
+      '<button class="wal-a ghost" data-look="' + d.id + '">' + walIco('compass') + t('Look closer', 'Lihat lebih dekat') + ' →</button>' +
+      '<button class="wal-a ghost dim" data-no="' + d.id + '">✕ ' + t('Not for me', 'Bukan untukku') + '</button></div>' +
+      '</div></div>';
   }
   function wireDirCards(host) {
     $$('[data-why-t]', host).forEach(function (b) {

@@ -167,6 +167,21 @@
   /* ═══ SHARED ═══ */
   .glass-card{background:var(--glass-bg);backdrop-filter:var(--glass-blur);border:1px solid var(--gold-border);border-radius:14px}
   .sec-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:26px 0 14px}
+  /* ── tab heroes: the Bearing standard, carried across every tab ── */
+  .tab-hero{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--gold-border);margin-bottom:26px;min-height:168px;display:flex;align-items:flex-end;isolation:isolate}
+  .tab-hero .th-img{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;z-index:0;transform:scale(1.02)}
+  .tab-hero .th-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(5,10,18,.24),rgba(5,10,18,.66) 62%,rgba(5,10,18,.88)),linear-gradient(90deg,rgba(5,10,18,.55),rgba(5,10,18,.08) 55%)}
+  :root[data-theme="light"] .tab-hero .th-veil{background:linear-gradient(180deg,rgba(10,14,22,.18),rgba(10,14,22,.55) 62%,rgba(10,14,22,.78)),linear-gradient(90deg,rgba(10,14,22,.45),rgba(10,14,22,.05) 55%)}
+  .tab-hero .th-in{position:relative;z-index:2;padding:30px 28px 22px;max-width:720px}
+  .tab-hero .th-kick{display:block;font-size:.68rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#F0D878;margin-bottom:8px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+  .tab-hero h2{font-size:clamp(1.55rem,3vw,2.1rem);font-weight:800;color:#F5F2EA;letter-spacing:-.01em;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+  .tab-hero .tab-sub{color:rgba(240,237,232,.82);font-size:13.5px;margin-top:7px;max-width:640px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+  .tab-hero .tab-stats{margin-top:10px;font-size:12.5px;color:rgba(240,237,232,.85);font-weight:600;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+  .tab-hero .tab-stats b{color:#F0D878}
+  @media(max-width:640px){.tab-hero{min-height:132px}.tab-hero .th-in{padding:22px 18px 16px}}
+  .sec-label{display:flex;align-items:center;gap:12px}
+  .sec-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--gold-border),transparent)}
+
   .btn-gold{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright));
     color:#160d03;font-size:13px;font-weight:800;border:none;border-radius:999px;padding:11px 22px;text-decoration:none;
     transition:transform .2s,box-shadow .2s;box-shadow:0 4px 18px rgba(201,168,76,.3)}
@@ -705,10 +720,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <!-- ─── TAB: DASHBOARD ─── -->
     <section class="tab-content" id="tab-bearing">
-      <div class="tab-head">
+      <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/compass-product-bg.jpg');background-position:center 40%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Position · Heading · True North" data-id="Posisi · Arah · True North">Position · Heading · True North</span>
         <h2 data-en="Bearing" data-id="Bearing">Bearing</h2>
         <p class="tab-sub" data-en="Your current career position and heading — five Compass Points, one Career Bearing, and your True North for today." data-id="Posisi dan arah kariermu saat ini — lima Titik Kompas, satu Career Bearing, dan True North-mu untuk hari ini.">Your current career position and heading — five Compass Points, one Career Bearing, and your True North for today.</p>
-      </div>
+      </div></div>
       <div id="dashTodaysMoveSlot"></div>
       <div class="glass-card char-sheet" id="charSheet"></div>
       <h3 class="sec-label" data-en="Compass Points" data-id="Titik Kompas">Compass Points</h3>
@@ -721,10 +736,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <!-- ─── TAB: APPLICATIONS ─── -->
     <section class="tab-content" id="tab-course-plotter" hidden>
-      <div class="tab-head">
+      <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/gauntlet/gate-01-submission.jpg');background-position:center 35%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Every application, charted" data-id="Setiap lamaran, terpetakan">Every application, charted</span>
         <h2 data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</h2>
         <p class="tab-sub" data-en="Every application is a route. Track every stage, every move, every result." data-id="Setiap lamaran adalah rute. Lacak setiap tahap, setiap langkah, setiap hasil.">Every application is a route. Track every stage, every move, every result.</p>
-      </div>
+      </div></div>
       <div class="apps-controls">
         <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Tambah Rute Baru">+ Plot New Route</span></button>
         <span class="spacer"></span>
@@ -745,11 +760,11 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <!-- ─── TAB: PROGRESS ─── -->
     <section class="tab-content" id="tab-my-learning" hidden>
-      <div class="tab-head">
+      <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/stage-foundation.jpg');background-position:center 30%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="The full curriculum, one view" data-id="Kurikulum penuh, satu tampilan">The full curriculum, one view</span>
         <h2 data-en="My Learning" data-id="Kurikulumku">My Learning</h2>
         <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed and skills earned across every product." data-id="Kurikulum Metanoia lengkapmu — modul yang selesai dan keterampilan yang diperoleh di semua produk.">Your complete Metanoia curriculum — modules completed and skills earned across every product.</p>
         <p class="tab-stats" id="progTotals"></p>
-      </div>
+      </div></div>
       <div id="progCards"></div>
       <h3 class="sec-label" data-en="Skills You've Earned So Far" data-id="Keterampilan yang Telah Kamu Peroleh">Skills You've Earned So Far</h3>
       <div class="glass-card" style="padding:22px 26px"><div class="skills-cloud" id="skillsCloud"></div></div>
@@ -757,10 +772,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <!-- ─── TAB: MILESTONES ─── -->
     <section class="tab-content" id="tab-waypoints" hidden>
-      <div class="tab-head">
+      <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/m/05-summit.jpg');background-position:center 38%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Marked. Permanent. Yours." data-id="Ditandai. Permanen. Milikmu.">Marked. Permanent. Yours.</span>
         <h2 data-en="Waypoints" data-id="Titik Singgah">Waypoints</h2>
         <p class="tab-sub" data-en="Every achievement, permanently marked. Every step forward, permanently yours." data-id="Setiap pencapaian, ditandai selamanya. Setiap langkah maju, milikmu selamanya.">Every achievement, permanently marked. Every step forward, permanently yours.</p>
-      </div>
+      </div></div>
       <h3 class="sec-label" data-en="The 4-Year Journey Map" data-id="Peta Perjalanan 4 Tahun">The 4-Year Journey Map</h3>
       <div class="glass-card journey-map" id="journeyMap"></div>
       <h3 class="sec-label" data-en="Achievement Badges" data-id="Lencana Pencapaian">Achievement Badges</h3>
@@ -774,10 +789,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <!-- ─── TAB: INSIGHTS ─── -->
     <section class="tab-content" id="tab-nav-briefing" hidden>
-      <div class="tab-head">
+      <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/fg-stage-horizon.jpg');background-position:center 45%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Signal from your own data" data-id="Sinyal dari datamu sendiri">Signal from your own data</span>
         <h2 data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</h2>
         <p class="tab-sub" data-en="Your career position analysis. Updated every time you log progress or advance a route." data-id="Analisis posisi kariermu. Diperbarui setiap kali kamu mencatat kemajuan atau memajukan rute.">Your career position analysis. Updated every time you log progress or advance a route.</p>
-      </div>
+      </div></div>
       <h3 class="sec-label" data-en="Your Priority Actions" data-id="Tindakan Prioritasmu">Your Priority Actions</h3>
       <div id="priActions"></div>
       <h3 class="sec-label" data-en="Route Pattern Analysis" data-id="Analisis Pola Rute">Route Pattern Analysis</h3>
@@ -786,7 +801,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="glass-card soon-card">
         <div class="sc-lock">🔒 <span data-en="Coming Soon — Compass Intelligence" data-id="Segera Hadir — Compass Intelligence">Coming Soon — Compass Intelligence</span></div>
         <h4 data-en="Competitive Positioning" data-id="Posisi Kompetitif">Competitive Positioning</h4>
-        <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark." data-id="Setelah jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan — datamu sudah berkontribusi pada benchmark.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development — your data is already contributing to the benchmark.</p>
+        <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser." data-id="Setelah jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan, dan akan sepenuhnya opt-in — hari ini semua data Compass-mu tetap di peramban ini.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser.</p>
       </div>
       <h3 class="sec-label" data-en="Weekly Navigation Summary" data-id="Ringkasan Navigasi Mingguan">Weekly Navigation Summary</h3>
       <div class="glass-card week-card" id="weekCard"></div>

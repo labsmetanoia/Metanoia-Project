@@ -444,3 +444,109 @@ body.lms-lock{overflow:hidden}
 :root[data-theme="light"] .lms-mistakes .mk-f span:last-child{color:rgba(26,31,40,.85)}
 .lms-mistakes .mk-x{flex:none;color:#FF9A7B;font-weight:800}
 .lms-mistakes .mk-a{flex:none;color:#4ADE80;font-weight:800}
+
+/* ═══ v4 — the lesson room, redesigned (editorial header + hero card) ═══ */
+.lms-head{margin:0 0 24px}
+.lms-head.has-hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:28px;align-items:start}
+@media(max-width:860px){.lms-head.has-hero{grid-template-columns:1fr}}
+.lms-modchip{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold,#C9A84C);border:1px solid rgba(201,168,76,.45);border-radius:999px;padding:6px 14px;margin:0 0 14px}
+.lms-head .lms-title{font-size:clamp(1.7rem,3.4vw,2.5rem);line-height:1.15;margin-bottom:14px}
+.lms-chip.ok{color:#4ADE80;border-color:rgba(74,222,128,.45)}
+:root[data-theme="light"] .lms-chip.ok{color:#1F6B42;border-color:rgba(31,107,66,.4)}
+.lms-quote{position:relative;display:flex;gap:12px;align-items:flex-start;border:1px solid rgba(201,168,76,.3);
+  border-radius:14px;padding:16px 40px 16px 18px;margin:0 0 18px;
+  background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(5,10,18,.2))}
+:root[data-theme="light"] .lms-quote{background:linear-gradient(135deg,rgba(139,105,20,.07),rgba(255,255,255,.7))}
+.lms-quote .lq-mark{flex:none;font-family:var(--serif,Georgia,serif);font-size:2rem;line-height:.8;color:var(--gold,#C9A84C)}
+.lms-quote p{margin:0;font-family:var(--serif,Georgia,serif);font-size:15.5px;line-height:1.6;color:var(--text,#F0EDE8)}
+:root[data-theme="light"] .lms-quote p{color:#1A1F28}
+.lms-quote .lq-spark{position:absolute;top:12px;right:14px;color:var(--gold-bright,#F0D878);font-size:13px}
+/* hero image card with objectives overlay */
+.lms-hero{position:relative;border-radius:20px;overflow:hidden;min-height:340px;display:flex;flex-direction:column;
+  justify-content:flex-end;box-shadow:0 24px 70px rgba(0,0,0,.5),0 0 0 1px rgba(201,168,76,.28)}
+.lms-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.lms-hero .lh-grade{position:absolute;inset:0;background:
+  linear-gradient(180deg,rgba(5,10,18,.05) 0%,rgba(5,10,18,.25) 40%,rgba(5,10,18,.86) 100%)}
+.lms-hero .lms-obj{position:relative}
+.lms-hero .lh-badge{position:absolute;top:-22px;left:16px;z-index:2;
+  width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#8B6914,#C9A84C);color:#10131B;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.lms-hero .lms-obj h3{margin-top:14px}
+.lms-hero .lms-obj{position:relative;z-index:1;margin:0 14px 14px;background:rgba(5,10,18,.72);
+  backdrop-filter:blur(10px);border-color:rgba(201,168,76,.4)}
+.lms-hero .lms-obj li{color:rgba(240,237,232,.88)}
+.lms-hero .lms-obj li::before{border-color:#F0D878;background:rgba(240,216,120,.18)}
+:root[data-theme="light"] .lms-hero .lms-obj{background:rgba(5,10,18,.72);box-shadow:none}
+:root[data-theme="light"] .lms-hero .lms-obj li{color:rgba(240,237,232,.88)}
+:root[data-theme="light"] .lms-hero .lms-obj h3{color:#F0D878}
+@media(max-width:860px){.lms-hero{min-height:260px}}
+
+/* rail: module group headers + progress ring card */
+.lr-mod{display:block;margin:16px 8px 8px;padding-top:12px;border-top:1px dashed rgba(201,168,76,.2)}
+.lr-mod:first-child{margin-top:0;border-top:0;padding-top:0}
+.lr-mod-num{display:block;font-size:9.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;
+  color:rgba(201,168,76,.75);margin-bottom:3px}
+:root[data-theme="light"] .lr-mod-num{color:#8B6914}
+.lr-mod-t{display:flex;align-items:center;gap:8px;font-size:11.5px;font-weight:800;letter-spacing:.06em;
+  text-transform:uppercase;color:rgba(240,237,232,.55);line-height:1.4}
+:root[data-theme="light"] .lr-mod-t{color:rgba(26,31,40,.55)}
+.lr-mod.done .lr-mod-t{color:rgba(240,237,232,.75)}
+.lr-mod-check{flex:none;font-style:normal;width:15px;height:15px;border-radius:50%;background:#3FA96C;color:#0B1524;
+  font-size:9px;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+.lr-prog{display:flex;gap:14px;align-items:center;margin:20px 8px 4px;padding:14px 16px;border-radius:14px;
+  border:1px solid rgba(201,168,76,.3);background:rgba(201,168,76,.06)}
+.lr-prog svg{flex:none;width:52px;height:52px}
+.lr-prog svg text{fill:var(--gold-bright,#F0D878);font-size:12px;font-weight:800;font-family:inherit}
+:root[data-theme="light"] .lr-prog svg text{fill:#8B6914}
+.lr-prog-t b{display:block;font-size:10px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold,#C9A84C);margin-bottom:3px}
+.lr-prog-t span{font-size:11.5px;line-height:1.45;color:rgba(240,237,232,.65);display:block}
+:root[data-theme="light"] .lr-prog-t span{color:rgba(26,31,40,.65)}
+
+/* timeline diagram — medallion row per the benchmark */
+.lms-diagram.t-timeline .ld-stage{flex-direction:row;align-items:stretch;gap:0;position:relative}
+.lms-diagram.t-timeline .ld-stage::before{content:'';position:absolute;left:8%;right:8%;top:29px;
+  border-top:2px dotted rgba(201,168,76,.45)}
+.lms-diagram.t-timeline .ld-node{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;
+  text-align:center;background:none;border:none;padding:0 10px;position:relative}
+.lms-diagram.t-timeline .ld-node:hover{transform:none}
+.lms-diagram.t-timeline .ld-num{order:2;margin:10px 0 2px;width:auto}
+.lms-diagram.t-timeline .ld-node b{order:3;flex:none;min-width:0;font-size:13.5px}
+.lms-diagram.t-timeline .ld-node .ld-sub{order:4;margin-top:5px;font-size:11.5px}
+.lms-diagram.t-timeline .ld-med{order:1;width:58px;height:58px;border-radius:50%;flex:none;
+  display:flex;align-items:center;justify-content:center;color:var(--gold-bright,#F0D878);
+  border:1.5px solid var(--gold,#C9A84C);background:
+    radial-gradient(60% 60% at 50% 40%,rgba(201,168,76,.35),rgba(5,10,18,.9)),
+    linear-gradient(160deg,#0B1524,#070F1C);
+  box-shadow:0 6px 20px rgba(0,0,0,.35),inset 0 0 12px rgba(201,168,76,.25);z-index:1}
+:root[data-theme="light"] .lms-diagram.t-timeline .ld-med{background:
+    radial-gradient(60% 60% at 50% 40%,rgba(139,105,20,.3),#FFFFFF);box-shadow:0 6px 18px rgba(27,36,52,.15);color:#8B6914}
+@media(max-width:680px){
+  .lms-diagram.t-timeline .ld-stage{flex-direction:column;gap:16px}
+  .lms-diagram.t-timeline .ld-stage::before{display:none}
+  .lms-diagram.t-timeline .ld-node{flex-direction:row;text-align:left;gap:12px;padding:0}
+  .lms-diagram.t-timeline .ld-med{width:44px;height:44px}
+  .lms-diagram.t-timeline .ld-node b{font-size:13px}
+  .lms-diagram.t-timeline .ld-node .ld-sub{margin-top:2px}
+  .lms-diagram.t-timeline .ld-num{margin:0}
+  .lms-diagram.t-timeline .ld-node{display:grid;grid-template-columns:44px 1fr;grid-template-rows:auto auto auto;column-gap:12px}
+  .lms-diagram.t-timeline .ld-med{grid-row:1/4}
+}
+
+/* section media image (registry: sections[].img) */
+.lms-acc .acc-img{display:block;width:100%;border-radius:11px;margin:0 0 12px;aspect-ratio:21/9;object-fit:cover;
+  border:1px solid rgba(201,168,76,.25)}
+
+/* stat bars — lightweight data visualization (diagram type 'bars') */
+.lms-diagram.t-bars .ld-stage{flex-direction:column;gap:12px}
+.lms-diagram.t-bars .ld-node{display:block;background:none;border:none;padding:0;min-width:0;flex:none}
+.lms-diagram.t-bars .ld-node:hover{transform:none}
+.lms-diagram.t-bars .ld-num{display:none}
+.lms-diagram.t-bars .ld-node b{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;margin-bottom:5px}
+.lms-diagram.t-bars .ld-node b em{font-style:normal;color:var(--gold-bright,#F0D878);font-variant-numeric:tabular-nums}
+:root[data-theme="light"] .lms-diagram.t-bars .ld-node b em{color:#8B6914}
+.lms-diagram.t-bars .ld-bar{height:10px;border-radius:999px;background:rgba(201,168,76,.14);overflow:hidden}
+.lms-diagram.t-bars .ld-bar i{display:block;height:100%;border-radius:999px;width:0;
+  background:linear-gradient(90deg,#8B6914,#C9A84C,#F0D878);transition:width .9s cubic-bezier(.22,1,.36,1)}
+.lms-diagram.t-bars .ld-sub{margin-top:4px}

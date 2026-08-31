@@ -363,3 +363,66 @@
   #tab-range .nav-back{padding:7px 13px 7px 10px;font-size:11.5px}
   #tab-range #rangeSearch{padding:7px 12px !important;font-size:11.5px !important}
 }
+
+/* ═══ Worth a Look — premium recommendation cards (v2, per reference) ═══ */
+#tab-range .wal-grid{display:grid;grid-template-columns:minmax(0,1fr) 264px;gap:24px;align-items:start}
+@media(max-width:1080px){#tab-range .wal-grid{grid-template-columns:1fr}}
+#tab-range .wal-card{position:relative;margin:0 0 18px 34px;padding:22px 24px;border-radius:18px;overflow:visible}
+#tab-range .wal-num{position:absolute;left:-34px;top:22px;width:48px;height:48px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;
+  color:var(--gold-bright,#F0D878);letter-spacing:.04em;
+  border:1.5px solid var(--gold-border-hover,rgba(201,168,76,.5));
+  background:radial-gradient(60% 60% at 50% 38%,rgba(201,168,76,.3),rgba(5,10,18,.95));
+  box-shadow:0 8px 22px rgba(0,0,0,.4)}
+:root[data-theme="light"] #tab-range .wal-num{color:#8B6914;
+  background:radial-gradient(60% 60% at 50% 38%,rgba(139,105,20,.22),#FFFFFF);box-shadow:0 8px 18px rgba(27,36,52,.14)}
+#tab-range .wal-top{display:flex;gap:16px;align-items:flex-start}
+#tab-range .wal-ico{flex:none;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:var(--gold-bright,#F0D878);border:1.5px solid var(--gold-border,rgba(201,168,76,.35));
+  background:radial-gradient(60% 60% at 50% 38%,rgba(201,168,76,.25),rgba(5,10,18,.85));
+  box-shadow:inset 0 0 14px rgba(201,168,76,.2)}
+#tab-range .wal-ico svg{width:26px;height:26px}
+:root[data-theme="light"] #tab-range .wal-ico{color:#8B6914;
+  background:radial-gradient(60% 60% at 50% 38%,rgba(139,105,20,.18),#FFFFFF)}
+#tab-range .wal-tt{flex:1;min-width:0}
+#tab-range .wal-tr{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#tab-range .wal-tr h3{font-family:var(--serif,Georgia,serif);font-size:19px;font-weight:600;flex:1;min-width:160px}
+#tab-range .wal-sum{font-size:14px;color:var(--r-text-2);line-height:1.7;margin:8px 0 8px}
+#tab-range .wal-because{font-size:12.5px;color:var(--r-text-2);line-height:1.65;margin:0 0 10px;
+  border-left:2px solid var(--r-line2);padding-left:12px}
+#tab-range .wal-because b{color:var(--r-explore)}
+#tab-range .wal-meta{display:flex;gap:9px;flex-wrap:wrap;align-items:baseline;font-size:12px;color:var(--r-text-2);margin:0}
+#tab-range .wal-meta i{font-style:normal;opacity:.45}
+#tab-range .wal-actions{display:flex;gap:9px;margin-top:14px;flex-wrap:wrap}
+#tab-range .wal-a{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;
+  padding:9px 15px;border-radius:999px;cursor:pointer;font-family:inherit;line-height:1;transition:border-color .2s,transform .15s}
+#tab-range .wal-a svg{width:14px;height:14px}
+#tab-range .wal-a.ghost{background:none;border:1px solid var(--r-line);color:var(--r-text-2)}
+#tab-range .wal-a.ghost:hover{border-color:var(--r-explore);color:var(--r-text)}
+#tab-range .wal-a.gold{background:none;border:1.5px solid var(--gold-border-hover,rgba(201,168,76,.55));color:var(--gold-bright,#F0D878)}
+:root[data-theme="light"] #tab-range .wal-a.gold{color:#8B6914;border-color:rgba(139,105,20,.55)}
+#tab-range .wal-a.gold:hover{transform:translateY(-1px)}
+#tab-range .wal-a.dim{opacity:.75}
+#tab-range .wal-side{position:sticky;top:80px}
+@media(max-width:1080px){#tab-range .wal-side{position:static}}
+#tab-range .wal-how{padding:20px 20px 18px;border-radius:16px}
+#tab-range .wal-how-h{font-size:13px;font-weight:700;color:var(--gold-bright,#F0D878);margin:0 0 16px}
+:root[data-theme="light"] #tab-range .wal-how-h{color:#8B6914}
+#tab-range .wal-how-r{position:relative;display:flex;gap:12px;align-items:flex-start;font-size:12.5px;
+  color:var(--r-text-2);line-height:1.5;padding:0 0 18px}
+#tab-range .wal-how-r:last-of-type{padding-bottom:4px}
+#tab-range .wal-how-i{flex:none;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--gold-border,rgba(201,168,76,.35));color:var(--gold,#C9A84C);background:rgba(201,168,76,.07);z-index:1}
+#tab-range .wal-how-i svg{width:16px;height:16px}
+#tab-range .wal-how-l{position:absolute;left:17px;top:34px;bottom:0;border-left:1px dashed var(--r-line2)}
+#tab-range .wal-how-cta{display:block;width:100%;margin-top:14px;padding:11px 16px;border-radius:999px;cursor:pointer;
+  font-family:inherit;font-size:12.5px;font-weight:800;border:1.5px solid var(--gold-border-hover,rgba(201,168,76,.55));
+  background:linear-gradient(135deg,rgba(201,168,76,.16),rgba(201,168,76,.05));color:var(--gold-bright,#F0D878)}
+:root[data-theme="light"] #tab-range .wal-how-cta{color:#8B6914;border-color:rgba(139,105,20,.55)}
+@media(max-width:640px){
+  #tab-range .wal-card{margin-left:0;padding:18px 16px}
+  #tab-range .wal-num{position:static;width:38px;height:38px;font-size:12px;margin-bottom:10px}
+  #tab-range .wal-top{gap:12px}
+  #tab-range .wal-ico{width:44px;height:44px}
+  #tab-range .wal-ico svg{width:20px;height:20px}
+}

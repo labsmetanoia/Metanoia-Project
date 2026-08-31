@@ -463,6 +463,24 @@
       terms.forEach(function (t) { (cvLow.indexOf(t) > -1 ? hits : misses).push(t); });
       var cov = terms.length ? Math.round(hits.length / terms.length * 100) : 0;
 
+      /* the simulator view: walk the same stages a real parser walks,
+         so the applicant experiences the machine's reading order */
+      var pipeEmail = /[\w.+-]+@[\w-]+\.[a-z]{2,}/i.test(cv);
+      var pipeEdu = /education|pendidikan|university|universitas|institut/i.test(cv);
+      var pipeExp = /experience|pengalaman|internship|magang|project|proyek/i.test(cv);
+      var pl = card(w, T('The pipeline — what the machine did with your file', 'Pipeline — apa yang mesin lakukan dengan berkasmu'), null,
+        T('A real ATS runs your application through stages, and each stage can silently drop you. This is the same sequence, run transparently on your text:',
+          'ATS sungguhan menjalankan lamaranmu lewat tahapan, dan tiap tahap bisa diam-diam menggugurkanmu. Ini urutan yang sama, dijalankan transparan pada teksmu:'));
+      [[T('1 · Parse', '1 · Parse'), cv.length + T(' characters of plain text extracted', ' karakter teks polos terekstrak'), cv.length > 400],
+       [T('2 · Identify', '2 · Identifikasi'), pipeEmail ? T('contact details located', 'detail kontak ditemukan') : T('no email found — many systems file this under “incomplete”', 'email tak ditemukan — banyak sistem memberkaskan ini sebagai “tak lengkap”'), pipeEmail],
+       [T('3 · Segment', '3 · Segmentasi'), (pipeEdu && pipeExp) ? T('education and experience sections recognised', 'bagian pendidikan dan pengalaman terkenali') : T('standard section headings missing — content risks landing in the wrong field', 'judul bagian standar hilang — isi berisiko masuk bidang yang salah'), pipeEdu && pipeExp],
+       [T('4 · Match', '4 · Cocokkan'), hits.length + '/' + terms.length + T(' load-bearing JD terms found', ' istilah penopang JD ditemukan'), terms.length > 0 && hits.length / Math.max(terms.length, 1) >= 0.5]
+      ].forEach(function (st) {
+        pl.appendChild(el('p', 'pg-sub', (st[2] ? '<span style="color:#4ADE80">●</span> ' : '<span style="color:#EF6F5E">●</span> ') + '<b>' + st[0] + '</b> — ' + st[1]));
+      });
+      pl.appendChild(el('p', 'pg-note', T('Each stage mirrors what commercial parsers document publicly; thresholds and weights vary by employer, which is exactly why this simulator shows its rules instead of guessing theirs.',
+        'Tiap tahap mencerminkan yang didokumentasikan parser komersial secara publik; ambang dan bobot berbeda per pemberi kerja — itulah mengapa simulator ini menunjukkan aturannya alih-alih menebak milik mereka.')));
+
       var r = card(w, T('Result — transparent and rule-based', 'Hasil — transparan dan berbasis aturan'),
         cov + '% ' + T('load-bearing term coverage', 'cakupan istilah penopang'), null);
       var bar = el('div', 'pg-bar');
