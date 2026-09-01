@@ -397,6 +397,14 @@ button[data-lang]{display:inline-flex;align-items:center;gap:7px}
   .mp-hero{min-height:0;align-items:stretch}
   /* beat .wrap's later padding shorthand with two classes */
   .mp-hero .mp-hero-in{padding-top:118px;padding-bottom:120px}
+  /* the tall mobile hero puts the headline over the image's bright sky —
+     deepen the scrim there and shadow the type so gold stays legible */
+  .mp-hero-veil,
+  :root[data-theme="light"] .mp-hero-veil{background:
+    linear-gradient(180deg,rgba(5,10,18,.78) 0%,rgba(5,10,18,.58) 45%,rgba(5,10,18,.72) 75%,var(--bg-base) 100%)}
+  .mp-hero .mast-kicker{text-shadow:0 1px 10px rgba(0,0,0,.7)}
+  .mp-hero .mast-title{text-shadow:0 2px 18px rgba(0,0,0,.6)}
+  .mp-hero .mast-sub{text-shadow:0 1px 10px rgba(0,0,0,.55)}
   .list .lrow{grid-template-columns:72px 1fr auto;gap:10px}
   .list .lrow .thumb{width:72px;height:50px}
 }
@@ -1282,5 +1290,6 @@ body.m .site-footer{display:none}
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
+<script src="../js/mob-footer.js"></script>
 </body>
 </html>
