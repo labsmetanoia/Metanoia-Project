@@ -76,6 +76,16 @@
     --glass-bg:rgba(255,255,255,.72); --glass-bg-heavy:rgba(255,255,255,.94);
     --text:#1B2434; --text-sub:rgba(27,36,52,.84); --text-muted:rgba(27,36,52,.62); --text-faint:rgba(27,36,52,.42);
   }
+  /* On desktop the gauntlet and system copy overlays dark imagery, so the
+     cream text tokens hold in both themes. On mobile that same copy sits on
+     the page background — in light theme the tokens must flip to dark ink. */
+  @media (max-width:768px){
+    :root[data-theme="light"]{
+      --text-primary:#1B2434; --text-secondary:rgba(27,36,52,.74); --text-tertiary:rgba(27,36,52,.48);
+      --gold-text:#6E520F; --gold-dim:rgba(139,105,20,.12); --gold-mid:rgba(139,105,20,.42);
+      --glass-bg:rgba(255,255,255,.72); --glass-border:rgba(139,105,20,.22); --elevated-bg:rgba(255,255,255,.94);
+    }
+  }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{margin:0;background:var(--bg-base);color:var(--text);font-family:var(--font);
@@ -4366,5 +4376,6 @@ const GAUNTLET_GATES = [
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
+<script src="../js/mob-footer.js"></script>
 </body>
 </html>
