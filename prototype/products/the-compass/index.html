@@ -703,9 +703,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <nav class="sb-nav" aria-label="Dashboard navigation">
       <button class="nav-item" data-tab="bearing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg></span><span data-en="Bearing" data-id="Bearing">Bearing</span></button>
       <button class="nav-item" data-tab="course-plotter"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg></span><span data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</span><span class="nav-badge" id="appsBadge">0</span></button>
-      <button class="nav-item" data-tab="my-learning"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="My Learning" data-id="Kurikulumku">My Learning</span></button>
+      <button class="nav-item" data-tab="my-learning"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17.5H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg></span><span data-en="My Learning" data-id="Pembelajaranku">My Learning</span></button>
       <button class="nav-item" data-tab="waypoints"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></span><span data-en="Waypoints" data-id="Titik Singgah">Waypoints</span></button>
-      <button class="nav-item" data-tab="nav-briefing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg></span><span data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</span></button>
+      <button class="nav-item" data-tab="nav-briefing"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6.5 6.5 0 0 0-4 11.6c.7.6 1 1.4 1 2.4h6c0-1 .3-1.8 1-2.4A6.5 6.5 0 0 0 12 3Z"/></svg></span><span data-en="Navigation Briefing" data-id="Pengarahan Navigasi">Navigation Briefing</span></button>
     </nav>
     <div class="sb-ring-card" id="sbRingCard" role="button" tabindex="0" aria-label="Career readiness — open dashboard">
       <span class="ring" id="sbRing" style="width:56px;height:56px">
@@ -734,7 +734,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="glass-card char-sheet" id="charSheet"></div>
       <h3 class="sec-label" data-en="Compass Points" data-id="Titik Kompas">Compass Points</h3>
       <div class="dim-grid" id="dimGrid"></div>
-      <h3 class="sec-label" data-en="Course Pipeline" data-id="Alur Rute">Course Pipeline</h3>
+      <h3 class="sec-label" data-en="Course Pipeline" data-id="Alur Lamaran">Course Pipeline</h3>
       <div class="glass-card pipe-sum" id="pipeSum"></div>
       <h3 class="sec-label" data-en="Product Completion Map" data-id="Peta Penyelesaian Produk">Product Completion Map</h3>
       <div class="pmap-grid" id="pmapGrid"></div>
@@ -744,10 +744,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <section class="tab-content" id="tab-course-plotter" hidden>
       <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/gauntlet/gate-01-submission.jpg');background-position:center 35%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Every application, charted" data-id="Setiap lamaran, terpetakan">Every application, charted</span>
         <h2 data-en="Course Plotter" data-id="Perencana Rute">Course Plotter</h2>
-        <p class="tab-sub" data-en="Every application is a route. Track every stage, every move, every result." data-id="Setiap lamaran adalah rute. Lacak setiap tahap, setiap langkah, setiap hasil.">Every application is a route. Track every stage, every move, every result.</p>
+        <p class="tab-sub" data-en="Every application is a route. Track every stage, every move, every result." data-id="Setiap lamaran adalah sebuah rute. Pantau setiap tahap, setiap langkah, setiap hasilnya.">Every application is a route. Track every stage, every move, every result.</p>
       </div></div>
       <div class="apps-controls">
-        <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Tambah Rute Baru">+ Plot New Route</span></button>
+        <button class="btn-gold" id="addAppBtn"><span data-en="+ Plot New Route" data-id="+ Buat Rute Baru">+ Plot New Route</span></button>
         <span class="spacer"></span>
         <div class="seg-toggle" role="group" aria-label="View mode">
           <button id="viewBoardBtn" data-en="Board" data-id="Papan">Board</button>
@@ -767,12 +767,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <!-- ─── TAB: PROGRESS ─── -->
     <section class="tab-content" id="tab-my-learning" hidden>
       <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/stage-foundation.jpg');background-position:center 30%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="The full curriculum, one view" data-id="Kurikulum penuh, satu tampilan">The full curriculum, one view</span>
-        <h2 data-en="My Learning" data-id="Kurikulumku">My Learning</h2>
-        <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed and skills earned across every product." data-id="Kurikulum Metanoia lengkapmu — modul yang selesai dan keterampilan yang diperoleh di semua produk.">Your complete Metanoia curriculum — modules completed and skills earned across every product.</p>
+        <h2 data-en="My Learning" data-id="Pembelajaranku">My Learning</h2>
+        <p class="tab-sub" data-en="Your complete Metanoia curriculum — modules completed and skills earned across every product." data-id="Seluruh kurikulum Metanoia milikmu — modul yang sudah selesai dan keterampilan yang sudah kamu raih di semua produk.">Your complete Metanoia curriculum — modules completed and skills earned across every product.</p>
         <p class="tab-stats" id="progTotals"></p>
       </div></div>
       <div id="progCards"></div>
-      <h3 class="sec-label" data-en="Skills You've Earned So Far" data-id="Keterampilan yang Telah Kamu Peroleh">Skills You've Earned So Far</h3>
+      <h3 class="sec-label" data-en="Skills You've Earned So Far" data-id="Keterampilan yang Sudah Kamu Raih">Skills You've Earned So Far</h3>
       <div class="glass-card" style="padding:22px 26px"><div class="skills-cloud" id="skillsCloud"></div></div>
     </section>
 
@@ -780,13 +780,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <section class="tab-content" id="tab-waypoints" hidden>
       <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/m/05-summit.jpg');background-position:center 38%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Marked. Permanent. Yours." data-id="Ditandai. Permanen. Milikmu.">Marked. Permanent. Yours.</span>
         <h2 data-en="Waypoints" data-id="Titik Singgah">Waypoints</h2>
-        <p class="tab-sub" data-en="Every achievement, permanently marked. Every step forward, permanently yours." data-id="Setiap pencapaian, ditandai selamanya. Setiap langkah maju, milikmu selamanya.">Every achievement, permanently marked. Every step forward, permanently yours.</p>
+        <p class="tab-sub" data-en="Every achievement, permanently marked. Every step forward, permanently yours." data-id="Setiap pencapaian tercatat permanen. Setiap langkah maju, selamanya milikmu.">Every achievement, permanently marked. Every step forward, permanently yours.</p>
       </div></div>
       <h3 class="sec-label" data-en="The 4-Year Journey Map" data-id="Peta Perjalanan 4 Tahun">The 4-Year Journey Map</h3>
       <div class="glass-card journey-map" id="journeyMap"></div>
       <h3 class="sec-label" data-en="Achievement Badges" data-id="Lencana Pencapaian">Achievement Badges</h3>
       <div class="badge-grid" id="badgeGrid"></div>
-      <h3 class="sec-label" data-en="Career Journey Log" data-id="Log Perjalanan Karier">Career Journey Log</h3>
+      <h3 class="sec-label" data-en="Career Journey Log" data-id="Jurnal Perjalanan Karier">Career Journey Log</h3>
       <div class="glass-card" style="padding:22px 26px">
         <div class="jlog-filters" id="jlogFilters"></div>
         <div class="jlog" id="jlog"></div>
@@ -796,8 +796,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <!-- ─── TAB: INSIGHTS ─── -->
     <section class="tab-content" id="tab-nav-briefing" hidden>
       <div class="tab-hero"><span class="th-img" style="background-image:url('../../assets/bg/fg-stage-horizon.jpg');background-position:center 45%" aria-hidden="true"></span><span class="th-veil" aria-hidden="true"></span><div class="th-in"><span class="th-kick" data-en="Signal from your own data" data-id="Sinyal dari datamu sendiri">Signal from your own data</span>
-        <h2 data-en="Navigation Briefing" data-id="Briefing Navigasi">Navigation Briefing</h2>
-        <p class="tab-sub" data-en="Your career position analysis. Updated every time you log progress or advance a route." data-id="Analisis posisi kariermu. Diperbarui setiap kali kamu mencatat kemajuan atau memajukan rute.">Your career position analysis. Updated every time you log progress or advance a route.</p>
+        <h2 data-en="Navigation Briefing" data-id="Pengarahan Navigasi">Navigation Briefing</h2>
+        <p class="tab-sub" data-en="Your career position analysis. Updated every time you log progress or advance a route." data-id="Analisis posisi kariermu. Diperbarui setiap kali kamu mencatat kemajuan atau memajukan sebuah rute ke tahap berikutnya.">Your career position analysis. Updated every time you log progress or advance a route.</p>
       </div></div>
       <h3 class="sec-label" data-en="Your Priority Actions" data-id="Tindakan Prioritasmu">Your Priority Actions</h3>
       <div id="priActions"></div>
@@ -807,7 +807,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="glass-card soon-card">
         <div class="sc-lock">🔒 <span data-en="Coming Soon — Compass Intelligence" data-id="Segera Hadir — Compass Intelligence">Coming Soon — Compass Intelligence</span></div>
         <h4 data-en="Competitive Positioning" data-id="Posisi Kompetitif">Competitive Positioning</h4>
-        <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser." data-id="Setelah jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan bagaimana skor kesiapanmu dibandingkan dengan pelajar yang menargetkan peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan berbeda oleh 10% teratas. Fitur ini sedang dikembangkan, dan akan sepenuhnya opt-in — hari ini semua data Compass-mu tetap di peramban ini.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser.</p>
+        <p data-en="Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser." data-id="Begitu jaringan Compass mencapai massa kritis, bagian ini akan menunjukkan posisi skor kesiapanmu dibandingkan pelajar lain yang membidik peran, industri, dan perusahaan yang sama. Kamu akan tahu persis apa yang dilakukan secara berbeda oleh 10% teratas. Fitur ini masih dalam pengembangan dan sepenuhnya bersifat opsional (opt-in) — untuk saat ini, semua data Compass-mu tetap tersimpan di browser ini.">Once the Compass network reaches critical mass, this section will show you how your readiness scores compare to students targeting the same roles, industries, and companies. You'll know exactly what the top 10% do differently. This feature is in development, and will be strictly opt-in — today all of your Compass data stays in this browser.</p>
       </div>
       <h3 class="sec-label" data-en="Weekly Navigation Summary" data-id="Ringkasan Navigasi Mingguan">Weekly Navigation Summary</h3>
       <div class="glass-card week-card" id="weekCard"></div>
@@ -830,7 +830,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <div class="veil" id="appModal" role="dialog" aria-modal="true" aria-labelledby="appModalTitle">
   <div class="modal-card">
     <div class="modal-head">
-      <h3 id="appModalTitle" data-en="Plot New Route" data-id="Tambah Rute Baru">Plot New Route</h3>
+      <h3 id="appModalTitle" data-en="Plot New Route" data-id="Buat Rute Baru">Plot New Route</h3>
       <button class="modal-x" data-close="appModal" aria-label="Close">✕</button>
     </div>
     <form id="appForm" novalidate>
@@ -843,7 +843,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="f-field"><label for="fStatus"><span data-en="Status" data-id="Status">Status</span></label><select id="fStatus"></select></div>
         <div class="f-field"><label for="fCompanyType"><span data-en="Company Type" data-id="Jenis Perusahaan">Company Type</span></label><select id="fCompanyType"></select></div>
         <div class="f-field"><label for="fNextDue"><span data-en="Next Action Due" data-id="Tenggat Tindakan Berikutnya">Next Action Due</span></label><input id="fNextDue" type="date"></div>
-        <div class="f-field full"><label for="fNextAction"><span data-en="Next Action Required" data-id="Tindakan Berikutnya yang Diperlukan">Next Action Required</span></label><input id="fNextAction" type="text"></div>
+        <div class="f-field full"><label for="fNextAction"><span data-en="Next Action Required" data-id="Tindakan Berikutnya">Next Action Required</span></label><input id="fNextAction" type="text"></div>
         <div class="f-field full"><label for="fNotes"><span data-en="Notes" data-id="Catatan">Notes</span></label><textarea id="fNotes" rows="4"></textarea></div>
         <div class="vault" id="vault">
           <button type="button" class="vault-toggle" id="vaultToggle" aria-expanded="false"><i class="vt-car">▸</i><span data-en="Documents &amp; Files (optional)" data-id="Dokumen &amp; Berkas (opsional)">Documents &amp; Files (optional)</span></button>
@@ -869,7 +869,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <div class="veil" id="debriefModal" role="dialog" aria-modal="true" aria-labelledby="debriefTitle">
   <div class="modal-card" style="max-width:520px">
     <div class="modal-head">
-      <h3 id="debriefTitle" data-en="Interview Debrief" data-id="Debriefing Wawancara">Interview Debrief</h3>
+      <h3 id="debriefTitle" data-en="Interview Debrief" data-id="Debrief Wawancara">Interview Debrief</h3>
       <button class="modal-x" data-close="debriefModal" aria-label="Close">✕</button>
     </div>
     <form id="debriefForm" novalidate>
@@ -881,9 +881,9 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <button type="button" data-v="1" aria-label="1 star">★</button><button type="button" data-v="2" aria-label="2 stars">★</button><button type="button" data-v="3" aria-label="3 stars">★</button><button type="button" data-v="4" aria-label="4 stars">★</button><button type="button" data-v="5" aria-label="5 stars">★</button>
           </div>
         </div>
-        <div class="f-field full"><label for="dbSurprise"><span data-en="Questions That Caught You Off Guard" data-id="Pertanyaan yang Mengejutkanmu">Questions That Caught You Off Guard</span></label><textarea id="dbSurprise" rows="3" data-ph-en="List questions that caught you off guard" data-ph-id="Tuliskan pertanyaan yang mengejutkanmu"></textarea></div>
-        <div class="f-field full"><label for="dbBetter"><span data-en="What I'd Answer Differently" data-id="Apa yang Akan Kujawab Berbeda">What I'd Answer Differently</span></label><textarea id="dbBetter" rows="3" data-ph-en="What would I answer differently?" data-ph-id="Apa yang akan kujawab berbeda?"></textarea></div>
-        <div class="f-field full"><label for="dbLearning"><span data-en="Key Learning" data-id="Pembelajaran Utama">Key Learning</span></label><textarea id="dbLearning" rows="3" data-ph-en="What did I learn from this interview?" data-ph-id="Apa yang kupelajari dari wawancara ini?"></textarea></div>
+        <div class="f-field full"><label for="dbSurprise"><span data-en="Questions That Caught You Off Guard" data-id="Pertanyaan yang Membuatmu Kaget">Questions That Caught You Off Guard</span></label><textarea id="dbSurprise" rows="3" data-ph-en="List questions that caught you off guard" data-ph-id="Tuliskan pertanyaan yang membuatmu kaget"></textarea></div>
+        <div class="f-field full"><label for="dbBetter"><span data-en="What I'd Answer Differently" data-id="Jawaban yang Akan Kuubah">What I'd Answer Differently</span></label><textarea id="dbBetter" rows="3" data-ph-en="What would I answer differently?" data-ph-id="Kalau diulang, jawaban mana yang akan kuubah?"></textarea></div>
+        <div class="f-field full"><label for="dbLearning"><span data-en="Key Learning" data-id="Pelajaran Utama">Key Learning</span></label><textarea id="dbLearning" rows="3" data-ph-en="What did I learn from this interview?" data-ph-id="Apa yang kupelajari dari wawancara ini?"></textarea></div>
       </div>
       <div class="modal-foot">
         <button type="button" class="btn-plain" data-close="debriefModal" data-en="Cancel" data-id="Batal">Cancel</button>
@@ -900,7 +900,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <h3 id="rejectTitle" style="display:flex;align-items:center;gap:10px"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 30 L15 12 L20 20 L25 9 L34 30" stroke="#C9A84C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Route Closed" data-id="Rute Ditutup">Route Closed</span></h3>
       <button class="modal-x" data-close="rejectModal" aria-label="Close">✕</button>
     </div>
-    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every closed route teaches you something the open ones can&#39;t. Navigate better next time." data-id="Setiap rute yang ditutup mengajarkan sesuatu yang tidak bisa diajarkan rute yang terbuka. Bernavigasilah lebih baik lain kali.">Every closed route teaches you something the open ones can't. Navigate better next time.</p>
+    <p style="font-size:13px;color:var(--text-sub);line-height:1.7;margin-bottom:18px" data-en="Every closed route teaches you something the open ones can&#39;t. Navigate better next time." data-id="Rute yang ditutup mengajarkan hal yang tak bisa diajarkan rute yang masih terbuka. Jadikan bekal agar navigasimu lebih baik lain kali.">Every closed route teaches you something the open ones can't. Navigate better next time.</p>
     <form id="rejectForm" novalidate>
       <div class="f-grid">
         <div class="f-field full"><label for="rjStage"><span data-en="Which stage did you reach?" data-id="Tahap mana yang kamu capai?">Which stage did you reach?</span></label><select id="rjStage"></select></div>
@@ -942,17 +942,17 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <h4 data-en="Total Compensation Breakdown" data-id="Rincian Total Kompensasi">Total Compensation Breakdown</h4>
       <div class="offer-grid">
         <span class="og-l" data-en="Base Salary (monthly)" data-id="Gaji Pokok (bulanan)">Base Salary (monthly)</span><input id="oeBase" type="number" min="0" placeholder="Amount">
-        <span class="og-l" data-en="Transport Allowance (monthly)" data-id="Tunjangan Transpor (bulanan)">Transport Allowance (monthly)</span><input id="oeTransport" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="Transport Allowance (monthly)" data-id="Tunjangan Transportasi (bulanan)">Transport Allowance (monthly)</span><input id="oeTransport" type="number" min="0" placeholder="Amount">
         <span class="og-l" data-en="Meal Allowance (monthly)" data-id="Tunjangan Makan (bulanan)">Meal Allowance (monthly)</span><input id="oeMeal" type="number" min="0" placeholder="Amount">
         <span class="og-l" data-en="Health Insurance" data-id="Asuransi Kesehatan">Health Insurance</span><select id="oeHealth"></select>
-        <span class="og-l"><span data-en="13th-Month / Holiday Bonus" data-id="Bonus Hari Raya / Gaji ke-13">13th-Month / Holiday Bonus)</span><small data-en="Leave empty for auto: 1× monthly base" data-id="Kosongkan untuk otomatis: 1× gaji pokok">Leave empty for auto: 1× monthly base</small></span><input id="oeThr" type="number" min="0" placeholder="auto">
+        <span class="og-l"><span data-en="13th-Month / Holiday Bonus" data-id="THR / Gaji ke-13">13th-Month / Holiday Bonus)</span><small data-en="Leave empty for auto: 1× monthly base" data-id="Kosongkan untuk hitung otomatis: 1× gaji pokok bulanan">Leave empty for auto: 1× monthly base</small></span><input id="oeThr" type="number" min="0" placeholder="auto">
         <span class="og-l" data-en="Performance Bonus (annual est.)" data-id="Bonus Kinerja (perkiraan tahunan)">Performance Bonus (annual est.)</span><input id="oeBonus" type="number" min="0" placeholder="Amount">
-        <span class="og-l"><span data-en="Statutory benefits (employer contribution)" data-id="Iuran wajib (kontribusi pemberi kerja)">BPJS (employer contribution)</span><small data-en="Auto-calculated at 3.7% of base" data-id="Dihitung otomatis 3,7% dari gaji pokok">Auto-calculated at 3.7% of base</small></span><input id="oeBpjs" type="text" disabled value="—">
+        <span class="og-l"><span data-en="Statutory benefits (employer contribution)" data-id="Jaminan sosial wajib (porsi pemberi kerja)">BPJS (employer contribution)</span><small data-en="Auto-calculated at 3.7% of base" data-id="Dihitung otomatis 3,7% dari gaji pokok">Auto-calculated at 3.7% of base</small></span><input id="oeBpjs" type="text" disabled value="—">
       </div>
       <div class="offer-total"><span data-en="Total Annual Package" data-id="Total Paket Tahunan">Total Annual Package</span><span class="ot-v" id="oeTotal">0</span></div>
     </div>
     <div class="offer-sec">
-      <h4 data-en="Market Rate Comparison" data-id="Perbandingan Harga Pasar">Market Rate Comparison</h4>
+      <h4 data-en="Market Rate Comparison" data-id="Perbandingan dengan Pasar">Market Rate Comparison</h4>
       <div class="offer-grid">
         <span class="og-l" data-en="Market Range — minimum (annual)" data-id="Kisaran Pasar — minimum (tahunan)">Market Range — minimum (annual)</span><input id="oeMktMin" type="number" min="0" placeholder="Amount">
         <span class="og-l" data-en="Market Range — maximum (annual)" data-id="Kisaran Pasar — maksimum (tahunan)">Market Range — maximum (annual)</span><input id="oeMktMax" type="number" min="0" placeholder="Amount">
@@ -963,7 +963,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <h4 data-en="Negotiation Notes" data-id="Catatan Negosiasi">Negotiation Notes</h4>
       <div class="offer-grid">
         <span class="og-l" data-en="My target number (annual)" data-id="Angka targetku (tahunan)">My target number (annual)</span><input id="oeTarget" type="number" min="0" placeholder="Amount">
-        <span class="og-l" data-en="My floor — walk-away (annual)" data-id="Batas bawahku — walk-away (tahunan)">My floor — walk-away (annual)</span><input id="oeFloor" type="number" min="0" placeholder="Amount">
+        <span class="og-l" data-en="My floor — walk-away (annual)" data-id="Batas minimumku — titik mundur (tahunan)">My floor — walk-away (annual)</span><input id="oeFloor" type="number" min="0" placeholder="Amount">
       </div>
       <div class="f-field" style="margin-top:12px"><label for="oeTalking"><span data-en="Talking points" data-id="Poin pembicaraan">Talking points</span></label><textarea id="oeTalking" rows="3"></textarea></div>
     </div>
@@ -982,12 +982,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <button class="modal-x" data-close="negoModal" aria-label="Close">✕</button>
     </div>
     <div class="nego-script">
-      <p data-en="&lt;b&gt;Step 1 — Gratitude first, numbers second.&lt;/b&gt; Never negotiate in the same breath as the offer. Thank them, confirm your enthusiasm, and ask for 2–3 days to review." data-id="&lt;b&gt;Langkah 1 — Terima kasih dulu, angka kemudian.&lt;/b&gt; Jangan pernah bernegosiasi di napas yang sama dengan penawaran. Ucapkan terima kasih, tegaskan antusiasmemu, dan minta 2–3 hari untuk meninjau."><b>Step 1 — Gratitude first, numbers second.</b> Never negotiate in the same breath as the offer. Thank them, confirm your enthusiasm, and ask for 2–3 days to review.</p>
-      <div class="ns-quote" data-en="“Thank you — I'm genuinely excited about this offer. I'd like to take two days to review the full package carefully. Can we speak again on Thursday?”" data-id="“Terima kasih — saya sungguh antusias dengan penawaran ini. Saya ingin mengambil dua hari untuk meninjau keseluruhan paket dengan cermat. Bisakah kita berbicara lagi hari Kamis?”">“Thank you — I'm genuinely excited about this offer. I'd like to take two days to review the full package carefully. Can we speak again on Thursday?”</div>
-      <p data-en="&lt;b&gt;Step 2 — Anchor on value, not need.&lt;/b&gt; Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored." data-id="&lt;b&gt;Langkah 2 — Berlabuh pada nilai, bukan kebutuhan.&lt;/b&gt; Rujuk cakupan peran dan buktimu — jangan pernah pengeluaranmu. Sampaikan targetmu sebagai kisaran hasil riset, dengan jangkar di atas."><b>Step 2 — Anchor on value, not need.</b> Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored.</p>
-      <div class="ns-quote" data-en="“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”" data-id="“Berdasarkan cakupan yang kita diskusikan dan data pasar untuk peran ini, saya mengharapkan kisaran X sampai Y. Apakah ada fleksibilitas untuk menutup selisih itu?”">“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”</div>
-      <p data-en="&lt;b&gt;Step 3 — Negotiate the package, not just the salary.&lt;/b&gt; If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once." data-id="&lt;b&gt;Langkah 3 — Negosiasikan paketnya, bukan hanya gaji.&lt;/b&gt; Jika gaji pokok tetap, beralih ke bonus penandatanganan, jadwal tinjauan, tunjangan, atau tanggal mulai. Setiap elemen dapat dinegosiasikan satu kali."><b>Step 3 — Negotiate the package, not just the salary.</b> If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once.</p>
-      <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8." data-id="&lt;b&gt;Langkah 4 — Dapatkan secara tertulis.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di The Rope Modul 8."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8.</p>
+      <p data-en="&lt;b&gt;Step 1 — Gratitude first, numbers second.&lt;/b&gt; Never negotiate in the same breath as the offer. Thank them, confirm your enthusiasm, and ask for 2–3 days to review." data-id="&lt;b&gt;Langkah 1 — Ucapkan terima kasih dulu, bicara angka belakangan.&lt;/b&gt; Jangan pernah bernegosiasi di napas yang sama dengan saat tawaran disampaikan. Ucapkan terima kasih, tegaskan antusiasmemu, dan minta waktu 2–3 hari untuk mempelajarinya."><b>Step 1 — Gratitude first, numbers second.</b> Never negotiate in the same breath as the offer. Thank them, confirm your enthusiasm, and ask for 2–3 days to review.</p>
+      <div class="ns-quote" data-en="“Thank you — I'm genuinely excited about this offer. I'd like to take two days to review the full package carefully. Can we speak again on Thursday?”" data-id="“Terima kasih — saya benar-benar antusias dengan tawaran ini. Saya ingin meminta waktu dua hari untuk mempelajari keseluruhan paketnya dengan cermat. Bisakah kita bicara lagi hari Kamis?”">“Thank you — I'm genuinely excited about this offer. I'd like to take two days to review the full package carefully. Can we speak again on Thursday?”</div>
+      <p data-en="&lt;b&gt;Step 2 — Anchor on value, not need.&lt;/b&gt; Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored." data-id="&lt;b&gt;Langkah 2 — Berpijak pada nilai, bukan kebutuhan.&lt;/b&gt; Rujuk lingkup peran dan bukti yang kamu bawa — jangan pernah menyebut pengeluaranmu. Sampaikan targetmu sebagai kisaran hasil riset, dengan angka atasnya sebagai jangkar."><b>Step 2 — Anchor on value, not need.</b> Reference the scope of the role and your evidence — never your expenses. State your target as a researched range, top-anchored.</p>
+      <div class="ns-quote" data-en="“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”" data-id="“Berdasarkan lingkup yang kita bahas dan data pasar untuk peran ini, saya memperkirakan kisaran X sampai Y. Apakah ada ruang untuk menutup selisih itu?”">“Based on the scope we discussed and market data for this role, I was expecting something in the range of X to Y. Is there flexibility to close that gap?”</div>
+      <p data-en="&lt;b&gt;Step 3 — Negotiate the package, not just the salary.&lt;/b&gt; If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once." data-id="&lt;b&gt;Langkah 3 — Negosiasikan paketnya, bukan hanya gajinya.&lt;/b&gt; Kalau gaji pokok tidak bisa diubah, beralihlah ke bonus penandatanganan, jadwal tinjauan gaji, tunjangan, atau tanggal mulai. Setiap unsur bisa dinegosiasikan — satu kali."><b>Step 3 — Negotiate the package, not just the salary.</b> If base is fixed, move to signing bonus, review timeline, allowances, or start date. Every element is negotiable once.</p>
+      <p data-en="&lt;b&gt;Step 4 — Get it in writing.&lt;/b&gt; Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8." data-id="&lt;b&gt;Langkah 4 — Minta hitam di atas putih.&lt;/b&gt; Apa pun yang disepakati secara lisan, konfirmasikan lewat email di hari yang sama. Kerangka lengkapnya ada di The Rope Modul 8."><b>Step 4 — Get it in writing.</b> Whatever is agreed verbally, confirm by email the same day. The full framework lives in The Rope Module 8.</p>
     </div>
     <div class="modal-foot">
       <a class="btn-ghost" href="/products/the-rope/?context=compass"><span data-en="Open The Rope →" data-id="Buka The Rope →">Open The Rope →</span></a>
@@ -1004,7 +1004,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   <div class="upgrade-card">
     <span class="gold-pill">05 · The Compass</span>
     <h2 id="upgradeTitle" data-en="The Compass is part of Metanoia Premium" data-id="The Compass adalah bagian dari Metanoia Premium">The Compass is part of Metanoia Premium</h2>
-    <p data-en="The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product." data-id="Dasbor karier langsung: pelacak lamaran sadar-tahap, lima dimensi kesiapan, lencana pencapaian, dan mesin rekomendasi yang memberitahumu satu langkah terbaik untuk dilakukan hari ini — satu keanggotaan membuka semua produk Metanoia.">The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product.</p>
+    <p data-en="The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product." data-id="Dasbor karier yang hidup: pelacak lamaran yang paham setiap tahap, lima dimensi kesiapan, lencana pencapaian, dan mesin rekomendasi yang memberi tahu satu langkah terbaik untuk kamu lakukan hari ini — satu keanggotaan membuka semua produk Metanoia.">The live career dashboard: a stage-aware application tracker, five readiness dimensions, achievement badges, and a recommendation engine that tells you the single best move to make today — one membership unlocks every Metanoia product.</p>
     <a class="btn-gold" href="../../register?plan=premium" data-en="Upgrade to Premium to Access The Compass →" data-id="Tingkatkan ke Premium untuk Mengakses The Compass →">Upgrade to Premium to Access The Compass →</a>
   </div>
 </div>
@@ -1101,14 +1101,14 @@ function seedDemo() {
   demoStore['compass_network_capital'] = '47';
   demoStore['compass_manual_cm'] = '10';
   demoStore['compass_milestones_log'] = JSON.stringify([
-    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama direncanakan — Danone, Sustainability Graduate Trainee' },
-    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed The Map Module 4 (Communication for Impact)', id: 'Menyelesaikan The Map Modul 4 (Komunikasi untuk Dampak)' },
-    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Plotted route to McKinsey & Company — Business Analyst', id: 'Merencanakan rute ke McKinsey & Company — Business Analyst' },
+    { date: iso(NOW - 55 * DAY), cat: 'app', en: 'First route plotted — Danone, Sustainability Graduate Trainee', id: 'Rute pertama dibuat — Danone, Sustainability Graduate Trainee' },
+    { date: iso(NOW - 44 * DAY), cat: 'metanoia', en: 'Completed The Map Module 4 (Communication for Impact)', id: 'Menyelesaikan The Map Modul 4 (Komunikasi yang Berdampak)' },
+    { date: iso(NOW - 31 * DAY), cat: 'app', en: 'Plotted route to McKinsey & Company — Business Analyst', id: 'Membuat rute ke McKinsey & Company — Business Analyst' },
     { date: iso(NOW - 24 * DAY), cat: 'setback', en: 'Rejection logged — Vertex Telecom (CV Screening) — debrief completed', id: 'Penolakan tercatat — Vertex Telecom (Seleksi CV) — debrief selesai' },
-    { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Final Interview di Danone' },
-    { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — HR Interview CIMB Niaga' },
-    { date: iso(NOW - 6 * DAY), cat: 'metanoia', en: 'Completed The Rope Module 6 (The Final & Leadership Interview)', id: 'Menyelesaikan The Rope Modul 6 (Final & Wawancara Kepemimpinan)' },
-    { date: iso(NOW - 3 * DAY), cat: 'success', en: 'Offer received — Danone, Sustainability Graduate Trainee', id: 'Penawaran diterima — Danone, Sustainability Graduate Trainee' }
+    { date: iso(NOW - 20 * DAY), cat: 'success', en: 'Advanced to Final Interview at Danone', id: 'Maju ke Wawancara Final di Danone' },
+    { date: iso(NOW - 9 * DAY), cat: 'metanoia', en: 'Completed interview debrief — CIMB Niaga HR Interview', id: 'Menyelesaikan debrief wawancara — Wawancara HR CIMB Niaga' },
+    { date: iso(NOW - 6 * DAY), cat: 'metanoia', en: 'Completed The Rope Module 6 (The Final & Leadership Interview)', id: 'Menyelesaikan The Rope Modul 6 (Wawancara Final & Kepemimpinan)' },
+    { date: iso(NOW - 3 * DAY), cat: 'success', en: 'Offer received — Danone, Sustainability Graduate Trainee', id: 'Tawaran diterima — Danone, Sustainability Graduate Trainee' }
   ]);
 }
 if (isDemoMode) seedDemo();
@@ -1163,22 +1163,22 @@ function modulesDone(key, total) {
 /* ─── 13-STAGE PIPELINE ─── */
 const STAGES = [
   { id: 1,  en: 'Target',              idn: 'Target',              group: 'target' },
-  { id: 2,  en: 'Applied',             idn: 'Melamar',             group: 'applied' },
+  { id: 2,  en: 'Applied',             idn: 'Lamaran Masuk',             group: 'applied' },
   { id: 3,  en: 'CV Screening',        idn: 'Seleksi CV',          group: 'applied' },
   { id: 4,  en: 'Online Assessment',   idn: 'Asesmen Online',      group: 'assessment' },
   { id: 5,  en: 'Written Test',        idn: 'Tes Tertulis',        group: 'assessment' },
   { id: 6,  en: 'Case Study',          idn: 'Studi Kasus',         group: 'assessment' },
   { id: 7,  en: 'FGD / LGD',           idn: 'FGD / LGD',           group: 'interview' },
-  { id: 8,  en: 'HR Interview',        idn: 'HR Interview',        group: 'interview' },
+  { id: 8,  en: 'HR Interview',        idn: 'Wawancara HR',        group: 'interview' },
   { id: 9,  en: 'Technical Interview', idn: 'Wawancara Teknis',    group: 'interview' },
-  { id: 10, en: 'Final Interview',     idn: 'Final Interview',     group: 'interview' },
-  { id: 11, en: 'Medical Check',       idn: 'Medical Check',       group: 'decision' },
-  { id: 12, en: 'Offer Received',      idn: 'Penawaran Diterima',  group: 'decision' },
+  { id: 10, en: 'Final Interview',     idn: 'Wawancara Final',     group: 'interview' },
+  { id: 11, en: 'Medical Check',       idn: 'Tes Kesehatan',       group: 'decision' },
+  { id: 12, en: 'Offer Received',      idn: 'Tawaran Diterima',    group: 'decision' },
   { id: 13, en: 'Accepted / Closed',   idn: 'Diterima / Ditutup',  group: 'decision' }
 ];
 const GROUPS = [
   { key: 'target',     en: 'Targets',     idn: 'Target',     sub: 'Stage 1',      color: 'rgba(201,168,76,.55)',  tint: 'var(--stage-target)' },
-  { key: 'applied',    en: 'Applied',     idn: 'Melamar',    sub: 'Stages 2–3',   color: 'rgba(29,95,171,.75)',   tint: 'var(--stage-applied)' },
+  { key: 'applied',    en: 'Applied',     idn: 'Lamaran Masuk', sub: 'Stages 2–3',   color: 'rgba(29,95,171,.75)',   tint: 'var(--stage-applied)' },
   { key: 'assessment', en: 'Assessments', idn: 'Asesmen',    sub: 'Stages 4–6',   color: 'rgba(13,115,119,.85)',  tint: 'var(--stage-assessment)' },
   { key: 'interview',  en: 'Interviews',  idn: 'Wawancara',  sub: 'Stages 7–10',  color: 'rgba(132,67,156,.85)',  tint: 'var(--stage-interview)' },
   { key: 'decision',   en: 'Decisions',   idn: 'Keputusan',  sub: 'Stages 11–13', color: 'rgba(22,163,74,.75)',   tint: 'var(--stage-decision)' }
@@ -1191,11 +1191,11 @@ const COMPANY_TYPES = [
   { v: 'multinational', en: 'Multinational', idn: 'Multinasional' },
   { v: 'indonesian',    en: 'National Corporate', idn: 'Korporasi Nasional' },
   { v: 'startup',       en: 'Startup', idn: 'Startup' },
-  { v: 'public',        en: 'Public Sector / State-Owned', idn: 'Sektor Publik / Milik Negara' }
+  { v: 'public',        en: 'Public Sector / State-Owned', idn: 'Sektor Publik / BUMN' }
 ];
 const STATUSES = [
   { v: 'active',    en: 'Active',    idn: 'Aktif',    color: 'var(--status-active)' },
-  { v: 'offer',     en: 'Offer',     idn: 'Penawaran', color: 'var(--status-offer)' },
+  { v: 'offer',     en: 'Offer',     idn: 'Tawaran', color: 'var(--status-offer)' },
   { v: 'rejected',  en: 'Rejected',  idn: 'Ditolak',  color: 'var(--status-rejected)' },
   { v: 'withdrawn', en: 'Withdrawn', idn: 'Ditarik',  color: 'var(--status-withdrawn)' }
 ];
@@ -1218,19 +1218,19 @@ const DEFAULT_NEXT_ACTIONS = {
     13: 'Log your decision and complete your career milestone.'
   },
   id: {
-    1: 'Riset perusahaan dan pastikan peran ini sesuai dengan targetmu.',
-    2: 'Konfirmasi lamaran terkirim. Pasang pengingat tindak lanjut 10 hari kerja.',
-    3: 'Lamaran sedang ditinjau. Bersiaplah untuk kemungkinan asesmen.',
-    4: 'Bersiap untuk asesmen online — tinjau materi Maverick Modul 3.',
-    5: 'Bersiap untuk tes tertulis. Berlatih dalam kondisi berbatas waktu.',
-    6: 'Siapkan kerangka studi kasus. Tinjau materi wawancara kasus Maverick Modul 7.',
-    7: 'Bersiap untuk FGD — tinjau kerangka kerja dan bentuk pod latihan.',
-    8: 'Bersiap untuk HR interview — latih positioning statement dan 5 kisah STAR terbaikmu.',
-    9: 'Bersiap untuk wawancara teknis — tinjau persyaratan peran dan protokol think-out-loud.',
-    10: 'Bersiap untuk final interview — pertanyaan strategis dan pernyataan visi.',
-    11: 'Selesaikan persyaratan medical check dan pastikan semua dokumen siap.',
-    12: 'Evaluasi penawaran — aktifkan alat Evaluasi Penawaran.',
-    13: 'Catat keputusanmu dan lengkapi tonggak kariermu.'
+    1: 'Riset perusahaannya dan pastikan peran ini memang sesuai dengan targetmu.',
+    2: 'Pastikan lamaran sudah terkirim. Pasang pengingat untuk menindaklanjuti dalam 10 hari kerja.',
+    3: 'Lamaran sedang ditinjau. Mulai bersiap kalau-kalau ada asesmen.',
+    4: 'Bersiap untuk asesmen online — pelajari lagi materi Maverick Modul 3.',
+    5: 'Bersiap untuk tes tertulis. Berlatihlah dengan batas waktu.',
+    6: 'Siapkan kerangka studi kasus. Pelajari lagi materi wawancara kasus di Maverick Modul 7.',
+    7: 'Bersiap untuk FGD — pelajari lagi kerangkanya dan bentuk pod latihan.',
+    8: 'Bersiap untuk wawancara HR — latih positioning statement dan 5 cerita STAR terbaikmu.',
+    9: 'Bersiap untuk wawancara teknis — pelajari persyaratan peran dan protokol berpikir sambil bersuara.',
+    10: 'Bersiap untuk wawancara final — pertanyaan strategis dan pernyataan visi.',
+    11: 'Lengkapi persyaratan tes kesehatan dan pastikan semua dokumen siap.',
+    12: 'Evaluasi tawarannya — aktifkan alat Evaluasi Tawaran.',
+    13: 'Catat keputusanmu dan rampungkan tonggak kariermu.'
   }
 };
 const STAGE_RECOMMENDATIONS = {
@@ -1250,19 +1250,19 @@ const STAGE_RECOMMENDATIONS = {
     13: 'This application is closed. Log your reflection and update your career journey.'
   },
   id: {
-    1: 'Tinjau persyaratan peran dengan cermat. Pastikan ini selaras dengan industri dan arah targetmu sebelum melamar.',
-    2: 'Lamaran terkirim. Pastikan pengirimannya diterima. Pasang pengingat untuk menindaklanjuti dalam 10 hari kerja jika belum ada kabar.',
-    3: 'CV-mu sedang ditinjau. Sambil menunggu: riset model bisnis, berita terkini, dan budaya perusahaan. Siapkan 3 poin pembicaraan spesifik.',
-    4: 'Asesmen online akan datang. Tinjau materi psikometri Maverick Modul 3 dan jalankan minimal satu sesi latihan berbatas waktu sebelum tes.',
-    5: 'Tes tertulis akan datang. Latih kerangka kerjamu dalam kondisi berbatas waktu. Susun jawabanmu sebelum mulai menulis.',
-    6: 'Persiapan studi kasus: tinjau kerangka wawancara kasus Maverick Modul 7. Identifikasi masalah bisnis sebelum mengusulkan solusi.',
-    7: 'Persiapan FGD: tinjau kerangka kontribusi dari Maverick Modul 4. Berkontribusilah lebih awal, dengarkan aktif, dan sintesiskan menjelang akhir.',
-    8: 'HR Interview akan datang. Latih positioning statement-mu (90 detik, dari Nexus Modul 4). Siapkan jawaban untuk 5 pertanyaan HR teratas. Jalankan minimal satu latihan dengan rekan atau alat AI.',
-    9: 'Wawancara teknis: tinjau persyaratan teknis spesifik di deskripsi pekerjaan. Berlatih berpikir bersuara — narasikan penalaranmu saat mengerjakan masalah.',
-    10: 'Final interview: siapkan pernyataan visi strategismu (Nexus Modul 6). Bawa 5 pertanyaan kuat yang menunjukkan kamu telah meriset arah organisasi.',
-    11: 'Medical check: selesaikan semua persyaratan segera. Tahap ini adalah proses, bukan evaluasi. Pastikan semua dokumen lengkap.',
-    12: 'Penawaran diterima. Jangan langsung menerima. Aktifkan alat Evaluasi Penawaran untuk menghitung total paket kompensasimu dan menyiapkan negosiasi.',
-    13: 'Lamaran ini telah ditutup. Catat refleksimu dan perbarui perjalanan kariermu.'
+    1: 'Baca persyaratan perannya dengan cermat. Pastikan ini selaras dengan industri dan arah yang kamu tuju sebelum melamar.',
+    2: 'Lamaran terkirim. Pastikan lamaranmu benar-benar diterima sistem. Pasang pengingat untuk menindaklanjuti dalam 10 hari kerja kalau belum ada kabar.',
+    3: 'CV-mu sedang ditinjau. Sambil menunggu: riset model bisnis, berita terbaru, dan budaya perusahaannya. Siapkan 3 poin pembicaraan yang spesifik.',
+    4: 'Asesmen online sudah di depan mata. Pelajari lagi materi psikometri di Maverick Modul 3 dan jalankan minimal satu sesi latihan berbatas waktu sebelum tesnya.',
+    5: 'Tes tertulis sudah di depan mata. Latih kerangka berpikirmu dengan batas waktu. Susun struktur jawaban sebelum mulai menulis.',
+    6: 'Persiapan studi kasus: pelajari lagi kerangka wawancara kasus di Maverick Modul 7. Temukan dulu masalah bisnisnya sebelum mengusulkan solusi.',
+    7: 'Persiapan FGD: pelajari lagi kerangka berkontribusi dari Maverick Modul 4. Usahakan berkontribusi sejak awal, dengarkan dengan aktif, dan rangkum menjelang akhir.',
+    8: 'Wawancara HR sudah di depan mata. Latih positioning statement-mu (90 detik, dari Nexus Modul 4). Siapkan jawaban untuk 5 pertanyaan HR yang paling sering muncul. Lakukan minimal satu simulasi dengan rekan atau alat AI.',
+    9: 'Wawancara teknis: pelajari persyaratan teknis yang spesifik di deskripsi lowongan. Berlatih berpikir sambil bersuara — ceritakan alur penalaranmu saat mengerjakan soal.',
+    10: 'Wawancara final: siapkan pernyataan visi strategismu (Nexus Modul 6). Bawa 5 pertanyaan tajam yang menunjukkan kamu sudah meriset arah organisasi.',
+    11: 'Tes kesehatan: selesaikan semua persyaratannya segera. Tahap ini soal prosedur, bukan penilaian. Pastikan semua dokumen lengkap.',
+    12: 'Tawaran diterima. Jangan langsung menerimanya. Aktifkan alat Evaluasi Tawaran untuk menghitung total paket kompensasimu dan menyiapkan negosiasi.',
+    13: 'Lamaran ini sudah ditutup. Catat refleksimu dan perbarui perjalanan kariermu.'
   }
 };
 
@@ -1287,7 +1287,7 @@ function saveApplication(app) {
     app = Object.assign({}, app, { id: generateUUID(), createdAt: now, updatedAt: now });
     apps.push(app);
     logMilestone('app', 'Plotted route to ' + app.company + ' — ' + app.role,
-                        'Merencanakan rute ke ' + app.company + ' — ' + app.role);
+                        'Membuat rute ke ' + app.company + ' — ' + app.role);
   }
   writeApplications(apps);
   checkAndAwardBadges();
@@ -1389,45 +1389,45 @@ const PRODUCTS = [
     modules: [
       { en: 'Self-Awareness and Personal Audit', idn: 'Kesadaran Diri dan Audit Pribadi', skills: [['Self-Awareness', 'Kesadaran Diri']] },
       { en: 'Self-Leadership Foundations', idn: 'Fondasi Kepemimpinan Diri', skills: [['Self-Leadership', 'Kepemimpinan Diri']] },
-      { en: 'Problem Solving 101', idn: 'Pemecahan Masalah 101', skills: [['Critical Thinking', 'Berpikir Kritis']] },
-      { en: 'Communication for Impact', idn: 'Komunikasi untuk Dampak', skills: [['Communication', 'Komunikasi']] },
-      { en: 'Relationships, Well-Being & Digital Capability', idn: 'Hubungan, Kesejahteraan & Kemampuan Digital', skills: [['Digital Capability', 'Kemampuan Digital']] },
-      { en: 'Virtual Job Simulations & Career Preparation', idn: 'Simulasi Pekerjaan Virtual & Persiapan Karier', skills: [['Job Simulation', 'Simulasi Kerja']] }
+      { en: 'Problem Solving 101', idn: 'Dasar-Dasar Pemecahan Masalah', skills: [['Critical Thinking', 'Berpikir Kritis']] },
+      { en: 'Communication for Impact', idn: 'Komunikasi yang Berdampak', skills: [['Communication', 'Komunikasi']] },
+      { en: 'Relationships, Well-Being & Digital Capability', idn: 'Relasi, Kesejahteraan & Kecakapan Digital', skills: [['Digital Capability', 'Kecakapan Digital']] },
+      { en: 'Virtual Job Simulations & Career Preparation', idn: 'Simulasi Kerja Virtual & Persiapan Karier', skills: [['Job Simulation', 'Simulasi Kerja']] }
     ] },
   { key: 'maverick', badge: '02 · The Pack', nameEn: 'The Pack', nameId: 'The Pack', file: '/products/the-pack/', total: 9, pts: 100,
     modules: [
-      { en: 'How Hiring Actually Works', idn: 'Cara Rekrutmen Sebenarnya Bekerja', skills: [['Recruitment Intelligence', 'Kecerdasan Rekrutmen']] },
-      { en: 'Application Submission Strategy', idn: 'Strategi Pengajuan Lamaran', skills: [['CV Writing', 'Penulisan CV'], ['LinkedIn Strategy', 'Strategi LinkedIn']] },
-      { en: 'Screening Test Preparation', idn: 'Persiapan Tes Penyaringan', skills: [['Psychometric Prep', 'Persiapan Psikometri']] },
+      { en: 'How Hiring Actually Works', idn: 'Cara Kerja Rekrutmen yang Sebenarnya', skills: [['Recruitment Intelligence', 'Kecerdasan Rekrutmen']] },
+      { en: 'Application Submission Strategy', idn: 'Strategi Mengirim Lamaran', skills: [['CV Writing', 'Penulisan CV'], ['LinkedIn Strategy', 'Strategi LinkedIn']] },
+      { en: 'Screening Test Preparation', idn: 'Persiapan Tes Seleksi', skills: [['Psychometric Prep', 'Persiapan Psikometri']] },
       { en: 'FGD / LGD Role-Play Simulations', idn: 'Simulasi Role-Play FGD / LGD', skills: [['FGD Technique', 'Teknik FGD']] },
-      { en: 'Internship & Full-Time Application Strategy', idn: 'Strategi Lamaran Magang & Penuh Waktu', skills: [['Application Strategy', 'Strategi Lamaran']] },
-      { en: 'ATS & Application Optimisation', idn: 'ATS & Optimasi Lamaran', skills: [['ATS Optimisation', 'Optimasi ATS']] },
+      { en: 'Internship & Full-Time Application Strategy', idn: 'Strategi Melamar Magang & Kerja Penuh Waktu', skills: [['Application Strategy', 'Strategi Lamaran']] },
+      { en: 'ATS & Application Optimisation', idn: 'ATS & Optimalisasi Lamaran', skills: [['ATS Optimisation', 'Optimalisasi ATS']] },
       { en: 'Case Interview Practice', idn: 'Latihan Wawancara Kasus', skills: [['Case Frameworks', 'Kerangka Kasus']] },
-      { en: 'AI-Powered Application Tools', idn: 'Alat Lamaran Berbantuan AI', skills: [['AI Tooling', 'Perangkat AI']] },
+      { en: 'AI-Powered Application Tools', idn: 'Alat Lamaran Berbasis AI', skills: [['AI Tooling', 'Perangkat AI']] },
       { en: 'Professional Etiquette', idn: 'Etiket Profesional', skills: [['Professional Etiquette', 'Etiket Profesional']] }
     ] },
   { key: 'nexus', badge: '03 · The Rope', nameEn: 'The Rope', nameId: 'The Rope', file: '/products/the-rope/', total: 9, pts: 100,
     modules: [
       { en: 'Inside the Room', idn: 'Di Dalam Ruangan', skills: [['Decision Psychology', 'Psikologi Keputusan']] },
-      { en: 'Build Your Story Library', idn: 'Bangun Perpustakaan Kisahmu', skills: [['STAR Storytelling', 'Bercerita STAR']] },
-      { en: 'Competency Framework Intelligence', idn: 'Kecerdasan Kerangka Kompetensi', skills: [['Competency Frameworks', 'Kerangka Kompetensi']] },
-      { en: 'The HR Interview', idn: 'HR Interview', skills: [['HR Interview', 'HR Interview']] },
+      { en: 'Build Your Story Library', idn: 'Bangun Perpustakaan Ceritamu', skills: [['STAR Storytelling', 'Cerita STAR']] },
+      { en: 'Competency Framework Intelligence', idn: 'Membaca Kerangka Kompetensi', skills: [['Competency Frameworks', 'Kerangka Kompetensi']] },
+      { en: 'The HR Interview', idn: 'Wawancara HR', skills: [['HR Interview', 'Wawancara HR']] },
       { en: 'The Technical & User Interview', idn: 'Wawancara Teknis & User', skills: [['Technical Interview', 'Wawancara Teknis']] },
-      { en: 'The Final & Leadership Interview', idn: 'Final & Wawancara Kepemimpinan', skills: [['Executive Presence', 'Kehadiran Eksekutif']] },
+      { en: 'The Final & Leadership Interview', idn: 'Wawancara Final & Kepemimpinan', skills: [['Executive Presence', 'Wibawa Eksekutif']] },
       { en: 'Live Interview Simulation', idn: 'Simulasi Wawancara Langsung', skills: [['Live Simulation', 'Simulasi Langsung']] },
-      { en: 'Offer Evaluation & Negotiation', idn: 'Evaluasi & Negosiasi Penawaran', skills: [['Negotiation', 'Negosiasi']] },
-      { en: 'Probation Success: The First 90 Days', idn: 'Sukses Probasi: 90 Hari Pertama', skills: [['Onboarding Strategy', 'Strategi Onboarding']] }
+      { en: 'Offer Evaluation & Negotiation', idn: 'Evaluasi Tawaran & Negosiasi', skills: [['Negotiation', 'Negosiasi']] },
+      { en: 'Probation Success: The First 90 Days', idn: 'Sukses di Masa Percobaan: 90 Hari Pertama', skills: [['Onboarding Strategy', 'Strategi 90 Hari Pertama']] }
     ] },
   { key: 'horizon', badge: '04 · The Route', nameEn: 'The Route', nameId: 'The Route', file: '/products/the-route/', total: 9, pts: 100,
     modules: [
       { en: 'Career Architecture', idn: 'Arsitektur Karier', skills: [['Career Architecture', 'Arsitektur Karier']] },
-      { en: 'The Performance Game', idn: 'Permainan Performa', skills: [['Performance Strategy', 'Strategi Performa']] },
-      { en: 'Managing Up, Across, and Down', idn: 'Managing Up, Across, dan Down', skills: [['Managing Up', 'Managing Up']] },
+      { en: 'The Performance Game', idn: 'Permainan Kinerja', skills: [['Performance Strategy', 'Strategi Kinerja']] },
+      { en: 'Managing Up, Across, and Down', idn: 'Mengelola ke Atas, ke Samping, dan ke Bawah', skills: [['Managing Up', 'Mengelola ke Atas']] },
       { en: 'Building Professional Visibility', idn: 'Membangun Visibilitas Profesional', skills: [['Professional Visibility', 'Visibilitas Profesional']] },
       { en: 'The Promotion Game', idn: 'Permainan Promosi', skills: [['Promotion Strategy', 'Strategi Promosi']] },
-      { en: 'Mentors, Sponsors, and Your Inner Circle', idn: 'Mentor, Sponsor, dan Lingkaran Dalammu', skills: [['Sponsorship Building', 'Membangun Sponsor']] },
-      { en: 'The Second Move', idn: 'Langkah Kedua', skills: [['Move Timing', 'Waktu Langkah']] },
-      { en: 'Early Career Financial Intelligence', idn: 'Kecerdasan Keuangan Awal Karier', skills: [['Financial Intelligence', 'Kecerdasan Finansial']] },
+      { en: 'Mentors, Sponsors, and Your Inner Circle', idn: 'Mentor, Sponsor, dan Lingkaran Dalammu', skills: [['Sponsorship Building', 'Membangun Sponsorship']] },
+      { en: 'The Second Move', idn: 'Langkah Kedua', skills: [['Move Timing', 'Waktu Pindah']] },
+      { en: 'Early Career Financial Intelligence', idn: 'Kecerdasan Finansial di Awal Karier', skills: [['Financial Intelligence', 'Kecerdasan Finansial']] },
       { en: 'Leadership Foundations', idn: 'Fondasi Kepemimpinan', skills: [['Leadership Foundations', 'Fondasi Kepemimpinan']] }
     ] }
 ];
@@ -1437,26 +1437,26 @@ const BADGES = [
   { id: 'a1', cat: 'The Map',   icon: '🪞', en: 'Self-Aware',        idn: 'Sadar Diri',          cEn: 'Complete The Map Module 1', cId: 'Selesaikan Modul 1 The Map', check: c => c.aladinDone >= 1 },
   { id: 'a3', cat: 'The Map',   icon: '🧠', en: 'The Thinker',       idn: 'Sang Pemikir',        cEn: 'Complete The Map Module 3', cId: 'Selesaikan Modul 3 The Map', check: c => c.aladinDone >= 3 },
   { id: 'ac', cat: 'The Map',   icon: '🗺️', en: 'The Map Complete',  idn: 'The Map Selesai',     cEn: 'All 6 modules done', cId: 'Semua 6 modul selesai', check: c => c.aladinDone >= 6 },
-  { id: 'm2', cat: 'Maverick', icon: '📄', en: 'CV Builder',        idn: 'Perancang CV',        cEn: 'Complete Maverick Module 2', cId: 'Selesaikan Maverick Modul 2', check: c => c.mavDone >= 2 },
+  { id: 'm2', cat: 'Maverick', icon: '📄', en: 'CV Builder',        idn: 'Penyusun CV',        cEn: 'Complete Maverick Module 2', cId: 'Selesaikan Maverick Modul 2', check: c => c.mavDone >= 2 },
   { id: 'm6', cat: 'Maverick', icon: '🤖', en: 'ATS Cleared',       idn: 'Lolos ATS',           cEn: 'Complete Maverick Module 6', cId: 'Selesaikan Maverick Modul 6', check: c => c.mavDone >= 6 },
   { id: 'm7', cat: 'Maverick', icon: '📊', en: 'Case Ready',        idn: 'Siap Kasus',          cEn: 'Complete Maverick Module 7', cId: 'Selesaikan Maverick Modul 7', check: c => c.mavDone >= 7 },
   { id: 'mc', cat: 'Maverick', icon: '🎒', en: 'Maverick Complete', idn: 'Maverick Selesai',    cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.mavDone >= 9 },
-  { id: 'n2', cat: 'Nexus',    icon: '📚', en: 'Story Library Built', idn: 'Perpustakaan Kisah', cEn: 'Complete Nexus Module 2', cId: 'Selesaikan Nexus Modul 2', check: c => c.nexusDone >= 2 },
-  { id: 'n7', cat: 'Nexus',    icon: '🎭', en: 'Interview Performer', idn: 'Performer Wawancara', cEn: 'Complete Nexus Module 7', cId: 'Selesaikan Nexus Modul 7', check: c => c.nexusDone >= 7 },
+  { id: 'n2', cat: 'Nexus',    icon: '📚', en: 'Story Library Built', idn: 'Perpustakaan Cerita', cEn: 'Complete Nexus Module 2', cId: 'Selesaikan Nexus Modul 2', check: c => c.nexusDone >= 2 },
+  { id: 'n7', cat: 'Nexus',    icon: '🎭', en: 'Interview Performer', idn: 'Jagoan Wawancara', cEn: 'Complete Nexus Module 7', cId: 'Selesaikan Nexus Modul 7', check: c => c.nexusDone >= 7 },
   { id: 'n8', cat: 'Nexus',    icon: '🤝', en: 'Negotiator',        idn: 'Negosiator',          cEn: 'Complete Nexus Module 8', cId: 'Selesaikan Nexus Modul 8', check: c => c.nexusDone >= 8 },
   { id: 'nc', cat: 'Nexus',    icon: '🧗', en: 'Nexus Complete',    idn: 'Nexus Selesai',       cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.nexusDone >= 9 },
   { id: 'h1', cat: 'Horizon',  icon: '🧭', en: 'Career Architect',  idn: 'Arsitek Karier',      cEn: 'Complete Horizon Module 1', cId: 'Selesaikan Horizon Modul 1', check: c => c.horizonDone >= 1 },
   { id: 'h4', cat: 'Horizon',  icon: '📡', en: 'Visibility Builder', idn: 'Pembangun Visibilitas', cEn: 'Complete Horizon Module 4', cId: 'Selesaikan Horizon Modul 4', check: c => c.horizonDone >= 4 },
   { id: 'hc', cat: 'Horizon',  icon: '🌅', en: 'Horizon Complete',  idn: 'Horizon Selesai',     cEn: 'All 9 modules done', cId: 'Semua 9 modul selesai', check: c => c.horizonDone >= 9 },
-  { id: 't1', cat: 'Plotter',  icon: '👣', en: 'First Route',       idn: 'Rute Pertama',        cEn: 'Plot your first route', cId: 'Rencanakan rute pertamamu', check: c => c.total >= 1 },
-  { id: 't10', cat: 'Plotter', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Atas Gunung',      cEn: '10 routes plotted', cId: '10 rute tercatat', check: c => c.total >= 10 },
+  { id: 't1', cat: 'Plotter',  icon: '👣', en: 'First Route',       idn: 'Rute Pertama',        cEn: 'Plot your first route', cId: 'Buat rute pertamamu', check: c => c.total >= 1 },
+  { id: 't10', cat: 'Plotter', icon: '⛰️', en: 'On the Mountain',   idn: 'Di Lereng Gunung',      cEn: '10 routes plotted', cId: '10 rute tercatat', check: c => c.total >= 10 },
   { id: 't25', cat: 'Plotter', icon: '🏕️', en: 'High Camp',         idn: 'Kamp Tinggi',         cEn: '25 routes plotted', cId: '25 rute tercatat', check: c => c.total >= 25 },
   { id: 't50', cat: 'Plotter', icon: '🦾', en: 'Persistent Navigator', idn: 'Navigator Gigih',      cEn: '50 routes plotted', cId: '50 rute tercatat', check: c => c.total >= 50 },
-  { id: 'thr', cat: 'Plotter', icon: '📞', en: 'First Signal',      idn: 'Sinyal Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap HR Interview', check: c => c.maxStage >= 8 },
-  { id: 'tfi', cat: 'Plotter', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Final Interview', check: c => c.maxStage >= 10 },
-  { id: 'tof', cat: 'Plotter', icon: '✉️', en: 'The Offer',         idn: 'Sang Penawaran',      cEn: 'Receive your first offer', cId: 'Terima penawaran pertamamu', check: c => c.offers >= 1 },
-  { id: 'tsm', cat: 'Plotter', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah penawaran', check: c => c.accepted >= 1 },
-  { id: 'md5', cat: 'Mindset', icon: '📝', en: 'Debriefer',         idn: 'Sang Debriefer',      cEn: 'Complete 5 interview debriefs', cId: 'Selesaikan 5 debrief wawancara', check: c => c.debriefs >= 5 },
+  { id: 'thr', cat: 'Plotter', icon: '📞', en: 'First Signal',      idn: 'Sinyal Pertama',   cEn: 'Reach the HR Interview stage', cId: 'Capai tahap Wawancara HR', check: c => c.maxStage >= 8 },
+  { id: 'tfi', cat: 'Plotter', icon: '💡', en: 'Under the Lights',  idn: 'Di Bawah Sorotan',    cEn: 'Reach the Final Interview stage', cId: 'Capai tahap Wawancara Final', check: c => c.maxStage >= 10 },
+  { id: 'tof', cat: 'Plotter', icon: '✉️', en: 'The Offer',         idn: 'Tawaran Pertama',     cEn: 'Receive your first offer', cId: 'Terima tawaran pertamamu', check: c => c.offers >= 1 },
+  { id: 'tsm', cat: 'Plotter', icon: '🏔️', en: 'Summit',            idn: 'Puncak',              cEn: 'Accept an offer', cId: 'Terima sebuah tawaran', check: c => c.accepted >= 1 },
+  { id: 'md5', cat: 'Mindset', icon: '📝', en: 'Debriefer',         idn: 'Ahli Debrief',      cEn: 'Complete 5 interview debriefs', cId: 'Selesaikan 5 debrief wawancara', check: c => c.debriefs >= 5 },
   { id: 'mp10', cat: 'Mindset', icon: '🧩', en: 'Pattern Reader',   idn: 'Pembaca Pola',         cEn: 'Log and learn from 10 rejections', cId: 'Catat dan pelajari 10 penolakan', check: c => c.rejDebriefs >= 10 },
   { id: 'mmo', cat: 'Mindset', icon: '🔥', en: 'Momentum',          idn: 'Momentum',            cEn: '4 consecutive weeks with ≥3 routes plotted', cId: '4 minggu berturut-turut dengan ≥3 rute', check: c => c.momentum }
 ];
@@ -1503,15 +1503,15 @@ function getTodaysMove(apps, scores) {
     const st = stageOf(iv.stage);
     return {
       en: 'You have ' + (iv.stage === 8 ? 'an' : 'a') + ' <b>' + st.en + '</b> at <b>' + esc(iv.company) + '</b> in under 72 hours. The single highest-leverage thing you can do today: run one focused mock interview against this role’s competency framework — it takes 15 minutes.',
-      id: 'Kamu punya <b>' + st.idn + '</b> di <b>' + esc(iv.company) + '</b> dalam waktu kurang dari 72 jam. Satu hal dengan daya ungkit tertinggi hari ini: jalankan satu latihan wawancara terfokus terhadap kerangka kompetensi peran ini — hanya butuh 15 menit.',
-      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka latihan Nexus →', href: '/products/the-rope/?context=compass'
+      id: 'Kurang dari 72 jam lagi kamu menghadapi <b>' + st.idn + '</b> di <b>' + esc(iv.company) + '</b>. Satu hal paling berdampak yang bisa kamu lakukan hari ini: satu simulasi wawancara terfokus berdasarkan kerangka kompetensi peran ini — cukup 15 menit.',
+      ctaEn: 'Open Nexus mock practice →', ctaId: 'Buka simulasi Nexus →', href: '/products/the-rope/?context=compass'
     };
   }
   const overdue = active.filter(a => a.nextActionDue).find(a => new Date(a.nextActionDue + 'T23:59:59').getTime() < NOW);
   if (overdue) {
     return {
       en: 'Your next action for <b>' + esc(overdue.company) + ' — ' + esc(overdue.role) + '</b> was due ' + fmtD(overdue.nextActionDue) + ' and is now overdue: <b>' + esc(overdue.nextAction || 'update this application') + '</b> Clear it today before it costs you the pipeline.',
-      id: 'Tindakan berikutnya untuk <b>' + esc(overdue.company) + ' — ' + esc(overdue.role) + '</b> jatuh tempo ' + fmtD(overdue.nextActionDue) + ' dan kini terlambat: <b>' + esc(overdue.nextAction || 'perbarui lamaran ini') + '</b> Selesaikan hari ini sebelum merugikan pipeline-mu.',
+      id: 'Tindakan berikutnya untuk <b>' + esc(overdue.company) + ' — ' + esc(overdue.role) + '</b> sudah lewat tenggat sejak ' + fmtD(overdue.nextActionDue) + ': <b>' + esc(overdue.nextAction || 'perbarui lamaran ini') + '</b> Bereskan hari ini, sebelum alur lamaranmu yang menanggung akibatnya.',
       ctaEn: 'Open the application →', ctaId: 'Buka lamaran →', appId: overdue.id
     };
   }
@@ -1519,7 +1519,7 @@ function getTodaysMove(apps, scores) {
   if (recent.length === 0) {
     return {
       en: 'You have logged <b>no new applications in 7 days</b>. Velocity is the strongest predictor of offers. Target: log 3 quality applications this week — start with one today.',
-      id: 'Kamu <b>belum mencatat lamaran baru dalam 7 hari</b>. Kecepatan adalah prediktor terkuat untuk penawaran. Target: catat 3 lamaran berkualitas minggu ini — mulai satu hari ini.',
+      id: 'Kamu <b>belum mencatat lamaran baru selama 7 hari</b>. Kecepatan melamar adalah prediktor terkuat datangnya tawaran. Target: 3 lamaran berkualitas minggu ini — mulai dari satu hari ini.',
       ctaEn: '+ Add an application →', ctaId: '+ Tambah lamaran →', action: 'add'
     };
   }
@@ -1533,8 +1533,8 @@ function getTodaysMove(apps, scores) {
   const lowest = dims.slice().sort((a, b) => scores[a.key] - scores[b.key])[0];
   return {
     en: '<b>' + lowest.en + '</b> is your lowest dimension at <b>' + scores[lowest.key] + ' / 100</b>. The fastest way to raise your overall readiness this week: ' + lowest.aEn + '.',
-    id: '<b>' + lowest.idn + '</b> adalah dimensi terendahmu di <b>' + scores[lowest.key] + ' / 100</b>. Cara tercepat menaikkan kesiapan keseluruhanmu minggu ini: ' + lowest.aId + '.',
-    ctaEn: 'Take action →', ctaId: 'Ambil tindakan →', href: lowest.href, tab: lowest.tab, action: lowest.action
+    id: '<b>' + lowest.idn + '</b> adalah dimensi terendahmu, di angka <b>' + scores[lowest.key] + ' / 100</b>. Cara tercepat menaikkan kesiapan keseluruhanmu minggu ini: ' + lowest.aId + '.',
+    ctaEn: 'Take action →', ctaId: 'Lakukan sekarang →', href: lowest.href, tab: lowest.tab, action: lowest.action
   };
 }
 
@@ -1573,32 +1573,32 @@ function renderDashboard() {
     '<span class="lv-cap">' + L('Current level', 'Level saat ini') + '</span>' +
     '<div class="lv-bar"><i style="--p:' + toNext + '%"></i></div>' +
     '<span class="lv-next">' + (lv.next
-      ? L('Next: ' + lv.nextEn + ' at ' + lv.next + ' — you are at ' + scores.overall, 'Berikutnya: ' + lv.nextId + ' di ' + lv.next + ' — kamu di ' + scores.overall)
+      ? L('Next: ' + lv.nextEn + ' at ' + lv.next + ' — you are at ' + scores.overall, 'Berikutnya: ' + lv.nextId + ' pada skor ' + lv.next + ' — skormu sekarang ' + scores.overall)
       : L('You are at the summit level.', 'Kamu berada di level puncak.')) + '</span></div>' +
     '<div class="cs-ring">' + ringHTML(84, 8, scores.overall, 22) +
     '<span class="crl">' + L('Career Readiness', 'Kesiapan Karier') + '</span></div>' +
     '<div class="cs-stats">' +
     '<div class="cs-stat"><div class="csv">' + activeApps.length + '</div><div class="csk">' + L('Active applications', 'Lamaran aktif') + '</div></div>' +
     '<div class="cs-stat"><div class="csv">' + interviews + '</div><div class="csk">' + L('Interviews in play', 'Wawancara berjalan') + '</div></div>' +
-    '<div class="cs-stat"><div class="csv">' + offers + '</div><div class="csk">' + L('Offers received', 'Penawaran diterima') + '</div></div>' +
+    '<div class="cs-stat"><div class="csv">' + offers + '</div><div class="csk">' + L('Offers received', 'Tawaran diterima') + '</div></div>' +
     '<div class="cs-stat"><div class="csv">' + modsDone + '/33</div><div class="csk">' + L('Modules complete', 'Modul selesai') + '</div></div></div>';
 
   const dims = [
     { s: scores.careerIntelligence, en: 'Career Intelligence', idn: 'Kecerdasan Karier',
       st: L('The Map: ' + scores.aladinDone + '/6 modules done', 'The Map: ' + scores.aladinDone + '/6 modul selesai'),
-      tip: L('Improves with each Map module (75 pts max) plus self-reported learning activities.', 'Meningkat dengan setiap modul The Map (maks 75 poin) plus aktivitas belajar yang dilaporkan sendiri.') },
+      tip: L('Improves with each Map module (75 pts max) plus self-reported learning activities.', 'Naik dengan setiap modul The Map yang selesai (maks. 75 poin), ditambah aktivitas belajar yang kamu laporkan sendiri.') },
     { s: scores.profileStrength, en: 'Profile Strength', idn: 'Kekuatan Profil',
       st: L('Maverick: ' + scores.mavDone + '/9 modules done', 'Maverick: ' + scores.mavDone + '/9 modul selesai'),
-      tip: L('Improves with each Maverick module (75 pts max) — CV, ATS, LinkedIn, and application assets.', 'Meningkat dengan setiap modul Maverick (maks 75 poin) — CV, ATS, LinkedIn, dan aset lamaran.') },
+      tip: L('Improves with each Maverick module (75 pts max) — CV, ATS, LinkedIn, and application assets.', 'Naik dengan setiap modul Maverick yang selesai (maks. 75 poin) — CV, ATS, LinkedIn, dan aset lamaran.') },
     { s: scores.interviewReadiness, en: 'Interview Readiness', idn: 'Kesiapan Wawancara',
       st: L('Nexus: ' + scores.nexusDone + '/9 · ' + scores.debriefsAll + ' debriefs', 'Nexus: ' + scores.nexusDone + '/9 · ' + scores.debriefsAll + ' debrief'),
-      tip: L('Nexus modules (60 pts) + live interview activity (20) + completed debriefs (10).', 'Modul Nexus (60 poin) + aktivitas wawancara nyata (20) + debrief selesai (10).') },
+      tip: L('Nexus modules (60 pts) + live interview activity (20) + completed debriefs (10).', 'Modul Nexus (60 poin) + aktivitas wawancara sungguhan (20) + debrief yang selesai (10).') },
     { s: scores.networkCapital, en: 'Network Capital', idn: 'Modal Jaringan',
       st: L('Mentors, pods & alumni outreach', 'Mentor, pod & jaringan alumni'),
-      tip: L('Mostly self-reported: mentors, practice pods, alumni conversations. Update it from the Insights tab.', 'Sebagian besar dilaporkan sendiri: mentor, pod latihan, percakapan alumni. Perbarui dari tab Wawasan.') },
+      tip: L('Mostly self-reported: mentors, practice pods, alumni conversations. Update it from the Insights tab.', 'Sebagian besar dari laporanmu sendiri: mentor, pod latihan, percakapan dengan alumni. Perbarui lewat tab Wawasan.') },
     { s: scores.careerMindset, en: 'Career Mindset', idn: 'Pola Pikir Karier',
-      st: L('Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' routes/30d', 'Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' rute/30hr'),
-      tip: L('Horizon modules (30) + route velocity (40) + off-course debriefs (15) + consistency.', 'Modul Horizon (30) + kecepatan rute (40) + debrief keluar jalur (15) + konsistensi.') }
+      st: L('Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' routes/30d', 'Horizon: ' + scores.horizonDone + '/9 · ' + scores.recentCount + ' rute/30 hari'),
+      tip: L('Horizon modules (30) + route velocity (40) + off-course debriefs (15) + consistency.', 'Modul Horizon (30) + kecepatan rute (40) + debrief rute yang ditutup (15) + konsistensi.') }
   ];
   $('dimGrid').innerHTML = dims.map((d, i) =>
     '<div class="glass-card dim-card' + (i === 4 ? ' dim-center' : '') + '">' + ringHTML(60, 6, d.s, 15) +
@@ -1617,7 +1617,7 @@ function renderTodaysMove(apps) {
   const dismissed = getLS('compass_true_north_dismissed', '') === new Date().toISOString().slice(0, 10);
   if (dismissed) {
     slot.innerHTML = '<div class="glass-card" style="padding:14px 20px;margin-bottom:22px;font-size:12.5px;color:var(--text-muted)">' +
-      L('True North dismissed — it returns tomorrow. ', 'True North dilewati — kembali besok. ') +
+      L('True North dismissed — it returns tomorrow. ', 'True North dilewati — akan kembali besok. ') +
       '<button class="tm-skip" id="tmUndo">' + L('Bring it back', 'Tampilkan lagi') + '</button></div>';
     const u = $('tmUndo'); if (u) u.addEventListener('click', () => { setLS('compass_true_north_dismissed', ''); renderDashboard(); });
     return;
@@ -1652,7 +1652,7 @@ function renderPipeSum(apps) {
     '<div class="pg-l">' + L(g.en, g.idn) + '</div><div class="pg-bar" style="background:' + g.color + '"></div></button>').join('') +
     '</div><div class="pipe-meta">' +
     L('Total active: <b>' + act.length + '</b> · Rejected this month: <b>' + rejMonth + '</b> · Offers: <b>' + offers + '</b> · Success rate: <b>' + rate + '%</b>',
-      'Total aktif: <b>' + act.length + '</b> · Ditolak bulan ini: <b>' + rejMonth + '</b> · Penawaran: <b>' + offers + '</b> · Tingkat keberhasilan: <b>' + rate + '%</b>') + '</div>';
+      'Total aktif: <b>' + act.length + '</b> · Ditolak bulan ini: <b>' + rejMonth + '</b> · Tawaran: <b>' + offers + '</b> · Tingkat keberhasilan: <b>' + rate + '%</b>') + '</div>';
   $('pipeSum').querySelectorAll('.pipe-seg').forEach(b => b.addEventListener('click', () => {
     pipeGroupFilter = b.dataset.group;
     activateTab('course-plotter');
@@ -1722,12 +1722,11 @@ function renderApplications() {
   const month = apps.filter(a => (NOW - new Date(a.applicationDate).getTime()) <= 30 * DAY).length;
   $('appsStats').innerHTML = L(
     'Active: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Interviews: <b>' + interviews + '</b> · Offers: <b>' + offers + '</b> · Rejected: <b>' + rejected + '</b> · Route success rate: <b>' + win + '%</b> · This month: <b>' + month + '</b>',
-    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Penawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat keberhasilan rute: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
+    'Aktif: <b>' + apps.filter(a => a.status === 'active').length + '</b> · Wawancara: <b>' + interviews + '</b> · Tawaran: <b>' + offers + '</b> · Ditolak: <b>' + rejected + '</b> · Tingkat keberhasilan rute: <b>' + win + '%</b> · Bulan ini: <b>' + month + '</b>');
 
   if (!shown.length) {
     $('appsView').innerHTML = '<div class="glass-card apps-empty"><div class="ae-ic">🗻</div>' +
-      L('No routes plotted here yet. Every summit starts with a first bearing — plot your first route.',
-        'Belum ada rute di sini. Setiap puncak dimulai dengan arah pertama — rencanakan rute pertamamu.') + '</div>';
+      L('No routes plotted here yet. Every summit starts with a first bearing — plot your first route.', 'Belum ada rute di sini. Setiap puncak dimulai dari satu arah pertama — buat rute pertamamu.') + '</div>';
   } else if (mode === 'board') {
     renderBoard(shown);
   } else {
@@ -1746,7 +1745,7 @@ function cardHTML(a) {
     '<div class="ac-top"><span class="ac-dot" style="background:' + st.color + '"></span><span class="ac-co">' + esc(a.company) + '</span></div>' +
     '<div class="ac-role">' + esc(a.role) + '</div>' +
     '<div class="ac-stage">' + L('Stage', 'Tahap') + ' ' + a.stage + ' · ' + stageName(a.stage) + '</div>' +
-    '<div class="ac-dates">' + L('Applied', 'Melamar') + ': ' + fmtD(a.applicationDate) + ' · ' + L('Updated', 'Diperbarui') + ': ' + fmtD((a.updatedAt || '').slice(0, 10)) + '</div>' +
+    '<div class="ac-dates">' + L('Applied', 'Dilamar') + ': ' + fmtD(a.applicationDate) + ' · ' + L('Updated', 'Diperbarui') + ': ' + fmtD((a.updatedAt || '').slice(0, 10)) + '</div>' +
     '<div class="ac-rec"><b>💡</b> ' + esc(recFor(a)) + '</div>' +
     (a.nextActionDue ? '<div class="ac-next' + (isOverdue(a) ? ' overdue' : '') + '">' + L('Next', 'Berikutnya') + ': ' + fmtD(a.nextActionDue) + (isOverdue(a) ? ' ⚠️ ' + L('overdue', 'terlambat') : '') + '</div>' : '') +
     '<div class="ac-foot"><button data-act="edit">' + L('Edit', 'Edit') + '</button><button data-act="move">' + L('Move Stage ▾', 'Pindah Tahap ▾') + '</button></div></div>';
@@ -1849,7 +1848,7 @@ function renderVelocity(apps) {
   const reachedFinal = apps.filter(a => a.stage >= 10).length;
   const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
   const conv = [
-    { l: L('Applied → HR Interview', 'Melamar → HR Interview'), v: pct(reachedHr, applied), bm: 45 },
+    { l: L('Applied → HR Interview', 'Lamaran Masuk → Wawancara HR'), v: pct(reachedHr, applied), bm: 45 },
     { l: L('HR → Technical', 'HR → Teknis'), v: pct(reachedTech, reachedHr), bm: 60 },
     { l: L('Technical → Final', 'Teknis → Final'), v: pct(reachedFinal, reachedTech), bm: 55 }
   ];
@@ -1894,7 +1893,7 @@ let editingDocs = [];
 function openAppModal(app, presetStage) {
   editingId = app ? app.id : null;
   editingDocs = app ? (app.documents || []).slice() : [];
-  $('appModalTitle').textContent = app ? L('Edit Route', 'Edit Rute') : L('Plot New Route', 'Tambah Rute Baru');
+  $('appModalTitle').textContent = app ? L('Edit Route', 'Edit Rute') : L('Plot New Route', 'Buat Rute Baru');
   $('fStage').innerHTML = STAGES.map(s => '<option value="' + s.id + '">' + s.id + ' · ' + L(s.en, s.idn) + '</option>').join('');
   $('fStatus').innerHTML = STATUSES.map(s => '<option value="' + s.v + '">' + L(s.en, s.idn) + '</option>').join('');
   $('fCompanyType').innerHTML = COMPANY_TYPES.map(t => '<option value="' + t.v + '">' + L(t.en, t.idn) + '</option>').join('');
@@ -2004,13 +2003,13 @@ function openDrawer(id) {
     '<button class="modal-x" id="drawerClose" aria-label="Close">✕</button></div>' +
     '<div class="dr-badges"><span class="status-chip" style="color:var(--gold);border:1px solid var(--gold-border-hover)">' + L('Stage', 'Tahap') + ' ' + app.stage + ' · ' + stageName(app.stage) + '</span>' +
     '<span class="status-chip" style="color:' + st.color + ';border:1px solid ' + st.color + '">' + L(st.en, st.idn) + '</span></div>' +
-    (app.stage === 12 ? '<div class="offer-banner"><p>⭐ ' + L('<b>You have an offer.</b> Don’t accept the first number you hear.', '<b>Kamu punya penawaran.</b> Jangan terima angka pertama yang kamu dengar.') + '</p>' +
+    (app.stage === 12 ? '<div class="offer-banner"><p>⭐ ' + L('<b>You have an offer.</b> Don’t accept the first number you hear.', '<b>Kamu punya tawaran.</b> Jangan langsung terima angka pertama yang kamu dengar.') + '</p>' +
       '<button class="btn-gold" id="offerActivate">' + L('Activate Route Evaluation →', 'Aktifkan Evaluasi Rute →') + '</button></div>' : '') +
     '<div class="dr-sec"><h4>' + L('Smart Recommendation', 'Rekomendasi Cerdas') + '</h4><div class="dr-rec">💡 ' + esc(recFor(app)) + '</div></div>' +
     '<div class="dr-sec"><h4>' + L('Stage Timeline', 'Linimasa Tahap') + '</h4><div class="dr-pipe">' +
     STAGES.map(s => '<span class="dp-node' + (s.id === app.stage ? ' cur' : done(s.id) ? ' done' : '') + '">' + s.id + ' ' + L(s.en, s.idn) + '</span>').join('') + '</div></div>' +
     '<div class="dr-sec"><h4>' + L('Application Details', 'Detail Lamaran') + '</h4>' +
-    '<div class="dr-kv"><span class="k">' + L('Applied', 'Melamar') + '</span><span class="v">' + fmtDY(app.applicationDate) + '</span></div>' +
+    '<div class="dr-kv"><span class="k">' + L('Applied', 'Dilamar') + '</span><span class="v">' + fmtDY(app.applicationDate) + '</span></div>' +
     (app.deadline ? '<div class="dr-kv"><span class="k">' + L('Deadline', 'Tenggat') + '</span><span class="v">' + fmtDY(app.deadline) + '</span></div>' : '') +
     '<div class="dr-kv"><span class="k">' + L('Company type', 'Jenis perusahaan') + '</span><span class="v">' + (function(){ const t = COMPANY_TYPES.find(x => x.v === (app.companyType || 'multinational')); return L(t.en, t.idn); })() + '</span></div>' +
     (app.cvVersion ? '<div class="dr-kv"><span class="k">CV</span><span class="v">' + esc(app.cvVersion) + '</span></div>' : '') +
@@ -2020,10 +2019,10 @@ function openDrawer(id) {
     (app.nextAction || app.nextActionDue
       ? '<div class="dr-next' + (isOverdue(app) ? '' : ' ok') + '"><b>' + esc(app.nextAction || '—') + '</b>' +
         (app.nextActionDue ? L('Due', 'Jatuh tempo') + ' ' + fmtDY(app.nextActionDue) + (isOverdue(app) ? ' · ⚠️ ' + L('Overdue', 'Terlambat') : '') : '') + '</div>'
-      : '<div class="dr-next ok">' + L('No next action set.', 'Belum ada tindakan berikutnya.') + '</div>') + '</div>' +
+      : '<div class="dr-next ok">' + L('No next action set.', 'Belum ada tindakan berikutnya yang ditetapkan.') + '</div>') + '</div>' +
     ((app.documents || []).length ? '<div class="dr-sec dr-docs"><h4>' + L('Documents', 'Dokumen') + '</h4>' +
       app.documents.map(d => '<a href="' + esc(d.url || '#') + '" target="_blank" rel="noopener">📎 ' + esc(d.name || d.url) + '</a>').join('') + '</div>' : '') +
-    (debriefable ? '<div class="dr-sec"><h4>' + L('Interview Debrief Log', 'Log Debriefing Wawancara') + '</h4>' +
+    (debriefable ? '<div class="dr-sec"><h4>' + L('Interview Debrief Log', 'Catatan Debrief Wawancara') + '</h4>' +
       ((app.interviewDebriefs || []).map(d =>
         '<div class="dr-debrief"><div class="db-t">' + stageName(d.stage) + ' · ' + fmtD(d.date) + '</div>' +
         '<div class="db-stars">' + '★'.repeat(d.feeling || 0) + '☆'.repeat(5 - (d.feeling || 0)) + '</div>' +
@@ -2205,7 +2204,7 @@ function renderProgress() {
     p.modules.forEach((m, i) => m.skills.forEach(sk => {
       const unlocked = (i + 1) <= done;
       chips.push('<span class="skill-chip' + (unlocked ? '' : ' locked') + '">' + L(sk[0], sk[1]) +
-        (unlocked ? '' : '<span class="sk-tip">' + L('Unlock in ' + p.nameEn + ' Module ' + (i + 1), 'Buka di ' + p.nameEn + ' Modul ' + (i + 1)) + '</span>') + '</span>');
+        (unlocked ? '' : '<span class="sk-tip">' + L('Unlock in ' + p.nameEn + ' Module ' + (i + 1), 'Dibuka di ' + p.nameEn + ' Modul ' + (i + 1)) + '</span>') + '</span>');
     }));
   });
   $('skillsCloud').innerHTML = chips.join('');
@@ -2227,9 +2226,9 @@ function renderMilestones() {
   ];
   const SEM_NOTES = [
     ['Aladin M1–3', 'Aladin M1–3'], ['Aladin M4–6', 'Aladin M4–6'],
-    ['Maverick starts · first org role', 'Maverick mulai · peran organisasi pertama'], ['First internship applications', 'Lamaran magang pertama'],
+    ['Maverick starts · first org role', 'Mulai Maverick · peran pertama di organisasi'], ['First internship applications', 'Lamaran magang pertama'],
     ['Nexus · internship season', 'Nexus · musim magang'], ['Leadership role · competitions', 'Peran kepemimpinan · kompetisi'],
-    ['Full-time applications open', 'Lamaran penuh waktu dibuka'], ['Offers · thesis · transition', 'Penawaran · skripsi · transisi']
+    ['Full-time applications open', 'Lamaran kerja penuh waktu dibuka'], ['Offers · thesis · transition', 'Tawaran · skripsi · transisi']
   ];
   $('journeyMap').innerHTML = '<div class="jm-track">' + YEARS.map((y, yi) =>
     '<div class="jm-year"><div class="jy-label">' + L(y.en, y.idn) + '</div><div class="jy-theme">' + L(y.tEn, y.tId) + '</div><div class="jm-sems">' +
@@ -2238,7 +2237,7 @@ function renderMilestones() {
       return '<div class="jm-sem' + (n === curSem ? ' here' : '') + '"><div class="js-n">S' + n + '</div><div class="js-note">' + L(SEM_NOTES[n - 1][0], SEM_NOTES[n - 1][1]) + '</div></div>';
     }).join('') + '</div></div>').join('') + '</div>' +
     '<div class="jm-status">' + L('You are tracking at <b>Semester ' + curSem + '</b> pace — ' + (curSem >= 5 ? 'on track for the full-time application season.' : 'building your foundation. Keep stacking modules.'),
-      'Kamu berada di laju <b>Semester ' + curSem + '</b> — ' + (curSem >= 5 ? 'sesuai jalur untuk musim lamaran penuh waktu.' : 'sedang membangun fondasi. Terus selesaikan modul.')) + '</div>' +
+      'Lajumu setara <b>Semester ' + curSem + '</b> — ' + (curSem >= 5 ? 'tepat waktu untuk musim lamaran kerja penuh waktu.' : 'masih membangun fondasi. Terus tumpuk modulnya.')) + '</div>' +
     '<div class="jm-legend"><span><i style="background:rgba(255,255,255,.5)"></i>' + L('Academic', 'Akademik') + '</span>' +
     '<span><i style="background:var(--teal)"></i>' + L('Extracurricular', 'Ekstrakurikuler') + '</span>' +
     '<span><i style="background:var(--gold)"></i>' + L('Career', 'Karier') + '</span>' +
@@ -2259,7 +2258,7 @@ function renderMilestones() {
   /* journey log */
   const CATS = [
     { v: 'all', en: 'All', idn: 'Semua' }, { v: 'metanoia', en: 'Metanoia', idn: 'Metanoia' },
-    { v: 'app', en: 'Applications', idn: 'Lamaran' }, { v: 'success', en: 'Wins', idn: 'Kemenangan' }, { v: 'setback', en: 'Setbacks', idn: 'Rintangan' }
+    { v: 'app', en: 'Applications', idn: 'Lamaran' }, { v: 'success', en: 'Wins', idn: 'Capaian' }, { v: 'setback', en: 'Setbacks', idn: 'Hambatan' }
   ];
   $('jlogFilters').innerHTML = CATS.map(c => '<button class="filter-pill' + (jlogFilter === c.v ? ' on' : '') + '" data-cat="' + c.v + '">' + L(c.en, c.idn) + '</button>').join('');
   $('jlogFilters').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { jlogFilter = b.dataset.cat; renderMilestones(); }));
@@ -2269,8 +2268,7 @@ function renderMilestones() {
   $('jlog').innerHTML = log.length
     ? log.map(m => '<div class="jlog-item" style="--dot:' + (dots[m.cat] || 'var(--gold)') + '">' +
         '<div class="jl-date">' + fmtDY(m.date) + '</div><div class="jl-text">' + esc(L(m.en, m.id || m.en)) + '</div></div>').join('')
-    : '<div class="jlog-empty">' + L('No entries yet — your journey log builds itself as you log applications and complete modules.',
-        'Belum ada catatan — log perjalananmu terbangun sendiri saat kamu mencatat lamaran dan menyelesaikan modul.') + '</div>';
+    : '<div class="jlog-empty">' + L('No entries yet — your journey log builds itself as you log applications and complete modules.', 'Belum ada catatan — jurnal perjalananmu akan terisi sendiri seiring kamu mencatat lamaran dan menyelesaikan modul.') + '</div>';
 }
 
 /* ═══ RENDER: INSIGHTS ═══ */
@@ -2289,9 +2287,8 @@ function renderInsights() {
       ctaEn: 'Open Nexus interview prep →', ctaId: 'Buka persiapan wawancara Nexus →', href: '/products/the-rope/?context=compass' });
   } else {
     pris.push({ tag: L('Priority 1 · 🧭 Navigate Now', 'Prioritas 1 · 🧭 Navigasi Sekarang'),
-      h: L('Keep your pipeline moving', 'Jaga pipeline-mu tetap bergerak'),
-      p: L('No interviews are on the calendar. The single best lead indicator is application velocity: log 3 quality applications this week.',
-           'Tidak ada wawancara terjadwal. Indikator awal terbaik adalah kecepatan lamaran: catat 3 lamaran berkualitas minggu ini.'),
+      h: L('Keep your pipeline moving', 'Jaga alur lamaranmu tetap bergerak'),
+      p: L('No interviews are on the calendar. The single best lead indicator is application velocity: log 3 quality applications this week.', 'Belum ada wawancara di kalender. Indikator awal yang paling menentukan adalah kecepatan melamar: catat 3 lamaran berkualitas minggu ini.'),
       ctaEn: '+ Add application →', ctaId: '+ Tambah lamaran →', action: 'add' });
   }
 
@@ -2300,9 +2297,9 @@ function renderInsights() {
   const rejAll = apps.filter(a => a.status === 'rejected').length;
   if (rejCv >= 2) {
     pris.push({ tag: L('Priority 2 · ⚡ Course Correction', 'Prioritas 2 · ⚡ Koreksi Arah'),
-      h: L('Your CV Screening rejection rate needs attention', 'Tingkat penolakan Seleksi CV-mu perlu perhatian'),
+      h: L('Your CV Screening rejection rate needs attention', 'Tingkat penolakanmu di tahap Seleksi CV perlu perhatian'),
       p: L(rejCv + ' of your ' + rejAll + ' rejections happened at CV Screening — before a human read your application. This strongly indicates an ATS issue. Run an ATS audit against your next 3 target roles.',
-           rejCv + ' dari ' + rejAll + ' penolakanmu terjadi di Seleksi CV — sebelum manusia membaca lamaranmu. Ini sangat mengindikasikan masalah ATS. Jalankan audit ATS untuk 3 peran target berikutnya.'),
+           rejCv + ' dari ' + rejAll + ' penolakanmu terjadi di tahap Seleksi CV — sebelum ada manusia yang membaca lamaranmu. Ini indikasi kuat adanya masalah ATS. Jalankan audit ATS untuk 3 lowongan incaranmu berikutnya.'),
       ctaEn: 'Open ATS Optimisation in Maverick →', ctaId: 'Buka Optimasi ATS di Maverick →', href: '/products/the-pack/?context=compass' });
   } else {
     const nextMod = PRODUCTS.map(p => ({ p, done: modulesDone(p.key + '_progress', p.total) })).find(x => x.done < x.p.total);
@@ -2311,7 +2308,7 @@ function renderInsights() {
                  : L('All course modules complete', 'Semua modul kursus selesai'),
       p: nextMod ? L('“' + nextMod.p.modules[nextMod.done].en + '” is your next unfinished module — completing it raises your dimension scores directly.',
                      '“' + nextMod.p.modules[nextMod.done].idn + '” adalah modul berikutnya yang belum selesai — menyelesaikannya langsung menaikkan skor dimensimu.')
-                 : L('Your learning system is fully complete. Focus entirely on live applications now.', 'Sistem belajarmu sudah lengkap. Fokus sepenuhnya pada lamaran nyata sekarang.'),
+                 : L('Your learning system is fully complete. Focus entirely on live applications now.', 'Sistem belajarmu sudah tuntas. Sekarang, fokus sepenuhnya pada lamaran sungguhan.'),
       ctaEn: nextMod ? 'Continue →' : 'Open tracker →', ctaId: nextMod ? 'Lanjutkan →' : 'Buka pelacak →', href: nextMod ? nextMod.p.file : null, tab: nextMod ? null : 'course-plotter' });
   }
 
@@ -2329,9 +2326,9 @@ function renderInsights() {
     h: L(lowest.en + ' is your lowest dimension (' + scores[lowest.key] + '/100)', lowest.idn + ' adalah dimensi terendahmu (' + scores[lowest.key] + '/100)'),
     p: lowest.key === 'networkCapital'
       ? L('Building a 3-person practice pod would raise your interview readiness faster than any other action this week. Raising this dimension by 13 points adds +' + lift + ' to your overall score.',
-          'Membangun pod latihan 3 orang akan menaikkan kesiapan wawancaramu lebih cepat dari tindakan lain minggu ini. Menaikkan dimensi ini 13 poin menambah +' + lift + ' ke skor keseluruhanmu.')
+          'Membentuk pod latihan beranggotakan 3 orang akan menaikkan kesiapan wawancaramu lebih cepat daripada tindakan apa pun minggu ini. Menaikkan dimensi ini 13 poin menambah +' + lift + ' pada skor keseluruhanmu.')
       : L('Raising ' + lowest.en + ' by 13 points adds +' + lift + ' to your overall Career Readiness Score — see the deep-dive below for the exact actions.',
-          'Menaikkan ' + lowest.idn + ' sebesar 13 poin menambah +' + lift + ' ke Skor Kesiapan Karier keseluruhanmu — lihat pendalaman di bawah untuk tindakan tepatnya.'),
+          'Menaikkan ' + lowest.idn + ' sebesar 13 poin menambah +' + lift + ' pada Skor Kesiapan Karier keseluruhanmu — lihat pendalaman di bawah untuk langkah-langkah persisnya.'),
     ctaEn: 'See the plan below ↓', ctaId: 'Lihat rencana di bawah ↓', scroll: 'deepDives' });
 
   $('priActions').innerHTML = pris.map(p =>
@@ -2360,47 +2357,47 @@ function renderInsights() {
   });
   const typeRows = COMPANY_TYPES.filter(t => byType[t.v]).map(t => {
     const d = byType[t.v]; const cv = d.apps ? Math.round(d.iv / d.apps * 100) : 0;
-    return L(t.en, t.idn) + ': <b>' + d.apps + '</b> apps → <b>' + d.iv + '</b> ' + L('interviews', 'wawancara') + ' (' + cv + '%)';
+    return L(t.en, t.idn) + ': <b>' + d.apps + '</b> ' + L('apps', 'lamaran') + ' → <b>' + d.iv + '</b> ' + L('interviews', 'wawancara') + ' (' + cv + '%)';
   }).join('<br>');
   const best = COMPANY_TYPES.filter(t => byType[t.v] && byType[t.v].apps >= 2)
     .sort((a, b) => (byType[b.v].iv / byType[b.v].apps) - (byType[a.v].iv / byType[a.v].apps))[0];
   $('patternPanel').innerHTML = '<h4>' + L('Your application stats (last 60 days)', 'Statistik lamaranmu (60 hari terakhir)') + '</h4>' +
     '<div class="ins-rows">' +
     L('Total applications: <b>' + sixty.length + '</b><br>Reached interview: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '% — ' + 'benchmark: 30%)<br>Offer conversion after Final: <b>' + offerConv + '%</b> (benchmark: 40%)',
-      'Total lamaran: <b>' + sixty.length + '</b><br>Mencapai wawancara: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '% — benchmark: 30%)<br>Konversi penawaran setelah Final: <b>' + offerConv + '%</b> (benchmark: 40%)') +
-    (typeRows ? '<br><br><b>' + L('Company type breakdown', 'Rincian jenis perusahaan') + '</b><br>' + typeRows : '') + '</div>' +
+      'Total lamaran: <b>' + sixty.length + '</b><br>Sampai ke tahap wawancara: <b>' + reached + '</b> (' + (sixty.length ? Math.round(reached / sixty.length * 100) : 0) + '% — benchmark: 30%)<br>Konversi ke tawaran setelah wawancara final: <b>' + offerConv + '%</b> (benchmark: 40%)') +
+    (typeRows ? '<br><br><b>' + L('Company type breakdown', 'Rincian menurut jenis perusahaan') + '</b><br>' + typeRows : '') + '</div>' +
     (best ? '<div class="ins-note">' + L('Insight: your materials convert best at <b>' + best.en + '</b> companies. Review how you position your experience for the other segments.',
-      'Wawasan: materimu paling efektif di perusahaan <b>' + best.idn + '</b>. Tinjau cara kamu memposisikan pengalamanmu untuk segmen lain.') + '</div>' : '');
+      'Wawasan: materi lamaranmu paling berhasil di perusahaan <b>' + best.idn + '</b>. Tinjau lagi cara kamu memposisikan pengalamanmu untuk segmen lainnya.') + '</div>' : '');
 
   /* dimension deep-dives (<70) */
   const DEEP = {
     careerIntelligence: {
       hold: [L('Aladin modules unfinished (' + scores.aladinDone + '/6)', 'Modul Aladin belum selesai (' + scores.aladinDone + '/6)'), L('Self-audit not refreshed this term', 'Audit diri belum diperbarui semester ini')],
-      act: [L('Complete Aladin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan 3 bulan lalu')] },
+      act: [L('Complete Aladin Module ' + Math.min(6, scores.aladinDone + 1) + ' this week', 'Selesaikan Aladin Modul ' + Math.min(6, scores.aladinDone + 1) + ' minggu ini'), L('Re-run your Career Map assessment and compare with 3 months ago', 'Jalankan ulang asesmen Career Map dan bandingkan dengan hasil 3 bulan lalu')] },
     profileStrength: {
-      hold: [L('Maverick modules unfinished (' + scores.mavDone + '/9)', 'Modul Maverick belum selesai (' + scores.mavDone + '/9)'), L('CV not yet ATS-audited against live roles', 'CV belum diaudit ATS terhadap peran nyata')],
-      act: [L('Complete Maverick Module ' + Math.min(9, scores.mavDone + 1), 'Selesaikan Maverick Modul ' + Math.min(9, scores.mavDone + 1)), L('Run one ATS audit against a target job description', 'Jalankan satu audit ATS terhadap deskripsi pekerjaan target')] },
+      hold: [L('Maverick modules unfinished (' + scores.mavDone + '/9)', 'Modul Maverick belum selesai (' + scores.mavDone + '/9)'), L('CV not yet ATS-audited against live roles', 'CV belum diaudit ATS terhadap lowongan sungguhan')],
+      act: [L('Complete Maverick Module ' + Math.min(9, scores.mavDone + 1), 'Selesaikan Maverick Modul ' + Math.min(9, scores.mavDone + 1)), L('Run one ATS audit against a target job description', 'Jalankan satu audit ATS terhadap deskripsi lowongan yang kamu incar')] },
     interviewReadiness: {
       hold: [L('Nexus modules unfinished (' + scores.nexusDone + '/9)', 'Modul Nexus belum selesai (' + scores.nexusDone + '/9)'), L(scores.debriefsAll + ' interview debriefs logged (target: 5+)', scores.debriefsAll + ' debrief wawancara tercatat (target: 5+)')],
-      act: [L('Run one timed mock interview this week', 'Jalankan satu latihan wawancara berbatas waktu minggu ini'), L('Write a debrief after every real interview — each one compounds', 'Tulis debrief setelah setiap wawancara nyata — semuanya terakumulasi')] },
+      act: [L('Run one timed mock interview this week', 'Lakukan satu simulasi wawancara berbatas waktu minggu ini'), L('Write a debrief after every real interview — each one compounds', 'Tulis debrief setelah setiap wawancara sungguhan — hasilnya bertumbuh berlipat')] },
     networkCapital: {
-      hold: [L('No active peer practice pod logged', 'Belum ada pod latihan yang tercatat'), L('Mentor relationships below target (2+)', 'Hubungan mentor di bawah target (2+)'), L('No alumni conversations in the last 30 days', 'Tidak ada percakapan alumni dalam 30 hari terakhir')],
-      act: [L('Ask one Metanoia peer to form a mock interview pod this week (30 min setup)', 'Ajak satu rekan Metanoia membentuk pod latihan wawancara minggu ini (persiapan 30 menit)'), L('Send one specific outreach message to a professional whose path you admire', 'Kirim satu pesan spesifik ke profesional yang jalur kariernya kamu kagumi'), L('Schedule a 20-minute call with your mentor — bring 2 specific questions', 'Jadwalkan panggilan 20 menit dengan mentormu — bawa 2 pertanyaan spesifik')] },
+      hold: [L('No active peer practice pod logged', 'Belum ada pod latihan bersama rekan yang tercatat'), L('Mentor relationships below target (2+)', 'Jumlah hubungan mentor di bawah target (2+)'), L('No alumni conversations in the last 30 days', 'Tidak ada percakapan dengan alumni dalam 30 hari terakhir')],
+      act: [L('Ask one Metanoia peer to form a mock interview pod this week (30 min setup)', 'Ajak satu rekan Metanoia membentuk pod simulasi wawancara minggu ini (persiapan 30 menit)'), L('Send one specific outreach message to a professional whose path you admire', 'Kirim satu pesan perkenalan yang spesifik kepada profesional yang jalur kariernya kamu kagumi'), L('Schedule a 20-minute call with your mentor — bring 2 specific questions', 'Jadwalkan panggilan 20 menit dengan mentormu — bawa 2 pertanyaan spesifik')] },
     careerMindset: {
       hold: [L(scores.recentCount + ' applications in the last 30 days', scores.recentCount + ' lamaran dalam 30 hari terakhir'), L(scores.rejectionDebriefs + ' rejection debriefs completed', scores.rejectionDebriefs + ' debrief penolakan selesai')],
-      act: [L('Set a fixed weekly application block — 3 quality applications every week', 'Tetapkan blok lamaran mingguan — 3 lamaran berkualitas setiap minggu'), L('Complete the Rejection Recovery debrief for every closed application', 'Selesaikan debrief Pemulihan Penolakan untuk setiap lamaran yang ditutup')] }
+      act: [L('Set a fixed weekly application block — 3 quality applications every week', 'Tetapkan jadwal tetap untuk melamar setiap minggu — 3 lamaran berkualitas per minggu'), L('Complete the Rejection Recovery debrief for every closed application', 'Selesaikan debrief Pemulihan dari Penolakan untuk setiap lamaran yang ditutup')] }
   };
   const lows = dims.filter(d => scores[d.key] < 70).sort((a, b) => scores[a.key] - scores[b.key]);
   $('deepDives').innerHTML = lows.length
-    ? '<h3 class="sec-label">' + L('Dimension Deep-Dives', 'Pendalaman Dimensi') + '</h3>' + lows.map(d => {
+    ? '<h3 class="sec-label">' + L('Dimension Deep-Dives', 'Pendalaman per Dimensi') + '</h3>' + lows.map(d => {
         const dd = DEEP[d.key];
         const gain = Math.round((Math.min(100, scores[d.key] + 13) - scores[d.key]) / 5 * 10) / 10;
         return '<div class="glass-card deep-card"><h4>' + L(d.en, d.idn) + ' <b>(' + scores[d.key] + '/100' +
-          (d.key === lows[0].key ? ' — ' + L('your steepest face', 'sisi tercuram-mu') : '') + ')</b></h4>' +
+          (d.key === lows[0].key ? ' — ' + L('your steepest face', 'tanjakan tercurammu') : '') + ')</b></h4>' +
           '<h5>' + L("What's holding you back", 'Apa yang menahanmu') + '</h5><ul>' + dd.hold.map(x => '<li>' + x + '</li>').join('') + '</ul>' +
           '<h5>' + L('Highest-leverage actions', 'Tindakan berdaya ungkit tertinggi') + '</h5><ul>' + dd.act.map(x => '<li>' + x + '</li>').join('') + '</ul>' +
           '<div class="dc-impact">' + L('Impact: +13 points here adds +' + gain + ' to your overall Career Readiness Score.',
-            'Dampak: +13 poin di sini menambah +' + gain + ' ke Skor Kesiapan Karier keseluruhanmu.') + '</div></div>';
+            'Dampak: +13 poin di sini menambah +' + gain + ' pada Skor Kesiapan Karier keseluruhanmu.') + '</div></div>';
       }).join('')
     : '';
 
@@ -2415,9 +2412,9 @@ function renderInsights() {
     '<p>' + L('You applied to <b>' + week + '</b> ' + (week === 1 ? 'company' : 'companies') + ' — ' + (week >= prevWeek ? 'up from' : 'down from') + ' <b>' + prevWeek + '</b> last week. You logged <b>' + weekDebriefs + '</b> interview ' + (weekDebriefs === 1 ? 'debrief' : 'debriefs') + '.',
       'Kamu melamar ke <b>' + week + '</b> perusahaan — ' + (week >= prevWeek ? 'naik dari' : 'turun dari') + ' <b>' + prevWeek + '</b> minggu lalu. Kamu mencatat <b>' + weekDebriefs + '</b> debrief wawancara.') + '</p>' +
     (top ? '<p><span class="wk-hi">' + L('Strongest position', 'Posisi terkuat') + ':</span> ' + esc(top.company) + ' — ' + stageName(top.stage) + '.</p>' : '') +
-    (stale ? '<p><span class="wk-warn">' + L('Watch point', 'Titik perhatian') + ':</span> ' + L(stale + ' applications have had no update in 14+ days. Review and update them.', stale + ' lamaran belum diperbarui selama 14+ hari. Tinjau dan perbarui.') + '</p>' : '') +
+    (stale ? '<p><span class="wk-warn">' + L('Watch point', 'Perlu diwaspadai') + ':</span> ' + L(stale + ' applications have had no update in 14+ days. Review and update them.', stale + ' lamaran belum diperbarui lebih dari 14 hari. Tinjau dan perbarui statusnya.') + '</p>' : '') +
     '<p><b>' + L("This week's single most important action", 'Satu tindakan terpenting minggu ini') + ':</b> ' +
-    (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + ' — run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + ' — jalankan 2 latihan wawancara sebelumnya.')
+    (urgent ? L('prepare for your ' + stageOf(urgent.stage).en + ' at ' + esc(urgent.company) + ' — run 2 mock interviews before it.', 'bersiap untuk ' + stageOf(urgent.stage).idn + ' di ' + esc(urgent.company) + ' — lakukan 2 simulasi wawancara sebelum harinya tiba.')
             : L('log 3 quality applications and complete one course module.', 'catat 3 lamaran berkualitas dan selesaikan satu modul kursus.')) + '</p>';
   animateRings($('tab-nav-briefing'));
 }
