@@ -223,6 +223,311 @@
     }
   }
 
+  /* ─── intro video playlist: an integrated, fully custom player ───
+     Declared per lesson as l.videos = [{ src, poster, dur, title:{en,id},
+     captions:{en,id} }]. Rendered before the learning material. Subtitles
+     are parsed from the VTT files and drawn by the player itself so they
+     look identical on every device (native cue rendering is off). */
+  function fmtTime(s) {
+    s = Math.max(0, Math.floor(s || 0));
+    return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+  }
+  function parseVtt(text) {
+    var cues = [], blocks = text.replace(/\r/g, '').split(/\n\n+/);
+    blocks.forEach(function (b) {
+      var lines = b.split('\n').filter(function (x) { return x.trim(); });
+      if (!lines.length) return;
+      var ti = lines.findIndex(function (x) { return x.indexOf('-->') !== -1; });
+      if (ti === -1) return;
+      var mm = lines[ti].match(/([\d:.]+)\s*-->\s*([\d:.]+)/);
+      if (!mm) return;
+      var toS = function (t) {
+        var p = t.split(':').map(parseFloat);
+        return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1];
+      };
+      cues.push({ start: toS(mm[1]), end: toS(mm[2]), text: lines.slice(ti + 1).join('\n') });
+    });
+    return cues;
+  }
+  var ICO = {
+    play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l11-6.5a1 1 0 0 0 0-1.72l-11-6.5A1 1 0 0 0 8 5.5Z"/></svg>',
+    pause: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4.5" height="14" rx="1.2"/><rect x="13.5" y="5" width="4.5" height="14" rx="1.2"/></svg>',
+    back10: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 3.5v4.2h4.2"/><text x="12" y="15.2" font-size="7.2" font-weight="800" text-anchor="middle" fill="currentColor" stroke="none" font-family="inherit">10</text></svg>',
+    fwd10: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 3.5v4.2h-4.2"/><text x="12" y="15.2" font-size="7.2" font-weight="800" text-anchor="middle" fill="currentColor" stroke="none" font-family="inherit">10</text></svg>',
+    cc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10.5 10.2a2.2 2.2 0 1 0 0 3.6M17 10.2a2.2 2.2 0 1 0 0 3.6"/></svg>',
+    full: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
+    unfull: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>',
+    vol: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5Z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
+    mute: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5Z" fill="currentColor"/><path d="m16 9.5 5 5M21 9.5l-5 5"/></svg>',
+    next: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5.6v12.8a1 1 0 0 0 1.53.85l9.9-6.4a1 1 0 0 0 0-1.7l-9.9-6.4A1 1 0 0 0 6 5.6Z"/><rect x="18" y="5" width="2.4" height="14" rx="1"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>'
+  };
+
+  function renderIntroVideos(l, host) {
+    if (!l.videos || !l.videos.length) return;
+    var list = l.videos, idx = 0, cues = [], cueLang = lang(), ccOn = true, raf = 0, hideT = 0, upT = 0;
+    var vk = 'mt-lms-vid:' + slug + ':' + l.n;
+    var seen = {};
+    try { seen = JSON.parse(localStorage.getItem(vk) || '{}'); } catch (e) {}
+
+    var wrap = el('div', 'lms-vp');
+    var lead = el('div', 'lms-vp-lead');
+    lead.appendChild(bi('span', 'lms-kicker', { en: 'Watch first · ' + list.length + ' short videos', id: 'Tonton dulu · ' + list.length + ' video singkat' }));
+    lead.appendChild(bi('p', 'lms-vp-intro', l.videosIntro || {
+      en: 'These videos set the scene for the lesson. Watch them in order, then continue to the material below.',
+      id: 'Video-video ini membuka konteks pelajaran. Tonton berurutan, lalu lanjutkan ke materi di bawah.'
+    }));
+    wrap.appendChild(lead);
+
+    var stage = el('div', 'lms-vs');
+    stage.setAttribute('tabindex', '0');
+    stage.setAttribute('role', 'region');
+    stage.setAttribute('aria-label', 'Video player');
+    var v = document.createElement('video');
+    v.preload = 'metadata'; v.playsInline = true; v.setAttribute('playsinline', ''); v.setAttribute('webkit-playsinline', '');
+    stage.appendChild(v);
+    var cap = el('div', 'lms-vcap'); cap.setAttribute('aria-live', 'off'); stage.appendChild(cap);
+    var big = el('button', 'lms-vbig', ICO.play); big.setAttribute('aria-label', 'Play'); stage.appendChild(big);
+    var spin = el('div', 'lms-vspin'); stage.appendChild(spin);
+    var upnext = el('div', 'lms-vup'); stage.appendChild(upnext);
+    var top = el('div', 'lms-vtop');
+    var tl = el('div', 'lms-vtitle');
+    top.appendChild(tl);
+    stage.appendChild(top);
+
+    var ctl = el('div', 'lms-vctl');
+    var seek = el('div', 'lms-vseek');
+    seek.setAttribute('role', 'slider'); seek.setAttribute('aria-label', 'Seek'); seek.setAttribute('tabindex', '0');
+    seek.setAttribute('aria-valuemin', '0'); seek.setAttribute('aria-valuemax', '100'); seek.setAttribute('aria-valuenow', '0');
+    var buf = el('i', 'vs-buf'), fill = el('i', 'vs-fill'), knob = el('i', 'vs-knob'), tip = el('span', 'vs-tip', '0:00');
+    seek.appendChild(buf); seek.appendChild(fill); seek.appendChild(knob); seek.appendChild(tip);
+    ctl.appendChild(seek);
+    var row = el('div', 'lms-vrow');
+    var bPlay = el('button', 'vb', ICO.play); bPlay.setAttribute('aria-label', 'Play');
+    var bBack = el('button', 'vb', ICO.back10); bBack.setAttribute('aria-label', 'Back 10 seconds');
+    var bFwd = el('button', 'vb', ICO.fwd10); bFwd.setAttribute('aria-label', 'Forward 10 seconds');
+    var time = el('span', 'lms-vtime', '<b>0:00</b> / 0:00');
+    var bMute = el('button', 'vb vb-mute', ICO.vol); bMute.setAttribute('aria-label', 'Mute');
+    var ccBox = el('div', 'lms-vcc');
+    var bCC = el('button', 'vb vb-cc on', ICO.cc + '<span>CC</span>'); bCC.setAttribute('aria-label', 'Subtitles');
+    var ccMenu = el('div', 'lms-vcc-menu');
+    [['en', 'English'], ['id', 'Bahasa Indonesia'], ['off', null]].forEach(function (o) {
+      var b = el('button');
+      if (o[0] === 'off') { b.setAttribute('data-en', 'Off'); b.setAttribute('data-id', 'Nonaktif'); b.textContent = lang() === 'id' ? 'Nonaktif' : 'Off'; }
+      else b.textContent = o[1];
+      b.setAttribute('data-cc', o[0]);
+      b.addEventListener('click', function (e) { e.stopPropagation(); setCC(o[0]); ccBox.classList.remove('open'); });
+      ccMenu.appendChild(b);
+    });
+    ccBox.appendChild(bCC); ccBox.appendChild(ccMenu);
+    var bNext = el('button', 'vb vb-next', ICO.next); bNext.setAttribute('aria-label', 'Next video');
+    var bFull = el('button', 'vb', ICO.full); bFull.setAttribute('aria-label', 'Fullscreen');
+    row.appendChild(bPlay); row.appendChild(bBack); row.appendChild(bFwd); row.appendChild(time);
+    var sp = el('span', 'lms-vsp'); row.appendChild(sp);
+    row.appendChild(bMute); row.appendChild(ccBox); row.appendChild(bNext); row.appendChild(bFull);
+    ctl.appendChild(row);
+    stage.appendChild(ctl);
+    wrap.appendChild(stage);
+
+    /* playlist strip */
+    var strip = el('div', 'lms-vlist');
+    list.forEach(function (it, k) {
+      var b = el('button', 'lms-vitem');
+      b.setAttribute('type', 'button');
+      var th = el('span', 'vi-th');
+      var im = document.createElement('img'); im.src = it.poster; im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
+      th.appendChild(im);
+      th.appendChild(el('i', 'vi-num', String(k + 1)));
+      th.appendChild(el('i', 'vi-done', ICO.check));
+      b.appendChild(th);
+      var tx = el('span', 'vi-tx');
+      tx.appendChild(bi('b', null, it.title));
+      tx.appendChild(el('span', null, (it.dur ? it.dur + ' · ' : '') + '<span data-en="Video ' + (k + 1) + '" data-id="Video ' + (k + 1) + '">Video ' + (k + 1) + '</span>'));
+      b.appendChild(tx);
+      b.addEventListener('click', function () { load(k, true); });
+      strip.appendChild(b);
+    });
+    wrap.appendChild(strip);
+    host.appendChild(wrap);
+
+    /* ── behaviour ── */
+    function setCC(mode) {
+      ccOn = mode !== 'off';
+      if (ccOn) cueLang = mode;
+      bCC.classList.toggle('on', ccOn);
+      ccMenu.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-cc') === (ccOn ? cueLang : 'off')); });
+      loadCues();
+      try { localStorage.setItem('mt-lms-cc', ccOn ? cueLang : 'off'); } catch (e) {}
+    }
+    function loadCues() {
+      cues = []; cap.textContent = ''; cap.classList.remove('show');
+      var it = list[idx];
+      if (!ccOn || !it.captions || !it.captions[cueLang]) return;
+      var want = it.captions[cueLang];
+      fetch(want).then(function (r) { return r.ok ? r.text() : ''; }).then(function (t) {
+        if (list[idx] !== it || !ccOn || it.captions[cueLang] !== want) return;
+        cues = parseVtt(t); drawCue();
+      }).catch(function () {});
+    }
+    var lastCue = null;
+    function drawCue() {
+      var t = v.currentTime, c = null;
+      for (var i = 0; i < cues.length; i++) if (t >= cues[i].start && t < cues[i].end) { c = cues[i]; break; }
+      if (c === lastCue) return;
+      lastCue = c;
+      if (c) {
+        /* authored line breaks are kept on wide stages; narrow stages let the
+           browser wrap so a two-line cue never stacks into four */
+        var narrow = stage.clientWidth < 560;
+        cap.innerHTML = c.text.replace(/</g, '&lt;').replace(/\n/g, narrow ? ' ' : '<br>');
+        cap.classList.add('show');
+      }
+      else { cap.classList.remove('show'); }
+    }
+    function tick() {
+      var d = v.duration || 0, t = v.currentTime || 0, p = d ? t / d * 100 : 0;
+      fill.style.width = p + '%'; knob.style.left = p + '%';
+      seek.setAttribute('aria-valuenow', String(Math.round(p)));
+      time.innerHTML = '<b>' + fmtTime(t) + '</b> / ' + fmtTime(d);
+      try { if (v.buffered.length) buf.style.width = (v.buffered.end(v.buffered.length - 1) / d * 100) + '%'; } catch (e) {}
+      drawCue();
+      if (!v.paused && !v.ended) raf = requestAnimationFrame(tick);
+    }
+    function setPlaying(on) {
+      stage.classList.toggle('playing', on);
+      bPlay.innerHTML = on ? ICO.pause : ICO.play;
+      bPlay.setAttribute('aria-label', on ? 'Pause' : 'Play');
+      big.setAttribute('aria-label', on ? 'Pause' : 'Play');
+      if (on) { cancelAnimationFrame(raf); raf = requestAnimationFrame(tick); armHide(); }
+      else { cancelAnimationFrame(raf); tick(); showCtl(); }
+    }
+    function showCtl() { stage.classList.remove('idle'); }
+    function armHide() {
+      clearTimeout(hideT);
+      hideT = setTimeout(function () { if (!v.paused && !ccBox.classList.contains('open')) stage.classList.add('idle'); }, 2600);
+    }
+    function toggle() { if (v.paused || v.ended) v.play().catch(function () {}); else v.pause(); }
+    function markSeen(k) {
+      seen[k] = true;
+      try { localStorage.setItem(vk, JSON.stringify(seen)); } catch (e) {}
+      paintList();
+    }
+    function paintList() {
+      strip.querySelectorAll('.lms-vitem').forEach(function (b, k) {
+        b.classList.toggle('on', k === idx);
+        b.classList.toggle('done', !!seen[k]);
+      });
+    }
+    function load(k, autoplay) {
+      clearTimeout(upT); upnext.classList.remove('show'); upnext.innerHTML = '';
+      idx = Math.max(0, Math.min(list.length - 1, k));
+      var it = list[idx];
+      v.pause();
+      v.poster = it.poster || ''; v.src = it.src; v.load();
+      lastCue = null; fill.style.width = '0%'; knob.style.left = '0%'; buf.style.width = '0%';
+      tl.innerHTML = '<i>' + (idx + 1) + '/' + list.length + '</i> ' + (it.title[lang()] || it.title.en);
+      tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.en);
+      tl.setAttribute('data-id', '<i>' + (idx + 1) + '/' + list.length + '</i> ' + it.title.id);
+      bNext.disabled = idx === list.length - 1;
+      paintList(); loadCues(); setPlaying(false);
+      time.innerHTML = '<b>0:00</b> / ' + (it.dur || '0:00');
+      if (autoplay) v.play().catch(function () {});
+    }
+
+    /* events */
+    v.addEventListener('play', function () { setPlaying(true); });
+    v.addEventListener('pause', function () { setPlaying(false); });
+    v.addEventListener('waiting', function () { stage.classList.add('buffering'); });
+    v.addEventListener('playing', function () { stage.classList.remove('buffering'); });
+    v.addEventListener('canplay', function () { stage.classList.remove('buffering'); });
+    v.addEventListener('loadedmetadata', tick);
+    v.addEventListener('progress', function () { if (v.paused) tick(); });
+    v.addEventListener('ended', function () {
+      markSeen(idx); setPlaying(false); stage.classList.remove('idle');
+      if (idx < list.length - 1) {
+        var n = list[idx + 1];
+        upnext.innerHTML = '<span class="vu-k" data-en="Up next" data-id="Selanjutnya">' + (lang() === 'id' ? 'Selanjutnya' : 'Up next') + '</span>' +
+          '<b>' + (n.title[lang()] || n.title.en) + '</b>' +
+          '<button class="vu-go" type="button">' + ICO.play + '<span data-en="Play now" data-id="Putar sekarang">' + (lang() === 'id' ? 'Putar sekarang' : 'Play now') + '</span></button>' +
+          '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (lang() === 'id' ? 'Tetap di sini' : 'Stay here') + '</button>' +
+          '<i class="vu-bar"></i>';
+        upnext.classList.add('show');
+        upnext.querySelector('.vu-go').addEventListener('click', function () { load(idx + 1, true); });
+        upnext.querySelector('.vu-x').addEventListener('click', function () { clearTimeout(upT); upnext.classList.remove('show'); });
+        upT = setTimeout(function () { if (upnext.classList.contains('show')) load(idx + 1, true); }, 6000);
+      } else {
+        upnext.innerHTML = '<span class="vu-k" data-en="All videos watched" data-id="Semua video selesai">' + (lang() === 'id' ? 'Semua video selesai' : 'All videos watched') + '</span>' +
+          '<b data-en="Continue to the lesson material below" data-id="Lanjutkan ke materi pelajaran di bawah">' + (lang() === 'id' ? 'Lanjutkan ke materi pelajaran di bawah' : 'Continue to the lesson material below') + '</b>' +
+          '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to material" data-id="Ke materi">' + (lang() === 'id' ? 'Ke materi' : 'Go to material') + '</span></button>';
+        upnext.classList.add('show');
+        upnext.querySelector('.vu-go').addEventListener('click', function () {
+          upnext.classList.remove('show');
+          var nx = wrap.nextElementSibling; if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      }
+    });
+    bPlay.addEventListener('click', toggle);
+    big.addEventListener('click', toggle);
+    v.addEventListener('click', function () { if (stage.classList.contains('idle')) { showCtl(); armHide(); } else toggle(); });
+    bBack.addEventListener('click', function () { v.currentTime = Math.max(0, v.currentTime - 10); tick(); });
+    bFwd.addEventListener('click', function () { v.currentTime = Math.min(v.duration || 0, v.currentTime + 10); tick(); });
+    bMute.addEventListener('click', function () { v.muted = !v.muted; bMute.innerHTML = v.muted ? ICO.mute : ICO.vol; bMute.classList.toggle('on', v.muted); });
+    bCC.addEventListener('click', function (e) { e.stopPropagation(); ccBox.classList.toggle('open'); showCtl(); });
+    stage.addEventListener('click', function (e) { if (!ccBox.contains(e.target)) ccBox.classList.remove('open'); });
+    bNext.addEventListener('click', function () { if (idx < list.length - 1) load(idx + 1, true); });
+    bFull.addEventListener('click', function () {
+      var fs = document.fullscreenElement || document.webkitFullscreenElement;
+      if (fs) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
+      if (stage.requestFullscreen) stage.requestFullscreen().catch(function () {});
+      else if (stage.webkitRequestFullscreen) stage.webkitRequestFullscreen();
+      else if (v.webkitEnterFullscreen) v.webkitEnterFullscreen();   /* iOS: native fullscreen fallback */
+    });
+    function onFs() {
+      var on = !!(document.fullscreenElement || document.webkitFullscreenElement);
+      stage.classList.toggle('fs', on); bFull.innerHTML = on ? ICO.unfull : ICO.full;
+    }
+    document.addEventListener('fullscreenchange', onFs);
+    document.addEventListener('webkitfullscreenchange', onFs);
+    ['mousemove', 'touchstart', 'keydown'].forEach(function (ev) { stage.addEventListener(ev, function () { showCtl(); armHide(); }, { passive: true }); });
+    stage.addEventListener('mouseleave', function () { if (!v.paused) armHide(); });
+
+    /* seek: pointer + keyboard */
+    var scrubbing = false;
+    function seekAt(clientX, commit) {
+      var r = seek.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (clientX - r.left) / r.width));
+      tip.textContent = fmtTime(p * (v.duration || 0)); tip.style.left = (p * 100) + '%';
+      if (commit) { v.currentTime = p * (v.duration || 0); tick(); }
+    }
+    seek.addEventListener('pointerdown', function (e) { scrubbing = true; seek.setPointerCapture(e.pointerId); seek.classList.add('drag'); seekAt(e.clientX, true); });
+    seek.addEventListener('pointermove', function (e) { seekAt(e.clientX, scrubbing); });
+    seek.addEventListener('pointerup', function (e) { scrubbing = false; seek.classList.remove('drag'); seekAt(e.clientX, true); });
+    seek.addEventListener('pointercancel', function () { scrubbing = false; seek.classList.remove('drag'); });
+    seek.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { v.currentTime = Math.max(0, v.currentTime - 5); tick(); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { v.currentTime = Math.min(v.duration || 0, v.currentTime + 5); tick(); e.preventDefault(); }
+    });
+    stage.addEventListener('keydown', function (e) {
+      if (e.target !== stage) return;
+      if (e.key === ' ' || e.key === 'k') { toggle(); e.preventDefault(); }
+      else if (e.key === 'ArrowLeft' || e.key === 'j') { v.currentTime = Math.max(0, v.currentTime - 10); tick(); e.preventDefault(); }
+      else if (e.key === 'ArrowRight' || e.key === 'l') { v.currentTime = Math.min(v.duration || 0, v.currentTime + 10); tick(); e.preventDefault(); }
+      else if (e.key === 'c') { setCC(ccOn ? 'off' : lang()); }
+      else if (e.key === 'f') { bFull.click(); }
+      else if (e.key === 'm') { bMute.click(); }
+    });
+
+    /* initial state: subtitle language follows the page language unless the
+       member chose otherwise earlier */
+    var pref = null;
+    try { pref = localStorage.getItem('mt-lms-cc'); } catch (e) {}
+    if (pref === 'off') ccOn = false; else if (pref === 'en' || pref === 'id') cueLang = pref;
+    var first = 0; while (first < list.length - 1 && seen[first]) first++;
+    load(first, false);
+    setCC(ccOn ? cueLang : 'off');
+    return wrap;
+  }
+
   function renderSections(l, host) {
     (l.sections || []).forEach(function (s, i) {
       var acc = el('div', 'lms-acc' + (i === 0 ? ' open' : ''));
@@ -645,6 +950,7 @@
     var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'] }[l.kind];
     meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
+    if (l.videos && l.videos.length) meta.appendChild(bi('span', 'lms-chip gold', { en: '🎬 ' + l.videos.length + ' videos', id: '🎬 ' + l.videos.length + ' video' }));
     meta.appendChild(bi('span', 'lms-chip' + (isDone(l.n) ? ' ok' : ''), isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
     hl.appendChild(meta);
     if (l.quote) {
@@ -686,6 +992,7 @@
       innerEl.appendChild(obj);
     }
 
+    renderIntroVideos(l, innerEl);   /* declared intro videos always lead the material */
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);

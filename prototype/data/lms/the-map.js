@@ -49,11 +49,56 @@ window.MT_LMS['the-map'] = {
       "id": "Adaptabilitas dan Ketangguhan"
      },
      "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
+      "en": "20 min",
+      "id": "20 mnt"
      },
      "kind": "reading",
      "placeholder": false,
+     "videosIntro": {
+      "en": "Three short scenes set the stage: a job that suddenly feels replaceable, a task with no obvious starting point, and a new role where nothing quite connects yet. Watch how each person adapts — then read on to turn what you saw into a method.",
+      "id": "Tiga adegan singkat membuka pelajaran ini: pekerjaan yang tiba-tiba terasa mudah digantikan, tugas tanpa titik awal yang jelas, dan peran baru yang belum terasa nyambung. Perhatikan cara setiap orang beradaptasi — lalu lanjutkan membaca untuk mengubah yang kamu lihat menjadi metode."
+     },
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/adaptability-1.mp4",
+       "poster": "../../assets/lms/the-map/adaptability-1-poster.jpg",
+       "dur": "1:33",
+       "title": {
+        "en": "When the ground shifts: learning skills that travel",
+        "id": "Saat pijakan bergeser: mempelajari keterampilan yang bisa dibawa"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/adaptability-1-en.vtt",
+        "id": "../../assets/lms/the-map/adaptability-1-id.vtt"
+       }
+      },
+      {
+       "src": "../../assets/lms/the-map/adaptability-2.mp4",
+       "poster": "../../assets/lms/the-map/adaptability-2-poster.jpg",
+       "dur": "0:57",
+       "title": {
+        "en": "A problem with many moving pieces: asking for help early",
+        "id": "Masalah dengan banyak bagian bergerak: minta bantuan lebih awal"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/adaptability-2-en.vtt",
+        "id": "../../assets/lms/the-map/adaptability-2-id.vtt"
+       }
+      },
+      {
+       "src": "../../assets/lms/the-map/adaptability-3.mp4",
+       "poster": "../../assets/lms/the-map/adaptability-3-poster.jpg",
+       "dur": "1:44",
+       "title": {
+        "en": "New role, new ground: feedback, connection and a clearer message",
+        "id": "Peran baru, pijakan baru: umpan balik, koneksi, dan pesan yang lebih jelas"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/adaptability-3-en.vtt",
+        "id": "../../assets/lms/the-map/adaptability-3-id.vtt"
+       }
+      }
+     ],
      "overview": {
       "en": "Careers rarely break because of one big storm. They break because the climber never learned to recover. This lesson reframes adaptability and resilience as trainable systems — a recovery loop you run after every setback — and connects them to the personal audit you will complete in this module.",
       "id": "Karier jarang hancur karena satu badai besar. Karier hancur karena pendaki tidak pernah belajar pulih. Pelajaran ini membingkai ulang adaptabilitas dan ketangguhan sebagai sistem yang bisa dilatih — sebuah putaran pemulihan yang kamu jalankan setelah setiap kemunduran — dan menghubungkannya dengan audit pribadi yang akan kamu selesaikan di modul ini."
