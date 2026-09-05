@@ -686,9 +686,11 @@
   .prod-card:hover{border-color:var(--gold-border-hover);transform:translateY(-4px)}
   .pc-head{position:relative;height:112px;display:flex;align-items:center;justify-content:center;overflow:hidden}
   .pc-head svg{width:42px;height:42px;color:rgba(255,255,255,.92);position:relative;z-index:1}
-  .pc-head::before{content:'';position:absolute;width:150px;height:150px;border-radius:50%;
+  .pc-head .pc-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:0}
+  .pc-head::before{content:'';position:absolute;z-index:1;width:150px;height:150px;border-radius:50%;
     border:1px solid rgba(255,255,255,.14);top:-40px;right:-30px}
-  .pc-head::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(5,10,18,.38))}
+  .pc-head::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(5,10,18,.16),rgba(5,10,18,.52))}
+  .pc-head svg{filter:drop-shadow(0 2px 6px rgba(0,0,0,.55))}
   .pc-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
   .pc-body .ptag{margin-bottom:12px;align-self:flex-start}
   .pc-body h3{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--text);margin:0 0 6px}
@@ -714,7 +716,7 @@
   .pcar-track .pc-head{width:38%;height:auto;min-height:100%;flex:none}
   .pcar-track .pc-head svg{width:78px;height:78px}
   .pcar-track .pc-head::before{width:300px;height:300px;top:-80px;right:-70px}
-  .pcar-track .pc-head::after{background:linear-gradient(90deg,transparent 45%,rgba(5,10,18,.35))}
+  .pcar-track .pc-head::after{background:linear-gradient(90deg,rgba(5,10,18,.14),rgba(5,10,18,.5))}
   .pcar-track .pc-body{padding:46px 54px 42px;justify-content:center}
   .pcar-track .pc-body h3{font-size:clamp(22px,2.6vw,32px);margin-bottom:8px}
   .pcar-track .pc-body .prod-sub{font-size:15px;margin-bottom:18px}
@@ -2627,7 +2629,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="pcar-track" id="pcar-track">
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-map.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
             <div class="pc-body">
               <span class="ptag cobalt">01 · The Map</span>
               <h3 data-en="The Map — Direction Edition" data-id="The Map — Edisi Arah">The Map — Direction Edition</h3>
@@ -2645,7 +2647,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-pack.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
             <div class="pc-body">
               <span class="ptag teal">02 · The Pack</span>
               <h3 data-en="The Pack — The Application Toolkit" data-id="The Pack — Perangkat Lamaran">The Pack — The Application Toolkit</h3>
@@ -2670,7 +2672,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-rope.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
             <div class="pc-body">
               <span class="ptag amber">03 · The Rope</span>
               <h3 data-en="The Rope — Interview Mastery" data-id="The Rope — Penguasaan Wawancara">The Rope — Interview Mastery</h3>
@@ -2694,7 +2696,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-route.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
             <div class="pc-body">
               <span class="ptag forest">04 · The Route</span>
               <h3 data-en="The Route — Scholarship &amp; Graduate Programmes" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
@@ -2717,7 +2719,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#8B6914,#241800)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.3,13.3 8.5,15.5 10.7,10.7"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#8B6914,#241800)" aria-hidden="true"><img class="pc-art" src="../assets/bg/compass.jpg" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.3,13.3 8.5,15.5 10.7,10.7"/></svg></div>
             <div class="pc-body">
               <span class="ptag goldp">05 · All Systems</span>
               <h3 data-en="The Compass — Graduate Edition" data-id="The Compass — Edisi Lulusan">The Compass — Graduate Edition</h3>
