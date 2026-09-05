@@ -935,7 +935,7 @@
     var x = FLAT[i], m = x.m, l = x.l;
     root.querySelector('.lc-prod').textContent =
       REG.product[lang()] + ' — ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
-    root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()];
+    root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()].replace(/&amp;/g, '&');
     root.querySelector('.lmsp-count').textContent =
       (lang() === 'id' ? 'Pelajaran ' : 'Lesson ') + (i + 1) + ' / ' + FLAT.length;
     root.querySelector('.lmsp-bar').style.width = (doneCount() / FLAT.length * 100) + '%';
@@ -1146,6 +1146,7 @@
   function open(i) {
     root.classList.add('open');
     document.body.classList.add('lms-lock');
+    applyPageLang();   /* chrome strings (Back, Previous, Next) follow the page language on open, not only on switch */
     openLesson(i);
   }
   function close() {
