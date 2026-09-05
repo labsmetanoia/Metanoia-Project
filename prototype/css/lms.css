@@ -696,3 +696,13 @@ body.lms-lock{overflow:hidden}
 @media(max-width:420px){
   .lms-vrow .vb-fwd-hide{display:none}
 }
+
+/* closing takeaways under the intro videos */
+.lms-vp-outro{margin-top:16px;position:relative;padding-top:22px}
+.lms-vp-outro .lh-badge{position:absolute;top:-16px;left:18px;width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;color:#0B1524;
+  background:linear-gradient(135deg,var(--gold-bright,#F0D878),var(--gold,#C9A84C));box-shadow:0 8px 20px rgba(201,168,76,.35)}
+.lms-vp-outro .lh-badge svg{width:17px;height:17px}
+.lms-vp-outro h3{margin-top:2px}
+.lms-vp-outro p{margin:0 0 10px;line-height:1.7}
+.lms-vp-outro p:last-child{margin-bottom:0}
