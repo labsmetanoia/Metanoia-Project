@@ -1,5 +1,5 @@
 /**
- * The Pack (Project Maverick) — LMS CONTENT REGISTRY
+ * The Pack — LMS CONTENT REGISTRY
  * ----------------------------------------------------------------
  * This file is the CONTENT LAYER. The player (js/lms-player.js) renders
  * whatever is declared here; updating or enriching a lesson only ever
@@ -16,7 +16,6 @@ window.MT_LMS['the-pack'] = {
   "en": "The Pack",
   "id": "The Pack"
  },
- "codename": "Project Maverick",
  "media": {
   "video": "../../assets/02-prep.mp4",
   "poster": "../../assets/bg/hero.jpg",

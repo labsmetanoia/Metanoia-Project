@@ -78,9 +78,9 @@
   ];
   var MODULE_RECO = {
     recovery: ['1', 'Self-Awareness and Personal Audit', 'Kesadaran Diri dan Audit Pribadi'],
-    proactive: ['2', 'The Habits of Effective People', 'Kebiasaan Orang yang Efektif'],
-    mission: ['2', 'The Habits of Effective People', 'Kebiasaan Orang yang Efektif'],
-    priority: ['2', 'The Habits of Effective People', 'Kebiasaan Orang yang Efektif'],
+    proactive: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
+    mission: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
+    priority: ['2', 'Self-Leadership Foundations', 'Fondasi Kepemimpinan Diri'],
     capture: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital'],
     energy: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital']
   };
@@ -98,7 +98,7 @@
   var css = '' +
   '#mapAudit{position:fixed;inset:0;z-index:1250;display:none;background:var(--bg-base,#050A12);overflow:hidden}' +
   '#mapAudit.open{display:flex;flex-direction:column}' +
-  '#mapAudit .ma-bg{position:absolute;inset:0;z-index:0;pointer-events:none;background:url("../../assets/bg/aladdin-hero.jpg") 70% 28%/cover no-repeat;opacity:.18}' +
+  '#mapAudit .ma-bg{position:absolute;inset:0;z-index:0;pointer-events:none;background:url("../../assets/bg/map-hero.jpg") 70% 28%/cover no-repeat;opacity:.18}' +
   '#mapAudit .ma-veil{position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,rgba(5,10,18,.6),rgba(5,10,18,.9) 45%,rgba(5,10,18,.96))}' +
   ':root[data-theme="light"] #mapAudit .ma-bg{opacity:.1}' +
   ':root[data-theme="light"] #mapAudit .ma-veil{background:linear-gradient(180deg,rgba(238,241,246,.85),rgba(238,241,246,.96) 45%)}' +

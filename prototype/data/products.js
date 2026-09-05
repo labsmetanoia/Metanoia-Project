@@ -4,8 +4,10 @@
  * No product name may be hardcoded anywhere else in the platform.
  * Adding a name here is the ONLY way to introduce one.
  * Retired names exist solely for redirect mapping and the transition note.
- * Project codenames (Aladdin, Maverick, Nexus, Horizon) are sanctioned
- * secondary identifiers, rendered beneath the pillar name.
+ *
+ * Project codenames were retired in the 2026-09 IP remediation: the five
+ * pillar names carry the brand on their own, and the codename layer created
+ * avoidable trademark surface. Do not reintroduce one without clearance.
  */
 
 export const PILLARS = [
@@ -18,7 +20,6 @@ export const PILLARS = [
     question:    { en: 'What am I actually aiming at?',
                    id: 'Sebenarnya apa yang saya tuju?' },
     slug: 'the-map',
-    codename: 'Project Aladdin',
     editions: {
       student:              { name: { en: 'Career Direction',        id: 'Arah Karier' } },
       'fresh-graduate':     { name: { en: 'Career Direction',        id: 'Arah Karier' } },
@@ -45,7 +46,6 @@ export const PILLARS = [
     question:    { en: 'Why does nobody reply to my application?',
                    id: 'Mengapa tidak ada yang membalas lamaran saya?' },
     slug: 'the-pack',
-    codename: 'Project Maverick',
     editions: {
       student:              { name: { en: 'The Application Toolkit', id: 'Perangkat Lamaran' } },
       'fresh-graduate':     { name: { en: 'The Application Toolkit', id: 'Perangkat Lamaran' } },
@@ -67,7 +67,6 @@ export const PILLARS = [
     question:    { en: 'Why do I lose it in the interview?',
                    id: 'Mengapa saya gagal di tahap wawancara?' },
     slug: 'the-rope',
-    codename: 'Project Nexus',
     editions: {
       student:              { name: { en: 'Interview Foundations',   id: 'Dasar Wawancara' } },
       'fresh-graduate':     { name: { en: 'Interview Mastery',       id: 'Penguasaan Wawancara' } },
@@ -85,7 +84,6 @@ export const PILLARS = [
     question:    { en: 'What comes after this, and how do I fund it?',
                    id: 'Apa setelah ini, dan bagaimana membiayainya?' },
     slug: 'the-route',
-    codename: 'Project Horizon',
     editions: {
       student:              { name: { en: 'Scholarship & Graduate Programmes',
                                       id: 'Beasiswa & Program Pascasarjana' } },

@@ -1,5 +1,5 @@
 /**
- * The Rope (Project Nexus) — LMS CONTENT REGISTRY
+ * The Rope — LMS CONTENT REGISTRY
  * ----------------------------------------------------------------
  * This file is the CONTENT LAYER. The player (js/lms-player.js) renders
  * whatever is declared here — edit this file only, no UI changes needed.
@@ -15,7 +15,6 @@ window.MT_LMS['the-rope'] = {
   "en": "The Rope",
   "id": "The Rope"
  },
- "codename": "Project Nexus",
  "media": {
   "video": "../../assets/04-basecamp.mp4",
   "poster": "../../assets/bg/hero.jpg",

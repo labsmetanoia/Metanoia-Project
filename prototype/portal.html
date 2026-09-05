@@ -1487,27 +1487,27 @@ function renderCompassCard() {
 
 /* ═══ 6. PRODUCTS GRID (single registry source) ═══ */
 const PRODUCTS = [
-  { id: 'aladin', number: '01', mountain: 'Project Aladdin', name: 'The Map', tagline: 'Career Intelligence',
+  { id: 'aladin', number: '01', name: 'The Map', tagline: 'Career Intelligence',
     description: { en: 'Know yourself before you navigate. Strengths, values, and career foundations.',
                    id: 'Kenali dirimu sebelum bernavigasi. Kekuatan, nilai, dan fondasi karier.' },
     file: '/products/the-map/', storageKey: 'aladin_progress', totalModules: 6,
     compassPoint: 'Career Intelligence', accent: '#F0D878' },
-  { id: 'maverick', number: '02', mountain: 'Project Maverick', name: 'The Pack', tagline: 'Profile Strength',
+  { id: 'maverick', number: '02', name: 'The Pack', tagline: 'Profile Strength',
     description: { en: 'Build the tools to be seen. CV, LinkedIn, applications, and AI-powered strategy.',
                    id: 'Bangun alat agar terlihat. CV, LinkedIn, lamaran, dan strategi berbasis AI.' },
     file: '/products/the-pack/', storageKey: 'maverick_progress', totalModules: 9,
     compassPoint: 'Profile Strength', accent: '#C9A84C' },
-  { id: 'nexus', number: '03', mountain: 'Project Nexus', name: 'The Rope', tagline: 'Interview Readiness',
+  { id: 'nexus', number: '03', name: 'The Rope', tagline: 'Interview Readiness',
     description: { en: 'Perform inside the room. Competency frameworks, STAR stories, and offer strategy.',
                    id: 'Tampil di dalam ruangan. Kerangka kompetensi, cerita STAR, dan strategi penawaran.' },
     file: '/products/the-rope/', storageKey: 'nexus_progress', totalModules: 9,
     compassPoint: 'Interview Readiness', accent: '#B08E36' },
-  { id: 'horizon', number: '04', mountain: 'Project Horizon', name: 'The Route', tagline: 'Career Mindset',
+  { id: 'horizon', number: '04', name: 'The Route', tagline: 'Career Mindset',
     description: { en: 'Plan the long game. Career architecture, workplace performance, and your second move.',
                    id: 'Rencanakan jangka panjang. Arsitektur karier, kinerja, dan langkah berikutnya.' },
     file: '/products/the-route/', storageKey: 'horizon_progress', totalModules: 9,
     compassPoint: 'Career Mindset', accent: '#DCC05E' },
-  { id: 'compass', number: '05', mountain: 'The Compass', name: 'The Compass', tagline: 'Your Navigation Dashboard',
+  { id: 'compass', number: '05', name: 'The Compass', tagline: 'Your Navigation Dashboard',
     description: { en: 'The complete career navigation system. Your Bearing, applications, waypoints, and intelligence — unified.',
                    id: 'Sistem navigasi karier lengkap. Bearing, lamaran, waypoint, dan kecerdasan — bersatu.' },
     file: '/products/the-compass/', storageKey: null, totalModules: null,
@@ -1543,7 +1543,7 @@ function renderProductsGrid() {
                style="--card-accent: ${p.accent}"
                aria-label="${p.name}">
         <div class="product-card-top-stripe" aria-hidden="true"></div>
-        <div class="product-badge"><span>${p.number} · ${p.mountain}</span></div>
+        <div class="product-badge"><span>${p.number} · ${p.name}</span></div>
         <div>
           <div class="product-card-name">${p.name}</div>
           <div class="product-card-tagline">${p.tagline}</div>

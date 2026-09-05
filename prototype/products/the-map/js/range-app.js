@@ -108,11 +108,27 @@
       ddetail: renderDDetail, explore: renderExplore, company: renderCompany, opp: renderOpp,
       range: renderRange, profile: renderProfile, compare: renderCompare };
     R[v](h.slice(1));
+    tmNotice($('#v-' + v));
     updateNavCnt();
     applyLang();
     window.MT_LOGO.wire($('#v-' + v));
     window.scrollTo(0, 0);
   }
+  /* Nominative-use notice. Company names and marks in The Range identify the
+     companies themselves; they are shown to help you research real employers.
+     Rendered on every view so the position is never implied by omission. */
+  function tmNotice(view) {
+    var el = view.querySelector('.rg-tm');
+    if (!el) {
+      el = document.createElement('p');
+      el.className = 'rg-tm';
+      view.appendChild(el);
+    }
+    el.setAttribute('data-en', 'Company names and logos are the trademarks of their respective owners, shown here only to identify those companies. Metanoia Labs is not affiliated with, endorsed by, or a partner of any company listed.');
+    el.setAttribute('data-id', 'Nama dan logo perusahaan adalah merek dagang pemiliknya masing-masing, ditampilkan di sini semata untuk mengidentifikasi perusahaan tersebut. Metanoia Labs tidak berafiliasi dengan, tidak didukung oleh, dan bukan mitra dari perusahaan mana pun yang terdaftar.');
+    el.textContent = el.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
+  }
+
   window.addEventListener('hashchange', route);
   $$('[data-nav]').forEach(function (b) { b.addEventListener('click', function () { go(b.dataset.nav); }); });
 
