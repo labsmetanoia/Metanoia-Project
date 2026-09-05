@@ -543,6 +543,18 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/two-different-muscles.jpg",
+   "bytes": 176262,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/two-different-muscles.jpg, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/bg/visibility.jpg",
    "bytes": 196053,
    "category": "photo",
@@ -1465,6 +1477,18 @@
    "model_release": "n/a",
    "status": "documented",
    "notes": ""
+  },
+  {
+   "file": "assets/two-different-muscles.jpg",
+   "bytes": 10295215,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Two Different Muscles.jpg' (renamed for filename hygiene). Woman in a dark suit seated on stone steps with a laptop, hand to forehead; face visible — model release required. 6000x4000 original; served via assets/bg/two-different-muscles.jpg in The Map 1.1 'Two different muscles'."
   },
   {
    "file": "assets/visibility.jpg",

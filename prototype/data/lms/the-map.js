@@ -158,8 +158,8 @@ window.MT_LMS['the-map'] = {
         "en": "Adaptability answers the question <b>“is my method still working?”</b> — it is the willingness to drop a plan that reality has already rejected. Resilience answers <b>“can I keep going while I change it?”</b> — the capacity to absorb a hit without losing the week. Graduates often confuse them: they push harder with a failing method (resilient but not adaptive) or hop between methods without recovering (adaptive but not resilient). The strongest early-career pattern is boring: change the method quickly, recover the energy deliberately.",
         "id": "Adaptabilitas menjawab pertanyaan <b>“apakah metodeku masih berhasil?”</b> — kesediaan melepas rencana yang sudah ditolak kenyataan. Ketangguhan menjawab <b>“sanggupkah aku terus berjalan sambil mengubahnya?”</b> — kapasitas menerima pukulan tanpa kehilangan satu minggu. Lulusan baru sering mencampuradukkan keduanya: memaksa lebih keras dengan metode yang gagal (tangguh tapi tidak adaptif) atau melompat-lompat metode tanpa pulih (adaptif tapi tidak tangguh). Pola awal karier terkuat justru membosankan: ubah metode dengan cepat, pulihkan energi dengan sengaja."
        },
-       "img": "../../assets/bg/start.jpg",
-       "imgPos": "center 45%"
+       "img": "../../assets/bg/two-different-muscles.jpg",
+       "imgPos": "center 38%"
       },
       {
        "icon": "gear",
