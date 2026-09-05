@@ -903,6 +903,18 @@
    "notes": ""
   },
   {
+   "file": "assets/lms/the-map/adaptability-1-brand.mp4",
+   "bytes": 2753328,
+   "category": "video",
+   "people": "no",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Brand-graded re-encode of adaptability-1.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+  },
+  {
    "file": "assets/lms/the-map/adaptability-1-en.vtt",
    "bytes": 2236,
    "category": "own-artwork",
@@ -928,7 +940,7 @@
   },
   {
    "file": "assets/lms/the-map/adaptability-1-poster.jpg",
-   "bytes": 60905,
+   "bytes": 64377,
    "category": "graphic",
    "people": "no",
    "source": "",
@@ -936,7 +948,7 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Poster frame extracted in-repo from adaptability-1.mp4 at 1 s. Licence follows the source video."
+   "notes": "Poster frame extracted in-repo from the brand-graded adaptability-1-brand.mp4 at 1 s. Licence follows the source video."
   },
   {
    "file": "assets/lms/the-map/adaptability-1.mp4",
@@ -948,7 +960,19 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 1.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Served in The Map · Module 1 · 1.1 as intro video 1."
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 1.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Source master for The Map · Module 1 · 1.1 intro video 1; the lesson plays the brand-graded adaptability-1-brand.mp4."
+  },
+  {
+   "file": "assets/lms/the-map/adaptability-2-brand.mp4",
+   "bytes": 6080288,
+   "category": "video",
+   "people": "no",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Brand-graded re-encode of adaptability-2.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
   },
   {
    "file": "assets/lms/the-map/adaptability-2-en.vtt",
@@ -976,7 +1000,7 @@
   },
   {
    "file": "assets/lms/the-map/adaptability-2-poster.jpg",
-   "bytes": 55735,
+   "bytes": 59643,
    "category": "graphic",
    "people": "no",
    "source": "",
@@ -984,7 +1008,7 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Poster frame extracted in-repo from adaptability-2.mp4 at 1 s. Licence follows the source video."
+   "notes": "Poster frame extracted in-repo from the brand-graded adaptability-2-brand.mp4 at 1 s. Licence follows the source video."
   },
   {
    "file": "assets/lms/the-map/adaptability-2.mp4",
@@ -996,7 +1020,19 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 2.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Served in The Map · Module 1 · 1.1 as intro video 2."
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 2.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Source master for The Map · Module 1 · 1.1 intro video 2; the lesson plays the brand-graded adaptability-2-brand.mp4."
+  },
+  {
+   "file": "assets/lms/the-map/adaptability-3-brand.mp4",
+   "bytes": 8727207,
+   "category": "video",
+   "people": "no",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Brand-graded re-encode of adaptability-3.mp4 (scripts/brand-grade-videos.py): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
   },
   {
    "file": "assets/lms/the-map/adaptability-3-en.vtt",
@@ -1024,7 +1060,7 @@
   },
   {
    "file": "assets/lms/the-map/adaptability-3-poster.jpg",
-   "bytes": 50046,
+   "bytes": 52276,
    "category": "graphic",
    "people": "no",
    "source": "",
@@ -1032,7 +1068,7 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Poster frame extracted in-repo from adaptability-3.mp4 at 1 s. Licence follows the source video."
+   "notes": "Poster frame extracted in-repo from the brand-graded adaptability-3-brand.mp4 at 1 s. Licence follows the source video."
   },
   {
    "file": "assets/lms/the-map/adaptability-3.mp4",
@@ -1044,7 +1080,7 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 3.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Served in The Map · Module 1 · 1.1 as intro video 3."
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Adaptability 3.mp4' (renamed for filename hygiene). 2D-animated explainer dialogue, illustrated characters only, English narration. Source master for The Map · Module 1 · 1.1 intro video 3; the lesson plays the brand-graded adaptability-3-brand.mp4."
   },
   {
    "file": "assets/m/02-prep.jpg",

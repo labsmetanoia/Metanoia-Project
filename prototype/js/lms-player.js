@@ -348,6 +348,15 @@
       strip.appendChild(b);
     });
     wrap.appendChild(strip);
+
+    /* closing takeaways for the video block (declared per lesson) */
+    if (l.videosOutro) {
+      var outro = el('div', 'lms-panel lms-vp-outro');
+      outro.appendChild(el('span', 'lh-badge', iconSvg('flag', 17)));
+      outro.appendChild(bi('h3', null, l.videosOutro.title));
+      (l.videosOutro.body || []).forEach(function (p) { outro.appendChild(bi('p', null, p)); });
+      wrap.appendChild(outro);
+    }
     host.appendChild(wrap);
 
     /* ── behaviour ── */

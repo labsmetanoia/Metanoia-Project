@@ -58,9 +58,25 @@ window.MT_LMS['the-map'] = {
       "en": "Three short scenes set the stage: a job that suddenly feels replaceable, a task with no obvious starting point, and a new role where nothing quite connects yet. Watch how each person adapts — then read on to turn what you saw into a method.",
       "id": "Tiga adegan singkat membuka pelajaran ini: pekerjaan yang tiba-tiba terasa mudah digantikan, tugas tanpa titik awal yang jelas, dan peran baru yang belum terasa nyambung. Perhatikan cara setiap orang beradaptasi — lalu lanjutkan membaca untuk mengubah yang kamu lihat menjadi metode."
      },
+     "videosOutro": {
+      "title": {
+       "en": "Key Takeaways: Enjoy the Journey Ahead",
+       "id": "Poin Penting: Nikmati Perjalanan di Depan"
+      },
+      "body": [
+       {
+        "en": "These three stories illustrate how skills such as adaptability and resilience, problem-solving, and communicating with impact can help individuals unlock the next step in their careers.",
+        "id": "Tiga cerita ini menggambarkan bagaimana keterampilan seperti adaptabilitas dan ketangguhan, pemecahan masalah, serta komunikasi yang berdampak dapat membantu seseorang membuka langkah berikutnya dalam kariernya."
+       },
+       {
+        "en": "We hope these stories inspire you to reflect on the new skills you may need to develop for your current or desired role and prepare yourself for the opportunities ahead.",
+        "id": "Kami berharap cerita-cerita ini menginspirasimu untuk merenungkan keterampilan baru yang mungkin perlu kamu kembangkan untuk peran saat ini atau yang kamu inginkan, dan mempersiapkan diri untuk peluang di depan."
+       }
+      ]
+     },
      "videos": [
       {
-       "src": "../../assets/lms/the-map/adaptability-1.mp4",
+       "src": "../../assets/lms/the-map/adaptability-1-brand.mp4",
        "poster": "../../assets/lms/the-map/adaptability-1-poster.jpg",
        "dur": "1:33",
        "title": {
@@ -73,7 +89,7 @@ window.MT_LMS['the-map'] = {
        }
       },
       {
-       "src": "../../assets/lms/the-map/adaptability-2.mp4",
+       "src": "../../assets/lms/the-map/adaptability-2-brand.mp4",
        "poster": "../../assets/lms/the-map/adaptability-2-poster.jpg",
        "dur": "0:57",
        "title": {
@@ -86,7 +102,7 @@ window.MT_LMS['the-map'] = {
        }
       },
       {
-       "src": "../../assets/lms/the-map/adaptability-3.mp4",
+       "src": "../../assets/lms/the-map/adaptability-3-brand.mp4",
        "poster": "../../assets/lms/the-map/adaptability-3-poster.jpg",
        "dur": "1:44",
        "title": {
