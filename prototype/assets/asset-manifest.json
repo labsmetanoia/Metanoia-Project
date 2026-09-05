@@ -75,6 +75,18 @@
    "notes": ""
   },
   {
+   "file": "assets/alumni.png",
+   "bytes": 1791514,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Alumni.png' (renamed). Four hikers seated on a summit at sunset, faces partly visible in profile. 1672x941 original; served via assets/bg/alumni.jpg."
+  },
+  {
    "file": "assets/apple-touch-icon.png",
    "bytes": 24999,
    "category": "own-artwork",
@@ -99,6 +111,18 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/alumni.jpg",
+   "bytes": 193739,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/alumni.png, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/bg/auth.jpg",
    "bytes": 113784,
    "category": "photo",
@@ -121,6 +145,18 @@
    "model_release": "",
    "status": "undocumented",
    "notes": "people flag verified by eye 2026-09-05"
+  },
+  {
+   "file": "assets/bg/compass.jpg",
+   "bytes": 505215,
+   "category": "photo",
+   "people": "unlikely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1920px, JPEG q82) of assets/compass-pic.jpg, generated in-repo. Licence follows the source file."
   },
   {
    "file": "assets/bg/early-professional-hero-poster.jpg",
@@ -351,6 +387,18 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/negotiation.jpg",
+   "bytes": 169077,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/negotiation.jpg, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/bg/pack.jpg",
    "bytes": 85957,
    "category": "photo",
@@ -385,6 +433,18 @@
    "model_release": "",
    "status": "undocumented",
    "notes": ""
+  },
+  {
+   "file": "assets/bg/resilience.jpg",
+   "bytes": 183703,
+   "category": "photo",
+   "people": "unlikely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/resilience.jpg, generated in-repo. Licence follows the source file."
   },
   {
    "file": "assets/bg/rope-team.jpg",
@@ -483,6 +543,18 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/visibility.jpg",
+   "bytes": 196053,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/visibility.jpg, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/compass-pic.jpg",
    "bytes": 21275839,
    "category": "photo",
@@ -492,7 +564,7 @@
    "licence_proof": "",
    "model_release": "",
    "status": "undocumented",
-   "notes": "Uploaded directly to main on 2026-09-05 as 'The Compass Pic.jpg' (renamed for filename hygiene). Overhead shot of hands over a paper map and a compass; no face visible. 6720x4480 camera original, 21 MB — not yet referenced by any page; needs a web-sized derivative before use, plus source + licence."
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'The Compass Pic.jpg' (renamed for filename hygiene). Overhead shot of hands over a paper map and a compass; no face visible. 6720x4480 camera original; served via assets/bg/compass.jpg."
   },
   {
    "file": "assets/compass-product-bg.jpg",
@@ -987,6 +1059,18 @@
    "notes": ""
   },
   {
+   "file": "assets/negotiation.jpg",
+   "bytes": 10084630,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Negotiation.jpg' (renamed). Three professionals at a meeting table, faces clearly visible — model release required. 5760x3840 original; served via assets/bg/negotiation.jpg."
+  },
+  {
    "file": "assets/product-art/ep-accelerator.svg",
    "bytes": 9818,
    "category": "graphic",
@@ -1107,6 +1191,18 @@
    "notes": ""
   },
   {
+   "file": "assets/resilience.jpg",
+   "bytes": 9694965,
+   "category": "photo",
+   "people": "unlikely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Resilience.jpg' (renamed for filename hygiene). Person seen from behind, arms raised, city street; no face visible. 5813x3875 original; served via assets/bg/resilience.jpg."
+  },
+  {
    "file": "assets/student-hero.mp4",
    "bytes": 2653024,
    "category": "video",
@@ -1189,6 +1285,18 @@
    "model_release": "n/a",
    "status": "documented",
    "notes": ""
+  },
+  {
+   "file": "assets/visibility.jpg",
+   "bytes": 13907241,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Visibility.jpg' (renamed). Two professionals at a laptop, faces clearly visible — model release required. 7214x4815 original; served via assets/bg/visibility.jpg."
   }
  ]
 }
