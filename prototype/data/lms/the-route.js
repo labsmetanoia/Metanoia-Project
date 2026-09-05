@@ -1,5 +1,5 @@
 /**
- * The Route (Project Horizon) — LMS CONTENT REGISTRY
+ * The Route — LMS CONTENT REGISTRY
  * ----------------------------------------------------------------
  * This file is the CONTENT LAYER. The player (js/lms-player.js) renders
  * whatever is declared here; updating or enriching a lesson only ever
@@ -16,7 +16,6 @@ window.MT_LMS['the-route'] = {
   "en": "The Route",
   "id": "The Route"
  },
- "codename": "Project Horizon",
  "media": {
   "video": "../../assets/06-horizon.mp4",
   "poster": "../../assets/bg/hero.jpg",
@@ -3881,8 +3880,8 @@ window.MT_LMS['the-route'] = {
         "id": "Arsitektur di atas tekad"
        },
        "body": {
-        "en": "The design: on payday, an automatic transfer moves your savings rate — start at 10–20%, any number beats zero — into an account you do not carry a card for. What remains is genuinely spendable, no tracking apps or guilt required; the decision was made once, by the calm version of you, and executes monthly without consulting the tired version. This is Map 2.4's Quadrant II logic applied to money: the important-not-urgent transfer scheduled before urgencies fill the month. Increase the rate with each raise (below) and revisit the number annually — the system flexes, the existence of the system does not.",
-        "id": "Rancangannya: saat gajian, transfer otomatis memindahkan tingkat tabunganmu — mulai 10–20%, angka berapa pun mengalahkan nol — ke rekening yang kartunya tak kamu bawa. Sisanya sungguh boleh dibelanjakan, tanpa aplikasi pelacak atau rasa bersalah; keputusannya dibuat sekali, oleh versi dirimu yang tenang, dan tereksekusi bulanan tanpa berkonsultasi pada versi yang lelah. Ini logika Kuadran II Map 2.4 diterapkan pada uang: transfer penting-tak-mendesak dijadwalkan sebelum kemendesakan mengisi bulan. Naikkan tingkatnya di tiap kenaikan (di bawah) dan tinjau angkanya tahunan — sistemnya melentur, keberadaan sistemnya tidak."
+        "en": "The design: on payday, an automatic transfer moves your savings rate — start at 10–20%, any number beats zero — into an account you do not carry a card for. What remains is genuinely spendable, no tracking apps or guilt required; the decision was made once, by the calm version of you, and executes monthly without consulting the tired version. This is Map 2.4's important-not-urgent work logic applied to money: the important-not-urgent transfer scheduled before urgencies fill the month. Increase the rate with each raise (below) and revisit the number annually — the system flexes, the existence of the system does not.",
+        "id": "Rancangannya: saat gajian, transfer otomatis memindahkan tingkat tabunganmu — mulai 10–20%, angka berapa pun mengalahkan nol — ke rekening yang kartunya tak kamu bawa. Sisanya sungguh boleh dibelanjakan, tanpa aplikasi pelacak atau rasa bersalah; keputusannya dibuat sekali, oleh versi dirimu yang tenang, dan tereksekusi bulanan tanpa berkonsultasi pada versi yang lelah. Ini logika kerja penting–tidak mendesak Map 2.4 diterapkan pada uang: transfer penting-tak-mendesak dijadwalkan sebelum kemendesakan mengisi bulan. Naikkan tingkatnya di tiap kenaikan (di bawah) dan tinjau angkanya tahunan — sistemnya melentur, keberadaan sistemnya tidak."
        }
       },
       {

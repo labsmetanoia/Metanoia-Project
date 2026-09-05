@@ -620,7 +620,7 @@
     current = i;
     var x = FLAT[i], m = x.m, l = x.l;
     root.querySelector('.lc-prod').textContent =
-      REG.product[lang()] + ' · ' + REG.codename + ' — ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
+      REG.product[lang()] + ' — ' + (lang() === 'id' ? 'Modul ' : 'Module ') + m.num;
     root.querySelector('.lc-les').textContent = l.n + ' · ' + l.title[lang()];
     root.querySelector('.lmsp-count').textContent =
       (lang() === 'id' ? 'Pelajaran ' : 'Lesson ') + (i + 1) + ' / ' + FLAT.length;

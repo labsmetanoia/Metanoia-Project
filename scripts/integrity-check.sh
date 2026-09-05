@@ -34,7 +34,7 @@ done
 [ $FAIL -eq 0 ] && echo "   clean"
 
 echo "── 2. asset filename hygiene"
-BAD=$(find prototype/assets -type f \( -name '* *' -o -name '*[A-Z]*' \) ! -name 'README.md' 2>/dev/null || true)
+BAD=$(find prototype/assets -type f \( -name '* *' -o -name '*[A-Z]*' \) ! -name '*.md' 2>/dev/null || true)
 if [ -n "$BAD" ]; then
   echo "NON-HYGIENIC FILENAMES:"; echo "$BAD"; FAIL=1
 else
@@ -47,6 +47,22 @@ if [ -n "$DEAD" ]; then
   echo 'DEAD LINKS:'; echo "$DEAD" | head -10; FAIL=1
 else
   echo "   clean"
+fi
+
+echo "── 4. legacy project codenames (IP finding F-01/F-06)"
+CODE=$(grep -rn "Project Aladdin\|Project Maverick\|Project Nexus\|Project Horizon" prototype \
+  --include='*.html' --include='*.js' 2>/dev/null | grep -v "^prototype/pages/products/" || true)
+if [ -n "$CODE" ]; then
+  echo "RETIRED CODENAMES STILL PRESENT:"; echo "$CODE" | head -10; FAIL=1
+else
+  echo "   clean"
+fi
+
+echo "── 5. asset licence manifest"
+if python3 scripts/check-asset-licences.py > /tmp/asset-lic.txt 2>&1; then
+  sed -n '2,4p' /tmp/asset-lic.txt
+else
+  cat /tmp/asset-lic.txt; FAIL=1
 fi
 
 if [ $FAIL -ne 0 ]; then

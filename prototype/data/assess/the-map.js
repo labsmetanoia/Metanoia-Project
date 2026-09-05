@@ -108,8 +108,8 @@ window.MT_ASSESS['the-map'] = {
       "id": "Ia butuh sumber berita lebih baik"
      },
      {
-      "en": "Energy is flowing to the circle of concern instead of the circle of influence",
-      "id": "Energi mengalir ke lingkaran kekhawatiran alih-alih lingkaran pengaruh"
+      "en": "Energy is flowing to the concern zone instead of the control zone",
+      "id": "Energi mengalir ke zona kekhawatiran alih-alih zona kendali"
      },
      {
       "en": "They should stop following the market entirely",
@@ -200,8 +200,8 @@ window.MT_ASSESS['the-map'] = {
    {
     "type": "know",
     "q": {
-     "en": "Quadrant II of the urgency–importance matrix contains:",
-     "id": "Kuadran II matriks kemendesakan–kepentingan berisi:"
+     "en": "The important-not-urgent cell of the urgency–importance matrix contains:",
+     "id": "Sel penting–tidak mendesak dalam matriks kemendesakan–kepentingan berisi:"
     },
     "opts": [
      {
@@ -223,8 +223,8 @@ window.MT_ASSESS['the-map'] = {
     ],
     "correct": 1,
     "expl": {
-     "en": "Careers are built in Quadrant II — and nothing defends it except a calendar block placed before the week fills.",
-     "id": "Karier dibangun di Kuadran II — dan tak ada yang mempertahankannya kecuali blok kalender yang ditaruh sebelum minggu penuh."
+     "en": "Careers are built in the important-not-urgent cell — and nothing defends it except a calendar block placed before the week fills.",
+     "id": "Karier dibangun di sel penting–tidak mendesak — dan tak ada yang mempertahankannya kecuali blok kalender yang ditaruh sebelum minggu penuh."
     }
    },
    {

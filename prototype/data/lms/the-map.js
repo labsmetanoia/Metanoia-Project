@@ -1,5 +1,5 @@
 /**
- * The Map (Project Aladdin) — LMS CONTENT REGISTRY
+ * The Map — LMS CONTENT REGISTRY
  * ----------------------------------------------------------------
  * This file is the CONTENT LAYER. The player (js/lms-player.js) renders
  * whatever is declared here; updating or enriching a lesson only ever
@@ -16,10 +16,9 @@ window.MT_LMS['the-map'] = {
   "en": "The Map",
   "id": "The Map"
  },
- "codename": "Project Aladdin",
  "media": {
   "video": "../../assets/01-call-v2.mp4",
-  "poster": "../../assets/bg/aladdin-hero.jpg",
+  "poster": "../../assets/bg/map-hero.jpg",
   "art": "../../assets/product-art/the-map.svg",
   "visual": "../../assets/system-the-map.png",
   "captions": {
@@ -417,8 +416,8 @@ window.MT_LMS['the-map'] = {
        "id": "Menangkap bahasa pola pikir tetap dalam ucapan batinmu dan menerjemahkannya menjadi bahasa metode."
       },
       {
-       "en": "Separate your circle of concern from your circle of influence for one real career worry.",
-       "id": "Memisahkan lingkaran kekhawatiran dari lingkaran pengaruh untuk satu kecemasan karier nyata."
+       "en": "Separate your concern zone from your control zone for one real career worry.",
+       "id": "Memisahkan zona kekhawatiran dari zona kendali untuk satu kecemasan karier nyata."
       },
       {
        "en": "Define what honest self-assessment means — neither self-flagellation nor self-marketing.",
@@ -432,7 +431,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "en": "Energy spent inside your influence compounds; energy spent on concerns you cannot move evaporates.",
-       "id": "Energi di dalam lingkaran pengaruh menggandakan diri; energi pada kekhawatiran yang tak bisa kamu gerakkan menguap."
+       "id": "Energi di dalam zona kendali menggandakan diri; energi pada kekhawatiran yang tak bisa kamu gerakkan menguap."
       },
       {
        "en": "The audit you are about to run only works at the honesty setting: kind to the person, ruthless about the data.",
@@ -458,8 +457,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kekhawatiran vs pengaruh"
        },
        "body": {
-        "en": "List a career worry — say, “the job market is brutal this year”. Split it. The market's condition sits in your <b>circle of concern</b>: real, important, and outside your control. Your application quality, test scores, portfolio, network and interview craft sit in your <b>circle of influence</b>: smaller, and entirely yours. The practical rule is allocation: 90% of your working hours go to influence, and concern gets ten minutes of reading, not a night of doomscrolling. People who invert that allocation feel informed and stay stuck.",
-        "id": "Tulis satu kecemasan karier — misal, “pasar kerja tahun ini brutal”. Belah dua. Kondisi pasar ada di <b>lingkaran kekhawatiran</b>: nyata, penting, dan di luar kendalimu. Kualitas lamaranmu, skor tes, portofolio, jaringan, dan keterampilan wawancara ada di <b>lingkaran pengaruh</b>: lebih kecil, dan sepenuhnya milikmu. Aturan praktisnya adalah alokasi: 90% jam kerjamu untuk lingkaran pengaruh, dan kekhawatiran mendapat sepuluh menit membaca, bukan semalam doomscrolling. Orang yang membalik alokasi itu merasa terinformasi dan tetap terjebak."
+        "en": "List a career worry — say, “the job market is brutal this year”. Split it. The market's condition sits in your <b>concern zone</b>: real, important, and outside your control. Your application quality, test scores, portfolio, network and interview craft sit in your <b>control zone</b>: smaller, and entirely yours. The practical rule is allocation: 90% of your working hours go to influence, and concern gets ten minutes of reading, not a night of doomscrolling. People who invert that allocation feel informed and stay stuck.",
+        "id": "Tulis satu kecemasan karier — misal, “pasar kerja tahun ini brutal”. Belah dua. Kondisi pasar ada di <b>zona kekhawatiran</b>: nyata, penting, dan di luar kendalimu. Kualitas lamaranmu, skor tes, portofolio, jaringan, dan keterampilan wawancara ada di <b>zona kendali</b>: lebih kecil, dan sepenuhnya milikmu. Aturan praktisnya adalah alokasi: 90% jam kerjamu untuk zona kendali, dan kekhawatiran mendapat sepuluh menit membaca, bukan semalam doomscrolling. Orang yang membalik alokasi itu merasa terinformasi dan tetap terjebak."
        }
       },
       {
@@ -501,8 +500,8 @@ window.MT_LMS['the-map'] = {
      "glossary": [
       {
        "term": {
-        "en": "circle of influence",
-        "id": "lingkaran pengaruh"
+        "en": "control zone",
+        "id": "zona kendali"
        },
        "def": {
         "en": "The set of things your actions can actually move — where invested effort compounds.",
@@ -511,8 +510,8 @@ window.MT_LMS['the-map'] = {
       },
       {
        "term": {
-        "en": "circle of concern",
-        "id": "lingkaran kekhawatiran"
+        "en": "concern zone",
+        "id": "zona kekhawatiran"
        },
        "def": {
         "en": "Everything that worries you, including what you cannot move — worth knowing, not worth living in.",
@@ -571,23 +570,23 @@ window.MT_LMS['the-map'] = {
   {
    "num": 2,
    "title": {
-    "en": "The Habits of Effective People",
-    "id": "Kebiasaan Orang yang Efektif"
+    "en": "Self-Leadership Foundations",
+    "id": "Fondasi Kepemimpinan Diri"
    },
    "overview": {
-    "en": "Module 2 of The Map focuses on the habits of effective people. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 2 dari The Map berfokus pada Kebiasaan Orang yang Efektif. Kerjakan pelajaran secara berurutan — setiap pelajaran dibangun di atas sebelumnya."
+    "en": "Module 2 of The Map focuses on the foundations of self-leadership. Work through the lessons in order — each builds on the last.",
+    "id": "Modul 2 dari The Map berfokus pada Fondasi Kepemimpinan Diri. Kerjakan pelajaran secara berurutan — setiap pelajaran dibangun di atas sebelumnya."
    },
    "outcome": {
-    "en": "By the end of this module you can apply the habits of effective people to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini kamu dapat menerapkan Kebiasaan Orang yang Efektif pada keputusan kariermu sendiri dengan metode konkret yang dapat diulang."
+    "en": "By the end of this module you can apply the foundations of self-leadership to your own career decisions with a concrete, repeatable method.",
+    "id": "Di akhir modul ini kamu dapat menerapkan Fondasi Kepemimpinan Diri pada keputusan kariermu sendiri dengan metode konkret yang dapat diulang."
    },
    "lessons": [
     {
      "n": "2.1",
      "title": {
-      "en": "Paradigms and Principles of Effectiveness",
-      "id": "Paradigma dan Prinsip Efektivitas"
+      "en": "How Your Lens Shapes Your Results",
+      "id": "Bagaimana Cara Pandang Membentuk Hasil"
      },
      "dur": {
       "en": "20 min",
@@ -609,8 +608,8 @@ window.MT_LMS['the-map'] = {
        "id": "Mengenali satu paradigma tentang kerja yang kamu pegang yang mungkin menghasilkan perilakumu yang paling tidak efektif."
       },
       {
-       "en": "Describe why private victories (self-management) must precede public victories (working with others).",
-       "id": "Menjelaskan mengapa kemenangan pribadi (mengelola diri) harus mendahului kemenangan publik (bekerja dengan orang lain)."
+       "en": "Describe why managing yourself must come before leading or negotiating with others.",
+       "id": "Menjelaskan mengapa mengelola diri harus mendahului memimpin atau bernegosiasi dengan orang lain."
       }
      ],
      "takeaways": [
@@ -619,12 +618,12 @@ window.MT_LMS['the-map'] = {
        "id": "Praktik yang ditiru tanpa paradigmanya membusuk dalam hitungan minggu; pergeseran paradigma mengubah banyak praktik sekaligus."
       },
       {
-       "en": "Dependence → independence → interdependence is a sequence, not a menu — you cannot skip the middle.",
-       "id": "Ketergantungan → kemandirian → kesalingtergantungan adalah urutan, bukan menu — kamu tak bisa melompati bagian tengah."
+       "en": "Directed → self-directed → trusted with others is a sequence, not a menu — you cannot skip the middle.",
+       "id": "Diarahkan → mengarahkan diri → dipercaya bersama orang lain adalah urutan, bukan menu — kamu tak bisa melompati bagian tengah."
       },
       {
-       "en": "The first three habits you will study are all private victories: proactivity, direction, and priority.",
-       "id": "Tiga kebiasaan pertama yang akan kamu pelajari semuanya kemenangan pribadi: proaktivitas, arah, dan prioritas."
+       "en": "The next three lessons are all self-management: proactivity, direction, and priority.",
+       "id": "Tiga pelajaran berikutnya semuanya tentang mengelola diri: proaktivitas, arah, dan prioritas."
       }
      ],
      "sections": [
@@ -646,8 +645,8 @@ window.MT_LMS['the-map'] = {
         "id": "Urutan kematangan"
        },
        "body": {
-        "en": "Professional growth follows a fixed order. You start <b>dependent</b> — outcomes are decided by teachers, parents, luck. The first three habits build <b>independence</b>: you own your responses, your direction and your schedule. Only then does <b>interdependence</b> — teamwork, leadership, negotiation — become real, because a team of people who cannot manage themselves is not a team, it is a queue of emergencies. Employers read this sequence instinctively: interview questions about ownership, planning and prioritisation are all probes of the independence layer.",
-        "id": "Pertumbuhan profesional mengikuti urutan tetap. Kamu mulai <b>tergantung</b> — hasil ditentukan guru, orang tua, keberuntungan. Tiga kebiasaan pertama membangun <b>kemandirian</b>: kamu memiliki responsmu, arahmu, dan jadwalmu. Baru setelah itu <b>kesalingtergantungan</b> — kerja tim, kepemimpinan, negosiasi — menjadi nyata, karena tim berisi orang yang tak bisa mengelola diri bukanlah tim, melainkan antrean keadaan darurat. Pemberi kerja membaca urutan ini secara naluriah: pertanyaan wawancara tentang kepemilikan, perencanaan, dan prioritas semuanya menguji lapis kemandirian."
+        "en": "Professional growth follows a fixed order. You start <b>directed</b> — outcomes are decided by teachers, parents, luck. The next three lessons build a <b>self-directed</b> layer: you own your responses, your direction and your schedule. Only then does being <b>trusted with others</b> — teamwork, leadership, negotiation — become real, because a team of people who cannot manage themselves is not a team, it is a queue of emergencies. Employers read this sequence instinctively: interview questions about ownership, planning and prioritisation are all probes of the self-directed layer.",
+        "id": "Pertumbuhan profesional mengikuti urutan tetap. Kamu mulai <b>diarahkan</b> — hasil ditentukan guru, orang tua, keberuntungan. Tiga pelajaran berikutnya membangun lapis <b>mengarahkan diri</b>: kamu memiliki responsmu, arahmu, dan jadwalmu. Baru setelah itu <b>dipercaya bersama orang lain</b> — kerja tim, kepemimpinan, negosiasi — menjadi nyata, karena tim berisi orang yang tak bisa mengelola diri bukanlah tim, melainkan antrean keadaan darurat. Pemberi kerja membaca urutan ini secara naluriah: pertanyaan wawancara tentang kepemilikan, perencanaan, dan prioritas semuanya menguji lapis mengarahkan diri."
        }
       },
       {
@@ -665,18 +664,18 @@ window.MT_LMS['the-map'] = {
      "diagram": {
       "type": "ladder",
       "exhibit": {
-       "en": "Exhibit 1: The maturity sequence — private victories precede public ones.",
-       "id": "Peraga 1: Urutan kematangan — kemenangan pribadi mendahului kemenangan publik."
+       "en": "Exhibit 1: Self-management comes before leading others.",
+       "id": "Peraga 1: Mengelola diri mendahului memimpin orang lain."
       },
       "title": {
-       "en": "Dependence → Independence → Interdependence",
-       "id": "Ketergantungan → Kemandirian → Kesalingtergantungan"
+       "en": "Directed → Self-directed → Trusted with others",
+       "id": "Diarahkan → Mengarahkan diri → Dipercaya bersama orang lain"
       },
       "items": [
        {
         "h": {
-         "en": "Dependence",
-         "id": "Ketergantungan"
+         "en": "Directed",
+         "id": "Diarahkan"
         },
         "sub": {
          "en": "Outcomes decided by others — “you take care of me”",
@@ -685,18 +684,18 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "Independence",
-         "id": "Kemandirian"
+         "en": "Self-directed",
+         "id": "Mengarahkan diri"
         },
         "sub": {
-         "en": "Habits 1–3: own your response, direction, priorities",
-         "id": "Kebiasaan 1–3: miliki respons, arah, prioritasmu"
+         "en": "Lessons 2.2–2.4: own your response, direction, priorities",
+         "id": "Pelajaran 2.2–2.4: miliki respons, arah, prioritasmu"
         }
        },
        {
         "h": {
-         "en": "Interdependence",
-         "id": "Kesalingtergantungan"
+         "en": "Trusted with others",
+         "id": "Dipercaya bersama orang lain"
         },
         "sub": {
          "en": "Teamwork and leadership built on self-management",
@@ -705,8 +704,8 @@ window.MT_LMS['the-map'] = {
        }
       ],
       "longdesc": {
-       "en": "A three-rung ladder. Bottom rung: dependence, where outcomes are decided by others. Middle rung: independence, built by habits one to three — owning your response, your direction and your priorities. Top rung: interdependence, where teamwork and leadership become possible because each member manages themselves.",
-       "id": "Tangga tiga anak tangga. Terbawah: ketergantungan, hasil ditentukan orang lain. Tengah: kemandirian, dibangun kebiasaan satu sampai tiga — memiliki respons, arah, dan prioritas. Teratas: kesalingtergantungan, tempat kerja tim dan kepemimpinan menjadi mungkin karena tiap anggota mengelola dirinya."
+       "en": "A three-rung ladder. Bottom rung: directed, where outcomes are decided by others. Middle rung: self-directed, built across Lessons 2.2 to 2.4 — owning your response, your direction and your priorities. Top rung: trusted with others, where teamwork and leadership become possible because each member manages themselves.",
+       "id": "Tangga tiga anak tangga. Terbawah: diarahkan, hasil ditentukan orang lain. Tengah: mengarahkan diri, dibangun di Pelajaran 2.2 sampai 2.4 — memiliki respons, arah, dan prioritas. Teratas: dipercaya bersama orang lain, tempat kerja tim dan kepemimpinan menjadi mungkin karena tiap anggota mengelola dirinya."
       }
      },
      "glossary": [
@@ -749,15 +748,15 @@ window.MT_LMS['the-map'] = {
       }
      ],
      "quote": {
-      "en": "Everything is created twice: first as a design, then as a result.",
-      "id": "Segala sesuatu diciptakan dua kali: pertama sebagai rancangan, lalu sebagai hasil."
+      "en": "Every outcome exists twice: once as the design you choose, then as the result you live.",
+      "id": "Setiap hasil ada dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai hasil yang kamu jalani."
      }
     },
     {
      "n": "2.2",
      "title": {
-      "en": "Habit 1 – Be Proactive",
-      "id": "Kebiasaan 1 – Jadilah Proaktif"
+      "en": "Ownership: Acting Inside Your Control",
+      "id": "Kepemilikan: Bertindak di Dalam Kendalimu"
      },
      "dur": {
       "en": "20 min",
@@ -767,7 +766,7 @@ window.MT_LMS['the-map'] = {
      "placeholder": false,
      "overview": {
       "en": "Between what happens to you and what you do about it, there is a gap — and everything you build in your career is built in that gap. This lesson trains proactivity as an observable behaviour: response choice, ownership language, and initiative within your influence.",
-      "id": "Antara yang terjadi padamu dan yang kamu lakukan terhadapnya, ada celah — dan semua yang kamu bangun dalam karier dibangun di celah itu. Pelajaran ini melatih proaktivitas sebagai perilaku teramati: memilih respons, bahasa kepemilikan, dan inisiatif di dalam lingkaran pengaruhmu."
+      "id": "Antara yang terjadi padamu dan yang kamu lakukan terhadapnya, ada celah — dan semua yang kamu bangun dalam karier dibangun di celah itu. Pelajaran ini melatih proaktivitas sebagai perilaku teramati: memilih respons, bahasa kepemilikan, dan inisiatif di dalam zona kendalimu."
      },
      "objectives": [
       {
@@ -794,7 +793,7 @@ window.MT_LMS['the-map'] = {
       },
       {
        "en": "Initiative inside your influence needs no permission — which is exactly why interviewers ask for examples of it.",
-       "id": "Inisiatif di dalam lingkaran pengaruh tak butuh izin — itulah mengapa pewawancara meminta contohnya."
+       "id": "Inisiatif di dalam zona kendali tak butuh izin — itulah mengapa pewawancara meminta contohnya."
       }
      ],
      "sections": [
@@ -827,8 +826,8 @@ window.MT_LMS['the-map'] = {
         "id": "Inisiatif tanpa izin"
        },
        "body": {
-        "en": "Inside your circle of influence there is always a move available that requires nobody's approval: rebuild your CV against a real job description, cold-message one alum for a fifteen-minute call, prototype the spreadsheet your team keeps complaining about, run one mock interview. Proactive people keep a running list of such moves and execute one whenever they feel stuck — because motion inside influence is the antidote to anxiety about concern. This week's exercise: pick one, do it, log it in your audit.",
-        "id": "Di dalam lingkaran pengaruhmu selalu ada langkah yang tak butuh persetujuan siapa pun: bangun ulang CV terhadap deskripsi kerja nyata, kirim pesan ke satu alumni untuk panggilan lima belas menit, buat purwarupa spreadsheet yang terus dikeluhkan timmu, jalankan satu simulasi wawancara. Orang proaktif menyimpan daftar langkah semacam itu dan mengeksekusi satu setiap kali merasa buntu — karena gerak di dalam pengaruh adalah penawar kecemasan atas kekhawatiran. Latihan minggu ini: pilih satu, lakukan, catat di auditmu."
+        "en": "Inside your control zone there is always a move available that requires nobody's approval: rebuild your CV against a real job description, cold-message one alum for a fifteen-minute call, prototype the spreadsheet your team keeps complaining about, run one mock interview. Proactive people keep a running list of such moves and execute one whenever they feel stuck — because motion inside influence is the antidote to anxiety about concern. This week's exercise: pick one, do it, log it in your audit.",
+        "id": "Di dalam zona kendalimu selalu ada langkah yang tak butuh persetujuan siapa pun: bangun ulang CV terhadap deskripsi kerja nyata, kirim pesan ke satu alumni untuk panggilan lima belas menit, buat purwarupa spreadsheet yang terus dikeluhkan timmu, jalankan satu simulasi wawancara. Orang proaktif menyimpan daftar langkah semacam itu dan mengeksekusi satu setiap kali merasa buntu — karena gerak di dalam pengaruh adalah penawar kecemasan atas kekhawatiran. Latihan minggu ini: pilih satu, lakukan, catat di auditmu."
        }
       }
      ],
@@ -851,8 +850,8 @@ window.MT_LMS['the-map'] = {
         "id": "“Pembimbingku sangat sulit ditemui, jadi setelah dua pertemuan gagal aku mengubah metode: kukirim ringkasan satu halaman tiap Jumat dengan tiga pertanyaan spesifik, dan kupesan jam konsultasi dua minggu di muka. Waktu tanggapan turun dari tiga minggu ke empat hari, dan aku sidang tepat waktu.”"
        },
        "why": {
-        "en": "Same stimulus, but the strong answer relocates the story inside the circle of influence: a method change, a measurable result, ownership without blaming.",
-        "id": "Stimulus sama, tetapi jawaban kuat memindahkan cerita ke dalam lingkaran pengaruh: perubahan metode, hasil terukur, kepemilikan tanpa menyalahkan."
+        "en": "Same stimulus, but the strong answer relocates the story inside the control zone: a method change, a measurable result, ownership without blaming.",
+        "id": "Stimulus sama, tetapi jawaban kuat memindahkan cerita ke dalam zona kendali: perubahan metode, hasil terukur, kepemilikan tanpa menyalahkan."
        }
       }
      ],
@@ -912,8 +911,8 @@ window.MT_LMS['the-map'] = {
        ],
        "correct": 1,
        "why": {
-        "en": "It converts a complaint about others into a specific, permissioned-by-nobody move inside the circle of influence — with the conversation as the chosen response.",
-        "id": "Ia mengubah keluhan tentang orang lain menjadi langkah spesifik tanpa izin di dalam lingkaran pengaruh — dengan percakapan sebagai respons yang dipilih."
+        "en": "It converts a complaint about others into a specific, permissioned-by-nobody move inside the control zone — with the conversation as the chosen response.",
+        "id": "Ia mengubah keluhan tentang orang lain menjadi langkah spesifik tanpa izin di dalam zona kendali — dengan percakapan sebagai respons yang dipilih."
        }
       }
      ]
@@ -921,8 +920,8 @@ window.MT_LMS['the-map'] = {
     {
      "n": "2.3",
      "title": {
-      "en": "Habit 2 – Begin with the End in Mind",
-      "id": "Kebiasaan 2 – Mulailah dengan Tujuan Akhir"
+      "en": "Designing the Outcome First",
+      "id": "Merancang Hasil Lebih Dulu"
      },
      "dur": {
       "en": "20 min",
@@ -931,8 +930,8 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "overview": {
-      "en": "Everything is created twice: first as a design, then as a result. Careers that skip the first creation get designed by default — by parents' expectations, feed algorithms and whoever offers first. This lesson builds your second habit: beginning with the end in mind, at the scale of a career and of a week.",
-      "id": "Segala sesuatu diciptakan dua kali: pertama sebagai rancangan, lalu sebagai hasil. Karier yang melewatkan penciptaan pertama akan dirancang secara default — oleh harapan orang tua, algoritme linimasa, dan siapa pun yang menawar lebih dulu. Pelajaran ini membangun kebiasaan keduamu: memulai dengan tujuan akhir, pada skala karier dan skala minggu."
+      "en": "Every outcome exists twice: once as the design you choose, then as the result you live. Careers that skip the design stage get designed by default — by parents' expectations, feed algorithms and whoever offers first. This lesson builds the second discipline: designing the outcome first, at the scale of a career and of a week.",
+      "id": "Setiap hasil ada dua kali: pertama sebagai rancangan yang kamu pilih, lalu sebagai hasil yang kamu jalani. Karier yang melewatkan tahap rancangan akan dirancang secara default — oleh harapan orang tua, algoritme linimasa, dan siapa pun yang menawar lebih dulu. Pelajaran ini membangun disiplin kedua: merancang hasil lebih dulu, pada skala karier dan skala minggu."
      },
      "objectives": [
       {
@@ -966,12 +965,12 @@ window.MT_LMS['the-map'] = {
       {
        "icon": "flag",
        "h": {
-        "en": "The first creation",
-        "id": "Penciptaan pertama"
+        "en": "The design stage",
+        "id": "Tahap rancangan"
        },
        "body": {
-        "en": "A building exists on paper before it exists in concrete; a career deserves the same courtesy. The first creation is not a fantasy about titles — it is a working answer to three questions: <b>What problems do I want to be trusted with?</b> <b>What kind of person do I want colleagues to describe when I'm not in the room?</b> <b>What does my work make possible for other people?</b> Write rough answers now, in pencil. The point of the first creation is not accuracy — it is authorship. You will revise it every year; you will never regret having one.",
-        "id": "Gedung ada di atas kertas sebelum ada dalam beton; karier layak mendapat perlakuan sama. Penciptaan pertama bukan fantasi tentang jabatan — ia jawaban kerja atas tiga pertanyaan: <b>Masalah apa yang ingin kupercayakan pada diriku?</b> <b>Orang seperti apa yang ingin digambarkan kolegaku saat aku tak di ruangan?</b> <b>Apa yang dimungkinkan pekerjaanku bagi orang lain?</b> Tulis jawaban kasarnya sekarang, dengan pensil. Inti penciptaan pertama bukan akurasi — melainkan kepengarangan. Kamu akan merevisinya tiap tahun; kamu tak akan pernah menyesal memilikinya."
+        "en": "A building exists on paper before it exists in concrete; a career deserves the same courtesy. The design stage is not a fantasy about titles — it is a working answer to three questions: <b>What problems do I want to be trusted with?</b> <b>What kind of person do I want colleagues to describe when I'm not in the room?</b> <b>What does my work make possible for other people?</b> Write rough answers now, in pencil. The point of the design stage is not accuracy — it is authorship. You will revise it every year; you will never regret having one.",
+        "id": "Gedung ada di atas kertas sebelum ada dalam beton; karier layak mendapat perlakuan sama. Tahap rancangan bukan fantasi tentang jabatan — ia jawaban kerja atas tiga pertanyaan: <b>Masalah apa yang ingin kupercayakan pada diriku?</b> <b>Orang seperti apa yang ingin digambarkan kolegaku saat aku tak di ruangan?</b> <b>Apa yang dimungkinkan pekerjaanku bagi orang lain?</b> Tulis jawaban kasarnya sekarang, dengan pensil. Inti tahap rancangan bukan akurasi — melainkan kepengarangan. Kamu akan merevisinya tiap tahun; kamu tak akan pernah menyesal memilikinya."
        }
       },
       {
@@ -992,8 +991,8 @@ window.MT_LMS['the-map'] = {
         "id": "Naskah default"
        },
        "body": {
-        "en": "Without a first creation, three scripts compete to run your career. The <b>inheritance script</b>: study what the family respects, join what the family recognises. The <b>feed script</b>: chase whatever role is trending this year. The <b>first-offer script</b>: accept whoever says yes first, then let that accident define the decade. None of these are malicious — they are just unauthored. The test: for each big choice you are facing, ask <i>whose script is this line from?</i> If you cannot trace it to your own mission, it deserves a rewrite before you act on it.",
-        "id": "Tanpa penciptaan pertama, tiga naskah bersaing menjalankan kariermu. <b>Naskah warisan</b>: pelajari yang dihormati keluarga, masuki yang dikenali keluarga. <b>Naskah linimasa</b>: kejar peran apa pun yang sedang tren tahun ini. <b>Naskah tawaran pertama</b>: terima siapa pun yang bilang ya lebih dulu, lalu biarkan kebetulan itu mendefinisikan satu dekade. Tak satu pun jahat — hanya tanpa pengarang. Ujiannya: untuk tiap pilihan besar yang kamu hadapi, tanyakan <i>dari naskah siapa dialog ini?</i> Jika tak bisa kamu telusuri ke misimu sendiri, ia layak ditulis ulang sebelum kamu jalankan."
+        "en": "Without a design stage, three scripts compete to run your career. The <b>inheritance script</b>: study what the family respects, join what the family recognises. The <b>feed script</b>: chase whatever role is trending this year. The <b>first-offer script</b>: accept whoever says yes first, then let that accident define the decade. None of these are malicious — they are just unauthored. The test: for each big choice you are facing, ask <i>whose script is this line from?</i> If you cannot trace it to your own mission, it deserves a rewrite before you act on it.",
+        "id": "Tanpa tahap rancangan, tiga naskah bersaing menjalankan kariermu. <b>Naskah warisan</b>: pelajari yang dihormati keluarga, masuki yang dikenali keluarga. <b>Naskah linimasa</b>: kejar peran apa pun yang sedang tren tahun ini. <b>Naskah tawaran pertama</b>: terima siapa pun yang bilang ya lebih dulu, lalu biarkan kebetulan itu mendefinisikan satu dekade. Tak satu pun jahat — hanya tanpa pengarang. Ujiannya: untuk tiap pilihan besar yang kamu hadapi, tanyakan <i>dari naskah siapa dialog ini?</i> Jika tak bisa kamu telusuri ke misimu sendiri, ia layak ditulis ulang sebelum kamu jalankan."
        }
       }
      ],
@@ -1113,8 +1112,8 @@ window.MT_LMS['the-map'] = {
     {
      "n": "2.4",
      "title": {
-      "en": "Habit 3 – Put First Things First",
-      "id": "Kebiasaan 3 – Dahulukan yang Utama"
+      "en": "Defending the Important Against the Urgent",
+      "id": "Membela yang Penting dari yang Mendesak"
      },
      "dur": {
       "en": "20 min",
@@ -1123,8 +1122,8 @@ window.MT_LMS['the-map'] = {
      "kind": "reading",
      "placeholder": false,
      "overview": {
-      "en": "You now have a direction; this lesson defends it. Putting first things first is the discipline of executing your first creation against the pull of everything urgent — built on one matrix, one weekly ritual, and the most underrated career skill: a graceful no.",
-      "id": "Kamu kini punya arah; pelajaran ini mempertahankannya. Mendahulukan yang utama adalah disiplin mengeksekusi penciptaan pertamamu melawan tarikan segala yang mendesak — dibangun di atas satu matriks, satu ritual mingguan, dan keterampilan karier paling diremehkan: penolakan yang anggun."
+      "en": "You now have a direction; this lesson defends it. Defending the important against the urgent is the discipline of executing your design stage against the pull of everything urgent — built on one matrix, one weekly ritual, and the most underrated career skill: a graceful no.",
+      "id": "Kamu kini punya arah; pelajaran ini mempertahankannya. Membela yang penting dari yang mendesak adalah disiplin mengeksekusi tahap rancanganmu melawan tarikan segala yang mendesak — dibangun di atas satu matriks, satu ritual mingguan, dan keterampilan karier paling diremehkan: penolakan yang anggun."
      },
      "objectives": [
       {
@@ -1132,8 +1131,8 @@ window.MT_LMS['the-map'] = {
        "id": "Memilah satu minggu nyata tugasmu ke empat kuadran mendesak × penting."
       },
       {
-       "en": "Run a 20-minute weekly preview that schedules Quadrant II before anything else.",
-       "id": "Menjalankan tinjauan mingguan 20 menit yang menjadwalkan Kuadran II sebelum yang lain."
+       "en": "Run a 20-minute weekly preview that schedules important-not-urgent work before anything else.",
+       "id": "Menjalankan tinjauan mingguan 20 menit yang menjadwalkan kerja penting–tidak mendesak sebelum yang lain."
       },
       {
        "en": "Deliver a graceful no that protects a priority without damaging a relationship.",
@@ -1142,12 +1141,12 @@ window.MT_LMS['the-map'] = {
      ],
      "takeaways": [
       {
-       "en": "Quadrant II — important, not urgent — is where careers are actually built: skill practice, relationships, health, planning.",
-       "id": "Kuadran II — penting, tidak mendesak — adalah tempat karier benar-benar dibangun: latihan keterampilan, hubungan, kesehatan, perencanaan."
+       "en": "Important-not-urgent work is where careers are actually built: skill practice, relationships, health, planning.",
+       "id": "Kerja penting–tidak mendesak adalah tempat karier benar-benar dibangun: latihan keterampilan, hubungan, kesehatan, perencanaan."
       },
       {
-       "en": "Nothing defends Quadrant II except a calendar block and a rehearsed no.",
-       "id": "Tak ada yang mempertahankan Kuadran II kecuali blok kalender dan penolakan yang sudah dilatih."
+       "en": "Nothing defends that work except a calendar block and a rehearsed no.",
+       "id": "Tak ada yang mempertahankan kerja itu kecuali blok kalender dan penolakan yang sudah dilatih."
       },
       {
        "en": "Every yes is an unpriced no to something else — price it before you give it.",
@@ -1173,8 +1172,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tinjauan mingguan"
        },
        "body": {
-        "en": "Once a week, twenty minutes, three moves. <b>Review</b> the mission and 3-year outcome from Habit 2 — thirty seconds, just to load the destination. <b>Choose</b> two or three Quadrant II blocks for the coming week — a two-hour skill session, one coffee chat, three workouts — and put them in the calendar first, like big rocks before gravel. <b>Preview</b> the known Quadrant I items so they have space and do not metastasise into all-nighters. The order matters: schedule II before I fills the week, because I always expands to the space available.",
-        "id": "Sekali seminggu, dua puluh menit, tiga langkah. <b>Tinjau</b> misi dan hasil 3 tahun dari Kebiasaan 2 — tiga puluh detik, sekadar memuat tujuan. <b>Pilih</b> dua atau tiga blok Kuadran II untuk minggu depan — sesi keterampilan dua jam, satu obrolan kopi, tiga olahraga — dan masukkan ke kalender lebih dulu, seperti batu besar sebelum kerikil. <b>Pratinjau</b> item Kuadran I yang sudah diketahui agar punya ruang dan tak menjalar jadi begadang. Urutannya penting: jadwalkan II sebelum I mengisi minggu, karena I selalu memuai ke ruang yang tersedia."
+        "en": "Once a week, twenty minutes, three moves. <b>Review</b> the mission and 3-year outcome you designed in Lesson 2.3 — thirty seconds, just to load the destination. <b>Choose</b> two or three important-not-urgent blocks for the coming week — a two-hour skill session, one coffee chat, three workouts — and put them in the calendar first, like big rocks before gravel. <b>Preview</b> the known urgent-and-important items so they have space and do not metastasise into all-nighters. The order matters: schedule II before I fills the week, because I always expands to the space available.",
+        "id": "Sekali seminggu, dua puluh menit, tiga langkah. <b>Tinjau</b> misi dan hasil 3 tahun yang kamu rancang di Pelajaran 2.3 — tiga puluh detik, sekadar memuat tujuan. <b>Pilih</b> dua atau tiga blok penting–tidak mendesak untuk minggu depan — sesi keterampilan dua jam, satu obrolan kopi, tiga olahraga — dan masukkan ke kalender lebih dulu, seperti batu besar sebelum kerikil. <b>Pratinjau</b> item mendesak-dan-penting yang sudah diketahui agar punya ruang dan tak menjalar jadi begadang. Urutannya penting: jadwalkan II sebelum I mengisi minggu, karena I selalu memuai ke ruang yang tersedia."
        }
       },
       {
@@ -1192,8 +1191,8 @@ window.MT_LMS['the-map'] = {
      "diagram": {
       "type": "quad",
       "exhibit": {
-       "en": "Exhibit 1: The urgency–importance matrix. Careers are built in Quadrant II.",
-       "id": "Peraga 1: Matriks kemendesakan–kepentingan. Karier dibangun di Kuadran II."
+       "en": "Exhibit 1: The urgency–importance matrix. Careers are built in the important-not-urgent cell.",
+       "id": "Peraga 1: Matriks kemendesakan–kepentingan. Karier dibangun di sel penting–tidak mendesak."
       },
       "title": {
        "en": "Urgent × Important",
@@ -1242,16 +1241,16 @@ window.MT_LMS['the-map'] = {
        }
       ],
       "longdesc": {
-       "en": "A two-by-two matrix. Quadrant one, urgent and important: crises and deadlines — do them now, and shrink them over time with planning. Quadrant two, important but not urgent: skill practice, relationships, health and planning — schedule these first. Quadrant three, urgent but not important: interruptions and many meetings — decline, batch or delegate. Quadrant four, neither: escapes — notice the trigger and cap the time.",
-       "id": "Matriks dua-kali-dua. Kuadran satu, mendesak dan penting: krisis dan tenggat — kerjakan sekarang, kecilkan seiring waktu lewat perencanaan. Kuadran dua, penting tidak mendesak: latihan keterampilan, hubungan, kesehatan, perencanaan — jadwalkan lebih dulu. Kuadran tiga, mendesak tidak penting: interupsi dan banyak rapat — tolak, kelompokkan, atau delegasikan. Kuadran empat, bukan keduanya: pelarian — sadari pemicu dan batasi waktu."
+       "en": "A two-by-two matrix. The urgent-and-important cell: crises and deadlines — do them now, and shrink them over time with planning. The important-not-urgent cell: skill practice, relationships, health and planning — schedule these first. The urgent-but-not-important cell: interruptions and many meetings — decline, batch or delegate. The neither-urgent-nor-important cell: escapes — notice the trigger and cap the time.",
+       "id": "Matriks dua-kali-dua. Sel mendesak-dan-penting: krisis dan tenggat — kerjakan sekarang, kecilkan seiring waktu lewat perencanaan. Sel penting–tidak mendesak: latihan keterampilan, hubungan, kesehatan, perencanaan — jadwalkan lebih dulu. Sel mendesak-tidak-penting: interupsi dan banyak rapat — tolak, kelompokkan, atau delegasikan. Sel bukan keduanya: pelarian — sadari pemicu dan batasi waktu."
       }
      },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Scheduling Quadrant II “when there's time left”",
-         "id": "Menjadwalkan Kuadran II “kalau ada sisa waktu”"
+         "en": "Scheduling important-not-urgent work “when there's time left”",
+         "id": "Menjadwalkan kerja penting–tidak mendesak “kalau ada sisa waktu”"
         },
         "fix": {
          "en": "There is never time left. Big rocks go in the calendar first; gravel fills around them.",
@@ -1260,8 +1259,8 @@ window.MT_LMS['the-map'] = {
        },
        {
         "h": {
-         "en": "Treating every request as Quadrant I",
-         "id": "Memperlakukan setiap permintaan sebagai Kuadran I"
+         "en": "Treating every request as urgent-and-important",
+         "id": "Memperlakukan setiap permintaan sebagai mendesak-dan-penting"
         },
         "fix": {
          "en": "Ask “what happens if this waits 24 hours?” — most so-called urgencies survive the question.",
@@ -1283,13 +1282,13 @@ window.MT_LMS['the-map'] = {
      "checks": [
       {
        "q": {
-        "en": "A friend asks for all-evening help moving apartments on the night you reserved for interview practice, two days before a real interview. What does Habit 3 suggest?",
-        "id": "Seorang teman minta bantuan pindahan sepanjang malam pada malam yang kamu sisihkan untuk latihan wawancara, dua hari sebelum wawancara sungguhan. Apa saran Kebiasaan 3?"
+        "en": "A friend asks for all-evening help moving apartments on the night you reserved for interview practice, two days before a real interview. What does the important-versus-urgent discipline suggest?",
+        "id": "Seorang teman minta bantuan pindahan sepanjang malam pada malam yang kamu sisihkan untuk latihan wawancara, dua hari sebelum wawancara sungguhan. Apa saran disiplin penting-lawan-mendesak?"
        },
        "options": [
         {
-         "en": "Help — relationships are Quadrant II, so they always win",
-         "id": "Bantu — hubungan itu Kuadran II, jadi selalu menang"
+         "en": "Help — relationships are important-not-urgent, so they always win",
+         "id": "Bantu — hubungan itu penting–tidak mendesak, jadi selalu menang"
         },
         {
          "en": "Decline with appreciation, the protected reason, and an alternative — e.g. two hours Saturday",
@@ -1599,8 +1598,8 @@ window.MT_LMS['the-map'] = {
         "id": "Gejala: kamu melewatkan dua tenggat tugas bulan ini. Jalankan 5 Why di kertas — tanpa menyalahkan orang, termasuk dirimu — lalu buka pembahasan."
        },
        "debrief": {
-        "en": "A blame chain stops at “because I'm lazy” — untrainable, unfixable. An honest chain looks like: missed deadlines → started both three days late → tasks entered no system when assigned → I rely on memory for commitments → I have no capture habit. The root is a missing process (capture), which Habit 3's weekly preview directly repairs. Roots that end in a fixable process are the signature of a well-run 5 Whys.",
-        "id": "Rantai menyalahkan berhenti di “karena aku malas” — tak bisa dilatih, tak bisa diperbaiki. Rantai jujur tampak seperti: tenggat terlewat → keduanya dimulai telat tiga hari → tugas tak masuk sistem apa pun saat diberikan → aku mengandalkan ingatan untuk komitmen → aku tak punya kebiasaan mencatat. Akarnya proses yang hilang (pencatatan), yang langsung diperbaiki tinjauan mingguan Kebiasaan 3. Akar yang berujung pada proses yang bisa diperbaiki adalah tanda 5 Why yang dijalankan baik."
+        "en": "A blame chain stops at “because I'm lazy” — untrainable, unfixable. An honest chain looks like: missed deadlines → started both three days late → tasks entered no system when assigned → I rely on memory for commitments → I have no capture habit. The root is a missing process (capture), which the weekly preview from Lesson 2.4 directly repairs. Roots that end in a fixable process are the signature of a well-run 5 Whys.",
+        "id": "Rantai menyalahkan berhenti di “karena aku malas” — tak bisa dilatih, tak bisa diperbaiki. Rantai jujur tampak seperti: tenggat terlewat → keduanya dimulai telat tiga hari → tugas tak masuk sistem apa pun saat diberikan → aku mengandalkan ingatan untuk komitmen → aku tak punya kebiasaan mencatat. Akarnya proses yang hilang (pencatatan), yang langsung diperbaiki tinjauan mingguan Pelajaran 2.4. Akar yang berujung pada proses yang bisa diperbaiki adalah tanda 5 Why yang dijalankan baik."
        }
       },
       {
@@ -2608,8 +2607,8 @@ window.MT_LMS['the-map'] = {
         "id": "Putaran belajar"
        },
        "body": {
-        "en": "A sustainable system has three parts: <b>one source</b> you trust per field (a newsletter, a practitioner you follow) so you are not drinking the whole internet; <b>one small project</b> at any time that forces the new knowledge through your hands; <b>one log</b> — a page where you note what you learned each week. An hour weekly, defended in the calendar like any Quadrant II block. The log matters more than it looks: it is raw material for CVs, interviews and the “tell me how you stay current” question.",
-        "id": "Sistem berkelanjutan punya tiga bagian: <b>satu sumber</b> tepercaya per bidang (nawala, praktisi yang kamu ikuti) agar kamu tak meminum seluruh internet; <b>satu proyek kecil</b> setiap saat yang memaksa pengetahuan baru melewati tanganmu; <b>satu catatan</b> — halaman tempat kamu menulis yang dipelajari tiap minggu. Sejam seminggu, dijaga di kalender seperti blok Kuadran II mana pun. Catatan itu lebih penting dari kelihatannya: ia bahan mentah CV, wawancara, dan pertanyaan “bagaimana kamu tetap mutakhir”."
+        "en": "A sustainable system has three parts: <b>one source</b> you trust per field (a newsletter, a practitioner you follow) so you are not drinking the whole internet; <b>one small project</b> at any time that forces the new knowledge through your hands; <b>one log</b> — a page where you note what you learned each week. An hour weekly, defended in the calendar like any important-not-urgent block. The log matters more than it looks: it is raw material for CVs, interviews and the “tell me how you stay current” question.",
+        "id": "Sistem berkelanjutan punya tiga bagian: <b>satu sumber</b> tepercaya per bidang (nawala, praktisi yang kamu ikuti) agar kamu tak meminum seluruh internet; <b>satu proyek kecil</b> setiap saat yang memaksa pengetahuan baru melewati tanganmu; <b>satu catatan</b> — halaman tempat kamu menulis yang dipelajari tiap minggu. Sejam seminggu, dijaga di kalender seperti blok penting–tidak mendesak mana pun. Catatan itu lebih penting dari kelihatannya: ia bahan mentah CV, wawancara, dan pertanyaan “bagaimana kamu tetap mutakhir”."
        }
       },
       {
@@ -2687,8 +2686,8 @@ window.MT_LMS['the-map'] = {
        "id": "Memasang satu titik pencatatan untuk setiap komitmen yang masuk hidupmu."
       },
       {
-       "en": "Make the calendar the single source of truth for time, including Quadrant II blocks.",
-       "id": "Menjadikan kalender satu-satunya sumber kebenaran waktu, termasuk blok Kuadran II."
+       "en": "Make the calendar the single source of truth for time, including important-not-urgent blocks.",
+       "id": "Menjadikan kalender satu-satunya sumber kebenaran waktu, termasuk blok penting–tidak mendesak."
       },
       {
        "en": "Set up file hygiene and a distraction-resistant focus configuration.",
@@ -2717,8 +2716,8 @@ window.MT_LMS['the-map'] = {
         "id": "Lima stasiun"
        },
        "body": {
-        "en": "<b>Capture:</b> one notes app inbox where every task, promise and idea lands within ten seconds of arriving — processed into the calendar or a list every evening. <b>Calendar:</b> classes, deadlines, Quadrant II blocks, and travel time between them; anything with a date lives here, nowhere else. <b>Files:</b> one cloud root with a shallow, predictable structure (Career/CV, Career/Applications, Uni/Semester-6, Projects/x) and filenames that sort: 2026-08-cv-dataanalyst-v3. <b>Focus:</b> notifications off by default with a small allowlist of humans, phone physically away during blocks, one site-blocker profile for deep work. <b>Professional inbox:</b> an email address that would look fine on a CV, checked twice daily at set times rather than continuously.",
-        "id": "<b>Pencatatan:</b> satu kotak masuk aplikasi catatan tempat tiap tugas, janji, dan ide mendarat dalam sepuluh detik — diproses ke kalender atau daftar tiap malam. <b>Kalender:</b> kuliah, tenggat, blok Kuadran II, dan waktu perjalanan di antaranya; apa pun bertanggal tinggal di sini, tidak di tempat lain. <b>Berkas:</b> satu akar cloud dengan struktur dangkal dan terduga (Karier/CV, Karier/Lamaran, Kuliah/Semester-6, Proyek/x) dan nama berkas yang terurut: 2026-08-cv-dataanalyst-v3. <b>Fokus:</b> notifikasi mati secara default dengan daftar-izin kecil berisi manusia, ponsel jauh secara fisik selama blok, satu profil pemblokir situs untuk kerja dalam. <b>Kotak masuk profesional:</b> alamat email yang pantas di CV, diperiksa dua kali sehari pada jam tetap, bukan terus-menerus."
+        "en": "<b>Capture:</b> one notes app inbox where every task, promise and idea lands within ten seconds of arriving — processed into the calendar or a list every evening. <b>Calendar:</b> classes, deadlines, important-not-urgent blocks, and travel time between them; anything with a date lives here, nowhere else. <b>Files:</b> one cloud root with a shallow, predictable structure (Career/CV, Career/Applications, Uni/Semester-6, Projects/x) and filenames that sort: 2026-08-cv-dataanalyst-v3. <b>Focus:</b> notifications off by default with a small allowlist of humans, phone physically away during blocks, one site-blocker profile for deep work. <b>Professional inbox:</b> an email address that would look fine on a CV, checked twice daily at set times rather than continuously.",
+        "id": "<b>Pencatatan:</b> satu kotak masuk aplikasi catatan tempat tiap tugas, janji, dan ide mendarat dalam sepuluh detik — diproses ke kalender atau daftar tiap malam. <b>Kalender:</b> kuliah, tenggat, blok penting–tidak mendesak, dan waktu perjalanan di antaranya; apa pun bertanggal tinggal di sini, tidak di tempat lain. <b>Berkas:</b> satu akar cloud dengan struktur dangkal dan terduga (Karier/CV, Karier/Lamaran, Kuliah/Semester-6, Proyek/x) dan nama berkas yang terurut: 2026-08-cv-dataanalyst-v3. <b>Fokus:</b> notifikasi mati secara default dengan daftar-izin kecil berisi manusia, ponsel jauh secara fisik selama blok, satu profil pemblokir situs untuk kerja dalam. <b>Kotak masuk profesional:</b> alamat email yang pantas di CV, diperiksa dua kali sehari pada jam tetap, bukan terus-menerus."
        }
       }
      ],
@@ -2729,8 +2728,8 @@ window.MT_LMS['the-map'] = {
         "id": "Sprint penyiapan 1 — Pencatatan dan kalender (20 mnt)"
        },
        "body": {
-        "en": "Create the capture inbox; move every floating commitment from your head, chats and screenshots into it; then transfer everything dated into the calendar, including next week's two Quadrant II blocks. Reveal the debrief when done.",
-        "id": "Buat kotak masuk pencatatan; pindahkan tiap komitmen mengambang dari kepala, obrolan, dan tangkapan layar ke dalamnya; lalu salin semua yang bertanggal ke kalender, termasuk dua blok Kuadran II minggu depan. Buka pembahasan setelah selesai."
+        "en": "Create the capture inbox; move every floating commitment from your head, chats and screenshots into it; then transfer everything dated into the calendar, including next week's two important-not-urgent blocks. Reveal the debrief when done.",
+        "id": "Buat kotak masuk pencatatan; pindahkan tiap komitmen mengambang dari kepala, obrolan, dan tangkapan layar ke dalamnya; lalu salin semua yang bertanggal ke kalender, termasuk dua blok penting–tidak mendesak minggu depan. Buka pembahasan setelah selesai."
        },
        "debrief": {
         "en": "The uncomfortable part is the first sweep: most people find 20–40 floating commitments and feel the exact moment their background anxiety drops. That relief is the system working — the brain stops using working memory as a to-do list. The maintenance cost is one five-minute evening process; the failure mode is capturing into three places, which recreates the distrust the system exists to remove.",
