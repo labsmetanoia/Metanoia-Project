@@ -171,6 +171,18 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/early-professional.jpg",
+   "bytes": 183821,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/early-professional-pic.jpg, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/bg/fg-journey-bg.jpg",
    "bytes": 90530,
    "category": "photo",
@@ -219,6 +231,30 @@
    "notes": ""
   },
   {
+   "file": "assets/bg/for-enterprise.jpg",
+   "bytes": 238971,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/for-enterprise-pic.png, generated in-repo. Licence and model release follow the source file."
+  },
+  {
+   "file": "assets/bg/for-mentor.jpg",
+   "bytes": 363619,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/for-mentor-pic.png, generated in-repo. Licence and model release follow the source file."
+  },
+  {
    "file": "assets/bg/fresh-graduate-hero-poster.jpg",
    "bytes": 49230,
    "category": "photo",
@@ -229,6 +265,18 @@
    "model_release": "",
    "status": "undocumented",
    "notes": ""
+  },
+  {
+   "file": "assets/bg/fresh-graduate.jpg",
+   "bytes": 131373,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/fresh-graduate-pic.jpg, generated in-repo. Licence and model release follow the source file."
   },
   {
    "file": "assets/bg/gauntlet/gate-01-submission.jpg",
@@ -385,6 +433,18 @@
    "model_release": "n/a",
    "status": "undocumented",
    "notes": ""
+  },
+  {
+   "file": "assets/bg/mature-professional.jpg",
+   "bytes": 145346,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Web derivative (1600px, JPEG q82) of assets/mature-professional-pic.jpg, generated in-repo. Licence and model release follow the source file."
   },
   {
    "file": "assets/bg/negotiation.jpg",
@@ -747,6 +807,18 @@
    "notes": ""
   },
   {
+   "file": "assets/early-professional-pic.jpg",
+   "bytes": 11503571,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Early Professional Pic.jpg' (renamed for filename hygiene). Young professional with folders on an office balcony; face clearly visible — model release required. 7000x4667 original. Served via assets/bg/early-professional.jpg in Home · Chapter V · The Range Beyond (Early Professional card)."
+  },
+  {
    "file": "assets/favicon-192.png",
    "bytes": 27709,
    "category": "own-artwork",
@@ -819,6 +891,30 @@
    "notes": ""
   },
   {
+   "file": "assets/for-enterprise-pic.png",
+   "bytes": 2032926,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'For Enterprise Pic.png' (renamed for filename hygiene). Presenter at a boardroom screen with four colleagues; faces visible. 1536x1024 PNG — dimensions typical of a generated image; confirm generator/terms or stock source. Served via assets/bg/for-enterprise.jpg in Home · Chapter V · The Range Beyond (For Enterprise card)."
+  },
+  {
+   "file": "assets/for-mentor-pic.png",
+   "bytes": 2051461,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'For Mentor Pic.png' (renamed for filename hygiene). Mentor standing among five seated colleagues in a lounge; faces visible. 1254x1254 PNG — dimensions typical of a generated image; confirm generator/terms or stock source. Served via assets/bg/for-mentor.jpg in Home · Chapter V · The Range Beyond (For Mentors card)."
+  },
+  {
    "file": "assets/for-mentor.jpg",
    "bytes": 126396,
    "category": "photo",
@@ -865,6 +961,18 @@
    "model_release": "",
    "status": "undocumented",
    "notes": ""
+  },
+  {
+   "file": "assets/fresh-graduate-pic.jpg",
+   "bytes": 15730134,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Fresh Graduate Pic.jpg' (renamed for filename hygiene). Graduate in cap and gown holding a diploma; face clearly visible — model release required. 7360x4912 original. Served via assets/bg/fresh-graduate.jpg in Home · Chapter V · The Range Beyond (Fresh Graduate card)."
   },
   {
    "file": "assets/global-map.png",
@@ -1189,6 +1297,18 @@
    "model_release": "",
    "status": "undocumented",
    "notes": ""
+  },
+  {
+   "file": "assets/mature-professional-pic.jpg",
+   "bytes": 15789109,
+   "category": "photo",
+   "people": "likely",
+   "source": "",
+   "licence": "",
+   "licence_proof": "",
+   "model_release": "",
+   "status": "undocumented",
+   "notes": "Uploaded directly to main by the repository owner on 2026-09-05 as 'Mature Professional Pic.jpg' (renamed for filename hygiene). Professional in a grey suit with books outside a colonnade; face visible — model release required. 7360x4912 original. Served via assets/bg/mature-professional.jpg in Home · Chapter V · The Range Beyond (Mature Professional card)."
   },
   {
    "file": "assets/mentoring-session.jpg",
