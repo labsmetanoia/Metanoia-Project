@@ -556,7 +556,7 @@
   },
   {
    "file": "assets/docs/the-map-overview/id/p01.jpg",
-   "bytes": 292590,
+   "bytes": 292399,
    "category": "graphic",
    "people": "unknown",
    "source": "Metanoia Labs — page rendering of the supplied product-overview PDF (assets/docs/the-map-overview-*.pdf), scripts/render-overview-pages.py",
@@ -564,7 +564,7 @@
    "licence_proof": "Supplied by Metanoia Labs 2026-09-05 for publication on The Map",
    "model_release": "",
    "status": "documented",
-   "notes": "Derived asset: content is the supplied document, unmodified. Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
+   "notes": "Derived asset: content is the supplied document, unmodified (Indonesian version replaced 2026-09-05: opening slide now \"The Map Project\"). Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
   },
   {
    "file": "assets/docs/the-map-overview/id/p02.jpg",
@@ -576,7 +576,7 @@
    "licence_proof": "Supplied by Metanoia Labs 2026-09-05 for publication on The Map",
    "model_release": "",
    "status": "documented",
-   "notes": "Derived asset: content is the supplied document, unmodified. Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
+   "notes": "Derived asset: content is the supplied document, unmodified (Indonesian version replaced 2026-09-05: opening slide now \"The Map Project\"). Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
   },
   {
    "file": "assets/docs/the-map-overview/id/p03.jpg",
@@ -588,7 +588,7 @@
    "licence_proof": "Supplied by Metanoia Labs 2026-09-05 for publication on The Map",
    "model_release": "",
    "status": "documented",
-   "notes": "Derived asset: content is the supplied document, unmodified. Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
+   "notes": "Derived asset: content is the supplied document, unmodified (Indonesian version replaced 2026-09-05: opening slide now \"The Map Project\"). Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
   },
   {
    "file": "assets/docs/the-map-overview/id/p04.jpg",
@@ -600,7 +600,7 @@
    "licence_proof": "Supplied by Metanoia Labs 2026-09-05 for publication on The Map",
    "model_release": "",
    "status": "documented",
-   "notes": "Derived asset: content is the supplied document, unmodified. Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
+   "notes": "Derived asset: content is the supplied document, unmodified (Indonesian version replaced 2026-09-05: opening slide now \"The Map Project\"). Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
   },
   {
    "file": "assets/docs/the-map-overview/id/p05.jpg",
@@ -612,7 +612,7 @@
    "licence_proof": "Supplied by Metanoia Labs 2026-09-05 for publication on The Map",
    "model_release": "",
    "status": "documented",
-   "notes": "Derived asset: content is the supplied document, unmodified. Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
+   "notes": "Derived asset: content is the supplied document, unmodified (Indonesian version replaced 2026-09-05: opening slide now \"The Map Project\"). Imagery inside the document inherits its own provenance (see F-03); people appear on several pages."
   },
   {
    "file": "assets/early-professional-background.jpg",
