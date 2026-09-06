@@ -37,13 +37,13 @@
   var FAMS = {
     num: { label: { en: 'Numerical', id: 'Numerik' }, n: 10, mins: 10 },
     verb: { label: { en: 'Verbal', id: 'Verbal' }, n: 8, mins: 8 },
-    log: { label: { en: 'Logical', id: 'Logis' }, n: 10, mins: 8 }
+    log: { label: { en: 'Logical', id: 'Logika' }, n: 10, mins: 8 }
   };
   var STAGES = [
-    ['applied', { en: 'Applied', id: 'Dilamar' }],
+    ['applied', { en: 'Applied', id: 'Lamaran masuk' }],
     ['screen', { en: 'Screen passed', id: 'Lolos saringan' }],
     ['test', { en: 'Test passed', id: 'Lolos tes' }],
-    ['interview', { en: 'Interviewing', id: 'Wawancara' }],
+    ['interview', { en: 'Interviewing', id: 'Tahap wawancara' }],
     ['offer', { en: 'Offer', id: 'Tawaran' }],
     ['rejected', { en: 'Rejected', id: 'Ditolak' }]
   ];
@@ -141,7 +141,7 @@
     root.appendChild(el('div', 'pg-bg'));
     root.appendChild(el('div', 'pg-veil'));
     var top = el('div', 'pg-top');
-    top.appendChild(el('b', null, T('The Pack · Screening Gym', 'The Pack · Gym Penyaringan')));
+    top.appendChild(el('b', null, T('The Pack · Screening Gym', 'The Pack · Screening Gym')));
     tabsEl = el('div', 'pg-tabs');
     [['drill', 'Drills', 'Latihan'], ['ats', 'ATS Check', 'Cek ATS'], ['tracker', 'Tracker', 'Pelacak']].forEach(function (t) {
       var b = el('button', 'pg-tab', T(t[1], t[2]));
@@ -182,21 +182,21 @@
 
   function drillHome(w) {
     var g = load(LSA) || { attempts: [] };
-    var c = card(w, T('Station 1 · Aptitude drills', 'Stasiun 1 · Latihan bakat'),
-      T('Accuracy first, then speed', 'Akurasi dulu, lalu kecepatan'),
+    var c = card(w, T('Station 1 · Aptitude drills', 'Pos 1 · Latihan tes bakat'),
+      T('Accuracy first, then speed', 'Ketepatan dulu, baru kecepatan'),
       T('Untimed sets train technique with instant explanations; timed sets simulate exam pressure and score accuracy, completion and pace. Scores calibrate against this bank — they diagnose, they do not predict any employer’s cutoff.',
-        'Set tanpa waktu melatih teknik dengan pembahasan instan; set berwaktu mensimulasikan tekanan ujian dan menskor akurasi, penyelesaian, dan tempo. Skor terkalibrasi terhadap bank ini — mendiagnosis, bukan meramalkan ambang pemberi kerja mana pun.'));
+        'Set tanpa batas waktu melatih teknik dengan pembahasan langsung di setiap soal; set berbatas waktu mensimulasikan tekanan ujian dan menilai ketepatan, penyelesaian, serta tempo. Skor dikalibrasi terhadap bank soal ini — fungsinya mendiagnosis, bukan meramal ambang lolos di perusahaan mana pun.'));
     var grid = el('div', 'pg-grid');
     Object.keys(FAMS).forEach(function (f) {
       var fam = FAMS[f];
       var qn = BANK.questions.filter(function (q) { return q.fam === f; }).length;
       var box = el('div', 'pg-fam');
       box.appendChild(el('b', null, B(fam.label)));
-      box.appendChild(el('span', null, qn + ' ' + T('questions in bank', 'soal di bank') + ' · ' + fam.n + ' ' + T('per set', 'per set') + (fam.mins ? ' · ' + fam.mins + ' ' + T('min timed', 'mnt berwaktu') : '')));
+      box.appendChild(el('span', null, qn + ' ' + T('questions in bank', 'soal dalam bank') + ' · ' + fam.n + ' ' + T('per set', 'per set') + (fam.mins ? ' · ' + fam.mins + ' ' + T('min timed', 'mnt berbatas waktu') : '')));
       var row = el('div', 'pg-row');
-      var u = el('button', 'pg-btn ghost', T('Untimed', 'Tanpa waktu'));
+      var u = el('button', 'pg-btn ghost', T('Untimed', 'Tanpa batas waktu'));
       u.addEventListener('click', function () { startDrill(f, false); });
-      var t = el('button', 'pg-btn', T('Timed set →', 'Set berwaktu →'));
+      var t = el('button', 'pg-btn', T('Timed set →', 'Set berbatas waktu →'));
       t.addEventListener('click', function () { startDrill(f, true); });
       row.appendChild(u); row.appendChild(t);
       box.appendChild(row);
@@ -209,12 +209,12 @@
       var c2 = card(w, T('Recent attempts', 'Percobaan terakhir'), null, null);
       at.forEach(function (a) {
         var famL = FAMS[a.fam] ? B(FAMS[a.fam].label) : a.fam;
-        c2.appendChild(el('p', 'pg-sub', famL + ' · ' + (a.timed ? T('timed', 'berwaktu') : T('untimed', 'tanpa waktu')) + ' — ' +
+        c2.appendChild(el('p', 'pg-sub', famL + ' · ' + (a.timed ? T('timed', 'berbatas waktu') : T('untimed', 'tanpa batas waktu')) + ' — ' +
           a.score + '/' + a.total + ' (' + Math.round(a.score / a.total * 100) + '%) · ' +
           Math.round(a.secs / a.total) + T('s/question', ' dtk/soal') + ' · ' + new Date(a.date).toLocaleDateString()));
       });
       c2.appendChild(el('p', 'pg-note', T('Read the grid, not the number: high accuracy + low completion → train pacing; the reverse → return to untimed accuracy work.',
-        'Baca kisinya, bukan angkanya: akurasi tinggi + penyelesaian rendah → latih tempo; kebalikannya → kembali ke kerja akurasi tanpa waktu.')));
+        'Baca polanya, bukan sekadar angkanya: ketepatan tinggi tetapi penyelesaian rendah → latih tempo; sebaliknya → kembali ke latihan ketepatan tanpa batas waktu.')));
     }
   }
 
@@ -257,7 +257,7 @@
     var meta = el('div', 'pg-meta');
     meta.appendChild(el('span', null, B(FAMS[run.fam].label) + ' · ' + T('Question', 'Soal') + ' ' + (run.i + 1) + ' / ' + run.qs.length));
     if (run.timed) meta.appendChild(el('span', 'pg-timer' + (run.left <= 60 ? ' low' : ''), fmtClock(run.left)));
-    else meta.appendChild(el('span', null, T('Untimed — explanations shown after each answer', 'Tanpa waktu — pembahasan tampil setelah tiap jawaban')));
+    else meta.appendChild(el('span', null, T('Untimed — explanations shown after each answer', 'Tanpa batas waktu — pembahasan muncul setelah setiap jawaban')));
     c.appendChild(meta);
     var bar = el('div', 'pg-bar');
     bar.appendChild(el('i')).style.width = (run.i / run.qs.length * 100) + '%';
@@ -335,10 +335,10 @@
     body.appendChild(w);
     var acc = attempted ? Math.round(score / attempted * 100) : 0;
     var comp = Math.round(attempted / run.qs.length * 100);
-    var c = card(w, T('Set complete', 'Set selesai'), B(FAMS[run.fam].label) + ' · ' + (run.timed ? T('timed', 'berwaktu') : T('untimed', 'tanpa waktu')), null);
+    var c = card(w, T('Set complete', 'Set selesai'), B(FAMS[run.fam].label) + ' · ' + (run.timed ? T('timed', 'berbatas waktu') : T('untimed', 'tanpa batas waktu')), null);
     var sc = el('div', 'pg-score');
     [[score + '/' + run.qs.length, T('correct', 'benar')],
-     [acc + '%', T('accuracy (of attempted)', 'akurasi (dari yang dicoba)')],
+     [acc + '%', T('accuracy (of attempted)', 'ketepatan (dari yang dikerjakan)')],
      [comp + '%', T('completion', 'penyelesaian')],
      [(attempted ? Math.round(secs / attempted) : 0) + 's', T('per question', 'per soal')]].forEach(function (x) {
       var sp = el('span');
@@ -348,19 +348,19 @@
     });
     c.appendChild(sc);
     var verdict =
-      acc >= 80 && comp >= 70 ? T('Strong grid position. Maintain twice weekly and move training hours to your funnel’s next leaking stage.', 'Posisi kisi kuat. Pertahankan dua kali seminggu dan pindahkan jam latihan ke tahap corong bocor berikutnya.')
-      : acc >= 80 ? T('Careful but slow — your method is sound. Train timed pacing with the triage rule: no question gets double budget.', 'Teliti tapi lambat — metodemu benar. Latih tempo berwaktu dengan aturan triase: tak ada soal mendapat anggaran ganda.')
-      : comp >= 70 ? T('Fast but loose — speed is laundering errors. Return to untimed sets until accuracy stabilises above 80%.', 'Cepat tapi longgar — kecepatan mencuci kesalahan. Kembali ke set tanpa waktu sampai akurasi stabil di atas 80%.')
-      : T('Technique gap — revisit Lesson 3.3’s frameworks for this family, then drill untimed.', 'Celah teknik — kunjungi lagi kerangka Pelajaran 3.3 untuk keluarga ini, lalu latih tanpa waktu.');
+      acc >= 80 && comp >= 70 ? T('Strong grid position. Maintain twice weekly and move training hours to your funnel’s next leaking stage.', 'Posisimu di kisi sudah kuat. Pertahankan dua kali seminggu, dan pindahkan jam latihanmu ke tahap corong berikutnya yang masih bocor.')
+      : acc >= 80 ? T('Careful but slow — your method is sound. Train timed pacing with the triage rule: no question gets double budget.', 'Teliti tapi lambat — metodemu sudah benar. Latih tempo dengan batas waktu memakai aturan triase: tidak ada satu soal pun yang berhak mendapat jatah waktu ganda.')
+      : comp >= 70 ? T('Fast but loose — speed is laundering errors. Return to untimed sets until accuracy stabilises above 80%.', 'Cepat tapi ceroboh — kecepatan sedang menyembunyikan kesalahanmu. Kembali ke set tanpa batas waktu sampai ketepatan stabil di atas 80%.')
+      : T('Technique gap — revisit Lesson 3.3’s frameworks for this family, then drill untimed.', 'Ada celah teknik — pelajari lagi kerangka di Pelajaran 3.3 untuk keluarga tes ini, lalu berlatih tanpa batas waktu.');
     c.appendChild(el('p', 'pg-sub', verdict));
-    c.appendChild(el('p', 'pg-note', T('Log every miss: question type, your wrong move, the principle, a one-line rule for next time.', 'Catat tiap kesalahan: jenis soal, langkah salahmu, prinsipnya, aturan satu baris untuk lain kali.')));
+    c.appendChild(el('p', 'pg-note', T('Log every miss: question type, your wrong move, the principle, a one-line rule for next time.', 'Catat setiap kesalahan: jenis soal, langkah yang keliru, prinsipnya, dan satu aturan singkat untuk lain kali.')));
 
-    var rev = card(w, T('Review — every question, every explanation', 'Tinjauan — tiap soal, tiap pembahasan'), null, null);
+    var rev = card(w, T('Review — every question, every explanation', 'Tinjauan — setiap soal, setiap pembahasan'), null, null);
     run.qs.forEach(function (q, i) {
       var r = el('div', 'pg-rev');
       r.appendChild(el('p', 'vq', (i + 1) + '. ' + esc(B(q.q))));
       var ans = run.answers[i];
-      if (ans === undefined) r.appendChild(el('p', 'va bad', '— ' + T('not attempted', 'tidak dicoba')));
+      if (ans === undefined) r.appendChild(el('p', 'va bad', '— ' + T('not attempted', 'tidak dikerjakan')));
       else if (ans === q.correct) r.appendChild(el('p', 'va ok', '✓ ' + esc(B(q.opts[ans]))));
       else {
         r.appendChild(el('p', 'va bad', '✗ ' + T('Your answer: ', 'Jawabanmu: ') + esc(B(q.opts[ans]))));
@@ -407,15 +407,15 @@
   }
 
   function atsView(w) {
-    var c = card(w, T('Station 2 · ATS readiness check', 'Stasiun 2 · Cek kesiapan ATS'),
-      T('Your CV, read the way a machine reads it', 'CV-mu, dibaca seperti mesin membacanya'),
+    var c = card(w, T('Station 2 · ATS readiness check', 'Pos 2 · Cek kesiapan ATS'),
+      T('Your CV, read the way a machine reads it', 'CV-mu, dibaca dengan cara mesin membacanya'),
       T('Paste or upload your CV, paste a real job description, and get a transparent, rule-based read: keyword coverage, section signals, red flags. Everything runs on this device; nothing is uploaded anywhere.',
-        'Tempel atau unggah CV-mu, tempel deskripsi kerja nyata, dan dapatkan pembacaan transparan berbasis aturan: cakupan kata kunci, sinyal bagian, tanda bahaya. Semua berjalan di perangkat ini; tak ada yang diunggah ke mana pun.'));
+        'Tempel atau unggah CV-mu, tempel deskripsi lowongan yang sesungguhnya, lalu dapatkan pembacaan transparan berbasis aturan: cakupan kata kunci, sinyal tiap bagian, dan tanda bahaya. Semua berjalan di perangkat ini; tidak ada yang diunggah ke mana pun.'));
     var two = el('div', 'pg-two');
     var f1 = el('div', 'pg-field');
     f1.appendChild(el('label', null, T('Your CV text', 'Teks CV-mu')));
     var cvTa = document.createElement('textarea');
-    cvTa.placeholder = T('Paste your CV text here, or upload a file below.', 'Tempel teks CV di sini, atau unggah berkas di bawah.');
+    cvTa.placeholder = T('Paste your CV text here, or upload a file below.', 'Tempel teks CV-mu di sini, atau unggah berkasnya di bawah.');
     cvTa.value = atsState.cv || '';
     f1.appendChild(cvTa);
     if (window.MT_RANGE_DOC) {
@@ -438,9 +438,9 @@
       f1.appendChild(up); f1.appendChild(st);
     }
     var f2 = el('div', 'pg-field');
-    f2.appendChild(el('label', null, T('The job description', 'Deskripsi kerjanya')));
+    f2.appendChild(el('label', null, T('The job description', 'Deskripsi lowongannya')));
     var jdTa = document.createElement('textarea');
-    jdTa.placeholder = T('Paste the full JD, including requirements.', 'Tempel JD lengkap, termasuk persyaratan.');
+    jdTa.placeholder = T('Paste the full JD, including requirements.', 'Tempel deskripsi lowongan selengkapnya, termasuk persyaratannya.');
     jdTa.value = atsState.jd || '';
     f2.appendChild(jdTa);
     two.appendChild(f1); two.appendChild(f2);
@@ -468,13 +468,13 @@
       var pipeEmail = /[\w.+-]+@[\w-]+\.[a-z]{2,}/i.test(cv);
       var pipeEdu = /education|pendidikan|university|universitas|institut/i.test(cv);
       var pipeExp = /experience|pengalaman|internship|magang|project|proyek/i.test(cv);
-      var pl = card(w, T('The pipeline — what the machine did with your file', 'Pipeline — apa yang mesin lakukan dengan berkasmu'), null,
+      var pl = card(w, T('The pipeline — what the machine did with your file', 'Alur kerja — apa yang dilakukan mesin terhadap berkasmu'), null,
         T('A real ATS runs your application through stages, and each stage can silently drop you. This is the same sequence, run transparently on your text:',
           'ATS sungguhan menjalankan lamaranmu lewat tahapan, dan tiap tahap bisa diam-diam menggugurkanmu. Ini urutan yang sama, dijalankan transparan pada teksmu:'));
-      [[T('1 · Parse', '1 · Parse'), cv.length + T(' characters of plain text extracted', ' karakter teks polos terekstrak'), cv.length > 400],
-       [T('2 · Identify', '2 · Identifikasi'), pipeEmail ? T('contact details located', 'detail kontak ditemukan') : T('no email found — many systems file this under “incomplete”', 'email tak ditemukan — banyak sistem memberkaskan ini sebagai “tak lengkap”'), pipeEmail],
-       [T('3 · Segment', '3 · Segmentasi'), (pipeEdu && pipeExp) ? T('education and experience sections recognised', 'bagian pendidikan dan pengalaman terkenali') : T('standard section headings missing — content risks landing in the wrong field', 'judul bagian standar hilang — isi berisiko masuk bidang yang salah'), pipeEdu && pipeExp],
-       [T('4 · Match', '4 · Cocokkan'), hits.length + '/' + terms.length + T(' load-bearing JD terms found', ' istilah penopang JD ditemukan'), terms.length > 0 && hits.length / Math.max(terms.length, 1) >= 0.5]
+      [[T('1 · Parse', '1 · Parse'), cv.length + T(' characters of plain text extracted', ' karakter teks polos berhasil diambil'), cv.length > 400],
+       [T('2 · Identify', '2 · Identifikasi'), pipeEmail ? T('contact details located', 'detail kontak ditemukan') : T('no email found — many systems file this under “incomplete”', 'email tidak ditemukan — banyak sistem mencatat ini sebagai “tidak lengkap”'), pipeEmail],
+       [T('3 · Segment', '3 · Segmentasi'), (pipeEdu && pipeExp) ? T('education and experience sections recognised', 'bagian pendidikan dan pengalaman terkenali') : T('standard section headings missing — content risks landing in the wrong field', 'judul bagian standar tidak ada — isinya berisiko masuk ke kolom yang salah'), pipeEdu && pipeExp],
+       [T('4 · Match', '4 · Cocokkan'), hits.length + '/' + terms.length + T(' load-bearing JD terms found', ' istilah kunci dari deskripsi lowongan ditemukan'), terms.length > 0 && hits.length / Math.max(terms.length, 1) >= 0.5]
       ].forEach(function (st) {
         pl.appendChild(el('p', 'pg-sub', (st[2] ? '<span style="color:#4ADE80">●</span> ' : '<span style="color:#EF6F5E">●</span> ') + '<b>' + st[0] + '</b> — ' + st[1]));
       });
@@ -482,7 +482,7 @@
         'Tiap tahap mencerminkan yang didokumentasikan parser komersial secara publik; ambang dan bobot berbeda per pemberi kerja — itulah mengapa simulator ini menunjukkan aturannya alih-alih menebak milik mereka.')));
 
       var r = card(w, T('Result — transparent and rule-based', 'Hasil — transparan dan berbasis aturan'),
-        cov + '% ' + T('load-bearing term coverage', 'cakupan istilah penopang'), null);
+        cov + '% ' + T('load-bearing term coverage', 'cakupan istilah kunci'), null);
       var bar = el('div', 'pg-bar');
       bar.appendChild(el('i')).style.width = cov + '%';
       r.appendChild(bar);
@@ -492,7 +492,7 @@
       if (!hits.length) hd.appendChild(el('span', 'pg-chip', T('none', 'tidak ada')));
       hd.appendChild(el('p', 'pg-sub', '<b style="display:block;margin-top:10px">' + T('Missing:', 'Hilang:') + '</b>'));
       misses.forEach(function (t) { hd.appendChild(el('span', 'pg-chip miss', '✗ ' + esc(t))); });
-      if (!misses.length) hd.appendChild(el('span', 'pg-chip', T('none — strong mirroring', 'tidak ada — pencerminan kuat')));
+      if (!misses.length) hd.appendChild(el('span', 'pg-chip', T('none — strong mirroring', 'tidak ada — semuanya sudah tercermin')));
       r.appendChild(hd);
 
       /* section & hygiene signals */
@@ -503,18 +503,18 @@
       var hasEdu = /education|pendidikan|university|universitas|institut/i.test(cv);
       var hasExp = /experience|pengalaman|internship|magang|project|proyek/i.test(cv);
       var lenOK = cv.length > 900 && cv.length < 9000;
-      sig.push([hasEmail, T('Contact email present in body text', 'Email kontak ada di teks badan')]);
+      sig.push([hasEmail, T('Contact email present in body text', 'Email kontak ada di badan teks')]);
       sig.push([hasPhone, T('Phone number detected', 'Nomor telepon terdeteksi')]);
-      sig.push([hasEdu, T('Education section recognisable', 'Bagian pendidikan terkenali')]);
-      sig.push([hasExp, T('Experience / projects section recognisable', 'Bagian pengalaman / proyek terkenali')]);
-      sig.push([hasNums, T('Quantified evidence (numbers) present', 'Bukti terkuantifikasi (angka) ada')]);
-      sig.push([lenOK, T('Length in the one-page text range', 'Panjang dalam rentang teks satu halaman')]);
-      var sc = card(w, T('Section & hygiene signals', 'Sinyal bagian & higiene'), null, null);
+      sig.push([hasEdu, T('Education section recognisable', 'Bagian pendidikan terbaca')]);
+      sig.push([hasExp, T('Experience / projects section recognisable', 'Bagian pengalaman / proyek terbaca')]);
+      sig.push([hasNums, T('Quantified evidence (numbers) present', 'Ada bukti berupa angka')]);
+      sig.push([lenOK, T('Length in the one-page text range', 'Panjangnya dalam rentang satu halaman')]);
+      var sc = card(w, T('Section & hygiene signals', 'Sinyal struktur & kerapian'), null, null);
       sig.forEach(function (s) {
         sc.appendChild(el('p', 'pg-sub', (s[0] ? '<span style="color:#4ADE80">✓</span> ' : '<span style="color:#EF6F5E">✗</span> ') + s[1]));
       });
       sc.appendChild(el('p', 'pg-note', T('What this check is: a transparent lint of keyword coverage and parse-friendly signals, computed on your device against this JD. What it is not: a prediction of any specific employer’s ATS configuration or cutoff. Add missing terms only where your true experience supports them — interviews probe every keyword you claim.',
-        'Pemeriksaan ini adalah: lint transparan cakupan kata kunci dan sinyal ramah-parse, dihitung di perangkatmu terhadap JD ini. Yang bukan: prediksi konfigurasi atau ambang ATS pemberi kerja tertentu. Tambahkan istilah hilang hanya bila pengalaman sejatimu mendukungnya — wawancara menggali tiap kata kunci yang kamu klaim.')));
+        'Apa pemeriksaan ini: pengecekan transparan atas cakupan kata kunci dan sinyal yang mudah dibaca mesin, dihitung di perangkatmu terhadap deskripsi lowongan ini. Apa yang bukan: prediksi konfigurasi atau ambang ATS di perusahaan tertentu. Tambahkan istilah yang hilang hanya jika pengalamanmu benar-benar mendukungnya — di wawancara, setiap kata kunci yang kamu klaim akan digali.')));
     }
   }
   var atsState = { cv: '', jd: '', done: false };
@@ -522,7 +522,7 @@
   /* ─── TRACKER ─── */
   function trackerView(w) {
     var apps = load(LSP) || [];
-    var c = card(w, T('Station 3 · Application pipeline', 'Stasiun 3 · Pipeline lamaran'),
+    var c = card(w, T('Station 3 · Application pipeline', 'Pos 3 · Alur lamaran'),
       T('Your funnel, measured', 'Corongmu, terukur'),
       T('Track every application and its stage. The metrics locate your leaking stage — and therefore your next training priority.',
         'Lacak tiap lamaran dan tahapnya. Metrik menunjukkan tahap bocormu — dan karenanya prioritas latihan berikutmu.'));
@@ -578,7 +578,7 @@
       });
       m.appendChild(sc);
       m.appendChild(el('p', 'pg-note', n < 10
-        ? T('Small numbers wobble — read trends after ten applications, not after two.', 'Angka kecil bergoyang — baca tren setelah sepuluh lamaran, bukan setelah dua.')
+        ? T('Small numbers wobble — read trends after ten applications, not after two.', 'Angka yang kecil mudah goyah — baca trennya setelah sepuluh lamaran, bukan setelah dua.')
         : T('Deaths concentrated at one stage locate the leak: screening → Modules 2 & 6; tests → Module 3 drills; interviews → The Rope.',
             'Kematian terkonsentrasi di satu tahap menunjukkan kebocoran: saringan → Modul 2 & 6; tes → latihan Modul 3; wawancara → The Rope.')));
     }
