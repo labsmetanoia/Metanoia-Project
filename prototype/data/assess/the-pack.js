@@ -15,71 +15,71 @@ window.MT_ASSESS['the-pack'] = {
     "opts": [
      {
       "en": "Find the objectively best candidate",
-      "id": "Menemukan kandidat terbaik secara objektif"
+      "id": "Menemukan kandidat yang secara objektif paling baik"
      },
      {
       "en": "Reduce thousands of applications to one signature at acceptable cost — discarding cheaply first",
-      "id": "Memangkas ribuan lamaran menjadi satu tanda tangan dengan biaya wajar — membuang murah lebih dulu"
+      "id": "Memangkas ribuan lamaran menjadi satu tanda tangan dengan biaya yang wajar — yang murah dibuang lebih dulu"
      },
      {
       "en": "Give every applicant a fair deep read",
-      "id": "Memberi tiap pelamar pembacaan mendalam yang adil"
+      "id": "Memberi setiap pelamar pembacaan yang mendalam dan adil"
      },
      {
       "en": "Test loyalty through a long process",
-      "id": "Menguji kesetiaan lewat proses panjang"
+      "id": "Menguji kesetiaan lewat proses yang panjang"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Cheap filters at the top (software, six-second scans), expensive judgment at the bottom (interviews). Nothing personal operates in the first gates — which is why early rejections are document problems.",
-     "id": "Penyaring murah di atas (perangkat lunak, pindaian enam detik), penilaian mahal di bawah (wawancara). Tak ada yang personal di gerbang awal — karena itu penolakan dini adalah masalah dokumen."
+     "id": "Saringan yang murah di atas (perangkat lunak, pindaian enam detik), penilaian yang mahal di bawah (wawancara). Tidak ada yang bersifat pribadi di gerbang-gerbang awal — itulah sebabnya penolakan dini adalah masalah dokumen."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Twenty applications, zero test invitations. Funnel thinking prescribes:",
-     "id": "Dua puluh lamaran, nol undangan tes. Pemikiran corong meresepkan:"
+     "id": "Dua puluh lamaran, nol undangan tes. Cara berpikir corong menyarankan:"
     },
     "opts": [
      {
       "en": "Forty more applications with the same CV",
-      "id": "Empat puluh lamaran lagi dengan CV sama"
+      "id": "Empat puluh lamaran lagi dengan CV yang sama"
      },
      {
       "en": "Fix the screening stage first — rebuild the CV against each JD and verify parse-safety",
-      "id": "Perbaiki tahap penyaringan dulu — bangun ulang CV terhadap tiap JD dan pastikan aman-parse"
+      "id": "Perbaiki dulu tahap penyaringannya — susun ulang CV terhadap setiap deskripsi lowongan dan pastikan aman dibaca mesin"
      },
      {
       "en": "Switch careers entirely",
-      "id": "Ganti karier sepenuhnya"
+      "id": "Ganti karier sama sekali"
      },
      {
       "en": "Wait for the market to improve",
-      "id": "Tunggu pasar membaik"
+      "id": "Tunggu sampai pasar membaik"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Deaths concentrated at one stage locate the leak. Volume through a broken gate multiplies rejections, not offers.",
-     "id": "Kematian terkonsentrasi di satu tahap menunjukkan kebocorannya. Volume melalui gerbang rusak menggandakan penolakan, bukan tawaran."
+     "id": "Kegagalan yang menumpuk di satu tahap menunjukkan di mana kebocorannya. Menambah volume lewat gerbang yang rusak hanya melipatgandakan penolakan, bukan tawaran."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Week-long silences mid-process usually mean:",
-     "id": "Keheningan berminggu-minggu di tengah proses biasanya berarti:"
+     "id": "Sunyi berminggu-minggu di tengah proses biasanya berarti:"
     },
     "opts": [
      {
       "en": "Silent rejection",
-      "id": "Penolakan diam-diam"
+      "id": "Penolakan tanpa pemberitahuan"
      },
      {
       "en": "The process is in an invisible stage — calibration, approvals, other candidates",
-      "id": "Proses ada di tahap tak terlihat — kalibrasi, persetujuan, kandidat lain"
+      "id": "Prosesnya sedang berada di tahap yang tidak terlihat — kalibrasi, persetujuan, kandidat lain"
      },
      {
       "en": "Your file was lost",
@@ -87,20 +87,20 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "The role was cancelled",
-      "id": "Perannya dibatalkan"
+      "id": "Lowongannya dibatalkan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Stages 10–12 (calibration, checks, offer construction) consume weeks by design. Ask a process question, keep the funnel full, and never stop applying on a verbal 'we love you'.",
-     "id": "Tahap 10–12 (kalibrasi, pemeriksaan, penyusunan tawaran) memang memakan berminggu-minggu. Ajukan pertanyaan proses, jaga corong penuh, dan jangan berhenti melamar karena 'kami suka kamu' lisan."
+     "id": "Tahap 10–12 (kalibrasi, pemeriksaan, penyusunan tawaran) memang memakan waktu berminggu-minggu. Ajukan pertanyaan tentang prosesnya, jaga corongmu tetap penuh, dan jangan pernah berhenti melamar hanya karena ucapan lisan 'kami suka kamu'."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Your screen rate on match-tier companies is 5%, but assessments and interviews convert fine. Which modules train the fix?",
-     "id": "Tingkat lolos saringanmu di perusahaan sepadan 5%, tetapi asesmen dan wawancara terkonversi baik. Modul mana yang melatih perbaikannya?"
+     "id": "Tingkat lolos saringanmu di perusahaan tingkat sepadan hanya 5%, tapi asesmen dan wawancaramu berjalan baik. Modul mana yang melatih perbaikannya?"
     },
     "opts": [
      {
@@ -123,7 +123,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "The funnel X-ray reads: dying at screening = document and targeting problems. Train where the leak is, not where the fear is.",
-     "id": "Rontgen corong terbaca: mati di penyaringan = masalah dokumen dan penargetan. Latih di tempat bocornya, bukan di tempat takutnya."
+     "id": "Rontgen corongnya terbaca jelas: gugur di penyaringan = masalah dokumen dan pemilihan target. Berlatihlah di tempat bocornya, bukan di tempat yang kamu takuti."
     }
    }
   ],
@@ -135,16 +135,16 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "The evidence rule for CV lines demands:",
-     "id": "Aturan bukti untuk baris CV menuntut:"
+     "id": "Aturan bukti untuk setiap baris CV menuntut:"
     },
     "opts": [
      {
       "en": "Strong adjectives — motivated, hardworking, detail-oriented",
-      "id": "Kata sifat kuat — termotivasi, pekerja keras, teliti"
+      "id": "Kata sifat yang kuat — termotivasi, pekerja keras, teliti"
      },
      {
       "en": "Numbers, artefacts or verdicts a stranger could check",
-      "id": "Angka, artefak, atau penilaian pihak lain yang bisa diperiksa orang asing"
+      "id": "Angka, artefak, atau penilaian pihak lain yang bisa diperiksa oleh orang yang tidak mengenalmu"
      },
      {
       "en": "At least ten bullet points per role",
@@ -158,14 +158,14 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Self-descriptions are free to write and worthless to read. 'Raised Rp 85m from 11 sponsors — 40% above target' cannot be written by everyone, which is exactly why it works.",
-     "id": "Deskripsi diri gratis ditulis dan tak bernilai dibaca. 'Menghimpun Rp 85 jt dari 11 sponsor — 40% di atas target' tak bisa ditulis semua orang, persis karena itu ia bekerja."
+     "id": "Deskripsi diri gratis untuk ditulis dan tidak bernilai untuk dibaca. 'Menghimpun Rp 85 juta dari 11 sponsor — 40% di atas target' tidak bisa ditulis oleh semua orang, dan persis karena itulah kalimat itu bekerja."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "The JD says 'stakeholder management'; your CV says 'handled people stuff'. The honest fix:",
-     "id": "JD menyebut 'stakeholder management'; CV-mu menulis 'mengurus orang-orang'. Perbaikan jujurnya:"
+     "id": "Deskripsi lowongan menyebut 'stakeholder management'; CV-mu menulis 'mengurus orang-orang'. Perbaikan yang jujur:"
     },
     "opts": [
      {
@@ -174,28 +174,28 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Adopt their vocabulary for your true experience: 'stakeholder management across faculty and sponsors'",
-      "id": "Adopsi kosakata mereka untuk pengalaman sejatimu: 'stakeholder management lintas fakultas dan sponsor'"
+      "id": "Pakai kosakata mereka untuk pengalamanmu yang sebenarnya: 'stakeholder management lintas fakultas dan sponsor'"
      },
      {
       "en": "Add 'stakeholder management' to skills without evidence",
-      "id": "Tambahkan 'stakeholder management' ke keterampilan tanpa bukti"
+      "id": "Tambahkan 'stakeholder management' di bagian keterampilan tanpa bukti"
      },
      {
       "en": "Remove the line entirely",
-      "id": "Hapus barisnya sepenuhnya"
+      "id": "Hapus barisnya sama sekali"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Rephrasing true experience into the reader's language is craft; inserting keywords without substance is fraud that dies in the first interview probe.",
-     "id": "Mengubah frasa pengalaman sejati ke bahasa pembaca adalah keterampilan; menyisipkan kata kunci tanpa substansi adalah penipuan yang mati di gali wawancara pertama."
+     "id": "Menulis ulang pengalaman yang benar-benar terjadi ke dalam bahasa pembaca adalah keterampilan; menyisipkan kata kunci tanpa substansi adalah kebohongan yang akan terbongkar di pertanyaan lanjutan pertama saat wawancara."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "A LinkedIn headline works when it:",
-     "id": "Headline LinkedIn bekerja saat ia:"
+     "id": "Headline LinkedIn bekerja ketika ia:"
     },
     "opts": [
      {
@@ -204,41 +204,41 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Matches recruiter search queries: role, field, differentiator, location",
-      "id": "Cocok dengan kueri pencarian perekrut: peran, bidang, pembeda, lokasi"
+      "id": "Cocok dengan kata kunci pencarian perekrut: peran, bidang, pembeda, lokasi"
      },
      {
       "en": "Lists every skill you own",
-      "id": "Mendaftar semua keterampilanmu"
+      "id": "Memuat semua keterampilan yang kamu punya"
      },
      {
       "en": "Stays mysterious to invite clicks",
-      "id": "Tetap misterius agar mengundang klik"
+      "id": "Tetap misterius supaya orang penasaran mengklik"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The headline is a search index entry. Nobody queries 'Dreamer | Lifelong learner'; they query 'data analyst Jakarta fresh graduate'.",
-     "id": "Headline adalah entri indeks pencarian. Tak ada yang mencari 'Dreamer | Lifelong learner'; mereka mencari 'data analyst Jakarta fresh graduate'."
+     "id": "Headline adalah entri dalam indeks pencarian. Tidak ada yang mencari 'Dreamer | Lifelong learner'; yang dicari adalah 'data analyst Jakarta fresh graduate'."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Which cover-letter opening survives its ten-second read?",
-     "id": "Pembuka surat lamaran mana yang lolos pembacaan sepuluh detiknya?"
+     "id": "Pembuka surat lamaran mana yang lolos pembacaan sepuluh detik?"
     },
     "opts": [
      {
       "en": "'I am writing to express my sincere interest in this position at your esteemed company.'",
-      "id": "'Melalui surat ini saya menyampaikan minat tulus pada posisi di perusahaan Anda yang terhormat.'"
+      "id": "'Melalui surat ini saya menyampaikan minat yang tulus terhadap posisi di perusahaan Bapak/Ibu yang terhormat.'"
      },
      {
       "en": "'I'm applying for the junior analyst role. Last year I built the sales dashboard a 40-store retailer still uses weekly.'",
-      "id": "'Saya melamar peran analis junior. Tahun lalu saya membangun dasbor penjualan yang masih dipakai mingguan oleh peritel 40 toko.'"
+      "id": "'Saya melamar posisi analis junior. Tahun lalu saya membangun dasbor penjualan yang sampai sekarang masih dipakai tiap minggu oleh peritel dengan 40 toko.'"
      },
      {
       "en": "'My name is Rafi and I graduated from a reputable university.'",
-      "id": "'Nama saya Rafi dan saya lulusan universitas ternama.'"
+      "id": "'Nama saya Rafi, dan saya lulusan universitas ternama.'"
      },
      {
       "en": "'Please find my CV attached for your kind consideration.'",
@@ -248,7 +248,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "The hook spends its seconds on a checkable proof tied to the role. Interest is demonstrated, never declared.",
-     "id": "Kail menghabiskan detiknya pada bukti terperiksa yang terkait peran. Minat ditunjukkan, tak pernah dideklarasikan."
+     "id": "Kalimat pembuka menghabiskan detik-detiknya untuk bukti yang bisa diperiksa dan terkait dengan perannya. Minat ditunjukkan, bukan dinyatakan."
     }
    }
   ],
@@ -260,37 +260,37 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "Aptitude scores respond strongly to practice because:",
-     "id": "Skor bakat merespons kuat terhadap latihan karena:"
+     "id": "Skor tes bakat sangat responsif terhadap latihan karena:"
     },
     "opts": [
      {
       "en": "Test providers reward repeat customers",
-      "id": "Penyedia tes mengganjar pelanggan berulang"
+      "id": "Penyedia tes memberi hadiah kepada pelanggan yang kembali"
      },
      {
       "en": "Format familiarity frees working memory for the actual reasoning",
-      "id": "Keakraban format membebaskan memori kerja untuk penalaran sesungguhnya"
+      "id": "Terbiasa dengan formatnya membebaskan memori kerja untuk penalaran yang sebenarnya"
      },
      {
       "en": "The questions repeat between tests",
-      "id": "Soal berulang antar-tes"
+      "id": "Soalnya berulang dari satu tes ke tes lain"
      },
      {
       "en": "They do not — aptitude is fixed",
-      "id": "Tidak — bakat itu tetap"
+      "id": "Tidak responsif — bakat itu tetap"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Unfamiliar formats tax attention. Knowing the question types, interface and your pacing removes that tax — gains are largest for first-time formats.",
-     "id": "Format asing membebani perhatian. Mengenal jenis soal, antarmuka, dan tempomu menghapus beban itu — kenaikan terbesar pada format yang baru pertama ditemui."
+     "id": "Format yang asing membebani perhatian. Mengenal jenis soal, antarmuka, dan tempomu sendiri menghapus beban itu — kenaikan terbesar terjadi pada format yang baru pertama kali kamu temui."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "A price rose 25% to Rp 150,000. The original price was:",
-     "id": "Harga naik 25% menjadi Rp 150.000. Harga awalnya:"
+     "id": "Sebuah harga naik 25% menjadi Rp 150.000. Harga awalnya:"
     },
     "opts": [
      {
@@ -313,7 +313,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Reverse percentage divides by the multiplier: 150,000 ÷ 1.25 = 120,000. Multiplying by 0.75 reverses the wrong operation — the classic trap.",
-     "id": "Persentase balik membagi dengan pengali: 150.000 ÷ 1,25 = 120.000. Mengalikan 0,75 membalik operasi yang salah — jebakan klasik."
+     "id": "Persentase terbalik dihitung dengan membagi pengalinya: 150.000 ÷ 1,25 = 120.000. Mengalikan dengan 0,75 justru membalik operasi yang salah — jebakan klasik."
     }
    },
    {
@@ -325,45 +325,45 @@ window.MT_ASSESS['the-pack'] = {
     "opts": [
      {
       "en": "True — it follows naturally",
-      "id": "Benar — mengikuti secara alami"
+      "id": "Benar — itu kesimpulan yang wajar"
      },
      {
       "en": "False — the passage contradicts it",
-      "id": "Salah — bacaan membantahnya"
+      "id": "Salah — bacaannya membantah itu"
      },
      {
       "en": "Cannot say — 'some' never establishes 'most'",
-      "id": "Tak bisa disimpulkan — 'sebagian' tak pernah menegakkan 'kebanyakan'"
+      "id": "Tidak bisa disimpulkan — 'sebagian' tidak pernah membuktikan 'kebanyakan'"
      },
      {
       "en": "True if you know the industry",
-      "id": "Benar jika kamu paham industrinya"
+      "id": "Benar, kalau kamu paham industrinya"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "Quantifier swaps are the test's favourite trap. Judge the statement against the passage alone — outside knowledge is contamination.",
-     "id": "Penukaran kuantor adalah jebakan favorit tes. Nilai pernyataan terhadap bacaan semata — pengetahuan luar adalah kontaminasi."
+     "id": "Pertukaran kata kuantitas adalah jebakan favorit tes ini. Nilai pernyataan hanya berdasarkan bacaannya — pengetahuan dari luar justru mengotori jawabanmu."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Timed set, question 8 of 20, minute 11 of 20, and this question needs ~3 more minutes. The triage rule says:",
-     "id": "Set berwaktu, soal 8 dari 20, menit 11 dari 20, dan soal ini butuh ~3 menit lagi. Aturan triase berkata:"
+     "id": "Set berbatas waktu, soal ke-8 dari 20, menit ke-11 dari 20, dan soal ini masih butuh sekitar 3 menit lagi. Aturan triase mengatakan:"
     },
     "opts": [
      {
       "en": "Finish it — momentum matters",
-      "id": "Selesaikan — momentum penting"
+      "id": "Selesaikan — momentum itu penting"
      },
      {
       "en": "Flag, skip, bank the reachable questions, return at the end",
-      "id": "Tandai, lewati, amankan soal terjangkau, kembali di akhir"
+      "id": "Tandai, lewati, amankan dulu soal-soal yang terjangkau, lalu kembali di akhir"
      },
      {
       "en": "Guess randomly and move on",
-      "id": "Tebak acak dan lanjut"
+      "id": "Tebak asal dan lanjut"
      },
      {
       "en": "End the set early to protect accuracy",
@@ -373,7 +373,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "No single question gets double budget: the score belongs to the set. Flagged returns often solve faster because the second look bypasses the first framing.",
-     "id": "Tak ada satu soal mendapat anggaran ganda: skor milik set. Soal bertanda sering terpecahkan lebih cepat saat kembali karena pandangan kedua melewati bingkai pertama."
+     "id": "Tidak ada satu soal pun yang berhak mendapat jatah waktu ganda: skor adalah milik seluruh set. Soal yang ditandai sering justru lebih cepat terpecahkan saat kamu kembali, karena pandangan kedua terbebas dari cara pandang pertama."
     }
    }
   ],
@@ -390,45 +390,45 @@ window.MT_ASSESS['the-pack'] = {
     "opts": [
      {
       "en": "Minutes of airtime per candidate",
-      "id": "Menit bicara per kandidat"
+      "id": "Berapa menit setiap kandidat bicara"
      },
      {
       "en": "Quality behaviours: structure, inclusion, evidence, synthesis, composure",
-      "id": "Perilaku berkualitas: struktur, inklusi, bukti, sintesis, ketenangan"
+      "id": "Perilaku yang berkualitas: struktur, mengajak yang lain, bukti, sintesis, ketenangan"
      },
      {
       "en": "Who reaches the correct answer first",
-      "id": "Siapa mencapai jawaban benar lebih dulu"
+      "id": "Siapa yang lebih dulu sampai pada jawaban yang benar"
      },
      {
       "en": "Confidence and voice projection",
-      "id": "Kepercayaan diri dan proyeksi suara"
+      "id": "Kepercayaan diri dan kelantangan suara"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Eight strong seconds — a structure proposal, a named invitation, a synthesis — outscore eight minutes of fluent filler. The floor is cheap; order, inclusion and convergence are scarce.",
-     "id": "Delapan detik kuat — usulan struktur, ajakan bernama, sintesis — mengungguli delapan menit pengisi fasih. Lantai itu murah; keteraturan, inklusi, dan titik temu yang langka."
+     "id": "Delapan detik yang kuat — usulan struktur, ajakan dengan menyebut nama, sebuah sintesis — mengalahkan delapan menit omongan lancar tanpa isi. Sekadar bicara itu murah; keteraturan, mengajak yang lain, dan titik temu itulah yang langka."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Minute 18: two candidates argue loudly, three haven't spoken. Highest-scoring move:",
-     "id": "Menit 18: dua kandidat berdebat nyaring, tiga belum bicara. Langkah berskor tertinggi:"
+     "id": "Menit ke-18: dua kandidat berdebat keras, tiga lainnya belum bicara sama sekali. Langkah dengan skor tertinggi:"
     },
     "opts": [
      {
       "en": "Take a side with a stronger argument",
-      "id": "Memihak dengan argumen lebih kuat"
+      "id": "Memihak yang argumennya lebih kuat"
      },
      {
       "en": "Summarise both positions in a line each, then invite a silent member by name",
-      "id": "Rangkum kedua posisi masing-masing satu baris, lalu ajak anggota diam dengan menyebut nama"
+      "id": "Rangkum kedua posisi masing-masing dalam satu kalimat, lalu ajak salah satu anggota yang diam dengan menyebut namanya"
      },
      {
       "en": "Stay quiet to avoid the crossfire",
-      "id": "Diam untuk menghindari baku tembak"
+      "id": "Diam supaya tidak kena imbasnya"
      },
      {
       "en": "Ask the assessors to intervene",
@@ -438,44 +438,44 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "One move, three tallies — synthesis, composure, inclusion — and it visibly rescues the group's process. Assessors write it down every time.",
-     "id": "Satu langkah, tiga turus — sintesis, ketenangan, inklusi — dan tampak menyelamatkan proses kelompok. Asesor selalu mencatatnya."
+     "id": "Satu langkah, tiga turus sekaligus — sintesis, ketenangan, mengajak yang lain — dan ia terlihat menyelamatkan proses kelompok. Asesor selalu mencatatnya."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Your idea gets dismissed and two people nod along. The scored response is:",
-     "id": "Idemu ditepis dan dua orang ikut mengangguk. Respons yang dinilai adalah:"
+     "id": "Idemu ditepis, dan dua orang ikut mengangguk setuju. Respons yang mendapat nilai adalah:"
     },
     "opts": [
      {
       "en": "Defend it until the group concedes",
-      "id": "Bela sampai kelompok mengalah"
+      "id": "Bela terus sampai kelompok mengalah"
      },
      {
       "en": "Withdraw it instantly to preserve harmony",
-      "id": "Tarik seketika demi menjaga harmoni"
+      "id": "Langsung tarik demi menjaga keharmonisan"
      },
      {
       "en": "One calm evidence-based defence, then graceful release — park it as a phase-two idea",
-      "id": "Satu pembelaan tenang berbasis bukti, lalu lepaskan dengan anggun — parkir sebagai ide fase dua"
+      "id": "Satu pembelaan yang tenang dan berbasis bukti, lalu lepaskan dengan lapang — simpan sebagai ide untuk fase kedua"
      },
      {
       "en": "Raise your voice slightly to show conviction",
-      "id": "Naikkan suara sedikit untuk menunjukkan keyakinan"
+      "id": "Sedikit meninggikan suara untuk menunjukkan keyakinan"
      }
     ],
     "correct": 2,
     "expl": {
      "en": "The dismissal moment probes composure and conviction at once: instant folding shows no spine, endless defence shows no ears. One grounded defence, then flexibility, banks both tallies.",
-     "id": "Momen penolakan menguji ketenangan dan keyakinan sekaligus: langsung melipat berarti tanpa tulang punggung, membela tanpa akhir berarti tanpa telinga. Satu pembelaan berdasar, lalu fleksibilitas, mengamankan kedua turus."
+     "id": "Momen idemu ditolak menguji ketenangan dan keyakinan sekaligus: langsung menyerah berarti tidak punya pendirian, membela tanpa henti berarti tidak punya telinga. Satu pembelaan yang berdasar, lalu bersikap luwes, mengamankan kedua turus itu."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Groups that fail to conclude are marked down. The endgame protocol is:",
-     "id": "Kelompok yang gagal menyimpulkan dinilai turun. Protokol akhirnya:"
+     "id": "Kelompok yang gagal mencapai kesimpulan dinilai lebih rendah. Protokol di menit-menit akhir:"
     },
     "opts": [
      {
@@ -484,21 +484,21 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "At minus-five minutes: name the convergences, park the open item, propose the commitment, offer the summary",
-      "id": "Di lima menit terakhir: sebutkan titik temu, parkir item terbuka, usulkan komitmen, tawarkan rangkuman"
+      "id": "Lima menit sebelum selesai: sebutkan titik-titik temunya, simpan hal yang masih terbuka, usulkan komitmen, tawarkan diri merangkum"
      },
      {
       "en": "Vote on everything discussed",
-      "id": "Voting semua yang dibahas"
+      "id": "Voting untuk semua yang sudah dibahas"
      },
      {
       "en": "Let the most senior-seeming member decide",
-      "id": "Biarkan yang tampak paling senior memutuskan"
+      "id": "Biarkan anggota yang terlihat paling senior yang memutuskan"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Whoever lands the plane rescues every member's score — and assessors know exactly who made it happen. Rehearse those two sentences until they are reflex.",
-     "id": "Siapa pun yang mendaratkan pesawat menyelamatkan skor semua anggota — dan asesor tahu persis siapa yang mewujudkannya. Latih dua kalimat itu sampai refleks."
+     "id": "Siapa pun yang berhasil 'mendaratkan pesawat' menyelamatkan skor semua anggota — dan asesor tahu persis siapa yang melakukannya. Latih dua kalimat itu sampai menjadi refleks."
     }
    }
   ],
@@ -510,80 +510,80 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "At employers with structured intern programmes, internships matter because:",
-     "id": "Di pemberi kerja dengan program magang terstruktur, magang penting karena:"
+     "id": "Di perusahaan dengan program magang yang terstruktur, magang penting karena:"
     },
     "opts": [
      {
       "en": "They pay better than graduate roles",
-      "id": "Bayarannya lebih baik dari peran lulusan"
+      "id": "Bayarannya lebih baik daripada posisi lulusan baru"
      },
      {
       "en": "A large share of graduate offers goes to returning interns — the internship is a ten-week interview",
-      "id": "Porsi besar tawaran lulusan jatuh ke magang yang kembali — magang adalah wawancara sepuluh minggu"
+      "id": "Sebagian besar tawaran untuk lulusan baru jatuh ke mantan peserta magang — magang adalah wawancara selama sepuluh minggu"
      },
      {
       "en": "They guarantee conversion by contract",
-      "id": "Konversinya dijamin kontrak"
+      "id": "Konversinya dijamin secara kontrak"
      },
      {
       "en": "They look impressive on LinkedIn",
-      "id": "Tampak mengesankan di LinkedIn"
+      "id": "Terlihat mengesankan di LinkedIn"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Ten weeks of observed work replaces the entire noisy screening funnel. A converted internship deletes the graduate-application gauntlet.",
-     "id": "Sepuluh minggu kerja teramati menggantikan seluruh corong penyaringan yang berderau. Magang terkonversi menghapus gauntlet lamaran lulusan."
+     "id": "Sepuluh minggu kerja yang diamati langsung menggantikan seluruh corong penyaringan yang penuh gangguan. Magang yang berujung tawaran menghapus seluruh rangkaian seleksi lulusan baru."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "No internship history, two months until applications open. Highest-leverage move:",
-     "id": "Tanpa riwayat magang, dua bulan sebelum lamaran dibuka. Langkah berdaya ungkit tertinggi:"
+     "id": "Belum pernah magang, dua bulan lagi lamaran dibuka. Langkah dengan daya ungkit tertinggi:"
     },
     "opts": [
      {
       "en": "Collect three online certificates",
-      "id": "Kumpulkan tiga sertifikat daring"
+      "id": "Mengumpulkan tiga sertifikat daring"
      },
      {
       "en": "Complete one self-assigned project with measurable results, written into CV bullets",
-      "id": "Selesaikan satu proyek tugasan-sendiri dengan hasil terukur, ditulis menjadi butir CV"
+      "id": "Menyelesaikan satu proyek atas inisiatif sendiri dengan hasil yang terukur, lalu menuliskannya sebagai butir CV"
      },
      {
       "en": "Perfect the CV template's design",
-      "id": "Sempurnakan desain templat CV"
+      "id": "Menyempurnakan desain templat CV"
      },
      {
       "en": "Network at every event available",
-      "id": "Networking di semua acara yang ada"
+      "id": "Berjejaring di semua acara yang ada"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Screeners buy evidence of work. Certificates say attended; a finished project with numbers says can.",
-     "id": "Penyaring membeli bukti kerja. Sertifikat bilang hadir; proyek selesai berangka bilang bisa."
+     "id": "Penyaring membeli bukti kerja. Sertifikat hanya bilang 'hadir'; proyek yang selesai dengan angka bilang 'bisa'."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "An offer explodes in 7 days; your dream-company process concludes in ~3 weeks. First moves:",
-     "id": "Sebuah tawaran meledak dalam 7 hari; proses perusahaan impianmu selesai ~3 minggu. Langkah pertama:"
+     "id": "Sebuah tawaran harus dijawab dalam 7 hari; proses di perusahaan impianmu baru selesai sekitar 3 minggu lagi. Langkah pertama:"
     },
     "opts": [
      {
       "en": "Accept now, renege later if needed",
-      "id": "Terima sekarang, mundur nanti jika perlu"
+      "id": "Terima sekarang, mundur belakangan kalau perlu"
      },
      {
       "en": "Request an extension honestly AND tell the dream company you hold a deadline — both moves are professional and often work",
-      "id": "Minta perpanjangan dengan jujur DAN beri tahu perusahaan impian kamu memegang tenggat — keduanya profesional dan sering berhasil"
+      "id": "Minta perpanjangan dengan jujur DAN beri tahu perusahaan impianmu bahwa kamu punya tenggat — keduanya profesional, dan sering berhasil"
      },
      {
       "en": "Decline the offer to stay available",
-      "id": "Tolak tawarannya agar tetap tersedia"
+      "id": "Tolak tawarannya supaya tetap bebas"
      },
      {
       "en": "Ignore the deadline and hope",
@@ -593,7 +593,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Final-round candidates trigger real accelerations weekly, and extension requests are routine. Accepting-to-renege burns a network at its most formative moment.",
-     "id": "Kandidat ronde final memicu percepatan sungguhan tiap minggu, dan permintaan perpanjangan itu lazim. Menerima-untuk-mundur membakar jaringan di momen paling formatifnya."
+     "id": "Kandidat di ronde final memicu percepatan proses yang sungguhan setiap minggu, dan permintaan perpanjangan adalah hal yang lazim. Menerima lalu mundur membakar jaringanmu tepat di momen paling menentukannya."
     }
    },
    {
@@ -605,15 +605,15 @@ window.MT_ASSESS['the-pack'] = {
     "opts": [
      {
       "en": "Salary and brand name",
-      "id": "Gaji dan nama merek"
+      "id": "Gaji dan nama besar perusahaan"
      },
      {
       "en": "Fit against your 3-year outcome, and how reversible the choice is",
-      "id": "Kecocokan terhadap hasil 3 tahunmu, dan seberapa terbalikkan pilihannya"
+      "id": "Kecocokan dengan hasil 3 tahunmu, dan seberapa bisa pilihan itu dibatalkan"
      },
      {
       "en": "Parents' preference and peer choices",
-      "id": "Preferensi orang tua dan pilihan teman"
+      "id": "Keinginan orang tua dan pilihan teman-teman"
      },
      {
       "en": "Commute time and office quality",
@@ -623,14 +623,14 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Decide reversible things fast at 70% confidence; give true one-way doors the full matrix. Most graduate agonising is deep deliberation on reversible doors.",
-     "id": "Putuskan hal terbalikkan cepat pada keyakinan 70%; beri pintu satu-arah sejati matriks penuh. Kebanyakan kegalauan lulusan adalah pertimbangan dalam untuk pintu terbalikkan."
+     "id": "Putuskan hal yang bisa dibatalkan dengan cepat, cukup dengan keyakinan 70%; berikan matriks penuh hanya untuk pintu yang benar-benar satu arah. Kebanyakan kegalauan lulusan baru adalah pertimbangan mendalam untuk pintu yang sebenarnya bisa dibatalkan."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "Define your primary target (role family × industry × company stage) and your secondary target. Then write the one-sentence positioning that serves both: for [role family], I bring [evidence], and I'm here because [informed reason].",
-    "id": "Definisikan target utamamu (keluarga peran × industri × tahap perusahaan) dan target sekundermu. Lalu tulis positioning satu kalimat yang melayani keduanya: untuk [keluarga peran], aku membawa [bukti], dan aku di sini karena [alasan terinformasi]."
+    "id": "Tentukan target utamamu (keluarga peran × industri × tahap perusahaan) dan target keduamu. Lalu tulis positioning satu kalimat yang melayani keduanya: untuk [keluarga peran], saya membawa [bukti], dan saya ada di sini karena [alasan yang berdasar]."
    },
    "min": 25
   }
@@ -641,7 +641,7 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "An ATS pipeline runs:",
-     "id": "Pipeline ATS berjalan:"
+     "id": "Alur kerja ATS berjalan:"
     },
     "opts": [
      {
@@ -650,7 +650,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Parse → index → filter (knockouts) → rank → present to a human",
-      "id": "Urai → indeks → saring (gugur) → peringkat → sajikan ke manusia"
+      "id": "Urai → indeks → saring (pertanyaan penggugur) → peringkat → sajikan ke manusia"
      },
      {
       "en": "Scan → delete → shortlist",
@@ -664,23 +664,23 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Most 'ATS rejections' are humans working a machine-ordered list. Your three controllable failure modes: parsing breaks, missing keywords, knockout mismatches.",
-     "id": "Kebanyakan 'penolakan ATS' adalah manusia menggarap daftar terurut mesin. Tiga mode gagal yang kamu kendalikan: parsing rusak, kata kunci hilang, ketidakcocokan gugur."
+     "id": "Kebanyakan 'penolakan ATS' sebenarnya adalah manusia yang bekerja dengan daftar yang sudah diurutkan mesin. Tiga kegagalan yang bisa kamu kendalikan: pembacaan mesin yang kacau, kata kunci yang tidak ada, dan jawaban yang tidak lolos pertanyaan penggugur."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Your beautiful two-column CV gets no portal callbacks; the same content by email does. Prime suspect:",
-     "id": "CV dua kolommu yang indah tak pernah dipanggil lewat portal; konten sama via email berhasil. Tersangka utama:"
+     "id": "CV dua kolommu yang cantik tidak pernah dipanggil lewat portal; konten yang sama lewat email berhasil. Tersangka utama:"
     },
     "opts": [
      {
       "en": "Recruiters resent good design",
-      "id": "Perekrut membenci desain bagus"
+      "id": "Perekrut tidak suka desain yang bagus"
      },
      {
       "en": "The parser scrambles the layout, leaving a garbled structured record",
-      "id": "Parser mengacaukan tata letak, meninggalkan catatan terstruktur yang kacau"
+      "id": "Mesin pembacanya mengacak tata letaknya, sehingga yang tersimpan adalah data yang berantakan"
      },
      {
       "en": "Portals lose applications randomly",
@@ -688,50 +688,50 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Email always outranks portals",
-      "id": "Email selalu mengungguli portal"
+      "id": "Email selalu lebih unggul daripada portal"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Same content, different channel, different outcome isolates the variable. The copy-paste parse test catches it in one minute: single column, standard headings, real text.",
-     "id": "Konten sama, kanal beda, hasil beda mengisolasi variabelnya. Uji parse salin-tempel menangkapnya dalam satu menit: satu kolom, judul standar, teks sungguhan."
+     "id": "Konten sama, kanal berbeda, hasil berbeda — itu mengisolasi variabelnya. Uji salin-tempel menangkapnya dalam satu menit: satu kolom, judul bagian yang standar, teks sungguhan."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "A JD lists 'minimum GPA 3.25' and 'Tableau preferred'. You hold 3.4 and no Tableau:",
-     "id": "JD mencantumkan 'IPK minimum 3,25' dan 'Tableau diutamakan'. Kamu punya 3,4 dan tanpa Tableau:"
+     "id": "Deskripsi lowongan mencantumkan 'IPK minimum 3,25' dan 'menguasai Tableau lebih diutamakan'. IPK-mu 3,4 dan kamu belum bisa Tableau:"
     },
     "opts": [
      {
       "en": "Skip — every listed item is required",
-      "id": "Lewati — semua yang tercantum wajib"
+      "id": "Lewati — semua yang tercantum berarti wajib"
      },
      {
       "en": "Apply — the must is met; 'preferred' is a ranking weight your other evidence can compensate",
-      "id": "Lamar — yang wajib terpenuhi; 'diutamakan' adalah bobot peringkat yang bisa dikompensasi bukti lainmu"
+      "id": "Lamar — syarat wajibnya terpenuhi; 'lebih diutamakan' hanya bobot peringkat yang bisa ditutup oleh bukti-buktimu yang lain"
      },
      {
       "en": "Apply and add Tableau to skills to be safe",
-      "id": "Lamar dan tambahkan Tableau ke keterampilan biar aman"
+      "id": "Lamar, dan tambahkan Tableau di daftar keterampilan supaya aman"
      },
      {
       "en": "Email the recruiter asking for an exception",
-      "id": "Email perekrut meminta pengecualian"
+      "id": "Email perekrut untuk meminta pengecualian"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Requirement literacy: numeric musts are configured knockouts; soft language is weights. Pasting the keyword without substance dies at the first technical probe.",
-     "id": "Melek persyaratan: wajib berangka adalah gugur terkonfigurasi; bahasa lunak adalah bobot. Menempel kata kunci tanpa substansi mati di gali teknis pertama."
+     "id": "Melek persyaratan: syarat wajib yang berupa angka adalah pertanyaan penggugur yang sudah diatur di sistem; bahasa yang lunak adalah bobot. Menempelkan kata kunci tanpa substansi akan terbongkar di pertanyaan teknis pertama."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Your CV, LinkedIn and application form show three different internship titles for the same role. The risk:",
-     "id": "CV, LinkedIn, dan formulir lamaranmu menunjukkan tiga judul magang berbeda untuk peran sama. Risikonya:"
+     "id": "CV, LinkedIn, dan formulir lamaranmu menampilkan tiga judul magang yang berbeda untuk peran yang sama. Risikonya:"
     },
     "opts": [
      {
@@ -740,21 +740,21 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Cross-checks read mismatches as carelessness at best, dishonesty at worst — one master record should feed every document",
-      "id": "Pemeriksaan silang membaca ketidakcocokan sebagai kecerobohan paling ringan, ketidakjujuran paling berat — satu catatan induk harus mengisi semua dokumen"
+      "id": "Pemeriksaan silang membaca ketidakcocokan paling ringan sebagai kecerobohan, paling berat sebagai ketidakjujuran — satu catatan induk seharusnya menjadi sumber semua dokumen"
      },
      {
       "en": "Only spelling errors matter",
-      "id": "Hanya salah eja yang penting"
+      "id": "Hanya salah eja yang berpengaruh"
      },
      {
       "en": "Recruiters never compare documents",
-      "id": "Perekrut tak pernah membandingkan dokumen"
+      "id": "Perekrut tidak pernah membandingkan dokumen"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Consistency by architecture beats consistency by discipline: no document states a fact except by copying from the master record.",
-     "id": "Konsistensi lewat arsitektur mengalahkan konsistensi lewat disiplin: tak ada dokumen menyatakan fakta kecuali menyalin dari catatan induk."
+     "id": "Konsistensi lewat sistem mengalahkan konsistensi lewat disiplin: tidak ada dokumen yang menyatakan sebuah fakta kecuali dengan menyalinnya dari catatan induk."
     }
    }
   ],
@@ -766,7 +766,7 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "Case interviews score four dimensions:",
-     "id": "Wawancara kasus menskor empat dimensi:"
+     "id": "Wawancara kasus menilai empat dimensi:"
     },
     "opts": [
      {
@@ -775,7 +775,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Structure, numeracy, judgment, communication",
-      "id": "Struktur, numerasi, penilaian, komunikasi"
+      "id": "Struktur, kemampuan berhitung, pertimbangan, komunikasi"
      },
      {
       "en": "Industry knowledge, frameworks, math, style",
@@ -789,44 +789,44 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "All four are marked continuously — which means every minute offers recovery: a caught, cleanly corrected error often outscores an unremarkable clean run.",
-     "id": "Keempatnya dinilai terus-menerus — artinya tiap menit menawarkan pemulihan: kesalahan yang tertangkap dan dikoreksi bersih sering mengungguli jalan mulus yang biasa saja."
+     "id": "Keempatnya dinilai terus-menerus — artinya setiap menit memberi kesempatan untuk pulih: kesalahan yang kamu tangkap sendiri dan koreksi dengan rapi sering mendapat nilai lebih tinggi daripada jalan mulus yang biasa-biasa saja."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "Mid-case you notice your revenue estimate double-counted a segment. You:",
-     "id": "Di tengah kasus kamu sadar estimasi pendapatanmu menghitung ganda satu segmen. Kamu:"
+     "id": "Di tengah kasus, kamu sadar estimasi pendapatanmu menghitung satu segmen dua kali. Yang kamu lakukan:"
     },
     "opts": [
      {
       "en": "Continue — changing numbers looks weak",
-      "id": "Lanjutkan — mengubah angka tampak lemah"
+      "id": "Lanjutkan — mengubah angka terlihat lemah"
      },
      {
       "en": "Flag it, correct it aloud, carry the fixed number forward",
-      "id": "Tandai, koreksi bersuara, bawa angka yang diperbaiki ke depan"
+      "id": "Sebutkan, koreksi dengan suara lantang, lalu bawa angka yang sudah diperbaiki ke langkah berikutnya"
      },
      {
       "en": "Restart the case from the structure",
-      "id": "Ulangi kasus dari strukturnya"
+      "id": "Ulangi kasusnya dari struktur"
      },
      {
       "en": "Hope the interviewer missed it",
-      "id": "Berharap pewawancara tak menyadarinya"
+      "id": "Berharap pewawancara tidak menyadarinya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Self-caught corrections score as judgment and composure. Hidden errors compound and surface later as worse ones.",
-     "id": "Koreksi yang tertangkap sendiri dinilai sebagai penilaian dan ketenangan. Kesalahan tersembunyi menggandakan diri dan muncul kemudian lebih buruk."
+     "id": "Koreksi yang kamu tangkap sendiri dinilai sebagai pertimbangan dan ketenangan. Kesalahan yang disembunyikan akan merambat dan muncul belakangan sebagai kesalahan yang lebih parah."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Every market sizing decomposes as:",
-     "id": "Setiap penaksiran pasar terurai sebagai:"
+     "id": "Setiap penaksiran ukuran pasar diuraikan sebagai:"
     },
     "opts": [
      {
@@ -835,7 +835,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Population × applicable share × frequency × value, with assumptions spoken aloud",
-      "id": "Populasi × porsi berlaku × frekuensi × nilai, dengan asumsi diucapkan"
+      "id": "Populasi × porsi yang relevan × frekuensi × nilai, dengan asumsi yang diucapkan secara terbuka"
      },
      {
       "en": "Revenue ÷ market share",
@@ -849,14 +849,14 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Exact answers do not exist; auditable answers win. Spoken assumptions can be corrected — hidden ones make the number a guess.",
-     "id": "Jawaban persis tak ada; jawaban terauditkan menang. Asumsi terucap bisa dikoreksi — yang tersembunyi menjadikan angka itu tebakan."
+     "id": "Jawaban yang persis tidak ada; jawaban yang bisa diaudit yang menang. Asumsi yang diucapkan bisa dikoreksi — asumsi yang disembunyikan membuat angkamu sekadar tebakan."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "You need 30 seconds to organise your structure. The strong move:",
-     "id": "Kamu butuh 30 detik merapikan struktur. Langkah kuatnya:"
+     "id": "Kamu butuh 30 detik untuk merapikan strukturmu. Langkah yang kuat:"
     },
     "opts": [
      {
@@ -865,7 +865,7 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Ask for the time explicitly, take it silently, return organised",
-      "id": "Minta waktunya eksplisit, ambil dalam hening, kembali dengan rapi"
+      "id": "Minta waktunya secara eksplisit, pakai dalam diam, lalu kembali dengan struktur yang rapi"
      },
      {
       "en": "Skip structure and start with the first idea",
@@ -879,7 +879,7 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Requested thinking time reads as discipline; unrequested silence reads as drowning; babble reads as chaos. The request converts the same seconds into strength.",
-     "id": "Waktu berpikir yang diminta terbaca disiplin; hening tanpa izin terbaca tenggelam; ocehan terbaca kacau. Permintaan mengubah detik yang sama menjadi kekuatan."
+     "id": "Waktu berpikir yang diminta terbaca sebagai disiplin; diam tanpa izin terbaca seperti tenggelam; mengoceh terbaca sebagai kekacauan. Permintaan itu mengubah detik-detik yang sama menjadi kekuatan."
     }
    }
   ],
@@ -891,37 +891,37 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "The ownership rule for AI-assisted applications states:",
-     "id": "Aturan kepemilikan untuk lamaran berbantuan AI menyatakan:"
+     "id": "Aturan kepemilikan untuk lamaran yang dibantu AI menyatakan:"
     },
     "opts": [
      {
       "en": "AI output can be submitted as-is if it reads well",
-      "id": "Keluaran AI boleh dikirim apa adanya jika terbaca baik"
+      "id": "Keluaran AI boleh dikirim apa adanya kalau sudah enak dibaca"
      },
      {
       "en": "Facts flow only from you to the tool; every output is edited and verified before your name signs it",
-      "id": "Fakta mengalir hanya darimu ke alat; tiap keluaran disunting dan diverifikasi sebelum namamu menandatanganinya"
+      "id": "Fakta hanya mengalir darimu ke alat; setiap keluaran disunting dan diverifikasi sebelum namamu tercantum di bawahnya"
      },
      {
       "en": "AI use must always be disclosed everywhere",
-      "id": "Pemakaian AI harus selalu diungkap di mana pun"
+      "id": "Penggunaan AI harus selalu diungkapkan di mana pun"
      },
      {
       "en": "Only paid AI tools are trustworthy",
-      "id": "Hanya alat AI berbayar yang tepercaya"
+      "id": "Hanya alat AI berbayar yang bisa dipercaya"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The AI never introduces an achievement, number or title you did not give it. Everything submitted under your name is your claim — the honesty rule unchanged.",
-     "id": "AI tak pernah memperkenalkan prestasi, angka, atau jabatan yang tak kamu berikan. Semua yang dikirim atas namamu adalah klaimmu — aturan kejujuran tak berubah."
+     "id": "AI tidak pernah boleh menambahkan prestasi, angka, atau jabatan yang tidak kamu berikan. Semua yang dikirim atas namamu adalah klaimmu — aturan kejujurannya tidak berubah."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "An AI rewrite upgraded 'tracked expenses in a spreadsheet' to 'managed a Rp 50m budget'. You:",
-     "id": "Penulisan ulang AI menaikkan 'mencatat pengeluaran di spreadsheet' menjadi 'mengelola anggaran Rp 50 jt'. Kamu:"
+     "id": "Hasil tulis ulang AI menaikkan 'mencatat pengeluaran di spreadsheet' menjadi 'mengelola anggaran Rp 50 juta'. Yang kamu lakukan:"
     },
     "opts": [
      {
@@ -930,37 +930,37 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Delete the hallucinated authority and restate the true scope: 'tracked Rp 50m of project expenses'",
-      "id": "Hapus otoritas halusinasinya dan nyatakan lingkup sebenarnya: 'mencatat pengeluaran proyek Rp 50 jt'"
+      "id": "Hapus wewenang yang dikarang itu dan tulis lingkup yang sebenarnya: 'mencatat pengeluaran proyek senilai Rp 50 juta'"
      },
      {
       "en": "Keep it but prepare an interview explanation",
-      "id": "Pertahankan tapi siapkan penjelasan wawancara"
+      "id": "Pertahankan, tapi siapkan penjelasannya untuk wawancara"
      },
      {
       "en": "Remove the line entirely to be safe",
-      "id": "Hapus barisnya sepenuhnya biar aman"
+      "id": "Hapus barisnya sama sekali supaya aman"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "'Managed' claims authority you did not hold — one reference check from disqualification. The true version, precisely framed, is still a strong line.",
-     "id": "'Mengelola' mengklaim wewenang yang tak kamu pegang — satu pemeriksaan referensi dari diskualifikasi. Versi benar, dibingkai presisi, tetap baris kuat."
+     "id": "'Mengelola' mengklaim wewenang yang tidak pernah kamu pegang — satu pemeriksaan referensi saja cukup untuk menggugurkanmu. Versi yang benar, dibingkai dengan tepat, tetap menjadi baris yang kuat."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "Commercial 'ATS compatibility scores' should be read as:",
-     "id": "'Skor kompatibilitas ATS' komersial harus dibaca sebagai:"
+     "id": "'Skor kompatibilitas ATS' dari alat komersial sebaiknya dibaca sebagai:"
     },
     "opts": [
      {
       "en": "Precise predictions of your outcome",
-      "id": "Prediksi presisi atas hasilmu"
+      "id": "Prediksi yang tepat tentang hasilmu"
      },
      {
       "en": "Directional linting against a generic model — no tool knows any employer's actual configuration",
-      "id": "Linting arah terhadap model generik — tak ada alat yang tahu konfigurasi aktual pemberi kerja mana pun"
+      "id": "Pemeriksaan arah terhadap model generik — tidak ada alat yang tahu konfigurasi sebenarnya di perusahaan mana pun"
      },
      {
       "en": "Marketing with zero information",
@@ -968,43 +968,43 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "Official industry certifications",
-      "id": "Sertifikasi resmi industri"
+      "id": "Sertifikasi resmi dari industri"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "They check parsing hygiene and keyword overlap — useful direction. '87% match' against an unknown configuration is an estimate, not a promise.",
-     "id": "Mereka memeriksa higiene parsing dan tumpang tindih kata kunci — arah yang berguna. '87% cocok' terhadap konfigurasi tak dikenal adalah taksiran, bukan janji."
+     "id": "Alat-alat itu memeriksa kebersihan pembacaan mesin dan tumpang tindih kata kunci — arah yang berguna. '87% cocok' terhadap konfigurasi yang tidak diketahui adalah taksiran, bukan janji."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "An AI research brief says the company 'recently expanded to Vietnam'. Before citing it in your letter:",
-     "id": "Brief riset AI menyebut perusahaan 'baru berekspansi ke Vietnam'. Sebelum mengutip di suratmu:"
+     "id": "Ringkasan riset dari AI menyebut perusahaan itu 'baru saja berekspansi ke Vietnam'. Sebelum mengutipnya di suratmu:"
     },
     "opts": [
      {
       "en": "Cite it — AI research is usually right",
-      "id": "Kutip — riset AI biasanya benar"
+      "id": "Kutip saja — riset AI biasanya benar"
      },
      {
       "en": "Verify at the source; cite only what you confirmed",
-      "id": "Verifikasi di sumbernya; kutip hanya yang kamu konfirmasi"
+      "id": "Verifikasi ke sumbernya; kutip hanya yang sudah kamu pastikan"
      },
      {
       "en": "Soften it to 'I heard you may be expanding'",
-      "id": "Perlunak menjadi 'saya dengar Anda mungkin berekspansi'"
+      "id": "Lunakkan menjadi 'saya dengar perusahaan Bapak/Ibu mungkin sedang berekspansi'"
      },
      {
       "en": "Ask the AI to double-check itself",
-      "id": "Minta AI memeriksa ulang dirinya"
+      "id": "Minta AI memeriksa ulang jawabannya sendiri"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "One hallucinated fact in a letter reveals unchecked delegation and sinks the application. The AI drew the map; the sources are the territory.",
-     "id": "Satu fakta halusinasi dalam surat membongkar delegasi tanpa periksa dan menenggelamkan lamaran. AI menggambar peta; sumber adalah wilayahnya."
+     "id": "Satu fakta karangan dalam surat lamaran membongkar bahwa kamu mendelegasikan tanpa memeriksa, dan itu menenggelamkan lamaranmu. AI menggambar petanya; sumber aslinya adalah wilayah yang sebenarnya."
     }
    }
   ],
@@ -1016,50 +1016,50 @@ window.MT_ASSESS['the-pack'] = {
     "type": "know",
     "q": {
      "en": "Treatment of the scheduling coordinator weighs heavily because:",
-     "id": "Perlakuan pada koordinator jadwal berbobot berat karena:"
+     "id": "Cara kamu memperlakukan koordinator jadwal punya bobot besar karena:"
     },
     "opts": [
      {
       "en": "Coordinators make the final decision",
-      "id": "Koordinator membuat keputusan final"
+      "id": "Koordinator yang membuat keputusan akhir"
      },
      {
       "en": "It is an uncoached, low-noise sample of character — nobody performs for the coordinator",
-      "id": "Ia sampel karakter tanpa latihan dan rendah derau — tak ada yang berakting untuk koordinator"
+      "id": "Itu contoh karakter yang tidak dilatih dan minim gangguan — tidak ada yang berakting di depan koordinator"
      },
      {
       "en": "It is a formally scored stage",
-      "id": "Ia tahap yang diskor resmi"
+      "id": "Itu tahap yang dinilai secara resmi"
      },
      {
       "en": "Coordinators file complaints to HR",
-      "id": "Koordinator melapor ke HR"
+      "id": "Koordinator melaporkan keluhan ke HR"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "Interview answers are rehearsed; corridor behaviour is not. Assessors weight unrehearsed signals precisely because they are unrehearsed.",
-     "id": "Jawaban wawancara dilatih; perilaku koridor tidak. Asesor membobot sinyal tak terlatih justru karena tak terlatih."
+     "id": "Jawaban wawancara sudah dilatih; perilaku di lorong tidak. Asesor memberi bobot pada sinyal yang tidak dilatih justru karena tidak dilatih."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "A recruiter calls unannounced while you're on a noisy bus. Best move:",
-     "id": "Perekrut menelepon mendadak saat kamu di bus bising. Langkah terbaik:"
+     "id": "Perekrut menelepon tanpa pemberitahuan saat kamu di dalam bus yang bising. Langkah terbaik:"
     },
     "opts": [
      {
       "en": "Push through the call — availability shows enthusiasm",
-      "id": "Paksakan panggilannya — ketersediaan menunjukkan antusiasme"
+      "id": "Paksakan teleponnya — kesediaan menunjukkan antusiasme"
      },
      {
       "en": "Answer briefly, express gladness, ask to call back in ten minutes from a quiet place",
-      "id": "Jawab singkat, sampaikan senang, minta menelepon balik sepuluh menit lagi dari tempat tenang"
+      "id": "Angkat sebentar, sampaikan bahwa kamu senang dihubungi, lalu minta menelepon balik sepuluh menit lagi dari tempat yang tenang"
      },
      {
       "en": "Decline and email an apology tonight",
-      "id": "Tolak dan kirim email maaf malam ini"
+      "id": "Tolak, lalu kirim email permintaan maaf malam ini"
      },
      {
       "en": "Let it ring and call back tomorrow",
@@ -1069,53 +1069,53 @@ window.MT_ASSESS['the-pack'] = {
     "correct": 1,
     "expl": {
      "en": "Composure over immediacy: the callback request is standard professional behaviour and buys a prepared, audible conversation.",
-     "id": "Ketenangan di atas kesegeraan: permintaan telepon balik adalah perilaku profesional standar dan membeli percakapan yang siap dan terdengar."
+     "id": "Ketenangan lebih penting daripada kesegeraan: meminta menelepon balik adalah perilaku profesional yang standar, dan memberimu percakapan yang siap dan bisa didengar dengan jelas."
     }
    },
    {
     "type": "scen",
     "q": {
      "en": "You sent 'this briefing is so boring 😭' to the team group by mistake. The repair:",
-     "id": "Kamu salah kirim 'briefing ini membosankan banget 😭' ke grup tim. Perbaikannya:"
+     "id": "Kamu salah kirim 'briefing ini membosankan banget 😭' ke grup tim. Cara memperbaikinya:"
     },
     "opts": [
      {
       "en": "Delete and never mention it",
-      "id": "Hapus dan jangan pernah menyebutnya"
+      "id": "Hapus dan jangan pernah menyinggungnya"
      },
      {
       "en": "One brief public ownership, one private line to the supervisor, then visibly engaged work — no spiral, no cover story",
-      "id": "Satu pengakuan publik singkat, satu baris pribadi ke supervisor, lalu kerja yang tampak terlibat — tanpa spiral, tanpa cerita karangan"
+      "id": "Satu pengakuan singkat di grup, satu pesan pribadi ke atasan, lalu bekerja dengan keterlibatan yang terlihat — tanpa berlarut-larut, tanpa cerita karangan"
      },
      {
       "en": "Claim your account was borrowed",
-      "id": "Klaim akunmu dipinjam orang"
+      "id": "Bilang akunmu dipinjam orang lain"
      },
      {
       "en": "Apologise repeatedly for a week",
-      "id": "Minta maaf berulang selama seminggu"
+      "id": "Minta maaf berulang-ulang selama seminggu"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The error is survivable; the cover-up or the apology spiral converts a slip into a character verdict. Professionals are graded on how cleanly they repair.",
-     "id": "Kesalahannya bisa diselamatkan; penutupan atau spiral maaf mengubah keseleo menjadi vonis karakter. Profesional dinilai dari seberapa bersih memperbaiki."
+     "id": "Kesalahannya bisa dilewati; menutup-nutupi atau minta maaf berlarut-larut justru mengubah satu keteledoran menjadi vonis atas karaktermu. Profesional dinilai dari seberapa bersih ia memperbaiki kesalahan."
     }
    },
    {
     "type": "know",
     "q": {
      "en": "After a rejection, the professional reply:",
-     "id": "Setelah penolakan, balasan profesionalnya:"
+     "id": "Setelah ditolak, balasan yang profesional adalah:"
     },
     "opts": [
      {
       "en": "None — the process is over",
-      "id": "Tidak ada — prosesnya selesai"
+      "id": "Tidak perlu — prosesnya sudah selesai"
      },
      {
       "en": "One gracious note: thanks, a light feedback ask, door left open — recruiters shortlist people like you for the next role",
-      "id": "Satu pesan anggun: terima kasih, permintaan umpan balik ringan, pintu dibiarkan terbuka — perekrut memasukkan orang sepertimu ke daftar pendek peran berikutnya"
+      "id": "Satu pesan yang santun: ucapan terima kasih, permintaan masukan yang ringan, dan pintu tetap dibiarkan terbuka — perekrut menyimpan nama orang seperti ini untuk lowongan berikutnya"
      },
      {
       "en": "A request for detailed scoring",
@@ -1123,20 +1123,20 @@ window.MT_ASSESS['the-pack'] = {
      },
      {
       "en": "A complaint if you felt qualified",
-      "id": "Keluhan jika kamu merasa memenuhi syarat"
+      "id": "Keluhan, kalau kamu merasa memenuhi syarat"
      }
     ],
     "correct": 1,
     "expl": {
      "en": "The database remembers, and recruiters move between companies. The rejection reply is a deposit in a network at its cheapest price.",
-     "id": "Basis data mengingat, dan perekrut berpindah perusahaan. Balasan penolakan adalah setoran jaringan pada harga termurahnya."
+     "id": "Basis data punya ingatan, dan perekrut berpindah-pindah perusahaan. Balasan atas penolakan adalah setoran ke jaringanmu dengan harga paling murah."
     }
    }
   ],
   "reflect": {
    "prompt": {
     "en": "Recall one moment this year when you handled a professional interaction worse than you wished — a message, a call, a conflict. Rewrite how you would run it now, using the module's defaults, in 4–6 sentences.",
-    "id": "Ingat satu momen tahun ini saat kamu menangani interaksi profesional lebih buruk dari harapanmu — pesan, panggilan, konflik. Tulis ulang caramu menjalankannya sekarang, memakai bawaan modul ini, dalam 4–6 kalimat."
+    "id": "Ingat satu momen tahun ini ketika kamu menangani interaksi profesional lebih buruk dari yang kamu harapkan — sebuah pesan, telepon, atau konflik. Tulis ulang bagaimana kamu akan menjalankannya sekarang, memakai aturan-aturan dasar modul ini, dalam 4–6 kalimat."
    },
    "min": 25
   }
