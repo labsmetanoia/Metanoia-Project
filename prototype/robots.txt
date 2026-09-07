@@ -1,9 +1,6 @@
 User-agent: *
-Disallow: /portal.html
-Disallow: /demo.html
-Disallow: /pages/products/
-Disallow: /settings.html
-Disallow: /purchases.html
+Disallow: /portal
+Disallow: /demo
 Allow: /
 
 Sitemap: https://metanoialabs.net/sitemap.xml

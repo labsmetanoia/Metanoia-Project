@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0;url=../the-map/#/home">
-<link rel="canonical" href="../the-map/">
+<meta http-equiv="refresh" content="0;url=../the-map/range/">
+<link rel="canonical" href="https://metanoialabs.net/products/the-map/range/">
+<meta name="robots" content="noindex">
 <title>Moved — Metanoia Labs</title>
 <script>
-/* Preserve deep links: /products/the-range/#/opp/x → /products/the-map/#/opp/x */
+/* The Range now lives in two places: the crawlable company directory at
+   /products/the-map/range/ and the interactive explorer inside The Map.
+   Deep links keep working: /products/the-range/#/opp/x → /products/the-map/#/opp/x */
 try {
-  var h = location.hash && location.hash.indexOf('#/') === 0 ? location.hash : '#/home';
-  location.replace('../the-map/' + h);
+  var h = location.hash && location.hash.indexOf('#/') === 0 ? location.hash : '';
+  location.replace(h ? '../the-map/' + h : '../the-map/range/');
 } catch (e) {}
 </script>
 </head>
 <body style="background:#06090F;color:#E8EAED;font-family:system-ui;display:flex;align-items:center;justify-content:center;min-height:100vh">
-<p>The Range is now part of <a href="../the-map/#/home" style="color:#C9A84C">The Map</a>.</p>
-<script src="../../js/mob-footer.js"></script>
+<p>The Range is now <a href="../the-map/range/" style="color:#C9A84C">the company directory</a> and part of <a href="../the-map/#/home" style="color:#C9A84C">The Map</a>.</p>
 </body>
 </html>

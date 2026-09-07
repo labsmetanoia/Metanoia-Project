@@ -44,7 +44,7 @@
     });
   });
 
-  /* ── state: identity (migrated from The Lookout) + possibilities ── */
+  /* ── state: identity (migrated from the retired explorer) + possibilities ── */
   var IKEY = 'mt-range-identity', PKEY = 'mt-range-possibilities';
   function loadId() {
     try {
@@ -63,7 +63,7 @@
       topValues: [], constraints: [], dismissed: [], statement: null };
   }
   /* Backfill every field a stored identity might predate — older schemas
-     (The Lookout, earlier Range rounds) lack keys like quick/b5/prefFunctions,
+     (the retired explorer, earlier Range rounds) lack keys like quick/b5/prefFunctions,
      and one missing object turned every questionnaire click into a silent
      TypeError. Normalising against freshId() makes old profiles safe forever. */
   function normId(v) {
@@ -1291,7 +1291,8 @@
       '</div>' +
       '<p class="note3" style="margin-bottom:14px">' + cos.length + ' ' + t('companies', 'perusahaan') + ' · ' +
       totalRoles + ' ' + t('explorable roles', 'peran yang bisa dijelajahi') +
-      (hasId ? '' : ' · ' + t('add your identity for eligibility signals', 'tambahkan identitasmu untuk sinyal kelayakan')) + '</p>' +
+      (hasId ? '' : ' · ' + t('add your identity for eligibility signals', 'tambahkan identitasmu untuk sinyal kelayakan')) +
+      ' · <a href="range/" style="color:var(--r-explore)">' + t('company directory — every company on its own page', 'direktori perusahaan — tiap perusahaan punya halamannya sendiri') + ' →</a></p>' +
       '<div class="grid2">' + page.map(coCard).join('') + '</div>' +
       (cos.length > XF.limit ?
         '<div style="text-align:center;margin-top:22px"><button class="btn-s" id="xMore">' +
