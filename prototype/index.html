@@ -971,10 +971,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 /* Film-off devices (small screens, slow links, save-data, reduced motion):
    no backdrop blur, no infinite ambient animation — the stills and the
    static gradients carry the page, and paint cost drops with them. */
-html[data-video="off"] *{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
-html[data-video="off"] .haze,html[data-video="off"] .bloom{display:none!important}
-html[data-video="off"] .frame img,html[data-video="off"] .frame .still,html[data-video="off"] .kb{animation:none!important}
-html[data-video="off"] [style*="routeDrift"],html[data-video="off"] .labs,html[data-video="off"] .brand{animation-iteration-count:1!important}
+html[data-calm="on"] *{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+html[data-calm="on"] .haze,html[data-calm="on"] .bloom{display:none!important}
+html[data-calm="on"] .frame img,html[data-calm="on"] .frame .still,html[data-calm="on"] .frame video,html[data-calm="on"] .kb{animation:none!important}
+html[data-calm="on"] [style*="routeDrift"],html[data-calm="on"] .labs,html[data-calm="on"] .brand{animation-iteration-count:1!important}
 </style>
 <style id="contrastFixCss">
 /* ═══ Readability layer — per-scene cinematic grades, both themes ═══
@@ -1630,7 +1630,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <!-- SCENE 1 · THE CALL -->
   <section class="sceneCard" id="call">
     <div class="frame">
-      <video muted loop playsinline preload="none" data-scene-video><source src="assets/01-call-v2.mp4" type="video/mp4"></video>
+      <video muted loop playsinline preload="none" data-scene-video data-m-src="assets/m/video/01-call-v2-m.mp4" data-m-poster="assets/m/video/01-call-v2-m.jpg"><source src="assets/01-call-v2.mp4" type="video/mp4"></video>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -2362,12 +2362,27 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   let SEG=0, mobile=false;
   // Connection-aware film policy: posters only on save-data, slow links,
   // reduced motion, or screens under 768px — the scene stills carry the page.
-  const NO_FILM=(()=>{ try{
+  const NARROW=window.innerWidth<768;
+  const SLOW=(()=>{ try{
     const c=navigator.connection||navigator.mozConnection||navigator.webkitConnection||{};
-    const slow=!!c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||c.effectiveType==='3g'||(typeof c.downlink==='number'&&c.downlink>0&&c.downlink<1.2);
-    return slow||reduce||window.innerWidth<768;
-  }catch(e){ return window.innerWidth<768; } })();
+    return !!c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||(!NARROW&&(c.effectiveType==='3g'||(typeof c.downlink==='number'&&c.downlink>0&&c.downlink<1.2)));
+  }catch(e){ return false; } })();
+  // No film at all on save-data, 2G or reduced motion. Small screens keep the
+  // calm treatment (no blur, no ambient animation) but play the opening scene
+  // from its purpose-built 540×960 mobile derivative, swapped in below.
+  const NO_FILM=SLOW||reduce;
   document.documentElement.setAttribute('data-video', NO_FILM?'off':'on');
+  document.documentElement.setAttribute('data-calm', (NO_FILM||NARROW)?'on':'off');
+  if(NARROW){
+    document.querySelectorAll('video[data-m-src]').forEach(v=>{
+      // the 540×960 poster (≈45 KB) is the film's own first frame: show it at
+      // once, graded like footage, so the film takes over without a cut —
+      // and it is all a save-data / reduced-motion visitor ever downloads
+      v.querySelectorAll('source').forEach(s=>s.remove());
+      if(v.dataset.mPoster){ v.poster=v.dataset.mPoster; const fr=v.closest('.frame'); if(fr) fr.classList.add('has-video'); }
+      if(!NO_FILM) v.src=v.dataset.mSrc;
+    });
+  }
   function layout(){
     const was=mobile;
     mobile = matchMedia('(max-width:760px)').matches;
@@ -2577,7 +2592,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   function frame(t){
     // Film-off devices get a calmer loop: ~12 fps is invisible on a static
     // backdrop and cuts main-thread time by ~80% on a mid-range phone.
-    if(NO_FILM && t-lastDraw<80){ requestAnimationFrame(frame); return; }
+    if((NO_FILM||NARROW) && t-lastDraw<80){ requestAnimationFrame(frame); return; }
     lastDraw=t;
     const dt=Math.min((t-last)/1000,.05); last=t;
     cur+=(target-cur)*(reduce?1:Math.min(1,dt*4.2));   // inertial camera
