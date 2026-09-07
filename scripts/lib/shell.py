@@ -267,6 +267,7 @@ def render(page):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800&family=Playfair+Display:wght@600&display=swap" media="print" onload="this.media='all'">
 <style>{CSS}{page.get('extra_css', '')}</style>
+<link rel="stylesheet" href="/css/site-ui.css">
 {page.get('extra_head', '')}</head>
 <body>
 <header class="topbar" role="banner">

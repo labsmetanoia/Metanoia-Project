@@ -21,6 +21,8 @@ with open(os.path.join(ROOT, 'data', 'routes.json'), encoding='utf-8') as f:
 fail = 0
 titles = {}
 for r in routes:
+    if r.get('exclude'):
+        continue
     rel = r['file'].replace('prototype/', '', 1)
     p = os.path.join(ROOT, rel)
     if not os.path.exists(p):
