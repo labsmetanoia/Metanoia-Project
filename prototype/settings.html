@@ -36,8 +36,8 @@
 <title>Settings — Metanoia Labs</title>
 <link rel="canonical" href="https://metanoialabs.net/settings">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
   --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
   --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
@@ -227,17 +227,17 @@ const PANELS = {
     '<button class="btn btn-primary save-btn" style="margin-top:0.5rem">' + L('Save Preferences', 'Simpan Preferensi') + '</button>',
   privacy: () => '<h2>' + L('Privacy &amp; Data', 'Privasi &amp; Data') + '</h2><p class="ph-sub">' + L('Your climb, your data. Always yours.', 'Pendakianmu, datamu. Selalu milikmu.') + '</p>' +
     '<p style="font-size:var(--text-sm);color:var(--text-muted);line-height:1.625;margin-bottom:1.5rem">' +
-    L("We store your data securely and never sell it to third parties. Your Compass data lives in your browser's local storage and is never deleted on subscription lapse. We are building Metanoia to comply with applicable data-protection law, including Indonesia\u2019s PDP Law (UU 27/2022).",
-      'Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Data Compass-mu tersimpan di penyimpanan lokal perambanmu dan tidak pernah dihapus saat langganan berakhir. Kami membangun Metanoia untuk mematuhi hukum pelindungan data yang berlaku, termasuk UU PDP Indonesia (UU 27/2022).') + '</p>' +
+    L("We store your data securely and never sell it to third parties. Today your Compass and course data lives in this browser's local storage — export downloads all of it as one JSON file, and delete removes every Metanoia record from this browser and signs you out. We are building Metanoia to comply with Indonesia\u2019s Personal Data Protection Law (UU 27/2022). Our <a href='legal/privacy'>privacy notice</a> explains what we collect, why, and how to exercise your rights.",
+      "Kami menyimpan datamu dengan aman dan tidak pernah menjualnya ke pihak ketiga. Saat ini data Compass dan kursusmu tersimpan di penyimpanan lokal peramban ini — ekspor mengunduh semuanya sebagai satu berkas JSON, dan hapus membersihkan setiap catatan Metanoia dari peramban ini lalu mengeluarkanmu. Kami membangun Metanoia untuk mematuhi Undang-Undang Pelindungan Data Pribadi Indonesia (UU 27/2022). <a href='legal/privacy'>Pemberitahuan privasi</a> kami menjelaskan apa yang kami kumpulkan, mengapa, dan bagaimana menggunakan hak-hakmu.") + '</p>' +
     '<div style="display:flex;gap:0.75rem;flex-wrap:wrap"><button class="btn btn-secondary" id="export-btn">' + L('Export my data', 'Ekspor data saya') + '</button>' +
-    '<button class="btn btn-destructive" id="delete-btn">' + L('Delete my account', 'Hapus akun saya') + '</button></div>',
+    '<button class="btn btn-destructive" id="delete-btn">' + L('Delete my data from this browser', 'Hapus data saya dari peramban ini') + '</button></div>',
   subscription: () => {
     const tier = (() => { try { return sessionStorage.getItem('metanoia_compass_tier') || 'free'; } catch (e) { return 'free'; } })();
     return '<h2>' + L('Subscription', 'Langganan') + '</h2><p class="ph-sub">' + L('Your current plan and what it unlocks.', 'Paket saat ini dan apa yang dibukanya.') + '</p>' +
     '<div class="f-group"><label class="f-label">' + L('Current plan', 'Paket saat ini') + '</label>' +
-    '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'The Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Learning Access (free)', 'Akses Belajar (gratis)')) + '</div></div>' +
-    '<p class="note">' + L('The Compass unlocks unlimited routes, the full Waypoints chart, and the complete Navigation Briefing. Your data is never deleted if a subscription lapses.',
-      'The Compass membuka rute tanpa batas, peta Waypoints lengkap, dan Briefing Navigasi menyeluruh. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
+    '<div style="font-size:var(--text-lg);font-weight:700;color:var(--gold)">' + (tier === 'compass' ? 'The Compass' : tier === 'expired' ? L('Compass (expired)', 'Compass (berakhir)') : L('Basecamp (free)', 'Basecamp (gratis)')) + '</div></div>' +
+    '<p class="note">' + L('Basecamp is free, always. Every edition membership is Rp 0 during beta — see the pricing page for what is live today. Your data is never deleted if a subscription lapses.',
+      'Basecamp gratis, selamanya. Setiap keanggotaan edisi Rp 0 selama beta — lihat halaman harga untuk apa yang sudah tersedia hari ini. Datamu tidak pernah dihapus saat langganan berakhir.') + '</p>' +
     '<button class="btn btn-primary" style="margin-top:1rem" onclick="window.location.href=\'register?plan=premium\'">' + L('Activate The Compass →', 'Aktifkan The Compass →') + '</button>';
   }
 };
@@ -253,7 +253,7 @@ function render(key) {
       const data = {};
       for (let i = 0; i < localStorage.length; i++) {
         const k = localStorage.key(i);
-        if (k && k.indexOf('compass_') === 0) data[k] = localStorage.getItem(k);
+        if (k && /^(compass_|metanoia_|mt-|mt_|aladin_|maverick_|nexus_|horizon_)/.test(k)) data[k] = localStorage.getItem(k);
       }
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
       const a = document.createElement('a');
@@ -261,7 +261,18 @@ function render(key) {
     } catch (e) { toast(L('Export failed.', 'Ekspor gagal.')); }
   });
   const del = document.getElementById('delete-btn');
-  if (del) del.addEventListener('click', () => toast(L('Contact hello@metanoialabs.net to delete your account.', 'Hubungi hello@metanoialabs.net untuk menghapus akunmu.')));
+  if (del) del.addEventListener('click', () => {
+    if (!confirm(L('Delete every Metanoia record stored in this browser (Compass, course progress, preferences) and sign out? This cannot be undone.',
+                   'Hapus setiap catatan Metanoia yang tersimpan di peramban ini (Compass, progres kursus, preferensi) dan keluar? Tindakan ini tidak bisa dibatalkan.'))) return;
+    try {
+      const isOurs = k => /^(compass_|metanoia_|mt-|mt_|mtLang|aladin_|maverick_|nexus_|horizon_)/.test(k);
+      [localStorage, sessionStorage].forEach(store => {
+        const keys = []; for (let i = 0; i < store.length; i++) keys.push(store.key(i));
+        keys.filter(isOurs).forEach(k => store.removeItem(k));
+      });
+    } catch (e) {}
+    location.href = 'login?signed_out=true';
+  });
 }
 document.querySelectorAll('#subnav button').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('#subnav button').forEach(x => x.classList.remove('active'));

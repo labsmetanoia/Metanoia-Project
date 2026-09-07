@@ -1,71 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About Us — Metanoia Labs</title>
+<meta name="description" content="Who is building Metanoia, why it exists, where the platform stands today, how it will make money, and the commitments we publish: data dignity, cited…">
+<link rel="canonical" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/about">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/about">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050A12">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metanoialabs.net/pages/about">
+<meta property="og:title" content="About Us — Metanoia Labs">
+<meta property="og:description" content="Who is building Metanoia, why it exists, where the platform stands today, how it will make money, and the commitments we publish: data dignity, cited…">
+<meta property="og:image" content="https://metanoialabs.net/assets/og/generated/about.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_ID">
+<meta property="og:locale:alternate" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Us — Metanoia Labs">
+<meta name="twitter:description" content="Who is building Metanoia, why it exists, where the platform stands today, how it will make money, and the commitments we publish: data dignity, cited…">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/og/generated/about.png">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"About Us — Metanoia Labs","url":"https://metanoialabs.net/pages/about","description":"Who is building Metanoia, why it exists, where the platform stands today, how it will make money, and the commitments we publish: data dignity, cited claims, honest outcomes.","about":{"@type":"Organization","name":"Metanoia Labs","url":"https://metanoialabs.net/","email":"hello@metanoialabs.net"}}</script>
 <script>
-/* Language default: Indonesia → Bahasa Indonesia, elsewhere → English.
-   Runs only when the visitor has never chosen; a manual choice always wins. */
 (function () {
   var has = null;
   try { has = localStorage.getItem('mtLang') || localStorage.getItem('mt-lang'); } catch (e) { return; }
-  if (has) {
-    try {
-      if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has);
-      if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has);
-    } catch (e) {}
-    return;
-  }
+  if (has) { try { if (!localStorage.getItem('mtLang')) localStorage.setItem('mtLang', has); if (!localStorage.getItem('mt-lang')) localStorage.setItem('mt-lang', has); } catch (e) {} return; }
   var indo = false;
-  try {
-    var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
-    indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz);
-  } catch (e) {}
-  if (!indo) {
-    var langs = (navigator.languages || [navigator.language || '']).join(',');
-    indo = /(^|,)\s*id([-_]|,|$)/i.test(langs);
-  }
+  try { var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || ''); indo = /^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)$/.test(tz); } catch (e) {}
+  if (!indo) { var langs = (navigator.languages || [navigator.language || '']).join(','); indo = /(^|,)\s*id([-_]|,|$)/i.test(langs); }
   var l = indo ? 'id' : 'en';
   try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {}
 })();
 </script>
-<title>About Us — Metanoia Labs</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/pages/about"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
-<meta property="og:url" content="https://metanoialabs.net/pages/about">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800&family=Playfair+Display:wght@600&display=swap" media="print" onload="this.media='all'">
 <style>
-  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
-    background:radial-gradient(1200px 600px at 70% -10%, rgba(249,115,22,.10), transparent 60%), #070d18;
-    color:#F5EFE6;font-family:"Avenir Next","Segoe UI",ui-sans-serif,system-ui,Arial,sans-serif;text-align:center}
-  .wrap{padding:40px;max-width:560px}
-  .lockup{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:40px}
-  .bar{width:1px;height:44px;background:rgba(245,239,230,.3)}
-  .wm{text-align:left}
-  .wm b{display:block;font-size:20px;letter-spacing:.3em;font-weight:700;color:#FBFAF7}
-  .wm span{display:block;text-align:right;font-size:10px;letter-spacing:.44em;color:#F59E0B;font-weight:700;margin-top:3px}
-  h1{font-size:clamp(1.8rem,5vw,2.8rem);margin:0 0 6px;letter-spacing:-.01em}
-  .id{color:#93a3b8;font-size:15px;margin:0 0 22px}
-  p{color:#93a3b8;line-height:1.7;margin:0 0 8px}
-  a.back{display:inline-block;margin-top:30px;color:#160d03;text-decoration:none;font-weight:600;font-size:14.5px;
-    background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);border-radius:999px;padding:13px 26px;min-height:44px;box-sizing:border-box}
-</style>
-<div class="wrap">
-  <div class="lockup">
-    <svg width="52" height="52" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-      <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
-        <stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs>
-      <circle cx="20" cy="20" r="18.2" stroke="url(#g)" stroke-width="1.6" opacity=".9"/>
-      <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#g)" stroke-width="2.4"
-            stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
-    </svg>
-    <div class="bar"></div>
-    <div class="wm"><b>METANOIA</b><span>LABS</span></div>
+:root{--bg:#050A12;--bg2:#080E1A;--panel:#101C2E;--gold:#C9A84C;--gold-b:#F0D878;--gold-d:#8B6914;
+--line:rgba(180,140,60,.16);--line-h:rgba(201,168,76,.38);--glass:rgba(8,14,26,.72);
+--t:#FFFFFF;--t2:rgba(255,255,255,.82);--t3:rgba(255,255,255,.58);--t4:rgba(255,255,255,.34);
+--explore:#7BA5C4;--ok:#5FB884;--font:'Roboto Condensed','Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+--serif:'Playfair Display',Georgia,'Times New Roman',serif;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);color:var(--t);background:radial-gradient(ellipse 80% 40% at 50% -5%,rgba(201,168,76,.07),transparent 60%),var(--bg);line-height:1.55;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font:inherit;cursor:pointer;color:inherit;background:none;border:0}
+.topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;height:56px;padding:0 20px;background:var(--glass);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.tb-left{display:flex;align-items:center;gap:12px;min-width:0;flex:1}
+.tb-wordmark{display:inline-flex;align-items:center;gap:8px;font-weight:700;letter-spacing:.06em;font-size:14px;white-space:nowrap}
+.tb-wordmark svg{color:var(--gold)}
+.tb-sep{width:1px;height:20px;background:var(--line-h)}
+.crumb{font-size:12.5px;color:var(--t3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.crumb a:hover{color:var(--gold-b)}
+.crumb .cur{color:var(--t2)}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.lang button{padding:6px 11px;font-size:12px;font-weight:700;color:var(--t3)}
+.lang button.on{background:rgba(201,168,76,.16);color:var(--gold-b)}
+main{max-width:1080px;margin:0 auto;padding:34px 20px 60px}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4.4vw,42px);line-height:1.12;margin:8px 0 10px;letter-spacing:-.01em}
+h2{font-size:clamp(19px,2.4vw,24px);font-weight:700;margin:34px 0 12px;letter-spacing:-.005em}
+h3{font-size:16px;font-weight:700;margin:0 0 6px}
+.sub{font-size:16px;color:var(--t2);max-width:68ch}
+.muted{color:var(--t3);font-size:13px}
+.micro{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--t2);background:rgba(255,255,255,.03)}
+.chip.gold{border-color:var(--line-h);color:var(--gold-b)}
+.chip.link:hover{border-color:var(--line-h);color:var(--gold-b)}
+.prov{font-size:11.5px;font-weight:800;letter-spacing:.02em}
+.prov.v{color:var(--ok)}.prov.i{color:var(--t3)}
+.card{display:block;border:1px solid var(--line);border-radius:14px;background:linear-gradient(160deg,rgba(255,255,255,.035),rgba(255,255,255,.012));padding:16px;transition:border-color .2s,transform .2s}
+a.card:hover{border-color:var(--line-h);transform:translateY(-1px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.tile{width:44px;height:44px;border-radius:11px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.02em;color:#0B0F16;flex:none;background:var(--tile,#C9A84C)}
+.tile.lg{width:64px;height:64px;font-size:22px;border-radius:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:14px;padding:11px 20px;border-radius:999px;border:1px solid var(--line-h);color:var(--gold-b);min-height:44px;transition:background .2s,color .2s}
+.btn:hover{background:rgba(201,168,76,.12)}
+.btn.primary{background:linear-gradient(135deg,var(--gold),var(--gold-d));color:#0B0F16;border-color:transparent}
+.btn.primary:hover{background:linear-gradient(135deg,var(--gold-b),var(--gold))}
+.btn[disabled]{opacity:.5;cursor:default}
+.note{border:1px dashed var(--line-h);border-radius:12px;padding:14px 16px;font-size:13.5px;color:var(--t2);background:rgba(201,168,76,.04)}
+.tm{font-size:11.5px;color:var(--t4);line-height:1.5;margin-top:34px;max-width:78ch}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.sk{position:relative;overflow:hidden;background:rgba(255,255,255,.05);border-radius:8px}
+.sk::after{content:"";position:absolute;inset:0;transform:translateX(-100%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.07),transparent);animation:sk 1.3s infinite}
+@keyframes sk{to{transform:translateX(100%)}}
+@media (prefers-reduced-motion:reduce){.sk::after{animation:none}}
+.site-footer{border-top:1px solid rgba(201,168,76,.24);background:#070C15;color:#D3DAE3;font-size:13.5px;padding:52px 0 30px}
+.site-footer .sf-in{max-width:1180px;margin:0 auto;padding:0 32px}
+.sf-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr .9fr;gap:36px 30px}
+.sf-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sf-logo{display:flex;align-items:center;gap:12px;color:#F5EFE6}
+.sf-logo .sfb{width:1px;height:26px;background:rgba(245,239,230,.35)}
+.sf-logo b{display:block;font-size:13.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;line-height:1}
+.sf-logo i{display:block;font-style:normal;font-size:8.5px;font-weight:700;letter-spacing:.44em;text-transform:uppercase;color:#E8C766;text-align:right;margin-top:3px}
+.sf-tag{font-size:13px;color:#8C96A3;max-width:30ch}
+.sf-mail{display:inline-flex;align-items:center;gap:8px;color:#E8C766;font-weight:700;font-size:13px}
+.sf-col .sf-h{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:12px}
+.sf-col a{display:block;color:#B9C2CE;padding:4.5px 0;font-size:13.5px}
+.sf-col a:hover{color:#F0D878}
+.sf-bottom{display:flex;gap:14px 22px;flex-wrap:wrap;align-items:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(245,239,230,.1);color:#8C96A3;font-size:12.5px}
+.sf-bottom .sf-legal{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
+.sf-bottom a{color:#B9C2CE}
+@media(max-width:960px){.sf-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
+@media(max-width:640px){.topbar{padding:0 12px;gap:8px}main{padding:26px 16px 48px}.grid{grid-template-columns:1fr}}
+.ab{max-width:72ch;margin-top:40px}.ab p{font-size:16.5px;line-height:1.75;color:var(--t2);margin:0 0 14px}.ab ul{padding-left:20px;font-size:16px;line-height:1.7;color:var(--t2)}.ab li{margin-bottom:10px}.ab .sig{color:var(--t3);font-style:italic}.team{margin-top:18px}.member{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:14px 16px}.bs-host{margin:18px 0 10px}.ab .grid{max-width:none}.ab .card h3{margin-bottom:6px}.ab .card p{font-size:14px;line-height:1.6;margin-bottom:8px}</style>
+</head>
+<body>
+<header class="topbar" role="banner">
+  <div class="tb-left">
+    <a href="/" class="tb-wordmark" aria-label="Metanoia Labs home"><svg width="22" height="22" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18.2" stroke="currentColor" stroke-width="1.6" opacity=".8"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Metanoia Labs</span></a>
+    <span class="tb-sep" aria-hidden="true"></span>
+    <nav class="crumb" aria-label="Breadcrumb"><a href="/" data-en="Home" data-id="Beranda">Home</a> › <span class="cur" data-en="About Us" data-id="Tentang Kami">About Us</span></nav>
   </div>
-  <h1>About Us</h1>
-  <p class="id">Tentang Kami</p>
-  <p>This trail is still being mapped. The full About Us experience is on its way.</p>
-  <p style="font-size:13.5px">Jalur ini sedang dipetakan. Pengalaman lengkapnya segera hadir.</p>
-  <a class="back" href="/">← Back to Basecamp</a>
-</div>
-<script src="../js/mob-footer.js"></script>
+  <div class="lang" role="group" aria-label="Language / Bahasa"><button type="button" data-lang="en" class="on">EN</button><button type="button" data-lang="id">ID</button></div>
+</header>
+<main id="main">
+<p class="kicker">Metanoia Labs</p><h1><span data-en="About Us" data-id="Tentang Kami">About Us</span></h1><p class="sub"><span data-en="Who is building this, why, where it stands, how it will make money, and what we have committed to." data-id="Siapa yang membangun ini, mengapa, di mana posisinya, bagaimana ia akan menghasilkan uang, dan apa yang telah kami janjikan.">Who is building this, why, where it stands, how it will make money, and what we have committed to.</span></p><section class="ab" id="s01"><p class="kicker">01 · <span data-en="The origin" data-id="Asal mula">The origin</span></p><!-- FOUNDER: this account is drafted from the brand narrative and the founding documents, not from your biography. Replace or edit it in your own words before launch; nothing here should be published as yours unless it is. --><p><span data-en="I did not start Metanoia because I had a product idea. I started it because of a pattern I could not stop seeing, and could not explain away." data-id="Saya tidak memulai Metanoia karena punya ide produk. Saya memulainya karena sebuah pola yang tidak bisa saya berhenti lihat, dan tidak bisa saya sangkal.">I did not start Metanoia because I had a product idea. I started it because of a pattern I could not stop seeing, and could not explain away.</span></p><p><span data-en="Capable people, with the degree and the work ethic they were told would be enough, sending out application after application and hearing nothing back. Then concluding, quietly, that the problem was them. It was not them." data-id="Orang-orang yang mampu, dengan gelar dan etos kerja yang katanya sudah cukup, mengirim lamaran demi lamaran dan tidak mendengar apa-apa. Lalu menyimpulkan, diam-diam, bahwa masalahnya ada pada diri mereka. Bukan mereka masalahnya.">Capable people, with the degree and the work ethic they were told would be enough, sending out application after application and hearing nothing back. Then concluding, quietly, that the problem was them. It was not them.</span></p><p><span data-en="What they were missing was never talent. It was the things nobody teaches: how screening actually works, what an interviewer is really scoring, which door to try first, what a fair offer looks like, and someone to ask before the interview that counts. The people who had those things usually had them from a family, a senior alumnus, or a consultant they could afford. Everyone else was navigating without the map." data-id="Yang tidak mereka miliki bukanlah bakat, melainkan hal-hal yang tidak diajarkan siapa pun: bagaimana penyaringan sebenarnya bekerja, apa yang benar-benar dinilai pewawancara, pintu mana yang dicoba lebih dulu, seperti apa tawaran yang wajar, dan siapa yang bisa ditanya sebelum wawancara yang menentukan. Orang yang memilikinya biasanya mendapatkannya dari keluarga, alumni senior, atau konsultan yang mampu mereka bayar. Yang lain berjalan tanpa peta.">What they were missing was never talent. It was the things nobody teaches: how screening actually works, what an interviewer is really scoring, which door to try first, what a fair offer looks like, and someone to ask before the interview that counts. The people who had those things usually had them from a family, a senior alumnus, or a consultant they could afford. Everyone else was navigating without the map.</span></p><p><span data-en="That is the whole of it. The career operating system exists. It is just not distributed fairly. So I began writing it down — first as documents, then as a prototype, now as the platform you are looking at — for the people it was never handed to." data-id="Itulah intinya. Sistem operasi karier itu ada. Hanya saja tidak dibagikan secara adil. Maka saya mulai menuliskannya — mula-mula sebagai dokumen, lalu sebagai prototipe, kini sebagai platform yang sedang kamu lihat — untuk orang-orang yang tidak pernah menerimanya.">That is the whole of it. The career operating system exists. It is just not distributed fairly. So I began writing it down — first as documents, then as a prototype, now as the platform you are looking at — for the people it was never handed to.</span></p><p class="sig"><span data-en="— The founder, Metanoia Labs" data-id="— Pendiri, Metanoia Labs">— The founder, Metanoia Labs</span></p></section><section class="ab" id="s02"><p class="kicker">02 · <span data-en="What we believe" data-id="Yang kami yakini">What we believe</span></p><p><span data-en="The career operating system already exists. Insider knowledge of how hiring works, practice before the attempts that count, honest feedback, warm introductions, and the confidence that comes from all of that — it is real, and it works." data-id="Sistem operasi karier itu sudah ada. Pengetahuan orang dalam tentang cara kerja rekrutmen, latihan sebelum percobaan yang menentukan, umpan balik yang jujur, perkenalan yang hangat, dan kepercayaan diri yang lahir dari semuanya — itu nyata, dan itu berhasil.">The career operating system already exists. Insider knowledge of how hiring works, practice before the attempts that count, honest feedback, warm introductions, and the confidence that comes from all of that — it is real, and it works.</span></p><p><span data-en="It is distributed through well-connected families, senior alumni and expensive consultants. Opportunity ends up being a function of access, not capability." data-id="Ia dibagikan lewat keluarga yang berkoneksi luas, alumni senior, dan konsultan yang mahal. Peluang pun menjadi soal akses, bukan kemampuan.">It is distributed through well-connected families, senior alumni and expensive consultants. Opportunity ends up being a function of access, not capability.</span></p><p><span data-en="We are building it for everyone else. Not a cheaper version of a coaching service, but the infrastructure itself: written down, honest about what it knows and does not know, connected to real employers, and free to start." data-id="Kami membangunnya untuk semua orang lainnya. Bukan versi murah dari layanan coaching, melainkan infrastrukturnya sendiri: dituliskan, jujur tentang apa yang diketahui dan tidak diketahui, terhubung ke pemberi kerja sungguhan, dan gratis untuk memulai.">We are building it for everyone else. Not a cheaper version of a coaching service, but the infrastructure itself: written down, honest about what it knows and does not know, connected to real employers, and free to start.</span></p><p><span data-en="We also believe the platform only works if people can trust it, which is why every claim on it should trace to a source, every score should come with its reasons, and nobody&#x27;s individual data should ever be sold to an employer." data-id="Kami juga percaya platform ini hanya berfungsi jika orang bisa memercayainya. Karena itu setiap klaim di dalamnya harus bisa ditelusuri ke sumbernya, setiap skor harus disertai alasannya, dan data perorangan siapa pun tidak boleh pernah dijual kepada pemberi kerja.">We also believe the platform only works if people can trust it, which is why every claim on it should trace to a source, every score should come with its reasons, and nobody&#x27;s individual data should ever be sold to an employer.</span></p></section><section class="ab" id="s03"><p class="kicker">03 · <span data-en="The team" data-id="Tim">The team</span></p><p><span data-en="Right now, Metanoia is one person and a growing group of collaborators." data-id="Saat ini, Metanoia adalah satu orang dan sekelompok kolaborator yang terus bertambah.">Right now, Metanoia is one person and a growing group of collaborators.</span></p><p><span data-en="The founder designs and builds the platform, writes the Mind Palace with editorial reviewers, and does the mentoring by hand while the software catches up. Collaborators contribute reviews of hiring processes they have been through, editorial checks on the Indonesian copy, and the occasional argument about what a page should say." data-id="Sang pendiri merancang dan membangun platform, menulis Mind Palace bersama peninjau editorial, dan melakukan pendampingan secara manual sementara perangkat lunaknya menyusul. Para kolaborator menyumbang tinjauan atas proses rekrutmen yang pernah mereka lalui, pemeriksaan editorial atas salinan bahasa Indonesia, dan sesekali perdebatan tentang apa yang seharusnya dikatakan sebuah halaman.">The founder designs and builds the platform, writes the Mind Palace with editorial reviewers, and does the mentoring by hand while the software catches up. Collaborators contribute reviews of hiring processes they have been through, editorial checks on the Indonesian copy, and the occasional argument about what a page should say.</span></p><p><span data-en="Names and photographs appear here only when the people concerned have agreed to be listed, and nobody is listed who has not. There are no advisors on this page because we do not have any yet." data-id="Nama dan foto muncul di sini hanya jika orang yang bersangkutan setuju untuk dicantumkan, dan tidak ada yang dicantumkan tanpa persetujuan. Tidak ada penasihat di halaman ini karena kami memang belum memilikinya.">Names and photographs appear here only when the people concerned have agreed to be listed, and nobody is listed who has not. There are no advisors on this page because we do not have any yet.</span></p><div class="team"><div class="member"><span class="tile lg" style="--tile:#C9A84C" aria-hidden="true">M</span><div><b><span data-en="The founder" data-id="Pendiri">The founder</span></b><br><span class="muted"><span data-en="Product, engineering, editorial, mentoring. Named and pictured here once published in their own words." data-id="Produk, rekayasa, editorial, pendampingan. Dinamai dan difoto di sini setelah diterbitkan dengan kata-katanya sendiri.">Product, engineering, editorial, mentoring. Named and pictured here once published in their own words.</span></span></div></div></div></section><section class="ab" id="s04"><p class="kicker">04 · <span data-en="Where we are" data-id="Di mana kami sekarang">Where we are</span></p><p><span data-en="Stage: beta. What you are using is a working prototype of the platform. The courses, the company directory, the assessment and the Mind Palace are real and public; accounts, payments and mentor matching are not built yet, and anything you save is stored in your own browser rather than on a server." data-id="Tahap: beta. Yang sedang kamu gunakan adalah prototipe platform yang berfungsi. Kursus, direktori perusahaan, asesmen, dan Mind Palace sudah nyata dan publik; akun, pembayaran, dan pencocokan mentor belum dibangun, dan apa pun yang kamu simpan tersimpan di perambanmu sendiri, bukan di server.">Stage: beta. What you are using is a working prototype of the platform. The courses, the company directory, the assessment and the Mind Palace are real and public; accounts, payments and mentor matching are not built yet, and anything you save is stored in your own browser rather than on a server.</span></p><div data-build-status="styled" class="bs-host"></div><p class="muted"><span data-en="The same list appears on the &lt;a href=&quot;/pricing&quot;&gt;pricing page&lt;/a&gt;. It is one component fed by one file, so the two cannot disagree." data-id="Daftar yang sama muncul di &lt;a href=&quot;/pricing&quot;&gt;halaman harga&lt;/a&gt;. Ini satu komponen yang diberi makan oleh satu berkas, jadi keduanya tidak mungkin berbeda.">The same list appears on the <a href="/pricing">pricing page</a>. It is one component fed by one file, so the two cannot disagree.</span></p></section><section class="ab" id="s05"><p class="kicker">05 · <span data-en="How we make money" data-id="Bagaimana kami menghasilkan uang">How we make money</span></p><p><span data-en="Indonesia&#x27;s career-services market has earned a certain suspicion, so here is the answer to the question you are probably asking." data-id="Pasar jasa karier di Indonesia telah menuai kecurigaan tertentu, jadi inilah jawaban untuk pertanyaan yang mungkin sedang kamu ajukan.">Indonesia&#x27;s career-services market has earned a certain suspicion, so here is the answer to the question you are probably asking.</span></p><ul><li><span data-en="Beta is free. Basecamp — the Career Map, your readiness score, the Gauntlet guide, your route outline and the community — is free, always. Everything beyond it is Rp 0 while we build." data-id="Beta gratis. Basecamp — Career Map, skor kesiapanmu, panduan Gauntlet, kerangka rutemu, dan komunitas — gratis, selamanya. Semua di luar itu Rp 0 selama kami membangun.">Beta is free. Basecamp — the Career Map, your readiness score, the Gauntlet guide, your route outline and the community — is free, always. Everything beyond it is Rp 0 while we build.</span></li><li><span data-en="Paid editions come at commercial launch: Student, Fresh Graduate, Early Professional and Mature Professional memberships, priced to sit far below a bootcamp and visibly above free." data-id="Edisi berbayar hadir saat peluncuran komersial: keanggotaan Mahasiswa, Fresh Graduate, Profesional Muda, dan Profesional Berpengalaman, dengan harga jauh di bawah bootcamp dan jelas di atas gratis.">Paid editions come at commercial launch: Student, Fresh Graduate, Early Professional and Mature Professional memberships, priced to sit far below a bootcamp and visibly above free.</span></li><li><span data-en="We will tell you before anything changes. Nothing you use for free today will start charging you without notice, and early-access pricing is locked for as long as you stay subscribed." data-id="Kami akan memberi tahu sebelum ada yang berubah. Tidak ada yang kamu pakai gratis hari ini yang akan tiba-tiba menagih tanpa pemberitahuan, dan harga akses awal dikunci selama kamu tetap berlangganan.">We will tell you before anything changes. Nothing you use for free today will start charging you without notice, and early-access pricing is locked for as long as you stay subscribed.</span></li><li><span data-en="We take no commission from employers for placing you. Enterprise programmes pay for readiness programmes and aggregate, anonymised reporting — never for access to you." data-id="Kami tidak mengambil komisi dari pemberi kerja karena menempatkanmu. Program Enterprise membayar untuk program kesiapan dan pelaporan agregat yang dianonimkan — tidak pernah untuk akses kepadamu.">We take no commission from employers for placing you. Enterprise programmes pay for readiness programmes and aggregate, anonymised reporting — never for access to you.</span></li></ul><p><span data-en="The full breakdown, with what is live today and what is not, is on the &lt;a href=&quot;/pricing&quot;&gt;pricing page&lt;/a&gt;." data-id="Rincian lengkapnya, dengan apa yang sudah tersedia hari ini dan apa yang belum, ada di &lt;a href=&quot;/pricing&quot;&gt;halaman harga&lt;/a&gt;.">The full breakdown, with what is live today and what is not, is on the <a href="/pricing">pricing page</a>.</span></p></section><section class="ab" id="s06"><p class="kicker">06 · <span data-en="Our commitments" data-id="Komitmen kami">Our commitments</span></p><div class="grid"><a class="card" href="/legal/data-dignity"><h3>Data Dignity</h3><p class="muted" style="color:var(--t2)"><span data-en="We never sell your data and never provide individual scores to employers. Aggregate, anonymised insight only, above a minimum cohort size." data-id="Kami tidak pernah menjual datamu dan tidak pernah memberikan skor perorangan kepada pemberi kerja. Hanya wawasan agregat yang dianonimkan, di atas ukuran kohort minimum.">We never sell your data and never provide individual scores to employers. Aggregate, anonymised insight only, above a minimum cohort size.</span></p><span class="muted"><span data-en="Read the commitments →" data-id="Baca komitmennya →">Read the commitments →</span></span></a><a class="card" href="/mind-palace/"><h3><span data-en="The citation standard" data-id="Standar kutipan">The citation standard</span></h3><p class="muted" style="color:var(--t2)"><span data-en="Numbers require a named source or our own database; hiring-process detail is published only where it can be cited; everything else is written as judgement and reads like judgement." data-id="Angka memerlukan sumber bernama atau basis data kami sendiri; rincian proses rekrutmen hanya diterbitkan bila bisa dikutip; selebihnya ditulis sebagai pertimbangan dan dibaca sebagai pertimbangan.">Numbers require a named source or our own database; hiring-process detail is published only where it can be cited; everything else is written as judgement and reads like judgement.</span></p><span class="muted"><span data-en="See it in the Mind Palace →" data-id="Lihat di Mind Palace →">See it in the Mind Palace →</span></span></a><div class="card"><h3><span data-en="Outcome honesty" data-id="Kejujuran hasil">Outcome honesty</span></h3><p class="muted" style="color:var(--t2)"><span data-en="We publish outcome data honestly, including when it disappoints us. We have none to publish yet — this platform is in beta and has not placed anyone. When we do, it goes here, with its method." data-id="Kami menerbitkan data hasil dengan jujur, termasuk saat hasilnya mengecewakan kami. Kami belum punya yang bisa diterbitkan — platform ini masih beta dan belum menempatkan siapa pun. Saat sudah ada, hasilnya ditaruh di sini, beserta metodenya.">We publish outcome data honestly, including when it disappoints us. We have none to publish yet — this platform is in beta and has not placed anyone. When we do, it goes here, with its method.</span></p></div></div></section><p class="row" style="margin-top:34px;gap:12px"><a class="btn primary" href="/career-map-assessment"><span data-en="Take the free Career Map →" data-id="Ambil Career Map gratis →">Take the free Career Map →</span></a><a class="btn" href="mailto:hello@metanoialabs.net">hello@metanoialabs.net</a></p>
+</main>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="sf-in">
+    <div class="sf-grid">
+      <div class="sf-brand">
+        <a class="sf-logo" href="/" aria-label="Metanoia Labs home">
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="lgSF" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#C97B1E"/><stop offset="55%" stop-color="#F5A623"/><stop offset="100%" stop-color="#FFD98A"/></linearGradient></defs><circle cx="20" cy="20" r="18.2" stroke="url(#lgSF)" stroke-width="1.6" opacity=".9"/><path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgSF)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/></svg>
+          <span class="sfb" aria-hidden="true"></span>
+          <span><b>Metanoia</b><i>Labs</i></span>
+        </a>
+        <p class="sf-tag" data-en="One platform for the whole climb — from first direction to the summit, and back down as a guide." data-id="Satu platform untuk seluruh pendakian — dari arah pertama hingga puncak, lalu turun kembali sebagai pemandu.">One platform for the whole climb — from first direction to the summit, and back down as a guide.</p>
+        <a class="sf-mail" href="mailto:hello@metanoialabs.net">hello@metanoialabs.net</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="The Journey" data-id="Perjalanan">The Journey</span>
+        <a href="/pages/student" data-en="Student" data-id="Mahasiswa">Student</a>
+        <a href="/pages/fresh-graduate">Fresh Graduate</a>
+        <a href="/pages/early-professional" data-en="Early Professional" data-id="Profesional Muda">Early Professional</a>
+        <a href="/pages/mature-professional" data-en="Mature Professional" data-id="Profesional Berpengalaman">Mature Professional</a>
+        <a href="/pages/enterprise" data-en="For Enterprise" data-id="Untuk Perusahaan">For Enterprise</a>
+        <a href="/pages/mentors" data-en="For Mentors" data-id="Untuk Mentor">For Mentors</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Platform" data-id="Platform">Platform</span>
+        <a href="/products/the-map/" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</a>
+        <a href="/products/the-pack/" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</a>
+        <a href="/products/the-rope/" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</a>
+        <a href="/products/the-route/" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</a>
+        <a href="/products/the-compass/" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Resources" data-id="Sumber Daya">Resources</span>
+        <a href="/pages/mind-palace">Mind Palace</a>
+        <a href="/products/the-map/range/" data-en="The Range · Company directory" data-id="The Range · Direktori perusahaan">The Range · Company directory</a>
+        <a href="/career-map-assessment" data-en="Free Career Map" data-id="Career Map Gratis">Free Career Map</a>
+        <a href="/pricing" data-en="Pricing" data-id="Harga">Pricing</a>
+        <a href="/help" data-en="Help &amp; FAQ" data-id="Bantuan &amp; FAQ">Help &amp; FAQ</a>
+      </div>
+      <div class="sf-col">
+        <span class="sf-h" data-en="Company" data-id="Perusahaan">Company</span>
+        <a href="/pages/about" data-en="About Us" data-id="Tentang Kami">About Us</a>
+        <a href="/login" data-en="Sign in" data-id="Masuk">Sign in</a>
+        <a href="/register" data-en="Create account" data-id="Buat akun">Create account</a>
+      </div>
+    </div>
+    <div class="sf-bottom">
+      <span data-en="Metanoia · © 2026 · Every summit lights the next." data-id="Metanoia · © 2026 · Setiap puncak menerangi puncak berikutnya.">Metanoia · © 2026 · Every summit lights the next.</span>
+      <span class="sf-legal">
+        <a href="/legal/privacy" data-en="Privacy" data-id="Privasi">Privacy</a>
+        <a href="/legal/terms" data-en="Terms" data-id="Ketentuan">Terms</a>
+        <a href="/legal/data-dignity">Data Dignity</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var lang = 'en';
+  try { var l = localStorage.getItem('mtLang'); if (l === 'id' || l === 'en') lang = l; } catch (e) {}
+  function apply(l) {
+    lang = l;
+    document.documentElement.lang = l;
+    document.querySelectorAll('[data-en]').forEach(function (el) { el.innerHTML = l === 'id' ? (el.getAttribute('data-id') || el.getAttribute('data-en')) : el.getAttribute('data-en'); });
+    document.querySelectorAll('.lang button').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-lang') === l); });
+    document.querySelectorAll('[data-ph-en]').forEach(function (el) { el.placeholder = l === 'id' ? el.getAttribute('data-ph-id') : el.getAttribute('data-ph-en'); });
+    document.dispatchEvent(new CustomEvent('mt:lang', { detail: l }));
+  }
+  window.setLanguage = function (l) { if (l !== 'en' && l !== 'id') return; try { localStorage.setItem('mtLang', l); localStorage.setItem('mt-lang', l); } catch (e) {} apply(l); };
+  window.mtLang = function () { return lang; };
+  document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { window.setLanguage(b.getAttribute('data-lang')); }); });
+  apply(lang);
+})();
+</script>
+<script src="/data/build-status.js"></script><script src="/js/build-status.js"></script><script src="/js/mob-footer.js" defer></script>
+</body>
+</html>
