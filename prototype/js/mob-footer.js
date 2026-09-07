@@ -185,6 +185,22 @@
     else inject();
     wireSearch();
     mediaPolicy();
+    scrolledHeader();
+  }
+
+  /* ── Header scroll state: every fixed or sticky header gets .scrolled once
+     the page moves, so the shared stylesheet can deepen its surface. ── */
+  function scrolledHeader() {
+    var hs = document.querySelectorAll('nav#topNav, body > nav:first-of-type, nav.top, header.topbar, header.portal-topbar');
+    if (!hs.length) return;
+    var tick = false;
+    function apply() {
+      var on = (window.scrollY || document.documentElement.scrollTop || 0) > 8;
+      for (var i = 0; i < hs.length; i++) hs[i].classList.toggle('scrolled', on);
+      tick = false;
+    }
+    window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(apply); } }, { passive: true });
+    apply();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount);
   else mount();

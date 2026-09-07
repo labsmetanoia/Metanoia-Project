@@ -1,0 +1,245 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   METANOIA LABS — SHARED UI REFINEMENTS
+   ---------------------------------------------------------------------
+   One stylesheet, loaded last on every page, that raises the navigation
+   bar to one premium standard across the four header families the site
+   uses, and gives the FAQ sections their pure-black dark-mode ground.
+
+   Families:
+     A  <nav> with .logo / .menu / .nav-right         landing + audience pages
+     B  nav.top with .bar / .brand / .lang / .nav-cta  pricing, legal
+     C  header.topbar with .tb-* / .breadcrumb          help, settings, products,
+                                                        generated pages
+     D  header.portal-topbar                            portal, demo
+
+   Tokens follow the existing design system (night navy, gold, Roboto
+   Condensed). Light theme is handled with :root[data-theme="light"].
+   Nothing here changes markup, information architecture or behaviour.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root{
+  --nv-bg:linear-gradient(180deg,rgba(8,14,26,.94) 0%,rgba(6,11,20,.84) 100%);
+  --nv-bg-solid:rgba(6,11,20,.96);
+  --nv-line:rgba(201,168,76,.22);
+  --nv-line-strong:rgba(201,168,76,.55);
+  --nv-hair:linear-gradient(90deg,transparent 0%,rgba(201,168,76,.35) 18%,rgba(240,216,120,.55) 50%,rgba(201,168,76,.35) 82%,transparent 100%);
+  --nv-text:#F5EFE6;
+  --nv-muted:rgba(245,239,230,.66);
+  --nv-gold:#C9A84C;
+  --nv-gold-b:#F0D878;
+  --nv-glow:0 1px 0 rgba(255,255,255,.05) inset,0 10px 32px rgba(0,0,0,.28);
+  --nv-glow-scrolled:0 1px 0 rgba(255,255,255,.06) inset,0 14px 44px rgba(0,0,0,.42);
+  --nv-cta:linear-gradient(135deg,#8B6914 0%,#C9A84C 48%,#F0D878 100%);
+  --nv-ring:0 0 0 2px rgba(6,11,20,1),0 0 0 4px var(--nv-gold);
+  --nv-ease:cubic-bezier(.2,.7,.2,1);
+}
+:root[data-theme="light"]{
+  --nv-bg:linear-gradient(180deg,rgba(255,255,255,.94) 0%,rgba(246,247,250,.86) 100%);
+  --nv-bg-solid:rgba(255,255,255,.97);
+  --nv-line:rgba(122,90,16,.22);
+  --nv-line-strong:rgba(122,90,16,.5);
+  --nv-hair:linear-gradient(90deg,transparent 0%,rgba(138,105,20,.28) 18%,rgba(138,105,20,.5) 50%,rgba(138,105,20,.28) 82%,transparent 100%);
+  --nv-text:#1B2434;
+  --nv-muted:rgba(27,36,52,.62);
+  --nv-gold:#8A6A14;
+  --nv-gold-b:#B4891F;
+  --nv-glow:0 1px 0 rgba(255,255,255,.7) inset,0 8px 28px rgba(27,36,52,.10);
+  --nv-glow-scrolled:0 1px 0 rgba(255,255,255,.8) inset,0 12px 36px rgba(27,36,52,.16);
+  --nv-ring:0 0 0 2px #fff,0 0 0 4px var(--nv-gold);
+}
+
+/* ───────────────────────── shared surface ───────────────────────── */
+nav#topNav, body > nav:first-of-type, nav.top, header.topbar, header.portal-topbar{
+  background:var(--nv-bg);
+  -webkit-backdrop-filter:blur(22px) saturate(1.35);
+  backdrop-filter:blur(22px) saturate(1.35);
+  border-bottom:1px solid var(--nv-line);
+  box-shadow:var(--nv-glow);
+  transition:box-shadow .35s var(--nv-ease),background .35s var(--nv-ease),padding .35s var(--nv-ease);
+}
+/* a gold hairline that fades at the edges — the signature of every header */
+nav#topNav::after, body > nav:first-of-type::after, nav.top::after, header.topbar::after, header.portal-topbar::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;pointer-events:none;background:var(--nv-hair);opacity:.9;
+}
+nav.top{position:sticky;overflow:visible}
+nav.top::after{bottom:-1px}
+nav#topNav.scrolled, body > nav:first-of-type.scrolled, nav.top.scrolled, header.topbar.scrolled, header.portal-topbar.scrolled{
+  background:var(--nv-bg-solid);box-shadow:var(--nv-glow-scrolled);
+}
+/* the cinematic landing page keeps its transparent hero nav until it scrolls */
+body.has-scene > nav:first-of-type:not(.scrolled):not(.compact){background:transparent;border-bottom-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+body.has-scene > nav:first-of-type:not(.scrolled):not(.compact)::after{opacity:0}
+
+/* ───────────────────────── family A · landing / audience ───────────────────────── */
+nav#topNav, body > nav:first-of-type{padding:12px 28px;gap:18px}
+nav#topNav.scrolled, body > nav:first-of-type.scrolled{padding:9px 28px}
+@media(max-width:640px){nav#topNav, body > nav:first-of-type{padding:10px 14px;gap:10px}}
+
+nav .logo{gap:13px;transition:opacity .2s}
+nav .logo svg{filter:drop-shadow(0 0 0 rgba(201,168,76,0));transition:filter .35s var(--nv-ease),transform .35s var(--nv-ease)}
+nav .logo:hover svg{filter:drop-shadow(0 0 10px rgba(201,168,76,.45));transform:rotate(-4deg)}
+nav .logo .lbar{background:var(--nv-line-strong);height:28px}
+nav .logo .wm b{letter-spacing:.30em;font-size:13.5px;color:var(--nv-text)}
+nav .logo .wm i{letter-spacing:.46em;color:var(--nv-gold-b)}
+
+nav .menu{
+  border:1px solid var(--nv-line);padding:4px 6px;
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));
+  box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 6px 22px rgba(0,0,0,.22);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+}
+:root[data-theme="light"] nav .menu{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.7));box-shadow:0 1px 0 #fff inset,0 6px 22px rgba(27,36,52,.08)}
+nav .menu a{
+  font-size:10.5px;letter-spacing:.14em;padding:9px 13px;color:var(--nv-muted);
+  transition:color .25s var(--nv-ease),background .25s var(--nv-ease),box-shadow .25s var(--nv-ease);
+}
+nav .menu a::after{
+  content:"";position:absolute;left:13px;right:13px;bottom:5px;height:1px;border-radius:1px;
+  background:linear-gradient(90deg,transparent,var(--nv-gold-b),transparent);
+  transform:scaleX(0);transform-origin:center;opacity:0;transition:transform .3s var(--nv-ease),opacity .3s var(--nv-ease);
+}
+nav .menu a:hover,nav .menu a:focus-visible{color:var(--nv-text);background:rgba(201,168,76,.10);box-shadow:inset 0 0 0 1px rgba(201,168,76,.28)}
+nav .menu a:hover::after,nav .menu a:focus-visible::after{transform:scaleX(1);opacity:1}
+nav .menu a.current{color:var(--nv-gold-b);background:rgba(201,168,76,.12);box-shadow:inset 0 0 0 1px rgba(201,168,76,.32)}
+nav .menu a.current::after{transform:scaleX(1);opacity:1}
+nav .menu a+a::before{background:rgba(201,168,76,.35)}
+nav .menu a:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+
+nav .nav-right{gap:8px}
+nav .nav-ico,nav .ldd-btn,nav .burger,nav .ctl,nav .nav-signin{
+  border:1px solid var(--nv-line);color:var(--nv-text);
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));
+  box-shadow:0 1px 0 rgba(255,255,255,.05) inset;
+  transition:border-color .25s var(--nv-ease),background .25s var(--nv-ease),transform .25s var(--nv-ease),box-shadow .25s var(--nv-ease),color .25s var(--nv-ease);
+}
+:root[data-theme="light"] nav .nav-ico,:root[data-theme="light"] nav .ldd-btn,:root[data-theme="light"] nav .burger,:root[data-theme="light"] nav .ctl,:root[data-theme="light"] nav .nav-signin{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.7));box-shadow:0 1px 0 #fff inset}
+nav .nav-ico,nav .burger{width:38px;height:38px}
+nav .nav-ico:hover,nav .ldd-btn:hover,nav .burger:hover,nav .nav-signin:hover,nav .nav-ico:focus-visible,nav .ldd-btn:focus-visible,nav .burger:focus-visible{
+  border-color:var(--nv-line-strong);background:rgba(201,168,76,.12);transform:translateY(-1px);color:var(--nv-gold-b);
+  box-shadow:0 1px 0 rgba(255,255,255,.06) inset,0 6px 18px rgba(0,0,0,.25);
+}
+nav .nav-ico:focus-visible,nav .ldd-btn:focus-visible,nav .burger:focus-visible,nav .nav-signin:focus-visible,nav .nav-cta:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+nav .nav-signin{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:0 15px;height:38px;color:var(--nv-gold-b)}
+nav .nav-cta{
+  height:38px;padding:0 18px;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+  background:var(--nv-cta);color:#0B0F16;
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 6px 20px rgba(201,168,76,.30);
+  transition:transform .25s var(--nv-ease),box-shadow .25s var(--nv-ease),filter .25s var(--nv-ease);
+}
+nav .nav-cta:hover{transform:translateY(-1px);filter:saturate(1.08);box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 10px 28px rgba(201,168,76,.42)}
+nav .nav-cta:active{transform:translateY(0)}
+@media(max-width:480px){nav .nav-cta{padding:0 12px;font-size:10.5px;height:36px}}
+nav .ldd-menu{border:1px solid var(--nv-line);box-shadow:0 18px 48px rgba(0,0,0,.45),0 1px 0 rgba(255,255,255,.05) inset;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+
+/* ───────────────────────── family B · pricing / legal ───────────────────────── */
+nav.top .bar{padding:14px 0;gap:16px}
+nav.top.scrolled .bar{padding:10px 0}
+nav.top .brand{letter-spacing:.18em;font-size:13.5px;gap:12px;color:var(--nv-text);transition:opacity .2s}
+nav.top .brand svg{transition:filter .35s var(--nv-ease),transform .35s var(--nv-ease)}
+nav.top .brand:hover svg{filter:drop-shadow(0 0 10px rgba(201,168,76,.45));transform:rotate(-4deg)}
+nav.top .brand i{color:var(--nv-gold-b)}
+nav.top .nav-right{gap:10px}
+nav.top .lang{border:1px solid var(--nv-line);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));box-shadow:0 1px 0 rgba(255,255,255,.05) inset;height:38px;align-items:center}
+nav.top .lang button{min-height:36px;padding:0 14px;letter-spacing:.06em;color:var(--nv-muted);transition:color .2s,background .2s}
+nav.top .lang button:hover{color:var(--nv-text)}
+nav.top .lang button.on{background:var(--nv-cta);color:#0B0F16;box-shadow:0 1px 0 rgba(255,255,255,.35) inset}
+nav.top .lang button:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+nav.top .nav-cta{height:38px;padding:0 18px;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;background:var(--nv-cta);color:#0B0F16;box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 6px 20px rgba(201,168,76,.30);transition:transform .25s var(--nv-ease),box-shadow .25s var(--nv-ease)}
+nav.top .nav-cta:hover{transform:translateY(-1px);box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 10px 28px rgba(201,168,76,.42)}
+nav.top .nav-cta:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+nav.top .nav-ico{border:1px solid var(--nv-line);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));transition:border-color .25s,background .25s,transform .25s,color .25s}
+nav.top .nav-ico:hover{border-color:var(--nv-line-strong);background:rgba(201,168,76,.12);transform:translateY(-1px);color:var(--nv-gold-b)}
+
+/* ───────────────────────── family C · topbar (help · settings · products · generated) ───────────────────────── */
+header.topbar{height:60px;padding:0 24px;gap:16px}
+@media(max-width:640px){header.topbar{height:56px;padding:0 14px}}
+header.topbar .tb-left{gap:14px}
+header.topbar .tb-wordmark,header.topbar .tb-logo{color:var(--nv-text);letter-spacing:.06em;transition:opacity .2s}
+header.topbar .tb-wordmark svg,header.topbar .tb-logo svg{color:var(--nv-gold);transition:filter .35s var(--nv-ease),transform .35s var(--nv-ease)}
+header.topbar .tb-wordmark:hover svg,header.topbar .tb-logo:hover svg{filter:drop-shadow(0 0 10px rgba(201,168,76,.45));transform:rotate(-4deg)}
+header.topbar .tb-logo .wm{letter-spacing:.28em}
+header.topbar .tb-logo .wm i{color:var(--nv-gold-b);letter-spacing:.34em}
+header.topbar .tb-sep{background:linear-gradient(180deg,transparent,var(--nv-line-strong),transparent);height:26px;width:1px}
+header.topbar .tb-crumb,header.topbar .crumb,header.topbar .breadcrumb{font-size:12.5px;letter-spacing:.02em;color:var(--nv-muted)}
+header.topbar .tb-crumb a,header.topbar .crumb a,header.topbar .breadcrumb-back{color:var(--nv-muted);position:relative;transition:color .2s}
+header.topbar .tb-crumb a:hover,header.topbar .crumb a:hover,header.topbar .breadcrumb-back:hover{color:var(--nv-gold-b)}
+header.topbar .tb-crumb .cur,header.topbar .crumb .cur,header.topbar .breadcrumb-current{color:var(--nv-gold-b);font-weight:700;letter-spacing:.03em}
+header.topbar .breadcrumb-sep{color:rgba(201,168,76,.45)}
+header.topbar .lang-toggle,header.topbar .lang,header.topbar .ctl{
+  border:1px solid var(--nv-line);border-radius:999px;overflow:hidden;height:36px;align-items:center;
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));box-shadow:0 1px 0 rgba(255,255,255,.05) inset;
+}
+:root[data-theme="light"] header.topbar .lang-toggle,:root[data-theme="light"] header.topbar .lang,:root[data-theme="light"] header.topbar .ctl{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.7));box-shadow:0 1px 0 #fff inset}
+header.topbar .lang-btn,header.topbar .lang button,header.topbar .ctl button{min-height:34px;padding:0 13px;font-size:11.5px;font-weight:700;letter-spacing:.06em;color:var(--nv-muted);transition:color .2s,background .2s}
+header.topbar .lang-btn:hover,header.topbar .lang button:hover,header.topbar .ctl button:hover{color:var(--nv-text)}
+header.topbar .lang-btn.active,header.topbar .lang button.on,header.topbar .ctl button[aria-pressed="true"]{background:var(--nv-cta);color:#0B0F16;box-shadow:0 1px 0 rgba(255,255,255,.35) inset}
+header.topbar .lang-btn:focus-visible,header.topbar .lang button:focus-visible,header.topbar .ctl button:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+header.topbar .tb-right{gap:10px}
+header.topbar .tb-right > a,header.topbar .tb-right > button{transition:border-color .25s var(--nv-ease),background .25s var(--nv-ease),transform .25s var(--nv-ease),color .25s var(--nv-ease)}
+header.topbar .tb-right > a:hover,header.topbar .tb-right > button:hover{transform:translateY(-1px)}
+/* pages whose content sits under a fixed topbar */
+.shell{padding-top:60px}
+@media(max-width:640px){.shell{padding-top:56px}}
+
+/* ───────────────────────── family D · portal ───────────────────────── */
+header.portal-topbar .topbar-wordmark{color:var(--nv-text);letter-spacing:.06em}
+header.portal-topbar .topbar-wordmark svg{color:var(--nv-gold);transition:filter .35s var(--nv-ease),transform .35s var(--nv-ease)}
+header.portal-topbar .topbar-wordmark:hover svg{filter:drop-shadow(0 0 10px rgba(201,168,76,.45));transform:rotate(-4deg)}
+header.portal-topbar .topbar-sep{background:linear-gradient(180deg,transparent,var(--nv-line-strong),transparent)}
+header.portal-topbar .topbar-page-label{color:var(--nv-gold-b);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:11px}
+header.portal-topbar .topbar-icon-btn,header.portal-topbar .topbar-avatar,header.portal-topbar .topbar-hamburger{
+  border:1px solid var(--nv-line);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));
+  transition:border-color .25s var(--nv-ease),background .25s var(--nv-ease),transform .25s var(--nv-ease),color .25s var(--nv-ease);
+}
+header.portal-topbar .topbar-icon-btn:hover,header.portal-topbar .topbar-avatar:hover,header.portal-topbar .topbar-hamburger:hover{border-color:var(--nv-line-strong);background:rgba(201,168,76,.12);transform:translateY(-1px);color:var(--nv-gold-b)}
+header.portal-topbar .topbar-icon-btn:focus-visible,header.portal-topbar .topbar-avatar:focus-visible,header.portal-topbar .topbar-hamburger:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+header.portal-topbar .lang-toggle{border:1px solid var(--nv-line);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));height:36px;align-items:center}
+header.portal-topbar .lang-btn{min-height:34px;padding:0 13px;letter-spacing:.06em}
+header.portal-topbar .lang-btn.active{background:var(--nv-cta);color:#0B0F16}
+
+/* ───────────────────────── motion preferences ───────────────────────── */
+@media (prefers-reduced-motion: reduce){
+  nav .logo:hover svg,nav.top .brand:hover svg,header.topbar .tb-wordmark:hover svg,header.topbar .tb-logo:hover svg,header.portal-topbar .topbar-wordmark:hover svg{transform:none}
+  nav .nav-ico:hover,nav .ldd-btn:hover,nav .burger:hover,nav .nav-signin:hover,nav .nav-cta:hover,nav.top .nav-cta:hover,nav.top .nav-ico:hover,header.topbar .tb-right > a:hover,header.topbar .tb-right > button:hover,header.portal-topbar .topbar-icon-btn:hover,header.portal-topbar .topbar-avatar:hover{transform:none}
+  nav .menu a::after{transition:none}
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   FAQ — dark mode ground is pure black, not navy
+   The question cards keep their glass treatment and gold hairlines so the
+   section reads as the same system, one register deeper.
+   ═══════════════════════════════════════════════════════════════════════ */
+:root:not([data-theme="light"]) .faq-wrap,
+:root:not([data-theme="light"]) .faq-section{
+  max-width:none;width:auto;box-sizing:border-box;
+  margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);
+  padding:72px max(20px,calc(50vw - 380px)) 80px;
+  background:#000;
+  border-top:1px solid rgba(201,168,76,.14);border-bottom:1px solid rgba(201,168,76,.14);
+}
+:root:not([data-theme="light"]) .faq-wrap > *,
+:root:not([data-theme="light"]) .faq-section > *{max-width:760px;margin-left:auto;margin-right:auto}
+:root:not([data-theme="light"]) section.faq{background:#000;border-top:1px solid rgba(201,168,76,.14)}
+:root:not([data-theme="light"]) #faq-list{background:#000;border:1px solid rgba(201,168,76,.16);border-radius:16px;padding:14px}
+:root:not([data-theme="light"]) .faq-item,
+:root:not([data-theme="light"]) #faq-list .faq{
+  background:linear-gradient(160deg,rgba(255,255,255,.045),rgba(255,255,255,.015));
+  border-color:rgba(201,168,76,.20);
+}
+:root:not([data-theme="light"]) .faq-item:hover,
+:root:not([data-theme="light"]) #faq-list .faq:hover{border-color:rgba(201,168,76,.42)}
+:root:not([data-theme="light"]) .faq-item.open,
+:root:not([data-theme="light"]) #faq-list .faq.open{border-color:rgba(201,168,76,.45);box-shadow:0 12px 36px rgba(0,0,0,.5)}
+/* the black band sits inside sections that clip; keep the page from scrolling sideways elsewhere */
+:root:not([data-theme="light"]) .student-cta-section,
+:root:not([data-theme="light"]) .cta-sec{overflow-x:clip}
+
+/* landing page: the header used to rely on mix-blend-mode over the film; the
+   glass surface supersedes it */
+body > nav:first-of-type{mix-blend-mode:normal}
+
+/* theme toggle sits with the other header controls */
+nav .theme-btn{border:1px solid var(--nv-line);color:var(--nv-text);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));box-shadow:0 1px 0 rgba(255,255,255,.05) inset;transition:border-color .25s var(--nv-ease),background .25s var(--nv-ease),transform .25s var(--nv-ease),color .25s var(--nv-ease)}
+:root[data-theme="light"] nav .theme-btn{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.7));box-shadow:0 1px 0 #fff inset}
+nav .theme-btn:hover{border-color:var(--nv-line-strong);background:rgba(201,168,76,.12);transform:translateY(-1px);color:var(--nv-gold-b)}
+nav .theme-btn:focus-visible{outline:none;box-shadow:var(--nv-ring)}
