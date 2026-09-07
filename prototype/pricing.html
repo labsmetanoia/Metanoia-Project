@@ -35,8 +35,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <title>Pricing — Metanoia Labs</title>
-<meta name="description" content="Beta pricing: every pillar and every edition at Rp 0 while we build. Bundles or individual products, a free tier that stays free, and a 14-day refund at launch.">
+<meta name="description" content="Basecamp is free, always; every edition and pillar is Rp 0 during beta. See what is live today, what is in development, and the 14-day refund at launch.">
 <link rel="canonical" href="https://metanoialabs.net/pricing">
+<meta property="og:url" content="https://metanoialabs.net/pricing">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pricing — Metanoia Labs">
+<meta property="og:description" content="Basecamp is free, always; every edition and pillar is Rp 0 during beta. See what is live today, what is in development, and the 14-day refund at launch.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/journey-start.jpg">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pricing — Metanoia Labs">
+<meta name="twitter:description" content="Basecamp is free, always; every edition and pillar is Rp 0 during beta. See what is live today, what is in development, and the 14-day refund at launch.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/journey-start.jpg">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pricing">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pricing">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pricing">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <!--
   PRICING ARCHITECTURE
@@ -44,7 +57,7 @@
   mirrored in /data/pricing.js. To end the beta: set MT_PRICING.beta.active=false
   and fill the launch amounts — no markup changes needed.
 -->
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
 :root{--bg:#050A12;--panel:rgba(8,14,26,.7);--border:rgba(180,140,60,.16);--gold:#C9A84C;--gold-text:#E8C96A;
   --gold-bright:#F0D878;--text:#F0EDE8;--muted:rgba(240,237,232,.65);--faint:rgba(240,237,232,.4);
@@ -879,26 +892,7 @@ body{transition:background-color .5s ease,color .5s ease}
   <h2 class="sec rv" data-en="What's live today, and what isn't" data-id="Apa yang sudah tersedia hari ini, dan apa yang belum">What's live today, and what isn't</h2>
   <p class="sec-sub rv" data-en="We would rather show you a short true list than a long invented one. This table updates as we ship."
      data-id="Kami lebih memilih menunjukkan daftar pendek yang benar daripada daftar panjang yang dikarang. Tabel ini diperbarui saat kami merilis.">We would rather show you a short true list than a long invented one. This table updates as we ship.</p>
-  <div class="built-grid">
-    <div class="built-col live rv">
-      <h3><span class="chip chip--success"><i></i><span data-en="Live today" data-id="Tersedia hari ini">Live today</span></span></h3>
-      <ul>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="Career Map assessment with readiness score" data-id="Asesmen Career Map dengan skor kesiapan">Career Map assessment with readiness score</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Gauntlet — full 8-gate guide, free and public" data-id="The Gauntlet — panduan 8 gerbang lengkap, gratis dan publik">The Gauntlet — full 8-gate guide, free and public</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Map &amp; The Pack — Student and Fresh Graduate curricula" data-id="The Map &amp; The Pack — kurikulum Mahasiswa dan Fresh Graduate">The Map &amp; The Pack — Student and Fresh Graduate curricula</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12.5l5 5L20 6"/></svg><span data-en="The Compass tracker (beta, browser-stored)" data-id="Pelacak The Compass (beta, tersimpan di peramban)">The Compass tracker (beta, browser-stored)</span></li>
-      </ul>
-    </div>
-    <div class="built-col coming rv">
-      <h3><span class="chip chip--neutral"><i></i><span data-en="In development" data-id="Sedang dikembangkan">In development</span></span></h3>
-      <ul>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="The Rope &amp; The Route — full curricula" data-id="The Rope &amp; The Route — kurikulum lengkap">The Rope &amp; The Route — full curricula</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Early &amp; Mature Professional editions" data-id="Edisi Profesional Muda &amp; Berpengalaman">Early &amp; Mature Professional editions</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Accounts with real authentication and payments" data-id="Akun dengan autentikasi dan pembayaran sungguhan">Accounts with real authentication and payments</span></li>
-        <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/></svg><span data-en="Mentor matching (concierge first, software later)" data-id="Pencocokan mentor (manual dahulu, perangkat lunak kemudian)">Mentor matching (concierge first, software later)</span></li>
-      </ul>
-    </div>
-  </div>
+  <div class="built-grid" data-build-status></div>
 </div></section>
 
 <!-- ═══ FAQ ═══ -->
@@ -1148,6 +1142,8 @@ document.querySelectorAll('.faq-item').forEach(function (item) {
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
+<script src="data/build-status.js"></script>
+<script src="js/build-status.js"></script>
 <script src="js/mob-footer.js"></script>
 </body>
 </html>

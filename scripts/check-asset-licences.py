@@ -22,14 +22,17 @@ import sys
 
 ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'prototype')
 MANIFEST = os.path.join(ROOT, 'assets', 'asset-manifest.json')
-EXT = ('.jpg', '.jpeg', '.png', '.mp4', '.webm', '.svg', '.vtt')
+EXT = ('.jpg', '.jpeg', '.png', '.webp', '.mp4', '.webm', '.svg', '.vtt')
 
 REQUIRED = ('source', 'licence', 'licence_proof')
 
 
 def on_disk():
     found = set()
-    for dirpath, _, files in os.walk(os.path.join(ROOT, 'assets')):
+    for dirpath, dirs, files in os.walk(os.path.join(ROOT, 'assets')):
+        # Open Graph cards under assets/og/generated are build outputs drawn by
+        # scripts/lib/og.py from our own copy; they are not sourced assets.
+        dirs[:] = [d for d in dirs if not (os.path.basename(dirpath) == 'og' and d == 'generated')]
         for fn in files:
             if fn.lower().endswith(EXT):
                 found.add(os.path.relpath(os.path.join(dirpath, fn), ROOT))

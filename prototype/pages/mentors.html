@@ -33,6 +33,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Mentors — your experience is the most valuable resource a young professional can access. Here is a structure worthy of it.">
 <link rel="canonical" href="https://metanoialabs.net/pages/mentors">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/mentors">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/mentors">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/mentors">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/mentors">
 <meta property="og:type" content="website">
@@ -45,7 +48,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Mentors — your experience is the most valuable resource a young professional can access. Here is a structure worthy of it.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/rope-team.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -1563,7 +1566,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
   <div class="hero-video-wrap">
-    <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+    <video data-autoplay muted loop playsinline preload="none" class="hero-video" id="heroVideo">
       <source src="../assets/for-mentor.mp4" type="video/mp4">
     </video>
     <div class="hero-video-fallback" id="heroFallback"></div>

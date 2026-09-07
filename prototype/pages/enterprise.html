@@ -33,6 +33,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Enterprise — close the talent readiness gap. Your new hires are not underperforming. They were underprepared before they arrived.">
 <link rel="canonical" href="https://metanoialabs.net/pages/enterprise">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/enterprise">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/enterprise">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/enterprise">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/enterprise">
 <meta property="og:type" content="website">
@@ -45,7 +48,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Enterprise — close the talent readiness gap. Your new hires are not underperforming. They were underprepared before they arrived.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/stage-graduation.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -1279,6 +1282,30 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 @media(max-width:640px){.flg{width:16px;height:16px}}
 </style>
 
+<style id="cformStateCss">
+.cform-done,.cform-fail{grid-column:1/-1;border-radius:12px;padding:16px 18px;font-size:14px;line-height:1.55}
+.cform-done{border:1px solid rgba(95,184,132,.5);background:rgba(95,184,132,.08)}
+.cform-fail{border:1px solid rgba(217,160,91,.5);background:rgba(217,160,91,.08)}
+.cform-done b,.cform-fail b{display:block;margin-bottom:4px;font-size:15px}
+.cform-done p,.cform-fail p{margin:0;color:rgba(255,255,255,.8)}
+.cform-fail a,.cform-note a{color:#F0D878;text-decoration:underline}
+</style>
+<style id="evidenceCss">
+.evidence-sec,.data-sec,.sources-sec{padding:56px 0}
+.data-card{max-width:860px;margin:0 auto;padding:36px 40px;border:1px solid rgba(201,168,76,.28);border-radius:18px;background:linear-gradient(160deg,rgba(201,168,76,.07),rgba(8,14,26,.6))}
+.data-card h2{font-size:clamp(22px,2.6vw,30px);line-height:1.2;margin:10px 0 16px;letter-spacing:-.01em}
+.data-card p{font-size:16px;line-height:1.7;color:rgba(255,255,255,.82);margin:0 0 12px}
+.data-card sup a{color:#F0D878;text-decoration:none;font-weight:700}
+.data-link{display:inline-block;margin-top:8px;color:#F0D878;font-weight:700;text-decoration:none}
+.data-link:hover{text-decoration:underline}
+.prod-not{font-size:12.5px;line-height:1.5;color:rgba(255,255,255,.7);border-left:2px solid rgba(201,168,76,.5);padding-left:10px;margin-top:8px}
+.sources-sec{border-top:1px solid rgba(201,168,76,.18)}
+.sources-sec h2{font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#C9A84C;margin-bottom:14px}
+.sources-list{padding-left:20px;font-size:13.5px;line-height:1.65;color:rgba(255,255,255,.7);max-width:860px}
+.sources-list a{color:#F0D878;text-decoration:none}
+.sources-note{font-size:12.5px;color:rgba(255,255,255,.5);margin-top:12px}
+@media(max-width:640px){.data-card{padding:24px 20px}}
+</style>
 <style id="faqV2Css">
 .faq-title{text-align:center;font-size:clamp(1.5rem,3vw,2rem) !important;letter-spacing:-.01em;position:relative;padding-top:26px}
 .faq-title::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:56px;height:3px;
@@ -1497,7 +1524,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
   <div class="hero-video-wrap">
-    <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+    <video data-autoplay muted loop playsinline preload="none" class="hero-video" id="heroVideo">
       <source src="../assets/for-enterprise-hero.mp4" type="video/mp4">
     </video>
     <div class="hero-video-fallback" id="heroFallback"></div>
@@ -1564,8 +1591,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       </div>
     </div>
     <div class="pain-grid">
-    <div class="pain reveal"><span class="pn-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 v5 l3 3"/></svg></span><b data-en="Ramp time" data-id="Waktu orientasi">Ramp time</b><p data-en="The average new professional hire requires 6–18 months to reach full productivity. Across a twenty-person cohort, that translates to significant lost output and management overhead." data-id="Rata-rata karyawan profesional baru membutuhkan 6–18 bulan untuk mencapai produktivitas penuh. Di seluruh kohort dua puluh orang, itu berarti kehilangan output yang signifikan dan beban manajemen yang besar.">The average new professional hire requires 6–18 months to reach full productivity. Across a twenty-person cohort, that translates to significant lost output and management overhead.</p></div>
-    <div class="pain reveal"><span class="pn-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21 v-2 a4 4 0 0 0-4-4 H7 a4 4 0 0 0-4 4 v2"/><circle cx="9.5" cy="7" r="4"/><path d="M17 8 l5 5 M22 8 l-5 5"/></svg></span><b data-en="First-year attrition" data-id="Atrisi tahun pertama">First-year attrition</b><p data-en="Professionals who lack direction and readiness at entry are significantly more likely to leave within 24 months — at an estimated replacement cost of 50–200% of annual salary per departure." data-id="Profesional yang kurang memiliki arah dan kesiapan saat masuk jauh lebih mungkin keluar dalam 24 bulan — dengan estimasi biaya penggantian 50–200% dari gaji tahunan per kepergian.">Professionals who lack direction and readiness at entry are significantly more likely to leave within 24 months — at an estimated replacement cost of 50–200% of annual salary per departure.</p></div>
+    <div class="pain reveal"><span class="pn-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 v5 l3 3"/></svg></span><b data-en="Ramp time" data-id="Waktu orientasi">Ramp time</b><p data-en="Every new hire who arrives without direction or interview-tested readiness spends their first months learning what the job is, not doing it. Across a twenty-person cohort, that is output your managers pay for twice — once in salary, once in supervision time." data-id="Setiap karyawan baru yang datang tanpa arah atau kesiapan yang sudah teruji wawancara menghabiskan bulan-bulan pertamanya untuk mempelajari apa pekerjaannya, bukan mengerjakannya. Di kohort dua puluh orang, itu output yang manajer Anda bayar dua kali — sekali dalam gaji, sekali dalam waktu supervisi.">Every new hire who arrives without direction or interview-tested readiness spends their first months learning what the job is, not doing it. Across a twenty-person cohort, that is output your managers pay for twice — once in salary, once in supervision time.</p></div>
+    <div class="pain reveal"><span class="pn-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21 v-2 a4 4 0 0 0-4-4 H7 a4 4 0 0 0-4 4 v2"/><circle cx="9.5" cy="7" r="4"/><path d="M17 8 l5 5 M22 8 l-5 5"/></svg></span><b data-en="First-year attrition" data-id="Atrisi tahun pertama">First-year attrition</b><p data-en="A hire who took the role without a clear reason to be there leaves as soon as a clearer one appears elsewhere, and every departure restarts the recruiting, onboarding and ramp cycle you just paid for. Direction at entry is the cheapest retention lever you have." data-id="Karyawan yang mengambil peran tanpa alasan yang jelas akan pergi begitu alasan yang lebih jelas muncul di tempat lain, dan setiap kepergian mengulang siklus rekrutmen, onboarding, dan orientasi yang baru saja Anda bayar. Arah sejak masuk adalah tuas retensi termurah yang Anda miliki.">A hire who took the role without a clear reason to be there leaves as soon as a clearer one appears elsewhere, and every departure restarts the recruiting, onboarding and ramp cycle you just paid for. Direction at entry is the cheapest retention lever you have.</p></div>
     <div class="pain reveal"><span class="pn-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 21 L10 7 L14 13.5 L17 9 L21 21 Z"/><path d="M17 9 V4.5"/><path d="M17 4.5 h3.5 l-1.3 1.6 1.3 1.6 H17"/></svg></span><b data-en="Employer brand" data-id="Merek pemberi kerja">Employer brand</b><p data-en="The organizations that attract the strongest candidates invest in the ecosystem that produces them. Campus reputation, mentorship visibility, and structured development programs determine which students apply." data-id="Organisasi yang menarik kandidat terkuat berinvestasi pada ekosistem yang menghasilkan mereka. Reputasi kampus, visibilitas mentorship, dan program pengembangan terstruktur menentukan mahasiswa mana yang melamar.">The organizations that attract the strongest candidates invest in the ecosystem that produces them. Campus reputation, mentorship visibility, and structured development programs determine which students apply.</p></div>
     </div>
   </div>
@@ -1588,7 +1615,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     </div>
     <div class="prog reveal">
       <div class="pnum" style="background:#B45309">03</div>
-      <div><h3 data-en="Program 03 · L&amp;D Partnership" data-id="Program 03 · Kemitraan L&amp;D">Program 03 · L&amp;D Partnership</h3><p data-en="Deploy Metanoia Premium as a benefit for all employees — early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use." data-id="Terapkan Metanoia Premium sebagai benefit untuk seluruh karyawan — dari karier awal hingga profesional senior. Meningkatkan keterlibatan, mengurangi permintaan pengembangan informal kepada manajer, dan menyediakan alternatif terstruktur untuk platform LMS generik yang benar-benar digunakan karyawan.">Deploy Metanoia Premium as a benefit for all employees — early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use.</p></div>
+      <div><h3 data-en="Program 03 · L&amp;D Partnership" data-id="Program 03 · Kemitraan L&amp;D">Program 03 · L&amp;D Partnership</h3><p data-en="Deploy Metanoia edition memberships as a benefit for all employees — early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use." data-id="Terapkan keanggotaan edisi Metanoia sebagai benefit untuk seluruh karyawan — dari karier awal hingga profesional senior. Meningkatkan keterlibatan, mengurangi permintaan pengembangan informal kepada manajer, dan menyediakan alternatif terstruktur untuk platform LMS generik yang benar-benar digunakan karyawan.">Deploy Metanoia edition memberships as a benefit for all employees — early career through senior professional. Increases engagement, reduces informal development requests on managers, and provides a structured alternative to generic LMS platforms that employees actually use.</p></div>
     </div>
     </div>
     <div class="ch-cta reveal"><a href="#contact" data-en="Discuss which model fits your organization →" data-id="Diskusikan model yang sesuai untuk organisasi Anda →">Discuss which model fits your organization →</a></div>
@@ -1619,7 +1646,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="pc-body">
               <span class="ptag cobalt" data-en="01 · Program" data-id="01 · Program">01 · Program</span>
               <h3 data-en="Campus Scholarship Sponsorship" data-id="Sponsor Beasiswa Kampus">Campus Scholarship Sponsorship</h3>
-              <p class="prod-desc" data-en="Fund Metanoia Premium access for students at target universities. Your brand appears as the sponsor of the most serious career development platform they use during university." data-id="Danai akses Metanoia Premium untuk mahasiswa di universitas target. Merek Anda tampil sebagai sponsor platform pengembangan karier paling serius yang mereka gunakan selama kuliah.">Fund Metanoia Premium access for students at target universities. Your brand appears as the sponsor of the most serious career development platform they use during university.</p>
+              <p class="prod-desc" data-en="Fund Student edition memberships for students at target universities. Your brand appears as the sponsor of the most serious career development platform they use during university." data-id="Danai keanggotaan edisi Mahasiswa untuk mahasiswa di universitas target. Merek Anda tampil sebagai sponsor platform pengembangan karier paling serius yang mereka gunakan selama kuliah.">Fund Student edition memberships for students at target universities. Your brand appears as the sponsor of the most serious career development platform they use during university.</p>
               <div class="pc-mock" aria-hidden="true">
                 <div class="mttl">Sponsorship Snapshot</div>
                 <div class="mrow"><span class="tick">✓</span><span>Target campuses: shortlisted</span></div>
@@ -1660,12 +1687,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m14.7 14.7 4.8 4.8"/><path d="M8.2 11.5v-2M10.5 12.5V8.5M12.8 11.7V10"/></svg></div>
             <div class="pc-body">
               <span class="ptag forest" data-en="04 · Program" data-id="04 · Program">04 · Program</span>
-              <h3 data-en="Recruitment Intelligence" data-id="Inteligensi Rekrutmen">Recruitment Intelligence</h3>
-              <p class="prod-desc" data-en="Receive career readiness data on candidate pools before interview — directional scores, readiness ratings, and gap profiles that enrich your hiring decisions." data-id="Terima data kesiapan karier atas kumpulan kandidat sebelum wawancara — skor arah, peringkat kesiapan, dan profil kesenjangan yang memperkaya keputusan perekrutan Anda.">Receive career readiness data on candidate pools before interview — directional scores, readiness ratings, and gap profiles that enrich your hiring decisions.</p>
+              <h3 data-en="Talent Market Intelligence" data-id="Inteligensi Pasar Talenta">Talent Market Intelligence</h3>
+              <p class="prod-desc" data-en="Understand the readiness of the talent pool you recruit from — aggregate readiness distribution by field, university type and region, skill-gap patterns across cohorts, and benchmarking against the wider market. Use it to design your programs and target your campus strategy." data-id="Pahami kesiapan kumpulan talenta tempat Anda merekrut — distribusi kesiapan agregat menurut bidang, jenis universitas, dan wilayah, pola kesenjangan keterampilan lintas kohort, dan tolok ukur terhadap pasar yang lebih luas. Gunakan untuk merancang program Anda dan menargetkan strategi kampus Anda.">Understand the readiness of the talent pool you recruit from — aggregate readiness distribution by field, university type and region, skill-gap patterns across cohorts, and benchmarking against the wider market. Use it to design your programs and target your campus strategy.</p>
+              <p class="prod-desc prod-not" data-en="<b>What this is not:</b> we never provide individual candidate scores, names, or profiles to employers. Ever. Aggregate, anonymised, above a minimum cohort threshold — that is the whole product, and it is a commitment we publish." data-id="<b>Apa yang bukan:</b> kami tidak pernah memberikan skor, nama, atau profil kandidat perorangan kepada pemberi kerja. Tidak pernah. Agregat, dianonimkan, di atas ambang kohort minimum — itulah keseluruhan produknya, dan itu komitmen yang kami publikasikan."><b>What this is not:</b> we never provide individual candidate scores, names, or profiles to employers. Ever. Aggregate, anonymised, above a minimum cohort threshold — that is the whole product, and it is a commitment we publish.</p>
               <div class="pc-mock" aria-hidden="true">
-                <div class="mttl">Candidate Pool · Batch 7</div>
-                <div class="mrow"><span class="tick">✓</span><span>Readiness ratings: delivered</span></div>
-                <div class="mrow"><span class="don"></span><span>Gap profiles: 12 flagged</span></div>
+                <div class="mttl">Market Snapshot · Q3</div>
+                <div class="mrow"><span class="tick">✓</span><span>Cohort readiness distribution: delivered</span></div>
+                <div class="mrow"><span class="don"></span><span>Skill-gap patterns: 6 identified</span></div>
               </div>
               <a href="#contact" class="prod-cta" data-en="Discuss this program with our team →" data-id="Diskusikan program ini dengan tim kami →">Discuss this program with our team →</a>
             </div>
@@ -1711,6 +1739,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <form class="cform reveal" id="cform" novalidate>
       <div class="cfield"><label for="cf-name" data-en="Name" data-id="Nama">Name</label><input id="cf-name" name="name" type="text" autocomplete="name" required></div>
       <div class="cfield"><label for="cf-company" data-en="Company" data-id="Perusahaan">Company</label><input id="cf-company" name="company" type="text" autocomplete="organization" required></div>
+      <div class="cfield"><label for="cf-email" data-en="Work email" data-id="Email kerja">Work email</label><input id="cf-email" name="email" type="email" autocomplete="email" required></div>
       <div class="cfield"><label for="cf-role" data-en="Role" data-id="Jabatan">Role</label><input id="cf-role" name="role" type="text" autocomplete="organization-title"></div>
       <div class="cfield"><label for="cf-size" data-en="Cohort size" data-id="Ukuran kohort">Cohort size</label><input id="cf-size" name="size" type="text" inputmode="numeric"></div>
       <div class="cfield full"><label for="cf-interest" data-en="Area of interest" data-id="Bidang yang diminati">Area of interest</label>
@@ -1719,13 +1748,46 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <option data-en="Onboarding Integration" data-id="Integrasi Onboarding">Onboarding Integration</option>
           <option data-en="L&amp;D Partnership" data-id="Kemitraan L&amp;D">L&amp;D Partnership</option>
           <option data-en="Campus Scholarship Sponsorship" data-id="Sponsor Beasiswa Kampus">Campus Scholarship Sponsorship</option>
-          <option data-en="Recruitment Intelligence" data-id="Inteligensi Rekrutmen">Recruitment Intelligence</option>
+          <option data-en="Talent Market Intelligence" data-id="Inteligensi Pasar Talenta">Talent Market Intelligence</option>
           <option data-en="Executive Mentorship Network" data-id="Jaringan Mentorship Eksekutif">Executive Mentorship Network</option>
         </select></div>
       <div class="cfield full"><label for="cf-msg" data-en="Anything else" data-id="Hal lain">Anything else</label><textarea id="cf-msg" name="message"></textarea></div>
-        <button class="csubmit" type="submit" data-en="Request the Discovery Call →" data-id="Ajukan Panggilan Eksplorasi →">Request the Discovery Call →</button>
-        <p class="cform-note" data-en="Submitting opens a pre-filled email in your mail client — nothing is sent until you press send." data-id="Mengirim formulir membuka email terisi otomatis di aplikasi email Anda — tidak ada yang terkirim sampai Anda menekan kirim.">Submitting opens a pre-filled email in your mail client — nothing is sent until you press send.</p>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0">
+        <button class="csubmit" type="submit" id="cf-submit" data-en="Request the Discovery Call →" data-id="Ajukan Panggilan Eksplorasi →">Request the Discovery Call →</button>
+        <p class="cform-note" id="cf-note" data-en="We reply within two business days. Prefer to pick a time yourself? <a href=&quot;#contact&quot; id=&quot;cf-book&quot; hidden>Book a slot on our calendar →</a>" data-id="Kami membalas dalam dua hari kerja. Lebih suka memilih waktu sendiri? <a href=&quot;#contact&quot; id=&quot;cf-book&quot; hidden>Pilih slot di kalender kami →</a>">We reply within two business days. Prefer to pick a time yourself? <a href="#contact" id="cf-book" hidden>Book a slot on our calendar →</a></p>
+        <div class="cform-done" id="cf-done" hidden role="status" aria-live="polite">
+          <b data-en="Received — thank you." data-id="Diterima — terima kasih.">Received — thank you.</b>
+          <p data-en="Your request is logged and a confirmation is on its way to your inbox. We respond within two business days with a scoped recommendation." data-id="Permintaan Anda tercatat dan konfirmasi sedang dikirim ke kotak masuk Anda. Kami merespons dalam dua hari kerja dengan rekomendasi yang terukur.">Your request is logged and a confirmation is on its way to your inbox. We respond within two business days with a scoped recommendation.</p>
+        </div>
+        <div class="cform-fail" id="cf-fail" hidden role="alert">
+          <b data-en="We could not deliver that." data-id="Kami tidak bisa mengirimkannya.">We could not deliver that.</b>
+          <p data-en="Nothing was lost — your answers are still in the form. Please try again, or send them by email: <a href=&quot;mailto:hello@metanoialabs.net&quot; id=&quot;cf-mailto&quot;>open a pre-filled email →</a>" data-id="Tidak ada yang hilang — jawaban Anda masih ada di formulir. Silakan coba lagi, atau kirim lewat email: <a href=&quot;mailto:hello@metanoialabs.net&quot; id=&quot;cf-mailto&quot;>buka email terisi otomatis →</a>">Nothing was lost — your answers are still in the form. Please try again, or send them by email: <a href="mailto:hello@metanoialabs.net" id="cf-mailto">open a pre-filled email →</a></p>
+        </div>
       </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ THE MARKET, IN ITS OWN DATA ═══ -->
+<section class="evidence-sec" id="evidence" aria-labelledby="ev-title">
+  <div class="section-inner">
+    <div class="data-card reveal">
+      <div class="chapter-label" data-en="The buyer&#39;s problem, in the market&#39;s own data" data-id="Masalah pembeli, dalam data pasarnya sendiri">The buyer&#39;s problem, in the market&#39;s own data</div>
+      <h2 id="ev-title" data-en="Graduate unemployment sits above the national rate." data-id="Pengangguran lulusan perguruan tinggi berada di atas angka nasional.">Graduate unemployment sits above the national rate.</h2>
+      <p data-en="In February 2026, Indonesia&#39;s open unemployment rate was 4.68% across a labour force of 154.91 million, with about 7.24 million people not absorbed by the labour market. For graduates of Diploma IV, S1, S2 and S3 programmes the rate was 6.13% — above the national figure, and only SMK leavers (7.74%) were higher.<sup><a href=&quot;#sources&quot;>1</a></sup> The constraint is readiness at entry, not the supply of degrees." data-id="Pada Februari 2026, Tingkat Pengangguran Terbuka Indonesia sebesar 4,68% dari angkatan kerja 154,91 juta, dengan sekitar 7,24 juta orang belum terserap pasar kerja. Untuk lulusan Diploma IV, S1, S2, dan S3 angkanya 6,13% — di atas angka nasional, dan hanya lulusan SMK (7,74%) yang lebih tinggi.<sup><a href=&quot;#sources&quot;>1</a></sup> Kendalanya adalah kesiapan saat masuk, bukan jumlah gelar.">In February 2026, Indonesia&#39;s open unemployment rate was 4.68% across a labour force of 154.91 million, with about 7.24 million people not absorbed by the labour market. For graduates of Diploma IV, S1, S2 and S3 programmes the rate was 6.13% — above the national figure, and only SMK leavers (7.74%) were higher.<sup><a href="#sources">1</a></sup> The constraint is readiness at entry, not the supply of degrees.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HOW WE HANDLE CANDIDATE DATA ═══ -->
+<section class="data-sec" id="candidate-data" aria-labelledby="cd-title">
+  <div class="section-inner">
+    <div class="data-card reveal">
+      <div class="chapter-label" data-en="Data &amp; privacy" data-id="Data &amp; privasi">Data &amp; privacy</div>
+      <h2 id="cd-title" data-en="How we handle candidate data" data-id="Cara kami menangani data kandidat">How we handle candidate data</h2>
+      <p data-en="Individual readiness data belongs to the individual. We do not sell it, share it, or provide it to employers — including sponsors and partners. Enterprise reporting is aggregate and anonymised, above a minimum cohort size." data-id="Data kesiapan perorangan adalah milik orang tersebut. Kami tidak menjualnya, membagikannya, atau memberikannya kepada pemberi kerja — termasuk sponsor dan mitra. Pelaporan Enterprise bersifat agregat dan dianonimkan, di atas ukuran kohort minimum.">Individual readiness data belongs to the individual. We do not sell it, share it, or provide it to employers — including sponsors and partners. Enterprise reporting is aggregate and anonymised, above a minimum cohort size.</p>
+      <p data-en="This is a deliberate constraint. It is also why employees and students engage with the platform honestly, which is what makes the aggregate data worth having." data-id="Ini batasan yang disengaja. Ini pula sebabnya karyawan dan mahasiswa menggunakan platform dengan jujur, dan itulah yang membuat data agregatnya bernilai.">This is a deliberate constraint. It is also why employees and students engage with the platform honestly, which is what makes the aggregate data worth having.</p>
+      <a href="../legal/data-dignity" class="data-link" data-en="Read our Data Dignity commitments →" data-id="Baca komitmen Data Dignity kami →">Read our Data Dignity commitments →</a>
     </div>
   </div>
 </section>
@@ -1773,7 +1835,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="What does a campus sponsorship program look like in practice?" data-id="Seperti apa program sponsor kampus dalam praktiknya?">What does a campus sponsorship program look like in practice?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-6" data-en="You select the target universities and faculties that feed your hiring pipeline; Metanoia provisions sponsored Premium access for a defined student cohort there, with your brand presented as the sponsor throughout their platform experience. Students complete direction, application, and interview readiness programs over the semester. You receive aggregate cohort readiness reporting — and, under the Recruitment Intelligence program, the option to invite the readiest candidates into your recruitment process. Sponsorships typically run per academic year with a defined cohort size." data-id="Anda memilih universitas dan fakultas target yang mengisi jalur perekrutan Anda; Metanoia menyediakan akses Premium bersponsor untuk kohort mahasiswa yang ditentukan di sana, dengan merek Anda ditampilkan sebagai sponsor di seluruh pengalaman platform mereka. Mahasiswa menyelesaikan program arah, lamaran, dan kesiapan wawancara selama semester berjalan. Anda menerima pelaporan kesiapan kohort agregat — dan, di bawah program Inteligensi Rekrutmen, opsi untuk mengundang kandidat paling siap ke proses rekrutmen Anda. Sponsor biasanya berjalan per tahun akademik dengan ukuran kohort yang ditentukan.">You select the target universities and faculties that feed your hiring pipeline; Metanoia provisions sponsored Premium access for a defined student cohort there, with your brand presented as the sponsor throughout their platform experience. Students complete direction, application, and interview readiness programs over the semester. You receive aggregate cohort readiness reporting — and, under the Recruitment Intelligence program, the option to invite the readiest candidates into your recruitment process. Sponsorships typically run per academic year with a defined cohort size.</div>
+          <div class="faq-a" id="faqa-6" data-en="You select the target universities and faculties that feed your hiring pipeline; Metanoia provisions sponsored Student edition memberships for a defined student cohort there, with your brand presented as the sponsor throughout their platform experience. Students complete direction, application, and interview readiness programs over the semester. You receive aggregate, anonymised cohort readiness reporting — never individual scores or profiles, which is a commitment we publish under Data Dignity. Sponsorships typically run per academic year with a defined cohort size." data-id="Anda memilih universitas dan fakultas target yang mengisi jalur perekrutan Anda; Metanoia menyediakan keanggotaan edisi Mahasiswa bersponsor untuk kohort mahasiswa yang ditentukan di sana, dengan merek Anda ditampilkan sebagai sponsor di seluruh pengalaman platform mereka. Mahasiswa menyelesaikan program arah, lamaran, dan kesiapan wawancara selama semester berjalan. Anda menerima pelaporan kesiapan kohort agregat dan dianonimkan — tidak pernah skor atau profil perorangan, yang merupakan komitmen yang kami publikasikan di bawah Data Dignity. Sponsor biasanya berjalan per tahun akademik dengan ukuran kohort yang ditentukan.">You select the target universities and faculties that feed your hiring pipeline; Metanoia provisions sponsored Student edition memberships for a defined student cohort there, with your brand presented as the sponsor throughout their platform experience. Students complete direction, application, and interview readiness programs over the semester. You receive aggregate, anonymised cohort readiness reporting — never individual scores or profiles, which is a commitment we publish under Data Dignity. Sponsorships typically run per academic year with a defined cohort size.</div>
         </div>
       </div>
     </div>
@@ -1812,6 +1874,18 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 @media(max-width:520px){.sf-grid{grid-template-columns:1fr;gap:28px}}
 body.m .site-footer{display:none}
 </style>
+
+<section class="sources-sec" id="sources" aria-labelledby="src-title">
+  <div class="section-inner">
+    <h2 id="src-title" data-en="Sources" data-id="Sumber">Sources</h2>
+    <ol class="sources-list">
+      <li><span data-en="Badan Pusat Statistik (BPS-Statistics Indonesia), Berita Resmi Statistik, 5 May 2026: “Tingkat Pengangguran Terbuka (TPT) sebesar 4,68 persen; rata-rata upah buruh sebesar 3,29 juta rupiah” — Sakernas February 2026. Open unemployment 4.68%; labour force 154.91 million; unemployed ≈ 7.24 million; TPT by highest education completed: university (D-IV/S1/S2/S3) 6.13%, SMA 6.23%, SMK 7.74%." data-id="Badan Pusat Statistik, Berita Resmi Statistik, 5 Mei 2026: “Tingkat Pengangguran Terbuka (TPT) sebesar 4,68 persen; rata-rata upah buruh sebesar 3,29 juta rupiah” — Sakernas Februari 2026. TPT 4,68%; angkatan kerja 154,91 juta; penganggur ≈ 7,24 juta; TPT menurut pendidikan tertinggi: universitas (D-IV/S1/S2/S3) 6,13%, SMA 6,23%, SMK 7,74%.">Badan Pusat Statistik (BPS-Statistics Indonesia), Berita Resmi Statistik, 5 May 2026: “Tingkat Pengangguran Terbuka (TPT) sebesar 4,68 persen; rata-rata upah buruh sebesar 3,29 juta rupiah” — Sakernas February 2026. Open unemployment 4.68%; labour force 154.91 million; unemployed ≈ 7.24 million; TPT by highest education completed: university (D-IV/S1/S2/S3) 6.13%, SMA 6.23%, SMK 7.74%.</span>
+        <a href="https://www.bps.go.id/id/pressrelease/2026/05/05/2574/tingkat-pengangguran-terbuka--tpt--sebesar-4-68-persen--rata-rata-upah-buruh-sebesar-3-29-juta-rupiah-.html" target="_blank" rel="noopener">bps.go.id ↗</a>
+        · <a href="https://www.bps.go.id/en/statistics-table/2/MTE3OSMy/tingkat-pengangguran-terbuka-berdasarkan-tingkat-pendidikan.html" target="_blank" rel="noopener" data-en="table: unemployment rate by education level ↗" data-id="tabel: TPT menurut tingkat pendidikan ↗">table: unemployment rate by education level ↗</a></li>
+    </ol>
+    <p class="sources-note" data-en="We publish only figures we can point to. Where a number has no named source, we say so or leave it out." data-id="Kami hanya menerbitkan angka yang bisa kami tunjuk sumbernya. Bila sebuah angka tidak punya sumber bernama, kami katakan begitu atau kami tidak menampilkannya.">We publish only figures we can point to. Where a number has no named source, we say so or leave it out.</p>
+  </div>
+</section>
 
 <footer class="site-footer" id="siteFooter">
   <div class="sf-in">
@@ -2011,16 +2085,69 @@ if(parImg && !reduceMotion){
   par();
 }
 
-/* ─── Enterprise contact form → structured email ─── */
+/* ─── Enterprise contact form → real POST, persisted, acknowledged ───
+   Delivery endpoint: a form service (Formspree / Basin) or a serverless
+   function that stores every submission and sends the auto-acknowledgement.
+   Configure once in data/contact.js; the mailto link is a visible fallback
+   only, never the primary path. */
 const cform = document.getElementById('cform');
 if(cform){
-  cform.addEventListener('submit', e=>{
+  const CFG = window.MT_CONTACT || {};
+  const ENDPOINT = CFG.enterpriseEndpoint || '';
+  const BOOKING = CFG.bookingUrl || '';
+  const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
+  const book = document.getElementById('cf-book');
+  if(book && BOOKING){ book.href = BOOKING; book.target = '_blank'; book.rel = 'noopener'; book.hidden = false; }
+  const cta = document.querySelector('.cta-actions');
+  if(cta && BOOKING){
+    const a = document.createElement('a'); a.href = BOOKING; a.target = '_blank'; a.rel = 'noopener'; a.className = 'cta-ghost';
+    a.setAttribute('data-en', 'Pick a time on our calendar →'); a.setAttribute('data-id', 'Pilih waktu di kalender kami →'); a.textContent = 'Pick a time on our calendar →';
+    cta.insertBefore(a, cta.children[1] || null);
+  }
+  const payload = ()=>({
+    name: v('cf-name'), company: v('cf-company'), role: v('cf-role'), cohort_size: v('cf-size'),
+    interest: v('cf-interest'), message: v('cf-msg'),
+    timestamp: new Date().toISOString(), source_page: location.href,
+    language: (document.documentElement.lang || 'en'),
+    _subject: 'Enterprise Inquiry — ' + (v('cf-interest')||'General') + (v('cf-company') ? ' — ' + v('cf-company') : ''),
+    _replyto: v('cf-email') || undefined
+  });
+  const mailtoHref = ()=>{
+    const p = payload();
+    const body = ['Name: ' + p.name, 'Company: ' + p.company, 'Role: ' + p.role, 'Cohort size: ' + p.cohort_size,
+      'Interest: ' + p.interest, 'Source: ' + p.source_page, '', p.message].join('\n');
+    return 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(p._subject) + '&body=' + encodeURIComponent(body);
+  };
+  const show = (id, on)=>{ const el = document.getElementById(id); if(el) el.hidden = !on; };
+  cform.addEventListener('submit', async e=>{
     e.preventDefault();
-    const v = id=>{ const el=document.getElementById(id); return el?el.value.trim():''; };
-    const subject = 'Enterprise Inquiry — ' + (v('cf-interest')||'General') + (v('cf-company') ? ' — ' + v('cf-company') : '');
-    const body = ['Name: ' + v('cf-name'), 'Company: ' + v('cf-company'), 'Role: ' + v('cf-role'),
-      'Cohort size: ' + v('cf-size'), 'Interest: ' + v('cf-interest'), '', v('cf-msg')].join('\n');
-    location.href = 'mailto:hello@metanoialabs.net?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    if(!cform.reportValidity()) return;
+    if(v('cf-name') === '' || v('cf-company') === '') return;
+    const gotcha = cform.querySelector('[name="_gotcha"]'); if(gotcha && gotcha.value) return;   /* honeypot */
+    const btn = document.getElementById('cf-submit');
+    show('cf-fail', false);
+    if(!ENDPOINT){
+      /* No delivery endpoint configured yet: say so, and fall back to email
+         without pretending anything was sent. */
+      show('cf-fail', true);
+      const f = document.getElementById('cf-fail');
+      f.querySelector('b').textContent = document.documentElement.lang === 'id' ? 'Pengiriman formulir belum tersambung.' : 'Form delivery is not connected yet.';
+      document.getElementById('cf-mailto').href = mailtoHref();
+      return;
+    }
+    btn.disabled = true; const label = btn.textContent; btn.textContent = document.documentElement.lang === 'id' ? 'Mengirim…' : 'Sending…';
+    try{
+      const r = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload()) });
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      try{ localStorage.setItem('metanoia_enterprise_last_inquiry', JSON.stringify({ at: Date.now(), company: v('cf-company') })); }catch(err){}
+      cform.querySelectorAll('.cfield').forEach(f=>{ f.hidden = true; });
+      btn.hidden = true; document.getElementById('cf-note').hidden = true;
+      show('cf-done', true);
+    }catch(err){
+      show('cf-fail', true);
+      document.getElementById('cf-mailto').href = mailtoHref();
+      btn.disabled = false; btn.textContent = label;
+    }
   });
 }
 
@@ -2408,6 +2535,7 @@ document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
   if(st) st.addEventListener('click',function(){var t=document.getElementById('themeBtn');if(t)t.click();});
 })();
 </script>
+<script src="../data/contact.js"></script>
 <script src="../js/mob-footer.js"></script>
 </body>
 </html>

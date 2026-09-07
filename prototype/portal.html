@@ -40,9 +40,8 @@
 <meta property="og:url" content="https://metanoialabs.net/portal">
 <meta property="og:title" content="Portal — Metanoia Labs">
 <meta property="og:description" content="The door to your career navigation system. The Compass and all five Metanoia products, one hub.">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
   /* Backgrounds */
   --bg-base:  #050A12;
@@ -1054,7 +1053,14 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 </style>
 </head>
 <body>
-
+<script>
+/* Interim client-side gate: no session, no portal. Real server-side authorisation is Tier 4. */
+(function () {
+  if (!sessionStorage.getItem('metanoia_auth')) {
+    location.replace('/login?next=' + encodeURIComponent(location.pathname));
+  }
+})();
+</script>
 <!-- Skip link (accessibility) -->
 <a href="#main-content" class="sr-skip"
    data-en="Skip to main content" data-id="Langsung ke konten utama">Skip to main content</a>
@@ -1159,7 +1165,19 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
    <div class="portal-inner">
 
     <!-- Section 1: Welcome header -->
-    <section class="portal-welcome portal-section" aria-label="Welcome">
+    <!-- New-user zero state: shown until a Career Map bearing exists -->
+    <section class="portal-zero portal-section" id="zero-state" hidden aria-label="Start here">
+      <h1 class="portal-welcome-greeting" style="line-height:1.25">
+        <span data-en="Welcome. Your climb hasn't started yet." data-id="Selamat datang. Pendakianmu belum dimulai.">Welcome. Your climb hasn't started yet.</span>
+        <span class="name-accent" id="zero-name" hidden></span>
+      </h1>
+      <p class="portal-welcome-sub" style="max-width:56ch"
+         data-en="Take your Career Map to generate your first bearing — 15 minutes, and everything on this page starts working."
+         data-id="Ambil Career Map-mu untuk menghasilkan bearing pertamamu — 15 menit, dan semua yang ada di halaman ini mulai bekerja.">Take your Career Map to generate your first bearing — 15 minutes, and everything on this page starts working.</p>
+      <p style="margin-top:var(--space-5)"><a href="/career-map-assessment" class="btn btn-primary btn-lg"><span data-en="Take the Career Map →" data-id="Ambil Career Map →">Take the Career Map →</span></a></p>
+    </section>
+
+    <section class="portal-welcome portal-section" id="portal-welcome" aria-label="Welcome">
       <div class="portal-welcome-text">
         <h1 class="portal-welcome-greeting">
           <span id="welcome-verb" data-en="Welcome back," data-id="Selamat datang kembali,">Welcome back,</span>
@@ -1239,7 +1257,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
     </section>
 
     <!-- Section 4: Quick stats -->
-    <section class="portal-stats portal-section" aria-label="Activity summary">
+    <section class="portal-stats portal-section" id="portal-stats" aria-label="Activity summary">
       <div class="portal-stat-item">
         <svg class="portal-stat-icon" width="20" height="20" viewBox="0 0 24 24"
              fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
@@ -1309,22 +1327,19 @@ h1, h2, h3, h4, h5, h6 { font-weight: inherit; margin: 0; }
 
 /* ═══ 1. AUTH GATE ═══ */
 const params = new URLSearchParams(window.location.search);
-const isDemo = params.get('demo') === 'true';
-if (isDemo) document.addEventListener('DOMContentLoaded', function () {
-  const db = document.createElement('div');
-  db.className = 'demo-banner'; db.setAttribute('role', 'status');
-  db.innerHTML = (document.documentElement.lang || 'en').indexOf('id') === 0
-    ? 'Demo — ini data contoh, bukan akun nyata. <a href="register">Buat akunmu sendiri →</a>'
-    : 'Demo — this is sample data, not a real account. <a href="register">Create your own →</a>';
-  document.body.prepend(db);
-});
+/* The sales/marketing demo is a separate page (/demo) built from this one with
+   clearly labelled fixture data. On the portal itself FIXTURE is always null:
+   every number on this page comes from the signed-in person's own data or is
+   not shown at all. */
+const FIXTURE = window.MT_DEMO_FIXTURE || null;
+const isDemo = !!FIXTURE;
 
-let isAuth = false;
+let isAuth = isDemo;
 try {
-  isAuth = sessionStorage.getItem('metanoia_auth') === 'true' || !!localStorage.getItem('metanoia_session');
+  isAuth = isAuth || sessionStorage.getItem('metanoia_auth') === 'true';
 } catch (e) {}
-if (!isDemo && !isAuth) {
-  window.location.replace('login?redirect=portal');
+if (!isAuth) {
+  window.location.replace('/login?next=' + encodeURIComponent(location.pathname));
 }
 
 /* ═══ 2. LANGUAGE (shared mtLang key; metanoia_lang mirrored for spec compat) ═══ */
@@ -1355,16 +1370,16 @@ window.setLanguage = function (l) {
 };
 
 /* ═══ 3. DATA READS (Compass localStorage namespace) ═══ */
-const DEMO = {
-  name: 'Demo User',
-  seeds: { careerIntelligence: 62, profileStrength: 48, interviewReadiness: 66, networkCapital: 47, careerMindset: 55 },
-  apps: 5, streak: 3,
-  progress: { aladin: 4, maverick: 3, nexus: 6, horizon: 0 }
-};
+/* A bearing exists only once the person has taken the Career Map. Until then the
+   page shows its zero state — no scores, no percentages, no invented level. */
+function hasBearing() {
+  if (isDemo) return true;
+  try { return !!localStorage.getItem('compass_seed_scores'); } catch (e) { return false; }
+}
 
 function getCompassScores() {
   let seeds = {};
-  if (isDemo) seeds = DEMO.seeds;
+  if (isDemo) seeds = FIXTURE.seeds;
   else { try { seeds = JSON.parse(localStorage.getItem('compass_seed_scores') || '{}') || {}; } catch (e) {} }
   return {
     overall: Math.round(((seeds.careerIntelligence || 0) + (seeds.profileStrength || 0) +
@@ -1379,7 +1394,7 @@ function getCompassScores() {
 }
 
 function getActiveApplicationCount() {
-  if (isDemo) return DEMO.apps;
+  if (isDemo) return FIXTURE.apps;
   try {
     const apps = JSON.parse(localStorage.getItem('compass_applications') || '[]');
     return apps.filter(a => !['rejected', 'withdrawn', 'offer_declined'].includes(a.status)).length;
@@ -1387,7 +1402,7 @@ function getActiveApplicationCount() {
 }
 
 function getLearningStreak() {
-  if (isDemo) return DEMO.streak;
+  if (isDemo) return FIXTURE.streak;
   let explicit = NaN;
   try { explicit = parseInt(localStorage.getItem('compass_learn_streak') || '', 10); } catch (e) {}
   if (!isNaN(explicit)) return explicit;
@@ -1408,7 +1423,7 @@ function getLearningStreak() {
 }
 
 function getModulesDone(key, total) {
-  if (isDemo) return DEMO.progress[key.replace('_progress', '')] || 0;
+  if (isDemo) return FIXTURE.progress[key] || 0;
   /* platform convention: course pages write progress to sessionStorage;
      localStorage checked as a spec-compatible fallback */
   let raw = null;
@@ -1431,14 +1446,14 @@ function getLevel(score) {
 }
 
 function getName() {
-  if (isDemo) return DEMO.name;
+  if (isDemo) return FIXTURE.name;
   try {
     const n = sessionStorage.getItem('metanoia_name');
     if (n) return n;
     const sess = JSON.parse(localStorage.getItem('metanoia_session') || 'null');
     if (sess && sess.name) return sess.name;
   } catch (e) {}
-  return 'Explorer';
+  return '';   /* greet by the authenticated name, or not at all — never a placeholder person */
 }
 
 /* ═══ 4. WELCOME HEADER ═══ */
@@ -1446,21 +1461,35 @@ function renderWelcome() {
   const name = getName();
   let isReturn = isDemo;
   try { isReturn = isDemo || !!sessionStorage.getItem('metanoia_has_visited_portal'); } catch (e) {}
+  const initials = name ? name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() : '';
+  document.getElementById('topbar-initials').textContent = initials || '·';
+
+  const zero = document.getElementById('zero-state');
+  const welcome = document.getElementById('portal-welcome');
+  const stats = document.getElementById('portal-stats');
+  if (!hasBearing()) {
+    /* New-user zero state: nothing on this page is computed until the Career Map exists. */
+    zero.hidden = false; welcome.hidden = true; stats.hidden = true;
+    const zn = document.getElementById('zero-name');
+    zn.textContent = name ? name : '';
+    zn.hidden = !name;
+    if (!isDemo) { try { sessionStorage.setItem('metanoia_has_visited_portal', 'true'); } catch (e) {} }
+    return;
+  }
+  zero.hidden = true; welcome.hidden = false; stats.hidden = false;
   const scores = getCompassScores();
   const level = getLevel(scores.overall);
-  const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
-
-  document.getElementById('welcome-name').textContent = name;
-  document.getElementById('topbar-initials').textContent = initials;
+  const nameEl = document.getElementById('welcome-name');
+  nameEl.textContent = name;
+  nameEl.hidden = !name;
   document.getElementById('welcome-score').textContent = scores.overall;
   document.getElementById('level-name').textContent = level.name;
 
   const verbEl = document.getElementById('welcome-verb');
-  if (!isReturn) {
-    verbEl.dataset.en = 'Welcome,';
-    verbEl.dataset.id = 'Selamat datang,';
-    verbEl.textContent = L('Welcome,', 'Selamat datang,');
-  }
+  const verb = isReturn ? ['Welcome back', 'Selamat datang kembali'] : ['Welcome', 'Selamat datang'];
+  verbEl.dataset.en = verb[0] + (name ? ',' : '.');
+  verbEl.dataset.id = verb[1] + (name ? ',' : '.');
+  verbEl.textContent = L(verbEl.dataset.en, verbEl.dataset.id);
   if (!isDemo) { try { sessionStorage.setItem('metanoia_has_visited_portal', 'true'); } catch (e) {} }
 }
 
@@ -1469,8 +1498,7 @@ function renderCompassCard() {
   const scores = getCompassScores();
   const level = getLevel(scores.overall);
   const appCount = getActiveApplicationCount();
-  let hasVisited = isDemo;
-  try { hasVisited = isDemo || !!localStorage.getItem('compass_seed_scores') || !!localStorage.getItem('compass_applications'); } catch (e) {}
+  const hasVisited = hasBearing();
   const statsEl = document.getElementById('compass-stats');
   const ctaSpan = document.getElementById('compass-cta').querySelector('[data-en]');
 
@@ -1523,16 +1551,21 @@ function renderProductsGrid() {
       ? Math.round((completedModules / p.totalModules) * 100) : null;
     const isCompass = p.id === 'compass';
 
-    const progressHTML = isCompass ? '' : `
+    const progressHTML = isCompass ? '' : (pct > 0 ? `
       <div class="product-card-progress">
         <div class="product-progress-label">
           <span data-en="Progress" data-id="Progres">${L('Progress', 'Progres')}</span>
-          <span class="product-progress-pct">${pct ?? 0}%</span>
+          <span class="product-progress-pct">${pct}%</span>
         </div>
         <div class="progress-track">
-          <div class="progress-fill" style="width:${pct ?? 0}%"></div>
+          <div class="progress-fill" style="width:${pct}%"></div>
         </div>
-      </div>`;
+      </div>` : `
+      <div class="product-card-progress">
+        <div class="product-progress-label">
+          <span data-en="Not started" data-id="Belum dimulai">${L('Not started', 'Belum dimulai')}</span>
+        </div>
+      </div>`);
 
     const ctaLabel = isCompass
       ? { en: 'Open Compass →', id: 'Buka Compass →' }
@@ -1560,6 +1593,7 @@ function renderProductsGrid() {
 
 /* ═══ 7. QUICK STATS ═══ */
 function renderStats() {
+  if (!hasBearing()) return;
   const scores = getCompassScores();
   document.getElementById('stat-overall-score').textContent = scores.overall + '/100';
   document.getElementById('stat-applications').textContent = getActiveApplicationCount();
@@ -1648,7 +1682,7 @@ function getActiveNavId() {
 
 function renderSidebarIdentity() {
   const name = getName();
-  const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  const initials = name ? name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() : '·';
   let calib = {}, tier = 'free';
   try {
     calib = JSON.parse(sessionStorage.getItem('compass_calibration') || '{}') || {};
@@ -1668,10 +1702,10 @@ function renderSidebarIdentity() {
     healthcare: 'Healthcare', energy: 'Energy', public: L('Public Sector', 'Sektor Publik'),
     media: 'Media', other: ''
   };
-  const stage = stageMap[calib.careerStage] || L('Explorer', 'Penjelajah');
+  const stage = stageMap[calib.careerStage] || '';
   const industry = industryMap[calib.industry] || '';
   document.getElementById('sidebar-avatar').textContent = initials;
-  document.getElementById('sidebar-name').textContent = name;
+  document.getElementById('sidebar-name').textContent = name || L('Your account', 'Akunmu');
   document.getElementById('sidebar-stage').textContent = [stage, industry].filter(Boolean).join(' · ');
 
   const tierData = {

@@ -33,6 +33,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Fresh Graduates — graduation was the starting gun, not the finish line. Build the system that turns your degree into an offer.">
 <link rel="canonical" href="https://metanoialabs.net/pages/fresh-graduate">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/fresh-graduate">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/fresh-graduate">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/fresh-graduate">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/fresh-graduate">
 <meta property="og:type" content="website">
@@ -45,7 +48,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Fresh Graduates — graduation was the starting gun, not the finish line. Build the system that turns your degree into an offer.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/ch1-realization.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -2081,7 +2084,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
-  <video autoplay muted loop playsinline preload="auto" id="heroVideo"
+  <video data-autoplay muted loop playsinline preload="none" id="heroVideo"
          poster="../assets/bg/fresh-graduate-hero-poster.jpg" aria-hidden="true" tabindex="-1"><source src="../assets/fresh-graduate-hero.webm" type="video/webm"><source src="../assets/fresh-graduate-hero.mp4" type="video/mp4"></video>
   <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/fresh-graduate-hero-poster.jpg')"></div>
   <div class="hero-overlay"></div>
@@ -2615,7 +2618,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
     <div class="chapter-label reveal" data-en="Chapter IV · The Product Suite" data-id="Bab IV · Rangkaian Produk">Chapter IV · The Product Suite</div>
     <div class="prod-intro reveal">
       <div class="kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
-      <p data-en="Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members." data-id="Lima alat yang dirancang khusus untuk lulusan baru yang menavigasi pintu masuk pertama ke dunia profesional. Tersedia eksklusif untuk anggota Metanoia Premium.">Five tools built specifically for fresh graduates navigating their first entry into the professional world. Available exclusively to Metanoia Premium members.</p>
+      <p data-en="Five tools built specifically for fresh graduates navigating their first entry into the professional world. Included in the Fresh Graduate membership — Rp 0 during beta." data-id="Lima alat yang dirancang khusus untuk lulusan baru yang menavigasi pintu masuk pertama ke dunia profesional. Termasuk dalam keanggotaan Fresh Graduate — Rp 0 selama beta.">Five tools built specifically for fresh graduates navigating their first entry into the professional world. Included in the Fresh Graduate membership — Rp 0 during beta.</p>
     </div>
     <!-- PRODUCT SUITE — auto-scrolling premium carousel -->
     <div class="pcar reveal" id="prod-carousel" role="region" aria-label="Metanoia product suite carousel">
@@ -2629,7 +2632,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="pcar-track" id="pcar-track">
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-map.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#1D5FAB,#0A1E3A)" aria-hidden="true"><img class="pc-art" src="../assets/opt/system-the-map.webp" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M9 4 L3 6 v14 l6-2 6 2 6-2 V4 l-6 2 Z"/><path d="M9 4 v14 M15 6 v14"/></svg></div>
             <div class="pc-body">
               <span class="ptag cobalt">01 · The Map</span>
               <h3 data-en="The Map — Direction Edition" data-id="The Map — Edisi Arah">The Map — Direction Edition</h3>
@@ -2642,12 +2645,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 <div class="mrow"><span class="don"></span><span>Targets: 3 companies shortlisted</span></div>
               </div>
               <a href="/products/the-map/" class="prod-cta" data-en="Explore The Map →" data-id="Jelajahi The Map →">Explore The Map →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>
             </div>
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-pack.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#0D7377,#05292B)" aria-hidden="true"><img class="pc-art" src="../assets/opt/system-the-pack.webp" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg></div>
             <div class="pc-body">
               <span class="ptag teal">02 · The Pack</span>
               <h3 data-en="The Pack — The Application Toolkit" data-id="The Pack — Perangkat Lamaran">The Pack — The Application Toolkit</h3>
@@ -2667,12 +2670,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 <div class="mrow"><span class="don"></span><span>Keyword density: optimize</span></div>
               </div>
               <a href="/products/the-pack/" class="prod-cta" data-en="Explore The Pack →" data-id="Jelajahi The Pack →">Explore The Pack →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>
             </div>
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-rope.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#B45309,#3A1B04)" aria-hidden="true"><img class="pc-art" src="../assets/opt/system-the-rope.webp" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg></div>
             <div class="pc-body">
               <span class="ptag amber">03 · The Rope</span>
               <h3 data-en="The Rope — Interview Mastery" data-id="The Rope — Penguasaan Wawancara">The Rope — Interview Mastery</h3>
@@ -2691,12 +2694,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 <div class="mrow"><span class="don"></span><span>Next: market sizing practice</span></div>
               </div>
               <a href="/products/the-rope/" class="prod-cta" data-en="Explore The Rope →" data-id="Jelajahi The Rope →">Explore The Rope →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>
             </div>
           </div>
 
           <div class="prod-card">
-            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><img class="pc-art" src="../assets/system-the-route.png" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
+            <div class="pc-head" style="background:linear-gradient(140deg,#1A5C38,#07200F)" aria-hidden="true"><img class="pc-art" src="../assets/opt/system-the-route.webp" alt="" loading="lazy" decoding="async"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 20 C13.5 17 6.5 12.5 13 9.5 C19 6.8 14.5 5.4 17.5 3.8"/><circle cx="6" cy="20" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.5" cy="3.8" r="1.5" fill="currentColor" stroke="none"/></svg></div>
             <div class="pc-body">
               <span class="ptag forest">04 · The Route</span>
               <h3 data-en="The Route — Scholarship &amp; Graduate Programmes" data-id="Beasiswa &amp; Program Lulusan">Scholarship &amp; Graduate Programs</h3>
@@ -2714,7 +2717,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 <div class="mrow"><span class="don"></span><span>Deadline: 23 days</span></div>
               </div>
               <a href="/products/the-route/" class="prod-cta" data-en="Explore The Route →" data-id="Jelajahi The Route →">Explore The Route →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>
             </div>
           </div>
 
@@ -2732,7 +2735,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                 <div class="mrow"><span class="don"></span><span>Next: follow up pending application</span></div>
               </div>
               <a href="/products/the-compass/" class="prod-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
-              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span></div>
+              <div class="prem"><svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg><span data-commercial="included" data-edition="fresh-graduate" data-en="Included in the Fresh Graduate membership" data-id="Termasuk dalam keanggotaan Fresh Graduate">Included in the Fresh Graduate membership</span></div>
             </div>
           </div>
 
@@ -2868,7 +2871,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <p class="pb-alt" data-en="Beta introductory price — USD 0 · standard pricing at commercial launch" data-id="Harga perkenalan beta — USD 0 · harga standar saat rilis komersial">Beta introductory price — USD 0 · standard pricing at commercial launch</p>
           <a class="pb-cta" href="../pricing"><span data-en="See what's included" data-id="Lihat yang termasuk">See what's included</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
         </div>
-        <img class="pb-medal" src="../assets/asset-medallion.png" alt="" loading="lazy" decoding="async">
+        <img class="pb-medal" src="../assets/opt/asset-medallion.webp" alt="" loading="lazy" decoding="async">
       </div>
       <p class="pb-honesty"><span class="pbh-ico"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="We&rsquo;re in early access. <a href='../pricing'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a>" data-id="Kami dalam tahap akses awal. <a href='../pricing'>Inilah persis apa yang sudah dibangun hari ini dan apa yang belum.</a>">We&rsquo;re in early access. <a href='../pricing'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a></span></p>
     </section>
@@ -2881,8 +2884,8 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <div class="faq-a" id="faqa-1" data-en="No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them." data-id="Tidak — tetapi pertanyaan yang tepat adalah apakah kamu sudah melamar secara strategis atau sekadar massal. Kebanyakan pencarian kerja yang berlarut-larut gagal bukan karena kurang usaha, tapi karena kurang arah: melamar secara luas, mempresentasikan CV yang generik, dan berlatih wawancara sendiri tanpa umpan balik. Metanoia dirancang khusus untuk memperbaiki ketiga masalah ini, tidak peduli sudah berapa lama kamu mencari. Pasar masih punya lowongan terbuka. Kamu butuh sistem yang tepat untuk mencapainya.">No — but the right question is whether you’ve been applying strategically or exhaustively. Most extended job searches fail not from lack of effort, but from lack of direction: applying broadly, presenting a generic CV, and practicing interviews alone without feedback. Metanoia is specifically designed to fix these three problems, regardless of how long you’ve been searching. The market still has openings. You need the right system to reach them.</div>
         </div>
         <div class="faq-item">
-          <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="What does Metanoia Premium include, and how much does it cost?" data-id="Apa yang termasuk dalam Metanoia Premium, dan berapa biayanya?">What does Metanoia Premium include, and how much does it cost?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-2" data-en="Metanoia Premium for Fresh Graduates gives you full access to all five products — all five pillars — The Map, The Pack, The Rope, The Route, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans." data-id="Metanoia Premium untuk Lulusan Baru memberimu akses penuh ke semua lima produk — The Map (Edisi Arah), The Pack, Interview Mastery, Beasiswa &amp; Program Lulusan, dan pelacak The Compass — ditambah Portal Karier terotentikasi dengan rute 90 hari personal. Diagnostik Career Map selalu gratis. Harga ditampilkan saat kamu membuat akun gratis, dengan paket bulanan dan semester yang ramah mahasiswa.">Metanoia Premium for Fresh Graduates gives you full access to all five products — all five pillars — The Map, The Pack, The Rope, The Route, and The Compass tracker — plus the authenticated Career Portal with your personalized 90-day route. Your Career Map diagnostic is always free. Pricing is shown when you create your free account, with student-friendly monthly and semester plans.</div>
+          <button class="faq-q" aria-expanded="false" aria-controls="faqa-2"><span data-en="What does the Fresh Graduate membership include, and how much does it cost?" data-id="Apa saja yang termasuk dalam keanggotaan Fresh Graduate, dan berapa biayanya?">What does the Fresh Graduate membership include, and how much does it cost?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <div class="faq-a" id="faqa-2" data-en="The Fresh Graduate membership gives you full access to all five pillars — The Map, The Pack, The Rope, The Route, and The Compass — plus the authenticated Career Portal with your personalised 90-day route. Basecamp (the Career Map, your readiness score, the Gauntlet guide, your route outline and the community) is free, always. Everything beyond that is Rp 0 during beta; see the pricing page for what is live today." data-id="Keanggotaan Fresh Graduate memberimu akses penuh ke kelima pilar — The Map, The Pack, The Rope, The Route, dan The Compass — ditambah Career Portal terautentikasi dengan rute personalmu. Basecamp (Career Map, skor kesiapan, panduan Gauntlet, kerangka rute, dan komunitas) gratis, selamanya. Semua di luar itu Rp 0 selama beta; lihat halaman harga untuk apa yang sudah tersedia hari ini.">The Fresh Graduate membership gives you full access to all five pillars — The Map, The Pack, The Rope, The Route, and The Compass — plus the authenticated Career Portal with your personalised 90-day route. Basecamp (the Career Map, your readiness score, the Gauntlet guide, your route outline and the community) is free, always. Everything beyond that is Rp 0 during beta; see the pricing page for what is live today.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-3"><span data-en="I don’t have any internship experience. Can Metanoia still help me?" data-id="Saya tidak punya pengalaman magang sama sekali. Apakah Metanoia masih bisa membantu saya?">I don’t have any internship experience. Can Metanoia still help me?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
@@ -3936,7 +3939,7 @@ const GAUNTLET_GATES = [
         en: 'Know what the market actually wants from a candidate at your stage. Know where your experience maps — and where the gaps are. Know which companies are realistically within reach this cycle.',
         id: 'Ketahui apa yang sebenarnya diinginkan pasar dari kandidat di tahapmu. Ketahui ke mana pengalamanmu bisa dipetakan — dan di mana kesenjangan yang ada. Ketahui perusahaan mana yang realistis dapat dicapai siklus ini.'
       },
-      image: '../assets/system-the-map.png', kb: 'right'
+      image: '../assets/opt/system-the-map.webp', kb: 'right'
     },
     {
       tag: { en: 'System 02 · The Pack', id: 'Sistem 02 · The Pack' }, color: '#B45309',
@@ -3945,7 +3948,7 @@ const GAUNTLET_GATES = [
         en: 'The ATS-passing CV. The tailored cover positioning. The portfolio that proves capability rather than just listing experience. The documents that make a recruiter stop scrolling.',
         id: 'CV yang lolos ATS. Posisi cover yang disesuaikan. Portofolio yang membuktikan kemampuan bukan sekadar mencantumkan pengalaman. Dokumen yang membuat rekruter berhenti menggulir.'
       },
-      image: '../assets/system-the-pack.png', kb: 'left'
+      image: '../assets/opt/system-the-pack.webp', kb: 'left'
     },
     {
       tag: { en: 'System 03 · The Rope', id: 'Sistem 03 · The Rope' }, color: '#B45309',
@@ -3954,7 +3957,7 @@ const GAUNTLET_GATES = [
         en: 'Behavioral, case, aptitude, FGD — practiced with AI that remembers your last session and targets your weakest answers. Walk into every interview knowing exactly where you\u2019ve improved and what still needs work.',
         id: 'Wawancara behavioral, case, aptitude, FGD — dilatih dengan AI yang mengingat sesi terakhirmu dan menargetkan jawabanmu yang paling lemah. Hadapi setiap wawancara dengan mengetahui persis di mana kamu sudah berkembang dan apa yang masih perlu dikerjakan.'
       },
-      image: '../assets/system-the-rope.png', kb: 'up'
+      image: '../assets/opt/system-the-rope.webp', kb: 'up'
     },
     {
       tag: { en: 'System 04 · The Route', id: 'Sistem 04 · The Route' }, color: '#B45309',
@@ -3963,7 +3966,7 @@ const GAUNTLET_GATES = [
         en: 'One highest-leverage action every day. Applications, practice, network outreach, company research — sequenced in the order that produces an offer fastest. Your route adjusts as you learn more about what the market is responding to.',
         id: 'Satu tindakan paling berdampak setiap hari. Lamaran, latihan, jangkauan jaringan, riset perusahaan — diurutkan dalam urutan yang menghasilkan tawaran paling cepat. Jalurmu disesuaikan saat kamu semakin memahami apa yang direspons oleh pasar.'
       },
-      image: '../assets/system-the-route.png', kb: 'right'
+      image: '../assets/opt/system-the-route.webp', kb: 'right'
     }
   ];
 

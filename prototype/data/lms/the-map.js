@@ -20,7 +20,7 @@ window.MT_LMS['the-map'] = {
   "video": "../../assets/01-call-v2.mp4",
   "poster": "../../assets/bg/map-hero.jpg",
   "art": "../../assets/product-art/the-map.svg",
-  "visual": "../../assets/system-the-map.png",
+  "visual": "../../assets/opt/system-the-map.webp",
   "captions": {
    "en": "../../assets/lms/captions-en.vtt",
    "id": "../../assets/lms/captions-id.vtt"

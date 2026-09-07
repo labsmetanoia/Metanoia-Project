@@ -36,8 +36,8 @@
 <title>My Purchases — Metanoia Labs</title>
 <link rel="canonical" href="https://metanoialabs.net/purchases">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
   --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
   --gold:#C9A84C; --gold-bright:#F0D878; --gold-deep:#8B6914;
@@ -273,7 +273,7 @@ function render() {
     planBadge.textContent = L('Expired', 'Berakhir');
     planCta.innerHTML = '<a href="register?plan=premium" class="btn btn-primary">' + L('Reactivate Compass →', 'Aktifkan Ulang Compass →') + '</a>';
   } else {
-    planName.textContent = L('Learning Access (free)', 'Akses Belajar (gratis)');
+    planName.textContent = L('Basecamp (free)', 'Basecamp (gratis)');
     planMeta.textContent = L('Course access with limited Compass features.', 'Akses kursus dengan fitur Compass terbatas.');
     planBadge.className = 'plan-badge free';
     planBadge.textContent = L('Free', 'Gratis');

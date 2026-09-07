@@ -91,10 +91,13 @@
   function meta(a) {
     return '<div class="meta">' + fdate(a.date) + ' · ' + a.minutes + ' ' + t('min read', 'menit baca') + '</div>';
   }
+  /* Every card is a real link to the article's own URL (/mind-palace/<slug>/),
+     pre-rendered at build time so it can be crawled, previewed and shared. */
+  function artUrl(slug) { return '/mind-palace/' + slug + '/'; }
   function openBtn(a, inner, cls, di) {
-    return '<button class="card-a ' + (cls || '') + '"' +
+    return '<a class="card-a ' + (cls || '') + '"' +
       (di ? ' style="transition-delay:' + (di * 70) + 'ms"' : '') +
-      ' data-read="' + a.slug + '">' + inner + '</button>';
+      ' href="' + artUrl(a.slug) + '" data-read="' + a.slug + '">' + inner + '</a>';
   }
   /* Topic-mapped photography from the platform's curated inventory. */
   function cardImg(a) {
@@ -853,7 +856,8 @@
   /* ── wiring helpers ── */
   function wireReads(root) {
     root.querySelectorAll('[data-read]').forEach(function (b) {
-      b.addEventListener('click', function () { location.hash = '#/read/' + b.dataset.read; });
+      if (b.tagName === 'A') return;   /* real link — the browser handles it */
+      b.addEventListener('click', function () { location.href = artUrl(b.dataset.read); });
     });
   }
   function wireBack(root) {
@@ -896,7 +900,7 @@
       });
       if (id !== 'v-read') prog.style.width = '0';
     };
-    if ((m = h.match(/^#\/read\/([\w-]+)/))) { renderRead(m[1]); show('v-read'); }
+    if ((m = h.match(/^#\/read\/([\w-]+)/))) { location.replace(artUrl(m[1])); return; }   /* legacy hash → real URL */
     else if ((m = h.match(/^#\/need\/([\w-]+)/))) { renderNeed(m[1]); show('v-topic'); window.scrollTo(0, 0); }
     else if ((m = h.match(/^#\/topic\/([\w-]+)/))) { renderTopic(m[1]); show('v-topic'); window.scrollTo(0, 0); }
     else if (/^#\/saved/.test(h)) { renderSaved(); show('v-saved'); window.scrollTo(0, 0); }

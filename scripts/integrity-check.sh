@@ -3,6 +3,9 @@
 #  1. Zero retired product names (transition notes and the registry excepted)
 #  2. Zero asset filenames containing spaces or uppercase characters
 #  3. Zero href="#" in production HTML
+#  5. Zero retired product names / commercial terms in pages, products, components, i18n
+#  6. Commercial copy on every page matches data/commercial.js
+#  7. Build outputs exist (the site is built before the gates run)
 set -u
 cd "$(dirname "$0")/.."
 FAIL=0
@@ -58,7 +61,40 @@ else
   echo "   clean"
 fi
 
-echo "── 5. asset licence manifest"
+echo "── 5. retired product names and commercial terms (pages, products, components, i18n)"
+# Case-sensitive product-name forms. Lowercase legacy storage keys (maverick_progress …)
+# are identifiers that keep members' saved progress readable and are not product names.
+BANNED=('Project Aladin' 'Project Aladdin' 'Aladin' 'Aladdin' 'Project Maverick' 'Maverick'
+        'Project Nexus' 'Nexus' 'Project Horizon' 'Horizon' 'The Climb' 'The Lookout'
+        'Eksplorasi Puncak Tujuan' 'Premium Trail' 'Learning Access' 'Metanoia Premium')
+# Allowed: ordinary English uses that are not product names, and transition notes.
+ALLOW='Financial Planning Horizon|Previously known as|Sebelumnya dikenal sebagai|time horizon|planning horizon|horizon tahunan|trajectory horizon|annual trajectory'
+SCAN=""
+for d in prototype/pages prototype/products prototype/components prototype/i18n; do [ -d "$d" ] && SCAN="$SCAN $d"; done
+for name in "${BANNED[@]}"; do
+  HITS=$(grep -rnw --include='*.html' --include='*.js' --include='*.json' "$name" $SCAN 2>/dev/null \
+         | grep -v "^prototype/pages/products/" | grep -v -E "$ALLOW" || true)
+  if [ -n "$HITS" ]; then
+    echo "BANNED NAME PRESENT: $name"
+    echo "$HITS" | head -5
+    FAIL=1
+  fi
+done
+[ $FAIL -eq 0 ] && echo "   clean"
+
+echo "── 6. commercial model: every page renders /pricing's copy"
+if ! node scripts/check-commercial.js; then FAIL=1; fi
+
+echo "── 7. build outputs present (python3 scripts/build-site.py)"
+for f in prototype/sitemap.xml prototype/products/the-map/range/index.html prototype/mind-palace/feed.xml prototype/data/search-index.json prototype/demo.html; do
+  if [ ! -f "$f" ]; then echo "MISSING BUILD OUTPUT: $f"; FAIL=1; fi
+done
+[ $FAIL -eq 0 ] && echo "   clean"
+
+echo "── 8. metadata on every public route"
+if ! python3 scripts/check-metadata.py; then FAIL=1; fi
+
+echo "── 9. asset licence manifest"
 if python3 scripts/check-asset-licences.py > /tmp/asset-lic.txt 2>&1; then
   sed -n '2,4p' /tmp/asset-lic.txt
 else

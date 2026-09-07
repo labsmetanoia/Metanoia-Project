@@ -60,7 +60,7 @@ window.MT_MP = (function () {
     { id: 'better', topics: ['skills', 'worklife'], img: '../assets/m/04-basecamp.jpg',
       q: L('I want to become better', 'Aku ingin menjadi lebih baik'),
       sub: L('Skills, communication, habits and AI at work.', 'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.') },
-    { id: 'market', topics: ['market'], img: '../assets/global-map.png',
+    { id: 'market', topics: ['market'], img: '../assets/opt/global-map.webp',
       q: L('I want to understand the market', 'Aku ingin memahami pasar'),
       sub: L('Industries, companies and the labour market, read honestly.', 'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.') }
   ];

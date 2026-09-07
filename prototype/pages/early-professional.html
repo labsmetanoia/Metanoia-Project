@@ -33,6 +33,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
 <link rel="canonical" href="https://metanoialabs.net/pages/early-professional">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/pages/early-professional">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/pages/early-professional">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/pages/early-professional">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="../assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/pages/early-professional">
 <meta property="og:type" content="website">
@@ -45,7 +48,7 @@
 <meta name="twitter:description" content="Metanoia Labs for Early Professionals — the first five years set your trajectory for decades. Build the system that puts you in control of it.">
 <meta name="twitter:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
   :root{
     --bg-base:#050A12; --bg-dark:#080E1A; --bg-mid:#0A1420; --bg-panel:#101C2E;
@@ -561,7 +564,7 @@
   .con-close{max-width:760px;margin:60px auto 0;text-align:center;font-family:var(--serif);font-style:italic;
     font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--text-sub);line-height:1.85}
   /* — four pillars: numbered emblem cards with gold base glow — */
-  .pillars4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:1080px;margin:64px auto 0}
+  .pillars4{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;max-width:1180px;margin:64px auto 0}
   .p4{position:relative;text-align:center;padding:28px 20px 36px;border-radius:18px;overflow:hidden;
     background:linear-gradient(180deg,rgba(15,21,35,.93),rgba(10,15,26,.97));
     border:1px solid rgba(201,168,76,.26);
@@ -612,7 +615,7 @@
     border-radius:50%;background:var(--bg-panel);border:1px solid rgba(201,168,76,.28);
     display:flex;align-items:center;justify-content:center;color:var(--gold);z-index:1}
   .flow-chev svg{width:9px;height:9px;display:block}
-  .flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px;position:relative}
+  .flow-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0 22px;position:relative}
   .flow-item{position:relative;text-align:left}
   .flow-item .stage-badge{margin:0 auto 28px}
   .flow-item .stage-media{margin-bottom:22px;aspect-ratio:3/2}
@@ -1783,7 +1786,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
 <!-- ═══ HERO ═══ -->
 <section class="hero" id="hero">
-  <video autoplay muted loop playsinline preload="auto" id="heroVideo"
+  <video data-autoplay muted loop playsinline preload="none" id="heroVideo"
          poster="../assets/bg/early-professional-hero-poster.jpg" aria-hidden="true" tabindex="-1"><source src="../assets/early-professional-hero.webm" type="video/webm"><source src="../assets/early-professional-hero.mp4" type="video/mp4"></video>
   <div class="hero-fallback" id="heroFallback" style="background-image:url('../assets/bg/early-professional-hero-poster.jpg')"></div>
   <div class="hero-overlay"></div>
@@ -2071,7 +2074,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="compare-card with">
           <div class="compare-head"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#7FCF9B" stroke-width="1.6"/><path d="M7.5 12.5 l3 3 6-7" stroke="#7FCF9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Your career with Metanoia" data-id="Kariermu dengan Metanoia">Your career with Metanoia</span></div>
           <ul class="cmp-list">
-            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Real-time readiness score across all four career dimensions" data-id="Skor kesiapan real-time di empat dimensi karier">Real-time readiness score across all four career dimensions</span></li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Real-time readiness score across all five Compass Points" data-id="Skor kesiapan real-time di lima Titik Kompas">Real-time readiness score across all five Compass Points</span></li>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Deliberate skill roadmap targeted to your 3-year destination" data-id="Peta jalan keterampilan terarah ke tujuan 3 tahunmu">Deliberate skill roadmap targeted to your 3-year destination</span></li>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Market-calibrated positioning — knowing your worth externally" data-id="Pemosisian terkalibrasi pasar — mengetahui nilaimu secara eksternal">Market-calibrated positioning — knowing your worth externally</span></li>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#7FCF9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-en="Strategic network built across industries and seniority levels" data-id="Jaringan strategis lintas industri dan tingkat senioritas">Strategic network built across industries and seniority levels</span></li>
@@ -2110,6 +2113,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <b data-en="A strategic route" data-id="Rute yang strategis">A strategic route</b>
         <span class="p4-d" data-en="A 3-year plan built around your specific ambition" data-id="Rencana 3 tahun yang dibangun di sekitar ambisi spesifikmu">A 3-year plan built around your specific ambition</span>
       </div>
+      <div class="p4">
+        <i>05</i>
+        <span class="p4-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="currentColor" stroke="none" opacity=".9"/></svg></span>
+        <b data-en="A working compass" data-id="Kompas yang bekerja">A working compass</b>
+        <span class="p4-d" data-en="Your bearing, your applications, and your next action — tracked in one place" data-id="Bearing-mu, lamaranmu, dan tindakan berikutnya — terlacak di satu tempat">Your bearing, your applications, and your next action — tracked in one place</span>
+      </div>
     </div>
   </div>
 </section>
@@ -2133,15 +2142,16 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 
     <div class="journey-block system-journey reveal">
       <div class="journey-header">
-        <div class="journey-kicker" data-en="Four instruments. One deliberate ascent." data-id="Empat instrumen. Satu pendakian yang disengaja.">Four instruments. One deliberate ascent.</div>
+        <div class="journey-kicker" data-en="Five pillars. One deliberate ascent." data-id="Lima pilar. Satu pendakian yang disengaja.">Five pillars. One deliberate ascent.</div>
         <h3 class="journey-title" data-en="The Metanoia Career System" data-id="Sistem Karier Metanoia">The Metanoia Career System</h3>
       </div>
 
       <div class="system-flow">
         <div class="flow-rail" aria-hidden="true"><div class="flow-rail-fill" id="flowFill"></div></div>
-        <div class="flow-chev" style="left:25%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
-        <div class="flow-chev" style="left:50%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
-        <div class="flow-chev" style="left:75%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:20%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:40%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:60%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
+        <div class="flow-chev" style="left:80%" aria-hidden="true"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.5 L7.5 5 L3 8.5"/></svg></div>
 
         <div class="flow-grid">
 
@@ -2149,12 +2159,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="stage-badge" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><polygon points="12,4.5 13.6,12 12,19.5 10.4,12" fill="url(#stGold)" stroke="none" opacity=".9"/></svg>
             </div>
-            <div class="stage-media"><img src="../assets/system-the-map.png" alt="A climber studying a map high above the valley" loading="lazy"></div>
+            <div class="stage-media"><img src="../assets/opt/system-the-map.webp" alt="A climber studying a map high above the valley" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 01" data-id="Sistem 01">System 01</div>
             <div class="year-label">The Map</div>
-            <p class="sys-sub" data-en="Career Intelligence" data-id="Inteligensi Karier">Career Intelligence</p>
-            <p class="sys-desc" data-en="A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level." data-id="Diagnostik di mana kamu sebenarnya berada — bukan di mana kamu pikir berada. Kesiapanmu di empat dimensi profesional, dibandingkan dengan jabatan yang kamu targetkan dan tingkat senioritas yang kamu tuju. Ketahui apa yang memisahkanmu dari level berikutnya.">
-              A diagnostic of where you actually are — not where you think you are. Your readiness across four professional dimensions, compared against the role you’re targeting and the seniority level you’re aiming for. Know what’s standing between you and the next level.
+            <p class="sys-sub" data-en="Direction · audit &amp; pivot" data-id="Arah · audit &amp; pivot">Direction · audit &amp; pivot</p>
+            <p class="sys-desc" data-en="A diagnostic of where you actually are — not where you think you are. Your readiness across five Compass Points, compared against the role you’re targeting and the seniority level you’re aiming for. And the stay-or-move question answered on evidence, because whether to pivot is a direction decision before it is anything else." data-id="Diagnostik di mana kamu sebenarnya berada — bukan di mana kamu pikir berada. Kesiapanmu di lima Titik Kompas, dibandingkan dengan jabatan yang kamu targetkan dan tingkat senioritas yang kamu tuju. Dan pertanyaan bertahan-atau-pindah dijawab berdasarkan bukti, karena keputusan pivot adalah keputusan arah sebelum menjadi apa pun yang lain.">
+              A diagnostic of where you actually are — not where you think you are. Your readiness across five Compass Points, compared against the role you’re targeting and the seniority level you’re aiming for. And the stay-or-move question answered on evidence, because whether to pivot is a direction decision before it is anything else.
             </p>
           </div>
 
@@ -2162,12 +2172,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="stage-badge" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6"><rect x="5" y="8.5" width="14" height="11.5" rx="2"/><path d="M8.5 8.5 V6.8 a3.5 3.5 0 0 1 7 0 V8.5"/><path d="M12 12 v4.5 M9.5 14.2 h5"/></svg>
             </div>
-            <div class="stage-media"><img src="../assets/system-the-pack.png" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
+            <div class="stage-media"><img src="../assets/opt/system-the-pack.webp" alt="An expedition pack with climbing gear laid out" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 02" data-id="Sistem 02">System 02</div>
             <div class="year-label">The Pack</div>
-            <p class="sys-sub" data-en="Professional Identity" data-id="Identitas Profesional">Professional Identity</p>
-            <p class="sys-desc" data-en="The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template." data-id="Kehadiran eksekutif, merek pribadi, dan keterampilan komunikasi yang membuat perbedaan antara orang yang dipromosikan dan orang yang sama mampunya namun tidak. Dibangun dari kekuatanmu saat ini, bukan template generik.">
-              The executive presence, personal brand, and communication skills that make the difference between the person who is promoted and the equally capable person who is not. Built from your current strengths, not a generic template.
+            <p class="sys-sub" data-en="Application · the paper gate" data-id="Lamaran · gerbang kertas">Application · the paper gate</p>
+            <p class="sys-desc" data-en="Senior positioning on paper: a CV and profile written for experienced hires, an executive summary that says what you changed rather than what you were titled, and a LinkedIn profile treated as an application artefact. The written case that gets you into the room." data-id="Pemosisian senior di atas kertas: CV dan profil yang ditulis untuk kandidat berpengalaman, ringkasan eksekutif yang menyatakan apa yang kamu ubah dan bukan sekadar jabatanmu, serta profil LinkedIn yang diperlakukan sebagai artefak lamaran. Argumen tertulis yang membawamu masuk ke ruangan.">
+              Senior positioning on paper: a CV and profile written for experienced hires, an executive summary that says what you changed rather than what you were titled, and a LinkedIn profile treated as an application artefact. The written case that gets you into the room.
             </p>
           </div>
 
@@ -2175,12 +2185,12 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="stage-badge" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round"><path d="M5 19 Q12 5 19 19"/><circle cx="5" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="19" cy="19" r="1.8" fill="url(#stGold)" stroke="none"/><circle cx="12" cy="9" r="1.8" fill="url(#stGold)" stroke="none"/></svg>
             </div>
-            <div class="stage-media"><img src="../assets/system-the-rope.png" alt="A climbing rope securing the ascent" loading="lazy"></div>
+            <div class="stage-media"><img src="../assets/opt/system-the-rope.webp" alt="A climbing rope securing the ascent" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 03" data-id="Sistem 03">System 03</div>
             <div class="year-label">The Rope</div>
-            <p class="sys-sub" data-en="Skill &amp; Network Architecture" data-id="Arsitektur Keterampilan &amp; Jaringan">Skill &amp; Network Architecture</p>
-            <p class="sys-desc" data-en="The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition." data-id="Keterampilan spesifik, hubungan, dan eksposur pasar yang dibutuhkan untuk mencapai tujuan berikutmu. Bukan pengembangan profesional umum — pengembangan yang ditarget secara presisi berdasarkan kesenjangan aktualmu dan ambisi spesifikmu.">
-              The specific skills, relationships, and market exposure needed to reach your next destination. Not general professional development — precision-targeted development based on your actual gap and your specific ambition.
+            <p class="sys-sub" data-en="Interview · the human gate" data-id="Wawancara · gerbang manusia">Interview · the human gate</p>
+            <p class="sys-desc" data-en="Behavioural depth, panel interviews, stakeholder conversations and salary negotiation — and the executive presence to hold the room while you do them. The Rope is what carries you once a person, not a filter, is deciding." data-id="Kedalaman perilaku, wawancara panel, percakapan dengan pemangku kepentingan, dan negosiasi gaji — serta wibawa eksekutif untuk menguasai ruangan saat menjalaninya. The Rope adalah yang menopangmu ketika yang memutuskan adalah manusia, bukan saringan.">
+              Behavioural depth, panel interviews, stakeholder conversations and salary negotiation — and the executive presence to hold the room while you do them. The Rope is what carries you once a person, not a filter, is deciding.
             </p>
           </div>
 
@@ -2188,12 +2198,25 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <div class="stage-badge" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,20 9.5,12.5 14,16 20,6.5"/><circle cx="4" cy="20" r="1.7" fill="url(#stGold)" stroke="none"/><circle cx="20" cy="6.5" r="1.7" fill="url(#stGold)" stroke="none"/></svg>
             </div>
-            <div class="stage-media"><img src="../assets/system-the-route.png" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
+            <div class="stage-media"><img src="../assets/opt/system-the-route.webp" alt="A trail leading toward the mountains at first light" loading="lazy"></div>
             <div class="stage-kicker" data-en="System 04" data-id="Sistem 04">System 04</div>
             <div class="year-label">The Route</div>
-            <p class="sys-sub" data-en="Your 3-Year Plan" data-id="Rencana 3 Tahunmu">Your 3-Year Plan</p>
-            <p class="sys-desc" data-en="A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined." data-id="Arsitektur karier yang hidup. Bukan dokumen statis — rute dinamis yang dikalibrasi ulang saat kamu berkembang, saat pasar bergeser, dan saat tujuanmu semakin tajam. Satu tindakan paling berdampak pada satu waktu, selalu mengarah ke tujuan yang kamu tetapkan.">
-              A living career architecture. Not a static document — a dynamic route that recalibrates as you grow, as the market shifts, and as your goals become sharper. One highest-leverage action at a time, always pointing toward the destination you defined.
+            <p class="sys-sub" data-en="What&#39;s next · the path beyond" data-id="Selanjutnya · jalur setelahnya">What&#39;s next · the path beyond</p>
+            <p class="sys-desc" data-en="Career acceleration as a living architecture: trajectory design, a visibility system, promotion strategy, mentors and sponsors, the second move — and the scholarship or advanced-degree decision, taken from a framework rather than a deadline. One highest-leverage action at a time." data-id="Akselerasi karier sebagai arsitektur yang hidup: rancangan lintasan, sistem visibilitas, strategi promosi, mentor dan sponsor, langkah kedua — serta keputusan beasiswa atau gelar lanjutan yang diambil dari kerangka kerja, bukan dari tenggat. Satu tindakan berdaya ungkit tertinggi pada satu waktu.">
+              Career acceleration as a living architecture: trajectory design, a visibility system, promotion strategy, mentors and sponsors, the second move — and the scholarship or advanced-degree decision, taken from a framework rather than a deadline. One highest-leverage action at a time.
+            </p>
+          </div>
+
+          <div class="flow-item sys-compass">
+            <div class="stage-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="url(#stGold)" stroke-width="1.6" stroke-linejoin="round"><path d="M3.5 19.5 L10 8.5 L14 14 L16.8 10.6 L20.5 19.5 Z"/><path d="M10 8.5 V4 h4 L12.4 5.6 L14 7.2 h-4"/></svg>
+            </div>
+            <div class="stage-media"><img src="../assets/product-art/the-compass.svg" alt="The Compass — navigation dashboard" loading="lazy"></div>
+            <div class="stage-kicker" data-en="System 05" data-id="Sistem 05">System 05</div>
+            <div class="year-label">The Compass</div>
+            <p class="sys-sub" data-en="Navigation · your bearing" data-id="Navigasi · bearing-mu">Navigation · your bearing</p>
+            <p class="sys-desc" data-en="The Professional Edition of the navigation dashboard: an annual trajectory horizon instead of a 90-day sprint. Your bearing across the five Compass Points, every application and conversation logged, and one True North action at a time." data-id="Edisi Profesional dari dasbor navigasi: horizon lintasan tahunan, bukan sprint 90 hari. Bearing-mu di lima Titik Kompas, setiap lamaran dan percakapan tercatat, dan satu tindakan True North pada satu waktu.">
+              The Professional Edition of the navigation dashboard: an annual trajectory horizon instead of a 90-day sprint. Your bearing across the five Compass Points, every application and conversation logged, and one True North action at a time.
             </p>
           </div>
 
@@ -2233,7 +2256,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <!-- Value proposition statement -->
       <div class="fsx-statement reveal">
         <div class="fsx-kicker" data-en="Our Products" data-id="Produk Kami">Our Products</div>
-        <p class="fsx-vp" data-en="Five tools built for professionals designing their next move — inside their company or beyond it. <em>Available exclusively to Metanoia Premium members.</em>" data-id="Lima alat yang dibangun untuk profesional yang merancang langkah berikutnya — di dalam perusahaan mereka atau di luarnya. <em>Tersedia eksklusif untuk anggota Metanoia Premium.</em>">Five tools built for professionals designing their next move — inside their company or beyond it. <em>Available exclusively to Metanoia Premium members.</em></p>
+        <p class="fsx-vp" data-en="Five tools built for professionals designing their next move — inside their company or beyond it. <em>Included in the Early Professional membership — Rp 0 during beta.</em>" data-id="Lima alat yang dibangun untuk profesional yang merancang langkah berikutnya — di dalam perusahaan mereka atau di luarnya. <em>Termasuk dalam keanggotaan Profesional Muda — Rp 0 selama beta.</em>">Five tools built for professionals designing their next move — inside their company or beyond it. <em>Included in the Early Professional membership — Rp 0 during beta.</em></p>
         <a class="fs-pill gold" href="#products-grid" data-en="Explore the Ecosystem →" data-id="Jelajahi Ekosistem →">Explore the Ecosystem →</a>
       </div>
 
@@ -2241,25 +2264,26 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="asc" id="products-grid">
         <div class="asc-rail" aria-hidden="true"><i class="asc-rail-fill" id="ascFill"></i></div>
 
-        <!-- 01 · Career Audit & Direction — The Map -->
+        <!-- 01 · Career Audit & Pivot — The Map -->
         <article class="asc-panel reveal" data-accent="map">
           <div class="asc-node" aria-hidden="true">01</div>
           <div class="asc-grid">
             <div class="asc-copy">
               <div class="asc-chip" data-en="The Map · Direction" data-id="The Map · Arah">The Map · Direction</div>
-              <h3 class="asc-name" data-en="Career Audit &amp; Direction" data-id="Career Audit &amp; Direction">Career Audit &amp; Direction</h3>
-              <p class="asc-tag" data-en="Know where you actually are." data-id="Ketahui di mana kamu sebenarnya berada.">Know where you actually are.</p>
+              <h3 class="asc-name" data-en="Career Audit &amp; Pivot" data-id="Audit &amp; Pivot Karier">Career Audit &amp; Pivot</h3>
+              <p class="asc-tag" data-en="Know where you actually are — and whether to stay." data-id="Ketahui di mana kamu sebenarnya berada — dan apakah perlu bertahan.">Know where you actually are — and whether to stay.</p>
               <p class="asc-desc" data-en="Most early professionals have a vague sense of progress — positive reviews, incremental raises, and a growing list of responsibilities. The Map for Early Professionals replaces vague with precise: a diagnostic across professional capital, market positioning, skill readiness, and leadership trajectory, calibrated to your specific role and three-year target." data-id="Kebanyakan profesional muda memiliki rasa kemajuan yang samar — review positif, kenaikan bertahap, dan daftar tanggung jawab yang bertumbuh. The Map untuk Profesional Muda menggantikan yang samar dengan yang presisi: diagnostik di seluruh modal profesional, pemosisian pasar, kesiapan keterampilan, dan trajektori kepemimpinan, dikalibrasi ke jabatan spesifik dan target tiga tahunmu.">Most early professionals have a vague sense of progress — positive reviews, incremental raises, and a growing list of responsibilities. The Map for Early Professionals replaces vague with precise: a diagnostic across professional capital, market positioning, skill readiness, and leadership trajectory, calibrated to your specific role and three-year target.</p>
               <ul class="asc-feats">
-                <li data-en="Readiness score across 4 career dimensions" data-id="Skor kesiapan di 4 dimensi karier">Readiness score across 4 career dimensions</li>
+                <li data-en="Readiness score across the 5 Compass Points" data-id="Skor kesiapan di 5 Titik Kompas">Readiness score across the 5 Compass Points</li>
                 <li data-en="Gap analysis vs. target role" data-id="Analisis kesenjangan vs. jabatan target">Gap analysis vs. target role</li>
-                <li data-en="Market salary benchmarking" data-id="Tolok ukur gaji pasar">Market salary benchmarking</li>
+                <li data-en="The Pivot Framework: stay vs. move, decided on evidence" data-id="The Pivot Framework: bertahan vs. pindah, diputuskan berdasarkan bukti">The Pivot Framework: stay vs. move, decided on evidence</li>
+                <li data-en="Industry transferability mapping" data-id="Pemetaan keteralihan antarindustri">Industry transferability mapping</li>
                 <li data-en="Recommended development sequence" data-id="Urutan pengembangan yang direkomendasikan">Recommended development sequence</li>
               </ul>
-              <a href="/products/the-map/" class="asc-cta" data-en="Explore Career Audit →" data-id="Jelajahi Career Audit →">Explore Career Audit →</a>
+              <a href="/products/the-map/" class="asc-cta" data-en="Explore The Map →" data-id="Jelajahi The Map →">Explore The Map →</a>
               <div class="asc-prem">
                 <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
-                <span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span>
+                <span data-commercial="included" data-edition="early-professional" data-en="Included in the Early Professional membership" data-id="Termasuk dalam keanggotaan Profesional Muda">Included in the Early Professional membership</span>
               </div>
             </div>
             <div class="asc-stage">
@@ -2271,10 +2295,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
                 <div class="asc-ui" aria-hidden="true">
-                  <div class="uttl">Readiness · 4 Dimensions</div>
-                  <div class="urow"><span class="tick">✓</span>Direction 82% · Readiness 74%</div>
-                  <div class="urow"><span class="dot-on"></span>Positioning 61% · Network 48%</div>
-                  <div class="urow"><span class="dot-off"></span>First move: network architecture</div>
+                  <div class="uttl">Readiness · 5 Compass Points</div>
+                  <div class="urow"><span class="tick">✓</span>Intelligence 82 · Interview 74</div>
+                  <div class="urow"><span class="dot-on"></span>Profile 61 · Network 48 · Mindset 70</div>
+                  <div class="urow"><span class="dot-off"></span>Pivot check: stay — renegotiate scope</div>
                 </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><polygon points="12,6.2 13.9,12 12,17.8 10.1,12" fill="currentColor" stroke="none"/></svg>
@@ -2284,26 +2308,26 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
         </article>
 
-        <!-- 02 · Professional Accelerator — The Pack -->
+        <!-- 02 · Senior Positioning — The Pack -->
         <article class="asc-panel rev reveal" data-accent="pack">
           <div class="asc-node" aria-hidden="true">02</div>
           <div class="asc-grid">
             <div class="asc-copy">
               <div class="asc-chip" data-en="The Pack · Application" data-id="The Pack · Lamaran">The Pack · Application</div>
-              <h3 class="asc-name" data-en="Professional Accelerator" data-id="Professional Accelerator">Professional Accelerator</h3>
-              <p class="asc-tag" data-en="Build the visibility your performance deserves." data-id="Bangun visibilitas yang pantas untuk kinerjamu.">Build the visibility your performance deserves.</p>
+              <h3 class="asc-name" data-en="Senior Positioning" data-id="Pemosisian Senior">Senior Positioning</h3>
+              <p class="asc-tag" data-en="The written case that gets an experienced hire into the room." data-id="Argumen tertulis yang membawa kandidat berpengalaman masuk ke ruangan.">The written case that gets an experienced hire into the room.</p>
               <ul class="asc-feats">
-                <li data-en="Executive presence coaching module" data-id="Modul coaching kehadiran eksekutif">Executive presence coaching module</li>
-                <li data-en="Personal brand strategy" data-id="Strategi merek pribadi">Personal brand strategy</li>
-                <li data-en="LinkedIn visibility framework" data-id="Kerangka visibilitas LinkedIn">LinkedIn visibility framework</li>
-                <li data-en="Internal stakeholder communication" data-id="Komunikasi pemangku kepentingan internal">Internal stakeholder communication</li>
-                <li data-en="Presentation and influence skills" data-id="Keterampilan presentasi dan pengaruh">Presentation and influence skills</li>
-                <li data-en="Salary benchmarking and negotiation" data-id="Tolok ukur dan negosiasi gaji">Salary benchmarking and negotiation</li>
+                <li data-en="CV and profile written for experienced hires" data-id="CV dan profil yang ditulis untuk kandidat berpengalaman">CV and profile written for experienced hires</li>
+                <li data-en="Executive summary writing: outcomes, not titles" data-id="Penulisan ringkasan eksekutif: hasil, bukan jabatan">Executive summary writing: outcomes, not titles</li>
+                <li data-en="LinkedIn as an application artefact" data-id="LinkedIn sebagai artefak lamaran">LinkedIn as an application artefact</li>
+                <li data-en="Cross-sector application strategy" data-id="Strategi lamaran lintas sektor">Cross-sector application strategy</li>
+                <li data-en="Career pivot narrative, on paper" data-id="Narasi pivot karier, di atas kertas">Career pivot narrative, on paper</li>
+                <li data-en="ATS and screening checks for senior roles" data-id="Cek ATS dan penyaringan untuk peran senior">ATS and screening checks for senior roles</li>
               </ul>
               <a href="/products/the-pack/" class="asc-cta" data-en="Explore The Pack →" data-id="Jelajahi The Pack →">Explore The Pack →</a>
               <div class="asc-prem">
                 <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
-                <span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span>
+                <span data-commercial="included" data-edition="early-professional" data-en="Included in the Early Professional membership" data-id="Termasuk dalam keanggotaan Profesional Muda">Included in the Early Professional membership</span>
               </div>
             </div>
             <div class="asc-stage">
@@ -2311,14 +2335,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <div class="asc-glow" aria-hidden="true"></div>
               <div class="asc-tilt">
                 <figure class="asc-frame">
-                  <img src="../assets/product-art/ep-accelerator.svg" alt="Professional Accelerator — visibility studio" loading="lazy">
+                  <img src="../assets/product-art/ep-accelerator.svg" alt="Senior Positioning — application artefacts" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
                 <div class="asc-ui" aria-hidden="true">
-                  <div class="uttl">Brand Audit</div>
-                  <div class="ubig"><b>42</b><span>/ 100 · visibility index</span></div>
-                  <div class="urow"><span class="dot-on"></span>Top gap: LinkedIn engagement</div>
-                  <div class="urow"><span class="tick">✓</span>Stakeholder survey scheduled</div>
+                  <div class="uttl">Application Artefacts</div>
+                  <div class="ubig"><b>3</b><span>/ 4 artefacts ready</span></div>
+                  <div class="urow"><span class="dot-on"></span>Top gap: executive summary</div>
+                  <div class="urow"><span class="tick">✓</span>Senior CV passes screening check</div>
                 </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2.2"/><path d="M9 8 V6.5 a3 3 0 0 1 6 0 V8"/><path d="M4.5 13 h15" opacity=".65"/></svg>
@@ -2328,25 +2352,25 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
         </article>
 
-        <!-- 03 · The Pivot Framework — The Rope -->
+        <!-- 03 · Interviews at the Next Level — The Rope -->
         <article class="asc-panel reveal" data-accent="rope">
           <div class="asc-node" aria-hidden="true">03</div>
           <div class="asc-grid">
             <div class="asc-copy">
               <div class="asc-chip" data-en="The Rope · Interview" data-id="The Rope · Wawancara">The Rope · Interview</div>
-              <h3 class="asc-name" data-en="The Pivot Framework" data-id="The Pivot Framework">The Pivot Framework</h3>
-              <p class="asc-tag" data-en="When the right move is a different direction." data-id="Ketika langkah yang tepat adalah arah yang berbeda.">When the right move is a different direction.</p>
+              <h3 class="asc-name" data-en="Interviews at the Next Level" data-id="Wawancara di Level Berikutnya">Interviews at the Next Level</h3>
+              <p class="asc-tag" data-en="Hold the room when a person, not a filter, is deciding." data-id="Kuasai ruangan saat yang memutuskan adalah manusia, bukan saringan.">Hold the room when a person, not a filter, is deciding.</p>
               <ul class="asc-feats">
-                <li data-en="Stay vs. move decision framework" data-id="Kerangka keputusan bertahan vs. pindah">Stay vs. move decision framework</li>
-                <li data-en="Industry transferability mapping" data-id="Pemetaan keteralihan antarindustri">Industry transferability mapping</li>
-                <li data-en="Cross-sector application strategy" data-id="Strategi lamaran lintas sektor">Cross-sector application strategy</li>
-                <li data-en="Career pivot narrative construction" data-id="Konstruksi narasi pivot karier">Career pivot narrative construction</li>
-                <li data-en="Network building in target industry" data-id="Pembangunan jaringan di industri target">Network building in target industry</li>
+                <li data-en="Behavioural depth for experienced-hire interviews" data-id="Kedalaman perilaku untuk wawancara kandidat berpengalaman">Behavioural depth for experienced-hire interviews</li>
+                <li data-en="Panel interviews and stakeholder conversations" data-id="Wawancara panel dan percakapan dengan pemangku kepentingan">Panel interviews and stakeholder conversations</li>
+                <li data-en="Executive presence in the room" data-id="Wibawa eksekutif di dalam ruangan">Executive presence in the room</li>
+                <li data-en="Presentation and influence under questioning" data-id="Presentasi dan pengaruh di bawah pertanyaan">Presentation and influence under questioning</li>
+                <li data-en="Salary benchmarking and negotiation" data-id="Tolok ukur dan negosiasi gaji">Salary benchmarking and negotiation</li>
               </ul>
               <a href="/products/the-rope/" class="asc-cta" data-en="Explore The Rope →" data-id="Jelajahi The Rope →">Explore The Rope →</a>
               <div class="asc-prem">
                 <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
-                <span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span>
+                <span data-commercial="included" data-edition="early-professional" data-en="Included in the Early Professional membership" data-id="Termasuk dalam keanggotaan Profesional Muda">Included in the Early Professional membership</span>
               </div>
             </div>
             <div class="asc-stage">
@@ -2354,14 +2378,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <div class="asc-glow" aria-hidden="true"></div>
               <div class="asc-tilt">
                 <figure class="asc-frame">
-                  <img src="../assets/product-art/pivot.svg" alt="The Pivot Framework — career transfer map" loading="lazy">
+                  <img src="../assets/product-art/the-rope.svg" alt="Interviews at the Next Level — panel interview debrief" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
                 <div class="asc-ui" aria-hidden="true">
-                  <div class="uttl">Pivot Readiness</div>
-                  <div class="urow"><span class="dot-on"></span>Marketing → Product Management</div>
-                  <div class="urow"><span class="tick">✓</span>Transferable skills: 6/9</div>
-                  <div class="urow"><span class="dot-off"></span>Estimated timeline: 4–6 months</div>
+                  <div class="uttl">Panel Debrief · Round 2</div>
+                  <div class="urow"><span class="tick">✓</span>Stakeholder story: landed</div>
+                  <div class="urow"><span class="dot-on"></span>Presence: pace, pauses, eye line</div>
+                  <div class="urow"><span class="dot-off"></span>Next: negotiation rehearsal</div>
                 </div>
                 <div class="asc-emblem" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="4.2"/><circle cx="15" cy="15" r="4.2"/></svg>
@@ -2371,25 +2395,26 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           </div>
         </article>
 
-        <!-- 04 · Scholarships & Advanced Degrees — The Route -->
+        <!-- 04 · Career Acceleration + Scholarships & Advanced Degrees — The Route -->
         <article class="asc-panel rev reveal" data-accent="route">
           <div class="asc-node" aria-hidden="true">04</div>
           <div class="asc-grid">
             <div class="asc-copy">
               <div class="asc-chip" data-en="The Route · What's next" data-id="The Route · Selanjutnya">The Route · What's next</div>
-              <h3 class="asc-name" data-en="Scholarships &amp; Advanced Degrees" data-id="Beasiswa &amp; Gelar Lanjutan">Scholarships &amp; Advanced Degrees</h3>
-              <p class="asc-tag" data-en="Invest in your future intelligently." data-id="Investasikan masa depanmu dengan cerdas.">Invest in your future intelligently.</p>
+              <h3 class="asc-name" data-en="Career Acceleration, Scholarships &amp; Advanced Degrees" data-id="Akselerasi Karier, Beasiswa &amp; Gelar Lanjutan">Career Acceleration, Scholarships &amp; Advanced Degrees</h3>
+              <p class="asc-tag" data-en="The path beyond the immediate goal — designed, not waited for." data-id="Jalur di balik tujuan terdekat — dirancang, bukan ditunggu.">The path beyond the immediate goal — designed, not waited for.</p>
               <ul class="asc-feats">
+                <li data-en="Trajectory design and promotion strategy" data-id="Rancangan lintasan dan strategi promosi">Trajectory design and promotion strategy</li>
+                <li data-en="A visibility system: decision-makers see the work" data-id="Sistem visibilitas: pengambil keputusan melihat hasil kerjamu">A visibility system: decision-makers see the work</li>
+                <li data-en="Mentors, sponsors, and the second move" data-id="Mentor, sponsor, dan langkah kedua">Mentors, sponsors, and the second move</li>
                 <li data-en="Domestic and international scholarship eligibility check" data-id="Cek kelayakan beasiswa dalam dan luar negeri">Domestic and international scholarship eligibility check</li>
-                <li data-en="“Job first vs. scholarship first” decision framework" data-id="Kerangka keputusan “kerja dulu vs. beasiswa dulu”">“Job first vs. scholarship first” decision framework</li>
+                <li data-en="“Job first vs. scholarship first” and MBA vs. specialist analysis" data-id="Kerangka “kerja dulu vs. beasiswa dulu” dan analisis MBA vs. gelar spesialis">“Job first vs. scholarship first” and MBA vs. specialist analysis</li>
                 <li data-en="Application essay and personal statement coaching" data-id="Coaching esai lamaran dan pernyataan pribadi">Application essay and personal statement coaching</li>
-                <li data-en="Interview simulation" data-id="Simulasi wawancara">Interview simulation</li>
-                <li data-en="MBA vs. specialist degree analysis" data-id="Analisis MBA vs. gelar spesialis">MBA vs. specialist degree analysis</li>
               </ul>
               <a href="/products/the-route/" class="asc-cta" data-en="Explore The Route →" data-id="Jelajahi The Route →">Explore The Route →</a>
               <div class="asc-prem">
                 <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
-                <span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span>
+                <span data-commercial="included" data-edition="early-professional" data-en="Included in the Early Professional membership" data-id="Termasuk dalam keanggotaan Profesional Muda">Included in the Early Professional membership</span>
               </div>
             </div>
             <div class="asc-stage">
@@ -2397,13 +2422,13 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               <div class="asc-glow" aria-hidden="true"></div>
               <div class="asc-tilt">
                 <figure class="asc-frame">
-                  <img src="../assets/product-art/ep-scholarships.svg" alt="Scholarships &amp; Advanced Degrees — opportunity explorer" loading="lazy">
+                  <img src="../assets/product-art/ep-scholarships.svg" alt="Career Acceleration, Scholarships &amp; Advanced Degrees — trajectory planner" loading="lazy">
                   <div class="asc-veil" aria-hidden="true"></div>
                 </figure>
                 <div class="asc-ui" aria-hidden="true">
-                  <div class="uttl">Scholarship Tracker</div>
-                  <div class="urow"><span class="tick">✓</span>Age gate ✓ · Work exp: 2yr ✓</div>
-                  <div class="urow"><span class="dot-on"></span>Essay score: 71/100</div>
+                  <div class="uttl">Trajectory · Y2 Q1</div>
+                  <div class="urow"><span class="tick">✓</span>Promotion case: 3 sponsors named</div>
+                  <div class="urow"><span class="dot-on"></span>Scholarship gate ✓ · essay draft 2</div>
                   <div class="urow"><span class="dot-off"></span>Next: revise motivation letter</div>
                 </div>
                 <div class="asc-emblem" aria-hidden="true">
@@ -2445,14 +2470,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
               </div>
             </div>
             <div class="asc-copy">
-              <div class="asc-chip" data-en="All Systems" data-id="Semua Sistem">All Systems</div>
+              <div class="asc-chip" data-en="The Compass · Navigation" data-id="The Compass · Navigasi">The Compass · Navigation</div>
               <h3 class="asc-name" data-en="The Compass — Professional Edition" data-id="The Compass — Edisi Profesional">The Compass — Professional Edition</h3>
               <p class="asc-tag" data-en="Track every milestone. Measure every move." data-id="Lacak setiap pencapaian. Ukur setiap langkah.">Track every milestone. Measure every move.</p>
-              <p class="asc-desc" data-en="Your personal career architecture dashboard. Tracks your readiness score, learning milestones, network growth, market positioning, and 90-day action plan across all four systems — updated continuously as you grow." data-id="Dasbor arsitektur karier pribadimu. Melacak skor kesiapanmu, pencapaian pembelajaran, pertumbuhan jaringan, pemosisian pasar, dan rencana aksi 90 hari di semua empat sistem — diperbarui terus-menerus saat kamu berkembang.">Your personal career architecture dashboard. Tracks your readiness score, learning milestones, network growth, market positioning, and 90-day action plan across all four systems — updated continuously as you grow.</p>
+              <p class="asc-desc" data-en="Your personal career architecture dashboard. Tracks your readiness score, learning milestones, network growth, market positioning, and 90-day action plan across all five pillars — updated continuously as you grow." data-id="Dasbor arsitektur karier pribadimu. Melacak skor kesiapanmu, pencapaian pembelajaran, pertumbuhan jaringan, pemosisian pasar, dan rencana aksi 90 hari di kelima pilar — diperbarui terus-menerus saat kamu berkembang.">Your personal career architecture dashboard. Tracks your readiness score, learning milestones, network growth, market positioning, and 90-day action plan across all five pillars — updated continuously as you grow.</p>
               <a href="/products/the-compass/" class="asc-cta" data-en="Explore The Compass →" data-id="Jelajahi The Compass →">Explore The Compass →</a>
               <div class="asc-prem">
                 <svg viewBox="0 0 14 14" fill="none" aria-hidden="true"><polygon points="7,1 9,5 13,5.5 10,8.5 10.8,13 7,11 3.2,13 4,8.5 1,5.5 5,5" fill="#C9A84C"/></svg>
-                <span data-en="Included with Metanoia Premium" data-id="Termasuk dalam Metanoia Premium">Included with Metanoia Premium</span>
+                <span data-commercial="included" data-edition="early-professional" data-en="Included in the Early Professional membership" data-id="Termasuk dalam keanggotaan Profesional Muda">Included in the Early Professional membership</span>
               </div>
             </div>
           </div>
@@ -2483,7 +2508,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
       <div class="how-step">
         <div class="hnum">1</div>
         <h3 data-en="Audit your position" data-id="Audit posisimu">Audit your position</h3>
-        <p data-en="The free 15-minute Career Map scores you across the four dimensions that decide the next level." data-id="Career Map gratis 15 menit menilai kamu di empat dimensi yang menentukan level berikutnya.">The free 15-minute Career Map scores you across the four dimensions that decide the next level.</p>
+        <p data-en="The free 15-minute Career Map scores you across the five Compass Points that decide the next level." data-id="Career Map gratis 15 menit menilai kamu di lima Titik Kompas yang menentukan level berikutnya.">The free 15-minute Career Map scores you across the five Compass Points that decide the next level.</p>
         <span class="hmeta" data-en="Free · 15 minutes" data-id="Gratis · 15 menit">Free · 15 minutes</span>
       </div>
       <div class="how-step">
@@ -2513,7 +2538,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </div>
         <div class="demo-screen">
           <h3 class="demo-h" data-en="Career Readiness" data-id="Kesiapan Karier">Career Readiness</h3>
-          <p class="demo-sub" data-en="Your position across the four dimensions that determine whether the next level opens." data-id="Posisimu di empat dimensi yang menentukan apakah level berikutnya terbuka.">Your position across the four dimensions that determine whether the next level opens.</p>
+          <p class="demo-sub" data-en="Your position across the five Compass Points that determine whether the next level opens." data-id="Posisimu di lima Titik Kompas yang menentukan apakah level berikutnya terbuka.">Your position across the five Compass Points that determine whether the next level opens.</p>
           <div class="sc-grid">
             <div class="sc-ring" style="--off:155">
               <svg viewBox="0 0 180 180" aria-hidden="true">
@@ -2527,24 +2552,29 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             </div>
             <div class="sc-dims">
             <div class="dim">
-              <span class="dlab" data-en="Direction" data-id="Arah">Direction</span>
+              <span class="dlab" data-en="Career Intelligence" data-id="Kecerdasan Karier">Career Intelligence</span>
               <span class="dbar"><span class="dfill" style="--v:82%"></span></span>
               <span class="dval">82</span>
             </div>
             <div class="dim low">
-              <span class="dlab" data-en="Positioning" data-id="Pemosisian">Positioning</span>
+              <span class="dlab" data-en="Profile Strength" data-id="Kekuatan Profil">Profile Strength</span>
               <span class="dbar"><span class="dfill" style="--v:61%"></span></span>
               <span class="dval">61</span>
             </div>
             <div class="dim">
-              <span class="dlab" data-en="Skill readiness" data-id="Kesiapan keterampilan">Skill readiness</span>
+              <span class="dlab" data-en="Interview Readiness" data-id="Kesiapan Wawancara">Interview Readiness</span>
               <span class="dbar"><span class="dfill" style="--v:74%"></span></span>
               <span class="dval">74</span>
             </div>
             <div class="dim low">
-              <span class="dlab" data-en="Network" data-id="Jaringan">Network</span>
+              <span class="dlab" data-en="Network Capital" data-id="Modal Jaringan">Network Capital</span>
               <span class="dbar"><span class="dfill" style="--v:48%"></span></span>
               <span class="dval">48</span>
+            </div>
+            <div class="dim">
+              <span class="dlab" data-en="Career Mindset" data-id="Pola Pikir Karier">Career Mindset</span>
+              <span class="dbar"><span class="dfill" style="--v:70%"></span></span>
+              <span class="dval">70</span>
             </div>
             </div>
           </div>
@@ -2595,7 +2625,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
           <p class="pb-alt" data-en="Beta introductory price — USD 0 · standard pricing at commercial launch" data-id="Harga perkenalan beta — USD 0 · harga standar saat rilis komersial">Beta introductory price — USD 0 · standard pricing at commercial launch</p>
           <a class="pb-cta wait" href="../register"><span data-en="Join the waitlist" data-id="Gabung daftar tunggu">Join the waitlist</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
         </div>
-        <img class="pb-medal" src="../assets/asset-medallion.png" alt="" loading="lazy" decoding="async">
+        <img class="pb-medal" src="../assets/opt/asset-medallion.webp" alt="" loading="lazy" decoding="async">
       </div>
       <p class="pb-honesty"><span class="pbh-ico"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.3v5.2c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6.3Z"/><path d="m9 12 2.2 2.2L15.5 9.7"/></svg></span><span data-en="We&rsquo;re in early access. <a href='../pricing'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a>" data-id="Kami dalam tahap akses awal. <a href='../pricing'>Inilah persis apa yang sudah dibangun hari ini dan apa yang belum.</a>">We&rsquo;re in early access. <a href='../pricing'>Here&rsquo;s exactly what&rsquo;s built today and what isn&rsquo;t.</a></span></p>
     </section>
@@ -2625,7 +2655,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false" aria-controls="faqa-6"><span data-en="I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?" data-id="Kinerja saya baik tapi tidak pernah dipromosikan. Apa yang diatasi Metanoia yang tidak diatasi kinerja saja?">I perform well but never get promoted. What does Metanoia address that performance alone doesn’t?</span><svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
-          <div class="faq-a" id="faqa-6" data-en="Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental." data-id="Promosi adalah fungsi dari kinerja dikalikan visibilitas, pemosisian, dan waktu — dan kebanyakan pekerja berkinerja tinggi hanya mengelola variabel pertama. Professional Accelerator menangani tiga lainnya: bagaimana pengambil keputusan memandangmu, apakah kontribusimu dibingkai dalam bahasa yang dihargai pimpinanmu, dan apakah kamu terposisikan untuk peran yang terbuka sebelum diumumkan. Kebenaran yang tidak nyaman adalah profesional yang sama mampunya mendapatkan hasil yang sangat berbeda berdasarkan faktor-faktor ini. Metanoia menjadikannya disengaja, bukan kebetulan.">Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Professional Accelerator addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental.</div>
+          <div class="faq-a" id="faqa-6" data-en="Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Route&#39;s Career Acceleration track addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental." data-id="Promosi adalah fungsi dari kinerja dikalikan visibilitas, pemosisian, dan waktu — dan kebanyakan pekerja berkinerja tinggi hanya mengelola variabel pertama. Jalur Akselerasi Karier di The Route menangani tiga lainnya: bagaimana pengambil keputusan memandangmu, apakah kontribusimu dibingkai dalam bahasa yang dihargai pimpinanmu, dan apakah kamu terposisikan untuk peran yang terbuka sebelum diumumkan. Kebenaran yang tidak nyaman adalah profesional yang sama mampunya mendapatkan hasil yang sangat berbeda berdasarkan faktor-faktor ini. Metanoia menjadikannya disengaja, bukan kebetulan.">Promotion is a function of performance multiplied by visibility, positioning, and timing — and most strong performers only manage the first variable. The Route&#39;s Career Acceleration track addresses the other three: how decision-makers perceive you, whether your contributions are framed in the language your leadership values, and whether you’re positioned for the roles that open before they’re posted. The uncomfortable truth is that equally capable professionals get very different outcomes based on these factors. Metanoia makes them deliberate instead of accidental.</div>
         </div>
       </div>
     </div>
