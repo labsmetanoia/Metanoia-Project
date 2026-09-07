@@ -183,7 +183,76 @@
     var sf = document.querySelector('.site-footer');
     if (sf) retrofit(sf);
     else inject();
+    wireSearch();
+    mediaPolicy();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount);
   else mount();
+
+  /* ── Canonical URLs: legacy .html addresses redirect to their extensionless
+     form on the production host only (local servers need the extension). ── */
+  (function canonicalise() {
+    try {
+      if (location.hostname !== 'metanoialabs.net') return;
+      var p = location.pathname;
+      var m = p.match(/^(.*\/)?([^\/]+)\.html$/);
+      if (!m) return;
+      var to = m[2] === 'index' ? (m[1] || '/') : (m[1] || '/') + m[2];
+      if (m[2] === 'landing') to = '/';
+      location.replace(to + location.search + location.hash);
+    } catch (e) {}
+  })();
+
+  /* ── Site search: the header search control and Cmd/Ctrl+K open a real
+     palette (js/site-search.js, loaded on first use). ── */
+  function wireSearch() {
+    var loading = false;
+    function load(cb) {
+      if (window.MT_SEARCH) return cb();
+      if (loading) return;
+      loading = true;
+      /* first use: the script opens the palette itself once it has loaded */
+      window.__mtSearchOpenOnLoad = true;
+      var sc = document.createElement('script');
+      sc.src = base + 'js/site-search.js';
+      sc.onerror = function () { loading = false; };
+      document.head.appendChild(sc);
+    }
+    var ctrls = document.querySelectorAll('a.nav-ico[title="Search"], [data-site-search]');
+    for (var i = 0; i < ctrls.length; i++) {
+      ctrls[i].setAttribute('role', 'button');
+      ctrls[i].setAttribute('aria-label', 'Search (Ctrl+K)');
+      ctrls[i].setAttribute('title', 'Search · Ctrl+K');
+      ctrls[i].addEventListener('click', function (e) { e.preventDefault(); load(function () { window.MT_SEARCH.open(); }); });
+    }
+    document.addEventListener('keydown', function (e) {
+      if ((e.ctrlKey || e.metaKey) && !e.altKey && (e.key === 'k' || e.key === 'K')) {
+        e.preventDefault(); load(function () { window.MT_SEARCH.toggle(); });
+      }
+    });
+  }
+
+  /* ── Media policy: film only where it is cheap and wanted. Hero and scene
+     videos ship with data-autoplay instead of autoplay and preload="none";
+     they start only on a fast, unmetered connection, on a viewport wide
+     enough to show them, and never for people who asked for less motion.
+     Otherwise the poster stays. ── */
+  function mediaPolicy() {
+    var vids = document.querySelectorAll('video[data-autoplay]');
+    if (!vids.length) return;
+    var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection || {};
+    var slow = !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '') || c.effectiveType === '3g' ||
+               (typeof c.downlink === 'number' && c.downlink > 0 && c.downlink < 1.2);
+    var reduce = false;
+    try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+    var narrow = window.innerWidth < 768;
+    var allow = !slow && !reduce && !narrow;
+    document.documentElement.setAttribute('data-video', allow ? 'on' : 'off');
+    for (var i = 0; i < vids.length; i++) {
+      var v = vids[i];
+      if (!allow) { v.removeAttribute('autoplay'); v.preload = 'none'; continue; }
+      v.preload = 'auto'; v.muted = true; v.setAttribute('autoplay', '');
+      try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+    }
+  }
 })();

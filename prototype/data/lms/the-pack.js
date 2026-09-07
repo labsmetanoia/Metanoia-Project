@@ -20,7 +20,7 @@ window.MT_LMS['the-pack'] = {
   "video": "../../assets/02-prep.mp4",
   "poster": "../../assets/bg/hero.jpg",
   "art": "../../assets/product-art/the-pack.svg",
-  "visual": "../../assets/system-the-pack.png",
+  "visual": "../../assets/opt/system-the-pack.webp",
   "captions": {
    "en": "../../assets/lms/captions-en.vtt",
    "id": "../../assets/lms/captions-id.vtt"

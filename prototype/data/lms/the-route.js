@@ -20,7 +20,7 @@ window.MT_LMS['the-route'] = {
   "video": "../../assets/06-horizon.mp4",
   "poster": "../../assets/bg/hero.jpg",
   "art": "../../assets/product-art/the-route.svg",
-  "visual": "../../assets/system-the-route.png",
+  "visual": "../../assets/opt/system-the-route.webp",
   "captions": {
    "en": "../../assets/lms/captions-en.vtt",
    "id": "../../assets/lms/captions-id.vtt"

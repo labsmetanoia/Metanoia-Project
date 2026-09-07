@@ -19,7 +19,7 @@ window.MT_LMS['the-rope'] = {
   "video": "../../assets/04-basecamp.mp4",
   "poster": "../../assets/bg/hero.jpg",
   "art": "../../assets/product-art/the-rope.svg",
-  "visual": "../../assets/system-the-rope.png",
+  "visual": "../../assets/opt/system-the-rope.webp",
   "captions": {
    "en": "../../assets/lms/captions-en.vtt",
    "id": "../../assets/lms/captions-id.vtt"

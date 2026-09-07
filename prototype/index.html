@@ -33,12 +33,24 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
 </script>
 
 <title>Metanoia — The Ascent</title>
+<meta name="description" content="Metanoia Labs is the career operating system for Indonesia: The Map, The Pack, The Rope, The Route and The Compass. Free to start, Rp 0 during beta.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://metanoialabs.net/"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="canonical" href="https://metanoialabs.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Metanoia — The Ascent">
+<meta property="og:description" content="Metanoia Labs is the career operating system for Indonesia: The Map, The Pack, The Rope, The Route and The Compass. Free to start, Rp 0 during beta.">
+<meta property="og:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
+<meta property="og:site_name" content="Metanoia Labs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Metanoia — The Ascent">
+<meta name="twitter:description" content="Metanoia Labs is the career operating system for Indonesia: The Map, The Pack, The Rope, The Route and The Compass. Free to start, Rp 0 during beta.">
+<meta name="twitter:image" content="https://metanoialabs.net/assets/bg/hero.jpg">
+<link rel="alternate" hreflang="en" href="https://metanoialabs.net/">
+<link rel="alternate" hreflang="id" href="https://metanoialabs.net/">
+<link rel="alternate" hreflang="x-default" href="https://metanoialabs.net/"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:url" content="https://metanoialabs.net/">
-<link rel="preload" as="video" href="assets/01-call-v2.mp4" type="video/mp4" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"></noscript></noscript>
 <style>
   :root{
     --ember:#C9A84C; --ember2:#E8C766; --accent-text:#E8C766;
@@ -850,21 +862,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   body.m .voice{font-size:1.15rem}
 
   /* in-page route view (used when the experience runs as a single file) */
-  .pageview{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;text-align:center;
-      background:radial-gradient(1200px 600px at 70% -10%, rgba(201,168,76,.10), transparent 60%), var(--bg);
-      opacity:0;pointer-events:none;transition:opacity .35s ease}
-  .pageview.open{opacity:1;pointer-events:auto}
-  .pageview .pv-in{max-width:560px;padding:40px}
-  .pageview .pv-lockup{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:38px}
-  .pageview .pv-bar{width:1px;height:44px;background:var(--nav-border)}
-  .pageview .pv-wm b{display:block;font-size:19px;letter-spacing:.3em;font-weight:700;text-transform:uppercase}
-  .pageview .pv-wm i{display:block;font-style:normal;text-align:right;font-size:9.5px;letter-spacing:.44em;
-      color:var(--accent-text);font-weight:700;margin-top:3px;text-transform:uppercase}
-  .pageview h1{font-size:clamp(1.8rem,5vw,2.8rem);margin:0 0 8px;letter-spacing:-.01em}
-  .pageview .pv-sub{color:var(--muted);font-size:15px;margin-bottom:22px}
-  .pageview p{color:var(--muted);line-height:1.7;margin:0 0 8px}
-  .pageview .cta{margin-top:26px}
-
   /* ============ 14-INCH LAPTOP PASS ============
      Short desktop viewports (≈768–950px tall) get a tightened scale so the
      hero lands in one screen and headings keep editorial balance. */
@@ -968,26 +965,6 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
   </div>
 </nav>
 
-<div class="pageview" id="pageview" role="dialog" aria-modal="true">
-  <div class="pv-in">
-    <div class="pv-lockup">
-      <svg width="50" height="50" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-        <defs><linearGradient id="lgP" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stop-color="var(--gold-1,#C97B1E)"/><stop offset="55%" stop-color="var(--gold-2,#F5A623)"/><stop offset="100%" stop-color="var(--gold-3,#FFD98A)"/></linearGradient></defs>
-        <circle cx="20" cy="20" r="18.2" stroke="url(#lgP)" stroke-width="1.6" opacity=".9"/>
-        <path d="M9 26.5 L15.5 13 L20 20 L24.5 11 L31 26.5" stroke="url(#lgP)" stroke-width="2.4"
-              stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="24.5" cy="11" r="1.9" fill="#F59E0B"/>
-      </svg>
-      <span class="pv-bar"></span>
-      <span class="pv-wm"><b>Metanoia</b><i>Labs</i></span>
-    </div>
-    <h1 id="pvTitle"></h1>
-    <p class="pv-sub" id="pvSub"></p>
-    <p data-i18n="page.wip">This trail is still being mapped. The full experience is on its way.</p>
-    <a class="cta" href="/" id="pvBack" data-i18n="page.back">← Back to Basecamp</a>
-  </div>
-</div>
 
 <style id="contrastFixCss">
 /* ═══ Readability layer — per-scene cinematic grades, both themes ═══
@@ -1619,7 +1596,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     </div>
     <div class="mega-foot">
       <div class="mf-links">
-        <a href="landing"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
+        <a href="/"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="m4 11 8-7 8 7"/><path d="M6 9.5V20h12V9.5"/></svg></span><span data-en="Home" data-id="Beranda">Home</span></a>
         <a href="pages/mind-palace"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5c-3.6 0-6.5 2.7-6.5 6.2 0 2 1 3.7 2.4 4.9V18h8.2v-3.4c1.4-1.2 2.4-2.9 2.4-4.9 0-3.5-2.9-6.2-6.5-6.2Z"/><path d="M10 21h4"/></svg></span><span data-en="Mind Palace" data-id="Mind Palace">Mind Palace</span></a>
         <a href="pages/about"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.8h.01"/></svg></span><span data-en="About Us" data-id="Tentang Kami">About Us</span></a>
         <a class="mf-signin" href="login"><span class="mf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="8.4" r="3.4"/><path d="M5.5 19.5a6.5 6.5 0 0 1 13 0"/></svg></span><span data-en="Sign in" data-id="Masuk">Sign in</span></a>
@@ -1643,7 +1620,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   <!-- SCENE 1 · THE CALL -->
   <section class="sceneCard" id="call">
     <div class="frame">
-      <video muted loop playsinline preload="auto"><source src="assets/01-call-v2.mp4" type="video/mp4"></video>
+      <video muted loop playsinline preload="none" data-scene-video><source src="assets/01-call-v2.mp4" type="video/mp4"></video>
       <div class="haze" aria-hidden="true"></div>
       <div class="bloom" aria-hidden="true"></div>
       <div class="content">
@@ -1711,7 +1688,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
         </div>
       <div class="prep-cards fx d4">
         <span class="pc-label" data-i18n="prep.inside">What&rsquo;s inside this chapter</span>
-        <div class="pc-track" id="pcTrack"><a class="pcc" href="products/the-map/"><span class="pcc-img"><img src="assets/system-the-map.png" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Map · The Range (Explore)</b><i data-i18n="prep.f1">Direction</i><p data-i18n="prep.c1p">Know yourself, then see what&rsquo;s out there — a structured self-discovery diagnostic plus The Range (Explore): 675 real companies, hiring processes, honest eligibility.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-pack/"><span class="pcc-img"><img src="assets/system-the-pack.png" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Pack</b><i data-i18n="prep.f2">Application</i><p data-i18n="prep.g2p">CV &amp; ATS studio, psychometric prep, AI mock interviews — the complete toolkit for getting hired.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-rope/"><span class="pcc-img"><img src="assets/system-the-rope.png" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Rope</b><i data-i18n="prep.f3">Interview</i><p data-i18n="prep.g3p">The complete interview performance system — from HR screening to offer negotiation and your first 90 days.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-route/"><span class="pcc-img"><img src="assets/system-the-route.png" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Route</b><i data-i18n="prep.f4">What's next</i><p data-i18n="prep.g4p">The career acceleration system — trajectory design, visibility, promotion strategy, and leadership before the title.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-compass/"><span class="pcc-img"><img src="assets/bg/compass.jpg" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Compass</b><i data-i18n="prep.c5s">Continuous Navigation</i><p data-i18n="prep.g5p">Career navigation and position intelligence — know where you are, know where you're going.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a></div>
+        <div class="pc-track" id="pcTrack"><a class="pcc" href="products/the-map/"><span class="pcc-img"><img src="assets/opt/system-the-map.webp" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Map · The Range (Explore)</b><i data-i18n="prep.f1">Direction</i><p data-i18n="prep.c1p">Know yourself, then see what&rsquo;s out there — a structured self-discovery diagnostic plus The Range (Explore): 675 real companies, hiring processes, honest eligibility.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-pack/"><span class="pcc-img"><img src="assets/opt/system-the-pack.webp" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Pack</b><i data-i18n="prep.f2">Application</i><p data-i18n="prep.g2p">CV &amp; ATS studio, psychometric prep, AI mock interviews — the complete toolkit for getting hired.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-rope/"><span class="pcc-img"><img src="assets/opt/system-the-rope.webp" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Rope</b><i data-i18n="prep.f3">Interview</i><p data-i18n="prep.g3p">The complete interview performance system — from HR screening to offer negotiation and your first 90 days.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-route/"><span class="pcc-img"><img src="assets/opt/system-the-route.webp" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Route</b><i data-i18n="prep.f4">What's next</i><p data-i18n="prep.g4p">The career acceleration system — trajectory design, visibility, promotion strategy, and leadership before the title.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a><a class="pcc" href="products/the-compass/"><span class="pcc-img"><img src="assets/bg/compass.jpg" alt="" loading="lazy" decoding="async"></span><span class="pcc-b"><b>The Compass</b><i data-i18n="prep.c5s">Continuous Navigation</i><p data-i18n="prep.g5p">Career navigation and position intelligence — know where you are, know where you're going.</p><span class="pcc-more" data-i18n="prep.more">Read more</span></span></a></div>
         <div class="pc-dots" id="pcDots" aria-hidden="true"></div>
       </div>
       
@@ -1801,7 +1778,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
           </div>
         </div>
         <aside class="camp-panel fx d2" aria-label="Basecamp">
-          <div class="cp-head"><span class="cp-ico cp-med"><img src="assets/asset-medallion.png" alt="" decoding="async"></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
+          <div class="cp-head"><span class="cp-ico cp-med"><img src="assets/opt/asset-medallion.webp" alt="" decoding="async"></span><div><b data-i18n="base.eye">Basecamp</b><span data-i18n="base.ch">Chapter III · Nightfall, firelight</span></div></div>
           <div class="cp-h" data-i18n="base.ph">What happens here</div>
           <ul class="cp-list">
             <li><i class="cpi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 5.5v6c0 4.4 3 7.7 7 9.5 4-1.8 7-5.1 7-9.5v-6Z"/><path d="M8.6 12.2l2.1 2.1 4.7-4.7"/></svg></i><div><b data-i18n="base.p1">Build trust &amp; connections</b><p data-i18n="base.p1d">Real people. Real conversations. Lasting relationships.</p></div></li>
@@ -1954,7 +1931,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       <a class="mpt-nc" href="pages/mind-palace#/need/understand"><span class="np"><img src="assets/m/03-climb.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n1">I want to understand my career</b><p data-i18n="mpt.n1d">Direction, transitions, paths and industry exploration.</p><span class="go" aria-hidden="true">&rarr;</span></a>
       <a class="mpt-nc" href="pages/mind-palace#/need/hired"><span class="np"><img src="assets/bg/gauntlet/gate-05-hr-interview.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n2">I want to get hired</b><p data-i18n="mpt.n2d">CV, applications, assessments and interviews.</p><span class="go" aria-hidden="true">&rarr;</span></a>
       <a class="mpt-nc" href="pages/mind-palace#/need/better"><span class="np"><img src="assets/m/04-basecamp.jpg" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n3">I want to become better</b><p data-i18n="mpt.n3d">Skills, communication, habits and AI at work.</p><span class="go" aria-hidden="true">&rarr;</span></a>
-      <a class="mpt-nc" href="pages/mind-palace#/need/market"><span class="np"><img src="assets/global-map.png" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
+      <a class="mpt-nc" href="pages/mind-palace#/need/market"><span class="np"><img src="assets/opt/global-map.webp" alt="" loading="lazy" decoding="async"></span><b data-i18n="mpt.n4">I want to understand the market</b><p data-i18n="mpt.n4d">Industries, companies and the labour market, read honestly.</p><span class="go" aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="mpt-rows">
       <div class="mpt-row"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-2-1.4L14 21l-2-1.4L10 21l-2-1.4L6 21Z"/><path d="M9.5 8.5h5M9.5 12.5h5"/></svg></i><div><b data-i18n="mpt.f1">Playbooks</b><p data-i18n="mpt.f1d">Practical steps you can use today.</p></div></div>
@@ -2123,7 +2100,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'mpt.n2':'I want to get hired','mpt.n2d':'CV, applications, assessments and interviews.',
       'mpt.n3':'I want to become better','mpt.n3d':'Skills, communication, habits and AI at work.',
       'mpt.n4':'I want to understand the market','mpt.n4d':'Industries, companies and the labour market, read honestly.',
-      'page.wip':'This trail is still being mapped. The full experience is on its way.','page.back':'← Back to Basecamp',
+      'page.back':'← Back to Basecamp',
       'hero.sub@m':'The map, the gear, the rope team — everything the privileged inherit, now yours.',
       'prep.lede@m':'Your pack, filled: a diagnostic that finds your true start, and a personalized route to your target role.',
       'prep.g1p@m':'Know yourself first — insight turned into direction.',
@@ -2255,7 +2232,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       'mpt.n2':'Aku ingin lolos rekrutmen','mpt.n2d':'CV, lamaran, asesmen, dan wawancara.',
       'mpt.n3':'Aku ingin menjadi lebih baik','mpt.n3d':'Keahlian, komunikasi, kebiasaan, dan AI di dunia kerja.',
       'mpt.n4':'Aku ingin memahami pasar','mpt.n4d':'Industri, perusahaan, dan pasar kerja, dibaca dengan jujur.',
-      'page.wip':'Jalur ini masih dipetakan. Pengalaman lengkapnya segera hadir.','page.back':'← Kembali ke Basecamp',
+      'page.back':'← Kembali ke Basecamp',
       'hero.sub@m':'Peta, persiapan, dan tim pemandu yang tepat—semua yang selama ini hanya dimiliki segelintir orang, kini jadi milikmu.',
       'prep.lede@m':'Ransel perjalananmu terisi: asesmen yang memetakan titik awalmu, lalu rute personal menuju peran impianmu.',
       'prep.g1p@m':'Kenali dirimu dulu — wawasan menjadi arah.',
@@ -2304,29 +2281,6 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
     stg.style.transition='opacity .18s ease'; stg.style.opacity='0';
     setTimeout(()=>{ renderLang(); stg.style.opacity='1'; },180);
   }
-  // In single-file mode page links are rewritten to #page:<slug>; this router serves them.
-  const ROUTES={student:'paths.student','fresh-graduate':'paths.fresh','early-professional':'paths.early',
-    'mature-professional':'paths.mature',enterprise:'paths.ent',mentors:'paths.mentor',
-    'mind-palace':'paths.mind',about:'nav.about'};
-  const pv=document.getElementById('pageview');
-  function routeTo(slug){
-    const key=ROUTES[slug]; if(!key) return false;
-    document.getElementById('pvTitle').textContent=I18N[lang][key]||slug;
-    const dKey=key.startsWith('paths.')?key+'.d':null;
-    document.getElementById('pvSub').textContent=dKey&&I18N[lang][dKey]?I18N[lang][dKey]:'';
-    pv.classList.add('open'); return true;
-  }
-  function routeHome(){ pv.classList.remove('open'); }
-  document.addEventListener('click',e=>{
-    const a=e.target.closest('a[href^="#page:"]'); if(!a) return;
-    e.preventDefault(); const slug=a.getAttribute('href').slice(6);
-    if(routeTo(slug)) history.pushState({page:slug},'','#page:'+slug);
-  });
-  document.getElementById('pvBack').addEventListener('click',e=>{e.preventDefault();routeHome();
-    history.pushState({},'',location.pathname);});
-  addEventListener('popstate',()=>{ const m=location.hash.match(/^#page:(.+)$/);
-    if(m) routeTo(m[1]); else routeHome(); });
-  { const m=location.hash.match(/^#page:(.+)$/); if(m) routeTo(m[1]); }
 
   // trail-marker hover previews in the top menu
   const PEEK_ART={"#": "home", "pages/student": "student", "pages/fresh-graduate": "fresh", "pages/early-professional": "early", "pages/mature-professional": "mature", "pages/enterprise": "ent", "pages/mentors": "mentor", "pages/mind-palace": "mind", "pages/about": "about"};
@@ -2396,6 +2350,14 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   const N=SCENES.length;
   const spacer=document.getElementById('spacer');
   let SEG=0, mobile=false;
+  // Connection-aware film policy: posters only on save-data, slow links,
+  // reduced motion, or screens under 768px — the scene stills carry the page.
+  const NO_FILM=(()=>{ try{
+    const c=navigator.connection||navigator.mozConnection||navigator.webkitConnection||{};
+    const slow=!!c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||c.effectiveType==='3g'||(typeof c.downlink==='number'&&c.downlink>0&&c.downlink<1.2);
+    return slow||reduce||window.innerWidth<768;
+  }catch(e){ return window.innerWidth<768; } })();
+  document.documentElement.setAttribute('data-video', NO_FILM?'off':'on');
   function layout(){
     const was=mobile;
     mobile = matchMedia('(max-width:760px)').matches;
@@ -2485,7 +2447,7 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
       const d=i-cur, vid=sc.querySelector('video');
       // footage: stills carry scenes 2+ on mobile; desktop streams film for
       // any scene near the viewport and rests the others
-      if(mobile && i>0){ if(vid && !vid.paused) vid.pause(); }
+      if(NO_FILM || (mobile && i>0)){ if(vid && !vid.paused) vid.pause(); }
       else if(Math.abs(d)>1.3){ if(vid && !vid.paused) vid.pause(); }
       else if(vid){
         // scenes ship with preload="none"; fetch metadata only once the
