@@ -243,3 +243,26 @@ nav .theme-btn{border:1px solid var(--nv-line);color:var(--nv-text);background:l
 :root[data-theme="light"] nav .theme-btn{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.7));box-shadow:0 1px 0 #fff inset}
 nav .theme-btn:hover{border-color:var(--nv-line-strong);background:rgba(201,168,76,.12);transform:translateY(-1px);color:var(--nv-gold-b)}
 nav .theme-btn:focus-visible{outline:none;box-shadow:var(--nv-ring)}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   BLACK GROUND FROM THE PRICING BAND THROUGH THE FOOTER (dark mode)
+   js/mob-footer.js drops one absolutely positioned .mt-black-ground layer
+   into the section that holds the pricing band (or the Help Centre FAQ),
+   starting just above the band and running to the section's end. It sits
+   below every child (z-index -1 inside an isolated section), so the band
+   keeps its bordered card, the FAQ band and the black footer join it, and
+   nothing in the layout moves.
+   ═══════════════════════════════════════════════════════════════════════ */
+.mt-black-ground{position:absolute;left:0;right:0;bottom:0;background:#000;z-index:-1;pointer-events:none}
+:root[data-theme="light"] .mt-black-ground{display:none}
+/* no navy gap between the band and the FAQ, nor after the FAQ before the footer */
+:root:not([data-theme="light"]) .faq-wrap,
+:root:not([data-theme="light"]) .faq-section{border-top:0;border-bottom:0;padding-bottom:96px}
+:root:not([data-theme="light"]) .cta-sec,
+:root:not([data-theme="light"]) .student-cta-section{padding-bottom:0}
+:root:not([data-theme="light"]) section.faq{padding-bottom:80px}
+/* the footer is the same black, so the section and the footer read as one */
+:root:not([data-theme="light"]) .site-footer,
+:root:not([data-theme="light"]) #mobFooter{background:#000;border-top-color:rgba(201,168,76,.18)}
+/* Enterprise: the Sources block sits between the FAQ and the footer — same ground */
+:root:not([data-theme="light"]) .sources-sec{background:#000;border-top-color:rgba(201,168,76,.14)}

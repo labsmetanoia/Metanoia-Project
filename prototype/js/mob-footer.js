@@ -186,6 +186,33 @@
     wireSearch();
     mediaPolicy();
     scrolledHeader();
+    blackGround();
+  }
+
+  /* ── Black ground: from the pricing band (audience pages) or the FAQ
+     panel (Help Centre) to the end of its section, so it meets the black
+     FAQ band and the black footer as one surface. Dark mode only; the
+     stylesheet hides the layer in the light theme. ── */
+  function blackGround() {
+    var anchor = document.querySelector('.pricing-band') || document.querySelector('#faq-list');
+    if (!anchor) return;
+    var section = anchor.parentElement && (anchor.parentElement.closest('.cta-sec, .student-cta-section, .shell') || anchor.parentElement.closest('section, main'));
+    if (!section) return;
+    var cs = getComputedStyle(section);
+    if (cs.position === 'static') section.style.position = 'relative';
+    section.style.isolation = 'isolate';
+    var layer = document.createElement('div');
+    layer.className = 'mt-black-ground';
+    layer.setAttribute('aria-hidden', 'true');
+    section.insertBefore(layer, section.firstChild);
+    function place() {
+      var top = anchor.getBoundingClientRect().top - section.getBoundingClientRect().top - 72;
+      layer.style.top = Math.max(0, Math.round(top)) + 'px';
+    }
+    place();
+    if (window.ResizeObserver) { var ro = new ResizeObserver(place); ro.observe(section); ro.observe(anchor); }
+    window.addEventListener('resize', place);
+    window.addEventListener('load', place);
   }
 
   /* ── Header scroll state: every fixed or sticky header gets .scrolled once
