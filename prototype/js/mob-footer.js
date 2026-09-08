@@ -284,18 +284,50 @@
     var vids = document.querySelectorAll('video[data-autoplay]');
     if (!vids.length) return;
     var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection || {};
-    var slow = !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '') || c.effectiveType === '3g' ||
-               (typeof c.downlink === 'number' && c.downlink > 0 && c.downlink < 1.2);
+    var narrow = window.innerWidth < 768;
+    /* On a phone the purpose-built derivative is a few hundred KB, so only
+       save-data and 2G keep the poster; on desktop 3G and thin links do too. */
+    var slow = !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '') ||
+               (!narrow && (c.effectiveType === '3g' || (typeof c.downlink === 'number' && c.downlink > 0 && c.downlink < 1.2)));
     var reduce = false;
     try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
-    var narrow = window.innerWidth < 768;
-    var allow = !slow && !reduce && !narrow;
+    var allow = !slow && !reduce;
     document.documentElement.setAttribute('data-video', allow ? 'on' : 'off');
-    for (var i = 0; i < vids.length; i++) {
-      var v = vids[i];
-      if (!allow) { v.removeAttribute('autoplay'); v.preload = 'none'; continue; }
-      v.preload = 'auto'; v.muted = true; v.setAttribute('autoplay', '');
-      try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
-    }
+    document.documentElement.setAttribute('data-calm', (!allow || narrow) ? 'on' : 'off');
+    for (var i = 0; i < vids.length; i++) (function (v) {
+      var mobile = narrow && v.getAttribute('data-m-src');
+      var mPoster = narrow && v.getAttribute('data-m-poster');
+      /* the poster is chosen here so a phone never downloads the landscape
+         desktop still: pages carry it as data-poster, phones get the 540×960
+         first frame of the mobile loop (≈30–55 KB) */
+      if (mPoster) v.poster = mPoster;
+      else if (v.getAttribute('data-poster') && !v.getAttribute('poster')) v.poster = v.getAttribute('data-poster');
+      if (mPoster) {
+        /* mobile hero: the poster is the film's own first frame, so it stays
+           visible underneath and the film simply takes over without a cut;
+           the page's landscape fallback layer is not needed (or fetched) */
+        v.classList.add('mt-mfilm');
+        v.addEventListener('error', function () { v.classList.remove('mt-mfilm'); });
+      }
+      if (!allow || (narrow && !mobile)) { v.removeAttribute('autoplay'); v.preload = 'none'; return; }
+      if (mobile) {
+        /* swap to the 540×960 mobile loop before anything loads */
+        var srcs = v.querySelectorAll('source');
+        for (var k = 0; k < srcs.length; k++) srcs[k].remove();
+        v.src = mobile;
+      }
+      v.muted = true; v.setAttribute('autoplay', '');
+      var fb = document.getElementById('heroFallback');
+      function reveal() { v.style.display = ''; if (fb) fb.classList.remove('show'); v.classList.add('is-playing'); }
+      v.addEventListener('playing', reveal);
+      function start() { v.preload = 'auto'; try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+      if (mobile && 'IntersectionObserver' in window) {
+        /* play only while the hero is on screen; pause when it scrolls away */
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) { if (e.isIntersecting) start(); else if (!v.paused) v.pause(); });
+        }, { threshold: 0.15 });
+        io.observe(v);
+      } else start();
+    })(vids[i]);
   }
 })();
