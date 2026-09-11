@@ -285,10 +285,12 @@
     if (!vids.length) return;
     var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection || {};
     var narrow = window.innerWidth < 768;
-    /* On a phone the purpose-built derivative is a few hundred KB, so only
-       save-data and 2G keep the poster; on desktop 3G and thin links do too. */
-    var slow = !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '') ||
-               (!narrow && (c.effectiveType === '3g' || (typeof c.downlink === 'number' && c.downlink > 0 && c.downlink < 1.2)));
+    /* The film plays unless the visitor has asked for less: the browser's
+       Save-Data switch, a genuinely 2G link, or reduced motion. The browser's
+       "3g" / downlink estimate is deliberately not consulted — Chrome derives
+       it from round-trip time and labels fast connections that are merely far
+       from the server as 3g, which silently turned the film off on desktop. */
+    var slow = !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '');
     var reduce = false;
     try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
     var allow = !slow && !reduce;

@@ -2360,12 +2360,16 @@ body.m .exp{bottom:max(12px,env(safe-area-inset-bottom))}
   const N=SCENES.length;
   const spacer=document.getElementById('spacer');
   let SEG=0, mobile=false;
-  // Connection-aware film policy: posters only on save-data, slow links,
-  // reduced motion, or screens under 768px — the scene stills carry the page.
+  // Film policy: the film plays unless the visitor has asked for less — the
+  // browser's Save-Data switch, a genuinely 2G link, or reduced motion.
+  // The browser's "3g" / downlink estimate is deliberately NOT consulted:
+  // Chrome derives it from round-trip time and labels fast connections that
+  // are merely far from the server as 3g, which silently turned the film off
+  // for real visitors on desktop.
   const NARROW=window.innerWidth<768;
   const SLOW=(()=>{ try{
     const c=navigator.connection||navigator.mozConnection||navigator.webkitConnection||{};
-    return !!c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||(!NARROW&&(c.effectiveType==='3g'||(typeof c.downlink==='number'&&c.downlink>0&&c.downlink<1.2)));
+    return !!c.saveData||/(^|-)2g$/.test(c.effectiveType||'');
   }catch(e){ return false; } })();
   // No film at all on save-data, 2G or reduced motion. Small screens keep the
   // calm treatment (no blur, no ambient animation) but play the opening scene
