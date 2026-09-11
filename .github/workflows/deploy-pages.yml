@@ -35,9 +35,25 @@ jobs:
         run: pip install pillow
       - name: Build the static layer (Range directory, Mind Palace pages, sitemap, search index, OG cards)
         run: python3 scripts/build-site.py
-      - uses: actions/configure-pages@v5
+      - id: pages
+        uses: actions/configure-pages@v5
         with:
           enablement: true
+      # The site is built for the host in prototype/CNAME (canonical URLs,
+      # sitemap, social cards, the .html canonicaliser). With an Actions
+      # deploy GitHub ignores that file and uses Settings → Pages → Custom
+      # domain instead, so the two can drift apart — which shows up as a
+      # certificate warning on one host and can become a redirect loop
+      # between them. Flag it in every deploy log.
+      - name: Check the Pages custom domain matches prototype/CNAME
+        env:
+          PAGES_HOST: ${{ steps.pages.outputs.host }}
+        run: |
+          want="$(tr -d '[:space:]' < prototype/CNAME)"
+          echo "GitHub Pages custom domain: ${PAGES_HOST:-<none>} · site built for: ${want}"
+          if [ "${PAGES_HOST}" != "${want}" ]; then
+            echo "::warning title=Pages custom domain mismatch::GitHub Pages is configured for '${PAGES_HOST:-<none>}' but the site is built for '${want}' (prototype/CNAME). In the repository go to Settings → Pages → Custom domain, set it to '${want}', wait for the certificate to be issued, then tick Enforce HTTPS."
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: prototype
