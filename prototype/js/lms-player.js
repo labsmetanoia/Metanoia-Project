@@ -707,9 +707,13 @@
     var upT = 0;
     function finished() {
       var L = lang() === 'id';
+      /* the hand-off names what actually follows the deck: a film, or the lesson material */
+      var nx0 = wrap.nextElementSibling, film = !!(nx0 && nx0.classList.contains('lms-ytp'));
+      var nextEn = film ? 'Continue to the film below' : 'Continue to the lesson material below', nextId = film ? 'Lanjutkan ke film di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+      var goEn = film ? 'Watch the film' : 'Go to material', goId = film ? 'Tonton filmnya' : 'Ke materi';
       upnext.innerHTML = '<span class="vu-k" data-en="All slides read" data-id="Semua slide selesai">' + (L ? 'Semua slide selesai' : 'All slides read') + '</span>' +
-        '<b data-en="Continue to the lesson material below" data-id="Lanjutkan ke materi pelajaran di bawah">' + (L ? 'Lanjutkan ke materi pelajaran di bawah' : 'Continue to the lesson material below') + '</b>' +
-        '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to material" data-id="Ke materi">' + (L ? 'Ke materi' : 'Go to material') + '</span></button>' +
+        '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (L ? nextId : nextEn) + '</b>' +
+        '<button class="vu-go" type="button">' + (film ? ICO.play : ICO.check) + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
         '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (L ? 'Tetap di sini' : 'Stay here') + '</button>';
       upnext.classList.add('show');
       upnext.querySelector('.vu-go').addEventListener('click', function () {
@@ -1195,9 +1199,11 @@
     });
     return ytApi;
   }
-  function renderYouTube(l, host) {
+  function renderYouTube(l, host, opts) {
     var y = l.youtube;
     if (!y || !y.id) return;
+    opts = opts || {};
+    var nextIs = opts.next || 'check';   /* what follows the film: 'check' (default), 'lesson' or 'material' */
     var P = null, ready = false, playing = false, ccOn = true, ccLang = lang(), tracks = null, ticker = 0, hideT = 0, pending = [];
     var wrap = el('div', 'lms-vp lms-ytp');
     var lead = el('div', 'lms-vp-lead');
@@ -1357,9 +1363,13 @@
     }
     function finished() {
       var L = lang() === 'id';
+      var nextEn = nextIs === 'material' ? 'Continue to the next slides below' : nextIs === 'lesson' ? 'Continue with the lesson below' : 'Continue to the knowledge check below';
+      var nextId = nextIs === 'material' ? 'Lanjutkan ke slide berikutnya di bawah' : nextIs === 'lesson' ? 'Lanjutkan pelajaran di bawah' : 'Lanjutkan ke cek pemahaman di bawah';
+      var goEn = nextIs === 'material' ? 'Go to the slides' : nextIs === 'lesson' ? 'Continue the lesson' : 'Go to the check';
+      var goId = nextIs === 'material' ? 'Ke slide' : nextIs === 'lesson' ? 'Lanjutkan pelajaran' : 'Ke cek pemahaman';
       upnext.innerHTML = '<span class="vu-k" data-en="Film watched" data-id="Film selesai">' + (L ? 'Film selesai' : 'Film watched') + '</span>' +
-        '<b data-en="Continue to the knowledge check below" data-id="Lanjutkan ke cek pemahaman di bawah">' + (L ? 'Lanjutkan ke cek pemahaman di bawah' : 'Continue to the knowledge check below') + '</b>' +
-        '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to the check" data-id="Ke cek pemahaman">' + (L ? 'Ke cek pemahaman' : 'Go to the check') + '</span></button>' +
+        '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (L ? nextId : nextEn) + '</b>' +
+        '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
         '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (L ? 'Tetap di sini' : 'Stay here') + '</button>';
       upnext.classList.add('show');
       upnext.querySelector('.vu-go').addEventListener('click', function () { upnext.classList.remove('show'); var nx = wrap.nextElementSibling; if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
@@ -1563,10 +1573,15 @@
     var decks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
     var vpm = /^after-material(?::(\d+))?$/.exec(l.videosPlacement || '');
     var afterN = vpm ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
+    /* The YouTube film likewise sits before the knowledge check by default;
+       `youtubePlacement: 'after-material[:N]'` plays it straight after a deck. */
+    var ypm = /^after-material(?::(\d+))?$/.exec(l.youtubePlacement || '');
+    var ytAfterN = ypm && l.youtube ? Math.min(decks.length, ypm[1] ? +ypm[1] : decks.length) : 0;
     if (!afterN) renderIntroVideos(l, innerEl);
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
       if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'check' });
+      if (ytAfterN === k + 1) renderYouTube(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'lesson' });
     });
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
@@ -1579,7 +1594,7 @@
     renderMistakes(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
-    if (l.youtube) renderYouTube(l, innerEl);   /* a YouTube lesson film in the player skin */
+    if (l.youtube && !ytAfterN) renderYouTube(l, innerEl);   /* a YouTube lesson film in the player skin */
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
