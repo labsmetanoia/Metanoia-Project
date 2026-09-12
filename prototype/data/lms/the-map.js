@@ -1030,44 +1030,103 @@ window.MT_LMS['the-map'] = {
        "id": "Tiga pelajaran berikutnya semuanya tentang mengelola diri: proaktivitas, arah, dan prioritas."
       }
      ],
-     "material": {
-      "kicker": {
-       "en": "Read first · 2 slides",
-       "id": "Baca dulu · 2 slide"
-      },
-      "title": {
-       "en": "Self-Leadership Foundations — Material",
-       "id": "Fondasi Kepemimpinan Diri — Materi"
-      },
-      "intro": {
-       "en": "Start with the deck. Two slides frame what self-leadership is for — effectiveness, not efficiency — and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then watch the film that follows.",
-       "id": "Mulai dari deknya. Dua slide membingkai untuk apa kepemimpinan diri — efektivitas, bukan efisiensi — dan empat langkah yang dibangun modul ini: kenali diri, kembangkan pola pikir, ambil tindakan nyata, ciptakan dampak. Lalu tonton film yang mengikutinya."
-      },
-      "base": "../../assets/lms/the-map/slides/self-leadership-",
-      "slides": [
-       {
-        "title": {
-         "en": "Self-Leadership Foundations",
-         "id": "Self-Leadership Foundations"
-        },
-        "text": {
-         "en": "Discover · Reflect · Grow · Lead. Building greater self-awareness, mindsets, and habits to become the best version of yourself — in your career, work, and life. Know yourself: understand your mindsets and how they influence your decisions, behaviors, and outcomes. Develop your mindset: shift to more adaptive mindsets such as growth and creative when challenges arise. Take intentional action: use practical tools and frameworks to overcome challenges and unlock new opportunities. Create lasting impact: lead yourself to drive sustainable growth in your career, work, and life. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow.",
-         "id": "Discover · Reflect · Grow · Lead. Membangun kesadaran, pola pikir, dan kebiasaan untuk menjadi versi terbaik dari diri Anda — dalam karier, pekerjaan, dan kehidupan. Kenali diri: pahami pola pikir Anda dan bagaimana hal tersebut memengaruhi pilihan serta hasil yang Anda capai. Kembangkan pola pikir: beralih ke pola pikir yang lebih adaptif seperti growth dan creative saat dibutuhkan. Ambil tindakan nyata: gunakan alat dan kerangka kerja praktis untuk mengatasi tantangan dan membuka peluang baru. Ciptakan dampak: pimpin diri Anda untuk mencapai pertumbuhan berkelanjutan dalam karier, pekerjaan, dan kehidupan. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow."
-        }
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 2 slides",
+        "id": "Baca dulu · 2 slide"
        },
-       {
-        "title": {
-         "en": "Effectiveness, not efficiency",
-         "id": "Efektivitas, bukan efisiensi"
+       "title": {
+        "en": "Self-Leadership Foundations — Material",
+        "id": "Fondasi Kepemimpinan Diri — Materi"
+       },
+       "intro": {
+        "en": "Start with the deck. Two slides frame what self-leadership is for — effectiveness, not efficiency — and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then watch the film that follows.",
+        "id": "Mulai dari deknya. Dua slide membingkai untuk apa kepemimpinan diri — efektivitas, bukan efisiensi — dan empat langkah yang dibangun modul ini: kenali diri, kembangkan pola pikir, ambil tindakan nyata, ciptakan dampak. Lalu tonton film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/self-leadership-",
+       "slides": [
+        {
+         "title": {
+          "en": "Self-Leadership Foundations",
+          "id": "Self-Leadership Foundations"
+         },
+         "text": {
+          "en": "Discover · Reflect · Grow · Lead. Building greater self-awareness, mindsets, and habits to become the best version of yourself — in your career, work, and life. Know yourself: understand your mindsets and how they influence your decisions, behaviors, and outcomes. Develop your mindset: shift to more adaptive mindsets such as growth and creative when challenges arise. Take intentional action: use practical tools and frameworks to overcome challenges and unlock new opportunities. Create lasting impact: lead yourself to drive sustainable growth in your career, work, and life. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow.",
+          "id": "Discover · Reflect · Grow · Lead. Membangun kesadaran, pola pikir, dan kebiasaan untuk menjadi versi terbaik dari diri Anda — dalam karier, pekerjaan, dan kehidupan. Kenali diri: pahami pola pikir Anda dan bagaimana hal tersebut memengaruhi pilihan serta hasil yang Anda capai. Kembangkan pola pikir: beralih ke pola pikir yang lebih adaptif seperti growth dan creative saat dibutuhkan. Ambil tindakan nyata: gunakan alat dan kerangka kerja praktis untuk mengatasi tantangan dan membuka peluang baru. Ciptakan dampak: pimpin diri Anda untuk mencapai pertumbuhan berkelanjutan dalam karier, pekerjaan, dan kehidupan. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow."
+         }
         },
-        "text": {
-         "en": "Self-Leadership Foundations. This course is not about efficiency (getting things done quickly) or success (although effective people tend to enjoy success). It's about effectiveness — the ability to get desired results again and again, in a sustainable manner following principles of effectiveness. And it all starts with changes in paradigms. Objective: commit to increasing your personal effectiveness by accepting that character and consistently living specific habits yields true effectiveness. Better mindsets, brighter outcomes. Small better choices, brighter tomorrows.",
-         "id": "Fondasi Kepemimpinan Diri. Kursus ini bukan tentang efisiensi (menyelesaikan pekerjaan dengan cepat) atau kesuksesan (meskipun orang yang efektif cenderung meraih kesuksesan). Ini tentang efektivitas — kemampuan untuk mencapai hasil yang diinginkan, berulang kali, secara berkelanjutan dengan mengikuti prinsip-prinsip efektivitas. Dan semuanya dimulai dari perubahan paradigma. Tujuan: berkomitmen untuk meningkatkan efektivitas diri dengan menyadari bahwa karakter dan kebiasaan yang dijalankan secara konsisten akan menghasilkan efektivitas yang sesungguhnya. Pola pikir lebih baik, pilihan lebih cerdas, masa depan lebih cerah. Langkah kecil, perubahan besar, hari esok."
+        {
+         "title": {
+          "en": "Effectiveness, not efficiency",
+          "id": "Efektivitas, bukan efisiensi"
+         },
+         "text": {
+          "en": "Self-Leadership Foundations. This course is not about efficiency (getting things done quickly) or success (although effective people tend to enjoy success). It's about effectiveness — the ability to get desired results again and again, in a sustainable manner following principles of effectiveness. And it all starts with changes in paradigms. Objective: commit to increasing your personal effectiveness by accepting that character and consistently living specific habits yields true effectiveness. Better mindsets, brighter outcomes. Small better choices, brighter tomorrows.",
+          "id": "Fondasi Kepemimpinan Diri. Kursus ini bukan tentang efisiensi (menyelesaikan pekerjaan dengan cepat) atau kesuksesan (meskipun orang yang efektif cenderung meraih kesuksesan). Ini tentang efektivitas — kemampuan untuk mencapai hasil yang diinginkan, berulang kali, secara berkelanjutan dengan mengikuti prinsip-prinsip efektivitas. Dan semuanya dimulai dari perubahan paradigma. Tujuan: berkomitmen untuk meningkatkan efektivitas diri dengan menyadari bahwa karakter dan kebiasaan yang dijalankan secara konsisten akan menghasilkan efektivitas yang sesungguhnya. Pola pikir lebih baik, pilihan lebih cerdas, masa depan lebih cerah. Langkah kecil, perubahan besar, hari esok."
+         }
         }
-       }
-      ]
-     },
-     "youtubePlacement": "after-material",
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "The Root of Effectiveness — Material",
+        "id": "Akar dari Efektivitas — Materi"
+       },
+       "intro": {
+        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts. Then continue to Exhibit 1 below.",
+        "id": "Setelah film, empat slide menuju ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas. Lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/root-effectiveness-",
+       "slides": [
+        {
+         "title": {
+          "en": "The roots of effectiveness",
+          "id": "Akar dari efektivitas"
+         },
+         "text": {
+          "en": "Effectiveness means getting the results you want today that will yield even better results in the future. Better results start within. The roots of effectiveness: by understanding that effectiveness develops from the inside out rather than the outside in, you develop character, which can lead to lasting success. Inside out: start with mindset, values, and character. Better actions: make more intentional and effective choices. Greater results: achieve the outcomes you want today. Lasting impact: build even better opportunities for the future.",
+          "id": "Efektivitas berarti mencapai hasil yang Anda inginkan hari ini yang akan menghasilkan hasil yang lebih baik di masa depan. Hasil yang lebih baik dimulai dari diri Anda. Akar dari efektivitas: dengan memahami bahwa efektivitas berasal dari dalam diri, bukan dari faktor eksternal, Anda membangun karakter yang dapat membawa pada kesuksesan jangka panjang. Mulai dari dalam diri: bangun pola pikir, nilai-nilai, dan karakter yang kuat. Tindakan yang lebih baik: ambil keputusan yang lebih sadar dan efektif. Hasil yang lebih besar: capai hasil yang Anda inginkan hari ini. Dampak yang bertahan: buka lebih banyak peluang untuk masa depan yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Character and effectiveness",
+          "id": "Karakter dan efektivitas"
+         },
+         "text": {
+          "en": "Character & effectiveness. Stephen R. Covey said: “People who live by the character ethic have strong roots, deep roots. They withstand the stresses of life, and they keep growing and progressing.”",
+          "id": "Karakter & efektivitas. Stephen R. Covey berkata: “Orang-orang yang hidup dengan etika karakter memiliki akar yang kuat, akar yang dalam. Mereka mampu menghadapi tekanan dalam hidup, dan mereka terus bertumbuh dan berkembang.” Karakter hari ini, masa depan yang lebih baik. Manusia bertumbuh dari dalam."
+         }
+        },
+        {
+         "title": {
+          "en": "You don’t need to know it all",
+          "id": "Anda tidak perlu mengetahui semuanya"
+         },
+         "text": {
+          "en": "Principles over methods. You don’t need to know it all. “As to methods, there may be a million and then some, but principles are few. The man who grasps principles can successfully select his own methods. The man who tries methods, ignoring principles, is sure to have trouble.” — Ralph Waldo Emerson, essayist and poet.",
+          "id": "Prinsip lebih penting daripada metode. Anda tidak perlu mengetahui semuanya. “Terkait metode, mungkin ada jutaan metode dan bahkan lebih, tetapi prinsip jumlahnya sedikit. Seseorang yang memahami prinsip dapat dengan sukses memilih metodenya sendiri. Namun, orang yang hanya mencoba berbagai metode dan mengabaikan prinsip, pasti akan mengalami kesulitan.” — Ralph Waldo Emerson, esayis dan penyair."
+         }
+        },
+        {
+         "title": {
+          "en": "The goose that laid the golden eggs",
+          "id": "Angsa yang bertelur emas"
+         },
+         "text": {
+          "en": "A lesson on patience & effectiveness. The goose that laid the golden eggs: lasting results come from care, consistency, and a long-term mindset. A valuable goose: a man owned a goose that laid a golden egg each day. Thinking to collect all the eggs at once, he killed the goose and cut her open, only to find that she was just like every other goose. There were no golden eggs inside her, and no goose to produce more. The key lesson: to get the golden eggs, you have to take care of the goose. Effectiveness requires investment over time — a lifelong process to get the results you want over and over again. Key takeaway: sustainable results come from nurturing what creates value, not from shortcuts.",
+          "id": "Pelajaran tentang kesabaran & efektivitas. Angsa yang bertelur emas: hasil yang berkelanjutan lahir dari perawatan, konsistensi, dan pola pikir jangka panjang. Seekor angsa yang berharga: seorang pria memiliki seekor angsa yang bertelur emas setiap hari. Dengan keinginan mengumpulkan semua telur sekaligus, ia membunuh angsa tersebut dan membukanya, hanya untuk menemukan bahwa ia sama seperti angsa lainnya. Tidak ada telur emas di dalamnya, dan tidak ada lagi angsa yang bisa menghasilkan telur emas. Pelajaran utama: untuk mendapatkan telur emas, Anda harus merawat angsa tersebut. Efektivitas membutuhkan investasi dari waktu ke waktu — sebuah proses jangka panjang untuk mencapai hasil yang Anda inginkan, berulang kali. Intisari utama: hasil yang berkelanjutan lahir dari merawat apa yang menciptakan nilai, bukan dari jalan pintas."
+         }
+        }
+       ]
+      }
+     ],
+     "youtubePlacement": "after-material:1",
      "youtube": {
       "id": "6RgN7bJgKwQ",
       "kicker": {
