@@ -42,6 +42,27 @@ Each file assigns `window.MT_LMS['<slug>']` with:
   (`x`/`y` are percentages on the image).
 
 Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
+
+### Slide material (`material{}`)
+
+Any lesson can carry a designed slide deck, shown as a PowerPoint-style
+player in the same skin as the intro video player and placed immediately
+after the videos' closing takeaways (`videosOutro`):
+
+```
+material: {
+  kicker{en,id}, title{en,id}, intro{en,id},
+  base: "../../assets/lms/the-map/slides/adaptability-",
+  slides: [ { title{en,id}, text{en,id} }, … ]
+}
+```
+
+The player derives every image from `base`: `base + lang + '-NN.jpg'`
+(1600 px), `-NN-960.jpg` (phones) and `-NN-320.jpg` (thumbnails), so a
+deck needs one set of files per language, numbered from `01`. The deck
+follows the site language live — switching EN/ID swaps the whole image
+set — and `text` is the slide's own words, shown in the "Slide text"
+panel and used as the image's alt text.
 All strings are bilingual `{en, id}` pairs; the player follows the site's
 `mtLang` preference and re-renders on switch.
 

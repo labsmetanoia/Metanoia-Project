@@ -260,7 +260,11 @@
     vol: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5Z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
     mute: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5Z" fill="currentColor"/><path d="m16 9.5 5 5M21 9.5l-5 5"/></svg>',
     next: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5.6v12.8a1 1 0 0 0 1.53.85l9.9-6.4a1 1 0 0 0 0-1.7l-9.9-6.4A1 1 0 0 0 6 5.6Z"/><rect x="18" y="5" width="2.4" height="14" rx="1"/></svg>',
-    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>'
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>',
+    prev: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 5.6v12.8a1 1 0 0 1-1.53.85l-9.9-6.4a1 1 0 0 1 0-1.7l9.9-6.4A1 1 0 0 1 18 5.6Z"/><rect x="3.6" y="5" width="2.4" height="14" rx="1"/></svg>',
+    chevL: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>',
+    chevR: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
+    text: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>'
   };
 
   function renderIntroVideos(l, host) {
@@ -534,6 +538,268 @@
     var first = 0; while (first < list.length - 1 && seen[first]) first++;
     load(first, false);
     setCC(ccOn ? cueLang : 'off');
+    return wrap;
+  }
+
+  /* ── Slide material: a PowerPoint-style player for a bilingual deck of
+     slide images, in the same skin as the video player above. The deck is
+     declared per lesson as `material` — `base` names the image set and the
+     player derives every file from it: base + lang + '-NN' (+ '-960' /
+     '-320') + '.jpg'. The language follows the site switcher live: the host
+     sets <html lang>, and the player swaps the whole image set. ── */
+  function renderMaterial(l, host) {
+    var m = l.material;
+    if (!m || !m.slides || !m.slides.length) return;
+    var list = m.slides, N = list.length, idx = 0, playing = false, playT = 0, hideT = 0, curLang = lang();
+    var HOLD = 9000;                                   /* autoplay dwell per slide */
+    var sk = 'mt-lms-slides:' + slug + ':' + l.n;
+    var seen = {};
+    try { seen = JSON.parse(localStorage.getItem(sk) || '{}'); } catch (e) {}
+    function pad(k) { return (k < 9 ? '0' : '') + (k + 1); }
+    function src(k, w, L) { return m.base + (L || lang()) + '-' + pad(k) + (w === 1600 ? '' : '-' + w) + '.jpg'; }
+    function T(pair) { return pair ? (pair[lang()] || pair.en) : ''; }
+
+    var wrap = el('div', 'lms-vp lms-sp');
+    var lead = el('div', 'lms-vp-lead');
+    lead.appendChild(bi('span', 'lms-kicker', m.kicker || { en: 'Read next · ' + N + ' slides', id: 'Baca berikutnya · ' + N + ' slide' }));
+    if (m.title) lead.appendChild(bi('h3', 'lms-sp-title', m.title));
+    if (m.intro) lead.appendChild(bi('p', 'lms-vp-intro', m.intro));
+    wrap.appendChild(lead);
+
+    /* stage */
+    var stage = el('div', 'lms-vs lms-ss');
+    stage.setAttribute('tabindex', '0');
+    stage.setAttribute('role', 'region');
+    stage.setAttribute('aria-label', 'Slide player');
+    stage.style.setProperty('--seg', (100 / N) + '%');
+    var img = document.createElement('img');
+    img.className = 'ss-img'; img.decoding = 'async'; img.alt = '';
+    img.sizes = '(max-width: 720px) 100vw, 900px';
+    stage.appendChild(img);
+    var zl = el('button', 'ss-zone ss-zone-l', '<span class="ss-arrow">' + ICO.chevL + '</span>'); zl.type = 'button';
+    var zr = el('button', 'ss-zone ss-zone-r', '<span class="ss-arrow">' + ICO.chevR + '</span>'); zr.type = 'button';
+    stage.appendChild(zl); stage.appendChild(zr);
+    var spin = el('div', 'lms-vspin'); stage.appendChild(spin);
+    var upnext = el('div', 'lms-vup'); stage.appendChild(upnext);
+    var top = el('div', 'lms-vtop');
+    var tl = el('div', 'lms-vtitle');
+    top.appendChild(tl); stage.appendChild(top);
+
+    var ctl = el('div', 'lms-vctl');
+    var seek = el('div', 'lms-vseek ss-seek');
+    seek.setAttribute('role', 'slider'); seek.setAttribute('tabindex', '0');
+    seek.setAttribute('aria-valuemin', '1'); seek.setAttribute('aria-valuemax', String(N)); seek.setAttribute('aria-valuenow', '1');
+    var fill = el('i', 'vs-fill'), knob = el('i', 'vs-knob'), tip = el('span', 'vs-tip', '1');
+    seek.appendChild(fill); seek.appendChild(knob); seek.appendChild(tip);
+    ctl.appendChild(seek);
+    var row = el('div', 'lms-vrow');
+    var bPrev = el('button', 'vb', ICO.prev);
+    var bPlay = el('button', 'vb', ICO.play);
+    var bNext = el('button', 'vb vb-next', ICO.next);
+    var count = el('span', 'lms-vtime', '<b>1</b> / ' + N);
+    var bText = el('button', 'vb vb-cc vb-text', ICO.text + '<span></span>');
+    var bFull = el('button', 'vb', ICO.full);
+    row.appendChild(bPrev); row.appendChild(bPlay); row.appendChild(bNext); row.appendChild(count);
+    row.appendChild(el('span', 'lms-vsp'));
+    row.appendChild(bText); row.appendChild(bFull);
+    ctl.appendChild(row);
+    stage.appendChild(ctl);
+    wrap.appendChild(stage);
+
+    /* slide text (the deck's words, for reading, search and screen readers) */
+    var notes = el('div', 'lms-panel lms-ss-notes');
+    notes.hidden = true;
+    var nH = bi('h3', null, { en: 'Slide text', id: 'Teks slide' });
+    var nT = el('b'), nP = el('p');
+    notes.appendChild(nH); notes.appendChild(nT); notes.appendChild(nP);
+    wrap.appendChild(notes);
+
+    /* thumbnail strip */
+    var strip = el('div', 'lms-vlist lms-slist');
+    var thumbs = [];
+    list.forEach(function (it, k) {
+      var b = el('button', 'lms-vitem'); b.type = 'button';
+      var th = el('span', 'vi-th');
+      var im = document.createElement('img'); im.alt = ''; im.loading = 'lazy'; im.decoding = 'async';
+      th.appendChild(im); thumbs.push(im);
+      th.appendChild(el('i', 'vi-num', String(k + 1)));
+      th.appendChild(el('i', 'vi-done', ICO.check));
+      b.appendChild(th);
+      var tx = el('span', 'vi-tx');
+      tx.appendChild(bi('b', null, it.title));
+      tx.appendChild(el('span', null, '<span data-en="Slide ' + (k + 1) + '" data-id="Slide ' + (k + 1) + '">Slide ' + (k + 1) + '</span>'));
+      b.appendChild(tx);
+      b.addEventListener('click', function () { show(k); });
+      strip.appendChild(b);
+    });
+    wrap.appendChild(strip);
+    host.appendChild(wrap);
+
+    /* ── labels that follow the language ── */
+    function labels() {
+      var L = lang() === 'id';
+      zl.setAttribute('aria-label', L ? 'Slide sebelumnya' : 'Previous slide');
+      zr.setAttribute('aria-label', L ? 'Slide berikutnya' : 'Next slide');
+      bPrev.setAttribute('aria-label', L ? 'Slide sebelumnya' : 'Previous slide');
+      bNext.setAttribute('aria-label', L ? 'Slide berikutnya' : 'Next slide');
+      bPlay.setAttribute('aria-label', playing ? (L ? 'Jeda' : 'Pause') : (L ? 'Putar otomatis' : 'Play slideshow'));
+      bText.setAttribute('aria-label', L ? 'Teks slide' : 'Slide text');
+      bText.querySelector('span').textContent = L ? 'TEKS' : 'TEXT';
+      bFull.setAttribute('aria-label', L ? 'Layar penuh' : 'Fullscreen');
+      seek.setAttribute('aria-label', L ? 'Pilih slide' : 'Choose slide');
+    }
+
+    /* ── painting ── */
+    function markSeen(k) { seen[k] = true; try { localStorage.setItem(sk, JSON.stringify(seen)); } catch (e) {} }
+    function paintList() {
+      strip.querySelectorAll('.lms-vitem').forEach(function (b, k) {
+        b.classList.toggle('on', k === idx);
+        b.classList.toggle('done', !!seen[k]);
+        b.setAttribute('aria-current', k === idx ? 'true' : 'false');
+      });
+      thumbs.forEach(function (im, k) { var s = src(k, 320); if (im.getAttribute('src') !== s) im.src = s; });
+    }
+    function preload(k) { if (k >= 0 && k < N) { var p = new Image(); p.src = src(k, 1600); } }
+    function show(k) {
+      idx = Math.max(0, Math.min(N - 1, k));
+      var it = list[idx];
+      clearTimeout(upT); upnext.classList.remove('show'); upnext.innerHTML = '';
+      stage.classList.add('loading');
+      var want = src(idx, 1600);
+      img.onload = function () { if (img.getAttribute('src') === want) stage.classList.remove('loading'); };
+      img.onerror = function () { stage.classList.remove('loading'); };
+      img.srcset = src(idx, 960) + ' 960w, ' + want + ' 1600w';
+      img.src = want;
+      img.alt = T(it.title);
+      tl.innerHTML = '<i>' + (idx + 1) + '/' + N + '</i> ' + T(it.title);
+      tl.setAttribute('data-en', '<i>' + (idx + 1) + '/' + N + '</i> ' + it.title.en);
+      tl.setAttribute('data-id', '<i>' + (idx + 1) + '/' + N + '</i> ' + it.title.id);
+      count.innerHTML = '<b>' + (idx + 1) + '</b> / ' + N;
+      fill.style.width = ((idx + 1) / N * 100) + '%'; knob.style.left = ((idx + 1) / N * 100) + '%';
+      seek.setAttribute('aria-valuenow', String(idx + 1));
+      bPrev.disabled = zl.disabled = idx === 0;
+      bNext.disabled = zr.disabled = idx === N - 1;
+      nT.innerHTML = T(it.title); nT.setAttribute('data-en', it.title.en); nT.setAttribute('data-id', it.title.id);
+      nP.innerHTML = T(it.text); nP.setAttribute('data-en', it.text.en); nP.setAttribute('data-id', it.text.id);
+      markSeen(idx); paintList(); preload(idx + 1);
+      /* the host re-renders the lesson on a language switch: keep the place */
+      try { sessionStorage.setItem(sk + ':pos', String(idx)); } catch (e) {}
+      if (playing) {
+        clearTimeout(playT);
+        if (idx < N - 1) playT = setTimeout(function () { show(idx + 1); }, HOLD);
+        else { setPlaying(false); finished(); }
+      }
+    }
+    var upT = 0;
+    function finished() {
+      var L = lang() === 'id';
+      upnext.innerHTML = '<span class="vu-k" data-en="All slides read" data-id="Semua slide selesai">' + (L ? 'Semua slide selesai' : 'All slides read') + '</span>' +
+        '<b data-en="Continue to the lesson material below" data-id="Lanjutkan ke materi pelajaran di bawah">' + (L ? 'Lanjutkan ke materi pelajaran di bawah' : 'Continue to the lesson material below') + '</b>' +
+        '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to material" data-id="Ke materi">' + (L ? 'Ke materi' : 'Go to material') + '</span></button>' +
+        '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (L ? 'Tetap di sini' : 'Stay here') + '</button>';
+      upnext.classList.add('show');
+      upnext.querySelector('.vu-go').addEventListener('click', function () {
+        upnext.classList.remove('show');
+        var nx = wrap.nextElementSibling; if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      upnext.querySelector('.vu-x').addEventListener('click', function () { upnext.classList.remove('show'); });
+    }
+    /* like a presentation viewer, the chrome rests after a moment so the
+       whole slide is readable; any pointer, touch or key brings it back */
+    function showCtl() { stage.classList.remove('idle'); }
+    function armHide() {
+      clearTimeout(hideT);
+      hideT = setTimeout(function () {
+        if (upnext.classList.contains('show') || stage.contains(document.activeElement) && document.activeElement !== stage) return;
+        stage.classList.add('idle');
+      }, 2600);
+    }
+    function setPlaying(on) {
+      playing = on;
+      stage.classList.toggle('playing', on);
+      bPlay.innerHTML = on ? ICO.pause : ICO.play;
+      clearTimeout(playT);
+      if (on) {
+        if (idx === N - 1) show(0); else playT = setTimeout(function () { show(idx + 1); }, HOLD);
+        armHide();
+      } else showCtl();
+      labels();
+    }
+    function setText(on) {
+      notes.hidden = !on;
+      bText.classList.toggle('on', on);
+      try { localStorage.setItem('mt-lms-sstext', on ? '1' : '0'); } catch (e) {}
+    }
+
+    /* ── events ── */
+    zl.addEventListener('click', function () { show(idx - 1); });
+    zr.addEventListener('click', function () { show(idx + 1); });
+    bPrev.addEventListener('click', function () { show(idx - 1); });
+    bNext.addEventListener('click', function () { show(idx + 1); });
+    bPlay.addEventListener('click', function () { setPlaying(!playing); });
+    bText.addEventListener('click', function () { setText(notes.hidden); });
+    bFull.addEventListener('click', function () {
+      var fs = document.fullscreenElement || document.webkitFullscreenElement;
+      if (fs) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
+      if (stage.requestFullscreen) stage.requestFullscreen().catch(function () {});
+      else if (stage.webkitRequestFullscreen) stage.webkitRequestFullscreen();
+    });
+    function onFs() {
+      var on = (document.fullscreenElement || document.webkitFullscreenElement) === stage;
+      stage.classList.toggle('fs', on); bFull.innerHTML = on ? ICO.unfull : ICO.full;
+    }
+    document.addEventListener('fullscreenchange', onFs);
+    document.addEventListener('webkitfullscreenchange', onFs);
+    ['mousemove', 'touchstart', 'keydown', 'focusin'].forEach(function (ev) { stage.addEventListener(ev, function () { showCtl(); armHide(); }, { passive: true }); });
+    stage.addEventListener('mouseleave', armHide);
+    function seekAt(clientX, commit) {
+      var r = seek.getBoundingClientRect();
+      var k = Math.min(N - 1, Math.floor(Math.max(0, Math.min(.999, (clientX - r.left) / r.width)) * N));
+      tip.textContent = String(k + 1); tip.style.left = ((k + .5) / N * 100) + '%';
+      if (commit) show(k);
+    }
+    seek.addEventListener('pointerdown', function (e) { seekAt(e.clientX, true); });
+    seek.addEventListener('pointermove', function (e) { seekAt(e.clientX, false); });
+    seek.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { show(idx - 1); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { show(idx + 1); e.preventDefault(); }
+    });
+    stage.addEventListener('keydown', function (e) {
+      if (e.target !== stage) return;
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') { show(idx - 1); e.preventDefault(); }
+      else if (e.key === 'ArrowRight' || e.key === 'PageDown') { show(idx + 1); e.preventDefault(); }
+      else if (e.key === 'Home') { show(0); e.preventDefault(); }
+      else if (e.key === 'End') { show(N - 1); e.preventDefault(); }
+      else if (e.key === ' ' || e.key === 'k') { setPlaying(!playing); e.preventDefault(); }
+      else if (e.key === 't') { setText(notes.hidden); }
+      else if (e.key === 'f') { bFull.click(); }
+    });
+    var x0 = null;
+    stage.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0;
+      if (dx > 40) show(idx - 1);
+      if (dx < -40) show(idx + 1);
+      x0 = null;
+    }, { passive: true });
+
+    /* language switch: the host page sets <html lang>; swap the image set */
+    if ('MutationObserver' in window) {
+      new MutationObserver(function () {
+        if (lang() !== curLang) { curLang = lang(); labels(); show(idx); }
+      }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    }
+
+    /* initial state: the slide text panel remembers the member's choice */
+    var tp = null;
+    try { tp = localStorage.getItem('mt-lms-sstext'); } catch (e) {}
+    setText(tp === '1');
+    labels();
+    var first = 0; while (first < N - 1 && seen[first]) first++;
+    try { var pos = sessionStorage.getItem(sk + ':pos'); if (pos !== null && +pos >= 0 && +pos < N) first = +pos; } catch (e) {}
+    show(first);
+    armHide();
     return wrap;
   }
 
@@ -1002,6 +1268,7 @@
     }
 
     renderIntroVideos(l, innerEl);   /* declared intro videos always lead the material */
+    renderMaterial(l, innerEl);      /* slide material follows the videos' closing takeaways */
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
