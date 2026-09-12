@@ -51,9 +51,13 @@ before the knowledge check (1.3 Foundational Mindset does). A poster
 facade means nothing from YouTube loads until the member presses play;
 the embed then runs with its own controls off and the player's controls
 drive the IFrame API (play, scrub, ±10 s, mute, fullscreen, keyboard).
-Subtitles use the video's own YouTube caption tracks — the CC menu marks
-languages the video does not have — and follow the site language unless
-the member chose otherwise.
+Subtitles come from three sources, in order of preference for the chosen
+language: the block's own `captions: { en, id }` VTT files, drawn by the
+player exactly like the lesson videos and independent of YouTube; a
+caption track the YouTube video has in that language; or YouTube's
+automatic translation of any track the video has. The CC menu marks a
+language only when none of the three exist, follows the site language,
+and remembers the member's choice.
 
 ### Slide material (`material{}`)
 

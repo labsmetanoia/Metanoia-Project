@@ -1219,6 +1219,7 @@
     facade.appendChild(poster); stage.appendChild(facade);
     var big = el('button', 'lms-vbig', ICO.play); big.setAttribute('aria-label', 'Play'); stage.appendChild(big);
     var spin = el('div', 'lms-vspin'); stage.appendChild(spin);
+    var cap = el('div', 'lms-vcap'); cap.setAttribute('aria-live', 'off'); stage.appendChild(cap);   /* subtitles drawn by the player */
     var upnext = el('div', 'lms-vup'); stage.appendChild(upnext);
     var top = el('div', 'lms-vtop'); var tl = bi('div', 'lms-vtitle', y.title || { en: 'Lesson film', id: 'Film pelajaran' }); top.appendChild(tl); stage.appendChild(top);
 
@@ -1266,6 +1267,40 @@
       seek.setAttribute('aria-valuenow', String(Math.round(p)));
       time.innerHTML = '<b>' + fmtTime(t) + '</b> / ' + fmtTime(d);
       try { buf.style.width = (P.getVideoLoadedFraction() * 100) + '%'; } catch (e) {}
+      drawCue(t);
+    }
+    /* ── subtitles ──
+       Three sources, in order of preference for the chosen language:
+       1. the lesson's own VTT (y.captions[lang]) drawn by the player — the
+          same look as the lesson videos, and independent of YouTube;
+       2. a caption track the YouTube video itself has in that language;
+       3. YouTube's automatic translation of any track the video has.
+       The CC menu marks a language only when none of the three exist. */
+    var cues = [], lastCue = null, ownLang = null;
+    function drawCue(t) {
+      if (!ownLang) return;
+      var c = null;
+      for (var i = 0; i < cues.length; i++) if (t >= cues[i].start && t < cues[i].end) { c = cues[i]; break; }
+      if (c === lastCue) return;
+      lastCue = c;
+      if (c) { cap.innerHTML = c.text.replace(/</g, '&lt;').replace(/\n/g, stage.clientWidth < 560 ? ' ' : '<br>'); cap.classList.add('show'); }
+      else cap.classList.remove('show');
+    }
+    function loadCues() {
+      cues = []; lastCue = null; cap.textContent = ''; cap.classList.remove('show');
+      var own = ccOn && y.captions && y.captions[ccLang];
+      ownLang = own ? ccLang : null;
+      if (!own) return;
+      var want = y.captions[ccLang];
+      fetch(want).then(function (r) { return r.ok ? r.text() : ''; }).then(function (t) {
+        if (!ccOn || y.captions[ccLang] !== want) return;
+        cues = parseVtt(t); if (P && ready) drawCue(cur());
+      }).catch(function () {});
+    }
+    function hasOwn(code) { return !!(y.captions && y.captions[code]); }
+    function ytNative(code) { return !!(tracks && tracks.some(function (t) { return (t.languageCode || '').split('-')[0] === code; })); }
+    function ytTranslatable(code) {
+      return !!(tracks && tracks.length && translations && translations.some(function (t) { return (t.languageCode || '').split('-')[0] === code; }));
     }
     function setPlaying(on) {
       playing = on;
@@ -1283,23 +1318,35 @@
       e.innerHTML += '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch it on YouTube" data-id="Tonton di YouTube">' + (lang() === 'id' ? 'Tonton di YouTube' : 'Watch it on YouTube') + '</span> ↗</a>';
       stage.appendChild(e);
     }
+    var translations = null;
     function readTracks() {
       try { tracks = P.getOption('captions', 'tracklist') || []; } catch (e) { tracks = null; }
-      paintCC();
+      try { translations = P.getOption('captions', 'translationLanguages') || []; } catch (e) { translations = null; }
+      applyCC();
     }
     function paintCC() {
       bCC.classList.toggle('on', ccOn);
       ccMenu.querySelectorAll('button').forEach(function (b) {
         var code = b.getAttribute('data-cc');
         b.classList.toggle('on', code === (ccOn ? ccLang : 'off'));
-        if (tracks && code !== 'off') b.classList.toggle('na', !tracks.some(function (t) { return (t.languageCode || '').split('-')[0] === code; }));
+        if (code !== 'off' && tracks !== null) b.classList.toggle('na', !(hasOwn(code) || ytNative(code) || ytTranslatable(code)));
       });
     }
     function applyCC() {
+      loadCues();
       if (!P || !ready) { paintCC(); return; }
       try {
-        if (ccOn) { P.loadModule('captions'); P.setOption('captions', 'track', { languageCode: ccLang }); }
-        else P.unloadModule('captions');
+        if (!ccOn || ownLang) P.unloadModule('captions');           /* off, or drawn by the player */
+        else {
+          P.loadModule('captions');
+          if (!tracks || ytNative(ccLang) || !ytTranslatable(ccLang)) P.setOption('captions', 'track', { languageCode: ccLang });
+          else {
+            /* no track in this language: translate the video's own track */
+            var base = tracks[0].languageCode;
+            P.setOption('captions', 'track', { languageCode: base, translationLanguage: { languageCode: ccLang } });
+            P.setOption('captions', 'translationLanguage', { languageCode: ccLang });
+          }
+        }
       } catch (e) {}
       paintCC();
     }
