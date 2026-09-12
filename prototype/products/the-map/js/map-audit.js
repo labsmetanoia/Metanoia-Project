@@ -10,71 +10,65 @@
  * on-device. No psychometric claims are made — the report mirrors the
  * user's own answers back as a working map, and says so.
  * Storage: localStorage 'mt_map_audit'.
+ * Skin: js/tool-shell.js + css/tool-shell.css (shared with the other instruments).
  */
 (function () {
   'use strict';
   var LS = 'mt_map_audit';
+  var SH = window.MT_SHELL;
+  if (!SH) return;
 
-  function lang() {
-    try { return localStorage.getItem('mtLang') === 'id' ? 'id' : 'en'; } catch (e) { return 'en'; }
-  }
+  function lang() { try { return localStorage.getItem('mtLang') === 'id' ? 'id' : 'en'; } catch (e) { return 'en'; } }
   function T(en, id) { return lang() === 'id' ? id : en; }
   function store() { try { return JSON.parse(localStorage.getItem(LS) || '{}'); } catch (e) { return {}; } }
   function save(s) { try { s.updatedAt = Date.now(); localStorage.setItem(LS, JSON.stringify(s)); } catch (e) {} }
-  function el(tag, cls, html) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (html != null) n.innerHTML = html;
-    return n;
-  }
-  function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  var el = SH.el, esc = SH.esc;
 
   /* ─── content ─── */
   var VALUES = [
-    ['growth', 'Growth & learning', 'Pertumbuhan & belajar'],
-    ['security', 'Stability & security', 'Stabilitas & keamanan'],
-    ['autonomy', 'Autonomy', 'Otonomi'],
-    ['impact', 'Impact on others', 'Dampak bagi orang lain'],
-    ['craft', 'Mastery of a craft', 'Penguasaan keahlian'],
-    ['recognition', 'Recognition', 'Pengakuan'],
-    ['balance', 'Work–life balance', 'Keseimbangan hidup'],
-    ['income', 'Earning power', 'Daya penghasilan'],
-    ['belonging', 'Team & belonging', 'Tim & rasa memiliki'],
-    ['variety', 'Variety & novelty', 'Variasi & kebaruan'],
-    ['leading', 'Leading people', 'Memimpin orang'],
-    ['creating', 'Creating new things', 'Menciptakan hal baru'],
-    ['service', 'Service & care', 'Pelayanan & kepedulian'],
-    ['challenge', 'Hard problems', 'Masalah sulit'],
-    ['integrity', 'Integrity & fairness', 'Integritas & keadilan'],
-    ['adventure', 'Adventure & risk', 'Petualangan & risiko']
+    ['growth', 'Growth & learning', 'Pertumbuhan & belajar', 'seed', 'Keep evolving', 'Terus berkembang'],
+    ['security', 'Stability & security', 'Stabilitas & keamanan', 'shield', 'Build a solid foundation', 'Bangun fondasi yang kokoh'],
+    ['autonomy', 'Autonomy', 'Otonomi', 'mountain', 'Freedom to decide', 'Bebas memutuskan'],
+    ['impact', 'Impact on others', 'Dampak bagi orang lain', 'heart', 'Create positive change', 'Ciptakan perubahan positif'],
+    ['craft', 'Mastery of a craft', 'Penguasaan keahlian', 'diamond', 'Be truly excellent', 'Menjadi sungguh unggul'],
+    ['recognition', 'Recognition', 'Pengakuan', 'star', 'Be valued for meaningful work', 'Dihargai atas kerja bermakna'],
+    ['balance', 'Work–life balance', 'Keseimbangan hidup', 'balance', 'Live a fulfilling life', 'Hidup yang utuh'],
+    ['earning', 'Earning power', 'Daya penghasilan', 'coins', 'Create financial freedom', 'Ciptakan kebebasan finansial'],
+    ['team', 'Team & belonging', 'Tim & rasa memiliki', 'users', 'Be part of something bigger', 'Menjadi bagian dari yang lebih besar'],
+    ['variety', 'Variety & novelty', 'Variasi & kebaruan', 'sparkles', 'Keep it interesting', 'Tetap menarik'],
+    ['leading', 'Leading people', 'Memimpin orang', 'people', 'Empower and develop', 'Memberdayakan dan mengembangkan'],
+    ['adventure', 'Adventure & risk', 'Petualangan & risiko', 'compass', 'Embrace the unknown', 'Rangkul yang tak pasti'],
+    ['creating', 'Creating new things', 'Menciptakan hal baru', 'bulb', 'Turn ideas into reality', 'Wujudkan gagasan'],
+    ['service', 'Service & care', 'Pelayanan & kepedulian', 'handshake', 'Make life better for others', 'Buat hidup orang lain lebih baik'],
+    ['problems', 'Hard problems', 'Masalah sulit', 'puzzle', 'Tackle complex challenges', 'Taklukkan tantangan rumit'],
+    ['integrity', 'Integrity & fairness', 'Integritas & keadilan', 'shieldTick', 'Do what is right', 'Lakukan yang benar']
   ];
   var ACTIVITIES = [
-    ['analyse', 'Analysing data or documents', 'Menganalisis data atau dokumen'],
-    ['present', 'Presenting to a group', 'Presentasi ke sekelompok orang'],
-    ['write', 'Writing — reports, essays, posts', 'Menulis — laporan, esai, unggahan'],
-    ['organise', 'Organising events or projects', 'Mengorganisasi acara atau proyek'],
-    ['sell', 'Persuading or selling', 'Meyakinkan atau menjual'],
-    ['build', 'Building things — code, models, designs', 'Membangun — kode, model, desain'],
-    ['teach', 'Teaching or mentoring someone', 'Mengajar atau membimbing seseorang'],
-    ['negotiate', 'Negotiating or debating', 'Bernegosiasi atau berdebat'],
-    ['research', 'Deep research on one topic', 'Riset mendalam satu topik'],
-    ['network', 'Meeting new people', 'Bertemu orang baru'],
-    ['detail', 'Careful detail work', 'Kerja detail yang teliti'],
-    ['improvise', 'Improvising under pressure', 'Berimprovisasi di bawah tekanan']
+    ['present', 'Presenting to a group', 'Presentasi di depan kelompok', 'mic'],
+    ['analyse', 'Analysing data or numbers', 'Menganalisis data atau angka', 'chart'],
+    ['write', 'Writing long-form documents', 'Menulis dokumen panjang', 'pen'],
+    ['organise', 'Organising people and schedules', 'Mengatur orang dan jadwal', 'calendar'],
+    ['build', 'Building something with my hands or code', 'Membangun sesuatu dengan tangan atau kode', 'cog'],
+    ['sell', 'Persuading or selling', 'Membujuk atau menjual', 'handshake'],
+    ['teach', 'Teaching or explaining', 'Mengajar atau menjelaskan', 'graduate'],
+    ['research', 'Deep research on one topic', 'Riset mendalam satu topik', 'search'],
+    ['network', 'Meeting new people', 'Bertemu orang baru', 'users'],
+    ['detail', 'Careful detail work', 'Kerja detail yang teliti', 'eye'],
+    ['improvise', 'Improvising under pressure', 'Berimprovisasi di bawah tekanan', 'zap']
   ];
   var HABITS = [
     ['recovery', 'After a setback I run a deliberate recovery routine instead of avoiding or spiralling.',
-      'Setelah kemunduran aku menjalankan rutinitas pemulihan yang disengaja, bukan menghindar atau terpuruk.', '1.1'],
+      'Setelah kemunduran aku menjalankan rutinitas pemulihan yang disengaja, bukan menghindar atau terpuruk.', '1.1', 'refresh'],
     ['proactive', 'I respond to problems with "what can I do?" rather than "who is to blame?".',
-      'Aku merespons masalah dengan "apa yang bisa kulakukan?" bukan "siapa yang salah?".', '2.2'],
+      'Aku merespons masalah dengan "apa yang bisa kulakukan?" bukan "siapa yang salah?".', '2.2', 'zap'],
     ['mission', 'I have a written direction — mission and 3-year outcome — that guides my choices.',
-      'Aku punya arah tertulis — misi dan hasil 3 tahun — yang memandu pilihanku.', '2.3'],
+      'Aku punya arah tertulis — misi dan hasil 3 tahun — yang memandu pilihanku.', '2.3', 'compass'],
     ['priority', 'I schedule important-but-not-urgent work before my week fills up.',
-      'Aku menjadwalkan kerja penting-tapi-tak-mendesak sebelum mingguku penuh.', '2.4'],
+      'Aku menjadwalkan kerja penting-tapi-tak-mendesak sebelum mingguku penuh.', '2.4', 'calendar'],
     ['capture', 'Every task and promise I make lands in one trusted system, not my memory.',
-      'Setiap tugas dan janji masuk ke satu sistem tepercaya, bukan ingatanku.', '5.3'],
+      'Setiap tugas dan janji masuk ke satu sistem tepercaya, bukan ingatanku.', '5.3', 'list'],
     ['energy', 'I defend a sleep window and move most days, even in busy weeks.',
-      'Aku menjaga jendela tidur dan bergerak hampir tiap hari, bahkan di minggu sibuk.', '5.1']
+      'Aku menjaga jendela tidur dan bergerak hampir tiap hari, bahkan di minggu sibuk.', '5.1', 'battery']
   ];
   var MODULE_RECO = {
     recovery: ['1', 'Self-Awareness and Personal Audit', 'Kesadaran Diri dan Audit Pribadi'],
@@ -84,7 +78,6 @@
     capture: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital'],
     energy: ['5', 'Relationships, Well-Being, and Digital Capability', 'Hubungan, Kesejahteraan, dan Kemampuan Digital']
   };
-
   var STEPS = [
     ['values', 'Values', 'Nilai'],
     ['energy', 'Energy', 'Energi'],
@@ -93,95 +86,16 @@
     ['mission', 'Mission', 'Misi'],
     ['report', 'Report', 'Laporan']
   ];
+  var SIGN = [{ en: 'A clearer you', id: 'Dirimu yang lebih jernih' }, { en: 'A brighter tomorrow', id: 'Esok yang lebih cerah' }];
 
-  /* ─── styles ─── */
-  var css = '' +
-  '#mapAudit{position:fixed;inset:0;z-index:1250;display:none;background:var(--bg-base,#050A12);overflow:hidden}' +
-  '#mapAudit.open{display:flex;flex-direction:column}' +
-  '#mapAudit .ma-bg{position:absolute;inset:0;z-index:0;pointer-events:none;background:url("../../assets/bg/map-hero.jpg") 70% 28%/cover no-repeat;opacity:.18}' +
-  '#mapAudit .ma-veil{position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,rgba(5,10,18,.6),rgba(5,10,18,.9) 45%,rgba(5,10,18,.96))}' +
-  ':root[data-theme="light"] #mapAudit .ma-bg{opacity:.1}' +
-  ':root[data-theme="light"] #mapAudit .ma-veil{background:linear-gradient(180deg,rgba(238,241,246,.85),rgba(238,241,246,.96) 45%)}' +
-  '#mapAudit .ma-top{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:11px 22px;flex-wrap:wrap;border-bottom:1px solid var(--gold-border);background:var(--glass-bg);backdrop-filter:var(--glass-blur)}' +
-  '#mapAudit .ma-top b{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}' +
-  '#mapAudit .ma-steps{display:flex;gap:3px;align-items:center;flex-wrap:wrap}' +
-  '#mapAudit .ma-step{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 11px;font-size:10.5px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--text-faint);border:1px solid transparent;background:none;cursor:pointer;font-family:inherit}' +
-  '#mapAudit .ma-step i{font-style:normal;width:15px;height:15px;border-radius:50%;border:1.5px solid currentColor;display:inline-flex;align-items:center;justify-content:center;font-size:8.5px}' +
-  '#mapAudit .ma-step.done{color:var(--text-muted)}' +
-  '#mapAudit .ma-step.done i{background:rgba(74,222,128,.15);border-color:rgba(74,222,128,.6);color:#4ADE80}' +
-  '#mapAudit .ma-step.now{color:var(--gold-bright);border-color:var(--gold-border-hover);background:rgba(201,168,76,.1)}' +
-  '#mapAudit .ma-close{margin-left:auto;width:36px;height:36px;border-radius:999px;border:1px solid var(--gold-border);background:none;color:var(--text);cursor:pointer;font-size:15px;flex:none}' +
-  '#mapAudit .ma-close:hover{border-color:var(--gold)}' +
-  '#mapAudit .ma-body{position:relative;z-index:1;flex:1;overflow-y:auto;padding:26px 22px 70px}' +
-  '#mapAudit .ma-in{max-width:820px;margin:0 auto;animation:maEnter .4s cubic-bezier(.22,1,.36,1)}' +
-  '@keyframes maEnter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}' +
-  '@media(prefers-reduced-motion:reduce){#mapAudit .ma-in{animation:none}}' +
-  '#mapAudit .ma-card{border:1px solid var(--gold-border);border-radius:16px;background:var(--glass-bg);backdrop-filter:var(--glass-blur);padding:22px 24px;margin-bottom:14px}' +
-  '#mapAudit .ma-kick{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}' +
-  '#mapAudit h2{font-size:1.35rem;margin:0 0 8px;color:var(--text)}' +
-  '#mapAudit .ma-sub{font-size:13.5px;color:var(--text-sub);line-height:1.7;margin:0 0 14px}' +
-  '#mapAudit .ma-note{font-size:12px;color:var(--text-faint);line-height:1.55;margin-top:10px}' +
-  '#mapAudit .ma-chips{display:flex;gap:8px;flex-wrap:wrap}' +
-  '#mapAudit .ma-chip{border:1px solid var(--gold-border);border-radius:999px;padding:8px 15px;font-size:13px;color:var(--text-sub);background:none;cursor:pointer;font-family:inherit;transition:border-color .2s,color .2s}' +
-  '#mapAudit .ma-chip:hover{border-color:var(--gold-border-hover)}' +
-  '#mapAudit .ma-chip.on{color:#10131B;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);border-color:transparent;font-weight:700}' +
-  '#mapAudit .ma-chip.on .ord{opacity:.75;font-weight:800;margin-right:5px}' +
-  '#mapAudit .ma-act{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px 12px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(201,168,76,.12)}' +
-  '#mapAudit .ma-act:last-child{border-bottom:none}' +
-  '#mapAudit .ma-act span{font-size:13.5px;color:var(--text-sub)}' +
-  '#mapAudit .ma-tri{display:flex;gap:4px}' +
-  '#mapAudit .ma-tri button{border:1px solid var(--gold-border);background:none;color:var(--text-muted);border-radius:999px;padding:5px 11px;font-size:11.5px;font-weight:700;cursor:pointer;font-family:inherit}' +
-  '#mapAudit .ma-tri button.on-drain{background:rgba(239,111,94,.16);border-color:rgba(239,111,94,.55);color:#EF6F5E}' +
-  '#mapAudit .ma-tri button.on-mid{background:rgba(201,168,76,.14);border-color:var(--gold-border-hover);color:var(--gold-bright)}' +
-  '#mapAudit .ma-tri button.on-gain{background:rgba(74,222,128,.14);border-color:rgba(74,222,128,.55);color:#4ADE80}' +
-  '#mapAudit .ma-field{margin-bottom:14px}' +
-  '#mapAudit .ma-field label{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--text-muted);margin-bottom:6px}' +
-  '#mapAudit .ma-field input[type=text],#mapAudit .ma-field textarea{width:100%;box-sizing:border-box;background:var(--bg-mid);border:1px solid var(--gold-border);border-radius:10px;color:var(--text);font-family:inherit;font-size:13.5px;line-height:1.6;padding:11px 13px}' +
-  '#mapAudit .ma-field textarea{min-height:74px;resize:vertical}' +
-  '#mapAudit .ma-field input:focus,#mapAudit .ma-field textarea:focus{outline:none;border-color:var(--gold)}' +
-  '#mapAudit .ma-scale{display:flex;gap:5px}' +
-  '#mapAudit .ma-scale button{width:34px;height:34px;border-radius:9px;border:1px solid var(--gold-border);background:none;color:var(--text-muted);font-weight:800;font-size:13px;cursor:pointer;font-family:inherit}' +
-  '#mapAudit .ma-scale button.on{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border-color:transparent}' +
-  '#mapAudit .ma-hab{padding:13px 0;border-bottom:1px solid rgba(201,168,76,.12)}' +
-  '#mapAudit .ma-hab:last-child{border-bottom:none}' +
-  '#mapAudit .ma-hab p{font-size:13.5px;color:var(--text-sub);margin:0 0 9px;line-height:1.6}' +
-  '#mapAudit .ma-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;align-items:center}' +
-  '#mapAudit .ma-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 22px;border-radius:999px;border:0;cursor:pointer;font-family:inherit;font-weight:800;font-size:13.5px;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}' +
-  '#mapAudit .ma-btn.ghost{background:none;border:1px solid var(--gold-border);color:var(--gold)}' +
-  '#mapAudit .ma-btn:disabled{opacity:.45;cursor:not-allowed}' +
-  '#mapAudit .ma-bar{height:8px;border-radius:999px;background:rgba(201,168,76,.14);overflow:hidden;margin-top:6px}' +
-  '#mapAudit .ma-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#8B6914,#C9A84C,#F0D878)}' +
-  '#mapAudit .ma-rep-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}' +
-  '#mapAudit .ma-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}' +
-  '@media(max-width:640px){#mapAudit .ma-two{grid-template-columns:1fr}}' +
-  '#mapAudit .ma-li{font-size:13px;color:var(--text-sub);padding:5px 0;line-height:1.55}' +
-  '#mapAudit .ma-li b{color:var(--text)}' +
-  '#mapAudit .ma-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--gold-border);border-radius:999px;padding:3px 10px;color:var(--gold);margin:2px 4px 2px 0}';
-
-  var root = null, body = null, stepsEl = null, stepIdx = 0;
+  var shell = null, stepIdx = 0;
 
   function build() {
-    if (root) return;
-    var st = document.createElement('style');
-    st.id = 'mapAuditCss'; st.textContent = css;
-    document.head.appendChild(st);
-    root = el('div'); root.id = 'mapAudit';
-    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'Personal Audit');
-    root.appendChild(el('div', 'ma-bg'));
-    root.appendChild(el('div', 'ma-veil'));
-    var top = el('div', 'ma-top');
-    top.appendChild(el('b', null, T('The Map · Personal Audit', 'The Map · Audit Pribadi')));
-    stepsEl = el('div', 'ma-steps');
-    top.appendChild(stepsEl);
-    var x = el('button', 'ma-close', '✕');
-    x.setAttribute('aria-label', 'Close');
-    x.addEventListener('click', close);
-    top.appendChild(x);
-    body = el('div', 'ma-body');
-    root.appendChild(top); root.appendChild(body);
-    document.body.appendChild(root);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && root.classList.contains('open')) close();
+    if (shell) return;
+    shell = SH.mount({
+      id: 'mapAudit', product: 'The Map', tool: { en: 'Personal Audit', id: 'Audit Pribadi' },
+      scene: '../../assets/bg/portal.jpg', scenePos: '60% 35%',
+      onClose: close
     });
   }
 
@@ -193,319 +107,293 @@
     if (key === 'mission') return !!(s.mission && s.mission.text);
     return false;
   }
-
-  function renderSteps() {
-    stepsEl.innerHTML = '';
+  function paintTabs() {
     var s = store();
-    STEPS.forEach(function (sp, i) {
-      var cls = i === stepIdx ? ' now' : stepDone(sp[0], s) ? ' done' : '';
-      var b = el('button', 'ma-step' + cls);
-      b.appendChild(el('i', null, stepDone(sp[0], s) && i !== stepIdx ? '✓' : String(i + 1)));
-      b.appendChild(el('span', null, T(sp[1], sp[2])));
-      b.addEventListener('click', function () { stepIdx = i; render(); });
-      stepsEl.appendChild(b);
-    });
+    shell.setTabs(STEPS.map(function (sp, i) {
+      return { key: i, num: i + 1, label: { en: sp[1], id: sp[2] }, on: i === stepIdx, done: stepDone(sp[0], s) };
+    }), function (k) { stepIdx = k; render(); });
   }
 
-  function nav(w, backOk, nextLabel) {
-    var row = el('div', 'ma-row');
-    if (backOk) {
-      var back = el('button', 'ma-btn ghost', '← ' + T('Back', 'Kembali'));
-      back.addEventListener('click', function () { stepIdx--; render(); });
-      row.appendChild(back);
-    }
-    var next = el('button', 'ma-btn', (nextLabel || T('Continue', 'Lanjut')) + ' →');
-    next.addEventListener('click', function () { stepIdx++; render(); });
-    row.appendChild(next);
-    w.appendChild(row);
-  }
-
-  function card(w, kick, title, sub) {
-    var c = el('div', 'ma-card');
-    if (kick) c.appendChild(el('div', 'ma-kick', kick));
-    if (title) c.appendChild(el('h2', null, title));
-    if (sub) c.appendChild(el('p', 'ma-sub', sub));
-    w.appendChild(c);
-    return c;
+  /* bottom hand-off strip: back + continue, with a sense of where you are */
+  function navStrip(main, opts) {
+    opts = opts || {};
+    var acts = [];
+    if (stepIdx > 0) acts.push(SH.btn({ en: 'Back', id: 'Kembali' }, { ghost: true, iconL: 'arrowL', onClick: function () { stepIdx--; render(); } }));
+    acts.push(SH.btn(opts.next || { en: 'Continue', id: 'Lanjut' }, { icon: 'arrow', onClick: function () { stepIdx++; render(); } }));
+    var nextStep = STEPS[stepIdx + 1];
+    main.appendChild(SH.cta({
+      icon: opts.icon || 'sparkles',
+      title: opts.title || T('Step ' + (stepIdx + 1) + ' of 5', 'Langkah ' + (stepIdx + 1) + ' dari 5'),
+      text: opts.text || (nextStep ? T('Next: ' + nextStep[1] + '. Your answers are saved on this device as you go.', 'Berikutnya: ' + nextStep[2] + '. Jawabanmu tersimpan di perangkat ini seiring kamu mengisi.') : ''),
+      actions: acts
+    }));
   }
 
   /* ─── step renderers ─── */
-  function rValues(w) {
+  function rValues() {
     var s = store();
     s.values = s.values || [];
-    var c = card(w, T('Step 1 · Values', 'Langkah 1 · Nilai'),
-      T('What do you refuse to trade away?', 'Apa yang tak mau kamu tukar?'),
-      T('Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered — first is strongest.',
-        'Pilih 3–5 nilai yang harus hadir dalam kehidupan kerjamu agar terasa benar. Pilihanmu berurutan — pertama paling kuat.'));
-    var chips = el('div', 'ma-chips');
+    var hero = SH.hero({
+      kicker: { en: 'Step 1 · Values', id: 'Langkah 1 · Nilai' },
+      title: { en: ['What do you refuse', 'to trade away?'], id: ['Apa yang tak mau', 'kamu tukar?'] },
+      sub: { en: 'Pick the 3–5 values that must be present in your working life for it to feel right. Your picks are ordered — first is strongest.', id: 'Pilih 3–5 nilai yang harus hadir dalam kehidupan kerjamu agar terasa benar. Pilihanmu berurutan — pertama paling kuat.' },
+      chip: { en: 'Tip from Lesson 2.3: values are tested by trade-offs, not by liking the words. For each pick, recall one real decision where you paid a price for it.', id: 'Tips dari Pelajaran 2.3: nilai diuji oleh pertukaran, bukan oleh menyukai katanya. Untuk tiap pilihan, ingat satu keputusan nyata saat kamu membayar harga untuknya.' },
+      chipIcon: 'bulb',
+      tagline: [{ en: 'Your values', id: 'Nilai-nilaimu' }, { en: 'shape your journey.', id: 'membentuk perjalananmu.' }],
+      quote: { en: 'Know what matters most, so you can build a life that matters.', id: 'Ketahui apa yang paling penting, agar kamu bisa membangun hidup yang berarti.' },
+      sign: SIGN
+    });
+    var main = el('div', 'ts-main');
+    main.appendChild(SH.hd({ en: 'Sixteen values', id: 'Enam belas nilai' }, { en: 'Tap to pick, tap again to release', id: 'Ketuk untuk memilih, ketuk lagi untuk melepas' }, s.values.length + ' / 5 ' + T('picked', 'terpilih')));
+    var grid = el('div', 'ts-tiles');
     VALUES.forEach(function (v) {
       var idx = s.values.indexOf(v[0]);
-      var b = el('button', 'ma-chip' + (idx > -1 ? ' on' : ''),
-        (idx > -1 ? '<span class="ord">' + (idx + 1) + '</span>' : '') + T(v[1], v[2]));
-      b.addEventListener('click', function () {
-        var s2 = store(); s2.values = s2.values || [];
-        var i = s2.values.indexOf(v[0]);
-        if (i > -1) s2.values.splice(i, 1);
-        else if (s2.values.length < 5) s2.values.push(v[0]);
-        save(s2); render();
-      });
-      chips.appendChild(b);
+      grid.appendChild(SH.tile({ icon: v[3], title: T(v[1], v[2]), hint: T(v[4], v[5]), on: idx > -1, ord: idx > -1 ? idx + 1 : null,
+        disabled: idx === -1 && s.values.length >= 5,
+        onPick: function () {
+          var s2 = store(); s2.values = s2.values || [];
+          var i = s2.values.indexOf(v[0]);
+          if (i > -1) s2.values.splice(i, 1);
+          else if (s2.values.length < 5) s2.values.push(v[0]);
+          save(s2); render();
+        } }));
     });
-    c.appendChild(chips);
-    c.appendChild(el('p', 'ma-note', T('Tip from Lesson 2.3: values are tested by trade-offs, not by liking the words. For each pick, recall one real decision where you paid a price for it.',
-      'Tips dari Pelajaran 2.3: nilai diuji oleh pertukaran, bukan oleh menyukai katanya. Untuk tiap pilihan, ingat satu keputusan nyata saat kamu membayar harga untuknya.')));
-    nav(w, false);
+    main.appendChild(grid);
+    navStrip(main, { icon: 'heart', title: s.values.length < 3 ? T('Pick at least three to continue', 'Pilih setidaknya tiga untuk lanjut') : T(s.values.length + ' values, in your order', s.values.length + ' nilai, sesuai urutanmu') });
+    return SH.stage(hero, main);
   }
 
-  function rEnergy(w) {
+  function rEnergy() {
     var s = store();
     s.energy = s.energy || {};
-    var c = card(w, T('Step 2 · Energy', 'Langkah 2 · Energi'),
-      T('What fills you, what empties you?', 'Apa yang mengisimu, apa yang mengurasmu?'),
-      T('For each activity, mark whether it usually energises you, drains you, or neither. Answer from remembered experience, not from what sounds impressive.',
-        'Untuk tiap aktivitas, tandai apakah biasanya memberimu energi, mengurasmu, atau netral. Jawab dari pengalaman yang diingat, bukan dari yang terdengar keren.'));
-    ACTIVITIES.forEach(function (a) {
-      var row = el('div', 'ma-act');
-      row.appendChild(el('span', null, T(a[1], a[2])));
-      var tri = el('div', 'ma-tri');
-      [['drain', T('Drains', 'Menguras'), 'on-drain'], ['mid', T('Neutral', 'Netral'), 'on-mid'], ['gain', T('Energises', 'Memberi energi'), 'on-gain']].forEach(function (o) {
-        var b = el('button', s.energy[a[0]] === o[0] ? o[2] : '', o[1]);
-        b.addEventListener('click', function () {
-          var s2 = store(); s2.energy = s2.energy || {};
-          s2.energy[a[0]] = o[0];
-          save(s2); render();
-        });
-        tri.appendChild(b);
-      });
-      row.appendChild(tri);
-      c.appendChild(row);
+    var done = Object.keys(s.energy).length;
+    var hero = SH.hero({
+      kicker: { en: 'Step 2 · Energy', id: 'Langkah 2 · Energi' },
+      title: { en: ['What fills you,', 'what empties you?'], id: ['Apa yang mengisimu,', 'apa yang mengurasmu?'] },
+      sub: { en: 'For each activity, mark whether it usually energises you, drains you, or neither. Answer from remembered experience, not from what sounds impressive.', id: 'Untuk tiap aktivitas, tandai apakah biasanya memberimu energi, mengurasmu, atau netral. Jawab dari pengalaman yang diingat, bukan dari yang terdengar keren.' },
+      chip: { en: 'Direction rule from Module 6: prefer paths where the daily work sits in your “energises” column.', id: 'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom “memberi energi”.' },
+      chipIcon: 'battery',
+      tagline: [{ en: 'Energy is the honest', id: 'Energi adalah pembaca' }, { en: 'reader of fit.', id: 'kecocokan yang jujur.' }],
+      quote: { en: 'The work that fills you is the work you can sustain.', id: 'Kerja yang mengisimu adalah kerja yang bisa kamu jaga.' },
+      sign: SIGN
     });
-    nav(w, true);
+    var main = el('div', 'ts-main');
+    main.appendChild(SH.hd({ en: 'Eleven activities', id: 'Sebelas aktivitas' }, { en: 'Mark each one from memory', id: 'Tandai masing-masing dari ingatan' }, done + ' / ' + ACTIVITIES.length + ' ' + T('marked', 'ditandai')));
+    ACTIVITIES.forEach(function (a, i) {
+      var ctl = SH.tri({ value: s.energy[a[0]], options: [
+        ['drain', { en: 'Drains', id: 'Menguras' }, 'on-drain', 'battery'],
+        ['mid', { en: 'Neutral', id: 'Netral' }, 'on-mid', 'balance'],
+        ['gain', { en: 'Energises', id: 'Memberi energi' }, 'on-gain', 'zap']],
+        onPick: function (k) { var s2 = store(); s2.energy = s2.energy || {}; s2.energy[a[0]] = k; save(s2); render(); } });
+      main.appendChild(SH.item({ num: i + 1, icon: a[3], title: T(a[1], a[2]), on: !!s.energy[a[0]], ctl: ctl }));
+    });
+    navStrip(main, { icon: 'battery', title: done < 6 ? T('Mark at least six to continue', 'Tandai setidaknya enam untuk lanjut') : T('Energy map in progress', 'Peta energi sedang dibangun') });
+    return SH.stage(hero, main);
   }
 
-  function rStrengths(w) {
+  function rStrengths() {
     var s = store();
     s.strengths = s.strengths || [{}, {}, {}];
-    var c = card(w, T('Step 3 · Strengths', 'Langkah 3 · Kekuatan'),
-      T('Claims need evidence', 'Klaim butuh bukti'),
-      T('Name up to three strengths — and for each, the concrete evidence a stranger could verify (a result, an artefact, something someone said). Lesson 1.3’s rule: no evidence, lower rating.',
-        'Sebutkan hingga tiga kekuatan — dan untuk masing-masing, bukti konkret yang bisa diverifikasi orang asing (hasil, artefak, ucapan seseorang). Aturan Pelajaran 1.3: tanpa bukti, nilai lebih rendah.'));
+    var hero = SH.hero({
+      kicker: { en: 'Step 3 · Strengths', id: 'Langkah 3 · Kekuatan' },
+      title: { en: ['Claims need', 'evidence'], id: ['Klaim butuh', 'bukti'] },
+      sub: { en: 'Name up to three strengths — and for each, the concrete evidence a stranger could verify: a result, an artefact, something someone said.', id: 'Sebutkan hingga tiga kekuatan — dan untuk masing-masing, bukti konkret yang bisa diverifikasi orang asing: hasil, artefak, ucapan seseorang.' },
+      chip: { en: 'Lesson 1.3’s rule: no evidence, lower rating.', id: 'Aturan Pelajaran 1.3: tanpa bukti, nilai lebih rendah.' },
+      chipIcon: 'shieldTick',
+      tagline: [{ en: 'A strength is a claim', id: 'Kekuatan adalah klaim' }, { en: 'with a witness.', id: 'yang punya saksi.' }],
+      quote: { en: 'What you can prove, you can build on.', id: 'Yang bisa kamu buktikan, bisa kamu bangun.' },
+      sign: SIGN
+    });
+    var main = el('div', 'ts-main');
+    var ICONS = ['trophy', 'star', 'diamond'];
     s.strengths.forEach(function (stg, i) {
-      var f1 = el('div', 'ma-field');
-      f1.appendChild(el('label', null, T('Strength ', 'Kekuatan ') + (i + 1)));
-      var inp = document.createElement('input'); inp.type = 'text';
-      inp.value = stg.name || '';
-      inp.placeholder = T('e.g. Structuring messy problems', 'mis. Menstrukturkan masalah kusut');
-      f1.appendChild(inp);
-      var f2 = el('div', 'ma-field');
-      f2.appendChild(el('label', null, T('Evidence', 'Bukti')));
-      var ta = document.createElement('textarea');
-      ta.value = stg.evidence || '';
-      ta.placeholder = T('e.g. Rebuilt the org’s event budget model; treasurer adopted it for two later events', 'mis. Membangun ulang model anggaran acara organisasi; bendahara memakainya untuk dua acara berikutnya');
-      f2.appendChild(ta);
+      var body = el('div'); body.style.cssText = 'display:flex;flex-direction:column;gap:12px;width:100%';
+      var inp = SH.input('text', { value: stg.name || '', placeholder: { en: 'e.g. Structuring messy problems', id: 'mis. Menstrukturkan masalah kusut' } });
+      var ta = SH.input('textarea', { value: stg.evidence || '', placeholder: { en: 'e.g. Rebuilt the org’s event budget model; treasurer adopted it for two later events', id: 'mis. Membangun ulang model anggaran acara organisasi; bendahara memakainya untuk dua acara berikutnya' } });
+      ta.style.minHeight = '84px';
       function persist() {
         var s2 = store(); s2.strengths = s2.strengths || [{}, {}, {}];
         s2.strengths[i] = { name: inp.value.trim(), evidence: ta.value.trim(), conf: (s2.strengths[i] || {}).conf };
-        save(s2); renderSteps();
+        save(s2); paintTabs();
       }
-      inp.addEventListener('change', persist);
-      ta.addEventListener('change', persist);
-      var f3 = el('div', 'ma-field');
-      f3.appendChild(el('label', null, T('How strong is the evidence? 1 = a feeling · 5 = verified results', 'Seberapa kuat buktinya? 1 = perasaan · 5 = hasil terverifikasi')));
-      var sc = el('div', 'ma-scale');
-      for (var k = 1; k <= 5; k++) (function (k) {
-        var b = el('button', stg.conf === k ? 'on' : '', String(k));
-        b.addEventListener('click', function () {
-          persist();
-          var s2 = store(); s2.strengths[i].conf = k; save(s2); render();
-        });
-        sc.appendChild(b);
-      })(k);
-      f3.appendChild(sc);
-      c.appendChild(f1); c.appendChild(f2); c.appendChild(f3);
+      inp.addEventListener('change', persist); ta.addEventListener('change', persist);
+      body.appendChild(SH.field({ label: T('Strength ', 'Kekuatan ') + (i + 1), input: inp, icon: ICONS[i] }));
+      body.appendChild(SH.field({ label: { en: 'Evidence', id: 'Bukti' }, input: ta }));
+      var sc = el('div'); sc.style.cssText = 'display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between';
+      sc.appendChild(el('span', 'ts-lbl', esc(T('How strong is the evidence?', 'Seberapa kuat buktinya?'))));
+      sc.appendChild(SH.scale({ value: stg.conf, lo: { en: 'A feeling', id: 'Perasaan' }, hi: { en: 'Verified results', id: 'Hasil terverifikasi' },
+        onPick: function (k) { persist(); var s2 = store(); s2.strengths[i].conf = k; save(s2); render(); } }));
+      body.appendChild(sc);
+      main.appendChild(SH.item({ num: i + 1, icon: ICONS[i], title: stg.name ? stg.name : T('Strength ' + (i + 1), 'Kekuatan ' + (i + 1)), on: !!stg.name, stack: true, ctl: body,
+        text: stg.conf ? '<span class="ts-pill">' + esc(T('evidence strength', 'kekuatan bukti')) + ' ' + stg.conf + '/5</span>' : '' }));
     });
-    nav(w, true);
+    navStrip(main, { icon: 'trophy' });
+    return SH.stage(hero, main);
   }
 
-  function rHabits(w) {
+  function rHabits() {
     var s = store();
     s.habits = s.habits || {};
-    var c = card(w, T('Step 4 · Habit baseline', 'Langkah 4 · Garis dasar kebiasaan'),
-      T('The systems behind the person', 'Sistem di balik orangnya'),
-      T('Rate how true each statement is for the last month — 1 = rarely, 5 = consistently. This is your baseline, not your verdict; each habit maps to the module that trains it.',
-        'Nilai seberapa benar tiap pernyataan selama sebulan terakhir — 1 = jarang, 5 = konsisten. Ini garis dasarmu, bukan vonismu; tiap kebiasaan terpeta ke modul yang melatihnya.'));
-    HABITS.forEach(function (h) {
-      var box = el('div', 'ma-hab');
-      box.appendChild(el('p', null, T(h[1], h[2])));
-      var sc = el('div', 'ma-scale');
-      for (var k = 1; k <= 5; k++) (function (k) {
-        var b = el('button', s.habits[h[0]] === k ? 'on' : '', String(k));
-        b.addEventListener('click', function () {
-          var s2 = store(); s2.habits = s2.habits || {};
-          s2.habits[h[0]] = k; save(s2); render();
-        });
-        sc.appendChild(b);
-      })(k);
-      box.appendChild(sc);
-      c.appendChild(box);
+    var done = Object.keys(s.habits).length;
+    var hero = SH.hero({
+      kicker: { en: 'Step 4 · Habit baseline', id: 'Langkah 4 · Garis dasar kebiasaan' },
+      title: { en: ['The systems behind', 'the person'], id: ['Sistem di balik', 'orangnya'] },
+      sub: { en: 'Rate how true each statement is for the last month — 1 = rarely, 5 = consistently.', id: 'Nilai seberapa benar tiap pernyataan selama sebulan terakhir — 1 = jarang, 5 = konsisten.' },
+      chip: { en: 'This is your baseline, not your verdict; each habit maps to the module that trains it.', id: 'Ini garis dasarmu, bukan vonismu; tiap kebiasaan terpeta ke modul yang melatihnya.' },
+      chipIcon: 'refresh',
+      tagline: [{ en: 'Habits are the', id: 'Kebiasaan adalah' }, { en: 'architecture of a day.', id: 'arsitektur sebuah hari.' }],
+      quote: { en: 'You do not rise to your goals; you fall to your systems.', id: 'Kamu tidak naik ke tujuanmu; kamu jatuh ke sistemmu.' },
+      sign: SIGN
     });
-    nav(w, true);
+    var main = el('div', 'ts-main');
+    main.appendChild(SH.hd({ en: 'Six habits', id: 'Enam kebiasaan' }, { en: 'Rate the last month', id: 'Nilai sebulan terakhir' }, done + ' / ' + HABITS.length + ' ' + T('rated', 'ternilai')));
+    HABITS.forEach(function (h, i) {
+      main.appendChild(SH.item({ num: i + 1, icon: h[4], title: T('Lesson ' + h[3], 'Pelajaran ' + h[3]), text: esc(T(h[1], h[2])), on: !!s.habits[h[0]],
+        ctl: SH.scale({ value: s.habits[h[0]], lo: { en: 'Rarely', id: 'Jarang' }, hi: { en: 'Consistently', id: 'Konsisten' },
+          onPick: function (k) { var s2 = store(); s2.habits = s2.habits || {}; s2.habits[h[0]] = k; save(s2); render(); } }) }));
+    });
+    navStrip(main, { icon: 'refresh', title: done < HABITS.length ? T('Rate all six to continue', 'Nilai keenamnya untuk lanjut') : T('Baseline set', 'Garis dasar terisi') });
+    return SH.stage(hero, main);
   }
 
-  function rMission(w) {
+  function rMission() {
     var s = store();
     s.mission = s.mission || {};
-    var c = card(w, T('Step 5 · Mission', 'Langkah 5 · Misi'),
-      T('The first creation', 'Penciptaan pertama'),
-      T('From Lessons 1.2 and 2.3: one learning intention, one mission sentence, one 3-year outcome. Pencil, not stone — you will revise these.',
-        'Dari Pelajaran 1.2 dan 2.3: satu niat belajar, satu kalimat misi, satu hasil 3 tahun. Pensil, bukan batu — kamu akan merevisinya.'));
-    [['text', T('Mission sentence — the contribution you want to be trusted with', 'Kalimat misi — kontribusi yang ingin dipercayakan padamu'),
-      T('e.g. Help organisations make honest decisions with data', 'mis. Membantu organisasi mengambil keputusan jujur dengan data')],
-     ['outcome', T('3-year outcome — domain, level, evidence, protected constraint', 'Hasil 3 tahun — ranah, level, bukti, batas yang dijaga'),
-      T('e.g. Own end-to-end analyses in a fintech team, portfolio of 5 shipped projects, health intact', 'mis. Memiliki analisis ujung-ke-ujung di tim fintech, portofolio 5 proyek rilis, kesehatan terjaga')],
-     ['intention', T('Learning intention — behaviour, frequency, deadline, weekly signal', 'Niat belajar — perilaku, frekuensi, tenggat, sinyal mingguan'),
-      T('e.g. One Map module + one audit update weekly until 1 June, checked every Sunday', 'mis. Satu modul Map + satu pembaruan audit tiap minggu sampai 1 Juni, dicek tiap Minggu')]
-    ].forEach(function (f) {
-      var fd = el('div', 'ma-field');
-      fd.appendChild(el('label', null, f[1]));
-      var ta = document.createElement('textarea');
-      ta.value = s.mission[f[0]] || '';
-      ta.placeholder = f[2];
-      ta.addEventListener('change', function () {
-        var s2 = store(); s2.mission = s2.mission || {};
-        s2.mission[f[0]] = ta.value.trim(); save(s2); renderSteps();
-      });
-      fd.appendChild(ta);
-      c.appendChild(fd);
+    var hero = SH.hero({
+      kicker: { en: 'Step 5 · Mission', id: 'Langkah 5 · Misi' },
+      title: { en: ['The first', 'creation'], id: ['Penciptaan', 'pertama'] },
+      sub: { en: 'From Lessons 1.2 and 2.3: one learning intention, one mission sentence, one 3-year outcome.', id: 'Dari Pelajaran 1.2 dan 2.3: satu niat belajar, satu kalimat misi, satu hasil 3 tahun.' },
+      chip: { en: 'Pencil, not stone — you will revise these.', id: 'Pensil, bukan batu — kamu akan merevisinya.' },
+      chipIcon: 'pen',
+      tagline: [{ en: 'Direction first,', id: 'Arah dulu,' }, { en: 'then the steps.', id: 'baru langkahnya.' }],
+      quote: { en: 'Begin with the end in mind, then write it down.', id: 'Mulailah dengan tujuan akhir di benak, lalu tuliskan.' },
+      sign: SIGN
     });
-    nav(w, true, T('Build my report', 'Susun laporanku'));
+    var main = el('div', 'ts-main');
+    [['text', 'compass', { en: 'Mission sentence', id: 'Kalimat misi' }, { en: 'The contribution you want to be trusted with', id: 'Kontribusi yang ingin dipercayakan padamu' },
+      { en: 'e.g. Help organisations make honest decisions with data', id: 'mis. Membantu organisasi mengambil keputusan jujur dengan data' }],
+     ['outcome', 'flag', { en: '3-year outcome', id: 'Hasil 3 tahun' }, { en: 'Domain, level, evidence, protected constraint', id: 'Ranah, level, bukti, batas yang dijaga' },
+      { en: 'e.g. Own end-to-end analyses in a fintech team, portfolio of 5 shipped projects, health intact', id: 'mis. Memiliki analisis ujung-ke-ujung di tim fintech, portofolio 5 proyek rilis, kesehatan terjaga' }],
+     ['intention', 'calendar', { en: 'Learning intention', id: 'Niat belajar' }, { en: 'Behaviour, frequency, deadline, weekly signal', id: 'Perilaku, frekuensi, tenggat, sinyal mingguan' },
+      { en: 'e.g. One Map module + one audit update weekly until 1 June, checked every Sunday', id: 'mis. Satu modul Map + satu pembaruan audit tiap minggu sampai 1 Juni, dicek tiap Minggu' }]
+    ].forEach(function (f, i) {
+      var ta = SH.input('textarea', { value: s.mission[f[0]] || '', placeholder: f[4] });
+      ta.style.minHeight = '90px';
+      ta.addEventListener('change', function () { var s2 = store(); s2.mission = s2.mission || {}; s2.mission[f[0]] = ta.value.trim(); save(s2); paintTabs(); });
+      main.appendChild(SH.item({ num: i + 1, icon: f[1], title: f[2], text: esc(SH.txt(f[3])), on: !!s.mission[f[0]], stack: true, ctl: ta }));
+    });
+    navStrip(main, { icon: 'doc', next: { en: 'Build my report', id: 'Susun laporanku' }, title: { en: 'Ready for your report', id: 'Siap untuk laporanmu' },
+      text: { en: 'The report mirrors your own answers back as a working map — computed on this device, stored only in this browser.', id: 'Laporan memantulkan jawabanmu sendiri sebagai peta kerja — dihitung di perangkat ini, tersimpan hanya di peramban ini.' } });
+    return SH.stage(hero, main);
   }
 
-  function rReport(w) {
+  function rReport() {
     var s = store();
-    var c0 = card(w, T('Your Personal Audit', 'Audit Pribadimu'),
-      T('A working map, in your own words', 'Peta kerja, dengan kata-katamu sendiri'),
-      T('Everything below mirrors your own answers back — computed on this device, stored only in this browser. It is a map to act on and revise, not a psychometric verdict.',
-        'Semua di bawah memantulkan jawabanmu sendiri — dihitung di perangkat ini, tersimpan hanya di peramban ini. Ini peta untuk ditindaklanjuti dan direvisi, bukan vonis psikometrik.'));
+    var hero = SH.hero({
+      kicker: { en: 'Your Personal Audit', id: 'Audit Pribadimu' },
+      title: { en: ['A working map,', 'in your own words'], id: ['Peta kerja,', 'dengan kata-katamu sendiri'] },
+      sub: { en: 'Everything below mirrors your own answers back. It is a map to act on and revise, not a psychometric verdict.', id: 'Semua di bawah memantulkan jawabanmu sendiri. Ini peta untuk ditindaklanjuti dan direvisi, bukan vonis psikometrik.' },
+      chip: { en: 'Computed on this device, stored only in this browser.', id: 'Dihitung di perangkat ini, tersimpan hanya di peramban ini.' },
+      chipIcon: 'lock',
+      tagline: [{ en: 'Read it, act on it,', id: 'Baca, tindak lanjuti,' }, { en: 'revise it.', id: 'revisi.' }],
+      art: { img: '../../assets/bg/map.jpg', pos: '50% 40%', nodes: [
+        { x: 20, y: 78, big: true, label: { en: 'Audit today', id: 'Audit hari ini' } },
+        { x: 52, y: 54, label: { en: 'Module 1–2', id: 'Modul 1–2' } },
+        { x: 76, y: 26, flag: true, caps: true, label: { en: 'Re-audit', id: 'Audit ulang' } }] },
+      quote: { en: 'The delta between two audits is your progress.', id: 'Selisih antara dua audit adalah kemajuanmu.' },
+      sign: SIGN
+    });
+    var main = el('div', 'ts-main');
 
     /* values */
-    var vals = (s.values || []).map(function (k) {
-      var v = VALUES.filter(function (x) { return x[0] === k; })[0];
-      return v ? T(v[1], v[2]) : k;
-    });
-    var cv = el('div', 'ma-card');
-    cv.appendChild(el('div', 'ma-kick', T('Values — in your order', 'Nilai — sesuai urutanmu')));
-    if (vals.length) vals.forEach(function (v, i) { cv.appendChild(el('span', 'ma-tag', (i + 1) + ' · ' + esc(v))); });
-    else cv.appendChild(el('p', 'ma-note', T('No values picked yet — step 1 is waiting.', 'Belum ada nilai terpilih — langkah 1 menunggu.')));
-    w.appendChild(cv);
+    var vals = (s.values || []).map(function (k) { var v = VALUES.filter(function (x) { return x[0] === k; })[0]; return v ? T(v[1], v[2]) : k; });
+    var cv = SH.card({ kick: { en: 'Values — in your order', id: 'Nilai — sesuai urutanmu' }, title: { en: 'What you refuse to trade away', id: 'Yang tak mau kamu tukar' } });
+    if (vals.length) { var tags = el('div', 'ts-tags'); vals.forEach(function (v, i) { tags.appendChild(el('span', 'ts-tagc', '<i>' + (i + 1) + '</i>' + esc(v))); }); cv.appendChild(tags); }
+    else cv.appendChild(SH.note(esc(T('No values picked yet — step 1 is waiting.', 'Belum ada nilai terpilih — langkah 1 menunggu.'))));
+    main.appendChild(cv);
 
     /* energy */
     var gains = [], drains = [];
-    ACTIVITIES.forEach(function (a) {
-      var v = (s.energy || {})[a[0]];
-      if (v === 'gain') gains.push(T(a[1], a[2]));
-      if (v === 'drain') drains.push(T(a[1], a[2]));
-    });
-    var ce = el('div', 'ma-card');
-    ce.appendChild(el('div', 'ma-kick', T('Energy map', 'Peta energi')));
-    var two = el('div', 'ma-two');
-    var g = el('div'); g.appendChild(el('div', 'ma-li', '<b>' + T('Energises you', 'Memberimu energi') + '</b>'));
-    (gains.length ? gains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { g.appendChild(el('div', 'ma-li', '▲ ' + esc(x))); });
-    var d = el('div'); d.appendChild(el('div', 'ma-li', '<b>' + T('Drains you', 'Mengurasmu') + '</b>'));
-    (drains.length ? drains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { d.appendChild(el('div', 'ma-li', '▽ ' + esc(x))); });
-    two.appendChild(g); two.appendChild(d);
-    ce.appendChild(two);
-    ce.appendChild(el('p', 'ma-note', T('Direction rule from Module 6: prefer paths where the daily work sits in your left column. Test this against the industry simulations.',
-      'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom kirimu. Uji terhadap simulasi industri.')));
-    w.appendChild(ce);
+    ACTIVITIES.forEach(function (a) { var v = (s.energy || {})[a[0]]; if (v === 'gain') gains.push(T(a[1], a[2])); if (v === 'drain') drains.push(T(a[1], a[2])); });
+    var ce = SH.card({ kick: { en: 'Energy map', id: 'Peta energi' }, title: { en: 'What fills you, what empties you', id: 'Yang mengisimu, yang mengurasmu' } });
+    var two = el('div', 'ts-two');
+    var g = el('div'); g.appendChild(el('div', 'ts-kick', esc(T('Energises you', 'Memberimu energi'))));
+    (gains.length ? gains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li gain'); li.appendChild(SH.svg('zap')); li.appendChild(el('span', null, esc(x))); g.appendChild(li); });
+    var d = el('div'); d.appendChild(el('div', 'ts-kick', esc(T('Drains you', 'Mengurasmu'))));
+    (drains.length ? drains : [T('— nothing marked yet', '— belum ada yang ditandai')]).forEach(function (x) { var li = el('div', 'ts-li drain'); li.appendChild(SH.svg('battery')); li.appendChild(el('span', null, esc(x))); d.appendChild(li); });
+    two.appendChild(g); two.appendChild(d); ce.appendChild(two);
+    ce.appendChild(SH.note(esc(T('Direction rule from Module 6: prefer paths where the daily work sits in your left column. Test this against the industry simulations.', 'Aturan arah dari Modul 6: utamakan jalur yang kerja hariannya ada di kolom kirimu. Uji terhadap simulasi industri.')), 'compass'));
+    main.appendChild(ce);
 
     /* strengths */
-    var cs = el('div', 'ma-card');
-    cs.appendChild(el('div', 'ma-kick', T('Strengths and their evidence', 'Kekuatan dan buktinya')));
+    var cs = SH.card({ kick: { en: 'Strengths and their evidence', id: 'Kekuatan dan buktinya' }, title: { en: 'Claims with witnesses', id: 'Klaim dengan saksi' } });
     var any = false;
-    (s.strengths || []).forEach(function (x) {
-      if (!x.name) return;
-      any = true;
-      cs.appendChild(el('div', 'ma-li', '<b>' + esc(x.name) + '</b>' + (x.conf ? ' · ' + T('evidence strength', 'kekuatan bukti') + ' ' + x.conf + '/5' : '') +
-        (x.evidence ? '<br>' + esc(x.evidence) : '<br><i>' + T('No evidence yet — that is your next artefact to build.', 'Belum ada bukti — itulah artefak berikutmu untuk dibangun.') + '</i>')));
+    (s.strengths || []).forEach(function (x, i) {
+      if (!x.name) return; any = true;
+      var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num', String(i + 1)));
+      li.appendChild(el('div', null, '<b>' + esc(x.name) + '</b>' + (x.conf ? ' <span class="ts-pill">' + esc(T('evidence', 'bukti')) + ' ' + x.conf + '/5</span>' : '') +
+        '<br>' + (x.evidence ? esc(x.evidence) : '<i>' + esc(T('No evidence yet — that is your next artefact to build.', 'Belum ada bukti — itulah artefak berikutmu untuk dibangun.')) + '</i>')));
+      cs.appendChild(li);
     });
-    if (!any) cs.appendChild(el('p', 'ma-note', T('No strengths recorded yet.', 'Belum ada kekuatan tercatat.')));
-    w.appendChild(cs);
+    if (!any) cs.appendChild(SH.note(esc(T('No strengths recorded yet.', 'Belum ada kekuatan tercatat.'))));
+    main.appendChild(cs);
 
     /* habits */
-    var ch = el('div', 'ma-card');
-    ch.appendChild(el('div', 'ma-kick', T('Habit baseline', 'Garis dasar kebiasaan')));
+    var ch = SH.card({ kick: { en: 'Habit baseline', id: 'Garis dasar kebiasaan' }, title: { en: 'The systems, measured', id: 'Sistemnya, terukur' } });
     var weakest = null;
     HABITS.forEach(function (h) {
       var v = (s.habits || {})[h[0]];
-      var li = el('div', 'ma-li');
-      li.appendChild(el('div', null, esc(T(h[1], h[2])) + (v ? ' — <b>' + v + '/5</b>' : ' — <i>' + T('unrated', 'belum dinilai') + '</i>')));
-      var bar = el('div', 'ma-bar');
-      bar.appendChild(el('i', null, '')).style.width = ((v || 0) / 5 * 100) + '%';
-      li.appendChild(bar);
-      ch.appendChild(li);
+      ch.appendChild(SH.dim(T('Lesson ' + h[3], 'Pelajaran ' + h[3]) + ' · ' + T(h[1], h[2]).split(/[—.]/)[0].slice(0, 60) + (T(h[1], h[2]).length > 60 ? '…' : ''), v ? v + ' / 5' : T('unrated', 'belum'), 5));
       if (v && (!weakest || v < weakest.v)) weakest = { v: v, h: h };
     });
     if (weakest) {
       var reco = MODULE_RECO[weakest.h[0]];
-      ch.appendChild(el('p', 'ma-note', '→ ' + T('Weakest habit maps to Module ' + reco[0] + ' — ' + reco[1] + ', and Lesson ' + weakest.h[3] + ' trains it directly.',
-        'Kebiasaan terlemah terpeta ke Modul ' + reco[0] + ' — ' + reco[2] + ', dan Pelajaran ' + weakest.h[3] + ' melatihnya langsung.')));
+      ch.appendChild(SH.note('<b>' + esc(T('Weakest habit', 'Kebiasaan terlemah')) + '</b> — ' + esc(T('maps to Module ' + reco[0] + ' — ' + reco[1] + ', and Lesson ' + weakest.h[3] + ' trains it directly.', 'terpeta ke Modul ' + reco[0] + ' — ' + reco[2] + ', dan Pelajaran ' + weakest.h[3] + ' melatihnya langsung.')), 'target'));
     }
-    w.appendChild(ch);
+    main.appendChild(ch);
 
     /* mission */
-    var cm = el('div', 'ma-card');
-    cm.appendChild(el('div', 'ma-kick', T('Direction', 'Arah')));
+    var cm = SH.card({ kick: { en: 'Direction', id: 'Arah' }, title: { en: 'Mission, outcome, intention', id: 'Misi, hasil, niat' } });
     var m = s.mission || {};
-    [['text', T('Mission', 'Misi')], ['outcome', T('3-year outcome', 'Hasil 3 tahun')], ['intention', T('Learning intention', 'Niat belajar')]].forEach(function (f) {
-      cm.appendChild(el('div', 'ma-li', '<b>' + f[1] + ':</b> ' + (m[f[0]] ? esc(m[f[0]]) : '<i>' + T('not written yet', 'belum ditulis') + '</i>')));
+    [['text', 'compass', T('Mission', 'Misi')], ['outcome', 'flag', T('3-year outcome', 'Hasil 3 tahun')], ['intention', 'calendar', T('Learning intention', 'Niat belajar')]].forEach(function (f) {
+      var li = el('div', 'ts-li'); li.appendChild(SH.svg(f[1]));
+      li.appendChild(el('div', null, '<b>' + esc(f[2]) + ':</b> ' + (m[f[0]] ? esc(m[f[0]]) : '<i>' + esc(T('not written yet', 'belum ditulis')) + '</i>')));
+      cm.appendChild(li);
     });
-    w.appendChild(cm);
+    main.appendChild(cm);
 
     /* next moves */
-    var cn = el('div', 'ma-card');
-    cn.appendChild(el('div', 'ma-kick', T('Next moves', 'Langkah berikutnya')));
-    cn.appendChild(el('div', 'ma-li', '1 · ' + T('Test your energy map against reality: run two industry tracks in Module 6.',
-      'Uji peta energimu terhadap kenyataan: jalankan dua jalur industri di Modul 6.')));
-    cn.appendChild(el('div', 'ma-li', '2 · ' + T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.',
-      'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar kamu jalani.')));
-    cn.appendChild(el('div', 'ma-li', '3 · ' + T('Revisit this audit after finishing the module — the delta is your progress.',
-      'Kunjungi lagi audit ini setelah modul selesai — selisihnya adalah kemajuanmu.')));
-    var row = el('div', 'ma-row');
-    /* the audit stays inside the module: back to the lesson it was opened
-       from, or to Module 1 on the modules page when opened from the home card */
-    var back = el('button', 'ma-btn', T('← Back to Module', '← Kembali ke Modul'));
-    back.addEventListener('click', function () {
-      close();
-      if (launchedFrom && window.MT_LMS_PLAYER) { window.MT_LMS_PLAYER.open(launchedFrom); return; }
-      var tab = document.querySelector('.nav-item[data-tab="modules"]');
-      if (tab) tab.click();
-      var mod = document.querySelector('.module-accordion[data-module="1"]');
-      if (mod) {
-        if (mod.getAttribute('aria-expanded') !== 'true') { var h = mod.querySelector('.module-header'); if (h) h.click(); }
-        setTimeout(function () { mod.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
-      }
-    });
-    var again = el('button', 'ma-btn ghost', T('Revise answers', 'Revisi jawaban'));
-    again.addEventListener('click', function () { stepIdx = 0; render(); });
-    row.appendChild(back); row.appendChild(again);
-    cn.appendChild(row);
-    w.appendChild(cn);
+    var cn = SH.card({ kick: { en: 'Next moves', id: 'Langkah berikutnya' }, title: { en: 'Three things to do with this map', id: 'Tiga hal untuk dilakukan dengan peta ini' }, cls: 'gold' });
+    [[T('Test your energy map against reality: run two industry tracks in Module 6.', 'Uji peta energimu terhadap kenyataan: jalankan dua jalur industri di Modul 6.')],
+     [T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.', 'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar kamu jalani.')],
+     [T('Revisit this audit after finishing the module — the delta is your progress.', 'Kunjungi lagi audit ini setelah modul selesai — selisihnya adalah kemajuanmu.')]
+    ].forEach(function (x, i) { var li = el('div', 'ts-li'); li.appendChild(el('span', 'ts-num gold', String(i + 1))); li.appendChild(el('span', null, esc(x[0]))); cn.appendChild(li); });
+    main.appendChild(cn);
+
+    main.appendChild(SH.cta({ icon: 'map',
+      title: { en: 'Back to the module', id: 'Kembali ke modul' },
+      text: { en: 'The audit stays inside Module 1. Return to the lesson you came from, or revise any step — your answers stay saved.', id: 'Audit ini tetap di dalam Modul 1. Kembali ke pelajaran asalmu, atau revisi langkah mana pun — jawabanmu tetap tersimpan.' },
+      actions: [
+        SH.btn({ en: 'Revise answers', id: 'Revisi jawaban' }, { ghost: true, iconL: 'edit', onClick: function () { stepIdx = 0; render(); } }),
+        SH.btn({ en: 'Back to Module', id: 'Kembali ke Modul' }, { iconL: 'arrowL', onClick: function () {
+          close();
+          if (launchedFrom && window.MT_LMS_PLAYER) { window.MT_LMS_PLAYER.open(launchedFrom); return; }
+          var tab = document.querySelector('.nav-item[data-tab="modules"]');
+          if (tab) tab.click();
+          var mod = document.querySelector('.module-accordion[data-module="1"]');
+          if (mod) {
+            if (mod.getAttribute('aria-expanded') !== 'true') { var h = mod.querySelector('.module-header'); if (h) h.click(); }
+            setTimeout(function () { mod.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+          }
+        } })] }));
+    return SH.stage(hero, main);
   }
 
   function render() {
-    renderSteps();
-    body.innerHTML = '';
-    body.scrollTop = 0;
-    var w = el('div', 'ma-in');
-    body.appendChild(w);
+    paintTabs();
+    shell.clear();
     var key = STEPS[stepIdx][0];
-    if (key === 'values') rValues(w);
-    else if (key === 'energy') rEnergy(w);
-    else if (key === 'strengths') rStrengths(w);
-    else if (key === 'habits') rHabits(w);
-    else if (key === 'mission') rMission(w);
-    else rReport(w);
+    shell.body.appendChild(key === 'values' ? rValues() : key === 'energy' ? rEnergy() : key === 'strengths' ? rStrengths() : key === 'habits' ? rHabits() : key === 'mission' ? rMission() : rReport());
   }
 
   function open(mode) {
@@ -513,13 +401,11 @@
     var s = store();
     /* returning users with a complete audit land on the report */
     stepIdx = (mode === 'report' || (stepDone('habits', s) && stepDone('values', s))) ? 5 : 0;
-    root.classList.add('open');
-    document.body.classList.add('lms-lock');
+    shell.open();
     render();
   }
   function close() {
-    if (root) root.classList.remove('open');
-    document.body.classList.remove('lms-lock');
+    if (shell) shell.close();
     syncPromo();
   }
 
@@ -560,7 +446,7 @@
     b.addEventListener('click', function () {
       setTimeout(function () {
         syncPromo();
-        if (root && root.classList.contains('open')) render();
+        if (shell && shell.isOpen()) render();
       }, 60);
     });
   });
