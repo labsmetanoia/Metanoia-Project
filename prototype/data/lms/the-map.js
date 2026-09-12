@@ -951,20 +951,19 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
-     "tool": {
-      "id": "audit",
-      "mode": "home",
+     "youtube": {
+      "id": "vwt9tEcDRgA",
+      "kicker": {
+       "en": "Watch · Closing film",
+       "id": "Tonton · Film penutup"
+      },
       "title": {
-       "en": "Run your Personal Audit now",
-       "id": "Jalankan Audit Pribadimu sekarang"
+       "en": "Foundational Mindset — closing film",
+       "id": "Pola Pikir Dasar — film penutup"
       },
-      "body": {
-       "en": "You have the posture — recovery loop, method language, evidence-based honesty. The audit turns it into your first development map.",
-       "id": "Sikapnya sudah kamu pegang — putaran pemulihan, bahasa cara, kejujuran yang berpijak pada bukti. Audit ini mengubah semuanya menjadi peta pengembangan pertamamu."
-      },
-      "cta": {
-       "en": "Open the Personal Audit →",
-       "id": "Buka Audit Pribadi →"
+      "intro": {
+       "en": "A film to consolidate the module before you test yourself. Play it here, with English or Bahasa Indonesia subtitles where YouTube provides them, then continue to the knowledge check below.",
+       "id": "Sebuah film untuk merangkum modul ini sebelum kamu menguji diri. Putar di sini, dengan teks bahasa Inggris atau Bahasa Indonesia bila YouTube menyediakannya, lalu lanjutkan ke cek pemahaman di bawah."
       }
      }
     }
