@@ -616,6 +616,7 @@
 
     /* thumbnail strip */
     var strip = el('div', 'lms-vlist lms-slist');
+    strip.style.setProperty('--n', String(N >= 3 && N <= 8 ? N : 6));   /* thumbnails in one row for three to eight slides */
     var thumbs = [];
     list.forEach(function (it, k) {
       var b = el('button', 'lms-vitem'); b.type = 'button';
