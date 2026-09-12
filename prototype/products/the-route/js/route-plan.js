@@ -13,39 +13,36 @@
  * device. The diagnostic mirrors the user's own ratings back with
  * module recommendations — it does not predict or promise promotion.
  * Storage: localStorage 'mt_route_plan'.
+ * Skin: js/tool-shell.js + css/tool-shell.css (shared with the other instruments).
  */
 (function () {
   'use strict';
   var LS = 'mt_route_plan';
+  var SH = window.MT_SHELL;
+  if (!SH) return;
   function lang() { try { return localStorage.getItem('mtLang') === 'id' ? 'id' : 'en'; } catch (e) { return 'en'; } }
   function T(en, id) { return lang() === 'id' ? id : en; }
   function store() { try { return JSON.parse(localStorage.getItem(LS) || '{}'); } catch (e) { return {}; } }
   function save(s) { try { localStorage.setItem(LS, JSON.stringify(s)); } catch (e) {} }
-  function el(tag, cls, html) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (html != null) n.innerHTML = html;
-    return n;
-  }
-  function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  var el = SH.el, esc = SH.esc;
 
   var DIMS = [
-    ['arch', { en: 'Career architecture', id: 'Arsitektur karier' }, '1', [
+    ['arch', { en: 'Career architecture', id: 'Arsitektur karier' }, '1', 'briefcase', [
       { en: 'I have a written destination, way-stations and asset gates — reviewed within the last year.', id: 'Aku punya tujuan tertulis, persinggahan, dan gerbang aset — ditinjau dalam setahun terakhir.' },
       { en: 'My current quarter has named asset targets derived from my next transition.', id: 'Kuartalku kini punya target aset bernama yang diturunkan dari transisi berikutku.' }]],
-    ['delivery', { en: 'Delivery & performance', id: 'Penunaian & performa' }, '2', [
+    ['delivery', { en: 'Delivery & performance', id: 'Penunaian & performa' }, '2', 'chart', [
       { en: 'I know what my organisation and manager actually measure, and my effort follows it.', id: 'Aku tahu apa yang sungguh diukur organisasi dan manajerku, dan usahaku mengikutinya.' },
       { en: 'My workload is shaped deliberately — stated capacity, protected recovery floor.', id: 'Beban kerjaku dibentuk sengaja — kapasitas dinyatakan, lantai pemulihan dijaga.' }]],
-    ['relate', { en: 'Managing relationships', id: 'Mengelola hubungan' }, '3', [
+    ['relate', { en: 'Managing relationships', id: 'Mengelola hubungan' }, '3', 'people', [
       { en: 'I run my one-on-ones with agendas, and adapt to my manager’s operating manual.', id: 'Aku menjalankan one-on-one dengan agenda, dan beradaptasi dengan manual operasi manajerku.' },
-      { en: 'Peers would describe me as reliable: precise commitments, early flags, closed loops.', id: 'Rekan akan menggambarkanku andal: komitmen presisi, tanda dini, putaran tertutup.' }]],
-    ['visible', { en: 'Visibility & brand', id: 'Visibilitas & merek' }, '4', [
-      { en: 'My work produces artefacts and samples that reach the rooms I am not in.', id: 'Kerjaku menghasilkan artefak dan sampel yang mencapai ruangan yang tak kuhadiri.' },
+      { en: 'Peers would describe me as reliable: precise commitments, early flags, closed loops.', id: 'Rekan akan menyebutku andal: komitmen presisi, peringatan dini, lingkaran tertutup.' }]],
+    ['visibility', { en: 'Visibility & brand', id: 'Visibilitas & merek' }, '4', 'diamond', [
+      { en: 'My work produces artefacts and samples that reach the rooms I am not in.', id: 'Kerjaku menghasilkan artefak dan sampel yang sampai ke ruangan yang tak kuhadiri.' },
       { en: 'I know the two or three words my name currently triggers — I have asked.', id: 'Aku tahu dua-tiga kata yang kini dipicu namaku — aku sudah bertanya.' }]],
-    ['evidence', { en: 'Promotion evidence', id: 'Bukti promosi' }, '5', [
+    ['evidence', { en: 'Promotion evidence', id: 'Bukti promosi' }, '5', 'trophy', [
       { en: 'My win log is current: results with numbers and witnesses, logged weekly.', id: 'Catatan kemenanganku terkini: hasil berangka dan bersaksi, dicatat mingguan.' },
       { en: 'I know my level guide, my file calendar, and where my case is thin.', id: 'Aku tahu panduan levelku, kalender berkasku, dan di mana kasusku tipis.' }]],
-    ['finance', { en: 'Financial foundation', id: 'Fondasi finansial' }, '8', [
+    ['finance', { en: 'Financial foundation', id: 'Fondasi finansial' }, '8', 'coins', [
       { en: 'Saving is automated, and my emergency runway is building or built.', id: 'Menabung sudah otomatis, dan landasan pacu daruratku sedang atau sudah terbangun.' },
       { en: 'I know my total compensation stack and its market benchmark.', id: 'Aku tahu tumpukan kompensasi totalku dan pembanding pasarnya.' }]]
   ];
@@ -62,318 +59,275 @@
     { en: 'Days 31–60 · Momentum', id: 'Hari 31–60 · Momentum' },
     { en: 'Days 61–90 · Consolidation', id: 'Hari 61–90 · Konsolidasi' }
   ];
+  var PHASE_ICON = ['seed', 'rocket', 'flag'];
+  var TABS = [
+    ['readiness', { en: 'Readiness', id: 'Kesiapan' }],
+    ['plan', { en: '90-Day Plan', id: 'Rencana 90 Hari' }],
+    ['wins', { en: 'Win Log', id: 'Catatan Kemenangan' }]
+  ];
 
-  var css = '' +
-  '#routePlan{position:fixed;inset:0;z-index:1250;display:none;background:var(--bg-base,#050A12);overflow:hidden}' +
-  '#routePlan.open{display:flex;flex-direction:column}' +
-  '#routePlan .rp-bg{position:absolute;inset:0;z-index:0;pointer-events:none;background:url("../../assets/bg/journey-bg.jpg") center 40%/cover no-repeat;opacity:.16}' +
-  '#routePlan .rp-veil{position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,rgba(5,10,18,.62),rgba(5,10,18,.9) 45%,rgba(5,10,18,.96))}' +
-  ':root[data-theme="light"] #routePlan .rp-bg{opacity:.1}' +
-  ':root[data-theme="light"] #routePlan .rp-veil{background:linear-gradient(180deg,rgba(238,241,246,.85),rgba(238,241,246,.96) 45%)}' +
-  '#routePlan .rp-top{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:11px 22px;flex-wrap:wrap;border-bottom:1px solid var(--gold-border);background:var(--glass-bg);backdrop-filter:var(--glass-blur)}' +
-  '#routePlan .rp-top b{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}' +
-  '#routePlan .rp-tabs{display:flex;gap:4px}' +
-  '#routePlan .rp-tab{border:1px solid transparent;background:none;color:var(--text-muted);border-radius:999px;padding:7px 15px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;font-family:inherit}' +
-  '#routePlan .rp-tab.on{color:var(--gold-bright);border-color:var(--gold-border-hover);background:rgba(201,168,76,.1)}' +
-  '#routePlan .rp-close{margin-left:auto;width:36px;height:36px;border-radius:999px;border:1px solid var(--gold-border);background:none;color:var(--text);cursor:pointer;font-size:15px;flex:none}' +
-  '#routePlan .rp-close:hover{border-color:var(--gold)}' +
-  '#routePlan .rp-body{position:relative;z-index:1;flex:1;overflow-y:auto;padding:26px 22px 70px}' +
-  '#routePlan .rp-in{max-width:860px;margin:0 auto;animation:rpEnter .4s cubic-bezier(.22,1,.36,1)}' +
-  '@keyframes rpEnter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}' +
-  '@media(prefers-reduced-motion:reduce){#routePlan .rp-in{animation:none}}' +
-  '#routePlan .rp-card{border:1px solid var(--gold-border);border-radius:16px;background:var(--glass-bg);backdrop-filter:var(--glass-blur);padding:22px 24px;margin-bottom:14px}' +
-  '#routePlan .rp-kick{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}' +
-  '#routePlan h2{font-size:1.35rem;margin:0 0 8px;color:var(--text)}' +
-  '#routePlan .rp-sub{font-size:13.5px;color:var(--text-sub);line-height:1.7;margin:0 0 12px}' +
-  '#routePlan .rp-note{font-size:12px;color:var(--text-faint);line-height:1.55;margin-top:10px}' +
-  '#routePlan .rp-dim{padding:14px 0;border-bottom:1px solid rgba(201,168,76,.12)}' +
-  '#routePlan .rp-dim:last-child{border-bottom:none}' +
-  '#routePlan .rp-dim h4{font-size:14px;color:var(--text);margin:0 0 4px}' +
-  '#routePlan .rp-dim p{font-size:13px;color:var(--text-sub);margin:8px 0 6px;line-height:1.6}' +
-  '#routePlan .rp-scale{display:flex;gap:5px}' +
-  '#routePlan .rp-scale button{width:34px;height:34px;border-radius:9px;border:1px solid var(--gold-border);background:none;color:var(--text-muted);font-weight:800;font-size:13px;cursor:pointer;font-family:inherit}' +
-  '#routePlan .rp-scale button.on{background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B;border-color:transparent}' +
-  '#routePlan .rp-bar{height:8px;border-radius:999px;background:rgba(201,168,76,.14);overflow:hidden;margin-top:6px}' +
-  '#routePlan .rp-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#8B6914,#C9A84C,#F0D878)}' +
-  '#routePlan .rp-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:center}' +
-  '#routePlan .rp-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:999px;border:0;cursor:pointer;font-family:inherit;font-weight:800;font-size:13px;background:linear-gradient(135deg,#8B6914,#C9A84C,#F0D878);color:#10131B}' +
-  '#routePlan .rp-btn.ghost{background:none;border:1px solid var(--gold-border);color:var(--gold)}' +
-  '#routePlan .rp-field{margin-bottom:12px}' +
-  '#routePlan .rp-field label{display:block;font-size:12px;font-weight:700;color:var(--text-muted);margin-bottom:6px}' +
-  '#routePlan textarea,#routePlan input[type=text]{width:100%;box-sizing:border-box;background:var(--bg-mid);border:1px solid var(--gold-border);border-radius:10px;color:var(--text);font-family:inherit;font-size:13px;line-height:1.6;padding:10px 12px}' +
-  '#routePlan textarea{min-height:84px;resize:vertical}' +
-  '#routePlan textarea:focus,#routePlan input:focus{outline:none;border-color:var(--gold)}' +
-  '#routePlan .rp-saved{font-size:12px;color:#4ADE80;opacity:0;transition:opacity .3s}' +
-  '#routePlan .rp-saved.on{opacity:1}' +
-  '#routePlan .rp-win{padding:12px 0;border-bottom:1px solid rgba(201,168,76,.12)}' +
-  '#routePlan .rp-win:last-child{border-bottom:none}' +
-  '#routePlan .rp-win b{font-size:13.5px;color:var(--text)}' +
-  '#routePlan .rp-win .sm{font-size:12px;color:var(--text-muted);margin-top:3px;line-height:1.55}' +
-  '#routePlan .rp-del{border:none;background:none;color:var(--text-faint);cursor:pointer;font-size:13px;float:right;padding:2px 6px}' +
-  '#routePlan .rp-del:hover{color:#EF6F5E}' +
-  '#routePlan .rp-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--gold-border);border-radius:999px;padding:3px 10px;color:var(--gold);margin:2px 4px 2px 0}';
-
-  var root = null, body = null, tabsEl = null, tab = 'readiness', saveTimer = null;
+  var shell = null, tab = 'readiness', saveTimer = null;
 
   function build() {
-    if (root) return;
-    var st = document.createElement('style');
-    st.id = 'routePlanCss'; st.textContent = css;
-    document.head.appendChild(st);
-    root = el('div'); root.id = 'routePlan';
-    root.setAttribute('role', 'dialog'); root.setAttribute('aria-label', 'Route Planner');
-    root.appendChild(el('div', 'rp-bg'));
-    root.appendChild(el('div', 'rp-veil'));
-    var top = el('div', 'rp-top');
-    top.appendChild(el('b', null, T('The Route · Route Planner', 'The Route · Route Planner')));
-    tabsEl = el('div', 'rp-tabs');
-    [['readiness', 'Readiness', 'Kesiapan'], ['plan', '90-Day Plan', 'Rencana 90 Hari'], ['wins', 'Win Log', 'Catatan Kemenangan']].forEach(function (t) {
-      var b = el('button', 'rp-tab', T(t[1], t[2]));
-      b.dataset.tab = t[0];
-      b.addEventListener('click', function () { tab = t[0]; render(); });
-      tabsEl.appendChild(b);
-    });
-    top.appendChild(tabsEl);
-    var x = el('button', 'rp-close', '✕');
-    x.setAttribute('aria-label', 'Close');
-    x.addEventListener('click', close);
-    top.appendChild(x);
-    body = el('div', 'rp-body');
-    root.appendChild(top); root.appendChild(body);
-    document.body.appendChild(root);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && root.classList.contains('open')) close();
+    if (shell) return;
+    shell = SH.mount({
+      id: 'routePlan', product: 'The Route', tool: 'Route Planner',
+      scene: '../../assets/bg/journey-start.jpg', scenePos: '70% 40%', side: 'left',
+      onClose: close
     });
   }
-
-  function card(w, kick, title, sub) {
-    var c = el('div', 'rp-card');
-    if (kick) c.appendChild(el('div', 'rp-kick', kick));
-    if (title) c.appendChild(el('h2', null, title));
-    if (sub) c.appendChild(el('p', 'rp-sub', sub));
-    w.appendChild(c);
-    return c;
+  function paintTabs() {
+    shell.setTabs(TABS.map(function (t) { return { key: t[0], label: t[1], on: tab === t[0] }; }), function (k) { tab = k; render(); });
   }
 
   /* ─── readiness diagnostic ─── */
-  function readinessView(w) {
+  function readinessView() {
     var s = store();
     s.diag = s.diag || { scores: {} };
-    var c = card(w, T('Instrument 1 · Readiness diagnostic', 'Instrumen 1 · Diagnostik kesiapan'),
-      T('Six dimensions, honestly rated', 'Enam dimensi, dinilai jujur'),
-      T('Rate each statement for the last quarter — 1 = rarely true, 5 = consistently true. The evidence rule from Lesson 1.4 applies: no evidence, lower number.',
-        'Nilai tiap pernyataan untuk kuartal terakhir — 1 = jarang benar, 5 = konsisten benar. Aturan bukti Pelajaran 1.4 berlaku: tanpa bukti, angka lebih rendah.'));
-    DIMS.forEach(function (d) {
-      var box = el('div', 'rp-dim');
-      box.appendChild(el('h4', null, T(d[1].en, d[1].id)));
-      d[3].forEach(function (q, qi) {
-        var key = d[0] + qi;
-        box.appendChild(el('p', null, T(q.en, q.id)));
-        var sc = el('div', 'rp-scale');
-        for (var k = 1; k <= 5; k++) (function (k) {
-          var b = el('button', s.diag.scores[key] === k ? 'on' : '', String(k));
-          b.addEventListener('click', function () {
-            var s2 = store(); s2.diag = s2.diag || { scores: {} };
-            s2.diag.scores[key] = k; save(s2); render();
-          });
-          sc.appendChild(b);
-        })(k);
-        box.appendChild(sc);
-      });
-      c.appendChild(box);
+    var total = DIMS.length * 2;
+    var answered = Object.keys(s.diag.scores || {}).filter(function (k) { return s.diag.scores[k]; }).length;
+
+    var hero = SH.hero({
+      kicker: { en: 'Instrument 1 · Readiness diagnostic', id: 'Instrumen 1 · Diagnostik kesiapan' },
+      title: { en: ['Six dimensions,', 'honestly rated'], id: ['Enam dimensi,', 'dinilai jujur'] },
+      sub: { en: 'Rate each statement for the last quarter — 1 = rarely true, 5 = consistently true.', id: 'Nilai tiap pernyataan untuk kuartal terakhir — 1 = jarang benar, 5 = konsisten benar.' },
+      chip: { en: 'The evidence rule from Lesson 1.4 applies: no evidence, lower number.', id: 'Aturan bukti Pelajaran 1.4 berlaku: tanpa bukti, angka lebih rendah.' },
+      tagline: [{ en: 'Greater awareness', id: 'Kesadaran yang lebih besar' }, { en: 'creates a clearer route.', id: 'menciptakan rute yang lebih jelas.' }],
+      art: { img: '../../assets/bg/journey-start.jpg', pos: '60% 45%', nodes: [
+        { x: 18, y: 78, big: true, label: { en: 'Assess today', id: 'Nilai hari ini' } },
+        { x: 50, y: 56, label: { en: 'Plan tomorrow', id: 'Rencanakan esok' } },
+        { x: 72, y: 28, label: { en: 'A stronger you', id: 'Dirimu yang lebih kuat' } }] },
+      quote: { en: 'Clarity today builds momentum tomorrow.', id: 'Kejernihan hari ini membangun momentum esok.' },
+      sign: [{ en: 'Same effort.', id: 'Usaha yang sama.' }, { en: 'A brighter tomorrow.', id: 'Esok yang lebih cerah.' }]
     });
 
-    var total = DIMS.length * 2;
-    var answered = Object.keys(s.diag.scores || {}).length;
+    var main = el('div', 'ts-main');
+    DIMS.forEach(function (d, di) {
+      var it = el('div', 'ts-item stack' + (d[4].every(function (_, qi) { return s.diag.scores[d[0] + qi]; }) ? ' on' : ''));
+      it.appendChild(el('div', 'ts-num', String(di + 1)));
+      var ic = el('div', 'ts-ico'); ic.innerHTML = SH.ico(d[3]); it.appendChild(ic);
+      var tx = el('div');
+      tx.appendChild(el('h4', null, esc(T(d[1].en, d[1].id))));
+      it.appendChild(tx);
+      var ctl = el('div', 'ts-ctl'); ctl.style.cssText = 'gap:14px;align-items:stretch';
+      d[4].forEach(function (q, qi) {
+        var key = d[0] + qi;
+        var row = el('div'); row.style.cssText = 'display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 20px;align-items:center';
+        row.appendChild(el('p', null, esc(T(q.en, q.id))));
+        row.appendChild(SH.scale({ value: s.diag.scores[key], lo: { en: 'Rarely true', id: 'Jarang benar' }, hi: { en: 'Consistently true', id: 'Konsisten benar' },
+          onPick: function (k) { var s2 = store(); s2.diag = s2.diag || { scores: {} }; s2.diag.scores[key] = k; save(s2); render(); } }));
+        row.className = 'rp-q';
+        ctl.appendChild(row);
+      });
+      it.appendChild(ctl);
+      main.appendChild(it);
+    });
+
     if (answered === total) {
-      /* results */
       var dims = DIMS.map(function (d) {
         var v = ((s.diag.scores[d[0] + '0'] || 0) + (s.diag.scores[d[0] + '1'] || 0)) / 2;
         return { id: d[0], label: d[1], mod: d[2], v: v };
       });
-      var r = card(w, T('Your reading', 'Pembacaanmu'), null,
-        T('Self-assessed, on this device. The bars mirror your ratings back — a map for the next 90 days, not a verdict, and not a promotion prediction.',
-          'Dinilai sendiri, di perangkat ini. Batang-batang memantulkan penilaianmu — peta untuk 90 hari ke depan, bukan vonis, dan bukan ramalan promosi.'));
-      dims.forEach(function (d) {
-        r.appendChild(el('p', 'rp-sub', '<b>' + T(d.label.en, d.label.id) + '</b> — ' + d.v.toFixed(1) + '/5'));
-        var bar = el('div', 'rp-bar');
-        bar.appendChild(el('i')).style.width = (d.v / 5 * 100) + '%';
-        r.appendChild(bar);
-      });
+      var r = SH.card({ kick: { en: 'Your reading', id: 'Pembacaanmu' }, title: { en: 'Where the route is strong, and where it thins', id: 'Di mana rute kuat, dan di mana menipis' },
+        text: T('Self-assessed, on this device. The bars mirror your ratings back — a map for the next 90 days, not a verdict, and not a promotion prediction.',
+          'Dinilai sendiri, di perangkat ini. Batang-batang memantulkan penilaianmu — peta untuk 90 hari ke depan, bukan vonis, dan bukan ramalan promosi.') });
+      dims.forEach(function (d) { r.appendChild(SH.dim(d.label, d.v.toFixed(1) + ' / 5', 5)); });
       var weak = dims.slice().sort(function (a, b) { return a.v - b.v; })[0];
       var mn = MOD_NAME[weak.mod];
-      r.appendChild(el('p', 'rp-note', '→ ' + T('Weakest dimension: ' + weak.label.en + '. Module ' + weak.mod + ' — ' + mn.en + ' — trains it directly; build your next 90-day plan around it.',
-        'Dimensi terlemah: ' + weak.label.id + '. Modul ' + weak.mod + ' — ' + mn.id + ' — melatihnya langsung; susun rencana 90 harimu di sekitarnya.')));
-      var row = el('div', 'rp-row');
-      var snap = el('button', 'rp-btn', T('Save this reading →', 'Simpan pembacaan ini →'));
-      snap.addEventListener('click', function () {
-        var s2 = store();
-        s2.diag.history = s2.diag.history || [];
+      r.appendChild(SH.note('<b>' + esc(T('Weakest dimension: ', 'Dimensi terlemah: ')) + esc(T(weak.label.en, weak.label.id)) + '.</b> ' +
+        esc(T('Module ' + weak.mod + ' — ' + mn.en + ' — trains it directly; build your next 90-day plan around it.', 'Modul ' + weak.mod + ' — ' + mn.id + ' — melatihnya langsung; susun rencana 90 harimu di sekitarnya.')), 'target'));
+      var row = el('div', 'ts-row');
+      row.appendChild(SH.btn({ en: 'Save this reading', id: 'Simpan pembacaan ini' }, { icon: 'check', onClick: function () {
+        var s2 = store(); s2.diag.history = s2.diag.history || [];
         s2.diag.history.push({ date: Date.now(), dims: dims.map(function (d) { return { id: d.id, v: d.v }; }) });
         save(s2); render();
-      });
-      var toPlan = el('button', 'rp-btn ghost', T('Build the plan', 'Susun rencananya'));
-      toPlan.addEventListener('click', function () { tab = 'plan'; render(); });
-      row.appendChild(snap); row.appendChild(toPlan);
+      } }));
+      row.appendChild(SH.btn({ en: 'Build the plan', id: 'Susun rencananya' }, { ghost: true, icon: 'arrow', onClick: function () { tab = 'plan'; render(); } }));
       r.appendChild(row);
+      main.appendChild(r);
 
       var hist = (s.diag.history || []);
       if (hist.length) {
-        var h = card(w, T('History — your deltas', 'Riwayat — selisihmu'), null, null);
+        var h = SH.card({ kick: { en: 'History — your deltas', id: 'Riwayat — selisihmu' }, title: { en: 'Readings over time', id: 'Pembacaan dari waktu ke waktu' } });
+        var rows = el('div', 'ts-rows');
         hist.slice(-5).reverse().forEach(function (rec) {
           var avg = rec.dims.reduce(function (a, d) { return a + d.v; }, 0) / rec.dims.length;
-          h.appendChild(el('p', 'rp-sub', new Date(rec.date).toLocaleDateString() + ' — ' + T('average', 'rata-rata') + ' ' + avg.toFixed(1) + '/5'));
+          rows.appendChild(SH.rowi({ icon: 'calendar', title: new Date(rec.date).toLocaleDateString(), sub: T('average', 'rata-rata') + ' ' + avg.toFixed(1) + ' / 5', actions: [SH.pill(avg.toFixed(1) + ' / 5')] }));
         });
-        h.appendChild(el('p', 'rp-note', T('Re-run quarterly. The delta between readings is what the course and your plans actually built.',
-          'Jalankan ulang kuartalan. Selisih antar-pembacaan adalah yang sungguh dibangun kursus dan rencanamu.')));
+        h.appendChild(rows);
+        h.appendChild(SH.note(esc(T('Re-run quarterly. The delta between readings is what the course and your plans actually built.', 'Jalankan ulang kuartalan. Selisih antar-pembacaan adalah yang sungguh dibangun kursus dan rencanamu.'))));
+        main.appendChild(h);
       }
-    } else {
-      c.appendChild(el('p', 'rp-note', answered + ' / ' + total + ' ' + T('rated — complete all to see your reading.', 'ternilai — lengkapi semua untuk melihat pembacaanmu.')));
     }
+
+    var complete = answered === total;
+    main.appendChild(SH.cta({
+      icon: 'chart',
+      title: { en: 'Your input powers your next step', id: 'Masukanmu menggerakkan langkah berikutmu' },
+      text: complete
+        ? { en: 'These insights will help us tailor your 90-day plan and prioritize the right training for your growth.', id: 'Wawasan ini membantu menyusun rencana 90 harimu dan memprioritaskan latihan yang tepat untuk pertumbuhanmu.' }
+        : T(answered + ' of ' + total + ' statements rated — complete all six dimensions to see your reading.', answered + ' dari ' + total + ' pernyataan ternilai — lengkapi keenam dimensi untuk melihat pembacaanmu.'),
+      actions: [SH.btn({ en: 'Save & continue', id: 'Simpan & lanjutkan' }, { icon: 'arrow', onClick: function () {
+        if (!complete) { var first = main.querySelector('.ts-item:not(.on)'); if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+        var s2 = store(); s2.diag.history = s2.diag.history || [];
+        var last = s2.diag.history[s2.diag.history.length - 1];
+        if (!last || Date.now() - last.date > 3600000) s2.diag.history.push({ date: Date.now(), dims: DIMS.map(function (d) { return { id: d[0], v: ((s2.diag.scores[d[0] + '0'] || 0) + (s2.diag.scores[d[0] + '1'] || 0)) / 2 }; }) });
+        save(s2); tab = 'plan'; render();
+      } })]
+    }));
+    return SH.stage(hero, main);
   }
 
   /* ─── 90-day plan ─── */
-  function planView(w) {
+  function planView() {
     var s = store();
     s.plan = s.plan || { goal: '', phases: ['', '', ''], started: null };
-    var c = card(w, T('Instrument 2 · The 90-day plan', 'Instrumen 2 · Rencana 90 hari'),
-      T('One goal, three deliberate phases', 'Satu tujuan, tiga fase yang disengaja'),
-      T('From Lesson 1.3: milestones need artefacts, dates and witnesses. Everything autosaves to this browser as you type.',
-        'Dari Pelajaran 1.3: tonggak butuh artefak, tanggal, dan saksi. Semua tersimpan otomatis di peramban ini saat kamu mengetik.'));
-    var saved = el('span', 'rp-saved', '✓ ' + T('Saved', 'Tersimpan'));
+    var days = s.plan.started ? Math.floor((Date.now() - s.plan.started) / 86400000) : null;
+    var phaseNow = days == null ? -1 : days < 30 ? 0 : days < 60 ? 1 : days < 90 ? 2 : 3;
+
+    var hero = SH.hero({
+      kicker: { en: 'Instrument 2 · The 90-day plan', id: 'Instrumen 2 · Rencana 90 hari' },
+      title: { en: ['One goal,', 'three deliberate phases'], id: ['Satu tujuan,', 'tiga fase yang disengaja'] },
+      sub: { en: 'From Lesson 1.3: milestones need artefacts, dates and witnesses. Everything autosaves to this browser as you type.', id: 'Dari Pelajaran 1.3: tonggak butuh artefak, tanggal, dan saksi. Semua tersimpan otomatis di peramban ini saat kamu mengetik.' },
+      chip: days == null ? { en: 'The clock starts the moment you write the goal.', id: 'Jam mulai berjalan saat kamu menulis tujuannya.' }
+        : (phaseNow > 2 ? T('Day ' + days + ' — review time. Close the plan and start the next one.', 'Hari ' + days + ' — waktunya tinjauan. Tutup rencana ini dan mulai yang berikutnya.')
+          : T('Day ' + days + ' of 90 · ' + PHASES[phaseNow].en.split('·')[1].trim(), 'Hari ' + days + ' dari 90 · ' + PHASES[phaseNow].id.split('·')[1].trim())),
+      chipIcon: 'calendar',
+      tagline: [{ en: 'Milestones with artefacts,', id: 'Tonggak dengan artefak,' }, { en: 'dates and witnesses.', id: 'tanggal, dan saksi.' }],
+      art: { img: '../../assets/bg/hero.jpg', pos: '50% 60%', nodes: [
+        { x: 16, y: 80, caps: true, label: { en: 'Day 1', id: 'Hari 1' }, big: true },
+        { x: 44, y: 60, caps: true, label: { en: 'Day 30', id: 'Hari 30' } },
+        { x: 64, y: 40, caps: true, label: { en: 'Day 60', id: 'Hari 60' } },
+        { x: 82, y: 18, caps: true, flag: true, label: { en: 'Day 90', id: 'Hari 90' } }] },
+      quote: { en: 'A plan is a promise with a calendar.', id: 'Rencana adalah janji yang punya kalender.' },
+      sign: [{ en: 'Same effort.', id: 'Usaha yang sama.' }, { en: 'A brighter tomorrow.', id: 'Esok yang lebih cerah.' }]
+    });
+
+    var main = el('div', 'ts-main');
+    var saved = el('span', 'ts-saved'); saved.appendChild(SH.svg('checkCircle')); saved.appendChild(el('span', null, esc(T('Saved', 'Tersimpan'))));
     function autosave(fn) {
       if (saveTimer) clearTimeout(saveTimer);
-      saveTimer = setTimeout(function () {
-        fn();
-        saved.classList.add('on');
-        setTimeout(function () { saved.classList.remove('on'); }, 1200);
-      }, 500);
+      saveTimer = setTimeout(function () { fn(); saved.classList.add('on'); setTimeout(function () { saved.classList.remove('on'); }, 1200); }, 500);
     }
-    var fg = el('div', 'rp-field');
-    fg.appendChild(el('label', null, T('The goal — one verifiable outcome, 90 days out', 'Tujuan — satu hasil terverifikasi, 90 hari dari sekarang')));
-    var goal = document.createElement('textarea');
-    goal.value = s.plan.goal || '';
-    goal.placeholder = T('e.g. Own the monthly reporting end-to-end, presented to the department head, with the runbook adopted by the team.',
-                         'mis. Memiliki pelaporan bulanan ujung-ke-ujung, dipresentasikan ke kepala departemen, dengan runbook diadopsi tim.');
+    var gc = SH.card({ kick: { en: 'The goal', id: 'Tujuan' }, title: { en: 'One verifiable outcome, 90 days out', id: 'Satu hasil terverifikasi, 90 hari dari sekarang' } });
+    var goal = SH.input('textarea', { value: s.plan.goal || '', placeholder: { en: 'e.g. Own the monthly reporting end-to-end, presented to the department head, with the runbook adopted by the team.', id: 'mis. Memiliki pelaporan bulanan ujung-ke-ujung, dipresentasikan ke kepala departemen, dengan runbook diadopsi tim.' } });
     goal.addEventListener('input', function () {
-      autosave(function () { var s2 = store(); s2.plan = s2.plan || { phases: ['', '', ''] }; s2.plan.goal = goal.value; if (!s2.plan.started) s2.plan.started = Date.now(); save(s2); });
+      autosave(function () { var s2 = store(); s2.plan = s2.plan || { phases: ['', '', ''] }; s2.plan.goal = goal.value; if (!s2.plan.started && goal.value.trim()) s2.plan.started = Date.now(); save(s2); });
     });
-    fg.appendChild(goal);
-    c.appendChild(fg);
+    gc.appendChild(SH.field({ input: goal, icon: null }));
+    var grow = el('div', 'ts-row'); grow.appendChild(saved); gc.appendChild(grow);
+    main.appendChild(gc);
+
     PHASES.forEach(function (p, i) {
-      var f = el('div', 'rp-field');
-      f.appendChild(el('label', null, T(p.en, p.id)));
-      var ta = document.createElement('textarea');
-      ta.value = (s.plan.phases || ['', '', ''])[i] || '';
-      ta.placeholder = [
-        T('Learn the terrain, install the systems, first small deliverable…', 'Pelajari medan, pasang sistem, hasil kecil pertama…'),
-        T('The visible delivery, the checkpoint conversations, the artefact…', 'Pengiriman terlihat, percakapan titik periksa, artefaknya…'),
-        T('Finish, document, present — and book the review of this plan…', 'Tuntaskan, dokumentasikan, presentasikan — dan jadwalkan tinjauan rencana ini…')][i];
+      var ta = SH.input('textarea', { value: (s.plan.phases || ['', '', ''])[i] || '', placeholder: [
+        { en: 'Learn the terrain, install the systems, first small deliverable…', id: 'Pelajari medan, pasang sistem, hasil kecil pertama…' },
+        { en: 'The visible delivery, the checkpoint conversations, the artefact…', id: 'Pengiriman terlihat, percakapan titik periksa, artefaknya…' },
+        { en: 'Finish, document, present — and book the review of this plan…', id: 'Tuntaskan, dokumentasikan, presentasikan — dan jadwalkan tinjauan rencana ini…' }][i] });
+      ta.style.minHeight = '96px';
       ta.addEventListener('input', function () {
         autosave(function () { var s2 = store(); s2.plan = s2.plan || { phases: ['', '', ''] }; s2.plan.phases = s2.plan.phases || ['', '', '']; s2.plan.phases[i] = ta.value; save(s2); });
       });
-      f.appendChild(ta);
-      c.appendChild(f);
+      var it = SH.item({ num: i + 1, icon: PHASE_ICON[i], title: p, on: phaseNow === i, stack: true,
+        text: phaseNow === i ? '<span class="ts-pill">' + esc(T('You are here', 'Kamu di sini')) + '</span>' : (phaseNow > i ? '<span class="ts-pill ok">' + esc(T('Behind you', 'Sudah dilalui')) + '</span>' : ''), ctl: ta });
+      main.appendChild(it);
     });
-    var row = el('div', 'rp-row');
-    row.appendChild(saved);
+
+    var acts = [];
     if (s.plan.started) {
-      var days = Math.floor((Date.now() - s.plan.started) / 86400000);
-      var phase = days < 30 ? 0 : days < 60 ? 1 : days < 90 ? 2 : 3;
-      row.appendChild(el('span', 'rp-tag', phase > 2
-        ? T('Day ' + days + ' — review time', 'Hari ' + days + ' — waktunya tinjauan')
-        : T('Day ' + days + ' · ' + PHASES[phase].en.split('·')[1].trim(), 'Hari ' + days + ' · ' + PHASES[phase].id.split('·')[1].trim())));
-      var reset = el('button', 'rp-btn ghost', T('Complete & start fresh', 'Selesaikan & mulai baru'));
-      reset.addEventListener('click', function () {
-        var s2 = store();
-        s2.planArchive = s2.planArchive || [];
+      acts.push(SH.btn({ en: 'Complete & start fresh', id: 'Selesaikan & mulai baru' }, { ghost: true, icon: 'refresh', onClick: function () {
+        var s2 = store(); s2.planArchive = s2.planArchive || [];
         s2.planArchive.push({ plan: s2.plan, closed: Date.now() });
         s2.plan = { goal: '', phases: ['', '', ''], started: null };
         save(s2); render();
-      });
-      row.appendChild(reset);
+      } }));
     }
-    c.appendChild(row);
-    if ((s.planArchive || []).length) {
-      c.appendChild(el('p', 'rp-note', T((s.planArchive.length) + ' completed plan(s) archived in this browser.',
-        s.planArchive.length + ' rencana selesai terarsip di peramban ini.')));
-    }
+    acts.push(SH.btn({ en: 'Log a win', id: 'Catat kemenangan' }, { icon: 'arrow', onClick: function () { tab = 'wins'; render(); } }));
+    main.appendChild(SH.cta({ icon: 'calendar',
+      title: days == null ? { en: 'Write the goal to start the clock', id: 'Tulis tujuannya untuk memulai jam' } : T('Day ' + days + ' of 90', 'Hari ' + days + ' dari 90'),
+      text: (s.planArchive || []).length
+        ? T(s.planArchive.length + ' completed plan(s) archived in this browser. Each finished plan is a chapter of evidence for your win log.', s.planArchive.length + ' rencana selesai terarsip di peramban ini. Setiap rencana yang tuntas adalah satu bab bukti untuk catatan kemenanganmu.')
+        : { en: 'Every artefact this plan produces belongs in the win log — with its number and its witness.', id: 'Setiap artefak yang dihasilkan rencana ini masuk ke catatan kemenangan — dengan angka dan saksinya.' },
+      actions: acts }));
+    return SH.stage(hero, main);
   }
 
   /* ─── win log ─── */
-  function winsView(w) {
+  function winsView() {
     var s = store();
     s.wins = s.wins || [];
-    var c = card(w, T('Instrument 3 · The win log', 'Instrumen 3 · Catatan kemenangan'),
-      T('Evidence, captured while it is fresh', 'Bukti, ditangkap selagi segar'),
-      T('The Friday habit from Lesson 1.1: what did this week add that you keep? One entry — what you delivered, its number, who can verify.',
-        'Kebiasaan Jumat dari Pelajaran 1.1: apa yang ditambahkan minggu ini yang tetap kamu miliki? Satu entri — apa yang kamu tunaikan, angkanya, siapa yang bisa memverifikasi.'));
-    var f1 = el('div', 'rp-field');
-    f1.appendChild(el('label', null, T('The win', 'Kemenangannya')));
-    var wt = document.createElement('input'); wt.type = 'text';
-    wt.placeholder = T('e.g. Shipped the vendor-comparison analysis', 'mis. Merilis analisis perbandingan vendor');
-    f1.appendChild(wt);
-    var f2 = el('div', 'rp-field');
-    f2.appendChild(el('label', null, T('Number & witness', 'Angka & saksi')));
-    var wn = document.createElement('input'); wn.type = 'text';
-    wn.placeholder = T('e.g. cited in the Q3 decision · Bu Rina can verify', 'mis. dikutip di keputusan Q3 · Bu Rina bisa memverifikasi');
-    f2.appendChild(wn);
-    c.appendChild(f1); c.appendChild(f2);
-    var row = el('div', 'rp-row');
-    var add = el('button', 'rp-btn', T('Log it →', 'Catat →'));
-    add.addEventListener('click', function () {
+    var month = s.wins.filter(function (w) { return Date.now() - w.date < 30 * 86400000; }).length;
+    var withNum = s.wins.filter(function (w) { return /\d/.test(w.meta || ''); }).length;
+
+    var hero = SH.hero({
+      kicker: { en: 'Instrument 3 · The win log', id: 'Instrumen 3 · Catatan kemenangan' },
+      title: { en: ['Evidence, captured', 'while it is fresh'], id: ['Bukti, ditangkap', 'selagi segar'] },
+      sub: { en: 'The Friday habit from Lesson 1.1: what did this week add that you keep? One entry — what you delivered, its number, who can verify.', id: 'Kebiasaan Jumat dari Pelajaran 1.1: apa yang ditambahkan minggu ini yang tetap kamu miliki? Satu entri — apa yang kamu tunaikan, angkanya, siapa yang bisa memverifikasi.' },
+      chip: { en: 'Twice a year, harvest into your CV and promotion one-pager (Lesson 5.2).', id: 'Dua kali setahun, panen ke CV dan satu halaman promosimu (Pelajaran 5.2).' },
+      chipIcon: 'trophy',
+      tagline: [{ en: 'Numbers and witnesses', id: 'Angka dan saksi' }, { en: 'turn work into a case.', id: 'mengubah kerja menjadi kasus.' }],
+      art: { img: '../../assets/bg/portal.jpg', pos: '50% 40%', nodes: [
+        { x: 24, y: 76, big: true, label: { en: 'This week', id: 'Minggu ini' } },
+        { x: 56, y: 50, label: { en: 'The review', id: 'Tinjauan' } },
+        { x: 78, y: 22, flag: true, caps: true, label: { en: 'Promotion file', id: 'Berkas promosi' } }] },
+      quote: { en: 'What gets logged gets argued for.', id: 'Yang tercatat, bisa diperjuangkan.' },
+      sign: [{ en: 'Same effort.', id: 'Usaha yang sama.' }, { en: 'A brighter tomorrow.', id: 'Esok yang lebih cerah.' }]
+    });
+
+    var main = el('div', 'ts-main');
+    if (s.wins.length) main.appendChild(SH.stats([[s.wins.length, { en: 'entries logged', id: 'entri tercatat' }], [month, { en: 'in the last 30 days', id: 'dalam 30 hari terakhir' }], [withNum, { en: 'carry a number', id: 'membawa angka' }]]));
+
+    var c = SH.card({ kick: { en: 'New entry', id: 'Entri baru' }, title: { en: 'What did this week add that you keep?', id: 'Apa yang ditambahkan minggu ini yang tetap kamu miliki?' } });
+    var wt = SH.input('text', { placeholder: { en: 'e.g. Shipped the vendor-comparison analysis', id: 'mis. Merilis analisis perbandingan vendor' } });
+    var wn = SH.input('text', { placeholder: { en: 'e.g. cited in the Q3 decision · Bu Rina can verify', id: 'mis. dikutip di keputusan Q3 · Bu Rina bisa memverifikasi' } });
+    var two = el('div', 'ts-two wide');
+    two.appendChild(SH.field({ label: { en: 'The win', id: 'Kemenangannya' }, input: wt, icon: 'trophy' }));
+    two.appendChild(SH.field({ label: { en: 'Number & witness', id: 'Angka & saksi' }, input: wn, icon: 'users' }));
+    c.appendChild(two);
+    var row = el('div', 'ts-row');
+    function add() {
       if (!wt.value.trim()) { wt.focus(); return; }
       var s2 = store(); s2.wins = s2.wins || [];
       s2.wins.push({ id: Date.now(), text: wt.value.trim(), meta: wn.value.trim(), date: Date.now() });
       save(s2); render();
-    });
-    row.appendChild(add);
+    }
+    wn.addEventListener('keydown', function (e) { if (e.key === 'Enter') add(); });
+    row.appendChild(SH.btn({ en: 'Log it', id: 'Catat' }, { icon: 'arrow', onClick: add }));
     c.appendChild(row);
+    main.appendChild(c);
 
     if (s.wins.length) {
-      var lc = card(w, s.wins.length + ' ' + T('entries — your promotion file in raw form', 'entri — berkas promosimu dalam bentuk mentah'), null, null);
+      var lc = SH.card();
+      lc.appendChild(SH.hd({ en: 'Your promotion file in raw form', id: 'Berkas promosimu dalam bentuk mentah' }, { en: 'Logged wins', id: 'Kemenangan tercatat' }, s.wins.length + ' ' + T('entries', 'entri')));
+      var rows = el('div', 'ts-rows');
       s.wins.slice().reverse().forEach(function (win) {
-        var r = el('div', 'rp-win');
-        var del = el('button', 'rp-del', '✕');
-        del.setAttribute('aria-label', 'Remove');
-        del.addEventListener('click', function () {
-          var s2 = store();
-          s2.wins = (s2.wins || []).filter(function (x) { return x.id !== win.id; });
-          save(s2); render();
-        });
-        r.appendChild(del);
-        r.appendChild(el('b', null, esc(win.text)));
-        r.appendChild(el('div', 'sm', (win.meta ? esc(win.meta) + ' · ' : '') + new Date(win.date).toLocaleDateString()));
-        lc.appendChild(r);
+        rows.appendChild(SH.rowi({ icon: 'trophy', title: win.text, sub: (win.meta ? win.meta + ' · ' : '') + new Date(win.date).toLocaleDateString(),
+          actions: [SH.xbtn(function () { var s2 = store(); s2.wins = (s2.wins || []).filter(function (x) { return x.id !== win.id; }); save(s2); render(); })] }));
       });
-      lc.appendChild(el('p', 'rp-note', T('Stored only in this browser. Twice a year, harvest into your CV and promotion one-pager (Lesson 5.2).',
-        'Tersimpan hanya di peramban ini. Dua kali setahun, panen ke CV dan satu halaman promosimu (Pelajaran 5.2).')));
+      lc.appendChild(rows);
+      lc.appendChild(SH.note(esc(T('Stored only in this browser. Entries without a number are claims; add the metric while you still remember it.', 'Tersimpan hanya di peramban ini. Entri tanpa angka hanyalah klaim; tambahkan metriknya selagi kamu masih ingat.')), 'lock'));
+      main.appendChild(lc);
     }
+    main.appendChild(SH.cta({ icon: 'doc',
+      title: { en: 'Harvest, then argue', id: 'Panen, lalu perjuangkan' },
+      text: { en: 'The promotion case builder in Fieldwork assembles a one-page case from this log — numbers, witnesses and scope language included.', id: 'Penyusun kasus promosi di Fieldwork merangkai kasus satu halaman dari catatan ini — lengkap dengan angka, saksi, dan bahasa cakupan.' },
+      actions: [SH.btn({ en: 'Back to readiness', id: 'Kembali ke kesiapan' }, { ghost: true, iconL: 'arrowL', onClick: function () { tab = 'readiness'; render(); } })] }));
+    return SH.stage(hero, main);
   }
 
   function render() {
-    tabsEl.querySelectorAll('.rp-tab').forEach(function (b) {
-      b.classList.toggle('on', b.dataset.tab === tab);
-    });
-    body.innerHTML = '';
-    body.scrollTop = 0;
-    var w = el('div', 'rp-in');
-    body.appendChild(w);
-    if (tab === 'readiness') readinessView(w);
-    else if (tab === 'plan') planView(w);
-    else winsView(w);
+    paintTabs();
+    shell.clear();
+    shell.body.appendChild(tab === 'readiness' ? readinessView() : tab === 'plan' ? planView() : winsView());
   }
 
   function open(mode) {
     build();
     if (mode === 'readiness' || mode === 'plan' || mode === 'wins') tab = mode;
-    root.classList.add('open');
-    document.body.classList.add('lms-lock');
+    shell.open();
     render();
   }
   function close() {
-    if (root) root.classList.remove('open');
-    document.body.classList.remove('lms-lock');
+    if (shell) shell.close();
     syncPromo();
   }
 
@@ -408,7 +362,7 @@
     b.addEventListener('click', function () {
       setTimeout(function () {
         syncPromo();
-        if (root && root.classList.contains('open')) render();
+        if (shell && shell.isOpen()) render();
       }, 60);
     });
   });
