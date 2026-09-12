@@ -1201,16 +1201,35 @@
   }
   function renderYouTube(l, host, opts) {
     opts = opts || {};
-    var y = opts.block || l.youtube;
-    if (!y || !y.id) return;
-    var nextIs = opts.next || 'check';   /* what follows the film: 'check' (default), 'lesson', 'material' or 'film' */
-    var P = null, ready = false, playing = false, ccOn = true, ccLang = lang(), tracks = null, ticker = 0, hideT = 0, pending = [];
+    var blk = opts.block || l.youtube;
+    if (!blk) return;
+    /* A block plays one video (`id`) or several (`videos: [{ id, title?,
+       captions?, dur? }]`) under one lead-in, each with its own full player;
+       a video inherits the block's captions and title unless it sets its own. */
+    var vids = (Array.isArray(blk.videos) && blk.videos.length ? blk.videos : [blk]).map(function (v) {
+      var o = {}, k;
+      for (k in blk) if (k !== 'videos') o[k] = blk[k];
+      for (k in v) o[k] = v[k];
+      return o;
+    }).filter(function (v) { return v.id; });
+    if (!vids.length) return;
     var wrap = el('div', 'lms-vp lms-ytp');
     var lead = el('div', 'lms-vp-lead');
-    lead.appendChild(bi('span', 'lms-kicker', y.kicker || { en: 'Watch · Lesson film', id: 'Tonton · Film pelajaran' }));
-    if (y.title) lead.appendChild(bi('h3', 'lms-sp-title', y.title));
-    if (y.intro) lead.appendChild(bi('p', 'lms-vp-intro', y.intro));
+    lead.appendChild(bi('span', 'lms-kicker', blk.kicker || { en: 'Watch · Lesson film', id: 'Tonton · Film pelajaran' }));
+    if (blk.title) lead.appendChild(bi('h3', 'lms-sp-title', blk.title));
+    if (blk.intro) lead.appendChild(bi('p', 'lms-vp-intro', blk.intro));
     wrap.appendChild(lead);
+    var stages = [];
+    vids.forEach(function (y, j) { stages.push(ytStage(y, j)); });
+    host.appendChild(wrap);
+    return wrap;
+
+    function ytStage(y, j) {
+    var last = j === vids.length - 1;
+    var nextIs = last ? (opts.next || 'check') : 'film';   /* what follows: 'check' (default), 'lesson', 'material' or 'film' */
+    function nextEl() { return last ? wrap.nextElementSibling : stages[j + 1]; }
+    var P = null, ready = false, playing = false, ccOn = true, ccLang = lang(), tracks = null, ticker = 0, hideT = 0, pending = [];
+    if (vids.length > 1) wrap.appendChild(bi('p', 'lms-kicker yt-n', { en: 'Video ' + (j + 1) + ' of ' + vids.length, id: 'Video ' + (j + 1) + ' dari ' + vids.length }));
 
     var stage = el('div', 'lms-vs lms-yt');
     stage.setAttribute('tabindex', '0'); stage.setAttribute('role', 'region'); stage.setAttribute('aria-label', 'Video player');
@@ -1261,7 +1280,6 @@
     var ext = el('p', 'yt-ext');
     ext.innerHTML = '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch on YouTube" data-id="Tonton di YouTube">' + (lang() === 'id' ? 'Tonton di YouTube' : 'Watch on YouTube') + '</span> ↗</a>';
     wrap.appendChild(ext);
-    host.appendChild(wrap);
 
     /* ── behaviour ── */
     function cur() { try { return P.getCurrentTime() || 0; } catch (e) { return 0; } }
@@ -1359,8 +1377,18 @@
     function setCC(mode, remember) {
       ccOn = mode !== 'off'; if (ccOn) ccLang = mode;
       applyCC();
-      if (remember) { try { localStorage.setItem('mt-lms-cc', ccOn ? ccLang : 'off'); } catch (e) {} }
+      if (remember) {
+        try { localStorage.setItem('mt-lms-cc', ccOn ? ccLang : 'off'); } catch (e) {}
+        pref = ccOn ? ccLang : 'off';
+        document.dispatchEvent(new CustomEvent('mt:lms-cc', { detail: { mode: pref, from: stage } }));   /* the other players follow */
+      }
     }
+    document.addEventListener('mt:lms-cc', function (e) {
+      if (!e.detail || e.detail.from === stage || !document.contains(stage)) return;
+      pref = e.detail.mode; ccOn = pref !== 'off'; if (ccOn) ccLang = pref; applyCC();
+    });
+    /* one film at a time: starting this one pauses any other YouTube player in the lesson */
+    document.addEventListener('mt:lms-play', function (e) { if (e.detail !== stage && playing && P && ready) { try { P.pauseVideo(); } catch (x) {} } });
     function finished() {
       var L = lang() === 'id';
       var HANDOFF = {
@@ -1376,7 +1404,7 @@
         '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
         '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (L ? 'Tetap di sini' : 'Stay here') + '</button>';
       upnext.classList.add('show');
-      upnext.querySelector('.vu-go').addEventListener('click', function () { upnext.classList.remove('show'); var nx = wrap.nextElementSibling; if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+      upnext.querySelector('.vu-go').addEventListener('click', function () { upnext.classList.remove('show'); var nx = nextEl(); if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
       upnext.querySelector('.vu-x').addEventListener('click', function () { upnext.classList.remove('show'); });
     }
     function ensure(cb) {
@@ -1397,7 +1425,7 @@
             },
             onStateChange: function (e) {
               var S = YT.PlayerState;
-              if (e.data === S.PLAYING) { setPlaying(true); stage.classList.remove('buffering'); upnext.classList.remove('show'); }
+              if (e.data === S.PLAYING) { setPlaying(true); stage.classList.remove('buffering'); upnext.classList.remove('show'); document.dispatchEvent(new CustomEvent('mt:lms-play', { detail: stage })); }
               else if (e.data === S.BUFFERING) stage.classList.add('buffering');
               else if (e.data === S.PAUSED) setPlaying(false);
               else if (e.data === S.ENDED) { setPlaying(false); stage.classList.remove('idle'); finished(); }
@@ -1460,7 +1488,8 @@
     if (pref === 'off') ccOn = false; else if (pref === 'en' || pref === 'id') ccLang = pref;
     if ('MutationObserver' in window) new MutationObserver(function () { if (!pref) { ccLang = lang(); applyCC(); } }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     paintCC();
-    return wrap;
+    return stage;
+    }
   }
 
   function renderOneCheck(check, host) {

@@ -47,7 +47,11 @@ Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
 
 `youtube: { id, kicker{en,id}, title{en,id}, intro{en,id} }` renders a
 YouTube video in the lesson player's skin, after the reading blocks and
-before the knowledge check (1.3 Foundational Mindset does). Set
+before the knowledge check (1.3 Foundational Mindset does). A block may
+instead carry `videos: [{ id, title?, captions?, dur? }, …]` to play
+several videos under one lead-in, each with its own full player and a
+"Video N of M" label, the earlier ones handing off to the next (2.1's
+second film section does). Set
 `youtubePlacement: "after-material"` (or `"after-material:N"`) to play it
 straight after the slide material instead, before the lesson's diagrams
 and reading blocks; with an array of decks, `"after-material:N"` plays it

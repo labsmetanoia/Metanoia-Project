@@ -766,6 +766,8 @@ body.lms-lock{overflow:hidden}
   text-align:center;padding:24px;background:rgba(5,10,18,.92);color:#fff;font-size:14px}
 .lms-yt .yt-err a,.yt-ext a{color:var(--gold-bright,#F0D878);font-weight:800;text-decoration:none}
 .yt-ext{margin:10px 0 0;font-size:12px;text-align:right}
+.lms-ytp .yt-n{display:block;margin:0 0 8px}
+.lms-ytp .yt-ext+.yt-n{margin-top:22px}
 .yt-ext a{color:rgba(240,237,232,.6);font-weight:700}
 .yt-ext a:hover{color:var(--gold-bright,#F0D878)}
 :root[data-theme="light"] .yt-ext a{color:rgba(26,31,40,.6)}
