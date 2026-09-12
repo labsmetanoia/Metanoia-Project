@@ -455,4 +455,14 @@
   else syncPromo();
 
   window.MT_MAP_AUDIT = { open: open, sync: syncPromo };
+
+  /* deep link from The Compass · Resources: ?tool=audit[&mode=…] opens the instrument on load */
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get('tool') !== 'audit') return;
+      var go = function () { setTimeout(function () { open(q.get('mode') || undefined); }, 60); };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+    } catch (e) {}
+  })();
 })();

@@ -371,4 +371,14 @@
   else syncPromo();
 
   window.MT_ROUTE_PLAN = { open: open, sync: syncPromo };
+
+  /* deep link from The Compass · Resources: ?tool=plan[&mode=…] opens the instrument on load */
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get('tool') !== 'plan') return;
+      var go = function () { setTimeout(function () { open(q.get('mode') || undefined); }, 60); };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+    } catch (e) {}
+  })();
 })();

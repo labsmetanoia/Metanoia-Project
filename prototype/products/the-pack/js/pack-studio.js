@@ -614,4 +614,14 @@
   });
 
   window.MT_PACK_STUDIO = { open: open };
+
+  /* deep link from The Compass · Resources: ?tool=studio[&mode=…] opens the instrument on load */
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get('tool') !== 'studio') return;
+      var go = function () { setTimeout(function () { open(q.get('mode') || undefined); }, 60); };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+    } catch (e) {}
+  })();
 })();
