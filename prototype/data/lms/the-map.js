@@ -1030,6 +1030,43 @@ window.MT_LMS['the-map'] = {
        "id": "Tiga pelajaran berikutnya semuanya tentang mengelola diri: proaktivitas, arah, dan prioritas."
       }
      ],
+     "material": {
+      "kicker": {
+       "en": "Read first · 2 slides",
+       "id": "Baca dulu · 2 slide"
+      },
+      "title": {
+       "en": "Self-Leadership Foundations — Material",
+       "id": "Fondasi Kepemimpinan Diri — Materi"
+      },
+      "intro": {
+       "en": "Start with the deck. Two slides frame what self-leadership is for — effectiveness, not efficiency — and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then continue to Exhibit 1 below.",
+       "id": "Mulai dari deknya. Dua slide membingkai untuk apa kepemimpinan diri — efektivitas, bukan efisiensi — dan empat langkah yang dibangun modul ini: kenali diri, kembangkan pola pikir, ambil tindakan nyata, ciptakan dampak. Lalu lanjutkan ke Peraga 1 di bawah."
+      },
+      "base": "../../assets/lms/the-map/slides/self-leadership-",
+      "slides": [
+       {
+        "title": {
+         "en": "Self-Leadership Foundations",
+         "id": "Self-Leadership Foundations"
+        },
+        "text": {
+         "en": "Discover · Reflect · Grow · Lead. Building greater self-awareness, mindsets, and habits to become the best version of yourself — in your career, work, and life. Know yourself: understand your mindsets and how they influence your decisions, behaviors, and outcomes. Develop your mindset: shift to more adaptive mindsets such as growth and creative when challenges arise. Take intentional action: use practical tools and frameworks to overcome challenges and unlock new opportunities. Create lasting impact: lead yourself to drive sustainable growth in your career, work, and life. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow.",
+         "id": "Discover · Reflect · Grow · Lead. Membangun kesadaran, pola pikir, dan kebiasaan untuk menjadi versi terbaik dari diri Anda — dalam karier, pekerjaan, dan kehidupan. Kenali diri: pahami pola pikir Anda dan bagaimana hal tersebut memengaruhi pilihan serta hasil yang Anda capai. Kembangkan pola pikir: beralih ke pola pikir yang lebih adaptif seperti growth dan creative saat dibutuhkan. Ambil tindakan nyata: gunakan alat dan kerangka kerja praktis untuk mengatasi tantangan dan membuka peluang baru. Ciptakan dampak: pimpin diri Anda untuk mencapai pertumbuhan berkelanjutan dalam karier, pekerjaan, dan kehidupan. Mindset · Actions · Habits · Impact. A better you, a bigger tomorrow. Learn today, lead tomorrow. People grow, opportunities follow."
+        }
+       },
+       {
+        "title": {
+         "en": "Effectiveness, not efficiency",
+         "id": "Efektivitas, bukan efisiensi"
+        },
+        "text": {
+         "en": "Self-Leadership Foundations. This course is not about efficiency (getting things done quickly) or success (although effective people tend to enjoy success). It's about effectiveness — the ability to get desired results again and again, in a sustainable manner following principles of effectiveness. And it all starts with changes in paradigms. Objective: commit to increasing your personal effectiveness by accepting that character and consistently living specific habits yields true effectiveness. Better mindsets, brighter outcomes. Small better choices, brighter tomorrows.",
+         "id": "Fondasi Kepemimpinan Diri. Kursus ini bukan tentang efisiensi (menyelesaikan pekerjaan dengan cepat) atau kesuksesan (meskipun orang yang efektif cenderung meraih kesuksesan). Ini tentang efektivitas — kemampuan untuk mencapai hasil yang diinginkan, berulang kali, secara berkelanjutan dengan mengikuti prinsip-prinsip efektivitas. Dan semuanya dimulai dari perubahan paradigma. Tujuan: berkomitmen untuk meningkatkan efektivitas diri dengan menyadari bahwa karakter dan kebiasaan yang dijalankan secara konsisten akan menghasilkan efektivitas yang sesungguhnya. Pola pikir lebih baik, pilihan lebih cerdas, masa depan lebih cerah. Langkah kecil, perubahan besar, hari esok."
+        }
+       }
+      ]
+     },
      "sections": [
       {
        "icon": "book",
