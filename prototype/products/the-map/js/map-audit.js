@@ -467,20 +467,28 @@
     cn.appendChild(el('div', 'ma-kick', T('Next moves', 'Langkah berikutnya')));
     cn.appendChild(el('div', 'ma-li', '1 · ' + T('Test your energy map against reality: run two industry tracks in Module 6.',
       'Uji peta energimu terhadap kenyataan: jalankan dua jalur industri di Modul 6.')));
-    cn.appendChild(el('div', 'ma-li', '2 · ' + T('Cross-check direction with data: open The Range (Explore) and run the questionnaire or CV analysis.',
-      'Silangkan arah dengan data: buka The Range (Explore) dan jalankan kuesioner atau analisis CV.')));
+    cn.appendChild(el('div', 'ma-li', '2 · ' + T('Turn your direction into a learning intention: Lesson 1.2 shows you how to write one you will actually keep.',
+      'Ubah arahmu menjadi niat belajar: Pelajaran 1.2 menunjukkan cara menulis niat yang benar-benar kamu jalani.')));
     cn.appendChild(el('div', 'ma-li', '3 · ' + T('Revisit this audit after finishing the module — the delta is your progress.',
       'Kunjungi lagi audit ini setelah modul selesai — selisihnya adalah kemajuanmu.')));
     var row = el('div', 'ma-row');
-    var toRange = el('button', 'ma-btn', T('Open The Range →', 'Buka The Range →'));
-    toRange.addEventListener('click', function () {
+    /* the audit stays inside the module: back to the lesson it was opened
+       from, or to Module 1 on the modules page when opened from the home card */
+    var back = el('button', 'ma-btn', T('← Back to Module', '← Kembali ke Modul'));
+    back.addEventListener('click', function () {
       close();
-      var tab = document.querySelector('.nav-item[data-tab="range"]');
+      if (launchedFrom && window.MT_LMS_PLAYER) { window.MT_LMS_PLAYER.open(launchedFrom); return; }
+      var tab = document.querySelector('.nav-item[data-tab="modules"]');
       if (tab) tab.click();
+      var mod = document.querySelector('.module-accordion[data-module="1"]');
+      if (mod) {
+        if (mod.getAttribute('aria-expanded') !== 'true') { var h = mod.querySelector('.module-header'); if (h) h.click(); }
+        setTimeout(function () { mod.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+      }
     });
     var again = el('button', 'ma-btn ghost', T('Revise answers', 'Revisi jawaban'));
     again.addEventListener('click', function () { stepIdx = 0; render(); });
-    row.appendChild(toRange); row.appendChild(again);
+    row.appendChild(back); row.appendChild(again);
     cn.appendChild(row);
     w.appendChild(cn);
   }
@@ -536,13 +544,18 @@
     e.preventDefault();
     open(b.getAttribute('data-map-audit'));
   });
+  var launchedFrom = null;   /* lesson number the audit was opened from, if any */
   document.addEventListener('mt:launch-tool', function (e) {
     if (e.detail && e.detail.tool === 'audit') {
+      launchedFrom = e.detail.lesson || null;
       var p = document.querySelector('.lmsp.open .lmsp-back');
       if (p) p.click();
       open(e.detail.mode);
     }
   });
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('[data-map-audit]')) launchedFrom = null;   /* opened from the home card */
+  }, true);
   document.querySelectorAll('.ctl button, button[data-lang]').forEach(function (b) {
     b.addEventListener('click', function () {
       setTimeout(function () {

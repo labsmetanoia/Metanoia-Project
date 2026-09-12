@@ -1154,7 +1154,8 @@
     var b = bi('button', 'lms-complete', t.cta || { en: 'Launch →', id: 'Luncurkan →' });
     b.style.marginTop = '12px';
     b.addEventListener('click', function () {
-      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: t.id, mode: t.mode || 'home' } }));
+      /* the lesson is passed along so a tool can bring the member back here */
+      document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: t.id, mode: t.mode || 'home', lesson: l.n } }));
     });
     box.appendChild(b);
     host.appendChild(box);
