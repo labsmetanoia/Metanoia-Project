@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Brand-grade the Map 1.1 intro videos (assets/lms/the-map/adaptability-N.mp4).
+Brand-grade the Map lesson videos (assets/lms/the-map/<set>-N.mp4; default set: adaptability).
 
 Writes adaptability-N-brand.mp4 next to each source: same frames, same timing,
 audio copied bit-exact; only the picture is graded towards the Metanoia palette —
@@ -8,7 +8,7 @@ flat white sets warmed to paper, navy-tinted shadows, a touch of gold in the
 highlights, a gentle S-curve, slight desaturation and a soft vignette. Also
 refreshes adaptability-N-poster.jpg from the graded picture.
 
-Usage:  python3 scripts/brand-grade-videos.py [1 2 3]
+Usage:  python3 scripts/brand-grade-videos.py [--set learning-intention] [1 2 3]
 Requires: av (PyAV, ships its own ffmpeg with libx264), numpy, Pillow
 """
 import os, sys, time
@@ -71,12 +71,12 @@ def grade_fast(rgb8):
     return (LUT[idx] * vignette(*rgb8.shape[:2]) + .5).astype(np.uint8)
 
 
-def encode(n):
+def encode(n, base='adaptability'):
     t0 = time.time()
-    inp = av.open('%s/adaptability-%d.mp4' % (SRC, n))
+    inp = av.open('%s/%s-%d.mp4' % (SRC, base, n))
     vin, ain = inp.streams.video[0], inp.streams.audio[0]
     fps = vin.guessed_rate or vin.average_rate; tb = vin.time_base
-    out = av.open('%s/adaptability-%d-brand.mp4' % (SRC, n), 'w', options={'movflags': 'faststart'})
+    out = av.open('%s/%s-%d-brand.mp4' % (SRC, base, n), 'w', options={'movflags': 'faststart'})
     vout = out.add_stream('libx264', rate=fps)
     vout.codec_context.time_base = vin.time_base; vout.time_base = vin.time_base
     vout.width, vout.height, vout.pix_fmt = vin.width, vin.height, 'yuv420p'
@@ -93,13 +93,17 @@ def encode(n):
             nf.pts = fr.pts if fr.pts is not None else frames; nf.time_base = tb
             for p in vout.encode(nf): out.mux(p)
             if not poster and fr.time is not None and fr.time >= 1.0:
-                Image.fromarray(rgb).save('%s/adaptability-%d-poster.jpg' % (SRC, n), quality=80, optimize=True, progressive=True); poster = True
+                Image.fromarray(rgb).save('%s/%s-%d-poster.jpg' % (SRC, base, n), quality=80, optimize=True, progressive=True); poster = True
             frames += 1
     for p in vout.encode(): out.mux(p)
     out.close(); inp.close()
-    print('adaptability-%d-brand.mp4: %d frames in %.0fs' % (n, frames, time.time() - t0))
+    print('%s-%d-brand.mp4: %d frames in %.0fs' % (base, n, frames, time.time() - t0))
 
 
 if __name__ == '__main__':
-    for n in [int(a) for a in sys.argv[1:]] or (1, 2, 3):
-        encode(n)
+    # usage: brand-grade-videos.py [--set learning-intention] [1 2 3]
+    args = sys.argv[1:]; base = 'adaptability'
+    if '--set' in args:
+        i = args.index('--set'); base = args[i + 1]; del args[i:i + 2]
+    for n in [int(a) for a in args] or (1, 2, 3):
+        encode(n, base)
