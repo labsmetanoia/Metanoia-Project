@@ -57,6 +57,10 @@ material: {
 }
 ```
 
+A `slides` lesson may carry `material{}` instead of the text `slides[]`
+(1.2 Learning Intention does); the text deck is only rendered when
+`slides[]` is present.
+
 The player derives every image from `base`: `base + lang + '-NN.jpg'`
 (1600 px), `-NN-960.jpg` (phones) and `-NN-320.jpg` (thumbnails), so a
 deck needs one set of files per language, numbered from `01`. The deck
