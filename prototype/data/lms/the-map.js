@@ -385,8 +385,8 @@ window.MT_LMS['the-map'] = {
       "id": "Niat Belajar"
      },
      "dur": {
-      "en": "10 min",
-      "id": "10 mnt"
+      "en": "20 min",
+      "id": "20 mnt"
      },
      "kind": "slides",
      "placeholder": false,
@@ -420,6 +420,72 @@ window.MT_LMS['the-map'] = {
       {
        "en": "Progress you do not measure weekly will quietly stop.",
        "id": "Kemajuan yang tidak kamu ukur setiap minggu akan berhenti tanpa kamu sadari."
+      }
+     ],
+     "videosPlacement": "after-material",
+     "videosIntro": {
+      "en": "Three short films take the slides further: why the mere act of setting an intention changes how you learn, when a learning intention should come before a performance goal, and what happens when an intention is tied to something that matters to you. Watch them in order, then test yourself in the knowledge check below.",
+      "id": "Tiga film singkat melanjutkan slide tadi: mengapa tindakan sederhana menetapkan niat mengubah cara kamu belajar, kapan niat belajar harus mendahului target kinerja, dan apa yang terjadi ketika niat terhubung dengan hal yang penting bagimu. Tonton berurutan, lalu uji dirimu di cek pemahaman di bawah."
+     },
+     "videosOutro": {
+      "title": {
+       "en": "Key Takeaways: Intention before performance",
+       "id": "Poin Penting: Niat sebelum kinerja"
+      },
+      "body": [
+       {
+        "en": "Setting an intention focuses limited attention on what you have decided matters — that is why the mere act of setting one improves learning.",
+        "id": "Menetapkan niat memusatkan perhatian yang terbatas pada apa yang kamu putuskan penting — itulah mengapa tindakan menetapkannya saja sudah memperbaiki belajar."
+       },
+       {
+        "en": "Early in a new skill, hold performance goals back: learn first, and perform when you feel excited to show what you can do.",
+        "id": "Di awal keterampilan baru, tahan dulu target kinerja: belajar dulu, dan tampil ketika kamu bersemangat menunjukkan kemampuanmu."
+       },
+       {
+        "en": "Intentions linked to personal meaning are the ones that survive difficult, long learning — Paula's repair list only came alive once it was about her team.",
+        "id": "Niat yang terhubung dengan makna pribadi adalah yang bertahan dalam belajar yang sulit dan panjang — daftar perbaikan Paula baru hidup setelah menjadi soal timnya."
+       }
+      ]
+     },
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/learning-intention-1-brand.mp4",
+       "poster": "../../assets/lms/the-map/learning-intention-1-poster.jpg",
+       "dur": "2:19",
+       "title": {
+        "en": "Why set a learning intention at all?",
+        "id": "Mengapa perlu menetapkan niat belajar?"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/learning-intention-1-en.vtt",
+        "id": "../../assets/lms/the-map/learning-intention-1-id.vtt"
+       }
+      },
+      {
+       "src": "../../assets/lms/the-map/learning-intention-2-brand.mp4",
+       "poster": "../../assets/lms/the-map/learning-intention-2-poster.jpg",
+       "dur": "2:36",
+       "title": {
+        "en": "Learning intention first, performance goal later",
+        "id": "Niat belajar dulu, target kinerja kemudian"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/learning-intention-2-en.vtt",
+        "id": "../../assets/lms/the-map/learning-intention-2-id.vtt"
+       }
+      },
+      {
+       "src": "../../assets/lms/the-map/learning-intention-3-brand.mp4",
+       "poster": "../../assets/lms/the-map/learning-intention-3-poster.jpg",
+       "dur": "2:45",
+       "title": {
+        "en": "Link it to meaning: Paula and the repair list",
+        "id": "Hubungkan dengan makna: Paula dan daftar perbaikan"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/learning-intention-3-en.vtt",
+        "id": "../../assets/lms/the-map/learning-intention-3-id.vtt"
+       }
       }
      ],
      "material": {

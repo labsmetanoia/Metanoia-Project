@@ -274,9 +274,15 @@
     var seen = {};
     try { seen = JSON.parse(localStorage.getItem(vk) || '{}'); } catch (e) {}
 
+    /* videos lead the lesson by default; a lesson may instead place them after
+       its slide material (videosPlacement: 'after-material'), where they
+       reinforce the slides before the knowledge check */
+    var after = l.videosPlacement === 'after-material';
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
-    lead.appendChild(bi('span', 'lms-kicker', { en: 'Watch first · ' + list.length + ' short videos', id: 'Tonton dulu · ' + list.length + ' video singkat' }));
+    lead.appendChild(bi('span', 'lms-kicker', l.videosKicker || (after
+      ? { en: 'Watch next · ' + list.length + ' short videos', id: 'Tonton berikutnya · ' + list.length + ' video singkat' }
+      : { en: 'Watch first · ' + list.length + ' short videos', id: 'Tonton dulu · ' + list.length + ' video singkat' })));
     lead.appendChild(bi('p', 'lms-vp-intro', l.videosIntro || {
       en: 'These videos set the scene for the lesson. Watch them in order, then continue to the material below.',
       id: 'Video-video ini membuka konteks pelajaran. Tonton berurutan, lalu lanjutkan ke materi di bawah.'
@@ -469,9 +475,12 @@
         upnext.querySelector('.vu-x').addEventListener('click', function () { clearTimeout(upT); upnext.classList.remove('show'); });
         upT = setTimeout(function () { if (upnext.classList.contains('show')) load(idx + 1, true); }, 6000);
       } else {
+        var nextEn = after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
+        var nextId = after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+        var goEn = after ? 'Go to the check' : 'Go to material', goId = after ? 'Ke cek pemahaman' : 'Ke materi';
         upnext.innerHTML = '<span class="vu-k" data-en="All videos watched" data-id="Semua video selesai">' + (lang() === 'id' ? 'Semua video selesai' : 'All videos watched') + '</span>' +
-          '<b data-en="Continue to the lesson material below" data-id="Lanjutkan ke materi pelajaran di bawah">' + (lang() === 'id' ? 'Lanjutkan ke materi pelajaran di bawah' : 'Continue to the lesson material below') + '</b>' +
-          '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to material" data-id="Ke materi">' + (lang() === 'id' ? 'Ke materi' : 'Go to material') + '</span></button>';
+          '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (lang() === 'id' ? nextId : nextEn) + '</b>' +
+          '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (lang() === 'id' ? goId : goEn) + '</span></button>';
         upnext.classList.add('show');
         upnext.querySelector('.vu-go').addEventListener('click', function () {
           upnext.classList.remove('show');
@@ -1269,8 +1278,9 @@
       innerEl.appendChild(obj);
     }
 
-    renderIntroVideos(l, innerEl);   /* declared intro videos always lead the material */
+    if (l.videosPlacement !== 'after-material') renderIntroVideos(l, innerEl);   /* declared intro videos lead the material… */
     renderMaterial(l, innerEl);      /* slide material follows the videos' closing takeaways */
+    if (l.videosPlacement === 'after-material') renderIntroVideos(l, innerEl);   /* …or reinforce the slides before the knowledge check */
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
