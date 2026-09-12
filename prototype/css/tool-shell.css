@@ -16,8 +16,26 @@
   --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display",cursive;
   font-family:var(--ts-font);color:var(--ts-ink)}
 .ts.open{display:flex;flex-direction:column}
-.ts [hidden]{display:none!important}
+.ts [hidden],.ts-page [hidden]{display:none!important}
 :root[data-theme="light"] .ts{
+  --ts-ink:#1B2434;--ts-ink-2:rgba(27,36,52,.8);--ts-ink-3:rgba(27,36,52,.6);--ts-ink-4:rgba(27,36,52,.4);
+  --ts-line:rgba(122,90,16,.2);--ts-line-2:rgba(122,90,16,.46);
+  --ts-card:rgba(255,255,255,.72);--ts-card-2:rgba(255,255,255,.86);--ts-tile:rgba(27,36,52,.04);
+  --ts-gold:#8A6A14;--ts-gold-b:#B4891F;--ts-gold-d:#6B5210}
+
+
+/* page mode: the same tokens on an in-page host (The Compass tabs) */
+.ts-page{
+  --ts-ink:#F5EFE6;--ts-ink-2:rgba(245,239,230,.78);--ts-ink-3:rgba(245,239,230,.56);--ts-ink-4:rgba(245,239,230,.34);
+  --ts-line:rgba(201,168,76,.18);--ts-line-2:rgba(201,168,76,.42);
+  --ts-card:rgba(9,15,27,.62);--ts-card-2:rgba(12,20,34,.78);--ts-tile:rgba(255,255,255,.04);
+  --ts-gold:#C9A84C;--ts-gold-b:#F0D878;--ts-gold-d:#8B6914;
+  --ts-ok:#4ADE80;--ts-warn:#EF6F5E;--ts-teal:#2DD4BF;--ts-violet:#A78BFA;--ts-blue:#60A5FA;
+  --ts-grad:linear-gradient(135deg,#8B6914 0%,#C9A84C 46%,#F0D878 100%);
+  --ts-font:'Inter',var(--font,'Roboto Condensed',sans-serif);--ts-serif:"Playfair Display",Georgia,serif;
+  --ts-hand:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',"Playfair Display",cursive;
+  font-family:var(--ts-font);color:var(--ts-ink)}
+:root[data-theme="light"] .ts-page{
   --ts-ink:#1B2434;--ts-ink-2:rgba(27,36,52,.8);--ts-ink-3:rgba(27,36,52,.6);--ts-ink-4:rgba(27,36,52,.4);
   --ts-line:rgba(122,90,16,.2);--ts-line-2:rgba(122,90,16,.46);
   --ts-card:rgba(255,255,255,.72);--ts-card-2:rgba(255,255,255,.86);--ts-tile:rgba(27,36,52,.04);
@@ -229,15 +247,15 @@
 .ts-field small{font-size:12.5px;color:var(--ts-ink-3)}
 .ts-input{position:relative;display:flex;align-items:center}
 .ts-input>svg{position:absolute;left:16px;width:20px;height:20px;color:var(--ts-ink-3);pointer-events:none}
-.ts .ts-input>svg+input[type=text],.ts .ts-input>svg+input[type=number],.ts .ts-input>svg+select,.ts .ts-input>svg+textarea{padding-left:48px}
-.ts input[type=text],.ts input[type=number],.ts input[type=date],.ts textarea,.ts select{width:100%;box-sizing:border-box;background:rgba(6,11,20,.55);border:1px solid var(--ts-line-2);border-radius:14px;
+.ts .ts-input>svg+input[type=text],.ts .ts-input>svg+input[type=number],.ts .ts-input>svg+select,.ts .ts-input>svg+textarea,.ts-page .ts-input>svg+input[type=text],.ts-page .ts-input>svg+input[type=time],.ts-page .ts-input>svg+input[type=date],.ts-page .ts-input>svg+select,.ts-page .ts-input>svg+textarea{padding-left:48px}
+.ts input[type=text],.ts input[type=number],.ts input[type=date],.ts textarea,.ts select,.ts-page input[type=text],.ts-page input[type=number],.ts-page input[type=date],.ts-page input[type=time],.ts-page textarea,.ts-page select{width:100%;box-sizing:border-box;background:rgba(6,11,20,.55);border:1px solid var(--ts-line-2);border-radius:14px;
   color:var(--ts-ink);font-family:inherit;font-size:14.5px;line-height:1.55;padding:14px 16px;transition:border-color .2s,box-shadow .2s;appearance:none;-webkit-appearance:none}
-.ts textarea{min-height:110px;resize:vertical}
-.ts select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+.ts textarea,.ts-page textarea{min-height:110px;resize:vertical}
+.ts select,.ts-page select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
   background-repeat:no-repeat;background-position:right 16px center;background-size:16px;padding-right:44px;cursor:pointer}
-.ts input::placeholder,.ts textarea::placeholder{color:var(--ts-ink-4)}
-.ts input:focus,.ts textarea:focus,.ts select:focus{outline:none;border-color:var(--ts-gold);box-shadow:0 0 0 3px rgba(201,168,76,.18)}
-:root[data-theme="light"] .ts input[type=text],:root[data-theme="light"] .ts input[type=number],:root[data-theme="light"] .ts input[type=date],:root[data-theme="light"] .ts textarea,:root[data-theme="light"] .ts select{background:#fff}
+.ts input::placeholder,.ts textarea::placeholder,.ts-page input::placeholder,.ts-page textarea::placeholder{color:var(--ts-ink-4)}
+.ts input:focus,.ts textarea:focus,.ts select:focus,.ts-page input:focus,.ts-page textarea:focus,.ts-page select:focus{outline:none;border-color:var(--ts-gold);box-shadow:0 0 0 3px rgba(201,168,76,.18)}
+:root[data-theme="light"] .ts input[type=text],:root[data-theme="light"] .ts input[type=number],:root[data-theme="light"] .ts input[type=date],:root[data-theme="light"] .ts textarea,:root[data-theme="light"] .ts select,:root[data-theme="light"] .ts-page input[type=text],:root[data-theme="light"] .ts-page input[type=number],:root[data-theme="light"] .ts-page input[type=date],:root[data-theme="light"] .ts-page input[type=time],:root[data-theme="light"] .ts-page textarea,:root[data-theme="light"] .ts-page select{background:#fff}
 .ts-two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .ts-two.wide{grid-template-columns:minmax(0,1.6fr) minmax(220px,1fr)}
 .ts-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}

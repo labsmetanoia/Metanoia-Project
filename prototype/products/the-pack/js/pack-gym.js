@@ -535,4 +535,14 @@
   else syncPromo();
 
   window.MT_PACK_GYM = { open: open, stats: bankStats };
+
+  /* deep link from The Compass · Resources: ?tool=gym[&mode=…] opens the instrument on load */
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get('tool') !== 'gym') return;
+      var go = function () { setTimeout(function () { open(q.get('mode') || undefined); }, 60); };
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+    } catch (e) {}
+  })();
 })();
