@@ -51,10 +51,11 @@ before the knowledge check (1.3 Foundational Mindset does). Set
 `youtubePlacement: "after-material"` (or `"after-material:N"`) to play it
 straight after the slide material instead, before the lesson's diagrams
 and reading blocks; with an array of decks, `"after-material:N"` plays it
-after the Nth deck (2.1 How Your Lens Shapes Your Results runs
-Self-Leadership Foundations → film → The Root of Effectiveness). The
-deck's end card then points at the film, and the film's at the slides or
-lesson that follow. A poster
+after the Nth deck. `youtube` may also be an array of blocks, each with
+its own `placement` (2.1 How Your Lens Shapes Your Results runs
+Self-Leadership Foundations → film → The Root of Effectiveness → film).
+The deck's end card then points at the film, and the film's at the
+slides, film or lesson that follow. A poster
 facade means nothing from YouTube loads until the member presses play;
 the embed then runs with its own controls off and the player's controls
 drive the IFrame API (play, scrub, ±10 s, mute, fullscreen, keyboard).
