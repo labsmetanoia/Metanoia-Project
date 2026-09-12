@@ -616,6 +616,7 @@
 
     /* thumbnail strip */
     var strip = el('div', 'lms-vlist lms-slist');
+    strip.style.setProperty('--n', String(N >= 3 && N <= 8 ? N : 6));   /* thumbnails in one row for three to eight slides */
     var thumbs = [];
     list.forEach(function (it, k) {
       var b = el('button', 'lms-vitem'); b.type = 'button';
@@ -1275,7 +1276,7 @@
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
     if (l.kind === 'interactive') renderSteps(l, innerEl);
-    if (l.kind === 'slides') renderDeck(l, innerEl);
+    if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);

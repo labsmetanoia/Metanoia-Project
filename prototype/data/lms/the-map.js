@@ -422,88 +422,93 @@ window.MT_LMS['the-map'] = {
        "id": "Kemajuan yang tidak kamu ukur setiap minggu akan berhenti tanpa kamu sadari."
       }
      ],
-     "slides": [
-      {
-       "h": {
-        "en": "Why an intention beats a goal",
-        "id": "Mengapa niat lebih kuat daripada tujuan"
-       },
-       "points": [
-        {
-         "en": "A goal names a destination; an intention names the behaviour that gets you there.",
-         "id": "Tujuan menyebut titik akhir; niat menyebut perilaku yang membawamu ke sana."
-        },
-        {
-         "en": "“Get a job” is weather. “Complete two modules and one audit per week until March” is climate you control.",
-         "id": "“Dapat kerja” itu cuaca — tak bisa kamu atur. “Menyelesaikan dua modul dan satu audit setiap minggu sampai Maret” itu iklim yang kamu kendalikan."
-        },
-        {
-         "en": "Every product in Metanoia assumes iteration — the intention is what keeps you iterating.",
-         "id": "Setiap produk Metanoia dirancang untuk diulang dan diperbaiki — niat inilah yang membuatmu terus mengulang."
-        }
-       ]
+     "material": {
+      "kicker": {
+       "en": "Read · 7 slides",
+       "id": "Baca · 7 slide"
       },
-      {
-       "h": {
-        "en": "The one-sentence format",
-        "id": "Format satu kalimat"
-       },
-       "points": [
-        {
-         "en": "I will [behaviour], [frequency], until [date], so that [outcome I can verify].",
-         "id": "Aku akan [perilaku], [seberapa sering], sampai [tanggal], supaya [hasil yang bisa kubuktikan]."
-        },
-        {
-         "en": "Example: “I will finish one Map module and log one audit update every week until 1 June, so that my development plan has 12 weeks of real data.”",
-         "id": "Contoh: “Aku akan menyelesaikan satu modul The Map dan mencatat satu pembaruan audit setiap minggu sampai 1 Juni, supaya rencana pengembanganku berisi 12 minggu data nyata.”"
-        },
-        {
-         "en": "Say it aloud. If it sounds impossible, shrink the frequency — not the deadline.",
-         "id": "Ucapkan dengan lantang. Kalau terdengar mustahil, kurangi frekuensinya — jangan mundurkan tenggatnya."
-        }
-       ]
+      "title": {
+       "en": "Learning Intention — Material",
+       "id": "Niat Belajar — Materi"
       },
-      {
-       "h": {
-        "en": "Budget the hours honestly",
-        "id": "Hitung jam yang tersedia dengan jujur"
-       },
-       "points": [
-        {
-         "en": "Count your real free hours this week — after classes, work, family, commuting, rest.",
-         "id": "Hitung jam luang yang benar-benar kamu punya minggu ini — setelah kuliah, kerja, keluarga, perjalanan, dan istirahat."
-        },
-        {
-         "en": "Commit 60–70% of that number, not 100%. Slack absorbs bad weeks; overcommitment ends streaks.",
-         "id": "Komitmenkan 60–70% dari angka itu, bukan 100%. Sisanya menjadi bantalan untuk minggu yang kacau; komitmen berlebihan justru memutus ritme."
-        },
-        {
-         "en": "Block the hours in your calendar now. Unblocked time belongs to whoever interrupts first.",
-         "id": "Blokir jam-jam itu di kalender sekarang juga. Waktu yang tidak diblokir akan diambil siapa pun yang lebih dulu menyela."
-        }
-       ]
+      "intro": {
+       "en": "Seven slides on why the way you frame a learning intention matters: focus on the journey, link it to meaning, and turn it into a commitment you will keep. Move through them at your own pace — the slide text is available under the player.",
+       "id": "Tujuh slide tentang mengapa cara kamu merumuskan niat belajar itu penting: fokus pada prosesnya, hubungkan dengan makna, lalu ubah menjadi komitmen yang benar-benar kamu jalani. Baca sesuai ritmemu — teks slide tersedia di bawah pemutar."
       },
-      {
-       "h": {
-        "en": "Pick one weekly signal",
-        "id": "Pilih satu sinyal mingguan"
-       },
-       "points": [
-        {
-         "en": "Lessons completed, audit entries logged, or simulations attempted — one number, checked every Sunday.",
-         "id": "Jumlah pelajaran selesai, catatan audit yang masuk, atau simulasi yang dicoba — satu angka saja, diperiksa setiap hari Minggu."
+      "base": "../../assets/lms/the-map/slides/learning-intention-",
+      "slides": [
+       {
+        "title": {
+         "en": "Learning Intention: set a clearer intention",
+         "id": "Niat Belajar: tetapkan niat yang lebih jelas"
         },
-        {
-         "en": "A moving signal proves the system works; a frozen signal is an early warning, not a failure.",
-         "id": "Sinyal yang bergerak membuktikan sistemmu bekerja; sinyal yang diam adalah peringatan dini, bukan tanda gagal."
-        },
-        {
-         "en": "Write intention, budget and signal into the Personal Audit tool — it will hold you to them.",
-         "id": "Tulis niat, jatah waktu, dan sinyalmu di alat Audit Pribadi — alat itu akan menagih janjimu."
+        "text": {
+         "en": "Set a clearer intention. Create a more meaningful learning journey. 01 Why set intentions? In a world of distractions and stimuli, setting learning intentions helps you stay focused. It improves your ability to learn and makes learning more enjoyable — a clear intention creates direction. 02 Framing our intentions: do you ever feel you are working through an endless to-do list, often losing sight of the destination and why it matters? Or that you are responding on autopilot, going through the motions, but perhaps missing opportunities to learn, grow, and adapt? You're not alone — pause, reflect, reconnect. 03 The power of adaptable people: surprisingly, the most adaptable people are not those who set the most intentions but those who frame their intentions in the right way — it's not about more intentions, but better ones. 04 Your next step: you can frame your intentions in two specific, subtle ways to improve your ability to learn and the likelihood that you will enjoy the experience — same learning, a brighter you. Intentional learning today. A more adaptable and fulfilled you tomorrow.",
+         "id": "Tetapkan niat yang lebih jelas. Ciptakan perjalanan belajar yang lebih bermakna. 01 Mengapa menetapkan niat? Di dunia yang penuh distraksi dan berbagai rangsangan, menetapkan niat belajar membantu Anda tetap fokus. Hal ini meningkatkan kemampuan Anda untuk belajar dan membuat proses pembelajaran lebih menyenangkan — niat yang jelas memberi arah. 02 Merumuskan niat kita: pernahkah Anda merasa bekerja tanpa henti menyelesaikan daftar tugas, hingga kehilangan arah tentang tujuan dan alasan di balik apa yang Anda lakukan? Atau merasa hanya berjalan secara otomatis, mengikuti rutinitas, tetapi mungkin melewatkan kesempatan untuk belajar, berkembang, dan beradaptasi? Anda tidak sendirian — berhenti sejenak, refleksi, terhubung kembali. 03 Kekuatan orang yang adaptif: menariknya, orang yang paling adaptif bukanlah mereka yang menetapkan niat paling banyak, melainkan mereka yang merumuskan niat dengan cara yang tepat — bukan tentang jumlah niat, tetapi kualitasnya. 04 Langkah Anda selanjutnya: Anda dapat merumuskan niat dengan dua cara yang spesifik dan sederhana untuk meningkatkan kemampuan Anda belajar dan kemungkinan Anda menikmati prosesnya — niat hari ini, pribadi yang lebih baik di masa depan. Mulai dengan niat yang lebih sadar hari ini. Pribadi yang lebih adaptif, lebih berkembang, dan lebih bermakna menanti Anda."
         }
-       ]
-      }
-     ],
+       },
+       {
+        "title": {
+         "en": "Framing our intentions",
+         "id": "Merumuskan niat kita"
+        },
+        "text": {
+         "en": "The way you frame your intentions shapes your learning journey. Here are two key ways to do it. 1 Focus on the journey — learning over performance: prioritize the learning experience itself by framing your desired outcome as a learning intention rather than a performance goal. Research shows that this can help people persist and expand their learning more than if they started with a performance goal. Right approach: “I want to learn how to play softball.” Wrong approach: “I want to win the softball league trophy.” 2 Link to meaning — purpose gives energy: connect your learning experience to something personally meaningful. Research shows that personal meaning can give people a feeling of self-direction, increasing their enjoyment, interest, and excitement during learning. Right approach: “If I learn how to fix a car, I can help my friends and family if they ever run into trouble.” Wrong approach: “I don't get why I need to learn how to fix a car. I'll just take it to the repair shop when it needs fixing.” “A clearer intention today. A more meaningful learning journey tomorrow.”",
+         "id": "Cara Anda merumuskan niat akan membentuk perjalanan belajar Anda. Berikut dua cara utama untuk melakukannya. 1 Fokus pada prosesnya — pembelajaran lebih dari sekadar hasil akhir: utamakan pengalaman belajar itu sendiri dengan merumuskan hasil yang Anda inginkan sebagai niat belajar, bukan sekadar target kinerja. Penelitian menunjukkan bahwa cara ini dapat membantu seseorang untuk lebih konsisten bertahan dan memperluas pembelajarannya dibandingkan jika hanya berfokus pada target kinerja. Contoh pendekatan yang tepat: “Saya ingin belajar cara bermain softball.” Contoh pendekatan yang kurang tepat: “Saya ingin memenangkan trofi liga softball.” 2 Hubungkan dengan makna — tujuan memberi energi: kaitkan pengalaman belajar Anda dengan sesuatu yang bermakna secara pribadi. Penelitian menunjukkan bahwa makna personal dapat memberikan rasa arah bagi diri, meningkatkan kesenangan, minat, dan antusiasme selama proses belajar. Contoh pendekatan yang tepat: “Jika saya belajar cara memperbaiki mobil, saya bisa membantu teman dan keluarga saya jika mereka mengalami masalah.” Contoh pendekatan yang kurang tepat: “Saya tidak mengerti mengapa saya perlu belajar cara memperbaiki mobil. Saya hanya akan membawanya ke bengkel saat perlu diperbaiki.” “Niat yang lebih jelas hari ini, perjalanan belajar yang lebih bermakna esok.”"
+        }
+       },
+       {
+        "title": {
+         "en": "Why the way you frame your learning intention matters",
+         "id": "Mengapa cara Anda merumuskan niat belajar itu penting?"
+        },
+        "text": {
+         "en": "It is easy to fall into the trap of setting performance goals, when what you really need is a learning intention. So, what is the difference? The distinction may seem subtle, but knowing when to use each can make a significant impact on your growth. Performance goals — focused on outcomes: specific targets to achieve certain numbers or results. They are helpful when you have a clear outcome in mind and already possess the skills or knowledge needed to achieve it. Examples: achieve IDR 1 billion in sales this year; obtain a CFA certification; lose 5 kg in 3 months. “Focused on the results you want to achieve within a certain timeframe.” Learning intentions — focused on the journey: most useful when it's time to build new skills and knowledge, especially when you are adapting to change or trying to do things in a new way. Examples: I want to better understand financial analysis; I want to develop my communication skills with stakeholders; I want to learn how to build healthier habits in daily life. “Focused on the learning process for continuous growth.” Choose the right intention, at the right time. Today's intention matters — it builds a bigger tomorrow.",
+         "id": "Kita sering terjebak untuk menetapkan target kinerja, padahal yang kita butuhkan adalah niat belajar. Jadi, apa sebenarnya perbedaannya? Perbedaannya mungkin terasa halus, tetapi dampaknya sangat besar ketika Anda tahu kapan dan bagaimana menerapkannya. Target kinerja (performance goals) — berfokus pada hasil: tujuan untuk mencapai angka tertentu atau target spesifik. Target ini berguna ketika ada hasil yang jelas ingin Anda capai dan Anda sudah memiliki keterampilan atau pengetahuan yang diperlukan. Contoh: mencapai penjualan Rp1 miliar tahun ini; mendapatkan sertifikasi CFA; menurunkan berat badan 5 kg dalam 3 bulan. “Berfokus pada hasil yang ingin dicapai dalam jangka waktu tertentu.” Niat belajar (learning intentions) — berfokus pada proses: paling bermanfaat ketika saatnya membangun keterampilan dan pengetahuan baru, terutama ketika Anda sedang beradaptasi dengan perubahan yang menantang Anda untuk melakukan sesuatu dengan cara yang berbeda. Contoh: saya ingin belajar memahami analisis keuangan dengan lebih baik; saya ingin mengembangkan kemampuan komunikasi dengan stakeholder; saya ingin lebih memahami cara membangun kebiasaan hidup sehat. “Berfokus pada proses pembelajaran untuk terus berkembang.” Pilih niat yang tepat, pada waktu yang tepat. Hasil hari ini penting, tetapi pembelajaran hari ini membangun masa depan yang lebih besar."
+        }
+       },
+       {
+        "title": {
+         "en": "Focus on the journey · Link to meaning",
+         "id": "Fokus pada prosesnya · Hubungkan dengan makna"
+        },
+        "text": {
+         "en": "01 Focus on the journey — growth comes from the process, not just the outcome. Why it matters: focusing on the journey means prioritizing the learning experience itself, not just the end result. Instead of setting a specific target, you focus on the process, on discovering new ideas, and on your growth. Key takeaway: once you know that you should set a learning intention, focusing on the journey — and linking it to personal meaning — will strengthen your intention and make the learning experience more enjoyable and sustainable. 02 Link to meaning — a deeper purpose fuels a stronger and more resilient you. Why it matters: each of your experiences of becoming more adaptable and resilient will look and feel different, in part because your motivations are different. Reflection prompt: imagine what you would like your professional and personal life to look like in the coming years. Take a moment to find the things you want to be celebrating. Consider what might be exciting and what might be hard to achieve. Try to think about it in as much detail as you can. Same learning. A farther journey. When you focus on the process and connect it to what truly matters, you unlock a more fulfilling future.",
+         "id": "01 Fokus pada prosesnya — pertumbuhan datang dari proses, bukan hanya dari hasil akhir. Mengapa ini penting? Fokus pada proses berarti memprioritaskan pengalaman belajar itu sendiri, bukan hanya hasil akhir. Alih-alih menetapkan target spesifik, Anda berfokus pada proses, menemukan ide-ide baru, dan pertumbuhan diri Anda. Pesan utama: setelah Anda memahami bahwa Anda sebaiknya menetapkan niat belajar, fokus pada proses — dan mengaitkannya dengan makna pribadi — akan memperkuat niat Anda serta membuat pengalaman belajar lebih menyenangkan dan berkelanjutan. 02 Hubungkan dengan makna — tujuan yang lebih dalam akan mendorong Anda menjadi pribadi yang lebih tangguh dan adaptif. Mengapa ini penting? Setiap pengalaman Anda dalam menjadi lebih adaptif dan tangguh akan terasa berbeda, sebagian karena motivasi Anda yang berbeda. Menghubungkan proses belajar dengan makna pribadi akan memberi energi yang lebih besar. Pertanyaan refleksi: bayangkan seperti apa kehidupan profesional dan pribadi yang ingin Anda miliki dalam beberapa tahun ke depan. Luangkan waktu untuk menemukan hal-hal yang ingin Anda rayakan. Lalu bayangkan langkah-langkah untuk mencapainya. Pertimbangkan apa yang mungkin menarik dan apa yang mungkin menantang. Cobalah untuk memikirkannya sedetail mungkin. Pembelajaran yang sama. Perjalanan yang lebih jauh. Ketika Anda fokus pada proses dan menghubungkannya dengan hal yang benar-benar bermakna, Anda membuka masa depan yang lebih penuh."
+        }
+       },
+       {
+        "title": {
+         "en": "Take a moment to reflect",
+         "id": "Luangkan waktu untuk merefleksikan"
+        },
+        "text": {
+         "en": "As you consider the journey ahead, take a moment to reflect: what would it unlock for you (and your family, team, business unit or function, and your organization) if you were more adaptable and resilient? What will keep you motivated when things get hard? Personal meaning matters: it keeps you motivated to start the learning journey and continue it, even when things get tough. As you embark on any learning journey, consider how it connects to your personal meaning. Your personal meaning can actually guide the choices you make about your own learning. Your reflection space — jot down a few thoughts to make it real for you: what does a more adaptable and resilient you enable? What will keep you going when things get hard? Your growth has a ripple effect. When your learning is connected to what truly matters, you create a stronger future — for yourself and beyond.",
+         "id": "Saat Anda memandang perjalanan ke depan, luangkan waktu untuk merefleksikan: apa yang ingin terbuka untuk Anda (dan keluarga, tim, unit bisnis, serta organisasi Anda) jika Anda menjadi pribadi yang lebih adaptif dan tangguh? Apa yang akan membuat Anda tetap termotivasi ketika menghadapi situasi yang sulit? Makna personal itu penting: ini membantu Anda tetap termotivasi untuk memulai perjalanan belajar dan melanjutkannya, bahkan ketika situasi menjadi sulit. Saat Anda memulai perjalanan belajar, pertimbangkan bagaimana hal ini terhubung dengan makna personal Anda. Makna personal tersebut dapat benar-benar memandu pilihan yang Anda buat dalam proses belajar Anda. Ruang refleksi Anda — tuliskan beberapa pemikiran yang bermakna bagi Anda: apa yang dapat membuat Anda menjadi pribadi yang lebih adaptif dan tangguh? Apa yang akan membuat Anda tetap termotivasi ketika menghadapi situasi sulit? Perjalanan belajar Anda membawa dampak yang lebih besar. Ketika Anda menghubungkan pembelajaran dengan hal yang benar-benar bermakna, Anda membuka masa depan yang lebih penuh."
+        }
+       },
+       {
+        "title": {
+         "en": "What's your learning intention?",
+         "id": "Apa niat belajar Anda?"
+        },
+        "text": {
+         "en": "It's a fact: you will get more out of a learning experience if you go in with a clear intention. Let's set an intention for the experience ahead. To get you started, here are a few examples we have heard from others on their personal adaptability journeys. In case it sparks additional ideas, we have also included a reminder of the topics we will cover during this journey. Leadership & team development: “As a manager, I care deeply about my team as individuals and as a unit. We just adopted a new organizational structure, and many of us are working virtually. I want to help my teams continue to achieve their full potential in this new environment.” Health & personal wellbeing: “I want to live a long, healthy, happy life surrounded by the people I love, so I need to improve my ability to cope with stress in and out of the workplace.” Professional development & digital transformation: “I will set aside more time for professional development. Our industry is changing rapidly, and I want to learn about digital advances and how we can implement them in my organization.” Your turn: what's your learning intention for this journey? Take a moment to reflect and set your intention.",
+         "id": "Faktanya: Anda akan mendapatkan lebih banyak manfaat dari pengalaman belajar jika Anda memulainya dengan niat yang jelas. Mari tetapkan niat untuk perjalanan belajar ke depan. Untuk membantu Anda memulai, berikut beberapa contoh niat yang kami dengar dari orang lain dalam perjalanan adaptabilitas mereka. Jika ini memunculkan ide tambahan bagi Anda, kami juga menyertakan pengingat topik-topik yang akan kita bahas selama perjalanan ini. Kepemimpinan dan pengembangan tim: “Sebagai seorang manajer, saya sangat peduli terhadap tim saya sebagai individu maupun sebagai satu kesatuan. Kami baru saja mengadopsi struktur organisasi yang baru, dan banyak dari kami bekerja secara virtual. Saya ingin membantu tim saya terus mencapai potensi terbaik mereka di lingkungan baru ini.” Kesehatan dan kesejahteraan pribadi: “Saya ingin menjalani hidup yang panjang, sehat, dan bahagia, dikelilingi oleh orang-orang yang saya cintai. Karena itu, saya perlu meningkatkan kemampuan saya untuk mengelola stres, baik di dalam maupun di luar tempat kerja.” Pengembangan profesional dan transformasi digital: “Saya ingin meluangkan lebih banyak waktu untuk pengembangan profesional. Industri kita berubah dengan sangat cepat, dan saya ingin mempelajari perkembangan digital terkini serta bagaimana kita dapat menerapkannya di organisasi saya.” Saatnya Anda: apa niat belajar Anda untuk perjalanan ini? Luangkan waktu sejenak untuk merefleksikan dan menetapkan niat Anda."
+        }
+       },
+       {
+        "title": {
+         "en": "Key takeaways",
+         "id": "Poin penting"
+        },
+        "text": {
+         "en": "Three tools to turn learning intention into meaningful progress. 01 Choosing learning intentions vs. performance goals — use learning intentions when developing a new skill and performance goals when you already have the skill and aim to achieve something with it. 02 Focusing on the journey, not just the outcome — use this to improve your ability to learn and enjoy the experience. 03 Connecting personal meaning to learning intentions — use this to strengthen your commitment to achieving your learning intentions. Brain food, to explore further: “The most fundamental skill: intentional learning and the career advantage” (McKinsey Insights); “What are the benefits of learning orientation” (Psychology Today); “Intentional learning in practice: a 3x3x3 approach” (McKinsey Insights).",
+         "id": "Tiga alat utama untuk mengubah niat belajar menjadi kemajuan yang bermakna. 01 Memilih niat belajar vs. target kinerja — gunakan niat belajar saat mengembangkan keterampilan baru, dan target kinerja saat Anda sudah memiliki keterampilan tersebut dan ingin mencapai sesuatu dengannya. 02 Fokus pada proses, bukan hanya hasil — gunakan ini untuk meningkatkan kemampuan Anda dalam belajar dan menikmati pengalaman langsungnya. 03 Menghubungkan makna personal dengan niat belajar — gunakan ini untuk memperkuat komitmen Anda dalam mencapai niat belajar. Bahan bacaan, jelajahi lebih lanjut: “Keterampilan yang paling penting di masa depan: niat belajar dan keunggulan karier” (McKinsey Insights); “Apa saja manfaat dari orientasi belajar?” (Psychology Today); “Niat belajar dalam praktik: pendekatan 3x3x3” (McKinsey Insights)."
+        }
+       }
+      ]
+     },
      "checks": [
       {
        "q": {

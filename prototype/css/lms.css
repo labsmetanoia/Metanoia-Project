@@ -741,7 +741,7 @@ body.lms-lock{overflow:hidden}
 :root[data-theme="light"] .lms-ss-notes b{color:#1A1F28}
 :root[data-theme="light"] .lms-ss-notes p{color:rgba(26,31,40,.78)}
 /* six-up thumbnail strip */
-.lms-slist{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.lms-slist{grid-template-columns:repeat(var(--n,6),minmax(0,1fr));gap:10px}   /* one row for decks of three to eight slides */
 .lms-slist .lms-vitem{padding:6px;gap:7px}
 .lms-slist .vi-tx b{font-size:11.5px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .lms-slist .vi-tx span{font-size:10.5px}
