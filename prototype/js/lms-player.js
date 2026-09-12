@@ -267,8 +267,9 @@
     text: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>'
   };
 
-  function renderIntroVideos(l, host) {
+  function renderIntroVideos(l, host, opts) {
     if (!l.videos || !l.videos.length) return;
+    opts = opts || {};
     var list = l.videos, idx = 0, cues = [], cueLang = lang(), ccOn = true, raf = 0, hideT = 0, upT = 0;
     var vk = 'mt-lms-vid:' + slug + ':' + l.n;
     var seen = {};
@@ -277,7 +278,8 @@
     /* videos lead the lesson by default; a lesson may instead place them after
        its slide material (videosPlacement: 'after-material'), where they
        reinforce the slides before the knowledge check */
-    var after = l.videosPlacement === 'after-material';
+    var after = /^after-material/.test(l.videosPlacement || '');
+    var nextIsDeck = opts.next === 'material';   /* another slide deck follows the videos */
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
     lead.appendChild(bi('span', 'lms-kicker', l.videosKicker || (after
@@ -475,9 +477,10 @@
         upnext.querySelector('.vu-x').addEventListener('click', function () { clearTimeout(upT); upnext.classList.remove('show'); });
         upT = setTimeout(function () { if (upnext.classList.contains('show')) load(idx + 1, true); }, 6000);
       } else {
-        var nextEn = after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
-        var nextId = after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
-        var goEn = after ? 'Go to the check' : 'Go to material', goId = after ? 'Ke cek pemahaman' : 'Ke materi';
+        var nextEn = nextIsDeck ? 'Continue to the next slides below' : after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
+        var nextId = nextIsDeck ? 'Lanjutkan ke slide berikutnya di bawah' : after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+        var goEn = nextIsDeck ? 'Go to the slides' : after ? 'Go to the check' : 'Go to material';
+        var goId = nextIsDeck ? 'Ke slide' : after ? 'Ke cek pemahaman' : 'Ke materi';
         upnext.innerHTML = '<span class="vu-k" data-en="All videos watched" data-id="Semua video selesai">' + (lang() === 'id' ? 'Semua video selesai' : 'All videos watched') + '</span>' +
           '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (lang() === 'id' ? nextId : nextEn) + '</b>' +
           '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (lang() === 'id' ? goId : goEn) + '</span></button>';
@@ -556,12 +559,12 @@
      player derives every file from it: base + lang + '-NN' (+ '-960' /
      '-320') + '.jpg'. The language follows the site switcher live: the host
      sets <html lang>, and the player swaps the whole image set. ── */
-  function renderMaterial(l, host) {
-    var m = l.material;
+  function renderMaterial(l, host, m, which) {
+    m = m || l.material;
     if (!m || !m.slides || !m.slides.length) return;
     var list = m.slides, N = list.length, idx = 0, playing = false, playT = 0, hideT = 0, curLang = lang();
     var HOLD = 9000;                                   /* autoplay dwell per slide */
-    var sk = 'mt-lms-slides:' + slug + ':' + l.n;
+    var sk = 'mt-lms-slides:' + slug + ':' + l.n + (which ? ':' + which : '');   /* one key per deck in the lesson */
     var seen = {};
     try { seen = JSON.parse(localStorage.getItem(sk) || '{}'); } catch (e) {}
     function pad(k) { return (k < 9 ? '0' : '') + (k + 1); }
@@ -1278,9 +1281,18 @@
       innerEl.appendChild(obj);
     }
 
-    if (l.videosPlacement !== 'after-material') renderIntroVideos(l, innerEl);   /* declared intro videos lead the material… */
-    renderMaterial(l, innerEl);      /* slide material follows the videos' closing takeaways */
-    if (l.videosPlacement === 'after-material') renderIntroVideos(l, innerEl);   /* …or reinforce the slides before the knowledge check */
+    /* Slide decks (`material`: one block or an array) and the intro videos.
+       Videos lead by default; `videosPlacement: 'after-material'` puts them
+       after the last deck, `'after-material:N'` after the Nth deck, so a
+       lesson can run deck → videos → deck before its reading sections. */
+    var decks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
+    var vpm = /^after-material(?::(\d+))?$/.exec(l.videosPlacement || '');
+    var afterN = vpm ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
+    if (!afterN) renderIntroVideos(l, innerEl);
+    decks.forEach(function (m, k) {
+      renderMaterial(l, innerEl, m, k);
+      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'check' });
+    });
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
