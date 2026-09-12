@@ -58,7 +58,7 @@ and reading blocks; with an array of decks, `"after-material:N"` plays it
 after the Nth deck. `youtube` may also be an array of blocks, each with
 its own `placement` (2.1 How Your Lens Shapes Your Results runs
 Self-Leadership Foundations → film → The Root of Effectiveness → films →
-Stages of Maturity).
+Stages of Maturity → film).
 The deck's end card then points at the film, and the film's at the
 slides, film or lesson that follow. A poster
 facade means nothing from YouTube loads until the member presses play;

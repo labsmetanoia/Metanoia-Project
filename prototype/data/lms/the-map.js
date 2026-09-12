@@ -1135,8 +1135,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tahapan Menuju Kematangan Diri — Materi"
        },
        "intro": {
-        "en": "After the films, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits — and why those paradigms must align with principles. Then continue to Exhibit 1 below.",
-        "id": "Setelah film, lima slide menelusuri jalan dari ketergantungan ke kemandirian hingga saling ketergantungan, merangkum kemenangan pribadi dan publik, dan menunjukkan mengapa mengubah paradigma mengubah kebiasaan — serta mengapa paradigma itu harus selaras dengan prinsip. Lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the films, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits — and why those paradigms must align with principles. Then watch the film that follows.",
+        "id": "Setelah film, lima slide menelusuri jalan dari ketergantungan ke kemandirian hingga saling ketergantungan, merangkum kemenangan pribadi dan publik, dan menunjukkan mengapa mengubah paradigma mengubah kebiasaan — serta mengapa paradigma itu harus selaras dengan prinsip. Lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/stages-maturity-",
        "slides": [
@@ -1231,6 +1231,22 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "To become the leader of your own life, explore Stephen Covey’s The 7 Habits of Highly Effective People and the principles of personal effectiveness through the videos below.",
         "id": "Untuk menjadi pemimpin atas hidupmu sendiri, jelajahi The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip efektivitas pribadi melalui video-video di bawah ini."
+       }
+      },
+      {
+       "id": "2Piokr05tt4",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch · Lesson film 3",
+        "id": "Tonton · Film pelajaran 3"
+       },
+       "title": {
+        "en": "How Your Lens Shapes Your Results · Film 3",
+        "id": "Bagaimana Cara Pandang Membentuk Hasil · Film 3"
+       },
+       "intro": {
+        "en": "A film to consolidate the stages of maturity and the paradigm principle before you move on. Play it here, with English or Bahasa Indonesia subtitles where YouTube provides them, then continue to Exhibit 1 below.",
+        "id": "Sebuah film untuk merangkum tahapan kematangan diri dan prinsip paradigma sebelum kamu melanjutkan. Putar di sini, dengan teks bahasa Inggris atau Bahasa Indonesia bila YouTube menyediakannya, lalu lanjutkan ke Peraga 1 di bawah."
        }
       }
      ],
