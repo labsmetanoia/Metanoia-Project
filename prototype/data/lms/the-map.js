@@ -1144,7 +1144,14 @@ window.MT_LMS['the-map'] = {
        }
       },
       {
-       "id": "oEOYFOQCcxY",
+       "videos": [
+        {
+         "id": "oEOYFOQCcxY"
+        },
+        {
+         "id": "RgK7ef_dgN0"
+        }
+       ],
        "placement": "after-material:2",
        "kicker": {
         "en": "Watch · Lesson film 2",
@@ -1155,8 +1162,8 @@ window.MT_LMS['the-map'] = {
         "id": "The 7 Habits of Highly Effective People · Film 2"
        },
        "intro": {
-        "en": "To become the leader of your own life, explore Stephen Covey’s The 7 Habits of Highly Effective People and the principles of personal effectiveness through the video below.",
-        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, jelajahi The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip efektivitas pribadi melalui video di bawah ini."
+        "en": "To become the leader of your own life, explore Stephen Covey’s The 7 Habits of Highly Effective People and the principles of personal effectiveness through the videos below.",
+        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, jelajahi The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip efektivitas pribadi melalui video-video di bawah ini."
        }
       }
      ],
