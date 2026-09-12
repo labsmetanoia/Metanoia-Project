@@ -584,18 +584,23 @@
     stage.setAttribute('role', 'region');
     stage.setAttribute('aria-label', 'Slide player');
     stage.style.setProperty('--seg', (100 / N) + '%');
-    var img = document.createElement('img');
-    img.className = 'ss-img'; img.decoding = 'async'; img.alt = '';
-    img.sizes = '(max-width: 720px) 100vw, 900px';
-    stage.appendChild(img);
-    var zl = el('button', 'ss-zone ss-zone-l', '<span class="ss-arrow">' + ICO.chevL + '</span>'); zl.type = 'button';
-    var zr = el('button', 'ss-zone ss-zone-r', '<span class="ss-arrow">' + ICO.chevR + '</span>'); zr.type = 'button';
-    stage.appendChild(zl); stage.appendChild(zr);
-    var spin = el('div', 'lms-vspin'); stage.appendChild(spin);
-    var upnext = el('div', 'lms-vup'); stage.appendChild(upnext);
+    /* The slide sits in its own frame between the title bar and the control
+       bar, so nothing ever covers the slide's words — unlike the video
+       player, whose chrome overlays the picture and rests when idle. */
     var top = el('div', 'lms-vtop');
     var tl = el('div', 'lms-vtitle');
     top.appendChild(tl); stage.appendChild(top);
+    var frame = el('div', 'ss-frame');
+    var img = document.createElement('img');
+    img.className = 'ss-img'; img.decoding = 'async'; img.alt = '';
+    img.sizes = '(max-width: 720px) 100vw, 900px';
+    frame.appendChild(img);
+    var zl = el('button', 'ss-zone ss-zone-l', '<span class="ss-arrow">' + ICO.chevL + '</span>'); zl.type = 'button';
+    var zr = el('button', 'ss-zone ss-zone-r', '<span class="ss-arrow">' + ICO.chevR + '</span>'); zr.type = 'button';
+    frame.appendChild(zl); frame.appendChild(zr);
+    var spin = el('div', 'lms-vspin'); frame.appendChild(spin);
+    var upnext = el('div', 'lms-vup'); frame.appendChild(upnext);
+    stage.appendChild(frame);
 
     var ctl = el('div', 'lms-vctl');
     var seek = el('div', 'lms-vseek ss-seek');
@@ -1277,8 +1282,13 @@
     row.appendChild(el('span', 'lms-vsp')); row.appendChild(bMute); row.appendChild(ccBox); row.appendChild(bFull);
     ctl.appendChild(row); stage.appendChild(ctl);
     wrap.appendChild(stage);
+    /* attribution: the film is streamed from YouTube and can be watched there */
     var ext = el('p', 'yt-ext');
-    ext.innerHTML = '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch on YouTube" data-id="Tonton di YouTube">' + (lang() === 'id' ? 'Tonton di YouTube' : 'Watch on YouTube') + '</span> ↗</a>';
+    var L0 = lang() === 'id';
+    ext.innerHTML = '<span class="yt-src"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .6 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-4.8 31 31 0 0 0-.4-4.8ZM9.8 15.1V8.9l5.9 3.1-5.9 3.1Z"/></svg>' +
+      '<span data-en="Video content sourced from YouTube. It streams here inside the lesson and can also be watched directly on YouTube." data-id="Konten video bersumber dari YouTube. Diputar di sini di dalam pelajaran dan juga bisa ditonton langsung di YouTube.">' +
+      (L0 ? 'Konten video bersumber dari YouTube. Diputar di sini di dalam pelajaran dan juga bisa ditonton langsung di YouTube.' : 'Video content sourced from YouTube. It streams here inside the lesson and can also be watched directly on YouTube.') + '</span></span>' +
+      '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch on YouTube" data-id="Tonton di YouTube">' + (L0 ? 'Tonton di YouTube' : 'Watch on YouTube') + '</span> ↗</a>';
     wrap.appendChild(ext);
 
     /* ── behaviour ── */
@@ -1685,6 +1695,16 @@
     slides: { en: 'Slides', id: 'Salindia' },
     visual: { en: 'Visual', id: 'Visual' }
   };
+  /* open the Modules tab on the host page with one module's accordion expanded */
+  function gotoModule(num) {
+    var tab = document.querySelector('[data-tab="modules"]');
+    if (tab) tab.click();
+    var acc = document.querySelector('.module-accordion[data-module="' + num + '"]');
+    if (!acc) return;
+    var h = acc.querySelector('.module-header');
+    if (h && acc.getAttribute('aria-expanded') !== 'true') h.click();
+    setTimeout(function () { acc.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 120);
+  }
   function syncHostPage() {
     var p = progress();
     document.querySelectorAll('.lesson-card').forEach(function (card) {
@@ -1710,6 +1730,17 @@
         card.dataset.status = 'completed';
         var ic = card.querySelector('.lesson-icon');
         if (ic) ic.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.4 2.4 4.8-5.3"/></svg>';
+        /* a completed lesson stays open for review: the lock that the page
+           ships for later modules gives way to a Review button */
+        var ract = card.querySelector('.lesson-action');
+        if (ract) {
+          var rb = ract.querySelector('.btn-start');
+          if (!rb) { ract.innerHTML = '<button class="btn-start btn-review" data-lesson="' + n + '"></button>'; rb = ract.querySelector('.btn-start'); }
+          rb.classList.add('btn-review');
+          rb.setAttribute('data-lesson', n);
+          rb.setAttribute('data-en', 'Review'); rb.setAttribute('data-id', 'Tinjau ulang');
+          rb.textContent = lang() === 'id' ? 'Tinjau ulang' : 'Review';
+        }
       } else if (canAccess(i) && card.dataset.status === 'locked') {
         card.dataset.status = 'available';
         var act = card.querySelector('.lesson-action');
@@ -1736,6 +1767,34 @@
           st.className = 'module-status available';
           st.setAttribute('data-en', 'Available'); st.setAttribute('data-id', 'Tersedia');
           st.textContent = lang() === 'id' ? 'Tersedia' : 'Available';
+        }
+      }
+      /* the syllabus card for the module follows the same state: a completed
+         module reads Completed with a "Review Module" call to action, an
+         unlocked one Available with "Start Module" */
+      var syl = null;
+      document.querySelectorAll('.syl-card').forEach(function (c) {
+        var sn = c.querySelector('.syl-num');
+        if (sn && parseInt(sn.textContent, 10) === +m.num) syl = c;
+      });
+      if (syl) {
+        var ss = syl.querySelector('.module-status'), cta = syl.querySelector('.syl-foot button');
+        var L = lang() === 'id';
+        function setCta(en, id) {
+          if (!cta) return;
+          cta.disabled = false; cta.className = 'btn-gold syl-cta';
+          cta.setAttribute('data-en', en); cta.setAttribute('data-id', id); cta.textContent = L ? id : en;
+          if (!cta.hasAttribute('data-goto-module')) {   /* the page wires its own buttons; wire the ones we unlock */
+            cta.setAttribute('data-goto-module', String(m.num));
+            cta.addEventListener('click', function () { gotoModule(m.num); });
+          }
+        }
+        if (allDone) {
+          if (ss) { ss.className = 'module-status completed'; ss.setAttribute('data-en', 'Completed'); ss.setAttribute('data-id', 'Selesai'); ss.textContent = L ? 'Selesai' : 'Completed'; }
+          setCta('Review Module →', 'Tinjau Modul →');
+        } else if (anyAccess && ss && ss.classList.contains('locked')) {
+          ss.className = 'module-status available'; ss.setAttribute('data-en', 'Available'); ss.setAttribute('data-id', 'Tersedia'); ss.textContent = L ? 'Tersedia' : 'Available';
+          setCta('Start Module →', 'Mulai Modul →');
         }
       }
     });
