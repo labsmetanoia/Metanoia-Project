@@ -74,6 +74,83 @@ window.MT_LMS['the-map'] = {
        }
       ]
      },
+     "material": {
+      "kicker": {
+       "en": "Read next · 6 slides",
+       "id": "Baca berikutnya · 6 slide"
+      },
+      "title": {
+       "en": "Adaptability and Resilience — Material",
+       "id": "Adaptabilitas dan Ketangguhan — Materi"
+      },
+      "intro": {
+       "en": "Now read the chapter itself. Six slides walk through what adaptability and resilience mean, why they can be developed, and the three drivers you will work with across this module. Move through them at your own pace — the slide text is available under the player.",
+       "id": "Sekarang baca bab materinya. Enam slide memandu apa arti adaptabilitas dan ketangguhan, mengapa keduanya bisa dikembangkan, dan tiga pendorong yang akan kamu pakai sepanjang modul ini. Baca sesuai ritmemu — teks slide tersedia di bawah pemutar."
+      },
+      "base": "../../assets/lms/the-map/slides/adaptability-",
+      "slides": [
+       {
+        "title": {
+         "en": "Chapter: Adaptability and Resilience",
+         "id": "Bab: Adaptabilitas dan Ketangguhan"
+        },
+        "text": {
+         "en": "Navigate change with confidence, turn challenges into opportunities, and grow stronger through uncertainty. Embrace change — stay open, stay curious. Build resilience — turn setbacks into strength. Move forward — create new opportunities. “It's not the strongest who survive, but the most adaptable.” — Charles Darwin",
+         "id": "Hadapi perubahan dengan percaya diri, ubah tantangan menjadi peluang, dan tumbuh lebih kuat di tengah ketidakpastian. Terbuka terhadap perubahan — tetap berpikir terbuka, selalu ingin belajar. Bangun ketangguhan — ubah hambatan menjadi kekuatan. Melangkah lebih jauh — ciptakan peluang baru untuk masa depan. “Bukan yang paling kuat yang bertahan, melainkan yang paling mampu beradaptasi.” — Charles Darwin"
+        }
+       },
+       {
+        "title": {
+         "en": "Adaptability & Resilience: what you will learn",
+         "id": "Adaptabilitas dan Ketangguhan: yang akan Anda pelajari"
+        },
+        "text": {
+         "en": "Build a resilient mindset to thrive through change and turn uncertainty into opportunity. In this course, you will learn how to: 01 Set meaningful learning intentions — clarify what you want to achieve and why it matters, so you can learn with purpose. 02 Develop the behaviors of effective learners — practice mindsets and habits used by high-performing, adaptable individuals. 03 Transform intentions into sustainable behaviors — use the Habit Loop to turn good intentions into consistent actions. 04 Apply the APR Framework — navigate challenging situations with an adaptable and resilient mindset. Apply to real life: use these lessons in your everyday decisions and personal development, whether by using the APR framework to reframe your mindset when engaging with colleagues or by unlearning unhealthy habits. Create lasting change: translate learning into meaningful, lasting change in both your personal and professional life.",
+         "id": "Bangun pola pikir tangguh untuk berkembang di tengah perubahan dan ubah ketidakpastian menjadi peluang. Dalam kursus ini, Anda akan mempelajari cara: 01 Menetapkan tujuan belajar yang bermakna — memahami apa yang ingin Anda capai dan mengapa itu penting, sehingga Anda dapat belajar dengan penuh tujuan. 02 Mengembangkan perilaku pembelajar yang efektif — melatih pola pikir dan kebiasaan yang dimiliki oleh individu berprestasi dan adaptif. 03 Mengubah niat menjadi perilaku berkelanjutan — menggunakan Habit Loop untuk mengubah niat baik menjadi tindakan nyata yang konsisten. 04 Menerapkan Kerangka APR — menghadapi situasi yang menantang dengan pola pikir yang adaptif dan tangguh. Terapkan dalam kehidupan nyata: gunakan setiap pelajaran ini dalam keputusan sehari-hari dan pengembangan diri, baik dengan kerangka APR untuk mengubah pola pikir saat bekerja sama dengan rekan kerja maupun dengan menghilangkan kebiasaan yang tidak sehat. Ciptakan perubahan yang berkelanjutan: ubah pembelajaran menjadi perubahan yang nyata dan bermakna dalam kehidupan pribadi maupun profesional Anda."
+        }
+       },
+       {
+        "title": {
+         "en": "Introduction to Adaptability & Resilience",
+         "id": "Pengantar tentang Adaptabilitas & Resiliensi"
+        },
+        "text": {
+         "en": "We wanted to start The Map journey with the Adaptability and Resilience course because in an ever-evolving world of work, the ability to adapt has become the ultimate superpower. Being ‘ready for the future’ doesn't mean reacting to the next challenge that comes your way, but rather being prepared to meet it when it arrives. There's one tool above all others that can help you do that: adaptability. The purpose of this course is to provide you with a set of tools and suggested mindsets that will help you tackle obstacles and the times of change you may encounter as you navigate your professional and personal journey. “It's not about avoiding change, but about growing through it.”",
+         "id": "Kami ingin memulai perjalanan The Map dengan kursus Adaptabilitas dan Resiliensi karena dalam dunia kerja yang terus berkembang, kemampuan untuk beradaptasi telah menjadi kekuatan super yang paling penting. Menjadi “siap menghadapi masa depan” bukan berarti sekadar bereaksi terhadap tantangan berikutnya yang datang, melainkan mempersiapkan diri untuk menghadapinya ketika tantangan itu tiba. Ada satu kemampuan yang paling dapat membantu Anda melakukannya: adaptabilitas. Tujuan kursus ini adalah membekali Anda dengan serangkaian tools dan mindset yang direkomendasikan untuk membantu Anda menghadapi berbagai hambatan dan perubahan yang mungkin Anda temui sepanjang perjalanan profesional dan personal Anda. “Bukan tentang menghindari perubahan, tetapi tentang bertumbuh melaluinya.”"
+        }
+       },
+       {
+        "title": {
+         "en": "Reflecting on Adaptability and Resilience",
+         "id": "Refleksi tentang Adaptabilitas dan Resiliensi"
+        },
+        "text": {
+         "en": "As a working individual, you can benefit from investing in adaptability — the ability to learn efficiently and apply that learning across a variety of situations. This helps you to grow and thrive in times of change. Learn faster: absorb new knowledge and apply it effectively in real situations. Be more adaptable: adjust to different conditions and challenges. Keep growing: turn change into opportunity to develop further. You will inevitably experience ups and downs when it comes to adaptability — challenges, learning, adaptation, setbacks, growth, a stronger you. That's part of the journey. Every challenge is an opportunity to learn, adapt, and become stronger.",
+         "id": "Sebagai seorang profesional, Anda dapat memperoleh banyak manfaat dengan berinvestasi pada adaptabilitas — kemampuan untuk belajar secara efisien dan menerapkan pembelajaran tersebut di berbagai situasi. Hal ini membantu Anda untuk terus berkembang dan tetap mampu bertumbuh di tengah perubahan. Belajar lebih cepat: menyerap pengetahuan baru dan menerapkannya dalam situasi nyata. Lebih adaptif: menyesuaikan diri di berbagai kondisi dan tantangan. Terus bertumbuh: mengubah perubahan menjadi peluang untuk berkembang lebih jauh. Anda pasti akan mengalami pasang surut dalam perjalanan adaptabilitas ini — tantangan, belajar, adaptasi, kegagalan, bangkit, bertumbuh lebih kuat. Itu adalah bagian dari proses. Setiap tantangan adalah kesempatan untuk belajar, beradaptasi, dan menjadi lebih kuat."
+        }
+       },
+       {
+        "title": {
+         "en": "Your adaptability and resilience journey",
+         "id": "Perjalanan adaptabilitas dan ketangguhan Anda"
+        },
+        "text": {
+         "en": "Every day we have a chance to practice adaptability: to see challenges as opportunities, to keep going when things are hard, and to respond positively to the changes around us. You already do this — you have been learning, growing, and adapting since birth. Adaptability can be developed — research shows that adaptability is not a trait; it is a state, which you can develop through practice. It leads to a better you — in challenging times, being adaptable and resilient reduces stress, improves relationships, helps you make better decisions, and makes your work more rewarding. There is no better time than now to continue building your resilience, like a muscle that gets stronger with time and use.",
+         "id": "Setiap hari, kita memiliki kesempatan untuk melatih kemampuan beradaptasi: melihat tantangan sebagai peluang, terus melangkah ketika keadaan sulit, dan merespons perubahan di sekitar kita secara positif. Anda sudah melakukannya — Anda telah belajar, berkembang, dan beradaptasi sejak lahir. Adaptabilitas dapat dikembangkan — menurut penelitian, adaptabilitas bukanlah sifat bawaan, melainkan suatu kondisi yang dapat dikembangkan melalui latihan. Membawa dampak positif dalam hidup Anda — dalam situasi yang menantang, kemampuan beradaptasi dan ketangguhan membantu mengurangi stres, meningkatkan kualitas hubungan, memungkinkan kita membuat keputusan yang lebih baik, serta menjadikan pekerjaan lebih bermakna. Tidak ada waktu yang lebih baik daripada sekarang untuk terus membangun ketangguhan Anda, layaknya otot yang semakin kuat seiring waktu dan penggunaannya."
+        }
+       },
+       {
+        "title": {
+         "en": "Explore the three major drivers of adaptability and resilience",
+         "id": "Jelajahi tiga pendorong utama adaptabilitas dan ketangguhan"
+        },
+        "text": {
+         "en": "Learn › Grow › Thrive. 01 Active learning — set intentions and develop positive learning habits. Change, uncertainty and pressure make learning difficult, and yet these challenging times are precisely when it is most important to adapt and grow. The best way to maximize your learning, and your adaptability, is to be intentional about what you want to learn and to develop positive habits. Be intentional: turn challenges into learning opportunities. 02 Strengthen personal adaptability and resilience — develop awareness of your mindsets and well-being. Mindsets are more powerful than we once understood and are critical for adaptability; you can re-wire your brain with new, more resilient mindsets. As you develop that awareness, especially during challenging times, you increase your ability to make purposeful, more productive choices that help you thrive and adapt to change. Build inner strength: a more adaptable, resilient you. 03 Reinforce with purpose — link your actions to personal and organizational purpose. Intrinsic motivation is one of the most powerful fuels on your life journeys; a clear sense of personal meaning helps you cut through the noise of the world and channel your energy towards what matters most. Stay purpose-driven: turn meaning into momentum. “Greater adaptability. A more resilient you. A brighter tomorrow.”",
+         "id": "Belajar › Berkembang › Bertumbuh. 01 Pembelajaran aktif — tetapkan tujuan dan kembangkan kebiasaan belajar yang positif. Perubahan, ketidakpastian, dan tekanan membuat proses belajar menjadi lebih menantang, dan justru pada saat-saat inilah kemampuan beradaptasi paling dibutuhkan. Cara terbaik untuk memaksimalkan pembelajaran, dan adaptabilitas Anda, adalah dengan secara sadar menetapkan apa yang ingin Anda pelajari dan mengembangkan kebiasaan belajar yang positif. Jadilah tujuan yang jelas: ubah tantangan menjadi peluang belajar. 02 Perkuat adaptabilitas dan ketangguhan pribadi — kembangkan kesadaran terhadap pola pikir dan kesejahteraan diri. Pola pikir lebih berpengaruh daripada yang sering kita kira dan sangat penting untuk adaptabilitas; Anda dapat melatih cara berpikir dengan perspektif baru dan lebih tangguh. Dengan meningkatkan kesadaran itu, terutama di masa-masa sulit, Anda akan lebih mampu membuat pilihan yang bermakna, lebih produktif, dan dapat bertahan serta beradaptasi terhadap perubahan. Bangun kekuatan dari dalam: jadi pribadi yang lebih adaptif dan tangguh. 03 Perkuat dengan tujuan yang bermakna — hubungkan tindakan Anda dengan tujuan pribadi dan tujuan organisasi. Motivasi intrinsik adalah salah satu sumber energi paling kuat dalam perjalanan hidup Anda; makna yang jelas membantu Anda menyaring hiruk-pikuk dunia dan mengarahkan energi pada hal yang benar-benar penting. Tetap berorientasi pada tujuan: ubah makna menjadi momentum. “Adaptabilitas yang lebih besar. Pribadi yang lebih tangguh. Masa depan yang lebih cerah.”"
+        }
+       }
+      ]
+     },
      "videos": [
       {
        "src": "../../assets/lms/the-map/adaptability-1-brand.mp4",

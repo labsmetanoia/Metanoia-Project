@@ -706,3 +706,48 @@ body.lms-lock{overflow:hidden}
 .lms-vp-outro h3{margin-top:2px}
 .lms-vp-outro p{margin:0 0 10px;line-height:1.7}
 .lms-vp-outro p:last-child{margin-bottom:0}
+
+/* ═══ Slide material player — PowerPoint-style deck in the video player's skin ═══ */
+.lms-sp-title{font-family:var(--serif,Georgia,serif);font-size:1.28rem;font-weight:600;color:#F0EDE8;margin:2px 0 8px;line-height:1.25}
+:root[data-theme="light"] .lms-sp-title{color:#1A1F28}
+.lms-ss .ss-img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;background:#000;
+  transition:opacity .28s ease}
+.lms-ss.loading .ss-img{opacity:.35}
+.lms-ss.loading .lms-vspin{opacity:1;animation:lmsSpin .9s linear infinite}
+/* tap zones: left third back, right two-thirds forward — arrows appear on hover */
+.lms-ss .ss-zone{position:absolute;top:0;bottom:70px;border:none;background:none;cursor:pointer;z-index:2;color:#fff;
+  display:flex;align-items:center;padding:0 14px;opacity:0;transition:opacity .2s;-webkit-tap-highlight-color:transparent}
+.lms-ss .ss-zone-l{left:0;width:34%;justify-content:flex-start}
+.lms-ss .ss-zone-r{right:0;width:66%;justify-content:flex-end}
+.lms-ss .ss-zone .ss-arrow{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:rgba(10,16,28,.72);border:1px solid rgba(201,168,76,.45);box-shadow:0 8px 24px rgba(0,0,0,.4);transition:transform .15s}
+.lms-ss .ss-zone .ss-arrow svg{width:20px;height:20px}
+.lms-ss .ss-zone:hover,.lms-ss .ss-zone:focus-visible{opacity:1}
+.lms-ss .ss-zone:hover .ss-arrow{transform:scale(1.06)}
+.lms-ss .ss-zone:disabled{opacity:0!important;cursor:default}
+.lms-ss.idle .ss-zone{opacity:0}
+.lms-ss.idle{cursor:default}
+@media(hover:none){.lms-ss .ss-zone{opacity:0}}
+/* the seek bar becomes a segmented slide scrubber */
+.lms-ss .ss-seek::after{content:'';position:absolute;left:0;right:0;top:9px;height:4px;pointer-events:none;
+  background:repeating-linear-gradient(90deg,transparent 0,transparent calc(var(--seg,16.66%) - 2px),rgba(0,0,0,.6) calc(var(--seg,16.66%) - 2px),rgba(0,0,0,.6) var(--seg,16.66%))}
+.lms-ss .ss-seek .vs-fill{transition:width .3s ease}
+.lms-ss .ss-seek .vs-knob{transition:left .3s ease,transform .15s}
+.lms-ss .vb-text span{font-size:11px;font-weight:800;letter-spacing:.06em}
+/* the deck's words */
+.lms-ss-notes{margin:14px 0 0;animation:lmsFade .2s ease}
+.lms-ss-notes b{display:block;font-size:14.5px;line-height:1.35;color:#F0EDE8;margin:0 0 6px}
+.lms-ss-notes p{font-size:13.5px;line-height:1.72;margin:0;color:rgba(240,237,232,.8)}
+:root[data-theme="light"] .lms-ss-notes b{color:#1A1F28}
+:root[data-theme="light"] .lms-ss-notes p{color:rgba(26,31,40,.78)}
+/* six-up thumbnail strip */
+.lms-slist{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.lms-slist .lms-vitem{padding:6px;gap:7px}
+.lms-slist .vi-tx b{font-size:11.5px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lms-slist .vi-tx span{font-size:10.5px}
+.lms-slist .lms-vitem .vi-num{font-size:10px;padding:1px 6px}
+@media(max-width:1000px){.lms-slist{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){
+  .lms-slist .lms-vitem{flex:0 0 46%}
+  .lms-ss .ss-zone{bottom:62px}
+}
