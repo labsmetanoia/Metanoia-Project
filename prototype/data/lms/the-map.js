@@ -1040,8 +1040,8 @@ window.MT_LMS['the-map'] = {
        "id": "Fondasi Kepemimpinan Diri — Materi"
       },
       "intro": {
-       "en": "Start with the deck. Two slides frame what self-leadership is for — effectiveness, not efficiency — and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then continue to Exhibit 1 below.",
-       "id": "Mulai dari deknya. Dua slide membingkai untuk apa kepemimpinan diri — efektivitas, bukan efisiensi — dan empat langkah yang dibangun modul ini: kenali diri, kembangkan pola pikir, ambil tindakan nyata, ciptakan dampak. Lalu lanjutkan ke Peraga 1 di bawah."
+       "en": "Start with the deck. Two slides frame what self-leadership is for — effectiveness, not efficiency — and the four moves this module builds: know yourself, develop your mindset, take intentional action, create lasting impact. Then watch the film that follows.",
+       "id": "Mulai dari deknya. Dua slide membingkai untuk apa kepemimpinan diri — efektivitas, bukan efisiensi — dan empat langkah yang dibangun modul ini: kenali diri, kembangkan pola pikir, ambil tindakan nyata, ciptakan dampak. Lalu tonton film yang mengikutinya."
       },
       "base": "../../assets/lms/the-map/slides/self-leadership-",
       "slides": [
@@ -1066,6 +1066,22 @@ window.MT_LMS['the-map'] = {
         }
        }
       ]
+     },
+     "youtubePlacement": "after-material",
+     "youtube": {
+      "id": "6RgN7bJgKwQ",
+      "kicker": {
+       "en": "Watch · Lesson film",
+       "id": "Tonton · Film pelajaran"
+      },
+      "title": {
+       "en": "The 7 Habits of Highly Effective People",
+       "id": "The 7 Habits of Highly Effective People"
+      },
+      "intro": {
+       "en": "To become the leader of your own life, start by exploring Stephen Covey’s 7 Habits of Highly Effective People and the principles behind personal effectiveness through the video below.",
+       "id": "Untuk menjadi pemimpin atas hidupmu sendiri, mulailah dengan menjelajahi 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip di balik efektivitas pribadi melalui video di bawah ini."
+      }
      },
      "sections": [
       {

@@ -47,7 +47,12 @@ Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
 
 `youtube: { id, kicker{en,id}, title{en,id}, intro{en,id} }` renders a
 YouTube video in the lesson player's skin, after the reading blocks and
-before the knowledge check (1.3 Foundational Mindset does). A poster
+before the knowledge check (1.3 Foundational Mindset does). Set
+`youtubePlacement: "after-material"` (or `"after-material:N"`) to play it
+straight after the slide material instead, before the lesson's diagrams
+and reading blocks (2.1 How Your Lens Shapes Your Results does: the
+deck's end card then points at the film, and the film's at the lesson
+below). A poster
 facade means nothing from YouTube loads until the member presses play;
 the embed then runs with its own controls off and the player's controls
 drive the IFrame API (play, scrub, ±10 s, mute, fullscreen, keyboard).
