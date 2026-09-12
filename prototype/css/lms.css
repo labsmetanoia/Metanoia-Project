@@ -751,3 +751,23 @@ body.lms-lock{overflow:hidden}
   .lms-slist .lms-vitem{flex:0 0 46%}
   .lms-ss .ss-zone{bottom:62px}
 }
+
+/* ═══ YouTube lesson film — the IFrame API in the video player's skin ═══ */
+.lms-yt .yt-host{position:absolute;inset:0;background:#000}
+.lms-yt .yt-host iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.lms-yt .yt-facade{position:absolute;inset:0;background:#000;z-index:1;cursor:pointer}
+.lms-yt .yt-facade img{width:100%;height:100%;object-fit:cover;display:block;opacity:.92}
+.lms-yt.started .yt-facade{display:none}
+.lms-yt .lms-vbig{z-index:3}
+.lms-yt.started:not(.paused) .lms-vbig{opacity:0;pointer-events:none;transform:scale(.8)}
+.lms-yt.started:not(.loaded) .lms-vspin,.lms-yt.started.buffering .lms-vspin{opacity:1;animation:lmsSpin .9s linear infinite}
+.lms-yt.error .lms-vbig,.lms-yt.error .lms-vctl{display:none}
+.lms-yt .yt-err{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;
+  text-align:center;padding:24px;background:rgba(5,10,18,.92);color:#fff;font-size:14px}
+.lms-yt .yt-err a,.yt-ext a{color:var(--gold-bright,#F0D878);font-weight:800;text-decoration:none}
+.yt-ext{margin:10px 0 0;font-size:12px;text-align:right}
+.yt-ext a{color:rgba(240,237,232,.6);font-weight:700}
+.yt-ext a:hover{color:var(--gold-bright,#F0D878)}
+:root[data-theme="light"] .yt-ext a{color:rgba(26,31,40,.6)}
+.lms-vcc-menu button.na{opacity:.45}
+.lms-vcc-menu button.na:not(.on)::after{content:'—';font-weight:400;opacity:.7}

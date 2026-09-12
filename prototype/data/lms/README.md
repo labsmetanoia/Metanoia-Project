@@ -43,6 +43,18 @@ Each file assigns `window.MT_LMS['<slug>']` with:
 
 Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
 
+### YouTube film (`youtube{}`)
+
+`youtube: { id, kicker{en,id}, title{en,id}, intro{en,id} }` renders a
+YouTube video in the lesson player's skin, after the reading blocks and
+before the knowledge check (1.3 Foundational Mindset does). A poster
+facade means nothing from YouTube loads until the member presses play;
+the embed then runs with its own controls off and the player's controls
+drive the IFrame API (play, scrub, ±10 s, mute, fullscreen, keyboard).
+Subtitles use the video's own YouTube caption tracks — the CC menu marks
+languages the video does not have — and follow the site language unless
+the member chose otherwise.
+
 ### Slide material (`material{}`)
 
 Any lesson can carry a designed slide deck, shown as a PowerPoint-style

@@ -1175,6 +1175,233 @@
     host.appendChild(box);
   }
 
+  /* ── YouTube lesson film: the YouTube IFrame API wrapped in the same player
+     skin as the lesson videos. A poster facade means nothing from YouTube
+     loads until the member presses play; the embed runs with its own
+     controls off and every control here drives the API. Subtitles come from
+     the video's YouTube caption tracks, in the languages it actually has. ── */
+  var ytApi = null;
+  function loadYouTubeApi() {
+    if (window.YT && window.YT.Player) return Promise.resolve(window.YT);
+    if (ytApi) return ytApi;
+    ytApi = new Promise(function (res, rej) {
+      var prev = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = function () { if (prev) { try { prev(); } catch (e) {} } res(window.YT); };
+      var s = document.createElement('script');
+      s.src = 'https://www.youtube.com/iframe_api'; s.async = true;
+      s.onerror = function () { ytApi = null; rej(new Error('YouTube API unavailable')); };
+      document.head.appendChild(s);
+      setTimeout(function () { if (!(window.YT && window.YT.Player)) { ytApi = null; rej(new Error('YouTube API timeout')); } }, 12000);
+    });
+    return ytApi;
+  }
+  function renderYouTube(l, host) {
+    var y = l.youtube;
+    if (!y || !y.id) return;
+    var P = null, ready = false, playing = false, ccOn = true, ccLang = lang(), tracks = null, ticker = 0, hideT = 0, pending = [];
+    var wrap = el('div', 'lms-vp lms-ytp');
+    var lead = el('div', 'lms-vp-lead');
+    lead.appendChild(bi('span', 'lms-kicker', y.kicker || { en: 'Watch · Lesson film', id: 'Tonton · Film pelajaran' }));
+    if (y.title) lead.appendChild(bi('h3', 'lms-sp-title', y.title));
+    if (y.intro) lead.appendChild(bi('p', 'lms-vp-intro', y.intro));
+    wrap.appendChild(lead);
+
+    var stage = el('div', 'lms-vs lms-yt');
+    stage.setAttribute('tabindex', '0'); stage.setAttribute('role', 'region'); stage.setAttribute('aria-label', 'Video player');
+    var hostEl = el('div', 'yt-host'); var mount = el('div'); hostEl.appendChild(mount); stage.appendChild(hostEl);
+    /* poster facade: YouTube's own thumbnail, with the product still as a fallback */
+    var facade = el('div', 'yt-facade');
+    var poster = document.createElement('img'); poster.alt = ''; poster.decoding = 'async'; poster.loading = 'lazy';
+    var candidates = ['https://i.ytimg.com/vi/' + y.id + '/maxresdefault.jpg', 'https://i.ytimg.com/vi/' + y.id + '/hqdefault.jpg', REG.media.poster];
+    var ci = 0; poster.src = candidates[0];
+    poster.onload = function () { if (poster.naturalWidth <= 120 && ci < candidates.length - 1) { poster.src = candidates[++ci]; } };   /* YouTube's grey 120×90 placeholder */
+    poster.onerror = function () { if (ci < candidates.length - 1) poster.src = candidates[++ci]; };
+    facade.appendChild(poster); stage.appendChild(facade);
+    var big = el('button', 'lms-vbig', ICO.play); big.setAttribute('aria-label', 'Play'); stage.appendChild(big);
+    var spin = el('div', 'lms-vspin'); stage.appendChild(spin);
+    var upnext = el('div', 'lms-vup'); stage.appendChild(upnext);
+    var top = el('div', 'lms-vtop'); var tl = bi('div', 'lms-vtitle', y.title || { en: 'Lesson film', id: 'Film pelajaran' }); top.appendChild(tl); stage.appendChild(top);
+
+    var ctl = el('div', 'lms-vctl');
+    var seek = el('div', 'lms-vseek'); seek.setAttribute('role', 'slider'); seek.setAttribute('aria-label', 'Seek'); seek.setAttribute('tabindex', '0');
+    seek.setAttribute('aria-valuemin', '0'); seek.setAttribute('aria-valuemax', '100'); seek.setAttribute('aria-valuenow', '0');
+    var buf = el('i', 'vs-buf'), fill = el('i', 'vs-fill'), knob = el('i', 'vs-knob'), tip = el('span', 'vs-tip', '0:00');
+    seek.appendChild(buf); seek.appendChild(fill); seek.appendChild(knob); seek.appendChild(tip); ctl.appendChild(seek);
+    var row = el('div', 'lms-vrow');
+    var bPlay = el('button', 'vb', ICO.play); bPlay.setAttribute('aria-label', 'Play');
+    var bBack = el('button', 'vb', ICO.back10); bBack.setAttribute('aria-label', 'Back 10 seconds');
+    var bFwd = el('button', 'vb', ICO.fwd10); bFwd.setAttribute('aria-label', 'Forward 10 seconds');
+    var time = el('span', 'lms-vtime', '<b>0:00</b> / ' + (y.dur || '0:00'));
+    var bMute = el('button', 'vb vb-mute', ICO.vol); bMute.setAttribute('aria-label', 'Mute');
+    var ccBox = el('div', 'lms-vcc');
+    var bCC = el('button', 'vb vb-cc on', ICO.cc + '<span>CC</span>'); bCC.setAttribute('aria-label', 'Subtitles');
+    var ccMenu = el('div', 'lms-vcc-menu');
+    [['en', 'English'], ['id', 'Bahasa Indonesia'], ['off', null]].forEach(function (o) {
+      var b = el('button');
+      if (o[0] === 'off') { b.setAttribute('data-en', 'Off'); b.setAttribute('data-id', 'Nonaktif'); b.textContent = lang() === 'id' ? 'Nonaktif' : 'Off'; }
+      else b.textContent = o[1];
+      b.setAttribute('data-cc', o[0]);
+      b.addEventListener('click', function (e) { e.stopPropagation(); setCC(o[0], true); ccBox.classList.remove('open'); });
+      ccMenu.appendChild(b);
+    });
+    ccBox.appendChild(bCC); ccBox.appendChild(ccMenu);
+    var bFull = el('button', 'vb', ICO.full); bFull.setAttribute('aria-label', 'Fullscreen');
+    if (!(document.fullscreenEnabled || document.webkitFullscreenEnabled)) bFull.hidden = true;   /* iPhone: no element fullscreen */
+    row.appendChild(bPlay); row.appendChild(bBack); row.appendChild(bFwd); row.appendChild(time);
+    row.appendChild(el('span', 'lms-vsp')); row.appendChild(bMute); row.appendChild(ccBox); row.appendChild(bFull);
+    ctl.appendChild(row); stage.appendChild(ctl);
+    wrap.appendChild(stage);
+    var ext = el('p', 'yt-ext');
+    ext.innerHTML = '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch on YouTube" data-id="Tonton di YouTube">' + (lang() === 'id' ? 'Tonton di YouTube' : 'Watch on YouTube') + '</span> ↗</a>';
+    wrap.appendChild(ext);
+    host.appendChild(wrap);
+
+    /* ── behaviour ── */
+    function cur() { try { return P.getCurrentTime() || 0; } catch (e) { return 0; } }
+    function dur() { try { return P.getDuration() || 0; } catch (e) { return 0; } }
+    function tick() {
+      if (!P || !ready) return;
+      var d = dur(), t = cur(), p = d ? t / d * 100 : 0;
+      fill.style.width = p + '%'; knob.style.left = p + '%';
+      seek.setAttribute('aria-valuenow', String(Math.round(p)));
+      time.innerHTML = '<b>' + fmtTime(t) + '</b> / ' + fmtTime(d);
+      try { buf.style.width = (P.getVideoLoadedFraction() * 100) + '%'; } catch (e) {}
+    }
+    function setPlaying(on) {
+      playing = on;
+      stage.classList.toggle('playing', on); stage.classList.toggle('paused', !on && !!P);
+      bPlay.innerHTML = on ? ICO.pause : ICO.play; bPlay.setAttribute('aria-label', on ? 'Pause' : 'Play'); big.setAttribute('aria-label', on ? 'Pause' : 'Play');
+      clearInterval(ticker);
+      if (on) { ticker = setInterval(tick, 250); armHide(); } else { tick(); showCtl(); }
+    }
+    function showCtl() { stage.classList.remove('idle'); }
+    function armHide() { clearTimeout(hideT); hideT = setTimeout(function () { if (playing && !ccBox.classList.contains('open')) stage.classList.add('idle'); }, 2600); }
+    function fail() {
+      stage.classList.add('error'); stage.classList.remove('started');
+      var e = el('div', 'yt-err');
+      e.appendChild(bi('b', null, { en: 'This video could not be loaded here.', id: 'Video ini tidak bisa dimuat di sini.' }));
+      e.innerHTML += '<a href="https://www.youtube.com/watch?v=' + y.id + '" target="_blank" rel="noopener"><span data-en="Watch it on YouTube" data-id="Tonton di YouTube">' + (lang() === 'id' ? 'Tonton di YouTube' : 'Watch it on YouTube') + '</span> ↗</a>';
+      stage.appendChild(e);
+    }
+    function readTracks() {
+      try { tracks = P.getOption('captions', 'tracklist') || []; } catch (e) { tracks = null; }
+      paintCC();
+    }
+    function paintCC() {
+      bCC.classList.toggle('on', ccOn);
+      ccMenu.querySelectorAll('button').forEach(function (b) {
+        var code = b.getAttribute('data-cc');
+        b.classList.toggle('on', code === (ccOn ? ccLang : 'off'));
+        if (tracks && code !== 'off') b.classList.toggle('na', !tracks.some(function (t) { return (t.languageCode || '').split('-')[0] === code; }));
+      });
+    }
+    function applyCC() {
+      if (!P || !ready) { paintCC(); return; }
+      try {
+        if (ccOn) { P.loadModule('captions'); P.setOption('captions', 'track', { languageCode: ccLang }); }
+        else P.unloadModule('captions');
+      } catch (e) {}
+      paintCC();
+    }
+    function setCC(mode, remember) {
+      ccOn = mode !== 'off'; if (ccOn) ccLang = mode;
+      applyCC();
+      if (remember) { try { localStorage.setItem('mt-lms-cc', ccOn ? ccLang : 'off'); } catch (e) {} }
+    }
+    function finished() {
+      var L = lang() === 'id';
+      upnext.innerHTML = '<span class="vu-k" data-en="Film watched" data-id="Film selesai">' + (L ? 'Film selesai' : 'Film watched') + '</span>' +
+        '<b data-en="Continue to the knowledge check below" data-id="Lanjutkan ke cek pemahaman di bawah">' + (L ? 'Lanjutkan ke cek pemahaman di bawah' : 'Continue to the knowledge check below') + '</b>' +
+        '<button class="vu-go" type="button">' + ICO.check + '<span data-en="Go to the check" data-id="Ke cek pemahaman">' + (L ? 'Ke cek pemahaman' : 'Go to the check') + '</span></button>' +
+        '<button class="vu-x" type="button" data-en="Stay here" data-id="Tetap di sini">' + (L ? 'Tetap di sini' : 'Stay here') + '</button>';
+      upnext.classList.add('show');
+      upnext.querySelector('.vu-go').addEventListener('click', function () { upnext.classList.remove('show'); var nx = wrap.nextElementSibling; if (nx) nx.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+      upnext.querySelector('.vu-x').addEventListener('click', function () { upnext.classList.remove('show'); });
+    }
+    function ensure(cb) {
+      if (P && ready) return cb();
+      if (P) { pending.push(cb); return; }
+      pending.push(cb);
+      stage.classList.add('started');
+      loadYouTubeApi().then(function (YT) {
+        P = new YT.Player(mount, {
+          host: 'https://www.youtube-nocookie.com', videoId: y.id, width: '100%', height: '100%',
+          playerVars: { autoplay: 1, controls: 0, rel: 0, modestbranding: 1, playsinline: 1, iv_load_policy: 3, cc_load_policy: ccOn ? 1 : 0, cc_lang_pref: ccLang, hl: lang(), origin: location.origin, enablejsapi: 1 },
+          events: {
+            onReady: function () {
+              ready = true; stage.classList.add('loaded');
+              try { var vd = P.getVideoData && P.getVideoData(); if (vd && vd.title) { tl.textContent = vd.title; tl.removeAttribute('data-en'); tl.removeAttribute('data-id'); } } catch (e) {}
+              applyCC(); tick();
+              var q = pending; pending = []; q.forEach(function (fn) { fn(); });
+            },
+            onStateChange: function (e) {
+              var S = YT.PlayerState;
+              if (e.data === S.PLAYING) { setPlaying(true); stage.classList.remove('buffering'); upnext.classList.remove('show'); }
+              else if (e.data === S.BUFFERING) stage.classList.add('buffering');
+              else if (e.data === S.PAUSED) setPlaying(false);
+              else if (e.data === S.ENDED) { setPlaying(false); stage.classList.remove('idle'); finished(); }
+            },
+            onApiChange: readTracks,
+            onError: fail
+          }
+        });
+      }).catch(fail);
+    }
+    function toggle() { ensure(function () { if (playing) P.pauseVideo(); else P.playVideo(); }); }
+    big.addEventListener('click', toggle);
+    facade.addEventListener('click', toggle);
+    bPlay.addEventListener('click', toggle);
+    bBack.addEventListener('click', function () { if (P && ready) { P.seekTo(Math.max(0, cur() - 10), true); tick(); } });
+    bFwd.addEventListener('click', function () { if (P && ready) { P.seekTo(Math.min(dur(), cur() + 10), true); tick(); } });
+    bMute.addEventListener('click', function () {
+      if (!(P && ready)) return;
+      var m = P.isMuted(); if (m) P.unMute(); else P.mute();
+      bMute.innerHTML = m ? ICO.vol : ICO.mute; bMute.classList.toggle('on', !m);
+    });
+    bCC.addEventListener('click', function (e) { e.stopPropagation(); ccBox.classList.toggle('open'); showCtl(); });
+    stage.addEventListener('click', function (e) { if (!ccBox.contains(e.target)) ccBox.classList.remove('open'); });
+    bFull.addEventListener('click', function () {
+      var fs = document.fullscreenElement || document.webkitFullscreenElement;
+      if (fs) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
+      if (stage.requestFullscreen) stage.requestFullscreen().catch(function () {});
+      else if (stage.webkitRequestFullscreen) stage.webkitRequestFullscreen();
+    });
+    function onFs() { var on = (document.fullscreenElement || document.webkitFullscreenElement) === stage; stage.classList.toggle('fs', on); bFull.innerHTML = on ? ICO.unfull : ICO.full; }
+    document.addEventListener('fullscreenchange', onFs); document.addEventListener('webkitfullscreenchange', onFs);
+    ['mousemove', 'touchstart', 'keydown'].forEach(function (ev) { stage.addEventListener(ev, function () { showCtl(); armHide(); }, { passive: true }); });
+    stage.addEventListener('mouseleave', function () { if (playing) armHide(); });
+    var scrubbing = false;
+    function seekAt(clientX, commit) {
+      var r = seek.getBoundingClientRect(), p = Math.max(0, Math.min(1, (clientX - r.left) / r.width)), d = dur();
+      tip.textContent = fmtTime(p * d); tip.style.left = (p * 100) + '%';
+      if (commit && P && ready) { P.seekTo(p * d, true); tick(); }
+    }
+    seek.addEventListener('pointerdown', function (e) { scrubbing = true; seek.setPointerCapture(e.pointerId); seek.classList.add('drag'); seekAt(e.clientX, true); });
+    seek.addEventListener('pointermove', function (e) { seekAt(e.clientX, scrubbing); });
+    seek.addEventListener('pointerup', function (e) { scrubbing = false; seek.classList.remove('drag'); seekAt(e.clientX, true); });
+    seek.addEventListener('pointercancel', function () { scrubbing = false; seek.classList.remove('drag'); });
+    seek.addEventListener('keydown', function (e) {
+      if (!(P && ready)) return;
+      if (e.key === 'ArrowLeft') { P.seekTo(Math.max(0, cur() - 5), true); tick(); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { P.seekTo(Math.min(dur(), cur() + 5), true); tick(); e.preventDefault(); }
+    });
+    stage.addEventListener('keydown', function (e) {
+      if (e.target !== stage) return;
+      if (e.key === ' ' || e.key === 'k') { toggle(); e.preventDefault(); }
+      else if (e.key === 'ArrowLeft' || e.key === 'j') { bBack.click(); e.preventDefault(); }
+      else if (e.key === 'ArrowRight' || e.key === 'l') { bFwd.click(); e.preventDefault(); }
+      else if (e.key === 'c') { setCC(ccOn ? 'off' : lang(), true); }
+      else if (e.key === 'f') { bFull.click(); }
+      else if (e.key === 'm') { bMute.click(); }
+    });
+    /* subtitle language follows the page language unless the member chose otherwise */
+    var pref = null; try { pref = localStorage.getItem('mt-lms-cc'); } catch (e) {}
+    if (pref === 'off') ccOn = false; else if (pref === 'en' || pref === 'id') ccLang = pref;
+    if ('MutationObserver' in window) new MutationObserver(function () { if (!pref) { ccLang = lang(); applyCC(); } }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    paintCC();
+    return wrap;
+  }
+
   function renderOneCheck(check, host) {
     var box = el('div', 'lms-check');
     box.appendChild(bi('h3', null, { en: 'Knowledge check', id: 'Cek pemahaman' }));
@@ -1305,6 +1532,7 @@
     renderMistakes(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
+    if (l.youtube) renderYouTube(l, innerEl);   /* a YouTube lesson film in the player skin */
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
