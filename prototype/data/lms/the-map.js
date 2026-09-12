@@ -1078,8 +1078,8 @@ window.MT_LMS['the-map'] = {
         "id": "Akar dari Efektivitas — Materi"
        },
        "intro": {
-        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts. Then continue to Exhibit 1 below.",
-        "id": "Setelah film, empat slide menuju ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas. Lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the film, four slides go to the root: effectiveness grows from the inside out, character gives it deep roots, principles matter more than methods, and lasting results come from care rather than shortcuts. Then watch the second film that follows.",
+        "id": "Setelah film, empat slide menuju ke akarnya: efektivitas tumbuh dari dalam ke luar, karakter memberinya akar yang dalam, prinsip lebih penting daripada metode, dan hasil yang bertahan lahir dari perawatan, bukan jalan pintas. Lalu tonton film kedua yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/root-effectiveness-",
        "slides": [
@@ -1126,22 +1126,40 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
-     "youtubePlacement": "after-material:1",
-     "youtube": {
-      "id": "6RgN7bJgKwQ",
-      "kicker": {
-       "en": "Watch · Lesson film",
-       "id": "Tonton · Film pelajaran"
+     "youtube": [
+      {
+       "id": "6RgN7bJgKwQ",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch · Lesson film",
+        "id": "Tonton · Film pelajaran"
+       },
+       "title": {
+        "en": "The 7 Habits of Highly Effective People",
+        "id": "The 7 Habits of Highly Effective People"
+       },
+       "intro": {
+        "en": "To become the leader of your own life, start by exploring Stephen Covey’s 7 Habits of Highly Effective People and the principles behind personal effectiveness through the video below.",
+        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, mulailah dengan menjelajahi 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip di balik efektivitas pribadi melalui video di bawah ini."
+       }
       },
-      "title": {
-       "en": "The 7 Habits of Highly Effective People",
-       "id": "The 7 Habits of Highly Effective People"
-      },
-      "intro": {
-       "en": "To become the leader of your own life, start by exploring Stephen Covey’s 7 Habits of Highly Effective People and the principles behind personal effectiveness through the video below.",
-       "id": "Untuk menjadi pemimpin atas hidupmu sendiri, mulailah dengan menjelajahi 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip di balik efektivitas pribadi melalui video di bawah ini."
+      {
+       "id": "oEOYFOQCcxY",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch · Lesson film 2",
+        "id": "Tonton · Film pelajaran 2"
+       },
+       "title": {
+        "en": "The 7 Habits of Highly Effective People · Film 2",
+        "id": "The 7 Habits of Highly Effective People · Film 2"
+       },
+       "intro": {
+        "en": "To become the leader of your own life, explore Stephen Covey’s The 7 Habits of Highly Effective People and the principles of personal effectiveness through the video below.",
+        "id": "Untuk menjadi pemimpin atas hidupmu sendiri, jelajahi The 7 Habits of Highly Effective People dari Stephen Covey dan prinsip-prinsip efektivitas pribadi melalui video di bawah ini."
+       }
       }
-     },
+     ],
      "sections": [
       {
        "icon": "book",

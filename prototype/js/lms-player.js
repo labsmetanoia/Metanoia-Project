@@ -1200,10 +1200,10 @@
     return ytApi;
   }
   function renderYouTube(l, host, opts) {
-    var y = l.youtube;
-    if (!y || !y.id) return;
     opts = opts || {};
-    var nextIs = opts.next || 'check';   /* what follows the film: 'check' (default), 'lesson' or 'material' */
+    var y = opts.block || l.youtube;
+    if (!y || !y.id) return;
+    var nextIs = opts.next || 'check';   /* what follows the film: 'check' (default), 'lesson', 'material' or 'film' */
     var P = null, ready = false, playing = false, ccOn = true, ccLang = lang(), tracks = null, ticker = 0, hideT = 0, pending = [];
     var wrap = el('div', 'lms-vp lms-ytp');
     var lead = el('div', 'lms-vp-lead');
@@ -1363,10 +1363,14 @@
     }
     function finished() {
       var L = lang() === 'id';
-      var nextEn = nextIs === 'material' ? 'Continue to the next slides below' : nextIs === 'lesson' ? 'Continue with the lesson below' : 'Continue to the knowledge check below';
-      var nextId = nextIs === 'material' ? 'Lanjutkan ke slide berikutnya di bawah' : nextIs === 'lesson' ? 'Lanjutkan pelajaran di bawah' : 'Lanjutkan ke cek pemahaman di bawah';
-      var goEn = nextIs === 'material' ? 'Go to the slides' : nextIs === 'lesson' ? 'Continue the lesson' : 'Go to the check';
-      var goId = nextIs === 'material' ? 'Ke slide' : nextIs === 'lesson' ? 'Lanjutkan pelajaran' : 'Ke cek pemahaman';
+      var HANDOFF = {
+        material: ['Continue to the next slides below', 'Lanjutkan ke slide berikutnya di bawah', 'Go to the slides', 'Ke slide'],
+        lesson: ['Continue with the lesson below', 'Lanjutkan pelajaran di bawah', 'Continue the lesson', 'Lanjutkan pelajaran'],
+        film: ['Continue to the next film below', 'Lanjutkan ke film berikutnya di bawah', 'Go to the next film', 'Ke film berikutnya'],
+        check: ['Continue to the knowledge check below', 'Lanjutkan ke cek pemahaman di bawah', 'Go to the check', 'Ke cek pemahaman']
+      };
+      var T = HANDOFF[nextIs] || HANDOFF.check;
+      var nextEn = T[0], nextId = T[1], goEn = T[2], goId = T[3];
       upnext.innerHTML = '<span class="vu-k" data-en="Film watched" data-id="Film selesai">' + (L ? 'Film selesai' : 'Film watched') + '</span>' +
         '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (L ? nextId : nextEn) + '</b>' +
         '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
@@ -1573,15 +1577,25 @@
     var decks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
     var vpm = /^after-material(?::(\d+))?$/.exec(l.videosPlacement || '');
     var afterN = vpm ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
-    /* The YouTube film likewise sits before the knowledge check by default;
-       `youtubePlacement: 'after-material[:N]'` plays it straight after a deck. */
-    var ypm = /^after-material(?::(\d+))?$/.exec(l.youtubePlacement || '');
-    var ytAfterN = ypm && l.youtube ? Math.min(decks.length, ypm[1] ? +ypm[1] : decks.length) : 0;
+    /* YouTube films (`youtube`: one block or an array) likewise sit before
+       the knowledge check by default; a block's `placement: 'after-material[:N]'`
+       (or the lesson-level `youtubePlacement` for a single block) plays it
+       straight after a deck, so a lesson can run deck → film → deck → film. */
+    var films = Array.isArray(l.youtube) ? l.youtube : (l.youtube ? [l.youtube] : []);
+    var filmsAfter = {};   /* deck index (1-based) → films placed after it */
+    var filmsLate = [];    /* films before the knowledge check */
+    films.forEach(function (y) {
+      var ypm = /^after-material(?::(\d+))?$/.exec(y.placement || l.youtubePlacement || '');
+      var n = ypm && decks.length ? Math.min(decks.length, ypm[1] ? +ypm[1] : decks.length) : 0;
+      if (n) (filmsAfter[n] = filmsAfter[n] || []).push(y); else filmsLate.push(y);
+    });
     if (!afterN) renderIntroVideos(l, innerEl);
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
       if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'check' });
-      if (ytAfterN === k + 1) renderYouTube(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'lesson' });
+      (filmsAfter[k + 1] || []).forEach(function (y, j, arr) {
+        renderYouTube(l, innerEl, { block: y, next: j + 1 < arr.length ? 'film' : k + 1 < decks.length ? 'material' : 'lesson' });
+      });
     });
     renderScenario(l, innerEl);
     renderDiagram(l, innerEl);
@@ -1594,7 +1608,7 @@
     renderMistakes(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
-    if (l.youtube && !ytAfterN) renderYouTube(l, innerEl);   /* a YouTube lesson film in the player skin */
+    filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : 'check' }); });   /* YouTube lesson films in the player skin */
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
 
