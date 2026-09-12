@@ -610,8 +610,8 @@ window.MT_LMS['the-map'] = {
       "id": "Pola Pikir Dasar"
      },
      "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
+      "en": "35 min",
+      "id": "35 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -647,83 +647,202 @@ window.MT_LMS['the-map'] = {
        "id": "Audit yang sebentar lagi kamu jalankan hanya berfungsi pada satu setelan: jujur — lembut pada orangnya, tegas pada datanya."
       }
      ],
-     "material": {
-      "kicker": {
-       "en": "Read first · 6 slides",
-       "id": "Baca dulu · 6 slide"
-      },
-      "title": {
-       "en": "Mindset 101 — Material",
-       "id": "Mindset 101 — Materi"
-      },
-      "intro": {
-       "en": "Start with the deck. Six slides explain what a mindset is, which mindsets build adaptability and resilience, and how the same people get different outcomes from a different mindset — the ground the sections below build on. Move through them at your own pace; the slide text is available under the player.",
-       "id": "Mulai dari deknya. Enam slide menjelaskan apa itu mindset, mindset mana yang membangun adaptabilitas dan ketangguhan, dan bagaimana orang yang sama mendapat hasil berbeda dari mindset yang berbeda — landasan bagi bagian-bagian di bawah. Baca sesuai ritmemu; teks slide tersedia di bawah pemutar."
-      },
-      "base": "../../assets/lms/the-map/slides/mindset-101-",
-      "slides": [
-       {
-        "title": {
-         "en": "Module: Mindset 101",
-         "id": "Modul: Mindset 101"
-        },
-        "text": {
-         "en": "Start with the right mindset, and unlock a bigger tomorrow. Understand your mindset · Build positive habits · Orient your future. The journey: 01 Mindset, 02 Growth, 03 Action, 04 Future. “Everything begins with a mindset.”",
-         "id": "Mulai dari pola pikir, menuju kemungkinan yang lebih besar. Pahami mindset · Bangun kebiasaan positif · Arahkan masa depan. Perjalanannya: 01 Mindset, 02 Pertumbuhan, 03 Aksi, 04 Masa depan. “Everything begins with a mindset.”"
-        }
-       },
-       {
-        "title": {
-         "en": "What are mindsets?",
-         "id": "Apa itu mindset?"
-        },
-        "text": {
-         "en": "Smaller beliefs, bigger possibilities. Mindsets are your belief filters between you and a constantly changing reality: they shape what you perceive, how you feel, and how you behave. Mindsets are the belief filters between you and reality — they influence what you perceive, how you feel, and how you behave. As you just saw, they are extremely powerful. In fact, they are arguably the most important thing when it comes to adaptability and resilience. Consider your own mindsets: it is true that mindsets associated with adaptability and resilience bring about many benefits, but you do not label mindsets as simply “good” or “bad”. Instead, you aim to adopt the mindset best suited to each situation. For example, circumstances might require you to be an expert or to react based mostly on your knowledge and experience. The key to adaptability is being aware of your mindset so you can make more deliberate choices. Let's build this awareness — greater awareness, brighter tomorrows.",
-         "id": "Pola pikir yang lebih kecil, membuka kemungkinan yang lebih besar. Mindset menjadi filter keyakinan antara Anda dan realitas yang selalu berubah: memengaruhi apa yang Anda lihat (persepsi), bagaimana Anda merasa (emosi), dan bagaimana Anda bertindak (perilaku). Mindset adalah filter keyakinan antara Anda dan realitas — memengaruhi apa yang Anda persepsikan, bagaimana Anda merasa, dan bagaimana Anda bertindak. Seperti yang baru saja Anda lihat, mindset sangat kuat. Bahkan, mindset bisa dibilang merupakan hal yang paling penting dalam hal kemampuan beradaptasi dan ketangguhan. Renungkan mindset Anda sendiri: memang benar bahwa mindset yang berkaitan dengan kemampuan beradaptasi dan ketangguhan membawa banyak manfaat, namun Anda tidak perlu melabeli mindset sebagai sekadar “baik” atau “buruk”. Sebaliknya, Anda perlu mengadopsi mindset yang paling sesuai dengan setiap situasi. Misalnya, ada situasi yang menuntut Anda untuk menjadi ahli atau bereaksi berdasarkan pengetahuan dan pengalaman Anda. Kunci dari kemampuan beradaptasi adalah menyadari mindset Anda, sehingga Anda dapat membuat pilihan yang lebih sadar dan terarah. Mari bangun kesadaran ini — kesadaran yang lebih besar, masa depan yang lebih cerah."
-        }
-       },
-       {
-        "title": {
-         "en": "Which mindsets help build adaptability and resilience?",
-         "id": "Mindset apa saja yang membantu membangun adaptabilitas dan ketangguhan?"
-        },
-        "text": {
-         "en": "Mindsets influence how you perceive and respond to the world around you, including how you interact with others — your perception, response, well-being, fulfillment, and performance. There are a number of mindsets that improve your well-being, sense of fulfillment, and performance. These mindsets can make your lives more vibrant. Pause and think about a moment when you operated from a mindset that was not particularly helpful. What were you thinking and feeling? How did you behave? What impact did it have on you? What was the impact on others? Reflect · Grow · Move forward. Same mindset, a different tomorrow.",
-         "id": "Mindset memengaruhi cara Anda memandang dan merespons dunia di sekitar Anda, termasuk bagaimana Anda berinteraksi dengan orang lain — persepsi yang lebih luas, respons yang lebih positif, kesejahteraan yang lebih baik, rasa pemenuhan yang lebih tinggi, kinerja yang lebih optimal. Ada berbagai mindset yang dapat meningkatkan kesejahteraan, rasa pemenuhan, dan kinerja Anda. Mindset ini dapat membuat hidup Anda lebih bermakna dan berwarna. Coba berhenti sejenak dan pikirkan sebuah momen ketika Anda bertindak dengan mindset yang kurang membantu. Apa yang Anda pikirkan dan rasakan saat itu? Bagaimana Anda bertindak? Dampak apa yang ditimbulkan pada Anda? Apa dampaknya terhadap orang lain? Refleksi · Berkembang · Melangkah lebih jauh. Mindset yang sama, masa depan yang berbeda."
-        }
-       },
-       {
-        "title": {
-         "en": "Adopting adaptable and resilient mindsets (1/2)",
-         "id": "Mengadopsi mindset yang adaptif dan tangguh (1/2)"
-        },
-        "text": {
-         "en": "Mindsets are the belief filters between you and reality. They influence what you perceive, how you feel, and how you behave. Mindsets impact your ability to learn and, ultimately, the success and satisfaction you will experience. We all have the capacity to change our mindsets and behaviors and, consequently, our outcomes, for the better. Explore some of the mindsets that are common to adaptable and resilient people. Limiting mindsets (same thinking, same outcomes) versus adaptive mindsets (brighter perspectives, bigger possibilities). Fixed — “A challenge is a test that I pass or fail, based on my inherent abilities. If I am not already good at something, I will not do well.” vs. Growth — “I can learn to do anything I want. Challenges and mistakes are opportunities for learning and development.” Expert — “I should already know the answer. I should perform during a challenge by having the answers.” vs. Curious — “I am going to ask a lot of questions, explore, and discover. I can learn a lot from trying something new.” Reactive — “I need to identify the problem and what is causing it so I can apply tested, well-practiced solutions to bring the situation under control.” vs. Creative — “I need to lead with purpose. I will empower myself and others to explore new possibilities and experiment our way to an innovative solution.”",
-         "id": "Mindset adalah filter keyakinan antara Anda dan realitas. Mindset memengaruhi apa yang Anda persepsikan, bagaimana Anda merasa, dan bagaimana Anda bertindak. Mindset berdampak pada kemampuan Anda untuk belajar dan, pada akhirnya, kesuksesan dan kepuasan yang Anda rasakan. Kita semua memiliki kemampuan untuk mengubah mindset dan perilaku kita, dan dengan demikian, hasil yang kita capai, menjadi lebih baik. Mari jelajahi beberapa mindset yang umum dimiliki oleh individu yang adaptif dan tangguh. Mindset yang membatasi (pola pikir yang sama, hasil yang sama) versus mindset yang adaptif (perspektif yang lebih luas, peluang yang lebih besar). Statis — “Tantangan adalah ujian yang bisa saya lakukan atau gagal, berdasarkan kemampuan bawaan saya. Jika saya belum cukup baik saat ini, saya tidak akan pernah bisa.” vs. Berkembang — “Saya bisa belajar melakukan apa pun yang saya inginkan. Tantangan dan kesalahan adalah peluang untuk belajar dan berkembang.” Ahli — “Saya seharusnya sudah tahu jawabannya. Saya harus tampil baik dalam sebuah tantangan dengan memberikan jawaban yang benar.” vs. Ingin tahu — “Saya akan mengajukan banyak pertanyaan, mengeksplorasi, dan menemukan hal baru. Saya bisa belajar banyak dari mencoba hal-hal baru.” Reaktif — “Saya perlu segera mengidentifikasi masalah dan penyebabnya agar saya dapat menerapkan solusi yang sudah terbukti dan teruji untuk mengendalikan situasi.” vs. Kreatif — “Saya ingin memimpin dengan tujuan. Saya akan memberdayakan diri saya dan orang lain untuk mengeksplorasi kemungkinan baru dan bereksperimen dengan cara yang inovatif dalam menemukan solusi.”"
-        }
-       },
-       {
-        "title": {
-         "en": "From limiting mindsets to empowering mindsets",
-         "id": "Dari mindset yang membatasi menuju mindset yang memberdayakan"
-        },
-        "text": {
-         "en": "Different mindsets. Dramatically different outcomes. Limiting mindsets see challenges as obstacles; empowering mindsets see challenges as opportunities. Victim — “There are many factors beyond my control that affect my ability to thrive, grow, and get things done.” → Agent — “Within reason, I believe in my ability to learn new things, overcome challenges, and accomplish just about anything I put my mind to.” Scarcity — “A challenge typically involves limited resources, hard choices, and trade-offs that must be made.” → Abundance — “A challenge is typically a potential win-win situation looking to be discovered.” Certainty — “I would rather things go according to plan than take a detour that may end up better.” → Exploration — “I do not know what the future holds, so the best way to succeed is to plan ahead but be flexible and curious as I go.” Protection — “I need to prevent something bad from happening.” → Opportunity — “I could make something great happen.” New mindset, brighter tomorrow.",
-         "id": "Pola pikir yang berbeda, hasil yang sangat berbeda. Mindset yang membatasi melihat tantangan sebagai hambatan; mindset yang memberdayakan melihat tantangan sebagai peluang. Victim — “Ada banyak faktor di luar kendali saya yang memengaruhi kemampuan saya untuk berkembang, bertumbuh, dan menyelesaikan sesuatu.” → Agent — “Dalam batas yang ada, saya percaya pada kemampuan saya untuk belajar hal baru, mengatasi tantangan, dan mencapai hampir apa pun yang saya fokuskan.” Scarcity — “Tantangan biasanya melibatkan sumber daya yang terbatas, pilihan yang sulit, dan trade-off yang harus dilakukan.” → Abundance — “Tantangan biasanya merupakan situasi potensial win-win yang menunggu untuk ditemukan.” Certainty — “Saya lebih memilih agar segala sesuatu berjalan sesuai rencana daripada mengambil jalan memutar yang mungkin berujung lebih baik.” → Exploration — “Saya tidak tahu apa yang masa depan bawa, sehingga cara terbaik untuk berhasil adalah merencanakan ke depan namun tetap fleksibel dan penuh rasa ingin tahu dalam setiap langkah.” Protection — “Saya perlu mencegah hal buruk dari terjadi.” → Opportunity — “Saya bisa mewujudkan sesuatu yang hebat terjadi.” Mindset baru, peluang baru, masa depan lebih cerah."
-        }
-       },
-       {
-        "title": {
-         "en": "Same people. Different mindsets. Brighter outcomes.",
-         "id": "Orang yang sama. Mindset yang berbeda. Hasil yang lebih cerah."
-        },
-        "text": {
-         "en": "Discover how a shift in mindset can turn challenges into opportunities. Tanya, a collaborative team member who wants to contribute and grow. Before: “This task will be tedious. I need to make sure my team members understand the problem and then share what works well for me.” Reactive — what if she held a creative mindset and saw this as an opportunity to reframe the challenge as a possibility, an innovative solution waiting to be found? Before: “This task will be challenging since our team hasn't worked well in the past. But I bet there is a way we can work together to come out ahead.” Abundance — this is an adaptable mindset: she recognizes that there is an opportunity for everyone to come out ahead. Key takeaway: a more open and opportunity-oriented mindset helps Tanya collaborate better and create stronger outcomes for the team. Ashley, a relatively new team member who wants to make an impact. Before: “As the most experienced team member, I feel responsible for making sure we do a good job. I also feel responsible for bringing out the best in my coworkers and coming up with a great solution together.” Opportunity — this is an adaptable mindset: she recognizes that something great could come out of this and that there might be a better way to do things. Before: “I need to find extra time to learn more before our next meeting. I don't want to be the person who looks like they don't know enough.” Expert — what if instead she held a curious mindset and realized that she needs to learn all the answers at this point in the project? Key takeaway: a curious and opportunity-seeking mindset helps Ashley learn faster and unlock better solutions with others. Matthieu, a self-driven learner who wants to build confidence with new tools. Before: “I don't want my lack of experience with this software to slow down the team — I've learned new things before and am excited to get up to speed on this software. I'll think of it like a new language, something I'm good at learning.” Agent — this is an adaptable mindset: he recognizes that he is capable of influencing the outcome of this situation. Before: “I haven't really understood this software in the past, so I doubt I will this time.” Fixed — what if he held a growth mindset and saw the challenge ahead as an opportunity to learn? Key takeaway: a growth and agent mindset helps Matthieu build confidence, develop new skills, and contribute more to the team. Different mindsets, brighter possibilities.",
-         "id": "Temukan bagaimana perubahan mindset dapat mengubah tantangan menjadi peluang. Tanya, seorang anggota tim yang kolaboratif yang ingin berkontribusi dan berkembang. Sebelum: “Tugas ini terasa sangat melelahkan. Saya perlu memastikan anggota tim saya memahami masalahnya, lalu berbagi apa yang menurut saya akan berhasil untuk mereka.” Reaktif — apa jadinya jika ia memiliki mindset yang kreatif dan melihat ini sebagai peluang untuk memaknai ulang tantangan tersebut, sebuah solusi inovatif yang menunggu untuk ditemukan? Sebelum: “Tugas ini akan menantang karena tim kami belum pernah bekerja dengan baik di masa lalu. Namun saya yakin ada cara agar kita bisa bekerja sama dan mencapai hasil yang lebih baik.” Kelimpahan — ini adalah mindset yang adaptif: dia menyadari bahwa ada peluang bagi semua orang untuk maju bersama. Inti pembelajaran: mindset yang lebih terbuka dan berorientasi pada peluang membantu Tanya berkolaborasi lebih baik dan menciptakan hasil yang lebih kuat bagi tim. Ashley, anggota tim yang relatif baru yang ingin memberikan dampak. Sebelum: “Sebagai anggota tim yang paling berpengalaman, saya merasa bertanggung jawab untuk memastikan kami melakukan pekerjaan dengan baik. Saya juga merasa bertanggung jawab untuk mengeluarkan yang terbaik dari rekan kerja saya dan bersama-sama menemukan solusi yang tepat.” Peluang — ini adalah mindset yang adaptif: dia menyadari bahwa sesuatu yang hebat bisa muncul dari situasi ini dan mungkin ada cara yang lebih baik untuk melakukannya. Sebelum: “Saya perlu meluangkan lebih banyak waktu untuk belajar sebelum pertemuan berikutnya. Saya tidak ingin menjadi orang yang terlihat tidak tahu apa-apa.” Ahli — bagaimana jika ia memiliki mindset yang ingin tahu dan menyadari bahwa ia perlu mempelajari semua jawaban pada titik ini dalam proyek? Inti pembelajaran: mindset yang ingin tahu dan berorientasi pada peluang membantu Ashley belajar lebih cepat dan menemukan solusi yang lebih baik bersama orang lain. Matthieu, pembelajar yang mandiri yang ingin membangun kepercayaan diri dengan alat-alat baru. Sebelum: “Saya tidak ingin kurangnya pengalaman dengan perangkat lunak ini memperlambat tim — saya telah mempelajari banyak hal baru sebelumnya dan sangat antusias untuk segera menguasai perangkat lunak ini. Saya melihatnya seperti bahasa baru, sesuatu yang saya kuasai dalam belajar.” Penggerak — ini adalah mindset yang adaptif: dia menyadari bahwa ia mampu memengaruhi hasil dari situasi ini. Sebelum: “Saya belum benar-benar memahami perangkat lunak ini di masa lalu, jadi saya ragu saya bisa melakukannya kali ini.” Tetap (fixed) — bagaimana jika ia memiliki mindset berkembang (growth mindset) dan melihat tantangan di depan sebagai peluang untuk belajar? Inti pembelajaran: mindset berkembang dan penggerak membantu Matthieu membangun kepercayaan diri, mengembangkan keterampilan baru, dan berkontribusi lebih besar bagi tim. Mindset yang berbeda, peluang yang lebih besar."
-        }
-       }
-      ]
+     "videosPlacement": "after-material:2",
+     "videosIntro": {
+      "en": "Two short films pick up where the slide left off: what mindsets are and where your default ones come from, then how to shift one — by priming, and with the Awareness–Pause–Reframe technique you will practise in the slides that follow.",
+      "id": "Dua film singkat melanjutkan slide tadi: apa itu mindset dan dari mana mindset bawaanmu berasal, lalu bagaimana menggesernya — lewat priming, dan dengan teknik Awareness–Pause–Reframe yang akan kamu latih di slide berikutnya."
      },
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/mindset-101-1-brand.mp4",
+       "poster": "../../assets/lms/the-map/mindset-101-1-poster.jpg",
+       "dur": "3:04",
+       "title": {
+        "en": "What mindsets are, and where your defaults come from",
+        "id": "Apa itu mindset, dan dari mana mindset bawaanmu berasal"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/mindset-101-1-en.vtt",
+        "id": "../../assets/lms/the-map/mindset-101-1-id.vtt"
+       }
+      },
+      {
+       "src": "../../assets/lms/the-map/mindset-101-2-brand.mp4",
+       "poster": "../../assets/lms/the-map/mindset-101-2-poster.jpg",
+       "dur": "1:32",
+       "title": {
+        "en": "Shifting a mindset: priming and the APR technique",
+        "id": "Menggeser mindset: priming dan teknik APR"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/mindset-101-2-en.vtt",
+        "id": "../../assets/lms/the-map/mindset-101-2-id.vtt"
+       }
+      }
+     ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 6 slides",
+        "id": "Baca dulu · 6 slide"
+       },
+       "title": {
+        "en": "Mindset 101 — Material",
+        "id": "Mindset 101 — Materi"
+       },
+       "intro": {
+        "en": "Start with the deck. Six slides explain what a mindset is, which mindsets build adaptability and resilience, and how the same people get different outcomes from a different mindset — the ground the sections below build on. Move through them at your own pace; the slide text is available under the player.",
+        "id": "Mulai dari deknya. Enam slide menjelaskan apa itu mindset, mindset mana yang membangun adaptabilitas dan ketangguhan, dan bagaimana orang yang sama mendapat hasil berbeda dari mindset yang berbeda — landasan bagi bagian-bagian di bawah. Baca sesuai ritmemu; teks slide tersedia di bawah pemutar."
+       },
+       "base": "../../assets/lms/the-map/slides/mindset-101-",
+       "slides": [
+        {
+         "title": {
+          "en": "Module: Mindset 101",
+          "id": "Modul: Mindset 101"
+         },
+         "text": {
+          "en": "Start with the right mindset, and unlock a bigger tomorrow. Understand your mindset · Build positive habits · Orient your future. The journey: 01 Mindset, 02 Growth, 03 Action, 04 Future. “Everything begins with a mindset.”",
+          "id": "Mulai dari pola pikir, menuju kemungkinan yang lebih besar. Pahami mindset · Bangun kebiasaan positif · Arahkan masa depan. Perjalanannya: 01 Mindset, 02 Pertumbuhan, 03 Aksi, 04 Masa depan. “Everything begins with a mindset.”"
+         }
+        },
+        {
+         "title": {
+          "en": "What are mindsets?",
+          "id": "Apa itu mindset?"
+         },
+         "text": {
+          "en": "Smaller beliefs, bigger possibilities. Mindsets are your belief filters between you and a constantly changing reality: they shape what you perceive, how you feel, and how you behave. Mindsets are the belief filters between you and reality — they influence what you perceive, how you feel, and how you behave. As you just saw, they are extremely powerful. In fact, they are arguably the most important thing when it comes to adaptability and resilience. Consider your own mindsets: it is true that mindsets associated with adaptability and resilience bring about many benefits, but you do not label mindsets as simply “good” or “bad”. Instead, you aim to adopt the mindset best suited to each situation. For example, circumstances might require you to be an expert or to react based mostly on your knowledge and experience. The key to adaptability is being aware of your mindset so you can make more deliberate choices. Let's build this awareness — greater awareness, brighter tomorrows.",
+          "id": "Pola pikir yang lebih kecil, membuka kemungkinan yang lebih besar. Mindset menjadi filter keyakinan antara Anda dan realitas yang selalu berubah: memengaruhi apa yang Anda lihat (persepsi), bagaimana Anda merasa (emosi), dan bagaimana Anda bertindak (perilaku). Mindset adalah filter keyakinan antara Anda dan realitas — memengaruhi apa yang Anda persepsikan, bagaimana Anda merasa, dan bagaimana Anda bertindak. Seperti yang baru saja Anda lihat, mindset sangat kuat. Bahkan, mindset bisa dibilang merupakan hal yang paling penting dalam hal kemampuan beradaptasi dan ketangguhan. Renungkan mindset Anda sendiri: memang benar bahwa mindset yang berkaitan dengan kemampuan beradaptasi dan ketangguhan membawa banyak manfaat, namun Anda tidak perlu melabeli mindset sebagai sekadar “baik” atau “buruk”. Sebaliknya, Anda perlu mengadopsi mindset yang paling sesuai dengan setiap situasi. Misalnya, ada situasi yang menuntut Anda untuk menjadi ahli atau bereaksi berdasarkan pengetahuan dan pengalaman Anda. Kunci dari kemampuan beradaptasi adalah menyadari mindset Anda, sehingga Anda dapat membuat pilihan yang lebih sadar dan terarah. Mari bangun kesadaran ini — kesadaran yang lebih besar, masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Which mindsets help build adaptability and resilience?",
+          "id": "Mindset apa saja yang membantu membangun adaptabilitas dan ketangguhan?"
+         },
+         "text": {
+          "en": "Mindsets influence how you perceive and respond to the world around you, including how you interact with others — your perception, response, well-being, fulfillment, and performance. There are a number of mindsets that improve your well-being, sense of fulfillment, and performance. These mindsets can make your lives more vibrant. Pause and think about a moment when you operated from a mindset that was not particularly helpful. What were you thinking and feeling? How did you behave? What impact did it have on you? What was the impact on others? Reflect · Grow · Move forward. Same mindset, a different tomorrow.",
+          "id": "Mindset memengaruhi cara Anda memandang dan merespons dunia di sekitar Anda, termasuk bagaimana Anda berinteraksi dengan orang lain — persepsi yang lebih luas, respons yang lebih positif, kesejahteraan yang lebih baik, rasa pemenuhan yang lebih tinggi, kinerja yang lebih optimal. Ada berbagai mindset yang dapat meningkatkan kesejahteraan, rasa pemenuhan, dan kinerja Anda. Mindset ini dapat membuat hidup Anda lebih bermakna dan berwarna. Coba berhenti sejenak dan pikirkan sebuah momen ketika Anda bertindak dengan mindset yang kurang membantu. Apa yang Anda pikirkan dan rasakan saat itu? Bagaimana Anda bertindak? Dampak apa yang ditimbulkan pada Anda? Apa dampaknya terhadap orang lain? Refleksi · Berkembang · Melangkah lebih jauh. Mindset yang sama, masa depan yang berbeda."
+         }
+        },
+        {
+         "title": {
+          "en": "Adopting adaptable and resilient mindsets (1/2)",
+          "id": "Mengadopsi mindset yang adaptif dan tangguh (1/2)"
+         },
+         "text": {
+          "en": "Mindsets are the belief filters between you and reality. They influence what you perceive, how you feel, and how you behave. Mindsets impact your ability to learn and, ultimately, the success and satisfaction you will experience. We all have the capacity to change our mindsets and behaviors and, consequently, our outcomes, for the better. Explore some of the mindsets that are common to adaptable and resilient people. Limiting mindsets (same thinking, same outcomes) versus adaptive mindsets (brighter perspectives, bigger possibilities). Fixed — “A challenge is a test that I pass or fail, based on my inherent abilities. If I am not already good at something, I will not do well.” vs. Growth — “I can learn to do anything I want. Challenges and mistakes are opportunities for learning and development.” Expert — “I should already know the answer. I should perform during a challenge by having the answers.” vs. Curious — “I am going to ask a lot of questions, explore, and discover. I can learn a lot from trying something new.” Reactive — “I need to identify the problem and what is causing it so I can apply tested, well-practiced solutions to bring the situation under control.” vs. Creative — “I need to lead with purpose. I will empower myself and others to explore new possibilities and experiment our way to an innovative solution.”",
+          "id": "Mindset adalah filter keyakinan antara Anda dan realitas. Mindset memengaruhi apa yang Anda persepsikan, bagaimana Anda merasa, dan bagaimana Anda bertindak. Mindset berdampak pada kemampuan Anda untuk belajar dan, pada akhirnya, kesuksesan dan kepuasan yang Anda rasakan. Kita semua memiliki kemampuan untuk mengubah mindset dan perilaku kita, dan dengan demikian, hasil yang kita capai, menjadi lebih baik. Mari jelajahi beberapa mindset yang umum dimiliki oleh individu yang adaptif dan tangguh. Mindset yang membatasi (pola pikir yang sama, hasil yang sama) versus mindset yang adaptif (perspektif yang lebih luas, peluang yang lebih besar). Statis — “Tantangan adalah ujian yang bisa saya lakukan atau gagal, berdasarkan kemampuan bawaan saya. Jika saya belum cukup baik saat ini, saya tidak akan pernah bisa.” vs. Berkembang — “Saya bisa belajar melakukan apa pun yang saya inginkan. Tantangan dan kesalahan adalah peluang untuk belajar dan berkembang.” Ahli — “Saya seharusnya sudah tahu jawabannya. Saya harus tampil baik dalam sebuah tantangan dengan memberikan jawaban yang benar.” vs. Ingin tahu — “Saya akan mengajukan banyak pertanyaan, mengeksplorasi, dan menemukan hal baru. Saya bisa belajar banyak dari mencoba hal-hal baru.” Reaktif — “Saya perlu segera mengidentifikasi masalah dan penyebabnya agar saya dapat menerapkan solusi yang sudah terbukti dan teruji untuk mengendalikan situasi.” vs. Kreatif — “Saya ingin memimpin dengan tujuan. Saya akan memberdayakan diri saya dan orang lain untuk mengeksplorasi kemungkinan baru dan bereksperimen dengan cara yang inovatif dalam menemukan solusi.”"
+         }
+        },
+        {
+         "title": {
+          "en": "From limiting mindsets to empowering mindsets",
+          "id": "Dari mindset yang membatasi menuju mindset yang memberdayakan"
+         },
+         "text": {
+          "en": "Different mindsets. Dramatically different outcomes. Limiting mindsets see challenges as obstacles; empowering mindsets see challenges as opportunities. Victim — “There are many factors beyond my control that affect my ability to thrive, grow, and get things done.” → Agent — “Within reason, I believe in my ability to learn new things, overcome challenges, and accomplish just about anything I put my mind to.” Scarcity — “A challenge typically involves limited resources, hard choices, and trade-offs that must be made.” → Abundance — “A challenge is typically a potential win-win situation looking to be discovered.” Certainty — “I would rather things go according to plan than take a detour that may end up better.” → Exploration — “I do not know what the future holds, so the best way to succeed is to plan ahead but be flexible and curious as I go.” Protection — “I need to prevent something bad from happening.” → Opportunity — “I could make something great happen.” New mindset, brighter tomorrow.",
+          "id": "Pola pikir yang berbeda, hasil yang sangat berbeda. Mindset yang membatasi melihat tantangan sebagai hambatan; mindset yang memberdayakan melihat tantangan sebagai peluang. Victim — “Ada banyak faktor di luar kendali saya yang memengaruhi kemampuan saya untuk berkembang, bertumbuh, dan menyelesaikan sesuatu.” → Agent — “Dalam batas yang ada, saya percaya pada kemampuan saya untuk belajar hal baru, mengatasi tantangan, dan mencapai hampir apa pun yang saya fokuskan.” Scarcity — “Tantangan biasanya melibatkan sumber daya yang terbatas, pilihan yang sulit, dan trade-off yang harus dilakukan.” → Abundance — “Tantangan biasanya merupakan situasi potensial win-win yang menunggu untuk ditemukan.” Certainty — “Saya lebih memilih agar segala sesuatu berjalan sesuai rencana daripada mengambil jalan memutar yang mungkin berujung lebih baik.” → Exploration — “Saya tidak tahu apa yang masa depan bawa, sehingga cara terbaik untuk berhasil adalah merencanakan ke depan namun tetap fleksibel dan penuh rasa ingin tahu dalam setiap langkah.” Protection — “Saya perlu mencegah hal buruk dari terjadi.” → Opportunity — “Saya bisa mewujudkan sesuatu yang hebat terjadi.” Mindset baru, peluang baru, masa depan lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Same people. Different mindsets. Brighter outcomes.",
+          "id": "Orang yang sama. Mindset yang berbeda. Hasil yang lebih cerah."
+         },
+         "text": {
+          "en": "Discover how a shift in mindset can turn challenges into opportunities. Tanya, a collaborative team member who wants to contribute and grow. Before: “This task will be tedious. I need to make sure my team members understand the problem and then share what works well for me.” Reactive — what if she held a creative mindset and saw this as an opportunity to reframe the challenge as a possibility, an innovative solution waiting to be found? Before: “This task will be challenging since our team hasn't worked well in the past. But I bet there is a way we can work together to come out ahead.” Abundance — this is an adaptable mindset: she recognizes that there is an opportunity for everyone to come out ahead. Key takeaway: a more open and opportunity-oriented mindset helps Tanya collaborate better and create stronger outcomes for the team. Ashley, a relatively new team member who wants to make an impact. Before: “As the most experienced team member, I feel responsible for making sure we do a good job. I also feel responsible for bringing out the best in my coworkers and coming up with a great solution together.” Opportunity — this is an adaptable mindset: she recognizes that something great could come out of this and that there might be a better way to do things. Before: “I need to find extra time to learn more before our next meeting. I don't want to be the person who looks like they don't know enough.” Expert — what if instead she held a curious mindset and realized that she needs to learn all the answers at this point in the project? Key takeaway: a curious and opportunity-seeking mindset helps Ashley learn faster and unlock better solutions with others. Matthieu, a self-driven learner who wants to build confidence with new tools. Before: “I don't want my lack of experience with this software to slow down the team — I've learned new things before and am excited to get up to speed on this software. I'll think of it like a new language, something I'm good at learning.” Agent — this is an adaptable mindset: he recognizes that he is capable of influencing the outcome of this situation. Before: “I haven't really understood this software in the past, so I doubt I will this time.” Fixed — what if he held a growth mindset and saw the challenge ahead as an opportunity to learn? Key takeaway: a growth and agent mindset helps Matthieu build confidence, develop new skills, and contribute more to the team. Different mindsets, brighter possibilities.",
+          "id": "Temukan bagaimana perubahan mindset dapat mengubah tantangan menjadi peluang. Tanya, seorang anggota tim yang kolaboratif yang ingin berkontribusi dan berkembang. Sebelum: “Tugas ini terasa sangat melelahkan. Saya perlu memastikan anggota tim saya memahami masalahnya, lalu berbagi apa yang menurut saya akan berhasil untuk mereka.” Reaktif — apa jadinya jika ia memiliki mindset yang kreatif dan melihat ini sebagai peluang untuk memaknai ulang tantangan tersebut, sebuah solusi inovatif yang menunggu untuk ditemukan? Sebelum: “Tugas ini akan menantang karena tim kami belum pernah bekerja dengan baik di masa lalu. Namun saya yakin ada cara agar kita bisa bekerja sama dan mencapai hasil yang lebih baik.” Kelimpahan — ini adalah mindset yang adaptif: dia menyadari bahwa ada peluang bagi semua orang untuk maju bersama. Inti pembelajaran: mindset yang lebih terbuka dan berorientasi pada peluang membantu Tanya berkolaborasi lebih baik dan menciptakan hasil yang lebih kuat bagi tim. Ashley, anggota tim yang relatif baru yang ingin memberikan dampak. Sebelum: “Sebagai anggota tim yang paling berpengalaman, saya merasa bertanggung jawab untuk memastikan kami melakukan pekerjaan dengan baik. Saya juga merasa bertanggung jawab untuk mengeluarkan yang terbaik dari rekan kerja saya dan bersama-sama menemukan solusi yang tepat.” Peluang — ini adalah mindset yang adaptif: dia menyadari bahwa sesuatu yang hebat bisa muncul dari situasi ini dan mungkin ada cara yang lebih baik untuk melakukannya. Sebelum: “Saya perlu meluangkan lebih banyak waktu untuk belajar sebelum pertemuan berikutnya. Saya tidak ingin menjadi orang yang terlihat tidak tahu apa-apa.” Ahli — bagaimana jika ia memiliki mindset yang ingin tahu dan menyadari bahwa ia perlu mempelajari semua jawaban pada titik ini dalam proyek? Inti pembelajaran: mindset yang ingin tahu dan berorientasi pada peluang membantu Ashley belajar lebih cepat dan menemukan solusi yang lebih baik bersama orang lain. Matthieu, pembelajar yang mandiri yang ingin membangun kepercayaan diri dengan alat-alat baru. Sebelum: “Saya tidak ingin kurangnya pengalaman dengan perangkat lunak ini memperlambat tim — saya telah mempelajari banyak hal baru sebelumnya dan sangat antusias untuk segera menguasai perangkat lunak ini. Saya melihatnya seperti bahasa baru, sesuatu yang saya kuasai dalam belajar.” Penggerak — ini adalah mindset yang adaptif: dia menyadari bahwa ia mampu memengaruhi hasil dari situasi ini. Sebelum: “Saya belum benar-benar memahami perangkat lunak ini di masa lalu, jadi saya ragu saya bisa melakukannya kali ini.” Tetap (fixed) — bagaimana jika ia memiliki mindset berkembang (growth mindset) dan melihat tantangan di depan sebagai peluang untuk belajar? Inti pembelajaran: mindset berkembang dan penggerak membantu Matthieu membangun kepercayaan diri, mengembangkan keterampilan baru, dan berkontribusi lebih besar bagi tim. Mindset yang berbeda, peluang yang lebih besar."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Shift Our Mindsets",
+        "id": "Mengubah Mindset Kita"
+       },
+       "intro": {
+        "en": "One slide that sets up the films that follow: noticing a limiting mindset is only the start — you can shift it on purpose, and Awareness–Pause–Reframe is the technique for doing so.",
+        "id": "Satu slide yang membuka film-film berikutnya: mengenali mindset yang membatasi hanyalah awal — kamu bisa mengubahnya dengan sengaja, dan Awareness–Pause–Reframe adalah tekniknya."
+       },
+       "base": "../../assets/lms/the-map/slides/shift-mindsets-",
+       "slides": [
+        {
+         "title": {
+          "en": "How can we shift our mindsets?",
+          "id": "Bagaimana kita dapat mengubah mindset kita?"
+         },
+         "text": {
+          "en": "Different mindsets, brighter possibilities: limiting mindset or growth mindset. More than just recognizing when you or others are holding limiting mindsets, you have the opportunity to intentionally shift those mindsets. After this slide, we have a video that introduces “Awareness–Pause–Reframe” or APR, a technique you can use both in the moment and afterward during reflection. Stay tuned for the next video: Awareness – Pause – Reframe (APR), a simple yet powerful technique to help you shift your mindset and unlock new possibilities. Same you, a brighter you. A brighter mindset builds a brighter tomorrow.",
+          "id": "Mindset yang berbeda, peluang yang lebih besar: mindset yang membatasi atau mindset bertumbuh. Lebih dari sekadar mengenali kapan kita atau orang lain memiliki mindset yang membatasi, kita memiliki peluang untuk secara sadar mengubah mindset tersebut. Setelah slide ini, kita akan menonton video yang memperkenalkan “Awareness-Pause-Reframe” atau APR, sebuah teknik yang dapat Anda gunakan baik di saat itu juga maupun setelahnya saat melakukan refleksi. Nantikan video berikutnya: Awareness – Pause – Reframe (APR), teknik sederhana namun kuat untuk membantu Anda mengubah mindset dan membuka peluang baru. Anda, yang lebih baik, setiap hari. Mindset yang lebih baik, membangun masa depan yang lebih cerah."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Practising APR",
+        "id": "Mempraktikkan APR"
+       },
+       "intro": {
+        "en": "Now put the technique to work. Four slides walk you through a two-minute APR practice, the reframing questions for six limiting mindsets, how to take it to your team, and the module's key takeaways.",
+        "id": "Sekarang praktikkan tekniknya. Empat slide memandumu melalui latihan APR dua menit, pertanyaan pembingkaian ulang untuk enam mindset yang membatasi, cara menerapkannya ke timmu, dan poin-poin penting modul ini."
+       },
+       "base": "../../assets/lms/the-map/slides/practising-apr-",
+       "slides": [
+        {
+         "title": {
+          "en": "Practicing APR",
+          "id": "Mempraktikkan APR"
+         },
+         "text": {
+          "en": "Small pause, bigger possibilities: same situation, a different mindset can change everything. The beauty of APR is that it can be used at any time to shift your mindset in subtle or bold ways. Let's take two minutes to practice it right now. 1 Awareness — notice what's happening: “Think of something you have been finding challenging. What does it make you think and feel? What are your mindsets?” 2 Pause — create space: “Take a pause in this very moment to center yourself. Maybe take a few deep breaths or plant your feet on the floor.” 3 Reframe — see new possibilities: “What opportunities would there be if you were to shift your mindset?” Keep practicing: continue to think about ways you can flexibly incorporate APR in your daily practices. In particular, think about how you can practice integrating questions that will help you to reframe specific mindsets. Same challenge, a brighter you.",
+          "id": "Langkah kecil, peluang yang lebih besar: situasi yang sama, mindset yang berbeda dapat mengubah segalanya. Keunggulan dari APR adalah teknik ini dapat digunakan kapan saja untuk mengubah mindset Anda, baik dengan cara yang halus maupun tegas. Mari luangkan dua menit untuk mempraktikkannya sekarang. 1 Awareness (kesadaran) — sadari apa yang terjadi: pikirkan sesuatu yang sedang Anda anggap menantang. Apa yang membuat Anda berpikir dan merasa seperti itu? Apa mindset Anda saat ini? 2 Pause (jeda) — berhenti sejenak: ambil jeda sejenak pada saat ini untuk menenangkan diri. Mungkin tarik beberapa napas dalam atau rasakan pijakan kaki Anda di lantai. 3 Reframe (ubah perspektif) — lihat peluang baru: peluang apa yang mungkin muncul jika Anda mengubah mindset Anda? Bagaimana Anda bisa melihat situasi ini dari sudut pandang yang berbeda? Terus berlatih: terus pikirkan cara-cara yang fleksibel untuk mengintegrasikan APR dalam praktik sehari-hari Anda. Secara khusus, cobalah mempraktikkan pertanyaan-pertanyaan yang dapat membantu Anda mengubah mindset tertentu. Tantangan yang sama, versi diri yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Questions that open new perspectives",
+          "id": "Pertanyaan yang membuka perspektif baru"
+         },
+         "text": {
+          "en": "Different mindsets. Different questions. Bigger possibilities. 01 From fixed to growth: How can this challenge be an opportunity? What could be possible if I learn and develop from this experience? 02 From expert to curious: What questions, new perspectives, or opportunities do I want to explore? If I approach this with fresh eyes, forgetting for now what I already know, what would I get curious about? What would be possible if I could embrace the struggles that come with learning something new? 03 From reactive to creative: What is the bigger “why” that I am solving for? If this challenge were actually a hidden opportunity to create something different and better, what would I want? What could I imagine that would be important and meaningful? What is the smallest step that I can take towards getting to the end state I desire? 04 From victim to agent: What are the various ways I can influence the situation? What do I already have going for me? What capabilities, ideas, or resources could I access to successfully navigate this challenge? 05 From scarcity to abundance: What could be a win-win scenario in this situation? If I release some of the constraints on the situation, what might be a bigger opportunity? 06 From protection to opportunity: What if this is not a risk-avoidance scenario, but an opportunity-capturing scenario? What is the most audaciously good thing that can come out of this? How might I be able to encourage that to happen?",
+          "id": "Mindset yang berbeda, pertanyaan yang berbeda, peluang yang lebih besar. 01 Dari fixed ke growth: Bagaimana tantangan ini bisa menjadi sebuah peluang? Apa yang mungkin terjadi jika saya belajar dan berkembang dari pengalaman ini? 02 Dari expert ke curious: Pertanyaan baru, perspektif baru, atau peluang apa yang ingin saya eksplorasi? Jika saya melihat ini dengan sudut pandang yang segar, melupakan sejenak apa yang sudah saya ketahui, apa yang akan membuat saya penasaran? Apa yang mungkin terjadi jika saya menerima tantangan dan ketidaknyamanan dalam proses belajar hal baru? 03 Dari reactive ke creative: Apa “mengapa” yang lebih besar dari masalah yang sedang saya selesaikan? Jika tantangan ini sebenarnya adalah peluang tersembunyi untuk menciptakan sesuatu yang berbeda dan lebih baik, apa yang ingin saya wujudkan? Apa langkah terkecil yang bisa saya ambil sekarang untuk menuju hasil akhir yang saya inginkan? 04 Dari victim ke agent: Apa saja cara yang bisa saya lakukan untuk memengaruhi situasi ini? Apa yang sudah saya lakukan sejauh ini untuk diri saya sendiri? Kapabilitas, ide, atau sumber daya apa lagi yang bisa saya akses untuk berhasil menghadapi tantangan ini? 05 Dari scarcity ke abundance: Apa yang bisa menjadi skenario win-win dalam situasi ini? Jika saya melepaskan beberapa batasan dalam situasi ini, peluang yang lebih besar apa yang mungkin muncul? 06 Dari protection ke opportunity: Bagaimana jika ini bukan sekadar untuk menghindari risiko, melainkan skenario yang menangkap peluang? Apa hal terbaik yang bisa muncul dari situasi ini? Bagaimana saya bisa mendorong agar hal tersebut benar-benar terjadi?"
+         }
+        },
+        {
+         "title": {
+          "en": "Take it to your team",
+          "id": "Terapkan ini untuk tim Anda"
+         },
+         "text": {
+          "en": "Whether you are a manager or a peer, you can use your newfound knowledge of mindsets to nudge others in the right direction. Here are four actions you can take. 01 Role model — show it in your own actions: when people see an adaptable mindset, they are drawn to imitate it. Talk openly about your mindsets, both the helpful and unhelpful ones, and what you do to reframe your mindset. Be as specific as possible. Example: “I used to see this as a setback, but now I see it as a learning opportunity. Here's what I did to shift my perspective…” 02 Prime them — use powerful questions: using phrases is a great way to prime others. For example, to get others into an abundance mindset you might ask, “What is the win-win here?” For a growth mindset you could try, “What can we learn from this?” Example: “What's another way to look at this?” “What opportunities might this create?” 03 Help them use APR — share a simple tool: share the APR approach and help others use it. If tensions are high at a meeting, for example, and some people have adopted limiting mindsets, draw awareness to it and help team members pause. Example: “Let's take a pause, reflect on what we're assuming, and reframe this. What else could be true?” 04 Reinforce mindsets — notice and encourage: point out to others when they are demonstrating helpful mindsets and encourage them further. For example, if a colleague was operating from a creative place during a challenge, point out that it would have been easy to slip into a reactive mode and encourage everyone to keep up the creative mindset. Example: “I really appreciate how you approached that with curiosity. It opened up new possibilities for the team.” Better conversations, stronger teams.",
+          "id": "Baik Anda seorang manajer maupun rekan kerja, Anda dapat menggunakan pemahaman baru tentang mindset untuk mengarahkan orang lain ke arah yang lebih positif. Berikut empat tindakan yang bisa Anda lakukan. 01 Jadilah teladan — tunjukkan dalam tindakan nyata: ketika orang lain melihat mindset yang adaptif, mereka cenderung menirunya. Bicarakan secara terbuka tentang mindset Anda, baik yang membantu maupun yang menantang, serta apa yang Anda lakukan untuk mengubahnya. Jadilah spesifik sejauh mungkin. Contoh: “Dulu saya melihat ini sebagai hambatan, tapi sekarang saya melihatnya sebagai peluang belajar. Berikut yang saya lakukan untuk mengubah cara pandang saya…” 02 Gunakan pertanyaan pemicu — ajukan pertanyaan yang kuat: pertanyaan yang tepat dapat membuka perspektif baru bagi orang lain. Misalnya, untuk membantu orang lain memiliki mindset kelimpahan (abundance), Anda bisa bertanya, “Apa hasil terbaik yang mungkin terjadi di sini?” atau “Pelajaran apa yang bisa kita ambil dari situasi ini?” Contoh: “Cara lain apa yang bisa dilihat dari situasi ini?” “Peluang apa yang bisa kita ciptakan dari sini?” 03 Bantu mereka menggunakan APR — bagikan alat yang sederhana: perkenalkan pendekatan APR (Awareness-Pause-Reframe) dan bantu orang lain mempraktikkannya. Misalnya, ketika ketegangan tinggi dalam sebuah rapat, dan Anda mengetahui beberapa orang memiliki mindset yang membatasi, arahkan mereka untuk menyadarinya dan ajak tim mengambil jeda sejenak. Contoh: “Yuk kita berhenti sejenak, refleksikan apa yang sedang kita asumsikan, dan coba lihat dari sudut pandang lain. Apa lagi yang mungkin benar?” 04 Perkuat mindset positif — berikan apresiasi dan dorongan: tunjukkan dan akui ketika orang lain mulai menunjukkan mindset yang positif, lalu dorong mereka untuk terus melakukannya. Misalnya, jika seorang rekan berani mengemukakan ide dari sudut pandang yang kreatif dalam sebuah tantangan, tekankan bahwa hal tersebut sebetulnya bisa saja menjadi reaksi defensif, dan apresiasi keberanian mereka untuk tetap terbuka. Contoh: “Saya sangat mengapresiasi cara Anda melihat hal ini dengan rasa ingin tahu. Ini membuka kemungkinan baru bagi tim.” Percakapan yang lebih baik, tim yang lebih kuat."
+         }
+        },
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Poin-poin penting"
+         },
+         "text": {
+          "en": "Same mindset, new possibilities: same old way, or a brighter way. In this module, we have covered the following key tools. 01 Recognizing mindsets — use this to identify whether your current mindset is limiting and switch to a more adaptable one like growth or creative when needed. “Awareness is the first step towards a different tomorrow.” 02 Awareness, Pause and Reframe (APR) framework — use this in a difficult situation to shift your mindsets for greater adaptability and resilience. “Pause. Look differently. Choose what's possible.” Resources you may also wish to explore: “The power of believing that you can improve” (TED, Carol Dweck); “Growth mindset tempers the effects of poverty on academic achievement”; “How the scarcity mindset can make problems worse” (NPR, 2017). Keep exploring: a more open mindset creates a brighter future.",
+          "id": "Pola pikir baru, peluang baru, masa depan yang lebih baik: pola pikir yang sama, atau jalan menuju masa depan yang lebih cerah. Dalam modul ini, kita telah membahas dua alat penting berikut. 01 Mengenali pola pikir — gunakan ini untuk mengidentifikasi apakah pola pikir Anda saat ini bersifat membatasi, dan beralih ke pola pikir yang lebih adaptif seperti growth (bertumbuh) atau creative (kreatif) saat dibutuhkan. “Kesadaran adalah langkah pertama menuju hari esok yang berbeda.” 02 Kerangka Awareness-Pause-Reframe (APR) — gunakan ini dalam situasi yang menantang untuk mengubah pola pikir Anda demi meningkatkan adaptabilitas dan ketangguhan (resiliensi). “Berhenti sejenak. Lihat dari sudut pandang berbeda. Pilih yang mungkin.” Referensi tambahan yang dapat Anda eksplorasi: “Kekuatan keyakinan bahwa Anda bisa berkembang” (TED, Carol Dweck); “Growth mindset tempers the effects of poverty on academic achievement”; “Bagaimana pola pikir kelangkaan dapat memperburuk masalah” (NPR, 2017). Teruslah belajar: pola pikir yang lebih terbuka menciptakan masa depan yang lebih cerah."
+         }
+        }
+       ]
+      }
+     ],
      "sections": [
       {
        "icon": "book",
