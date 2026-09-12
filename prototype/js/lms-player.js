@@ -645,6 +645,7 @@
       b.addEventListener('click', function () { show(k); });
       strip.appendChild(b);
     });
+    if (N === 1) strip.hidden = true;   /* a single-slide deck has nothing to pick from */
     wrap.appendChild(strip);
     host.appendChild(wrap);
 
