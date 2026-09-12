@@ -1124,6 +1124,73 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 5 slides",
+        "id": "Baca berikutnya · 5 slide"
+       },
+       "title": {
+        "en": "Stages of Maturity — Material",
+        "id": "Tahapan Menuju Kematangan Diri — Materi"
+       },
+       "intro": {
+        "en": "After the films, five slides trace the path from dependence to independence to interdependence, sum up the private and public victories, and show why changing your paradigms changes your habits — and why those paradigms must align with principles. Then continue to Exhibit 1 below.",
+        "id": "Setelah film, lima slide menelusuri jalan dari ketergantungan ke kemandirian hingga saling ketergantungan, merangkum kemenangan pribadi dan publik, dan menunjukkan mengapa mengubah paradigma mengubah kebiasaan — serta mengapa paradigma itu harus selaras dengan prinsip. Lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/stages-maturity-",
+       "slides": [
+        {
+         "title": {
+          "en": "Stages of maturity",
+          "id": "Tahapan menuju kematangan diri"
+         },
+         "text": {
+          "en": "Growth today, a stronger tomorrow. Stages of maturity: like a seed that grows into a mature tree, our personal and interpersonal effectiveness happens through natural growth. 01 Dependence — relies on others. Behaviors: rely on others, leave decisions to others, and tend to blame others. Results: lack capacity to do, don’t know what to do, and have weaker relationships. 02 Independence — takes ownership. Behaviors: get things done on your own, make your own decisions, and don’t need supervision. Results: limited to your own capacity, limited to your own ideas, and little to no feedback. 03 Interdependence — grows together. Behaviors: collaborate with others, value differing strengths, seek inclusion, and work toward a shared vision. Results: exponentially greater creativity, ideas, and results; upward cycle of improvement and growth; strong, fulfilling relationships. Dependence, the seed: needs support from others. Independence, the sprout: starts to grow on its own. Interdependence, the tree: grows higher together. Key takeaway: true maturity is a journey, not a destination. Each stage builds valuable lessons that lead to a stronger, more fulfilling version of ourselves and our relationships.",
+          "id": "Pertumbuhan hari ini, masa depan yang lebih baik. Tahapan menuju kematangan diri: seperti biji yang tumbuh menjadi pohon yang kuat, efektivitas diri berkembang secara alami melalui proses pertumbuhan. 01 Ketergantungan — bertumpu pada orang lain. Perilaku: mengandalkan orang lain, menyerahkan keputusan kepada orang lain, dan cenderung menyalahkan orang lain. Hasil: kurang kapasitas untuk bertindak, tidak tahu harus berbuat apa, dan hubungan menjadi lemah. 02 Kemandirian — mengambil kendali atas diri sendiri. Perilaku: melakukan sesuatu secara mandiri, mengambil keputusan sendiri, dan tidak lagi membutuhkan pengawasan. Hasil: terbatas pada kapasitas diri sendiri, terbatas pada ide sendiri, dan minim dalam menerima umpan balik. 03 Saling ketergantungan — berkolaborasi untuk hasil yang lebih besar. Perilaku: bekerja sama dengan orang lain, menghargai perbedaan kekuatan, mencari inklusi, dan bergerak menuju visi bersama. Hasil: kreativitas, ide, dan hasil yang jauh lebih besar, siklus peningkatan dan pertumbuhan berkelanjutan, serta hubungan yang lebih kuat dan bermakna. Ketergantungan, biji: butuh dukungan dari luar. Kemandirian, tunas: mulai tumbuh secara mandiri. Saling ketergantungan, pohon yang kuat: bersama, tumbuh lebih tinggi. Kematangan diri adalah perjalanan, bukan tujuan akhir. Setiap tahap membawa pelajaran yang berharga untuk versi diri yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Key summary — the private and public victories",
+          "id": "Ringkasan utama — kemenangan pribadi dan kemenangan publik"
+         },
+         "text": {
+          "en": "Key summary: the private and public victories. Achieving independence is a Private Victory® and must happen before the Public Victory® of interdependence. Consider your own effectiveness in terms of the Maturity Continuum. Effectiveness is getting results today so you can get even better results in the future. Lasting effectiveness is rooted in strong character. Increased effectiveness comes by growing from dependence to independence to interdependence.",
+          "id": "Ringkasan utama: kemenangan pribadi dan kemenangan publik. Mencapai kemandirian adalah Kemenangan Pribadi, dan harus terjadi sebelum Kemenangan Publik yaitu saling ketergantungan. Pertimbangkan efektivitas diri Anda berdasarkan Kontinuum Kematangan. Efektivitas adalah tentang mendapatkan hasil hari ini, sehingga Anda dapat mencapai hasil yang lebih baik di masa depan. Efektivitas jangka panjang berakar pada karakter yang kuat. Peningkatan efektivitas terjadi melalui pertumbuhan dari ketergantungan, menuju kemandirian, hingga saling ketergantungan."
+         }
+        },
+        {
+         "title": {
+          "en": "Change your paradigms; change your habits",
+          "id": "Ubah paradigma Anda; ubah kebiasaan Anda"
+         },
+         "text": {
+          "en": "Mindset shapes actions. Change your paradigms; change your habits. Our results depend on what we do. And what we do depends on how we see the world around us. Therefore, if you want to change your habits, begin by changing your paradigms. What are paradigms? Paradigms are the way we see, understand, and interpret the world — our mental map. Paradigms are deeper than attitudes and behaviors, and changing your paradigm can result in greater changes than changing your behaviors. Different paradigms, a clearer tomorrow: see differently, understand more deeply, interpret the world, different actions, better results.",
+          "id": "Pola pikir membentuk tindakan. Ubah paradigma Anda; ubah kebiasaan Anda. Hasil yang kita capai bergantung pada apa yang kita lakukan. Dan apa yang kita lakukan bergantung pada bagaimana kita melihat dunia di sekitar kita. Oleh karena itu, jika Anda ingin mengubah kebiasaan Anda, mulailah dengan mengubah paradigma Anda. Apa itu paradigma? Paradigma adalah cara kita melihat, memahami, dan menafsirkan dunia — peta mental kita. Paradigma lebih mendalam daripada sekadar sikap dan perilaku, dan mengubah paradigma dapat menghasilkan perubahan yang lebih besar dibandingkan dengan hanya mengubah perilaku Anda. Perspektif berbeda, masa depan yang lebih cerah: melihat lebih jernih, memahami lebih dalam, menafsirkan dunia dengan lebih baik, tindakan yang lebih tepat, hasil yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Key summary — paradigm change",
+          "id": "Ringkasan utama — perubahan paradigma"
+         },
+         "text": {
+          "en": "Key summary. “If you want to make minor changes in your life, work on your behavior. But if you want to make significant, quantum breakthroughs, work on your paradigms.” In order to be effective, you need to invest in Private and Public Victories. Highly effective people have effective habits. The most effective way to change your habits is by changing your paradigms. Behavior change → paradigm change.",
+          "id": "Ringkasan utama. “Jika Anda ingin membuat perubahan kecil dalam hidup Anda, fokuslah pada perilaku Anda. Namun jika Anda ingin membuat terobosan besar yang signifikan, fokuslah pada paradigma Anda.” Untuk menjadi efektif, Anda perlu berinvestasi pada Kemenangan Pribadi dan Kemenangan Publik. Orang yang sangat efektif memiliki kebiasaan yang efektif. Cara paling efektif untuk mengubah kebiasaan Anda adalah dengan mengubah paradigma Anda. Perubahan perilaku → perubahan paradigma. Perspektif baru, masa depan lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Align paradigms with principles",
+          "id": "Selaraskan paradigma dengan prinsip"
+         },
+         "text": {
+          "en": "Align paradigms with principles. Principles are timeless, universal, and self-evident, and they operate whether or not we accept or understand them. Effective paradigms lead to effective behavior. Effective people align their paradigms with principles of effectiveness. Principles — timeless & universal: principles are timeless, universal, and self-evident, and they operate whether or not we accept or understand them. Paradigms — shape how we see: effective people align their paradigms with principles of effectiveness. Behavior — drive effective action: effective paradigms lead to effective behavior. Right principles, a brighter tomorrow.",
+          "id": "Selaraskan paradigma dengan prinsip. Prinsip bersifat abadi, universal, dan sudah jelas kebenarannya, serta tetap berlaku apakah kita menerima atau memahaminya atau tidak. Paradigma yang efektif akan menghasilkan perilaku yang efektif. Orang yang efektif menyelaraskan paradigma mereka dengan prinsip-prinsip efektivitas. Prinsip — bersifat abadi & universal: prinsip bersifat abadi, universal, dan sudah jelas kebenarannya, serta tetap berlaku apakah kita menerima atau memahaminya atau tidak. Paradigma — membentuk cara kita melihat: orang yang efektif menyelaraskan paradigma mereka dengan prinsip-prinsip efektivitas. Perilaku — menghasilkan tindakan yang efektif: paradigma yang efektif akan menghasilkan perilaku yang efektif. Prinsip yang tepat, masa depan yang lebih cerah."
+         }
+        }
+       ]
       }
      ],
      "youtube": [
