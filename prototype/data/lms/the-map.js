@@ -2177,8 +2177,8 @@ window.MT_LMS['the-map'] = {
         "id": "Misi Pribadi — Materi"
        },
        "intro": {
-        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film, empat slide mengarahkan hasil itu ke dalam diri: apa itu misi pribadi dan tiga cara memikirkannya, refleksi ulang tahun ke-80, satu pertanyaan tentang satu kehidupan Anda yang unik dan berharga, dan pengingat penutup untuk tidak menyia-nyiakannya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it. Read them, then watch the two films that follow.",
+        "id": "Setelah film, empat slide mengarahkan hasil itu ke dalam diri: apa itu misi pribadi dan tiga cara memikirkannya, refleksi ulang tahun ke-80, satu pertanyaan tentang satu kehidupan Anda yang unik dan berharga, dan pengingat penutup untuk tidak menyia-nyiakannya. Bacalah, lalu tonton dua film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/personal-mission-",
        "slides": [
@@ -2240,6 +2240,38 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "After the slides, watch this short film to see the idea in motion: why beginning with the end in mind changes the steps you take today, and how defining the outcome first turns intention into results. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
         "id": "Setelah slide, tonton film singkat ini untuk melihat gagasannya bergerak: mengapa memulai dengan tujuan akhir di pikiran mengubah langkah yang Anda ambil hari ini, dan bagaimana menentukan hasil lebih dulu mengubah niat menjadi hasil nyata. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
+       }
+      },
+      {
+       "id": "nWj5f7sLtUs",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch · Lesson film 2",
+        "id": "Tonton · Film pelajaran 2"
+       },
+       "title": {
+        "en": "Personal Mission — Film 1",
+        "id": "Misi Pribadi — Film 1"
+       },
+       "intro": {
+        "en": "The slides asked you to watch the next video with your 80th birthday in mind. Here it is: as you watch, imagine what you would want your family, friends and colleagues to say about you, and note what belongs in your personal mission statement. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the second film below.",
+        "id": "Slide tadi meminta Anda menonton video berikutnya dengan membayangkan ulang tahun ke-80 Anda. Inilah videonya: sambil menonton, bayangkan apa yang ingin Anda dengar dari keluarga, teman, dan rekan kerja tentang diri Anda, dan catat apa yang layak masuk ke pernyataan misi pribadi Anda. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke film kedua di bawah."
+       }
+      },
+      {
+       "id": "FEH27urHwvg",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch · Lesson film 3",
+        "id": "Tonton · Film pelajaran 3"
+       },
+       "title": {
+        "en": "Personal Mission — Film 2",
+        "id": "Misi Pribadi — Film 2"
+       },
+       "intro": {
+        "en": "A second film to close the material: what it looks like to live by a personal mission, and why purposeful use of your time is the difference between a busy life and a meaningful one. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
+        "id": "Film kedua untuk menutup materi ini: seperti apa hidup yang dijalani berdasarkan misi pribadi, dan mengapa memanfaatkan waktu dengan tujuan adalah perbedaan antara hidup yang sibuk dan hidup yang bermakna. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
        }
       }
      ],
