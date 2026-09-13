@@ -2089,6 +2089,85 @@ window.MT_LMS['the-map'] = {
        "id": "Perencanaan mundur mengubah hasil 3 tahun menjadi daftar periksa untuk semester ini."
       }
      ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 6 slides",
+        "id": "Baca dulu · 6 slide"
+       },
+       "title": {
+        "en": "Designing the First Outcome — Material",
+        "id": "Merancang Hasil Sejak Awal — Materi"
+       },
+       "intro": {
+        "en": "Six slides open the lesson: three honest questions about the life you are building, why direction matters more than pace, setting direction with a personal vision, beginning with the end in mind, defining outcomes before you act, and the two creations — mental first, physical second. Read them, then continue to Exhibit 1 below.",
+        "id": "Enam slide membuka pelajaran ini: tiga pertanyaan jujur tentang hidup yang sedang Anda bangun, mengapa arah lebih penting daripada kecepatan, menentukan arah dengan visi pribadi, memulai dengan tujuan akhir di pikiran, menentukan hasil sebelum bertindak, dan dua penciptaan — mental lebih dulu, fisik kemudian. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/outcome-first-",
+       "slides": [
+        {
+         "title": {
+          "en": "Designing the outcome first",
+          "id": "Merancang hasil sejak awal"
+         },
+         "text": {
+          "en": "Designing your life. Before you take the next step, pause and reflect. The direction you choose today shapes the life you live tomorrow. 01 Are you right now who you want to be? Are you living the life you dreamed of, doing what you always wanted to do? Be honest. 02 Sometimes successes can feel empty. People may achieve visible wins, but at the expense of things that are far more valuable to them. 03 Direction matters. If your ladder is not leaning against the right wall, every step you take gets you to the wrong place faster. Focus on what you can control: focus time and energy on things that can be controlled. “Success means nothing if it takes you away from what truly matters.” — unknown. Reflect, prioritize, choose, take action. A clearer vision today, a more meaningful tomorrow.",
+          "id": "Merancang kehidupan Anda. Sebelum melangkah ke tahap berikutnya, luangkan waktu untuk berhenti sejenak dan merenung. Arah yang Anda pilih hari ini akan membentuk kehidupan yang Anda jalani di masa depan. 01 Apakah Anda saat ini sudah menjadi pribadi yang ingin Anda lihat di masa depan? Apakah Anda sudah menjalani kehidupan yang Anda impikan dan melakukan hal-hal yang selalu ingin Anda lakukan? Jawab dengan jujur. 02 Terkadang kesuksesan bisa terasa hampa. Banyak orang meraih pencapaian yang terlihat luar biasa, namun dengan mengorbankan hal-hal lain yang sebenarnya jauh lebih bermakna bagi mereka. 03 Arah sangat menentukan. Jika tangga Anda tidak bersandar pada dinding yang tepat, setiap langkah yang Anda ambil justru akan membawa Anda ke tempat yang salah, lebih cepat. Fokus pada hal yang bisa Anda kendalikan: luangkan waktu dan energi pada hal-hal yang berada dalam kendali Anda. “Kesuksesan tidak ada artinya jika membuat Anda menjauh dari hal-hal yang benar-benar penting.” — penulis tidak diketahui. Refleksi, prioritaskan, pilih dengan sadar, ambil tindakan. Visi yang lebih jelas hari ini, menciptakan masa depan yang lebih bermakna untuk Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Set your direction with a personal vision",
+          "id": "Tentukan arah hidup Anda dengan visi pribadi"
+         },
+         "text": {
+          "en": "Lesson 1. Give your efforts direction by articulating your vision for your life. Habit 2 is based on the principles of vision (see the bigger picture), commitment (stay dedicated to what matters) and purpose (give meaning to your journey). Common paradigm: “I can’t predict how my life will turn out, so I just go with the flow.” Common practices: get started without a clear idea of what you want to achieve; let others’ agendas and circumstances define how you live your life. Shift your mindset — from reacting to life to creating it. Highly effective paradigm: “Clearly defining my vision and purpose in life will make all the difference.” Highly effective practices: define outcomes before you act; create and live by a personal mission statement. Key takeaway: a clear vision gives direction, fuels commitment, and helps you live a more purposeful life. Your vision, a brighter you.",
+          "id": "Pelajaran 1. Berikan arah pada setiap usaha Anda dengan merumuskan visi untuk hidup Anda. Kebiasaan 2 didasarkan pada prinsip visi (melihat gambaran besar), komitmen (tetap konsisten pada hal yang penting), dan tujuan (memberikan makna pada perjalanan hidup Anda). Paradigma umum: “Saya tidak bisa memprediksi bagaimana hidup saya akan berjalan, jadi saya hanya mengikuti arus saja.” Praktik umum: memulai sesuatu tanpa kejelasan tentang apa yang ingin Anda capai; membiarkan agenda dan keadaan orang lain menentukan bagaimana Anda menjalani hidup. Ubah cara pandang Anda — dari sekadar mengikuti keadaan menjadi menciptakan kehidupan yang Anda inginkan. Paradigma sangat efektif: “Dengan mendefinisikan visi dan tujuan hidup saya secara jelas, saya dapat membuat perbedaan yang nyata.” Praktik sangat efektif: tentukan hasil yang ingin dicapai sebelum bertindak; buat dan jalani pernyataan misi pribadi (personal mission statement). Intisari utama: visi yang jelas memberikan arah, menumbuhkan komitmen, dan membantu Anda menjalani hidup yang lebih bermakna. Visi Anda, versi terbaik dari Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Begin with the end in mind",
+          "id": "Mulailah dengan tujuan akhir di pikiran"
+         },
+         "text": {
+          "en": "Live with purpose. To avoid spending your time and energy on activities that won’t get you where you want to go, you must begin with the end in mind. This means crafting a plan before you take action and developing a personal mission statement to help you define what you value and what you want to achieve. “It’s incredibly easy to work harder and harder at climbing the ladder of success, only to discover that it’s leaning against the wrong wall.” — Stephen R. Covey. Your destination — not the wrong direction.",
+          "id": "Hidup dengan tujuan. Untuk menghindari membuang waktu dan energi Anda pada aktivitas yang tidak akan membawa Anda ke tempat yang Anda inginkan, Anda harus mulai dengan tujuan akhir di pikiran. Ini berarti menyusun rencana sebelum bertindak dan membuat pernyataan misi pribadi untuk membantu Anda menentukan apa yang Anda hargai dan apa yang ingin Anda capai. “Sangat mudah untuk bekerja semakin keras dan semakin keras dalam mengejar kesuksesan, hanya untuk kemudian menyadari bahwa kita justru bersandar pada dinding yang salah.” — Stephen R. Covey. Tujuan Anda — bukan arah yang salah. Langkah hari ini menuju versi terbaik diri Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Define outcomes before you act",
+          "id": "Tentukan hasil yang ingin dicapai sebelum Anda bertindak"
+         },
+         "text": {
+          "en": "Turn intention into action. Be clear about what you want to achieve, so every step you take moves you in the right direction. Common practice: get started without a clear idea of what you want to achieve — “just start and see where it goes”; often leads to scattered efforts, easily distracted by others’ agendas, harder to measure progress. Highly effective practice: define outcomes before you act — “be clear on what you want to achieve, then take action with purpose”; provides clarity and focus, helps you prioritize what matters, increases the chances of success. Defining outcomes and achieving outcomes: the “mental creation” involves defining outcomes. Before you act, get specific about the outcomes you really want to see. Then work toward achieving those specific outcomes. Key takeaway: define the destination before you take the first step. Clarity today, a brighter tomorrow.",
+          "id": "Ubah niat menjadi aksi. Jadilah jelas tentang apa yang ingin Anda capai, sehingga setiap langkah yang Anda ambil akan membawa Anda ke arah yang tepat. Praktik umum: memulai tanpa kejelasan tentang apa yang ingin Anda capai — “mulai saja dulu, nanti lihat ke mana arahnya”; sering kali menghasilkan upaya yang tersebar dan tidak fokus, mudah teralihkan oleh agenda orang lain, lebih sulit mengukur kemajuan. Praktik sangat efektif: tentukan hasil yang ingin dicapai sebelum bertindak — “jadilah jelas tentang apa yang ingin Anda capai, lalu ambil tindakan dengan tujuan yang kuat”; memberikan kejelasan dan fokus, membantu Anda memprioritaskan hal yang benar-benar penting, meningkatkan peluang keberhasilan. Menentukan hasil dan mencapainya: “penciptaan mental” melibatkan penentuan hasil yang ingin dicapai. Sebelum Anda bertindak, jadilah spesifik tentang hasil yang benar-benar ingin Anda lihat. Kemudian, bekerjalah secara konsisten untuk mencapai hasil tersebut. Poin utama: tentukan tujuan akhir sebelum Anda mengambil langkah pertama. Kejelasan hari ini, menciptakan masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Defining outcomes and achieving outcomes",
+          "id": "Menentukan hasil dan mencapainya"
+         },
+         "text": {
+          "en": "From clarity in the mind to impact in the real world. Mental — first creation: a clear agenda and objective; well-researched market specifications; a goal with a clear end point and deadline; a compelling personal mission statement. Define the outcome first. Physical — second creation: a productive meeting; a successful product in the marketplace; a goal achieved with excellence and on time; a life of contribution and fulfillment. From intention to real impact. Clarity creates direction; outcomes create a brighter tomorrow.",
+          "id": "Dari kejelasan di dalam pikiran menuju dampak nyata di dunia nyata. Mental — penciptaan pertama: membayangkan, merencanakan, dan mendefinisikan hasil yang ingin dicapai; agenda dan tujuan yang jelas; riset pasar yang mendalam dan spesifikasi yang matang; tujuan dengan titik akhir yang jelas dan tenggat waktu; pernyataan misi pribadi yang kuat dan bermakna. Tentukan hasilnya terlebih dahulu. Fisik — penciptaan kedua: mewujudkan hasil melalui tindakan nyata di dunia nyata; rapat yang produktif; produk yang sukses di pasar; tujuan yang tercapai dengan hasil yang unggul dan tepat waktu; hidup yang penuh kontribusi dan kepuasan. Dari niat menuju dampak nyata. Kejelasan hari ini, arah yang lebih baik; hasil hari ini, masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "From intention to real results",
+          "id": "Dari niat ke hasil nyata"
+         },
+         "text": {
+          "en": "Key summary. Success starts with clarity about what you want to achieve, then bringing it to life through consistent action. 1 First creation (mental) — involves defining the outcomes you want to achieve: “everything begins with a clear picture in your mind.” 2 Second creation (physical) — focuses on taking action toward the defined outcomes: “turn your plan into consistent action.” 3 Achieved outcomes — defining outcomes leads to achieving outcomes: “clarity today creates a better tomorrow.” Key takeaway: defining the outcomes you want to achieve leads to achieving those outcomes. Clarity creates direction; action creates results. A clear vision, consistent action, a more meaningful result.",
+          "id": "Ringkasan utama. Keberhasilan dimulai dari kejelasan tentang apa yang ingin dicapai, kemudian diwujudkan melalui tindakan yang konsisten. 1 Penciptaan pertama (mental) — mencakup penetapan hasil yang ingin dicapai: “semua dimulai dari gambaran yang jelas di dalam pikiran.” 2 Penciptaan kedua (fisik) — berfokus pada pencapaian hasil yang telah ditetapkan: “ubah rencana menjadi tindakan nyata yang konsisten.” 3 Hasil yang dicapai — menetapkan hasil yang ingin dicapai mengarah pada pencapaian hasil tersebut: “kejelasan hari ini membawa hasil nyata esok hari.” Poin utama: menetapkan hasil yang ingin dicapai mengarah pada pencapaian hasil tersebut. Kejelasan membawa arah; tindakan membawa hasil. Visi yang jelas, tindakan yang konsisten, hasil yang bermakna."
+         }
+        }
+       ]
+      }
+     ],
      "sections": [
       {
        "icon": "flag",
