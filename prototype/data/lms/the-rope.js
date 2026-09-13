@@ -71,6 +71,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyesuaikan bentuk jawabanmu supaya catatan pewawancara bekerja untukmu."
       }
      ],
+     "takeawaysLead": {
+      "en": "Interviewers are not neutral instruments, and the decision is made from notes in a room you never enter. To work with that reality, you can:",
+      "id": "Pewawancara bukan instrumen pengukur yang netral, dan keputusan dibuat dari catatan di ruangan yang tak pernah kamu masuki. Untuk bekerja dengan kenyataan itu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "The first minutes set a hypothesis; every answer after either confirms or corrects it — so put evidence early.",
@@ -85,31 +89,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Struktur adalah hadiah bagi pewawancara yang lelah — dan pewawancara yang lelah membalas hadiah."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Why does putting evidence early in an answer matter?",
-       "id": "Mengapa menaruh bukti di awal jawaban itu penting?"
-      },
-      "options": [
-       {
-        "en": "Because the interviewer's early hypothesis colours everything that follows",
-        "id": "Karena hipotesis awal pewawancara mewarnai semua yang datang sesudahnya"
-       },
-       {
-        "en": "Because interviews are always decided in the first sixty seconds",
-        "id": "Karena wawancara selalu diputuskan dalam enam puluh detik pertama"
-       },
-       {
-        "en": "Because long answers are automatically disqualified",
-        "id": "Karena jawaban yang panjang otomatis gugur"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — early impressions are not final verdicts, but they set the frame your later answers are read through.",
-       "id": "Benar — kesan awal bukan vonis akhir, tetapi ia menjadi bingkai yang dipakai untuk membaca jawaban-jawabanmu berikutnya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -218,6 +197,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "Why does putting evidence early in an answer matter?",
+        "id": "Mengapa menaruh bukti di awal jawaban itu penting?"
+       },
+       "options": [
+        {
+         "en": "Because the interviewer's early hypothesis colours everything that follows",
+         "id": "Karena hipotesis awal pewawancara mewarnai semua yang datang sesudahnya"
+        },
+        {
+         "en": "Because interviews are always decided in the first sixty seconds",
+         "id": "Karena wawancara selalu diputuskan dalam enam puluh detik pertama"
+        },
+        {
+         "en": "Because long answers are automatically disqualified",
+         "id": "Karena jawaban yang panjang otomatis gugur"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — early impressions are not final verdicts, but they set the frame your later answers are read through.",
+        "id": "Benar — kesan awal bukan vonis akhir, tetapi ia menjadi bingkai yang dipakai untuk membaca jawaban-jawabanmu berikutnya."
+       }
+      },
       {
        "q": {
         "en": "Your interview 'record' in the hiring meeting is:",
@@ -335,6 +339,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Mengadaptasi satu ceritamu supaya bisa dituturkan secara berbeda di dua format yang berbeda."
       }
      ],
+     "takeawaysLead": {
+      "en": "Four rooms, four different tests — most failures are the right performance in the wrong room. To match the room every time, you can:",
+      "id": "Empat ruangan, empat ujian berbeda — sebagian besar kegagalan adalah penampilan yang tepat di ruangan yang salah. Untuk selalu cocok dengan ruangannya, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "HR screens for risk and motivation; technical rounds test thinking; user rounds test partnership; finals test judgment and trajectory.",
@@ -349,31 +357,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Tanyakan siapa yang akan kamu temui sebelum setiap ronde; nama ruangannya memberitahumu apa ujiannya."
       }
      ],
-     "check": {
-      "q": {
-       "en": "A peer/user interviewer most wants to know:",
-       "id": "Pewawancara dari calon rekan setim (user) paling ingin tahu:"
-      },
-      "options": [
-       {
-        "en": "Whether your salary expectation fits the budget",
-        "id": "Apakah ekspektasi gajimu sesuai anggaran"
-       },
-       {
-        "en": "Whether they would want to work beside you on a hard week",
-        "id": "Apakah mereka mau bekerja di sampingmu pada minggu yang berat"
-       },
-       {
-        "en": "Whether you know the company's founding year",
-        "id": "Apakah kamu tahu tahun berdirinya perusahaan"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — user rounds are partnership tests: load-sharing, communication, and how you behave when things break.",
-       "id": "Benar — ronde user adalah ujian kemitraan: berbagi beban, komunikasi, dan caramu bersikap saat keadaan memburuk."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -473,14 +456,63 @@ window.MT_LMS['the-rope'] = {
        "id": "Kandidat yang sama, cerita yang sama — irisan yang berbeda untuk tiap ruangan. Tanyakan siapa yang akan kamu temui; nama ruangannya menyebutkan ujiannya."
       },
       "exhibit": {
-       "en": "Exhibit 2: Four rooms, four tests",
-       "id": "Peraga 2: Empat ruangan, empat ujian"
+       "en": "Exhibit 1: Four rooms, four tests",
+       "id": "Peraga 1: Empat ruangan, empat ujian"
       },
       "longdesc": {
        "en": "Diagram of Four rooms, four tests. It presents, in order: HR screen — Risk filter: motivation, money, timeline, red flags; Technical — Thinking test: method aloud beats silent correctness; User / peer — Partnership test: would we survive a bad week together?; Final — Judgment & trajectory: headlines first, years ahead.",
        "id": "Diagram tentang empat ruangan, empat ujian. Menyajikan, secara berurutan: Penyaringan HR — penyaring risiko: motivasi, uang, lini waktu, tanda bahaya; Teknis — ujian berpikir: metode yang diucapkan mengalahkan jawaban benar dalam diam; User / rekan setim — ujian kemitraan: sanggupkah kita melewati minggu yang buruk bersama?; Final — pertimbangan & lintasan: intinya dulu, berpikir bertahun-tahun ke depan."
       }
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "HR screen",
+        "id": "seleksi HR"
+       },
+       "def": {
+        "en": "The first, usually short, conversation with a recruiter that tests motivation, salary fit, timeline, communication baseline and red flags — it rarely hires you but can always end your candidacy.",
+        "id": "Percakapan pertama, biasanya singkat, dengan perekrut yang menguji motivasi, kecocokan gaji, garis waktu, standar komunikasi, dan tanda bahaya — jarang merekrutmu tetapi selalu bisa mengakhiri pencalonanmu."
+       }
+      },
+      {
+       "term": {
+        "en": "altitude",
+        "id": "ketinggian"
+       },
+       "def": {
+        "en": "The level at which a story is told — execution detail for peers, decisions for managers, business impact for executives. The same story changes altitude between rooms.",
+        "id": "Tingkat penceritaan sebuah kisah — detail eksekusi untuk rekan, keputusan untuk manajer, dampak bisnis untuk eksekutif. Kisah yang sama berganti ketinggian antar ruangan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A peer/user interviewer most wants to know:",
+        "id": "Pewawancara dari calon rekan setim (user) paling ingin tahu:"
+       },
+       "options": [
+        {
+         "en": "Whether your salary expectation fits the budget",
+         "id": "Apakah ekspektasi gajimu sesuai anggaran"
+        },
+        {
+         "en": "Whether they would want to work beside you on a hard week",
+         "id": "Apakah mereka mau bekerja di sampingmu pada minggu yang berat"
+        },
+        {
+         "en": "Whether you know the company's founding year",
+         "id": "Apakah kamu tahu tahun berdirinya perusahaan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — user rounds are partnership tests: load-sharing, communication, and how you behave when things break.",
+        "id": "Benar — ronde user adalah ujian kemitraan: berbagi beban, komunikasi, dan caramu bersikap saat keadaan memburuk."
+       }
+      }
+     ],
      "tryit": {
       "qid": "hr01",
       "label": {
@@ -523,6 +555,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menahan refleks mengisi keheningan dengan materi yang lebih lemah."
       }
      ],
+     "takeawaysLead": {
+      "en": "The room talks back while you speak, and conversations reward listeners. To read the three live signals and adjust, you can:",
+      "id": "Ruangan berbicara balik saat kamu bicara, dan percakapan menghargai pendengar. Untuk membaca tiga sinyal langsung dan menyesuaikan diri, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Note-taking bursts mark quotable moments — give one more sentence of that, then land.",
@@ -537,31 +573,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Keheningan setelah jawabanmu adalah waktu berpikir — milik mereka. Jangan membelinya kembali dengan melantur."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The interviewer glances at the time in the middle of your story. Best response:",
-       "id": "Pewawancara melirik jam di tengah ceritamu. Respons terbaik:"
-      },
-      "options": [
-       {
-        "en": "Speed up your speaking pace and keep all the detail",
-        "id": "Mempercepat tempo bicara dan mempertahankan semua detail"
-       },
-       {
-        "en": "Stop and ask if they are bored",
-        "id": "Berhenti dan bertanya apakah mereka bosan"
-       },
-       {
-        "en": "Compress: jump to your action and the result in two sentences",
-        "id": "Memadatkan: langsung lompat ke tindakan dan hasilnya dalam dua kalimat"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — the glance says the ration of attention is closing. Land the plane: action, result, stop.",
-       "id": "Benar — lirikan itu berarti jatah perhatian hampir habis. Daratkan pesawatnya: tindakan, hasil, berhenti."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -594,6 +605,63 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "quad",
+      "exhibit": {
+       "en": "Exhibit 1: Three signals and one non-signal — what each one means, and the adjustment it calls for.",
+       "id": "Peraga 1: Tiga sinyal dan satu bukan-sinyal — arti masing-masing, dan penyesuaian yang dituntutnya."
+      },
+      "title": {
+       "en": "Reading the room",
+       "id": "Membaca ruangan"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Writing burst",
+         "id": "Ledakan mencatat"
+        },
+        "sub": {
+         "en": "They heard something useful — one more concrete sentence, then stop",
+         "id": "Mereka mendengar sesuatu yang berguna — satu kalimat konkret lagi, lalu berhenti"
+        }
+       },
+       {
+        "h": {
+         "en": "Deep follow-up",
+         "id": "Pertanyaan lanjutan mendalam"
+        },
+        "sub": {
+         "en": "Interest, not doubt — stay and go deeper, honestly",
+         "id": "Minat, bukan keraguan — tetap di sana dan masuk lebih dalam, dengan jujur"
+        }
+       },
+       {
+        "h": {
+         "en": "Clock glance",
+         "id": "Lirikan ke jam"
+        },
+        "sub": {
+         "en": "Land the result in one sentence and hand the turn back",
+         "id": "Daratkan hasilnya dalam satu kalimat dan serahkan giliran kembali"
+        }
+       },
+       {
+        "h": {
+         "en": "Silence",
+         "id": "Keheningan"
+        },
+        "sub": {
+         "en": "Not an emergency — their thinking time; do not buy it back with weaker material",
+         "id": "Bukan keadaan darurat — waktu berpikir mereka; jangan menebusnya dengan bahan yang lebih lemah"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A two-by-two grid of what the room signals while you speak. A writing burst means give one more concrete sentence; a deep follow-up means interest, so go deeper; a clock glance means land the result and hand back the turn; silence after an answer is the interviewer's thinking time and should be left alone.",
+       "id": "Kisi dua kali dua tentang sinyal ruangan saat kamu bicara. Ledakan mencatat berarti beri satu kalimat konkret lagi; pertanyaan lanjutan mendalam berarti minat, jadi masuk lebih dalam; lirikan ke jam berarti daratkan hasil dan serahkan giliran; keheningan setelah jawaban adalah waktu berpikir pewawancara dan sebaiknya dibiarkan."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -662,6 +730,33 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "The interviewer glances at the time in the middle of your story. Best response:",
+        "id": "Pewawancara melirik jam di tengah ceritamu. Respons terbaik:"
+       },
+       "options": [
+        {
+         "en": "Speed up your speaking pace and keep all the detail",
+         "id": "Mempercepat tempo bicara dan mempertahankan semua detail"
+        },
+        {
+         "en": "Stop and ask if they are bored",
+         "id": "Berhenti dan bertanya apakah mereka bosan"
+        },
+        {
+         "en": "Compress: jump to your action and the result in two sentences",
+         "id": "Memadatkan: langsung lompat ke tindakan dan hasilnya dalam dua kalimat"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — the glance says the ration of attention is closing. Land the plane: action, result, stop.",
+        "id": "Benar — lirikan itu berarti jatah perhatian hampir habis. Daratkan pesawatnya: tindakan, hasil, berhenti."
+       }
+      }
+     ],
      "glossary": [
       {
        "term": {
@@ -671,6 +766,16 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The probing question after your answer — where inflated claims collapse and honest depth scores.",
         "id": "Pertanyaan penggali setelah jawabanmu — tempat klaim yang dibesar-besarkan runtuh, dan kedalaman yang jujur mendapat nilai."
+       }
+      },
+      {
+       "term": {
+        "en": "writing burst",
+        "id": "ledakan mencatat"
+       },
+       "def": {
+        "en": "The moment an interviewer suddenly writes — they have just heard something useful. Give that thread one more concrete sentence, then stop.",
+        "id": "Momen ketika pewawancara tiba-tiba menulis — mereka baru saja mendengar sesuatu yang berguna. Beri benang itu satu kalimat konkret lagi, lalu berhenti."
        }
       }
      ]
@@ -705,6 +810,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Meminta waktu berpikir secara terbuka tanpa kehilangan kredibilitas."
       }
      ],
+     "takeawaysLead": {
+      "en": "The room is only as dangerous as your framing of it. To make every technique in this course usable under pressure, you can:",
+      "id": "Ruangan itu hanya seberbahaya cara kamu membingkainya. Agar setiap teknik dalam kursus ini bisa dipakai di bawah tekanan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "An interview is an evaluation of fit, capability, judgment, communication and potential — and you are evaluating them back.",
@@ -719,31 +828,6 @@ window.MT_LMS['the-rope'] = {
        "id": "“Pertanyaan yang bagus — izinkan saya berpikir sejenak” adalah langkah orang senior, bukan pengakuan kelemahan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Which reframe does this lesson teach?",
-       "id": "Pembingkaian ulang mana yang diajarkan pelajaran ini?"
-      },
-      "options": [
-       {
-        "en": "Interview as mutual evaluation, nerves as energy, thinking time as legitimate",
-        "id": "Wawancara sebagai evaluasi dua arah, gugup sebagai energi, waktu berpikir sebagai hal yang sah"
-       },
-       {
-        "en": "Interview as a battle you must dominate from the first minute",
-        "id": "Wawancara sebagai pertarungan yang harus kamu kuasai sejak menit pertama"
-       },
-       {
-        "en": "Interview as a formality once your CV is strong enough",
-        "id": "Wawancara sebagai formalitas kalau CV-mu sudah cukup kuat"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — evaluation, not interrogation; energy, not threat; deliberation, not deficiency.",
-       "id": "Benar — evaluasi, bukan interogasi; energi, bukan ancaman; pertimbangan, bukan kekurangan."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -779,6 +863,75 @@ window.MT_LMS['the-rope'] = {
        "icon": "target"
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The three mindset moves, in the order they are made — before the door, at the first flutter, at the first hard question.",
+       "id": "Peraga 1: Tiga langkah pola pikir, dalam urutan pelaksanaannya — sebelum pintu, saat debar pertama, saat pertanyaan sulit pertama."
+      },
+      "title": {
+       "en": "Reframe → Relabel → Take thinking time",
+       "id": "Bingkai ulang → Beri label ulang → Ambil waktu berpikir"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Reframe",
+         "id": "Bingkai ulang"
+        },
+        "sub": {
+         "en": "Interrogation → evaluation: two parties checking fit",
+         "id": "Interogasi → evaluasi: dua pihak memeriksa kecocokan"
+        }
+       },
+       {
+        "h": {
+         "en": "Relabel",
+         "id": "Beri label ulang"
+        },
+        "sub": {
+         "en": "“I am excited” — the same body, a usable label",
+         "id": "“Saya bersemangat” — tubuh yang sama, label yang bisa dipakai"
+        }
+       },
+       {
+        "h": {
+         "en": "Take thinking time",
+         "id": "Ambil waktu berpikir"
+        },
+        "sub": {
+         "en": "“Good question — let me think for a moment”: breathe, choose a structure, speak",
+         "id": "“Pertanyaan bagus — izinkan saya berpikir sejenak”: bernapas, pilih struktur, bicara"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A three-step flow: reframe the interview from interrogation to evaluation before you enter; relabel the body's arousal as excitement when it arrives; and take legitimate thinking time before answering a hard question, choosing a structure before speaking.",
+       "id": "Alur tiga langkah: bingkai ulang wawancara dari interogasi menjadi evaluasi sebelum masuk; beri label ulang gairah tubuh sebagai antusiasme saat ia datang; dan ambil waktu berpikir yang sah sebelum menjawab pertanyaan sulit, memilih struktur sebelum bicara."
+      }
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "evaluation frame",
+        "id": "bingkai evaluasi"
+       },
+       "def": {
+        "en": "Seeing the interview as two parties checking fit — you deciding about them as much as they about you — instead of an interrogation with a suspect.",
+        "id": "Memandang wawancara sebagai dua pihak yang memeriksa kecocokan — kamu menilai mereka sebagaimana mereka menilaimu — alih-alih interogasi dengan seorang tersangka."
+       }
+      },
+      {
+       "term": {
+        "en": "arousal relabelling",
+        "id": "pelabelan ulang gairah"
+       },
+       "def": {
+        "en": "Naming the body's raised pulse and quick breath as excitement rather than fear; the physiology is nearly identical, and the label decides whether it fuels or freezes performance.",
+        "id": "Menamai denyut yang cepat dan napas yang pendek sebagai antusiasme alih-alih ketakutan; fisiologinya nyaris identik, dan labelnya yang menentukan apakah ia menggerakkan atau membekukan penampilan."
+       }
+      }
+     ],
      "listen": [
       {
        "label": {
@@ -798,6 +951,33 @@ window.MT_LMS['the-rope'] = {
        "text": {
         "en": "My heart is racing because I am ready for this. This is excitement. It is here to make me faster.",
         "id": "Jantungku berdebar karena aku siap menghadapi ini. Ini semangat. Ia ada untuk membuatku lebih cepat."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which reframe does this lesson teach?",
+        "id": "Pembingkaian ulang mana yang diajarkan pelajaran ini?"
+       },
+       "options": [
+        {
+         "en": "Interview as mutual evaluation, nerves as energy, thinking time as legitimate",
+         "id": "Wawancara sebagai evaluasi dua arah, gugup sebagai energi, waktu berpikir sebagai hal yang sah"
+        },
+        {
+         "en": "Interview as a battle you must dominate from the first minute",
+         "id": "Wawancara sebagai pertarungan yang harus kamu kuasai sejak menit pertama"
+        },
+        {
+         "en": "Interview as a formality once your CV is strong enough",
+         "id": "Wawancara sebagai formalitas kalau CV-mu sudah cukup kuat"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — evaluation, not interrogation; energy, not threat; deliberation, not deficiency.",
+        "id": "Benar — evaluasi, bukan interogasi; energi, bukan ancaman; pertimbangan, bukan kekurangan."
        }
       }
      ],
@@ -896,6 +1076,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menghindari jebakan STAR yang kaku, yang membuat kandidat hafalan mudah dilupakan."
       }
      ],
+     "takeawaysLead": {
+      "en": "STAR-L is scaffolding for truth, not a script. To let the structure live under natural speech, you can:",
+      "id": "STAR-L adalah perancah bagi kebenaran, bukan naskah. Agar strukturnya hidup di balik tutur yang alami, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Setup is one sentence; the action is the story; the result is a number; the learning is the gift.",
@@ -910,31 +1094,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Kalimat pembelajaran adalah pembeda antara jawaban yang baik dan jawaban yang diingat."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Where should most of your speaking time go in a STAR-L answer?",
-       "id": "Ke mana sebagian besar waktu bicaramu seharusnya pergi dalam jawaban STAR-L?"
-      },
-      "options": [
-       {
-        "en": "The result, repeated in several different ways",
-        "id": "Ke hasilnya, diulang dengan beberapa cara yang berbeda"
-       },
-       {
-        "en": "The actions you personally took",
-        "id": "Ke tindakan yang kamu ambil sendiri"
-       },
-       {
-        "en": "The context, so the interviewer fully understands the situation",
-        "id": "Ke konteksnya, supaya pewawancara benar-benar paham situasinya"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — context in one line, then spend the answer on what you did. Actions carry the evidence.",
-       "id": "Benar — konteks cukup satu kalimat, lalu habiskan jawabanmu untuk apa yang kamu lakukan. Tindakanlah yang membawa bukti."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -1033,8 +1192,8 @@ window.MT_LMS['the-rope'] = {
        "id": "60–150 kata sudah cukup. Kalau labelnya sampai terlihat, lunakkan — kerangka ini merapikan kebenaran, bukan mempertontonkannya."
       },
       "exhibit": {
-       "en": "Exhibit 3: STAR-L — the narrative spine and its proportions",
-       "id": "Peraga 3: STAR-L — tulang punggung narasi dan proporsinya"
+       "en": "Exhibit 1: STAR-L — the narrative spine and its proportions",
+       "id": "Peraga 1: STAR-L — tulang punggung narasi dan proporsinya"
       },
       "longdesc": {
        "en": "Diagram of STAR-L — the narrative spine and its proportions. It presents, in order: Context — 1 sentence — where and when; Challenge — 1 sentence — what made it hard; Action — The bulk — what YOU did, in sequence; Result — 1–2 sentences — with a number; Learning — 1 line — the principle you keep.",
@@ -1100,6 +1259,16 @@ window.MT_LMS['the-rope'] = {
         "en": "Context → Challenge → Action → Result → Learning: the narrative spine for behavioral answers.",
         "id": "Konteks → Tantangan → Tindakan → Hasil → Pembelajaran: tulang punggung narasi untuk jawaban pertanyaan perilaku."
        }
+      },
+      {
+       "term": {
+        "en": "learning line",
+        "id": "baris pembelajaran"
+       },
+       "def": {
+        "en": "The final beat of STAR-L: what changed in you. Result proves competence; the learning line proves growth, which is what interviewers hiring for potential weigh most.",
+        "id": "Ketukan terakhir STAR-L: apa yang berubah dalam dirimu. Hasil membuktikan kompetensi; baris pembelajaran membuktikan pertumbuhan, yang paling ditimbang pewawancara yang merekrut untuk potensi."
+       }
       }
      ],
      "mistakes": {
@@ -1135,7 +1304,34 @@ window.MT_LMS['the-rope'] = {
         }
        }
       ]
-     }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "Where should most of your speaking time go in a STAR-L answer?",
+        "id": "Ke mana sebagian besar waktu bicaramu seharusnya pergi dalam jawaban STAR-L?"
+       },
+       "options": [
+        {
+         "en": "The result, repeated in several different ways",
+         "id": "Ke hasilnya, diulang dengan beberapa cara yang berbeda"
+        },
+        {
+         "en": "The actions you personally took",
+         "id": "Ke tindakan yang kamu ambil sendiri"
+        },
+        {
+         "en": "The context, so the interviewer fully understands the situation",
+         "id": "Ke konteksnya, supaya pewawancara benar-benar paham situasinya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — context in one line, then spend the answer on what you did. Actions carry the evidence.",
+        "id": "Benar — konteks cukup satu kalimat, lalu habiskan jawabanmu untuk apa yang kamu lakukan. Tindakanlah yang membawa bukti."
+       }
+      }
+     ]
     },
     {
      "n": "2.2",
@@ -1167,6 +1363,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Memberi label pada cerita-ceritamu sendiri berdasarkan kompetensi yang dibuktikannya."
       }
      ],
+     "takeawaysLead": {
+      "en": "Thousands of behavioural questions reduce to ten competencies. To hear the probe through the costume, you can:",
+      "id": "Ribuan pertanyaan perilaku menyusut menjadi sepuluh kompetensi. Untuk mendengar sasaran di balik kostumnya, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Every behavioral question is a competency probe wearing costume; identify the competency and retrieval becomes instant.",
@@ -1181,31 +1381,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Cakupan mengalahkan jumlah: delapan cerita yang menutup sepuluh kategori mengungguli tiga puluh anekdot tanpa label."
       }
      ],
-     "check": {
-      "q": {
-       "en": "“Tell me about a time you had to deliver bad news” is primarily probing:",
-       "id": "“Ceritakan saat Anda harus menyampaikan kabar buruk” terutama menggali:"
-      },
-      "options": [
-       {
-        "en": "Technical depth in your domain",
-        "id": "Kedalaman teknis di bidangmu"
-       },
-       {
-        "en": "Salary expectations",
-        "id": "Ekspektasi gaji"
-       },
-       {
-        "en": "Communication and courage under discomfort",
-        "id": "Komunikasi dan keberanian dalam situasi yang tidak nyaman"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — the costume is “bad news”; the competency is candid communication when it costs something.",
-       "id": "Benar — kostumnya “kabar buruk”; kompetensinya adalah komunikasi yang jujur ketika kejujuran itu ada harganya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -1311,8 +1486,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Begitu mendengar pertanyaan perilaku apa pun, sebut dulu ruangannya dalam hati — lalu panggil cerita berlabel yang tinggal di sana."
       },
       "exhibit": {
-       "en": "Exhibit 4: The ten competency rooms",
-       "id": "Peraga 4: Sepuluh ruang kompetensi"
+       "en": "Exhibit 1: The ten competency rooms",
+       "id": "Peraga 1: Sepuluh ruang kompetensi"
       },
       "longdesc": {
        "en": "Diagram of The ten competency rooms. It presents, in order: Leadership & influence; Ownership & initiative; Conflict; Resilience & failure; Communication; Prioritisation; Learning agility; Judgment; Collaboration; Integrity & courage.",
@@ -1320,6 +1495,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "“Tell me about a time you had to deliver bad news” is primarily probing:",
+        "id": "“Ceritakan saat Anda harus menyampaikan kabar buruk” terutama menggali:"
+       },
+       "options": [
+        {
+         "en": "Technical depth in your domain",
+         "id": "Kedalaman teknis di bidangmu"
+        },
+        {
+         "en": "Salary expectations",
+         "id": "Ekspektasi gaji"
+        },
+        {
+         "en": "Communication and courage under discomfort",
+         "id": "Komunikasi dan keberanian dalam situasi yang tidak nyaman"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — the costume is “bad news”; the competency is candid communication when it costs something.",
+        "id": "Benar — kostumnya “kabar buruk”; kompetensinya adalah komunikasi yang jujur ketika kejujuran itu ada harganya."
+       }
+      },
       {
        "q": {
         "en": "“Describe a time you had too much to do and too little time” lives in which room?",
@@ -1409,6 +1609,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Membangun perpustakaan inti berisi delapan cerita yang menutup semua sepuluh kompetensi."
       }
      ],
+     "takeawaysLead": {
+      "en": "“I don't have stories” is a retrieval failure, not an experience failure. To mine your own history, you can:",
+      "id": "“Saya tidak punya cerita” adalah kegagalan mengingat, bukan kegagalan pengalaman. Untuk menambang sejarahmu sendiri, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Stories hide where there was tension plus a decision — dig at those coordinates.",
@@ -1423,31 +1627,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Delapan cerita yang sudah dipoles dan diberi label adalah persenjataan lengkap untuk hampir semua wawancara."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The best signal that an experience contains an interview story is:",
-       "id": "Sinyal terbaik bahwa sebuah pengalaman mengandung cerita untuk wawancara adalah:"
-      },
-      "options": [
-       {
-        "en": "There was tension, and you made a decision inside it",
-        "id": "Ada ketegangan, dan kamu mengambil keputusan di dalamnya"
-       },
-       {
-        "en": "It happened at a famous company",
-        "id": "Terjadi di perusahaan yang terkenal"
-       },
-       {
-        "en": "It lasted longer than six months",
-        "id": "Berlangsung lebih dari enam bulan"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — prestige and duration are irrelevant; tension plus decision plus consequence is the anatomy of a story.",
-       "id": "Benar — prestise dan durasi tidak relevan; ketegangan plus keputusan plus akibat adalah anatomi sebuah cerita."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -1470,6 +1649,63 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The mining protocol — twenty moments in, eight tagged stories out.",
+       "id": "Peraga 1: Protokol penambangan — dua puluh momen masuk, delapan cerita bertanda keluar."
+      },
+      "title": {
+       "en": "Raw dig → Decision filter → Result and tag → Library",
+       "id": "Gali mentah → Saring keputusan → Hasil dan tanda → Pustaka"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Raw dig",
+         "id": "Gali mentah"
+        },
+        "sub": {
+         "en": "Twenty moments of tension from three years — one line each, no filtering",
+         "id": "Dua puluh momen ketegangan dari tiga tahun — satu baris masing-masing, tanpa penyaringan"
+        }
+       },
+       {
+        "h": {
+         "en": "Decision filter",
+         "id": "Saring keputusan"
+        },
+        "sub": {
+         "en": "“Did I decide something?” Cut the ones you only witnessed",
+         "id": "“Apakah saya memutuskan sesuatu?” Buang yang hanya kamu saksikan"
+        }
+       },
+       {
+        "h": {
+         "en": "Result and tag",
+         "id": "Hasil dan tanda"
+        },
+        "sub": {
+         "en": "What changed, with a number; which of the ten competencies it evidences",
+         "id": "Apa yang berubah, dengan angka; kompetensi mana dari sepuluh yang dibuktikannya"
+        }
+       },
+       {
+        "h": {
+         "en": "Library",
+         "id": "Pustaka"
+        },
+        "sub": {
+         "en": "Eight polished, tagged stories — a complete arsenal",
+         "id": "Delapan cerita yang dipoles dan bertanda — persenjataan lengkap"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A four-step flow: list twenty moments of tension without filtering; keep only those where you made a decision; attach a result with a number and tag each with the competencies it evidences; and assemble the eight best into your story library.",
+       "id": "Alur empat langkah: daftar dua puluh momen ketegangan tanpa penyaringan; simpan hanya yang di dalamnya kamu membuat keputusan; lampirkan hasil dengan angka dan tandai masing-masing dengan kompetensi yang dibuktikannya; dan susun delapan yang terbaik ke dalam pustaka ceritamu."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -1555,6 +1791,16 @@ window.MT_LMS['the-rope'] = {
         "en": "Context → Challenge → Action → Result → Learning: the narrative spine for behavioral answers.",
         "id": "Konteks → Tantangan → Tindakan → Hasil → Pembelajaran: tulang punggung narasi untuk jawaban pertanyaan perilaku."
        }
+      },
+      {
+       "term": {
+        "en": "decision filter",
+        "id": "saringan keputusan"
+       },
+       "def": {
+        "en": "The mining step that keeps only moments where you decided something and cuts those where you merely witnessed — the test that separates a story from an anecdote.",
+        "id": "Langkah penambangan yang hanya menyimpan momen ketika kamu memutuskan sesuatu dan membuang momen ketika kamu sekadar menyaksikan — ujian yang memisahkan cerita dari anekdot."
+       }
       }
      ],
      "mistakes": {
@@ -1580,7 +1826,34 @@ window.MT_LMS['the-rope'] = {
         }
        }
       ]
-     }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "The best signal that an experience contains an interview story is:",
+        "id": "Sinyal terbaik bahwa sebuah pengalaman mengandung cerita untuk wawancara adalah:"
+       },
+       "options": [
+        {
+         "en": "There was tension, and you made a decision inside it",
+         "id": "Ada ketegangan, dan kamu mengambil keputusan di dalamnya"
+        },
+        {
+         "en": "It happened at a famous company",
+         "id": "Terjadi di perusahaan yang terkenal"
+        },
+        {
+         "en": "It lasted longer than six months",
+         "id": "Berlangsung lebih dari enam bulan"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — prestige and duration are irrelevant; tension plus decision plus consequence is the anatomy of a story.",
+        "id": "Benar — prestise dan durasi tidak relevan; ketegangan plus keputusan plus akibat adalah anatomi sebuah cerita."
+       }
+      }
+     ]
     },
     {
      "n": "2.4",
@@ -1612,6 +1885,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyesuaikan bahasa rasa memiliki ke atas dan ke bawah sesuai level, dengan jujur."
       }
      ],
+     "takeawaysLead": {
+      "en": "One story, many altitudes — calibration, not new stories, covers every room. To calibrate without inflating, you can:",
+      "id": "Satu cerita, banyak ketinggian — kalibrasi, bukan cerita baru, yang mencakup setiap ruangan. Untuk mengalibrasi tanpa menggelembungkan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Peers want your hands, managers want your choices, executives want the consequences.",
@@ -1626,31 +1903,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Siapkan tiga ketinggian dari dua cerita terbaikmu sebelum rangkaian wawancara tatap muka mana pun."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Telling a story to an executive, you should lead with:",
-       "id": "Saat bercerita kepada seorang eksekutif, sebaiknya kamu membuka dengan:"
-      },
-      "options": [
-       {
-        "en": "The tools and techniques you used",
-        "id": "Alat dan teknik yang kamu pakai"
-       },
-       {
-        "en": "The outcome and its business consequence, then decisions on request",
-        "id": "Hasilnya beserta akibat bisnisnya, lalu keputusannya kalau diminta"
-       },
-       {
-        "en": "Every step of the process in chronological order",
-        "id": "Setiap langkah prosesnya, secara kronologis"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — executives buy consequences first. The chronology exists if they ask; most will not.",
-       "id": "Benar — eksekutif membeli akibatnya lebih dulu. Kronologinya tersedia kalau mereka minta; kebanyakan tidak akan meminta."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -1726,8 +1978,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Melatih perpindahannya hanya butuh beberapa menit dan melipatgandakan perpustakaanmu tiga kali. Kalibrasi mengubah penekanan — tidak pernah mengubah fakta."
       },
       "exhibit": {
-       "en": "Exhibit 5: One story, three altitudes",
-       "id": "Peraga 5: Satu cerita, tiga ketinggian"
+       "en": "Exhibit 1: One story, three altitudes",
+       "id": "Peraga 1: Satu cerita, tiga ketinggian"
       },
       "longdesc": {
        "en": "Diagram of One story, three altitudes. It presents, in order: Execution — Tools, sequence, obstacles — for peers; Decision — Options, criteria, trade-offs — for managers; Impact — Money, time, risk, people — for executives.",
@@ -1764,6 +2016,33 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
         "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Telling a story to an executive, you should lead with:",
+        "id": "Saat bercerita kepada seorang eksekutif, sebaiknya kamu membuka dengan:"
+       },
+       "options": [
+        {
+         "en": "The tools and techniques you used",
+         "id": "Alat dan teknik yang kamu pakai"
+        },
+        {
+         "en": "The outcome and its business consequence, then decisions on request",
+         "id": "Hasilnya beserta akibat bisnisnya, lalu keputusannya kalau diminta"
+        },
+        {
+         "en": "Every step of the process in chronological order",
+         "id": "Setiap langkah prosesnya, secara kronologis"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — executives buy consequences first. The chronology exists if they ask; most will not.",
+        "id": "Benar — eksekutif membeli akibatnya lebih dulu. Kronologinya tersedia kalau mereka minta; kebanyakan tidak akan meminta."
        }
       }
      ]
@@ -1817,6 +2096,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menjawab sedemikian rupa sehingga kalimat-kalimat terbaikmu bertahan sampai ke catatan debrief."
       }
      ],
+     "takeawaysLead": {
+      "en": "You are feeding a scoring process, whether or not a scorecard is visible. To give every interviewer a quotable 5, you can:",
+      "id": "Kamu sedang memberi makan proses penilaian, entah lembar nilainya terlihat atau tidak. Untuk memberi setiap pewawancara nilai 5 yang bisa dikutip, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "A 3 shows competence; a 5 shows competence plus scale, initiative or learning — aim your evidence there.",
@@ -1831,31 +2114,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Hasil wawancaramu adalah jumlah bukti yang bisa dikutip, bukan rata-rata dari kesan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Interviewers keep asking for specific examples because:",
-       "id": "Pewawancara terus meminta contoh yang spesifik karena:"
-      },
-      "options": [
-       {
-        "en": "They doubt everything you say by default",
-        "id": "Mereka meragukan semua ucapanmu sejak awal"
-       },
-       {
-        "en": "They are trying to fill the time",
-        "id": "Mereka sedang mengisi waktu"
-       },
-       {
-        "en": "Rubrics require evidence, and only specifics count as evidence",
-        "id": "Rubrik menuntut bukti, dan hanya hal spesifik yang dihitung sebagai bukti"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — a claim without an example cannot be scored. The push for specifics is the system working.",
-       "id": "Benar — klaim tanpa contoh tidak bisa diberi skor. Desakan untuk hal spesifik adalah tanda sistemnya sedang bekerja."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -1934,8 +2192,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Kebanyakan kandidat membidik angka 3 tanpa menyadarinya. Mengetahui bahwa deskripsi untuk angka 5 itu ada membuatmu bisa menggapainya dengan jujur."
       },
       "exhibit": {
-       "en": "Exhibit 6: The anchored scale — what separates 3 from 5",
-       "id": "Peraga 6: Skala penilaian — apa yang membedakan 3 dari 5"
+       "en": "Exhibit 1: The anchored scale — what separates 3 from 5",
+       "id": "Peraga 1: Skala penilaian — apa yang membedakan 3 dari 5"
       },
       "longdesc": {
        "en": "Diagram of The anchored scale — what separates 3 from 5. It presents, in order: 1 · No evidence — Claims without an example; 3 · Competent — One clear example, executed well; 5 · Exceptional — The example PLUS scale, initiative, or a learning applied later.",
@@ -1943,6 +2201,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "Interviewers keep asking for specific examples because:",
+        "id": "Pewawancara terus meminta contoh yang spesifik karena:"
+       },
+       "options": [
+        {
+         "en": "They doubt everything you say by default",
+         "id": "Mereka meragukan semua ucapanmu sejak awal"
+        },
+        {
+         "en": "They are trying to fill the time",
+         "id": "Mereka sedang mengisi waktu"
+        },
+        {
+         "en": "Rubrics require evidence, and only specifics count as evidence",
+         "id": "Rubrik menuntut bukti, dan hanya hal spesifik yang dihitung sebagai bukti"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — a claim without an example cannot be scored. The push for specifics is the system working.",
+        "id": "Benar — klaim tanpa contoh tidak bisa diberi skor. Desakan untuk hal spesifik adalah tanda sistemnya sedang bekerja."
+       }
+      },
       {
        "q": {
         "en": "To move an answer from a 3 to a 5, add:",
@@ -2056,6 +2339,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Memilih cerita yang membuktikan bahasa khas perusahaan itu."
       }
      ],
+     "takeawaysLead": {
+      "en": "Published values are the rubric in plain sight. To turn a company's own words into your preparation, you can:",
+      "id": "Nilai-nilai yang dipublikasikan adalah rubrik yang terlihat jelas. Untuk mengubah kata-kata perusahaan itu sendiri menjadi persiapanmu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Published values are the rubric in public; read them the week before, not the night before.",
@@ -2070,31 +2357,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Ucapkan ceritamu dalam kosakata mereka satu kali saja — secara alami — dan pemetaannya terjadi dengan sendirinya."
       }
      ],
-     "check": {
-      "q": {
-       "en": "A company lists “bias for action” among its principles. Your preparation move:",
-       "id": "Sebuah perusahaan mencantumkan “bias for action” di antara prinsip-prinsipnya. Langkah persiapanmu:"
-      },
-      "options": [
-       {
-        "en": "Ready a story where you moved before certainty and it was the right call",
-        "id": "Siapkan cerita ketika kamu bergerak sebelum ada kepastian, dan itu ternyata keputusan yang tepat"
-       },
-       {
-        "en": "Memorise the principle's exact wording to recite in the interview",
-        "id": "Hafalkan kata-kata persis prinsip itu untuk dibacakan saat wawancara"
-       },
-       {
-        "en": "Assume it is marketing language with no interview relevance",
-        "id": "Anggap itu bahasa pemasaran yang tidak ada hubungannya dengan wawancara"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — the principle predicts the probe. Evidence beats recitation.",
-       "id": "Benar — prinsip itu meramalkan pertanyaannya. Bukti mengalahkan hafalan."
-      }
-     },
      "slides": [
       {
        "h": {
@@ -2173,6 +2435,98 @@ window.MT_LMS['the-rope'] = {
        ]
       }
      ],
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Finding the rubric in public",
+        "id": "Menemukan rubrik di ruang publik"
+       },
+       "body": {
+        "en": "Careers pages, annual reports, founder letters and published leadership principles carry the competency language that interviews use — because the people who wrote the interview guide read the same pages. The tell is repetition: a company that says “ownership”, “rigour”, “speed” or “service” in three different places will ask a question shaped like each word. Spend one evening the week before the interview collecting them. Where nothing is published, the rubric still leaks: read several of the company's job advertisements and note requirements that repeat across roles — those are de facto values; ask people who have interviewed there, which is exactly what the Metanoia community and mentors exist for; and, failing both, default to the ten universal competencies from 2.2, which underlie every private rubric ever written.",
+        "id": "Halaman karier, laporan tahunan, surat pendiri, dan prinsip kepemimpinan yang dipublikasikan membawa bahasa kompetensi yang dipakai wawancara — karena orang yang menulis panduan wawancara membaca halaman yang sama. Petunjuknya adalah pengulangan: perusahaan yang menyebut “kepemilikan”, “ketelitian”, “kecepatan”, atau “pelayanan” di tiga tempat berbeda akan mengajukan pertanyaan yang berbentuk seperti tiap kata itu. Luangkan satu malam seminggu sebelum wawancara untuk mengumpulkannya. Bila tidak ada yang dipublikasikan, rubriknya tetap bocor: baca beberapa iklan lowongan perusahaan itu dan catat persyaratan yang berulang lintas peran — itulah nilai-nilai de facto; tanyakan pada orang yang pernah wawancara di sana, yang persis untuk itulah komunitas dan mentor Metanoia ada; dan bila keduanya gagal, kembali ke sepuluh kompetensi universal dari 2.2, yang mendasari setiap rubrik privat yang pernah ditulis."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Translating value-words into probes",
+        "id": "Menerjemahkan kata-nilai menjadi pertanyaan penyelidik"
+       },
+       "body": {
+        "en": "A value-word is not a question yet; the translation makes it one. “Customer obsession” becomes <i>tell me about a time you sacrificed convenience for a user</i>. “Integrity” becomes <i>describe a moment honesty cost you something</i>. “Bias for action” becomes <i>when did you move before you had all the information — and what happened?</i> Run the translation for every listed value, writing the probe in the interviewer's voice, and you have predicted roughly half the interview before it starts. The discipline that makes this honest rather than performative is asking, for each probe, “when did I actually behave this way?” — not “what would sound right?” The answer to the first question is a story; the answer to the second is a bluff, and 5.2 covers how bluffs end.",
+        "id": "Kata-nilai belum menjadi pertanyaan; penerjemahanlah yang membuatnya begitu. “Obsesi pada pelanggan” menjadi <i>ceritakan saat kamu mengorbankan kenyamanan demi pengguna</i>. “Integritas” menjadi <i>gambarkan momen ketika kejujuran merugikanmu</i>. “Kecenderungan bertindak” menjadi <i>kapan kamu bergerak sebelum punya semua informasi — dan apa yang terjadi?</i> Jalankan penerjemahan untuk setiap nilai yang tercantum, tulis pertanyaannya dengan suara pewawancara, dan kamu sudah memprediksi kira-kira separuh wawancara sebelum dimulai. Disiplin yang membuat ini jujur alih-alih pura-pura adalah bertanya, untuk setiap pertanyaan, “kapan saya benar-benar berperilaku seperti ini?” — bukan “apa yang akan terdengar tepat?” Jawaban atas pertanyaan pertama adalah cerita; jawaban atas yang kedua adalah gertakan, dan 5.2 membahas bagaimana gertakan berakhir."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Mapping your library onto their language",
+        "id": "Memetakan pustakamu ke bahasa mereka"
+       },
+       "body": {
+        "en": "With the probes written, open your tagged story library from Module 2 and, for each value, pick the one story that evidences it best. Most values map onto stories you already own under a different competency tag — “rigour” is usually a judgment or learning-agility story; “service” is often a conflict or communication one. Where a value has no story, you have found where the interview will hurt: mine for one now using the 2.3 protocol, or prepare the honest partial answer. In the telling, use their word once — naturally, in the place where it is true — and never as flattery; interviewers hear their own principles parroted back weekly and score it as noise. Used once, in evidence, the mapping does its job silently: the note the interviewer writes contains the word they were listening for, attached to a specific you actually did.",
+        "id": "Dengan pertanyaan-pertanyaan itu tertulis, buka pustaka cerita bertandamu dari Modul 2 dan, untuk setiap nilai, pilih satu cerita yang paling kuat membuktikannya. Sebagian besar nilai memetakan ke cerita yang sudah kamu miliki dengan tanda kompetensi berbeda — “ketelitian” biasanya cerita penilaian atau ketangkasan belajar; “pelayanan” sering kali cerita konflik atau komunikasi. Bila sebuah nilai tak punya cerita, kamu telah menemukan bagian yang akan menyakitkan saat wawancara: tambang sekarang dengan protokol 2.3, atau siapkan jawaban parsial yang jujur. Saat bercerita, pakai kata mereka sekali — secara alami, di tempat yang memang benar — dan jangan pernah sebagai sanjungan; pewawancara mendengar prinsip mereka sendiri dibeo setiap minggu dan menilainya sebagai kebisingan. Dipakai sekali, dalam bukti, pemetaan itu bekerja diam-diam: catatan yang ditulis pewawancara memuat kata yang mereka cari, melekat pada hal spesifik yang benar-benar kamu lakukan."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: From a published value to a rehearsed story — the translation runs in three moves.",
+       "id": "Peraga 1: Dari nilai yang dipublikasikan ke cerita yang dilatih — penerjemahan berjalan dalam tiga langkah."
+      },
+      "title": {
+       "en": "Value-word → Behaviour → Probe → Your story",
+       "id": "Kata-nilai → Perilaku → Pertanyaan → Ceritamu"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Value-word",
+         "id": "Kata-nilai"
+        },
+        "sub": {
+         "en": "“Customer obsession” — repeated across careers page, report, principles",
+         "id": "“Obsesi pada pelanggan” — berulang di halaman karier, laporan, prinsip"
+        }
+       },
+       {
+        "h": {
+         "en": "Behaviour",
+         "id": "Perilaku"
+        },
+        "sub": {
+         "en": "Sacrificing convenience for a user",
+         "id": "Mengorbankan kenyamanan demi pengguna"
+        }
+       },
+       {
+        "h": {
+         "en": "Probe",
+         "id": "Pertanyaan"
+        },
+        "sub": {
+         "en": "“Tell me about a time you…” — written in the interviewer's voice",
+         "id": "“Ceritakan saat kamu…” — ditulis dengan suara pewawancara"
+        }
+       },
+       {
+        "h": {
+         "en": "Your story",
+         "id": "Ceritamu"
+        },
+        "sub": {
+         "en": "The one tagged story that evidences it — their word used once",
+         "id": "Satu cerita bertanda yang membuktikannya — kata mereka dipakai sekali"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A four-step flow: a value-word found repeated in public material is translated into the behaviour it describes, then into the probe an interviewer would ask, and finally matched to the one tagged story in your library that evidences it, told with their word used once.",
+       "id": "Alur empat langkah: kata-nilai yang ditemukan berulang di materi publik diterjemahkan menjadi perilaku yang digambarkannya, lalu menjadi pertanyaan yang akan diajukan pewawancara, dan akhirnya dicocokkan dengan satu cerita bertanda di pustakamu yang membuktikannya, diceritakan dengan kata mereka dipakai sekali."
+      }
+     },
      "tryit": {
       "qid": "hr03",
       "label": {
@@ -2203,6 +2557,33 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
         "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A company lists “bias for action” among its principles. Your preparation move:",
+        "id": "Sebuah perusahaan mencantumkan “bias for action” di antara prinsip-prinsipnya. Langkah persiapanmu:"
+       },
+       "options": [
+        {
+         "en": "Ready a story where you moved before certainty and it was the right call",
+         "id": "Siapkan cerita ketika kamu bergerak sebelum ada kepastian, dan itu ternyata keputusan yang tepat"
+        },
+        {
+         "en": "Memorise the principle's exact wording to recite in the interview",
+         "id": "Hafalkan kata-kata persis prinsip itu untuk dibacakan saat wawancara"
+        },
+        {
+         "en": "Assume it is marketing language with no interview relevance",
+         "id": "Anggap itu bahasa pemasaran yang tidak ada hubungannya dengan wawancara"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — the principle predicts the probe. Evidence beats recitation.",
+        "id": "Benar — prinsip itu meramalkan pertanyaannya. Bukti mengalahkan hafalan."
        }
       }
      ]
@@ -2237,6 +2618,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyusun tabel persyaratan → bukti sebelum wawancara mana pun."
       }
      ],
+     "takeawaysLead": {
+      "en": "A job description is a leaked exam paper. To decode it into your preparation checklist, you can:",
+      "id": "Deskripsi pekerjaan adalah lembar ujian yang bocor. Untuk menguraikannya menjadi daftar periksa persiapanmu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Repetition is emphasis: any word appearing three times in a JD will appear in the interview.",
@@ -2251,31 +2636,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Tabel bukti yang sudah terisi mengubah kecemasan menghadapi wawancara menjadi daftar periksa."
       }
      ],
-     "check": {
-      "q": {
-       "en": "A JD lists “stakeholder management” in its first bullet and twice more below. You should:",
-       "id": "Sebuah deskripsi lowongan mencantumkan “stakeholder management” di butir pertama, dan dua kali lagi di bawahnya. Kamu sebaiknya:"
-      },
-      "options": [
-       {
-        "en": "Plan to ask the interviewer what they mean by it",
-        "id": "Berencana menanyakan maksudnya kepada pewawancara"
-       },
-       {
-        "en": "Prepare your strongest stakeholder story with a measurable outcome",
-        "id": "Menyiapkan cerita terkuatmu tentang pemangku kepentingan, dengan hasil yang terukur"
-       },
-       {
-        "en": "Ignore it — it appears in every JD",
-        "id": "Mengabaikannya — itu muncul di semua deskripsi lowongan"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — first position plus repetition marks the core competency. It will be probed; arrive with evidence.",
-       "id": "Benar — posisi pertama plus pengulangan menandai kompetensi inti. Itu pasti digali; datanglah dengan bukti."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -2361,8 +2721,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Sel-sel yang lemah di tabel itu adalah prioritas persiapanmu — sekaligus calon pertanyaan sulitmu."
       },
       "exhibit": {
-       "en": "Exhibit 7: The JD decode, in four passes",
-       "id": "Peraga 7: Mengurai deskripsi lowongan, dalam empat putaran"
+       "en": "Exhibit 1: The JD decode, in four passes",
+       "id": "Peraga 1: Mengurai deskripsi lowongan, dalam empat putaran"
       },
       "longdesc": {
        "en": "Diagram of The JD decode, in four passes. It presents, in order: Highlight — Every skill and behaviour word; Count — Three appearances = a core theme; Split — Musts vs nice-to-haves; Table — Requirement → my evidence → the number in it.",
@@ -2404,6 +2764,33 @@ window.MT_LMS['the-rope'] = {
        }
       ]
      },
+     "checks": [
+      {
+       "q": {
+        "en": "A JD lists “stakeholder management” in its first bullet and twice more below. You should:",
+        "id": "Sebuah deskripsi lowongan mencantumkan “stakeholder management” di butir pertama, dan dua kali lagi di bawahnya. Kamu sebaiknya:"
+       },
+       "options": [
+        {
+         "en": "Plan to ask the interviewer what they mean by it",
+         "id": "Berencana menanyakan maksudnya kepada pewawancara"
+        },
+        {
+         "en": "Prepare your strongest stakeholder story with a measurable outcome",
+         "id": "Menyiapkan cerita terkuatmu tentang pemangku kepentingan, dengan hasil yang terukur"
+        },
+        {
+         "en": "Ignore it — it appears in every JD",
+         "id": "Mengabaikannya — itu muncul di semua deskripsi lowongan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — first position plus repetition marks the core competency. It will be probed; arrive with evidence.",
+        "id": "Benar — posisi pertama plus pengulangan menandai kompetensi inti. Itu pasti digali; datanglah dengan bukti."
+       }
+      }
+     ],
      "glossary": [
       {
        "term": {
@@ -2457,6 +2844,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Merencanakan urutan pemolesan akhir sebelum rangkaian wawancara."
       }
      ],
+     "takeawaysLead": {
+      "en": "Twenty minutes of matrix beat hours of vague rehearsal. To assemble your library against the target framework, you can:",
+      "id": "Dua puluh menit matriks mengalahkan berjam-jam latihan yang samar. Untuk menyusun pustakamu terhadap kerangka target, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "The matrix turns preparation from a mood into a checklist.",
@@ -2471,31 +2862,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Kompetensi yang belum tertutup adalah penyergapan yang bisa diramalkan — tambang, atau siapkan rencananya sekarang."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Your matrix shows one competency with no story. Best move:",
-       "id": "Matriksmu menunjukkan satu kompetensi tanpa cerita. Langkah terbaik:"
-      },
-      "options": [
-       {
-        "en": "Hope the interview skips that competency",
-        "id": "Berharap wawancaranya melewatkan kompetensi itu"
-       },
-       {
-        "en": "Reuse any strong story and claim it fits",
-        "id": "Memakai ulang cerita kuat mana pun dan mengklaimnya cocok"
-       },
-       {
-        "en": "Mine deliberately for a story there, or prepare an honest gap acknowledgment",
-        "id": "Menambang cerita secara khusus untuk itu, atau menyiapkan pengakuan celah yang jujur"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — hope is not preparation, and forced fits collapse under follow-ups. Mine or acknowledge.",
-       "id": "Benar — berharap bukan persiapan, dan kecocokan yang dipaksakan runtuh oleh pertanyaan lanjutan. Tambang, atau akui."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -2518,6 +2884,63 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "quad",
+      "exhibit": {
+       "en": "Exhibit 1: Reading the story matrix — what each pattern of marks tells you to do next.",
+       "id": "Peraga 1: Membaca matriks cerita — apa yang diperintahkan tiap pola tanda untuk dilakukan berikutnya."
+      },
+      "title": {
+       "en": "Stories × competencies",
+       "id": "Cerita × kompetensi"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Workhorse story",
+         "id": "Cerita andalan"
+        },
+        "sub": {
+         "en": "Three or more marks — rehearse it at all three altitudes",
+         "id": "Tiga tanda atau lebih — latih di ketiga ketinggian"
+        }
+       },
+       {
+        "h": {
+         "en": "Deep column",
+         "id": "Kolom dalam"
+        },
+        "sub": {
+         "en": "Two-plus stories for one competency — vary answers across a long loop",
+         "id": "Dua cerita atau lebih untuk satu kompetensi — variasikan jawaban sepanjang rangkaian panjang"
+        }
+       },
+       {
+        "h": {
+         "en": "Empty column",
+         "id": "Kolom kosong"
+        },
+        "sub": {
+         "en": "A predictable ambush — mine a story now or plan the honest partial answer",
+         "id": "Penyergapan yang bisa diprediksi — tambang cerita sekarang atau siapkan jawaban parsial yang jujur"
+        }
+       },
+       {
+        "h": {
+         "en": "Single-mark story",
+         "id": "Cerita satu tanda"
+        },
+        "sub": {
+         "en": "Keep it lean — one altitude, one competency, polish last",
+         "id": "Jaga tetap ringkas — satu ketinggian, satu kompetensi, poles terakhir"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A two-by-two grid of the patterns a story matrix produces: a workhorse story with three or more marks earns triple polish; a competency column with two or more stories lets you vary answers; an empty column is a predictable ambush to mine for now; and a story with a single mark is kept lean and polished last.",
+       "id": "Kisi dua kali dua berisi pola yang dihasilkan matriks cerita: cerita andalan dengan tiga tanda atau lebih layak dipoles tiga kali; kolom kompetensi dengan dua cerita atau lebih memungkinkanmu memvariasikan jawaban; kolom kosong adalah penyergapan yang bisa diprediksi dan harus ditambang sekarang; dan cerita dengan satu tanda dijaga ringkas dan dipoles terakhir."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -2583,6 +3006,33 @@ window.MT_LMS['the-rope'] = {
        "why": {
         "en": "The bluff dies at the first follow-up. The owned gap earns trust, shows adjacent evidence, and turns the weakness into motive.",
         "id": "Gertakan mati di pertanyaan lanjutan pertama. Celah yang diakui menuai kepercayaan, memperlihatkan bukti yang berdekatan, dan mengubah kelemahan menjadi motivasi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Your matrix shows one competency with no story. Best move:",
+        "id": "Matriksmu menunjukkan satu kompetensi tanpa cerita. Langkah terbaik:"
+       },
+       "options": [
+        {
+         "en": "Hope the interview skips that competency",
+         "id": "Berharap wawancaranya melewatkan kompetensi itu"
+        },
+        {
+         "en": "Reuse any strong story and claim it fits",
+         "id": "Memakai ulang cerita kuat mana pun dan mengklaimnya cocok"
+        },
+        {
+         "en": "Mine deliberately for a story there, or prepare an honest gap acknowledgment",
+         "id": "Menambang cerita secara khusus untuk itu, atau menyiapkan pengakuan celah yang jujur"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — hope is not preparation, and forced fits collapse under follow-ups. Mine or acknowledge.",
+        "id": "Benar — berharap bukan persiapan, dan kecocokan yang dipaksakan runtuh oleh pertanyaan lanjutan. Tambang, atau akui."
        }
       }
      ],
@@ -2669,6 +3119,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menghindari kesalahan klasik di tahap penyaringan: melantur, kepahitan, angka gaji yang asal sebut."
       }
      ],
+     "takeawaysLead": {
+      "en": "Every screen question serves one of five mandates. To pass a screen that cannot hire you but can end you, you can:",
+      "id": "Setiap pertanyaan seleksi melayani satu dari lima mandat. Untuk lolos seleksi yang tak bisa merekrutmu tetapi bisa mengakhirimu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "HR cannot usually hire you, but can always end you — treat the screen as a precision round.",
@@ -2683,31 +3137,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Setiap pertanyaan penyaringan bermuara pada motivasi, uang, waktu, komunikasi, atau risiko."
       }
      ],
-     "check": {
-      "q": {
-       "en": "“Why are you leaving your current job?” serves which part of the HR mandate?",
-       "id": "“Mengapa Anda ingin meninggalkan pekerjaan Anda sekarang?” melayani bagian mandat HR yang mana?"
-      },
-      "options": [
-       {
-        "en": "Risk — checking for bitterness, conflict patterns, and unrealistic expectations",
-        "id": "Risiko — memeriksa kepahitan, pola konflik, dan ekspektasi yang tidak realistis"
-       },
-       {
-        "en": "Budget — estimating your salary expectations",
-        "id": "Anggaran — memperkirakan ekspektasi gajimu"
-       },
-       {
-        "en": "Timeline — determining your start date",
-        "id": "Waktu — menentukan tanggal mulaimu"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — the question hunts risk signals. A forward-facing answer clears it; litigating the past confirms it.",
-       "id": "Benar — pertanyaan itu memburu sinyal risiko. Jawaban yang menghadap ke depan meloloskanmu; mengadili masa lalu justru mengonfirmasi risikonya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -2806,8 +3235,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Setiap pertanyaan penyaringan bermuara ke salah satu dari lima itu. Nilai dirimu sendiri sebelum perekrut yang melakukannya."
       },
       "exhibit": {
-       "en": "Exhibit 8: The five questions every screen serves",
-       "id": "Peraga 8: Lima pertanyaan yang dilayani setiap penyaringan"
+       "en": "Exhibit 1: The five questions every screen serves",
+       "id": "Peraga 1: Lima pertanyaan yang dilayani setiap penyaringan"
       },
       "longdesc": {
        "en": "Diagram of The five questions every screen serves. It presents, in order: Motivation — This role, or any role?; Money — Does your range fit the band?; Timing — Notice period, start date, other processes; Communication — Clear on a first meeting?; Risk — Gaps, bitterness, inconsistencies.",
@@ -2815,6 +3244,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "“Why are you leaving your current job?” serves which part of the HR mandate?",
+        "id": "“Mengapa Anda ingin meninggalkan pekerjaan Anda sekarang?” melayani bagian mandat HR yang mana?"
+       },
+       "options": [
+        {
+         "en": "Risk — checking for bitterness, conflict patterns, and unrealistic expectations",
+         "id": "Risiko — memeriksa kepahitan, pola konflik, dan ekspektasi yang tidak realistis"
+        },
+        {
+         "en": "Budget — estimating your salary expectations",
+         "id": "Anggaran — memperkirakan ekspektasi gajimu"
+        },
+        {
+         "en": "Timeline — determining your start date",
+         "id": "Waktu — menentukan tanggal mulaimu"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — the question hunts risk signals. A forward-facing answer clears it; litigating the past confirms it.",
+        "id": "Benar — pertanyaan itu memburu sinyal risiko. Jawaban yang menghadap ke depan meloloskanmu; mengadili masa lalu justru mengonfirmasi risikonya."
+       }
+      },
       {
        "q": {
         "en": "The recruiter chats warmly about your old employer's problems. You should:",
@@ -2865,6 +3319,16 @@ window.MT_LMS['the-rope'] = {
         "en": "The contractual time between resigning and leaving — honour it; how you exit is part of your reputation.",
         "id": "Waktu yang ditetapkan kontrak antara pengunduran diri dan hari terakhir bekerja — hormati; cara kamu pamit adalah bagian dari reputasimu."
        }
+      },
+      {
+       "term": {
+        "en": "the friendliness trap",
+        "id": "jebakan keramahan"
+       },
+       "def": {
+        "en": "Professional warmth that loosens tongues — candidates confess doubts, criticise old employers or negotiate against themselves in the first fifteen minutes. Match the warmth; keep the discipline.",
+        "id": "Kehangatan profesional yang melonggarkan lidah — kandidat mengaku ragu, mengkritik mantan pemberi kerja, atau menegosiasikan diri sendiri ke bawah dalam lima belas menit pertama. Imbangi kehangatannya; jaga disiplinnya."
+       }
       }
      ]
     },
@@ -2898,6 +3362,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyesuaikan bagian “alasan ke sini” untuk tiap perusahaan tanpa membangun ulang seluruh pernyataan."
       }
      ],
+     "takeawaysLead": {
+      "en": "Chronology is the one structure guaranteed to be forgettable. To answer “tell me about yourself” as an argument, you can:",
+      "id": "Kronologi adalah satu-satunya struktur yang dijamin mudah dilupakan. Untuk menjawab “ceritakan tentang dirimu” sebagai argumen, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Position first: who you are professionally in one sentence, not your life story.",
@@ -2912,31 +3380,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Alasan ke sini di akhir: jembatan yang spesifik antara arahmu dan perusahaan ini."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The biggest failure mode in “tell me about yourself” is:",
-       "id": "Kegagalan terbesar dalam menjawab “ceritakan tentang diri Anda” adalah:"
-      },
-      "options": [
-       {
-        "en": "Mentioning numbers too early",
-        "id": "Menyebut angka terlalu dini"
-       },
-       {
-        "en": "Chronological CV retelling with no argument",
-        "id": "Menceritakan ulang CV secara kronologis tanpa argumen"
-       },
-       {
-        "en": "Speaking for ninety seconds",
-        "id": "Berbicara selama sembilan puluh detik"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — chronology lists facts; positioning makes a case. Interviewers remember cases.",
-       "id": "Benar — kronologi hanya mendaftar fakta; positioning membangun argumen. Pewawancara mengingat argumen."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -3026,8 +3469,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Total sembilan puluh detik. Hanya langkah terakhir yang dibangun ulang untuk tiap perusahaan — sisanya ikut ke mana pun kamu pergi."
       },
       "exhibit": {
-       "en": "Exhibit 9: The positioning statement — three moves",
-       "id": "Peraga 9: Positioning statement — tiga langkah"
+       "en": "Exhibit 1: The positioning statement — three moves",
+       "id": "Peraga 1: Positioning statement — tiga langkah"
       },
       "longdesc": {
        "en": "Diagram of The positioning statement — three moves. It presents, in order: Present — Who you are professionally, one sentence; Proof — Two examples with numbers; Why here — The bridge to this company, one sentence.",
@@ -3066,6 +3509,33 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "The biggest failure mode in “tell me about yourself” is:",
+        "id": "Kegagalan terbesar dalam menjawab “ceritakan tentang diri Anda” adalah:"
+       },
+       "options": [
+        {
+         "en": "Mentioning numbers too early",
+         "id": "Menyebut angka terlalu dini"
+        },
+        {
+         "en": "Chronological CV retelling with no argument",
+         "id": "Menceritakan ulang CV secara kronologis tanpa argumen"
+        },
+        {
+         "en": "Speaking for ninety seconds",
+         "id": "Berbicara selama sembilan puluh detik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — chronology lists facts; positioning makes a case. Interviewers remember cases.",
+        "id": "Benar — kronologi hanya mendaftar fakta; positioning membangun argumen. Pewawancara mengingat argumen."
+       }
+      }
+     ],
      "tryit": {
       "qid": "hr01",
       "label": {
@@ -3086,6 +3556,16 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "Your 90-second opening: who you are professionally, two numbered proofs, and why this company.",
         "id": "Pembuka 90 detikmu: siapa kamu secara profesional, dua bukti berangka, dan mengapa perusahaan ini."
+       }
+      },
+      {
+       "term": {
+        "en": "present–proof–why-here",
+        "id": "sekarang–bukti–mengapa di sini"
+       },
+       "def": {
+        "en": "The three moves of the positioning statement: one sentence framing you professionally, two proofs with numbers, one sentence bridging your direction to this company — ninety seconds in full, thirty in the short version.",
+        "id": "Tiga langkah pernyataan pemosisian: satu kalimat yang membingkaimu secara profesional, dua bukti dengan angka, satu kalimat yang menjembatani arahmu ke perusahaan ini — sembilan puluh detik versi penuh, tiga puluh detik versi singkat."
        }
       }
      ],
@@ -3154,6 +3634,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Membingkai ulang kasus sulitmu — jeda karier, banting setir, PHK — dengan kejujuran yang tenang."
       }
      ],
+     "takeawaysLead": {
+      "en": "The high-frequency questions are predictable, which makes them buildable. To answer from systems rather than scripts, you can:",
+      "id": "Pertanyaan-pertanyaan berfrekuensi tinggi bisa diprediksi, yang membuatnya bisa dibangun. Untuk menjawab dari sistem alih-alih naskah, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Systems, not scripts: know the moves of each answer and improvise the words.",
@@ -3168,31 +3652,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Kasus sulit dijawab dengan satu kalimat yang tenang, lalu dialihkan ke bukti."
       }
      ],
-     "check": {
-      "q": {
-       "en": "A strong answer to “what is your greatest weakness?” contains:",
-       "id": "Jawaban yang kuat untuk “apa kelemahan terbesar Anda?” berisi:"
-      },
-      "options": [
-       {
-        "en": "A strength disguised: “I work too hard”",
-        "id": "Kekuatan yang disamarkan: “Saya bekerja terlalu keras”"
-       },
-       {
-        "en": "A refusal: “I can't think of any”",
-        "id": "Penolakan: “Saya tidak bisa memikirkan satu pun”"
-       },
-       {
-        "en": "A real weakness, one honest cost, and the system now containing it",
-        "id": "Kelemahan yang sungguhan, satu akibat yang jujur, dan sistem yang kini mengendalikannya"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — honesty plus management. The interviewer is testing self-awareness, and self-awareness has receipts.",
-       "id": "Benar — kejujuran plus pengelolaan. Pewawancara sedang menguji kesadaran diri, dan kesadaran diri punya bukti."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -3212,6 +3671,89 @@ window.MT_LMS['the-rope'] = {
        "body": {
         "en": "Gap, pivot, layoff, low grades, job-hopping: the pattern is identical. One calm sentence naming the fact, zero apology spiral, then a redirect to what you built or learned, landing on the present. The interviewer's fear is evasion and decay; your calm brevity answers both. Full preparation paths for sixteen difficult cases live in the simulator's setup — select yours and drill it.",
         "id": "Jeda karier, banting setir, PHK, nilai rendah, terlalu sering pindah kerja: polanya sama persis. Satu kalimat tenang yang menyebutkan faktanya, tanpa pusaran permintaan maaf, lalu alihkan ke apa yang kamu bangun atau pelajari, dan daratkan di masa kini. Yang ditakutkan pewawancara adalah pengelakan dan kemunduran; keringkasanmu yang tenang menjawab keduanya. Jalur persiapan lengkap untuk enam belas kasus sulit tersedia di pengaturan simulator — pilih milikmu, lalu latih."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "quad",
+      "exhibit": {
+       "en": "Exhibit 1: Four answer systems — the moves, not the words.",
+       "id": "Peraga 1: Empat sistem jawaban — langkahnya, bukan kata-katanya."
+      },
+      "title": {
+       "en": "Why us · Why leave · Strength · Weakness",
+       "id": "Mengapa kami · Mengapa keluar · Kekuatan · Kelemahan"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Why us",
+         "id": "Mengapa kami"
+        },
+        "sub": {
+         "en": "Something true and specific about them, bridged to your direction",
+         "id": "Sesuatu yang benar dan spesifik tentang mereka, dijembatani ke arahmu"
+        }
+       },
+       {
+        "h": {
+         "en": "Why leave",
+         "id": "Mengapa keluar"
+        },
+        "sub": {
+         "en": "Face forward; never litigate the old employer",
+         "id": "Menghadap ke depan; jangan pernah berperkara dengan mantan pemberi kerja"
+        }
+       },
+       {
+        "h": {
+         "en": "Strength",
+         "id": "Kekuatan"
+        },
+        "sub": {
+         "en": "One claim, one story, one number",
+         "id": "Satu klaim, satu cerita, satu angka"
+        }
+       },
+       {
+        "h": {
+         "en": "Weakness",
+         "id": "Kelemahan"
+        },
+        "sub": {
+         "en": "Real, costed once, managed by a visible system — never a disguised strength",
+         "id": "Nyata, biayanya disebut sekali, dikelola oleh sistem yang terlihat — bukan kekuatan yang disamarkan"
+        }
+       }
+      ],
+      "note": {
+       "en": "Difficult cases — gap, pivot, layoff — share one move: one calm sentence, then a redirect to what you built.",
+       "id": "Kasus sulit — jeda, banting setir, PHK — berbagi satu langkah: satu kalimat tenang, lalu pengalihan ke apa yang kamu bangun."
+      },
+      "longdesc": {
+       "en": "A two-by-two grid of the four most frequent HR questions and the moves of each answer system: why us is a true specific bridged to your direction; why leave faces forward without litigating; strength is one claim with one story and one number; weakness is real, costed once and visibly managed. The note adds the shared move for difficult cases.",
+       "id": "Kisi dua kali dua berisi empat pertanyaan HR paling sering dan langkah tiap sistem jawabannya: mengapa kami adalah hal spesifik yang benar dijembatani ke arahmu; mengapa keluar menghadap ke depan tanpa berperkara; kekuatan adalah satu klaim dengan satu cerita dan satu angka; kelemahan itu nyata, biayanya disebut sekali, dan dikelola secara terlihat. Catatannya menambahkan langkah bersama untuk kasus sulit."
+      }
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "answer system",
+        "id": "sistem jawaban"
+       },
+       "def": {
+        "en": "The known moves of a recurring question — for “why leave”: face forward, never litigate — improvised freshly each time rather than recited as a memorised script.",
+        "id": "Langkah-langkah yang diketahui untuk pertanyaan berulang — untuk “mengapa keluar”: menghadap ke depan, jangan pernah berperkara — diimprovisasi segar setiap kali alih-alih dibacakan sebagai naskah hafalan."
+       }
+      },
+      {
+       "term": {
+        "en": "difficult case",
+        "id": "kasus sulit"
+       },
+       "def": {
+        "en": "A gap, pivot, layoff, low grade or job-hop in your history — answered with one calm sentence naming the fact, no apology spiral, and a redirect to what you built or learned.",
+        "id": "Jeda, banting setir, PHK, nilai rendah, atau sering pindah kerja dalam riwayatmu — dijawab dengan satu kalimat tenang yang menyebut faktanya, tanpa spiral permintaan maaf, dan pengalihan ke apa yang kamu bangun atau pelajari."
        }
       }
      ],
@@ -3313,6 +3855,33 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "A strong answer to “what is your greatest weakness?” contains:",
+        "id": "Jawaban yang kuat untuk “apa kelemahan terbesar Anda?” berisi:"
+       },
+       "options": [
+        {
+         "en": "A strength disguised: “I work too hard”",
+         "id": "Kekuatan yang disamarkan: “Saya bekerja terlalu keras”"
+        },
+        {
+         "en": "A refusal: “I can't think of any”",
+         "id": "Penolakan: “Saya tidak bisa memikirkan satu pun”"
+        },
+        {
+         "en": "A real weakness, one honest cost, and the system now containing it",
+         "id": "Kelemahan yang sungguhan, satu akibat yang jujur, dan sistem yang kini mengendalikannya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — honesty plus management. The interviewer is testing self-awareness, and self-awareness has receipts.",
+        "id": "Benar — kejujuran plus pengelolaan. Pewawancara sedang menguji kesadaran diri, dan kesadaran diri punya bukti."
+       }
+      }
+     ],
      "tryit": {
       "qid": "hr08",
       "label": {
@@ -3389,6 +3958,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menghadapi keheningan setelah wawancara tanpa merusak posisimu."
       }
      ],
+     "takeawaysLead": {
+      "en": "Interviews are remembered by their endings, and the last five minutes are the cheapest points on the board. To close and follow up well, you can:",
+      "id": "Wawancara diingat dari akhirnya, dan lima menit terakhir adalah poin termurah di papan skor. Untuk menutup dan menindaklanjuti dengan baik, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Your questions are scored too: ask about the work and the standard, never the perks first.",
@@ -3403,31 +3976,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Satu pengingat sopan setelah tenggat yang dijanjikan lewat — setelah itu, biarkan proses-proses lamaranmu yang lain memikul daya tawarmu."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The best follow-up email after an HR screen:",
-       "id": "Email tindak lanjut terbaik setelah penyaringan HR:"
-      },
-      "options": [
-       {
-        "en": "Thanks them, adds one concrete strengthening detail, and confirms next steps",
-        "id": "Berterima kasih, menambahkan satu detail konkret yang memperkuat, dan mengonfirmasi langkah berikutnya"
-       },
-       {
-        "en": "Repeats your entire positioning statement in writing",
-        "id": "Mengulang seluruh positioning statement-mu dalam bentuk tertulis"
-       },
-       {
-        "en": "Asks whether you got the job",
-        "id": "Menanyakan apakah kamu diterima"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — short, additive, forward-looking. It is your last quotable line in their notes.",
-       "id": "Benar — singkat, menambah nilai, menghadap ke depan. Itulah kalimat terakhirmu yang bisa dikutip di catatan mereka."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -3460,6 +4008,67 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: The close and the follow-up — from the last five minutes to the etiquette of waiting.",
+       "id": "Peraga 1: Penutup dan tindak lanjut — dari lima menit terakhir hingga etiket menunggu."
+      },
+      "title": {
+       "en": "Last 5 minutes → 24 hours → Stated date → After",
+       "id": "5 menit terakhir → 24 jam → Tanggal yang disebutkan → Sesudahnya"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Last five minutes",
+         "id": "Lima menit terakhir"
+        },
+        "sub": {
+         "en": "Three question archetypes — standard, reality, growth — then ask for the timeline",
+         "id": "Tiga arketipe pertanyaan — standar, realitas, pertumbuhan — lalu tanyakan garis waktunya"
+        },
+        "icon": "target"
+       },
+       {
+        "h": {
+         "en": "Within 24 hours",
+         "id": "Dalam 24 jam"
+        },
+        "sub": {
+         "en": "Four sentences: specific thanks, one addition, enthusiasm, availability",
+         "id": "Empat kalimat: terima kasih spesifik, satu tambahan, antusiasme, ketersediaan"
+        },
+        "icon": "book"
+       },
+       {
+        "h": {
+         "en": "Stated date passes",
+         "id": "Tanggal yang disebutkan lewat"
+        },
+        "sub": {
+         "en": "One polite nudge referencing the date",
+         "id": "Satu sentuhan pengingat sopan yang merujuk tanggal itu"
+        },
+        "icon": "flag"
+       },
+       {
+        "h": {
+         "en": "After that",
+         "id": "Sesudahnya"
+        },
+        "sub": {
+         "en": "Silence from you; other processes keep moving",
+         "id": "Diam darimu; proses lain terus berjalan"
+        },
+        "icon": "eye"
+       }
+      ],
+      "longdesc": {
+       "en": "A four-point timeline: in the last five minutes ask three archetype questions and for the timeline; within twenty-four hours send a four-sentence follow-up that adds one thing; when the stated date passes send one polite nudge; and after that stay silent while other processes continue.",
+       "id": "Garis waktu empat titik: di lima menit terakhir ajukan tiga pertanyaan arketipe dan tanyakan garis waktu; dalam dua puluh empat jam kirim tindak lanjut empat kalimat yang menambahkan satu hal; ketika tanggal yang disebutkan lewat, kirim satu sentuhan pengingat sopan; dan sesudahnya tetap diam sementara proses lain berlanjut."
+      }
+     },
      "compare": [
       {
        "tag": {
@@ -3477,6 +4086,33 @@ window.MT_LMS['the-rope'] = {
        "why": {
         "en": "Four sentences: specific thanks, one strengthening addition, one line of enthusiasm, next step. Signal — not flattery, not begging.",
         "id": "Empat kalimat: terima kasih yang spesifik, satu tambahan yang memperkuat, satu kalimat antusiasme, langkah berikutnya. Sinyal — bukan sanjungan, bukan memohon."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The best follow-up email after an HR screen:",
+        "id": "Email tindak lanjut terbaik setelah penyaringan HR:"
+       },
+       "options": [
+        {
+         "en": "Thanks them, adds one concrete strengthening detail, and confirms next steps",
+         "id": "Berterima kasih, menambahkan satu detail konkret yang memperkuat, dan mengonfirmasi langkah berikutnya"
+        },
+        {
+         "en": "Repeats your entire positioning statement in writing",
+         "id": "Mengulang seluruh positioning statement-mu dalam bentuk tertulis"
+        },
+        {
+         "en": "Asks whether you got the job",
+         "id": "Menanyakan apakah kamu diterima"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — short, additive, forward-looking. It is your last quotable line in their notes.",
+        "id": "Benar — singkat, menambah nilai, menghadap ke depan. Itulah kalimat terakhirmu yang bisa dikutip di catatan mereka."
        }
       }
      ],
@@ -3500,6 +4136,16 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The conversation after a written offer and before acceptance where terms can move — expected, when done professionally.",
         "id": "Percakapan setelah tawaran tertulis dan sebelum kamu menerimanya, ketika syarat-syarat masih bisa bergerak — hal yang wajar, kalau dilakukan secara profesional."
+       }
+      },
+      {
+       "term": {
+        "en": "the one nudge",
+        "id": "satu sentuhan pengingat"
+       },
+       "def": {
+        "en": "A single polite message after the stated decision date passes, referencing that date — and then silence, because continued chasing converts interest into pity.",
+        "id": "Satu pesan sopan setelah tanggal keputusan yang disebutkan lewat, merujuk pada tanggal itu — lalu diam, karena terus mengejar mengubah minat menjadi rasa kasihan."
        }
       }
      ]
@@ -3553,6 +4199,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Pulih dari jalur yang keliru secara terlihat dan anggun."
       }
      ],
+     "takeawaysLead": {
+      "en": "The interviewer already knows the answer; what they cannot see is your method. To make even a wrong answer score, you can:",
+      "id": "Pewawancara sudah tahu jawabannya; yang tak bisa mereka lihat adalah metodemu. Agar jawaban yang keliru pun tetap mendapat nilai, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Clarifying first is not weakness — it is the most senior move in the room.",
@@ -3567,31 +4217,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Verifikasi dengan suara keras — “saya cek dulu masuk akal atau tidak” — adalah ketukan yang paling sering dilewati kandidat."
       }
      ],
-     "check": {
-      "q": {
-       "en": "You realise mid-answer that your approach is wrong. Best move:",
-       "id": "Di tengah jawaban, kamu sadar pendekatanmu keliru. Langkah terbaik:"
-      },
-      "options": [
-       {
-        "en": "Go quiet and think until you are certain",
-        "id": "Diam dan berpikir sampai benar-benar yakin"
-       },
-       {
-        "en": "Say so, name why, and restart on the better path",
-        "id": "Katakan, sebutkan alasannya, dan mulai ulang di jalur yang lebih baik"
-       },
-       {
-        "en": "Push through to the end so you look decisive",
-        "id": "Terus sampai selesai supaya terlihat tegas"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — “actually, this breaks on X; let me restart from the constraint” is a senior behaviour, scored as such.",
-       "id": "Benar — “sebentar, ini tidak berlaku untuk X; saya mulai ulang dari kendalanya” adalah perilaku senior, dan dinilai sebagai perilaku senior."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -3680,14 +4305,36 @@ window.MT_LMS['the-rope'] = {
        "id": "Jawaban keliru yang dicapai dengan metode yang terlihat mengungguli jawaban benar yang lahir dalam diam."
       },
       "exhibit": {
-       "en": "Exhibit 10: The four-beat loop for any technical question",
-       "id": "Peraga 10: Putaran empat ketukan untuk pertanyaan teknis apa pun"
+       "en": "Exhibit 1: The four-beat loop for any technical question",
+       "id": "Peraga 1: Putaran empat ketukan untuk pertanyaan teknis apa pun"
       },
       "longdesc": {
        "en": "Diagram of The four-beat loop for any technical question. It presents, in order: Clarify — Restate, surface assumptions, define success; Structure — Announce the plan before executing; Solve aloud — Narrate decisions and forks, not doubts; Verify — Sanity-check against an estimate or edge case.",
        "id": "Diagram putaran empat ketukan untuk pertanyaan teknis apa pun. Menyajikan, secara berurutan: Klarifikasi — nyatakan ulang, angkat asumsi, tentukan ukuran berhasil; Susun struktur — umumkan rencana sebelum menjalankannya; Selesaikan dengan suara keras — narasikan keputusan dan persimpangan, bukan keraguan; Verifikasi — uji kewajaran terhadap taksiran atau kasus tepi."
       }
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "four-beat loop",
+        "id": "putaran empat ketukan"
+       },
+       "def": {
+        "en": "Clarify, structure, solve aloud, verify — the sequence that turns any technical question into visible method, and the reason a wrong answer with method outscores a right answer produced in silence.",
+        "id": "Perjelas, susun, selesaikan dengan bersuara, verifikasi — urutan yang mengubah pertanyaan teknis apa pun menjadi metode yang terlihat, dan alasan jawaban keliru dengan metode mengalahkan jawaban benar yang dihasilkan dalam diam."
+       }
+      },
+      {
+       "term": {
+        "en": "narrated decision",
+        "id": "keputusan yang dinarasikan"
+       },
+       "def": {
+        "en": "Think-aloud that states choices and reasons — “I'll segment by channel first because the drop could be concentrated” — rather than doubts and apologies.",
+        "id": "Berpikir bersuara yang menyatakan pilihan dan alasan — “Saya akan memilah per kanal dulu karena penurunannya mungkin terkonsentrasi” — alih-alih keraguan dan permintaan maaf."
+       }
+      }
+     ],
      "tryit": {
       "qid": "tc02",
       "label": {
@@ -3746,7 +4393,34 @@ window.MT_LMS['the-rope'] = {
         }
        }
       ]
-     }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "You realise mid-answer that your approach is wrong. Best move:",
+        "id": "Di tengah jawaban, kamu sadar pendekatanmu keliru. Langkah terbaik:"
+       },
+       "options": [
+        {
+         "en": "Go quiet and think until you are certain",
+         "id": "Diam dan berpikir sampai benar-benar yakin"
+        },
+        {
+         "en": "Say so, name why, and restart on the better path",
+         "id": "Katakan, sebutkan alasannya, dan mulai ulang di jalur yang lebih baik"
+        },
+        {
+         "en": "Push through to the end so you look decisive",
+         "id": "Terus sampai selesai supaya terlihat tegas"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — “actually, this breaks on X; let me restart from the constraint” is a senior behaviour, scored as such.",
+        "id": "Benar — “sebentar, ini tidak berlaku untuk X; saya mulai ulang dari kendalanya” adalah perilaku senior, dan dinilai sebagai perilaku senior."
+       }
+      }
+     ]
     },
     {
      "n": "5.2",
@@ -3778,6 +4452,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menghindari gertakan — dan memahami mengapa pewawancara selalu menangkapnya."
       }
      ],
+     "takeawaysLead": {
+      "en": "Every interview reaches the edge of your knowledge by design. To convert the edge into evidence, you can:",
+      "id": "Setiap wawancara mencapai tepi pengetahuanmu secara sengaja. Untuk mengubah tepi itu menjadi bukti, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "“I don't know, and here is how I'd find out” is a scoring answer, not a forfeit.",
@@ -3792,31 +4470,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Pewawancara menggali sampai menemukan batasmu — sampai di sana adalah bagian dari rencana, bukan kegagalan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Asked about a method you have never used, you should:",
-       "id": "Ditanya tentang metode yang belum pernah kamu pakai, kamu sebaiknya:"
-      },
-      "options": [
-       {
-        "en": "Improvise a definition from the name and hope",
-        "id": "Mengarang definisi dari namanya, lalu berharap"
-       },
-       {
-        "en": "Redirect to a topic you know better without acknowledging",
-        "id": "Mengalihkan ke topik yang lebih kamu kuasai tanpa mengakuinya"
-       },
-       {
-        "en": "Say you have not used it, state the adjacent thing you know, and describe how you would ramp up",
-        "id": "Mengatakan belum pernah memakainya, menyebutkan hal terdekat yang kamu kuasai, dan menjelaskan cara kamu akan mengejarnya"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — the protocol in action. One follow-up destroys the improvised definition; nothing destroys honest bounding.",
-       "id": "Benar — itulah protokolnya dalam praktik. Satu pertanyaan lanjutan menghancurkan definisi yang dikarang; tidak ada yang bisa menghancurkan pembatasan yang jujur."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -3895,8 +4548,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Lima belas detik, sepenuhnya jujur — dan itu memperagakan persis bagaimana kamu akan menghadapi hal yang tidak kamu ketahui saat bekerja."
       },
       "exhibit": {
-       "en": "Exhibit 11: The IDK protocol",
-       "id": "Peraga 11: Protokol “saya tidak tahu”"
+       "en": "Exhibit 1: The IDK protocol",
+       "id": "Peraga 1: Protokol “saya tidak tahu”"
       },
       "longdesc": {
        "en": "Diagram of The IDK protocol. It presents, in order: Name it — “I haven't worked with that directly”; Bound it — State the neighbouring thing you do know; Plan it — Docs → small test → ask the owner.",
@@ -3912,6 +4565,33 @@ window.MT_LMS['the-rope'] = {
        "text": {
         "en": "I haven't used that framework directly. What I do know well is its predecessor — as I understand it, the main difference is the rendering model. To get productive I'd start with the migration guide, build one small component as a test, and ask whoever owns the codebase here about local conventions. I'd expect to be useful within days, not weeks.",
         "id": "Saya belum pernah memakai framework itu secara langsung. Yang saya kuasai dengan baik adalah pendahulunya — sejauh pemahaman saya, perbedaan utamanya ada di model rendering. Supaya cepat produktif, saya akan mulai dari panduan migrasinya, membangun satu komponen kecil sebagai uji coba, dan bertanya kepada pemilik kode di sini tentang konvensi yang berlaku. Perkiraan saya, saya sudah bisa berkontribusi dalam hitungan hari, bukan minggu."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Asked about a method you have never used, you should:",
+        "id": "Ditanya tentang metode yang belum pernah kamu pakai, kamu sebaiknya:"
+       },
+       "options": [
+        {
+         "en": "Improvise a definition from the name and hope",
+         "id": "Mengarang definisi dari namanya, lalu berharap"
+        },
+        {
+         "en": "Redirect to a topic you know better without acknowledging",
+         "id": "Mengalihkan ke topik yang lebih kamu kuasai tanpa mengakuinya"
+        },
+        {
+         "en": "Say you have not used it, state the adjacent thing you know, and describe how you would ramp up",
+         "id": "Mengatakan belum pernah memakainya, menyebutkan hal terdekat yang kamu kuasai, dan menjelaskan cara kamu akan mengejarnya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — the protocol in action. One follow-up destroys the improvised definition; nothing destroys honest bounding.",
+        "id": "Benar — itulah protokolnya dalam praktik. Satu pertanyaan lanjutan menghancurkan definisi yang dikarang; tidak ada yang bisa menghancurkan pembatasan yang jujur."
        }
       }
      ],
@@ -4003,6 +4683,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Mengajukan pertanyaan kepada calon rekan yang mengungkap cuaca sebenarnya di tim itu."
       }
      ],
+     "takeawaysLead": {
+      "en": "Peers are testing whether Tuesday with you will be bearable. To pass the partnership test and interview them back, you can:",
+      "id": "Rekan sejawat menguji apakah hari Selasa bersamamu akan tertanggungkan. Untuk lolos uji kemitraan dan mewawancarai mereka balik, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Peers imagine working beside you on a bad week — give them scenes of exactly that.",
@@ -4017,31 +4701,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Jawaban mereka atas pertanyaanmu menceritakan kebenaran tentang tim itu — dengarkan sekeras kamu berbicara."
       }
      ],
-     "check": {
-      "q": {
-       "en": "In a peer interview, the strongest story choice is:",
-       "id": "Dalam wawancara dengan calon rekan setim, pilihan cerita yang paling kuat adalah:"
-      },
-      "options": [
-       {
-        "en": "A collaboration under pressure where you shared load and credit",
-        "id": "Kolaborasi di bawah tekanan, ketika kamu berbagi beban dan berbagi kredit"
-       },
-       {
-        "en": "Your biggest individual achievement",
-        "id": "Pencapaian pribadi terbesarmu"
-       },
-       {
-        "en": "A story where you outperformed a weak teammate",
-        "id": "Cerita ketika kamu mengungguli rekan setim yang lemah"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — the room is a partnership test. Outshining teammates is the exact wrong evidence here.",
-       "id": "Benar — ruangan ini adalah ujian kemitraan. Mengungguli rekan setim justru bukti yang paling keliru di sini."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -4074,6 +4733,85 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The help protocol peers are listening for — neither hero nor passenger.",
+       "id": "Peraga 1: Protokol meminta bantuan yang didengarkan rekan sejawat — bukan pahlawan, bukan penumpang."
+      },
+      "title": {
+       "en": "Try → Timebox → Ask precisely → Share back",
+       "id": "Coba → Batasi waktu → Tanya dengan presisi → Bagikan kembali"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Try",
+         "id": "Coba"
+        },
+        "sub": {
+         "en": "An honest attempt first — the passenger skips this",
+         "id": "Usaha jujur lebih dulu — sang penumpang melewatkannya"
+        }
+       },
+       {
+        "h": {
+         "en": "Timebox",
+         "id": "Batasi waktu"
+        },
+        "sub": {
+         "en": "A cap decided in advance — the hero never sets one",
+         "id": "Batas yang ditetapkan di muka — sang pahlawan tak pernah menetapkannya"
+        }
+       },
+       {
+        "h": {
+         "en": "Ask precisely",
+         "id": "Tanya dengan presisi"
+        },
+        "sub": {
+         "en": "“I've tried A and B; I'm stuck at C — what am I missing?”",
+         "id": "“Saya sudah mencoba A dan B; tersangkut di C — apa yang saya lewatkan?”"
+        }
+       },
+       {
+        "h": {
+         "en": "Share back",
+         "id": "Bagikan kembali"
+        },
+        "sub": {
+         "en": "The answer written down where the next person can find it",
+         "id": "Jawabannya dituliskan di tempat orang berikutnya bisa menemukannya"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A four-step flow for asking for help the way peers respect: make an honest attempt, cap the time in advance, ask precisely by stating what you tried and where you are stuck, and share the answer back where the next person can find it.",
+       "id": "Alur empat langkah untuk meminta bantuan dengan cara yang dihormati rekan sejawat: lakukan usaha jujur, batasi waktunya di muka, tanyakan dengan presisi dengan menyebut apa yang sudah dicoba dan di mana tersangkut, dan bagikan jawabannya kembali di tempat orang berikutnya bisa menemukannya."
+      }
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "the Tuesday question",
+        "id": "pertanyaan hari Selasa"
+       },
+       "def": {
+        "en": "The image behind every peer question — a slipping deadline, a broken build, a disagreement at 5 pm, with you in the room — and whether you communicate, share load and stay curious in it.",
+        "id": "Gambaran di balik setiap pertanyaan rekan sejawat — tenggat yang meleset, build yang rusak, perselisihan pukul 5 sore, dengan kamu di ruangan — dan apakah kamu berkomunikasi, berbagi beban, dan tetap ingin tahu di dalamnya."
+       }
+      },
+      {
+       "term": {
+        "en": "try–timebox–ask",
+        "id": "coba–batasi waktu–tanya"
+       },
+       "def": {
+        "en": "The healthy help protocol between the hero who never asks and the passenger who asks before trying: attempt, cap the time, then ask precisely what you tried and where you are stuck.",
+        "id": "Protokol meminta bantuan yang sehat di antara sang pahlawan yang tak pernah bertanya dan sang penumpang yang bertanya sebelum mencoba: coba, batasi waktunya, lalu tanyakan dengan presisi apa yang sudah dicoba dan di mana kamu tersangkut."
+       }
+      }
+     ],
      "compare": [
       {
        "tag": {
@@ -4095,6 +4833,33 @@ window.MT_LMS['the-rope'] = {
        "why": {
         "en": "The weak answer outshines a teammate — the exact wrong evidence in a partnership test. The strong one fixes the collaboration and shares the win.",
         "id": "Jawaban yang lemah mengungguli rekan setim — bukti yang paling keliru dalam ujian kemitraan. Jawaban yang kuat memperbaiki kolaborasinya dan berbagi kemenangan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "In a peer interview, the strongest story choice is:",
+        "id": "Dalam wawancara dengan calon rekan setim, pilihan cerita yang paling kuat adalah:"
+       },
+       "options": [
+        {
+         "en": "A collaboration under pressure where you shared load and credit",
+         "id": "Kolaborasi di bawah tekanan, ketika kamu berbagi beban dan berbagi kredit"
+        },
+        {
+         "en": "Your biggest individual achievement",
+         "id": "Pencapaian pribadi terbesarmu"
+        },
+        {
+         "en": "A story where you outperformed a weak teammate",
+         "id": "Cerita ketika kamu mengungguli rekan setim yang lemah"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — the room is a partnership test. Outshining teammates is the exact wrong evidence here.",
+        "id": "Benar — ruangan ini adalah ujian kemitraan. Mengungguli rekan setim justru bukti yang paling keliru di sini."
        }
       }
      ],
@@ -4140,6 +4905,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyiapkan satu keputusan yang bisa dipertahankan — pilihan, keputusan, trade-off — untuk masing-masing."
       }
      ],
+     "takeawaysLead": {
+      "en": "Every function has its deep-dive shape, and the descent stops at your edge by design. To predict and defend yours, you can:",
+      "id": "Setiap fungsi punya bentuk penyelaman mendalamnya sendiri, dan penurunannya berhenti di tepimu secara sengaja. Untuk memprediksi dan mempertahankan milikmu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Deep-dives probe decisions you claim as yours: be ready to defend the fork, not just describe the road.",
@@ -4154,31 +4923,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Arah karier di The Range mencantumkan keterampilan inti setiap posisi — pakai itu sebagai mesin prediksimu."
       }
      ],
-     "check": {
-      "q": {
-       "en": "A deep-dive interviewer asks “why did you choose that approach?” They are really testing:",
-       "id": "Pewawancara pendalaman bertanya, “mengapa Anda memilih pendekatan itu?” Yang sebenarnya mereka uji:"
-      },
-      "options": [
-       {
-        "en": "Whether you can recall the project timeline",
-        "id": "Apakah kamu ingat lini waktu proyeknya"
-       },
-       {
-        "en": "Whether you saw alternatives and chose with reasons",
-        "id": "Apakah kamu melihat alternatifnya dan memilih dengan alasan"
-       },
-       {
-        "en": "Whether your approach matches their favourite",
-        "id": "Apakah pendekatanmu sama dengan favorit mereka"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — judgment lives at the forks. Options seen, criteria used, trade-off accepted: that is the deep-dive answer shape.",
-       "id": "Benar — pertimbangan hidup di persimpangan. Pilihan yang terlihat, kriteria yang dipakai, trade-off yang diterima: itulah bentuk jawaban pendalaman."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -4201,6 +4945,83 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The shape of a deep-dive — it starts from your own claim and descends until it finds your edge.",
+       "id": "Peraga 1: Bentuk penyelaman mendalam — dimulai dari klaimmu sendiri dan menurun sampai menemukan tepimu."
+      },
+      "title": {
+       "en": "Your claim → Why this way → Why not that → What broke → What now → The edge",
+       "id": "Klaimmu → Mengapa begini → Mengapa bukan begitu → Apa yang rusak → Apa sekarang → Tepi"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Your claim",
+         "id": "Klaimmu"
+        },
+        "sub": {
+         "en": "“You mentioned X — go deeper”",
+         "id": "“Kamu menyebut X — jelaskan lebih dalam”"
+        }
+       },
+       {
+        "h": {
+         "en": "Why this way",
+         "id": "Mengapa begini"
+        },
+        "sub": {
+         "en": "The decision you own, with its reason",
+         "id": "Keputusan yang kamu miliki, beserta alasannya"
+        }
+       },
+       {
+        "h": {
+         "en": "Why not that",
+         "id": "Mengapa bukan begitu"
+        },
+        "sub": {
+         "en": "The alternative you rejected — the real question inside every deep-dive",
+         "id": "Alternatif yang kamu tolak — pertanyaan sebenarnya di dalam setiap penyelaman"
+        }
+       },
+       {
+        "h": {
+         "en": "What broke",
+         "id": "Apa yang rusak"
+        },
+        "sub": {
+         "en": "Honest failure, handled — not hidden",
+         "id": "Kegagalan yang jujur, ditangani — bukan disembunyikan"
+        }
+       },
+       {
+        "h": {
+         "en": "What now",
+         "id": "Apa sekarang"
+        },
+        "sub": {
+         "en": "What you would change today, and why",
+         "id": "Apa yang akan kamu ubah hari ini, dan mengapa"
+        }
+       },
+       {
+        "h": {
+         "en": "The edge",
+         "id": "Tepi"
+        },
+        "sub": {
+         "en": "Reached by design — name it, bound it, plan it (5.2)",
+         "id": "Dicapai secara sengaja — namai, batasi, rencanakan (5.2)"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A six-step flow showing how a technical deep-dive descends: it starts from a claim on your CV, asks why you chose that approach, why not the alternative, what broke, what you would change now, and stops at the edge of your knowledge, which is handled with the IDK protocol from lesson 5.2.",
+       "id": "Alur enam langkah yang memperlihatkan bagaimana penyelaman teknis menurun: dimulai dari klaim di CV-mu, bertanya mengapa kamu memilih pendekatan itu, mengapa bukan alternatifnya, apa yang rusak, apa yang akan kamu ubah sekarang, dan berhenti di tepi pengetahuanmu, yang ditangani dengan protokol IDK dari pelajaran 5.2."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -4246,6 +5067,31 @@ window.MT_LMS['the-rope'] = {
       }
      ],
      "checks": [
+      {
+       "q": {
+        "en": "A deep-dive interviewer asks “why did you choose that approach?” They are really testing:",
+        "id": "Pewawancara pendalaman bertanya, “mengapa Anda memilih pendekatan itu?” Yang sebenarnya mereka uji:"
+       },
+       "options": [
+        {
+         "en": "Whether you can recall the project timeline",
+         "id": "Apakah kamu ingat lini waktu proyeknya"
+        },
+        {
+         "en": "Whether you saw alternatives and chose with reasons",
+         "id": "Apakah kamu melihat alternatifnya dan memilih dengan alasan"
+        },
+        {
+         "en": "Whether your approach matches their favourite",
+         "id": "Apakah pendekatanmu sama dengan favorit mereka"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — judgment lives at the forks. Options seen, criteria used, trade-off accepted: that is the deep-dive answer shape.",
+        "id": "Benar — pertimbangan hidup di persimpangan. Pilihan yang terlihat, kriteria yang dipakai, trade-off yang diterima: itulah bentuk jawaban pendalaman."
+       }
+      },
       {
        "q": {
         "en": "A deep-dive descends until it finds:",
@@ -4355,6 +5201,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menunjukkan lintasan: ke mana kamu menuju, bukan hanya dari mana kamu datang."
       }
      ],
+     "takeawaysLead": {
+      "en": "Executives buy headlines and hire for the role after this one. To answer at their altitude, you can:",
+      "id": "Eksekutif membeli judul utama dan merekrut untuk peran setelah peran ini. Untuk menjawab di ketinggian mereka, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Executives buy headlines: outcome first, mechanics on request.",
@@ -4369,31 +5219,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Bicara soal lintasan bukan teater ambisi; itu bukti bahwa kamu masih akan bernilai di tahun ketiga."
       }
      ],
-     "check": {
-      "q": {
-       "en": "An executive asks about your biggest project. Your first sentence should be:",
-       "id": "Seorang eksekutif bertanya tentang proyek terbesarmu. Kalimat pertamamu sebaiknya:"
-      },
-      "options": [
-       {
-        "en": "The full context so they understand the situation",
-        "id": "Konteks lengkap supaya mereka paham situasinya"
-       },
-       {
-        "en": "The team structure and your reporting line",
-        "id": "Struktur tim dan kepada siapa kamu melapor"
-       },
-       {
-        "en": "The outcome and what it meant for the business",
-        "id": "Hasilnya, dan apa artinya bagi bisnis"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — “we cut fulfilment cost 18% in six months; happy to unpack how” is the executive dialect. Detail follows demand.",
-       "id": "Benar — “kami memangkas biaya fulfilment 18% dalam enam bulan; dengan senang hati saya uraikan caranya” adalah dialek eksekutif. Detail mengikuti permintaan."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -4482,14 +5307,36 @@ window.MT_LMS['the-rope'] = {
        "id": "Setiap proyek yang pernah kamu kerjakan bisa ditukarkan ke setidaknya satu di antaranya. Terjemahkan tiga cerita terbaikmu sebelum ronde final."
       },
       "exhibit": {
-       "en": "Exhibit 12: The four executive currencies",
-       "id": "Peraga 12: Empat mata uang eksekutif"
+       "en": "Exhibit 1: The four executive currencies",
+       "id": "Peraga 1: Empat mata uang eksekutif"
       },
       "longdesc": {
        "en": "Diagram of The four executive currencies. It presents, in order: Revenue — Made or protected; Cost — Removed or avoided; Risk — Reduced or contained; Capability — Built and kept.",
        "id": "Diagram empat mata uang eksekutif. Menyajikan, secara berurutan: Pendapatan — dihasilkan atau dijaga; Biaya — dihilangkan atau dihindari; Risiko — dikurangi atau dikendalikan; Kemampuan — dibangun dan dipertahankan."
       }
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "headline-first",
+        "id": "judul utama lebih dulu"
+       },
+       "def": {
+        "en": "Opening any answer to an executive with the result, its scale and its consequence — mechanics only on request — because their attention is shortest and their verdict fastest.",
+        "id": "Membuka jawaban apa pun kepada eksekutif dengan hasil, skalanya, dan akibatnya — mekanismenya hanya bila diminta — karena perhatian mereka paling singkat dan vonisnya paling cepat."
+       }
+      },
+      {
+       "term": {
+        "en": "the four currencies",
+        "id": "empat mata uang"
+       },
+       "def": {
+        "en": "Revenue made or protected, cost removed, risk reduced, capability built — the only units an executive room converts a story into.",
+        "id": "Pendapatan yang dihasilkan atau dilindungi, biaya yang dihilangkan, risiko yang dikurangi, kemampuan yang dibangun — satu-satunya satuan yang dipakai ruangan eksekutif untuk mengonversi sebuah cerita."
+       }
+      }
+     ],
      "compare": [
       {
        "tag": {
@@ -4511,6 +5358,33 @@ window.MT_LMS['the-rope'] = {
        "why": {
         "en": "Executives buy consequences first. The strong version leads with the number, offers the decisions, and hands them control of the depth.",
         "id": "Eksekutif membeli akibatnya lebih dulu. Versi yang kuat membuka dengan angka, menawarkan keputusan-keputusannya, dan menyerahkan kendali atas kedalaman kepada mereka."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "An executive asks about your biggest project. Your first sentence should be:",
+        "id": "Seorang eksekutif bertanya tentang proyek terbesarmu. Kalimat pertamamu sebaiknya:"
+       },
+       "options": [
+        {
+         "en": "The full context so they understand the situation",
+         "id": "Konteks lengkap supaya mereka paham situasinya"
+        },
+        {
+         "en": "The team structure and your reporting line",
+         "id": "Struktur tim dan kepada siapa kamu melapor"
+        },
+        {
+         "en": "The outcome and what it meant for the business",
+         "id": "Hasilnya, dan apa artinya bagi bisnis"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — “we cut fulfilment cost 18% in six months; happy to unpack how” is the executive dialect. Detail follows demand.",
+        "id": "Benar — “kami memangkas biaya fulfilment 18% dalam enam bulan; dengan senang hati saya uraikan caranya” adalah dialek eksekutif. Detail mengikuti permintaan."
        }
       }
      ],
@@ -4570,6 +5444,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyatakan ketidaksetujuan terhadap keputusan perusahaan dengan hormat, ketika memang diundang untuk itu."
       }
      ],
+     "takeawaysLead": {
+      "en": "Strategic questions test whether you can reason about the company from outside, with humility and structure. To frame an answer that earns its opinion, you can:",
+      "id": "Pertanyaan strategis menguji apakah kamu bisa bernalar tentang perusahaan dari luar, dengan kerendahan hati dan struktur. Untuk membingkai jawaban yang layak berpendapat, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Observation first: earn the right to an opinion by showing you did the reading.",
@@ -4584,31 +5462,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Tutup dengan kerendahan hati yang terukur: “dari luar” adalah frasa yang membeli kredibilitas, bukan kelemahan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Asked “what would you change about our product?”, you should open with:",
-       "id": "Ditanya “apa yang akan Anda ubah dari produk kami?”, kamu sebaiknya membuka dengan:"
-      },
-      "options": [
-       {
-        "en": "A specific observation from actually using or studying the product",
-        "id": "Observasi spesifik dari benar-benar memakai atau mempelajari produknya"
-       },
-       {
-        "en": "A disclaimer that you cannot possibly know",
-        "id": "Penafian bahwa kamu tidak mungkin tahu"
-       },
-       {
-        "en": "Your boldest idea, delivered with total confidence",
-        "id": "Ide paling beranimu, disampaikan dengan keyakinan penuh"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — evidence of homework earns the opinion. Boldness without observation is noise; disclaimers without content are worse.",
-       "id": "Benar — bukti bahwa kamu sudah riset membeli hak untuk beropini. Keberanian tanpa observasi adalah derau; penafian tanpa isi lebih buruk lagi."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -4694,8 +5547,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Empat ketukan, dua menit, terdengar senior. Keberanian tanpa observasi hanyalah derau."
       },
       "exhibit": {
-       "en": "Exhibit 13: Strategic answers, framed",
-       "id": "Peraga 13: Jawaban strategis, dibingkai"
+       "en": "Exhibit 1: Strategic answers, framed",
+       "id": "Peraga 1: Jawaban strategis, dibingkai"
       },
       "longdesc": {
        "en": "Diagram of Strategic answers, framed. It presents, in order: Observation — Something true you noticed — proof of homework; Options — Two or three real paths; Recommendation — One choice, with reasons; Humility — “…though you'll have data I can't see”.",
@@ -4722,6 +5575,43 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The structured first weeks of a new role — learning systems, people and the real process.",
         "id": "Minggu-minggu pertama yang terstruktur di posisi baru — mempelajari sistem, orang-orang, dan proses yang sesungguhnya."
+       }
+      },
+      {
+       "term": {
+        "en": "observation–options–recommendation",
+        "id": "observasi–opsi–rekomendasi"
+       },
+       "def": {
+        "en": "The framing pattern for strategic questions: one genuine observation from doing the reading, two or three options, then a recommendation with its reason and a calibrated “from the outside”.",
+        "id": "Pola pembingkaian untuk pertanyaan strategis: satu observasi tulen dari membaca, dua atau tiga opsi, lalu rekomendasi beserta alasannya dan “dari sudut pandang luar” yang terkalibrasi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Asked “what would you change about our product?”, you should open with:",
+        "id": "Ditanya “apa yang akan Anda ubah dari produk kami?”, kamu sebaiknya membuka dengan:"
+       },
+       "options": [
+        {
+         "en": "A specific observation from actually using or studying the product",
+         "id": "Observasi spesifik dari benar-benar memakai atau mempelajari produknya"
+        },
+        {
+         "en": "A disclaimer that you cannot possibly know",
+         "id": "Penafian bahwa kamu tidak mungkin tahu"
+        },
+        {
+         "en": "Your boldest idea, delivered with total confidence",
+         "id": "Ide paling beranimu, disampaikan dengan keyakinan penuh"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — evidence of homework earns the opinion. Boldness without observation is noise; disclaimers without content are worse.",
+        "id": "Benar — bukti bahwa kamu sudah riset membeli hak untuk beropini. Keberanian tanpa observasi adalah derau; penafian tanpa isi lebih buruk lagi."
        }
       }
      ]
@@ -4756,6 +5646,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Mempertahankan posisi di bawah tekanan sambil tetap terbuka dengan tulus."
       }
      ],
+     "takeawaysLead": {
+      "en": "A stress-test scores your composure, not your comeback. To stay curious rather than defensive under pushback, you can:",
+      "id": "Uji tekanan menilai ketenanganmu, bukan balasanmu. Untuk tetap ingin tahu alih-alih bertahan saat ditekan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "The stress-test scores your composure, not your comeback.",
@@ -4770,31 +5664,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Bukan langsung mengalah, bukan pula ngotot membabi buta — perbarui pendapatmu dengan alasan, atau pertahankan dengan alasan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The interviewer says flatly: “I don't think that project was as impressive as you're presenting it.” Best response:",
-       "id": "Pewawancara berkata datar: “Menurut saya proyek itu tidak sehebat yang Anda gambarkan.” Respons terbaik:"
-      },
-      "options": [
-       {
-        "en": "Restate the achievement more forcefully",
-        "id": "Menyatakan ulang pencapaiannya dengan lebih keras"
-       },
-       {
-        "en": "Stay level: ask what specifically reads as weak, then address exactly that with facts",
-        "id": "Tetap tenang: tanyakan bagian mana persisnya yang terbaca lemah, lalu jawab persis itu dengan fakta"
-       },
-       {
-        "en": "Concede immediately to avoid conflict",
-        "id": "Langsung mengalah demi menghindari konflik"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — composure plus curiosity plus targeted evidence. Folding fails the test; volume fails it differently.",
-       "id": "Benar — ketenangan plus rasa ingin tahu plus bukti yang tepat sasaran. Mengalah gagal dalam ujian ini; menaikkan volume gagal dengan cara yang lain."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -4817,6 +5686,67 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The stress-test response — recognise the simulation, get curious, then update or hold with reasons.",
+       "id": "Peraga 1: Respons uji tekanan — kenali simulasinya, jadilah ingin tahu, lalu perbarui atau pertahankan dengan alasan."
+      },
+      "title": {
+       "en": "Recognise → Curious counter → Extract the objection → Update or hold — with reasons",
+       "id": "Kenali → Balasan ingin tahu → Gali keberatan → Perbarui atau pertahankan — dengan alasan"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Recognise",
+         "id": "Kenali"
+        },
+        "sub": {
+         "en": "A deliberate simulation of pressure — half the victory is naming it",
+         "id": "Simulasi tekanan yang disengaja — separuh kemenangan adalah menyadarinya"
+        }
+       },
+       {
+        "h": {
+         "en": "Curious counter",
+         "id": "Balasan ingin tahu"
+        },
+        "sub": {
+         "en": "“Interesting — which part reads as overstated to you?”",
+         "id": "“Menarik — bagian mana yang menurut Anda berlebihan?”"
+        }
+       },
+       {
+        "h": {
+         "en": "Extract the objection",
+         "id": "Gali keberatan"
+        },
+        "sub": {
+         "en": "The real concern surfaces; composure time is bought",
+         "id": "Kekhawatiran sebenarnya muncul; waktu untuk tenang terbeli"
+        }
+       },
+       {
+        "h": {
+         "en": "Update or hold",
+         "id": "Perbarui atau pertahankan"
+        },
+        "sub": {
+         "en": "Concede with reasons, or stand with evidence — never fold, never dig in blindly",
+         "id": "Akui dengan alasan, atau bertahan dengan bukti — jangan menyerah, jangan bersikeras membabi buta"
+        }
+       }
+      ],
+      "note": {
+       "en": "What fails: instant fold, heat, and blind digging-in. What scores: composure and a visible relationship to pushback.",
+       "id": "Yang gagal: langsung menyerah, emosi panas, dan bersikeras membabi buta. Yang dinilai: ketenangan dan sikap yang terlihat terhadap tekanan."
+      },
+      "longdesc": {
+       "en": "A four-step flow for a skeptical or interrupting interviewer: recognise the pressure as a simulation, answer with a curious counter-question, let the real objection surface, and then either update your position with reasons or hold it with evidence. The note lists the failing responses: folding, heat, and blind digging-in.",
+       "id": "Alur empat langkah menghadapi pewawancara yang skeptis atau menyela: kenali tekanan sebagai simulasi, jawab dengan pertanyaan balik yang ingin tahu, biarkan keberatan sebenarnya muncul, lalu perbarui posisimu dengan alasan atau pertahankan dengan bukti. Catatannya menyebut respons yang gagal: menyerah, emosi panas, dan bersikeras membabi buta."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -4893,6 +5823,33 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "The interviewer says flatly: “I don't think that project was as impressive as you're presenting it.” Best response:",
+        "id": "Pewawancara berkata datar: “Menurut saya proyek itu tidak sehebat yang Anda gambarkan.” Respons terbaik:"
+       },
+       "options": [
+        {
+         "en": "Restate the achievement more forcefully",
+         "id": "Menyatakan ulang pencapaiannya dengan lebih keras"
+        },
+        {
+         "en": "Stay level: ask what specifically reads as weak, then address exactly that with facts",
+         "id": "Tetap tenang: tanyakan bagian mana persisnya yang terbaca lemah, lalu jawab persis itu dengan fakta"
+        },
+        {
+         "en": "Concede immediately to avoid conflict",
+         "id": "Langsung mengalah demi menghindari konflik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — composure plus curiosity plus targeted evidence. Folding fails the test; volume fails it differently.",
+        "id": "Benar — ketenangan plus rasa ingin tahu plus bukti yang tepat sasaran. Mengalah gagal dalam ujian ini; menaikkan volume gagal dengan cara yang lain."
+       }
+      }
+     ],
      "tryit": {
       "qid": "dc16",
       "label": {
@@ -4938,6 +5895,16 @@ window.MT_LMS['the-rope'] = {
         "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
         "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
        }
+      },
+      {
+       "term": {
+        "en": "the curious counter",
+        "id": "balasan penuh rasa ingin tahu"
+       },
+       "def": {
+        "en": "“Interesting — which part reads as overstated to you?” — the response that buys composure time, extracts the real objection and models how you handle challenge at work.",
+        "id": "“Menarik — bagian mana yang menurut Anda terdengar berlebihan?” — respons yang membeli waktu untuk tenang, menggali keberatan sebenarnya, dan memperlihatkan caramu menghadapi tantangan di tempat kerja."
+       }
       }
      ]
     },
@@ -4971,6 +5938,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Memakai jawaban mereka sebagai data sungguhan untuk keputusanmu sendiri."
       }
      ],
+     "takeawaysLead": {
+      "en": "At senior rounds your questions carry as much signal as your answers. To close with a portfolio rather than a blank, you can:",
+      "id": "Di babak senior, pertanyaanmu membawa sinyal sebesar jawabanmu. Untuk menutup dengan portofolio alih-alih kekosongan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Questions are scored: they reveal what you think about when no one assigns you a task.",
@@ -4985,31 +5956,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Keraguan mereka saat menjawab adalah data tentang perusahaan — kumpulkan."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The strongest final-round question of these is:",
-       "id": "Pertanyaan ronde final yang paling kuat di antara ini adalah:"
-      },
-      "options": [
-       {
-        "en": "“How many vacation days do I get?”",
-        "id": "“Berapa hari cuti yang saya dapat?”"
-       },
-       {
-        "en": "“Can you describe the company culture?”",
-        "id": "“Bisa ceritakan budaya perusahaannya?”"
-       },
-       {
-        "en": "“What has to be true in a year for this hire to have been a great decision?”",
-        "id": "“Apa yang harus terjadi dalam setahun supaya perekrutan ini terbukti sebagai keputusan yang hebat?”"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — it makes the executive define success concretely, shows outcome thinking, and gives you the real job description.",
-       "id": "Benar — pertanyaan itu membuat eksekutif mendefinisikan sukses secara konkret, memperlihatkan cara berpikir yang berorientasi hasil, dan memberimu deskripsi pekerjaan yang sebenarnya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -5032,6 +5978,17 @@ window.MT_LMS['the-rope'] = {
         "id": "Pertanyaan yang hebat sia-sia di tangan kandidat yang tidak mendengarkan. Kalau “seperti apa sukses itu” dijawab dengan kabur, posisinya belum terdefinisi — perhitungkan risiko itu. Kalau “bagian tersulit” dijawab dengan “tidak ada, sih” yang mencurigakan, tambahkan skeptisisme. Kamu sedang menjalankan evaluasimu sendiri; jawaban mereka, dan seberapa nyaman mereka menjawab, adalah rubrikmu."
        },
        "icon": "book"
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Matching depth to the room",
+        "id": "Menyesuaikan kedalaman dengan ruangan"
+       },
+       "body": {
+        "en": "The same portfolio is drawn from differently in each room. Peers get the reality and growth questions at ground level — what a normal week looks like, what breaks first when it gets busy, how the last person in this seat grew — because peers answer those honestly and their hesitations are data. Managers get the standard question in its sharpest form: what excellent looks like at six months, and how they will know. Executives get strategy and direction — what has to be true in a year for this hire to look like a great decision, which bet the company is making that this role serves — and nothing operational; asking an executive about leave policy spends your two questions on the recruiter's job. Depth also means length: one sentence of question, then silence. Candidates who preface a question with a paragraph of context are answering their own question before it is asked, and the room notices.",
+        "id": "Portofolio yang sama diambil secara berbeda di tiap ruangan. Rekan sejawat mendapat pertanyaan realitas dan pertumbuhan di tingkat lapangan — seperti apa minggu yang normal, apa yang rusak lebih dulu saat sibuk, bagaimana orang terakhir di kursi ini bertumbuh — karena rekan menjawabnya dengan jujur dan keraguan mereka adalah data. Manajer mendapat pertanyaan standar dalam bentuk paling tajam: seperti apa hasil yang luar biasa di bulan keenam, dan bagaimana mereka akan mengetahuinya. Eksekutif mendapat strategi dan arah — apa yang harus terjadi dalam setahun agar perekrutan ini tampak sebagai keputusan hebat, taruhan mana yang sedang diambil perusahaan yang dilayani peran ini — dan tak ada yang operasional; bertanya kepada eksekutif soal kebijakan cuti menghabiskan dua pertanyaanmu untuk pekerjaan perekrut. Kedalaman juga berarti panjang: satu kalimat pertanyaan, lalu diam. Kandidat yang mengawali pertanyaan dengan satu paragraf konteks sedang menjawab pertanyaannya sendiri sebelum diajukan, dan ruangan menyadarinya."
+       }
       }
      ],
      "diagram": {
@@ -5087,8 +6044,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Dua per wawancara, dipilih sesuai ruangannya. Pertanyaan logistik ditujukan ke perekrut — jangan pernah ke eksekutif."
       },
       "exhibit": {
-       "en": "Exhibit 14: The question portfolio",
-       "id": "Peraga 14: Portofolio pertanyaan"
+       "en": "Exhibit 1: The question portfolio",
+       "id": "Peraga 1: Portofolio pertanyaan"
       },
       "longdesc": {
        "en": "Diagram of The question portfolio. It presents, in order: Standard — What separates good from great here?; Reality — The hardest part the JD doesn't say?; Growth — How have people grown out of this role?; Strategy — What must be true in a year for this hire to be great?.",
@@ -5115,6 +6072,43 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
         "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
+       }
+      },
+      {
+       "term": {
+        "en": "question portfolio",
+        "id": "portofolio pertanyaan"
+       },
+       "def": {
+        "en": "Prepared questions across four archetypes — standard, reality, growth, strategy — with two chosen per interview for the seniority of the room, and logistics kept for the recruiter.",
+        "id": "Pertanyaan yang disiapkan dalam empat arketipe — standar, realitas, pertumbuhan, strategi — dua dipilih per wawancara sesuai senioritas ruangan, dengan urusan logistik disimpan untuk perekrut."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The strongest final-round question of these is:",
+        "id": "Pertanyaan ronde final yang paling kuat di antara ini adalah:"
+       },
+       "options": [
+        {
+         "en": "“How many vacation days do I get?”",
+         "id": "“Berapa hari cuti yang saya dapat?”"
+        },
+        {
+         "en": "“Can you describe the company culture?”",
+         "id": "“Bisa ceritakan budaya perusahaannya?”"
+        },
+        {
+         "en": "“What has to be true in a year for this hire to have been a great decision?”",
+         "id": "“Apa yang harus terjadi dalam setahun supaya perekrutan ini terbukti sebagai keputusan yang hebat?”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — it makes the executive define success concretely, shows outcome thinking, and gives you the real job description.",
+        "id": "Benar — pertanyaan itu membuat eksekutif mendefinisikan sukses secara konkret, memperlihatkan cara berpikir yang berorientasi hasil, dan memberimu deskripsi pekerjaan yang sebenarnya."
        }
       }
      ]
@@ -5168,6 +6162,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Melacak perbedaan yang terukur antara satu percobaan dan percobaan berikutnya."
       }
      ],
+     "takeawaysLead": {
+      "en": "The recording never flatters, which is exactly why it works. To run the solo drill as deliberate practice, you can:",
+      "id": "Rekaman tak pernah menyanjung, dan justru itulah mengapa ia bekerja. Untuk menjalankan latihan mandiri sebagai latihan yang disengaja, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "The recording never flatters — which is exactly why it works.",
@@ -5182,31 +6180,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Tiga percobaan per pertanyaan adalah dosis latihan yang terarah — lebih dari itu mengulang kesalahan, kurang dari itu melewatkan kemajuannya."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The core of the solo drill is:",
-       "id": "Inti dari latihan mandiri adalah:"
-      },
-      "options": [
-       {
-        "en": "Recording an answer, reviewing it objectively, and retrying immediately",
-        "id": "Merekam jawaban, meninjaunya secara objektif, dan langsung mencoba lagi"
-       },
-       {
-        "en": "Reading model answers until they feel familiar",
-        "id": "Membaca contoh jawaban sampai terasa akrab"
-       },
-       {
-        "en": "Practising in front of a mirror for confidence",
-        "id": "Berlatih di depan cermin supaya percaya diri"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — the loop is record, review with a rubric, retry. Objective feedback plus immediate repetition is what builds fluency.",
-       "id": "Benar — putarannya adalah rekam, tinjau dengan rubrik, ulangi. Umpan balik yang objektif plus pengulangan segera itulah yang membangun kelancaran."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -5318,8 +6291,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Tiga siklus per pertanyaan adalah dosis latihan yang terarah. Perbedaan yang terlihat adalah kepercayaan dirimu, yang kamu peroleh dengan usaha."
       },
       "exhibit": {
-       "en": "Exhibit 15: The solo drill cycle",
-       "id": "Peraga 15: Siklus latihan mandiri"
+       "en": "Exhibit 1: The solo drill cycle",
+       "id": "Peraga 1: Siklus latihan mandiri"
       },
       "longdesc": {
        "en": "Diagram of The solo drill cycle. It presents, in order: Record — One question, two-minute cap, no restarts; Review — Rubric, not mood: STAR, numbers, fillers, length; Retry — One fix per cycle — then add pressure.",
@@ -5372,6 +6345,33 @@ window.MT_LMS['the-rope'] = {
         "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
        }
       }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The core of the solo drill is:",
+        "id": "Inti dari latihan mandiri adalah:"
+       },
+       "options": [
+        {
+         "en": "Recording an answer, reviewing it objectively, and retrying immediately",
+         "id": "Merekam jawaban, meninjaunya secara objektif, dan langsung mencoba lagi"
+        },
+        {
+         "en": "Reading model answers until they feel familiar",
+         "id": "Membaca contoh jawaban sampai terasa akrab"
+        },
+        {
+         "en": "Practising in front of a mirror for confidence",
+         "id": "Berlatih di depan cermin supaya percaya diri"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — the loop is record, review with a rubric, retry. Objective feedback plus immediate repetition is what builds fluency.",
+        "id": "Benar — putarannya adalah rekam, tinjau dengan rubrik, ulangi. Umpan balik yang objektif plus pengulangan segera itulah yang membangun kelancaran."
+       }
+      }
      ]
     },
     {
@@ -5404,6 +6404,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Membaca debrief-nya dan mengubahnya menjadi fokus sesi berikutnya."
       }
      ],
+     "takeawaysLead": {
+      "en": "A simulation without a target measures nothing; with one, it probes your own claims. To get the most from the simulator, you can:",
+      "id": "Simulasi tanpa target tidak mengukur apa pun; dengan target, ia menyelidiki klaimmu sendiri. Untuk mendapatkan hasil maksimal dari simulator, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "The simulator adapts to your actual answers: too short, no metric, we-not-I — each triggers its own follow-up.",
@@ -5418,31 +6422,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Semuanya berjalan di perangkatmu; suara dan video tidak pernah meninggalkan browser-mu."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The simulator's debrief is honest because:",
-       "id": "Debrief dari simulator ini jujur karena:"
-      },
-      "options": [
-       {
-        "en": "It compares you against other users' answers",
-        "id": "Ia membandingkanmu dengan jawaban pengguna lain"
-       },
-       {
-        "en": "It is a transparent rule-based reading of your transcript, computed on your device",
-        "id": "Ia membaca transkripmu dengan aturan yang transparan, dan dihitung di perangkatmu"
-       },
-       {
-        "en": "It always gives an encouraging score",
-        "id": "Ia selalu memberi skor yang menyemangati"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — the rubric is visible and deterministic: STAR beats, numbers, fillers, length, pace. No black box, no invented body-language scores.",
-       "id": "Benar — rubriknya terlihat dan pasti: ketukan STAR, angka, kata pengisi, panjang, tempo. Tidak ada kotak hitam, tidak ada skor bahasa tubuh yang dikarang."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -5557,8 +6536,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Mock interview adalah sebuah peristiwa. Ini adalah sistem latihan — bedanya ada pada putarannya."
       },
       "exhibit": {
-       "en": "Exhibit 16: The loop this module installs",
-       "id": "Peraga 16: Putaran yang dipasang modul ini"
+       "en": "Exhibit 1: The loop this module installs",
+       "id": "Peraga 1: Putaran yang dipasang modul ini"
       },
       "longdesc": {
        "en": "Diagram of The loop this module installs. It presents, in order: Prepare — One job, one goal, JD + CV loaded; Perform — Video, voice or text — under realistic pressure; Review — Transparent debrief on your own transcript; Improve — Weakness → targeted lessons and drills; Repeat — Progressively harder rounds.",
@@ -5566,6 +6545,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "The simulator's debrief is honest because:",
+        "id": "Debrief dari simulator ini jujur karena:"
+       },
+       "options": [
+        {
+         "en": "It compares you against other users' answers",
+         "id": "Ia membandingkanmu dengan jawaban pengguna lain"
+        },
+        {
+         "en": "It is a transparent rule-based reading of your transcript, computed on your device",
+         "id": "Ia membaca transkripmu dengan aturan yang transparan, dan dihitung di perangkatmu"
+        },
+        {
+         "en": "It always gives an encouraging score",
+         "id": "Ia selalu memberi skor yang menyemangati"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — the rubric is visible and deterministic: STAR beats, numbers, fillers, length, pace. No black box, no invented body-language scores.",
+        "id": "Benar — rubriknya terlihat dan pasti: ketukan STAR, angka, kata pengisi, panjang, tempo. Tidak ada kotak hitam, tidak ada skor bahasa tubuh yang dikarang."
+       }
+      },
       {
        "q": {
         "en": "What turns a practice session into deliberate practice?",
@@ -5602,6 +6606,16 @@ window.MT_LMS['the-rope'] = {
         "en": "The probing question after your answer — where inflated claims collapse and honest depth scores.",
         "id": "Pertanyaan penggali setelah jawabanmu — tempat klaim yang dibesar-besarkan runtuh, dan kedalaman yang jujur mendapat nilai."
        }
+      },
+      {
+       "term": {
+        "en": "live mode",
+        "id": "mode langsung"
+       },
+       "def": {
+        "en": "The simulator setting that withholds coaching notes — questions, follow-ups, a timer and optionally your camera — used once practice mode has installed the techniques.",
+        "id": "Pengaturan simulator yang menahan catatan pelatihan — pertanyaan, pertanyaan lanjutan, pengatur waktu, dan opsional kameramu — dipakai setelah mode latihan memasang teknik-tekniknya."
+       }
       }
      ]
     },
@@ -5635,6 +6649,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Melakukan debrief tanpa sanjungan dan tanpa kekejaman."
       }
      ],
+     "takeawaysLead": {
+      "en": "The simulator measures; a human adds the pressure of real eyes. To run a peer mock that teaches both ends of the rope, you can:",
+      "id": "Simulator mengukur; manusia menambahkan tekanan dari tatapan sungguhan. Untuk menjalankan simulasi bersama rekan yang mengajari kedua ujung tali, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Playing the interviewer teaches you more than playing the candidate — you feel what scores.",
@@ -5649,31 +6667,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Bertukar peran di setiap sesi; tali bertahan karena kedua ujungnya berlatih."
       }
      ],
-     "check": {
-      "q": {
-       "en": "Useful peer feedback sounds like:",
-       "id": "Umpan balik dari teman yang berguna berbunyi seperti:"
-      },
-      "options": [
-       {
-        "en": "“That was great, you're definitely ready.”",
-        "id": "“Tadi bagus banget, kamu pasti sudah siap.”"
-       },
-       {
-        "en": "“You need more confidence.”",
-        "id": "“Kamu perlu lebih percaya diri.”"
-       },
-       {
-        "en": "“Your answer ran 3 minutes and the result only arrived in the last sentence — try leading with it.”",
-        "id": "“Jawabanmu 3 menit, dan hasilnya baru muncul di kalimat terakhir — coba buka dengan hasilnya.”"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — quoted evidence plus a concrete change. Encouragement without evidence and adjectives without examples both change nothing.",
-       "id": "Benar — bukti yang dikutip plus satu perubahan konkret. Semangat tanpa bukti dan kata sifat tanpa contoh sama-sama tidak mengubah apa pun."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -5803,8 +6796,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Akhiri setiap mock bersama teman dengan pengulangan — jangan pernah hanya dengan obrolan."
       },
       "exhibit": {
-       "en": "Exhibit 17: The 45-minute peer mock",
-       "id": "Peraga 17: Mock interview 45 menit bersama teman"
+       "en": "Exhibit 1: The 45-minute peer mock",
+       "id": "Peraga 1: Mock interview 45 menit bersama teman"
       },
       "longdesc": {
        "en": "Diagram of The 45-minute peer mock. It presents, in order: 0–5 min — Configure: role, stage, six bank questions; 5–25 min — Interview — frame held, no coaching; 25–35 min — Debrief: 2 strengths, 2 weaknesses, 1 change — with quotes; 35–40 min — Immediate retry of the weakest answer; 40–45 min — Swap roles or book the next session.",
@@ -5812,6 +6805,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "Useful peer feedback sounds like:",
+        "id": "Umpan balik dari teman yang berguna berbunyi seperti:"
+       },
+       "options": [
+        {
+         "en": "“That was great, you're definitely ready.”",
+         "id": "“Tadi bagus banget, kamu pasti sudah siap.”"
+        },
+        {
+         "en": "“You need more confidence.”",
+         "id": "“Kamu perlu lebih percaya diri.”"
+        },
+        {
+         "en": "“Your answer ran 3 minutes and the result only arrived in the last sentence — try leading with it.”",
+         "id": "“Jawabanmu 3 menit, dan hasilnya baru muncul di kalimat terakhir — coba buka dengan hasilnya.”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — quoted evidence plus a concrete change. Encouragement without evidence and adjectives without examples both change nothing.",
+        "id": "Benar — bukti yang dikutip plus satu perubahan konkret. Semangat tanpa bukti dan kata sifat tanpa contoh sama-sama tidak mengubah apa pun."
+       }
+      },
       {
        "q": {
         "en": "Why does playing the interviewer improve your own answers?",
@@ -5911,6 +6929,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menjalankan daftar periksa H-1 dan hari-H."
       }
      ],
+     "takeawaysLead": {
+      "en": "Ten days, three phases — intelligence, answers, performance — and a last day for logistics and sleep. To run the sprint, you can:",
+      "id": "Sepuluh hari, tiga fase — intelijen, jawaban, penampilan — dan satu hari terakhir untuk logistik dan tidur. Untuk menjalankan sprint ini, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Days 10–8 build intelligence; days 7–4 build answers; days 3–1 build performance.",
@@ -5925,31 +6947,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Waktumu hitungan jam, bukan hari? Pakai Jalur Cepat di simulator — prioritas, analisis deskripsi lowongan, dan satu sesi sprint."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The night before the interview you should:",
-       "id": "Malam sebelum wawancara, kamu sebaiknya:"
-      },
-      "options": [
-       {
-        "en": "Confirm logistics, re-read your positioning once, and sleep",
-        "id": "Memastikan logistik, membaca ulang positioning-mu satu kali, lalu tidur"
-       },
-       {
-        "en": "Cram three new modules of material",
-        "id": "Melahap tiga modul materi baru"
-       },
-       {
-        "en": "Run simulations until midnight",
-        "id": "Menjalankan simulasi sampai tengah malam"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — performance rides on rest. New material within 24 hours adds anxiety, not capability.",
-       "id": "Benar — performa bertumpu pada istirahat. Materi baru dalam 24 jam terakhir menambah kecemasan, bukan kemampuan."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -6045,8 +7042,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Waktumu hitungan jam, bukan hari? Jalur Cepat di simulator memadatkan semua ini menjadi satu malam."
       },
       "exhibit": {
-       "en": "Exhibit 18: Ten days, three phases",
-       "id": "Peraga 18: Sepuluh hari, tiga fase"
+       "en": "Exhibit 1: Ten days, three phases",
+       "id": "Peraga 1: Sepuluh hari, tiga fase"
       },
       "longdesc": {
        "en": "Diagram of Ten days, three phases. It presents, in order: Days 10–8 — Intelligence: JD decode, frameworks, evidence table, baseline session; Days 7–4 — Answers: story matrix, difficult case, one session daily; Days 3–1 — Performance: live mode, camera on, then logistics and sleep; Morning — Eat, arrive early, one read of your positioning, two slow breaths.",
@@ -6119,7 +7116,34 @@ window.MT_LMS['the-rope'] = {
         }
        }
       ]
-     }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "The night before the interview you should:",
+        "id": "Malam sebelum wawancara, kamu sebaiknya:"
+       },
+       "options": [
+        {
+         "en": "Confirm logistics, re-read your positioning once, and sleep",
+         "id": "Memastikan logistik, membaca ulang positioning-mu satu kali, lalu tidur"
+        },
+        {
+         "en": "Cram three new modules of material",
+         "id": "Melahap tiga modul materi baru"
+        },
+        {
+         "en": "Run simulations until midnight",
+         "id": "Menjalankan simulasi sampai tengah malam"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — performance rides on rest. New material within 24 hours adds anxiety, not capability.",
+        "id": "Benar — performa bertumpu pada istirahat. Materi baru dalam 24 jam terakhir menambah kecemasan, bukan kemampuan."
+       }
+      }
+     ]
     }
    ],
    "hero": "../../assets/m/02-prep.jpg",
@@ -6170,6 +7194,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menimbang kompensasi yang tidak terlihat: ruang lingkup, pertumbuhan, atasan, kesempatan belajar."
       }
      ],
+     "takeawaysLead": {
+      "en": "Base salary is one line of a longer equation, and the invisible lines appear in your career rather than the letter. To compare offers honestly, you can:",
+      "id": "Gaji pokok hanyalah satu baris dari persamaan yang lebih panjang, dan baris-baris tak terlihat muncul di kariermu, bukan di surat. Untuk membandingkan tawaran dengan jujur, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Compare offers on total annual value, not base salary.",
@@ -6184,31 +7212,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Di awal karier, laju pertumbuhan sering lebih bernilai daripada selisih gaji; beri harga dengan sengaja."
       }
      ],
-     "check": {
-      "q": {
-       "en": "An offer includes “up to 4 months bonus”. The right question is:",
-       "id": "Sebuah tawaran mencantumkan “bonus hingga 4 bulan gaji”. Pertanyaan yang tepat:"
-      },
-      "options": [
-       {
-        "en": "Nothing — bonus terms are impolite to question",
-        "id": "Tidak ada — menanyakan ketentuan bonus itu tidak sopan"
-       },
-       {
-        "en": "“What did the typical person at this level actually receive last year?”",
-        "id": "“Berapa yang benar-benar diterima orang di level ini pada umumnya tahun lalu?”"
-       },
-       {
-        "en": "“Can you guarantee the maximum in writing?”",
-        "id": "“Bisakah angka maksimumnya dijamin secara tertulis?”"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — “up to” is marketing; typical attainment is data. The question is normal and professionals ask it.",
-       "id": "Benar — “hingga” adalah bahasa pemasaran; realisasi yang lazim adalah data. Pertanyaan itu wajar, dan para profesional menanyakannya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -6231,6 +7234,17 @@ window.MT_LMS['the-rope'] = {
         "id": "Ruang lingkup: apakah kamu akan memegang sesuatu, atau membantu orang yang memegangnya? Laju pertumbuhan: apa yang dipelajari orang sebelumnya di kursi ini setiap tahun? Atasan: atasan yang hebat melipatgandakan nilaimu selama satu dekade. Nama besar dan jejaring: pintu-pintu yang dibukakan nama ini di kemudian hari. Tidak satu pun dari ini muncul di surat tawaran; semuanya muncul di kariermu. Beri skor satu sampai lima, dengan sengaja, di samping angka uangnya."
        },
        "icon": "book"
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Putting the two offers side by side",
+        "id": "Menyandingkan dua tawaran"
+       },
+       "body": {
+        "en": "The comparison only works when both offers sit on the same sheet, in the same units. Row by row: the visible lines as annual numbers, summed to a total annual value; then the invisible lines scored one to five — scope, growth rate, manager, brand and network — with one sentence of evidence beside each score so the number is not a mood. Two things regularly happen at this point. The offer that looked higher on base loses on total value once allowances, a thirteenth month or a realistic bonus are counted. And an offer that loses narrowly on money wins clearly on the invisible lines — a manager with a reputation for growing people, a scope you would own rather than assist — which, early in a career, compounds for longer than a salary gap does. The sheet does not make the decision; it makes the decision honest, and it becomes the basis for 8.2's range and 8.3's ask.",
+        "id": "Perbandingan hanya bekerja bila kedua tawaran duduk di lembar yang sama, dengan satuan yang sama. Baris demi baris: baris-baris yang terlihat sebagai angka tahunan, dijumlahkan menjadi nilai tahunan total; lalu baris-baris tak terlihat dinilai satu sampai lima — lingkup, laju pertumbuhan, manajer, merek dan jaringan — dengan satu kalimat bukti di samping tiap skor agar angkanya bukan sekadar perasaan. Dua hal biasa terjadi di titik ini. Tawaran yang tampak lebih tinggi pada gaji pokok kalah pada nilai total begitu tunjangan, gaji ke-13, atau bonus realistis dihitung. Dan tawaran yang kalah tipis pada uang menang jelas pada baris tak terlihat — manajer yang dikenal menumbuhkan orang, lingkup yang akan kamu miliki alih-alih bantu — yang, di awal karier, bertumbuh lebih lama daripada selisih gaji. Lembar ini tidak membuat keputusan; ia membuat keputusan menjadi jujur, dan menjadi dasar bagi rentang di 8.2 dan permintaan di 8.3."
+       }
       }
      ],
      "diagram": {
@@ -6296,15 +7310,62 @@ window.MT_LMS['the-rope'] = {
        "id": "Dua tawaran dengan gaji pokok yang sama bisa berbeda nilai nyata sampai seperempatnya. Buat spreadsheet dua puluh menit itu."
       },
       "exhibit": {
-       "en": "Exhibit 19: Total compensation — the whole equation",
-       "id": "Peraga 19: Kompensasi total — persamaan yang utuh"
+       "en": "Exhibit 1: Total compensation — the whole equation",
+       "id": "Peraga 1: Kompensasi total — persamaan yang utuh"
       },
       "longdesc": {
        "en": "Diagram of Total compensation — the whole equation. It presents, in order: Base salary — ×12 or ×13 with the holiday allowance; Bonus — Worth its TYPICAL attainment, not its maximum; Allowances & insurance — Transport, meals, premiums, retirement; Leave & learning — Paid days, budget, equipment; Invisible lines — Scope, growth rate, manager, network.",
        "id": "Diagram kompensasi total — persamaan yang utuh. Menyajikan, secara berurutan: Gaji pokok — ×12, atau ×13 dengan THR; Bonus — nilainya sebesar realisasi yang LAZIM, bukan maksimumnya; Tunjangan & asuransi — transportasi, makan, premi, pensiun; Cuti & belajar — hari cuti berbayar, anggaran, peralatan; Baris yang tidak terlihat — ruang lingkup, laju pertumbuhan, atasan, jejaring."
       }
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "total annual value",
+        "id": "nilai tahunan total"
+       },
+       "def": {
+        "en": "Every compensation component converted to a yearly number — base times twelve or thirteen, realistic bonus, allowances, insurance, retirement, leave, learning budget — the only basis on which two offers can be compared.",
+        "id": "Setiap komponen kompensasi dikonversi ke angka tahunan — gaji pokok kali dua belas atau tiga belas, bonus realistis, tunjangan, asuransi, pensiun, cuti, anggaran belajar — satu-satunya dasar untuk membandingkan dua tawaran."
+       }
+      },
+      {
+       "term": {
+        "en": "typical attainment",
+        "id": "pencapaian lazim"
+       },
+       "def": {
+        "en": "What a bonus actually pays in a normal year, as opposed to its advertised maximum — the number to ask for when a letter says “up to”.",
+        "id": "Berapa bonus benar-benar dibayarkan di tahun normal, berbeda dari maksimum yang diiklankan — angka yang perlu ditanyakan ketika surat mengatakan “hingga”."
+       }
+      }
+     ],
      "checks": [
+      {
+       "q": {
+        "en": "An offer includes “up to 4 months bonus”. The right question is:",
+        "id": "Sebuah tawaran mencantumkan “bonus hingga 4 bulan gaji”. Pertanyaan yang tepat:"
+       },
+       "options": [
+        {
+         "en": "Nothing — bonus terms are impolite to question",
+         "id": "Tidak ada — menanyakan ketentuan bonus itu tidak sopan"
+        },
+        {
+         "en": "“What did the typical person at this level actually receive last year?”",
+         "id": "“Berapa yang benar-benar diterima orang di level ini pada umumnya tahun lalu?”"
+        },
+        {
+         "en": "“Can you guarantee the maximum in writing?”",
+         "id": "“Bisakah angka maksimumnya dijamin secara tertulis?”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — “up to” is marketing; typical attainment is data. The question is normal and professionals ask it.",
+        "id": "Benar — “hingga” adalah bahasa pemasaran; realisasi yang lazim adalah data. Pertanyaan itu wajar, dan para profesional menanyakannya."
+       }
+      },
       {
        "q": {
         "en": "Early in your career, the component that most often outvalues a salary delta is:",
@@ -6376,6 +7437,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menyampaikan rentang itu beserta alasannya dalam satu kalimat yang sudah dilatih."
       }
      ],
+     "takeawaysLead": {
+      "en": "A salary question is only frightening without data. To build a range you can say out loud and defend, you can:",
+      "id": "Pertanyaan soal gaji hanya menakutkan tanpa data. Untuk membangun rentang yang bisa kamu ucapkan dan pertahankan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "One source is a guess; three sources agreeing is a range you can defend.",
@@ -6390,31 +7455,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Sampaikan rentang beserta dasarnya: “berdasarkan data pasar untuk posisi dan level ini…”"
       }
      ],
-     "check": {
-      "q": {
-       "en": "The strongest basis for your stated range is:",
-       "id": "Dasar terkuat untuk rentang yang kamu sebutkan adalah:"
-      },
-      "options": [
-       {
-        "en": "What your friend at a different company earns",
-        "id": "Gaji temanmu di perusahaan yang berbeda"
-       },
-       {
-        "en": "Your current salary plus a fixed percentage",
-        "id": "Gaji sekarang ditambah persentase tetap"
-       },
-       {
-        "en": "Three independent sources that roughly agree",
-        "id": "Tiga sumber independen yang kurang lebih sepakat"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — triangulation. A single data point, especially your own history, anchors you to noise.",
-       "id": "Benar — menyilangkan sumber. Satu titik data, apalagi riwayat gajimu sendiri, hanya menambatkanmu pada derau."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -6434,6 +7474,17 @@ window.MT_LMS['the-rope'] = {
        "body": {
         "en": "Adjust for stage: startups pay differently from multinationals, and partly in learning and scope. Adjust for your leverage: competing offers move you up the band; urgency moves you down it. Then commit to a range whose bottom you would genuinely accept — a range you would refuse is a bluff, and module 5 already covered how bluffs end.",
         "id": "Sesuaikan dengan tahap perusahaan: startup membayar berbeda dari perusahaan multinasional, sebagian dalam bentuk kesempatan belajar dan ruang lingkup. Sesuaikan dengan daya tawarmu: tawaran dari perusahaan lain menaikkanmu di dalam kisaran; keterdesakan menurunkanmu. Lalu tetapkan rentang yang batas bawahnya benar-benar akan kamu terima — rentang yang akan kamu tolak sendiri adalah gertakan, dan Modul 5 sudah membahas bagaimana gertakan berakhir."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Saying the range out loud",
+        "id": "Mengucapkan rentang itu"
+       },
+       "body": {
+        "en": "The research is wasted if the sentence falls apart in the room. The practised form is one breath long and carries its basis: “Based on market data for this role and level in Jakarta, and the scope we've discussed, I'm looking at X to Y.” The basis matters more than the numbers — it converts a demand into a reasoned position, and it invites the recruiter to respond with their band rather than with silence. Three habits keep the sentence steady. State the range once and stop; the pause after it is the recruiter's, not yours to fill with a discount. If asked for a single number, give the upper-middle of the range with the same basis. And if asked early — in the HR screen, before any offer exists — answer with the range rather than deflecting; a researched range delivered calmly is itself evidence of the professionalism the screen is testing for, and it anchors every later conversation at a number you chose.",
+        "id": "Riset itu sia-sia jika kalimatnya berantakan di ruangan. Bentuk yang sudah dilatih sepanjang satu tarikan napas dan membawa dasarnya: “Berdasarkan data pasar untuk peran dan level ini di Jakarta, dan lingkup yang sudah kita bahas, saya melihat kisaran X sampai Y.” Dasarnya lebih penting daripada angkanya — ia mengubah tuntutan menjadi posisi yang bernalar, dan mengundang perekrut menjawab dengan rentang mereka alih-alih dengan keheningan. Tiga kebiasaan menjaga kalimat itu tetap mantap. Sebutkan rentang sekali lalu berhenti; jeda setelahnya milik perekrut, bukan untuk kamu isi dengan diskon. Bila diminta satu angka, berikan bagian tengah-atas rentang dengan dasar yang sama. Dan bila ditanya lebih awal — di seleksi HR, sebelum tawaran apa pun ada — jawab dengan rentang alih-alih mengelak; rentang hasil riset yang disampaikan dengan tenang adalah bukti profesionalisme yang sedang diuji seleksi itu, dan ia menjangkarkan setiap percakapan berikutnya pada angka yang kamu pilih."
        }
       }
      ],
@@ -6490,14 +7541,63 @@ window.MT_LMS['the-rope'] = {
        "id": "Satu sumber adalah tebakan; tiga yang sepakat adalah rentang yang bisa kamu ucapkan tanpa ragu."
       },
       "exhibit": {
-       "en": "Exhibit 20: Triangulating your range",
-       "id": "Peraga 20: Menyilangkan sumber untuk rentangmu"
+       "en": "Exhibit 1: Triangulating your range",
+       "id": "Peraga 1: Menyilangkan sumber untuk rentangmu"
       },
       "longdesc": {
        "en": "Diagram of Triangulating your range. It presents, in order: Salary guides — The wide band by role, level, city; Job ads with ranges — The live market — collect five; Conversations — Ask for ranges, not personal numbers; Your range — Bottom you would genuinely accept.",
        "id": "Diagram menyilangkan sumber untuk rentangmu. Menyajikan, secara berurutan: Panduan gaji — kisaran lebar berdasarkan posisi, level, kota; Iklan lowongan dengan rentang — pasar yang hidup, kumpulkan lima; Percakapan — minta rentang, bukan angka pribadi; Rentangmu — batas bawah yang benar-benar akan kamu terima."
       }
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "triangulation",
+        "id": "triangulasi"
+       },
+       "def": {
+        "en": "Combining three independent source types — published salary guides, job advertisements that state ranges, and conversations with people one step ahead — into one defensible range.",
+        "id": "Menggabungkan tiga jenis sumber independen — panduan gaji yang dipublikasikan, iklan lowongan yang mencantumkan rentang, dan percakapan dengan orang yang selangkah di depan — menjadi satu rentang yang bisa dipertahankan."
+       }
+      },
+      {
+       "term": {
+        "en": "walk-away bottom",
+        "id": "batas bawah yang sungguh diterima"
+       },
+       "def": {
+        "en": "The lowest number in your stated range, chosen so that you would genuinely accept it — a range whose bottom you would refuse is a bluff.",
+        "id": "Angka terendah dalam rentang yang kamu sebutkan, dipilih agar kamu benar-benar mau menerimanya — rentang yang batas bawahnya akan kamu tolak adalah gertakan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The strongest basis for your stated range is:",
+        "id": "Dasar terkuat untuk rentang yang kamu sebutkan adalah:"
+       },
+       "options": [
+        {
+         "en": "What your friend at a different company earns",
+         "id": "Gaji temanmu di perusahaan yang berbeda"
+        },
+        {
+         "en": "Your current salary plus a fixed percentage",
+         "id": "Gaji sekarang ditambah persentase tetap"
+        },
+        {
+         "en": "Three independent sources that roughly agree",
+         "id": "Tiga sumber independen yang kurang lebih sepakat"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — triangulation. A single data point, especially your own history, anchors you to noise.",
+        "id": "Benar — menyilangkan sumber. Satu titik data, apalagi riwayat gajimu sendiri, hanya menambatkanmu pada derau."
+       }
+      }
+     ],
      "tryit": {
       "qid": "hr06",
       "label": {
@@ -6540,6 +7640,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Memakai tuas-tuas di luar gaji ketika gaji pokoknya tidak bisa bergerak."
       }
      ],
+     "takeawaysLead": {
+      "en": "One conversation under fifteen minutes can be worth months of salary, and the offer almost never vanishes. To run it professionally, you can:",
+      "id": "Satu percakapan kurang dari lima belas menit bisa bernilai berbulan-bulan gaji, dan tawaran hampir tak pernah lenyap. Untuk menjalankannya secara profesional, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Companies expect negotiation; a professional ask has never reasonably cancelled an offer.",
@@ -6554,31 +7658,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Tanggal mulai, bonus penandatanganan, anggaran belajar, waktu peninjauan gaji, jabatan: tuas-tuas yang bisa bergerak ketika gaji tidak bisa."
       }
      ],
-     "check": {
-      "q": {
-       "en": "You receive an offer at the bottom of your researched range. Your move:",
-       "id": "Kamu menerima tawaran di batas bawah rentang hasil risetmu. Langkahmu:"
-      },
-      "options": [
-       {
-        "en": "Thank them warmly, restate enthusiasm, present your range with its basis, ask, then be silent",
-        "id": "Berterima kasih dengan hangat, tegaskan antusiasme, sampaikan rentangmu beserta dasarnya, minta, lalu diam"
-       },
-       {
-        "en": "Accept immediately before they change their mind",
-        "id": "Langsung terima sebelum mereka berubah pikiran"
-       },
-       {
-        "en": "Decline to signal your market value",
-        "id": "Tolak untuk menunjukkan nilai pasarmu"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — the four-beat script. The silence after the ask is where the movement happens; do not fill it.",
-       "id": "Benar — naskah empat ketukan. Diam setelah permintaan adalah saat pergerakan terjadi; jangan mengisinya."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -6601,6 +7680,77 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The negotiation script — four moves, one ask, then silence.",
+       "id": "Peraga 1: Naskah negosiasi — empat langkah, satu permintaan, lalu diam."
+      },
+      "title": {
+       "en": "Appreciation → Enthusiasm → The ask → Silence → Confirm in writing",
+       "id": "Apresiasi → Antusiasme → Permintaan → Diam → Konfirmasi tertulis"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Appreciation",
+         "id": "Apresiasi"
+        },
+        "sub": {
+         "en": "Thank them, specifically",
+         "id": "Berterima kasih, secara spesifik"
+        }
+       },
+       {
+        "h": {
+         "en": "Enthusiasm",
+         "id": "Antusiasme"
+        },
+        "sub": {
+         "en": "“I want this role” — it makes the ask collaborative",
+         "id": "“Saya menginginkan peran ini” — membuat permintaan menjadi kolaboratif"
+        }
+       },
+       {
+        "h": {
+         "en": "The ask",
+         "id": "Permintaan"
+        },
+        "sub": {
+         "en": "“Based on my research for this role and level — X to Y”",
+         "id": "“Berdasarkan riset saya untuk peran dan level ini — X sampai Y”"
+        }
+       },
+       {
+        "h": {
+         "en": "Silence",
+         "id": "Diam"
+        },
+        "sub": {
+         "en": "Ask once, clearly, then stop talking",
+         "id": "Minta sekali, dengan jelas, lalu berhenti bicara"
+        }
+       },
+       {
+        "h": {
+         "en": "Confirm in writing",
+         "id": "Konfirmasi tertulis"
+        },
+        "sub": {
+         "en": "Email restates what was agreed — the letter is the deal",
+         "id": "Email menyatakan ulang yang disepakati — suratnya adalah kesepakatannya"
+        }
+       }
+      ],
+      "note": {
+       "en": "If the salary budget is fixed: pivot to the non-salary levers in the same conversation.",
+       "id": "Jika anggaran gaji tetap: beralih ke tuas non-gaji dalam percakapan yang sama."
+      },
+      "longdesc": {
+       "en": "A five-step flow: thank the company specifically; state that you want the role; make one clear researched ask as a range; stop talking and let them respond; and confirm whatever is agreed in writing. The note covers the pivot to non-salary levers when the salary budget is fixed.",
+       "id": "Alur lima langkah: berterima kasih kepada perusahaan secara spesifik; nyatakan bahwa kamu menginginkan peran itu; ajukan satu permintaan jelas hasil riset dalam bentuk rentang; berhenti bicara dan biarkan mereka merespons; dan konfirmasi apa pun yang disepakati secara tertulis. Catatannya membahas peralihan ke tuas non-gaji ketika anggaran gaji tetap."
+      }
+     },
      "steps": [
       {
        "h": {
@@ -6677,6 +7827,33 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "You receive an offer at the bottom of your researched range. Your move:",
+        "id": "Kamu menerima tawaran di batas bawah rentang hasil risetmu. Langkahmu:"
+       },
+       "options": [
+        {
+         "en": "Thank them warmly, restate enthusiasm, present your range with its basis, ask, then be silent",
+         "id": "Berterima kasih dengan hangat, tegaskan antusiasme, sampaikan rentangmu beserta dasarnya, minta, lalu diam"
+        },
+        {
+         "en": "Accept immediately before they change their mind",
+         "id": "Langsung terima sebelum mereka berubah pikiran"
+        },
+        {
+         "en": "Decline to signal your market value",
+         "id": "Tolak untuk menunjukkan nilai pasarmu"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — the four-beat script. The silence after the ask is where the movement happens; do not fill it.",
+        "id": "Benar — naskah empat ketukan. Diam setelah permintaan adalah saat pergerakan terjadi; jangan mengisinya."
+       }
+      }
+     ],
      "tryit": {
       "qid": "dc15",
       "label": {
@@ -6732,6 +7909,16 @@ window.MT_LMS['the-rope'] = {
         "en": "The conversation after a written offer and before acceptance where terms can move — expected, when done professionally.",
         "id": "Percakapan setelah tawaran tertulis dan sebelum kamu menerimanya, ketika syarat-syarat masih bisa bergerak — hal yang wajar, kalau dilakukan secara profesional."
        }
+      },
+      {
+       "term": {
+        "en": "non-salary levers",
+        "id": "tuas non-gaji"
+       },
+       "def": {
+        "en": "Start date, sign-on bonus, learning budget, review timing, title — the items a fixed salary budget can still move, asked for in the same conversation.",
+        "id": "Tanggal mulai, bonus penandatanganan, anggaran belajar, waktu tinjauan, jabatan — hal-hal yang masih bisa digerakkan oleh anggaran gaji yang tetap, diminta dalam percakapan yang sama."
+       }
       }
      ]
     },
@@ -6765,6 +7952,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menanyakan klausul yang tidak jelas tanpa merasa canggung."
       }
      ],
+     "takeawaysLead": {
+      "en": "The letter is the deal; everything else is conversation. To read an offer the way it will one day be enforced, you can:",
+      "id": "Suratnya adalah kesepakatannya; selebihnya hanya percakapan. Untuk membaca tawaran sebagaimana ia kelak ditegakkan, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "If it matters and it is not written, it does not exist yet — ask for the sentence.",
@@ -6779,31 +7970,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Bertanya tentang isi surat adalah kehati-hatian yang normal; kalau mereka tidak nyaman ditanya, itu sendiri sebuah sinyal."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The hiring manager verbally promised a salary review after six months. It is not in the letter. You should:",
-       "id": "Manajer perekrut berjanji secara lisan akan ada peninjauan gaji setelah enam bulan. Itu tidak ada di surat. Kamu sebaiknya:"
-      },
-      "options": [
-       {
-        "en": "Sign now and raise it again in month six",
-        "id": "Tanda tangan sekarang, lalu ungkit lagi di bulan keenam"
-       },
-       {
-        "en": "Ask for it to be added in writing before you sign",
-        "id": "Minta agar itu ditambahkan secara tertulis sebelum kamu tanda tangan"
-       },
-       {
-        "en": "Trust it — they seemed sincere",
-        "id": "Percaya saja — mereka tampak tulus"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — sincerity is not the issue; memory and turnover are. Managers change; letters remain. One polite sentence gets it written.",
-       "id": "Benar — masalahnya bukan ketulusan; masalahnya adalah ingatan dan pergantian orang. Manajer berganti; surat tetap ada. Satu kalimat yang sopan cukup untuk membuatnya tertulis."
-      }
-     },
      "hotspots": [
       {
        "x": 24,
@@ -6854,7 +8020,124 @@ window.MT_LMS['the-rope'] = {
        }
       }
      ],
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Money and probation, in numbers",
+        "id": "Uang dan masa percobaan, dalam angka"
+       },
+       "body": {
+        "en": "Read the compensation section as an auditor would. Base amount and currency; each allowance as its own line; the bonus as a formula with its conditions and payment schedule, not as an adjective — “competitive bonus” is not a number, and the fix is to ask, in writing, for the formula or the typical attainment. Then the probation terms, which deserve the same reading as salary and rarely get it: the length; the evaluation criteria; the salary during probation if it differs; the notice period inside probation, which is often shorter for both sides; and what confirmation changes. Vague probation criteria are the most common early-career dispute, because “we'll see how it goes” means something different to each party. Ask how success will be measured, and keep the answer — ideally in the email that confirms the offer, so the criteria are as written as the salary is.",
+        "id": "Baca bagian kompensasi seperti seorang auditor. Jumlah gaji pokok dan mata uangnya; setiap tunjangan sebagai barisnya sendiri; bonus sebagai rumus dengan syarat dan jadwal pembayarannya, bukan sebagai kata sifat — “bonus kompetitif” bukan angka, dan perbaikannya adalah meminta, secara tertulis, rumusnya atau pencapaian lazimnya. Lalu ketentuan masa percobaan, yang layak dibaca sama telitinya dengan gaji dan jarang mendapatkannya: lamanya; kriteria evaluasi; gaji selama masa percobaan jika berbeda; masa pemberitahuan di dalam masa percobaan, yang sering lebih singkat bagi kedua pihak; dan apa yang berubah setelah pengangkatan. Kriteria masa percobaan yang samar adalah sengketa awal karier paling umum, karena “kita lihat saja nanti” berarti berbeda bagi tiap pihak. Tanyakan bagaimana keberhasilan akan diukur, dan simpan jawabannya — idealnya di email yang mengonfirmasi tawaran, sehingga kriterianya sama tertulisnya dengan gaji."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Scope, title, location — and the clauses that bite later",
+        "id": "Lingkup, jabatan, lokasi — dan klausul yang menggigit kemudian"
+       },
+       "body": {
+        "en": "The middle of the letter should match the interviews. Does the title match what was discussed? Is the reporting line named? Are work location and any relocation or travel expectations written down? “And other duties as assigned” is normal boilerplate; a letter that is vaguer than the conversations were is a signal, and the professional response is a polite request that the discussed scope be reflected. Then the clauses most candidates skip: training-cost clawbacks, minimum service periods with penalties, non-competes broad enough to cover the whole industry, intellectual-property claims that reach into personal projects. These exist legitimately in some markets and roles. The task is not to refuse them reflexively but to read them before signing, ask for limits where they are sweeping — a duration, a scope, a cap — and know precisely what you are agreeing to walk away from if you leave early.",
+        "id": "Bagian tengah surat harus sesuai dengan wawancara. Apakah jabatannya sesuai yang dibicarakan? Apakah garis pelaporannya disebutkan? Apakah lokasi kerja serta ekspektasi relokasi atau perjalanan dituliskan? “Dan tugas lain yang ditetapkan” adalah frasa baku yang wajar; surat yang lebih samar daripada percakapannya adalah sinyal, dan respons profesionalnya adalah permintaan sopan agar lingkup yang dibicarakan tercermin. Lalu klausul yang dilewatkan sebagian besar kandidat: pengembalian biaya pelatihan, masa kerja minimum dengan penalti, larangan bersaing yang cukup luas untuk mencakup seluruh industri, klaim kekayaan intelektual yang menjangkau proyek pribadi. Semua itu ada secara sah di sebagian pasar dan peran. Tugasnya bukan menolak secara refleks, melainkan membacanya sebelum menandatangani, meminta batasan bila terlalu luas — durasi, lingkup, batas atas — dan tahu persis apa yang kamu sepakati untuk ditinggalkan jika keluar lebih awal."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The golden rule: verbal promises are conversation",
+        "id": "Aturan emas: janji lisan hanyalah percakapan"
+       },
+       "body": {
+        "en": "Everything that mattered in the interviews — the salary review at six months, the title change after probation, the training budget, the hybrid arrangement — either appears in the letter or does not yet exist. This is not cynicism about the people who promised; managers change, budgets change, and a promise the letter does not carry has no owner in a year. The move is a calm sentence that treats the omission as an administrative detail: “Could the six-month review we discussed be reflected in the letter or the confirmation email?” Companies that meant the promise add the line without friction; companies that hesitate have told you something useful before you signed. Questions about the letter are normal diligence, and an employer's discomfort with them is itself information. Sign only when the document says what the room said — and keep the final version, with every confirmation email, where you can find it in six months.",
+        "id": "Segala hal yang penting dalam wawancara — tinjauan gaji di bulan keenam, perubahan jabatan setelah masa percobaan, anggaran pelatihan, pengaturan kerja hibrida — entah muncul di surat atau belum ada. Ini bukan sinisme terhadap orang yang berjanji; manajer berganti, anggaran berubah, dan janji yang tak dibawa surat tak punya pemilik dalam setahun. Langkahnya adalah satu kalimat tenang yang memperlakukan kelalaian itu sebagai detail administratif: “Bisakah tinjauan enam bulan yang kita bahas dicantumkan di surat atau email konfirmasi?” Perusahaan yang sungguh-sungguh berjanji menambahkan barisnya tanpa hambatan; perusahaan yang ragu telah memberitahumu sesuatu yang berguna sebelum kamu menandatangani. Pertanyaan tentang surat adalah kehati-hatian yang wajar, dan ketidaknyamanan pemberi kerja terhadapnya adalah informasi tersendiri. Tanda tangani hanya ketika dokumennya mengatakan apa yang dikatakan ruangan — dan simpan versi finalnya, beserta setiap email konfirmasi, di tempat yang bisa kamu temukan enam bulan lagi."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "quad",
+      "exhibit": {
+       "en": "Exhibit 1: The four zones of an offer letter — inspect each before signing; if it matters and it is not written, it does not exist yet.",
+       "id": "Peraga 1: Empat zona surat tawaran — periksa masing-masing sebelum menandatangani; jika penting dan tidak tertulis, berarti belum ada."
+      },
+      "title": {
+       "en": "Compensation · Probation · Scope & title · Penalty clauses",
+       "id": "Kompensasi · Masa percobaan · Lingkup & jabatan · Klausul penalti"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Compensation exactness",
+         "id": "Ketepatan kompensasi"
+        },
+        "sub": {
+         "en": "Base, currency, allowance lines, bonus formula and schedule",
+         "id": "Gaji pokok, mata uang, baris tunjangan, rumus dan jadwal bonus"
+        }
+       },
+       {
+        "h": {
+         "en": "Probation terms",
+         "id": "Ketentuan masa percobaan"
+        },
+        "sub": {
+         "en": "Length, criteria, salary during, notice inside, what confirmation changes",
+         "id": "Lama, kriteria, gaji selama masa itu, pemberitahuan di dalamnya, apa yang berubah setelah pengangkatan"
+        }
+       },
+       {
+        "h": {
+         "en": "Scope, title, location",
+         "id": "Lingkup, jabatan, lokasi"
+        },
+        "sub": {
+         "en": "Title as discussed, reporting line named, location and travel written",
+         "id": "Jabatan sesuai pembicaraan, garis pelaporan disebut, lokasi dan perjalanan tertulis"
+        }
+       },
+       {
+        "h": {
+         "en": "Penalty and exit clauses",
+         "id": "Klausul penalti dan keluar"
+        },
+        "sub": {
+         "en": "Clawbacks, minimum service, non-competes, IP — read, bound, accept knowingly",
+         "id": "Pengembalian biaya, masa kerja minimum, larangan bersaing, HKI — baca, batasi, terima dengan sadar"
+        }
+       }
+      ],
+      "longdesc": {
+       "en": "A two-by-two grid of the four zones to inspect in an offer letter: compensation stated exactly with a bonus formula; probation terms with length and criteria; scope, title and location matching the interviews; and penalty or exit clauses read and bounded before signing.",
+       "id": "Kisi dua kali dua berisi empat zona yang harus diperiksa dalam surat tawaran: kompensasi yang dinyatakan persis dengan rumus bonus; ketentuan masa percobaan dengan lama dan kriteria; lingkup, jabatan, dan lokasi yang sesuai wawancara; serta klausul penalti atau keluar yang dibaca dan dibatasi sebelum menandatangani."
+      }
+     },
      "checks": [
+      {
+       "q": {
+        "en": "The hiring manager verbally promised a salary review after six months. It is not in the letter. You should:",
+        "id": "Manajer perekrut berjanji secara lisan akan ada peninjauan gaji setelah enam bulan. Itu tidak ada di surat. Kamu sebaiknya:"
+       },
+       "options": [
+        {
+         "en": "Sign now and raise it again in month six",
+         "id": "Tanda tangan sekarang, lalu ungkit lagi di bulan keenam"
+        },
+        {
+         "en": "Ask for it to be added in writing before you sign",
+         "id": "Minta agar itu ditambahkan secara tertulis sebelum kamu tanda tangan"
+        },
+        {
+         "en": "Trust it — they seemed sincere",
+         "id": "Percaya saja — mereka tampak tulus"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — sincerity is not the issue; memory and turnover are. Managers change; letters remain. One polite sentence gets it written.",
+        "id": "Benar — masalahnya bukan ketulusan; masalahnya adalah ingatan dan pergantian orang. Manajer berganti; surat tetap ada. Satu kalimat yang sopan cukup untuk membuatnya tertulis."
+       }
+      },
       {
        "q": {
         "en": "A clause says training costs are repayable if you leave within two years. You should:",
@@ -6890,6 +8173,16 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "The initial evaluation period of a new job, with its own terms for review, notice and confirmation.",
         "id": "Periode evaluasi di awal pekerjaan baru, dengan ketentuannya sendiri untuk peninjauan, pemberitahuan, dan pengangkatan."
+       }
+      },
+      {
+       "term": {
+        "en": "clawback",
+        "id": "pengembalian biaya (clawback)"
+       },
+       "def": {
+        "en": "A clause requiring you to repay training or relocation costs if you leave before a minimum service period — legitimate in some markets, but to be read, bounded and knowingly accepted before signing.",
+        "id": "Klausul yang mewajibkanmu mengembalikan biaya pelatihan atau relokasi jika keluar sebelum masa kerja minimum — sah di sebagian pasar, tetapi harus dibaca, dibatasi, dan diterima dengan sadar sebelum menandatangani."
        }
       }
      ]
@@ -6943,6 +8236,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Mencatat bukti sejak hari pertama."
       }
      ],
+     "takeawaysLead": {
+      "en": "New hires fail from motion without direction. To sequence your first ninety days so the confirmation question answers itself, you can:",
+      "id": "Karyawan baru gagal karena bergerak tanpa arah. Untuk mengurutkan sembilan puluh hari pertamamu agar pertanyaan pengangkatan terjawab dengan sendirinya, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Days 1–30: listen, map, learn the real process — resist premature fixes.",
@@ -6957,31 +8254,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Hari 61–90: pegang satu jalur dari awal sampai akhir, dan mulai percakapan peninjauan lebih awal."
       }
      ],
-     "check": {
-      "q": {
-       "en": "In week one, your most important meeting is:",
-       "id": "Di minggu pertama, rapat terpentingmu adalah:"
-      },
-      "options": [
-       {
-        "en": "Introducing your improvement ideas to the team",
-        "id": "Memperkenalkan ide-ide perbaikanmu kepada tim"
-       },
-       {
-        "en": "Negotiating your next salary review",
-        "id": "Menegosiasikan peninjauan gaji berikutnya"
-       },
-       {
-        "en": "Expectations with your manager: what does success at 90 days look like?",
-        "id": "Menyelaraskan ekspektasi dengan atasanmu: seperti apa sukses di hari ke-90?"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — you cannot hit an undefined target. Ask it explicitly, write the answer down, and revisit it monthly.",
-       "id": "Benar — kamu tidak bisa mengenai sasaran yang belum ditentukan. Tanyakan secara eksplisit, tulis jawabannya, dan tinjau ulang setiap bulan."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -7060,8 +8332,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Tanyakan di minggu pertama: seperti apa sukses di hari kesembilan puluh? Tulis jawabannya."
       },
       "exhibit": {
-       "en": "Exhibit 21: The 30/60/90 arc",
-       "id": "Peraga 21: Busur 30/60/90"
+       "en": "Exhibit 1: The 30/60/90 arc",
+       "id": "Peraga 1: Busur 30/60/90"
       },
       "longdesc": {
        "en": "Diagram of The 30/60/90 arc. It presents, in order: Days 1–30 — Listen, map, learn the real process — log every surprise; Days 31–60 — First visible contribution — shipped, documented, communicated; Days 61–90 — Own a lane end-to-end; start the review conversation early.",
@@ -7138,7 +8410,34 @@ window.MT_LMS['the-rope'] = {
         }
        }
       ]
-     }
+     },
+     "checks": [
+      {
+       "q": {
+        "en": "In week one, your most important meeting is:",
+        "id": "Di minggu pertama, rapat terpentingmu adalah:"
+       },
+       "options": [
+        {
+         "en": "Introducing your improvement ideas to the team",
+         "id": "Memperkenalkan ide-ide perbaikanmu kepada tim"
+        },
+        {
+         "en": "Negotiating your next salary review",
+         "id": "Menegosiasikan peninjauan gaji berikutnya"
+        },
+        {
+         "en": "Expectations with your manager: what does success at 90 days look like?",
+         "id": "Menyelaraskan ekspektasi dengan atasanmu: seperti apa sukses di hari ke-90?"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — you cannot hit an undefined target. Ask it explicitly, write the answer down, and revisit it monthly.",
+        "id": "Benar — kamu tidak bisa mengenai sasaran yang belum ditentukan. Tanyakan secara eksplisit, tulis jawabannya, dan tinjau ulang setiap bulan."
+       }
+      }
+     ]
     },
     {
      "n": "9.2",
@@ -7170,6 +8469,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Membangun kepercayaan lewat janji-janji kecil yang ditepati dengan cepat."
       }
      ],
+     "takeawaysLead": {
+      "en": "Work travels on relationships, and two of them decide most probations. To build the right ones first, you can:",
+      "id": "Pekerjaan berjalan di atas relasi, dan dua di antaranya menentukan sebagian besar masa percobaan. Untuk membangun yang tepat lebih dulu, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Map dependencies both directions: inputs you need, outputs others wait for.",
@@ -7184,31 +8487,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Atasanmu dan satu rekan yang berpengaruh memutuskan sebagian besar masa percobaan — berinvestasilah sesuai itu."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The fastest trust-builder in a new role is:",
-       "id": "Cara tercepat membangun kepercayaan di posisi baru adalah:"
-      },
-      "options": [
-       {
-        "en": "Small promises kept visibly and consistently",
-        "id": "Janji-janji kecil yang ditepati secara terlihat dan konsisten"
-       },
-       {
-        "en": "An impressive presentation about your background",
-        "id": "Presentasi yang mengesankan tentang latar belakangmu"
-       },
-       {
-        "en": "Working later than everyone else",
-        "id": "Pulang lebih larut daripada semua orang"
-       }
-      ],
-      "correct": 0,
-      "why": {
-       "en": "Correct — reliability compounds. “They said Thursday and it came Thursday” repeated five times is a reputation.",
-       "id": "Benar — keandalan itu berlipat. “Katanya Kamis, dan datangnya memang Kamis” yang terjadi lima kali berturut-turut adalah reputasi."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -7228,6 +8506,17 @@ window.MT_LMS['the-rope'] = {
        "body": {
         "en": "Your manager's confirmation instinct forms early, from small evidence: responsiveness, quality of questions, kept commitments. The influential peer — the one whose opinion others borrow — forms the team's verdict. Identify both in week one. Serve the manager's stated priorities; make the peer's life concretely easier once. Those two investments outperform every other relationship strategy.",
         "id": "Naluri atasanmu untuk mengukuhkanmu terbentuk sejak awal, dari bukti-bukti kecil: ketanggapan, mutu pertanyaanmu, komitmen yang ditepati. Rekan yang berpengaruh — orang yang pendapatnya dipinjam orang lain — membentuk vonis tim. Kenali keduanya di minggu pertama. Layani prioritas yang disebutkan atasanmu; permudah hidup rekan itu secara konkret, satu kali. Dua investasi itu mengungguli semua strategi hubungan yang lain."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Trust in small denominations",
+        "id": "Kepercayaan dalam pecahan kecil"
+       },
+       "body": {
+        "en": "Trust in a new role is not built by a grand gesture; it is accumulated in small, frequent, kept commitments — and lost the same way. The denominations that count in the first weeks: replying to messages the same day, even to say when you will have an answer; giving early warning the moment a deadline looks at risk, rather than a late explanation; asking one good question before starting a task instead of three after finishing it wrong; and closing every loop — “done, here is where it lives” — so nobody has to check. Each is small enough to seem beneath notice; together they are precisely what the stakeholder map's influencer column reports when the probation review quietly asks around. The counterpart is reciprocity: make one person's life concretely easier in your first month — the peer whose opinion others borrow, ideally — and the map starts working for you before you have anything large to show.",
+        "id": "Kepercayaan di peran baru tidak dibangun oleh satu gestur besar; ia terkumpul dari komitmen kecil, sering, dan ditepati — dan hilang dengan cara yang sama. Pecahan yang dihitung di minggu-minggu pertama: membalas pesan di hari yang sama, meski hanya untuk menyebut kapan jawabannya siap; memberi peringatan dini begitu tenggat tampak berisiko, alih-alih penjelasan yang terlambat; mengajukan satu pertanyaan bagus sebelum memulai tugas alih-alih tiga pertanyaan setelah mengerjakannya salah; dan menutup setiap lingkaran — “selesai, ini lokasinya” — sehingga tak ada yang perlu memeriksa. Masing-masing cukup kecil untuk tampak tak berarti; bersama-sama semuanya persis apa yang dilaporkan kolom pemengaruh di peta pemangku kepentingan ketika tinjauan masa percobaan diam-diam bertanya ke sana kemari. Pasangannya adalah timbal balik: buat hidup satu orang lebih mudah secara konkret di bulan pertamamu — idealnya rekan yang pendapatnya dipinjam orang lain — dan peta itu mulai bekerja untukmu sebelum kamu punya sesuatu yang besar untuk ditunjukkan."
        }
       }
      ],
@@ -7274,8 +8563,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Kolom ketiga adalah yang paling sering dilupakan karyawan baru — dan yang diam-diam dimintai pendapat saat peninjauan masa percobaan."
       },
       "exhibit": {
-       "en": "Exhibit 22: The stakeholder map — three columns",
-       "id": "Peraga 22: Peta pemangku kepentingan — tiga kolom"
+       "en": "Exhibit 1: The stakeholder map — three columns",
+       "id": "Peraga 1: Peta pemangku kepentingan — tiga kolom"
       },
       "longdesc": {
        "en": "Diagram of The stakeholder map — three columns. It presents, in order: You need them — Whose output feeds your work?; They need you — Who waits on what you produce?; They influence — Whose opinion shapes how you are judged?.",
@@ -7283,6 +8572,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "The fastest trust-builder in a new role is:",
+        "id": "Cara tercepat membangun kepercayaan di posisi baru adalah:"
+       },
+       "options": [
+        {
+         "en": "Small promises kept visibly and consistently",
+         "id": "Janji-janji kecil yang ditepati secara terlihat dan konsisten"
+        },
+        {
+         "en": "An impressive presentation about your background",
+         "id": "Presentasi yang mengesankan tentang latar belakangmu"
+        },
+        {
+         "en": "Working later than everyone else",
+         "id": "Pulang lebih larut daripada semua orang"
+        }
+       ],
+       "correct": 0,
+       "why": {
+        "en": "Correct — reliability compounds. “They said Thursday and it came Thursday” repeated five times is a reputation.",
+        "id": "Benar — keandalan itu berlipat. “Katanya Kamis, dan datangnya memang Kamis” yang terjadi lima kali berturut-turut adalah reputasi."
+       }
+      },
       {
        "q": {
         "en": "Trust in a new role is built fastest by:",
@@ -7382,6 +8696,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Mengomunikasikan penyelesaiannya supaya kontribusi itu benar-benar terlihat."
       }
      ],
+     "takeawaysLead": {
+      "en": "One deliverable converts you from “the new person” into “the person who did X”. To choose it well and finish it completely, you can:",
+      "id": "Satu hasil kerja mengubahmu dari “orang baru” menjadi “orang yang mengerjakan X”. Untuk memilihnya dengan baik dan menyelesaikannya tuntas, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Visible, finishable, useful, low-risk — all four, or choose again.",
@@ -7396,31 +8714,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Kompetensi yang diam adalah kompetensi yang tidak terlihat; kabarkan penyelesaiannya, tanpa drama."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The best first-contribution candidate among these is:",
-       "id": "Kandidat kontribusi pertama yang paling baik di antara ini adalah:"
-      },
-      "options": [
-       {
-        "en": "A six-month research project with executive visibility",
-        "id": "Proyek riset enam bulan yang dilihat para eksekutif"
-       },
-       {
-        "en": "A recurring report everyone dreads, automated and documented in three weeks",
-        "id": "Laporan berulang yang dibenci semua orang, diotomatiskan dan didokumentasikan dalam tiga minggu"
-       },
-       {
-        "en": "A proposal to reorganise the team's entire workflow",
-        "id": "Proposal untuk menata ulang seluruh alur kerja tim"
-       }
-      ],
-      "correct": 1,
-      "why": {
-       "en": "Correct — visible, finishable, useful, low-risk. The reorganisation fails the risk test; the research fails the finishable test.",
-       "id": "Benar — terlihat, bisa dirampungkan, berguna, berisiko rendah. Penataan ulang gagal di uji risiko; proyek riset gagal di uji rampung."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -7440,6 +8733,17 @@ window.MT_LMS['the-rope'] = {
        "body": {
         "en": "Shipped: it works where people use it, not on your machine. Documented: the next person can run it without you. Communicated: a short note to the affected people — what changed, what it saves, where the documentation lives — plus one line in the team update. That last mile of communication is where “done” becomes “visible”, and most new hires skip it out of modesty. Do not.",
         "id": "Dirilis: bekerja di tempat orang memakainya, bukan hanya di komputermu. Didokumentasikan: orang berikutnya bisa menjalankannya tanpa kamu. Dikomunikasikan: satu pesan singkat kepada orang-orang yang terdampak — apa yang berubah, apa yang dihemat, di mana dokumentasinya — plus satu baris di laporan rutin tim. Langkah terakhir berupa komunikasi itulah yang mengubah “selesai” menjadi “terlihat”, dan kebanyakan karyawan baru melewatkannya karena merasa tidak enak. Jangan."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Finding the candidate on your surprise list",
+        "id": "Menemukan kandidatnya di daftar kejutanmu"
+       },
+       "body": {
+        "en": "The right first contribution is rarely invented; it is noticed. During the listening tour of days one to thirty, keep a surprise list: the manual step everyone performs weekly, the report that arrives late and nobody trusts, the onboarding document that stopped being true a year ago, the question three people asked you that has no written answer. Each is a candidate. Run the four criteria against the list rather than against your ambitions — visible, finishable inside a month with the access you already have, useful to someone's Tuesday, low-risk if it fails — and most candidates fall away, which is the point. Then validate the survivor with your manager in one sentence: “I noticed X costs the team about Y a week; I'd like to fix it by the end of next month — is that a good use of my first project?” The question does three things at once: it shows you were listening, it gives the manager ownership of the choice, and it turns your first deliverable into something they are already expecting to see.",
+        "id": "Kontribusi pertama yang tepat jarang direkayasa; ia diperhatikan. Selama tur mendengar di hari satu sampai tiga puluh, simpan daftar kejutan: langkah manual yang dilakukan semua orang tiap minggu, laporan yang datang terlambat dan tak dipercaya siapa pun, dokumen orientasi yang berhenti akurat setahun lalu, pertanyaan yang diajukan tiga orang kepadamu tanpa jawaban tertulis. Masing-masing adalah kandidat. Jalankan empat kriteria terhadap daftar itu alih-alih terhadap ambisimu — terlihat, bisa diselesaikan dalam sebulan dengan akses yang sudah kamu punya, berguna bagi hari Selasa seseorang, berisiko rendah jika gagal — dan sebagian besar kandidat gugur, itulah tujuannya. Lalu validasi yang bertahan dengan manajermu dalam satu kalimat: “Saya perhatikan X memakan waktu tim sekitar Y per minggu; saya ingin memperbaikinya sebelum akhir bulan depan — apakah ini penggunaan yang baik untuk proyek pertama saya?” Pertanyaan itu melakukan tiga hal sekaligus: menunjukkan kamu mendengarkan, memberi manajer kepemilikan atas pilihan itu, dan mengubah hasil kerja pertamamu menjadi sesuatu yang sudah mereka nantikan."
        }
       }
      ],
@@ -7496,8 +8800,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Harus keempatnya, atau pilih yang lain. Kesalahan klasik karyawan baru masing-masing gagal tepat di salah satu kriteria ini."
       },
       "exhibit": {
-       "en": "Exhibit 23: Choosing the first contribution",
-       "id": "Peraga 23: Memilih kontribusi pertama"
+       "en": "Exhibit 1: Choosing the first contribution",
+       "id": "Peraga 1: Memilih kontribusi pertama"
       },
       "longdesc": {
        "en": "Diagram of Choosing the first contribution. It presents, in order: Visible — People beyond your desk will notice; Finishable — Done inside a month, with access you have; Useful — Someone's Tuesday genuinely improves; Low-risk — If it fails, nothing important breaks.",
@@ -7505,6 +8809,31 @@ window.MT_LMS['the-rope'] = {
       }
      },
      "checks": [
+      {
+       "q": {
+        "en": "The best first-contribution candidate among these is:",
+        "id": "Kandidat kontribusi pertama yang paling baik di antara ini adalah:"
+       },
+       "options": [
+        {
+         "en": "A six-month research project with executive visibility",
+         "id": "Proyek riset enam bulan yang dilihat para eksekutif"
+        },
+        {
+         "en": "A recurring report everyone dreads, automated and documented in three weeks",
+         "id": "Laporan berulang yang dibenci semua orang, diotomatiskan dan didokumentasikan dalam tiga minggu"
+        },
+        {
+         "en": "A proposal to reorganise the team's entire workflow",
+         "id": "Proposal untuk menata ulang seluruh alur kerja tim"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Correct — visible, finishable, useful, low-risk. The reorganisation fails the risk test; the research fails the finishable test.",
+        "id": "Benar — terlihat, bisa dirampungkan, berguna, berisiko rendah. Penataan ulang gagal di uji risiko; proyek riset gagal di uji rampung."
+       }
+      },
       {
        "q": {
         "en": "“Finished” for your first contribution means:",
@@ -7541,6 +8870,16 @@ window.MT_LMS['the-rope'] = {
         "en": "The initial evaluation period of a new job, with its own terms for review, notice and confirmation.",
         "id": "Periode evaluasi di awal pekerjaan baru, dengan ketentuannya sendiri untuk peninjauan, pemberitahuan, dan pengangkatan."
        }
+      },
+      {
+       "term": {
+        "en": "last-mile communication",
+        "id": "komunikasi jarak terakhir"
+       },
+       "def": {
+        "en": "The short note to affected people and one line in the team update that turns a finished deliverable into a visible one — the step most new hires skip out of modesty.",
+        "id": "Catatan singkat kepada orang-orang yang terdampak dan satu baris di pembaruan tim yang mengubah hasil kerja yang selesai menjadi yang terlihat — langkah yang dilewatkan sebagian besar karyawan baru karena rendah hati."
+       }
       }
      ]
     },
@@ -7574,6 +8913,10 @@ window.MT_LMS['the-rope'] = {
        "id": "Menerima umpan balik perbaikan sebagai bahan bakar, secara terlihat."
       }
      ],
+     "takeawaysLead": {
+      "en": "Confirmed or extended is often decided before the meeting, from evidence you did or did not assemble. To run your own review, you can:",
+      "id": "Diangkat atau diperpanjang sering diputuskan sebelum rapat, dari bukti yang kamu kumpulkan atau tidak. Untuk menjalankan tinjauanmu sendiri, kamu bisa:"
+     },
      "takeaways": [
       {
        "en": "Log wins weekly: deliverable, effect, who benefited. Memory fails; logs do not.",
@@ -7588,31 +8931,6 @@ window.MT_LMS['the-rope'] = {
        "id": "Cara kamu menerima kritik di rapat ini adalah bukti masa percobaan tersendiri."
       }
      ],
-     "check": {
-      "q": {
-       "en": "The strongest way to open your probation review:",
-       "id": "Cara terkuat membuka peninjauan masa percobaanmu:"
-      },
-      "options": [
-       {
-        "en": "Waiting silently for their verdict",
-        "id": "Menunggu vonis mereka dalam diam"
-       },
-       {
-        "en": "A list of obstacles that explain any shortfalls",
-        "id": "Daftar hambatan yang menjelaskan setiap kekurangan"
-       },
-       {
-        "en": "A brief self-review: delivered, learned, and what I'd focus on next",
-        "id": "Penilaian diri yang singkat: apa yang sudah saya capai, apa yang saya pelajari, dan apa fokus saya berikutnya"
-       }
-      ],
-      "correct": 2,
-      "why": {
-       "en": "Correct — delivered, learned, next. It frames the conversation around evidence and growth, and managers remember who framed well.",
-       "id": "Benar — capaian, pembelajaran, fokus berikutnya. Itu membingkai percakapan di sekitar bukti dan pertumbuhan, dan manajer ingat siapa yang membingkainya dengan baik."
-      }
-     },
      "sections": [
       {
        "h": {
@@ -7635,6 +8953,17 @@ window.MT_LMS['the-rope'] = {
         "id": "Buka dengan penilaian diri tiga bagian. Ketika umpan balik perbaikan datang — pasti datang, dan itu normal — buat catatan secara terlihat, ajukan satu pertanyaan untuk memperjelas, dan jawab dengan rencana, bukan pembelaan: “masuk akal; begini cara saya menanganinya kuartal ini.” Lalu tutup dengan menghadap ke depan: pastikan ekspektasi untuk enam bulan berikutnya, dan satu kemampuan yang ingin kamu tumbuhkan. Kamu pulang setelah mengubah sebuah evaluasi menjadi rapat perencanaan — dan itulah persis yang dilakukan karyawan yang dikukuhkan."
        },
        "icon": "book"
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Writing the self-review before anyone asks",
+        "id": "Menulis tinjauan diri sebelum ada yang meminta"
+       },
+       "body": {
+        "en": "A week before the review, turn the evidence log into one page with three parts. <b>Delivered:</b> the three strongest entries, each as deliverable, effect and who noticed — “the weekly reconciliation now runs in twenty minutes instead of three hours; finance stopped re-checking it in month two.” <b>Learned:</b> two honest observations about how the team actually works and how you adjusted — this is where you show the listening tour paid off, and where a self-aware line about an early misstep earns more trust than its absence would. <b>Next:</b> the one capability you intend to grow and the lane you would like to own, stated as a proposal rather than a request. Send it to your manager two days ahead with a one-line note. Managers rarely receive this; when they do, the review runs on your document, their improvement feedback arrives as additions to a plan rather than as the agenda, and the confirmation conversation has already been half-written by the person being reviewed.",
+        "id": "Seminggu sebelum tinjauan, ubah catatan bukti menjadi satu halaman dengan tiga bagian. <b>Dihasilkan:</b> tiga entri terkuat, masing-masing sebagai hasil kerja, dampak, dan siapa yang memperhatikan — “rekonsiliasi mingguan kini berjalan dua puluh menit alih-alih tiga jam; tim keuangan berhenti memeriksa ulang di bulan kedua.” <b>Dipelajari:</b> dua pengamatan jujur tentang cara tim benar-benar bekerja dan bagaimana kamu menyesuaikan diri — di sinilah kamu menunjukkan tur mendengar membuahkan hasil, dan satu kalimat sadar diri tentang kekeliruan awal menghasilkan lebih banyak kepercayaan daripada ketiadaannya. <b>Berikutnya:</b> satu kemampuan yang ingin kamu tumbuhkan dan jalur yang ingin kamu miliki, dinyatakan sebagai usulan alih-alih permintaan. Kirimkan kepada manajermu dua hari sebelumnya dengan catatan satu baris. Manajer jarang menerima ini; ketika menerimanya, tinjauan berjalan di atas dokumenmu, umpan balik perbaikan mereka datang sebagai tambahan pada sebuah rencana alih-alih sebagai agenda, dan percakapan pengangkatan sudah separuh ditulis oleh orang yang sedang ditinjau."
+       }
       }
      ],
      "diagram": {
@@ -7690,8 +9019,8 @@ window.MT_LMS['the-rope'] = {
        "id": "Kamu pulang setelah mengubah sebuah evaluasi menjadi rapat perencanaan — itulah yang dilakukan karyawan yang dikukuhkan."
       },
       "exhibit": {
-       "en": "Exhibit 24: Running your own probation review",
-       "id": "Peraga 24: Mengemudikan sendiri peninjauan masa percobaanmu"
+       "en": "Exhibit 1: Running your own probation review",
+       "id": "Peraga 1: Mengemudikan sendiri peninjauan masa percobaanmu"
       },
       "longdesc": {
        "en": "Diagram of Running your own probation review. It presents, in order: Evidence log — Ten minutes every Friday: shipped, changed, noticed; Self-review — Open with: delivered, learned, next focus; Feedback → plan — Notes taken visibly; answer with a plan, not a defence; Forward close — Confirm the next six months and one capability to grow.",
@@ -7718,6 +9047,43 @@ window.MT_LMS['the-rope'] = {
        "def": {
         "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
         "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
+       }
+      },
+      {
+       "term": {
+        "en": "three-part self-review",
+        "id": "tinjauan diri tiga bagian"
+       },
+       "def": {
+        "en": "The opening of the probation conversation: what you delivered with effects, what you learned about how the team works, and what you intend to grow next — framing the meeting before feedback arrives.",
+        "id": "Pembuka percakapan masa percobaan: apa yang kamu hasilkan beserta dampaknya, apa yang kamu pelajari tentang cara kerja tim, dan apa yang ingin kamu tumbuhkan berikutnya — membingkai rapat sebelum umpan balik datang."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The strongest way to open your probation review:",
+        "id": "Cara terkuat membuka peninjauan masa percobaanmu:"
+       },
+       "options": [
+        {
+         "en": "Waiting silently for their verdict",
+         "id": "Menunggu vonis mereka dalam diam"
+        },
+        {
+         "en": "A list of obstacles that explain any shortfalls",
+         "id": "Daftar hambatan yang menjelaskan setiap kekurangan"
+        },
+        {
+         "en": "A brief self-review: delivered, learned, and what I'd focus on next",
+         "id": "Penilaian diri yang singkat: apa yang sudah saya capai, apa yang saya pelajari, dan apa fokus saya berikutnya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Correct — delivered, learned, next. It frames the conversation around evidence and growth, and managers remember who framed well.",
+        "id": "Benar — capaian, pembelajaran, fokus berikutnya. Itu membingkai percakapan di sekitar bukti dan pertumbuhan, dan manajer ingat siapa yang membingkainya dengan baik."
        }
       }
      ]
