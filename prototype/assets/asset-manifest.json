@@ -6109,6 +6109,18 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 2 · 2.2 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/power-of-learning-habits.mp4",
+      "bytes": 25690415,
+      "category": "video",
+      "people": "unknown",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-13 as \"The Power of Learning Habits.mp4\" (commit 2fa5a6f); renamed to a hygienic filename; not yet referenced by any page or lesson",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Awaiting placement instructions. Licence and model release to follow the supplied file."
     }
   ]
 }
