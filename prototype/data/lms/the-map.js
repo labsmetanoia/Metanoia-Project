@@ -2238,8 +2238,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pernyataan Misi Pribadi — Materi"
        },
        "intro": {
-        "en": "After the films, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film, tiga slide membawanya ke atas kertas: apa saja yang membentuk pernyataan misi yang baik, cara bersiap menulis draf pertama Anda dalam lima menit, dan ringkasan mengapa misi yang tertulis bekerja sebagai konstitusi bagi keputusan Anda. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the films, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions. Read them, then watch the film that follows.",
+        "id": "Setelah film, tiga slide membawanya ke atas kertas: apa saja yang membentuk pernyataan misi yang baik, cara bersiap menulis draf pertama Anda dalam lima menit, dan ringkasan mengapa misi yang tertulis bekerja sebagai konstitusi bagi keputusan Anda. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/mission-statement-",
        "slides": [
@@ -2323,6 +2323,22 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "A second film to close the material: what it looks like to live by a personal mission, and why purposeful use of your time is the difference between a busy life and a meaningful one. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
         "id": "Film kedua untuk menutup materi ini: seperti apa hidup yang dijalani berdasarkan misi pribadi, dan mengapa memanfaatkan waktu dengan tujuan adalah perbedaan antara hidup yang sibuk dan hidup yang bermakna. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
+       }
+      },
+      {
+       "id": "fQOTnldSrRg",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch · Lesson film 4",
+        "id": "Tonton · Film pelajaran 4"
+       },
+       "title": {
+        "en": "Personal Mission Statement — Film",
+        "id": "Pernyataan Misi Pribadi — Film"
+       },
+       "intro": {
+        "en": "The slides asked you to draft your own mission statement after the video. Here it is: watch it, then take five minutes to write a first draft — relax, keep writing, find a quiet space, and have courage. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
+        "id": "Slide tadi meminta Anda menyusun draf pernyataan misi Anda sendiri setelah video. Inilah videonya: tonton, lalu luangkan lima menit untuk menulis draf pertama — tenang, terus menulis, cari tempat yang tenang, dan miliki keberanian. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
        }
       }
      ],
