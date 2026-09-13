@@ -1420,6 +1420,65 @@ window.MT_LMS['the-map'] = {
        "id": "Inisiatif di dalam zona kendalimu tidak butuh izin siapa pun — justru karena itulah pewawancara selalu meminta contohnya."
       }
      ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 4 slides",
+        "id": "Baca dulu · 4 slide"
+       },
+       "title": {
+        "en": "Acting Inside Your Control — Material",
+        "id": "Bertindak dalam Kendali Anda — Materi"
+       },
+       "intro": {
+        "en": "Four slides open the lesson: the choice that sits between stimulus and response, responsibility for behaviour, results and growth, the pause-and-respond habit with its paradigm and practices, and the principle that you carry your own weather. Read them, then continue to the lesson below.",
+        "id": "Empat slide membuka pelajaran ini: pilihan yang ada di antara stimulus dan respons, tanggung jawab atas perilaku, hasil, dan pertumbuhan, kebiasaan berhenti sejenak dan merespons beserta paradigma dan praktiknya, serta prinsip bahwa Anda membawa cuaca Anda sendiri. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/acting-control-",
+       "slides": [
+        {
+         "title": {
+          "en": "Ownership: acting inside your control",
+          "id": "Kepemilikan diri: bertindak dalam kendali Anda"
+         },
+         "text": {
+          "en": "The Map — Personal Audit. Chapter 2. Ownership: Acting Inside Your Control. Greater progress starts when you focus on what you can control, not what you can’t. Awareness — see clearly. Ownership — take action. Progress — create impact. “Discipline today creates a freer tomorrow.” Same effort. A brighter tomorrow.",
+          "id": "The Map — Audit Diri. Bab 2. Kepemilikan Diri: Bertindak dalam Kendali Anda. Kemajuan yang lebih besar dimulai ketika Anda fokus pada hal-hal yang dapat Anda kendalikan, bukan pada hal-hal yang tidak bisa. Kesadaran — lihat dengan lebih jelas. Kepemilikan — ambil tindakan. Kemajuan — ciptakan dampak nyata. “Disiplin hari ini menciptakan kebebasan untuk hari esok.” Upaya yang sama. Masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Responsible for behavior, results, and growth",
+          "id": "Bertanggung jawab atas perilaku, hasil, dan pertumbuhan"
+         },
+         "text": {
+          "en": "You have a choice. 1 · Between stimulus and response, there is a choice. What happens: external events can push you to react. The choice: a powerful moment to pause and choose how to respond. Your response: you can choose a proactive, intentional response. 2 · Take responsibility for what you can control. As you do, you take responsibility for your behavior, results, and growth by focusing on things you can do something about. Focus on what you can control: your actions — choose deliberately; your mindset — stay constructive; your results — create momentum; your growth — keep improving. “It’s not what happens to you, but how you choose to respond that shapes who you become.” More control, a better you.",
+          "id": "Anda memiliki pilihan. 1 · Antara stimulus dan respons, ada sebuah pilihan. Apa yang terjadi: peristiwa eksternal dapat mendorong Anda untuk bereaksi. Momen pilihan: sebuah momen penuh kekuatan untuk berhenti dan memilih cara merespons. Respons Anda: Anda dapat memilih respons yang proaktif dan penuh kesadaran. 2 · Ambil tanggung jawab atas hal-hal yang dapat Anda kendalikan. Dengan melakukan itu, Anda mengambil tanggung jawab atas perilaku, hasil, dan pertumbuhan Anda dengan fokus pada hal-hal yang bisa Anda lakukan. Fokus pada hal-hal yang dapat Anda kendalikan: tindakan Anda — pilih dengan sadar; pola pikir Anda — tetap konstruktif; hasil Anda — ciptakan momentum; pertumbuhan Anda — terus berkembang. “Bukan apa yang terjadi pada Anda, tetapi bagaimana Anda memilih untuk merespons yang membentuk siapa Anda di masa depan.” Lebih banyak kendali, menuju versi terbaik Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Habit 1 — pause and respond",
+          "id": "Kebiasaan 1 — berhenti sejenak dan merespons"
+         },
+         "text": {
+          "en": "Today’s choices shape a brighter tomorrow. Objective: take responsibility for your choices, regardless of circumstance. Habit 1 is based on the principles of responsibility, choice, accountability, initiative, and resourcefulness. From stimulus to response: stimulus — what happens around you; pause — a moment of power to choose; your response — you choose a proactive and intentional response. “Between stimulus and response, there is a space in which you have the power to choose.” In that space lies your freedom. Highly effective paradigm: “I am free to choose and am ultimately responsible for my happiness.” Highly effective practices: 1 pause and respond based on principles and desired results; 2 use proactive language; 3 focus on your Circle of Influence; 4 become a Transition Person. Greater awareness — see more clearly. Better choices — act with intention. Real results — create momentum. Sustainable growth — become a better version of yourself.",
+          "id": "Pilihan hari ini menentukan arah masa depan Anda. Tujuan: bertanggung jawab atas pilihan Anda, terlepas dari keadaan. Kebiasaan 1 didasarkan pada prinsip tanggung jawab, pilihan, akuntabilitas, inisiatif, dan kemampuan memanfaatkan sumber daya. Dari reaksi ke respons: stimulus — apa yang terjadi di sekitar Anda; berhenti sejenak — momen penuh kekuatan untuk memilih; respons Anda — Anda dapat memilih respons yang proaktif dan penuh kesadaran. “Di antara stimulus dan respons, ada ruang di mana Anda memiliki pilihan.” Di sinilah kekuatan Anda berada. Paradigma yang sangat efektif: “Saya bebas memilih dan pada akhirnya bertanggung jawab atas kebahagiaan saya.” Praktik yang sangat efektif: 1 berhenti sejenak dan merespons berdasarkan prinsip serta hasil yang diinginkan; 2 gunakan bahasa proaktif; 3 fokus pada Lingkaran Pengaruh Anda; 4 jadilah Pribadi Pembawa Perubahan. Kesadaran lebih tinggi — melihat lebih jelas. Pilihan lebih baik — bertindak dengan sadar. Hasil lebih nyata — menciptakan momentum. Pertumbuhan berkelanjutan — menjadi versi terbaik diri Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Carry your own weather",
+          "id": "Bawalah cuaca Anda sendiri"
+         },
+         "text": {
+          "en": "Each of us faces challenges, big and small. Habit 1 is based on the principle that your life is the result of your own decisions. You have the power to choose your response to what happens to you.",
+          "id": "Setiap dari kita menghadapi tantangan, besar maupun kecil. Kebiasaan 1 didasarkan pada prinsip bahwa hidup Anda adalah hasil dari keputusan Anda sendiri. Anda memiliki kekuatan untuk memilih bagaimana merespons apa yang terjadi pada Anda."
+         }
+        }
+       ]
+      }
+     ],
      "sections": [
       {
        "icon": "eye",
