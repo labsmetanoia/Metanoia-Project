@@ -1431,8 +1431,8 @@ window.MT_LMS['the-map'] = {
         "id": "Bertindak dalam Kendali Anda — Materi"
        },
        "intro": {
-        "en": "Four slides open the lesson: the choice that sits between stimulus and response, responsibility for behaviour, results and growth, the pause-and-respond habit with its paradigm and practices, and the principle that you carry your own weather. Read them, then continue to the lesson below.",
-        "id": "Empat slide membuka pelajaran ini: pilihan yang ada di antara stimulus dan respons, tanggung jawab atas perilaku, hasil, dan pertumbuhan, kebiasaan berhenti sejenak dan merespons beserta paradigma dan praktiknya, serta prinsip bahwa Anda membawa cuaca Anda sendiri. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+        "en": "Four slides open the lesson: the choice that sits between stimulus and response, responsibility for behaviour, results and growth, the pause-and-respond habit with its paradigm and practices, and the principle that you carry your own weather. Read them, then watch the film that follows.",
+        "id": "Empat slide membuka pelajaran ini: pilihan yang ada di antara stimulus dan respons, tanggung jawab atas perilaku, hasil, dan pertumbuhan, kebiasaan berhenti sejenak dan merespons beserta paradigma dan praktiknya, serta prinsip bahwa Anda membawa cuaca Anda sendiri. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/acting-control-",
        "slides": [
@@ -1477,6 +1477,24 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "FfsxUowcrig",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch · Lesson film",
+        "id": "Tonton · Film pelajaran"
+       },
+       "title": {
+        "en": "Acting Inside Your Control — Film",
+        "id": "Bertindak dalam Kendali Anda — Film"
+       },
+       "intro": {
+        "en": "After the slides, watch the film below to see the ideas of this lesson in motion — the space between stimulus and response, taking responsibility for what you can control, and the pause-and-respond habit that turns ownership into daily practice.",
+        "id": "Setelah slide, tonton film di bawah ini untuk melihat gagasan pelajaran ini bergerak — ruang di antara stimulus dan respons, mengambil tanggung jawab atas hal-hal yang dapat Anda kendalikan, dan kebiasaan berhenti sejenak lalu merespons yang mengubah rasa memiliki menjadi praktik sehari-hari."
+       }
       }
      ],
      "sections": [
