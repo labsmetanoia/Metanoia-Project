@@ -2100,8 +2100,8 @@ window.MT_LMS['the-map'] = {
         "id": "Merancang Hasil Sejak Awal — Materi"
        },
        "intro": {
-        "en": "Six slides open the lesson: three honest questions about the life you are building, why direction matters more than pace, setting direction with a personal vision, beginning with the end in mind, defining outcomes before you act, and the two creations — mental first, physical second. Read them, then continue to Exhibit 1 below.",
-        "id": "Enam slide membuka pelajaran ini: tiga pertanyaan jujur tentang hidup yang sedang Anda bangun, mengapa arah lebih penting daripada kecepatan, menentukan arah dengan visi pribadi, memulai dengan tujuan akhir di pikiran, menentukan hasil sebelum bertindak, dan dua penciptaan — mental lebih dulu, fisik kemudian. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "Six slides open the lesson: three honest questions about the life you are building, why direction matters more than pace, setting direction with a personal vision, beginning with the end in mind, defining outcomes before you act, and the two creations — mental first, physical second. Read them, then watch the film that follows.",
+        "id": "Enam slide membuka pelajaran ini: tiga pertanyaan jujur tentang hidup yang sedang Anda bangun, mengapa arah lebih penting daripada kecepatan, menentukan arah dengan visi pribadi, memulai dengan tujuan akhir di pikiran, menentukan hasil sebelum bertindak, dan dua penciptaan — mental lebih dulu, fisik kemudian. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/outcome-first-",
        "slides": [
@@ -2166,6 +2166,24 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "BxaJ_YjkWpA",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch · Lesson film",
+        "id": "Tonton · Film pelajaran"
+       },
+       "title": {
+        "en": "Designing the First Outcome — Film",
+        "id": "Merancang Hasil Sejak Awal — Film"
+       },
+       "intro": {
+        "en": "After the slides, watch this short film to see the idea in motion: why beginning with the end in mind changes the steps you take today, and how defining the outcome first turns intention into results. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
+        "id": "Setelah slide, tonton film singkat ini untuk melihat gagasannya bergerak: mengapa memulai dengan tujuan akhir di pikiran mengubah langkah yang Anda ambil hari ini, dan bagaimana menentukan hasil lebih dulu mengubah niat menjadi hasil nyata. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+       }
       }
      ],
      "sections": [
