@@ -478,10 +478,11 @@
         upT = setTimeout(function () { if (upnext.classList.contains('show')) load(idx + 1, true); }, 6000);
       } else {
         var nextIsLesson = opts.next === 'lesson';   /* the reading sections follow the videos */
-        var nextEn = nextIsDeck ? 'Continue to the next slides below' : nextIsLesson ? 'Continue with the lesson below' : after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
-        var nextId = nextIsDeck ? 'Lanjutkan ke slide berikutnya di bawah' : nextIsLesson ? 'Lanjutkan pelajaran di bawah' : after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
-        var goEn = nextIsDeck ? 'Go to the slides' : nextIsLesson ? 'Continue the lesson' : after ? 'Go to the check' : 'Go to material';
-        var goId = nextIsDeck ? 'Ke slide' : nextIsLesson ? 'Lanjutkan pelajaran' : after ? 'Ke cek pemahaman' : 'Ke materi';
+        var nextIsFilm = opts.next === 'film';       /* a YouTube lesson film follows the videos */
+        var nextEn = nextIsFilm ? 'Continue to the film below' : nextIsDeck ? 'Continue to the next slides below' : nextIsLesson ? 'Continue with the lesson below' : after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
+        var nextId = nextIsFilm ? 'Lanjutkan ke film di bawah' : nextIsDeck ? 'Lanjutkan ke slide berikutnya di bawah' : nextIsLesson ? 'Lanjutkan pelajaran di bawah' : after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+        var goEn = nextIsFilm ? 'Watch the film' : nextIsDeck ? 'Go to the slides' : nextIsLesson ? 'Continue the lesson' : after ? 'Go to the check' : 'Go to material';
+        var goId = nextIsFilm ? 'Tonton filmnya' : nextIsDeck ? 'Ke slide' : nextIsLesson ? 'Lanjutkan pelajaran' : after ? 'Ke cek pemahaman' : 'Ke materi';
         var doneEn = list.length === 1 ? 'Video watched' : 'All videos watched', doneId = list.length === 1 ? 'Video selesai' : 'Semua video selesai';
         upnext.innerHTML = '<span class="vu-k" data-en="' + doneEn + '" data-id="' + doneId + '">' + (lang() === 'id' ? doneId : doneEn) + '</span>' +
           '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (lang() === 'id' ? nextId : nextEn) + '</b>' +
@@ -1635,7 +1636,7 @@
     if (!afterN) renderIntroVideos(l, innerEl);
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
-      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
+      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: (filmsAfter[k + 1] || []).length ? 'film' : k + 1 < decks.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
       (filmsAfter[k + 1] || []).forEach(function (y, j, arr) {
         renderYouTube(l, innerEl, { block: y, next: j + 1 < arr.length ? 'film' : k + 1 < decks.length ? 'material' : 'lesson' });
       });
