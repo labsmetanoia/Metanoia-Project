@@ -2518,6 +2518,85 @@ window.MT_LMS['the-map'] = {
        "id": "Setiap “ya” adalah “tidak” yang belum dihitung harganya bagi hal lain — hitung dulu sebelum kamu ucapkan."
       }
      ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 6 slides",
+        "id": "Baca dulu · 6 slide"
+       },
+       "title": {
+        "en": "Time Matrix — Material",
+        "id": "Matriks Waktu — Materi"
+       },
+       "intro": {
+        "en": "Six slides open the lesson: the mindset that not everything urgent is important, the Time Matrix and the paradigm shift from urgent to important, the practices that come with it, a review of the four quadrants, a quadrant self-check, and how to eliminate the unimportant. Read them, then continue to Exhibit 1 below.",
+        "id": "Enam slide membuka pelajaran ini: pola pikir bahwa tidak semua yang mendesak itu penting, Matriks Waktu dan pergeseran paradigma dari mendesak ke penting, kebiasaan yang menyertainya, tinjauan empat kuadran, pemeriksaan diri per kuadran, dan cara menghilangkan yang tidak penting. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/time-matrix-",
+       "slides": [
+        {
+         "title": {
+          "en": "Defending the important against the urgent",
+          "id": "Mempertahankan yang penting di tengah yang mendesak"
+         },
+         "text": {
+          "en": "Key mindset. Execute on the most important priorities. 1 A more balanced life is possible: to live a more balanced existence, you have to recognize that not doing everything that comes along is okay. 2 It’s okay to say no: there’s no need to overextend yourself; all it takes is realizing that it’s all right to say no when necessary and then focus on your highest priorities. Not everything that is urgent is important. Urgent: feels important now but often temporary. Important: builds the life you truly want. Key takeaway: protect what matters, say no to what doesn’t, focus on what moves you forward. A clearer today, a brighter tomorrow.",
+          "id": "Pola pikir utama. Fokus mengeksekusi prioritas yang paling penting. 1 Hidup yang lebih seimbang itu mungkin: untuk menjalani hidup yang lebih seimbang, Anda harus menyadari bahwa tidak melakukan semua hal yang datang sebenarnya tidak apa-apa. 2 Tidak apa-apa untuk berkata tidak: tidak perlu memaksakan diri secara berlebihan; yang diperlukan hanyalah menyadari bahwa sangat wajar untuk berkata tidak ketika perlu, lalu fokus pada prioritas tertinggi Anda. Tidak semua hal yang mendesak itu penting. Mendesak: terasa penting sekarang, namun seringkali hanya sementara. Penting: membangun kehidupan yang benar-benar Anda inginkan. Pesan utama: lindungi hal-hal yang benar-benar penting, katakan tidak pada yang tidak perlu, fokus pada apa yang membuat Anda melangkah lebih jauh. Hari ini lebih jelas, masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "The Time Matrix",
+          "id": "Matriks Waktu"
+         },
+         "text": {
+          "en": "Lesson 1. Realize your life vision by consistently acting on what’s most important. Core principles: based on the principles of focus, integrity, discipline, and prioritization. Paradigms — common paradigm: “I spend time on what’s most urgent.” Highly effective paradigm: “I spend time on what’s most important.” Common practices: spend most of your time managing crises and other people’s agendas; try to do it all, plan sporadically or not at all; give in to the pressures of the moment. Highly effective practices: focus on your highest priorities; eliminate the unimportant; plan every week; stay true in the moment of choice. “You don’t find time for what’s important, you make time.” — Stephen Covey. Key takeaway: it’s not about being busier, it’s about being more intentional. Focus on what matters, say no to what doesn’t, plan every week, live your best self.",
+          "id": "Pelajaran 1. Wujudkan visi hidup Anda dengan konsisten melakukan hal-hal yang paling penting. Prinsip utama: didasarkan pada prinsip fokus, integritas, disiplin, dan prioritas. Paradigma — paradigma umum: “Saya menghabiskan waktu pada hal-hal yang mendesak.” Paradigma orang yang sangat efektif: “Saya menghabiskan waktu pada hal-hal yang paling penting.” Kebiasaan umum: menghabiskan sebagian besar waktu untuk menangani krisis dan agenda orang lain; berusaha melakukan semuanya, merencanakan secara sporadis atau bahkan tidak sama sekali; mudah terpengaruh oleh tekanan di saat-saat tertentu. Kebiasaan orang yang sangat efektif: fokus pada prioritas tertinggi Anda; mengeliminasi hal-hal yang tidak penting; merencanakan setiap minggu; tetap setia pada prinsip Anda di setiap momen pengambilan keputusan. “Anda tidak menemukan waktu untuk hal yang penting, Anda menciptakan waktu untuk hal yang penting.” — Stephen Covey. Pesan utama: ini bukan tentang menjadi lebih sibuk, ini tentang menjadi lebih sadar dan intensional. Fokus pada yang penting, katakan tidak pada yang tidak perlu, rencanakan setiap minggu, wujudkan versi terbaik diri Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Focus on your highest priorities",
+          "id": "Fokus pada prioritas utama Anda"
+         },
+         "text": {
+          "en": "The Time Matrix. Realize your life vision by consistently acting on what’s most important. “Things which matter most must never be at the mercy of things which matter least.” — Johann Goethe. Common practice — focus on reactive urgency: you spend most of your time managing crises and other people’s agendas. Highly effective practice — focus on intentional prioritization: you spend time on what’s most important. Focus on your highest priorities. Common practice: spend most of your time managing crises and other people’s agendas; try to do it all, plan sporadically or not at all; give in to the pressures of the moment. Highly effective practice: focus on your highest priorities; eliminate the unimportant; plan every week; stay true in the moment of choice.",
+          "id": "Matriks Waktu. Wujudkan visi hidup Anda dengan konsisten melakukan hal-hal yang paling penting. “Hal-hal yang paling penting tidak boleh pernah menjadi korban dari hal-hal yang paling tidak penting.” — Johann Goethe. Kebiasaan umum — fokus pada hal yang mendesak: Anda menghabiskan sebagian besar waktu untuk menangani krisis dan agenda orang lain. Kebiasaan orang yang sangat efektif — fokus pada prioritas yang paling penting: Anda menghabiskan waktu untuk hal-hal yang paling penting. Fokus pada prioritas utama Anda: kelola waktu Anda secara proaktif dengan Matriks Waktu dan empat kuadrannya untuk membantu Anda mengelola waktu dengan lebih efektif. Kebiasaan umum: menghabiskan sebagian besar waktu untuk menangani krisis dan agenda orang lain; berusaha melakukan semuanya, merencanakan secara sporadis atau bahkan tidak sama sekali; mudah terpengaruh oleh tekanan di saat-saat tertentu. Kebiasaan orang yang sangat efektif: fokus pada prioritas tertinggi Anda; mengeliminasi hal-hal yang tidak penting; merencanakan setiap minggu; tetap setia pada prinsip Anda di setiap momen pengambilan keputusan."
+         }
+        },
+        {
+         "title": {
+          "en": "The Time Matrix review",
+          "id": "Tinjauan Matriks Waktu"
+         },
+         "text": {
+          "en": "Quadrant 2 is highlighted in the Time Matrix because it contains the activities that really matter to your priorities (important), but that won’t happen unless you act on them (not urgent). Consider your recent activities: in which quadrant do you currently spend the most time? Urgent (requires immediate attention) and not urgent (does not require immediate attention); important (contributes to your goals and priorities) and not important (does not contribute to your goals and priorities). Q1 urgent and important: these are things you care about and that must be done now, but the return on your time and energy is equal to or less than what you put in. Q2 important and not urgent: these are things that really matter to the results you want, but won’t happen unless you act on them; time spent here always generates a return far greater than the time and energy you put into it. Q3 urgent and not important: these are things that come at you, but when you look closely, they turn out to be unimportant, low-value activities; time spent here always generates a return that is less than the time and energy spent. Q4 not urgent and not important: this is a place where you shut off your brain and don’t do anything of value; time spent here is unnecessary and generates zero return. “Action expresses priorities.” — Mahatma Gandhi. Higher priorities, a brighter tomorrow. It starts with how you spend your time.",
+          "id": "Kuadran 2 menjadi sorotan dalam Matriks Waktu karena berisi aktivitas yang benar-benar penting bagi prioritas Anda (penting), namun tidak akan terjadi kecuali Anda bertindak (tidak mendesak). Coba refleksikan aktivitas Anda baru-baru ini: di kuadran mana Anda saat ini menghabiskan paling banyak waktu? Mendesak (memerlukan perhatian segera) dan tidak mendesak (tidak memerlukan perhatian segera); penting (mendukung tujuan dan prioritas Anda) dan tidak penting (tidak mendukung tujuan dan prioritas Anda). Q1 mendesak dan penting: ini adalah hal-hal yang Anda pedulikan dan harus segera dilakukan, tetapi imbal hasil dari waktu dan energi yang Anda keluarkan sama dengan atau lebih kecil dari yang Anda dapatkan. Q2 penting dan tidak mendesak: ini adalah hal-hal yang benar-benar penting untuk hasil yang Anda inginkan, tetapi tidak akan terjadi kecuali Anda bertindak; waktu yang dihabiskan di sini selalu memberikan imbal hasil yang jauh lebih besar daripada waktu dan energi yang Anda keluarkan. Q3 mendesak dan tidak penting: ini adalah hal-hal yang datang kepada Anda, tetapi jika dilihat lebih dekat, ternyata tidak penting, aktivitas dengan nilai rendah; waktu yang dihabiskan di sini selalu memberikan imbal hasil yang lebih kecil daripada waktu dan energi yang Anda keluarkan. Q4 tidak mendesak dan tidak penting: ini adalah tempat di mana Anda mematikan pikiran dan tidak melakukan apa pun yang bernilai; waktu yang dihabiskan di sini tidak perlu dan memberikan imbal hasil nol. “Tindakan mencerminkan prioritas.” — Mahatma Gandhi. Prioritas lebih tinggi untuk hari esok yang lebih baik. Semua dimulai dari bagaimana Anda menggunakan waktu Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "The quadrant self-check",
+          "id": "Pemeriksaan diri per kuadran"
+         },
+         "text": {
+          "en": "Self reflection. To stay focused on your highest priorities, regularly ask yourself these questions: 1 Which quadrant am I in right now? 2 Why am I here? 3 How long have I been here? 4 What are the consequences of staying here? “Greater awareness today leads to a better tomorrow.” Pause, reflect, choose better, stay in Q2. To be consistently effective, maximize your time in Quadrant 2, where the return on your time and energy is highest.",
+          "id": "Refleksi diri. Untuk tetap fokus pada prioritas utama Anda, secara rutin tanyakan pada diri sendiri pertanyaan berikut: 1 Di kuadran mana saya berada saat ini? 2 Mengapa saya berada di sini? 3 Sudah berapa lama saya berada di sini? 4 Apa konsekuensi jika saya terus berada di sini? “Kesadaran hari ini, masa depan yang lebih baik esok hari.” Berhenti sejenak, refleksikan, pilih yang lebih baik, tetap di Q2. Untuk menjadi lebih efektif secara konsisten, maksimalkan waktu Anda di Kuadran 2, di mana imbal hasil atas waktu dan energi Anda paling tinggi."
+         }
+        },
+        {
+         "title": {
+          "en": "Eliminate the unimportant",
+          "id": "Hilangkan yang tidak penting"
+         },
+         "text": {
+          "en": "Put your energy where it matters. Not everything deserves your time and energy. Be intentional about what you say “no” to, so you can create space for what truly matters. Common practice — try to do it all: say “yes” to almost everything; take on too many tasks; get busy but not always productive; end up with stress and low impact. Highly effective practice — be selective and focus: be clear on what truly matters; say “no” to low-value activities; eliminate, delegate, or automate; create more time for high-impact work. Key summary: 1 Q2 activities are important but won’t happen unless you act on them. 2 Time spent in Q2 always generates a return greater than the time and energy you invest. 3 You can gain time for Q2 activities by minimizing time spent in other quadrants. “Less but better.” — Greg McKeown.",
+          "id": "Arahkan energi Anda pada hal yang penting. Tidak semua hal layak mendapatkan waktu dan energi Anda. Bersikaplah intentional dalam mengatakan “tidak”, agar Anda dapat menciptakan ruang untuk hal yang benar-benar penting. Kebiasaan umum — mencoba melakukan semuanya: mengatakan “ya” pada hampir semua hal; mengambil terlalu banyak tugas; terlihat sibuk, tetapi tidak selalu produktif; akhirnya stres dan berdampak kecil. Praktik yang sangat efektif — pilih dengan bijak dan fokus: jelas pada hal yang benar-benar penting; berkata “tidak” pada aktivitas bernilai rendah; menghilangkan, mendelegasikan, atau mengotomatisasi; menciptakan lebih banyak waktu untuk pekerjaan yang berdampak tinggi. Ringkasan utama: 1 Aktivitas di Kuadran 2 itu penting, tetapi tidak akan terjadi kecuali Anda bertindak. 2 Waktu yang dihabiskan di Kuadran 2 selalu memberikan imbal hasil yang lebih besar daripada waktu dan energi yang Anda investasikan. 3 Anda dapat memperoleh lebih banyak waktu untuk aktivitas di Kuadran 2 dengan meminimalkan waktu yang dihabiskan di kuadran lainnya. “Lebih sedikit tapi lebih baik.” — Greg McKeown."
+         }
+        }
+       ]
+      }
+     ],
      "sections": [
       {
        "icon": "gear",
