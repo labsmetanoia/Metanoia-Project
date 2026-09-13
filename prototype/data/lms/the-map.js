@@ -2166,6 +2166,63 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Personal Mission — Material",
+        "id": "Misi Pribadi — Materi"
+       },
+       "intro": {
+        "en": "After the film, four slides turn the outcome inward: what a personal mission is and three ways to think about it, the 80th-birthday reflection, one question about your one wild and precious life, and a closing reminder not to waste it. Read them, then continue to Exhibit 1 below.",
+        "id": "Setelah film, empat slide mengarahkan hasil itu ke dalam diri: apa itu misi pribadi dan tiga cara memikirkannya, refleksi ulang tahun ke-80, satu pertanyaan tentang satu kehidupan Anda yang unik dan berharga, dan pengingat penutup untuk tidak menyia-nyiakannya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/personal-mission-",
+       "slides": [
+        {
+         "title": {
+          "en": "Your personal mission",
+          "id": "Misi pribadi Anda"
+         },
+         "text": {
+          "en": "Lesson 2. A clear personal mission helps you define outcomes for your whole life as well as for specific events or projects. A powerful way to do this is to create a personal mission statement. Consider your personal mission: being effective means taking the time to define what’s important to you, what you want to achieve, and the kind of person you want to be. As you think about what you want to accomplish: 1 reflect on your life as a whole (consider your past, present, and future); 2 consider the attributes of others (think about the people who have had the greatest influence on you); 3 consider your own attributes (identify your strengths, challenges, and passions). “Lead your life or someone else will.” — Stephen R. Covey. Key takeaway: a personal mission gives you direction, focus, and a meaningful life. Clarity today, a more fulfilling tomorrow. Purpose, growth, impact, freedom.",
+          "id": "Pelajaran 2. Misi pribadi yang jelas membantu Anda menetapkan hasil yang ingin dicapai untuk seluruh hidup Anda, serta untuk peristiwa atau proyek tertentu. Cara yang sangat efektif untuk melakukannya adalah dengan membuat pernyataan misi pribadi. Pertimbangkan misi pribadi Anda: menjadi efektif berarti meluangkan waktu untuk menetapkan apa yang penting bagi Anda, apa yang ingin Anda capai, dan seperti apa pribadi yang ingin Anda menjadi. Saat Anda memikirkan apa yang ingin Anda capai: 1 refleksikan hidup Anda secara keseluruhan (pertimbangkan masa lalu, masa kini, dan masa depan Anda); 2 pertimbangkan kualitas orang-orang yang paling memengaruhi Anda (pikirkan tentang orang-orang yang telah memberikan pengaruh terbesar dalam hidup Anda); 3 pertimbangkan kualitas diri Anda sendiri (kenali kekuatan, tantangan, dan passion Anda). “Pimpin hidup Anda, atau orang lain yang akan melakukannya.” — Stephen R. Covey. Poin utama: misi pribadi yang jelas memberi Anda arah, fokus, dan kehidupan yang lebih bermakna. Kejelasan hari ini, masa depan yang lebih baik. Tujuan, pertumbuhan, dampak, kebebasan."
+         }
+        },
+        {
+         "title": {
+          "en": "80th birthday",
+          "id": "Ulang tahun ke-80"
+         },
+         "text": {
+          "en": "Reflection exercise. As you watch the next video, imagine what you would want people to say about you at your 80th birthday celebration, and think about what you might want to put in your personal mission statement. What would your family say about you? What would your friends say about you? What would your colleagues say about you? What kind of impact do you want to make in the world? The legacy I want to leave. “There is no greater joy nor greater reward than to make a fundamental difference in someone’s life.” — Mary Rose McGeady. Key takeaway: live with intention, so your life at 80 reflects the impact you hope to make today.",
+          "id": "Latihan refleksi. Saat Anda menonton video berikutnya, bayangkan apa yang ingin Anda dengar dari orang-orang tentang diri Anda pada perayaan ulang tahun ke-80 Anda, dan pikirkan apa yang mungkin ingin Anda masukkan dalam pernyataan misi pribadi Anda. Apa yang akan dikatakan keluarga Anda tentang diri Anda? Apa yang akan dikatakan teman-teman Anda tentang diri Anda? Apa yang akan dikatakan rekan kerja Anda tentang diri Anda? Dampak seperti apa yang ingin Anda berikan kepada dunia? Warisan yang ingin saya tinggalkan. “Tidak ada kebahagiaan yang lebih besar maupun penghargaan yang lebih tinggi daripada membuat perbedaan yang nyata dalam kehidupan seseorang.” — Mary Rose McGeady. Poin utama: hiduplah dengan tujuan, agar hidup Anda di usia 80 mencerminkan dampak yang ingin Anda berikan hari ini."
+         }
+        },
+        {
+         "title": {
+          "en": "Tell me! What is it you plan to do with your one wild and precious life?",
+          "id": "Ceritakan kepada saya! Apa yang ingin Anda lakukan dengan satu kehidupan yang unik dan berharga ini?"
+         },
+         "text": {
+          "en": "Reflection moment. What do you want to achieve? Your biggest dreams and goals. Who do you want to become? The kind of person you aspire to be. What impact do you want to make? The difference you want to create. “Tell me, what is it you plan to do with your one wild and precious life?” — Mary Oliver. Key takeaway: live intentionally. Turn your dreams into actions, and make your one wild and precious life count. More purpose, more freedom, more impact, a brighter tomorrow.",
+          "id": "Momen refleksi. Apa yang ingin Anda capai? Impian dan tujuan terbesar Anda. Siapa yang ingin Anda menjadi? Nilai dan karakter seperti apa yang ingin Anda miliki. Dampak apa yang ingin Anda berikan? Perubahan positif apa yang ingin Anda ciptakan di sekitar Anda. “Tidak ada kebahagiaan yang lebih besar maupun penghargaan yang lebih tinggi daripada membuat perbedaan yang nyata dalam kehidupan seseorang.” — Mary Oliver. Poin utama: hiduplah dengan tujuan. Ubah impian Anda menjadi tindakan, dan jadikan satu kehidupan yang unik dan berharga ini benar-benar berarti. Tujuan yang lebih jelas, kebebasan yang lebih besar, dampak yang lebih luas, masa depan yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Let’s not waste your life",
+          "id": "Jangan sia-siakan hidup Anda"
+         },
+         "text": {
+          "en": "Let’s not waste your life: let’s make purposeful use of your time to create meaningful impact.",
+          "id": "Jangan sia-siakan hidup Anda: manfaatkan waktu Anda dengan tujuan untuk menciptakan dampak yang berarti."
+         }
+        }
+       ]
       }
      ],
      "youtube": [
@@ -2181,8 +2238,8 @@ window.MT_LMS['the-map'] = {
         "id": "Merancang Hasil Sejak Awal — Film"
        },
        "intro": {
-        "en": "After the slides, watch this short film to see the idea in motion: why beginning with the end in mind changes the steps you take today, and how defining the outcome first turns intention into results. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
-        "id": "Setelah slide, tonton film singkat ini untuk melihat gagasannya bergerak: mengapa memulai dengan tujuan akhir di pikiran mengubah langkah yang Anda ambil hari ini, dan bagaimana menentukan hasil lebih dulu mengubah niat menjadi hasil nyata. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "After the slides, watch this short film to see the idea in motion: why beginning with the end in mind changes the steps you take today, and how defining the outcome first turns intention into results. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
+        "id": "Setelah slide, tonton film singkat ini untuk melihat gagasannya bergerak: mengapa memulai dengan tujuan akhir di pikiran mengubah langkah yang Anda ambil hari ini, dan bagaimana menentukan hasil lebih dulu mengubah niat menjadi hasil nyata. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        }
       }
      ],
