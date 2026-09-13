@@ -711,6 +711,16 @@ body.lms-lock{overflow:hidden}
 .lms-takeaways .lms-tk-lead{margin:0 0 12px;font-size:14.5px;line-height:1.7;color:rgba(240,237,232,.85)}
 :root[data-theme="light"] .lms-takeaways .lms-tk-lead{color:rgba(26,31,40,.82)}
 
+/* key terms panel (lesson glossary) */
+.lms-glossary dl{margin:0;display:grid;grid-template-columns:minmax(120px,180px) 1fr;gap:8px 16px}
+.lms-glossary dt{font-size:13px;font-weight:800;color:var(--text,#F0EDE8);line-height:1.55;padding-top:6px;border-top:1px dashed rgba(201,168,76,.22)}
+.lms-glossary dd{margin:0;font-size:13.5px;line-height:1.6;color:rgba(240,237,232,.8);padding-top:6px;border-top:1px dashed rgba(201,168,76,.22)}
+.lms-glossary dt:first-of-type,.lms-glossary dd:first-of-type{border-top:0;padding-top:0}
+:root[data-theme="light"] .lms-glossary dd{color:rgba(26,31,40,.78)}
+:root[data-theme="light"] .lms-glossary dt,:root[data-theme="light"] .lms-glossary dd{border-top-color:rgba(139,105,20,.22)}
+@media(max-width:560px){.lms-glossary dl{grid-template-columns:1fr;gap:2px 0}
+  .lms-glossary dd{border-top:0;padding-top:0;margin-bottom:8px}}
+
 /* ═══ Slide material player — PowerPoint-style deck in the video player's skin ═══ */
 .lms-sp-title{font-family:var(--serif,Georgia,serif);font-size:1.28rem;font-weight:600;color:#F0EDE8;margin:2px 0 8px;line-height:1.25}
 :root[data-theme="light"] .lms-sp-title{color:#1A1F28}
