@@ -1176,6 +1176,22 @@
     host.appendChild(box);
   }
 
+  /* glossary: [{term, def}] — besides the inline tooltips (glossify), a
+     compact "Key terms" panel before the knowledge check, so every lesson's
+     vocabulary is visible even where a term never appears verbatim. */
+  function renderGlossary(l, host) {
+    if (!l.glossary || !l.glossary.length) return;
+    var box = el('div', 'lms-panel lms-glossary');
+    box.appendChild(bi('h3', null, { en: 'Key terms', id: 'Istilah kunci' }));
+    var dl = el('dl');
+    l.glossary.forEach(function (g) {
+      dl.appendChild(bi('dt', null, g.term));
+      dl.appendChild(bi('dd', null, g.def));
+    });
+    box.appendChild(dl);
+    host.appendChild(box);
+  }
+
   /* diagram: {type:'flow'|'quad'|'ring'|'timeline'|'ladder', title, items:[{h,sub}], note} */
   function renderDiagram(l, host) {
     var d = l.diagram;
@@ -1773,14 +1789,20 @@
       });
     });
     renderScenario(l, innerEl);
-    renderDiagram(l, innerEl);
+    /* A slides or visual lesson that also carries reading `sections` leads
+       with its deck/hotspot piece, then the exhibit and the sections — the
+       same deck → exhibit → sections progression as The Map benchmark. */
+    var lateSections = (l.kind === 'slides' || l.kind === 'visual') && l.sections && l.sections.length;
+    if (!lateSections) renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
     if (l.kind === 'interactive') renderSteps(l, innerEl);
     if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
+    if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); }
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
+    renderGlossary(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : 'check' }); });   /* YouTube lesson films in the player skin */
