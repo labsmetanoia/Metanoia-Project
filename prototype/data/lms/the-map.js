@@ -1545,8 +1545,8 @@ window.MT_LMS['the-map'] = {
         "id": "Gunakan Bahasa Proaktif — Materi"
        },
        "intro": {
-        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways. Read them, then continue to the lesson below.",
-        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban versus bahasa proaktif, kaleng yang terguncang versus botol yang tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong Anda, dibaca dengan dua cara. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways. Read them, then watch the film that follows.",
+        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban versus bahasa proaktif, kaleng yang terguncang versus botol yang tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong Anda, dibaca dengan dua cara. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/proactive-language-",
        "slides": [
@@ -1598,6 +1598,22 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "After the slides, watch the film below to see the ideas of this lesson in motion — the space between stimulus and response, taking responsibility for what you can control, and the pause-and-respond habit that turns ownership into daily practice.",
         "id": "Setelah slide, tonton film di bawah ini untuk melihat gagasan pelajaran ini bergerak — ruang di antara stimulus dan respons, mengambil tanggung jawab atas hal-hal yang dapat Anda kendalikan, dan kebiasaan berhenti sejenak lalu merespons yang mengubah rasa memiliki menjadi praktik sehari-hari."
+       }
+      },
+      {
+       "id": "_5gHjRwOkU4",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch · Lesson film 2",
+        "id": "Tonton · Film pelajaran 2"
+       },
+       "title": {
+        "en": "Use Proactive Language — Film",
+        "id": "Gunakan Bahasa Proaktif — Film"
+       },
+       "intro": {
+        "en": "After the slides, watch the film below to hear proactive language in use — how the words you choose open the space between stimulus and response, and how they shape your mindset, your actions and your future.",
+        "id": "Setelah slide, tonton film di bawah ini untuk mendengar bahasa proaktif dalam praktik — bagaimana kata-kata yang Anda pilih membuka ruang di antara stimulus dan respons, dan bagaimana kata-kata itu membentuk pola pikir, tindakan, dan masa depan Anda."
        }
       }
      ],
