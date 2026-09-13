@@ -1592,8 +1592,8 @@ window.MT_LMS['the-map'] = {
         "id": "Lingkaran Pengaruh — Materi"
        },
        "intro": {
-        "en": "After the film, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you. Read them, then continue to the lesson below.",
-        "id": "Setelah film, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang Anda khawatirkan tetapi tidak bisa Anda kendalikan, Lingkaran Pengaruh yang bisa Anda tindaklanjuti, apa yang terjadi ketika Anda mencurahkan energi di sana, dan bagaimana itu menjadikan Anda seorang Transition Person bagi orang-orang di sekitar Anda. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+        "en": "After the film, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you. Read them, then watch the film that follows.",
+        "id": "Setelah film, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang Anda khawatirkan tetapi tidak bisa Anda kendalikan, Lingkaran Pengaruh yang bisa Anda tindaklanjuti, apa yang terjadi ketika Anda mencurahkan energi di sana, dan bagaimana itu menjadikan Anda seorang Transition Person bagi orang-orang di sekitar Anda. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/circle-influence-",
        "slides": [
@@ -1671,6 +1671,22 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "After the slides, watch the film below to hear proactive language in use — how the words you choose open the space between stimulus and response, and how they shape your mindset, your actions and your future.",
         "id": "Setelah slide, tonton film di bawah ini untuk mendengar bahasa proaktif dalam praktik — bagaimana kata-kata yang Anda pilih membuka ruang di antara stimulus dan respons, dan bagaimana kata-kata itu membentuk pola pikir, tindakan, dan masa depan Anda."
+       }
+      },
+      {
+       "id": "CVa5osoY_Z0",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch · Lesson film 3",
+        "id": "Tonton · Film pelajaran 3"
+       },
+       "title": {
+        "en": "Circle of Influence — Film",
+        "id": "Lingkaran Pengaruh — Film"
+       },
+       "intro": {
+        "en": "After the slides, watch the film below to see the two circles at work — where energy spent on the Circle of Concern drains away, how focusing on the Circle of Influence makes it grow, and what it looks like to become a Transition Person for the people around you.",
+        "id": "Setelah slide, tonton film di bawah ini untuk melihat kedua lingkaran itu bekerja — bagaimana energi yang dicurahkan pada Lingkaran Kepedulian terbuang, bagaimana fokus pada Lingkaran Pengaruh membuatnya tumbuh, dan seperti apa menjadi seorang Transition Person bagi orang-orang di sekitar Anda."
        }
       }
      ],
