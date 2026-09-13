@@ -1788,8 +1788,9 @@
     renderTryIt(l, innerEl);
 
     if (l.takeaways) {
-      var tk = el('div', 'lms-panel');
+      var tk = el('div', 'lms-panel lms-takeaways');
       tk.appendChild(bi('h3', null, { en: 'Key takeaways', id: 'Poin penting' }));
+      if (l.takeawaysLead) tk.appendChild(bi('p', 'lms-tk-lead', l.takeawaysLead));   /* an optional sentence that frames the list */
       var tul = el('ul');
       l.takeaways.forEach(function (t) { tul.appendChild(bi('li', null, t)); });
       tk.appendChild(tul);
