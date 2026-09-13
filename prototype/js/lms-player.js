@@ -264,7 +264,10 @@
     prev: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 5.6v12.8a1 1 0 0 1-1.53.85l-9.9-6.4a1 1 0 0 1 0-1.7l9.9-6.4A1 1 0 0 1 18 5.6Z"/><rect x="3.6" y="5" width="2.4" height="14" rx="1"/></svg>',
     chevL: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>',
     chevR: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
-    text: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>'
+    text: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
+    plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
+    minus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14"/></svg>',
+    chevD: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>'
   };
 
   function renderIntroVideos(l, host, opts) {
@@ -592,17 +595,31 @@
        player, whose chrome overlays the picture and rests when idle. */
     var top = el('div', 'lms-vtop');
     var tl = el('div', 'lms-vtitle');
-    top.appendChild(tl); stage.appendChild(top);
+    top.appendChild(tl);
+    /* zoom cluster: lives in the title bar, so it never covers the slide and
+       stays put in fullscreen — where small slide type is hardest to read */
+    var zoomBox = el('div', 'ss-zoom');
+    var bZout = el('button', 'ss-zb', ICO.minus); bZout.type = 'button';
+    var zPct = el('button', 'ss-zpct', '100%'); zPct.type = 'button';
+    var bZin = el('button', 'ss-zb', ICO.plus); bZin.type = 'button';
+    zoomBox.appendChild(bZout); zoomBox.appendChild(zPct); zoomBox.appendChild(bZin);
+    top.appendChild(zoomBox);
+    stage.appendChild(top);
     var frame = el('div', 'ss-frame');
     var img = document.createElement('img');
     img.className = 'ss-img'; img.decoding = 'async'; img.alt = '';
     img.sizes = '(max-width: 720px) 100vw, 900px';
+    img.draggable = false;
     frame.appendChild(img);
     var zl = el('button', 'ss-zone ss-zone-l', '<span class="ss-arrow">' + ICO.chevL + '</span>'); zl.type = 'button';
     var zr = el('button', 'ss-zone ss-zone-r', '<span class="ss-arrow">' + ICO.chevR + '</span>'); zr.type = 'button';
     frame.appendChild(zl); frame.appendChild(zr);
     var spin = el('div', 'lms-vspin'); frame.appendChild(spin);
     var upnext = el('div', 'lms-vup'); frame.appendChild(upnext);
+    /* the slide's words, readable inside fullscreen when the text panel is open */
+    var fsNotes = el('div', 'ss-fsnotes'); fsNotes.hidden = true;
+    var fT = el('b'), fP = el('p'); fsNotes.appendChild(fT); fsNotes.appendChild(fP);
+    frame.appendChild(fsNotes);
     stage.appendChild(frame);
 
     var ctl = el('div', 'lms-vctl');
@@ -626,13 +643,24 @@
     stage.appendChild(ctl);
     wrap.appendChild(stage);
 
-    /* slide text (the deck's words, for reading, search and screen readers) */
+    /* slide text (the deck's words, for reading, search and screen readers):
+       a collapsible panel, folded by default so the slide itself has the
+       room, opened from its own header or the TEXT button in the control bar */
     var notes = el('div', 'lms-panel lms-ss-notes');
-    notes.hidden = true;
-    var nH = bi('h3', null, { en: 'Slide text', id: 'Teks slide' });
+    var nH = el('h3', 'ss-notes-h3');
+    var nTg = el('button', 'ss-notes-tg'); nTg.type = 'button';
+    nTg.setAttribute('aria-expanded', 'false');
+    var nId = 'ssn-' + slug + '-' + String(l.n).replace(/\W/g, '') + (which || 0);
+    nTg.setAttribute('aria-controls', nId);
+    nTg.innerHTML = '<span class="ss-notes-h">' + ICO.text + '<span data-en="Slide text" data-id="Teks slide">Slide text</span></span>' +
+      '<span class="ss-notes-sub"></span><span class="ss-notes-chev">' + ICO.chevD + '</span>';
+    nH.appendChild(nTg);
+    var nBody = el('div', 'ss-notes-body'); nBody.id = nId; nBody.hidden = true;
     var nT = el('b'), nP = el('p');
-    notes.appendChild(nH); notes.appendChild(nT); notes.appendChild(nP);
+    nBody.appendChild(nT); nBody.appendChild(nP);
+    notes.appendChild(nH); notes.appendChild(nBody);
     wrap.appendChild(notes);
+    var nSub = nTg.querySelector('.ss-notes-sub');
 
     /* thumbnail strip */
     var strip = el('div', 'lms-vlist lms-slist');
@@ -669,7 +697,78 @@
       bText.querySelector('span').textContent = L ? 'TEKS' : 'TEXT';
       bFull.setAttribute('aria-label', L ? 'Layar penuh' : 'Fullscreen');
       seek.setAttribute('aria-label', L ? 'Pilih slide' : 'Choose slide');
+      bZin.setAttribute('aria-label', L ? 'Perbesar' : 'Zoom in');
+      bZout.setAttribute('aria-label', L ? 'Perkecil' : 'Zoom out');
+      zPct.setAttribute('aria-label', L ? 'Tingkat zoom — ketuk untuk mengatur ulang' : 'Zoom level — tap to reset');
+      zPct.title = L ? 'Atur ulang zoom' : 'Reset zoom';
+      nTg.querySelector('.ss-notes-h span').textContent = L ? 'Teks slide' : 'Slide text';
+      nTg.setAttribute('aria-label', (L ? 'Teks slide' : 'Slide text') + ' — ' + (nBody.hidden ? (L ? 'perluas' : 'expand') : (L ? 'ciutkan' : 'collapse')));
     }
+
+    /* ── zoom: buttons, pinch, ctrl+wheel and keys; drag or swipe to pan ── */
+    var Z = 1, ZMIN = 1, ZMAX = 4, tx = 0, ty = 0;
+    function clampPan() {
+      var w = frame.clientWidth, h = frame.clientHeight;
+      var mx = (Z - 1) * w / 2, my = (Z - 1) * h / 2;
+      tx = Math.max(-mx, Math.min(mx, tx)); ty = Math.max(-my, Math.min(my, ty));
+    }
+    function applyZoom() {
+      clampPan();
+      img.style.transform = Z === 1 ? '' : 'translate(' + tx.toFixed(1) + 'px,' + ty.toFixed(1) + 'px) scale(' + Z.toFixed(3) + ')';
+      stage.classList.toggle('zoomed', Z > 1);
+      zPct.textContent = Math.round(Z * 100) + '%';
+      bZin.disabled = Z >= ZMAX - 1e-6; bZout.disabled = Z <= ZMIN + 1e-6;
+    }
+    /* zoom about a screen point, so what sits under the cursor or between the fingers stays put */
+    function zoomTo(z, cx, cy) {
+      z = Math.max(ZMIN, Math.min(ZMAX, z));
+      var r = frame.getBoundingClientRect();
+      var px = (cx == null ? r.width / 2 : cx - r.left) - r.width / 2, py = (cy == null ? r.height / 2 : cy - r.top) - r.height / 2;
+      var ix = (px - tx) / Z, iy = (py - ty) / Z;   /* slide-space point under the cursor */
+      Z = z; tx = px - ix * Z; ty = py - iy * Z;
+      if (Z === 1) { tx = 0; ty = 0; }
+      applyZoom();
+    }
+    function zoomStep(dir, cx, cy) { zoomTo(Z * (dir > 0 ? 1.25 : 1 / 1.25), cx, cy); if (Math.abs(Z - 1) < .06) zoomTo(1); }
+    bZin.addEventListener('click', function () { zoomStep(1); });
+    bZout.addEventListener('click', function () { zoomStep(-1); });
+    zPct.addEventListener('click', function () { zoomTo(Z === 1 ? 2 : 1); });
+    frame.addEventListener('wheel', function (e) {
+      if (e.ctrlKey || e.metaKey) { e.preventDefault(); zoomTo(Z * (e.deltaY < 0 ? 1.12 : 1 / 1.12), e.clientX, e.clientY); }
+      else if (Z > 1) { e.preventDefault(); tx -= e.deltaX; ty -= e.deltaY; applyZoom(); }
+    }, { passive: false });
+    /* mouse drag pans a zoomed slide */
+    var drag = null, lastTouch = 0;
+    frame.addEventListener('mousedown', function (e) {
+      if (Z === 1 || e.button !== 0 || Date.now() - lastTouch < 600) return;
+      drag = { x: e.clientX, y: e.clientY, tx: tx, ty: ty }; stage.classList.add('panning'); e.preventDefault();
+    });
+    window.addEventListener('mousemove', function (e) { if (!drag) return; tx = drag.tx + e.clientX - drag.x; ty = drag.ty + e.clientY - drag.y; applyZoom(); });
+    window.addEventListener('mouseup', function () { if (drag) { drag = null; stage.classList.remove('panning'); } });
+    /* touch: two fingers pinch, one finger pans when zoomed (and swipes between slides when not) */
+    var pinch = null, pan = null;
+    function dist(t) { var dx = t[0].clientX - t[1].clientX, dy = t[0].clientY - t[1].clientY; return Math.hypot(dx, dy); }
+    function mid(t) { return { x: (t[0].clientX + t[1].clientX) / 2, y: (t[0].clientY + t[1].clientY) / 2 }; }
+    frame.addEventListener('touchstart', function (e) {
+      if (e.touches.length === 2) { var m0 = mid(e.touches); pinch = { d: dist(e.touches), z: Z, x: m0.x, y: m0.y }; pan = null; e.preventDefault(); }
+      else if (e.touches.length === 1 && Z > 1) { pan = { x: e.touches[0].clientX, y: e.touches[0].clientY, tx: tx, ty: ty }; }
+    }, { passive: false });
+    frame.addEventListener('touchmove', function (e) {
+      if (pinch && e.touches.length === 2) {
+        var m1 = mid(e.touches);
+        zoomTo(pinch.z * dist(e.touches) / pinch.d, m1.x, m1.y);
+        tx += m1.x - pinch.x; ty += m1.y - pinch.y; pinch.x = m1.x; pinch.y = m1.y; applyZoom();
+        e.preventDefault();
+      } else if (pan && e.touches.length === 1 && Z > 1) {
+        tx = pan.tx + e.touches[0].clientX - pan.x; ty = pan.ty + e.touches[0].clientY - pan.y; applyZoom(); e.preventDefault();
+      }
+    }, { passive: false });
+    frame.addEventListener('touchend', function (e) {
+      lastTouch = Date.now();
+      if (e.touches.length < 2) { if (pinch && Math.abs(Z - 1) < .06) zoomTo(1); pinch = null; }
+      if (e.touches.length === 0) pan = null;
+    }, { passive: true });
+    if ('ResizeObserver' in window) new ResizeObserver(function () { if (Z > 1) applyZoom(); }).observe(frame);
 
     /* ── painting ── */
     function markSeen(k) { seen[k] = true; try { localStorage.setItem(sk, JSON.stringify(seen)); } catch (e) {} }
@@ -703,6 +802,9 @@
       bNext.disabled = zr.disabled = idx === N - 1;
       nT.innerHTML = T(it.title); nT.setAttribute('data-en', it.title.en); nT.setAttribute('data-id', it.title.id);
       nP.innerHTML = T(it.text); nP.setAttribute('data-en', it.text.en); nP.setAttribute('data-id', it.text.id);
+      fT.innerHTML = nT.innerHTML; fP.innerHTML = nP.innerHTML;
+      var subEn = 'Slide ' + (idx + 1) + ' · ' + it.title.en, subId = 'Slide ' + (idx + 1) + ' · ' + it.title.id;
+      nSub.textContent = lang() === 'id' ? subId : subEn; nSub.setAttribute('data-en', subEn); nSub.setAttribute('data-id', subId);
       markSeen(idx); paintList(); preload(idx + 1);
       /* the host re-renders the lesson on a language switch: keep the place */
       try { sessionStorage.setItem(sk + ':pos', String(idx)); } catch (e) {}
@@ -753,11 +855,18 @@
       } else showCtl();
       labels();
     }
-    function setText(on) {
-      notes.hidden = !on;
+    function setText(on, reveal) {
+      nBody.hidden = !on; fsNotes.hidden = !on;
+      notes.classList.toggle('open', on);
+      stage.classList.toggle('textopen', on);
+      nTg.setAttribute('aria-expanded', on ? 'true' : 'false');
       bText.classList.toggle('on', on);
-      try { localStorage.setItem('mt-lms-sstext', on ? '1' : '0'); } catch (e) {}
+      labels();
+      /* the choice survives the re-render of a language switch, but each visit starts folded */
+      try { sessionStorage.setItem(sk + ':text', on ? '1' : '0'); } catch (e) {}
+      if (on && reveal && !isFs()) notes.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
+    function isFs() { return (document.fullscreenElement || document.webkitFullscreenElement) === stage || stage.classList.contains('fsx'); }
 
     /* ── events ── */
     zl.addEventListener('click', function () { show(idx - 1); });
@@ -765,19 +874,36 @@
     bPrev.addEventListener('click', function () { show(idx - 1); });
     bNext.addEventListener('click', function () { show(idx + 1); });
     bPlay.addEventListener('click', function () { setPlaying(!playing); });
-    bText.addEventListener('click', function () { setText(notes.hidden); });
+    bText.addEventListener('click', function () { setText(nBody.hidden, true); });
+    nTg.addEventListener('click', function () { setText(nBody.hidden); });
+    /* fullscreen — or, where the browser cannot fullscreen an element (iPhone
+       Safari), a fixed overlay that fills the screen the same way */
+    function setFsx(on) {
+      stage.classList.toggle('fsx', on);
+      document.body.classList.toggle('lms-fsx', on);
+      onFs();
+      if (on) stage.focus();
+    }
     bFull.addEventListener('click', function () {
+      if (stage.classList.contains('fsx')) { setFsx(false); return; }
       var fs = document.fullscreenElement || document.webkitFullscreenElement;
       if (fs) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
-      if (stage.requestFullscreen) stage.requestFullscreen().catch(function () {});
+      if (stage.requestFullscreen) stage.requestFullscreen().catch(function () { setFsx(true); });
       else if (stage.webkitRequestFullscreen) stage.webkitRequestFullscreen();
+      else setFsx(true);
     });
     function onFs() {
-      var on = (document.fullscreenElement || document.webkitFullscreenElement) === stage;
+      var on = isFs();
       stage.classList.toggle('fs', on); bFull.innerHTML = on ? ICO.unfull : ICO.full;
+      bFull.setAttribute('aria-label', on ? (lang() === 'id' ? 'Keluar dari layar penuh' : 'Exit fullscreen') : (lang() === 'id' ? 'Layar penuh' : 'Fullscreen'));
+      if (Z > 1) applyZoom();
     }
     document.addEventListener('fullscreenchange', onFs);
     document.addEventListener('webkitfullscreenchange', onFs);
+    /* Escape leaves the overlay first — captured, so the lesson player's own Escape (close) does not fire too */
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && stage.classList.contains('fsx')) { setFsx(false); e.stopImmediatePropagation(); e.preventDefault(); }
+    }, true);
     ['mousemove', 'touchstart', 'keydown', 'focusin'].forEach(function (ev) { stage.addEventListener(ev, function () { showCtl(); armHide(); }, { passive: true }); });
     stage.addEventListener('mouseleave', armHide);
     function seekAt(clientX, commit) {
@@ -799,13 +925,17 @@
       else if (e.key === 'Home') { show(0); e.preventDefault(); }
       else if (e.key === 'End') { show(N - 1); e.preventDefault(); }
       else if (e.key === ' ' || e.key === 'k') { setPlaying(!playing); e.preventDefault(); }
-      else if (e.key === 't') { setText(notes.hidden); }
+      else if (e.key === 't') { setText(nBody.hidden, true); }
       else if (e.key === 'f') { bFull.click(); }
+      else if (e.key === '+' || e.key === '=') { zoomStep(1); e.preventDefault(); }
+      else if (e.key === '-' || e.key === '_') { zoomStep(-1); e.preventDefault(); }
+      else if (e.key === '0') { zoomTo(1); e.preventDefault(); }
     });
+    /* swipe between slides — only at 100 %, where a drag is not a pan */
     var x0 = null;
-    stage.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    stage.addEventListener('touchstart', function (e) { x0 = (e.touches.length === 1 && Z === 1) ? e.touches[0].clientX : null; }, { passive: true });
     stage.addEventListener('touchend', function (e) {
-      if (x0 === null) return;
+      if (x0 === null || Z > 1 || pinch) return;
       var dx = e.changedTouches[0].clientX - x0;
       if (dx > 40) show(idx - 1);
       if (dx < -40) show(idx + 1);
@@ -819,10 +949,11 @@
       }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     }
 
-    /* initial state: the slide text panel remembers the member's choice */
+    /* initial state: the slide text starts folded; an open panel survives the language re-render */
     var tp = null;
-    try { tp = localStorage.getItem('mt-lms-sstext'); } catch (e) {}
+    try { tp = sessionStorage.getItem(sk + ':text'); } catch (e) {}
     setText(tp === '1');
+    applyZoom();
     labels();
     var first = 0; while (first < N - 1 && seen[first]) first++;
     try { var pos = sessionStorage.getItem(sk + ':pos'); if (pos !== null && +pos >= 0 && +pos < N) first = +pos; } catch (e) {}
