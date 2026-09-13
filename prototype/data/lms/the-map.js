@@ -1488,8 +1488,8 @@ window.MT_LMS['the-map'] = {
         "id": "Berhenti Sejenak dan Merespons — Materi"
        },
        "intro": {
-        "en": "After the film, four slides take the habit apart: why you can choose how you respond, a reactive versus a proactive reading of the same parking-lot moment, the four unique human gifts that make the choice possible, and a key summary. Read them, then continue to the lesson below.",
-        "id": "Setelah film, empat slide mengurai kebiasaan ini: mengapa Anda dapat memilih cara merespons, pembacaan reaktif versus proaktif atas momen yang sama di tempat parkir, empat karunia unik manusia yang memungkinkan pilihan itu, dan sebuah ringkasan utama. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+        "en": "After the film, four slides take the habit apart: why you can choose how you respond, a reactive versus a proactive reading of the same parking-lot moment, the four unique human gifts that make the choice possible, and a key summary. Read them, then continue to the next slides.",
+        "id": "Setelah film, empat slide mengurai kebiasaan ini: mengapa Anda dapat memilih cara merespons, pembacaan reaktif versus proaktif atas momen yang sama di tempat parkir, empat karunia unik manusia yang memungkinkan pilihan itu, dan sebuah ringkasan utama. Bacalah, lalu lanjutkan ke slide berikutnya."
        },
        "base": "../../assets/lms/the-map/slides/pause-respond-",
        "slides": [
@@ -1531,6 +1531,53 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Turn insights into a brighter tomorrow. Stimulus — what happens around us. Response — a choice in our hands. A better tomorrow — the future we create. You can choose happiness and growth, regardless of circumstance. Highly effective people use the space between stimulus and response to choose a proactive response. The 4 unique human gifts allow you to respond proactively. Choose your response today for a better tomorrow. “It’s not what happens to us, but how we respond that determines our future.” — Stephen R. Covey",
           "id": "Intisari untuk langkah nyata. Stimulus — hal yang terjadi di sekitar kita. Respons — pilihan ada di tangan kita. Hasil yang lebih baik — masa depan yang kita ciptakan. Anda dapat memilih kebahagiaan dan pertumbuhan, dalam kondisi apa pun yang terjadi. Orang yang sangat efektif memanfaatkan ruang antara stimulus dan respons untuk memilih respons yang proaktif. 4 karunia unik manusia memberi Anda kekuatan untuk merespons secara proaktif. Respons hari ini untuk masa depan yang lebih baik. “Bukan apa yang terjadi pada kita, tetapi bagaimana kita meresponsnya, yang menentukan masa depan kita.” — Pilih merespons, bukan sekadar bereaksi"
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "Use Proactive Language — Material",
+        "id": "Gunakan Bahasa Proaktif — Materi"
+       },
+       "intro": {
+        "en": "Three slides turn the habit into words: victim language against proactive language, the shaken can against the still bottle when the same pressures hit, and a key summary of one car cutting you off read two ways. Read them, then continue to the lesson below.",
+        "id": "Tiga slide mengubah kebiasaan ini menjadi kata-kata: bahasa korban versus bahasa proaktif, kaleng yang terguncang versus botol yang tenang saat tekanan yang sama datang, dan ringkasan utama tentang satu mobil yang memotong Anda, dibaca dengan dua cara. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/proactive-language-",
+       "slides": [
+        {
+         "title": {
+          "en": "Use proactive language",
+          "id": "Gunakan bahasa proaktif"
+         },
+         "text": {
+          "en": "Lesson 2. Speaking carefully is a large part of proactive behavior. Common practice: blame, accuse, and use victim language — focuses on problems, external factors, and what we cannot control. “It’s not my fault.” “You always make this difficult.” “I can’t do anything about it.” “They made me do it.” “I have to…” Highly effective practice: use proactive language — focuses on solutions, choices, and what we can influence. “I take responsibility.” “Let’s find a better way.” “I can choose a different approach.” “I will make it happen.” “I choose to…” “You are influenced by your genes, by your upbringing, and by your environment, but you are not determined by them.” The impact of proactive language: proactive language not only opens our mind to the space between stimulus and response, it also positively affects our brain’s chemistry and function. As you watch, consider how proactive language impacts your life. “Words shape mindsets. Mindsets shape actions. Actions shape our future.” Choose your words. Choose a better tomorrow. Key takeaway: choose your words intentionally — because they shape your mindset, your actions, and your future.",
+          "id": "Pelajaran 2. Berbicara dengan penuh kesadaran merupakan bagian penting dari perilaku proaktif. Kebiasaan yang umum terjadi: menyalahkan, menuduh, dan menggunakan bahasa sebagai korban — fokus pada masalah, faktor eksternal, dan hal-hal yang tidak dapat kita kendalikan. “Ini bukan salah saya.” “Kamu selalu membuat ini jadi sulit.” “Saya tidak bisa melakukan apa pun tentang itu.” “Mereka yang membuat saya melakukannya.” “Saya harus…” Praktik yang sangat efektif: gunakan bahasa proaktif — fokus pada solusi, pilihan, dan hal-hal yang dapat kita pengaruhi. “Saya bertanggung jawab.” “Mari kita cari cara yang lebih baik.” “Saya bisa memilih pendekatan yang berbeda.” “Saya akan mewujudkannya.” “Saya memilih untuk…” “Anda dipengaruhi oleh gen Anda, pola asuh Anda, dan lingkungan Anda, tetapi Anda tidak ditentukan oleh semuanya itu.” Dampak dari bahasa proaktif: bahasa proaktif tidak hanya membuka pikiran kita terhadap ruang antara stimulus dan respons, tetapi juga berdampak positif pada kimia dan fungsi otak kita. Saat Anda menonton, pikirkan bagaimana bahasa proaktif memengaruhi kehidupan Anda. “Kata-kata membentuk pola pikir. Pola pikir membentuk tindakan. Tindakan membentuk masa depan kita.” Pilih kata-katamu. Pilih masa depan yang lebih baik. Pesan utama: pilih kata-kata Anda dengan sadar — karena kata-kata tersebut membentuk pola pikir, tindakan, dan masa depan Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Reactive and proactive language",
+          "id": "Bahasa reaktif dan proaktif"
+         },
+         "text": {
+          "en": "Same situations. Different responses. A brighter outcome. Reactive language gets shaken up by what happens: angry customers, crashing computer systems, yelling bosses, missed deadlines, rush-hour traffic — pressure builds, reactions take over. Stimulus: something bad happens. You choose your response. Response: reactive or proactive? Proactive language stays calm and in control under the same angry customers, crashing systems, yelling bosses, missed deadlines and rush-hour traffic — stay calm, choose your response, create a better outcome. It’s not just what happens, but how you respond that makes the difference.",
+          "id": "Situasi yang sama. Respons yang berbeda. Hasil yang lebih baik. Bahasa reaktif mudah tergoyah oleh apa yang terjadi: pelanggan yang marah, sistem komputer yang error, atasan yang membentak, deadline yang terlewat, kemacetan saat jam sibuk — tekanan menumpuk, reaksi mengambil alih. Stimulus: sesuatu yang tidak menyenangkan terjadi. Anda memilih respons Anda. Respons: reaktif atau proaktif? Bahasa proaktif tetap tenang dan dalam kendali menghadapi pelanggan marah, sistem error, atasan membentak, deadline terlewat, dan kemacetan yang sama — tetap tenang, pilih respons Anda, ciptakan hasil yang lebih baik. Bukan hanya apa yang terjadi, tetapi bagaimana kita meresponsnya yang membuat perbedaan. Pesan utama: pilih kata-kata Anda dengan sadar — karena kata-kata membentuk pola pikir, tindakan, dan masa depan Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Key summary",
+          "id": "Ringkasan utama"
+         },
+         "text": {
+          "en": "Same situation. Different mindset. Different response. A better you. The same situation: a car cuts you off in traffic. How will each of these people respond? What will they say? Reactive response — emotional, impulsive, makes it worse: “Hey! What are you doing?!?!” Explodes, honks, yells, and loses their temper; does not improve the situation; often ends up in an even worse mood. Proactive response — calm, thoughtful, takes control: “No worries. Let them pass.” Chooses to let the car pass; pauses and responds proactively; stays calm and does not feel under pressure or explosive. 1 Being careful with what we say is part of proactive behavior. 2 Proactive language positively alters the chemistry and function of our brain. Choose your response. A calmer you creates a brighter day.",
+          "id": "Situasi yang sama. Pola pikir yang berbeda. Respons yang berbeda. Hasil yang lebih baik. Situasi yang sama: sebuah mobil memotong Anda di jalan. Bagaimana masing-masing orang akan merespons? Apa yang akan mereka katakan? Respons reaktif — emosional, impulsif, membuat keadaan lebih buruk: “Hei! Kamu ngapain sih?!!” Meledak, membunyikan klakson, memarahi, dan kehilangan kontrol emosi; tidak menyelesaikan masalah; sering berakhir dengan suasana hati yang lebih buruk. Respons proaktif — tenang, penuh pertimbangan, tetap dalam kendali: “Tidak apa-apa. Biarkan saja mereka lewat.” Memilih untuk membiarkan mobil tersebut lewat; menarik jeda sejenak dan merespons secara proaktif; tetap tenang dan tidak merasa tertekan atau mudah meledak. 1 Berhati-hati dalam memilih kata-kata yang kita ucapkan merupakan bagian dari perilaku proaktif. 2 Bahasa proaktif secara positif mengubah kimia dan fungsi otak kita. Pilih respons Anda. Diri yang lebih tenang menciptakan hari yang lebih baik."
          }
         }
        ]
