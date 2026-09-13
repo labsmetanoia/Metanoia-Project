@@ -1581,6 +1581,63 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Circle of Influence — Material",
+        "id": "Lingkaran Pengaruh — Materi"
+       },
+       "intro": {
+        "en": "After the film, four slides draw the two circles: the Circle of Concern you worry about but cannot control, the Circle of Influence you can act on, what happens when you spend your energy there, and how that makes you a Transition Person for the people around you. Read them, then continue to the lesson below.",
+        "id": "Setelah film, empat slide menggambar dua lingkaran: Lingkaran Kepedulian yang Anda khawatirkan tetapi tidak bisa Anda kendalikan, Lingkaran Pengaruh yang bisa Anda tindaklanjuti, apa yang terjadi ketika Anda mencurahkan energi di sana, dan bagaimana itu menjadikan Anda seorang Transition Person bagi orang-orang di sekitar Anda. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/circle-influence-",
+       "slides": [
+        {
+         "title": {
+          "en": "Circle of Influence and Transition Person",
+          "id": "Lingkaran Pengaruh dan Transition Person"
+         },
+         "text": {
+          "en": "Lesson 3. Focus your energy. Create a bigger impact. Common practice: waste time and energy on things you can’t control. Highly effective practice: focus on your Circle of Influence. Circle of Concern — things you can’t directly control: economy, traffic, other people’s opinions, global events, past events, weather. Circle of Influence — things you can control: choices, effort, communication, preparation. Focus your energy here; expand your influence. Key insights: 1 To direct your efforts effectively, you need to understand what you can and can’t influence. Part of being proactive is focusing your energy only on those things you can influence. The Circle of Influence and Circle of Concern can help you tell the difference. 2 When we are proactive and choose to spend our efforts where we will see results, we expand our Circle of Influence and increase our effectiveness. Focus on what you can influence, not what you can’t control. Key takeaway: proactivity means investing your energy where you can create results. A more proactive you creates a brighter tomorrow.",
+          "id": "Pelajaran 3. Fokuskan energi Anda. Ciptakan dampak yang lebih besar. Kebiasaan umum: membuang waktu dan energi pada hal-hal yang tidak bisa Anda kendalikan. Praktik yang sangat efektif: fokus pada Lingkaran Pengaruh Anda. Lingkaran Kepedulian — hal-hal yang tidak bisa Anda kendalikan: kondisi ekonomi, lalu lintas, pendapat orang lain, peristiwa global, kejadian di masa lalu, cuaca. Lingkaran Pengaruh — hal-hal yang bisa Anda kendalikan: pilihan, usaha, komunikasi, persiapan. Fokuskan energi Anda di sini; perluas pengaruh Anda. Pembelajaran utama: 1 Untuk mengarahkan upaya Anda secara efektif, Anda perlu memahami apa yang bisa dan tidak bisa Anda pengaruhi. Bagian dari bersikap proaktif adalah memfokuskan energi hanya pada hal-hal yang bisa Anda pengaruhi. Lingkaran Pengaruh dan Lingkaran Kepedulian dapat membantu Anda membedakan keduanya. 2 Ketika kita bersikap proaktif dan memilih untuk mengalokasikan upaya kita pada hal-hal yang akan memberikan hasil, kita memperluas Lingkaran Pengaruh dan meningkatkan efektivitas kita. Fokus pada apa yang bisa Anda pengaruhi, bukan apa yang tidak bisa Anda kendalikan. Inti pembelajaran: sikap proaktif berarti menginvestasikan energi Anda pada hal-hal yang dapat menciptakan hasil. Diri yang lebih proaktif menciptakan hari esok yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Circle of Influence",
+          "id": "Lingkaran Pengaruh"
+         },
+         "text": {
+          "en": "Circle of Concern: the Circle of Concern represents things you worry, think, and talk about but over which you don’t have much control. Examples: potential natural disasters, politics, future health challenges. Circle of Influence: the Circle of Influence includes those things over which you do have control. Examples: emergency preparedness, community service, healthy lifestyle changes. Focus your energy where you have control. Less worry. More impact.",
+          "id": "Fokus pada hal yang bisa Anda pengaruhi, ciptakan dampak yang lebih besar. Lingkaran Kepedulian: Lingkaran Kepedulian mencakup hal-hal yang Anda khawatirkan, pikirkan, dan bicarakan, tetapi yang tidak banyak bisa Anda kendalikan. Contoh: potensi bencana alam, politik, tantangan kesehatan di masa depan. Lingkaran Pengaruh: Lingkaran Pengaruh mencakup hal-hal yang bisa Anda kendalikan. Contoh: kesiapsiagaan darurat, kegiatan sosial, perubahan gaya hidup sehat. Fokuskan energi Anda di sini. Lebih sedikit kekhawatiran, lebih banyak dampak. Pesan utama: bersikap proaktif berarti menginvestasikan energi Anda pada hal-hal yang dapat menciptakan hasil. Diri yang lebih proaktif, menciptakan hari esok yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Your Circle of Influence",
+          "id": "Lingkaran Pengaruh Anda"
+         },
+         "text": {
+          "en": "Circle of Concern — things you worry about but can’t control: global events, economy, other people’s opinions, politics, future health challenges. Circle of Influence — things you can control: your choices, your effort, your behaviors. Awareness, choice, positive impact — a positive impact on others. Often when we influence what we can do something about, we end up benefitting others. When this happens, we can even become a Transition Person. A Transition Person sees unhealthy, harmful, abusive, or ineffective learned behaviors in themselves or around them and chooses to focus on their Circle of Influence to have an impact on those around them. They replace reactive behaviors with proactive, helpful, effective behaviors. Influence today. A better tomorrow.",
+          "id": "Lingkaran Kepedulian — hal-hal yang Anda khawatirkan tetapi tidak banyak bisa Anda kendalikan: peristiwa global, kondisi ekonomi, pendapat orang lain, politik, tantangan kesehatan di masa depan. Lingkaran Pengaruh — hal-hal yang bisa Anda kendalikan: pilihan Anda, upaya Anda, perilaku Anda. Kesadaran, pilihan, dampak positif — dampak positif bagi orang lain. Sering kali, ketika kita mempengaruhi hal-hal yang bisa kita lakukan, kita juga berakhir memberikan manfaat bagi orang lain. Ketika ini terjadi, kita bahkan bisa menjadi seorang Transition Person. Seorang Transition Person melihat perilaku yang tidak sehat, merugikan, kasar, atau tidak efektif — baik dalam dirinya sendiri maupun di sekitarnya — dan memilih untuk fokus pada Lingkaran Pengaruh mereka agar dapat memberikan dampak positif bagi orang-orang di sekitarnya. Mereka menggantikan perilaku reaktif dengan perilaku proaktif, yang membantu dan efektif. Pengaruh positif hari ini, hari esok yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Ringkasan utama"
+         },
+         "text": {
+          "en": "Key summary — the key points to remember from this lesson. 01 Circle of Concern: represents things you worry, think, and talk about but over which you don’t have much control — global events, economy, other people’s opinions, future health challenges. 02 Circle of Influence: includes those things within your Circle of Concern over which you do have control — your effort, your behaviors, your choices, helping others. 03 Transition Person: sees unhealthy, harmful, abusive, or ineffective learned behaviors in themselves or around them and chooses to focus on their Circle of Influence to have an impact on those around them; they replace reactive behaviors with proactive, helpful, and effective behaviors. A more positive me, real impact, a better environment. Change starts with you. Focus on what you can influence. Focus on what you can influence today, and create a bigger impact tomorrow. Small steps today, a bigger tomorrow.",
+          "id": "Ringkasan utama — hal-hal penting yang perlu diingat dari pelajaran ini. 01 Lingkaran Kepedulian: mencakup hal-hal yang Anda khawatirkan, pikirkan, dan bicarakan, tetapi tidak banyak bisa Anda kendalikan. 02 Lingkaran Pengaruh: mencakup hal-hal yang berada dalam Lingkaran Kepedulian Anda yang bisa Anda kendalikan. 03 Transition Person: seorang Transition Person menggantikan perilaku yang tidak sehat, merugikan, atau tidak efektif dengan perilaku yang proaktif, membantu, dan efektif. Perilaku positif, dampak nyata, lingkungan lebih baik. Perubahan dimulai dari diri kita. Fokus pada hal yang bisa kita pengaruhi. Fokus pada hal yang bisa Anda pengaruhi, untuk menciptakan dampak yang lebih besar. Langkah kecil hari ini, menciptakan perubahan besar esok hari."
+         }
+        }
+       ]
       }
      ],
      "youtube": [
