@@ -1649,8 +1649,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kekuatan Kebiasaan Belajar — Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn ownership towards how you learn: why learning habits decide how fast you adapt, six myths and truths to test, the three families of effective learning behaviours, the full wheel of those behaviours, and the module’s key takeaways. Read them, then continue to the lesson below.",
-        "id": "Setelah film, lima slide mengarahkan rasa memiliki pada cara Anda belajar: mengapa kebiasaan belajar menentukan seberapa cepat Anda beradaptasi, enam mitos dan fakta untuk diuji, tiga kelompok perilaku belajar yang efektif, roda lengkap perilaku-perilaku itu, dan poin-poin penting modul ini. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+        "en": "After the film, five slides turn ownership towards how you learn: why learning habits decide how fast you adapt, six myths and truths to test, the three families of effective learning behaviours, the full wheel of those behaviours, and the module’s key takeaways. Read them, then watch the video that follows.",
+        "id": "Setelah film, lima slide mengarahkan rasa memiliki pada cara Anda belajar: mengapa kebiasaan belajar menentukan seberapa cepat Anda beradaptasi, enam mitos dan fakta untuk diuji, tiga kelompok perilaku belajar yang efektif, roda lengkap perilaku-perilaku itu, dan poin-poin penting modul ini. Bacalah, lalu tonton video yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/learning-habits-",
        "slides": [
@@ -1757,6 +1757,30 @@ window.MT_LMS['the-map'] = {
        }
       }
      ],
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/learning-habits.mp4",
+       "poster": "../../assets/lms/the-map/learning-habits-poster.jpg",
+       "dur": "3:41",
+       "title": {
+        "en": "The Power of Learning Habits",
+        "id": "Kekuatan Kebiasaan Belajar"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/learning-habits-en.vtt",
+        "id": "../../assets/lms/the-map/learning-habits-id.vtt"
+       }
+      }
+     ],
+     "videosPlacement": "after-material:5",
+     "videosKicker": {
+      "en": "Watch next · Lesson video",
+      "id": "Tonton berikutnya · Video pelajaran"
+     },
+     "videosIntro": {
+      "en": "The slides asked you to watch the video after them. Here it is: one day in the life of someone whose learning habits are working for him — and a few that are not. Watch for the habit loop, the moments of reflection, and the plan he ends up with. Subtitles are available in English and Bahasa Indonesia.",
+      "id": "Slide tadi meminta Anda menonton video setelahnya. Inilah videonya: satu hari dalam hidup seseorang yang kebiasaan belajarnya bekerja untuknya — dan beberapa yang tidak. Perhatikan siklus kebiasaan, momen-momen refleksi, dan rencana yang akhirnya ia buat. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia."
+     },
      "sections": [
       {
        "icon": "eye",

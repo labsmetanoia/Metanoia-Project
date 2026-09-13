@@ -283,8 +283,8 @@
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
     lead.appendChild(bi('span', 'lms-kicker', l.videosKicker || (after
-      ? { en: 'Watch next · ' + list.length + ' short videos', id: 'Tonton berikutnya · ' + list.length + ' video singkat' }
-      : { en: 'Watch first · ' + list.length + ' short videos', id: 'Tonton dulu · ' + list.length + ' video singkat' })));
+      ? { en: 'Watch next · ' + list.length + (list.length === 1 ? ' short video' : ' short videos'), id: 'Tonton berikutnya · ' + list.length + ' video singkat' }
+      : { en: 'Watch first · ' + list.length + (list.length === 1 ? ' short video' : ' short videos'), id: 'Tonton dulu · ' + list.length + ' video singkat' })));
     lead.appendChild(bi('p', 'lms-vp-intro', l.videosIntro || {
       en: 'These videos set the scene for the lesson. Watch them in order, then continue to the material below.',
       id: 'Video-video ini membuka konteks pelajaran. Tonton berurutan, lalu lanjutkan ke materi di bawah.'
@@ -477,11 +477,13 @@
         upnext.querySelector('.vu-x').addEventListener('click', function () { clearTimeout(upT); upnext.classList.remove('show'); });
         upT = setTimeout(function () { if (upnext.classList.contains('show')) load(idx + 1, true); }, 6000);
       } else {
-        var nextEn = nextIsDeck ? 'Continue to the next slides below' : after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
-        var nextId = nextIsDeck ? 'Lanjutkan ke slide berikutnya di bawah' : after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
-        var goEn = nextIsDeck ? 'Go to the slides' : after ? 'Go to the check' : 'Go to material';
-        var goId = nextIsDeck ? 'Ke slide' : after ? 'Ke cek pemahaman' : 'Ke materi';
-        upnext.innerHTML = '<span class="vu-k" data-en="All videos watched" data-id="Semua video selesai">' + (lang() === 'id' ? 'Semua video selesai' : 'All videos watched') + '</span>' +
+        var nextIsLesson = opts.next === 'lesson';   /* the reading sections follow the videos */
+        var nextEn = nextIsDeck ? 'Continue to the next slides below' : nextIsLesson ? 'Continue with the lesson below' : after ? 'Continue to the knowledge check below' : 'Continue to the lesson material below';
+        var nextId = nextIsDeck ? 'Lanjutkan ke slide berikutnya di bawah' : nextIsLesson ? 'Lanjutkan pelajaran di bawah' : after ? 'Lanjutkan ke cek pemahaman di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+        var goEn = nextIsDeck ? 'Go to the slides' : nextIsLesson ? 'Continue the lesson' : after ? 'Go to the check' : 'Go to material';
+        var goId = nextIsDeck ? 'Ke slide' : nextIsLesson ? 'Lanjutkan pelajaran' : after ? 'Ke cek pemahaman' : 'Ke materi';
+        var doneEn = list.length === 1 ? 'Video watched' : 'All videos watched', doneId = list.length === 1 ? 'Video selesai' : 'Semua video selesai';
+        upnext.innerHTML = '<span class="vu-k" data-en="' + doneEn + '" data-id="' + doneId + '">' + (lang() === 'id' ? doneId : doneEn) + '</span>' +
           '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (lang() === 'id' ? nextId : nextEn) + '</b>' +
           '<button class="vu-go" type="button">' + ICO.check + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (lang() === 'id' ? goId : goEn) + '</span></button>';
         upnext.classList.add('show');
@@ -713,7 +715,8 @@
     function finished() {
       var L = lang() === 'id';
       /* the hand-off names what actually follows the deck: a film, another deck, or the lesson material */
-      var nx0 = wrap.nextElementSibling, film = !!(nx0 && nx0.classList.contains('lms-ytp')), deck = !!(nx0 && nx0.classList.contains('lms-sp'));
+      var nx0 = wrap.nextElementSibling, deck = !!(nx0 && nx0.classList.contains('lms-sp'));
+      var film = !!(nx0 && (nx0.classList.contains('lms-ytp') || (nx0.classList.contains('lms-vp') && !deck)));   /* a YouTube film or the lesson's own video player */
       var nextEn = film ? 'Continue to the film below' : deck ? 'Continue to the next slides below' : 'Continue to the lesson material below';
       var nextId = film ? 'Lanjutkan ke film di bawah' : deck ? 'Lanjutkan ke slide berikutnya di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
       var goEn = film ? 'Watch the film' : deck ? 'Go to the slides' : 'Go to material', goId = film ? 'Tonton filmnya' : deck ? 'Ke slide' : 'Ke materi';
@@ -1568,7 +1571,7 @@
     var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'] }[l.kind];
     meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
-    if (l.videos && l.videos.length) meta.appendChild(bi('span', 'lms-chip gold', { en: '🎬 ' + l.videos.length + ' videos', id: '🎬 ' + l.videos.length + ' video' }));
+    if (l.videos && l.videos.length) meta.appendChild(bi('span', 'lms-chip gold', { en: '🎬 ' + l.videos.length + (l.videos.length === 1 ? ' video' : ' videos'), id: '🎬 ' + l.videos.length + ' video' }));
     meta.appendChild(bi('span', 'lms-chip' + (isDone(l.n) ? ' ok' : ''), isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
     hl.appendChild(meta);
     if (l.quote) {
@@ -1632,7 +1635,7 @@
     if (!afterN) renderIntroVideos(l, innerEl);
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
-      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : 'check' });
+      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: k + 1 < decks.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
       (filmsAfter[k + 1] || []).forEach(function (y, j, arr) {
         renderYouTube(l, innerEl, { block: y, next: j + 1 < arr.length ? 'film' : k + 1 < decks.length ? 'material' : 'lesson' });
       });
