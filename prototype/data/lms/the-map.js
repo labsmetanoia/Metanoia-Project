@@ -1755,6 +1755,22 @@ window.MT_LMS['the-map'] = {
         "en": "After the slides, watch the film below to see the two circles at work — where energy spent on the Circle of Concern drains away, how focusing on the Circle of Influence makes it grow, and what it looks like to become a Transition Person for the people around you.",
         "id": "Setelah slide, tonton film di bawah ini untuk melihat kedua lingkaran itu bekerja — bagaimana energi yang dicurahkan pada Lingkaran Kepedulian terbuang, bagaimana fokus pada Lingkaran Pengaruh membuatnya tumbuh, dan seperti apa menjadi seorang Transition Person bagi orang-orang di sekitar Anda."
        }
+      },
+      {
+       "id": "7yMh2QNRc_M",
+       "placement": "after-material:5",
+       "kicker": {
+        "en": "Watch · Lesson film 4",
+        "id": "Tonton · Film pelajaran 4"
+       },
+       "title": {
+        "en": "The Power of Learning Habits — Film",
+        "id": "Kekuatan Kebiasaan Belajar — Film"
+       },
+       "intro": {
+        "en": "After the lesson video, watch this short film to take the idea one step further: how a habit is built, why small repeated actions beat bursts of motivation, and what it takes to make a good learning habit stick. Subtitles are available in English and Bahasa Indonesia where YouTube provides them.",
+        "id": "Setelah video pelajaran, tonton film singkat ini untuk melangkah lebih jauh: bagaimana sebuah kebiasaan terbentuk, mengapa tindakan kecil yang diulang mengalahkan ledakan motivasi, dan apa yang dibutuhkan agar kebiasaan belajar yang baik bertahan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube."
+       }
       }
      ],
      "videos": [
@@ -1778,8 +1794,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Video pelajaran"
      },
      "videosIntro": {
-      "en": "The slides asked you to watch the video after them. Here it is: one day in the life of someone whose learning habits are working for him — and a few that are not. Watch for the habit loop, the moments of reflection, and the plan he ends up with. Subtitles are available in English and Bahasa Indonesia.",
-      "id": "Slide tadi meminta Anda menonton video setelahnya. Inilah videonya: satu hari dalam hidup seseorang yang kebiasaan belajarnya bekerja untuknya — dan beberapa yang tidak. Perhatikan siklus kebiasaan, momen-momen refleksi, dan rencana yang akhirnya ia buat. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia."
+      "en": "The slides asked you to watch the video after them. Here it is: one day in the life of someone whose learning habits are working for him — and a few that are not. Watch for the habit loop, the moments of reflection, and the plan he ends up with. Subtitles are available in English and Bahasa Indonesia. When it ends, continue to the film that follows.",
+      "id": "Slide tadi meminta Anda menonton video setelahnya. Inilah videonya: satu hari dalam hidup seseorang yang kebiasaan belajarnya bekerja untuknya — dan beberapa yang tidak. Perhatikan siklus kebiasaan, momen-momen refleksi, dan rencana yang akhirnya ia buat. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke film yang mengikutinya."
      },
      "sections": [
       {
