@@ -712,10 +712,11 @@
     var upT = 0;
     function finished() {
       var L = lang() === 'id';
-      /* the hand-off names what actually follows the deck: a film, or the lesson material */
-      var nx0 = wrap.nextElementSibling, film = !!(nx0 && nx0.classList.contains('lms-ytp'));
-      var nextEn = film ? 'Continue to the film below' : 'Continue to the lesson material below', nextId = film ? 'Lanjutkan ke film di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
-      var goEn = film ? 'Watch the film' : 'Go to material', goId = film ? 'Tonton filmnya' : 'Ke materi';
+      /* the hand-off names what actually follows the deck: a film, another deck, or the lesson material */
+      var nx0 = wrap.nextElementSibling, film = !!(nx0 && nx0.classList.contains('lms-ytp')), deck = !!(nx0 && nx0.classList.contains('lms-sp'));
+      var nextEn = film ? 'Continue to the film below' : deck ? 'Continue to the next slides below' : 'Continue to the lesson material below';
+      var nextId = film ? 'Lanjutkan ke film di bawah' : deck ? 'Lanjutkan ke slide berikutnya di bawah' : 'Lanjutkan ke materi pelajaran di bawah';
+      var goEn = film ? 'Watch the film' : deck ? 'Go to the slides' : 'Go to material', goId = film ? 'Tonton filmnya' : deck ? 'Ke slide' : 'Ke materi';
       upnext.innerHTML = '<span class="vu-k" data-en="All slides read" data-id="Semua slide selesai">' + (L ? 'Semua slide selesai' : 'All slides read') + '</span>' +
         '<b data-en="' + nextEn + '" data-id="' + nextId + '">' + (L ? nextId : nextEn) + '</b>' +
         '<button class="vu-go" type="button">' + (film ? ICO.play : ICO.check) + '<span data-en="' + goEn + '" data-id="' + goId + '">' + (L ? goId : goEn) + '</span></button>' +
