@@ -1477,6 +1477,63 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Pause and Respond — Material",
+        "id": "Berhenti Sejenak dan Merespons — Materi"
+       },
+       "intro": {
+        "en": "After the film, four slides take the habit apart: why you can choose how you respond, a reactive versus a proactive reading of the same parking-lot moment, the four unique human gifts that make the choice possible, and a key summary. Read them, then continue to the lesson below.",
+        "id": "Setelah film, empat slide mengurai kebiasaan ini: mengapa Anda dapat memilih cara merespons, pembacaan reaktif versus proaktif atas momen yang sama di tempat parkir, empat karunia unik manusia yang memungkinkan pilihan itu, dan sebuah ringkasan utama. Bacalah, lalu lanjutkan ke pelajaran di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/pause-respond-",
+       "slides": [
+        {
+         "title": {
+          "en": "Habit 1 — pause and respond",
+          "id": "Kebiasaan 1 — berhenti sejenak dan merespons"
+         },
+         "text": {
+          "en": "Choose your response. Shape your tomorrow. You can’t always choose your circumstances or what happens to you, but you can choose how you respond. In fact, you can decide right now that the next time something negative happens, you will pause and respond rather than merely reacting. Pause and respond based on principles and desired results. When something happens to us, we call that a stimulus — a comment, a setback, a delay, or an unexpected change. We can respond to the stimulus in a reactive or a proactive way. Reactive response: automatic, emotional, short-term results. Proactive response: intentional, principles-based, better long-term results. “Between a stimulus and a response, there is a choice.” Choose wisely. Live more intentionally. You have the power to choose your response, and in that choice lies your freedom. Greater awareness — see clearly. Better choices — act with intention. Real results — create positive change. A brighter tomorrow — be a better version of yourself.",
+          "id": "Pilih cara Anda merespons. Bentuk masa depan Anda. Anda tidak selalu bisa memilih keadaan atau apa yang terjadi pada Anda, namun Anda dapat memilih bagaimana Anda merespons. Bahkan sekarang, Anda dapat memutuskan bahwa lain kali sesuatu yang negatif terjadi, Anda akan berhenti sejenak dan merespons, bukan sekadar bereaksi. Berhenti sejenak dan merespons berdasarkan prinsip-prinsip dan hasil yang Anda inginkan. Ketika sesuatu terjadi pada kita, itu disebut sebagai stimulus — sebuah komentar, kemunduran, penundaan, atau perubahan yang tidak terduga. Kita dapat merespons stimulus secara reaktif atau proaktif. Respons reaktif: otomatis, emosional, hasil jangka pendek. Respons proaktif: disengaja / penuh kesadaran, berdasarkan prinsip, hasil jangka panjang yang lebih baik. “Di antara stimulus dan respons, terdapat sebuah pilihan.” Pilih dengan bijak. Jalani hidup dengan lebih bermakna. Anda memiliki kekuatan untuk memilih respons Anda, dan dalam pilihan tersebut terletak kebebasan Anda. Kesadaran yang lebih tinggi — melihat lebih jelas. Pilihan yang lebih baik — bertindak dengan niat. Hasil nyata — menciptakan perubahan positif. Masa depan yang lebih baik — menjadi versi terbaik dari diri Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Reactive and proactive behavior",
+          "id": "Perilaku reaktif dan proaktif"
+         },
+         "text": {
+          "en": "Same situation. Different mindset. Different outcome. Think about it: imagine this situation and consider whether it is an example of proactive or reactive behavior. Stimulus: you are late to work and another car slides into the parking spot you were signaling for. Response: you yell at the other driver. Is this a reactive or proactive behavior? What could a more proactive response look like? Reactive behavior: acting on emotions, blaming others, short-term relief, long-term tension. Proactive behavior: staying calm and in control, choosing a constructive response, focused on what you can control, better long-term outcomes. Respond today for a better tomorrow.",
+          "id": "Situasi yang sama. Pola pikir yang berbeda. Hasil yang berbeda. Pikirkan situasinya: bayangkan situasi ini dan pertimbangkan apakah ini merupakan contoh perilaku reaktif atau proaktif. Stimulus: Anda terlambat ke kantor dan ada mobil lain yang tiba-tiba masuk ke tempat parkir yang sedang Anda beri lampu sein. Respons: Anda membentak pengemudi mobil tersebut. Apakah ini perilaku reaktif atau proaktif? Bagaimana respons yang lebih proaktif dapat terlihat dalam situasi ini? Perilaku reaktif: digerakkan oleh emosi, menyalahkan orang lain, memberikan pelepasan emosi jangka pendek, dapat menimbulkan ketegangan jangka panjang. Perilaku proaktif: tetap tenang dan mengendalikan diri, memilih respons yang konstruktif, fokus pada hal yang dapat Anda kendalikan, menghasilkan hasil yang lebih baik dalam jangka panjang. Respons hari ini untuk masa depan yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "The 4 unique human gifts",
+          "id": "4 karunia unik manusia"
+         },
+         "text": {
+          "en": "Being proactive is about choosing your response to the influences in your life. Your ability to choose your response is based on the 4 unique human gifts. 1 Self-awareness — our ability to stand apart from ourselves and examine our thoughts, moods, and behaviors. Pause. Be aware. 2 Imagination — our ability to visualize beyond our present reality. See what’s possible. 3 Conscience — our ability to sense right from wrong. Choose what’s right. 4 Independent will — our ability to act, independent of external influences. Take action. Stay in control. These four gifts give you the power to choose your response — and ultimately, to shape a better future.",
+          "id": "Menjadi proaktif berarti memilih respons Anda terhadap berbagai pengaruh dalam hidup. Kemampuan Anda untuk memilih respons tersebut didasarkan pada 4 karunia unik manusia. 1 Kesadaran diri — kemampuan kita untuk melangkah mundur dari diri sendiri dan menelaah pikiran, perasaan, serta perilaku kita. Berhenti sejenak. Kenali diri. 2 Imajinasi — kemampuan kita untuk membayangkan kemungkinan di luar realitas saat ini. Lihat lebih jauh. Bayangkan yang mungkin. 3 Nurani — kemampuan kita untuk membedakan yang benar dan yang salah. Pilih yang benar. 4 Kehendak bebas — kemampuan kita untuk bertindak secara mandiri, terlepas dari pengaruh eksternal. Ambil tindakan. Tetap terkendali. Keempat karunia ini memberi Anda kekuatan untuk memilih respons Anda — dan pada akhirnya, membentuk masa depan yang lebih baik."
+         }
+        },
+        {
+         "title": {
+          "en": "Key summary",
+          "id": "Ringkasan utama"
+         },
+         "text": {
+          "en": "Turn insights into a brighter tomorrow. Stimulus — what happens around us. Response — a choice in our hands. A better tomorrow — the future we create. You can choose happiness and growth, regardless of circumstance. Highly effective people use the space between stimulus and response to choose a proactive response. The 4 unique human gifts allow you to respond proactively. Choose your response today for a better tomorrow. “It’s not what happens to us, but how we respond that determines our future.” — Stephen R. Covey",
+          "id": "Intisari untuk langkah nyata. Stimulus — hal yang terjadi di sekitar kita. Respons — pilihan ada di tangan kita. Hasil yang lebih baik — masa depan yang kita ciptakan. Anda dapat memilih kebahagiaan dan pertumbuhan, dalam kondisi apa pun yang terjadi. Orang yang sangat efektif memanfaatkan ruang antara stimulus dan respons untuk memilih respons yang proaktif. 4 karunia unik manusia memberi Anda kekuatan untuk merespons secara proaktif. Respons hari ini untuk masa depan yang lebih baik. “Bukan apa yang terjadi pada kita, tetapi bagaimana kita meresponsnya, yang menentukan masa depan kita.” — Pilih merespons, bukan sekadar bereaksi"
+         }
+        }
+       ]
       }
      ],
      "youtube": [
