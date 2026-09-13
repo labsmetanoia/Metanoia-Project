@@ -1,0 +1,143 @@
+/* ═══ Folder suite — mobile product navigation (≤768px) ═══
+   Products are filed into folders: a tab row attached to a panel, a folder
+   value-proposition box, an icon chip row for quick jumps, and snap-scrolling
+   product cards. Desktop keeps the page's own product section. */
+.fsu{display:none}
+@media (max-width:768px){
+  .fsu-host,.fsu-host + .pcar-hint,.fsu-hide{display:none !important}
+  .fsu{display:block;--fsu-panel:rgba(9,15,27,.96);--fsu-panel-2:rgba(14,21,36,.98);--fsu-line:rgba(201,168,76,.32);
+    --fsu-tabbar:rgba(255,255,255,.05);--fsu-card:rgba(13,19,32,.98);--fsu-ink:var(--text,#fff);--fsu-ink-2:var(--text-sub,rgba(255,255,255,.82));
+    --fsu-ink-3:var(--text-muted,rgba(255,255,255,.55));--fsu-gold:var(--gold,#C9A84C);--fsu-gold-2:var(--gold-bright,#F0D878);
+    margin:8px 0 6px;color:var(--fsu-ink);font-family:var(--sans,"Inter",system-ui,sans-serif)}
+  :root[data-theme="light"] .fsu{--fsu-panel:#FFFFFF;--fsu-panel-2:#F7F5EF;--fsu-line:rgba(139,105,20,.3);--fsu-tabbar:rgba(27,36,52,.05);
+    --fsu-card:#FFFFFF;--fsu-gold:#8B6914;--fsu-gold-2:#A27A16}
+
+  .fsu-label{font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--fsu-gold);margin:0 0 12px 2px}
+
+  /* ── folder tabs, attached to the panel ── */
+  .fsu-tabs{display:flex;gap:4px;padding:4px 4px 0;border-radius:18px 18px 0 0;background:var(--fsu-tabbar);
+    border:1px solid var(--fsu-line);border-bottom:none;position:relative;z-index:1}
+  .fsu-tab{flex:1;min-width:0;display:flex;align-items:center;justify-content:center;gap:6px;padding:11px 4px 12px;min-height:50px;
+    border:1px solid transparent;border-bottom:none;border-radius:14px 14px 0 0;background:none;color:var(--fsu-ink-3);
+    font:inherit;font-size:12.5px;font-weight:700;letter-spacing:.01em;line-height:1.2;cursor:pointer;-webkit-tap-highlight-color:transparent;
+    transition:color .2s,background .2s;margin-bottom:-1px;text-align:center}
+  .fsu-tab svg{width:16px;height:16px;flex:none;opacity:.8}
+  .fsu-tab span{min-width:0}
+  @media (max-width:430px){.fsu-tab{font-size:12px;gap:5px;padding-left:3px;padding-right:3px}.fsu-tab svg{display:none}}
+  .fsu-tab[aria-selected="true"]{background:var(--fsu-panel);color:var(--fsu-gold-2);border-color:var(--fsu-line);
+    box-shadow:0 -8px 20px rgba(0,0,0,.18)}
+  .fsu-tab[aria-selected="true"] svg{opacity:1}
+  .fsu-tab:focus-visible{outline:2px solid var(--fsu-gold);outline-offset:-3px}
+
+  /* ── the open folder ── */
+  .fsu-panel{border:1px solid var(--fsu-line);border-radius:0 0 22px 22px;background:var(--fsu-panel);
+    padding:16px 0 14px;box-shadow:0 26px 60px rgba(0,0,0,.35);overflow:hidden;position:relative}
+  .fsu-panel::before{content:'';position:absolute;inset:0 0 auto;height:140px;pointer-events:none;
+    background:radial-gradient(60% 100% at 20% 0%,rgba(201,168,76,.12),transparent 70%)}
+  :root[data-theme="light"] .fsu-panel{box-shadow:0 18px 44px rgba(27,36,52,.12)}
+  .fsu-vp{margin:0 14px 14px;padding:14px 16px 12px;border-radius:14px;border:1px solid rgba(201,168,76,.4);
+    background:linear-gradient(135deg,rgba(201,168,76,.12),rgba(201,168,76,.03));position:relative}
+  :root[data-theme="light"] .fsu-vp{background:linear-gradient(135deg,rgba(139,105,20,.08),rgba(139,105,20,.02))}
+  .fsu-vp b{display:block;font-family:var(--serif,Georgia,serif);font-size:18px;font-weight:600;color:var(--fsu-gold-2);margin:0 0 8px;line-height:1.25}
+  .fsu-vp ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+  .fsu-vp li{display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.5;color:var(--fsu-ink-2)}
+  .fsu-vp li svg{width:14px;height:14px;flex:none;margin-top:3px;color:var(--fsu-gold)}
+
+  /* ── icon chips: every product, one tap away ── */
+  .fsu-chips{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:0 10px 2px;margin:0 0 12px;
+    -webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+  .fsu-chips::-webkit-scrollbar{display:none}
+  .fsu-chip{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:68px;padding:6px 6px 8px;
+    border:none;background:none;color:var(--fsu-ink-3);font:inherit;font-size:11.5px;font-weight:600;cursor:pointer;
+    position:relative;scroll-snap-align:start;-webkit-tap-highlight-color:transparent;transition:color .2s}
+  .fsu-chip i{width:42px;height:42px;border-radius:13px;display:flex;align-items:center;justify-content:center;
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);transition:background .2s,border-color .2s,transform .2s;color:var(--fsu-ink-2)}
+  :root[data-theme="light"] .fsu-chip i{background:rgba(27,36,52,.05);border-color:rgba(27,36,52,.1)}
+  .fsu-chip i svg{width:20px;height:20px}
+  .fsu-chip::after{content:'';position:absolute;left:14px;right:14px;bottom:0;height:2.5px;border-radius:2px;background:var(--fsu-gold);
+    transform:scaleX(0);transition:transform .22s}
+  .fsu-chip[aria-pressed="true"]{color:var(--fsu-ink)}
+  .fsu-chip[aria-pressed="true"] i{background:rgba(201,168,76,.16);border-color:rgba(201,168,76,.55);color:var(--fsu-gold-2);transform:translateY(-1px)}
+  .fsu-chip[aria-pressed="true"]::after{transform:scaleX(1)}
+  .fsu-chip:focus-visible{outline:2px solid var(--fsu-gold);outline-offset:-2px;border-radius:12px}
+
+  /* ── product cards ── */
+  .fsu-scroll{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+    padding:2px 14px 6px;-webkit-overflow-scrolling:touch;align-items:flex-start}
+  .fsu-scroll::-webkit-scrollbar{display:none}
+  .fsu-card{flex:0 0 86%;scroll-snap-align:start;scroll-snap-stop:always;border-radius:18px;overflow:hidden;
+    background:var(--fsu-card);border:1px solid var(--fsu-line);box-shadow:0 14px 34px rgba(0,0,0,.28);
+    display:flex;flex-direction:column;transition:border-color .2s}
+  .fsu-scroll[data-n="1"] .fsu-card{flex-basis:100%}
+  .fsu-card.on{border-color:rgba(201,168,76,.6)}
+  :root[data-theme="light"] .fsu-card{box-shadow:0 12px 30px rgba(27,36,52,.12)}
+  .fsu-art{position:relative;aspect-ratio:16/10;overflow:hidden;background:#0A101C}
+  .fsu-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .fsu-art .fsu-ico{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.92)}
+  .fsu-art .fsu-ico svg{width:58px;height:58px;filter:drop-shadow(0 6px 18px rgba(0,0,0,.4))}
+  .fsu-art::before{content:'';position:absolute;width:210px;height:210px;border-radius:50%;border:1px solid rgba(255,255,255,.14);top:-60px;right:-50px}
+  .fsu-art::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,10,18,.05),rgba(5,10,18,.55));pointer-events:none}
+  .fsu-brand{position:absolute;top:0;left:0;z-index:2;display:flex;align-items:center;gap:7px;padding:8px 14px 8px 12px;
+    border-radius:0 0 14px 0;background:rgba(9,15,27,.94);color:#F0D878;font-size:12px;font-weight:800;letter-spacing:.02em;
+    border-right:1px solid rgba(201,168,76,.3);border-bottom:1px solid rgba(201,168,76,.3)}
+  .fsu-brand svg{width:14px;height:14px;flex:none}
+  .fsu-num{position:absolute;top:10px;right:12px;z-index:2;font-size:10.5px;font-weight:800;letter-spacing:.14em;color:rgba(255,255,255,.85);
+    background:rgba(9,15,27,.7);border:1px solid rgba(255,255,255,.18);padding:4px 9px;border-radius:999px;backdrop-filter:blur(4px)}
+  .fsu-pills{position:absolute;left:12px;bottom:10px;z-index:2;display:flex;gap:6px;flex-wrap:wrap}
+  .fsu-pill{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;font-size:11px;font-weight:700;color:#fff;
+    background:rgba(9,15,27,.72);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(6px)}
+  .fsu-pill svg{width:12px;height:12px}
+  .fsu-pill .dot{width:6px;height:6px;border-radius:50%;background:#4ECDC4;box-shadow:0 0 0 3px rgba(78,205,196,.25)}
+  .fsu-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px}
+  .fsu-cat{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:var(--fsu-ink-3);letter-spacing:.02em}
+  .fsu-cat svg{width:15px;height:15px;color:var(--fsu-gold)}
+  .fsu-body h3{font-family:var(--serif,Georgia,serif);font-size:19px;font-weight:600;line-height:1.25;margin:2px 0 0;color:var(--fsu-ink)}
+  .fsu-sub{font-family:var(--serif,Georgia,serif);font-style:italic;font-size:13.5px;color:var(--fsu-gold);margin:0 0 2px;line-height:1.4}
+  .fsu-fact{display:flex;gap:8px;align-items:flex-start;font-size:12.5px;line-height:1.5;color:var(--fsu-ink-2)}
+  .fsu-fact svg{width:14px;height:14px;flex:none;margin-top:3px;color:var(--fsu-ink-3)}
+  .fsu-price{margin:6px 0 2px;font-size:14px;color:var(--fsu-ink-2);display:flex;align-items:center;gap:7px;line-height:1.35}
+  .fsu-price svg{width:13px;height:13px;flex:none}
+  .fsu-price b{color:var(--fsu-ink);font-weight:800}
+  .fsu-row{display:flex;align-items:center;gap:8px;margin-top:8px}
+  .fsu-cta{flex:1;min-width:0;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:9px 14px;border-radius:999px;
+    text-decoration:none;font-size:13px;font-weight:800;line-height:1.25;text-align:center;color:#241800;background:linear-gradient(120deg,#C9A84C,#F0D878);
+    box-shadow:0 10px 24px rgba(201,168,76,.28);transition:transform .15s}
+  .fsu-cta:active{transform:scale(.98)}
+  .fsu-more{flex:none;min-width:44px;height:44px;padding:0 12px;border-radius:999px;border:1px solid var(--fsu-line);background:none;
+    color:var(--fsu-ink-2);font:inherit;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:5px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .fsu-more svg{width:14px;height:14px;transition:transform .25s}
+  .fsu-card.open .fsu-more svg{transform:rotate(180deg)}
+  .fsu-more:focus-visible,.fsu-cta:focus-visible{outline:2px solid var(--fsu-gold);outline-offset:2px}
+  .fsu-detail{margin-top:10px;padding-top:12px;border-top:1px solid var(--fsu-line);display:flex;flex-direction:column;gap:10px}
+  .fsu-detail p{font-size:13px;line-height:1.7;color:var(--fsu-ink-2);margin:0}
+  .fsu-detail p b{color:var(--fsu-ink)}
+  .fsu-detail .fsu-k{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--fsu-gold);margin:2px 0 -4px}
+  .fsu-detail ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+  .fsu-detail li{position:relative;padding-left:16px;font-size:12.5px;line-height:1.5;color:var(--fsu-ink-2)}
+  .fsu-detail li::before{content:'→';position:absolute;left:0;top:0;color:var(--fsu-gold);font-size:11px}
+  .fsu-snap{border-radius:12px;padding:11px 13px;background:rgba(10,16,28,.94);border:1px solid rgba(201,168,76,.28)}
+  .fsu-snap .mttl{font-size:8.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#E8C766;margin-bottom:6px}
+  .fsu-snap .mrow{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.82);padding:2px 0;line-height:1.4}
+  .fsu-snap .mrow .tick{color:#4ECDC4;font-size:9px;flex:none}
+  .fsu-snap .mrow .don,.fsu-snap .mrow .dot-on{width:5px;height:5px;border-radius:50%;background:#F0D878;flex:none;display:inline-block}
+  .fsu-snap .ubig{font-size:12px;color:#fff;margin-bottom:4px}
+  .fsu-snap .ubig b{font-size:20px;color:#F0D878;margin-right:6px}
+  .fsu-snap svg{display:block;max-width:180px;margin:2px 0 6px}
+  .fsu-snap .urow{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;color:rgba(255,255,255,.82);padding:2px 0}
+
+  /* ── folder footer: position + hint ── */
+  .fsu-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px 0}
+  .fsu-dots{display:flex;gap:6px;align-items:center}
+  .fsu-dots i{width:6px;height:6px;border-radius:999px;background:rgba(255,255,255,.22);transition:width .25s,background .25s}
+  :root[data-theme="light"] .fsu-dots i{background:rgba(27,36,52,.2)}
+  .fsu-dots i.on{width:20px;background:var(--fsu-gold)}
+  .fsu-count{font-size:12px;font-weight:700;color:var(--fsu-ink-3);font-variant-numeric:tabular-nums}
+  .fsu-count b{color:var(--fsu-ink)}
+  .fsu-hint{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fsu-ink-3)}
+  .fsu-nav{display:flex;gap:6px}
+  .fsu-nav button{width:36px;height:36px;border-radius:50%;border:1px solid var(--fsu-line);background:none;color:var(--fsu-ink);
+    display:inline-flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .fsu-nav button svg{width:16px;height:16px}
+  .fsu-nav button:disabled{opacity:.3}
+  @media (prefers-reduced-motion:reduce){.fsu-scroll{scroll-behavior:auto}}
+}
