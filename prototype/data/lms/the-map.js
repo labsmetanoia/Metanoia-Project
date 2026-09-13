@@ -2075,18 +2075,22 @@ window.MT_LMS['the-map'] = {
        "id": "Mengaitkan misi dengan The Range: arah karier dipilih lewat rancangan, bukan lewat tawaran yang datang pertama."
       }
      ],
+     "takeawaysLead": {
+      "en": "You can define your life’s outcomes by creating a personal mission statement. To prepare for creating one, you can:",
+      "id": "Anda dapat menetapkan hasil-hasil hidup Anda dengan membuat pernyataan misi pribadi. Untuk bersiap membuatnya, Anda dapat:"
+     },
      "takeaways": [
       {
-       "en": "If you do not write the script, you will still perform one — someone else's.",
-       "id": "Kalau kamu tidak menulis naskahnya, kamu tetap akan memerankan sebuah naskah — naskah milik orang lain."
+       "en": "Reflect on your whole life — past, present, and future.",
+       "id": "Merefleksikan seluruh hidup Anda — masa lalu, masa kini, dan masa depan."
       },
       {
-       "en": "A mission names the contribution you want to be trusted with; titles are just vehicles that carry it.",
-       "id": "Misi menyebut kontribusi yang ingin kamu emban; jabatan hanyalah kendaraan yang membawanya."
+       "en": "Consider the attributes of the people who have had the greatest influence on you.",
+       "id": "Mempertimbangkan kualitas orang-orang yang telah memberikan pengaruh terbesar dalam hidup Anda."
       },
       {
-       "en": "Reverse planning turns a 3-year outcome into this semester's checklist.",
-       "id": "Perencanaan mundur mengubah hasil 3 tahun menjadi daftar periksa untuk semester ini."
+       "en": "Consider your own attributes, including your strengths, challenges, and passions.",
+       "id": "Mempertimbangkan kualitas diri Anda sendiri, termasuk kekuatan, tantangan, dan passion Anda."
       }
      ],
      "material": [
@@ -2405,23 +2409,7 @@ window.MT_LMS['the-map'] = {
         "id": "Ranah, level, artefak bukti, dan batas yang dijaga semuanya disebut — setiap horizon di belakangnya kini bisa diturunkan."
        }
       }
-     ],
-     "tool": {
-      "id": "audit",
-      "mode": "home",
-      "title": {
-       "en": "Write the mission into your audit",
-       "id": "Tuliskan misimu ke dalam audit"
-      },
-      "body": {
-       "en": "The Personal Audit stores your mission draft and 3-year outcome next to your baseline — so every later reading is measured against a direction you authored.",
-       "id": "Audit Pribadi menyimpan draf misi dan hasil 3 tahunmu berdampingan dengan data dasarmu — sehingga setiap pembacaan berikutnya diukur terhadap arah yang kamu tulis sendiri."
-      },
-      "cta": {
-       "en": "Open the Personal Audit →",
-       "id": "Buka Audit Pribadi →"
-      }
-     }
+     ]
     },
     {
      "n": "2.4",
