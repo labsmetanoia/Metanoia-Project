@@ -2227,6 +2227,53 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "Personal Mission Statement — Material",
+        "id": "Pernyataan Misi Pribadi — Materi"
+       },
+       "intro": {
+        "en": "After the films, three slides bring it to the page: what a good mission statement is made of, how to prepare for a five-minute first draft of your own, and a summary of why a written mission works as a constitution for your decisions. Read them, then continue to Exhibit 1 below.",
+        "id": "Setelah film, tiga slide membawanya ke atas kertas: apa saja yang membentuk pernyataan misi yang baik, cara bersiap menulis draf pertama Anda dalam lima menit, dan ringkasan mengapa misi yang tertulis bekerja sebagai konstitusi bagi keputusan Anda. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/mission-statement-",
+       "slides": [
+        {
+         "title": {
+          "en": "Your personal mission statement",
+          "id": "Pernyataan misi pribadi Anda"
+         },
+         "text": {
+          "en": "Lesson 3. Create and live by a personal mission statement. Common practice: let others’ agendas and circumstances define how you live your life. Highly effective practice: create and live by a personal mission statement. Characteristics of a good mission statement — a good mission statement: is based on principles of effectiveness; clarifies what is most important to you, your deepest values; provides direction and purpose; addresses the most important aspects of your life; represents the best in you. “A meaningful life begins with a conscious choice, not by chance.” — Stephen R. Covey. A more intentional me, a brighter tomorrow. Clearer goals, a more fulfilling life, a better you, a brighter tomorrow.",
+          "id": "Pelajaran 3. Menciptakan dan menjalani pernyataan misi pribadi. Kebiasaan umum: membiarkan agenda dan keadaan orang lain menentukan bagaimana Anda menjalani hidup. Kebiasaan yang sangat efektif: menciptakan dan menjalani pernyataan misi pribadi Anda sendiri. Karakteristik pernyataan misi pribadi yang baik — pernyataan misi pribadi yang baik: didasarkan pada prinsip-prinsip efektivitas; memperjelas apa yang paling penting bagi Anda, nilai-nilai terdalam Anda; memberikan arah dan tujuan; mencakup aspek-aspek terpenting dalam hidup Anda; mencerminkan versi terbaik dari diri Anda. “Hidup yang bermakna dimulai dari keputusan untuk menjalani tujuan Anda sendiri.” Diri yang lebih sengaja, hari esok yang lebih cerah. Tujuan yang jelas, kehidupan yang lebih terarah, diri yang lebih baik, masa depan yang lebih cerah."
+         }
+        },
+        {
+         "title": {
+          "en": "Writing a personal mission statement",
+          "id": "Menulis pernyataan misi pribadi Anda"
+         },
+         "text": {
+          "en": "Reflection exercise. After the upcoming video, you will take 5 minutes to draft a personal mission statement of your own. To prepare to write your own personal mission statement, recall your previous responses from the exercises People Who Have Influenced You and Discover Yourself. Your preparation guide: relax (it’s confidential); keep writing (no editing); find a quiet space (give yourself a quiet space in which to write); have courage. Take the time, it’s worth it. A small step, a bigger you: clarity today, a more intentional tomorrow.",
+          "id": "Latihan refleksi. Setelah video berikutnya, Anda akan diberikan 5 menit untuk menyusun draf pernyataan misi pribadi Anda sendiri. Untuk mempersiapkan diri menulis pernyataan misi pribadi Anda, ingat kembali jawaban-jawaban Anda dari latihan Seseorang yang Telah Memengaruhi Anda dan Mengenal Diri Anda Lebih Dalam. Panduan Anda: tenang dan rileks (ini bersifat pribadi dan rahasia); terus menulis (jangan mengedit dahulu); cari tempat yang tenang (berikan diri Anda ruang yang nyaman untuk menulis); miliki keberanian (tulis dengan jujur dan terbuka). Luangkan waktu, ini sangat berarti. Langkah kecil, versi diri yang lebih besar: kejelasan hari ini, masa depan yang lebih bermakna."
+         }
+        },
+        {
+         "title": {
+          "en": "A good mission statement",
+          "id": "Pernyataan misi yang baik"
+         },
+         "text": {
+          "en": "Key summary. More than words — it’s your compass for a meaningful life. 1 Based on principles of effectiveness: a good mission statement is grounded in timeless principles and what truly works. 2 Applicable at multiple levels: it can be used by individuals, families, and organizations to provide direction and purpose. 3 A written constitution for decisions: it functions as a guiding framework by which you make life decisions. Key insight: a mission statement brings clarity, alignment, and intention to your daily choices. “We detect rather than invent our missions in life.” — Viktor Frankl. A clearer today, a brighter tomorrow.",
+          "id": "Ringkasan utama. Lebih dari sekadar kata-kata — ini adalah kompas Anda untuk hidup yang bermakna. 1 Didasarkan pada prinsip-prinsip efektivitas: pernyataan misi yang baik berlandaskan pada prinsip-prinsip yang timeless dan benar-benar efektif dalam kehidupan. 2 Dapat digunakan di berbagai level: dapat digunakan oleh individu, keluarga, dan organisasi untuk memberikan arah dan tujuan. 3 Menjadi konstitusi tertulis dalam mengambil keputusan: berfungsi sebagai kerangka panduan tertulis yang membantu Anda dalam membuat keputusan hidup. Wawasan utama: pernyataan misi memberikan kejelasan, keselarasan, dan niat yang lebih kuat dalam setiap pilihan Anda sehari-hari. “Kita menemukan misi dalam hidup, bukan menciptakannya.” — Viktor Frankl. Hari ini diri yang lebih jelas, masa depan yang lebih cerah."
+         }
+        }
+       ]
       }
      ],
      "youtube": [
@@ -2274,8 +2321,8 @@ window.MT_LMS['the-map'] = {
         "id": "Misi Pribadi — Film 2"
        },
        "intro": {
-        "en": "A second film to close the material: what it looks like to live by a personal mission, and why purposeful use of your time is the difference between a busy life and a meaningful one. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
-        "id": "Film kedua untuk menutup materi ini: seperti apa hidup yang dijalani berdasarkan misi pribadi, dan mengapa memanfaatkan waktu dengan tujuan adalah perbedaan antara hidup yang sibuk dan hidup yang bermakna. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "A second film to close the material: what it looks like to live by a personal mission, and why purposeful use of your time is the difference between a busy life and a meaningful one. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
+        "id": "Film kedua untuk menutup materi ini: seperti apa hidup yang dijalani berdasarkan misi pribadi, dan mengapa memanfaatkan waktu dengan tujuan adalah perbedaan antara hidup yang sibuk dan hidup yang bermakna. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        }
       }
      ],
