@@ -6111,16 +6111,16 @@
       "notes": "The Map · Module 2 · 2.2 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
     },
     {
-      "file": "assets/power-of-learning-habits.mp4",
+      "file": "assets/lms/the-map/learning-habits.mp4",
       "bytes": 25690415,
       "category": "video",
       "people": "unknown",
-      "source": "Uploaded to main by Metanoia Labs on 2026-09-13 as \"The Power of Learning Habits.mp4\" (commit 2fa5a6f); renamed to a hygienic filename; not yet referenced by any page or lesson",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-13 as \"The Power of Learning Habits.mp4\" (commit 2fa5a6f); moved beside the other lesson films",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Awaiting placement instructions. Licence and model release to follow the supplied file."
+      "notes": "The Map · Module 2 · 2.2 lesson video (after the Power of Learning Habits slides). Licence and model release follow the supplied file."
     },
     {
       "file": "assets/lms/the-map/slides/learning-habits-en-01.jpg",
@@ -6481,6 +6481,42 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 2 · 2.2 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/learning-habits-poster.jpg",
+      "bytes": 67342,
+      "category": "graphic",
+      "people": "unlikely",
+      "source": "Frame at 2:00 of learning-habits.mp4 (supplied by Metanoia Labs on 2026-09-13), extracted in-repo at 1600px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 2 · 2.2 lesson video poster (illustrated characters, no photographs). Licence follows the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/learning-habits-en.vtt",
+      "bytes": 4705,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for learning-habits.mp4, produced in-repo on 2026-09-13: speech recognised from the supplied audio, corrected by hand",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 2 · 2.2 lesson video captions."
+    },
+    {
+      "file": "assets/lms/the-map/learning-habits-id.vtt",
+      "bytes": 4878,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for learning-habits.mp4, produced in-repo on 2026-09-13: speech recognised from the supplied audio, corrected by hand, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 2 · 2.2 lesson video captions."
     }
   ]
 }
