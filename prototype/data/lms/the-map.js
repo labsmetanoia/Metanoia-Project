@@ -2529,8 +2529,8 @@ window.MT_LMS['the-map'] = {
         "id": "Matriks Waktu — Materi"
        },
        "intro": {
-        "en": "Six slides open the lesson: the mindset that not everything urgent is important, the Time Matrix and the paradigm shift from urgent to important, the practices that come with it, a review of the four quadrants, a quadrant self-check, and how to eliminate the unimportant. Read them, then continue to Exhibit 1 below.",
-        "id": "Enam slide membuka pelajaran ini: pola pikir bahwa tidak semua yang mendesak itu penting, Matriks Waktu dan pergeseran paradigma dari mendesak ke penting, kebiasaan yang menyertainya, tinjauan empat kuadran, pemeriksaan diri per kuadran, dan cara menghilangkan yang tidak penting. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "Six slides open the lesson: the mindset that not everything urgent is important, the Time Matrix and the paradigm shift from urgent to important, the practices that come with it, a review of the four quadrants, a quadrant self-check, and how to eliminate the unimportant. Read them, then continue to the film below.",
+        "id": "Enam slide membuka pelajaran ini: pola pikir bahwa tidak semua yang mendesak itu penting, Matriks Waktu dan pergeseran paradigma dari mendesak ke penting, kebiasaan yang menyertainya, tinjauan empat kuadran, pemeriksaan diri per kuadran, dan cara menghilangkan yang tidak penting. Bacalah, lalu lanjutkan ke film di bawah."
        },
        "base": "../../assets/lms/the-map/slides/time-matrix-",
        "slides": [
@@ -2595,6 +2595,24 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "q0BMuv1DZrI",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch · Lesson film",
+        "id": "Tonton · Film pelajaran"
+       },
+       "title": {
+        "en": "Time Matrix — Film",
+        "id": "Matriks Waktu — Film"
+       },
+       "intro": {
+        "en": "After the slides, watch this short film to see the Time Matrix in motion: how urgent and important pull in different directions, why careers are built in the important-but-not-urgent quadrant, and what it takes to defend that time every week. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
+        "id": "Setelah slide, tonton film singkat ini untuk melihat Matriks Waktu bekerja: bagaimana yang mendesak dan yang penting menarik ke arah yang berbeda, mengapa karier dibangun di kuadran penting-tetapi-tidak-mendesak, dan apa yang dibutuhkan untuk menjaga waktu itu setiap minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+       }
       }
      ],
      "sections": [
