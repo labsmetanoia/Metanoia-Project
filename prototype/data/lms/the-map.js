@@ -2606,8 +2606,8 @@ window.MT_LMS['the-map'] = {
         "id": "Prioritas Utama Anda — Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film, lima slide mengubah matriks menjadi praktik mingguan: mengapa membebaskan waktu Kuadran 2 menciptakan ruang untuk merefleksikan Big Rocks Anda, bagaimana Big Rocks itu selaras dengan peran hidup Anda, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan sebuah kesimpulan. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary. Read them, then continue to the two films below.",
+        "id": "Setelah film, lima slide mengubah matriks menjadi praktik mingguan: mengapa membebaskan waktu Kuadran 2 menciptakan ruang untuk merefleksikan Big Rocks Anda, bagaimana Big Rocks itu selaras dengan peran hidup Anda, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan sebuah kesimpulan. Bacalah, lalu lanjutkan ke dua film di bawah."
        },
        "base": "../../assets/lms/the-map/slides/top-priorities-",
        "slides": [
@@ -2669,8 +2669,8 @@ window.MT_LMS['the-map'] = {
        "id": "q0BMuv1DZrI",
        "placement": "after-material:1",
        "kicker": {
-        "en": "Watch · Lesson film",
-        "id": "Tonton · Film pelajaran"
+        "en": "Watch · Lesson film 1",
+        "id": "Tonton · Film pelajaran 1"
        },
        "title": {
         "en": "Time Matrix — Film",
@@ -2679,6 +2679,38 @@ window.MT_LMS['the-map'] = {
        "intro": {
         "en": "After the slides, watch this short film to see the Time Matrix in motion: how urgent and important pull in different directions, why careers are built in the important-but-not-urgent quadrant, and what it takes to defend that time every week. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
         "id": "Setelah slide, tonton film singkat ini untuk melihat Matriks Waktu bekerja: bagaimana yang mendesak dan yang penting menarik ke arah yang berbeda, mengapa karier dibangun di kuadran penting-tetapi-tidak-mendesak, dan apa yang dibutuhkan untuk menjaga waktu itu setiap minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
+       }
+      },
+      {
+       "id": "zV3gMTOEWt8",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch · Lesson film 2",
+        "id": "Tonton · Film pelajaran 2"
+       },
+       "title": {
+        "en": "Your Top Priorities — Film 1",
+        "id": "Prioritas Utama Anda — Film 1"
+       },
+       "intro": {
+        "en": "The slides pointed to a video about putting the Big Rocks in first. Watch it now with your own Big Rocks in mind: which one or two things in each of your roles deserve a place on the calendar before anything else this week? Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the second film that follows.",
+        "id": "Slide tadi merujuk pada sebuah video tentang mendahulukan Big Rocks. Tontonlah sekarang dengan Big Rocks Anda sendiri dalam pikiran: satu atau dua hal apa di setiap peran Anda yang layak mendapat tempat di kalender sebelum yang lain minggu ini? Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke film kedua yang mengikutinya."
+       }
+      },
+      {
+       "id": "66bB7dZEXuw",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch · Lesson film 3",
+        "id": "Tonton · Film pelajaran 3"
+       },
+       "title": {
+        "en": "Your Top Priorities — Film 2",
+        "id": "Prioritas Utama Anda — Film 2"
+       },
+       "intro": {
+        "en": "A second short film to close the slides: from Big Rocks to the weekly plan that protects them. As you watch, decide when in the coming week you will sit down to plan, and where your Big Rocks will go. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
+        "id": "Film singkat kedua untuk menutup rangkaian slide: dari Big Rocks ke rencana mingguan yang melindunginya. Sambil menonton, putuskan kapan dalam minggu mendatang Anda akan duduk untuk merencanakan, dan di mana Big Rocks Anda akan ditempatkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
        }
       }
      ],
