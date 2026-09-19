@@ -2595,6 +2595,73 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 5 slides",
+        "id": "Baca berikutnya · 5 slide"
+       },
+       "title": {
+        "en": "Your Top Priorities — Material",
+        "id": "Prioritas Utama Anda — Materi"
+       },
+       "intro": {
+        "en": "After the film, five slides turn the matrix into a weekly practice: why freeing Quadrant 2 time creates space to reflect on your Big Rocks, how those Big Rocks map onto your life roles, the habit of planning every week, the three steps of weekly planning, and a summary. Read them, then continue to Exhibit 1 below.",
+        "id": "Setelah film, lima slide mengubah matriks menjadi praktik mingguan: mengapa membebaskan waktu Kuadran 2 menciptakan ruang untuk merefleksikan Big Rocks Anda, bagaimana Big Rocks itu selaras dengan peran hidup Anda, kebiasaan merencanakan setiap minggu, tiga langkah perencanaan mingguan, dan sebuah kesimpulan. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/top-priorities-",
+       "slides": [
+        {
+         "title": {
+          "en": "Your top priorities",
+          "id": "Prioritas utama Anda"
+         },
+         "text": {
+          "en": "Lesson 2. Create space for what truly matters, and make your time work for your most important goals. Create space to reflect: by freeing up time to spend in Q2 (important, not urgent), you have space to reflect deeply on your priorities and determine what is most important to you. Focus on your Big Rocks: in this video, Dr. Covey demonstrates how prioritizing our “Big Rocks” first helps us accomplish more. As you watch, consider what your Big Rocks are. Big Rocks first: health, family, growth, purpose. “If you put the big rocks in first, the little rocks will fall into place.” — Stephen R. Covey. A clearer today leads to a brighter tomorrow.",
+          "id": "Pelajaran 2. Ciptakan ruang untuk hal yang benar-benar penting, dan jadikan waktu Anda bekerja untuk tujuan terbesar Anda. Ciptakan ruang untuk refleksi: dengan membebaskan waktu untuk beraktivitas di Kuadran 2 (penting, tidak mendesak), Anda memiliki ruang untuk merefleksikan prioritas Anda secara mendalam dan menentukan apa yang paling penting bagi Anda. Fokus pada Big Rocks Anda: dalam video ini, Dr. Covey menjelaskan bagaimana memprioritaskan “Big Rocks” terlebih dahulu membantu kita mencapai lebih banyak hal. Saat Anda menonton, pertimbangkan apa saja Big Rocks Anda. Dahulukan Big Rocks: kesehatan, keluarga, pertumbuhan, tujuan hidup. “Jika Anda menempatkan big rocks terlebih dahulu, batu-batu kecil akan dengan sendirinya menemukan tempatnya.” — Stephen R. Covey. Hari yang lebih jelas hari ini, menuju masa depan yang lebih baik esok hari."
+         }
+        },
+        {
+         "title": {
+          "en": "Big Rocks and Q2 roles",
+          "id": "Big Rocks dan peran di Kuadran 2"
+         },
+         "text": {
+          "en": "Prioritize what matters. Our “Big Rocks” often represent our most important life roles. When we focus on Q2 activities, we create space for what truly matters in each role. Life roles as Big Rocks: our Big Rocks often align with our most important life roles — for example, “time with my son” could be a Big Rock because of our role as a parent. Invest in what enables all roles: for many people, exercise is a Big Rock because it supports higher energy for all the roles we play. Examples of life roles and potential Big Rocks — family (quality time with my children), career (develop key skills, lead a project), health (exercise regularly, healthy nutrition), personal growth (read, learn new skills), relationships (nurture friendships), contribution (give back to community). A balanced life is built one big rock at a time. “If you were to ask me what single practice would do more to balance your life and increase your productivity than any other, it would be this: plan your week each week before the week begins.” — Stephen R. Covey. Plan today: a more balanced and fulfilling tomorrow is possible.",
+          "id": "Prioritaskan hal yang penting. “Big Rocks” kita sering kali merepresentasikan peran hidup yang paling penting. Dengan berfokus pada aktivitas di Kuadran 2, kita menciptakan ruang untuk hal yang benar-benar bermakna di setiap peran tersebut. Peran hidup sebagai Big Rocks: Big Rocks kita sering kali selaras dengan peran hidup yang paling penting — misalnya, “waktu bersama anak saya” bisa menjadi Big Rock karena peran kita sebagai orang tua. Berinvestasi pada hal yang memungkinkan semua peran: bagi banyak orang, olahraga adalah Big Rock karena membantu menjaga energi yang lebih tinggi untuk semua peran yang kita jalankan. Contoh peran hidup dan potensi Big Rocks — keluarga (waktu berkualitas dengan anak-anak), karier (mengembangkan keahlian utama, memimpin proyek), kesehatan (olahraga secara rutin, pola makan sehat), pengembangan diri (membaca, mempelajari keahlian baru), relasi (membangun dan memelihara persahabatan), kontribusi (memberi dampak positif bagi masyarakat). Hidup yang seimbang dibangun dari satu batu besar dalam satu waktu. “Jika Anda bertanya kepada saya, satu kebiasaan apa yang paling dapat menyeimbangkan hidup Anda dan meningkatkan produktivitas lebih dari hal lain, jawaban saya adalah: rencanakan minggu Anda setiap minggu sebelum minggu dimulai.” — Stephen R. Covey. Rencanakan mulai hari ini: hidup yang lebih seimbang dan bermakna di masa depan adalah mungkin."
+         }
+        },
+        {
+         "title": {
+          "en": "Plan every week",
+          "id": "Rencanakan setiap minggu"
+         },
+         "text": {
+          "en": "Prioritize what matters. Common practice: plan sporadically or not at all. Highly effective practice: plan every week. Weekly planning: to achieve the most important things, you must set aside your most important time to accomplish them every week. Protect time for what matters most. 1 Identify priorities: clarify what matters most in your life and work. 2 Reserve time: set aside dedicated time for your most important things on your calendar. 3 Execute weekly: follow through and review your progress regularly. Intentional weeks create extraordinary lives.",
+          "id": "Prioritaskan hal yang penting. Kebiasaan umum: merencanakan secara sporadis atau bahkan tidak sama sekali. Kebiasaan yang sangat efektif: merencanakan setiap minggu. Perencanaan mingguan: untuk mencapai hal-hal yang paling penting, Anda harus menyisihkan waktu terbaik Anda untuk mewujudkannya setiap minggu. Lindungi waktu untuk hal yang paling berarti. 1 Tentukan prioritas: perjelas apa yang paling penting dalam hidup dan pekerjaan Anda. 2 Sisihkan waktu: alokasikan waktu khusus untuk hal-hal terpenting di kalender Anda. 3 Eksekusi setiap minggu: lakukan dan tinjau kemajuan Anda secara rutin. Minggu yang terencana menciptakan hidup yang luar biasa."
+         }
+        },
+        {
+         "title": {
+          "en": "Steps to weekly planning",
+          "id": "Langkah-langkah perencanaan mingguan"
+         },
+         "text": {
+          "en": "Weekly planning is your most effective Q2 activity to keep you focused on your highest priorities. Step 1 — Connect with your mission, roles, and goals: review your mission statement; consider the roles you play in your life; consider long-term goals you want to advance this week. A meaningful week starts with a clear direction. Step 2 — Schedule the Big Rocks: reflect on your roles and ask yourself, “What are the one or two most important things I can do in this role this week?” Schedule those “Big Rocks” first. The important things don’t happen by accident — schedule them. Step 3 — Organize the rest: schedule your other activities, tasks, and appointments around your Big Rocks. Remember, it doesn’t matter if all the “gravel” doesn’t fit — it’s not important. When you schedule the Big Rocks first, you make sure the important things don’t get left out. Discipline today, a more fulfilling tomorrow. It all starts with a plan.",
+          "id": "Perencanaan mingguan adalah aktivitas Kuadran 2 yang paling efektif untuk membantu Anda tetap fokus pada prioritas utama dalam hidup. Langkah 1 — Hubungkan dengan misi, peran, dan tujuan Anda: tinjau kembali pernyataan misi Anda; renungkan peran-peran yang Anda jalankan dalam hidup; pertimbangkan tujuan jangka panjang yang ingin Anda capai minggu ini. Minggu yang bermakna dimulai dengan arah yang jelas. Langkah 2 — Jadwalkan Big Rocks Anda: renungkan peran Anda dan tanyakan pada diri sendiri, “Apa satu atau dua hal terpenting yang dapat saya lakukan dalam peran ini minggu ini?” Jadwalkan Big Rocks tersebut terlebih dahulu. Hal-hal penting tidak terjadi secara tidak sengaja — jadwalkan mereka. Langkah 3 — Atur sisanya: jadwalkan aktivitas lainnya, tugas, dan janji temu di sekitar Big Rocks Anda. Ingat, tidak masalah jika semua “kerikil” tidak muat — itu tidak penting. Dengan menjadwalkan Big Rocks terlebih dahulu, Anda memastikan hal-hal penting tidak terabaikan. Disiplin hari ini untuk masa depan yang lebih bermakna. Semua dimulai dengan rencana."
+         }
+        },
+        {
+         "title": {
+          "en": "Key summary",
+          "id": "Kesimpulan utama"
+         },
+         "text": {
+          "en": "Bringing it all together. Simple principles, a more focused and fulfilling life. 1 Identifying your Big Rocks helps you focus on your highest priorities: when you know what matters most, you can direct your energy and time to what is truly meaningful. 2 Weekly planning schedules the Big Rocks first: by planning every week, you make sure the most important things get the time and attention they deserve. 3 If you cannot finish everything else (the gravel), that is fine: what matters is that the Big Rocks were scheduled first, so the important things still happen. Focus on what matters today, for a better life tomorrow. A focused life creates extraordinary results — a clearer mind, higher priorities, greater productivity, more balance, a brighter tomorrow. — Stephen R. Covey",
+          "id": "Menyatukan semua hal. Prinsip sederhana untuk hidup yang lebih fokus dan bermakna. 1 Mengidentifikasi Big Rocks membantu Anda fokus pada prioritas tertinggi: ketika Anda mengetahui apa yang paling penting, Anda dapat mengarahkan energi dan waktu pada hal-hal yang benar-benar bermakna. 2 Perencanaan mingguan menjadwalkan Big Rocks terlebih dahulu: dengan merencanakan setiap minggu, Anda memastikan hal-hal terpenting mendapatkan waktu dan perhatian yang layak. 3 Jika Anda belum bisa menyelesaikan semua hal lainnya (kerikil), itu tidak masalah: yang terpenting adalah Big Rocks sudah dijadwalkan terlebih dahulu, sehingga hal-hal penting tetap terlaksana. Fokus pada hal yang penting hari ini, untuk kehidupan yang lebih baik di masa depan. Hidup yang terarah akan menghasilkan hasil yang luar biasa — pikiran lebih jernih, prioritas yang lebih tinggi, produktivitas lebih besar, keseimbangan yang lebih baik, masa depan yang lebih cerah. — Stephen R. Covey"
+         }
+        }
+       ]
       }
      ],
      "youtube": [
@@ -2610,8 +2677,8 @@ window.MT_LMS['the-map'] = {
         "id": "Matriks Waktu — Film"
        },
        "intro": {
-        "en": "After the slides, watch this short film to see the Time Matrix in motion: how urgent and important pull in different directions, why careers are built in the important-but-not-urgent quadrant, and what it takes to defend that time every week. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
-        "id": "Setelah slide, tonton film singkat ini untuk melihat Matriks Waktu bekerja: bagaimana yang mendesak dan yang penting menarik ke arah yang berbeda, mengapa karier dibangun di kuadran penting-tetapi-tidak-mendesak, dan apa yang dibutuhkan untuk menjaga waktu itu setiap minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "After the slides, watch this short film to see the Time Matrix in motion: how urgent and important pull in different directions, why careers are built in the important-but-not-urgent quadrant, and what it takes to defend that time every week. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
+        "id": "Setelah slide, tonton film singkat ini untuk melihat Matriks Waktu bekerja: bagaimana yang mendesak dan yang penting menarik ke arah yang berbeda, mengapa karier dibangun di kuadran penting-tetapi-tidak-mendesak, dan apa yang dibutuhkan untuk menjaga waktu itu setiap minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        }
       }
      ],
