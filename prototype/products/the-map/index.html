@@ -288,33 +288,79 @@
   .lock-ic{color:var(--text-faint);display:flex}
   .lock-ic svg{width:16px;height:16px}
 
-  /* ═══ ASSIGNMENTS ═══ */
-  .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
-  .filter-pill{background:none;border:1px solid var(--gold-border);color:var(--text-muted);font-size:12px;font-weight:700;
-    border-radius:999px;padding:7px 16px;transition:all .2s}
+  /* ═══ ASSIGNMENTS — mission-brief cards ═══ */
+  .filter-row{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:22px}
+  .filter-pill{background:none;border:1px solid var(--gold-border);color:var(--text-muted);font-size:12.5px;font-weight:700;
+    border-radius:999px;padding:8px 18px;transition:all .2s}
   .filter-pill:hover{border-color:var(--gold-border-hover);color:var(--text-sub)}
   .filter-pill.act{background:var(--gold-glow);color:var(--gold);border-color:rgba(201,168,76,.5)}
-  .assignment-card{padding:24px 26px;margin-bottom:16px;background:var(--glass-bg);backdrop-filter:var(--glass-blur);
-    border:1px solid var(--gold-border);border-radius:14px}
-  .assignment-card[data-status="locked"]{opacity:.75}
-  .assignment-header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
-  .assignment-status{font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:3px 12px}
-  .assignment-status.available{color:#4ECDC4;border:1px solid rgba(13,115,119,.4)}
+  .filter-pill[data-count]::after{content:attr(data-count);margin-left:7px;font-size:10px;font-weight:800;opacity:.55}
+  .asg-how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 24px}
+  .asg-how-step{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px solid var(--gold-border);border-radius:14px;
+    background:var(--glass-bg);backdrop-filter:var(--glass-blur)}
+  .asg-how-n{flex:none;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:12px;font-weight:800;color:#160d03;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-bright))}
+  .asg-how-step b{display:block;font-size:13px;color:var(--text);margin-bottom:3px}
+  .asg-how-step span:not(.asg-how-n){font-size:12px;line-height:1.55;color:var(--text-muted)}
+  .assignment-card{position:relative;display:grid;grid-template-columns:184px minmax(0,1fr);margin-bottom:16px;overflow:hidden;
+    background:var(--glass-bg);backdrop-filter:var(--glass-blur);border:1px solid var(--gold-border);border-radius:18px;
+    box-shadow:0 18px 44px rgba(0,0,0,.28);transition:border-color .25s,transform .25s,box-shadow .25s,opacity .6s ease}
+  .assignment-card:hover{border-color:var(--gold-border-hover);transform:translateY(-3px);box-shadow:0 26px 54px rgba(0,0,0,.36)}
+  .assignment-card[data-status="available"]{border-color:rgba(201,168,76,.34)}
+  .assignment-card[data-status="graded"]{border-color:rgba(201,168,76,.5)}
+  .assignment-card[data-status="locked"]{opacity:.78}
+  .assignment-card[data-status="locked"] .asg-art{filter:grayscale(.55)}
+  .asg-art{position:relative;min-height:100%;background:var(--art) var(--pos,center)/cover no-repeat}
+  .asg-art::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.15),rgba(5,10,18,.72) 100%),
+    linear-gradient(180deg,rgba(5,10,18,.1),rgba(5,10,18,.5))}
+  .asg-num{position:absolute;left:18px;bottom:12px;z-index:1;font-family:var(--serif);font-style:italic;font-weight:600;
+    font-size:2.9rem;line-height:1;color:#F0D878;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+  .asg-body{padding:24px 28px 22px;min-width:0}
+  .assignment-header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  .assignment-status{display:inline-flex;align-items:center;gap:6px;font-size:.66rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+    border-radius:999px;padding:4px 12px;white-space:nowrap}
+  .assignment-status::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor}
+  .assignment-status.available{color:#4ECDC4;border:1px solid rgba(78,205,196,.4);background:rgba(78,205,196,.08)}
+  .assignment-status.graded{color:var(--gold-bright);border:1px solid rgba(201,168,76,.5);background:rgba(201,168,76,.1)}
   .assignment-status.locked{color:var(--text-faint);border:1px solid var(--gold-border)}
-  .assignment-title{font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px}
-  .assignment-desc{color:var(--text-sub);font-size:13.5px;line-height:1.7}
-  .assignment-meta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 16px;color:var(--text-muted);font-size:12px}
-  .assignment-meta span{border:1px solid var(--gold-border);border-radius:999px;padding:3px 11px}
+  .assignment-title{font-family:var(--serif);font-weight:600;font-size:19px;line-height:1.3;color:var(--text);margin-bottom:8px}
+  .assignment-desc{color:var(--text-sub);font-size:13.5px;line-height:1.7;max-width:72ch}
+  .asg-covers{list-style:none;margin:14px 0 0;padding:12px 0 0;border-top:1px dashed rgba(201,168,76,.2);display:grid;gap:7px}
+  .asg-covers li{display:flex;gap:10px;align-items:baseline;font-size:12.5px;line-height:1.5;color:var(--text-sub)}
+  .asg-covers b{flex:none;font-size:10.5px;font-weight:800;letter-spacing:.06em;color:var(--gold);border:1px solid rgba(201,168,76,.4);
+    border-radius:6px;padding:2px 7px;background:rgba(201,168,76,.08);font-variant-numeric:tabular-nums}
+  .assignment-meta{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 16px;color:var(--text-muted);font-size:12px}
+  .assignment-meta span{border:1px solid var(--gold-border);border-radius:999px;padding:5px 13px;background:rgba(201,168,76,.04)}
+  .assignment-meta span:last-of-type{color:var(--gold);border-color:rgba(201,168,76,.45);font-weight:700}
+  .assignment-footer{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .asg-link{background:none;border:0;padding:0;color:var(--text-muted);font-size:12.5px;font-weight:700;cursor:pointer;
+    text-decoration:underline;text-decoration-color:rgba(201,168,76,.4);text-underline-offset:4px}
+  .asg-link:hover{color:var(--gold)}
   .track-select{margin:14px 0 4px}
   .ts-label{display:block;font-size:12px;font-weight:700;color:var(--text-muted);margin-bottom:8px}
   .track-radios{display:flex;flex-wrap:wrap;gap:8px}
   .track-radio{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-sub);border:1px solid var(--gold-border);
     border-radius:999px;padding:5px 12px;cursor:pointer}
   .track-radio input{accent-color:var(--gold)}
-  .points-card{padding:24px 30px;text-align:center;border:1px solid rgba(201,168,76,.4)}
+  .points-card{padding:22px 30px;text-align:center;border:1px solid rgba(201,168,76,.4)}
   .points-card b{color:var(--gold-bright)}
   .points-card p{color:var(--text-sub);font-size:13.5px;line-height:1.7}
   .filter-empty{display:none;color:var(--text-muted);font-size:13.5px;text-align:center;padding:30px 0}
+  @media(max-width:768px){
+    .asg-how{grid-template-columns:1fr;gap:8px}
+    .assignment-card{grid-template-columns:1fr}
+    .asg-art{min-height:112px}
+    .asg-art::after{background:linear-gradient(180deg,rgba(5,10,18,.08),rgba(5,10,18,.62))}
+    .asg-num{font-size:2.3rem;left:16px;bottom:10px}
+    .asg-body{padding:18px 18px 18px}
+    .assignment-title{font-size:17px}
+    .assignment-footer .btn-gold{width:100%;justify-content:center}
+  }
+  :root[data-theme="light"] .assignment-card{box-shadow:0 14px 34px rgba(27,36,52,.14)}
+  :root[data-theme="light"] .assignment-card:hover{box-shadow:0 22px 44px rgba(27,36,52,.2)}
+  :root[data-theme="light"] .assignment-status.available{color:#0A5D60;border-color:rgba(13,115,119,.4);background:rgba(13,115,119,.07)}
+  :root[data-theme="light"] .assignment-status.graded{color:var(--gold-deep);border-color:rgba(122,90,16,.45);background:rgba(154,123,36,.1)}
+  :root[data-theme="light"] .asg-how-step b{color:var(--text)}
 
   /* ═══ GRADES ═══ */
   .overall-card{padding:28px 34px;margin-bottom:28px;border:1px solid rgba(201,168,76,.4)}
@@ -358,8 +404,8 @@
   .reveal{opacity:0;transform:translateY(18px);
     transition:opacity .6s ease,transform .6s cubic-bezier(.25,.8,.3,1);transition-delay:calc(var(--i,0)*80ms)}
   .reveal.revealed{opacity:1;transform:none}
-  .syl-card,.assignment-card,.side-card,.outcome-card{transition:border-color .25s,transform .25s,opacity .6s ease}
-  .syl-card:hover,.assignment-card:hover{border-color:var(--gold-border-hover);transform:translateY(-3px)}
+  .syl-card,.side-card,.outcome-card{transition:border-color .25s,transform .25s,opacity .6s ease}
+  .syl-card:hover{border-color:var(--gold-border-hover);transform:translateY(-3px)}
   .side-card:hover,.outcome-card:hover{border-color:var(--gold-border-hover)}
   .lesson-card{transition:background .2s}
   .lesson-card[data-status="available"]:hover{background:rgba(201,168,76,.05)}
@@ -395,8 +441,7 @@
   :root[data-theme="light"] .cert-preview.locked .cert-lock{background:rgba(238,241,246,.72)}
   :root[data-theme="light"] .track-chip{color:#0A5D60;background:rgba(13,115,119,.10);border-color:rgba(13,115,119,.35)}
   :root[data-theme="light"] .module-status.available{background:rgba(13,115,119,.10);color:#0A5D60;border-color:rgba(13,115,119,.35)}
-  :root[data-theme="light"] .assignment-status.available{color:#0A5D60;border-color:rgba(13,115,119,.4)}
-  :root[data-theme="light"] .grade-total{background:rgba(138,106,20,.08)}
+    :root[data-theme="light"] .grade-total{background:rgba(138,106,20,.08)}
   :root[data-theme="light"] .course-hero{box-shadow:0 24px 56px rgba(27,36,52,.22)}
   /* photo hero stays night art — pin its type to light-on-dark in both themes */
   :root[data-theme="light"] .course-head{color:#fff}
@@ -603,7 +648,7 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <h3 class="sec-label" data-en="What's Included" data-id="Yang Kamu Dapatkan">What's Included</h3>
             <div class="inc-grid">
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2.5h8a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></svg></span><span data-en="6 Learning Modules" data-id="6 Modul Pembelajaran">6 Learning Modules</span></div>
-        <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/></svg></span><span data-en="6 Practice Assignments" data-id="6 Tugas Latihan">6 Practice Assignments</span></div>
+        <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/></svg></span><span data-en="6 Module Assessments" data-id="6 Asesmen Modul">6 Module Assessments</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="2.5"/><path d="M12 8V4.5M9.5 4.5h5"/><circle cx="9.5" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M9.5 16.5h5"/></svg></span><span data-en="AI-Assisted Practice Tools" data-id="Alat Latihan Berbasis AI">AI-Assisted Practice Tools</span></div>
         <div class="inc-item"><span class="inc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span><span data-en="Self-Paced Schedule" data-id="Jadwal Belajar Mandiri">Self-Paced Schedule</span></div>
             </div>
@@ -675,10 +720,10 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
             <h3 data-en="Your Assignments" data-id="Tugasmu">Your Assignments</h3>
             <div class="asg-mini">
               <span class="am-status" data-en="Assignment 1 — Available" data-id="Tugas 1 — Tersedia">Assignment 1 — Available</span>
-              <span class="am-name" data-en="Personal Audit Reflection" data-id="Refleksi Audit Pribadi">Personal Audit Reflection</span>
-              <span class="am-pts" data-en="100 pts" data-id="100 poin">100 pts</span>
+              <span class="am-name" data-en="Personal Audit — Module 1 Assessment" data-id="Audit Pribadi — Asesmen Modul 1">Personal Audit — Module 1 Assessment</span>
+              <span class="am-pts" data-en="10 questions · reflection · 100 pts" data-id="10 soal · refleksi · 100 poin">10 questions · reflection · 100 pts</span>
             </div>
-            <p class="asg-mini-locked" data-en="Assignments 2–6: locked — complete each module first." data-id="Tugas 2–6: terkunci — selesaikan dulu modulnya masing-masing.">Assignments 2–6: locked — complete each module first.</p>
+            <p class="asg-mini-locked" data-en="Assessments 2–6 unlock as you complete each module." data-id="Asesmen 2–6 terbuka saat kamu menyelesaikan tiap modul.">Assessments 2–6 unlock as you complete each module.</p>
             <button class="side-cta" data-goto-tab="assignments" data-en="View Assignment →" data-id="Lihat Tugas →">View Assignment →</button>
           </div>
         </div>
@@ -1202,116 +1247,164 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-art" style="background-image:url('../../assets/bg/map-hero.jpg');background-position:78% 26%"></div>
         <div class="tb-veil"></div>
         <div class="tb-inner">
-          <span class="tb-kicker" data-en="Practice &amp; Mastery" data-id="Latihan &amp; Penguasaan">Practice &amp; Mastery</span>
-          <h2 data-en="Practice Assignments" data-id="Tugas Latihan">Practice Assignments</h2>
-          <p class="tab-sub" data-en="6 assignments · Autosaving workspace · Submit any time · Guided self-review rubric" data-id="6 tugas · Ruang kerja tersimpan otomatis · Kumpulkan kapan saja · Rubrik tinjauan mandiri terpandu">6 assignments · Autosaving workspace · Submit any time · Guided self-review rubric</p>
-          <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Assignments" data-id="Tugas">Assignments</span></span><span class="tb-stat"><b>600</b><span data-en="Points" data-id="Poin">Points</span></span><span class="tb-stat"><b>100</b><span data-en="Pts Each" data-id="Poin per Tugas">Pts Each</span></span></div>
+          <span class="tb-kicker" data-en="Assessment &amp; Application" data-id="Asesmen &amp; Penerapan">Assessment &amp; Application</span>
+          <h2 data-en="Module Assessments" data-id="Asesmen Modul">Module Assessments</h2>
+          <p class="tab-sub" data-en="One assessment per module, built from that module’s slides, films and exhibits: knowledge checks and scenario judgments with instant explanations, then a written reflection where the module asks for application. Retake any time." data-id="Satu asesmen per modul, disusun dari slide, film, dan peraga modul itu: cek pengetahuan dan penilaian skenario dengan pembahasan seketika, lalu refleksi tertulis bila modulnya menuntut penerapan. Ulangi kapan saja.">One assessment per module, built from that module’s slides, films and exhibits: knowledge checks and scenario judgments with instant explanations, then a written reflection where the module asks for application. Retake any time.</p>
+          <div class="tb-stats"><span class="tb-stat"><b>6</b><span data-en="Assessments" data-id="Asesmen">Assessments</span></span><span class="tb-stat"><b data-asg-total-q>42</b><span data-en="Questions" data-id="Soal">Questions</span></span><span class="tb-stat"><b>600</b><span data-en="Points" data-id="Poin">Points</span></span></div>
         </div>
       </div>
-      <div class="filter-row" role="group" aria-label="Filter assignments">
+      <div class="asg-how reveal">
+        <div class="asg-how-step"><span class="asg-how-n">1</span><div><b data-en="Learn the module" data-id="Pelajari modulnya">Learn the module</b><span data-en="Slides, films, exhibits and the lesson checks — the assessment is built from them." data-id="Slide, film, peraga, dan cek pelajaran — asesmennya disusun dari semua itu.">Slides, films, exhibits and the lesson checks — the assessment is built from them.</span></div></div>
+        <div class="asg-how-step"><span class="asg-how-n">2</span><div><b data-en="Answer with instant explanations" data-id="Jawab dengan pembahasan seketika">Answer with instant explanations</b><span data-en="Every question tells you why, and which lesson to revisit." data-id="Setiap soal menjelaskan mengapa, dan pelajaran mana yang perlu ditinjau ulang.">Every question tells you why, and which lesson to revisit.</span></div></div>
+        <div class="asg-how-step"><span class="asg-how-n">3</span><div><b data-en="Apply it in writing" data-id="Terapkan secara tertulis">Apply it in writing</b><span data-en="A short reflection turns the module into your own plan — never machine-graded." data-id="Refleksi singkat mengubah modul menjadi rencanamu sendiri — tak pernah dinilai mesin.">A short reflection turns the module into your own plan — never machine-graded.</span></div></div>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter assessments">
       <button class="filter-pill act" data-filter="all" data-en="All" data-id="Semua">All</button>
       <button class="filter-pill" data-filter="available" data-en="Available" data-id="Tersedia">Available</button>
+      <button class="filter-pill" data-filter="graded" data-en="Completed" data-id="Selesai">Completed</button>
       <button class="filter-pill" data-filter="locked" data-en="Locked" data-id="Terkunci">Locked</button>
-      <button class="filter-pill" data-filter="submitted" data-en="Submitted" data-id="Dikirim">Submitted</button>
-      <button class="filter-pill" data-filter="graded" data-en="Self-reviewed" data-id="Sudah ditinjau mandiri">Self-reviewed</button>
       </div>
-    <div class="assignment-card reveal" data-module="1" data-status="available">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 01 · The Map" data-id="Modul 01 · The Map">Module 01 · The Map</span>
-        <span class="assignment-status available" data-en="Available" data-id="Tersedia">Available</span>
+    <article class="assignment-card reveal" data-module="1" data-status="available" data-num="01">
+      <div class="asg-art" style="--art:url('../../assets/bg/ch1-realization.jpg');--pos:center 30%"><span class="asg-num">01</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 01 · Self-Awareness and Personal Audit" data-id="Modul 01 · Kesadaran Diri dan Audit Pribadi">Module 01 · Self-Awareness and Personal Audit</span>
+          <span class="assignment-status available" data-en="Available" data-id="Tersedia">Available</span>
+        </div>
+        <h3 class="assignment-title" data-en="Personal Audit — Recovery Loop, Learning Intention, and Mindset" data-id="Audit Pribadi — Putaran Pemulihan, Niat Belajar, dan Pola Pikir">Personal Audit — Recovery Loop, Learning Intention, and Mindset</h3>
+        <p class="assignment-desc" data-en="Ten questions drawn from the module’s slides, films and exhibits — the two muscles and the recovery loop, learning intention versus performance goal, mindsets as belief filters and the APR shift, concern versus influence, and honest self-assessment — followed by a three-part written audit entry you will carry into the Personal Audit tool." data-id="Sepuluh soal yang diambil dari slide, film, dan peraga modul ini — dua otot dan putaran pemulihan, niat belajar versus target kinerja, pola pikir sebagai filter keyakinan dan pergeseran APR, kepedulian versus pengaruh, serta penilaian diri yang jujur — diikuti catatan audit tertulis tiga bagian yang akan kamu bawa ke alat Audit Pribadi.">Ten questions drawn from the module’s slides, films and exhibits — the two muscles and the recovery loop, learning intention versus performance goal, mindsets as belief filters and the APR shift, concern versus influence, and honest self-assessment — followed by a three-part written audit entry you will carry into the Personal Audit tool.</p>
+        <ul class="asg-covers">
+          <li><b>1.1</b><span data-en="Adaptability and Resilience — two muscles, the recovery loop, learn · grow · thrive" data-id="Adaptabilitas dan Ketangguhan — dua otot, putaran pemulihan, belajar · tumbuh · berkembang">Adaptability and Resilience — two muscles, the recovery loop, learn · grow · thrive</span></li>
+          <li><b>1.2</b><span data-en="Learning Intention — intention versus performance goal, a number and a date" data-id="Niat Belajar — niat versus target kinerja, angka dan tanggal">Learning Intention — intention versus performance goal, a number and a date</span></li>
+          <li><b>1.3</b><span data-en="Foundational Mindset — belief filters, APR, concern versus influence, honest assessment" data-id="Pola Pikir Dasar — filter keyakinan, APR, kepedulian versus pengaruh, penilaian jujur">Foundational Mindset — belief filters, APR, concern versus influence, honest assessment</span></li>
+        </ul>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="10 questions" data-id="10 soal">10 questions</span>
+          <span data-en="Written reflection" data-id="Refleksi tertulis">Written reflection</span>
+          <span data-en="≈ 12 min" data-id="≈ 12 mnt">≈ 12 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-gold" data-en="Start assessment →" data-id="Mulai asesmen →">Start assessment →</button>
+          <button class="asg-link" data-goto-module="1" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <h3 class="assignment-title" data-en="Personal Audit — Strengths, Patterns, and Goals Reflection" data-id="Audit Pribadi — Refleksi Kekuatan, Pola, dan Tujuan">Personal Audit — Strengths, Patterns, and Goals Reflection</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Reflect on your core strengths, your behavioral patterns under pressure, and your career goals for the next two years. This assignment forms the foundation of your Metanoia Career Profile — the personal map that everything else in your career system is built on top of." data-id="Renungkan kekuatan intimu, pola perilakumu di bawah tekanan, dan tujuan kariermu untuk dua tahun ke depan. Tugas ini menjadi fondasi Profil Karier Metanoia-mu — peta pribadi yang menjadi dasar bagi semua hal lain dalam sistem kariermu.">Reflect on your core strengths, your behavioral patterns under pressure, and your career goals for the next two years. This assignment forms the foundation of your Metanoia Career Profile — the personal map that everything else in your career system is built on top of.</p>
-      <div class="assignment-meta">
-        <span data-en="Format: Written reflection (500–700 words)" data-id="Format: Refleksi tertulis (500–700 kata)">Format: Written reflection (500–700 words)</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
+    </article>
+    <article class="assignment-card reveal" data-module="2" data-status="locked" data-num="02">
+      <div class="asg-art" style="--art:url('../../assets/bg/stage-foundation.jpg');--pos:center 40%"><span class="asg-num">02</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 02 · Self-Leadership Foundations" data-id="Modul 02 · Fondasi Kepemimpinan Diri">Module 02 · Self-Leadership Foundations</span>
+          <span class="assignment-status locked" data-en="Locked — complete Module 2 first" data-id="Terkunci — selesaikan dulu Modul 2">Locked — complete Module 2 first</span>
+        </div>
+        <h3 class="assignment-title" data-en="Self-Leadership — Lens, Ownership, Outcome, and Priority" data-id="Kepemimpinan Diri — Lensa, Kepemilikan, Hasil, dan Prioritas">Self-Leadership — Lens, Ownership, Outcome, and Priority</h3>
+        <p class="assignment-desc" data-en="Sixteen questions across the four lessons — principles, paradigms and practices; the stimulus–response gap, proactive language and the Circle of Influence; first and second creation, the mission statement and the 3-year outcome; the Time Matrix, Big Rocks, the graceful no and the moment of choice — then a four-part design page: your paradigm, your ownership sentences, your mission and outcome, and next week’s Big Rocks." data-id="Enam belas soal dari empat pelajaran — prinsip, paradigma, dan praktik; jeda stimulus–respons, bahasa proaktif, dan Lingkaran Pengaruh; penciptaan pertama dan kedua, pernyataan misi, dan hasil 3 tahun; Matriks Waktu, Big Rocks, penolakan santun, dan saat memilih — lalu halaman rancangan empat bagian: paradigmamu, kalimat kepemilikanmu, misi dan hasilmu, serta Big Rocks minggu depan.">Sixteen questions across the four lessons — principles, paradigms and practices; the stimulus–response gap, proactive language and the Circle of Influence; first and second creation, the mission statement and the 3-year outcome; the Time Matrix, Big Rocks, the graceful no and the moment of choice — then a four-part design page: your paradigm, your ownership sentences, your mission and outcome, and next week’s Big Rocks.</p>
+        <ul class="asg-covers">
+          <li><b>2.1</b><span data-en="How Your Lens Shapes Your Results — principles · paradigms · practices, effectiveness over efficiency" data-id="Bagaimana Lensamu Membentuk Hasilmu — prinsip · paradigma · praktik, efektivitas di atas efisiensi">How Your Lens Shapes Your Results — principles · paradigms · practices, effectiveness over efficiency</span></li>
+          <li><b>2.2</b><span data-en="Ownership — the gap, proactive language, Circle of Influence, the habit loop" data-id="Kepemilikan — jeda, bahasa proaktif, Lingkaran Pengaruh, lingkaran kebiasaan">Ownership — the gap, proactive language, Circle of Influence, the habit loop</span></li>
+          <li><b>2.3</b><span data-en="Designing the Outcome First — two creations, mission statement, 3-year outcome" data-id="Merancang Hasil Terlebih Dahulu — dua penciptaan, pernyataan misi, hasil 3 tahun">Designing the Outcome First — two creations, mission statement, 3-year outcome</span></li>
+          <li><b>2.4</b><span data-en="Defending the Important — Time Matrix, Big Rocks, the graceful no, the moment of choice" data-id="Membela yang Penting — Matriks Waktu, Big Rocks, penolakan santun, saat memilih">Defending the Important — Time Matrix, Big Rocks, the graceful no, the moment of choice</span></li>
+        </ul>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="16 questions" data-id="16 soal">16 questions</span>
+          <span data-en="Written reflection" data-id="Refleksi tertulis">Written reflection</span>
+          <span data-en="≈ 15 min" data-id="≈ 15 mnt">≈ 15 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button>
+          <button class="asg-link" data-goto-module="2" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <div class="assignment-footer"><button class="btn-gold" data-en="Start Assignment →" data-id="Mulai Tugas →">Start Assignment →</button></div>
-    </div>
-    <div class="assignment-card reveal" data-module="2" data-status="locked">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 02 · Habits" data-id="Modul 02 · Kebiasaan">Module 02 · Habits</span>
-        <span class="assignment-status locked" data-en="Locked — complete Module 2 first" data-id="Terkunci — selesaikan dulu Modul 2">Locked — complete Module 2 first</span>
+    </article>
+    <article class="assignment-card reveal" data-module="3" data-status="locked" data-num="03">
+      <div class="asg-art" style="--art:url('../../assets/bg/stage-exploration.jpg');--pos:center 45%"><span class="asg-num">03</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 03 · Problem Solving 101" data-id="Modul 03 · Pemecahan Masalah 101">Module 03 · Problem Solving 101</span>
+          <span class="assignment-status locked" data-en="Locked — complete Module 3 first" data-id="Terkunci — selesaikan dulu Modul 3">Locked — complete Module 3 first</span>
+        </div>
+        <h3 class="assignment-title" data-en="Problem Statement and Solution Brief" data-id="Pernyataan Masalah dan Ringkasan Solusi">Problem Statement and Solution Brief</h3>
+        <p class="assignment-desc" data-en="Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module: define the problem precisely, generate at least three distinct solutions, evaluate each against your criteria, and justify your recommended approach." data-id="Pilih satu tantangan nyata yang sedang kamu hadapi — akademis, pribadi, atau profesional — dan terapkan kerangka pemecahan masalah terstruktur dari modul ini: rumuskan masalahnya dengan tepat, hasilkan minimal tiga solusi yang berbeda, nilai masing-masing berdasarkan kriteriamu, lalu jelaskan pendekatan yang kamu rekomendasikan.">Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module: define the problem precisely, generate at least three distinct solutions, evaluate each against your criteria, and justify your recommended approach.</p>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="4 questions" data-id="4 soal">4 questions</span>
+          <span data-en="≈ 6 min" data-id="≈ 6 mnt">≈ 6 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button>
+          <button class="asg-link" data-goto-module="3" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <h3 class="assignment-title" data-en="My Habits — A 30-Day Personal Application Plan" data-id="Kebiasaanku — Rencana Penerapan Pribadi 30 Hari">My Habits — A 30-Day Personal Application Plan</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Identify one core principle from each of the three habits covered in this module and create a concrete 30-day action plan for applying them in your academic or professional life. The plan should include specific, observable daily actions and a simple reflection format for tracking follow-through." data-id="Pilih satu prinsip inti dari masing-masing tiga kebiasaan yang dibahas di modul ini, lalu susun rencana tindakan 30 hari yang konkret untuk menerapkannya dalam kehidupan akademis atau profesionalmu. Rencananya harus memuat tindakan harian yang spesifik dan bisa diamati, serta format refleksi sederhana untuk memantau pelaksanaannya.">Identify one core principle from each of the three habits covered in this module and create a concrete 30-day action plan for applying them in your academic or professional life. The plan should include specific, observable daily actions and a simple reflection format for tracking follow-through.</p>
-      <div class="assignment-meta">
-        <span data-en="Format: Written plan + daily commitment tracker" data-id="Format: Rencana tertulis + pelacak komitmen harian">Format: Written plan + daily commitment tracker</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
+    </article>
+    <article class="assignment-card reveal" data-module="4" data-status="locked" data-num="04">
+      <div class="asg-art" style="--art:url('../../assets/mentoring-session.jpg');--pos:80% 40%"><span class="asg-num">04</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 04 · Communication for Impact" data-id="Modul 04 · Komunikasi yang Berdampak">Module 04 · Communication for Impact</span>
+          <span class="assignment-status locked" data-en="Locked — complete Module 4 first" data-id="Terkunci — selesaikan dulu Modul 4">Locked — complete Module 4 first</span>
+        </div>
+        <h3 class="assignment-title" data-en="Professional Introduction — Communication Check" data-id="Perkenalan Profesional — Uji Komunikasi">Professional Introduction — Communication Check</h3>
+        <p class="assignment-desc" data-en="Introduce yourself for a professional context — an internship interview, a company presentation, or a networking event — applying the communication principles covered in this module: clarity, structure, energy, and professional presence." data-id="Perkenalkan dirimu dalam konteks profesional — wawancara magang, presentasi perusahaan, atau acara networking — dengan menerapkan prinsip komunikasi dari modul ini: kejelasan, struktur, energi, dan wibawa profesional.">Introduce yourself for a professional context — an internship interview, a company presentation, or a networking event — applying the communication principles covered in this module: clarity, structure, energy, and professional presence.</p>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="4 questions" data-id="4 soal">4 questions</span>
+          <span data-en="≈ 6 min" data-id="≈ 6 mnt">≈ 6 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button>
+          <button class="asg-link" data-goto-module="4" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
-    </div>
-    <div class="assignment-card reveal" data-module="3" data-status="locked">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 03 · Problem Solving" data-id="Modul 03 · Pemecahan Masalah">Module 03 · Problem Solving</span>
-        <span class="assignment-status locked" data-en="Locked — complete Module 3 first" data-id="Terkunci — selesaikan dulu Modul 3">Locked — complete Module 3 first</span>
+    </article>
+    <article class="assignment-card reveal" data-module="5" data-status="locked" data-num="05">
+      <div class="asg-art" style="--art:url('../../assets/bg/stage-activation.jpg');--pos:center 40%"><span class="asg-num">05</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 05 · Relationships, Well-Being &amp; Digital" data-id="Modul 05 · Relasi, Kesejahteraan &amp; Digital">Module 05 · Relationships, Well-Being &amp; Digital</span>
+          <span class="assignment-status locked" data-en="Locked — complete Module 5 first" data-id="Terkunci — selesaikan dulu Modul 5">Locked — complete Module 5 first</span>
+        </div>
+        <h3 class="assignment-title" data-en="My Digital Productivity System" data-id="Sistem Produktivitas Digitalku">My Digital Productivity System</h3>
+        <p class="assignment-desc" data-en="Design a personal digital productivity system using tools introduced in this module: what it is designed to achieve, which tools you chose and why, how they work together in your workflow, and how you will maintain and review the system over the next 90 days." data-id="Rancang sistem produktivitas digital pribadimu dengan alat-alat dari modul ini: apa yang ingin dicapai, alat mana yang kamu pilih dan mengapa, bagaimana alat-alat itu bekerja bersama dalam alur kerjamu, dan bagaimana kamu akan merawat serta meninjaunya selama 90 hari ke depan.">Design a personal digital productivity system using tools introduced in this module: what it is designed to achieve, which tools you chose and why, how they work together in your workflow, and how you will maintain and review the system over the next 90 days.</p>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="4 questions" data-id="4 soal">4 questions</span>
+          <span data-en="≈ 6 min" data-id="≈ 6 mnt">≈ 6 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button>
+          <button class="asg-link" data-goto-module="5" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <h3 class="assignment-title" data-en="Problem Statement and Solution Brief" data-id="Pernyataan Masalah dan Ringkasan Solusi">Problem Statement and Solution Brief</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module. Define the problem precisely using the provided template, generate at least three distinct solutions, evaluate each against your criteria, and select and clearly justify your recommended approach." data-id="Pilih satu tantangan nyata yang sedang kamu hadapi — akademis, pribadi, atau profesional — dan terapkan kerangka pemecahan masalah terstruktur dari modul ini. Rumuskan masalahnya dengan tepat memakai templat yang disediakan, hasilkan minimal tiga solusi yang berbeda, nilai masing-masing berdasarkan kriteriamu, lalu pilih dan jelaskan dengan jernih pendekatan yang kamu rekomendasikan.">Select a real challenge you are currently facing — academic, personal, or professional — and apply the structured problem-solving framework from this module. Define the problem precisely using the provided template, generate at least three distinct solutions, evaluate each against your criteria, and select and clearly justify your recommended approach.</p>
-      <div class="assignment-meta">
-        <span data-en="Format: Structured brief (400–600 words) following the module framework template" data-id="Format: Ringkasan terstruktur (400–600 kata) mengikuti templat kerangka modul">Format: Structured brief (400–600 words) following the module framework template</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
+    </article>
+    <article class="assignment-card reveal" data-module="6" data-status="locked" data-num="06">
+      <div class="asg-art" style="--art:url('../../assets/bg/gauntlet/gate-03-assessment.jpg');--pos:center 30%"><span class="asg-num">06</span></div>
+      <div class="asg-body">
+        <div class="assignment-header">
+          <span class="gold-pill" data-en="Module 06 · Virtual Job Simulations" data-id="Modul 06 · Simulasi Kerja Virtual">Module 06 · Virtual Job Simulations</span>
+          <span class="assignment-status locked" data-en="Locked — complete Module 6 first" data-id="Terkunci — selesaikan dulu Modul 6">Locked — complete Module 6 first</span>
+        </div>
+        <h3 class="assignment-title" data-en="Virtual Job Simulation — Reflection Report" data-id="Simulasi Kerja Virtual — Laporan Refleksi">Virtual Job Simulation — Reflection Report</h3>
+        <p class="assignment-desc" data-en="Complete one full virtual job simulation from your chosen industry track and reflect on it: what the simulation required, how you performed against the stated criteria, what you learned about the industry, the role and your own readiness, and what you would do differently in a real application process." data-id="Selesaikan satu simulasi kerja virtual secara utuh dari jalur industri pilihanmu dan refleksikan: apa yang dituntut simulasi itu, bagaimana kinerjamu terhadap kriteria yang ditetapkan, apa yang kamu pelajari tentang industrinya, perannya, dan kesiapanmu sendiri, serta apa yang akan kamu lakukan berbeda dalam proses lamaran sungguhan.">Complete one full virtual job simulation from your chosen industry track and reflect on it: what the simulation required, how you performed against the stated criteria, what you learned about the industry, the role and your own readiness, and what you would do differently in a real application process.</p>
+        <div class="track-select">
+          <span class="ts-label" data-en="Choose your industry track:" data-id="Pilih jalur industrimu:">Choose your industry track:</span>
+          <div class="track-radios"><label class="track-radio"><input type="radio" name="sim-track" value="Accounting"><span data-en="Accounting" data-id="Akuntansi">Accounting</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Banking &amp; Financial Services"><span data-en="Banking &amp; Financial Services" data-id="Perbankan &amp; Jasa Keuangan">Banking &amp; Financial Services</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Consulting &amp; Professional Services"><span data-en="Consulting &amp; Professional Services" data-id="Konsultansi &amp; Jasa Profesional">Consulting &amp; Professional Services</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Law"><span data-en="Law" data-id="Hukum">Law</span></label><label class="track-radio"><input type="radio" name="sim-track" value="FMCG"><span data-en="FMCG" data-id="FMCG">FMCG</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Technology"><span data-en="Technology" data-id="Teknologi">Technology</span></label></div>
+        </div>
+        <div class="assignment-meta asg-chips" data-asg-chips>
+          <span data-en="4 questions" data-id="4 soal">4 questions</span>
+          <span data-en="Written reflection" data-id="Refleksi tertulis">Written reflection</span>
+          <span data-en="≈ 8 min" data-id="≈ 8 mnt">≈ 8 min</span>
+          <span data-en="100 pts" data-id="100 poin">100 pts</span>
+        </div>
+        <div class="assignment-footer">
+          <button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button>
+          <button class="asg-link" data-goto-module="6" data-en="Review the lessons" data-id="Tinjau pelajarannya">Review the lessons</button>
+        </div>
       </div>
-      <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
-    </div>
-    <div class="assignment-card reveal" data-module="4" data-status="locked">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 04 · Communication" data-id="Modul 04 · Komunikasi">Module 04 · Communication</span>
-        <span class="assignment-status locked" data-en="Locked — complete Module 4 first" data-id="Terkunci — selesaikan dulu Modul 4">Locked — complete Module 4 first</span>
-      </div>
-      <h3 class="assignment-title" data-en="Professional Introduction — Video Assessment" data-id="Perkenalan Profesional — Penilaian Video">Professional Introduction — Video Assessment</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Record a 3-minute video introducing yourself for a professional context — an internship interview, a company presentation, or a networking event. Your introduction should demonstrate the communication principles covered in this module: clarity, structure, energy, and professional presence. After recording, self-assess your performance using the communication rubric provided in the module before submitting." data-id="Rekam video 3 menit untuk memperkenalkan dirimu dalam konteks profesional — wawancara magang, presentasi perusahaan, atau acara networking. Perkenalanmu harus menunjukkan prinsip-prinsip komunikasi dari modul ini: kejelasan, struktur, energi, dan wibawa profesional. Setelah merekam, nilai sendiri penampilanmu dengan rubrik komunikasi yang ada di modul sebelum mengumpulkannya.">Record a 3-minute video introducing yourself for a professional context — an internship interview, a company presentation, or a networking event. Your introduction should demonstrate the communication principles covered in this module: clarity, structure, energy, and professional presence. After recording, self-assess your performance using the communication rubric provided in the module before submitting.</p>
-      <div class="assignment-meta">
-        <span data-en="Format: Video submission (3 minutes) + self-assessment form" data-id="Format: Video (3 menit) + formulir penilaian diri">Format: Video submission (3 minutes) + self-assessment form</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
-      </div>
-      <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
-    </div>
-    <div class="assignment-card reveal" data-module="5" data-status="locked">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 05 · Well-Being &amp; Digital" data-id="Modul 05 · Kesejahteraan &amp; Digital">Module 05 · Well-Being &amp; Digital</span>
-        <span class="assignment-status locked" data-en="Locked — complete Module 5 first" data-id="Terkunci — selesaikan dulu Modul 5">Locked — complete Module 5 first</span>
-      </div>
-      <h3 class="assignment-title" data-en="My Digital Productivity System" data-id="Sistem Produktivitas Digitalku">My Digital Productivity System</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Design and document a personal digital productivity system using at least three tools introduced in this module. Submit a one-page system overview that explains: what your system is designed to achieve, which tools you chose and why, how the tools work together within your workflow, and how you plan to maintain and review the system over the next 90 days." data-id="Rancang dan dokumentasikan sistem produktivitas digital pribadimu dengan minimal tiga alat yang diperkenalkan di modul ini. Kumpulkan gambaran sistem satu halaman yang menjelaskan: apa yang ingin dicapai sistemmu, alat mana yang kamu pilih dan mengapa, bagaimana alat-alat itu saling bekerja dalam alur kerjamu, dan bagaimana rencanamu merawat serta meninjau sistem ini selama 90 hari ke depan.">Design and document a personal digital productivity system using at least three tools introduced in this module. Submit a one-page system overview that explains: what your system is designed to achieve, which tools you chose and why, how the tools work together within your workflow, and how you plan to maintain and review the system over the next 90 days.</p>
-      <div class="assignment-meta">
-        <span data-en="Format: One-page system design with tool screenshots" data-id="Format: Rancangan sistem satu halaman dengan tangkapan layar alatnya">Format: One-page system design with tool screenshots</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
-      </div>
-      <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
-    </div>
-    <div class="assignment-card reveal" data-module="6" data-status="locked">
-      <div class="assignment-header">
-        <span class="gold-pill" data-en="Module 06 · Career Simulation" data-id="Modul 06 · Simulasi Karier">Module 06 · Career Simulation</span>
-        <span class="assignment-status locked" data-en="Locked — complete Module 6 first" data-id="Terkunci — selesaikan dulu Modul 6">Locked — complete Module 6 first</span>
-      </div>
-      <h3 class="assignment-title" data-en="Virtual Job Simulation — Reflection Report" data-id="Simulasi Kerja Virtual — Laporan Refleksi">Virtual Job Simulation — Reflection Report</h3>
-      <span class="asg-brief-lbl" data-en="Assignment Brief" data-id="Ringkasan Tugas">Assignment Brief</span>
-      <p class="assignment-desc" data-en="Complete one full virtual job simulation from your chosen industry track and write a structured reflection report. Your report should cover four sections: (1) what the simulation required and how it was structured; (2) how you performed against the stated evaluation criteria; (3) what you learned about the industry, the role, and your own professional readiness; and (4) what you would approach differently in a real application process." data-id="Selesaikan satu simulasi kerja virtual secara utuh dari jalur industri pilihanmu, lalu tulis laporan refleksi yang terstruktur. Laporanmu harus mencakup empat bagian: (1) apa yang dituntut simulasi itu dan bagaimana strukturnya; (2) bagaimana kinerjamu terhadap kriteria penilaian yang ditetapkan; (3) apa yang kamu pelajari tentang industrinya, perannya, dan kesiapan profesionalmu sendiri; dan (4) apa yang akan kamu lakukan secara berbeda dalam proses lamaran yang sesungguhnya.">Complete one full virtual job simulation from your chosen industry track and write a structured reflection report. Your report should cover four sections: (1) what the simulation required and how it was structured; (2) how you performed against the stated evaluation criteria; (3) what you learned about the industry, the role, and your own professional readiness; and (4) what you would approach differently in a real application process.</p>
-      <div class="track-select">
-        <span class="ts-label" data-en="Choose your industry track:" data-id="Pilih jalur industrimu:">Choose your industry track:</span>
-        <div class="track-radios"><label class="track-radio"><input type="radio" name="sim-track" value="Accounting"><span data-en="Accounting" data-id="Akuntansi">Accounting</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Banking &amp; Financial Services"><span data-en="Banking &amp; Financial Services" data-id="Perbankan &amp; Jasa Keuangan">Banking &amp; Financial Services</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Consulting &amp; Professional Services"><span data-en="Consulting &amp; Professional Services" data-id="Konsultansi &amp; Jasa Profesional">Consulting &amp; Professional Services</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Law"><span data-en="Law" data-id="Hukum">Law</span></label><label class="track-radio"><input type="radio" name="sim-track" value="FMCG"><span data-en="FMCG" data-id="FMCG">FMCG</span></label><label class="track-radio"><input type="radio" name="sim-track" value="Technology"><span data-en="Technology" data-id="Teknologi">Technology</span></label></div>
-      </div>
-      <div class="assignment-meta">
-        <span data-en="Format: Structured reflection (600–800 words) following the provided template" data-id="Format: Refleksi terstruktur (600–800 kata) mengikuti templat yang disediakan">Format: Structured reflection (600–800 words) following the provided template</span>
-        <span data-en="100 pts" data-id="100 poin">100 pts</span>
-        <span data-en="Self-paced" data-id="Sesuai ritmemu">Self-paced</span>
-      </div>
-      <div class="assignment-footer"><button class="btn-disabled" disabled data-en="Locked" data-id="Terkunci">Locked</button></div>
-    </div>
-      <p class="filter-empty" data-en="No assignments in this state yet." data-id="Belum ada tugas dengan status ini.">No assignments in this state yet.</p>
+    </article>
+      <p class="filter-empty" data-en="No assessments in this state yet." data-id="Belum ada asesmen dengan status ini.">No assessments in this state yet.</p>
       <div class="glass-card points-card">
-        <p data-en="<b>Total Possible Score: 600 points across 6 assignments.</b>" data-id="&lt;b&gt;Skor maksimal: 600 poin dari 6 tugas.&lt;/b&gt;"><b>Total Possible Score: 600 points across 6 assignments.</b></p>
+        <p data-en="<b>600 points across 6 assessments.</b> Your best multiple-choice score counts for each; reflections are yours and are never machine-graded. Everything is computed on this device and stored only in this browser." data-id="&lt;b&gt;600 poin dari 6 asesmen.&lt;/b&gt; Skor pilihan ganda terbaikmu yang dihitung untuk masing-masing; refleksi adalah milikmu dan tak pernah dinilai mesin. Semuanya dihitung di perangkat ini dan tersimpan hanya di peramban ini."><b>600 points across 6 assessments.</b> Your best multiple-choice score counts for each; reflections are yours and are never machine-graded. Everything is computed on this device and stored only in this browser.</p>
       </div>
     </section>
 
@@ -1323,14 +1416,14 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         <div class="tb-inner">
           <span class="tb-kicker" data-en="Performance" data-id="Kinerja">Performance</span>
           <h2 data-en="Your Grades" data-id="Nilaimu">Your Grades</h2>
-          <p class="tab-sub" data-en="Performance across all The Map assignments" data-id="Kinerjamu di seluruh tugas The Map">Performance across all The Map assignments</p>
+          <p class="tab-sub" data-en="Your best score on each of the six module assessments" data-id="Skor terbaikmu di masing-masing enam asesmen modul">Your best score on each of the six module assessments</p>
         </div>
       </div>
       <div class="glass-card overall-card reveal">
         <span class="ov-label" data-en="Overall Score" data-id="Skor Keseluruhan">Overall Score</span>
         <div class="ov-score">0 <span class="sl">/</span> <span class="den">600</span></div>
         <div class="ov-bar"><i style="--grade-pct:0%"></i></div>
-        <p class="ov-note" data-en="Complete Module 1, submit your first assignment, and run its self-review to see progress here." data-id="Selesaikan Modul 1, kumpulkan tugas pertamamu, dan jalankan tinjauan mandirinya untuk melihat kemajuanmu di sini.">Complete Module 1, submit your first assignment, and run its self-review to see progress here.</p>
+        <p class="ov-note" data-en="Complete Module 1 and its assessment to see your first score here." data-id="Selesaikan Modul 1 dan asesmennya untuk melihat skor pertamamu di sini.">Complete Module 1 and its assessment to see your first score here.</p>
       </div>
       <div class="grade-table reveal">
         <div class="grade-hrow">
@@ -1343,15 +1436,15 @@ button[data-lang],#langEn,#langId{display:inline-flex;align-items:center;gap:7px
         </div>
       <div class="grade-row">
         <span class="gr-num">01</span>
-        <span class="gr-name" data-en="Personal Audit Reflection" data-id="Refleksi Audit Pribadi">Personal Audit Reflection</span>
+        <span class="gr-name" data-en="Personal Audit — Recovery Loop, Learning Intention, Mindset" data-id="Audit Pribadi — Putaran Pemulihan, Niat Belajar, Pola Pikir">Personal Audit — Recovery Loop, Learning Intention, Mindset</span>
         <span class="gr-mod" data-en="Module 1" data-id="Modul 1">Module 1</span>
-        <span class="grade-status notsub" data-en="Not Submitted" data-id="Belum Dikumpulkan">Not Submitted</span>
+        <span class="grade-status notsub" data-en="Not started" data-id="Belum dimulai">Not started</span>
         <span class="gr-grade">—</span>
         <span class="gr-max">100</span>
       </div>
       <div class="grade-row">
         <span class="gr-num">02</span>
-        <span class="gr-name" data-en="30-Day Habits Plan" data-id="Rencana Kebiasaan 30 Hari">30-Day Habits Plan</span>
+        <span class="gr-name" data-en="Self-Leadership — Lens, Ownership, Outcome, Priority" data-id="Kepemimpinan Diri — Lensa, Kepemilikan, Hasil, Prioritas">Self-Leadership — Lens, Ownership, Outcome, Priority</span>
         <span class="gr-mod" data-en="Module 2" data-id="Modul 2">Module 2</span>
         <span class="grade-status locked" data-en="Locked" data-id="Terkunci">Locked</span>
         <span class="gr-grade">—</span>
@@ -1572,7 +1665,7 @@ if (isDemoMode) {
     const btn = card.querySelector('.btn-disabled');
     if (btn) {
       btn.disabled = false; btn.className = 'btn-gold';
-      btn.dataset.en = 'Start Assignment →'; btn.dataset.id = 'Mulai Tugas →'; btn.textContent = 'Start Assignment →';
+      btn.dataset.en = 'Start assessment →'; btn.dataset.id = 'Mulai asesmen →'; btn.textContent = 'Start assessment →';
     }
   });
   document.querySelectorAll('.syl-card .btn-disabled').forEach(btn => {
@@ -1769,30 +1862,11 @@ expandModule(document.querySelector('.module-accordion[data-module="1"]'));
     .lesson-icon svg{width:14px;height:14px}
   }
 
-  /* ── Assignments: mission-brief cards ── */
-  .filter-row{gap:9px;margin-bottom:26px}
-  .filter-pill{padding:8px 18px;font-size:12.5px}
-  .filter-pill[data-count]::after{content:attr(data-count);margin-left:7px;font-size:10px;font-weight:800;opacity:.55}
-  .assignment-card{position:relative;padding:28px 30px;border-radius:16px;border-left:3px solid transparent;
-    box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
-  .assignment-card[data-status="available"]{border-left-color:var(--gold)}
-  .assignment-card::after{content:attr(data-num);position:absolute;right:24px;bottom:6px;font-family:var(--serif);
-    font-style:italic;font-size:5rem;line-height:1;color:rgba(201,168,76,.06);pointer-events:none;user-select:none}
-  .assignment-title{font-family:var(--serif);font-weight:600;font-size:18.5px}
-  .asg-brief-lbl{display:block;font-size:.64rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--text-faint);margin:10px 0 6px}
-  .assignment-desc{max-width:72ch}
-  .assignment-meta{margin:16px 0 18px}
-  .assignment-meta span{padding:5px 13px;background:rgba(201,168,76,.04)}
-  .assignment-meta span:nth-of-type(2){color:var(--gold);border-color:rgba(201,168,76,.45);font-weight:700}
-
   /* ── Light theme adjustments ── */
-  :root[data-theme="light"] .syl-card::after,
-  :root[data-theme="light"] .assignment-card::after{color:rgba(107,82,16,.09)}
+  :root[data-theme="light"] .syl-card::after{color:rgba(107,82,16,.09)}
   :root[data-theme="light"] .syl-card::before{background:#EEF1F6}
   :root[data-theme="light"] .syl-card:has(.module-status.available)::before{background:var(--gold)}
-  :root[data-theme="light"] .syl-card,
-  :root[data-theme="light"] .assignment-card{box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+  :root[data-theme="light"] .syl-card{box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
   :root[data-theme="light"] .module-accordion[aria-expanded="true"] .module-header{
     background:linear-gradient(180deg,rgba(138,106,20,.10),var(--glass-bg))}
   :root[data-theme="light"] .tab-banner{box-shadow:0 22px 50px rgba(27,36,52,.25)}
