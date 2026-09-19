@@ -2662,6 +2662,63 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "The Moment of Choice — Material",
+        "id": "Saatnya Memilih — Materi"
+       },
+       "intro": {
+        "en": "After the films, four slides close the sequence: what happens when the week you planned meets the pressures of the moment, a scenario to test yourself on, a worked example of protecting a Big Rock, and the summary of the private victory. Read them, then continue to Exhibit 1 below.",
+        "id": "Setelah film, empat slide menutup rangkaian ini: apa yang terjadi ketika minggu yang Anda rencanakan bertemu tekanan di saat itu, sebuah skenario untuk menguji diri Anda, contoh nyata melindungi sebuah Big Rock, dan ringkasan kemenangan pribadi. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+       },
+       "base": "../../assets/lms/the-map/slides/moment-of-choice-",
+       "slides": [
+        {
+         "title": {
+          "en": "The moment of choice",
+          "id": "Saatnya memilih"
+         },
+         "text": {
+          "en": "Lesson 3. After your weekly planning, you are now prepared to tackle the coming week with purpose and conviction. But what about all the things that inevitably crop up daily that you couldn’t foresee or plan for? Stay true in the moment of choice. Common practice: give in to the pressures of the moment. Highly effective practice: stay true in the moment of choice. Pressure of the moment — unexpected requests, urgent emails, last-minute issues, daily distractions — leads to a reactive today. Purpose and conviction — focused work, meaningful progress, what truly matters — lead to a brighter tomorrow. “You will only be able to say no to the popularity of Quadrant 3 if you have a bigger ‘yes’ burning inside.”",
+          "id": "Pelajaran 3. Setelah Anda melakukan perencanaan mingguan, kini Anda siap menghadapi minggu yang akan datang dengan tujuan dan keyakinan. Namun, bagaimana dengan semua hal yang tak terduga dan pasti muncul setiap hari, yang tidak bisa Anda prediksi atau rencanakan? Tetap setia pada nilai Anda di saat memilih. Kebiasaan umum: menyerah pada tekanan di saat itu. Kebiasaan yang sangat efektif: tetap setia pada nilai Anda di saat memilih. Tekanan di saat itu — permintaan tak terduga, email mendesak, masalah mendadak, gangguan sehari-hari — berujung pada hari ini yang reaktif. Tujuan dan keyakinan — fokus pada hal yang penting, kemajuan yang bermakna, hal yang sebenarnya penting — berujung pada masa depan yang lebih baik. “Anda hanya dapat mengatakan tidak pada daya tarik Kuadran 3, jika Anda memiliki ‘ya’ yang lebih besar yang menyala di dalam diri Anda.”"
+         }
+        },
+        {
+         "title": {
+          "en": "Staying true: a scenario",
+          "id": "Tetap setia: sebuah skenario"
+         },
+         "text": {
+          "en": "Habit 3 in action. When urgencies and distractions arise, use Habit 3 concepts and practices to stay true in the moment of choice. Learning objective: consider the following scenario, and see if you can identify: 1 What is the Big Rock? 2 What are the Quadrant 3 (Q3) distractions? 3 Will there be any Quadrant 1 (Q1) necessities? Scenario: you promised your family you’d be at tonight’s family dinner. As you’re leaving work, a colleague from another team asks you about organizing a team-building event for next month. Also, your boss sends you a message asking you to respond to a serious issue with an unhappy client. Questions for you — identify based on the scenario above: What is the Big Rock (what matters most in this situation)? What are the Quadrant 3 distractions (which items are important but not truly a top priority)? Will there be any Quadrant 1 necessities (any urgent and truly critical matters that need immediate attention)? “Staying true to what matters requires the courage to say no to what is good, so you can say yes to what is best.” — Stephen R. Covey",
+          "id": "Habit 3 dalam praktik. Ketika urgensi dan distraksi muncul, gunakan konsep dan praktik Habit 3 untuk tetap setia pada pilihan Anda yang paling penting. Tujuan latihan ini: pertimbangkan skenario berikut, dan lihat apakah Anda dapat mengidentifikasi: 1 Apa yang merupakan Big Rock? 2 Apa saja distraksi Kuadran 3 (Q3)? 3 Apakah ada kebutuhan Kuadran 1 (Q1)? Contoh skenario: Anda telah berjanji pada keluarga bahwa malam ini Anda akan makan malam bersama. Saat Anda meninggalkan kantor, seorang rekan dari tim lain meminta bantuan untuk mengorganisasi acara team-building bulan depan. Selain itu, atasan Anda mengirim pesan yang meminta Anda untuk menanggapi isu serius terkait klien yang tidak puas. Pertanyaan untuk Anda — identifikasi berdasarkan skenario di atas: Apa yang merupakan Big Rock (apa hal yang paling penting dalam situasi ini)? Apa saja distraksi Kuadran 3 (hal apa yang terlihat penting, namun sebenarnya bukan prioritas utama)? Apakah ada kebutuhan Kuadran 1 (apakah ada hal yang benar-benar mendesak dan perlu segera ditangani)? “Tetap setia pada hal yang penting memerlukan keberanian untuk mengatakan tidak pada hal yang baik, demi hal yang terbaik.” — Stephen R. Covey"
+         }
+        },
+        {
+         "title": {
+          "en": "Big Rock: dinner with family",
+          "id": "Big Rock: makan malam bersama keluarga"
+         },
+         "text": {
+          "en": "Real-life example. Staying true means protecting what matters most, even when unexpected demands arise. Big Rock — dinner with family: you promised your family you’d be at tonight’s family dinner. This is an important commitment that supports your relationships and well-being. Quadrant 3 distractions: a colleague from another team asks you to help organize a team-building event for next month. While it may be good to plan company events, the timing of this request makes this a Q3. It can wait. Quadrant 1 necessity: a client problem could be a Q1 and require you to respond in a thoughtful way. It is urgent and important, but you can still address it without disregarding your Big Rock. Possible course of action: 1 Communicate proactively with your colleague — to ensure you keep first things first, tell your colleague you are happy to help plan in a few days. 2 Address the client issue thoughtfully — contact your boss and talk through a draft email that will help the client know they are heard, prepare you to respond in more detail tomorrow, and still get home for the family dinner. “Protect your Big Rocks, so you can build the life you truly want.” Stronger relationships, greater well-being, higher performance.",
+          "id": "Contoh kehidupan nyata. Tetap setia pada hal yang paling penting, bahkan ketika muncul tuntutan yang tidak terduga. Big Rock — makan malam bersama keluarga: Anda telah berjanji kepada keluarga bahwa Anda akan makan malam bersama mereka hari ini. Ini adalah komitmen penting yang mendukung hubungan Anda dan kesejahteraan keluarga. Distraksi Kuadran 3: seorang rekan dari tim lain meminta Anda membantu mengorganisir acara team-building untuk bulan depan. Meskipun hal ini mungkin baik untuk direncanakan, waktu permintaan ini menjadikannya Kuadran 3. Ini bisa ditunda. Kebutuhan Kuadran 1: masalah dari klien dapat termasuk Kuadran 1 dan memerlukan respons Anda dengan cara yang bijaksana. Hal ini bersifat mendesak dan penting, namun masih dapat ditangani tanpa mengabaikan Big Rock Anda. Langkah yang dapat dilakukan: 1 Komunikasikan secara proaktif dengan rekan kerja — untuk memastikan Anda tetap memprioritaskan hal yang paling penting, sampaikan kepada rekan kerja bahwa Anda dengan senang hati membantu merencanakan acara dalam beberapa hari ke depan. 2 Menangani isu klien dengan bijaksana — hubungi atasan Anda dan diskusikan melalui draf email yang akan membantu klien merasa didengar, siapkan respons yang lebih detail untuk esok hari, dan tetap pulang tepat waktu untuk makan malam bersama keluarga. “Lindungi Big Rock Anda, agar Anda dapat membangun kehidupan yang benar-benar Anda inginkan.” Hubungan yang lebih kuat, kesejahteraan yang lebih baik, kinerja yang lebih tinggi."
+         }
+        },
+        {
+         "title": {
+          "en": "The private victory",
+          "id": "Kemenangan pribadi yang sejati"
+         },
+         "text": {
+          "en": "Self-mastery today, a more independent tomorrow. “The main thing is to keep the main thing the main thing.” — Stephen R. Covey. Habits 1, 2, and 3 are the habits of the Private Victory, the victory of self-mastery that results in independence. The Private Victory is a necessary foundation for the Public Victory, which is about interpersonal effectiveness and results in interdependence, a higher level of maturity. Key summary: Q3 distractions and Q1 urgencies inevitably challenge weekly-planning priorities. Staying true in the moment of choice allows us to accomplish our most important priorities. Greater self-mastery, more independence, a stronger tomorrow.",
+          "id": "Menguasai diri hari ini, menuju masa depan yang lebih mandiri. “Hal yang paling utama adalah menjadikan hal yang paling utama tetap sebagai hal yang paling utama.” — Stephen R. Covey. Kebiasaan 1, 2, dan 3 adalah kebiasaan dalam Kemenangan Pribadi, yaitu kemenangan atas diri sendiri yang menghasilkan kemandirian. Kemenangan Pribadi merupakan fondasi yang diperlukan untuk mencapai Kemenangan Publik, yang berfokus pada efektivitas dalam hubungan dengan orang lain dan menghasilkan saling ketergantungan, yaitu tingkat kedewasaan yang lebih tinggi. Ringkasan utama: distraksi Kuadran 3 dan urgensi Kuadran 1 secara tidak terhindarkan menantang prioritas dalam perencanaan mingguan. Tetap setia pada nilai dan tujuan utama di saat membuat pilihan memungkinkan kita untuk mencapai prioritas yang paling penting. Penguasaan diri yang lebih baik, kemandirian yang lebih besar, masa depan yang lebih kuat."
+         }
+        }
+       ]
       }
      ],
      "youtube": [
@@ -2709,8 +2766,8 @@ window.MT_LMS['the-map'] = {
         "id": "Prioritas Utama Anda — Film 2"
        },
        "intro": {
-        "en": "A second short film to close the slides: from Big Rocks to the weekly plan that protects them. As you watch, decide when in the coming week you will sit down to plan, and where your Big Rocks will go. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to Exhibit 1 below.",
-        "id": "Film singkat kedua untuk menutup rangkaian slide: dari Big Rocks ke rencana mingguan yang melindunginya. Sambil menonton, putuskan kapan dalam minggu mendatang Anda akan duduk untuk merencanakan, dan di mana Big Rocks Anda akan ditempatkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "A second short film to close the slides: from Big Rocks to the weekly plan that protects them. As you watch, decide when in the coming week you will sit down to plan, and where your Big Rocks will go. Subtitles are available in English and Bahasa Indonesia where YouTube provides them. When it ends, continue to the slides that follow.",
+        "id": "Film singkat kedua untuk menutup rangkaian slide: dari Big Rocks ke rencana mingguan yang melindunginya. Sambil menonton, putuskan kapan dalam minggu mendatang Anda akan duduk untuk merencanakan, dan di mana Big Rocks Anda akan ditempatkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia bila disediakan oleh YouTube. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        }
       }
      ],
