@@ -1113,6 +1113,10 @@
     target: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
     chat: '<path d="M20 12a8 8 0 1 0-3.1 6.3L21 20l-1.3-3.6A7.9 7.9 0 0 0 20 12Z"/>',
     flag: '<path d="M5 21V4"/><path d="M5 5h11l-2.2 3.2L16 11.5H5"/>',
+    briefcase: '<rect x="3" y="7.5" width="18" height="12.5" rx="2"/><path d="M9 7.5V5.5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5.5v2"/><path d="M3 12.5h18"/>',
+    compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 5.3-5.3 2.2 2.2-5.3Z"/>',
+    users: '<circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19.5a5.5 5.5 0 0 1 11 0"/><path d="M16 5.6a3.2 3.2 0 0 1 0 5.8"/><path d="M17 14.3a5.5 5.5 0 0 1 3.5 5.2"/>',
+    chart: '<path d="M4 20h16"/><path d="M7 16v-5M12 16V7M17 16v-3"/>',
     gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/>'
   };
   function iconSvg(name, size) {
@@ -1341,6 +1345,256 @@
       document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: t.id, mode: t.mode || 'home', lesson: l.n } }));
     });
     box.appendChild(b);
+    host.appendChild(box);
+  }
+
+  /* ── Module 6 blocks: external simulation directory + the simulation log ──
+     forage: { lead:{en,id}, picks:[{ id, fit:{en,id} }], directory?:true }
+       Cards come from data/lms/forage.js (window.MT_LMS_FORAGE). A pick names
+       a programme by id and says why it fits this track; `directory` renders
+       the whole catalogue with track / function filters and search. Every
+       card links to the public catalogue and offers a copyable search term —
+       deep links are only used when the data carries a confirmed `url`.
+     simlog: { track:'accounting' } | { full:true }
+       The three-question debrief (energy · competence trajectory · curiosity,
+       1–5) saved per track in localStorage; `full` shows the ranked log for
+       every track plus external simulations the member ran on their own. */
+  var SIMLOG_KEY = 'mt-lms-simlog:' + slug;
+  function simlogRead() { try { return JSON.parse(localStorage.getItem(SIMLOG_KEY) || '{}') || {}; } catch (e) { return {}; } }
+  function simlogWrite(d) { try { localStorage.setItem(SIMLOG_KEY, JSON.stringify(d)); } catch (e) {} }
+  var SIMLOG_Q = [
+    { k: 'e', h: { en: 'Energy', id: 'Energi' }, sub: { en: 'Did the time pass quickly (5) or crawl (1)?', id: 'Apakah waktunya terasa cepat berlalu (5) atau merangkak (1)?' } },
+    { k: 'c', h: { en: 'Competence trajectory', id: 'Arah kompetensi' }, sub: { en: 'Did you improve within the session, and want to?', id: 'Apakah kamu membaik selama sesi, dan ingin membaik?' } },
+    { k: 'k', h: { en: 'Curiosity', id: 'Rasa ingin tahu' }, sub: { en: 'Would you do a harder version of a task tomorrow?', id: 'Maukah kamu mengerjakan versi lebih sulit dari tugasnya besok?' } }
+  ];
+  function forageData() { return window.MT_LMS_FORAGE || null; }
+  function forageSearchTerm(it) { return it.company + ' ' + it.title; }
+  function forageCard(it, fit, F) {
+    var card = el('article', 'lms-fg-card');
+    var head = el('div', 'fg-head');
+    head.appendChild(el('span', 'fg-co', it.company));
+    head.appendChild(bi('span', 'fg-fn', F.functions[it.fn] || { en: it.fn, id: it.fn }));
+    card.appendChild(head);
+    card.appendChild(el('h4', 'fg-title', it.title));
+    card.appendChild(bi('p', 'fg-what', it.what));
+    if (fit) {
+      var f = el('p', 'fg-fit');
+      f.appendChild(bi('b', null, { en: 'Why it fits this track', id: 'Mengapa cocok untuk jalur ini' }));
+      f.appendChild(bi('span', null, fit));
+      card.appendChild(f);
+    }
+    var tr = el('div', 'fg-tracks');
+    (it.tracks || []).forEach(function (t) {
+      var tk = F.tracks[t]; if (!tk) return;
+      var b = bi('button', 'fg-track', { en: tk.n + ' · ' + tk.label.en, id: tk.n + ' · ' + tk.label.id });
+      b.type = 'button';
+      b.addEventListener('click', function () { if (window.MT_LMS_PLAYER && window.MT_LMS_PLAYER.open) window.MT_LMS_PLAYER.open(tk.n); });
+      tr.appendChild(b);
+    });
+    card.appendChild(tr);
+    var act = el('div', 'fg-act');
+    var a = el('a', 'lms-complete fg-go');
+    a.href = it.url || F.catalogue; a.target = '_blank'; a.rel = 'noopener';
+    a.appendChild(bi('span', null, it.url ? { en: 'Open on The Forage ↗', id: 'Buka di The Forage ↗' } : { en: 'Find on The Forage ↗', id: 'Cari di The Forage ↗' }));
+    act.appendChild(a);
+    var cp = el('button', 'fg-copy'); cp.type = 'button';
+    var term = forageSearchTerm(it);
+    cp.appendChild(bi('span', null, { en: 'Copy search term', id: 'Salin kata kunci' }));
+    cp.title = term;
+    cp.addEventListener('click', function () {
+      var done = function () { cp.classList.add('ok'); cp.querySelector('span').textContent = lang() === 'id' ? 'Tersalin: “' + term + '”' : 'Copied: “' + term + '”'; setTimeout(function () { cp.classList.remove('ok'); cp.querySelector('span').textContent = lang() === 'id' ? 'Salin kata kunci' : 'Copy search term'; }, 2600); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(term).then(done, done); else done();
+    });
+    act.appendChild(cp);
+    card.appendChild(act);
+    return card;
+  }
+  function renderForage(l, host) {
+    var fg = l.forage, F = forageData();
+    if (!fg || !F) return;
+    var box = el('div', 'lms-panel lms-forage' + (fg.directory ? ' lms-fg-dir' : ''));
+    box.appendChild(bi('h3', null, fg.directory ? { en: 'Simulation directory · The Forage', id: 'Direktori simulasi · The Forage' } : { en: 'Go further · Simulations on The Forage', id: 'Lebih jauh · Simulasi di The Forage' }));
+    box.appendChild(bi('p', 'fg-lead', fg.lead || {
+      en: 'Employer-designed simulations on The Forage are free, self-paced and end with a certificate of completion. Run one after this track: it is the same work, set by the company itself.',
+      id: 'Simulasi rancangan perusahaan di The Forage gratis, bisa dikerjakan dengan tempo sendiri, dan diakhiri sertifikat penyelesaian. Kerjakan satu setelah jalur ini: pekerjaannya sama, ditetapkan langsung oleh perusahaannya.'
+    }));
+    var grid = el('div', 'fg-grid');
+    if (fg.directory) {
+      var bar = el('div', 'fg-bar');
+      var q = el('input', 'fg-q'); q.type = 'search'; q.setAttribute('aria-label', 'Search programmes');
+      q.placeholder = lang() === 'id' ? 'Cari perusahaan atau program…' : 'Search company or programme…';
+      var selT = el('select', 'fg-sel'); selT.setAttribute('aria-label', 'Track');
+      var oT = el('option'); oT.value = ''; oT.textContent = lang() === 'id' ? 'Semua jalur' : 'All tracks'; selT.appendChild(oT);
+      Object.keys(F.tracks).forEach(function (k) { var o = el('option'); o.value = k; o.textContent = F.tracks[k].n + ' · ' + F.tracks[k].label[lang()]; selT.appendChild(o); });
+      var selF = el('select', 'fg-sel'); selF.setAttribute('aria-label', 'Function');
+      var oF = el('option'); oF.value = ''; oF.textContent = lang() === 'id' ? 'Semua fungsi' : 'All functions'; selF.appendChild(oF);
+      Object.keys(F.functions).forEach(function (k) { var o = el('option'); o.value = k; o.textContent = F.functions[k][lang()]; selF.appendChild(o); });
+      var count = el('span', 'fg-count');
+      bar.appendChild(q); bar.appendChild(selT); bar.appendChild(selF); bar.appendChild(count);
+      box.appendChild(bar);
+      var draw = function () {
+        grid.innerHTML = '';
+        var qq = q.value.trim().toLowerCase(), t = selT.value, f = selF.value, n = 0;
+        F.items.forEach(function (it) {
+          if (t && (it.tracks || []).indexOf(t) < 0) return;
+          if (f && it.fn !== f) return;
+          if (qq && (it.company + ' ' + it.title + ' ' + (it.skills || []).join(' ')).toLowerCase().indexOf(qq) < 0) return;
+          grid.appendChild(forageCard(it, null, F)); n++;
+        });
+        count.textContent = lang() === 'id' ? n + ' program' : n + (n === 1 ? ' programme' : ' programmes');
+        if (!n) grid.appendChild(bi('p', 'fg-empty', { en: 'No programme matches — clear a filter, or search the catalogue directly.', id: 'Tidak ada program yang cocok — hapus filter, atau cari langsung di katalog.' }));
+      };
+      q.addEventListener('input', draw); selT.addEventListener('change', draw); selF.addEventListener('change', draw);
+      if (fg.track) selT.value = fg.track;
+      draw();
+    } else {
+      (fg.picks || []).forEach(function (p) {
+        var it = null; F.items.forEach(function (x) { if (x.id === p.id) it = x; });
+        if (it) grid.appendChild(forageCard(it, p.fit, F));
+      });
+    }
+    box.appendChild(grid);
+    var note = el('p', 'fg-note');
+    note.appendChild(bi('span', null, {
+      en: 'Programme titles as listed on The Forage catalogue; titles and availability change, so the button opens the catalogue and the search term finds the current listing. Completing a simulation is not an application — but employers can see completions when you apply to them.',
+      id: 'Judul program sebagaimana tercantum di katalog The Forage; judul dan ketersediaannya berubah, sehingga tombolnya membuka katalog dan kata kuncinya menemukan daftar terkini. Menyelesaikan simulasi bukan berarti melamar — tetapi perusahaan dapat melihat penyelesaianmu saat kamu melamar ke mereka.'
+    }));
+    box.appendChild(note);
+    host.appendChild(box);
+  }
+
+  function simlogScale(row, val, onPick) {
+    var sc = el('div', 'sl-scale');
+    for (var v = 1; v <= 5; v++) (function (v) {
+      var b = el('button', 'sl-dot' + (val === v ? ' on' : ''), String(v)); b.type = 'button';
+      b.setAttribute('aria-label', row.h.en + ' ' + v);
+      b.addEventListener('click', function () { sc.querySelectorAll('.sl-dot').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); onPick(v); });
+      sc.appendChild(b);
+    })(v);
+    return sc;
+  }
+  function simlogForm(entry, onSave, opts) {
+    opts = opts || {};
+    var cur = { e: entry.e || 0, c: entry.c || 0, k: entry.k || 0, note: entry.note || '' };
+    var form = el('div', 'sl-form');
+    SIMLOG_Q.forEach(function (row) {
+      var r = el('div', 'sl-row');
+      var lab = el('div', 'sl-lab'); lab.appendChild(bi('b', null, row.h)); lab.appendChild(bi('span', null, row.sub));
+      r.appendChild(lab);
+      r.appendChild(simlogScale(row, cur[row.k], function (v) { cur[row.k] = v; }));
+      form.appendChild(r);
+    });
+    var ta = el('textarea', 'sl-note'); ta.rows = 2; ta.value = cur.note;
+    ta.placeholder = lang() === 'id' ? 'Tugas mana yang menarikmu masuk, dan mana yang mendorongmu menjauh? Satu-dua kalimat.' : 'Which task pulled you in, and which pushed you away? One or two sentences.';
+    form.appendChild(ta);
+    var foot = el('div', 'sl-foot');
+    var save = bi('button', 'lms-complete', opts.saveLabel || { en: 'Save debrief', id: 'Simpan tinjauan' }); save.type = 'button';
+    var msg = el('span', 'sl-msg');
+    save.addEventListener('click', function () {
+      if (!(cur.e && cur.c && cur.k)) { msg.textContent = lang() === 'id' ? 'Beri nilai ketiga pertanyaan dulu.' : 'Rate all three questions first.'; msg.className = 'sl-msg warn'; return; }
+      cur.note = ta.value.trim(); cur.ts = Date.now();
+      onSave(cur);
+      msg.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini.' : 'Saved on this device.'; msg.className = 'sl-msg ok';
+    });
+    foot.appendChild(save); foot.appendChild(msg);
+    form.appendChild(foot);
+    return form;
+  }
+  function renderSimLog(l, host) {
+    var s = l.simlog, F = forageData();
+    if (!s) return;
+    var box = el('div', 'lms-panel lms-simlog');
+    var d = simlogRead(); d.tracks = d.tracks || {}; d.external = d.external || [];
+    if (s.track) {
+      var tk = F && F.tracks[s.track];
+      box.appendChild(bi('h3', null, { en: 'Log this track · the three-question debrief', id: 'Catat jalur ini · tinjauan tiga pertanyaan' }));
+      box.appendChild(bi('p', 'sl-lead', {
+        en: 'Before the impression fades: rate the track, add a line, save. The full log in lesson 6.13 ranks every track you have run and turns the top two into direction hypotheses.',
+        id: 'Sebelum kesannya memudar: nilai jalur ini, tambahkan satu baris, simpan. Catatan lengkap di pelajaran 6.13 mengurutkan setiap jalur yang sudah kamu jalani dan menjadikan dua teratas sebagai hipotesis arah.'
+      }));
+      var entry = d.tracks[s.track] || {};
+      box.appendChild(simlogForm(entry, function (cur) { var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.tracks[s.track] = cur; simlogWrite(dd); }));
+      if (tk) { var jump = bi('button', 'sl-link', { en: 'Open the full simulation log (6.13) →', id: 'Buka catatan simulasi lengkap (6.13) →' }); jump.type = 'button'; jump.addEventListener('click', function () { if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open('6.13'); }); box.appendChild(jump); }
+      host.appendChild(box);
+      return;
+    }
+    /* full log */
+    box.appendChild(bi('h3', null, { en: 'Your simulation log', id: 'Catatan simulasimu' }));
+    box.appendChild(bi('p', 'sl-lead', {
+      en: 'Every track you debriefed, ranked by energy + competence trajectory + curiosity. The top two are your direction hypotheses — take them into The Range next. Add any simulation you ran outside The Map (The Forage or an employer’s own) so it counts too.',
+      id: 'Setiap jalur yang sudah kamu tinjau, diurutkan berdasarkan energi + arah kompetensi + rasa ingin tahu. Dua teratas adalah hipotesis arahmu — bawa ke The Range berikutnya. Tambahkan simulasi yang kamu jalani di luar The Map (The Forage atau milik perusahaan) supaya ikut dihitung.'
+    }));
+    var tbl = el('div', 'sl-table');
+    var summary = el('div', 'sl-summary');
+    var extList = el('div', 'sl-ext');
+    function drawAll() {
+      var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.external = dd.external || [];
+      var rows = [];
+      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; rows.push({ key: k, label: F.tracks[k].label, n: F.tracks[k].n, e: e, ext: false }); });
+      dd.external.forEach(function (x, i) { rows.push({ key: 'x' + i, label: { en: x.name, id: x.name }, n: x.company || '', e: x, ext: true, idx: i }); });
+      var score = function (r) { return r.e && r.e.e ? r.e.e + r.e.c + r.e.k : -1; };
+      rows.sort(function (a, b) { return score(b) - score(a); });
+      tbl.innerHTML = '';
+      var hdr = el('div', 'sl-tr sl-th');
+      hdr.appendChild(bi('span', null, { en: 'Track / simulation', id: 'Jalur / simulasi' }));
+      hdr.appendChild(el('span', null, 'E')); hdr.appendChild(el('span', null, 'C')); hdr.appendChild(el('span', null, 'K'));
+      hdr.appendChild(bi('span', null, { en: 'Total', id: 'Total' }));
+      tbl.appendChild(hdr);
+      var ranked = rows.filter(function (r) { return score(r) > 0; });
+      rows.forEach(function (r, i) {
+        var tr = el('div', 'sl-tr' + (score(r) > 0 && ranked.indexOf(r) < 2 ? ' top' : '') + (score(r) < 0 ? ' empty' : ''));
+        var name = el('span', 'sl-name');
+        if (!r.ext) { var b = el('button', 'sl-open', r.n + ' · ' + r.label[lang()]); b.type = 'button'; b.addEventListener('click', function () { if (window.MT_LMS_PLAYER) window.MT_LMS_PLAYER.open(r.n); }); name.appendChild(b); }
+        else { name.appendChild(el('span', 'sl-extname', r.label.en + (r.n ? ' · ' + r.n : ''))); var rm = el('button', 'sl-rm', '×'); rm.type = 'button'; rm.title = 'Remove'; rm.addEventListener('click', function () { var d2 = simlogRead(); d2.external.splice(r.idx, 1); simlogWrite(d2); drawAll(); }); name.appendChild(rm); }
+        if (r.e && r.e.note) { var nt = el('span', 'sl-tnote', r.e.note); name.appendChild(nt); }
+        tr.appendChild(name);
+        ['e', 'c', 'k'].forEach(function (k) { tr.appendChild(el('span', 'sl-v', r.e && r.e[k] ? String(r.e[k]) : '–')); });
+        tr.appendChild(el('span', 'sl-v sl-tot', score(r) > 0 ? String(score(r)) + '/15' : (lang() === 'id' ? 'belum' : 'not yet')));
+        tbl.appendChild(tr);
+      });
+      summary.innerHTML = '';
+      if (ranked.length >= 2) {
+        var p = el('p', 'sl-hyp');
+        p.appendChild(bi('b', null, { en: 'Direction hypotheses: ', id: 'Hipotesis arah: ' }));
+        p.appendChild(el('span', null, ranked.slice(0, 2).map(function (r) { return r.label[lang()]; }).join(' · ')));
+        summary.appendChild(p);
+        var low = ranked.filter(function (r) { return r.e.c >= 4 && r.e.e <= 2; });
+        if (low.length) { var w = el('p', 'sl-warn'); w.appendChild(bi('span', null, { en: '⚠ High competence, low energy — the classic trap from lesson 6.1: ', id: '⚠ Kompetensi tinggi, energi rendah — jebakan klasik dari pelajaran 6.1: ' })); w.appendChild(el('span', null, low.map(function (r) { return r.label[lang()]; }).join(', '))); summary.appendChild(w); }
+      } else {
+        summary.appendChild(bi('p', 'sl-hyp muted', { en: 'Debrief at least two tracks and the ranking appears here.', id: 'Tinjau setidaknya dua jalur, dan peringkatnya muncul di sini.' }));
+      }
+      extList.innerHTML = '';
+    }
+    box.appendChild(tbl); box.appendChild(summary);
+    /* external simulation entry */
+    var addBox = el('details', 'sl-add');
+    var sm = bi('summary', null, { en: '+ Add a simulation you ran elsewhere', id: '+ Tambahkan simulasi yang kamu jalani di tempat lain' });
+    addBox.appendChild(sm);
+    var nameIn = el('input', 'sl-in'); nameIn.placeholder = lang() === 'id' ? 'Nama program (mis. Investment Banking)' : 'Programme name (e.g. Investment Banking)';
+    var coIn = el('input', 'sl-in'); coIn.placeholder = lang() === 'id' ? 'Perusahaan' : 'Company';
+    var inRow = el('div', 'sl-inrow'); inRow.appendChild(nameIn); inRow.appendChild(coIn); addBox.appendChild(inRow);
+    addBox.appendChild(simlogForm({}, function (cur) {
+      if (!nameIn.value.trim()) { nameIn.focus(); return; }
+      var d2 = simlogRead(); d2.external = d2.external || [];
+      d2.external.push({ name: nameIn.value.trim(), company: coIn.value.trim(), e: cur.e, c: cur.c, k: cur.k, note: cur.note, ts: cur.ts });
+      simlogWrite(d2); nameIn.value = ''; coIn.value = ''; addBox.open = false; drawAll();
+    }, { saveLabel: { en: 'Add to log', id: 'Tambahkan ke catatan' } }));
+    box.appendChild(addBox); box.appendChild(extList);
+    /* export */
+    var foot = el('div', 'sl-foot');
+    var cp = bi('button', 'lms-complete', { en: 'Copy summary for your audit', id: 'Salin ringkasan untuk auditmu' }); cp.type = 'button';
+    var msg = el('span', 'sl-msg');
+    cp.addEventListener('click', function () {
+      var dd = simlogRead(); dd.tracks = dd.tracks || {}; dd.external = dd.external || [];
+      var lines = [lang() === 'id' ? 'Catatan simulasi (E energi · C arah kompetensi · K rasa ingin tahu, 1–5)' : 'Simulation log (E energy · C competence trajectory · K curiosity, 1–5)'];
+      if (F) Object.keys(F.tracks).forEach(function (k) { var e = dd.tracks[k]; if (e && e.e) lines.push(F.tracks[k].n + ' ' + F.tracks[k].label[lang()] + ': E' + e.e + ' C' + e.c + ' K' + e.k + ' = ' + (e.e + e.c + e.k) + '/15' + (e.note ? ' — ' + e.note : '')); });
+      dd.external.forEach(function (x) { lines.push((x.company ? x.company + ' · ' : '') + x.name + ': E' + x.e + ' C' + x.c + ' K' + x.k + ' = ' + (x.e + x.c + x.k) + '/15' + (x.note ? ' — ' + x.note : '')); });
+      var txt = lines.join('\n');
+      var done = function () { msg.textContent = lang() === 'id' ? 'Tersalin.' : 'Copied.'; msg.className = 'sl-msg ok'; };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, done); else done();
+    });
+    foot.appendChild(cp); foot.appendChild(msg); box.appendChild(foot);
+    drawAll();
     host.appendChild(box);
   }
 
@@ -1817,13 +2071,16 @@
     if (!lateSections) renderDiagram(l, innerEl);
     if (l.kind === 'video') renderVideo(l, innerEl);
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
-    if (l.kind === 'interactive') renderSteps(l, innerEl);
+    if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */
+    if (l.kind === 'interactive') { if (l.simlog && l.simlog.early) renderSimLog(l, innerEl); renderSteps(l, innerEl); }
     if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
     if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); }
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
     renderGlossary(l, innerEl);
+    if (!(l.forage && l.forage.directory)) renderForage(l, innerEl);
+    if (!(l.simlog && l.simlog.early)) renderSimLog(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
     filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : 'check' }); });   /* YouTube lesson films in the player skin */

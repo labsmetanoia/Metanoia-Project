@@ -861,3 +861,81 @@ body.lms-fsx .lmsp-foot,body.lms-fsx .lmsp-top{visibility:hidden}   /* the lesso
 .lms-ytp .yt-ext+.yt-n{margin-top:22px}
 .lms-vcc-menu button.na{opacity:.45}
 .lms-vcc-menu button.na:not(.on)::after{content:'—';font-weight:400;opacity:.7}
+
+/* ── Module 6: The Forage directory cards ── */
+.lms-forage .fg-lead{font-size:13px;line-height:1.65;color:rgba(240,237,232,.78);margin:0 0 14px}
+.lms-forage .fg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.lms-fg-card{border:1px solid rgba(201,168,76,.22);border-radius:12px;padding:14px 15px;background:rgba(5,10,18,.32);display:flex;flex-direction:column;gap:8px}
+.lms-fg-card .fg-head{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.lms-fg-card .fg-co{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold,#C9A84C)}
+.lms-fg-card .fg-fn{font-size:10.5px;color:rgba(240,237,232,.55);border:1px solid rgba(240,237,232,.18);border-radius:999px;padding:2px 8px;white-space:nowrap}
+.lms-fg-card .fg-title{font-size:14.5px;font-weight:800;margin:0;line-height:1.35;color:var(--text,#F0EDE8)}
+.lms-fg-card .fg-what{font-size:12.5px;line-height:1.6;color:rgba(240,237,232,.75);margin:0}
+.lms-fg-card .fg-fit{font-size:12.5px;line-height:1.6;margin:0;padding:9px 11px;border-radius:9px;background:rgba(201,168,76,.08);border:1px dashed rgba(201,168,76,.3)}
+.lms-fg-card .fg-fit b{display:block;font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold,#C9A84C);margin-bottom:3px}
+.lms-fg-card .fg-fit span{color:rgba(240,237,232,.82)}
+.lms-fg-card .fg-tracks{display:flex;flex-wrap:wrap;gap:5px}
+.lms-fg-card .fg-track{font:inherit;font-size:10.5px;font-weight:700;color:rgba(240,237,232,.7);background:transparent;border:1px solid rgba(240,237,232,.16);border-radius:999px;padding:3px 9px;cursor:pointer}
+.lms-fg-card .fg-track:hover{border-color:var(--gold,#C9A84C);color:var(--gold,#C9A84C)}
+.lms-fg-card .fg-act{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:auto;padding-top:4px}
+.lms-fg-card .fg-go{margin:0;text-decoration:none;font-size:12px;padding:8px 14px}
+.lms-fg-card .fg-copy{font:inherit;font-size:11.5px;font-weight:700;color:rgba(240,237,232,.7);background:transparent;border:1px solid rgba(240,237,232,.2);border-radius:999px;padding:6px 11px;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lms-fg-card .fg-copy.ok{border-color:#4ADE80;color:#4ADE80}
+.lms-forage .fg-note{font-size:11.5px;line-height:1.55;color:rgba(240,237,232,.55);margin:14px 0 0}
+.lms-forage .fg-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+.lms-forage .fg-q{flex:1 1 200px;min-width:0;font:inherit;font-size:13px;padding:9px 12px;border-radius:10px;border:1px solid rgba(201,168,76,.3);background:rgba(5,10,18,.4);color:var(--text,#F0EDE8)}
+.lms-forage .fg-sel{font:inherit;font-size:12.5px;padding:9px 10px;border-radius:10px;border:1px solid rgba(201,168,76,.3);background:rgba(5,10,18,.4);color:var(--text,#F0EDE8);max-width:100%}
+.lms-forage .fg-count{font-size:11.5px;color:rgba(240,237,232,.6);white-space:nowrap}
+.lms-forage .fg-empty{font-size:13px;color:rgba(240,237,232,.65);grid-column:1/-1}
+:root[data-theme="light"] .lms-fg-card{background:#FFFFFF;border-color:rgba(139,105,20,.22)}
+:root[data-theme="light"] .lms-forage .fg-lead,:root[data-theme="light"] .lms-fg-card .fg-what,:root[data-theme="light"] .lms-fg-card .fg-fit span{color:rgba(26,31,40,.78)}
+:root[data-theme="light"] .lms-fg-card .fg-fn,:root[data-theme="light"] .lms-fg-card .fg-track,:root[data-theme="light"] .lms-fg-card .fg-copy,:root[data-theme="light"] .lms-forage .fg-note,:root[data-theme="light"] .lms-forage .fg-count,:root[data-theme="light"] .lms-forage .fg-empty{color:rgba(26,31,40,.65);border-color:rgba(26,31,40,.2)}
+:root[data-theme="light"] .lms-fg-card .fg-co,:root[data-theme="light"] .lms-fg-card .fg-fit b{color:#8B6914}
+:root[data-theme="light"] .lms-forage .fg-q,:root[data-theme="light"] .lms-forage .fg-sel{background:#FFFFFF;color:#1A1F28;border-color:rgba(139,105,20,.3)}
+/* ── Module 6: simulation log ── */
+.lms-simlog .sl-lead{font-size:13px;line-height:1.65;color:rgba(240,237,232,.78);margin:0 0 14px}
+.lms-simlog .sl-row{display:grid;grid-template-columns:1fr auto;gap:10px 16px;align-items:center;padding:9px 0;border-top:1px dashed rgba(201,168,76,.18)}
+.lms-simlog .sl-row:first-child{border-top:0}
+.lms-simlog .sl-lab b{display:block;font-size:13px;color:var(--text,#F0EDE8)}
+.lms-simlog .sl-lab span{display:block;font-size:11.5px;color:rgba(240,237,232,.6);line-height:1.45}
+.lms-simlog .sl-scale{display:flex;gap:5px}
+.lms-simlog .sl-dot{width:34px;height:34px;border-radius:50%;border:1.5px solid rgba(201,168,76,.4);background:transparent;color:rgba(240,237,232,.8);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
+.lms-simlog .sl-dot:hover{border-color:var(--gold,#C9A84C)}
+.lms-simlog .sl-dot.on{background:var(--gold,#C9A84C);border-color:var(--gold,#C9A84C);color:#0B1524}
+.lms-simlog .sl-note{width:100%;box-sizing:border-box;margin-top:10px;font:inherit;font-size:13px;line-height:1.5;padding:9px 12px;border-radius:10px;border:1px solid rgba(201,168,76,.3);background:rgba(5,10,18,.4);color:var(--text,#F0EDE8);resize:vertical}
+.lms-simlog .sl-foot{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.lms-simlog .sl-foot .lms-complete{margin:0}
+.lms-simlog .sl-msg{font-size:12px}
+.lms-simlog .sl-msg.ok{color:#4ADE80}
+.lms-simlog .sl-msg.warn{color:#FF9A7B}
+.lms-simlog .sl-link{display:inline-block;margin-top:12px;font:inherit;font-size:12.5px;font-weight:700;color:var(--gold,#C9A84C);background:transparent;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.lms-simlog .sl-table{display:flex;flex-direction:column;border:1px solid rgba(201,168,76,.2);border-radius:12px;overflow:hidden;margin:0 0 12px}
+.lms-simlog .sl-tr{display:grid;grid-template-columns:1fr 34px 34px 34px 70px;gap:6px;align-items:center;padding:8px 12px;border-top:1px solid rgba(201,168,76,.14);font-size:13px}
+.lms-simlog .sl-tr:first-child{border-top:0}
+.lms-simlog .sl-th{font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgba(240,237,232,.55);background:rgba(5,10,18,.35)}
+.lms-simlog .sl-tr.top{background:rgba(201,168,76,.1)}
+.lms-simlog .sl-tr.top .sl-open,.lms-simlog .sl-tr.top .sl-extname{color:var(--gold,#C9A84C)}
+.lms-simlog .sl-tr.empty{opacity:.6}
+.lms-simlog .sl-name{min-width:0;display:flex;flex-direction:column;gap:2px}
+.lms-simlog .sl-open{font:inherit;font-size:13px;font-weight:700;color:var(--text,#F0EDE8);background:transparent;border:0;padding:0;text-align:left;cursor:pointer}
+.lms-simlog .sl-open:hover{text-decoration:underline}
+.lms-simlog .sl-extname{font-weight:700}
+.lms-simlog .sl-name .sl-rm{position:static;font:inherit;font-size:14px;color:rgba(240,237,232,.5);background:transparent;border:0;cursor:pointer;align-self:flex-start;margin-left:6px;display:inline}
+.lms-simlog .sl-tnote{font-size:11.5px;color:rgba(240,237,232,.6);line-height:1.4}
+.lms-simlog .sl-v{text-align:center;font-variant-numeric:tabular-nums;color:rgba(240,237,232,.85)}
+.lms-simlog .sl-tot{font-weight:800}
+.lms-simlog .sl-hyp{font-size:13.5px;margin:0 0 6px;color:var(--text,#F0EDE8)}
+.lms-simlog .sl-hyp b{color:var(--gold,#C9A84C)}
+.lms-simlog .sl-hyp.muted{color:rgba(240,237,232,.6);font-size:12.5px}
+.lms-simlog .sl-warn{font-size:12.5px;margin:0 0 6px;color:#FF9A7B}
+.lms-simlog .sl-add{margin:12px 0 4px;border:1px dashed rgba(201,168,76,.3);border-radius:12px;padding:10px 14px}
+.lms-simlog .sl-add summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--gold,#C9A84C)}
+.lms-simlog .sl-inrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0 4px}
+.lms-simlog .sl-in{min-width:0;font:inherit;font-size:13px;padding:8px 11px;border-radius:9px;border:1px solid rgba(201,168,76,.3);background:rgba(5,10,18,.4);color:var(--text,#F0EDE8)}
+@media(max-width:600px){.lms-simlog .sl-row{grid-template-columns:1fr}.lms-simlog .sl-inrow{grid-template-columns:1fr}.lms-simlog .sl-tr{grid-template-columns:1fr 28px 28px 28px 58px;padding:8px 9px;font-size:12.5px}}
+:root[data-theme="light"] .lms-simlog .sl-lead,:root[data-theme="light"] .lms-simlog .sl-v,:root[data-theme="light"] .lms-simlog .sl-open{color:rgba(26,31,40,.82)}
+:root[data-theme="light"] .lms-simlog .sl-lab span,:root[data-theme="light"] .lms-simlog .sl-tnote,:root[data-theme="light"] .lms-simlog .sl-th,:root[data-theme="light"] .lms-simlog .sl-hyp.muted{color:rgba(26,31,40,.6)}
+:root[data-theme="light"] .lms-simlog .sl-dot{color:rgba(26,31,40,.8)}
+:root[data-theme="light"] .lms-simlog .sl-note,:root[data-theme="light"] .lms-simlog .sl-in{background:#FFFFFF;color:#1A1F28;border-color:rgba(139,105,20,.3)}
+:root[data-theme="light"] .lms-simlog .sl-th{background:rgba(139,105,20,.06)}
+:root[data-theme="light"] .lms-simlog .sl-hyp{color:#1A1F28}
