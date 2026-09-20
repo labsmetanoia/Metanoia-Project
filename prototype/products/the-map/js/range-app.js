@@ -92,7 +92,7 @@
   }
 
   /* ── router ── */
-  var views = ['home', 'quick', 'identity', 'directions', 'ddetail', 'explore', 'company', 'opp', 'range', 'profile', 'compare'];
+  var views = ['home', 'quick', 'identity', 'directions', 'ddetail', 'explore', 'company', 'opp', 'range', 'profile', 'compare', 'map', 'guide'];
   function go(v, arg) { location.hash = '#/' + v + (arg ? '/' + arg : ''); }
   function route() {
     var h = (location.hash || '').replace('#/', '').split('/');
@@ -102,11 +102,11 @@
     $('#v-' + v).classList.add('on');
     $$('[data-nav]').forEach(function (b) {
       b.classList.toggle('on', b.dataset.nav === v ||
-        (b.dataset.nav === 'explore' && ['company', 'opp', 'ddetail'].indexOf(v) !== -1));
+        (b.dataset.nav === 'explore' && ['company', 'opp', 'ddetail', 'map', 'guide'].indexOf(v) !== -1));
     });
     var R = { home: renderHome, quick: renderQuick, identity: renderIdentity, directions: renderDirections,
       ddetail: renderDDetail, explore: renderExplore, company: renderCompany, opp: renderOpp,
-      range: renderRange, profile: renderProfile, compare: renderCompare };
+      range: renderRange, profile: renderProfile, compare: renderCompare, map: renderMap, guide: renderGuide };
     R[v](h.slice(1));
     tmNotice($('#v-' + v));
     updateNavCnt();
@@ -179,6 +179,9 @@
           (i < 5 ? '<span class="fs-arr">›</span>' : '') + '</div>';
       }).join('') + '</div></div>' +
 
+      '<div class="sec"><p class="sec-h">' + t('Two ways in', 'Dua jalan masuk') + '</p><div class="xtools" style="max-width:760px">' +
+      '<button class="card xtool" data-go="guide"><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Describe your interests and objectives; get directions, companies, roles and a route', 'Ceritakan minat dan tujuanmu; dapatkan arah, perusahaan, peran, dan rute') + '</b></button>' +
+      '<button class="card xtool" data-go="map"><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('See how industries, functions, skills and ' + COS.length + ' companies connect', 'Lihat bagaimana industri, fungsi, keterampilan, dan ' + COS.length + ' perusahaan terhubung') + '</b></button></div></div>' +
       '<div class="sec"><p class="sec-h">' + t('The product, working — a real documented process', 'Produknya bekerja — proses nyata yang terdokumentasi') + '</p>' +
       '<div class="card" style="max-width:760px">' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:6px">' +
@@ -205,7 +208,7 @@
     $$('[data-demo]', host).forEach(function (b) {
       b.addEventListener('click', function () { b.parentElement.classList.toggle('open'); });
     });
-    wireOppButtons(host);
+    wireOppButtons(host); wireGo(host);
   }
   function disclaimer() {
     return '<div class="disc">' + t('<b>How to read this.</b> These are directions worth investigating, based on what you told us — not predictions, and not advice. We can only see what you gave us, and career fit depends on things no questionnaire captures. Treat this as a starting point.',
@@ -1258,7 +1261,7 @@
   }
 
   /* ═══ S6 · EXPLORE — scoped, company-first, ungated, paginated ═══ */
-  var XF = { geo: 'id', ind: '', fn: '', q: '', limit: 24 };
+  var XF = { geo: 'id', ind: '', fn: '', q: '', limit: 24, ask: '', askRead: '' };
   function coRoles(c) {
     return OPPS_ALL.filter(function (o) { return o.company === c.id; });
   }
@@ -1279,6 +1282,11 @@
       '<img class="vmap" src="../../assets/' + (XF.geo === 'intl' ? 'global-map.png' : 'indonesia-map.png') + '" alt="" aria-hidden="true">' +
       '<h1 class="h-page">' + t('Explore', 'Jelajah') + '</h1>' +
       '<p class="h-sub">' + t('Browse freely — no identity needed to start.', 'Jelajahi dengan bebas — tanpa perlu identitas untuk memulai.') + '</p>' +
+      '<div class="xtools">' +
+      '<button class="card xtool" data-go="guide"><span class="micro">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted', 'Berbantuan AI') + '</span></span><b>' + t('Start from your interests and objectives', 'Mulai dari minat dan tujuanmu') + '</b><span class="note3">' + t('Directions, companies, roles and a route — with the reasons shown.', 'Arah, perusahaan, peran, dan rute — dengan alasannya ditampilkan.') + '</span></button>' +
+      '<button class="card xtool" data-go="map"><span class="micro">' + t('Career map', 'Peta karier') + '</span><b>' + t('How industries, functions, skills and companies connect', 'Bagaimana industri, fungsi, keterampilan, dan perusahaan terhubung') + '</b><span class="note3">' + t('Who hires which function, how scope grows, which track simulates it.', 'Siapa merekrut fungsi apa, bagaimana lingkup tumbuh, jalur mana yang mensimulasikannya.') + '</span></button></div>' +
+      '<div class="ask"><input type="text" id="xAsk" value="' + esc(XF.ask || '') + '" placeholder="' + t('Ask the Range — e.g. “data roles at Indonesian banks” or “marketing at Unilever”', 'Tanya The Range — mis. “peran data di bank Indonesia” atau “pemasaran di Unilever”') + '"><button class="btn-s explore" id="xAskGo">' + t('Ask', 'Tanya') + '</button></div>' +
+      (XF.askRead ? '<p class="note3" style="margin:-8px 0 14px">' + t('Read as: ', 'Dibaca sebagai: ') + XF.askRead + '</p>' : '') +
       '<div class="scope" id="xScope" style="margin-bottom:16px">' +
       '<button data-g="id" class="' + (XF.geo === 'id' ? 'on' : '') + '">' + t('Indonesia only', 'Hanya Indonesia') + '</button>' +
       '<button data-g="intl" class="' + (XF.geo === 'intl' ? 'on' : '') + '">' + t('International', 'Internasional') + '</button></div>' +
@@ -1309,6 +1317,18 @@
       var el = $('#xQ'); el.focus(); el.setSelectionRange(keep.length, keep.length);
     });
     if ($('#xMore')) $('#xMore').addEventListener('click', function () { XF.limit += 48; renderExplore(); applyLang(); });
+    var ask = function () {
+      var v = $('#xAsk').value.trim(); XF.ask = v; XF.askRead = '';
+      if (v && PATHS) {
+        var a = askRange(v); XF.ind = a.ind; XF.fn = a.fn; XF.geo = a.geo; XF.q = a.q; XF.limit = 24;
+        var parts = []; if (a.q) parts.push(t('company', 'perusahaan') + ' = ' + a.q); if (a.ind) parts.push(t('industry', 'industri') + ' = ' + indName(a.ind)); if (a.fn) parts.push(t('function', 'fungsi') + ' = ' + fnName(a.fn)); parts.push(a.geo === 'id' ? 'Indonesia' : t('International', 'Internasional'));
+        XF.askRead = parts.join(' · ') + (!a.q && !a.ind && !a.fn ? ' — ' + t('no industry or function recognised; try naming one', 'industri atau fungsi tidak dikenali; coba sebutkan satu') : '');
+      } else if (!v) { XF.ind = ''; XF.fn = ''; XF.q = ''; }
+      renderExplore(); applyLang();
+    };
+    $('#xAskGo').addEventListener('click', ask);
+    $('#xAsk').addEventListener('keydown', function (e) { if (e.key === 'Enter') ask(); });
+    wireGo(host);
     wireOppButtons(host);
     window.MT_LOGO.wire(host);   /* filter/pagination re-renders bypass route() */
   }
@@ -1465,8 +1485,9 @@
         }
         return out;
       })() +
+      companyPathsHtml(c) +
       provBlock(c, null) + '</div>';
-    wireOppButtons(host);
+    wireOppButtons(host); wireGo(host);
   }
   function provBlock(c, prog) {
     return '<div class="disc" style="margin-top:26px"><b>ℹ ' + t('Where this comes from', 'Dari mana informasi ini') + '</b><br>' +
@@ -1804,6 +1825,257 @@
       '</table></div>';
   }
 
+  /* ═══ S12 · CAREER PATHS, THE CAREER MAP AND THE RANGE GUIDE ═══
+     Data: data/range/paths.js (editorial ladders, routes, skills, industry
+     relationships and the guide lexicon). Everything here runs in the browser
+     on Metanoia's own data — nothing typed into the guide leaves the device. */
+  var PATHS = window.MT_RANGE_PATHS || null;
+  function fnName(fn) { var f = G.functions.filter(function (x) { return x.id === fn; })[0]; return f ? L(f.name) : (O.FN_ROLES[fn] ? L(O.FN_ROLES[fn].role) : fn); }
+  function indName(id) { var i2 = G.industries.filter(function (x) { return x.id === id; })[0]; return i2 ? L(i2.name) : id; }
+  function skillChips(ids) { return '<div class="chips">' + (ids || []).map(function (k) { return '<span class="chip-min">' + (PATHS && PATHS.SKILLS[k] ? L(PATHS.SKILLS[k]) : k) + '</span>'; }).join('') + '</div>'; }
+  function trackBtn(n, small) {
+    if (!n || !window.MT_LMS_PLAYER) return '';
+    return '<button class="' + (small ? 'chip-min tag' : 'btn-s explore') + '" data-track="' + n + '" style="cursor:pointer">' + t('Simulate this work — Module 6 · ' + n, 'Simulasikan pekerjaannya — Modul 6 · ' + n) + ' →</button>';
+  }
+  function wireTrackButtons(host) {
+    $$('[data-track]', host).forEach(function (b) { b.addEventListener('click', function () { window.MT_LMS_PLAYER.open(b.dataset.track); }); });
+  }
+  function ladderHtml(fn) {
+    var p = PATHS && PATHS.FUNCTIONS[fn]; if (!p) return '';
+    return '<div class="ladder">' + p.ladder.map(function (r, i) {
+      return '<div class="rung"><span class="rn">' + (i + 1) + '</span><div><b>' + L(r.t) + '</b><span class="ry">' + r.y + ' ' + t('yrs', 'thn') + '</span><p>' + L(r.s) + '</p></div></div>';
+    }).join('') + '</div>';
+  }
+  /* company page: career paths per function, skills, related companies */
+  function companyPathsHtml(c) {
+    if (!PATHS) return '';
+    var ip = PATHS.INDUSTRIES[c.industry_id];
+    var skills = [], seen = {};
+    c.fns.forEach(function (fn) { var p = PATHS.FUNCTIONS[fn]; if (p) p.skills.forEach(function (k) { if (!seen[k]) { seen[k] = 1; skills.push(k); } }); });
+    var related = COS.filter(function (x) { return x.id !== c.id && x.industry_id === c.industry_id && (x.sector ? x.sector === c.sector : true) && x.geo === c.geo; }).slice(0, 6);
+    if (related.length < 3) related = related.concat(COS.filter(function (x) { return x.id !== c.id && x.industry_id === c.industry_id && related.indexOf(x) === -1; }).slice(0, 6 - related.length));
+    return '<p class="sec-h" style="margin-top:30px">' + t('Career paths here', 'Jalur karier di sini') + ' · ' + c.fns.length + '</p>' +
+      '<p class="prov i" style="margin-bottom:10px">~ ' + t('Metanoia analysis of how roles of each kind typically grow — not this company’s own ladder, and no salary figures.', 'Analisis Metanoia tentang bagaimana peran tiap jenis biasanya tumbuh — bukan tangga karier perusahaan ini sendiri, dan tanpa angka gaji.') + '</p>' +
+      c.fns.map(function (fn, i) {
+        var p = PATHS.FUNCTIONS[fn]; if (!p) return '';
+        return '<details class="path"' + (i === 0 ? ' open' : '') + '><summary><b>' + fnName(fn) + '</b><span class="note3">' + p.entry.map(L).join(' · ') + '</span></summary>' +
+          '<div class="path-body">' + ladderHtml(fn) +
+          '<p class="micro" style="margin:12px 0 4px">' + t('How people get in', 'Cara orang masuk') + '</p>' + p.routes_in.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">→</span><span>' + L(x) + '</span></div>'; }).join('') +
+          '<p class="micro" style="margin:12px 0 4px">' + t('Where people go next', 'Ke mana orang melangkah berikutnya') + '</p>' + p.routes_out.map(function (x) { return '<div class="ev-row"><span class="m" style="color:var(--r-explore)">↗</span><span><b>' + fnName(x.fn) + '</b> — ' + L(x.why) + '</span></div>'; }).join('') +
+          '<p class="micro" style="margin:12px 0 6px">' + t('Skills that matter', 'Keterampilan yang penting') + '</p>' + skillChips(p.skills) +
+          '<p class="note3" style="margin-top:10px">' + L(p.demand) + '</p>' +
+          '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">' + trackBtn(p.track, true) +
+          '<button class="chip-min tag" style="cursor:pointer" data-open-opp="' + c.id + '--' + fn + '">' + t('Open the role here', 'Buka perannya di sini') + ' →</button></div>' +
+          '</div></details>';
+      }).join('') +
+      '<p class="sec-h" style="margin-top:30px">' + t('How it all connects', 'Bagaimana semuanya terhubung') + '</p>' +
+      '<div class="card">' +
+      '<p class="micro" style="margin-bottom:6px">' + t('Skills this company’s roles reward', 'Keterampilan yang dihargai peran di perusahaan ini') + '</p>' + skillChips(skills.slice(0, 10)) +
+      (ip ? '<p class="micro" style="margin:14px 0 4px">' + indName(c.industry_id) + ' · ' + t('how the industry hires', 'cara industri ini merekrut') + '</p><p style="font-size:13.5px;color:var(--r-text-2)">' + L(ip.routes) + '</p>' +
+        '<p style="font-size:13px;color:var(--r-text-3);margin-top:6px">' + L(ip.note) + '</p>' +
+        '<p class="micro" style="margin:14px 0 6px">' + t('Related industries', 'Industri terkait') + '</p><div class="chips">' + ip.related.map(function (i2) { return '<button class="chip-min tag" style="cursor:pointer" data-map-ind="' + i2 + '">' + indName(i2) + ' →</button>'; }).join('') + '</div>' : '') +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn-s explore" data-go="map/' + c.industry_id + '">' + t('Open the career map', 'Buka peta karier') + ' →</button><button class="btn-q" data-go="guide" style="color:var(--r-explore)">' + t('Ask the Range Guide', 'Tanya Range Guide') + ' →</button></div>' +
+      '</div>' +
+      (related.length ? '<p class="sec-h" style="margin-top:30px">' + t('Companies like this one', 'Perusahaan serupa') + '</p><div class="grid2">' + related.map(coCard).join('') + '</div>' : '');
+  }
+  function wireGo(host) {
+    $$('[data-go]', host).forEach(function (b) { b.addEventListener('click', function () { location.hash = '#/' + b.dataset.go; }); });
+    $$('[data-map-ind]', host).forEach(function (b) { b.addEventListener('click', function () { location.hash = '#/map/' + b.dataset.mapInd; }); });
+    wireTrackButtons(host);
+  }
+
+  /* ═══ CAREER MAP — industries × functions, with the companies behind each cell ═══ */
+  var MAPF = { ind: '', fn: '' };
+  function countCell(ind, fn) { return COS.filter(function (c) { return (!ind || c.industry_id === ind) && (!fn || c.fns.indexOf(fn) !== -1); }).length; }
+  function renderMap(args) {
+    var host = $('#v-map');
+    if (args && args[0] && G.industries.some(function (i2) { return i2.id === args[0]; })) MAPF.ind = args[0];
+    if (args && args[1] && PATHS && PATHS.FUNCTIONS[args[1]]) MAPF.fn = args[1];
+    var fns = Object.keys(O.FN_ROLES);
+    var head = '<h1 class="h-page">' + t('Career map', 'Peta karier') + '</h1>' +
+      '<p class="h-sub">' + t('How industries, functions, skills and companies connect — every count is the number of companies in The Range hiring that function in that industry. Pick a row and a column.', 'Bagaimana industri, fungsi, keterampilan, dan perusahaan saling terhubung — setiap angka adalah jumlah perusahaan di The Range yang merekrut fungsi itu di industri itu. Pilih satu baris dan satu kolom.') + '</p>';
+    var grid = '<div class="cmap-wrap"><table class="cmap"><tr><th></th>' + fns.map(function (fn) {
+      return '<th><button class="' + (MAPF.fn === fn ? 'on' : '') + '" data-mfn="' + fn + '">' + fnName(fn).replace(/ & .*$/, '').split(' ')[0] + '</button></th>';
+    }).join('') + '</tr>' +
+      G.industries.map(function (i2) {
+        return '<tr><th><button class="' + (MAPF.ind === i2.id ? 'on' : '') + '" data-mind="' + i2.id + '">' + L(i2.name) + '</button></th>' +
+          fns.map(function (fn) {
+            var n = countCell(i2.id, fn), core = PATHS && PATHS.INDUSTRIES[i2.id] && PATHS.INDUSTRIES[i2.id].core.indexOf(fn) !== -1;
+            var sel = (MAPF.ind === i2.id || !MAPF.ind) && (MAPF.fn === fn || !MAPF.fn) && (MAPF.ind || MAPF.fn);
+            return '<td><button class="cell' + (core ? ' core' : '') + (sel ? ' sel' : '') + (!n ? ' zero' : '') + '" data-cell="' + i2.id + '|' + fn + '">' + (n || '·') + '</button></td>';
+          }).join('') + '</tr>';
+      }).join('') + '</table></div>' +
+      '<p class="note3" style="margin:8px 0 18px"><span class="cmap-key core"></span> ' + t('core function for the industry', 'fungsi inti industri itu') + ' · <span class="cmap-key"></span> ' + t('also hired', 'juga direkrut') + '</p>';
+    var panel = '';
+    var ip = MAPF.ind && PATHS ? PATHS.INDUSTRIES[MAPF.ind] : null;
+    var fp = MAPF.fn && PATHS ? PATHS.FUNCTIONS[MAPF.fn] : null;
+    if (ip) {
+      panel += '<div class="card" style="margin-bottom:12px"><p class="micro">' + t('Industry', 'Industri') + '</p><h3 class="serif" style="font-size:20px;margin:4px 0 8px">' + indName(MAPF.ind) + '</h3>' +
+        '<p style="font-size:13.5px;color:var(--r-text-2)">' + L(ip.note) + '</p>' +
+        '<p class="micro" style="margin:12px 0 4px">' + t('Core functions', 'Fungsi inti') + '</p><div class="chips">' + ip.core.map(function (fn) { return '<button class="chip-min gold" style="cursor:pointer" data-mfn="' + fn + '">' + fnName(fn) + '</button>'; }).join('') + '</div>' +
+        '<p class="micro" style="margin:12px 0 4px">' + t('Also hired', 'Juga direkrut') + '</p><div class="chips">' + ip.common.map(function (fn) { return '<button class="chip-min" style="cursor:pointer" data-mfn="' + fn + '">' + fnName(fn) + '</button>'; }).join('') + '</div>' +
+        '<p class="micro" style="margin:12px 0 4px">' + t('How it hires', 'Cara merekrut') + '</p><p style="font-size:13.5px;color:var(--r-text-2)">' + L(ip.routes) + '</p>' +
+        '<p class="micro" style="margin:12px 0 6px">' + t('Skills that move the odds', 'Keterampilan yang mengubah peluang') + '</p>' + skillChips(ip.moves) +
+        '<p class="micro" style="margin:12px 0 6px">' + t('Related industries', 'Industri terkait') + '</p><div class="chips">' + ip.related.map(function (i2) { return '<button class="chip-min tag" style="cursor:pointer" data-mind="' + i2 + '">' + indName(i2) + ' →</button>'; }).join('') + '</div>' +
+        '<div style="margin-top:12px">' + trackBtn(ip.track, true) + '</div></div>';
+    }
+    if (fp) {
+      panel += '<div class="card" style="margin-bottom:12px"><p class="micro">' + t('Function', 'Fungsi') + '</p><h3 class="serif" style="font-size:20px;margin:4px 0 8px">' + fnName(MAPF.fn) + '</h3>' +
+        '<p style="font-size:13.5px;color:var(--r-text-2)">' + L(fp.demand) + '</p>' +
+        '<p class="micro" style="margin:12px 0 4px">' + t('Entry titles', 'Jabatan awal') + '</p><div class="chips">' + fp.entry.map(function (x) { return '<span class="chip-min">' + L(x) + '</span>'; }).join('') + '</div>' +
+        '<p class="micro" style="margin:12px 0 6px">' + t('How scope grows', 'Bagaimana lingkup tumbuh') + '</p>' + ladderHtml(MAPF.fn) +
+        '<p class="micro" style="margin:12px 0 6px">' + t('Skills that matter', 'Keterampilan yang penting') + '</p>' + skillChips(fp.skills) +
+        '<p class="micro" style="margin:12px 0 4px">' + t('Adjacent functions', 'Fungsi berdekatan') + '</p><div class="chips">' + fp.adjacent.map(function (fn) { return '<button class="chip-min tag" style="cursor:pointer" data-mfn="' + fn + '">' + fnName(fn) + ' →</button>'; }).join('') + '</div>' +
+        '<p class="micro" style="margin:12px 0 4px">' + t('Industries that hire it', 'Industri yang merekrutnya') + '</p><div class="chips">' + G.industries.filter(function (i2) { return countCell(i2.id, MAPF.fn) > 0; }).map(function (i2) { return '<button class="chip-min' + (PATHS.INDUSTRIES[i2.id] && PATHS.INDUSTRIES[i2.id].core.indexOf(MAPF.fn) !== -1 ? ' gold' : '') + '" style="cursor:pointer" data-mind="' + i2.id + '">' + L(i2.name) + ' · ' + countCell(i2.id, MAPF.fn) + '</button>'; }).join('') + '</div>' +
+        '<div style="margin-top:12px">' + trackBtn(fp.track, true) + '</div></div>';
+    }
+    var cos = (MAPF.ind || MAPF.fn) ? COS.filter(function (c) { return (!MAPF.ind || c.industry_id === MAPF.ind) && (!MAPF.fn || c.fns.indexOf(MAPF.fn) !== -1); }) : [];
+    cos.sort(function (a, b) { return (a.source_type === 'directory' ? 1 : 0) - (b.source_type === 'directory' ? 1 : 0) || (a.geo === 'id' ? 0 : 1) - (b.geo === 'id' ? 0 : 1); });
+    var list = cos.length ? '<p class="sec-h" style="margin-top:26px">' + cos.length + ' ' + t('companies', 'perusahaan') + (MAPF.fn ? ' · ' + fnName(MAPF.fn) : '') + (MAPF.ind ? ' · ' + indName(MAPF.ind) : '') + '</p>' +
+      '<div class="grid2">' + cos.slice(0, 8).map(coCard).join('') + '</div>' +
+      (cos.length > 8 ? '<div style="margin-top:14px"><button class="btn-s" data-go="explore" id="mapMore">' + t('See all in Explore', 'Lihat semua di Jelajah') + ' · ' + cos.length + ' →</button></div>' : '') : '';
+    if (!MAPF.ind && !MAPF.fn) panel = '<div class="empty" style="max-width:560px">' + t('Pick an industry (row) or a function (column) to see who hires, how scope grows, which skills matter and which Module 6 track simulates the work.', 'Pilih industri (baris) atau fungsi (kolom) untuk melihat siapa yang merekrut, bagaimana lingkup tumbuh, keterampilan mana yang penting, dan jalur Modul 6 mana yang mensimulasikan pekerjaannya.') + '</div>';
+    host.innerHTML = head + grid + panel + list;
+    $$('[data-mind]', host).forEach(function (b) { b.addEventListener('click', function () { MAPF.ind = MAPF.ind === b.dataset.mind && b.classList.contains('on') ? '' : b.dataset.mind; renderMap(); applyLang(); window.MT_LOGO.wire(host); }); });
+    $$('[data-mfn]', host).forEach(function (b) { b.addEventListener('click', function () { MAPF.fn = MAPF.fn === b.dataset.mfn && b.classList.contains('on') ? '' : b.dataset.mfn; renderMap(); applyLang(); window.MT_LOGO.wire(host); }); });
+    $$('[data-cell]', host).forEach(function (b) { b.addEventListener('click', function () { var p = b.dataset.cell.split('|'); MAPF.ind = p[0]; MAPF.fn = p[1]; renderMap(); applyLang(); window.MT_LOGO.wire(host); }); });
+    if ($('#mapMore')) $('#mapMore').addEventListener('click', function () { XF.ind = MAPF.ind; XF.fn = MAPF.fn; XF.q = ''; XF.limit = 24; });
+    wireOppButtons(host); wireGo(host);
+  }
+
+  /* ═══ THE RANGE GUIDE — interests and objectives → directions, companies, roles, a path ═══ */
+  var GUIDE = { text: '', tags: [], objs: [], cur: '', geo: '', res: null };
+  function readGuide(text, tags, objs) {
+    /* plain language + chips → the model's vocabulary; every match is kept as a reason */
+    var sig = { tags: {}, fns: {}, inds: {}, attrs: {}, geo: '', bumn: false, notes: [], why: [] };
+    var addAttr = function (a) { Object.keys(a || {}).forEach(function (k) { sig.attrs[k] = sig.attrs[k] == null ? a[k] : Math.round((sig.attrs[k] + a[k]) / 2); }); };
+    (PATHS ? PATHS.LEXICON : []).forEach(function (r) {
+      var m = text.match(r.re); if (!m) return;
+      (r.tags || []).forEach(function (x) { sig.tags[x] = (sig.tags[x] || 0) + 1; });
+      (r.fns || []).forEach(function (x) { sig.fns[x] = (sig.fns[x] || 0) + 1; });
+      (r.inds || []).forEach(function (x) { sig.inds[x] = (sig.inds[x] || 0) + 1; });
+      addAttr(r.attrs); if (r.geo) sig.geo = r.geo; if (r.bumn) sig.bumn = true;
+      if (r.note) sig.notes.push(L(r.note));
+      sig.why.push({ word: m[0], tags: r.tags || [], fns: r.fns || [], inds: r.inds || [] });
+    });
+    tags.forEach(function (x) { sig.tags[x] = (sig.tags[x] || 0) + 2; });
+    objs.forEach(function (id) {
+      var o = (PATHS ? PATHS.OBJECTIVES : []).filter(function (x) { return x.id === id; })[0]; if (!o) return;
+      addAttr(o.attrs); (o.tags || []).forEach(function (x) { sig.tags[x] = (sig.tags[x] || 0) + 1; });
+      (o.fns || []).forEach(function (x) { sig.fns[x] = (sig.fns[x] || 0) + 1; }); (o.inds || []).forEach(function (x) { sig.inds[x] = (sig.inds[x] || 0) + 1; });
+      if (o.geo) sig.geo = o.geo;
+    });
+    return sig;
+  }
+  function scoreDirections(sig) {
+    var hasId = ID.attributes && Object.keys(ID.attributes).length >= 4;
+    return G.directions.map(function (d) {
+      var s = 0, reasons = [];
+      (d.interest_tags || []).forEach(function (tg) { if (sig.tags[tg]) { s += 2 * Math.min(2, sig.tags[tg]); reasons.push({ k: 'tag', v: tg }); } });
+      d.function_ids.forEach(function (fn) { if (sig.fns[fn]) { s += 3; reasons.push({ k: 'fn', v: fn }); } });
+      d.industry_ids.forEach(function (i2) { if (sig.inds[i2]) { s += 1.5; reasons.push({ k: 'ind', v: i2 }); } });
+      var ak = Object.keys(sig.attrs);
+      if (ak.length) { var dist = 0; ak.forEach(function (k) { dist += Math.abs((d.attrs[k] || 50) - sig.attrs[k]) / 100; }); s += 3 * (1 - dist / ak.length); }
+      var band = null;
+      if (hasId) { var r = F.analyseDirection(ID, d, lang()); band = r.band; if (band && band.id === 'strong') s += 2; else if (band && band.id === 'worth') s += 1; }
+      return { d: d, s: s, reasons: reasons, band: band };
+    }).sort(function (a, b) { return b.s - a.s; });
+  }
+  function pathTo(cur, target) {
+    if (!PATHS || !cur || !target || cur === target) return null;
+    var P2 = PATHS.FUNCTIONS, c = P2[cur], tg = P2[target]; if (!c || !tg) return null;
+    var bridge = tg.skills.filter(function (k) { return c.skills.indexOf(k) === -1; });
+    var direct = c.adjacent.indexOf(target) !== -1 || c.routes_out.some(function (x) { return x.fn === target; });
+    if (direct) return { steps: [cur, target], bridge: bridge, direct: true };
+    var via = c.adjacent.filter(function (m) { return P2[m] && (P2[m].adjacent.indexOf(target) !== -1 || P2[m].routes_out.some(function (x) { return x.fn === target; })); })[0];
+    return { steps: via ? [cur, via, target] : [cur, target], bridge: bridge, direct: false, via: via || null };
+  }
+  function renderGuide() {
+    var host = $('#v-guide');
+    var res = GUIDE.res;
+    var intro = '<h1 class="h-page">' + t('Range Guide', 'Range Guide') + ' <span class="ai-pill">' + t('AI-assisted · runs on your device', 'Berbantuan AI · berjalan di perangkatmu') + '</span></h1>' +
+      '<p class="h-sub">' + t('Describe what interests you and what you want from work, in your own words. The guide reads it on this device, maps it onto The Range’s directions, functions and companies, and shows its reasons — it never sends your text anywhere and never predicts outcomes.', 'Ceritakan apa yang menarik bagimu dan apa yang kamu inginkan dari pekerjaan, dengan kata-katamu sendiri. Guide membacanya di perangkat ini, memetakannya ke arah, fungsi, dan perusahaan di The Range, dan menunjukkan alasannya — tidak pernah mengirim teksmu ke mana pun dan tidak pernah memprediksi hasil.') + '</p>';
+    var form = '<div class="card" style="max-width:760px">' +
+      '<label class="micro" for="gText" style="display:block;margin-bottom:6px">' + t('In your words', 'Dengan kata-katamu') + '</label>' +
+      '<textarea id="gText" rows="3" placeholder="' + t('e.g. I like data and puzzles, I want to grow fast, ideally at an Indonesian fintech or a bank…', 'mis. Aku suka data dan teka-teki, ingin tumbuh cepat, idealnya di fintech Indonesia atau bank…') + '">' + esc(GUIDE.text) + '</textarea>' +
+      '<p class="micro" style="margin:12px 0 6px">' + t('What pulls you', 'Apa yang menarikmu') + '</p><div class="chips" id="gTags">' + PATHS.INTERESTS.map(function (x) { return '<button class="chip-min' + (GUIDE.tags.indexOf(x[0]) !== -1 ? ' gold' : '') + '" data-gtag="' + x[0] + '">' + L(x[1]) + '</button>'; }).join('') + '</div>' +
+      '<p class="micro" style="margin:12px 0 6px">' + t('What you want from work', 'Apa yang kamu inginkan dari pekerjaan') + '</p><div class="chips" id="gObjs">' + PATHS.OBJECTIVES.map(function (o) { return '<button class="chip-min' + (GUIDE.objs.indexOf(o.id) !== -1 ? ' gold' : '') + '" data-gobj="' + o.id + '">' + L(o.label) + '</button>'; }).join('') + '</div>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center">' +
+      '<select id="gCur" style="width:auto"><option value="">' + t('Where you are now: student / fresh graduate', 'Posisimu sekarang: mahasiswa / lulusan baru') + '</option>' + Object.keys(PATHS.FUNCTIONS).map(function (fn) { return '<option value="' + fn + '"' + (GUIDE.cur === fn ? ' selected' : '') + '>' + t('Now in: ', 'Sekarang di: ') + fnName(fn) + '</option>'; }).join('') + '</select>' +
+      '<select id="gGeo" style="width:auto"><option value="">' + t('Anywhere', 'Di mana saja') + '</option><option value="id"' + (GUIDE.geo === 'id' ? ' selected' : '') + '>' + t('Indonesia', 'Indonesia') + '</option><option value="intl"' + (GUIDE.geo === 'intl' ? ' selected' : '') + '>' + t('International', 'Internasional') + '</option></select>' +
+      '<button class="btn-p" id="gRun" style="background:var(--r-explore)">' + t('Guide me', 'Pandu aku') + ' →</button></div>' +
+      '<p class="note3" style="margin-top:10px">' + t('The matching is deterministic and inspectable: every suggestion below names the words and choices that produced it. Your questionnaire answers, if you have any, are blended in.', 'Pencocokannya deterministik dan bisa diperiksa: setiap saran di bawah menyebut kata dan pilihan yang menghasilkannya. Jawaban kuesionermu, kalau ada, ikut dipadukan.') + '</p></div>';
+    var out = '';
+    if (res) {
+      var sig = res.sig, top = res.top;
+      var readChips = Object.keys(sig.tags).map(function (tg) { var x = PATHS.INTERESTS.filter(function (y) { return y[0] === tg; })[0]; return '<span class="chip-min gold">' + (x ? L(x[1]) : tg) + '</span>'; }).join('') +
+        Object.keys(sig.fns).map(function (fn) { return '<span class="chip-min">' + fnName(fn) + '</span>'; }).join('') +
+        Object.keys(sig.inds).map(function (i2) { return '<span class="chip-min">' + indName(i2) + '</span>'; }).join('') +
+        (sig.geo ? '<span class="chip-min">' + (sig.geo === 'id' ? 'Indonesia' : t('International', 'Internasional')) + '</span>' : '');
+      out += '<div class="card" style="max-width:760px;margin-top:16px"><p class="micro" style="margin-bottom:6px">' + t('What the guide read', 'Yang dibaca guide') + '</p>' +
+        (readChips ? '<div class="chips">' + readChips + '</div>' : '<p class="note3">' + t('Nothing it could map yet — add a few words or pick some chips.', 'Belum ada yang bisa dipetakan — tambahkan beberapa kata atau pilih chip.') + '</p>') +
+        (sig.why.length ? '<p class="note3" style="margin-top:8px">' + t('Words that mattered: ', 'Kata yang berpengaruh: ') + sig.why.map(function (w) { return '“' + esc(w.word) + '”'; }).join(', ') + '</p>' : '') +
+        sig.notes.map(function (n) { return '<p class="prov i" style="margin-top:8px">~ ' + n + '</p>'; }).join('') + '</div>';
+      if (top.length) {
+        out += '<p class="sec-h" style="margin-top:26px">' + t('Directions worth investigating', 'Arah yang layak diselidiki') + ' · ' + top.length + '</p>' +
+          top.map(function (r, i) {
+            var d = r.d, fns = d.function_ids, pool = COS.filter(function (c) {
+              return (!sig.geo || c.geo === sig.geo) && d.industry_ids.indexOf(c.industry_id) !== -1 && c.fns.some(function (fn) { return fns.indexOf(fn) !== -1; }) && (!sig.bumn || c.bumn);
+            });
+            if (Object.keys(sig.inds).length) pool.sort(function (a, b) { return (sig.inds[b.industry_id] ? 1 : 0) - (sig.inds[a.industry_id] ? 1 : 0); });
+            pool.sort(function (a, b) { return (a.source_type === 'directory' ? 1 : 0) - (b.source_type === 'directory' ? 1 : 0); });
+            var picks = pool.slice(0, 4);
+            var why = r.reasons.map(function (x) { return x.k === 'tag' ? (PATHS.INTERESTS.filter(function (y) { return y[0] === x.v; })[0] || [x.v, { en: x.v, id: x.v }])[1] : x.k === 'fn' ? { en: fnName(x.v), id: fnName(x.v) } : { en: indName(x.v), id: indName(x.v) }; }).map(L);
+            var uniq = []; why.forEach(function (w) { if (uniq.indexOf(w) === -1) uniq.push(w); });
+            var track = PATHS.FUNCTIONS[fns[0]] ? PATHS.FUNCTIONS[fns[0]].track : null;
+            var path = pathTo(GUIDE.cur, fns[0]);
+            return '<div class="card gd-card"><div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap"><h3 class="serif" style="font-size:19px;margin:0">' + (i + 1) + ' · ' + L(d.name) + '</h3>' +
+              (r.band ? '<span class="prov ' + (r.band.id === 'strong' ? 'v' : 'i') + '">' + (lang() === 'id' ? r.band.id_ : r.band.en) + ' · ' + t('from your questionnaire', 'dari kuesionermu') + '</span>' : '') + '</div>' +
+              '<p style="font-size:13.5px;color:var(--r-text-2);margin:6px 0 8px">' + L(d.summary) + '</p>' +
+              '<p class="note3"><b style="color:var(--r-explore)">' + t('Because you said: ', 'Karena kamu menyebut: ') + '</b>' + (uniq.length ? uniq.join(' · ') : t('closest fit to the way you want to work', 'kecocokan terdekat dengan cara kerja yang kamu inginkan')) + ' · <span style="color:var(--r-against)">' + t('trade-off: ', 'kompromi: ') + L(d.tradeoffs[0]) + '</span></p>' +
+              '<p class="micro" style="margin:10px 0 6px">' + t('Skills to build', 'Keterampilan untuk dibangun') + '</p>' + skillChips(PATHS.FUNCTIONS[fns[0]] ? PATHS.FUNCTIONS[fns[0]].skills : []) +
+              (path ? '<p class="micro" style="margin:10px 0 4px">' + t('A route from where you are', 'Rute dari posisimu sekarang') + '</p><p style="font-size:13px;color:var(--r-text-2)">' + path.steps.map(fnName).join(' → ') + (path.direct ? ' — ' + t('an adjacent move', 'perpindahan ke fungsi berdekatan') : path.via ? ' — ' + t('via an adjacent function', 'lewat fungsi berdekatan') : ' — ' + t('not a common move; expect to re-enter at a junior level', 'bukan perpindahan yang umum; bersiaplah masuk kembali di level junior')) + '.' + (path.bridge.length ? ' ' + t('Bridge skills: ', 'Keterampilan penghubung: ') + path.bridge.map(function (k) { return L(PATHS.SKILLS[k]); }).join(', ') + '.' : '') + '</p>' : '') +
+              (picks.length ? '<p class="micro" style="margin:10px 0 6px">' + t('Companies to research', 'Perusahaan untuk diriset') + ' · ' + pool.length + '</p><div class="chips">' + picks.map(function (c) { return '<button class="chip-min tag" style="cursor:pointer" data-open-co="' + c.id + '">' + c.name + ' →</button>'; }).join('') + (pool.length > 4 ? '<button class="chip-min" style="cursor:pointer" data-xfilter="' + (d.industry_ids[0]) + '|' + fns[0] + '|' + (sig.geo || '') + '">+' + (pool.length - 4) + ' ' + t('in Explore', 'di Jelajah') + '</button>' : '') + '</div>' : '') +
+              '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="btn-s explore" data-dd="' + d.id + '">' + t('Read the direction', 'Baca arahnya') + ' →</button>' + trackBtn(track, false) + '<button class="btn-q" data-addr="' + d.id + '" style="color:var(--r-explore)">' + t('Add to my range', 'Tambah ke bentangku') + ' +</button></div>' +
+              '</div>';
+          }).join('');
+      } else {
+        out += '<div class="empty" style="max-width:560px;margin-top:16px">' + t('Not enough to go on yet. Two or three sentences, or three chips, are enough.', 'Belum cukup bahan. Dua-tiga kalimat, atau tiga chip, sudah cukup.') + '</div>';
+      }
+      out += '<div class="disc" style="max-width:760px;margin-top:22px"><b>' + t('How to read this.', 'Cara membacanya.') + '</b> ' + t('Directions are ranked by how many of your words, chips and objectives map onto each one, plus your questionnaire if you answered it — a lookup over Metanoia’s editorial data, not a prediction. Companies are listed because they hire that function in that industry, not because they are hiring you. Use it to decide what to investigate next, then run the Module 6 track before you commit.', 'Arah diurutkan berdasarkan berapa banyak kata, chip, dan tujuanmu yang terpetakan ke masing-masing, ditambah kuesionermu kalau sudah diisi — pencarian atas data editorial Metanoia, bukan prediksi. Perusahaan dicantumkan karena merekrut fungsi itu di industri itu, bukan karena sedang merekrutmu. Gunakan untuk memutuskan apa yang diselidiki berikutnya, lalu jalankan jalur Modul 6 sebelum berkomitmen.') + '</div>';
+    }
+    host.innerHTML = intro + form + out;
+    $$('[data-gtag]', host).forEach(function (b) { b.addEventListener('click', function () { var i = GUIDE.tags.indexOf(b.dataset.gtag); if (i === -1) GUIDE.tags.push(b.dataset.gtag); else GUIDE.tags.splice(i, 1); b.classList.toggle('gold'); }); });
+    $$('[data-gobj]', host).forEach(function (b) { b.addEventListener('click', function () { var i = GUIDE.objs.indexOf(b.dataset.gobj); if (i === -1) GUIDE.objs.push(b.dataset.gobj); else GUIDE.objs.splice(i, 1); b.classList.toggle('gold'); }); });
+    $('#gRun').addEventListener('click', function () {
+      GUIDE.text = $('#gText').value; GUIDE.cur = $('#gCur').value; GUIDE.geo = $('#gGeo').value;
+      var sig = readGuide(GUIDE.text, GUIDE.tags, GUIDE.objs); if (GUIDE.geo) sig.geo = GUIDE.geo;
+      var ranked = scoreDirections(sig).filter(function (r) { return r.s > 0; });
+      GUIDE.res = { sig: sig, top: ranked.slice(0, 5) };
+      try { localStorage.setItem('mt-range-guide', JSON.stringify({ text: GUIDE.text, tags: GUIDE.tags, objs: GUIDE.objs, cur: GUIDE.cur, geo: GUIDE.geo })); } catch (e) {}
+      renderGuide(); applyLang(); window.scrollTo(0, $('#v-guide').querySelector('.sec-h') ? $('#v-guide').querySelector('.sec-h').offsetTop - 80 : 0);
+    });
+    $$('[data-dd]', host).forEach(function (b) { b.addEventListener('click', function () { go('ddetail', b.dataset.dd); }); });
+    $$('[data-addr]', host).forEach(function (b) { b.addEventListener('click', function () { setPoss('direction', b.dataset.addr, 'watching'); b.textContent = '✓ ' + t('In your range', 'Di bentangmu'); }); });
+    $$('[data-xfilter]', host).forEach(function (b) { b.addEventListener('click', function () { var p = b.dataset.xfilter.split('|'); XF.ind = p[0]; XF.fn = p[1]; if (p[2]) XF.geo = p[2]; XF.q = ''; XF.limit = 24; go('explore'); }); });
+    wireOppButtons(host); wireTrackButtons(host);
+  }
+  try { var gs = JSON.parse(localStorage.getItem('mt-range-guide') || 'null'); if (gs) { GUIDE.text = gs.text || ''; GUIDE.tags = gs.tags || []; GUIDE.objs = gs.objs || []; GUIDE.cur = gs.cur || ''; GUIDE.geo = gs.geo || ''; } } catch (e) {}
+
+  /* "Ask the Range" — a plain-language line on Explore becomes filters */
+  function askRange(text) {
+    var sig = readGuide(text, [], []);
+    var inds = Object.keys(sig.inds), fns = Object.keys(sig.fns);
+    /* a company name in the sentence beats everything else */
+    var lower = text.toLowerCase(), named = COS.filter(function (c) { return lower.indexOf(c.name.toLowerCase().split(' (')[0]) !== -1 && c.name.length > 3; })[0];
+    if (!inds.length && fns.length) { /* map the function to the industries where it is core */
+      var core = G.industries.filter(function (i2) { return PATHS.INDUSTRIES[i2.id] && PATHS.INDUSTRIES[i2.id].core.indexOf(fns[0]) !== -1; });
+      if (core.length === 1) inds = [core[0].id];
+    }
+    if (named) { inds = [named.industry_id]; if (!sig.geo) sig.geo = named.geo; }   /* a named company sets its own industry and geography */
+    return { ind: inds[0] || '', fn: fns[0] || '', geo: sig.geo || XF.geo, q: named ? named.name.split(' (')[0] : '', read: sig };
+  }
+
   /* ═══ ⌘K SEARCH ═══ */
   var kbar = $('#kbar'), kInput = $('#kInput'), kRes = $('#kRes');
   function kOpen() { kbar.classList.add('open'); kInput.value = ''; kSearch(''); kInput.focus(); }
@@ -1821,6 +2093,9 @@
     });
     G.directions.forEach(function (d) {
       if (!q || L(d.name).toLowerCase().indexOf(q) !== -1) out.push({ n: L(d.name), tp: t('Direction', 'Arah'), go: function () { go('ddetail', d.id); } });
+    });
+    [[t('Range Guide — from your interests', 'Range Guide — dari minatmu'), 'guide'], [t('Career map — industries × functions', 'Peta karier — industri × fungsi'), 'map']].forEach(function (x) {
+      if (!q || x[0].toLowerCase().indexOf(q) !== -1) out.unshift({ n: x[0], tp: t('Tool', 'Alat'), go: function () { go(x[1]); } });
     });
     kRes.innerHTML = out.slice(0, 12).map(function (x, i) {
       return '<button data-ki="' + i + '">' + x.n + '<span class="kt">' + x.tp + '</span></button>';

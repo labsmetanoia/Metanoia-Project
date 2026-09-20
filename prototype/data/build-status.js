@@ -11,7 +11,7 @@ window.MT_BUILD_STATUS = {
     { en: 'Career Map assessment with readiness score', id: 'Asesmen Career Map dengan skor kesiapan' },
     { en: 'The Gauntlet — full 8-gate guide, free and public', id: 'The Gauntlet — panduan 8 gerbang lengkap, gratis dan publik' },
     { en: 'The Map & The Pack — Student and Fresh Graduate curricula', id: 'The Map & The Pack — kurikulum Mahasiswa dan Fresh Graduate' },
-    { en: 'The Range — 675 real companies, each on its own page', id: 'The Range — 675 perusahaan nyata, masing-masing di halamannya sendiri' },
+    { en: 'The Range — 768 real companies, each on its own page', id: 'The Range — 768 perusahaan nyata, masing-masing di halamannya sendiri' },
     { en: 'Mind Palace — articles, playbooks and signals', id: 'Mind Palace — artikel, playbook, dan sinyal' },
     { en: 'The Compass tracker (beta, browser-stored)', id: 'Pelacak The Compass (beta, tersimpan di peramban)' }
   ],

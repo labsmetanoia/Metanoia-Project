@@ -239,7 +239,7 @@ window.MT_MP = (function () {
                 'Pertimbangan editorial dari tuntutan keahlian yang disebut lintas peran di basis data peluang Metanoia; kami tidak menerbitkan statistik adopsi yang tidak bisa kami rujuk.') }
     ],
     tools: [
-      { pillar: 'the-map', why: L('See which functions in 675 companies lean on data and technology skills — in The Range (Explore).', 'Lihat fungsi mana di 675 perusahaan yang bertumpu pada keahlian data dan teknologi — di The Range (Explore).') }
+      { pillar: 'the-map', why: L('See which functions in 768 companies lean on data and technology skills — in The Range (Explore).', 'Lihat fungsi mana di 768 perusahaan yang bertumpu pada keahlian data dan teknologi — di The Range (Explore).') }
     ]
   },
 
@@ -362,7 +362,7 @@ window.MT_MP = (function () {
                 'Kurikulum keahlian dan kompromi industri dirangkum dari profil arah dalam grafik karier Metanoia, yang menyatakan kompromi secara eksplisit.') }
     ],
     tools: [
-      { pillar: 'the-map', why: L('The Range (Explore) holds the day-in-the-life, trade-offs and hiring reality for 25 directions and 675 companies.', 'The Range (Explore) memuat gambaran hari kerja, kompromi, dan realitas rekrutmen untuk 25 arah dan 675 perusahaan.') }
+      { pillar: 'the-map', why: L('The Range (Explore) holds the day-in-the-life, trade-offs and hiring reality for 25 directions and 768 companies.', 'The Range (Explore) memuat gambaran hari kerja, kompromi, dan realitas rekrutmen untuk 25 arah dan 768 perusahaan.') }
     ]
   },
   {

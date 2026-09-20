@@ -434,3 +434,43 @@
   font-size:11.5px;line-height:1.6;color:var(--text-faint,rgba(240,237,232,.42));text-align:left}
 :root[data-theme="light"] .rg-tm{color:rgba(27,36,52,.5)}
 @media(max-width:640px){.rg-tm{margin:26px 0 4px;font-size:11px}}
+
+/* ═══ Career paths · career map · Range Guide ═══ */
+#tab-range .ai-pill{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--r-explore);border:1px solid var(--r-line2);border-radius:999px;padding:3px 9px;vertical-align:middle;margin-left:6px}
+#tab-range .xtools{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 16px}
+#tab-range .xtool{text-align:left;display:flex;flex-direction:column;gap:6px;cursor:pointer}
+#tab-range .xtool b{font-size:14px;line-height:1.4;color:var(--r-text)}
+#tab-range .ask{display:flex;gap:8px;margin:0 0 16px;max-width:760px}
+#tab-range .ask input{flex:1;min-width:0}
+#tab-range .ladder{display:flex;flex-direction:column;gap:0;border-left:2px solid var(--r-line2);margin:6px 0 0 10px}
+#tab-range .rung{display:flex;gap:12px;padding:6px 0 10px 14px;position:relative}
+#tab-range .rung .rn{position:absolute;left:-13px;top:8px;width:22px;height:22px;border-radius:50%;background:var(--r-raised);border:1.5px solid var(--r-line2);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;color:var(--r-explore)}
+#tab-range .rung div{padding-left:14px}
+#tab-range .rung b{font-size:13.5px;color:var(--r-text)}
+#tab-range .rung .ry{font-size:11px;color:var(--r-text-3);margin-left:8px}
+#tab-range .rung p{font-size:12.5px;color:var(--r-text-2);margin:2px 0 0;line-height:1.5}
+#tab-range details.path{border:1px solid var(--r-line);border-radius:12px;padding:12px 14px;margin:0 0 8px;background:var(--r-surface)}
+#tab-range details.path summary{cursor:pointer;display:flex;flex-direction:column;gap:2px;list-style:none}
+#tab-range details.path summary::-webkit-details-marker{display:none}
+#tab-range details.path summary b{font-size:14px;color:var(--r-text)}
+#tab-range details.path summary::after{content:'+';position:absolute;right:16px;color:var(--r-explore);font-weight:800}
+#tab-range details.path{position:relative}
+#tab-range details.path[open] summary::after{content:'–'}
+#tab-range .path-body{margin-top:10px;border-top:1px dashed var(--r-line);padding-top:10px}
+#tab-range .cmap-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 8px;border:1px solid var(--r-line);border-radius:12px}
+#tab-range table.cmap{border-collapse:separate;border-spacing:0;min-width:760px;width:100%;font-size:12px}
+#tab-range table.cmap th{text-align:left;padding:6px 8px;font-size:11px;font-weight:800;color:var(--r-text-2);white-space:nowrap;background:var(--r-raised);position:sticky;left:0}
+#tab-range table.cmap tr th:first-child{z-index:1;min-width:180px}
+#tab-range table.cmap thead th,#tab-range table.cmap tr:first-child th{position:static;text-align:center}
+#tab-range table.cmap th button{font:inherit;background:none;border:none;color:inherit;cursor:pointer;padding:4px 6px;border-radius:8px;font-weight:800}
+#tab-range table.cmap th button.on,#tab-range table.cmap th button:hover{background:var(--r-chipbg);color:var(--r-explore)}
+#tab-range table.cmap td{padding:3px;text-align:center}
+#tab-range table.cmap .cell{width:100%;min-width:40px;height:34px;border-radius:8px;border:1px solid var(--r-line);background:var(--r-surface);color:var(--r-text-2);font:inherit;font-weight:700;cursor:pointer}
+#tab-range table.cmap .cell.core{border-color:var(--r-line2);background:var(--r-chipbg);color:var(--r-text)}
+#tab-range table.cmap .cell.sel{outline:2px solid var(--r-explore);outline-offset:-1px;color:var(--r-explore)}
+#tab-range table.cmap .cell.zero{opacity:.4;cursor:default}
+#tab-range .cmap-key{display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--r-line);vertical-align:middle;background:var(--r-surface)}
+#tab-range .cmap-key.core{background:var(--r-chipbg);border-color:var(--r-line2)}
+#tab-range #gText{width:100%;box-sizing:border-box;font:inherit;font-size:14px;line-height:1.5;padding:10px 12px;border-radius:10px;border:1px solid var(--r-line2);background:var(--r-surface);color:var(--r-text);resize:vertical}
+#tab-range .gd-card{max-width:760px;margin-bottom:12px}
+@media(max-width:700px){#tab-range .xtools{grid-template-columns:1fr}#tab-range .ask{flex-direction:column}}

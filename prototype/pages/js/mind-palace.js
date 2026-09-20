@@ -252,7 +252,7 @@
       '<a class="rcard" href="../products/the-map/#/explore" style="text-decoration:none">' +
       '<div class="rc-head"><span class="bridge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 6.5C10.4 5 8.2 4.5 5 4.5v14c3.2 0 5.4.5 7 2 1.6-1.5 3.8-2 7-2v-14c-3.2 0-5.4.5-7 2Z"/><path d="M12 6.5v14"/></svg></span>' +
       '<div class="rc-tx"><div class="org">The Range (Explore)</div>' +
-      '<h3>' + t('675 companies, 25 directions — the doors behind these programmes', '675 perusahaan, 25 arah — pintu-pintu di balik program ini') + '</h3></div></div>' +
+      '<h3>' + t('768 companies, 25 directions — the doors behind these programmes', '768 perusahaan, 25 arah — pintu-pintu di balik program ini') + '</h3></div></div>' +
       '<div class="win">' + t('Investigate employers, functions and hiring stages before you commit weeks to one application.', 'Selidiki pemberi kerja, fungsi, dan tahapan rekrutmen sebelum menghabiskan berminggu-minggu untuk satu lamaran.') + '</div>' +
       '<div class="foot"><span class="pill verify">' + t('Part of The Map', 'Bagian dari The Map') + '</span></div></a></div>' +
       '<div class="tipstrip"><span class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 1 3.5 10.9c-.7.5-1 1.3-1 2.1h-5c0-.8-.3-1.6-1-2.1A6 6 0 0 1 12 3Z"/><path d="M9.5 18.5h5M10.3 21h3.4"/></svg></span>' +
@@ -267,7 +267,7 @@
   var PRODUCTS = [
     { name: 'The Map · The Range (Explore)', href: '../products/the-map/',
       kw: 'map range explore companies industries directions career identity cv fit hiring process',
-      why: L('Investigate 675 companies, 25 directions and documented hiring processes.', 'Selidiki 675 perusahaan, 25 arah, dan proses rekrutmen terdokumentasi.') },
+      why: L('Investigate 768 companies, 25 directions and documented hiring processes.', 'Selidiki 768 perusahaan, 25 arah, dan proses rekrutmen terdokumentasi.') },
     { name: 'The Pack', href: '../products/the-pack/',
       kw: 'pack cv resume ats application assessment materials portfolio',
       why: L('Build the materials: CV, ATS checks, assessments.', 'Bangun materinya: CV, uji ATS, asesmen.') },
