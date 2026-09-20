@@ -4599,8 +4599,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
      },
      "dur": {
-      "en": "35 min",
-      "id": "35 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -4736,8 +4736,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menyusun Masalah — Materi"
        },
        "intro": {
-        "en": "After the case slides, three slides put step 1 to work on a live case. CarneCarne, a Spanish butcher chain, has found E. coli in frozen beef at its northwest distribution centre and has three days before a press release: how would you structure the problem? A check-your-understanding question on the team's best next step, with the expert's explanation and the SMART problem question the team aligned on; then the problem-solving journey — define, structure, prioritise — and why structuring and prioritising is how you spend limited time on the right area. Read them, then continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
-        "id": "Setelah slide kasus, tiga slide menerapkan langkah 1 pada kasus nyata. CarneCarne, jaringan toko daging di Spanyol, menemukan E. coli pada daging sapi beku di pusat distribusi barat lautnya dan punya tiga hari sebelum siaran pers: bagaimana Anda akan menyusun masalah ini? Sebuah pertanyaan uji pemahaman tentang langkah terbaik berikutnya bagi tim, dengan penjelasan ahli dan pertanyaan masalah SMART yang disepakati tim; lalu tahapan perjalanan pemecahan masalah — definisikan, susun, prioritaskan — dan mengapa menyusun dan memprioritaskan adalah cara menghabiskan waktu yang terbatas pada area yang tepat. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+        "en": "After the case slides, three slides put step 1 to work on a live case. CarneCarne, a Spanish butcher chain, has found E. coli in frozen beef at its northwest distribution centre and has three days before a press release: how would you structure the problem? A check-your-understanding question on the team's best next step, with the expert's explanation and the SMART problem question the team aligned on; then the problem-solving journey — define, structure, prioritise — and why structuring and prioritising is how you spend limited time on the right area. Read them, then watch the film that follows.",
+        "id": "Setelah slide kasus, tiga slide menerapkan langkah 1 pada kasus nyata. CarneCarne, jaringan toko daging di Spanyol, menemukan E. coli pada daging sapi beku di pusat distribusi barat lautnya dan punya tiga hari sebelum siaran pers: bagaimana Anda akan menyusun masalah ini? Sebuah pertanyaan uji pemahaman tentang langkah terbaik berikutnya bagi tim, dengan penjelasan ahli dan pertanyaan masalah SMART yang disepakati tim; lalu tahapan perjalanan pemecahan masalah — definisikan, susun, prioritaskan — dan mengapa menyusun dan memprioritaskan adalah cara menghabiskan waktu yang terbatas pada area yang tepat. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-struct-",
        "slides": [
@@ -5108,6 +5108,35 @@ window.MT_LMS['the-map'] = {
         "en": "Worry less, act more; ask people who have done it; look for the overlooked option. Two of the striker's three checks changed her decision — a week of thinking had changed nothing.",
         "id": "Kurangi cemas, perbanyak tindakan; tanya orang yang sudah menjalaninya; cari pilihan yang terlewat. Dua dari tiga pemeriksaan si penyerang mengubah keputusannya — seminggu berpikir tidak mengubah apa pun."
        }
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "structuring",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "After the slides, a two-minute film shows the CarneCarne case from the slides, acted out. Three days before the press conference, Elena's team maps where the E. coli could have entered — the farms, the packaging facility, the northwest distribution centre, the stores — eliminates the stores because the beef was caught before it reached them, and splits the remaining branches between Javier, Sophia and Mateo: thorough, meticulous, no stone unturned, reconvening on Friday. It is step 2 in miniature — structure the problem into its parts, then decide who looks where. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
+        "id": "Setelah slide, sebuah film dua menit menampilkan kasus CarneCarne dari slide, diperankan. Tiga hari sebelum konferensi pers, tim Elena memetakan dari mana E. coli bisa masuk — peternakan, fasilitas pengemasan, pusat distribusi barat laut, toko-toko — menyingkirkan toko-toko karena daging sapinya tertangkap sebelum sampai ke sana, dan membagi cabang-cabang yang tersisa di antara Javier, Sophia, dan Mateo: teliti, cermat, tidak ada yang terlewat, bertemu lagi hari Jumat. Ini langkah 2 dalam versi mini — susun masalah menjadi bagian-bagiannya, lalu tentukan siapa memeriksa apa. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/structuring-the-problem.mp4",
+         "poster": "../../assets/lms/the-map/structuring-the-problem-poster.jpg",
+         "dur": "1:58",
+         "title": {
+          "en": "Structuring the problem: three days before the press conference",
+          "id": "Menyusun masalah: tiga hari sebelum konferensi pers"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/structuring-the-problem-en.vtt",
+          "id": "../../assets/lms/the-map/structuring-the-problem-id.vtt"
+         }
+        }
+       ]
       }
      ]
     }

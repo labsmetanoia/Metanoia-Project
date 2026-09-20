@@ -13789,6 +13789,66 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.3 slide material. Licence follows the supplied deck (butcher-shop, lab and mountain photography and illustrations; no identifiable people)."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-the-problem.mp4",
+      "bytes": 14425705,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structuring the problem.mp4\" (commit fd833ad); moved beside the other lesson films. A dramatised office scene with four actors — the CarneCarne leadership team maps the E. coli problem (farms, packaging, distribution centre, stores), eliminates the stores and divides the investigation before Friday's press conference (1:58).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film (after the Structuring the Problem slides). Licence and model release follow the supplied file; four identifiable actors appear."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-the-problem-poster.jpg",
+      "bytes": 77019,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:56 of structuring-the-problem.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 lesson film poster (identifiable people). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-the-problem-en.vtt",
+      "bytes": 2260,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for structuring-the-problem.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.3 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-the-problem-id.vtt",
+      "bytes": 2241,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for structuring-the-problem.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.3 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/structuring-and-prioritization.mp4",
+      "bytes": 8129075,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structuring and prioritization.mp4\" (commit 80353b8); moved beside the other lesson films. Two on-camera presenters on structuring (breaking the problem into pieces, MECE) and prioritisation (what will have the most impact), with animated inserts (2:57).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "NOT YET WIRED. The supplied file's AAC audio track is defective: only ~10% of audio frames are present after 0:44 (verified from container packet timestamps), so it plays choppy/silent in any browser and cannot be captioned. Held back from The Map 3.3 until a clean export is supplied."
     }
   ]
 }
