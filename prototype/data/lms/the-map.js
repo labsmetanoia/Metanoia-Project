@@ -2951,8 +2951,8 @@ window.MT_LMS['the-map'] = {
       "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
      },
      "dur": {
-      "en": "30 min",
-      "id": "30 mnt"
+      "en": "35 min",
+      "id": "35 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -3149,8 +3149,8 @@ window.MT_LMS['the-map'] = {
         "id": "Refleksi Diri — Materi"
        },
        "intro": {
-        "en": "After the film, five slides turn the lens on your own practice: six areas to reflect on in how you already solve problems; two ways to characterise a problem — by time horizon and by its own characteristics; the two dimensions of problem-solving work, convergent versus divergent thinking and analytical versus conceptual work; three scenarios to classify; and the key takeaways of pausing to structure first and recognising the problem type. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film, lima slide mengarahkan lensa ke praktik Anda sendiri: enam area untuk merefleksikan cara Anda memecahkan masalah selama ini; dua cara mengkarakterisasi masalah — berdasarkan jangka waktu dan berdasarkan karakteristik masalah itu sendiri; dua dimensi pekerjaan pemecahan masalah, berpikir konvergen versus divergen dan pekerjaan analitis versus konseptual; tiga skenario untuk diklasifikasikan; dan poin-poin utama tentang berhenti sejenak untuk menyusun struktur lebih dulu dan mengenali jenis masalahnya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After the film, five slides turn the lens on your own practice: six areas to reflect on in how you already solve problems; two ways to characterise a problem — by time horizon and by its own characteristics; the two dimensions of problem-solving work, convergent versus divergent thinking and analytical versus conceptual work; three scenarios to classify; and the key takeaways of pausing to structure first and recognising the problem type. Read them, then watch the two films that follow.",
+        "id": "Setelah film, lima slide mengarahkan lensa ke praktik Anda sendiri: enam area untuk merefleksikan cara Anda memecahkan masalah selama ini; dua cara mengkarakterisasi masalah — berdasarkan jangka waktu dan berdasarkan karakteristik masalah itu sendiri; dua dimensi pekerjaan pemecahan masalah, berpikir konvergen versus divergen dan pekerjaan analitis versus konseptual; tiga skenario untuk diklasifikasikan; dan poin-poin utama tentang berhenti sejenak untuk menyusun struktur lebih dulu dan mengenali jenis masalahnya. Bacalah, lalu tonton dua film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-reflect-",
        "slides": [
@@ -3231,6 +3231,48 @@ window.MT_LMS['the-map'] = {
       "id": "Setelah slide, sebuah film tiga menit: dua konsultan yang mengajarkan pemecahan masalah sebagai profesi menjawab dua pertanyaan yang menjadi poros pelajaran ini — apa sebenarnya pemecahan masalah (proses kita mengambil keputusan, setiap hari, kadang berbulan-bulan dan kadang di tengah rapat) dan apa yang membuat seseorang menjadi pemecah masalah yang baik. Simak tiga ciri struktur yang mereka sebut: cara yang sengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan memikirkan penerapannya — pemangku kepentingan, peluncuran, jebakan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke slide Refleksi Diri yang mengikutinya — lalu ke Peraga 1, tempat ketiga ciri yang sama berada di dalam metode empat langkah."
      },
      "videosPlacement": "after-material:2",
+     "videoBlocks": [
+      {
+       "key": "after-reflection",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · 2 short films",
+        "id": "Tonton berikutnya · 2 film singkat"
+       },
+       "intro": {
+        "en": "After the Reflection slides, two short films from practising consultants. The first asks what separates okay problem solving from great: the collective power of the group, a problem formalised on paper — what it is, its constraints, the stakeholders to align — and a devil's advocate when everyone agrees too easily. The second makes sense of problems by their time horizon — in the moment, one to two weeks, a longer project — and what to focus on in each. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below.",
+        "id": "Setelah slide Refleksi Diri, dua film singkat dari konsultan yang berpraktik. Film pertama bertanya apa yang memisahkan pemecahan masalah yang sekadar cukup dari yang hebat: kekuatan kolektif kelompok, masalah yang dirumuskan di atas kertas — apa masalahnya, batasannya, pemangku kepentingan yang perlu diselaraskan — dan seorang devil's advocate ketika semua orang terlalu mudah sepakat. Film kedua memahami masalah lewat jangka waktunya — saat itu juga, satu sampai dua minggu, proyek yang lebih panjang — dan apa yang perlu difokuskan di masing-masing. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke Peraga 1 di bawah."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/hallmarks-of-great-problem-solving.mp4",
+         "poster": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-poster.jpg",
+         "dur": "2:21",
+         "title": {
+          "en": "Hallmarks of great problem solving",
+          "id": "Ciri-ciri pemecahan masalah yang hebat"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-en.vtt",
+          "id": "../../assets/lms/the-map/hallmarks-of-great-problem-solving-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/making-sense-of-problems.mp4",
+         "poster": "../../assets/lms/the-map/making-sense-of-problems-poster.jpg",
+         "dur": "1:33",
+         "title": {
+          "en": "Making sense of problems: the time horizon",
+          "id": "Memahami masalah: jangka waktunya"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/making-sense-of-problems-en.vtt",
+          "id": "../../assets/lms/the-map/making-sense-of-problems-id.vtt"
+         }
+        }
+       ]
+      }
+     ],
      "diagram": {
       "type": "flow",
       "exhibit": {
