@@ -3801,8 +3801,8 @@ window.MT_LMS['the-map'] = {
       "id": "Akar Masalah dan Rencana Tindakan"
      },
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "55 min",
+      "id": "55 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -3995,8 +3995,8 @@ window.MT_LMS['the-map'] = {
         "id": "Dapatkan Kejelasan Penuh tentang Masalah Anda — Materi"
        },
        "intro": {
-        "en": "After the film, five slides add a second tool for step 1: the Problem Statement Worksheet. Why a worksheet helps (clarity, aligned stakeholders, better ideas, focus); what it holds — a SMART problem question at the centre, surrounded by context, stakeholders, constraints, scope, criteria for success and key sources of insight; how to use it on the job as a mental checklist; and why asking the right questions is the fastest way to a better problem definition. Read them, then continue to Exhibit 1 below — a SMART question is what 1A starts from.",
-        "id": "Setelah film, lima slide menambahkan alat kedua untuk langkah 1: Problem Statement Worksheet. Mengapa worksheet ini membantu (kejelasan, pemangku kepentingan yang selaras, ide yang lebih baik, fokus); apa isinya — pertanyaan masalah yang SMART di pusatnya, dikelilingi konteks, pemangku kepentingan, batasan, ruang lingkup, kriteria keberhasilan, dan sumber utama insight; cara menggunakannya dalam pekerjaan sehari-hari sebagai daftar periksa dalam berpikir; dan mengapa mengajukan pertanyaan yang tepat adalah jalan tercepat menuju definisi masalah yang lebih baik. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+        "en": "After the film, five slides add a second tool for step 1: the Problem Statement Worksheet. Why a worksheet helps (clarity, aligned stakeholders, better ideas, focus); what it holds — a SMART problem question at the centre, surrounded by context, stakeholders, constraints, scope, criteria for success and key sources of insight; how to use it on the job as a mental checklist; and why asking the right questions is the fastest way to a better problem definition. Read them, then watch the three films that follow.",
+        "id": "Setelah film, lima slide menambahkan alat kedua untuk langkah 1: Problem Statement Worksheet. Mengapa worksheet ini membantu (kejelasan, pemangku kepentingan yang selaras, ide yang lebih baik, fokus); apa isinya — pertanyaan masalah yang SMART di pusatnya, dikelilingi konteks, pemangku kepentingan, batasan, ruang lingkup, kriteria keberhasilan, dan sumber utama insight; cara menggunakannya dalam pekerjaan sehari-hari sebagai daftar periksa dalam berpikir; dan mengapa mengajukan pertanyaan yang tepat adalah jalan tercepat menuju definisi masalah yang lebih baik. Bacalah, lalu tonton tiga film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-clear-",
        "slides": [
@@ -4439,6 +4439,59 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/is-it-smart-en.vtt",
           "id": "../../assets/lms/the-map/is-it-smart-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "closing",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · 3 short films",
+        "id": "Tonton berikutnya · 3 film singkat"
+       },
+       "intro": {
+        "en": "After the slides, three films close the lesson's material. The first walks through the Problem Statement Worksheet itself: a SMART problem question, then context, scope, constraints, stakeholders and the measure of success — and why those components make a team aligned, creative and practical at once. The second shows the worksheet used in the moment — a flooded street on the Upper West Side, the stakeholders it touches, the three mistakes teams make (missed stakeholders, an unclear scope, dishonest constraints), and why the sheet is a living document you refresh as you learn. The third is the DentMerc team from the slides, acted out: by asking what decided similar projects, they narrow the research to price and performance specifications, cut the budget from 50 to 15 lakhs and win the CEO's sign-off. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below — a SMART question is what 1A starts from.",
+        "id": "Setelah slide, tiga film menutup materi pelajaran ini. Film pertama menelusuri Problem Statement Worksheet itu sendiri: pertanyaan masalah yang SMART, lalu konteks, ruang lingkup, kendala, pemangku kepentingan, dan ukuran keberhasilan — serta mengapa komponen-komponen itu membuat tim selaras, kreatif, dan praktis sekaligus. Film kedua menunjukkan worksheet dipakai saat itu juga — jalan yang banjir di Upper West Side, pemangku kepentingan yang terdampak, tiga kesalahan yang sering dilakukan tim (pemangku kepentingan yang terlewat, ruang lingkup yang tidak jelas, kendala yang tidak jujur), dan mengapa lembar ini adalah dokumen hidup yang Anda perbarui seiring belajar. Film ketiga adalah tim DentMerc dari slide, diperankan: dengan bertanya apa yang menentukan proyek-proyek serupa, mereka mempersempit riset ke harga dan spesifikasi kinerja, memangkas anggaran dari 50 menjadi 15 lakh, dan mendapat persetujuan CEO. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah ketiganya selesai, lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/problem-statement-worksheet.mp4",
+         "poster": "../../assets/lms/the-map/problem-statement-worksheet-poster.jpg",
+         "dur": "1:58",
+         "title": {
+          "en": "The Problem Statement Worksheet",
+          "id": "Problem Statement Worksheet"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/problem-statement-worksheet-en.vtt",
+          "id": "../../assets/lms/the-map/problem-statement-worksheet-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/using-psw-on-the-job.mp4",
+         "poster": "../../assets/lms/the-map/using-psw-on-the-job-poster.jpg",
+         "dur": "2:31",
+         "title": {
+          "en": "Using the Problem Statement Worksheet on the job",
+          "id": "Menggunakan Problem Statement Worksheet dalam pekerjaan sehari-hari"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/using-psw-on-the-job-en.vtt",
+          "id": "../../assets/lms/the-map/using-psw-on-the-job-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/ceo-sign-off.mp4",
+         "poster": "../../assets/lms/the-map/ceo-sign-off-poster.jpg",
+         "dur": "3:03",
+         "title": {
+          "en": "CEO sign-off: focusing the research",
+          "id": "Persetujuan CEO: memfokuskan riset"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/ceo-sign-off-en.vtt",
+          "id": "../../assets/lms/the-map/ceo-sign-off-id.vtt"
          }
         }
        ]
