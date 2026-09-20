@@ -2951,8 +2951,8 @@ window.MT_LMS['the-map'] = {
       "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
      },
      "dur": {
-      "en": "35 min",
-      "id": "35 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -3205,6 +3205,63 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Multiple Approaches to Problem Solving — Material",
+        "id": "Berbagai Pendekatan untuk Pemecahan Masalah — Materi"
+       },
+       "intro": {
+        "en": "After the films, four slides close the material: one framework for many problem-solving situations — understand, generate, evaluate, implement; what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway. Read them, then continue to Exhibit 1 below, where the same loop appears as the four-step method.",
+        "id": "Setelah film, empat slide menutup materi: satu kerangka kerja untuk banyak situasi pemecahan masalah — pahami, hasilkan, evaluasi, implementasikan; apa itu pendekatan berbasis hipotesis dan mengapa memulai dengan hipotesis memberi Anda pertanyaan yang lebih baik; tujuh langkah dari definisi sampai rekomendasi, dikelompokkan menjadi memahami, menyusun, menganalisis, dan mensintesis; dan poin utamanya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah, tempat putaran yang sama muncul sebagai metode empat langkah."
+       },
+       "base": "../../assets/lms/the-map/slides/ps-approach-",
+       "slides": [
+        {
+         "title": {
+          "en": "Multiple approaches to structured problem solving",
+          "id": "Berbagai pendekatan untuk pemecahan masalah yang terstruktur"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving. Multiple approaches to structured problem solving. An organized approach may sound formal and only appropriate to larger-scale problem-solving efforts. In reality, it can be used and applied for all sorts of problem-solving situations. 01 Understand the problem — clarify the context, identify what needs to be solved, and define the key question. 02 Generate possibilities — explore different perspectives and consider a range of potential solutions. 03 Evaluate and decide — assess the options using a structured approach and select the best solution. 04 Implement and learn — take action, monitor results, and learn to improve your problem-solving skills over time. Key takeaway: one framework, many problem-solving situations. It's equally helpful with smaller decisions requiring in-the-moment problem solving like deciding which item to buy at the market. By learning and practicing the hypothesis-led approach, you will develop skills that are applicable in many problem-solving situations. Different perspectives, better solutions. Same principles, bigger possibilities. Better thinking, brighter results.",
+          "id": "Modul 3 · Pemecahan Masalah. Berbagai Pendekatan untuk Pemecahan Masalah yang Terstruktur. Pendekatan yang terstruktur mungkin terdengar formal dan hanya cocok untuk upaya pemecahan masalah berskala besar. Namun, kenyataannya, pendekatan ini dapat digunakan dan diterapkan untuk semua jenis situasi pemecahan masalah. 01 Pahami masalahnya — klarifikasi konteks, identifikasi apa yang perlu diselesaikan, dan rumuskan pertanyaan kunci. 02 Hasilkan berbagai kemungkinan — jelajahi berbagai perspektif dan pertimbangkan beragam solusi potensial. 03 Evaluasi dan tentukan — nilai berbagai opsi dengan pendekatan yang terstruktur dan pilih solusi terbaik. 04 Implementasikan dan pelajari — ambil tindakan, pantau hasil, dan terus belajar untuk meningkatkan kemampuan pemecahan masalah Anda seiring waktu. Poin utama: satu kerangka kerja, banyak situasi pemecahan masalah. Pendekatan ini juga sangat membantu untuk keputusan kecil yang membutuhkan pemecahan masalah secara cepat, seperti menentukan barang yang akan dibeli di pasar. Dengan mempelajari dan mempraktikkan pendekatan berbasis hipotesis ini, Anda akan mengembangkan keterampilan yang dapat diterapkan dalam berbagai situasi pemecahan masalah. Perspektif yang berbeda, solusi yang lebih baik. Prinsip yang sama, peluang yang lebih besar. Berpikir lebih baik, bertindak lebih tepat, hasil yang lebih besar."
+         }
+        },
+        {
+         "title": {
+          "en": "What is the hypothesis-led approach to problem solving?",
+          "id": "Apa itu pendekatan berbasis hipotesis dalam pemecahan masalah?"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving. What is the hypothesis-led approach to problem solving? Now, we'll take a deep dive into the hypothesis-led approach. This broadly applicable, flexible approach is extremely useful in solving problems (or parts of problems) that require convergent thinking. Communication and iteration are central to every step of the problem-solving process. The good news? There's no need to memorize these steps now! In upcoming sections, you'll learn about and practice applying each step in typical problem-solving situations you're likely to encounter on the job. Next slide: find a detailed explanation of the key steps involved in the hypothesis-led approach with an everyday example of the approach in use. “Starting with a hypothesis doesn't mean you already know the answer — rather, it gives you a better question, so you can find a clearer direction.” Start with a hypothesis: what's really going on? What do we know? What could be the cause? How do we test it? What should we focus on? What's the best solution? Good news — you don't need to memorize all the steps now; in the next sections, you'll learn and practice each step through real-world examples you're likely to encounter at work. Better questions, clearer answers, bigger impact. Same principles, bigger possibilities. Better thinking, brighter results.",
+          "id": "Modul 3 · Pemecahan Masalah. Apa itu pendekatan berbasis hipotesis dalam pemecahan masalah? Sekarang, kita akan membahas lebih dalam tentang pendekatan berbasis hipotesis. Pendekatan ini sangat relevan, fleksibel, dan sangat berguna untuk menyelesaikan masalah (atau bagian dari masalah) yang membutuhkan pemikiran konvergen. Komunikasi dan iterasi merupakan bagian penting dalam setiap tahap proses pemecahan masalah. Kabar baiknya? Anda tidak perlu menghafal semua langkahnya sekarang! Pada bagian selanjutnya, Anda akan mempelajari dan mempraktikkan setiap langkahnya melalui situasi pemecahan masalah yang umum Anda temui di pekerjaan. Lanjut ke slide berikutnya: temukan penjelasan detail tentang langkah-langkah utama dalam pendekatan berbasis hipotesis, lengkap dengan contoh nyata dalam kehidupan sehari-hari. “Mulai dengan hipotesis bukan berarti sudah tahu jawabannya, tetapi dengan pertanyaan yang lebih baik, kita bisa menemukan arah yang lebih jelas.” Mulai dengan hipotesis: apa yang sebenarnya terjadi? Apa yang kita ketahui? Apa yang mungkin menjadi penyebabnya? Bagaimana kita mengujinya? Apa yang harus kita fokuskan? Apa solusi terbaiknya? Pertanyaan yang lebih baik, jawaban yang lebih jelas, dampak yang lebih besar. Pemikiran lebih baik, hasil yang lebih besar."
+         }
+        },
+        {
+         "title": {
+          "en": "The hypothesis-led problem-solving approach",
+          "id": "Pendekatan berbasis hipotesis dalam pemecahan masalah"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving. The Hypothesis-Led Problem-Solving Approach: a structured and iterative approach to turn complex problems into clear insights and actionable solutions. 1. Definition — set the right problem: step 1, define problem (think impact: what do we need to know?). 2. Structuring — turn the problem into a plan: step 2, structure problem and generate ideas (think breaking the problem down into pieces and early hypothesis: what could be the key elements of the problem?); step 3, prioritize issues (think speed: which issues are most important to the problem?); step 4, develop issue analysis/workplan (think efficiency: where and how should we spend our time?). 3. Analyzing — find and test the answers: step 5, conduct analyses (think evidence: what are we trying to prove or disprove?). 4. Synthesizing — from insight to action: step 6, synthesize findings (think “so what”: what implications do our findings have?); step 7, develop recommendations (think potential solution: what should we do?). From problem definition → evidence → insight → action. Key takeaway: a clear process, a bigger impact. A hypothesis-led approach helps you focus your time, test what matters, and turn analysis into meaningful action. Same principles, bigger possibilities. Better thinking, brighter results.",
+          "id": "Modul 3 · Pemecahan Masalah. Pendekatan Berbasis Hipotesis dalam Pemecahan Masalah: pendekatan yang terstruktur dan iteratif untuk mengubah masalah kompleks menjadi insight yang jelas dan solusi yang dapat ditindaklanjuti. 1. Memahami — tentukan masalah yang tepat: langkah 1, tentukan masalah (pikirkan dampak: apa yang perlu kita ketahui?). 2. Menyusun — ubah masalah menjadi rencana: langkah 2, susun masalah dan hasilkan ide (pikirkan dengan memecah masalah menjadi bagian-bagian dan hipotesis awal: apa saja elemen kunci dari masalah ini?); langkah 3, prioritaskan isu (pikirkan kecepatan: isu mana yang paling penting untuk diselesaikan?); langkah 4, susun analisis isu dan rencana kerja (pikirkan efisiensi: di mana dan bagaimana kita sebaiknya mengalokasikan waktu kita?). 3. Menganalisis — temukan dan uji jawabannya: langkah 5, lakukan analisis (pikirkan bukti: apa yang ingin kita buktikan atau sangkal?). 4. Mensintesis — dari insight menjadi aksi: langkah 6, sintesis temuan (pikirkan “so what”: apa implikasi dari temuan kita?); langkah 7, kembangkan rekomendasi (pikirkan solusi potensial: apa yang sebaiknya kita lakukan?). Dari definisi masalah → bukti → insight → aksi. Poin utama: proses yang jelas, dampak yang lebih besar. Pendekatan berbasis hipotesis membantu Anda memfokuskan waktu, menguji hal yang penting, dan mengubah analisis menjadi tindakan yang bermakna. Prinsip yang sama, peluang yang lebih besar. Berpikir lebih baik, bertindak lebih tepat, hasil lebih besar."
+         }
+        },
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Poin-poin utama"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving. Key takeaways — in this module, we have covered the following key tool: the hypothesis-led approach to problem solving — use the 7 steps in this framework to reach the optimal solution for a problem. Before you move on, you may wish to explore the following podcast on hypothesis-led problem solving: “How to master the seven-step problem-solving process” (podcast, McKinsey & Company). From questions to clearer answers. A more structured mindset, a brighter tomorrow. Same principles, bigger possibilities. Learn today, solve tomorrow.",
+          "id": "Modul 3 · Pemecahan Masalah. Poin-poin utama — dalam modul ini, kita telah membahas alat utama berikut: pendekatan berbasis hipotesis dalam pemecahan masalah — gunakan 7 langkah dalam kerangka ini untuk mencapai solusi yang optimal untuk sebuah masalah. Sebelum melanjutkan, Anda mungkin ingin mendengarkan podcast berikut tentang pemecahan masalah berbasis hipotesis: “Cara menguasai proses pemecahan masalah dalam tujuh langkah” (podcast, McKinsey & Company). Dari pertanyaan menuju jawaban yang lebih jelas. Pola pikir yang lebih terstruktur untuk hasil yang lebih besar. Prinsip yang sama, peluang yang lebih besar. Belajar hari ini, memecahkan masa depan."
+         }
+        }
+       ]
       }
      ],
      "videos": [
@@ -3240,8 +3297,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · 2 film singkat"
        },
        "intro": {
-        "en": "After the Reflection slides, two short films from practising consultants. The first asks what separates okay problem solving from great: the collective power of the group, a problem formalised on paper — what it is, its constraints, the stakeholders to align — and a devil's advocate when everyone agrees too easily. The second makes sense of problems by their time horizon — in the moment, one to two weeks, a longer project — and what to focus on in each. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below.",
-        "id": "Setelah slide Refleksi Diri, dua film singkat dari konsultan yang berpraktik. Film pertama bertanya apa yang memisahkan pemecahan masalah yang sekadar cukup dari yang hebat: kekuatan kolektif kelompok, masalah yang dirumuskan di atas kertas — apa masalahnya, batasannya, pemangku kepentingan yang perlu diselaraskan — dan seorang devil's advocate ketika semua orang terlalu mudah sepakat. Film kedua memahami masalah lewat jangka waktunya — saat itu juga, satu sampai dua minggu, proyek yang lebih panjang — dan apa yang perlu difokuskan di masing-masing. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "After the Reflection slides, two short films from practising consultants. The first asks what separates okay problem solving from great: the collective power of the group, a problem formalised on paper — what it is, its constraints, the stakeholders to align — and a devil's advocate when everyone agrees too easily. The second makes sense of problems by their time horizon — in the moment, one to two weeks, a longer project — and what to focus on in each. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
+        "id": "Setelah slide Refleksi Diri, dua film singkat dari konsultan yang berpraktik. Film pertama bertanya apa yang memisahkan pemecahan masalah yang sekadar cukup dari yang hebat: kekuatan kolektif kelompok, masalah yang dirumuskan di atas kertas — apa masalahnya, batasannya, pemangku kepentingan yang perlu diselaraskan — dan seorang devil's advocate ketika semua orang terlalu mudah sepakat. Film kedua memahami masalah lewat jangka waktunya — saat itu juga, satu sampai dua minggu, proyek yang lebih panjang — dan apa yang perlu difokuskan di masing-masing. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke slide yang mengikutinya."
        },
        "videos": [
         {
