@@ -18,7 +18,7 @@
  *    fake body-language analysis from pixels.
  *  - Question counts shown in the UI are computed from the question bank
  *    plus the career graph — never hard-coded claims.
- *  - No live in-interview assistance, deliberately (see Integrity note).
+ *  - Live Guidance inside the simulator only; no assistance during real interviews (see Integrity note).
  */
 (function () {
   'use strict';
@@ -116,7 +116,7 @@
   var FILLERS = ['um', 'uh', 'erm', 'like,', 'you know', 'i mean', 'basically', 'actually,', 'sort of', 'kind of', 'eee', 'emm', 'anu', 'apa ya', 'kayak', 'gitu', 'gimana ya'];
   var ACTION_RE = /\b(i|saya|aku)\s+(led|built|created|designed|decided|proposed|negotiated|organised|organized|launched|fixed|analysed|analyzed|wrote|presented|convinced|reduced|increased|delivered|memimpin|membangun|membuat|merancang|memutuskan|mengusulkan|menegosiasikan|meluncurkan|memperbaiki|menganalisis|menulis|meyakinkan|menurunkan|menaikkan|menyelesaikan)\b/i;
   var SITU_RE = /\b(when|while|at the time|last year|in 20\d\d|during|at my|ketika|saat|waktu itu|tahun lalu|pada 20\d\d|selama|di tempat)\b/i;
-  var TASK_RE = /\b(goal|responsible|tasked|needed to|had to|target|objective|tujuan|bertanggung jawab|ditugaskan|harus|sasaran)\b/i;
+  var TASK_RE = /\b(goal|responsible|tasked|needed to|had to|target|objective|my (task|job|role|brief) was|task was to|asked to|tujuan|bertanggung jawab|ditugaskan|harus|sasaran|tugas saya|peran saya|diminta untuk)\b/i;
   var RESULT_RE = /\b(result|outcome|increased|decreased|reduced|improved|saved|grew|delivered|achieved|completed|hasil|dampak|meningkat|menurun|berkurang|membaik|menghemat|tumbuh|tercapai|selesai)\b/i;
 
   function countMatches(text, re) {
@@ -291,7 +291,9 @@
       var per = persona();
       u.lang = lang() === 'id' ? 'id-ID' : 'en-US';
       u.rate = per.rate; u.pitch = per.pitch;
-      u.onstart = function () { if (tg) tg.classList.add('talking'); };
+      state.lastSpoken = text;
+      u.onboundary = function () { state.lastBoundary = Date.now(); };
+      u.onstart = function () { if (tg) { tg.classList.add('talking'); tg.classList.remove('listening'); } };
       u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (done) done(); };
       window.speechSynthesis.speak(u);
     } catch (e) { if (done) done(); }
@@ -392,6 +394,36 @@
     'aspect-ratio:16/7;min-height:190px;background:#0C1626;margin-bottom:14px}' +
   '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
   '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
+  '.rsim-stage canvas.stage-canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
+  '.rsim-stage canvas.stage-canvas-visible{display:block}' +
+  '.rsim-stage.listening .st-name .dot{background:#F0D878}' +
+  '.rsim-answer{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:start}' +
+  '@media(max-width:860px){.rsim-answer{grid-template-columns:1fr}}' +
+  '.rsim-guide{border:1px solid var(--gold-border);border-radius:14px;background:var(--bg-mid);padding:12px 14px;font-size:12px;position:sticky;top:8px}' +
+  '.rsim-guide .rg-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}' +
+  '.rsim-guide .rg-head b{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}' +
+  '.rsim-guide .rg-ai{display:inline-block;font-size:9px;letter-spacing:.08em;color:var(--text-faint);border:1px solid var(--gold-border);border-radius:999px;padding:2px 7px;margin-left:6px;text-transform:none}' +
+  '.rsim-guide .rg-modes{display:inline-flex;border:1px solid var(--gold-border);border-radius:999px;overflow:hidden}' +
+  '.rsim-guide .rg-modes button{border:0;background:none;color:var(--text-muted);font:inherit;font-size:10.5px;font-weight:800;padding:5px 10px;cursor:pointer}' +
+  '.rsim-guide .rg-modes button.on{background:var(--gold);color:#0B1524}' +
+  '.rsim-guide .rg-lights{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:10px}' +
+  '.rsim-guide .rg-l{border:1px solid var(--gold-border);border-radius:9px;padding:6px 4px;text-align:center;color:var(--text-faint);transition:all .25s}' +
+  '.rsim-guide .rg-l b{display:block;font-size:14px}.rsim-guide .rg-l span{display:block;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;margin-top:2px}' +
+  '.rsim-guide .rg-l.on{border-color:#4ADE80;color:#4ADE80;background:rgba(74,222,128,.08);box-shadow:0 0 14px rgba(74,222,128,.15)}' +
+  '.rsim-guide .rg-kick{font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);font-weight:800;margin:0 0 6px}' +
+  '.rsim-guide .rg-pt{display:flex;gap:8px;align-items:flex-start;padding:4px 0;color:var(--text-sub);line-height:1.45}' +
+  '.rsim-guide .rg-pt i{flex:none;width:14px;height:14px;border-radius:50%;border:1.5px solid var(--gold-border);margin-top:1px;transition:all .25s}' +
+  '.rsim-guide .rg-pt.on{color:var(--text)}.rsim-guide .rg-pt.on i{background:#4ADE80;border-color:#4ADE80;box-shadow:0 0 8px rgba(74,222,128,.4)}' +
+  '.rsim-guide .rg-meters{margin:10px 0 6px;display:grid;gap:5px}' +
+  '.rsim-guide .rg-m{display:grid;grid-template-columns:96px 1fr auto;gap:8px;align-items:center;color:var(--text-muted);font-size:10.5px}' +
+  '.rsim-guide .rg-bar{height:5px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden}.rsim-guide .rg-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:3px;transition:width .35s}' +
+  '.rsim-guide .rg-m.warn .rg-bar i{background:#FF9A7B}.rsim-guide .rg-m em{font-style:normal;color:var(--text-faint);white-space:nowrap}' +
+  '.rsim-guide .rg-nudge{min-height:0;margin-top:8px;padding:0 10px;border-radius:9px;border:1px solid transparent;font-size:12px;line-height:1.45;color:#F0D878;max-height:0;overflow:hidden;transition:all .3s}' +
+  '.rsim-guide .rg-nudge.on{padding:8px 10px;max-height:80px;border-color:rgba(240,216,120,.35);background:rgba(240,216,120,.07)}' +
+  '.rsim-guide .rg-note{font-size:10.5px;color:var(--text-faint);margin:10px 0 0;line-height:1.45}' +
+  '.rsim-guide.mode-light .rg-points,.rsim-guide.mode-light .rg-meters{display:none}' +
+  '.rsim-guide.mode-off .rg-lights,.rsim-guide.mode-off .rg-points,.rsim-guide.mode-off .rg-meters,.rsim-guide.mode-off .rg-nudge{display:none}' +
+  ':root[data-theme="light"] .rsim-guide{background:#FFFFFF}' +
   '.rsim-stage img.stage-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;' +
     'animation:rsimKen 26s ease-in-out infinite alternate}' +
   '@keyframes rsimKen{from{transform:scale(1.02)}to{transform:scale(1.09)}}' +
@@ -643,6 +675,241 @@
       '</svg>';
   }
 
+  /* ─── VIDEO INTERVIEWER — a rendered interviewer delivered as a video stream ───
+     The stage is a video call: an animated interviewer is drawn to a canvas
+     every frame (breathing, blinks, gaze, brows, nods while you speak, mouth
+     visemes driven by the speech engine's word boundaries) and piped through
+     canvas.captureStream() into a <video> element, so the interviewer really
+     is delivered as video. Honesty note: this is a rendered character over the
+     persona's office photograph, not synthetic human footage; when real
+     recorded clips exist, declare them via window.MT_ROPE_SIM_MEDIA
+     ({ personas: { hr: { idle: 'idle.mp4', talking: 'talking.mp4' } } }) and
+     the stage plays those instead. */
+  var LEARN_RE = /\b(learn(ed|t)?|lesson|next time|since then|now i|i now|realised|realized|would do differently|belajar|pelajaran|lain kali|sejak itu|sekarang saya|menyadari)\b/i;
+  var LOOKS = {
+    hr:      { skin: '#E9C6A4', hair: '#2B1B14', hairStyle: 'bob',   top: '#3C6EA8', top2: '#2E5686', lip: '#B4675E', frame: null },
+    manager: { skin: '#D9B08C', hair: '#1F1410', hairStyle: 'short', top: '#2A3A52', top2: '#1D2B3E', lip: '#9C6553', frame: '#20222A' },
+    exec:    { skin: '#C99A72', hair: '#5A5F66', hairStyle: 'crop',  top: '#1B1F2A', top2: '#12151E', lip: '#8E5A48', frame: null }
+  };
+  function videoInterviewer(per, photo, stage) {
+    var W = 640, Hh = 300;
+    var cv = document.createElement('canvas'); cv.width = W; cv.height = Hh; cv.className = 'stage-canvas';
+    var ctx = cv.getContext('2d');
+    var look = LOOKS[per.id] || LOOKS.hr;
+    var bg = null;
+    if (photo && photo.src) { bg = new Image(); bg.decoding = 'async'; bg.src = photo.src; }
+    var vid = null, stream = null;
+    try {
+      if (cv.captureStream) {
+        stream = cv.captureStream(30);
+        vid = document.createElement('video'); vid.className = 'stage-clip stage-render'; vid.muted = true; vid.playsInline = true; vid.autoplay = true;
+        vid.srcObject = stream; vid.play().catch(function () {});
+      }
+    } catch (e) { vid = null; }
+    var host = vid || cv;
+    stage.appendChild(cv);   /* the render surface stays in the DOM (hidden when the stream plays) so it can be inspected */
+    if (vid) stage.appendChild(vid); else cv.classList.add('stage-canvas-visible');
+    var t0 = performance.now(), raf = 0, alive = true;
+    var blink = 0, nextBlink = 2200 + Math.random() * 2500, gazeX = 0, gazeY = 0, gazeT = 0, nod = 0, mouth = 0, browUp = 0, lastWord = 0, listenPulse = 0;
+    var rnd = function (a, b) { return a + Math.random() * (b - a); };
+    function frame(now) {
+      if (!alive) return;
+      var t = (now - t0) / 1000;
+      var talking = stage.classList.contains('talking'), listening = stage.classList.contains('listening');
+      /* backdrop: the persona's office photograph with a slow drift, then a soft vignette */
+      ctx.clearRect(0, 0, W, Hh);
+      ctx.fillStyle = '#0C1626'; ctx.fillRect(0, 0, W, Hh);
+      if (bg && bg.complete && bg.naturalWidth) {
+        var sc = 1.08 + Math.sin(t / 14) * 0.02, iw = bg.naturalWidth, ih = bg.naturalHeight;
+        var cover = Math.max(W / iw, Hh / ih) * sc, dw = iw * cover, dh = ih * cover;
+        var px = (photo && photo.pos ? parseFloat(photo.pos) : 50) / 100;
+        /* the office photograph becomes a soft, dim video-call bokeh — no one in it reads as a person */
+        ctx.globalAlpha = 0.85; ctx.filter = 'blur(16px) saturate(.65) brightness(.5)';
+        ctx.drawImage(bg, (W - dw) * px + Math.sin(t / 9) * 6 - 30, (Hh - dh) * 0.3 - 20, dw * 1.1, dh * 1.1);
+        ctx.filter = 'none'; ctx.globalAlpha = 1;
+      }
+      var g = ctx.createLinearGradient(0, 0, 0, Hh); g.addColorStop(0, 'rgba(5,10,18,.25)'); g.addColorStop(.55, 'rgba(5,10,18,.05)'); g.addColorStop(1, 'rgba(4,8,16,.6)');
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, Hh);
+      /* timing: blinks, gaze drift, nods, word-driven mouth */
+      if (t * 1000 > nextBlink) { blink = 1; nextBlink = t * 1000 + rnd(2200, 5200); }
+      if (blink > 0) blink = Math.max(0, blink - 0.18);
+      if (t > gazeT) { gazeX = rnd(-1, 1) * (talking ? 0.4 : 1); gazeY = rnd(-0.4, 0.5); gazeT = t + rnd(1.4, 3.6); }
+      var sinceWord = (now - (state.lastBoundary || 0));
+      var target = talking ? (sinceWord < 260 ? 0.55 + Math.sin(now / 38) * 0.35 : 0.12 + Math.abs(Math.sin(now / 95)) * 0.18) : 0;
+      mouth += (target - mouth) * 0.35;
+      if (listening) { listenPulse = Math.max(listenPulse - 0.02, 0); if (state.lastListen && now - state.lastListen < 900) listenPulse = Math.min(listenPulse + 0.12, 1); }
+      else listenPulse = Math.max(listenPulse - 0.05, 0);
+      nod = listenPulse * Math.sin(t * 5.5) * 1.6;
+      browUp += (((talking && sinceWord < 400 && /\?$/.test(state.lastSpoken || '')) ? 1 : 0) - browUp) * 0.15;
+      var breathe = Math.sin(t * 1.35) * 1.4, sway = Math.sin(t * 0.55) * 0.6;
+      var cx = W * 0.5 + sway * 3, cy = Hh * 0.46 + breathe + nod;
+      /* key light behind the interviewer */
+      var rg = ctx.createRadialGradient(cx, cy, 20, cx, cy, 230); rg.addColorStop(0, 'rgba(201,168,76,.16)'); rg.addColorStop(1, 'rgba(201,168,76,0)'); ctx.fillStyle = rg; ctx.fillRect(0, 0, W, Hh);
+      /* shoulders and top */
+      ctx.save(); ctx.translate(cx, cy);
+      ctx.fillStyle = look.top;
+      ctx.beginPath(); ctx.moveTo(-175, 200); ctx.bezierCurveTo(-165, 108, -90, 80, -34, 74); ctx.lineTo(34, 74); ctx.bezierCurveTo(90, 80, 165, 108, 175, 200); ctx.closePath(); ctx.fill();
+      /* collar */
+      ctx.fillStyle = '#F2EEE8'; ctx.beginPath(); ctx.moveTo(-30, 74); ctx.lineTo(-40, 96); ctx.lineTo(0, 118); ctx.lineTo(40, 96); ctx.lineTo(30, 74); ctx.lineTo(0, 104); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = look.top2; ctx.beginPath(); ctx.moveTo(-34, 76); ctx.lineTo(0, 120); ctx.lineTo(34, 76); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.moveTo(-24, 40); ctx.lineTo(-22, 84); ctx.lineTo(22, 84); ctx.lineTo(24, 40); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = 'rgba(0,0,0,.14)'; ctx.beginPath(); ctx.ellipse(0, 70, 26, 10, 0, 0, Math.PI * 2); ctx.fill();
+      /* head */
+      var tilt = sway * 0.6 + nod * 0.4;
+      ctx.rotate(tilt * Math.PI / 180);
+      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.ellipse(0, 0, 44, 54, 0, 0, Math.PI * 2); ctx.fill();
+      ctx.fillStyle = 'rgba(0,0,0,.08)'; ctx.beginPath(); ctx.ellipse(0, 6, 44, 54, 0, 0, Math.PI); ctx.fill();
+      /* ears */
+      ctx.fillStyle = look.skin; ctx.beginPath(); ctx.ellipse(-44, 4, 7, 11, 0, 0, Math.PI * 2); ctx.ellipse(44, 4, 7, 11, 0, 0, Math.PI * 2); ctx.fill();
+      /* hair */
+      ctx.fillStyle = look.hair;
+      if (look.hairStyle === 'bob') { ctx.beginPath(); ctx.ellipse(0, -18, 50, 44, 0, Math.PI, Math.PI * 2); ctx.fill(); ctx.fillRect(-50, -18, 14, 62); ctx.fillRect(36, -18, 14, 62); ctx.beginPath(); ctx.ellipse(-43, 44, 7, 8, 0, 0, Math.PI * 2); ctx.ellipse(43, 44, 7, 8, 0, 0, Math.PI * 2); ctx.fill(); }
+      else if (look.hairStyle === 'short') { ctx.beginPath(); ctx.ellipse(0, -22, 46, 36, 0, Math.PI, Math.PI * 2); ctx.fill(); ctx.fillRect(-46, -22, 8, 30); ctx.fillRect(38, -22, 8, 30); }
+      else { ctx.beginPath(); ctx.ellipse(0, -26, 44, 30, 0, Math.PI, Math.PI * 2); ctx.fill(); }
+      /* brows */
+      ctx.strokeStyle = look.hair; ctx.lineWidth = 3.2; ctx.lineCap = 'round';
+      var by = -22 - browUp * 4;
+      ctx.beginPath(); ctx.moveTo(-28, by + 1); ctx.quadraticCurveTo(-18, by - 3, -8, by); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(8, by); ctx.quadraticCurveTo(18, by - 3, 28, by + 1); ctx.stroke();
+      /* eyes */
+      var eyeH = 7 * (1 - blink * 0.92);
+      [-18, 18].forEach(function (ex) {
+        ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.ellipse(ex, -8, 9, Math.max(0.8, eyeH), 0, 0, Math.PI * 2); ctx.fill();
+        if (eyeH > 1.5) {
+          ctx.fillStyle = '#2A1E17'; ctx.beginPath(); ctx.arc(ex + gazeX * 3, -8 + gazeY * 1.5, 3.8, 0, Math.PI * 2); ctx.fill();
+          ctx.fillStyle = 'rgba(255,255,255,.7)'; ctx.beginPath(); ctx.arc(ex + gazeX * 3 + 1.3, -9.5 + gazeY, 1.1, 0, Math.PI * 2); ctx.fill();
+        }
+      });
+      if (look.frame) { ctx.strokeStyle = look.frame; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(-18, -8, 13, 9, 0, 0, Math.PI * 2); ctx.ellipse(18, -8, 13, 9, 0, 0, Math.PI * 2); ctx.stroke(); ctx.beginPath(); ctx.moveTo(-5, -8); ctx.lineTo(5, -8); ctx.stroke(); }
+      /* nose */
+      ctx.strokeStyle = 'rgba(120,70,50,.45)'; ctx.lineWidth = 1.6; ctx.beginPath(); ctx.moveTo(0, -2); ctx.quadraticCurveTo(-4, 10, 2, 12); ctx.stroke();
+      /* mouth: viseme by openness */
+      var open = Math.max(0, mouth), mw = 15 + open * 4, mh = 1.6 + open * 11;
+      ctx.fillStyle = look.lip; ctx.beginPath(); ctx.ellipse(0, 26 + open * 2, mw, mh, 0, 0, Math.PI * 2); ctx.fill();
+      if (open > 0.25) { ctx.fillStyle = '#3B1C1A'; ctx.beginPath(); ctx.ellipse(0, 27 + open * 2, mw * 0.72, mh * 0.62, 0, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = '#F5F0EA'; ctx.fillRect(-mw * 0.5, 22 + open * 1.5, mw, 2.2); }
+      else { ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(-mw, 26); ctx.quadraticCurveTo(0, 28 + (listening ? 2 : 0), mw, 26); ctx.stroke(); }
+      ctx.restore();
+      /* call chrome: grain + soft camera vignette */
+      ctx.fillStyle = 'rgba(255,255,255,' + (0.012 + Math.random() * 0.01) + ')'; ctx.fillRect(0, (t * 40) % Hh, W, 2);
+      raf = requestAnimationFrame(frame);
+    }
+    raf = requestAnimationFrame(frame);
+    return { el: host, destroy: function () { alive = false; cancelAnimationFrame(raf); if (stream) stream.getTracks().forEach(function (tr) { tr.stop(); }); } };
+  }
+
+  /* ─── LIVE GUIDANCE — real-time coaching beside the answer, on your device ───
+     Reads the typed or transcribed answer as it grows and shows: the STAR-L
+     structure lights, the key points this question is testing (from the
+     question's own signals and the job description), live quality meters, and
+     one throttled nudge at a time. Modes: full (practice default), light
+     (live-mode default: structure lights and time nudges only), off. It is a
+     rehearsal aid inside the simulator; Metanoia offers no assistance during
+     real interviews. */
+  var GUIDE_KEY = 'mt-rope-guide';
+  function guideMode() { try { return localStorage.getItem(GUIDE_KEY) || ''; } catch (e) { return ''; } }
+  function setGuideMode(m) { try { localStorage.setItem(GUIDE_KEY, m); } catch (e) {} }
+  function keyPointsFor(q, s) {
+    var pts = [];
+    var sig = q.sig || [];
+    if (sig.indexOf('star') !== -1) pts.push({ id: 'situ', label: T('One specific situation, named in a sentence', 'Satu situasi spesifik, disebut dalam satu kalimat'), test: function (t) { return SITU_RE.test(t); } });
+    if (sig.indexOf('star') !== -1) pts.push({ id: 'action', label: T('What YOU did — actions in the first person', 'Apa yang KAMU lakukan — tindakan dalam sudut pandang pertama'), test: function (t) { return ACTION_RE.test(t); } });
+    if (sig.indexOf('metric') !== -1 || sig.indexOf('star') !== -1) pts.push({ id: 'num', label: T('A number that shows the result', 'Angka yang menunjukkan hasilnya'), test: function (t) { return /\d/.test(t); } });
+    if (sig.indexOf('structure') !== -1) pts.push({ id: 'struct', label: T('Signpost the structure: first, second, finally', 'Tandai strukturnya: pertama, kedua, terakhir'), test: function (t) { return /\b(first|second|third|finally|lastly|pertama|kedua|ketiga|terakhir)\b/i.test(t); } });
+    if (sig.indexOf('research') !== -1) pts.push({ id: 'research', label: T('Something specific about this company or role', 'Sesuatu yang spesifik tentang perusahaan atau peran ini'), test: function (t) { var co = (s.cfg.company || '').toLowerCase(); return (co && t.toLowerCase().indexOf(co) !== -1) || /\b(your (product|team|market|strategy|customers)|produk|tim|pasar|strategi) (anda|kalian)?\b/i.test(t); } });
+    if (sig.indexOf('honesty') !== -1) pts.push({ id: 'honest', label: T('Own the weakness or mistake plainly, then the fix', 'Akui kelemahan atau kesalahannya dengan jujur, lalu perbaikannya'), test: function (t) { return /\b(mistake|wrong|failed|weakness|should have|kesalahan|salah|gagal|kelemahan|seharusnya)\b/i.test(t) && LEARN_RE.test(t); } });
+    pts.push({ id: 'learn', label: T('Land it: the result and what you learned', 'Daratkan: hasil dan apa yang kamu pelajari'), test: function (t) { return RESULT_RE.test(t) && LEARN_RE.test(t); } });
+    /* job-description requirement keywords, when a JD was pasted */
+    if (s.cfg.jd) {
+      var m = mineJd(s.cfg.jd);
+      (m && m.reqs ? m.reqs.slice(0, 2) : []).forEach(function (r, i) {
+        var kw = (r.toLowerCase().match(/[a-zà-ÿ]{5,}/g) || []).filter(function (w) { return ['experience', 'strong', 'ability', 'skills', 'pengalaman', 'kemampuan', 'memiliki', 'minimal'].indexOf(w) === -1; }).slice(0, 3);
+        if (kw.length) pts.push({ id: 'jd' + i, label: T('Touch the JD requirement: ', 'Sentuh persyaratan JD: ') + kw.join(' · '), test: function (t) { var l = t.toLowerCase(); return kw.some(function (w) { return l.indexOf(w) !== -1; }); } });
+      });
+    }
+    return pts.slice(0, 6);
+  }
+  function buildGuide(q, s, opts) {
+    var mode = guideMode() || (s.mode === 'live' ? 'light' : 'full');
+    var box = el('aside', 'rsim-guide mode-' + mode);
+    box.setAttribute('aria-label', 'Live guidance');
+    var head = el('div', 'rg-head');
+    head.appendChild(el('b', null, '◉ ' + T('Live Guidance', 'Panduan Langsung') + ' <span class="rg-ai">' + T('AI-assisted · on your device', 'Berbantuan AI · di perangkatmu') + '</span>'));
+    var modes = el('div', 'rg-modes');
+    [['full', T('Full', 'Penuh')], ['light', T('Light', 'Ringan')], ['off', T('Off', 'Mati')]].forEach(function (m) {
+      var b = el('button', m[0] === mode ? 'on' : '', m[1]); b.type = 'button'; b.dataset.m = m[0];
+      b.addEventListener('click', function () { mode = m[0]; setGuideMode(mode); box.className = 'rsim-guide mode-' + mode; modes.querySelectorAll('button').forEach(function (x) { x.classList.toggle('on', x.dataset.m === mode); }); update(lastText, lastSecs, true); });
+      modes.appendChild(b);
+    });
+    head.appendChild(modes);
+    box.appendChild(head);
+    /* structure lights */
+    var lights = el('div', 'rg-lights');
+    var LT = [['S', T('Situation', 'Situasi'), SITU_RE], ['T', T('Task', 'Tugas'), TASK_RE], ['A', T('Action', 'Tindakan'), ACTION_RE], ['R', T('Result', 'Hasil'), RESULT_RE], ['L', T('Learning', 'Pembelajaran'), LEARN_RE]];
+    var lightEls = LT.map(function (x) { var d = el('div', 'rg-l'); d.appendChild(el('b', null, x[0])); d.appendChild(el('span', null, x[1])); d.title = x[1]; lights.appendChild(d); return d; });
+    box.appendChild(lights);
+    /* key points */
+    var pts = keyPointsFor(q, s);
+    var kp = el('div', 'rg-points');
+    kp.appendChild(el('div', 'rg-kick', T('Key points this question is testing', 'Poin kunci yang diuji pertanyaan ini')));
+    var ptEls = pts.map(function (p) { var d = el('div', 'rg-pt'); d.appendChild(el('i', null, '')); d.appendChild(el('span', null, p.label)); kp.appendChild(d); return d; });
+    box.appendChild(kp);
+    /* meters */
+    var meters = el('div', 'rg-meters');
+    var MT = [['len', T('Length', 'Panjang')], ['spec', T('Specificity', 'Kekhususan')], ['own', T('Ownership (I vs we)', 'Kepemilikan (saya vs kami)')], ['clean', T('Clean delivery', 'Penyampaian bersih')]];
+    var meterEls = {};
+    MT.forEach(function (m) { var r = el('div', 'rg-m'); r.appendChild(el('span', null, m[1])); var bar = el('div', 'rg-bar'); var f = el('i'); bar.appendChild(f); r.appendChild(bar); var v = el('em', null, ''); r.appendChild(v); meters.appendChild(r); meterEls[m[0]] = { f: f, v: v, r: r }; });
+    box.appendChild(meters);
+    var nudge = el('div', 'rg-nudge'); box.appendChild(nudge);
+    box.appendChild(el('p', 'rg-note', T('Guidance runs on your device from the same transparent rubric as the debrief. Rehearsal aid only — switch it off to simulate the real room.', 'Panduan berjalan di perangkatmu dari rubrik transparan yang sama dengan tinjauan. Alat latihan saja — matikan untuk mensimulasikan ruangan sesungguhnya.')));
+    var lastText = '', lastSecs = 0, lastNudgeAt = 0, lastNudgeKey = '', shown = {};
+    function setNudge(key, txt, force) {
+      var now = Date.now();
+      if (!txt) { if (now - lastNudgeAt > 6000) { nudge.textContent = ''; nudge.classList.remove('on'); } return; }
+      if (key === lastNudgeKey && !force) return;
+      if (now - lastNudgeAt < 7000 && !force) return;
+      nudge.textContent = txt; nudge.classList.add('on'); lastNudgeAt = now; lastNudgeKey = key; shown[key] = 1;
+    }
+    function update(text, secs, force) {
+      lastText = text || ''; lastSecs = secs || 0;
+      if (mode === 'off') return;
+      var t = ' ' + lastText + ' ';
+      var words = (t.match(/\S+/g) || []).length;
+      var lit = [SITU_RE.test(t), TASK_RE.test(t), ACTION_RE.test(t), RESULT_RE.test(t) || /\d/.test(t) && RESULT_RE.test(t), LEARN_RE.test(t)];
+      lightEls.forEach(function (d, i) { d.classList.toggle('on', !!lit[i]); });
+      if (mode === 'full') {
+        ptEls.forEach(function (d, i) { d.classList.toggle('on', pts[i].test(t)); });
+        var digits = (t.match(/\d+[%\d.,]*/g) || []).length;
+        var iC = countMatches(t, /\b(i|saya|aku)\b/), weC = countMatches(t, /\b(we|our|kami|kita)\b/);
+        var fill = 0; FILLERS.forEach(function (f) { var i = 0; var low = t.toLowerCase(); while ((i = low.indexOf(f, i)) !== -1) { fill++; i += f.length; } });
+        var len = Math.min(100, Math.round(words / 140 * 100));
+        var spec = Math.min(100, digits * 30 + (SITU_RE.test(t) ? 25 : 0) + (ACTION_RE.test(t) ? 15 : 0));
+        var own = words < 8 ? 0 : Math.round(100 * (iC + 0.5) / (iC + weC + 1));
+        var clean = Math.max(0, 100 - fill * 15);
+        var put = function (k, v, label, warn) { meterEls[k].f.style.width = v + '%'; meterEls[k].v.textContent = label; meterEls[k].r.classList.toggle('warn', !!warn); };
+        put('len', len, words + ' ' + T('words', 'kata'), words > 260);
+        put('spec', spec, digits ? digits + ' ' + T('numbers', 'angka') : T('no numbers yet', 'belum ada angka'), words > 40 && !digits);
+        put('own', own, iC + ' ' + T('I', 'saya') + ' · ' + weC + ' ' + T('we', 'kami'), words > 30 && weC > iC * 2);
+        put('clean', clean, fill ? fill + ' ' + T('fillers', 'kata isian') : T('no fillers', 'tanpa kata isian'), fill >= 3);
+      }
+      /* one nudge at a time, throttled — timing nudges in light mode, content nudges in full mode */
+      var n = null;
+      if (secs >= 120 && !shown.t120) n = ['t120', T('Two minutes — land the result and stop.', 'Dua menit — daratkan hasilnya dan berhenti.')];
+      else if (secs >= 75 && !lit[3] && !shown.t75) n = ['t75', T('75 seconds in — head for the result.', '75 detik — menuju ke hasilnya.')];
+      else if (mode === 'full') {
+        if (words >= 40 && !lit[0]) n = ['situ', T('Name the situation in one sentence — where, when, what was at stake.', 'Sebutkan situasinya dalam satu kalimat — di mana, kapan, apa yang dipertaruhkan.')];
+        else if (words >= 70 && !lit[2]) n = ['act', T('Get to what you did: “I decided…”, “I built…”.', 'Masuk ke apa yang kamu lakukan: “Saya memutuskan…”, “Saya membangun…”.')];
+        else if (words >= 30 && weC > iC * 2 && weC >= 3) n = ['we', T('Lots of “we” — what did you personally do?', 'Banyak “kami” — apa yang kamu lakukan secara pribadi?')];
+        else if (words >= 90 && !/\d/.test(t)) n = ['num', T('Add a number: a percentage, a count, a deadline.', 'Tambahkan angka: persentase, jumlah, tenggat.')];
+        else if (words >= 110 && lit[3] && !lit[4]) n = ['learn', T('Close with what you learned or would do differently.', 'Tutup dengan apa yang kamu pelajari atau akan lakukan berbeda.')];
+        else if (words > 240) n = ['long', T('You are past 240 words — one more sentence, then stop.', 'Sudah lewat 240 kata — satu kalimat lagi, lalu berhenti.')];
+        else if (fill >= 3) n = ['fill', T('Fillers creeping in — pause instead of “um”.', 'Kata isian mulai muncul — jeda saja, jangan “emm”.')];
+      }
+      setNudge(n ? n[0] : null, n ? n[1] : null, force);
+    }
+    var tickId = setInterval(function () { if (!document.body.contains(box)) { clearInterval(tickId); return; } if (state.t0) update(lastText, Math.round((Date.now() - state.t0) / 1000)); }, 2000);
+    return { el: box, update: function (text) { update(text, state.t0 ? Math.round((Date.now() - state.t0) / 1000) : 0); }, mode: function () { return mode; } };
+  }
+
   /* ─── HOME ─── */
   function renderHome() {
     var w = setScreen('home', null);
@@ -692,8 +959,8 @@
 
     var integ = el('div', 'rsim-card');
     integ.innerHTML = '<div class="rsim-integrity"><b>' + T('Interview integrity', 'Integritas wawancara') + '</b>' +
-      T('This simulator prepares you <em>before</em> the interview. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
-        'Simulator ini mempersiapkanmu <em>sebelum</em> wawancara. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
+      T('Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
+        'Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
     w.appendChild(integ);
   }
 
@@ -960,6 +1227,7 @@
 
   /* media helpers */
   function stopMedia() {
+    if (state.vi) { try { state.vi.destroy(); } catch (e) {} state.vi = null; }
     if (state.recog) { try { state.recog.stop(); } catch (e) {} state.recog = null; }
     if (state.recorder && state.recorder.state !== 'inactive') { try { state.recorder.stop(); } catch (e) {} }
     state.recorder = null; state.recOn = false;
@@ -994,17 +1262,11 @@
       clip.className = 'stage-clip'; clip.src = media.idle;
       clip.muted = true; clip.loop = true; clip.playsInline = true; clip.autoplay = true;
       stage.appendChild(clip);
-    } else if (photo) {
-      var ph = document.createElement('img');
-      ph.className = 'stage-photo'; ph.src = photo.src; ph.alt = '';
-      ph.decoding = 'async';
-      ph.style.objectPosition = photo.pos;
-      stage.appendChild(ph);
-      stage.appendChild(el('div', 'stage-grade'));
     } else {
-      var av = el('div', 'rsim-avatar');
-      av.innerHTML = avatarSvg(per);
-      stage.appendChild(av);
+      /* rendered interviewer, delivered as a video stream (see videoInterviewer) */
+      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
+      state.vi = videoInterviewer(per, photo, stage);
+      stage.appendChild(el('div', 'stage-grade'));
     }
     var nameChip = el('div', 'st-name');
     nameChip.appendChild(el('span', 'dot'));
@@ -1110,7 +1372,11 @@
     ta.className = 'rsim-ta';
     right.appendChild(ta);
     media.appendChild(right);
-    card.appendChild(media);
+    var guide = buildGuide(q, s, {});
+    var arow = el('div', 'rsim-answer');
+    arow.appendChild(media); arow.appendChild(guide.el);
+    card.appendChild(arow);
+    ta.addEventListener('input', function () { state.lastListen = Date.now(); stage.classList.add('listening'); guide.update(ta.value); });
 
     function setFormat(f) {
       state.fmt = f;
@@ -1177,6 +1443,7 @@
         state.recorder.ondataavailable = function (e) { if (e.data && e.data.size) state.chunks.push(e.data); };
         state.recorder.start();
         state.recOn = true;
+        stage.classList.add('listening'); state.lastListen = Date.now();
         camBox.classList.add('rec'); pip.classList.add('rec');
         recBtn.classList.add('on'); recBtn.innerHTML = '■ ' + T('Stop recording', 'Hentikan rekaman');
         startStt();
@@ -1232,6 +1499,8 @@
           }
           if (fin) ta.value = fin;
           live.textContent = inter || T('Listening…', 'Mendengarkan…');
+          state.lastListen = now; stage.classList.add('listening');
+          guide.update((fin || ta.value) + ' ' + inter);
         };
         rec.onerror = function () { live.textContent = T('Voice transcription unavailable — type your key points below.', 'Transkripsi suara tidak tersedia — ketik poin utamamu di bawah.'); };
         rec.start();
@@ -1272,7 +1541,7 @@
         var a = analyseAnswer(text, q, secs, state.sttGaps);
         var rec2 = {
           qid: q.id, q: L(q.q), followup: followup || null, text: text, skipped: !!skipped,
-          fmt: state.fmt, secs: secs, analysis: a, fb: feedbackFor(a, q), recKey: recKey,
+          fmt: state.fmt, secs: secs, analysis: a, fb: feedbackFor(a, q), recKey: recKey, guide: guide.mode(),
           attempt: s.answers.filter(function (x) { return x.qid === q.id; }).length + 1
         };
         s.answers.push(rec2);
