@@ -1759,12 +1759,198 @@ window.MT_ASSESS['the-map'] = {
      "en": "Stated preferences are what you think you like; the simulation measured your reaction to the actual work. Contact beats introspection.",
      "id": "Preferensi yang dinyatakan adalah apa yang kamu kira kamu sukai; simulasi mengukur reaksimu terhadap pekerjaan yang sesungguhnya. Bersentuhan langsung mengalahkan introspeksi."
     }
+   },
+   {
+    "type": "know",
+    "lesson": "6.8",
+    "q": {
+     "en": "Your first query shows an 18% order drop for the 2 pm meeting. The analyst's next step is to:",
+     "id": "Kueri pertamamu menunjukkan penurunan pesanan 18% untuk rapat jam 2. Langkah analis berikutnya adalah:"
+    },
+    "opts": [
+     {
+      "en": "Build the slide",
+      "id": "Membuat slidenya"
+     },
+     {
+      "en": "Check whether the number is real — pipeline, segments, comparison cities, calendar",
+      "id": "Memeriksa apakah angkanya sungguhan — pipeline, segmen, kota pembanding, kalender"
+     },
+     {
+      "en": "Escalate immediately",
+      "id": "Langsung mengeskalasi"
+     },
+     {
+      "en": "Average it with last month",
+      "id": "Merata-ratakannya dengan bulan lalu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Half of analytics is deciding whether the number is real before anyone acts on it; in the track the true dip was 6% and concentrated in two districts.",
+     "id": "Separuh pekerjaan analitik adalah memutuskan apakah angkanya sungguhan sebelum ada yang bertindak; di jalur itu penurunan sebenarnya 6% dan terkonsentrasi di dua kecamatan."
+    }
+   },
+   {
+    "type": "scenario",
+    "lesson": "6.9",
+    "q": {
+     "en": "A P1 double-charge bug has a real fix that needs a migration. The junior engineer should:",
+     "id": "Bug tagihan ganda P1 punya perbaikan sesungguhnya yang butuh migrasi. Junior engineer sebaiknya:"
+    },
+    "opts": [
+     {
+      "en": "Ship the real fix today",
+      "id": "Merilis perbaikan sesungguhnya hari ini"
+     },
+     {
+      "en": "Ship the narrowest safe mitigation behind a feature flag and ticket the real fix with an owner",
+      "id": "Merilis mitigasi paling sempit yang aman di balik feature flag dan meniketkan perbaikan sesungguhnya dengan pemilik"
+     },
+     {
+      "en": "Wait for the senior who left",
+      "id": "Menunggu senior yang sudah keluar"
+     },
+     {
+      "en": "Disable retries for everyone",
+      "id": "Menonaktifkan coba ulang untuk semua orang"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The right fix and the safe-today fix are often different; a P1 wants the second, with the first written down so it is not forgotten.",
+     "id": "Perbaikan yang benar dan yang aman-hari-ini sering berbeda; P1 menginginkan yang kedua, dengan yang pertama dicatat agar tidak terlupakan."
+    }
+   },
+   {
+    "type": "scenario",
+    "lesson": "6.10",
+    "q": {
+     "en": "Asked ‘is the campaign working?’ with 2.1m views, 31% reorders in 14 days and cost per order 17% above target, you lead with:",
+     "id": "Ditanya ‘apakah kampanyenya berhasil?’ dengan 2,1 juta tayangan, pemesanan ulang 31% dalam 14 hari, dan biaya per pesanan 17% di atas target, kamu mulai dengan:"
+    },
+    "opts": [
+     {
+      "en": "The views — they show reach",
+      "id": "Tayangannya — menunjukkan jangkauan"
+     },
+     {
+      "en": "The reorder rate, then the honest miss on cost per order and what you are changing",
+      "id": "Tingkat pemesanan ulang, lalu kejujuran tentang biaya per pesanan yang meleset dan apa yang kamu ubah"
+     },
+     {
+      "en": "A request for more budget",
+      "id": "Permintaan anggaran tambahan"
+     },
+     {
+      "en": "The pharmacy numbers",
+      "id": "Angka apoteknya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The metric closest to customer behaviour answers the question; views are a vanity metric. Honesty about the miss earns the next budget.",
+     "id": "Metrik yang paling dekat dengan perilaku pelanggan menjawab pertanyaannya; tayangan adalah metrik kesombongan. Kejujuran tentang yang meleset mendatangkan anggaran berikutnya."
+    }
+   },
+   {
+    "type": "scenario",
+    "lesson": "6.11",
+    "q": {
+     "en": "Air freight costs Rp 27m to protect Rp 18m of margin; a 4-day transfer from another DC costs Rp 10.5m; the penalty is Rp 22m. Recommend:",
+     "id": "Kirim udara menghabiskan Rp 27 juta untuk melindungi margin Rp 18 juta; transfer 4 hari dari DC lain Rp 10,5 juta; dendanya Rp 22 juta. Rekomendasikan:"
+    },
+    "opts": [
+     {
+      "en": "Air freight — never show an empty shelf",
+      "id": "Kirim udara — jangan pernah memperlihatkan rak kosong"
+     },
+     {
+      "en": "The transfer, telling the customer today when the rest arrives",
+      "id": "Transfer itu, dengan memberi tahu pelanggan hari ini kapan sisanya tiba"
+     },
+     {
+      "en": "Pay the penalty",
+      "id": "Bayar dendanya"
+     },
+     {
+      "en": "Split the order between air and sea",
+      "id": "Bagi pesanan antara udara dan laut"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Operations decisions are margin arithmetic with a relationship attached: the transfer nets +Rp 7.5m, and a customer who is told is a customer kept.",
+     "id": "Keputusan operasi adalah aritmetika margin dengan hubungan yang melekat: transfer itu bersih +Rp 7,5 juta, dan pelanggan yang diberi tahu adalah pelanggan yang dipertahankan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.12",
+    "q": {
+     "en": "Completing an employer's simulation on The Forage is:",
+     "id": "Menyelesaikan simulasi perusahaan di The Forage adalah:"
+    },
+    "opts": [
+     {
+      "en": "An application to that employer",
+      "id": "Lamaran ke perusahaan itu"
+     },
+     {
+      "en": "Evidence for interviews and a signal visible to the employer — not an application",
+      "id": "Bukti untuk wawancara dan sinyal yang terlihat oleh perusahaan — bukan lamaran"
+     },
+     {
+      "en": "A guaranteed interview",
+      "id": "Jaminan wawancara"
+     },
+     {
+      "en": "Work experience for your CV",
+      "id": "Pengalaman kerja untuk CV-mu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It is the firm's real work in its own voice; its value for an application depends on the debrief and the sentence you write about it.",
+     "id": "Ini pekerjaan nyata firma dalam suaranya sendiri; nilainya bagi lamaran bergantung pada tinjauan dan kalimat yang kamu tulis tentangnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.13",
+    "q": {
+     "en": "Where does a completed simulation belong on a CV?",
+     "id": "Di mana simulasi yang selesai seharusnya berada di CV?"
+    },
+    "opts": [
+     {
+      "en": "Under Experience, as a virtual internship",
+      "id": "Di bawah Pengalaman, sebagai magang virtual"
+     },
+     {
+      "en": "Under Projects and simulations, named honestly, with concrete actions in the desk's vocabulary",
+      "id": "Di bawah Proyek dan simulasi, disebut dengan jujur, dengan tindakan konkret dalam kosakata meja kerjanya"
+     },
+     {
+      "en": "In the summary paragraph only",
+      "id": "Hanya di paragraf ringkasan"
+     },
+     {
+      "en": "Nowhere — it is not worth listing",
+      "id": "Tidak di mana pun — tidak layak dicantumkan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Honest labelling plus concrete actions is what a hiring manager can picture and trust; inflation is punished.",
+     "id": "Pelabelan jujur plus tindakan konkret adalah yang bisa dibayangkan dan dipercaya manajer perekrut; penggelembungan dihukum."
+    }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Pick the two industry tracks that scored highest on your three-question debriefs. For each, write what specifically energised you, and name the single next step (a Range company to research, a project to start) with a date.",
-    "id": "Pilih dua jalur industri dengan skor tertinggi di debrief tiga pertanyaanmu. Untuk masing-masing, tulis apa persisnya yang memberimu energi, dan sebutkan satu langkah berikutnya (perusahaan di The Range untuk diriset, proyek untuk dimulai) lengkap dengan tanggalnya."
+    "en": "Paste the summary from your simulation log (lesson 6.13). Pick the two tracks that scored highest. For each, write what specifically energised you, the matching external simulation you will run on The Forage, and the single next step (a Range company to research, an application to send) with a date.",
+    "id": "Tempelkan ringkasan dari catatan simulasimu (pelajaran 6.13). Pilih dua jalur dengan skor tertinggi. Untuk masing-masing, tulis apa persisnya yang memberimu energi, simulasi eksternal yang sesuai yang akan kamu jalankan di The Forage, dan satu langkah berikutnya (perusahaan di The Range untuk diriset, lamaran untuk dikirim) lengkap dengan tanggalnya."
    },
    "min": 25
   }
