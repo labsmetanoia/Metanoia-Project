@@ -3801,8 +3801,8 @@ window.MT_LMS['the-map'] = {
       "id": "Akar Masalah dan Rencana Tindakan"
      },
      "dur": {
-      "en": "35 min",
-      "id": "35 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -3938,8 +3938,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apakah Sudah SMART? — Materi"
        },
        "intro": {
-        "en": "After the case, four slides add a test for step 1 before you diagnose anything: is your problem question SMART — specific, measurable, actionable, relevant, time-bound? The five criteria with an example each; the DentMerc team's question from 3.1 assessed against them, two criteria failing; and an expert rewrite that passes all five. Read them, then continue to Exhibit 1 below — a SMART question is what 1A starts from.",
-        "id": "Setelah kasusnya, empat slide menambahkan sebuah uji untuk langkah 1 sebelum Anda mendiagnosis apa pun: apakah pertanyaan masalah Anda sudah SMART — spesifik, terukur, dapat ditindaklanjuti, relevan, memiliki batas waktu? Lima kriteria dengan satu contoh masing-masing; pertanyaan tim DentMerc dari 3.1 dinilai terhadap kriteria itu, dua kriteria gagal; dan rumusan ulang dari ahli yang lolos kelimanya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+        "en": "After the case, four slides add a test for step 1 before you diagnose anything: is your problem question SMART — specific, measurable, actionable, relevant, time-bound? The five criteria with an example each; the DentMerc team's question from 3.1 assessed against them, two criteria failing; and an expert rewrite that passes all five. Read them, then watch the film that follows.",
+        "id": "Setelah kasusnya, empat slide menambahkan sebuah uji untuk langkah 1 sebelum Anda mendiagnosis apa pun: apakah pertanyaan masalah Anda sudah SMART — spesifik, terukur, dapat ditindaklanjuti, relevan, memiliki batas waktu? Lima kriteria dengan satu contoh masing-masing; pertanyaan tim DentMerc dari 3.1 dinilai terhadap kriteria itu, dua kriteria gagal; dan rumusan ulang dari ahli yang lolos kelimanya. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-smart-",
        "slides": [
@@ -4346,6 +4346,35 @@ window.MT_LMS['the-map'] = {
         "en": "The band's posters were “hard” until a design-student friend offered to make them. Getting help is a legitimate move that changes the matrix; the plan still needs a who-what-when line.",
         "id": "Poster band itu tadinya “sulit” sampai seorang teman mahasiswa desain menawarkan diri membuatnya. Meminta bantuan adalah langkah sah yang mengubah matriks; rencananya tetap butuh baris siapa-apa-kapan."
        }
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "smart",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "After the slides, one film walks the five SMART tests through two live examples. First the tests themselves — specific (value of the company, or revenue?), measurable (10% or 30%?), actionable (entering a market is a wish until you name the actions), relevant to every stakeholder, and time-bound (four weeks of cash and a 30-year infrastructure plan call for very different solutions). Then a vacation question is sharpened from “where do we want to go?” to “where do we want to go to have the best vacation ever within the next four months?”, and a revenue-growth problem is redefined around a fixed budget so the team stops chasing options it could never afford. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below — a SMART question is what 1A starts from.",
+        "id": "Setelah slide, satu film membawa kelima uji SMART melalui dua contoh nyata. Pertama uji-ujinya sendiri — spesifik (nilai perusahaan, atau pendapatan?), terukur (10% atau 30%?), dapat ditindaklanjuti (memasuki pasar hanyalah harapan sampai tindakannya disebutkan), relevan bagi setiap pemangku kepentingan, dan terikat waktu (kas untuk empat minggu dan rencana infrastruktur 30 tahun menuntut solusi yang sangat berbeda). Lalu sebuah pertanyaan liburan dipertajam dari “ke mana kita ingin pergi?” menjadi “ke mana kita ingin pergi agar mendapat liburan terbaik dalam empat bulan ke depan?”, dan sebuah masalah pertumbuhan pendapatan dirumuskan ulang berdasarkan anggaran yang tetap sehingga tim berhenti mengejar pilihan yang tidak pernah terjangkau. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/is-it-smart.mp4",
+         "poster": "../../assets/lms/the-map/is-it-smart-poster.jpg",
+         "dur": "3:35",
+         "title": {
+          "en": "Is it SMART? Five tests for a problem question",
+          "id": "Apakah sudah SMART? Lima uji untuk pertanyaan masalah"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/is-it-smart-en.vtt",
+          "id": "../../assets/lms/the-map/is-it-smart-id.vtt"
+         }
+        }
+       ]
       }
      ]
     },

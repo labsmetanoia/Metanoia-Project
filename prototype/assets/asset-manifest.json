@@ -12613,6 +12613,54 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.2 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/is-it-smart.mp4",
+      "bytes": 12298068,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Is it Smart.mp4\" (commit 5bb28aa); moved beside the other lesson films. One on-camera presenter (captioned “Marc, Partner”) walks through the five SMART tests with animated inserts, a vacation example and a revenue-growth example (3:35).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Is it SMART? slides). Licence and model release follow the supplied file; one identifiable presenter appears."
+    },
+    {
+      "file": "assets/lms/the-map/is-it-smart-poster.jpg",
+      "bytes": 61778,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:08 of is-it-smart.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film poster (identifiable person). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/is-it-smart-en.vtt",
+      "bytes": 5072,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for is-it-smart.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.2 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/is-it-smart-id.vtt",
+      "bytes": 5272,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for is-it-smart.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.2 lesson film captions."
     }
   ]
 }
