@@ -952,129 +952,441 @@ window.MT_ASSESS['the-map'] = {
   }
  },
  "3": {
-  "mcq": [
+  "minutes": 15,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "A gap statement consists of:",
-     "id": "Pernyataan celah terdiri dari:"
+    "lesson": "3.1",
+    "h": {
+     "en": "Think Like a Problem Solver: The Four-Step Method",
+     "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
     },
-    "opts": [
-     {
-      "en": "Problem, solution, and timeline",
-      "id": "Masalah, solusi, dan lini waktu"
-     },
-     {
-      "en": "Current state, desired state, and the obstacle between them",
-      "id": "Kondisi sekarang, kondisi yang diinginkan, dan hambatan di antara keduanya"
-     },
-     {
-      "en": "Symptoms, causes, and blame",
-      "id": "Gejala, penyebab, dan pihak yang disalahkan"
-     },
-     {
-      "en": "Strengths, weaknesses, opportunities, threats",
-      "id": "Kekuatan, kelemahan, peluang, ancaman"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Without all three parts written down you have a complaint, not a problem — and a solution to an undefined problem is a lottery ticket.",
-     "id": "Tanpa ketiga bagian itu tertulis, yang kamu punya adalah keluhan, bukan masalah — dan solusi untuk masalah yang belum didefinisikan sama saja dengan membeli tiket lotre."
+    "sub": {
+     "en": "The four steps; the four stuck characters; logic trees with no gaps and no overlaps; gap statements.",
+     "id": "Empat langkah; empat karakter yang terjebak; pohon logika tanpa celah dan tumpang tindih; pernyataan kesenjangan."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "A breakdown is MECE when:",
-     "id": "Sebuah penguraian masalah disebut MECE ketika:"
+    "lesson": "3.2",
+    "h": {
+     "en": "Root Causes and Action Plans",
+     "id": "Akar Masalah dan Rencana Tindakan"
     },
-    "opts": [
-     {
-      "en": "It has exactly four branches",
-      "id": "Cabangnya tepat empat"
-     },
-     {
-      "en": "No item belongs to two branches and no possibility is left uncovered",
-      "id": "Tidak ada butir yang masuk ke dua cabang sekaligus, dan tidak ada kemungkinan yang tercecer"
-     },
-     {
-      "en": "Each branch has a catch-all 'other' category",
-      "id": "Setiap cabang punya kategori 'lain-lain' sebagai penampung"
-     },
-     {
-      "en": "It uses a famous consulting framework",
-      "id": "Ia memakai kerangka konsultan yang terkenal"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Mutually exclusive, collectively exhaustive — the delegation test: could teammates each take a branch without overlap or uncovered territory?",
-     "id": "Saling lepas dan lengkap menyeluruh — ujinya adalah delegasi: bisakah setiap rekan setim mengambil satu cabang tanpa ada yang tumpang tindih atau wilayah yang tidak tergarap?"
+    "sub": {
+     "en": "Symptom, diagnosis, prescription; yes/no trees and hypotheses; the design plan; impact × ease; who-what-when.",
+     "id": "Gejala, diagnosis, resep; pohon ya/tidak dan hipotesis; rencana rancangan; dampak × kemudahan; siapa-apa-kapan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your 5-Whys chain lands on 'because Andi is lazy'. What went wrong?",
-     "id": "Rantai 5 Why-mu berakhir di 'karena Andi malas'. Apa yang salah?"
+    "lesson": "3.3",
+    "h": {
+     "en": "Goals, Gaps and Good Decisions",
+     "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
     },
-    "opts": [
-     {
-      "en": "Nothing — people are often the root cause",
-      "id": "Tidak ada — orang memang sering menjadi akar masalah"
-     },
-     {
-      "en": "The chain stopped at blame; roots are usually processes and incentives, so keep asking why",
-      "id": "Rantainya berhenti di menyalahkan orang; akar masalah biasanya proses dan insentif, jadi teruslah bertanya mengapa"
-     },
-     {
-      "en": "Five whys were not enough — use ten",
-      "id": "Lima 'mengapa' tidak cukup — pakai sepuluh"
-     },
-     {
-      "en": "The chain should have started with Andi",
-      "id": "Rantainya seharusnya dimulai dari Andi"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Persons are rarely root causes. 'Why does the process allow this?' keeps digging toward something ownable and fixable.",
-     "id": "Orang jarang menjadi akar masalah. 'Mengapa prosesnya membiarkan ini terjadi?' terus menggali sampai ke sesuatu yang bisa kamu pegang dan perbaiki."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "Your decision matrix's winner disappoints you. The flinch test says:",
-     "id": "Pemenang di matriks keputusanmu ternyata mengecewakan. Uji kernyit mengatakan:"
-    },
-    "opts": [
-     {
-      "en": "Follow the matrix — feelings are noise",
-      "id": "Ikuti matriksnya — perasaan hanya gangguan"
-     },
-     {
-      "en": "A hidden criterion is missing from the table; find it, add it, rescore",
-      "id": "Ada kriteria tersembunyi yang belum masuk tabel; temukan, tambahkan, lalu beri skor ulang"
-     },
-     {
-      "en": "Discard the matrix and decide by instinct",
-      "id": "Buang matriksnya dan putuskan dengan naluri"
-     },
-     {
-      "en": "Lower the winning option's scores until it loses",
-      "id": "Turunkan skor pilihan yang menang sampai ia kalah"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The matrix's job is exposing your real weights. Disappointment is data: something you value never made it into the table.",
-     "id": "Tugas matriks adalah membeberkan bobot yang sebenarnya kamu pegang. Kekecewaan itu data: ada sesuatu yang kamu hargai tapi tidak pernah masuk ke tabel."
+    "sub": {
+     "en": "Solid goals and gap arithmetic; the hypothesis pyramid; pros and cons; criteria and weights; challenging your conclusion.",
+     "id": "Tujuan yang padat dan hitungan kesenjangan; piramida hipotesis; pro-kontra; kriteria dan bobot; menantang kesimpulanmu."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "3.1",
+    "q": {
+     "en": "In the four-step method, what does step 4 — “execute and modify until solved” — say about when a problem is finished?",
+     "id": "Dalam metode empat langkah, apa yang dikatakan langkah 4 — “jalankan dan sesuaikan sampai selesai” — tentang kapan sebuah masalah dianggap selesai?"
+    },
+    "opts": [
+     {
+      "en": "When the action plan has been written and shared",
+      "id": "Ketika rencana tindakan sudah ditulis dan dibagikan"
+     },
+     {
+      "en": "When the measured outcome has been reached — the plan is reworked until then",
+      "id": "Ketika hasil yang diukur sudah tercapai — rencananya dibenahi terus sampai saat itu"
+     },
+     {
+      "en": "When the root cause has been identified",
+      "id": "Ketika akar masalahnya sudah ditemukan"
+     },
+     {
+      "en": "When everyone agrees the problem is important",
+      "id": "Ketika semua sepakat masalahnya penting"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The loop closes on the outcome, not the document. The Dreamer stops at the plan; the problem solver measures, keeps what worked and reworks what did not.",
+     "id": "Putaran selesai pada hasilnya, bukan dokumennya. Si Pemimpi berhenti di rencana; pemecah masalah mengukur, mempertahankan yang berhasil, dan membenahi yang tidak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "A committee member says: “Our fundraising night flopped. Next year we'll just work twice as hard on the same plan.” Which character is this, and what is missing?",
+     "id": "Seorang anggota panitia berkata: “Malam penggalangan dana kita gagal. Tahun depan kita kerja dua kali lebih keras dengan rencana yang sama.” Karakter mana ini, dan apa yang hilang?"
+    },
+    "opts": [
+     {
+      "en": "The Critic — a better plan from someone else",
+      "id": "Si Pengkritik — rencana yang lebih baik dari orang lain"
+     },
+     {
+      "en": "The Sigher — the will to try again",
+      "id": "Si Pengeluh — kemauan untuk mencoba lagi"
+     },
+     {
+      "en": "The Go-Getter — a diagnosis of why it flopped before choosing what to change",
+      "id": "Si Tancap Gas — diagnosis mengapa gagal sebelum memilih apa yang diubah"
+     },
+     {
+      "en": "The Dreamer — a bigger idea",
+      "id": "Si Pemimpi — ide yang lebih besar"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "More effort in the same direction is the Go-Getter's signature. Steps 1 and 2 — understand the situation, find the root cause — are skipped entirely.",
+     "id": "Usaha lebih keras ke arah yang sama adalah ciri khas Si Tancap Gas. Langkah 1 dan 2 — pahami situasi, temukan akar masalah — dilompati seluruhnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.1",
+    "q": {
+     "en": "A logic tree is checked from right to left by asking:",
+     "id": "Pohon logika diperiksa dari kanan ke kiri dengan bertanya:"
+    },
+    "opts": [
+     {
+      "en": "“Specifically, how?”",
+      "id": "“Tepatnya, bagaimana?”"
+     },
+     {
+      "en": "“What can I call this group — and do the branches add up to it?”",
+      "id": "“Apa nama kelompok ini — dan apakah cabang-cabangnya menjumlah ke sana?”"
+     },
+     {
+      "en": "“Which branch is cheapest to fix?”",
+      "id": "“Cabang mana yang paling murah diperbaiki?”"
+     },
+     {
+      "en": "“Who is to blame for this branch?”",
+      "id": "“Siapa yang harus disalahkan untuk cabang ini?”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Left to right grows the tree with “specifically what or how?”; right to left checks it for gaps and overlaps by naming each group and confirming its children cover it.",
+     "id": "Dari kiri ke kanan menumbuhkan pohon dengan “tepatnya apa atau bagaimana?”; dari kanan ke kiri memeriksanya dari celah dan tumpang tindih dengan menamai tiap kelompok dan memastikan anak-anaknya mencakupnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "Which of these is a complete gap statement for a student organisation?",
+     "id": "Mana yang merupakan pernyataan kesenjangan lengkap untuk sebuah organisasi mahasiswa?"
+    },
+    "opts": [
+     {
+      "en": "“Our organisation is dying and nobody cares.”",
+      "id": "“Organisasi kami sekarat dan tidak ada yang peduli.”"
+     },
+     {
+      "en": "“12 active members now, down from 40; 30 active members by December; we do not know why people leave after their first month.”",
+      "id": "“12 anggota aktif sekarang, turun dari 40; 30 anggota aktif pada Desember; kami tidak tahu mengapa orang pergi setelah bulan pertama.”"
+     },
+     {
+      "en": "“We need a recruitment drive and a new logo.”",
+      "id": "“Kami butuh kampanye rekrutmen dan logo baru.”"
+     },
+     {
+      "en": "“Membership should feel more engaging.”",
+      "id": "“Keanggotaan seharusnya terasa lebih menarik.”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Current state, desired state with a date, and a named obstacle. The others are a complaint, a solution and a feeling — none can be worked on yet.",
+     "id": "Kondisi sekarang, kondisi yang diinginkan dengan tanggal, dan hambatan yang disebutkan. Yang lain adalah keluhan, solusi, dan perasaan — tidak satu pun yang sudah bisa digarap."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.2",
+    "q": {
+     "en": "Why does Problem Solving 101 compare the problem solver to a doctor?",
+     "id": "Mengapa Problem Solving 101 membandingkan pemecah masalah dengan dokter?"
+    },
+    "opts": [
+     {
+      "en": "Because both need many years of training",
+      "id": "Karena keduanya butuh pelatihan bertahun-tahun"
+     },
+     {
+      "en": "Because a good doctor treats the cause of the fever, not the fever — symptom, diagnosis, then prescription",
+      "id": "Karena dokter yang baik mengobati penyebab demam, bukan demamnya — gejala, diagnosis, baru resep"
+     },
+     {
+      "en": "Because doctors always act fast",
+      "id": "Karena dokter selalu bertindak cepat"
+     },
+     {
+      "en": "Because patients rarely know what is wrong",
+      "id": "Karena pasien jarang tahu apa yang salah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Treat the symptom and it returns; treat the root cause and it stays gone. The diagnosis sequence 1A–1D exists so the prescription matches the cause.",
+     "id": "Obati gejala, ia kembali; obati akar masalah, ia hilang untuk seterusnya. Urutan diagnosis 1A–1D ada supaya resepnya cocok dengan sebabnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "A yes/no tree for a campus band shows 500 students → 150 aware → 15 have attended → 12 keep coming. Where is the bottleneck?",
+     "id": "Pohon ya/tidak untuk sebuah band kampus menunjukkan 500 mahasiswa → 150 tahu → 15 pernah datang → 12 terus datang. Di mana titik hambatnya?"
+    },
+    "opts": [
+     {
+      "en": "Awareness — only 30% know the band",
+      "id": "Kesadaran — hanya 30% yang tahu band ini"
+     },
+     {
+      "en": "Retention — 3 people stopped coming",
+      "id": "Retensi — 3 orang berhenti datang"
+     },
+     {
+      "en": "Trial — 90% of those aware have never attended",
+      "id": "Coba — 90% dari yang tahu tidak pernah datang"
+     },
+     {
+      "en": "There is no bottleneck; the band just needs more time",
+      "id": "Tidak ada titik hambat; band ini hanya butuh lebih banyak waktu"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Read the funnel for the largest proportional drop: 150 → 15 is a 90% loss, while 15 → 12 is only 20%. Interviews therefore go to non-attendees, and a retention fix would be wasted.",
+     "id": "Baca corongnya untuk penurunan proporsional terbesar: 150 → 15 adalah kehilangan 90%, sementara 15 → 12 hanya 20%. Wawancara karena itu diarahkan ke yang tidak datang, dan perbaikan retensi akan sia-sia."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "The band's survey shows awareness at 30%, six times the 5% they hypothesised. A teammate says “30% is still low — run the awareness campaign anyway.” What is the problem-solver's reply?",
+     "id": "Survei band menunjukkan kesadaran 30%, enam kali lipat dari 5% yang mereka hipotesiskan. Seorang rekan berkata “30% masih rendah — tetap jalankan kampanye kesadaran.” Apa jawaban sang pemecah masalah?"
+    },
+    "opts": [
+     {
+      "en": "Agree — any improvement helps",
+      "id": "Setuju — perbaikan apa pun membantu"
+     },
+     {
+      "en": "The hypothesis was wrong; re-read the funnel for the biggest drop and aim the plan there",
+      "id": "Hipotesisnya salah; baca ulang corongnya untuk penurunan terbesar dan arahkan rencana ke sana"
+     },
+     {
+      "en": "Distrust the survey and keep the original plan",
+      "id": "Curigai surveinya dan pertahankan rencana semula"
+     },
+     {
+      "en": "Skip the interviews and start the campaign faster",
+      "id": "Lewati wawancara dan mulai kampanye lebih cepat"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A hypothesis exists to be killed by data. The larger leak was trial — 90% of aware students had never attended — so the plan changed to homeroom performances, a 5 p.m. slot and new songs.",
+     "id": "Hipotesis ada untuk dipatahkan data. Kebocoran yang lebih besar ada di tahap coba — 90% mahasiswa yang tahu tidak pernah datang — jadi rencananya berubah menjadi pentas di kelas, slot pukul 17.00, dan lagu baru."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.2",
+    "q": {
+     "en": "On an impact × ease matrix, which ideas are run first, and what can move an idea into that corner?",
+     "id": "Pada matriks dampak × kemudahan, ide mana yang dijalankan lebih dulu, dan apa yang bisa memindahkan sebuah ide ke pojok itu?"
+    },
+    "opts": [
+     {
+      "en": "High impact, easy to implement; asking for help can move a hard idea there",
+      "id": "Dampak tinggi, mudah dilaksanakan; meminta bantuan bisa memindahkan ide yang sulit ke sana"
+     },
+     {
+      "en": "Low impact, easy — quick wins first",
+      "id": "Dampak rendah, mudah — kemenangan cepat dulu"
+     },
+     {
+      "en": "High impact, hard — ambition first",
+      "id": "Dampak tinggi, sulit — ambisi dulu"
+     },
+     {
+      "en": "Whichever the loudest teammate prefers",
+      "id": "Yang disukai rekan paling vokal"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Top-right first. The band's posters were “hard” until a design-student friend offered to make them — getting help is a legitimate move that changes the matrix.",
+     "id": "Kanan atas dulu. Poster band itu tadinya “sulit” sampai seorang teman mahasiswa desain menawarkan diri membuatnya — meminta bantuan adalah langkah sah yang mengubah matriks."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Savings Rp 1,500,000; you save Rp 170,000 a month; the goal is a Rp 5,000,000 laptop in six months without borrowing. What is the gap?",
+     "id": "Tabungan Rp 1.500.000; kamu menabung Rp 170.000 per bulan; tujuannya laptop Rp 5.000.000 dalam enam bulan tanpa berutang. Berapa kesenjangannya?"
+    },
+    "opts": [
+     {
+      "en": "Rp 3,500,000",
+      "id": "Rp 3.500.000"
+     },
+     {
+      "en": "Rp 1,020,000",
+      "id": "Rp 1.020.000"
+     },
+     {
+      "en": "Rp 2,480,000",
+      "id": "Rp 2.480.000"
+     },
+     {
+      "en": "Rp 5,000,000",
+      "id": "Rp 5.000.000"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "Do-nothing forecast: Rp 1,500,000 + 6 × Rp 170,000 = Rp 2,520,000. Gap: Rp 5,000,000 − Rp 2,520,000 = Rp 2,480,000. The number sets the size of the change needed.",
+     "id": "Perkiraan tanpa perubahan: Rp 1.500.000 + 6 × Rp 170.000 = Rp 2.520.000. Kesenjangan: Rp 5.000.000 − Rp 2.520.000 = Rp 2.480.000. Angka itu menentukan ukuran perubahan yang dibutuhkan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "What makes a hypothesis pyramid trustworthy?",
+     "id": "Apa yang membuat piramida hipotesis layak dipercaya?"
+    },
+    "opts": [
+     {
+      "en": "It has exactly three reasons",
+      "id": "Alasannya tepat tiga"
+     },
+     {
+      "en": "Each reason is checkable, and together the reasons add up to the conclusion",
+      "id": "Tiap alasan bisa diperiksa, dan bersama-sama alasan-alasannya menjumlah ke kesimpulan"
+     },
+     {
+      "en": "The conclusion is stated confidently",
+      "id": "Kesimpulannya dinyatakan dengan percaya diri"
+     },
+     {
+      "en": "It was drawn before any data was collected",
+      "id": "Ia digambar sebelum data apa pun dikumpulkan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Conclusion on top, reasons underneath. If the reasons sum to less than the gap, you do not have a plan yet — add a lever or extend the deadline, do not hope.",
+     "id": "Kesimpulan di atas, alasan di bawahnya. Kalau alasannya berjumlah kurang dari kesenjangan, kamu belum punya rencana — tambah tuas atau perpanjang tenggat, jangan berharap."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "Choosing between two internships, your table weights “office near a good mall” high and “chance to own a project” low, and your goal is an analyst job at graduation. What went wrong?",
+     "id": "Saat memilih di antara dua magang, tabelmu memberi bobot tinggi pada “kantor dekat mal bagus” dan bobot rendah pada “peluang memegang proyek”, padahal tujuanmu pekerjaan analis saat lulus. Apa yang salah?"
+    },
+    "opts": [
+     {
+      "en": "Nothing — weights are personal preferences",
+      "id": "Tidak ada — bobot adalah preferensi pribadi"
+     },
+     {
+      "en": "The weights came from the option you already prefer instead of from the goal",
+      "id": "Bobotnya datang dari pilihan yang sudah kamu sukai, bukan dari tujuan"
+     },
+     {
+      "en": "You need a longer pros-and-cons list",
+      "id": "Kamu butuh daftar pro-kontra yang lebih panjang"
+     },
+     {
+      "en": "You should decide by gut feeling instead",
+      "id": "Kamu sebaiknya memutuskan dengan naluri saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Criteria come from the goal and weights from the criteria. The striker's first table let “exciting city” decide; once a coach named what makes players better, the weights changed and so did the answer.",
+     "id": "Kriteria datang dari tujuan dan bobot dari kriteria. Tabel pertama si penyerang membiarkan “kota seru” memutuskan; begitu seorang pelatih menyebut apa yang membuat pemain lebih baik, bobotnya berubah, begitu pula jawabannya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "Which set of habits does the book recommend before committing to a big decision?",
+     "id": "Kebiasaan mana yang direkomendasikan buku ini sebelum berkomitmen pada keputusan besar?"
+    },
+    "opts": [
+     {
+      "en": "Sleep on it, trust your gut, decide alone",
+      "id": "Tidur dulu, percayai naluri, putuskan sendirian"
+     },
+     {
+      "en": "Worry less and act more; ask people who have done it; challenge your assumptions; look for the overlooked option",
+      "id": "Kurangi cemas dan perbanyak tindakan; tanya orang yang sudah menjalaninya; tantang asumsimu; cari pilihan yang terlewat"
+     },
+     {
+      "en": "Make the longest possible pros-and-cons list",
+      "id": "Buat daftar pro-kontra sepanjang mungkin"
+     },
+     {
+      "en": "Pick the option most people would choose",
+      "id": "Pilih opsi yang akan dipilih kebanyakan orang"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Two of the striker's three checks — a coach's advice and a question about scholarships — changed her decision. A week of anxious thinking had changed nothing.",
+     "id": "Dua dari tiga pemeriksaan si penyerang — nasihat pelatih dan pertanyaan soal beasiswa — mengubah keputusannya. Seminggu berpikir cemas tidak mengubah apa pun."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "Write your Module 3 problem-solving brief in four parts, on one real challenge you are facing now — academic, personal or professional. (1) The gap statement: current state, desired state with a date, obstacle — and if it is a goal, the gap arithmetic. (2) A two-level logic tree of causes or options, with a note on how you checked it for gaps and overlaps. (3) Your hypothesis, and a three-row design plan naming the evidence that could overturn it. (4) Either an impact × ease plan with a who-what-when line for the top two actions, or a criteria-and-evaluation table with weights — plus the one person you will ask before committing.",
+    "id": "Tulis ringkasan pemecahan masalah Modul 3-mu dalam empat bagian, tentang satu tantangan nyata yang sedang kamu hadapi — akademis, pribadi, atau profesional. (1) Pernyataan kesenjangan: kondisi sekarang, kondisi yang diinginkan dengan tanggal, hambatan — dan jika berupa tujuan, hitungan kesenjangannya. (2) Pohon logika dua tingkat tentang sebab atau pilihan, dengan catatan bagaimana kamu memeriksanya dari celah dan tumpang tindih. (3) Hipotesismu, dan rencana rancangan tiga baris yang menyebut bukti yang bisa membantahnya. (4) Rencana dampak × kemudahan dengan baris siapa-apa-kapan untuk dua tindakan teratas, atau tabel kriteria-dan-evaluasi dengan bobot — ditambah satu orang yang akan kamu tanya sebelum berkomitmen."
+   },
+   "guide": [
+    {
+     "en": "The gap statement has three parts and a date; a feeling is not a desired state.",
+     "id": "Pernyataan kesenjangan punya tiga bagian dan tanggal; perasaan bukan kondisi yang diinginkan."
+    },
+    {
+     "en": "The tree has no “other” bucket; every branch could be handed to a different person.",
+     "id": "Pohonnya tidak punya keranjang “lain-lain”; setiap cabang bisa diserahkan ke orang yang berbeda."
+    },
+    {
+     "en": "The hypothesis carries a number, and the design plan says what result would change your mind.",
+     "id": "Hipotesisnya membawa angka, dan rencana rancangannya menyebut hasil apa yang akan mengubah pikiranmu."
+    },
+    {
+     "en": "Every action has an owner and a date; every criterion weight can be traced back to the goal.",
+     "id": "Setiap tindakan punya penanggung jawab dan tanggal; setiap bobot kriteria bisa dilacak kembali ke tujuan."
+    }
+   ],
+   "min": 150
+  }
  },
  "4": {
   "mcq": [
