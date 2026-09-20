@@ -11701,6 +11701,102 @@
       "model_release": "n/a",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.1 slide material. Licence follows the supplied deck (illustrations and stock imagery, no identifiable people)."
+    },
+    {
+      "file": "assets/lms/the-map/multiple-approaches-to-problem-solving.mp4",
+      "bytes": 9210633,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Multiple Approaches to Problem Solving.mp4\" (commits 478751d/804e15b); moved beside the other lesson films. two on-camera presenters on the five problem-solving approaches and what they share (1:38).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Multiple Approaches slides). Licence and model release follow the supplied file; two identifiable presenters appear."
+    },
+    {
+      "file": "assets/lms/the-map/multiple-approaches-to-problem-solving-poster.jpg",
+      "bytes": 76071,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:20 of multiple-approaches-to-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable presenter). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/multiple-approaches-to-problem-solving-en.vtt",
+      "bytes": 2371,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for multiple-approaches-to-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/multiple-approaches-to-problem-solving-id.vtt",
+      "bytes": 2350,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for multiple-approaches-to-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/hypothesis-led-approach.mp4",
+      "bytes": 11464874,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Hypothesis-led approach.mp4\" (commits 478751d/804e15b); moved beside the other lesson films. one on-camera presenter on the hypothesis-led approach, with animated inserts (2:06).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Multiple Approaches slides). Licence and model release follow the supplied file; an identifiable presenter appears."
+    },
+    {
+      "file": "assets/lms/the-map/hypothesis-led-approach-poster.jpg",
+      "bytes": 60755,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:37 of hypothesis-led-approach.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable presenter). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/hypothesis-led-approach-en.vtt",
+      "bytes": 2804,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for hypothesis-led-approach.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/hypothesis-led-approach-id.vtt",
+      "bytes": 2879,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for hypothesis-led-approach.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
     }
   ]
 }

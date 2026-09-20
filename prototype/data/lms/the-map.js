@@ -2951,8 +2951,8 @@ window.MT_LMS['the-map'] = {
       "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
      },
      "dur": {
-      "en": "40 min",
-      "id": "40 mnt"
+      "en": "45 min",
+      "id": "45 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -3216,8 +3216,8 @@ window.MT_LMS['the-map'] = {
         "id": "Berbagai Pendekatan untuk Pemecahan Masalah — Materi"
        },
        "intro": {
-        "en": "After the films, four slides close the material: one framework for many problem-solving situations — understand, generate, evaluate, implement; what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway. Read them, then continue to Exhibit 1 below, where the same loop appears as the four-step method.",
-        "id": "Setelah film, empat slide menutup materi: satu kerangka kerja untuk banyak situasi pemecahan masalah — pahami, hasilkan, evaluasi, implementasikan; apa itu pendekatan berbasis hipotesis dan mengapa memulai dengan hipotesis memberi Anda pertanyaan yang lebih baik; tujuh langkah dari definisi sampai rekomendasi, dikelompokkan menjadi memahami, menyusun, menganalisis, dan mensintesis; dan poin utamanya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah, tempat putaran yang sama muncul sebagai metode empat langkah."
+        "en": "After the films, four slides close the material: one framework for many problem-solving situations — understand, generate, evaluate, implement; what the hypothesis-led approach is and why starting with a hypothesis gives you a better question; the seven steps from definition to recommendations, grouped into definition, structuring, analysing and synthesising; and the key takeaway. Read them, then watch the two films that follow.",
+        "id": "Setelah film, empat slide menutup materi: satu kerangka kerja untuk banyak situasi pemecahan masalah — pahami, hasilkan, evaluasi, implementasikan; apa itu pendekatan berbasis hipotesis dan mengapa memulai dengan hipotesis memberi Anda pertanyaan yang lebih baik; tujuh langkah dari definisi sampai rekomendasi, dikelompokkan menjadi memahami, menyusun, menganalisis, dan mensintesis; dan poin utamanya. Bacalah, lalu tonton dua film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-approach-",
        "slides": [
@@ -3325,6 +3325,46 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/making-sense-of-problems-en.vtt",
           "id": "../../assets/lms/the-map/making-sense-of-problems-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "before-exhibit",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · 2 short films",
+        "id": "Tonton berikutnya · 2 film singkat"
+       },
+       "intro": {
+        "en": "After the slides, two short films from the same consultants close the material. The first names five approaches to structured problem solving — hypothesis-led, domain-IP-led, advanced analytics, design thinking, engineering — and the five characteristics every one of them shares: a focused problem statement, impact orientation, a stakeholder perspective, a fact base, and synthesis. The second explains the hypothesis-led approach itself: define the problem up front, state the hypothesis you are trying to prove or disprove, structure the work around testing it, and use that structure to be a more creative problem solver. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same loop appears as the four-step method.",
+        "id": "Setelah slide, dua film singkat dari konsultan yang sama menutup materi. Film pertama menyebut lima pendekatan pemecahan masalah terstruktur — berbasis hipotesis, berbasis domain IP, advanced analytics, design thinking, rekayasa — dan lima karakteristik yang dimiliki semuanya: pernyataan masalah yang fokus, orientasi dampak, perspektif pemangku kepentingan, basis fakta, dan sintesis. Film kedua menjelaskan pendekatan berbasis hipotesis itu sendiri: definisikan masalah di awal, nyatakan hipotesis yang ingin Anda buktikan atau sangkal, susun pekerjaan di sekitar pengujiannya, dan pakai struktur itu untuk menjadi pemecah masalah yang lebih kreatif. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke Peraga 1 di bawah, tempat putaran yang sama muncul sebagai metode empat langkah."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/multiple-approaches-to-problem-solving.mp4",
+         "poster": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-poster.jpg",
+         "dur": "1:38",
+         "title": {
+          "en": "Multiple approaches to problem solving",
+          "id": "Berbagai pendekatan untuk pemecahan masalah"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-en.vtt",
+          "id": "../../assets/lms/the-map/multiple-approaches-to-problem-solving-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/hypothesis-led-approach.mp4",
+         "poster": "../../assets/lms/the-map/hypothesis-led-approach-poster.jpg",
+         "dur": "2:06",
+         "title": {
+          "en": "The hypothesis-led approach",
+          "id": "Pendekatan berbasis hipotesis"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/hypothesis-led-approach-en.vtt",
+          "id": "../../assets/lms/the-map/hypothesis-led-approach-id.vtt"
          }
         }
        ]
