@@ -3801,8 +3801,8 @@ window.MT_LMS['the-map'] = {
       "id": "Akar Masalah dan Rencana Tindakan"
      },
      "dur": {
-      "en": "60 min",
-      "id": "60 mnt"
+      "en": "65 min",
+      "id": "65 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -4062,8 +4062,8 @@ window.MT_LMS['the-map'] = {
         "id": "Teknik Mengurangi Bias — Materi"
        },
        "intro": {
-        "en": "After the films, five slides add the last tool before you diagnose anything: debiasing techniques. What biases you bring to the table and why some are useful; confirmation bias, tamed with a key assumption check and an analysis of competing hypotheses; confidence bias, tamed with a pre-mortem that imagines the solution has already failed; stability bias, tamed with constraint release and point-of-view analysis; and a recap of the three step-1 tools — problem question, SMART framework, Problem Statement Worksheet. Read them, then continue to Exhibit 1 below — a SMART question is what 1A starts from.",
-        "id": "Setelah film, lima slide menambahkan alat terakhir sebelum Anda mendiagnosis apa pun: teknik mengurangi bias. Bias apa yang Anda bawa ke meja diskusi dan mengapa sebagian bias bermanfaat; bias konfirmasi, dikendalikan dengan pemeriksaan asumsi utama dan analisis hipotesis alternatif; bias kepercayaan diri, dikendalikan dengan pra-mortem yang membayangkan solusinya sudah gagal; bias terhadap stabilitas, dikendalikan dengan melepaskan batasan dan analisis sudut pandang; serta rangkuman tiga alat langkah 1 — pertanyaan masalah, kerangka SMART, Problem Statement Worksheet. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+        "en": "After the films, five slides add the last tool before you diagnose anything: debiasing techniques. What biases you bring to the table and why some are useful; confirmation bias, tamed with a key assumption check and an analysis of competing hypotheses; confidence bias, tamed with a pre-mortem that imagines the solution has already failed; stability bias, tamed with constraint release and point-of-view analysis; and a recap of the three step-1 tools — problem question, SMART framework, Problem Statement Worksheet. Read them, then watch the film that follows.",
+        "id": "Setelah film, lima slide menambahkan alat terakhir sebelum Anda mendiagnosis apa pun: teknik mengurangi bias. Bias apa yang Anda bawa ke meja diskusi dan mengapa sebagian bias bermanfaat; bias konfirmasi, dikendalikan dengan pemeriksaan asumsi utama dan analisis hipotesis alternatif; bias kepercayaan diri, dikendalikan dengan pra-mortem yang membayangkan solusinya sudah gagal; bias terhadap stabilitas, dikendalikan dengan melepaskan batasan dan analisis sudut pandang; serta rangkuman tiga alat langkah 1 — pertanyaan masalah, kerangka SMART, Problem Statement Worksheet. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-debias-",
        "slides": [
@@ -4559,6 +4559,33 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/ceo-sign-off-en.vtt",
           "id": "../../assets/lms/the-map/ceo-sign-off-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "debias",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "After the slides, a two-minute film puts the debiasing techniques into a leader's voice. Debiasing is a structured way to ask which biases are shaping how a problem is defined before the work starts. Everyone has them; we just tend to see them in others. Biases are shortcuts that protect us — when a lion runs at you, you don't problem-solve — but as leaders we have to notice when they simply reconfirm what used to be true. Two are everywhere: confirmation bias and groupthink. The most effective counter is a challenger session, where the strongest voice for one view has to argue the other — contrived at first, but a powerful check on blind spots and a lesson in empathy. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below — a SMART question is what 1A starts from.",
+        "id": "Setelah slide, sebuah film dua menit menyuarakan teknik mengurangi bias dari sudut pandang seorang pemimpin. Mengurangi bias adalah cara terstruktur untuk bertanya bias apa yang membentuk cara sebuah masalah didefinisikan sebelum pekerjaan dimulai. Semua orang memilikinya; kita hanya cenderung melihatnya pada orang lain. Bias adalah jalan pintas yang melindungi kita — ketika singa berlari ke arah Anda, Anda tidak memecahkan masalah — tetapi sebagai pemimpin kita harus menyadari ketika bias sekadar mengonfirmasi ulang apa yang dulu benar. Dua bias ada di mana-mana: bias konfirmasi dan groupthink. Penangkal paling efektif adalah sesi penantang (challenger session), ketika suara terkuat untuk satu pandangan harus memperjuangkan pandangan yang lain — terasa dibuat-buat pada awalnya, tetapi menjadi pemeriksaan titik buta yang ampuh sekaligus pelajaran empati. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah — pertanyaan yang SMART adalah titik awal 1A."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/debiasing-techniques.mp4",
+         "poster": "../../assets/lms/the-map/debiasing-techniques-poster.jpg",
+         "dur": "2:05",
+         "title": {
+          "en": "Debiasing techniques: checking your blind spots",
+          "id": "Teknik mengurangi bias: memeriksa titik buta Anda"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/debiasing-techniques-en.vtt",
+          "id": "../../assets/lms/the-map/debiasing-techniques-id.vtt"
          }
         }
        ]

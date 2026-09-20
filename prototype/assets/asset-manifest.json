@@ -13525,6 +13525,54 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.2 slide material. Licence and model release follow the supplied deck (silhouetted / back-view figures and stock-style photography appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/debiasing-techniques.mp4",
+      "bytes": 13356333,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Debiasing Technique.mp4\" (commit d92cb7a); moved beside the other lesson films. Two on-camera presenters on what debiasing is, why biases exist, confirmation bias and groupthink, and the challenger session, with animated inserts (2:05).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film (after the Debiasing Techniques slides). Licence and model release follow the supplied file; two identifiable presenters appear."
+    },
+    {
+      "file": "assets/lms/the-map/debiasing-techniques-poster.jpg",
+      "bytes": 61896,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:33 of debiasing-techniques.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.2 lesson film poster (identifiable person). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/debiasing-techniques-en.vtt",
+      "bytes": 2868,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for debiasing-techniques.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.2 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/debiasing-techniques-id.vtt",
+      "bytes": 3009,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for debiasing-techniques.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.2 lesson film captions."
     }
   ]
 }
