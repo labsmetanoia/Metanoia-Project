@@ -3007,16 +3007,73 @@ window.MT_LMS['the-map'] = {
      "material": [
       {
        "kicker": {
-        "en": "Read first · 6 slides",
-        "id": "Baca dulu · 6 slide"
+        "en": "Read first · 4 slides",
+        "id": "Baca dulu · 4 slide"
+       },
+       "title": {
+        "en": "Problem Solving 101 – Intro — Material",
+        "id": "Pemecahan Masalah 101 – Pendahuluan — Materi"
+       },
+       "intro": {
+        "en": "Start with the deck. Four slides open Module 3 formally: the module's promise — a structured approach with clarity, creativity and action; a line on what intelligence looks like in practice; an introduction to the hypothesis-led approach you will define, break down and plan with; and the six words this module keeps using — problem solving, hypothesis, stakeholders, iterative, solution set, bias. Read them, then continue to the slides that follow.",
+        "id": "Mulai dari deknya. Empat slide membuka Modul 3 secara resmi: janji modul ini — pendekatan terstruktur dengan kejernihan, kreativitas, dan tindakan; sebaris tentang seperti apa kecerdasan dalam praktik; pengantar pendekatan berbasis hipotesis yang akan Anda pakai untuk mendefinisikan, menguraikan, dan merencanakan; dan enam istilah yang terus dipakai modul ini — pemecahan masalah, hipotesis, pemangku kepentingan, iteratif, set solusi, bias. Bacalah, lalu lanjutkan ke slide yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/ps-intro-",
+       "slides": [
+        {
+         "title": {
+          "en": "Module 3: Problem Solving 101 – Improve Our Life",
+          "id": "Modul 3: Dasar-Dasar Pemecahan Masalah – Tingkatkan Hidup Kita"
+         },
+         "text": {
+          "en": "Better thinking, a brighter tomorrow. Module 3: Problem Solving 101 – Improve Our Life. Build a structured approach to solving problems with clarity, creativity, and action. Analyze — go deeper. Explore — find better ways. Solve — create real impact. From insight to impact: understand, explore, solve, implement. Better questions, brighter solutions: clarity, creativity, action, better outcomes; different perspectives, creative ideas, actionable solutions. Challenge → insight → solution → a better tomorrow. People, ideas, progress.",
+          "id": "Berpikir lebih baik untuk masa depan yang lebih cerah. Modul 3: Dasar-Dasar Pemecahan Masalah – Tingkatkan Hidup Kita. Bangun pendekatan yang terstruktur untuk memecahkan masalah dengan lebih jernih, kreatif, dan tindakan yang nyata. Analisis — gali lebih dalam. Eksplorasi — temukan cara yang lebih baik. Solusi — ciptakan dampak nyata. Dari wawasan menuju dampak: pahami, eksplorasi, pecahkan, implementasi. Pertanyaan yang lebih baik, solusi yang lebih baik: kejelasan, kreativitas, tindakan, hasil yang lebih baik; berbagai perspektif, ide-ide kreatif, solusi yang dapat ditindaklanjuti. Tantangan → wawasan → solusi → masa depan yang lebih baik. Manusia, ide, kemajuan."
+         }
+        },
+        {
+         "title": {
+          "en": "The only true test of intelligence",
+          "id": "Satu-satunya tes kecerdasan yang sesungguhnya"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving 101. Problem Solving 101: the only true test of intelligence is if you get what you want out of life. — attributed to Albert Einstein. From problems to a better life: understand — get to the real issue; explore — generate options; solve — turn ideas into action; create impact — get what you want out of life. Better questions, brighter outcomes: clarity, creativity, action, better decisions, a better life. Analyze — go deeper into the real issue. Explore — find better ways forward. Solve — turn ideas into action. Create impact — achieve meaningful results in life. Bigger questions, brighter possibilities. Better thinking, a brighter tomorrow. People, ideas, progress.",
+          "id": "Modul 3 · Pemecahan Masalah 101. Pemecahan Masalah 101: satu-satunya tes kecerdasan yang sesungguhnya adalah apakah kamu mendapatkan apa yang kamu inginkan dari hidup. — dinisbatkan kepada Albert Einstein. Dari masalah menuju kehidupan yang lebih baik: pahami — gali lebih dalam ke akar masalah; eksplorasi — temukan berbagai opsi solusi; selesaikan — ubah ide menjadi tindakan nyata; ciptakan dampak — dapatkan apa yang kamu inginkan dari hidup. Pertanyaan yang lebih baik, hasil yang lebih baik: kejelasan, kreativitas, tindakan, keputusan yang lebih baik, kehidupan yang lebih baik. Analisis — gali lebih dalam ke akar masalah. Eksplorasi — temukan cara yang lebih baik. Selesaikan — ubah ide menjadi tindakan. Ciptakan dampak — raih hasil yang bermakna dalam hidup. Pertanyaan lebih besar, peluang lebih cerah. Berpikir lebih baik untuk masa depan yang lebih cerah. Manusia, ide, kemajuan."
+         }
+        },
+        {
+         "title": {
+          "en": "Introduction to problem solving",
+          "id": "Pendahuluan untuk pemecahan masalah"
+         },
+         "text": {
+          "en": "Module 3. Introduction to Problem Solving: turn challenges into opportunities. Welcome to the Problem Solving course! Many would argue that one of the most important skills for doing well at life is problem-solving. When a good problem solver is faced with a new problem, they are able to clearly think through it and reach an optimal course of action. Luckily, great problem solvers are made, not born. The purpose of this course is to provide you with a structured approach you can use when you are given a new problem to solve. For example, at work, this could be improving customer satisfaction or reducing the costs of a certain process. At home, this could be planning a big event like a wedding while having many limitations. In this course, you will learn how to utilize the hypothesis-led problem solving approach to: Define — define the problem you are faced with using different tools and templates. Break Down — break down and structure the problem in a way that will help you reach a solution. Plan — plan your way towards finding a recommended solution. “A problem well stated is a problem half solved.” — Charles Kettering. Same challenges, brighter possibilities. Real problems ahead. Practical skills for real life. A more confident you.",
+          "id": "Modul 3. Pendahuluan untuk Pemecahan Masalah: ubah tantangan menjadi peluang. Selamat datang di kursus Pemecahan Masalah! Banyak yang berpendapat bahwa salah satu keterampilan terpenting untuk meraih kesuksesan dalam hidup adalah kemampuan memecahkan masalah. Ketika seorang pemecah masalah yang baik dihadapkan pada tantangan baru, mereka mampu berpikir secara jernih, menganalisis situasi dengan tepat, dan menentukan langkah terbaik untuk bertindak. Kabar baiknya, kemampuan ini dapat dipelajari dan dikembangkan, bukan hanya bawaan lahir. Tujuan dari kursus ini adalah memberikan Anda pendekatan terstruktur yang dapat digunakan ketika Anda menghadapi sebuah masalah baru untuk diselesaikan. Misalnya, di tempat kerja, ini bisa berarti meningkatkan kepuasan pelanggan atau mengurangi biaya dari suatu proses. Di kehidupan pribadi, ini bisa berarti merencanakan acara besar seperti pernikahan dengan berbagai keterbatasan. Dalam kursus ini, Anda akan mempelajari cara menggunakan pendekatan pemecahan masalah berbasis hipotesis untuk: 1. Definisikan — tentukan masalah yang Anda hadapi menggunakan berbagai alat dan template. 2. Uraikan — uraikan dan strukturkan masalah dengan cara yang akan membantu Anda mencapai solusi. 3. Rencanakan — susun langkah-langkah untuk menemukan solusi yang direkomendasikan. “Sebuah masalah yang didefinisikan dengan baik adalah setengah dari solusi.” — Charles Kettering. Tantangan yang sama, peluang yang lebih cerah. Masalah nyata di depan Anda. Keterampilan praktis untuk kehidupan nyata. Anda yang lebih percaya diri."
+         }
+        },
+        {
+         "title": {
+          "en": "Welcome — six terms to know",
+          "id": "Selamat datang — enam istilah yang perlu diketahui"
+         },
+         "text": {
+          "en": "Module 3 · Problem Solving. Welcome! No matter your role, problem solving will always be important to what you do. Problem solving — the process of finding answers to difficult and complicated personal and professional issues. Hypothesis — your first best guess for the solution to a problem, an idea based on limited evidence or information that can serve as a starting point for future discussion. Stakeholders — a person with an interest or concern in the topic. Iterative — always improving, usually of a design or product. Solution set — all the possible solutions and ideas for the problem. Bias — a tendency to feel a particular way about something or someone which can impact the way you think or behave in a certain situation. Problem? → Ideas! → Better solutions! “A well-defined problem is half solved.” — Charles Kettering. Real challenges, real growth. Practical skills for real life. A more confident you. Bigger questions, brighter possibilities.",
+          "id": "Modul 3 · Pemecahan Masalah. Selamat datang! Apa pun peran Anda, kemampuan memecahkan masalah akan selalu penting dalam apa yang Anda lakukan. Pemecahan masalah — proses menemukan jawaban atas isu pribadi maupun profesional yang sulit dan kompleks. Hipotesis — dugaan awal terbaik Anda untuk solusi suatu masalah, berdasarkan informasi terbatas, yang dapat menjadi titik awal untuk diskusi lebih lanjut. Pemangku kepentingan — seseorang yang memiliki kepentingan atau perhatian terhadap suatu topik. Iteratif — selalu melakukan perbaikan secara berulang, biasanya pada sebuah desain atau produk. Set solusi — seluruh kemungkinan solusi dan ide untuk memecahkan masalah. Bias — kecenderungan untuk merasakan sesuatu dengan cara tertentu yang dapat memengaruhi cara Anda berpikir atau bertindak dalam situasi tertentu. Masalah? → Ide! → Solusi lebih baik. “Pertanyaan yang tepat sering kali lebih penting daripada jawaban yang cepat.” — Warren Buffett. Masalah hari ini, peluang esok. Berpikir lebih baik untuk masa depan yang lebih cerah."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 6 slides",
+        "id": "Baca berikutnya · 6 slide"
        },
        "title": {
         "en": "The Problem-Solving Kid — Material",
         "id": "Sang Pemecah Masalah — Materi"
        },
        "intro": {
-        "en": "Start with the deck. Six slides set up the whole module: why problem solving is a habit, the four characters who get stuck, how small improvements compound, the four-step method, a worked example that turns “my grades are dropping” into a specific fix, and the logic tree. Read them, then watch the film that follows.",
-        "id": "Mulai dari deknya. Enam slide menyiapkan seluruh modul: mengapa memecahkan masalah adalah kebiasaan, empat karakter yang terjebak, bagaimana perbaikan kecil berlipat ganda, metode empat langkah, contoh yang mengubah “nilaiku turun” menjadi perbaikan spesifik, dan pohon logika. Bacalah, lalu tonton film yang mengikutinya."
+        "en": "After the intro, six slides set up the whole module: why problem solving is a habit, the four characters who get stuck, how small improvements compound, the four-step method, a worked example that turns “my grades are dropping” into a specific fix, and the logic tree. Read them, then watch the film that follows.",
+        "id": "Setelah pendahuluan, enam slide menyiapkan seluruh modul: mengapa memecahkan masalah adalah kebiasaan, empat karakter yang terjebak, bagaimana perbaikan kecil berlipat ganda, metode empat langkah, contoh yang mengubah “nilaiku turun” menjadi perbaikan spesifik, dan pohon logika. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-kid-",
        "slides": [
@@ -3081,63 +3138,6 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
-      },
-      {
-       "kicker": {
-        "en": "Read next · 4 slides",
-        "id": "Baca berikutnya · 4 slide"
-       },
-       "title": {
-        "en": "Problem Solving 101 – Intro — Material",
-        "id": "Pemecahan Masalah 101 – Pendahuluan — Materi"
-       },
-       "intro": {
-        "en": "After the film, four slides open Module 3 formally: the module's promise — a structured approach with clarity, creativity and action; a line on what intelligence looks like in practice; an introduction to the hypothesis-led approach you will define, break down and plan with; and the six words this module keeps using — problem solving, hypothesis, stakeholders, iterative, solution set, bias. Read them, then continue to Exhibit 1 below.",
-        "id": "Setelah film, empat slide membuka Modul 3 secara resmi: janji modul ini — pendekatan terstruktur dengan kejernihan, kreativitas, dan tindakan; sebaris tentang seperti apa kecerdasan dalam praktik; pengantar pendekatan berbasis hipotesis yang akan Anda pakai untuk mendefinisikan, menguraikan, dan merencanakan; dan enam istilah yang terus dipakai modul ini — pemecahan masalah, hipotesis, pemangku kepentingan, iteratif, set solusi, bias. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
-       },
-       "base": "../../assets/lms/the-map/slides/ps-intro-",
-       "slides": [
-        {
-         "title": {
-          "en": "Module 3: Problem Solving 101 – Improve Our Life",
-          "id": "Modul 3: Dasar-Dasar Pemecahan Masalah – Tingkatkan Hidup Kita"
-         },
-         "text": {
-          "en": "Better thinking, a brighter tomorrow. Module 3: Problem Solving 101 – Improve Our Life. Build a structured approach to solving problems with clarity, creativity, and action. Analyze — go deeper. Explore — find better ways. Solve — create real impact. From insight to impact: understand, explore, solve, implement. Better questions, brighter solutions: clarity, creativity, action, better outcomes; different perspectives, creative ideas, actionable solutions. Challenge → insight → solution → a better tomorrow. People, ideas, progress.",
-          "id": "Berpikir lebih baik untuk masa depan yang lebih cerah. Modul 3: Dasar-Dasar Pemecahan Masalah – Tingkatkan Hidup Kita. Bangun pendekatan yang terstruktur untuk memecahkan masalah dengan lebih jernih, kreatif, dan tindakan yang nyata. Analisis — gali lebih dalam. Eksplorasi — temukan cara yang lebih baik. Solusi — ciptakan dampak nyata. Dari wawasan menuju dampak: pahami, eksplorasi, pecahkan, implementasi. Pertanyaan yang lebih baik, solusi yang lebih baik: kejelasan, kreativitas, tindakan, hasil yang lebih baik; berbagai perspektif, ide-ide kreatif, solusi yang dapat ditindaklanjuti. Tantangan → wawasan → solusi → masa depan yang lebih baik. Manusia, ide, kemajuan."
-         }
-        },
-        {
-         "title": {
-          "en": "The only true test of intelligence",
-          "id": "Satu-satunya tes kecerdasan yang sesungguhnya"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving 101. Problem Solving 101: the only true test of intelligence is if you get what you want out of life. — attributed to Albert Einstein. From problems to a better life: understand — get to the real issue; explore — generate options; solve — turn ideas into action; create impact — get what you want out of life. Better questions, brighter outcomes: clarity, creativity, action, better decisions, a better life. Analyze — go deeper into the real issue. Explore — find better ways forward. Solve — turn ideas into action. Create impact — achieve meaningful results in life. Bigger questions, brighter possibilities. Better thinking, a brighter tomorrow. People, ideas, progress.",
-          "id": "Modul 3 · Pemecahan Masalah 101. Pemecahan Masalah 101: satu-satunya tes kecerdasan yang sesungguhnya adalah apakah kamu mendapatkan apa yang kamu inginkan dari hidup. — dinisbatkan kepada Albert Einstein. Dari masalah menuju kehidupan yang lebih baik: pahami — gali lebih dalam ke akar masalah; eksplorasi — temukan berbagai opsi solusi; selesaikan — ubah ide menjadi tindakan nyata; ciptakan dampak — dapatkan apa yang kamu inginkan dari hidup. Pertanyaan yang lebih baik, hasil yang lebih baik: kejelasan, kreativitas, tindakan, keputusan yang lebih baik, kehidupan yang lebih baik. Analisis — gali lebih dalam ke akar masalah. Eksplorasi — temukan cara yang lebih baik. Selesaikan — ubah ide menjadi tindakan. Ciptakan dampak — raih hasil yang bermakna dalam hidup. Pertanyaan lebih besar, peluang lebih cerah. Berpikir lebih baik untuk masa depan yang lebih cerah. Manusia, ide, kemajuan."
-         }
-        },
-        {
-         "title": {
-          "en": "Introduction to problem solving",
-          "id": "Pendahuluan untuk pemecahan masalah"
-         },
-         "text": {
-          "en": "Module 3. Introduction to Problem Solving: turn challenges into opportunities. Welcome to the Problem Solving course! Many would argue that one of the most important skills for doing well at life is problem-solving. When a good problem solver is faced with a new problem, they are able to clearly think through it and reach an optimal course of action. Luckily, great problem solvers are made, not born. The purpose of this course is to provide you with a structured approach you can use when you are given a new problem to solve. For example, at work, this could be improving customer satisfaction or reducing the costs of a certain process. At home, this could be planning a big event like a wedding while having many limitations. In this course, you will learn how to utilize the hypothesis-led problem solving approach to: Define — define the problem you are faced with using different tools and templates. Break Down — break down and structure the problem in a way that will help you reach a solution. Plan — plan your way towards finding a recommended solution. “A problem well stated is a problem half solved.” — Charles Kettering. Same challenges, brighter possibilities. Real problems ahead. Practical skills for real life. A more confident you.",
-          "id": "Modul 3. Pendahuluan untuk Pemecahan Masalah: ubah tantangan menjadi peluang. Selamat datang di kursus Pemecahan Masalah! Banyak yang berpendapat bahwa salah satu keterampilan terpenting untuk meraih kesuksesan dalam hidup adalah kemampuan memecahkan masalah. Ketika seorang pemecah masalah yang baik dihadapkan pada tantangan baru, mereka mampu berpikir secara jernih, menganalisis situasi dengan tepat, dan menentukan langkah terbaik untuk bertindak. Kabar baiknya, kemampuan ini dapat dipelajari dan dikembangkan, bukan hanya bawaan lahir. Tujuan dari kursus ini adalah memberikan Anda pendekatan terstruktur yang dapat digunakan ketika Anda menghadapi sebuah masalah baru untuk diselesaikan. Misalnya, di tempat kerja, ini bisa berarti meningkatkan kepuasan pelanggan atau mengurangi biaya dari suatu proses. Di kehidupan pribadi, ini bisa berarti merencanakan acara besar seperti pernikahan dengan berbagai keterbatasan. Dalam kursus ini, Anda akan mempelajari cara menggunakan pendekatan pemecahan masalah berbasis hipotesis untuk: 1. Definisikan — tentukan masalah yang Anda hadapi menggunakan berbagai alat dan template. 2. Uraikan — uraikan dan strukturkan masalah dengan cara yang akan membantu Anda mencapai solusi. 3. Rencanakan — susun langkah-langkah untuk menemukan solusi yang direkomendasikan. “Sebuah masalah yang didefinisikan dengan baik adalah setengah dari solusi.” — Charles Kettering. Tantangan yang sama, peluang yang lebih cerah. Masalah nyata di depan Anda. Keterampilan praktis untuk kehidupan nyata. Anda yang lebih percaya diri."
-         }
-        },
-        {
-         "title": {
-          "en": "Welcome — six terms to know",
-          "id": "Selamat datang — enam istilah yang perlu diketahui"
-         },
-         "text": {
-          "en": "Module 3 · Problem Solving. Welcome! No matter your role, problem solving will always be important to what you do. Problem solving — the process of finding answers to difficult and complicated personal and professional issues. Hypothesis — your first best guess for the solution to a problem, an idea based on limited evidence or information that can serve as a starting point for future discussion. Stakeholders — a person with an interest or concern in the topic. Iterative — always improving, usually of a design or product. Solution set — all the possible solutions and ideas for the problem. Bias — a tendency to feel a particular way about something or someone which can impact the way you think or behave in a certain situation. Problem? → Ideas! → Better solutions! “A well-defined problem is half solved.” — Charles Kettering. Real challenges, real growth. Practical skills for real life. A more confident you. Bigger questions, brighter possibilities.",
-          "id": "Modul 3 · Pemecahan Masalah. Selamat datang! Apa pun peran Anda, kemampuan memecahkan masalah akan selalu penting dalam apa yang Anda lakukan. Pemecahan masalah — proses menemukan jawaban atas isu pribadi maupun profesional yang sulit dan kompleks. Hipotesis — dugaan awal terbaik Anda untuk solusi suatu masalah, berdasarkan informasi terbatas, yang dapat menjadi titik awal untuk diskusi lebih lanjut. Pemangku kepentingan — seseorang yang memiliki kepentingan atau perhatian terhadap suatu topik. Iteratif — selalu melakukan perbaikan secara berulang, biasanya pada sebuah desain atau produk. Set solusi — seluruh kemungkinan solusi dan ide untuk memecahkan masalah. Bias — kecenderungan untuk merasakan sesuatu dengan cara tertentu yang dapat memengaruhi cara Anda berpikir atau bertindak dalam situasi tertentu. Masalah? → Ide! → Solusi lebih baik. “Pertanyaan yang tepat sering kali lebih penting daripada jawaban yang cepat.” — Warren Buffett. Masalah hari ini, peluang esok. Berpikir lebih baik untuk masa depan yang lebih cerah."
-         }
-        }
-       ]
       }
      ],
      "videos": [
@@ -3160,10 +3160,10 @@ window.MT_LMS['the-map'] = {
       "id": "Tonton berikutnya · Film pelajaran"
      },
      "videosIntro": {
-      "en": "After the slides, a three-minute film: two consultants who teach problem solving for a living answer the two questions this lesson turns on — what problem solving actually is (the process by which we make decisions, every day, sometimes over months and sometimes in the middle of a meeting) and what makes a good problem solver. Listen for their three marks of structure: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and thinking through implementation — stakeholders, roll-out, pitfalls. Subtitles are available in English and Bahasa Indonesia. When it ends, continue to the slides that follow — and then to Exhibit 1, where the same three marks sit inside the four-step method.",
-      "id": "Setelah slide, sebuah film tiga menit: dua konsultan yang mengajarkan pemecahan masalah sebagai profesi menjawab dua pertanyaan yang menjadi poros pelajaran ini — apa sebenarnya pemecahan masalah (proses kita mengambil keputusan, setiap hari, kadang berbulan-bulan dan kadang di tengah rapat) dan apa yang membuat seseorang menjadi pemecah masalah yang baik. Simak tiga ciri struktur yang mereka sebut: cara yang sengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan memikirkan penerapannya — pemangku kepentingan, peluncuran, jebakan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke slide yang mengikutinya — lalu ke Peraga 1, tempat ketiga ciri yang sama berada di dalam metode empat langkah."
+      "en": "After the slides, a three-minute film: two consultants who teach problem solving for a living answer the two questions this lesson turns on — what problem solving actually is (the process by which we make decisions, every day, sometimes over months and sometimes in the middle of a meeting) and what makes a good problem solver. Listen for their three marks of structure: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and thinking through implementation — stakeholders, roll-out, pitfalls. Subtitles are available in English and Bahasa Indonesia. When it ends, continue to Exhibit 1 below and see the same three marks inside the four-step method.",
+      "id": "Setelah slide, sebuah film tiga menit: dua konsultan yang mengajarkan pemecahan masalah sebagai profesi menjawab dua pertanyaan yang menjadi poros pelajaran ini — apa sebenarnya pemecahan masalah (proses kita mengambil keputusan, setiap hari, kadang berbulan-bulan dan kadang di tengah rapat) dan apa yang membuat seseorang menjadi pemecah masalah yang baik. Simak tiga ciri struktur yang mereka sebut: cara yang sengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan memikirkan penerapannya — pemangku kepentingan, peluncuran, jebakan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke Peraga 1 di bawah dan temukan ketiga ciri yang sama di dalam metode empat langkah."
      },
-     "videosPlacement": "after-material:1",
+     "videosPlacement": "after-material:2",
      "diagram": {
       "type": "flow",
       "exhibit": {
