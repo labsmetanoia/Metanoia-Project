@@ -12229,6 +12229,102 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.1 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/defining-the-problem.mp4",
+      "bytes": 16794430,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Defining the problem.mp4\" (commits 51a7c6e/0470e98); moved beside the other lesson films. a dramatised office scene with three actors — the Arun / DentMerc case from the Defining the Problem slides (1:47).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Defining the Problem slides). Licence and model release follow the supplied file; three identifiable actors appear."
+    },
+    {
+      "file": "assets/lms/the-map/defining-the-problem-poster.jpg",
+      "bytes": 59878,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:40 of defining-the-problem.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable people). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/defining-the-problem-en.vtt",
+      "bytes": 1901,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for defining-the-problem.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/defining-the-problem-id.vtt",
+      "bytes": 2007,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for defining-the-problem.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/power-of-problem-definition.mp4",
+      "bytes": 22269466,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Power of problem definition.mp4\" (commits 51a7c6e/0470e98); moved beside the other lesson films. two on-camera presenters on why defining the problem is the hardest first step, with animated inserts (4:05).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Defining the Problem slides). Licence and model release follow the supplied file; two identifiable presenters appear."
+    },
+    {
+      "file": "assets/lms/the-map/power-of-problem-definition-poster.jpg",
+      "bytes": 76955,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:10 of power-of-problem-definition.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable people). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/power-of-problem-definition-en.vtt",
+      "bytes": 5286,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for power-of-problem-definition.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/power-of-problem-definition-id.vtt",
+      "bytes": 5292,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for power-of-problem-definition.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked against the lesson's slides and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
     }
   ]
 }

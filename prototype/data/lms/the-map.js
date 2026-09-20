@@ -2951,8 +2951,8 @@ window.MT_LMS['the-map'] = {
       "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
      },
      "dur": {
-      "en": "50 min",
-      "id": "50 mnt"
+      "en": "55 min",
+      "id": "55 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -3273,8 +3273,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menentukan Masalah — Materi"
        },
        "intro": {
-        "en": "After the films, six slides work step 1 of the hypothesis-led approach — defining the problem — through two cases. A marketing lead with 45 minutes to assess a market-research proposal, and the first question he should ask; why the right question matters more than a fast answer; the power of problem definition and three pitfalls — gut feeling, biting off too much, losing sight of the people; what problem definition looks like in a crisis; and a warehouse manager who chased a hacking hypothesis before defining the problem. Read them, then continue to Exhibit 1 below, where the same first step opens the four-step method.",
-        "id": "Setelah film, enam slide menggarap langkah 1 dari pendekatan berbasis hipotesis — menentukan masalah — lewat dua kasus. Seorang pemimpin pemasaran dengan 45 menit untuk menilai proposal riset pasar, dan pertanyaan pertama yang sebaiknya ia ajukan; mengapa pertanyaan yang tepat lebih penting daripada jawaban yang cepat; kekuatan definisi masalah dan tiga jebakannya — mengandalkan intuisi, menggigit terlalu besar, melupakan orang yang terdampak; seperti apa definisi masalah di saat krisis; dan seorang manajer gudang yang mengejar hipotesis peretasan sebelum mendefinisikan masalahnya. Bacalah, lalu lanjutkan ke Peraga 1 di bawah, tempat langkah pertama yang sama membuka metode empat langkah."
+        "en": "After the films, six slides work step 1 of the hypothesis-led approach — defining the problem — through two cases. A marketing lead with 45 minutes to assess a market-research proposal, and the first question he should ask; why the right question matters more than a fast answer; the power of problem definition and three pitfalls — gut feeling, biting off too much, losing sight of the people; what problem definition looks like in a crisis; and a warehouse manager who chased a hacking hypothesis before defining the problem. Read them, then watch the two films that follow.",
+        "id": "Setelah film, enam slide menggarap langkah 1 dari pendekatan berbasis hipotesis — menentukan masalah — lewat dua kasus. Seorang pemimpin pemasaran dengan 45 menit untuk menilai proposal riset pasar, dan pertanyaan pertama yang sebaiknya ia ajukan; mengapa pertanyaan yang tepat lebih penting daripada jawaban yang cepat; kekuatan definisi masalah dan tiga jebakannya — mengandalkan intuisi, menggigit terlalu besar, melupakan orang yang terdampak; seperti apa definisi masalah di saat krisis; dan seorang manajer gudang yang mengejar hipotesis peretasan sebelum mendefinisikan masalahnya. Bacalah, lalu tonton dua film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-define-",
        "slides": [
@@ -3442,6 +3442,46 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/hypothesis-led-approach-en.vtt",
           "id": "../../assets/lms/the-map/hypothesis-led-approach-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "closing",
+       "placement": "after-material:5",
+       "kicker": {
+        "en": "Watch next · 2 short films",
+        "id": "Tonton berikutnya · 2 film singkat"
+       },
+       "intro": {
+        "en": "After the slides, two films close the lesson's material. The first is the Arun case from the slides, acted out: 45 minutes before the meeting with Apoorva, the team presents a 50-lakh-rupee research plan that covers colour, size, grip and packaging — a third of the budget for one decision — and nobody has yet asked what question the research is meant to answer. The second explains why defining the problem is the hardest first step: people see the problem differently and define success differently, pricing a product means different things to different people, and a 3 a.m. call from a cruise line showed how the solutions change with the question. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same first step opens the four-step method.",
+        "id": "Setelah slide, dua film menutup materi pelajaran ini. Film pertama adalah kasus Arun dari slide, diperankan: 45 menit sebelum rapat dengan Apoorva, tim mengajukan rencana riset senilai 50 lakh rupee yang mencakup warna, ukuran, pegangan, dan kemasan — sepertiga anggaran untuk satu keputusan — dan belum ada yang bertanya pertanyaan apa yang sebenarnya ingin dijawab riset itu. Film kedua menjelaskan mengapa mendefinisikan masalah adalah langkah pertama yang paling sulit: orang melihat masalah secara berbeda dan mendefinisikan keberhasilan secara berbeda, menetapkan harga produk berarti hal yang berbeda bagi orang yang berbeda, dan sebuah panggilan pukul 3 pagi dari perusahaan kapal pesiar menunjukkan bagaimana solusinya berubah mengikuti pertanyaannya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke Peraga 1 di bawah, tempat langkah pertama yang sama membuka metode empat langkah."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/defining-the-problem.mp4",
+         "poster": "../../assets/lms/the-map/defining-the-problem-poster.jpg",
+         "dur": "1:47",
+         "title": {
+          "en": "Defining the problem: 45 minutes before the meeting",
+          "id": "Menentukan masalah: 45 menit sebelum rapat"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/defining-the-problem-en.vtt",
+          "id": "../../assets/lms/the-map/defining-the-problem-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/power-of-problem-definition.mp4",
+         "poster": "../../assets/lms/the-map/power-of-problem-definition-poster.jpg",
+         "dur": "4:05",
+         "title": {
+          "en": "The power of problem definition",
+          "id": "Kekuatan definisi masalah"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/power-of-problem-definition-en.vtt",
+          "id": "../../assets/lms/the-map/power-of-problem-definition-id.vtt"
          }
         }
        ]
