@@ -1,0 +1,134 @@
+WEBVTT
+Kind: subtitles
+Language: id
+
+1
+00:00.490 --> 00:05.920
+Kita sudah membahas pendekatan 80/20, tetapi ada alat lain yang bisa dipakai
+saat memikirkan prioritisasi.
+
+2
+00:06.250 --> 00:09.470
+Salah satu yang paling efektif disebut matriks prioritas.
+
+3
+00:09.960 --> 00:15.400
+Apa itu matriks prioritas? Dalam pendekatan ini, kita memikirkan
+semua simpul atau titik ujung pohon kita —
+
+4
+00:15.400 --> 00:21.600
+semua isu dan analisis yang ingin kita selidiki —
+dan memetakannya pada matriks dua-kali-dua, atau kisi.
+
+5
+00:21.990 --> 00:27.520
+Dimensi vertikalnya adalah dampak,
+dan dimensi horizontalnya adalah kelayakan.
+
+6
+00:27.880 --> 00:33.400
+Untuk setiap dimensi ini, kita tidak selalu ingin mengukur secara spesifik
+persis berapa dampak atau kelayakannya.
+
+7
+00:33.400 --> 00:39.400
+Sering kali yang ingin kita capai adalah:
+seberapa besar dampak relatifnya? Kecil, sedang, atau besar, misalnya?
+
+8
+00:39.400 --> 00:43.960
+Dari sisi kelayakan, Anda mungkin memikirkan
+
+9
+00:44.330 --> 00:48.260
+berapa banyak waktu atau sumber daya yang mungkin dibutuhkan.
+
+10
+00:48.840 --> 00:53.400
+Saat menggunakan pendekatan ini, Anda perlu memikirkan:
+jika sesuatu berdampak tinggi dan sangat layak —
+
+11
+00:53.400 --> 00:57.280
+nah, itu jelas akan berada di puncak daftar hal yang harus dilakukan.
+
+12
+00:57.640 --> 01:01.950
+Jika sesuatu berdampak rendah dan sangat sulit dilakukan, itu di dasar daftar.
+
+13
+01:02.310 --> 01:08.200
+Dan hal-hal di dua kotak lainnya — jika berdampak tinggi tetapi tidak cukup layak —
+di situlah tantangannya.
+
+14
+01:08.200 --> 01:13.200
+Anda perlu memikirkan: adakah cara membuatnya lebih mudah dikerjakan?
+Bisakah Anda melonggarkan beberapa kendala
+
+15
+01:13.200 --> 01:17.790
+yang mungkin sudah Anda tetapkan dalam masalah Anda,
+
+16
+01:17.890 --> 01:22.400
+untuk mencapainya? Dan seberapa yakin Anda bahwa itu perlu dilakukan
+untuk sampai pada solusi yang tepat?
+
+17
+01:22.920 --> 01:28.400
+Dan jika hal-hal berdampak rendah tetapi sangat mudah dikerjakan,
+di situ Anda perlu memikirkan:
+
+18
+01:28.400 --> 01:34.200
+hei, adakah kemenangan cepat yang bisa diraih di awal proses pemecahan masalah,
+untuk menunjukkan kemajuan dan membantu sampai ke jawaban lebih cepat?
+
+19
+01:34.200 --> 01:37.400
+Beberapa tantangan yang bisa muncul saat menggunakan matriks prioritas
+
+20
+01:37.700 --> 01:42.560
+biasanya berasal dari tingkat presisi yang terlibat.
+Jadi jika Anda memikirkan
+
+21
+01:43.560 --> 01:49.990
+seberapa yakin Anda perlu dalam menempatkan dampak atau kelayakan secara relatif —
+jika Anda memecahkan masalah saat itu juga,
+
+22
+01:50.340 --> 01:56.400
+Anda mungkin tidak punya banyak waktu untuk menentukan persis apa masukannya
+dan sampai pada solusi numerik yang sangat presisi.
+
+23
+01:56.400 --> 02:02.400
+Tetapi Anda mungkin bisa berkata: hei, dengan ukuran kaos —
+kecil, sedang, besar? Atau tinggi, sedang, rendah?
+
+24
+02:02.400 --> 02:07.010
+Secara relatif, bagaimana saya bisa menghasilkan penempatan relatif yang sangat cepat?
+
+25
+02:07.530 --> 02:13.400
+Dan untuk proyek jangka panjang, biasanya di situlah
+Anda perlu meluangkan sedikit lebih banyak waktu di awal untuk membahas:
+
+26
+02:13.400 --> 02:18.200
+nah, saat kita bilang kelayakan, apa komponen relevan yang mendorongnya?
+
+27
+02:18.200 --> 02:23.070
+Saat memikirkan dampak, bisakah kita benar-benar sepakat,
+dan melakukan analisis, untuk mengukur lebih presisi
+
+28
+02:23.270 --> 02:29.410
+seberapa besar dampak itu — sehingga kita benar-benar mendapat urutan peringkat
+yang baik dari berbagai prioritas.
