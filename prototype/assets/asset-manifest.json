@@ -13840,15 +13840,15 @@
     },
     {
       "file": "assets/lms/the-map/structuring-and-prioritization.mp4",
-      "bytes": 8129075,
+      "bytes": 8864431,
       "category": "video",
       "people": "yes",
-      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structuring and prioritization.mp4\" (commit 80353b8); moved beside the other lesson films. Two on-camera presenters on structuring (breaking the problem into pieces, MECE) and prioritisation (what will have the most impact), with animated inserts (2:57).",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structuring and prioritization.mp4\" (commit 80353b8) and re-uploaded as \"Structuring and prioritization v2.mp4\" (commit 1d122b3); moved beside the other lesson films. Two on-camera presenters on structuring (breaking the problem into pieces, MECE) and prioritisation (what will have the most impact), with animated inserts (2:57).",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "NOT YET WIRED. The supplied file's AAC audio track is defective: only ~10% of audio frames are present after 0:44 (verified from container packet timestamps), so it plays choppy/silent in any browser and cannot be captioned. Held back from The Map 3.3 until a clean export is supplied."
+      "notes": "NOT YET WIRED. Both the original and the v2 re-export have the same defective AAC audio track: frames complete for 0:00–0:30, then only ~7–30% present per 10 s to the end (verified from container packet timestamps; v2 audio was re-encoded from the same gap-ridden source). Plays choppy in any browser and cannot be captioned. Held back from The Map 3.3 until a clean source is supplied."
     },
     {
       "file": "assets/lms/the-map/slides/ps-tree-en-01.jpg",
@@ -14068,15 +14068,15 @@
     },
     {
       "file": "assets/lms/the-map/introduction-to-logic-trees.mp4",
-      "bytes": 10723007,
+      "bytes": 10795724,
       "category": "video",
       "people": "yes",
-      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Introduction to Logic Tree.mp4\" (commit 64f79e3); moved beside the other lesson films. One on-camera presenter (captioned “Marc, Partner”) on issue trees and hypothesis trees, iterating the tree, and structuring in the moment vs. on large projects, with animated inserts (3:15).",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Introduction to Logic Tree.mp4\" (commit 64f79e3) and re-uploaded as \"Introduction to Logic Tree v2.mp4\" (commit 1d122b3); moved beside the other lesson films. One on-camera presenter (captioned “Marc, Partner”) on issue trees and hypothesis trees, iterating the tree, and structuring in the moment vs. on large projects, with animated inserts (3:15).",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "NOT YET WIRED. The supplied file's AAC audio track is defective: audio frames are complete for 0:00–2:20, then only ~6–30% are present per 10 s from 2:20 to 3:15 (verified from container packet timestamps; the video track is complete), so the ending plays choppy and cannot be captioned. Held back from The Map 3.3 until a clean export is supplied."
+      "notes": "NOT YET WIRED. Both the original and the v2 re-export have the same defective AAC audio track (the v2 audio stream is byte-identical to v1; only the video was re-encoded): frames complete for 0:00–2:20, then only ~6–30% present per 10 s to 3:15 (verified from container packet timestamps). The ending plays choppy in any browser and cannot be captioned. Held back from The Map 3.3 until a clean source is supplied."
     }
   ]
 }
