@@ -14065,6 +14065,18 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.3 slide material. Licence follows the supplied deck (illustrations and diagrams only; no identifiable people)."
+    },
+    {
+      "file": "assets/lms/the-map/introduction-to-logic-trees.mp4",
+      "bytes": 10723007,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Introduction to Logic Tree.mp4\" (commit 64f79e3); moved beside the other lesson films. One on-camera presenter (captioned “Marc, Partner”) on issue trees and hypothesis trees, iterating the tree, and structuring in the moment vs. on large projects, with animated inserts (3:15).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "NOT YET WIRED. The supplied file's AAC audio track is defective: audio frames are complete for 0:00–2:20, then only ~6–30% are present per 10 s from 2:20 to 3:15 (verified from container packet timestamps; the video track is complete), so the ending plays choppy and cannot be captioned. Held back from The Map 3.3 until a clean export is supplied."
     }
   ]
 }
