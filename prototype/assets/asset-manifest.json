@@ -11317,6 +11317,102 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Map · Module 3 · 3.1 slide material. Licence and model release follow the supplied deck (photographs of people appear on the slides)."
+    },
+    {
+      "file": "assets/lms/the-map/hallmarks-of-great-problem-solving.mp4",
+      "bytes": 22327064,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Hallmarks of great problem solving.mp4\" (commits 35be579/3a8f4df); moved beside the other lesson films. one on-camera presenter on what separates okay from great problem solving (2:21).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Reflection slides). Licence and model release follow the supplied file; an identifiable presenter appears."
+    },
+    {
+      "file": "assets/lms/the-map/hallmarks-of-great-problem-solving-poster.jpg",
+      "bytes": 81169,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:29 of hallmarks-of-great-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable presenter). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/hallmarks-of-great-problem-solving-en.vtt",
+      "bytes": 2696,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for hallmarks-of-great-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/hallmarks-of-great-problem-solving-id.vtt",
+      "bytes": 2793,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for hallmarks-of-great-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/making-sense-of-problems.mp4",
+      "bytes": 7287838,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Making sense of problems.mp4\" (commits 35be579/3a8f4df); moved beside the other lesson films. one on-camera presenter on problem-solving time horizons, with animated inserts (1:33).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Reflection slides). Licence and model release follow the supplied file; an identifiable presenter appears."
+    },
+    {
+      "file": "assets/lms/the-map/making-sense-of-problems-poster.jpg",
+      "bytes": 83115,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:19 of making-sense-of-problems.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (identifiable presenter). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/making-sense-of-problems-en.vtt",
+      "bytes": 2284,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for making-sense-of-problems.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/making-sense-of-problems-id.vtt",
+      "bytes": 2296,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for making-sense-of-problems.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
     }
   ]
 }

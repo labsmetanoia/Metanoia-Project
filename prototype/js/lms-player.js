@@ -271,24 +271,31 @@
   };
 
   function renderIntroVideos(l, host, opts) {
-    if (!l.videos || !l.videos.length) return;
     opts = opts || {};
-    var list = l.videos, idx = 0, cues = [], cueLang = lang(), ccOn = true, raf = 0, hideT = 0, upT = 0;
-    var vk = 'mt-lms-vid:' + slug + ':' + l.n;
+    /* A lesson's films: the legacy `videos` list (with videosPlacement /
+       videosKicker / videosIntro / videosOutro beside it), or one of its
+       `videoBlocks` — { key, videos, placement, kicker, intro, outro } —
+       passed in as opts.block, so a lesson can run deck → films → deck →
+       films with a full player and its own progress for each block. */
+    var blk = opts.block || null;
+    var list = blk ? blk.videos : l.videos;
+    if (!list || !list.length) return;
+    var idx = 0, cues = [], cueLang = lang(), ccOn = true, raf = 0, hideT = 0, upT = 0;
+    var vk = 'mt-lms-vid:' + slug + ':' + l.n + (blk && blk.key ? ':' + blk.key : '');
     var seen = {};
     try { seen = JSON.parse(localStorage.getItem(vk) || '{}'); } catch (e) {}
 
     /* videos lead the lesson by default; a lesson may instead place them after
        its slide material (videosPlacement: 'after-material'), where they
        reinforce the slides before the knowledge check */
-    var after = /^after-material/.test(l.videosPlacement || '');
+    var after = /^after-material/.test((blk ? blk.placement : l.videosPlacement) || '');
     var nextIsDeck = opts.next === 'material';   /* another slide deck follows the videos */
     var wrap = el('div', 'lms-vp');
     var lead = el('div', 'lms-vp-lead');
-    lead.appendChild(bi('span', 'lms-kicker', l.videosKicker || (after
+    lead.appendChild(bi('span', 'lms-kicker', (blk ? blk.kicker : l.videosKicker) || (after
       ? { en: 'Watch next · ' + list.length + (list.length === 1 ? ' short video' : ' short videos'), id: 'Tonton berikutnya · ' + list.length + ' video singkat' }
       : { en: 'Watch first · ' + list.length + (list.length === 1 ? ' short video' : ' short videos'), id: 'Tonton dulu · ' + list.length + ' video singkat' })));
-    lead.appendChild(bi('p', 'lms-vp-intro', l.videosIntro || {
+    lead.appendChild(bi('p', 'lms-vp-intro', (blk ? blk.intro : l.videosIntro) || {
       en: 'These videos set the scene for the lesson. Watch them in order, then continue to the material below.',
       id: 'Video-video ini membuka konteks pelajaran. Tonton berurutan, lalu lanjutkan ke materi di bawah.'
     }));
@@ -365,11 +372,12 @@
     wrap.appendChild(strip);
 
     /* closing takeaways for the video block (declared per lesson) */
-    if (l.videosOutro) {
+    var outroDef = blk ? blk.outro : l.videosOutro;
+    if (outroDef) {
       var outro = el('div', 'lms-panel lms-vp-outro');
       outro.appendChild(el('span', 'lh-badge', iconSvg('flag', 17)));
-      outro.appendChild(bi('h3', null, l.videosOutro.title));
-      (l.videosOutro.body || []).forEach(function (p) { outro.appendChild(bi('p', null, p)); });
+      outro.appendChild(bi('h3', null, outroDef.title));
+      (outroDef.body || []).forEach(function (p) { outro.appendChild(bi('p', null, p)); });
       wrap.appendChild(outro);
     }
     host.appendChild(wrap);
@@ -1719,7 +1727,8 @@
     var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'] }[l.kind];
     meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
-    if (l.videos && l.videos.length) meta.appendChild(bi('span', 'lms-chip gold', { en: '🎬 ' + l.videos.length + (l.videos.length === 1 ? ' video' : ' videos'), id: '🎬 ' + l.videos.length + ' video' }));
+    var nVid = (l.videos ? l.videos.length : 0) + (l.videoBlocks || []).reduce(function (a, b) { return a + (b && b.videos ? b.videos.length : 0); }, 0);
+    if (nVid) meta.appendChild(bi('span', 'lms-chip gold', { en: '🎬 ' + nVid + (nVid === 1 ? ' video' : ' videos'), id: '🎬 ' + nVid + ' video' }));
     meta.appendChild(bi('span', 'lms-chip' + (isDone(l.n) ? ' ok' : ''), isDone(l.n) ? { en: '✓ Completed', id: '✓ Selesai' } : { en: 'In progress', id: 'Sedang berjalan' }));
     hl.appendChild(meta);
     if (l.quote) {
@@ -1766,8 +1775,17 @@
        after the last deck, `'after-material:N'` after the Nth deck, so a
        lesson can run deck → videos → deck before its reading sections. */
     var decks = Array.isArray(l.material) ? l.material : (l.material ? [l.material] : []);
-    var vpm = /^after-material(?::(\d+))?$/.exec(l.videosPlacement || '');
-    var afterN = vpm ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
+    /* Lesson films: the legacy `videos` list plus any `videoBlocks`, each
+       placed by its own 'after-material[:N]' (or leading the lesson). */
+    var vblocks = [];
+    if (l.videos && l.videos.length) vblocks.push({ legacy: true, videos: l.videos, placement: l.videosPlacement });
+    (l.videoBlocks || []).forEach(function (b, i) { if (b && b.videos && b.videos.length) vblocks.push({ key: b.key || ('b' + (i + 1)), videos: b.videos, placement: b.placement, kicker: b.kicker, intro: b.intro, outro: b.outro }); });
+    var vidsAfter = {}, vidsLead = [];
+    vblocks.forEach(function (b) {
+      var vpm = /^after-material(?::(\d+))?$/.exec(b.placement || '');
+      var n = vpm && decks.length ? Math.min(decks.length, vpm[1] ? +vpm[1] : decks.length) : 0;
+      if (n) (vidsAfter[n] = vidsAfter[n] || []).push(b); else vidsLead.push(b);
+    });
     /* YouTube films (`youtube`: one block or an array) likewise sit before
        the knowledge check by default; a block's `placement: 'after-material[:N]'`
        (or the lesson-level `youtubePlacement` for a single block) plays it
@@ -1780,10 +1798,13 @@
       var n = ypm && decks.length ? Math.min(decks.length, ypm[1] ? +ypm[1] : decks.length) : 0;
       if (n) (filmsAfter[n] = filmsAfter[n] || []).push(y); else filmsLate.push(y);
     });
-    if (!afterN) renderIntroVideos(l, innerEl);
+    vidsLead.forEach(function (b) { renderIntroVideos(l, innerEl, b.legacy ? {} : { block: b }); });
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
-      if (afterN === k + 1) renderIntroVideos(l, innerEl, { next: (filmsAfter[k + 1] || []).length ? 'film' : k + 1 < decks.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
+      var vb = vidsAfter[k + 1] || [];
+      vb.forEach(function (b, j) {
+        renderIntroVideos(l, innerEl, { block: b.legacy ? null : b, next: j + 1 < vb.length || (filmsAfter[k + 1] || []).length ? 'film' : k + 1 < decks.length ? 'material' : (l.sections && l.sections.length ? 'lesson' : 'check') });
+      });
       (filmsAfter[k + 1] || []).forEach(function (y, j, arr) {
         renderYouTube(l, innerEl, { block: y, next: j + 1 < arr.length ? 'film' : k + 1 < decks.length ? 'material' : 'lesson' });
       });
