@@ -2951,8 +2951,8 @@ window.MT_LMS['the-map'] = {
       "id": "Berpikir seperti Pemecah Masalah: Metode Empat Langkah"
      },
      "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
+      "en": "30 min",
+      "id": "30 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -3015,8 +3015,8 @@ window.MT_LMS['the-map'] = {
         "id": "Sang Pemecah Masalah — Materi"
        },
        "intro": {
-        "en": "Start with the deck. Six slides set up the whole module: why problem solving is a habit, the four characters who get stuck, how small improvements compound, the four-step method, a worked example that turns “my grades are dropping” into a specific fix, and the logic tree. Read them, then continue to Exhibit 1 below.",
-        "id": "Mulai dari deknya. Enam slide menyiapkan seluruh modul: mengapa memecahkan masalah adalah kebiasaan, empat karakter yang terjebak, bagaimana perbaikan kecil berlipat ganda, metode empat langkah, contoh yang mengubah “nilaiku turun” menjadi perbaikan spesifik, dan pohon logika. Bacalah, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "Start with the deck. Six slides set up the whole module: why problem solving is a habit, the four characters who get stuck, how small improvements compound, the four-step method, a worked example that turns “my grades are dropping” into a specific fix, and the logic tree. Read them, then watch the film that follows.",
+        "id": "Mulai dari deknya. Enam slide menyiapkan seluruh modul: mengapa memecahkan masalah adalah kebiasaan, empat karakter yang terjebak, bagaimana perbaikan kecil berlipat ganda, metode empat langkah, contoh yang mengubah “nilaiku turun” menjadi perbaikan spesifik, dan pohon logika. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-kid-",
        "slides": [
@@ -3083,6 +3083,30 @@ window.MT_LMS['the-map'] = {
        ]
       }
      ],
+     "videos": [
+      {
+       "src": "../../assets/lms/the-map/structured-problem-solving.mp4",
+       "poster": "../../assets/lms/the-map/structured-problem-solving-poster.jpg",
+       "dur": "3:06",
+       "title": {
+        "en": "Structured Problem Solving — what it is, and what makes a good problem solver",
+        "id": "Pemecahan Masalah Terstruktur — apa itu, dan apa yang membuat pemecah masalah yang baik"
+       },
+       "captions": {
+        "en": "../../assets/lms/the-map/structured-problem-solving-en.vtt",
+        "id": "../../assets/lms/the-map/structured-problem-solving-id.vtt"
+       }
+      }
+     ],
+     "videosKicker": {
+      "en": "Watch next · Lesson film",
+      "id": "Tonton berikutnya · Film pelajaran"
+     },
+     "videosIntro": {
+      "en": "After the slides, a three-minute film: two consultants who teach problem solving for a living answer the two questions this lesson turns on — what problem solving actually is (the process by which we make decisions, every day, sometimes over months and sometimes in the middle of a meeting) and what makes a good problem solver. Listen for their three marks of structure: a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and thinking through implementation — stakeholders, roll-out, pitfalls. Subtitles are available in English and Bahasa Indonesia. When it ends, continue to Exhibit 1 below and see the same three marks inside the four-step method.",
+      "id": "Setelah slide, sebuah film tiga menit: dua konsultan yang mengajarkan pemecahan masalah sebagai profesi menjawab dua pertanyaan yang menjadi poros pelajaran ini — apa sebenarnya pemecahan masalah (proses kita mengambil keputusan, setiap hari, kadang berbulan-bulan dan kadang di tengah rapat) dan apa yang membuat seseorang menjadi pemecah masalah yang baik. Simak tiga ciri struktur yang mereka sebut: cara yang sengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan memikirkan penerapannya — pemangku kepentingan, peluncuran, jebakan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia. Setelah selesai, lanjutkan ke Peraga 1 di bawah dan temukan ketiga ciri yang sama di dalam metode empat langkah."
+     },
+     "videosPlacement": "after-material:1",
      "diagram": {
       "type": "flow",
       "exhibit": {
@@ -3152,8 +3176,8 @@ window.MT_LMS['the-map'] = {
         "id": "Kecerdasan praktis adalah hasil yang dicapai"
        },
        "body": {
-        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? Watanabe calls the people who do this <b>problem-solving kids</b> — not because they are clever, but because they have a habit: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this; deliberate practice correlates strongly. That is why this module is built from cases you can actually run, not theory you can recite.",
-        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal yang berbeda: dengan tujuan yang samar, informasi yang terbatas, dan orang-orang lain, seberapa andal kamu menghasilkan apa yang diminta? Watanabe menyebut orang yang mampu melakukannya <b>problem-solving kids</b> — bukan karena mereka pintar, melainkan karena mereka punya kebiasaan: memahami sebelum bertindak, mencari sebab dan bukan kambing hitam, menulis rencana, dan terus menyesuaikan sampai hasilnya tiba. Nilai akademik berkorelasi lemah dengan ini; latihan yang disengaja berkorelasi kuat. Karena itu modul ini dibangun dari kasus yang benar-benar bisa kamu jalankan, bukan teori yang bisa kamu hafalkan."
+        "en": "School measures how well you absorb and reproduce knowledge. Work measures something else: given a fuzzy goal, limited information and other people, how reliably do you produce the intended result? Watanabe calls the people who do this <b>problem-solving kids</b> — not because they are clever, but because they have a habit: they understand before they act, they look for causes rather than culprits, they write plans, and they keep adjusting until the outcome arrives. Grades correlate weakly with this; deliberate practice correlates strongly. The film above says the same thing from inside a consulting firm: good problem solving is <b>structured</b> — a deliberate way of breaking the problem apart, an 80/20 choice of what to tackle, and a plan for implementation. That is why this module is built from cases you can actually run, not theory you can recite.",
+        "id": "Sekolah mengukur seberapa baik kamu menyerap dan mengulang pengetahuan. Dunia kerja mengukur hal yang berbeda: dengan tujuan yang samar, informasi yang terbatas, dan orang-orang lain, seberapa andal kamu menghasilkan apa yang diminta? Watanabe menyebut orang yang mampu melakukannya <b>problem-solving kids</b> — bukan karena mereka pintar, melainkan karena mereka punya kebiasaan: memahami sebelum bertindak, mencari sebab dan bukan kambing hitam, menulis rencana, dan terus menyesuaikan sampai hasilnya tiba. Nilai akademik berkorelasi lemah dengan ini; latihan yang disengaja berkorelasi kuat. Film di atas mengatakan hal yang sama dari dalam sebuah firma konsultan: pemecahan masalah yang baik itu <b>terstruktur</b> — cara yang sengaja untuk memecah masalah, pilihan 80/20 tentang apa yang digarap, dan rencana penerapannya. Karena itu modul ini dibangun dari kasus yang benar-benar bisa kamu jalankan, bukan teori yang bisa kamu hafalkan."
        }
       },
       {

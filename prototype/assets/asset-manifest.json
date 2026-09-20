@@ -10621,6 +10621,54 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "The Map · Module 3 · 3.3 slide material."
+    },
+    {
+      "file": "assets/lms/the-map/structured-problem-solving.mp4",
+      "bytes": 19898206,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to main by Metanoia Labs on 2026-09-20 as \"Structured Problem Solving.mp4\" (commit 088c5bc); moved beside the other lesson films. Two on-camera presenters introduce structured problem solving (McKinsey course intro, 3:06).",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film (after the Problem-Solving Kid slides). Licence and model release follow the supplied file; two identifiable presenters appear."
+    },
+    {
+      "file": "assets/lms/the-map/structured-problem-solving-poster.jpg",
+      "bytes": 75531,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame at 0:52 of structured-problem-solving.mp4 (supplied by Metanoia Labs on 2026-09-20), extracted in-repo at 1280px wide as the player poster",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.1 lesson film poster (two identifiable presenters). Licence and model release follow the supplied video."
+    },
+    {
+      "file": "assets/lms/the-map/structured-problem-solving-en.vtt",
+      "bytes": 4519,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "English subtitles for structured-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
+    },
+    {
+      "file": "assets/lms/the-map/structured-problem-solving-id.vtt",
+      "bytes": 4432,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Bahasa Indonesia subtitles for structured-problem-solving.mp4, produced in-repo on 2026-09-20: speech recognised from the supplied audio with two Whisper models, cross-checked and split into readable cues, and translated",
+      "licence": "Owned — derivative of the source video; licence follows the video",
+      "licence_proof": "this manifest row",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "The Map · Module 3 · 3.1 lesson film captions."
     }
   ]
 }
