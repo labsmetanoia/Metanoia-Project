@@ -4599,8 +4599,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
      },
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "50 min",
+      "id": "50 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -4783,8 +4783,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pengenalan Pohon Logika — Materi"
        },
        "intro": {
-        "en": "After the film, three slides give step 2 its tool: the logic tree, or issue tree. CarneCarne's supply chain in five steps and the first-level branches the team is weighing (supplier, processing, distribution); the key concepts and a worked tree that breaks “what is the source of the E. coli contamination?” into 1A, 1B and 1C with three sub-issues each; and an exercise — which set of three questions makes the strongest first level of the tree, and why a mutually exclusive, collectively exhaustive set wins. Read them, then continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
-        "id": "Setelah film, tiga slide memberi langkah 2 alatnya: pohon logika, atau pohon isu. Rantai pasokan CarneCarne dalam lima tahap dan cabang tingkat pertama yang sedang dipertimbangkan tim (pemasok, pengolahan, distribusi); konsep-konsep utama dan contoh pohon yang memecah “apa sumber kontaminasi E. coli?” menjadi 1A, 1B, dan 1C dengan tiga sub-isu masing-masing; serta sebuah latihan — kombinasi tiga pertanyaan manakah yang membuat tingkat pertama pohon paling kuat, dan mengapa daftar yang saling eksklusif dan lengkap yang menang. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+        "en": "After the film, three slides give step 2 its tool: the logic tree, or issue tree. CarneCarne's supply chain in five steps and the first-level branches the team is weighing (supplier, processing, distribution); the key concepts and a worked tree that breaks “what is the source of the E. coli contamination?” into 1A, 1B and 1C with three sub-issues each; and an exercise — which set of three questions makes the strongest first level of the tree, and why a mutually exclusive, collectively exhaustive set wins. Read them, then watch the film that follows.",
+        "id": "Setelah film, tiga slide memberi langkah 2 alatnya: pohon logika, atau pohon isu. Rantai pasokan CarneCarne dalam lima tahap dan cabang tingkat pertama yang sedang dipertimbangkan tim (pemasok, pengolahan, distribusi); konsep-konsep utama dan contoh pohon yang memecah “apa sumber kontaminasi E. coli?” menjadi 1A, 1B, dan 1C dengan tiga sub-isu masing-masing; serta sebuah latihan — kombinasi tiga pertanyaan manakah yang membuat tingkat pertama pohon paling kuat, dan mengapa daftar yang saling eksklusif dan lengkap yang menang. Bacalah, lalu tonton film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-tree-",
        "slides": [
@@ -5166,8 +5166,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "After the slides, a two-minute film shows the CarneCarne case from the slides, acted out. Three days before the press conference, Elena's team maps where the E. coli could have entered — the farms, the packaging facility, the northwest distribution centre, the stores — eliminates the stores because the beef was caught before it reached them, and splits the remaining branches between Javier, Sophia and Mateo: thorough, meticulous, no stone unturned, reconvening on Friday. It is step 2 in miniature — structure the problem into its parts, then decide who looks where. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
-        "id": "Setelah slide, sebuah film dua menit menampilkan kasus CarneCarne dari slide, diperankan. Tiga hari sebelum konferensi pers, tim Elena memetakan dari mana E. coli bisa masuk — peternakan, fasilitas pengemasan, pusat distribusi barat laut, toko-toko — menyingkirkan toko-toko karena daging sapinya tertangkap sebelum sampai ke sana, dan membagi cabang-cabang yang tersisa di antara Javier, Sophia, dan Mateo: teliti, cermat, tidak ada yang terlewat, bertemu lagi hari Jumat. Ini langkah 2 dalam versi mini — susun masalah menjadi bagian-bagiannya, lalu tentukan siapa memeriksa apa. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
+        "en": "After the slides, a two-minute film shows the CarneCarne case from the slides, acted out. Three days before the press conference, Elena's team maps where the E. coli could have entered — the farms, the packaging facility, the northwest distribution centre, the stores — eliminates the stores because the beef was caught before it reached them, and splits the remaining branches between Javier, Sophia and Mateo: thorough, meticulous, no stone unturned, reconvening on Friday. It is step 2 in miniature — structure the problem into its parts, then decide who looks where. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the next film below.",
+        "id": "Setelah slide, sebuah film dua menit menampilkan kasus CarneCarne dari slide, diperankan. Tiga hari sebelum konferensi pers, tim Elena memetakan dari mana E. coli bisa masuk — peternakan, fasilitas pengemasan, pusat distribusi barat laut, toko-toko — menyingkirkan toko-toko karena daging sapinya tertangkap sebelum sampai ke sana, dan membagi cabang-cabang yang tersisa di antara Javier, Sophia, dan Mateo: teliti, cermat, tidak ada yang terlewat, bertemu lagi hari Jumat. Ini langkah 2 dalam versi mini — susun masalah menjadi bagian-bagiannya, lalu tentukan siapa memeriksa apa. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke film berikutnya di bawah."
        },
        "videos": [
         {
@@ -5184,6 +5184,42 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      }
+     ],
+     "youtube": [
+      {
+       "id": "veIWron7hGs",
+       "placement": "after-material:2",
+       "dur": "2:57",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "title": {
+        "en": "Structuring and prioritisation",
+        "id": "Struktur masalah dan prioritisasi"
+       },
+       "intro": {
+        "en": "After the case film, a second film takes the next two steps of the hypothesis-led approach in the presenters' own words. Structuring is simply breaking the problem into smaller pieces — easy when the problem is profit (revenue minus cost), much harder when it is not — and a good breakdown is mutually exclusive and collectively exhaustive, so nothing overlaps and nothing is missed. Prioritisation then asks which of those pieces will have the most impact, so limited time goes where it matters. Subtitles: use the CC button to choose English or Bahasa Indonesia. When it ends, continue to the slides that follow.",
+        "id": "Setelah film kasus, film kedua membawa dua langkah berikutnya dari pendekatan berbasis hipotesis dalam kata-kata para pembicara sendiri. Menyusun (structuring) berarti memecah masalah menjadi bagian-bagian yang lebih kecil — mudah ketika masalahnya adalah laba (pendapatan dikurangi biaya), jauh lebih sulit ketika bukan — dan pemecahan yang baik bersifat saling eksklusif dan lengkap secara keseluruhan (MECE), sehingga tidak ada yang tumpang tindih dan tidak ada yang terlewat. Prioritisasi lalu bertanya bagian mana yang akan berdampak paling besar, agar waktu yang terbatas dicurahkan pada hal yang penting. Subtitle: gunakan tombol CC untuk memilih bahasa Inggris atau Bahasa Indonesia. Setelah selesai, lanjutkan ke slide yang mengikutinya."
+       }
+      },
+      {
+       "id": "ziM0NXVfb5k",
+       "placement": "after-material:3",
+       "dur": "3:15",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "title": {
+        "en": "Introduction to logic trees",
+        "id": "Pengenalan pohon logika"
+       },
+       "intro": {
+        "en": "After the slides, a three-minute film puts the logic tree into practice. An issue tree starts from the problem you have defined and breaks it into three or four branches, then the drivers of each, level by level, until every endpoint is discrete enough for a single analysis — and then you prioritise which endpoints to analyse. It is an iterative process: draft two or three ways of framing the problem, refine, and make sure level one reads logically all the way down. In the moment you may lean on experience; on a large project the sheer number of issues is the challenge. Subtitles: use the CC button to choose English or Bahasa Indonesia. When it ends, continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
+        "id": "Setelah slide, sebuah film tiga menit mempraktikkan pohon logika. Pohon isu dimulai dari masalah yang sudah Anda definisikan dan memecahnya menjadi tiga atau empat cabang, lalu pendorong masing-masing, tingkat demi tingkat, sampai setiap titik ujung cukup terpisah untuk satu analisis — lalu Anda memprioritaskan titik ujung mana yang dianalisis. Ini proses iteratif: buat draf dua atau tiga cara membingkai masalah, sempurnakan, dan pastikan tingkat pertama terbaca logis sampai ke bawah. Saat itu juga Anda mungkin bertumpu pada pengalaman; pada proyek besar, banyaknya isu itulah tantangannya. Subtitle: gunakan tombol CC untuk memilih bahasa Inggris atau Bahasa Indonesia. Setelah selesai, lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+       }
       }
      ]
     }
