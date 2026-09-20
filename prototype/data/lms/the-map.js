@@ -4599,8 +4599,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tujuan, Kesenjangan, dan Keputusan yang Baik"
      },
      "dur": {
-      "en": "55 min",
-      "id": "55 mnt"
+      "en": "65 min",
+      "id": "65 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -4830,8 +4830,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pengenalan tentang MECE — Materi"
        },
        "intro": {
-        "en": "After the film, four slides close the lesson's material with the test every logic tree must pass: MECE — mutually exclusive, collectively exhaustive, or simply no overlaps and no gaps. Then an exercise on the CarneCarne tree — which two questions belong as second-level issues under the family-farms branch, and why the tempting ones are off-track or overlap; the 80/20 rule and the impact-versus-feasibility prioritisation matrix for choosing which issues to analyse first; and a recap of the three structuring tools. Read them, then continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
-        "id": "Setelah film, empat slide menutup materi pelajaran ini dengan uji yang harus dilalui setiap pohon logika: MECE — mutually exclusive, collectively exhaustive, atau sederhananya tidak ada tumpang tindih dan tidak ada kekosongan. Lalu sebuah latihan pada pohon isu CarneCarne — dua pertanyaan mana yang pantas menjadi isu tingkat kedua di bawah cabang peternakan keluarga, dan mengapa pertanyaan yang menggoda justru melenceng atau tumpang tindih; prinsip 80/20 dan matriks prioritas dampak-versus-kelayakan untuk memilih isu mana yang dianalisis lebih dulu; serta rangkuman tiga alat penyusunan masalah. Bacalah, lalu lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+        "en": "After the film, four slides close the lesson's material with the test every logic tree must pass: MECE — mutually exclusive, collectively exhaustive, or simply no overlaps and no gaps. Then an exercise on the CarneCarne tree — which two questions belong as second-level issues under the family-farms branch, and why the tempting ones are off-track or overlap; the 80/20 rule and the impact-versus-feasibility prioritisation matrix for choosing which issues to analyse first; and a recap of the three structuring tools. Read them, then watch the three films that follow.",
+        "id": "Setelah film, empat slide menutup materi pelajaran ini dengan uji yang harus dilalui setiap pohon logika: MECE — mutually exclusive, collectively exhaustive, atau sederhananya tidak ada tumpang tindih dan tidak ada kekosongan. Lalu sebuah latihan pada pohon isu CarneCarne — dua pertanyaan mana yang pantas menjadi isu tingkat kedua di bawah cabang peternakan keluarga, dan mengapa pertanyaan yang menggoda justru melenceng atau tumpang tindih; prinsip 80/20 dan matriks prioritas dampak-versus-kelayakan untuk memilih isu mana yang dianalisis lebih dulu; serta rangkuman tiga alat penyusunan masalah. Bacalah, lalu tonton tiga film yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/ps-mece-",
        "slides": [
@@ -5238,6 +5238,59 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/structuring-the-problem-en.vtt",
           "id": "../../assets/lms/the-map/structuring-the-problem-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "closing",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · 3 short films",
+        "id": "Tonton berikutnya · 3 film singkat"
+       },
+       "intro": {
+        "en": "After the slides, three films close the lesson's material in the presenter's own words. The first tests an issue tree with MECE — no overlaps, no gaps — through profitability, a list of meals, and a traffic light explained to a child, then warns against pruning the tree too early. The second is the 80/20 rule: the 20% of analyses that give 80% of the insight, a 200-business valuation solved by focusing on 30, and learning to be comfortable with an answer that is 80% of the way there. The third is the prioritisation matrix — impact against feasibility, the four quadrants, and how precise to be in the moment versus on a longer project. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below — the same goal-gap-hypothesis chain, applied to your own goals.",
+        "id": "Setelah slide, tiga film menutup materi pelajaran ini dalam kata-kata pembicara sendiri. Film pertama menguji pohon isu dengan MECE — tidak ada tumpang tindih, tidak ada kekosongan — lewat profitabilitas, daftar makanan, dan lampu lalu lintas yang dijelaskan kepada seorang anak, lalu mengingatkan agar tidak memangkas pohon terlalu dini. Film kedua adalah aturan 80/20: 20% analisis yang memberi 80% wawasan, valuasi 200 bisnis yang diselesaikan dengan berfokus pada 30, dan belajar nyaman dengan jawaban yang 80% mendekati. Film ketiga adalah matriks prioritas — dampak terhadap kelayakan, empat kuadrannya, dan seberapa presisi yang dibutuhkan saat itu juga versus pada proyek yang lebih panjang. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah ketiganya selesai, lanjutkan ke Peraga 1 di bawah — rantai tujuan-kesenjangan-hipotesis yang sama, diterapkan pada tujuan Anda sendiri."
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/introduction-to-mece.mp4",
+         "poster": "../../assets/lms/the-map/introduction-to-mece-poster.jpg",
+         "dur": "3:01",
+         "title": {
+          "en": "Introduction to MECE: no overlaps, no gaps",
+          "id": "Pengenalan MECE: tidak ada tumpang tindih, tidak ada kekosongan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/introduction-to-mece-en.vtt",
+          "id": "../../assets/lms/the-map/introduction-to-mece-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/prioritizing-issues.mp4",
+         "poster": "../../assets/lms/the-map/prioritizing-issues-poster.jpg",
+         "dur": "2:58",
+         "title": {
+          "en": "Prioritising issues: the 80/20 rule",
+          "id": "Memprioritaskan isu: aturan 80/20"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/prioritizing-issues-en.vtt",
+          "id": "../../assets/lms/the-map/prioritizing-issues-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/the-prioritization-matrix.mp4",
+         "poster": "../../assets/lms/the-map/the-prioritization-matrix-poster.jpg",
+         "dur": "2:30",
+         "title": {
+          "en": "The prioritisation matrix",
+          "id": "Matriks prioritas"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/the-prioritization-matrix-en.vtt",
+          "id": "../../assets/lms/the-map/the-prioritization-matrix-id.vtt"
          }
         }
        ]
