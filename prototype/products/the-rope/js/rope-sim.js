@@ -394,6 +394,14 @@
     'aspect-ratio:16/7;min-height:190px;background:#0C1626;margin-bottom:14px}' +
   '.rsim-stage .rsim-avatar{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0}' +
   '.rsim-stage video.stage-clip{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}' +
+  '.rsim-stage .stage-clips{position:absolute;inset:0;transform-origin:50% 60%;transition:transform .4s ease}' +
+  '.rsim-stage .stage-clips video{transition:opacity .55s ease}' +
+  '.rsim-stage .stage-clips .clip-talk,.rsim-stage .stage-clips .clip-listen{opacity:0}' +
+  '.rsim-stage.talking .stage-clips .clip-talk{opacity:1}' +
+  '.rsim-stage.listening:not(.talking) .stage-clips .clip-listen{opacity:1}' +
+  '.rsim-stage.listening:not(.talking) .stage-clips{animation:rsimListen 4.2s ease-in-out infinite}' +
+  '@keyframes rsimListen{0%,100%{transform:translateY(0) scale(1)}35%{transform:translateY(1.5px) scale(1.006)}70%{transform:translateY(-1px) scale(1.003)}}' +
+  '@media(prefers-reduced-motion:reduce){.rsim-stage.listening:not(.talking) .stage-clips{animation:none}}' +
   '.rsim-stage canvas.stage-canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
   '.rsim-stage canvas.stage-canvas-visible{display:block}' +
   '.rsim-stage.listening .st-name .dot{background:#F0D878}' +
@@ -676,7 +684,8 @@
   }
 
   /* ─── VIDEO INTERVIEWER — a rendered interviewer delivered as a video stream ───
-     The stage is a video call: an animated interviewer is drawn to a canvas
+     Fallback only — used when data/rope/media.js declares no clips for the
+     persona. The stage is a video call: an animated interviewer is drawn to a canvas
      every frame (breathing, blinks, gaze, brows, nods while you speak, mouth
      visemes driven by the speech engine's word boundaries) and piped through
      canvas.captureStream() into a <video> element, so the interviewer really
@@ -691,6 +700,24 @@
     manager: { skin: '#D9B08C', hair: '#1F1410', hairStyle: 'short', top: '#2A3A52', top2: '#1D2B3E', lip: '#9C6553', frame: '#20222A' },
     exec:    { skin: '#C99A72', hair: '#5A5F66', hairStyle: 'crop',  top: '#1B1F2A', top2: '#12151E', lip: '#8E5A48', frame: null }
   };
+  function videoStage(media, stage) {
+    var clips = [];
+    function mk(src, cls) {
+      var v = document.createElement('video');
+      v.className = 'stage-clip ' + cls; if (media.poster) v.poster = media.poster;
+      (Array.isArray(src) ? src : [src]).forEach(function (u) { var so = document.createElement('source'); so.src = u; so.type = /\.webm(\?|$)/.test(u) ? 'video/webm' : 'video/mp4'; v.appendChild(so); });
+      v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; v.preload = 'auto';
+      v.setAttribute('aria-hidden', 'true');
+      v.play().catch(function () {});
+      stage.appendChild(v); clips.push(v); return v;
+    }
+    var wrap = el('div', 'stage-clips'); stage.appendChild(wrap);
+    var idle = mk(media.idle, 'clip-idle'); wrap.appendChild(idle);
+    if (media.talking && media.talking !== media.idle) { var talk = mk(media.talking, 'clip-talk'); wrap.appendChild(talk); }
+    if (media.listening) { var lis = mk(media.listening, 'clip-listen'); wrap.appendChild(lis); }
+    stage.classList.add('has-clips');
+    return { el: wrap, clips: clips, destroy: function () { clips.forEach(function (v) { try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} }); } };
+  }
   function videoInterviewer(per, photo, stage) {
     var W = 640, Hh = 300;
     var cv = document.createElement('canvas'); cv.width = W; cv.height = Hh; cv.className = 'stage-canvas';
@@ -959,8 +986,8 @@
 
     var integ = el('div', 'rsim-card');
     integ.innerHTML = '<div class="rsim-integrity"><b>' + T('Interview integrity', 'Integritas wawancara') + '</b>' +
-      T('Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
-        'Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
+      T('A human interviewer on video asks and listens; Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
+        'Pewawancara manusia dalam video bertanya dan mendengarkan; Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
     w.appendChild(integ);
   }
 
@@ -1258,10 +1285,10 @@
     var media = (window.MT_ROPE_SIM_MEDIA && window.MT_ROPE_SIM_MEDIA.personas && window.MT_ROPE_SIM_MEDIA.personas[per.id]) || null;
     var photo = PHOTOS[per.id] || null;
     if (media && media.idle) {
-      var clip = document.createElement('video');
-      clip.className = 'stage-clip'; clip.src = media.idle;
-      clip.muted = true; clip.loop = true; clip.playsInline = true; clip.autoplay = true;
-      stage.appendChild(clip);
+      /* real video of the interviewer: an idle loop under a talking loop, cross-faded by the stage's `talking` class */
+      if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
+      state.vi = videoStage(media, stage);
+      stage.appendChild(el('div', 'stage-grade'));
     } else {
       /* rendered interviewer, delivered as a video stream (see videoInterviewer) */
       if (state.vi) { try { state.vi.destroy(); } catch (e) {} }
