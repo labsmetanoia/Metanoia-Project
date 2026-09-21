@@ -1916,6 +1916,162 @@
     }
   }
 
+  /* ── Enrichment blocks (The Pack, The Rope, The Route) ──
+     insights: { title?, lead?, items:[{h, body, tag?}] }
+       "Field insights" — numbered practitioner insights in the Career-System
+       idiom, rendered after the reading sections.
+     resources: { title?, lead?, items:[{kind, title, desc, body:[pair,…]}] }
+       "Resource kit" — copyable templates, scripts, prompts and worksheets,
+       and checklists whose ticks persist per member (localStorage
+       mt-lms-kit:<slug>). Nothing leaves the device.
+     journey: { before:{label,desc}, now:{label,desc}, next:{label,desc,href?,tool?,mode?} }
+       "Where this sits in your journey" — the step before, this module, and
+       the next move, which may link to another product or launch a tool. */
+  function renderInsights(l, host) {
+    var ins = l.insights;
+    if (!ins || !ins.items || !ins.items.length) return;
+    var box = el('div', 'lms-insights');
+    var hd = el('div', 'li-head');
+    hd.appendChild(bi('h3', null, ins.title || { en: 'Field insights', id: 'Wawasan lapangan' }));
+    if (ins.lead) hd.appendChild(bi('p', 'li-lead', ins.lead));
+    box.appendChild(hd);
+    var grid = el('div', 'li-grid');
+    ins.items.forEach(function (it, k) {
+      var c = el('article', 'li-card');
+      var num = (k < 9 ? '0' : '') + (k + 1);
+      c.appendChild(bi('span', 'li-kicker', { en: (it.tag && it.tag.en) || ('Insight ' + num), id: (it.tag && it.tag.id) || ('Wawasan ' + num) }));
+      c.appendChild(bi('h4', null, it.h));
+      c.appendChild(bi('p', null, glossify(it.body, l.glossary)));
+      grid.appendChild(c);
+    });
+    box.appendChild(grid);
+    host.appendChild(box);
+  }
+
+  var KIT_KEY = 'mt-lms-kit:' + slug;
+  function kitRead() { try { return JSON.parse(localStorage.getItem(KIT_KEY) || '{}') || {}; } catch (e) { return {}; } }
+  function kitWrite(d) { try { localStorage.setItem(KIT_KEY, JSON.stringify(d)); } catch (e) {} }
+  var KIT_KIND = {
+    template: { en: 'Template', id: 'Templat' }, checklist: { en: 'Checklist', id: 'Daftar periksa' }, script: { en: 'Script', id: 'Naskah' },
+    prompt: { en: 'AI prompt', id: 'Prompt AI' }, worksheet: { en: 'Worksheet', id: 'Lembar kerja' }, guide: { en: 'Quick guide', id: 'Panduan singkat' }
+  };
+  function plain(html) { var d = document.createElement('div'); d.innerHTML = html; return d.textContent; }
+  function kitText(it) {
+    var lg = lang();
+    var lines = [plain(it.title[lg] || it.title.en), ''];
+    (it.body || []).forEach(function (p) { var t = plain(p[lg] || p.en); lines.push(it.kind === 'checklist' ? '[ ] ' + t : t); });
+    return lines.join('\n');
+  }
+  function renderResources(l, host) {
+    var kit = l.resources;
+    if (!kit || !kit.items || !kit.items.length) return;
+    var box = el('div', 'lms-kit');
+    var hd = el('div', 'lk-head');
+    hd.appendChild(el('span', 'lk-ico', iconSvg('briefcase', 20)));
+    var ht = el('div');
+    ht.appendChild(bi('h3', null, kit.title || { en: 'Resource kit', id: 'Perangkat sumber daya' }));
+    ht.appendChild(bi('p', 'lk-lead', kit.lead || { en: 'Working documents for this lesson — copy them, tick them off, or save them as text. Everything stays on your device.', id: 'Dokumen kerja untuk pelajaran ini — salin, centang, atau simpan sebagai teks. Semuanya tetap di perangkatmu.' }));
+    hd.appendChild(ht);
+    box.appendChild(hd);
+    var st = kitRead();
+    kit.items.forEach(function (it, k) {
+      var card = el('article', 'lk-item');
+      card.setAttribute('data-kind', it.kind || 'template');
+      var top = el('button', 'lk-top'); top.type = 'button'; top.setAttribute('aria-expanded', 'false');
+      var meta = el('div', 'lk-meta');
+      meta.appendChild(bi('span', 'lk-kind', KIT_KIND[it.kind] || KIT_KIND.template));
+      if (it.kind === 'checklist') {
+        var done = 0; (it.body || []).forEach(function (_, j) { if (st[l.n + ':' + k + ':' + j]) done++; });
+        var prog = bi('span', 'lk-prog', { en: done + '/' + it.body.length + ' done', id: done + '/' + it.body.length + ' selesai' });
+        meta.appendChild(prog);
+      }
+      var tt = el('div', 'lk-title');
+      tt.appendChild(bi('b', null, it.title));
+      if (it.desc) tt.appendChild(bi('span', null, it.desc));
+      top.appendChild(meta); top.appendChild(tt);
+      top.appendChild(el('span', 'lk-chev', '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>'));
+      card.appendChild(top);
+      var body = el('div', 'lk-body');
+      if (it.kind === 'checklist') {
+        var ul = el('ul', 'lk-check');
+        (it.body || []).forEach(function (p, j) {
+          var key = l.n + ':' + k + ':' + j;
+          var li = el('li'); var lab = el('label');
+          var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = !!st[key];
+          if (cb.checked) li.classList.add('on');
+          cb.addEventListener('change', function () {
+            var d = kitRead(); if (cb.checked) d[key] = 1; else delete d[key]; kitWrite(d);
+            li.classList.toggle('on', cb.checked);
+            var n = 0; (it.body || []).forEach(function (_, jj) { if (d[l.n + ':' + k + ':' + jj]) n++; });
+            var pr = card.querySelector('.lk-prog'); if (pr) { pr.setAttribute('data-en', n + '/' + it.body.length + ' done'); pr.setAttribute('data-id', n + '/' + it.body.length + ' selesai'); pr.textContent = lang() === 'id' ? n + '/' + it.body.length + ' selesai' : n + '/' + it.body.length + ' done'; }
+          });
+          lab.appendChild(cb); lab.appendChild(bi('span', null, p));
+          li.appendChild(lab); ul.appendChild(li);
+        });
+        body.appendChild(ul);
+      } else {
+        var pre = el('div', 'lk-lines');
+        (it.body || []).forEach(function (p) { pre.appendChild(bi('p', p.en === '' ? 'lk-gap' : null, p)); });
+        body.appendChild(pre);
+      }
+      var act = el('div', 'lk-act');
+      var cp = el('button', 'lk-btn'); cp.type = 'button';
+      cp.appendChild(bi('span', null, { en: 'Copy text', id: 'Salin teks' }));
+      cp.addEventListener('click', function () {
+        var t = kitText(it);
+        var done = function () { cp.classList.add('ok'); cp.querySelector('span').textContent = lang() === 'id' ? 'Tersalin ✓' : 'Copied ✓'; setTimeout(function () { cp.classList.remove('ok'); cp.querySelector('span').textContent = lang() === 'id' ? 'Salin teks' : 'Copy text'; }, 2400); };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, done); else done();
+      });
+      var dl = el('button', 'lk-btn'); dl.type = 'button';
+      dl.appendChild(bi('span', null, { en: 'Save as .txt', id: 'Simpan .txt' }));
+      dl.addEventListener('click', function () {
+        var blob = new Blob([kitText(it)], { type: 'text/plain;charset=utf-8' });
+        var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+        a.download = (slug + '-' + l.n + '-' + plain(it.title.en).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.txt');
+        document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 800);
+      });
+      act.appendChild(cp); act.appendChild(dl);
+      body.appendChild(act);
+      card.appendChild(body);
+      top.addEventListener('click', function () { var open = card.classList.toggle('open'); top.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+      box.appendChild(card);
+    });
+    host.appendChild(box);
+  }
+
+  function renderJourney(l, host) {
+    var j = l.journey;
+    if (!j || !j.now) return;
+    var box = el('div', 'lms-journey');
+    box.appendChild(bi('h3', null, j.title || { en: 'Where this sits in your journey', id: 'Posisi pelajaran ini dalam perjalananmu' }));
+    var strip = el('div', 'lj-strip');
+    [['before', j.before, { en: 'Before this', id: 'Sebelum ini' }], ['now', j.now, { en: 'This module', id: 'Modul ini' }], ['next', j.next, { en: 'Next move', id: 'Langkah berikutnya' }]].forEach(function (row) {
+      var st = row[1]; if (!st) return;
+      var c = el('div', 'lj-step lj-' + row[0]);
+      c.appendChild(bi('span', 'lj-kicker', row[2]));
+      c.appendChild(bi('b', null, st.label));
+      if (st.desc) c.appendChild(bi('p', null, st.desc));
+      if (row[0] === 'next') {
+        if (st.tool) {
+          var b = bi('button', 'lms-complete lj-go', st.cta || { en: 'Open the tool →', id: 'Buka alatnya →' });
+          b.addEventListener('click', function () { document.dispatchEvent(new CustomEvent('mt:launch-tool', { detail: { tool: st.tool, mode: st.mode || 'home', lesson: l.n } })); });
+          c.appendChild(b);
+        } else if (st.href) {
+          var a = bi('a', 'lms-complete lj-go', st.cta || { en: 'Go there →', id: 'Ke sana →' });
+          a.href = st.href;
+          c.appendChild(a);
+        } else if (st.lesson) {
+          var b2 = bi('button', 'lms-complete lj-go', st.cta || { en: 'Continue →', id: 'Lanjut →' });
+          b2.addEventListener('click', function () { var idx = -1; FLAT.forEach(function (x, i) { if (x.l.n === st.lesson) idx = i; }); if (idx >= 0 && canAccess(idx)) openLesson(idx); });
+          c.appendChild(b2);
+        }
+      }
+      strip.appendChild(c);
+    });
+    box.appendChild(strip);
+    host.appendChild(box);
+  }
+
   function renderOneCheck(check, host) {
     var box = el('div', 'lms-check');
     box.appendChild(bi('h3', null, { en: 'Knowledge check', id: 'Cek pemahaman' }));
@@ -2076,6 +2232,7 @@
     if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
     if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); }
+    renderInsights(l, innerEl);
     renderCompare(l, innerEl);
     renderMistakes(l, innerEl);
     renderGlossary(l, innerEl);
@@ -2083,6 +2240,7 @@
     if (!(l.simlog && l.simlog.early)) renderSimLog(l, innerEl);
     renderListen(l, innerEl);
     if (l.tool) renderTool(l, innerEl);
+    renderResources(l, innerEl);
     filmsLate.forEach(function (y, j) { renderYouTube(l, innerEl, { block: y, next: j + 1 < filmsLate.length ? 'film' : 'check' }); });   /* YouTube lesson films in the player skin */
     renderCheck(l, innerEl);
     renderTryIt(l, innerEl);
@@ -2096,6 +2254,7 @@
       tk.appendChild(tul);
       innerEl.appendChild(tk);
     }
+    renderJourney(l, innerEl);
 
     var prev = root.querySelector('.lms-prev');
     var next = root.querySelector('.lms-next');

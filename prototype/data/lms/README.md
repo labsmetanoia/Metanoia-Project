@@ -43,6 +43,28 @@ Each file assigns `window.MT_LMS['<slug>']` with:
 
 Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
 
+### Enrichment blocks (`insights{}`, `resources{}`, `journey{}`)
+
+Three optional blocks used across The Pack, The Rope and The Route:
+
+- **insights** — `{ title?, lead?, items:[{h, body, tag?}] }` renders a
+  "Field insights" grid (numbered "Insight 01…") after the reading
+  sections: practitioner observations that frame the lesson.
+- **resources** — `{ title?, lead?, items:[{kind, title, desc, body:[pair,…]}] }`
+  renders a "Resource kit" before the knowledge check. `kind` is one of
+  `template`, `checklist`, `script`, `prompt`, `worksheet`, `guide`. Each
+  item expands to its lines with **Copy text** and **Save as .txt**; a
+  `checklist` renders tick boxes whose state persists per member in
+  `localStorage['mt-lms-kit:<slug>']`. Nothing leaves the device.
+- **journey** — `{ before:{label,desc}, now:{label,desc}, next:{label,desc, lesson?|href?|tool?,mode?, cta?} }`
+  renders "Where this sits in your journey" after the takeaways: the step
+  before, this module, and the next move. `next.lesson` opens that lesson
+  in the player (respecting sequential unlock), `next.href` links to
+  another product, `next.tool` dispatches `mt:launch-tool`.
+
+`mistakes` (`{ items:[{h, fix}] }`) is present on every lesson of the
+three courses.
+
 ### YouTube film (`youtube{}`)
 
 `youtube: { id, kicker{en,id}, title{en,id}, intro{en,id} }` renders a
