@@ -776,7 +776,7 @@
   function lipOverlay(stage, talkVideo, mouth) {
     var cv = document.createElement('canvas'); cv.className = 'stage-lips'; cv.setAttribute('aria-hidden', 'true');
     var ctx = cv.getContext('2d');
-    var off = document.createElement('canvas'), octx = off.getContext('2d');
+    var off = document.createElement('canvas'), octx = off.getContext('2d'), mk = document.createElement('canvas'), mctx = mk.getContext('2d');
     var CW = 640, CH = 360, raf = 0, alive = true, lastW = 0, lastH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
     var engine = lipEngine(); state.lips = engine;
     stage.appendChild(cv);
@@ -808,15 +808,16 @@
         /* 1. the mouth cavity: a lens between the lip corners, from just under the upper lip
               to where the lower lip will sit once the jaw has dropped; soft-edged so it reads
               as behind the lips rather than painted on them */
-        var hw = mw * 0.5 * (1 - rnd * 0.42), top = lh * 0.08, bot = drop + lh * 0.55;
-        var lens = function () { ctx.beginPath(); ctx.moveTo(-hw, top * 0.6); ctx.quadraticCurveTo(0, top - lh * 0.12, hw, top * 0.6); ctx.quadraticCurveTo(0, bot + lh * 0.4, -hw, top * 0.6); ctx.closePath(); };
+        var hw = mw * 0.5 * (1 - rnd * 0.42), top = lh * 0.08, bot = drop + lh * 0.32;
+        /* quadratic curves pass through the control point's midpoint, so the controls sit twice as far out */
+        var lens = function () { ctx.beginPath(); ctx.moveTo(-hw, top * 0.6); ctx.quadraticCurveTo(0, 2 * (top - lh * 0.12) - top * 0.6, hw, top * 0.6); ctx.quadraticCurveTo(0, 2 * (bot + lh * 0.25) - top * 0.6, -hw, top * 0.6); ctx.closePath(); };
         ctx.save(); lens(); ctx.clip();
         var cav = ctx.createLinearGradient(0, top, 0, bot); cav.addColorStop(0, '#2A0F0E'); cav.addColorStop(0.45, '#150605'); cav.addColorStop(1, '#3A1A17');
         ctx.fillStyle = cav; ctx.fillRect(-hw, top - lh, hw * 2, bot + lh * 2);
         if (jaw > 0.3) { /* upper teeth: a soft, narrow band right under the upper lip */
           var ta = Math.min(0.78, (jaw - 0.3) * 2.2), th = Math.min(drop * 0.32, lh * 0.5);
-          ctx.fillStyle = 'rgba(232,222,208,' + ta + ')';
-          ctx.beginPath(); ctx.moveTo(-hw * 0.72, top + lh * 0.05); ctx.lineTo(hw * 0.72, top + lh * 0.05); ctx.quadraticCurveTo(hw * 0.7, top + th + lh * 0.05, hw * 0.55, top + th + lh * 0.05); ctx.lineTo(-hw * 0.55, top + th + lh * 0.05); ctx.quadraticCurveTo(-hw * 0.7, top + th + lh * 0.05, -hw * 0.72, top + lh * 0.05); ctx.closePath(); ctx.fill();
+          ctx.fillStyle = 'rgba(228,218,204,' + ta * 0.8 + ')';
+          ctx.beginPath(); ctx.moveTo(-hw * 0.64, top + lh * 0.05); ctx.lineTo(hw * 0.64, top + lh * 0.05); ctx.quadraticCurveTo(hw * 0.62, top + th + lh * 0.05, hw * 0.48, top + th + lh * 0.05); ctx.lineTo(-hw * 0.48, top + th + lh * 0.05); ctx.quadraticCurveTo(-hw * 0.62, top + th + lh * 0.05, -hw * 0.64, top + lh * 0.05); ctx.closePath(); ctx.fill();
         }
         if (jaw > 0.5) { /* tongue hint low in the cavity when wide open */
           ctx.fillStyle = 'rgba(140,58,54,' + Math.min(0.6, (jaw - 0.5) * 1.8) + ')'; ctx.beginPath(); ctx.ellipse(0, bot * 0.8, hw * 0.55, drop * 0.28, 0, 0, Math.PI * 2); ctx.fill();
@@ -832,12 +833,19 @@
         /* off-canvas pixel (u - sx0, v - sy0) holds the stage pixel at R(rot)·(u, v) + (mx, my) */
         octx.save(); octx.translate(-sx0, -sy0); octx.rotate(-rot); octx.translate(-mx, -my);
         octx.drawImage(talkVideo, ox, oy, CW * sc, CH * sc); octx.restore();
-        octx.globalCompositeOperation = 'destination-in';
-        var gx = octx.createLinearGradient(0, 0, sw, 0); gx.addColorStop(0, 'rgba(0,0,0,0)'); gx.addColorStop(0.22, 'rgba(0,0,0,1)'); gx.addColorStop(0.78, 'rgba(0,0,0,1)'); gx.addColorStop(1, 'rgba(0,0,0,0)');
-        octx.fillStyle = gx; octx.fillRect(0, 0, sw, sh);
-        var gy = octx.createLinearGradient(0, 0, 0, sh); gy.addColorStop(0, 'rgba(0,0,0,0)'); gy.addColorStop(Math.min(0.3, lh * 0.45 / sh), 'rgba(0,0,0,1)'); gy.addColorStop(0.62, 'rgba(0,0,0,1)'); gy.addColorStop(1, 'rgba(0,0,0,0)');
-        octx.fillStyle = gy; octx.fillRect(0, 0, sw, sh);
-        octx.globalCompositeOperation = 'source-over';
+        /* mask: a crisp top edge across the lower lip itself, a soft one on the cheeks either side,
+           and fades toward the sides and the bottom of the strip */
+        mk.width = off.width; mk.height = off.height; mctx.clearRect(0, 0, mk.width, mk.height);
+        var gy = mctx.createLinearGradient(0, 0, 0, sh); gy.addColorStop(0, 'rgba(0,0,0,0)'); gy.addColorStop(Math.min(0.35, lh * 1.6 / sh), 'rgba(0,0,0,1)'); gy.addColorStop(0.62, 'rgba(0,0,0,1)'); gy.addColorStop(1, 'rgba(0,0,0,0)');
+        mctx.fillStyle = gy; mctx.fillRect(0, 0, sw, sh);
+        mctx.fillStyle = 'rgba(0,0,0,1)'; mctx.fillRect(sw / 2 - hw * 1.08, lh * 0.12, hw * 2.16, sh * 0.62 - lh * 0.12);
+        mctx.globalCompositeOperation = 'destination-in';
+        var gx = mctx.createLinearGradient(0, 0, sw, 0); gx.addColorStop(0, 'rgba(0,0,0,0)'); gx.addColorStop(0.24, 'rgba(0,0,0,1)'); gx.addColorStop(0.76, 'rgba(0,0,0,1)'); gx.addColorStop(1, 'rgba(0,0,0,0)');
+        mctx.fillStyle = gx; mctx.fillRect(0, 0, sw, sh);
+        var gb = mctx.createLinearGradient(0, 0, 0, sh); gb.addColorStop(0, 'rgba(0,0,0,1)'); gb.addColorStop(0.62, 'rgba(0,0,0,1)'); gb.addColorStop(1, 'rgba(0,0,0,0)');
+        mctx.fillStyle = gb; mctx.fillRect(0, 0, sw, sh);
+        mctx.globalCompositeOperation = 'source-over';
+        octx.globalCompositeOperation = 'destination-in'; octx.drawImage(mk, 0, 0); octx.globalCompositeOperation = 'source-over';
         /* drawn slightly compressed: the chin travels less than the lip, as a real jaw hinges */
         ctx.drawImage(off, sx0, sy0 + drop, sw, sh * (1 - drop / sh * 0.35));
       }

@@ -26,10 +26,10 @@ window.MT_ROPE_SIM_MEDIA = {
   "kind": "living-portrait",
   "personas": {
     "hr":      { "idle": ["../../assets/rope/interviewers/hr-idle.mp4", "../../assets/rope/interviewers/hr-idle.webm"],      "talking": ["../../assets/rope/interviewers/hr-talking.mp4", "../../assets/rope/interviewers/hr-talking.webm"],      "poster": "../../assets/rope/interviewers/hr-idle.jpg",
-                 "mouth": { "x": 322, "y": 237, "w": 44, "chin": 268, "rot": 4 } },
+                 "mouth": { "x": 324, "y": 237, "w": 44, "chin": 268, "rot": 4 } },
     "manager": { "idle": ["../../assets/rope/interviewers/manager-idle.mp4", "../../assets/rope/interviewers/manager-idle.webm"], "talking": ["../../assets/rope/interviewers/manager-talking.mp4", "../../assets/rope/interviewers/manager-talking.webm"], "poster": "../../assets/rope/interviewers/manager-idle.jpg",
                  "mouth": { "x": 191, "y": 286, "w": 24, "chin": 305, "rot": 0, "open": 0.8 } },
     "exec":    { "idle": ["../../assets/rope/interviewers/exec-idle.mp4", "../../assets/rope/interviewers/exec-idle.webm"],    "talking": ["../../assets/rope/interviewers/exec-talking.mp4", "../../assets/rope/interviewers/exec-talking.webm"],    "poster": "../../assets/rope/interviewers/exec-idle.jpg",
-                 "mouth": { "x": 348, "y": 209, "w": 44, "chin": 245, "rot": 6 } }
+                 "mouth": { "x": 348, "y": 205, "w": 42, "chin": 245, "rot": 6 } }
   }
 };
