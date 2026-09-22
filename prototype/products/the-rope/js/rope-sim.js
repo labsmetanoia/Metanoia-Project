@@ -292,9 +292,9 @@
       u.lang = lang() === 'id' ? 'id-ID' : 'en-US';
       u.rate = per.rate; u.pitch = per.pitch;
       state.lastSpoken = text;
-      u.onboundary = function () { state.lastBoundary = Date.now(); };
-      u.onstart = function () { if (tg) { tg.classList.add('talking'); tg.classList.remove('listening'); } };
-      u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (done) done(); };
+      u.onboundary = function (ev) { state.lastBoundary = Date.now(); if (state.lips) state.lips.boundary(ev); };
+      u.onstart = function () { if (tg) { tg.classList.add('talking'); tg.classList.remove('listening'); } if (state.lips) state.lips.start(text, per.rate || 1); };
+      u.onend = u.onerror = function () { if (tg) tg.classList.remove('talking'); if (state.lips) state.lips.stop(); if (done) done(); };
       window.speechSynthesis.speak(u);
     } catch (e) { if (done) done(); }
   }
@@ -402,6 +402,8 @@
   '.rsim-stage.listening:not(.talking) .stage-clips{animation:rsimListen 4.2s ease-in-out infinite}' +
   '@keyframes rsimListen{0%,100%{transform:translateY(0) scale(1)}35%{transform:translateY(1.5px) scale(1.006)}70%{transform:translateY(-1px) scale(1.003)}}' +
   '@media(prefers-reduced-motion:reduce){.rsim-stage.listening:not(.talking) .stage-clips{animation:none}}' +
+  '.rsim-stage canvas.stage-lips{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .55s ease;pointer-events:none}' +
+  '.rsim-stage.talking canvas.stage-lips{opacity:1}' +
   '.rsim-stage canvas.stage-canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}' +
   '.rsim-stage canvas.stage-canvas-visible{display:block}' +
   '.rsim-stage.listening .st-name .dot{background:#F0D878}' +
@@ -716,7 +718,145 @@
     if (media.talking && media.talking !== media.idle) { var talk = mk(media.talking, 'clip-talk'); wrap.appendChild(talk); }
     if (media.listening) { var lis = mk(media.listening, 'clip-listen'); wrap.appendChild(lis); }
     stage.classList.add('has-clips');
-    return { el: wrap, clips: clips, destroy: function () { clips.forEach(function (v) { try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} }); } };
+    var lips = (media.mouth && talk) ? lipOverlay(stage, talk, media.mouth) : null;
+    return { el: wrap, clips: clips, lips: lips, destroy: function () { if (lips) lips.destroy(); clips.forEach(function (v) { try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} }); } };
+  }
+  /* ─── LIP SYNC — the interviewer's mouth moves with the spoken question ───
+     The talking clip keeps the mouth on a fixed pixel of the 640×360 frame
+     (media.mouth declares where: x, y = lip seam, w = mouth width, chin = chin
+     line, rot = tilt in degrees). While the voice plays, a canvas above the clip
+     redraws each frame with the lower face dropped by the jaw amount, the mouth
+     interior (dark cavity, teeth) revealed between the lips, and the lips
+     rounded for O/U sounds. The amounts come from visemes: the engine's word
+     boundaries pick the word being said; its letters are walked at speaking
+     rate into jaw/round targets, smoothed frame to frame. Engines without
+     boundary events get a synthetic timeline over the whole sentence. */
+  var VISEME = { a: [0.80, 0.00], e: [0.55, 0.00], i: [0.38, 0.00], o: [0.55, 0.85], u: [0.35, 1.00], w: [0.30, 0.80], y: [0.30, 0.10],
+    m: [0.02, 0.15], b: [0.02, 0.15], p: [0.02, 0.15], f: [0.14, 0.05], v: [0.14, 0.05], l: [0.32, 0.00], r: [0.28, 0.25], s: [0.20, 0.00], z: [0.20, 0.00],
+    t: [0.24, 0.00], d: [0.24, 0.00], n: [0.24, 0.00], k: [0.30, 0.00], g: [0.30, 0.00], c: [0.24, 0.00], h: [0.36, 0.00], j: [0.26, 0.10], q: [0.30, 0.30], x: [0.22, 0.00] };
+  function lipEngine() {
+    var jaw = 0, round = 0, tj = 0, tr = 0, seq = [], active = false, text = '', rate = 1, synthetic = null, boundaries = 0, startAt = 0;
+    function msPerChar() { return 62 / rate; }
+    function schedule(word, from) {
+      seq = []; var t = from; var chars = word.toLowerCase().replace(/[^a-zÀ-ɏ']/g, '');
+      if (!chars) { seq.push({ t: from, j: 0.05, r: 0 }); return; }
+      for (var i = 0; i < chars.length; i++) {
+        var v = VISEME[chars[i]]; if (!v) v = /[aeiou]/.test(chars[i]) ? VISEME.a : VISEME.t;
+        var dur = msPerChar() * (/[aeiou]/.test(chars[i]) ? 1.35 : 0.85);
+        seq.push({ t: t, j: v[0] * (0.88 + Math.random() * 0.24), r: v[1] }); t += dur;
+      }
+      seq.push({ t: t, j: 0.06, r: 0.05 });   /* the gap between words */
+    }
+    function start(txt, r) {
+      text = String(txt || ''); rate = r || 1; active = true; boundaries = 0; startAt = performance.now();
+      /* if the engine never reports word boundaries, walk the sentence on an estimated clock */
+      synthetic = setTimeout(function () { if (active && boundaries === 0) { var t = startAt + 120; text.split(/\s+/).forEach(function (w) { var wl = w.replace(/[^a-zÀ-ɏ']/gi, '').length || 1; scheduleAppend(w, t); t += wl * msPerChar() * 1.05 + 90; }); } }, 650);
+    }
+    function scheduleAppend(word, at) { var save = seq; schedule(word, at); seq = save.concat(seq); }
+    function boundary(ev) {
+      if (!active) return; boundaries++;
+      var idx = ev && typeof ev.charIndex === 'number' ? ev.charIndex : 0;
+      var m = /^\S+/.exec(text.slice(idx)); if (!m) return;
+      schedule(m[0], performance.now());
+    }
+    function stop() { active = false; seq = []; if (synthetic) { clearTimeout(synthetic); synthetic = null; } }
+    function step(now) {
+      var target = null;
+      for (var i = seq.length - 1; i >= 0; i--) if (seq[i].t <= now) { target = seq[i]; break; }
+      if (!active) target = null;
+      if (target && seq.length && now > seq[seq.length - 1].t + 260) target = null;   /* the scheduled word ended */
+      tj = target ? target.j : 0; tr = target ? target.r : 0;
+      /* open faster than close; the rounding follows more slowly */
+      jaw += (tj - jaw) * (tj > jaw ? 0.42 : 0.28);
+      round += (tr - round) * 0.22;
+      return { jaw: jaw, round: round, active: active };
+    }
+    return { start: start, boundary: boundary, stop: stop, step: step, isActive: function () { return active; }, drive: function (txt, r) { start(txt, r); } };
+  }
+  function lipOverlay(stage, talkVideo, mouth) {
+    var cv = document.createElement('canvas'); cv.className = 'stage-lips'; cv.setAttribute('aria-hidden', 'true');
+    var ctx = cv.getContext('2d');
+    var off = document.createElement('canvas'), octx = off.getContext('2d');
+    var CW = 640, CH = 360, raf = 0, alive = true, lastW = 0, lastH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var engine = lipEngine(); state.lips = engine;
+    stage.appendChild(cv);
+    function fit() {
+      var w = stage.clientWidth, h = stage.clientHeight;
+      if (w !== lastW || h !== lastH) { lastW = w; lastH = h; cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); }
+    }
+    function frame(now) {
+      if (!alive) return;
+      raf = requestAnimationFrame(frame);
+      var talking = stage.classList.contains('talking');
+      var a = engine.step(now);
+      if (!talking && a.jaw < 0.01 && !a.active) return;   /* nothing to draw: the clips show through */
+      fit(); if (!cv.width) return;
+      var w = cv.width, h = cv.height;
+      /* the clip is object-fit: cover — map clip pixels to canvas pixels */
+      var jaw = a.jaw, rnd = a.round;
+      /* the head bobs a hair with the jaw, as heads do when people speak */
+      var sc = Math.max(w / CW, h / CH), ox = (w - CW * sc) / 2, oy = (h - CH * sc) / 2 + jaw * sc * 0.9;
+      ctx.clearRect(0, 0, w, h);
+      if (!(talkVideo.readyState >= 2)) return;
+      try { ctx.drawImage(talkVideo, ox, oy, CW * sc, CH * sc); } catch (e) { return; }
+      var mx = ox + mouth.x * sc, my = oy + mouth.y * sc, mw = mouth.w * sc, chin = oy + mouth.chin * sc;
+      var rot = (mouth.rot || 0) * Math.PI / 180;
+      var drop = jaw * mw * 0.34 * (mouth.open || 1);   /* jaw travel: about a third of the mouth width when wide open */
+      var lh = mw * 0.17;                               /* lip thickness */
+      ctx.save(); ctx.translate(mx, my); ctx.rotate(rot);
+      if (drop > 0.4) {
+        /* 1. the mouth cavity: a lens between the lip corners, from just under the upper lip
+              to where the lower lip will sit once the jaw has dropped; soft-edged so it reads
+              as behind the lips rather than painted on them */
+        var hw = mw * 0.5 * (1 - rnd * 0.42), top = lh * 0.08, bot = drop + lh * 0.55;
+        var lens = function () { ctx.beginPath(); ctx.moveTo(-hw, top * 0.6); ctx.quadraticCurveTo(0, top - lh * 0.12, hw, top * 0.6); ctx.quadraticCurveTo(0, bot + lh * 0.4, -hw, top * 0.6); ctx.closePath(); };
+        ctx.save(); lens(); ctx.clip();
+        var cav = ctx.createLinearGradient(0, top, 0, bot); cav.addColorStop(0, '#2A0F0E'); cav.addColorStop(0.45, '#150605'); cav.addColorStop(1, '#3A1A17');
+        ctx.fillStyle = cav; ctx.fillRect(-hw, top - lh, hw * 2, bot + lh * 2);
+        if (jaw > 0.3) { /* upper teeth: a soft, narrow band right under the upper lip */
+          var ta = Math.min(0.78, (jaw - 0.3) * 2.2), th = Math.min(drop * 0.32, lh * 0.5);
+          ctx.fillStyle = 'rgba(232,222,208,' + ta + ')';
+          ctx.beginPath(); ctx.moveTo(-hw * 0.72, top + lh * 0.05); ctx.lineTo(hw * 0.72, top + lh * 0.05); ctx.quadraticCurveTo(hw * 0.7, top + th + lh * 0.05, hw * 0.55, top + th + lh * 0.05); ctx.lineTo(-hw * 0.55, top + th + lh * 0.05); ctx.quadraticCurveTo(-hw * 0.7, top + th + lh * 0.05, -hw * 0.72, top + lh * 0.05); ctx.closePath(); ctx.fill();
+        }
+        if (jaw > 0.5) { /* tongue hint low in the cavity when wide open */
+          ctx.fillStyle = 'rgba(140,58,54,' + Math.min(0.6, (jaw - 0.5) * 1.8) + ')'; ctx.beginPath(); ctx.ellipse(0, bot * 0.8, hw * 0.55, drop * 0.28, 0, 0, Math.PI * 2); ctx.fill();
+        }
+        ctx.restore();
+        /* the cavity's edge melts into the lips */
+        ctx.save(); ctx.shadowColor = 'rgba(30,10,8,.9)'; ctx.shadowBlur = Math.max(1.5, mw * 0.06); ctx.fillStyle = 'rgba(30,10,8,.35)'; lens(); ctx.fill(); ctx.restore();
+        /* 2. the lower face slides down with the jaw, through a feathered mask so no seam shows;
+              its feathered top edge lets the moved lower lip sit softly over the cavity */
+        var sx0 = -mw * 1.7, sy0 = -lh * 0.05, sw = mw * 3.4, sh = (chin - my) * 1.45;
+        off.width = Math.ceil(sw); off.height = Math.ceil(sh);
+        octx.clearRect(0, 0, off.width, off.height);
+        /* off-canvas pixel (u - sx0, v - sy0) holds the stage pixel at R(rot)·(u, v) + (mx, my) */
+        octx.save(); octx.translate(-sx0, -sy0); octx.rotate(-rot); octx.translate(-mx, -my);
+        octx.drawImage(talkVideo, ox, oy, CW * sc, CH * sc); octx.restore();
+        octx.globalCompositeOperation = 'destination-in';
+        var gx = octx.createLinearGradient(0, 0, sw, 0); gx.addColorStop(0, 'rgba(0,0,0,0)'); gx.addColorStop(0.22, 'rgba(0,0,0,1)'); gx.addColorStop(0.78, 'rgba(0,0,0,1)'); gx.addColorStop(1, 'rgba(0,0,0,0)');
+        octx.fillStyle = gx; octx.fillRect(0, 0, sw, sh);
+        var gy = octx.createLinearGradient(0, 0, 0, sh); gy.addColorStop(0, 'rgba(0,0,0,0)'); gy.addColorStop(Math.min(0.3, lh * 0.45 / sh), 'rgba(0,0,0,1)'); gy.addColorStop(0.62, 'rgba(0,0,0,1)'); gy.addColorStop(1, 'rgba(0,0,0,0)');
+        octx.fillStyle = gy; octx.fillRect(0, 0, sw, sh);
+        octx.globalCompositeOperation = 'source-over';
+        /* drawn slightly compressed: the chin travels less than the lip, as a real jaw hinges */
+        ctx.drawImage(off, sx0, sy0 + drop, sw, sh * (1 - drop / sh * 0.35));
+      }
+      /* 3. rounding for O / U / W: the mouth region narrows toward the centre */
+      if (rnd > 0.05) {
+        var bx = -mw * 0.95, by = -lh * 1.9, bw = mw * 1.9, bh = lh * 3.8 + drop;
+        off.width = Math.ceil(bw); off.height = Math.ceil(bh); octx.clearRect(0, 0, off.width, off.height);
+        octx.save(); octx.translate(-bx, -by); octx.rotate(-rot); octx.translate(-mx, -my);
+        octx.drawImage(cv, 0, 0); octx.restore();
+        octx.globalCompositeOperation = 'destination-in';
+        var rg = octx.createRadialGradient(bw / 2, bh / 2, Math.min(bw, bh) * 0.25, bw / 2, bh / 2, Math.max(bw, bh) * 0.55); rg.addColorStop(0, 'rgba(0,0,0,1)'); rg.addColorStop(1, 'rgba(0,0,0,0)');
+        octx.fillStyle = rg; octx.fillRect(0, 0, bw, bh); octx.globalCompositeOperation = 'source-over';
+        var k = 1 - rnd * 0.24;
+        ctx.drawImage(off, bx * k, by, bw * k, bh);
+      }
+      ctx.restore();
+    }
+    raf = requestAnimationFrame(frame);
+    return { el: cv, engine: engine, destroy: function () { alive = false; cancelAnimationFrame(raf); if (state.lips === engine) state.lips = null; } };
   }
   function videoInterviewer(per, photo, stage) {
     var W = 640, Hh = 300;
@@ -986,8 +1126,8 @@
 
     var integ = el('div', 'rsim-card');
     integ.innerHTML = '<div class="rsim-integrity"><b>' + T('Interview integrity', 'Integritas wawancara') + '</b>' +
-      T('A human interviewer on video asks and listens; Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
-        'Pewawancara manusia dalam video bertanya dan mendengarkan; Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
+      T('A human interviewer on video asks and listens, lips moving with the spoken question; Live Guidance coaches you <em>inside the simulator</em> — structure lights, key points and nudges while you rehearse, on your device. Metanoia deliberately does not offer a live in-interview "copilot" that feeds you answers during a real assessment: it undermines fair evaluation, usually violates employer policy, and builds nothing you keep. Confidence is not assumed — it is built through practice. Everything here runs on your device; your voice and video never leave this browser.',
+        'Pewawancara manusia dalam video bertanya dan mendengarkan, bibirnya bergerak seiring pertanyaan yang diucapkan; Panduan Langsung melatihmu <em>di dalam simulator</em> — lampu struktur, poin kunci, dan pengingat saat kamu berlatih, di perangkatmu. Metanoia sengaja tidak menyediakan "copilot" yang membisikkan jawaban saat asesmen sungguhan: itu merusak penilaian yang adil, umumnya melanggar kebijakan pemberi kerja, dan tidak membangun apa pun yang kamu miliki. Kepercayaan diri tidak diandaikan — ia dibangun lewat latihan. Semua berjalan di perangkatmu; suara dan videomu tidak pernah meninggalkan peramban ini.') + '</div>';
     w.appendChild(integ);
   }
 
@@ -1949,5 +2089,5 @@
     if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null);
   });
 
-  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, _analyse: analyseAnswer };
+  window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, _analyse: analyseAnswer, _lips: function () { return state.lips; } };
 })();
