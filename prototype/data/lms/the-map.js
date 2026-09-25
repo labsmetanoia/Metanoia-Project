@@ -5330,8 +5330,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film kasus"
        },
        "intro": {
-        "en": "The film picks up the slide: SodaComp, based in Bonn, five months from a three-percent target. Watch how the marketing team keeps its problem question in front of it, drills down into an issue tree, and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below, where the same method is laid out for goals.",
-        "id": "Film ini melanjutkan slide tadi: SodaComp, yang berbasis di Bonn, lima bulan menjelang target tiga persen. Perhatikan bagaimana tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
+        "en": "Two films pick up the slide. The first tells the SodaComp story: based in Bonn, five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. The second, from two practitioners, walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation the organisation can mobilise behind. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
+        "id": "Dua film melanjutkan slide tadi. Film pertama menceritakan kisah SodaComp: berbasis di Bonn, lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Film kedua, dari dua praktisi, memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih sekadar ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan organisasi. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
        },
        "outro": {
         "title": {
@@ -5350,6 +5350,10 @@ window.MT_LMS['the-map'] = {
          {
           "en": "A tree shared with the decision-maker, with the research behind it, earns the go-ahead — and sets up the next question: what exactly do we recommend, and what happens next?",
           "id": "Pohon yang dibagikan kepada pengambil keputusan, beserta riset di baliknya, mendapatkan lampu hijau — dan memunculkan pertanyaan berikutnya: apa tepatnya yang kita rekomendasikan, dan apa langkah selanjutnya?"
+         },
+         {
+          "en": "A summary recounts what you did; a synthesis states the integrated “so what”. The recommendation is what must actually be done to realise the impact — and winning the organisation’s buy-in is half the battle, so keep challenging your own early “so what” for confirmation bias.",
+          "id": "Ringkasan menceritakan apa yang kamu lakukan; sintesis menyatakan “lalu kenapa” yang terpadu. Rekomendasi adalah apa yang benar-benar harus dilakukan untuk mewujudkan dampaknya — dan memenangkan dukungan organisasi adalah separuh perjuangan, jadi teruslah menguji “lalu kenapa” awalmu terhadap bias konfirmasi."
          }
         ]
        },
@@ -5365,6 +5369,19 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/recommendation-1-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-1-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/recommendation-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/recommendation-2-poster.jpg",
+         "dur": "3:08",
+         "title": {
+          "en": "How do you arrive at a recommendation? Plan, analyse, synthesise, recommend",
+          "id": "Bagaimana tiba pada rekomendasi? Rencanakan, analisis, sintesis, rekomendasikan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/recommendation-2-en.vtt",
+          "id": "../../assets/lms/the-map/recommendation-2-id.vtt"
          }
         }
        ]
