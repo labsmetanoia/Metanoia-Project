@@ -14797,6 +14797,66 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for recommendation-1: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-2.mp4",
+      "bytes": 19860412,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"How do you arrive at a recommendation.mp4\" (two presenters on camera); moved to this path for filename hygiene, bytes unchanged",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 source video. Not played directly — see the -brand.mp4 re-encode."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-2-brand.mp4",
+      "bytes": 21424396,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of recommendation-2.mp4 (scripts/brand-grade-videos.py --set recommendation 2). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-2-poster.jpg",
+      "bytes": 50033,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded recommendation-2-brand.mp4 (title card). Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-2-en.vtt",
+      "bytes": 4448,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for recommendation-2: transcribed from the presenters (Whisper small.en via sherpa-onnx, corrected by hand)."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-2-id.vtt",
+      "bytes": 4599,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for recommendation-2: translated in-repo from the English transcript."
     }
   ]
 }
