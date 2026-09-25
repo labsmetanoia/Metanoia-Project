@@ -5028,8 +5028,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menuju Sintesis — Materi"
        },
        "intro": {
-        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable — ownership, buy-in, timeline — and appropriate for the organisation. Read them, then watch the six films below.",
-        "id": "Empat slide menutup lingkaran dari analisis ke tindakan. Slide pertama mendefinisikan “so what”: sintesis adalah perspektif terhadap analisis, bukan ringkasannya. Slide kedua menunjukkan kapan melatih sintesis, mengapa penting, dan empat kebiasaan untuk menjadi lebih baik. Slide ketiga kembali ke suara focus group SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebutkan apa yang membuat rekomendasi kuat: dapat dijalankan — kepemilikan, dukungan, timeline — dan tepat sasaran bagi organisasi. Bacalah, lalu tonton enam film di bawahnya."
+        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable — ownership, buy-in, timeline — and appropriate for the organisation. Read them, then continue to the Key Takeaways deck and the seven films below.",
+        "id": "Empat slide menutup lingkaran dari analisis ke tindakan. Slide pertama mendefinisikan “so what”: sintesis adalah perspektif terhadap analisis, bukan ringkasannya. Slide kedua menunjukkan kapan melatih sintesis, mengapa penting, dan empat kebiasaan untuk menjadi lebih baik. Slide ketiga kembali ke suara focus group SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebutkan apa yang membuat rekomendasi kuat: dapat dijalankan — kepemilikan, dukungan, timeline — dan tepat sasaran bagi organisasi. Bacalah, lalu lanjutkan ke dek Poin-poin Utama dan tujuh film di bawahnya."
        },
        "base": "../../assets/lms/the-map/slides/synthesis-",
        "slides": [
@@ -5071,6 +5071,43 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Step 6 · Recommendations. Making a strong recommendation that is actionable and appropriate. 1. After synthesis, the next step is to make a recommendation. 2. To make a strong recommendation, you need to ensure that the recommendation is actionable (there is clear ownership, buy-in, and a timeline for delivery) and appropriate (the solution is right for the organization). 3. We will explore forming recommendations and help you practice within the Communicating for Impact module ahead. The climb: synthesis (turn analysis into key insights) → actionable (clear ownership, buy-in, and timeline) → appropriate (right solution for the context) → impact (real value for the organization). What makes a strong recommendation? Actionable — can be implemented in practice: clear ownership; stakeholder buy-in; defined timeline for delivery. Appropriate — right solution for the organization: aligned with strategic objectives; feasible given constraints; creates real value for the business. Key takeaway: a strong recommendation turns insights into action by being both actionable and appropriate.",
           "id": "Langkah 6 · Rekomendasi. Membuat rekomendasi yang kuat, yang dapat dijalankan dan tepat sasaran. 1. Setelah melakukan sintesis, langkah selanjutnya adalah membuat rekomendasi. 2. Untuk membuat rekomendasi yang kuat, Anda perlu memastikan bahwa rekomendasi tersebut dapat dijalankan (ada kejelasan kepemilikan, dukungan dari pemangku kepentingan, dan timeline pelaksanaan) dan tepat sasaran (solusi yang diberikan sesuai dengan kebutuhan organisasi). 3. Kita akan membahas cara menyusun rekomendasi dan membantu Anda berlatih dalam modul Communicating for Impact selanjutnya. Pendakiannya: sintesis (mengubah analisis menjadi insight utama) → dapat dijalankan (kejelasan kepemilikan, dukungan pemangku kepentingan, dan timeline) → tepat sasaran (solusi yang sesuai dengan kebutuhan organisasi) → dampak (memberikan nilai nyata bagi organisasi). Apa yang membuat rekomendasi yang kuat? Dapat dijalankan — dapat diimplementasikan dalam praktik: kejelasan kepemilikan (ownership); dukungan dari pemangku kepentingan; timeline yang jelas untuk pelaksanaan. Tepat sasaran — solusi yang sesuai untuk organisasi: selaras dengan tujuan strategis; layak dilakukan dengan mempertimbangkan batasan yang ada; menciptakan nilai nyata bagi bisnis. Kesimpulan utama: rekomendasi yang kuat mengubah insight menjadi aksi dengan memastikan rekomendasi tersebut dapat dijalankan dan tepat sasaran."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 2 slides",
+        "id": "Baca berikutnya · 2 slide"
+       },
+       "title": {
+        "en": "Key Takeaways — Material",
+        "id": "Poin-poin Utama — Materi"
+       },
+       "intro": {
+        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold — the Work Plan Worksheet, synthesising, and developing a recommendation — and points to further material. The second summarises the hypothesis-led path: define the problem, break it down and structure it, plan towards a solution — and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree. Read them, then watch the seven films below.",
+        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang kini kamu pegang — Lembar Kerja Rencana Kerja, sintesis, dan menyusun rekomendasi — dan menunjuk ke materi lanjutan. Slide kedua merangkum jalur berbasis hipotesis: mendefinisikan masalah, memecah dan menyusunnya, merencanakan langkah menuju solusi — dan memintamu membawanya ke keputusan sehari-harimu dengan pernyataan masalah dan pohon isu. Bacalah, lalu tonton tujuh film di bawahnya."
+       },
+       "base": "../../assets/lms/the-map/slides/takeaways-",
+       "slides": [
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Poin-poin utama yang perlu diingat"
+         },
+         "text": {
+          "en": "Module wrap-up. Key takeaways: in this module, we have covered the following key tools. 1. Work Plan Worksheet — use this to develop effective work plans and organize all the work that needs to get done to reach a solution (define objectives, plan key analyses, set timeline, track progress). 2. Synthesizing — use this to bring together all of your findings and form your own perspective on the analysis and what it means for the problem being solved (key findings + your perspective → clear insights). 3. Developing a recommendation — use this to clearly tell others what you believe needs to happen in order to solve the problem based on the insights from your analysis (insights from analysis → recommended actions → real impact). From insights to action. Resources — you may also wish to explore: “How to use experts — and when not to”, a TED talk.",
+          "id": "Rangkuman modul. Poin-poin utama yang perlu diingat: dalam modul ini, kita telah membahas beberapa alat utama berikut. 1. Lembar Kerja Rencana Kerja — gunakan alat ini untuk menyusun rencana kerja yang efektif dan mengorganisir seluruh pekerjaan yang perlu dilakukan untuk mencapai solusi (tentukan tujuan, analisis kunci, tetapkan timeline, pantau progres). 2. Sintesis — gunakan alat ini untuk menggabungkan seluruh temuan Anda dan membentuk perspektif Anda sendiri terhadap analisis serta apa artinya bagi masalah yang sedang dipecahkan (temuan utama + perspektif Anda → insight yang jelas). 3. Menyusun rekomendasi — gunakan alat ini untuk menyampaikan dengan jelas apa yang Anda yakini perlu dilakukan oleh orang lain untuk menyelesaikan masalah, berdasarkan insight dari analisis Anda (insight dari analisis → rekomendasi aksi → dampak nyata). Dari insight menuju aksi nyata. Sumber belajar — Anda juga dapat mengeksplorasi: “Cara menggunakan ahli — dan kapan tidak”, sebuah TED Talk."
+         }
+        },
+        {
+         "title": {
+          "en": "In summary…",
+          "id": "Inti pembelajaran dalam modul ini…"
+         },
+         "text": {
+          "en": "Module wrap-up. In summary… you have built a strong foundation in applying a hypothesis-led problem solving approach — from complex problems to clear solutions. In this course, you have learned how to utilize the hypothesis-led problem solving approach to: 1. Define the problem — define the problem you are faced with using different tools and templates. 2. Break down and structure — break down and structure the problem in a way that will help you reach a solution. 3. Plan towards a solution — plan your way towards finding a recommended solution. Putting it into practice: we hope that you can apply some of the lessons learned to your day-to-day life decisions, whether it’s using the Problem Statement Worksheet to help organize your thoughts and approach for a problem, or drawing an issue tree to break a complex problem down into more manageable pieces.",
+          "id": "Rangkuman modul. Inti pembelajaran dalam modul ini… Anda telah membangun fondasi yang kuat untuk menerapkan pendekatan pemecahan masalah berbasis hipotesis — dari masalah yang kompleks menuju solusi yang jelas. Dalam modul ini, Anda telah mempelajari cara menggunakan pendekatan pemecahan masalah berbasis hipotesis untuk: 1. Mendefinisikan masalah — menggunakan berbagai alat dan template untuk mendefinisikan masalah yang sedang Anda hadapi. 2. Memecah dan menyusun masalah — memecah dan menyusun masalah dengan cara yang membantu Anda mencapai solusi. 3. Merencanakan langkah menuju solusi — menyusun rencana langkah Anda dalam menemukan solusi yang direkomendasikan. Menerapkan dalam kehidupan sehari-hari: kami berharap Anda dapat menerapkan sebagian dari pembelajaran ini dalam keputusan sehari-hari, baik dengan menggunakan Lembar Kerja Pernyataan Masalah untuk membantu mengorganisir pemikiran dan pendekatan Anda terhadap suatu masalah, ataupun dengan membuat pohon isu (issue tree) untuk memecah masalah kompleks menjadi bagian-bagian yang lebih mudah dikelola."
          }
         }
        ]
@@ -5495,14 +5532,14 @@ window.MT_LMS['the-map'] = {
       },
       {
        "key": "recommendation",
-       "placement": "after-material:8",
+       "placement": "after-material:9",
        "kicker": {
         "en": "Watch next · Case films",
         "id": "Tonton berikutnya · Film kasus"
        },
        "intro": {
-        "en": "Six films pick up the decks. The first tells the SodaComp story: based in Bonn, five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses before taking the tree to the CEO. The second, from two practitioners, walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation the organisation can mobilise behind. The third shows how a work plan grows out of the issue tree and why knowing the decision-maker’s burden of proof from day one saves weeks. The fourth is about conducting the analysis itself: not missing the forest for the trees, sanity-checking results, precision versus accuracy, knowing when to stop. The fifth explains synthesis against summary with a dinner-that-ran-late text message: the summary is the facts, the synthesis is “I’m going to be late”. The sixth turns synthesis into a recommendation that is appropriate for the organisation and actionable — owners, buy-in, resources — and argues for carving out time to get it right. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
-        "id": "Enam film melanjutkan dek-dek tadi. Film pertama menceritakan kisah SodaComp: berbasis di Bonn, lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis sebelum membawa pohon itu ke CEO. Film kedua, dari dua praktisi, memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih sekadar ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan organisasi. Film ketiga menunjukkan bagaimana rencana kerja tumbuh dari pohon isu dan mengapa mengetahui beban pembuktian si pengambil keputusan sejak hari pertama menghemat berminggu-minggu. Film keempat tentang menjalankan analisisnya sendiri: tidak kehilangan hutan karena terpaku pada pohon, mengecek kewajaran hasil, presisi versus akurasi, tahu kapan berhenti. Film kelima menjelaskan sintesis versus ringkasan lewat pesan tentang makan malam yang terlambat: ringkasan adalah faktanya, sintesis adalah “aku akan terlambat”. Film keenam mengubah sintesis menjadi rekomendasi yang tepat bagi organisasi dan dapat dijalankan — penanggung jawab, dukungan, sumber daya — dan menganjurkan menyediakan waktu untuk mengerjakannya dengan benar. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
+        "en": "Seven films pick up the decks. The first tells the SodaComp story: five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses before taking the tree to the CEO. The second walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation. The third shows how a work plan grows out of the issue tree and why the decision-maker’s burden of proof matters from day one. The fourth is about conducting the analysis: not missing the forest for the trees, sanity-checking, precision versus accuracy, knowing when to stop. The fifth explains synthesis against summary with a dinner-that-ran-late text message. The sixth turns synthesis into a recommendation that is appropriate and actionable. The seventh is the wrap-up: the two presenters look back over the course and ask you to take the structured approach into your Monday morning — simple, practical, executable. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
+        "id": "Tujuh film melanjutkan dek-dek tadi. Film pertama menceritakan kisah SodaComp: lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis sebelum membawa pohon itu ke CEO. Film kedua memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih ringkasan, lalu mengubahnya menjadi rekomendasi. Film ketiga menunjukkan bagaimana rencana kerja tumbuh dari pohon isu dan mengapa beban pembuktian si pengambil keputusan penting sejak hari pertama. Film keempat tentang menjalankan analisis: tidak kehilangan hutan karena terpaku pada pohon, mengecek kewajaran, presisi versus akurasi, tahu kapan berhenti. Film kelima menjelaskan sintesis versus ringkasan lewat pesan tentang makan malam yang terlambat. Film keenam mengubah sintesis menjadi rekomendasi yang tepat sasaran dan dapat dijalankan. Film ketujuh adalah penutup: kedua pembicara menoleh ke belakang sepanjang kursus dan memintamu membawa pendekatan terstruktur ini ke Senin pagimu — sederhana, praktis, bisa dijalankan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
        },
        "outro": {
         "title": {
@@ -5537,6 +5574,10 @@ window.MT_LMS['the-map'] = {
          {
           "en": "Summary restates the facts; synthesis states what they mean and what to do — “I’m going to be late for dinner”. A recommendation then has to be appropriate for the organisation and actionable, with owners, buy-in and resources named. Budget real time for that last step; it is where most of the work’s value is won or lost.",
           "id": "Ringkasan menyatakan ulang faktanya; sintesis menyatakan maknanya dan apa yang harus dilakukan — “aku akan terlambat untuk makan malam”. Rekomendasi kemudian harus tepat bagi organisasi dan dapat dijalankan, dengan penanggung jawab, dukungan, dan sumber daya yang disebutkan. Sediakan waktu yang nyata untuk langkah terakhir itu; di sanalah sebagian besar nilai pekerjaan dimenangkan atau hilang."
+         },
+         {
+          "en": "The method is a structure, not a checklist: its value is in applying it to your own and your team’s day-to-day, starting Monday morning. Beyond the recommendation, keep the answer simple, practical and executable — that is where the impact is realised.",
+          "id": "Metode ini adalah struktur, bukan daftar centang: nilainya ada pada penerapannya di keseharianmu dan timmu, mulai Senin pagi. Melampaui rekomendasi, jaga jawabannya tetap sederhana, praktis, dan bisa dijalankan — di situlah dampaknya terwujud."
          }
         ]
        },
@@ -5617,6 +5658,19 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/recommendation-6-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-6-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/recommendation-7-brand.mp4",
+         "poster": "../../assets/lms/the-map/recommendation-7-poster.jpg",
+         "dur": "1:20",
+         "title": {
+          "en": "Wrap-up and reflection: take it into Monday morning",
+          "id": "Penutup dan refleksi: bawa ke Senin pagi"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/recommendation-7-en.vtt",
+          "id": "../../assets/lms/the-map/recommendation-7-id.vtt"
          }
         }
        ]
