@@ -5326,12 +5326,12 @@ window.MT_LMS['the-map'] = {
        "key": "recommendation",
        "placement": "after-material:5",
        "kicker": {
-        "en": "Watch next · Case film",
+        "en": "Watch next · Case films",
         "id": "Tonton berikutnya · Film kasus"
        },
        "intro": {
-        "en": "Two films pick up the slide. The first tells the SodaComp story: based in Bonn, five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. The second, from two practitioners, walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation the organisation can mobilise behind. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
-        "id": "Dua film melanjutkan slide tadi. Film pertama menceritakan kisah SodaComp: berbasis di Bonn, lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Film kedua, dari dua praktisi, memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih sekadar ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan organisasi. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
+        "en": "Three films pick up the slide. The first tells the SodaComp story: based in Bonn, five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. The second, from two practitioners, walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation the organisation can mobilise behind. The third shows how a work plan grows out of the issue tree — hypothesis, rationale, analysis, source of insight, then timing, owners and interdependencies — and why knowing the decision-maker’s burden of proof from day one saves weeks. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
+        "id": "Tiga film melanjutkan slide tadi. Film pertama menceritakan kisah SodaComp: berbasis di Bonn, lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Film kedua, dari dua praktisi, memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih sekadar ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan organisasi. Film ketiga menunjukkan bagaimana rencana kerja tumbuh dari pohon isu — hipotesis, alasan, analisis, sumber wawasan, lalu waktu, penanggung jawab, dan saling ketergantungan — dan mengapa mengetahui beban pembuktian si pengambil keputusan sejak hari pertama menghemat berminggu-minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
        },
        "outro": {
         "title": {
@@ -5354,6 +5354,10 @@ window.MT_LMS['the-map'] = {
          {
           "en": "A summary recounts what you did; a synthesis states the integrated “so what”. The recommendation is what must actually be done to realise the impact — and winning the organisation’s buy-in is half the battle, so keep challenging your own early “so what” for confirmation bias.",
           "id": "Ringkasan menceritakan apa yang kamu lakukan; sintesis menyatakan “lalu kenapa” yang terpadu. Rekomendasi adalah apa yang benar-benar harus dilakukan untuk mewujudkan dampaknya — dan memenangkan dukungan organisasi adalah separuh perjuangan, jadi teruslah menguji “lalu kenapa” awalmu terhadap bias konfirmasi."
+         },
+         {
+          "en": "A work plan is the issue tree turned into action: for every end node, a hypothesis, the rationale that would make it true, the analysis that tests it and the source of insight — then timing, owners and interdependencies. Ask the decision-maker’s burden of proof first, so you neither under-deliver nor over-analyse.",
+          "id": "Rencana kerja adalah pohon isu yang diubah menjadi tindakan: untuk setiap simpul ujung, sebuah hipotesis, alasan yang akan membuatnya benar, analisis yang mengujinya, dan sumber wawasannya — lalu waktu, penanggung jawab, dan saling ketergantungan. Tanyakan beban pembuktian si pengambil keputusan lebih dulu, agar kamu tidak kurang menyampaikan maupun berlebihan menganalisis."
          }
         ]
        },
@@ -5382,6 +5386,19 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/recommendation-2-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-2-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/recommendation-3-brand.mp4",
+         "poster": "../../assets/lms/the-map/recommendation-3-poster.jpg",
+         "dur": "2:26",
+         "title": {
+          "en": "Developing work plans: from issue tree to burden of proof",
+          "id": "Menyusun rencana kerja: dari pohon isu ke beban pembuktian"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/recommendation-3-en.vtt",
+          "id": "../../assets/lms/the-map/recommendation-3-id.vtt"
          }
         }
        ]

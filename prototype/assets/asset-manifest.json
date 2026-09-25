@@ -14824,15 +14824,15 @@
     },
     {
       "file": "assets/lms/the-map/recommendation-2-poster.jpg",
-      "bytes": 50033,
+      "bytes": 53929,
       "category": "graphic",
-      "people": "no",
+      "people": "yes",
       "source": "",
       "licence": "",
       "licence_proof": "",
       "model_release": "",
       "status": "undocumented",
-      "notes": "Poster frame extracted in-repo from the brand-graded recommendation-2-brand.mp4 (title card). Licence follows the source video."
+      "notes": "Poster frame extracted in-repo from the brand-graded recommendation-2-brand.mp4 (presenter, 2 s). Licence and model release follow the source video."
     },
     {
       "file": "assets/lms/the-map/recommendation-2-en.vtt",
@@ -14857,6 +14857,66 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for recommendation-2: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-3.mp4",
+      "bytes": 14267776,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Developing work plans.mp4\" (a presenter on camera with animated inserts); moved to this path for filename hygiene, bytes unchanged",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 source video. Not played directly — see the -brand.mp4 re-encode."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-3-brand.mp4",
+      "bytes": 18335533,
+      "category": "video",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of recommendation-3.mp4 (scripts/brand-grade-videos.py --set recommendation 3). Picture only; audio is a bit-exact copy. Licence and model release follow the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-3-poster.jpg",
+      "bytes": 67967,
+      "category": "graphic",
+      "people": "yes",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded recommendation-3-brand.mp4 (presenter, 9 s). Licence and model release follow the source video."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-3-en.vtt",
+      "bytes": 2791,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for recommendation-3: transcribed from the presenter (Whisper small.en via sherpa-onnx, corrected by hand)."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-3-id.vtt",
+      "bytes": 2662,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for recommendation-3: translated in-repo from the English transcript."
     }
   ]
 }
