@@ -14665,6 +14665,138 @@
       "model_release": "",
       "status": "undocumented",
       "notes": "The Rope · Interview Simulator interim interviewer clip; the stage animates the lips over it in time with the spoken question (mouth geometry in data/rope/media.js). Replace with recorded footage via data/rope/media.js."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-en-01.jpg",
+      "bytes": 228246,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - English.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (English). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-en-01-960.jpg",
+      "bytes": 99200,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - English.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (English). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-en-01-320.jpg",
+      "bytes": 17476,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - English.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (English). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-id-01.jpg",
+      "bytes": 244343,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (Bahasa Indonesia). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-id-01-960.jpg",
+      "bytes": 106557,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (Bahasa Indonesia). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/recommendation-id-01-320.jpg",
+      "bytes": 18663,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph of people); page rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 slide material \"Arriving at a Recommendation\" (Bahasa Indonesia). Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-1.mp4",
+      "bytes": 7675935,
+      "category": "video",
+      "people": "no",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-25 as \"Arriving at a recommendation.mp4\" (animated explainer with narration); moved to this path for filename hygiene, bytes unchanged",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 3 · 3.3 source video. Not played directly — see the -brand.mp4 re-encode."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-1-brand.mp4",
+      "bytes": 6740281,
+      "category": "video",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded re-encode of recommendation-1.mp4 (scripts/brand-grade-videos.py --set recommendation): warm-paper highlights, navy shadows, gold split-tone, soft vignette. Picture only; audio is a bit-exact copy. Licence follows the source video. This is the file the lesson plays."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-1-poster.jpg",
+      "bytes": 42190,
+      "category": "graphic",
+      "people": "no",
+      "source": "",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame extracted in-repo from the brand-graded recommendation-1-brand.mp4. Licence follows the source video."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-1-en.vtt",
+      "bytes": 1766,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for recommendation-1: transcribed from the narration (Whisper small.en via sherpa-onnx, corrected by hand)."
+    },
+    {
+      "file": "assets/lms/the-map/recommendation-1-id.vtt",
+      "bytes": 1793,
+      "category": "own-artwork",
+      "people": "no",
+      "source": "Metanoia Labs (created in-repo)",
+      "licence": "Owned",
+      "licence_proof": "n/a — authored for this project",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for recommendation-1: translated in-repo from the English transcript."
     }
   ]
 }

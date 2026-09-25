@@ -4876,6 +4876,33 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Arriving at a Recommendation — Material",
+        "id": "Tiba pada Rekomendasi — Materi"
+       },
+       "intro": {
+        "en": "One slide opens the SodaComp case: a soft-drink company whose CEO wants three percent more European market share by year-end. Read the challenge and the four terms the case leans on — market share, marketing team, channel strategy, product development — then watch the film below, where the team turns its problem question into an issue tree and two prioritised hypotheses. It is the bridge from analysis to a recommendation the CEO can act on.",
+        "id": "Satu slide membuka kasus SodaComp: perusahaan minuman bersoda yang CEO-nya ingin pangsa pasar Eropa naik tiga persen sebelum akhir tahun. Baca tantangannya dan empat istilah yang menopang kasus ini — pangsa pasar, tim pemasaran, strategi saluran, pengembangan produk — lalu tonton film di bawahnya, saat tim mengubah pertanyaan masalahnya menjadi pohon isu dan dua hipotesis prioritas. Inilah jembatan dari analisis menuju rekomendasi yang bisa ditindaklanjuti CEO."
+       },
+       "base": "../../assets/lms/the-map/slides/recommendation-",
+       "slides": [
+        {
+         "title": {
+          "en": "Arriving at a recommendation — Three percent by year-end or bust!",
+          "id": "Tiba pada rekomendasi — Tiga persen dalam setahun atau gagal total!"
+         },
+         "text": {
+          "en": "Applying your analysis. Arriving at a recommendation: turn your analysis into clear, actionable recommendations that create impact. Three percent by year-end or bust! The SodaComp team is working on an exciting challenge — the film below tells the story. Key concept definitions mentioned throughout the scenario. Market share: the number of people who buy a business’s product. Marketing team: the team that creates awareness and excitement for a product through ideas like advertisements and promotions. Channel strategy: the process of choosing certain marketing channels to reach the target audience (e.g. TV advertisement, website, online store). Product development: the steps that occur for a product to be created (design, development, marketing, etc.).",
+          "id": "Menerapkan analisis Anda. Tiba pada rekomendasi: ubah hasil analisis Anda menjadi rekomendasi yang jelas, konkret, dan berdampak. Tiga persen dalam setahun atau gagal total! Tim SodaComp sedang mengerjakan sebuah tantangan menarik — film di bawah menceritakannya. Definisi konsep utama yang disebutkan dalam skenario. Pangsa pasar: jumlah orang yang membeli produk suatu bisnis. Tim pemasaran: tim yang menciptakan kesadaran dan antusiasme terhadap suatu produk melalui ide-ide seperti iklan dan promosi. Strategi saluran: proses memilih saluran pemasaran tertentu untuk menjangkau audiens target (misalnya iklan TV, situs web, toko daring). Pengembangan produk: tahapan yang terjadi agar suatu produk dapat dibuat (desain, pengembangan, pemasaran, dan lain-lain)."
+         }
+        }
+       ]
       }
      ],
      "diagram": {
@@ -5291,6 +5318,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/the-prioritization-matrix-en.vtt",
           "id": "../../assets/lms/the-map/the-prioritization-matrix-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "recommendation",
+       "placement": "after-material:5",
+       "kicker": {
+        "en": "Watch next · Case film",
+        "id": "Tonton berikutnya · Film kasus"
+       },
+       "intro": {
+        "en": "The film picks up the slide: SodaComp, based in Bonn, five months from a three-percent target. Watch how the marketing team keeps its problem question in front of it, drills down into an issue tree, and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below, where the same method is laid out for goals.",
+        "id": "Film ini melanjutkan slide tadi: SodaComp, yang berbasis di Bonn, lima bulan menjelang target tiga persen. Perhatikan bagaimana tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: from question to recommendation",
+         "id": "Poin penting: dari pertanyaan ke rekomendasi"
+        },
+        "body": [
+         {
+          "en": "A problem question written down — “How can SodaComp improve its European market share by 3% by the end of the year?” — is what keeps weeks of work pointed at one target.",
+          "id": "Pertanyaan masalah yang ditulis — “Bagaimana SodaComp bisa menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun?” — adalah yang menjaga kerja berminggu-minggu tetap mengarah pada satu sasaran."
+         },
+         {
+          "en": "Drilling the question into an issue tree turns one big worry into branches you can research; prioritising picks the two branches most likely to move the number.",
+          "id": "Menggali pertanyaan menjadi pohon isu mengubah satu kekhawatiran besar menjadi cabang-cabang yang bisa diriset; memprioritaskan memilih dua cabang yang paling mungkin menggerakkan angkanya."
+         },
+         {
+          "en": "A tree shared with the decision-maker, with the research behind it, earns the go-ahead — and sets up the next question: what exactly do we recommend, and what happens next?",
+          "id": "Pohon yang dibagikan kepada pengambil keputusan, beserta riset di baliknya, mendapatkan lampu hijau — dan memunculkan pertanyaan berikutnya: apa tepatnya yang kita rekomendasikan, dan apa langkah selanjutnya?"
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/recommendation-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/recommendation-1-poster.jpg",
+         "dur": "1:16",
+         "title": {
+          "en": "The challenge: three percent by year-end or bust",
+          "id": "Tantangannya: tiga persen dalam setahun atau gagal total"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/recommendation-1-en.vtt",
+          "id": "../../assets/lms/the-map/recommendation-1-id.vtt"
          }
         }
        ]
