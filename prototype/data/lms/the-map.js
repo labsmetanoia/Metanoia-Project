@@ -7727,8 +7727,8 @@ window.MT_LMS['the-map'] = {
       "id": "Teori Inti Komunikasi"
      },
      "dur": {
-      "en": "40 min",
-      "id": "40 mnt"
+      "en": "45 min",
+      "id": "45 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7969,8 +7969,8 @@ window.MT_LMS['the-map'] = {
         "id": "Pertanyaan Kunci untuk Ditanyakan — Materi"
        },
        "intro": {
-        "en": "After Kate’s film, nine slides put purpose to work. The first two recap the key questions — who is my audience, what do I want to achieve, what is in it for them, how can I communicate it most effectively — and the three reflection questions that balance your goals with the other person’s and the greater goal. Then a practice scenario: help Aaliyah agree the kick-off agenda with Noah across three exchanges, each with a knowledge check and the best answer explained. A reflection on a past interaction follows, and the key takeaways close the chapter with two resources. Read them, choose your answer before you read the “Correct!” panel, then continue to Exhibit 1 below.",
-        "id": "Setelah film Kate, sembilan slide menerapkan tujuan. Dua slide pertama merangkum pertanyaan kunci — siapa audiens saya, apa yang ingin saya capai, apa manfaatnya bagi mereka, bagaimana saya mengomunikasikannya secara paling efektif — dan tiga pertanyaan refleksi yang menyeimbangkan tujuan Anda dengan tujuan orang lain dan tujuan yang lebih besar. Lalu latihan kasus: bantu Aaliyah menyepakati agenda kick-off dengan Noah dalam tiga pertukaran, masing-masing dengan cek pemahaman dan penjelasan jawaban terbaik. Refleksi atas interaksi di masa lalu menyusul, dan poin-poin utama menutup bab ini dengan dua sumber daya. Bacalah, pilih jawaban Anda sebelum membaca panel “Benar!”, lalu lanjutkan ke Peraga 1 di bawah."
+        "en": "After Kate’s film, nine slides put purpose to work. The first two recap the key questions — who is my audience, what do I want to achieve, what is in it for them, how can I communicate it most effectively — and the three reflection questions that balance your goals with the other person’s and the greater goal. Then a practice scenario: help Aaliyah agree the kick-off agenda with Noah across three exchanges, each with a knowledge check and the best answer explained. A reflection on a past interaction follows, and the key takeaways close the chapter with two resources. Read them, choose your answer before you read the “Correct!” panel, then continue to the slide that follows.",
+        "id": "Setelah film Kate, sembilan slide menerapkan tujuan. Dua slide pertama merangkum pertanyaan kunci — siapa audiens saya, apa yang ingin saya capai, apa manfaatnya bagi mereka, bagaimana saya mengomunikasikannya secara paling efektif — dan tiga pertanyaan refleksi yang menyeimbangkan tujuan Anda dengan tujuan orang lain dan tujuan yang lebih besar. Lalu latihan kasus: bantu Aaliyah menyepakati agenda kick-off dengan Noah dalam tiga pertukaran, masing-masing dengan cek pemahaman dan penjelasan jawaban terbaik. Refleksi atas interaksi di masa lalu menyusul, dan poin-poin utama menutup bab ini dengan dua sumber daya. Bacalah, pilih jawaban Anda sebelum membaca panel “Benar!”, lalu lanjutkan ke slide yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/purpose-questions-",
        "slides": [
@@ -8065,6 +8065,33 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Back at MODA — Material",
+        "id": "Kembali ke MODA — Materi"
+       },
+       "intro": {
+        "en": "One slide continues the scenario. Aaliyah has asked Noah to identify which of his team’s new ideas MODA should invest in as part of the transformation; Noah asks Maryam to gather and analyse ideas from across the Digital team and find the best ones. Three roles, one objective: identify the most effective new ideas to support MODA’s transformation. Read it, then watch the film below — it shows what happens when Maryam brings everything she found to Noah.",
+        "id": "Satu slide melanjutkan skenario. Aaliyah meminta Noah mengidentifikasi ide-ide baru timnya yang sebaiknya diinvestasikan MODA sebagai bagian dari transformasi; Noah meminta Maryam mengumpulkan dan menganalisis ide-ide dari seluruh tim Digital dan menemukan yang terbaik. Tiga peran, satu tujuan: mengidentifikasi ide-ide baru yang paling efektif untuk mendukung transformasi MODA. Bacalah, lalu tonton film di bawahnya — film itu menunjukkan apa yang terjadi ketika Maryam membawa semua temuannya kepada Noah."
+       },
+       "base": "../../assets/lms/the-map/slides/purpose-moda-",
+       "slides": [
+        {
+         "title": {
+          "en": "Back at MODA — so, what do you recommend?",
+          "id": "Kembali ke MODA — jadi, apa rekomendasi Anda?"
+         },
+         "text": {
+          "en": "Scenario continuation. So, what do you recommend? Aaliyah has asked Noah to identify which new ideas developed by his team are the most effective for MODA to invest in as a part of the transformation. Noah then reaches out to Maryam to help gather and analyze ideas from across the Digital team and identify the best ones. Aaliyah, Leadership — asks Noah to identify which new ideas are most effective for MODA to invest in as part of the transformation. Noah, Strategy & Analysis — reaches out to Maryam to help gather and analyze ideas from across the Digital team and identify the best ones. Maryam, Digital Team — gathers ideas from across the Digital team and helps analyze the ideas to identify the best ones. Objective: identify the most effective new ideas to support MODA’s transformation.",
+          "id": "Lanjutan skenario. Jadi, apa rekomendasi Anda? Aaliyah meminta Noah untuk mengidentifikasi ide-ide baru yang dikembangkan oleh timnya yang paling efektif bagi MODA untuk diinvestasikan sebagai bagian dari transformasi. Noah kemudian menghubungi Maryam untuk membantu mengumpulkan dan menganalisis ide-ide dari seluruh tim Digital dan mengidentifikasi yang terbaik. Aaliyah, Kepemimpinan — meminta Noah untuk mengidentifikasi ide-ide baru yang paling efektif untuk diinvestasikan oleh MODA. Noah, Strategi & Analisis — menghubungi Maryam untuk membantu mengumpulkan dan menganalisis ide-ide dari seluruh tim Digital. Maryam, Tim Digital — mengumpulkan ide-ide dari seluruh tim Digital dan membantu mengidentifikasi ide-ide terbaik. Tujuan: mengidentifikasi ide-ide terbaik yang paling efektif untuk mendukung transformasi MODA."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -8111,6 +8138,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/purpose-1-en.vtt",
           "id": "../../assets/lms/the-map/purpose-1-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "moda-ideas",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · Scene film",
+        "id": "Tonton berikutnya · Film adegan"
+       },
+       "intro": {
+        "en": "Back at MODA. Maryam has spent a week collecting the reasons behind the Digital team’s top three ideas — Penelope’s in-store self-serve tablets, Harry’s point-of-sale integration, a favourable vendor deal — and pours all of it out in one go. Noah has to cut in: interesting, but have we answered why these are the best ideas to pursue? He shows her how to structure it for the meeting with Aaliyah: lead with the answer, the governing thought; expect the “why?” or “how?” it raises; answer at the next level, the key line; support that with grouped facts and their “so what”. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below.",
+        "id": "Kembali ke MODA. Maryam menghabiskan seminggu mengumpulkan alasan di balik tiga ide teratas tim Digital — tablet layanan mandiri di toko dari Penelope, integrasi point-of-sale dari Harry, kesepakatan vendor yang menguntungkan — dan menumpahkan semuanya sekaligus. Noah harus menyela: menarik, tetapi apakah kita sudah menjawab mengapa ini ide-ide terbaik untuk dikejar? Ia menunjukkan cara menyusunnya untuk rapat dengan Aaliyah: mulai dengan jawabannya, gagasan utama; antisipasi “mengapa?” atau “bagaimana?” yang dimunculkannya; jawab di tingkat berikutnya, key line; dukung dengan fakta yang dikelompokkan beserta “so what”-nya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: lead with the answer",
+         "id": "Poin penting: mulai dengan jawabannya"
+        },
+        "body": [
+         {
+          "en": "All the right pieces are not yet a message. Maryam had a week of good work and no answer to the one question Aaliyah would ask: why these three?",
+          "id": "Semua bagian yang tepat belum menjadi sebuah pesan. Maryam punya seminggu kerja bagus dan tidak ada jawaban untuk satu pertanyaan yang akan diajukan Aaliyah: mengapa tiga ini?"
+         },
+         {
+          "en": "Lead with the governing thought, then answer the question it raises at the key line, then support each key line with grouped facts. Every level answers the “why?” or “how?” of the one above.",
+          "id": "Mulai dengan gagasan utama, lalu jawab pertanyaan yang dimunculkannya di key line, lalu dukung tiap key line dengan fakta yang dikelompokkan. Setiap tingkat menjawab “mengapa?” atau “bagaimana?” dari tingkat di atasnya."
+         },
+         {
+          "en": "Group what you have collected, find the themes, and name the “so what” of each group. Exhibit 1 below turns this into the three altitudes you announce as you climb and descend.",
+          "id": "Kelompokkan yang sudah Anda kumpulkan, temukan temanya, dan sebutkan “so what” tiap kelompok. Peraga 1 di bawah mengubahnya menjadi tiga ketinggian yang Anda umumkan saat naik dan turun."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/purpose-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/purpose-2-poster.jpg",
+         "dur": "2:36",
+         "title": {
+          "en": "Back at MODA: Maryam’s findings and the governing thought",
+          "id": "Kembali ke MODA: temuan Maryam dan gagasan utama"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/purpose-2-en.vtt",
+          "id": "../../assets/lms/the-map/purpose-2-id.vtt"
          }
         }
        ]
