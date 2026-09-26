@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "30 min",
-      "id": "30 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8475,8 +8475,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the slide points to. Elizabeth Hioe opens: every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways: an executive with great energy and conviction — all charisma, no content — found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash Shah, a former partner, and Mark Wiseman, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again, distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
-        "id": "Film yang dirujuk slide tadi. Elizabeth Hioe membuka: setiap argumen membutuhkan struktur yang logis dan rapat, karena tanpa itu Anda kehilangan audiens dan berhenti mengendalikan kesimpulan yang mereka tangkap: seorang eksekutif dengan energi dan keyakinan besar — penuh karisma, tanpa isi — mendapati setiap tim menangkap hal yang berbeda, dan hanya pesan yang disusun ulang yang menggerakkan mereka ke arah yang sama. Akash Shah, mantan partner, dan Mark Wiseman, penasihat eksternal, lalu membawanya ke lantai trading, panggilan penjualan, dan tindak lanjut bankir: sederhanakan, sederhanakan, dan sederhanakan lagi, saring pitch 80 halaman menjadi beberapa gagasan yang jelas, dan mudahkan pihak seberang untuk kembali dan mendapatkan persetujuan yang mereka butuhkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "The film the slide points to. Elizabeth Hioe opens: every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways: an executive with great energy and conviction — all charisma, no content — found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash Shah, a former partner, and Mark Wiseman, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again, distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
+        "id": "Film yang dirujuk slide tadi. Elizabeth Hioe membuka: setiap argumen membutuhkan struktur yang logis dan rapat, karena tanpa itu Anda kehilangan audiens dan berhenti mengendalikan kesimpulan yang mereka tangkap: seorang eksekutif dengan energi dan keyakinan besar — penuh karisma, tanpa isi — mendapati setiap tim menangkap hal yang berbeda, dan hanya pesan yang disusun ulang yang menggerakkan mereka ke arah yang sama. Akash Shah, mantan partner, dan Mark Wiseman, penasihat eksternal, lalu membawanya ke lantai trading, panggilan penjualan, dan tindak lanjut bankir: sederhanakan, sederhanakan, dan sederhanakan lagi, saring pitch 80 halaman menjadi beberapa gagasan yang jelas, dan mudahkan pihak seberang untuk kembali dan mendapatkan persetujuan yang mereka butuhkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8493,8 +8493,8 @@ window.MT_LMS['the-map'] = {
           "id": "Sederhanakan, lalu sederhanakan lagi. Saring wacana ke prinsip intinya agar pihak seberang bisa menyerapnya dan, yang lebih penting, menyampaikannya kembali kepada orang-orang yang persetujuannya mereka butuhkan."
          },
          {
-          "en": "The small investment before the call or the meeting is always worth it, even when it shortens the time you get. The three drills below are that investment, practised.",
-          "id": "Investasi kecil sebelum telepon atau rapat selalu sepadan, bahkan ketika memperpendek waktu yang Anda dapat. Tiga latihan di bawah adalah investasi itu, dalam praktik."
+          "en": "The small investment before the call or the meeting is always worth it, even when it shortens the time you get. The Pyramid Principle slide that follows gives that structure a name and a shape.",
+          "id": "Investasi kecil sebelum telepon atau rapat selalu sepadan, bahkan ketika memperpendek waktu yang Anda dapat. Slide Prinsip Piramida yang mengikutinya memberi nama dan bentuk pada struktur itu."
          }
         ]
        },
@@ -8514,6 +8514,66 @@ window.MT_LMS['the-map'] = {
         }
        ],
        "placement": "after-material:1"
+      },
+      {
+       "key": "pyramid",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch next · 2 lesson films",
+        "id": "Tonton berikutnya · 2 film pelajaran"
+       },
+       "intro": {
+        "en": "Two films on the pyramid. The first: you have about two minutes before you lose the room, so start with your main point and layer the support beneath it — a governing thought at the top (the answer to the question you were asked), three to five key line statements that answer why or how, and the foundational facts that synthesise up into them. The second: you communicate top-down but build bottom-up — a commercial bank with 25 initiatives regrouped into three thematic programmes with no gaps or overlaps, and an executive whose laundry list of client messages became three themes under one governing thought. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “How to run the drills” below.",
+        "id": "Dua film tentang piramida. Yang pertama: Anda punya sekitar dua menit sebelum kehilangan perhatian ruangan, jadi mulailah dengan poin utama dan susun pendukungnya di bawahnya — gagasan utama di puncak (jawaban atas pertanyaan yang diajukan kepada Anda), tiga sampai lima pernyataan key line yang menjawab mengapa atau bagaimana, dan fakta-fakta dasar yang disintesis menjadi pernyataan itu. Yang kedua: Anda berkomunikasi dari atas ke bawah tetapi membangunnya dari bawah ke atas — sebuah bank komersial dengan 25 inisiatif dikelompokkan ulang menjadi tiga program tematik tanpa celah atau tumpang tindih, dan seorang eksekutif yang daftar panjang pesan kliennya menjadi tiga tema di bawah satu gagasan utama. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: say it top-down, build it bottom-up",
+         "id": "Poin penting: sampaikan dari atas ke bawah, bangun dari bawah ke atas"
+        },
+        "body": [
+         {
+          "en": "Two minutes is the budget. Lead with the governing thought — the answer to the question you were asked — then three to five key lines that answer why or how, then the facts. More than five and people get lost.",
+          "id": "Dua menit adalah anggarannya. Mulailah dengan gagasan utama — jawaban atas pertanyaan yang diajukan kepada Anda — lalu tiga sampai lima key line yang menjawab mengapa atau bagaimana, lalu faktanya. Lebih dari lima dan orang mulai tersesat."
+         },
+         {
+          "en": "Building it is the slow part. Lay the facts out, group them, and keep moving them until the groups are comprehensive and mutually exclusive: no gaps, no overlaps. Twenty-five initiatives became three programmes that way.",
+          "id": "Membangunnya adalah bagian yang lambat. Tata faktanya, kelompokkan, dan terus pindahkan sampai kelompoknya komprehensif dan saling eksklusif: tanpa celah, tanpa tumpang tindih. Dua puluh lima inisiatif menjadi tiga program dengan cara itu."
+         },
+         {
+          "en": "Write every message on a note and sort them by level: some are governing thoughts, some are key lines, most are supporting points. The three drills below ask you to do exactly this under time pressure.",
+          "id": "Tulis setiap pesan pada kertas tempel dan pilah berdasarkan tingkatnya: sebagian gagasan utama, sebagian key line, kebanyakan poin pendukung. Tiga latihan di bawah meminta Anda melakukan persis ini di bawah tekanan waktu."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-2-poster.jpg",
+         "dur": "2:29",
+         "title": {
+          "en": "The Pyramid Principle",
+          "id": "Prinsip Piramida"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-2-en.vtt",
+          "id": "../../assets/lms/the-map/cases-2-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/cases-3-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-3-poster.jpg",
+         "dur": "3:36",
+         "title": {
+          "en": "Building a pyramid",
+          "id": "Membangun piramida"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-3-en.vtt",
+          "id": "../../assets/lms/the-map/cases-3-id.vtt"
+         }
+        }
+       ]
       }
      ],
      "material": [
@@ -8550,6 +8610,33 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Concept. It is not enough just to have facts. We need to form them into a message. Once you’ve identified the insights aligned with your audience and the purpose, consider the following questions: 1. How would you structure the insight(s) for greatest impact? 2. What context is necessary to provide for the insights to be understood? 3. How might you use a story or anecdote to emphasize a key message? Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Mark Wiseman describe how a structured argument helps you move your audience to action. Reflect and apply: as you watch, pay close attention to the impact of not having organized communication. Take a moment to think about how you might start to organize your communications and apply some of the concepts taught to make your message more clear.",
           "id": "Konsep. Tidak cukup hanya memiliki fakta. Kita perlu mengubahnya menjadi sebuah pesan. Setelah Anda mengidentifikasi insight yang selaras dengan audiens dan tujuan, pertimbangkan pertanyaan-pertanyaan berikut: 1. Bagaimana Anda akan menyusun insight tersebut agar memberikan dampak terbesar? 2. Konteks apa yang diperlukan agar insight tersebut dapat dipahami dengan baik? 3. Bagaimana Anda dapat menggunakan cerita atau anekdot untuk menekankan pesan utama? Tonton video: dalam video ini, Elizabeth Hioe, Akash Shah, dan Mark Wiseman menjelaskan bagaimana argumen yang terstruktur membantu Anda menggerakkan audiens untuk bertindak. Refleksikan dan terapkan: saat menonton, perhatikan dampak dari komunikasi yang tidak terorganisir. Luangkan waktu sejenak untuk memikirkan bagaimana Anda dapat mulai mengorganisir komunikasi Anda dan menerapkan beberapa konsep yang diajarkan untuk membuat pesan Anda lebih jelas."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "The Pyramid Principle — Material",
+        "id": "Prinsip Piramida — Materi"
+       },
+       "intro": {
+        "en": "One slide names the structure the film described. Originally developed by Barbara Minto, the Pyramid Principle is an approach to developing structured, airtight arguments: a strong message is like a pyramid, built from a clear foundation to a compelling top. The slide sets three reflection questions to hold in mind while you watch — how could you apply the Pyramid Principle to your life, have you ever lost track of a conversation because you couldn’t understand the main point, and how can it help you communicate more effectively? Read it, then continue to the films that follow.",
+        "id": "Satu slide memberi nama pada struktur yang digambarkan film tadi. Dikembangkan pertama kali oleh Barbara Minto, Prinsip Piramida adalah pendekatan untuk mengembangkan argumen yang terstruktur dan runtut: pesan yang kuat seperti piramida, dibangun dari dasar yang jelas menuju puncak yang meyakinkan. Slide ini mengajukan tiga pertanyaan refleksi untuk dipikirkan saat menonton — bagaimana Anda dapat menerapkan Prinsip Piramida dalam kehidupan Anda, apakah Anda pernah kehilangan alur percakapan karena tidak memahami poin utamanya, dan bagaimana prinsip ini dapat membantu Anda berkomunikasi dengan lebih efektif? Bacalah, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/cases-pyramid-",
+       "slides": [
+        {
+         "title": {
+          "en": "The Pyramid Principle",
+          "id": "Prinsip Piramida"
+         },
+         "text": {
+          "en": "Concept. The Pyramid Principle: a proven framework to develop structured, clear, and persuasive arguments. A strong message is like a pyramid — built from a clear foundation to a compelling top. Originally developed by Barbara Minto, the Pyramid Principle is an approach to developing structured, airtight arguments. In this video, Elizabeth Hioe and Charlotte Relyea introduce the Pyramid Principle. Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Charlotte Relyea introduce the Pyramid Principle. Reflection questions — as you watch this video, take a minute to think about the following: 1. How could you apply the Pyramid Principle to your life? 2. Have you ever lost track of a conversation because you couldn’t understand the main point? 3. How can the Pyramid Principle help you communicate your message more effectively?",
+          "id": "Konsep. Prinsip Piramida: kerangka terbukti untuk mengembangkan argumen yang terstruktur, jelas, dan meyakinkan. Pesan yang kuat seperti piramida — dibangun dari dasar yang jelas menuju puncak yang meyakinkan. Dikembangkan pertama kali oleh Barbara Minto, Prinsip Piramida adalah pendekatan untuk mengembangkan argumen yang terstruktur dan runtut. Dalam video ini, Elizabeth Hioe, Akash Shah, dan Charlotte Relyea memperkenalkan Prinsip Piramida. Tonton video: dalam video ini, Elizabeth Hioe, Akash Shah, dan Charlotte Relyea menjelaskan bagaimana argumen yang terstruktur dapat membantu Anda menggerakkan audiens untuk bertindak. Pertanyaan refleksi — saat menonton video ini, luangkan waktu sejenak untuk memikirkan hal berikut: 1. Bagaimana Anda dapat menerapkan Prinsip Piramida dalam kehidupan Anda? 2. Apakah Anda pernah kehilangan alur dalam sebuah percakapan karena tidak memahami poin utamanya? 3. Bagaimana Prinsip Piramida dapat membantu Anda mengomunikasikan pesan Anda dengan lebih efektif?"
          }
         }
        ]
