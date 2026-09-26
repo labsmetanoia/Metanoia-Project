@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "55 min",
-      "id": "55 mnt"
+      "en": "60 min",
+      "id": "60 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8583,8 +8583,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the synthesis slide points to. Once your facts sit in logical groupings, each group needs a headline — and not a summary but a synthesis: the “so what”, the deeper insight, why these things belong together. A summary cites the facts back in short form; a synthesis gives the insight they create together and tees up the implication: and therefore we should X. The worked example is a request to a CFO for sales resources — five market facts as a summary, then one line of synthesis — and the closing story is a colleague whose compelling facts fell apart in front of a senior executive who asked “what’s your point?”, losing the “so what”, credibility, and the executive’s patience. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
-        "id": "Film yang dirujuk slide sintesis. Setelah fakta-fakta Anda berada dalam pengelompokan yang logis, setiap kelompok membutuhkan judul — dan bukan ringkasan, melainkan sintesis: “so what”-nya, insight yang lebih dalam, mengapa hal-hal ini termasuk dalam kelompok yang sama. Ringkasan mengutip kembali fakta dalam bentuk singkat; sintesis memberikan insight yang diciptakan fakta-fakta itu bersama-sama dan menyiapkan implikasinya: dan oleh karena itu kita sebaiknya melakukan X. Contohnya adalah permintaan tenaga penjualan kepada seorang CFO — lima fakta pasar sebagai ringkasan, lalu satu kalimat sintesis — dan kisah penutupnya adalah seorang kolega yang fakta-faktanya yang meyakinkan berantakan di hadapan eksekutif senior yang bertanya “apa maksud Anda?”, kehilangan “so what”, kredibilitas, dan kesabaran eksekutif itu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "The film the synthesis slide points to. Once your facts sit in logical groupings, each group needs a headline — and not a summary but a synthesis: the “so what”, the deeper insight, why these things belong together. A summary cites the facts back in short form; a synthesis gives the insight they create together and tees up the implication: and therefore we should X. The worked example is a request to a CFO for sales resources — five market facts as a summary, then one line of synthesis — and the closing story is a colleague whose compelling facts fell apart in front of a senior executive who asked “what’s your point?”, losing the “so what”, credibility, and the executive’s patience. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Film yang dirujuk slide sintesis. Setelah fakta-fakta Anda berada dalam pengelompokan yang logis, setiap kelompok membutuhkan judul — dan bukan ringkasan, melainkan sintesis: “so what”-nya, insight yang lebih dalam, mengapa hal-hal ini termasuk dalam kelompok yang sama. Ringkasan mengutip kembali fakta dalam bentuk singkat; sintesis memberikan insight yang diciptakan fakta-fakta itu bersama-sama dan menyiapkan implikasinya: dan oleh karena itu kita sebaiknya melakukan X. Contohnya adalah permintaan tenaga penjualan kepada seorang CFO — lima fakta pasar sebagai ringkasan, lalu satu kalimat sintesis — dan kisah penutupnya adalah seorang kolega yang fakta-faktanya yang meyakinkan berantakan di hadapan eksekutif senior yang bertanya “apa maksud Anda?”, kehilangan “so what”, kredibilitas, dan kesabaran eksekutif itu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8601,8 +8601,8 @@ window.MT_LMS['the-map'] = {
           "id": "Sintesis menyiapkan implikasinya — “dan oleh karena itu kita sebaiknya melakukan X” — dan itulah yang membuat argumen meyakinkan dan permintaan layak didanai."
          },
          {
-          "en": "Without it you lose three things: the “so what”, your standing as the person in command of the conclusion, and the executive’s patience. Lead with the synthesis so the facts sound like support, not random points. The three drills below put this under time pressure.",
-          "id": "Tanpanya Anda kehilangan tiga hal: “so what”-nya, kedudukan Anda sebagai orang yang menguasai kesimpulan, dan kesabaran eksekutif. Mulailah dengan sintesis agar fakta terdengar sebagai pendukung, bukan poin-poin acak. Tiga latihan di bawah menguji ini di bawah tekanan waktu."
+          "en": "Without it you lose three things: the “so what”, your standing as the person in command of the conclusion, and the executive’s patience. Lead with the synthesis so the facts sound like support, not random points. The slides that follow turn the synthesised pyramid into a storyline for the room.",
+          "id": "Tanpanya Anda kehilangan tiga hal: “so what”-nya, kedudukan Anda sebagai orang yang menguasai kesimpulan, dan kesabaran eksekutif. Mulailah dengan sintesis agar fakta terdengar sebagai pendukung, bukan poin-poin acak. Slide berikutnya mengubah piramida yang sudah disintesis menjadi storyline untuk ruangan."
          }
         ]
        },
@@ -8618,6 +8618,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/cases-4-en.vtt",
           "id": "../../assets/lms/the-map/cases-4-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "storyline",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the first slide points to. Kate turns the structure into a storyline and draws the line between two different things: storylining is converting your pyramid and your synthesis into a prose version — often a dot-dash outline of the key points you want to get across, the order they come in, and the supporting evidence; storytelling is the different art of engaging, hooking and inspiring your audience. The structure and the clarity of the message are critical; the order the story is told in matters too. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
+        "id": "Film yang dirujuk slide pertama. Kate mengubah struktur menjadi storyline dan menarik garis antara dua hal yang berbeda: storylining adalah mengubah piramida dan sintesis Anda menjadi versi prosa — sering kali berupa garis besar dot-dash dari poin-poin kunci yang ingin Anda sampaikan, urutannya, dan bukti pendukungnya; storytelling adalah seni yang berbeda untuk melibatkan, memikat, dan menginspirasi audiens Anda. Struktur dan kejelasan pesan sangat penting; urutan penyampaian cerita juga penting. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: storyline first, story second",
+         "id": "Poin penting: storyline dulu, cerita kemudian"
+        },
+        "body": [
+         {
+          "en": "A storyline is the outline of the key points you want to get across, in order, with the evidence under each. It is your pyramid and synthesis rewritten as prose or dot-dash.",
+          "id": "Storyline adalah garis besar poin-poin kunci yang ingin Anda sampaikan, berurutan, dengan bukti di bawah masing-masing. Ia adalah piramida dan sintesis Anda yang ditulis ulang sebagai prosa atau dot-dash."
+         },
+         {
+          "en": "Storytelling is a different art: how you hook, engage and inspire the audience. Get the storyline right first; the order and the angles come after.",
+          "id": "Storytelling adalah seni yang berbeda: bagaimana Anda memikat, melibatkan, dan menginspirasi audiens. Bereskan storyline-nya dulu; urutan dan sudut pandangnya menyusul."
+         },
+         {
+          "en": "The five-part formula on slide 2 — introduction, key question, recommendation, supporting arguments, conclusion — is a storyline. The three drills below ask you to write one under time pressure.",
+          "id": "Formula lima bagian di slide 2 — pendahuluan, pertanyaan kunci, rekomendasi, argumen pendukung, kesimpulan — adalah sebuah storyline. Tiga latihan di bawah meminta Anda menulisnya di bawah tekanan waktu."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-5-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-5-poster.jpg",
+         "dur": "1:30",
+         "title": {
+          "en": "What is a storyline",
+          "id": "Apa itu storyline"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-5-en.vtt",
+          "id": "../../assets/lms/the-map/cases-5-id.vtt"
          }
         }
        ]
@@ -8781,6 +8828,63 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Practice. Review the facts below and answer the question on the right. Now that you’ve identified key line statements for each group of facts, it’s time to articulate one overarching statement that synthesizes your key line statements. This statement is called a governing thought. Governing thought: what is the main message? A — Health and well-being: a health-focused space is aligned with MODA’s health initiative (classes offered in the yoga studio provide a more affordable option to nearby studios; easy access to a yoga studio encourages exercise and improvement in health). B — Time efficiency: an onsite yoga studio will save time and make MODA’s people more efficient (waiting time will be minimal as the studio only serves MODA colleagues; classes offered in-house will eliminate travel time to external classes). C — Community and culture: an onsite yoga studio will give employees a place to socialize and foster community building (a yoga studio promotes cross-functional interaction; an onsite yoga studio reinforces our commitment to the quality of life of our employees). Question: read the potential governing thoughts listed below. Which one best synthesizes the key line statements in MODA’s pyramid? (1) MODA cares about the health and well-being of its people. (2) MODA should help save people time and find ways to foster community building. (3) MODA should open a yoga studio inside of its headquarters. The slide shows option 3 selected.",
           "id": "Latihan. Tinjau fakta-fakta di bawah ini dan jawab pertanyaan di sebelah kanan. Setelah Anda mengidentifikasi pernyataan utama (key line statement) untuk setiap kelompok fakta, saatnya untuk merumuskan satu pernyataan menyeluruh yang menyintesiskan seluruh pernyataan utama tersebut. Pernyataan ini disebut sebagai pemikiran utama (governing thought). Pemikiran utama: apa pesan utama yang ingin disampaikan? A — Kesehatan dan kesejahteraan: ruang yang berfokus pada kesehatan selaras dengan inisiatif kesehatan MODA (kelas yoga yang ditawarkan di studio MODA memberikan pilihan yang lebih terjangkau dibandingkan studio di sekitar kantor; akses yang mudah ke studio yoga mendorong karyawan untuk berolahraga dan meningkatkan kesehatan). B — Efisiensi waktu: studio yoga di kantor akan menghemat waktu dan membuat karyawan MODA lebih efisien (waktu tunggu akan minimal karena studio hanya melayani karyawan MODA; kelas yang ditawarkan di dalam kantor akan menghilangkan waktu perjalanan ke kelas di luar kantor). C — Komunitas dan budaya: studio yoga di kantor akan memberikan tempat bagi karyawan untuk bersosialisasi dan memperkuat kebersamaan komunitas (studio yoga mendorong interaksi lintas fungsi antar karyawan; studio yoga di kantor memperkuat komitmen MODA terhadap kualitas hidup karyawan). Pertanyaan: bacalah opsi pemikiran utama (governing thought) di bawah ini. Manakah yang paling tepat menyintesiskan pernyataan utama dalam piramida MODA? (1) MODA peduli terhadap kesehatan dan kesejahteraan karyawannya. (2) MODA harus membantu menghemat waktu karyawan dan menemukan cara untuk memperkuat kebersamaan komunitas. (3) MODA harus membuka studio yoga di dalam kantor pusatnya. Slide menampilkan opsi 3 terpilih."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 4 slides",
+        "id": "Baca berikutnya · 4 slide"
+       },
+       "title": {
+        "en": "Turning Logic into Story — Material",
+        "id": "Mengubah Logika Menjadi Storyline — Materi"
+       },
+       "intro": {
+        "en": "Four slides carry the pyramid into the room. What a storyline is — the outline of key points you want to get across, chosen as the targeted set of insights that leads to a specific action; a five-part formula for creating one (introduction, key question, primary recommendation, supporting arguments, conclusion); the MODA yoga-studio pyramid as Jarrah Woods prepares for the Budget Committee; and a worked storyline for it, from the sick-days and gym-visits data to the conclusion. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all four, then continue to the film that follows.",
+        "id": "Empat slide membawa piramida ke dalam ruangan. Apa itu storyline — garis besar poin-poin kunci yang ingin Anda sampaikan, dipilih sebagai sekumpulan wawasan terarah yang mengarah pada tindakan spesifik; formula lima bagian untuk menyusunnya (pendahuluan, pertanyaan kunci, rekomendasi utama, argumen pendukung, kesimpulan); piramida studio yoga MODA saat Jarrah Woods bersiap menghadap Budget Committee; dan contoh storyline lengkapnya, dari data hari sakit dan kunjungan gym hingga kesimpulan. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca keempatnya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/cases-story-",
+       "slides": [
+        {
+         "title": {
+          "en": "Turning logic into a compelling storyline",
+          "id": "Mengubah logika menjadi storyline yang kuat"
+         },
+         "text": {
+          "en": "From logic to storyline. Same insights, a clearer impact. Multiple insights structured using the Pyramid Principle → insights (identify the right insights) → targeted message (focus on the targeted set of insights) → specific action (lead to a clear and specific action); a clear storyline of key points 1–4. What is a storyline? You’ve used the Pyramid Principle to craft an airtight message. Now it’s time to translate those messages into materials that you’ll share with your teams and colleagues. It is often tempting to bring our full range of insights to a meeting; however, this can lead us away from the specific purpose of a meeting. Step back, pause, and think about what targeted set of insights will lead to a specific action. Kate introduces the concept of a storyline as the outline of key points you want to get across to your audience. She distinguishes between storylining and storytelling. A storyline is the outline of key points you want to get across to your audience.",
+          "id": "Dari logika ke storyline. Wawasan yang sama, dampak yang lebih jelas. Berbagai wawasan disusun menggunakan Prinsip Piramida → wawasan (identifikasi wawasan yang tepat) → pesan utama yang terarah (fokus pada sekumpulan wawasan kunci) → tindakan spesifik (mengarah pada tindakan yang jelas dan spesifik); storyline yang jelas dari poin kunci 1–4. Apa itu storyline? Anda telah menggunakan Prinsip Piramida untuk menyusun pesan yang ringkas dan jelas. Sekarang saatnya menerjemahkan pesan tersebut ke dalam materi yang akan Anda bagikan kepada tim dan rekan kerja. Sering kali kita tergoda untuk membawa seluruh wawasan yang kita miliki ke dalam sebuah rapat; namun, hal ini dapat membuat kita kehilangan fokus pada tujuan spesifik rapat tersebut. Berhentilah sejenak, ambil jarak, dan pikirkan wawasan mana yang paling relevan untuk mendorong tindakan tertentu. Kate memperkenalkan konsep storyline sebagai garis besar dari poin-poin kunci yang ingin Anda sampaikan kepada audiens. Ia juga membedakan antara storytelling dan storylining. Storyline adalah garis besar dari poin-poin kunci yang ingin Anda sampaikan kepada audiens."
+         }
+        },
+        {
+         "title": {
+          "en": "Creating storylines",
+          "id": "Menyusun storyline yang kuat"
+         },
+         "text": {
+          "en": "Storylining. Developing a storyline is in part sharing your findings with your audience, and in part creating a narrative that will move your audience to action. There are different approaches to storylining depending on your audience and the purpose of your interaction. From a structured analysis… to a clear and compelling storyline. Below is a simple formula you can use to create that narrative: 1. Introduction — give a brief introduction that describes the situation or complication your presentation addresses (“Here is the context and why this matters…”). 2. Key question — raise a question to be answered (“The key question we need to answer is…”). 3. Primary recommendation — share your primary recommendation, which is drawn from your pyramid’s governing thought (“Our recommendation is…”). 4. Supporting arguments — support and expand on your recommendation using the arguments and data in your pyramid structure (“Here are the key reasons and supporting data…”). 5. Conclusion — end with a conclusion that summarizes all of your key points (“In summary, this leads to…”).",
+          "id": "Storylining. Menyusun storyline adalah sebagian tentang menyampaikan temuan Anda kepada audiens, dan sebagian lagi tentang membangun narasi yang mendorong audiens untuk mengambil tindakan. Terdapat pendekatan yang berbeda dalam menyusun storyline, tergantung pada audiens dan tujuan interaksi Anda. Dari analisis yang terstruktur… menjadi storyline yang jelas dan meyakinkan. Berikut adalah formula sederhana yang dapat Anda gunakan untuk membangun narasi tersebut: 1. Pendahuluan — berikan pengantar singkat yang menjelaskan situasi atau permasalahan yang diangkat dalam presentasi Anda (“Berikut adalah konteks dan mengapa hal ini penting…”). 2. Pertanyaan kunci — ajukan pertanyaan utama yang perlu dijawab (“Pertanyaan utama yang perlu kita jawab adalah…”). 3. Rekomendasi utama — sampaikan rekomendasi utama Anda, yang berasal dari pemikiran utama (governing thought) dalam struktur piramida Anda (“Rekomendasi utama kami adalah…”). 4. Argumen pendukung — dukung dan kembangkan rekomendasi Anda dengan menggunakan argumen dan data dalam struktur piramida Anda (“Berikut adalah alasan utama dan data yang mendukung…”). 5. Kesimpulan — akhiri dengan kesimpulan yang merangkum seluruh poin utama Anda (“Secara keseluruhan, hal ini mengarah pada…”)."
+         }
+        },
+        {
+         "title": {
+          "en": "An example storyline from MODA",
+          "id": "Contoh storyline dari MODA"
+         },
+         "text": {
+          "en": "Example storyline. Storylines can be effectively used for large-scale efforts like a transformation — or smaller-scale efforts. Remember the MODA employees’ desire for a yoga studio in company headquarters? The desire continues! Jarrah Woods, Head of Marketing, is scheduled to present to the MODA Budget Committee and make a case for why a yoga studio is a favorable investment. What might a compelling storyline for Jarrah’s message look like? Remember the pyramid structure you looked at in the last section. Reference the structure on the right. MODA Yoga Studio Pyramid (illustrative example): MODA should open a yoga studio inside its headquarters — a strategic investment to improve employee health, productivity, and company culture. Support employee health and well-being (provide an on-site space that aligns with MODA’s health initiatives): yoga classes in headquarters offer a more affordable and convenient option compared to external studios; easy access to a yoga studio encourages regular exercise and improves overall health. Save time and increase efficiency (an on-site yoga studio helps employees save time and become more efficient): waiting time is minimal as the studio only serves MODA colleagues; in-house classes eliminate travel time to external studios. Strengthen community and company culture (the yoga studio provides a space for employees to socialize and build a stronger sense of community): a yoga studio promotes cross-functional interaction among employees; an on-site yoga studio reinforces our commitment to the quality of life and well-being of our employees.",
+          "id": "Contoh storyline. Storyline dapat digunakan secara efektif untuk inisiatif besar seperti transformasi — atau inisiatif yang lebih kecil. Ingat keinginan karyawan MODA untuk memiliki studio yoga di kantor pusat? Keinginan tersebut masih berlanjut! Jarrah Woods, Head of Marketing, akan mempresentasikan kepada MODA Budget Committee dan menyampaikan alasan mengapa studio yoga merupakan investasi yang menguntungkan. Seperti apa storyline yang meyakinkan untuk pesan Jarrah? Ingat kembali struktur piramida yang telah Anda pelajari pada bagian sebelumnya. Lihat struktur di sebelah kanan sebagai referensi. Piramida Studio Yoga MODA (contoh ilustratif): MODA sebaiknya membuka studio yoga di dalam kantor pusat — investasi strategis untuk kesehatan karyawan, produktivitas, dan budaya perusahaan yang lebih kuat. Mendukung kesehatan dan kesejahteraan karyawan (ruang yang berfokus pada kesehatan selaras dengan inisiatif kesehatan MODA): kelas yoga di kantor memberikan alternatif yang lebih terjangkau dibanding studio di luar; akses yang mudah mendorong karyawan untuk berolahraga dan meningkatkan kesehatan mereka. Menghemat waktu dan meningkatkan efisiensi (studio yoga di kantor akan menghemat waktu dan membuat karyawan lebih efisien): waktu tunggu minimal karena studio hanya melayani karyawan MODA; kelas di tengah hari dapat mengurangi waktu yang hilang karena perjalanan ke kelas di luar kantor. Memperkuat komunitas dan budaya perusahaan (studio yoga di kantor memberikan tempat untuk bersosialisasi dan membangun komunitas): studio yoga mendorong interaksi lintas fungsi antar karyawan; studio yoga di kantor memperkuat komitmen MODA terhadap kualitas hidup karyawan."
+         }
+        },
+        {
+         "title": {
+          "en": "What MODA’s storyline might look like",
+          "id": "Seperti apa storyline MODA"
+         },
+         "text": {
+          "en": "Learn by exploring. Click each section to learn more about what MODA’s storyline might look like. See how a structured storyline turns data and insights into a clear and persuasive message. 1. Start with an introduction — describe the situation or complication your message addresses. Example: in recent years, MODA has undertaken an initiative to support the health and well-being of employees. However, recent data shows: the average number of sick days employees take has increased by 2.4 days per year over the past 5 years; 75% of employees report going to an exercise establishment (e.g., gym, yoga studio, class) 2–3 times per week, citing “convenience” as the primary factor in that choice. 2. Use your pyramid structure — answer the question and detail your supporting points: MODA should open a yoga studio inside its headquarters; offering health-focused spaces; an onsite yoga studio will save time and increase efficiency; an onsite yoga studio will give employees a place to socialize and foster community building, each with its two supporting facts. 3. Pose the key question — clearly state the question your message answers. Example question: what can MODA do to positively impact all of these metrics and support the health and well-being of employees? 4. Conclude with a succinct summary — reinforce your key points and the intended outcome. Example conclusion: opening an onsite yoga studio supports employees’ physical and social well-being and fosters cooperation between groups, while advancing the organization’s long-term health goals.",
+          "id": "Pelajari dengan menjelajahi. Klik setiap bagian untuk mempelajari lebih lanjut tentang seperti apa storyline MODA. Lihat bagaimana storyline yang terstruktur mengubah data dan insight menjadi pesan yang jelas dan meyakinkan. 1. Mulai dengan pendahuluan — jelaskan situasi atau permasalahan yang ingin disampaikan dalam pesan Anda. Contoh: dalam beberapa tahun terakhir, MODA telah menjalankan inisiatif untuk mendukung kesehatan dan kesejahteraan karyawan. Namun, data terbaru menunjukkan: rata-rata jumlah hari sakit karyawan telah meningkat sebesar 2,4 hari per tahun dalam 5 tahun terakhir; 75% karyawan melaporkan pergi ke tempat olahraga (misalnya gym, studio yoga, kelas) sebanyak 2–3 kali per minggu, dengan alasan “kemudahan akses” sebagai faktor utama dalam pilihan tersebut. 2. Gunakan struktur piramida Anda — jawab pertanyaan dan jelaskan poin-poin pendukung Anda: MODA sebaiknya membuka studio yoga di dalam kantor pusatnya; mendukung kesehatan dan kesejahteraan karyawan; menghemat waktu dan meningkatkan efisiensi; memperkuat komunitas dan budaya perusahaan, masing-masing dengan dua fakta pendukungnya. 3. Ajukan pertanyaan kunci — nyatakan dengan jelas pertanyaan yang ingin dijawab oleh pesan Anda. Contoh pertanyaan kunci: apa yang dapat dilakukan MODA untuk memberikan dampak positif pada seluruh metrik ini dan mendukung kesehatan serta kesejahteraan karyawan? 4. Tutup dengan kesimpulan yang ringkas — rangkum poin-poin utama Anda dan hasil yang diharapkan. Contoh kesimpulan: membuka studio yoga di dalam kantor mendukung kesehatan fisik dan sosial karyawan serta memperkuat kerja sama antar tim, sekaligus mendorong pencapaian tujuan kesehatan jangka panjang perusahaan."
          }
         }
        ]
