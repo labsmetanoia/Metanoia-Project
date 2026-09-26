@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
+      "en": "30 min",
+      "id": "30 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8471,12 +8471,12 @@ window.MT_LMS['the-map'] = {
       {
        "key": "why-structure",
        "kicker": {
-        "en": "Watch first · Lesson film",
-        "id": "Tonton dulu · Film pelajaran"
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "Before the drills, why structure at all. Every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways: an executive with great energy and conviction — all charisma, no content — found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash, a former partner, and Mark, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again, distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
-        "id": "Sebelum latihan, mengapa perlu struktur sama sekali. Setiap argumen membutuhkan struktur yang logis dan rapat, karena tanpa itu Anda kehilangan audiens dan berhenti mengendalikan kesimpulan yang mereka tangkap: seorang eksekutif dengan energi dan keyakinan besar — penuh karisma, tanpa isi — mendapati setiap tim menangkap hal yang berbeda, dan hanya pesan yang disusun ulang yang menggerakkan mereka ke arah yang sama. Akash, mantan partner, dan Mark, penasihat eksternal, lalu membawanya ke lantai trading, panggilan penjualan, dan tindak lanjut bankir: sederhanakan, sederhanakan, dan sederhanakan lagi, saring pitch 80 halaman menjadi beberapa gagasan yang jelas, dan mudahkan pihak seberang untuk kembali dan mendapatkan persetujuan yang mereka butuhkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "The film the slide points to. Elizabeth Hioe opens: every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways: an executive with great energy and conviction — all charisma, no content — found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash Shah, a former partner, and Mark Wiseman, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again, distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
+        "id": "Film yang dirujuk slide tadi. Elizabeth Hioe membuka: setiap argumen membutuhkan struktur yang logis dan rapat, karena tanpa itu Anda kehilangan audiens dan berhenti mengendalikan kesimpulan yang mereka tangkap: seorang eksekutif dengan energi dan keyakinan besar — penuh karisma, tanpa isi — mendapati setiap tim menangkap hal yang berbeda, dan hanya pesan yang disusun ulang yang menggerakkan mereka ke arah yang sama. Akash Shah, mantan partner, dan Mark Wiseman, penasihat eksternal, lalu membawanya ke lantai trading, panggilan penjualan, dan tindak lanjut bankir: sederhanakan, sederhanakan, dan sederhanakan lagi, saring pitch 80 halaman menjadi beberapa gagasan yang jelas, dan mudahkan pihak seberang untuk kembali dan mendapatkan persetujuan yang mereka butuhkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
        },
        "outro": {
         "title": {
@@ -8510,6 +8510,46 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/cases-1-en.vtt",
           "id": "../../assets/lms/the-map/cases-1-id.vtt"
+         }
+        }
+       ],
+       "placement": "after-material:1"
+      }
+     ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 2 slides",
+        "id": "Baca dulu · 2 slide"
+       },
+       "title": {
+        "en": "Why Organize Communication — Material",
+        "id": "Mengapa Komunikasi Perlu Diorganisir — Materi"
+       },
+       "intro": {
+        "en": "Two slides open the lesson. The first separates data (raw, unprocessed facts), information (data processed and organised into a format with context) and insight (relevant, non-obvious conclusions that earn the audience’s attention and lead to action). The second asks why organise communications at all: facts are not enough, they have to be formed into a message — how would you structure the insight for greatest impact, what context does it need to be understood, and how might a story or anecdote emphasise the key message? Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
+        "id": "Dua slide membuka pelajaran ini. Slide pertama memisahkan data (fakta mentah yang belum diolah), informasi (data yang telah diolah dan disusun ke dalam format yang memberi konteks), dan insight (kesimpulan yang relevan dan tidak selalu terlihat jelas, yang menarik perhatian audiens dan membawa pada tindakan). Slide kedua bertanya mengapa komunikasi perlu diorganisir: fakta saja tidak cukup, ia harus dibentuk menjadi sebuah pesan — bagaimana Anda menyusun insight agar berdampak terbesar, konteks apa yang diperlukan agar dipahami, dan bagaimana cerita atau anekdot bisa menekankan pesan utama? Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca keduanya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/cases-why-",
+       "slides": [
+        {
+         "title": {
+          "en": "The difference: data, information, and insight",
+          "id": "Perbedaan: data, informasi, dan insight"
+         },
+         "text": {
+          "en": "Concept. We spend a lot of time on our projects acquiring, analyzing, and visualizing data. While data analysis is important, the real value comes from the insight we provide. Let’s take a closer look at the differences between data, information, and insight. 1. Data — raw and unprocessed facts, usually in the form of numbers and text; quantitative (measured) or qualitative (observed). Example: store visits 1,250; online sales 320; customer feedback “Good”; age group 18–25; region Jakarta. 2. Information — prepared data that have been processed, put together, and organized into a format that provides more context; often delivered as graphs or tables, reports, and dashboards. Example: monthly store visits, January to May. 3. Insight — relevant to the audience and not obvious; it should get the audience’s attention and earn its way into a shared fact base that the conversation will draw from. Insights are generated by analyzing information and drawing conclusions. Example: “Young customers (18–25) drive 60% of store visits, but their online conversion rate is low, indicating an opportunity to improve the digital experience.” A strong insight can influence and move decisions along, which then leads to action.",
+          "id": "Konsep. Kita menghabiskan banyak waktu dalam proyek untuk mengumpulkan, menganalisis, dan memvisualisasikan data. Meskipun analisis data itu penting, nilai sebenarnya muncul dari insight yang kita berikan. Mari kita lihat lebih dekat perbedaan antara data, informasi, dan insight. 1. Data — fakta mentah dan belum diolah yang biasanya berbentuk angka dan teks; kuantitatif (terukur) atau kualitatif (hasil observasi). Contoh: jumlah kunjungan toko 1.250; penjualan online 320; umpan balik pelanggan “Baik”; kelompok usia 18–25; wilayah Jakarta. 2. Informasi — data yang telah diolah, digabungkan, dan disusun ke dalam format yang memberikan konteks lebih luas; sering disajikan dalam bentuk visualisasi data seperti grafik atau tabel, laporan, dan dashboard. Contoh: jumlah kunjungan toko per bulan, Januari sampai Mei. 3. Insight — pemahaman yang relevan bagi audiens dan tidak selalu terlihat jelas; harus menarik perhatian audiens dan membawa pada fakta baru yang menjadi dasar percakapan lebih lanjut. Insight dihasilkan dengan menganalisis informasi dan menarik kesimpulan. Contoh: “Pelanggan muda (18–25 tahun) menyumbang 60% kunjungan toko, namun tingkat konversi online mereka masih rendah, yang menunjukkan peluang untuk meningkatkan pengalaman digital.” Insight yang kuat dapat mempengaruhi dan mendorong pengambilan keputusan, yang kemudian mengarah pada tindakan."
+         }
+        },
+        {
+         "title": {
+          "en": "Why organize communications?",
+          "id": "Mengapa komunikasi perlu diorganisir?"
+         },
+         "text": {
+          "en": "Concept. It is not enough just to have facts. We need to form them into a message. Once you’ve identified the insights aligned with your audience and the purpose, consider the following questions: 1. How would you structure the insight(s) for greatest impact? 2. What context is necessary to provide for the insights to be understood? 3. How might you use a story or anecdote to emphasize a key message? Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Mark Wiseman describe how a structured argument helps you move your audience to action. Reflect and apply: as you watch, pay close attention to the impact of not having organized communication. Take a moment to think about how you might start to organize your communications and apply some of the concepts taught to make your message more clear.",
+          "id": "Konsep. Tidak cukup hanya memiliki fakta. Kita perlu mengubahnya menjadi sebuah pesan. Setelah Anda mengidentifikasi insight yang selaras dengan audiens dan tujuan, pertimbangkan pertanyaan-pertanyaan berikut: 1. Bagaimana Anda akan menyusun insight tersebut agar memberikan dampak terbesar? 2. Konteks apa yang diperlukan agar insight tersebut dapat dipahami dengan baik? 3. Bagaimana Anda dapat menggunakan cerita atau anekdot untuk menekankan pesan utama? Tonton video: dalam video ini, Elizabeth Hioe, Akash Shah, dan Mark Wiseman menjelaskan bagaimana argumen yang terstruktur membantu Anda menggerakkan audiens untuk bertindak. Refleksikan dan terapkan: saat menonton, perhatikan dampak dari komunikasi yang tidak terorganisir. Luangkan waktu sejenak untuk memikirkan bagaimana Anda dapat mulai mengorganisir komunikasi Anda dan menerapkan beberapa konsep yang diajarkan untuk membuat pesan Anda lebih jelas."
          }
         }
        ]
