@@ -7021,8 +7021,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tantangan Komunikasi yang Umum Terjadi"
      },
      "dur": {
-      "en": "35 min",
-      "id": "35 mnt"
+      "en": "45 min",
+      "id": "45 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7209,6 +7209,53 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "How Familiar Are You with Empathy — Material",
+        "id": "Seberapa Familiar Anda dengan Empati — Materi"
+       },
+       "intro": {
+        "en": "After the films, three slides open the E of EPIC. The first asks how familiar you are with empathy and why it comes first: before any interaction you need to know where the other person is starting from, what they already know and what they think. The second defines what empathy is — and what it is not — with two examples and two non-examples from everyday conversations. The third returns to MODA: Aaliyah, Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting, and asks you to watch their conversation for moments of empathy. Read them, then watch the film below.",
+        "id": "Setelah film, tiga slide membuka E dalam EPIC. Slide pertama bertanya seberapa familiar Anda dengan empati dan mengapa ia datang lebih dulu: sebelum interaksi apa pun Anda perlu tahu dari mana orang lain memulai, apa yang sudah mereka ketahui, dan apa pendapat mereka. Slide kedua mendefinisikan apa itu empati — dan apa yang bukan — dengan dua contoh dan dua bukan-contoh dari percakapan sehari-hari. Slide ketiga kembali ke MODA: Aaliyah, Chief Transformation Officer, mengundang Noah, Head of Digital, ke pertemuan awal, dan meminta Anda menonton percakapan mereka untuk menemukan momen-momen empati. Bacalah, lalu tonton film di bawahnya."
+       },
+       "base": "../../assets/lms/the-map/slides/empathy-",
+       "slides": [
+        {
+         "title": {
+          "en": "How familiar are you with empathy?",
+          "id": "Seberapa familiar Anda dengan empati?"
+         },
+         "text": {
+          "en": "Chapter 2. Understanding what empathy is and what it is not. Before entering an interaction with someone, you must first understand where the other person is coming from. Additionally, you need to understand how much existing knowledge they have and their opinions, so that you can tailor your message to their needs. So, what does empathy really mean? What do they think? What do they feel? What do they know right now? From which perspective are they coming? Where are they starting from? How much existing knowledge do they have? What are their opinions? How can we tailor our message to their needs?",
+          "id": "Bab 2. Memahami apa itu empati dan apa yang bukan empati. Sebelum memulai sebuah interaksi dengan seseorang, Anda perlu terlebih dahulu memahami dari mana sudut pandang orang tersebut berasal. Selain itu, Anda juga perlu memahami seberapa besar pengetahuan yang sudah mereka miliki dan apa pendapat mereka, sehingga Anda dapat menyesuaikan pesan yang disampaikan dengan kebutuhan mereka. Jadi, apa sebenarnya yang dimaksud dengan empati? Apa yang mereka pikirkan? Apa yang mereka rasakan? Apa yang mereka ketahui saat ini? Dari mana perspektif mereka berasal? Di mana mereka memulai? Seberapa besar pengetahuan yang mereka miliki? Apa pendapat mereka? Bagaimana kita dapat menyesuaikan pesan kita dengan kebutuhan mereka?"
+         }
+        },
+        {
+         "title": {
+          "en": "What is empathy?",
+          "id": "Apa itu empati?"
+         },
+         "text": {
+          "en": "Key concepts. Empathy involves understanding other people’s experiences, perspectives, and feelings. It shows up in different ways, including: 01 understanding the feelings of others; 02 agreeing with someone’s point of view; 03 a way of building an emotional connection with a person; 04 having a solution to a person’s emotional state. Examples of empathy — these actions show empathy in practice. “That sounds really challenging. I can see why you feel that way.” Yes! This is an example of empathy: empathy is the ability to understand another person’s experience, perspective, and feelings; empathetic leaders are able to relate to many different types of people. “It makes sense that you feel frustrated given the situation.” Yes! This is an example of empathy: with empathy, you approach a conversation with an attempt to understand the other person’s perspective; this helps to spark a connection and build trust over time. Non-examples of empathy — these are not empathy, even though they may seem similar. “I think you’re overreacting. You should just move on.” This is not a good example of empathy: empathy does not mean you have to agree with others, but you should always consider their point of view; empathy is an attempt to respectfully understand the other person’s perspective. “Here’s what you should do…” This is not a good example of empathy: empathy does not mean having an answer to a person’s emotional state, but you should always consider their emotions and point of view; empathy is more about listening and understanding than trying to provide a solution.",
+          "id": "Konsep utama. Empati melibatkan pemahaman terhadap pengalaman, perspektif, dan perasaan orang lain. Empati dapat ditunjukkan dalam berbagai cara, termasuk: 01 memahami perasaan orang lain; 02 menghargai sudut pandang orang lain; 03 cara membangun koneksi emosional dengan seseorang; 04 memberikan solusi terhadap kondisi emosional seseorang. Contoh empati — tindakan-tindakan ini menunjukkan empati dalam praktik. “Wah, itu pasti sangat menantang. Saya bisa mengerti mengapa kamu merasa seperti itu.” Ya! Ini adalah contoh empati: empati adalah kemampuan untuk memahami pengalaman, perspektif, dan perasaan orang lain; pemimpin yang empatik dapat terhubung dengan berbagai tipe orang. “Saya bisa mengerti kamu merasa frustrasi dalam situasi ini.” Ya! Ini adalah contoh empati: dengan empati, Anda mendekati percakapan dengan tujuan untuk memahami perspektif orang lain; hal ini membantu membangun koneksi dan kepercayaan seiring waktu. Bukan contoh empati — ini bukan empati, meskipun terlihat mirip. “Menurut saya kamu terlalu bereaksi. Sebaiknya kamu langsung lanjut saja.” Ini bukan contoh empati yang baik: empati bukan berarti Anda harus selalu setuju dengan orang lain, namun Anda tetap harus mempertimbangkan sudut pandang mereka; empati adalah upaya untuk memahami perspektif orang lain dengan penuh rasa hormat. “Ini yang seharusnya kamu lakukan…” Ini bukan contoh empati yang baik: empati bukan berarti langsung memberikan solusi atas kondisi emosional seseorang; Anda perlu mempertimbangkan perasaan dan sudut pandang mereka; empati lebih tentang mendengarkan dan memahami, bukan sekadar memberikan solusi."
+         }
+        },
+        {
+         "title": {
+          "en": "Back at MODA — was empathy at play?",
+          "id": "Kembali ke MODA — apakah empati terlihat di sini?"
+         },
+         "text": {
+          "en": "Scene. Let’s see how empathy shows up in a real workplace conversation. Aaliyah, Chief Transformation Officer (CTO), MODA; Noah, Head of Digital, MODA. Take a few minutes to watch and reflect on the conversation between Aaliyah and Noah in this video. The scenario: today, Aaliyah, Chief Transformation Officer (the person in charge of a big change within the company) at MODA, has invited Noah, Head of Digital, to an introductory meeting. Aaliyah aims to discuss the way in which she, Noah, and the Digital department are going to work together to ensure a successful transformation. They both have a lot on their minds. As you watch the video, reflect on: how do Aaliyah and Noah communicate with each other? Do you see moments of empathy? What could they have done differently?",
+          "id": "Adegan. Mari kita lihat bagaimana empati terlihat dalam percakapan di dunia kerja yang nyata. Aaliyah, Chief Transformation Officer (CTO), MODA; Noah, Head of Digital, MODA. Tonton dan refleksikan: luangkan beberapa menit untuk menonton dan merefleksikan percakapan antara Aaliyah dan Noah dalam video ini. Skenario: hari ini, Aaliyah, Chief Transformation Officer (orang yang memimpin perubahan besar di dalam perusahaan) di MODA, mengundang Noah, Head of Digital, untuk pertemuan awal. Aaliyah ingin membahas bagaimana Aaliyah, Noah, dan departemen Digital akan bekerja sama untuk memastikan transformasi yang sukses. Keduanya memiliki banyak hal yang sedang dipikirkan. Saat Anda menonton video, refleksikan: bagaimana Aaliyah dan Noah berkomunikasi satu sama lain? Apakah Anda melihat momen-momen empati? Apa yang bisa mereka lakukan secara berbeda?"
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -7220,8 +7267,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film bab"
        },
        "intro": {
-        "en": "Two films carry the deck into practice. The first checks in at MODA, the international retailer about to start a five-year digital transformation: Aaliyah, Noah and Maryam are on their way to work, each with a role in the change and a communication goal of their own. The second asks “What is EPIC?” and answers it step by step — Empathy before you chart a course, Purpose as the place you need to end up rather than the agenda, Insight chosen by chipping away like a sculptor, and Conversation planned as a two-way exchange, not a monologue. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the case in focus below.",
-        "id": "Dua film membawa dek tadi ke praktik. Film pertama berkunjung ke MODA, peritel internasional yang akan memulai transformasi digital lima tahun: Aaliyah, Noah, dan Maryam sedang menuju tempat kerja, masing-masing dengan peran dalam perubahan itu dan tujuan komunikasinya sendiri. Film kedua bertanya “Apa itu EPIC?” dan menjawabnya langkah demi langkah — Empati sebelum menyusun arah, Tujuan sebagai titik akhir yang harus dicapai alih-alih sekadar agenda, Insight yang dipilih dengan memangkas seperti pemahat, dan Percakapan yang direncanakan sebagai pertukaran dua arah, bukan monolog. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+        "en": "Two films carry the deck into practice. The first checks in at MODA, the international retailer about to start a five-year digital transformation: Aaliyah, Noah and Maryam are on their way to work, each with a role in the change and a communication goal of their own. The second asks “What is EPIC?” and answers it step by step — Empathy before you chart a course, Purpose as the place you need to end up rather than the agenda, Insight chosen by chipping away like a sculptor, and Conversation planned as a two-way exchange, not a monologue. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
+        "id": "Dua film membawa dek tadi ke praktik. Film pertama berkunjung ke MODA, peritel internasional yang akan memulai transformasi digital lima tahun: Aaliyah, Noah, dan Maryam sedang menuju tempat kerja, masing-masing dengan peran dalam perubahan itu dan tujuan komunikasinya sendiri. Film kedua bertanya “Apa itu EPIC?” dan menjawabnya langkah demi langkah — Empati sebelum menyusun arah, Tujuan sebagai titik akhir yang harus dicapai alih-alih sekadar agenda, Insight yang dipilih dengan memangkas seperti pemahat, dan Percakapan yang direncanakan sebagai pertukaran dua arah, bukan monolog. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -7268,6 +7315,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/communication-2-en.vtt",
           "id": "../../assets/lms/the-map/communication-2-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "empathy",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch next · Scene film",
+        "id": "Tonton berikutnya · Film adegan"
+       },
+       "intro": {
+        "en": "Back at MODA. Aaliyah, the new Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting — and you hear what each of them is thinking on the way in: Noah remembers the last transformation his team did not enjoy and is hungry from a lunchtime slot; Aaliyah is juggling her mentorship initiative, her youth group and a transformation that started earlier than expected. Watch how the first exchange lands, where empathy shows up, and what the narrator asks you to notice: what is the other person thinking and feeling, and what is at stake for them? Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the case in focus below.",
+        "id": "Kembali ke MODA. Aaliyah, Chief Transformation Officer yang baru, mengundang Noah, Head of Digital, ke pertemuan awal — dan Anda mendengar apa yang masing-masing pikirkan menjelang rapat: Noah teringat transformasi sebelumnya yang tidak disukai timnya dan kelaparan karena rapatnya di jam makan siang; Aaliyah sedang menyeimbangkan inisiatif mentoringnya, kelompok pemudanya, dan transformasi yang dimulai lebih cepat dari perkiraan. Perhatikan bagaimana pertukaran pertama mereka berlangsung, di mana empati muncul, dan apa yang diminta narator untuk Anda perhatikan: apa yang orang lain pikirkan dan rasakan, dan apa yang dipertaruhkan bagi mereka? Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: meet them where they stand",
+         "id": "Poin penting: temui mereka di tempat mereka berpijak"
+        },
+        "body": [
+         {
+          "en": "Both people walked into the meeting carrying something the other could not see. Empathy starts before the conversation: what are they thinking and feeling, why, and what is at stake for them?",
+          "id": "Keduanya masuk ke rapat sambil membawa sesuatu yang tidak terlihat oleh yang lain. Empati dimulai sebelum percakapan: apa yang mereka pikirkan dan rasakan, mengapa, dan apa yang dipertaruhkan bagi mereka?"
+         },
+         {
+          "en": "“Just share your plan and deadlines” answered Noah’s own worry, not Aaliyah’s situation. The reset — “How are you feeling in the new role?” — met her where she stood and opened the door to a real working relationship.",
+          "id": "“Bagikan saja rencana dan tenggatmu” menjawab kekhawatiran Noah sendiri, bukan situasi Aaliyah. Pengulangannya — “Bagaimana perasaanmu di peran yang baru?” — menemuinya di tempat ia berpijak dan membuka pintu bagi hubungan kerja yang sesungguhnya."
+         },
+         {
+          "en": "Empathy is not agreeing or fixing; it is listening for where someone is coming from, then adjusting what you say. Carry the three reflection questions from the deck into the case below.",
+          "id": "Empati bukan menyetujui atau memperbaiki; ia mendengarkan dari mana seseorang berangkat, lalu menyesuaikan apa yang Anda katakan. Bawa tiga pertanyaan refleksi dari dek tadi ke kasus di bawah."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/communication-3-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-3-poster.jpg",
+         "dur": "3:11",
+         "title": {
+          "en": "Back at MODA: Aaliyah meets Noah — was empathy at play?",
+          "id": "Kembali ke MODA: Aaliyah bertemu Noah — apakah empati terlihat?"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-3-en.vtt",
+          "id": "../../assets/lms/the-map/communication-3-id.vtt"
          }
         }
        ]
