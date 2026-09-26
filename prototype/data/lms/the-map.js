@@ -7021,8 +7021,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tantangan Komunikasi yang Umum Terjadi"
      },
      "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
+      "en": "35 min",
+      "id": "35 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7141,7 +7141,138 @@ window.MT_LMS['the-map'] = {
      "quote": {
       "en": "What they understood is what you communicated — regardless of what you meant.",
       "id": "Apa yang mereka pahami adalah apa yang kamu komunikasikan — apa pun yang kamu maksudkan."
-     }
+     },
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 5 slides",
+        "id": "Baca dulu · 5 slide"
+       },
+       "title": {
+        "en": "Communication for Impact — Material",
+        "id": "Komunikasi untuk Dampak — Materi"
+       },
+       "intro": {
+        "en": "Start with the deck. Five slides open Chapter 4: the promise of communication for impact — turn ideas into understanding and understanding into action; an introduction to the course and to the EPIC framework; the three people you will follow through the chapter — Aaliyah, Noah and Maryam — each with a challenge and a goal; the four steps of the EPIC approach at MODA — Empathy, Purpose, Insight, Conversation; and the key takeaways with resources to explore. Read them, then watch the two films below before the case in focus.",
+        "id": "Mulai dari deknya. Lima slide membuka Bab 4: janji komunikasi untuk dampak — mengubah ide menjadi pemahaman dan pemahaman menjadi aksi; pengantar kursus dan kerangka EPIC; tiga orang yang akan kamu ikuti sepanjang bab ini — Aaliyah, Noah, dan Maryam — masing-masing dengan tantangan dan tujuan; empat langkah pendekatan EPIC di MODA — Empati, Tujuan, Insight, Percakapan; dan poin-poin penting beserta referensi untuk dijelajahi. Bacalah, lalu tonton dua film di bawahnya sebelum kasus sorotan."
+       },
+       "base": "../../assets/lms/the-map/slides/communication-",
+       "slides": [
+        {
+         "title": {
+          "en": "Communication for Impact",
+          "id": "Komunikasi untuk Dampak"
+         },
+         "text": {
+          "en": "Chapter 4. Turn ideas into understanding. Turn understanding into action. Create meaningful impact through effective communication. Share ideas clearly · build stronger relationships · drive action and impact. Communicate with clarity — express ideas in a simple, structured and compelling way. Build stronger connections — listen actively and adapt to your audience. Influence and create impact — turn communication into alignment, action and results. Better conversations, brighter outcomes.",
+          "id": "Bab 4. Ubah ide menjadi pemahaman. Ubah pemahaman menjadi aksi. Ciptakan dampak yang bermakna melalui komunikasi yang efektif. Sampaikan ide dengan jelas · bangun hubungan yang lebih kuat · dorong aksi dan ciptakan dampak. Komunikasikan dengan kejelasan — sampaikan ide dengan cara yang sederhana, terstruktur, dan menarik. Bangun hubungan yang lebih kuat — dengarkan secara aktif dan sesuaikan pesan dengan audiens Anda. Pengaruhi dan ciptakan dampak — ubah komunikasi menjadi keselarasan, aksi, dan hasil yang nyata. Percakapan yang lebih baik, hasil yang lebih nyata."
+         }
+        },
+        {
+         "title": {
+          "en": "Introduction to Communicating for Impact",
+          "id": "Pengantar Komunikasi untuk Dampak"
+         },
+         "text": {
+          "en": "Turn ideas into understanding. Turn understanding into action. Welcome to the Communicating for Impact course! Communication challenges are very common obstacles to success in a professional environment. Having good communication skills not only helps you avoid frustration and misunderstandings but also makes you and your team more efficient and impactful in your work. Purpose of this course: to equip you with practical techniques you can use to effectively plan and structure your communication in a way that moves people around you to take action. What you will learn — the EPIC framework: Engage / Connect — connect with your audience when communicating; Purpose — focus your communication on the common purpose with your audience; Organize — organize your facts and ideas in a clear and insightful way; Communicate — communicate your facts and ideas in a way that engages your audience, is memorable, and compels them to act. Good communication doesn’t just share information. It builds understanding, creates alignment, and inspires action: better collaboration, higher productivity, greater impact.",
+          "id": "Ubah ide menjadi pemahaman. Ubah pemahaman menjadi aksi. Selamat datang di kursus Komunikasi untuk Dampak! Tantangan komunikasi sangat umum terjadi dan sering menjadi penghambat kesuksesan di lingkungan profesional. Dengan keterampilan komunikasi yang baik, Anda tidak hanya dapat menghindari frustrasi dan miskomunikasi, tetapi juga membuat Anda dan tim lebih efisien dan memberikan dampak yang lebih besar dalam pekerjaan Anda. Tujuan kursus ini: membekali Anda dengan teknik praktis yang dapat digunakan untuk merencanakan dan menyusun komunikasi secara efektif, sehingga dapat menggerakkan orang-orang di sekitar Anda untuk mengambil aksi. Apa yang akan Anda pelajari — kerangka EPIC: Engage / Membangun Koneksi — terhubung dengan audiens Anda saat berkomunikasi; Purpose / Menentukan Tujuan — fokuskan komunikasi Anda pada tujuan bersama dengan audiens Anda; Organize / Menyusun Fakta dan Ide — susun fakta dan ide Anda dengan cara yang jelas dan berwawasan; Communicate / Menyampaikan dengan Efektif — sampaikan fakta dan ide Anda dengan cara yang menarik, mudah diingat, dan mendorong mereka untuk mengambil aksi. Komunikasi yang baik tidak hanya menyampaikan informasi. Komunikasi yang baik membangun pemahaman, menciptakan keselarasan, dan menginspirasi aksi: kolaborasi yang lebih baik, produktivitas yang lebih tinggi, dampak yang lebih besar."
+         }
+        },
+        {
+         "title": {
+          "en": "All of us have communication challenges",
+          "id": "Setiap orang menghadapi tantangan komunikasi"
+         },
+         "text": {
+          "en": "Meet the team! Meet Aaliyah, Noah and Maryam. They are the main characters you will follow throughout this course. Each of them faces different communication challenges and goals. You will get the chance to learn more about them, see their challenges in a real project, and start your own communication journey together with them! Aaliyah, Project Coordinator: “I often struggle to clearly communicate my ideas in meetings, especially when speaking with more senior team members.” Key challenge: lack of confidence when speaking in front of a more senior audience. Goal: to communicate ideas clearly, structurally, and with confidence. Noah, Product Analyst: “I often get too deep into technical details, which makes it hard for me to convey the key message clearly.” Key challenge: difficulty simplifying complex information so it is easy for the audience to understand. Goal: to deliver key insights in a concise, relevant, and impactful way. Maryam, Marketing Specialist: “I often experience miscommunication with cross-functional teams, which makes projects sometimes not run as expected.” Key challenge: difficulty aligning different perspectives and expectations across teams. Goal: to build more open, collaborative, and results-oriented communication. Three different perspectives, one shared goal: more effective communication.",
+          "id": "Kenali tim kita! Temui Aaliyah, Noah, dan Maryam. Mereka adalah tokoh utama yang akan Anda ikuti sepanjang kursus ini. Masing-masing memiliki tantangan dan tujuan komunikasi yang berbeda. Anda akan berkesempatan untuk mengenal mereka lebih dalam, melihat tantangan mereka dalam proyek, dan memulai perjalanan komunikasi Anda sendiri bersama mereka! Aaliyah, Project Coordinator: “Saya sering kesulitan menyampaikan ide saya dengan jelas dalam rapat dengan tim yang lebih senior.” Tantangan utama: kurang percaya diri saat berbicara di depan audiens yang lebih senior. Tujuan: mampu menyampaikan ide secara jelas, terstruktur, dan meyakinkan. Noah, Product Analyst: “Saya sering terjebak dalam terlalu banyak detail teknis, sehingga pesan utama saya tidak tersampaikan dengan baik.” Tantangan utama: sulit menyederhanakan informasi yang kompleks agar mudah dipahami audiens. Tujuan: dapat menyampaikan insight penting secara ringkas, relevan, dan berdampak. Maryam, Marketing Specialist: “Saya sering mengalami miskomunikasi dengan tim lintas fungsi, sehingga proyek sering tidak berjalan sesuai ekspektasi.” Tantangan utama: kesulitan menyelaraskan perspektif dan ekspektasi antar tim. Tujuan: membangun komunikasi yang lebih terbuka, kolaboratif, dan berorientasi pada hasil. Tiga perspektif berbeda, satu tujuan bersama: komunikasi yang lebih efektif."
+         }
+        },
+        {
+         "title": {
+          "en": "Welcome to Communicating for Impact — the EPIC approach",
+          "id": "Selamat datang di Komunikasi untuk Dampak — pendekatan EPIC"
+         },
+         "text": {
+          "en": "From understanding perspectives to driving real action. As mentioned in the previous section, the team at MODA is undergoing a digital transformation, where they will face a series of communication challenges, which are common obstacles to success in a professional environment. The goals of this course are to help you understand how to overcome these common communication challenges, and to move people to action based on four key steps of the EPIC approach to communication. The EPIC approach — a simple, practical framework to help you communicate more effectively and drive impact: Empathy — put yourself in the other person’s shoes to understand their perspective (build stronger connections and trust); Purpose — define the purpose to include their needs and yours (create clarity and shared direction); Insight — articulate (explain) your ideas in a clear and compelling way (make your message easy to understand and memorable); Conversation — plan and orchestrate the flow of an effective two-way conversation (drive alignment and turn understanding into action). These steps can be applied to any communication situation, and with practice can be used in both quick daily interactions and more extensive communication planning: clearer communication, stronger collaboration, greater impact.",
+          "id": "Dari memahami perspektif hingga mendorong aksi nyata. Seperti yang telah dibahas pada bagian sebelumnya, tim di MODA sedang menjalani transformasi digital, di mana mereka akan menghadapi serangkaian tantangan komunikasi yang umum terjadi dan menjadi hambatan dalam mencapai kesuksesan di lingkungan profesional. Tujuan dari kursus ini adalah membantu Anda memahami cara mengatasi tantangan komunikasi tersebut, dan mendorong orang lain untuk mengambil tindakan berdasarkan empat langkah utama dari pendekatan EPIC dalam komunikasi. Pendekatan EPIC — kerangka sederhana dan praktis untuk membantu Anda berkomunikasi lebih efektif dan menciptakan dampak nyata: Empati — menempatkan diri pada posisi orang lain untuk memahami perspektif mereka (membangun koneksi dan kepercayaan yang lebih kuat); Tujuan — menentukan tujuan yang mencakup kebutuhan mereka dan kebutuhan Anda (menciptakan kejelasan dan arah bersama); Insight — menyampaikan (menjelaskan) ide Anda dengan cara yang jelas dan meyakinkan (membuat pesan Anda mudah dipahami dan berkesan); Percakapan — merencanakan dan mengatur alur percakapan dua arah yang efektif (mendorong keselarasan dan mengubah pemahaman menjadi aksi). Langkah-langkah ini dapat diterapkan pada berbagai situasi komunikasi, dan dengan latihan dapat digunakan dalam interaksi sehari-hari maupun perencanaan komunikasi yang lebih kompleks: komunikasi yang lebih jelas, kolaborasi yang lebih kuat, dampak yang lebih besar."
+         }
+        },
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Poin penting"
+         },
+         "text": {
+          "en": "In this module, we have covered the following key tool that will help you communicate more effectively and drive impact: the EPIC framework. Use this framework to approach any future communication opportunities and get the most out of them. Empathy — put yourself in the other person’s shoes to understand their perspective. Purpose — define the purpose to include their needs and yours. Insight — articulate (explain) your ideas in a clear and compelling way. Conversation — plan and orchestrate the flow of an effective two-way conversation. Resources you may also wish to explore: an article, “Mastering the Art of Communication: 12 Tips for Success in a Digital World”; a video, “The Importance of a Good Conversation – and How to Have It”; the books “Mastering Communication at Work: How to Lead, Manage, and Influence” (McGraw-Hill) and “The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism” (Portfolio/Penguin). Key takeaways: understand people better, communicate with clarity, build stronger collaboration, drive real impact. Better communication, bigger possibilities.",
+          "id": "Dalam modul ini, kita telah membahas alat utama berikut yang akan membantu Anda berkomunikasi lebih efektif dan menciptakan dampak nyata: kerangka EPIC. Gunakan kerangka ini untuk menghadapi berbagai peluang komunikasi di masa depan dan mendapatkan hasil yang maksimal. Empati — tempatkan diri Anda pada posisi orang lain untuk memahami perspektif mereka. Tujuan — tentukan tujuan yang mencakup kebutuhan mereka dan kebutuhan Anda. Insight — sampaikan (menjelaskan) ide Anda dengan cara yang jelas dan meyakinkan. Percakapan — rencanakan dan atur alur percakapan dua arah yang efektif. Referensi tambahan yang dapat Anda eksplorasi: artikel “Menguasai Seni Komunikasi: 12 Tips untuk Sukses di Dunia Digital”; video “Pentingnya Percakapan yang Baik – dan Cara Menerapkannya”; buku “Menguasai Komunikasi di Tempat Kerja: Cara Memimpin, Mengelola, dan Memengaruhi” (McGraw-Hill) dan “Mitos Karisma: Bagaimana Siapa Saja Dapat Menguasai Seni dan Ilmu Daya Tarik Pribadi” (Portfolio/Penguin). Poin penting: memahami orang dengan lebih baik, berkomunikasi dengan lebih jelas, membangun kolaborasi yang lebih kuat, menciptakan dampak nyata. Komunikasi yang lebih baik, membuka lebih banyak kemungkinan."
+         }
+        }
+       ]
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "epic",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch next · Chapter films",
+        "id": "Tonton berikutnya · Film bab"
+       },
+       "intro": {
+        "en": "Two films carry the deck into practice. The first checks in at MODA, the international retailer about to start a five-year digital transformation: Aaliyah, Noah and Maryam are on their way to work, each with a role in the change and a communication goal of their own. The second asks “What is EPIC?” and answers it step by step — Empathy before you chart a course, Purpose as the place you need to end up rather than the agenda, Insight chosen by chipping away like a sculptor, and Conversation planned as a two-way exchange, not a monologue. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the case in focus below.",
+        "id": "Dua film membawa dek tadi ke praktik. Film pertama berkunjung ke MODA, peritel internasional yang akan memulai transformasi digital lima tahun: Aaliyah, Noah, dan Maryam sedang menuju tempat kerja, masing-masing dengan peran dalam perubahan itu dan tujuan komunikasinya sendiri. Film kedua bertanya “Apa itu EPIC?” dan menjawabnya langkah demi langkah — Empati sebelum menyusun arah, Tujuan sebagai titik akhir yang harus dicapai alih-alih sekadar agenda, Insight yang dipilih dengan memangkas seperti pemahat, dan Percakapan yang direncanakan sebagai pertukaran dua arah, bukan monolog. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: EPIC before you speak",
+         "id": "Poin penting: EPIC sebelum berbicara"
+        },
+        "body": [
+         {
+          "en": "Preparation is the most neglected part of communication. EPIC makes it a habit: Empathy, Purpose, Insight, Conversation — four questions to answer before any meeting, presentation or one-to-one.",
+          "id": "Persiapan adalah bagian komunikasi yang paling sering diabaikan. EPIC menjadikannya kebiasaan: Empati, Tujuan, Insight, Percakapan — empat pertanyaan yang dijawab sebelum rapat, presentasi, atau pertemuan empat mata apa pun."
+         },
+         {
+          "en": "Empathy means knowing where your audience is — their feelings, understanding and pressures — with no assumptions. Purpose is where you need them to end up, not just the meeting’s objective.",
+          "id": "Empati berarti tahu di mana posisi audiens — perasaan, pemahaman, dan tekanan mereka — tanpa asumsi. Tujuan adalah tempat mereka harus berakhir, bukan sekadar sasaran rapat."
+         },
+         {
+          "en": "Insight is sculpture, not painting: chip away at everything you know until only the insights that serve the purpose remain. Then plan the Conversation — how you open, close, handle questions and involve people.",
+          "id": "Insight itu memahat, bukan melukis: pangkas semua yang Anda tahu sampai tersisa insight yang melayani tujuan. Lalu rencanakan Percakapannya — cara membuka, menutup, menangani pertanyaan, dan melibatkan orang."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/communication-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-1-poster.jpg",
+         "dur": "1:23",
+         "title": {
+          "en": "Checking in at MODA: meet Aaliyah, Noah and Maryam",
+          "id": "Berkunjung ke MODA: temui Aaliyah, Noah, dan Maryam"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-1-en.vtt",
+          "id": "../../assets/lms/the-map/communication-1-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/communication-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-2-poster.jpg",
+         "dur": "3:15",
+         "title": {
+          "en": "What is EPIC? Empathy, Purpose, Insight, Conversation",
+          "id": "Apa itu EPIC? Empati, Tujuan, Insight, Percakapan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-2-en.vtt",
+          "id": "../../assets/lms/the-map/communication-2-id.vtt"
+         }
+        }
+       ]
+      }
+     ]
     },
     {
      "n": "4.2",
