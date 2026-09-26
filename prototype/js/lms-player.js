@@ -1927,6 +1927,554 @@
      journey: { before:{label,desc}, now:{label,desc}, next:{label,desc,href?,tool?,mode?} }
        "Where this sits in your journey" — the step before, this module, and
        the next move, which may link to another product or launch a tool. */
+  /* ── Case assignment (`caseStudy{}`): an interactive consulting-style case
+     rendered as brief → three steps → review & submit. The registry owns every
+     word (brief, guidance, prompts, rubric keywords); the player owns the
+     mechanics: a stepper, a SMART checklist, a visual issue-tree builder, a
+     2×2 impact/feasibility matrix, a rule-based framework check, autosaved
+     drafts and a locked submission. Storage: 'mt-lms-case:<slug>:<lesson>' =
+     { a:{q1..q8}, step, submitted:{at,id} } — on this device only. ── */
+  function caseKey(l) { return 'mt-lms-case:' + slug + ':' + l.n; }
+  function caseRead(l) { try { return JSON.parse(localStorage.getItem(caseKey(l)) || '{}') || {}; } catch (e) { return {}; } }
+  function caseWrite(l, d) { try { localStorage.setItem(caseKey(l), JSON.stringify(d)); } catch (e) {} }
+  function caseSubmitted(l) { var d = caseRead(l); return !!(d && d.submitted); }
+  function words(t) { return (String(t || '').match(/\S+/g) || []).length; }
+  function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  var CASE_ICO = {
+    users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.5 14.2a4.5 4.5 0 0 1 5 4.3"/></svg>',
+    car: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13.5 5.8 8.3A2 2 0 0 1 7.7 7h8.6a2 2 0 0 1 1.9 1.3L20 13.5"/><rect x="3" y="13.5" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="16.3" r="1.1" fill="currentColor" stroke="none"/><circle cx="16.5" cy="16.3" r="1.1" fill="currentColor" stroke="none"/></svg>',
+    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5l3.2 1.9"/></svg>',
+    target: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.8"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></svg>',
+    bus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="4" width="14" height="14" rx="2.5"/><path d="M5 11h14M8 18v2M16 18v2"/><circle cx="8.5" cy="14.5" r=".9" fill="currentColor" stroke="none"/><circle cx="15.5" cy="14.5" r=".9" fill="currentColor" stroke="none"/></svg>',
+    metro: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 17.5V8a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v9.5"/><path d="M6 12.5h12M6 17.5h12M8 20l-1.5 2M16 20l1.5 2"/></svg>',
+    rail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 18.5h16M6 18.5V9l6-4 6 4v9.5"/><path d="M9.5 18.5v-4h5v4"/></svg>',
+    taxi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 7V5h5v2"/><path d="M4 13.5 5.8 8.3A2 2 0 0 1 7.7 7h8.6a2 2 0 0 1 1.9 1.3L20 13.5"/><rect x="3" y="13.5" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="16.3" r="1.1" fill="currentColor" stroke="none"/><circle cx="16.5" cy="16.3" r="1.1" fill="currentColor" stroke="none"/></svg>',
+    mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>',
+    flag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>',
+    lock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5.5" y="10" width="13" height="10" rx="2"/><path d="M8.5 10V7.5a3.5 3.5 0 0 1 7 0V10"/></svg>',
+    up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17 10 11l4 4 6-7"/><path d="M15 8h5v5"/></svg>',
+    down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l6 6 4-4 6 7"/><path d="M15 16h5v-5"/></svg>'
+  };
+
+  /* Rule-based framework check. Reads the answers against the SMART / MECE /
+     prioritisation rules with keyword lists from the registry; it flags
+     signals, never grades. Returns [{group, ok, text:{en,id}}]. */
+  function caseReview(cs, a) {
+    var R = cs.review || {}, out = [];
+    function has(t, list) { t = (t || '').toLowerCase(); return (list || []).some(function (w) { return t.indexOf(String(w).toLowerCase()) !== -1; }); }
+    function add(g, ok, en, id) { out.push({ group: g, ok: ok, text: { en: en, id: id } }); }
+    var q1 = a.q1 || '', ls = cs.steps[0], stem = ls.questions[0].stem;
+    var full = (stem[lang()] || stem.en) + ' ' + q1;
+    add('smart', words(q1) >= (ls.questions[0].min || 10), words(q1) >= (ls.questions[0].min || 10) ? 'Statement has enough substance (' + words(q1) + ' words after the stem).' : 'Statement is very short (' + words(q1) + ' words) — say what changes, for whom, by how much and by when.',
+      words(q1) >= (ls.questions[0].min || 10) ? 'Pernyataan cukup berisi (' + words(q1) + ' kata setelah pembuka).' : 'Pernyataan sangat pendek (' + words(q1) + ' kata) — sebutkan apa yang berubah, untuk siapa, seberapa besar, dan kapan.');
+    add('smart', has(full, R.measure), has(full, R.measure) ? 'Measurable: a target figure is in the statement.' : 'No target figure found — the Mayor gave one (60 → 30 minutes).', has(full, R.measure) ? 'Terukur: angka target ada dalam pernyataan.' : 'Tidak ada angka target — Wali Kota memberikannya (60 → 30 menit).');
+    add('smart', has(full, R.time), has(full, R.time) ? 'Time-bound: a horizon is stated.' : 'No horizon found — the brief says five years.', has(full, R.time) ? 'Terikat waktu: jangka waktu disebutkan.' : 'Tidak ada jangka waktu — arahannya menyebut lima tahun.');
+    add('smart', has(full, R.action), has(full, R.action) ? 'Action-oriented: the statement uses a verb the city can act on.' : 'No action verb found — “reduce”, “bring down”, “shorten”…', has(full, R.action) ? 'Berorientasi tindakan: ada kata kerja yang bisa ditindaklanjuti kota.' : 'Tidak ada kata kerja tindakan — “menurunkan”, “memangkas”, “mempersingkat”…');
+    add('smart', has(full, R.stakeholder), has(full, R.stakeholder) ? 'Specific: the people affected are named.' : 'Who is affected? Name the residents, commuters or businesses.', has(full, R.stakeholder) ? 'Spesifik: orang yang terdampak disebutkan.' : 'Siapa yang terdampak? Sebutkan warga, komuter, atau dunia usaha.');
+    if (has(full, R.solution)) add('smart', false, 'The statement presupposes a solution (“by building…”). Keep the question open; solutions come after the analysis.', 'Pernyataan sudah mengandaikan solusi (“dengan membangun…”). Biarkan pertanyaannya terbuka; solusi datang setelah analisis.');
+    /* tree */
+    var st = cs.steps[1], issues = st.issues.map(function (q) { return a[q.id] || {}; });
+    var filled = issues.every(function (x) { return words(x.issue) >= 3 && (x.subs || []).every(function (s) { return words(s) >= 2; }); });
+    add('tree', filled, filled ? 'Three issues and six sub-issues are written out.' : 'The tree is incomplete — every issue needs two sub-issues.', filled ? 'Tiga isu dan enam sub-isu sudah tertulis.' : 'Pohonnya belum lengkap — setiap isu butuh dua sub-isu.');
+    var STOP = /^(the|a|an|and|or|of|to|in|for|on|with|by|we|can|how|our|its|is|are|be|that|this|more|less|dan|atau|yang|di|ke|untuk|dengan|kita|dapat|bagaimana|bisa|agar|lebih|dari|pada|ini|itu)$/;
+    function bag(t) { var o = {}; (String(t || '').toLowerCase().match(/[a-zÀ-ɏ]{3,}/g) || []).forEach(function (w) { if (!STOP.test(w)) o[w] = 1; }); return Object.keys(o); }
+    var pairs = [], L = ['A', 'B', 'C'];
+    for (var i = 0; i < 3; i++) for (var j = i + 1; j < 3; j++) {
+      /* two views: the issue questions alone (a near-duplicate question is an
+         overlap even with different sub-issues) and the whole branches */
+      var jacOf = function (ta, tb) { var a = bag(ta), b = bag(tb); if (!a.length || !b.length) return 0; var inter = a.filter(function (w) { return b.indexOf(w) !== -1; }).length; return inter / (a.length + b.length - inter); };
+      var jI = jacOf(issues[i].issue, issues[j].issue), jB = jacOf(issues[i].issue + ' ' + (issues[i].subs || []).join(' '), issues[j].issue + ' ' + (issues[j].subs || []).join(' '));
+      var jac = Math.max(jI >= 0.5 ? jI : 0, jB >= 0.34 ? jB : 0);
+      if (jac) pairs.push(L[i] + '–' + L[j] + ' (' + Math.round(jac * 100) + '%)');
+    }
+    add('tree', !pairs.length, pairs.length ? 'Issues ' + pairs.join(', ') + ' share much of their wording — check they are not the same question twice.' : 'No two issues share most of their wording.', pairs.length ? 'Isu ' + pairs.join(', ') + ' berbagi banyak kata yang sama — pastikan bukan pertanyaan yang sama dua kali.' : 'Tidak ada dua isu yang berbagi sebagian besar kata.');
+    var allText = issues.map(function (x) { return x.issue + ' ' + (x.subs || []).join(' '); }).join(' ');
+    var missing = (R.dimensions || []).filter(function (d) { return !has(allText, d.words); });
+    if (filled) add('tree', missing.length <= 2, missing.length ? 'Dimensions the tree does not mention: ' + missing.map(function (d) { return d.name.en; }).join(' · ') + '. A gap, or a deliberate scope?' : 'The tree touches every dimension in the case brief.',
+      missing.length ? 'Dimensi yang tidak disebut pohon: ' + missing.map(function (d) { return d.name.id; }).join(' · ') + '. Celah, atau ruang lingkup yang disengaja?' : 'Pohon menyentuh setiap dimensi dalam arahan kasus.');
+    var m = a.q6 || {};
+    add('tree', !!(m.overlap && m.gap), m.overlap && m.gap ? 'MECE check answered for overlaps and gaps.' : 'The MECE check is not answered yet.', m.overlap && m.gap ? 'Uji MECE dijawab untuk tumpang tindih dan celah.' : 'Uji MECE belum dijawab.');
+    /* prioritisation */
+    var q7 = a.q7 || {}, place = q7.place || {}, ids = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    var placed = ids.filter(function (k) { return place[k]; }).length, hh = ids.filter(function (k) { return place[k] === 'hh'; });
+    add('prio', placed === 6, placed === 6 ? 'All six sub-issues are placed on the matrix.' : placed + ' of 6 sub-issues placed.', placed === 6 ? 'Keenam sub-isu sudah ditempatkan di matriks.' : placed + ' dari 6 sub-isu ditempatkan.');
+    add('prio', hh.length === 2, hh.length === 2 ? 'Exactly two sub-issues in the high-impact, high-feasibility quadrant: ' + hh.join(' and ') + '.' : (hh.length > 2 ? hh.length + ' sub-issues sit top-right — that is a list, not a priority.' : 'Fewer than two sub-issues sit top-right.'),
+      hh.length === 2 ? 'Tepat dua sub-isu di kuadran dampak tinggi–kelayakan tinggi: ' + hh.join(' dan ') + '.' : (hh.length > 2 ? hh.length + ' sub-isu berada di kanan atas — itu daftar, bukan prioritas.' : 'Kurang dari dua sub-isu di kanan atas.'));
+    if (hh.length === 2 && hh[0][0] === hh[1][0]) add('prio', true, 'Both picks come from Issue ' + hh[0][0] + ' — fine if that branch really dominates; say so in the rationale.', 'Kedua pilihan berasal dari Isu ' + hh[0][0] + ' — tidak apa-apa jika cabang itu memang dominan; sebutkan di alasanmu.');
+    var q8 = a.q8 || {}, rmin = st && cs.steps[2].review.min || 25;
+    add('prio', words(q8.note) >= rmin, words(q8.note) >= rmin ? 'The case for the two picks is written (' + words(q8.note) + ' words).' : 'The rationale is short (' + words(q8.note) + ' words; ' + rmin + ' asked) — argue impact and feasibility for each pick.',
+      words(q8.note) >= rmin ? 'Alasan dua pilihan sudah ditulis (' + words(q8.note) + ' kata).' : 'Alasannya pendek (' + words(q8.note) + ' kata; diminta ' + rmin + ') — bahas dampak dan kelayakan tiap pilihan.');
+    var both = /impact|dampak/i.test(q8.note || '') && /feasib|layak|realistis|bisa dilakukan/i.test(q8.note || '');
+    if (words(q8.note) >= 10) add('prio', both, both ? 'The rationale speaks to both axes, impact and feasibility.' : 'The rationale should name both axes: how much it moves the commute, and whether the city can act.', both ? 'Alasan menyentuh kedua sumbu, dampak dan kelayakan.' : 'Alasan harus menyebut kedua sumbu: seberapa besar menggerakkan waktu tempuh, dan apakah kota bisa bertindak.');
+    add('prio', !!q8.confirm, q8.confirm ? 'Prioritisation reconsidered and confirmed.' : 'The prioritisation quality check is not confirmed yet.', q8.confirm ? 'Prioritisasi dipertimbangkan ulang dan dikonfirmasi.' : 'Uji mutu prioritisasi belum dikonfirmasi.');
+    return out;
+  }
+
+  function renderCase(l, host) {
+    var cs = l.caseStudy;
+    if (!cs || !cs.steps) return;
+    var T = function (pair) { return pair ? (pair[lang()] || pair.en) : ''; };
+    var D = caseRead(l); D.a = D.a || {}; var A = D.a;
+    var locked = !!D.submitted;
+    var saveT = 0, savedAt = el('span', 'cs-saved');
+    function persist(now) {
+      clearTimeout(saveT);
+      var run = function () { caseWrite(l, D); savedAt.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini' : 'Saved on this device'; savedAt.classList.add('on'); };
+      if (now) run(); else saveT = setTimeout(run, 350);
+    }
+    /* completeness per question id */
+    var S1 = cs.steps[0], S2 = cs.steps[1], S3 = cs.steps[2];
+    var Q1 = S1.questions[0], Q2 = S1.questions[1];
+    function subIds() { return S2.issues.map(function (q) { return [q.letter + '1', q.letter + '2']; }).reduce(function (a, b) { return a.concat(b); }, []); }
+    var done = {
+      q1: function () { return words(A.q1) >= (Q1.min || 10); },
+      q2: function () { var s = A.q2 || {}; return Q2.items.every(function (it) { return s[it.k] === true; }); },
+      q3: function () { return issueDone(0); }, q4: function () { return issueDone(1); }, q5: function () { return issueDone(2); },
+      q6: function () { var m = A.q6 || {}; return !!(m.overlap && m.gap); },
+      q7: function () { var p = (A.q7 || {}).place || {}; var ids = subIds(); return ids.every(function (k) { return p[k]; }) && ids.filter(function (k) { return p[k] === 'hh'; }).length === 2; },
+      q8: function () { var r = A.q8 || {}; return !!r.confirm && words(r.note) >= (S3.review.min || 25); }
+    };
+    function issueDone(i) { var x = A[S2.issues[i].id] || {}; return words(x.issue) >= 3 && (x.subs || []).length === 2 && x.subs.every(function (s) { return words(s) >= 2; }); }
+    var QIDS = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8'];
+    function stepDone(i) { return i === 0 ? done.q1() && done.q2() : i === 1 ? done.q3() && done.q4() && done.q5() && done.q6() : i === 2 ? done.q7() && done.q8() : locked; }
+    function stepAllowed(i) { for (var k = 0; k < i && k < 3; k++) if (!stepDone(k)) return false; return true; }
+    function answered() { return QIDS.filter(function (q) { return done[q](); }).length; }
+
+    var box = el('section', 'lms-case' + (locked ? ' locked' : ''));
+    box.id = 'lmsCase';
+    /* ── header ── */
+    var hd = el('div', 'cs-head');
+    hd.appendChild(bi('span', 'lms-kicker', cs.kicker));
+    hd.appendChild(bi('h3', 'cs-title', cs.title));
+    hd.appendChild(bi('p', 'cs-lead', cs.lead));
+    if (cs.practice) {
+      var pr = el('div', 'cs-practice');
+      cs.practice.forEach(function (p, i) { var c = el('div', 'cs-pr'); c.appendChild(el('b', null, String(i + 1))); c.appendChild(bi('span', null, p)); pr.appendChild(c); });
+      hd.appendChild(pr);
+    }
+    if (cs.goal) { var g = el('div', 'cs-goal'); g.appendChild(el('span', 'cs-goal-ic', CASE_ICO.target)); var gt = el('div'); gt.appendChild(bi('b', null, { en: 'Goal', id: 'Tujuan' })); gt.appendChild(bi('p', null, cs.goal)); g.appendChild(gt); hd.appendChild(g); }
+    box.appendChild(hd);
+
+    /* ── the brief: folder tabs ── */
+    var B = cs.brief || {};
+    var brief = el('div', 'cs-brief');
+    var tabs = el('div', 'cs-tabs'); tabs.setAttribute('role', 'tablist');
+    var panes = el('div', 'cs-panes');
+    var TABS = [];
+    if (B.email) TABS.push({ id: 'brief', label: { en: 'The brief', id: 'Arahan' }, build: buildEmail });
+    if (B.facts) TABS.push({ id: 'context', label: { en: 'City context', id: 'Konteks kota' }, build: buildFacts });
+    if (B.chart) TABS.push({ id: 'data', label: { en: 'The data', id: 'Datanya' }, build: buildChart });
+    if (B.modes) TABS.push({ id: 'modes', label: { en: 'Modes of transport', id: 'Moda transportasi' }, build: buildModes });
+    TABS.forEach(function (t, i) {
+      var b = bi('button', 'cs-tab' + (i === 0 ? ' on' : ''), t.label); b.type = 'button'; b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+      var pane = el('div', 'cs-pane' + (i === 0 ? ' on' : '')); pane.setAttribute('role', 'tabpanel'); t.build(pane);
+      b.addEventListener('click', function () {
+        tabs.querySelectorAll('.cs-tab').forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-selected', 'false'); });
+        panes.querySelectorAll('.cs-pane').forEach(function (x) { x.classList.remove('on'); });
+        b.classList.add('on'); b.setAttribute('aria-selected', 'true'); pane.classList.add('on');
+      });
+      tabs.appendChild(b); panes.appendChild(pane);
+    });
+    brief.appendChild(tabs); brief.appendChild(panes);
+    box.appendChild(brief);
+
+    function buildEmail(pane) {
+      var E = B.email;
+      if (B.quote) { var q = el('blockquote', 'cs-quote'); q.appendChild(el('span', 'cs-qmark', '“')); var qi = el('div'); qi.appendChild(bi('p', null, B.quote.text)); qi.appendChild(bi('cite', null, B.quote.who)); q.appendChild(qi); pane.appendChild(q); }
+      var m = el('div', 'cs-mail');
+      var mh = el('div', 'cs-mail-h');
+      mh.appendChild(el('span', 'cs-avatar', 'MH'));
+      var who = el('div', 'cs-mail-who'); who.appendChild(bi('b', null, E.from)); who.appendChild(bi('span', null, E.to)); mh.appendChild(who);
+      mh.appendChild(bi('span', 'cs-mail-date', E.date));
+      m.appendChild(mh);
+      if (E.subject) m.appendChild(bi('div', 'cs-mail-subj', E.subject));
+      var body = el('div', 'cs-mail-b');
+      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      if (E.asks) { var ol = el('ol', 'cs-asks'); E.asks.forEach(function (p, i) { var li = el('li'); li.appendChild(el('b', 'cs-ask-n', String(i + 1))); li.appendChild(bi('span', null, p)); ol.appendChild(li); }); body.appendChild(ol); }
+      (E.closing || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      m.appendChild(body); pane.appendChild(m);
+    }
+    function buildFacts(pane) {
+      var g = el('div', 'cs-facts');
+      B.facts.forEach(function (f) { var c = el('div', 'cs-fact' + (f.hot ? ' hot' : '')); c.appendChild(el('span', 'cs-fact-ic', CASE_ICO[f.icon] || CASE_ICO.target)); var t = el('div'); t.appendChild(bi('b', null, f.k)); t.appendChild(bi('span', null, f.v)); c.appendChild(t); g.appendChild(c); });
+      pane.appendChild(g);
+      var task = el('div', 'cs-task'); task.appendChild(bi('h4', null, { en: 'Your task', id: 'Tugasmu' }));
+      var ol = el('ol'); cs.steps.forEach(function (s, i) { var li = el('li'); li.appendChild(el('b', null, String(i + 1))); li.appendChild(bi('span', null, s.title)); ol.appendChild(li); }); task.appendChild(ol); pane.appendChild(task);
+    }
+    function buildChart(pane) {
+      var C = B.chart, n = C.years.length;
+      var wrap = el('div', 'cs-chart');
+      var hh = el('div', 'cs-chart-h'); hh.appendChild(bi('b', null, C.title)); hh.appendChild(bi('span', null, C.unit)); wrap.appendChild(hh);
+      /* 100 % stacked bars, one per year; series order fixed; 2 px surface gaps; direct labels on every segment (three series, six numbers) */
+      var W = 520, H = 250, padL = 34, padB = 28, padT = 10, bw = 78, gap = (W - padL - n * bw) / (n + 1), plotH = H - padT - padB;
+      var svg = '<svg class="cs-svg" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(T(C.title)) + '">';
+      [0, 25, 50, 75, 100].forEach(function (v) { var y = padT + plotH * (1 - v / 100); svg += '<line class="cs-grid" x1="' + padL + '" x2="' + W + '" y1="' + y.toFixed(1) + '" y2="' + y.toFixed(1) + '"/><text class="cs-tick" x="' + (padL - 6) + '" y="' + (y + 4).toFixed(1) + '" text-anchor="end">' + v + '</text>'; });
+      C.years.forEach(function (yr, yi) {
+        var x = padL + gap + yi * (bw + gap), acc = 0;
+        C.series.forEach(function (s, si) {
+          var v = s.vals[yi], h = plotH * v / 100, y = padT + plotH * (1 - (acc + v) / 100);
+          var inner = Math.max(0, h - 2);
+          svg += '<g class="cs-seg" data-year="' + yr + '" data-series="' + si + '" tabindex="0"><title>' + esc(yr + ' · ' + T(s.label) + ': ' + v + '%') + '</title>' +
+            '<rect class="cs-bar s' + (si + 1) + '" x="' + x + '" y="' + (y + 1).toFixed(1) + '" width="' + bw + '" height="' + inner.toFixed(1) + '" rx="' + (si === C.series.length - 1 ? 4 : 0) + '"/>' +
+            '<text class="cs-val" x="' + (x + bw / 2) + '" y="' + (y + h / 2 + 4).toFixed(1) + '" text-anchor="middle">' + v + '%</text></g>';
+          acc += v;
+        });
+        svg += '<text class="cs-year" x="' + (x + bw / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' + yr + '</text>';
+      });
+      svg += '</svg>';
+      var plot = el('div', 'cs-plot', svg);
+      var leg = el('ul', 'cs-legend');
+      C.series.forEach(function (s, si) { var li = el('li'); li.appendChild(el('i', 's' + (si + 1))); var t = el('span'); t.appendChild(bi('b', null, s.label)); if (s.sub) t.appendChild(bi('small', null, s.sub)); li.appendChild(t); leg.appendChild(li); });
+      var row = el('div', 'cs-chart-row'); row.appendChild(plot); row.appendChild(leg); wrap.appendChild(row);
+      /* table view of the same numbers */
+      var det = el('details', 'cs-table'); det.appendChild(bi('summary', null, { en: 'Show as a table', id: 'Tampilkan sebagai tabel' }));
+      var tb = '<table><thead><tr><th></th>' + C.years.map(function (y) { return '<th>' + y + '</th>'; }).join('') + '</tr></thead><tbody>' + C.series.map(function (s) { return '<tr><th>' + esc(T(s.label)) + '</th>' + s.vals.map(function (v) { return '<td>' + v + '%</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table>';
+      det.appendChild(el('div', null, tb)); wrap.appendChild(det);
+      pane.appendChild(wrap);
+      if (C.takeaways) {
+        var tk = el('div', 'cs-tk'); tk.appendChild(bi('h4', null, { en: 'Key takeaways', id: 'Poin-poin penting' }));
+        C.takeaways.forEach(function (t, i) { var c = el('div', 'cs-tk-i'); c.appendChild(el('span', 'cs-tk-ic ' + (t.dir || ''), CASE_ICO[t.dir] || '')); var tx = el('div'); tx.appendChild(bi('b', null, t.h)); tx.appendChild(bi('p', null, t.p)); c.appendChild(tx); tk.appendChild(c); });
+        pane.appendChild(tk);
+      }
+      if (C.note) { var nt = el('p', 'cs-note'); nt.appendChild(bi('span', null, C.note)); pane.appendChild(nt); }
+    }
+    function buildModes(pane) {
+      var M = B.modes;
+      pane.appendChild(bi('p', 'cs-modes-intro', M.intro));
+      var grid = el('div', 'cs-modes');
+      M.cols.forEach(function (c) {
+        var card = el('div', 'cs-mode ' + (c.tone || ''));
+        var h = el('div', 'cs-mode-h'); h.appendChild(el('span', 'cs-mode-ic', CASE_ICO[c.icon] || '')); h.appendChild(bi('b', null, c.name)); card.appendChild(h);
+        var dl = el('dl');
+        M.rows.forEach(function (r, i) { dl.appendChild(bi('dt', null, r)); dl.appendChild(bi('dd', null, c.cells[i])); });
+        card.appendChild(dl); grid.appendChild(card);
+      });
+      pane.appendChild(grid);
+    }
+
+    /* ── stepper ── */
+    var STEPS = cs.steps.map(function (s) { return { title: s.title, short: s.short }; }).concat([{ title: cs.submit.title, short: cs.submit.short }]);
+    var cur = Math.max(0, Math.min(STEPS.length - 1, locked ? STEPS.length - 1 : (D.step || 0)));
+    var stepper = el('ol', 'cs-steps'); stepper.setAttribute('aria-label', 'Case steps');
+    var prog = el('div', 'cs-prog'); var progBar = el('div', 'cs-prog-bar'); var progFill = el('i'); progBar.appendChild(progFill); var progTx = el('span', 'cs-prog-tx');
+    prog.appendChild(progBar); prog.appendChild(progTx); prog.appendChild(savedAt);
+    var body = el('div', 'cs-body');
+    box.appendChild(stepper); box.appendChild(prog); box.appendChild(body);
+
+    function drawStepper() {
+      stepper.innerHTML = '';
+      STEPS.forEach(function (s, i) {
+        var ok = i < 3 ? stepDone(i) : locked;
+        var li = el('li', 'cs-step' + (i === cur ? ' on' : '') + (ok ? ' done' : '') + (stepAllowed(i) ? '' : ' locked'));
+        var b = el('button'); b.type = 'button'; b.disabled = !stepAllowed(i);
+        b.innerHTML = '<span class="cs-step-n">' + (ok ? CASE_ICO.check : (i + 1)) + '</span>';
+        b.appendChild(bi('span', 'cs-step-t', s.short || s.title));
+        b.addEventListener('click', function () { go(i); });
+        li.appendChild(b); stepper.appendChild(li);
+      });
+      var n = answered();
+      progFill.style.width = (n / 8 * 100) + '%';
+      progTx.textContent = (lang() === 'id' ? n + ' dari 8 pertanyaan terjawab' : n + ' of 8 questions answered');
+    }
+    function go(i) {
+      if (!stepAllowed(i)) return;
+      cur = i; D.step = i; persist(true); drawStepper(); drawBody();
+      var top = box.querySelector('.cs-steps'); if (top) top.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    /* field helpers */
+    function field(v, opts) {
+      var ta = el('textarea', 'cs-ta'); ta.rows = opts.rows || 2; ta.value = v || ''; ta.placeholder = opts.ph || ''; ta.disabled = locked;
+      if (opts.label) ta.setAttribute('aria-label', opts.label);
+      ta.addEventListener('input', function () { opts.on(ta.value); persist(); });
+      return ta;
+    }
+    function qhead(label, title, help, okFn) {
+      var h = el('div', 'cs-qh');
+      var tag = el('span', 'cs-qtag', label);
+      var t = el('div'); t.appendChild(bi('h4', null, title)); if (help) t.appendChild(bi('p', 'cs-qhelp', help));
+      var st = el('span', 'cs-qstate');
+      h.appendChild(tag); h.appendChild(t); h.appendChild(st);
+      h._sync = function () { var ok = okFn(); st.className = 'cs-qstate' + (ok ? ' ok' : ''); st.innerHTML = ok ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; };
+      h._sync();
+      return h;
+    }
+    function guide(step) { var g = el('div', 'cs-guide'); g.appendChild(el('span', 'cs-guide-ic', CASE_ICO.flag)); g.appendChild(bi('p', null, step.guide)); return g; }
+    function nav(i) {
+      var f = el('div', 'cs-nav');
+      if (i > 0) { var back = bi('button', 'lms-nav-btn', { en: '← Previous step', id: '← Langkah sebelumnya' }); back.type = 'button'; back.addEventListener('click', function () { go(i - 1); }); f.appendChild(back); }
+      var msg = el('span', 'cs-nav-msg');
+      var next = bi('button', 'lms-complete cs-next', i < 2 ? { en: 'Next step →', id: 'Langkah berikutnya →' } : { en: 'Review & submit →', id: 'Tinjau & kumpulkan →' }); next.type = 'button';
+      next.addEventListener('click', function () {
+        if (!stepDone(i)) { msg.textContent = lang() === 'id' ? 'Lengkapi setiap pertanyaan di langkah ini dulu.' : 'Complete every question in this step first.'; msg.classList.add('warn'); var open = body.querySelector('.cs-qstate:not(.ok)'); if (open) open.closest('.cs-q').scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+        go(i + 1);
+      });
+      f.appendChild(msg); f.appendChild(next);
+      f._sync = function () { next.classList.toggle('ready', stepDone(i)); if (stepDone(i)) { msg.textContent = ''; msg.classList.remove('warn'); } };
+      f._sync();
+      return f;
+    }
+    var syncers = [];
+    function syncAll() { syncers.forEach(function (fn) { fn(); }); drawStepper(); }
+
+    /* ── step 1: define ── */
+    function drawDefine(h) {
+      h.appendChild(guide(S1));
+      /* Q1 */
+      var q = el('div', 'cs-q');
+      var qh = qhead('Q1', Q1.title, Q1.help, done.q1); q.appendChild(qh); syncers.push(qh._sync);
+      var stem = el('div', 'cs-stem'); stem.appendChild(bi('span', 'cs-stem-t', Q1.stem)); stem.appendChild(el('span', 'cs-stem-e', '…'));
+      var ta = field(A.q1, { rows: 3, ph: T(Q1.placeholder), label: 'Q1', on: function (v) { A.q1 = v; wc._sync(); syncAll(); } });
+      var wc = el('div', 'cs-wc'); wc._sync = function () { var n = words(A.q1); wc.textContent = (lang() === 'id' ? n + ' kata' : n + ' words') + (n < (Q1.min || 10) ? ' · ' + (lang() === 'id' ? 'minimal ' + (Q1.min || 10) : 'at least ' + (Q1.min || 10)) : ''); wc.classList.toggle('ok', n >= (Q1.min || 10)); }; wc._sync();
+      var live = el('div', 'cs-live'); live._sync = function () { live.innerHTML = '<b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '…'); }; live._sync(); syncers.push(live._sync);
+      var wrapF = el('div', 'cs-field'); wrapF.appendChild(stem); wrapF.appendChild(ta); wrapF.appendChild(wc);
+      q.appendChild(wrapF); q.appendChild(live);
+      if (Q1.example) { var ex = el('details', 'cs-example'); ex.appendChild(bi('summary', null, Q1.example.label)); ex.appendChild(bi('p', null, Q1.example.text)); q.appendChild(ex); }
+      h.appendChild(q);
+      /* Q2 */
+      var q2 = el('div', 'cs-q');
+      var q2h = qhead('Q2', Q2.title, Q2.help, done.q2); q2.appendChild(q2h); syncers.push(q2h._sync);
+      A.q2 = A.q2 || {};
+      var list = el('div', 'cs-smart');
+      Q2.items.forEach(function (it) {
+        var row = el('div', 'cs-smart-r' + (A.q2[it.k] === true ? ' yes' : A.q2[it.k] === false ? ' no' : ''));
+        row.appendChild(el('span', 'cs-smart-k', it.k));
+        var tx = el('div', 'cs-smart-t'); tx.appendChild(bi('b', null, it.name)); tx.appendChild(bi('span', null, it.ask)); var hint = bi('small', null, it.hint); tx.appendChild(hint); row.appendChild(tx);
+        var seg = el('div', 'cs-seg');
+        var by = bi('button', 'cs-seg-b' + (A.q2[it.k] === true ? ' on' : ''), { en: 'Yes', id: 'Ya' }); by.type = 'button'; by.disabled = locked;
+        var bn = bi('button', 'cs-seg-b no' + (A.q2[it.k] === false ? ' on' : ''), { en: 'Not yet', id: 'Belum' }); bn.type = 'button'; bn.disabled = locked;
+        function set(v) { A.q2[it.k] = v; by.classList.toggle('on', v === true); bn.classList.toggle('on', v === false); row.className = 'cs-smart-r' + (v ? ' yes' : ' no'); persist(); nudge._sync(); syncAll(); }
+        by.addEventListener('click', function () { set(true); }); bn.addEventListener('click', function () { set(false); });
+        seg.appendChild(by); seg.appendChild(bn); row.appendChild(seg); list.appendChild(row);
+      });
+      q2.appendChild(list);
+      var nudge = el('div', 'cs-nudge'); nudge._sync = function () { var s = A.q2 || {}; var no = Q2.items.filter(function (it) { return s[it.k] === false; }); var un = Q2.items.filter(function (it) { return s[it.k] !== true && s[it.k] !== false; }); nudge.className = 'cs-nudge' + (no.length ? ' warn' : (un.length ? '' : ' ok')); nudge.innerHTML = no.length ? (lang() === 'id' ? 'Belum SMART pada <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> — kembali ke Q1, perbaiki kalimatnya, lalu centang lagi.' : 'Not yet SMART on <b>' + no.map(function (i) { return i.k; }).join(', ') + '</b> — go back to Q1, refine the wording, then tick again.') : (un.length ? (lang() === 'id' ? 'Nilai kelima kriteria.' : 'Rate all five criteria.') : (lang() === 'id' ? 'Kelima kriteria tercentang — pernyataanmu siap dipecah.' : 'All five ticked — your statement is ready to break down.')); }; nudge._sync();
+      q2.appendChild(nudge);
+      /* signals from the rule check, statement only */
+      var sig = el('div', 'cs-signals'); sig._sync = function () { var r = caseReview(cs, A).filter(function (x) { return x.group === 'smart'; }); sig.innerHTML = '<b>' + (lang() === 'id' ? 'Sinyal dari kata-katamu (berbasis aturan)' : 'Signals from your wording (rule-based)') + '</b>' + r.map(function (x) { return '<span class="' + (x.ok ? 'ok' : 'warn') + '">' + esc(T(x.text)) + '</span>'; }).join(''); }; sig._sync(); syncers.push(sig._sync);
+      q2.appendChild(sig);
+      if (Q2.reflect) { var rf = el('div', 'cs-field'); rf.appendChild(bi('label', 'cs-lab', Q2.reflect)); rf.appendChild(field(A.q2.note, { rows: 2, on: function (v) { A.q2.note = v; } })); q2.appendChild(rf); }
+      h.appendChild(q2);
+      h.appendChild(nav(0)); syncers.push(h.lastChild._sync);
+    }
+
+    /* ── step 2: issue tree ── */
+    function drawTree(h) {
+      h.appendChild(guide(S2));
+      var tree = el('div', 'cs-tree');
+      var rootN = el('div', 'cs-root'); rootN._sync = function () { rootN.innerHTML = '<span class="cs-root-k">' + (lang() === 'id' ? 'Pernyataan masalah' : 'Problem statement') + '</span><b>' + esc(T(Q1.stem)) + ' ' + esc(A.q1 || '') + '</b>'; }; rootN._sync(); syncers.push(rootN._sync);
+      tree.appendChild(rootN);
+      var branches = el('div', 'cs-branches');
+      S2.issues.forEach(function (iq, ii) {
+        var qid = iq.id; A[qid] = A[qid] || { issue: '', subs: ['', ''] }; if (!A[qid].subs || A[qid].subs.length !== 2) A[qid].subs = [(A[qid].subs || [])[0] || '', (A[qid].subs || [])[1] || ''];
+        var br = el('div', 'cs-branch');
+        var qh = qhead('Q' + (3 + ii), iq.title, null, function () { return issueDone(ii); }); br.appendChild(qh); syncers.push(qh._sync);
+        var node = el('div', 'cs-node cs-node-i');
+        node.appendChild(el('span', 'cs-node-l', iq.letter));
+        var stem = el('div', 'cs-stem'); stem.appendChild(bi('span', 'cs-stem-t', S2.stem)); stem.appendChild(el('span', 'cs-stem-e', '…'));
+        var f = el('div', 'cs-field'); f.appendChild(stem); f.appendChild(field(A[qid].issue, { rows: 2, ph: T(iq.placeholder), label: iq.letter, on: function (v) { A[qid].issue = v; syncAll(); } })); node.appendChild(f);
+        br.appendChild(node);
+        var subs = el('div', 'cs-subs');
+        [0, 1].forEach(function (si) {
+          var sn = el('div', 'cs-node cs-node-s'); sn.appendChild(el('span', 'cs-node-l', iq.letter + (si + 1)));
+          var sf = el('div', 'cs-field'); sf.appendChild(bi('label', 'cs-lab', { en: T(S2.subLabel) + ' ' + iq.letter + (si + 1), id: T(S2.subLabel) + ' ' + iq.letter + (si + 1) }));
+          sf.appendChild(field(A[qid].subs[si], { rows: 2, ph: T(S2.subPlaceholder), label: iq.letter + (si + 1), on: function (v) { A[qid].subs[si] = v; syncAll(); } }));
+          sn.appendChild(sf); subs.appendChild(sn);
+        });
+        br.appendChild(subs); branches.appendChild(br);
+      });
+      tree.appendChild(branches); h.appendChild(tree);
+      /* Q6 MECE */
+      var M = S2.mece; A.q6 = A.q6 || {};
+      var q6 = el('div', 'cs-q');
+      var q6h = qhead('Q6', M.title, M.help, done.q6); q6.appendChild(q6h); syncers.push(q6h._sync);
+      var sig = el('div', 'cs-signals'); sig._sync = function () { var r = caseReview(cs, A).filter(function (x) { return x.group === 'tree'; }).slice(0, 3); sig.innerHTML = '<b>' + (lang() === 'id' ? 'Sinyal dari pohonmu (berbasis aturan)' : 'Signals from your tree (rule-based)') + '</b>' + r.map(function (x) { return '<span class="' + (x.ok ? 'ok' : 'warn') + '">' + esc(T(x.text)) + '</span>'; }).join(''); }; sig._sync(); syncers.push(sig._sync);
+      q6.appendChild(sig);
+      [['overlap', M.overlap], ['gap', M.gap]].forEach(function (pair) {
+        var k = pair[0], spec = pair[1];
+        var row = el('div', 'cs-mece'); row.appendChild(bi('b', null, spec.ask));
+        var opts = el('div', 'cs-radio');
+        [['yes', spec.yes], ['fixed', spec.fixed]].forEach(function (o) {
+          var b = bi('button', 'cs-radio-b' + (A.q6[k] === o[0] ? ' on' : ''), o[1]); b.type = 'button'; b.disabled = locked;
+          b.addEventListener('click', function () { A.q6[k] = o[0]; opts.querySelectorAll('.cs-radio-b').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); persist(); syncAll(); });
+          opts.appendChild(b);
+        });
+        row.appendChild(opts);
+        row.appendChild(field(A.q6[k + 'Note'], { rows: 1, ph: T(spec.note), on: function (v) { A.q6[k + 'Note'] = v; } }));
+        q6.appendChild(row);
+      });
+      h.appendChild(q6);
+      h.appendChild(nav(1)); syncers.push(h.lastChild._sync);
+    }
+
+    /* ── step 3: prioritise ── */
+    function drawPrio(h) {
+      h.appendChild(guide(S3));
+      var MX = S3.matrix; A.q7 = A.q7 || { place: {} }; A.q7.place = A.q7.place || {};
+      var q7 = el('div', 'cs-q');
+      var q7h = qhead('Q7', MX.title, MX.help, done.q7); q7.appendChild(q7h); syncers.push(q7h._sync);
+      q7.appendChild(bi('p', 'cs-ask', MX.ask));
+      var ids = subIds();
+      function subText(k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; var x = A[iq.id] || {}; return (x.subs || [])[+k[1] - 1] || ''; }
+      var selected = null;
+      var tray = el('div', 'cs-tray'); var trayH = bi('div', 'cs-tray-h', { en: 'Sub-issues to place — tap one, then tap a quadrant', id: 'Sub-isu yang harus ditempatkan — ketuk satu, lalu ketuk kuadran' });
+      var trayList = el('div', 'cs-tray-l');
+      var grid = el('div', 'cs-matrix');
+      var Q = ['hl', 'hh', 'll', 'lh'];   /* row-major: top-left, top-right, bottom-left, bottom-right */
+      var cells = {};
+      Q.forEach(function (qk) {
+        var c = el('div', 'cs-quad q-' + qk); c.setAttribute('role', 'button'); c.setAttribute('tabindex', '0');
+        var ch = el('div', 'cs-quad-h'); ch.appendChild(bi('b', null, MX.quadrants[qk])); if (MX.quadNotes) ch.appendChild(bi('span', null, MX.quadNotes[qk])); c.appendChild(ch);
+        var cl = el('div', 'cs-quad-l'); c.appendChild(cl); cells[qk] = cl;
+        function drop() { if (locked || !selected) return; A.q7.place[selected] = qk; selected = null; persist(); redraw(); syncAll(); }
+        c.addEventListener('click', drop); c.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); drop(); } });
+        grid.appendChild(c);
+      });
+      var yAx = el('div', 'cs-ax-y'); yAx.innerHTML = '<span>' + esc(T(MX.axes.y)) + '</span><i>' + esc(T(MX.axes.hi)) + ' ↑</i><i>' + esc(T(MX.axes.lo)) + ' ↓</i>';
+      var xAx = el('div', 'cs-ax-x'); xAx.innerHTML = '<i>← ' + esc(T(MX.axes.lo)) + '</i><span>' + esc(T(MX.axes.x)) + '</span><i>' + esc(T(MX.axes.hi)) + ' →</i>';
+      var mwrap = el('div', 'cs-mwrap'); mwrap.appendChild(yAx); var mcol = el('div'); mcol.appendChild(grid); mcol.appendChild(xAx); mwrap.appendChild(mcol);
+      function chip(k, inQuad) {
+        var c = el('button', 'cs-chip' + (selected === k ? ' sel' : '') + (A.q7.place[k] === 'hh' ? ' top' : '')); c.type = 'button'; c.disabled = locked;
+        c.innerHTML = '<b>' + k + '</b><span>' + esc(subText(k) || (lang() === 'id' ? '(kosong)' : '(empty)')) + '</span>';
+        c.title = subText(k);
+        c.addEventListener('click', function (e) { e.stopPropagation(); if (locked) return; selected = selected === k ? null : k; redraw(); });
+        var sel = el('select', 'cs-chip-sel'); sel.disabled = locked; sel.setAttribute('aria-label', k);
+        sel.innerHTML = '<option value="">' + (lang() === 'id' ? 'Tempatkan…' : 'Place…') + '</option>' + Q.map(function (qk) { return '<option value="' + qk + '"' + (A.q7.place[k] === qk ? ' selected' : '') + '>' + esc(T(MX.quadrants[qk])) + '</option>'; }).join('');
+        sel.addEventListener('click', function (e) { e.stopPropagation(); });
+        sel.addEventListener('change', function () { if (sel.value) A.q7.place[k] = sel.value; else delete A.q7.place[k]; selected = null; persist(); redraw(); syncAll(); });
+        var w = el('div', 'cs-chipw'); w.appendChild(c); w.appendChild(sel); return w;
+      }
+      function redraw() {
+        trayList.innerHTML = ''; Q.forEach(function (qk) { cells[qk].innerHTML = ''; });
+        var left = 0;
+        ids.forEach(function (k) { var p = A.q7.place[k]; if (p && cells[p]) cells[p].appendChild(chip(k, true)); else { trayList.appendChild(chip(k, false)); left++; } });
+        tray.classList.toggle('empty', !left);
+        grid.classList.toggle('picking', !!selected);
+        var hh = ids.filter(function (k) { return A.q7.place[k] === 'hh'; });
+        verdict.className = 'cs-nudge' + (hh.length === 2 && !left ? ' ok' : (hh.length > 2 ? ' warn' : ''));
+        verdict.innerHTML = left ? (lang() === 'id' ? left + ' sub-isu belum ditempatkan.' : left + ' sub-issue' + (left > 1 ? 's' : '') + ' still to place.') : hh.length === 2 ? (lang() === 'id' ? 'Dua pilihanmu: <b>' + hh.join('</b> dan <b>') + '</b>.' : 'Your two picks: <b>' + hh.join('</b> and <b>') + '</b>.') : hh.length > 2 ? (lang() === 'id' ? hh.length + ' di kanan atas — pilih dua saja; pindahkan sisanya.' : hh.length + ' top-right — choose two; move the others.') : (lang() === 'id' ? 'Kurang dari dua di kanan atas — mana yang benar-benar berdampak sekaligus layak?' : 'Fewer than two top-right — which are genuinely both impactful and feasible?');
+        picksNote._sync();
+      }
+      var verdict = el('div', 'cs-nudge');
+      tray.appendChild(trayH); tray.appendChild(trayList);
+      q7.appendChild(tray); q7.appendChild(mwrap); q7.appendChild(verdict);
+      h.appendChild(q7);
+      /* Q8 */
+      var RV = S3.review; A.q8 = A.q8 || {};
+      var q8 = el('div', 'cs-q');
+      var q8h = qhead('Q8', RV.title, RV.help, done.q8); q8.appendChild(q8h); syncers.push(q8h._sync);
+      q8.appendChild(bi('p', 'cs-ask', RV.ask));
+      var picksNote = el('div', 'cs-picks'); picksNote._sync = function () { var hh = ids.filter(function (k) { return A.q7.place[k] === 'hh'; }); picksNote.innerHTML = hh.length ? hh.map(function (k) { return '<span><b>' + k + '</b> ' + esc(subText(k)) + '</span>'; }).join('') : '<span class="muted">' + (lang() === 'id' ? 'Belum ada pilihan di kuadran kanan atas.' : 'No picks in the top-right quadrant yet.') + '</span>'; };
+      q8.appendChild(picksNote);
+      var opts = el('div', 'cs-radio');
+      [['confirm', RV.confirm], ['changed', RV.changed]].forEach(function (o) {
+        var b = bi('button', 'cs-radio-b' + (A.q8.mode === o[0] ? ' on' : ''), o[1]); b.type = 'button'; b.disabled = locked;
+        b.addEventListener('click', function () { A.q8.mode = o[0]; A.q8.confirm = true; opts.querySelectorAll('.cs-radio-b').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); persist(); syncAll(); });
+        opts.appendChild(b);
+      });
+      q8.appendChild(opts);
+      var rf = el('div', 'cs-field'); rf.appendChild(bi('label', 'cs-lab', RV.rationale));
+      var rta = field(A.q8.note, { rows: 4, ph: T(RV.placeholder), on: function (v) { A.q8.note = v; rwc._sync(); syncAll(); } });
+      var rwc = el('div', 'cs-wc'); rwc._sync = function () { var n = words(A.q8.note), m = RV.min || 25; rwc.textContent = (lang() === 'id' ? n + ' kata' : n + ' words') + (n < m ? ' · ' + (lang() === 'id' ? 'minimal ' + m : 'at least ' + m) : ''); rwc.classList.toggle('ok', n >= m); }; rwc._sync();
+      rf.appendChild(rta); rf.appendChild(rwc); q8.appendChild(rf);
+      h.appendChild(q8);
+      h.appendChild(nav(2)); syncers.push(h.lastChild._sync);
+      redraw();
+    }
+
+    /* ── step 4: review & submit ── */
+    function summaryText() {
+      var L = lang() === 'id';
+      var lines = [T(cs.title) + ' — ' + (L ? 'Tugas kasus' : 'Case assignment') + ' 3.4', ''];
+      lines.push('Q1 ' + T(Q1.stem) + ' ' + (A.q1 || ''));
+      lines.push('Q2 SMART: ' + Q2.items.map(function (it) { return it.k + (A.q2 && A.q2[it.k] ? '✓' : '·'); }).join(' ') + (A.q2 && A.q2.note ? ' — ' + A.q2.note : ''));
+      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; lines.push('Q' + (3 + i) + ' ' + iq.letter + ': ' + T(S2.stem) + ' ' + (x.issue || '')); (x.subs || []).forEach(function (s, k) { lines.push('   ' + iq.letter + (k + 1) + ': ' + s); }); });
+      var m = A.q6 || {}; lines.push('Q6 MECE — ' + (L ? 'tumpang tindih' : 'overlaps') + ': ' + (m.overlap || '–') + (m.overlapNote ? ' (' + m.overlapNote + ')' : '') + '; ' + (L ? 'celah' : 'gaps') + ': ' + (m.gap || '–') + (m.gapNote ? ' (' + m.gapNote + ')' : ''));
+      var p = (A.q7 || {}).place || {}; lines.push('Q7 ' + subIds().map(function (k) { return k + '→' + (p[k] ? T(S3.matrix.quadrants[p[k]]) : '–'); }).join('; '));
+      var hh = subIds().filter(function (k) { return p[k] === 'hh'; }); lines.push('   ' + (L ? 'Pilihan' : 'Picks') + ': ' + hh.join(', '));
+      lines.push('Q8 ' + ((A.q8 || {}).mode === 'changed' ? (L ? 'diubah lalu dikonfirmasi' : 'changed, then confirmed') : (A.q8 || {}).confirm ? (L ? 'dikonfirmasi' : 'confirmed') : '–') + ' — ' + ((A.q8 || {}).note || ''));
+      if (D.submitted) lines.push('', (L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
+      return lines.join('\n');
+    }
+    function drawSubmit(h) {
+      var SB = cs.submit;
+      if (locked) {
+        var ok = el('div', 'cs-done');
+        ok.appendChild(el('span', 'cs-done-ic', CASE_ICO.check));
+        var t = el('div'); t.appendChild(bi('h4', null, SB.doneTitle)); t.appendChild(bi('p', null, SB.doneBody));
+        t.appendChild(el('p', 'cs-done-meta', (lang() === 'id' ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + esc(D.submitted.id)));
+        ok.appendChild(t); h.appendChild(ok);
+      } else h.appendChild(bi('p', 'cs-lead', SB.lead));
+      /* answers */
+      var rev = el('div', 'cs-review');
+      function item(label, title, stepIdx, html, okv) {
+        var r = el('div', 'cs-rv' + (okv ? ' ok' : ''));
+        var hh = el('div', 'cs-rv-h'); hh.appendChild(el('span', 'cs-qtag', label)); hh.appendChild(bi('b', null, title));
+        var st = el('span', 'cs-qstate' + (okv ? ' ok' : '')); st.innerHTML = okv ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; hh.appendChild(st);
+        if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(stepIdx); }); hh.appendChild(ed); }
+        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', html)); rev.appendChild(r);
+      }
+      item('Q1', Q1.title, 0, '<p><b>' + esc(T(Q1.stem)) + '</b> ' + esc(A.q1 || '—') + '</p>', done.q1());
+      item('Q2', Q2.title, 0, '<p class="cs-rv-smart">' + Q2.items.map(function (it) { var v = A.q2 && A.q2[it.k]; return '<span class="' + (v === true ? 'yes' : v === false ? 'no' : '') + '">' + it.k + ' ' + esc(T(it.name)) + '</span>'; }).join('') + '</p>' + (A.q2 && A.q2.note ? '<p>' + esc(A.q2.note) + '</p>' : ''), done.q2());
+      S2.issues.forEach(function (iq, i) { var x = A[iq.id] || {}; item('Q' + (3 + i), iq.title, 1, '<p><b>' + esc(T(S2.stem)) + '</b> ' + esc(x.issue || '—') + '</p><ul>' + (x.subs || ['', '']).map(function (s, k) { return '<li><b>' + iq.letter + (k + 1) + '</b> ' + esc(s || '—') + '</li>'; }).join('') + '</ul>', issueDone(i)); });
+      var m = A.q6 || {}; item('Q6', S2.mece.title, 1, '<p><b>' + esc(T({ en: 'Overlaps', id: 'Tumpang tindih' })) + ':</b> ' + esc(m.overlap === 'yes' ? T(S2.mece.overlap.yes) : m.overlap === 'fixed' ? T(S2.mece.overlap.fixed) : '—') + (m.overlapNote ? ' · ' + esc(m.overlapNote) : '') + '</p><p><b>' + esc(T({ en: 'Gaps', id: 'Celah' })) + ':</b> ' + esc(m.gap === 'yes' ? T(S2.mece.gap.yes) : m.gap === 'fixed' ? T(S2.mece.gap.fixed) : '—') + (m.gapNote ? ' · ' + esc(m.gapNote) : '') + '</p>', done.q6());
+      var p = (A.q7 || {}).place || {}; var hh = subIds().filter(function (k) { return p[k] === 'hh'; });
+      item('Q7', S3.matrix.title, 2, '<p class="cs-rv-picks">' + (hh.length ? hh.map(function (k) { var iq = S2.issues[['A', 'B', 'C'].indexOf(k[0])]; return '<span><b>' + k + '</b> ' + esc(((A[iq.id] || {}).subs || [])[+k[1] - 1] || '') + '</span>'; }).join('') : '—') + '</p><p class="cs-rv-place">' + subIds().map(function (k) { return '<span>' + k + ' → ' + esc(p[k] ? T(S3.matrix.quadrants[p[k]]) : '—') + '</span>'; }).join('') + '</p>', done.q7());
+      item('Q8', S3.review.title, 2, '<p>' + esc((A.q8 || {}).mode === 'changed' ? T(S3.review.changed) : (A.q8 || {}).confirm ? T(S3.review.confirm) : '—') + '</p><p>' + esc((A.q8 || {}).note || '—') + '</p>', done.q8());
+      h.appendChild(rev);
+      /* framework check */
+      var fc = el('div', 'cs-fcheck');
+      fc.appendChild(bi('h4', null, { en: 'Framework check · rule-based, not a grade', id: 'Pengecekan kerangka · berbasis aturan, bukan nilai' }));
+      var res = caseReview(cs, A), groups = [['smart', { en: 'SMART problem statement', id: 'Pernyataan masalah SMART' }], ['tree', { en: 'Issue structuring & MECE', id: 'Struktur isu & MECE' }], ['prio', { en: 'Prioritisation', id: 'Prioritisasi' }]];
+      var cols = el('div', 'cs-fc-grid');
+      groups.forEach(function (gp) { var c = el('div', 'cs-fc'); c.appendChild(bi('b', null, gp[1])); var ul = el('ul'); res.filter(function (x) { return x.group === gp[0]; }).forEach(function (x) { var li = el('li', x.ok ? 'ok' : 'warn'); li.innerHTML = '<i>' + (x.ok ? CASE_ICO.check : '!') + '</i><span>' + esc(T(x.text)) + '</span>'; ul.appendChild(li); }); c.appendChild(ul); cols.appendChild(c); });
+      fc.appendChild(cols); h.appendChild(fc);
+      /* actions */
+      var act = el('div', 'cs-submit');
+      if (!locked) {
+        var all = QIDS.every(function (q) { return done[q](); });
+        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Delapan dari delapan pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'Eight of eight questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari 8 lengkap — buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of 8 complete — open the questions still marked Open with Edit.');
+        act.appendChild(msg);
+        var sb = bi('button', 'lms-complete cs-submit-b', SB.button); sb.type = 'button'; sb.disabled = !all;
+        var conf = el('div', 'cs-confirm'); conf.hidden = true;
+        conf.appendChild(bi('b', null, SB.confirmTitle)); conf.appendChild(bi('p', null, SB.confirmBody));
+        var cy = bi('button', 'lms-complete', SB.confirmYes); cy.type = 'button'; var cn = bi('button', 'lms-nav-btn', SB.confirmNo); cn.type = 'button';
+        var cb = el('div', 'cs-confirm-b'); cb.appendChild(cn); cb.appendChild(cy); conf.appendChild(cb);
+        sb.addEventListener('click', function () { conf.hidden = false; sb.hidden = true; conf.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
+        cn.addEventListener('click', function () { conf.hidden = true; sb.hidden = false; });
+        cy.addEventListener('click', function () {
+          D.submitted = { at: Date.now(), id: 'HC-' + Date.now().toString(36).toUpperCase().slice(-6) };
+          D.step = 3; caseWrite(l, D); locked = true; box.classList.add('locked');
+          drawStepper(); drawBody(); refreshComplete();
+          box.querySelector('.cs-done').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+        act.appendChild(sb); act.appendChild(conf);
+      }
+      var row = el('div', 'cs-submit-row');
+      var cp = bi('button', 'lms-nav-btn', SB.copy); cp.type = 'button'; var cpm = el('span', 'cs-nav-msg');
+      cp.addEventListener('click', function () { var t = summaryText(); var ok2 = function () { cpm.textContent = T(SB.copied); }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok2, ok2); else ok2(); });
+      row.appendChild(cp); row.appendChild(cpm); act.appendChild(row);
+      act.appendChild(bi('p', 'cs-local', SB.local));
+      var rs = el('details', 'cs-reset'); rs.appendChild(bi('summary', null, SB.reset)); var rsb = el('div'); rsb.appendChild(bi('p', null, SB.resetConfirm));
+      var rby = bi('button', 'lms-nav-btn danger', { en: 'Yes, clear everything', id: 'Ya, hapus semuanya' }); rby.type = 'button';
+      rby.addEventListener('click', function () { try { localStorage.removeItem(caseKey(l)); } catch (e) {} var p2 = progress(); if (p2[l.n]) { delete p2[l.n]; saveProgress(p2); } openLesson(current); });
+      rsb.appendChild(rby); rs.appendChild(rsb); act.appendChild(rs);
+      h.appendChild(act);
+    }
+
+    function drawBody() {
+      syncers = []; body.innerHTML = '';
+      var pane = el('div', 'cs-pane-s');
+      var hd2 = el('div', 'cs-step-h'); hd2.appendChild(el('span', 'cs-step-k', (lang() === 'id' ? 'Langkah ' : 'Step ') + (cur + 1) + ' / ' + STEPS.length)); hd2.appendChild(bi('h3', null, STEPS[cur].title)); pane.appendChild(hd2);
+      if (cur === 0) drawDefine(pane); else if (cur === 1) drawTree(pane); else if (cur === 2) drawPrio(pane); else drawSubmit(pane);
+      body.appendChild(pane);
+      if (locked) body.querySelectorAll('textarea,select,button.cs-seg-b,button.cs-radio-b,button.cs-chip').forEach(function (n) { n.disabled = true; });
+    }
+    drawStepper(); drawBody();
+    host.appendChild(box);
+  }
+
   function renderInsights(l, host) {
     var ins = l.insights;
     if (!ins || !ins.items || !ins.items.length) return;
@@ -2134,7 +2682,7 @@
     hl.appendChild(bi('span', 'lms-modchip', { en: 'Module ' + m.num, id: 'Modul ' + m.num }));
     hl.appendChild(bi('h2', 'lms-title', l.title));
     var meta = el('div', 'lms-meta');
-    var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'] }[l.kind];
+    var kindLabel = { video: ['Video', 'Video'], reading: ['Reading', 'Bacaan'], interactive: ['Interactive', 'Interaktif'], slides: ['Slides', 'Slide'], visual: ['Visual', 'Visual'], assignment: ['Case assignment', 'Tugas kasus'] }[l.kind];
     meta.appendChild(bi('span', 'lms-chip gold', { en: '📖 ' + kindLabel[0], id: '📖 ' + kindLabel[1] }));
     meta.appendChild(bi('span', 'lms-chip', l.dur));
     var nVid = (l.videos ? l.videos.length : 0) + (l.videoBlocks || []).reduce(function (a, b) { return a + (b && b.videos ? b.videos.length : 0); }, 0);
@@ -2220,6 +2768,7 @@
       });
     });
     renderScenario(l, innerEl);
+    if (l.caseStudy) renderCase(l, innerEl);   /* the interactive case assignment, after its brief deck */
     /* A slides or visual lesson that also carries reading `sections` leads
        with its deck/hotspot piece, then the exhibit and the sections — the
        same deck → exhibit → sections progression as The Map benchmark. */
@@ -2270,9 +2819,14 @@
   function refreshComplete() {
     var l = FLAT[current].l;
     var btn = root.querySelector('.lmsp-foot .lms-complete');
+    btn.disabled = false;
     if (isDone(l.n)) {
       btn.className = 'lms-complete done';
       btn.innerHTML = '✓ <span data-en="Completed" data-id="Selesai">' + (lang() === 'id' ? 'Selesai' : 'Completed') + '</span>';
+    } else if (l.caseStudy && !caseSubmitted(l)) {
+      /* a case assignment completes only once its answers are submitted */
+      btn.className = 'lms-complete gated'; btn.disabled = true;
+      btn.innerHTML = '<span data-en="Submit the case to complete" data-id="Kumpulkan kasus untuk menyelesaikan">' + (lang() === 'id' ? 'Kumpulkan kasus untuk menyelesaikan' : 'Submit the case to complete') + '</span>';
     } else {
       btn.className = 'lms-complete';
       var last = current === FLAT.length - 1;
@@ -2289,7 +2843,8 @@
     reading: { en: 'Reading', id: 'Bacaan' },
     interactive: { en: 'Interactive', id: 'Interaktif' },
     slides: { en: 'Slides', id: 'Salindia' },
-    visual: { en: 'Visual', id: 'Visual' }
+    visual: { en: 'Visual', id: 'Visual' },
+    assignment: { en: 'Case assignment', id: 'Tugas kasus' }
   };
   /* open the Modules tab on the host page with one module's accordion expanded */
   function gotoModule(num) {
@@ -2450,6 +3005,7 @@
   root.querySelector('.lmsp-foot .lms-complete').addEventListener('click', function () {
     var l = FLAT[current].l;
     if (isDone(l.n)) return;
+    if (l.caseStudy && !caseSubmitted(l)) { var cse = root.querySelector('#lmsCase'); if (cse) cse.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     var p = progress(); p[l.n] = true; saveProgress(p);
     if (current < FLAT.length - 1) openLesson(current + 1);
     else { refreshComplete(); renderRail(); }

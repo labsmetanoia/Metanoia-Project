@@ -40,8 +40,52 @@ Each file assigns `window.MT_LMS['<slug>']` with:
   counter and progress bar.
 - **visual** — `media.visual` rendered with clickable `hotspots[]`
   (`x`/`y` are percentages on the image).
+- **assignment** — a `caseStudy{}` block (below) after the brief's slide
+  `material`; "Mark complete" stays gated until the case is submitted.
 
 Every lesson may carry a `check{}` knowledge check and `takeaways[]`.
+
+### Case assignment (`caseStudy{}`)
+
+An interactive, consulting-style case (3.4 Case Assignment — Problem
+Solving does: the Hustleton City traffic problem). The registry owns the
+brief, the guidance, the prompts and the rubric keywords; the player owns
+the mechanics — a four-stop stepper (define → structure → prioritise →
+review & submit), a SMART checklist, a visual issue-tree builder, a 2×2
+impact/feasibility matrix, a rule-based framework check, autosaved drafts
+and a locked submission.
+
+```
+caseStudy: {
+  key, kicker{en,id}, title{en,id}, lead{en,id}, practice:[pair,…], goal{en,id},
+  brief: { quote:{text,who}, email:{from,to,date,subject,paragraphs[],asks[],closing[]},
+           facts:[{icon,k,v,hot?}], chart:{title,unit,years[],series:[{key,label,sub,vals[]}],takeaways[],note},
+           modes:{title,intro,rows[],cols:[{icon,name,cells[],tone}]} },   // folder tabs
+  steps: [
+    { id:'define', title, short, guide, questions:[
+        { id:'q1', type:'statement', title, help, stem{en,id}, placeholder, example?, min },
+        { id:'q2', type:'smart', title, help, items:[{k,name,ask,hint}], reflect? } ] },
+    { id:'structure', title, short, guide, stem{en,id},
+      issues:[{ id:'q3'|'q4'|'q5', letter:'A'|'B'|'C', title, placeholder }], subLabel, subPlaceholder,
+      mece:{ id:'q6', title, help, overlap:{ask,yes,fixed,note}, gap:{ask,yes,fixed,note} } },
+    { id:'prioritise', title, short, guide,
+      matrix:{ id:'q7', title, ask, help, axes:{x,y,lo,hi}, quadrants:{hh,hl,lh,ll}, quadNotes? },
+      review:{ id:'q8', title, ask, help, confirm, changed, rationale, placeholder, min } } ],
+  submit: { title, short, lead, button, confirmTitle, confirmBody, confirmYes, confirmNo,
+            doneTitle, doneBody, copy, copied, reset, resetConfirm, local },
+  review: { measure[], time[], action[], stakeholder[], solution[], dimensions:[{name,words[]}] }
+}
+```
+
+`review` feeds the framework check: keyword lists (EN and ID) for the
+SMART signals on Q1, and `dimensions` for the gap signal on the tree. The
+check flags signals — a missing target figure, two issues sharing most of
+their wording, an untouched dimension, more than two cards top-right — and
+is labelled rule-based, not a grade. Answers live in
+`localStorage['mt-lms-case:<slug>:<lesson>']` as
+`{ a:{q1…q8}, step, submitted:{at,id} }`; nothing is uploaded. Submitting
+locks the answers, unlocks "Mark complete", and offers a copy of the
+submission as text.
 
 ### Enrichment blocks (`insights{}`, `resources{}`, `journey{}`)
 
