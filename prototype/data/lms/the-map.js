@@ -7021,8 +7021,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tantangan Komunikasi yang Umum Terjadi"
      },
      "dur": {
-      "en": "50 min",
-      "id": "50 mnt"
+      "en": "60 min",
+      "id": "60 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7283,6 +7283,43 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 2 slides",
+        "id": "Baca berikutnya · 2 slide"
+       },
+       "title": {
+        "en": "What Is Empathy — Material",
+        "id": "Apa Itu Empati — Materi"
+       },
+       "intro": {
+        "en": "After the expert’s commentary, two slides set up the next film. The first introduces it — Kate explains why empathy is the starting point for all interactions and what mindset effective communication needs — and gives you something to watch for: have you ever caught yourself in an “over there” mindset? The second lays out the four key questions to ask yourself with empathy: how is the other person feeling, what do they care about, what is at stake for them, and how does that shape what is possible. Read them, then watch the film below.",
+        "id": "Setelah komentar ahli, dua slide menyiapkan film berikutnya. Slide pertama memperkenalkannya — Kate menjelaskan mengapa empati adalah titik awal dari semua interaksi dan pola pikir seperti apa yang dibutuhkan komunikasi yang efektif — dan memberi Anda sesuatu untuk diperhatikan: pernahkah Anda memergoki diri dalam pola pikir “di sana” (over there)? Slide kedua memaparkan empat pertanyaan utama untuk ditanyakan pada diri sendiri dengan empati: bagaimana perasaan orang lain, apa yang mereka pedulikan, apa yang dipertaruhkan bagi mereka, dan bagaimana hal itu membentuk apa yang mungkin. Bacalah, lalu tonton film di bawahnya."
+       },
+       "base": "../../assets/lms/the-map/slides/what-empathy-",
+       "slides": [
+        {
+         "title": {
+          "en": "What is empathy?",
+          "id": "Apa itu empati?"
+         },
+         "text": {
+          "en": "Video. Let’s explore why empathy matters as the starting point for all interactions: understand others’ perspectives, build stronger connections, communicate more effectively. Empathy as a starting point — in this video, Kate explains why empathy is the starting point for all interactions and what kind of mindset is necessary for effective communications. While you watch: consider which aspects of empathy you have encountered before in your conversations. Have you ever experienced a time when you used an “over there” mindset? Reflection questions: 1. Which key insights about empathy resonate most with you? Why? 2. Can you think of a past interaction where you had an “over there” mindset? What could you do differently next time?",
+          "id": "Video. Mari kita pelajari mengapa empati penting sebagai titik awal dari semua interaksi: memahami perspektif orang lain, membangun hubungan yang lebih kuat, berkomunikasi dengan lebih efektif. Empati sebagai titik awal — dalam video ini, Kate menjelaskan mengapa empati merupakan titik awal dari semua interaksi dan pola pikir seperti apa yang diperlukan untuk komunikasi yang efektif. Saat Anda menonton: pertimbangkan aspek-aspek empati apa yang sudah pernah Anda alami sebelumnya dalam percakapan Anda. Apakah Anda pernah mengalami saat menggunakan pola pikir “melampaui diri sendiri (over there)”? Pertanyaan refleksi: 1. Insight utama tentang empati apa yang paling relevan bagi Anda? Mengapa? 2. Bisakah Anda mengingat situasi di masa lalu ketika Anda menggunakan pola pikir “melampaui diri sendiri (over there)”? Apa yang bisa Anda lakukan secara berbeda lain kali?"
+         }
+        },
+        {
+         "title": {
+          "en": "Key questions to ask yourself with empathy",
+          "id": "Pertanyaan utama untuk ditanyakan dalam empati"
+         },
+         "text": {
+          "en": "Reflection. Use these questions to pause, reflect, and see the situation from the other person’s perspective. 1. How is the other person feeling? What’s on their mind? Are they worried about anything? — their emotions, their current challenges, what might be on their mind. 2. What do they care about? What do they value? What do they understand about the topic we plan to discuss? — their priorities, their interests and concerns, their understanding of the topic. 3. What is at stake for the other person? What could be the potential opportunities or risks for them? — what they might gain, what they might lose, how this could affect them personally and professionally. 4. How does that impact what’s possible? How might their perspective influence the outcome of this interaction? — how their perspective shapes the options, what this means for our next steps, how we can create a better outcome together. Why it matters: empathy plays a significant role in building long-lasting, trust-based relationships. We create a deeper sense of engagement when our colleagues feel listened to, appreciated, and understood. Let’s recap the key questions to ask yourself to get started.",
+          "id": "Refleksi. Gunakan pertanyaan-pertanyaan ini untuk berhenti sejenak, merefleksi, dan melihat situasi dari perspektif orang lain. 1. Bagaimana perasaan orang lain? Apa yang ada dalam pikiran mereka? Apakah mereka sedang khawatir tentang sesuatu? — emosi yang mereka rasakan, tantangan yang mereka hadapi saat ini, apa yang mungkin ada dalam pikiran mereka. 2. Apa yang mereka pedulikan? Apa yang mereka anggap penting? Apa yang mereka pahami tentang topik yang akan kita diskusikan? — prioritas mereka, minat dan kekhawatiran mereka, pemahaman mereka terhadap topik. 3. Apa yang dipertaruhkan bagi orang lain? Apa peluang atau risiko potensial yang mungkin mereka hadapi? — apa yang mungkin mereka dapatkan, apa yang mungkin mereka kehilangan, bagaimana hal ini dapat berdampak pada mereka secara pribadi dan profesional. 4. Bagaimana hal tersebut berdampak pada kemungkinan yang ada? Bagaimana perspektif mereka mungkin memengaruhi hasil dari interaksi ini? — bagaimana perspektif mereka dapat membentuk pilihan yang ada, apa arti hal ini bagi langkah kita selanjutnya, bagaimana kita dapat menciptakan hasil yang lebih baik bersama. Mengapa ini penting? Empati berperan penting dalam membangun hubungan jangka panjang yang didasarkan pada kepercayaan. Kita menciptakan rasa keterlibatan yang lebih dalam ketika rekan kerja kita merasa didengarkan, dihargai, dan dipahami. Mari kita rangkum pertanyaan-pertanyaan utama ini untuk mulai menerapkannya."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -7401,8 +7438,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Komentar ahli"
        },
        "intro": {
-        "en": "The expert looks back at the meeting. Noah pivoted to ask Aaliyah how she was handling everything — and that, the expert says, is what demonstrating empathy looks like: asking rather than assuming, giving the other person time and space, and listening. Aaliyah came in with her own agenda but opened a door early with “Is there anything else you’d like to talk about?”. Little steps like these go a long way in a business context. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the case in focus below.",
-        "id": "Sang ahli menengok kembali rapat itu. Noah berbalik arah dan bertanya bagaimana Aaliyah menghadapi semuanya — dan itulah, kata sang ahli, wujud nyata empati: bertanya alih-alih berasumsi, memberi orang lain waktu dan ruang, dan mendengarkan. Aaliyah datang dengan agendanya sendiri tetapi membuka pintu sejak awal dengan “Ada hal lain yang ingin kamu bicarakan?”. Langkah-langkah kecil seperti ini sangat berarti dalam konteks bisnis. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+        "en": "The expert looks back at the meeting. Noah pivoted to ask Aaliyah how she was handling everything — and that, the expert says, is what demonstrating empathy looks like: asking rather than assuming, giving the other person time and space, and listening. Aaliyah came in with her own agenda but opened a door early with “Is there anything else you’d like to talk about?”. Little steps like these go a long way in a business context. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Sang ahli menengok kembali rapat itu. Noah berbalik arah dan bertanya bagaimana Aaliyah menghadapi semuanya — dan itulah, kata sang ahli, wujud nyata empati: bertanya alih-alih berasumsi, memberi orang lain waktu dan ruang, dan mendengarkan. Aaliyah datang dengan agendanya sendiri tetapi membuka pintu sejak awal dengan “Ada hal lain yang ingin kamu bicarakan?”. Langkah-langkah kecil seperti ini sangat berarti dalam konteks bisnis. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -7436,6 +7473,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/communication-4-en.vtt",
           "id": "../../assets/lms/the-map/communication-4-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "what-empathy",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "Kate on what empathy is. All effective communication begins with it: you cannot know where you are going without understanding where you — and the other person — are coming from. She describes the mindset of an effective communicator as “over there” rather than “over here”: not wrapped up in your own agenda, timelines and inner dialogue, but open and curious about what the other person is thinking and feeling. Great listening is part of it — being present, asking, hearing what is said and not said — and she shows what its absence looks like when a text message lands mid-meeting. Even a minute to stop, breathe and think about the other person helps. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the case in focus below.",
+        "id": "Kate tentang apa itu empati. Semua komunikasi yang efektif berawal darinya: Anda tidak bisa tahu ke mana Anda menuju tanpa memahami dari mana Anda — dan orang lain — berangkat. Ia menggambarkan pola pikir komunikator yang efektif sebagai “di sana” (over there), bukan “di sini”: tidak terjebak dalam agenda, tenggat, dan dialog batin sendiri, melainkan terbuka dan ingin tahu tentang apa yang orang lain pikirkan dan rasakan. Mendengarkan dengan baik adalah bagian darinya — hadir sepenuhnya, bertanya, menyimak yang dikatakan dan tidak dikatakan — dan ia menunjukkan seperti apa ketiadaannya ketika sebuah pesan masuk di tengah rapat. Bahkan satu menit untuk berhenti, bernapas, dan memikirkan orang lain sudah membantu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: over there, not over here",
+         "id": "Poin penting: di sana, bukan di sini"
+        },
+        "body": [
+         {
+          "en": "Empathy is the starting point of every interaction: understand — or at least ask — what the other person is thinking and feeling, what matters to them, and how that shapes what is possible.",
+          "id": "Empati adalah titik awal setiap interaksi: pahami — atau setidaknya tanyakan — apa yang orang lain pikirkan dan rasakan, apa yang penting bagi mereka, dan bagaimana hal itu membentuk apa yang mungkin."
+         },
+         {
+          "en": "“Over here” is your own agenda and inner dialogue; “over there” is open curiosity about theirs. People can tell which one you are in, and only one of them leads to real action.",
+          "id": "“Di sini” adalah agenda dan dialog batin Anda sendiri; “di sana” adalah rasa ingin tahu yang terbuka tentang milik mereka. Orang bisa merasakan Anda ada di mana, dan hanya satu yang mengarah pada aksi nyata."
+         },
+         {
+          "en": "Listening is the practice: be present, ask, hear what is said and unsaid. A minute to stop and breathe before a meeting makes “over there” easier — and the four key questions from the slides give you something to bring in.",
+          "id": "Mendengarkan adalah latihannya: hadir sepenuhnya, bertanya, menyimak yang terucap dan tidak. Satu menit untuk berhenti dan bernapas sebelum rapat membuat “di sana” lebih mudah — dan empat pertanyaan utama dari slide memberi Anda bekal untuk dibawa masuk."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/communication-5-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-5-poster.jpg",
+         "dur": "2:52",
+         "title": {
+          "en": "What is empathy? The “over there” mindset and great listening",
+          "id": "Apa itu empati? Pola pikir “di sana” dan mendengarkan dengan baik"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-5-en.vtt",
+          "id": "../../assets/lms/the-map/communication-5-id.vtt"
          }
         }
        ]
