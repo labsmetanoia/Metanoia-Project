@@ -7021,8 +7021,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tantangan Komunikasi yang Umum Terjadi"
      },
      "dur": {
-      "en": "70 min",
-      "id": "70 mnt"
+      "en": "80 min",
+      "id": "80 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7331,8 +7331,8 @@ window.MT_LMS['the-map'] = {
         "id": "Mendengarkan Secara Aktif — Materi"
        },
        "intro": {
-        "en": "After Kate’s film, seven slides turn empathy into practice. The first names four active-listening skills with example phrases — support and encouragement, reflect and summarise, offer help, dig deeper. Then two scenarios you answer yourself: Disaster 2.0, where MODA’s CEO Kobi Badu confronts Aaliyah about resistance to the transformation, and Help Noah, where Noah must tell Maryam the analysis scope has grown — three exchanges, each with a knowledge check and the best empathetic response explained. Read them, choose your answer before you read the “That’s right!” panel, then continue to the case in focus below.",
-        "id": "Setelah film Kate, tujuh slide mengubah empati menjadi praktik. Slide pertama menyebutkan empat keterampilan mendengarkan aktif dengan contoh kalimat — memberikan dukungan dan dorongan, merefleksikan dan mengulang, menawarkan bantuan, menggali lebih dalam. Lalu dua skenario yang Anda jawab sendiri: Disaster 2.0, saat CEO MODA Kobi Badu menghadapkan Aaliyah pada resistensi terhadap transformasi, dan Bantu Noah, saat Noah harus memberi tahu Maryam bahwa ruang lingkup analisis bertambah — tiga pertukaran, masing-masing dengan cek pemahaman dan penjelasan respons empatik terbaik. Bacalah, pilih jawaban Anda sebelum membaca panel “Tepat sekali!”, lalu lanjutkan ke kasus sorotan di bawah."
+        "en": "After Kate’s film, seven slides turn empathy into practice. The first names four active-listening skills with example phrases — support and encouragement, reflect and summarise, offer help, dig deeper. Then two scenarios you answer yourself: Disaster 2.0, where MODA’s CEO Kobi Badu confronts Aaliyah about resistance to the transformation, and Help Noah, where Noah must tell Maryam the analysis scope has grown — three exchanges, each with a knowledge check and the best empathetic response explained. Read them, choose your answer before you read the “That’s right!” panel, then continue to the slides that follow.",
+        "id": "Setelah film Kate, tujuh slide mengubah empati menjadi praktik. Slide pertama menyebutkan empat keterampilan mendengarkan aktif dengan contoh kalimat — memberikan dukungan dan dorongan, merefleksikan dan mengulang, menawarkan bantuan, menggali lebih dalam. Lalu dua skenario yang Anda jawab sendiri: Disaster 2.0, saat CEO MODA Kobi Badu menghadapkan Aaliyah pada resistensi terhadap transformasi, dan Bantu Noah, saat Noah harus memberi tahu Maryam bahwa ruang lingkup analisis bertambah — tiga pertukaran, masing-masing dengan cek pemahaman dan penjelasan respons empatik terbaik. Bacalah, pilih jawaban Anda sebelum membaca panel “Tepat sekali!”, lalu lanjutkan ke slide yang mengikutinya."
        },
        "base": "../../assets/lms/the-map/slides/listening-",
        "slides": [
@@ -7404,6 +7404,53 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Maryam has just shared her concerns about the timeline. How should Noah respond? Review the following information. Then select the best answer and click Submit. Maryam: “We’re okay, thanks for asking. Honestly, the timeline for adding this new scope concerns me a bit – it may be doable, but it will really push the team and may put other important things at risk for us. I’ve had some bad experiences in the past with other teams leaving me out of key meetings, and that made it difficult for me to stay aligned. Please try to involve my team and me in these decisions moving forward as much as possible.” Options: “That sounds like a frustrating experience, but you got through it and I’m sure you learned some valuable lessons along the way, no? Keep at it, you’re doing great so far and I know you’ll be able to handle it.” “Thanks for sharing how you’ve been feeling. It sounds like you’ve had a pretty frustrating experience. I’ll make sure you and your team are included moving forward. What else can I do to help with the timeline concerns?” “I understand your timeline concerns. Let’s try to work those out so that it doesn’t impact you too much. I’ll make sure you and your team are included moving forward. Your background and experience will be really helpful.” Why is the second option the best response? Shows empathy — acknowledges Maryam’s concerns and experience; builds trust — invites further discussion to understand the bigger picture and underlying needs; encourages collaboration — ensures Maryam and her team are included in future discussions. Key takeaway: being empathetic and collaborative when facing timeline concerns helps build trust, align expectations, and create stronger collaboration, leading to better outcomes.",
           "id": "Maryam sudah menyampaikan kekhawatirannya terkait timeline. Bagaimana sebaiknya Noah merespons? Baca informasi berikut, lalu pilih jawaban terbaik dan klik Submit. Maryam: “Saya rasa saya punya beberapa ide bagaimana membuat timeline ini lebih realistis untuk tim kita. Sejujurnya, saya punya beberapa pengalaman kurang baik sebelumnya dengan tim lain yang membuat saya keluar dari pertemuan penting, dan itu cukup menantang. Hal tersebut membuat saya sangat fokus agar pekerjaan ini bisa selesai, jadi tolong libatkan saya dan tim dalam pengambilan keputusan ke depannya semaksimal mungkin.” Pilihan: “Kelihatannya ini pengalaman yang cukup membuat frustrasi, tetapi Anda sudah melewatinya dengan baik dan pasti mendapatkan banyak pelajaran berharga, bukan? Tetap semangat, Anda sudah melakukan hal yang hebat sejauh ini dan saya yakin Anda bisa menanganinya.” “Terima kasih sudah berbagi bagaimana perasaan Anda. Sepertinya Anda mengalami pengalaman yang cukup membuat frustrasi. Saya akan memastikan Anda dan tim tetap dilibatkan ke depannya. Selain itu, apa lagi yang bisa saya lakukan untuk membantu kekhawatiran terkait timeline ini?” “Saya memahami kekhawatiran Anda terkait timeline. Mari kita cari cara untuk menyelesaikannya agar tidak terlalu berdampak pada Anda. Saya akan memastikan Anda dan tim tetap dilibatkan ke depannya. Latar belakang dan pengalaman Anda akan sangat membantu.” Mengapa pilihan kedua adalah jawaban terbaik? Menunjukkan empati — mengakui perasaan dan pengalaman Maryam; membangun kepercayaan — memastikan Maryam dan tim tetap dilibatkan dalam proses ke depan; membuka ruang dialog — mengajukan pertanyaan terbuka untuk menggali solusi yang lebih dalam terkait kekhawatiran timeline. Poin penting: mendengarkan kekhawatiran Maryam dengan penuh perhatian, bersikap empatik, dan mengajak diskusi terbuka dapat membangun kepercayaan, menciptakan kolaborasi yang lebih kuat, serta menghasilkan solusi yang lebih baik."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "Key Takeaways — Material",
+        "id": "Poin Penting — Materi"
+       },
+       "intro": {
+        "en": "Three slides close the empathy chapter and open the next one. The first is the wrap-up: the two tools you now hold — empathy and active listening — each with a key reminder, and three resources to explore. The second returns to MODA: Aaliyah is preparing a kick-off meeting with the transformation team, has a packed agenda, feels stuck, and calls David Fu, a senior employee and advisor to the team. The third asks you to think about Aaliyah’s purpose for that meeting and how she might achieve it, then compare with the expert’s response. Read them, write your own answer before you read the expert’s, then watch the two films below.",
+        "id": "Tiga slide menutup bab empati dan membuka bab berikutnya. Slide pertama adalah rangkuman: dua alat yang kini Anda pegang — empati dan mendengarkan secara aktif — masing-masing dengan pengingat utama, dan tiga sumber belajar untuk dijelajahi. Slide kedua kembali ke MODA: Aaliyah sedang menyiapkan rapat kick-off dengan tim transformasi, agendanya padat, merasa buntu, dan menghubungi David Fu, karyawan senior dan penasihat tim. Slide ketiga meminta Anda memikirkan tujuan Aaliyah dalam rapat itu dan bagaimana ia bisa mencapainya, lalu membandingkannya dengan jawaban ahli. Bacalah, tulis jawaban Anda sendiri sebelum membaca jawaban ahli, lalu tonton dua film di bawahnya."
+       },
+       "base": "../../assets/lms/the-map/slides/empathy-takeaways-",
+       "slides": [
+        {
+         "title": {
+          "en": "Key takeaways",
+          "id": "Poin penting"
+         },
+         "text": {
+          "en": "Module wrap-up. Here are the key tools and resources to remember from this module. In this module, we have covered the following key tools: Empathy — use this to put yourself in the other person’s shoes and understand their needs before entering into an interaction with them. Key reminder: seek to understand, not to respond. Active listening — use behaviors like validating, summarizing, and clarifying to demonstrate empathy to the person you are interacting with. Key reminder: listen with intention and show it through your responses. Resources you may also wish to explore: “Brené Brown on empathy” (YouTube); “Tuning in, turning outward: cultivating compassionate leadership in a crisis” (McKinsey & Company); “The secret of empathy” (McGill University).",
+          "id": "Rangkuman modul. Berikut adalah alat utama dan sumber belajar yang perlu Anda ingat dari modul ini. Dalam modul ini, kita telah membahas dua alat utama berikut: Empati — gunakan empati untuk menempatkan diri pada posisi orang lain dan memahami kebutuhan mereka sebelum memulai suatu interaksi dengan mereka. Poin penting: cari tahu untuk memahami, bukan untuk langsung merespons. Mendengarkan secara aktif — gunakan perilaku seperti memvalidasi, merangkum, dan mengklarifikasi untuk menunjukkan empati kepada orang yang Anda ajak berinteraksi. Poin penting: dengarkan dengan niat yang tulus dan tunjukkan melalui respons Anda. Sumber belajar — Anda juga dapat mengeksplorasi: “Brené Brown tentang empati” (YouTube); “Menjadi peka, bertindak nyata: membangun kepemimpinan yang penuh kasih di saat krisis” (McKinsey & Company); “Rahasia dari empati” (McGill University)."
+         }
+        },
+        {
+         "title": {
+          "en": "Back at MODA — what is Aaliyah’s purpose?",
+          "id": "Kembali ke MODA — apa tujuan Aaliyah?"
+         },
+         "text": {
+          "en": "Story context. Let’s revisit Aaliyah’s situation before moving on to the next activity. Aaliyah will be leading an introduction meeting with the transformation team this week. 1 What is Aaliyah’s purpose? Take a few minutes to watch this video and reflect on the conversation between Aaliyah, David, and Noah. 2 So much ground to cover … Later this week, Aaliyah is planning to lead an introduction meeting with the transformation team. She wants to ensure that she uses the time efficiently. She has a packed agenda and is feeling stuck. Aaliyah calls David Fu, a senior employee at MODA and advisor to the transformation team, for help. Aaliyah’s current situation: wants to use time efficiently; has a packed agenda; feels a bit stuck; needs input from David Fu. David Fu — senior employee at MODA and advisor to the transformation team. Aaliyah reaches out to David Fu for guidance.",
+          "id": "Konteks cerita. Mari kita lihat situasi Aaliyah saat ini sebelum masuk ke aktivitas berikutnya. Aaliyah akan memimpin pertemuan pengenalan dengan tim transformasi minggu ini. 1 Apa tujuan Aaliyah? Luangkan beberapa menit untuk menonton video ini dan refleksikan percakapan antara Aaliyah, David, dan Noah. 2 Banyak hal yang perlu disiapkan … Minggu ini, Aaliyah berencana memimpin pertemuan pengenalan dengan tim transformasi. Ia ingin memastikan bahwa ia menggunakan waktu secara efisien. Ia memiliki agenda yang cukup padat dan merasa sedikit kebingungan. Aaliyah kemudian menghubungi David Fu, seorang karyawan senior di MODA dan penasihat tim transformasi, untuk meminta bantuan. Situasi Aaliyah saat ini: ingin menggunakan waktu secara efisien; memiliki agenda yang padat; masih merasa sedikit kebingungan; butuh masukan dari David Fu. David Fu — karyawan senior di MODA dan penasihat tim transformasi. Aaliyah menghubungi David Fu untuk meminta bantuan."
+         }
+        },
+        {
+         "title": {
+          "en": "Compare to expert — Aaliyah’s purpose for the kick-off",
+          "id": "Bandingkan dengan ahli — tujuan Aaliyah dalam rapat kick-off"
+         },
+         "text": {
+          "en": "Reflection. Take a moment to think about Aaliyah’s purpose for the kick-off meeting. Then, go deeper and describe how she might go about achieving her purpose. 1 Reflect — think about Aaliyah’s purpose for the kick-off meeting. 2 Write your response — go deeper and describe how she might go about achieving her purpose. 3 Compare — when you are finished, click See Expert Response to compare your response to an expert’s view. Aaliyah — kick-off meeting with the transformation team: “What is Aaliyah’s purpose for this meeting, and how can she achieve it?” Key questions to consider: how can she build strong relationships with the transformation team? How can she clearly explain the purpose and create alignment? What steps can she take to ensure effective collaboration moving forward? Expert response — based on the conversation we just saw, we know that Aaliyah has a lot on her agenda. But her primary purpose is to build rapport with the transformation team and explain how they will collaborate moving forward. The most effective way for Aaliyah to achieve her purpose is to include her audience’s needs in her agenda. A shared purpose will get her farther faster than one simply based on her individual needs. Key insight: a shared purpose creates alignment, builds trust, and leads to more effective collaboration.",
+          "id": "Refleksi. Luangkan waktu sejenak untuk memikirkan apa tujuan Aaliyah dalam rapat kick-off ini. Kemudian, gali lebih dalam dan jelaskan bagaimana dia dapat mencapai tujuannya. 1 Refleksikan — pikirkan apa tujuan Aaliyah dalam rapat kick-off ini. 2 Tulis jawaban Anda — gali lebih dalam dan jelaskan bagaimana dia dapat mencapai tujuannya. 3 Bandingkan — setelah Anda selesai, klik Lihat Jawaban Ahli untuk membandingkan jawaban Anda dengan pandangan seorang ahli. Aaliyah — rapat kick-off dengan tim transformasi: “Apa tujuan saya dalam rapat ini, dan bagaimana saya dapat mencapainya?” Pertanyaan kunci yang perlu dipertimbangkan: bagaimana dia dapat membangun hubungan yang kuat dengan tim transformasi? Bagaimana dia dapat menjelaskan tujuan secara jelas dan menciptakan keselarasan? Langkah apa saja yang dapat dia lakukan untuk memastikan kolaborasi yang efektif ke depannya? Jawaban ahli — berdasarkan percakapan yang baru saja kita lihat, kita tahu bahwa Aaliyah memiliki banyak hal dalam agendanya. Namun, tujuan utamanya adalah membangun hubungan (rapport) dengan tim transformasi dan menjelaskan bagaimana mereka akan berkolaborasi ke depannya. Cara paling efektif bagi Aaliyah untuk mencapai tujuannya adalah dengan memasukkan kebutuhan audiensnya ke dalam agendanya. Tujuan yang dibangun bersama akan membawanya lebih jauh dan lebih cepat dibandingkan jika hanya berfokus pada kebutuhannya sendiri. Poin penting: tujuan yang dibangun bersama menciptakan keselarasan, membangun kepercayaan, dan menghasilkan kolaborasi yang lebih efektif."
          }
         }
        ]
@@ -7607,6 +7654,66 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/communication-5-en.vtt",
           "id": "../../assets/lms/the-map/communication-5-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "purpose",
+       "placement": "after-material:6",
+       "kicker": {
+        "en": "Watch next · Scene film & expert commentary",
+        "id": "Tonton berikutnya · Film adegan & komentar ahli"
+       },
+       "intro": {
+        "en": "Two films follow the takeaways. The first is back at MODA: Aaliyah has thirty minutes for the transformation team’s kick-off and five things she wants to cover — scope, deliverables, deadlines, ways of working, getting to know everyone. She calls David Fu, who asks the one question that helps: what are your top priorities? Then she catches Noah, working late, to gauge what the team needs. The second is the expert’s commentary: define a realistic purpose for the time you have, be clear about what can be achieved, and let people leave with a clear set of actions — trying to do too much in one meeting is a recipe for disaster. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the case in focus below.",
+        "id": "Dua film mengikuti poin penting. Film pertama kembali ke MODA: Aaliyah punya tiga puluh menit untuk kick-off tim transformasi dan lima hal yang ingin ia bahas — ruang lingkup, deliverable, tenggat, cara bekerja, saling mengenal. Ia menelepon David Fu, yang mengajukan satu pertanyaan yang membantu: apa prioritas utamamu? Lalu ia menemui Noah, yang sedang lembur, untuk menakar kebutuhan tim. Film kedua adalah komentar ahli: definisikan tujuan yang realistis untuk waktu yang Anda miliki, jelas tentang apa yang bisa dicapai, dan biarkan orang pulang dengan serangkaian tindakan yang jelas — mencoba melakukan terlalu banyak dalam satu rapat adalah resep menuju kekacauan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: a purpose that fits the time",
+         "id": "Poin penting: tujuan yang sesuai dengan waktunya"
+        },
+        "body": [
+         {
+          "en": "Five things in thirty minutes is a wish list, not a purpose. Ask what you want to get out of the meeting, then cut until it fits the time you actually have.",
+          "id": "Lima hal dalam tiga puluh menit adalah daftar keinginan, bukan tujuan. Tanyakan apa yang ingin Anda dapatkan dari rapat, lalu pangkas sampai sesuai dengan waktu yang benar-benar Anda miliki."
+         },
+         {
+          "en": "Purpose includes the audience’s needs, not just yours. Aaliyah went to Noah before the meeting to find out what the team wanted to add — that is empathy applied to an agenda.",
+          "id": "Tujuan mencakup kebutuhan audiens, bukan hanya kebutuhan Anda. Aaliyah menemui Noah sebelum rapat untuk mencari tahu apa yang ingin ditambahkan tim — itulah empati yang diterapkan pada agenda."
+         },
+         {
+          "en": "A clear, well-directed purpose means people arrive knowing what is happening and leave with actions and commitments. Other topics can wait for another meeting.",
+          "id": "Tujuan yang jelas dan terarah berarti orang datang dengan tahu apa yang terjadi dan pulang dengan tindakan dan komitmen. Topik lain bisa menunggu rapat berikutnya."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/communication-6-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-6-poster.jpg",
+         "dur": "1:54",
+         "title": {
+          "en": "Back at MODA: what is Aaliyah’s purpose for the kick-off?",
+          "id": "Kembali ke MODA: apa tujuan Aaliyah untuk rapat kick-off?"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-6-en.vtt",
+          "id": "../../assets/lms/the-map/communication-6-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/communication-7-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-7-poster.jpg",
+         "dur": "0:50",
+         "title": {
+          "en": "Expert commentary: a realistic purpose for the time you have",
+          "id": "Komentar ahli: tujuan yang realistis untuk waktu yang Anda miliki"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-7-en.vtt",
+          "id": "../../assets/lms/the-map/communication-7-id.vtt"
          }
         }
        ]
