@@ -7727,8 +7727,8 @@ window.MT_LMS['the-map'] = {
       "id": "Teori Inti Komunikasi"
      },
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "50 min",
+      "id": "50 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -8092,6 +8092,73 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 5 slides",
+        "id": "Baca berikutnya · 5 slide"
+       },
+       "title": {
+        "en": "Help Maryam Finalize Her Structure — Material",
+        "id": "Bantu Maryam Menyusun Struktur Akhirnya — Materi"
+       },
+       "intro": {
+        "en": "Five slides. First, a scenario check: after meeting Noah, Maryam groups like facts together and has three pieces of information left — which one does not belong with the others? The slide shows the answer. Then the material moves to the I of EPIC: what an insight is and why it drives action, the key questions to ask yourself with insight, and an activity in which you help Aaliyah tell insights apart from data and general information. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all five, then continue to the film that follows.",
+        "id": "Lima slide. Pertama, cek skenario: setelah bertemu Noah, Maryam mengelompokkan fakta-fakta serupa dan masih punya tiga informasi tersisa — mana yang tidak termasuk kelompok lainnya? Slide menampilkan jawabannya. Lalu materi beralih ke I dari EPIC: apa itu insight dan mengapa ia mendorong aksi, pertanyaan kunci yang perlu Anda ajukan untuk menemukan insight, dan sebuah aktivitas di mana Anda membantu Aaliyah membedakan insight dari data dan informasi umum. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca kelimanya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/purpose-structure-",
+       "slides": [
+        {
+         "title": {
+          "en": "Help Maryam finalize her structure",
+          "id": "Bantu Maryam menyusun struktur akhirnya"
+         },
+         "text": {
+          "en": "Scenario. After meeting with Noah, Maryam decides to finalize the structure of her key messages and group together like facts. Maryam has three pieces of information left but does not think that they all belong together in the same group. Which of these facts does not belong with the others? (1) We lose ~60% of the potential customers who might sign up to the loyalty program because they think the sign up process will take too long. (2) Staff currently spend 40% of time on inventory counts on the floor and in the backroom. (3) Our competitors who have a more structured process for signing up to loyalty programs have a higher customer satisfaction than us. Correct: (2). Two of the three remaining pieces of information describe the customer loyalty program sign-up process; this fact focuses on other activities performed by staff that can decrease their attention to customer service.",
+          "id": "Lanjutan skenario. Setelah bertemu dengan Noah, Maryam memutuskan untuk menyelesaikan struktur pesan utamanya dan mengelompokkan fakta-fakta yang ada. Maryam memiliki tiga informasi tersisa, namun ia merasa ketiganya tidak termasuk dalam kelompok yang sama. Manakah dari fakta berikut yang tidak termasuk dalam kelompok lainnya? (1) Kita kehilangan sekitar 60% calon pelanggan potensial yang mungkin mendaftar program loyalitas karena mereka menganggap proses pendaftaran terlalu lama. (2) Staf saat ini menghabiskan 40% waktu untuk menghitung jumlah inventori di area depan toko (lantai) dan di ruang belakang (gudang). (3) Pesaing kita yang memiliki proses lebih terstruktur untuk program loyalitas memiliki tingkat kepuasan pelanggan yang lebih tinggi dibandingkan kita. Benar: (2). Dua dari tiga informasi yang tersisa menjelaskan proses pendaftaran program loyalitas pelanggan; fakta ini berfokus pada aktivitas operasional lain yang dilakukan staf, yang dapat mengurangi perhatian mereka terhadap layanan pelanggan."
+         }
+        },
+        {
+         "title": {
+          "en": "What are insights? Insights: the driver of action",
+          "id": "Apa itu insight? Insight: pendorong aksi"
+         },
+         "text": {
+          "en": "Key concept. At MODA, Noah will encounter challenges as he gathers and analyzes insights, particularly when communicating them with Maryam and Aaliyah. As you proceed through your life, you too will encounter similar challenges as Noah. To overcome these challenges, it is important to leverage the I portion of the EPIC journey — Insight. In our EPIC journey, we started with Empathy to build a deeper understanding of what the other person thinks, feels, needs, and wants. We defined a Purpose that includes what you and the other person want to get out of the interaction. Next, it’s important to determine the Insight you will bring to the interaction. Kate helps us understand what exactly is an insight and underscores the importance of insights as the driver of action in conversation. An insight turns understanding into action: it helps you see what really matters, so you can have more meaningful conversations and make better decisions. The EPIC journey: Empathy, Purpose, Insight, Choice.",
+          "id": "Konsep utama. Di MODA, Noah akan menghadapi tantangan saat mengumpulkan dan menganalisis insight, terutama ketika mengomunikasikannya kepada Maryam dan Aaliyah. Seiring perjalanan hidup Anda, Anda juga akan menghadapi tantangan serupa seperti yang dialami Noah. Untuk mengatasi tantangan ini, penting untuk memanfaatkan bagian I dari perjalanan EPIC, yaitu Insight. Dalam perjalanan EPIC kita, kita memulai dengan Empati untuk membangun pemahaman yang lebih mendalam tentang apa yang dipikirkan, dirasakan, dibutuhkan, dan diinginkan oleh orang lain. Kita kemudian menetapkan Tujuan yang mencakup apa yang ingin Anda dan orang lain capai dari interaksi tersebut. Selanjutnya, penting untuk menentukan Insight yang akan Anda bawa ke dalam interaksi. Kate membantu kita memahami secara tepat apa itu insight dan menekankan pentingnya insight sebagai pendorong aksi dalam percakapan. Sebuah insight mengubah pemahaman menjadi aksi: membantu Anda melihat apa yang benar-benar penting, sehingga Anda dapat melakukan percakapan yang lebih bermakna dan membuat keputusan yang lebih baik. Perjalanan EPIC: Empati, Tujuan, Insight, Pilihan."
+         }
+        },
+        {
+         "title": {
+          "en": "Key questions to ask yourself with Insight",
+          "id": "Pertanyaan kunci yang perlu Anda ajukan untuk menemukan Insight"
+         },
+         "text": {
+          "en": "Key concept. Keep in mind the work you’ve already done to prepare for your interaction by investigating Empathy and Purpose. Now where do you start with Insight? Let’s recap the key questions to ask yourself. 1. What insights are most relevant to helping you succeed in this purpose? 2. What storyline will help you focus attention on those insights? What concise phrases capture your ideas best? 3. What types of materials or interactions will help you share those insights most clearly? We will explore the first question in this section, and address the other two in the next section.",
+          "id": "Konsep utama. Ingat kembali langkah yang sudah Anda lakukan untuk mempersiapkan interaksi Anda, yaitu dengan menggali Empati dan Tujuan. Sekarang, dari mana Anda mulai dengan Insight? Mari kita telaah kembali pertanyaan-pertanyaan kunci yang perlu Anda ajukan pada diri sendiri. 1. Insight apa yang paling relevan untuk membantu Anda berhasil dalam tujuan ini? 2. Cerita atau narasi seperti apa yang akan membantu Anda memfokuskan perhatian pada insight tersebut? Frasa singkat apa yang paling tepat untuk menangkap ide Anda? 3. Jenis materi atau interaksi seperti apa yang akan membantu Anda menyampaikan insight tersebut dengan paling jelas? Pada bagian ini, kita akan membahas pertanyaan pertama, dan dua pertanyaan lainnya akan dibahas di bagian selanjutnya."
+         }
+        },
+        {
+         "title": {
+          "en": "Help Aaliyah focus on the insights",
+          "id": "Bantu Aaliyah fokus pada insight-insightnya"
+         },
+         "text": {
+          "en": "Activity. Insight is often confused with data and general information. As Aaliyah is sorting through her pile of documents for the transformation, she needs some help picking out the insights. Test your understanding of insight by reviewing each card on this page and help Aaliyah out. Is it an insight or not? Keep your answer in mind, and flip each card to see if you are correct! Then, in the following pages, we’ll show you how to use your insights to structure your message. How it works: 1. Read each card carefully. 2. Decide whether the card is an insight or not. 3. Keep your answer in mind, then flip the card to see if you are correct! Next step: in the following pages, we’ll show you how to use your insights to structure your message more effectively.",
+          "id": "Aktivitas. Insight sering kali tertukar dengan data dan informasi umum. Saat Aaliyah memilah tumpukan dokumen untuk inisiatif transformasi, ia membutuhkan bantuan untuk mengidentifikasi mana yang merupakan insight. Uji pemahaman Anda tentang insight dengan meninjau setiap kartu di halaman ini dan bantu Aaliyah. Apakah ini termasuk insight atau bukan? Ingat jawaban Anda, lalu balik setiap kartu untuk melihat apakah jawaban Anda benar! Pada halaman berikutnya, kita akan menunjukkan cara menggunakan insight untuk menyusun pesan yang lebih terstruktur. Cara mengerjakan: 1. Baca setiap kartu dengan cermat. 2. Tentukan apakah kartu tersebut merupakan insight atau bukan. 3. Ingat jawaban Anda, lalu balik kartu untuk melihat apakah jawaban Anda benar! Selanjutnya: pada halaman berikutnya, kita akan menunjukkan cara menggunakan insight untuk menyusun pesan yang lebih terstruktur dan efektif."
+         }
+        },
+        {
+         "title": {
+          "en": "Help Aaliyah focus on the insights — the cards",
+          "id": "Bantu Aaliyah fokus pada insight-insightnya — kartunya"
+         },
+         "text": {
+          "en": "Activity. Your task: review each card and decide: is it an insight or not? Keep your answer in mind, then flip the card to check if you are correct. Cards: New analysis showing important drivers of improving profits in the retail sector · Workplan and current status · List of recently learned facts on competitors · Customer journey map revealing new and unexpected pain points to address · A chart showing quarterly sales information by region for the past two years · Synthesized reports from the front line on whether pilot projects are delivering results. Example, flipped: “New analysis showing important drivers of improving profits in the retail sector” — It’s an insight! Insights are generated by analyzing information and drawing conclusions. This analysis identifies key drivers and explains why profits are improving, which provides a deeper understanding beyond just the data.",
+          "id": "Aktivitas. Tugas Anda: tinjau setiap kartu dan tentukan: apakah ini merupakan insight atau bukan? Ingat jawaban Anda, lalu balik kartu untuk melihat apakah jawaban Anda benar! Kartu: Analisis terbaru yang menunjukkan faktor utama dalam meningkatkan profitabilitas di sektor ritel · Rencana kerja dan status terkini · Daftar fakta yang baru dipelajari tentang kompetitor · Peta perjalanan pelanggan yang mengungkapkan titik pain point baru dan tidak terduga untuk ditangani · Grafik yang menunjukkan informasi penjualan triwulanan berdasarkan wilayah untuk dua tahun terakhir · Laporan hasil sintesis di lini depan mengenai apakah proyek percontohan (pilot project) memberikan hasil. Contoh, dibalik: “Analisis terbaru yang menunjukkan faktor utama dalam meningkatkan profitabilitas di sektor ritel” — Ini adalah insight! Insight dihasilkan dengan menganalisis informasi dan menarik kesimpulan. Analisis ini mengidentifikasi faktor utama dan menjelaskan mengapa profitabilitas meningkat, sehingga memberikan pemahaman yang lebih mendalam dibandingkan sekadar data."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -8150,8 +8217,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film adegan"
        },
        "intro": {
-        "en": "Back at MODA. Maryam has spent a week collecting the reasons behind the Digital team’s top three ideas — Penelope’s in-store self-serve tablets, Harry’s point-of-sale integration, a favourable vendor deal — and pours all of it out in one go. Noah has to cut in: interesting, but have we answered why these are the best ideas to pursue? He shows her how to structure it for the meeting with Aaliyah: lead with the answer, the governing thought; expect the “why?” or “how?” it raises; answer at the next level, the key line; support that with grouped facts and their “so what”. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below.",
-        "id": "Kembali ke MODA. Maryam menghabiskan seminggu mengumpulkan alasan di balik tiga ide teratas tim Digital — tablet layanan mandiri di toko dari Penelope, integrasi point-of-sale dari Harry, kesepakatan vendor yang menguntungkan — dan menumpahkan semuanya sekaligus. Noah harus menyela: menarik, tetapi apakah kita sudah menjawab mengapa ini ide-ide terbaik untuk dikejar? Ia menunjukkan cara menyusunnya untuk rapat dengan Aaliyah: mulai dengan jawabannya, gagasan utama; antisipasi “mengapa?” atau “bagaimana?” yang dimunculkannya; jawab di tingkat berikutnya, key line; dukung dengan fakta yang dikelompokkan beserta “so what”-nya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+        "en": "Back at MODA. Maryam has spent a week collecting the reasons behind the Digital team’s top three ideas — Penelope’s in-store self-serve tablets, Harry’s point-of-sale integration, a favourable vendor deal — and pours all of it out in one go. Noah has to cut in: interesting, but have we answered why these are the best ideas to pursue? He shows her how to structure it for the meeting with Aaliyah: lead with the answer, the governing thought; expect the “why?” or “how?” it raises; answer at the next level, the key line; support that with grouped facts and their “so what”. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Kembali ke MODA. Maryam menghabiskan seminggu mengumpulkan alasan di balik tiga ide teratas tim Digital — tablet layanan mandiri di toko dari Penelope, integrasi point-of-sale dari Harry, kesepakatan vendor yang menguntungkan — dan menumpahkan semuanya sekaligus. Noah harus menyela: menarik, tetapi apakah kita sudah menjawab mengapa ini ide-ide terbaik untuk dikejar? Ia menunjukkan cara menyusunnya untuk rapat dengan Aaliyah: mulai dengan jawabannya, gagasan utama; antisipasi “mengapa?” atau “bagaimana?” yang dimunculkannya; jawab di tingkat berikutnya, key line; dukung dengan fakta yang dikelompokkan beserta “so what”-nya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8168,8 +8235,8 @@ window.MT_LMS['the-map'] = {
           "id": "Mulai dengan gagasan utama, lalu jawab pertanyaan yang dimunculkannya di key line, lalu dukung tiap key line dengan fakta yang dikelompokkan. Setiap tingkat menjawab “mengapa?” atau “bagaimana?” dari tingkat di atasnya."
          },
          {
-          "en": "Group what you have collected, find the themes, and name the “so what” of each group. Exhibit 1 below turns this into the three altitudes you announce as you climb and descend.",
-          "id": "Kelompokkan yang sudah Anda kumpulkan, temukan temanya, dan sebutkan “so what” tiap kelompok. Peraga 1 di bawah mengubahnya menjadi tiga ketinggian yang Anda umumkan saat naik dan turun."
+          "en": "Group what you have collected, find the themes, and name the “so what” of each group. The slides that follow put you in Maryam’s seat: which fact does not belong with the others, and what an insight really is.",
+          "id": "Kelompokkan yang sudah Anda kumpulkan, temukan temanya, dan sebutkan “so what” tiap kelompok. Slide berikutnya menempatkan Anda di posisi Maryam: fakta mana yang tidak termasuk kelompok lainnya, dan apa sebenarnya insight itu."
          }
         ]
        },
@@ -8185,6 +8252,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/purpose-2-en.vtt",
           "id": "../../assets/lms/the-map/purpose-2-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "insight",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "Kate opens the I of EPIC: insight. Data is the raw material — numbers, anecdotes; information has been prepared a little; an insight takes time, reflection, and a “so what?”: why is this relevant, what is compelling, why does it make a difference to your audience? She sets out the three ways to think about insight — the key insights to bring to the interaction, the storyline that conveys them, and the visual aids and media you choose — and points ahead to structuring your message, and to the difference between summary and synthesis. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below.",
+        "id": "Kate membuka I dari EPIC: insight. Data adalah bahan mentah — angka, anekdot; informasi sudah sedikit diolah; insight membutuhkan waktu, refleksi, dan sebuah “so what?”: mengapa ini relevan, apa yang menarik, mengapa ini membuat perbedaan bagi audiens Anda? Ia memaparkan tiga cara memikirkan insight — insight kunci yang dibawa ke interaksi, alur cerita yang menyampaikannya, dan alat bantu visual serta media yang Anda pilih — lalu menunjuk ke depan: menyusun struktur pesan Anda, dan perbedaan antara ringkasan dan sintesis. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: hold a high bar for insight",
+         "id": "Poin penting: pertahankan standar tinggi untuk insight"
+        },
+        "body": [
+         {
+          "en": "Data is raw material and information is prepared data. An insight is neither: it takes time, reflection, and a “so what?” — why it is relevant, what is compelling, why it makes a difference to your audience.",
+          "id": "Data adalah bahan mentah dan informasi adalah data yang sudah diolah. Insight bukan keduanya: ia membutuhkan waktu, refleksi, dan sebuah “so what?” — mengapa relevan, apa yang menarik, mengapa membuat perbedaan bagi audiens Anda."
+         },
+         {
+          "en": "Boiling the ocean does not help. Ask what key insights you want to bring to this meeting, which storyline carries them, and which visual aids and media will shape how people receive and act on them.",
+          "id": "Merebus seluruh lautan tidak membantu. Tanyakan insight kunci apa yang ingin Anda bawa ke rapat ini, alur cerita mana yang membawanya, dan alat bantu visual serta media mana yang membentuk bagaimana orang menerima dan bertindak atasnya."
+         },
+         {
+          "en": "Structure is how insight travels. Exhibit 1 below gives you the three altitudes to announce as you climb and descend through your message.",
+          "id": "Struktur adalah cara insight berpindah. Peraga 1 di bawah memberi Anda tiga ketinggian yang diumumkan saat naik dan turun melalui pesan Anda."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/purpose-3-brand.mp4",
+         "poster": "../../assets/lms/the-map/purpose-3-poster.jpg",
+         "dur": "2:48",
+         "title": {
+          "en": "How structure enables insight",
+          "id": "Bagaimana struktur memungkinkan insight"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/purpose-3-en.vtt",
+          "id": "../../assets/lms/the-map/purpose-3-id.vtt"
          }
         }
        ]
