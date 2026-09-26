@@ -7727,8 +7727,8 @@ window.MT_LMS['the-map'] = {
       "id": "Teori Inti Komunikasi"
      },
      "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
+      "en": "30 min",
+      "id": "30 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7929,6 +7929,84 @@ window.MT_LMS['the-map'] = {
         "en": "Zooming out: the point is that region C grows while the others shrink. To get concrete: C grew twenty five percent last quarter on our highest margin.",
         "id": "Kalau kita lihat gambaran besarnya: intinya, wilayah C tumbuh sementara wilayah lain menyusut. Konkretnya: C tumbuh dua puluh lima persen kuartal lalu, pada margin tertinggi kita."
        }
+      }
+     ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 1 slide",
+        "id": "Baca dulu · 1 slide"
+       },
+       "title": {
+        "en": "What Is Purpose — Material",
+        "id": "Apa Itu Tujuan — Materi"
+       },
+       "intro": {
+        "en": "Start with the slide. It opens the P of EPIC: after considering your audience — their thoughts, feelings and perspective — you are ready to define the purpose of your interaction. A meeting can have many purposes (share information, get alignment, solve a problem, motivate action), but getting crystal clear on the message makes your communication land and helps you reach your objectives. It also sets a reflection for the film: think of a time you took the other person’s needs into account — how did that conversation go, and did it move things forward? Read it, then watch the film below before Exhibit 1.",
+        "id": "Mulai dari slidenya. Slide ini membuka P dalam EPIC: setelah mempertimbangkan audiens Anda — pikiran, perasaan, dan perspektif mereka — Anda siap menentukan tujuan dari interaksi Anda. Sebuah pertemuan dapat memiliki banyak tujuan (membagikan informasi, menyelaraskan pandangan, menyelesaikan masalah, mendorong tindakan), tetapi menjadi sangat jelas mengenai pesan utama membuat komunikasi Anda sampai dan membantu Anda mencapai tujuan. Slide ini juga menyiapkan refleksi untuk filmnya: ingat saat Anda mempertimbangkan kebutuhan orang lain — bagaimana jalannya percakapan itu, dan apakah membawa perkembangan? Bacalah, lalu tonton film di bawahnya sebelum Peraga 1."
+       },
+       "base": "../../assets/lms/the-map/slides/purpose-",
+       "slides": [
+        {
+         "title": {
+          "en": "What is purpose? Communicating with purpose",
+          "id": "Apa itu tujuan? Berkomunikasi dengan tujuan"
+         },
+         "text": {
+          "en": "Key concept. After considering your audience, their thoughts, feelings, and perspective, you are now ready to define the purpose of your interaction. There can be many purposes for a meeting; however, getting crystal clear on the message can help make your communications come across as clear and help you effectively reach your objectives. These concepts tie closely together with Empathy, and you will oftentimes see overlap. In this video, Kate explains what it means to have a purpose. “Why do I have this conversation?” — share information? get alignment? solve a problem? motivate action? Watch the video — Kate explains what it means to have a purpose in your communication. Pause and reflect: as you watch, think about any instances where you’ve taken into consideration the needs of the other person when communicating with them. How did this conversation go? Was this something that moved the conversation forward?",
+          "id": "Konsep utama. Setelah mempertimbangkan audiens Anda, pikiran, perasaan, dan perspektif mereka, Anda kini siap untuk menentukan tujuan dari interaksi Anda. Sebuah pertemuan dapat memiliki banyak tujuan; namun, menjadi sangat jelas mengenai pesan utama dapat membantu menyampaikan komunikasi Anda dengan lebih jelas dan membantu Anda mencapai tujuan secara efektif. Konsep-konsep ini saling terkait erat dengan Empati, dan sering kali akan saling tumpang tindih. Dalam video ini, Kate menjelaskan apa arti memiliki tujuan dalam sebuah komunikasi. “Mengapa saya melakukan percakapan ini?” — membagikan informasi? menyelaraskan pandangan? menyelesaikan masalah? mendorong tindakan? Tonton video — Kate menjelaskan apa arti memiliki tujuan dalam sebuah komunikasi. Jeda dan refleksikan: saat menonton, pikirkan tentang pengalaman Anda di mana Anda telah mempertimbangkan kebutuhan orang lain saat berkomunikasi dengan mereka. Bagaimana jalannya percakapan tersebut? Apakah percakapan ini membawa perkembangan positif?"
+         }
+        }
+       ]
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "purpose",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "Kate on purpose, the second part of EPIC. Purpose is defining what you want to get out of an interaction — but not only your needs and wants: the other person’s too. She defines it three ways: given how the other person feels and thinks about the topic, what is realistically achievable in this meeting; what are your goals for it; and what are theirs. Defined this way, purpose makes the interaction genuinely inclusive and two-way — a dialogue that builds the relationship over the longer term, not a one-way transmission of your ideas. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below.",
+        "id": "Kate tentang tujuan, bagian kedua EPIC. Tujuan adalah mendefinisikan apa yang ingin Anda dapatkan dari sebuah interaksi — tetapi bukan hanya kebutuhan dan keinginan Anda: kebutuhan dan keinginan orang lain juga. Ia mendefinisikannya dalam tiga cara: dengan bagaimana orang lain merasa dan berpikir tentang topiknya, apa yang realistis bisa dicapai dalam rapat ini; apa tujuan Anda; dan apa tujuan mereka. Didefinisikan seperti ini, tujuan membuat interaksi benar-benar inklusif dan dua arah — dialog yang membangun hubungan untuk jangka panjang, bukan penyampaian satu arah ide-ide Anda. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: purpose has three parts",
+         "id": "Poin penting: tujuan punya tiga bagian"
+        },
+        "body": [
+         {
+          "en": "Purpose is what you want out of the interaction — and what the other person wants. Define both, or you are transmitting, not communicating.",
+          "id": "Tujuan adalah apa yang Anda inginkan dari interaksi — dan apa yang diinginkan orang lain. Definisikan keduanya, atau Anda hanya menyampaikan, bukan berkomunikasi."
+         },
+         {
+          "en": "Three questions set it: what is realistically achievable given where they are, what are your goals, what are theirs. Empathy from the previous lesson feeds the first one.",
+          "id": "Tiga pertanyaan menentukannya: apa yang realistis bisa dicapai mengingat posisi mereka, apa tujuan Anda, apa tujuan mereka. Empati dari pelajaran sebelumnya memberi bahan untuk yang pertama."
+         },
+         {
+          "en": "A shared purpose makes the meeting a two-way dialogue and builds the relationship. Exhibit 1 below shows how to keep that dialogue at the right altitude.",
+          "id": "Tujuan bersama membuat rapat menjadi dialog dua arah dan membangun hubungan. Peraga 1 di bawah menunjukkan cara menjaga dialog itu pada ketinggian yang tepat."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/purpose-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/purpose-1-poster.jpg",
+         "dur": "1:11",
+         "title": {
+          "en": "Communicating with purpose: yours, theirs, and what is achievable",
+          "id": "Berkomunikasi dengan tujuan: milik Anda, milik mereka, dan yang bisa dicapai"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/purpose-1-en.vtt",
+          "id": "../../assets/lms/the-map/purpose-1-id.vtt"
+         }
+        }
+       ]
       }
      ]
     },
