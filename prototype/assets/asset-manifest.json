@@ -17281,6 +17281,138 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for communication-3: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-en-01.jpg",
+      "bytes": 223895,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - English.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (English), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-en-01-960.jpg",
+      "bytes": 108105,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - English.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (English), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-en-01-320.jpg",
+      "bytes": 17375,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - English.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (English), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-id-01.jpg",
+      "bytes": 235695,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (Bahasa Indonesia), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-id-01-960.jpg",
+      "bytes": 112305,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (Bahasa Indonesia), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/expert-id-01-320.jpg",
+      "bytes": 17179,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Compare with Expert - Bahasa Indonesia.pdf\" (one-slide learning material with a photograph); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 slide material \"Compare with the Expert\" (Bahasa Indonesia), slide 1 of 1: reflection questions, expert response and key takeaways. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/communication-4.mp4",
+      "bytes": 9345664,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-26 as \"Expert Commentary.mp4\" (moved to this path, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.1 expert commentary film on the MODA scene, presenter \"Kate\". Licence and any model release follow the upload."
+    },
+    {
+      "file": "assets/lms/the-map/communication-4-brand.mp4",
+      "bytes": 12880125,
+      "category": "video",
+      "people": "yes",
+      "source": "Derived in-repo from communication-4.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/communication-4-poster.jpg",
+      "bytes": 53065,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame extracted in-repo from communication-4.mp4",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame for the expert commentary film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/communication-4-en.vtt",
+      "bytes": 1829,
+      "category": "text",
+      "people": "no",
+      "source": "Transcribed in-repo from the film’s English audio (offline Whisper small.en) and corrected by hand",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for communication-4."
+    },
+    {
+      "file": "assets/lms/the-map/communication-4-id.vtt",
+      "bytes": 1944,
+      "category": "text",
+      "people": "no",
+      "source": "Translated in-repo from the English transcript",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for communication-4: translated in-repo from the English transcript."
     }
   ]
 }

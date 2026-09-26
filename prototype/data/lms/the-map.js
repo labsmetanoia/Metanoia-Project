@@ -7021,8 +7021,8 @@ window.MT_LMS['the-map'] = {
       "id": "Tantangan Komunikasi yang Umum Terjadi"
      },
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "50 min",
+      "id": "50 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -7256,6 +7256,33 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Compare with the Expert — Material",
+        "id": "Bandingkan dengan Pandangan Ahli — Materi"
+       },
+       "intro": {
+        "en": "After the scene, one slide asks you to answer for yourself before you compare. Three questions on the conversation you just watched — what Noah could have done differently before walking in, where empathy entered the picture, and how Aaliyah felt at the end and what that means for their future interactions — then the expert’s response to the first two, and two takeaways. Think through your own answers first, then read the expert’s, then watch the commentary film below.",
+        "id": "Setelah adegan, satu slide memintamu menjawab sendiri sebelum membandingkan. Tiga pertanyaan tentang percakapan yang baru saja Anda tonton — apa yang bisa dilakukan Noah secara berbeda sebelum masuk, di mana empati muncul, dan bagaimana perasaan Aaliyah di akhir serta artinya bagi interaksi mereka ke depan — lalu respons ahli untuk dua pertanyaan pertama, dan dua insight utama. Pikirkan jawabanmu sendiri dulu, baca jawaban ahli, lalu tonton film komentar di bawahnya."
+       },
+       "base": "../../assets/lms/the-map/slides/expert-",
+       "slides": [
+        {
+         "title": {
+          "en": "Compare with the expert",
+          "id": "Bandingkan dengan pandangan ahli"
+         },
+         "text": {
+          "en": "Discussion and reflection. Consider the Empathy element of the EPIC framework, where you put yourself in the other person’s shoes to understand their perspective. Questions for you — based on the conversation you heard, think to yourself and answer: 01 What could Noah have done differently before heading into the conversation with Aaliyah? 02 Where did empathy enter the picture (if at all)? 03 How do you think Aaliyah felt at the end of their conversation? What kind of impact would that have on their future interactions? Aaliyah, Chief Transformation Officer (CTO), MODA — “How does Noah see the challenges from my perspective?” Noah, Head of Digital, MODA — “What matters most to Aaliyah in this transformation?” Expert response — here is the expert’s perspective on how empathy showed up in this conversation. 01 What could Noah have done differently? Before the meeting, Noah could have tried to put himself in Aaliyah’s shoes in an attempt to forge a stronger connection with his colleague. Instead, he was preoccupied with his own agenda and anxieties about the transformation. Noah could have spent a little time thinking about how Aaliyah might be feeling about the changes that lie ahead. 02 Where did empathy enter the picture? As soon as Noah asked Aaliyah how she was feeling, we witnessed a sigh of relief from her. This changed the dynamic for them in the moment, and potentially going forward. Noah’s question helped alleviate her anxieties. Key takeaways: empathy helps build stronger connections, reduces anxiety, and creates space for better collaboration; simple questions that show genuine interest in the other person’s feelings and perspective can have a meaningful positive impact on the outcome of the conversation and future interactions.",
+          "id": "Diskusi dan refleksi. Pertimbangkan elemen Empati dalam kerangka EPIC, di mana Anda menempatkan diri pada posisi orang lain untuk memahami perspektif mereka. Pertanyaan untuk Anda — berdasarkan percakapan yang Anda saksikan, pikirkan dan jawab: 01 Apa yang bisa Noah lakukan secara berbeda sebelum memulai percakapan dengan Aaliyah? 02 Di mana empati muncul dalam percakapan tersebut (jika ada)? 03 Menurut Anda, bagaimana perasaan Aaliyah di akhir percakapan mereka? Dampak seperti apa yang akan hal ini miliki pada interaksi mereka di masa depan? Aaliyah, Chief Transformation Officer (CTO), MODA — “Bagaimana Noah melihat tantangan ini dari sudut pandang saya?” Noah, Head of Digital, MODA — “Apa yang paling penting bagi Aaliyah dalam perubahan ini?” Respons dari ahli — berikut adalah pandangan ahli mengenai bagaimana empati muncul dalam percakapan ini. 01 Apa yang bisa dilakukan Noah secara berbeda? Sebelum pertemuan, Noah seharusnya mencoba menempatkan diri pada posisi Aaliyah untuk membangun koneksi yang lebih kuat dengan koleganya. Sebaliknya, ia terlalu fokus pada agenda dan kekhawatirannya sendiri terkait transformasi. Noah dapat meluangkan sedikit waktu untuk memikirkan bagaimana Aaliyah mungkin merasakan perubahan tersebut dan apa yang menjadi perhatian utamanya. 02 Di mana empati muncul dalam percakapan? Begitu Noah menanyakan bagaimana perasaan Aaliyah, kita melihat tanda kelegaan dari dirinya. Hal ini mengubah dinamika percakapan mereka pada saat itu, dan berpotensi juga di masa depan. Pertanyaan Noah membantu mengurangi kecemasan Aaliyah dan menunjukkan bahwa ia benar-benar peduli untuk memahami perspektifnya. Insight utama: empati membantu membangun koneksi yang lebih kuat, mengurangi kecemasan, dan menciptakan ruang untuk kolaborasi yang lebih baik; pertanyaan sederhana yang menunjukkan perhatian terhadap perasaan dan perspektif orang lain dapat memberikan dampak positif yang signifikan pada hasil percakapan dan interaksi di masa depan."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -7327,8 +7354,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film adegan"
        },
        "intro": {
-        "en": "Back at MODA. Aaliyah, the new Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting — and you hear what each of them is thinking on the way in: Noah remembers the last transformation his team did not enjoy and is hungry from a lunchtime slot; Aaliyah is juggling her mentorship initiative, her youth group and a transformation that started earlier than expected. Watch how the first exchange lands, where empathy shows up, and what the narrator asks you to notice: what is the other person thinking and feeling, and what is at stake for them? Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the case in focus below.",
-        "id": "Kembali ke MODA. Aaliyah, Chief Transformation Officer yang baru, mengundang Noah, Head of Digital, ke pertemuan awal — dan Anda mendengar apa yang masing-masing pikirkan menjelang rapat: Noah teringat transformasi sebelumnya yang tidak disukai timnya dan kelaparan karena rapatnya di jam makan siang; Aaliyah sedang menyeimbangkan inisiatif mentoringnya, kelompok pemudanya, dan transformasi yang dimulai lebih cepat dari perkiraan. Perhatikan bagaimana pertukaran pertama mereka berlangsung, di mana empati muncul, dan apa yang diminta narator untuk Anda perhatikan: apa yang orang lain pikirkan dan rasakan, dan apa yang dipertaruhkan bagi mereka? Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+        "en": "Back at MODA. Aaliyah, the new Chief Transformation Officer, has invited Noah, Head of Digital, to an introductory meeting — and you hear what each of them is thinking on the way in: Noah remembers the last transformation his team did not enjoy and is hungry from a lunchtime slot; Aaliyah is juggling her mentorship initiative, her youth group and a transformation that started earlier than expected. Watch how the first exchange lands, where empathy shows up, and what the narrator asks you to notice: what is the other person thinking and feeling, and what is at stake for them? Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
+        "id": "Kembali ke MODA. Aaliyah, Chief Transformation Officer yang baru, mengundang Noah, Head of Digital, ke pertemuan awal — dan Anda mendengar apa yang masing-masing pikirkan menjelang rapat: Noah teringat transformasi sebelumnya yang tidak disukai timnya dan kelaparan karena rapatnya di jam makan siang; Aaliyah sedang menyeimbangkan inisiatif mentoringnya, kelompok pemudanya, dan transformasi yang dimulai lebih cepat dari perkiraan. Perhatikan bagaimana pertukaran pertama mereka berlangsung, di mana empati muncul, dan apa yang diminta narator untuk Anda perhatikan: apa yang orang lain pikirkan dan rasakan, dan apa yang dipertaruhkan bagi mereka? Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -7362,6 +7389,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/communication-3-en.vtt",
           "id": "../../assets/lms/the-map/communication-3-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "expert",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · Expert commentary",
+        "id": "Tonton berikutnya · Komentar ahli"
+       },
+       "intro": {
+        "en": "The expert looks back at the meeting. Noah pivoted to ask Aaliyah how she was handling everything — and that, the expert says, is what demonstrating empathy looks like: asking rather than assuming, giving the other person time and space, and listening. Aaliyah came in with her own agenda but opened a door early with “Is there anything else you’d like to talk about?”. Little steps like these go a long way in a business context. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the case in focus below.",
+        "id": "Sang ahli menengok kembali rapat itu. Noah berbalik arah dan bertanya bagaimana Aaliyah menghadapi semuanya — dan itulah, kata sang ahli, wujud nyata empati: bertanya alih-alih berasumsi, memberi orang lain waktu dan ruang, dan mendengarkan. Aaliyah datang dengan agendanya sendiri tetapi membuka pintu sejak awal dengan “Ada hal lain yang ingin kamu bicarakan?”. Langkah-langkah kecil seperti ini sangat berarti dalam konteks bisnis. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke kasus sorotan di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: ask, don’t assume",
+         "id": "Poin penting: bertanya, bukan berasumsi"
+        },
+        "body": [
+         {
+          "en": "Empathy in a meeting is mostly a question and a pause: ask how the other person is handling things, then give them the time and space to answer — and listen.",
+          "id": "Empati dalam rapat sebagian besar adalah sebuah pertanyaan dan jeda: tanyakan bagaimana orang lain menghadapi semuanya, lalu beri mereka waktu dan ruang untuk menjawab — dan dengarkan."
+         },
+         {
+          "en": "Both sides can do it. Noah’s pivot built the first plank of a bridge; Aaliyah’s early “anything else?” made room for what was on his mind, even though the agenda was hers.",
+          "id": "Kedua pihak bisa melakukannya. Perubahan arah Noah memasang papan pertama sebuah jembatan; “ada hal lain?” Aaliyah sejak awal memberi ruang bagi apa yang ada di pikiran Noah, meski agendanya milik Aaliyah."
+         },
+         {
+          "en": "Compare your three answers with the expert’s, then carry the habit into the case below: what did the intern in the update assume about her reader?",
+          "id": "Bandingkan tiga jawabanmu dengan jawaban ahli, lalu bawa kebiasaan ini ke kasus di bawah: apa yang diasumsikan si anak magang dalam laporannya tentang pembacanya?"
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/communication-4-brand.mp4",
+         "poster": "../../assets/lms/the-map/communication-4-poster.jpg",
+         "dur": "1:15",
+         "title": {
+          "en": "Expert commentary: what Noah and Aaliyah did — and could have done",
+          "id": "Komentar ahli: apa yang dilakukan Noah dan Aaliyah — dan yang bisa dilakukan"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/communication-4-en.vtt",
+          "id": "../../assets/lms/the-map/communication-4-id.vtt"
          }
         }
        ]
