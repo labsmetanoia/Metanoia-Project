@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
+      "en": "25 min",
+      "id": "25 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8465,6 +8465,54 @@ window.MT_LMS['the-map'] = {
         "en": "Reply cost drives reply rate: a specific 15-minute ask with proof of genuine interest is cheap to grant and hard to resent.",
         "id": "Tingkat balasan ditentukan oleh biaya membalas: permintaan 15 menit yang spesifik dengan bukti minat yang tulus murah untuk dikabulkan dan sulit untuk dibenci."
        }
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "why-structure",
+       "kicker": {
+        "en": "Watch first · Lesson film",
+        "id": "Tonton dulu · Film pelajaran"
+       },
+       "intro": {
+        "en": "Before the drills, why structure at all. Every argument needs a logical, airtight structure, because without one you lose your audience and you stop controlling the takeaways: an executive with great energy and conviction — all charisma, no content — found that every team had taken away something different, and only a restructured message moved them in the same direction. Akash, a former partner, and Mark, an external advisor, then take it into the trading floor, the sales call and the banker’s follow-up: simplify, simplify, and simplify again, distil the 80-page pitch to a few clear thoughts, and make it easy for the other side to go back and get the approvals they need. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
+        "id": "Sebelum latihan, mengapa perlu struktur sama sekali. Setiap argumen membutuhkan struktur yang logis dan rapat, karena tanpa itu Anda kehilangan audiens dan berhenti mengendalikan kesimpulan yang mereka tangkap: seorang eksekutif dengan energi dan keyakinan besar — penuh karisma, tanpa isi — mendapati setiap tim menangkap hal yang berbeda, dan hanya pesan yang disusun ulang yang menggerakkan mereka ke arah yang sama. Akash, mantan partner, dan Mark, penasihat eksternal, lalu membawanya ke lantai trading, panggilan penjualan, dan tindak lanjut bankir: sederhanakan, sederhanakan, dan sederhanakan lagi, saring pitch 80 halaman menjadi beberapa gagasan yang jelas, dan mudahkan pihak seberang untuk kembali dan mendapatkan persetujuan yang mereka butuhkan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: structure is how you keep the message",
+         "id": "Poin penting: struktur adalah cara Anda menjaga pesan"
+        },
+        "body": [
+         {
+          "en": "Charisma without structure does not control the takeaway. The executive’s teams each heard a different message; a logical grouping of ideas and supporting arguments was what finally moved them together.",
+          "id": "Karisma tanpa struktur tidak mengendalikan kesimpulan. Tiap tim eksekutif itu mendengar pesan yang berbeda; pengelompokan gagasan dan argumen pendukung yang logis-lah yang akhirnya menggerakkan mereka bersama."
+         },
+         {
+          "en": "Simplify, then simplify again. Distil the discourse to its core principles so the other side can absorb it and, more importantly, replay it to the people whose approval they need.",
+          "id": "Sederhanakan, lalu sederhanakan lagi. Saring wacana ke prinsip intinya agar pihak seberang bisa menyerapnya dan, yang lebih penting, menyampaikannya kembali kepada orang-orang yang persetujuannya mereka butuhkan."
+         },
+         {
+          "en": "The small investment before the call or the meeting is always worth it, even when it shortens the time you get. The three drills below are that investment, practised.",
+          "id": "Investasi kecil sebelum telepon atau rapat selalu sepadan, bahkan ketika memperpendek waktu yang Anda dapat. Tiga latihan di bawah adalah investasi itu, dalam praktik."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-1-poster.jpg",
+         "dur": "5:15",
+         "title": {
+          "en": "Why structure communications",
+          "id": "Mengapa komunikasi perlu struktur"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-1-en.vtt",
+          "id": "../../assets/lms/the-map/cases-1-id.vtt"
+         }
+        }
+       ]
       }
      ]
     }
