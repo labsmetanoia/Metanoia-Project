@@ -4887,8 +4887,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tiba pada Rekomendasi — Materi"
        },
        "intro": {
-        "en": "One slide opens the SodaComp case: a soft-drink company whose CEO wants three percent more European market share by year-end. Read the challenge and the four terms the case leans on — market share, marketing team, channel strategy, product development — then continue to the What’s Next deck and the three films below, where the team turns its problem question into an issue tree, two prioritised hypotheses and a work plan. It is the bridge from analysis to a recommendation the CEO can act on.",
-        "id": "Satu slide membuka kasus SodaComp: perusahaan minuman bersoda yang CEO-nya ingin pangsa pasar Eropa naik tiga persen sebelum akhir tahun. Baca tantangannya dan empat istilah yang menopang kasus ini — pangsa pasar, tim pemasaran, strategi saluran, pengembangan produk — lalu lanjutkan ke dek Apa Selanjutnya dan tiga film di bawahnya, saat tim mengubah pertanyaan masalahnya menjadi pohon isu, dua hipotesis prioritas, dan rencana kerja. Inilah jembatan dari analisis menuju rekomendasi yang bisa ditindaklanjuti CEO."
+        "en": "One slide opens the SodaComp case: a soft-drink company whose CEO wants three percent more European market share by year-end. Read the challenge and the four terms the case leans on — market share, marketing team, channel strategy, product development — then watch the film below, where the team turns its problem question into an issue tree and two prioritised hypotheses. It is the bridge from analysis to a recommendation the CEO can act on.",
+        "id": "Satu slide membuka kasus SodaComp: perusahaan minuman bersoda yang CEO-nya ingin pangsa pasar Eropa naik tiga persen sebelum akhir tahun. Baca tantangannya dan empat istilah yang menopang kasus ini — pangsa pasar, tim pemasaran, strategi saluran, pengembangan produk — lalu tonton film di bawahnya, saat tim mengubah pertanyaan masalahnya menjadi pohon isu dan dua hipotesis prioritas. Inilah jembatan dari analisis menuju rekomendasi yang bisa ditindaklanjuti CEO."
        },
        "base": "../../assets/lms/the-map/slides/recommendation-",
        "slides": [
@@ -4914,8 +4914,8 @@ window.MT_LMS['the-map'] = {
         "id": "Apa Selanjutnya — Materi"
        },
        "intro": {
-        "en": "Four slides carry the SodaComp case forward. First, pause and decide what the team should do next, then open the expert’s response: focus on the two prioritised issues, clarify the hypotheses, name the analyses, prioritise and plan the work. The next two slides step back to the seven-step path and the final four steps — plan analyses and work, conduct analyses, synthesise findings, develop recommendations — and why the discipline of the early steps must carry into the work plan. The last slide opens the Work Plan Worksheet: hypotheses, end product, analyses, sources, timing, staff. Read them, then continue to the Key Elements deck and the four films below.",
-        "id": "Empat slide membawa kasus SodaComp lebih jauh. Pertama, berhenti sejenak dan putuskan apa yang seharusnya dilakukan tim selanjutnya, lalu buka jawaban ahli: fokus pada dua isu prioritas, klarifikasi hipotesis, tentukan analisisnya, prioritaskan dan rencanakan pekerjaannya. Dua slide berikutnya mundur ke jalur tujuh langkah dan empat langkah terakhir — merencanakan analisis dan pekerjaan, melakukan analisis, mensintesis temuan, mengembangkan rekomendasi — dan mengapa disiplin dari langkah-langkah awal harus terbawa ke rencana kerja. Slide terakhir membuka Lembar Kerja Rencana Kerja: hipotesis, output akhir, analisis, sumber, waktu, tim. Bacalah, lalu lanjutkan ke dek Elemen Kunci dan empat film di bawahnya."
+        "en": "Four slides carry the SodaComp case forward. First, pause and decide what the team should do next, then open the expert’s response: focus on the two prioritised issues, clarify the hypotheses, name the analyses, prioritise and plan the work. The next two slides step back to the seven-step path and the final four steps — plan analyses and work, conduct analyses, synthesise findings, develop recommendations — and why the discipline of the early steps must carry into the work plan. The last slide opens the Work Plan Worksheet: hypotheses, end product, analyses, sources, timing, staff. Read them, then watch the two films below.",
+        "id": "Empat slide membawa kasus SodaComp lebih jauh. Pertama, berhenti sejenak dan putuskan apa yang seharusnya dilakukan tim selanjutnya, lalu buka jawaban ahli: fokus pada dua isu prioritas, klarifikasi hipotesis, tentukan analisisnya, prioritaskan dan rencanakan pekerjaannya. Dua slide berikutnya mundur ke jalur tujuh langkah dan empat langkah terakhir — merencanakan analisis dan pekerjaan, melakukan analisis, mensintesis temuan, mengembangkan rekomendasi — dan mengapa disiplin dari langkah-langkah awal harus terbawa ke rencana kerja. Slide terakhir membuka Lembar Kerja Rencana Kerja: hipotesis, output akhir, analisis, sumber, waktu, tim. Bacalah, lalu tonton dua film di bawahnya."
        },
        "base": "../../assets/lms/the-map/slides/whats-next-",
        "slides": [
@@ -4971,8 +4971,8 @@ window.MT_LMS['the-map'] = {
         "id": "Elemen Kunci dari Rencana Kerja yang Kuat — Materi"
        },
        "intro": {
-        "en": "Four slides turn the work plan into practice. The first names its five elements — issue, hypothesis, end product, analyses, sources — each with an example. The second returns to SodaComp, now narrowed to one hypothesis: test a healthier orange soda; decide what analyses, actions and end product it needs, then compare with the expert’s answer on the third slide. The last slide draws the line between analysis and answer — data and facts on one side, the recommendation on the other. Read them, then continue to the Getting to Synthesis deck and the six films below.",
-        "id": "Empat slide mengubah rencana kerja menjadi praktik. Slide pertama menyebutkan lima elemennya — masalah, hipotesis, output akhir, analisis, sumber — masing-masing dengan contoh. Slide kedua kembali ke SodaComp, kini mengerucut pada satu hipotesis: menguji soda rasa jeruk yang lebih sehat; putuskan analisis, tindakan, dan output akhir yang dibutuhkan, lalu bandingkan dengan jawaban ahli di slide ketiga. Slide terakhir menarik garis antara analisis dan jawaban — data dan fakta di satu sisi, rekomendasi di sisi lain. Bacalah, lalu lanjutkan ke dek Menuju Sintesis dan enam film di bawahnya."
+        "en": "Four slides turn the work plan into practice. The first names its five elements — issue, hypothesis, end product, analyses, sources — each with an example. The second returns to SodaComp, now narrowed to one hypothesis: test a healthier orange soda; decide what analyses, actions and end product it needs, then compare with the expert’s answer on the third slide. The last slide draws the line between analysis and answer — data and facts on one side, the recommendation on the other. Read them, then watch the film below.",
+        "id": "Empat slide mengubah rencana kerja menjadi praktik. Slide pertama menyebutkan lima elemennya — masalah, hipotesis, output akhir, analisis, sumber — masing-masing dengan contoh. Slide kedua kembali ke SodaComp, kini mengerucut pada satu hipotesis: menguji soda rasa jeruk yang lebih sehat; putuskan analisis, tindakan, dan output akhir yang dibutuhkan, lalu bandingkan dengan jawaban ahli di slide ketiga. Slide terakhir menarik garis antara analisis dan jawaban — data dan fakta di satu sisi, rekomendasi di sisi lain. Bacalah, lalu tonton film di bawahnya."
        },
        "base": "../../assets/lms/the-map/slides/work-plan-",
        "slides": [
@@ -5028,8 +5028,8 @@ window.MT_LMS['the-map'] = {
         "id": "Menuju Sintesis — Materi"
        },
        "intro": {
-        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable — ownership, buy-in, timeline — and appropriate for the organisation. Read them, then continue to the Key Takeaways deck and the seven films below.",
-        "id": "Empat slide menutup lingkaran dari analisis ke tindakan. Slide pertama mendefinisikan “so what”: sintesis adalah perspektif terhadap analisis, bukan ringkasannya. Slide kedua menunjukkan kapan melatih sintesis, mengapa penting, dan empat kebiasaan untuk menjadi lebih baik. Slide ketiga kembali ke suara focus group SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebutkan apa yang membuat rekomendasi kuat: dapat dijalankan — kepemilikan, dukungan, timeline — dan tepat sasaran bagi organisasi. Bacalah, lalu lanjutkan ke dek Poin-poin Utama dan tujuh film di bawahnya."
+        "en": "Four slides close the loop from analysis to action. The first defines the “so what”: a synthesis is a perspective on the analysis, not a summary of it. The second shows when to practise synthesis, why it matters, and four habits for getting better. The third returns to SodaComp’s focus-group voices and asks you to write the team’s synthesis before comparing with the expert’s. The last slide names what makes a recommendation strong: actionable — ownership, buy-in, timeline — and appropriate for the organisation. Read them, then watch the two films below.",
+        "id": "Empat slide menutup lingkaran dari analisis ke tindakan. Slide pertama mendefinisikan “so what”: sintesis adalah perspektif terhadap analisis, bukan ringkasannya. Slide kedua menunjukkan kapan melatih sintesis, mengapa penting, dan empat kebiasaan untuk menjadi lebih baik. Slide ketiga kembali ke suara focus group SodaComp dan memintamu menulis sintesis tim sebelum membandingkannya dengan jawaban ahli. Slide terakhir menyebutkan apa yang membuat rekomendasi kuat: dapat dijalankan — kepemilikan, dukungan, timeline — dan tepat sasaran bagi organisasi. Bacalah, lalu tonton dua film di bawahnya."
        },
        "base": "../../assets/lms/the-map/slides/synthesis-",
        "slides": [
@@ -5085,8 +5085,8 @@ window.MT_LMS['the-map'] = {
         "id": "Poin-poin Utama — Materi"
        },
        "intro": {
-        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold — the Work Plan Worksheet, synthesising, and developing a recommendation — and points to further material. The second summarises the hypothesis-led path: define the problem, break it down and structure it, plan towards a solution — and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree. Read them, then watch the seven films below.",
-        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang kini kamu pegang — Lembar Kerja Rencana Kerja, sintesis, dan menyusun rekomendasi — dan menunjuk ke materi lanjutan. Slide kedua merangkum jalur berbasis hipotesis: mendefinisikan masalah, memecah dan menyusunnya, merencanakan langkah menuju solusi — dan memintamu membawanya ke keputusan sehari-harimu dengan pernyataan masalah dan pohon isu. Bacalah, lalu tonton tujuh film di bawahnya."
+        "en": "Two slides wrap the SodaComp chapter up. The first gathers the three tools you now hold — the Work Plan Worksheet, synthesising, and developing a recommendation — and points to further material. The second summarises the hypothesis-led path: define the problem, break it down and structure it, plan towards a solution — and asks you to carry it into your own day-to-day decisions with a problem statement and an issue tree. Read them, then watch the wrap-up film below.",
+        "id": "Dua slide menutup bab SodaComp. Slide pertama mengumpulkan tiga alat yang kini kamu pegang — Lembar Kerja Rencana Kerja, sintesis, dan menyusun rekomendasi — dan menunjuk ke materi lanjutan. Slide kedua merangkum jalur berbasis hipotesis: mendefinisikan masalah, memecah dan menyusunnya, merencanakan langkah menuju solusi — dan memintamu membawanya ke keputusan sehari-harimu dengan pernyataan masalah dan pohon isu. Bacalah, lalu tonton film penutup di bawahnya."
        },
        "base": "../../assets/lms/the-map/slides/takeaways-",
        "slides": [
@@ -5531,55 +5531,11 @@ window.MT_LMS['the-map'] = {
        ]
       },
       {
-       "key": "recommendation",
-       "placement": "after-material:9",
+       "key": "rec-challenge",
+       "placement": "after-material:5",
        "kicker": {
-        "en": "Watch next · Case films",
+        "en": "Watch next · Case film",
         "id": "Tonton berikutnya · Film kasus"
-       },
-       "intro": {
-        "en": "Seven films pick up the decks. The first tells the SodaComp story: five months from a three-percent target, the marketing team keeps its problem question in front of it, drills down into an issue tree and prioritises two hypotheses before taking the tree to the CEO. The second walks the last four steps of the hypothesis-led approach: plan the analysis, conduct it, synthesise a “so what” rather than a summary, and turn it into a recommendation. The third shows how a work plan grows out of the issue tree and why the decision-maker’s burden of proof matters from day one. The fourth is about conducting the analysis: not missing the forest for the trees, sanity-checking, precision versus accuracy, knowing when to stop. The fifth explains synthesis against summary with a dinner-that-ran-late text message. The sixth turns synthesis into a recommendation that is appropriate and actionable. The seventh is the wrap-up: the two presenters look back over the course and ask you to take the structured approach into your Monday morning — simple, practical, executable. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to Exhibit 1 below, where the same method is laid out for goals.",
-        "id": "Tujuh film melanjutkan dek-dek tadi. Film pertama menceritakan kisah SodaComp: lima bulan menjelang target tiga persen, tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis sebelum membawa pohon itu ke CEO. Film kedua memandu empat langkah terakhir pendekatan berbasis hipotesis: merencanakan analisis, menjalankannya, menyintesis “lalu kenapa”-nya alih-alih ringkasan, lalu mengubahnya menjadi rekomendasi. Film ketiga menunjukkan bagaimana rencana kerja tumbuh dari pohon isu dan mengapa beban pembuktian si pengambil keputusan penting sejak hari pertama. Film keempat tentang menjalankan analisis: tidak kehilangan hutan karena terpaku pada pohon, mengecek kewajaran, presisi versus akurasi, tahu kapan berhenti. Film kelima menjelaskan sintesis versus ringkasan lewat pesan tentang makan malam yang terlambat. Film keenam mengubah sintesis menjadi rekomendasi yang tepat sasaran dan dapat dijalankan. Film ketujuh adalah penutup: kedua pembicara menoleh ke belakang sepanjang kursus dan memintamu membawa pendekatan terstruktur ini ke Senin pagimu — sederhana, praktis, bisa dijalankan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
-       },
-       "outro": {
-        "title": {
-         "en": "Key takeaways: from question to recommendation",
-         "id": "Poin penting: dari pertanyaan ke rekomendasi"
-        },
-        "body": [
-         {
-          "en": "A problem question written down — “How can SodaComp improve its European market share by 3% by the end of the year?” — is what keeps weeks of work pointed at one target.",
-          "id": "Pertanyaan masalah yang ditulis — “Bagaimana SodaComp bisa menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun?” — adalah yang menjaga kerja berminggu-minggu tetap mengarah pada satu sasaran."
-         },
-         {
-          "en": "Drilling the question into an issue tree turns one big worry into branches you can research; prioritising picks the two branches most likely to move the number.",
-          "id": "Menggali pertanyaan menjadi pohon isu mengubah satu kekhawatiran besar menjadi cabang-cabang yang bisa diriset; memprioritaskan memilih dua cabang yang paling mungkin menggerakkan angkanya."
-         },
-         {
-          "en": "A tree shared with the decision-maker, with the research behind it, earns the go-ahead — and sets up the next question: what exactly do we recommend, and what happens next?",
-          "id": "Pohon yang dibagikan kepada pengambil keputusan, beserta riset di baliknya, mendapatkan lampu hijau — dan memunculkan pertanyaan berikutnya: apa tepatnya yang kita rekomendasikan, dan apa langkah selanjutnya?"
-         },
-         {
-          "en": "A summary recounts what you did; a synthesis states the integrated “so what”. The recommendation is what must actually be done to realise the impact — and winning the organisation’s buy-in is half the battle, so keep challenging your own early “so what” for confirmation bias.",
-          "id": "Ringkasan menceritakan apa yang kamu lakukan; sintesis menyatakan “lalu kenapa” yang terpadu. Rekomendasi adalah apa yang benar-benar harus dilakukan untuk mewujudkan dampaknya — dan memenangkan dukungan organisasi adalah separuh perjuangan, jadi teruslah menguji “lalu kenapa” awalmu terhadap bias konfirmasi."
-         },
-         {
-          "en": "A work plan is the issue tree turned into action: for every end node, a hypothesis, the rationale that would make it true, the analysis that tests it and the source of insight — then timing, owners and interdependencies. Ask the decision-maker’s burden of proof first, so you neither under-deliver nor over-analyse.",
-          "id": "Rencana kerja adalah pohon isu yang diubah menjadi tindakan: untuk setiap simpul ujung, sebuah hipotesis, alasan yang akan membuatnya benar, analisis yang mengujinya, dan sumber wawasannya — lalu waktu, penanggung jawab, dan saling ketergantungan. Tanyakan beban pembuktian si pengambil keputusan lebih dulu, agar kamu tidak kurang menyampaikan maupun berlebihan menganalisis."
-         },
-         {
-          "en": "Analysis is not the answer. While the work is under way, step back and sanity-check: is this precise or actually accurate, does it still lead to the “so what”, and do you already know enough to stop? Pause on a schedule to ask what has changed and whether the plan should change with it.",
-          "id": "Analisis bukanlah jawaban. Selagi pekerjaan berjalan, mundurlah sejenak dan cek kewajarannya: apakah ini presisi atau benar-benar akurat, apakah masih mengarah ke “lalu kenapa”-nya, dan apakah kamu sudah cukup tahu untuk berhenti? Berhentilah sejenak sesuai jadwal untuk bertanya apa yang berubah dan apakah rencananya perlu ikut berubah."
-         },
-         {
-          "en": "Summary restates the facts; synthesis states what they mean and what to do — “I’m going to be late for dinner”. A recommendation then has to be appropriate for the organisation and actionable, with owners, buy-in and resources named. Budget real time for that last step; it is where most of the work’s value is won or lost.",
-          "id": "Ringkasan menyatakan ulang faktanya; sintesis menyatakan maknanya dan apa yang harus dilakukan — “aku akan terlambat untuk makan malam”. Rekomendasi kemudian harus tepat bagi organisasi dan dapat dijalankan, dengan penanggung jawab, dukungan, dan sumber daya yang disebutkan. Sediakan waktu yang nyata untuk langkah terakhir itu; di sanalah sebagian besar nilai pekerjaan dimenangkan atau hilang."
-         },
-         {
-          "en": "The method is a structure, not a checklist: its value is in applying it to your own and your team’s day-to-day, starting Monday morning. Beyond the recommendation, keep the answer simple, practical and executable — that is where the impact is realised.",
-          "id": "Metode ini adalah struktur, bukan daftar centang: nilainya ada pada penerapannya di keseharianmu dan timmu, mulai Senin pagi. Melampaui rekomendasi, jaga jawabannya tetap sederhana, praktis, dan bisa dijalankan — di situlah dampaknya terwujud."
-         }
-        ]
        },
        "videos": [
         {
@@ -5594,7 +5550,41 @@ window.MT_LMS['the-map'] = {
           "en": "../../assets/lms/the-map/recommendation-1-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-1-id.vtt"
          }
+        }
+       ],
+       "intro": {
+        "en": "The film picks up the slide: SodaComp, based in Bonn, five months from a three-percent target. Watch how the marketing team keeps its problem question in front of it, drills down into an issue tree, and prioritises two hypotheses — channel strategy and product development — before taking the tree to the CEO. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the What’s Next deck below.",
+        "id": "Film ini melanjutkan slide tadi: SodaComp, yang berbasis di Bonn, lima bulan menjelang target tiga persen. Perhatikan bagaimana tim pemasaran menjaga pertanyaan masalahnya tetap di depan mata, menggalinya menjadi pohon isu, dan memprioritaskan dua hipotesis — strategi saluran dan pengembangan produk — sebelum membawa pohon itu ke CEO. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Apa Selanjutnya di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: from question to issue tree",
+         "id": "Poin penting: dari pertanyaan ke pohon isu"
         },
+        "body": [
+         {
+          "en": "A problem question written down — “How can SodaComp improve its European market share by 3% by the end of the year?” — is what keeps weeks of work pointed at one target.",
+          "id": "Pertanyaan masalah yang ditulis — “Bagaimana SodaComp bisa menaikkan pangsa pasar Eropanya sebesar 3% sebelum akhir tahun?” — adalah yang menjaga kerja berminggu-minggu tetap mengarah pada satu sasaran."
+         },
+         {
+          "en": "Drilling the question into an issue tree turns one big worry into branches you can research; prioritising picks the two branches most likely to move the number.",
+          "id": "Menggali pertanyaan menjadi pohon isu mengubah satu kekhawatiran besar menjadi cabang-cabang yang bisa diriset; memprioritaskan memilih dua cabang yang paling mungkin menggerakkan angkanya."
+         },
+         {
+          "en": "A tree shared with the decision-maker, with the research behind it, earns the go-ahead — and sets up the next question: what exactly do we do next?",
+          "id": "Pohon yang dibagikan kepada pengambil keputusan, beserta riset di baliknya, mendapatkan lampu hijau — dan memunculkan pertanyaan berikutnya: apa tepatnya yang kita lakukan selanjutnya?"
+         }
+        ]
+       }
+      },
+      {
+       "key": "rec-plan",
+       "placement": "after-material:6",
+       "kicker": {
+        "en": "Watch next · Case films",
+        "id": "Tonton berikutnya · Film kasus"
+       },
+       "videos": [
         {
          "src": "../../assets/lms/the-map/recommendation-2-brand.mp4",
          "poster": "../../assets/lms/the-map/recommendation-2-poster.jpg",
@@ -5620,7 +5610,41 @@ window.MT_LMS['the-map'] = {
           "en": "../../assets/lms/the-map/recommendation-3-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-3-id.vtt"
          }
+        }
+       ],
+       "intro": {
+        "en": "Two films take the deck’s final four steps into practice. In the first, two practitioners walk from planning the analysis and conducting it to synthesising a “so what” rather than a summary, and turning it into a recommendation the organisation can mobilise behind. The second shows how a work plan grows out of the issue tree — hypothesis, rationale, analysis, source of insight, then timing, owners and interdependencies — and why knowing the decision-maker’s burden of proof from day one saves weeks. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the Key Elements deck below.",
+        "id": "Dua film membawa empat langkah terakhir dari dek tadi ke praktik. Di film pertama, dua praktisi berjalan dari merencanakan analisis dan menjalankannya, ke menyintesis “lalu kenapa”-nya alih-alih sekadar ringkasan, lalu mengubahnya menjadi rekomendasi yang bisa digerakkan organisasi. Film kedua menunjukkan bagaimana rencana kerja tumbuh dari pohon isu — hipotesis, alasan, analisis, sumber wawasan, lalu waktu, penanggung jawab, dan saling ketergantungan — dan mengapa mengetahui beban pembuktian si pengambil keputusan sejak hari pertama menghemat berminggu-minggu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Elemen Kunci di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: plan the work before the work",
+         "id": "Poin penting: rencanakan pekerjaan sebelum bekerja"
         },
+        "body": [
+         {
+          "en": "A summary recounts what you did; a synthesis states the integrated “so what”. The recommendation is what must actually be done to realise the impact — and winning the organisation’s buy-in is half the battle.",
+          "id": "Ringkasan menceritakan apa yang kamu lakukan; sintesis menyatakan “lalu kenapa” yang terpadu. Rekomendasi adalah apa yang benar-benar harus dilakukan untuk mewujudkan dampaknya — dan memenangkan dukungan organisasi adalah separuh perjuangan."
+         },
+         {
+          "en": "A work plan is the issue tree turned into action: for every end node, a hypothesis, the rationale that would make it true, the analysis that tests it and the source of insight — then timing, owners and interdependencies.",
+          "id": "Rencana kerja adalah pohon isu yang diubah menjadi tindakan: untuk setiap simpul ujung, sebuah hipotesis, alasan yang akan membuatnya benar, analisis yang mengujinya, dan sumber wawasannya — lalu waktu, penanggung jawab, dan saling ketergantungan."
+         },
+         {
+          "en": "Ask the decision-maker’s burden of proof first, so you neither under-deliver nor over-analyse.",
+          "id": "Tanyakan beban pembuktian si pengambil keputusan lebih dulu, agar kamu tidak kurang menyampaikan maupun berlebihan menganalisis."
+         }
+        ]
+       }
+      },
+      {
+       "key": "rec-analysis",
+       "placement": "after-material:7",
+       "kicker": {
+        "en": "Watch next · Case film",
+        "id": "Tonton berikutnya · Film kasus"
+       },
+       "videos": [
         {
          "src": "../../assets/lms/the-map/recommendation-4-brand.mp4",
          "poster": "../../assets/lms/the-map/recommendation-4-poster.jpg",
@@ -5633,7 +5657,41 @@ window.MT_LMS['the-map'] = {
           "en": "../../assets/lms/the-map/recommendation-4-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-4-id.vtt"
          }
+        }
+       ],
+       "intro": {
+        "en": "The film is about conducting the analysis itself: not missing the forest for the trees, forcing yourself to step back and sanity-check results, precision versus accuracy, knowing when you already know enough to stop, and pausing on a schedule to ask what has changed. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the Getting to Synthesis deck below.",
+        "id": "Film ini tentang menjalankan analisisnya sendiri: tidak kehilangan hutan karena terpaku pada pohon, memaksa diri mundur sejenak dan mengecek kewajaran hasil, presisi versus akurasi, tahu kapan kamu sudah cukup tahu untuk berhenti, dan berhenti sejenak secara berkala untuk bertanya apa yang berubah. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Menuju Sintesis di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: analysis is not the answer",
+         "id": "Poin penting: analisis bukanlah jawaban"
         },
+        "body": [
+         {
+          "en": "While the work is under way, step back and sanity-check: is this precise or actually accurate, and does it still lead to the “so what”?",
+          "id": "Selagi pekerjaan berjalan, mundurlah sejenak dan cek kewajarannya: apakah ini presisi atau benar-benar akurat, dan apakah masih mengarah ke “lalu kenapa”-nya?"
+         },
+         {
+          "en": "Ask whether you already know enough to stop, or whether a surprise means you must go further and really test the hypothesis.",
+          "id": "Tanyakan apakah kamu sudah cukup tahu untuk berhenti, atau apakah sebuah kejutan berarti kamu harus melangkah lebih jauh dan benar-benar menguji hipotesisnya."
+         },
+         {
+          "en": "Pause on a schedule — weekly or monthly — to ask what has changed and whether the plan should change with it.",
+          "id": "Berhentilah sejenak sesuai jadwal — mingguan atau bulanan — untuk bertanya apa yang berubah dan apakah rencananya perlu ikut berubah."
+         }
+        ]
+       }
+      },
+      {
+       "key": "rec-synthesis",
+       "placement": "after-material:8",
+       "kicker": {
+        "en": "Watch next · Case films",
+        "id": "Tonton berikutnya · Film kasus"
+       },
+       "videos": [
         {
          "src": "../../assets/lms/the-map/recommendation-5-brand.mp4",
          "poster": "../../assets/lms/the-map/recommendation-5-poster.jpg",
@@ -5659,7 +5717,41 @@ window.MT_LMS['the-map'] = {
           "en": "../../assets/lms/the-map/recommendation-6-en.vtt",
           "id": "../../assets/lms/the-map/recommendation-6-id.vtt"
          }
+        }
+       ],
+       "intro": {
+        "en": "Two films take the deck from synthesis to recommendation. The first explains synthesis against summary with a dinner-that-ran-late text message: the summary is the facts, the synthesis is “I’m going to be late”. The second turns a synthesis into a recommendation that is appropriate for the organisation and actionable — owners, buy-in, resources — and argues for carving out real time to get that last step right. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the Key Takeaways deck below.",
+        "id": "Dua film membawa dek tadi dari sintesis ke rekomendasi. Film pertama menjelaskan sintesis versus ringkasan lewat pesan tentang makan malam yang terlambat: ringkasan adalah faktanya, sintesis adalah “aku akan terlambat”. Film kedua mengubah sintesis menjadi rekomendasi yang tepat bagi organisasi dan dapat dijalankan — penanggung jawab, dukungan, sumber daya — dan menganjurkan menyediakan waktu yang nyata untuk mengerjakan langkah terakhir itu dengan benar. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dek Poin-poin Utama di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: the “so what”, then the “so do”",
+         "id": "Poin penting: “lalu kenapa”, lalu “lalu lakukan”"
         },
+        "body": [
+         {
+          "en": "Summary restates the facts; synthesis states what they mean and what to do — “I’m going to be late for dinner”.",
+          "id": "Ringkasan menyatakan ulang faktanya; sintesis menyatakan maknanya dan apa yang harus dilakukan — “aku akan terlambat untuk makan malam”."
+         },
+         {
+          "en": "A recommendation has to be appropriate for the organisation and actionable, with owners, buy-in and resources named.",
+          "id": "Rekomendasi harus tepat bagi organisasi dan dapat dijalankan, dengan penanggung jawab, dukungan, dan sumber daya yang disebutkan."
+         },
+         {
+          "en": "Budget real time for that last step; it is where most of the work’s value is won or lost.",
+          "id": "Sediakan waktu yang nyata untuk langkah terakhir itu; di sanalah sebagian besar nilai pekerjaan dimenangkan atau hilang."
+         }
+        ]
+       }
+      },
+      {
+       "key": "rec-wrapup",
+       "placement": "after-material:9",
+       "kicker": {
+        "en": "Watch next · Case film",
+        "id": "Tonton berikutnya · Film kasus"
+       },
+       "videos": [
         {
          "src": "../../assets/lms/the-map/recommendation-7-brand.mp4",
          "poster": "../../assets/lms/the-map/recommendation-7-poster.jpg",
@@ -5673,7 +5765,27 @@ window.MT_LMS['the-map'] = {
           "id": "../../assets/lms/the-map/recommendation-7-id.vtt"
          }
         }
-       ]
+       ],
+       "intro": {
+        "en": "The wrap-up: the two presenters look back over the course — what problem solving is, the hypothesis-led approach from defining the problem to driving recommendations — and ask you to take the structured approach into your Monday morning: simple, practical, executable. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to Exhibit 1 below, where the same method is laid out for goals.",
+        "id": "Penutup: kedua pembicara menoleh ke belakang sepanjang kursus — apa itu pemecahan masalah, pendekatan berbasis hipotesis dari mendefinisikan masalah sampai menghasilkan rekomendasi — dan memintamu membawa pendekatan terstruktur ini ke Senin pagimu: sederhana, praktis, bisa dijalankan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke Peraga 1 di bawah, tempat metode yang sama dipaparkan untuk tujuan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: take it into Monday morning",
+         "id": "Poin penting: bawa ke Senin pagi"
+        },
+        "body": [
+         {
+          "en": "The method is a structure, not a checklist: its value is in applying it to your own and your team’s day-to-day.",
+          "id": "Metode ini adalah struktur, bukan daftar centang: nilainya ada pada penerapannya di keseharianmu dan timmu."
+         },
+         {
+          "en": "Beyond the recommendation, keep the answer simple, practical and executable — that is where the impact is realised.",
+          "id": "Melampaui rekomendasi, jaga jawabannya tetap sederhana, praktis, dan bisa dijalankan — di situlah dampaknya terwujud."
+         }
+        ]
+       }
       }
      ],
      "youtube": [
