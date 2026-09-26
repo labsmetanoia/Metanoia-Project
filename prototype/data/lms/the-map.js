@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "40 min",
-      "id": "40 mnt"
+      "en": "55 min",
+      "id": "55 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8523,8 +8523,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · 2 film pelajaran"
        },
        "intro": {
-        "en": "Two films on the pyramid. The first: you have about two minutes before you lose the room, so start with your main point and layer the support beneath it — a governing thought at the top (the answer to the question you were asked), three to five key line statements that answer why or how, and the foundational facts that synthesise up into them. The second: you communicate top-down but build bottom-up — a commercial bank with 25 initiatives regrouped into three thematic programmes with no gaps or overlaps, and an executive whose laundry list of client messages became three themes under one governing thought. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “How to run the drills” below.",
-        "id": "Dua film tentang piramida. Yang pertama: Anda punya sekitar dua menit sebelum kehilangan perhatian ruangan, jadi mulailah dengan poin utama dan susun pendukungnya di bawahnya — gagasan utama di puncak (jawaban atas pertanyaan yang diajukan kepada Anda), tiga sampai lima pernyataan key line yang menjawab mengapa atau bagaimana, dan fakta-fakta dasar yang disintesis menjadi pernyataan itu. Yang kedua: Anda berkomunikasi dari atas ke bawah tetapi membangunnya dari bawah ke atas — sebuah bank komersial dengan 25 inisiatif dikelompokkan ulang menjadi tiga program tematik tanpa celah atau tumpang tindih, dan seorang eksekutif yang daftar panjang pesan kliennya menjadi tiga tema di bawah satu gagasan utama. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "Two films on the pyramid. The first: you have about two minutes before you lose the room, so start with your main point and layer the support beneath it — a governing thought at the top (the answer to the question you were asked), three to five key line statements that answer why or how, and the foundational facts that synthesise up into them. The second: you communicate top-down but build bottom-up — a commercial bank with 25 initiatives regrouped into three thematic programmes with no gaps or overlaps, and an executive whose laundry list of client messages became three themes under one governing thought. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
+        "id": "Dua film tentang piramida. Yang pertama: Anda punya sekitar dua menit sebelum kehilangan perhatian ruangan, jadi mulailah dengan poin utama dan susun pendukungnya di bawahnya — gagasan utama di puncak (jawaban atas pertanyaan yang diajukan kepada Anda), tiga sampai lima pernyataan key line yang menjawab mengapa atau bagaimana, dan fakta-fakta dasar yang disintesis menjadi pernyataan itu. Yang kedua: Anda berkomunikasi dari atas ke bawah tetapi membangunnya dari bawah ke atas — sebuah bank komersial dengan 25 inisiatif dikelompokkan ulang menjadi tiga program tematik tanpa celah atau tumpang tindih, dan seorang eksekutif yang daftar panjang pesan kliennya menjadi tiga tema di bawah satu gagasan utama. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8541,8 +8541,8 @@ window.MT_LMS['the-map'] = {
           "id": "Membangunnya adalah bagian yang lambat. Tata faktanya, kelompokkan, dan terus pindahkan sampai kelompoknya komprehensif dan saling eksklusif: tanpa celah, tanpa tumpang tindih. Dua puluh lima inisiatif menjadi tiga program dengan cara itu."
          },
          {
-          "en": "Write every message on a note and sort them by level: some are governing thoughts, some are key lines, most are supporting points. The three drills below ask you to do exactly this under time pressure.",
-          "id": "Tulis setiap pesan pada kertas tempel dan pilah berdasarkan tingkatnya: sebagian gagasan utama, sebagian key line, kebanyakan poin pendukung. Tiga latihan di bawah meminta Anda melakukan persis ini di bawah tekanan waktu."
+          "en": "Write every message on a note and sort them by level: some are governing thoughts, some are key lines, most are supporting points. The slides that follow show how the groupings become key lines and a governing thought, and let you try it on the MODA yoga-studio case.",
+          "id": "Tulis setiap pesan pada kertas tempel dan pilah berdasarkan tingkatnya: sebagian gagasan utama, sebagian key line, kebanyakan poin pendukung. Slide berikutnya menunjukkan bagaimana pengelompokan menjadi key line dan gagasan utama, dan mengajak Anda mencobanya pada kasus studio yoga MODA."
          }
         ]
        },
@@ -8571,6 +8571,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/cases-3-en.vtt",
           "id": "../../assets/lms/the-map/cases-3-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "synthesize",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the synthesis slide points to. Once your facts sit in logical groupings, each group needs a headline — and not a summary but a synthesis: the “so what”, the deeper insight, why these things belong together. A summary cites the facts back in short form; a synthesis gives the insight they create together and tees up the implication: and therefore we should X. The worked example is a request to a CFO for sales resources — five market facts as a summary, then one line of synthesis — and the closing story is a colleague whose compelling facts fell apart in front of a senior executive who asked “what’s your point?”, losing the “so what”, credibility, and the executive’s patience. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
+        "id": "Film yang dirujuk slide sintesis. Setelah fakta-fakta Anda berada dalam pengelompokan yang logis, setiap kelompok membutuhkan judul — dan bukan ringkasan, melainkan sintesis: “so what”-nya, insight yang lebih dalam, mengapa hal-hal ini termasuk dalam kelompok yang sama. Ringkasan mengutip kembali fakta dalam bentuk singkat; sintesis memberikan insight yang diciptakan fakta-fakta itu bersama-sama dan menyiapkan implikasinya: dan oleh karena itu kita sebaiknya melakukan X. Contohnya adalah permintaan tenaga penjualan kepada seorang CFO — lima fakta pasar sebagai ringkasan, lalu satu kalimat sintesis — dan kisah penutupnya adalah seorang kolega yang fakta-faktanya yang meyakinkan berantakan di hadapan eksekutif senior yang bertanya “apa maksud Anda?”, kehilangan “so what”, kredibilitas, dan kesabaran eksekutif itu. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: headline with the “so what”",
+         "id": "Poin penting: beri judul dengan “so what”-nya"
+        },
+        "body": [
+         {
+          "en": "A summary condenses the facts; a synthesis says what they mean together. The more senior your audience, the less a summary is enough.",
+          "id": "Ringkasan memadatkan fakta; sintesis mengatakan apa artinya bersama-sama. Semakin senior audiens Anda, semakin tidak cukup sebuah ringkasan."
+         },
+         {
+          "en": "Synthesis tees up the implication — “and therefore we should X” — which is what makes the argument compelling and the ask fundable.",
+          "id": "Sintesis menyiapkan implikasinya — “dan oleh karena itu kita sebaiknya melakukan X” — dan itulah yang membuat argumen meyakinkan dan permintaan layak didanai."
+         },
+         {
+          "en": "Without it you lose three things: the “so what”, your standing as the person in command of the conclusion, and the executive’s patience. Lead with the synthesis so the facts sound like support, not random points. The three drills below put this under time pressure.",
+          "id": "Tanpanya Anda kehilangan tiga hal: “so what”-nya, kedudukan Anda sebagai orang yang menguasai kesimpulan, dan kesabaran eksekutif. Mulailah dengan sintesis agar fakta terdengar sebagai pendukung, bukan poin-poin acak. Tiga latihan di bawah menguji ini di bawah tekanan waktu."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-4-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-4-poster.jpg",
+         "dur": "4:18",
+         "title": {
+          "en": "Great communicators synthesize",
+          "id": "Komunikator hebat melakukan sintesis"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-4-en.vtt",
+          "id": "../../assets/lms/the-map/cases-4-id.vtt"
          }
         }
        ]
@@ -8637,6 +8684,103 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Concept. The Pyramid Principle: a proven framework to develop structured, clear, and persuasive arguments. A strong message is like a pyramid — built from a clear foundation to a compelling top. Originally developed by Barbara Minto, the Pyramid Principle is an approach to developing structured, airtight arguments. In this video, Elizabeth Hioe and Charlotte Relyea introduce the Pyramid Principle. Watch the video: in this video, Elizabeth Hioe, Akash Shah, and Charlotte Relyea introduce the Pyramid Principle. Reflection questions — as you watch this video, take a minute to think about the following: 1. How could you apply the Pyramid Principle to your life? 2. Have you ever lost track of a conversation because you couldn’t understand the main point? 3. How can the Pyramid Principle help you communicate your message more effectively?",
           "id": "Konsep. Prinsip Piramida: kerangka terbukti untuk mengembangkan argumen yang terstruktur, jelas, dan meyakinkan. Pesan yang kuat seperti piramida — dibangun dari dasar yang jelas menuju puncak yang meyakinkan. Dikembangkan pertama kali oleh Barbara Minto, Prinsip Piramida adalah pendekatan untuk mengembangkan argumen yang terstruktur dan runtut. Dalam video ini, Elizabeth Hioe, Akash Shah, dan Charlotte Relyea memperkenalkan Prinsip Piramida. Tonton video: dalam video ini, Elizabeth Hioe, Akash Shah, dan Charlotte Relyea menjelaskan bagaimana argumen yang terstruktur dapat membantu Anda menggerakkan audiens untuk bertindak. Pertanyaan refleksi — saat menonton video ini, luangkan waktu sejenak untuk memikirkan hal berikut: 1. Bagaimana Anda dapat menerapkan Prinsip Piramida dalam kehidupan Anda? 2. Apakah Anda pernah kehilangan alur dalam sebuah percakapan karena tidak memahami poin utamanya? 3. Bagaimana Prinsip Piramida dapat membantu Anda mengomunikasikan pesan Anda dengan lebih efektif?"
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 8 slides",
+        "id": "Baca berikutnya · 8 slide"
+       },
+       "title": {
+        "en": "Creating Logical Groupings — Material",
+        "id": "Membuat Pengelompokan yang Logis — Materi"
+       },
+       "intro": {
+        "en": "Eight slides take the pyramid from principle to practice. Creating logical groupings (deliver top-down, build bottom-up, MECE), the three-step process from grouped facts to key line statements to a governing thought, a ten-minute practice rewriting one of your own emails, then the turn to synthesis: what great communicators do with grouped facts, summary versus synthesis side by side in two emails from Zoë Durand, and the MODA case challenge — write key line statements for the in-house yoga studio and pick the governing thought that best synthesises them. Use the arrows or swipe to move between slides; the deck follows your platform language. Read all eight, then continue to the film that follows.",
+        "id": "Delapan slide membawa piramida dari prinsip ke praktik. Membuat pengelompokan yang logis (menyampaikan dari atas ke bawah, membangun dari bawah ke atas, MECE), proses tiga langkah dari fakta yang dikelompokkan ke pernyataan utama hingga pemikiran utama, latihan sepuluh menit menulis ulang salah satu email Anda sendiri, lalu beralih ke sintesis: apa yang dilakukan komunikator hebat dengan fakta yang dikelompokkan, ringkasan versus sintesis berdampingan dalam dua email dari Zoë Durand, dan studi kasus MODA — tulis pernyataan utama untuk studio yoga di kantor dan pilih pemikiran utama yang paling tepat menyintesiskannya. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca kedelapannya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/cases-groupings-",
+       "slides": [
+        {
+         "title": {
+          "en": "Creating logical groupings",
+          "id": "Membuat pengelompokan yang logis"
+         },
+         "text": {
+          "en": "Concept. A pyramid structure begins by grouping related facts and ideas, so you can build a strong and well-supported thesis. 1. Delivering the argument (top-down): when you deliver the argument, you lead with your thesis and then share the analyses and facts that support it — thesis, then supporting analyses, supporting facts, supporting data. 2. Building the argument (bottom-up): when you build the argument, you do the opposite: you start by grouping the facts and ideas, and then “boil them up” into a strong and well-supported thesis — related facts and ideas into groups (key themes), then the thesis. 3. Principles of good groupings: when structuring arguments, your groupings should be mutually exclusive (each group does not overlap with others; a fact or idea should belong to only one group) and collectively exhaustive (MECE: together, the groups cover all relevant facts and ideas; nothing important is left out). Example of groupings: overlapping circles are not mutually exclusive; separate circles are mutually exclusive and collectively exhaustive (no gaps).",
+          "id": "Konsep. Struktur piramida dimulai dengan mengelompokkan fakta dan ide yang sejenis, sehingga membentuk dasar yang kuat untuk menghasilkan tesis yang jelas dan terdukung dengan baik. 1. Menyampaikan argumen (top-down): saat Anda menyampaikan argumen, Anda memulai dengan tesis terlebih dahulu, kemudian menyampaikan analisis dan fakta yang mendukungnya — tesis, lalu analisis pendukung, fakta pendukung, data pendukung. 2. Membangun argumen (bottom-up): saat Anda membangun argumen, Anda melakukan kebalikannya: memulai dengan mengelompokkan fakta dan ide yang sejenis, lalu “mengolahnya” menjadi tesis yang kuat dan terdukung dengan baik — fakta dan ide yang sejenis ke dalam grup (tema utama), lalu tesis. 3. Prinsip pengelompokan yang baik: pengelompokan dalam struktur piramida harus mutually exclusive (setiap kelompok tidak saling tumpang tindih; satu fakta atau ide hanya masuk ke satu kelompok) dan collectively exhaustive (MECE: secara keseluruhan, semua fakta dan ide penting sudah tercakup dalam kelompok-kelompok tersebut). Contoh pengelompokan yang MECE: lingkaran yang tumpang tindih tidak mutually exclusive; lingkaran yang terpisah mutually exclusive dan collectively exhaustive (tidak ada yang terlewat)."
+         }
+        },
+        {
+         "title": {
+          "en": "Building a structured argument with the Pyramid Principle",
+          "id": "Membangun argumen yang terstruktur dengan Prinsip Piramida"
+         },
+         "text": {
+          "en": "Process. Start by grouping related facts and ideas, then develop key line statements, and finally craft a clear governing thought. 1. Group related facts and ideas: organize your supporting data into logical groups of similar facts or ideas. Each group should be mutually exclusive and relevant to your main point. Supporting data: the supporting evidence that forms the foundation of your argument. 2. Develop key line statements: for each group, create a clear and concise key line statement that summarizes the main point of the group and explains the “why” and “how” behind it. Key line statements: the why and how to implement the solution for each group. 3. Craft a clear governing thought: combine the key line statements into one clear and compelling governing thought — a single-sentence answer or solution to the problem. Governing thought: a clear, concise, and compelling one-sentence answer that ties the argument together.",
+          "id": "Proses. Mulai dengan mengelompokkan fakta dan ide yang terkait, lalu kembangkan pernyataan utama, dan akhirnya rumuskan pemikiran utama yang jelas. 1. Kelompokkan fakta dan ide yang terkait: susun data pendukung Anda ke dalam kelompok-kelompok logis berdasarkan fakta atau ide yang serupa. Setiap kelompok harus saling eksklusif dan relevan dengan poin utama Anda. Data pendukung: bukti yang mendukung dan menjadi dasar dari argumen Anda. 2. Kembangkan pernyataan utama: untuk setiap kelompok, buat pernyataan utama yang jelas dan ringkas yang merangkum inti dari kelompok tersebut dan menjelaskan “mengapa” dan “bagaimana” di baliknya. Pernyataan utama: penjelasan tentang mengapa dan bagaimana solusi diterapkan untuk setiap kelompok. 3. Rumuskan pemikiran utama yang jelas: gabungkan pernyataan utama menjadi satu pemikiran utama yang jelas dan meyakinkan — sebuah jawaban atau solusi satu kalimat untuk permasalahan yang dihadapi. Pemikiran utama: jawaban atau solusi satu kalimat yang jelas, ringkas, dan meyakinkan yang menghubungkan seluruh argumen."
+         }
+        },
+        {
+         "title": {
+          "en": "Practice with the Pyramid Principle",
+          "id": "Praktik dengan Prinsip Piramida"
+         },
+         "text": {
+          "en": "Practice. Apply the Pyramid Principle to a real email and experience how it helps you communicate more clearly, quickly, and persuasively. Goal: use the Pyramid Principle framework to structure an email (longer than two paragraphs) that you recently sent to a colleague, friend, or family. Logistics: this is an individual exercise to be completed as soon as possible. Estimated time: 10 minutes. How to do it — 1. Understand the task: you were introduced to the Pyramid Principle, which can be applied to everyday communications as much as it can to complex presentations. The pyramid can help you communicate in a quick and easy manner. 2. Rewrite your email: identify an email that you sent to a colleague in the last week which covered a substantial amount of information (i.e., longer than two paragraphs). Take 10 minutes to re-write your email using the Pyramid Principle worksheet within the Forward Learning Workbook to structure your email in a more compelling way — governing thought (opening), key supporting arguments (body), call to action (closing). Questions to consider: 1. What is your governing thought? What is the main message you want to lead with? 2. What are your few supporting arguments? What are the key points that support your governing thought? 3. What is your call to action? What action do you want the reader to take at the end?",
+          "id": "Latihan. Terapkan Prinsip Piramida dalam email nyata dan rasakan bagaimana prinsip ini membantu Anda berkomunikasi dengan lebih jelas, cepat, dan meyakinkan. Tujuan: gunakan kerangka Prinsip Piramida untuk menyusun sebuah email (lebih dari dua paragraf) yang baru-baru ini Anda kirimkan ke rekan kerja, teman, atau keluarga. Ketentuan: ini adalah latihan individu yang perlu diselesaikan sesegera mungkin. Estimasi waktu: 10 menit. Langkah-langkah yang perlu dilakukan — 1. Pahami tugasnya: Anda telah diperkenalkan dengan Prinsip Piramida, yang dapat diterapkan dalam komunikasi sehari-hari maupun presentasi yang kompleks. Prinsip Piramida membantu Anda berkomunikasi dengan lebih cepat dan mudah. 2. Tulis ulang email Anda: identifikasi sebuah email yang Anda kirimkan ke rekan kerja dalam satu minggu terakhir yang memuat jumlah informasi yang cukup banyak (yaitu lebih dari dua paragraf). Luangkan waktu 10 menit untuk menulis ulang email tersebut menggunakan lembar kerja Prinsip Piramida dalam Forward Learning Workbook, agar email Anda lebih terstruktur dan meyakinkan — pemikiran utama (pembuka), poin-poin pendukung (isi), tindakan yang diharapkan (penutup). Pertanyaan untuk dipertimbangkan: 1. Apa pemikiran utama Anda? Apa pesan utama yang ingin Anda sampaikan? 2. Apa saja poin-poin pendukung Anda? Apa saja poin penting yang mendukung pemikiran utama Anda? 3. Apa tindakan yang diharapkan? Tindakan apa yang ingin Anda minta kepada pembaca di akhir email tersebut?"
+         }
+        },
+        {
+         "title": {
+          "en": "Great communicators can synthesize insights",
+          "id": "Komunikator yang hebat mampu melakukan sintesis"
+         },
+         "text": {
+          "en": "Concept. After you have constructed your pyramid as part of your communication, the next important step is to synthesize your findings — turning them into meaningful insights. A key characteristic of a great communicator is the ability to offer new insights. In this video, Elizabeth and Charlotte discuss how to synthesize groups of facts — in other words, generate a novel insight — to deliver impactful communications. What does synthesis mean? Synthesis means combining, connecting, and interpreting your findings to understand: why did this happen? (the root cause) and what are the implications of this finding? (what is likely to happen next). 1. From many facts… a set of facts and data that you have gathered. 2. …do the synthesis… combine, connect, and analyze to identify patterns, relationships, and deeper meaning. 3. …into new insights that have impact: relevant insights, clear explanation, strong implications, compelling communication.",
+          "id": "Konsep. Setelah Anda menyusun piramida sebagai bagian dari komunikasi, langkah selanjutnya yang penting adalah melakukan sintesis atas temuan Anda. Aspek yang membedakan komunikator yang hebat adalah kemampuan untuk memberikan wawasan baru (insight). Dalam video ini, Elizabeth dan Charlotte membahas bagaimana melakukan sintesis terhadap kelompok fakta — dengan kata lain, menghasilkan wawasan baru — untuk menyampaikan komunikasi yang berdampak. Apa yang dimaksud dengan sintesis? Sintesis berarti menggabungkan, menghubungkan, dan menafsirkan temuan Anda untuk memahami: mengapa temuan ini terjadi? (mencari akar penyebab) dan apa dampak dari temuan ini? (apa yang akan terjadi selanjutnya). 1. Dari banyak fakta… kelompok fakta dan data yang diperoleh. 2. …lakukan sintesis… gabungkan, hubungkan, dan analisis untuk menemukan pola, hubungan, dan makna. 3. …menjadi wawasan baru yang berdampak: wawasan yang relevan, penjelasan yang jelas, implikasi yang kuat, komunikasi yang meyakinkan."
+         }
+        },
+        {
+         "title": {
+          "en": "Summary vs Synthesis",
+          "id": "Ringkasan vs Sintesis"
+         },
+         "text": {
+          "en": "Concept. A summary condenses the facts, while a synthesis connects the facts to generate a new insight. Summary: a condensed version of all the facts. Synthesis: the “so what” of all the facts, providing insight that all the facts together create. Example 1 — Summary (lists the key facts without connecting them). Email from Zoë Durand: “Hi Aaliyah, here are several pain points that we heard from our customer interviews: in-store returns are a clunky experience and require customers to wait in line with paying customers; waiting time for inventory checks in-store is too long given customer demand and number of staff available; loyalty program sign-ups at the register require too much time to fill out. Best, Zoë Durand, Head of Customer Service.” Key takeaway: the summary provides a clear list of key points, but it does not explain the bigger picture or what it means. Example 2 — Synthesis (connects the facts to generate a new insight). Email from Zoë Durand: “Hi Aaliyah, overall, customers are looking for an enhanced in-store experience that reduces the time it takes from entry to exit, and would opt for self-serve solutions to minimize shopping time. Faster returns — long wait times at returns create frustration. Quicker inventory checks — customers face delays due to limited staff and high demand. Simpler loyalty sign-ups — registration at the register takes too much time. Best, Zoë Durand, Head of Customer Service.” Key takeaway: the synthesis connects the facts to a clear insight, explaining the underlying theme and what it means for the customer journey.",
+          "id": "Konsep. Ringkasan memadatkan fakta-fakta, sedangkan sintesis menghubungkan fakta-fakta tersebut untuk menghasilkan wawasan baru. Ringkasan: versi yang lebih padat dari seluruh fakta. Sintesis: “inti dari fakta-fakta” yang menghasilkan wawasan baru. Contoh 1 — Ringkasan (menyajikan fakta-fakta utama tanpa menghubungkannya). Email dari Zoë Durand: “Hi Aaliyah, berikut beberapa pain points yang kami dengar dari wawancara dengan pelanggan kami: proses pengembalian barang di toko masih rumit dan membuat pelanggan harus antre bersama pelanggan yang melakukan pembayaran; waktu tunggu untuk pengecekan stok di toko terlalu lama karena permintaan pelanggan yang tinggi dan jumlah staf yang tersedia terbatas; pendaftaran program loyalitas di kasir membutuhkan waktu terlalu lama untuk diisi. Best, Zoë Durand, Head of Customer Service.” Kesimpulan utama: ringkasan memberikan daftar poin-poin utama yang jelas, namun tidak menjelaskan gambaran yang lebih besar atau maknanya. Contoh 2 — Sintesis (menghubungkan fakta-fakta untuk menghasilkan wawasan baru). Email dari Zoë Durand: “Hi Aaliyah, secara keseluruhan, pelanggan menginginkan pengalaman di toko yang lebih baik, yang mengurangi waktu dari masuk hingga keluar toko, dan kami melihat peluang untuk solusi self-service guna meminimalkan waktu berbelanja. Pengembalian barang lebih cepat — waktu tunggu yang lama saat pengembalian barang menyebabkan frustrasi pelanggan. Pengecekan stok lebih cepat — pelanggan mengalami penundaan karena keterbatasan staf dan tingginya permintaan. Pendaftaran loyalitas lebih mudah — proses pendaftaran di kasir memakan waktu terlalu lama. Best, Zoë Durand, Head of Customer Service.” Kesimpulan utama: sintesis menghubungkan fakta-fakta tersebut menjadi satu wawasan yang jelas, menjelaskan tema yang mendasari dan apa artinya bagi perjalanan pelanggan."
+         }
+        },
+        {
+         "title": {
+          "en": "MODA case challenge",
+          "id": "MODA studi kasus"
+         },
+         "text": {
+          "en": "Knowledge check. Make the case for an in-house MODA yoga studio. Background: the People team at MODA is lobbying their leadership to build a yoga studio in the company headquarters. They believe their employees need a place to literally stretch their creative muscles. What they have done: they have researched the topic and organized their arguments in a pyramid structure using MECE principles. Your task: think of a key line statement for each group of facts. A key line statement synthesizes a group of facts — it offers a new insight that the facts suggest when taken together. We sometimes refer to the synthesis as the “so what” of a group of facts. 1. Understand the context: the People team has analyzed the need for a yoga studio and structured their arguments using MECE principles. 2. Your challenge: develop a key line statement for each group of facts. Each key line statement should synthesize the facts and provide a new insight — the “so what” for the leadership team. A strong key line statement synthesizes multiple facts, provides a new insight, and is clear and compelling.",
+          "id": "Cek pemahaman. Susun argumen untuk membangun studio yoga di kantor pusat MODA. Latar belakang: tim People di MODA sedang mengajukan usulan kepada pimpinan untuk membangun studio yoga di kantor pusat perusahaan. Mereka percaya bahwa karyawan membutuhkan tempat untuk benar-benar meregangkan dan melatih otot mereka. Apa yang telah mereka lakukan: mereka telah meneliti topik ini dan mengorganisasi argumen mereka dalam struktur piramida menggunakan prinsip MECE. Tugas Anda: buatlah pernyataan utama (key line statement) untuk setiap kelompok fakta. Pernyataan utama menyintesis sekelompok fakta — yaitu memberikan wawasan baru yang muncul ketika fakta-fakta tersebut dilihat secara bersama-sama. Kita sering menyebut proses ini sebagai “so what” dari sekelompok fakta. 1. Pahami konteksnya: tim People telah menganalisis kebutuhan akan studio yoga dan menyusun argumen mereka menggunakan prinsip MECE. 2. Tantangan Anda: buatlah pernyataan utama untuk setiap kelompok fakta. Setiap pernyataan utama harus menyintesis fakta-fakta tersebut dan memberikan wawasan baru — yaitu “so what” untuk tim pimpinan. Ciri pernyataan utama yang kuat: menyintesis beberapa fakta, memberikan wawasan baru, jelas dan meyakinkan."
+         }
+        },
+        {
+         "title": {
+          "en": "Review the facts from the MODA example",
+          "id": "Tinjau fakta-fakta dari contoh MODA"
+         },
+         "text": {
+          "en": "Practice. Review the facts from the MODA example and answer the question below. Based on the facts below, create a key line statement for each group of facts using MECE principles. Build an in-house yoga studio at MODA headquarters. A — Key line statement A (?): yoga classes offered in the studio will provide a more affordable option compared to nearby studios; easy access to a yoga studio encourages exercise and leads to improvements in employee health. B — Key line statement B (?): waiting time will be minimal since the studio only serves MODA colleagues; classes offered in-house will eliminate travel time to external classes. C — An onsite yoga studio will give employees a place to socialize and foster community building: a yoga studio promotes cross-functional interaction; an onsite yoga studio reinforces our commitment to the quality of life of our employees.",
+          "id": "Latihan. Tinjau fakta-fakta dari contoh MODA dan jawab pertanyaan berikut. Berdasarkan fakta-fakta di bawah ini, buatlah pernyataan utama (key line statement) untuk setiap kelompok fakta menggunakan prinsip MECE. Membangun studio yoga di kantor pusat MODA. A — Pernyataan utama A (?): kelas yoga yang ditawarkan di studio MODA memberikan pilihan yang lebih terjangkau dibandingkan studio di sekitar kantor; akses yang mudah ke studio yoga mendorong karyawan untuk berolahraga dan meningkatkan kesehatan mereka. B — Pernyataan utama B (?): waktu tunggu akan minimal karena studio hanya melayani karyawan MODA; kelas yang ditawarkan di dalam kantor akan menghilangkan waktu perjalanan ke studio di luar kantor. C — Studio yoga di kantor akan memberikan tempat bagi karyawan untuk bersosialisasi dan memperkuat kebersamaan komunitas: studio yoga mendorong interaksi lintas fungsi antar karyawan; studio yoga di kantor memperkuat komitmen MODA terhadap kualitas hidup karyawan."
+         }
+        },
+        {
+         "title": {
+          "en": "Make the case for an in-house MODA yoga studio",
+          "id": "Susun argumen untuk membangun studio yoga di kantor pusat MODA"
+         },
+         "text": {
+          "en": "Practice. Review the facts below and answer the question on the right. Now that you’ve identified key line statements for each group of facts, it’s time to articulate one overarching statement that synthesizes your key line statements. This statement is called a governing thought. Governing thought: what is the main message? A — Health and well-being: a health-focused space is aligned with MODA’s health initiative (classes offered in the yoga studio provide a more affordable option to nearby studios; easy access to a yoga studio encourages exercise and improvement in health). B — Time efficiency: an onsite yoga studio will save time and make MODA’s people more efficient (waiting time will be minimal as the studio only serves MODA colleagues; classes offered in-house will eliminate travel time to external classes). C — Community and culture: an onsite yoga studio will give employees a place to socialize and foster community building (a yoga studio promotes cross-functional interaction; an onsite yoga studio reinforces our commitment to the quality of life of our employees). Question: read the potential governing thoughts listed below. Which one best synthesizes the key line statements in MODA’s pyramid? (1) MODA cares about the health and well-being of its people. (2) MODA should help save people time and find ways to foster community building. (3) MODA should open a yoga studio inside of its headquarters. The slide shows option 3 selected.",
+          "id": "Latihan. Tinjau fakta-fakta di bawah ini dan jawab pertanyaan di sebelah kanan. Setelah Anda mengidentifikasi pernyataan utama (key line statement) untuk setiap kelompok fakta, saatnya untuk merumuskan satu pernyataan menyeluruh yang menyintesiskan seluruh pernyataan utama tersebut. Pernyataan ini disebut sebagai pemikiran utama (governing thought). Pemikiran utama: apa pesan utama yang ingin disampaikan? A — Kesehatan dan kesejahteraan: ruang yang berfokus pada kesehatan selaras dengan inisiatif kesehatan MODA (kelas yoga yang ditawarkan di studio MODA memberikan pilihan yang lebih terjangkau dibandingkan studio di sekitar kantor; akses yang mudah ke studio yoga mendorong karyawan untuk berolahraga dan meningkatkan kesehatan). B — Efisiensi waktu: studio yoga di kantor akan menghemat waktu dan membuat karyawan MODA lebih efisien (waktu tunggu akan minimal karena studio hanya melayani karyawan MODA; kelas yang ditawarkan di dalam kantor akan menghilangkan waktu perjalanan ke kelas di luar kantor). C — Komunitas dan budaya: studio yoga di kantor akan memberikan tempat bagi karyawan untuk bersosialisasi dan memperkuat kebersamaan komunitas (studio yoga mendorong interaksi lintas fungsi antar karyawan; studio yoga di kantor memperkuat komitmen MODA terhadap kualitas hidup karyawan). Pertanyaan: bacalah opsi pemikiran utama (governing thought) di bawah ini. Manakah yang paling tepat menyintesiskan pernyataan utama dalam piramida MODA? (1) MODA peduli terhadap kesehatan dan kesejahteraan karyawannya. (2) MODA harus membantu menghemat waktu karyawan dan menemukan cara untuk memperkuat kebersamaan komunitas. (3) MODA harus membuka studio yoga di dalam kantor pusatnya. Slide menampilkan opsi 3 terpilih."
          }
         }
        ]
