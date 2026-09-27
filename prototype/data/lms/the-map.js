@@ -9109,8 +9109,8 @@ window.MT_LMS['the-map'] = {
       "id": "Elemen Gaya Presentasi"
      },
      "dur": {
-      "en": "50 min",
-      "id": "50 mnt"
+      "en": "60 min",
+      "id": "60 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -9298,6 +9298,43 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 2 slides",
+        "id": "Baca berikutnya · 2 slide"
+       },
+       "title": {
+        "en": "Try It Now — Material",
+        "id": "Coba Sekarang — Materi"
+       },
+       "intro": {
+        "en": "Two slides close the loop on style and open the next idea. The first is a ten-minute individual exercise: choose a scenario — a brief message you will deliver in a real meeting next week, or a pitch to convince a friend to watch your favourite TV show — prepare it, record yourself on your phone, and critique the delivery against the three elements (or ask your friend for feedback). Four questions guide you: who is the audience and what tone will resonate, how will body language reinforce the message, and where will vocal emphasis punctuate it. The second slide moves from communication to impact: good communicators are good facilitators, and it introduces the film in which Kate describes how effective facilitation guides a group to alignment, commitment and action. Do the exercise, note the reflection question, then continue to the film that follows.",
+        "id": "Dua slide menutup bahasan gaya dan membuka gagasan berikutnya. Slide pertama adalah latihan individu sepuluh menit: pilih skenario — pesan singkat yang akan Anda sampaikan dalam rapat nyata minggu depan, atau ajakan untuk meyakinkan seorang teman agar menonton acara TV favorit Anda — siapkan, rekam diri Anda dengan ponsel, dan evaluasi penyampaiannya terhadap tiga elemen (atau mintalah masukan teman Anda). Empat pertanyaan memandu Anda: siapa audiensnya dan nada apa yang akan beresonansi, bagaimana bahasa tubuh memperkuat pesan, dan di mana penekanan vokal memperjelasnya. Slide kedua bergerak dari komunikasi menuju dampak: komunikator yang baik adalah fasilitator yang baik, dan slide ini memperkenalkan film di mana Kate menjelaskan bagaimana fasilitasi yang efektif membimbing kelompok menuju keselarasan, komitmen, dan tindakan. Kerjakan latihannya, catat pertanyaan refleksinya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-tryit-",
+       "slides": [
+        {
+         "title": {
+          "en": "Try it now: practice the three elements of style",
+          "id": "Coba sekarang: praktikkan tiga elemen gaya penyampaian"
+         },
+         "text": {
+          "en": "Put into practice. You were just introduced to the Three Elements of Style: physical presence, vocal emphasis, and emotional connection. Now it’s your turn to practice and see how these elements can make your message more persuasive. Goal: use the Three Elements of Style to prepare and deliver a message using physical presence, vocal emphasis, and emotional connection. Logistics: this is an individual exercise to be completed as soon as possible. Estimated time: 10 minutes. Choose your practice scenario. Option 1 — prepare a brief message to deliver in a real meeting (10 minutes): take 10 minutes to prepare a brief message that you will deliver orally in an informal or formal meeting in the next week. Record yourself delivering the message with your smartphone and use the Three Elements of Style checklist to critique your own delivery. Option 2 — convince a friend to watch your favorite TV show (10 minutes): take 10 minutes to prepare a brief message convincing a friend to watch your favorite TV show. Record yourself delivering the message with your smartphone and send it to your friend. Ask them to: a) share whether or not they were inspired to watch the TV show, and b) provide feedback on your delivery style. Questions to consider: who is your audience? What tone and style would resonate with them to forge an emotional connection? How will you use body language to reinforce your message? Where will you apply vocal emphasis to punctuate your delivery? Reference the Three Elements of Style for delivery.",
+          "id": "Saatnya praktik. Anda baru saja mempelajari Tiga Elemen Gaya Penyampaian: keberadaan fisik, penekanan vokal, dan koneksi emosional. Sekarang giliran Anda untuk mempraktikkannya dan melihat bagaimana ketiga elemen ini dapat membuat pesan Anda lebih persuasif. Tujuan: gunakan Tiga Elemen Gaya Penyampaian untuk mempersiapkan dan menyampaikan sebuah pesan dengan memanfaatkan keberadaan fisik, penekanan vokal, dan koneksi emosional. Logistik: ini adalah latihan individu yang perlu diselesaikan sesegera mungkin. Perkiraan waktu: 10 menit. Pilih skenario praktik Anda. Opsi 1 — siapkan pesan singkat untuk disampaikan dalam rapat nyata (10 menit): luangkan 10 menit untuk menyiapkan pesan singkat yang akan Anda sampaikan secara lisan dalam rapat informal maupun formal pada minggu depan. Rekam diri Anda saat menyampaikan pesan tersebut menggunakan smartphone dan gunakan daftar periksa Tiga Elemen Gaya Penyampaian untuk mengevaluasi cara penyampaian Anda. Opsi 2 — bujuk seorang teman untuk menonton acara TV favorit Anda (10 menit): luangkan 10 menit untuk menyiapkan pesan singkat yang meyakinkan seorang teman agar menonton acara TV favorit Anda. Rekam diri Anda saat menyampaikan pesan tersebut menggunakan smartphone dan kirimkan kepada teman Anda. Mintalah mereka untuk: a) memberi tahu apakah mereka terinspirasi atau tidak untuk menonton acara tersebut, dan b) memberikan masukan tentang gaya penyampaian Anda. Pertanyaan untuk dipertimbangkan: siapa audiens Anda? Nada dan gaya seperti apa yang akan beresonansi dengan mereka untuk membangun koneksi emosional? Bagaimana Anda akan menggunakan bahasa tubuh untuk memperkuat pesan Anda? Di bagian mana Anda akan memberikan penekanan vokal untuk memperjelas pesan Anda? Merujuk pada Tiga Elemen Gaya Penyampaian untuk penyampaian Anda."
+         }
+        },
+        {
+         "title": {
+          "en": "Good communicators are good facilitators",
+          "id": "Komunikator yang baik adalah fasilitator yang baik"
+         },
+         "text": {
+          "en": "From communication to impact. Facilitating for impact: in this section, we will wrap up the Conversation element of the EPIC approach to communications with a focus on facilitating (making an action easier) for impact. 1 In this section — we will wrap up the Conversation element of the EPIC approach to communications with a focus on facilitating (making an action easier) for impact. 2 What you’ll explore — how to facilitate and lead a conversation in an inclusive and open environment both virtually and in person. In this video, Kate describes the role of effective facilitation in guiding a group to alignment, commitment, and action. 3 Take a moment to reflect — as you watch this video, think about opportunities you have to facilitate for impact in the future. How might you apply an open and curious mindset to those conversations so that you can communicate more effectively? Reflection question — where can I facilitate for impact? What are some upcoming conversations where you can create a more inclusive and open environment to drive alignment, commitment, and action?",
+          "id": "Dari komunikasi hingga dampak. Memfasilitasi untuk dampak: pada bagian ini, kita akan merangkum elemen Percakapan dari pendekatan EPIC dalam komunikasi, dengan fokus pada bagaimana memfasilitasi (membuat tindakan menjadi lebih mudah) untuk menghasilkan dampak. 1 Pada bagian ini — kita akan merangkum elemen Percakapan dari pendekatan EPIC dalam komunikasi, dengan fokus pada bagaimana memfasilitasi (membuat tindakan menjadi lebih mudah) untuk menghasilkan dampak. 2 Apa yang akan Anda pelajari — bagaimana memfasilitasi dan memimpin percakapan dalam lingkungan yang inklusif dan terbuka, baik secara virtual maupun tatap muka. Dalam video ini, Kate menjelaskan peran fasilitasi yang efektif dalam membimbing kelompok menuju keselarasan, komitmen, dan tindakan. 3 Luangkan waktu untuk refleksi — saat Anda menonton video ini, pikirkan peluang-peluang yang Anda miliki untuk memfasilitasi demi dampak di masa depan. Bagaimana Anda dapat menerapkan pola pikir yang terbuka dan penuh rasa ingin tahu dalam percakapan tersebut agar Anda dapat berkomunikasi lebih efektif? Pertanyaan refleksi — di mana saya dapat memfasilitasi untuk menghasilkan dampak? Apa saja percakapan yang akan datang di mana Anda dapat menciptakan lingkungan yang lebih inklusif dan terbuka untuk mendorong keselarasan, komitmen, dan tindakan?"
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -9463,8 +9500,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the third slide points to: a deconstruction of Wanda Díaz Merced’s TED Talk through the three elements of style. She opens with a story, almost a children’s story — “once there was a star, she was born” — and charts its life, death and rebirth as a supernova, making something beyond our comprehension real and human. In the technical part she reaches for comparisons rather than numbers: the energy of the sun over ten days, a magnetic field a thousand trillion times the Earth’s. Then presence and voice do the underlining: vocal emphasis lands on particular words (“a tremendous amount of energy”, “an itty-bitty, tiny portion of the spectrum”), a tiny gesture matches the tiny portion, and big gestures act out the spinning star and the ice-skater analogy so we see it happen. Watch with your answers from the slides beside you. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
-        "id": "Film yang dirujuk slide ketiga: pembedahan TED Talk Wanda Díaz Merced melalui tiga elemen gaya. Ia membuka dengan sebuah cerita, hampir seperti cerita anak-anak — “dahulu kala ada sebuah bintang, ia lahir” — dan memetakan kehidupannya, kematiannya, dan kelahirannya kembali sebagai supernova, menjadikan sesuatu yang di luar pemahaman kita terasa nyata dan manusiawi. Di bagian teknis ia memilih perbandingan alih-alih angka: energi matahari selama sepuluh hari, medan magnet seribu triliun kali milik Bumi. Lalu kehadiran dan suara yang menggarisbawahi: penekanan vokal jatuh pada kata-kata tertentu (“energi yang luar biasa besar”, “sebagian teramat kecil dari spektrum”), gerakan kecil mengiringi bagian yang kecil, dan gerakan-gerakan besar memeragakan bintang yang berputar dan analogi pemain seluncur es sehingga kita melihatnya terjadi. Tontonlah dengan jawaban Anda dari slide di samping Anda. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+        "en": "The film the third slide points to: a deconstruction of Wanda Díaz Merced’s TED Talk through the three elements of style. She opens with a story, almost a children’s story — “once there was a star, she was born” — and charts its life, death and rebirth as a supernova, making something beyond our comprehension real and human. In the technical part she reaches for comparisons rather than numbers: the energy of the sun over ten days, a magnetic field a thousand trillion times the Earth’s. Then presence and voice do the underlining: vocal emphasis lands on particular words (“a tremendous amount of energy”, “an itty-bitty, tiny portion of the spectrum”), a tiny gesture matches the tiny portion, and big gestures act out the spinning star and the ice-skater analogy so we see it happen. Watch with your answers from the slides beside you. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Film yang dirujuk slide ketiga: pembedahan TED Talk Wanda Díaz Merced melalui tiga elemen gaya. Ia membuka dengan sebuah cerita, hampir seperti cerita anak-anak — “dahulu kala ada sebuah bintang, ia lahir” — dan memetakan kehidupannya, kematiannya, dan kelahirannya kembali sebagai supernova, menjadikan sesuatu yang di luar pemahaman kita terasa nyata dan manusiawi. Di bagian teknis ia memilih perbandingan alih-alih angka: energi matahari selama sepuluh hari, medan magnet seribu triliun kali milik Bumi. Lalu kehadiran dan suara yang menggarisbawahi: penekanan vokal jatuh pada kata-kata tertentu (“energi yang luar biasa besar”, “sebagian teramat kecil dari spektrum”), gerakan kecil mengiringi bagian yang kecil, dan gerakan-gerakan besar memeragakan bintang yang berputar dan analogi pemain seluncur es sehingga kita melihatnya terjadi. Tontonlah dengan jawaban Anda dari slide di samping Anda. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -9481,8 +9518,8 @@ window.MT_LMS['the-map'] = {
           "id": "Ganti angka dengan perbandingan. Energi matahari selama sepuluh hari dan medan magnet seribu triliun kali milik Bumi membuat kita bisa membayangkan skala yang tak akan pernah tersampaikan oleh angka dalam kilojoule."
          },
          {
-          "en": "Let voice and body underline the message: vocal emphasis on the words that matter, a tiny gesture for the tiny portion, big gestures for the spinning star and the ice skater. Vivid analogies, simple stories, emphasis and gesture together are what bring it to life.",
-          "id": "Biarkan suara dan tubuh menggarisbawahi pesan: penekanan vokal pada kata-kata yang penting, gerakan kecil untuk bagian yang kecil, gerakan besar untuk bintang yang berputar dan pemain seluncur es. Analogi yang hidup, cerita sederhana, penekanan, dan gerakan bersama-sama itulah yang menghidupkannya."
+          "en": "Let voice and body underline the message: vocal emphasis on the words that matter, a tiny gesture for the tiny portion, big gestures for the spinning star and the ice skater. Vivid analogies, simple stories, emphasis and gesture together are what bring it to life. The slides that follow turn the three elements into a ten-minute practice, and the film after them opens the last element of EPIC: facilitating a conversation for impact.",
+          "id": "Biarkan suara dan tubuh menggarisbawahi pesan: penekanan vokal pada kata-kata yang penting, gerakan kecil untuk bagian yang kecil, gerakan besar untuk bintang yang berputar dan pemain seluncur es. Analogi yang hidup, cerita sederhana, penekanan, dan gerakan bersama-sama itulah yang menghidupkannya. Slide yang mengikutinya mengubah tiga elemen menjadi latihan sepuluh menit, dan film setelahnya membuka elemen terakhir EPIC: memfasilitasi percakapan untuk menghasilkan dampak."
          }
         ]
        },
@@ -9498,6 +9535,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/style-5-en.vtt",
           "id": "../../assets/lms/the-map/style-5-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "facilitate",
+       "placement": "after-material:5",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the second slide points to. Kate closes the Conversation element of EPIC with facilitation: to facilitate is to make something easier, which is why effective communicators are also effective facilitators — they make it easier for other people to understand their message. It does not mean leading the discussion or being the content expert; anyone can facilitate. What it takes is an open, curious, “over there” mindset: with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room. It matters equally with one person or a large group, and the techniques ahead include the open–narrow–close framework, an overall architecture for most conversations — bringing together empathy, purpose and insights in a well-orchestrated conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
+        "id": "Film yang dirujuk slide kedua. Kate menutup elemen Percakapan dari EPIC dengan fasilitasi: memfasilitasi berarti membuat sesuatu lebih mudah, itulah mengapa komunikator yang efektif juga adalah fasilitator yang efektif — mereka mempermudah orang lain memahami pesan mereka. Ini tidak berarti memimpin diskusi atau menjadi ahli konten; siapa pun bisa memfasilitasi. Yang dibutuhkan adalah pola pikir yang terbuka, penuh rasa ingin tahu, dan “di sana”: bersama audiens Anda, memikirkan di mana mereka berada, bersedia melepaskan agenda Anda saat tepat, mengajukan pertanyaan dan menggali apa lagi yang terjadi di ruangan. Ini sama pentingnya dengan satu orang maupun kelompok besar, dan teknik-teknik ke depan mencakup kerangka buka–persempit–tutup, sebuah arsitektur keseluruhan untuk sebagian besar percakapan — menyatukan empati, tujuan, dan wawasan dalam percakapan yang terorkestrasi dengan baik. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: facilitating for impact",
+         "id": "Poin penting: memfasilitasi untuk dampak"
+        },
+        "body": [
+         {
+          "en": "To facilitate is to make something easier. Effective communicators are effective facilitators because they make their message easier for others to understand — and anyone can do it; it does not require leading the discussion or being the content expert.",
+          "id": "Memfasilitasi berarti membuat sesuatu lebih mudah. Komunikator yang efektif adalah fasilitator yang efektif karena mereka mempermudah orang lain memahami pesan mereka — dan siapa pun bisa melakukannya; tidak perlu memimpin diskusi atau menjadi ahli konten."
+         },
+         {
+          "en": "Bring the “over there” mindset: open and curious, with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room.",
+          "id": "Bawalah pola pikir “di sana”: terbuka dan penuh rasa ingin tahu, bersama audiens Anda, memikirkan di mana mereka berada, bersedia melepaskan agenda saat tepat, mengajukan pertanyaan dan menggali apa lagi yang terjadi di ruangan."
+         },
+         {
+          "en": "Facilitation matters with one person or a large group. Frameworks such as open–narrow–close give most conversations an architecture, so that empathy, purpose and insights come together in a well-orchestrated conversation.",
+          "id": "Fasilitasi penting dengan satu orang maupun kelompok besar. Kerangka seperti buka–persempit–tutup memberi sebagian besar percakapan sebuah arsitektur, sehingga empati, tujuan, dan wawasan menyatu dalam percakapan yang terorkestrasi dengan baik."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-6-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-6-poster.jpg",
+         "dur": "1:52",
+         "title": {
+          "en": "Facilitating for impact",
+          "id": "Memfasilitasi untuk dampak"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-6-en.vtt",
+          "id": "../../assets/lms/the-map/style-6-id.vtt"
          }
         }
        ]
