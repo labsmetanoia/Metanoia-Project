@@ -1633,129 +1633,459 @@ window.MT_ASSESS['the-pack'] = {
   "reflect": null
  },
  "7": {
-  "mcq": [
+  "minutes": 14,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Aptitude scores respond strongly to practice because:",
-     "id": "Skor tes bakat sangat responsif terhadap latihan karena:"
+    "lesson": "7.1",
+    "h": {
+     "en": "The Test Landscape",
+     "id": "Peta Tes Seleksi"
     },
-    "opts": [
-     {
-      "en": "Test providers reward repeat customers",
-      "id": "Penyedia tes memberi hadiah kepada pelanggan yang kembali"
-     },
-     {
-      "en": "Format familiarity frees working memory for the actual reasoning",
-      "id": "Terbiasa dengan formatnya membebaskan memori kerja untuk penalaran yang sebenarnya"
-     },
-     {
-      "en": "The questions repeat between tests",
-      "id": "Soalnya berulang dari satu tes ke tes lain"
-     },
-     {
-      "en": "They do not — aptitude is fixed",
-      "id": "Tidak responsif — bakat itu tetap"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Unfamiliar formats tax attention. Knowing the question types, interface and your pacing removes that tax — gains are largest for first-time formats.",
-     "id": "Format yang asing membebani perhatian. Mengenal jenis soal, antarmuka, dan tempomu sendiri menghapus beban itu — kenaikan terbesar terjadi pada format yang baru pertama kali kamu temui."
+    "sub": {
+     "en": "Ability vs personality, the ten families, the Indonesian layer, norm groups and cut-offs, know the game.",
+     "id": "Kemampuan vs kepribadian, sepuluh keluarga, lapisan Indonesia, kelompok norma dan ambang, kenali permainannya."
     }
    },
    {
+    "lesson": "7.2",
+    "h": {
+     "en": "Numerical Reasoning",
+     "id": "Penalaran Numerik"
+    },
+    "sub": {
+     "en": "FSCS, the four traps, Indonesian and English notation, four worked items.",
+     "id": "FSCS, empat jebakan, notasi Indonesia dan Inggris, empat soal terurai."
+    }
+   },
+   {
+    "lesson": "7.3",
+    "h": {
+     "en": "Verbal, Series and Abstract",
+     "id": "Verbal, Deret, dan Abstrak"
+    },
+    "sub": {
+     "en": "The force test and its traps, the five-step series method and thirteen families, the abstract scan order.",
+     "id": "Uji memaksa dan jebakannya, metode deret lima langkah dan tiga belas keluarga, urutan pindai abstrak."
+    }
+   },
+   {
+    "lesson": "7.4",
+    "h": {
+     "en": "Personality, Values and SJT",
+     "id": "Kepribadian, Nilai, dan SJT"
+    },
+    "sub": {
+     "en": "Rating vs forced choice, consistency, the work-self frame, keyed values tests, PTA-S.",
+     "id": "Penilaian vs pilihan-paksa, konsistensi, kerangka diri-kerja, tes nilai berkunci, PTA-S."
+    }
+   },
+   {
+    "lesson": "7.5",
+    "h": {
+     "en": "Strategy, Pacing and Test Day",
+     "id": "Strategi, Tempo, dan Hari Tes"
+    },
+    "sub": {
+     "en": "Guessing by scoring rule, pacing and adaptive tests, the three-week plan, the error log, the checklist.",
+     "id": "Menebak berdasarkan aturan penilaian, tempo dan tes adaptif, rencana tiga minggu, catatan kesalahan, daftar periksa."
+    }
+   }
+  ],
+  "mcq": [
+   {
     "type": "know",
+    "lesson": "7.1",
     "q": {
-     "en": "A price rose 25% to Rp 150,000. The original price was:",
-     "id": "Sebuah harga naik 25% menjadi Rp 150.000. Harga awalnya:"
+     "en": "The line between ability tests and personality questionnaires is that…",
+     "id": "Garis antara tes kemampuan dan kuesioner kepribadian adalah bahwa…"
     },
     "opts": [
      {
-      "en": "Rp 112,500",
-      "id": "Rp 112.500"
+      "en": "Ability tests are online and personality tests are on paper",
+      "id": "Tes kemampuan daring dan tes kepribadian di kertas"
      },
      {
-      "en": "Rp 120,000",
-      "id": "Rp 120.000"
+      "en": "Ability tests have right answers and a clock; personality questionnaires have no right answers but do have consistency checks",
+      "id": "Tes kemampuan punya jawaban benar dan jam; kuesioner kepribadian tidak punya jawaban benar tetapi punya pemeriksaan konsistensi"
      },
      {
-      "en": "Rp 125,000",
-      "id": "Rp 125.000"
+      "en": "Only ability tests can be practised",
+      "id": "Hanya tes kemampuan yang bisa dilatih"
      },
      {
-      "en": "Rp 137,500",
-      "id": "Rp 137.500"
+      "en": "Personality questionnaires are marked by a person",
+      "id": "Kuesioner kepribadian dinilai oleh orang"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Reverse percentage divides by the multiplier: 150,000 ÷ 1.25 = 120,000. Multiplying by 0.75 reverses the wrong operation — the classic trap.",
-     "id": "Persentase terbalik dihitung dengan membagi pengalinya: 150.000 ÷ 1,25 = 120.000. Mengalikan dengan 0,75 justru membalik operasi yang salah — jebakan klasik."
+     "en": "Maximum performance under time versus typical behaviour — and a self-contradicting profile can be flagged.",
+     "id": "Kinerja maksimum di bawah waktu versus perilaku tipikal — dan profil yang bertentangan dengan dirinya bisa ditandai."
     }
    },
    {
     "type": "scen",
+    "lesson": "7.1",
     "q": {
-     "en": "Verbal reasoning: the passage says 'some vocational graduates found work faster'. The statement 'most vocational graduates found work faster' is:",
-     "id": "Penalaran verbal: bacaan menyebut 'sebagian lulusan vokasi mendapat kerja lebih cepat'. Pernyataan 'kebanyakan lulusan vokasi mendapat kerja lebih cepat' adalah:"
+     "en": "Two candidates each score 15 out of 24 on the same numerical test. One report says 70th percentile, the other 45th. Why?",
+     "id": "Dua kandidat masing-masing mendapat 15 dari 24 pada tes numerik yang sama. Satu laporan menyebut persentil ke-70, yang lain ke-45. Mengapa?"
     },
     "opts": [
      {
-      "en": "True — it follows naturally",
-      "id": "Benar — itu kesimpulan yang wajar"
+      "en": "One of the reports is wrong",
+      "id": "Salah satu laporan salah"
      },
      {
-      "en": "False — the passage contradicts it",
-      "id": "Salah — bacaannya membantah itu"
+      "en": "The raw score was compared with different norm groups",
+      "id": "Skor mentahnya dibandingkan dengan kelompok norma yang berbeda"
      },
      {
-      "en": "Cannot say — 'some' never establishes 'most'",
-      "id": "Tidak bisa disimpulkan — 'sebagian' tidak pernah membuktikan 'kebanyakan'"
+      "en": "One candidate finished faster",
+      "id": "Satu kandidat selesai lebih cepat"
      },
      {
-      "en": "True if you know the industry",
-      "id": "Benar, kalau kamu paham industrinya"
+      "en": "Percentiles are random",
+      "id": "Persentil itu acak"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The same raw score is read against earlier test-takers like you; a different group gives a different percentile.",
+     "id": "Skor mentah yang sama dibaca terhadap peserta tes sebelumnya yang seperti kamu; kelompok berbeda memberi persentil berbeda."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.2",
+    "q": {
+     "en": "Revenue rises from Rp 120 miliar to Rp 150 miliar. A candidate answers “+20%”. The trap is…",
+     "id": "Pendapatan naik dari Rp 120 miliar ke Rp 150 miliar. Seorang kandidat menjawab “+20%”. Jebakannya adalah…"
+    },
+    "opts": [
+     {
+      "en": "Percent vs percentage points",
+      "id": "Persen vs poin persentase"
+     },
+     {
+      "en": "Wrong base — 30 was divided by 150 instead of 120; the answer is +25%",
+      "id": "Basis salah — 30 dibagi 150, bukan 120; jawabannya +25%"
+     },
+     {
+      "en": "Share vs size",
+      "id": "Pangsa vs ukuran"
+     },
+     {
+      "en": "Notation",
+      "id": "Notasi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Percentage change = (new − old) ÷ old. 30 ÷ 120 = 25%.",
+     "id": "Perubahan persentase = (baru − lama) ÷ lama. 30 ÷ 120 = 25%."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.2",
+    "q": {
+     "en": "On an English-language test, “1.5” means…",
+     "id": "Pada tes berbahasa Inggris, “1.5” berarti…"
+    },
+    "opts": [
+     {
+      "en": "One thousand five hundred",
+      "id": "Seribu lima ratus"
+     },
+     {
+      "en": "One and a half",
+      "id": "Satu setengah"
+     },
+     {
+      "en": "Fifteen",
+      "id": "Lima belas"
+     },
+     {
+      "en": "One point five thousand",
+      "id": "Satu koma lima ribu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "English notation uses “.” for decimals; Indonesian uses “,”. Read the separator before the number.",
+     "id": "Notasi Inggris memakai “.” untuk desimal; Indonesia memakai “,”. Baca pemisahnya sebelum angkanya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.3",
+    "q": {
+     "en": "Passage: “The company intends to open five stores in 2026.” Statement: “The company will have five new stores in 2026.”",
+     "id": "Bacaan: “Perusahaan berniat membuka lima toko pada 2026.” Pernyataan: “Perusahaan akan punya lima toko baru pada 2026.”"
+    },
+    "opts": [
+     {
+      "en": "True",
+      "id": "Benar"
+     },
+     {
+      "en": "False",
+      "id": "Salah"
+     },
+     {
+      "en": "Cannot Say — an intention is not an outcome",
+      "id": "Tidak Bisa Disimpulkan — niat bukan hasil"
+     },
+     {
+      "en": "True by inference",
+      "id": "Benar lewat inferensi"
      }
     ],
     "correct": 2,
     "expl": {
-     "en": "Quantifier swaps are the test's favourite trap. Judge the statement against the passage alone — outside knowledge is contamination.",
-     "id": "Pertukaran kata kuantitas adalah jebakan favorit tes ini. Nilai pernyataan hanya berdasarkan bacaannya — pengetahuan dari luar justru mengotori jawabanmu."
+     "en": "Plans versus facts. The passage does not force the statement.",
+     "id": "Rencana versus fakta. Bacaan tidak memaksa pernyataannya."
     }
    },
    {
-    "type": "scen",
+    "type": "know",
+    "lesson": "7.3",
     "q": {
-     "en": "Timed set, question 8 of 20, minute 11 of 20, and this question needs ~3 more minutes. The triage rule says:",
-     "id": "Set berbatas waktu, soal ke-8 dari 20, menit ke-11 dari 20, dan soal ini masih butuh sekitar 3 menit lagi. Aturan triase mengatakan:"
+     "en": "2, 12, 5, 10, 8, 8, 11, ? — the family and the next term are…",
+     "id": "2, 12, 5, 10, 8, 8, 11, ? — keluarga dan suku berikutnya adalah…"
     },
     "opts": [
      {
-      "en": "Finish it — momentum matters",
-      "id": "Selesaikan — momentum itu penting"
+      "en": "Growing differences; 14",
+      "id": "Selisih membesar; 14"
      },
      {
-      "en": "Flag, skip, bank the reachable questions, return at the end",
-      "id": "Tandai, lewati, amankan dulu soal-soal yang terjangkau, lalu kembali di akhir"
+      "en": "Interleaved sequences (+3 / −2); 6",
+      "id": "Deret berselang-seling (+3 / −2); 6"
      },
      {
-      "en": "Guess randomly and move on",
-      "id": "Tebak asal dan lanjut"
+      "en": "Alternating operations; 22",
+      "id": "Operasi berselang; 22"
      },
      {
-      "en": "End the set early to protect accuracy",
-      "id": "Akhiri set lebih awal demi menjaga akurasi"
+      "en": "Constant ratio; 13",
+      "id": "Rasio konstan; 13"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "No single question gets double budget: the score belongs to the set. Flagged returns often solve faster because the second look bypasses the first framing.",
-     "id": "Tidak ada satu soal pun yang berhak mendapat jatah waktu ganda: skor adalah milik seluruh set. Soal yang ditandai sering justru lebih cepat terpecahkan saat kamu kembali, karena pandangan kedua terbebas dari cara pandang pertama."
+     "en": "Zig-zag → split odd and even positions: 2, 5, 8, 11 (+3) and 12, 10, 8 (−2) → 6.",
+     "id": "Zig-zag → pisahkan posisi ganjil dan genap: 2, 5, 8, 11 (+3) dan 12, 10, 8 (−2) → 6."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.3",
+    "q": {
+     "en": "Every figure in an abstract series has a thick border and a small dot in the centre. A candidate spends a minute trying to find the rule in the dot. The lesson says…",
+     "id": "Setiap gambar dalam deret abstrak punya bingkai tebal dan titik kecil di tengah. Seorang kandidat menghabiskan satu menit mencoba menemukan aturan pada titiknya. Pelajaran ini mengatakan…"
+    },
+    "opts": [
+     {
+      "en": "The dot is the key",
+      "id": "Titik itu kuncinya"
+     },
+     {
+      "en": "A feature shared by every figure can never be the rule — ignore it and scan the dimensions that change",
+      "id": "Fitur yang dimiliki setiap gambar tidak pernah bisa menjadi aturan — abaikan dan pindai dimensi yang berubah"
+     },
+     {
+      "en": "Check the border first",
+      "id": "Periksa bingkainya dulu"
+     },
+     {
+      "en": "Guess and move on immediately",
+      "id": "Tebak dan langsung lanjut"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A rule distinguishes; what every figure has distinguishes nothing.",
+     "id": "Aturan membedakan; apa yang dimiliki setiap gambar tidak membedakan apa pun."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.4",
+    "q": {
+     "en": "Forced-choice personality blocks are hard to fake because…",
+     "id": "Blok kepribadian pilihan-paksa sulit dipalsukan karena…"
+    },
+    "opts": [
+     {
+      "en": "They are timed",
+      "id": "Berbatas waktu"
+     },
+     {
+      "en": "All the options are desirable, so you reveal relative priorities and must stay consistent",
+      "id": "Semua opsinya diinginkan, jadi kamu mengungkap prioritas relatif dan harus tetap konsisten"
+     },
+     {
+      "en": "They have right answers",
+      "id": "Punya jawaban benar"
+     },
+     {
+      "en": "They are only used in Indonesia",
+      "id": "Hanya dipakai di Indonesia"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "You cannot endorse everything good; you have to choose, block after block.",
+     "id": "Kamu tidak bisa menyetujui semua yang baik; kamu harus memilih, blok demi blok."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.4",
+    "q": {
+     "en": "SJT: you notice a colleague’s report contains an error that will reach a client tomorrow. Which option is least effective?",
+     "id": "SJT: kamu menyadari laporan seorang rekan memuat kesalahan yang akan sampai ke klien besok. Opsi mana yang paling tidak efektif?"
+    },
+    "opts": [
+     {
+      "en": "Tell the colleague now and offer to help fix it",
+      "id": "Beri tahu rekan sekarang dan tawarkan bantuan memperbaikinya"
+     },
+     {
+      "en": "Say nothing and, if asked later, say you never saw the report",
+      "id": "Diam saja dan, jika ditanya nanti, katakan kamu tidak pernah melihat laporannya"
+     },
+     {
+      "en": "Mention it to your supervisor without telling the colleague",
+      "id": "Sampaikan ke atasan tanpa memberi tahu rekan"
+     },
+     {
+      "en": "Do nothing",
+      "id": "Tidak melakukan apa-apa"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Least effective is the harmful one — concealment plus dishonesty — not merely the passive one.",
+     "id": "Paling tidak efektif adalah yang merugikan — menyembunyikan plus tidak jujur — bukan sekadar yang pasif."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.5",
+    "q": {
+     "en": "The test description says “score = number of correct answers”. Ninety seconds left, four items unanswered. You should…",
+     "id": "Deskripsi tes menyebut “skor = jumlah jawaban benar”. Sembilan puluh detik tersisa, empat soal belum dijawab. Kamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Leave them blank to avoid penalties",
+      "id": "Biarkan kosong untuk menghindari pengurangan"
+     },
+     {
+      "en": "Eliminate quickly and answer all four",
+      "id": "Singkirkan cepat dan jawab keempatnya"
+     },
+     {
+      "en": "Finish the current item carefully and accept the blanks",
+      "id": "Selesaikan soal saat ini dengan cermat dan terima yang kosong"
+     },
+     {
+      "en": "Ask for more time",
+      "id": "Minta waktu tambahan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Number-correct scoring: a blank is a certain zero; a guess is a free chance.",
+     "id": "Penilaian jumlah benar: kosong pasti nol; tebakan adalah peluang gratis."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.5",
+    "q": {
+     "en": "On an adaptive test, the right behaviour is…",
+     "id": "Pada tes adaptif, perilaku yang tepat adalah…"
+    },
+    "opts": [
+     {
+      "en": "Rush the early items to bank time",
+      "id": "Terburu-buru di soal awal untuk menabung waktu"
+     },
+     {
+      "en": "Take more care on the early items, never let a timer expire, and expect no going back",
+      "id": "Lebih cermat pada soal awal, jangan pernah biarkan pengatur waktu habis, dan jangan berharap bisa kembali"
+     },
+     {
+      "en": "Skip hard items",
+      "id": "Lewati soal sulit"
+     },
+     {
+      "en": "Answer only the ones you are sure of",
+      "id": "Jawab hanya yang kamu yakin"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Early items set the difficulty band and carry more weight; an expired item is a wrong item.",
+     "id": "Soal awal menentukan pita kesulitan dan berbobot lebih; soal yang habis waktunya adalah soal yang salah."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.5",
+    "q": {
+     "en": "Your error log for the week shows: 6 “fell for a trap”, 4 “misread”, 1 “time pressure”, 0 “concept gap”. Next week’s drills should be…",
+     "id": "Catatan kesalahanmu minggu ini menunjukkan: 6 “terjebak”, 4 “salah baca”, 1 “tekanan waktu”, 0 “celah konsep”. Latihan minggu depan sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "A general review of everything",
+      "id": "Tinjauan umum atas segalanya"
+     },
+     {
+      "en": "Name-the-trap sets and the format flip / “answer the question asked” check",
+      "id": "Set sebut-jebakannya dan balik format / pemeriksaan “jawab yang ditanya”"
+     },
+     {
+      "en": "Learning new concepts",
+      "id": "Mempelajari konsep baru"
+     },
+     {
+      "en": "Only timed sets",
+      "id": "Hanya set berbatas waktu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The top two tags choose the drills; the log is a steering wheel, not a scoreboard.",
+     "id": "Dua tanda teratas memilih latihannya; catatan adalah kemudi, bukan papan skor."
     }
    }
   ],
-  "reflect": null
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Which error tag appears most in your log so far — misread, concept gap, arithmetic slip, time pressure, or fell for a trap — and what exactly will you drill this week because of it? Name the family, the drill from Lessons 7.2–7.5, the number of sessions, and the one line you will write on your scrap-paper card before the next timed set.",
+    "id": "Minimal 100 kata. Tanda kesalahan mana yang paling sering muncul di catatanmu sejauh ini — salah baca, celah konsep, kesalahan aritmetika, tekanan waktu, atau terjebak — dan apa persisnya yang akan kamu latih minggu ini karenanya? Sebutkan keluarganya, latihan dari Pelajaran 7.2–7.5, jumlah sesinya, dan satu baris yang akan kamu tulis di kartu kertas coretan sebelum set berbatas waktu berikutnya."
+   },
+   "guide": [
+    {
+     "en": "Quote two or three lines from your log as evidence for the tag.",
+     "id": "Kutip dua atau tiga baris dari catatanmu sebagai bukti tanda itu."
+    },
+    {
+     "en": "Name the drill and the family: “7.2 Drill 5, format flip, numerical, three sessions”.",
+     "id": "Sebutkan latihan dan keluarganya: “7.2 Latihan 5, balik format, numerik, tiga sesi”."
+    },
+    {
+     "en": "If your log is empty, say when your baseline is scheduled and which sub-test you expect to be weakest, and why.",
+     "id": "Jika catatanmu kosong, katakan kapan garis dasarmu dijadwalkan dan sub-tes mana yang kamu duga terlemah, dan mengapa."
+    }
+   ],
+   "min": 100
+  }
  },
  "8": {
   "mcq": [

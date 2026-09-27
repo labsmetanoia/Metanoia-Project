@@ -20503,190 +20503,860 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "7.1",
-     "title": {
-      "en": "Introduction to Psychometric and Aptitude Assessments",
-      "id": "Pengantar Asesmen Psikometri dan Tes Bakat"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "The Test Landscape",
+      "id": "Peta Tes Seleksi"
+     },
      "overview": {
-      "en": "Psychometric tests feel like judgment day; they are actually the most trainable stage of the funnel. This lesson maps the test landscape — what each type measures, how scores are used, and why practice moves results more than talent does.",
-      "id": "Tes psikometri terasa seperti hari penghakiman; padahal inilah tahap corong yang paling bisa dilatih. Pelajaran ini memetakan lanskap tesnya — apa yang diukur setiap jenis tes, bagaimana skornya dipakai, dan mengapa latihan lebih menentukan hasil daripada bakat."
+      "en": "Online tests are the gate between the paper and the people for almost every high-volume Indonesian graduate programme — and the most trainable gate in the funnel. This lesson maps the families of test, the formats Indonesian graduates actually meet, how scores are read against a norm group, and the six things to find out before you sit.",
+      "id": "Tes daring adalah gerbang antara kertas dan manusia untuk hampir setiap program lulusan bervolume tinggi di Indonesia — dan gerbang yang paling bisa dilatih di corong. Pelajaran ini memetakan keluarga tes, format yang benar-benar ditemui lulusan Indonesia, cara skor dibaca terhadap kelompok norma, dan enam hal yang perlu dicari tahu sebelum kamu duduk mengerjakan."
      },
      "objectives": [
       {
-       "en": "Identify the main test families: numerical, verbal, logical, personality, situational.",
-       "id": "Mengenali keluarga tes utama: numerik, verbal, logika, kepribadian, dan situasional."
+       "en": "Name the main test families and what each measures.",
+       "id": "Menyebutkan keluarga tes utama dan apa yang diukur masing-masing."
       },
       {
-       "en": "Explain how employers actually use scores — cutoffs, norms and profiles.",
-       "id": "Menjelaskan bagaimana perusahaan benar-benar memakai skor — ambang batas, kelompok norma, dan profil."
+       "en": "Identify the Indonesian formats you are likely to meet.",
+       "id": "Mengenali format Indonesia yang kemungkinan kamu temui."
       },
       {
-       "en": "Set up a practice plan calibrated to your weakest family.",
-       "id": "Menyusun rencana latihan yang disesuaikan dengan keluarga tes terlemahmu."
+       "en": "Explain norm groups and cut-offs.",
+       "id": "Menjelaskan kelompok norma dan ambang lolos."
+      },
+      {
+       "en": "Complete a “know the game” checklist for a target programme.",
+       "id": "Melengkapi daftar periksa “kenali permainannya” untuk program sasaran."
       }
      ],
-     "takeawaysLead": {
-      "en": "Psychometric tests are the most trainable stage of the funnel. To prepare for the test that exists rather than the one you fear, you can:",
-      "id": "Tes psikometrik adalah tahap corong yang paling bisa dilatih. Untuk bersiap menghadapi tes yang sebenarnya, bukan yang kamu takutkan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Aptitude scores respond strongly to familiarity: format practice removes the noise that hides your real level.",
-       "id": "Skor tes bakat sangat dipengaruhi keakraban: latihan format menyingkirkan gangguan yang menyembunyikan kemampuan aslimu."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 5 slides",
+       "id": "Baca dulu · 5 slide"
       },
-      {
-       "en": "You are scored against a norm group, usually as a cutoff — the goal is clearing the bar, not perfection.",
-       "id": "Kamu dinilai relatif terhadap kelompok norma, biasanya lewat ambang batas — tujuannya melewati batas itu, bukan menjadi sempurna."
+      "title": {
+       "en": "Five things about tests before anything else",
+       "id": "Lima hal tentang tes sebelum yang lain"
       },
-      {
-       "en": "Personality tests have no cheat code worth using: gamed answers produce jobs that fit the mask, not you.",
-       "id": "Tes kepribadian tidak punya trik curang yang layak dicoba: jawaban yang direkayasa menghasilkan pekerjaan yang cocok untuk topengmu, bukan untuk dirimu."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "book",
-       "h": {
-        "en": "The test families",
-        "id": "Keluarga-keluarga tes"
+      "intro": {
+       "en": "The module’s frame in five lines. Everything after this is detail and practice.",
+       "id": "Kerangka modul dalam lima baris. Semua setelah ini adalah rincian dan latihan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Two kinds of test",
+         "id": "Dua jenis tes"
+        },
+        "points": [
+         {
+          "en": "Ability tests have right answers and a clock.",
+          "id": "Tes kemampuan punya jawaban benar dan jam."
+         },
+         {
+          "en": "Personality and values questionnaires do not have right answers — but they do have consistency checks.",
+          "id": "Kuesioner kepribadian dan nilai tidak punya jawaban benar — tetapi punya pemeriksaan konsistensi."
+         }
+        ]
        },
-       "body": {
-        "en": "<b>Numerical reasoning:</b> percentages, ratios, rates of change read from tables and charts — business arithmetic under time, not calculus. <b>Verbal reasoning:</b> a passage plus statements to judge true / false / cannot say — reading precision, not vocabulary. <b>Logical/abstract:</b> sequences and matrices of shapes — pattern induction with no language at all. <b>Personality inventories:</b> work-style questionnaires with no time limit and, properly speaking, no wrong answers. <b>Situational judgment:</b> workplace scenarios asking which response is most and least effective. The first three are the trainable wall most candidates hit; the Screening Gym drills exactly those.",
-        "id": "<b>Penalaran numerik:</b> persentase, rasio, laju perubahan yang dibaca dari tabel dan grafik — aritmetika bisnis di bawah tekanan waktu, bukan kalkulus. <b>Penalaran verbal:</b> sebuah bacaan plus pernyataan yang harus dinilai benar / salah / tidak bisa disimpulkan — ketelitian membaca, bukan kosakata. <b>Logika/abstrak:</b> deret dan matriks bentuk — menemukan pola tanpa bahasa sama sekali. <b>Inventori kepribadian:</b> kuesioner gaya kerja tanpa batas waktu dan, sesungguhnya, tanpa jawaban yang salah. <b>Penilaian situasional:</b> skenario di tempat kerja yang menanyakan respons mana yang paling dan paling tidak efektif. Tiga jenis pertama adalah tembok yang ditabrak kebanyakan kandidat, dan bisa dilatih; Screening Gym melatih persis ketiganya."
+       {
+        "h": {
+         "en": "You are compared, not marked",
+         "id": "Kamu dibandingkan, bukan dinilai mutlak"
+        },
+        "points": [
+         {
+          "en": "Scores are read against other test-takers.",
+          "id": "Skor dibaca terhadap peserta tes lain."
+         },
+         {
+          "en": "The aim is comfortably above the cut-off on every sub-test — one weak sub-test can eliminate you.",
+          "id": "Tujuannya cukup jauh di atas ambang di setiap sub-tes — satu sub-tes lemah bisa menggugurkanmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Familiarity is most of the gain",
+         "id": "Keakraban adalah sebagian besar keuntungannya"
+        },
+        "points": [
+         {
+          "en": "Many “failures” come from nerves, misread instructions and unfamiliar formats.",
+          "id": "Banyak “kegagalan” berasal dari gugup, salah baca instruksi, dan format yang asing."
+         },
+         {
+          "en": "All of those are fixable with practice.",
+          "id": "Semua itu bisa diperbaiki dengan latihan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Know the scoring rule before you guess",
+         "id": "Ketahui aturan penilaian sebelum menebak"
+        },
+        "points": [
+         {
+          "en": "It decides whether blanks or guesses cost you.",
+          "id": "Aturan itu menentukan apakah yang kosong atau tebakan yang merugikanmu."
+         },
+         {
+          "en": "Lesson 7.5 turns it into a rule per test type.",
+          "id": "Pelajaran 7.5 mengubahnya menjadi aturan per jenis tes."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Practice is a system",
+         "id": "Latihan adalah sistem"
+        },
+        "points": [
+         {
+          "en": "Timed sets, an error log and a weekly plan beat marathon sessions.",
+          "id": "Set berbatas waktu, catatan kesalahan, dan rencana mingguan mengalahkan sesi maraton."
+         },
+         {
+          "en": "Three weeks in the Screening Gym is the module’s practical spine.",
+          "id": "Tiga minggu di Screening Gym adalah tulang punggung praktis modul ini."
+         }
+        ]
        }
-      },
+      ]
+     },
+     "sections": [
       {
        "icon": "eye",
        "h": {
-        "en": "How scores are used",
-        "id": "Bagaimana skor dipakai"
+        "en": "Ability versus personality",
+        "id": "Kemampuan versus kepribadian"
        },
        "body": {
-        "en": "Your raw score is converted to a percentile against a norm group — other graduates, or past applicants to this employer. Most companies apply a <b>cutoff</b> (say, 40th–60th percentile) as a pass/fail gate; some rank the pool and take the top slice. Two consequences. First, you do not need brilliance — you need to clear a bar most prepared candidates clear. Second, speed–accuracy trade-offs matter: many tests penalise nothing for skipping but everything for wrong streaks under guessing; the drill sets teach you your own optimal pace. Personality profiles are read differently — as fit flags and interview probes, not pass/fail.",
-        "id": "Skor mentahmu diubah menjadi persentil terhadap sebuah kelompok norma — lulusan lain, atau para pelamar sebelumnya di perusahaan itu. Kebanyakan perusahaan menerapkan <b>ambang batas</b> (misalnya persentil 40–60) sebagai gerbang lulus/gagal; sebagian lagi memeringkat seluruh pelamar dan mengambil lapisan teratas. Dua konsekuensinya. Pertama, kamu tidak perlu jenius — kamu hanya perlu melewati batas yang dilewati sebagian besar kandidat yang siap. Kedua, pertukaran antara kecepatan dan ketepatan itu penting: banyak tes tidak menghukum soal yang dilewati, tapi menghukum deretan jawaban salah akibat menebak; set latihan mengajarimu tempo optimalmu sendiri. Profil kepribadian dibaca dengan cara berbeda — sebagai penanda kecocokan dan bahan pertanyaan wawancara, bukan lulus/gagal."
+        "en": "All three reference books draw the same line <i>(Shavick, How to Pass Psychometric Tests, ch. 1; Carter, IQ and Psychometric Test Workbook)</i>. <b>Ability</b> — or aptitude — tests measure <i>maximum</i> performance under time pressure: they have right answers, a clock, and usually more items than most people can finish. <b>Personality questionnaires</b> measure <i>typical</i> behaviour and preferences: there are no right answers and usually no strict time limit — but there <i>are</i> checks for inconsistency, and a profile that contradicts itself can be flagged as invalid. The two need different preparation. Ability tests reward named procedures and timed practice (Lessons 7.2–7.3, 7.5). Personality and values tests reward a settled, consistent picture of yourself at work (Lesson 7.4).",
+        "id": "Ketiga buku rujukan menarik garis yang sama <i>(Shavick, How to Pass Psychometric Tests, bab 1; Carter, IQ and Psychometric Test Workbook)</i>. Tes <b>kemampuan</b> — atau bakat — mengukur kinerja <i>maksimum</i> di bawah tekanan waktu: punya jawaban benar, jam, dan biasanya lebih banyak soal daripada yang bisa diselesaikan kebanyakan orang. <b>Kuesioner kepribadian</b> mengukur perilaku dan preferensi <i>tipikal</i>: tidak ada jawaban benar dan biasanya tidak ada batas waktu ketat — tetapi <i>ada</i> pemeriksaan ketidakkonsistenan, dan profil yang bertentangan dengan dirinya sendiri bisa ditandai tidak valid. Keduanya butuh persiapan berbeda. Tes kemampuan menghargai prosedur bernama dan latihan berbatas waktu (Pelajaran 7.2–7.3, 7.5). Tes kepribadian dan nilai menghargai gambaran dirimu di tempat kerja yang mantap dan konsisten (Pelajaran 7.4)."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The families",
+        "id": "Keluarga tes"
+       },
+       "body": {
+        "en": "Ten families cover almost everything a graduate programme uses <i>(Shavick, ch. 4–12; Carter; Barrett, Aptitude Test Workbook, ch. 1–5)</i>. Situational judgement tests are not covered in the books; Lesson 7.4 handles them.",
+        "id": "Sepuluh keluarga mencakup hampir semua yang dipakai program lulusan <i>(Shavick, bab 4–12; Carter; Barrett, Aptitude Test Workbook, bab 1–5)</i>. Tes penilaian situasional tidak dibahas di buku-buku itu; Pelajaran 7.4 menanganinya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Family",
+          "id": "Keluarga"
+         },
+         {
+          "en": "Measures",
+          "id": "Mengukur"
+         },
+         {
+          "en": "Typical format",
+          "id": "Format umum"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Numerical reasoning",
+           "id": "Penalaran numerik"
+          },
+          {
+           "en": "Extracting and combining figures from tables and charts",
+           "id": "Mengambil dan menggabungkan angka dari tabel dan grafik"
+          },
+          {
+           "en": "Data table or chart + multiple choice",
+           "id": "Tabel data atau grafik + pilihan ganda"
+          }
+         ],
+         [
+          {
+           "en": "Numerical computation / estimation",
+           "id": "Komputasi / estimasi numerik"
+          },
+          {
+           "en": "Arithmetic speed and accuracy",
+           "id": "Kecepatan dan ketepatan aritmetika"
+          },
+          {
+           "en": "Short calculations, often no calculator",
+           "id": "Perhitungan singkat, sering tanpa kalkulator"
+          }
+         ],
+         [
+          {
+           "en": "Number series",
+           "id": "Deret angka"
+          },
+          {
+           "en": "Recognising numerical patterns",
+           "id": "Mengenali pola numerik"
+          },
+          {
+           "en": "Next number in a sequence",
+           "id": "Angka berikutnya dalam deret"
+          }
+         ],
+         [
+          {
+           "en": "Verbal reasoning",
+           "id": "Penalaran verbal"
+          },
+          {
+           "en": "Logical reading",
+           "id": "Membaca secara logis"
+          },
+          {
+           "en": "Passage + True / False / Cannot Say",
+           "id": "Bacaan + Benar / Salah / Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Verbal usage",
+           "id": "Penggunaan bahasa"
+          },
+          {
+           "en": "Vocabulary, spelling, analogies",
+           "id": "Kosakata, ejaan, analogi"
+          },
+          {
+           "en": "Synonyms, antonyms, “A is to B as…”",
+           "id": "Sinonim, antonim, “A terhadap B seperti…”"
+          }
+         ],
+         [
+          {
+           "en": "Abstract / diagrammatic",
+           "id": "Abstrak / diagramatik"
+          },
+          {
+           "en": "Pattern-finding with shapes",
+           "id": "Menemukan pola dengan bentuk"
+          },
+          {
+           "en": "Next figure, odd one out, 3×3 matrix",
+           "id": "Gambar berikutnya, yang berbeda, matriks 3×3"
+          }
+         ],
+         [
+          {
+           "en": "Spatial / mechanical",
+           "id": "Spasial / mekanik"
+          },
+          {
+           "en": "Mental rotation; physical principles",
+           "id": "Rotasi mental; prinsip fisika"
+          },
+          {
+           "en": "Rotated shapes, cube nets, levers",
+           "id": "Bentuk terputar, jaring kubus, tuas"
+          }
+         ],
+         [
+          {
+           "en": "Clerical / accuracy",
+           "id": "Klerikal / ketelitian"
+          },
+          {
+           "en": "Speed and sustained concentration",
+           "id": "Kecepatan dan konsentrasi berkelanjutan"
+          },
+          {
+           "en": "Checking strings, coded instructions",
+           "id": "Memeriksa deretan karakter, instruksi berkode"
+          }
+         ],
+         [
+          {
+           "en": "Personality",
+           "id": "Kepribadian"
+          },
+          {
+           "en": "Work style and preferences",
+           "id": "Gaya kerja dan preferensi"
+          },
+          {
+           "en": "Rating scales; “most / least like me” blocks",
+           "id": "Skala penilaian; blok “paling / paling tidak seperti saya”"
+          }
+         ],
+         [
+          {
+           "en": "Situational judgement (SJT)",
+           "id": "Penilaian situasional (SJT)"
+          },
+          {
+           "en": "Judgement in realistic work dilemmas",
+           "id": "Penilaian dalam dilema kerja realistis"
+          },
+          {
+           "en": "Scenario + rate or rank the responses",
+           "id": "Skenario + nilai atau urutkan respons"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The Screening Gym drills the three trainable families most graduate programmes use: numerical, verbal and logical/abstract.",
+         "id": "Screening Gym melatih tiga keluarga yang bisa dilatih dan paling dipakai program lulusan: numerik, verbal, dan logika/abstrak."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "center 45%",
+       "h": {
+        "en": "The Indonesian layer",
+        "id": "Lapisan Indonesia"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-verify\">Verify every cycle</span> Formats and names change from year to year; treat this section as a map to check against the programme’s own announcement, not as a fixed fact. Indonesian graduates commonly meet four kinds of battery:",
+        "id": "<span class=\"ev ev-verify\">Verifikasi tiap siklus</span> Format dan nama berubah dari tahun ke tahun; perlakukan bagian ini sebagai peta untuk dicocokkan dengan pengumuman program itu sendiri, bukan sebagai fakta tetap. Lulusan Indonesia umumnya menemui empat jenis rangkaian tes:"
+       },
+       "bullets": [
+        {
+         "en": "<b>BUMN joint recruitment</b> — a basic ability test (verbal, numerical, figural/logical), a core-values test based on the BUMN values framework (AKHLAK), an English test, and learning-agility or personality components.",
+         "id": "<b>Rekrutmen bersama BUMN</b> — tes kemampuan dasar (verbal, numerik, figural/logika), tes nilai inti berdasarkan kerangka nilai BUMN (AKHLAK), tes bahasa Inggris, dan komponen learning agility atau kepribadian."
+        },
+        {
+         "en": "<b>CPNS (SKD)</b> — national-insight knowledge (TWK), general intelligence (TIU: verbal, numerical, figural), and a personal-characteristics test (TKP) in which every option carries a score, so there is a “best” and a “least good” answer rather than right and wrong.",
+         "id": "<b>CPNS (SKD)</b> — wawasan kebangsaan (TWK), intelegensia umum (TIU: verbal, numerik, figural), dan tes karakteristik pribadi (TKP) yang setiap opsinya berskor, sehingga ada jawaban “terbaik” dan “paling kurang baik”, bukan benar dan salah."
+        },
+        {
+         "en": "<b>Classic <i>psikotes</i></b> used by HR consultancies — Kraepelin/Pauli (columns of single-digit additions across many timed intervals, measuring speed, accuracy, consistency and endurance); intelligence batteries (for example IST, CFIT); forced-choice personality inventories (for example PAPI Kostick); DISC; and drawing tasks.",
+         "id": "<b><i>Psikotes</i> klasik</b> yang dipakai konsultan HR — Kraepelin/Pauli (kolom penjumlahan satu digit dalam banyak interval berbatas waktu, mengukur kecepatan, ketepatan, konsistensi, dan daya tahan); baterai intelegensi (misalnya IST, CFIT); inventori kepribadian pilihan-paksa (misalnya PAPI Kostick); DISC; dan tugas menggambar."
+        },
+        {
+         "en": "<b>Multinational and bank graduate programmes</b> — online batteries from international providers: short, timed numerical/verbal/logical sub-tests, sometimes <b>adaptive</b> (difficulty changes with your answers), sometimes <b>gamified</b> mini-games, often followed by a supervised <b>verification re-test</b>.",
+         "id": "<b>Program lulusan multinasional dan bank</b> — baterai daring dari penyedia internasional: sub-tes numerik/verbal/logika singkat berbatas waktu, kadang <b>adaptif</b> (kesulitan berubah mengikuti jawabanmu), kadang <b>gamifikasi</b> berupa permainan mini, sering diikuti <b>tes ulang verifikasi</b> yang diawasi."
+        }
+       ],
+       "after": [
+        {
+         "en": "Nadia’s Top 5 spans three of the four: Bank Sinar Nusantara’s ODP uses an international online battery with a verification re-test; PT Rel Nusantara sits inside the BUMN joint recruitment; a consultancy runs Rumah Rempah’s classic psikotes. The same three weeks of practice serve all three, but the checklist in section 5 is filled in separately for each.",
+         "id": "Lima Teratas Nadia mencakup tiga dari empat: ODP Bank Sinar Nusantara memakai baterai daring internasional dengan tes ulang verifikasi; PT Rel Nusantara berada dalam rekrutmen bersama BUMN; sebuah konsultan menjalankan psikotes klasik Rumah Rempah. Tiga minggu latihan yang sama melayani ketiganya, tetapi daftar periksa di bagian 5 diisi terpisah untuk masing-masing."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "How scores are used",
+        "id": "Cara skor dipakai"
+       },
+       "body": {
+        "en": "Raw scores are compared with a <b>norm group</b> — earlier test-takers like you <i>(Carter; Barrett, ch. 6)</i>. The same raw score can be the 80th percentile against one group and the 40th against another, which is why a score without its norm group means nothing. Tests are often built so that the typical candidate gets around half right, and many are designed not to be finished <i>(Carter; Shavick, ch. 3)</i>: running out of time is the design, not a personal failure. Pass marks vary. In high-volume Indonesian funnels cut-offs are usually <b>relative</b> — a top share of each cohort proceeds — so the effective bar rises with applicant numbers <span class=\"ev ev-verify\">Verify per programme</span>. <b>Practical rule:</b> aim to be comfortably above average on <i>every</i> sub-test, because one weak sub-test can eliminate you regardless of the others.",
+        "id": "Skor mentah dibandingkan dengan <b>kelompok norma</b> — peserta tes sebelumnya yang seperti kamu <i>(Carter; Barrett, bab 6)</i>. Skor mentah yang sama bisa berada di persentil ke-80 terhadap satu kelompok dan ke-40 terhadap kelompok lain, itulah mengapa skor tanpa kelompok normanya tidak berarti apa-apa. Tes sering dirancang agar kandidat tipikal benar sekitar separuh, dan banyak yang dirancang untuk tidak selesai <i>(Carter; Shavick, bab 3)</i>: kehabisan waktu adalah rancangannya, bukan kegagalan pribadi. Ambang lolos bervariasi. Dalam corong Indonesia bervolume tinggi ambang biasanya <b>relatif</b> — sebagian teratas dari tiap kohor melaju — sehingga batas efektif naik seiring jumlah pelamar <span class=\"ev ev-verify\">Verifikasi per program</span>. <b>Aturan praktis:</b> targetkan cukup jauh di atas rata-rata di <i>setiap</i> sub-tes, karena satu sub-tes lemah bisa menggugurkanmu terlepas dari yang lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Candidate",
+          "id": "Kandidat"
+         },
+         {
+          "en": "Numerical",
+          "id": "Numerik"
+         },
+         {
+          "en": "Verbal",
+          "id": "Verbal"
+         },
+         {
+          "en": "Abstract",
+          "id": "Abstrak"
+         },
+         {
+          "en": "Outcome under a per-sub-test cut-off at the 40th percentile",
+          "id": "Hasil dengan ambang per sub-tes di persentil ke-40"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "A",
+           "id": "A"
+          },
+          {
+           "en": "92nd",
+           "id": "ke-92"
+          },
+          {
+           "en": "88th",
+           "id": "ke-88"
+          },
+          {
+           "en": "35th",
+           "id": "ke-35"
+          },
+          {
+           "en": "Eliminated — one sub-test below the bar",
+           "id": "Gugur — satu sub-tes di bawah batas"
+          }
+         ],
+         [
+          {
+           "en": "B",
+           "id": "B"
+          },
+          {
+           "en": "58th",
+           "id": "ke-58"
+          },
+          {
+           "en": "62nd",
+           "id": "ke-62"
+          },
+          {
+           "en": "55th",
+           "id": "ke-55"
+          },
+          {
+           "en": "Proceeds — solid everywhere",
+           "id": "Melaju — mantap di semua"
+          }
+         ],
+         [
+          {
+           "en": "C",
+           "id": "C"
+          },
+          {
+           "en": "45th",
+           "id": "ke-45"
+          },
+          {
+           "en": "41st",
+           "id": "ke-41"
+          },
+          {
+           "en": "44th",
+           "id": "ke-44"
+          },
+          {
+           "en": "Proceeds this cycle; at risk if applicant numbers rise",
+           "id": "Melaju siklus ini; berisiko jika jumlah pelamar naik"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Illustrative only. Candidate A has the highest average and does not proceed.",
+         "id": "Ilustrasi saja. Kandidat A punya rata-rata tertinggi dan tidak melaju."
+        }
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "The practice effect, honestly stated",
-        "id": "Efek latihan, dinyatakan apa adanya"
+        "en": "Know the game — ask before you sit",
+        "id": "Kenali permainannya — tanya sebelum duduk"
        },
        "body": {
-        "en": "Research on test preparation consistently shows meaningful score gains from familiarity and practice — largest for candidates new to the format. The mechanism is mundane: knowing the question types, the interface, and your pacing frees working memory for the actual reasoning. That is why this module sequences <b>learn the theory (3.3) → drill untimed → drill timed (3.4) → review every miss</b>. The review step carries most of the gain: each wrong answer in the Gym comes with a worked explanation, and an error understood is an error retired.",
-        "id": "Riset tentang persiapan tes secara konsisten menunjukkan kenaikan skor yang berarti berkat keakraban dan latihan — paling besar pada kandidat yang belum pernah mengenal formatnya. Mekanismenya sederhana: mengenal jenis soal, tampilan tesnya, dan tempo mengerjakan membebaskan memori kerja untuk penalaran yang sesungguhnya. Itulah mengapa modul ini diurutkan begini: <b>pelajari teorinya (3.3) → berlatih tanpa waktu → berlatih dengan waktu (3.4) → tinjau setiap kesalahan</b>. Langkah tinjauan menyumbang sebagian besar kenaikan: setiap jawaban salah di Gym disertai pembahasan lengkap, dan kesalahan yang sudah dipahami adalah kesalahan yang tidak akan terulang."
+        "en": "Shavick and Barrett both recommend finding out what you will face <i>(Shavick, ch. 3; Barrett, Introduction)</i>. In mass online funnels you rarely learn the pass mark, but you can usually find six things from the invitation email, the provider’s practice page, the programme’s FAQ, or an alumnus who sat it last cycle:",
+        "id": "Shavick dan Barrett sama-sama menyarankan mencari tahu apa yang akan kamu hadapi <i>(Shavick, bab 3; Barrett, Pendahuluan)</i>. Dalam corong daring massal kamu jarang tahu ambang lolosnya, tetapi biasanya bisa menemukan enam hal dari email undangan, laman latihan penyedia, FAQ program, atau alumnus yang mengerjakannya siklus lalu:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Provider or format</b> — which battery, or which classic psikotes.",
+         "id": "<b>Penyedia atau format</b> — baterai yang mana, atau psikotes klasik yang mana."
+        },
+        {
+         "en": "<b>Sub-tests</b> — which families, in which order.",
+         "id": "<b>Sub-tes</b> — keluarga mana, dalam urutan apa."
+        },
+        {
+         "en": "<b>Timing model</b> — one section clock, or a per-question timer.",
+         "id": "<b>Model waktu</b> — satu jam per bagian, atau pengatur waktu per soal."
+        },
+        {
+         "en": "<b>Calculator</b> — allowed, on-screen, or none.",
+         "id": "<b>Kalkulator</b> — boleh, di layar, atau tidak ada."
+        },
+        {
+         "en": "<b>Navigation</b> — can you go back and change an answer?",
+         "id": "<b>Navigasi</b> — bisakah kembali dan mengubah jawaban?"
+        },
+        {
+         "en": "<b>Scoring rule</b> — are wrong answers penalised? (This decides your guessing rule — Lesson 7.5.)",
+         "id": "<b>Aturan penilaian</b> — apakah jawaban salah dikurangi? (Ini menentukan aturan menebakmu — Pelajaran 7.5.)"
+        }
+       ],
+       "after": [
+        {
+         "en": "Record the six answers in the checklist for each target programme. Unknown is an acceptable answer; it changes what you do (Lesson 7.5 gives a rule for “unknown”), and it tells you which alumnus to ask.",
+         "id": "Catat keenam jawaban di daftar periksa untuk setiap program sasaran. “Tidak tahu” adalah jawaban yang bisa diterima; itu mengubah apa yang kamu lakukan (Pelajaran 7.5 memberi aturan untuk “tidak tahu”), dan memberitahumu alumnus mana yang perlu ditanya."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Practice works — and why",
+        "id": "Latihan berhasil — dan mengapa"
+       },
+       "body": {
+        "en": "All three books agree that familiarisation and practice raise scores, especially for first-time test-takers <i>(Shavick, Introduction and ch. 14; Carter; Barrett)</i>. People often fail for the wrong reasons — nerves, not understanding the instructions, never having seen the format — and practice removes those reasons <i>(Barrett, Introduction)</i>. The gain is not that practice makes you cleverer; it is that it stops you losing marks you could already earn. <span class=\"ev ev-contested\">Outdated claim</span> <b>Do not</b> accept the older claim, found in one of the books, that intelligence is fixed and stops developing in early adulthood: it is outdated, and it undermines the effort that actually moves scores. Test performance responds to strategy and practice, and this module is built on that.",
+        "id": "Ketiga buku sepakat bahwa pengenalan dan latihan menaikkan skor, terutama bagi peserta tes pertama kali <i>(Shavick, Pendahuluan dan bab 14; Carter; Barrett)</i>. Orang sering gagal karena alasan yang salah — gugup, tidak memahami instruksi, belum pernah melihat formatnya — dan latihan menghilangkan alasan-alasan itu <i>(Barrett, Pendahuluan)</i>. Keuntungannya bukan bahwa latihan membuatmu lebih pintar; latihan menghentikanmu kehilangan nilai yang sebenarnya sudah bisa kamu raih. <span class=\"ev ev-contested\">Klaim usang</span> <b>Jangan</b> terima klaim lama, yang ada di salah satu buku, bahwa intelegensi itu tetap dan berhenti berkembang di awal dewasa: klaim itu usang, dan meruntuhkan usaha yang sebenarnya menggerakkan skor. Kinerja tes merespons strategi dan latihan, dan modul ini dibangun di atas itu."
        }
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The test landscape by what is measured and how it is scored.",
-       "id": "Peraga 1: Lanskap tes menurut apa yang diukur dan bagaimana dinilai."
+       "en": "Exhibit 1: Where the marks go",
+       "id": "Peraga 1: Ke mana nilainya pergi"
       },
       "title": {
-       "en": "Test families",
-       "id": "Keluarga tes"
+       "en": "Four reasons a capable candidate scores below the bar — and what fixes each",
+       "id": "Empat alasan kandidat yang mampu mendapat skor di bawah batas — dan apa yang memperbaiki masing-masing"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Numerical",
-         "id": "Numerik"
+         "en": "Unfamiliar format",
+         "id": "Format asing"
         },
         "sub": {
-         "en": "Business arithmetic under time · cutoff scored",
-         "id": "Aritmetika bisnis di bawah tekanan waktu · dinilai dengan ambang batas"
+         "en": "First time seeing a 3×3 matrix or a True/False/Cannot Say passage. Fix: the Gym’s untimed sets, week 1.",
+         "id": "Pertama kali melihat matriks 3×3 atau bacaan Benar/Salah/Tidak Bisa Disimpulkan. Perbaikan: set tanpa batas waktu di Gym, minggu 1."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Verbal",
-         "id": "Verbal"
+         "en": "Misread instructions",
+         "id": "Salah baca instruksi"
         },
         "sub": {
-         "en": "True / false / cannot say precision · cutoff scored",
-         "id": "Ketelitian benar / salah / tidak bisa disimpulkan · dinilai dengan ambang batas"
+         "en": "“Cannot Say” treated as “False”; a decimal point read as a thousands separator. Fix: the procedures in 7.2–7.3.",
+         "id": "“Tidak Bisa Disimpulkan” diperlakukan sebagai “Salah”; titik desimal dibaca sebagai pemisah ribuan. Perbaikan: prosedur di 7.2–7.3."
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Logical / abstract",
-         "id": "Logika / abstrak"
+         "en": "Time pressure",
+         "id": "Tekanan waktu"
         },
         "sub": {
-         "en": "Shape patterns, no language · cutoff scored",
-         "id": "Pola bentuk, tanpa bahasa · dinilai dengan ambang batas"
+         "en": "Three minutes on one item; six blank at the end. Fix: pacing and the guessing rule, 7.5.",
+         "id": "Tiga menit untuk satu soal; enam kosong di akhir. Perbaikan: tempo dan aturan menebak, 7.5."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Personality & SJT",
-         "id": "Kepribadian & SJT"
+         "en": "Nerves",
+         "id": "Gugup"
         },
         "sub": {
-         "en": "Work style and judgment · profiled, not passed",
-         "id": "Gaya kerja dan penilaian situasi · diprofilkan, bukan diluluskan"
+         "en": "A racing first minute that costs the easy items. Fix: familiarity, breathing, the three reframes, 7.5.",
+         "id": "Menit pertama yang terburu-buru dan mengorbankan soal mudah. Perbaikan: keakraban, pernapasan, tiga pembingkaian ulang, 7.5."
         }
        }
       ],
+      "note": {
+       "en": "None of the four is “not clever enough”. All four respond to three weeks of practice.",
+       "id": "Tidak satu pun dari empat itu adalah “kurang pintar”. Keempatnya merespons tiga minggu latihan."
+      },
       "longdesc": {
-       "en": "A two-by-two of test families: numerical reasoning (business arithmetic under time), verbal reasoning (statement judgment against a passage), logical or abstract reasoning (shape patterns without language) — all typically scored against a percentile cutoff — and personality plus situational judgment tests, which produce profiles and interview probes rather than pass–fail scores.",
-       "id": "Matriks dua kali dua keluarga tes: penalaran numerik (aritmetika bisnis di bawah tekanan waktu), penalaran verbal (menilai pernyataan terhadap sebuah bacaan), penalaran logika atau abstrak (pola bentuk tanpa bahasa) — ketiganya biasanya dinilai terhadap ambang persentil — serta tes kepribadian dan penilaian situasional, yang menghasilkan profil dan bahan pertanyaan wawancara, bukan skor lulus–gagal."
+       "en": "A four-stage flow of the reasons capable candidates score below the bar: unfamiliar format, fixed by untimed practice sets; misread instructions, fixed by the named procedures in Lessons 7.2 and 7.3; time pressure, fixed by pacing and the guessing rule in Lesson 7.5; and nerves, fixed by familiarity, breathing and reframing in Lesson 7.5.",
+       "id": "Alur empat tahap alasan kandidat yang mampu mendapat skor di bawah batas: format asing, diperbaiki dengan set latihan tanpa batas waktu; salah baca instruksi, diperbaiki dengan prosedur bernama di Pelajaran 7.2 dan 7.3; tekanan waktu, diperbaiki dengan tempo dan aturan menebak di Pelajaran 7.5; dan gugup, diperbaiki dengan keakraban, pernapasan, dan pembingkaian ulang di Pelajaran 7.5."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways to read an invitation",
+        "id": "Dua cara membaca undangan"
+       },
+       "q": {
+        "en": "Nadia receives the ODP invitation: “Online assessment · 3 sections · 42 minutes · complete within 72 hours.”",
+        "id": "Nadia menerima undangan ODP: “Asesmen daring · 3 bagian · 42 menit · selesaikan dalam 72 jam.”"
+       },
+       "weak": {
+        "en": "Opens the link that evening “to get it over with”, on her phone, on the family Wi-Fi. Discovers in section 2 that the timer is per question and there is no going back. Guesses the last five verbal items in nine seconds.",
+        "id": "Membuka tautannya malam itu juga “biar cepat selesai”, di ponsel, dengan Wi-Fi keluarga. Baru tahu di bagian 2 bahwa pengatur waktunya per soal dan tidak bisa kembali. Menebak lima soal verbal terakhir dalam sembilan detik."
+       },
+       "strong": {
+        "en": "Reads the provider’s practice page and messages Kak Ayu (ODP 2022): three sub-tests of 14 items, per-question timer, no back-navigation, on-screen calculator, no penalty for wrong answers. Sits it on day 2, on a laptop, after two Gym sets in the same format.",
+        "id": "Membaca laman latihan penyedia dan mengirim pesan ke Kak Ayu (ODP 2022): tiga sub-tes 14 soal, pengatur waktu per soal, tanpa navigasi mundur, kalkulator di layar, tanpa pengurangan untuk jawaban salah. Mengerjakannya di hari ke-2, di laptop, setelah dua set Gym dengan format yang sama."
+       },
+       "why": {
+        "en": "Same candidate, same ability. The six “know the game” answers change the pacing rule, the guessing rule and the device — and remove three of the four wrong reasons for failing before the test starts.",
+        "id": "Kandidat yang sama, kemampuan yang sama. Enam jawaban “kenali permainannya” mengubah aturan tempo, aturan menebak, dan perangkat — dan menghapus tiga dari empat alasan salah untuk gagal sebelum tes dimulai."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the highest average in the cohort",
+       "id": "Sorotan: rata-rata tertinggi di kohor"
+      },
+      "body": [
+       {
+        "en": "A KilatPay alumna tells Nadia about her own first attempt at a bank programme: numerical in the 90s, verbal in the 80s, abstract in the 30s — she had never seen a diagrammatic item and skipped half of them. Her average was the best in her friend group. She was the only one eliminated.",
+        "id": "Seorang alumna KilatPay bercerita kepada Nadia tentang percobaan pertamanya di program bank: numerik di 90-an, verbal di 80-an, abstrak di 30-an — ia belum pernah melihat soal diagramatik dan melewati separuhnya. Rata-ratanya terbaik di kelompok temannya. Ia satu-satunya yang gugur."
+       },
+       {
+        "en": "Sub-test cut-offs do not average. The lesson she took into her second attempt was not “get better at everything”; it was two weeks of abstract sets in the scan order from Lesson 7.3, until the family she had never seen became the family she finished fastest.",
+        "id": "Ambang per sub-tes tidak dirata-ratakan. Pelajaran yang ia bawa ke percobaan kedua bukan “jadi lebih baik di semuanya”; melainkan dua minggu set abstrak dengan urutan pindai dari Pelajaran 7.3, sampai keluarga yang belum pernah ia lihat menjadi keluarga yang paling cepat ia selesaikan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Sort the families",
+        "id": "Latihan 1 · Pilah keluarganya"
+       },
+       "body": {
+        "en": "Six item descriptions — say which family each belongs to and whether it is ability or personality: (a) “Which figure completes the 3×3 grid?” (b) “Rate: I prefer to plan my week in advance — 1 to 5.” (c) “From the table, by what percentage did exports exceed imports in 2025?” (d) “Choose the response you would most and least likely take when a client complains.” (e) “Statement: All first-phase stations are in metropolitan areas — True, False, Cannot Say.” (f) “Add each pair of adjacent digits in the column; move to the next column when told.”",
+        "id": "Enam deskripsi soal — sebutkan keluarga masing-masing dan apakah itu kemampuan atau kepribadian: (a) “Gambar mana yang melengkapi kisi 3×3?” (b) “Nilai: Saya lebih suka merencanakan minggu saya di muka — 1 sampai 5.” (c) “Dari tabel, berapa persen ekspor melampaui impor pada 2025?” (d) “Pilih respons yang paling dan paling tidak mungkin kamu ambil ketika klien mengeluh.” (e) “Pernyataan: Semua stasiun tahap pertama berada di wilayah metropolitan — Benar, Salah, Tidak Bisa Disimpulkan.” (f) “Jumlahkan tiap pasangan digit yang berdekatan di kolom; pindah ke kolom berikutnya saat diberi aba-aba.”"
+       },
+       "debrief": {
+        "en": "(a) abstract/diagrammatic — ability. (b) personality rating scale — not ability; consistency-checked. (c) numerical reasoning — ability. (d) situational judgement — keyed for best/least, answered as the ideal employee at your level. (e) verbal reasoning — ability. (f) Kraepelin/Pauli-style clerical speed test — ability, scored on accuracy and consistency as much as speed.",
+        "id": "(a) abstrak/diagramatik — kemampuan. (b) skala penilaian kepribadian — bukan kemampuan; diperiksa konsistensinya. (c) penalaran numerik — kemampuan. (d) penilaian situasional — berkunci untuk terbaik/paling kurang, dijawab sebagai karyawan ideal di levelmu. (e) penalaran verbal — kemampuan. (f) tes kecepatan klerikal gaya Kraepelin/Pauli — kemampuan, dinilai dari ketepatan dan konsistensi sebanyak kecepatan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Read the norm",
+        "id": "Latihan 2 · Baca normanya"
+       },
+       "body": {
+        "en": "Two friends compare results. Dimas: “I got 18 out of 24 on numerical — 75%!” Nadia: “I got 14 out of 24, but the report says 71st percentile.” Dimas’s report says 52nd percentile. Who did better against their norm group, and why can the same raw score land in different percentiles?",
+        "id": "Dua teman membandingkan hasil. Dimas: “Aku dapat 18 dari 24 di numerik — 75%!” Nadia: “Aku dapat 14 dari 24, tapi laporannya bilang persentil ke-71.” Laporan Dimas menyebut persentil ke-52. Siapa yang lebih baik terhadap kelompok normanya, dan mengapa skor mentah yang sama bisa jatuh di persentil berbeda?"
+       },
+       "debrief": {
+        "en": "Nadia. A raw score is only meaningful against the group it is compared with: Dimas sat a battery normed on engineering graduates who mostly scored high on numerical; Nadia’s was normed on a general graduate group. Neither number predicts an employer’s cut-off — which is why the Gym reports scores against its own bank and says so.",
+        "id": "Nadia. Skor mentah hanya bermakna terhadap kelompok pembandingnya: Dimas mengerjakan baterai yang dinormakan pada lulusan teknik yang sebagian besar berskor tinggi di numerik; milik Nadia dinormakan pada kelompok lulusan umum. Tidak satu pun angka itu memprediksi ambang perusahaan — itulah mengapa Gym melaporkan skor terhadap bank soalnya sendiri dan mengatakannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Know the game for one target",
+        "id": "Latihan 3 · Kenali permainannya untuk satu sasaran"
+       },
+       "body": {
+        "en": "Pick one Top 5 employer with a test stage. Fill the six-line checklist — provider/format · sub-tests · timing model · calculator · navigation · scoring rule — from the invitation, the provider’s practice page, the FAQ, or an alumnus. Mark each line found, unknown, or asked.",
+        "id": "Pilih satu perusahaan 5 Teratas dengan tahap tes. Isi daftar periksa enam baris — penyedia/format · sub-tes · model waktu · kalkulator · navigasi · aturan penilaian — dari undangan, laman latihan penyedia, FAQ, atau alumnus. Tandai tiap baris ditemukan, tidak tahu, atau ditanyakan."
+       },
+       "debrief": {
+        "en": "Most learners find three of six from public sources and need an alumnus for the rest; that is a legitimate Resources question in an informational conversation (Lesson 2.4). Two lines matter most for what you do next: the timing model and the scoring rule. If both are unknown on test day, Lesson 7.5’s “unknown” rule applies.",
+        "id": "Kebanyakan pembelajar menemukan tiga dari enam dari sumber publik dan butuh alumnus untuk sisanya; itu pertanyaan Resources yang sah dalam percakapan informasi (Pelajaran 2.4). Dua baris paling penting untuk langkahmu berikutnya: model waktu dan aturan penilaian. Jika keduanya tidak diketahui pada hari tes, aturan “tidak tahu” dari Pelajaran 7.5 berlaku."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Preparing for “the psikotes” as one thing",
+         "id": "Mempersiapkan “psikotes” sebagai satu hal"
+        },
+        "fix": {
+         "en": "Name the battery and its sub-tests; prepare each family.",
+         "id": "Sebutkan baterainya dan sub-tesnya; siapkan tiap keluarga."
+        }
+       },
+       {
+        "h": {
+         "en": "Judging yourself by a raw score",
+         "id": "Menilai diri dari skor mentah"
+        },
+        "fix": {
+         "en": "Read it against the norm group; be solid on every sub-test.",
+         "id": "Baca terhadap kelompok norma; mantap di setiap sub-tes."
+        }
+       },
+       {
+        "h": {
+         "en": "Sitting the test the night the link arrives",
+         "id": "Mengerjakan tes malam saat tautan tiba"
+        },
+        "fix": {
+         "en": "Find the six answers first; sit it inside the window, prepared.",
+         "id": "Cari enam jawabannya dulu; kerjakan di dalam jendela, dengan persiapan."
+        }
+       },
+       {
+        "h": {
+         "en": "Believing scores are fixed",
+         "id": "Percaya skor itu tetap"
+        },
+        "fix": {
+         "en": "Familiarity, procedure and practice move them.",
+         "id": "Keakraban, prosedur, dan latihan menggerakkannya."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "percentile",
-        "id": "persentil"
+        "en": "Ability (aptitude) test",
+        "id": "Tes kemampuan (bakat)"
        },
        "def": {
-        "en": "Your standing against the norm group: 70th percentile means you scored above 70% of comparable test-takers.",
-        "id": "Posisimu relatif terhadap kelompok norma: persentil 70 berarti skormu lebih tinggi daripada 70% peserta yang sebanding."
+        "en": "Measures maximum performance under time pressure; has right answers.",
+        "id": "Mengukur kinerja maksimum di bawah tekanan waktu; punya jawaban benar."
        }
       },
       {
        "term": {
-        "en": "norm group",
-        "id": "kelompok norma"
+        "en": "Personality questionnaire",
+        "id": "Kuesioner kepribadian"
        },
        "def": {
-        "en": "The comparison population — e.g. graduate applicants — whose results define what counts as a high or low score.",
-        "id": "Populasi pembanding — misalnya para pelamar lulusan baru — yang hasilnya menentukan mana skor yang tergolong tinggi atau rendah."
+        "en": "Measures typical behaviour and preferences; no right answers, but consistency checks.",
+        "id": "Mengukur perilaku dan preferensi tipikal; tanpa jawaban benar, tetapi ada pemeriksaan konsistensi."
+       }
+      },
+      {
+       "term": {
+        "en": "Norm group",
+        "id": "Kelompok norma"
+       },
+       "def": {
+        "en": "The earlier test-takers your raw score is compared with; the same score can be a different percentile against a different group.",
+        "id": "Peserta tes sebelumnya yang menjadi pembanding skor mentahmu; skor yang sama bisa menjadi persentil berbeda terhadap kelompok berbeda."
+       }
+      },
+      {
+       "term": {
+        "en": "Cut-off",
+        "id": "Ambang lolos"
+       },
+       "def": {
+        "en": "The score below which a candidate does not proceed — often relative to the cohort, and often set per sub-test.",
+        "id": "Skor yang di bawahnya kandidat tidak melaju — sering relatif terhadap kohor, dan sering ditetapkan per sub-tes."
+       }
+      },
+      {
+       "term": {
+        "en": "Adaptive test",
+        "id": "Tes adaptif"
+       },
+       "def": {
+        "en": "Difficulty changes with your answers; usually no going back; early items carry more weight.",
+        "id": "Kesulitan berubah mengikuti jawabanmu; biasanya tidak bisa kembali; soal awal berbobot lebih."
+       }
+      },
+      {
+       "term": {
+        "en": "Verification re-test",
+        "id": "Tes ulang verifikasi"
+       },
+       "def": {
+        "en": "A short supervised re-test that checks the online result was yours.",
+        "id": "Tes ulang singkat yang diawasi untuk memastikan hasil daring itu milikmu."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why do format familiarity and pacing practice raise aptitude scores?",
-        "id": "Mengapa keakraban dengan format dan latihan tempo bisa menaikkan skor tes bakat?"
+        "en": "A personality questionnaire has…",
+        "id": "Kuesioner kepribadian punya…"
        },
        "options": [
         {
-         "en": "They do not — aptitude is fixed at birth",
-         "id": "Tidak bisa — bakat sudah ditentukan sejak lahir"
+         "en": "Right answers and a strict clock",
+         "id": "Jawaban benar dan jam yang ketat"
         },
         {
-         "en": "They free working memory from navigating the test, leaving more for the actual reasoning",
-         "id": "Keduanya membebaskan memori kerja dari urusan menavigasi tes, sehingga lebih banyak yang tersisa untuk penalaran yang sesungguhnya"
+         "en": "No right answers, but consistency checks",
+         "id": "Tanpa jawaban benar, tetapi ada pemeriksaan konsistensi"
         },
         {
-         "en": "Test providers reward returning candidates with easier questions",
-         "id": "Penyedia tes memberi soal yang lebih mudah kepada kandidat yang mengulang"
+         "en": "A pass mark of 50%",
+         "id": "Ambang lolos 50%"
+        },
+        {
+         "en": "Negative marking",
+         "id": "Pengurangan nilai"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The reasoning demand is constant, but unfamiliar formats tax attention. Practice removes that tax — which is why gains are largest for first-time formats.",
-        "id": "Tuntutan penalarannya tetap sama, tapi format yang asing membebani perhatian. Latihan menghapus beban itu — karena itulah kenaikan terbesar terjadi pada format yang baru pertama kali ditemui."
+        "en": "Typical behaviour, not maximum performance — and a self-contradicting profile can be flagged.",
+        "id": "Perilaku tipikal, bukan kinerja maksimum — dan profil yang bertentangan dengan dirinya bisa ditandai."
+       }
+      },
+      {
+       "q": {
+        "en": "Your raw score of 60% is…",
+        "id": "Skor mentahmu 60% adalah…"
+       },
+       "options": [
+        {
+         "en": "A pass",
+         "id": "Lulus"
+        },
+        {
+         "en": "A fail",
+         "id": "Gagal"
+        },
+        {
+         "en": "Interpreted against a norm group",
+         "id": "Ditafsirkan terhadap kelompok norma"
+        },
+        {
+         "en": "Converted to an IQ",
+         "id": "Dikonversi ke IQ"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The same 60% can be the 80th percentile against one group and the 40th against another.",
+        "id": "60% yang sama bisa menjadi persentil ke-80 terhadap satu kelompok dan ke-40 terhadap kelompok lain."
+       }
+      },
+      {
+       "q": {
+        "en": "Which is most useful to know before a test?",
+        "id": "Mana yang paling berguna diketahui sebelum tes?"
+       },
+       "options": [
+        {
+         "en": "The pass mark",
+         "id": "Ambang lolosnya"
+        },
+        {
+         "en": "The scoring rule, the timing model and whether you can go back",
+         "id": "Aturan penilaian, model waktu, dan apakah bisa kembali"
+        },
+        {
+         "en": "The names of the other candidates",
+         "id": "Nama kandidat lain"
+        },
+        {
+         "en": "The recruiter’s favourite question",
+         "id": "Pertanyaan favorit perekrut"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "You rarely learn the pass mark; the other three decide your pacing and guessing rules.",
+        "id": "Kamu jarang tahu ambang lolosnya; tiga lainnya menentukan aturan tempo dan menebakmu."
        }
       }
      ],
@@ -20695,276 +21365,782 @@ window.MT_LMS['the-pack'] = {
       "mode": "drill",
       "title": {
        "en": "Meet your baseline",
-       "id": "Kenali titik awalmu"
+       "id": "Kenali garis dasarmu"
       },
       "body": {
-       "en": "Run one untimed set per family in the Screening Gym to find your weakest — the rest of this module builds your plan from that reading.",
-       "id": "Kerjakan satu set tanpa batas waktu untuk setiap keluarga tes di Screening Gym untuk menemukan yang terlemah — sisa modul ini menyusun rencanamu dari hasil itu."
+       "en": "Before any technique, sit one untimed set in each Gym family — numerical, verbal, logical — and record the three scores as your baseline profile, Dossier item 1 for this module. The Gym reports scores against its own bank, not against any employer’s cut-off; the point is the shape of the profile, which decides where the three weeks go.",
+       "id": "Sebelum teknik apa pun, kerjakan satu set tanpa batas waktu di tiap keluarga Gym — numerik, verbal, logika — dan catat ketiga skornya sebagai profil garis dasar, butir Dossier 1 untuk modul ini. Gym melaporkan skor terhadap bank soalnya sendiri, bukan terhadap ambang perusahaan mana pun; intinya adalah bentuk profil, yang menentukan ke mana tiga minggu itu diarahkan."
       },
       "cta": {
-       "en": "Open the drills →",
-       "id": "Buka latihan →"
+       "en": "Open the Screening Gym →",
+       "id": "Buka Screening Gym →"
       }
      },
-     "quote": {
-      "en": "The most trainable stage of the funnel is the one candidates fear most.",
-      "id": "Tahap corong yang paling bisa dilatih justru tahap yang paling ditakuti kandidat."
-     },
-     "insights": {
+     "takeaways": [
+      {
+       "en": "Know which family and format you face.",
+       "id": "Ketahui keluarga dan format apa yang kamu hadapi."
+      },
+      {
+       "en": "You are compared with a norm group; be solid on every sub-test.",
+       "id": "Kamu dibandingkan dengan kelompok norma; mantap di setiap sub-tes."
+      },
+      {
+       "en": "Practice removes the wrong reasons for failing.",
+       "id": "Latihan menghilangkan alasan-alasan salah untuk gagal."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the checklist",
+       "id": "Sumber dan daftar periksa"
+      },
       "lead": {
-       "en": "How test scores are actually used.",
-       "id": "Bagaimana skor tes sebenarnya digunakan."
+       "en": "Three sources, and the six-line “know the game” checklist as a template.",
+       "id": "Tiga sumber, dan daftar periksa “kenali permainannya” enam baris sebagai templat."
       },
       "items": [
        {
-        "h": {
-         "en": "Cut-offs, not rankings",
-         "id": "Ambang batas, bukan peringkat"
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.1",
+         "id": "Daftar bacaan · Pelajaran 7.1"
         },
-        "body": {
-         "en": "Most employers use aptitude scores as a gate — above the line you proceed, below it you stop. The goal is to clear the line reliably, not to top the cohort.",
-         "id": "Sebagian besar pemberi kerja memakai skor bakat sebagai gerbang — di atas garis kamu lanjut, di bawahnya berhenti. Tujuannya melewati garis secara andal, bukan menjadi yang tertinggi."
-        }
+        "desc": {
+         "en": "Three sources. Indonesian and modern online formats are not in them.",
+         "id": "Tiga sumber. Format Indonesia dan format daring modern tidak ada di dalamnya."
+        },
+        "body": [
+         {
+          "en": "A. Shavick, <i>How to Pass Psychometric Tests</i> (3rd ed.), Introduction, ch. 1, 3, 4–12, 14 — the ability/personality line, the families, asking what you will face, practice.",
+          "id": "A. Shavick, <i>How to Pass Psychometric Tests</i> (ed. ke-3), Pendahuluan, bab 1, 3, 4–12, 14 — garis kemampuan/kepribadian, keluarga tes, menanyakan apa yang dihadapi, latihan."
+         },
+         {
+          "en": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — norm groups, tests designed not to be finished, the fixed-intelligence claim to discard.",
+          "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — kelompok norma, tes yang dirancang untuk tidak selesai, klaim intelegensi tetap yang perlu dibuang."
+         },
+         {
+          "en": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), Introduction, ch. 1–6 — the families, norms, why people fail for the wrong reasons.",
+          "id": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), Pendahuluan, bab 1–6 — keluarga tes, norma, mengapa orang gagal karena alasan yang salah."
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Speed is a trained skill",
-         "id": "Kecepatan adalah keterampilan yang dilatih"
+        "kind": "checklist",
+        "title": {
+         "en": "Know the game · six lines per programme",
+         "id": "Kenali permainannya · enam baris per program"
         },
-        "body": {
-         "en": "Timed numerical and logical tests reward pattern recognition built by repetition. Two weeks of daily short sets move scores more than any amount of “natural ability”.",
-         "id": "Tes numerik dan logika berwaktu menghargai pengenalan pola yang dibangun lewat pengulangan. Dua minggu latihan set pendek harian menggeser skor lebih dari “bakat alami” mana pun."
-        }
-       },
-       {
-        "h": {
-         "en": "Personality tests read consistency",
-         "id": "Tes kepribadian membaca konsistensi"
+        "desc": {
+         "en": "Fill one per target with a test stage.",
+         "id": "Isi satu untuk tiap sasaran yang punya tahap tes."
         },
-        "body": {
-         "en": "They are scored for a coherent profile and for fit with the role’s demands, not for a “right” personality. Answer as the person who does this job well on a normal day — and answer the same way every time.",
-         "id": "Tes ini dinilai berdasarkan profil yang koheren dan kecocokan dengan tuntutan peran, bukan kepribadian yang “benar”. Jawablah sebagai orang yang mengerjakan pekerjaan ini dengan baik di hari biasa — dan jawab dengan cara yang sama setiap kali."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Practising only the test you enjoy",
-         "id": "Hanya berlatih tes yang kamu sukai"
-        },
-        "fix": {
-         "en": "Scores are gated per section. Spend most practice time on your weakest type.",
-         "id": "Skor digerbangkan per bagian. Habiskan sebagian besar waktu latihan pada tipe terlemahmu."
-        }
-       },
-       {
-        "h": {
-         "en": "Gaming the personality inventory",
-         "id": "Mengakali inventori kepribadian"
-        },
-        "fix": {
-         "en": "Inconsistent answers trigger validity flags. Answer as your best working self, consistently.",
-         "id": "Jawaban yang tidak konsisten memicu bendera validitas. Jawab sebagai versi kerja terbaikmu, secara konsisten."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring the instructions screen",
-         "id": "Mengabaikan layar instruksi"
-        },
-        "fix": {
-         "en": "Whether wrong answers are penalised and whether you can skip changes the whole strategy. Read it every time.",
-         "id": "Apakah jawaban salah dikenai penalti dan apakah kamu boleh melewati soal mengubah seluruh strategi. Baca setiap kali."
-        }
+        "body": [
+         {
+          "en": "Provider / format: ______ (found · unknown · asked ______)",
+          "id": "Penyedia / format: ______ (ditemukan · tidak tahu · ditanyakan ke ______)"
+         },
+         {
+          "en": "Sub-tests and order: ______",
+          "id": "Sub-tes dan urutan: ______"
+         },
+         {
+          "en": "Timing model: section clock · per-question timer · untimed",
+          "id": "Model waktu: jam per bagian · pengatur waktu per soal · tanpa batas"
+         },
+         {
+          "en": "Calculator: allowed · on-screen · none",
+          "id": "Kalkulator: boleh · di layar · tidak ada"
+         },
+         {
+          "en": "Navigation: can go back · cannot go back · adaptive",
+          "id": "Navigasi: bisa kembali · tidak bisa kembali · adaptif"
+         },
+         {
+          "en": "Scoring rule: number-correct · negative marking · accuracy-scored · unknown → guessing rule (7.5): ______",
+          "id": "Aturan penilaian: jumlah benar · pengurangan nilai · dinilai dari ketepatan · tidak tahu → aturan menebak (7.5): ______"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "7.2",
-     "title": {
-      "en": "Study Preparation Strategies and Time Management for Tests",
-      "id": "Strategi Belajar dan Manajemen Waktu untuk Tes"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "interactive",
      "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Numerical Reasoning",
+      "id": "Penalaran Numerik"
+     },
      "overview": {
-      "en": "Cramming works for facts, not for speed skills. This lesson builds your four-week test-preparation plan — distributed practice, error logs, simulated conditions — and drills the time-management decisions that decide real test sessions.",
-      "id": "Sistem kebut semalam berhasil untuk menghafal fakta, tidak untuk keterampilan yang butuh kecepatan. Pelajaran ini menyusun rencana persiapan tes empat mingguanmu — latihan yang disebar, catatan kesalahan, kondisi yang disimulasikan — dan melatih keputusan-keputusan manajemen waktu yang menentukan hasil sesi tes yang sebenarnya."
+      "en": "Online numerical tests usually allow a calculator, so the bottleneck is not arithmetic — it is finding the right data and setting up the right calculation. This lesson gives a four-step procedure, the four traps that account for most wrong answers, the Indonesian/English notation problem, and four worked items whose distractors are built from those exact slips.",
+      "id": "Tes numerik daring biasanya membolehkan kalkulator, jadi hambatannya bukan aritmetika — melainkan menemukan data yang tepat dan menyusun perhitungan yang tepat. Pelajaran ini memberi prosedur empat langkah, empat jebakan yang menyebabkan sebagian besar jawaban salah, masalah notasi Indonesia/Inggris, dan empat soal terurai yang pengecohnya dibangun dari kesalahan-kesalahan itu."
      },
      "objectives": [
       {
-       "en": "Build a four-week distributed practice plan around your weakest family.",
-       "id": "Menyusun rencana latihan empat minggu yang disebar merata, berpusat pada keluarga tes terlemahmu."
+       "en": "Apply Find → Set up → Compute → Check.",
+       "id": "Menerapkan Temukan → Susun → Hitung → Periksa."
       },
       {
-       "en": "Keep an error log that converts misses into retired mistakes.",
-       "id": "Menjaga catatan kesalahan yang mengubah setiap kesalahan menjadi kesalahan yang tidak terulang."
+       "en": "Avoid the four classic traps.",
+       "id": "Menghindari empat jebakan klasik."
       },
       {
-       "en": "Apply triage rules — answer, flag, skip — under a live clock.",
-       "id": "Menerapkan aturan triase — jawab, tandai, lewati — saat jam terus berjalan."
+       "en": "Read Indonesian and English number formats correctly.",
+       "id": "Membaca format angka Indonesia dan Inggris dengan benar."
+      },
+      {
+       "en": "Solve four worked items and explain each distractor.",
+       "id": "Menyelesaikan empat soal terurai dan menjelaskan setiap pengecohnya."
       }
      ],
-     "takeawaysLead": {
-      "en": "Speed skills consolidate between sessions, not inside one long Sunday. To build a preparation plan that holds, you can:",
-      "id": "Keterampilan kecepatan mengendap di antara sesi, bukan dalam satu hari Minggu yang panjang. Untuk membangun rencana persiapan yang bertahan, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Set-up, not arithmetic",
+       "id": "Penyusunan, bukan aritmetika"
+      },
+      "intro": {
+       "en": "The calculator does the arithmetic. You do the finding, the set-up and the sanity check — and you know the four traps by name.",
+       "id": "Kalkulator mengerjakan aritmetikanya. Kamu mengerjakan pencarian, penyusunan, dan pemeriksaan kewajaran — dan kamu tahu empat jebakan itu berdasarkan namanya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "FSCS",
+         "id": "FSCS"
+        },
+        "points": [
+         {
+          "en": "Find the exact cells. Set up the calculation in words. Compute. Check the size makes sense.",
+          "id": "Temukan sel yang persis. Susun perhitungan dalam kata-kata. Hitung. Periksa besarannya masuk akal."
+         },
+         {
+          "en": "Most errors happen in Find and Set up, before any key is pressed.",
+          "id": "Kebanyakan kesalahan terjadi di Temukan dan Susun, sebelum tombol apa pun ditekan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four traps",
+         "id": "Empat jebakan"
+        },
+        "points": [
+         {
+          "en": "Wrong base · percent vs percentage points · share vs size · reverse percentages.",
+          "id": "Basis salah · persen vs poin persentase · pangsa vs ukuran · persentase terbalik."
+         },
+         {
+          "en": "Every distractor in a well-written item is one of these.",
+          "id": "Setiap pengecoh dalam soal yang ditulis baik adalah salah satunya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Notation",
+         "id": "Notasi"
+        },
+        "points": [
+         {
+          "en": "Indonesian: Rp 1.250.000,50. English: 1,250,000.50. Read the separator before the number.",
+          "id": "Indonesia: Rp 1.250.000,50. Inggris: 1,250,000.50. Baca pemisahnya sebelum angkanya."
+         },
+         {
+          "en": "juta = million · miliar = billion · triliun = trillion.",
+          "id": "juta = million · miliar = billion · triliun = trillion."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Six 25-minute sessions a week beat one three-hour Sunday: speed skills consolidate between sessions.",
-       "id": "Enam sesi 25 menit dalam seminggu mengalahkan satu sesi tiga jam di hari Minggu: keterampilan kecepatan mengendap di antara sesi-sesi latihan."
-      },
-      {
-       "en": "The error log is the syllabus: your next session always starts from your last mistakes.",
-       "id": "Catatan kesalahan adalah silabusmu: sesi berikutnya selalu dimulai dari kesalahan terakhirmu."
-      },
-      {
-       "en": "On test day you are managing seconds-per-question, not questions — pacing is a decision, not a feeling.",
-       "id": "Di hari tes, yang kamu kelola adalah detik per soal, bukan soalnya — tempo adalah keputusan, bukan perasaan."
-      }
-     ],
      "sections": [
       {
        "icon": "gear",
        "h": {
-        "en": "The four-week arc",
-        "id": "Alur empat minggu"
+        "en": "Find → Set up → Compute → Check",
+        "id": "Temukan → Susun → Hitung → Periksa"
        },
        "body": {
-        "en": "<b>Week 1 — diagnose:</b> one untimed set per family in the Gym; log accuracy and time per question; name your weakest family. <b>Week 2 — technique:</b> study the frameworks (3.3) and drill your weak family untimed until accuracy stabilises above ~80%. <b>Week 3 — speed:</b> timed sets at gradually tightening pace; keep the error log religiously. <b>Week 4 — simulate:</b> full timed sets under exam conditions — phone away, one sitting, morning hours if your real test is morning. If your test date is closer than four weeks, compress but keep the order: accuracy before speed, always.",
-        "id": "<b>Minggu 1 — diagnosis:</b> satu set tanpa batas waktu untuk setiap keluarga tes di Gym; catat ketepatan dan waktu per soal; tentukan keluarga tes terlemahmu. <b>Minggu 2 — teknik:</b> pelajari kerangkanya (3.3) dan latih keluarga tes terlemahmu tanpa batas waktu sampai ketepatannya stabil di atas ~80%. <b>Minggu 3 — kecepatan:</b> set berbatas waktu dengan tempo yang makin ketat; jaga catatan kesalahan dengan disiplin. <b>Minggu 4 — simulasi:</b> set penuh berbatas waktu dalam kondisi ujian — ponsel dijauhkan, sekali duduk, di jam pagi kalau tes aslimu pagi. Kalau tanggal tesmu kurang dari empat minggu lagi, padatkan tapi jaga urutannya: ketepatan dulu, baru kecepatan — selalu."
+        "en": "Online tests usually allow a calculator, so the bottleneck is not arithmetic but <b>locating the right data and setting up the calculation</b> <i>(Carter; Barrett, Aptitude Test Workbook, Test 15; Shavick, ch. 5)</i>. Four steps, every item:",
+        "id": "Tes daring biasanya membolehkan kalkulator, jadi hambatannya bukan aritmetika melainkan <b>menemukan data yang tepat dan menyusun perhitungan</b> <i>(Carter; Barrett, Aptitude Test Workbook, Tes 15; Shavick, bab 5)</i>. Empat langkah, setiap soal:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Find</b> the exact cells or chart values the question needs. Read the units (Rp miliar? thousands? %) and the period (Q4? 2025? per month?).",
+         "id": "<b>Temukan</b> sel atau nilai grafik persis yang dibutuhkan soal. Baca satuannya (Rp miliar? ribuan? %) dan periodenya (Q4? 2025? per bulan?)."
+        },
+        {
+         "en": "<b>Set up</b> the calculation in words first — “increase ÷ original”, “part ÷ new total” — before touching the calculator.",
+         "id": "<b>Susun</b> perhitungannya dalam kata-kata dulu — “kenaikan ÷ nilai awal”, “bagian ÷ total baru” — sebelum menyentuh kalkulator."
+        },
+        {
+         "en": "<b>Compute</b>. With a calculator this is the fastest step.",
+         "id": "<b>Hitung</b>. Dengan kalkulator ini langkah tercepat."
+        },
+        {
+         "en": "<b>Check</b> that the answer’s size makes sense. Estimation catches most slips: if Q4 is “a bit more than a third above Q1”, an answer of 137% is wrong before you look at the options.",
+         "id": "<b>Periksa</b> bahwa besaran jawabannya masuk akal. Estimasi menangkap sebagian besar kesalahan: jika Q4 “sedikit lebih dari sepertiga di atas Q1”, jawaban 137% salah sebelum kamu melihat opsinya."
+        }
+       ]
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Core techniques",
+        "id": "Teknik inti"
+       },
+       "body": {
+        "en": "Percentages via anchors: find 10% and 1%, then build — 17% of 240 is 24 + 24 + 24 ÷ 2 + 2,4 × 2 = 40,8 <i>(Barrett, ch. 2)</i>. Fraction equivalents are often faster than decimals: 25% = ¼, 37,5% = ⅜, 12,5% = ⅛, 33,3% = ⅓. Reduce ratios by common factors before using them <i>(Barrett, Test 6)</i>. Estimate first, especially when the options are far apart — a rough answer eliminates three of five options in seconds <i>(Shavick, ch. 5)</i>. And read every word: “increase” versus “new total”; “per month” versus “per year”; “of which” versus “in addition to” <i>(Carter)</i>.",
+        "id": "Persentase lewat jangkar: cari 10% dan 1%, lalu bangun — 17% dari 240 adalah 24 + 24 + 24 ÷ 2 + 2,4 × 2 = 40,8 <i>(Barrett, bab 2)</i>. Padanan pecahan sering lebih cepat dari desimal: 25% = ¼, 37,5% = ⅜, 12,5% = ⅛, 33,3% = ⅓. Sederhanakan rasio dengan faktor persekutuan sebelum memakainya <i>(Barrett, Tes 6)</i>. Estimasi dulu, terutama saat opsinya berjauhan — jawaban kasar menyingkirkan tiga dari lima opsi dalam hitungan detik <i>(Shavick, bab 5)</i>. Dan baca setiap kata: “kenaikan” versus “total baru”; “per bulan” versus “per tahun”; “di antaranya” versus “ditambah” <i>(Carter)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "You need",
+          "id": "Kamu butuh"
+         },
+         {
+          "en": "Fast route",
+          "id": "Jalur cepat"
+         },
+         {
+          "en": "Example",
+          "id": "Contoh"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "x% of N",
+           "id": "x% dari N"
+          },
+          {
+           "en": "10% and 1% anchors",
+           "id": "Jangkar 10% dan 1%"
+          },
+          {
+           "en": "23% of 460 = 46 + 46 + 4,6 × 3 = 105,8",
+           "id": "23% dari 460 = 46 + 46 + 4,6 × 3 = 105,8"
+          }
+         ],
+         [
+          {
+           "en": "Percentage change",
+           "id": "Perubahan persentase"
+          },
+          {
+           "en": "(new − old) ÷ old",
+           "id": "(baru − lama) ÷ lama"
+          },
+          {
+           "en": "120 → 165: 45 ÷ 120 = 3/8 = 37,5%",
+           "id": "120 → 165: 45 ÷ 120 = 3/8 = 37,5%"
+          }
+         ],
+         [
+          {
+           "en": "Original after a % change",
+           "id": "Nilai awal setelah perubahan %"
+          },
+          {
+           "en": "Divide by (1 ± rate)",
+           "id": "Bagi dengan (1 ± laju)"
+          },
+          {
+           "en": "Rp 80.000 after −20% → 80.000 ÷ 0,8 = Rp 100.000",
+           "id": "Rp 80.000 setelah −20% → 80.000 ÷ 0,8 = Rp 100.000"
+          }
+         ],
+         [
+          {
+           "en": "A ratio share",
+           "id": "Bagian dalam rasio"
+          },
+          {
+           "en": "Part ÷ sum of parts",
+           "id": "Bagian ÷ jumlah bagian"
+          },
+          {
+           "en": "5 : 3 : 2 → CS = 3/10 = 30%",
+           "id": "5 : 3 : 2 → CS = 3/10 = 30%"
+          }
+         ],
+         [
+          {
+           "en": "Two successive changes",
+           "id": "Dua perubahan berurutan"
+          },
+          {
+           "en": "Multiply the factors",
+           "id": "Kalikan faktornya"
+          },
+          {
+           "en": "+20% then −10%: 1,2 × 0,9 = 1,08 → +8%",
+           "id": "+20% lalu −10%: 1,2 × 0,9 = 1,08 → +8%"
+          }
+         ]
+        ]
        }
       },
       {
-       "icon": "eye",
+       "icon": "flag",
        "h": {
-        "en": "The error log",
-        "id": "Catatan kesalahan"
+        "en": "Four classic traps",
+        "id": "Empat jebakan klasik"
        },
        "body": {
-        "en": "Four columns per miss: the question type (“percentage change from a table”), your wrong move (“computed change ÷ new value instead of ÷ original”), the correct principle, and a one-line rule for next time (“change ÷ original, always”). Ten minutes after every session, review the log's last two weeks. The compounding is dramatic: most candidates miss the same five question archetypes repeatedly; retiring one archetype per week can move a score more than doubling practice volume — this is Module 1's funnel logic applied to your own cognition.",
-        "id": "Empat kolom untuk setiap kesalahan: jenis soal (“perubahan persentase dari tabel”), langkahmu yang salah (“membagi perubahan dengan nilai baru, bukan nilai awal”), prinsip yang benar, dan satu baris aturan untuk lain kali (“perubahan ÷ nilai awal, selalu”). Sepuluh menit setelah setiap sesi, tinjau catatan dua minggu terakhir. Efek berlipatnya dramatis: kebanyakan kandidat terus-menerus salah pada lima tipe soal yang sama; menyingkirkan satu tipe per minggu bisa menaikkan skor lebih besar daripada menggandakan volume latihan — inilah logika corong dari Modul 1 yang diterapkan pada cara berpikirmu sendiri."
+        "en": "Well-written numerical items build their distractors from four slips. Name the trap and you can see the distractor before you compute.",
+        "id": "Soal numerik yang ditulis baik membangun pengecohnya dari empat kesalahan. Sebutkan jebakannya dan kamu bisa melihat pengecohnya sebelum menghitung."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Trap",
+          "id": "Jebakan"
+         },
+         {
+          "en": "The slip",
+          "id": "Kesalahannya"
+         },
+         {
+          "en": "The rule",
+          "id": "Aturannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1 · Wrong base",
+           "id": "1 · Basis salah"
+          },
+          {
+           "en": "Dividing the change by the <i>new</i> value",
+           "id": "Membagi perubahan dengan nilai <i>baru</i>"
+          },
+          {
+           "en": "Percentage change = (new − old) ÷ <b>old</b>",
+           "id": "Perubahan persentase = (baru − lama) ÷ <b>lama</b>"
+          }
+         ],
+         [
+          {
+           "en": "2 · Percent vs percentage points",
+           "id": "2 · Persen vs poin persentase"
+          },
+          {
+           "en": "Calling 35% → 30% “a 5% fall”",
+           "id": "Menyebut 35% → 30% “turun 5%”"
+          },
+          {
+           "en": "A fall of 5 <b>percentage points</b>, or about 14% <b>in relative terms</b> — say which",
+           "id": "Turun 5 <b>poin persentase</b>, atau sekitar 14% <b>secara relatif</b> — sebutkan yang mana"
+          }
+         ],
+         [
+          {
+           "en": "3 · Share vs size",
+           "id": "3 · Pangsa vs ukuran"
+          },
+          {
+           "en": "Reading a falling share as falling sales",
+           "id": "Membaca pangsa yang turun sebagai penjualan yang turun"
+          },
+          {
+           "en": "Size = share × total; if the total grows, a smaller share can be a bigger number",
+           "id": "Ukuran = pangsa × total; jika total tumbuh, pangsa lebih kecil bisa berarti angka lebih besar"
+          }
+         ],
+         [
+          {
+           "en": "4 · Reverse percentages",
+           "id": "4 · Persentase terbalik"
+          },
+          {
+           "en": "Adding 20% back after a 20% discount",
+           "id": "Menambahkan 20% kembali setelah diskon 20%"
+          },
+          {
+           "en": "Price after −20% is Rp 80.000 → original = 80.000 ÷ 0,8 = Rp 100.000, not 80.000 × 1,2 = 96.000",
+           "id": "Harga setelah −20% adalah Rp 80.000 → awal = 80.000 ÷ 0,8 = Rp 100.000, bukan 80.000 × 1,2 = 96.000"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Indonesian number literacy",
+        "id": "Literasi angka Indonesia"
+       },
+       "body": {
+        "en": "Indonesian notation uses “.” for thousands and “,” for decimals — <i>Rp 1.250.000,50</i>. English-language tests use the opposite — <i>1,250,000.50</i>. Misreading “1.5” as one thousand five hundred, or “2,400” as two point four, is a real and avoidable source of errors for Indonesian candidates on English tests, and the reverse for English-trained candidates on Indonesian ones. Read the decimal separator before you read the number; if a table mixes formats, write the convention at the top of your scrap paper. Scale words: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — an English “billion” is an Indonesian <i>miliar</i>, never <i>triliun</i>.",
+        "id": "Notasi Indonesia memakai “.” untuk ribuan dan “,” untuk desimal — <i>Rp 1.250.000,50</i>. Tes berbahasa Inggris memakai kebalikannya — <i>1,250,000.50</i>. Salah membaca “1.5” sebagai seribu lima ratus, atau “2,400” sebagai dua koma empat, adalah sumber kesalahan nyata dan bisa dihindari bagi kandidat Indonesia di tes berbahasa Inggris, dan sebaliknya bagi kandidat terlatih Inggris di tes Indonesia. Baca pemisah desimal sebelum membaca angkanya; jika tabel mencampur format, tulis konvensinya di bagian atas kertas coretanmu. Kata skala: <i>juta</i> = million (10⁶); <b><i>miliar</i> = billion</b> (10⁹); <b><i>triliun</i> = trillion</b> (10¹²) — “billion” Inggris adalah <i>miliar</i> Indonesia, tidak pernah <i>triliun</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Written",
+          "id": "Tertulis"
+         },
+         {
+          "en": "Indonesian reading",
+          "id": "Bacaan Indonesia"
+         },
+         {
+          "en": "English reading",
+          "id": "Bacaan Inggris"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1.500",
+           "id": "1.500"
+          },
+          {
+           "en": "one thousand five hundred",
+           "id": "seribu lima ratus"
+          },
+          {
+           "en": "one point five (1.5 = 1,5)",
+           "id": "satu koma lima (1.5 = 1,5)"
+          }
+         ],
+         [
+          {
+           "en": "2,400",
+           "id": "2,400"
+          },
+          {
+           "en": "two point four",
+           "id": "dua koma empat"
+          },
+          {
+           "en": "two thousand four hundred",
+           "id": "dua ribu empat ratus"
+          }
+         ],
+         [
+          {
+           "en": "Rp 2.400.000,00",
+           "id": "Rp 2.400.000,00"
+          },
+          {
+           "en": "two million four hundred thousand rupiah",
+           "id": "dua juta empat ratus ribu rupiah"
+          },
+          {
+           "en": "— (Indonesian format)",
+           "id": "— (format Indonesia)"
+          }
+         ],
+         [
+          {
+           "en": "3 miliar",
+           "id": "3 miliar"
+          },
+          {
+           "en": "3.000.000.000",
+           "id": "3.000.000.000"
+          },
+          {
+           "en": "3 billion",
+           "id": "3 billion"
+          }
+         ],
+         [
+          {
+           "en": "0,375",
+           "id": "0,375"
+          },
+          {
+           "en": "nol koma tiga tujuh lima = ⅜",
+           "id": "nol koma tiga tujuh lima = ⅜"
+          },
+          {
+           "en": "0.375",
+           "id": "0.375"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Worked items",
+        "id": "Soal terurai"
+       },
+       "body": {
+        "en": "Four original items. Each distractor is built from a common slip; the point of the worked answer is to name the slip, not just to get the number. Try each before opening the working in the drills below.",
+        "id": "Empat soal asli. Setiap pengecoh dibangun dari kesalahan umum; inti dari jawaban terurai adalah menyebutkan kesalahannya, bukan sekadar mendapat angkanya. Coba masing-masing sebelum membuka uraiannya di latihan di bawah."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Item",
+          "id": "Soal"
+         },
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Options",
+          "id": "Opsi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "N1",
+           "id": "N1"
+          },
+          {
+           "en": "PT Sinar Nusantara Logistik — quarterly revenue 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. By what percentage did Q4 exceed Q1?",
+           "id": "PT Sinar Nusantara Logistik — pendapatan kuartalan 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. Berapa persen Q4 melampaui Q1?"
+          },
+          {
+           "en": "A) 27,3% · B) 35,0% · C) 37,5% · D) 45,0% · E) 137,5%",
+           "id": "A) 27,3% · B) 35,0% · C) 37,5% · D) 45,0% · E) 137,5%"
+          }
+         ],
+         [
+          {
+           "en": "N2",
+           "id": "N2"
+          },
+          {
+           "en": "A trainee’s allowance is Rp 4.500.000 for two nights in Singapore; 1 SGD = Rp 12.000; the hotel costs SGD 180 per night. SGD remaining after the hotel?",
+           "id": "Tunjangan seorang trainee Rp 4.500.000 untuk dua malam di Singapura; 1 SGD = Rp 12.000; hotel SGD 180 per malam. Sisa SGD setelah hotel?"
+          },
+          {
+           "en": "A) 15 · B) 25 · C) 195 · D) 360 · E) 375",
+           "id": "A) 15 · B) 25 · C) 195 · D) 360 · E) 375"
+          }
+         ],
+         [
+          {
+           "en": "N3",
+           "id": "N3"
+          },
+          {
+           "en": "A branch has 40 staff — tellers : customer service : back office = 5 : 3 : 2. It hires 4 more customer-service officers. CS share now?",
+           "id": "Sebuah cabang punya 40 staf — teller : customer service : back office = 5 : 3 : 2. Cabang merekrut 4 petugas customer service lagi. Pangsa CS sekarang?"
+          },
+          {
+           "en": "A) 30,0% · B) 33,3% · C) 36,4% · D) 40,0% · E) 42,9%",
+           "id": "A) 30,0% · B) 33,3% · C) 36,4% · D) 40,0% · E) 42,9%"
+          }
+         ],
+         [
+          {
+           "en": "N4",
+           "id": "N4"
+          },
+          {
+           "en": "A segment’s GMV is Rp 80 triliun; Platform Kilat holds 35%. Next year the segment grows 20% and Kilat’s share falls to 30%. Kilat’s GMV…",
+           "id": "GMV sebuah segmen Rp 80 triliun; Platform Kilat memegang 35%. Tahun depan segmen tumbuh 20% dan pangsa Kilat turun ke 30%. GMV Kilat…"
+          },
+          {
+           "en": "A) falls Rp 4,0 triliun · B) falls 5 percentage points · C) unchanged · D) rises Rp 0,8 triliun · E) rises Rp 4,8 triliun",
+           "id": "A) turun Rp 4,0 triliun · B) turun 5 poin persentase · C) tidak berubah · D) naik Rp 0,8 triliun · E) naik Rp 4,8 triliun"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Answers and the slip behind each distractor are in Drills 1–4.",
+         "id": "Jawaban dan kesalahan di balik setiap pengecoh ada di Latihan 1–4."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "timeline",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The four-week arc — diagnose, technique, speed, simulate — with the error log running underneath all of it.",
-       "id": "Peraga 1: Busur empat minggu — diagnosis, teknik, kecepatan, simulasi — dengan catatan kesalahan berjalan di bawah semuanya."
+       "en": "Exhibit 2: FSCS on item N1",
+       "id": "Peraga 2: FSCS pada soal N1"
       },
       "title": {
-       "en": "Week 1 → Week 2 → Week 3 → Week 4",
-       "id": "Minggu 1 → Minggu 2 → Minggu 3 → Minggu 4"
+       "en": "Forty seconds, four steps",
+       "id": "Empat puluh detik, empat langkah"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Week 1 · Diagnose",
-         "id": "Minggu 1 · Diagnosis"
+         "en": "Find",
+         "id": "Temukan"
         },
         "sub": {
-         "en": "One untimed set per family; log accuracy and time; name the weakest family",
-         "id": "Satu set tanpa waktu per keluarga soal; catat akurasi dan waktu; namai keluarga terlemah"
-        },
-        "icon": "eye"
+         "en": "Q1 = 120, Q4 = 165, both Rp miliar, both 2025. Q2 and Q3 are noise.",
+         "id": "Q1 = 120, Q4 = 165, keduanya Rp miliar, keduanya 2025. Q2 dan Q3 adalah gangguan."
+        }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Week 2 · Technique",
-         "id": "Minggu 2 · Teknik"
+         "en": "Set up",
+         "id": "Susun"
         },
         "sub": {
-         "en": "Frameworks from 3.3; drill the weak family untimed to ~80% accuracy",
-         "id": "Kerangka dari 3.3; latih keluarga lemah tanpa waktu hingga akurasi ~80%"
-        },
-        "icon": "book"
+         "en": "“Exceed by what percentage” = (Q4 − Q1) ÷ Q1. The base is Q1, the old value.",
+         "id": "“Melampaui berapa persen” = (Q4 − Q1) ÷ Q1. Basisnya Q1, nilai lama."
+        }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Week 3 · Speed",
-         "id": "Minggu 3 · Kecepatan"
+         "en": "Compute",
+         "id": "Hitung"
         },
         "sub": {
-         "en": "Timed sets; pacing decisions; error log after every session",
-         "id": "Set berwaktu; keputusan pengaturan tempo; catatan kesalahan setelah tiap sesi"
-        },
-        "icon": "gear"
+         "en": "45 ÷ 120 = 0,375 — or 45/120 = 3/8.",
+         "id": "45 ÷ 120 = 0,375 — atau 45/120 = 3/8."
+        }
        },
        {
+        "icon": "check",
         "h": {
-         "en": "Week 4 · Simulate",
-         "id": "Minggu 4 · Simulasi"
+         "en": "Check",
+         "id": "Periksa"
         },
         "sub": {
-         "en": "Full sets under exam conditions; taper the night before",
-         "id": "Set penuh dalam kondisi ujian; kurangi intensitas malam sebelumnya"
-        },
-        "icon": "flag"
+         "en": "A bit more than a third above: 37,5% fits. 137,5% is the ratio, not the increase; 27,3% used the wrong base.",
+         "id": "Sedikit lebih dari sepertiga di atas: 37,5% cocok. 137,5% adalah rasionya, bukan kenaikannya; 27,3% memakai basis yang salah."
+        }
        }
       ],
+      "note": {
+       "en": "The calculator was needed for one step. The other three are reading.",
+       "id": "Kalkulator dibutuhkan untuk satu langkah. Tiga lainnya adalah membaca."
+      },
       "longdesc": {
-       "en": "A four-week timeline. Week one diagnoses with untimed sets and names the weakest family. Week two studies the frameworks and drills that family untimed to about eighty percent accuracy. Week three adds the clock and pacing decisions. Week four runs full simulations under exam conditions and tapers the night before the test.",
-       "id": "Garis waktu empat minggu. Minggu pertama mendiagnosis dengan set tanpa waktu dan menamai keluarga soal terlemah. Minggu kedua mempelajari kerangka dan melatih keluarga itu tanpa waktu hingga akurasi sekitar delapan puluh persen. Minggu ketiga menambahkan pengatur waktu dan keputusan tempo. Minggu keempat menjalankan simulasi penuh dalam kondisi ujian dan mengurangi intensitas malam sebelum tes."
+       "en": "A four-step flow applying Find, Set up, Compute, Check to item N1: find Q1 equals 120 and Q4 equals 165; set up the increase divided by the original; compute 45 divided by 120 equals 0.375; check that a bit more than a third fits 37.5 percent while 137.5 percent is the ratio and 27.3 percent used the wrong base.",
+       "id": "Alur empat langkah menerapkan Temukan, Susun, Hitung, Periksa pada soal N1: temukan Q1 sama dengan 120 dan Q4 sama dengan 165; susun kenaikan dibagi nilai awal; hitung 45 dibagi 120 sama dengan 0,375; periksa bahwa sedikit lebih dari sepertiga cocok dengan 37,5 persen sementara 137,5 persen adalah rasionya dan 27,3 persen memakai basis yang salah."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "distributed practice",
-        "id": "latihan terdistribusi"
+       "tag": {
+        "en": "Two ways to solve N4",
+        "id": "Dua cara menyelesaikan N4"
        },
-       "def": {
-        "en": "Short, frequent sessions spread across weeks — six 25-minute blocks beat one three-hour block for speed skills, because consolidation happens between sessions.",
-        "id": "Sesi singkat dan sering yang tersebar selama berminggu-minggu — enam blok 25 menit mengalahkan satu blok tiga jam untuk keterampilan kecepatan, karena pengendapan terjadi di antara sesi."
-       }
-      },
-      {
-       "term": {
-        "en": "error log",
-        "id": "catatan kesalahan"
+       "q": {
+        "en": "“Kilat’s share falls from 35% to 30% while the segment grows 20%.”",
+        "id": "“Pangsa Kilat turun dari 35% ke 30% sementara segmen tumbuh 20%.”"
        },
-       "def": {
-        "en": "Four columns per miss — question type, your wrong move, the correct principle, a one-line rule — reviewed for ten minutes after every session. It is the syllabus for the next one.",
-        "id": "Empat kolom untuk setiap kesalahan — jenis soal, langkah kelirumu, prinsip yang benar, satu baris aturan — ditinjau sepuluh menit setelah setiap sesi. Inilah silabus untuk sesi berikutnya."
+       "weak": {
+        "en": "“Share fell, so GMV fell. 35 → 30 is a 5-point fall… option B.” Fifteen seconds; wrong. The question asks about GMV — a size — not the share.",
+        "id": "“Pangsa turun, jadi GMV turun. 35 → 30 turun 5 poin… opsi B.” Lima belas detik; salah. Soalnya menanyakan GMV — ukuran — bukan pangsa."
+       },
+       "strong": {
+        "en": "“Size = share × total. Now: 35% × 80 = 28. Next year: 30% × 96 = 28,8. Up 0,8 triliun — option D.” Thirty seconds; right. The check: a smaller slice of a bigger pie can be bigger.",
+        "id": "“Ukuran = pangsa × total. Sekarang: 35% × 80 = 28. Tahun depan: 30% × 96 = 28,8. Naik 0,8 triliun — opsi D.” Tiga puluh detik; benar. Periksanya: potongan lebih kecil dari kue lebih besar bisa lebih besar."
+       },
+       "why": {
+        "en": "The share-versus-size trap. Option B is true as a statement about the share and is there precisely to catch the candidate who did not read what the question measured.",
+        "id": "Jebakan pangsa-versus-ukuran. Opsi B benar sebagai pernyataan tentang pangsa dan ada persis untuk menjebak kandidat yang tidak membaca apa yang diukur soal."
        }
       }
      ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the decimal point that cost eleven marks",
+       "id": "Sorotan: titik desimal yang menghilangkan sebelas nilai"
+      },
+      "body": [
+       {
+        "en": "Nadia’s baseline numerical set came back 4 out of 10. Her error log for the set shows three notation errors: an English-format table gave “growth 1.5% per month” and she computed with 15; “2,400 units” she read as 2,4; and she wrote Rp 3 miliar as 3.000.000 on scrap paper. None of the three was a reasoning error. All three were reading errors, made in the Find step, before any arithmetic.",
+        "id": "Set numerik garis dasar Nadia mendapat 4 dari 10. Catatan kesalahannya untuk set itu menunjukkan tiga kesalahan notasi: tabel format Inggris menyebut “pertumbuhan 1.5% per bulan” dan ia menghitung dengan 15; “2,400 units” ia baca sebagai 2,4; dan ia menulis Rp 3 miliar sebagai 3.000.000 di kertas coretan. Tidak satu pun dari ketiganya kesalahan penalaran. Ketiganya kesalahan membaca, dibuat di langkah Temukan, sebelum aritmetika apa pun."
+       },
+       {
+        "en": "The fix is not more practice at percentages. It is one line written at the top of the scrap paper before each English-format set — “. is decimal, , is thousands” — and the Check step: 15% monthly growth on a logistics company is absurd, and an absurd answer is a signal to go back to Find. Two weeks later her numerical set is 8 out of 10, with the same reasoning she had at 4.",
+        "id": "Perbaikannya bukan lebih banyak latihan persentase. Melainkan satu baris yang ditulis di bagian atas kertas coretan sebelum setiap set format Inggris — “. itu desimal, , itu ribuan” — dan langkah Periksa: pertumbuhan 15% per bulan pada perusahaan logistik itu tidak masuk akal, dan jawaban yang tidak masuk akal adalah sinyal untuk kembali ke Temukan. Dua minggu kemudian set numeriknya 8 dari 10, dengan penalaran yang sama seperti saat 4."
+       }
+      ]
+     },
      "steps": [
       {
        "h": {
-        "en": "Drill 1 — The pacing decision",
-        "id": "Latihan 1 — Keputusan soal tempo"
+        "en": "Drill 1 · N1 — name every distractor",
+        "id": "Latihan 1 · N1 — sebutkan setiap pengecoh"
        },
        "body": {
-        "en": "A 20-question numerical set, 20 minutes. At question 8 you have used 11 minutes — question 8 is a dense multi-step table problem you estimate needs 3 more minutes. Decide your move, then reveal.",
-        "id": "Satu set numerik berisi 20 soal, waktunya 20 menit. Sampai di soal nomor 8, kamu sudah menghabiskan 11 menit — dan soal nomor 8 ini soal tabel bertingkat yang padat, kamu taksir masih perlu 3 menit lagi. Tentukan langkahmu, lalu buka tinjauan."
+        "en": "Solve N1 with FSCS, then say which slip produces A, D and E.",
+        "id": "Selesaikan N1 dengan FSCS, lalu sebutkan kesalahan mana yang menghasilkan A, D, dan E."
        },
        "debrief": {
-        "en": "Flag and skip, immediately. The arithmetic: 9 minutes remain for 13 questions (~40s each); spending 3 more on question 8 leaves ~28s each for twelve — a collapse. Skipping banks the reachable questions first, and flagged returns at the end often solve faster because a second look bypasses the first look's dead-end framing. The tell you should have moved earlier: any single question that reaches double your per-question budget. Pacing is triage — the score belongs to the set, not to any one question.",
-        "id": "Tandai, lalu lewati. Sekarang juga. Hitungannya begini: sisa 9 menit untuk 13 soal, sekitar 40 detik per soal. Kalau 3 menit lagi habis di soal 8, dua belas soal sisanya cuma kebagian sekitar 28 detik masing-masing — ambruk. Dengan melewati, kamu mengamankan dulu soal-soal yang masih terjangkau; dan soal bertanda yang dikunjungi ulang di akhir sering justru lebih cepat selesai, karena pandangan kedua tidak terjebak di sudut pandang buntu yang pertama. Sinyal bahwa kamu seharusnya sudah pindah lebih awal: begitu satu soal memakan dua kali jatah waktu per soalmu. Mengatur tempo itu triase — skor milik satu set utuh, bukan milik satu soal."
+        "en": "165 − 120 = 45; 45 ÷ 120 = 0,375 → <b>C) 37,5%</b>. Shortcut: 45/120 = 3/8. A (27,3%) divided by 165 — the wrong base. D (45,0%) is the absolute change in Rp miliar mistaken for a percentage. E (137,5%) is the ratio 165/120, not the increase. B is a plausible-looking number with no slip behind it — the “estimate first” check removes it.",
+        "id": "165 − 120 = 45; 45 ÷ 120 = 0,375 → <b>C) 37,5%</b>. Jalan pintas: 45/120 = 3/8. A (27,3%) membagi dengan 165 — basis salah. D (45,0%) adalah perubahan absolut dalam Rp miliar yang dikira persentase. E (137,5%) adalah rasio 165/120, bukan kenaikannya. B adalah angka yang tampak masuk akal tanpa kesalahan di baliknya — pemeriksaan “estimasi dulu” menyingkirkannya."
        }
       },
       {
        "h": {
-        "en": "Drill 2 — The night before",
-        "id": "Latihan 2 — Malam menjelang tes"
+        "en": "Drill 2 · N2 — units and periods",
+        "id": "Latihan 2 · N2 — satuan dan periode"
        },
        "body": {
-        "en": "Your test is tomorrow at 9 a.m. It is 8 p.m. and you feel underprepared in verbal. Plan tonight and tomorrow morning, then reveal.",
-        "id": "Tesmu besok pukul 9 pagi. Sekarang pukul 8 malam, dan kamu merasa belum siap di bagian verbal. Susun rencana untuk malam ini dan besok pagi, lalu buka tinjauan."
+        "en": "Solve N2. Which distractor is the one most candidates pick, and why?",
+        "id": "Selesaikan N2. Pengecoh mana yang paling sering dipilih kandidat, dan mengapa?"
        },
        "debrief": {
-        "en": "Tonight: 30 minutes reviewing the error log only — not new sets, which at this point add anxiety, not skill — then equipment check (ID, link, quiet room, charged laptop) and a normal night within your sleep window; Lesson 2.1 of The Map is literal here, because sleep debt costs more test points than any final drill adds. Morning: light breakfast, arrive or log in 20 minutes early, one warm-up set of five easy questions to start the engine — athletes warm up, test-takers should too. The counterintuitive rule: the last 12 hours are for protecting the machine, not upgrading it.",
-        "id": "Malam ini: 30 menit meninjau catatan kesalahan saja — bukan mengerjakan set baru, yang pada titik ini hanya menambah cemas, bukan menambah kemampuan. Lalu cek perlengkapan (kartu identitas, tautan tes, ruangan yang tenang, laptop terisi penuh) dan tidur normal sesuai jam tidurmu. Pelajaran 2.1 The Map berlaku harfiah di sini: utang tidur menggerus lebih banyak poin daripada yang bisa disumbangkan latihan terakhir mana pun. Besok pagi: sarapan ringan, tiba atau masuk 20 menit lebih awal, lalu satu set pemanasan lima soal mudah untuk menghidupkan mesin — atlet pemanasan dulu, peserta tes juga seharusnya begitu. Aturan yang terasa berlawanan dengan naluri: 12 jam terakhir gunanya menjaga mesin, bukan meng-upgrade-nya."
+        "en": "4.500.000 ÷ 12.000 = 375 SGD; hotel 180 × 2 nights = 360; 375 − 360 = <b>A) 15</b>. C (195) forgets the second night — the period slip in Find. D (360) and E (375) are intermediate results left as answers — the “did I answer the question asked?” check catches both. B (25) is a subtraction slip.",
+        "id": "4.500.000 ÷ 12.000 = 375 SGD; hotel 180 × 2 malam = 360; 375 − 360 = <b>A) 15</b>. C (195) melupakan malam kedua — kesalahan periode di Temukan. D (360) dan E (375) adalah hasil antara yang dibiarkan sebagai jawaban — pemeriksaan “apakah saya menjawab yang ditanya?” menangkap keduanya. B (25) adalah kesalahan pengurangan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · N3 — the total also grew",
+        "id": "Latihan 3 · N3 — totalnya juga tumbuh"
+       },
+       "body": {
+        "en": "Solve N3. State the new numerator and the new denominator before computing.",
+        "id": "Selesaikan N3. Nyatakan pembilang baru dan penyebut baru sebelum menghitung."
+       },
+       "debrief": {
+        "en": "One part = 40 ÷ 10 = 4 staff, so CS = 12. After hiring: CS = 16, total = 44. 16 ÷ 44 = <b>C) 36,4%</b>. D (40,0%) is 16 ÷ 40 — the candidate updated the part but not the total. A (30,0%) is the old share. E (42,9%) uses a wrong part size. The set-up sentence “new part ÷ new total” prevents the most common error here.",
+        "id": "Satu bagian = 40 ÷ 10 = 4 staf, jadi CS = 12. Setelah merekrut: CS = 16, total = 44. 16 ÷ 44 = <b>C) 36,4%</b>. D (40,0%) adalah 16 ÷ 40 — kandidat memperbarui bagiannya tetapi tidak totalnya. A (30,0%) adalah pangsa lama. E (42,9%) memakai ukuran bagian yang salah. Kalimat penyusunan “bagian baru ÷ total baru” mencegah kesalahan paling umum di sini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · N4 — share versus size",
+        "id": "Latihan 4 · N4 — pangsa versus ukuran"
+       },
+       "body": {
+        "en": "Solve N4 and write the one-line check that proves the direction of the answer.",
+        "id": "Selesaikan N4 dan tulis satu baris pemeriksaan yang membuktikan arah jawabannya."
+       },
+       "debrief": {
+        "en": "Now: 35% × 80 = 28 triliun. Next year: 30% × 96 = 28,8 triliun → <b>D) rises Rp 0,8 triliun</b>. Check: the share fell by one-seventh (35 → 30) while the total rose by one-fifth; the pie grew more than the slice shrank, so the slice is bigger. B is true about the share and is the trap; A and E are arithmetic on the wrong quantities.",
+        "id": "Sekarang: 35% × 80 = 28 triliun. Tahun depan: 30% × 96 = 28,8 triliun → <b>D) naik Rp 0,8 triliun</b>. Periksa: pangsa turun sepertujuh (35 → 30) sementara total naik seperlima; kuenya tumbuh lebih besar daripada potongannya menyusut, jadi potongannya lebih besar. B benar tentang pangsa dan itulah jebakannya; A dan E adalah aritmetika pada besaran yang salah."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 5 · Percent sprint, format flip, spot the base",
+        "id": "Latihan 5 · Sprint persen, balik format, temukan basisnya"
+       },
+       "body": {
+        "en": "Three Gym routines for the week. <b>Percent sprint:</b> 20 items in 5 minutes, calculator off; then the same set, calculator on. <b>Format flip:</b> the same items in Indonesian and then English notation. <b>Spot the base:</b> pairs of near-identical questions differing only in “increase from” vs “to”, or percent vs points — answer both and say what changed.",
+        "id": "Tiga rutinitas Gym untuk minggu ini. <b>Sprint persen:</b> 20 soal dalam 5 menit, kalkulator mati; lalu set yang sama, kalkulator hidup. <b>Balik format:</b> soal yang sama dalam notasi Indonesia lalu Inggris. <b>Temukan basisnya:</b> pasangan soal hampir identik yang hanya berbeda “naik dari” vs “ke”, atau persen vs poin — jawab keduanya dan katakan apa yang berubah."
+       },
+       "debrief": {
+        "en": "Notice, from the sprint, that set-up — not arithmetic — is the bottleneck: the calculator-on time is rarely much faster than calculator-off. From the flip, notice which separator you misread under time pressure and write that one at the top of the scrap paper. From the pairs, notice that the two answers can differ by a factor of three from a one-word change in the question.",
+        "id": "Perhatikan, dari sprint, bahwa penyusunan — bukan aritmetika — adalah hambatannya: waktu dengan kalkulator jarang jauh lebih cepat dari tanpa kalkulator. Dari balik format, perhatikan pemisah mana yang salah kamu baca di bawah tekanan waktu dan tulis yang itu di bagian atas kertas coretan. Dari pasangan soal, perhatikan bahwa dua jawabannya bisa berbeda tiga kali lipat karena perubahan satu kata dalam soal."
        }
       }
      ],
@@ -20972,60 +22148,194 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Practising only your strong family because it feels good",
-         "id": "Cuma melatih keluarga tes yang sudah kuat, karena rasanya menyenangkan"
+         "en": "Wrong base",
+         "id": "Basis salah"
         },
         "fix": {
-         "en": "Scores gate on the weakest family. Schedule the uncomfortable one first, while energy is high.",
-         "id": "Skormu ditentukan keluarga tes yang paling lemah. Jadwalkan yang paling tidak nyaman lebih dulu, selagi energi masih penuh."
+         "en": "Divide by the old value.",
+         "id": "Bagi dengan nilai lama."
         }
        },
        {
         "h": {
-         "en": "Unlogged practice",
-         "id": "Berlatih tanpa mencatat"
+         "en": "Points versus percent",
+         "id": "Poin versus persen"
         },
         "fix": {
-         "en": "Volume without an error log repeats mistakes at speed. Log every miss in four columns.",
-         "id": "Latihan banyak tanpa catatan kesalahan hanya mengulang kesalahan yang sama dengan lebih cepat. Catat setiap jawaban salah dalam empat kolom."
+         "en": "Name which one the question and the option mean.",
+         "id": "Sebutkan yang mana yang dimaksud soal dan opsinya."
         }
        },
        {
         "h": {
-         "en": "First simulation on test day",
-         "id": "Simulasi pertama justru di hari tes"
+         "en": "Notation",
+         "id": "Notasi"
         },
         "fix": {
-         "en": "The real interface, clock pressure and one-sitting fatigue must be old news by then — week 4 exists for this.",
-         "id": "Tampilan tes yang asli, tekanan waktu, dan lelahnya mengerjakan sekali duduk harus sudah terasa biasa sebelum hari itu — minggu 4 memang ada untuk itu."
+         "en": "Check the decimal separator before reading any number.",
+         "id": "Periksa pemisah desimal sebelum membaca angka apa pun."
+        }
+       },
+       {
+        "h": {
+         "en": "No sanity check",
+         "id": "Tanpa pemeriksaan kewajaran"
+        },
+        "fix": {
+         "en": "Estimate first; an absurd size means go back to Find.",
+         "id": "Estimasi dulu; besaran yang tidak masuk akal berarti kembali ke Temukan."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "FSCS",
+        "id": "FSCS"
+       },
+       "def": {
+        "en": "Find → Set up → Compute → Check: the four-step procedure for every numerical item.",
+        "id": "Temukan → Susun → Hitung → Periksa: prosedur empat langkah untuk setiap soal numerik."
+       }
+      },
+      {
+       "term": {
+        "en": "Base",
+        "id": "Basis"
+       },
+       "def": {
+        "en": "The value a percentage change is measured against — always the old (original) value.",
+        "id": "Nilai yang menjadi pembanding perubahan persentase — selalu nilai lama (awal)."
+       }
+      },
+      {
+       "term": {
+        "en": "Percentage point",
+        "id": "Poin persentase"
+       },
+       "def": {
+        "en": "The arithmetic difference between two percentages (35% → 30% = 5 points), as distinct from the relative change (about 14%).",
+        "id": "Selisih aritmetika antara dua persentase (35% → 30% = 5 poin), berbeda dari perubahan relatif (sekitar 14%)."
+       }
+      },
+      {
+       "term": {
+        "en": "Share vs size",
+        "id": "Pangsa vs ukuran"
+       },
+       "def": {
+        "en": "A share is a proportion of a total; size = share × total, so a smaller share of a bigger total can be a bigger size.",
+        "id": "Pangsa adalah proporsi dari total; ukuran = pangsa × total, jadi pangsa lebih kecil dari total lebih besar bisa berarti ukuran lebih besar."
+       }
+      },
+      {
+       "term": {
+        "en": "Reverse percentage",
+        "id": "Persentase terbalik"
+       },
+       "def": {
+        "en": "Recovering the original from a value after a percentage change: divide by (1 ± rate).",
+        "id": "Memulihkan nilai awal dari nilai setelah perubahan persentase: bagi dengan (1 ± laju)."
+       }
+      },
+      {
+       "term": {
+        "en": "miliar / triliun",
+        "id": "miliar / triliun"
+       },
+       "def": {
+        "en": "Indonesian for billion (10⁹) and trillion (10¹²); juta is million.",
+        "id": "Bahasa Indonesia untuk billion (10⁹) dan trillion (10¹²); juta adalah million."
+       }
+      }
+     ],
      "checks": [
       {
        "q": {
-        "en": "Why does the plan demand accuracy above ~80% before adding time pressure?",
-        "id": "Mengapa rencananya menuntut ketepatan di atas ~80% dulu, baru menambah tekanan waktu?"
+        "en": "200 → 250 is…",
+        "id": "200 → 250 adalah…"
        },
        "options": [
         {
-         "en": "Because slow candidates fail anyway",
-         "id": "Karena kandidat yang lambat toh akan gagal"
+         "en": "+20%",
+         "id": "+20%"
         },
         {
-         "en": "Speeding up a wrong method automates the error; the method must be right before it is made fast",
-         "id": "Karena mempercepat metode yang salah sama saja mengotomatiskan kesalahannya; metodenya harus benar dulu, baru dibuat cepat"
+         "en": "+25%",
+         "id": "+25%"
         },
         {
-         "en": "Because 80% is the universal pass mark",
-         "id": "Karena 80% adalah batas lulus yang berlaku di mana-mana"
+         "en": "+50%",
+         "id": "+50%"
+        },
+        {
+         "en": "+125%",
+         "id": "+125%"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Timed drilling consolidates whatever you practise — including mistakes. Order of operations: correct, then fast.",
-        "id": "Latihan berbatas waktu memperkuat apa pun yang kamu latih — termasuk kesalahannya. Urutannya: benar dulu, baru cepat."
+        "en": "50 ÷ 200 = 0,25. +20% divides by the new value; +125% is the ratio.",
+        "id": "50 ÷ 200 = 0,25. +20% membagi dengan nilai baru; +125% adalah rasionya."
+       }
+      },
+      {
+       "q": {
+        "en": "40% → 30% is a fall of…",
+        "id": "40% → 30% adalah penurunan…"
+       },
+       "options": [
+        {
+         "en": "10%",
+         "id": "10%"
+        },
+        {
+         "en": "10 percentage points",
+         "id": "10 poin persentase"
+        },
+        {
+         "en": "25 percentage points",
+         "id": "25 poin persentase"
+        },
+        {
+         "en": "40%",
+         "id": "40%"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Ten points; in relative terms it is a 25% fall. Say which one you mean.",
+        "id": "Sepuluh poin; secara relatif itu penurunan 25%. Sebutkan yang mana yang kamu maksud."
+       }
+      },
+      {
+       "q": {
+        "en": "“Rp 2.400.000,00” is…",
+        "id": "“Rp 2.400.000,00” adalah…"
+       },
+       "options": [
+        {
+         "en": "Two point four rupiah",
+         "id": "Dua koma empat rupiah"
+        },
+        {
+         "en": "Two thousand four hundred rupiah",
+         "id": "Dua ribu empat ratus rupiah"
+        },
+        {
+         "en": "Two million four hundred thousand rupiah",
+         "id": "Dua juta empat ratus ribu rupiah"
+        },
+        {
+         "en": "Twenty-four million rupiah",
+         "id": "Dua puluh empat juta rupiah"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Indonesian notation: “.” separates thousands, “,” marks the decimals.",
+        "id": "Notasi Indonesia: “.” memisahkan ribuan, “,” menandai desimal."
        }
       }
      ],
@@ -21033,104 +22343,97 @@ window.MT_LMS['the-pack'] = {
       "id": "gym",
       "mode": "drill",
       "title": {
-       "en": "Start week 1 now",
-       "id": "Mulai minggu 1 sekarang"
+       "en": "Numerical sets in the Gym",
+       "id": "Set numerik di Gym"
       },
       "body": {
-       "en": "Your diagnosis set is waiting — untimed, one per family, with worked explanations for every miss.",
-       "id": "Set diagnosismu sudah menunggu — tanpa batas waktu, satu untuk tiap keluarga tes, lengkap dengan pembahasan untuk setiap jawaban yang salah."
+       "en": "Run the numerical family untimed first, tagging every miss in the error log — misread · concept gap · arithmetic slip · time pressure · fell for a trap — then timed. Aim to name the trap behind each distractor before you compute. Two sets a day this week; the log decides next week’s drills.",
+       "id": "Jalankan keluarga numerik tanpa batas waktu dulu, tandai setiap kesalahan di catatan kesalahan — salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak — lalu berbatas waktu. Targetkan menyebutkan jebakan di balik setiap pengecoh sebelum menghitung. Dua set sehari minggu ini; catatan itu menentukan latihan minggu depan."
       },
       "cta": {
        "en": "Open the Screening Gym →",
        "id": "Buka Screening Gym →"
       }
      },
+     "takeaways": [
+      {
+       "en": "Find, set up, compute, check.",
+       "id": "Temukan, susun, hitung, periksa."
+      },
+      {
+       "en": "Know the four traps by name.",
+       "id": "Kenali empat jebakan berdasarkan namanya."
+      },
+      {
+       "en": "Read the decimal separator before you read the number.",
+       "id": "Baca pemisah desimal sebelum membaca angkanya."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the scrap-paper card",
+       "id": "Sumber dan kartu kertas coretan"
+      },
+      "lead": {
+       "en": "Three sources and the five lines to write at the top of the scrap paper before every numerical set.",
+       "id": "Tiga sumber dan lima baris untuk ditulis di bagian atas kertas coretan sebelum setiap set numerik."
+      },
       "items": [
        {
-        "kind": "worksheet",
+        "kind": "guide",
         "title": {
-         "en": "Four-week preparation plan",
-         "id": "Rencana persiapan empat minggu"
+         "en": "Reading list · Lesson 7.2",
+         "id": "Daftar bacaan · Pelajaran 7.2"
         },
         "desc": {
-         "en": "Twenty minutes a day beats three hours on Sunday.",
-         "id": "Dua puluh menit sehari mengalahkan tiga jam di hari Minggu."
+         "en": "Three sources.",
+         "id": "Tiga sumber."
         },
         "body": [
          {
-          "en": "Week 1 — diagnose: one untimed set per type; log every error by cause (concept / careless / time)",
-          "id": "Minggu 1 — diagnosis: satu set tanpa waktu per tipe; catat setiap kesalahan berdasarkan penyebab (konsep / ceroboh / waktu)"
+          "en": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), ch. 2, Tests 6 and 15 — percentage anchors, ratios, data interpretation.",
+          "id": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), bab 2, Tes 6 dan 15 — jangkar persentase, rasio, interpretasi data."
          },
          {
-          "en": "Week 2 — concepts: daily 20-minute drills on the two weakest question families; re-do every logged error",
-          "id": "Minggu 2 — konsep: latihan harian 20 menit pada dua keluarga soal terlemah; kerjakan ulang setiap kesalahan yang dicatat"
+          "en": "A. Shavick, <i>How to Pass Psychometric Tests</i> (3rd ed.), ch. 5 — estimation and numerical reasoning.",
+          "id": "A. Shavick, <i>How to Pass Psychometric Tests</i> (ed. ke-3), bab 5 — estimasi dan penalaran numerik."
          },
          {
-          "en": "Week 3 — speed: timed sets at 80% of the real time limit; practise skipping and returning",
-          "id": "Minggu 3 — kecepatan: set berwaktu pada 80% batas waktu sebenarnya; latih melewati dan kembali"
-         },
-         {
-          "en": "Week 4 — simulate: two full mocks under real conditions (quiet room, no phone, same time of day as the test); light review only on the last two days",
-          "id": "Minggu 4 — simulasi: dua tes tiruan penuh dalam kondisi nyata (ruang tenang, tanpa ponsel, jam yang sama dengan tes); tinjauan ringan saja di dua hari terakhir"
-         }
-        ]
-       },
-       {
-        "kind": "template",
-        "title": {
-         "en": "Error log",
-         "id": "Catatan kesalahan"
-        },
-        "desc": {
-         "en": "The single most effective test-prep tool. One row per mistake.",
-         "id": "Alat persiapan tes paling efektif. Satu baris per kesalahan."
-        },
-        "body": [
-         {
-          "en": "Date | Test type | Question family (e.g. percentages, syllogisms, series) | What I did | Correct approach | Cause: concept / careless / time | Re-tested on (date) | Fixed? Y/N",
-          "id": "Tanggal | Tipe tes | Keluarga soal (mis. persentase, silogisme, deret) | Yang kulakukan | Pendekatan benar | Penyebab: konsep / ceroboh / waktu | Diuji ulang pada (tanggal) | Teratasi? Y/T"
-         },
-         {
-          "en": "Weekly read: which cause dominates? Concept → study; careless → slow down on that family; time → drill speed.",
-          "id": "Bacaan mingguan: penyebab mana yang dominan? Konsep → pelajari; ceroboh → perlambat di keluarga itu; waktu → latih kecepatan."
+          "en": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — reading every word; the Check step.",
+          "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — membaca setiap kata; langkah Periksa."
          }
         ]
        },
        {
         "kind": "checklist",
         "title": {
-         "en": "Test-day protocol",
-         "id": "Protokol hari tes"
+         "en": "Scrap-paper card · five lines",
+         "id": "Kartu kertas coretan · lima baris"
         },
         "desc": {
-         "en": "For online and on-site tests.",
-         "id": "Untuk tes daring dan di lokasi."
+         "en": "Write before the clock starts.",
+         "id": "Tulis sebelum jam mulai."
         },
         "body": [
          {
-          "en": "Slept normally; ate; water within reach",
-          "id": "Tidur normal; sudah makan; air minum dalam jangkauan"
+          "en": "Separator: “.” = ___ · “,” = ___ (this test)",
+          "id": "Pemisah: “.” = ___ · “,” = ___ (tes ini)"
          },
          {
-          "en": "Online: laptop plugged in, browser updated, notifications off, ID ready, second device silenced",
-          "id": "Daring: laptop tercolok, peramban diperbarui, notifikasi mati, identitas siap, perangkat kedua disenyapkan"
+          "en": "% change = (new − old) ÷ OLD",
+          "id": "Perubahan % = (baru − lama) ÷ LAMA"
          },
          {
-          "en": "Rough paper and calculator (if allowed) checked in the instructions",
-          "id": "Kertas coretan dan kalkulator (jika diizinkan) dicek di instruksi"
+          "en": "Points ≠ percent — which does the question mean?",
+          "id": "Poin ≠ persen — yang mana yang dimaksud soal?"
          },
          {
-          "en": "Read the instructions screen: penalty for wrong answers? skipping allowed?",
-          "id": "Baca layar instruksi: ada penalti jawaban salah? boleh melewati?"
+          "en": "Size = share × total",
+          "id": "Ukuran = pangsa × total"
          },
          {
-          "en": "Time budget written down: seconds per question, checkpoint at halfway",
-          "id": "Anggaran waktu ditulis: detik per soal, titik cek di pertengahan"
-         },
-         {
-          "en": "Skip rule agreed with yourself: stuck for 45 seconds → mark, move on",
-          "id": "Aturan lewati disepakati dengan diri sendiri: buntu 45 detik → tandai, lanjut"
+          "en": "Original = after ÷ (1 ± rate) · Estimate first · Answer the question asked",
+          "id": "Awal = sesudah ÷ (1 ± laju) · Estimasi dulu · Jawab yang ditanya"
          }
         ]
        }
@@ -21139,312 +22442,689 @@ window.MT_LMS['the-pack'] = {
     },
     {
      "n": "7.3",
-     "title": {
-      "en": "Core Theories — Numerical, Verbal, Logical, and Personality Frameworks",
-      "id": "Teori Inti — Kerangka Numerik, Verbal, Logika, dan Kepribadian"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "slides",
+     "kind": "interactive",
      "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Verbal, Series and Abstract Reasoning",
+      "id": "Penalaran Verbal, Deret, dan Abstrak"
+     },
      "overview": {
-      "en": "The core technique deck: the handful of frameworks that solve most numerical, verbal and logical questions, plus how personality frameworks are read. Keep it open beside your first practice sessions.",
-      "id": "Inilah dek teknik intinya: segelintir kerangka yang cukup untuk menyelesaikan sebagian besar soal numerik, verbal, dan logika, plus cara pembaca menafsirkan kerangka kepribadian. Biarkan halaman ini terbuka di samping sesi-sesi latihan pertamamu."
+      "en": "Three families, three named procedures. Verbal: does the passage <i>force</i> the statement? Number series: differences first, simplest rule last. Abstract: one dimension at a time, in a fixed scan order, predicting before you look at the options. Each comes with a worked set and the trap list that generates its distractors.",
+      "id": "Tiga keluarga, tiga prosedur bernama. Verbal: apakah bacaan <i>memaksa</i> pernyataannya? Deret angka: selisih dulu, aturan paling sederhana terakhir. Abstrak: satu dimensi pada satu waktu, dalam urutan pindai tetap, memprediksi sebelum melihat opsi. Masing-masing dilengkapi set terurai dan daftar jebakan yang menghasilkan pengecohnya."
      },
      "objectives": [
       {
-       "en": "Apply the percentage toolkit: change, reverse, and compound.",
-       "id": "Menerapkan tiga alat persentase: perubahan, kebalikan, dan majemuk."
+       "en": "Apply the “force” test to True / False / Cannot Say items and name the trap behind each distractor.",
+       "id": "Menerapkan uji “memaksa” pada soal Benar / Salah / Tidak Bisa Disimpulkan dan menyebutkan jebakan di balik setiap pengecoh."
       },
       {
-       "en": "Use the cannot-say discipline on verbal statements.",
-       "id": "Menerapkan disiplin “tidak bisa disimpulkan” pada pernyataan verbal."
+       "en": "Solve number series with the five-step method and name the family.",
+       "id": "Menyelesaikan deret angka dengan metode lima langkah dan menyebutkan keluarganya."
       },
       {
-       "en": "Scan abstract patterns along the five standard dimensions.",
-       "id": "Memindai pola abstrak lewat lima dimensi standar."
+       "en": "Solve abstract items with the scan order, one dimension at a time.",
+       "id": "Menyelesaikan soal abstrak dengan urutan pindai, satu dimensi pada satu waktu."
+      },
+      {
+       "en": "Predict before you peek.",
+       "id": "Memprediksi sebelum mengintip."
       }
      ],
-     "takeawaysLead": {
-      "en": "Most test questions are a handful of frameworks wearing different tables and passages. To carry the kit into your practice sessions, you can:",
-      "id": "Sebagian besar soal tes adalah segelintir kerangka yang memakai tabel dan bacaan berbeda. Untuk membawa perangkat ini ke sesi latihanmu, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Most numerical questions are three formulas wearing different tables.",
-       "id": "Sebagian besar soal numerik hanyalah tiga rumus yang sama, dibungkus tabel yang berbeda."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
       },
-      {
-       "en": "Verbal tests measure your restraint: only what the passage says, never what you know.",
-       "id": "Tes verbal mengukur kemampuanmu menahan diri: hanya yang tertulis di bacaan, bukan yang kamu tahu."
+      "title": {
+       "en": "Three procedures",
+       "id": "Tiga prosedur"
       },
-      {
-       "en": "Abstract patterns hide in five dimensions — scan them in order and the answer surfaces.",
-       "id": "Pola abstrak bersembunyi di lima dimensi — pindai satu per satu secara berurutan, jawabannya akan muncul."
-      }
-     ],
-     "slides": [
-      {
-       "h": {
-        "en": "Numerical — the percentage toolkit",
-        "id": "Numerik — tiga alat persentase"
-       },
-       "points": [
-        {
-         "en": "Change: (new − old) ÷ old × 100. Always divide by the ORIGINAL.",
-         "id": "Perubahan: (baru − lama) ÷ lama × 100. Selalu bagi dengan nilai AWAL."
-        },
-        {
-         "en": "Reverse: after +20%, the original is value ÷ 1.20 — never value × 0.80.",
-         "id": "Kebalikan: setelah naik 20%, nilai awalnya adalah nilai ÷ 1,20 — bukan nilai × 0,80."
-        },
-        {
-         "en": "Compound: two changes multiply — +10% then −10% is ×1.1×0.9 = ×0.99, a net loss.",
-         "id": "Majemuk: dua perubahan saling dikalikan — naik 10% lalu turun 10% berarti ×1,1×0,9 = ×0,99, hasil bersihnya turun."
-        },
-        {
-         "en": "Ratios: keep units visible; scale to a common base before comparing.",
-         "id": "Rasio: satuannya selalu ditulis; samakan dasarnya dulu sebelum membandingkan."
-        }
-       ]
+      "intro": {
+       "en": "One rule per family. Everything else in this lesson is the rule applied to examples.",
+       "id": "Satu aturan per keluarga. Semua yang lain di pelajaran ini adalah aturan itu diterapkan pada contoh."
       },
-      {
-       "h": {
-        "en": "Numerical — reading the exhibit",
-        "id": "Numerik — membaca tabel dan grafik"
+      "slides": [
+       {
+        "h": {
+         "en": "Verbal — the force test",
+         "id": "Verbal — uji memaksa"
+        },
+        "points": [
+         {
+          "en": "Locate the sentence. Does the passage force the statement true? → True. Force the opposite? → False. Otherwise → Cannot Say.",
+          "id": "Temukan kalimatnya. Apakah bacaan memaksa pernyataan itu benar? → Benar. Memaksa kebalikannya? → Salah. Selain itu → Tidak Bisa Disimpulkan."
+         },
+         {
+          "en": "Switch off outside knowledge. Absolute words are danger signals.",
+          "id": "Matikan pengetahuan luar. Kata-kata mutlak adalah sinyal bahaya."
+         }
+        ]
        },
-       "points": [
-        {
-         "en": "Read the title, units and footnotes BEFORE the question — most traps live there (thousands, %, fiscal years).",
-         "id": "Baca judul, satuan, dan catatan kaki SEBELUM membaca soal — di situlah kebanyakan jebakan disembunyikan (ribuan, %, tahun fiskal)."
+       {
+        "h": {
+         "en": "Series — differences first",
+         "id": "Deret — selisih dulu"
         },
-        {
-         "en": "Estimate first: round numbers, get a magnitude, then compute only if options are close.",
-         "id": "Taksir dulu: bulatkan angkanya, dapatkan kisaran besarnya, lalu hitung persis hanya kalau pilihan jawabannya berdekatan."
-        },
-        {
-         "en": "Two-table questions: identify the joining column before touching arithmetic.",
-         "id": "Soal dua tabel: temukan dulu kolom yang menghubungkan keduanya, baru menyentuh hitungan."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Verbal — true / false / cannot say",
-        "id": "Verbal — benar / salah / tidak bisa disimpulkan"
+        "points": [
+         {
+          "en": "Rising, falling or zig-zag? Write the differences. Constant → done; patterned → second order; fast growth → ratios or powers.",
+          "id": "Naik, turun, atau zig-zag? Tulis selisihnya. Konstan → selesai; berpola → orde kedua; tumbuh cepat → rasio atau pangkat."
+         },
+         {
+          "en": "Choose the simplest rule that fits every term and an available option.",
+          "id": "Pilih aturan paling sederhana yang cocok dengan setiap suku dan opsi yang tersedia."
+         }
+        ]
        },
-       "points": [
-        {
-         "en": "TRUE: the passage states it or it follows necessarily. FALSE: the passage contradicts it.",
-         "id": "BENAR: bacaan menyatakannya, atau hal itu pasti mengikuti dari bacaan. SALAH: bacaan bertentangan dengannya."
+       {
+        "h": {
+         "en": "Abstract — one dimension at a time",
+         "id": "Abstrak — satu dimensi pada satu waktu"
         },
-        {
-         "en": "CANNOT SAY: plausible, consistent with the passage, but not established by it — the trap for well-read candidates.",
-         "id": "TIDAK BISA DISIMPULKAN: masuk akal, tidak bertentangan dengan bacaan, tetapi tidak dibuktikan oleh bacaan — jebakan bagi kandidat yang banyak tahu."
-        },
-        {
-         "en": "Outside knowledge is contamination: judge the statement against the passage alone.",
-         "id": "Pengetahuan dari luar adalah kontaminasi: nilai pernyataan itu hanya berdasarkan bacaannya."
-        },
-        {
-         "en": "Beware quantifier swaps: “some” in the passage never proves “most” in the statement.",
-         "id": "Waspadai pertukaran kata jumlah: “sebagian” di bacaan tidak pernah membuktikan “sebagian besar” di pernyataan."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Logical — the five scan dimensions",
-        "id": "Logika — lima dimensi pindai"
-       },
-       "points": [
-        {
-         "en": "Shape: what forms appear, appear, or vanish across the sequence?",
-         "id": "Bentuk: bentuk apa yang muncul, bertambah, atau menghilang di sepanjang urutan?"
-        },
-        {
-         "en": "Number: count elements — sides, dots, shapes — is a counter running?",
-         "id": "Jumlah: hitung elemennya — sisi, titik, bangun — apakah ada penghitung yang berjalan?"
-        },
-        {
-         "en": "Position & rotation: does anything move or turn by a fixed step?",
-         "id": "Posisi & rotasi: adakah yang bergeser atau berputar dengan langkah tetap?"
-        },
-        {
-         "en": "Shading & size: does fill alternate or grow on a cycle?",
-         "id": "Arsiran & ukuran: apakah isian berganti-ganti atau membesar mengikuti siklus?"
-        },
-        {
-         "en": "Two rules often run at once — find one, hold it, scan for the second.",
-         "id": "Dua aturan sering berjalan sekaligus — temukan satu, pegang, lalu pindai yang kedua."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Personality & SJT — read, not gamed",
-        "id": "Kepribadian & SJT — dibaca, bukan diakali"
-       },
-       "points": [
-        {
-         "en": "Inventories profile work style against the role; consistency checks catch curated personas.",
-         "id": "Inventori kepribadian memetakan gaya kerjamu terhadap tuntutan peran; pemeriksaan konsistensi menangkap persona yang dibuat-buat."
-        },
-        {
-         "en": "Answer as your working self on a good day — honest, slightly formal, consistent.",
-         "id": "Jawablah sebagai dirimu saat bekerja di hari yang baik — jujur, sedikit formal, konsisten."
-        },
-        {
-         "en": "SJT: the most effective response usually addresses the problem directly, keeps others informed, and escalates real risks early.",
-         "id": "SJT: respons yang paling efektif biasanya menangani masalahnya secara langsung, menjaga orang lain tetap tahu, dan mengeskalasi risiko yang nyata sejak dini."
-        },
-        {
-         "en": "Gaming a profile wins you a role that fits the mask — a loss dressed as a win.",
-         "id": "Mengakali profil hanya memenangkan peran yang cocok untuk topengmu — kekalahan yang berkostum kemenangan."
-        }
-       ]
-      }
-     ],
-     "sections": [
-      {
-       "icon": "target",
-       "h": {
-        "en": "Numerical: three formulas, one reading habit",
-        "id": "Numerik: tiga rumus, satu kebiasaan membaca"
-       },
-       "body": {
-        "en": "Almost every numerical question is percentage change, reverse percentage, or compound change, applied to a table. <b>Change</b> is (new − old) ÷ old × 100 — always divided by the original, which is the single most common miss in error logs. <b>Reverse</b> undoes a change: after +20%, the original is the value ÷ 1.20, never × 0.80. <b>Compound</b> multiplies: +10% then −10% is × 1.1 × 0.9 = × 0.99, a net loss, not a wash. Ratios keep their units visible and are scaled to a common base before comparison. The reading habit that makes the formulas usable under time: title, units and footnotes first, then the question — most traps live in the footnote (“figures in thousands”, “excludes returns”). Estimate before computing: round the numbers, get the magnitude, and compute exactly only if two options survive the estimate. Two-table questions have a joining column; find it before touching arithmetic.",
-        "id": "Hampir setiap soal numerik adalah perubahan persentase, persentase kebalikan, atau perubahan majemuk, yang diterapkan pada sebuah tabel. <b>Perubahan</b> adalah (baru − lama) ÷ lama × 100 — selalu dibagi nilai asal, kesalahan paling umum di catatan kesalahan. <b>Kebalikan</b> membatalkan perubahan: setelah +20%, nilai asal adalah nilai ÷ 1,20, bukan × 0,80. <b>Majemuk</b> mengalikan: +10% lalu −10% adalah × 1,1 × 0,9 = × 0,99, rugi bersih, bukan impas. Rasio menjaga satuannya tetap terlihat dan diskalakan ke basis yang sama sebelum dibandingkan. Kebiasaan membaca yang membuat rumus-rumus itu bisa dipakai di bawah tekanan waktu: judul, satuan, dan catatan kaki dulu, baru soalnya — sebagian besar jebakan ada di catatan kaki (“angka dalam ribuan”, “tidak termasuk retur”). Perkirakan sebelum menghitung: bulatkan angkanya, dapatkan besarannya, dan hitung persis hanya jika dua pilihan masih bertahan setelah perkiraan. Soal dua tabel punya kolom penghubung; temukan itu sebelum menyentuh aritmetika."
+        "points": [
+         {
+          "en": "Count → Position → Rotation/reflection → Shading → Size → Shape → Line style → Relationships → Combination logic.",
+          "id": "Jumlah → Posisi → Rotasi/refleksi → Arsiran → Ukuran → Bentuk → Gaya garis → Hubungan → Logika kombinasi."
+         },
+         {
+          "en": "Predict before you peek; ignore what every figure shares.",
+          "id": "Prediksi sebelum mengintip; abaikan apa yang dimiliki semua gambar."
+         }
+        ]
        }
-      },
+      ]
+     },
+     "sections": [
       {
        "icon": "book",
        "h": {
-        "en": "Verbal and logical: restraint and the five scan dimensions",
-        "id": "Verbal dan logika: pengendalian diri dan lima dimensi pemindaian"
+        "en": "Verbal: the “force” test for True / False / Cannot Say",
+        "id": "Verbal: uji “memaksa” untuk Benar / Salah / Tidak Bisa Disimpulkan"
        },
        "body": {
-        "en": "Verbal tests measure restraint. <b>True</b> means the passage states it or it follows necessarily; <b>false</b> means the passage contradicts it; <b>cannot say</b> means plausible, consistent, but not established. Outside knowledge is contamination: you judge the statement against the passage only, even when you know the real-world answer. Watch quantifier swaps — “some” in the passage never proves “most” in the statement, and “often” never becomes “always”. Logical and abstract questions hide their rule in five dimensions, scanned in order: <b>shape</b> (what appears or vanishes across the sequence), <b>number</b> (is a counter of sides, dots or elements running?), <b>position and rotation</b> (does anything move or turn by a fixed step?), <b>shading and size</b> (does fill alternate or grow on a cycle?), and the fact that two rules often run at once — find one, hold it, and scan again for the second. Scanning in a fixed order is what makes the answer surface under time instead of dissolving into staring.",
-        "id": "Tes verbal mengukur pengendalian diri. <b>Benar</b> berarti bacaan menyatakannya atau ia mengikuti secara niscaya; <b>salah</b> berarti bacaan membantahnya; <b>tidak bisa disimpulkan</b> berarti masuk akal, konsisten, tetapi tidak ditetapkan. Pengetahuan dari luar adalah kontaminasi: kamu menilai pernyataan hanya terhadap bacaan, bahkan ketika kamu tahu jawaban di dunia nyata. Waspadai pertukaran kuantor — “sebagian” dalam bacaan tak pernah membuktikan “sebagian besar” dalam pernyataan, dan “sering” tak pernah menjadi “selalu”. Soal logika dan abstrak menyembunyikan aturannya dalam lima dimensi, dipindai berurutan: <b>bentuk</b> (apa yang muncul atau hilang sepanjang urutan), <b>jumlah</b> (apakah ada penghitung sisi, titik, atau elemen yang berjalan?), <b>posisi dan rotasi</b> (apakah ada yang bergerak atau berputar dengan langkah tetap?), <b>arsiran dan ukuran</b> (apakah isian bergantian atau membesar dalam siklus?), dan kenyataan bahwa dua aturan sering berjalan sekaligus — temukan satu, pegang, dan pindai lagi untuk yang kedua. Memindai dalam urutan tetap adalah yang membuat jawaban muncul di bawah tekanan waktu alih-alih larut dalam tatapan kosong."
+        "en": "Tests define the three answers precisely <i>(Shavick, How to Pass Psychometric Tests, ch. 4)</i>: <b>True</b> — the statement follows from the passage; <b>False</b> — the passage says or implies the opposite; <b>Cannot Say</b> — it cannot be determined from the passage alone. The procedure: (1) <b>Locate</b> the sentence or sentences the statement depends on. (2) Does the passage <b>force</b> the statement true? → True. (3) Does it <b>force</b> the opposite? → False. (4) Otherwise → <b>Cannot Say</b> — even if the statement is plausible, likely, or true in real life. Switch off outside knowledge: the passage is the whole world <i>(Shavick, ch. 4)</i>. Treat absolute words — “all”, “every”, “never”, “only” — as danger signals in both the passage and the statement <i>(Shavick, ch. 4)</i>.",
+        "id": "Tes mendefinisikan tiga jawabannya dengan tepat <i>(Shavick, How to Pass Psychometric Tests, bab 4)</i>: <b>Benar</b> — pernyataan mengikuti bacaan; <b>Salah</b> — bacaan menyatakan atau menyiratkan kebalikannya; <b>Tidak Bisa Disimpulkan</b> — tidak bisa ditentukan dari bacaan saja. Prosedurnya: (1) <b>Temukan</b> kalimat yang menjadi sandaran pernyataan. (2) Apakah bacaan <b>memaksa</b> pernyataan itu benar? → Benar. (3) Apakah bacaan <b>memaksa</b> kebalikannya? → Salah. (4) Selain itu → <b>Tidak Bisa Disimpulkan</b> — bahkan jika pernyataannya masuk akal, mungkin, atau benar di dunia nyata. Matikan pengetahuan luar: bacaan adalah seluruh dunia <i>(Shavick, bab 4)</i>. Perlakukan kata mutlak — “semua”, “setiap”, “tidak pernah”, “hanya” — sebagai sinyal bahaya di bacaan maupun pernyataan <i>(Shavick, bab 4)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Trap",
+          "id": "Jebakan"
+         },
+         {
+          "en": "Looks like",
+          "id": "Tampak seperti"
+         },
+         {
+          "en": "The tell",
+          "id": "Tandanya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Every vs average",
+           "id": "Setiap vs rata-rata"
+          },
+          {
+           "en": "“Queuing time fell” (on average) → “fell at every station”",
+           "id": "“Waktu antre turun” (rata-rata) → “turun di setiap stasiun”"
+          },
+          {
+           "en": "An average can fall while some members rise → Cannot Say",
+           "id": "Rata-rata bisa turun sementara sebagian anggota naik → Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Some vs all",
+           "id": "Sebagian vs semua"
+          },
+          {
+           "en": "“Some stations were excluded” → “most stations were excluded”",
+           "id": "“Sebagian stasiun dikecualikan” → “kebanyakan stasiun dikecualikan”"
+          },
+          {
+           "en": "Quantity words changed → Cannot Say unless the numbers are given",
+           "id": "Kata jumlah berubah → Tidak Bisa Disimpulkan kecuali angkanya diberikan"
+          }
+         ],
+         [
+          {
+           "en": "Correlation vs cause",
+           "id": "Korelasi vs sebab"
+          },
+          {
+           "en": "“Complaints rose after the change” → “the change caused complaints”",
+           "id": "“Keluhan naik setelah perubahan” → “perubahan menyebabkan keluhan”"
+          },
+          {
+           "en": "Sequence is not cause → Cannot Say",
+           "id": "Urutan bukan sebab → Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Base rates",
+           "id": "Laju dasar"
+          },
+          {
+           "en": "“Most complaints came from group X” → “group X is more likely to complain”",
+           "id": "“Kebanyakan keluhan datang dari kelompok X” → “kelompok X lebih mungkin mengeluh”"
+          },
+          {
+           "en": "Needs the size of group X → Cannot Say",
+           "id": "Butuh ukuran kelompok X → Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Plans vs facts",
+           "id": "Rencana vs fakta"
+          },
+          {
+           "en": "“Intends to extend by 2026” → “will extend by 2026”",
+           "id": "“Berniat memperluas pada 2026” → “akan memperluas pada 2026”"
+          },
+          {
+           "en": "Intention ≠ outcome → Cannot Say",
+           "id": "Niat ≠ hasil → Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Time scope",
+           "id": "Cakupan waktu"
+          },
+          {
+           "en": "“In 2024, 40 stations” → “40 stations today”",
+           "id": "“Pada 2024, 40 stasiun” → “40 stasiun saat ini”"
+          },
+          {
+           "en": "The passage’s date is not now → Cannot Say",
+           "id": "Tanggal bacaan bukan sekarang → Tidak Bisa Disimpulkan"
+          }
+         ],
+         [
+          {
+           "en": "Missing comparator",
+           "id": "Pembanding hilang"
+          },
+          {
+           "en": "“Fell by a third” → “fell more than at other operators”",
+           "id": "“Turun sepertiga” → “turun lebih banyak daripada operator lain”"
+          },
+          {
+           "en": "No comparison given → Cannot Say",
+           "id": "Tidak ada perbandingan → Tidak Bisa Disimpulkan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Most Cannot Say items are one of these seven. Most wrong “True” answers are outside knowledge or a plausible inference the passage does not force.",
+         "id": "Kebanyakan soal Tidak Bisa Disimpulkan adalah salah satu dari tujuh ini. Kebanyakan jawaban “Benar” yang salah adalah pengetahuan luar atau inferensi masuk akal yang tidak dipaksa bacaan."
+        }
+       },
+       "quote": {
+        "text": {
+         "en": "<b>Worked passage (original).</b> In 2024, PT Rel Nusantara introduced cashless-only ticketing at 40 of its 120 stations. Management reported that average queuing time at these stations fell by roughly a third in six months. Stations outside major metropolitan areas were excluded because card-reader connectivity there was judged unreliable. The company intends to extend cashless ticketing to all stations by 2026, subject to a review of complaints; so far, most formal complaints have come from passengers aged over 60. Cash can still be used to top up fare cards at every station.",
+         "id": "<b>Bacaan terurai (asli).</b> Pada 2024, PT Rel Nusantara memperkenalkan tiket nontunai-saja di 40 dari 120 stasiunnya. Manajemen melaporkan bahwa rata-rata waktu antre di stasiun-stasiun ini turun sekitar sepertiga dalam enam bulan. Stasiun di luar wilayah metropolitan besar dikecualikan karena konektivitas pembaca kartu di sana dinilai tidak andal. Perusahaan berniat memperluas tiket nontunai ke semua stasiun pada 2026, dengan syarat tinjauan atas keluhan; sejauh ini, kebanyakan keluhan resmi datang dari penumpang berusia di atas 60 tahun. Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun."
+        },
+        "who": {
+         "en": "Five statements on this passage are worked in Drill 1.",
+         "id": "Lima pernyataan tentang bacaan ini diurai di Latihan 1."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Number series: five steps, thirteen families",
+        "id": "Deret angka: lima langkah, tiga belas keluarga"
+       },
+       "body": {
+        "en": "Carter and Barrett share a method <i>(Carter; Barrett, Aptitude Test Workbook, Test 5)</i>: (1) Is the series rising, falling or <b>zig-zagging</b>? Zig-zag → try splitting the odd and even positions into two interleaved series. (2) <b>Write the differences</b> between terms. Constant → done. A pattern in the differences → a second-order series; write the differences of the differences. (3) <b>Fast growth</b> → try ratios (each term divided by the previous) or powers (squares, cubes, ±1). (4) Still stuck → alternating operations (×2, −3, ×2, −3…) or sums of previous terms. (5) Choose the <b>simplest</b> rule that fits every term <i>and</i> an available option. Thirteen families cover almost every published item:",
+        "id": "Carter dan Barrett berbagi satu metode <i>(Carter; Barrett, Aptitude Test Workbook, Tes 5)</i>: (1) Apakah deretnya naik, turun, atau <b>zig-zag</b>? Zig-zag → coba pisahkan posisi ganjil dan genap menjadi dua deret yang berselang-seling. (2) <b>Tulis selisihnya</b> antar suku. Konstan → selesai. Pola pada selisih → deret orde kedua; tulis selisih dari selisihnya. (3) <b>Tumbuh cepat</b> → coba rasio (tiap suku dibagi suku sebelumnya) atau pangkat (kuadrat, kubik, ±1). (4) Masih buntu → operasi berselang (×2, −3, ×2, −3…) atau jumlah suku-suku sebelumnya. (5) Pilih aturan <b>paling sederhana</b> yang cocok dengan setiap suku <i>dan</i> opsi yang tersedia. Tiga belas keluarga mencakup hampir setiap soal yang diterbitkan:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "#",
+          "id": "#"
+         },
+         {
+          "en": "Family",
+          "id": "Keluarga"
+         },
+         {
+          "en": "Example → next",
+          "id": "Contoh → berikutnya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Constant difference",
+           "id": "Selisih konstan"
+          },
+          {
+           "en": "7, 11, 15, 19 → 23",
+           "id": "7, 11, 15, 19 → 23"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Constant ratio",
+           "id": "Rasio konstan"
+          },
+          {
+           "en": "5, 10, 20, 40 → 80",
+           "id": "5, 10, 20, 40 → 80"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "Percentage growth",
+           "id": "Pertumbuhan persentase"
+          },
+          {
+           "en": "200, 220, 242, 266,2 → 292,82 (+10%)",
+           "id": "200, 220, 242, 266,2 → 292,82 (+10%)"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "Growing differences",
+           "id": "Selisih membesar"
+          },
+          {
+           "en": "4, 6, 10, 16, 24 → 34 (2, 4, 6, 8, 10)",
+           "id": "4, 6, 10, 16, 24 → 34 (2, 4, 6, 8, 10)"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "Differences as multiples",
+           "id": "Selisih sebagai kelipatan"
+          },
+          {
+           "en": "1, 4, 13, 40 → 121 (+3, +9, +27, +81)",
+           "id": "1, 4, 13, 40 → 121 (+3, +9, +27, +81)"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "Squares / cubes (±1)",
+           "id": "Kuadrat / kubik (±1)"
+          },
+          {
+           "en": "2, 5, 10, 17, 26 → 37 (n² + 1)",
+           "id": "2, 5, 10, 17, 26 → 37 (n² + 1)"
+          }
+         ],
+         [
+          {
+           "en": "7",
+           "id": "7"
+          },
+          {
+           "en": "Alternating differences",
+           "id": "Selisih berselang"
+          },
+          {
+           "en": "3, 8, 10, 15, 17 → 22 (+5, +2)",
+           "id": "3, 8, 10, 15, 17 → 22 (+5, +2)"
+          }
+         ],
+         [
+          {
+           "en": "8",
+           "id": "8"
+          },
+          {
+           "en": "Alternating operations",
+           "id": "Operasi berselang"
+          },
+          {
+           "en": "4, 8, 5, 10, 7, 14 → 11 (×2, −3)",
+           "id": "4, 8, 5, 10, 7, 14 → 11 (×2, −3)"
+          }
+         ],
+         [
+          {
+           "en": "9",
+           "id": "9"
+          },
+          {
+           "en": "Repeating multiplier cycle",
+           "id": "Siklus pengali berulang"
+          },
+          {
+           "en": "2, 6, 12, 36, 72 → 216 (×3, ×2)",
+           "id": "2, 6, 12, 36, 72 → 216 (×3, ×2)"
+          }
+         ],
+         [
+          {
+           "en": "10",
+           "id": "10"
+          },
+          {
+           "en": "Interleaved sequences",
+           "id": "Deret berselang-seling"
+          },
+          {
+           "en": "2, 12, 5, 10, 8, 8, 11 → 6 (+3 / −2)",
+           "id": "2, 12, 5, 10, 8, 8, 11 → 6 (+3 / −2)"
+          }
+         ],
+         [
+          {
+           "en": "11",
+           "id": "11"
+          },
+          {
+           "en": "“×a + b” compound",
+           "id": "Gabungan “×a + b”"
+          },
+          {
+           "en": "3, 7, 15, 31, 63 → 127 (×2 + 1)",
+           "id": "3, 7, 15, 31, 63 → 127 (×2 + 1)"
+          }
+         ],
+         [
+          {
+           "en": "12",
+           "id": "12"
+          },
+          {
+           "en": "Sum of previous terms",
+           "id": "Jumlah suku sebelumnya"
+          },
+          {
+           "en": "1, 1, 2, 3, 5, 8 → 13",
+           "id": "1, 1, 2, 3, 5, 8 → 13"
+          }
+         ],
+         [
+          {
+           "en": "13",
+           "id": "13"
+          },
+          {
+           "en": "Ratio-pair logic",
+           "id": "Logika pasangan rasio"
+          },
+          {
+           "en": "3, 9, 4, 16, 5, 25 → 6 (n, n²)",
+           "id": "3, 9, 4, 16, 5, 25 → 6 (n, n²)"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Week 1 of the plan covers families 1–7; week 2 covers 8–13.",
+         "id": "Minggu 1 rencana mencakup keluarga 1–7; minggu 2 mencakup 8–13."
+        }
        }
       },
       {
        "icon": "eye",
        "h": {
-        "en": "Personality and SJT: read, not gamed",
-        "id": "Kepribadian dan SJT: dibaca, bukan diakali"
+        "en": "Abstract: the scan order",
+        "id": "Abstrak: urutan pindai"
        },
        "body": {
-        "en": "Personality inventories profile your work style against the role's, and they carry consistency checks: the same trait is asked several ways, and contradictory answers flag the profile rather than flatter it. The workable instruction is to answer as your working self on a good day — honest, slightly formal, consistent — not as the imagined ideal employee. Situational judgement tests present a workplace scenario and several responses to rank; the most effective response almost always addresses the problem directly, respects the people involved, and escalates only what genuinely needs escalating, while the least effective ignores the problem or bypasses the people. The deeper reason not to game either instrument is practical, not moral: a profile shaped to a mask wins you a role that fits the mask, which is a loss dressed as a win — the misfit surfaces within months, in a job you now have to leave.",
-        "id": "Inventori kepribadian memprofilkan gaya kerjamu terhadap gaya kerja yang dituntut peran, dan membawa pemeriksaan konsistensi: sifat yang sama ditanyakan dengan beberapa cara, dan jawaban yang saling bertentangan menandai profil, bukan menyanjungnya. Petunjuk yang bisa dipakai adalah menjawab sebagai dirimu saat bekerja di hari yang baik — jujur, sedikit formal, konsisten — bukan sebagai karyawan ideal khayalan. Tes penilaian situasional menyajikan skenario kerja dan beberapa respons untuk diurutkan; respons paling efektif hampir selalu menangani masalah secara langsung, menghormati orang-orang yang terlibat, dan mengeskalasi hanya yang benar-benar perlu, sementara yang paling tidak efektif mengabaikan masalah atau melangkahi orang-orangnya. Alasan yang lebih dalam untuk tidak mengakali kedua instrumen itu bersifat praktis, bukan moral: profil yang dibentuk menyerupai topeng memenangkanmu peran yang cocok dengan topeng itu, sebuah kekalahan yang berpakaian kemenangan — ketidakcocokannya muncul dalam hitungan bulan, di pekerjaan yang kini harus kamu tinggalkan."
-       }
+        "en": "Shapes in abstract items change along independent dimensions; the mistake is trying to see the whole rule at once. Check <b>one dimension at a time</b>, in a fixed order <i>(Barrett, Test 9; Shavick, ch. 6)</i>: <b>Count → Position → Rotation/reflection → Shading → Size → Shape → Line style → Relationships → Combination logic</b>. In 3×3 matrices the combination logic may be that elements <i>add</i> across a row, <i>cancel</i> where they overlap, or <i>carry forward</i> only when shared by the first two cells. Three habits make the order work: <b>predict before you look</b> at the options — decide what the next frame must contain, then find it <i>(Carter)</i>; <b>ignore what is shared</b> — a feature present in every figure cannot be the rule; and watch <b>rotation versus reflection</b> — four rotated copies and one mirror image is a classic odd-one-out <i>(Carter)</i>.",
+        "id": "Bentuk dalam soal abstrak berubah sepanjang dimensi yang saling bebas; kesalahannya adalah mencoba melihat seluruh aturan sekaligus. Periksa <b>satu dimensi pada satu waktu</b>, dalam urutan tetap <i>(Barrett, Tes 9; Shavick, bab 6)</i>: <b>Jumlah → Posisi → Rotasi/refleksi → Arsiran → Ukuran → Bentuk → Gaya garis → Hubungan → Logika kombinasi</b>. Dalam matriks 3×3 logika kombinasinya bisa berupa elemen yang <i>dijumlahkan</i> sepanjang baris, <i>saling menghapus</i> saat tumpang tindih, atau <i>diteruskan</i> hanya jika dimiliki dua sel pertama. Tiga kebiasaan membuat urutan itu bekerja: <b>prediksi sebelum melihat</b> opsi — putuskan apa yang harus ada di bingkai berikutnya, lalu temukan <i>(Carter)</i>; <b>abaikan yang dimiliki bersama</b> — fitur yang ada di setiap gambar tidak mungkin menjadi aturan; dan perhatikan <b>rotasi versus refleksi</b> — empat salinan terputar dan satu bayangan cermin adalah soal “yang berbeda” klasik <i>(Carter)</i>."
+       },
+       "bullets": [
+        {
+         "en": "<b>Item specifications</b> (the Gym’s abstract items are written to these, originally): series of 4–5 frames; 3×3 matrices with the bottom-right missing; odd-one-out of 5; A : B :: C : ? analogies; Set A / Set B classification.",
+         "id": "<b>Spesifikasi soal</b> (soal abstrak Gym ditulis sesuai ini, secara asli): deret 4–5 bingkai; matriks 3×3 dengan kanan-bawah hilang; yang berbeda dari 5; analogi A : B :: C : ?; klasifikasi Himpunan A / Himpunan B."
+        },
+        {
+         "en": "Each item uses 2–3 independent dimensions; each distractor breaks exactly one of them — which is why scanning one dimension at a time eliminates distractors one at a time.",
+         "id": "Setiap soal memakai 2–3 dimensi bebas; setiap pengecoh melanggar tepat satu di antaranya — itulah mengapa memindai satu dimensi pada satu waktu menyingkirkan pengecoh satu per satu."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Worked abstract items, in words",
+        "id": "Soal abstrak terurai, dalam kata-kata"
+       },
+       "body": {
+        "en": "Abstract items are visual, but the reasoning is verbal, so they can be practised in words. Three originals:",
+        "id": "Soal abstrak bersifat visual, tetapi penalarannya verbal, sehingga bisa dilatih dalam kata-kata. Tiga soal asli:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Series.</b> Frame 1: one black circle, top-left. Frame 2: two black circles, top-right. Frame 3: three black circles, bottom-right. Frame 4: four black circles, bottom-left. Frame 5? — <i>Count</i>: +1 each frame → five. <i>Position</i>: clockwise around the corners → top-left. <i>Shading</i>: unchanged, ignore. Answer: five black circles, top-left. The distractor with five circles top-right breaks position; the one with four circles top-left breaks count.",
+         "id": "<b>Deret.</b> Bingkai 1: satu lingkaran hitam, kiri-atas. Bingkai 2: dua lingkaran hitam, kanan-atas. Bingkai 3: tiga lingkaran hitam, kanan-bawah. Bingkai 4: empat lingkaran hitam, kiri-bawah. Bingkai 5? — <i>Jumlah</i>: +1 tiap bingkai → lima. <i>Posisi</i>: searah jarum jam mengelilingi sudut → kiri-atas. <i>Arsiran</i>: tidak berubah, abaikan. Jawaban: lima lingkaran hitam, kiri-atas. Pengecoh dengan lima lingkaran kanan-atas melanggar posisi; yang empat lingkaran kiri-atas melanggar jumlah."
+        },
+        {
+         "en": "<b>Odd one out.</b> Five L-shapes: four are the same L rotated by 0°, 90°, 180°, 270°; one is the L flipped over. — <i>Rotation/reflection</i>: the flipped one cannot be reached by rotation. Answer: the mirror image. This is the classic Carter item; candidates who check shading and size first waste twenty seconds on dimensions that do not change.",
+         "id": "<b>Yang berbeda.</b> Lima bentuk L: empat adalah L yang sama diputar 0°, 90°, 180°, 270°; satu adalah L yang dibalik. — <i>Rotasi/refleksi</i>: yang dibalik tidak bisa dicapai dengan rotasi. Jawaban: bayangan cermin. Ini soal Carter klasik; kandidat yang memeriksa arsiran dan ukuran dulu membuang dua puluh detik pada dimensi yang tidak berubah."
+        },
+        {
+         "en": "<b>3×3 matrix.</b> Row 1: a square; a triangle; a square with a triangle inside. Row 2: a circle; a cross; a circle with a cross inside. Row 3: a hexagon; a star; ? — <i>Combination logic</i>: cell 3 = cell 1 with cell 2 inside. Answer: a hexagon with a star inside. The distractor “a star with a hexagon inside” breaks the relationship; “a hexagon with a cross inside” breaks shape.",
+         "id": "<b>Matriks 3×3.</b> Baris 1: persegi; segitiga; persegi dengan segitiga di dalamnya. Baris 2: lingkaran; silang; lingkaran dengan silang di dalamnya. Baris 3: segi enam; bintang; ? — <i>Logika kombinasi</i>: sel 3 = sel 1 dengan sel 2 di dalamnya. Jawaban: segi enam dengan bintang di dalamnya. Pengecoh “bintang dengan segi enam di dalamnya” melanggar hubungan; “segi enam dengan silang di dalamnya” melanggar bentuk."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The technique kit by test family — one core move for each.",
-       "id": "Peraga 1: Perangkat teknik per keluarga tes — satu langkah inti untuk masing-masing."
+       "en": "Exhibit 3: The abstract scan order",
+       "id": "Peraga 3: Urutan pindai abstrak"
       },
       "title": {
-       "en": "Four families, four core moves",
-       "id": "Empat keluarga, empat langkah inti"
+       "en": "Nine dimensions, checked one at a time — stop at the first that changes",
+       "id": "Sembilan dimensi, diperiksa satu per satu — berhenti di yang pertama berubah"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Numerical",
-         "id": "Numerik"
+         "en": "1 · Count",
+         "id": "1 · Jumlah"
         },
         "sub": {
-         "en": "Change ÷ original · reverse ÷ (1 + rate) · compound multiplies · read footnotes first",
-         "id": "Perubahan ÷ asal · kebalikan ÷ (1 + laju) · majemuk mengalikan · baca catatan kaki dulu"
+         "en": "How many elements? Does the number step, cycle or stay?",
+         "id": "Berapa elemen? Apakah jumlahnya bertahap, bersiklus, atau tetap?"
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "Verbal",
-         "id": "Verbal"
+         "en": "2 · Position",
+         "id": "2 · Posisi"
         },
         "sub": {
-         "en": "True / false / cannot say — only what the passage establishes",
-         "id": "Benar / salah / tidak bisa disimpulkan — hanya yang ditetapkan bacaan"
+         "en": "Where in the frame? Corners, clockwise, edges, centre?",
+         "id": "Di mana dalam bingkai? Sudut, searah jarum jam, tepi, tengah?"
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Logical",
-         "id": "Logika"
+         "en": "3 · Rotation / reflection",
+         "id": "3 · Rotasi / refleksi"
         },
         "sub": {
-         "en": "Scan shape, number, position, shading — then look for a second rule",
-         "id": "Pindai bentuk, jumlah, posisi, arsiran — lalu cari aturan kedua"
+         "en": "Turned by a fixed angle — or mirrored? Four turns and one mirror is the classic odd one out.",
+         "id": "Diputar dengan sudut tetap — atau dicerminkan? Empat putaran dan satu cermin adalah soal yang-berbeda klasik."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Personality & SJT",
-         "id": "Kepribadian & SJT"
+         "en": "4 · Shading · 5 · Size · 6 · Shape",
+         "id": "4 · Arsiran · 5 · Ukuran · 6 · Bentuk"
         },
         "sub": {
-         "en": "Working self on a good day; address the problem, respect the people",
-         "id": "Diri saat bekerja di hari yang baik; tangani masalahnya, hormati orangnya"
+         "en": "Fill cycling black/grey/white? Growing or shrinking? Sides increasing?",
+         "id": "Isian bersiklus hitam/abu/putih? Membesar atau mengecil? Sisi bertambah?"
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "7 · Line style · 8 · Relationships",
+         "id": "7 · Gaya garis · 8 · Hubungan"
+        },
+        "sub": {
+         "en": "Solid, dashed, dotted? Inside, touching, overlapping?",
+         "id": "Padat, putus-putus, titik-titik? Di dalam, bersentuhan, tumpang tindih?"
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "9 · Combination logic",
+         "id": "9 · Logika kombinasi"
+        },
+        "sub": {
+         "en": "Matrices: add, cancel on overlap, or carry forward only what is shared.",
+         "id": "Matriks: jumlahkan, hapus saat tumpang tindih, atau teruskan hanya yang sama."
         }
        }
       ],
+      "note": {
+       "en": "Predict the next frame before looking at the options; then eliminate each option by the one dimension it breaks.",
+       "id": "Prediksi bingkai berikutnya sebelum melihat opsi; lalu singkirkan tiap opsi berdasarkan satu dimensi yang dilanggarnya."
+      },
       "longdesc": {
-       "en": "A two-by-two grid of the four test families with the core move for each: numerical questions rely on the percentage toolkit and reading footnotes first; verbal questions on the true, false, cannot-say discipline; logical questions on scanning five dimensions in order; and personality and situational tests on honest, consistent answers that address the problem directly.",
-       "id": "Kisi dua kali dua berisi empat keluarga tes dengan langkah inti masing-masing: soal numerik mengandalkan perangkat persentase dan membaca catatan kaki dulu; soal verbal pada disiplin benar, salah, tidak bisa disimpulkan; soal logika pada pemindaian lima dimensi secara berurutan; dan tes kepribadian serta situasional pada jawaban jujur dan konsisten yang menangani masalah secara langsung."
+       "en": "A six-stage flow of the abstract scan order: count, position, rotation or reflection, then shading, size and shape, then line style and relationships, and finally combination logic for matrices. Each stage is checked in turn and the candidate stops at the first dimension that changes.",
+       "id": "Alur enam tahap urutan pindai abstrak: jumlah, posisi, rotasi atau refleksi, lalu arsiran, ukuran, dan bentuk, lalu gaya garis dan hubungan, dan akhirnya logika kombinasi untuk matriks. Setiap tahap diperiksa bergiliran dan kandidat berhenti di dimensi pertama yang berubah."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "cannot say",
-        "id": "tidak bisa disimpulkan"
+       "tag": {
+        "en": "Two readers, one statement",
+        "id": "Dua pembaca, satu pernyataan"
        },
-       "def": {
-        "en": "The verbal-reasoning verdict for a statement that is plausible and consistent with the passage but not established by it — the option that outside knowledge tempts you to get wrong.",
-        "id": "Vonis penalaran verbal untuk pernyataan yang masuk akal dan konsisten dengan bacaan tetapi tidak ditetapkan olehnya — pilihan yang pengetahuan dari luar menggodamu untuk salah."
-       }
-      },
-      {
-       "term": {
-        "en": "situational judgement test (SJT)",
-        "id": "tes penilaian situasional (SJT)"
+       "q": {
+        "en": "Statement V4 on the Rel Nusantara passage: “Passengers over 60 are more likely than others to object to cashless ticketing.”",
+        "id": "Pernyataan V4 pada bacaan Rel Nusantara: “Penumpang di atas 60 tahun lebih mungkin daripada yang lain untuk keberatan terhadap tiket nontunai.”"
        },
-       "def": {
-        "en": "A test presenting workplace scenarios with several responses to rank or rate; the most effective response usually addresses the problem directly and respects the people involved.",
-        "id": "Tes yang menyajikan skenario kerja dengan beberapa respons untuk diurutkan atau dinilai; respons paling efektif biasanya menangani masalah secara langsung dan menghormati orang-orang yang terlibat."
+       "weak": {
+        "en": "“It says most complaints came from over-60s, and honestly that makes sense — my grandmother hates the card. True.”",
+        "id": "“Katanya kebanyakan keluhan datang dari yang di atas 60, dan jujur itu masuk akal — nenekku benci kartunya. Benar.”"
+       },
+       "strong": {
+        "en": "“Locate: ‘most formal complaints have come from passengers aged over 60.’ Does that force ‘more likely than others’? No — if over-60s are most of the passengers, they could complain at a lower rate and still be most of the complaints. Base rate missing. Cannot Say.”",
+        "id": "“Temukan: ‘kebanyakan keluhan resmi datang dari penumpang di atas 60 tahun.’ Apakah itu memaksa ‘lebih mungkin daripada yang lain’? Tidak — jika yang di atas 60 adalah kebanyakan penumpang, mereka bisa mengeluh dengan laju lebih rendah dan tetap menjadi kebanyakan keluhan. Laju dasar hilang. Tidak Bisa Disimpulkan.”"
+       },
+       "why": {
+        "en": "The weak reader used outside knowledge and a plausible inference. The strong reader used the passage alone and named the trap. Plausible is not forced.",
+        "id": "Pembaca lemah memakai pengetahuan luar dan inferensi yang masuk akal. Pembaca kuat memakai bacaan saja dan menyebutkan jebakannya. Masuk akal bukan berarti dipaksa."
        }
       }
      ],
-     "checks": [
-      {
-       "q": {
-        "en": "A price rose 25% to Rp 150,000. The original price?",
-        "id": "Sebuah harga naik 25% menjadi Rp150.000. Berapa harga awalnya?"
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: True without a matching phrase",
+       "id": "Sorotan: Benar tanpa frasa yang cocok"
+      },
+      "body": [
+       {
+        "en": "Nadia’s error log shows four “Cannot Say” items she answered “True”. The fix for those is the force test. But her fifth verbal error runs the other way: the bonus statement on the Rel Nusantara passage — “All first-phase stations are in major metropolitan areas” — she marked Cannot Say, because no sentence says so in those words.",
+        "id": "Catatan kesalahan Nadia menunjukkan empat soal “Tidak Bisa Disimpulkan” yang ia jawab “Benar”. Perbaikan untuk itu adalah uji memaksa. Tetapi kesalahan verbal kelimanya berjalan ke arah sebaliknya: pernyataan bonus pada bacaan Rel Nusantara — “Semua stasiun tahap pertama berada di wilayah metropolitan besar” — ia tandai Tidak Bisa Disimpulkan, karena tidak ada kalimat yang mengatakannya dengan kata-kata itu."
        },
-       "options": [
-        {
-         "en": "Rp 112,500",
-         "id": "Rp112.500"
-        },
-        {
-         "en": "Rp 120,000",
-         "id": "Rp120.000"
-        },
-        {
-         "en": "Rp 125,000",
-         "id": "Rp125.000"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Reverse percentage: 150,000 ÷ 1.25 = 120,000. Multiplying by 0.75 (giving 112,500) is the classic trap — it reverses the wrong operation.",
-        "id": "Persentase kebalikan: 150.000 ÷ 1,25 = 120.000. Mengalikan dengan 0,75 (hasilnya 112.500) adalah jebakan klasik — yang dibalik justru operasi yang salah."
+       {
+        "en": "The passage says stations outside major metropolitan areas were excluded from the first phase. If every non-metropolitan station was excluded, every included station is metropolitan. The passage forces the statement — by inference, not by phrase. True does not always mean a matching sentence; it means the passage leaves no other possibility. The force test cuts both ways, and the log now has a sixth tag: “forced by inference”.",
+        "id": "Bacaan menyatakan stasiun di luar wilayah metropolitan besar dikecualikan dari tahap pertama. Jika setiap stasiun nonmetropolitan dikecualikan, setiap stasiun yang disertakan adalah metropolitan. Bacaan memaksa pernyataan itu — lewat inferensi, bukan lewat frasa. Benar tidak selalu berarti ada kalimat yang cocok; artinya bacaan tidak menyisakan kemungkinan lain. Uji memaksa berlaku dua arah, dan catatan kini punya tanda keenam: “dipaksa lewat inferensi”."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Justify with a line",
+        "id": "Latihan 1 · Benarkan dengan satu baris"
+       },
+       "body": {
+        "en": "Five statements on the Rel Nusantara passage. For each, answer T / F / CS and quote the sentence that forces it, or name the missing information. V1 “Fewer than half the stations used cashless-only ticketing in 2024.” V2 “Queuing time fell at every cashless station.” V3 “At cashless stations, cash cannot be used for any transaction.” V4 “Over-60s are more likely than others to object.” V5 “All first-phase stations are in major metropolitan areas.”",
+        "id": "Lima pernyataan tentang bacaan Rel Nusantara. Untuk masing-masing, jawab B / S / TBD dan kutip kalimat yang memaksanya, atau sebutkan informasi yang hilang. V1 “Kurang dari separuh stasiun memakai tiket nontunai-saja pada 2024.” V2 “Waktu antre turun di setiap stasiun nontunai.” V3 “Di stasiun nontunai, uang tunai tidak bisa dipakai untuk transaksi apa pun.” V4 “Yang di atas 60 lebih mungkin daripada yang lain untuk keberatan.” V5 “Semua stasiun tahap pertama berada di wilayah metropolitan besar.”"
+       },
+       "debrief": {
+        "en": "V1 <b>True</b> — “40 of its 120 stations”: 40/120 is fewer than half. V2 <b>Cannot Say</b> — “average queuing time … fell”: an average can fall while some stations do not (every vs average). V3 <b>False</b> — “Cash can still be used to top up fare cards at every station”: the passage forces the opposite. V4 <b>Cannot Say</b> — “most formal complaints have come from passengers aged over 60”: no base rate for over-60s among all passengers. V5 <b>True by inference</b> — non-metropolitan stations were excluded, so every first-phase station is metropolitan; no matching phrase, but no other possibility.",
+        "id": "V1 <b>Benar</b> — “40 dari 120 stasiunnya”: 40/120 kurang dari separuh. V2 <b>Tidak Bisa Disimpulkan</b> — “rata-rata waktu antre … turun”: rata-rata bisa turun sementara sebagian stasiun tidak (setiap vs rata-rata). V3 <b>Salah</b> — “Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun”: bacaan memaksa kebalikannya. V4 <b>Tidak Bisa Disimpulkan</b> — “kebanyakan keluhan resmi datang dari penumpang di atas 60”: tidak ada laju dasar yang di atas 60 di antara semua penumpang. V5 <b>Benar lewat inferensi</b> — stasiun nonmetropolitan dikecualikan, jadi setiap stasiun tahap pertama adalah metropolitan; tidak ada frasa yang cocok, tetapi tidak ada kemungkinan lain."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Name the family",
+        "id": "Latihan 2 · Sebutkan keluarganya"
+       },
+       "body": {
+        "en": "Ten seconds each — name the family before solving: (a) 3, 7, 15, 31, 63 (b) 2, 12, 5, 10, 8, 8, 11 (c) 4, 6, 10, 16, 24 (d) 4, 8, 5, 10, 7, 14 (e) 81, 27, 9, 3 (f) 1, 4, 9, 16, 25 (g) 2, 6, 12, 36, 72 (h) 5, 9, 8, 12, 11, 15.",
+        "id": "Sepuluh detik masing-masing — sebutkan keluarganya sebelum menyelesaikan: (a) 3, 7, 15, 31, 63 (b) 2, 12, 5, 10, 8, 8, 11 (c) 4, 6, 10, 16, 24 (d) 4, 8, 5, 10, 7, 14 (e) 81, 27, 9, 3 (f) 1, 4, 9, 16, 25 (g) 2, 6, 12, 36, 72 (h) 5, 9, 8, 12, 11, 15."
+       },
+       "debrief": {
+        "en": "(a) ×2 + 1 compound → 127. (b) interleaved, +3 / −2 → 6. (c) growing differences 2, 4, 6, 8, 10 → 34. (d) alternating operations ×2, −3 → 11. (e) constant ratio ÷3 → 1. (f) squares → 36. (g) repeating multiplier cycle ×3, ×2 → 216. (h) alternating differences +4, −1 → 14. Naming the family first turns a search into a check: once you have said “interleaved”, you split the series and the answer takes five seconds.",
+        "id": "(a) gabungan ×2 + 1 → 127. (b) berselang-seling, +3 / −2 → 6. (c) selisih membesar 2, 4, 6, 8, 10 → 34. (d) operasi berselang ×2, −3 → 11. (e) rasio konstan ÷3 → 1. (f) kuadrat → 36. (g) siklus pengali berulang ×3, ×2 → 216. (h) selisih berselang +4, −1 → 14. Menyebutkan keluarganya dulu mengubah pencarian menjadi pemeriksaan: begitu kamu bilang “berselang-seling”, kamu memisahkan deretnya dan jawabannya butuh lima detik."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · One dimension at a time",
+        "id": "Latihan 3 · Satu dimensi pada satu waktu"
+       },
+       "body": {
+        "en": "In the Gym’s logical family, take three sets in this order: first, items where only rotation changes; then items with two dimensions (count and position); then three (count, position, shading). For each item, write the dimensions you checked, in scan order, and the dimension each wrong option breaks.",
+        "id": "Di keluarga logika Gym, ambil tiga set dalam urutan ini: pertama, soal yang hanya rotasinya berubah; lalu soal dengan dua dimensi (jumlah dan posisi); lalu tiga (jumlah, posisi, arsiran). Untuk setiap soal, tulis dimensi yang kamu periksa, dalam urutan pindai, dan dimensi yang dilanggar setiap opsi salah."
+       },
+       "debrief": {
+        "en": "The habit being built is the order itself. Most candidates who “can’t do abstract” are looking at three dimensions at once and seeing noise; the same candidate scanning count, then position, then shading sees three simple rules in sequence. When an item takes longer than ninety seconds, the usual cause is that a shared feature — a border, a fill every figure has — is being treated as a candidate rule.",
+        "id": "Kebiasaan yang dibangun adalah urutannya sendiri. Kebanyakan kandidat yang “tidak bisa abstrak” melihat tiga dimensi sekaligus dan melihat kebisingan; kandidat yang sama memindai jumlah, lalu posisi, lalu arsiran melihat tiga aturan sederhana berurutan. Ketika sebuah soal butuh lebih dari sembilan puluh detik, penyebab biasanya adalah fitur bersama — bingkai, isian yang dimiliki setiap gambar — diperlakukan sebagai kandidat aturan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Predict before peek",
+        "id": "Latihan 4 · Prediksi sebelum mengintip"
+       },
+       "body": {
+        "en": "Cover the options with your hand (or a sticky note on the screen) for twenty seconds. Write, in words, what the next frame must contain — count, position, shading. Then uncover and find it. Do ten items this way.",
+        "id": "Tutupi opsi dengan tanganmu (atau catatan tempel di layar) selama dua puluh detik. Tulis, dalam kata-kata, apa yang harus ada di bingkai berikutnya — jumlah, posisi, arsiran. Lalu buka dan temukan. Kerjakan sepuluh soal dengan cara ini."
+       },
+       "debrief": {
+        "en": "Predicting first stops the options from suggesting rules that fit only one of them. It also exposes the item’s design: if your prediction matches exactly one option, the item has one right answer and your rule is complete; if it matches none, you have missed a dimension — go back to the scan order at the point you stopped.",
+        "id": "Memprediksi lebih dulu menghentikan opsi menyarankan aturan yang hanya cocok untuk salah satunya. Ini juga membuka rancangan soalnya: jika prediksimu cocok dengan tepat satu opsi, soal itu punya satu jawaban benar dan aturanmu lengkap; jika tidak cocok dengan satu pun, kamu melewatkan satu dimensi — kembali ke urutan pindai di titik kamu berhenti."
        }
       }
      ],
@@ -21452,260 +23132,194 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Memorising formulas without reading the question",
-         "id": "Menghafal rumus tanpa membaca soal"
+         "en": "Using outside knowledge on verbal items",
+         "id": "Memakai pengetahuan luar pada soal verbal"
         },
         "fix": {
-         "en": "Most numerical errors are reading errors: wrong column, wrong unit, wrong year. Underline what is asked before you compute.",
-         "id": "Sebagian besar kesalahan numerik adalah kesalahan membaca: kolom salah, satuan salah, tahun salah. Garis bawahi yang ditanyakan sebelum menghitung."
+         "en": "The passage is the whole world; ask whether it forces the statement.",
+         "id": "Bacaan adalah seluruh dunia; tanyakan apakah bacaan memaksa pernyataannya."
         }
        },
        {
         "h": {
-         "en": "Bringing outside knowledge to verbal reasoning",
-         "id": "Membawa pengetahuan luar ke penalaran verbal"
+         "en": "Marking Cannot Say because no phrase matches",
+         "id": "Menandai Tidak Bisa Disimpulkan karena tidak ada frasa yang cocok"
         },
         "fix": {
-         "en": "“Cannot say” means the passage does not say it — even if you know it is true. Judge the text, not the world.",
-         "id": "“Tidak dapat ditentukan” berarti bacaan tidak mengatakannya — meski kamu tahu itu benar. Nilai teksnya, bukan dunianya."
+         "en": "True can be forced by inference; check for any other possibility.",
+         "id": "Benar bisa dipaksa lewat inferensi; periksa adakah kemungkinan lain."
         }
        },
        {
         "h": {
-         "en": "Solving series by intuition",
-         "id": "Memecahkan deret dengan intuisi"
+         "en": "Guessing a series rule from the first three terms",
+         "id": "Menebak aturan deret dari tiga suku pertama"
         },
         "fix": {
-         "en": "Write the differences, then the differences of the differences. Patterns appear on paper, not in your head.",
-         "id": "Tulis selisihnya, lalu selisih dari selisihnya. Pola muncul di kertas, bukan di kepala."
+         "en": "Write the differences; the rule must fit every term and an option.",
+         "id": "Tulis selisihnya; aturan harus cocok dengan setiap suku dan sebuah opsi."
+        }
+       },
+       {
+        "h": {
+         "en": "Looking at the whole abstract figure at once",
+         "id": "Melihat seluruh gambar abstrak sekaligus"
+        },
+        "fix": {
+         "en": "One dimension at a time, in scan order; ignore what is shared.",
+         "id": "Satu dimensi pada satu waktu, dalam urutan pindai; abaikan yang dimiliki bersama."
         }
        }
       ]
-     }
-    },
-    {
-     "n": "7.4",
-     "title": {
-      "en": "Practice Exercises and Timed Mock Test Simulation",
-      "id": "Latihan Soal dan Simulasi Tes Berbatas Waktu"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "interactive",
-     "placeholder": false,
-     "overview": {
-      "en": "Theory ends here. This lesson routes you through the Screening Gym's timed sets — the full simulation flow — and teaches you to read your results the way an assessor would, then convert them into next week's plan.",
-      "id": "Teori berhenti di sini. Pelajaran ini memandumu melewati set-set berbatas waktu di Screening Gym — alur simulasi yang utuh — dan mengajarimu membaca hasilnya seperti seorang asesor, lalu mengubahnya menjadi rencana untuk minggu depan."
-     },
-     "objectives": [
-      {
-       "en": "Complete timed sets in all three aptitude families under exam conditions.",
-       "id": "Menyelesaikan set berbatas waktu untuk ketiga keluarga tes dalam kondisi ujian."
-      },
-      {
-       "en": "Read your accuracy, pace and miss patterns like an assessor.",
-       "id": "Membaca ketepatan, tempo, dan pola kesalahanmu seperti seorang asesor."
-      },
-      {
-       "en": "Convert one results review into one concrete next-week plan.",
-       "id": "Mengubah satu tinjauan hasil menjadi satu rencana konkret untuk minggu depan."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Simulation quality equals prediction quality. To make every timed set count, you can:",
-      "id": "Kualitas simulasi sama dengan kualitas prediksi. Agar setiap set berwaktu bermakna, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Simulation quality equals prediction quality: full sets, real clock, no pauses.",
-       "id": "Mutu simulasi menentukan mutu prediksi: set penuh, waktu sungguhan, tanpa jeda."
-      },
-      {
-       "en": "Your miss pattern is more informative than your score — archetypes, not totals.",
-       "id": "Pola kesalahanmu lebih banyak bercerita daripada skormu — lihat jenis kesalahannya, bukan totalnya."
-      },
-      {
-       "en": "Every simulation ends with a written plan or it was entertainment.",
-       "id": "Setiap simulasi harus berakhir dengan rencana tertulis; kalau tidak, itu cuma hiburan."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
-       "h": {
-        "en": "Exam conditions, exactly",
-        "id": "Kondisi ujian, tanpa kompromi"
-       },
-       "body": {
-        "en": "Phone in another room, notifications off (Lesson 2.3's focus profile), water ready, one sitting per set, and the clock running from question one. Treat the Gym's timer as binding: when it ends, it ends. Afterwards, resist the urge to immediately re-run for a better number — first write the review: accuracy per family, seconds per question, and every miss into the error log with its archetype. The review is the product; the score is a by-product.",
-        "id": "Ponsel di ruangan lain, notifikasi dimatikan (profil fokus dari Pelajaran 2.3), air minum siap, satu set diselesaikan sekali duduk, dan waktu berjalan sejak soal pertama. Perlakukan pewaktu Gym sebagai aturan yang mengikat: begitu habis, ya selesai. Setelah itu, tahan keinginan untuk langsung mengulang demi angka yang lebih bagus — tulis dulu tinjauannya: ketepatan per keluarga tes, detik per soal, dan setiap jawaban salah masuk ke catatan kesalahan lengkap dengan jenisnya. Tinjauan itulah produknya; skor hanya hasil sampingan."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Reading results like an assessor",
-        "id": "Membaca hasil seperti asesor"
-       },
-       "body": {
-        "en": "Assessors see a grid: accuracy × completion. <b>High accuracy, low completion</b> — you are careful and slow: train timed pacing, not technique. <b>Low accuracy, high completion</b> — you are fast and loose: return to untimed accuracy work; speed is currently laundering errors. <b>Low both</b> — technique gap: back to 3.3's frameworks for that family. <b>High both</b> — you clear typical cutoffs; maintain twice weekly and move your training hours to the funnel's next leaking stage. Honest caveat, always: Gym scores calibrate you against the drill bank, not against any employer's norm group — they diagnose, they do not promise.",
-        "id": "Asesor melihat sebuah kisi: ketepatan × penyelesaian. <b>Ketepatan tinggi, penyelesaian rendah</b> — kamu teliti tetapi lambat: yang perlu dilatih adalah tempo berbatas waktu, bukan teknik. <b>Ketepatan rendah, penyelesaian tinggi</b> — kamu cepat tetapi ceroboh: kembali ke latihan ketepatan tanpa batas waktu; saat ini kecepatanmu sedang menyamarkan kesalahan. <b>Keduanya rendah</b> — ada celah teknik: kembali ke kerangka 3.3 untuk keluarga tes itu. <b>Keduanya tinggi</b> — kamu sudah melewati ambang batas yang lazim; pertahankan dua kali seminggu dan pindahkan jam latihanmu ke tahap corong berikutnya yang masih bocor. Catatan jujur, seperti selalu: skor Gym mengukurmu terhadap bank soal latihan, bukan terhadap kelompok norma pemberi kerja mana pun — ia mendiagnosis, bukan menjanjikan."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: The assessor's grid — accuracy against completion tells you what to train, not just how you did.",
-       "id": "Peraga 1: Kisi penilai — akurasi terhadap penyelesaian memberi tahu apa yang harus dilatih, bukan sekadar hasilmu."
-      },
-      "title": {
-       "en": "Accuracy × completion",
-       "id": "Akurasi × penyelesaian"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "High accuracy, low completion",
-         "id": "Akurasi tinggi, penyelesaian rendah"
-        },
-        "sub": {
-         "en": "Careful and slow — train timed pacing, not technique",
-         "id": "Teliti tapi lambat — latih tempo berwaktu, bukan teknik"
-        }
-       },
-       {
-        "h": {
-         "en": "Low accuracy, high completion",
-         "id": "Akurasi rendah, penyelesaian tinggi"
-        },
-        "sub": {
-         "en": "Fast and loose — back to untimed accuracy; speed is laundering errors",
-         "id": "Cepat tapi ceroboh — kembali ke akurasi tanpa waktu; kecepatan sedang menutupi kesalahan"
-        }
-       },
-       {
-        "h": {
-         "en": "Low both",
-         "id": "Keduanya rendah"
-        },
-        "sub": {
-         "en": "Technique gap — return to 3.3's frameworks for that family",
-         "id": "Celah teknik — kembali ke kerangka 3.3 untuk keluarga itu"
-        }
-       },
-       {
-        "h": {
-         "en": "High both",
-         "id": "Keduanya tinggi"
-        },
-        "sub": {
-         "en": "Clears typical cutoffs — maintain twice weekly, move hours to the next leaking stage",
-         "id": "Melewati ambang lazim — pertahankan dua kali seminggu, alihkan jam ke tahap bocor berikutnya"
-        }
-       }
-      ],
-      "note": {
-       "en": "Gym scores calibrate you against the drill bank, not an employer's norm group — they diagnose, they do not promise.",
-       "id": "Skor Gym mengalibrasimu terhadap bank latihan, bukan kelompok norma pemberi kerja — ia mendiagnosis, bukan menjanjikan."
-      },
-      "longdesc": {
-       "en": "A two-by-two grid of accuracy against completion. High accuracy with low completion means train pacing; low accuracy with high completion means return to untimed accuracy work; low on both means a technique gap to fix with the frameworks; high on both clears typical cutoffs and frees hours for the next stage. The note cautions that Gym scores diagnose rather than predict any employer's cutoff.",
-       "id": "Kisi dua kali dua akurasi terhadap penyelesaian. Akurasi tinggi dengan penyelesaian rendah berarti latih tempo; akurasi rendah dengan penyelesaian tinggi berarti kembali ke latihan akurasi tanpa waktu; rendah keduanya berarti celah teknik yang diperbaiki dengan kerangka; tinggi keduanya melewati ambang lazim dan membebaskan jam untuk tahap berikutnya. Catatannya mengingatkan bahwa skor Gym mendiagnosis, bukan memprediksi ambang pemberi kerja mana pun."
-      }
      },
      "glossary": [
       {
        "term": {
-        "en": "exam conditions",
-        "id": "kondisi ujian"
+        "en": "Force test",
+        "id": "Uji memaksa"
        },
        "def": {
-        "en": "Phone in another room, notifications off, one sitting per set, the clock binding from question one — the only conditions under which a Gym score predicts a real one.",
-        "id": "Ponsel di ruangan lain, notifikasi mati, satu kali duduk per set, pengatur waktu mengikat sejak soal pertama — satu-satunya kondisi ketika skor Gym memprediksi skor sesungguhnya."
+        "en": "True only if the passage leaves no other possibility; False only if it forces the opposite; otherwise Cannot Say.",
+        "id": "Benar hanya jika bacaan tidak menyisakan kemungkinan lain; Salah hanya jika memaksa kebalikannya; selain itu Tidak Bisa Disimpulkan."
        }
       },
       {
        "term": {
-        "en": "miss pattern",
-        "id": "pola kesalahan"
+        "en": "Cannot Say",
+        "id": "Tidak Bisa Disimpulkan"
        },
        "def": {
-        "en": "The archetypes of question you get wrong, rather than your total score — the information an assessor would read, and the input for next week's plan.",
-        "id": "Arketipe soal yang kamu jawab salah, alih-alih skor totalmu — informasi yang akan dibaca seorang penilai, dan masukan untuk rencana minggu depan."
-       }
-      }
-     ],
-     "steps": [
-      {
-       "h": {
-        "en": "Simulation 1 — Numerical, timed",
-        "id": "Simulasi 1 — Numerik, berbatas waktu"
-       },
-       "body": {
-        "en": "Open the Gym, choose the numerical timed set, run it under exam conditions. Return and reveal when done.",
-        "id": "Buka Gym, pilih set numerik berbatas waktu, kerjakan dalam kondisi ujian. Kembali ke sini dan buka tinjauan setelah selesai."
-       },
-       "debrief": {
-        "en": "Check your grid position: if you finished under 70% of questions, your per-question budget needs the triage rule from 3.2 — no question gets double budget. If accuracy fell below 75%, find the shared archetype in your misses; it is usually one of the three percentage formulas applied backwards. Log it, write the one-line rule, and schedule the same set family for the day after tomorrow — spacing, not massing.",
-        "id": "Periksa posisimu di kisi: kalau soal yang terselesaikan di bawah 70%, jatah waktu per soalmu butuh aturan triase dari 3.2 — tidak ada soal yang boleh mendapat jatah dobel. Kalau ketepatan di bawah 75%, cari jenis kesalahan yang sama-sama muncul di jawaban salahmu; biasanya salah satu dari tiga rumus persentase yang diterapkan terbalik. Catat, tulis aturannya dalam satu baris, dan jadwalkan keluarga set yang sama untuk lusa — disebar, bukan ditumpuk."
+        "en": "Not determinable from the passage alone — even when plausible or true in real life.",
+        "id": "Tidak bisa ditentukan dari bacaan saja — bahkan ketika masuk akal atau benar di dunia nyata."
        }
       },
       {
-       "h": {
-        "en": "Simulation 2 — Verbal, timed",
-        "id": "Simulasi 2 — Verbal, berbatas waktu"
+       "term": {
+        "en": "Second-order series",
+        "id": "Deret orde kedua"
        },
-       "body": {
-        "en": "Run the verbal timed set the same way. Return and reveal.",
-        "id": "Kerjakan set verbal berbatas waktu dengan cara yang sama. Kembali dan buka tinjauan."
-       },
-       "debrief": {
-        "en": "Verbal misses cluster on “cannot say”: count how many of your errors chose true/false where the honest answer was unproven. That count is your contamination index — how often outside knowledge or plausibility leaked into judgment. The repair drill: for each such miss, underline the exact passage words that would have been needed to prove the statement, and observe they are absent. Ten repetitions of that observation build the restraint the test measures.",
-        "id": "Kesalahan verbal biasanya menumpuk di “tidak bisa disimpulkan”: hitung berapa kali kamu menjawab benar/salah padahal jawaban jujurnya adalah belum terbukti. Angka itu adalah indeks kontaminasimu — seberapa sering pengetahuan dari luar atau perasaan “masuk akal” bocor ke penilaianmu. Latihan perbaikannya: untuk setiap kesalahan semacam itu, garis bawahi kata-kata di bacaan yang seharusnya diperlukan untuk membuktikan pernyataan itu, lalu perhatikan bahwa kata-kata itu memang tidak ada. Sepuluh kali pengamatan seperti itu membangun kemampuan menahan diri yang justru diukur tes ini."
+       "def": {
+        "en": "A series whose differences themselves form a pattern.",
+        "id": "Deret yang selisihnya sendiri membentuk pola."
        }
       },
       {
-       "h": {
-        "en": "Simulation 3 — Logical, timed, then the plan",
-        "id": "Simulasi 3 — Logika, berbatas waktu, lalu rencananya"
+       "term": {
+        "en": "Interleaved series",
+        "id": "Deret berselang-seling"
        },
-       "body": {
-        "en": "Run the logical timed set, then write next week's three-line plan: which family, which archetypes, which days. Reveal after writing.",
-        "id": "Kerjakan set logika berbatas waktu, lalu tulis rencana tiga baris untuk minggu depan: keluarga tes yang mana, jenis kesalahan yang mana, hari apa saja. Buka tinjauan setelah menulis."
+       "def": {
+        "en": "Two independent series alternating in the odd and even positions.",
+        "id": "Dua deret bebas yang bergantian di posisi ganjil dan genap."
+       }
+      },
+      {
+       "term": {
+        "en": "Scan order",
+        "id": "Urutan pindai"
        },
-       "debrief": {
-        "en": "A model plan reads: “Numerical is the gate (68% accuracy): drill reverse-percentage and two-table archetypes Tue/Thu/Sat 25 minutes; verbal maintenance one set Sunday; re-simulate all three next Saturday morning.” Specific family, named archetypes, calendar days — compare yours. If any line says “practice more”, it is not yet a plan. Repeat the weekly cycle until your two gate families sit in the high-accuracy, high-completion quadrant; then this stage of the funnel is trained, and your hours belong to the next one.",
-        "id": "Contoh rencana yang baik berbunyi: “Numerik adalah gerbangnya (ketepatan 68%): latih soal persentase kebalikan dan soal dua tabel pada Sel/Kam/Sab, 25 menit; pemeliharaan verbal satu set hari Minggu; simulasi ulang ketiganya Sabtu pagi depan.” Keluarga tes yang spesifik, jenis kesalahan yang disebut jelas, hari yang tertulis di kalender — bandingkan dengan milikmu. Kalau ada baris yang berbunyi “latihan lebih banyak”, itu belum rencana. Ulangi siklus mingguan ini sampai dua keluarga tes penentumu berada di kuadran ketepatan tinggi dan penyelesaian tinggi. Saat itu, tahap corong ini sudah terlatih, dan jam-jammu menjadi milik tahap berikutnya."
+       "def": {
+        "en": "Count → Position → Rotation/reflection → Shading → Size → Shape → Line style → Relationships → Combination logic.",
+        "id": "Jumlah → Posisi → Rotasi/refleksi → Arsiran → Ukuran → Bentuk → Gaya garis → Hubungan → Logika kombinasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Shared feature",
+        "id": "Fitur bersama"
+       },
+       "def": {
+        "en": "Anything present in every figure — it can never be the rule.",
+        "id": "Apa pun yang ada di setiap gambar — tidak pernah bisa menjadi aturan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your grid: 92% accuracy, 55% completion. The prescribed training focus?",
-        "id": "Kisimu: ketepatan 92%, penyelesaian 55%. Fokus latihan yang dianjurkan?"
+        "en": "Passage: “Sales rose on average across regions.” Statement: “Sales rose in every region.”",
+        "id": "Bacaan: “Penjualan naik rata-rata di semua wilayah.” Pernyataan: “Penjualan naik di setiap wilayah.”"
        },
        "options": [
         {
-         "en": "Technique frameworks — back to the theory deck",
-         "id": "Kerangka teknik — kembali ke dek teori"
+         "en": "True",
+         "id": "Benar"
         },
         {
-         "en": "Timed pacing — your method is sound but slow; train the triage rules under a clock",
-         "id": "Tempo berbatas waktu — metodemu sudah benar tetapi lambat; latih aturan triase dengan pewaktu"
+         "en": "False",
+         "id": "Salah"
         },
         {
-         "en": "Switch to a different test family",
-         "id": "Pindah ke keluarga tes yang lain"
+         "en": "Cannot Say",
+         "id": "Tidak Bisa Disimpulkan"
+        },
+        {
+         "en": "True by inference",
+         "id": "Benar lewat inferensi"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "An average can rise while one region falls. Every vs average.",
+        "id": "Rata-rata bisa naik sementara satu wilayah turun. Setiap vs rata-rata."
+       }
+      },
+      {
+       "q": {
+        "en": "5, 10, 20, 40 → ?",
+        "id": "5, 10, 20, 40 → ?"
+       },
+       "options": [
+        {
+         "en": "50",
+         "id": "50"
+        },
+        {
+         "en": "60",
+         "id": "60"
+        },
+        {
+         "en": "80",
+         "id": "80"
+        },
+        {
+         "en": "100",
+         "id": "100"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Constant ratio ×2. Differences 5, 10, 20 double too — the ratio rule is the simplest.",
+        "id": "Rasio konstan ×2. Selisih 5, 10, 20 juga berlipat ganda — aturan rasio yang paling sederhana."
+       }
+      },
+      {
+       "q": {
+        "en": "In abstract items, which feature can never be the rule?",
+        "id": "Dalam soal abstrak, fitur mana yang tidak pernah bisa menjadi aturan?"
+       },
+       "options": [
+        {
+         "en": "Shading",
+         "id": "Arsiran"
+        },
+        {
+         "en": "One shared by every figure",
+         "id": "Yang dimiliki setiap gambar"
+        },
+        {
+         "en": "Rotation",
+         "id": "Rotasi"
+        },
+        {
+         "en": "Count",
+         "id": "Jumlah"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "High accuracy proves technique; low completion is a pacing problem. Speed work on a correct method — the safe order.",
-        "id": "Ketepatan tinggi membuktikan tekniknya sudah benar; penyelesaian rendah adalah masalah tempo. Latih kecepatan di atas metode yang sudah benar — itu urutan yang aman."
+        "en": "A rule distinguishes; something every figure has distinguishes nothing.",
+        "id": "Aturan membedakan; sesuatu yang dimiliki setiap gambar tidak membedakan apa pun."
        }
       }
      ],
@@ -21713,83 +23327,3179 @@ window.MT_LMS['the-pack'] = {
       "id": "gym",
       "mode": "drill",
       "title": {
-       "en": "The timed sets are ready",
-       "id": "Set berbatas waktu sudah siap"
+       "en": "Verbal and logical sets in the Gym",
+       "id": "Set verbal dan logika di Gym"
       },
       "body": {
-       "en": "Numerical, verbal, logical — full simulation conditions, transparent scoring, worked explanations on every question.",
-       "id": "Numerik, verbal, logika — kondisi simulasi penuh, penilaian yang transparan, pembahasan untuk setiap soal."
+       "en": "Verbal: for every item this week, write the forcing sentence or the missing information before you answer — untimed first, then timed. Logical: name the series family, or the first changing dimension, before solving. Tag every miss in the error log; “Cannot Say chosen as True” and “fell for a shared feature” get their own tags.",
+       "id": "Verbal: untuk setiap soal minggu ini, tulis kalimat pemaksa atau informasi yang hilang sebelum menjawab — tanpa batas waktu dulu, lalu berbatas waktu. Logika: sebutkan keluarga deret, atau dimensi pertama yang berubah, sebelum menyelesaikan. Tandai setiap kesalahan di catatan kesalahan; “Tidak Bisa Disimpulkan dipilih sebagai Benar” dan “terjebak fitur bersama” punya tanda sendiri."
       },
       "cta": {
-       "en": "Start Simulation 1 →",
-       "id": "Mulai Simulasi 1 →"
+       "en": "Open the Screening Gym →",
+       "id": "Buka Screening Gym →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Verbal: does the text <i>force</i> it?",
+       "id": "Verbal: apakah teksnya <i>memaksa</i>?"
+      },
+      {
+       "en": "Series: differences first, simplest rule last.",
+       "id": "Deret: selisih dulu, aturan paling sederhana terakhir."
+      },
+      {
+       "en": "Abstract: one dimension at a time; predict before you peek.",
+       "id": "Abstrak: satu dimensi pada satu waktu; prediksi sebelum mengintip."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the three procedure cards",
+       "id": "Sumber dan tiga kartu prosedur"
+      },
+      "lead": {
+       "en": "Three sources and one card per family, short enough to write on scrap paper.",
+       "id": "Tiga sumber dan satu kartu per keluarga, cukup singkat untuk ditulis di kertas coretan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.3",
+         "id": "Daftar bacaan · Pelajaran 7.3"
+        },
+        "desc": {
+         "en": "Three sources.",
+         "id": "Tiga sumber."
+        },
+        "body": [
+         {
+          "en": "A. Shavick, <i>How to Pass Psychometric Tests</i> (3rd ed.), ch. 4 and 6 — True / False / Cannot Say; diagrammatic reasoning.",
+          "id": "A. Shavick, <i>How to Pass Psychometric Tests</i> (ed. ke-3), bab 4 dan 6 — Benar / Salah / Tidak Bisa Disimpulkan; penalaran diagramatik."
+         },
+         {
+          "en": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — series method; predict before you look; rotation versus reflection.",
+          "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — metode deret; prediksi sebelum melihat; rotasi versus refleksi."
+         },
+         {
+          "en": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), Tests 5 and 9 — number series; abstract reasoning one dimension at a time.",
+          "id": "J. Barrett, <i>Aptitude Test Workbook</i> (2008), Tes 5 dan 9 — deret angka; penalaran abstrak satu dimensi pada satu waktu."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Three procedure cards",
+         "id": "Tiga kartu prosedur"
+        },
+        "desc": {
+         "en": "Verbal · series · abstract.",
+         "id": "Verbal · deret · abstrak."
+        },
+        "body": [
+         {
+          "en": "Verbal: locate → forces true? → forces opposite? → else Cannot Say · no outside knowledge · absolute words = danger",
+          "id": "Verbal: temukan → memaksa benar? → memaksa kebalikan? → selain itu Tidak Bisa Disimpulkan · tanpa pengetahuan luar · kata mutlak = bahaya"
+         },
+         {
+          "en": "Series: rising / falling / zig-zag? → differences → constant? patterned? → ratios or powers → alternating or sums → simplest rule that fits all terms and an option",
+          "id": "Deret: naik / turun / zig-zag? → selisih → konstan? berpola? → rasio atau pangkat → berselang atau jumlah → aturan paling sederhana yang cocok dengan semua suku dan sebuah opsi"
+         },
+         {
+          "en": "Abstract: count → position → rotation/reflection → shading → size → shape → line → relationships → combination · predict first · ignore shared features",
+          "id": "Abstrak: jumlah → posisi → rotasi/refleksi → arsiran → ukuran → bentuk → garis → hubungan → kombinasi · prediksi dulu · abaikan fitur bersama"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Personality, Values and Situational Judgement",
+      "id": "Kepribadian, Nilai, dan Penilaian Situasional"
+     },
+     "overview": {
+      "en": "The tests without right answers still have wrong ones. Personality questionnaires check you for consistency; values tests are keyed to the organisation’s stated values; situational judgement tests score every option. This lesson gives one frame for each — the consistent work-self, the values framework read in advance, and the PTA-S filter — and four original situational items to calibrate on.",
+      "id": "Tes tanpa jawaban benar tetap punya jawaban salah. Kuesioner kepribadian memeriksa konsistensimu; tes nilai berkunci pada nilai yang dinyatakan organisasi; tes penilaian situasional memberi skor pada setiap opsi. Pelajaran ini memberi satu kerangka untuk masing-masing — diri-kerja yang konsisten, kerangka nilai yang dibaca di muka, dan saringan PTA-S — dan empat soal situasional asli untuk kalibrasi."
+     },
+     "objectives": [
+      {
+       "en": "Recognise rating-scale and forced-choice formats and why forced choice is hard to fake.",
+       "id": "Mengenali format skala penilaian dan pilihan-paksa serta mengapa pilihan-paksa sulit dipalsukan."
+      },
+      {
+       "en": "Answer personality items from a consistent work-self frame.",
+       "id": "Menjawab soal kepribadian dari kerangka diri-kerja yang konsisten."
+      },
+      {
+       "en": "Prepare legitimately for a keyed values test.",
+       "id": "Mempersiapkan tes nilai berkunci secara sah."
+      },
+      {
+       "en": "Choose the most and least effective responses in a situational judgement test with the PTA-S filter.",
+       "id": "Memilih respons paling dan paling tidak efektif dalam tes penilaian situasional dengan saringan PTA-S."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Three tests, three frames",
+       "id": "Tiga tes, tiga kerangka"
+      },
+      "intro": {
+       "en": "Personality: be consistent. Values: know the framework. Situational judgement: proactive, transparent, within your authority, solves the problem.",
+       "id": "Kepribadian: konsisten. Nilai: kenali kerangkanya. Penilaian situasional: proaktif, transparan, dalam wewenangmu, menyelesaikan masalah."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Personality",
+         "id": "Kepribadian"
+        },
+        "points": [
+         {
+          "en": "No right answers; consistency checks; forced-choice blocks reveal relative priorities.",
+          "id": "Tanpa jawaban benar; pemeriksaan konsistensi; blok pilihan-paksa mengungkap prioritas relatif."
+         },
+         {
+          "en": "Frame: you at work or study on a normal good day. Instinctive, every item, not the middle.",
+          "id": "Kerangka: kamu di tempat kerja atau kuliah pada hari baik yang normal. Naluriah, setiap soal, bukan yang tengah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Values",
+         "id": "Nilai"
+        },
+        "points": [
+         {
+          "en": "Keyed to the organisation’s stated values — reading them in advance is legitimate preparation.",
+          "id": "Berkunci pada nilai yang dinyatakan organisasi — membacanya di muka adalah persiapan yang sah."
+         },
+         {
+          "en": "Recognise what “good” looks like in their terms; do not pretend to be someone you would have to keep pretending to be.",
+          "id": "Kenali seperti apa “baik” dalam istilah mereka; jangan berpura-pura menjadi seseorang yang harus terus kamu pura-purakan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Situational judgement",
+         "id": "Penilaian situasional"
+        },
+        "points": [
+         {
+          "en": "Most effective: Proactive · Transparent · within Authority · Solves the real problem.",
+          "id": "Paling efektif: Proaktif · Transparan · dalam Wewenang (Authority) · Menyelesaikan (Solves) masalah sebenarnya."
+         },
+         {
+          "en": "Least effective: the harmful one — dishonest, rule-breaking, blaming, hiding — not merely the passive one.",
+          "id": "Paling tidak efektif: yang merugikan — tidak jujur, melanggar aturan, menyalahkan, menyembunyikan — bukan sekadar yang pasif."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Two formats",
+        "id": "Dua format"
+       },
+       "body": {
+        "en": "<b>Rating scales</b> ask you to rate each statement independently — 1 strongly disagree … 5 strongly agree. <b>Forced choice</b> asks you to pick “most like me” and “least like me” from a block of statements, or to choose between pairs <i>(Shavick, How to Pass Psychometric Tests, ch. 12; Carter)</i>. In forced-choice formats all the options are desirable — “I meet deadlines”, “I support colleagues”, “I generate ideas” — so you cannot simply endorse everything good; you reveal your <i>relative</i> priorities, and faking is very hard, because to fake consistently you would need to know the scoring model <i>(Shavick, ch. 12)</i>. <span class=\"ev ev-verify\">Verify</span> PAPI Kostick, widely used by Indonesian HR consultancies, is a paired forced-choice inventory; DISC-style instruments are usually forced-choice blocks of four.",
+        "id": "<b>Skala penilaian</b> memintamu menilai setiap pernyataan secara bebas — 1 sangat tidak setuju … 5 sangat setuju. <b>Pilihan-paksa</b> memintamu memilih “paling seperti saya” dan “paling tidak seperti saya” dari satu blok pernyataan, atau memilih di antara pasangan <i>(Shavick, How to Pass Psychometric Tests, bab 12; Carter)</i>. Dalam format pilihan-paksa semua opsinya diinginkan — “Saya memenuhi tenggat”, “Saya mendukung rekan”, “Saya menghasilkan ide” — sehingga kamu tidak bisa sekadar menyetujui semua yang baik; kamu mengungkap prioritas <i>relatif</i>-mu, dan memalsukannya sangat sulit, karena untuk memalsukan secara konsisten kamu harus tahu model penilaiannya <i>(Shavick, bab 12)</i>. <span class=\"ev ev-verify\">Verifikasi</span> PAPI Kostick, yang banyak dipakai konsultan HR Indonesia, adalah inventori pilihan-paksa berpasangan; instrumen bergaya DISC biasanya blok pilihan-paksa berisi empat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Format",
+          "id": "Format"
+         },
+         {
+          "en": "What you do",
+          "id": "Yang kamu lakukan"
+         },
+         {
+          "en": "What it reveals",
+          "id": "Yang diungkap"
+         },
+         {
+          "en": "Faking",
+          "id": "Pemalsuan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Rating scale",
+           "id": "Skala penilaian"
+          },
+          {
+           "en": "Rate each statement 1–5",
+           "id": "Nilai tiap pernyataan 1–5"
+          },
+          {
+           "en": "Absolute self-description",
+           "id": "Deskripsi diri absolut"
+          },
+          {
+           "en": "Possible — but caught by consistency and social-desirability checks",
+           "id": "Mungkin — tetapi tertangkap pemeriksaan konsistensi dan keinginan sosial"
+          }
+         ],
+         [
+          {
+           "en": "Forced choice",
+           "id": "Pilihan-paksa"
+          },
+          {
+           "en": "Most / least like me from a block; or A vs B",
+           "id": "Paling / paling tidak seperti saya dari satu blok; atau A vs B"
+          },
+          {
+           "en": "Relative priorities",
+           "id": "Prioritas relatif"
+          },
+          {
+           "en": "Very hard — every option is desirable",
+           "id": "Sangat sulit — setiap opsi diinginkan"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Consistency is checked",
+        "id": "Konsistensi diperiksa"
+       },
+       "body": {
+        "en": "Questionnaires include repeated items worded differently — “I prefer clear procedures” in item 12, “I am uncomfortable without a set process” in item 87 — and checks for implausibly positive answers; an inconsistent profile can be flagged as invalid and, in some funnels, ends the candidacy <i>(Shavick, ch. 12; Carter)</i>. And even a “successful” fake is then discussed at interview: “your profile suggests strong leadership — give me an example” <i>(Shavick, ch. 2 and 12)</i>. A profile you cannot evidence in a STAR story is a profile that will be found out in the next gate. The honest profile is also the one you can defend for three interviews in a row.",
+        "id": "Kuesioner memuat soal berulang dengan kata-kata berbeda — “Saya lebih suka prosedur yang jelas” di soal 12, “Saya tidak nyaman tanpa proses yang ditetapkan” di soal 87 — dan pemeriksaan untuk jawaban yang terlalu positif hingga tidak masuk akal; profil yang tidak konsisten bisa ditandai tidak valid dan, di sebagian corong, mengakhiri pencalonan <i>(Shavick, bab 12; Carter)</i>. Dan bahkan pemalsuan yang “berhasil” kemudian dibahas di wawancara: “profil Anda menunjukkan kepemimpinan yang kuat — beri saya contohnya” <i>(Shavick, bab 2 dan 12)</i>. Profil yang tidak bisa kamu buktikan dengan cerita STAR adalah profil yang akan ketahuan di gerbang berikutnya. Profil yang jujur juga profil yang bisa kamu pertahankan dalam tiga wawancara berturut-turut."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The “consistent work-self” frame",
+        "id": "Kerangka “diri-kerja yang konsisten”"
+       },
+       "body": {
+        "en": "The books’ advice is to answer honestly and quickly <i>(Shavick; Carter)</i>. Make it practical: before you start, decide your <b>reference frame</b> — <i>you at work or study, on a normal good day</i> — and answer every item from it. Not you at your best ever, not you at 2 a.m. before a deadline, not the person you hope to become. Then five rules:",
+        "id": "Saran buku-buku itu adalah menjawab jujur dan cepat <i>(Shavick; Carter)</i>. Jadikan praktis: sebelum mulai, tentukan <b>kerangka acuanmu</b> — <i>kamu di tempat kerja atau kuliah, pada hari baik yang normal</i> — dan jawab setiap soal dari sana. Bukan kamu di puncak terbaikmu, bukan kamu pukul 2 pagi sebelum tenggat, bukan orang yang kamu harap akan kamu jadi. Lalu lima aturan:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Answer instinctively</b> — a few seconds each. Deliberation produces the inconsistency the checks look for.",
+         "id": "<b>Jawab naluriah</b> — beberapa detik masing-masing. Berpikir panjang menghasilkan ketidakkonsistenan yang dicari pemeriksaan."
+        },
+        {
+         "en": "<b>Answer every item.</b> Blanks are read as evasion or an incomplete profile.",
+         "id": "<b>Jawab setiap soal.</b> Yang kosong dibaca sebagai penghindaran atau profil tidak lengkap."
+        },
+        {
+         "en": "<b>Avoid parking on the middle option.</b> A profile of 3s says nothing and can be flagged as non-committal.",
+         "id": "<b>Hindari berhenti di opsi tengah.</b> Profil berisi angka 3 semua tidak mengatakan apa-apa dan bisa ditandai tidak tegas."
+        },
+        {
+         "en": "<b>Use the experience you have.</b> No work experience yet? Think of how you behave in study, organisations or part-time work <i>(Shavick, ch. 12)</i>. Nadia’s frame is the treasurer’s desk and the café counter.",
+         "id": "<b>Pakai pengalaman yang kamu punya.</b> Belum punya pengalaman kerja? Pikirkan cara kamu berperilaku dalam kuliah, organisasi, atau kerja paruh waktu <i>(Shavick, bab 12)</i>. Kerangka Nadia adalah meja bendahara dan konter kafe."
+        },
+        {
+         "en": "<b>Keep the frame for the whole test.</b> The same person answers item 12 and item 87.",
+         "id": "<b>Pertahankan kerangkanya sepanjang tes.</b> Orang yang sama menjawab soal 12 dan soal 87."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Values tests are different",
+        "id": "Tes nilai itu berbeda"
+       },
+       "body": {
+        "en": "Values-fit tests — such as the AKHLAK-based test in BUMN recruitment — <b>do</b> have keyed answers, aligned with the organisation’s stated values <span class=\"ev ev-verify\">Verify per programme</span>. That changes the preparation. Reading the organisation’s values framework in advance is legitimate: it is public, it is what they are testing, and it helps you recognise what “good” looks like in their terms — <i>amanah</i> is not the same emphasis as <i>adaptif</i>, and an item about a rule you disagree with is testing one, not the other. The line you should not cross is the same as in personality tests: do not claim a self you would have to keep performing for two years. A values test is a fit question in both directions.",
+        "id": "Tes kecocokan nilai — seperti tes berbasis AKHLAK dalam rekrutmen BUMN — <b>memang</b> punya jawaban berkunci, selaras dengan nilai yang dinyatakan organisasi <span class=\"ev ev-verify\">Verifikasi per program</span>. Itu mengubah persiapannya. Membaca kerangka nilai organisasi di muka itu sah: kerangka itu publik, itulah yang mereka uji, dan itu membantumu mengenali seperti apa “baik” dalam istilah mereka — <i>amanah</i> tidak sama penekanannya dengan <i>adaptif</i>, dan soal tentang aturan yang tidak kamu setujui sedang menguji yang satu, bukan yang lain. Garis yang tidak boleh kamu lewati sama seperti pada tes kepribadian: jangan mengklaim diri yang harus terus kamu perankan selama dua tahun. Tes nilai adalah pertanyaan kecocokan dua arah."
+       }
+      },
+      {
+       "icon": "compass",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "center 40%",
+       "h": {
+        "en": "Situational judgement: the PTA-S filter",
+        "id": "Penilaian situasional: saringan PTA-S"
+       },
+       "body": {
+        "en": "SJTs present a realistic work dilemma and ask for the most and least effective responses, or for a rating of each. <span class=\"ev ev-verify\">Verify</span> The CPNS TKP scores every option on a scale, so “second best” still earns points — which means a rule for ranking matters more than a rule for spotting one right answer. A reliable filter for the most effective response: <b>P</b>roactive — acts rather than waits; <b>T</b>ransparent — keeps the people who need to know informed; within your <b>A</b>uthority — does what your role can do and escalates what it cannot; <b>S</b>olves the real problem rather than the symptom or your own discomfort. The least effective response is usually the one that <b>causes harm</b> — dishonesty, breaking a rule, blaming others, hiding a problem — not merely the passive one; passivity is bad, concealment is worse. Answer as the organisation’s ideal employee <i>at your level</i>: a trainee escalates with a recommendation; a trainee does not approve exceptions, promise clients or override a supervisor.",
+        "id": "SJT menyajikan dilema kerja realistis dan meminta respons paling dan paling tidak efektif, atau penilaian untuk masing-masing. <span class=\"ev ev-verify\">Verifikasi</span> TKP CPNS memberi skor pada setiap opsi dalam skala, jadi “terbaik kedua” tetap mendapat poin — artinya aturan untuk mengurutkan lebih penting daripada aturan untuk menemukan satu jawaban benar. Saringan andal untuk respons paling efektif: <b>P</b>roaktif — bertindak, bukan menunggu; <b>T</b>ransparan — menjaga orang yang perlu tahu tetap terinformasi; dalam wewenang (<b>A</b>uthority) — melakukan apa yang bisa dilakukan peranmu dan mengeskalasi yang tidak bisa; menyelesaikan (<b>S</b>olves) masalah sebenarnya, bukan gejala atau ketidaknyamananmu sendiri. Respons paling tidak efektif biasanya yang <b>merugikan</b> — ketidakjujuran, melanggar aturan, menyalahkan orang lain, menyembunyikan masalah — bukan sekadar yang pasif; pasif itu buruk, menyembunyikan lebih buruk. Jawab sebagai karyawan ideal organisasi <i>di levelmu</i>: trainee mengeskalasi dengan rekomendasi; trainee tidak menyetujui pengecualian, menjanjikan sesuatu kepada klien, atau melangkahi atasan."
+       },
+       "quote": {
+        "text": {
+         "en": "<b>Worked SJT (original).</b> You emailed a client a pricing proposal yesterday and now notice a figure understates the price by Rp 50 juta. Your supervisor has not noticed. (A) Say nothing. (B) Tell your supervisor immediately with the corrected figure and agree how to correct it with the client. (C) Send a correction yourself without telling your supervisor. (D) Wait; if the client notices, blame the finance system.",
+         "id": "<b>SJT terurai (asli).</b> Kemarin kamu mengirim email proposal harga ke klien dan kini menyadari satu angka mencantumkan harga terlalu rendah sebesar Rp 50 juta. Atasanmu belum menyadarinya. (A) Diam saja. (B) Beri tahu atasanmu segera dengan angka yang benar dan sepakati cara mengoreksinya dengan klien. (C) Kirim koreksi sendiri tanpa memberi tahu atasanmu. (D) Tunggu; jika klien menyadarinya, salahkan sistem keuangan."
+        },
+        "who": {
+         "en": "Most effective: B — proactive, transparent, within authority, solves it. Least effective: D — concealment plus blame. C is proactive but outside authority; A is passive but not dishonest, so it ranks above D.",
+         "id": "Paling efektif: B — proaktif, transparan, dalam wewenang, menyelesaikannya. Paling tidak efektif: D — menyembunyikan ditambah menyalahkan. C proaktif tetapi di luar wewenang; A pasif tetapi tidak tidak jujur, jadi peringkatnya di atas D."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 4: Ranking four SJT options",
+       "id": "Peraga 4: Mengurutkan empat opsi SJT"
+      },
+      "title": {
+       "en": "PTA-S from the top; harm from the bottom",
+       "id": "PTA-S dari atas; kerugian dari bawah"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "1 · Find the harm",
+         "id": "1 · Temukan kerugiannya"
+        },
+        "sub": {
+         "en": "Which option is dishonest, breaks a rule, blames someone or hides the problem? That is the least effective — before you think about the best.",
+         "id": "Opsi mana yang tidak jujur, melanggar aturan, menyalahkan seseorang, atau menyembunyikan masalah? Itulah yang paling tidak efektif — sebelum memikirkan yang terbaik."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "2 · Apply PTA-S",
+         "id": "2 · Terapkan PTA-S"
+        },
+        "sub": {
+         "en": "Of the rest, which is proactive, transparent, within your authority and solves the real problem? That is the most effective.",
+         "id": "Dari sisanya, mana yang proaktif, transparan, dalam wewenangmu, dan menyelesaikan masalah sebenarnya? Itulah yang paling efektif."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "3 · Check the level",
+         "id": "3 · Periksa levelnya"
+        },
+        "sub": {
+         "en": "Would a trainee do this? Escalating with a recommendation is at level; approving, promising or overriding is not.",
+         "id": "Apakah trainee akan melakukan ini? Mengeskalasi dengan rekomendasi itu sesuai level; menyetujui, menjanjikan, atau melangkahi tidak."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "4 · Order the middle",
+         "id": "4 · Urutkan yang tengah"
+        },
+        "sub": {
+         "en": "Proactive-but-outside-authority usually ranks above passive; passive ranks above harmful. Second best still scores.",
+         "id": "Proaktif-tetapi-di-luar-wewenang biasanya di atas pasif; pasif di atas merugikan. Terbaik kedua tetap dapat skor."
+        }
+       }
+      ],
+      "note": {
+       "en": "On a most/least format only steps 1 and 2 are scored; on a rate-every-option format all four matter.",
+       "id": "Pada format paling/paling tidak hanya langkah 1 dan 2 yang dinilai; pada format nilai-setiap-opsi keempatnya penting."
+      },
+      "longdesc": {
+       "en": "A four-step flow for ranking situational judgement options: first find the harmful option, which is least effective; then apply the PTA-S filter to find the most effective; then check the response is at a trainee’s level; then order the middle options, with proactive-but-outside-authority above passive and passive above harmful.",
+       "id": "Alur empat langkah untuk mengurutkan opsi penilaian situasional: pertama temukan opsi yang merugikan, yang paling tidak efektif; lalu terapkan saringan PTA-S untuk menemukan yang paling efektif; lalu periksa responsnya sesuai level trainee; lalu urutkan opsi tengah, dengan proaktif-tetapi-di-luar-wewenang di atas pasif dan pasif di atas merugikan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two candidates, one forced-choice block",
+        "id": "Dua kandidat, satu blok pilihan-paksa"
+       },
+       "q": {
+        "en": "Most and least like me: (a) I keep to procedures even under pressure. (b) I come up with new approaches. (c) I make sure everyone on the team is heard. (d) I push to finish ahead of the deadline.",
+        "id": "Paling dan paling tidak seperti saya: (a) Saya berpegang pada prosedur bahkan di bawah tekanan. (b) Saya menemukan pendekatan baru. (c) Saya memastikan semua orang di tim didengar. (d) Saya mendorong untuk selesai sebelum tenggat."
+       },
+       "weak": {
+        "en": "Dimas, applying to a bank, reasons: “Banks want procedures — most (a). Least… they all sound good. I’ll pick (b), creativity is risky in banking.” Forty seconds. Item 71 asks the same thing in different words; by then he has forgotten what a bank wants and picks (b) as most. Flagged inconsistent.",
+        "id": "Dimas, melamar ke bank, bernalar: “Bank ingin prosedur — paling (a). Paling tidak… semuanya terdengar bagus. Kupilih (b), kreativitas berisiko di perbankan.” Empat puluh detik. Soal 71 menanyakan hal yang sama dengan kata berbeda; saat itu ia sudah lupa apa yang diinginkan bank dan memilih (b) sebagai paling. Ditandai tidak konsisten."
+       },
+       "strong": {
+        "en": "Nadia, from the treasurer’s desk on a normal good day: most (a) — she really did keep the books to procedure under pressure; least (b) — true, and she has stories for it. Five seconds. Item 71 gets the same answer because the same person is answering.",
+        "id": "Nadia, dari meja bendahara pada hari baik yang normal: paling (a) — ia memang menjaga pembukuan sesuai prosedur di bawah tekanan; paling tidak (b) — benar, dan ia punya ceritanya. Lima detik. Soal 71 mendapat jawaban yang sama karena orang yang sama yang menjawab."
+       },
+       "why": {
+        "en": "The frame does the work. Dimas answered as “what a bank wants” and could not hold that character for ninety items; Nadia answered as herself and did not have to.",
+        "id": "Kerangkanya yang bekerja. Dimas menjawab sebagai “apa yang diinginkan bank” dan tidak bisa mempertahankan karakter itu untuk sembilan puluh soal; Nadia menjawab sebagai dirinya sendiri dan tidak perlu."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the profile that met its interview",
+       "id": "Sorotan: profil yang bertemu wawancaranya"
+      },
+      "body": [
+       {
+        "en": "A HIMA alumnus tells the story against himself. On a rating-scale questionnaire for a consultancy he rated every leadership item 5 — he wanted the job. The profile came back “exceptionally high on leading others”. In the interview the first question was: “Your profile says you take charge in groups. Tell me about the last time you did that when nobody asked you to.” He had been the note-taker in every group project he could remember.",
+        "id": "Seorang alumnus HIMA menceritakan kisah yang menertawakan dirinya sendiri. Pada kuesioner skala penilaian untuk sebuah konsultan ia menilai setiap soal kepemimpinan 5 — ia ingin pekerjaan itu. Profilnya kembali “sangat tinggi dalam memimpin orang lain”. Di wawancara pertanyaan pertamanya: “Profil Anda mengatakan Anda mengambil kendali dalam kelompok. Ceritakan terakhir kali Anda melakukannya ketika tidak ada yang meminta.” Ia adalah pencatat di setiap proyek kelompok yang bisa ia ingat."
+       },
+       {
+        "en": "The questionnaire did not eliminate him; the interview did, and gently. The lesson is not “score lower on leadership”. It is that every profile is a promise of examples, and the consistent work-self frame is the only one whose examples you already have. Drill 1 makes the promise explicit: one STAR story per top trait, written before the test, not after.",
+        "id": "Kuesioner tidak menggugurkannya; wawancaralah yang melakukannya, dengan halus. Pelajarannya bukan “beri skor lebih rendah pada kepemimpinan”. Melainkan bahwa setiap profil adalah janji akan contoh, dan kerangka diri-kerja yang konsisten adalah satu-satunya yang contohnya sudah kamu miliki. Latihan 1 membuat janji itu eksplisit: satu cerita STAR per sifat teratas, ditulis sebelum tes, bukan sesudahnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Consistency mirror",
+        "id": "Latihan 1 · Cermin konsistensi"
+       },
+       "body": {
+        "en": "Rate these six statements 1–5 from your work-self frame, quickly: (1) I plan before I start. (2) I speak up when I disagree. (3) I prefer working with others to working alone. (4) I keep going when a task is dull. (5) I try new methods before proven ones. (6) I stay calm when plans change. Now the forced-choice version — from each pair, pick the one more like you: planning vs improvising · speaking up vs keeping the peace · team vs solo · persistence vs variety · new methods vs proven ones · calm vs energised under change. Compare: where did the two versions disagree?",
+        "id": "Nilai enam pernyataan ini 1–5 dari kerangka diri-kerjamu, dengan cepat: (1) Saya merencanakan sebelum mulai. (2) Saya bersuara ketika tidak setuju. (3) Saya lebih suka bekerja dengan orang lain daripada sendiri. (4) Saya terus berjalan ketika tugasnya membosankan. (5) Saya mencoba metode baru sebelum yang terbukti. (6) Saya tetap tenang ketika rencana berubah. Kini versi pilihan-paksa — dari tiap pasangan, pilih yang lebih seperti kamu: merencanakan vs improvisasi · bersuara vs menjaga kedamaian · tim vs sendiri · ketekunan vs variasi · metode baru vs yang terbukti · tenang vs bersemangat saat berubah. Bandingkan: di mana kedua versi tidak sepakat?"
+       },
+       "debrief": {
+        "en": "A disagreement between the two versions is where you wavered — usually because the rating version tempted you toward the “good” answer and the forced-choice version made you choose. Take your two highest traits and write one STAR example for each, from study, organisation or part-time work. If you cannot write the example, the rating was aspiration, not description; adjust the frame, not the story.",
+        "id": "Ketidaksepakatan antara kedua versi adalah tempat kamu goyah — biasanya karena versi penilaian menggodamu ke jawaban “baik” dan versi pilihan-paksa memaksamu memilih. Ambil dua sifat tertinggimu dan tulis satu contoh STAR untuk masing-masing, dari kuliah, organisasi, atau kerja paruh waktu. Jika kamu tidak bisa menulis contohnya, penilaian itu aspirasi, bukan deskripsi; sesuaikan kerangkanya, bukan ceritanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · SJT — competing priorities",
+        "id": "Latihan 2 · SJT — prioritas yang bersaing"
+       },
+       "body": {
+        "en": "You are a trainee. Your supervisor asked for a reconciliation report by 15:00. At 13:30 a manager from another team asks you to pull data for a client meeting at 14:30, “it will only take an hour”. Options: (A) Do the manager’s request first; the supervisor will understand. (B) Tell the manager you have a 15:00 deadline, ask whether 15:30 works, and let your supervisor know a request came in. (C) Decline the manager without explanation. (D) Do both by skipping the checks on the reconciliation. Most effective? Least effective?",
+        "id": "Kamu trainee. Atasanmu meminta laporan rekonsiliasi pukul 15.00. Pukul 13.30 seorang manajer dari tim lain memintamu menarik data untuk rapat klien pukul 14.30, “cuma satu jam saja”. Opsi: (A) Kerjakan permintaan manajer dulu; atasan akan mengerti. (B) Beri tahu manajer kamu punya tenggat 15.00, tanyakan apakah 15.30 bisa, dan beri tahu atasanmu ada permintaan masuk. (C) Tolak manajer tanpa penjelasan. (D) Kerjakan keduanya dengan melewati pemeriksaan pada rekonsiliasi. Paling efektif? Paling tidak efektif?"
+       },
+       "debrief": {
+        "en": "Most effective: <b>B</b> — proactive (offers a time), transparent (both parties know), within authority (does not decide priorities for the supervisor), solves the real problem. Least effective: <b>D</b> — skipping checks on a financial report is harm hidden inside “helpfulness”. Between A and C: A reprioritises without telling the supervisor (a transparency failure); C is unhelpful but honest. C ranks above A; both rank above D.",
+        "id": "Paling efektif: <b>B</b> — proaktif (menawarkan waktu), transparan (kedua pihak tahu), dalam wewenang (tidak memutuskan prioritas untuk atasan), menyelesaikan masalah sebenarnya. Paling tidak efektif: <b>D</b> — melewati pemeriksaan pada laporan keuangan adalah kerugian yang tersembunyi di dalam “kesediaan membantu”. Antara A dan C: A memprioritaskan ulang tanpa memberi tahu atasan (kegagalan transparansi); C tidak membantu tetapi jujur. C di atas A; keduanya di atas D."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · SJT — a teammate not delivering",
+        "id": "Latihan 3 · SJT — rekan tim tidak menyelesaikan bagiannya"
+       },
+       "body": {
+        "en": "Three trainees share a project due Friday. On Wednesday one of them, Rafi, has delivered nothing and is not answering messages. Options: (A) Do Rafi’s part yourself and say nothing. (B) Report Rafi to the programme manager immediately. (C) Message Rafi directly to ask what is happening and whether he needs help; if there is no reply by Thursday morning, tell the project lead what has been done and propose how to cover the gap. (D) Submit the project on Friday without Rafi’s section and note that it was his. Most and least effective?",
+        "id": "Tiga trainee berbagi proyek yang jatuh tempo Jumat. Pada Rabu salah satunya, Rafi, belum menyerahkan apa pun dan tidak membalas pesan. Opsi: (A) Kerjakan bagian Rafi sendiri dan diam saja. (B) Laporkan Rafi ke manajer program segera. (C) Kirim pesan langsung ke Rafi untuk menanyakan apa yang terjadi dan apakah ia butuh bantuan; jika tidak ada balasan sampai Kamis pagi, beri tahu pimpinan proyek apa yang sudah dilakukan dan usulkan cara menutup celahnya. (D) Serahkan proyek pada Jumat tanpa bagian Rafi dan catat bahwa itu bagiannya. Paling dan paling tidak efektif?"
+       },
+       "debrief": {
+        "en": "Most effective: <b>C</b> — proactive with the person first, transparent with the lead on a timeline, within authority (proposes, does not decide), solves the delivery problem. Least effective: <b>D</b> — knowingly submits an incomplete project and shifts blame; harm to the outcome and to a colleague. A hides a problem the team should know about; B escalates without trying to solve it and without facts. Both rank above D; C above both.",
+        "id": "Paling efektif: <b>C</b> — proaktif dengan orangnya dulu, transparan dengan pimpinan sesuai lini waktu, dalam wewenang (mengusulkan, tidak memutuskan), menyelesaikan masalah penyerahan. Paling tidak efektif: <b>D</b> — sengaja menyerahkan proyek tidak lengkap dan mengalihkan kesalahan; merugikan hasil dan rekan. A menyembunyikan masalah yang seharusnya diketahui tim; B mengeskalasi tanpa mencoba menyelesaikannya dan tanpa fakta. Keduanya di atas D; C di atas keduanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · SJT — an angry customer and a fixed policy",
+        "id": "Latihan 4 · SJT — pelanggan marah dan kebijakan tetap"
+       },
+       "body": {
+        "en": "At a bank counter, a customer is angry that a transfer fee was charged that a colleague had told her would be waived. Policy does not allow you to refund fees. Options: (A) Refund the fee anyway to calm her down. (B) Tell her the colleague was wrong and there is nothing you can do. (C) Apologise for the confusion, explain that you cannot refund at the counter, and offer to log a formal request with your supervisor today and confirm the outcome by phone. (D) Say the fee was a system error and will disappear. Most and least effective?",
+        "id": "Di konter bank, seorang nasabah marah karena dikenai biaya transfer yang menurut rekanmu akan dibebaskan. Kebijakan tidak mengizinkanmu mengembalikan biaya. Opsi: (A) Kembalikan biayanya saja untuk menenangkannya. (B) Katakan rekanmu salah dan tidak ada yang bisa kamu lakukan. (C) Minta maaf atas kebingungannya, jelaskan bahwa kamu tidak bisa mengembalikan di konter, dan tawarkan untuk mencatat permintaan resmi ke atasanmu hari ini dan mengonfirmasi hasilnya lewat telepon. (D) Katakan biayanya kesalahan sistem dan akan hilang. Paling dan paling tidak efektif?"
+       },
+       "debrief": {
+        "en": "Most effective: <b>C</b> — transparent, within authority, proactive about the next step, solves the customer’s real problem (being heard and getting an answer). Least effective: <b>D</b> — a lie that will be discovered on her next statement. A breaks policy (harm to the organisation, and a trainee approving exceptions); B is honest but blames a colleague and abandons the customer. Order: C, then B or A depending on the organisation’s values — a values-led bank usually ranks the policy breach below the unhelpful truth — then D.",
+        "id": "Paling efektif: <b>C</b> — transparan, dalam wewenang, proaktif tentang langkah berikutnya, menyelesaikan masalah sebenarnya nasabah (didengar dan mendapat jawaban). Paling tidak efektif: <b>D</b> — kebohongan yang akan ketahuan pada rekening korannya berikutnya. A melanggar kebijakan (merugikan organisasi, dan trainee menyetujui pengecualian); B jujur tetapi menyalahkan rekan dan meninggalkan nasabah. Urutan: C, lalu B atau A tergantung nilai organisasi — bank yang dipimpin nilai biasanya menempatkan pelanggaran kebijakan di bawah kebenaran yang tidak membantu — lalu D."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Answering as “what they want”",
+         "id": "Menjawab sebagai “apa yang mereka inginkan”"
+        },
+        "fix": {
+         "en": "Answer as your work-self on a normal good day — the only character you can hold for ninety items.",
+         "id": "Jawab sebagai diri-kerjamu pada hari baik yang normal — satu-satunya karakter yang bisa kamu pertahankan untuk sembilan puluh soal."
+        }
+       },
+       {
+        "h": {
+         "en": "Parking on the middle option",
+         "id": "Berhenti di opsi tengah"
+        },
+        "fix": {
+         "en": "Commit; a profile of 3s can be flagged as non-committal.",
+         "id": "Tegaslah; profil berisi angka 3 semua bisa ditandai tidak tegas."
+        }
+       },
+       {
+        "h": {
+         "en": "Choosing the passive option as “least effective”",
+         "id": "Memilih opsi pasif sebagai “paling tidak efektif”"
+        },
+        "fix": {
+         "en": "Look for harm first — dishonesty, rule-breaking, blaming, hiding.",
+         "id": "Cari kerugiannya dulu — ketidakjujuran, melanggar aturan, menyalahkan, menyembunyikan."
+        }
+       },
+       {
+        "h": {
+         "en": "Answering the SJT as the manager",
+         "id": "Menjawab SJT sebagai manajer"
+        },
+        "fix": {
+         "en": "Answer at your level: escalate with a recommendation.",
+         "id": "Jawab di levelmu: eskalasi dengan rekomendasi."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Rating scale",
+        "id": "Skala penilaian"
+       },
+       "def": {
+        "en": "Each statement rated independently, usually 1–5.",
+        "id": "Setiap pernyataan dinilai secara bebas, biasanya 1–5."
+       }
+      },
+      {
+       "term": {
+        "en": "Forced choice",
+        "id": "Pilihan-paksa"
+       },
+       "def": {
+        "en": "Most / least like me from a block of desirable statements, or A versus B — reveals relative priorities.",
+        "id": "Paling / paling tidak seperti saya dari satu blok pernyataan yang diinginkan, atau A versus B — mengungkap prioritas relatif."
+       }
+      },
+      {
+       "term": {
+        "en": "Consistency check",
+        "id": "Pemeriksaan konsistensi"
+       },
+       "def": {
+        "en": "Repeated items in different words, plus checks for implausibly positive answers; failing them can invalidate a profile.",
+        "id": "Soal berulang dengan kata berbeda, plus pemeriksaan jawaban yang terlalu positif hingga tidak masuk akal; gagal di sini bisa membuat profil tidak valid."
+       }
+      },
+      {
+       "term": {
+        "en": "Work-self frame",
+        "id": "Kerangka diri-kerja"
+       },
+       "def": {
+        "en": "You at work or study on a normal good day — the reference for every personality item.",
+        "id": "Kamu di tempat kerja atau kuliah pada hari baik yang normal — acuan untuk setiap soal kepribadian."
+       }
+      },
+      {
+       "term": {
+        "en": "Keyed values test",
+        "id": "Tes nilai berkunci"
+       },
+       "def": {
+        "en": "A values-fit test with answers aligned to the organisation’s stated values framework.",
+        "id": "Tes kecocokan nilai dengan jawaban yang selaras dengan kerangka nilai yang dinyatakan organisasi."
+       }
+      },
+      {
+       "term": {
+        "en": "PTA-S",
+        "id": "PTA-S"
+       },
+       "def": {
+        "en": "Proactive · Transparent · within Authority · Solves the real problem — the filter for the most effective SJT response.",
+        "id": "Proaktif · Transparan · dalam wewenang (Authority) · Menyelesaikan (Solves) masalah sebenarnya — saringan untuk respons SJT paling efektif."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Forced-choice blocks make faking hard because…",
+        "id": "Blok pilihan-paksa membuat pemalsuan sulit karena…"
+       },
+       "options": [
+        {
+         "en": "They are timed",
+         "id": "Berbatas waktu"
+        },
+        {
+         "en": "All options are desirable, so you reveal relative priorities",
+         "id": "Semua opsi diinginkan, jadi kamu mengungkap prioritas relatif"
+        },
+        {
+         "en": "They have right answers",
+         "id": "Punya jawaban benar"
+        },
+        {
+         "en": "They are scored by a person",
+         "id": "Dinilai oleh orang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "You cannot endorse everything good; you have to choose, and the choices must stay consistent.",
+        "id": "Kamu tidak bisa menyetujui semua yang baik; kamu harus memilih, dan pilihannya harus tetap konsisten."
+       }
+      },
+      {
+       "q": {
+        "en": "The least effective SJT response is usually…",
+        "id": "Respons SJT paling tidak efektif biasanya…"
+       },
+       "options": [
+        {
+         "en": "The passive one",
+         "id": "Yang pasif"
+        },
+        {
+         "en": "The harmful one — dishonest, rule-breaking or blaming",
+         "id": "Yang merugikan — tidak jujur, melanggar aturan, atau menyalahkan"
+        },
+        {
+         "en": "The one that involves the supervisor",
+         "id": "Yang melibatkan atasan"
+        },
+        {
+         "en": "The longest one",
+         "id": "Yang terpanjang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Passivity is weak; concealment and blame cause harm.",
+        "id": "Pasif itu lemah; menyembunyikan dan menyalahkan menyebabkan kerugian."
+       }
+      },
+      {
+       "q": {
+        "en": "Preparing for a values test by reading the organisation’s values framework is…",
+        "id": "Mempersiapkan tes nilai dengan membaca kerangka nilai organisasi adalah…"
+       },
+       "options": [
+        {
+         "en": "Cheating",
+         "id": "Kecurangan"
+        },
+        {
+         "en": "Pointless — there are no right answers",
+         "id": "Sia-sia — tidak ada jawaban benar"
+        },
+        {
+         "en": "Legitimate preparation",
+         "id": "Persiapan yang sah"
+        },
+        {
+         "en": "Only allowed for BUMN",
+         "id": "Hanya boleh untuk BUMN"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Values tests are keyed to a public framework; knowing it helps you recognise “good” in their terms.",
+        "id": "Tes nilai berkunci pada kerangka publik; mengetahuinya membantumu mengenali “baik” dalam istilah mereka."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "drill",
+      "title": {
+       "en": "Consistency mirror and SJT calibration — in the Dossier",
+       "id": "Cermin konsistensi dan kalibrasi SJT — di Dossier"
+      },
+      "body": {
+       "en": "The Gym’s drill sets cover the three ability families; personality and situational items are practised here, in the lesson. Record in the Dossier: your two top traits with one STAR story each (Drill 1), and your rankings for the four SJTs with any disagreement against the key and the values of your target organisation (Drills 2–4). Then run a timed ability set so the week’s log has all three families.",
+       "id": "Set latihan Gym mencakup tiga keluarga kemampuan; soal kepribadian dan situasional dilatih di sini, di dalam pelajaran. Catat di Dossier: dua sifat teratasmu dengan satu cerita STAR masing-masing (Latihan 1), dan urutanmu untuk empat SJT dengan ketidaksepakatan apa pun terhadap kunci dan nilai organisasi sasaranmu (Latihan 2–4). Lalu jalankan satu set kemampuan berbatas waktu agar catatan minggu ini memuat ketiga keluarga."
+      },
+      "cta": {
+       "en": "Open the Screening Gym →",
+       "id": "Buka Screening Gym →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Personality: consistent work-self, instinctive, every item.",
+       "id": "Kepribadian: diri-kerja yang konsisten, naluriah, setiap soal."
+      },
+      {
+       "en": "Values tests are keyed — know the framework.",
+       "id": "Tes nilai berkunci — kenali kerangkanya."
+      },
+      {
+       "en": "SJT: proactive, transparent, within authority, solves the problem.",
+       "id": "SJT: proaktif, transparan, dalam wewenang, menyelesaikan masalah."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the two cards",
+       "id": "Sumber dan dua kartu"
+      },
+      "lead": {
+       "en": "Two sources — SJTs and Indonesian instruments are not in them — and the personality and SJT cards.",
+       "id": "Dua sumber — SJT dan instrumen Indonesia tidak ada di dalamnya — dan kartu kepribadian serta SJT."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.4",
+         "id": "Daftar bacaan · Pelajaran 7.4"
+        },
+        "desc": {
+         "en": "Two sources.",
+         "id": "Dua sumber."
+        },
+        "body": [
+         {
+          "en": "A. Shavick, <i>How to Pass Psychometric Tests</i> (3rd ed.), ch. 2 and 12 — personality questionnaires, forced choice, consistency, the interview follow-up.",
+          "id": "A. Shavick, <i>How to Pass Psychometric Tests</i> (ed. ke-3), bab 2 dan 12 — kuesioner kepribadian, pilihan-paksa, konsistensi, tindak lanjut wawancara."
+         },
+         {
+          "en": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — answer honestly and quickly; validity checks.",
+          "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — jawab jujur dan cepat; pemeriksaan validitas."
+         },
+         {
+          "en": "Situational judgement tests, the CPNS TKP and the AKHLAK-based values test are not covered by the books; the module’s guidance on them is marked Verify and should be checked against each programme’s own materials.",
+          "id": "Tes penilaian situasional, TKP CPNS, dan tes nilai berbasis AKHLAK tidak dibahas buku-buku itu; panduan modul tentang hal-hal itu ditandai Verifikasi dan harus dicek terhadap materi tiap program."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Personality card · before you start",
+         "id": "Kartu kepribadian · sebelum mulai"
+        },
+        "desc": {
+         "en": "Five lines.",
+         "id": "Lima baris."
+        },
+        "body": [
+         {
+          "en": "Frame: me at work/study on a normal good day",
+          "id": "Kerangka: saya di tempat kerja/kuliah pada hari baik yang normal"
+         },
+         {
+          "en": "Instinctive — a few seconds each",
+          "id": "Naluriah — beberapa detik masing-masing"
+         },
+         {
+          "en": "Every item; not the middle",
+          "id": "Setiap soal; bukan yang tengah"
+         },
+         {
+          "en": "No experience? Use study, organisation, part-time work",
+          "id": "Belum berpengalaman? Pakai kuliah, organisasi, kerja paruh waktu"
+         },
+         {
+          "en": "Same person from item 1 to the last",
+          "id": "Orang yang sama dari soal 1 sampai terakhir"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "SJT card",
+         "id": "Kartu SJT"
+        },
+        "desc": {
+         "en": "Four lines.",
+         "id": "Empat baris."
+        },
+        "body": [
+         {
+          "en": "Least effective = harm: dishonest · rule-breaking · blaming · hiding",
+          "id": "Paling tidak efektif = kerugian: tidak jujur · melanggar aturan · menyalahkan · menyembunyikan"
+         },
+         {
+          "en": "Most effective = PTA-S: Proactive · Transparent · within Authority · Solves the real problem",
+          "id": "Paling efektif = PTA-S: Proaktif · Transparan · dalam wewenang (Authority) · Menyelesaikan (Solves) masalah sebenarnya"
+         },
+         {
+          "en": "At my level: escalate with a recommendation; never approve, promise or override",
+          "id": "Di level saya: eskalasi dengan rekomendasi; jangan pernah menyetujui, menjanjikan, atau melangkahi"
+         },
+         {
+          "en": "Middle order: proactive-outside-authority > passive > harmful",
+          "id": "Urutan tengah: proaktif-di-luar-wewenang > pasif > merugikan"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.5",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Strategy, Pacing and Test Day",
+      "id": "Strategi, Tempo, dan Hari Tes"
+     },
+     "overview": {
+      "en": "The books disagree about guessing, and they are all right — for different scoring rules. This lesson resolves that into one rule per test type, gives a pacing method in seconds per item with an adjustment for adaptive tests, lays out the three-week plan and the error log that steers it, and ends with the test-day checklist and what to do about nerves.",
+      "id": "Buku-buku itu tidak sepakat soal menebak, dan semuanya benar — untuk aturan penilaian yang berbeda. Pelajaran ini menyelesaikannya menjadi satu aturan per jenis tes, memberi metode tempo dalam detik per soal dengan penyesuaian untuk tes adaptif, menyusun rencana tiga minggu dan catatan kesalahan yang mengarahkannya, dan diakhiri dengan daftar periksa hari tes dan cara menangani gugup."
+     },
+     "objectives": [
+      {
+       "en": "Choose the guessing rule from the scoring rule.",
+       "id": "Memilih aturan menebak dari aturan penilaian."
+      },
+      {
+       "en": "Pace a test in seconds per item, with checkpoints and an adaptive adjustment.",
+       "id": "Mengatur tempo tes dalam detik per soal, dengan titik periksa dan penyesuaian adaptif."
+      },
+      {
+       "en": "Run the three-week plan and the error log.",
+       "id": "Menjalankan rencana tiga minggu dan catatan kesalahan."
+      },
+      {
+       "en": "Complete the test-day checklist and manage nerves.",
+       "id": "Melengkapi daftar periksa hari tes dan mengelola gugup."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The scoring rule decides the guessing rule",
+       "id": "Aturan penilaian menentukan aturan menebak"
+      },
+      "intro": {
+       "en": "Strategy is three numbers — seconds per item, the guessing rule, the weekly session count — and one log.",
+       "id": "Strategi adalah tiga angka — detik per soal, aturan menebak, jumlah sesi mingguan — dan satu catatan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Guessing",
+         "id": "Menebak"
+        },
+        "points": [
+         {
+          "en": "Number-correct scoring: never leave a blank. Negative marking: guess only after eliminating to two. Accuracy-scored speed tests: accuracy first. Unknown: eliminate, then guess.",
+          "id": "Penilaian jumlah benar: jangan pernah biarkan kosong. Pengurangan nilai: tebak hanya setelah menyisakan dua. Tes kecepatan yang dinilai ketepatan: ketepatan dulu. Tidak tahu: singkirkan, lalu tebak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Pacing",
+         "id": "Tempo"
+        },
+        "points": [
+         {
+          "en": "Time ÷ items at the start; checkpoints at ¼, ½, ¾. Stuck at twice your budget → mark, guess, move on.",
+          "id": "Waktu ÷ soal di awal; titik periksa di ¼, ½, ¾. Buntu di dua kali anggaran → tandai, tebak, lanjut."
+         },
+         {
+          "en": "Adaptive: slow down on the first third; never let a per-item timer expire unanswered.",
+          "id": "Adaptif: pelankan di sepertiga pertama; jangan pernah biarkan pengatur waktu per soal habis tanpa jawaban."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The system",
+         "id": "Sistem"
+        },
+        "points": [
+         {
+          "en": "Three weeks: diagnose and foundations → strategy drills → simulation and fit. Six 25-minute sessions a week.",
+          "id": "Tiga minggu: diagnosis dan fondasi → latihan strategi → simulasi dan kecocokan. Enam sesi 25 menit seminggu."
+         },
+         {
+          "en": "Every miss gets a tag; the top two tags choose next week’s drills.",
+          "id": "Setiap kesalahan diberi tanda; dua tanda teratas memilih latihan minggu depan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "target",
+       "h": {
+        "en": "The guessing rule — decide from the scoring",
+        "id": "Aturan menebak — putuskan dari penilaian"
+       },
+       "body": {
+        "en": "The books disagree: make an educated guess <i>(Shavick, How to Pass Psychometric Tests, ch. 3)</i>; first ask whether wrong answers are penalised <i>(Carter)</i>; do not guess <i>(Barrett — whose own workbook scoring deducts for errors)</i>. They are describing different scoring rules. The reconciliation is one rule per rule:",
+        "id": "Buku-buku itu tidak sepakat: buat tebakan terdidik <i>(Shavick, How to Pass Psychometric Tests, bab 3)</i>; tanyakan dulu apakah jawaban salah dikurangi <i>(Carter)</i>; jangan menebak <i>(Barrett — yang penilaian buku latihannya sendiri mengurangi untuk kesalahan)</i>. Mereka menggambarkan aturan penilaian yang berbeda. Rekonsiliasinya adalah satu aturan per aturan:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Scoring rule",
+          "id": "Aturan penilaian"
+         },
+         {
+          "en": "Where you meet it",
+          "id": "Di mana kamu menemuinya"
+         },
+         {
+          "en": "Guessing rule",
+          "id": "Aturan menebak"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Number-correct",
+           "id": "Jumlah benar"
+          },
+          {
+           "en": "Most online graduate batteries; most Indonesian ability tests <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Kebanyakan baterai lulusan daring; kebanyakan tes kemampuan Indonesia <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "<b>Never leave a blank.</b> Eliminate, then guess.",
+           "id": "<b>Jangan pernah biarkan kosong.</b> Singkirkan, lalu tebak."
+          }
+         ],
+         [
+          {
+           "en": "Negative marking",
+           "id": "Pengurangan nilai"
+          },
+          {
+           "en": "Some paper tests; some workbook scoring",
+           "id": "Sebagian tes kertas; sebagian penilaian buku latihan"
+          },
+          {
+           "en": "Guess only after eliminating to two options.",
+           "id": "Tebak hanya setelah menyisakan dua opsi."
+          }
+         ],
+         [
+          {
+           "en": "Accuracy-scored speed test",
+           "id": "Tes kecepatan dinilai ketepatan"
+          },
+          {
+           "en": "Clerical checking; Kraepelin/Pauli-style columns",
+           "id": "Pemeriksaan klerikal; kolom gaya Kraepelin/Pauli"
+          },
+          {
+           "en": "Accuracy first — errors count against you and consistency is measured.",
+           "id": "Ketepatan dulu — kesalahan dihitung melawanmu dan konsistensi diukur."
+          }
+         ],
+         [
+          {
+           "en": "Every option scored (TKP-style)",
+           "id": "Setiap opsi berskor (gaya TKP)"
+          },
+          {
+           "en": "CPNS TKP <span class=\"ev ev-verify\">Verify</span>",
+           "id": "TKP CPNS <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Always answer; second best still scores.",
+           "id": "Selalu jawab; terbaik kedua tetap dapat skor."
+          }
+         ],
+         [
+          {
+           "en": "Unknown",
+           "id": "Tidak tahu"
+          },
+          {
+           "en": "You could not find out",
+           "id": "Kamu tidak bisa mencari tahu"
+          },
+          {
+           "en": "Eliminate, then guess rather than leave blanks — most modern tests do not penalise.",
+           "id": "Singkirkan, lalu tebak daripada membiarkan kosong — kebanyakan tes modern tidak mengurangi."
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Pacing",
+        "id": "Tempo"
+       },
+       "body": {
+        "en": "Divide time by items at the start — 24 items in 18 minutes is 45 seconds each — and set checkpoints at a quarter, half and three-quarters: at 4½ minutes you should be finishing item 6 <i>(Shavick, ch. 3)</i>. On non-adaptive tests, if you are stuck at about twice your per-item budget, mark it, guess and move on; do not skip ahead looking for easy items, which costs the time it is meant to save <i>(Shavick; Carter)</i>. Come back to marked items only if the rule allows and time remains. <b>Adaptive tests change this</b> <span class=\"ev ev-verify\">Verify for the provider</span>: you usually cannot go back, early items carry more weight because they set the difficulty band, so slow down on the first third; and never let a per-item timer expire unanswered — an expired item is a wrong item.",
+        "id": "Bagi waktu dengan jumlah soal di awal — 24 soal dalam 18 menit adalah 45 detik masing-masing — dan pasang titik periksa di seperempat, separuh, dan tiga perempat: pada 4½ menit kamu seharusnya menyelesaikan soal 6 <i>(Shavick, bab 3)</i>. Pada tes non-adaptif, jika buntu sekitar dua kali anggaran per soal, tandai, tebak, dan lanjut; jangan melompat ke depan mencari soal mudah, yang menghabiskan waktu yang seharusnya dihemat <i>(Shavick; Carter)</i>. Kembali ke soal yang ditandai hanya jika aturan mengizinkan dan waktu tersisa. <b>Tes adaptif mengubah ini</b> <span class=\"ev ev-verify\">Verifikasi untuk penyedianya</span>: kamu biasanya tidak bisa kembali, soal awal berbobot lebih karena menentukan pita kesulitan, jadi pelankan di sepertiga pertama; dan jangan pernah biarkan pengatur waktu per soal habis tanpa jawaban — soal yang habis waktunya adalah soal yang salah."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Test",
+          "id": "Tes"
+         },
+         {
+          "en": "Budget",
+          "id": "Anggaran"
+         },
+         {
+          "en": "Checkpoints",
+          "id": "Titik periksa"
+         },
+         {
+          "en": "Stuck rule",
+          "id": "Aturan buntu"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "24 items · 18 min · section clock · can go back",
+           "id": "24 soal · 18 mnt · jam per bagian · bisa kembali"
+          },
+          {
+           "en": "45 s",
+           "id": "45 dtk"
+          },
+          {
+           "en": "4½ min → item 6 · 9 → 12 · 13½ → 18",
+           "id": "4½ mnt → soal 6 · 9 → 12 · 13½ → 18"
+          },
+          {
+           "en": "At 90 s: mark, guess, move on; return if time remains",
+           "id": "Pada 90 dtk: tandai, tebak, lanjut; kembali jika waktu tersisa"
+          }
+         ],
+         [
+          {
+           "en": "14 items · per-item timer 60 s · no back",
+           "id": "14 soal · pengatur waktu per soal 60 dtk · tidak bisa kembali"
+          },
+          {
+           "en": "60 s fixed",
+           "id": "60 dtk tetap"
+          },
+          {
+           "en": "None needed",
+           "id": "Tidak perlu"
+          },
+          {
+           "en": "At 50 s: choose the best remaining option; never expire",
+           "id": "Pada 50 dtk: pilih opsi tersisa terbaik; jangan pernah habis"
+          }
+         ],
+         [
+          {
+           "en": "Adaptive · ~12 items · 15 min · no back",
+           "id": "Adaptif · ~12 soal · 15 mnt · tidak bisa kembali"
+          },
+          {
+           "en": "75 s average; ~100 s on items 1–4",
+           "id": "75 dtk rata-rata; ~100 dtk pada soal 1–4"
+          },
+          {
+           "en": "5 min → item 4 · 10 → 8",
+           "id": "5 mnt → soal 4 · 10 → 8"
+          },
+          {
+           "en": "Careful early; eliminate and answer late",
+           "id": "Cermat di awal; singkirkan dan jawab di akhir"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The three-week plan",
+        "id": "Rencana tiga minggu"
+       },
+       "body": {
+        "en": "Six short sessions a week beat one long weekend session — speed skills consolidate with spacing, and a 25-minute session fits before class or after a shift.",
+        "id": "Enam sesi singkat seminggu mengalahkan satu sesi panjang akhir pekan — keterampilan kecepatan mengendap dengan jeda, dan sesi 25 menit muat sebelum kuliah atau setelah sif."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Week",
+          "id": "Minggu"
+         },
+         {
+          "en": "Focus",
+          "id": "Fokus"
+         },
+         {
+          "en": "Sessions",
+          "id": "Sesi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1 — Diagnose &amp; foundations",
+           "id": "1 — Diagnosis &amp; fondasi"
+          },
+          {
+           "en": "Baseline; number formats and percentages; the T/F/CS procedure; series families 1–7; the error log from day one.",
+           "id": "Garis dasar; format angka dan persentase; prosedur B/S/TBD; keluarga deret 1–7; catatan kesalahan sejak hari pertama."
+          },
+          {
+           "en": "6 × 25 min: 2 numerical · 2 verbal · 2 logical, untimed",
+           "id": "6 × 25 mnt: 2 numerik · 2 verbal · 2 logika, tanpa batas waktu"
+          }
+         ],
+         [
+          {
+           "en": "2 — Strategy drills",
+           "id": "2 — Latihan strategi"
+          },
+          {
+           "en": "Timed sets by family; the abstract scan order; FSCS on data sets; series families 8–13; the top two error tags choose the extra sets.",
+           "id": "Set berbatas waktu per keluarga; urutan pindai abstrak; FSCS pada set data; keluarga deret 8–13; dua tanda kesalahan teratas memilih set tambahan."
+          },
+          {
+           "en": "6 × 25 min: 3 timed sets in the weakest family, 1 each in the others, 1 log review",
+           "id": "6 × 25 mnt: 3 set berbatas waktu di keluarga terlemah, 1 masing-masing di lainnya, 1 tinjauan catatan"
+          }
+         ],
+         [
+          {
+           "en": "3 — Simulation &amp; fit",
+           "id": "3 — Simulasi &amp; kecocokan"
+          },
+          {
+           "en": "Two full timed mocks (one in adaptive mode — no going back); SJT and values sets for the target organisation; the personality consistency exercise; the test-day checklist.",
+           "id": "Dua simulasi penuh berbatas waktu (satu dalam mode adaptif — tidak bisa kembali); set SJT dan nilai untuk organisasi sasaran; latihan konsistensi kepribadian; daftar periksa hari tes."
+          },
+          {
+           "en": "6 sessions: 2 mocks · 2 SJT/values · 1 personality · 1 checklist and rest",
+           "id": "6 sesi: 2 simulasi · 2 SJT/nilai · 1 kepribadian · 1 daftar periksa dan istirahat"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "If the test is in four weeks, week 0 is the baseline and the “know the game” checklist; if it is in two, compress weeks 1 and 2 and keep week 3 intact.",
+         "id": "Jika tes empat minggu lagi, minggu 0 adalah garis dasar dan daftar periksa “kenali permainannya”; jika dua minggu lagi, padatkan minggu 1 dan 2 dan pertahankan minggu 3 utuh."
+        }
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The error log",
+        "id": "Catatan kesalahan"
+       },
+       "body": {
+        "en": "Every miss gets a tag — <b>misread · concept gap · arithmetic slip · time pressure · fell for a trap</b> — and one line: the item, the tag, the fix. Each week, your top two tags choose the next week’s drills; this operationalises Shavick’s “analyse your mistakes” <i>(Part 2)</i> into something a calendar can hold. The tags are diagnostic, not moral: five “misread” tags is not carelessness, it is a specific instruction — slow down in the Find step and write the separator on the scrap paper. Lesson 7.3 added two sub-tags for verbal: “Cannot Say chosen as True” and “forced by inference”.",
+        "id": "Setiap kesalahan diberi tanda — <b>salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak</b> — dan satu baris: soalnya, tandanya, perbaikannya. Setiap minggu, dua tanda teratasmu memilih latihan minggu berikutnya; ini mengoperasionalkan “analisis kesalahanmu” Shavick <i>(Bagian 2)</i> menjadi sesuatu yang bisa dimuat kalender. Tandanya diagnostik, bukan moral: lima tanda “salah baca” bukan kecerobohan, melainkan instruksi spesifik — pelankan di langkah Temukan dan tulis pemisahnya di kertas coretan. Pelajaran 7.3 menambah dua sub-tanda untuk verbal: “Tidak Bisa Disimpulkan dipilih sebagai Benar” dan “dipaksa lewat inferensi”."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Tag",
+          "id": "Tanda"
+         },
+         {
+          "en": "Looks like",
+          "id": "Tampak seperti"
+         },
+         {
+          "en": "Next week’s drill",
+          "id": "Latihan minggu depan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Misread",
+           "id": "Salah baca"
+          },
+          {
+           "en": "Wrong period, unit, separator; answered the wrong question",
+           "id": "Periode, satuan, pemisah salah; menjawab pertanyaan yang salah"
+          },
+          {
+           "en": "Format flip; “answer the question asked” check; slower Find",
+           "id": "Balik format; pemeriksaan “jawab yang ditanya”; Temukan lebih pelan"
+          }
+         ],
+         [
+          {
+           "en": "Concept gap",
+           "id": "Celah konsep"
+          },
+          {
+           "en": "Did not know reverse percentages, or a series family",
+           "id": "Tidak tahu persentase terbalik, atau sebuah keluarga deret"
+          },
+          {
+           "en": "The technique table; ten untimed items on that concept",
+           "id": "Tabel teknik; sepuluh soal tanpa batas waktu tentang konsep itu"
+          }
+         ],
+         [
+          {
+           "en": "Arithmetic slip",
+           "id": "Kesalahan aritmetika"
+          },
+          {
+           "en": "Right set-up, wrong number",
+           "id": "Penyusunan benar, angka salah"
+          },
+          {
+           "en": "Estimate first; calculator discipline",
+           "id": "Estimasi dulu; disiplin kalkulator"
+          }
+         ],
+         [
+          {
+           "en": "Time pressure",
+           "id": "Tekanan waktu"
+          },
+          {
+           "en": "Blanks at the end; rushed last third",
+           "id": "Kosong di akhir; sepertiga terakhir terburu-buru"
+          },
+          {
+           "en": "Checkpoints; the stuck rule; timed sets",
+           "id": "Titik periksa; aturan buntu; set berbatas waktu"
+          }
+         ],
+         [
+          {
+           "en": "Fell for a trap",
+           "id": "Terjebak"
+          },
+          {
+           "en": "Wrong base; share vs size; plausible “True”; shared feature",
+           "id": "Basis salah; pangsa vs ukuran; “Benar” yang masuk akal; fitur bersama"
+          },
+          {
+           "en": "Name-the-trap drills; predict before peek",
+           "id": "Latihan sebut-jebakannya; prediksi sebelum mengintip"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "check",
+       "h": {
+        "en": "Test-day checklist",
+        "id": "Daftar periksa hari tes"
+       },
+       "body": {
+        "en": "Most test-day failures are logistics. The night before and the hour before <i>(Barrett; Carter; Shavick, ch. 3)</i>:",
+        "id": "Kebanyakan kegagalan hari tes adalah logistik. Malam sebelumnya dan sejam sebelumnya <i>(Barrett; Carter; Shavick, bab 3)</i>:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Device</b> charged; browser updated and tested on the provider’s practice page; pop-ups and notifications off.",
+         "id": "<b>Perangkat</b> terisi; peramban diperbarui dan diuji di laman latihan penyedia; pop-up dan notifikasi mati."
+        },
+        {
+         "en": "<b>Connection</b> stable, plus a backup — a phone hotspot already paired.",
+         "id": "<b>Koneksi</b> stabil, plus cadangan — hotspot ponsel yang sudah dipasangkan."
+        },
+        {
+         "en": "<b>Room</b> quiet for the full window; family told; door closed; lighting for the webcam.",
+         "id": "<b>Ruangan</b> tenang selama jendela penuh; keluarga diberi tahu; pintu tertutup; pencahayaan untuk webcam."
+        },
+        {
+         "en": "<b>ID</b> ready as specified (KTP, sometimes the invitation code); the name matches the application exactly.",
+         "id": "<b>Identitas</b> siap sesuai ketentuan (KTP, kadang kode undangan); namanya persis sama dengan lamaran."
+        },
+        {
+         "en": "<b>Scrap paper and calculator</b> rules confirmed; if allowed, ready; if not, nothing on the desk.",
+         "id": "<b>Kertas coretan dan kalkulator</b> aturannya dikonfirmasi; jika boleh, siap; jika tidak, tidak ada apa pun di meja."
+        },
+        {
+         "en": "<b>Webcam / proctoring</b> check done in advance; know what the software will ask you to show.",
+         "id": "<b>Pemeriksaan webcam / pengawasan</b> dilakukan di muka; ketahui apa yang akan diminta perangkat lunak untuk ditunjukkan."
+        },
+        {
+         "en": "<b>Read every instruction and do every practice item</b> — the practice items reveal the format and the timer.",
+         "id": "<b>Baca setiap instruksi dan kerjakan setiap soal latihan</b> — soal latihan mengungkap format dan pengatur waktunya."
+        },
+        {
+         "en": "<b>Take the test yourself.</b> Proxy test-taking is caught by verification re-tests and ends candidacies — and, in some programmes, future ones.",
+         "id": "<b>Kerjakan tes sendiri.</b> Pengerjaan oleh orang lain tertangkap tes ulang verifikasi dan mengakhiri pencalonan — dan, di sebagian program, pencalonan berikutnya."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Nerves",
+        "id": "Gugup"
+       },
+       "body": {
+        "en": "Some nerves help; too many hurt <i>(Carter)</i>. Before the test: slow breathing — in, hold about three seconds, slow out, two or three times; then tense and release muscles from the feet upward <i>(Shavick, ch. 3)</i>. During: a ten-second micro-break when you notice you are racing — sit back, breathe, look away from the screen <i>(Shavick)</i>; it costs ten seconds and saves the next three items. Three reframes to have ready <i>(Shavick, ch. 3 and 14)</i>: you do not need 100%; tests are designed not to be finished, so unfinished is normal; and the test is one stage of several — a pass here earns an interview, not a job, and a fail here is one programme’s cycle, not a verdict.",
+        "id": "Sedikit gugup membantu; terlalu banyak merugikan <i>(Carter)</i>. Sebelum tes: napas pelan — tarik, tahan sekitar tiga detik, hembuskan pelan, dua atau tiga kali; lalu tegangkan dan lepaskan otot dari kaki ke atas <i>(Shavick, bab 3)</i>. Selama tes: jeda mikro sepuluh detik ketika kamu sadar sedang terburu-buru — duduk bersandar, bernapas, alihkan pandangan dari layar <i>(Shavick)</i>; biayanya sepuluh detik dan menyelamatkan tiga soal berikutnya. Tiga pembingkaian ulang yang perlu disiapkan <i>(Shavick, bab 3 dan 14)</i>: kamu tidak butuh 100%; tes dirancang untuk tidak selesai, jadi tidak selesai itu normal; dan tes adalah satu tahap dari beberapa — lolos di sini mendapat wawancara, bukan pekerjaan, dan gagal di sini adalah satu siklus program, bukan vonis."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 5: Nadia’s three weeks",
+       "id": "Peraga 5: Tiga minggu Nadia"
+      },
+      "title": {
+       "en": "From baseline to the ODP battery, eighteen sessions",
+       "id": "Dari garis dasar ke baterai ODP, delapan belas sesi"
+      },
+      "items": [
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Day 0 · Baseline",
+         "id": "Hari 0 · Garis dasar"
+        },
+        "sub": {
+         "en": "Numerical 4/10 · verbal 7/10 · abstract 6/10. Know-the-game checklist for the ODP: per-item timer, no back, number-correct.",
+         "id": "Numerik 4/10 · verbal 7/10 · abstrak 6/10. Daftar periksa kenali-permainannya untuk ODP: pengatur waktu per soal, tidak bisa kembali, jumlah benar."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Week 1 · Foundations",
+         "id": "Minggu 1 · Fondasi"
+        },
+        "sub": {
+         "en": "Six untimed sessions. Notation card; FSCS; the force test; series families 1–7. Log: 5 wrong-base, 3 notation, 4 Cannot-Say-as-True.",
+         "id": "Enam sesi tanpa batas waktu. Kartu notasi; FSCS; uji memaksa; keluarga deret 1–7. Catatan: 5 basis salah, 3 notasi, 4 TBD-sebagai-Benar."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Week 2 · Strategy",
+         "id": "Minggu 2 · Strategi"
+        },
+        "sub": {
+         "en": "Top tags “fell for a trap” and “misread” → three numerical timed sets on wrong base and notation; one verbal force-test set; one abstract scan-order set; log review.",
+         "id": "Tanda teratas “terjebak” dan “salah baca” → tiga set numerik berbatas waktu tentang basis salah dan notasi; satu set uji memaksa verbal; satu set urutan pindai abstrak; tinjauan catatan."
+        }
+       },
+       {
+        "icon": "gear",
+        "h": {
+         "en": "Week 3 · Simulation",
+         "id": "Minggu 3 · Simulasi"
+        },
+        "sub": {
+         "en": "Two full mocks, one with no going back; SJT and AKHLAK-style values set for the bank; consistency mirror; checklist; rest the day before.",
+         "id": "Dua simulasi penuh, satu tanpa bisa kembali; set SJT dan nilai gaya AKHLAK untuk bank; cermin konsistensi; daftar periksa; istirahat sehari sebelumnya."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Day 22 · Test",
+         "id": "Hari 22 · Tes"
+        },
+        "sub": {
+         "en": "Laptop, hotspot paired, KTP on the desk, scrap-paper card written. Never expire a timer. Ten-second micro-break after section 1.",
+         "id": "Laptop, hotspot dipasangkan, KTP di meja, kartu kertas coretan ditulis. Jangan pernah biarkan pengatur waktu habis. Jeda mikro sepuluh detik setelah bagian 1."
+        }
+       }
+      ],
+      "note": {
+       "en": "Eighteen sessions of twenty-five minutes is seven and a half hours — less than one weekend, spread so it sticks.",
+       "id": "Delapan belas sesi dua puluh lima menit adalah tujuh setengah jam — kurang dari satu akhir pekan, disebar agar melekat."
+      },
+      "longdesc": {
+       "en": "A five-stage timeline of Nadia’s three-week plan: day zero baseline and checklist; week one foundations with the error log; week two strategy drills chosen by the top two tags; week three simulation, situational judgement and values, and the checklist; and test day with logistics ready and the pacing rules in place.",
+       "id": "Lini masa lima tahap rencana tiga minggu Nadia: hari nol garis dasar dan daftar periksa; minggu satu fondasi dengan catatan kesalahan; minggu dua latihan strategi yang dipilih dua tanda teratas; minggu tiga simulasi, penilaian situasional dan nilai, serta daftar periksa; dan hari tes dengan logistik siap dan aturan tempo diterapkan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two minutes left, six unanswered",
+        "id": "Dua menit tersisa, enam belum dijawab"
+       },
+       "q": {
+        "en": "Number-correct scoring, section clock, 24 items. At 16:00 of 18:00 you are on item 18.",
+        "id": "Penilaian jumlah benar, jam per bagian, 24 soal. Pada menit 16:00 dari 18:00 kamu di soal 18."
+       },
+       "weak": {
+        "en": "Keeps working item 18 properly — “I can get this one” — finishes it at 17:30, starts item 19, the clock ends. Five blanks. Expected gain from the careful item: about one mark.",
+        "id": "Terus mengerjakan soal 18 dengan benar — “yang ini pasti bisa” — selesai pada 17:30, mulai soal 19, jam habis. Lima kosong. Perkiraan tambahan dari soal yang dikerjakan cermat: sekitar satu nilai."
+       },
+       "strong": {
+        "en": "Marks a best guess on 18 in ten seconds, then spends the remaining time eliminating one or two options on each of 19–24 and answering all of them. Zero blanks. Expected gain: about two marks from six informed guesses, plus whatever 18 was worth.",
+        "id": "Menandai tebakan terbaik pada 18 dalam sepuluh detik, lalu memakai sisa waktu untuk menyingkirkan satu atau dua opsi pada masing-masing 19–24 dan menjawab semuanya. Nol kosong. Perkiraan tambahan: sekitar dua nilai dari enam tebakan terinformasi, plus berapa pun nilai soal 18."
+       },
+       "why": {
+        "en": "Under number-correct scoring a blank is a guaranteed zero and a guess is a free chance. The checkpoint at 13½ minutes would have shown the drift earlier; the stuck rule at item 18 stops it costing five items.",
+        "id": "Dengan penilaian jumlah benar, yang kosong pasti nol dan tebakan adalah peluang gratis. Titik periksa di menit 13½ akan menunjukkan penyimpangannya lebih awal; aturan buntu pada soal 18 menghentikannya merugikan lima soal."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the verification re-test",
+       "id": "Sorotan: tes ulang verifikasi"
+      },
+      "body": [
+       {
+        "en": "A story from a HIMA alumnus at Bank Sinar Nusantara, told to every cohort. A candidate scored in the top band of the online battery. At the assessment centre, before the group exercise, candidates sat a short supervised re-test of the same families — eight minutes, twelve items. His score fell to the bottom band. He was asked, politely, to explain; he could not. He was withdrawn from that cycle, and the programme’s records note it.",
+        "id": "Kisah dari seorang alumnus HIMA di Bank Sinar Nusantara, diceritakan ke setiap kohor. Seorang kandidat mendapat skor di pita teratas baterai daring. Di pusat asesmen, sebelum latihan kelompok, kandidat mengerjakan tes ulang singkat yang diawasi untuk keluarga yang sama — delapan menit, dua belas soal. Skornya jatuh ke pita terbawah. Ia diminta, dengan sopan, untuk menjelaskan; ia tidak bisa. Ia ditarik dari siklus itu, dan catatan program mencantumkannya."
+       },
+       {
+        "en": "Nobody in the story says the word “cheating”; the re-test says it for them. The test-day checklist ends with “take the test yourself” not as a moral line but as a practical one: the online score is a claim, and the re-test is where the claim is checked. Three weeks of practice produce a score you can repeat in a room with a proctor. Nothing else does.",
+        "id": "Tidak ada di cerita itu yang menyebut kata “curang”; tes ulang yang mengatakannya untuk mereka. Daftar periksa hari tes diakhiri dengan “kerjakan tes sendiri” bukan sebagai garis moral tetapi garis praktis: skor daring adalah klaim, dan tes ulang adalah tempat klaim itu diperiksa. Tiga minggu latihan menghasilkan skor yang bisa kamu ulang di ruangan dengan pengawas. Tidak ada yang lain yang bisa."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Scoring-rule decisions",
+        "id": "Latihan 1 · Keputusan aturan penilaian"
+       },
+       "body": {
+        "en": "Four test descriptions — choose the guessing strategy for each. (a) “Online numerical, 20 items, 20 minutes; your score is the number of correct answers.” (b) “Paper test; one mark per correct answer, one-quarter mark deducted per wrong answer.” (c) “Clerical checking, 5 minutes; score = correct − incorrect; consistency across intervals is reported.” (d) “Adaptive verbal; scoring not stated; no back-navigation.”",
+        "id": "Empat deskripsi tes — pilih strategi menebak untuk masing-masing. (a) “Numerik daring, 20 soal, 20 menit; skormu adalah jumlah jawaban benar.” (b) “Tes kertas; satu nilai per jawaban benar, seperempat nilai dikurangi per jawaban salah.” (c) “Pemeriksaan klerikal, 5 menit; skor = benar − salah; konsistensi antar interval dilaporkan.” (d) “Verbal adaptif; penilaian tidak dinyatakan; tanpa navigasi mundur.”"
+       },
+       "debrief": {
+        "en": "(a) Number-correct: answer every item; eliminate, then guess. (b) Negative marking at a quarter: guessing among four options breaks even, so guess only after eliminating to two or three. (c) Accuracy-scored speed test: slow enough to be right; a burst of errors costs twice. (d) Unknown and adaptive: eliminate then answer — never let an item expire; and take extra care on the first third.",
+        "id": "(a) Jumlah benar: jawab setiap soal; singkirkan, lalu tebak. (b) Pengurangan seperempat: menebak di antara empat opsi impas, jadi tebak hanya setelah menyisakan dua atau tiga. (c) Tes kecepatan dinilai ketepatan: cukup pelan untuk benar; ledakan kesalahan merugikan dua kali. (d) Tidak tahu dan adaptif: singkirkan lalu jawab — jangan pernah biarkan soal habis waktunya; dan lebih cermat di sepertiga pertama."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Pacing arithmetic",
+        "id": "Latihan 2 · Aritmetika tempo"
+       },
+       "body": {
+        "en": "Write the per-item budget and the three checkpoints for: (a) 30 items in 20 minutes; (b) 16 items in 12 minutes; (c) 12 adaptive items in 15 minutes, where the first four deserve a third more time each.",
+        "id": "Tulis anggaran per soal dan tiga titik periksa untuk: (a) 30 soal dalam 20 menit; (b) 16 soal dalam 12 menit; (c) 12 soal adaptif dalam 15 menit, di mana empat soal pertama layak sepertiga lebih banyak waktu masing-masing."
+       },
+       "debrief": {
+        "en": "(a) 40 s; at 5 min → item 7–8, 10 → 15, 15 → 22–23. (b) 45 s; 3 → 4, 6 → 8, 9 → 12. (c) 75 s average; give items 1–4 about 100 s each (6½ min), leaving about 65 s for each of 5–12; checkpoints: 6½ → item 4, 11 → 8. Write the checkpoints on the scrap paper before the clock starts; you will not compute them at minute nine.",
+        "id": "(a) 40 dtk; pada 5 mnt → soal 7–8, 10 → 15, 15 → 22–23. (b) 45 dtk; 3 → 4, 6 → 8, 9 → 12. (c) 75 dtk rata-rata; beri soal 1–4 sekitar 100 dtk masing-masing (6½ mnt), menyisakan sekitar 65 dtk untuk masing-masing 5–12; titik periksa: 6½ → soal 4, 11 → 8. Tulis titik periksa di kertas coretan sebelum jam mulai; kamu tidak akan menghitungnya di menit sembilan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Tag the log",
+        "id": "Latihan 3 · Tandai catatannya"
+       },
+       "body": {
+        "en": "Tag each of Nadia’s week-1 misses: (1) computed 45 ÷ 165 on item N1. (2) Read “1.5%” as 15%. (3) Marked “queuing time fell at every station” True. (4) Left items 9 and 10 blank in a timed verbal set. (5) Solved 2, 12, 5, 10, 8, 8 as “+10, −7…” and could not find an option. (6) Got 16 ÷ 44 = 0,364 but wrote 0,346. Then name the two tags that should choose week 2.",
+        "id": "Tandai setiap kesalahan minggu-1 Nadia: (1) menghitung 45 ÷ 165 pada soal N1. (2) Membaca “1.5%” sebagai 15%. (3) Menandai “waktu antre turun di setiap stasiun” Benar. (4) Membiarkan soal 9 dan 10 kosong pada set verbal berbatas waktu. (5) Menyelesaikan 2, 12, 5, 10, 8, 8 sebagai “+10, −7…” dan tidak menemukan opsi. (6) Mendapat 16 ÷ 44 = 0,364 tetapi menulis 0,346. Lalu sebutkan dua tanda yang seharusnya memilih minggu 2."
+       },
+       "debrief": {
+        "en": "(1) fell for a trap — wrong base. (2) misread — notation. (3) fell for a trap — every vs average, sub-tag Cannot-Say-as-True. (4) time pressure. (5) concept gap — interleaved series not yet learned. (6) arithmetic slip. Top two: “fell for a trap” (×2, and her full log has more) and “misread”. Week 2: name-the-trap numerical sets and the format flip; the verbal force-test set; families 8–13 to close the concept gap; timed sets with checkpoints for the blanks.",
+        "id": "(1) terjebak — basis salah. (2) salah baca — notasi. (3) terjebak — setiap vs rata-rata, sub-tanda TBD-sebagai-Benar. (4) tekanan waktu. (5) celah konsep — deret berselang-seling belum dipelajari. (6) kesalahan aritmetika. Dua teratas: “terjebak” (×2, dan catatan lengkapnya punya lebih banyak) dan “salah baca”. Minggu 2: set numerik sebut-jebakannya dan balik format; set uji memaksa verbal; keluarga 8–13 untuk menutup celah konsep; set berbatas waktu dengan titik periksa untuk yang kosong."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Adaptive mock and endurance",
+        "id": "Latihan 4 · Simulasi adaptif dan daya tahan"
+       },
+       "body": {
+        "en": "Two week-3 routines. <b>Adaptive mock:</b> a timed Gym set taken with one rule added — never return to a previous item, and never let your own 60-second per-item limit pass without an answer; note where you slowed down. <b>Kraepelin-style endurance</b> <span class=\"ev ev-verify\">Verify format</span>: on paper, write columns of single-digit numbers; for ten minutes, add each adjacent pair and write the last digit, moving to the next column every 15 seconds when a timer beeps; then plot how many you completed per interval and count the errors.",
+        "id": "Dua rutinitas minggu-3. <b>Simulasi adaptif:</b> set Gym berbatas waktu yang dikerjakan dengan satu aturan tambahan — jangan pernah kembali ke soal sebelumnya, dan jangan pernah biarkan batas 60 detik per soal milikmu lewat tanpa jawaban; catat di mana kamu melambat. <b>Daya tahan gaya Kraepelin</b> <span class=\"ev ev-verify\">Verifikasi format</span>: di kertas, tulis kolom-kolom angka satu digit; selama sepuluh menit, jumlahkan tiap pasangan yang berdekatan dan tulis digit terakhirnya, pindah ke kolom berikutnya setiap 15 detik saat pengatur waktu berbunyi; lalu gambarkan berapa banyak yang kamu selesaikan per interval dan hitung kesalahannya."
+       },
+       "debrief": {
+        "en": "The adaptive mock trains the one behaviour that most costs candidates on modern batteries: answering before the timer, on every item. The endurance drill is not about speed; the classic psikotes scores the <i>shape</i> of your curve — a steady line with few errors beats a fast start that collapses — so the goal is to find a pace you can hold for the full ten minutes. The Gym has no Kraepelin mode; this one is paper, a timer and honesty.",
+        "id": "Simulasi adaptif melatih satu perilaku yang paling merugikan kandidat pada baterai modern: menjawab sebelum pengatur waktu, pada setiap soal. Latihan daya tahan bukan tentang kecepatan; psikotes klasik menilai <i>bentuk</i> kurvamu — garis stabil dengan sedikit kesalahan mengalahkan awal yang cepat lalu runtuh — jadi tujuannya menemukan tempo yang bisa kamu pertahankan selama sepuluh menit penuh. Gym tidak punya mode Kraepelin; yang ini kertas, pengatur waktu, dan kejujuran."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Leaving blanks on a number-correct test",
+         "id": "Membiarkan kosong pada tes jumlah benar"
+        },
+        "fix": {
+         "en": "Eliminate, then answer every item.",
+         "id": "Singkirkan, lalu jawab setiap soal."
+        }
+       },
+       {
+        "h": {
+         "en": "One long weekend session",
+         "id": "Satu sesi panjang akhir pekan"
+        },
+        "fix": {
+         "en": "Six 25-minute sessions; speed skills consolidate with spacing.",
+         "id": "Enam sesi 25 menit; keterampilan kecepatan mengendap dengan jeda."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating an adaptive test like a paper one",
+         "id": "Memperlakukan tes adaptif seperti tes kertas"
+        },
+        "fix": {
+         "en": "Care on the first third; never expire a timer; no going back.",
+         "id": "Cermat di sepertiga pertama; jangan pernah biarkan pengatur waktu habis; tidak bisa kembali."
+        }
+       },
+       {
+        "h": {
+         "en": "Practising without a log",
+         "id": "Berlatih tanpa catatan"
+        },
+        "fix": {
+         "en": "Tag every miss; let the top two tags choose next week.",
+         "id": "Tandai setiap kesalahan; biarkan dua tanda teratas memilih minggu depan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Number-correct scoring",
+        "id": "Penilaian jumlah benar"
+       },
+       "def": {
+        "en": "Score = number of right answers; wrong answers and blanks both score zero — so never leave a blank.",
+        "id": "Skor = jumlah jawaban benar; jawaban salah dan kosong sama-sama nol — jadi jangan pernah biarkan kosong."
+       }
+      },
+      {
+       "term": {
+        "en": "Negative marking",
+        "id": "Pengurangan nilai"
+       },
+       "def": {
+        "en": "Wrong answers deduct; guess only after eliminating to two.",
+        "id": "Jawaban salah mengurangi; tebak hanya setelah menyisakan dua."
+       }
+      },
+      {
+       "term": {
+        "en": "Per-item budget",
+        "id": "Anggaran per soal"
+       },
+       "def": {
+        "en": "Time ÷ items, set before the clock starts, with checkpoints at ¼, ½, ¾.",
+        "id": "Waktu ÷ soal, ditetapkan sebelum jam mulai, dengan titik periksa di ¼, ½, ¾."
+       }
+      },
+      {
+       "term": {
+        "en": "Stuck rule",
+        "id": "Aturan buntu"
+       },
+       "def": {
+        "en": "At about twice the budget: mark, guess, move on.",
+        "id": "Pada sekitar dua kali anggaran: tandai, tebak, lanjut."
+       }
+      },
+      {
+       "term": {
+        "en": "Error log",
+        "id": "Catatan kesalahan"
+       },
+       "def": {
+        "en": "One line per miss — item, tag, fix; tags: misread, concept gap, arithmetic slip, time pressure, fell for a trap.",
+        "id": "Satu baris per kesalahan — soal, tanda, perbaikan; tanda: salah baca, celah konsep, kesalahan aritmetika, tekanan waktu, terjebak."
+       }
+      },
+      {
+       "term": {
+        "en": "Micro-break",
+        "id": "Jeda mikro"
+       },
+       "def": {
+        "en": "Ten seconds: sit back, breathe, look away — when you notice you are racing.",
+        "id": "Sepuluh detik: duduk bersandar, bernapas, alihkan pandangan — saat kamu sadar sedang terburu-buru."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Number-correct scoring, 2 minutes left, 6 unanswered. You should…",
+        "id": "Penilaian jumlah benar, 2 menit tersisa, 6 belum dijawab. Kamu sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Finish the current item carefully",
+         "id": "Selesaikan soal saat ini dengan cermat"
+        },
+        {
+         "en": "Eliminate quickly and answer all six",
+         "id": "Singkirkan cepat dan jawab keenamnya"
+        },
+        {
+         "en": "Leave them — guessing is penalised",
+         "id": "Biarkan — menebak dikurangi"
+        },
+        {
+         "en": "Answer “C” to all six without reading",
+         "id": "Jawab “C” untuk keenamnya tanpa membaca"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A blank is a certain zero; an informed guess is a free chance. Ten seconds of elimination beats a blind pattern.",
+        "id": "Kosong pasti nol; tebakan terinformasi adalah peluang gratis. Sepuluh detik penyingkiran mengalahkan pola buta."
+       }
+      },
+      {
+       "q": {
+        "en": "On an adaptive test you should…",
+        "id": "Pada tes adaptif kamu sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Skip ahead to easy items",
+         "id": "Lompat ke soal mudah"
+        },
+        {
+         "en": "Take more care on early items; you usually cannot go back",
+         "id": "Lebih cermat pada soal awal; biasanya kamu tidak bisa kembali"
+        },
+        {
+         "en": "Rush the first third to bank time",
+         "id": "Terburu-buru di sepertiga pertama untuk menabung waktu"
+        },
+        {
+         "en": "Leave hard items blank",
+         "id": "Biarkan soal sulit kosong"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Early items set the difficulty band and carry more weight; a timer that expires is a wrong answer.",
+        "id": "Soal awal menentukan pita kesulitan dan berbobot lebih; pengatur waktu yang habis adalah jawaban salah."
+       }
+      },
+      {
+       "q": {
+        "en": "The best practice schedule is…",
+        "id": "Jadwal latihan terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "One four-hour session each weekend",
+         "id": "Satu sesi empat jam tiap akhir pekan"
+        },
+        {
+         "en": "Six 25-minute sessions a week",
+         "id": "Enam sesi 25 menit seminggu"
+        },
+        {
+         "en": "Practice only the night before",
+         "id": "Latihan hanya malam sebelumnya"
+        },
+        {
+         "en": "Two hours every day for three weeks",
+         "id": "Dua jam setiap hari selama tiga minggu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Speed skills consolidate with spacing; short daily sessions plus an error log beat marathons.",
+        "id": "Keterampilan kecepatan mengendap dengan jeda; sesi harian singkat plus catatan kesalahan mengalahkan maraton."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "drill",
+      "title": {
+       "en": "Timed sets, the log and the plan",
+       "id": "Set berbatas waktu, catatan, dan rencana"
+      },
+      "body": {
+       "en": "From this week, every Gym set is timed and every miss is tagged. Write your three-week plan in the Dossier — six sessions a week, the family per session, the mocks in week 3 — and the test-day checklist for your nearest test. The plan and the checklist are Dossier items 3 and 4 for this module.",
+       "id": "Mulai minggu ini, setiap set Gym berbatas waktu dan setiap kesalahan ditandai. Tulis rencana tiga minggumu di Dossier — enam sesi seminggu, keluarga per sesi, simulasi di minggu 3 — dan daftar periksa hari tes untuk tes terdekatmu. Rencana dan daftar periksa adalah butir Dossier 3 dan 4 untuk modul ini."
+      },
+      "cta": {
+       "en": "Open the Screening Gym →",
+       "id": "Buka Screening Gym →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The scoring rule decides the guessing rule.",
+       "id": "Aturan penilaian menentukan aturan menebak."
+      },
+      {
+       "en": "Pace by seconds per item — and adjust for adaptive tests.",
+       "id": "Atur tempo dengan detik per soal — dan sesuaikan untuk tes adaptif."
+      },
+      {
+       "en": "Short daily sessions plus an error log beat marathons.",
+       "id": "Sesi harian singkat plus catatan kesalahan mengalahkan maraton."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the plan template and the test-day checklist",
+       "id": "Sumber, templat rencana, dan daftar periksa hari tes"
+      },
+      "lead": {
+       "en": "Three sources, the three-week plan as a fill-in, and the checklist to print.",
+       "id": "Tiga sumber, rencana tiga minggu sebagai isian, dan daftar periksa untuk dicetak."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.5",
+         "id": "Daftar bacaan · Pelajaran 7.5"
+        },
+        "desc": {
+         "en": "Three sources — they disagree on guessing; the lesson reconciles them by scoring rule.",
+         "id": "Tiga sumber — mereka tidak sepakat soal menebak; pelajaran ini merekonsiliasinya berdasarkan aturan penilaian."
+        },
+        "body": [
+         {
+          "en": "A. Shavick, <i>How to Pass Psychometric Tests</i> (3rd ed.), ch. 3 and 14, Part 2 — educated guessing, pacing, nerves, analysing mistakes.",
+          "id": "A. Shavick, <i>How to Pass Psychometric Tests</i> (ed. ke-3), bab 3 dan 14, Bagian 2 — tebakan terdidik, tempo, gugup, menganalisis kesalahan."
+         },
+         {
+          "en": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — ask whether wrong answers are penalised; nerves.",
+          "id": "P. Carter, <i>IQ and Psychometric Test Workbook</i> (2005) — tanyakan apakah jawaban salah dikurangi; gugup."
+         },
+         {
+          "en": "J. Barrett, <i>Aptitude Test Workbook</i> (2008) — do not guess under his deducting scoring; read every instruction; practice.",
+          "id": "J. Barrett, <i>Aptitude Test Workbook</i> (2008) — jangan menebak di bawah penilaian pengurangannya; baca setiap instruksi; latihan."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Three-week plan · fill-in",
+         "id": "Rencana tiga minggu · isian"
+        },
+        "desc": {
+         "en": "Six sessions a week; write the family and the set.",
+         "id": "Enam sesi seminggu; tulis keluarga dan setnya."
+        },
+        "body": [
+         {
+          "en": "Test date: ____ · Format (7.1 checklist): ____ · Scoring rule → guessing rule: ____",
+          "id": "Tanggal tes: ____ · Format (daftar periksa 7.1): ____ · Aturan penilaian → aturan menebak: ____"
+         },
+         {
+          "en": "Week 1 (untimed): Mon __ · Tue __ · Wed __ · Thu __ · Fri __ · Sat __ — log started",
+          "id": "Minggu 1 (tanpa batas waktu): Sen __ · Sel __ · Rab __ · Kam __ · Jum __ · Sab __ — catatan dimulai"
+         },
+         {
+          "en": "Week 2 (timed): top two tags: ____, ____ → 3 sets in ____ · 1 each in the others · 1 log review",
+          "id": "Minggu 2 (berbatas waktu): dua tanda teratas: ____, ____ → 3 set di ____ · 1 masing-masing di lainnya · 1 tinjauan catatan"
+         },
+         {
+          "en": "Week 3: mock 1 __ · mock 2 (no back) __ · SJT/values __ · personality mirror __ · checklist __ · rest __",
+          "id": "Minggu 3: simulasi 1 __ · simulasi 2 (tanpa kembali) __ · SJT/nilai __ · cermin kepribadian __ · daftar periksa __ · istirahat __"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Test-day checklist",
+         "id": "Daftar periksa hari tes"
+        },
+        "desc": {
+         "en": "Night before and hour before.",
+         "id": "Malam sebelumnya dan sejam sebelumnya."
+        },
+        "body": [
+         {
+          "en": "Device charged · browser tested on the practice page · notifications off",
+          "id": "Perangkat terisi · peramban diuji di laman latihan · notifikasi mati"
+         },
+         {
+          "en": "Connection stable · hotspot paired as backup",
+          "id": "Koneksi stabil · hotspot dipasangkan sebagai cadangan"
+         },
+         {
+          "en": "Quiet room for the whole window · family told · lighting for the webcam",
+          "id": "Ruangan tenang selama jendela penuh · keluarga diberi tahu · pencahayaan untuk webcam"
+         },
+         {
+          "en": "ID ready as specified · name matches the application",
+          "id": "Identitas siap sesuai ketentuan · nama sesuai lamaran"
+         },
+         {
+          "en": "Scrap paper / calculator rules confirmed · scrap-paper card written · checkpoints written",
+          "id": "Aturan kertas coretan / kalkulator dikonfirmasi · kartu kertas coretan ditulis · titik periksa ditulis"
+         },
+         {
+          "en": "Proctoring check done · every instruction read · every practice item done",
+          "id": "Pemeriksaan pengawasan selesai · setiap instruksi dibaca · setiap soal latihan dikerjakan"
+         },
+         {
+          "en": "Breathing: in, hold 3, slow out × 3 · reframes ready · micro-break planned after section 1",
+          "id": "Pernapasan: tarik, tahan 3, hembuskan pelan × 3 · pembingkaian ulang siap · jeda mikro direncanakan setelah bagian 1"
+         },
+         {
+          "en": "Taken by me.",
+          "id": "Dikerjakan oleh saya sendiri."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.6",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min + practice",
+      "id": "45 mnt + latihan"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Three Weeks",
+      "id": "Tugas Kasus — Tiga Minggu Nadia"
+     },
+     "overview": {
+      "en": "Nadia has her baseline, an error-log extract and the description of a BUMN-style test battery that opens in four weeks. Read her profile against the goal “comfortably above average on every sub-test”, find her top two error tags, write her three-week plan, choose her guessing and pacing rules, complete her test-day checklist — and then do the same for yourself.",
+      "id": "Nadia punya garis dasarnya, cuplikan catatan kesalahan, dan deskripsi baterai tes gaya BUMN yang dibuka empat minggu lagi. Baca profilnya terhadap tujuan “cukup jauh di atas rata-rata di setiap sub-tes”, temukan dua tanda kesalahan teratasnya, tulis rencana tiga minggunya, pilih aturan menebak dan temponya, lengkapi daftar periksa hari tesnya — lalu lakukan hal yang sama untuk dirimu sendiri."
+     },
+     "objectives": [
+      {
+       "en": "Interpret a baseline profile against a per-sub-test goal.",
+       "id": "Menafsirkan profil garis dasar terhadap tujuan per sub-tes."
+      },
+      {
+       "en": "Turn an error log into the two tags that choose the next drills.",
+       "id": "Mengubah catatan kesalahan menjadi dua tanda yang memilih latihan berikutnya."
+      },
+      {
+       "en": "Write a three-week plan, a guessing rule and a pacing rule for a specific test.",
+       "id": "Menulis rencana tiga minggu, aturan menebak, dan aturan tempo untuk tes tertentu."
+      },
+      {
+       "en": "Complete a test-day checklist and start your own baseline.",
+       "id": "Melengkapi daftar periksa hari tes dan memulai garis dasarmu sendiri."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Her three weeks, then yours",
+       "id": "Tiga minggunya, lalu milikmu"
+      },
+      "intro": {
+       "en": "Six steps, six written answers. The case file has three tabs: the baseline and error log, the test description, and the calendar. Step 6 is about you.",
+       "id": "Enam langkah, enam jawaban tertulis. Berkas kasus punya tiga tab: garis dasar dan catatan kesalahan, deskripsi tes, dan kalender. Langkah 6 tentang dirimu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read the three tabs",
+         "id": "Baca ketiga tab"
+        },
+        "points": [
+         {
+          "en": "Baseline and error log · the test description · the calendar with the test date and a holiday.",
+          "id": "Garis dasar dan catatan kesalahan · deskripsi tes · kalender dengan tanggal tes dan hari libur."
+         },
+         {
+          "en": "The goal is not the highest average. It is no sub-test below the bar.",
+          "id": "Tujuannya bukan rata-rata tertinggi. Melainkan tidak ada sub-tes di bawah batas."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Use the module’s tools",
+         "id": "Pakai alat modul ini"
+        },
+        "points": [
+         {
+          "en": "7.1 know-the-game · 7.2 traps · 7.3 procedures · 7.4 SJT and values · 7.5 guessing, pacing, plan, log, checklist.",
+          "id": "7.1 kenali permainannya · 7.2 jebakan · 7.3 prosedur · 7.4 SJT dan nilai · 7.5 menebak, tempo, rencana, catatan, daftar periksa."
+         },
+         {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK7",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Three Weeks",
+       "id": "Tiga Minggu Nadia"
+      },
+      "lead": {
+       "en": "A baseline, an error log and a test in four weeks. Turn them into a plan she can run six sessions a week — then start your own.",
+       "id": "Garis dasar, catatan kesalahan, dan tes empat minggu lagi. Ubah menjadi rencana yang bisa ia jalankan enam sesi seminggu — lalu mulai milikmu sendiri."
+      },
+      "practice": [
+       {
+        "en": "Read a baseline",
+        "id": "Membaca garis dasar"
+       },
+       {
+        "en": "Tag an error log",
+        "id": "Menandai catatan kesalahan"
+       },
+       {
+        "en": "Write a three-week plan",
+        "id": "Menulis rencana tiga minggu"
+       },
+       {
+        "en": "Choose guessing and pacing rules",
+        "id": "Memilih aturan menebak dan tempo"
+       },
+       {
+        "en": "Complete a test-day checklist",
+        "id": "Melengkapi daftar periksa hari tes"
+       }
+      ],
+      "goal": {
+       "en": "A plan that raises the weakest sub-test above the bar without letting the others slip, and a test day with nothing left to chance.",
+       "id": "Rencana yang menaikkan sub-tes terlemah di atas batas tanpa membiarkan yang lain merosot, dan hari tes tanpa apa pun yang dibiarkan pada kebetulan."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Monday, 07:50",
+         "id": "Senin, 07.50"
+        },
+        "subject": {
+         "en": "Tes Rel Nusantara 4 minggu lagi — hasil baseline-ku jelek di numerik",
+         "id": "Tes Rel Nusantara 4 minggu lagi — hasil baseline-ku jelek di numerik"
+        },
+        "paragraphs": [
+         {
+          "en": "The PT Rel Nusantara joint-recruitment test opens in four weeks — the invitation came through the BUMN portal with the test description attached. I did the Gym baseline last night like Lesson 7.1 said. Numerical 4 out of 10. Verbal 7. Abstract 6.",
+          "id": "Tes rekrutmen bersama PT Rel Nusantara dibuka empat minggu lagi — undangannya datang lewat portal BUMN dengan deskripsi tes terlampir. Aku mengerjakan baseline Gym semalam seperti kata Pelajaran 7.1. Numerik 4 dari 10. Verbal 7. Abstrak 6."
+         },
+         {
+          "en": "I attached my error log. I think the numerical is just because I am bad at maths. I was going to do numerical practice every evening for four weeks and leave the others, since they are fine.",
+          "id": "Kulampirkan catatan kesalahanku. Kurasa numeriknya cuma karena aku memang lemah matematika. Rencananya aku latihan numerik tiap malam selama empat minggu dan membiarkan yang lain, karena sudah oke."
+         },
+         {
+          "en": "Also: there is a public holiday on the Thursday of week 2, and I work café shifts Saturday and Sunday afternoons.",
+          "id": "Juga: ada libur nasional pada Kamis minggu ke-2, dan aku kerja sif kafe Sabtu dan Minggu siang."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Is 4/10 as bad as it feels? What does my profile actually say?",
+          "id": "Apakah 4/10 seburuk yang kurasakan? Apa sebenarnya yang dikatakan profilku?"
+         },
+         {
+          "en": "What should the three weeks look like?",
+          "id": "Seperti apa seharusnya tiga minggu itu?"
+         },
+         {
+          "en": "How do I handle the test itself — guessing, timing, the day?",
+          "id": "Bagaimana menghadapi tesnya sendiri — menebak, waktu, harinya?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih! — Nadia",
+          "id": "Terima kasih! — Nadia"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "chart",
+         "k": {
+          "en": "4 · 7 · 6",
+          "id": "4 · 7 · 6"
+         },
+         "v": {
+          "en": "baseline out of 10: numerical · verbal · abstract (Gym, untimed)",
+          "id": "garis dasar dari 10: numerik · verbal · abstrak (Gym, tanpa batas waktu)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "4 weeks",
+          "id": "4 minggu"
+         },
+         "v": {
+          "en": "until the test window opens; the window stays open for 5 days",
+          "id": "sampai jendela tes dibuka; jendela terbuka selama 5 hari"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Number-correct",
+          "id": "Jumlah benar"
+         },
+         "v": {
+          "en": "scoring stated in the description; per-section timer; can go back within a section",
+          "id": "penilaian dinyatakan dalam deskripsi; pengatur waktu per bagian; bisa kembali dalam satu bagian"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "14 errors",
+          "id": "14 kesalahan"
+         },
+         "v": {
+          "en": "in the log extract: 5 wrong-base · 3 notation · 4 Cannot-Say-as-True · 2 time-outs",
+          "id": "dalam cuplikan catatan: 5 basis salah · 3 notasi · 4 TBD-sebagai-Benar · 2 kehabisan waktu"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Thu · week 2",
+          "id": "Kam · minggu 2"
+         },
+         "v": {
+          "en": "public holiday; café shifts Sat and Sun afternoons every week",
+          "id": "libur nasional; sif kafe Sabtu dan Minggu siang tiap minggu"
+         }
+        },
+        {
+         "icon": "lock",
+         "k": {
+          "en": "Values test",
+          "id": "Tes nilai"
+         },
+         "v": {
+          "en": "AKHLAK-based core-values section, keyed; plus an English section",
+          "id": "bagian nilai inti berbasis AKHLAK, berkunci; plus bagian bahasa Inggris"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Baseline and log",
+          "id": "Garis dasar dan catatan"
+         },
+         "title": {
+          "en": "Nadia’s Gym baseline and her error-log extract",
+          "id": "Garis dasar Gym Nadia dan cuplikan catatan kesalahannya"
+         },
+         "meta": {
+          "en": "Untimed sets, 10 items each · log lines as she wrote them",
+          "id": "Set tanpa batas waktu, 10 soal masing-masing · baris catatan sebagaimana ia tulis"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Baseline",
+            "id": "Garis dasar"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Numerical: 4/10 · 19 minutes · all attempted",
+             "id": "Numerik: 4/10 · 19 menit · semua dicoba"
+            },
+            {
+             "en": "Verbal: 7/10 · 14 minutes · all attempted",
+             "id": "Verbal: 7/10 · 14 menit · semua dicoba"
+            },
+            {
+             "en": "Abstract (logical): 6/10 · 11 minutes · items 9 and 10 not reached when she stopped",
+             "id": "Abstrak (logika): 6/10 · 11 menit · soal 9 dan 10 tidak tercapai saat ia berhenti"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Error log extract (14 lines)",
+            "id": "Cuplikan catatan kesalahan (14 baris)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Numerical n3, n7, n9, n12, n14 — divided the change by the new value (5 lines)",
+             "id": "Numerik n3, n7, n9, n12, n14 — membagi perubahan dengan nilai baru (5 baris)"
+            },
+            {
+             "en": "Numerical n5, n8, n11 — read “1.5” as 15 · read “2,400” as 2,4 · wrote 3 miliar as 3.000.000 (3 lines)",
+             "id": "Numerik n5, n8, n11 — membaca “1.5” sebagai 15 · membaca “2,400” sebagai 2,4 · menulis 3 miliar sebagai 3.000.000 (3 baris)"
+            },
+            {
+             "en": "Verbal v2, v5, v8, v9 — chose True where the passage did not force it (average vs every · plans vs facts · missing base rate · missing comparator) (4 lines)",
+             "id": "Verbal v2, v5, v8, v9 — memilih Benar padahal bacaan tidak memaksanya (rata-rata vs setiap · rencana vs fakta · laju dasar hilang · pembanding hilang) (4 baris)"
+            },
+            {
+             "en": "Abstract l9, l10 — not reached; “spent four minutes on l6, a 3×3 matrix” (2 lines)",
+             "id": "Abstrak l9, l10 — tidak tercapai; “empat menit habis di l6, matriks 3×3” (2 baris)"
+            },
+            {
+             "en": "Abstract l4 — rotation vs reflection (the mirror-image odd one out)",
+             "id": "Abstrak l4 — rotasi vs refleksi (yang berbeda berupa bayangan cermin)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The test",
+          "id": "Tesnya"
+         },
+         "title": {
+          "en": "PT Rel Nusantara — joint-recruitment online assessment (description attached to the invitation)",
+          "id": "PT Rel Nusantara — asesmen daring rekrutmen bersama (deskripsi terlampir pada undangan)"
+         },
+         "meta": {
+          "en": "Fictional employer and battery, modelled on the BUMN pattern · verify every real cycle",
+          "id": "Perusahaan dan baterai fiktif, dimodelkan pada pola BUMN · verifikasi setiap siklus nyata"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Sections",
+            "id": "Bagian"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Basic ability test — 3 sub-tests: verbal 20 items / 15 min · numerical 20 items / 20 min · figural-logical 20 items / 15 min",
+             "id": "Tes kemampuan dasar — 3 sub-tes: verbal 20 soal / 15 mnt · numerik 20 soal / 20 mnt · figural-logika 20 soal / 15 mnt"
+            },
+            {
+             "en": "Core-values test — 40 situational and preference items based on the AKHLAK values, 25 min",
+             "id": "Tes nilai inti — 40 soal situasional dan preferensi berdasarkan nilai AKHLAK, 25 mnt"
+            },
+            {
+             "en": "English — 30 items, 20 min",
+             "id": "Bahasa Inggris — 30 soal, 20 mnt"
+            },
+            {
+             "en": "Learning-agility questionnaire — untimed, forced-choice blocks",
+             "id": "Kuesioner learning agility — tanpa batas waktu, blok pilihan-paksa"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Rules",
+            "id": "Aturan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Scoring: number of correct answers per sub-test; no penalty for wrong answers",
+             "id": "Penilaian: jumlah jawaban benar per sub-tes; tanpa pengurangan untuk jawaban salah"
+            },
+            {
+             "en": "Timer per section; within a section you may return to earlier items",
+             "id": "Pengatur waktu per bagian; dalam satu bagian kamu boleh kembali ke soal sebelumnya"
+            },
+            {
+             "en": "On-screen calculator in the numerical section only; no scrap paper rule stated",
+             "id": "Kalkulator di layar hanya di bagian numerik; aturan kertas coretan tidak dinyatakan"
+            },
+            {
+             "en": "Cut-off: “a minimum standard on each sub-test and an overall ranking”; the standard is not published",
+             "id": "Ambang: “standar minimum pada setiap sub-tes dan peringkat keseluruhan”; standarnya tidak diumumkan"
+            },
+            {
+             "en": "Webcam proctoring; a supervised verification test may be held at the next stage",
+             "id": "Pengawasan webcam; tes verifikasi yang diawasi dapat diadakan di tahap berikutnya"
+            },
+            {
+             "en": "Window: opens in 4 weeks, stays open 5 days; one attempt",
+             "id": "Jendela: dibuka 4 minggu lagi, terbuka 5 hari; satu percobaan"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Calendar",
+          "id": "Kalender"
+         },
+         "title": {
+          "en": "The four weeks",
+          "id": "Empat minggu"
+         },
+         "meta": {
+          "en": "Constraints Nadia gave",
+          "id": "Kendala yang diberikan Nadia"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Week 0 (this week): baseline done Sunday night; Lesson 7.1 checklist not yet filled",
+             "id": "Minggu 0 (minggu ini): garis dasar selesai Minggu malam; daftar periksa Pelajaran 7.1 belum diisi"
+            },
+            {
+             "en": "Weeks 1–3: available weekday mornings before 09:00 and evenings after 19:00; Saturday and Sunday mornings free; café shifts Sat and Sun 13:00–21:00",
+             "id": "Minggu 1–3: tersedia pagi hari kerja sebelum 09.00 dan malam setelah 19.00; Sabtu dan Minggu pagi kosong; sif kafe Sab dan Min 13.00–21.00"
+            },
+            {
+             "en": "Week 2, Thursday: public holiday",
+             "id": "Minggu 2, Kamis: libur nasional"
+            },
+            {
+             "en": "Week 4: test window opens Monday, closes Friday",
+             "id": "Minggu 4: jendela tes dibuka Senin, ditutup Jumat"
+            },
+            {
+             "en": "Kak Ayu (ODP 2022) sat a similar BUMN battery in 2023 and offered to talk",
+             "id": "Kak Ayu (ODP 2022) mengerjakan baterai BUMN serupa pada 2023 dan menawarkan diri untuk berbicara"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Read the baseline",
+         "id": "Baca garis dasarnya"
+        },
+        "short": {
+         "en": "Baseline",
+         "id": "Garis dasar"
+        },
+        "guide": {
+         "en": "Lesson 7.1. Against the goal “comfortably above average on every sub-test”, what does 4 · 7 · 6 say — and what does Nadia’s own reading (“bad at maths”, “leave the others”) get wrong?",
+         "id": "Pelajaran 7.1. Terhadap tujuan “cukup jauh di atas rata-rata di setiap sub-tes”, apa yang dikatakan 4 · 7 · 6 — dan apa yang keliru dari bacaan Nadia sendiri (“lemah matematika”, “biarkan yang lain”)?"
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 60,
+          "rows": 7,
+          "title": {
+           "en": "What the profile says, and what it does not",
+           "id": "Apa yang dikatakan profil, dan apa yang tidak"
+          },
+          "help": {
+           "en": "Use the log, not just the scores: how many of the six numerical misses were reasoning, and how many were reading? Which sub-test is actually closest to the bar? Why is “leave the others” a risk under a per-sub-test cut-off?",
+           "id": "Pakai catatannya, bukan hanya skornya: berapa dari enam kesalahan numerik yang penalaran, dan berapa yang membaca? Sub-tes mana yang sebenarnya paling dekat dengan batas? Mengapa “biarkan yang lain” berisiko di bawah ambang per sub-tes?"
+          },
+          "placeholder": {
+           "en": "The numerical 4/10 is mostly two fixable habits, not ability: five wrong-base errors and three notation errors account for … The abstract 6/10 hides two items not reached, so … Under a per-sub-test standard, …",
+           "id": "Numerik 4/10 sebagian besar dua kebiasaan yang bisa diperbaiki, bukan kemampuan: lima kesalahan basis salah dan tiga kesalahan notasi mencakup … Abstrak 6/10 menyembunyikan dua soal yang tidak tercapai, jadi … Di bawah standar per sub-tes, …"
+          },
+          "keywords": [
+           [
+            "wrong base",
+            "basis salah",
+            "wrong-base"
+           ],
+           [
+            "notation",
+            "notasi",
+            "separator",
+            "pemisah"
+           ],
+           [
+            "reading",
+            "membaca",
+            "misread",
+            "salah baca",
+            "habit",
+            "kebiasaan"
+           ],
+           [
+            "not reached",
+            "tidak tercapai",
+            "time",
+            "waktu",
+            "3×3",
+            "matrix",
+            "matriks"
+           ],
+           [
+            "every sub-test",
+            "setiap sub-tes",
+            "per sub-test",
+            "per sub-tes",
+            "cut-off",
+            "ambang",
+            "minimum"
+           ],
+           [
+            "not bad at maths",
+            "bukan lemah",
+            "fixable",
+            "bisa diperbaiki",
+            "practice",
+            "latihan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Tag the log",
+         "id": "Tandai catatannya"
+        },
+        "short": {
+         "en": "Tags",
+         "id": "Tanda"
+        },
+        "guide": {
+         "en": "Lesson 7.5, section 4. Tag every line of the extract (misread · concept gap · arithmetic slip · time pressure · fell for a trap, with the verbal sub-tags), then name the top two tags and the drills that match each.",
+         "id": "Pelajaran 7.5, bagian 4. Tandai setiap baris cuplikan (salah baca · celah konsep · kesalahan aritmetika · tekanan waktu · terjebak, dengan sub-tanda verbal), lalu sebutkan dua tanda teratas dan latihan yang cocok untuk masing-masing."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Fourteen lines, five tags, two priorities",
+           "id": "Empat belas baris, lima tanda, dua prioritas"
+          },
+          "help": {
+           "en": "Group the lines by tag with counts. Then: top two tags → the Lesson 7.2 / 7.3 / 7.5 drills that address them, by name.",
+           "id": "Kelompokkan baris berdasarkan tanda dengan jumlahnya. Lalu: dua tanda teratas → latihan Pelajaran 7.2 / 7.3 / 7.5 yang menanganinya, berdasarkan nama."
+          },
+          "placeholder": {
+           "en": "Fell for a trap: 5 wrong-base + 4 Cannot-Say-as-True + 1 rotation/reflection = 10. Misread: 3 notation. Time pressure: 2 not reached (one 3×3 matrix took four minutes). Top two: … Drills: name-the-distractor (7.2), format flip, justify-with-a-line (7.3), …",
+           "id": "Terjebak: 5 basis salah + 4 TBD-sebagai-Benar + 1 rotasi/refleksi = 10. Salah baca: 3 notasi. Tekanan waktu: 2 tidak tercapai (satu matriks 3×3 memakan empat menit). Dua teratas: … Latihan: sebut-pengecohnya (7.2), balik format, benarkan-dengan-satu-baris (7.3), …"
+          },
+          "keywords": [
+           [
+            "fell for a trap",
+            "terjebak",
+            "trap",
+            "jebakan"
+           ],
+           [
+            "misread",
+            "salah baca"
+           ],
+           [
+            "time pressure",
+            "tekanan waktu"
+           ],
+           [
+            "wrong base",
+            "basis salah"
+           ],
+           [
+            "cannot say",
+            "tidak bisa disimpulkan",
+            "force",
+            "memaksa"
+           ],
+           [
+            "notation",
+            "notasi",
+            "format flip",
+            "balik format"
+           ],
+           [
+            "scan order",
+            "urutan pindai",
+            "stuck rule",
+            "aturan buntu",
+            "one dimension",
+            "satu dimensi"
+           ],
+           [
+            "name",
+            "sebut",
+            "distractor",
+            "pengecoh",
+            "justify",
+            "benarkan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The three-week plan",
+         "id": "Rencana tiga minggu"
+        },
+        "short": {
+         "en": "Plan",
+         "id": "Rencana"
+        },
+        "guide": {
+         "en": "Lesson 7.5, section 3. Six sessions a week of about 25 minutes, fitted to her calendar (mornings, evenings, weekend mornings; the Thursday holiday; café shifts). Week 1 foundations, week 2 strategy drills chosen by the tags, week 3 simulation and fit — including the values test and the English section, and a conversation with Kak Ayu.",
+         "id": "Pelajaran 7.5, bagian 3. Enam sesi seminggu sekitar 25 menit, disesuaikan kalendernya (pagi, malam, akhir pekan pagi; libur Kamis; sif kafe). Minggu 1 fondasi, minggu 2 latihan strategi yang dipilih tanda, minggu 3 simulasi dan kecocokan — termasuk tes nilai dan bagian bahasa Inggris, serta percakapan dengan Kak Ayu."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Eighteen sessions, week by week",
+           "id": "Delapan belas sesi, minggu demi minggu"
+          },
+          "help": {
+           "en": "For each week: the sessions (day/slot), the family or content of each, timed or untimed, and the two mocks in week 3. Say what changes because of the holiday and the shifts. Do not leave verbal and abstract out.",
+           "id": "Untuk tiap minggu: sesinya (hari/slot), keluarga atau isi masing-masing, berbatas waktu atau tidak, dan dua simulasi di minggu 3. Katakan apa yang berubah karena hari libur dan sif. Jangan tinggalkan verbal dan abstrak."
+          },
+          "placeholder": {
+           "en": "Week 1 (untimed): Mon am numerical — notation card + FSCS … Tue pm verbal — force test … Wed am abstract — scan order … Thu pm numerical traps … Sat am series families 1–7 … Sun am log review + know-the-game checklist; message Kak Ayu. Week 2 (timed): 3 numerical name-the-trap sets, 1 verbal justify-with-a-line, 1 abstract with the 90-second stuck rule, 1 review — Thursday holiday → move to Friday evening. Week 3: mock 1 Sat am, mock 2 (no back) Wed pm, AKHLAK values + SJT, English set, consistency mirror, checklist; rest Sunday.",
+           "id": "Minggu 1 (tanpa batas waktu): Sen pagi numerik — kartu notasi + FSCS … Sel malam verbal — uji memaksa … Rab pagi abstrak — urutan pindai … Kam malam jebakan numerik … Sab pagi keluarga deret 1–7 … Min pagi tinjauan catatan + daftar periksa kenali-permainannya; kirim pesan ke Kak Ayu. Minggu 2 (berbatas waktu): 3 set numerik sebut-jebakannya, 1 verbal benarkan-dengan-satu-baris, 1 abstrak dengan aturan buntu 90 detik, 1 tinjauan — libur Kamis → pindah ke Jumat malam. Minggu 3: simulasi 1 Sab pagi, simulasi 2 (tanpa kembali) Rab malam, nilai AKHLAK + SJT, set bahasa Inggris, cermin konsistensi, daftar periksa; istirahat Minggu."
+          },
+          "keywords": [
+           [
+            "week 1",
+            "minggu 1"
+           ],
+           [
+            "week 2",
+            "minggu 2"
+           ],
+           [
+            "week 3",
+            "minggu 3"
+           ],
+           [
+            "untimed",
+            "tanpa batas waktu"
+           ],
+           [
+            "timed",
+            "berbatas waktu"
+           ],
+           [
+            "mock",
+            "simulasi"
+           ],
+           [
+            "verbal"
+           ],
+           [
+            "abstract",
+            "abstrak",
+            "logical",
+            "logika"
+           ],
+           [
+            "values",
+            "nilai",
+            "akhlak",
+            "sjt"
+           ],
+           [
+            "english",
+            "inggris"
+           ],
+           [
+            "holiday",
+            "libur",
+            "thursday",
+            "kamis",
+            "shift",
+            "sif"
+           ],
+           [
+            "ayu",
+            "alumn"
+           ],
+           [
+            "log",
+            "catatan",
+            "review",
+            "tinjauan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Guessing and pacing",
+         "id": "Menebak dan tempo"
+        },
+        "short": {
+         "en": "Rules",
+         "id": "Aturan"
+        },
+        "guide": {
+         "en": "Lesson 7.5, sections 1–2. From the test description: the guessing rule, and the per-item budget with checkpoints and a stuck rule for each of the three ability sub-tests. Then the one adjustment for the values section.",
+         "id": "Pelajaran 7.5, bagian 1–2. Dari deskripsi tes: aturan menebak, dan anggaran per soal dengan titik periksa dan aturan buntu untuk masing-masing tiga sub-tes kemampuan. Lalu satu penyesuaian untuk bagian nilai."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 50,
+          "rows": 7,
+          "title": {
+           "en": "Her rules for this battery",
+           "id": "Aturannya untuk baterai ini"
+          },
+          "help": {
+           "en": "Scoring rule → guessing rule, in one line. Verbal 20/15, numerical 20/20, figural 20/15: seconds per item, checkpoints at ¼ ½ ¾, the stuck rule. Can she go back? What does that allow? Values section: what is the rule there?",
+           "id": "Aturan penilaian → aturan menebak, dalam satu baris. Verbal 20/15, numerik 20/20, figural 20/15: detik per soal, titik periksa di ¼ ½ ¾, aturan buntu. Bisakah ia kembali? Apa yang dimungkinkan itu? Bagian nilai: apa aturannya di sana?"
+          },
+          "placeholder": {
+           "en": "Number-correct, no penalty → never leave a blank; eliminate then guess. Verbal: 45 s/item; checkpoints 3¾ → 5, 7½ → 10, 11¼ → 15; stuck at 90 s → mark, guess, move on, return if time remains. Numerical: 60 s … Figural: 45 s … Values: answer every item; PTA-S; read AKHLAK first …",
+           "id": "Jumlah benar, tanpa pengurangan → jangan pernah biarkan kosong; singkirkan lalu tebak. Verbal: 45 dtk/soal; titik periksa 3¾ → 5, 7½ → 10, 11¼ → 15; buntu di 90 dtk → tandai, tebak, lanjut, kembali jika waktu tersisa. Numerik: 60 dtk … Figural: 45 dtk … Nilai: jawab setiap soal; PTA-S; baca AKHLAK dulu …"
+          },
+          "keywords": [
+           [
+            "number-correct",
+            "jumlah benar",
+            "no penalty",
+            "tanpa pengurangan"
+           ],
+           [
+            "never leave",
+            "jangan pernah biarkan",
+            "blank",
+            "kosong",
+            "guess",
+            "tebak"
+           ],
+           [
+            "45",
+            "60"
+           ],
+           [
+            "checkpoint",
+            "titik periksa"
+           ],
+           [
+            "stuck",
+            "buntu",
+            "mark",
+            "tandai",
+            "move on",
+            "lanjut"
+           ],
+           [
+            "go back",
+            "kembali",
+            "return",
+            "section",
+            "bagian"
+           ],
+           [
+            "values",
+            "nilai",
+            "akhlak",
+            "pta",
+            "every item",
+            "setiap soal"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Test day",
+         "id": "Hari tes"
+        },
+        "short": {
+         "en": "Test day",
+         "id": "Hari tes"
+        },
+        "guide": {
+         "en": "Lesson 7.5, sections 5–6. Which day of the five-day window, and why? Then the checklist for her specifically — device, connection, room, ID, scrap paper and calculator, proctoring, instructions, herself — plus the nerves routine and the micro-break.",
+         "id": "Pelajaran 7.5, bagian 5–6. Hari mana dari jendela lima hari, dan mengapa? Lalu daftar periksa untuk dirinya secara khusus — perangkat, koneksi, ruangan, identitas, kertas coretan dan kalkulator, pengawasan, instruksi, dirinya sendiri — plus rutinitas gugup dan jeda mikro."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "The day, the checklist, the nerves",
+           "id": "Harinya, daftar periksanya, gugupnya"
+          },
+          "help": {
+           "en": "Not Monday (no buffer if something breaks) and not Friday (no retry); a morning, not after a café shift. Then eight checklist lines and the breathing / micro-break / three reframes.",
+           "id": "Bukan Senin (tanpa penyangga jika ada yang rusak) dan bukan Jumat (tanpa percobaan ulang); pagi hari, bukan setelah sif kafe. Lalu delapan baris daftar periksa dan pernapasan / jeda mikro / tiga pembingkaian ulang."
+          },
+          "placeholder": {
+           "en": "Tuesday or Wednesday morning of week 4, laptop not phone, family Wi-Fi tested Monday plus hotspot paired, quiet room with the door closed, KTP on the desk, scrap paper (rule not stated → ask Kak Ayu; assume allowed unless told), on-screen calculator only, proctoring check Monday, read every instruction, take it herself. Breathing ×3; micro-break after the verbal section; reframes: …",
+           "id": "Selasa atau Rabu pagi minggu 4, laptop bukan ponsel, Wi-Fi keluarga diuji Senin plus hotspot dipasangkan, ruangan tenang dengan pintu tertutup, KTP di meja, kertas coretan (aturan tidak dinyatakan → tanya Kak Ayu; anggap boleh kecuali dilarang), kalkulator di layar saja, pemeriksaan pengawasan Senin, baca setiap instruksi, kerjakan sendiri. Pernapasan ×3; jeda mikro setelah bagian verbal; pembingkaian ulang: …"
+          },
+          "keywords": [
+           [
+            "tuesday",
+            "selasa",
+            "wednesday",
+            "rabu"
+           ],
+           [
+            "morning",
+            "pagi"
+           ],
+           [
+            "laptop",
+            "device",
+            "perangkat",
+            "charged",
+            "terisi"
+           ],
+           [
+            "hotspot",
+            "connection",
+            "koneksi",
+            "wi-fi",
+            "wifi"
+           ],
+           [
+            "ktp",
+            "id",
+            "identitas"
+           ],
+           [
+            "scrap",
+            "coretan",
+            "calculator",
+            "kalkulator"
+           ],
+           [
+            "proctor",
+            "pengawas",
+            "webcam"
+           ],
+           [
+            "breath",
+            "napas",
+            "micro-break",
+            "jeda mikro",
+            "reframe",
+            "pembingkaian"
+           ],
+           [
+            "herself",
+            "sendiri",
+            "verification",
+            "verifikasi"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Now you",
+         "id": "Kini kamu"
+        },
+        "short": {
+         "en": "You",
+         "id": "Kamu"
+        },
+        "guide": {
+         "en": "Your own baseline from the Gym (three untimed sets), your first error-log lines with tags, and the first week of your own plan. This is Dossier item 1 for the module; the rest of the Dossier follows over three weeks.",
+         "id": "Garis dasarmu sendiri dari Gym (tiga set tanpa batas waktu), baris catatan kesalahan pertamamu dengan tanda, dan minggu pertama rencanamu sendiri. Ini butir Dossier 1 untuk modul ini; sisa Dossier menyusul selama tiga minggu."
+        },
+        "questions": [
+         {
+          "id": "q6",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Your baseline, your top tags, your week 1",
+           "id": "Garis dasarmu, tanda teratasmu, minggu 1-mu"
+          },
+          "help": {
+           "en": "Three scores; at least four log lines with tags; the sub-test you will spend three of six sessions on and why; the six week-1 sessions with days. If you do not have a test date, say which Top 5 programme you are preparing for.",
+           "id": "Tiga skor; setidaknya empat baris catatan dengan tanda; sub-tes yang akan kamu beri tiga dari enam sesi dan mengapa; enam sesi minggu 1 dengan harinya. Jika belum punya tanggal tes, sebutkan program 5 Teratas mana yang kamu persiapkan."
+          },
+          "placeholder": {
+           "en": "Baseline: numerical _/10 · verbal _/10 · logical _/10. Log: n_ — fell for a trap (wrong base); v_ — Cannot-Say-as-True; l_ — time pressure; … Top two: … Week 1: Mon … Tue … Wed … Thu … Sat … Sun … Target programme: …",
+           "id": "Garis dasar: numerik _/10 · verbal _/10 · logika _/10. Catatan: n_ — terjebak (basis salah); v_ — TBD-sebagai-Benar; l_ — tekanan waktu; … Dua teratas: … Minggu 1: Sen … Sel … Rab … Kam … Sab … Min … Program sasaran: …"
+          },
+          "keywords": [
+           [
+            "numerical",
+            "numerik"
+           ],
+           [
+            "verbal"
+           ],
+           [
+            "logical",
+            "logika",
+            "abstract",
+            "abstrak"
+           ],
+           [
+            "/10",
+            "out of",
+            "dari"
+           ],
+           [
+            "tag",
+            "tanda",
+            "trap",
+            "jebakan",
+            "misread",
+            "salah baca",
+            "time",
+            "waktu",
+            "concept",
+            "konsep",
+            "slip"
+           ],
+           [
+            "week 1",
+            "minggu 1",
+            "mon",
+            "sen",
+            "tue",
+            "sel"
+           ],
+           [
+            "programme",
+            "program",
+            "test",
+            "tes",
+            "target",
+            "sasaran"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Baseline read against a per-sub-test bar, using the log to separate habit from ability",
+         "id": "Garis dasar dibaca terhadap batas per sub-tes, memakai catatan untuk memisahkan kebiasaan dari kemampuan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Every log line tagged; top two tags correct and matched to named drills",
+         "id": "Setiap baris catatan ditandai; dua tanda teratas benar dan dicocokkan dengan latihan bernama"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Plan is eighteen sessions, fitted to the calendar, covering all three families plus values and English, with two mocks",
+         "id": "Rencana delapan belas sesi, sesuai kalender, mencakup ketiga keluarga plus nilai dan bahasa Inggris, dengan dua simulasi"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Guessing and pacing rules follow from the stated scoring and timing model",
+         "id": "Aturan menebak dan tempo mengikuti model penilaian dan waktu yang dinyatakan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Test-day plan is concrete and specific to her constraints",
+         "id": "Rencana hari tes konkret dan spesifik untuk kendalanya"
+        },
+        "w": "10%"
+       },
+       {
+        "h": {
+         "en": "Own baseline, tags and week 1 recorded",
+         "id": "Garis dasar, tanda, dan minggu 1 milik sendiri tercatat"
+        },
+        "w": "15%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — one defensible plan",
+        "id": "Catatan model — satu rencana yang bisa dipertahankan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The baseline",
+          "id": "Garis dasar"
+         }
+        },
+        {
+         "en": "4 · 7 · 6 is not “bad at maths”. Of the six numerical misses, five are the wrong-base trap and three are notation — eight tagged lines on six items, all reading or set-up, none arithmetic or concept. That is two habits, both fixable in a week with the scrap-paper card and name-the-distractor sets. Verbal at 7 hides four Cannot-Say-as-True errors, which are one habit (the force test) and would push it to 9 or 10. Abstract at 6 is really 6 of 8 attempted: two items were never reached because a 3×3 matrix took four minutes — a pacing problem, not a pattern problem — plus one rotation/reflection miss. Under a per-sub-test minimum, “leave the others” is exactly wrong: the sub-test most likely to fall below an unpublished bar on the day is whichever one gets no timed practice. The plan spends more on numerical, not all on numerical.",
+         "id": "4 · 7 · 6 bukan “lemah matematika”. Dari enam kesalahan numerik, lima adalah jebakan basis salah dan tiga notasi — delapan baris bertanda pada enam soal, semuanya membaca atau penyusunan, tidak ada aritmetika atau konsep. Itu dua kebiasaan, keduanya bisa diperbaiki dalam seminggu dengan kartu kertas coretan dan set sebut-pengecohnya. Verbal 7 menyembunyikan empat kesalahan TBD-sebagai-Benar, yang merupakan satu kebiasaan (uji memaksa) dan akan mendorongnya ke 9 atau 10. Abstrak 6 sebenarnya 6 dari 8 yang dicoba: dua soal tidak pernah tercapai karena matriks 3×3 memakan empat menit — masalah tempo, bukan masalah pola — plus satu kesalahan rotasi/refleksi. Di bawah minimum per sub-tes, “biarkan yang lain” justru keliru: sub-tes yang paling mungkin jatuh di bawah batas yang tidak diumumkan pada harinya adalah yang tidak mendapat latihan berbatas waktu. Rencana memberi lebih banyak pada numerik, bukan semuanya pada numerik."
+        },
+        {
+         "h": {
+          "en": "The tags",
+          "id": "Tanda"
+         }
+        },
+        {
+         "en": "Fell for a trap: 10 (5 wrong-base, 4 Cannot-Say-as-True, 1 rotation/reflection). Misread: 3 (notation). Time pressure: 2 (items not reached; the four-minute matrix). Concept gap: 0. Arithmetic slip: 0. Top two: fell for a trap and misread. Matching drills: 7.2 Drill 1–4 (name every distractor) and Drill 5 (format flip, spot the base); 7.3 Drill 1 (justify with a line) and Drill 3 (one dimension at a time); 7.5 Drill 2 (pacing arithmetic) for the stuck rule that fixes the third tag for free.",
+         "id": "Terjebak: 10 (5 basis salah, 4 TBD-sebagai-Benar, 1 rotasi/refleksi). Salah baca: 3 (notasi). Tekanan waktu: 2 (soal tidak tercapai; matriks empat menit). Celah konsep: 0. Kesalahan aritmetika: 0. Dua teratas: terjebak dan salah baca. Latihan yang cocok: 7.2 Latihan 1–4 (sebut setiap pengecoh) dan Latihan 5 (balik format, temukan basisnya); 7.3 Latihan 1 (benarkan dengan satu baris) dan Latihan 3 (satu dimensi pada satu waktu); 7.5 Latihan 2 (aritmetika tempo) untuk aturan buntu yang memperbaiki tanda ketiga secara gratis."
+        },
+        {
+         "h": {
+          "en": "The plan",
+          "id": "Rencana"
+         }
+        },
+        {
+         "en": "Week 1, untimed, six sessions: Mon am numerical (notation card, FSCS, ten wrong-base items with distractors named) · Tue pm verbal (force test, trap list, Drill 1) · Wed am abstract (scan order, the rotation/reflection item, Drill 3 sets one and two) · Thu pm numerical (format flip; reverse percentages) · Sat am series families 1–7 · Sun am log review, the 7.1 know-the-game checklist from the test description, and a message to Kak Ayu (Resources question: what did the figural section look like; scrap paper allowed?). Week 2, timed, holiday on Thursday: Mon am numerical name-the-trap timed set · Tue pm verbal justify-with-a-line timed set · Wed am abstract timed set with the 90-second stuck rule (Drill 3 set three) · Fri pm (moved from Thu) numerical timed set two · Sat am series 8–13 plus numerical timed set three · Sun am log review; call with Kak Ayu if she replied. Week 3: Mon am AKHLAK values — read the framework, then the 7.4 SJT drills as if for a state rail operator · Tue pm full mock one (all three sub-tests at test timing, on-screen calculator only) · Wed am English set at 40 s/item · Thu pm full mock two with no going back, then the consistency mirror for the learning-agility questionnaire · Sat am checklist run-through: laptop, hotspot, proctoring check on the practice page, scrap-paper card · Sun: rest; café shift as usual. Week 4: test Tuesday morning.",
+         "id": "Minggu 1, tanpa batas waktu, enam sesi: Sen pagi numerik (kartu notasi, FSCS, sepuluh soal basis salah dengan pengecoh disebutkan) · Sel malam verbal (uji memaksa, daftar jebakan, Latihan 1) · Rab pagi abstrak (urutan pindai, soal rotasi/refleksi, Latihan 3 set satu dan dua) · Kam malam numerik (balik format; persentase terbalik) · Sab pagi keluarga deret 1–7 · Min pagi tinjauan catatan, daftar periksa kenali-permainannya 7.1 dari deskripsi tes, dan pesan ke Kak Ayu (pertanyaan Resources: seperti apa bagian figuralnya; boleh kertas coretan?). Minggu 2, berbatas waktu, libur Kamis: Sen pagi set numerik sebut-jebakannya berbatas waktu · Sel malam set verbal benarkan-dengan-satu-baris berbatas waktu · Rab pagi set abstrak berbatas waktu dengan aturan buntu 90 detik (Latihan 3 set tiga) · Jum malam (pindah dari Kam) set numerik berbatas waktu dua · Sab pagi deret 8–13 plus set numerik berbatas waktu tiga · Min pagi tinjauan catatan; panggilan dengan Kak Ayu jika ia membalas. Minggu 3: Sen pagi nilai AKHLAK — baca kerangkanya, lalu latihan SJT 7.4 seolah untuk operator kereta milik negara · Sel malam simulasi penuh satu (ketiga sub-tes dengan waktu tes, kalkulator di layar saja) · Rab pagi set bahasa Inggris 40 dtk/soal · Kam malam simulasi penuh dua tanpa bisa kembali, lalu cermin konsistensi untuk kuesioner learning agility · Sab pagi gladi daftar periksa: laptop, hotspot, pemeriksaan pengawasan di laman latihan, kartu kertas coretan · Min: istirahat; sif kafe seperti biasa. Minggu 4: tes Selasa pagi."
+        },
+        {
+         "h": {
+          "en": "The rules",
+          "id": "Aturan"
+         }
+        },
+        {
+         "en": "Scoring is number-correct with no penalty → never leave a blank; eliminate, then guess. Verbal 20 items / 15 min: 45 s per item; checkpoints 3¾ min → item 5, 7½ → 10, 11¼ → 15; stuck at 90 s → mark, guess, move on; because she can go back within a section, return to marked items with any time left. Numerical 20 / 20: 60 s; checkpoints 5 → 5, 10 → 10, 15 → 15; stuck at 2 min. Figural 20 / 15: 45 s; the 3×3 that took four minutes in the baseline gets 90 s and a guess. Values section: every item answered, PTA-S for situational items, the AKHLAK framework read beforehand, the consistent work-self for preference items. Learning agility: untimed, forced choice — instinctive, every block.",
+         "id": "Penilaian jumlah benar tanpa pengurangan → jangan pernah biarkan kosong; singkirkan, lalu tebak. Verbal 20 soal / 15 mnt: 45 dtk per soal; titik periksa 3¾ mnt → soal 5, 7½ → 10, 11¼ → 15; buntu di 90 dtk → tandai, tebak, lanjut; karena ia bisa kembali dalam satu bagian, kembali ke soal yang ditandai dengan sisa waktu. Numerik 20 / 20: 60 dtk; titik periksa 5 → 5, 10 → 10, 15 → 15; buntu di 2 mnt. Figural 20 / 15: 45 dtk; matriks 3×3 yang memakan empat menit di garis dasar mendapat 90 dtk dan tebakan. Bagian nilai: setiap soal dijawab, PTA-S untuk soal situasional, kerangka AKHLAK dibaca sebelumnya, diri-kerja yang konsisten untuk soal preferensi. Learning agility: tanpa batas waktu, pilihan-paksa — naluriah, setiap blok."
+        },
+        {
+         "h": {
+          "en": "Test day",
+          "id": "Hari tes"
+         }
+        },
+        {
+         "en": "Tuesday morning of week 4: Monday is for the proctoring check and a technical retry if the portal misbehaves; Friday leaves no retry at all; mornings are before any café shift and after a full night. Laptop, charged and plugged in; browser updated and tested on the provider’s practice page on Monday; notifications off. Family Wi-Fi tested Monday, phone hotspot paired as the backup. Her room, door closed, family told the window, lamp facing her for the webcam. KTP on the desk; the invitation code printed. Scrap paper: the description does not say — Kak Ayu is asked in week 1; if unknown, have it ready and put it away if the proctor says so. On-screen calculator only in numerical. Read every instruction; do every practice item; take it herself — the description mentions a supervised verification test. Breathing three times before the first section; the ten-second micro-break between sections; three reframes on the scrap-paper card: not 100%, not designed to be finished, one stage of several.",
+         "id": "Selasa pagi minggu 4: Senin untuk pemeriksaan pengawasan dan percobaan teknis ulang jika portal bermasalah; Jumat tidak menyisakan percobaan ulang sama sekali; pagi sebelum sif kafe apa pun dan setelah tidur semalam penuh. Laptop, terisi dan tercolok; peramban diperbarui dan diuji di laman latihan penyedia pada Senin; notifikasi mati. Wi-Fi keluarga diuji Senin, hotspot ponsel dipasangkan sebagai cadangan. Kamarnya, pintu tertutup, keluarga diberi tahu jendelanya, lampu menghadapnya untuk webcam. KTP di meja; kode undangan dicetak. Kertas coretan: deskripsi tidak menyebut — Kak Ayu ditanya di minggu 1; jika tidak tahu, siapkan dan singkirkan jika pengawas memintanya. Kalkulator di layar hanya di numerik. Baca setiap instruksi; kerjakan setiap soal latihan; kerjakan sendiri — deskripsi menyebut tes verifikasi yang diawasi. Pernapasan tiga kali sebelum bagian pertama; jeda mikro sepuluh detik antar bagian; tiga pembingkaian ulang di kartu kertas coretan: bukan 100%, tidak dirancang untuk selesai, satu tahap dari beberapa."
+        },
+        {
+         "h": {
+          "en": "Now you",
+          "id": "Kini kamu"
+         }
+        },
+        {
+         "en": "There is no model answer for Step 6 — only a shape: three scores, at least four tagged lines, the family that gets three of six sessions and the reason, six week-1 sessions on real days, and the programme the plan is for. If your baseline was taken timed, retake it untimed; the baseline measures what you know, week 2 measures how fast.",
+         "id": "Tidak ada jawaban model untuk Langkah 6 — hanya bentuknya: tiga skor, setidaknya empat baris bertanda, keluarga yang mendapat tiga dari enam sesi dan alasannya, enam sesi minggu 1 pada hari nyata, dan program yang menjadi tujuan rencana. Jika garis dasarmu diambil berbatas waktu, ulangi tanpa batas waktu; garis dasar mengukur apa yang kamu tahu, minggu 2 mengukur seberapa cepat."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your plan gave verbal and abstract fewer than two sessions each, ask which sub-test fails the bar on the day. If your guessing rule said “leave it blank if unsure”, re-read the scoring line. If your test day was Monday or Friday, ask what happens when the Wi-Fi drops.",
+        "id": "Bandingkan, jangan salin. Jika rencanamu memberi verbal dan abstrak kurang dari dua sesi masing-masing, tanyakan sub-tes mana yang gagal batas pada harinya. Jika aturan menebakmu berbunyi “biarkan kosong jika ragu”, baca ulang baris penilaiannya. Jika hari tesmu Senin atau Jumat, tanyakan apa yang terjadi saat Wi-Fi putus."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Nadia would on Sunday night with a calendar open. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca keenam jawabanmu seperti Nadia pada Minggu malam dengan kalender terbuka. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run week 1 of your own plan — six sessions, the log from day one.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan minggu 1 rencanamu sendiri — enam sesi, catatan sejak hari pertama."
+       }
       }
      },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Reading the score, not the pattern",
-         "id": "Membaca skor, bukan polanya"
+         "en": "Reading 4/10 as ability",
+         "id": "Membaca 4/10 sebagai kemampuan"
         },
         "fix": {
-         "en": "A 62% tells you nothing. Which families failed, and why? Convert every mock into next week’s error-log rows.",
-         "id": "62% tak memberi tahu apa pun. Keluarga soal mana yang gagal, dan mengapa? Ubah setiap tes tiruan menjadi baris catatan kesalahan minggu depan."
+         "en": "Read the log: two reading habits, both fixable in a week.",
+         "id": "Baca catatannya: dua kebiasaan membaca, keduanya bisa diperbaiki dalam seminggu."
         }
        },
        {
         "h": {
-         "en": "Mocks with the phone next to you",
-         "id": "Tes tiruan dengan ponsel di samping"
+         "en": "All eighteen sessions on numerical",
+         "id": "Semua delapan belas sesi untuk numerik"
         },
         "fix": {
-         "en": "Untimed, interrupted practice trains the wrong reflexes. Real conditions or it does not count.",
-         "id": "Latihan tanpa waktu dan terganggu melatih refleks yang salah. Kondisi nyata atau tidak dihitung."
+         "en": "More on the weakest, never none on the others — the bar is per sub-test.",
+         "id": "Lebih banyak untuk yang terlemah, tidak pernah nol untuk yang lain — batasnya per sub-tes."
         }
        },
        {
         "h": {
-         "en": "Stopping when you pass once",
-         "id": "Berhenti setelah lolos sekali"
+         "en": "Ignoring the values and English sections",
+         "id": "Mengabaikan bagian nilai dan bahasa Inggris"
         },
         "fix": {
-         "en": "One good mock is variance. Three in a row above the line is readiness.",
-         "id": "Satu tes tiruan yang bagus adalah variasi. Tiga berturut-turut di atas garis adalah kesiapan."
+         "en": "Week 3: the framework, four SJTs, one English set.",
+         "id": "Minggu 3: kerangkanya, empat SJT, satu set bahasa Inggris."
+        }
+       },
+       {
+        "h": {
+         "en": "Sitting the test on the first or last day of the window",
+         "id": "Mengerjakan tes di hari pertama atau terakhir jendela"
+        },
+        "fix": {
+         "en": "A weekday morning in the middle, with a technical retry still possible.",
+         "id": "Pagi hari kerja di tengah, dengan percobaan teknis ulang masih mungkin."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Baseline",
+        "id": "Garis dasar"
+       },
+       "def": {
+        "en": "Three untimed Gym scores taken before any technique — the shape that decides where the three weeks go.",
+        "id": "Tiga skor Gym tanpa batas waktu yang diambil sebelum teknik apa pun — bentuk yang menentukan ke mana tiga minggu diarahkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Per-sub-test minimum",
+        "id": "Minimum per sub-tes"
+       },
+       "def": {
+        "en": "A cut-off applied to each sub-test separately; the weakest sub-test decides, not the average.",
+        "id": "Ambang yang diterapkan pada tiap sub-tes secara terpisah; sub-tes terlemah yang menentukan, bukan rata-rata."
+       }
+      },
+      {
+       "term": {
+        "en": "Top two tags",
+        "id": "Dua tanda teratas"
+       },
+       "def": {
+        "en": "The two most frequent error-log tags for the week; they choose the next week’s drills.",
+        "id": "Dua tanda catatan kesalahan paling sering dalam seminggu; keduanya memilih latihan minggu berikutnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Window",
+        "id": "Jendela"
+       },
+       "def": {
+        "en": "The days during which the online test may be started; choose a middle weekday morning.",
+        "id": "Hari-hari ketika tes daring boleh dimulai; pilih pagi hari kerja di tengah."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s six numerical misses are five wrong-base errors and three notation errors. The right conclusion is…",
+        "id": "Enam kesalahan numerik Nadia adalah lima kesalahan basis salah dan tiga kesalahan notasi. Kesimpulan yang tepat adalah…"
+       },
+       "options": [
+        {
+         "en": "She is bad at maths",
+         "id": "Ia lemah matematika"
+        },
+        {
+         "en": "Two reading habits, fixable in a week with the scrap-paper card and name-the-distractor sets",
+         "id": "Dua kebiasaan membaca, bisa diperbaiki dalam seminggu dengan kartu kertas coretan dan set sebut-pengecohnya"
+        },
+        {
+         "en": "She should skip the numerical section",
+         "id": "Ia sebaiknya melewati bagian numerik"
+        },
+        {
+         "en": "She needs a maths tutor",
+         "id": "Ia butuh tutor matematika"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "None of the misses is a concept gap or an arithmetic slip; all happen in Find and Set up.",
+        "id": "Tidak satu pun kesalahan adalah celah konsep atau kesalahan aritmetika; semuanya terjadi di Temukan dan Susun."
+       }
+      },
+      {
+       "q": {
+        "en": "Under a per-sub-test minimum, spending all eighteen sessions on the weakest family is…",
+        "id": "Di bawah minimum per sub-tes, menghabiskan semua delapan belas sesi untuk keluarga terlemah adalah…"
+       },
+       "options": [
+        {
+         "en": "Optimal",
+         "id": "Optimal"
+        },
+        {
+         "en": "A risk — an unpractised sub-test can fall below the bar on the day",
+         "id": "Risiko — sub-tes yang tidak dilatih bisa jatuh di bawah batas pada harinya"
+        },
+        {
+         "en": "Required by the plan",
+         "id": "Diwajibkan rencana"
+        },
+        {
+         "en": "Fine if the average is high",
+         "id": "Tidak apa-apa jika rata-ratanya tinggi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "More on the weakest, never none on the others.",
+        "id": "Lebih banyak untuk yang terlemah, tidak pernah nol untuk yang lain."
+       }
+      },
+      {
+       "q": {
+        "en": "The test description says “number of correct answers; no penalty”. With thirty seconds left and three items unanswered, Nadia should…",
+        "id": "Deskripsi tes menyebut “jumlah jawaban benar; tanpa pengurangan”. Dengan tiga puluh detik tersisa dan tiga soal belum dijawab, Nadia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Leave them blank",
+         "id": "Biarkan kosong"
+        },
+        {
+         "en": "Answer all three, eliminating what she can",
+         "id": "Jawab ketiganya, menyingkirkan yang ia bisa"
+        },
+        {
+         "en": "Finish the current one carefully",
+         "id": "Selesaikan yang saat ini dengan cermat"
+        },
+        {
+         "en": "Close the browser",
+         "id": "Tutup peramban"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Blanks are certain zeros under number-correct scoring.",
+        "id": "Yang kosong pasti nol di bawah penilaian jumlah benar."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "drill",
+      "title": {
+       "en": "Week 1 starts now",
+       "id": "Minggu 1 mulai sekarang"
+      },
+      "body": {
+       "en": "Your baseline from Step 6 is Dossier item 1. Run the six week-1 sessions in the Gym, untimed, tagging every miss; on Sunday, the top two tags choose week 2. The error log, the three-week plan and the test-day checklist complete Dossier items 2–4 over the three weeks.",
+       "id": "Garis dasarmu dari Langkah 6 adalah butir Dossier 1. Jalankan enam sesi minggu 1 di Gym, tanpa batas waktu, tandai setiap kesalahan; pada Minggu, dua tanda teratas memilih minggu 2. Catatan kesalahan, rencana tiga minggu, dan daftar periksa hari tes melengkapi butir Dossier 2–4 selama tiga minggu."
+      },
+      "cta": {
+       "en": "Open the Screening Gym →",
+       "id": "Buka Screening Gym →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Read the log, not the score: most misses are habits with names.",
+       "id": "Baca catatannya, bukan skornya: kebanyakan kesalahan adalah kebiasaan yang punya nama."
+      },
+      {
+       "en": "More on the weakest sub-test, never none on the others.",
+       "id": "Lebih banyak untuk sub-tes terlemah, tidak pernah nol untuk yang lain."
+      },
+      {
+       "en": "The scoring rule, the timing model and the window decide the day.",
+       "id": "Aturan penilaian, model waktu, dan jendela menentukan harinya."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 2 · documents",
-        "id": "Modul 2 · dokumen"
+        "en": "Lessons 7.1–7.5",
+        "id": "Pelajaran 7.1–7.5"
        },
        "desc": {
-        "en": "Your file now reaches the test stage instead of dying in the first screen.",
-        "id": "Berkasmu kini sampai ke tahap tes alih-alih mati di saringan pertama."
+        "en": "The landscape, numerical, verbal/series/abstract, personality and SJT, strategy.",
+        "id": "Peta tes, numerik, verbal/deret/abstrak, kepribadian dan SJT, strategi."
        }
       },
       "now": {
        "label": {
-        "en": "Module 7 · trained, not gifted",
-        "id": "Modul 7 · terlatih, bukan berbakat"
+        "en": "7.6 · Nadia’s Three Weeks",
+        "id": "7.6 · Tiga Minggu Nadia"
        },
        "desc": {
-        "en": "A four-week plan, an error log and mocks under real conditions.",
-        "id": "Rencana empat minggu, catatan kesalahan, dan tes tiruan dalam kondisi nyata."
+        "en": "You have read a baseline, tagged a log, written a plan, chosen the rules and started your own.",
+        "id": "Kamu sudah membaca garis dasar, menandai catatan, menulis rencana, memilih aturan, dan memulai milikmu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 10 · the group discussion",
-        "id": "Modul 10 · diskusi kelompok"
+        "en": "Module 8 · AI Application Tools",
+        "id": "Modul 8 · Alat Lamaran Berbasis AI"
        },
        "desc": {
-        "en": "Assessors score behaviours, not opinions — and the behaviours are learnable.",
-        "id": "Asesor menilai perilaku, bukan pendapat — dan perilaku itu bisa dipelajari."
+        "en": "Using AI honestly on the documents — and knowing where the tests will catch what AI wrote for you.",
+        "id": "Memakai AI dengan jujur pada dokumen — dan tahu di mana tes akan menangkap apa yang ditulis AI untukmu."
        },
-       "lesson": "10.1"
+       "lesson": "8.1"
       }
      }
     }
