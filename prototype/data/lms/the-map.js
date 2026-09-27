@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "70 min",
-      "id": "70 mnt"
+      "en": "80 min",
+      "id": "80 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8677,8 +8677,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film adegan + komentar pakar"
        },
        "intro": {
-        "en": "The two films the last slides point to. First, back at MODA: Aaliyah is about to share a change story with department heads on a video call and is worried people will tune out, so she asks David, fresh from the board meeting, for tips — a well-lit room and a non-distracting background, energy and an animated voice into the “black box”, one image rather than a pile of slides, a provocative question answered in the chat. Then Kate’s commentary: most of us have no board member to ring, so ring a friend or a colleague, practise room setup and vocal delivery in front of a mirror or someone who gives feedback, and try a Toastmasters chapter or a community group — good delivery, like a good conversation, does not happen on its own. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “How to run the drills” below.",
-        "id": "Dua film yang dirujuk slide terakhir. Pertama, kembali ke MODA: Aaliyah akan membagikan kisah perubahan kepada para kepala departemen lewat panggilan video dan khawatir orang-orang tidak menyimak, maka ia meminta kiat kepada David, yang baru saja tampil di rapat dewan — ruangan terang dengan latar belakang yang tidak mengganggu, energi dan suara yang hidup ke arah “kotak hitam”, satu gambar daripada setumpuk slide, pertanyaan provokatif yang dijawab di kotak obrolan. Lalu komentar Kate: kebanyakan dari kita tidak punya anggota dewan untuk ditelepon, jadi teleponlah teman atau kolega, latih penataan ruangan dan penyampaian vokal di depan cermin atau seseorang yang memberi umpan balik, dan coba cabang Toastmasters atau kelompok komunitas — penyampaian yang baik, seperti percakapan yang baik, tidak terjadi dengan sendirinya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "The two films the last slides point to. First, back at MODA: Aaliyah is about to share a change story with department heads on a video call and is worried people will tune out, so she asks David, fresh from the board meeting, for tips — a well-lit room and a non-distracting background, energy and an animated voice into the “black box”, one image rather than a pile of slides, a provocative question answered in the chat. Then Kate’s commentary: most of us have no board member to ring, so ring a friend or a colleague, practise room setup and vocal delivery in front of a mirror or someone who gives feedback, and try a Toastmasters chapter or a community group — good delivery, like a good conversation, does not happen on its own. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slides that follow.",
+        "id": "Dua film yang dirujuk slide terakhir. Pertama, kembali ke MODA: Aaliyah akan membagikan kisah perubahan kepada para kepala departemen lewat panggilan video dan khawatir orang-orang tidak menyimak, maka ia meminta kiat kepada David, yang baru saja tampil di rapat dewan — ruangan terang dengan latar belakang yang tidak mengganggu, energi dan suara yang hidup ke arah “kotak hitam”, satu gambar daripada setumpuk slide, pertanyaan provokatif yang dijawab di kotak obrolan. Lalu komentar Kate: kebanyakan dari kita tidak punya anggota dewan untuk ditelepon, jadi teleponlah teman atau kolega, latih penataan ruangan dan penyampaian vokal di depan cermin atau seseorang yang memberi umpan balik, dan coba cabang Toastmasters atau kelompok komunitas — penyampaian yang baik, seperti percakapan yang baik, tidak terjadi dengan sendirinya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8695,8 +8695,8 @@ window.MT_LMS['the-map'] = {
           "id": "Libatkan, bukan sekadar menyiarkan: satu gambar kuat daripada tumpukan slide, pertanyaan provokatif dengan jawaban di obrolan, emosi dalam suara."
          },
          {
-          "en": "You do not need a board member. Ring a friend, rehearse in front of a mirror or a colleague who gives feedback, and use a Toastmasters chapter or community group. The three drills below are your first rehearsal.",
-          "id": "Anda tidak butuh anggota dewan. Telepon teman, berlatih di depan cermin atau kolega yang memberi umpan balik, dan manfaatkan cabang Toastmasters atau kelompok komunitas. Tiga latihan di bawah adalah gladi pertama Anda."
+          "en": "You do not need a board member. Ring a friend, rehearse in front of a mirror or a colleague who gives feedback, and use a Toastmasters chapter or community group. The slides that follow show the feedback email you might send Aaliyah, and introduce the three elements of style.",
+          "id": "Anda tidak butuh anggota dewan. Telepon teman, berlatih di depan cermin atau kolega yang memberi umpan balik, dan manfaatkan cabang Toastmasters atau kelompok komunitas. Slide berikutnya menunjukkan email masukan yang bisa Anda kirim kepada Aaliyah, dan memperkenalkan tiga elemen gaya."
          }
         ]
        },
@@ -8725,6 +8725,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/cases-7-en.vtt",
           "id": "../../assets/lms/the-map/cases-7-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "impact",
+       "placement": "after-material:6",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the second slide points to. Kate opens the Conversation element of EPIC with delivery: it is not only what you say, it is how you say it, and it would be a shame to do the hard work of structure and storyline and have it fall down at the moment of delivery. She cites Will Stephen’s TEDx talk — gibberish delivered with such vocal energy and physical presence that it still creates an emotional connection — and sets out the three elements to explore: what you can do with your voice (intonation, emphasis, speaking softly to draw people in), your physical presence in small and large settings, and how you create an emotional connection whether with one person or a room. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
+        "id": "Film yang dirujuk slide kedua. Kate membuka elemen Percakapan dari EPIC dengan penyampaian: bukan hanya apa yang Anda katakan, tetapi bagaimana mengatakannya, dan sayang sekali jika kerja keras menyusun struktur dan storyline runtuh pada saat penyampaian. Ia mengutip TEDx talk Will Stephen — omong kosong yang disampaikan dengan energi vokal dan kehadiran fisik sedemikian rupa sehingga tetap menciptakan koneksi emosional — dan memaparkan tiga elemen untuk dijelajahi: apa yang bisa dilakukan dengan suara (intonasi, penekanan, berbicara lembut untuk menarik orang mendekat), kehadiran fisik Anda dalam situasi kecil dan besar, dan bagaimana menciptakan koneksi emosional entah dengan satu orang atau satu ruangan. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: how you say it",
+         "id": "Poin penting: bagaimana Anda mengatakannya"
+        },
+        "body": [
+         {
+          "en": "Delivery is where the structure and the storyline either land or fall down. The way you say it is as impactful as what you say.",
+          "id": "Penyampaian adalah tempat struktur dan storyline mendarat atau runtuh. Cara Anda mengatakannya sama berdampaknya dengan apa yang Anda katakan."
+         },
+         {
+          "en": "Three elements of style: voice (intonation, emphasis, softness that draws people in), physical presence sized to the room, and the emotional connection that turns a talk into a conversation.",
+          "id": "Tiga elemen gaya: suara (intonasi, penekanan, kelembutan yang menarik orang mendekat), kehadiran fisik yang disesuaikan dengan ruangan, dan koneksi emosional yang mengubah ceramah menjadi percakapan."
+         },
+         {
+          "en": "Think of a message you had to deliver and which of the three would have changed how it landed. The three drills below are delivered under time pressure — structure first, then say it well.",
+          "id": "Pikirkan sebuah pesan yang pernah harus Anda sampaikan dan elemen mana dari ketiganya yang akan mengubah cara pesan itu diterima. Tiga latihan di bawah disampaikan di bawah tekanan waktu — struktur dulu, lalu sampaikan dengan baik."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-8-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-8-poster.jpg",
+         "dur": "2:09",
+         "title": {
+          "en": "Delivering for impact",
+          "id": "Menyampaikan pesan dengan dampak"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-8-en.vtt",
+          "id": "../../assets/lms/the-map/cases-8-id.vtt"
          }
         }
        ]
@@ -9012,6 +9059,43 @@ window.MT_LMS['the-map'] = {
          "text": {
           "en": "Your turn. Offer Aaliyah some tips. Take a few minutes to reflect on the conversation between Aaliyah and David. David offered some concrete tips to think about for her virtual change story. Can you add a few additional tips to the list? Compare to expert — consider the following in your advice: 1. What is a great example of a presenter’s confidence and style in a video call that you have seen? 2. What was missing from David’s tips, in your opinion? 3. What mistakes have you personally learned from that might help Aaliyah in her virtual presentation? Your task: take a moment to think about drafting a short email to Aaliyah with a few additional tips for her virtual change story. Think about: practical and specific tips; how to be more engaging in a virtual format; how to inspire MODA’s leaders and make the message memorable.",
           "id": "Tugas Anda. Berikan beberapa tips untuk Aaliyah. Luangkan beberapa menit untuk merefleksikan percakapan antara Aaliyah dan David. David memberikan beberapa tips konkret untuk dipertimbangkan Aaliyah dalam menyusun change story-nya secara virtual. Dapatkah Anda menambahkan beberapa tips lainnya? Bandingkan dengan pendapat ahli — pertimbangkan pertanyaan berikut dalam memberikan saran Anda: 1. Apa contoh yang baik dari kepercayaan diri (presenter) dan gaya penyampaian dalam video call yang pernah Anda lihat? 2. Menurut Anda, apa yang masih kurang dari tips yang diberikan oleh David? 3. Kesalahan apa yang pernah Anda pelajari secara pribadi yang dapat membantu Aaliyah dalam presentasi virtual-nya? Tugas Anda: luangkan waktu sejenak untuk menyusun sebuah email singkat kepada Aaliyah dengan beberapa tips tambahan untuk change story-nya secara virtual. Pertimbangkan juga: tips yang praktis dan spesifik; cara agar lebih menarik dalam format virtual; cara menginspirasi para pemimpin MODA dan membuat pesan menjadi lebih berkesan."
+         }
+        }
+       ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 2 slides",
+        "id": "Baca berikutnya · 2 slide"
+       },
+       "title": {
+        "en": "Sample Email — Material",
+        "id": "Contoh Email — Materi"
+       },
+       "intro": {
+        "en": "Two slides. The first is a worked answer to the last task: a sample email to Aaliyah with a few additional thoughts for her change story — an encouraging opening, concrete tips on pacing and enunciation, the active voice and no disclaimers, and ice-breakers to break down the barriers of a video call. The second moves to the Conversation element of EPIC and delivering for impact: presence, clarity and connection, the three elements of style Kate introduces in the film below. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
+        "id": "Dua slide. Yang pertama adalah contoh jawaban untuk tugas terakhir: contoh email kepada Aaliyah dengan beberapa pemikiran tambahan untuk change story-nya — pembuka yang memberi semangat, tips konkret tentang tempo dan artikulasi, kalimat aktif tanpa disclaimer, dan ice breaker untuk meruntuhkan penghalang dalam panggilan video. Yang kedua beralih ke elemen Percakapan dari EPIC dan menyampaikan pesan dengan dampak: kehadiran, kejelasan, dan koneksi, tiga elemen gaya yang diperkenalkan Kate dalam film di bawah. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca keduanya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/cases-email-",
+       "slides": [
+        {
+         "title": {
+          "en": "Sample email to share with Aaliyah as feedback",
+          "id": "Contoh email untuk Aaliyah"
+         },
+         "text": {
+          "en": "Example. Below is an example of an email you can use as a reference to provide additional feedback to Aaliyah: start with encouragement and a positive tone; provide concrete and practical tips; focus on the audience and how to engage them; close with motivation and confidence. To: Aaliyah. Subject: A few additional thoughts for your change story. “Hi Aaliyah, I just wanted to share a few additional thoughts as you prepare for your change story. First of all, I know you’re going to be great! (Start with a positive and encouraging opening.) David was right — you have a great voice. So, use it to your advantage! Be mindful of your pacing and enunciation. Don’t rush your presentation (we all tend to do that when we’re nervous). Try to keep a nice steady pace, articulate your words clearly, and read the reactions of your audience. (Provide concrete tips on delivery that are clear and structured.) Also, always try to use the active voice. It sounds more inspiring to hear people taking action in a situation rather than just relaying events that happen to them. Stay away from disclaimers (especially with a change story!). These are your real experiences and your beliefs. It makes for a stronger delivery when you confidently assert and own your voice. (Give specific advice to make the message more impactful and inspiring.) What else — with video calls, try to break down any barriers you can with the audience. Maybe try a fun ice breaker at the beginning? I sometimes ask a group to share their names and favorite types of food! Anything to help forge a connection from the get-go would be good. Making a connection on virtual can be challenging, but with the right delivery you can absolutely do it. And I know you can! (Share additional ideas to engage the audience in a virtual setting.) Cheers, Your teammate.”",
+          "id": "Contoh. Berikut adalah contoh email yang dapat Anda gunakan sebagai referensi dalam memberikan masukan tambahan kepada Aaliyah: mulai dengan dukungan dan nada positif; berikan tips yang konkret dan mudah diterapkan; fokus pada audiens dan cara melibatkan mereka; akhiri dengan motivasi dan keyakinan. Kepada: Aaliyah. Subjek: A few additional thoughts for your change story. Email ditampilkan dalam bahasa Inggris: “Hi Aaliyah, I just wanted to share a few additional thoughts as you prepare for your change story. First of all, I know you’re going to be great! (Pembuka yang positif dan memberikan dukungan.) David was right — you have a great voice. So, use it to your advantage! Be mindful of your pacing and enunciation. Don’t rush your presentation (we all tend to do that when we’re nervous). Try to keep a nice steady pace, articulate your words clearly, and read the reactions of your audience. (Tips konkret tentang penyampaian yang jelas dan terstruktur.) Also, always try to use the active voice. It sounds more inspiring to hear people taking action in a situation rather than just relaying events that happen to them. Stay away from disclaimers (especially with a change story!). These are your real experiences and your beliefs. It makes for a stronger delivery when you confidently assert and own your voice. (Saran spesifik untuk membuat pesan lebih kuat dan inspiratif.) What else — with video calls, try to break down any barriers you can with the audience. Maybe try a fun ice breaker at the beginning? I sometimes ask a group to share their names and favorite types of food! Anything to help forge a connection from the get-go would be good. Making a connection on virtual can be challenging, but with the right delivery you can absolutely do it. And I know you can! (Ide tambahan untuk melibatkan audiens secara virtual.) Cheers, Your teammate.”"
+         }
+        },
+        {
+         "title": {
+          "en": "Conversation and the three elements of style",
+          "id": "Percakapan dan tiga elemen gaya"
+         },
+         "text": {
+          "en": "Delivering your message: delivering for impact. 1. We’ve discussed how to structure your argument, and how to tailor it to your audience. In this section, we continue with the Conversation element of the EPIC approach with a focus on delivering for impact. So much of inspiration stems from your ability to deliver those words and images. Kate discusses the impact good delivery makes on the audience. She briefly introduces Three Elements of Style and different contexts to consider. 2. As you watch this video, take a moment to think about a time where you needed to deliver an important message. How could you apply the Three Elements of Style to your message? “How you deliver your message can be just as important as what you say.” — Kate. Great delivery brings your ideas to life and inspires action. The Three Elements of Style: Presence — how you show up and engage your audience; Clarity — how you express your message clearly and simply; Connection — how you create relevance and inspire your audience. Reflect: think about a time when you needed to deliver an important message. How could you apply the Three Elements of Style to your message?",
+          "id": "Menyampaikan pesan Anda: menyampaikan pesan dengan dampak. 1. Kita telah membahas cara menyusun argumen Anda, dan bagaimana menyesuaikannya dengan audiens. Pada bagian ini, kita melanjutkan dengan elemen Percakapan dari pendekatan EPIC dengan fokus pada menyampaikan pesan dengan dampak. Banyak inspirasi berasal dari kemampuan Anda menyampaikan kata-kata dan visual. Kate membahas dampak dari penyampaian yang baik terhadap audiens. Ia memperkenalkan Tiga Elemen Gaya dan berbagai konteks yang perlu dipertimbangkan. 2. Saat Anda menonton video ini, luangkan waktu sejenak untuk memikirkan situasi di mana Anda perlu menyampaikan pesan penting. Bagaimana Anda dapat menerapkan Tiga Elemen Gaya pada pesan Anda? “Cara Anda menyampaikan pesan dapat sama pentingnya dengan isi yang Anda sampaikan.” — Kate. Penyampaian yang baik membuat ide Anda hidup dan menginspirasi tindakan. Tiga Elemen Gaya: Kehadiran (Presence) — bagaimana Anda tampil dan melibatkan audiens; Kejelasan (Clarity) — bagaimana Anda menyampaikan pesan dengan jelas dan sederhana; Koneksi (Connection) — bagaimana Anda menciptakan relevansi dan menginspirasi audiens. Refleksi: pikirkan tentang situasi di mana Anda perlu menyampaikan pesan penting. Bagaimana Anda dapat menerapkan Tiga Elemen Gaya pada pesan Anda?"
          }
         }
        ]
