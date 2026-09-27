@@ -11950,96 +11950,271 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "4.1",
-     "title": {
-      "en": "Introduction to Applicant Tracking Systems (ATS) — How the Machine Works",
-      "id": "Pengantar Applicant Tracking System (ATS) — Cara Kerja Mesinnya"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "What the Machine Actually Does",
+      "id": "Apa yang Sebenarnya Dilakukan Mesin"
+     },
      "overview": {
-      "en": "Before any human sees your application, software has parsed, indexed and often ranked it. This lesson explains what an ATS actually does — separating the real mechanics from the folklore — so the next two lessons can optimise for the machine that exists, not the monster candidates imagine.",
-      "id": "Sebelum ada manusia yang melihat lamaranmu, sebuah perangkat lunak sudah lebih dulu mengurai, mengindeks, dan sering kali memeringkatnya. Pelajaran ini menjelaskan apa yang sebenarnya dilakukan ATS — memisahkan cara kerja yang nyata dari mitos — supaya dua pelajaran berikutnya bisa mengoptimalkan lamaranmu untuk mesin yang benar-benar ada, bukan monster yang dibayangkan para kandidat."
+      "en": "Learners arrive frightened of “the ATS” — a robot said to reject most CVs unseen. The reality is more mundane and more useful. This lesson explains what the software does, separates myth from fact, and shows where your control lies.",
+      "id": "Pembelajar datang dengan ketakutan pada “ATS” — robot yang konon menolak sebagian besar CV tanpa dilihat. Kenyataannya lebih biasa dan lebih berguna. Pelajaran ini menjelaskan apa yang dilakukan perangkat lunak, memisahkan mitos dari fakta, dan menunjukkan di mana kendalimu berada."
      },
      "objectives": [
       {
-       "en": "Describe the ATS pipeline: parse, index, filter, rank, present.",
-       "id": "Menjelaskan alur kerja ATS: urai, indeks, saring, peringkatkan, sajikan."
+       "en": "Describe the five things an applicant-tracking system does.",
+       "id": "Menggambarkan lima hal yang dilakukan sistem pelacak pelamar."
       },
       {
-       "en": "Separate ATS facts from folklore — what actually rejects applications.",
-       "id": "Memisahkan fakta ATS dari mitos — apa yang sebenarnya membuat lamaran ditolak."
+       "en": "Identify the three failure modes you control.",
+       "id": "Mengenali tiga mode kegagalan yang kamu kendalikan."
       },
       {
-       "en": "Identify the failure modes you control: parsing breaks, missing keywords, unanswered knockouts.",
-       "id": "Mengenali kegagalan yang ada dalam kendalimu: format yang gagal diurai, kata kunci yang tidak ada, pertanyaan penggugur yang dijawab keliru."
+       "en": "Evaluate common ATS claims as myth, half-truth or fact.",
+       "id": "Menilai klaim-klaim umum tentang ATS sebagai mitos, setengah benar, atau fakta."
       }
      ],
-     "takeawaysLead": {
-      "en": "The machine that exists is a workflow database, not the monster candidates imagine. To optimise for the real one, you can:",
-      "id": "Mesin yang sebenarnya adalah basis data alur kerja, bukan monster yang dibayangkan kandidat. Untuk mengoptimalkan diri terhadap mesin yang nyata, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · Module 4 in 4 slides",
+       "id": "Baca dulu · Modul 4 dalam 4 slide"
+      },
+      "title": {
+       "en": "Passing the ATS and administrative gate",
+       "id": "Lolos ATS dan seleksi administrasi"
+      },
+      "intro": {
+       "en": "Four ideas frame the module. Administrative and software screening eliminates more candidates than any other stage — usually for reasons that have nothing to do with ability, and all of them preventable.",
+       "id": "Empat gagasan membingkai modul ini. Seleksi administrasi dan penyaringan perangkat lunak menggugurkan lebih banyak kandidat daripada tahap mana pun — biasanya karena alasan yang tidak ada hubungannya dengan kemampuan, dan semuanya bisa dicegah."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The machine organises; a person decides",
+         "id": "Mesin menata; orang memutuskan"
+        },
+        "points": [
+         {
+          "en": "Most “ATS rejections” are knockout questions and a recruiter’s filters applied to software-sorted lists.",
+          "id": "Kebanyakan “penolakan ATS” adalah pertanyaan gugur dan saringan perekrut yang diterapkan pada daftar yang diurutkan perangkat lunak."
+         },
+         {
+          "en": "A human decides who proceeds. Write for both.",
+          "id": "Manusia memutuskan siapa yang lanjut. Tulis untuk keduanya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "If it can’t be read, it doesn’t exist",
+         "id": "Jika tidak bisa dibaca, ia tidak ada"
+        },
+        "points": [
+         {
+          "en": "A CV the software cannot parse becomes an empty record — silently.",
+          "id": "CV yang tidak bisa diurai perangkat lunak menjadi rekaman kosong — tanpa suara."
+         },
+         {
+          "en": "Lesson 4.2 gives eight rules and two tests.",
+          "id": "Pelajaran 4.2 memberi delapan aturan dan dua uji."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Every must-have, once, exactly, truthfully",
+         "id": "Setiap syarat wajib, sekali, persis, jujur"
+        },
+        "points": [
+         {
+          "en": "Keywords belong inside evidence, not in a hidden list.",
+          "id": "Kata kunci tempatnya di dalam bukti, bukan di daftar tersembunyi."
+         },
+         {
+          "en": "Lesson 4.3: the coverage table and four honest closes for a gap.",
+          "id": "Pelajaran 4.3: tabel cakupan dan empat penutup jujur untuk sebuah celah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The instruction is the test",
+         "id": "Petunjuk adalah ujiannya"
+        },
+        "points": [
+         {
+          "en": "Completeness and consistency are selection criteria in their own right.",
+          "id": "Kelengkapan dan konsistensi adalah kriteria seleksi tersendiri."
+         },
+         {
+          "en": "Lesson 4.4: seleksi administrasi and the pre-flight routine. Lesson 4.5: The Portal.",
+          "id": "Pelajaran 4.4: seleksi administrasi dan rutinitas pra-kirim. Pelajaran 4.5: Portal."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Most ATS rejections are human decisions applied to machine-organised lists — the machine's job is ordering the pile.",
-       "id": "Sebagian besar penolakan lewat ATS adalah keputusan manusia atas daftar yang disusun mesin — tugas mesin hanya mengurutkan tumpukan."
-      },
-      {
-       "en": "Parsing failure is silent: a CV the software cannot read becomes an empty record nobody ever ranks highly.",
-       "id": "Kegagalan mengurai itu senyap: CV yang tidak bisa dibaca perangkat lunak menjadi catatan kosong yang tidak akan pernah diperingkatkan tinggi."
-      },
-      {
-       "en": "Knockout questions reject more candidates than any algorithm — answer them exactly, never approximately.",
-       "id": "Pertanyaan penggugur menolak lebih banyak kandidat daripada algoritme mana pun — jawab dengan tepat, jangan pernah kira-kira."
-      }
-     ],
      "sections": [
       {
        "icon": "gear",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "center 45%",
        "h": {
-        "en": "What the machine actually does",
-        "id": "Apa yang sebenarnya dilakukan mesin"
+        "en": "Five functions",
+        "id": "Lima fungsi"
        },
        "body": {
-        "en": "An ATS is a workflow database. <b>Parse:</b> extract your text into structured fields — name, roles, dates, education, skills. <b>Index:</b> make every word searchable. <b>Filter:</b> apply knockout answers (work authorisation, degree, GPA floors, availability) as hard gates. <b>Rank or match:</b> many systems score keyword and requirement overlap against the JD; recruiters see an ordered list. <b>Present:</b> the recruiter works the list top-down under time pressure — which is where the six-second scan happens. Folklore says a robot silently bins 75% of CVs; reality is more mundane and more fixable: badly parsed CVs rank low, missing keywords rank low, and knockouts reject exactly what they say they reject.",
-        "id": "ATS pada dasarnya adalah basis data alur kerja. <b>Urai:</b> mengekstrak teksmu ke dalam kolom-kolom terstruktur — nama, posisi, tanggal, pendidikan, keterampilan. <b>Indeks:</b> membuat setiap kata bisa dicari. <b>Saring:</b> menerapkan jawaban pertanyaan penggugur (izin kerja, gelar, batas minimum IPK, ketersediaan) sebagai gerbang yang tidak bisa ditawar. <b>Peringkatkan atau cocokkan:</b> banyak sistem memberi skor berdasarkan seberapa banyak kata kunci dan persyaratan yang beririsan dengan deskripsi lowongan; perekrut melihat daftar yang sudah terurut. <b>Sajikan:</b> perekrut menggarap daftar itu dari atas ke bawah dalam tekanan waktu — di sinilah pindaian enam detik terjadi. Mitosnya: robot diam-diam membuang 75% CV. Kenyataannya lebih membosankan dan lebih bisa diperbaiki: CV yang gagal diurai peringkatnya rendah, CV tanpa kata kunci peringkatnya rendah, dan pertanyaan penggugur menolak persis seperti yang tertulis."
-       }
+        "en": "An applicant-tracking system (ATS) is recruitment workflow software. It typically: <b>parses</b> your CV into fields (name, education, job titles, dates, skills); <b>indexes</b> the text so recruiters can search it; <b>filters</b> on knockout questions and hard criteria (minimum IPK, major, location, right to work); <b>ranks</b> or scores candidates against the advertisement, in some products; and <b>presents</b> a sorted list to a human recruiter, who decides <i>(Knowles, How to Write an Outstanding CV, ch. 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, ch. 3)</i>. Most Indonesian corporate portals — and many BUMN and bank recruitment systems — behave like this, even when the brand name is unfamiliar.",
+        "id": "Sistem pelacak pelamar (ATS) adalah perangkat lunak alur kerja rekrutmen. Biasanya ia: <b>mengurai</b> CV-mu menjadi kolom-kolom (nama, pendidikan, jabatan, tanggal, keterampilan); <b>mengindeks</b> teksnya agar perekrut bisa mencarinya; <b>menyaring</b> berdasarkan pertanyaan gugur dan kriteria mutlak (IPK minimum, jurusan, lokasi, izin kerja); <b>memeringkat</b> atau menilai kandidat terhadap iklan, pada sebagian produk; dan <b>menyajikan</b> daftar terurut kepada perekrut manusia, yang memutuskan <i>(Knowles, How to Write an Outstanding CV, bab 2; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.3.2; Dumas, The AI-Savvy Job Seeker, bab 3)</i>. Kebanyakan portal korporat Indonesia — dan banyak sistem rekrutmen BUMN dan bank — berperilaku seperti ini, meski nama mereknya tidak dikenal."
+       },
+       "after": [
+        {
+         "en": "Notice what is not on the list: reading. The software does not read your CV the way a person does; it extracts, matches and sorts. Everything in this module follows from that.",
+         "id": "Perhatikan apa yang tidak ada dalam daftar: membaca. Perangkat lunak tidak membaca CV-mu seperti orang; ia mengekstrak, mencocokkan, dan mengurutkan. Segala isi modul ini berangkat dari situ."
+        }
+       ]
       },
       {
        "icon": "eye",
        "h": {
-        "en": "The three failure modes you control",
-        "id": "Tiga kegagalan yang ada dalam kendalimu"
+        "en": "Myths and facts",
+        "id": "Mitos dan fakta"
        },
        "body": {
-        "en": "<b>Parsing breaks:</b> tables, text boxes, multi-column layouts, headers/footers and image-embedded text scramble extraction — your experience lands in the wrong fields or vanishes. <b>Keyword absence:</b> you wrote “handled client relationships” while the JD and every search says “account management”; the index has no entry for you. <b>Knockout mismatches:</b> answering “expected salary” with a number double the band, or “available from” with a date after their start, triggers automatic exclusion regardless of CV quality. All three are audit-able before submission — which is exactly what the Screening Gym's ATS check and the next lesson do.",
-        "id": "<b>Gagal diurai:</b> tabel, kotak teks, tata letak beberapa kolom, header/footer, dan teks yang tertanam dalam gambar mengacaukan ekstraksi — pengalamanmu masuk ke kolom yang salah atau lenyap sama sekali. <b>Kata kunci tidak ada:</b> kamu menulis “menangani hubungan klien” sementara deskripsi lowongan dan setiap pencarian memakai istilah “account management”; indeksnya tidak punya catatan apa pun tentangmu. <b>Salah menjawab pertanyaan penggugur:</b> mengisi “gaji yang diharapkan” dengan angka dua kali lipat dari rentang mereka, atau “bisa mulai sejak” dengan tanggal setelah tanggal mulai yang mereka inginkan, memicu penolakan otomatis seberapa pun bagusnya CV-mu. Ketiganya bisa diperiksa sebelum kamu mengirim — dan itulah persis yang dilakukan pemeriksa ATS di Screening Gym dan pelajaran berikutnya."
+        "en": "Six claims you will hear, and what is actually true.",
+        "id": "Enam klaim yang akan kamu dengar, dan apa yang sebenarnya benar."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Claim you will hear",
+          "id": "Klaim yang akan kamu dengar"
+         },
+         {
+          "en": "What’s true",
+          "id": "Yang benar"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“ATS rejects 75% / 98% of CVs before a human sees them.”",
+           "id": "“ATS menolak 75% / 98% CV sebelum dilihat manusia.”"
+          },
+          {
+           "en": "<b>Poorly sourced.</b> Widely repeated figures without credible origin <span class=\"ev ev-contested\">Contested</span>. What is true: knockout questions and recruiter filters can remove many applicants early, and a busy recruiter may never scroll far down a ranked list.",
+           "id": "<b>Sumbernya lemah.</b> Angka yang banyak diulang tanpa asal yang kredibel <span class=\"ev ev-contested\">Diperdebatkan</span>. Yang benar: pertanyaan gugur dan saringan perekrut bisa menyingkirkan banyak pelamar lebih awal, dan perekrut yang sibuk mungkin tidak pernah menggulir jauh ke bawah daftar peringkat."
+          }
+         ],
+         [
+          {
+           "en": "“Hide keywords in white text to beat the robot.”",
+           "id": "“Sembunyikan kata kunci dengan teks putih untuk mengalahkan robot.”"
+          },
+          {
+           "en": "<b>Harmful.</b> Parsed text shows hidden words to the recruiter, and it reads as manipulation <i>(Ow)</i>.",
+           "id": "<b>Merugikan.</b> Teks yang diurai memperlihatkan kata tersembunyi kepada perekrut, dan itu terbaca sebagai manipulasi <i>(Ow)</i>."
+          }
+         ],
+         [
+          {
+           "en": "“More keywords = higher rank.”",
+           "id": "“Lebih banyak kata kunci = peringkat lebih tinggi.”"
+          },
+          {
+           "en": "<b>Half-true.</b> Coverage of genuine must-haves matters; stuffing reads badly to the human who decides, and modern systems weigh context <i>(Knowles, ch. 2; Dumas, ch. 5)</i>.",
+           "id": "<b>Setengah benar.</b> Cakupan syarat wajib yang sungguhan berpengaruh; penjejalan terbaca buruk oleh manusia yang memutuskan, dan sistem modern menimbang konteks <i>(Knowles, bab 2; Dumas, bab 5)</i>."
+          }
+         ],
+         [
+          {
+           "en": "“PDFs can’t be read.”",
+           "id": "“PDF tidak bisa dibaca.”"
+          },
+          {
+           "en": "<b>Outdated.</b> Text-based PDFs parse in most modern systems; scanned or image PDFs do not. Follow the portal’s instruction.",
+           "id": "<b>Usang.</b> PDF berbasis teks terurai di sebagian besar sistem modern; PDF pindaian atau gambar tidak. Ikuti petunjuk portal."
+          }
+         ],
+         [
+          {
+           "en": "“Apply to many roles at the same company to raise your odds.”",
+           "id": "“Lamar banyak posisi di perusahaan yang sama untuk memperbesar peluang.”"
+          },
+          {
+           "en": "<b>Usually counterproductive.</b> Recruiters see all your applications; scattered applications signal no target <i>(Ow)</i>. Apply to one or two genuine fits.",
+           "id": "<b>Biasanya kontraproduktif.</b> Perekrut melihat semua lamaranmu; lamaran yang tersebar menandakan tidak ada sasaran <i>(Ow)</i>. Lamar satu atau dua yang benar-benar cocok."
+          }
+         ],
+         [
+          {
+           "en": "“A human never reads it.”",
+           "id": "“Manusia tidak pernah membacanya.”"
+          },
+          {
+           "en": "<b>False.</b> A human decides who proceeds <i>(Simunovic, §3.3.2)</i>. Write for both.",
+           "id": "<b>Salah.</b> Manusia memutuskan siapa yang lanjut <i>(Simunovic, §3.3.2)</i>. Tulis untuk keduanya."
+          }
+         ]
+        ]
        }
       },
       {
-       "icon": "book",
+       "icon": "target",
        "h": {
-        "en": "Why companies use them",
-        "id": "Mengapa perusahaan memakainya"
+        "en": "Three failure modes you control",
+        "id": "Tiga mode kegagalan yang kamu kendalikan"
        },
        "body": {
-        "en": "Volume, compliance and memory. Thousands of applications need ordering; regulations demand auditable process; and the database remembers you — a strong candidate rejected for timing is searchable for the next opening, which is why a clean, parseable application pays even when this role says no. Understanding the system's purpose also sets the ethical line the next lessons hold: optimising your true experience into the machine's language is craft; injecting false keywords is fraud with a paper trail, in a database designed never to forget.",
-        "id": "Volume, kepatuhan, dan ingatan. Ribuan lamaran perlu diurutkan; regulasi menuntut proses yang bisa diaudit; dan basis data itu mengingatmu — kandidat kuat yang ditolak karena soal waktu tetap bisa ditemukan lagi untuk lowongan berikutnya. Itulah mengapa lamaran yang bersih dan mudah diurai tetap terbayar meskipun untuk posisi ini jawabannya tidak. Memahami tujuan sistem ini juga menetapkan garis etika yang dipegang pelajaran-pelajaran berikutnya: menerjemahkan pengalaman aslimu ke dalam bahasa mesin adalah keahlian; menyisipkan kata kunci palsu adalah penipuan yang meninggalkan jejak, di dalam basis data yang memang dirancang untuk tidak pernah lupa."
+        "en": "Each has a routine fix, and each has its own lesson in this module.",
+        "id": "Masing-masing punya perbaikan rutin, dan masing-masing punya pelajarannya sendiri di modul ini."
+       },
+       "bullets": [
+        {
+         "en": "<b>Parsing failure</b> — the software cannot read your layout, so your record is incomplete or garbled; silent and entirely preventable (Lesson 4.2).",
+         "id": "<b>Kegagalan penguraian</b> — perangkat lunak tidak bisa membaca tata letakmu, sehingga rekamanmu tidak lengkap atau kacau; tanpa suara dan sepenuhnya bisa dicegah (Pelajaran 4.2)."
+        },
+        {
+         "en": "<b>Coverage failure</b> — genuine must-haves are missing or phrased differently from the advertisement (Lesson 4.3).",
+         "id": "<b>Kegagalan cakupan</b> — syarat wajib yang sungguhan hilang atau dirumuskan berbeda dari iklan (Pelajaran 4.3)."
+        },
+        {
+         "en": "<b>Knockout failure</b> — an eligibility answer, a missing document, or an inconsistency ends the application (Lesson 4.4).",
+         "id": "<b>Kegagalan gugur</b> — jawaban kelayakan, dokumen yang hilang, atau ketidakkonsistenan mengakhiri lamaran (Pelajaran 4.4)."
+        }
+       ],
+       "after": [
+        {
+         "en": "Nadia’s ODP application in Lesson 1.2 failed on the third — a 1.8 MB TOEFL scan against a 500 KB limit. No one read her CV. That is the cheapest rejection in the whole funnel, and the easiest to prevent.",
+         "id": "Lamaran ODP Nadia di Pelajaran 1.2 gagal pada yang ketiga — pindaian TOEFL 1,8 MB terhadap batas 500 KB. Tidak ada yang membaca CV-nya. Itulah penolakan termurah di seluruh corong, dan yang paling mudah dicegah."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "LinkedIn works the same way",
+        "id": "LinkedIn bekerja dengan cara yang sama"
+       },
+       "body": {
+        "en": "Recruiters searching LinkedIn use keyword and filter logic much like an ATS <i>(Serdula, LinkedIn Profile Optimization For Dummies, ch. 2; Dumas, ch. 3)</i>: they type the terms from their own advertisement and filter by location, school and graduation year. A profile that does not contain a word cannot be found for it. The keyword table you built in Module 3 serves both the CV and the profile; Module 5 applies it to LinkedIn.",
+        "id": "Perekrut yang mencari di LinkedIn memakai logika kata kunci dan saringan yang mirip ATS <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 2; Dumas, bab 3)</i>: mereka mengetik istilah dari iklan mereka sendiri dan menyaring berdasarkan lokasi, kampus, dan tahun lulus. Profil yang tidak memuat sebuah kata tidak bisa ditemukan untuk kata itu. Tabel kata kunci yang kamu bangun di Modul 3 melayani CV maupun profil; Modul 5 menerapkannya ke LinkedIn."
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The ATS pipeline — where applications actually die.",
-       "id": "Peraga 1: Alur kerja ATS — di mana lamaran benar-benar gugur."
+       "en": "Exhibit 11: What happens after you click Submit",
+       "id": "Peraga 11: Apa yang terjadi setelah kamu mengeklik Kirim"
       },
       "title": {
-       "en": "Parse → Index → Filter → Rank → Present",
-       "id": "Urai → Indeks → Saring → Peringkatkan → Sajikan"
+       "en": "Parse → index → filter → rank → present → a person decides",
+       "id": "Urai → indeks → saring → peringkat → sajikan → orang memutuskan"
       },
       "items": [
        {
@@ -12048,28 +12223,38 @@ window.MT_LMS['the-pack'] = {
          "id": "Urai"
         },
         "sub": {
-         "en": "Layout breaks lose your data here",
-         "id": "Tata letak yang rumit menghilangkan datamu di sini"
+         "en": "Your file becomes fields: name, education, titles, dates, skills. Fails silently on columns, tables and images.",
+         "id": "Berkasmu menjadi kolom: nama, pendidikan, jabatan, tanggal, keterampilan. Gagal tanpa suara pada kolom, tabel, dan gambar."
         }
        },
        {
         "h": {
-         "en": "Index & filter",
-         "id": "Indeks & saring"
+         "en": "Index",
+         "id": "Indeks"
         },
         "sub": {
-         "en": "Knockouts reject exactly as written",
-         "id": "Pertanyaan penggugur menolak persis seperti yang tertulis"
+         "en": "The text becomes searchable. A word that is not there cannot be found.",
+         "id": "Teksnya menjadi bisa dicari. Kata yang tidak ada tidak bisa ditemukan."
+        }
+       },
+       {
+        "h": {
+         "en": "Filter",
+         "id": "Saring"
+        },
+        "sub": {
+         "en": "Knockout questions and hard criteria: IPK, major, age, location, documents.",
+         "id": "Pertanyaan gugur dan kriteria mutlak: IPK, jurusan, usia, lokasi, dokumen."
         }
        },
        {
         "h": {
          "en": "Rank",
-         "id": "Peringkatkan"
+         "id": "Peringkat"
         },
         "sub": {
-         "en": "JD keyword overlap orders the pile",
-         "id": "Irisan kata kunci dengan deskripsi lowongan mengurutkan tumpukan"
+         "en": "Some products score against the advertisement; coverage of must-haves matters, stuffing does not.",
+         "id": "Sebagian produk menilai terhadap iklan; cakupan syarat wajib berpengaruh, penjejalan tidak."
         }
        },
        {
@@ -12078,352 +12263,893 @@ window.MT_LMS['the-pack'] = {
          "id": "Sajikan"
         },
         "sub": {
-         "en": "A human scans the top of the list",
-         "id": "Seorang manusia memindai bagian atas daftar"
+         "en": "A sorted list reaches a recruiter with a pile and an afternoon.",
+         "id": "Daftar terurut sampai ke perekrut dengan tumpukan dan satu sore."
+        }
+       },
+       {
+        "h": {
+         "en": "Decide",
+         "id": "Putuskan"
+        },
+        "sub": {
+         "en": "A person reads the top of the list and chooses who proceeds.",
+         "id": "Seseorang membaca bagian atas daftar dan memilih siapa yang lanjut."
         }
        }
       ],
+      "note": {
+       "en": "You control three of the six: how well you parse, whether your must-haves are covered, and whether you pass the knockouts.",
+       "id": "Kamu mengendalikan tiga dari enam: seberapa baik kamu terurai, apakah syarat wajibmu tercakup, dan apakah kamu lolos pertanyaan gugur."
+      },
       "longdesc": {
-       "en": "A four-stage flow: parsing extracts the CV into structured fields, where broken layouts silently lose data; indexing and knockout filters apply hard gates exactly as configured; ranking orders candidates by requirement and keyword overlap with the job description; presentation puts the ordered list before a time-pressed human who scans from the top.",
-       "id": "Alur empat tahap: pengurai mengekstrak CV ke dalam kolom-kolom terstruktur, dan tata letak yang rumit diam-diam menghilangkan data di sini; pengindeksan dan saringan penggugur menerapkan gerbang keras persis seperti yang dikonfigurasi; pemeringkatan mengurutkan kandidat berdasarkan irisan persyaratan dan kata kunci dengan deskripsi lowongan; penyajian menaruh daftar yang sudah terurut di depan manusia yang terdesak waktu dan memindai dari atas."
+       "en": "A six-step flow: parse the file into fields; index the text; filter on knockout questions and hard criteria; rank against the advertisement in some products; present a sorted list; a recruiter decides. The note says the candidate controls parsing, coverage and knockouts.",
+       "id": "Alur enam langkah: mengurai berkas menjadi kolom; mengindeks teks; menyaring dengan pertanyaan gugur dan kriteria mutlak; memeringkat terhadap iklan pada sebagian produk; menyajikan daftar terurut; perekrut memutuskan. Catatan menyebut kandidat mengendalikan penguraian, cakupan, dan pertanyaan gugur."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two ways to think about the machine",
+        "id": "Dua cara memikirkan mesin"
+       },
+       "q": {
+        "en": "A friend tells Nadia her CV “must have been rejected by the ATS”.",
+        "id": "Seorang teman memberi tahu Nadia bahwa CV-nya “pasti ditolak ATS”."
+       },
+       "weak": {
+        "en": "“The robot rejects 98% of us. I’ll add every keyword I can find in white text at the bottom and apply to all six roles they have open.”",
+        "id": "“Robotnya menolak 98% dari kita. Aku akan tambahkan semua kata kunci yang kutemukan dengan teks putih di bawah dan melamar keenam posisi yang mereka buka.”"
+       },
+       "strong": {
+        "en": "“Three things could have happened: my two-column CV parsed badly, a must-have was missing, or I failed a knockout — the TOEFL file was over the limit. I’ll run the plain-text test, build the coverage table, and check the file specs before the next one.”",
+        "id": "“Tiga hal yang mungkin terjadi: CV dua kolomku terurai buruk, ada syarat wajib yang hilang, atau aku gagal pertanyaan gugur — berkas TOEFL-nya melebihi batas. Aku akan jalankan uji teks polos, bangun tabel cakupan, dan periksa spesifikasi berkas sebelum lamaran berikutnya.”"
+       },
+       "why": {
+        "en": "The weak answer believes a poorly sourced statistic and reaches for tricks that a recruiter sees instantly. The strong answer names the three controllable failures and their routine fixes.",
+        "id": "Jawaban lemah mempercayai statistik yang sumbernya lemah dan meraih trik yang langsung dilihat perekrut. Jawaban kuat menyebut tiga kegagalan yang bisa dikendalikan dan perbaikan rutinnya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the empty record",
+       "id": "Sorotan: rekaman kosong"
+      },
+      "body": [
+       {
+        "en": "A recruiter at PT Arunika opens the portal’s candidate list, sorted by match score. Nadia’s entry sits near the bottom. Her name is there, but the education field reads “Communication ●●●●● 90%”, the most recent job title reads “Kopi Tepian Magang”, and the skills field is empty. The parser walked across her two-column Canva template line by line, interleaving the left column with the right.",
+        "id": "Seorang perekrut di PT Arunika membuka daftar kandidat portal, diurutkan berdasarkan skor kecocokan. Entri Nadia berada di dekat dasar. Namanya ada, tetapi kolom pendidikan berbunyi “Communication ●●●●● 90%”, jabatan terbaru berbunyi “Kopi Tepian Magang”, dan kolom keterampilan kosong. Pengurai berjalan melintasi templat Canva dua kolomnya baris demi baris, menyilangkan kolom kiri dengan kolom kanan."
+       },
+       {
+        "en": "Nobody rejected her. The record simply had nothing in it to rank. The recruiter, working through the top forty entries, never scrolled down far enough to open the PDF.",
+        "id": "Tidak ada yang menolaknya. Rekamannya hanya tidak punya apa-apa untuk diperingkat. Perekrut, yang mengerjakan empat puluh entri teratas, tidak pernah menggulir cukup jauh untuk membuka PDF-nya."
+       },
+       {
+        "en": "The same afternoon, the rebuilt single-column CV from Module 3 parses into clean fields. Same facts; a different record.",
+        "id": "Sore yang sama, CV satu kolom yang dibangun ulang dari Modul 3 terurai menjadi kolom-kolom yang bersih. Fakta yang sama; rekaman yang berbeda."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Sort the claims",
+        "id": "Latihan 1 — Pilah klaimnya"
+       },
+       "body": {
+        "en": "Mark each statement myth, half-truth or fact before revealing: (1) “Text-based PDFs cannot be parsed.” (2) “Knockout questions remove many applicants before anyone reads a CV.” (3) “Repeating a keyword ten times raises your rank.” (4) “A recruiter sees every role you applied for at the company.” (5) “White-text keywords are invisible to the recruiter.” (6) “A human decides who proceeds.”",
+        "id": "Tandai setiap pernyataan sebagai mitos, setengah benar, atau fakta sebelum membuka pembahasan: (1) “PDF berbasis teks tidak bisa diurai.” (2) “Pertanyaan gugur menyingkirkan banyak pelamar sebelum ada yang membaca CV.” (3) “Mengulang kata kunci sepuluh kali menaikkan peringkatmu.” (4) “Perekrut melihat setiap posisi yang kamu lamar di perusahaan itu.” (5) “Kata kunci teks putih tak terlihat oleh perekrut.” (6) “Manusia memutuskan siapa yang lanjut.”"
+       },
+       "debrief": {
+        "en": "(1) Myth — outdated; scanned PDFs are the problem. (2) Fact. (3) Half-truth — coverage matters once; repetition reads badly. (4) Fact — which is why scattered applications signal no target. (5) Myth — parsed text reveals them. (6) Fact — always write for the person.",
+        "id": "(1) Mitos — usang; PDF pindaian yang bermasalah. (2) Fakta. (3) Setengah benar — cakupan berpengaruh sekali; pengulangan terbaca buruk. (4) Fakta — itulah sebabnya lamaran yang tersebar menandakan tidak ada sasaran. (5) Mitos — teks yang diurai memperlihatkannya. (6) Fakta — selalu tulis untuk orangnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Name the failure mode",
+        "id": "Latihan 2 — Sebutkan mode kegagalannya"
+       },
+       "body": {
+        "en": "Three rejections, three modes. (A) Raka’s portal preview shows his degree in the “Company” field. (B) Dewi’s CV says “handled customers” for a role whose advertisement says “customer service” five times. (C) Sari answered “No” to “willing to be placed outside Java” because she hoped to negotiate later. Which failure is each, and which lesson fixes it?",
+        "id": "Tiga penolakan, tiga mode. (A) Pratinjau portal Raka menampilkan gelarnya di kolom “Perusahaan”. (B) CV Dewi menyebut “menangani pelanggan” untuk peran yang iklannya menyebut “layanan pelanggan” lima kali. (C) Sari menjawab “Tidak” pada “bersedia ditempatkan di luar Jawa” karena berharap bisa bernegosiasi nanti. Kegagalan mana masing-masing, dan pelajaran mana yang memperbaikinya?"
+       },
+       "debrief": {
+        "en": "(A) Parsing — Lesson 4.2: fix the layout, then correct the field. (B) Coverage — Lesson 4.3: the exact form, inside true evidence. (C) Knockout — Lesson 4.4: the answer was truthful, and the role requires placement; the fix is not a different answer but a different target, or a genuine change of mind.",
+        "id": "(A) Penguraian — Pelajaran 4.2: perbaiki tata letak, lalu koreksi kolomnya. (B) Cakupan — Pelajaran 4.3: bentuk persis, di dalam bukti yang benar. (C) Gugur — Pelajaran 4.4: jawabannya jujur, dan peran itu mewajibkan penempatan; perbaikannya bukan jawaban berbeda melainkan sasaran berbeda, atau perubahan pikiran yang sungguh-sungguh."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Believing the 75% / 98% figure",
+         "id": "Mempercayai angka 75% / 98%"
+        },
+        "fix": {
+         "en": "Be suspicious of dramatic ATS statistics without a source. Knockouts and filters are the real early exits.",
+         "id": "Curigai statistik ATS yang dramatis tanpa sumber. Pertanyaan gugur dan saringan adalah pintu keluar awal yang sebenarnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Hiding keywords",
+         "id": "Menyembunyikan kata kunci"
+        },
+        "fix": {
+         "en": "Parsed text shows them; it reads as manipulation.",
+         "id": "Teks yang diurai memperlihatkannya; itu terbaca sebagai manipulasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Applying to every open role at one company",
+         "id": "Melamar setiap posisi yang terbuka di satu perusahaan"
+        },
+        "fix": {
+         "en": "One or two genuine fits. Recruiters see all of them.",
+         "id": "Satu atau dua yang benar-benar cocok. Perekrut melihat semuanya."
+        }
+       },
+       {
+        "h": {
+         "en": "Writing for the robot only",
+         "id": "Menulis hanya untuk robot"
+        },
+        "fix": {
+         "en": "A person decides. Write for both.",
+         "id": "Orang yang memutuskan. Tulis untuk keduanya."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "knockout question",
-        "id": "pertanyaan penggugur"
+        "en": "ATS",
+        "id": "ATS"
        },
        "def": {
-        "en": "An application-form question configured as a hard gate — a disqualifying answer excludes automatically, before any ranking.",
-        "id": "Pertanyaan di formulir lamaran yang dikonfigurasi sebagai gerbang keras — jawaban yang tidak memenuhi syarat langsung menggugurkan secara otomatis, sebelum pemeringkatan apa pun."
+        "en": "Applicant-tracking system: recruitment workflow software that parses, indexes, filters, ranks and presents applications.",
+        "id": "Sistem pelacak pelamar: perangkat lunak alur kerja rekrutmen yang mengurai, mengindeks, menyaring, memeringkat, dan menyajikan lamaran."
        }
       },
       {
        "term": {
-        "en": "parsing",
-        "id": "pengurai (parsing)"
+        "en": "Parse",
+        "id": "Mengurai"
        },
        "def": {
-        "en": "The ATS step that extracts your document's text into structured fields — name, roles, dates, skills. Tables, columns and text boxes break it silently, leaving an empty record.",
-        "id": "Langkah ATS yang mengekstrak teks dokumenmu ke kolom-kolom terstruktur — nama, peran, tanggal, keterampilan. Tabel, kolom, dan kotak teks merusaknya tanpa suara, meninggalkan rekaman kosong."
+        "en": "To extract a document into fields — name, education, titles, dates, skills.",
+        "id": "Mengekstrak dokumen menjadi kolom-kolom — nama, pendidikan, jabatan, tanggal, keterampilan."
+       }
+      },
+      {
+       "term": {
+        "en": "Knockout question",
+        "id": "Pertanyaan gugur"
+       },
+       "def": {
+        "en": "An eligibility question whose wrong answer ends the application automatically.",
+        "id": "Pertanyaan kelayakan yang jawaban salahnya mengakhiri lamaran secara otomatis."
+       }
+      },
+      {
+       "term": {
+        "en": "Coverage",
+        "id": "Cakupan"
+       },
+       "def": {
+        "en": "Whether each genuine must-have from the advertisement appears in your CV, in its exact form, inside true evidence.",
+        "id": "Apakah setiap syarat wajib yang sungguhan dari iklan muncul di CV-mu, dalam bentuk persis, di dalam bukti yang benar."
+       }
+      },
+      {
+       "term": {
+        "en": "Keyword stuffing",
+        "id": "Penjejalan kata kunci"
+       },
+       "def": {
+        "en": "Repeating or hiding keywords to game a ranking; visible to the recruiter and read as manipulation.",
+        "id": "Mengulang atau menyembunyikan kata kunci untuk mengakali peringkat; terlihat oleh perekrut dan terbaca sebagai manipulasi."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A strong candidate's beautifully designed two-column CV never gets callbacks through portals, but the same content sent by email does. Prime suspect?",
-        "id": "CV dua kolom berdesain cantik milik seorang kandidat yang kuat tidak pernah dipanggil kalau dikirim lewat portal, tetapi isi yang sama berhasil kalau dikirim lewat email. Tersangka utamanya?"
+        "en": "Which is most accurate?",
+        "id": "Mana yang paling akurat?"
        },
        "options": [
         {
-         "en": "Recruiters dislike well-designed CVs",
-         "id": "Perekrut tidak suka CV yang desainnya bagus"
+         "en": "A robot rejects almost everyone unseen",
+         "id": "Robot menolak hampir semua orang tanpa dilihat"
         },
         {
-         "en": "The parser scrambles the two-column layout, so the portal's structured record is empty or garbled",
-         "id": "Pengurai mengacaukan tata letak dua kolom, sehingga catatan terstruktur di portal kosong atau berantakan"
+         "en": "Software parses, filters and sorts; a recruiter applies filters and decides",
+         "id": "Perangkat lunak mengurai, menyaring, dan mengurutkan; perekrut menerapkan saringan dan memutuskan"
         },
         {
-         "en": "Email applications always outrank portal ones",
-         "id": "Lamaran lewat email selalu diprioritaskan di atas lamaran lewat portal"
+         "en": "ATS only exists abroad",
+         "id": "ATS hanya ada di luar negeri"
+        },
+        {
+         "en": "ATS reads only photos",
+         "id": "ATS hanya membaca foto"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Same content, different channel, different outcome isolates the variable: machine parsing. The next lesson builds the parse-safe version.",
-        "id": "Isi sama, saluran berbeda, hasil berbeda — itu mengisolasi variabelnya: penguraian oleh mesin. Pelajaran berikutnya membangun versi yang aman diurai."
+        "en": "The machine organises; a person decides. Most early exits are knockouts and filters, not a robot’s verdict.",
+        "id": "Mesin menata; orang memutuskan. Kebanyakan pintu keluar awal adalah pertanyaan gugur dan saringan, bukan vonis robot."
+       }
+      },
+      {
+       "q": {
+        "en": "A friend suggests white-text keywords.",
+        "id": "Seorang teman menyarankan kata kunci teks putih."
+       },
+       "options": [
+        {
+         "en": "Good trick",
+         "id": "Trik yang bagus"
+        },
+        {
+         "en": "Don’t — parsed text reveals them and it reads as manipulation",
+         "id": "Jangan — teks yang diurai memperlihatkannya dan itu terbaca sebagai manipulasi"
+        },
+        {
+         "en": "Only in the footer",
+         "id": "Hanya di kaki halaman"
+        },
+        {
+         "en": "Only in Bahasa",
+         "id": "Hanya dalam bahasa Indonesia"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The recruiter sees the extracted text, hidden words included.",
+        "id": "Perekrut melihat teks yang diekstrak, termasuk kata tersembunyi."
+       }
+      },
+      {
+       "q": {
+        "en": "Which failure is silent?",
+        "id": "Kegagalan mana yang tanpa suara?"
+       },
+       "options": [
+        {
+         "en": "A knockout question",
+         "id": "Pertanyaan gugur"
+        },
+        {
+         "en": "A parsing failure from a complex layout",
+         "id": "Kegagalan penguraian akibat tata letak yang rumit"
+        },
+        {
+         "en": "A low test score",
+         "id": "Skor tes yang rendah"
+        },
+        {
+         "en": "A rejection email",
+         "id": "Email penolakan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Nothing tells you the record came out empty; you find out only by testing the file yourself.",
+        "id": "Tidak ada yang memberi tahu bahwa rekamannya keluar kosong; kamu hanya tahu dengan menguji berkasnya sendiri."
        }
       }
      ],
-     "quote": {
-      "en": "Before any human reads your application, a machine has already voted.",
-      "id": "Sebelum ada manusia yang membaca lamaranmu, sebuah mesin sudah lebih dulu memberikan suaranya."
+     "tool": {
+      "id": "gym",
+      "mode": "ats",
+      "title": {
+       "en": "See what the machine sees",
+       "id": "Lihat apa yang dilihat mesin"
+      },
+      "body": {
+       "en": "Open the ATS readiness check and paste your current CV. It runs the plain-text extraction on your device and shows you the record a parser would build — before Lesson 4.2 teaches you to fix it.",
+       "id": "Buka pemeriksaan kesiapan ATS dan tempel CV-mu saat ini. Ia menjalankan ekstraksi teks polos di perangkatmu dan menunjukkan rekaman yang akan dibangun pengurai — sebelum Pelajaran 4.2 mengajarkan cara memperbaikinya."
+      },
+      "cta": {
+       "en": "Open the ATS check →",
+       "id": "Buka pemeriksaan ATS →"
+      }
      },
-     "insights": {
+     "takeaways": [
+      {
+       "en": "The machine organises; a person decides.",
+       "id": "Mesin menata; orang memutuskan."
+      },
+      {
+       "en": "Your controllable failures are parsing, coverage and knockouts.",
+       "id": "Kegagalan yang bisa kamu kendalikan adalah penguraian, cakupan, dan pertanyaan gugur."
+      },
+      {
+       "en": "Be suspicious of dramatic ATS statistics without a source.",
+       "id": "Curigai statistik ATS yang dramatis tanpa sumber."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources for this lesson",
+       "id": "Sumber pelajaran ini"
+      },
       "lead": {
-       "en": "Separating ATS mechanics from folklore.",
-       "id": "Memisahkan mekanisme ATS dari mitos."
+       "en": "Where the claims come from, with the reliability notes from the course evidence register.",
+       "id": "Dari mana klaim-klaim ini berasal, dengan catatan keandalan dari register bukti kursus."
       },
       "items": [
        {
-        "h": {
-         "en": "Parsing, then searching, then a human",
-         "id": "Parsing, lalu pencarian, lalu manusia"
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 4.1",
+         "id": "Daftar bacaan · Pelajaran 4.1"
         },
-        "body": {
-         "en": "Most systems extract fields from your file, store them, and let recruiters search and filter. Automatic rejection by score exists but is rarer than the myth; being unfindable is the common failure.",
-         "id": "Sebagian besar sistem mengekstrak kolom dari berkasmu, menyimpannya, dan membiarkan perekrut mencari dan menyaring. Penolakan otomatis berdasarkan skor memang ada tetapi lebih jarang dari mitosnya; tidak bisa ditemukan adalah kegagalan yang umum."
-        }
-       },
-       {
-        "h": {
-         "en": "The form fields matter as much as the CV",
-         "id": "Kolom formulir sama pentingnya dengan CV"
+        "desc": {
+         "en": "Five sources.",
+         "id": "Lima sumber."
         },
-        "body": {
-         "en": "Filters run on the structured fields you typed — location, degree, years, salary — not on the PDF. Fill every field, consistently with the CV.",
-         "id": "Filter berjalan pada kolom terstruktur yang kamu ketik — lokasi, gelar, tahun, gaji — bukan pada PDF. Isi setiap kolom, konsisten dengan CV."
-        }
-       },
-       {
-        "h": {
-         "en": "Knock-out questions are literal",
-         "id": "Pertanyaan penyaring bersifat harfiah"
-        },
-        "body": {
-         "en": "“Are you willing to relocate?” answered “no” ends the process regardless of the rest. Read every question as a filter and answer honestly but deliberately.",
-         "id": "“Bersedia dipindahtugaskan?” dijawab “tidak” mengakhiri proses tak peduli sisanya. Baca setiap pertanyaan sebagai filter dan jawab dengan jujur tetapi disengaja."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Keyword stuffing in white text",
-         "id": "Menjejalkan kata kunci dengan teks putih"
-        },
-        "fix": {
-         "en": "Modern parsers flag hidden text and recruiters see it on preview. Use the words honestly where the evidence is.",
-         "id": "Parser modern menandai teks tersembunyi dan perekrut melihatnya di pratinjau. Gunakan kata-kata itu dengan jujur di tempat buktinya berada."
-        }
-       },
-       {
-        "h": {
-         "en": "Uploading a CV and leaving the form blank",
-         "id": "Mengunggah CV dan membiarkan formulir kosong"
-        },
-        "fix": {
-         "en": "The filters read the form. Blank fields sort you out before anyone reads the file.",
-         "id": "Filter membaca formulir. Kolom kosong menyingkirkanmu sebelum siapa pun membaca berkasnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Believing “the ATS rejected me”",
-         "id": "Percaya “ATS menolakku”"
-        },
-        "fix": {
-         "en": "Usually a recruiter filtered on a field you left empty or a requirement you did not name. Fix the fields and the top third.",
-         "id": "Biasanya perekrut menyaring berdasarkan kolom yang kamu kosongkan atau persyaratan yang tak kamu sebut. Perbaiki kolom dan sepertiga bagian atas."
-        }
+        "body": [
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 2 — what the software does; keyword context.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 2 — apa yang dilakukan perangkat lunak; konteks kata kunci."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.3.2 — a human decides.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.3.2 — manusia yang memutuskan."
+         },
+         {
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 3, 5 — the most current account; ATS coverage thin.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 3, 5 — uraian paling mutakhir; cakupan ATS tipis."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call…</i> (2021) — the hiring manager’s view of hidden keywords and scattered applications; the poorly sourced rejection statistics are flagged in Ow’s own sources.",
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021) — pandangan manajer perekrut tentang kata kunci tersembunyi dan lamaran tersebar; statistik penolakan yang sumbernya lemah ditandai dalam sumber Ow sendiri."
+         },
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2nd ed., 2020), ch. 2 — recruiter search logic on LinkedIn.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2 — logika pencarian perekrut di LinkedIn."
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "4.2",
-     "title": {
-      "en": "Resume Optimisation Techniques for ATS Screening",
-      "id": "Teknik Optimalisasi Resume untuk Seleksi ATS"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
+     "kind": "interactive",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Parse-Safe Formatting",
+      "id": "Format yang Aman Dibaca Mesin"
+     },
      "overview": {
-      "en": "The machine-ready CV: parse-safe formatting, JD-mirrored keywords placed honestly, and the pre-flight routine that catches breaks before submission — including running your document through the Gym's on-device ATS check.",
-      "id": "CV yang siap dibaca mesin: format yang aman diurai, kata kunci yang mencerminkan deskripsi lowongan dan ditempatkan dengan jujur, serta rutinitas pemeriksaan pra-kirim yang menangkap masalah sebelum lamaran terkirim — termasuk menjalankan dokumenmu lewat pemeriksa ATS di Gym, yang bekerja sepenuhnya di perangkatmu."
+      "en": "A beautifully designed CV can arrive in a recruiter’s system as a jumble of fragments. This lesson gives the formatting rules that keep your CV readable to software, and two tests that prove it.",
+      "id": "CV yang dirancang indah bisa tiba di sistem perekrut sebagai serpihan yang kacau. Pelajaran ini memberi aturan format yang menjaga CV-mu tetap terbaca perangkat lunak, dan dua uji yang membuktikannya."
      },
      "objectives": [
       {
-       "en": "Format a CV that survives any parser: structure, fonts, file type.",
-       "id": "Memformat CV yang lolos dari pengurai mana pun: struktur, fon, jenis berkas."
+       "en": "Apply <b>eight parse-safe formatting rules</b>.",
+       "id": "Menerapkan <b>delapan aturan format aman-urai</b>."
       },
       {
-       "en": "Mirror JD keywords truthfully across the CV's high-weight zones.",
-       "id": "Mencerminkan kata kunci deskripsi lowongan dengan jujur di zona-zona berbobot tinggi pada CV."
+       "en": "Choose the right file type for each channel.",
+       "id": "Memilih jenis berkas yang tepat untuk setiap saluran."
       },
       {
-       "en": "Run the pre-flight: parse test, keyword coverage, knockout review.",
-       "id": "Menjalankan pemeriksaan pra-kirim: uji urai, cakupan kata kunci, tinjauan pertanyaan penggugur."
+       "en": "Run the plain-text test and the portal preview test, and fix what breaks.",
+       "id": "Menjalankan uji teks polos dan uji pratinjau portal, dan memperbaiki yang rusak."
       }
      ],
-     "takeawaysLead": {
-      "en": "Boring formats win, honest keywords count, and three minutes of pre-flight beat three weeks of wondering. To make your CV machine-ready, you can:",
-      "id": "Format yang membosankan menang, kata kunci yang jujur dihitung, dan tiga menit pemeriksaan pra-kirim mengalahkan tiga minggu bertanya-tanya. Agar CV-mu siap dibaca mesin, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Boring formats win",
+       "id": "Format yang membosankan menang"
+      },
+      "intro": {
+       "en": "Eight rules, one file decision, two tests. None of it is about taste.",
+       "id": "Delapan aturan, satu keputusan berkas, dua uji. Tidak satu pun soal selera."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Eight rules",
+         "id": "Delapan aturan"
+        },
+        "points": [
+         {
+          "en": "Single column · no tables, boxes, icons or bars holding information · standard headings · nothing important in headers or footers.",
+          "id": "Satu kolom · tanpa tabel, kotak, ikon, atau bilah yang memuat informasi · judul standar · tidak ada yang penting di kepala atau kaki halaman."
+         },
+         {
+          "en": "Standard fonts · consistent dates · acronyms spelled out once · real text, never a scan.",
+          "id": "Fon standar · tanggal konsisten · akronim dituliskan kepanjangannya sekali · teks asli, tidak pernah pindaian."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The file",
+         "id": "Berkasnya"
+        },
+        "points": [
+         {
+          "en": "Follow the portal’s instruction first. Otherwise a text-based PDF, with a clean .docx ready.",
+          "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada, PDF berbasis teks, dengan .docx bersih yang siap."
+         },
+         {
+          "en": "Respect size limits: compress, do not scan.",
+          "id": "Hormati batas ukuran: kompres, jangan pindai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two tests",
+         "id": "Dua uji"
+        },
+        "points": [
+         {
+          "en": "<b>Plain-text test</b>: paste the CV as plain text; whatever breaks here breaks in a parser.",
+          "id": "<b>Uji teks polos</b>: tempel CV sebagai teks polos; apa pun yang rusak di sini rusak di pengurai."
+         },
+         {
+          "en": "<b>Portal preview test</b>: read the fields the portal extracted, and correct them.",
+          "id": "<b>Uji pratinjau portal</b>: baca kolom yang diekstrak portal, dan koreksi."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Boring formats win: single column, standard headings, real text, no tables — the parser's favourite CV is a plain one.",
-       "id": "Format yang membosankan justru menang: satu kolom, judul bagian yang standar, teks asli, tanpa tabel — CV kesayangan pengurai adalah CV yang polos."
-      },
-      {
-       "en": "Keywords must appear as the JD spells them, in context, attached to true experience.",
-       "id": "Kata kunci harus muncul persis seperti ejaan di deskripsi lowongan, dalam konteks, dan melekat pada pengalaman yang benar-benar kamu miliki."
-      },
-      {
-       "en": "Three minutes of pre-flight checks beat three weeks of wondering why nobody called.",
-       "id": "Tiga menit pemeriksaan pra-kirim mengalahkan tiga minggu bertanya-tanya kenapa tidak ada yang menelepon."
-      }
-     ],
      "sections": [
       {
        "icon": "gear",
        "h": {
-        "en": "Parse-safe formatting",
-        "id": "Format yang aman diurai"
+        "en": "Eight rules",
+        "id": "Delapan aturan"
        },
        "body": {
-        "en": "Single column, top to bottom. Standard section headings the parser recognises: Education, Experience, Projects, Skills — cleverness (“My Journey”) costs fields. Standard fonts, 11pt+, no text boxes, no tables, no icons carrying meaning, contact details in the body (headers/footers are skipped by many parsers), dates in one consistent format (Jan 2024 – Mar 2025). File type: PDF exported from a text document unless the portal demands DOCX — never a scanned image, whose text does not exist to a parser. The design instinct is not wasted: spend it on typography, spacing and ruthless clarity, which both machines and six-second humans reward.",
-        "id": "Satu kolom, dari atas ke bawah. Judul bagian yang standar dan dikenali pengurai: Pendidikan, Pengalaman, Proyek, Keterampilan — judul yang kreatif (“Perjalananku”) membuatmu kehilangan kolom data. Fon standar, ukuran 11pt ke atas, tanpa kotak teks, tanpa tabel, tanpa ikon yang membawa makna, detail kontak ditulis di badan dokumen (header/footer dilewati banyak pengurai), tanggal dalam satu format yang konsisten (Jan 2024 – Mar 2025). Jenis berkas: PDF yang diekspor dari dokumen teks, kecuali portal meminta DOCX — jangan pernah gambar hasil pindaian, karena bagi pengurai teksnya tidak ada. Naluri desainmu tidak sia-sia: curahkan pada tipografi, jarak antarbaris, dan kejelasan tanpa kompromi, yang dihargai baik oleh mesin maupun oleh manusia yang hanya punya enam detik."
-       }
+        "en": "Consolidated from all the sources <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 9, 17; Innes, The CV Book, ch. 2; Knowles, How to Write an Outstanding CV, ch. 12; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.2; Ow)</i>:",
+        "id": "Dirangkum dari semua sumber <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 9, 17; Innes, The CV Book, bab 2; Knowles, How to Write an Outstanding CV, bab 12; Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.2; Ow)</i>:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Single column</b>, left-aligned. No side columns.",
+         "id": "<b>Satu kolom</b>, rata kiri. Tanpa kolom samping."
+        },
+        {
+         "en": "<b>No tables, text boxes, shapes, icons, skill bars or images</b> holding information.",
+         "id": "<b>Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar</b> yang memuat informasi."
+        },
+        {
+         "en": "<b>Standard section headings</b> — Education, Experience, Skills — not creative labels (“My Journey”).",
+         "id": "<b>Judul bagian standar</b> — Pendidikan, Pengalaman, Keterampilan — bukan label kreatif (“Perjalananku”)."
+        },
+        {
+         "en": "<b>Nothing important in headers or footers</b> — many systems skip them. Put contact details in the body.",
+         "id": "<b>Tidak ada yang penting di kepala atau kaki halaman</b> — banyak sistem melewatinya. Taruh kontak di badan dokumen."
+        },
+        {
+         "en": "<b>Standard fonts</b> (Calibri, Arial, Garamond, Cambria, Times), 10.5–12 pt.",
+         "id": "<b>Fon standar</b> (Calibri, Arial, Garamond, Cambria, Times), 10,5–12 pt."
+        },
+        {
+         "en": "<b>Consistent dates</b> — “Aug 2025 – Oct 2025” style throughout; systems compute experience from dates <i>(Dumas, The AI-Savvy Job Seeker, ch. 8)</i>.",
+         "id": "<b>Tanggal konsisten</b> — gaya “Agu 2025 – Okt 2025” di seluruh dokumen; sistem menghitung pengalaman dari tanggal <i>(Dumas, The AI-Savvy Job Seeker, bab 8)</i>."
+        },
+        {
+         "en": "<b>Spell out acronyms once</b> — “Management Trainee (MT)”, “Microsoft Excel”.",
+         "id": "<b>Tuliskan kepanjangan akronim sekali</b> — “Management Trainee (MT)”, “Microsoft Excel”."
+        },
+        {
+         "en": "<b>Real text</b> — never a scanned or photographed CV.",
+         "id": "<b>Teks asli</b> — tidak pernah CV hasil pindaian atau foto."
+        }
+       ],
+       "after": [
+        {
+         "en": "The Module 3 template already follows all eight. If you built your CV somewhere else, run the rules as a checklist before the tests below.",
+         "id": "Templat Modul 3 sudah mengikuti kedelapannya. Jika kamu membangun CV di tempat lain, jalankan aturan ini sebagai daftar periksa sebelum uji di bawah."
+        }
+       ]
       },
       {
-       "icon": "target",
+       "icon": "book",
        "h": {
-        "en": "Honest keyword mirroring",
-        "id": "Mencerminkan kata kunci dengan jujur"
+        "en": "File types",
+        "id": "Jenis berkas"
        },
        "body": {
-        "en": "Extract the JD's load-bearing terms: named tools, methodologies, competencies that repeat or lead lists. Where your true experience matches, use their exact spelling — “stakeholder management”, “SQL”, “A/B testing” — in the high-weight zones: the target-role line, the skills section, and inside experience bullets where context proves use (“wrote SQL queries against a 200k-row sales table”). A term in a bullet with evidence outranks the same term naked in a skills list. The line that must not be crossed: no tool you have not used, no competency without an evidence bullet to back it — interviews probe keywords, and Module 2's honesty rule applies with a database remembering everything.",
-        "id": "Ambil istilah-istilah penopang dari deskripsi lowongan: nama alat, metodologi, dan kompetensi yang berulang atau ditaruh di awal daftar. Di bagian yang benar-benar cocok dengan pengalamanmu, gunakan ejaan persis seperti mereka — “stakeholder management”, “SQL”, “A/B testing” — di zona berbobot tinggi: baris posisi yang dituju, bagian keterampilan, dan di dalam butir pengalaman yang konteksnya membuktikan kamu memang memakainya (“menulis kueri SQL atas tabel penjualan 200 ribu baris”). Sebuah istilah di dalam butir yang berbukti mengalahkan istilah yang sama yang berdiri telanjang di daftar keterampilan. Garis yang tidak boleh dilewati: tidak ada alat yang belum pernah kamu pakai, tidak ada kompetensi tanpa butir bukti yang menopangnya — wawancara akan menggali kata kunci, dan aturan kejujuran dari Modul 2 berlaku, dengan basis data yang mengingat segalanya."
+        "en": "Follow the portal’s instruction first. If none: a <b>text-based PDF</b> for email and human readers; keep a clean <b>.docx</b> ready for portals and agencies that request Word <i>(Bright &amp; Earl, ch. 9, 17; Innes, ch. 2 — the books disagree; this resolves it)</i>. Respect stated file-size limits — often 500 KB to 2 MB on Indonesian portals <span class=\"ev ev-verify\">Verify per portal</span> — by exporting from the source document, never by scanning a printout. A 4 MB “PDF” is almost always a photograph of paper.",
+        "id": "Ikuti petunjuk portal lebih dulu. Jika tidak ada: <b>PDF berbasis teks</b> untuk email dan pembaca manusia; siapkan <b>.docx</b> yang bersih untuk portal dan agen yang meminta Word <i>(Bright &amp; Earl, bab 9, 17; Innes, bab 2 — buku-buku tidak sepakat; ini penyelesaiannya)</i>. Hormati batas ukuran berkas yang disebutkan — sering 500 KB sampai 2 MB di portal Indonesia <span class=\"ev ev-verify\">Periksa per portal</span> — dengan mengekspor dari dokumen sumber, jangan pernah dengan memindai hasil cetak. “PDF” 4 MB hampir selalu foto kertas."
        }
       },
       {
        "icon": "eye",
        "h": {
-        "en": "The pre-flight routine",
-        "id": "Rutinitas pemeriksaan pra-kirim"
+        "en": "If a photo is required",
+        "id": "Jika foto diwajibkan"
        },
        "body": {
-        "en": "Before every submission, three checks. <b>Parse test:</b> select-all-copy your PDF into a plain text editor — if the text comes out in reading order with nothing missing, parsers will manage; scrambled order or vanished sections means the layout must simplify. <b>Coverage check:</b> run the Screening Gym's ATS check — CV against this JD, on-device — and review which load-bearing terms are absent; add only the ones your experience honestly supports. <b>Knockout review:</b> read every application-form question as a gate — salary bands researched (The Range's salary data helps), availability accurate, certifications exactly as held. Three minutes, every time; the checklist mentality is precisely what the administrative screen is testing for anyway.",
-        "id": "Sebelum setiap pengiriman, tiga pemeriksaan. <b>Uji urai:</b> pilih semua teks di PDF-mu, salin, lalu tempel ke editor teks polos — kalau teksnya keluar sesuai urutan baca dan tidak ada yang hilang, pengurai akan sanggup; kalau urutannya kacau atau ada bagian yang lenyap, tata letaknya harus disederhanakan. <b>Pemeriksaan cakupan:</b> jalankan pemeriksa ATS di Screening Gym — CV-mu dibandingkan dengan deskripsi lowongan ini, sepenuhnya di perangkatmu — dan tinjau istilah penopang mana yang belum ada; tambahkan hanya yang secara jujur didukung pengalamanmu. <b>Tinjauan pertanyaan penggugur:</b> baca setiap pertanyaan di formulir lamaran sebagai gerbang — rentang gaji sudah diriset (data gaji di The Range membantu), ketersediaan ditulis akurat, sertifikasi ditulis persis seperti yang kamu pegang. Tiga menit, setiap kali; mentalitas daftar periksa ini persis yang sebenarnya diuji oleh seleksi administrasi."
+        "en": "Many Indonesian portals require a photo as a <i>separate upload</i>. Upload it there, not inside the CV. If an employer insists on a photo in the CV itself, place it at the top as a plain inline image — never inside a text box or table, which would pull the surrounding text out of order. Lesson 3.5 covers when to include one at all.",
+        "id": "Banyak portal Indonesia mewajibkan foto sebagai <i>unggahan terpisah</i>. Unggah di sana, bukan di dalam CV. Jika perusahaan bersikeras foto ada di CV itu sendiri, letakkan di atas sebagai gambar sebaris biasa — jangan pernah di dalam kotak teks atau tabel, yang akan menarik teks di sekitarnya keluar dari urutan. Pelajaran 3.5 membahas kapan foto perlu disertakan sama sekali."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The plain-text test",
+        "id": "Uji teks polos"
+       },
+       "body": {
+        "en": "Save or paste your CV as plain text <i>(Ow)</i>. Check four things: is everything there? In the right order? Are dates next to the right roles? Are any characters garbled — bullets turned into question marks, symbols where the skill bars were? Whatever breaks here will break in a parser. Do this on every version you send, because a template change you did not notice can undo a clean result.",
+        "id": "Simpan atau tempel CV-mu sebagai teks polos <i>(Ow)</i>. Periksa empat hal: apakah semuanya ada? Dalam urutan yang benar? Apakah tanggal berada di samping peran yang tepat? Adakah karakter yang kacau — butir berubah jadi tanda tanya, simbol di tempat bilah keterampilan? Apa pun yang rusak di sini akan rusak di pengurai. Lakukan pada setiap versi yang kamu kirim, karena perubahan templat yang tidak kamu sadari bisa membatalkan hasil yang bersih."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The portal preview test",
+        "id": "Uji pratinjau portal"
+       },
+       "body": {
+        "en": "Many portals show you the fields they extracted after upload. Read them. If your job title landed in “company”, or your IPK is missing, fix the source document — and correct the fields by hand before submitting. The preview is the only moment the machine shows you what it saw; most applicants click past it.",
+        "id": "Banyak portal menampilkan kolom yang mereka ekstrak setelah unggah. Bacalah. Jika jabatanmu masuk ke “perusahaan”, atau IPK-mu hilang, perbaiki dokumen sumbernya — dan koreksi kolomnya secara manual sebelum mengirim. Pratinjau adalah satu-satunya momen mesin menunjukkan apa yang dilihatnya; kebanyakan pelamar mengeklik lewat begitu saja."
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: The pre-flight routine — three checks, three minutes, before every submission.",
-       "id": "Peraga 1: Rutinitas pra-kirim — tiga pemeriksaan, tiga menit, sebelum setiap pengiriman."
+       "en": "Exhibit 12: Same CV, two extractions",
+       "id": "Peraga 12: CV yang sama, dua ekstraksi"
       },
       "title": {
-       "en": "Parse test → Coverage check → Knockout review → Submit",
-       "id": "Uji pengurai → Pemeriksaan cakupan → Tinjauan penggugur → Kirim"
+       "en": "What the parser built from each layout",
+       "id": "Apa yang dibangun pengurai dari tiap tata letak"
       },
+      "cols": [
+       {
+        "h": {
+         "en": "Two-column Canva template",
+         "id": "Templat Canva dua kolom"
+        },
+        "sub": {
+         "en": "Left and right columns interleaved line by line",
+         "id": "Kolom kiri dan kanan tersilang baris demi baris"
+        },
+        "items": [
+         {
+          "en": "Name: NADIA PUTRI Communication",
+          "id": "Nama: NADIA PUTRI Communication"
+         },
+         {
+          "en": "Education: ●●●●○ Leadership",
+          "id": "Pendidikan: ●●●●○ Leadership"
+         },
+         {
+          "en": "Title: Bank Sinar Kopi 2025",
+          "id": "Jabatan: Bank Sinar Kopi 2025"
+         },
+         {
+          "en": "Dates: 2023–2025 Tepian",
+          "id": "Tanggal: 2023–2025 Tepian"
+         },
+         {
+          "en": "Skills: (empty)",
+          "id": "Keterampilan: (kosong)"
+         },
+         {
+          "en": "IPK: (missing)",
+          "id": "IPK: (hilang)"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Single-column rebuild",
+         "id": "Bangunan ulang satu kolom"
+        },
+        "sub": {
+         "en": "Every field lands where it belongs",
+         "id": "Setiap kolom mendarat di tempatnya"
+        },
+        "items": [
+         {
+          "en": "Name: Nadia Putri",
+          "id": "Nama: Nadia Putri"
+         },
+         {
+          "en": "Education: S1 Manajemen · 3.38 / 4.00 · Aug 2026",
+          "id": "Pendidikan: S1 Manajemen · 3.38 / 4.00 · Agu 2026"
+         },
+         {
+          "en": "Title: Operations Intern, Bank Sinar Nusantara",
+          "id": "Jabatan: Operations Intern, Bank Sinar Nusantara"
+         },
+         {
+          "en": "Dates: Jun 2025 – Aug 2025",
+          "id": "Tanggal: Jun 2025 – Agu 2025"
+         },
+         {
+          "en": "Skills: Microsoft Excel, Google Sheets, reconciliation",
+          "id": "Keterampilan: Microsoft Excel, Google Sheets, rekonsiliasi"
+         },
+         {
+          "en": "IPK: 3.38",
+          "id": "IPK: 3.38"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Same person, same facts. One is a readable record; the other is noise.",
+       "id": "Orang yang sama, fakta yang sama. Yang satu rekaman terbaca; yang lain derau."
+      },
+      "longdesc": {
+       "en": "Two columns comparing what a parser extracted. From the two-column template: the name merged with a skill label, education holding skill-bar symbols, a job title mixing two employers, dates detached from roles, an empty skills field and a missing IPK. From the single-column rebuild: the correct name, degree with IPK and date, the right title and employer, attached dates, a populated skills field and IPK.",
+       "id": "Dua kolom membandingkan apa yang diekstrak pengurai. Dari templat dua kolom: nama bergabung dengan label keterampilan, pendidikan memuat simbol bilah keterampilan, jabatan mencampur dua perusahaan, tanggal terlepas dari peran, kolom keterampilan kosong, dan IPK hilang. Dari bangunan ulang satu kolom: nama yang benar, gelar dengan IPK dan tanggal, jabatan dan perusahaan yang tepat, tanggal yang melekat, kolom keterampilan terisi, dan IPK."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Canva vs rebuilt, as plain text",
+        "id": "Canva vs bangunan ulang, sebagai teks polos"
+       },
+       "q": {
+        "en": "Nadia’s two CVs pasted into a plain-text editor.",
+        "id": "Dua CV Nadia ditempel ke penyunting teks polos."
+       },
+       "weak": {
+        "en": "“NADIA PUTRI Communication ●●●●○ Leadership ●●●○○ Bank Sinar Kopi 2025 2023–2025 Tepian Magang Barista Semarang…” — columns interleaved, skill bars as symbols, dates detached.",
+        "id": "“NADIA PUTRI Communication ●●●●○ Leadership ●●●○○ Bank Sinar Kopi 2025 2023–2025 Tepian Magang Barista Semarang…” — kolom tersilang, bilah keterampilan jadi simbol, tanggal terlepas."
+       },
+       "strong": {
+        "en": "“Nadia Putri · Semarang · open to relocation … EXPERIENCE · Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Aug 2025 · Reconciled daily transaction reports for 3 branches…”",
+        "id": "“Nadia Putri · Semarang · bersedia pindah … PENGALAMAN · Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Agu 2025 · Merekonsiliasi laporan transaksi harian untuk 3 cabang…”"
+       },
+       "why": {
+        "en": "The test takes thirty seconds and shows exactly what the recruiter’s system will hold. The rebuilt version reads in order, dates beside roles, every symbol gone.",
+        "id": "Ujinya memakan tiga puluh detik dan menunjukkan persis apa yang akan dipegang sistem perekrut. Versi yang dibangun ulang terbaca berurutan, tanggal di samping peran, setiap simbol hilang."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the preview nobody reads",
+       "id": "Sorotan: pratinjau yang tidak dibaca siapa pun"
+      },
+      "body": [
+       {
+        "en": "Bank Sinar Nusantara’s ODP portal shows a confirmation page after the CV upload: “We extracted the following — please check.” Education: “S1”. Institution: blank. Most recent employer: “Kopi Tepian Magang”. IPK: blank. Raka, applying at the same time as Nadia, clicks Next without reading. His application enters the pipeline with no institution and no IPK, and fails the administrative filter for a missing IPK that is, in fact, 3,45.",
+        "id": "Portal ODP Bank Sinar Nusantara menampilkan halaman konfirmasi setelah unggah CV: “Kami mengekstrak hal berikut — mohon periksa.” Pendidikan: “S1”. Institusi: kosong. Perusahaan terbaru: “Kopi Tepian Magang”. IPK: kosong. Raka, yang melamar bersamaan dengan Nadia, mengeklik Lanjut tanpa membaca. Lamarannya masuk alur tanpa institusi dan tanpa IPK, dan gagal saringan administrasi karena IPK yang hilang padahal sebenarnya 3,45."
+       },
+       {
+        "en": "Nadia reads the page. She types the institution and the IPK into the fields by hand, then goes back to her source document, finds the table she had used for the education block, removes it, and re-exports. The second upload extracts cleanly. Same portal, same afternoon, two outcomes — decided by whether one page was read.",
+        "id": "Nadia membaca halaman itu. Ia mengetik institusi dan IPK ke kolom secara manual, lalu kembali ke dokumen sumbernya, menemukan tabel yang ia pakai untuk blok pendidikan, menghapusnya, dan mengekspor ulang. Unggahan kedua terekstrak bersih. Portal yang sama, sore yang sama, dua hasil — ditentukan oleh apakah satu halaman dibaca."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Plain-text test",
+        "id": "Latihan 1 — Uji teks polos"
+       },
+       "body": {
+        "en": "Paste your current CV as plain text (a notes app, or the ATS check in the Gym) and list every break: missing content, wrong order, detached dates, garbled characters.",
+        "id": "Tempel CV-mu saat ini sebagai teks polos (aplikasi catatan, atau pemeriksaan ATS di Gym) dan daftar setiap kerusakan: isi hilang, urutan salah, tanggal terlepas, karakter kacau."
+       },
+       "debrief": {
+        "en": "Columns and icons cause most failures; tables come next, then contact details in a header that vanished. If your list is empty, check the dates: “2023–2025” with no months is readable but tells the system less than “Aug 2023 – Oct 2025”.",
+        "id": "Kolom dan ikon menyebabkan sebagian besar kegagalan; tabel berikutnya, lalu kontak di kepala halaman yang lenyap. Jika daftarmu kosong, periksa tanggalnya: “2023–2025” tanpa bulan terbaca tetapi memberi tahu sistem lebih sedikit daripada “Agu 2023 – Okt 2025”."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Fix and retest",
+        "id": "Latihan 2 — Perbaiki dan uji ulang"
+       },
+       "body": {
+        "en": "Rebuild in the single-column template (Module 3) — or remove the offending elements from your own — and run the plain-text test again.",
+        "id": "Bangun ulang di templat satu kolom (Modul 3) — atau hapus unsur yang bermasalah dari milikmu — dan jalankan uji teks polos lagi."
+       },
+       "debrief": {
+        "en": "You should see every section in order with dates attached. Export the PDF and check its size against the smallest limit you expect to meet; if it is over 1 MB, an embedded image is usually the cause.",
+        "id": "Kamu seharusnya melihat setiap bagian berurutan dengan tanggal melekat. Ekspor PDF-nya dan periksa ukurannya terhadap batas terkecil yang mungkin kamu temui; jika lebih dari 1 MB, gambar tersemat biasanya penyebabnya."
+       }
+      }
+     ],
+     "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Parse test",
-         "id": "Uji pengurai"
+         "en": "Two-column templates",
+         "id": "Templat dua kolom"
         },
-        "sub": {
-         "en": "Copy the PDF into plain text — reading order intact, nothing missing",
-         "id": "Salin PDF ke teks polos — urutan baca utuh, tak ada yang hilang"
+        "fix": {
+         "en": "Single column.",
+         "id": "Satu kolom."
         }
        },
        {
         "h": {
-         "en": "Coverage check",
-         "id": "Pemeriksaan cakupan"
+         "en": "Contact details in the header",
+         "id": "Kontak di kepala halaman"
         },
-        "sub": {
-         "en": "The Gym's ATS check against this JD; add only honestly supportable terms",
-         "id": "Pemeriksaan ATS Gym terhadap JD ini; tambahkan hanya istilah yang jujur bisa didukung"
+        "fix": {
+         "en": "In the body.",
+         "id": "Di badan dokumen."
         }
        },
        {
         "h": {
-         "en": "Knockout review",
-         "id": "Tinjauan penggugur"
+         "en": "Scanned PDF",
+         "id": "PDF pindaian"
         },
-        "sub": {
-         "en": "Every form question read as a gate — salary band, availability, certifications exact",
-         "id": "Setiap pertanyaan formulir dibaca sebagai gerbang — rentang gaji, ketersediaan, sertifikasi persis"
+        "fix": {
+         "en": "Text-based PDF exported from the source document.",
+         "id": "PDF berbasis teks yang diekspor dari dokumen sumber."
         }
        },
        {
         "h": {
-         "en": "Submit",
-         "id": "Kirim"
+         "en": "Photo in a text box",
+         "id": "Foto di kotak teks"
         },
-        "sub": {
-         "en": "Named files, requested format, instructions followed to the letter",
-         "id": "Berkas bernama, format yang diminta, instruksi diikuti persis"
+        "fix": {
+         "en": "Separate upload; if it must be in the CV, a plain inline image at the top.",
+         "id": "Unggahan terpisah; jika harus di CV, gambar sebaris biasa di atas."
         }
        }
-      ],
-      "longdesc": {
-       "en": "A four-step flow run before every submission: a parse test of the PDF in a plain text editor; a keyword coverage check against the job description; a review of every application-form question as a knockout gate; and only then submission with named files in the requested format.",
-       "id": "Alur empat langkah yang dijalankan sebelum setiap pengiriman: uji pengurai PDF di editor teks polos; pemeriksaan cakupan kata kunci terhadap deskripsi pekerjaan; tinjauan setiap pertanyaan formulir sebagai gerbang penggugur; dan baru kemudian pengiriman dengan berkas bernama dalam format yang diminta."
-      }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "parse test",
-        "id": "uji pengurai"
+        "en": "Parse-safe",
+        "id": "Aman-urai"
        },
        "def": {
-        "en": "Select-all-copy your PDF into a plain text editor: if the text comes out in reading order with nothing missing, parsers will manage; scrambled order means the layout must simplify.",
-        "id": "Pilih-semua-salin PDF-mu ke editor teks polos: jika teks keluar dalam urutan baca tanpa ada yang hilang, mesin pengurai akan sanggup; urutan yang kacau berarti tata letaknya harus disederhanakan."
+        "en": "A layout the software can read into the right fields in the right order.",
+        "id": "Tata letak yang bisa dibaca perangkat lunak ke kolom yang benar dalam urutan yang benar."
        }
       },
       {
        "term": {
-        "en": "load-bearing term",
-        "id": "istilah penopang"
+        "en": "Text-based PDF",
+        "id": "PDF berbasis teks"
        },
        "def": {
-        "en": "A JD keyword that repeats or leads a list — a named tool, method or competency — which should appear in your CV as they spell it, attached to true experience.",
-        "id": "Kata kunci JD yang berulang atau memimpin daftar — alat, metode, atau kompetensi bernama — yang seharusnya muncul di CV-mu sesuai ejaan mereka, melekat pada pengalaman yang benar."
+        "en": "A PDF exported from a document, whose text can be selected and searched; unlike a scan.",
+        "id": "PDF yang diekspor dari dokumen, yang teksnya bisa dipilih dan dicari; berbeda dari pindaian."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Skills section — naked vs evidenced",
-        "id": "Bagian keterampilan — telanjang vs berbukti"
+       "term": {
+        "en": "Plain-text test",
+        "id": "Uji teks polos"
        },
-       "q": {
-        "en": "Claiming data skills for an analyst JD",
-        "id": "Mengklaim keterampilan data untuk lowongan analis"
+       "def": {
+        "en": "Pasting the CV as unformatted text to see what a parser will extract.",
+        "id": "Menempel CV sebagai teks tanpa format untuk melihat apa yang akan diekstrak pengurai."
+       }
+      },
+      {
+       "term": {
+        "en": "Portal preview",
+        "id": "Pratinjau portal"
        },
-       "weak": {
-        "en": "“Skills: SQL, Python, Excel, Tableau, machine learning, communication, leadership, teamwork, time management, creativity.”",
-        "id": "“Keterampilan: SQL, Python, Excel, Tableau, machine learning, komunikasi, kepemimpinan, kerja tim, manajemen waktu, kreativitas.”"
-       },
-       "strong": {
-        "en": "“Skills: SQL (thesis: 200k-row retail dataset), Python/pandas (3 course projects), Excel incl. pivot models (org budget, Rp 45m). Currently learning: Tableau.”",
-        "id": "“Keterampilan: SQL (skripsi: dataset ritel 200 ribu baris), Python/pandas (3 proyek mata kuliah), Excel termasuk model pivot (anggaran organisasi, Rp45 juta). Sedang dipelajari: Tableau.”"
-       },
-       "why": {
-        "en": "Each keyword ships with its proof and survives interview probing; the honest “currently learning” outperforms a hollow claim when the technical interviewer starts asking questions.",
-        "id": "Setiap kata kunci datang bersama buktinya dan tahan digali saat wawancara; “sedang dipelajari” yang jujur mengalahkan klaim kosong begitu pewawancara teknis mulai bertanya."
+       "def": {
+        "en": "The page after upload where a portal shows the fields it extracted.",
+        "id": "Halaman setelah unggah tempat portal menampilkan kolom yang diekstraknya."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The copy-paste parse test on your CV outputs your job titles separated from their dates and employers. What must change?",
-        "id": "Uji salin-tempel pada CV-mu menghasilkan jabatan yang terpisah dari tanggal dan nama perusahaannya. Apa yang harus diubah?"
+        "en": "Which layout is safest?",
+        "id": "Tata letak mana yang paling aman?"
        },
        "options": [
         {
-         "en": "Nothing — humans will understand it",
-         "id": "Tidak ada — manusia akan tetap memahaminya"
+         "en": "Two columns with icons",
+         "id": "Dua kolom dengan ikon"
         },
         {
-         "en": "The layout: likely a table or multi-column structure is scattering related fields; rebuild as a single column",
-         "id": "Tata letaknya: kemungkinan ada tabel atau struktur beberapa kolom yang memisahkan kolom-kolom yang saling terkait; bangun ulang menjadi satu kolom"
+         "en": "Single column, standard headings, real text",
+         "id": "Satu kolom, judul standar, teks asli"
         },
         {
-         "en": "The font: switch to a more professional typeface",
-         "id": "Fonnya: ganti ke jenis huruf yang lebih profesional"
+         "en": "An infographic",
+         "id": "Infografis"
+        },
+        {
+         "en": "A table grid",
+         "id": "Kisi tabel"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Reading-order corruption is the parser seeing your layout's internal structure. Single-column rebuilds fix it permanently.",
-        "id": "Urutan baca yang kacau berarti pengurai sedang melihat struktur internal tata letakmu. Membangun ulang menjadi satu kolom memperbaikinya untuk selamanya."
+        "en": "Everything a parser needs, in the order it expects, with nothing to misread.",
+        "id": "Semua yang dibutuhkan pengurai, dalam urutan yang diharapkannya, tanpa ada yang salah baca."
+       }
+      },
+      {
+       "q": {
+        "en": "A portal asks for “CV (PDF, max 1 MB)”. Your PDF is 4 MB because it was scanned.",
+        "id": "Portal meminta “CV (PDF, maks 1 MB)”. PDF-mu 4 MB karena dipindai."
+       },
+       "options": [
+        {
+         "en": "Upload anyway",
+         "id": "Unggah saja"
+        },
+        {
+         "en": "Export a text-based PDF from the source document",
+         "id": "Ekspor PDF berbasis teks dari dokumen sumber"
+        },
+        {
+         "en": "Split it into two files",
+         "id": "Pecah menjadi dua berkas"
+        },
+        {
+         "en": "Email it instead",
+         "id": "Kirim lewat email saja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A scan is an image: unreadable to the parser and oversized. The source document exports small and searchable.",
+        "id": "Pindaian adalah gambar: tak terbaca pengurai dan terlalu besar. Dokumen sumber diekspor kecil dan bisa dicari."
+       }
+      },
+      {
+       "q": {
+        "en": "After upload, the portal shows your job title in the “Company” field.",
+        "id": "Setelah unggah, portal menampilkan jabatanmu di kolom “Perusahaan”."
+       },
+       "options": [
+        {
+         "en": "Ignore it",
+         "id": "Abaikan"
+        },
+        {
+         "en": "Correct the field and fix the source layout",
+         "id": "Koreksi kolomnya dan perbaiki tata letak sumber"
+        },
+        {
+         "en": "Re-upload the same file",
+         "id": "Unggah ulang berkas yang sama"
+        },
+        {
+         "en": "Withdraw",
+         "id": "Tarik lamaran"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The preview is the machine showing you what it saw; fix both the record and its cause.",
+        "id": "Pratinjau adalah mesin menunjukkan apa yang dilihatnya; perbaiki rekaman dan penyebabnya."
        }
       }
      ],
@@ -12432,370 +13158,580 @@ window.MT_LMS['the-pack'] = {
       "mode": "ats",
       "title": {
        "en": "Pre-flight this CV now",
-       "id": "Periksa CV ini sekarang"
+       "id": "Pra-kirim CV ini sekarang"
       },
       "body": {
-       "en": "Paste your CV and the JD you are targeting — the check reads both on your device and shows coverage, section signals and red flags before any employer's parser does.",
-       "id": "Tempel CV-mu dan deskripsi lowongan yang kamu tuju — pemeriksa membaca keduanya di perangkatmu dan menunjukkan cakupan kata kunci, sinyal per bagian, dan tanda bahaya sebelum pengurai milik perusahaan mana pun sempat melihatnya."
+       "en": "The ATS readiness check runs the plain-text extraction on your device and flags columns, tables, header content, inconsistent dates and unspelled acronyms. Run it on every version before it goes anywhere.",
+       "id": "Pemeriksaan kesiapan ATS menjalankan ekstraksi teks polos di perangkatmu dan menandai kolom, tabel, isi kepala halaman, tanggal yang tidak konsisten, dan akronim tanpa kepanjangan. Jalankan pada setiap versi sebelum dikirim ke mana pun."
       },
       "cta": {
-       "en": "Run the ATS check →",
-       "id": "Jalankan pemeriksa ATS →"
+       "en": "Open the ATS check →",
+       "id": "Buka pemeriksaan ATS →"
       }
      },
+     "takeaways": [
+      {
+       "en": "Boring formats win.",
+       "id": "Format yang membosankan menang."
+      },
+      {
+       "en": "Test with plain text and the portal preview.",
+       "id": "Uji dengan teks polos dan pratinjau portal."
+      },
+      {
+       "en": "Follow the portal’s file instructions exactly.",
+       "id": "Ikuti petunjuk berkas portal dengan tepat."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and checklist",
+       "id": "Sumber dan daftar periksa"
+      },
+      "lead": {
+       "en": "The eight rules as a checklist.",
+       "id": "Delapan aturan sebagai daftar periksa."
+      },
       "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 4.2",
+         "id": "Daftar bacaan · Pelajaran 4.2"
+        },
+        "desc": {
+         "en": "Six sources.",
+         "id": "Enam sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 9, 17 — layout; file formats.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 9, 17 — tata letak; format berkas."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 2 — file types and names.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2 — jenis dan nama berkas."
+         },
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 12 — formatting for software.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 12 — format untuk perangkat lunak."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.2 — layout rules.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.2 — aturan tata letak."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call…</i> (2021) — the plain-text test.",
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021) — uji teks polos."
+         },
+         {
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 8 — dates and computed experience.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 8 — tanggal dan pengalaman yang dihitung."
+         }
+        ]
+       },
        {
         "kind": "checklist",
         "title": {
-         "en": "Parse-safe formatting",
-         "id": "Format aman-parser"
+         "en": "Parse-safe · eight rules",
+         "id": "Aman-urai · delapan aturan"
         },
         "desc": {
-         "en": "Every item is a known parser break. Tick all before upload.",
-         "id": "Setiap butir adalah kerusakan parser yang dikenal. Centang semua sebelum mengunggah."
+         "en": "All eight before any upload.",
+         "id": "Kedelapannya sebelum unggahan apa pun."
         },
         "body": [
          {
-          "en": "Single column; no tables, text boxes, columns or sidebars",
-          "id": "Satu kolom; tanpa tabel, kotak teks, kolom, atau bilah samping"
+          "en": "Single column, left-aligned",
+          "id": "Satu kolom, rata kiri"
          },
          {
-          "en": "Standard headings: Experience · Education · Skills · Projects · Certifications",
-          "id": "Judul standar: Pengalaman · Pendidikan · Keterampilan · Proyek · Sertifikasi"
+          "en": "No tables, text boxes, shapes, icons, skill bars or images holding information",
+          "id": "Tanpa tabel, kotak teks, bentuk, ikon, bilah keterampilan, atau gambar yang memuat informasi"
          },
          {
-          "en": "No headers/footers with contact details — put them in the body",
-          "id": "Tanpa header/footer berisi kontak — letakkan di isi"
+          "en": "Standard section headings",
+          "id": "Judul bagian standar"
          },
          {
-          "en": "Dates as MMM YYYY – MMM YYYY on every entry",
-          "id": "Tanggal dalam format Bln TTTT – Bln TTTT di setiap entri"
+          "en": "Nothing important in headers or footers",
+          "id": "Tidak ada yang penting di kepala atau kaki halaman"
          },
          {
-          "en": "Standard fonts (Arial, Calibri, Georgia); no icons for phone/email",
-          "id": "Fon standar (Arial, Calibri, Georgia); tanpa ikon untuk telepon/email"
+          "en": "Standard font, 10.5–12 pt",
+          "id": "Fon standar, 10,5–12 pt"
          },
          {
-          "en": "Skills written out with acronym in brackets",
-          "id": "Keterampilan ditulis lengkap dengan akronim dalam kurung"
+          "en": "Consistent date format with months",
+          "id": "Format tanggal konsisten dengan bulan"
          },
          {
-          "en": "Saved as PDF from the word processor (not scanned, not exported from a design tool)",
-          "id": "Disimpan sebagai PDF dari pengolah kata (bukan pindaian, bukan ekspor dari alat desain)"
+          "en": "Acronyms spelled out once",
+          "id": "Kepanjangan akronim dituliskan sekali"
          },
          {
-          "en": "Text selectable in the PDF — copy a line and paste it somewhere to confirm",
-          "id": "Teks di PDF bisa dipilih — salin satu baris dan tempel di tempat lain untuk memastikan"
+          "en": "Real text — text-based PDF or .docx, never a scan",
+          "id": "Teks asli — PDF berbasis teks atau .docx, tidak pernah pindaian"
          }
         ]
-       },
-       {
-        "kind": "worksheet",
-        "title": {
-         "en": "JD mirror worksheet",
-         "id": "Lembar kerja cermin JD"
-        },
-        "desc": {
-         "en": "Map the job description to your evidence before editing a single line.",
-         "id": "Petakan deskripsi pekerjaan ke buktimu sebelum mengedit satu baris pun."
-        },
-        "body": [
-         {
-          "en": "Column 1 — requirement as written in the JD (verbatim phrase)",
-          "id": "Kolom 1 — persyaratan seperti tertulis di JD (frasa kata per kata)"
-         },
-         {
-          "en": "Column 2 — my evidence line that proves it (or “gap”)",
-          "id": "Kolom 2 — baris buktiku yang membuktikannya (atau “celah”)"
-         },
-         {
-          "en": "Column 3 — the JD phrase now used honestly in that line? Y/N",
-          "id": "Kolom 3 — frasa JD kini dipakai dengan jujur di baris itu? Y/T"
-         },
-         {
-          "en": "Column 4 — where it sits (top third / body / skills)",
-          "id": "Kolom 4 — letaknya (sepertiga atas / isi / keterampilan)"
-         },
-         {
-          "en": "Rule: a gap is stated in the letter and closed with a plan; it is never faked in the CV.",
-          "id": "Aturan: celah dinyatakan di surat dan ditutup dengan rencana; tak pernah dipalsukan di CV."
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Tables for layout",
-         "id": "Tabel untuk tata letak"
-        },
-        "fix": {
-         "en": "Cells are read in unpredictable order. One column, headings as plain text.",
-         "id": "Sel dibaca dalam urutan yang tak terduga. Satu kolom, judul sebagai teks polos."
-        }
-       },
-       {
-        "h": {
-         "en": "Creative section names",
-         "id": "Nama bagian kreatif"
-        },
-        "fix": {
-         "en": "“My Journey” is not a field. Use Experience, Education, Skills, Projects, Certifications.",
-         "id": "“Perjalananku” bukan kolom. Gunakan Pengalaman, Pendidikan, Keterampilan, Proyek, Sertifikasi."
-        }
-       },
-       {
-        "h": {
-         "en": "Acronyms only",
-         "id": "Hanya akronim"
-        },
-        "fix": {
-         "en": "Write both: “Search Engine Optimisation (SEO)”. Recruiters search either.",
-         "id": "Tulis keduanya: “Search Engine Optimisation (SEO)”. Perekrut mencari salah satunya."
-        }
        }
       ]
      }
     },
     {
      "n": "4.3",
-     "title": {
-      "en": "Administrative Screening Strategy — Best Practices and Common Mistakes",
-      "id": "Strategi Seleksi Administrasi — Praktik Terbaik dan Kesalahan Umum"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "visual",
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Honest Keyword Coverage",
+      "id": "Cakupan Kata Kunci yang Jujur"
+     },
      "overview": {
-      "en": "The administrative screen is a checklist masquerading as a judgment. Explore the four zones of the screening map — completeness, consistency, requirements, and professional surface — each a place where prepared candidates pass and careless ones quietly disappear.",
-      "id": "Seleksi administrasi adalah daftar periksa yang menyamar sebagai penilaian. Jelajahi empat zona di peta seleksi — kelengkapan, konsistensi, persyaratan, dan tampilan profesional — masing-masing adalah tempat kandidat yang siap lolos, dan kandidat yang ceroboh diam-diam menghilang."
+      "en": "Keywords are where honesty and effectiveness meet. This lesson gives a single rule for placing them, a coverage table to check your work, and four honest ways to handle a requirement you do not fully meet.",
+      "id": "Kata kunci adalah tempat kejujuran dan efektivitas bertemu. Pelajaran ini memberi satu aturan untuk menempatkannya, tabel cakupan untuk memeriksa pekerjaanmu, dan empat cara jujur menangani syarat yang tidak sepenuhnya kamu penuhi."
      },
      "objectives": [
       {
-       "en": "Audit an application for the four administrative failure zones.",
-       "id": "Mengaudit sebuah lamaran terhadap empat zona kegagalan administrasi."
+       "en": "Apply the <b>exact-form rule</b> for must-have keywords.",
+       "id": "Menerapkan <b>aturan bentuk persis</b> untuk kata kunci wajib."
       },
       {
-       "en": "Keep records consistent across CV, forms, LinkedIn and certificates.",
-       "id": "Menjaga data tetap konsisten di CV, formulir, LinkedIn, dan sertifikat."
+       "en": "Build a coverage table that maps each must-have to a true evidence line.",
+       "id": "Membangun tabel cakupan yang memetakan setiap syarat wajib ke baris bukti yang benar."
       },
       {
-       "en": "Read requirement lists like a screener: musts, shoulds, and negotiables.",
-       "id": "Membaca daftar persyaratan seperti seorang penyeleksi: wajib, diutamakan, dan bisa dinegosiasikan."
+       "en": "Choose one of four honest closes for each gap.",
+       "id": "Memilih satu dari empat penutup jujur untuk setiap celah."
       }
      ],
-     "takeawaysLead": {
-      "en": "The administrative screen is a checklist masquerading as a judgment, and its rejections are the cheapest to prevent. To pass it every time, you can:",
-      "id": "Seleksi administrasi adalah daftar periksa yang menyamar sebagai penilaian, dan penolakannya paling murah untuk dicegah. Untuk melewatinya setiap kali, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Every must-have, once, exactly, truthfully",
+       "id": "Setiap syarat wajib, sekali, persis, jujur"
+      },
+      "intro": {
+       "en": "One rule, one table, four closes — and a rule of thumb for how much of an advertisement you need to meet.",
+       "id": "Satu aturan, satu tabel, empat penutup — dan aturan praktis seberapa banyak isi iklan yang perlu kamu penuhi."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The rule",
+         "id": "Aturannya"
+        },
+        "points": [
+         {
+          "en": "Every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence.",
+          "id": "Setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar."
+         },
+         {
+          "en": "No keyword lists, no hidden text, no pasted requirement blocks.",
+          "id": "Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The table",
+         "id": "Tabelnya"
+        },
+        "points": [
+         {
+          "en": "Keyword · where it appears · the evidence sentence · status ✓ covered / ✎ rephrase / ✗ gap.",
+          "id": "Kata kunci · di mana muncul · kalimat bukti · status ✓ tercakup / ✎ ubah kata / ✗ celah."
+         },
+         {
+          "en": "A must-have without an evidence sentence is not covered, even if the word appears somewhere.",
+          "id": "Syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four honest closes",
+         "id": "Empat penutup jujur"
+        },
+        "points": [
+         {
+          "en": "Rephrase · evidence · learn · accept.",
+          "id": "Ubah kata · bukti · pelajari · terima."
+         },
+         {
+          "en": "Meet every hard requirement and roughly two-thirds of the rest — then apply.",
+          "id": "Penuhi setiap syarat mutlak dan kira-kira dua pertiga sisanya — lalu lamar."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Administrative rejections are the cheapest to prevent and the most common to suffer.",
-       "id": "Penolakan administrasi adalah yang paling murah dicegah, dan yang paling sering dialami."
-      },
-      {
-       "en": "Inconsistencies between your documents read as carelessness at best, dishonesty at worst.",
-       "id": "Ketidakcocokan antardokumenmu paling ringan terbaca sebagai kecerobohan, paling berat sebagai ketidakjujuran."
-      },
-      {
-       "en": "A missing “must” requirement is a real gate; a missing “should” is an invitation to show a compensating strength.",
-       "id": "Persyaratan “wajib” yang tidak terpenuhi adalah gerbang sungguhan; persyaratan “diutamakan” yang tidak terpenuhi adalah undangan untuk menunjukkan kekuatan lain sebagai penggantinya."
-      }
-     ],
-     "hotspots": [
-      {
-       "x": 24,
-       "y": 25,
-       "h": {
-        "en": "Completeness",
-        "id": "Kelengkapan"
-       },
-       "body": {
-        "en": "Every field filled, every requested document attached, in the requested format and naming (“CV_Name_Role.pdf” when specified — the instruction is the test). Optional fields are not optional when you have content for them: an empty portfolio link field, with a portfolio existing, is a point donated. Before submitting, reread the vacancy's instruction block once, slowly — screening teams report instruction-following failures as their most common cut.",
-        "id": "Setiap kolom terisi, setiap dokumen yang diminta terlampir, dalam format dan penamaan yang diminta (“CV_Nama_Posisi.pdf” kalau ditentukan — instruksinya itu sendiri adalah ujiannya). Kolom opsional tidak lagi opsional kalau kamu punya isinya: kolom tautan portofolio yang dibiarkan kosong, padahal portofolionya ada, adalah poin yang kamu sumbangkan cuma-cuma. Sebelum mengirim, baca ulang blok instruksi lowongan itu sekali lagi, pelan-pelan — tim seleksi melaporkan kegagalan mengikuti instruksi sebagai alasan pencoretan yang paling umum."
-       }
-      },
-      {
-       "x": 73,
-       "y": 25,
-       "h": {
-        "en": "Consistency",
-        "id": "Konsistensi"
-       },
-       "body": {
-        "en": "Dates, titles, GPA, employer names must match across CV, application form, LinkedIn and certificates — recruiters cross-check in seconds, and every mismatch costs trust. Common innocent causes: a rounded GPA in one place and exact in another; an internship titled differently on LinkedIn; date formats that shift mid-CV. Fix at the source: one master record (in your Gym tracker's notes) from which every document copies. If something genuinely changed — a role was retitled — one consistent current version everywhere.",
-        "id": "Tanggal, jabatan, IPK, dan nama perusahaan harus cocok di CV, formulir lamaran, LinkedIn, dan sertifikat — perekrut memeriksa silang dalam hitungan detik, dan setiap ketidakcocokan mengikis kepercayaan. Penyebab yang biasanya tidak disengaja: IPK dibulatkan di satu tempat tetapi ditulis persis di tempat lain; nama posisi magang yang berbeda di LinkedIn; format tanggal yang berubah di tengah CV. Perbaiki dari sumbernya: satu catatan induk (di catatan pelacak Gym-mu) yang menjadi acuan semua dokumen. Kalau memang ada yang berubah — misalnya nama jabatan diganti — pakai satu versi terkini yang konsisten di mana-mana."
-       }
-      },
-      {
-       "x": 25,
-       "y": 72,
-       "h": {
-        "en": "Requirements",
-        "id": "Persyaratan"
-       },
-       "body": {
-        "en": "Read the list like its author: <b>musts</b> (degree fields, graduation windows, authorisations, hard GPA floors) are configured as knockouts — do not apply expecting an exception the software cannot grant; find roles whose musts you meet. <b>Shoulds</b> (“preferably”, “is a plus”) are ranking weights — apply, and let a compensating evidence line argue for you. When a must is ambiguous (“strong academic record”), it is usually a should wearing must clothing; apply with your best evidence. Requirement literacy redirects wasted applications toward winnable ones — the targeting half of your screen rate.",
-        "id": "Baca daftarnya seperti orang yang menulisnya: <b>wajib</b> (bidang gelar, rentang tahun kelulusan, izin kerja, batas minimum IPK) dikonfigurasi sebagai penggugur — jangan melamar sambil berharap pengecualian yang tidak mungkin diberikan perangkat lunak; carilah posisi yang syarat wajibnya kamu penuhi. <b>Diutamakan</b> (“lebih disukai”, “menjadi nilai tambah”) adalah bobot peringkat — lamar, dan biarkan satu baris bukti pengganti berbicara untukmu. Kalau syarat wajibnya ambigu (“rekam jejak akademik yang kuat”), biasanya itu syarat “diutamakan” yang berpakaian “wajib”; lamar dengan bukti terbaikmu. Melek persyaratan mengalihkan lamaran yang sia-sia ke lamaran yang bisa dimenangkan — inilah separuh pembidikan dari tingkat lolos seleksimu."
-       }
-      },
-      {
-       "x": 74,
-       "y": 72,
-       "h": {
-        "en": "Professional surface",
-        "id": "Tampilan profesional"
-       },
-       "body": {
-        "en": "The email address, voicemail greeting, LinkedIn URL and photo, and the tone of every message you send the company — all part of the administrative read. Application emails get the Module 10 treatment: informative subject (“Application — Data Analyst — [Name]”), two-line body, named attachments. Response speed matters both ways: reply to recruiter emails within one business day; your responsiveness now is read as your responsiveness as an employee. None of this wins the job; all of it prevents the quiet loss of it.",
-        "id": "Alamat email, sapaan di pesan suara, URL dan foto LinkedIn, serta nada setiap pesan yang kamu kirim ke perusahaan — semuanya termasuk dalam pembacaan administrasi. Email lamaran mendapat perlakuan Modul 10: subjek yang informatif (“Lamaran — Data Analyst — [Nama]”), isi dua baris, lampiran dengan nama yang jelas. Kecepatan merespons berlaku dua arah: balas email perekrut dalam satu hari kerja; ketanggapanmu sekarang dibaca sebagai ketanggapanmu nanti sebagai karyawan. Tidak satu pun dari ini yang memenangkan pekerjaan; tetapi semuanya mencegah kamu kehilangannya secara diam-diam."
-       }
-      }
-     ],
      "sections": [
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Completeness: the instruction is the test",
-        "id": "Kelengkapan: instruksinya adalah ujiannya"
-       },
-       "body": {
-        "en": "Screening teams report instruction-following failures as their most common cut, which makes completeness the cheapest point on the map to win. Every field filled; every requested document attached, in the requested format and with the requested name — “CV_Name_Role.pdf” when specified is not a suggestion, it is the first test. Optional fields stop being optional the moment you have content for them: an empty portfolio-link field, with a portfolio existing, is a point donated to the candidate who filled it. The habit that makes this reliable is mechanical: before submitting, reread the vacancy's instruction block once, slowly, as a checklist, and tick each line against what you are about to send. It costs ninety seconds and removes the single most common reason a strong candidate quietly disappears at the first gate.",
-        "id": "Tim seleksi melaporkan kegagalan mengikuti instruksi sebagai alasan eliminasi paling umum, yang menjadikan kelengkapan poin termurah di peta ini untuk dimenangkan. Setiap kolom diisi; setiap dokumen yang diminta dilampirkan, dalam format yang diminta dan dengan nama yang diminta — “CV_Nama_Peran.pdf” bila ditentukan bukanlah saran, melainkan ujian pertama. Kolom opsional berhenti menjadi opsional begitu kamu punya isinya: kolom tautan portofolio yang kosong, padahal portofolionya ada, adalah poin yang kamu sumbangkan ke kandidat yang mengisinya. Kebiasaan yang membuat ini andal bersifat mekanis: sebelum mengirim, baca ulang blok instruksi lowongan sekali, perlahan, sebagai daftar periksa, dan centang setiap baris terhadap apa yang akan kamu kirim. Biayanya sembilan puluh detik dan menghilangkan satu-satunya alasan paling umum kandidat kuat menghilang diam-diam di gerbang pertama."
-       }
-      },
       {
        "icon": "target",
        "h": {
-        "en": "Consistency and requirements: one record, read like a screener",
-        "id": "Konsistensi dan persyaratan: satu rekaman, dibaca seperti penyeleksi"
+        "en": "The rule",
+        "id": "Aturannya"
        },
        "body": {
-        "en": "Recruiters cross-check in seconds, and every mismatch costs trust: a GPA rounded in one place and exact in another, an internship titled differently on LinkedIn, date formats that shift halfway down a CV. The causes are innocent; the read is not — inconsistency registers as carelessness at best and dishonesty at worst. The fix is at the source: one <b>master record</b> from which every document copies, and when something genuinely changes, one consistent current version everywhere. Requirements are read the way their author configured them. <b>Musts</b> — degree fields, graduation windows, work authorisation, hard GPA floors — are knockouts the software cannot waive; do not apply expecting an exception, find roles whose musts you meet. <b>Shoulds</b> — “preferably”, “is a plus” — are ranking weights: apply, and let one compensating evidence line argue for you. When a must is vague (“strong academic record”), it is usually a should in must clothing; apply with your best evidence. Requirement literacy is the targeting half of your screen rate: it redirects wasted applications toward winnable ones.",
-        "id": "Perekrut memeriksa silang dalam hitungan detik, dan setiap ketidaksesuaian mengikis kepercayaan: IPK yang dibulatkan di satu tempat dan persis di tempat lain, magang yang diberi judul berbeda di LinkedIn, format tanggal yang berubah di tengah CV. Penyebabnya tidak sengaja; pembacaannya tidak begitu — ketidakkonsistenan terbaca sebagai kecerobohan paling ringan dan ketidakjujuran paling berat. Perbaikannya di sumbernya: satu <b>catatan induk</b> dari mana setiap dokumen menyalin, dan bila ada yang benar-benar berubah, satu versi terkini yang konsisten di mana-mana. Persyaratan dibaca sebagaimana penulisnya mengonfigurasinya. <b>Wajib</b> — bidang gelar, jendela kelulusan, izin kerja, batas IPK keras — adalah penggugur yang tak bisa dikesampingkan perangkat lunak; jangan melamar sambil berharap pengecualian, carilah peran yang syarat wajibnya kamu penuhi. <b>Diutamakan</b> — “lebih disukai”, “menjadi nilai tambah” — adalah bobot pemeringkatan: melamarlah, dan biarkan satu baris bukti pengimbang berargumen untukmu. Ketika syarat wajib terdengar samar (“catatan akademik yang kuat”), biasanya itu syarat diutamakan yang berpakaian wajib; melamarlah dengan bukti terbaikmu. Literasi persyaratan adalah separuh penargetan dari tingkat lolos seleksimu: ia mengalihkan lamaran yang sia-sia ke lamaran yang bisa dimenangkan."
+        "en": "The books disagree on density — repeat every noun <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 17)</i>, weave subtly <i>(Innes, The CV Book, ch. 18)</i>, mirror exactly but never paste the requirements block <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.1)</i>. The Pack’s single rule:",
+        "id": "Buku-buku tidak sepakat soal kepadatan — ulangi setiap kata benda <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 17)</i>, jalin dengan halus <i>(Innes, The CV Book, bab 18)</i>, cerminkan persis tetapi jangan pernah tempel blok persyaratan <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §3.1)</i>. Satu aturan The Pack:"
+       },
+       "quote": {
+        "text": {
+         "en": "Every must-have keyword appears at least once, in the advertisement’s exact form, inside a true evidence sentence.",
+         "id": "Setiap kata kunci wajib muncul setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar."
+        },
+        "who": {
+         "en": "The Pack’s coverage rule",
+         "id": "Aturan cakupan The Pack"
+        }
+       },
+       "after": [
+        {
+         "en": "Put the most important ones in your profile and your first bullets, where the seven-second skim lands. No keyword lists, no hidden text, no pasted requirement blocks — each of those is visible to the person who decides, and each says “I did not have the evidence”.",
+         "id": "Taruh yang terpenting di profil dan butir-butir pertamamu, tempat pindaian tujuh detik mendarat. Tanpa daftar kata kunci, tanpa teks tersembunyi, tanpa blok persyaratan yang ditempel — masing-masing terlihat oleh orang yang memutuskan, dan masing-masing berkata “aku tidak punya buktinya”."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Exact form matters",
+        "id": "Bentuk persis itu penting"
+       },
+       "body": {
+        "en": "If the advertisement says “stakeholder management”, do not write only “managing stakeholders”; if it lists “people management” and “project management” separately, do not merge them into “people and project management” — software and hurried readers can miss the broken phrase <i>(Simunovic, §6.1)</i>. Include both an acronym and its full form (“Standard Operating Procedure (SOP)”). Use the market-standard version of job titles alongside unusual internal ones <i>(Knowles, How to Write an Outstanding CV, ch. 5)</i>: “Operations Intern (Magang Operasional)”. The exact form costs you nothing when it is true; it only costs you when you would have to bend the truth to use it.",
+        "id": "Jika iklan menyebut “stakeholder management”, jangan hanya tulis “mengelola pemangku kepentingan”; jika iklan mencantumkan “people management” dan “project management” secara terpisah, jangan gabungkan menjadi “manajemen orang dan proyek” — perangkat lunak dan pembaca terburu-buru bisa melewatkan frasa yang terpecah <i>(Simunovic, §6.1)</i>. Sertakan akronim dan kepanjangannya (“Standard Operating Procedure (SOP)”). Pakai versi standar pasar untuk nama jabatan di samping nama internal yang tidak lazim <i>(Knowles, How to Write an Outstanding CV, bab 5)</i>: “Operations Intern (Magang Operasional)”. Bentuk persis tidak merugikanmu ketika benar; ia hanya merugikan ketika kamu harus membengkokkan kebenaran untuk memakainya."
        }
       },
       {
-       "icon": "book",
+       "icon": "chart",
        "h": {
-        "en": "The professional surface: nothing wins the job here, everything can lose it",
-        "id": "Permukaan profesional: tak ada yang memenangkan pekerjaan di sini, semuanya bisa kehilangannya"
+        "en": "The coverage table",
+        "id": "Tabel cakupan"
        },
        "body": {
-        "en": "The administrative read extends past your documents to every surface the company touches: the email address on the form, the voicemail greeting a recruiter hears when you miss the call, the LinkedIn URL and photo, and the tone of every message you send. Application emails get the same treatment as any professional message — an informative subject (“Application — Data Analyst — [Name]”), a two-line body that says what is attached and why, and attachments named so they can be filed without opening. Response speed is read in both directions: reply to recruiter emails within one business day, even if only to confirm receipt and promise a date, because your responsiveness now is taken as a preview of your responsiveness as an employee. None of this earns an offer; all of it prevents the quiet loss of one — and the quiet losses are the ones candidates never learn about, because no rejection email says “your voicemail greeting”.",
-        "id": "Pembacaan administratif melampaui dokumenmu ke setiap permukaan yang disentuh perusahaan: alamat email di formulir, sapaan pesan suara yang didengar perekrut saat kamu tak mengangkat telepon, URL dan foto LinkedIn, serta nada setiap pesan yang kamu kirim. Email lamaran mendapat perlakuan yang sama seperti pesan profesional mana pun — subjek yang informatif (“Lamaran — Data Analyst — [Nama]”), isi dua baris yang menyebutkan apa yang dilampirkan dan mengapa, dan lampiran yang dinamai sehingga bisa diarsipkan tanpa dibuka. Kecepatan merespons dibaca dua arah: balas email perekrut dalam satu hari kerja, meski hanya untuk mengonfirmasi penerimaan dan menjanjikan tanggal, karena responsivitasmu sekarang dianggap sebagai pratinjau responsivitasmu sebagai karyawan. Tak satu pun dari ini menghasilkan tawaran; semuanya mencegah kehilangan tawaran secara diam-diam — dan kehilangan diam-diam itulah yang tak pernah diketahui kandidat, karena tak ada email penolakan yang menyebut “sapaan pesan suaramu”."
+        "en": "For each must-have from your keyword table (Lesson 3.2): <i>keyword · where it appears on my CV · the evidence sentence · status</i>. A must-have without an evidence sentence is not covered, even if the word appears somewhere. Here is Nadia’s table for six of Arunika’s must-haves:",
+        "id": "Untuk setiap syarat wajib dari tabel kata kuncimu (Pelajaran 3.2): <i>kata kunci · di mana muncul di CV-ku · kalimat bukti · status</i>. Syarat wajib tanpa kalimat bukti belum tercakup, meski katanya muncul di suatu tempat. Inilah tabel Nadia untuk enam syarat wajib Arunika:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Keyword",
+          "id": "Kata kunci"
+         },
+         {
+          "en": "Where",
+          "id": "Di mana"
+         },
+         {
+          "en": "Evidence sentence",
+          "id": "Kalimat bukti"
+         },
+         {
+          "en": "Status",
+          "id": "Status"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "analytical skills",
+           "id": "analytical skills"
+          },
+          {
+           "en": "Key Skills and Evidence",
+           "id": "Keterampilan Utama dan Bukti"
+          },
+          {
+           "en": "“Analytical skills: reconciling three branches’ daily reports, I traced recurring mismatches to one terminal…”",
+           "id": "“Analytical skills: saat merekonsiliasi laporan harian tiga cabang, saya melacak ketidakcocokan berulang ke satu terminal…”"
+          },
+          {
+           "en": "✓ covered",
+           "id": "✓ tercakup"
+          }
+         ],
+         [
+          {
+           "en": "Microsoft Excel",
+           "id": "Microsoft Excel"
+          },
+          {
+           "en": "Tools",
+           "id": "Alat"
+          },
+          {
+           "en": "“Excel” only",
+           "id": "“Excel” saja"
+          },
+          {
+           "en": "✎ rephrase → “Microsoft Excel (pivot tables, VLOOKUP)”",
+           "id": "✎ ubah kata → “Microsoft Excel (pivot table, VLOOKUP)”"
+          }
+         ],
+         [
+          {
+           "en": "leadership experience in organisations",
+           "id": "leadership experience in organisations"
+          },
+          {
+           "en": "Organisational Experience",
+           "id": "Pengalaman Organisasi"
+          },
+          {
+           "en": "“Led a 6-person sponsorship team…” — the word “leadership” absent",
+           "id": "“Memimpin tim sponsorship 6 orang…” — kata “leadership” tidak ada"
+          },
+          {
+           "en": "✎ rephrase in the statement heading",
+           "id": "✎ ubah kata di judul pernyataan"
+          }
+         ],
+         [
+          {
+           "en": "negotiation",
+           "id": "negotiation"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Evidence exists (11 sponsors) but no sentence says it",
+           "id": "Buktinya ada (11 sponsor) tetapi tidak ada kalimat yang menyebutnya"
+          },
+          {
+           "en": "✎ evidence → add “negotiated sponsor packages with 40 companies”",
+           "id": "✎ bukti → tambahkan “menegosiasikan paket sponsor dengan 40 perusahaan”"
+          }
+         ],
+         [
+          {
+           "en": "active English",
+           "id": "active English"
+          },
+          {
+           "en": "Languages",
+           "id": "Bahasa"
+          },
+          {
+           "en": "“TOEFL ITP 527” — and the CV itself is in English",
+           "id": "“TOEFL ITP 527” — dan CV-nya sendiri berbahasa Inggris"
+          },
+          {
+           "en": "✓ covered",
+           "id": "✓ tercakup"
+          }
+         ],
+         [
+          {
+           "en": "SAP",
+           "id": "SAP"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "None",
+           "id": "Tidak ada"
+          },
+          {
+           "en": "✗ gap — a nice-to-have: learn or accept",
+           "id": "✗ celah — tambahan: pelajari atau terima"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Four honest closes for a gap",
+        "id": "Empat penutup jujur untuk celah"
+       },
+       "body": {
+        "en": "Every ✎ and ✗ in the table gets one of four treatments — and only these four.",
+        "id": "Setiap ✎ dan ✗ dalam tabel mendapat satu dari empat perlakuan — dan hanya empat ini."
+       },
+       "bullets": [
+        {
+         "en": "<b>Rephrase</b> — you have the experience under a different name. “Customer handling” → “customer service” if that is what you did.",
+         "id": "<b>Ubah kata</b> — kamu punya pengalamannya dengan nama berbeda. “Menangani pelanggan” → “layanan pelanggan” jika itu yang kamu lakukan."
+        },
+        {
+         "en": "<b>Evidence</b> — you have it but have not shown it. Add a bullet or competency statement.",
+         "id": "<b>Bukti</b> — kamu punya tetapi belum menunjukkannya. Tambahkan butir atau pernyataan kompetensi."
+        },
+        {
+         "en": "<b>Learn</b> — you do not have it yet, but can start credibly now (a short course, a small project) and say so truthfully: “currently completing SAP fundamentals (due Nov 2026)”.",
+         "id": "<b>Pelajari</b> — kamu belum punya, tetapi bisa mulai secara kredibel sekarang (kursus singkat, proyek kecil) dan katakan dengan jujur: “sedang menyelesaikan dasar-dasar SAP (selesai Nov 2026)”."
+        },
+        {
+         "en": "<b>Accept</b> — you do not have it. Leave it out, and decide whether the gap is a “must” (reconsider applying) or a “should” (apply anyway).",
+         "id": "<b>Terima</b> — kamu tidak punya. Tinggalkan, dan putuskan apakah celah itu “wajib” (pertimbangkan ulang melamar) atau “sebaiknya” (tetap lamar)."
+        }
+       ],
+       "after": [
+        {
+         "en": "Never claim a keyword you cannot evidence: every keyword you list may be tested at interview <i>(Dumas, The AI-Savvy Job Seeker, ch. 5)</i>, and a claimed SAP skill meets a five-minute SAP question in the user interview.",
+         "id": "Jangan pernah mengklaim kata kunci yang tidak bisa kamu buktikan: setiap kata kunci yang kamu cantumkan bisa diuji saat wawancara <i>(Dumas, The AI-Savvy Job Seeker, bab 5)</i>, dan keterampilan SAP yang diklaim akan bertemu pertanyaan SAP lima menit di wawancara user."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "How much of the advertisement must you meet?",
+        "id": "Seberapa banyak isi iklan yang harus kamu penuhi?"
+       },
+       "body": {
+        "en": "Advertisements describe an ideal. A LinkedIn study reported by Ow found that women tended to apply only when they met nearly all criteria while men applied at around 60%, and that women who did apply were <i>more</i> likely to be hired <span class=\"ev ev-dated\">Dated · 2017 LinkedIn data, cited by Ow</span>. The Pack’s rule of thumb: <b>meet every hard requirement (the “musts” — IPK, major, age, certifications), and roughly two-thirds of the rest</b>, then apply with honest evidence. Do not talk yourself out of roles you are qualified for; let the employer do the rejecting, if there is rejecting to do.",
+        "id": "Iklan menggambarkan sosok ideal. Sebuah studi LinkedIn yang dilaporkan Ow menemukan perempuan cenderung melamar hanya ketika memenuhi hampir semua kriteria sementara laki-laki melamar pada sekitar 60%, dan perempuan yang melamar justru <i>lebih</i> mungkin diterima <span class=\"ev ev-dated\">Lawas · data LinkedIn 2017, dikutip Ow</span>. Aturan praktis The Pack: <b>penuhi setiap syarat mutlak (yang “wajib” — IPK, jurusan, usia, sertifikasi), dan kira-kira dua pertiga sisanya</b>, lalu lamar dengan bukti yang jujur. Jangan meyakinkan dirimu untuk mundur dari peran yang kamu kuasai; biarkan perusahaan yang menolak, jika memang ada yang perlu ditolak."
        }
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The screening map — four zones where prepared candidates pass and careless ones quietly disappear.",
-       "id": "Peraga 1: Peta seleksi — empat zona tempat kandidat yang siap lolos dan yang ceroboh menghilang diam-diam."
+       "en": "Exhibit 13: From keyword table to coverage",
+       "id": "Peraga 13: Dari tabel kata kunci ke cakupan"
       },
       "title": {
-       "en": "Completeness · Consistency · Requirements · Professional surface",
-       "id": "Kelengkapan · Konsistensi · Persyaratan · Permukaan profesional"
+       "en": "Must-have → find it on the page → status → close",
+       "id": "Syarat wajib → temukan di halaman → status → tutup"
       },
       "items": [
        {
         "h": {
-         "en": "Completeness",
-         "id": "Kelengkapan"
+         "en": "Must-have",
+         "id": "Syarat wajib"
         },
         "sub": {
-         "en": "Every field, every document, the requested name and format",
-         "id": "Setiap kolom, setiap dokumen, nama dan format yang diminta"
+         "en": "From the five-advertisement keyword table (3.2).",
+         "id": "Dari tabel kata kunci lima iklan (3.2)."
         }
        },
        {
         "h": {
-         "en": "Consistency",
-         "id": "Konsistensi"
+         "en": "Find it",
+         "id": "Temukan"
         },
         "sub": {
-         "en": "One master record; dates, titles and GPA identical everywhere",
-         "id": "Satu catatan induk; tanggal, jabatan, dan IPK identik di mana pun"
+         "en": "Where on the page, in what exact form, inside which sentence?",
+         "id": "Di mana di halaman, dalam bentuk persis apa, di dalam kalimat mana?"
         }
        },
        {
         "h": {
-         "en": "Requirements",
-         "id": "Persyaratan"
+         "en": "✓ ✎ ✗",
+         "id": "✓ ✎ ✗"
         },
         "sub": {
-         "en": "Musts are knockouts; shoulds are weights to argue against",
-         "id": "Wajib adalah penggugur; diutamakan adalah bobot yang bisa dilawan"
+         "en": "Covered · rephrase or add evidence · gap.",
+         "id": "Tercakup · ubah kata atau tambah bukti · celah."
         }
        },
        {
         "h": {
-         "en": "Professional surface",
-         "id": "Permukaan profesional"
+         "en": "Close",
+         "id": "Tutup"
         },
         "sub": {
-         "en": "Email, voicemail, LinkedIn, tone, one-business-day replies",
-         "id": "Email, pesan suara, LinkedIn, nada, balasan dalam satu hari kerja"
+         "en": "Rephrase · evidence · learn · accept. Never claim.",
+         "id": "Ubah kata · bukti · pelajari · terima. Jangan pernah mengklaim."
         }
        }
       ],
+      "note": {
+       "en": "Musts all met and about two-thirds of the rest → apply. The table is Dossier item 4, reused for every tailored version.",
+       "id": "Semua syarat wajib terpenuhi dan sekitar dua pertiga sisanya → lamar. Tabelnya adalah butir Dossier 4, dipakai ulang untuk setiap versi tersesuaikan."
+      },
       "longdesc": {
-       "en": "A two-by-two grid of the four administrative screening zones: completeness of fields and documents; consistency of every fact across documents from one master record; requirements read as musts that knock out and shoulds that weight; and the professional surface of email, voicemail, LinkedIn and response speed.",
-       "id": "Kisi dua kali dua berisi empat zona seleksi administrasi: kelengkapan kolom dan dokumen; konsistensi setiap fakta di semua dokumen dari satu catatan induk; persyaratan yang dibaca sebagai wajib yang menggugurkan dan diutamakan yang memberi bobot; serta permukaan profesional berupa email, pesan suara, LinkedIn, dan kecepatan merespons."
+       "en": "A four-step flow: take each must-have from the keyword table; find where it appears on the CV and in what form; mark it covered, rephrase or gap; close it with one of four honest options — rephrase, add evidence, learn, or accept. The note gives the rule of thumb: all hard requirements met and about two-thirds of the rest means apply.",
+       "id": "Alur empat langkah: ambil setiap syarat wajib dari tabel kata kunci; temukan di mana ia muncul di CV dan dalam bentuk apa; tandai tercakup, ubah kata, atau celah; tutup dengan satu dari empat pilihan jujur — ubah kata, tambah bukti, pelajari, atau terima. Catatan memberi aturan praktis: semua syarat mutlak terpenuhi dan sekitar dua pertiga sisanya berarti lamar."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "master record",
-        "id": "catatan induk"
+       "tag": {
+        "en": "Two ways to cover “data analysis”",
+        "id": "Dua cara mencakup “data analysis”"
        },
-       "def": {
-        "en": "The single source — kept in your Gym tracker's notes — from which every date, title, GPA and employer name is copied into every document, so that the documents form one consistent record.",
-        "id": "Sumber tunggal — disimpan di catatan pelacak Gym-mu — dari mana setiap tanggal, jabatan, IPK, dan nama pemberi kerja disalin ke setiap dokumen, sehingga dokumen-dokumen itu membentuk satu rekaman yang konsisten."
-       }
-      },
-      {
-       "term": {
-        "en": "must vs. should",
-        "id": "wajib vs. diutamakan"
+       "q": {
+        "en": "The advertisement lists “data analysis” as a requirement. Nadia’s CV has the internship reconciliation work.",
+        "id": "Iklan mencantumkan “data analysis” sebagai syarat. CV Nadia memuat pekerjaan rekonsiliasi saat magang."
        },
-       "def": {
-        "en": "Musts (degree fields, graduation windows, hard GPA floors) are configured as knockouts; shoulds (“preferably”, “is a plus”) are ranking weights that a compensating evidence line can argue against.",
-        "id": "Wajib (bidang gelar, jendela kelulusan, batas IPK keras) dikonfigurasi sebagai penggugur; diutamakan (“lebih disukai”, “menjadi nilai tambah”) adalah bobot pemeringkatan yang bisa dilawan dengan satu baris bukti pengimbang."
+       "weak": {
+        "en": "A “Keywords” line at the bottom: “data analysis, analytical, Excel, reporting, reconciliation, SAP, stakeholder management”.",
+        "id": "Baris “Kata kunci” di bagian bawah: “data analysis, analytical, Excel, reporting, reconciliation, SAP, stakeholder management”."
+       },
+       "strong": {
+        "en": "In the internship bullet: “Performed daily data analysis of transaction reports for 3 branches in Microsoft Excel; traced a recurring mismatch to one teller terminal, ending about 30 minutes of manual correction a day.”",
+        "id": "Di butir magang: “Melakukan data analysis harian atas laporan transaksi 3 cabang di Microsoft Excel; melacak ketidakcocokan berulang ke satu terminal teller, mengakhiri sekitar 30 menit koreksi manual sehari.”"
+       },
+       "why": {
+        "en": "The list contains a word she cannot evidence (SAP) and proves nothing about the ones she can. The bullet puts the exact phrase inside true evidence, where both the parser and the recruiter find it.",
+        "id": "Daftarnya memuat kata yang tidak bisa ia buktikan (SAP) dan tidak membuktikan apa pun tentang yang bisa. Butirnya menaruh frasa persis di dalam bukti yang benar, tempat pengurai maupun perekrut menemukannya."
        }
       }
      ],
-     "checks": [
-      {
-       "q": {
-        "en": "A JD lists “minimum GPA 3.25” and “experience with Tableau preferred”. You hold GPA 3.4 and no Tableau. The correct read?",
-        "id": "Sebuah deskripsi lowongan mencantumkan “IPK minimum 3,25” dan “pengalaman dengan Tableau lebih disukai”. IPK-mu 3,4 dan kamu belum pernah memakai Tableau. Pembacaan yang benar?"
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the two-thirds decision",
+       "id": "Sorotan: keputusan dua pertiga"
+      },
+      "body": [
+       {
+        "en": "KilatPay’s posting lists eleven requirements. Nadia’s coverage table shows: three musts (S1, 0–2 years, willing to work in Jakarta) — all met. Eight shoulds: reconciliation ✓, settlement reporting ✎ (she did it; the word is missing), Excel ✓, dashboards ✎ (Google Sheets dashboards for HIMA’s budget), working with finance and engineering ✎ (she worked with two bank teams — a rephrase), SQL ✗, Python ✗, fintech experience ✗.",
+        "id": "Lowongan KilatPay mencantumkan sebelas syarat. Tabel cakupan Nadia menunjukkan: tiga syarat wajib (S1, 0–2 tahun, bersedia bekerja di Jakarta) — semua terpenuhi. Delapan syarat sebaiknya: rekonsiliasi ✓, pelaporan settlement ✎ (ia melakukannya; katanya tidak ada), Excel ✓, dasbor ✎ (dasbor Google Sheets untuk anggaran HIMA), bekerja dengan finance dan engineering ✎ (ia bekerja dengan dua tim bank — ubah kata), SQL ✗, Python ✗, pengalaman fintech ✗."
        },
-       "options": [
-        {
-         "en": "Do not apply — Tableau is listed, so it is required",
-         "id": "Jangan melamar — Tableau tercantum, berarti wajib"
-        },
-        {
-         "en": "Apply — the must is met; Tableau is a ranking weight your other evidence can compensate",
-         "id": "Lamar — syarat wajibnya terpenuhi; Tableau adalah bobot peringkat yang bisa ditutupi bukti lain milikmu"
-        },
-        {
-         "en": "Apply, and add Tableau to your skills list to be safe",
-         "id": "Lamar, dan tambahkan Tableau ke daftar keterampilan supaya aman"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "“Preferred” marks a should — a weight, not a gate. Option C crosses the honesty line and dies in the first technical probe.",
-        "id": "“Lebih disukai” menandai syarat yang diutamakan — sebuah bobot, bukan gerbang. Opsi C melewati garis kejujuran dan mati di pertanyaan teknis pertama."
+       {
+        "en": "After the three rephrases, she covers five of eight shoulds — a little under two-thirds — with every must met. She closes SQL with “learn”: a free introductory course she starts that week, stated truthfully with a completion month. Python and fintech she accepts. She applies.",
+        "id": "Setelah tiga perubahan kata, ia mencakup lima dari delapan syarat sebaiknya — sedikit di bawah dua pertiga — dengan setiap syarat wajib terpenuhi. Ia menutup SQL dengan “pelajari”: kursus pengantar gratis yang ia mulai minggu itu, dinyatakan jujur dengan bulan penyelesaian. Python dan fintech ia terima. Ia melamar."
+       },
+       {
+        "en": "The version of Nadia from Lesson 1.5 would have read “SQL” in the posting and closed the tab.",
+        "id": "Nadia versi Pelajaran 1.5 akan membaca “SQL” di lowongan itu dan menutup tabnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill — Coverage table",
+        "id": "Latihan — Tabel cakupan"
+       },
+       "body": {
+        "en": "For the Arunika advertisement (Lesson 3.2) and Nadia’s rebuilt CV (Lesson 3.7’s model), fill the table for ten must-haves: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in Indonesia · IPK ≥ 3,00 · sales or operations experience · negotiation (implied) · SAP. Give each a status and a close.",
+        "id": "Untuk iklan Arunika (Pelajaran 3.2) dan CV Nadia yang dibangun ulang (model Pelajaran 3.7), isi tabel untuk sepuluh syarat wajib: analytical skills · comfortable with ambiguity · leadership experience in organisations · active English · Microsoft Excel · willing to be placed anywhere in Indonesia · IPK ≥ 3,00 · sales or operations experience · negotiation (tersirat) · SAP. Beri masing-masing status dan penutup."
+       },
+       "debrief": {
+        "en": "Typical finds: “Microsoft Excel” appears only as “Excel” (rephrase); “negotiation” has evidence in the sponsorship role but no sentence says it (evidence); “comfortable with ambiguity” needs the statement heading to use the phrase (rephrase); “sales or operations experience” is covered by the internship if the word “operations” is in the title line (it is); “SAP” is a genuine gap (learn or accept — it is a “should”). Nine of ten covered after closes; every must met; apply.",
+        "id": "Temuan khas: “Microsoft Excel” hanya muncul sebagai “Excel” (ubah kata); “negotiation” punya bukti di peran sponsorship tetapi tidak ada kalimat yang menyebutnya (bukti); “comfortable with ambiguity” butuh judul pernyataan yang memakai frasanya (ubah kata); “sales or operations experience” tercakup oleh magang jika kata “operations” ada di baris jabatan (ada); “SAP” adalah celah sungguhan (pelajari atau terima — itu “sebaiknya”). Sembilan dari sepuluh tercakup setelah penutup; setiap syarat wajib terpenuhi; lamar."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Your own table",
+        "id": "Latihan 2 — Tabelmu sendiri"
+       },
+       "body": {
+        "en": "Take one advertisement you intend to answer this week and your tailored CV. Build the coverage table for every must-have. Count: musts met? Shoulds covered after closes?",
+        "id": "Ambil satu iklan yang ingin kamu jawab minggu ini dan CV tersesuaikanmu. Bangun tabel cakupan untuk setiap syarat wajib. Hitung: syarat mutlak terpenuhi? Syarat sebaiknya tercakup setelah penutup?"
+       },
+       "debrief": {
+        "en": "If a must is unmet, do not apply to that posting — find the next one. If the musts are met and two-thirds of the shoulds are covered, apply. If you are between, ask whether one “learn” close started this week would move you over the line honestly.",
+        "id": "Jika ada syarat mutlak yang tidak terpenuhi, jangan lamar lowongan itu — cari yang berikutnya. Jika syarat mutlak terpenuhi dan dua pertiga syarat sebaiknya tercakup, lamar. Jika di antaranya, tanyakan apakah satu penutup “pelajari” yang dimulai minggu ini akan menggeser posisimu melewati garis dengan jujur."
        }
       }
      ],
@@ -12803,214 +13739,907 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "A different employment date on each document",
-         "id": "Tanggal kerja berbeda di tiap dokumen"
+         "en": "A keywords list at the bottom",
+         "id": "Daftar kata kunci di bagian bawah"
         },
         "fix": {
-         "en": "Screeners compare. Keep one dates table in the master record and copy from it.",
-         "id": "Penyaring membandingkan. Simpan satu tabel tanggal di catatan induk dan salin darinya."
+         "en": "Inside evidence sentences, or not at all.",
+         "id": "Di dalam kalimat bukti, atau tidak sama sekali."
         }
        },
        {
         "h": {
-         "en": "Missing a “mandatory” attachment",
-         "id": "Melewatkan lampiran “wajib”"
+         "en": "Merging two required phrases into one",
+         "id": "Menggabungkan dua frasa wajib menjadi satu"
         },
         "fix": {
-         "en": "Transcript, ID, certificate — the checklist is literal. Prepare a folder of clean scans before you start applying.",
-         "id": "Transkrip, identitas, sertifikat — daftar periksanya harfiah. Siapkan folder pindaian bersih sebelum mulai melamar."
+         "en": "Each in its exact form, even if it feels repetitive.",
+         "id": "Masing-masing dalam bentuk persis, meski terasa berulang."
         }
        },
        {
         "h": {
-         "en": "An unprofessional email address or voicemail",
-         "id": "Alamat email atau pesan suara yang tidak profesional"
+         "en": "Claiming a tool you have not used",
+         "id": "Mengklaim alat yang belum pernah kamu pakai"
         },
         "fix": {
-         "en": "firstname.lastname@ and a plain voicemail greeting. It is checked.",
-         "id": "namadepan.namabelakang@ dan sapaan pesan suara yang sederhana. Itu diperiksa."
+         "en": "Learn (and say so truthfully) or accept.",
+         "id": "Pelajari (dan katakan dengan jujur) atau terima."
         }
+       },
+       {
+        "h": {
+         "en": "Not applying until you meet 100%",
+         "id": "Tidak melamar sampai memenuhi 100%"
+        },
+        "fix": {
+         "en": "Musts met and about two-thirds of the rest is the threshold.",
+         "id": "Syarat mutlak terpenuhi dan sekitar dua pertiga sisanya adalah ambangnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Exact-form rule",
+        "id": "Aturan bentuk persis"
+       },
+       "def": {
+        "en": "A must-have keyword appears in the advertisement’s wording, inside a true evidence sentence.",
+        "id": "Kata kunci wajib muncul dalam rumusan iklan, di dalam kalimat bukti yang benar."
+       }
+      },
+      {
+       "term": {
+        "en": "Coverage table",
+        "id": "Tabel cakupan"
+       },
+       "def": {
+        "en": "Dossier item 4: each must-have, where it appears, its evidence sentence and its status.",
+        "id": "Butir Dossier 4: setiap syarat wajib, di mana muncul, kalimat buktinya, dan statusnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Honest close",
+        "id": "Penutup jujur"
+       },
+       "def": {
+        "en": "One of four ways to handle a gap: rephrase, evidence, learn, accept.",
+        "id": "Satu dari empat cara menangani celah: ubah kata, bukti, pelajari, terima."
+       }
+      },
+      {
+       "term": {
+        "en": "Must / should",
+        "id": "Wajib / sebaiknya"
+       },
+       "def": {
+        "en": "A hard requirement that ends the application if unmet, versus a desirable one that affects ranking.",
+        "id": "Syarat mutlak yang mengakhiri lamaran jika tidak terpenuhi, versus syarat tambahan yang memengaruhi peringkat."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The advertisement says “data analysis”. Your CV says “I analysed sales numbers” in a bullet.",
+        "id": "Iklan menyebut “data analysis”. CV-mu menyebut “saya menganalisis angka penjualan” dalam sebuah butir."
+       },
+       "options": [
+        {
+         "en": "Covered",
+         "id": "Tercakup"
+        },
+        {
+         "en": "Rephrase to include “data analysis” in the evidence sentence",
+         "id": "Ubah kata untuk memasukkan “data analysis” ke dalam kalimat bukti"
+        },
+        {
+         "en": "Add “data analysis” to a keywords list",
+         "id": "Tambahkan “data analysis” ke daftar kata kunci"
+        },
+        {
+         "en": "Ignore it",
+         "id": "Abaikan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The evidence exists; the exact form is missing. Rephrase inside the true sentence.",
+        "id": "Buktinya ada; bentuk persisnya hilang. Ubah kata di dalam kalimat yang benar."
+       }
+      },
+      {
+       "q": {
+        "en": "Which is an honest close for a missing “Power BI” should-have?",
+        "id": "Mana penutup jujur untuk syarat sebaiknya “Power BI” yang tidak ada?"
+       },
+       "options": [
+        {
+         "en": "List Power BI anyway",
+         "id": "Cantumkan Power BI saja"
+        },
+        {
+         "en": "Start a short course and state “currently completing Power BI fundamentals (due Oct 2026)”",
+         "id": "Mulai kursus singkat dan nyatakan “sedang menyelesaikan dasar-dasar Power BI (selesai Okt 2026)”"
+        },
+        {
+         "en": "Hide it in white text",
+         "id": "Sembunyikan dengan teks putih"
+        },
+        {
+         "en": "Claim you used it at an internship",
+         "id": "Klaim pernah memakainya saat magang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "“Learn” is honest and credible; the other three are claims you cannot evidence.",
+        "id": "“Pelajari” itu jujur dan kredibel; tiga lainnya adalah klaim yang tidak bisa kamu buktikan."
+       }
+      },
+      {
+       "q": {
+        "en": "You meet all hard requirements and about 70% of the rest.",
+        "id": "Kamu memenuhi semua syarat mutlak dan sekitar 70% sisanya."
+       },
+       "options": [
+        {
+         "en": "Don’t apply",
+         "id": "Jangan melamar"
+        },
+        {
+         "en": "Apply with honest evidence",
+         "id": "Lamar dengan bukti yang jujur"
+        },
+        {
+         "en": "Apply only after meeting 100%",
+         "id": "Lamar hanya setelah memenuhi 100%"
+        },
+        {
+         "en": "Rewrite facts to reach 100%",
+         "id": "Tulis ulang fakta agar mencapai 100%"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Musts met and two-thirds of the rest is the threshold; advertisements describe an ideal.",
+        "id": "Syarat mutlak terpenuhi dan dua pertiga sisanya adalah ambangnya; iklan menggambarkan sosok ideal."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "ats",
+      "title": {
+       "en": "Run the transparent check",
+       "id": "Jalankan pemeriksaan transparan"
+      },
+      "body": {
+       "en": "Paste one advertisement and your tailored CV into the ATS check: it lists each keyword with ✓ / ✎ / ✗ and suggests rephrases — never inserting anything for you. Save the table; it is Dossier item 4.",
+       "id": "Tempel satu iklan dan CV tersesuaikanmu ke pemeriksaan ATS: ia mendaftar setiap kata kunci dengan ✓ / ✎ / ✗ dan menyarankan perubahan kata — tidak pernah menyisipkan apa pun untukmu. Simpan tabelnya; itu butir Dossier 4."
+      },
+      "cta": {
+       "en": "Open the ATS check →",
+       "id": "Buka pemeriksaan ATS →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Every must-have, once, exact form, in true evidence.",
+       "id": "Setiap syarat wajib, sekali, bentuk persis, di dalam bukti yang benar."
+      },
+      {
+       "en": "Four honest closes: rephrase, evidence, learn, accept.",
+       "id": "Empat penutup jujur: ubah kata, bukti, pelajari, terima."
+      },
+      {
+       "en": "Meet the musts and most of the rest — then apply.",
+       "id": "Penuhi syarat mutlak dan sebagian besar sisanya — lalu lamar."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the table",
+       "id": "Sumber dan tabel"
+      },
+      "lead": {
+       "en": "The coverage table as a template.",
+       "id": "Tabel cakupan sebagai templat."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 4.3",
+         "id": "Daftar bacaan · Pelajaran 4.3"
+        },
+        "desc": {
+         "en": "Six sources.",
+         "id": "Enam sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 17 — keyword density (one side of the debate).",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 17 — kepadatan kata kunci (satu sisi perdebatan)."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 18 — weaving keywords.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 18 — menjalin kata kunci."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, 6.1 — exact form; never paste the requirements block.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1, 6.1 — bentuk persis; jangan pernah tempel blok persyaratan."
+         },
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5 — market-standard titles.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5 — nama jabatan standar pasar."
+         },
+         {
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 5 — keywords tested at interview.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 5 — kata kunci diuji saat wawancara."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call…</i> (2021) — the 2017 LinkedIn application-threshold data (dated).",
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021) — data ambang melamar LinkedIn 2017 (lawas)."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Coverage table · one row per must-have",
+         "id": "Tabel cakupan · satu baris per syarat wajib"
+        },
+        "desc": {
+         "en": "Copy into a spreadsheet; save per application.",
+         "id": "Salin ke spreadsheet; simpan per lamaran."
+        },
+        "body": [
+         {
+          "en": "Keyword (exact form) · must / should · where on my CV · evidence sentence · status ✓ / ✎ / ✗ · close (rephrase / evidence / learn / accept)",
+          "id": "Kata kunci (bentuk persis) · wajib / sebaiknya · di mana di CV-ku · kalimat bukti · status ✓ / ✎ / ✗ · penutup (ubah kata / bukti / pelajari / terima)"
+         },
+         {
+          "en": "Decision: all musts met? ___ · shoulds covered ___ of ___ (≈ two-thirds?) · apply: yes / no",
+          "id": "Keputusan: semua syarat mutlak terpenuhi? ___ · syarat sebaiknya tercakup ___ dari ___ (≈ dua pertiga?) · lamar: ya / tidak"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "4.4",
-     "title": {
-      "en": "The Precise Applicant Mindset — Navigating Automated Recruitment Systems",
-      "id": "Pola Pikir Pelamar yang Presisi — Menghadapi Sistem Rekrutmen Otomatis"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "interactive",
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Seleksi Administrasi — Criteria, Completeness, Consistency",
+      "id": "Seleksi Administrasi — Syarat, Kelengkapan, Konsistensi"
+     },
      "overview": {
-      "en": "The precise-applicant mindset in practice: three drills that convert this module's mechanics into reflexes — a full pre-flight on a real application, a consistency sweep across your documents, and a triage of borderline requirements.",
-      "id": "Pola pikir pelamar yang presisi dalam praktik: tiga latihan yang mengubah mekanisme modul ini menjadi refleks — pemeriksaan pra-kirim yang lengkap pada lamaran sungguhan, penyisiran konsistensi di semua dokumenmu, dan triase atas persyaratan yang berada di batas."
+      "en": "In Indonesian process-track recruitment, the administrative stage is where strong candidates are most often lost — on a missing file, a wrong format, a major named slightly differently from the accepted list. This lesson teaches a method for decoding requirements and a pre-flight check that makes these losses rare.",
+      "id": "Dalam rekrutmen jalur proses di Indonesia, tahap administrasi adalah tempat kandidat kuat paling sering gugur — karena berkas yang hilang, format yang salah, jurusan yang namanya sedikit berbeda dari daftar yang diterima. Pelajaran ini mengajarkan metode menguraikan persyaratan dan pemeriksaan pra-kirim yang membuat kegagalan itu jarang terjadi."
      },
      "objectives": [
       {
-       "en": "Execute the full pre-flight on a live application end-to-end.",
-       "id": "Menjalankan pemeriksaan pra-kirim yang lengkap pada lamaran sungguhan, dari awal sampai akhir."
+       "en": "Decode each requirement into competency, qualifier, context and importance.",
+       "id": "Menguraikan setiap persyaratan menjadi kompetensi, kualifikasi, konteks, dan tingkat kepentingan."
       },
       {
-       "en": "Sweep and reconcile inconsistencies across CV, LinkedIn and forms.",
-       "id": "Menyisir dan menyelaraskan ketidakcocokan di CV, LinkedIn, dan formulir."
+       "en": "Build a pre-flight checklist from any advertisement.",
+       "id": "Membangun daftar periksa pra-kirim dari iklan apa pun."
       },
       {
-       "en": "Triage borderline requirements into apply / adjust / skip decisions.",
-       "id": "Men-triase persyaratan yang berada di batas menjadi keputusan lamar / sesuaikan / lewati."
+       "en": "Run a consistency sweep across CV, form and LinkedIn.",
+       "id": "Menjalankan sapuan konsistensi di CV, formulir, dan LinkedIn."
+      },
+      {
+       "en": "Answer knockout questions accurately and handle “must” versus “should”.",
+       "id": "Menjawab pertanyaan gugur dengan akurat dan menangani “wajib” versus “sebaiknya”."
       }
      ],
-     "takeawaysLead": {
-      "en": "Precision is a habit loop, not a talent: checklist, sweep, triage. To make it a reflex, you can:",
-      "id": "Presisi adalah lingkaran kebiasaan, bukan bakat: daftar periksa, penyisiran, pemilahan. Untuk menjadikannya refleks, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The instruction is the test",
+       "id": "Petunjuk adalah ujiannya"
+      },
+      "intro": {
+       "en": "Requirements have an anatomy, Indonesian portals have a checklist, and every submission gets a three-to-ten-minute pre-flight.",
+       "id": "Persyaratan punya anatomi, portal Indonesia punya daftar periksa, dan setiap pengiriman mendapat pra-kirim tiga sampai sepuluh menit."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Anatomy of a requirement",
+         "id": "Anatomi sebuah persyaratan"
+        },
+        "points": [
+         {
+          "en": "Competency · qualifier · context · importance (essential or desirable).",
+          "id": "Kompetensi · kualifikasi · konteks · tingkat kepentingan (esensial atau tambahan)."
+         },
+         {
+          "en": "“Demonstrated” means you must show you have done it. Essential means a gate.",
+          "id": "“Terbukti” berarti kamu harus menunjukkan pernah melakukannya. Esensial berarti gerbang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Indonesian checklist",
+         "id": "Daftar periksa Indonesia"
+        },
+        "points": [
+         {
+          "en": "Eligibility · language certificates · documents · file specs · declarations · form fields.",
+          "id": "Kelayakan · sertifikat bahasa · dokumen · spesifikasi berkas · pernyataan · kolom formulir."
+         },
+         {
+          "en": "Treat every stated requirement as essential, and verify each programme’s rules every cycle.",
+          "id": "Perlakukan setiap persyaratan yang dinyatakan sebagai esensial, dan periksa aturan setiap program setiap siklus."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The pre-flight",
+         "id": "Pra-kirim"
+        },
+        "points": [
+         {
+          "en": "Parse test · coverage check · requirement triage · document check · consistency sweep · knockout answers · submit and track.",
+          "id": "Uji urai · pemeriksaan cakupan · triase persyaratan · pemeriksaan dokumen · sapuan konsistensi · jawaban gugur · kirim dan catat."
+         },
+         {
+          "en": "Three to ten minutes, every time. One record, many formats.",
+          "id": "Tiga sampai sepuluh menit, setiap kali. Satu rekaman, banyak format."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Precision is a habit loop, not a talent: checklist, sweep, triage — every application, every time.",
-       "id": "Presisi adalah kebiasaan yang berulang, bukan bakat: daftar periksa, penyisiran, triase — di setiap lamaran, setiap kali."
-      },
-      {
-       "en": "Your documents form one record in the employer's eyes; make them one record in fact.",
-       "id": "Di mata perusahaan, dokumen-dokumenmu adalah satu catatan; jadikan benar-benar satu catatan."
-      },
-      {
-       "en": "Skipping an unwinnable application is a win: the hour goes to one you can convert.",
-       "id": "Melewati lamaran yang mustahil dimenangkan adalah sebuah kemenangan: jam itu berpindah ke lamaran yang bisa kamu konversi."
-      }
-     ],
      "sections": [
+      {
+       "icon": "target",
+       "h": {
+        "en": "Anatomy of a requirement",
+        "id": "Anatomi sebuah persyaratan"
+       },
+       "body": {
+        "en": "Bright &amp; Earl’s method for public-sector <i>selection criteria</i> translates directly to Indonesian administrative screening <i>(How to Write a Brilliant CV, ch. 15)</i>. Each requirement has a <b>competency</b> (e.g., communication, analysis); a <b>qualifier</b> — the level required; a <b>context</b> — where it must be shown; and an <b>importance</b> — <i>essential</i> (fail it and you are out) or <i>desirable</i> (raises your ranking). The qualifier decoder:",
+        "id": "Metode Bright &amp; Earl untuk <i>kriteria seleksi</i> sektor publik berlaku langsung pada seleksi administrasi Indonesia <i>(How to Write a Brilliant CV, bab 15)</i>. Setiap persyaratan punya <b>kompetensi</b> (mis. komunikasi, analisis); <b>kualifikasi</b> — tingkat yang diminta; <b>konteks</b> — di mana harus ditunjukkan; dan <b>tingkat kepentingan</b> — <i>esensial</i> (gagal berarti gugur) atau <i>tambahan</i> (menaikkan peringkat). Pengurai kualifikasi:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "The advertisement says",
+          "id": "Iklan berkata"
+         },
+         {
+          "en": "It usually means",
+          "id": "Biasanya berarti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“excellent / strong / outstanding”",
+           "id": "“sangat baik / kuat / unggul”"
+          },
+          {
+           "en": "Reasonably good — use positive language yourself",
+           "id": "Cukup baik — pakai bahasa positif sendiri"
+          }
+         ],
+         [
+          {
+           "en": "“knowledge of / understanding of”",
+           "id": "“pengetahuan tentang / pemahaman tentang”"
+          },
+          {
+           "en": "Show you know what it is, with named examples",
+           "id": "Tunjukkan kamu tahu apa itu, dengan contoh bernama"
+          }
+         ],
+         [
+          {
+           "en": "“<b>demonstrated</b> ability”",
+           "id": "“kemampuan yang <b>terbukti</b>”"
+          },
+          {
+           "en": "You must show you have <i>done</i> it — a specific example with context and result",
+           "id": "Kamu harus menunjukkan pernah <i>melakukannya</i> — contoh spesifik dengan konteks dan hasil"
+          }
+         ],
+         [
+          {
+           "en": "“experience in”",
+           "id": "“pengalaman di”"
+          },
+          {
+           "en": "Work evidence first, training second",
+           "id": "Bukti kerja lebih dulu, pelatihan kedua"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "flag",
+       "img": "../../assets/bg/gauntlet/gate-01-submission.jpg",
+       "imgPos": "center 40%",
+       "h": {
+        "en": "The Indonesian administrative checklist",
+        "id": "Daftar periksa administrasi Indonesia"
+       },
+       "body": {
+        "en": "Treat every stated requirement as essential <span class=\"ev ev-verify\">Verify for each programme, every cycle</span>. Programme rules change annually; the categories do not.",
+        "id": "Perlakukan setiap persyaratan yang dinyatakan sebagai esensial <span class=\"ev ev-verify\">Periksa untuk setiap program, setiap siklus</span>. Aturan program berubah tiap tahun; kategorinya tidak."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Category",
+          "id": "Kategori"
+         },
+         {
+          "en": "Typical requirements",
+          "id": "Persyaratan khas"
+         },
+         {
+          "en": "Common failure",
+          "id": "Kegagalan umum"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Eligibility</b>",
+           "id": "<b>Kelayakan</b>"
+          },
+          {
+           "en": "Minimum IPK (sometimes different for state and private universities); maximum age; graduation year; accepted majors (<i>jurusan</i>)",
+           "id": "IPK minimum (kadang berbeda untuk PTN dan PTS); usia maksimum; tahun lulus; jurusan yang diterima"
+          },
+          {
+           "en": "Applying just outside a rule; major named differently from the list",
+           "id": "Melamar sedikit di luar aturan; jurusan dinamai berbeda dari daftar"
+          }
+         ],
+         [
+          {
+           "en": "<b>Language</b>",
+           "id": "<b>Bahasa</b>"
+          },
+          {
+           "en": "TOEFL ITP / TOEIC / IELTS minimum; score validity (often 2 years)",
+           "id": "Minimum TOEFL ITP / TOEIC / IELTS; masa berlaku skor (sering 2 tahun)"
+          },
+          {
+           "en": "Expired certificate",
+           "id": "Sertifikat kedaluwarsa"
+          }
+         ],
+         [
+          {
+           "en": "<b>Documents</b>",
+           "id": "<b>Dokumen</b>"
+          },
+          {
+           "en": "CV; <i>ijazah</i> or <i>Surat Keterangan Lulus</i>; transcript; KTP scan; <i>pas foto</i>; sometimes <i>SKCK</i>, health letter, signed statements",
+           "id": "CV; <i>ijazah</i> atau <i>Surat Keterangan Lulus</i>; transkrip; pindaian KTP; <i>pas foto</i>; kadang <i>SKCK</i>, surat kesehatan, pernyataan bertanda tangan"
+          },
+          {
+           "en": "Missing file; unreadable scan",
+           "id": "Berkas hilang; pindaian tidak terbaca"
+          }
+         ],
+         [
+          {
+           "en": "<b>File specs</b>",
+           "id": "<b>Spesifikasi berkas</b>"
+          },
+          {
+           "en": "Format (PDF/JPG); maximum size; naming convention",
+           "id": "Format (PDF/JPG); ukuran maksimum; konvensi penamaan"
+          },
+          {
+           "en": "4 MB scan where 1 MB allowed",
+           "id": "Pindaian 4 MB padahal batasnya 1 MB"
+          }
+         ],
+         [
+          {
+           "en": "<b>Declarations</b>",
+           "id": "<b>Pernyataan</b>"
+          },
+          {
+           "en": "Willingness to be placed anywhere (<i>bersedia ditempatkan di seluruh Indonesia</i>); bond (<i>ikatan dinas</i>); not currently in another programme",
+           "id": "Kesediaan ditempatkan di mana saja (<i>bersedia ditempatkan di seluruh Indonesia</i>); ikatan dinas; tidak sedang mengikuti program lain"
+          },
+          {
+           "en": "Ticking “yes” without meaning it",
+           "id": "Mencentang “ya” tanpa bersungguh-sungguh"
+          }
+         ],
+         [
+          {
+           "en": "<b>Form fields</b>",
+           "id": "<b>Kolom formulir</b>"
+          },
+          {
+           "en": "Every field complete and matching the CV",
+           "id": "Setiap kolom lengkap dan sesuai CV"
+          },
+          {
+           "en": "Blank optional fields; inconsistent dates",
+           "id": "Kolom opsional dibiarkan kosong; tanggal tidak konsisten"
+          }
+         ]
+        ]
+       }
+      },
       {
        "icon": "gear",
        "h": {
-        "en": "Why precision reads as competence",
-        "id": "Mengapa presisi terbaca sebagai kompetensi"
+        "en": "The pre-flight routine",
+        "id": "Rutinitas pra-kirim"
        },
        "body": {
-        "en": "Administrative screening is the one funnel stage where the skill being tested is exactly the skill of passing it: reading instructions completely, keeping records consistent, meeting specifications. Employers treat it as a preview of how you will handle their reports, their client emails, their compliance forms. That is why this module ends with drills, not theory — the mindset must survive contact with a real portal on a real deadline.",
-        "id": "Seleksi administrasi adalah satu-satunya tahap corong yang keterampilan diujinya persis sama dengan keterampilan untuk melewatinya: membaca instruksi sampai tuntas, menjaga data tetap konsisten, memenuhi spesifikasi. Perusahaan memperlakukannya sebagai cuplikan bagaimana kamu nanti menangani laporan mereka, email klien mereka, formulir kepatuhan mereka. Karena itulah modul ini ditutup dengan latihan, bukan teori — pola pikirnya harus bertahan saat berhadapan dengan portal sungguhan pada tenggat sungguhan."
+        "en": "Before any submission, seven steps. Three to ten minutes, every time.",
+        "id": "Sebelum pengiriman apa pun, tujuh langkah. Tiga sampai sepuluh menit, setiap kali."
+       },
+       "bullets": [
+        {
+         "en": "<b>Parse test</b> (Lesson 4.2).",
+         "id": "<b>Uji urai</b> (Pelajaran 4.2)."
+        },
+        {
+         "en": "<b>Coverage check</b> (Lesson 4.3).",
+         "id": "<b>Pemeriksaan cakupan</b> (Pelajaran 4.3)."
+        },
+        {
+         "en": "<b>Requirement triage</b> — every must: met? evidenced? Every should: how many?",
+         "id": "<b>Triase persyaratan</b> — setiap syarat wajib: terpenuhi? dibuktikan? Setiap syarat sebaiknya: berapa banyak?"
+        },
+        {
+         "en": "<b>Document check</b> — every file present, readable, correct format and size, correctly named (e.g., <code>NadiaPutri_Ijazah.pdf</code>).",
+         "id": "<b>Pemeriksaan dokumen</b> — setiap berkas ada, terbaca, format dan ukuran benar, dinamai dengan benar (mis. <code>NadiaPutri_Ijazah.pdf</code>)."
+        },
+        {
+         "en": "<b>Consistency sweep</b> — names, dates, titles, IPK and institution identical across CV, portal form, LinkedIn and letter.",
+         "id": "<b>Sapuan konsistensi</b> — nama, tanggal, jabatan, IPK, dan institusi identik di CV, formulir portal, LinkedIn, dan surat."
+        },
+        {
+         "en": "<b>Knockout answers</b> — every eligibility question answered accurately.",
+         "id": "<b>Jawaban gugur</b> — setiap pertanyaan kelayakan dijawab dengan akurat."
+        },
+        {
+         "en": "<b>Submit and track</b> — screenshot the confirmation; log it with the CV version.",
+         "id": "<b>Kirim dan catat</b> — tangkap layar konfirmasi; catat bersama versi CV."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Consistency is a criterion",
+        "id": "Konsistensi adalah kriteria"
+       },
+       "body": {
+        "en": "Inconsistencies between your documents read, at best, as carelessness and, at worst, as dishonesty <i>(Knowles, How to Write an Outstanding CV, ch. 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Recruiters compare the CV with LinkedIn and with what you typed into the form. Common mismatches: internship dates differing by a month; “Bendahara” on one document and “Treasurer” with a different period on another; IPK rounded differently (3,38 on the CV, 3,4 in the form). One record, many formats: the pantry from Lesson 3.3 is the single source, and every document copies from it.",
+        "id": "Ketidakkonsistenan antardokumenmu terbaca, paling ringan, sebagai kecerobohan dan, paling berat, sebagai ketidakjujuran <i>(Knowles, How to Write an Outstanding CV, bab 16; Simunovic, How to Write an Effective CV &amp; Cover Letter, §6.2)</i>. Perekrut membandingkan CV dengan LinkedIn dan dengan yang kamu ketik di formulir. Ketidakcocokan umum: tanggal magang berbeda sebulan; “Bendahara” di satu dokumen dan “Treasurer” dengan periode berbeda di dokumen lain; IPK dibulatkan berbeda (3,38 di CV, 3,4 di formulir). Satu rekaman, banyak format: lemari dari Pelajaran 3.3 adalah sumber tunggal, dan setiap dokumen menyalin darinya."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Knockout questions — answer truthfully",
+        "id": "Pertanyaan gugur — jawab dengan jujur"
+       },
+       "body": {
+        "en": "“Are you willing to be placed anywhere in Indonesia?” “Do you have a TOEFL score of at least 500?” These questions are the most efficient filters in the funnel. Answer them accurately. A false “yes” may pass the software and then end your candidacy — or your employment — when discovered; programmes with placement and bond commitments take these answers seriously, and a signed declaration is a document. If the honest answer is “no”, the posting is telling you something about fit, not about your worth.",
+        "id": "“Apakah Anda bersedia ditempatkan di seluruh Indonesia?” “Apakah Anda memiliki skor TOEFL minimal 500?” Pertanyaan-pertanyaan ini adalah saringan paling efisien di corong. Jawab dengan akurat. “Ya” yang palsu mungkin lolos perangkat lunak lalu mengakhiri pencalonanmu — atau pekerjaanmu — ketika ketahuan; program dengan komitmen penempatan dan ikatan dinas menganggap jawaban ini serius, dan pernyataan bertanda tangan adalah dokumen. Jika jawaban jujurnya “tidak”, lowongan itu memberi tahu sesuatu tentang kecocokan, bukan tentang nilaimu."
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Submitting by email",
+        "id": "Mengirim lewat email"
+       },
+       "body": {
+        "en": "Where applications go by email <i>(Innes, The CV Book, ch. 2; Simunovic, §7.3)</i>: subject line <code>Lamaran — [Posisi] — [Nama Lengkap]</code>, or the format the advertisement specifies; the cover letter in the email body; files attached with clear names; a proper signature with phone number; never CC multiple employers. Send it to yourself first to see what the recruiter will see — attachments included, names visible, nothing missing.",
+        "id": "Ketika lamaran dikirim lewat email <i>(Innes, The CV Book, bab 2; Simunovic, §7.3)</i>: baris subjek <code>Lamaran — [Posisi] — [Nama Lengkap]</code>, atau format yang ditentukan iklan; surat lamaran di badan email; berkas dilampirkan dengan nama jelas; tanda tangan yang layak dengan nomor telepon; jangan pernah CC beberapa perusahaan. Kirim ke dirimu sendiri lebih dulu untuk melihat apa yang akan dilihat perekrut — termasuk lampiran, nama terlihat, tidak ada yang hilang."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Walkthrough: eight fields on a fictional ODP portal",
+        "id": "Penelusuran: delapan kolom di portal ODP fiktif"
+       },
+       "body": {
+        "en": "Bank Sinar Nusantara’s portal is fictional, but its fields are the ones you will meet. Eight places where applications fail, and what to do at each.",
+        "id": "Portal Bank Sinar Nusantara fiktif, tetapi kolom-kolomnya adalah yang akan kamu temui. Delapan tempat lamaran gagal, dan apa yang harus dilakukan di masing-masing."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Field",
+          "id": "Kolom"
+         },
+         {
+          "en": "What to do",
+          "id": "Apa yang harus dilakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>IPK</b>",
+           "id": "<b>IPK</b>"
+          },
+          {
+           "en": "Exact, in the portal’s format: 3,38 — never rounded to 3,4",
+           "id": "Tepat, dalam format portal: 3,38 — jangan dibulatkan ke 3,4"
+          }
+         ],
+         [
+          {
+           "en": "<b>Jurusan drop-down</b>",
+           "id": "<b>Menu jurusan</b>"
+          },
+          {
+           "en": "Select the accepted name for your major (“Manajemen”), not “Other”",
+           "id": "Pilih nama jurusanmu yang diterima (“Manajemen”), bukan “Lainnya”"
+          }
+         ],
+         [
+          {
+           "en": "<b>TOEFL upload</b>",
+           "id": "<b>Unggahan TOEFL</b>"
+          },
+          {
+           "en": "Check the test date against the validity window before uploading",
+           "id": "Periksa tanggal tes terhadap masa berlaku sebelum mengunggah"
+          }
+         ],
+         [
+          {
+           "en": "<b>KTP upload</b>",
+           "id": "<b>Unggahan KTP</b>"
+          },
+          {
+           "en": "A legible scan within the size limit; the number goes here and nowhere else",
+           "id": "Pindaian terbaca dalam batas ukuran; nomornya di sini dan tidak di tempat lain"
+          }
+         ],
+         [
+          {
+           "en": "<b>Photo upload</b>",
+           "id": "<b>Unggahan foto</b>"
+          },
+          {
+           "en": "Separate file, the specified background and size — not pasted into the CV",
+           "id": "Berkas terpisah, latar dan ukuran yang ditentukan — bukan ditempel ke CV"
+          }
+         ],
+         [
+          {
+           "en": "<b>“Bersedia ditempatkan” checkbox</b>",
+           "id": "<b>Kotak “bersedia ditempatkan”</b>"
+          },
+          {
+           "en": "Truthful. It is a declaration, not a formality",
+           "id": "Jujur. Ini pernyataan, bukan formalitas"
+          }
+         ],
+         [
+          {
+           "en": "<b>Optional “organisational experience” field</b>",
+           "id": "<b>Kolom opsional “pengalaman organisasi”</b>"
+          },
+          {
+           "en": "Fill it — for graduates it is evidence, and blank optional fields lose ranking",
+           "id": "Isi — bagi lulusan baru itu bukti, dan kolom opsional yang kosong kehilangan peringkat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Confirmation screen</b>",
+           "id": "<b>Layar konfirmasi</b>"
+          },
+          {
+           "en": "Screenshot it; log the date and CV version in the tracker",
+           "id": "Tangkap layarnya; catat tanggal dan versi CV di pelacak"
+          }
+         ]
+        ]
        }
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The precise applicant's loop — three drills that run on every application, forever.",
-       "id": "Peraga 1: Lingkaran pelamar presisi — tiga latihan yang berjalan pada setiap lamaran, selamanya."
+       "en": "Exhibit 14: The seven-step pre-flight",
+       "id": "Peraga 14: Pra-kirim tujuh langkah"
       },
       "title": {
-       "en": "Pre-flight → Sweep → Triage → Submit → Track",
-       "id": "Pra-kirim → Sisir → Pilah → Kirim → Lacak"
+       "en": "Three to ten minutes before every submission",
+       "id": "Tiga sampai sepuluh menit sebelum setiap pengiriman"
       },
       "items": [
        {
+        "icon": "gear",
         "h": {
-         "en": "Pre-flight",
-         "id": "Pra-kirim"
+         "en": "1 · Parse test",
+         "id": "1 · Uji urai"
         },
         "sub": {
-         "en": "Parse test, coverage check, knockout review",
-         "id": "Uji pengurai, pemeriksaan cakupan, tinjauan penggugur"
+         "en": "Plain text reads in order with dates attached.",
+         "id": "Teks polos terbaca berurutan dengan tanggal melekat."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Sweep",
-         "id": "Sisir"
+         "en": "2 · Coverage check",
+         "id": "2 · Pemeriksaan cakupan"
         },
         "sub": {
-         "en": "Every document reconciled to the master record",
-         "id": "Setiap dokumen diselaraskan ke catatan induk"
+         "en": "Every must-have, exact form, in true evidence.",
+         "id": "Setiap syarat wajib, bentuk persis, di dalam bukti yang benar."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Triage",
-         "id": "Pilah"
+         "en": "3 · Requirement triage",
+         "id": "3 · Triase persyaratan"
         },
         "sub": {
-         "en": "Skip unwinnable musts; argue shoulds with evidence",
-         "id": "Lewati wajib yang tak terpenuhi; argumenkan diutamakan dengan bukti"
+         "en": "Musts met and evidenced; shoulds counted.",
+         "id": "Syarat wajib terpenuhi dan dibuktikan; syarat sebaiknya dihitung."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Submit",
-         "id": "Kirim"
+         "en": "4 · Document check",
+         "id": "4 · Pemeriksaan dokumen"
         },
         "sub": {
-         "en": "Instructions followed exactly, files named as asked",
-         "id": "Instruksi diikuti persis, berkas dinamai sesuai permintaan"
+         "en": "Present · readable · format · size · named.",
+         "id": "Ada · terbaca · format · ukuran · dinamai."
         }
        },
        {
+        "icon": "eye",
         "h": {
-         "en": "Track",
-         "id": "Lacak"
+         "en": "5 · Consistency sweep",
+         "id": "5 · Sapuan konsistensi"
         },
         "sub": {
-         "en": "Logged in the tracker so the screen rate can be read",
-         "id": "Dicatat di pelacak sehingga tingkat lolos seleksi bisa dibaca"
+         "en": "CV, form, LinkedIn, letter: identical names, dates, titles, IPK.",
+         "id": "CV, formulir, LinkedIn, surat: nama, tanggal, jabatan, IPK identik."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "6 · Knockout answers",
+         "id": "6 · Jawaban gugur"
+        },
+        "sub": {
+         "en": "Accurate. A declaration is a document.",
+         "id": "Akurat. Pernyataan adalah dokumen."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "7 · Submit and track",
+         "id": "7 · Kirim dan catat"
+        },
+        "sub": {
+         "en": "Screenshot the confirmation; log the CV version.",
+         "id": "Tangkap layar konfirmasi; catat versi CV."
         }
        }
       ],
+      "note": {
+       "en": "The Pre-flight Checklist is Dossier item 4, generated per application and reused.",
+       "id": "Daftar Periksa Pra-kirim adalah butir Dossier 4, dibuat per lamaran dan dipakai ulang."
+      },
       "longdesc": {
-       "en": "A five-step ring: run the pre-flight checks, sweep every document for consistency against the master record, triage the requirements to decide whether the application is winnable, submit exactly as instructed, and log the application in the tracker — then repeat for the next one.",
-       "id": "Cincin lima langkah: jalankan pemeriksaan pra-kirim, sisir setiap dokumen untuk konsistensi terhadap catatan induk, pilah persyaratan untuk memutuskan apakah lamaran itu bisa dimenangkan, kirim persis sesuai instruksi, dan catat lamaran di pelacak — lalu ulangi untuk lamaran berikutnya."
+       "en": "A seven-step timeline run before every submission: parse test, coverage check, requirement triage, document check, consistency sweep, knockout answers, then submit and track with a screenshot of the confirmation and the CV version logged.",
+       "id": "Lini masa tujuh langkah yang dijalankan sebelum setiap pengiriman: uji urai, pemeriksaan cakupan, triase persyaratan, pemeriksaan dokumen, sapuan konsistensi, jawaban gugur, lalu kirim dan catat dengan tangkapan layar konfirmasi dan versi CV yang dicatat."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "consistency sweep",
-        "id": "penyisiran konsistensi"
+       "tag": {
+        "en": "Two answers to a knockout",
+        "id": "Dua jawaban untuk pertanyaan gugur"
        },
-       "def": {
-        "en": "Opening your CV, LinkedIn and a submitted form side by side and reconciling every date, title, GPA, employer and certification name to the master record.",
-        "id": "Membuka CV, LinkedIn, dan satu formulir yang sudah dikirim berdampingan lalu menyelaraskan setiap tanggal, jabatan, IPK, pemberi kerja, dan nama sertifikasi ke catatan induk."
-       }
-      },
-      {
-       "term": {
-        "en": "requirement triage",
-        "id": "pemilahan persyaratan"
+       "q": {
+        "en": "The ODP form asks: “Bersedia ditempatkan di seluruh Indonesia?” Nadia’s family would prefer she stays in Central Java, but she has decided she would go.",
+        "id": "Formulir ODP bertanya: “Bersedia ditempatkan di seluruh Indonesia?” Keluarga Nadia lebih suka ia tetap di Jawa Tengah, tetapi ia sudah memutuskan akan pergi."
        },
-       "def": {
-        "en": "Sorting a JD's requirements into unwinnable musts (skip), arguable shoulds (apply with evidence) and ambiguous lines (apply with your best case) — so the hour goes to an application you can convert.",
-        "id": "Memilah persyaratan JD menjadi wajib yang tak terpenuhi (lewati), diutamakan yang bisa diargumenkan (lamar dengan bukti), dan baris yang ambigu (lamar dengan kasus terbaikmu) — sehingga jam yang ada pergi ke lamaran yang bisa kamu konversi."
+       "weak": {
+        "en": "Ticks “yes” for the FMCG role too, although she knows she would refuse a posting outside Java there, “to keep options open”.",
+        "id": "Mencentang “ya” juga untuk peran FMCG, meski ia tahu akan menolak penempatan di luar Jawa di sana, “supaya pilihan tetap terbuka”."
+       },
+       "strong": {
+        "en": "Ticks “yes” for the bank, because it is true. For the FMCG role, where she would not relocate, she does not apply to the placement-anywhere track and looks for the regional posting instead.",
+        "id": "Mencentang “ya” untuk bank, karena itu benar. Untuk peran FMCG, tempat ia tidak akan pindah, ia tidak melamar jalur penempatan di mana saja dan mencari lowongan regional sebagai gantinya."
+       },
+       "why": {
+        "en": "A declaration is a document. The weak answer passes the software and fails at the offer stage, or after it. The strong answer keeps every application she makes truthful, and finds a better-fitting posting.",
+        "id": "Pernyataan adalah dokumen. Jawaban lemah lolos perangkat lunak dan gagal di tahap tawaran, atau setelahnya. Jawaban kuat menjaga setiap lamarannya tetap jujur, dan menemukan lowongan yang lebih cocok."
        }
       }
      ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the major that was not on the list",
+       "id": "Sorotan: jurusan yang tidak ada di daftar"
+      },
+      "body": [
+       {
+        "en": "PT Rel Nusantara’s joint-recruitment-style portal lists accepted majors in a drop-down. Raka’s transcript reads “S1 Teknik Industri”; the list has “Teknik Industri” but he skims past it and selects “Teknik Lainnya” because his faculty is called Fakultas Teknik. The administrative filter rejects him: “Lainnya” is not an accepted major.",
+        "id": "Portal bergaya rekrutmen bersama PT Rel Nusantara mencantumkan jurusan yang diterima dalam menu tarik-turun. Transkrip Raka berbunyi “S1 Teknik Industri”; daftarnya memuat “Teknik Industri” tetapi ia melewatinya dan memilih “Teknik Lainnya” karena fakultasnya bernama Fakultas Teknik. Saringan administrasi menolaknya: “Lainnya” bukan jurusan yang diterima."
+       },
+       {
+        "en": "Nothing about his degree was wrong. One drop-down was. He finds out four weeks later, when the announcement lists the reason, and the next window is a year away.",
+        "id": "Tidak ada yang salah dengan gelarnya. Satu menu tarik-turun yang salah. Ia mengetahuinya empat minggu kemudian, ketika pengumuman mencantumkan alasannya, dan jendela berikutnya setahun lagi."
+       },
+       {
+        "en": "The pre-flight’s consistency sweep — “does every field match the transcript exactly?” — takes forty seconds and would have caught it.",
+        "id": "Sapuan konsistensi pra-kirim — “apakah setiap kolom sesuai transkrip persis?” — memakan empat puluh detik dan akan menangkapnya."
+       }
+      ]
+     },
      "steps": [
       {
        "h": {
-        "en": "Drill 1 — Full pre-flight, live",
-        "id": "Latihan 1 — Pemeriksaan pra-kirim lengkap, pada lamaran sungguhan"
+        "en": "Drill 1 — Decode five requirements",
+        "id": "Latihan 1 — Uraikan lima persyaratan"
        },
        "body": {
-        "en": "Take one application you intend to submit this week. Run the sequence: parse test on the CV, ATS coverage check against the JD in the Gym, knockout review of every form question, instruction-block reread. Log what you caught, then reveal.",
-        "id": "Ambil satu lamaran yang akan kamu kirim minggu ini. Jalankan urutannya: uji urai pada CV, pemeriksaan cakupan ATS terhadap deskripsi lowongan di Gym, tinjauan pertanyaan penggugur untuk setiap pertanyaan di formulir, baca ulang blok instruksi. Catat apa yang berhasil kamu tangkap, lalu buka tinjauan."
+        "en": "Break each into competency / qualifier / context / essential-or-desirable: (1) “Demonstrated leadership in student organisations (essential)”. (2) “Strong analytical skills”. (3) “Knowledge of banking operations is an advantage”. (4) “Minimum TOEFL ITP 475, valid within 2 years”. (5) “Experience in customer-facing roles preferred”.",
+        "id": "Pecah masing-masing menjadi kompetensi / kualifikasi / konteks / esensial-atau-tambahan: (1) “Kepemimpinan yang terbukti di organisasi mahasiswa (esensial)”. (2) “Kemampuan analitis yang kuat”. (3) “Pengetahuan operasional perbankan menjadi nilai tambah”. (4) “Minimum TOEFL ITP 475, berlaku dalam 2 tahun”. (5) “Pengalaman di peran yang berhadapan dengan pelanggan lebih disukai”."
        },
        "debrief": {
-        "en": "Typical first-run catches, in frequency order: two or three JD keywords your experience supports but your CV never says; a date format inconsistency; one form question you had answered approximately (salary, availability) that deserved research; one instruction (file naming, subject line) you would have missed. Zero catches usually means the checks were skimmed — rerun the parse test properly, in a plain editor. The point of logging: after five applications, your personal top-three catches become your personal pre-flight shortlist.",
-        "id": "Temuan yang lazim di percobaan pertama, diurutkan dari yang paling sering: dua atau tiga kata kunci dari deskripsi lowongan yang didukung pengalamanmu tetapi tidak pernah disebut di CV; format tanggal yang tidak konsisten; satu pertanyaan formulir yang kamu jawab dengan kira-kira (gaji, ketersediaan) padahal seharusnya diriset; satu instruksi (penamaan berkas, subjek email) yang nyaris terlewat. Kalau temuanmu nol, biasanya pemeriksaannya hanya dibaca sekilas — ulangi uji urai dengan benar, di editor teks polos. Gunanya mencatat: setelah lima lamaran, tiga temuan teratasmu menjadi daftar pemeriksaan pra-kirim pribadimu."
+        "en": "(1) Leadership · demonstrated = a <i>specific</i> example with result · student organisations · essential — the word “leadership” alone fails it. (2) Analysis · “strong” = reasonably good · unstated · essential by position in the list. (3) Banking operations · knowledge = named examples · unstated · desirable. (4) English · a numeric threshold and a validity window · certificate · essential, and a knockout. (5) Customer service · experience = work evidence first · customer-facing roles · desirable.",
+        "id": "(1) Kepemimpinan · terbukti = contoh <i>spesifik</i> dengan hasil · organisasi mahasiswa · esensial — kata “kepemimpinan” saja gagal. (2) Analisis · “kuat” = cukup baik · tidak disebut · esensial berdasarkan posisinya di daftar. (3) Operasional perbankan · pengetahuan = contoh bernama · tidak disebut · tambahan. (4) Bahasa Inggris · ambang numerik dan masa berlaku · sertifikat · esensial, dan pertanyaan gugur. (5) Layanan pelanggan · pengalaman = bukti kerja lebih dulu · peran berhadapan dengan pelanggan · tambahan."
        }
       },
       {
        "h": {
         "en": "Drill 2 — The consistency sweep",
-        "id": "Latihan 2 — Penyisiran konsistensi"
+        "id": "Latihan 2 — Sapuan konsistensi"
        },
        "body": {
-        "en": "Open your CV, LinkedIn and one submitted application form side by side. Compare: every date, title, GPA, employer and certification name. Reconcile to one master record. Reveal when done.",
-        "id": "Buka CV, LinkedIn, dan satu formulir lamaran yang sudah terkirim, berdampingan. Bandingkan: setiap tanggal, jabatan, IPK, nama perusahaan, dan nama sertifikasi. Selaraskan semuanya ke satu catatan induk. Buka tinjauan setelah selesai."
+        "en": "Compare three of Nadia’s documents. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Aug 2025 · Treasurer, HIMA Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Head of Sponsorship”. Portal form: internship Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Sponsorship Coordinator”. Find four inconsistencies.",
+        "id": "Bandingkan tiga dokumen Nadia. CV: “Operations Intern, Bank Sinar Nusantara, Jun 2025 – Agu 2025 · Bendahara, HIMA Manajemen, 2024–2025 · IPK 3,38 / 4,00 · Kepala Sponsorship”. Formulir portal: magang Jun–Sep 2025; IPK 3,4. LinkedIn: “Bendahara HIMA 2023–2025”; “Koordinator Sponsorship”. Temukan empat ketidakkonsistenan."
        },
        "debrief": {
-        "en": "Most people find two to four mismatches on first sweep — commonly internship titles and month-level dates. The fix is structural, not motivational: create the master record now (a simple note: every role with exact title, dates, employer legal name, and your GPA to two decimals) and adopt the rule that no document ever states a fact except by copying from it. Five minutes of maintenance per new item, permanent immunity to the cross-check cut.",
-        "id": "Kebanyakan orang menemukan dua sampai empat ketidakcocokan pada penyisiran pertama — biasanya nama posisi magang dan tanggal di tingkat bulan. Perbaikannya bersifat struktural, bukan soal motivasi: buat catatan induk sekarang (catatan sederhana berisi setiap posisi dengan nama jabatan yang persis, tanggal, nama resmi perusahaan, dan IPK-mu dengan dua angka di belakang koma), lalu terapkan aturan bahwa tidak ada dokumen yang boleh menyatakan sebuah fakta kecuali dengan menyalinnya dari catatan itu. Lima menit perawatan untuk setiap item baru, dan kamu kebal selamanya dari pencoretan akibat pemeriksaan silang."
+        "en": "Internship end date (Aug vs Sep); HIMA period (2024–2025 vs 2023–2025); IPK written 3,4 on the form (rounding reads as inflation); the title “Head of Sponsorship” vs “Sponsorship Coordinator”. Fix all three documents to the pantry’s facts before submitting — the true ones, not the most flattering.",
+        "id": "Tanggal akhir magang (Agu vs Sep); periode HIMA (2024–2025 vs 2023–2025); IPK ditulis 3,4 di formulir (pembulatan terbaca sebagai menggelembungkan); jabatan “Kepala Sponsorship” vs “Koordinator Sponsorship”. Perbaiki ketiga dokumen sesuai fakta lemari sebelum mengirim — yang benar, bukan yang paling menyanjung."
        }
       },
       {
@@ -13019,39 +14648,207 @@ window.MT_LMS['the-pack'] = {
         "id": "Latihan 3 — Triase persyaratan"
        },
        "body": {
-        "en": "Three JDs: (a) must-have GPA 3.5, you hold 3.3; (b) “preferably final-year students of economics or related fields”, you study information systems; (c) must be available July, you are available August. Decide apply / adjust / skip for each, then reveal.",
-        "id": "Tiga deskripsi lowongan: (a) wajib IPK 3,5, IPK-mu 3,3; (b) “diutamakan mahasiswa tingkat akhir jurusan ekonomi atau bidang terkait”, kamu kuliah di sistem informasi; (c) wajib bisa mulai Juli, kamu baru bisa Agustus. Putuskan lamar / sesuaikan / lewati untuk masing-masing, lalu buka tinjauan."
+        "en": "For the KilatPay advertisement (Lesson 3.2): sort its requirements into musts and shoulds, mark each met / evidenced / gap for Nadia, and decide: apply or not?",
+        "id": "Untuk iklan KilatPay (Pelajaran 3.2): pilah persyaratannya menjadi wajib dan sebaiknya, tandai masing-masing terpenuhi / dibuktikan / celah untuk Nadia, dan putuskan: lamar atau tidak?"
        },
        "debrief": {
-        "en": "(a) Skip — a numeric GPA must is a configured knockout; the hour belongs to a winnable application. (b) Apply — “preferably” plus “related fields” is a should; information systems argues as related through your evidence bullets (data coursework, business projects). (c) Adjust, then decide — availability is sometimes negotiable when the gap is small: one short question to the recruiter (“is an August start workable for this intake?”) converts a guess into a fact before you spend the application. The pattern: musts with numbers are gates; soft language is weights; ambiguities are questions, not assumptions.",
-        "id": "(a) Lewati — syarat wajib IPK dengan angka adalah penggugur yang sudah dikonfigurasi; jam itu lebih berguna untuk lamaran yang bisa dimenangkan. (b) Lamar — “diutamakan” plus “bidang terkait” adalah syarat yang diutamakan, bukan wajib; sistem informasi bisa diargumenkan sebagai bidang terkait lewat butir-butir buktimu (mata kuliah data, proyek bisnis). (c) Sesuaikan, baru putuskan — ketersediaan kadang bisa dinegosiasikan kalau selisihnya kecil: satu pertanyaan singkat ke perekrut (“apakah mulai Agustus memungkinkan untuk angkatan ini?”) mengubah tebakan menjadi fakta sebelum kamu menghabiskan jatah lamaran. Polanya: syarat wajib dengan angka adalah gerbang; bahasa yang lunak adalah bobot; yang ambigu adalah pertanyaan, bukan asumsi."
+        "en": "Musts — S1, 0–2 years, willing to work in Jakarta: all met. Shoulds — reconciliation, settlement reporting, Excel, dashboards, cross-team work, SQL, Python, fintech: five of eight met after honest rephrasing (Lesson 4.3). Apply.",
+        "id": "Syarat wajib — S1, 0–2 tahun, bersedia bekerja di Jakarta: semua terpenuhi. Syarat sebaiknya — rekonsiliasi, pelaporan settlement, Excel, dasbor, kerja lintas tim, SQL, Python, fintech: lima dari delapan terpenuhi setelah perubahan kata yang jujur (Pelajaran 4.3). Lamar."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Rounding your IPK",
+         "id": "Membulatkan IPK"
+        },
+        "fix": {
+         "en": "State it exactly, everywhere.",
+         "id": "Cantumkan dengan tepat, di mana-mana."
+        }
+       },
+       {
+        "h": {
+         "en": "Uploading phone photos of documents",
+         "id": "Mengunggah foto ponsel dari dokumen"
+        },
+        "fix": {
+         "en": "Scan properly or use a scanner app; check legibility and size.",
+         "id": "Pindai dengan benar atau pakai aplikasi pemindai; periksa keterbacaan dan ukuran."
+        }
+       },
+       {
+        "h": {
+         "en": "Different dates across documents",
+         "id": "Tanggal berbeda antardokumen"
+        },
+        "fix": {
+         "en": "One record — the pantry — copied everywhere.",
+         "id": "Satu rekaman — lemari — disalin ke mana-mana."
+        }
+       },
+       {
+        "h": {
+         "en": "Ticking declarations you don’t mean",
+         "id": "Mencentang pernyataan yang tidak kamu maksudkan"
+        },
+        "fix": {
+         "en": "Answer truthfully; a declaration is a document.",
+         "id": "Jawab dengan jujur; pernyataan adalah dokumen."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Seleksi administrasi",
+        "id": "Seleksi administrasi"
+       },
+       "def": {
+        "en": "The administrative screening stage: eligibility, documents, file specifications, declarations and form fields.",
+        "id": "Tahap penyaringan administratif: kelayakan, dokumen, spesifikasi berkas, pernyataan, dan kolom formulir."
+       }
+      },
+      {
+       "term": {
+        "en": "Selection criteria",
+        "id": "Kriteria seleksi"
+       },
+       "def": {
+        "en": "Requirements broken into competency, qualifier, context and importance.",
+        "id": "Persyaratan yang dipecah menjadi kompetensi, kualifikasi, konteks, dan tingkat kepentingan."
+       }
+      },
+      {
+       "term": {
+        "en": "Essential / desirable",
+        "id": "Esensial / tambahan"
+       },
+       "def": {
+        "en": "A requirement that ends the application if unmet, versus one that raises ranking.",
+        "id": "Persyaratan yang mengakhiri lamaran jika tidak terpenuhi, versus yang menaikkan peringkat."
+       }
+      },
+      {
+       "term": {
+        "en": "Consistency sweep",
+        "id": "Sapuan konsistensi"
+       },
+       "def": {
+        "en": "Checking that names, dates, titles, IPK and institutions are identical across every document.",
+        "id": "Memeriksa bahwa nama, tanggal, jabatan, IPK, dan institusi identik di setiap dokumen."
+       }
+      },
+      {
+       "term": {
+        "en": "Ikatan dinas",
+        "id": "Ikatan dinas"
+       },
+       "def": {
+        "en": "A service bond: a commitment to stay for a period after a funded programme.",
+        "id": "Ikatan dinas: komitmen untuk bertahan selama periode tertentu setelah program yang dibiayai."
+       }
+      },
+      {
+       "term": {
+        "en": "Surat Keterangan Lulus (SKL)",
+        "id": "Surat Keterangan Lulus (SKL)"
+       },
+       "def": {
+        "en": "The certificate of completion issued before the ijazah is ready.",
+        "id": "Surat keterangan kelulusan yang diterbitkan sebelum ijazah siap."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "What makes the master-record rule (“no document states a fact except by copying”) worth the maintenance?",
-        "id": "Apa yang membuat aturan catatan induk (“tidak ada dokumen yang menyatakan fakta kecuali dengan menyalin”) sepadan dengan usaha merawatnya?"
+        "en": "“Demonstrated ability to lead a team (essential)”. What must the application show?",
+        "id": "“Kemampuan yang terbukti memimpin tim (esensial)”. Apa yang harus ditunjukkan lamaran?"
        },
        "options": [
         {
-         "en": "It saves typing time",
-         "id": "Karena menghemat waktu mengetik"
+         "en": "The word “leadership”",
+         "id": "Kata “kepemimpinan”"
         },
         {
-         "en": "It makes cross-document consistency automatic — removing the trust-costing mismatches recruiters check for in seconds",
-         "id": "Karena konsistensi antardokumen menjadi otomatis — menghapus ketidakcocokan yang mengikis kepercayaan dan diperiksa perekrut dalam hitungan detik"
+         "en": "A specific example of having led a team, with context and result",
+         "id": "Contoh spesifik pernah memimpin tim, dengan konteks dan hasil"
         },
         {
-         "en": "Employers can request to see the master record",
-         "id": "Karena perusahaan bisa meminta melihat catatan induk itu"
+         "en": "A leadership course",
+         "id": "Kursus kepemimpinan"
+        },
+        {
+         "en": "Nothing — it is desirable",
+         "id": "Tidak ada — itu tambahan"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Consistency by discipline fails under deadline pressure; consistency by architecture cannot fail. The record is the architecture.",
-        "id": "Konsistensi yang mengandalkan disiplin runtuh di bawah tekanan tenggat; konsistensi yang dibangun lewat sistem tidak bisa runtuh. Catatan induk itulah sistemnya."
+        "en": "“Demonstrated” means done, not claimed; “essential” means the gate closes without it.",
+        "id": "“Terbukti” berarti pernah dilakukan, bukan diklaim; “esensial” berarti gerbang tertutup tanpanya."
+       }
+      },
+      {
+       "q": {
+        "en": "The accepted-majors list says “Manajemen”. Your transcript says “Management (S1)”. The portal drop-down offers “Manajemen”.",
+        "id": "Daftar jurusan yang diterima menyebut “Manajemen”. Transkripmu menyebut “Management (S1)”. Menu portal menawarkan “Manajemen”."
+       },
+       "options": [
+        {
+         "en": "Select “Other”",
+         "id": "Pilih “Lainnya”"
+        },
+        {
+         "en": "Select “Manajemen” — it is your major’s accepted name",
+         "id": "Pilih “Manajemen” — itu nama jurusanmu yang diterima"
+        },
+        {
+         "en": "Skip the field",
+         "id": "Lewati kolomnya"
+        },
+        {
+         "en": "Type “Business”",
+         "id": "Ketik “Business”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The list is the filter; choose the accepted name that is your major. “Other” is a rejection.",
+        "id": "Daftar itu adalah saringannya; pilih nama yang diterima yang merupakan jurusanmu. “Lainnya” adalah penolakan."
+       }
+      },
+      {
+       "q": {
+        "en": "Your LinkedIn shows your internship ending in September; your CV says August.",
+        "id": "LinkedIn-mu menunjukkan magang berakhir September; CV-mu menyebut Agustus."
+       },
+       "options": [
+        {
+         "en": "Doesn’t matter",
+         "id": "Tidak masalah"
+        },
+        {
+         "en": "Fix both to the true date before submitting",
+         "id": "Perbaiki keduanya ke tanggal yang benar sebelum mengirim"
+        },
+        {
+         "en": "Remove LinkedIn",
+         "id": "Hapus LinkedIn"
+        },
+        {
+         "en": "Explain at interview",
+         "id": "Jelaskan saat wawancara"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Recruiters compare; inconsistency reads as carelessness or worse. One record, many formats.",
+        "id": "Perekrut membandingkan; ketidakkonsistenan terbaca sebagai kecerobohan atau lebih buruk. Satu rekaman, banyak format."
        }
       }
      ],
@@ -13059,157 +14856,1318 @@ window.MT_LMS['the-pack'] = {
       "id": "gym",
       "mode": "ats",
       "title": {
-       "en": "Drill 1 starts here",
-       "id": "Latihan 1 dimulai di sini"
+       "en": "Pre-flight checklist",
+       "id": "Daftar periksa pra-kirim"
       },
       "body": {
-       "en": "Run this week's real application through the ATS check as your pre-flight's second step.",
-       "id": "Jalankan lamaran sungguhanmu minggu ini lewat pemeriksa ATS, sebagai langkah kedua pemeriksaan pra-kirimmu."
+       "en": "Paste an advertisement into the ATS check to generate the requirement rows, then work the document, consistency and knockout checks before you submit. Save it per application — it is Dossier item 4, alongside the coverage table.",
+       "id": "Tempel iklan ke pemeriksaan ATS untuk menghasilkan baris persyaratan, lalu kerjakan pemeriksaan dokumen, konsistensi, dan pertanyaan gugur sebelum mengirim. Simpan per lamaran — itu butir Dossier 4, bersama tabel cakupan."
       },
       "cta": {
        "en": "Open the ATS check →",
-       "id": "Buka pemeriksa ATS →"
+       "id": "Buka pemeriksaan ATS →"
       }
      },
+     "takeaways": [
+      {
+       "en": "Essential criteria are gates; desirable ones are rankings.",
+       "id": "Kriteria esensial adalah gerbang; kriteria tambahan adalah peringkat."
+      },
+      {
+       "en": "A three-to-ten-minute pre-flight prevents the cheapest rejections.",
+       "id": "Pra-kirim tiga sampai sepuluh menit mencegah penolakan termurah."
+      },
+      {
+       "en": "One record, many formats — keep every document consistent.",
+       "id": "Satu rekaman, banyak format — jaga setiap dokumen tetap konsisten."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the checklist",
+       "id": "Sumber dan daftar periksa"
+      },
+      "lead": {
+       "en": "The pre-flight as a checklist and the email format.",
+       "id": "Pra-kirim sebagai daftar periksa dan format email."
+      },
       "items": [
        {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "Full application pre-flight",
-         "id": "Pra-terbang lamaran lengkap"
+         "en": "Reading list · Lesson 4.4",
+         "id": "Daftar bacaan · Pelajaran 4.4"
         },
         "desc": {
-         "en": "The last ten minutes before you press submit.",
-         "id": "Sepuluh menit terakhir sebelum menekan kirim."
+         "en": "Four sources. Programme rules in examples are fictional; verify real ones every cycle.",
+         "id": "Empat sumber. Aturan program dalam contoh bersifat fiktif; periksa yang nyata setiap siklus."
         },
         "body": [
          {
-          "en": "Right company, right role title, right requisition number in every file name and letter",
-          "id": "Perusahaan, jabatan, dan nomor lowongan yang benar di setiap nama berkas dan surat"
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 15, 17–18 — selection criteria and the qualifier decoder.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 15, 17–18 — kriteria seleksi dan pengurai kualifikasi."
          },
          {
-          "en": "Every mandatory form field filled; optional fields filled where they help filters",
-          "id": "Setiap kolom wajib terisi; kolom opsional diisi bila membantu filter"
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 16 — consistency across documents.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 16 — konsistensi antardokumen."
          },
          {
-          "en": "Knock-out questions answered deliberately",
-          "id": "Pertanyaan penyaring dijawab dengan sengaja"
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.2, 7.3 — consistency; email submissions.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.2, 7.3 — konsistensi; pengiriman lewat email."
          },
          {
-          "en": "CV top third matches this brief; JD mirror completed",
-          "id": "Sepertiga atas CV sesuai brief ini; cermin JD selesai"
-         },
-         {
-          "en": "Dates, titles, GPA and numbers identical across CV, form and LinkedIn",
-          "id": "Tanggal, jabatan, IPK, dan angka identik di CV, formulir, dan LinkedIn"
-         },
-         {
-          "en": "Attachments: correct files, correct names, opened once to confirm",
-          "id": "Lampiran: berkas benar, nama benar, dibuka sekali untuk memastikan"
-         },
-         {
-          "en": "Letter addressed to the right person and company",
-          "id": "Surat ditujukan ke orang dan perusahaan yang benar"
-         },
-         {
-          "en": "Logged in the tracker with the next action and date",
-          "id": "Dicatat di pelacak dengan tindakan berikut dan tanggalnya"
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 2 — emailing an application.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 2 — mengirim lamaran lewat email."
          }
         ]
        },
        {
-        "kind": "guide",
+        "kind": "checklist",
         "title": {
-         "en": "Borderline-requirement triage",
-         "id": "Triase persyaratan ambang"
+         "en": "Pre-flight · seven steps",
+         "id": "Pra-kirim · tujuh langkah"
         },
         "desc": {
-         "en": "Decide in one minute whether to apply.",
-         "id": "Putuskan dalam satu menit apakah akan melamar."
+         "en": "Run before every submission.",
+         "id": "Jalankan sebelum setiap pengiriman."
         },
         "body": [
          {
-          "en": "HARD gate (licence, citizenship, degree legally required, language certificate specified): do not apply until met.",
-          "id": "Gerbang KERAS (lisensi, kewarganegaraan, gelar yang diwajibkan hukum, sertifikat bahasa yang disebutkan): jangan melamar sampai terpenuhi."
+          "en": "Parse test passed (plain text in order, dates attached)",
+          "id": "Uji urai lolos (teks polos berurutan, tanggal melekat)"
          },
          {
-          "en": "SOFT gate (years of experience, “preferred” tools, “ideally” a certain background): apply if you meet two-thirds and can show evidence for the rest.",
-          "id": "Gerbang LUNAK (tahun pengalaman, alat “diutamakan”, “idealnya” latar tertentu): melamar jika memenuhi dua pertiga dan bisa menunjukkan bukti untuk sisanya."
+          "en": "Coverage table: every must-have ✓ or honestly closed",
+          "id": "Tabel cakupan: setiap syarat wajib ✓ atau ditutup dengan jujur"
          },
          {
-          "en": "Name the gap in the letter in one sentence with the closing plan. Never fake it in the CV.",
-          "id": "Sebutkan celahnya di surat dalam satu kalimat dengan rencana penutupannya. Jangan pernah memalsukannya di CV."
+          "en": "Requirement triage: all musts met and evidenced; shoulds counted",
+          "id": "Triase persyaratan: semua syarat wajib terpenuhi dan dibuktikan; syarat sebaiknya dihitung"
+         },
+         {
+          "en": "Documents: present · readable · format · size · named (Name_Document.pdf)",
+          "id": "Dokumen: ada · terbaca · format · ukuran · dinamai (Nama_Dokumen.pdf)"
+         },
+         {
+          "en": "Consistency: names, dates, titles, IPK, institution identical in CV, form, LinkedIn, letter",
+          "id": "Konsistensi: nama, tanggal, jabatan, IPK, institusi identik di CV, formulir, LinkedIn, surat"
+         },
+         {
+          "en": "Knockout questions answered accurately",
+          "id": "Pertanyaan gugur dijawab dengan akurat"
+         },
+         {
+          "en": "Submitted: confirmation screenshot saved; tracker updated with CV version",
+          "id": "Terkirim: tangkapan layar konfirmasi disimpan; pelacak diperbarui dengan versi CV"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Email submission",
+         "id": "Pengiriman lewat email"
+        },
+        "desc": {
+         "en": "Unless the advertisement specifies a format.",
+         "id": "Kecuali iklan menentukan format."
+        },
+        "body": [
+         {
+          "en": "Subject: Lamaran — [Posisi] — [Nama Lengkap]",
+          "id": "Subjek: Lamaran — [Posisi] — [Nama Lengkap]"
+         },
+         {
+          "en": "Body: the cover letter (Module 6) · Attachments: NamaLengkap_CV_Perusahaan_Posisi.pdf · NamaLengkap_Transkrip.pdf · as requested · Signature: name, phone, LinkedIn",
+          "id": "Badan: surat lamaran (Modul 6) · Lampiran: NamaLengkap_CV_Perusahaan_Posisi.pdf · NamaLengkap_Transkrip.pdf · sesuai permintaan · Tanda tangan: nama, telepon, LinkedIn"
+         },
+         {
+          "en": "Send to yourself first. Never CC several employers.",
+          "id": "Kirim ke dirimu sendiri lebih dulu. Jangan pernah CC beberapa perusahaan."
          }
         ]
        }
       ]
+     }
+    },
+    {
+     "n": "4.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — The Portal",
+      "id": "Tugas Kasus — Portal"
+     },
+     "overview": {
+      "en": "Nadia is about to submit her Bank Sinar Nusantara ODP application. Everything she plans to submit is in the case file — the advertisement, her files as uploaded, her form entries, her CV and her LinkedIn summary. Find the problems before the portal does, write her pre-flight, build the coverage table, and make the hard call on an expired certificate.",
+      "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus — iklannya, berkas-berkasnya sebagaimana diunggah, isian formulirnya, CV-nya, dan ringkasan LinkedIn-nya. Temukan masalahnya sebelum portal menemukannya, tulis pra-kirimnya, bangun tabel cakupan, dan ambil keputusan sulit tentang sertifikat yang kedaluwarsa."
+     },
+     "objectives": [
+      {
+       "en": "Find every administrative failure in a real submission and classify it as fatal or not.",
+       "id": "Menemukan setiap kegagalan administratif dalam pengiriman nyata dan menggolongkannya fatal atau tidak."
+      },
+      {
+       "en": "Write a programme-specific pre-flight checklist.",
+       "id": "Menulis daftar periksa pra-kirim khusus program."
+      },
+      {
+       "en": "Build a coverage table from an advertisement against a CV.",
+       "id": "Membangun tabel cakupan dari iklan terhadap CV."
+      },
+      {
+       "en": "Decide honestly when an essential requirement cannot be met in time.",
+       "id": "Memutuskan dengan jujur ketika syarat esensial tidak bisa dipenuhi tepat waktu."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Be the portal before the portal is",
+       "id": "Jadilah portal sebelum portalnya"
+      },
+      "intro": {
+       "en": "Four steps, four written answers. The case file has five tabs; the problems are spread across them, and some only show when you compare two tabs.",
+       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya lima tab; masalahnya tersebar di antaranya, dan sebagian hanya terlihat ketika kamu membandingkan dua tab."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read all five tabs",
+         "id": "Baca kelima tab"
+        },
+        "points": [
+         {
+          "en": "The brief · the facts · the advertisement · Nadia’s uploads and form entries · her CV and LinkedIn summary.",
+          "id": "Arahan · fakta · iklan · unggahan dan isian formulir Nadia · CV dan ringkasan LinkedIn-nya."
+         },
+         {
+          "en": "Compare: the advertisement’s file specs against the uploads; the form against the CV; the CV against LinkedIn.",
+          "id": "Bandingkan: spesifikasi berkas iklan terhadap unggahan; formulir terhadap CV; CV terhadap LinkedIn."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Fatal or not",
+         "id": "Fatal atau tidak"
+        },
+        "points": [
+         {
+          "en": "An unmet essential requirement or an unreadable required document is fatal. A ranking loss is not.",
+          "id": "Syarat esensial yang tidak terpenuhi atau dokumen wajib yang tidak terbaca itu fatal. Kehilangan peringkat tidak."
+         },
+         {
+          "en": "Say which is which, and why.",
+          "id": "Katakan mana yang mana, dan mengapa."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The honest decision",
+         "id": "Keputusan jujur"
+        },
+        "points": [
+         {
+          "en": "Step 4 has no clever workaround. It asks what Nadia should do — and what she should not.",
+          "id": "Langkah 4 tidak punya jalan pintas cerdik. Ia bertanya apa yang harus dilakukan Nadia — dan apa yang tidak boleh."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK4",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "The Portal",
+       "id": "Portal"
+      },
+      "lead": {
+       "en": "Nadia is about to submit her Bank Sinar Nusantara ODP application. Everything she plans to submit is in the case file. Find the problems before the portal does.",
+       "id": "Nadia hendak mengirim lamaran ODP Bank Sinar Nusantara. Semua yang akan ia kirim ada di berkas kasus. Temukan masalahnya sebelum portal menemukannya."
+      },
+      "practice": [
+       {
+        "en": "Spot administrative failures",
+        "id": "Menemukan kegagalan administratif"
+       },
+       {
+        "en": "Write a pre-flight",
+        "id": "Menulis pra-kirim"
+       },
+       {
+        "en": "Build a coverage table",
+        "id": "Membangun tabel cakupan"
+       },
+       {
+        "en": "Decide honestly under a deadline",
+        "id": "Memutuskan dengan jujur di bawah tenggat"
+       }
+      ],
+      "goal": {
+       "en": "A submission that would pass seleksi administrasi — or an honest decision not to make it this cycle.",
+       "id": "Pengiriman yang akan lolos seleksi administrasi — atau keputusan jujur untuk tidak mengirim pada siklus ini."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Thursday, 22:05",
+         "id": "Kamis, 22.05"
+        },
+        "subject": {
+         "en": "ODP Bank Sinar Nusantara — tutup 10 hari lagi, sudah siap kirim",
+         "id": "ODP Bank Sinar Nusantara — tutup 10 hari lagi, sudah siap kirim"
+        },
+        "paragraphs": [
+         {
+          "en": "The ODP window closes in ten days. I have filled in the portal form and uploaded everything — I am attaching the list of files as they are in the portal, plus my form entries, in case you want to check.",
+          "id": "Jendela ODP tutup sepuluh hari lagi. Aku sudah mengisi formulir portal dan mengunggah semuanya — kulampirkan daftar berkas sebagaimana ada di portal, plus isian formulirku, kalau-kalau kamu ingin memeriksa."
+         },
+         {
+          "en": "I used the CV from Module 3 (the Arunika version, since it was ready). My LinkedIn is the one from before the course.",
+          "id": "Aku memakai CV dari Modul 3 (versi Arunika, karena sudah siap). LinkedIn-ku masih yang dari sebelum kursus."
+         },
+         {
+          "en": "One worry: my TOEFL was taken in my third year. Is that a problem?",
+          "id": "Satu kekhawatiran: TOEFL-ku diambil di tahun ketiga. Apakah itu masalah?"
+         }
+        ],
+        "asks": [
+         {
+          "en": "Is there anything that would get me rejected at the administrative stage?",
+          "id": "Adakah yang akan membuatku ditolak di tahap administrasi?"
+         },
+         {
+          "en": "What should I check before I press Submit?",
+          "id": "Apa yang harus kuperiksa sebelum menekan Kirim?"
+         },
+         {
+          "en": "About the TOEFL — what do I do?",
+          "id": "Soal TOEFL — apa yang harus kulakukan?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih! — Nadia",
+          "id": "Terima kasih! — Nadia"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "10 days",
+          "id": "10 hari"
+         },
+         "v": {
+          "en": "until the ODP window closes",
+          "id": "sampai jendela ODP tutup"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "TOEFL ≥ 475",
+          "id": "TOEFL ≥ 475"
+         },
+         "v": {
+          "en": "valid within 2 years — Nadia’s certificate is dated 26 months ago",
+          "id": "berlaku dalam 2 tahun — sertifikat Nadia bertanggal 26 bulan lalu"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "3 weeks",
+          "id": "3 minggu"
+         },
+         "v": {
+          "en": "from booking to a new TOEFL ITP result at the nearest test centre",
+          "id": "dari pendaftaran sampai hasil TOEFL ITP baru di pusat tes terdekat"
+         },
+         "hot": true
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "PDF ≤ 500 KB · JPG ≤ 200 KB",
+          "id": "PDF ≤ 500 KB · JPG ≤ 200 KB"
+         },
+         "v": {
+          "en": "file limits for documents and the photo",
+          "id": "batas berkas untuk dokumen dan foto"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "4 alumni",
+          "id": "4 alumni"
+         },
+         "v": {
+          "en": "from HIMA work at the bank; ODP recruits on rolling windows",
+          "id": "dari HIMA bekerja di bank; ODP merekrut dalam jendela bergulir"
+         }
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "IPK 3,38",
+          "id": "IPK 3,38"
+         },
+         "v": {
+          "en": "on the transcript; the form shows 3,4",
+          "id": "di transkrip; formulir menunjukkan 3,4"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The advertisement",
+          "id": "Iklan"
+         },
+         "title": {
+          "en": "Bank Sinar Nusantara — Officer Development Program (ODP)",
+          "id": "Bank Sinar Nusantara — Officer Development Program (ODP)"
+         },
+         "meta": {
+          "en": "Fictional employer · rolling windows · this window closes in 10 days",
+          "id": "Perusahaan fiktif · jendela bergulir · jendela ini tutup 10 hari lagi"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Requirements",
+            "id": "Persyaratan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "S1, all majors; IPK ≥ 3,00",
+             "id": "S1, semua jurusan; IPK ≥ 3,00"
+            },
+            {
+             "en": "Maximum age 26 at registration",
+             "id": "Usia maksimum 26 saat pendaftaran"
+            },
+            {
+             "en": "TOEFL ITP ≥ 475 (or equivalent), valid within 2 years of the test date",
+             "id": "TOEFL ITP ≥ 475 (atau setara), berlaku dalam 2 tahun sejak tanggal tes"
+            },
+            {
+             "en": "Willing to be placed anywhere in Indonesia (bersedia ditempatkan di seluruh Indonesia)",
+             "id": "Bersedia ditempatkan di seluruh Indonesia"
+            },
+            {
+             "en": "Preferred: experience in banking operations, customer service or finance; organisational leadership; Microsoft Excel",
+             "id": "Diutamakan: pengalaman operasional perbankan, layanan pelanggan, atau keuangan; kepemimpinan organisasi; Microsoft Excel"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Documents",
+            "id": "Dokumen"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "CV (PDF, ≤ 500 KB)",
+             "id": "CV (PDF, ≤ 500 KB)"
+            },
+            {
+             "en": "Ijazah or Surat Keterangan Lulus (PDF, ≤ 500 KB)",
+             "id": "Ijazah atau Surat Keterangan Lulus (PDF, ≤ 500 KB)"
+            },
+            {
+             "en": "Academic transcript (PDF, ≤ 500 KB)",
+             "id": "Transkrip akademik (PDF, ≤ 500 KB)"
+            },
+            {
+             "en": "KTP scan (PDF, ≤ 500 KB)",
+             "id": "Pindaian KTP (PDF, ≤ 500 KB)"
+            },
+            {
+             "en": "Pas foto 4×6, red background (JPG, ≤ 200 KB)",
+             "id": "Pas foto 4×6, latar merah (JPG, ≤ 200 KB)"
+            },
+            {
+             "en": "TOEFL certificate (PDF, ≤ 500 KB)",
+             "id": "Sertifikat TOEFL (PDF, ≤ 500 KB)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Uploads and form",
+          "id": "Unggahan dan formulir"
+         },
+         "title": {
+          "en": "Nadia’s files as uploaded, and her form entries",
+          "id": "Berkas Nadia sebagaimana diunggah, dan isian formulirnya"
+         },
+         "meta": {
+          "en": "Copied from the portal’s review page",
+          "id": "Disalin dari halaman tinjauan portal"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Files",
+            "id": "Berkas"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "NadiaPutri_CV_Arunika_MT.pdf — 312 KB, PDF (text)",
+             "id": "NadiaPutri_CV_Arunika_MT.pdf — 312 KB, PDF (teks)"
+            },
+            {
+             "en": "SKL.pdf — 410 KB, PDF (scan)",
+             "id": "SKL.pdf — 410 KB, PDF (pindaian)"
+            },
+            {
+             "en": "transkrip nadia.pdf — 2.3 MB, PDF (phone photo converted)",
+             "id": "transkrip nadia.pdf — 2,3 MB, PDF (foto ponsel yang dikonversi)"
+            },
+            {
+             "en": "KTP.pdf — 380 KB, PDF (scan)",
+             "id": "KTP.pdf — 380 KB, PDF (pindaian)"
+            },
+            {
+             "en": "foto.png — 1.1 MB, PNG, blue background",
+             "id": "foto.png — 1,1 MB, PNG, latar biru"
+            },
+            {
+             "en": "TOEFL_ITP_527.pdf — 290 KB, PDF (scan) — test date 26 months ago",
+             "id": "TOEFL_ITP_527.pdf — 290 KB, PDF (pindaian) — tanggal tes 26 bulan lalu"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Form entries",
+            "id": "Isian formulir"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Name: Nadia Putri · Date of birth: 3 March 2004 · Major (drop-down): Other",
+             "id": "Nama: Nadia Putri · Tanggal lahir: 3 Maret 2004 · Jurusan (menu): Lainnya"
+            },
+            {
+             "en": "IPK: 3,4 · Graduation: August 2026",
+             "id": "IPK: 3,4 · Lulus: Agustus 2026"
+            },
+            {
+             "en": "Internship: Bank Sinar Nusantara, Operations, June 2025 – September 2025",
+             "id": "Magang: Bank Sinar Nusantara, Operasional, Juni 2025 – September 2025"
+            },
+            {
+             "en": "Organisational experience (optional): blank",
+             "id": "Pengalaman organisasi (opsional): kosong"
+            },
+            {
+             "en": "Bersedia ditempatkan di seluruh Indonesia: Yes",
+             "id": "Bersedia ditempatkan di seluruh Indonesia: Ya"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "CV and LinkedIn",
+          "id": "CV dan LinkedIn"
+         },
+         "title": {
+          "en": "The CV she uploaded, and her LinkedIn summary",
+          "id": "CV yang ia unggah, dan ringkasan LinkedIn-nya"
+         },
+         "meta": {
+          "en": "Key lines only",
+          "id": "Baris-baris kunci saja"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "CV (Arunika version)",
+            "id": "CV (versi Arunika)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Profile: “Management graduate targeting commercial and supply-chain trainee roles in consumer goods…”",
+             "id": "Profil: “Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi…”"
+            },
+            {
+             "en": "S1 Manajemen · IPK 3.38 / 4.00 · August 2026",
+             "id": "S1 Manajemen · IPK 3.38 / 4.00 · Agustus 2026"
+            },
+            {
+             "en": "Operations Intern, Bank Sinar Nusantara · Jun 2025 – Aug 2025 · reconciled daily transaction reports for 3 branches…",
+             "id": "Operations Intern, Bank Sinar Nusantara · Jun 2025 – Agu 2025 · merekonsiliasi laporan transaksi harian untuk 3 cabang…"
+            },
+            {
+             "en": "Barista, Kopi Tepian · 14 months · 120–150 customers a shift…",
+             "id": "Barista, Kopi Tepian · 14 bulan · 120–150 pelanggan per sif…"
+            },
+            {
+             "en": "Head of Sponsorship · Treasurer, HIMA Manajemen 2024–2025 · KKN workshop",
+             "id": "Kepala Sponsorship · Bendahara, HIMA Manajemen 2024–2025 · lokakarya KKN"
+            },
+            {
+             "en": "Tools: Excel (pivot tables, VLOOKUP), Google Sheets · TOEFL ITP 527",
+             "id": "Alat: Excel (pivot table, VLOOKUP), Google Sheets · TOEFL ITP 527"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "LinkedIn (pre-course)",
+            "id": "LinkedIn (sebelum kursus)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Headline: “Fresh graduate | Open to work”",
+             "id": "Headline: “Fresh graduate | Open to work”"
+            },
+            {
+             "en": "Bank Sinar Nusantara — Intern · Jun 2025 – Sep 2025",
+             "id": "Bank Sinar Nusantara — Intern · Jun 2025 – Sep 2025"
+            },
+            {
+             "en": "HIMA Manajemen — Bendahara · 2023 – 2025",
+             "id": "HIMA Manajemen — Bendahara · 2023 – 2025"
+            },
+            {
+             "en": "Sponsorship Coordinator, campus business competition",
+             "id": "Koordinator Sponsorship, kompetisi bisnis kampus"
+            },
+            {
+             "en": "Education: S1 Manajemen · GPA 3.4",
+             "id": "Pendidikan: S1 Manajemen · GPA 3.4"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Find the failures",
+         "id": "Temukan kegagalannya"
+        },
+        "short": {
+         "en": "Failures",
+         "id": "Kegagalan"
+        },
+        "guide": {
+         "en": "Lesson 4.4’s checklist categories: eligibility, language, documents, file specs, declarations, form fields — plus consistency across the three tabs. Mark each fatal (essential) or not.",
+         "id": "Kategori daftar periksa Pelajaran 4.4: kelayakan, bahasa, dokumen, spesifikasi berkas, pernyataan, kolom formulir — plus konsistensi di ketiga tab. Tandai masing-masing fatal (esensial) atau tidak."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 80,
+          "rows": 9,
+          "title": {
+           "en": "Every administrative problem, and whether it is fatal",
+           "id": "Setiap masalah administratif, dan apakah fatal"
+          },
+          "help": {
+           "en": "At least six items. One line each: the problem · fatal or not · why.",
+           "id": "Setidaknya enam butir. Satu baris masing-masing: masalahnya · fatal atau tidak · mengapa."
+          },
+          "placeholder": {
+           "en": "1. TOEFL certificate dated 26 months ago — fatal — … 2. …",
+           "id": "1. Sertifikat TOEFL bertanggal 26 bulan lalu — fatal — … 2. …"
+          },
+          "keywords": [
+           [
+            "toefl",
+            "26 month",
+            "26 bulan",
+            "expired",
+            "kedaluwarsa"
+           ],
+           [
+            "photo",
+            "foto",
+            "png",
+            "blue",
+            "biru",
+            "1.1 mb",
+            "1,1 mb"
+           ],
+           [
+            "transcript",
+            "transkrip",
+            "2.3 mb",
+            "2,3 mb",
+            "phone",
+            "ponsel"
+           ],
+           [
+            "3,4",
+            "3.4",
+            "ipk",
+            "gpa"
+           ],
+           [
+            "other",
+            "lainnya",
+            "major",
+            "jurusan"
+           ],
+           [
+            "september",
+            "sep",
+            "august",
+            "agu",
+            "date",
+            "tanggal"
+           ],
+           [
+            "organisational",
+            "organisasi",
+            "blank",
+            "kosong",
+            "optional",
+            "opsional"
+           ],
+           [
+            "profile",
+            "profil",
+            "consumer goods",
+            "barang konsumsi",
+            "arunika",
+            "tailor",
+            "sesuai"
+           ],
+           [
+            "fatal",
+            "essential",
+            "esensial"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Pre-flight",
+         "id": "Pra-kirim"
+        },
+        "short": {
+         "en": "Pre-flight",
+         "id": "Pra-kirim"
+        },
+        "guide": {
+         "en": "Write the checklist Nadia should run for this programme specifically — file by file, field by field, with the fix for each problem you found.",
+         "id": "Tulis daftar periksa yang harus dijalankan Nadia khusus untuk program ini — berkas demi berkas, kolom demi kolom, dengan perbaikan untuk setiap masalah yang kamu temukan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 80,
+          "rows": 9,
+          "title": {
+           "en": "Nadia’s pre-flight checklist for the ODP",
+           "id": "Daftar periksa pra-kirim Nadia untuk ODP"
+          },
+          "help": {
+           "en": "Parse · coverage · triage · documents (name, format, size, legibility) · consistency · knockouts · submit and track. Concrete: which file to re-export, what to rename, what to correct.",
+           "id": "Urai · cakupan · triase · dokumen (nama, format, ukuran, keterbacaan) · konsistensi · gugur · kirim dan catat. Konkret: berkas mana yang diekspor ulang, apa yang diganti nama, apa yang dikoreksi."
+          },
+          "placeholder": {
+           "en": "Documents: re-scan the transcript as a text PDF under 500 KB, rename NadiaPutri_Transkrip.pdf; photo → JPG 4×6 red ≤ 200 KB; … Form: major → Manajemen; IPK → 3,38; …",
+           "id": "Dokumen: pindai ulang transkrip sebagai PDF teks di bawah 500 KB, ganti nama NadiaPutri_Transkrip.pdf; foto → JPG 4×6 merah ≤ 200 KB; … Formulir: jurusan → Manajemen; IPK → 3,38; …"
+          },
+          "keywords": [
+           [
+            "500 kb",
+            "200 kb",
+            "size",
+            "ukuran"
+           ],
+           [
+            "jpg",
+            "red",
+            "merah",
+            "4×6",
+            "4x6"
+           ],
+           [
+            "rename",
+            "ganti nama",
+            "nadiaputri_"
+           ],
+           [
+            "manajemen"
+           ],
+           [
+            "3,38",
+            "3.38"
+           ],
+           [
+            "august",
+            "agustus",
+            "agu",
+            "consisten",
+            "linkedin"
+           ],
+           [
+            "organisational",
+            "organisasi",
+            "fill",
+            "isi"
+           ],
+           [
+            "screenshot",
+            "tangkap",
+            "tracker",
+            "pelacak"
+           ],
+           [
+            "profile",
+            "profil",
+            "bank",
+            "tailor",
+            "sesuai"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Coverage",
+         "id": "Cakupan"
+        },
+        "short": {
+         "en": "Coverage",
+         "id": "Cakupan"
+        },
+        "guide": {
+         "en": "Lesson 4.3. Six rows from the ODP advertisement against the CV she uploaded: keyword · where · evidence sentence · ✓ / ✎ / ✗ · close.",
+         "id": "Pelajaran 4.3. Enam baris dari iklan ODP terhadap CV yang ia unggah: kata kunci · di mana · kalimat bukti · ✓ / ✎ / ✗ · penutup."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 70,
+          "rows": 9,
+          "title": {
+           "en": "A six-row coverage table",
+           "id": "Tabel cakupan enam baris"
+          },
+          "help": {
+           "en": "Suggested rows: banking operations · customer service · finance · organisational leadership · Microsoft Excel · willing to be placed anywhere. Say what the profile line should become for this application.",
+           "id": "Baris yang disarankan: operasional perbankan · layanan pelanggan · keuangan · kepemimpinan organisasi · Microsoft Excel · bersedia ditempatkan di mana saja. Katakan baris profil harus menjadi apa untuk lamaran ini."
+          },
+          "placeholder": {
+           "en": "banking operations — internship bullet — “Operations Intern … reconciled …” — ✎ add the exact phrase … customer service — café bullet — … ✓ …",
+           "id": "operasional perbankan — butir magang — “Operations Intern … merekonsiliasi …” — ✎ tambahkan frasa persis … layanan pelanggan — butir kafe — … ✓ …"
+          },
+          "keywords": [
+           [
+            "banking operations",
+            "operasional perbankan",
+            "operations"
+           ],
+           [
+            "customer service",
+            "layanan pelanggan"
+           ],
+           [
+            "finance",
+            "keuangan",
+            "treasurer",
+            "bendahara"
+           ],
+           [
+            "leadership",
+            "kepemimpinan"
+           ],
+           [
+            "microsoft excel"
+           ],
+           [
+            "anywhere",
+            "di mana saja",
+            "seluruh indonesia",
+            "placed",
+            "ditempatkan"
+           ],
+           [
+            "profile",
+            "profil",
+            "bank",
+            "odp"
+           ],
+           [
+            "✓",
+            "✎",
+            "covered",
+            "tercakup",
+            "rephrase",
+            "ubah kata"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Decide",
+         "id": "Putuskan"
+        },
+        "short": {
+         "en": "Decide",
+         "id": "Putuskan"
+        },
+        "guide": {
+         "en": "The TOEFL is expired. A new test takes three weeks; the window closes in ten days. What should she do — and what should she not do? Then: what happens to the rest of her month?",
+         "id": "TOEFL-nya kedaluwarsa. Tes baru butuh tiga minggu; jendela tutup sepuluh hari lagi. Apa yang harus ia lakukan — dan apa yang tidak boleh? Lalu: apa yang terjadi dengan sisa bulannya?"
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 70,
+          "rows": 8,
+          "title": {
+           "en": "The expired certificate: what to do, and what not to do",
+           "id": "Sertifikat kedaluwarsa: apa yang dilakukan, dan apa yang tidak boleh"
+          },
+          "help": {
+           "en": "Be specific about the honest options, the dishonest ones to rule out, and where her effort goes this month (Lessons 1.2 and 1.4).",
+           "id": "Spesifik tentang pilihan jujur, pilihan tidak jujur yang harus disingkirkan, dan ke mana usahanya bulan ini (Pelajaran 1.2 dan 1.4)."
+          },
+          "placeholder": {
+           "en": "She should not upload the expired certificate or claim the score … She should book the test now, calendar the next ODP window, and …",
+           "id": "Ia tidak boleh mengunggah sertifikat kedaluwarsa atau mengklaim skornya … Ia harus mendaftar tes sekarang, mencatat jendela ODP berikutnya di kalender, dan …"
+          },
+          "keywords": [
+           [
+            "honest",
+            "jujur",
+            "truthful",
+            "not submit",
+            "do not submit",
+            "jangan kirim",
+            "tidak mengirim"
+           ],
+           [
+            "expired",
+            "kedaluwarsa"
+           ],
+           [
+            "next cycle",
+            "next window",
+            "siklus berikutnya",
+            "jendela berikutnya",
+            "rolling",
+            "bergulir"
+           ],
+           [
+            "book",
+            "register",
+            "daftar",
+            "test"
+           ],
+           [
+            "other target",
+            "sasaran lain",
+            "network",
+            "jejaring",
+            "kilatpay",
+            "rumah rempah",
+            "arunika"
+           ],
+           [
+            "calendar",
+            "kalender",
+            "tracker",
+            "pelacak"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "All administrative failures found and correctly classified as fatal or not",
+         "id": "Semua kegagalan administratif ditemukan dan digolongkan dengan benar sebagai fatal atau tidak"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Pre-flight is concrete and programme-specific",
+         "id": "Pra-kirim konkret dan khusus program"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Coverage table has evidence sentences and honest closes",
+         "id": "Tabel cakupan memuat kalimat bukti dan penutup jujur"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Decision is honest, specific, and redirects the month",
+         "id": "Keputusan jujur, spesifik, dan mengarahkan ulang bulan itu"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — what the portal would have found",
+        "id": "Catatan model — apa yang akan ditemukan portal"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The failures",
+          "id": "Kegagalannya"
+         }
+        },
+        {
+         "en": "Fatal: (1) TOEFL certificate dated 26 months ago against a two-year validity — an unmet essential requirement. (2) Photo: PNG, 1.1 MB, blue background, against JPG ≤ 200 KB red background — a required document in the wrong format, size and specification. (3) Transcript: a 2.3 MB phone-photo PDF against ≤ 500 KB — over the limit and likely illegible. (4) Major: “Other” selected where “Manajemen” exists — an eligibility mismatch. Not fatal but damaging: (5) IPK 3,4 on the form versus 3,38 on the transcript and 3.38 on the CV — reads as inflation. (6) Internship end date September on the form and LinkedIn versus August on the CV. (7) HIMA period 2023–2025 on LinkedIn versus 2024–2025 on the CV; “Sponsorship Coordinator” versus “Head of Sponsorship”. (8) The optional organisational-experience field left blank — lost ranking for a graduate whose strongest evidence is organisational. (9) A CV whose profile targets consumer-goods trainee roles, sent to a bank — not a rejection, but a weaker first line than she has. File names “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png” — untidy, not fatal.",
+         "id": "Fatal: (1) Sertifikat TOEFL bertanggal 26 bulan lalu terhadap masa berlaku dua tahun — syarat esensial yang tidak terpenuhi. (2) Foto: PNG, 1,1 MB, latar biru, terhadap JPG ≤ 200 KB latar merah — dokumen wajib dengan format, ukuran, dan spesifikasi yang salah. (3) Transkrip: PDF foto ponsel 2,3 MB terhadap ≤ 500 KB — melebihi batas dan kemungkinan tidak terbaca. (4) Jurusan: “Lainnya” dipilih padahal “Manajemen” ada — ketidakcocokan kelayakan. Tidak fatal tetapi merugikan: (5) IPK 3,4 di formulir versus 3,38 di transkrip dan 3.38 di CV — terbaca sebagai menggelembungkan. (6) Tanggal akhir magang September di formulir dan LinkedIn versus Agustus di CV. (7) Periode HIMA 2023–2025 di LinkedIn versus 2024–2025 di CV; “Koordinator Sponsorship” versus “Kepala Sponsorship”. (8) Kolom opsional pengalaman organisasi dibiarkan kosong — kehilangan peringkat bagi lulusan yang bukti terkuatnya adalah organisasi. (9) CV yang profilnya membidik peran trainee barang konsumsi, dikirim ke bank — bukan penolakan, tetapi baris pertama yang lebih lemah dari yang ia punya. Nama berkas “SKL.pdf”, “transkrip nadia.pdf”, “KTP.pdf”, “foto.png” — tidak rapi, tidak fatal."
+        },
+        {
+         "h": {
+          "en": "The pre-flight",
+          "id": "Pra-kirim"
+         }
+        },
+        {
+         "en": "Documents: re-export the transcript from a proper scan as a text-readable PDF under 500 KB; convert the photo to a 4×6 JPG on a red background under 200 KB (a new photo, not a recolour); rename every file NadiaPutri_[Document].pdf; check each opens and reads. Form: major → Manajemen; IPK → 3,38; internship → June–August 2025; fill the organisational-experience field with the HIMA, sponsorship and KKN lines. Consistency: correct LinkedIn to the pantry’s dates and titles, GPA to 3.38. CV: tailor the profile’s first line to “banking operations / officer development” and move the internship to the top (a twenty-minute pass). Knockouts: placement anywhere — yes, truthfully. Submit: screenshot the confirmation; log “NadiaPutri_CV_BSN_ODP.pdf” in the tracker. All of which is moot until the TOEFL is resolved.",
+         "id": "Dokumen: ekspor ulang transkrip dari pindaian yang benar sebagai PDF terbaca teks di bawah 500 KB; ubah foto menjadi JPG 4×6 berlatar merah di bawah 200 KB (foto baru, bukan pewarnaan ulang); ganti nama setiap berkas NadiaPutri_[Dokumen].pdf; periksa masing-masing terbuka dan terbaca. Formulir: jurusan → Manajemen; IPK → 3,38; magang → Juni–Agustus 2025; isi kolom pengalaman organisasi dengan baris HIMA, sponsorship, dan KKN. Konsistensi: koreksi LinkedIn ke tanggal dan jabatan lemari, GPA ke 3.38. CV: sesuaikan baris pertama profil ke “operasional perbankan / officer development” dan pindahkan magang ke atas (proses dua puluh menit). Gugur: penempatan di mana saja — ya, dengan jujur. Kirim: tangkap layar konfirmasi; catat “NadiaPutri_CV_BSN_ODP.pdf” di pelacak. Semua itu tidak berarti sampai TOEFL diselesaikan."
+        },
+        {
+         "h": {
+          "en": "Coverage",
+          "id": "Cakupan"
+         }
+        },
+        {
+         "en": "banking operations — internship — “Operations Intern … reconciled daily transaction reports for 3 branches” — ✎ add the exact phrase “banking operations” to the title line or profile. customer service — café — “served 120–150 customers per shift” — ✎ add “customer service” to the bullet. finance — HIMA — “rebuilt financial records … zero audit findings” — ✎ “finance” in the statement heading. organisational leadership — sponsorship — “led a 6-person team … 11 sponsors” — ✓ once the heading uses the phrase. Microsoft Excel — tools — “Excel (pivot tables, VLOOKUP)” — ✎ “Microsoft Excel”. willing to be placed anywhere — profile — “open to placement anywhere in Indonesia” — ✓. Every must met except TOEFL; shoulds all coverable.",
+         "id": "operasional perbankan — magang — “Operations Intern … merekonsiliasi laporan transaksi harian untuk 3 cabang” — ✎ tambahkan frasa persis “operasional perbankan” di baris jabatan atau profil. layanan pelanggan — kafe — “melayani 120–150 pelanggan per sif” — ✎ tambahkan “layanan pelanggan” ke butir. keuangan — HIMA — “membangun ulang catatan keuangan … nol temuan audit” — ✎ “keuangan” di judul pernyataan. kepemimpinan organisasi — sponsorship — “memimpin tim 6 orang … 11 sponsor” — ✓ begitu judulnya memakai frasa itu. Microsoft Excel — alat — “Excel (pivot table, VLOOKUP)” — ✎ “Microsoft Excel”. bersedia ditempatkan di mana saja — profil — “bersedia ditempatkan di seluruh Indonesia” — ✓. Setiap syarat wajib terpenuhi kecuali TOEFL; semua syarat sebaiknya bisa dicakup."
+        },
+        {
+         "h": {
+          "en": "The decision",
+          "id": "Keputusannya"
+         }
+        },
+        {
+         "en": "She cannot meet an essential requirement truthfully in time. She should not upload the expired certificate, should not claim a score she cannot document, and should not hope the portal will not check the date — it is the first thing the administrative filter reads. She should book the TOEFL ITP today, put the next ODP window in her calendar (the bank recruits on rolling windows, and four HIMA alumni can tell her when), and redirect this month’s hours to targets she can still meet: the Arunika MT window, KilatPay and Rumah Rempah on the network track. In the tracker: ODP → “closed this cycle · reason: TOEFL validity · next action: test result on [date]”. A lesson learned, logged, not a wound.",
+         "id": "Ia tidak bisa memenuhi syarat esensial dengan jujur tepat waktu. Ia tidak boleh mengunggah sertifikat kedaluwarsa, tidak boleh mengklaim skor yang tidak bisa ia dokumentasikan, dan tidak boleh berharap portal tidak memeriksa tanggalnya — itu hal pertama yang dibaca saringan administrasi. Ia harus mendaftar TOEFL ITP hari ini, mencatat jendela ODP berikutnya di kalender (bank itu merekrut dalam jendela bergulir, dan empat alumni HIMA bisa memberi tahu kapan), dan mengarahkan ulang jam-jam bulan ini ke sasaran yang masih bisa ia penuhi: jendela MT Arunika, KilatPay dan Rumah Rempah di jalur jejaring. Di pelacak: ODP → “ditutup siklus ini · alasan: masa berlaku TOEFL · tindakan berikutnya: hasil tes pada [tanggal]”. Pelajaran yang dicatat, bukan luka."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your list of failures had fewer than four fatal items, look again at the file specs tab against the uploads. If your decision found a way to submit this cycle, ask which requirement you bent.",
+        "id": "Bandingkan, jangan salin. Jika daftar kegagalanmu punya kurang dari empat butir fatal, lihat lagi tab spesifikasi berkas terhadap unggahan. Jika keputusanmu menemukan cara mengirim siklus ini, tanyakan syarat mana yang kamu bengkokkan."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your four answers as the bank’s administrative screener would — file specs first, then the form, then the CV. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca keempat jawabanmu seperti penyaring administrasi bank — spesifikasi berkas dulu, lalu formulir, lalu CV. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run the same pre-flight on your own next application.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan pra-kirim yang sama pada lamaranmu berikutnya."
+       }
+      }
      },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Self-rejecting on borderline requirements",
-         "id": "Menolak diri sendiri pada persyaratan ambang"
+         "en": "Reading each tab alone",
+         "id": "Membaca setiap tab sendiri-sendiri"
         },
         "fix": {
-         "en": "“2 years’ experience” with one year and strong evidence is worth an application with the gap named. “Licensed pharmacist” without a licence is not.",
-         "id": "“2 tahun pengalaman” dengan satu tahun dan bukti kuat layak dilamar dengan celah yang disebutkan. “Apoteker berlisensi” tanpa lisensi tidak."
+         "en": "Half the failures only appear when two tabs are compared: specs vs uploads, form vs CV, CV vs LinkedIn.",
+         "id": "Separuh kegagalan hanya muncul ketika dua tab dibandingkan: spesifikasi vs unggahan, formulir vs CV, CV vs LinkedIn."
         }
        },
        {
         "h": {
-         "en": "Pre-flight from memory",
-         "id": "Pra-terbang dari ingatan"
+         "en": "Calling everything fatal",
+         "id": "Menyebut semuanya fatal"
         },
         "fix": {
-         "en": "Under deadline you skip steps. Use the written checklist every time.",
-         "id": "Di bawah tenggat kamu melewati langkah. Gunakan daftar periksa tertulis setiap kali."
+         "en": "Essential requirements and required documents are gates; inconsistencies and blank optional fields cost ranking.",
+         "id": "Syarat esensial dan dokumen wajib adalah gerbang; ketidakkonsistenan dan kolom opsional kosong merugikan peringkat."
         }
        },
        {
         "h": {
-         "en": "Applying twice to the same requisition",
-         "id": "Melamar dua kali ke lowongan yang sama"
+         "en": "Finding a clever way to submit the expired certificate",
+         "id": "Mencari cara cerdik untuk mengirim sertifikat kedaluwarsa"
         },
         "fix": {
-         "en": "Duplicates flag as careless. Track what you sent in the pipeline tracker.",
-         "id": "Duplikat ditandai sebagai ceroboh. Lacak apa yang kamu kirim di pelacak pipeline."
+         "en": "There isn’t one that is honest. Book the test; next cycle.",
+         "id": "Tidak ada yang jujur. Daftar tes; siklus berikutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Ending the case at “don’t apply”",
+         "id": "Mengakhiri kasus di “jangan melamar”"
+        },
+        "fix": {
+         "en": "Redirect the month: other targets, the calendar, the tracker.",
+         "id": "Arahkan ulang bulannya: sasaran lain, kalender, pelacak."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Pre-flight Checklist",
+        "id": "Daftar Periksa Pra-kirim"
+       },
+       "def": {
+        "en": "Dossier item 4, part two: the programme-specific check run before every submission.",
+        "id": "Butir Dossier 4, bagian dua: pemeriksaan khusus program yang dijalankan sebelum setiap pengiriman."
+       }
+      },
+      {
+       "term": {
+        "en": "Validity window",
+        "id": "Masa berlaku"
+       },
+       "def": {
+        "en": "The period after a test date during which a certificate is accepted — often two years.",
+        "id": "Periode setelah tanggal tes selama sertifikat diterima — sering dua tahun."
+       }
+      },
+      {
+       "term": {
+        "en": "Rolling window",
+        "id": "Jendela bergulir"
+       },
+       "def": {
+        "en": "A programme that opens registration several times a year rather than once.",
+        "id": "Program yang membuka pendaftaran beberapa kali setahun, bukan sekali."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s TOEFL certificate is 26 months old against a two-year validity rule, and a new result takes three weeks; the window closes in ten days.",
+        "id": "Sertifikat TOEFL Nadia berusia 26 bulan terhadap aturan masa berlaku dua tahun, dan hasil baru butuh tiga minggu; jendela tutup sepuluh hari lagi."
+       },
+       "options": [
+        {
+         "en": "Upload it — they may not check the date",
+         "id": "Unggah saja — mereka mungkin tidak memeriksa tanggalnya"
+        },
+        {
+         "en": "Do not submit an expired certificate; book the test now, calendar the next window, redirect this month to other targets",
+         "id": "Jangan kirim sertifikat kedaluwarsa; daftar tes sekarang, catat jendela berikutnya di kalender, arahkan ulang bulan ini ke sasaran lain"
+        },
+        {
+         "en": "Type the score in the form and leave the upload blank",
+         "id": "Ketik skornya di formulir dan biarkan unggahan kosong"
+        },
+        {
+         "en": "Upload a friend’s certificate",
+         "id": "Unggah sertifikat teman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "An essential requirement cannot be met truthfully in time. The honest path is the only one that survives the process.",
+        "id": "Syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu. Jalur jujur adalah satu-satunya yang bertahan dalam proses."
+       }
+      },
+      {
+       "q": {
+        "en": "The form shows IPK 3,4; the transcript says 3,38.",
+        "id": "Formulir menunjukkan IPK 3,4; transkrip menyebut 3,38."
+       },
+       "options": [
+        {
+         "en": "Fine — it rounds up",
+         "id": "Tidak apa-apa — itu pembulatan ke atas"
+        },
+        {
+         "en": "Make every document identical and exact: 3,38",
+         "id": "Buat setiap dokumen identik dan tepat: 3,38"
+        },
+        {
+         "en": "Change the CV to 3,4",
+         "id": "Ubah CV ke 3,4"
+        },
+        {
+         "en": "Leave the field blank",
+         "id": "Biarkan kolomnya kosong"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Rounding reads as inflation, and inconsistency reads as carelessness. One record, exact.",
+        "id": "Pembulatan terbaca sebagai menggelembungkan, dan ketidakkonsistenan terbaca sebagai kecerobohan. Satu rekaman, tepat."
+       }
+      },
+      {
+       "q": {
+        "en": "Which of these is not fatal on its own?",
+        "id": "Mana yang tidak fatal dengan sendirinya?"
+       },
+       "options": [
+        {
+         "en": "A required photo in the wrong format and size",
+         "id": "Foto wajib dalam format dan ukuran yang salah"
+        },
+        {
+         "en": "“Other” selected as the major when “Manajemen” is listed",
+         "id": "“Lainnya” dipilih sebagai jurusan padahal “Manajemen” tercantum"
+        },
+        {
+         "en": "The optional organisational-experience field left blank",
+         "id": "Kolom opsional pengalaman organisasi dibiarkan kosong"
+        },
+        {
+         "en": "An expired language certificate",
+         "id": "Sertifikat bahasa yang kedaluwarsa"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "A blank optional field loses ranking; the other three are gates.",
+        "id": "Kolom opsional yang kosong kehilangan peringkat; tiga lainnya adalah gerbang."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "ats",
+      "title": {
+       "en": "Pre-flight your own next submission",
+       "id": "Pra-kirim pengirimanmu berikutnya"
+      },
+      "body": {
+       "en": "Take the application you are closest to sending. Run the parse test, the coverage table and the seven-step pre-flight in the ATS check, and log the result with the CV version in the tracker. That completes Dossier item 4.",
+       "id": "Ambil lamaran yang paling dekat kamu kirim. Jalankan uji urai, tabel cakupan, dan pra-kirim tujuh langkah di pemeriksaan ATS, dan catat hasilnya bersama versi CV di pelacak. Itu melengkapi butir Dossier 4."
+      },
+      "cta": {
+       "en": "Open the ATS check →",
+       "id": "Buka pemeriksaan ATS →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Most administrative failures are visible only when you compare documents against specs and against each other.",
+       "id": "Kebanyakan kegagalan administratif hanya terlihat ketika kamu membandingkan dokumen dengan spesifikasi dan satu sama lain."
+      },
+      {
+       "en": "Fatal means an unmet essential requirement or an unusable required document; everything else costs ranking.",
+       "id": "Fatal berarti syarat esensial yang tidak terpenuhi atau dokumen wajib yang tidak bisa dipakai; selebihnya merugikan peringkat."
+      },
+      {
+       "en": "When an essential requirement cannot be met honestly in time, the decision is next cycle — and a redirected month.",
+       "id": "Ketika syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu, keputusannya adalah siklus berikutnya — dan bulan yang diarahkan ulang."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 2 · the campaign",
-        "id": "Modul 2 · kampanye"
+        "en": "Lessons 4.1–4.4",
+        "id": "Pelajaran 4.1–4.4"
        },
        "desc": {
-        "en": "You know where and when to apply; now the file has to survive the machine and the checklist.",
-        "id": "Kamu tahu di mana dan kapan melamar; kini berkasnya harus lolos mesin dan daftar periksa."
+        "en": "What the machine does, parse-safe formatting, honest coverage, seleksi administrasi.",
+        "id": "Apa yang dilakukan mesin, format aman-urai, cakupan jujur, seleksi administrasi."
        }
       },
       "now": {
        "label": {
-        "en": "Module 4 · the precise applicant",
-        "id": "Modul 4 · pelamar yang presisi"
+        "en": "4.5 · The Portal",
+        "id": "4.5 · Portal"
        },
        "desc": {
-        "en": "Parse-safe documents, honest JD mirroring, a pre-flight you run every time.",
-        "id": "Dokumen aman-parser, cermin JD yang jujur, pra-terbang yang kamu jalankan setiap kali."
+        "en": "You have found every failure in a real submission, written the pre-flight, built the coverage table and made the honest call.",
+        "id": "Kamu sudah menemukan setiap kegagalan dalam pengiriman nyata, menulis pra-kirim, membangun tabel cakupan, dan mengambil keputusan jujur."
        }
       },
       "next": {
        "label": {
-        "en": "Module 11 · case interviews",
-        "id": "Modul 11 · wawancara kasus"
+        "en": "Module 5 · LinkedIn & Professional Presence",
+        "id": "Modul 5 · LinkedIn & Kehadiran Profesional"
        },
        "desc": {
-        "en": "A business problem on the table and a friendly spotlight on how you think.",
-        "id": "Masalah bisnis di atas meja dan sorotan ramah pada cara berpikirmu."
+        "en": "The profile recruiters search and check your CV against — the same facts, a warmer voice.",
+        "id": "Profil yang dicari perekrut dan dipakai memeriksa CV-mu — fakta yang sama, suara yang lebih hangat."
        },
-       "lesson": "11.1"
+       "lesson": "5.1"
       }
      }
     }

@@ -930,129 +930,386 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "4": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "An ATS pipeline runs:",
-     "id": "Alur kerja ATS berjalan:"
+    "lesson": "4.1",
+    "h": {
+     "en": "What the Machine Actually Does",
+     "id": "Apa yang Sebenarnya Dilakukan Mesin"
     },
-    "opts": [
-     {
-      "en": "Read → judge → reply",
-      "id": "Baca → nilai → balas"
-     },
-     {
-      "en": "Parse → index → filter (knockouts) → rank → present to a human",
-      "id": "Urai → indeks → saring (pertanyaan penggugur) → peringkat → sajikan ke manusia"
-     },
-     {
-      "en": "Scan → delete → shortlist",
-      "id": "Pindai → hapus → daftar pendek"
-     },
-     {
-      "en": "Upload → interview → offer",
-      "id": "Unggah → wawancara → tawaran"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Most 'ATS rejections' are humans working a machine-ordered list. Your three controllable failure modes: parsing breaks, missing keywords, knockout mismatches.",
-     "id": "Kebanyakan 'penolakan ATS' sebenarnya adalah manusia yang bekerja dengan daftar yang sudah diurutkan mesin. Tiga kegagalan yang bisa kamu kendalikan: pembacaan mesin yang kacau, kata kunci yang tidak ada, dan jawaban yang tidak lolos pertanyaan penggugur."
+    "sub": {
+     "en": "Five functions, myths and facts, the three failure modes you control.",
+     "id": "Lima fungsi, mitos dan fakta, tiga mode kegagalan yang kamu kendalikan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your beautiful two-column CV gets no portal callbacks; the same content by email does. Prime suspect:",
-     "id": "CV dua kolommu yang cantik tidak pernah dipanggil lewat portal; konten yang sama lewat email berhasil. Tersangka utama:"
+    "lesson": "4.2",
+    "h": {
+     "en": "Parse-Safe Formatting",
+     "id": "Format yang Aman Dibaca Mesin"
     },
-    "opts": [
-     {
-      "en": "Recruiters resent good design",
-      "id": "Perekrut tidak suka desain yang bagus"
-     },
-     {
-      "en": "The parser scrambles the layout, leaving a garbled structured record",
-      "id": "Mesin pembacanya mengacak tata letaknya, sehingga yang tersimpan adalah data yang berantakan"
-     },
-     {
-      "en": "Portals lose applications randomly",
-      "id": "Portal kehilangan lamaran secara acak"
-     },
-     {
-      "en": "Email always outranks portals",
-      "id": "Email selalu lebih unggul daripada portal"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Same content, different channel, different outcome isolates the variable. The copy-paste parse test catches it in one minute: single column, standard headings, real text.",
-     "id": "Konten sama, kanal berbeda, hasil berbeda — itu mengisolasi variabelnya. Uji salin-tempel menangkapnya dalam satu menit: satu kolom, judul bagian yang standar, teks sungguhan."
+    "sub": {
+     "en": "Eight rules, file types, the plain-text test and the portal preview.",
+     "id": "Delapan aturan, jenis berkas, uji teks polos dan pratinjau portal."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "A JD lists 'minimum GPA 3.25' and 'Tableau preferred'. You hold 3.4 and no Tableau:",
-     "id": "Deskripsi lowongan mencantumkan 'IPK minimum 3,25' dan 'menguasai Tableau lebih diutamakan'. IPK-mu 3,4 dan kamu belum bisa Tableau:"
+    "lesson": "4.3",
+    "h": {
+     "en": "Honest Keyword Coverage",
+     "id": "Cakupan Kata Kunci yang Jujur"
     },
-    "opts": [
-     {
-      "en": "Skip — every listed item is required",
-      "id": "Lewati — semua yang tercantum berarti wajib"
-     },
-     {
-      "en": "Apply — the must is met; 'preferred' is a ranking weight your other evidence can compensate",
-      "id": "Lamar — syarat wajibnya terpenuhi; 'lebih diutamakan' hanya bobot peringkat yang bisa ditutup oleh bukti-buktimu yang lain"
-     },
-     {
-      "en": "Apply and add Tableau to skills to be safe",
-      "id": "Lamar, dan tambahkan Tableau di daftar keterampilan supaya aman"
-     },
-     {
-      "en": "Email the recruiter asking for an exception",
-      "id": "Email perekrut untuk meminta pengecualian"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Requirement literacy: numeric musts are configured knockouts; soft language is weights. Pasting the keyword without substance dies at the first technical probe.",
-     "id": "Melek persyaratan: syarat wajib yang berupa angka adalah pertanyaan penggugur yang sudah diatur di sistem; bahasa yang lunak adalah bobot. Menempelkan kata kunci tanpa substansi akan terbongkar di pertanyaan teknis pertama."
+    "sub": {
+     "en": "The exact-form rule, the coverage table, four honest closes, the two-thirds rule of thumb.",
+     "id": "Aturan bentuk persis, tabel cakupan, empat penutup jujur, aturan praktis dua pertiga."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your CV, LinkedIn and application form show three different internship titles for the same role. The risk:",
-     "id": "CV, LinkedIn, dan formulir lamaranmu menampilkan tiga judul magang yang berbeda untuk peran yang sama. Risikonya:"
+    "lesson": "4.4",
+    "h": {
+     "en": "Seleksi Administrasi",
+     "id": "Seleksi Administrasi"
     },
-    "opts": [
-     {
-      "en": "None — titles are flexible",
-      "id": "Tidak ada — judul itu fleksibel"
-     },
-     {
-      "en": "Cross-checks read mismatches as carelessness at best, dishonesty at worst — one master record should feed every document",
-      "id": "Pemeriksaan silang membaca ketidakcocokan paling ringan sebagai kecerobohan, paling berat sebagai ketidakjujuran — satu catatan induk seharusnya menjadi sumber semua dokumen"
-     },
-     {
-      "en": "Only spelling errors matter",
-      "id": "Hanya salah eja yang berpengaruh"
-     },
-     {
-      "en": "Recruiters never compare documents",
-      "id": "Perekrut tidak pernah membandingkan dokumen"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Consistency by architecture beats consistency by discipline: no document states a fact except by copying from the master record.",
-     "id": "Konsistensi lewat sistem mengalahkan konsistensi lewat disiplin: tidak ada dokumen yang menyatakan sebuah fakta kecuali dengan menyalinnya dari catatan induk."
+    "sub": {
+     "en": "Requirement anatomy, the Indonesian checklist, the seven-step pre-flight, consistency, knockouts.",
+     "id": "Anatomi persyaratan, daftar periksa Indonesia, pra-kirim tujuh langkah, konsistensi, pertanyaan gugur."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "4.1",
+    "q": {
+     "en": "What does applicant-tracking software actually do?",
+     "id": "Apa yang sebenarnya dilakukan perangkat lunak pelacak pelamar?"
+    },
+    "opts": [
+     {
+      "en": "Reads every CV carefully and rejects most of them",
+      "id": "Membaca setiap CV dengan cermat dan menolak sebagian besar"
+     },
+     {
+      "en": "Parses, indexes, filters, ranks and presents applications; a recruiter decides",
+      "id": "Mengurai, mengindeks, menyaring, memeringkat, dan menyajikan lamaran; perekrut memutuskan"
+     },
+     {
+      "en": "Checks photos for professionalism",
+      "id": "Memeriksa foto untuk profesionalisme"
+     },
+     {
+      "en": "Interviews candidates by chat",
+      "id": "Mewawancarai kandidat lewat obrolan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The machine organises; a person decides. Early exits are knockouts and filters, not a robot’s judgment.",
+     "id": "Mesin menata; orang memutuskan. Pintu keluar awal adalah pertanyaan gugur dan saringan, bukan penilaian robot."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Your two-column CV gets no portal responses, while the same content sent by email gets replies. The most likely cause is…",
+     "id": "CV dua kolommu tidak mendapat respons dari portal, sementara isi yang sama yang dikirim lewat email mendapat balasan. Penyebab yang paling mungkin adalah…"
+    },
+    "opts": [
+     {
+      "en": "Recruiters dislike email",
+      "id": "Perekrut tidak suka email"
+     },
+     {
+      "en": "A parsing failure: the columns interleave and the record comes out garbled",
+      "id": "Kegagalan penguraian: kolom-kolomnya tersilang dan rekamannya keluar kacau"
+     },
+     {
+      "en": "Your IPK",
+      "id": "IPK-mu"
+     },
+     {
+      "en": "Bad luck",
+      "id": "Nasib buruk"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A human reads the emailed PDF; the portal builds a record from it — and a two-column layout breaks that record silently.",
+     "id": "Manusia membaca PDF yang diemail; portal membangun rekaman darinya — dan tata letak dua kolom merusak rekaman itu tanpa suara."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.3",
+    "q": {
+     "en": "The Pack’s coverage rule says every must-have keyword appears…",
+     "id": "Aturan cakupan The Pack menyebut setiap kata kunci wajib muncul…"
+    },
+    "opts": [
+     {
+      "en": "As often as possible",
+      "id": "Sesering mungkin"
+     },
+     {
+      "en": "At least once, in the advertisement’s exact form, inside a true evidence sentence",
+      "id": "Setidaknya sekali, dalam bentuk persis iklan, di dalam kalimat bukti yang benar"
+     },
+     {
+      "en": "In a keywords list at the bottom",
+      "id": "Dalam daftar kata kunci di bagian bawah"
+     },
+     {
+      "en": "In the file name",
+      "id": "Di nama berkas"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Once, exactly, truthfully — where both the parser and the recruiter find it.",
+     "id": "Sekali, persis, jujur — tempat pengurai maupun perekrut menemukannya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "The advertisement lists Power BI as a should-have. You have never used it. The honest close is…",
+     "id": "Iklan mencantumkan Power BI sebagai syarat sebaiknya. Kamu belum pernah memakainya. Penutup jujurnya adalah…"
+    },
+    "opts": [
+     {
+      "en": "List Power BI under skills anyway",
+      "id": "Cantumkan Power BI di keterampilan saja"
+     },
+     {
+      "en": "Start a short course and state “currently completing Power BI fundamentals (due Oct 2026)”, or accept the gap",
+      "id": "Mulai kursus singkat dan nyatakan “sedang menyelesaikan dasar-dasar Power BI (selesai Okt 2026)”, atau terima celahnya"
+     },
+     {
+      "en": "Write “familiar with Power BI”",
+      "id": "Tulis “akrab dengan Power BI”"
+     },
+     {
+      "en": "Put it in white text",
+      "id": "Taruh dalam teks putih"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Learn or accept. Every keyword may be tested at interview; a claimed tool meets a five-minute question.",
+     "id": "Pelajari atau terima. Setiap kata kunci bisa diuji saat wawancara; alat yang diklaim bertemu pertanyaan lima menit."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.4",
+    "q": {
+     "en": "“Demonstrated ability to lead a team (essential)” means the application must show…",
+     "id": "“Kemampuan yang terbukti memimpin tim (esensial)” berarti lamaran harus menunjukkan…"
+    },
+    "opts": [
+     {
+      "en": "The word “leadership” somewhere",
+      "id": "Kata “kepemimpinan” di suatu tempat"
+     },
+     {
+      "en": "Evidence of having actually led a team — a specific example with context and result",
+      "id": "Bukti pernah benar-benar memimpin tim — contoh spesifik dengan konteks dan hasil"
+     },
+     {
+      "en": "A leadership certificate",
+      "id": "Sertifikat kepemimpinan"
+     },
+     {
+      "en": "Nothing — essential means optional",
+      "id": "Tidak ada — esensial berarti opsional"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“Demonstrated” means done; “essential” means the gate closes without it.",
+     "id": "“Terbukti” berarti pernah dilakukan; “esensial” berarti gerbang tertutup tanpanya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "Your TOEFL certificate is 26 months old; the programme requires validity within two years; a new result takes three weeks and the window closes in ten days.",
+     "id": "Sertifikat TOEFL-mu berusia 26 bulan; program mewajibkan masa berlaku dalam dua tahun; hasil baru butuh tiga minggu dan jendela tutup sepuluh hari lagi."
+    },
+    "opts": [
+     {
+      "en": "Upload it and hope",
+      "id": "Unggah dan berharap"
+     },
+     {
+      "en": "Do not submit an expired certificate; book the test now, calendar the next cycle, redirect the month to other targets",
+      "id": "Jangan kirim sertifikat kedaluwarsa; daftar tes sekarang, catat siklus berikutnya di kalender, arahkan ulang bulan ini ke sasaran lain"
+     },
+     {
+      "en": "Type the old score and skip the upload",
+      "id": "Ketik skor lama dan lewati unggahan"
+     },
+     {
+      "en": "Withdraw from all applications",
+      "id": "Tarik semua lamaran"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "An essential requirement cannot be met honestly in time. The decision is next cycle — and a redirected month, not a stalled one.",
+     "id": "Syarat esensial tidak bisa dipenuhi dengan jujur tepat waktu. Keputusannya siklus berikutnya — dan bulan yang diarahkan ulang, bukan yang terhenti."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "The portal form shows IPK 3,4; your transcript and CV say 3,38.",
+     "id": "Formulir portal menunjukkan IPK 3,4; transkrip dan CV-mu menyebut 3,38."
+    },
+    "opts": [
+     {
+      "en": "Fine — rounding is normal",
+      "id": "Tidak apa-apa — pembulatan itu normal"
+     },
+     {
+      "en": "Make every document identical and exact: 3,38",
+      "id": "Buat setiap dokumen identik dan tepat: 3,38"
+     },
+     {
+      "en": "Change the CV to match the form",
+      "id": "Ubah CV agar sesuai formulir"
+     },
+     {
+      "en": "Leave the field empty",
+      "id": "Biarkan kolomnya kosong"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Rounding reads as inflation; inconsistency reads as carelessness. One record, exact, everywhere.",
+     "id": "Pembulatan terbaca sebagai menggelembungkan; ketidakkonsistenan terbaca sebagai kecerobohan. Satu rekaman, tepat, di mana-mana."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "After upload, the portal preview shows your job title in the “Company” field.",
+     "id": "Setelah unggah, pratinjau portal menampilkan jabatanmu di kolom “Perusahaan”."
+    },
+    "opts": [
+     {
+      "en": "Ignore it — the PDF is attached anyway",
+      "id": "Abaikan — PDF-nya terlampir juga"
+     },
+     {
+      "en": "Correct the field by hand and fix the source layout that caused it",
+      "id": "Koreksi kolomnya secara manual dan perbaiki tata letak sumber yang menyebabkannya"
+     },
+     {
+      "en": "Re-upload the same file",
+      "id": "Unggah ulang berkas yang sama"
+     },
+     {
+      "en": "Withdraw",
+      "id": "Tarik lamaran"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The preview is the machine showing you what it saw. Fix the record and its cause.",
+     "id": "Pratinjau adalah mesin menunjukkan apa yang dilihatnya. Perbaiki rekaman dan penyebabnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.1",
+    "q": {
+     "en": "A friend suggests applying to all six roles a company has open “to raise your odds”.",
+     "id": "Seorang teman menyarankan melamar keenam posisi yang dibuka sebuah perusahaan “untuk memperbesar peluang”."
+    },
+    "opts": [
+     {
+      "en": "Good idea",
+      "id": "Ide bagus"
+     },
+     {
+      "en": "Usually counterproductive — recruiters see every application, and scattered ones signal no target; apply to one or two genuine fits",
+      "id": "Biasanya kontraproduktif — perekrut melihat setiap lamaran, dan yang tersebar menandakan tidak ada sasaran; lamar satu atau dua yang benar-benar cocok"
+     },
+     {
+      "en": "Only if you use six different names",
+      "id": "Hanya jika kamu memakai enam nama berbeda"
+     },
+     {
+      "en": "Only on the network track",
+      "id": "Hanya di jalur jejaring"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The ATS shows the recruiter all of your applications together.",
+     "id": "ATS menunjukkan semua lamaranmu sekaligus kepada perekrut."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "You meet every hard requirement and about 70% of the desirable ones.",
+     "id": "Kamu memenuhi setiap syarat mutlak dan sekitar 70% syarat tambahan."
+    },
+    "opts": [
+     {
+      "en": "Wait until you meet 100%",
+      "id": "Tunggu sampai memenuhi 100%"
+     },
+     {
+      "en": "Apply, with honest evidence for what you have and honest closes for the rest",
+      "id": "Lamar, dengan bukti jujur untuk yang kamu punya dan penutup jujur untuk sisanya"
+     },
+     {
+      "en": "Do not apply",
+      "id": "Jangan melamar"
+     },
+     {
+      "en": "Rewrite the facts to reach 100%",
+      "id": "Tulis ulang fakta agar mencapai 100%"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Musts met and about two-thirds of the rest is the threshold; advertisements describe an ideal.",
+     "id": "Syarat mutlak terpenuhi dan sekitar dua pertiga sisanya adalah ambangnya; iklan menggambarkan sosok ideal."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Which administrative failure have you made before without knowing it — a file over the limit, a rounded IPK, a blank optional field, a mismatched date, a declaration ticked without meaning it? Describe it, say which of the seven pre-flight steps would have caught it, and write the one line you will add to your own checklist.",
+    "id": "Minimal 100 kata. Kegagalan administratif mana yang pernah kamu lakukan tanpa sadar — berkas melebihi batas, IPK yang dibulatkan, kolom opsional kosong, tanggal yang tidak cocok, pernyataan yang dicentang tanpa bersungguh-sungguh? Gambarkan, katakan langkah pra-kirim mana dari tujuh yang akan menangkapnya, dan tulis satu baris yang akan kamu tambahkan ke daftar periksamu sendiri."
+   },
+   "guide": [
+    {
+     "en": "Name the failure and the application it happened on — honestly; nobody is grading it.",
+     "id": "Sebutkan kegagalannya dan lamaran tempat itu terjadi — dengan jujur; tidak ada yang menilainya."
+    },
+    {
+     "en": "Name the pre-flight step (parse, coverage, triage, documents, consistency, knockouts, submit and track) that would have caught it.",
+     "id": "Sebutkan langkah pra-kirim (urai, cakupan, triase, dokumen, konsistensi, gugur, kirim dan catat) yang akan menangkapnya."
+    },
+    {
+     "en": "Write the checklist line as an instruction to yourself, with a number or a spec where possible.",
+     "id": "Tulis baris daftar periksanya sebagai instruksi untuk dirimu sendiri, dengan angka atau spesifikasi bila mungkin."
+    }
+   ],
+   "min": 100
+  }
  },
  "5": {
   "mcq": [
