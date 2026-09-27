@@ -22933,6 +22933,138 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for style-6: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-en-01.jpg",
+      "bytes": 219995,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (English), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-en-01-960.jpg",
+      "bytes": 106570,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (English), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-en-01-320.jpg",
+      "bytes": 18168,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (English), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-id-01.jpg",
+      "bytes": 242486,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (Bahasa Indonesia), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-id-01-960.jpg",
+      "bytes": 118570,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (Bahasa Indonesia), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-onc-id-01-320.jpg",
+      "bytes": 19697,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Open Narrow Close\" (Bahasa Indonesia), slide 1 of 1: the Open, Narrow, Close meeting technique — three phases with their practices, section note and reflection question. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/style-7.mp4",
+      "bytes": 17406404,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Open Narrow Close.mp4\" (moved to this path, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 lesson film \"Open Narrow Close\": presenter captioned \"David, Client Communications Expert\" on the three phases of a facilitated meeting and how to portion time between them. Licence and any model releases follow the upload."
+    },
+    {
+      "file": "assets/lms/the-map/style-7-brand.mp4",
+      "bytes": 30006116,
+      "category": "video",
+      "people": "yes",
+      "source": "Derived in-repo from style-7.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/style-7-poster.jpg",
+      "bytes": 79275,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame extracted in-repo from style-7.mp4",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame for the presentation-style film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/style-7-en.vtt",
+      "bytes": 4366,
+      "category": "text",
+      "people": "no",
+      "source": "Transcribed in-repo from the film’s English audio (offline Whisper small.en) and corrected by hand",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for style-7."
+    },
+    {
+      "file": "assets/lms/the-map/style-7-id.vtt",
+      "bytes": 4473,
+      "category": "text",
+      "people": "no",
+      "source": "Translated in-repo from the English transcript",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for style-7: translated in-repo from the English transcript."
     }
   ]
 }

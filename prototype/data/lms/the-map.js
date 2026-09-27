@@ -9109,8 +9109,8 @@ window.MT_LMS['the-map'] = {
       "id": "Elemen Gaya Presentasi"
      },
      "dur": {
-      "en": "60 min",
-      "id": "60 mnt"
+      "en": "65 min",
+      "id": "65 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -9335,6 +9335,33 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Open Narrow Close — Material",
+        "id": "Open Narrow Close — Materi"
+       },
+       "intro": {
+        "en": "One slide sets out the conversation framework Kate named: Open, Narrow, Close. Every great conversation follows the same structure. Open introduces and broadens the set of ideas — set the context and purpose, create an inclusive and open environment, explore perspectives and generate possibilities. Narrow assesses the options — discuss and evaluate them, identify trade-offs and implications, build alignment on the preferred direction. Close determines next steps — summarise decisions and insights, agree actions, owners and timelines, confirm alignment and the next touchpoints. Hold a recent conversation of your own in mind and try to find its open, narrow and close, then continue to the film that follows.",
+        "id": "Satu slide menguraikan kerangka percakapan yang disebut Kate: Open, Narrow, Close. Setiap percakapan yang efektif mengikuti struktur yang sama. Open memperkenalkan dan memperluas set ide — tetapkan konteks dan tujuan, ciptakan lingkungan yang inklusif dan terbuka, gali perspektif dan hasilkan kemungkinan. Narrow menilai opsi-opsi — diskusikan dan evaluasi, identifikasi trade-off dan implikasinya, bangun keselarasan terhadap arah yang dipilih. Close menentukan langkah selanjutnya — ringkas keputusan dan insight, sepakati tindakan, penanggung jawab, dan timeline, konfirmasi keselarasan dan tindak lanjut berikutnya. Ingatlah satu percakapan terbaru Anda dan coba temukan bagian open, narrow, dan close-nya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-onc-",
+       "slides": [
+        {
+         "title": {
+          "en": "Open Narrow Close meeting technique",
+          "id": "Teknik Open Narrow Close untuk rapat"
+         },
+         "text": {
+          "en": "Conversation framework. Every great conversation follows the same structure: Open, Narrow, and Close. This simple but powerful technique helps you introduce and broaden the set of ideas, assess the options, and determine next steps. Open — introduce and broaden the set of ideas; Narrow — assess the options; Close — determine next steps. In this section: we will explore the Open, Narrow, Close meeting technique and see how this simple structure can help you facilitate more focused, productive, and impactful conversations. Reflection question: as you watch this video, take a moment to think about a recent conversation you have had. Can you identify the open, narrow, and close of that conversation? 1 Open — introduce and broaden the set of ideas: set the context and purpose; create an inclusive and open environment; explore different perspectives and generate possibilities. 2 Narrow — assess the options: discuss and evaluate the key options; identify trade-offs and implications; build alignment on the preferred direction. 3 Close — determine next steps: summarize key decisions and insights; agree on clear actions, owners, and timelines; confirm alignment and next touchpoints.",
+          "id": "Kerangka percakapan. Setiap percakapan yang efektif mengikuti struktur yang sama: Open, Narrow, dan Close. Teknik sederhana namun kuat ini membantu Anda memperkenalkan dan memperluas set ide, menilai opsi, dan menentukan langkah selanjutnya. Open — perkenalkan dan perluas set ide; Narrow — nilai opsi-opsi yang ada; Close — tentukan langkah selanjutnya. Pada bagian ini: kita akan membahas teknik Open, Narrow, Close untuk rapat dan melihat bagaimana struktur sederhana ini dapat membantu Anda memfasilitasi percakapan yang lebih fokus, produktif, dan berdampak. Pertanyaan refleksi: saat Anda menonton video ini, luangkan waktu sejenak untuk memikirkan satu percakapan terbaru yang pernah Anda lakukan. Dapatkah Anda mengidentifikasi bagian open, narrow, dan close dari percakapan tersebut? 1 Open — perkenalkan dan perluas set ide: tetapkan konteks dan tujuan percakapan; ciptakan lingkungan yang inklusif dan terbuka; gali berbagai perspektif dan hasilkan kemungkinan-kemungkinan baru. 2 Narrow — nilai opsi-opsi yang ada: diskusikan dan evaluasi opsi utama; identifikasi trade-off dan implikasinya; bangun keselarasan terhadap arah yang dipilih. 3 Close — tentukan langkah selanjutnya: ringkas keputusan utama dan insight yang diperoleh; sepakati tindakan yang jelas, penanggung jawab, dan timeline; konfirmasi keselarasan dan tindak lanjut berikutnya."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -9547,8 +9574,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the second slide points to. Kate closes the Conversation element of EPIC with facilitation: to facilitate is to make something easier, which is why effective communicators are also effective facilitators — they make it easier for other people to understand their message. It does not mean leading the discussion or being the content expert; anyone can facilitate. What it takes is an open, curious, “over there” mindset: with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room. It matters equally with one person or a large group, and the techniques ahead include the open–narrow–close framework, an overall architecture for most conversations — bringing together empathy, purpose and insights in a well-orchestrated conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
-        "id": "Film yang dirujuk slide kedua. Kate menutup elemen Percakapan dari EPIC dengan fasilitasi: memfasilitasi berarti membuat sesuatu lebih mudah, itulah mengapa komunikator yang efektif juga adalah fasilitator yang efektif — mereka mempermudah orang lain memahami pesan mereka. Ini tidak berarti memimpin diskusi atau menjadi ahli konten; siapa pun bisa memfasilitasi. Yang dibutuhkan adalah pola pikir yang terbuka, penuh rasa ingin tahu, dan “di sana”: bersama audiens Anda, memikirkan di mana mereka berada, bersedia melepaskan agenda Anda saat tepat, mengajukan pertanyaan dan menggali apa lagi yang terjadi di ruangan. Ini sama pentingnya dengan satu orang maupun kelompok besar, dan teknik-teknik ke depan mencakup kerangka buka–persempit–tutup, sebuah arsitektur keseluruhan untuk sebagian besar percakapan — menyatukan empati, tujuan, dan wawasan dalam percakapan yang terorkestrasi dengan baik. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+        "en": "The film the second slide points to. Kate closes the Conversation element of EPIC with facilitation: to facilitate is to make something easier, which is why effective communicators are also effective facilitators — they make it easier for other people to understand their message. It does not mean leading the discussion or being the content expert; anyone can facilitate. What it takes is an open, curious, “over there” mindset: with your audience, thinking about where they are, willing to release your agenda when appropriate, asking questions and uncovering what else is going on in the room. It matters equally with one person or a large group, and the techniques ahead include the open–narrow–close framework, an overall architecture for most conversations — bringing together empathy, purpose and insights in a well-orchestrated conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slide that follows.",
+        "id": "Film yang dirujuk slide kedua. Kate menutup elemen Percakapan dari EPIC dengan fasilitasi: memfasilitasi berarti membuat sesuatu lebih mudah, itulah mengapa komunikator yang efektif juga adalah fasilitator yang efektif — mereka mempermudah orang lain memahami pesan mereka. Ini tidak berarti memimpin diskusi atau menjadi ahli konten; siapa pun bisa memfasilitasi. Yang dibutuhkan adalah pola pikir yang terbuka, penuh rasa ingin tahu, dan “di sana”: bersama audiens Anda, memikirkan di mana mereka berada, bersedia melepaskan agenda Anda saat tepat, mengajukan pertanyaan dan menggali apa lagi yang terjadi di ruangan. Ini sama pentingnya dengan satu orang maupun kelompok besar, dan teknik-teknik ke depan mencakup kerangka buka–persempit–tutup, sebuah arsitektur keseluruhan untuk sebagian besar percakapan — menyatukan empati, tujuan, dan wawasan dalam percakapan yang terorkestrasi dengan baik. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -9565,8 +9592,8 @@ window.MT_LMS['the-map'] = {
           "id": "Bawalah pola pikir “di sana”: terbuka dan penuh rasa ingin tahu, bersama audiens Anda, memikirkan di mana mereka berada, bersedia melepaskan agenda saat tepat, mengajukan pertanyaan dan menggali apa lagi yang terjadi di ruangan."
          },
          {
-          "en": "Facilitation matters with one person or a large group. Frameworks such as open–narrow–close give most conversations an architecture, so that empathy, purpose and insights come together in a well-orchestrated conversation.",
-          "id": "Fasilitasi penting dengan satu orang maupun kelompok besar. Kerangka seperti buka–persempit–tutup memberi sebagian besar percakapan sebuah arsitektur, sehingga empati, tujuan, dan wawasan menyatu dalam percakapan yang terorkestrasi dengan baik."
+          "en": "Facilitation matters with one person or a large group. Frameworks such as open–narrow–close give most conversations an architecture, so that empathy, purpose and insights come together in a well-orchestrated conversation. The slide and film that follow set out that framework step by step.",
+          "id": "Fasilitasi penting dengan satu orang maupun kelompok besar. Kerangka seperti buka–persempit–tutup memberi sebagian besar percakapan sebuah arsitektur, sehingga empati, tujuan, dan wawasan menyatu dalam percakapan yang terorkestrasi dengan baik. Slide dan film yang mengikutinya menguraikan kerangka itu langkah demi langkah."
          }
         ]
        },
@@ -9582,6 +9609,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/style-6-en.vtt",
           "id": "../../assets/lms/the-map/style-6-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "onc",
+       "placement": "after-material:6",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the slide points to. David sets out open, narrow, close as the three phases of any interaction: opening starts the meeting and broadens the ideas; narrowing focuses and prioritises what you really want to solve; closing brings it to a conclusion — next steps, commitments, everyone agreeing what they have agreed. The harder question is how to portion the time, and that depends on whether this is a first meeting or the last, and how good the ideas need to be. The general guidelines: move through introductions and the agenda quickly, then create energy in the opening — a three-minute stop-clock brainstorm beats a twenty-minute one. Give the narrow phase real time and facilitative skill, because it means hard decisions with egos on the line, and people must believe the process was fair. Then go back into momentum mode to close, restating explicitly what has been agreed; allow twenty minutes to half an hour even in a day-long meeting. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
+        "id": "Film yang dirujuk slide. David menguraikan open, narrow, close sebagai tiga fase dari setiap interaksi: opening memulai rapat dan memperluas ide-ide; narrowing memfokuskan dan memprioritaskan apa yang benar-benar ingin Anda pecahkan; closing membawanya ke kesimpulan — langkah selanjutnya, komitmen, semua orang sepakat tentang apa yang telah disepakati. Pertanyaan yang lebih sulit adalah cara membagi waktu, dan itu bergantung pada apakah ini rapat pertama atau terakhir, dan seberapa baik ide-idenya harus jadi. Panduan umumnya: lalui perkenalan dan agenda dengan cepat, lalu ciptakan energi dalam opening — curah gagasan tiga menit dengan stopwatch lebih baik daripada dua puluh menit. Berikan fase narrow waktu yang cukup dan keterampilan fasilitasi, karena itu berarti keputusan sulit dengan ego yang dipertaruhkan, dan orang harus percaya prosesnya adil. Lalu kembali ke mode momentum untuk closing, menyatakan kembali secara eksplisit apa yang telah disepakati; sediakan dua puluh menit hingga setengah jam bahkan dalam rapat sehari penuh. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: open, narrow, close",
+         "id": "Poin penting: open, narrow, close"
+        },
+        "body": [
+         {
+          "en": "Every interaction has three phases. Open kicks the meeting off and broadens the ideas; narrow focuses and prioritises what you want to solve; close brings it to a conclusion with next steps, commitments and shared takeaways.",
+          "id": "Setiap interaksi memiliki tiga fase. Open mengawali rapat dan memperluas ide; narrow memfokuskan dan memprioritaskan apa yang ingin Anda pecahkan; close membawanya ke kesimpulan dengan langkah selanjutnya, komitmen, dan poin-poin bersama."
+         },
+         {
+          "en": "Portion the time deliberately. Move through introductions quickly and give the opening energy and momentum — a timed three-minute burst of ideas beats a long brainstorm. Allow the narrow phase real time and skill: hard decisions, egos on the line, and a process people believe is fair.",
+          "id": "Bagilah waktu dengan sengaja. Lalui perkenalan dengan cepat dan beri opening energi dan momentum — semburan ide tiga menit yang diberi waktu lebih baik daripada curah gagasan yang panjang. Beri fase narrow waktu dan keterampilan yang cukup: keputusan sulit, ego yang dipertaruhkan, dan proses yang dipercaya adil."
+         },
+         {
+          "en": "Close in momentum mode: you are looking for commitments, so restate explicitly what has been agreed and allow twenty minutes to half an hour even in a day-long meeting. How much each phase gets still depends on context and what matters most to achieve.",
+          "id": "Tutup dalam mode momentum: Anda mencari komitmen, jadi nyatakan kembali secara eksplisit apa yang telah disepakati dan sediakan dua puluh menit hingga setengah jam bahkan dalam rapat sehari penuh. Porsi setiap fase tetap bergantung pada konteks dan apa yang paling penting untuk dicapai."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-7-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-7-poster.jpg",
+         "dur": "3:46",
+         "title": {
+          "en": "Open Narrow Close",
+          "id": "Open Narrow Close"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-7-en.vtt",
+          "id": "../../assets/lms/the-map/style-7-id.vtt"
          }
         }
        ]
