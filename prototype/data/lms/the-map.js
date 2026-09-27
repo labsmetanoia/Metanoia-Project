@@ -7006,8 +7006,8 @@ window.MT_LMS['the-map'] = {
     "id": "Komunikasi yang Berdampak"
    },
    "overview": {
-    "en": "Module 4 of The Map focuses on communication for impact. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 4 The Map membahas cara berkomunikasi yang berdampak. Kerjakan pelajarannya berurutan — setiap pelajaran menjadi pijakan bagi pelajaran berikutnya."
+    "en": "Module 4 of The Map focuses on communication for impact — the challenges, the core theory, the applied case studies, and how you deliver it. Work through the lessons in order — each builds on the last.",
+    "id": "Modul 4 The Map membahas cara berkomunikasi yang berdampak — tantangannya, teori intinya, studi kasus terapannya, dan cara menyampaikannya. Kerjakan pelajarannya berurutan — setiap pelajaran menjadi pijakan bagi pelajaran berikutnya."
    },
    "outcome": {
     "en": "By the end of this module you can apply communication for impact to your own career decisions with a concrete, repeatable method.",
@@ -9099,6 +9099,279 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      }
+     ]
+    },
+    {
+     "n": "4.4",
+     "title": {
+      "en": "Elements of Presentation Style",
+      "id": "Elemen Gaya Presentasi"
+     },
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "kind": "reading",
+     "placeholder": false,
+     "quote": {
+      "en": "We all have our own way of being present. Find out what your natural style is, and be confident within it.",
+      "id": "Kita masing-masing punya cara sendiri untuk hadir. Temukan gaya alami Anda, dan percaya dirilah di dalamnya."
+     },
+     "overview": {
+      "en": "4.1 named the challenges, 4.2 gave you the instruments, 4.3 drilled the structure and the storyline. This lesson is about the moment all of that meets an audience: delivery. Three elements of presentation style — physical presence, vocal emphasis and emotional connection — decide whether a well-built message lands or quietly leaks credibility. You will learn what each element is, how to prepare your presence before you speak, and how to adjust the three to the room you are actually in.",
+      "id": "4.1 menamai tantangannya, 4.2 memberimu instrumennya, 4.3 melatih struktur dan storyline-nya. Pelajaran ini tentang saat semua itu bertemu audiens: penyampaian. Tiga elemen gaya presentasi — kehadiran fisik, penekanan vokal, dan koneksi emosional — menentukan apakah pesan yang tersusun baik benar-benar sampai atau diam-diam kehilangan kredibilitas. Kamu akan belajar apa itu masing-masing elemen, cara menyiapkan kehadiranmu sebelum bicara, dan cara menyesuaikan ketiganya dengan ruangan tempat kamu berada."
+     },
+     "objectives": [
+      {
+       "en": "Name the three elements of presentation style and describe what each one signals to an audience.",
+       "id": "Menyebutkan tiga elemen gaya presentasi dan menjelaskan apa yang disampaikan masing-masing kepada audiens."
+      },
+      {
+       "en": "Ground your physical presence before a meeting or presentation so it supports your message instead of distracting from it.",
+       "id": "Menjejakkan kehadiran fisikmu sebelum rapat atau presentasi agar mendukung pesan, bukan mengalihkan perhatian darinya."
+      },
+      {
+       "en": "Adjust posture, gesture, pace and tone to the setting — one-to-one, a small meeting, a large room or a video call — without imitating someone else’s style.",
+       "id": "Menyesuaikan postur, gestur, tempo, dan nada dengan situasinya — empat mata, rapat kecil, ruangan besar, atau panggilan video — tanpa meniru gaya orang lain."
+      }
+     ],
+     "takeaways": [
+      {
+       "en": "The audience reads your body before it hears your words. If stance, expression and gesture contradict the message, the body wins.",
+       "id": "Audiens membaca tubuhmu sebelum mendengar kata-katamu. Jika sikap berdiri, ekspresi, dan gestur bertentangan dengan pesan, tubuh yang menang."
+      },
+      {
+       "en": "Presence is prepared, not performed: feet on the floor, a few deep breaths, a calming thought — done before you walk in, so no part of you is monitoring your hands while you speak.",
+       "id": "Kehadiran itu disiapkan, bukan dipentaskan: kaki menapak di lantai, beberapa tarikan napas dalam, satu pikiran yang menenangkan — dilakukan sebelum masuk, agar tidak ada bagian dirimu yang sibuk mengawasi tanganmu saat bicara."
+      },
+      {
+       "en": "Vocal emphasis and emotional connection are adjustments, not personalities: change pitch, pace and volume for the occasion, read the room and respond to it — inside your own natural style.",
+       "id": "Penekanan vokal dan koneksi emosional adalah penyesuaian, bukan kepribadian: ubah nada, tempo, dan volume sesuai kesempatan, baca ruangan dan tanggapi — di dalam gaya alamimu sendiri."
+      }
+     ],
+     "material": [
+      {
+       "kicker": {
+        "en": "Read first · 2 slides",
+        "id": "Baca dulu · 2 slide"
+       },
+       "title": {
+        "en": "The Three Elements of Presentation Style — Material",
+        "id": "Tiga Elemen Gaya Presentasi — Materi"
+       },
+       "intro": {
+        "en": "Two slides open the lesson. The first is the snapshot: physical presence (appearing relaxed, confident and in control of the room), vocal emphasis (adjusting pitch, pace and volume to the occasion) and emotional connection (gauging the mood of the audience and adjusting your tone). The second goes deeper on the first element, physical presence, and sets up the film that follows: Hilary and Mark on exerting influence through posture, eye contact, gesture and movement. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the film that follows.",
+        "id": "Dua slide membuka pelajaran ini. Yang pertama adalah sekilas pandang: kehadiran fisik (tampil rileks, percaya diri, dan menguasai ruangan), penekanan vokal (menyesuaikan intonasi, tempo, dan volume dengan kesempatan), dan koneksi emosional (membaca suasana audiens dan menyesuaikan nada). Yang kedua mendalami elemen pertama, kehadiran fisik, dan menyiapkan film yang mengikutinya: Hilary dan Mark tentang memberi pengaruh lewat postur, kontak mata, gestur, dan gerakan. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca keduanya, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-elements-",
+       "slides": [
+        {
+         "title": {
+          "en": "The Three Elements of Presentation Style",
+          "id": "Tiga Elemen Gaya dalam Presentasi yang Kuat"
+         },
+         "text": {
+          "en": "At a glance. Here’s a snapshot of the three elements of strong presentation style. Explore each element below, then watch three videos where experts bring these elements to life in practice. 1. Physical Presence — refers to the speaker’s ability to appear relaxed, confident, and in control of the room. This includes having good posture, making good eye contact, avoiding fidgeting, using appropriate gestures, and moving with confidence. 2. Vocal Emphasis — refers to the speaker’s ability to adjust his or her pitch, pace, and volume to match the occasion. These speakers typically speak in an active voice (speaking directly about an action) and rarely use a monotone delivery. 3. Emotional Connection — refers to the speaker’s ability to gauge the mood of the audience and adjust his or her tone accordingly. These speakers typically make strong eye contact with their audiences and create relevance and inspiration through their message. Click on each element to learn more! (Watch Video buttons under each element.)",
+          "id": "Sekilas pandang. Berikut adalah sekilas dari tiga elemen gaya presentasi yang kuat. Lihat masing-masing elemen, lalu tonton tiga video di mana para ahli menghidupkan elemen-elemen ini dalam praktik. 1. Kehadiran Fisik (Physical Presence) — kemampuan pembicara untuk tampil rileks, percaya diri, dan menguasai situasi. Pembicara dengan kehadiran fisik yang kuat biasanya memiliki postur yang baik, kontak mata yang jelas, menggunakan gestur yang tepat, dan bergerak dengan percaya diri. 2. Penekanan Vokal (Vocal Emphasis) — kemampuan pembicara untuk menyesuaikan intonasi, jeda, dan volume suara sesuai konteks. Pembicara yang baik biasanya menggunakan suara yang aktif (berbicara secara langsung dan dinamis) dan jarang berbicara dengan nada datar. 3. Koneksi Emosional (Emotional Connection) — kemampuan pembicara untuk memahami suasana audiens dan menyesuaikan nada penyampaian. Pembicara yang kuat mampu membangun koneksi emosional dengan audiens, menciptakan relevansi, dan menginspirasi melalui cara mereka berbicara. Klik pada setiap elemen untuk mempelajari lebih lanjut! (Tombol Tonton Video di bawah setiap elemen.)"
+         }
+        },
+        {
+         "title": {
+          "en": "The Three Elements of Style: improving your physical presence",
+          "id": "Tiga Elemen Gaya dalam Presentasi: meningkatkan kehadiran fisik Anda"
+         },
+         "text": {
+          "en": "Deep dive. 1. Improving your physical presence. Physical presence significantly affects how your audience perceives you. Hilary and Mark offer tips on exerting influence through your physical presence. Drawing examples from real-world situations, they demonstrate ways to enhance your confidence, command the room, and communicate with authority. As you watch this video, take a moment to think about a time where you noticed someone with great physical presence. Did it make the message more powerful? Callouts: confident posture — stand tall and open; good eye contact — builds connection and trust; purposeful gestures — reinforces your message; command the room — project confidence and authority. Reflect — think about your experience: think about a time where you noticed someone with great physical presence. Did it make the message more powerful? What specifically did they do that made a difference? Key takeaways from this video: be mindful of your posture; maintain strong eye contact; use purposeful gestures; move and speak with confidence.",
+          "id": "Penjelasan lebih dalam. 1. Meningkatkan kehadiran fisik Anda. Kehadiran fisik sangat memengaruhi bagaimana audiens menilai Anda. Hilary dan Mark memberikan tips tentang bagaimana memberikan pengaruh melalui kehadiran fisik Anda. Dengan contoh dari situasi dunia nyata, mereka menunjukkan cara-cara untuk meningkatkan rasa percaya diri, menguasai ruangan, dan berkomunikasi dengan penuh wibawa. Saat Anda menonton video ini, luangkan waktu sejenak untuk memikirkan sebuah situasi di mana Anda melihat seseorang dengan kehadiran fisik yang kuat. Apakah hal itu membuat pesan yang disampaikan menjadi lebih kuat? Keterangan: postur percaya diri — berdiri tegak dan terbuka; kontak mata yang baik — membangun koneksi dan kepercayaan; gestur yang bermakna — memperkuat pesan Anda; menguasai ruangan — menunjukkan rasa percaya diri dan kewibawaan. Refleksi — pikirkan tentang pengalaman Anda: pikirkan sebuah situasi di mana Anda melihat seseorang dengan kehadiran fisik yang kuat. Apakah hal itu membuat pesan yang disampaikan menjadi lebih kuat? Apa yang secara spesifik mereka lakukan sehingga memberikan perbedaan? Poin penting dari video ini: perhatikan postur tubuh Anda; jaga kontak mata yang kuat; gunakan gestur yang bermakna; bergerak dan berbicara dengan percaya diri."
+         }
+        }
+       ]
+      }
+     ],
+     "videoBlocks": [
+      {
+       "key": "presence",
+       "placement": "after-material:1",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the second slide points to. Physical presence is fundamental to how you connect with an audience: if the way you stand, look and move does not support the message, it distracts and detracts from it — say “I’m very excited about the new plan” with a flat body and nobody believes you, because we are all expert at reading body language. Stance, expression and gesture send unspoken signals about whether you are confident, relaxed and credible, and they can undercut even well-crafted words. The fix is preparation rather than performance: warm up like an athlete, ground yourself before you walk in — feet firmly on the floor, deep breaths, a calming thought — so that no part of you is asking “am I fiddling with my fingers?” while you speak. And nobody has to look like a Hollywood actor: find your natural style and be confident within it. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
+        "id": "Film yang dirujuk slide kedua. Kehadiran fisik sangat mendasar bagi cara Anda terhubung dengan audiens: jika cara Anda berdiri, memandang, dan bergerak tidak mendukung pesan, itu mengalihkan perhatian dan mengurangi pesan — ucapkan “Saya sangat antusias dengan rencana baru ini” dengan tubuh yang datar dan tak seorang pun percaya, karena kita semua ahli membaca bahasa tubuh. Sikap berdiri, ekspresi, dan gestur mengirim sinyal tak terucap tentang apakah Anda percaya diri, rileks, dan kredibel, dan sinyal itu bisa merusak kata-kata yang tersusun baik sekalipun. Solusinya adalah persiapan, bukan pementasan: lakukan pemanasan seperti atlet, jejakkan diri sebelum masuk — kaki menapak mantap di lantai, napas dalam, satu pikiran yang menenangkan — agar tidak ada bagian diri Anda yang bertanya “apakah aku memainkan jari-jariku?” saat bicara. Dan tak seorang pun harus terlihat seperti aktor Hollywood: temukan gaya alami Anda dan percaya dirilah di dalamnya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: prepare the body before the words",
+         "id": "Poin penting: siapkan tubuh sebelum kata-kata"
+        },
+        "body": [
+         {
+          "en": "Your body speaks first. Stance, expression and gesture tell the room whether to believe you before your first sentence is over — and they can undercut a message however well it is written.",
+          "id": "Tubuhmu bicara lebih dulu. Sikap berdiri, ekspresi, dan gestur memberi tahu ruangan apakah kamu layak dipercaya sebelum kalimat pertamamu selesai — dan bisa merusak pesan sebaik apa pun ia ditulis."
+         },
+         {
+          "en": "Ground before you go in: feet firmly on the floor, deep breaths, something calming to centre on. It is the warm-up before the field, and it frees your attention from your own hands.",
+          "id": "Jejakkan diri sebelum masuk: kaki menapak mantap di lantai, napas dalam, sesuatu yang menenangkan untuk dipusatkan. Itu pemanasan sebelum ke lapangan, dan membebaskan perhatianmu dari tanganmu sendiri."
+         },
+         {
+          "en": "Presence is yours, not borrowed. Find your natural style and be confident within it; the reading below shows how vocal emphasis and emotional connection build on the same foundation.",
+          "id": "Kehadiran itu milikmu, bukan pinjaman. Temukan gaya alamimu dan percaya dirilah di dalamnya; bacaan di bawah menunjukkan bagaimana penekanan vokal dan koneksi emosional dibangun di atas fondasi yang sama."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-1-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-1-poster.jpg",
+         "dur": "2:27",
+         "title": {
+          "en": "Physical presence",
+          "id": "Kehadiran fisik"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-1-en.vtt",
+          "id": "../../assets/lms/the-map/style-1-id.vtt"
+         }
+        }
+       ]
+      }
+     ],
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "The three elements, up close",
+        "id": "Tiga elemen, dari dekat"
+       },
+       "body": {
+        "en": "<b>Physical presence</b> is what the audience sees: posture, eye contact, stillness where it counts, gestures that belong to the sentence, movement that looks decided. It signals confidence, ease and credibility before a word is understood. <b>Vocal emphasis</b> is what they hear beneath the words: pitch, pace and volume adjusted to the occasion, an active voice (“we will ship on Friday”, not “it is hoped that shipping might occur”), and the absence of monotone. <b>Emotional connection</b> is what they feel: you read the mood of the room, adjust your tone to it, hold eye contact, and make the message relevant to the people in front of you rather than to the slide behind you. The three are not equal weights on every occasion — a one-line answer in a stand-up needs little gesture and a lot of vocal clarity; a change story to two hundred people needs all three — but a weakness in any one of them is where an audience’s attention leaks out.",
+        "id": "<b>Kehadiran fisik</b> adalah yang dilihat audiens: postur, kontak mata, diam di saat yang tepat, gestur yang memang milik kalimatnya, gerakan yang terlihat mantap. Ia memberi sinyal percaya diri, tenang, dan kredibel sebelum satu kata pun dipahami. <b>Penekanan vokal</b> adalah yang mereka dengar di balik kata-kata: intonasi, tempo, dan volume yang disesuaikan dengan kesempatan, suara yang aktif (“kita akan rilis hari Jumat”, bukan “diharapkan perilisan dapat terjadi”), dan tidak adanya nada datar. <b>Koneksi emosional</b> adalah yang mereka rasakan: kamu membaca suasana ruangan, menyesuaikan nada dengannya, menjaga kontak mata, dan membuat pesan relevan bagi orang-orang di depanmu, bukan bagi slide di belakangmu. Ketiganya tidak sama beratnya di setiap kesempatan — jawaban satu kalimat di rapat singkat butuh sedikit gestur dan banyak kejelasan vokal; kisah perubahan untuk dua ratus orang butuh ketiganya — tetapi kelemahan di salah satunya adalah tempat perhatian audiens bocor."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Ground before you speak",
+        "id": "Jejakkan diri sebelum bicara"
+       },
+       "body": {
+        "en": "Presence is prepared, not performed. The reason fidgeting is so damaging is not the fidget itself but the split attention it costs you: part of your mind is watching your hands, and that part is not available for the audience. So do the work before you walk in, the way an athlete warms up before the field. <b>Feet.</b> Both flat on the floor, weight even — sitting or standing. <b>Breath.</b> Three or four slow breaths, longer out than in. <b>Centre.</b> One calming thought or image you have chosen in advance. <b>Hands.</b> Decide where they rest when they are not gesturing — on the table, at your sides, holding a pen — so they have a home to return to. <b>Eyes.</b> Pick two or three people in different parts of the room to return to. Two minutes of this in the corridor is worth more than twenty minutes of rehearsing your slides, because it removes the monitor from inside your head and gives your whole attention to the room.",
+        "id": "Kehadiran itu disiapkan, bukan dipentaskan. Yang membuat gerakan gelisah begitu merusak bukanlah gerakannya sendiri, melainkan perhatian yang terbelah karenanya: sebagian pikiranmu mengawasi tanganmu, dan bagian itu tidak tersedia untuk audiens. Maka lakukan pekerjaannya sebelum masuk, seperti atlet melakukan pemanasan sebelum ke lapangan. <b>Kaki.</b> Keduanya menapak rata di lantai, berat seimbang — saat duduk maupun berdiri. <b>Napas.</b> Tiga atau empat tarikan napas pelan, lebih panjang saat menghembuskan daripada menarik. <b>Pusat.</b> Satu pikiran atau bayangan menenangkan yang sudah kamu pilih sebelumnya. <b>Tangan.</b> Tentukan di mana tangan beristirahat saat tidak bergestur — di meja, di samping tubuh, memegang pena — agar ada tempat untuk kembali. <b>Mata.</b> Pilih dua atau tiga orang di bagian ruangan yang berbeda untuk kamu tatap kembali. Dua menit melakukan ini di koridor lebih berharga daripada dua puluh menit melatih slide, karena ia menyingkirkan pengawas di dalam kepalamu dan memberikan seluruh perhatianmu kepada ruangan."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Match the style to the room",
+        "id": "Sesuaikan gaya dengan ruangan"
+       },
+       "body": {
+        "en": "The same three elements scale with the setting. <b>One-to-one:</b> presence is mostly stillness and eye contact; volume drops, pace slows, and connection comes from listening visibly. <b>Small meeting:</b> sit forward, keep gestures inside the width of your shoulders, use vocal emphasis to mark the answer from the reasons — the pyramid from 4.2, spoken. <b>Large room:</b> everything gets bigger and slower — wider gestures, longer pauses, more volume, eye contact that sweeps to the back rows — and the emotional connection is built with a story or an image rather than a chart. <b>Video call:</b> the camera flattens presence, so, as David told Aaliyah in 4.3, set the room first (light, background, framing), then dial energy and vocal variation up a notch, look at the lens when the point matters, and break the black box with a question in the chat. In every setting the rule from the film holds: adjust the elements, not your personality. Find your natural style and be confident within it.",
+        "id": "Tiga elemen yang sama berubah skala mengikuti situasinya. <b>Empat mata:</b> kehadiran sebagian besar berupa ketenangan dan kontak mata; volume turun, tempo melambat, dan koneksi datang dari mendengarkan yang terlihat. <b>Rapat kecil:</b> duduk condong ke depan, jaga gestur di dalam lebar bahumu, gunakan penekanan vokal untuk membedakan jawaban dari alasannya — piramida dari 4.2, saat diucapkan. <b>Ruangan besar:</b> semuanya menjadi lebih besar dan lebih lambat — gestur lebih lebar, jeda lebih panjang, volume lebih besar, kontak mata yang menyapu hingga barisan belakang — dan koneksi emosional dibangun dengan cerita atau gambar, bukan grafik. <b>Panggilan video:</b> kamera meratakan kehadiran, jadi, seperti kata David kepada Aaliyah di 4.3, atur ruangannya dulu (cahaya, latar belakang, bingkai), lalu naikkan energi dan variasi vokal satu tingkat, tatap lensa saat poinnya penting, dan pecahkan kotak hitam itu dengan pertanyaan di kolom obrolan. Di setiap situasi, aturan dari film tetap berlaku: sesuaikan elemennya, bukan kepribadianmu. Temukan gaya alamimu dan percaya dirilah di dalamnya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "img": "../../assets/mentoring-session.jpg",
+      "title": {
+       "en": "In focus: the plan nobody believed in",
+       "id": "Sorotan: rencana yang tidak dipercaya siapa pun"
+      },
+      "body": [
+       {
+        "en": "Rafi, a first-year analyst, is asked to present the team’s new onboarding plan to twelve colleagues. The plan is good and the deck is tight — pyramid on slide one, three reasons, evidence in the appendix. He opens with “I’m really excited about this plan,” eyes on his laptop, one hand turning a pen, voice at the same flat pitch for four minutes. Questions afterwards are polite and few. A week later a manager reruns the same plan in eight minutes and the room commits to it.",
+        "id": "Rafi, analis tahun pertama, diminta mempresentasikan rencana orientasi baru timnya kepada dua belas kolega. Rencananya bagus dan deknya rapi — piramida di slide pertama, tiga alasan, bukti di lampiran. Ia membuka dengan “Saya benar-benar antusias dengan rencana ini,” mata tertuju ke laptop, satu tangan memutar pena, suara pada nada datar yang sama selama empat menit. Pertanyaan setelahnya sopan dan sedikit. Seminggu kemudian seorang manajer menyampaikan ulang rencana yang sama dalam delapan menit dan ruangan menyatakan komitmennya."
+       },
+       {
+        "en": "Nothing in the content changed. What changed was that the room believed the second speaker was excited. Rafi’s body said the opposite of his first sentence, so the audience trusted the body. The fix is not charisma: two minutes of grounding in the corridor, the pen left on the table, eyes on three people instead of the screen, and a pause plus a change of pitch when he reaches the answer. Same plan, opposite result.",
+        "id": "Tidak ada yang berubah pada isinya. Yang berubah: ruangan percaya bahwa pembicara kedua memang antusias. Tubuh Rafi mengatakan kebalikan dari kalimat pertamanya, maka audiens memercayai tubuhnya. Solusinya bukan karisma: dua menit menjejakkan diri di koridor, pena ditinggal di meja, mata pada tiga orang alih-alih layar, dan satu jeda plus perubahan nada saat ia sampai pada jawabannya. Rencana yang sama, hasil yang berlawanan."
+       }
+      ]
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "The same line — read out vs delivered",
+        "id": "Kalimat yang sama — dibaca vs disampaikan"
+       },
+       "q": {
+        "en": "Opening a project update to the team",
+        "id": "Membuka laporan proyek kepada tim"
+       },
+       "weak": {
+        "en": "“So, um, the update is that we are, on track, for Friday, and there is one risk with the vendor, which, we are handling.” (one pitch, one pace, eyes on the notes)",
+        "id": "“Jadi, um, laporannya adalah kita, sesuai jadwal, untuk hari Jumat, dan ada satu risiko dengan vendor, yang, sedang kami tangani.” (satu nada, satu tempo, mata pada catatan)"
+       },
+       "strong": {
+        "en": "“We are on track for Friday.” (pause, eyes up) “One risk: the vendor. Here is how we are handling it.” (slower, lower, a hand marking the one)",
+        "id": "“Kita sesuai jadwal untuk hari Jumat.” (jeda, mata ke atas) “Satu risiko: vendor. Begini cara kami menanganinya.” (lebih pelan, lebih rendah, satu tangan menandai angka satu)"
+       },
+       "why": {
+        "en": "Same pyramid, same words almost. The strong version uses vocal emphasis to separate the answer from the risk, a pause to let the answer land, and eye contact to make the room the audience instead of the notes.",
+        "id": "Piramida yang sama, kata-kata yang nyaris sama. Versi yang kuat memakai penekanan vokal untuk memisahkan jawaban dari risikonya, jeda agar jawaban mendarat, dan kontak mata untuk menjadikan ruangan sebagai audiens, bukan catatan."
+       }
+      }
+     ],
+     "glossary": [
+      {
+       "term": {
+        "en": "physical presence",
+        "id": "kehadiran fisik"
+       },
+       "def": {
+        "en": "The combination of stance, expression, gesture and movement that signals to an audience whether a speaker is confident, relaxed and credible.",
+        "id": "Kombinasi sikap berdiri, ekspresi, gestur, dan gerakan yang memberi sinyal kepada audiens apakah seorang pembicara percaya diri, rileks, dan kredibel."
+       }
+      },
+      {
+       "term": {
+        "en": "vocal emphasis",
+        "id": "penekanan vokal"
+       },
+       "def": {
+        "en": "Adjusting pitch, pace and volume to the occasion, in an active voice and without monotone, so the important words sound important.",
+        "id": "Menyesuaikan intonasi, tempo, dan volume dengan kesempatan, dalam suara aktif dan tanpa nada datar, agar kata-kata penting terdengar penting."
+       }
+      },
+      {
+       "term": {
+        "en": "grounding",
+        "id": "menjejakkan diri"
+       },
+       "def": {
+        "en": "A short physical preparation before speaking — feet on the floor, slow breaths, a calming focus — that removes fidgeting and frees attention for the audience.",
+        "id": "Persiapan fisik singkat sebelum bicara — kaki menapak di lantai, napas pelan, satu fokus yang menenangkan — yang menghilangkan gerakan gelisah dan membebaskan perhatian untuk audiens."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Five minutes before a presentation you notice your hands will not stay still and your mouth is dry. What is the best move?",
+        "id": "Lima menit sebelum presentasi kamu sadar tanganmu tidak bisa diam dan mulutmu kering. Apa langkah terbaik?"
+       },
+       "options": [
+        {
+         "en": "Plan to keep your hands in your pockets and speak quickly so it is over sooner",
+         "id": "Berencana menyimpan tangan di saku dan bicara cepat agar segera selesai"
+        },
+        {
+         "en": "Ground yourself now: feet flat on the floor, three slow breaths, decide where your hands rest, pick three faces to return to",
+         "id": "Jejakkan diri sekarang: kaki menapak rata di lantai, tiga napas pelan, tentukan tempat tangan beristirahat, pilih tiga wajah untuk ditatap kembali"
+        },
+        {
+         "en": "Re-read your slides one more time so the content is perfect",
+         "id": "Baca ulang slide sekali lagi agar isinya sempurna"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Fidgeting costs attention, not just image. Grounding in advance removes the monitor from inside your head; hiding hands or speeding up adds signals the audience will read as nerves, and the content was never the problem.",
+        "id": "Gerakan gelisah menguras perhatian, bukan hanya citra. Menjejakkan diri lebih dulu menyingkirkan pengawas di dalam kepalamu; menyembunyikan tangan atau mempercepat bicara justru menambah sinyal yang akan dibaca audiens sebagai gugup, dan isinya memang tidak pernah menjadi masalah."
+       }
       }
      ]
     }
