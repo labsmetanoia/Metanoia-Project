@@ -28,6 +28,14 @@ window.MT_PACK_APT = {
   "p5": {
    "en": "The Lestari coffee cooperative in Central Java groups 340 smallholder farms. In 2025 it exported 60% of its harvest, up from 45% two years earlier, at prices on average 30% above the local market. Certification costs, which the cooperative pays on behalf of its members, rose 12% over the same period. Three neighbouring cooperatives have begun copying its export model, and the cooperative's chair says membership applications have more than doubled since 2023.",
    "id": "Koperasi kopi Lestari di Jawa Tengah menaungi 340 kebun petani kecil. Pada 2025, koperasi mengekspor 60% hasil panennya, naik dari 45% dua tahun sebelumnya, dengan harga rata-rata 30% di atas pasar lokal. Biaya sertifikasi, yang dibayar koperasi atas nama para anggotanya, naik 12% pada periode yang sama. Tiga koperasi tetangga mulai meniru model ekspornya, dan ketua koperasi menyebut permohonan keanggotaan naik lebih dari dua kali lipat sejak 2023."
+  },
+  "p6": {
+   "en": "In 2024, PT Rel Nusantara introduced cashless-only ticketing at 40 of its 120 stations. Management reported that average queuing time at these stations fell by roughly a third in six months. Stations outside major metropolitan areas were excluded because card-reader connectivity there was judged unreliable. The company intends to extend cashless ticketing to all stations by 2026, subject to a review of complaints; so far, most formal complaints have come from passengers aged over 60. Cash can still be used to top up fare cards at every station.",
+   "id": "Pada 2024, PT Rel Nusantara memperkenalkan tiket nontunai-saja di 40 dari 120 stasiunnya. Manajemen melaporkan bahwa rata-rata waktu antre di stasiun-stasiun ini turun sekitar sepertiga dalam enam bulan. Stasiun di luar wilayah metropolitan besar dikecualikan karena konektivitas pembaca kartu di sana dinilai tidak andal. Perusahaan berniat memperluas tiket nontunai ke semua stasiun pada 2026, dengan syarat tinjauan atas keluhan; sejauh ini, kebanyakan keluhan resmi datang dari penumpang berusia di atas 60 tahun. Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun."
+  },
+  "p7": {
+   "en": "Rumah Rempah operates 18 restaurants in Central Java and a central kitchen in Semarang that supplies all of them. In 2025 the company piloted a delivery-only kitchen in Solo; after four months, delivery orders in Solo were 40% higher than a year earlier, while dine-in covers at the two Solo restaurants were unchanged. The company has said it will decide on further delivery-only kitchens once it has twelve months of data. Staff turnover at the delivery-only kitchen was lower than the company average in its first four months.",
+   "id": "Rumah Rempah mengoperasikan 18 restoran di Jawa Tengah dan sebuah dapur pusat di Semarang yang memasok semuanya. Pada 2025 perusahaan mengujicobakan dapur khusus pesan-antar di Solo; setelah empat bulan, pesanan antar di Solo 40% lebih tinggi daripada setahun sebelumnya, sementara jumlah tamu makan di tempat di dua restoran Solo tidak berubah. Perusahaan menyatakan akan memutuskan dapur khusus pesan-antar berikutnya setelah memiliki dua belas bulan data. Perputaran staf di dapur khusus pesan-antar lebih rendah daripada rata-rata perusahaan dalam empat bulan pertamanya."
   }
  },
  "questions": [
@@ -2561,6 +2569,726 @@ window.MT_PACK_APT = {
    "expl": {
     "en": "Order: Sari, Puti, Rio, Tomo. Draw the line and place each constraint — never juggle order in your head.",
     "id": "Urutannya: Sari, Puti, Rio, Tomo. Gambar garisnya dan letakkan setiap syarat — jangan mengatur urutan di dalam kepala saja."
+   }
+  },
+  {
+   "id": "n33",
+   "fam": "num",
+   "q": {
+    "en": "PT Sinar Nusantara Logistik — quarterly revenue 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. By what percentage did Q4 exceed Q1?",
+    "id": "PT Sinar Nusantara Logistik — pendapatan kuartalan 2025 (Rp miliar): Q1 120 · Q2 150 · Q3 135 · Q4 165. Berapa persen Q4 melampaui Q1?"
+   },
+   "opts": [
+    {
+     "en": "27.3%",
+     "id": "27,3%"
+    },
+    {
+     "en": "37.5%",
+     "id": "37,5%"
+    },
+    {
+     "en": "45.0%",
+     "id": "45,0%"
+    },
+    {
+     "en": "137.5%",
+     "id": "137,5%"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "165 − 120 = 45; 45 ÷ 120 = 0.375 (3/8). 27.3% divides by the new value (wrong base); 45.0% is the absolute change; 137.5% is the ratio, not the increase.",
+    "id": "165 − 120 = 45; 45 ÷ 120 = 0,375 (3/8). 27,3% membagi dengan nilai baru (basis salah); 45,0% adalah perubahan absolut; 137,5% adalah rasionya, bukan kenaikannya."
+   }
+  },
+  {
+   "id": "n34",
+   "fam": "num",
+   "q": {
+    "en": "A trainee’s allowance is Rp 4,500,000 for two nights in Singapore; 1 SGD = Rp 12,000; the hotel costs SGD 180 per night. SGD remaining after the hotel?",
+    "id": "Tunjangan seorang trainee Rp 4.500.000 untuk dua malam di Singapura; 1 SGD = Rp 12.000; hotel SGD 180 per malam. Sisa SGD setelah hotel?"
+   },
+   "opts": [
+    {
+     "en": "15",
+     "id": "15"
+    },
+    {
+     "en": "25",
+     "id": "25"
+    },
+    {
+     "en": "195",
+     "id": "195"
+    },
+    {
+     "en": "375",
+     "id": "375"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "4,500,000 ÷ 12,000 = 375 SGD; 180 × 2 nights = 360; 375 − 360 = 15. 195 forgets the second night; 375 is an intermediate result.",
+    "id": "4.500.000 ÷ 12.000 = 375 SGD; 180 × 2 malam = 360; 375 − 360 = 15. 195 melupakan malam kedua; 375 adalah hasil antara."
+   }
+  },
+  {
+   "id": "n35",
+   "fam": "num",
+   "q": {
+    "en": "A branch has 40 staff — tellers : customer service : back office = 5 : 3 : 2. It hires 4 more customer-service officers. Customer service’s share of staff is now…",
+    "id": "Sebuah cabang punya 40 staf — teller : customer service : back office = 5 : 3 : 2. Cabang merekrut 4 petugas customer service lagi. Pangsa customer service kini…"
+   },
+   "opts": [
+    {
+     "en": "30.0%",
+     "id": "30,0%"
+    },
+    {
+     "en": "36.4%",
+     "id": "36,4%"
+    },
+    {
+     "en": "40.0%",
+     "id": "40,0%"
+    },
+    {
+     "en": "42.9%",
+     "id": "42,9%"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "One part = 4 staff, so CS = 12; after hiring CS = 16 of 44 = 36.4%. 40.0% is 16 ÷ 40 — the total also grew. 30.0% is the old share.",
+    "id": "Satu bagian = 4 staf, jadi CS = 12; setelah merekrut CS = 16 dari 44 = 36,4%. 40,0% adalah 16 ÷ 40 — totalnya juga tumbuh. 30,0% adalah pangsa lama."
+   }
+  },
+  {
+   "id": "n36",
+   "fam": "num",
+   "q": {
+    "en": "A segment’s GMV is Rp 80 trillion; Platform Kilat holds 35%. Next year the segment grows 20% and Kilat’s share falls to 30%. Kilat’s GMV…",
+    "id": "GMV sebuah segmen Rp 80 triliun; Platform Kilat memegang 35%. Tahun depan segmen tumbuh 20% dan pangsa Kilat turun ke 30%. GMV Kilat…"
+   },
+   "opts": [
+    {
+     "en": "falls by Rp 4.0 trillion",
+     "id": "turun Rp 4,0 triliun"
+    },
+    {
+     "en": "falls by 5 percentage points",
+     "id": "turun 5 poin persentase"
+    },
+    {
+     "en": "rises by Rp 0.8 trillion",
+     "id": "naik Rp 0,8 triliun"
+    },
+    {
+     "en": "is unchanged",
+     "id": "tidak berubah"
+    }
+   ],
+   "correct": 2,
+   "expl": {
+    "en": "Size = share × total: 35% × 80 = 28; 30% × 96 = 28.8 — up 0.8 trillion. “Falls 5 points” is true of the share, not the GMV: the share-versus-size trap.",
+    "id": "Ukuran = pangsa × total: 35% × 80 = 28; 30% × 96 = 28,8 — naik 0,8 triliun. “Turun 5 poin” benar untuk pangsa, bukan GMV: jebakan pangsa-versus-ukuran."
+   }
+  },
+  {
+   "id": "n37",
+   "fam": "num",
+   "q": {
+    "en": "After a 20% discount a jacket costs Rp 240,000. The original price was…",
+    "id": "Setelah diskon 20% sebuah jaket berharga Rp 240.000. Harga awalnya adalah…"
+   },
+   "opts": [
+    {
+     "en": "Rp 288,000",
+     "id": "Rp 288.000"
+    },
+    {
+     "en": "Rp 300,000",
+     "id": "Rp 300.000"
+    },
+    {
+     "en": "Rp 260,000",
+     "id": "Rp 260.000"
+    },
+    {
+     "en": "Rp 192,000",
+     "id": "Rp 192.000"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "Reverse percentage: 240,000 ÷ 0.8 = 300,000. Adding 20% back (240,000 × 1.2 = 288,000) is the trap.",
+    "id": "Persentase terbalik: 240.000 ÷ 0,8 = 300.000. Menambahkan 20% kembali (240.000 × 1,2 = 288.000) adalah jebakannya."
+   }
+  },
+  {
+   "id": "n38",
+   "fam": "num",
+   "q": {
+    "en": "A bank’s share of new accounts fell from 35% to 30% between 2024 and 2025. In relative terms, the share fell by about…",
+    "id": "Pangsa rekening baru sebuah bank turun dari 35% ke 30% antara 2024 dan 2025. Secara relatif, pangsanya turun sekitar…"
+   },
+   "opts": [
+    {
+     "en": "5%",
+     "id": "5%"
+    },
+    {
+     "en": "14%",
+     "id": "14%"
+    },
+    {
+     "en": "17%",
+     "id": "17%"
+    },
+    {
+     "en": "30%",
+     "id": "30%"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "5 ÷ 35 = 0.143 ≈ 14%. “5%” is the fall in percentage points, not the relative fall; 17% divides by the new value.",
+    "id": "5 ÷ 35 = 0,143 ≈ 14%. “5%” adalah penurunan dalam poin persentase, bukan penurunan relatif; 17% membagi dengan nilai baru."
+   }
+  },
+  {
+   "id": "n39",
+   "fam": "num",
+   "q": {
+    "en": "A table in an English-language test reads “monthly growth 1.5%”. Starting from 2,000 units, output after one month is…",
+    "id": "Sebuah tabel dalam tes berbahasa Inggris berbunyi “monthly growth 1.5%”. Mulai dari 2,000 unit, keluaran setelah satu bulan adalah…"
+   },
+   "opts": [
+    {
+     "en": "2,030",
+     "id": "2.030"
+    },
+    {
+     "en": "2,300",
+     "id": "2.300"
+    },
+    {
+     "en": "2,015",
+     "id": "2.015"
+    },
+    {
+     "en": "3,000",
+     "id": "3.000"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "English notation: 1.5% is one and a half percent → 2,000 × 1.015 = 2,030. Reading “1.5” as 15 gives 2,300 — the notation trap.",
+    "id": "Notasi Inggris: 1.5% adalah satu setengah persen → 2.000 × 1,015 = 2.030. Membaca “1.5” sebagai 15 memberi 2.300 — jebakan notasi."
+   }
+  },
+  {
+   "id": "n40",
+   "fam": "num",
+   "q": {
+    "en": "Regional sales (Rp miliar): Central Java 48 → 60; East Java 80 → 92. Which region grew faster in percentage terms, and by how much?",
+    "id": "Penjualan regional (Rp miliar): Jawa Tengah 48 → 60; Jawa Timur 80 → 92. Wilayah mana yang tumbuh lebih cepat secara persentase, dan berapa?"
+   },
+   "opts": [
+    {
+     "en": "East Java, 15%",
+     "id": "Jawa Timur, 15%"
+    },
+    {
+     "en": "Central Java, 25%",
+     "id": "Jawa Tengah, 25%"
+    },
+    {
+     "en": "East Java, 12%",
+     "id": "Jawa Timur, 12%"
+    },
+    {
+     "en": "Central Java, 20%",
+     "id": "Jawa Tengah, 20%"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "Central Java: 12 ÷ 48 = 25%. East Java: 12 ÷ 80 = 15%. Same absolute change, different base — the bigger absolute number is not the faster growth.",
+    "id": "Jawa Tengah: 12 ÷ 48 = 25%. Jawa Timur: 12 ÷ 80 = 15%. Perubahan absolut sama, basis berbeda — angka absolut lebih besar bukan berarti pertumbuhan lebih cepat."
+   }
+  },
+  {
+   "id": "v25",
+   "fam": "verb",
+   "passage": "p6",
+   "q": {
+    "en": "Statement: Fewer than half of PT Rel Nusantara’s stations used cashless-only ticketing in 2024.",
+    "id": "Pernyataan: Kurang dari separuh stasiun PT Rel Nusantara memakai tiket nontunai-saja pada 2024."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "40 of 120 is fewer than half — the passage forces it.",
+    "id": "40 dari 120 kurang dari separuh — bacaan memaksanya."
+   }
+  },
+  {
+   "id": "v26",
+   "fam": "verb",
+   "passage": "p6",
+   "q": {
+    "en": "Statement: Queuing time fell at every cashless station.",
+    "id": "Pernyataan: Waktu antre turun di setiap stasiun nontunai."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 2,
+   "expl": {
+    "en": "The passage reports an average. An average can fall while some stations do not — every versus average.",
+    "id": "Bacaan melaporkan rata-rata. Rata-rata bisa turun sementara sebagian stasiun tidak — setiap versus rata-rata."
+   }
+  },
+  {
+   "id": "v27",
+   "fam": "verb",
+   "passage": "p6",
+   "q": {
+    "en": "Statement: At cashless stations, cash cannot be used for any transaction.",
+    "id": "Pernyataan: Di stasiun nontunai, uang tunai tidak bisa dipakai untuk transaksi apa pun."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "Cash can still be used to top up fare cards at every station — the passage forces the opposite.",
+    "id": "Uang tunai masih bisa dipakai untuk mengisi ulang kartu tiket di setiap stasiun — bacaan memaksa kebalikannya."
+   }
+  },
+  {
+   "id": "v28",
+   "fam": "verb",
+   "passage": "p6",
+   "q": {
+    "en": "Statement: Passengers over 60 are more likely than other passengers to object to cashless ticketing.",
+    "id": "Pernyataan: Penumpang di atas 60 tahun lebih mungkin daripada penumpang lain untuk keberatan terhadap tiket nontunai."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 2,
+   "expl": {
+    "en": "“Most complaints came from over-60s” says nothing about how many over-60s there are — the base rate is missing.",
+    "id": "“Kebanyakan keluhan datang dari yang di atas 60” tidak mengatakan apa pun tentang berapa banyak penumpang di atas 60 — laju dasarnya hilang."
+   }
+  },
+  {
+   "id": "v29",
+   "fam": "verb",
+   "passage": "p6",
+   "q": {
+    "en": "Statement: All first-phase cashless stations are in major metropolitan areas.",
+    "id": "Pernyataan: Semua stasiun nontunai tahap pertama berada di wilayah metropolitan besar."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "Stations outside major metropolitan areas were excluded, so every included station is metropolitan. True by inference — no matching phrase, but no other possibility.",
+    "id": "Stasiun di luar wilayah metropolitan besar dikecualikan, jadi setiap stasiun yang disertakan adalah metropolitan. Benar lewat inferensi — tidak ada frasa yang cocok, tetapi tidak ada kemungkinan lain."
+   }
+  },
+  {
+   "id": "v30",
+   "fam": "verb",
+   "passage": "p7",
+   "q": {
+    "en": "Statement: The delivery-only kitchen caused the 40% rise in delivery orders in Solo.",
+    "id": "Pernyataan: Dapur khusus pesan-antar menyebabkan kenaikan 40% pesanan antar di Solo."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 2,
+   "expl": {
+    "en": "The rise followed the pilot; the passage does not say it was caused by it — correlation versus cause.",
+    "id": "Kenaikan terjadi setelah uji coba; bacaan tidak mengatakan itu disebabkan olehnya — korelasi versus sebab."
+   }
+  },
+  {
+   "id": "v31",
+   "fam": "verb",
+   "passage": "p7",
+   "q": {
+    "en": "Statement: Rumah Rempah will open more delivery-only kitchens in 2026.",
+    "id": "Pernyataan: Rumah Rempah akan membuka lebih banyak dapur khusus pesan-antar pada 2026."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 2,
+   "expl": {
+    "en": "The company will decide once it has twelve months of data — a plan to decide is not a decision. Plans versus facts.",
+    "id": "Perusahaan akan memutuskan setelah memiliki dua belas bulan data — rencana untuk memutuskan bukan keputusan. Rencana versus fakta."
+   }
+  },
+  {
+   "id": "v32",
+   "fam": "verb",
+   "passage": "p7",
+   "q": {
+    "en": "Statement: Dine-in customer numbers at the Solo restaurants fell after the delivery-only kitchen opened.",
+    "id": "Pernyataan: Jumlah pelanggan makan di tempat di restoran Solo turun setelah dapur khusus pesan-antar dibuka."
+   },
+   "opts": [
+    {
+     "en": "True",
+     "id": "Benar"
+    },
+    {
+     "en": "False",
+     "id": "Salah"
+    },
+    {
+     "en": "Cannot say",
+     "id": "Tidak bisa disimpulkan"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "The passage says dine-in covers at the two Solo restaurants were unchanged — it forces the opposite.",
+    "id": "Bacaan menyatakan jumlah tamu makan di tempat di dua restoran Solo tidak berubah — memaksa kebalikannya."
+   }
+  },
+  {
+   "id": "l29",
+   "fam": "log",
+   "q": {
+    "en": "Continue the series: 3, 7, 15, 31, 63, …",
+    "id": "Lanjutkan deret: 3, 7, 15, 31, 63, …"
+   },
+   "opts": [
+    {
+     "en": "127",
+     "id": "127"
+    },
+    {
+     "en": "95",
+     "id": "95"
+    },
+    {
+     "en": "126",
+     "id": "126"
+    },
+    {
+     "en": "129",
+     "id": "129"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "Each term is ×2 + 1 (the “×a + b” family): 63 × 2 + 1 = 127. Differences 4, 8, 16, 32 double — the next difference is 64.",
+    "id": "Setiap suku ×2 + 1 (keluarga “×a + b”): 63 × 2 + 1 = 127. Selisih 4, 8, 16, 32 berlipat ganda — selisih berikutnya 64."
+   }
+  },
+  {
+   "id": "l30",
+   "fam": "log",
+   "q": {
+    "en": "Continue the series: 2, 12, 5, 10, 8, 8, 11, …",
+    "id": "Lanjutkan deret: 2, 12, 5, 10, 8, 8, 11, …"
+   },
+   "opts": [
+    {
+     "en": "14",
+     "id": "14"
+    },
+    {
+     "en": "6",
+     "id": "6"
+    },
+    {
+     "en": "9",
+     "id": "9"
+    },
+    {
+     "en": "13",
+     "id": "13"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "A zig-zag: split odd and even positions. 2, 5, 8, 11 (+3) and 12, 10, 8 (−2) → next is 6. Interleaved sequences.",
+    "id": "Zig-zag: pisahkan posisi ganjil dan genap. 2, 5, 8, 11 (+3) dan 12, 10, 8 (−2) → berikutnya 6. Deret berselang-seling."
+   }
+  },
+  {
+   "id": "l31",
+   "fam": "log",
+   "q": {
+    "en": "Continue the series: 4, 6, 10, 16, 24, …",
+    "id": "Lanjutkan deret: 4, 6, 10, 16, 24, …"
+   },
+   "opts": [
+    {
+     "en": "32",
+     "id": "32"
+    },
+    {
+     "en": "34",
+     "id": "34"
+    },
+    {
+     "en": "36",
+     "id": "36"
+    },
+    {
+     "en": "30",
+     "id": "30"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "Differences 2, 4, 6, 8 grow by 2 — the next difference is 10, so 24 + 10 = 34. Growing differences (second order).",
+    "id": "Selisih 2, 4, 6, 8 bertambah 2 — selisih berikutnya 10, jadi 24 + 10 = 34. Selisih membesar (orde kedua)."
+   }
+  },
+  {
+   "id": "l32",
+   "fam": "log",
+   "q": {
+    "en": "Continue the series: 4, 8, 5, 10, 7, 14, …",
+    "id": "Lanjutkan deret: 4, 8, 5, 10, 7, 14, …"
+   },
+   "opts": [
+    {
+     "en": "28",
+     "id": "28"
+    },
+    {
+     "en": "11",
+     "id": "11"
+    },
+    {
+     "en": "12",
+     "id": "12"
+    },
+    {
+     "en": "9",
+     "id": "9"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "Alternating operations: ×2, −3, ×2, −3, ×2 … so 14 − 3 = 11. Not interleaved: the odd positions 4, 5, 7 have no simple rule of their own.",
+    "id": "Operasi berselang: ×2, −3, ×2, −3, ×2 … jadi 14 − 3 = 11. Bukan berselang-seling: posisi ganjil 4, 5, 7 tidak punya aturan sederhana sendiri."
+   }
+  },
+  {
+   "id": "l33",
+   "fam": "log",
+   "q": {
+    "en": "Continue the series: 2, 6, 12, 36, 72, …",
+    "id": "Lanjutkan deret: 2, 6, 12, 36, 72, …"
+   },
+   "opts": [
+    {
+     "en": "144",
+     "id": "144"
+    },
+    {
+     "en": "216",
+     "id": "216"
+    },
+    {
+     "en": "108",
+     "id": "108"
+    },
+    {
+     "en": "180",
+     "id": "180"
+    }
+   ],
+   "correct": 1,
+   "expl": {
+    "en": "A repeating multiplier cycle: ×3, ×2, ×3, ×2, ×3 → 72 × 3 = 216.",
+    "id": "Siklus pengali berulang: ×3, ×2, ×3, ×2, ×3 → 72 × 3 = 216."
+   }
+  },
+  {
+   "id": "l34",
+   "fam": "log",
+   "q": {
+    "en": "A series of frames: frame 1 has one black circle at the top-left; frame 2 two black circles at the top-right; frame 3 three at the bottom-right; frame 4 four at the bottom-left. Frame 5 contains…",
+    "id": "Deret bingkai: bingkai 1 punya satu lingkaran hitam di kiri-atas; bingkai 2 dua lingkaran hitam di kanan-atas; bingkai 3 tiga di kanan-bawah; bingkai 4 empat di kiri-bawah. Bingkai 5 berisi…"
+   },
+   "opts": [
+    {
+     "en": "five black circles at the top-left",
+     "id": "lima lingkaran hitam di kiri-atas"
+    },
+    {
+     "en": "five black circles at the top-right",
+     "id": "lima lingkaran hitam di kanan-atas"
+    },
+    {
+     "en": "four black circles at the top-left",
+     "id": "empat lingkaran hitam di kiri-atas"
+    },
+    {
+     "en": "five white circles at the top-left",
+     "id": "lima lingkaran putih di kiri-atas"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "Scan one dimension at a time. Count: +1 per frame → five. Position: clockwise round the corners → back to top-left. Shading never changes, so it cannot be the rule. Each distractor breaks exactly one dimension.",
+    "id": "Pindai satu dimensi pada satu waktu. Jumlah: +1 per bingkai → lima. Posisi: searah jarum jam mengelilingi sudut → kembali ke kiri-atas. Arsiran tidak pernah berubah, jadi tidak mungkin menjadi aturan. Setiap pengecoh melanggar tepat satu dimensi."
+   }
+  },
+  {
+   "id": "l35",
+   "fam": "log",
+   "q": {
+    "en": "Five L-shaped figures: four are the same L rotated by 0°, 90°, 180° and 270°; the fifth is the L reflected in a mirror. Which is the odd one out?",
+    "id": "Lima bentuk L: empat adalah L yang sama diputar 0°, 90°, 180°, dan 270°; yang kelima adalah L yang dicerminkan. Mana yang berbeda?"
+   },
+   "opts": [
+    {
+     "en": "The reflected one — a mirror image cannot be reached by rotation",
+     "id": "Yang dicerminkan — bayangan cermin tidak bisa dicapai dengan rotasi"
+    },
+    {
+     "en": "The one rotated 180°",
+     "id": "Yang diputar 180°"
+    },
+    {
+     "en": "The unrotated one",
+     "id": "Yang tidak diputar"
+    },
+    {
+     "en": "There is no odd one out",
+     "id": "Tidak ada yang berbeda"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "Rotation versus reflection: four rotated copies and one mirror image is the classic odd-one-out. Check rotation/reflection before shading or size.",
+    "id": "Rotasi versus refleksi: empat salinan terputar dan satu bayangan cermin adalah soal yang-berbeda klasik. Periksa rotasi/refleksi sebelum arsiran atau ukuran."
+   }
+  },
+  {
+   "id": "l36",
+   "fam": "log",
+   "q": {
+    "en": "A 3×3 matrix. Row 1: a square; a triangle; a square with a triangle inside. Row 2: a circle; a cross; a circle with a cross inside. Row 3: a hexagon; a star; ? — the missing cell is…",
+    "id": "Matriks 3×3. Baris 1: persegi; segitiga; persegi dengan segitiga di dalamnya. Baris 2: lingkaran; silang; lingkaran dengan silang di dalamnya. Baris 3: segi enam; bintang; ? — sel yang hilang adalah…"
+   },
+   "opts": [
+    {
+     "en": "a hexagon with a star inside",
+     "id": "segi enam dengan bintang di dalamnya"
+    },
+    {
+     "en": "a star with a hexagon inside",
+     "id": "bintang dengan segi enam di dalamnya"
+    },
+    {
+     "en": "a hexagon with a cross inside",
+     "id": "segi enam dengan silang di dalamnya"
+    },
+    {
+     "en": "a star",
+     "id": "bintang"
+    }
+   ],
+   "correct": 0,
+   "expl": {
+    "en": "Combination logic: in each row, cell 3 = cell 1 with cell 2 inside. “A star with a hexagon inside” breaks the relationship; “a hexagon with a cross inside” breaks shape.",
+    "id": "Logika kombinasi: di setiap baris, sel 3 = sel 1 dengan sel 2 di dalamnya. “Bintang dengan segi enam di dalamnya” melanggar hubungan; “segi enam dengan silang di dalamnya” melanggar bentuk."
    }
   }
  ]
