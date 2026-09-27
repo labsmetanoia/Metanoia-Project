@@ -3164,134 +3164,447 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "9": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "9.1",
+    "h": {
+     "en": "Every Interaction Is a Work Sample",
+     "id": "Setiap Interaksi Adalah Contoh Kerja"
+    },
+    "sub": {
+     "en": "The principle, the defaults card, the register ladder, the channel rules.",
+     "id": "Prinsipnya, kartu setelan, tangga register, aturan saluran."
+    }
+   },
+   {
+    "lesson": "9.2",
+    "h": {
+     "en": "The Follow-Up Calendar",
+     "id": "Kalender Tindak Lanjut"
+    },
+    "sub": {
+     "en": "One table for every situation, the Indonesian adjustment, the thank-you note, the harvest note.",
+     "id": "Satu tabel untuk setiap situasi, penyesuaian Indonesia, ucapan terima kasih, catatan panen."
+    }
+   },
+   {
+    "lesson": "9.3",
+    "h": {
+     "en": "Rejection, References and Relationships",
+     "id": "Penolakan, Referensi, dan Hubungan"
+    },
+    "sub": {
+     "en": "The gracious reply, the feedback ask, referees briefed and thanked, updating everyone after landing.",
+     "id": "Balasan anggun, permintaan umpan balik, pemberi referensi dibekali dan diberi terima kasih, mengabari semua setelah diterima."
+    }
+   },
+   {
+    "lesson": "9.4",
+    "h": {
+     "en": "Etiquette Under Pressure",
+     "id": "Etiket di Bawah Tekanan"
+    },
+    "sub": {
+     "en": "Rudeness as a test of your defaults; public repairs public and brief; private grievances private, with facts.",
+     "id": "Kekasaran sebagai ujian setelanmu; perbaikan publik secara publik dan singkat; keluhan pribadi secara pribadi, dengan fakta."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "9.1",
     "q": {
-     "en": "Treatment of the scheduling coordinator weighs heavily because:",
-     "id": "Cara kamu memperlakukan koordinator jadwal punya bobot besar karena:"
+     "en": "First contact, in Indonesian, with a senior manager you have never met. The opening and closing are…",
+     "id": "Kontak pertama, dalam bahasa Indonesia, dengan manajer senior yang belum pernah kamu temui. Pembuka dan penutupnya…"
     },
     "opts": [
      {
-      "en": "Coordinators make the final decision",
-      "id": "Koordinator yang membuat keputusan akhir"
+      "en": "“Halo Kak [Nama]” · “Makasih ya”",
+      "id": "“Halo Kak [Nama]” · “Makasih ya”"
      },
      {
-      "en": "It is an uncoached, low-noise sample of character — nobody performs for the coordinator",
-      "id": "Itu contoh karakter yang tidak dilatih dan minim gangguan — tidak ada yang berakting di depan koordinator"
+      "en": "“Yth. Bapak/Ibu [Nama]” · “Hormat saya”",
+      "id": "“Yth. Bapak/Ibu [Nama]” · “Hormat saya”"
      },
      {
-      "en": "It is a formally scored stage",
-      "id": "Itu tahap yang dinilai secara resmi"
+      "en": "“Selamat pagi Kak” · “Salam”",
+      "id": "“Selamat pagi Kak” · “Salam”"
      },
      {
-      "en": "Coordinators file complaints to HR",
-      "id": "Koordinator melaporkan keluhan ke HR"
+      "en": "“Dear Sir/Madam” · “Cheers”",
+      "id": "“Dear Sir/Madam” · “Cheers”"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Interview answers are rehearsed; corridor behaviour is not. Assessors weight unrehearsed signals precisely because they are unrehearsed.",
-     "id": "Jawaban wawancara sudah dilatih; perilaku di lorong tidak. Asesor memberi bobot pada sinyal yang tidak dilatih justru karena tidak dilatih."
+     "en": "Top rung of the register ladder on first contact; the other person moves you down, never you.",
+     "id": "Anak tangga tertinggi tangga register pada kontak pertama; pihak lain yang menurunkanmu, bukan kamu."
     }
    },
    {
     "type": "scen",
+    "lesson": "9.1",
     "q": {
-     "en": "A recruiter calls unannounced while you're on a noisy bus. Best move:",
-     "id": "Perekrut menelepon tanpa pemberitahuan saat kamu di dalam bus yang bising. Langkah terbaik:"
+     "en": "A recruiter writes “Silakan WA saya untuk atur jadwal”. It is 21:40. You…",
+     "id": "Rekruter menulis “Silakan WA saya untuk atur jadwal”. Sekarang pukul 21.40. Kamu…"
     },
     "opts": [
      {
-      "en": "Push through the call — availability shows enthusiasm",
-      "id": "Paksakan teleponnya — kesediaan menunjukkan antusiasme"
+      "en": "Send “Halo kak, ini Nadia” now and the rest tomorrow",
+      "id": "Kirim “Halo kak, ini Nadia” sekarang dan sisanya besok"
      },
      {
-      "en": "Answer briefly, express gladness, ask to call back in ten minutes from a quiet place",
-      "id": "Angkat sebentar, sampaikan bahwa kamu senang dihubungi, lalu minta menelepon balik sepuluh menit lagi dari tempat yang tenang"
+      "en": "Send one complete message — name, context, the ask with options, sign-off — tomorrow in office hours",
+      "id": "Kirim satu pesan lengkap — nama, konteks, permintaan dengan pilihan, penutup — besok di jam kerja"
      },
      {
-      "en": "Decline and email an apology tonight",
-      "id": "Tolak, lalu kirim email permintaan maaf malam ini"
+      "en": "Send a voice note now so it feels personal",
+      "id": "Kirim pesan suara sekarang agar terasa personal"
      },
      {
-      "en": "Let it ring and call back tomorrow",
-      "id": "Biarkan berdering dan telepon balik besok"
+      "en": "Call the number now",
+      "id": "Telepon nomornya sekarang"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Composure over immediacy: the callback request is standard professional behaviour and buys a prepared, audible conversation.",
-     "id": "Ketenangan lebih penting daripada kesegeraan: meminta menelepon balik adalah perilaku profesional yang standar, dan memberimu percakapan yang siap dan bisa didengar dengan jelas."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "You sent 'this briefing is so boring 😭' to the team group by mistake. The repair:",
-     "id": "Kamu salah kirim 'briefing ini membosankan banget 😭' ke grup tim. Cara memperbaikinya:"
-    },
-    "opts": [
-     {
-      "en": "Delete and never mention it",
-      "id": "Hapus dan jangan pernah menyinggungnya"
-     },
-     {
-      "en": "One brief public ownership, one private line to the supervisor, then visibly engaged work — no spiral, no cover story",
-      "id": "Satu pengakuan singkat di grup, satu pesan pribadi ke atasan, lalu bekerja dengan keterlibatan yang terlihat — tanpa berlarut-larut, tanpa cerita karangan"
-     },
-     {
-      "en": "Claim your account was borrowed",
-      "id": "Bilang akunmu dipinjam orang lain"
-     },
-     {
-      "en": "Apologise repeatedly for a week",
-      "id": "Minta maaf berulang-ulang selama seminggu"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The error is survivable; the cover-up or the apology spiral converts a slip into a character verdict. Professionals are graded on how cleanly they repair.",
-     "id": "Kesalahannya bisa dilewati; menutup-nutupi atau minta maaf berlarut-larut justru mengubah satu keteledoran menjadi vonis atas karaktermu. Profesional dinilai dari seberapa bersih ia memperbaiki kesalahan."
+     "en": "WhatsApp rules: office hours; one complete message that introduces you and the context; no voice notes unless invited.",
+     "id": "Aturan WhatsApp: jam kerja; satu pesan lengkap yang memperkenalkan dirimu dan konteksnya; tanpa pesan suara kecuali diundang."
     }
    },
    {
     "type": "know",
+    "lesson": "9.1",
     "q": {
-     "en": "After a rejection, the professional reply:",
-     "id": "Setelah ditolak, balasan yang profesional adalah:"
+     "en": "Who, besides the panel, is routinely asked how you behaved?",
+     "id": "Siapa, selain panel, yang rutin ditanya bagaimana perilakumu?"
     },
     "opts": [
      {
-      "en": "None — the process is over",
-      "id": "Tidak perlu — prosesnya sudah selesai"
+      "en": "Other candidates",
+      "id": "Kandidat lain"
      },
      {
-      "en": "One gracious note: thanks, a light feedback ask, door left open — recruiters shortlist people like you for the next role",
-      "id": "Satu pesan yang santun: ucapan terima kasih, permintaan masukan yang ringan, dan pintu tetap dibiarkan terbuka — perekrut menyimpan nama orang seperti ini untuk lowongan berikutnya"
+      "en": "Reception, assistants and the HR coordinator",
+      "id": "Resepsionis, asisten, dan koordinator HR"
      },
      {
-      "en": "A request for detailed scoring",
-      "id": "Permintaan rincian penilaian"
+      "en": "Your referees",
+      "id": "Pemberi referensimu"
      },
      {
-      "en": "A complaint if you felt qualified",
-      "id": "Keluhan, kalau kamu merasa memenuhi syarat"
+      "en": "Nobody — only the interview counts",
+      "id": "Tidak ada — hanya wawancara yang dihitung"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The database remembers, and recruiters move between companies. The rejection reply is a deposit in a network at its cheapest price.",
-     "id": "Basis data punya ingatan, dan perekrut berpindah-pindah perusahaan. Balasan atas penolakan adalah setoran ke jaringanmu dengan harga paling murah."
+     "en": "They are allies, not obstacles; learn and use their names (Bolles; Levy).",
+     "id": "Mereka sekutu, bukan hambatan; pelajari dan pakai nama mereka (Bolles; Levy)."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.2",
+    "q": {
+     "en": "You sent an outreach message on Monday. It is the next Monday, day 7, with no reply. The table says…",
+     "id": "Kamu mengirim pesan jangkauan hari Senin. Kini Senin berikutnya, hari ke-7, tanpa balasan. Tabel mengatakan…"
+    },
+    "opts": [
+     {
+      "en": "One follow-up, then stop; on day 3 you should already have contacted someone else there",
+      "id": "Satu tindak lanjut, lalu berhenti; di hari ke-3 kamu seharusnya sudah menghubungi orang lain di sana"
+     },
+     {
+      "en": "Follow up weekly until they reply",
+      "id": "Tindak lanjut mingguan sampai mereka membalas"
+     },
+     {
+      "en": "Switch to WhatsApp",
+      "id": "Beralih ke WhatsApp"
+     },
+     {
+      "en": "Nothing — silence means no",
+      "id": "Tidak ada — keheningan berarti tidak"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Outreach, no reply: day 3 contact someone else; day 7 one follow-up; ceiling one (Dalton, ch. 7).",
+     "id": "Jangkauan, tanpa balasan: hari ke-3 hubungi orang lain; hari ke-7 satu tindak lanjut; batas satu (Dalton, bab 7)."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.2",
+    "q": {
+     "en": "Your interviewer said “news by the 15th”. It is the 16th, and Lebaran falls next week. Your first follow-up goes out…",
+     "id": "Pewawancaramu berkata “kabar paling lambat tanggal 15”. Kini tanggal 16, dan Lebaran jatuh minggu depan. Tindak lanjut pertamamu keluar…"
+    },
+    "opts": [
+     {
+      "en": "Today — the date has passed",
+      "id": "Hari ini — tanggalnya sudah lewat"
+     },
+     {
+      "en": "About ten working days after the 15th, counted around the Lebaran window",
+      "id": "Sekitar sepuluh hari kerja setelah tanggal 15, dihitung melewati jendela Lebaran"
+     },
+     {
+      "en": "Never — chasing looks desperate",
+      "id": "Tidak pernah — mengejar terlihat putus asa"
+     },
+     {
+      "en": "Every three days until they answer",
+      "id": "Setiap tiga hari sampai mereka menjawab"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Working days, counted from the date they gave, extended around Lebaran and cuti bersama; ceiling two.",
+     "id": "Hari kerja, dihitung dari tanggal yang mereka beri, diperpanjang di sekitar Lebaran dan cuti bersama; batas dua."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "9.2",
+    "q": {
+     "en": "The thank-you note within 24 hours contains…",
+     "id": "Ucapan terima kasih dalam 24 jam memuat…"
+    },
+    "opts": [
+     {
+      "en": "Thanks, one specific moment or piece of advice, one fit point after an interview, a forward line — in three to five sentences",
+      "id": "Terima kasih, satu momen atau saran spesifik, satu poin kecocokan setelah wawancara, kalimat ke depan — dalam tiga hingga lima kalimat"
+     },
+     {
+      "en": "A summary of your CV",
+      "id": "Ringkasan CV-mu"
+     },
+     {
+      "en": "A request for the decision",
+      "id": "Permintaan keputusan"
+     },
+     {
+      "en": "Ten sentences of appreciation",
+      "id": "Sepuluh kalimat penghargaan"
+     }
+    ],
+    "correct": 0,
+    "expl": {
+     "en": "Synthesising Verma’s pattern, Williams’s specificity and Dalton’s timing; email by default.",
+     "id": "Menyintesis pola Verma, spesifisitas Williams, dan waktu Dalton; email sebagai bawaan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.3",
+    "q": {
+     "en": "The rejection email says “we will keep your CV on file”. You…",
+     "id": "Email penolakan berbunyi “kami akan menyimpan CV Anda”. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Wait for them to call",
+      "id": "Menunggu mereka menelepon"
+     },
+     {
+      "en": "Reply briefly and graciously, treat it as a no, and set a six-month re-contact task",
+      "id": "Balas singkat dan anggun, anggap sebagai penolakan, dan pasang tugas kontak ulang enam bulan"
+     },
+     {
+      "en": "Ask why you were rejected",
+      "id": "Tanya mengapa kamu ditolak"
+     },
+     {
+      "en": "Send your CV again next month",
+      "id": "Kirim CV-mu lagi bulan depan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“On file” is a no unless a specific month is named; the reply keeps the door open and the six-month note carries what you gained (Williams; Dalton, ch. 9).",
+     "id": "“Disimpan” adalah penolakan kecuali bulan tertentu disebut; balasan menjaga pintu terbuka dan catatan enam bulan membawa apa yang kamu peroleh (Williams; Dalton, bab 9)."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.3",
+    "q": {
+     "en": "A form asks for two referees. You list your internship supervisor and a family friend who is a bank director. The problem is…",
+     "id": "Formulir meminta dua pemberi referensi. Kamu mencantumkan supervisor magangmu dan teman keluarga yang direktur bank. Masalahnya…"
+    },
+    "opts": [
+     {
+      "en": "None — the director adds weight",
+      "id": "Tidak ada — direktur menambah bobot"
+     },
+     {
+      "en": "The director barely knows your work; and neither has been asked or briefed",
+      "id": "Direktur nyaris tidak mengenal pekerjaanmu; dan keduanya belum diminta izin atau dibekali"
+     },
+     {
+      "en": "Two is too few",
+      "id": "Dua terlalu sedikit"
+     },
+     {
+      "en": "You should list a lecturer instead of the supervisor",
+      "id": "Kamu seharusnya mencantumkan dosen alih-alih supervisor"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Curate people who watched your work; never status names; always permission, then the job description, CV and what they can speak to (Levy).",
+     "id": "Kurasi orang yang mengamati pekerjaanmu; jangan pernah nama demi status; selalu izin, lalu deskripsi pekerjaan, CV, dan apa yang bisa mereka ceritakan (Levy)."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "9.3",
+    "q": {
+     "en": "The referee brief tells the referee…",
+     "id": "Bekal pemberi referensi memberi tahu pemberi referensi…"
+    },
+    "opts": [
+     {
+      "en": "What to say word for word",
+      "id": "Apa yang harus dikatakan kata demi kata"
+     },
+     {
+      "en": "The role, what it values, which of your work they can speak to, and when the call may come",
+      "id": "Perannya, apa yang dihargainya, pekerjaanmu mana yang bisa mereka ceritakan, dan kapan telepon mungkin datang"
+     },
+     {
+      "en": "Your salary expectation",
+      "id": "Ekspektasi gajimu"
+     },
+     {
+      "en": "Nothing — a briefed referee sounds rehearsed",
+      "id": "Tidak ada — pemberi referensi yang dibekali terdengar dilatih"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A briefed referee gives specifics and numbers; a surprised one gives adjectives.",
+     "id": "Pemberi referensi yang dibekali memberi hal spesifik dan angka; yang terkejut memberi kata sifat."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.4",
+    "q": {
+     "en": "Your user interviewer at a BUMN arrives 25 minutes late and says “Oke, langsung saja”. Your first words are…",
+     "id": "Pewawancara user-mu di BUMN tiba 25 menit terlambat dan berkata “Oke, langsung saja”. Kata-kata pertamamu…"
+    },
+    "opts": [
+     {
+      "en": "“Saya sudah menunggu dari jam dua, Pak”",
+      "id": "“Saya sudah menunggu dari jam dua, Pak”"
+     },
+     {
+      "en": "“Tidak masalah sama sekali, Pak” — then a tighter answer set for the shorter time",
+      "id": "“Tidak masalah sama sekali, Pak” — lalu set jawaban yang lebih ringkas untuk waktu yang lebih pendek"
+     },
+     {
+      "en": "A request to reschedule for the full slot",
+      "id": "Permintaan dijadwalkan ulang untuk slot penuh"
+     },
+     {
+      "en": "Silence, and slower answers to use the time",
+      "id": "Diam, dan jawaban lebih lambat untuk memakai waktunya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Other people’s rudeness is a test of your defaults; notice it, weigh it later, never in the room.",
+     "id": "Kekasaran orang lain adalah ujian setelanmu; perhatikan, timbang nanti, tidak pernah di ruangan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "9.4",
+    "q": {
+     "en": "A senior corrects you in a group video call in front of your MT cohort, and you are sure your method is right. You…",
+     "id": "Seorang senior mengoreksimu dalam panggilan video grup di depan angkatan MT-mu, dan kamu yakin metodemu benar. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Prove him wrong in front of everyone",
+      "id": "Buktikan ia salah di depan semua orang"
+     },
+     {
+      "en": "Hold the position in one formal round with the source, and offer to send the working after the session",
+      "id": "Pertahankan posisi dalam satu ronde formal dengan sumbernya, dan tawarkan mengirim perhitungannya setelah sesi"
+     },
+     {
+      "en": "Concede immediately to keep the peace",
+      "id": "Mengalah segera demi kedamaian"
+     },
+     {
+      "en": "Leave the call",
+      "id": "Tinggalkan panggilan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "One technical, temperature-zero round; a face-preserving exit for the senior; the detail moved to a private channel.",
+     "id": "Satu ronde teknis tanpa emosi; jalan keluar yang menjaga muka bagi senior; detailnya dipindah ke saluran pribadi."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "9.4",
+    "q": {
+     "en": "The rule for public errors and private grievances is…",
+     "id": "Aturan untuk kesalahan publik dan keluhan pribadi adalah…"
+    },
+    "opts": [
+     {
+      "en": "Ignore both",
+      "id": "Abaikan keduanya"
+     },
+     {
+      "en": "Repair public errors publicly and briefly; raise private grievances privately, with facts",
+      "id": "Perbaiki kesalahan publik secara publik dan singkat; angkat keluhan pribadi secara pribadi, dengan fakta"
+     },
+     {
+      "en": "Escalate both to a supervisor",
+      "id": "Eskalasi keduanya ke supervisor"
+     },
+     {
+      "en": "Repair errors privately; raise grievances publicly",
+      "id": "Perbaiki kesalahan secara pribadi; angkat keluhan secara publik"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Whose error and who saw it decide the room; the defaults decide the tone.",
+     "id": "Kesalahan siapa dan siapa yang melihat menentukan ruangannya; setelan menentukan nadanya."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Recall one moment this year when you handled a professional interaction worse than you wished — a message, a call, a conflict. Rewrite how you would run it now, using the module's defaults, in 4–6 sentences.",
-    "id": "Ingat satu momen tahun ini ketika kamu menangani interaksi profesional lebih buruk dari yang kamu harapkan — sebuah pesan, telepon, atau konflik. Tulis ulang bagaimana kamu akan menjalankannya sekarang, memakai aturan-aturan dasar modul ini, dalam 4–6 kalimat."
+    "en": "At least 100 words. Which follow-up habit will you keep after The Pack? Name the row of the follow-up table it comes from, the situation in your own tracker where you have already applied it, and what happened. Then say what would make you drop it under pressure — and the one thing (a tracker task, a defaults card, a calendar rule) that will protect it.",
+    "id": "Minimal 100 kata. Kebiasaan tindak lanjut mana yang akan kamu pertahankan setelah The Pack? Sebutkan baris tabel tindak lanjut asalnya, situasi di pelacakmu sendiri di mana kamu sudah menerapkannya, dan apa yang terjadi. Lalu katakan apa yang akan membuatmu melepasnya di bawah tekanan — dan satu hal (tugas pelacak, kartu setelan, aturan kalender) yang akan melindunginya."
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "Quote the row: situation, when, how many.",
+     "id": "Kutip barisnya: situasi, kapan, berapa kali."
+    },
+    {
+     "en": "Give the real example with dates and the working-day count.",
+     "id": "Beri contoh nyata dengan tanggal dan hitungan hari kerja."
+    },
+    {
+     "en": "If you have not applied it yet, say which live row it will apply to first and when.",
+     "id": "Jika belum kamu terapkan, katakan baris aktif mana yang akan menerapkannya pertama dan kapan."
+    }
+   ],
+   "min": 100
   }
  },
  "10": {
