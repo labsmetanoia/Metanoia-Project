@@ -21169,6 +21169,126 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for cases-5: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/cases-6.mp4",
+      "bytes": 10945616,
+      "category": "video",
+      "people": "no",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Checking at MODA v5.mp4\" (moved to this path, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.3 scene film \"Checking at MODA v5\" (Aaliyah asks David Fu for video-call presentation tips). Animated illustration, no real people. Licence follows the upload."
+    },
+    {
+      "file": "assets/lms/the-map/cases-6-brand.mp4",
+      "bytes": 9806329,
+      "category": "video",
+      "people": "no",
+      "source": "Derived in-repo from cases-6.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded playback copy of the MODA v5 scene film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/cases-6-poster.jpg",
+      "bytes": 64318,
+      "category": "graphic",
+      "people": "no",
+      "source": "Frame extracted in-repo from cases-6.mp4",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame for the MODA v5 scene film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/cases-6-en.vtt",
+      "bytes": 3007,
+      "category": "text",
+      "people": "no",
+      "source": "Transcribed in-repo from the film’s English audio (offline Whisper small.en) and corrected by hand",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for cases-6."
+    },
+    {
+      "file": "assets/lms/the-map/cases-6-id.vtt",
+      "bytes": 3062,
+      "category": "text",
+      "people": "no",
+      "source": "Translated in-repo from the English transcript",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for cases-6: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/cases-7.mp4",
+      "bytes": 7394385,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Expert Commentary v3.mp4\" (moved to this path, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.3 expert commentary film, presenter captioned \"Kate, Client Communications Expert\". Licence and any model release follow the upload."
+    },
+    {
+      "file": "assets/lms/the-map/cases-7-brand.mp4",
+      "bytes": 11219992,
+      "category": "video",
+      "people": "yes",
+      "source": "Derived in-repo from cases-7.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded playback copy of the expert commentary film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/cases-7-poster.jpg",
+      "bytes": 54392,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame extracted in-repo from cases-7.mp4",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame for the expert commentary film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/cases-7-en.vtt",
+      "bytes": 1544,
+      "category": "text",
+      "people": "no",
+      "source": "Transcribed in-repo from the film’s English audio (offline Whisper small.en) and corrected by hand",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for cases-7."
+    },
+    {
+      "file": "assets/lms/the-map/cases-7-id.vtt",
+      "bytes": 1537,
+      "category": "text",
+      "people": "no",
+      "source": "Translated in-repo from the English transcript",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for cases-7: translated in-repo from the English transcript."
     }
   ]
 }

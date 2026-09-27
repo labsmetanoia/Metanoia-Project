@@ -8312,8 +8312,8 @@ window.MT_LMS['the-map'] = {
       "id": "Studi Kasus Komunikasi Terapan"
      },
      "dur": {
-      "en": "60 min",
-      "id": "60 mnt"
+      "en": "65 min",
+      "id": "65 mnt"
      },
      "kind": "interactive",
      "placeholder": false,
@@ -8630,8 +8630,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the first slide points to. Kate turns the structure into a storyline and draws the line between two different things: storylining is converting your pyramid and your synthesis into a prose version — often a dot-dash outline of the key points you want to get across, the order they come in, and the supporting evidence; storytelling is the different art of engaging, hooking and inspiring your audience. The structure and the clarity of the message are critical; the order the story is told in matters too. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “How to run the drills” below.",
-        "id": "Film yang dirujuk slide pertama. Kate mengubah struktur menjadi storyline dan menarik garis antara dua hal yang berbeda: storylining adalah mengubah piramida dan sintesis Anda menjadi versi prosa — sering kali berupa garis besar dot-dash dari poin-poin kunci yang ingin Anda sampaikan, urutannya, dan bukti pendukungnya; storytelling adalah seni yang berbeda untuk melibatkan, memikat, dan menginspirasi audiens Anda. Struktur dan kejelasan pesan sangat penting; urutan penyampaian cerita juga penting. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+        "en": "The film the first slide points to. Kate turns the structure into a storyline and draws the line between two different things: storylining is converting your pyramid and your synthesis into a prose version — often a dot-dash outline of the key points you want to get across, the order they come in, and the supporting evidence; storytelling is the different art of engaging, hooking and inspiring your audience. The structure and the clarity of the message are critical; the order the story is told in matters too. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the two films that follow.",
+        "id": "Film yang dirujuk slide pertama. Kate mengubah struktur menjadi storyline dan menarik garis antara dua hal yang berbeda: storylining adalah mengubah piramida dan sintesis Anda menjadi versi prosa — sering kali berupa garis besar dot-dash dari poin-poin kunci yang ingin Anda sampaikan, urutannya, dan bukti pendukungnya; storytelling adalah seni yang berbeda untuk melibatkan, memikat, dan menginspirasi audiens Anda. Struktur dan kejelasan pesan sangat penting; urutan penyampaian cerita juga penting. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke dua film yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -8648,8 +8648,8 @@ window.MT_LMS['the-map'] = {
           "id": "Storytelling adalah seni yang berbeda: bagaimana Anda memikat, melibatkan, dan menginspirasi audiens. Bereskan storyline-nya dulu; urutan dan sudut pandangnya menyusul."
          },
          {
-          "en": "The five-part formula on slide 2 — introduction, key question, recommendation, supporting arguments, conclusion — is a storyline. The three drills below ask you to write one under time pressure.",
-          "id": "Formula lima bagian di slide 2 — pendahuluan, pertanyaan kunci, rekomendasi, argumen pendukung, kesimpulan — adalah sebuah storyline. Tiga latihan di bawah meminta Anda menulisnya di bawah tekanan waktu."
+          "en": "The five-part formula on slide 2 — introduction, key question, recommendation, supporting arguments, conclusion — is a storyline. The two films that follow move from the storyline to the delivery: presence on a video call, and how to practise it.",
+          "id": "Formula lima bagian di slide 2 — pendahuluan, pertanyaan kunci, rekomendasi, argumen pendukung, kesimpulan — adalah sebuah storyline. Dua film yang mengikutinya beralih dari storyline ke penyampaian: kehadiran dalam panggilan video, dan cara melatihnya."
          }
         ]
        },
@@ -8665,6 +8665,66 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/cases-5-en.vtt",
           "id": "../../assets/lms/the-map/cases-5-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "delivery",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Scene film + expert commentary",
+        "id": "Tonton berikutnya · Film adegan + komentar pakar"
+       },
+       "intro": {
+        "en": "Two films on delivering the story. First, back at MODA: Aaliyah is about to share a change story with department heads on a video call and is worried people will tune out, so she asks David, fresh from the board meeting, for tips — a well-lit room and a non-distracting background, energy and an animated voice into the “black box”, one image rather than a pile of slides, a provocative question answered in the chat. Then Kate’s commentary: most of us have no board member to ring, so ring a friend or a colleague, practise room setup and vocal delivery in front of a mirror or someone who gives feedback, and try a Toastmasters chapter or a community group — good delivery, like a good conversation, does not happen on its own. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “How to run the drills” below.",
+        "id": "Dua film tentang menyampaikan cerita. Pertama, kembali ke MODA: Aaliyah akan membagikan kisah perubahan kepada para kepala departemen lewat panggilan video dan khawatir orang-orang tidak menyimak, maka ia meminta kiat kepada David, yang baru saja tampil di rapat dewan — ruangan terang dengan latar belakang yang tidak mengganggu, energi dan suara yang hidup ke arah “kotak hitam”, satu gambar daripada setumpuk slide, pertanyaan provokatif yang dijawab di kotak obrolan. Lalu komentar Kate: kebanyakan dari kita tidak punya anggota dewan untuk ditelepon, jadi teleponlah teman atau kolega, latih penataan ruangan dan penyampaian vokal di depan cermin atau seseorang yang memberi umpan balik, dan coba cabang Toastmasters atau kelompok komunitas — penyampaian yang baik, seperti percakapan yang baik, tidak terjadi dengan sendirinya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Cara menjalankan latihan ini” di bawah."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: delivery is a practised skill",
+         "id": "Poin penting: penyampaian adalah keterampilan yang dilatih"
+        },
+        "body": [
+         {
+          "en": "On video, presence is set up before you speak: a well-lit room, a background that does not distract, and energy dialled up because you are talking into a black box.",
+          "id": "Di video, kehadiran disiapkan sebelum Anda bicara: ruangan terang, latar belakang yang tidak mengganggu, dan energi yang dinaikkan karena Anda bicara ke kotak hitam."
+         },
+         {
+          "en": "Engage rather than broadcast: one strong image instead of a slide pile, a provocative question with answers in the chat, emotion in the voice.",
+          "id": "Libatkan, bukan sekadar menyiarkan: satu gambar kuat daripada tumpukan slide, pertanyaan provokatif dengan jawaban di obrolan, emosi dalam suara."
+         },
+         {
+          "en": "You do not need a board member. Ring a friend, rehearse in front of a mirror or a colleague who gives feedback, and use a Toastmasters chapter or community group. The three drills below are your first rehearsal.",
+          "id": "Anda tidak butuh anggota dewan. Telepon teman, berlatih di depan cermin atau kolega yang memberi umpan balik, dan manfaatkan cabang Toastmasters atau kelompok komunitas. Tiga latihan di bawah adalah gladi pertama Anda."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/cases-6-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-6-poster.jpg",
+         "dur": "2:05",
+         "title": {
+          "en": "Checking at MODA: Aaliyah prepares for the video call",
+          "id": "Kembali ke MODA: Aaliyah bersiap untuk panggilan video"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-6-en.vtt",
+          "id": "../../assets/lms/the-map/cases-6-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/cases-7-brand.mp4",
+         "poster": "../../assets/lms/the-map/cases-7-poster.jpg",
+         "dur": "1:08",
+         "title": {
+          "en": "Expert commentary: ring a friend",
+          "id": "Komentar pakar: telepon seorang teman"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/cases-7-en.vtt",
+          "id": "../../assets/lms/the-map/cases-7-id.vtt"
          }
         }
        ]
