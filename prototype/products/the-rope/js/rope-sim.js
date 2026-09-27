@@ -51,7 +51,9 @@
       greet: { en: 'You have my attention for thirty minutes. Make them count.', id: 'Anda punya perhatian saya selama tiga puluh menit. Manfaatkan.' } }
   ];
   function persona() {
-    return PERSONAS.filter(function (p) { return p.id === (state.cfg.persona || 'hr'); })[0] || PERSONAS[0];
+    /* a running session (including a lesson drill with its own persona) wins over the saved setting */
+    var want = (state.session && state.session.cfg && state.session.cfg.persona) || state.cfg.persona || 'hr';
+    return PERSONAS.filter(function (p) { return p.id === want; })[0] || PERSONAS[0];
   }
 
   /* Realistic interviewer photography, cast from the project's licensed

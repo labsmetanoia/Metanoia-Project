@@ -325,134 +325,323 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "2": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "2.1",
+    "h": {
+     "en": "Mining Your Stories",
+     "id": "Menggali Cerita"
+    },
+    "sub": {
+     "en": "Five prompts, the filter, the Core 10 coverage grid, the four kinds that fail.",
+     "id": "Lima pemicu, saringan, kisi cakupan Core 10, empat jenis yang gagal."
+    }
+   },
+   {
+    "lesson": "2.2",
+    "h": {
+     "en": "STAR+L",
+     "id": "STAR+L"
+    },
+    "sub": {
+     "en": "Obstacle, reasoning in the Action, results without invented numbers, the learning, timing.",
+     "id": "Hambatan, alasan di Aksi, hasil tanpa angka karangan, pembelajaran, waktu."
+    }
+   },
+   {
+    "lesson": "2.3",
+    "h": {
+     "en": "Depth — Surviving the Probes",
+     "id": "Kedalaman — Bertahan dari Galian"
+    },
+    "sub": {
+     "en": "Six probe families, depth cards, failure and integrity stories, the consistency rule.",
+     "id": "Enam keluarga galian, kartu kedalaman, cerita kegagalan dan integritas, aturan konsistensi."
+    }
+   },
+   {
+    "lesson": "2.4",
+    "h": {
+     "en": "Flexing One Story",
+     "id": "Satu Cerita, Banyak Sudut"
+    },
+    "sub": {
+     "en": "Three lengths, leading with the angle asked, both languages, the used-with log.",
+     "id": "Tiga panjang, membuka dengan sudut yang ditanyakan, dua bahasa, catatan pemakaian."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "2.1",
     "q": {
-     "en": "A story library beats improvising because:",
-     "id": "Perpustakaan cerita mengalahkan improvisasi karena:"
+     "en": "A fresh graduate’s mining sheet has 27 candidates. The Core 10 is chosen so that…",
+     "id": "Lembar penggalian lulusan baru punya 27 kandidat. Core 10 dipilih agar…"
     },
     "opts": [
      {
-      "en": "Memorised scripts sound more professional",
-      "id": "Naskah hafalan terdengar lebih profesional"
+      "en": "The ten most impressive are kept",
+      "id": "Sepuluh yang paling mengesankan dipertahankan"
      },
      {
-      "en": "Under pressure your repertoire shrinks to what you rehearsed — prepared stories flex to fit many questions",
-      "id": "Di bawah tekanan, yang tersisa hanya apa yang sudah kamu latih — cerita yang sudah disiapkan bisa dilenturkan untuk banyak pertanyaan"
+      "en": "Every coverage slot has a story and no single setting supplies more than four",
+      "id": "Setiap slot cakupan punya cerita dan tidak ada satu latar menyumbang lebih dari empat"
      },
      {
-      "en": "Interviewers share question lists",
-      "id": "Para pewawancara saling berbagi daftar pertanyaan"
+      "en": "All ten come from paid work",
+      "id": "Semua sepuluh dari pekerjaan berbayar"
      },
      {
-      "en": "It eliminates all nervousness",
-      "id": "Ia menghilangkan semua rasa gugup"
+      "en": "Each story covers exactly one slot",
+      "id": "Tiap cerita mencakup tepat satu slot"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Thirty structured stories cover hundreds of behavioural questions. The library is retrieval infrastructure, not a script.",
-     "id": "Tiga puluh cerita yang terstruktur mencakup ratusan pertanyaan perilaku. Perpustakaan ini adalah sistem untuk mengingat, bukan naskah."
+     "en": "Coverage first, then range; a story usually serves two or three slots, which is why ten answer forty questions.",
+     "id": "Cakupan dulu, lalu rentang; satu cerita biasanya melayani dua atau tiga slot, itulah sebabnya sepuluh menjawab empat puluh pertanyaan."
     }
    },
    {
     "type": "scen",
+    "lesson": "2.1",
     "q": {
-     "en": "Your draft story says 'we shipped the project'. The fix before it enters the library:",
-     "id": "Draf ceritamu berbunyi 'kami merilis proyeknya'. Yang harus dibenahi sebelum masuk ke perpustakaan:"
+     "en": "“Was treasurer of HIMA for a year and managed Rp 120 juta.” As a story candidate this…",
+     "id": "“Menjadi bendahara HIMA selama setahun dan mengelola Rp 120 juta.” Sebagai kandidat cerita ini…"
     },
     "opts": [
      {
-      "en": "Change every 'we' to 'I'",
-      "id": "Ganti semua 'kami' menjadi 'saya'"
+      "en": "Passes — it has a number",
+      "id": "Lolos — ada angkanya"
      },
      {
-      "en": "Keep the team context and make your specific contribution unmistakable — what did YOU decide, build, persuade?",
-      "id": "Pertahankan konteks timnya, tapi buat kontribusi spesifikmu tidak bisa disalahartikan — apa yang KAMU putuskan, bangun, yakinkan?"
+      "en": "Fails the filter — a title and a period, no situation, no action, no result; the story is underneath it",
+      "id": "Gagal saringan — jabatan dan periode, tanpa situasi, tindakan, hasil; ceritanya ada di bawahnya"
      },
      {
-      "en": "Add more technical detail",
-      "id": "Tambahkan lebih banyak detail teknis"
+      "en": "Fails — HIMA is not real experience",
+      "id": "Gagal — HIMA bukan pengalaman nyata"
      },
      {
-      "en": "Shorten it to two sentences",
-      "id": "Pendekkan menjadi dua kalimat"
+      "en": "Passes — it covers the leadership slot",
+      "id": "Lolos — mencakup slot kepemimpinan"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "'We' hiding 'I' is a top follow-up trigger. Teams are real; interviewers still need your ownable slice with its own verbs and numbers.",
-     "id": "'Kami' yang menyembunyikan 'saya' adalah pemicu utama pertanyaan lanjutan. Tim itu nyata; tapi pewawancara tetap butuh bagian yang menjadi milikmu, dengan kata kerja dan angkanya sendiri."
+     "en": "Titles and periods are the most common false candidates; dig under them for the audit, the receipts refusal, the midterm week.",
+     "id": "Jabatan dan periode adalah kandidat palsu paling umum; gali di bawahnya untuk audit, penolakan kuitansi, minggu UTS."
     }
    },
    {
     "type": "know",
+    "lesson": "2.2",
     "q": {
-     "en": "Numbers belong in stories because:",
-     "id": "Angka penting dalam sebuah cerita karena:"
+     "en": "In a 90-second STAR+L answer, the Action should take about…",
+     "id": "Dalam jawaban STAR+L 90 detik, Aksi seharusnya memakan sekitar…"
     },
     "opts": [
      {
-      "en": "They impress mathematically-minded interviewers",
-      "id": "Mengesankan pewawancara yang suka matematika"
+      "en": "10% — keep it brief",
+      "id": "10% — singkat saja"
      },
      {
-      "en": "They make claims checkable and memorable — and their absence is a standard follow-up trigger",
-      "id": "Angka membuat klaim bisa diperiksa dan mudah diingat — dan ketiadaannya adalah pemicu standar untuk pertanyaan lanjutan"
+      "en": "45% — nearly half, step by step with reasons",
+      "id": "45% — hampir separuh, langkah demi langkah dengan alasan"
      },
      {
-      "en": "They lengthen answers usefully",
-      "id": "Angka memperpanjang jawaban secara berguna"
+      "en": "75% — everything else is filler",
+      "id": "75% — sisanya pengisi"
      },
      {
-      "en": "Rubrics award points per digit",
-      "id": "Rubrik memberi poin untuk setiap digit"
+      "en": "25% — equal to the Situation",
+      "id": "25% — sama dengan Situasi"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "'Cut errors from thirty per event to under five' survives probing; 'significantly improved quality' invites it.",
-     "id": "'Memangkas kesalahan dari tiga puluh per acara menjadi di bawah lima' tahan digali; 'meningkatkan kualitas secara signifikan' justru mengundang penggalian."
+     "en": "Action carries the score; Situation, Task and Obstacle are about ten percent each, Result and Learning share the rest.",
+     "id": "Aksi memikul skornya; Situasi, Tugas, dan Hambatan sekitar sepuluh persen masing-masing, Hasil dan Pembelajaran berbagi sisanya."
     }
    },
    {
     "type": "scen",
+    "lesson": "2.2",
     "q": {
-     "en": "A story ends at the result with no learning. Why does the L matter to assessors?",
-     "id": "Sebuah cerita berhenti di hasil, tanpa pelajaran. Mengapa L penting bagi asesor?"
+     "en": "A candidate ends a story with “Saya belajar pentingnya komunikasi.” The Learning is…",
+     "id": "Kandidat mengakhiri cerita dengan “Saya belajar pentingnya komunikasi.” Pembelajarannya…"
     },
     "opts": [
      {
-      "en": "It shows humility, which is polite",
-      "id": "Ia menunjukkan kerendahan hati, dan itu sopan"
+      "en": "Acceptable — it is reflective",
+      "id": "Boleh — reflektif"
      },
      {
-      "en": "It evidences the meta-skill they are actually hiring: someone who converts experience into upgraded behaviour",
-      "id": "Ia membuktikan meta-keterampilan yang sebenarnya mereka cari: orang yang mengubah pengalaman menjadi perilaku yang lebih baik"
+      "en": "A platitude — it should name a specific behaviour change and where it was applied since",
+      "id": "Basa-basi — seharusnya menyebut perubahan perilaku spesifik dan di mana diterapkan sejak itu"
      },
      {
-      "en": "It pads shorter stories",
-      "id": "Ia menambal cerita yang terlalu pendek"
+      "en": "Too long",
+      "id": "Terlalu panjang"
      },
      {
-      "en": "Rubrics require five parts",
-      "id": "Rubrik mewajibkan lima bagian"
+      "en": "Fine if said in English",
+      "id": "Boleh jika dalam bahasa Inggris"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Companies hire for the next problem, not the last one. The learning line predicts how you will handle what they cannot foresee.",
-     "id": "Perusahaan merekrut untuk masalah berikutnya, bukan masalah yang lalu. Baris pelajaran meramalkan cara kamu menangani hal-hal yang tidak bisa mereka duga."
+     "en": "“I now call rather than message when someone goes quiet, and did so with…” is a learning; a value word is not.",
+     "id": "“Sekarang saya menelepon alih-alih mengirim pesan saat seseorang diam, dan melakukannya dengan…” adalah pembelajaran; kata nilai bukan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.3",
+    "q": {
+     "en": "“Tools apa yang dipakai?”, “berapa lama?” and “siapa yang mengerjakan bagian datanya?” all belong to the probe family…",
+     "id": "“Tools apa yang dipakai?”, “berapa lama?”, dan “siapa yang mengerjakan bagian datanya?” semuanya termasuk keluarga galian…"
+    },
+    "opts": [
+     {
+      "en": "Transfer",
+      "id": "Transfer"
+     },
+     {
+      "en": "Detail",
+      "id": "Detail"
+     },
+     {
+      "en": "Counterfactual",
+      "id": "Kontrafaktual"
+     },
+     {
+      "en": "Difficulty",
+      "id": "Kesulitan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Knowing the family lets you prepare the fact before you know the wording — the depth card holds one prepared fact per family.",
+     "id": "Mengetahui keluarganya membuatmu bisa menyiapkan faktanya sebelum tahu kata-katanya — kartu kedalaman menyimpan satu fakta per keluarga."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.3",
+    "q": {
+     "en": "In the HR round a candidate said the sponsorship gap closed in “sixteen days”; in the user round she says “about three weeks”. At the debrief this…",
+     "id": "Di ronde HR kandidat berkata kekurangan sponsorship ditutup dalam “enam belas hari”; di ronde user ia berkata “sekitar tiga minggu”. Di rapat evaluasi ini…"
+    },
+    "opts": [
+     {
+      "en": "Goes unnoticed — the rounds are separate",
+      "id": "Tidak disadari — rondenya terpisah"
+     },
+     {
+      "en": "Is raised as an inconsistency and weakens trust in all her evidence — the depth card should have fixed the number or marked it “approx.”",
+      "id": "Diangkat sebagai ketidakkonsistenan dan melemahkan kepercayaan pada semua buktinya — kartu kedalaman seharusnya menetapkan angkanya atau menandainya “kira-kira”"
+     },
+     {
+      "en": "Helps — it shows flexibility",
+      "id": "Membantu — menunjukkan fleksibilitas"
+     },
+     {
+      "en": "Is fine because both are roughly right",
+      "id": "Tidak apa karena keduanya kira-kira benar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Interviewers meet afterwards; the consistency rule is to use the same facts in every round, with the honest hedge planned on the card.",
+     "id": "Pewawancara bertemu setelahnya; aturan konsistensi adalah memakai fakta yang sama di setiap ronde, dengan pagar jujur direncanakan di kartu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.4",
+    "q": {
+     "en": "The same sponsorship story is asked as “ceritakan saat Anda meyakinkan orang yang lebih senior”. The strong opening is…",
+     "id": "Cerita sponsorship yang sama ditanyakan sebagai “ceritakan saat Anda meyakinkan orang yang lebih senior”. Pembuka yang kuat adalah…"
+    },
+    "opts": [
+     {
+      "en": "The full story from the beginning, as always",
+      "id": "Cerita penuh dari awal, seperti biasa"
+     },
+     {
+      "en": "The persuasion part first — the chair, the conversion data, the cheaper package — then the rest as context",
+      "id": "Bagian persuasinya dulu — ketua, data konversi, paket lebih murah — lalu sisanya sebagai konteks"
+     },
+     {
+      "en": "A different story — one story cannot answer two questions",
+      "id": "Cerita berbeda — satu cerita tidak bisa menjawab dua pertanyaan"
+     },
+     {
+      "en": "The result first, to impress",
+      "id": "Hasilnya dulu, agar mengesankan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Lead with the angle asked; the same facts, a different first sentence.",
+     "id": "Buka dengan sudut yang ditanyakan; fakta yang sama, kalimat pertama berbeda."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.4",
+    "q": {
+     "en": "The three lengths of a prepared story are…",
+     "id": "Tiga panjang cerita yang disiapkan adalah…"
+    },
+    "opts": [
+     {
+      "en": "30 s, 5 min, 15 min",
+      "id": "30 dtk, 5 mnt, 15 mnt"
+     },
+     {
+      "en": "A 20-second headline, a 60–90-second standard answer, a 3-minute deep version for probing",
+      "id": "Headline 20 detik, jawaban standar 60–90 detik, versi dalam 3 menit untuk galian"
+     },
+     {
+      "en": "Short, medium, long — decided on the day",
+      "id": "Pendek, sedang, panjang — diputuskan saat itu"
+     },
+     {
+      "en": "One length; interviewers stop you if needed",
+      "id": "Satu panjang; pewawancara menghentikanmu jika perlu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The headline answers a one-way video or a quick “contohnya?”; the full answer is the default; the deep version is what the probes unpack.",
+     "id": "Headline menjawab video satu arah atau “contohnya?” singkat; jawaban penuh adalah bawaan; versi dalam adalah yang dibongkar galian."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Take your strongest CV line and write its full STAR-L: two lines of context, the challenge, your specific actions with at least one number, the verified result, and what permanently changed in how you work.",
-    "id": "Ambil baris CV terkuatmu dan tulis STAR-L lengkapnya: dua baris konteks, tantangannya, tindakan spesifikmu dengan minimal satu angka, hasil yang bisa diverifikasi, dan apa yang berubah secara permanen dalam caramu bekerja."
+    "en": "At least 100 words. Which of your Core 10 stories are you least confident defending under probing — and which probe family (ownership, reasoning, detail, difficulty, counterfactual, transfer) would expose it? Name the fact you need to recover to answer that probe, where you will recover it from (a message thread, a report, a person), and what you will write as “approx.” if you cannot.",
+    "id": "Minimal 100 kata. Cerita Core 10 mana yang paling tidak yakin kamu pertahankan saat digali — dan keluarga galian mana (kepemilikan, alasan, detail, kesulitan, kontrafaktual, transfer) yang akan membongkarnya? Sebutkan fakta yang perlu kamu pulihkan untuk menjawab galian itu, dari mana kamu memulihkannya (utas pesan, laporan, seseorang), dan apa yang akan kamu tulis sebagai “kira-kira” jika tidak bisa."
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "Name the story by its Kit title and the slot it fills.",
+     "id": "Sebutkan cerita dengan judul Perangkat dan slot yang diisinya."
+    },
+    {
+     "en": "Name the family, not just “they might ask details”.",
+     "id": "Sebutkan keluarganya, bukan hanya “mereka mungkin bertanya detail”."
+    },
+    {
+     "en": "The recovery should be an action you can take this week.",
+     "id": "Pemulihan harus tindakan yang bisa kamu lakukan minggu ini."
+    }
+   ],
+   "min": 100
   }
  },
  "3": {
