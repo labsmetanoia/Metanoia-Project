@@ -153,7 +153,8 @@
       });
     });
     /* progress ring card */
-    var modsDone = REG.modules.filter(function (m) { return m.lessons.every(function (l) { return p[l.n]; }); }).length;
+    var coreMods = REG.modules.filter(function (m) { return !m.appendix; });   /* 'also available' appendix modules stay out of the count */
+    var modsDone = coreMods.filter(function (m) { return m.lessons.every(function (l) { return p[l.n]; }); }).length;
     var pct = Math.round(doneCount() / FLAT.length * 100);
     var card = el('div', 'lr-prog');
     var C = 2 * Math.PI * 21;
@@ -168,7 +169,7 @@
       '</svg>';
     var pt = el('div', 'lr-prog-t');
     pt.appendChild(bi('b', null, { en: 'Your progress', id: 'Kemajuanmu' }));
-    pt.appendChild(bi('span', null, { en: modsDone + ' of ' + REG.modules.length + ' modules completed', id: modsDone + ' dari ' + REG.modules.length + ' modul selesai' }));
+    pt.appendChild(bi('span', null, { en: modsDone + ' of ' + coreMods.length + ' modules completed', id: modsDone + ' dari ' + coreMods.length + ' modul selesai' }));
     card.appendChild(pt);
     railEl.appendChild(card);
   }
@@ -970,6 +971,19 @@
     return wrap;
   }
 
+  /* readFirst: {kicker, title, intro, slides:[{h, points:[]}]} — a short text
+     deck shown before the lesson body, using the slide-deck component */
+  function renderReadFirst(l, host) {
+    var rf = l.readFirst;
+    if (!rf || !rf.slides || !rf.slides.length) return;
+    var box = el('div', 'lms-panel lms-readfirst');
+    box.appendChild(bi('span', 'lms-kicker', rf.kicker || { en: 'Read first · ' + rf.slides.length + ' slides', id: 'Baca dulu · ' + rf.slides.length + ' slide' }));
+    if (rf.title) box.appendChild(bi('h3', null, rf.title));
+    if (rf.intro) box.appendChild(bi('p', 'lms-rf-intro', rf.intro));
+    renderDeck({ slides: rf.slides }, box);
+    host.appendChild(box);
+  }
+
   function renderSections(l, host) {
     (l.sections || []).forEach(function (s, i) {
       var acc = el('div', 'lms-acc' + (i === 0 ? ' open' : ''));
@@ -988,6 +1002,21 @@
         body.appendChild(sim);
       }
       body.appendChild(bi('p', null, glossify(s.body, l.glossary)));
+      /* optional structured extras after the paragraph: a table
+         {cols:[{en,id}], rows:[[{en,id}...]]}, a bullet list, a quoted
+         block {text, who} and further paragraphs (`after`) */
+      if (s.table && s.table.rows) {
+        var tw = el('div', 'lms-tblw'), tb = el('table', 'lms-tbl');
+        if (s.table.cols) { var th = el('thead'), tr0 = el('tr'); s.table.cols.forEach(function (c) { tr0.appendChild(bi('th', null, c)); }); th.appendChild(tr0); tb.appendChild(th); }
+        var tbody = el('tbody');
+        s.table.rows.forEach(function (r) { var tr = el('tr'); r.forEach(function (c, ci) { tr.appendChild(bi(ci === 0 && s.table.rowHead ? 'th' : 'td', null, c)); }); tbody.appendChild(tr); });
+        tb.appendChild(tbody); tw.appendChild(tb);
+        if (s.table.caption) tw.appendChild(bi('p', 'lms-tbl-cap', s.table.caption));
+        body.appendChild(tw);
+      }
+      if (s.bullets && s.bullets.length) { var bl = el('ul', 'lms-sec-list'); s.bullets.forEach(function (b) { bl.appendChild(bi('li', null, glossify(b, l.glossary))); }); body.appendChild(bl); }
+      if (s.quote) { var bq = el('blockquote', 'lms-sec-quote'); bq.appendChild(bi('p', null, s.quote.text)); if (s.quote.who) bq.appendChild(bi('cite', null, s.quote.who)); body.appendChild(bq); }
+      (s.after || []).forEach(function (p) { body.appendChild(bi('p', null, glossify(p, l.glossary))); });
       btn.addEventListener('click', function () { acc.classList.toggle('open'); });
       acc.appendChild(btn); acc.appendChild(body);
       host.appendChild(acc);
@@ -1207,11 +1236,27 @@
   /* diagram: {type:'flow'|'quad'|'ring'|'timeline'|'ladder', title, items:[{h,sub}], note} */
   function renderDiagram(l, host) {
     var d = l.diagram;
-    if (!d || !d.items || !d.items.length) return;
+    if (!d || !((d.items && d.items.length) || (d.type === 'pair' && d.cols))) return;
     var box = el('div', 'lms-diagram t-' + (d.type || 'flow'));
     if (d.exhibit) box.appendChild(bi('p', 'ld-exhibit', d.exhibit));
     if (d.title) box.appendChild(bi('h3', 'ld-title', d.title));
     var stage = el('div', 'ld-stage');
+    if (d.type === 'pair' && d.cols) {
+      /* side-by-side ordered lists: {cols:[{h, sub, items:[{en,id}]}]} */
+      d.cols.forEach(function (c) {
+        var col = el('div', 'ld-col');
+        col.appendChild(bi('b', 'ld-col-h', c.h));
+        if (c.sub) col.appendChild(bi('span', 'ld-sub', c.sub));
+        var ol = el('ol');
+        (c.items || []).forEach(function (it) { ol.appendChild(bi('li', null, it)); });
+        col.appendChild(ol); stage.appendChild(col);
+      });
+      box.appendChild(stage);
+      if (d.note) box.appendChild(bi('p', 'ld-note', d.note));
+      if (d.longdesc) longDesc(box, d);
+      host.appendChild(box);
+      return;
+    }
     d.items.forEach(function (it, i) {
       if ((d.type === 'flow' || !d.type) && i > 0) stage.appendChild(el('span', 'ld-arrow', '→'));
       var node = el('div', 'ld-node');
@@ -1236,7 +1281,11 @@
     });
     box.appendChild(stage);
     if (d.note) box.appendChild(bi('p', 'ld-note', d.note));
-    if (d.longdesc) {
+    if (d.longdesc) longDesc(box, d);
+    host.appendChild(box);
+  }
+  function longDesc(box, d) {
+    {
       var acc = el('div', 'ld-long');
       var btn = bi('button', 'ld-long-btn', { en: 'Long description', id: 'Deskripsi panjang' });
       btn.innerHTML += ' <span aria-hidden="true">▾</span>';
@@ -1250,7 +1299,6 @@
       acc.appendChild(btn); acc.appendChild(bodyEl);
       box.appendChild(acc);
     }
-    host.appendChild(box);
   }
 
   /* compare: [{tag,q,weak,strong,why}] — weak vs strong sample answers */
@@ -2014,6 +2062,7 @@
   function renderCase(l, host) {
     var cs = l.caseStudy;
     if (!cs || !cs.steps) return;
+    if (cs.format === 'generic') return renderCaseGeneric(l, host);   /* registry-driven written case (The Pack) */
     var T = function (pair) { return pair ? (pair[lang()] || pair.en) : ''; };
     var D = caseRead(l); D.a = D.a || {}; var A = D.a;
     var locked = !!D.submitted;
@@ -2475,6 +2524,332 @@
     host.appendChild(box);
   }
 
+  /* ── Generic case assignment (`caseStudy{format:'generic'}`): the same
+     brief → steps → review & submit shell as the Hustleton case, driven
+     entirely by the registry. Each step carries `questions`, each question
+     a written answer with a word floor, optional help, example and a list
+     of `keywords` (each entry a string or an array of synonyms, EN and ID)
+     that the rule-based check looks for. `docs` in the brief render as
+     read-only documents (a job ad, a CV, a portal page); `bars` as a
+     horizontal bar chart; `model` is revealed only after submission.
+     Storage: 'mt-lms-case:<slug>:<lesson>' = { a:{qid:text}, step,
+     submitted:{at,id} } — on this device only. ── */
+  function caseGenericReview(cs, A) {
+    var out = [];
+    function hit(t, kw) { t = (t || '').toLowerCase(); var list = Array.isArray(kw) ? kw : [kw]; return list.some(function (w) { return t.indexOf(String(w).toLowerCase()) !== -1; }); }
+    cs.steps.forEach(function (s) {
+      (s.questions || []).forEach(function (q) {
+        var v = A[q.id] || '', n = words(v), min = q.min || 30;
+        var okLen = n >= min;
+        out.push({ q: q.id, ok: okLen, text: okLen ? { en: 'Q' + q.id.replace(/^q/, '') + ' has enough substance (' + n + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' cukup berisi (' + n + ' kata).' } : { en: 'Q' + q.id.replace(/^q/, '') + ' is short (' + n + ' of ' + min + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' masih pendek (' + n + ' dari ' + min + ' kata).' } });
+        if (q.keywords && q.keywords.length && n >= 5) {
+          var found = q.keywords.filter(function (k) { return hit(v, k); }).length, tot = q.keywords.length;
+          var ok = found >= Math.ceil(tot * 0.6);
+          var miss = q.keywords.filter(function (k) { return !hit(v, k); }).map(function (k) { return Array.isArray(k) ? k[0] : k; });
+          out.push({ q: q.id, ok: ok, text: ok ? { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' ideas the model answer uses.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang dipakai jawaban model.' } : { en: 'Q' + q.id.replace(/^q/, '') + ' touches ' + found + ' of ' + tot + ' expected ideas — not yet mentioned: ' + miss.slice(0, 3).join(', ') + '.', id: 'Q' + q.id.replace(/^q/, '') + ' menyentuh ' + found + ' dari ' + tot + ' gagasan yang diharapkan — belum disebut: ' + miss.slice(0, 3).join(', ') + '.' } });
+        }
+      });
+    });
+    return out;
+  }
+
+  function renderCaseGeneric(l, host) {
+    var cs = l.caseStudy;
+    var T = function (pair) { return pair ? (pair[lang()] || pair.en) : ''; };
+    var D = caseRead(l); D.a = D.a || {}; var A = D.a;
+    var locked = !!D.submitted;
+    var saveT = 0, savedAt = el('span', 'cs-saved');
+    function persist(now) {
+      clearTimeout(saveT);
+      var run = function () { caseWrite(l, D); savedAt.textContent = lang() === 'id' ? 'Tersimpan di perangkat ini' : 'Saved on this device'; savedAt.classList.add('on'); };
+      if (now) run(); else saveT = setTimeout(run, 350);
+    }
+    var QS = []; cs.steps.forEach(function (s, si) { (s.questions || []).forEach(function (q) { QS.push({ q: q, step: si }); }); });
+    function qDone(q) { return words(A[q.id]) >= (q.min || 30); }
+    function stepDone(i) { return i < cs.steps.length ? (cs.steps[i].questions || []).every(qDone) : locked; }
+    function stepAllowed(i) { for (var k = 0; k < i && k < cs.steps.length; k++) if (!stepDone(k)) return false; return true; }
+    function answered() { return QS.filter(function (x) { return qDone(x.q); }).length; }
+    function qLabel(q) { return 'Q' + String(q.id).replace(/^q/, ''); }
+
+    var box = el('section', 'lms-case cs-generic' + (locked ? ' locked' : ''));
+    box.id = 'lmsCase';
+    var hd = el('div', 'cs-head');
+    hd.appendChild(bi('span', 'lms-kicker', cs.kicker));
+    hd.appendChild(bi('h3', 'cs-title', cs.title));
+    hd.appendChild(bi('p', 'cs-lead', cs.lead));
+    if (cs.practice) {
+      var pr = el('div', 'cs-practice');
+      cs.practice.forEach(function (p, i) { var c = el('div', 'cs-pr'); c.appendChild(el('b', null, String(i + 1))); c.appendChild(bi('span', null, p)); pr.appendChild(c); });
+      hd.appendChild(pr);
+    }
+    if (cs.goal) { var g = el('div', 'cs-goal'); g.appendChild(el('span', 'cs-goal-ic', CASE_ICO.target)); var gt = el('div'); gt.appendChild(bi('b', null, { en: 'Goal', id: 'Tujuan' })); gt.appendChild(bi('p', null, cs.goal)); g.appendChild(gt); hd.appendChild(g); }
+    box.appendChild(hd);
+
+    /* brief tabs */
+    var B = cs.brief || {};
+    var brief = el('div', 'cs-brief');
+    var tabs = el('div', 'cs-tabs'); tabs.setAttribute('role', 'tablist');
+    var panes = el('div', 'cs-panes');
+    var TABS = [];
+    if (B.email) TABS.push({ label: B.emailLabel || { en: 'The brief', id: 'Arahan' }, build: buildEmail });
+    if (B.facts) TABS.push({ label: B.factsLabel || { en: 'The facts', id: 'Fakta' }, build: buildFacts });
+    if (B.bars) TABS.push({ label: B.bars.tab || { en: 'The data', id: 'Datanya' }, build: buildBars });
+    (B.docs || []).forEach(function (d) { TABS.push({ label: d.tab, build: function (pane) { buildDoc(pane, d); } }); });
+    TABS.forEach(function (t, i) {
+      var b = bi('button', 'cs-tab' + (i === 0 ? ' on' : ''), t.label); b.type = 'button'; b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+      var pane = el('div', 'cs-pane' + (i === 0 ? ' on' : '')); pane.setAttribute('role', 'tabpanel'); t.build(pane);
+      b.addEventListener('click', function () {
+        tabs.querySelectorAll('.cs-tab').forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-selected', 'false'); });
+        panes.querySelectorAll('.cs-pane').forEach(function (x) { x.classList.remove('on'); });
+        b.classList.add('on'); b.setAttribute('aria-selected', 'true'); pane.classList.add('on');
+      });
+      tabs.appendChild(b); panes.appendChild(pane);
+    });
+    brief.appendChild(tabs); brief.appendChild(panes);
+    box.appendChild(brief);
+
+    function buildEmail(pane) {
+      var E = B.email;
+      if (B.quote) { var q = el('blockquote', 'cs-quote'); q.appendChild(el('span', 'cs-qmark', '“')); var qi = el('div'); qi.appendChild(bi('p', null, B.quote.text)); qi.appendChild(bi('cite', null, B.quote.who)); q.appendChild(qi); pane.appendChild(q); }
+      var m = el('div', 'cs-mail');
+      var mh = el('div', 'cs-mail-h');
+      mh.appendChild(el('span', 'cs-avatar', esc(E.initials || 'NP')));
+      var who = el('div', 'cs-mail-who'); who.appendChild(bi('b', null, E.from)); who.appendChild(bi('span', null, E.to)); mh.appendChild(who);
+      if (E.date) mh.appendChild(bi('span', 'cs-mail-date', E.date));
+      m.appendChild(mh);
+      if (E.subject) m.appendChild(bi('div', 'cs-mail-subj', E.subject));
+      var body = el('div', 'cs-mail-b');
+      (E.paragraphs || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      if (E.asks) { var ol = el('ol', 'cs-asks'); E.asks.forEach(function (p, i) { var li = el('li'); li.appendChild(el('b', 'cs-ask-n', String(i + 1))); li.appendChild(bi('span', null, p)); ol.appendChild(li); }); body.appendChild(ol); }
+      (E.closing || []).forEach(function (p) { body.appendChild(bi('p', null, p)); });
+      m.appendChild(body); pane.appendChild(m);
+    }
+    function buildFacts(pane) {
+      var g = el('div', 'cs-facts');
+      B.facts.forEach(function (f) { var c = el('div', 'cs-fact' + (f.hot ? ' hot' : '')); c.appendChild(el('span', 'cs-fact-ic', CASE_ICO[f.icon] || CASE_ICO.target)); var t = el('div'); t.appendChild(bi('b', null, f.k)); t.appendChild(bi('span', null, f.v)); c.appendChild(t); g.appendChild(c); });
+      pane.appendChild(g);
+      if (B.factsNote) { var fn = el('p', 'cs-note'); fn.appendChild(bi('span', null, B.factsNote)); pane.appendChild(fn); }
+      var task = el('div', 'cs-task'); task.appendChild(bi('h4', null, { en: 'Your task', id: 'Tugasmu' }));
+      var ol = el('ol'); cs.steps.forEach(function (s, i) { var li = el('li'); li.appendChild(el('b', null, String(i + 1))); li.appendChild(bi('span', null, s.title)); ol.appendChild(li); }); task.appendChild(ol); pane.appendChild(task);
+    }
+    function buildBars(pane) {
+      var C = B.bars, max = Math.max.apply(null, C.rows.map(function (r) { return +r.v || 0; })) || 1;
+      var wrap = el('div', 'cs-chart');
+      var hh = el('div', 'cs-chart-h'); hh.appendChild(bi('b', null, C.title)); if (C.unit) hh.appendChild(bi('span', null, C.unit)); wrap.appendChild(hh);
+      var list = el('div', 'cs-hbars');
+      C.rows.forEach(function (r, i) {
+        var row = el('div', 'cs-hbar' + (r.hot ? ' hot' : ''));
+        row.appendChild(bi('span', 'cs-hbar-l', r.label));
+        var track = el('div', 'cs-hbar-t'); var fill = el('i'); fill.style.width = '0%'; track.appendChild(fill); row.appendChild(track);
+        row.appendChild(el('b', 'cs-hbar-v', esc(r.text || String(r.v))));
+        list.appendChild(row);
+        setTimeout(function () { fill.style.width = Math.round((+r.v || 0) / max * 100) + '%'; }, 80 + i * 60);
+      });
+      wrap.appendChild(list);
+      if (C.total) { var tt = el('p', 'cs-hbar-total'); tt.appendChild(bi('span', null, C.total)); wrap.appendChild(tt); }
+      pane.appendChild(wrap);
+      if (C.takeaways) {
+        var tk = el('div', 'cs-tk'); tk.appendChild(bi('h4', null, { en: 'Key takeaways', id: 'Poin-poin penting' }));
+        C.takeaways.forEach(function (t) { var c = el('div', 'cs-tk-i'); c.appendChild(el('span', 'cs-tk-ic ' + (t.dir || ''), CASE_ICO[t.dir] || '')); var tx = el('div'); tx.appendChild(bi('b', null, t.h)); tx.appendChild(bi('p', null, t.p)); c.appendChild(tx); tk.appendChild(c); });
+        pane.appendChild(tk);
+      }
+      if (C.note) { var nt = el('p', 'cs-note'); nt.appendChild(bi('span', null, C.note)); pane.appendChild(nt); }
+    }
+    function buildDoc(pane, d) {
+      var doc = el('div', 'cs-doc');
+      if (d.title) doc.appendChild(bi('h4', null, d.title));
+      if (d.meta) doc.appendChild(bi('p', 'cs-doc-meta', d.meta));
+      (d.body || []).forEach(function (p) {
+        if (p && p.h) { doc.appendChild(bi('h5', null, p.h)); return; }
+        if (p && p.items) { var ul = el('ul'); p.items.forEach(function (it) { ul.appendChild(bi('li', null, it)); }); doc.appendChild(ul); return; }
+        doc.appendChild(bi('p', null, p));
+      });
+      pane.appendChild(doc);
+      if (d.note) { var nt = el('p', 'cs-note'); nt.appendChild(bi('span', null, d.note)); pane.appendChild(nt); }
+    }
+
+    /* stepper */
+    var SB = cs.submit || {};
+    var STEPS = cs.steps.map(function (s) { return { title: s.title, short: s.short }; }).concat([{ title: SB.title || { en: 'Review & submit', id: 'Tinjau & kumpulkan' }, short: SB.short || { en: 'Submit', id: 'Kumpulkan' } }]);
+    var NS = cs.steps.length;
+    var cur = Math.max(0, Math.min(STEPS.length - 1, locked ? STEPS.length - 1 : (D.step || 0)));
+    var stepper = el('ol', 'cs-steps'); stepper.setAttribute('aria-label', 'Case steps');
+    var prog = el('div', 'cs-prog'); var progBar = el('div', 'cs-prog-bar'); var progFill = el('i'); progBar.appendChild(progFill); var progTx = el('span', 'cs-prog-tx');
+    prog.appendChild(progBar); prog.appendChild(progTx); prog.appendChild(savedAt);
+    var body = el('div', 'cs-body');
+    box.appendChild(stepper); box.appendChild(prog); box.appendChild(body);
+    function drawStepper() {
+      stepper.innerHTML = '';
+      STEPS.forEach(function (s, i) {
+        var ok = i < NS ? stepDone(i) : locked;
+        var li = el('li', 'cs-step' + (i === cur ? ' on' : '') + (ok ? ' done' : '') + (stepAllowed(i) ? '' : ' locked'));
+        var b = el('button'); b.type = 'button'; b.disabled = !stepAllowed(i);
+        b.innerHTML = '<span class="cs-step-n">' + (ok ? CASE_ICO.check : (i + 1)) + '</span>';
+        b.appendChild(bi('span', 'cs-step-t', s.short || s.title));
+        b.addEventListener('click', function () { go(i); });
+        li.appendChild(b); stepper.appendChild(li);
+      });
+      var n = answered();
+      progFill.style.width = (n / QS.length * 100) + '%';
+      progTx.textContent = (lang() === 'id' ? n + ' dari ' + QS.length + ' pertanyaan terjawab' : n + ' of ' + QS.length + ' questions answered');
+    }
+    function go(i) {
+      if (!stepAllowed(i)) return;
+      cur = i; D.step = i; persist(true); drawStepper(); drawBody();
+      var top = box.querySelector('.cs-steps'); if (top) top.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    var syncers = [];
+    function syncAll() { syncers.forEach(function (fn) { fn(); }); drawStepper(); }
+    function qhead(label, title, help, okFn) {
+      var h = el('div', 'cs-qh');
+      var tag = el('span', 'cs-qtag', label);
+      var t = el('div'); t.appendChild(bi('h4', null, title)); if (help) t.appendChild(bi('p', 'cs-qhelp', help));
+      var st = el('span', 'cs-qstate');
+      h.appendChild(tag); h.appendChild(t); h.appendChild(st);
+      h._sync = function () { var ok = okFn(); st.className = 'cs-qstate' + (ok ? ' ok' : ''); st.innerHTML = ok ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; };
+      h._sync();
+      return h;
+    }
+    function nav(i) {
+      var f = el('div', 'cs-nav');
+      if (i > 0) { var back = bi('button', 'lms-nav-btn', { en: '← Previous step', id: '← Langkah sebelumnya' }); back.type = 'button'; back.addEventListener('click', function () { go(i - 1); }); f.appendChild(back); }
+      var msg = el('span', 'cs-nav-msg');
+      var next = bi('button', 'lms-complete cs-next', i < NS - 1 ? { en: 'Next step →', id: 'Langkah berikutnya →' } : { en: 'Review & submit →', id: 'Tinjau & kumpulkan →' }); next.type = 'button';
+      next.addEventListener('click', function () {
+        if (!stepDone(i)) { msg.textContent = lang() === 'id' ? 'Lengkapi setiap pertanyaan di langkah ini dulu.' : 'Complete every question in this step first.'; msg.classList.add('warn'); var open = body.querySelector('.cs-qstate:not(.ok)'); if (open) open.closest('.cs-q').scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+        go(i + 1);
+      });
+      f.appendChild(msg); f.appendChild(next);
+      f._sync = function () { next.classList.toggle('ready', stepDone(i)); if (stepDone(i)) { msg.textContent = ''; msg.classList.remove('warn'); } };
+      f._sync();
+      return f;
+    }
+    function drawStep(h, si) {
+      var S = cs.steps[si];
+      if (S.guide) { var gd = el('div', 'cs-guide'); gd.appendChild(el('span', 'cs-guide-ic', CASE_ICO.flag)); gd.appendChild(bi('p', null, S.guide)); h.appendChild(gd); }
+      (S.questions || []).forEach(function (q) {
+        var box2 = el('div', 'cs-q');
+        var qh = qhead(qLabel(q), q.title, q.help, function () { return qDone(q); }); box2.appendChild(qh); syncers.push(qh._sync);
+        if (q.ask) box2.appendChild(bi('p', 'cs-ask', q.ask));
+        if (q.prompts) { var pl = el('ul', 'cs-prompts'); q.prompts.forEach(function (p) { pl.appendChild(bi('li', null, p)); }); box2.appendChild(pl); }
+        var f = el('div', 'cs-field');
+        if (q.label) f.appendChild(bi('label', 'cs-lab', q.label));
+        var ta = el('textarea', 'cs-ta'); ta.rows = q.rows || 5; ta.value = A[q.id] || ''; ta.placeholder = T(q.placeholder) || ''; ta.disabled = locked; ta.setAttribute('aria-label', qLabel(q));
+        if (q.lang) ta.lang = q.lang;
+        var wc = el('div', 'cs-wc');
+        wc._sync = function () { var n = words(A[q.id]), m = q.min || 30; wc.textContent = (lang() === 'id' ? n + ' kata' : n + ' words') + (n < m ? ' · ' + (lang() === 'id' ? 'minimal ' + m : 'at least ' + m) : ''); wc.classList.toggle('ok', n >= m); };
+        ta.addEventListener('input', function () { A[q.id] = ta.value; wc._sync(); persist(); syncAll(); });
+        f.appendChild(ta); f.appendChild(wc); wc._sync();
+        box2.appendChild(f);
+        if (q.keywords && q.keywords.length) {
+          var sig = el('div', 'cs-signals');
+          sig._sync = function () { var r = caseGenericReview(cs, A).filter(function (x) { return x.q === q.id; }); sig.innerHTML = '<b>' + (lang() === 'id' ? 'Sinyal dari jawabanmu (berbasis aturan)' : 'Signals from your answer (rule-based)') + '</b>' + r.map(function (x) { return '<span class="' + (x.ok ? 'ok' : 'warn') + '">' + esc(T(x.text)) + '</span>'; }).join(''); };
+          sig._sync(); syncers.push(sig._sync); box2.appendChild(sig);
+        }
+        if (q.example) { var ex = el('details', 'cs-example'); ex.appendChild(bi('summary', null, q.example.label || { en: 'See an example from a different case', id: 'Lihat contoh dari kasus lain' })); ex.appendChild(bi('p', null, q.example.text)); box2.appendChild(ex); }
+        h.appendChild(box2);
+      });
+      h.appendChild(nav(si)); syncers.push(h.lastChild._sync);
+    }
+    function summaryText() {
+      var L = lang() === 'id';
+      var lines = [T(cs.title) + ' — ' + (L ? 'Tugas kasus' : 'Case assignment') + ' ' + l.n, ''];
+      cs.steps.forEach(function (s, si) { lines.push((si + 1) + '. ' + T(s.title)); (s.questions || []).forEach(function (q) { lines.push(qLabel(q) + ' ' + T(q.title)); lines.push((A[q.id] || '—').trim()); lines.push(''); }); });
+      if (D.submitted) lines.push((L ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + D.submitted.id);
+      return lines.join('\n');
+    }
+    function drawSubmit(h) {
+      if (locked) {
+        var ok = el('div', 'cs-done');
+        ok.appendChild(el('span', 'cs-done-ic', CASE_ICO.check));
+        var t = el('div'); t.appendChild(bi('h4', null, SB.doneTitle || { en: 'Submitted', id: 'Terkumpul' })); t.appendChild(bi('p', null, SB.doneBody || { en: 'Your answers are locked on this device. Read the model notes below and compare them with what you wrote.', id: 'Jawabanmu terkunci di perangkat ini. Baca catatan model di bawah dan bandingkan dengan tulisanmu.' }));
+        t.appendChild(el('p', 'cs-done-meta', (lang() === 'id' ? 'Dikumpulkan ' : 'Submitted ') + new Date(D.submitted.at).toLocaleString() + ' · ' + esc(D.submitted.id)));
+        ok.appendChild(t); h.appendChild(ok);
+      } else h.appendChild(bi('p', 'cs-lead', SB.lead || { en: 'Read every answer once more. Submitting locks them on this device and reveals the model notes.', id: 'Baca setiap jawaban sekali lagi. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model.' }));
+      var rev = el('div', 'cs-review');
+      QS.forEach(function (x) {
+        var q = x.q, okv = qDone(q);
+        var r = el('div', 'cs-rv' + (okv ? ' ok' : ''));
+        var hh = el('div', 'cs-rv-h'); hh.appendChild(el('span', 'cs-qtag', qLabel(q))); hh.appendChild(bi('b', null, q.title));
+        var st = el('span', 'cs-qstate' + (okv ? ' ok' : '')); st.innerHTML = okv ? CASE_ICO.check + '<span>' + (lang() === 'id' ? 'Lengkap' : 'Complete') + '</span>' : '<span>' + (lang() === 'id' ? 'Belum' : 'Open') + '</span>'; hh.appendChild(st);
+        if (!locked) { var ed = bi('button', 'cs-edit', { en: 'Edit', id: 'Edit' }); ed.type = 'button'; ed.addEventListener('click', function () { go(x.step); }); hh.appendChild(ed); }
+        r.appendChild(hh); r.appendChild(el('div', 'cs-rv-b', '<p>' + esc(A[q.id] || '—').replace(/\n/g, '<br>') + '</p>')); rev.appendChild(r);
+      });
+      h.appendChild(rev);
+      /* rule-based signals */
+      var fc = el('div', 'cs-fcheck');
+      fc.appendChild(bi('h4', null, { en: 'Signals · rule-based, not a grade', id: 'Sinyal · berbasis aturan, bukan nilai' }));
+      var res = caseGenericReview(cs, A);
+      var cols = el('div', 'cs-fc-grid');
+      cs.steps.forEach(function (s) {
+        var c = el('div', 'cs-fc'); c.appendChild(bi('b', null, s.short || s.title)); var ul = el('ul');
+        var ids = (s.questions || []).map(function (q) { return q.id; });
+        res.filter(function (x) { return ids.indexOf(x.q) !== -1; }).forEach(function (x) { var li = el('li', x.ok ? 'ok' : 'warn'); li.innerHTML = '<i>' + (x.ok ? CASE_ICO.check : '!') + '</i><span>' + esc(T(x.text)) + '</span>'; ul.appendChild(li); });
+        c.appendChild(ul); cols.appendChild(c);
+      });
+      fc.appendChild(cols); h.appendChild(fc);
+      /* rubric */
+      if (cs.rubric && cs.rubric.length) {
+        var rb = el('div', 'cs-rubric');
+        rb.appendChild(bi('h4', null, cs.rubricTitle || { en: 'Rubric · for your own review, or a mentor’s', id: 'Rubrik · untuk tinjauanmu sendiri, atau mentor' }));
+        var tbl = el('table'); var tb = el('tbody');
+        cs.rubric.forEach(function (r) { var tr = el('tr'); tr.appendChild(bi('td', null, r.h)); tr.appendChild(el('td', 'cs-rubric-w', esc(r.w))); tb.appendChild(tr); });
+        tbl.appendChild(tb); rb.appendChild(tbl); h.appendChild(rb);
+      }
+      /* model notes, only after submission */
+      if (locked && cs.model) {
+        var md = el('div', 'cs-model');
+        md.appendChild(bi('span', 'lms-kicker', { en: 'Model notes · revealed after submission', id: 'Catatan model · dibuka setelah pengumpulan' }));
+        md.appendChild(bi('h4', null, cs.model.title || { en: 'How a career coach might have answered', id: 'Bagaimana seorang pembimbing karier mungkin menjawab' }));
+        (cs.model.body || []).forEach(function (p) { if (p && p.h) md.appendChild(bi('h5', null, p.h)); else md.appendChild(bi('p', null, p)); });
+        if (cs.model.after) md.appendChild(bi('p', 'cs-model-after', cs.model.after));
+        h.appendChild(md);
+      } else if (cs.model) {
+        var lk = el('p', 'cs-local'); lk.appendChild(el('span', null, CASE_ICO.lock)); lk.appendChild(bi('span', null, { en: 'The model notes open once you submit — attempt first, then compare.', id: 'Catatan model terbuka setelah kamu mengumpulkan — coba dulu, lalu bandingkan.' })); h.appendChild(lk);
+      }
+      var act = el('div', 'cs-submit');
+      if (!locked) {
+        var all = QS.every(function (x) { return qDone(x.q); });
+        var msg = el('p', 'cs-submit-msg' + (all ? ' ok' : '')); msg.innerHTML = all ? (lang() === 'id' ? 'Semua ' + QS.length + ' pertanyaan lengkap. Tinjau sekali lagi, lalu kumpulkan.' : 'All ' + QS.length + ' questions complete. Read it once more, then submit.') : (lang() === 'id' ? answered() + ' dari ' + QS.length + ' lengkap — buka pertanyaan yang masih terbuka lewat tombol Edit.' : answered() + ' of ' + QS.length + ' complete — open the questions still marked Open with Edit.');
+        act.appendChild(msg);
+        var sb = bi('button', 'lms-complete cs-submit-b', SB.button || { en: 'Submit the case', id: 'Kumpulkan kasus' }); sb.type = 'button'; sb.disabled = !all;
+        var conf = el('div', 'cs-confirm'); conf.hidden = true;
+        conf.appendChild(bi('b', null, SB.confirmTitle || { en: 'Submit and lock your answers?', id: 'Kumpulkan dan kunci jawabanmu?' })); conf.appendChild(bi('p', null, SB.confirmBody || { en: 'After submitting you can still read and copy your answers, but not edit them. The model notes open.', id: 'Setelah mengumpulkan kamu masih bisa membaca dan menyalin jawabanmu, tetapi tidak mengeditnya. Catatan model terbuka.' }));
+        var cy = bi('button', 'lms-complete', SB.confirmYes || { en: 'Yes, submit', id: 'Ya, kumpulkan' }); cy.type = 'button'; var cn = bi('button', 'lms-nav-btn', SB.confirmNo || { en: 'Not yet', id: 'Belum' }); cn.type = 'button';
+        var cb = el('div', 'cs-confirm-b'); cb.appendChild(cn); cb.appendChild(cy); conf.appendChild(cb);
+        sb.addEventListener('click', function () { conf.hidden = false; sb.hidden = true; conf.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
+        cn.addEventListener('click', function () { conf.hidden = true; sb.hidden = false; });
+        cy.addEventListener('click', function () {
+          D.submitted = { at: Date.now(), id: (cs.idPrefix || 'PK') + '-' + Date.now().toString(36).toUpperCase().slice(-6) };
+          D.step = NS; caseWrite(l, D); locked = true; box.classList.add('locked');
+          drawStepper(); drawBody(); refreshComplete();
+          var dn = box.querySelector('.cs-done'); if (dn) dn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+        act.appendChild(sb); act.appendChild(conf);
+      }
+      var row = el('div', 'cs-submit-row');
+      var cp = bi('button', 'lms-nav-btn', SB.copy || { en: 'Copy my answers', id: 'Salin jawabanku' }); cp.type = 'button'; var cpm = el('span', 'cs-nav-msg');
+      cp.addEventListener('click', function () { var t = summaryText(); var ok2 = function () { cpm.textContent = T(SB.copied || { en: 'Copied.', id: 'Tersalin.' }); }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok2, ok2); else ok2(); });
+      row.appendChild(cp); row.appendChild(cpm); act.appendChild(row);
+      act.appendChild(bi('p', 'cs-local', SB.local || { en: 'Everything you write here stays on this device. Nothing is uploaded.', id: 'Semua yang kamu tulis di sini tetap di perangkat ini. Tidak ada yang diunggah.' }));
+      var rs = el('details', 'cs-reset'); rs.appendChild(bi('summary', null, SB.reset || { en: 'Start this case again', id: 'Mulai ulang kasus ini' })); var rsb = el('div'); rsb.appendChild(bi('p', null, SB.resetConfirm || { en: 'This clears every answer and the submission on this device.', id: 'Ini menghapus semua jawaban dan pengumpulan di perangkat ini.' }));
+      var rby = bi('button', 'lms-nav-btn danger', { en: 'Yes, clear everything', id: 'Ya, hapus semuanya' }); rby.type = 'button';
+      rby.addEventListener('click', function () { try { localStorage.removeItem(caseKey(l)); } catch (e) {} var p2 = progress(); if (p2[l.n]) { delete p2[l.n]; saveProgress(p2); } openLesson(current); });
+      rsb.appendChild(rby); rs.appendChild(rsb); act.appendChild(rs);
+      h.appendChild(act);
+    }
+    function drawBody() {
+      syncers = []; body.innerHTML = '';
+      var pane = el('div', 'cs-pane-s');
+      var hd2 = el('div', 'cs-step-h'); hd2.appendChild(el('span', 'cs-step-k', (lang() === 'id' ? 'Langkah ' : 'Step ') + (cur + 1) + ' / ' + STEPS.length)); hd2.appendChild(bi('h3', null, STEPS[cur].title)); pane.appendChild(hd2);
+      if (cur < NS) drawStep(pane, cur); else drawSubmit(pane);
+      body.appendChild(pane);
+      if (locked) body.querySelectorAll('textarea').forEach(function (n) { n.disabled = true; });
+    }
+    drawStepper(); drawBody();
+    host.appendChild(box);
+  }
+
   function renderInsights(l, host) {
     var ins = l.insights;
     if (!ins || !ins.items || !ins.items.length) return;
@@ -2756,6 +3131,7 @@
       var n = ypm && decks.length ? Math.min(decks.length, ypm[1] ? +ypm[1] : decks.length) : 0;
       if (n) (filmsAfter[n] = filmsAfter[n] || []).push(y); else filmsLate.push(y);
     });
+    renderReadFirst(l, innerEl);   /* a text 'Read first' deck that frames the lesson (The Pack) */
     vidsLead.forEach(function (b) { renderIntroVideos(l, innerEl, b.legacy ? {} : { block: b }); });
     decks.forEach(function (m, k) {
       renderMaterial(l, innerEl, m, k);
@@ -2778,6 +3154,7 @@
     if (l.kind === 'reading' || l.kind === 'interactive') renderSections(l, innerEl);
     if (l.forage && l.forage.directory) renderForage(l, innerEl);   /* the directory lesson leads with the catalogue */
     if (l.kind === 'interactive') { if (l.simlog && l.simlog.early) renderSimLog(l, innerEl); renderSteps(l, innerEl); }
+    if (l.kind === 'reading' && l.steps) renderSteps(l, innerEl);   /* drills after the reading sections */
     if (l.kind === 'slides' && l.slides) renderDeck(l, innerEl);   /* a slides lesson may instead carry `material` (designed deck) */
     if (l.kind === 'visual') renderVisual(l, innerEl);
     if (lateSections) { renderDiagram(l, innerEl); renderSections(l, innerEl); }
@@ -2959,11 +3336,12 @@
     if (bar) bar.style.setProperty('--p', pct + '%');
     var spv = document.querySelector('.sb-progress .spv');
     if (spv) spv.textContent = pct + '%';
-    var modsDone = REG.modules.filter(function (m) { return m.lessons.every(function (l) { return p[l.n]; }); }).length;
+    var coreMods = REG.modules.filter(function (m) { return !m.appendix; });   /* 'also available' appendix modules stay out of the count */
+    var modsDone = coreMods.filter(function (m) { return m.lessons.every(function (l) { return p[l.n]; }); }).length;
     var spm = document.querySelector('.sb-progress .spm');
     if (spm) {
-      spm.setAttribute('data-en', modsDone + ' of ' + REG.modules.length + ' modules complete');
-      spm.setAttribute('data-id', modsDone + ' dari ' + REG.modules.length + ' modul selesai');
+      spm.setAttribute('data-en', modsDone + ' of ' + coreMods.length + ' modules complete');
+      spm.setAttribute('data-id', modsDone + ' dari ' + coreMods.length + ' modul selesai');
       spm.textContent = spm.getAttribute(lang() === 'id' ? 'data-id' : 'data-en');
     }
     /* course hero progress */
