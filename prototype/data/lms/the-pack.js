@@ -24557,230 +24557,601 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "6.1",
-     "title": {
-      "en": "Cover Letter Strategy — Purpose, Structure, and Personalisation",
-      "id": "Strategi Surat Lamaran — Tujuan, Struktur, dan Personalisasi"
-     },
+     "kind": "reading",
+     "placeholder": false,
      "dur": {
       "en": "25 min",
       "id": "25 mnt"
      },
-     "kind": "reading",
-     "placeholder": false,
+     "title": {
+      "en": "What a Letter Is For",
+      "id": "Untuk Apa Surat Lamaran"
+     },
      "overview": {
-      "en": "Most cover letters are read for ten seconds, because most deserve ten seconds. The few that work do one job: they answer “why us, why you, why now” in under 250 words with evidence the CV already carries — arranged as an argument, not a plea.",
-      "id": "Kebanyakan surat lamaran hanya dibaca sepuluh detik, karena kebanyakan memang hanya layak dibaca sepuluh detik. Sedikit surat yang berhasil menjalankan satu tugas: menjawab “mengapa kami, mengapa kamu, mengapa sekarang” dalam kurang dari 250 kata, dengan bukti yang sudah ada di CV — disusun sebagai argumen, bukan permohonan."
+      "en": "“Does anyone read cover letters?” Sometimes not — and sometimes first. This lesson explains what the letter does that the CV cannot, why it must never simply repeat the CV, why the CV still matters more, and when the email itself is the letter.",
+      "id": "“Apakah ada yang membaca surat lamaran?” Kadang tidak — dan kadang yang pertama dibaca. Pelajaran ini menjelaskan apa yang dilakukan surat yang tidak bisa dilakukan CV, mengapa surat tidak boleh sekadar mengulang CV, mengapa CV tetap lebih penting, dan kapan email itu sendiri adalah suratnya."
      },
      "objectives": [
       {
-       "en": "Decide when a cover letter matters and when it is skipped.",
-       "id": "Memutuskan kapan surat lamaran penting, dan kapan sebaiknya dilewati."
+       "en": "Explain the letter’s three jobs.",
+       "id": "Menjelaskan tiga tugas surat lamaran."
       },
       {
-       "en": "Write the four-paragraph argument: hook, fit evidence, company knowledge, close.",
-       "id": "Menulis argumen empat paragraf: pembuka yang mengait, bukti kecocokan, pengetahuan tentang perusahaan, penutup."
+       "en": "Distinguish technical fit (CV) from motivation and cultural fit (letter).",
+       "id": "Membedakan kecocokan teknis (CV) dari motivasi dan kecocokan budaya (surat)."
       },
       {
-       "en": "Personalise at the only two points where personalisation is read.",
-       "id": "Mempersonalisasi surat hanya di dua titik yang benar-benar dibaca."
+       "en": "Know when the email is the letter.",
+       "id": "Mengetahui kapan email adalah suratnya."
       }
      ],
-     "takeawaysLead": {
-      "en": "A cover letter earns its ten seconds by saying what the CV cannot: why us, why you, why now. To write one that gets read, you can:",
-      "id": "Surat lamaran mendapatkan sepuluh detiknya dengan mengatakan apa yang tak bisa dikatakan CV: mengapa kami, mengapa kamu, mengapa sekarang. Untuk menulis surat yang benar-benar dibaca, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Three things a letter does",
+       "id": "Tiga hal yang dilakukan surat"
+      },
+      "intro": {
+       "en": "The CV proves you can do the job. The letter says why this one, what you bring, and why now — in your own voice.",
+       "id": "CV membuktikan kamu bisa mengerjakan pekerjaannya. Surat mengatakan mengapa yang ini, apa yang kamu bawa, dan mengapa sekarang — dengan suaramu sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read first, or not at all",
+         "id": "Dibaca pertama, atau tidak sama sekali"
+        },
+        "points": [
+         {
+          "en": "Some recruiters start shortlisting with the letter as a writing sample; some skip it; software often ignores it.",
+          "id": "Sebagian rekruter memulai seleksi dengan surat sebagai contoh tulisan; sebagian melewatinya; perangkat lunak sering mengabaikannya."
+         },
+         {
+          "en": "So: always write one, keep it short, never put anything essential only in the letter.",
+          "id": "Jadi: selalu tulis, buat singkat, jangan pernah taruh hal esensial hanya di surat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three jobs",
+         "id": "Tiga tugas"
+        },
+        "points": [
+         {
+          "en": "Why this role at this organisation? What do you bring, and how do they benefit? Why now?",
+          "id": "Mengapa peran ini di organisasi ini? Apa yang kamu bawa, dan bagaimana mereka diuntungkan? Mengapa sekarang?"
+         },
+         {
+          "en": "CV = technical fit. Letter = motivation and cultural fit — the human reasons behind the facts.",
+          "id": "CV = kecocokan teknis. Surat = motivasi dan kecocokan budaya — alasan manusiawi di balik fakta."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The CV still matters more",
+         "id": "CV tetap lebih penting"
+        },
+        "points": [
+         {
+          "en": "A tailored letter cannot rescue an untailored CV. Tailor the CV first; write the letter from the same angle.",
+          "id": "Surat yang disesuaikan tidak bisa menyelamatkan CV yang tidak disesuaikan. Sesuaikan CV dulu; tulis surat dari sudut yang sama."
+         },
+         {
+          "en": "For an email application, the email body is the letter. “CV terlampir, terima kasih” is a missed opportunity.",
+          "id": "Untuk lamaran email, badan email adalah suratnya. “CV terlampir, terima kasih” adalah peluang yang terlewat."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "A cover letter earns its read by saying something the CV cannot: the why and the fit narrative.",
-       "id": "Surat lamaran layak dibaca kalau ia mengatakan sesuatu yang tidak bisa dikatakan CV: alasanmu, dan cerita mengapa kamu cocok."
-      },
-      {
-       "en": "Generic letters are worse than none — “your esteemed company” signals mass production instantly.",
-       "id": "Surat yang generik lebih buruk daripada tidak ada surat sama sekali — “perusahaan yang terhormat” langsung menandakan produksi massal."
-      },
-      {
-       "en": "250 words, four paragraphs, zero adjectives about yourself that a stranger could not check.",
-       "id": "250 kata, empat paragraf, dan nol kata sifat tentang dirimu yang tidak bisa diperiksa orang asing."
-      }
-     ],
      "sections": [
       {
        "icon": "eye",
        "h": {
-        "en": "When it matters",
-        "id": "Kapan surat lamaran penting"
+        "en": "Read first, or not at all",
+        "id": "Dibaca pertama, atau tidak sama sekali"
        },
        "body": {
-        "en": "Skip it where the portal marks it optional and the role is high-volume technical screening — nobody reads it before the test. Write it where: the application goes to a named human (smaller firms, direct emails); the JD asks for one (an instruction-following test in itself); you are switching fields and the CV alone cannot explain the jump; or you have a genuine, specific reason for this company that gives you an edge. In those cases the letter is your only channel for narrative — the CV proves capability, the letter argues fit.",
-        "id": "Lewati kalau portalnya menandainya opsional dan perannya melewati penyaringan teknis bervolume tinggi — tidak ada yang membacanya sebelum tes. Tulis kalau: lamaranmu sampai ke manusia dengan nama jelas (perusahaan kecil, email langsung); deskripsi lowongan memintanya (ini sendiri sudah tes kepatuhan pada instruksi); kamu pindah bidang dan CV saja tidak bisa menjelaskan lompatannya; atau kamu punya alasan yang tulus dan spesifik untuk perusahaan ini yang memberimu keunggulan. Dalam kasus-kasus itu, surat adalah satu-satunya kanal untuk bercerita — CV membuktikan kemampuan, surat memperjuangkan kecocokan."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "The four-paragraph argument",
-        "id": "Argumen empat paragraf"
-       },
-       "body": {
-        "en": "<b>P1 — the hook (2 sentences):</b> the role, and your single strongest, most relevant proof — “I'm applying for the junior analyst role; last year I built the sales dashboard a 40-store retailer still uses for weekly decisions.” Never “I am writing to express my interest”, which expresses nothing. <b>P2 — fit evidence:</b> two requirements from the JD, each answered by one concrete result from your history. <b>P3 — why them (2 sentences):</b> one specific, checkable fact about the company that genuinely connects to you — a product you used, a report they published, a market they entered. <b>P4 — the close:</b> availability, one line of thanks, no begging. Under 250 words total; white space is confidence.",
-        "id": "<b>P1 — pembuka yang mengait (2 kalimat):</b> perannya, dan satu bukti terkuatmu yang paling relevan — “Saya melamar posisi analis junior; tahun lalu saya membangun dasbor penjualan yang sampai sekarang dipakai peritel dengan 40 toko untuk keputusan mingguan.” Jangan pernah membuka dengan “Melalui surat ini saya bermaksud menyampaikan minat”, yang tidak menyampaikan apa pun. <b>P2 — bukti kecocokan:</b> dua persyaratan dari deskripsi lowongan, masing-masing dijawab dengan satu hasil konkret dari riwayatmu. <b>P3 — mengapa mereka (2 kalimat):</b> satu fakta spesifik dan bisa diperiksa tentang perusahaan itu yang benar-benar berhubungan denganmu — produk yang kamu pakai, laporan yang mereka terbitkan, pasar yang baru mereka masuki. <b>P4 — penutup:</b> ketersediaanmu, satu baris terima kasih, tanpa memohon. Totalnya di bawah 250 kata; ruang kosong menunjukkan kepercayaan diri."
+        "en": "Recruiters vary, and the honest answer to “does anyone read it?” is: it depends who opens the file. In Bright &amp; Earl’s research, several recruiters <i>started</i> shortlisting with the letter, using its writing as a proxy for communication skill; one eliminated a candidate for a poor letter combined with CV errors <i>(Bright &amp; Earl, Brilliant CV, ch. 17)</i>. Innes reports that many recruiters rate the letter as important as the CV — yet candidates spend the least time on it <i>(Innes, The CV Book, ch. 20)</i>. Others skip it entirely, and scanning software often ignores it or strips it from the record <i>(Innes, ch. 6)</i>. Three conclusions follow, and they do not conflict: <b>always write one</b>, because the reader who starts with it decides your application on it; <b>keep it short</b>, because the reader who skips it loses nothing and the reader who reads it is grateful; and <b>never put anything essential only in the letter</b>, because the machine may never show it to anyone.",
+        "id": "Rekruter beragam, dan jawaban jujur untuk “apakah ada yang membacanya?” adalah: tergantung siapa yang membuka berkasnya. Dalam riset Bright &amp; Earl, beberapa rekruter <i>memulai</i> seleksi dengan surat, memakai tulisannya sebagai proksi keterampilan komunikasi; satu rekruter menggugurkan kandidat karena surat yang buruk digabung kesalahan CV <i>(Bright &amp; Earl, Brilliant CV, bab 17)</i>. Innes melaporkan bahwa banyak rekruter menilai surat sama pentingnya dengan CV — namun kandidat menghabiskan waktu paling sedikit untuknya <i>(Innes, The CV Book, bab 20)</i>. Yang lain melewatinya sama sekali, dan perangkat lunak pemindai sering mengabaikannya atau membuangnya dari rekaman <i>(Innes, bab 6)</i>. Tiga kesimpulan mengikuti, dan tidak saling bertentangan: <b>selalu tulis</b>, karena pembaca yang memulai dengannya memutuskan lamaranmu berdasarkan itu; <b>buat singkat</b>, karena pembaca yang melewatinya tidak kehilangan apa pun dan pembaca yang membacanya berterima kasih; dan <b>jangan pernah taruh hal esensial hanya di surat</b>, karena mesin mungkin tidak pernah menunjukkannya kepada siapa pun."
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "Personalisation that gets read",
-        "id": "Personalisasi yang benar-benar dibaca"
+        "en": "Three jobs",
+        "id": "Tiga tugas"
        },
        "body": {
-        "en": "Readers check exactly two personalisation points: the opening proof (is it about their role?) and paragraph three (is it about their company, or copy-pasted?). Personalising anything else is invisible effort. Efficient workflow: keep a four-paragraph skeleton; per application, swap the P1 proof to match the JD's top requirement and research one real P3 fact (five minutes on their news page or product). AI drafting tools can help with fluency here — Module 8 covers using them without producing the generic sludge recruiters now recognise on sight.",
-        "id": "Pembaca hanya memeriksa dua titik personalisasi: bukti di paragraf pembuka (apakah ini tentang peran mereka?) dan paragraf ketiga (apakah ini tentang perusahaan mereka, atau hasil salin-tempel?). Mempersonalisasi bagian lain adalah usaha yang tidak terlihat. Alur kerja yang efisien: simpan satu kerangka empat paragraf; untuk setiap lamaran, ganti bukti di P1 agar cocok dengan persyaratan utama lowongan, dan riset satu fakta nyata untuk P3 (lima menit di halaman berita atau produk mereka). Alat penyusun draf berbasis AI bisa membantu kelancaran bahasa di sini — Modul 8 membahas cara memakainya tanpa menghasilkan teks generik yang kini langsung dikenali perekrut dalam sekali lihat."
+        "en": "Simunovic gives three questions a letter must answer <i>(Simunovic, §7.2)</i>: (1) Why <i>this</i> role at <i>this</i> organisation? (2) What do you bring, and how do they benefit? (3) Why now? The CV answers a different question — “can you do the job?” — with facts, dates and numbers. Ow’s framing makes the division clean: the CV proves <b>technical fit</b>; the letter shows <b>motivation and cultural fit</b> — the human reasons behind the facts <i>(Ow, Tailor Your Call)</i>. A letter that restates the CV answers a question the reader has already had answered, in the wrong place; a letter that answers the three questions gives the reader something the CV structurally cannot hold.",
+        "id": "Simunovic memberi tiga pertanyaan yang harus dijawab surat <i>(Simunovic, §7.2)</i>: (1) Mengapa peran <i>ini</i> di organisasi <i>ini</i>? (2) Apa yang kamu bawa, dan bagaimana mereka diuntungkan? (3) Mengapa sekarang? CV menjawab pertanyaan berbeda — “bisakah kamu mengerjakan pekerjaannya?” — dengan fakta, tanggal, dan angka. Pembingkaian Ow membuat pembagiannya rapi: CV membuktikan <b>kecocokan teknis</b>; surat menunjukkan <b>motivasi dan kecocokan budaya</b> — alasan manusiawi di balik fakta <i>(Ow, Tailor Your Call)</i>. Surat yang mengulang CV menjawab pertanyaan yang sudah terjawab bagi pembaca, di tempat yang salah; surat yang menjawab tiga pertanyaan itu memberi pembaca sesuatu yang secara struktural tidak bisa dimuat CV."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Answered by",
+          "id": "Dijawab oleh"
+         },
+         {
+          "en": "With",
+          "id": "Dengan"
+         },
+         {
+          "en": "Nadia → KilatPay",
+          "id": "Nadia → KilatPay"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Can you do the job?",
+           "id": "Bisakah kamu mengerjakan pekerjaannya?"
+          },
+          {
+           "en": "CV",
+           "id": "CV"
+          },
+          {
+           "en": "Facts: titles, dates, numbers",
+           "id": "Fakta: jabatan, tanggal, angka"
+          },
+          {
+           "en": "Operations Intern · 3 branches · reconciliation checklist still in use",
+           "id": "Operations Intern · 3 cabang · daftar periksa rekonsiliasi masih dipakai"
+          }
+         ],
+         [
+          {
+           "en": "Why this role at this organisation?",
+           "id": "Mengapa peran ini di organisasi ini?"
+          },
+          {
+           "en": "Letter",
+           "id": "Surat"
+          },
+          {
+           "en": "A verified specific and a genuine connection",
+           "id": "Satu hal spesifik terverifikasi dan koneksi yang tulus"
+          },
+          {
+           "en": "The campus talk on onboarding time as the constraint; “processes that work, but not fast enough”",
+           "id": "Ceramah kampus tentang waktu onboarding sebagai kendala; “proses yang berjalan, tetapi tidak cukup cepat”"
+          }
+         ],
+         [
+          {
+           "en": "What do you bring, and how do they benefit?",
+           "id": "Apa yang kamu bawa, dan bagaimana mereka diuntungkan?"
+          },
+          {
+           "en": "Letter",
+           "id": "Surat"
+          },
+          {
+           "en": "One or two CV highlights expanded into a short story",
+           "id": "Satu atau dua sorotan CV diperluas menjadi cerita singkat"
+          },
+          {
+           "en": "The recurring terminal mismatch, traced and fixed: about thirty minutes of manual correction a day removed",
+           "id": "Selisih terminal berulang, ditelusuri dan diperbaiki: sekitar tiga puluh menit koreksi manual per hari dihilangkan"
+          }
+         ],
+         [
+          {
+           "en": "Why now?",
+           "id": "Mengapa sekarang?"
+          },
+          {
+           "en": "Letter",
+           "id": "Surat"
+          },
+          {
+           "en": "Availability and readiness",
+           "id": "Ketersediaan dan kesiapan"
+          },
+          {
+           "en": "Graduating; available from November; learning SQL; open to Jakarta",
+           "id": "Lulus; tersedia mulai November; belajar SQL; bersedia ke Jakarta"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The CV still matters more",
+        "id": "CV tetap lebih penting"
+       },
+       "body": {
+        "en": "A tailored letter cannot rescue an untailored CV. The CV gets more attention — it is read first by most recruiters, read again before the interview, and passed around the panel — and it drives the interview questions <i>(Bright &amp; Earl, ch. 14)</i>. The order of work therefore matters: <b>tailor the CV first</b> (Module 3.6’s twenty-minute pass), then write the letter from the same angle, so that the two documents make one argument. A letter written before the CV is tailored tends to argue for a slightly different candidate than the CV presents, and the reader notices the seam.",
+        "id": "Surat yang disesuaikan tidak bisa menyelamatkan CV yang tidak disesuaikan. CV mendapat lebih banyak perhatian — dibaca lebih dulu oleh kebanyakan rekruter, dibaca lagi sebelum wawancara, dan diedarkan ke panel — dan CV menggerakkan pertanyaan wawancara <i>(Bright &amp; Earl, bab 14)</i>. Karena itu urutan kerja penting: <b>sesuaikan CV dulu</b> (proses dua puluh menit Modul 3.6), lalu tulis surat dari sudut yang sama, sehingga kedua dokumen membuat satu argumen. Surat yang ditulis sebelum CV disesuaikan cenderung memperjuangkan kandidat yang sedikit berbeda dari yang disajikan CV, dan pembaca memperhatikan jahitannya."
+       }
+      },
+      {
+       "icon": "mail",
+       "h": {
+        "en": "When the email is the letter",
+        "id": "Ketika email adalah suratnya"
+       },
+       "body": {
+        "en": "For email applications, the body of the email is your cover letter. The recruiter opens the email before any attachment, and what they see decides whether the attachments get opened at all. “CV terlampir, terima kasih” — the most common application email in Indonesia — is a missed opportunity <i>(Simunovic, §7)</i>: it answers none of the three questions and gives the reader no reason to click. The short version of the four-paragraph letter (Lesson 6.2), at 120–200 words, goes in the body; the full letter can still be attached as a PDF where the advertisement asks for one. Lesson 6.4 gives the email its subject line, its file names and its signature.",
+        "id": "Untuk lamaran email, badan email adalah surat lamaranmu. Rekruter membuka email sebelum lampiran apa pun, dan apa yang mereka lihat menentukan apakah lampirannya dibuka sama sekali. “CV terlampir, terima kasih” — email lamaran paling umum di Indonesia — adalah peluang yang terlewat <i>(Simunovic, §7)</i>: tidak menjawab satu pun dari tiga pertanyaan dan tidak memberi pembaca alasan untuk mengklik. Versi singkat surat empat paragraf (Pelajaran 6.2), 120–200 kata, masuk ke badan email; surat lengkap masih bisa dilampirkan sebagai PDF bila iklan memintanya. Pelajaran 6.4 memberi email itu baris subjek, nama berkas, dan tanda tangannya."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Which letter, for which employer",
+        "id": "Surat mana, untuk perusahaan mana"
+       },
+       "body": {
+        "en": "Indonesian applicants need two formats the English-language books cover only one of. For multinationals, startups and any employer advertising in English: the four-paragraph letter (Lesson 6.2). For BUMN, government-linked organisations, banks and established local companies advertising in Bahasa Indonesia, or any portal that asks for a <i>surat lamaran</i>: the formal <i>surat lamaran kerja</i> (Lesson 6.3), whose components are conventional and whose content this module upgrades with evidence. Nadia’s Top 5 needs both — English for Arunika and KilatPay, Indonesian for PT Rel Nusantara and Bank Sinar Nusantara. The three jobs are the same in either format; only the register and the components change.",
+        "id": "Pelamar Indonesia membutuhkan dua format yang hanya satu di antaranya dibahas buku-buku berbahasa Inggris. Untuk multinasional, startup, dan perusahaan mana pun yang beriklan dalam bahasa Inggris: surat empat paragraf (Pelajaran 6.2). Untuk BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan yang beriklan dalam Bahasa Indonesia, atau portal mana pun yang meminta <i>surat lamaran</i>: <i>surat lamaran kerja</i> formal (Pelajaran 6.3), yang komponennya konvensional dan isinya ditingkatkan modul ini dengan bukti. Lima Teratas Nadia membutuhkan keduanya — Inggris untuk Arunika dan KilatPay, Indonesia untuk PT Rel Nusantara dan Bank Sinar Nusantara. Tiga tugasnya sama dalam kedua format; hanya register dan komponennya yang berubah."
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: The four-paragraph argument — under 250 words, evidence the CV already carries, arranged as a case rather than a plea.",
-       "id": "Peraga 1: Argumen empat paragraf — di bawah 250 kata, bukti yang sudah ada di CV, disusun sebagai argumen, bukan permohonan."
+       "en": "Exhibit 1: What each document carries",
+       "id": "Peraga 1: Apa yang dibawa tiap dokumen"
       },
       "title": {
-       "en": "Hook → Fit evidence → Why them → Close",
-       "id": "Kail → Bukti kecocokan → Mengapa mereka → Penutup"
+       "en": "CV and letter, side by side",
+       "id": "CV dan surat, berdampingan"
       },
-      "items": [
+      "cols": [
        {
         "h": {
-         "en": "P1 · Hook",
-         "id": "P1 · Kail"
+         "en": "The CV",
+         "id": "CV"
         },
         "sub": {
-         "en": "The role and your single strongest, relevant proof — two sentences",
-         "id": "Peran dan satu bukti terkuat yang relevan — dua kalimat"
-        }
+         "en": "Technical fit — can you do the job?",
+         "id": "Kecocokan teknis — bisakah kamu mengerjakan pekerjaannya?"
+        },
+        "items": [
+         {
+          "en": "Facts: titles, dates, numbers, tools",
+          "id": "Fakta: jabatan, tanggal, angka, alat"
+         },
+         {
+          "en": "Read first by most recruiters; read again before the interview",
+          "id": "Dibaca pertama oleh kebanyakan rekruter; dibaca lagi sebelum wawancara"
+         },
+         {
+          "en": "Parsed by software; drives the interview questions",
+          "id": "Diurai perangkat lunak; menggerakkan pertanyaan wawancara"
+         },
+         {
+          "en": "Tailored first — the twenty-minute pass",
+          "id": "Disesuaikan dulu — proses dua puluh menit"
+         },
+         {
+          "en": "Everything essential lives here",
+          "id": "Semua yang esensial ada di sini"
+         }
+        ]
        },
        {
         "h": {
-         "en": "P2 · Fit evidence",
-         "id": "P2 · Bukti kecocokan"
+         "en": "The letter",
+         "id": "Surat"
         },
         "sub": {
-         "en": "Two JD requirements, each answered by one concrete result",
-         "id": "Dua syarat JD, masing-masing dijawab satu hasil konkret"
-        }
-       },
-       {
-        "h": {
-         "en": "P3 · Why them",
-         "id": "P3 · Mengapa mereka"
+         "en": "Motivation and cultural fit — why this, what you bring, why now",
+         "id": "Motivasi dan kecocokan budaya — mengapa ini, apa yang kamu bawa, mengapa sekarang"
         },
-        "sub": {
-         "en": "One specific, checkable fact about the company that connects to you",
-         "id": "Satu fakta spesifik dan bisa diperiksa tentang perusahaan yang terhubung denganmu"
-        }
-       },
-       {
-        "h": {
-         "en": "P4 · Close",
-         "id": "P4 · Penutup"
-        },
-        "sub": {
-         "en": "Availability, one line of thanks, no begging",
-         "id": "Ketersediaan, satu baris terima kasih, tanpa memohon"
-        }
+        "items": [
+         {
+          "en": "Reasons: a connection, a story, a verified specific",
+          "id": "Alasan: koneksi, cerita, hal spesifik terverifikasi"
+         },
+         {
+          "en": "Read first by some recruiters, as a writing sample; skipped by others",
+          "id": "Dibaca pertama oleh sebagian rekruter, sebagai contoh tulisan; dilewati yang lain"
+         },
+         {
+          "en": "Often ignored by software",
+          "id": "Sering diabaikan perangkat lunak"
+         },
+         {
+          "en": "Written second — from the CV’s angle",
+          "id": "Ditulis kedua — dari sudut CV"
+         },
+         {
+          "en": "Nothing essential lives only here",
+          "id": "Tidak ada yang esensial hanya di sini"
+         }
+        ]
        }
       ],
       "note": {
-       "en": "Readers check only the hook and paragraph three for personalisation — put the effort there.",
-       "id": "Pembaca hanya memeriksa kail dan paragraf tiga untuk personalisasi — curahkan upaya di sana."
+       "en": "One argument, two documents. The letter expands what the CV states; it never replaces it.",
+       "id": "Satu argumen, dua dokumen. Surat memperluas apa yang dinyatakan CV; tidak pernah menggantikannya."
       },
       "longdesc": {
-       "en": "A four-step flow matching the letter's four paragraphs: a two-sentence hook with the role and your strongest proof; a fit paragraph answering two requirements with concrete results; a why-them paragraph with one checkable company fact; and a short close with availability and thanks. The note reminds you that only the hook and why-them paragraph are checked for personalisation.",
-       "id": "Alur empat langkah yang sesuai dengan empat paragraf surat: kail dua kalimat berisi peran dan bukti terkuatmu; paragraf kecocokan yang menjawab dua syarat dengan hasil konkret; paragraf mengapa-mereka dengan satu fakta perusahaan yang bisa diperiksa; dan penutup singkat berisi ketersediaan dan terima kasih. Catatannya mengingatkan bahwa hanya kail dan paragraf mengapa-mereka yang diperiksa untuk personalisasi."
+       "en": "Two columns comparing the CV and the letter. The CV carries technical fit: facts, titles, dates, numbers; it is read first by most recruiters, parsed by software, drives the interview and is tailored first, and holds everything essential. The letter carries motivation and cultural fit: a connection, a story, a verified specific; it is read first by some recruiters as a writing sample and skipped by others, is often ignored by software, is written second from the CV’s angle, and holds nothing essential on its own.",
+       "id": "Dua kolom membandingkan CV dan surat. CV membawa kecocokan teknis: fakta, jabatan, tanggal, angka; dibaca pertama oleh kebanyakan rekruter, diurai perangkat lunak, menggerakkan wawancara dan disesuaikan dulu, serta memuat semua yang esensial. Surat membawa motivasi dan kecocokan budaya: koneksi, cerita, hal spesifik terverifikasi; dibaca pertama oleh sebagian rekruter sebagai contoh tulisan dan dilewati yang lain, sering diabaikan perangkat lunak, ditulis kedua dari sudut CV, dan tidak memuat hal esensial sendirian."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two application emails",
+        "id": "Dua email lamaran"
+       },
+       "q": {
+        "en": "KilatPay asks for applications by email. The recruiter opens Nadia’s.",
+        "id": "KilatPay meminta lamaran lewat email. Rekruter membuka email Nadia."
+       },
+       "weak": {
+        "en": "Subject: “Lamaran”. Body: “Dengan hormat, bersama ini saya lampirkan CV saya untuk posisi Business Operations Associate. Terima kasih.” Attachment: CV.pdf.",
+        "id": "Subjek: “Lamaran”. Badan: “Dengan hormat, bersama ini saya lampirkan CV saya untuk posisi Business Operations Associate. Terima kasih.” Lampiran: CV.pdf."
+       },
+       "strong": {
+        "en": "Subject: “Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri”. Body: a 150-word version of the letter — the campus-talk connection, the terminal-mismatch story in three sentences, why KilatPay, availability, a signature with LinkedIn. Attachments: NadiaPutri_CV_KilatPay.pdf, NadiaPutri_CoverLetter_KilatPay.pdf.",
+        "id": "Subjek: “Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri”. Badan: versi 150 kata dari surat — koneksi ceramah kampus, cerita selisih terminal dalam tiga kalimat, mengapa KilatPay, ketersediaan, tanda tangan dengan LinkedIn. Lampiran: NadiaPutri_CV_KilatPay.pdf, NadiaPutri_CoverLetter_KilatPay.pdf."
+       },
+       "why": {
+        "en": "The weak email answers none of the three questions and gives the reader no reason to open the attachment. The strong email is the letter — and the attachment is opened because of it.",
+        "id": "Email lemah tidak menjawab satu pun dari tiga pertanyaan dan tidak memberi pembaca alasan membuka lampiran. Email kuat adalah suratnya — dan lampirannya dibuka karena itu."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the recruiter who starts with the letter",
+       "id": "Sorotan: rekruter yang memulai dengan surat"
+      },
+      "body": [
+       {
+        "en": "Kak Ayu (ODP 2022) tells Nadia how her programme’s screener works. Two hundred applications a week; the screener opens the letter first, because in ninety seconds it tells her three things the CV cannot — whether the candidate can write a clear paragraph, whether they know what the programme is, and whether they want <i>this</i> one or any one. Candidates whose letter says nothing go to the bottom of the pile unread; the CV is opened only for the rest.",
+        "id": "Kak Ayu (ODP 2022) menceritakan kepada Nadia cara kerja penyaring programnya. Dua ratus lamaran seminggu; penyaring membuka surat lebih dulu, karena dalam sembilan puluh detik surat memberitahunya tiga hal yang tidak bisa diberitahu CV — apakah kandidat bisa menulis paragraf yang jelas, apakah mereka tahu apa program itu, dan apakah mereka menginginkan program <i>ini</i> atau program mana saja."
+       },
+       {
+        "en": "Then Ayu adds the other half: the bank’s portal strips the letter from the record before the operations panel sees it, so anything Nadia says only in the letter — her TOEFL score, her availability, her willingness to relocate — never reaches the second reader. The same letter is decisive for one reader and invisible to the next. Which is why the rule is both halves at once: write it well, and put nothing essential only there.",
+        "id": "Lalu Ayu menambahkan separuh lainnya: portal bank membuang surat dari rekaman sebelum panel operasi melihatnya, jadi apa pun yang dikatakan Nadia hanya di surat — skor TOEFL-nya, ketersediaannya, kesediaannya pindah — tidak pernah sampai ke pembaca kedua. Surat yang sama menentukan bagi satu pembaca dan tak terlihat bagi pembaca berikutnya. Itulah mengapa aturannya kedua separuh sekaligus: tulis dengan baik, dan jangan taruh hal esensial hanya di sana."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Sort the sentences",
+        "id": "Latihan 1 · Pilah kalimatnya"
+       },
+       "body": {
+        "en": "Six sentences from Nadia’s drafts — say whether each belongs in the CV, the letter, or both: (a) “Operations Intern, Bank Sinar Nusantara, Jun–Aug 2025.” (b) “When your merchant team explained that onboarding time is now the constraint on growth, I recognised the kind of problem I most enjoy.” (c) “TOEFL ITP 527.” (d) “I’m available from November and open to relocating to Jakarta.” (e) “Reconciled daily transaction reports for 3 branches.” (f) “Your emphasis on ‘measuring everything’ matches how I like to work.”",
+        "id": "Enam kalimat dari draf Nadia — katakan apakah masing-masing termasuk di CV, surat, atau keduanya: (a) “Operations Intern, Bank Sinar Nusantara, Jun–Agu 2025.” (b) “Ketika tim merchant Anda menjelaskan bahwa waktu onboarding kini menjadi kendala pertumbuhan, saya mengenali jenis masalah yang paling saya nikmati.” (c) “TOEFL ITP 527.” (d) “Saya tersedia mulai November dan bersedia pindah ke Jakarta.” (e) “Merekonsiliasi laporan transaksi harian untuk 3 cabang.” (f) “Penekanan Anda pada ‘mengukur segalanya’ cocok dengan cara saya suka bekerja.”"
+       },
+       "debrief": {
+        "en": "(a) CV. (b) letter — a connection. (c) CV; the letter may mention it but it must be in the CV because software may strip the letter. (d) both — availability is a letter job, but relocation willingness is essential and belongs in the CV profile line too. (e) CV; the letter expands it into the terminal story rather than repeating it. (f) letter — motivation and fit. The pattern: facts in the CV, reasons in the letter, essentials in the CV even when the letter says them too.",
+        "id": "(a) CV. (b) surat — koneksi. (c) CV; surat boleh menyebutnya tetapi harus ada di CV karena perangkat lunak mungkin membuang surat. (d) keduanya — ketersediaan adalah tugas surat, tetapi kesediaan pindah itu esensial dan juga termasuk di baris profil CV. (e) CV; surat memperluasnya menjadi cerita terminal alih-alih mengulangnya. (f) surat — motivasi dan kecocokan. Polanya: fakta di CV, alasan di surat, hal esensial di CV bahkan ketika surat juga menyebutnya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The three questions, answered in one line each",
+        "id": "Latihan 2 · Tiga pertanyaan, dijawab satu baris masing-masing"
+       },
+       "body": {
+        "en": "For your Top 1 target, write one sentence each: why this role at this organisation (a verified specific); what you bring and how they benefit (one CV highlight, expanded); why now. Then check: is anything in the three lines missing from your tailored CV?",
+        "id": "Untuk sasaran Teratas 1-mu, tulis satu kalimat masing-masing: mengapa peran ini di organisasi ini (satu hal spesifik terverifikasi); apa yang kamu bawa dan bagaimana mereka diuntungkan (satu sorotan CV, diperluas); mengapa sekarang. Lalu periksa: adakah dari tiga baris itu yang tidak ada di CV yang disesuaikan?"
+       },
+       "debrief": {
+        "en": "These three lines are the skeleton of Lesson 6.2’s four paragraphs — and of Lesson 6.3’s two evidence sentences — so if one of them is hard to write, the research or the tailoring is not finished. If the “why now” line mentions something essential (a start date, a relocation, a certificate), add it to the CV before you write the letter.",
+        "id": "Tiga baris ini adalah kerangka empat paragraf Pelajaran 6.2 — dan dua kalimat bukti Pelajaran 6.3 — jadi jika salah satunya sulit ditulis, riset atau penyesuaiannya belum selesai. Jika baris “mengapa sekarang” menyebut sesuatu yang esensial (tanggal mulai, pindah, sertifikat), tambahkan ke CV sebelum menulis surat."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Which format?",
+        "id": "Latihan 3 · Format mana?"
+       },
+       "body": {
+        "en": "For each of Nadia’s Top 5, say which letter goes with the application and why: Arunika (MT programme, advertisement in English, online portal); Bank Sinar Nusantara (ODP, portal in Bahasa Indonesia, asks for “surat lamaran”); KilatPay (email application, advertisement in English); Rumah Rempah (no posting yet; alumna inside); PT Rel Nusantara (BUMN joint recruitment, Indonesian, lists “surat lamaran” among documents).",
+        "id": "Untuk masing-masing Lima Teratas Nadia, katakan surat mana yang menyertai lamaran dan mengapa: Arunika (program MT, iklan dalam bahasa Inggris, portal daring); Bank Sinar Nusantara (ODP, portal dalam Bahasa Indonesia, meminta “surat lamaran”); KilatPay (lamaran email, iklan dalam bahasa Inggris); Rumah Rempah (belum ada lowongan; alumna di dalam); PT Rel Nusantara (rekrutmen bersama BUMN, bahasa Indonesia, mencantumkan “surat lamaran” di antara dokumen)."
+       },
+       "debrief": {
+        "en": "Arunika: four-paragraph English letter as a PDF upload. Bank Sinar Nusantara: formal surat lamaran, lampiran list matched to the ODP document list. KilatPay: the email body is the letter — short version — with the full letter and CV attached. Rumah Rempah: no letter yet; after the conversation with Kak Wulan, a short speculative note to a named person (Lesson 6.4). PT Rel Nusantara: formal surat lamaran; check whether the instruction specifies handwritten or typed and follow it exactly.",
+        "id": "Arunika: surat Inggris empat paragraf sebagai unggahan PDF. Bank Sinar Nusantara: surat lamaran formal, daftar lampiran disesuaikan dengan daftar dokumen ODP. KilatPay: badan email adalah suratnya — versi singkat — dengan surat lengkap dan CV terlampir. Rumah Rempah: belum ada surat; setelah percakapan dengan Kak Wulan, catatan spekulatif singkat ke orang yang disebut namanya (Pelajaran 6.4). PT Rel Nusantara: surat lamaran formal; periksa apakah instruksinya menetapkan tulisan tangan atau ketik dan ikuti persis."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Skipping the letter because “nobody reads it”",
+         "id": "Melewati surat karena “tidak ada yang membaca”"
+        },
+        "fix": {
+         "en": "Some read it first. Always write one; keep it short.",
+         "id": "Sebagian membacanya lebih dulu. Selalu tulis; buat singkat."
+        }
+       },
+       {
+        "h": {
+         "en": "Repeating the CV in prose",
+         "id": "Mengulang CV dalam bentuk prosa"
+        },
+        "fix": {
+         "en": "Answer why this, what you bring, why now — expand one highlight, do not restate the list.",
+         "id": "Jawab mengapa ini, apa yang kamu bawa, mengapa sekarang — perluas satu sorotan, jangan ulangi daftarnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Putting essentials only in the letter",
+         "id": "Menaruh hal esensial hanya di surat"
+        },
+        "fix": {
+         "en": "Software may strip it; essentials live in the CV.",
+         "id": "Perangkat lunak mungkin membuangnya; hal esensial ada di CV."
+        }
+       },
+       {
+        "h": {
+         "en": "“CV terlampir, terima kasih”",
+         "id": "“CV terlampir, terima kasih”"
+        },
+        "fix": {
+         "en": "The email body is the letter — 120–200 words that answer the three questions.",
+         "id": "Badan email adalah suratnya — 120–200 kata yang menjawab tiga pertanyaan."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "the hook",
-        "id": "kail pembuka"
+        "en": "Cover letter",
+        "id": "Surat pengantar"
        },
        "def": {
-        "en": "The letter's first two sentences: the role, and your single strongest, most relevant proof — never “I am writing to express my interest”.",
-        "id": "Dua kalimat pertama surat: perannya, dan satu bukti terkuat yang paling relevan darimu — jangan pernah “Saya menulis untuk menyampaikan minat saya”."
+        "en": "The one-page letter that accompanies a CV and answers why this role, what you bring, and why now.",
+        "id": "Surat satu halaman yang menyertai CV dan menjawab mengapa peran ini, apa yang kamu bawa, dan mengapa sekarang."
        }
       },
       {
        "term": {
-        "en": "personalisation points",
-        "id": "titik personalisasi"
+        "en": "Technical fit",
+        "id": "Kecocokan teknis"
        },
        "def": {
-        "en": "The exactly two places readers check for copy-paste: the opening proof (is it about their role?) and the why-them paragraph (is it about their company?).",
-        "id": "Tepat dua tempat yang diperiksa pembaca untuk mendeteksi salin-tempel: bukti pembuka (apakah tentang peran mereka?) dan paragraf mengapa-mereka (apakah tentang perusahaan mereka?)."
+        "en": "Whether you can do the job — proven by the CV’s facts.",
+        "id": "Apakah kamu bisa mengerjakan pekerjaannya — dibuktikan fakta CV."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Opening paragraph — plea vs proof",
-        "id": "Paragraf pembuka — permohonan vs bukti"
+       "term": {
+        "en": "Motivation and cultural fit",
+        "id": "Motivasi dan kecocokan budaya"
        },
-       "q": {
-        "en": "Junior analyst application",
-        "id": "Lamaran untuk posisi analis junior"
+       "def": {
+        "en": "Why you want this one and how you would work there — shown by the letter.",
+        "id": "Mengapa kamu menginginkan yang ini dan bagaimana kamu akan bekerja di sana — ditunjukkan surat."
+       }
+      },
+      {
+       "term": {
+        "en": "Writing sample",
+        "id": "Contoh tulisan"
        },
-       "weak": {
-        "en": "“I am writing to express my sincere interest in the Junior Analyst position at your esteemed company. As a highly motivated fresh graduate with a passion for data, I believe I would be a valuable asset to your team.”",
-        "id": "“Melalui surat ini saya bermaksud menyampaikan ketertarikan yang tulus pada posisi Junior Analyst di perusahaan Bapak/Ibu yang terhormat. Sebagai lulusan baru yang sangat termotivasi dan bersemangat pada data, saya yakin dapat menjadi aset berharga bagi tim.”"
+       "def": {
+        "en": "What some recruiters use the letter as — a proxy for communication skill, read before the CV.",
+        "id": "Kegunaan surat bagi sebagian rekruter — proksi keterampilan komunikasi, dibaca sebelum CV."
+       }
+      },
+      {
+       "term": {
+        "en": "Surat lamaran kerja",
+        "id": "Surat lamaran kerja"
        },
-       "strong": {
-        "en": "“I'm applying for the Junior Analyst role. Last semester I analysed three years of sales data for a 40-store retailer as my thesis project — my stock-allocation findings are now part of their quarterly planning, and that is the kind of work I want to do for your merchant analytics team.”",
-        "id": "“Saya melamar posisi Junior Analyst. Semester lalu saya menganalisis tiga tahun data penjualan sebuah peritel dengan 40 toko sebagai proyek skripsi — temuan saya tentang alokasi stok kini menjadi bagian dari perencanaan kuartalan mereka, dan pekerjaan seperti itulah yang ingin saya lakukan untuk tim analitik merchant Bapak/Ibu.”"
-       },
-       "why": {
-        "en": "The strong opening spends its ten seconds on a checkable result tied to their team's actual work — motivation is demonstrated, not declared.",
-        "id": "Pembuka yang kuat memakai sepuluh detiknya untuk hasil yang bisa diperiksa dan terkait langsung dengan pekerjaan tim mereka — motivasi ditunjukkan, bukan dinyatakan."
+       "def": {
+        "en": "The formal Indonesian application letter with conventional components — Lesson 6.3.",
+        "id": "Surat lamaran Indonesia formal dengan komponen konvensional — Pelajaran 6.3."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Paragraph 3 (“why them”) should contain:",
-        "id": "Paragraf 3 (“mengapa mereka”) seharusnya berisi:"
+        "en": "Letter versus CV — which proves technical fit?",
+        "id": "Surat versus CV — mana yang membuktikan kecocokan teknis?"
        },
        "options": [
         {
-         "en": "Praise for the company's excellent reputation and work culture",
-         "id": "Pujian atas reputasi dan budaya kerja perusahaan yang unggul"
+         "en": "The letter",
+         "id": "Surat"
         },
         {
-         "en": "One specific, checkable fact about the company genuinely connected to your interest",
-         "id": "Satu fakta spesifik dan bisa diperiksa tentang perusahaan itu, yang benar-benar berhubungan dengan minatmu"
+         "en": "The CV",
+         "id": "CV"
         },
         {
-         "en": "A summary of your top three strengths",
-         "id": "Ringkasan tiga kekuatan utamamu"
+         "en": "Both equally",
+         "id": "Keduanya sama"
+        },
+        {
+         "en": "Neither — the interview does",
+         "id": "Tidak keduanya — wawancara yang membuktikan"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Generic praise is mass-production evidence; a specific fact proves research and genuine intent — the only thing P3 exists to prove.",
-        "id": "Pujian generik adalah bukti produksi massal; fakta yang spesifik membuktikan kamu sudah riset dan sungguh-sungguh berminat — satu-satunya hal yang perlu dibuktikan P3."
+        "en": "The CV answers “can you do the job?” with facts; the letter answers why this, what you bring, why now.",
+        "id": "CV menjawab “bisakah kamu mengerjakan pekerjaannya?” dengan fakta; surat menjawab mengapa ini, apa yang kamu bawa, mengapa sekarang."
        }
-      }
-     ],
-     "listen": [
+      },
       {
-       "label": {
-        "en": "A strong opening paragraph, read aloud",
-        "id": "Paragraf pembuka yang kuat, dibacakan"
+       "q": {
+        "en": "Should essential information appear only in the letter?",
+        "id": "Haruskah informasi esensial hanya muncul di surat?"
        },
-       "text": {
-        "en": "I'm applying for the junior analyst role. Last semester I analysed three years of sales data for a forty store retailer as my thesis project. My stock allocation findings are now part of their quarterly planning, and that is the kind of work I want to do for your merchant analytics team.",
-        "id": "Saya melamar posisi analis junior. Semester lalu saya menganalisis tiga tahun data penjualan sebuah peritel dengan empat puluh toko sebagai proyek skripsi. Temuan saya tentang alokasi stok kini menjadi bagian dari perencanaan kuartalan mereka, dan pekerjaan seperti itulah yang ingin saya lakukan untuk tim analitik merchant Bapak dan Ibu."
+       "options": [
+        {
+         "en": "Yes — it is read first",
+         "id": "Ya — surat dibaca lebih dulu"
+        },
+        {
+         "en": "No — software may strip the letter",
+         "id": "Tidak — perangkat lunak mungkin membuang surat"
+        },
+        {
+         "en": "Only for email applications",
+         "id": "Hanya untuk lamaran email"
+        },
+        {
+         "en": "Yes, to keep the CV short",
+         "id": "Ya, agar CV tetap singkat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The second reader may never see the letter; essentials live in the CV.",
+        "id": "Pembaca kedua mungkin tidak pernah melihat surat; hal esensial ada di CV."
+       }
+      },
+      {
+       "q": {
+        "en": "For an email application, the letter goes…",
+        "id": "Untuk lamaran email, suratnya diletakkan…"
+       },
+       "options": [
+        {
+         "en": "Nowhere — the CV is enough",
+         "id": "Tidak di mana pun — CV sudah cukup"
+        },
+        {
+         "en": "In the email body",
+         "id": "Di badan email"
+        },
+        {
+         "en": "Only as an attachment",
+         "id": "Hanya sebagai lampiran"
+        },
+        {
+         "en": "In the subject line",
+         "id": "Di baris subjek"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The body is what the recruiter reads before deciding to open anything.",
+        "id": "Badan email adalah yang dibaca rekruter sebelum memutuskan membuka apa pun."
        }
       }
      ],
@@ -24788,147 +25159,3814 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "letter",
       "title": {
-       "en": "Draft the letter from your own evidence",
-       "id": "Susun suratnya dari buktimu sendiri"
+       "en": "The three answers, before any letter",
+       "id": "Tiga jawaban, sebelum surat apa pun"
       },
       "body": {
-       "en": "Answer five questions and the developer assembles them into the four-paragraph structure, then checks the draft against the JD you paste — mirroring included.",
-       "id": "Jawab lima pertanyaan, dan alat penyusun surat merangkainya ke dalam struktur empat paragraf, lalu memeriksa drafnya terhadap deskripsi lowongan yang kamu tempel — termasuk menyelaraskan istilah."
+       "en": "Open the letter studio and, for your Top 1 target, record the three one-line answers from Drill 2 — why this, what you bring, why now — and which format the employer needs. Every letter in this module is built from those three lines, and the studio keeps them next to the tailored CV so the angle stays the same.",
+       "id": "Buka studio surat dan, untuk sasaran Teratas 1-mu, catat tiga jawaban satu baris dari Latihan 2 — mengapa ini, apa yang kamu bawa, mengapa sekarang — dan format mana yang dibutuhkan perusahaan. Setiap surat di modul ini dibangun dari tiga baris itu, dan studio menyimpannya di samping CV yang disesuaikan agar sudutnya tetap sama."
       },
       "cta": {
-       "en": "Open the letter developer →",
-       "id": "Buka penyusun surat →"
+       "en": "Open the letter studio →",
+       "id": "Buka studio surat →"
       }
      },
+     "takeaways": [
+      {
+       "en": "The letter answers why this role, what you bring, and why now.",
+       "id": "Surat menjawab mengapa peran ini, apa yang kamu bawa, dan mengapa sekarang."
+      },
+      {
+       "en": "CV = technical fit; letter = motivation and fit.",
+       "id": "CV = kecocokan teknis; surat = motivasi dan kecocokan."
+      },
+      {
+       "en": "Always write one; never repeat the CV.",
+       "id": "Selalu tulis; jangan pernah mengulang CV."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the three-line card",
+       "id": "Sumber dan kartu tiga baris"
+      },
+      "lead": {
+       "en": "Four sources and the three questions as a card to fill before any letter.",
+       "id": "Empat sumber dan tiga pertanyaan sebagai kartu untuk diisi sebelum surat apa pun."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "The 200-word letter",
-         "id": "Surat 200 kata"
+         "en": "Reading list · Lesson 6.1",
+         "id": "Daftar bacaan · Pelajaran 6.1"
         },
         "desc": {
-         "en": "Four paragraphs, one argument. Replace every bracket.",
-         "id": "Empat paragraf, satu argumen. Ganti setiap kurung."
+         "en": "Four sources.",
+         "id": "Empat sumber."
         },
         "body": [
          {
-          "en": "P1 — why now (2 lines): “I’m applying for [role] because [one specific thing about this team or opening] — and it is the work I have been preparing for through [one line of evidence].”",
-          "id": "P1 — mengapa sekarang (2 baris): “Saya melamar posisi [peran] karena [satu hal spesifik tentang tim atau lowongan ini] — dan inilah pekerjaan yang saya siapkan lewat [satu baris bukti].”"
+          "en": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, ch. 14 and 17 — the CV gets more attention; recruiters who start with the letter.",
+          "id": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, bab 14 dan 17 — CV mendapat lebih banyak perhatian; rekruter yang memulai dengan surat."
          },
          {
-          "en": "P2 — evidence one (3 lines): the strongest proof for the brief’s first requirement, with a number or artefact.",
-          "id": "P2 — bukti satu (3 baris): bukti terkuat untuk persyaratan pertama dalam brief, dengan angka atau artefak."
+          "en": "L. Simunovic, §7 — the three questions; the email as the letter.",
+          "id": "L. Simunovic, §7 — tiga pertanyaan; email sebagai surat."
          },
          {
-          "en": "P3 — evidence two + gap (3 lines): second proof; if a requirement is thin, name it and show how you are closing it.",
-          "id": "P3 — bukti dua + celah (3 baris): bukti kedua; jika ada persyaratan yang tipis, sebutkan dan tunjukkan cara kamu menutupnya."
+          "en": "J. Innes, <i>The CV Book</i>, ch. 6 and 20 — software and the letter; recruiters rate it as important as the CV.",
+          "id": "J. Innes, <i>The CV Book</i>, bab 6 dan 20 — perangkat lunak dan surat; rekruter menilainya sama pentingnya dengan CV."
          },
          {
-          "en": "P4 — close (2 lines): “I’m available from [date] and would welcome a conversation about [specific topic]. My CV and [artefact] are attached.”",
-          "id": "P4 — penutup (2 baris): “Saya tersedia mulai [tanggal] dan terbuka untuk berbincang tentang [topik spesifik]. CV dan [artefak] saya terlampir.”"
+          "en": "P. Ow, <i>Tailor Your Call</i> — technical fit versus motivation and cultural fit.",
+          "id": "P. Ow, <i>Tailor Your Call</i> — kecocokan teknis versus motivasi dan kecocokan budaya."
          }
         ]
        },
        {
         "kind": "template",
         "title": {
-         "en": "Email body when the letter is the email",
-         "id": "Isi email ketika surat lamaran adalah emailnya"
+         "en": "Three lines before any letter",
+         "id": "Tiga baris sebelum surat apa pun"
         },
         "desc": {
-         "en": "Subject line and body for direct applications.",
-         "id": "Baris subjek dan isi untuk lamaran langsung."
+         "en": "One target, one line each.",
+         "id": "Satu sasaran, satu baris masing-masing."
         },
         "body": [
          {
-          "en": "Subject: Application — [Role] — [Your name] ([strongest tag])",
-          "id": "Subjek: Lamaran — [Peran] — [Namamu] ([tanda terkuat])"
+          "en": "Why this role at this organisation: [a verified specific + the connection]",
+          "id": "Mengapa peran ini di organisasi ini: [satu hal spesifik terverifikasi + koneksinya]"
          },
          {
-          "en": "Greeting: “Dear [Name],” if known; otherwise “Dear [Team] Hiring Team,”",
-          "id": "Salam: “Yth. [Nama],” jika diketahui; jika tidak, “Yth. Tim Rekrutmen [Tim],”"
+          "en": "What I bring, and how they benefit: [one CV highlight, expanded to a result]",
+          "id": "Apa yang saya bawa, dan bagaimana mereka diuntungkan: [satu sorotan CV, diperluas menjadi hasil]"
          },
          {
-          "en": "Body: the 200-word letter, no headers, no bold",
-          "id": "Isi: surat 200 kata, tanpa judul, tanpa tebal"
+          "en": "Why now: [availability · readiness · location]",
+          "id": "Mengapa sekarang: [ketersediaan · kesiapan · lokasi]"
          },
          {
-          "en": "Signature: name · phone · LinkedIn URL · city",
-          "id": "Tanda tangan: nama · telepon · URL LinkedIn · kota"
-         },
-         {
-          "en": "Attachments named: Firstname-Lastname-CV.pdf, Firstname-Lastname-Portfolio.pdf",
-          "id": "Lampiran dinamai: Namadepan-Namabelakang-CV.pdf, Namadepan-Namabelakang-Portofolio.pdf"
+          "en": "Format: four-paragraph English · surat lamaran · email body · speculative note — and anything essential above is also in the CV: ☐",
+          "id": "Format: Inggris empat paragraf · surat lamaran · badan email · catatan spekulatif — dan hal esensial di atas juga ada di CV: ☐"
          }
         ]
        }
       ]
+     }
+    },
+    {
+     "n": "6.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "The Four-Paragraph Letter",
+      "id": "Surat Empat Paragraf"
+     },
+     "overview": {
+      "en": "A structure that works for almost every English-language application: a named salutation, an opening that leads with fit or a genuine connection, a paragraph of evidence from the CV’s angle, a paragraph of verified reasons why them, and a close that gives the reader a next step. With Nadia’s letter to KilatPay as the model, and Innes’s eight-mistake audit to run before sending.",
+      "id": "Struktur yang berhasil untuk hampir setiap lamaran berbahasa Inggris: salam dengan nama, pembuka yang diawali kecocokan atau koneksi tulus, paragraf bukti dari sudut CV, paragraf alasan terverifikasi mengapa mereka, dan penutup yang memberi pembaca langkah berikutnya. Dengan surat Nadia ke KilatPay sebagai model, dan audit delapan kesalahan Innes untuk dijalankan sebelum mengirim."
+     },
+     "objectives": [
+      {
+       "en": "Write a letter of 250–350 words in four paragraphs.",
+       "id": "Menulis surat 250–350 kata dalam empat paragraf."
+      },
+      {
+       "en": "Open with connection or fit, never a deficit.",
+       "id": "Membuka dengan koneksi atau kecocokan, tidak pernah dengan kekurangan."
+      },
+      {
+       "en": "Personalise with verified research.",
+       "id": "Mempersonalisasi dengan riset terverifikasi."
+      },
+      {
+       "en": "Close with a concrete next step.",
+       "id": "Menutup dengan langkah berikutnya yang konkret."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Four paragraphs, one page",
+       "id": "Empat paragraf, satu halaman"
+      },
+      "intro": {
+       "en": "Opening · fit evidence · why them · close. Same angle as the CV; expand, don’t repeat; verified specifics only.",
+       "id": "Pembuka · bukti kecocokan · mengapa mereka · penutup. Sudut yang sama dengan CV; perluas, jangan ulangi; hanya hal spesifik terverifikasi."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Open with fit or connection",
+         "id": "Buka dengan kecocokan atau koneksi"
+        },
+        "points": [
+         {
+          "en": "Name the role and reference number; then your strongest reason for fit or a genuine connection to their work.",
+          "id": "Sebut peran dan nomor referensinya; lalu alasan terkuat kecocokanmu atau koneksi tulus dengan pekerjaan mereka."
+         },
+         {
+          "en": "Never open with a deficit. “Although I have no experience…” is the most common opening recruiters see.",
+          "id": "Jangan pernah membuka dengan kekurangan. “Meskipun saya belum berpengalaman…” adalah pembuka paling umum yang dilihat rekruter."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Evidence, then why them",
+         "id": "Bukti, lalu mengapa mereka"
+        },
+        "points": [
+         {
+          "en": "Paragraph 2: one or two CV highlights expanded into a short story — the CV’s angle, not its list.",
+          "id": "Paragraf 2: satu atau dua sorotan CV diperluas menjadi cerita singkat — sudut CV, bukan daftarnya."
+         },
+         {
+          "en": "Paragraph 3: two or three verified specifics from their own site, recent news or a conversation. Never from an unchecked AI summary.",
+          "id": "Paragraf 3: dua atau tiga hal spesifik terverifikasi dari situs mereka sendiri, berita terkini, atau percakapan. Jangan pernah dari ringkasan AI yang belum dicek."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Close forward",
+         "id": "Tutup ke depan"
+        },
+        "points": [
+         {
+          "en": "Top two points in one sentence for skimmers, an invitation to talk, your availability. Never salary.",
+          "id": "Dua poin teratas dalam satu kalimat bagi yang membaca sekilas, undangan berbicara, ketersediaanmu. Jangan pernah gaji."
+         },
+         {
+          "en": "First person is natural; reduce “I”-strain by starting some sentences with “You” or “Your team”.",
+          "id": "Orang pertama itu wajar; kurangi beban “saya” dengan memulai sebagian kalimat dengan “Anda” atau “Tim Anda”."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "users",
+       "h": {
+        "en": "Salutation",
+        "id": "Salam pembuka"
+       },
+       "body": {
+        "en": "Find a name — the advertisement, LinkedIn, the company site, the person you spoke to in Module 2, or ask by phone or email <i>(Bright &amp; Earl, Brilliant CV, ch. 14; Innes, The CV Book, ch. 20)</i>. A named letter is read as a letter to a person; an unnamed one is read as a mail-merge. If you genuinely cannot find one: “Dear Hiring Team at [Company]” or “Dear [Programme] Recruitment Team”. Avoid “To Whom It May Concern” <i>(Ow; Innes)</i> — it announces that you did not look. Register: “Dear Mr. Aditya” or “Dear Ms. Dewi” for a named reader; “Dear Pak Aditya” is acceptable in Indonesian companies writing in English, and “Dear Aditya” only if they signed that way first.",
+        "id": "Cari nama — di iklan, LinkedIn, situs perusahaan, orang yang kamu ajak bicara di Modul 2, atau tanyakan lewat telepon atau email <i>(Bright &amp; Earl, Brilliant CV, bab 14; Innes, The CV Book, bab 20)</i>. Surat bernama dibaca sebagai surat kepada seseorang; surat tanpa nama dibaca sebagai surat massal. Jika benar-benar tidak bisa menemukannya: “Dear Hiring Team at [Company]” atau “Dear [Programme] Recruitment Team”. Hindari “To Whom It May Concern” <i>(Ow; Innes)</i> — itu mengumumkan bahwa kamu tidak mencari. Register: “Dear Mr. Aditya” atau “Dear Ms. Dewi” untuk pembaca bernama; “Dear Pak Aditya” bisa diterima di perusahaan Indonesia yang menulis dalam bahasa Inggris, dan “Dear Aditya” hanya jika mereka menandatangani seperti itu lebih dulu."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Paragraph 1 — the opening",
+        "id": "Paragraf 1 — pembuka"
+       },
+       "body": {
+        "en": "Name the role (and its reference number, so the letter files itself), and immediately give your strongest reason for fit or a genuine connection to their work <i>(Bright &amp; Earl, ch. 14; Ow, Tailor Your Call)</i>. Two sentences are enough. <b>Never open with a deficit</b> — “Although I have no direct experience in fintech…”, “As a fresh graduate with limited experience…” — recruiters are repeatedly surprised by how often candidates lead with what they lack <i>(Bright &amp; Earl, ch. 6)</i>. The reader will find the gaps in the CV without help; the opening is the one place you choose what they see first. A connection can be a talk you attended, a post you read, a product you used, a person you spoke to — anything true and specific. Fit can be one sentence that names the kind of problem the role solves and the fact that you have solved it in miniature.",
+        "id": "Sebut peran (dan nomor referensinya, agar surat mengarsipkan dirinya sendiri), dan segera berikan alasan terkuat kecocokanmu atau koneksi tulus dengan pekerjaan mereka <i>(Bright &amp; Earl, bab 14; Ow, Tailor Your Call)</i>. Dua kalimat sudah cukup. <b>Jangan pernah membuka dengan kekurangan</b> — “Meskipun saya belum punya pengalaman langsung di fintech…”, “Sebagai fresh graduate dengan pengalaman terbatas…” — rekruter berulang kali terkejut betapa sering kandidat memulai dengan apa yang tidak mereka miliki <i>(Bright &amp; Earl, bab 6)</i>. Pembaca akan menemukan celahnya di CV tanpa bantuan; pembuka adalah satu-satunya tempat kamu memilih apa yang mereka lihat pertama. Koneksi bisa berupa ceramah yang kamu hadiri, postingan yang kamu baca, produk yang kamu pakai, orang yang kamu ajak bicara — apa pun yang benar dan spesifik. Kecocokan bisa satu kalimat yang menyebut jenis masalah yang dipecahkan peran itu dan fakta bahwa kamu pernah memecahkannya dalam skala kecil."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Paragraph 2 — fit evidence",
+        "id": "Paragraf 2 — bukti kecocokan"
+       },
+       "body": {
+        "en": "Take the <b>same angle as your tailored CV</b> <i>(Simunovic, §7.2)</i> and expand — do not repeat — one or two highlights, ideally as a short competency story in the PREP-STAR shape from Module 3.4: the situation in a clause, what you noticed, what you did, the result with a number. The CV bullet says “reconciled daily transaction reports for 3 branches; flagged a recurring terminal error”. The letter says what that was like and what it shows — the noticing, the tracing, the thirty minutes a day. One story told properly beats three bullets restated. If a second highlight helps, make it a different competency from a different setting, in two sentences, ending on the same instinct.",
+        "id": "Ambil <b>sudut yang sama dengan CV yang disesuaikan</b> <i>(Simunovic, §7.2)</i> dan perluas — jangan ulangi — satu atau dua sorotan, idealnya sebagai cerita kompetensi singkat berbentuk PREP-STAR dari Modul 3.4: situasi dalam satu klausa, apa yang kamu perhatikan, apa yang kamu lakukan, hasilnya dengan angka. Butir CV berbunyi “merekonsiliasi laporan transaksi harian untuk 3 cabang; menandai kesalahan terminal berulang”. Surat mengatakan seperti apa rasanya dan apa yang ditunjukkannya — memperhatikan, menelusuri, tiga puluh menit sehari. Satu cerita yang diceritakan dengan baik mengalahkan tiga butir yang diulang. Jika sorotan kedua membantu, jadikan kompetensi berbeda dari latar berbeda, dalam dua kalimat, diakhiri dengan naluri yang sama."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Paragraph 3 — why them",
+        "id": "Paragraf 3 — mengapa mereka"
+       },
+       "body": {
+        "en": "Two or three <i>verified</i> specifics: a programme detail, a recent initiative, a value you have evidence of sharing. Every fact must come from the company’s own site, recent news, the advertisement itself, or a conversation (Module 2) — never from an AI summary you have not checked (Module 8). A wrong “why them” is worse than none: a letter that praises a product the company discontinued, or a value it does not list, tells the reader that the research was outsourced. Two specifics stated plainly and connected to how you work are enough; a paragraph of flattery about market leadership is read as filler and skipped.",
+        "id": "Dua atau tiga hal spesifik <i>terverifikasi</i>: detail program, inisiatif terkini, nilai yang kamu punya buktinya kamu anut juga. Setiap fakta harus berasal dari situs perusahaan sendiri, berita terkini, iklan itu sendiri, atau percakapan (Modul 2) — jangan pernah dari ringkasan AI yang belum kamu cek (Modul 8). “Mengapa mereka” yang salah lebih buruk daripada tidak ada: surat yang memuji produk yang sudah dihentikan perusahaan, atau nilai yang tidak mereka cantumkan, memberitahu pembaca bahwa risetnya dialihdayakan. Dua hal spesifik yang dinyatakan apa adanya dan dihubungkan dengan cara kamu bekerja sudah cukup; paragraf pujian tentang kepemimpinan pasar dibaca sebagai pengisi dan dilewati."
+       }
+      },
+      {
+       "icon": "check",
+       "h": {
+        "en": "Paragraph 4 — the close",
+        "id": "Paragraf 4 — penutup"
+       },
+       "body": {
+        "en": "Restate your top two points in one sentence for skimmers, invite a conversation, and give your availability <i>(Simunovic, §7.2; Ow)</i>. “I look forward to hearing from you” alone is not a close — it hands the next step to the reader without saying what it is. Never raise salary <i>(Innes, ch. 20)</i>; the letter is not the place, and a number here anchors every later conversation. Sign with your full name, email and LinkedIn URL on one line under the sign-off.",
+        "id": "Ulangi dua poin teratasmu dalam satu kalimat bagi yang membaca sekilas, undang percakapan, dan berikan ketersediaanmu <i>(Simunovic, §7.2; Ow)</i>. “Saya menantikan kabar dari Anda” saja bukan penutup — itu menyerahkan langkah berikutnya kepada pembaca tanpa mengatakan apa langkahnya. Jangan pernah mengangkat gaji <i>(Innes, bab 20)</i>; surat bukan tempatnya, dan angka di sini menjangkar setiap percakapan berikutnya. Tanda tangani dengan nama lengkap, email, dan URL LinkedIn dalam satu baris di bawah salam penutup."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Style, and the model",
+        "id": "Gaya, dan modelnya"
+       },
+       "body": {
+        "en": "First person is natural here <i>(Simunovic)</i>, but reduce “I”-strain: rewrite some sentences to begin with “You”, “Your team” or the work itself <i>(Innes, ch. 20)</i>. One page; the same font as the CV; 250–350 words. Optional: a P.S. with one striking, relevant achievement — the eye often goes there first <i>(Ow)</i>. The model below is Nadia’s letter to KilatPay, 290 words, abridged in the third paragraph.",
+        "id": "Orang pertama wajar di sini <i>(Simunovic)</i>, tetapi kurangi beban “saya”: tulis ulang sebagian kalimat agar dimulai dengan “Anda”, “Tim Anda”, atau pekerjaannya sendiri <i>(Innes, bab 20)</i>. Satu halaman; huruf yang sama dengan CV; 250–350 kata. Opsional: P.S. dengan satu pencapaian relevan yang mencolok — mata sering ke sana lebih dulu <i>(Ow)</i>. Model di bawah adalah surat Nadia ke KilatPay, 290 kata, diringkas di paragraf ketiga."
+       },
+       "quote": {
+        "text": {
+         "en": "Dear Mr. Aditya,<br><br>I’m applying for the Business Operations Associate role (ref. OPS-26-04). When your merchant team explained at the September campus talk that onboarding time is now the constraint on KilatPay’s growth, I recognised the kind of problem I most enjoy: processes that work, but not fast enough.<br><br>During my operations internship at Bank Sinar Nusantara, I reconciled daily transaction reports across three branches. Noticing that one terminal produced the same mismatch every day, I traced the pattern and flagged it; the settings fix removed about thirty minutes of manual correction daily. At Kopi Tepian I proposed a pre-order board for the morning rush that shortened peak waiting times — a small change, but the same instinct: find the step that slows everyone down.<br><br>Your team’s move to self-serve merchant onboarding, and the emphasis in your job description on “measuring everything”, match how I like to work. I’ve started learning SQL to be useful with data from day one.<br><br>I would welcome a conversation about how I could support the onboarding team. I’m available from November and open to relocating to Jakarta.<br><br>Kind regards,<br>Nadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri",
+         "id": "Dear Mr. Aditya,<br><br>I’m applying for the Business Operations Associate role (ref. OPS-26-04). When your merchant team explained at the September campus talk that onboarding time is now the constraint on KilatPay’s growth, I recognised the kind of problem I most enjoy: processes that work, but not fast enough.<br><br>During my operations internship at Bank Sinar Nusantara, I reconciled daily transaction reports across three branches. Noticing that one terminal produced the same mismatch every day, I traced the pattern and flagged it; the settings fix removed about thirty minutes of manual correction daily. At Kopi Tepian I proposed a pre-order board for the morning rush that shortened peak waiting times — a small change, but the same instinct: find the step that slows everyone down.<br><br>Your team’s move to self-serve merchant onboarding, and the emphasis in your job description on “measuring everything”, match how I like to work. I’ve started learning SQL to be useful with data from day one.<br><br>I would welcome a conversation about how I could support the onboarding team. I’m available from November and open to relocating to Jakarta.<br><br>Kind regards,<br>Nadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri"
+        },
+        "who": {
+         "en": "Model · Nadia → KilatPay · 290 words · named reader · role and reference · connection (the campus talk) · one story with a number · two verified specifics (self-serve onboarding; “measuring everything” from the advertisement) · invitation, availability, relocation",
+         "id": "Model · Nadia → KilatPay · 290 kata · pembaca bernama · peran dan referensi · koneksi (ceramah kampus) · satu cerita dengan angka · dua hal spesifik terverifikasi (onboarding mandiri; “mengukur segalanya” dari iklan) · undangan, ketersediaan, pindah"
+        }
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Innes’s audit — eight mistakes",
+        "id": "Audit Innes — delapan kesalahan"
+       },
+       "body": {
+        "en": "Before sending, read the letter against Innes’s list, condensed <i>(The CV Book, ch. 20)</i>. Every one of the eight is common; three or more in one letter is typical of a first draft.",
+        "id": "Sebelum mengirim, baca surat terhadap daftar Innes, diringkas <i>(The CV Book, bab 20)</i>. Setiap dari delapan itu umum; tiga atau lebih dalam satu surat lazim pada draf pertama."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Mistake",
+          "id": "Kesalahan"
+         },
+         {
+          "en": "Looks like",
+          "id": "Tampak seperti"
+         },
+         {
+          "en": "Fix",
+          "id": "Perbaikan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1 · No named addressee",
+           "id": "1 · Tanpa nama penerima"
+          },
+          {
+           "en": "“To Whom It May Concern”",
+           "id": "“To Whom It May Concern”"
+          },
+          {
+           "en": "Find a name; failing that, the team",
+           "id": "Cari nama; jika tidak, timnya"
+          }
+         ],
+         [
+          {
+           "en": "2 · Weak opening",
+           "id": "2 · Pembuka lemah"
+          },
+          {
+           "en": "“I am writing to apply…”; a deficit",
+           "id": "“Saya menulis untuk melamar…”; kekurangan"
+          },
+          {
+           "en": "Role + strongest fit or connection",
+           "id": "Peran + kecocokan terkuat atau koneksi"
+          }
+         ],
+         [
+          {
+           "en": "3 · Repeating the CV",
+           "id": "3 · Mengulang CV"
+          },
+          {
+           "en": "The bullets restated as sentences",
+           "id": "Butir-butir diulang sebagai kalimat"
+          },
+          {
+           "en": "One highlight, expanded into a story",
+           "id": "Satu sorotan, diperluas menjadi cerita"
+          }
+         ],
+         [
+          {
+           "en": "4 · No call to action",
+           "id": "4 · Tanpa ajakan bertindak"
+          },
+          {
+           "en": "“I look forward to hearing from you.”",
+           "id": "“Saya menantikan kabar dari Anda.”"
+          },
+          {
+           "en": "Invitation + availability",
+           "id": "Undangan + ketersediaan"
+          }
+         ],
+         [
+          {
+           "en": "5 · Mentioning money",
+           "id": "5 · Menyebut uang"
+          },
+          {
+           "en": "“My expected salary is…”",
+           "id": "“Ekspektasi gaji saya adalah…”"
+          },
+          {
+           "en": "Never in the letter",
+           "id": "Jangan pernah di surat"
+          }
+         ],
+         [
+          {
+           "en": "6 · Too long",
+           "id": "6 · Terlalu panjang"
+          },
+          {
+           "en": "Two pages; six paragraphs",
+           "id": "Dua halaman; enam paragraf"
+          },
+          {
+           "en": "One page, 250–350 words",
+           "id": "Satu halaman, 250–350 kata"
+          }
+         ],
+         [
+          {
+           "en": "7 · One letter mass-sent",
+           "id": "7 · Satu surat dikirim massal"
+          },
+          {
+           "en": "“your esteemed company”; no specifics",
+           "id": "“perusahaan Anda yang terhormat”; tanpa hal spesifik"
+          },
+          {
+           "en": "Two verified specifics per letter",
+           "id": "Dua hal spesifik terverifikasi per surat"
+          }
+         ],
+         [
+          {
+           "en": "8 · Typos",
+           "id": "8 · Salah ketik"
+          },
+          {
+           "en": "The wrong company name from the last letter",
+           "id": "Nama perusahaan yang salah dari surat sebelumnya"
+          },
+          {
+           "en": "Read aloud; search for the previous company’s name",
+           "id": "Baca keras-keras; cari nama perusahaan sebelumnya"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 2: Four paragraphs, one job each",
+       "id": "Peraga 2: Empat paragraf, satu tugas masing-masing"
+      },
+      "title": {
+       "en": "What each paragraph of Nadia’s letter does",
+       "id": "Yang dilakukan setiap paragraf surat Nadia"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "1 · Opening — 55 words",
+         "id": "1 · Pembuka — 55 kata"
+        },
+        "sub": {
+         "en": "Role and reference. The campus talk as connection. “Processes that work, but not fast enough” as fit. No deficit.",
+         "id": "Peran dan referensi. Ceramah kampus sebagai koneksi. “Proses yang berjalan, tetapi tidak cukup cepat” sebagai kecocokan. Tanpa kekurangan."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "2 · Fit evidence — 95 words",
+         "id": "2 · Bukti kecocokan — 95 kata"
+        },
+        "sub": {
+         "en": "The terminal-mismatch story: noticed, traced, flagged, thirty minutes a day. The café pre-order board as a second, shorter instance of the same instinct.",
+         "id": "Cerita selisih terminal: diperhatikan, ditelusuri, ditandai, tiga puluh menit sehari. Papan pra-pesan kafe sebagai contoh kedua yang lebih singkat dari naluri yang sama."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "3 · Why them — 45 words",
+         "id": "3 · Mengapa mereka — 45 kata"
+        },
+        "sub": {
+         "en": "Self-serve onboarding (from their site); “measuring everything” (from the advertisement); SQL as readiness. Both specifics verified.",
+         "id": "Onboarding mandiri (dari situs mereka); “mengukur segalanya” (dari iklan); SQL sebagai kesiapan. Kedua hal spesifik terverifikasi."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "4 · Close — 30 words",
+         "id": "4 · Penutup — 30 kata"
+        },
+        "sub": {
+         "en": "An invitation to talk about the onboarding team; available from November; open to Jakarta. Signature with email and LinkedIn.",
+         "id": "Undangan berbicara tentang tim onboarding; tersedia mulai November; bersedia ke Jakarta. Tanda tangan dengan email dan LinkedIn."
+        }
+       }
+      ],
+      "note": {
+       "en": "Two hundred and ninety words. The CV holds the same facts as bullets; the letter holds the reasons.",
+       "id": "Dua ratus sembilan puluh kata. CV memuat fakta yang sama sebagai butir; surat memuat alasannya."
+      },
+      "longdesc": {
+       "en": "A four-stage flow of Nadia’s letter: the opening of about 55 words names the role and reference, the campus talk as a connection and a fit sentence with no deficit; the fit-evidence paragraph of about 95 words tells the terminal-mismatch story with a number and a second shorter example; the why-them paragraph of about 45 words gives two verified specifics and SQL as readiness; the close of about 30 words invites a conversation and states availability and relocation, followed by a signature with email and LinkedIn.",
+       "id": "Alur empat tahap surat Nadia: pembuka sekitar 55 kata menyebut peran dan referensi, ceramah kampus sebagai koneksi, dan kalimat kecocokan tanpa kekurangan; paragraf bukti kecocokan sekitar 95 kata menceritakan selisih terminal dengan angka dan contoh kedua yang lebih singkat; paragraf mengapa mereka sekitar 45 kata memberi dua hal spesifik terverifikasi dan SQL sebagai kesiapan; penutup sekitar 30 kata mengundang percakapan dan menyatakan ketersediaan serta kesediaan pindah, diikuti tanda tangan dengan email dan LinkedIn."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two openings",
+        "id": "Dua pembuka"
+       },
+       "q": {
+        "en": "The first two sentences the KilatPay reader sees.",
+        "id": "Dua kalimat pertama yang dilihat pembaca KilatPay."
+       },
+       "weak": {
+        "en": "“I am writing to apply for the position advertised on JobStreet. I am a fresh graduate who is hardworking, passionate and a fast learner.”",
+        "id": "“I am writing to apply for the position advertised on JobStreet. I am a fresh graduate who is hardworking, passionate and a fast learner.”"
+       },
+       "strong": {
+        "en": "“I’m applying for the Business Operations Associate role (ref. OPS-26-04). When your merchant team explained at the September campus talk that onboarding time is now the constraint on KilatPay’s growth, I recognised the kind of problem I most enjoy: processes that work, but not fast enough.”",
+        "id": "“I’m applying for the Business Operations Associate role (ref. OPS-26-04). When your merchant team explained at the September campus talk that onboarding time is now the constraint on KilatPay’s growth, I recognised the kind of problem I most enjoy: processes that work, but not fast enough.”"
+       },
+       "why": {
+        "en": "The strong opening shows a specific connection and a relevant instinct in two sentences; the weak one tells the reader nothing they could not guess — and “fresh graduate” is a deficit dressed as a description.",
+        "id": "Pembuka kuat menunjukkan koneksi spesifik dan naluri relevan dalam dua kalimat; pembuka lemah tidak memberitahu pembaca apa pun yang tidak bisa mereka tebak — dan “fresh graduate” adalah kekurangan yang dibungkus sebagai deskripsi."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the wrong company’s name",
+       "id": "Sorotan: nama perusahaan yang salah"
+      },
+      "body": [
+       {
+        "en": "Nadia’s first Arunika letter was written by editing the KilatPay letter. She changed the salutation, the role, the reference number and paragraph three. Paragraph four still said: “I would welcome a conversation about how I could support the onboarding team.” Arunika has no onboarding team. Kak Rina, reading a draft as a favour, found it in four seconds.",
+        "id": "Surat Arunika pertama Nadia ditulis dengan mengedit surat KilatPay. Ia mengubah salam, peran, nomor referensi, dan paragraf tiga. Paragraf empat masih berbunyi: “I would welcome a conversation about how I could support the onboarding team.” Arunika tidak punya tim onboarding. Kak Rina, membaca draf sebagai kebaikan hati, menemukannya dalam empat detik."
+       },
+       {
+        "en": "Mistake 8 on Innes’s list is not really about spelling. It is about the seam between two letters — the sentence that belonged to the last reader. The fix is mechanical and the module makes it a rule: before sending, search the letter for the previous company’s name, its product words and its team names, then read the whole thing aloud once. A reused structure is fine; a reused paragraph is a mass-sent letter with extra steps.",
+        "id": "Kesalahan 8 dalam daftar Innes sebenarnya bukan tentang ejaan. Melainkan tentang jahitan antara dua surat — kalimat yang milik pembaca sebelumnya. Perbaikannya mekanis dan modul ini menjadikannya aturan: sebelum mengirim, cari di surat nama perusahaan sebelumnya, kata-kata produknya, dan nama timnya, lalu baca seluruhnya keras-keras sekali. Struktur yang dipakai ulang tidak apa-apa; paragraf yang dipakai ulang adalah surat massal dengan langkah tambahan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Opening clinic",
+        "id": "Latihan 1 · Klinik pembuka"
+       },
+       "body": {
+        "en": "Rewrite three deficit openings so that each leads with fit or a connection, in two sentences, naming the role: (a) “Although I have no direct experience in banking, I am very eager to learn and believe I can contribute to Bank Sinar Nusantara.” (b) “As a fresh graduate with limited work experience, I am applying for the Management Trainee position at PT Arunika.” (c) “I know I may not be the most qualified candidate, but I am extremely passionate about supply chain.”",
+        "id": "Tulis ulang tiga pembuka yang diawali kekurangan agar masing-masing diawali kecocokan atau koneksi, dalam dua kalimat, menyebut perannya: (a) “Meskipun saya belum punya pengalaman langsung di perbankan, saya sangat ingin belajar dan yakin bisa berkontribusi di Bank Sinar Nusantara.” (b) “Sebagai fresh graduate dengan pengalaman kerja terbatas, saya melamar posisi Management Trainee di PT Arunika.” (c) “Saya tahu saya mungkin bukan kandidat paling memenuhi syarat, tetapi saya sangat bersemangat tentang supply chain.”"
+       },
+       "debrief": {
+        "en": "(a) “I’m applying for the Officer Development Program. Three months reconciling daily reports for three of your Semarang branches showed me the part of banking I want to build a career in: the operations that make the front desk possible.” (b) “I’m applying for the Management Trainee programme (supply chain intake). A conversation with Rina, MT 2023, about the warehouse consolidation in Semarang described exactly the kind of problem I have most enjoyed — a process that works, but not yet fast enough.” (c) “I’m applying for the Graduate Operations Programme. My thesis on inventory turnover at a Tegal retailer, and a year keeping a 300-member organisation’s books to a monthly close, are why supply chain is the field I want to start in.” Each names the role, leads with something true, and gives the reader no deficit to anchor on.",
+        "id": "(a) “Saya melamar Officer Development Program. Tiga bulan merekonsiliasi laporan harian untuk tiga cabang Semarang Anda menunjukkan bagian perbankan tempat saya ingin membangun karier: operasi yang membuat front desk mungkin.” (b) “Saya melamar program Management Trainee (seleksi supply chain). Percakapan dengan Rina, MT 2023, tentang konsolidasi gudang di Semarang menggambarkan persis jenis masalah yang paling saya nikmati — proses yang berjalan, tetapi belum cukup cepat.” (c) “Saya melamar Graduate Operations Programme. Skripsi saya tentang perputaran persediaan di peritel Tegal, dan setahun menjaga pembukuan organisasi beranggotakan 300 orang sampai tutup buku bulanan, adalah alasan supply chain menjadi bidang tempat saya ingin memulai.” Masing-masing menyebut perannya, diawali sesuatu yang benar, dan tidak memberi pembaca kekurangan untuk dijangkarkan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · You-not-I",
+        "id": "Latihan 2 · Anda-bukan-saya"
+       },
+       "body": {
+        "en": "Take the model letter’s paragraph 3 and the first draft of your own paragraph 2. Count the sentences that begin with “I”. Halve them without losing content — begin with “Your team”, “The role”, the work, or the result.",
+        "id": "Ambil paragraf 3 surat model dan draf pertama paragraf 2-mu sendiri. Hitung kalimat yang dimulai dengan “Saya”. Kurangi separuhnya tanpa kehilangan isi — mulai dengan “Tim Anda”, “Peran ini”, pekerjaannya, atau hasilnya."
+       },
+       "debrief": {
+        "en": "“I noticed that one terminal…” becomes “One terminal produced the same mismatch every day; tracing the pattern and flagging it removed…”. The content is identical; the reader hears the work rather than the writer. Aim for no more than half the sentences in the letter opening with “I”, and never three in a row.",
+        "id": "“Saya memperhatikan bahwa satu terminal…” menjadi “Satu terminal menghasilkan selisih yang sama setiap hari; menelusuri polanya dan menandainya menghilangkan…”. Isinya identik; pembaca mendengar pekerjaannya, bukan penulisnya. Targetkan tidak lebih dari separuh kalimat di surat yang dibuka dengan “saya”, dan jangan pernah tiga berturut-turut."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Write your own letter",
+        "id": "Latihan 3 · Tulis suratmu sendiri"
+       },
+       "body": {
+        "en": "For one Top 5 target with an English-language advertisement: find the name; write the four paragraphs from your three lines (Lesson 6.1) and your tailored CV; 250–350 words; then run the eight-mistake audit and the previous-company search.",
+        "id": "Untuk satu sasaran 5 Teratas dengan iklan berbahasa Inggris: cari namanya; tulis empat paragraf dari tiga barismu (Pelajaran 6.1) dan CV yang disesuaikan; 250–350 kata; lalu jalankan audit delapan kesalahan dan pencarian nama perusahaan sebelumnya."
+       },
+       "debrief": {
+        "en": "The paragraph most first drafts get wrong is the third: either flattery (“a leading company in its field”) or an unverified claim from a summary. If you cannot point to where each specific came from — the site, the advertisement, a conversation — cut it and use one you can. The paragraph most first drafts get right by accident is the fourth, because availability is easy; make sure it also restates the top two points in a sentence. Save the letter in the studio as Dossier item 1 for this module.",
+        "id": "Paragraf yang paling sering salah pada draf pertama adalah yang ketiga: entah pujian (“perusahaan terkemuka di bidangnya”) atau klaim tak terverifikasi dari ringkasan. Jika kamu tidak bisa menunjuk dari mana setiap hal spesifik berasal — situs, iklan, percakapan — potong dan pakai yang bisa. Paragraf yang paling sering benar secara kebetulan pada draf pertama adalah yang keempat, karena ketersediaan itu mudah; pastikan juga mengulang dua poin teratas dalam satu kalimat. Simpan suratnya di studio sebagai butir Dossier 1 untuk modul ini."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "“To Whom It May Concern”",
+         "id": "“To Whom It May Concern”"
+        },
+        "fix": {
+         "en": "A name — or “Dear Hiring Team at [Company]”.",
+         "id": "Sebuah nama — atau “Dear Hiring Team at [Company]”."
+        }
+       },
+       {
+        "h": {
+         "en": "Opening with what you lack",
+         "id": "Membuka dengan apa yang tidak kamu miliki"
+        },
+        "fix": {
+         "en": "Role + strongest fit or a genuine connection.",
+         "id": "Peran + kecocokan terkuat atau koneksi tulus."
+        }
+       },
+       {
+        "h": {
+         "en": "Restating the CV",
+         "id": "Mengulang CV"
+        },
+        "fix": {
+         "en": "Expand one highlight into a short story with a number.",
+         "id": "Perluas satu sorotan menjadi cerita singkat dengan angka."
+        }
+       },
+       {
+        "h": {
+         "en": "“I look forward to hearing from you.”",
+         "id": "“Saya menantikan kabar dari Anda.”"
+        },
+        "fix": {
+         "en": "Top two points, an invitation, your availability — and no salary.",
+         "id": "Dua poin teratas, undangan, ketersediaanmu — dan tanpa gaji."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Deficit opening",
+        "id": "Pembuka kekurangan"
+       },
+       "def": {
+        "en": "A first sentence that names what you lack — the most common opening recruiters see, and the easiest to fix.",
+        "id": "Kalimat pertama yang menyebut apa yang tidak kamu miliki — pembuka paling umum yang dilihat rekruter, dan paling mudah diperbaiki."
+       }
+      },
+      {
+       "term": {
+        "en": "Fit evidence",
+        "id": "Bukti kecocokan"
+       },
+       "def": {
+        "en": "Paragraph 2 — one or two CV highlights expanded into a short competency story from the CV’s angle.",
+        "id": "Paragraf 2 — satu atau dua sorotan CV diperluas menjadi cerita kompetensi singkat dari sudut CV."
+       }
+      },
+      {
+       "term": {
+        "en": "Verified specific",
+        "id": "Hal spesifik terverifikasi"
+       },
+       "def": {
+        "en": "A fact about the employer traceable to their own site, the advertisement, recent news or a conversation.",
+        "id": "Fakta tentang perusahaan yang bisa dilacak ke situs mereka sendiri, iklan, berita terkini, atau percakapan."
+       }
+      },
+      {
+       "term": {
+        "en": "“I”-strain",
+        "id": "Beban “saya”"
+       },
+       "def": {
+        "en": "Too many sentences beginning with “I”; halve them by starting with “You”, “Your team” or the work.",
+        "id": "Terlalu banyak kalimat yang dimulai dengan “saya”; kurangi separuhnya dengan memulai dengan “Anda”, “Tim Anda”, atau pekerjaannya."
+       }
+      },
+      {
+       "term": {
+        "en": "Eight-mistake audit",
+        "id": "Audit delapan kesalahan"
+       },
+       "def": {
+        "en": "Innes’s list: no addressee, weak opening, repeating the CV, no call to action, money, too long, mass-sent, typos.",
+        "id": "Daftar Innes: tanpa penerima, pembuka lemah, mengulang CV, tanpa ajakan bertindak, uang, terlalu panjang, dikirim massal, salah ketik."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The best opening element is…",
+        "id": "Elemen pembuka terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "“I am writing to apply for…”",
+         "id": "“Saya menulis untuk melamar…”"
+        },
+        {
+         "en": "The role plus your strongest fit or a genuine connection",
+         "id": "Peran plus kecocokan terkuatmu atau koneksi tulus"
+        },
+        {
+         "en": "An honest statement of what you lack",
+         "id": "Pernyataan jujur tentang apa yang tidak kamu miliki"
+        },
+        {
+         "en": "A quotation",
+         "id": "Sebuah kutipan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The opening is the one place you choose what the reader sees first; never a deficit.",
+        "id": "Pembuka adalah satu-satunya tempat kamu memilih apa yang dilihat pembaca pertama; jangan pernah kekurangan."
+       }
+      },
+      {
+       "q": {
+        "en": "Where does “why them” research come from?",
+        "id": "Dari mana riset “mengapa mereka” berasal?"
+       },
+       "options": [
+        {
+         "en": "An AI summary of the company",
+         "id": "Ringkasan AI tentang perusahaan"
+        },
+        {
+         "en": "The company’s own sources, the advertisement, recent news or a conversation — verified",
+         "id": "Sumber perusahaan sendiri, iklan, berita terkini, atau percakapan — terverifikasi"
+        },
+        {
+         "en": "General knowledge of the industry",
+         "id": "Pengetahuan umum tentang industri"
+        },
+        {
+         "en": "The previous letter",
+         "id": "Surat sebelumnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A wrong specific is worse than none; every fact must be traceable.",
+        "id": "Hal spesifik yang salah lebih buruk daripada tidak ada; setiap fakta harus bisa dilacak."
+       }
+      },
+      {
+       "q": {
+        "en": "Which close is strongest?",
+        "id": "Penutup mana yang terkuat?"
+       },
+       "options": [
+        {
+         "en": "“I look forward to hearing from you.”",
+         "id": "“Saya menantikan kabar dari Anda.”"
+        },
+        {
+         "en": "Top two points in a sentence, an invitation to talk, and your availability",
+         "id": "Dua poin teratas dalam satu kalimat, undangan berbicara, dan ketersediaanmu"
+        },
+        {
+         "en": "Your expected salary and start date",
+         "id": "Ekspektasi gaji dan tanggal mulaimu"
+        },
+        {
+         "en": "A thank-you and a smiley",
+         "id": "Terima kasih dan emotikon senyum"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The close gives the reader a next step; money is never in the letter.",
+        "id": "Penutup memberi pembaca langkah berikutnya; uang tidak pernah ada di surat."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Your four-paragraph letter",
+       "id": "Surat empat paragrafmu"
+      },
+      "body": {
+       "en": "Write the letter for your Top 1 English-language target in the letter studio, next to the tailored CV: salutation with a name, the four paragraphs, 250–350 words, signature line. Run the eight-mistake audit in the studio before saving it as Dossier item 1 — and search the text for any previous employer’s name.",
+       "id": "Tulis surat untuk sasaran Teratas 1 berbahasa Inggris-mu di studio surat, di samping CV yang disesuaikan: salam dengan nama, empat paragraf, 250–350 kata, baris tanda tangan. Jalankan audit delapan kesalahan di studio sebelum menyimpannya sebagai butir Dossier 1 — dan cari di teks nama perusahaan sebelumnya."
+      },
+      "cta": {
+       "en": "Open the letter studio →",
+       "id": "Buka studio surat →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Four paragraphs: opening, fit evidence, why them, close.",
+       "id": "Empat paragraf: pembuka, bukti kecocokan, mengapa mereka, penutup."
+      },
+      {
+       "en": "Same angle as the CV; expand, don’t repeat.",
+       "id": "Sudut yang sama dengan CV; perluas, jangan ulangi."
+      },
+      {
+       "en": "Verified specifics only.",
+       "id": "Hanya hal spesifik terverifikasi."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the paragraph template and the audit",
+       "id": "Sumber, templat paragraf, dan audit"
+      },
+      "lead": {
+       "en": "Four sources, the four paragraphs as a fill-in, and the eight-line audit.",
+       "id": "Empat sumber, empat paragraf sebagai isian, dan audit delapan baris."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 6.2",
+         "id": "Daftar bacaan · Pelajaran 6.2"
+        },
+        "desc": {
+         "en": "Four sources.",
+         "id": "Empat sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, ch. 6 and 14 — deficit openings; the letter’s structure and salutation.",
+          "id": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, bab 6 dan 14 — pembuka kekurangan; struktur dan salam surat."
+         },
+         {
+          "en": "L. Simunovic, §7.2 — the same angle as the CV; the close.",
+          "id": "L. Simunovic, §7.2 — sudut yang sama dengan CV; penutup."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i>, ch. 20 — the named addressee, “I”-strain, never money, the eight mistakes.",
+          "id": "J. Innes, <i>The CV Book</i>, bab 20 — penerima bernama, beban “saya”, jangan pernah uang, delapan kesalahan."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call</i> — connection openings, the close, the P.S.",
+          "id": "P. Ow, <i>Tailor Your Call</i> — pembuka koneksi, penutup, P.S."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Four paragraphs · fill-in",
+         "id": "Empat paragraf · isian"
+        },
+        "desc": {
+         "en": "250–350 words, one page, the CV’s font.",
+         "id": "250–350 kata, satu halaman, huruf CV."
+        },
+        "body": [
+         {
+          "en": "Dear [Mr./Ms. Name], — I’m applying for [role] (ref. [number]). [Connection or strongest fit, one or two sentences — no deficit.]",
+          "id": "Dear [Mr./Ms. Name], — I’m applying for [role] (ref. [number]). [Koneksi atau kecocokan terkuat, satu atau dua kalimat — tanpa kekurangan.]"
+         },
+         {
+          "en": "[One CV highlight as a short story: situation · what you noticed · what you did · result with a number. Optionally a second, shorter, same instinct.]",
+          "id": "[Satu sorotan CV sebagai cerita singkat: situasi · apa yang kamu perhatikan · apa yang kamu lakukan · hasil dengan angka. Opsional yang kedua, lebih singkat, naluri yang sama.]"
+         },
+         {
+          "en": "[Two or three verified specifics about them, each connected to how you work; a readiness line.]",
+          "id": "[Dua atau tiga hal spesifik terverifikasi tentang mereka, masing-masing dihubungkan dengan cara kamu bekerja; satu baris kesiapan.]"
+         },
+         {
+          "en": "[Top two points in one sentence. Invitation to a conversation. Availability and location.] — Kind regards, [Full name] · [email] · [LinkedIn URL]",
+          "id": "[Dua poin teratas dalam satu kalimat. Undangan percakapan. Ketersediaan dan lokasi.] — Kind regards, [Nama lengkap] · [email] · [URL LinkedIn]"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Eight-mistake audit",
+         "id": "Audit delapan kesalahan"
+        },
+        "desc": {
+         "en": "Before every send.",
+         "id": "Sebelum setiap pengiriman."
+        },
+        "body": [
+         {
+          "en": "Named addressee · opening = role + fit/connection, no deficit · no CV restated",
+          "id": "Penerima bernama · pembuka = peran + kecocokan/koneksi, tanpa kekurangan · tanpa CV yang diulang"
+         },
+         {
+          "en": "Close = top two + invitation + availability · no money · one page, 250–350 words",
+          "id": "Penutup = dua teratas + undangan + ketersediaan · tanpa uang · satu halaman, 250–350 kata"
+         },
+         {
+          "en": "Two verified specifics for this employer · previous employer’s name searched and gone · read aloud once",
+          "id": "Dua hal spesifik terverifikasi untuk perusahaan ini · nama perusahaan sebelumnya dicari dan hilang · dibaca keras-keras sekali"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Surat Lamaran Kerja",
+      "id": "Surat Lamaran Kerja Formal"
+     },
+     "overview": {
+      "en": "Many Indonesian employers — especially BUMN, government-linked organisations, banks and established local companies — still expect a formal Indonesian application letter with conventional components. This lesson teaches the format, its eleven components in order, the register, and the one upgrade that makes it work: evidence sentences in place of the traditional claims, with the lampiran list doubling as the completeness check from Module 4.",
+      "id": "Banyak perusahaan Indonesia — terutama BUMN, organisasi terkait pemerintah, bank, dan perusahaan lokal mapan — masih mengharapkan surat lamaran formal berbahasa Indonesia dengan komponen konvensional. Pelajaran ini mengajarkan formatnya, sebelas komponennya secara berurutan, registernya, dan satu peningkatan yang membuatnya berhasil: kalimat bukti menggantikan klaim tradisional, dengan daftar lampiran yang sekaligus menjadi pemeriksaan kelengkapan dari Modul 4."
+     },
+     "objectives": [
+      {
+       "en": "Write a formal surat lamaran with all conventional components.",
+       "id": "Menulis surat lamaran formal dengan semua komponen konvensional."
+      },
+      {
+       "en": "Use the lampiran list as a completeness check.",
+       "id": "Memakai daftar lampiran sebagai pemeriksaan kelengkapan."
+      },
+      {
+       "en": "Add evidence without breaking the formal register.",
+       "id": "Menambahkan bukti tanpa merusak register formal."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Formal format, modern content",
+       "id": "Format formal, isi modern"
+      },
+      "intro": {
+       "en": "Eleven components in a fixed order, a formal register — and two or three evidence sentences where the template puts adjectives.",
+       "id": "Sebelas komponen dalam urutan tetap, register formal — dan dua atau tiga kalimat bukti di tempat templat menaruh kata sifat."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "When",
+         "id": "Kapan"
+        },
+        "points": [
+         {
+          "en": "Advertisement in Bahasa Indonesia; BUMN, government-linked or established local employer; or a portal that asks for a surat lamaran.",
+          "id": "Iklan dalam Bahasa Indonesia; perusahaan BUMN, terkait pemerintah, atau lokal mapan; atau portal yang meminta surat lamaran."
+         },
+         {
+          "en": "Multinationals and startups advertising in English: Lesson 6.2 instead. Follow any handwriting instruction exactly.",
+          "id": "Multinasional dan startup yang beriklan dalam bahasa Inggris: Pelajaran 6.2. Ikuti persis instruksi tulisan tangan bila ada."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The eleven components",
+         "id": "Sebelas komponen"
+        },
+        "points": [
+         {
+          "en": "Tempat, tanggal · Perihal · Lampiran · Kepada Yth. · Dengan hormat · opening · identity block · body · lampiran list · closing · Hormat saya.",
+          "id": "Tempat, tanggal · Perihal · Lampiran · Kepada Yth. · Dengan hormat · pembuka · blok identitas · isi · daftar lampiran · penutup · Hormat saya."
+         },
+         {
+          "en": "One page; the CV’s font; Bapak/Ibu; no abbreviations, no emoji.",
+          "id": "Satu halaman; huruf CV; Bapak/Ibu; tanpa singkatan, tanpa emoji."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The upgrade",
+         "id": "Peningkatan"
+        },
+        "points": [
+         {
+          "en": "Replace “saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” with two or three evidence sentences that show it — same register, real numbers.",
+          "id": "Ganti “saya pribadi yang disiplin, jujur, dan mampu bekerja dalam tim” dengan dua atau tiga kalimat bukti yang menunjukkannya — register yang sama, angka nyata."
+         },
+         {
+          "en": "The lampiran list names every attachment exactly as the advertisement does. If you cannot list it, you have not attached it.",
+          "id": "Daftar lampiran menyebut setiap lampiran persis seperti iklan menyebutnya. Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "compass",
+       "h": {
+        "en": "When to use it",
+        "id": "Kapan memakainya"
+       },
+       "body": {
+        "en": "Use the formal <i>surat lamaran</i> when the advertisement is in Bahasa Indonesia, when the employer is a BUMN, a government-linked organisation, a bank or an established local company, or when the portal or the document list asks for a “surat lamaran”. For multinationals and startups advertising in English, the four-paragraph letter of Lesson 6.2 is what the reader expects, and a formal Indonesian letter there reads as a mismatch of register. <span class=\"ev ev-verify\">Verify per programme</span> Some programmes historically required a handwritten letter (<i>surat lamaran tulis tangan</i>); a few may still specify it, or specify blue ink, or a particular paper size. Whatever the instruction says, follow it exactly — the instruction is itself a test of whether you read the advertisement (Module 4.4).",
+        "id": "Pakai <i>surat lamaran</i> formal ketika iklannya dalam Bahasa Indonesia, ketika perusahaannya BUMN, organisasi terkait pemerintah, bank, atau perusahaan lokal mapan, atau ketika portal atau daftar dokumen meminta “surat lamaran”. Untuk multinasional dan startup yang beriklan dalam bahasa Inggris, surat empat paragraf Pelajaran 6.2 adalah yang diharapkan pembaca, dan surat formal Indonesia di sana terbaca sebagai ketidakcocokan register. <span class=\"ev ev-verify\">Verifikasi per program</span> Sebagian program dahulu mewajibkan surat tulis tangan (<i>surat lamaran tulis tangan</i>); beberapa mungkin masih menetapkannya, atau menetapkan tinta biru, atau ukuran kertas tertentu. Apa pun kata instruksinya, ikuti persis — instruksi itu sendiri adalah ujian apakah kamu membaca iklannya (Modul 4.4)."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The eleven components",
+        "id": "Sebelas komponen"
+       },
+       "body": {
+        "en": "In this order, on one page. Numbers 6, 7 and 8 are where the letter can be good or merely correct; the rest must simply be present and right.",
+        "id": "Dalam urutan ini, di satu halaman. Nomor 6, 7, dan 8 adalah tempat surat bisa bagus atau sekadar benar; sisanya cukup ada dan tepat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "#",
+          "id": "#"
+         },
+         {
+          "en": "Component",
+          "id": "Komponen"
+         },
+         {
+          "en": "Nadia → PT Rel Nusantara",
+          "id": "Nadia → PT Rel Nusantara"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Tempat, tanggal",
+           "id": "Tempat, tanggal"
+          },
+          {
+           "en": "Semarang, 2 Oktober 2026",
+           "id": "Semarang, 2 Oktober 2026"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Perihal: Lamaran Pekerjaan sebagai [Posisi]",
+           "id": "Perihal: Lamaran Pekerjaan sebagai [Posisi]"
+          },
+          {
+           "en": "Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional",
+           "id": "Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "Lampiran: number of documents",
+           "id": "Lampiran: jumlah dokumen"
+          },
+          {
+           "en": "Lampiran: 6 (enam) berkas",
+           "id": "Lampiran: 6 (enam) berkas"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "Kepada Yth. [Name / Bapak/Ibu Manajer Rekrutmen], [Company], [address]",
+           "id": "Kepada Yth. [Nama / Bapak/Ibu Manajer Rekrutmen], [Perusahaan], [alamat]"
+          },
+          {
+           "en": "Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta",
+           "id": "Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "Dengan hormat,",
+           "id": "Dengan hormat,"
+          },
+          {
+           "en": "Dengan hormat,",
+           "id": "Dengan hormat,"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "Opening — the position and where you saw it",
+           "id": "Pembuka — posisi dan di mana kamu melihatnya"
+          },
+          {
+           "en": "Berdasarkan pengumuman Rekrutmen Bersama BUMN pada [tanggal], saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara.",
+           "id": "Berdasarkan pengumuman Rekrutmen Bersama BUMN pada [tanggal], saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara."
+          }
+         ],
+         [
+          {
+           "en": "7",
+           "id": "7"
+          },
+          {
+           "en": "Identity block — only what is needed",
+           "id": "Blok identitas — hanya yang diperlukan"
+          },
+          {
+           "en": "Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email · (date of birth only if required)",
+           "id": "Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email · (tanggal lahir hanya jika diwajibkan)"
+          }
+         ],
+         [
+          {
+           "en": "8",
+           "id": "8"
+          },
+          {
+           "en": "Body — two or three evidence sentences",
+           "id": "Isi — dua atau tiga kalimat bukti"
+          },
+          {
+           "en": "The upgrade — section 3",
+           "id": "Peningkatan — bagian 3"
+          }
+         ],
+         [
+          {
+           "en": "9",
+           "id": "9"
+          },
+          {
+           "en": "Lampiran list",
+           "id": "Daftar lampiran"
+          },
+          {
+           "en": "1. Daftar Riwayat Hidup (CV) 2. Fotokopi Ijazah / SKL 3. Transkrip Nilai 4. Fotokopi KTP 5. Pas foto 4×6 6. Sertifikat TOEFL",
+           "id": "1. Daftar Riwayat Hidup (CV) 2. Fotokopi Ijazah / SKL 3. Transkrip Nilai 4. Fotokopi KTP 5. Pas foto 4×6 6. Sertifikat TOEFL"
+          }
+         ],
+         [
+          {
+           "en": "10",
+           "id": "10"
+          },
+          {
+           "en": "Closing — availability and thanks",
+           "id": "Penutup — ketersediaan dan terima kasih"
+          },
+          {
+           "en": "Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih.",
+           "id": "Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih."
+          }
+         ],
+         [
+          {
+           "en": "11",
+           "id": "11"
+          },
+          {
+           "en": "Hormat saya, signature, full name",
+           "id": "Hormat saya, tanda tangan, nama lengkap"
+          },
+          {
+           "en": "Hormat saya, [tanda tangan] Nadia Putri",
+           "id": "Hormat saya, [tanda tangan] Nadia Putri"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The upgrade: evidence inside the formal register",
+        "id": "Peningkatan: bukti di dalam register formal"
+       },
+       "body": {
+        "en": "Traditional templates fill the body with claims — “<i>saya adalah pribadi yang disiplin, jujur, dan mampu bekerja dalam tim</i>” — which every other applicant’s template also contains, so the reader learns nothing. Keep the register; replace the claims with evidence. The body becomes two or three sentences that each name a setting, an action and a result with a number, in formal Indonesian. The adjectives are not stated; they are demonstrated, and the reader supplies them.",
+        "id": "Templat tradisional mengisi isi surat dengan klaim — “<i>saya adalah pribadi yang disiplin, jujur, dan mampu bekerja dalam tim</i>” — yang juga ada di templat setiap pelamar lain, sehingga pembaca tidak belajar apa-apa. Pertahankan registernya; ganti klaim dengan bukti. Isinya menjadi dua atau tiga kalimat yang masing-masing menyebut latar, tindakan, dan hasil dengan angka, dalam bahasa Indonesia formal. Kata sifatnya tidak dinyatakan; kata sifat itu diperlihatkan, dan pembaca yang melengkapinya."
+       },
+       "quote": {
+        "text": {
+         "en": "Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
+         "id": "Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun."
+        },
+        "who": {
+         "en": "Two sentences, formal register, no adjectives — and the reader concludes “teliti, bertanggung jawab, berinisiatif” without being told.",
+         "id": "Dua kalimat, register formal, tanpa kata sifat — dan pembaca menyimpulkan “teliti, bertanggung jawab, berinisiatif” tanpa diberitahu."
+        }
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Template claim",
+          "id": "Klaim templat"
+         },
+         {
+          "en": "Evidence sentence, same register",
+          "id": "Kalimat bukti, register yang sama"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Saya pribadi yang teliti dan bertanggung jawab.",
+           "id": "Saya pribadi yang teliti dan bertanggung jawab."
+          },
+          {
+           "en": "Selama magang di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal.",
+           "id": "Selama magang di unit operasional, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal."
+          }
+         ],
+         [
+          {
+           "en": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan.",
+           "id": "Saya mampu bekerja dalam tim dan memiliki jiwa kepemimpinan."
+          },
+          {
+           "en": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta.",
+           "id": "Sebagai Kepala Divisi Sponsorship, saya memimpin tim enam orang yang menghimpun Rp 85 juta dari sebelas sponsor untuk kompetisi berskala nasional dengan 1.200 peserta."
+          }
+         ],
+         [
+          {
+           "en": "Saya jujur dan disiplin dalam mengelola keuangan.",
+           "id": "Saya jujur dan disiplin dalam mengelola keuangan."
+          },
+          {
+           "en": "Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.",
+           "id": "Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun."
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "check",
+       "h": {
+        "en": "The lampiran list is your completeness check",
+        "id": "Daftar lampiran adalah pemeriksaan kelengkapanmu"
+       },
+       "body": {
+        "en": "List every attached document exactly as the advertisement names them, in the advertisement’s order: <i>1. Daftar Riwayat Hidup (CV); 2. Fotokopi Ijazah / SKL; 3. Transkrip Nilai; 4. Fotokopi KTP; 5. Pas foto 4×6; 6. Sertifikat TOEFL.</i> The number in component 3 (<i>Lampiran: 6 berkas</i>) must equal the number of items in the list, which must equal the number of files actually attached. If you cannot list it, you have not attached it — and the list, written before you press send, is Module 4.4’s document check in another form. Use the advertisement’s own nouns: if it says <i>Surat Keterangan Lulus</i>, do not write <i>Ijazah</i>; if it asks for <i>pas foto berlatar merah</i>, the list says so, and so does the file.",
+        "id": "Cantumkan setiap dokumen terlampir persis seperti iklan menyebutnya, dalam urutan iklan: <i>1. Daftar Riwayat Hidup (CV); 2. Fotokopi Ijazah / SKL; 3. Transkrip Nilai; 4. Fotokopi KTP; 5. Pas foto 4×6; 6. Sertifikat TOEFL.</i> Angka di komponen 3 (<i>Lampiran: 6 berkas</i>) harus sama dengan jumlah butir di daftar, yang harus sama dengan jumlah berkas yang benar-benar dilampirkan. Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya — dan daftar itu, ditulis sebelum menekan kirim, adalah pemeriksaan dokumen Modul 4.4 dalam bentuk lain. Pakai kata benda iklan sendiri: jika iklan menyebut <i>Surat Keterangan Lulus</i>, jangan tulis <i>Ijazah</i>; jika meminta <i>pas foto berlatar merah</i>, daftarnya menyebut demikian, dan berkasnya juga."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Register",
+        "id": "Register"
+       },
+       "body": {
+        "en": "Formal but not archaic: no <i>“yang bertanda tangan di bawah ini”</i> unless the employer’s own template uses it; no <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> as a substitute for content. Use <i>Bapak/Ibu</i>; avoid abbreviations (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, and English words where an Indonesian one exists (<i>magang</i>, not <i>internship</i>, unless the programme name is English). One page; the same font as the CV. Proofread for <i>ejaan</i> (PUEBI/EYD) — especially <i>di-</i> as a prefix (<i>ditempatkan</i>) versus <i>di</i> as a preposition (<i>di Semarang</i>), capitalisation of titles (<i>Bapak Manajer Rekrutmen</i>), and number formats (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). A surat lamaran with three spelling errors is read as three careless acts by someone asking to handle the company’s operations.",
+        "id": "Formal tetapi tidak kuno: tanpa <i>“yang bertanda tangan di bawah ini”</i> kecuali templat perusahaan sendiri memakainya; tanpa <i>“demikian surat lamaran ini saya buat dengan sebenar-benarnya”</i> sebagai pengganti isi. Pakai <i>Bapak/Ibu</i>; hindari singkatan (<i>yg</i>, <i>dgn</i>, <i>tsb</i>), emoji, dan kata Inggris bila ada padanan Indonesianya (<i>magang</i>, bukan <i>internship</i>, kecuali nama programnya berbahasa Inggris). Satu halaman; huruf yang sama dengan CV. Periksa <i>ejaan</i> (PUEBI/EYD) — terutama <i>di-</i> sebagai awalan (<i>ditempatkan</i>) versus <i>di</i> sebagai kata depan (<i>di Semarang</i>), kapitalisasi jabatan (<i>Bapak Manajer Rekrutmen</i>), dan format angka (<i>Rp 85 juta</i>, <i>3,38</i>, <i>1.200 peserta</i>). Surat lamaran dengan tiga kesalahan ejaan dibaca sebagai tiga tindakan ceroboh oleh seseorang yang meminta menangani operasi perusahaan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "✗",
+          "id": "✗"
+         },
+         {
+          "en": "✓",
+          "id": "✓"
+         },
+         {
+          "en": "Why",
+          "id": "Mengapa"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "bersedia di tempatkan",
+           "id": "bersedia di tempatkan"
+          },
+          {
+           "en": "bersedia ditempatkan",
+           "id": "bersedia ditempatkan"
+          },
+          {
+           "en": "<i>di-</i> is a prefix on a verb",
+           "id": "<i>di-</i> adalah awalan pada kata kerja"
+          }
+         ],
+         [
+          {
+           "en": "di Semarang → disemarang",
+           "id": "di Semarang → disemarang"
+          },
+          {
+           "en": "di Semarang",
+           "id": "di Semarang"
+          },
+          {
+           "en": "<i>di</i> is a preposition before a place",
+           "id": "<i>di</i> adalah kata depan sebelum tempat"
+          }
+         ],
+         [
+          {
+           "en": "Rp. 85.000.000,-",
+           "id": "Rp. 85.000.000,-"
+          },
+          {
+           "en": "Rp 85 juta / Rp85.000.000",
+           "id": "Rp 85 juta / Rp85.000.000"
+          },
+          {
+           "en": "No full stop after Rp; no trailing “,-”",
+           "id": "Tanpa titik setelah Rp; tanpa “,-” di akhir"
+          }
+         ],
+         [
+          {
+           "en": "IPK 3.38",
+           "id": "IPK 3.38"
+          },
+          {
+           "en": "IPK 3,38",
+           "id": "IPK 3,38"
+          },
+          {
+           "en": "Indonesian decimal comma",
+           "id": "Koma desimal Indonesia"
+          }
+         ],
+         [
+          {
+           "en": "kepada yth bpk/ibu HRD",
+           "id": "kepada yth bpk/ibu HRD"
+          },
+          {
+           "en": "Kepada Yth. Bapak/Ibu Manajer Rekrutmen",
+           "id": "Kepada Yth. Bapak/Ibu Manajer Rekrutmen"
+          },
+          {
+           "en": "Capitals, no abbreviations, the role not the department",
+           "id": "Kapital, tanpa singkatan, jabatannya bukan departemennya"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 3: The surat lamaran, top to bottom",
+       "id": "Peraga 3: Surat lamaran, dari atas ke bawah"
+      },
+      "title": {
+       "en": "Eleven components, one page",
+       "id": "Sebelas komponen, satu halaman"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Header (1–5)",
+         "id": "Kepala surat (1–5)"
+        },
+        "sub": {
+         "en": "Tempat, tanggal · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat,",
+         "id": "Tempat, tanggal · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat,"
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Opening (6)",
+         "id": "Pembuka (6)"
+        },
+        "sub": {
+         "en": "The position and where you saw it — one sentence.",
+         "id": "Posisi dan di mana kamu melihatnya — satu kalimat."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Identity (7)",
+         "id": "Identitas (7)"
+        },
+        "sub": {
+         "en": "Name · education with IPK · phone · email. Date of birth only if required.",
+         "id": "Nama · pendidikan dengan IPK · telepon · email. Tanggal lahir hanya jika diwajibkan."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Body (8)",
+         "id": "Isi (8)"
+        },
+        "sub": {
+         "en": "Two or three evidence sentences — setting, action, result with a number. No adjectives.",
+         "id": "Dua atau tiga kalimat bukti — latar, tindakan, hasil dengan angka. Tanpa kata sifat."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Lampiran and close (9–11)",
+         "id": "Lampiran dan penutup (9–11)"
+        },
+        "sub": {
+         "en": "The numbered list in the advertisement’s words · availability and thanks · Hormat saya, signature, full name.",
+         "id": "Daftar bernomor dalam kata-kata iklan · ketersediaan dan terima kasih · Hormat saya, tanda tangan, nama lengkap."
+        }
+       }
+      ],
+      "note": {
+       "en": "Everything above the body is convention; the body is where the letter earns its reading.",
+       "id": "Semua di atas isi adalah konvensi; isilah tempat surat mendapatkan pembacanya."
+      },
+      "longdesc": {
+       "en": "A five-rung ladder of the surat lamaran from top to bottom: the header with place and date, subject, attachment count, addressee and Dengan hormat; the one-sentence opening naming the position and source; the identity block with name, education and contact; the body of two or three evidence sentences; and the numbered lampiran list, the closing with availability and thanks, and Hormat saya with signature and full name.",
+       "id": "Tangga lima anak surat lamaran dari atas ke bawah: kepala surat dengan tempat dan tanggal, perihal, jumlah lampiran, penerima, dan Dengan hormat; pembuka satu kalimat yang menyebut posisi dan sumber; blok identitas dengan nama, pendidikan, dan kontak; isi dua atau tiga kalimat bukti; dan daftar lampiran bernomor, penutup dengan ketersediaan dan terima kasih, serta Hormat saya dengan tanda tangan dan nama lengkap."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two bodies, same register",
+        "id": "Dua isi, register yang sama"
+       },
+       "q": {
+        "en": "Component 8 of Nadia’s letter to PT Rel Nusantara.",
+        "id": "Komponen 8 surat Nadia ke PT Rel Nusantara."
+       },
+       "weak": {
+        "en": "“Saya adalah lulusan Manajemen yang disiplin, jujur, bertanggung jawab, dan mampu bekerja dalam tim maupun individu. Saya memiliki motivasi tinggi untuk berkembang dan siap bekerja keras demi kemajuan perusahaan.”",
+        "id": "“Saya adalah lulusan Manajemen yang disiplin, jujur, bertanggung jawab, dan mampu bekerja dalam tim maupun individu. Saya memiliki motivasi tinggi untuk berkembang dan siap bekerja keras demi kemajuan perusahaan.”"
+       },
+       "strong": {
+        "en": "“Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”",
+        "id": "“Selama magang tiga bulan di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan transaksi harian tiga kantor cabang dan menemukan selisih berulang pada satu terminal; perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual setiap hari. Sebagai Bendahara HIMA Manajemen, saya menata ulang pembukuan organisasi sehingga audit fakultas tidak menemukan temuan untuk pertama kalinya dalam tiga tahun.”"
+       },
+       "why": {
+        "en": "The weak body is the template every other applicant sent; six adjectives, no evidence, nothing the reader can check. The strong body is the same length, the same register, and every clause can be verified at interview — which is the point.",
+        "id": "Isi lemah adalah templat yang dikirim setiap pelamar lain; enam kata sifat, tanpa bukti, tidak ada yang bisa diperiksa pembaca. Isi kuat sama panjangnya, register yang sama, dan setiap klausa bisa diverifikasi saat wawancara — itulah intinya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: Lampiran: 6 berkas, five attached",
+       "id": "Sorotan: Lampiran: 6 berkas, lima terlampir"
+      },
+      "body": [
+       {
+        "en": "The BUMN portal Nadia uses for PT Rel Nusantara accepts one merged PDF: the surat lamaran first, then the documents in the order the advertisement lists them. Her draft says <i>Lampiran: 6 (enam) berkas</i> and the numbered list has six items. The merged PDF has five — the TOEFL certificate is missing, because on the day she built the file the new one had not arrived, and she meant to add it.",
+        "id": "Portal BUMN yang dipakai Nadia untuk PT Rel Nusantara menerima satu PDF gabungan: surat lamaran dulu, lalu dokumen dalam urutan yang dicantumkan iklan. Drafnya berbunyi <i>Lampiran: 6 (enam) berkas</i> dan daftar bernomornya punya enam butir. PDF gabungannya punya lima — sertifikat TOEFL hilang, karena pada hari ia menyusun berkasnya sertifikat baru belum tiba, dan ia bermaksud menambahkannya."
+       },
+       {
+        "en": "This is why the lampiran list is written before the send, and read against the actual file after it is merged: a letter that promises six and delivers five tells the administrative screener two things at once — that a required document is absent, and that the applicant did not check. The count, the list and the file agree, or the letter does not go. Nadia’s Module 4 pre-flight already has the line; the surat lamaran gives it a second place to be caught.",
+        "id": "Itulah mengapa daftar lampiran ditulis sebelum pengiriman, dan dibaca terhadap berkas sebenarnya setelah digabung: surat yang menjanjikan enam dan memberikan lima memberitahu penyaring administrasi dua hal sekaligus — bahwa dokumen wajib tidak ada, dan bahwa pelamar tidak memeriksa. Jumlah, daftar, dan berkasnya sepakat, atau suratnya tidak dikirim. Pra-kirim Modul 4 Nadia sudah punya barisnya; surat lamaran memberi tempat kedua untuk menangkapnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Upgrade a template",
+        "id": "Latihan 1 · Tingkatkan templat"
+       },
+       "body": {
+        "en": "A generic surat lamaran body: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Replace three of its claims with evidence sentences from your own pantry (Module 3.3) — same register, a number in each.",
+        "id": "Isi surat lamaran generik: “Saya adalah pribadi yang jujur, disiplin, dan bertanggung jawab. Saya mampu bekerja dalam tim maupun secara individu, memiliki kemampuan komunikasi yang baik, dan siap belajar hal-hal baru. Saya juga menguasai Microsoft Office.” Ganti tiga klaimnya dengan kalimat bukti dari lemarimu sendiri (Modul 3.3) — register yang sama, satu angka di masing-masing."
+       },
+       "debrief": {
+        "en": "The test for each new sentence: could an interviewer ask “tell me more about that” and get a story? “Jujur dan disiplin” cannot be asked about; “menata ulang pembukuan sehingga audit tidak menemukan temuan” can. “Menguasai Microsoft Office” becomes the specific tool and what it was used for: “menyusun laporan rekonsiliasi harian dengan Microsoft Excel (pivot table, VLOOKUP)”. Three sentences is the ceiling for the body; the CV holds the rest.",
+        "id": "Ujinya untuk setiap kalimat baru: bisakah pewawancara bertanya “ceritakan lebih lanjut” dan mendapat cerita? “Jujur dan disiplin” tidak bisa ditanyakan; “menata ulang pembukuan sehingga audit tidak menemukan temuan” bisa. “Menguasai Microsoft Office” menjadi alat spesifik dan untuk apa dipakai: “menyusun laporan rekonsiliasi harian dengan Microsoft Excel (pivot table, VLOOKUP)”. Tiga kalimat adalah batas atas untuk isi; CV memuat sisanya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The lampiran list against an advertisement",
+        "id": "Latihan 2 · Daftar lampiran terhadap iklan"
+       },
+       "body": {
+        "en": "A BUMN-style advertisement lists: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Write components 3 and 9 for this advertisement. Which items are conditional, and how does the list handle them?",
+        "id": "Iklan gaya BUMN mencantumkan: “Surat lamaran; Daftar Riwayat Hidup; Scan Ijazah atau Surat Keterangan Lulus; Scan Transkrip Nilai; Scan KTP; Pas foto terbaru berlatar merah ukuran 4×6; Sertifikat TOEFL (maksimal 2 tahun); Surat Keterangan Sehat (jika sudah ada).” Tulis komponen 3 dan 9 untuk iklan ini. Butir mana yang bersyarat, dan bagaimana daftar menanganinya?"
+       },
+       "debrief": {
+        "en": "The surat lamaran itself is not an attachment to itself, so the list has seven or six items: CV; Scan Surat Keterangan Lulus (use the one you actually have — SKL, not Ijazah, if the ijazah has not been issued); Scan Transkrip Nilai; Scan KTP; Pas foto berlatar merah 4×6; Sertifikat TOEFL (dated within two years — Module 4’s expired-certificate case applies); and Surat Keterangan Sehat only if you have it — omit it from the list rather than promise it. <i>Lampiran: 7 (tujuh) berkas</i> or <i>6 (enam) berkas</i> accordingly, and the merged file matches.",
+        "id": "Surat lamaran sendiri bukan lampiran bagi dirinya, jadi daftarnya punya tujuh atau enam butir: CV; Scan Surat Keterangan Lulus (pakai yang benar-benar kamu punya — SKL, bukan Ijazah, jika ijazah belum terbit); Scan Transkrip Nilai; Scan KTP; Pas foto berlatar merah 4×6; Sertifikat TOEFL (bertanggal dalam dua tahun — kasus sertifikat kedaluwarsa Modul 4 berlaku); dan Surat Keterangan Sehat hanya jika kamu punya — hilangkan dari daftar daripada menjanjikannya. <i>Lampiran: 7 (tujuh) berkas</i> atau <i>6 (enam) berkas</i> sesuai itu, dan berkas gabungannya cocok."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Proofread for ejaan",
+        "id": "Latihan 3 · Periksa ejaan"
+       },
+       "body": {
+        "en": "Find and fix the errors in this closing: “Saya bersedia di tempatkan di seluruh indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian bpk/ibu saya ucapkan terimakasih. Hormat Saya, nadia putri.”",
+        "id": "Temukan dan perbaiki kesalahan dalam penutup ini: “Saya bersedia di tempatkan di seluruh indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian bpk/ibu saya ucapkan terimakasih. Hormat Saya, nadia putri.”"
+       },
+       "debrief": {
+        "en": "Six: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Corrected: “Saya bersedia ditempatkan di seluruh Indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Read the whole letter once for <i>di-</i>/<i>di</i>, once for capitals, once for numbers.",
+        "id": "Enam: <i>di tempatkan</i> → <i>ditempatkan</i>; <i>indonesia</i> → <i>Indonesia</i>; <i>bpk/ibu</i> → <i>Bapak/Ibu</i>; <i>terimakasih</i> → <i>terima kasih</i>; <i>Hormat Saya</i> → <i>Hormat saya</i>; <i>nadia putri</i> → <i>Nadia Putri</i>. Dikoreksi: “Saya bersedia ditempatkan di seluruh Indonesia dan siap mengikuti seleksi kapan pun. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. Hormat saya, Nadia Putri.” Baca seluruh surat sekali untuk <i>di-</i>/<i>di</i>, sekali untuk kapital, sekali untuk angka."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A body made of adjectives",
+         "id": "Isi yang terbuat dari kata sifat"
+        },
+        "fix": {
+         "en": "Two or three evidence sentences — setting, action, result with a number.",
+         "id": "Dua atau tiga kalimat bukti — latar, tindakan, hasil dengan angka."
+        }
+       },
+       {
+        "h": {
+         "en": "Lampiran count, list and file that disagree",
+         "id": "Jumlah lampiran, daftar, dan berkas yang tidak sepakat"
+        },
+        "fix": {
+         "en": "Write the list from the advertisement; check it against the merged file before sending.",
+         "id": "Tulis daftar dari iklan; periksa terhadap berkas gabungan sebelum mengirim."
+        }
+       },
+       {
+        "h": {
+         "en": "A formal surat lamaran sent to a startup advertising in English",
+         "id": "Surat lamaran formal dikirim ke startup yang beriklan dalam bahasa Inggris"
+        },
+        "fix": {
+         "en": "Match the format to the advertisement’s language and the employer type.",
+         "id": "Cocokkan format dengan bahasa iklan dan jenis perusahaan."
+        }
+       },
+       {
+        "h": {
+         "en": "di tempatkan · bpk/ibu · IPK 3.38",
+         "id": "di tempatkan · bpk/ibu · IPK 3.38"
+        },
+        "fix": {
+         "en": "Proofread for prefixes, capitals, abbreviations and number formats.",
+         "id": "Periksa awalan, kapital, singkatan, dan format angka."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Surat lamaran kerja",
+        "id": "Surat lamaran kerja"
+       },
+       "def": {
+        "en": "The formal Indonesian application letter with eleven conventional components on one page.",
+        "id": "Surat lamaran Indonesia formal dengan sebelas komponen konvensional di satu halaman."
+       }
+      },
+      {
+       "term": {
+        "en": "Perihal",
+        "id": "Perihal"
+       },
+       "def": {
+        "en": "The subject line: “Lamaran Pekerjaan sebagai [Posisi]”.",
+        "id": "Baris perihal: “Lamaran Pekerjaan sebagai [Posisi]”."
+       }
+      },
+      {
+       "term": {
+        "en": "Lampiran",
+        "id": "Lampiran"
+       },
+       "def": {
+        "en": "The attachment count in the header and the numbered list near the end — written in the advertisement’s words; the completeness check.",
+        "id": "Jumlah lampiran di kepala surat dan daftar bernomor menjelang akhir — ditulis dalam kata-kata iklan; pemeriksaan kelengkapan."
+       }
+      },
+      {
+       "term": {
+        "en": "Kepada Yth.",
+        "id": "Kepada Yth."
+       },
+       "def": {
+        "en": "“Kepada Yang Terhormat” — the addressee line: a name, or Bapak/Ibu Manajer Rekrutmen, then the company and address.",
+        "id": "“Kepada Yang Terhormat” — baris penerima: nama, atau Bapak/Ibu Manajer Rekrutmen, lalu perusahaan dan alamat."
+       }
+      },
+      {
+       "term": {
+        "en": "Evidence sentence",
+        "id": "Kalimat bukti"
+       },
+       "def": {
+        "en": "A formal-register sentence naming a setting, an action and a result with a number — the replacement for a template claim.",
+        "id": "Kalimat register formal yang menyebut latar, tindakan, dan hasil dengan angka — pengganti klaim templat."
+       }
+      },
+      {
+       "term": {
+        "en": "Ejaan (PUEBI/EYD)",
+        "id": "Ejaan (PUEBI/EYD)"
+       },
+       "def": {
+        "en": "The Indonesian spelling standard: di- prefix versus di preposition, capitals, Rp and decimal formats.",
+        "id": "Standar ejaan Indonesia: awalan di- versus kata depan di, kapital, format Rp dan desimal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which element of the surat lamaran doubles as a completeness check?",
+        "id": "Elemen surat lamaran mana yang sekaligus menjadi pemeriksaan kelengkapan?"
+       },
+       "options": [
+        {
+         "en": "The perihal line",
+         "id": "Baris perihal"
+        },
+        {
+         "en": "The lampiran list",
+         "id": "Daftar lampiran"
+        },
+        {
+         "en": "The identity block",
+         "id": "Blok identitas"
+        },
+        {
+         "en": "The signature",
+         "id": "Tanda tangan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "If you cannot list it in the advertisement’s words, you have not attached it.",
+        "id": "Jika kamu tidak bisa mencantumkannya dalam kata-kata iklan, kamu belum melampirkannya."
+       }
+      },
+      {
+       "q": {
+        "en": "“Saya pribadi yang jujur dan disiplin” should become…",
+        "id": "“Saya pribadi yang jujur dan disiplin” sebaiknya menjadi…"
+       },
+       "options": [
+        {
+         "en": "“Saya sangat jujur dan sangat disiplin”",
+         "id": "“Saya sangat jujur dan sangat disiplin”"
+        },
+        {
+         "en": "An evidence sentence that shows it — setting, action, result with a number",
+         "id": "Kalimat bukti yang menunjukkannya — latar, tindakan, hasil dengan angka"
+        },
+        {
+         "en": "A list of five more adjectives",
+         "id": "Daftar lima kata sifat lagi"
+        },
+        {
+         "en": "The same sentence in English",
+         "id": "Kalimat yang sama dalam bahasa Inggris"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The reader supplies the adjective when the evidence earns it.",
+        "id": "Pembaca melengkapi kata sifatnya ketika buktinya layak."
+       }
+      },
+      {
+       "q": {
+        "en": "Date of birth in the identity block?",
+        "id": "Tanggal lahir di blok identitas?"
+       },
+       "options": [
+        {
+         "en": "Always",
+         "id": "Selalu"
+        },
+        {
+         "en": "Never",
+         "id": "Tidak pernah"
+        },
+        {
+         "en": "Only if the advertisement requires it",
+         "id": "Hanya jika iklan mewajibkannya"
+        },
+        {
+         "en": "Only for BUMN",
+         "id": "Hanya untuk BUMN"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The identity block holds only what is needed; follow the advertisement.",
+        "id": "Blok identitas hanya memuat yang diperlukan; ikuti iklannya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Your surat lamaran",
+       "id": "Surat lamaranmu"
+      },
+      "body": {
+       "en": "In the letter studio, write the surat lamaran for your nearest Indonesian-language target: all eleven components in order, two or three evidence sentences from your pantry, and the lampiran list copied from the advertisement’s own document list. Check count = list = files, then proofread for di-/di, capitals and numbers. Save it as Dossier item 2 for this module.",
+       "id": "Di studio surat, tulis surat lamaran untuk sasaran berbahasa Indonesia terdekatmu: kesebelas komponen berurutan, dua atau tiga kalimat bukti dari lemarimu, dan daftar lampiran yang disalin dari daftar dokumen iklan sendiri. Periksa jumlah = daftar = berkas, lalu periksa ejaan di-/di, kapital, dan angka. Simpan sebagai butir Dossier 2 untuk modul ini."
+      },
+      "cta": {
+       "en": "Open the letter studio →",
+       "id": "Buka studio surat →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Formal format, modern content.",
+       "id": "Format formal, isi modern."
+      },
+      {
+       "en": "Lampiran = checklist.",
+       "id": "Lampiran = daftar periksa."
+      },
+      {
+       "en": "Evidence reads well in any register.",
+       "id": "Bukti terbaca baik dalam register apa pun."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The template and the proofreading card",
+       "id": "Templat dan kartu pemeriksaan ejaan"
+      },
+      "lead": {
+       "en": "The eleven components as a fill-in, and the three-pass proofread. The English-language sources do not cover this format; the components follow common Indonesian practice.",
+       "id": "Sebelas komponen sebagai isian, dan pemeriksaan ejaan tiga putaran. Sumber berbahasa Inggris tidak membahas format ini; komponennya mengikuti praktik umum Indonesia."
+      },
+      "items": [
+       {
+        "kind": "template",
+        "title": {
+         "en": "Surat lamaran · eleven components",
+         "id": "Surat lamaran · sebelas komponen"
+        },
+        "desc": {
+         "en": "One page, the CV’s font.",
+         "id": "Satu halaman, huruf CV."
+        },
+        "body": [
+         {
+          "en": "[Kota], [tanggal bulan tahun] · Perihal: Lamaran Pekerjaan sebagai [Posisi] · Lampiran: [n] ([n in words]) berkas",
+          "id": "[Kota], [tanggal bulan tahun] · Perihal: Lamaran Pekerjaan sebagai [Posisi] · Lampiran: [n] ([n dalam kata]) berkas"
+         },
+         {
+          "en": "Kepada Yth. [Nama / Bapak/Ibu Manajer Rekrutmen] · [Perusahaan] · [alamat] — Dengan hormat,",
+          "id": "Kepada Yth. [Nama / Bapak/Ibu Manajer Rekrutmen] · [Perusahaan] · [alamat] — Dengan hormat,"
+         },
+         {
+          "en": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]. — Nama: · Pendidikan: [gelar, universitas, IPK] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)",
+          "id": "Berdasarkan [sumber iklan] pada [tanggal], saya bermaksud melamar posisi [Posisi] di [Perusahaan]. — Nama: · Pendidikan: [gelar, universitas, IPK] · Telepon: · Email: (tanggal lahir hanya jika diwajibkan)"
+         },
+         {
+          "en": "[Evidence sentence 1 — setting, action, result with a number.] [Evidence sentence 2.] [Evidence sentence 3, optional.]",
+          "id": "[Kalimat bukti 1 — latar, tindakan, hasil dengan angka.] [Kalimat bukti 2.] [Kalimat bukti 3, opsional.]"
+         },
+         {
+          "en": "Sebagai bahan pertimbangan, saya lampirkan: 1. … 2. … (in the advertisement’s words and order) — Saya bersedia [penempatan] dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. — Hormat saya, [tanda tangan] [Nama Lengkap]",
+          "id": "Sebagai bahan pertimbangan, saya lampirkan: 1. … 2. … (dalam kata-kata dan urutan iklan) — Saya bersedia [penempatan] dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. — Hormat saya, [tanda tangan] [Nama Lengkap]"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Three-pass proofread",
+         "id": "Pemeriksaan ejaan tiga putaran"
+        },
+        "desc": {
+         "en": "Once each, whole letter.",
+         "id": "Sekali masing-masing, seluruh surat."
+        },
+        "body": [
+         {
+          "en": "Pass 1 — di-/di: ditempatkan, dilampirkan (prefix) · di Semarang, di PT (preposition)",
+          "id": "Putaran 1 — di-/di: ditempatkan, dilampirkan (awalan) · di Semarang, di PT (kata depan)"
+         },
+         {
+          "en": "Pass 2 — capitals and abbreviations: Bapak/Ibu, Yth., Indonesia, company and programme names; no yg/dgn/tsb; terima kasih as two words",
+          "id": "Putaran 2 — kapital dan singkatan: Bapak/Ibu, Yth., Indonesia, nama perusahaan dan program; tanpa yg/dgn/tsb; terima kasih dua kata"
+         },
+         {
+          "en": "Pass 3 — numbers and the lampiran: Rp 85 juta · 3,38 · 1.200 · count = list = files",
+          "id": "Putaran 3 — angka dan lampiran: Rp 85 juta · 3,38 · 1.200 · jumlah = daftar = berkas"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Emails, Criteria Statements and Speculative Letters",
+      "id": "Email, Pernyataan Kriteria, dan Surat Spekulatif"
+     },
+     "overview": {
+      "en": "Three shorter formats that most graduates meet and few prepare for: the application email that carries the letter in its body and the CV in a correctly named attachment; the selection-criteria statement that NGOs, international organisations and scholarships ask for; and the speculative letter to an employer with no posting — which works only when it is sent to a named person after a conversation.",
+      "id": "Tiga format lebih singkat yang ditemui kebanyakan lulusan dan jarang disiapkan: email lamaran yang memuat surat di badannya dan CV di lampiran bernama benar; pernyataan kriteria seleksi yang diminta LSM, organisasi internasional, dan beasiswa; dan surat spekulatif ke perusahaan tanpa lowongan — yang hanya berhasil jika dikirim ke orang bernama setelah percakapan."
+     },
+     "objectives": [
+      {
+       "en": "Compose an application email that is correct in every field.",
+       "id": "Menyusun email lamaran yang benar di setiap kolomnya."
+      },
+      {
+       "en": "Answer selection criteria with evidence for exactly what is asked.",
+       "id": "Menjawab kriteria seleksi dengan bukti untuk persis apa yang ditanyakan."
+      },
+      {
+       "en": "Send a speculative letter only when it can work: named, short, after a conversation.",
+       "id": "Mengirim surat spekulatif hanya ketika bisa berhasil: bernama, singkat, setelah percakapan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Three formats, three rules",
+       "id": "Tiga format, tiga aturan"
+      },
+      "intro": {
+       "en": "Email: every field is read. Criteria: exactly what is asked. Speculative: to a named person, after a conversation.",
+       "id": "Email: setiap kolom dibaca. Kriteria: persis yang ditanyakan. Spekulatif: ke orang bernama, setelah percakapan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The application email",
+         "id": "Email lamaran"
+        },
+        "points": [
+         {
+          "en": "Subject: Lamaran – [Posisi] – [Nama Lengkap], or as instructed. The short letter (120–200 words) in the body. Attachments named NamaLengkap_CV_Perusahaan.pdf.",
+          "id": "Subjek: Lamaran – [Posisi] – [Nama Lengkap], atau sesuai instruksi. Surat singkat (120–200 kata) di badan. Lampiran dinamai NamaLengkap_CV_Perusahaan.pdf."
+         },
+         {
+          "en": "A clean signature; send to yourself first; never CC several employers.",
+          "id": "Tanda tangan bersih; kirim ke dirimu dulu; jangan pernah CC beberapa perusahaan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Selection criteria",
+         "id": "Kriteria seleksi"
+        },
+        "points": [
+         {
+          "en": "A separate document, each criterion as a heading, evidence for every claim, every part of each criterion addressed, different evidence for each.",
+          "id": "Dokumen terpisah, tiap kriteria sebagai judul, bukti untuk setiap klaim, setiap bagian tiap kriteria dijawab, bukti berbeda untuk masing-masing."
+         },
+         {
+          "en": "Unequivocal language; word limits respected; consistent with the CV. Exactly what is asked — nothing more.",
+          "id": "Bahasa tegas; batas kata dihormati; konsisten dengan CV. Persis yang ditanyakan — tidak lebih."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Speculative letters",
+         "id": "Surat spekulatif"
+        },
+        "points": [
+         {
+          "en": "No posting means the research burden is higher: lead with what is in it for them, keep it very short.",
+          "id": "Tanpa lowongan berarti beban risetnya lebih tinggi: buka dengan apa untungnya bagi mereka, buat sangat singkat."
+         },
+         {
+          "en": "Best sent after an informational conversation, to a named person, referring to what you learned. A cold CV to an HR inbox is broadcasting.",
+          "id": "Paling baik dikirim setelah percakapan informasi, ke orang bernama, merujuk apa yang kamu pelajari. CV dingin ke kotak masuk HR adalah menyiarkan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "mail",
+       "h": {
+        "en": "The application email",
+        "id": "Email lamaran"
+       },
+       "body": {
+        "en": "Every field of an application email is read, and most of them are read before the letter <i>(Innes, The CV Book, ch. 2; Simunovic, §7.3; McMunn, ch. 3)</i>. The subject line files the application; the sender address says whether you are an adult; the attachment names say whether you are organised; the signature says whether you can be reached. Seven rules:",
+        "id": "Setiap kolom email lamaran dibaca, dan kebanyakan dibaca sebelum suratnya <i>(Innes, The CV Book, bab 2; Simunovic, §7.3; McMunn, bab 3)</i>. Baris subjek mengarsipkan lamaran; alamat pengirim mengatakan apakah kamu orang dewasa; nama lampiran mengatakan apakah kamu terorganisasi; tanda tangan mengatakan apakah kamu bisa dihubungi. Tujuh aturan:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Field",
+          "id": "Kolom"
+         },
+         {
+          "en": "Rule",
+          "id": "Aturan"
+         },
+         {
+          "en": "Nadia → KilatPay",
+          "id": "Nadia → KilatPay"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Subject",
+           "id": "Subjek"
+          },
+          {
+           "en": "<code>Lamaran – [Posisi] – [Nama Lengkap]</code>, or exactly as the advertisement instructs",
+           "id": "<code>Lamaran – [Posisi] – [Nama Lengkap]</code>, atau persis seperti instruksi iklan"
+          },
+          {
+           "en": "Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri",
+           "id": "Lamaran – Business Operations Associate (OPS-26-04) – Nadia Putri"
+          }
+         ],
+         [
+          {
+           "en": "From",
+           "id": "Dari"
+          },
+          {
+           "en": "A professional address on your name; not a nickname, not a university address that expires",
+           "id": "Alamat profesional atas namamu; bukan nama panggilan, bukan alamat universitas yang kedaluwarsa"
+          },
+          {
+           "en": "nadia.putri@email.com",
+           "id": "nadia.putri@email.com"
+          }
+         ],
+         [
+          {
+           "en": "Greeting",
+           "id": "Salam"
+          },
+          {
+           "en": "Formal, named where possible",
+           "id": "Formal, bernama bila mungkin"
+          },
+          {
+           "en": "Dear Mr. Aditya, / Yth. Bapak Aditya,",
+           "id": "Dear Mr. Aditya, / Yth. Bapak Aditya,"
+          }
+         ],
+         [
+          {
+           "en": "Body",
+           "id": "Badan"
+          },
+          {
+           "en": "The letter, short version — 120–200 words; the three questions of Lesson 6.1",
+           "id": "Surat, versi singkat — 120–200 kata; tiga pertanyaan Pelajaran 6.1"
+          },
+          {
+           "en": "Connection · one story · why them · availability",
+           "id": "Koneksi · satu cerita · mengapa mereka · ketersediaan"
+          }
+         ],
+         [
+          {
+           "en": "Attachments",
+           "id": "Lampiran"
+          },
+          {
+           "en": "<code>NamaLengkap_CV_Perusahaan.pdf</code>; the full letter as a second PDF if asked; nothing else unless asked",
+           "id": "<code>NamaLengkap_CV_Perusahaan.pdf</code>; surat lengkap sebagai PDF kedua jika diminta; tidak ada yang lain kecuali diminta"
+          },
+          {
+           "en": "NadiaPutri_CV_KilatPay.pdf · NadiaPutri_CoverLetter_KilatPay.pdf",
+           "id": "NadiaPutri_CV_KilatPay.pdf · NadiaPutri_CoverLetter_KilatPay.pdf"
+          }
+         ],
+         [
+          {
+           "en": "Signature",
+           "id": "Tanda tangan"
+          },
+          {
+           "en": "Name · phone · email · LinkedIn URL — four lines, no image, no quotation",
+           "id": "Nama · telepon · email · URL LinkedIn — empat baris, tanpa gambar, tanpa kutipan"
+          },
+          {
+           "en": "Nadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri",
+           "id": "Nadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri"
+          }
+         ],
+         [
+          {
+           "en": "Before sending",
+           "id": "Sebelum mengirim"
+          },
+          {
+           "en": "Send it to yourself first and open it on a phone; never CC or BCC several employers",
+           "id": "Kirim ke dirimu dulu dan buka di ponsel; jangan pernah CC atau BCC beberapa perusahaan"
+          },
+          {
+           "en": "One email, one employer, checked on her phone",
+           "id": "Satu email, satu perusahaan, diperiksa di ponselnya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Selection-criteria statements",
+        "id": "Pernyataan kriteria seleksi"
+       },
+       "body": {
+        "en": "When an advertisement asks you to “address the criteria” — common in NGOs, international organisations, development programmes and scholarships — the criteria statement is a separate document and is often the first thing scored. Bright &amp; Earl’s ten steps <i>(Brilliant CV, ch. 15)</i>, condensed:",
+        "id": "Ketika iklan memintamu “menjawab kriteria” — umum di LSM, organisasi internasional, program pembangunan, dan beasiswa — pernyataan kriteria adalah dokumen terpisah dan sering menjadi hal pertama yang dinilai. Sepuluh langkah Bright &amp; Earl <i>(Brilliant CV, bab 15)</i>, diringkas:"
+       },
+       "bullets": [
+        {
+         "en": "A <b>separate document</b>, titled exactly as the employer titles it (“Statement Addressing the Selection Criteria”).",
+         "id": "<b>Dokumen terpisah</b>, diberi judul persis seperti yang diberikan perusahaan (“Statement Addressing the Selection Criteria”)."
+        },
+        {
+         "en": "<b>Each criterion as a heading</b>, in the employer’s words and order.",
+         "id": "<b>Tiap kriteria sebagai judul</b>, dalam kata-kata dan urutan perusahaan."
+        },
+        {
+         "en": "<b>Evidence for every claim</b> — a situation, an action, a result; STAR shape.",
+         "id": "<b>Bukti untuk setiap klaim</b> — situasi, tindakan, hasil; bentuk STAR."
+        },
+        {
+         "en": "<b>Address every part</b> of each criterion: “strong written and verbal communication” is two parts and needs two pieces of evidence.",
+         "id": "<b>Jawab setiap bagian</b> tiap kriteria: “komunikasi tertulis dan lisan yang kuat” adalah dua bagian dan butuh dua bukti."
+        },
+        {
+         "en": "<b>Different evidence for each</b> criterion — the treasurer story cannot answer all five.",
+         "id": "<b>Bukti berbeda untuk tiap</b> kriteria — cerita bendahara tidak bisa menjawab kelimanya."
+        },
+        {
+         "en": "<b>Unequivocal language</b>: “I led”, “I built”, “I resolved” — not “I was somewhat involved in”.",
+         "id": "<b>Bahasa tegas</b>: “Saya memimpin”, “Saya membangun”, “Saya menyelesaikan” — bukan “Saya agak terlibat dalam”."
+        },
+        {
+         "en": "<b>Respect word limits</b>; if none is stated, about half a page per criterion.",
+         "id": "<b>Hormati batas kata</b>; jika tidak dinyatakan, sekitar setengah halaman per kriteria."
+        },
+        {
+         "en": "<b>Consistent with the CV</b> — the same titles, dates and numbers.",
+         "id": "<b>Konsisten dengan CV</b> — jabatan, tanggal, dan angka yang sama."
+        },
+        {
+         "en": "<b>Answer exactly what is asked</b> — nothing more. A criterion about teamwork does not want your leadership story.",
+         "id": "<b>Jawab persis yang ditanyakan</b> — tidak lebih. Kriteria tentang kerja tim tidak menginginkan cerita kepemimpinanmu."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Speculative letters",
+        "id": "Surat spekulatif"
+       },
+       "body": {
+        "en": "A speculative letter goes to an employer with no posting. Because you do not know what the reader needs, the research burden is higher, not lower: lead with what is in it for them <i>(Bright &amp; Earl, ch. 3 — “What’s in it for them”)</i>, keep it very short — under 150 words — and give them one easy next step. Best of all, send it <i>after</i> an informational conversation (Module 2), to a named person, referring to what you learned from them: “When we spoke, you mentioned the area operations team is short on…”. That letter has a reader, a reason and a hook. A cold speculative CV to a generic HR inbox is broadcasting (Module 1.3): it arrives with no reader, no reason, and no way for anyone to act on it. Rumah Rempah has no posting; Kak Wulan is inside; the speculative note to her manager after their conversation is the one letter in this module that can create a role rather than apply for one.",
+        "id": "Surat spekulatif ditujukan ke perusahaan tanpa lowongan. Karena kamu tidak tahu apa yang dibutuhkan pembaca, beban risetnya lebih tinggi, bukan lebih rendah: buka dengan apa untungnya bagi mereka <i>(Bright &amp; Earl, bab 3 — “What’s in it for them”)</i>, buat sangat singkat — di bawah 150 kata — dan beri mereka satu langkah berikutnya yang mudah. Yang terbaik, kirim <i>setelah</i> percakapan informasi (Modul 2), ke orang bernama, merujuk apa yang kamu pelajari dari mereka: “Saat kita berbincang, Kakak menyebut tim operasi area kekurangan…”. Surat itu punya pembaca, alasan, dan kail. CV spekulatif dingin ke kotak masuk HR generik adalah menyiarkan (Modul 1.3): tiba tanpa pembaca, tanpa alasan, dan tanpa cara bagi siapa pun untuk menindaklanjutinya. Rumah Rempah tidak punya lowongan; Kak Wulan ada di dalam; catatan spekulatif ke manajernya setelah percakapan mereka adalah satu-satunya surat di modul ini yang bisa menciptakan peran, bukan melamar peran."
+       },
+       "quote": {
+        "text": {
+         "en": "Selamat pagi Bu Ratna, saya Nadia — Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama magang di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna — magang, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu.",
+         "id": "Selamat pagi Bu Ratna, saya Nadia — Kak Wulan menyarankan saya menulis kepada Ibu setelah kami berbincang minggu lalu tentang tim operasi area di Semarang. Kak Wulan menyebut bahwa rekonsiliasi stok harian antara dapur pusat dan delapan belas gerai masih dikerjakan manual. Selama magang di unit operasional Bank Sinar Nusantara, saya merekonsiliasi laporan harian tiga cabang dan menyusun daftar periksa yang masih dipakai; saya senang jika bisa membantu dengan hal serupa, dalam bentuk apa pun yang berguna — magang, proyek, atau posisi trainee bila dibuka. Bolehkah saya mengirimkan CV, atau berbincang 15 menit pada waktu yang Ibu tentukan? Terima kasih, Bu."
+        },
+        "who": {
+         "en": "Nadia → Rumah Rempah, 118 words · named reader · referred by a conversation · what is in it for them first · one easy next step · no CV attached until invited",
+         "id": "Nadia → Rumah Rempah, 118 kata · pembaca bernama · dirujuk dari percakapan · apa untungnya bagi mereka lebih dulu · satu langkah berikutnya yang mudah · CV tidak dilampirkan sampai diundang"
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Which format, which trigger",
+        "id": "Format mana, pemicu apa"
+       },
+       "body": {
+        "en": "The three formats are not alternatives to the letters of Lessons 6.2 and 6.3; they are what the situation adds. The advertisement’s instruction decides the first two — “send to” means the email carries the letter; “address the criteria” means a criteria document; both may still want the full letter attached. The third is triggered by a conversation, not an advertisement.",
+        "id": "Ketiga format ini bukan alternatif dari surat Pelajaran 6.2 dan 6.3; ketiganya adalah yang ditambahkan situasi. Instruksi iklan menentukan dua yang pertama — “kirim ke” berarti email membawa suratnya; “jawab kriteria” berarti dokumen kriteria; keduanya mungkin masih menginginkan surat lengkap terlampir. Yang ketiga dipicu percakapan, bukan iklan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Trigger",
+          "id": "Pemicu"
+         },
+         {
+          "en": "Format",
+          "id": "Format"
+         },
+         {
+          "en": "Length",
+          "id": "Panjang"
+         },
+         {
+          "en": "Goes with",
+          "id": "Menyertai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Send your application to [email]”",
+           "id": "“Kirim lamaran Anda ke [email]”"
+          },
+          {
+           "en": "Application email — the short letter in the body",
+           "id": "Email lamaran — surat singkat di badan"
+          },
+          {
+           "en": "120–200 words",
+           "id": "120–200 kata"
+          },
+          {
+           "en": "CV attached, named; full letter as a PDF if asked",
+           "id": "CV terlampir, bernama; surat lengkap sebagai PDF jika diminta"
+          }
+         ],
+         [
+          {
+           "en": "“Address the selection criteria”",
+           "id": "“Jawab kriteria seleksi”"
+          },
+          {
+           "en": "Criteria statement — a separate document",
+           "id": "Pernyataan kriteria — dokumen terpisah"
+          },
+          {
+           "en": "About half a page per criterion, or as limited",
+           "id": "Sekitar setengah halaman per kriteria, atau sesuai batas"
+          },
+          {
+           "en": "CV and the letter, as required",
+           "id": "CV dan surat, sesuai ketentuan"
+          }
+         ],
+         [
+          {
+           "en": "No posting; a conversation happened",
+           "id": "Tanpa lowongan; percakapan sudah terjadi"
+          },
+          {
+           "en": "Speculative note to a named person",
+           "id": "Catatan spekulatif ke orang bernama"
+          },
+          {
+           "en": "Under 150 words",
+           "id": "Di bawah 150 kata"
+          },
+          {
+           "en": "Nothing attached until invited",
+           "id": "Tidak ada lampiran sampai diundang"
+          }
+         ],
+         [
+          {
+           "en": "No posting; no conversation",
+           "id": "Tanpa lowongan; tanpa percakapan"
+          },
+          {
+           "en": "Not a letter — the Module 2 six-point message first",
+           "id": "Bukan surat — pesan enam poin Modul 2 dulu"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 4: The application email, field by field",
+       "id": "Peraga 4: Email lamaran, kolom demi kolom"
+      },
+      "title": {
+       "en": "What the recruiter reads, in the order they read it",
+       "id": "Yang dibaca rekruter, dalam urutan mereka membacanya"
+      },
+      "items": [
+       {
+        "icon": "mail",
+        "h": {
+         "en": "1 · Subject and sender",
+         "id": "1 · Subjek dan pengirim"
+        },
+        "sub": {
+         "en": "“Lamaran – [Posisi] – [Nama]” from an address on your name. Filed correctly, or lost.",
+         "id": "“Lamaran – [Posisi] – [Nama]” dari alamat atas namamu. Terarsip benar, atau hilang."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "2 · Greeting",
+         "id": "2 · Salam"
+        },
+        "sub": {
+         "en": "Named and formal. The register of the rest of the exchange is set here.",
+         "id": "Bernama dan formal. Register sisa pertukaran ditetapkan di sini."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "3 · Body",
+         "id": "3 · Badan"
+        },
+        "sub": {
+         "en": "The short letter: connection, one story, why them, availability. 120–200 words on a phone screen.",
+         "id": "Surat singkat: koneksi, satu cerita, mengapa mereka, ketersediaan. 120–200 kata di layar ponsel."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "4 · Attachments",
+         "id": "4 · Lampiran"
+        },
+        "sub": {
+         "en": "NamaLengkap_CV_Perusahaan.pdf — opened because of the body. Nothing unasked-for.",
+         "id": "NamaLengkap_CV_Perusahaan.pdf — dibuka karena badannya. Tidak ada yang tidak diminta."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "5 · Signature",
+         "id": "5 · Tanda tangan"
+        },
+        "sub": {
+         "en": "Name, phone, email, LinkedIn. The reply goes here.",
+         "id": "Nama, telepon, email, LinkedIn. Balasan pergi ke sini."
+        }
+       }
+      ],
+      "note": {
+       "en": "Send it to yourself first and read it on a phone: that is how most recruiters first see it.",
+       "id": "Kirim ke dirimu dulu dan baca di ponsel: begitulah kebanyakan rekruter pertama kali melihatnya."
+      },
+      "longdesc": {
+       "en": "A five-step flow of an application email as the recruiter reads it: subject line and sender address; a named formal greeting; the short letter in the body of 120 to 200 words; correctly named attachments opened because of the body; and a four-line signature with name, phone, email and LinkedIn.",
+       "id": "Alur lima langkah email lamaran sebagaimana dibaca rekruter: baris subjek dan alamat pengirim; salam formal bernama; surat singkat di badan 120 sampai 200 kata; lampiran bernama benar yang dibuka karena badannya; dan tanda tangan empat baris dengan nama, telepon, email, dan LinkedIn."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two answers to one criterion",
+        "id": "Dua jawaban untuk satu kriteria"
+       },
+       "q": {
+        "en": "Scholarship criterion 2: “Demonstrated ability to manage resources responsibly and report on their use.”",
+        "id": "Kriteria beasiswa 2: “Kemampuan yang terbukti mengelola sumber daya secara bertanggung jawab dan melaporkan penggunaannya.”"
+       },
+       "weak": {
+        "en": "“I am a responsible person who has always managed money carefully, both personally and in organisations. I was involved in the finances of my student association and helped with reporting. I believe these experiences show that I can manage resources well.”",
+        "id": "“Saya orang yang bertanggung jawab dan selalu mengelola uang dengan hati-hati, baik secara pribadi maupun di organisasi. Saya terlibat dalam keuangan himpunan mahasiswa saya dan membantu pelaporan. Saya yakin pengalaman ini menunjukkan saya bisa mengelola sumber daya dengan baik.”"
+       },
+       "strong": {
+        "en": "“<b>Managing resources:</b> As Treasurer of HIMA Manajemen (Aug 2024 – Jul 2025), I managed a Rp 120 juta annual budget across twelve events, closing each within 5% of plan, and introduced a two-signature rule for payments above Rp 2 juta. <b>Reporting on their use:</b> I rebuilt the bookkeeping into a monthly close with receipts attached; the 2025 faculty audit found zero issues, the first clean audit in three years.”",
+        "id": "“<b>Mengelola sumber daya:</b> Sebagai Bendahara HIMA Manajemen (Agu 2024 – Jul 2025), saya mengelola anggaran tahunan Rp 120 juta di dua belas acara, menutup masing-masing dalam 5% dari rencana, dan memperkenalkan aturan dua tanda tangan untuk pembayaran di atas Rp 2 juta. <b>Melaporkan penggunaannya:</b> Saya membangun ulang pembukuan menjadi tutup buku bulanan dengan kuitansi terlampir; audit fakultas 2025 menemukan nol masalah, audit bersih pertama dalam tiga tahun.”"
+       },
+       "why": {
+        "en": "The criterion has two parts; the strong answer addresses both, under their own labels, with evidence and numbers, in unequivocal language (“I managed”, “I rebuilt”). The weak answer is claims, hedged (“was involved”, “helped with”), and answers the criterion as one part.",
+        "id": "Kriterianya punya dua bagian; jawaban kuat menjawab keduanya, di bawah label masing-masing, dengan bukti dan angka, dalam bahasa tegas (“saya mengelola”, “saya membangun ulang”). Jawaban lemah adalah klaim, berpagar (“terlibat”, “membantu”), dan menjawab kriteria sebagai satu bagian."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "mail",
+      "title": {
+       "en": "In focus: the email with three employers in the CC line",
+       "id": "Sorotan: email dengan tiga perusahaan di baris CC"
+      },
+      "body": [
+       {
+        "en": "A batchmate of Nadia’s, applying to three logistics companies in one evening, wrote one email — “Dear HR, I am interested in operations opportunities at your company” — attached “CV_final_final.pdf”, and put all three addresses in the To line. Each recruiter saw the other two. One replied, politely, that the company would not be proceeding. The other two did not reply.",
+        "id": "Seorang teman seangkatan Nadia, melamar ke tiga perusahaan logistik dalam satu malam, menulis satu email — “Dear HR, saya tertarik dengan peluang operasi di perusahaan Anda” — melampirkan “CV_final_final.pdf”, dan menaruh ketiga alamat di baris To. Setiap rekruter melihat dua lainnya. Satu membalas, dengan sopan, bahwa perusahaan tidak akan melanjutkan. Dua lainnya tidak membalas."
+       },
+       {
+        "en": "Nothing in the email was dishonest, and the CV was decent. The fields did the damage before the body was read: a generic subject, a nickname address, an attachment name that said “I have many versions”, and a To line that said “you are one of three”. The seven rules exist because each field is read as a small work sample. Send it to yourself first — and if there are three employers, there are three emails.",
+        "id": "Tidak ada yang tidak jujur dalam email itu, dan CV-nya cukup baik. Kolom-kolomnya yang merusak sebelum badannya dibaca: subjek generik, alamat nama panggilan, nama lampiran yang mengatakan “saya punya banyak versi”, dan baris To yang mengatakan “Anda salah satu dari tiga”. Tujuh aturan itu ada karena setiap kolom dibaca sebagai contoh kerja kecil. Kirim ke dirimu dulu — dan jika ada tiga perusahaan, ada tiga email."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Send-to-self",
+        "id": "Latihan 1 · Kirim ke diri sendiri"
+       },
+       "body": {
+        "en": "Compose the application email for your Top 1 target with every field: subject, greeting, the 120–200-word body from your four-paragraph letter, the attachment names, the signature. Send it to yourself. Open it on your phone and review it as the recruiter: what do you see first, and does anything look careless?",
+        "id": "Susun email lamaran untuk sasaran Teratas 1-mu dengan setiap kolom: subjek, salam, badan 120–200 kata dari surat empat paragrafmu, nama lampiran, tanda tangan. Kirim ke dirimu. Buka di ponselmu dan tinjau sebagai rekruter: apa yang kamu lihat pertama, dan adakah yang tampak ceroboh?"
+       },
+       "debrief": {
+        "en": "On a phone the subject and the first two lines of the body are all that show in the inbox; the body’s first sentence therefore does the opening’s job. The attachment names appear before the body is expanded, which is why “CV.pdf” costs more than it seems. The most common find on this drill is the signature: a missing phone number, or an old university address that will bounce in six months.",
+        "id": "Di ponsel subjek dan dua baris pertama badan adalah semua yang tampil di kotak masuk; karena itu kalimat pertama badan menjalankan tugas pembuka. Nama lampiran tampil sebelum badannya dibuka penuh, itulah mengapa “CV.pdf” merugikan lebih dari kelihatannya. Temuan paling umum pada latihan ini adalah tanda tangan: nomor telepon yang hilang, atau alamat universitas lama yang akan gagal terkirim dalam enam bulan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Two criteria",
+        "id": "Latihan 2 · Dua kriteria"
+       },
+       "body": {
+        "en": "A scholarship-style advertisement lists: (1) “Demonstrated leadership in a student or community organisation.” (2) “Strong written and verbal communication skills.” Answer both, half a page each, with the criterion as the heading, evidence for every claim, every part addressed, different evidence for each, unequivocal language, consistent with your CV.",
+        "id": "Iklan bergaya beasiswa mencantumkan: (1) “Kepemimpinan yang terbukti dalam organisasi mahasiswa atau masyarakat.” (2) “Keterampilan komunikasi tertulis dan lisan yang kuat.” Jawab keduanya, setengah halaman masing-masing, dengan kriteria sebagai judul, bukti untuk setiap klaim, setiap bagian dijawab, bukti berbeda untuk masing-masing, bahasa tegas, konsisten dengan CV-mu."
+       },
+       "debrief": {
+        "en": "Criterion 2 is the trap: “written and verbal” is two parts, and most first drafts answer one. Written: a report, a proposal, a sponsorship deck that raised money. Verbal: a presentation, a negotiation, a workshop delivered — with an audience size. Criterion 1 must not reuse the evidence you spend on criterion 2. If the same story is doing both jobs, the pantry has more; go back to it.",
+        "id": "Kriteria 2 adalah jebakannya: “tertulis dan lisan” adalah dua bagian, dan kebanyakan draf pertama menjawab satu. Tertulis: laporan, proposal, dek sponsorship yang menghasilkan dana. Lisan: presentasi, negosiasi, lokakarya yang disampaikan — dengan jumlah audiens. Kriteria 1 tidak boleh memakai ulang bukti yang kamu pakai untuk kriteria 2. Jika cerita yang sama mengerjakan kedua tugas, lemarimu punya lebih banyak; kembali ke sana."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The speculative note",
+        "id": "Latihan 3 · Catatan spekulatif"
+       },
+       "body": {
+        "en": "Pick one Top 5 employer with no posting where you have had (or scheduled) an informational conversation. Write the speculative note to the person the conversation pointed you to: under 150 words; who referred you; the one thing you learned that you can help with; one sentence of evidence; one easy next step; no CV attached.",
+        "id": "Pilih satu perusahaan 5 Teratas tanpa lowongan tempat kamu sudah (atau dijadwalkan) melakukan percakapan informasi. Tulis catatan spekulatif ke orang yang ditunjuk percakapan itu: di bawah 150 kata; siapa yang merujukmu; satu hal yang kamu pelajari yang bisa kamu bantu; satu kalimat bukti; satu langkah berikutnya yang mudah; tanpa CV terlampir."
+       },
+       "debrief": {
+        "en": "If you have not had the conversation, do not send the note — write the Module 2 six-point message instead, and come back to this drill afterwards. A speculative note without a conversation behind it has no “what’s in it for them” to lead with, and becomes the cold CV it is trying not to be. The next step should be easy to say yes to: “may I send my CV?” or “15 minutes at a time you choose?”, not “is there a vacancy?”.",
+        "id": "Jika kamu belum melakukan percakapannya, jangan kirim catatannya — tulis pesan enam poin Modul 2, dan kembali ke latihan ini setelahnya. Catatan spekulatif tanpa percakapan di baliknya tidak punya “apa untungnya bagi mereka” untuk dibuka, dan menjadi CV dingin yang justru ingin dihindarinya. Langkah berikutnya harus mudah dijawab ya: “bolehkah saya mengirim CV?” atau “15 menit pada waktu yang Ibu tentukan?”, bukan “apakah ada lowongan?”."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Subject “Lamaran”, attachment “CV.pdf”, three employers in the To line",
+         "id": "Subjek “Lamaran”, lampiran “CV.pdf”, tiga perusahaan di baris To"
+        },
+        "fix": {
+         "en": "Lamaran – Posisi – Nama · NamaLengkap_CV_Perusahaan.pdf · one email per employer.",
+         "id": "Lamaran – Posisi – Nama · NamaLengkap_CV_Perusahaan.pdf · satu email per perusahaan."
+        }
+       },
+       {
+        "h": {
+         "en": "Answering half a criterion, or all of them with one story",
+         "id": "Menjawab setengah kriteria, atau semuanya dengan satu cerita"
+        },
+        "fix": {
+         "en": "Every part of each criterion; different evidence for each.",
+         "id": "Setiap bagian tiap kriteria; bukti berbeda untuk masing-masing."
+        }
+       },
+       {
+        "h": {
+         "en": "“I was somewhat involved in…”",
+         "id": "“Saya agak terlibat dalam…”"
+        },
+        "fix": {
+         "en": "“I led”, “I built”, “I resolved” — unequivocal.",
+         "id": "“Saya memimpin”, “Saya membangun”, “Saya menyelesaikan” — tegas."
+        }
+       },
+       {
+        "h": {
+         "en": "A cold speculative CV to the HR inbox",
+         "id": "CV spekulatif dingin ke kotak masuk HR"
+        },
+        "fix": {
+         "en": "A named person, after a conversation, under 150 words, nothing attached.",
+         "id": "Orang bernama, setelah percakapan, di bawah 150 kata, tanpa lampiran."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Application email",
+        "id": "Email lamaran"
+       },
+       "def": {
+        "en": "The email that carries the short letter in its body and the named CV as an attachment; every field is read.",
+        "id": "Email yang membawa surat singkat di badannya dan CV bernama sebagai lampiran; setiap kolom dibaca."
+       }
+      },
+      {
+       "term": {
+        "en": "Selection-criteria statement",
+        "id": "Pernyataan kriteria seleksi"
+       },
+       "def": {
+        "en": "A separate document answering each stated criterion under its own heading with evidence — common in NGOs, international organisations and scholarships.",
+        "id": "Dokumen terpisah yang menjawab setiap kriteria yang dinyatakan di bawah judulnya sendiri dengan bukti — umum di LSM, organisasi internasional, dan beasiswa."
+       }
+      },
+      {
+       "term": {
+        "en": "Every part",
+        "id": "Setiap bagian"
+       },
+       "def": {
+        "en": "A criterion with “and” in it has two parts and needs two pieces of evidence.",
+        "id": "Kriteria dengan “dan” di dalamnya punya dua bagian dan butuh dua bukti."
+       }
+      },
+      {
+       "term": {
+        "en": "Unequivocal language",
+        "id": "Bahasa tegas"
+       },
+       "def": {
+        "en": "“I led”, “I built” — not “I was involved in” or “I helped with”.",
+        "id": "“Saya memimpin”, “Saya membangun” — bukan “Saya terlibat dalam” atau “Saya membantu”."
+       }
+      },
+      {
+       "term": {
+        "en": "Speculative letter",
+        "id": "Surat spekulatif"
+       },
+       "def": {
+        "en": "A short letter to an employer with no posting — to a named person, after a conversation, leading with what is in it for them.",
+        "id": "Surat singkat ke perusahaan tanpa lowongan — ke orang bernama, setelah percakapan, dibuka dengan apa untungnya bagi mereka."
+       }
+      },
+      {
+       "term": {
+        "en": "Send-to-self",
+        "id": "Kirim ke diri sendiri"
+       },
+       "def": {
+        "en": "The last check before an application email: send it to yourself and read it on a phone.",
+        "id": "Pemeriksaan terakhir sebelum email lamaran: kirim ke dirimu dan baca di ponsel."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The best subject line for an application email is…",
+        "id": "Baris subjek terbaik untuk email lamaran adalah…"
+       },
+       "options": [
+        {
+         "en": "“Lamaran”",
+         "id": "“Lamaran”"
+        },
+        {
+         "en": "“Lamaran – Management Trainee – Nadia Putri”",
+         "id": "“Lamaran – Management Trainee – Nadia Putri”"
+        },
+        {
+         "en": "“Job application — please read”",
+         "id": "“Job application — please read”"
+        },
+        {
+         "en": "“Nadia Putri”",
+         "id": "“Nadia Putri”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Position and full name file the application; follow the advertisement’s own format if it gives one.",
+        "id": "Posisi dan nama lengkap mengarsipkan lamaran; ikuti format iklan sendiri jika diberikan."
+       }
+      },
+      {
+       "q": {
+        "en": "A criteria statement should include…",
+        "id": "Pernyataan kriteria sebaiknya memuat…"
+       },
+       "options": [
+        {
+         "en": "Everything you have ever done",
+         "id": "Semua yang pernah kamu lakukan"
+        },
+        {
+         "en": "Only evidence for exactly what is asked, every part of each criterion",
+         "id": "Hanya bukti untuk persis apa yang ditanyakan, setiap bagian tiap kriteria"
+        },
+        {
+         "en": "Your CV pasted in",
+         "id": "CV-mu yang ditempel"
+        },
+        {
+         "en": "A personal statement about your dreams",
+         "id": "Pernyataan pribadi tentang impianmu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Answer exactly what is asked — nothing more; different evidence for each criterion.",
+        "id": "Jawab persis yang ditanyakan — tidak lebih; bukti berbeda untuk tiap kriteria."
+       }
+      },
+      {
+       "q": {
+        "en": "The strongest speculative letter is sent…",
+        "id": "Surat spekulatif terkuat dikirim…"
+       },
+       "options": [
+        {
+         "en": "To the general HR inbox with a CV",
+         "id": "Ke kotak masuk HR umum dengan CV"
+        },
+        {
+         "en": "To a named person, after a conversation, referring to what you learned",
+         "id": "Ke orang bernama, setelah percakapan, merujuk apa yang kamu pelajari"
+        },
+        {
+         "en": "To every company on your list on the same day",
+         "id": "Ke setiap perusahaan di daftarmu pada hari yang sama"
+        },
+        {
+         "en": "Only when a vacancy is posted",
+         "id": "Hanya ketika lowongan diiklankan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It then has a reader, a reason and a hook; a cold CV to HR is broadcasting.",
+        "id": "Dengan begitu suratnya punya pembaca, alasan, dan kail; CV dingin ke HR adalah menyiarkan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "The application email template",
+       "id": "Templat email lamaran"
+      },
+      "body": {
+       "en": "In the letter studio, build your application email template — subject pattern, greeting, the 120–200-word body derived from your four-paragraph letter, attachment naming, signature — and save it as Dossier item 3 for this module. Then run send-to-self for your Top 1 target before the real send.",
+       "id": "Di studio surat, bangun templat email lamaranmu — pola subjek, salam, badan 120–200 kata yang diturunkan dari surat empat paragrafmu, penamaan lampiran, tanda tangan — dan simpan sebagai butir Dossier 3 untuk modul ini. Lalu jalankan kirim-ke-diri untuk sasaran Teratas 1-mu sebelum pengiriman sebenarnya."
+      },
+      "cta": {
+       "en": "Open the letter studio →",
+       "id": "Buka studio surat →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Every field of the application email is a work sample; send it to yourself first.",
+       "id": "Setiap kolom email lamaran adalah contoh kerja; kirim ke dirimu dulu."
+      },
+      {
+       "en": "Criteria: every part of each, different evidence for each, exactly what is asked.",
+       "id": "Kriteria: setiap bagian masing-masing, bukti berbeda untuk masing-masing, persis yang ditanyakan."
+      },
+      {
+       "en": "Speculative: named, short, after a conversation — or not at all.",
+       "id": "Spekulatif: bernama, singkat, setelah percakapan — atau tidak sama sekali."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the email template and the criteria checklist",
+       "id": "Sumber, templat email, dan daftar periksa kriteria"
+      },
+      "lead": {
+       "en": "Four sources, the email as a fill-in, and Bright &amp; Earl’s steps as a checklist.",
+       "id": "Empat sumber, email sebagai isian, dan langkah-langkah Bright &amp; Earl sebagai daftar periksa."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 6.4",
+         "id": "Daftar bacaan · Pelajaran 6.4"
+        },
+        "desc": {
+         "en": "Four sources.",
+         "id": "Empat sumber."
+        },
+        "body": [
+         {
+          "en": "J. Innes, <i>The CV Book</i>, ch. 2 — the application email.",
+          "id": "J. Innes, <i>The CV Book</i>, bab 2 — email lamaran."
+         },
+         {
+          "en": "L. Simunovic, §7.3 — the email as the letter; attachments and signature.",
+          "id": "L. Simunovic, §7.3 — email sebagai surat; lampiran dan tanda tangan."
+         },
+         {
+          "en": "R. McMunn, ch. 3 — sending applications correctly.",
+          "id": "R. McMunn, bab 3 — mengirim lamaran dengan benar."
+         },
+         {
+          "en": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, ch. 3 and 15 — “what’s in it for them”; the ten steps for selection criteria.",
+          "id": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, bab 3 dan 15 — “apa untungnya bagi mereka”; sepuluh langkah untuk kriteria seleksi."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Application email · fill-in",
+         "id": "Email lamaran · isian"
+        },
+        "desc": {
+         "en": "One employer per email.",
+         "id": "Satu perusahaan per email."
+        },
+        "body": [
+         {
+          "en": "Subject: Lamaran – [Posisi] ([ref]) – [Nama Lengkap]   (or exactly as instructed)",
+          "id": "Subjek: Lamaran – [Posisi] ([ref]) – [Nama Lengkap]   (atau persis seperti instruksi)"
+         },
+         {
+          "en": "Dear [Mr./Ms. Name], / Yth. [Bapak/Ibu Nama],",
+          "id": "Dear [Mr./Ms. Name], / Yth. [Bapak/Ibu Nama],"
+         },
+         {
+          "en": "[Connection + role, 2 sentences] [One story with a number, 3 sentences] [Why them, 2 sentences] [Availability + one line: CV attached as requested] — 120–200 words",
+          "id": "[Koneksi + peran, 2 kalimat] [Satu cerita dengan angka, 3 kalimat] [Mengapa mereka, 2 kalimat] [Ketersediaan + satu baris: CV terlampir sesuai permintaan] — 120–200 kata"
+         },
+         {
+          "en": "[Nama Lengkap] · [telepon] · [email] · [LinkedIn URL] — attachments: NamaLengkap_CV_Perusahaan.pdf (+ NamaLengkap_CoverLetter_Perusahaan.pdf if asked)",
+          "id": "[Nama Lengkap] · [telepon] · [email] · [URL LinkedIn] — lampiran: NamaLengkap_CV_Perusahaan.pdf (+ NamaLengkap_CoverLetter_Perusahaan.pdf jika diminta)"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Selection criteria · nine checks",
+         "id": "Kriteria seleksi · sembilan pemeriksaan"
+        },
+        "desc": {
+         "en": "Bright &amp; Earl’s steps, condensed.",
+         "id": "Langkah-langkah Bright &amp; Earl, diringkas."
+        },
+        "body": [
+         {
+          "en": "Separate document, titled as the employer titles it · each criterion as a heading, in their words and order",
+          "id": "Dokumen terpisah, diberi judul seperti perusahaan · tiap kriteria sebagai judul, dalam kata-kata dan urutan mereka"
+         },
+         {
+          "en": "Evidence for every claim · every part of each criterion addressed · different evidence for each criterion",
+          "id": "Bukti untuk setiap klaim · setiap bagian tiap kriteria dijawab · bukti berbeda untuk tiap kriteria"
+         },
+         {
+          "en": "Unequivocal language · word limits respected (≈ half a page each if none) · consistent with the CV · exactly what is asked, nothing more",
+          "id": "Bahasa tegas · batas kata dihormati (≈ setengah halaman masing-masing jika tidak ada) · konsisten dengan CV · persis yang ditanyakan, tidak lebih"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "6.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Two Letters, One Candidate",
+      "id": "Tugas Kasus — Dua Surat, Satu Kandidat"
+     },
+     "overview": {
+      "en": "Nadia applies to two programmes in the same week: PT Arunika’s English-language MT programme and PT Rel Nusantara’s Indonesian-language joint recruitment, which requires a formal surat lamaran. Write the Arunika cover letter, the Rel Nusantara surat lamaran with its lampiran list matched to the advertisement, the application email for Arunika — and then audit both letters with the eight-mistake list.",
+      "id": "Nadia melamar ke dua program di minggu yang sama: program MT berbahasa Inggris PT Arunika dan rekrutmen bersama berbahasa Indonesia PT Rel Nusantara, yang mewajibkan surat lamaran formal. Tulis surat pengantar Arunika, surat lamaran Rel Nusantara dengan daftar lampiran yang disesuaikan iklan, email lamaran untuk Arunika — lalu audit kedua surat dengan daftar delapan kesalahan."
+     },
+     "objectives": [
+      {
+       "en": "Write a four-paragraph English letter from the tailored CV’s angle with verified specifics.",
+       "id": "Menulis surat Inggris empat paragraf dari sudut CV yang disesuaikan dengan hal spesifik terverifikasi."
+      },
+      {
+       "en": "Write a formal surat lamaran whose body is evidence and whose lampiran list matches the advertisement.",
+       "id": "Menulis surat lamaran formal yang isinya bukti dan daftar lampirannya sesuai iklan."
+      },
+      {
+       "en": "Compose the application email that carries the letter.",
+       "id": "Menyusun email lamaran yang membawa suratnya."
+      },
+      {
+       "en": "Audit both letters against the eight mistakes.",
+       "id": "Mengaudit kedua surat terhadap delapan kesalahan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Same facts, two registers",
+       "id": "Fakta yang sama, dua register"
+      },
+      "intro": {
+       "en": "Four steps, five written answers. The case file has three tabs: the two advertisements, Nadia’s verified research and CV angle, and the document list for each. Every fact comes from the CV; every “why them” comes from the research tab.",
+       "id": "Empat langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: dua iklan, riset terverifikasi dan sudut CV Nadia, serta daftar dokumen untuk masing-masing. Setiap fakta berasal dari CV; setiap “mengapa mereka” berasal dari tab riset."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Two employers, two formats",
+         "id": "Dua perusahaan, dua format"
+        },
+        "points": [
+         {
+          "en": "Arunika: English advertisement, portal upload → the four-paragraph letter (Lesson 6.2), and an email version for the recruiter contact.",
+          "id": "Arunika: iklan Inggris, unggah portal → surat empat paragraf (Pelajaran 6.2), dan versi email untuk kontak rekruter."
+         },
+         {
+          "en": "Rel Nusantara: Indonesian, BUMN joint recruitment, “surat lamaran” in the document list → the formal letter (Lesson 6.3).",
+          "id": "Rel Nusantara: Indonesia, rekrutmen bersama BUMN, “surat lamaran” di daftar dokumen → surat formal (Pelajaran 6.3)."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The rubric",
+         "id": "Rubrik"
+        },
+        "points": [
+         {
+          "en": "Angle matches the CV 20% · evidence not claims 25% · verified “why them” 15% · formats correct 25% · no mistakes from the audit list 15%.",
+          "id": "Sudut sesuai CV 20% · bukti bukan klaim 25% · “mengapa mereka” terverifikasi 15% · format benar 25% · tanpa kesalahan dari daftar audit 15%."
+         },
+         {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK6",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Two Letters, One Candidate",
+       "id": "Dua Surat, Satu Kandidat"
+      },
+      "lead": {
+       "en": "One CV, one week, two readers who expect different letters. Write both — and the email that carries one of them.",
+       "id": "Satu CV, satu minggu, dua pembaca yang mengharapkan surat berbeda. Tulis keduanya — dan email yang membawa salah satunya."
+      },
+      "practice": [
+       {
+        "en": "Four-paragraph letter",
+        "id": "Surat empat paragraf"
+       },
+       {
+        "en": "Surat lamaran with lampiran",
+        "id": "Surat lamaran dengan lampiran"
+       },
+       {
+        "en": "Application email",
+        "id": "Email lamaran"
+       },
+       {
+        "en": "Eight-mistake audit",
+        "id": "Audit delapan kesalahan"
+       }
+      ],
+      "goal": {
+       "en": "Two letters a screener would read to the end, each in the register its reader expects, neither saying anything the CV does not support.",
+       "id": "Dua surat yang akan dibaca penyaring sampai habis, masing-masing dalam register yang diharapkan pembacanya, tidak satu pun mengatakan hal yang tidak didukung CV."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Monday, 19:30",
+         "id": "Senin, 19.30"
+        },
+        "subject": {
+         "en": "Dua lamaran minggu ini — surat bahasa Inggris dan surat lamaran formal",
+         "id": "Dua lamaran minggu ini — surat bahasa Inggris dan surat lamaran formal"
+        },
+        "paragraphs": [
+         {
+          "en": "The Arunika MT window opened this morning and the Rel Nusantara joint recruitment closes Friday. Arunika wants a cover letter uploaded as a PDF, in English. Rel Nusantara’s document list says “surat lamaran” — Kak Ayu says they mean the formal one, with lampiran.",
+          "id": "Jendela MT Arunika dibuka pagi ini dan rekrutmen bersama Rel Nusantara ditutup Jumat. Arunika ingin surat pengantar diunggah sebagai PDF, dalam bahasa Inggris. Daftar dokumen Rel Nusantara menyebut “surat lamaran” — kata Kak Ayu maksudnya yang formal, dengan lampiran."
+         },
+         {
+          "en": "I have the tailored CV for each (Module 3) and my notes from the conversations with Kak Rina and from the Rel Nusantara announcement. I attached both advertisements and my research notes. I started the Arunika letter by editing the KilatPay one and Kak Rina found “onboarding team” in paragraph four, so I am starting again.",
+          "id": "Aku punya CV yang disesuaikan untuk masing-masing (Modul 3) dan catatanku dari percakapan dengan Kak Rina dan dari pengumuman Rel Nusantara. Kulampirkan kedua iklan dan catatan risetku. Aku mulai surat Arunika dengan mengedit surat KilatPay dan Kak Rina menemukan “onboarding team” di paragraf empat, jadi aku mulai lagi."
+         },
+         {
+          "en": "The Arunika recruiter, Bu Maya, also said I could email her directly once I have uploaded — so I need that email too.",
+          "id": "Rekruter Arunika, Bu Maya, juga bilang aku boleh mengemail beliau langsung setelah mengunggah — jadi aku butuh email itu juga."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Can you check that both letters take the same angle as the CVs?",
+          "id": "Bisakah kamu memeriksa bahwa kedua surat mengambil sudut yang sama dengan CV-nya?"
+         },
+         {
+          "en": "Is my lampiran list right for Rel Nusantara?",
+          "id": "Apakah daftar lampiranku benar untuk Rel Nusantara?"
+         },
+         {
+          "en": "What do I write in the email to Bu Maya?",
+          "id": "Apa yang kutulis di email ke Bu Maya?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih! — Nadia",
+          "id": "Terima kasih! — Nadia"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Friday",
+          "id": "Jumat"
+         },
+         "v": {
+          "en": "Rel Nusantara joint recruitment closes; Arunika MT window open for 3 weeks",
+          "id": "Rekrutmen bersama Rel Nusantara ditutup; jendela MT Arunika terbuka 3 minggu"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Two registers",
+          "id": "Dua register"
+         },
+         "v": {
+          "en": "English four-paragraph letter (Arunika) · formal surat lamaran with lampiran (Rel Nusantara)",
+          "id": "Surat Inggris empat paragraf (Arunika) · surat lamaran formal dengan lampiran (Rel Nusantara)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Bu Maya",
+          "id": "Bu Maya"
+         },
+         "v": {
+          "en": "Arunika MT recruiter; said Nadia may email directly after uploading",
+          "id": "Rekruter MT Arunika; mengatakan Nadia boleh mengemail langsung setelah mengunggah"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "Supply chain",
+          "id": "Supply chain"
+         },
+         "v": {
+          "en": "the Arunika CV’s angle: operations and supply chain; the rotation now starts in supply chain (Kak Rina)",
+          "id": "sudut CV Arunika: operasi dan supply chain; rotasi kini dimulai di supply chain (Kak Rina)"
+         }
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "7 documents",
+          "id": "7 dokumen"
+         },
+         "v": {
+          "en": "on the Rel Nusantara list, one conditional",
+          "id": "di daftar Rel Nusantara, satu bersyarat"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "“onboarding team”",
+          "id": "“onboarding team”"
+         },
+         "v": {
+          "en": "the phrase from the KilatPay letter that must not survive into Arunika’s",
+          "id": "frasa dari surat KilatPay yang tidak boleh bertahan ke surat Arunika"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The advertisements",
+          "id": "Iklan"
+         },
+         "title": {
+          "en": "Two advertisements, key lines",
+          "id": "Dua iklan, baris-baris kunci"
+         },
+         "meta": {
+          "en": "Fictional employers",
+          "id": "Perusahaan fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "PT Arunika Consumer Goods — Management Trainee Programme 2027 (supply chain intake)",
+            "id": "PT Arunika Consumer Goods — Management Trainee Programme 2027 (seleksi supply chain)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Language: English · Apply via portal: CV (PDF) + cover letter (PDF, one page) · Reference: MT-27-SC",
+             "id": "Bahasa: Inggris · Lamar lewat portal: CV (PDF) + surat pengantar (PDF, satu halaman) · Referensi: MT-27-SC"
+            },
+            {
+             "en": "“The 18-month rotation begins in supply chain (planning, warehouse, distribution) before commercial and finance rotations.”",
+             "id": "“Rotasi 18 bulan dimulai di supply chain (perencanaan, gudang, distribusi) sebelum rotasi komersial dan keuangan.”"
+            },
+            {
+             "en": "“We look for graduates who notice what slows a process down and can show us what they did about it.”",
+             "id": "“Kami mencari lulusan yang memperhatikan apa yang memperlambat proses dan bisa menunjukkan apa yang mereka lakukan tentangnya.”"
+            },
+            {
+             "en": "Requirements: S1 any major, IPK ≥ 3,25; willing to be placed at any plant (Semarang, Bekasi); English working proficiency",
+             "id": "Persyaratan: S1 semua jurusan, IPK ≥ 3,25; bersedia ditempatkan di pabrik mana pun (Semarang, Bekasi); kemampuan kerja bahasa Inggris"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "PT Rel Nusantara (Persero) — Rekrutmen Bersama BUMN, Management Trainee — Operasional",
+            "id": "PT Rel Nusantara (Persero) — Rekrutmen Bersama BUMN, Management Trainee — Operasional"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut",
+             "id": "Bahasa: Indonesia · Unggah satu PDF gabungan: surat lamaran di halaman pertama, lalu dokumen sesuai urutan berikut"
+            },
+            {
+             "en": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan KTP; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)",
+             "id": "Dokumen: 1. Surat lamaran; 2. Daftar Riwayat Hidup; 3. Scan Ijazah atau Surat Keterangan Lulus; 4. Scan Transkrip Nilai; 5. Scan KTP; 6. Pas foto terbaru berlatar merah 4×6; 7. Sertifikat TOEFL (maksimal 2 tahun); 8. Surat Keterangan Sehat (jika sudah ada)"
+            },
+            {
+             "en": "“Surat lamaran ditujukan kepada Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Bersedia ditempatkan di seluruh wilayah kerja.”",
+             "id": "“Surat lamaran ditujukan kepada Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Bersedia ditempatkan di seluruh wilayah kerja.”"
+            },
+            {
+             "en": "Persyaratan: S1, IPK ≥ 3,00; usia maksimal 27; TOEFL ≥ 500",
+             "id": "Persyaratan: S1, IPK ≥ 3,00; usia maksimal 27; TOEFL ≥ 500"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Research and CV angle",
+          "id": "Riset dan sudut CV"
+         },
+         "title": {
+          "en": "Nadia’s verified notes and the angle of each tailored CV",
+          "id": "Catatan terverifikasi Nadia dan sudut tiap CV yang disesuaikan"
+         },
+         "meta": {
+          "en": "Only these sources may feed “why them”",
+          "id": "Hanya sumber-sumber ini yang boleh mengisi “mengapa mereka”"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Arunika — verified",
+            "id": "Arunika — terverifikasi"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "From Kak Rina (MT 2023): the rotation moved to start in supply chain last year; the first cohort found the warehouse weeks hardest; the Semarang plant consolidated two warehouses in 2025",
+             "id": "Dari Kak Rina (MT 2023): rotasi pindah untuk dimulai di supply chain tahun lalu; angkatan pertama merasa minggu gudang paling sulit; pabrik Semarang mengonsolidasi dua gudang pada 2025"
+            },
+            {
+             "en": "From the advertisement: “notice what slows a process down”; plants in Semarang and Bekasi",
+             "id": "Dari iklan: “memperhatikan apa yang memperlambat proses”; pabrik di Semarang dan Bekasi"
+            },
+            {
+             "en": "From Arunika’s site: the 2026 sustainability report names distribution-route optimisation as a priority",
+             "id": "Dari situs Arunika: laporan keberlanjutan 2026 menyebut optimalisasi rute distribusi sebagai prioritas"
+            },
+            {
+             "en": "NOT verified (from a search summary, unchecked): “Arunika is the market leader in instant noodles” — do not use",
+             "id": "TIDAK terverifikasi (dari ringkasan pencarian, belum dicek): “Arunika pemimpin pasar mi instan” — jangan pakai"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Arunika CV — angle",
+            "id": "CV Arunika — sudut"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Profile line: operations and supply-chain trainee; noticing what slows a process",
+             "id": "Baris profil: trainee operasi dan supply chain; memperhatikan apa yang memperlambat proses"
+            },
+            {
+             "en": "Lead bullets: reconciled daily reports for 3 branches, flagged the recurring terminal error (≈30 min/day saved); Kopi Tepian pre-order board for the morning rush; thesis on inventory turnover at a Tegal retailer",
+             "id": "Butir utama: merekonsiliasi laporan harian untuk 3 cabang, menandai kesalahan terminal berulang (≈30 mnt/hari dihemat); papan pra-pesan Kopi Tepian untuk jam sibuk pagi; skripsi tentang perputaran persediaan di peritel Tegal"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Rel Nusantara — verified",
+            "id": "Rel Nusantara — terverifikasi"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "From the announcement: MT — Operasional; placement anywhere in the network; depots in Semarang",
+             "id": "Dari pengumuman: MT — Operasional; penempatan di mana pun dalam jaringan; depo di Semarang"
+            },
+            {
+             "en": "From the 2024 annual report (company site): cashless ticketing rolled out at 40 of 120 stations; average queuing time down by a third",
+             "id": "Dari laporan tahunan 2024 (situs perusahaan): tiket nontunai diluncurkan di 40 dari 120 stasiun; rata-rata waktu antre turun sepertiga"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Rel Nusantara CV — angle",
+            "id": "CV Rel Nusantara — sudut"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Profile line: operasional; ketelitian dan pelaporan",
+             "id": "Baris profil: operasional; ketelitian dan pelaporan"
+            },
+            {
+             "en": "Lead bullets: the bank reconciliation and terminal error; HIMA treasurer — monthly close, zero audit findings first in 3 years; Head of Sponsorship — Rp 85 juta, 11 sponsors, 1,200 participants",
+             "id": "Butir utama: rekonsiliasi bank dan kesalahan terminal; bendahara HIMA — tutup buku bulanan, nol temuan audit pertama dalam 3 tahun; Kepala Sponsorship — Rp 85 juta, 11 sponsor, 1.200 peserta"
+            },
+            {
+             "en": "Identity: S1 Manajemen, Universitas X, IPK 3,38; TOEFL ITP — new certificate dated last month, 540; SKL issued; ijazah not yet; no Surat Keterangan Sehat yet",
+             "id": "Identitas: S1 Manajemen, Universitas X, IPK 3,38; TOEFL ITP — sertifikat baru bertanggal bulan lalu, 540; SKL sudah terbit; ijazah belum; belum ada Surat Keterangan Sehat"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Contacts",
+          "id": "Kontak"
+         },
+         "title": {
+          "en": "Who reads what",
+          "id": "Siapa membaca apa"
+         },
+         "meta": {
+          "en": "Names for salutations and the email",
+          "id": "Nama untuk salam dan email"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Arunika: Bu Maya Kusuma, Talent Acquisition Lead, MT Programme — reads the portal uploads; invited a direct email after upload",
+             "id": "Arunika: Bu Maya Kusuma, Talent Acquisition Lead, Program MT — membaca unggahan portal; mengundang email langsung setelah unggah"
+            },
+            {
+             "en": "Rel Nusantara: no named person; the announcement says “Manajer Rekrutmen”",
+             "id": "Rel Nusantara: tidak ada nama; pengumuman menyebut “Manajer Rekrutmen”"
+            },
+            {
+             "en": "Nadia: nadia.putri@email.com · +62 8xx · linkedin.com/in/nadiaputri · Semarang · available from November",
+             "id": "Nadia: nadia.putri@email.com · +62 8xx · linkedin.com/in/nadiaputri · Semarang · tersedia mulai November"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Arunika letter",
+         "id": "Surat Arunika"
+        },
+        "short": {
+         "en": "Arunika",
+         "id": "Arunika"
+        },
+        "guide": {
+         "en": "Lesson 6.2. Four paragraphs, 250–350 words, to Bu Maya: role and reference; a connection or strongest fit (no deficit); one story from the Arunika CV’s angle with a number; two verified specifics from the research tab (not the unverified one); a close with top two points, an invitation and availability.",
+         "id": "Pelajaran 6.2. Empat paragraf, 250–350 kata, kepada Bu Maya: peran dan referensi; koneksi atau kecocokan terkuat (tanpa kekurangan); satu cerita dari sudut CV Arunika dengan angka; dua hal spesifik terverifikasi dari tab riset (bukan yang tidak terverifikasi); penutup dengan dua poin teratas, undangan, dan ketersediaan."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 250,
+          "max": 350,
+          "rows": 16,
+          "title": {
+           "en": "The four-paragraph letter to Arunika",
+           "id": "Surat empat paragraf ke Arunika"
+          },
+          "help": {
+           "en": "Dear Ms. Kusuma, … MT-27-SC … Kind regards, Nadia Putri. No “onboarding team”. No “market leader in instant noodles”.",
+           "id": "Dear Ms. Kusuma, … MT-27-SC … Kind regards, Nadia Putri. Tanpa “onboarding team”. Tanpa “pemimpin pasar mi instan”."
+          },
+          "placeholder": {
+           "en": "Dear Ms. Kusuma,\n\nI’m applying for the Management Trainee Programme, supply chain intake (ref. MT-27-SC). …\n\n…\n\n…\n\n…\n\nKind regards,\nNadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri",
+           "id": "Dear Ms. Kusuma,\n\nI’m applying for the Management Trainee Programme, supply chain intake (ref. MT-27-SC). …\n\n…\n\n…\n\n…\n\nKind regards,\nNadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri"
+          },
+          "keywords": [
+           [
+            "kusuma",
+            "ms.",
+            "dear"
+           ],
+           [
+            "mt-27-sc",
+            "management trainee"
+           ],
+           [
+            "supply chain"
+           ],
+           [
+            "three branches",
+            "3 branches",
+            "reconcil"
+           ],
+           [
+            "terminal",
+            "thirty minutes",
+            "30 minutes"
+           ],
+           [
+            "rotation",
+            "warehouse",
+            "distribution",
+            "route"
+           ],
+           [
+            "notice",
+            "slows"
+           ],
+           [
+            "available",
+            "november"
+           ],
+           [
+            "conversation",
+            "welcome",
+            "discuss"
+           ],
+           [
+            "regards"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Surat lamaran",
+         "id": "Surat lamaran"
+        },
+        "short": {
+         "en": "Rel Nusantara",
+         "id": "Rel Nusantara"
+        },
+        "guide": {
+         "en": "Lesson 6.3. All eleven components in order, to Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Body: two or three evidence sentences from the Rel Nusantara CV’s angle. Lampiran list in the advertisement’s words and order — decide what to do with the SKL/ijazah choice and the conditional Surat Keterangan Sehat. Count = list.",
+         "id": "Pelajaran 6.3. Kesebelas komponen berurutan, kepada Manajer Rekrutmen PT Rel Nusantara (Persero), Jakarta. Isi: dua atau tiga kalimat bukti dari sudut CV Rel Nusantara. Daftar lampiran dalam kata-kata dan urutan iklan — putuskan pilihan SKL/ijazah dan Surat Keterangan Sehat yang bersyarat. Jumlah = daftar."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 180,
+          "rows": 18,
+          "lang": "id",
+          "title": {
+           "en": "The surat lamaran to PT Rel Nusantara",
+           "id": "Surat lamaran ke PT Rel Nusantara"
+          },
+          "help": {
+           "en": "Semarang, [tanggal] · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat, · pembuka · identitas · isi · lampiran list · penutup · Hormat saya. Formal register; check di-/di, capitals, Rp and decimals.",
+           "id": "Semarang, [tanggal] · Perihal · Lampiran: n berkas · Kepada Yth. · Dengan hormat, · pembuka · identitas · isi · daftar lampiran · penutup · Hormat saya. Register formal; periksa di-/di, kapital, Rp, dan desimal."
+          },
+          "placeholder": {
+           "en": "Semarang, 2 Oktober 2026\nPerihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional\nLampiran: … berkas\n\nKepada Yth.\nBapak/Ibu Manajer Rekrutmen\nPT Rel Nusantara (Persero)\nJakarta\n\nDengan hormat,\n…",
+           "id": "Semarang, 2 Oktober 2026\nPerihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional\nLampiran: … berkas\n\nKepada Yth.\nBapak/Ibu Manajer Rekrutmen\nPT Rel Nusantara (Persero)\nJakarta\n\nDengan hormat,\n…"
+          },
+          "keywords": [
+           [
+            "perihal"
+           ],
+           [
+            "lampiran"
+           ],
+           [
+            "kepada yth",
+            "yth."
+           ],
+           [
+            "dengan hormat"
+           ],
+           [
+            "manajer rekrutmen"
+           ],
+           [
+            "management trainee",
+            "operasional"
+           ],
+           [
+            "nadia putri"
+           ],
+           [
+            "manajemen",
+            "3,38"
+           ],
+           [
+            "rekonsiliasi",
+            "tiga kantor cabang",
+            "tiga cabang"
+           ],
+           [
+            "bendahara",
+            "audit"
+           ],
+           [
+            "surat keterangan lulus",
+            "skl"
+           ],
+           [
+            "transkrip"
+           ],
+           [
+            "ktp"
+           ],
+           [
+            "pas foto",
+            "merah"
+           ],
+           [
+            "toefl"
+           ],
+           [
+            "ditempatkan",
+            "seluruh wilayah"
+           ],
+           [
+            "hormat saya"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The email",
+         "id": "Email"
+        },
+        "short": {
+         "en": "Email",
+         "id": "Email"
+        },
+        "guide": {
+         "en": "Lesson 6.4. The email to Bu Maya after uploading: subject as the module’s pattern, greeting, a 120–200-word body derived from the letter (not pasted whole), what is attached and how the files are named, the four-line signature.",
+         "id": "Pelajaran 6.4. Email ke Bu Maya setelah mengunggah: subjek sesuai pola modul, salam, badan 120–200 kata yang diturunkan dari surat (bukan ditempel utuh), apa yang dilampirkan dan bagaimana berkas dinamai, tanda tangan empat baris."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 120,
+          "max": 230,
+          "rows": 12,
+          "title": {
+           "en": "The application email to Bu Maya",
+           "id": "Email lamaran ke Bu Maya"
+          },
+          "help": {
+           "en": "Write the subject line first, then the email. Say what you attached and what the files are called.",
+           "id": "Tulis baris subjek dulu, lalu emailnya. Katakan apa yang kamu lampirkan dan apa nama berkasnya."
+          },
+          "placeholder": {
+           "en": "Subject: Lamaran – Management Trainee (MT-27-SC) – Nadia Putri\n\nDear Ms. Kusuma,\n\n…\n\nNadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri\nAttachments: NadiaPutri_CV_Arunika.pdf · NadiaPutri_CoverLetter_Arunika.pdf",
+           "id": "Subject: Lamaran – Management Trainee (MT-27-SC) – Nadia Putri\n\nDear Ms. Kusuma,\n\n…\n\nNadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri\nLampiran: NadiaPutri_CV_Arunika.pdf · NadiaPutri_CoverLetter_Arunika.pdf"
+          },
+          "keywords": [
+           [
+            "subject",
+            "subjek"
+           ],
+           [
+            "lamaran –",
+            "lamaran -",
+            "management trainee"
+           ],
+           [
+            "nadia putri"
+           ],
+           [
+            "kusuma",
+            "ms."
+           ],
+           [
+            "uploaded",
+            "portal",
+            "mengunggah"
+           ],
+           [
+            "nadiaputri_cv",
+            "_cv_"
+           ],
+           [
+            "linkedin"
+           ],
+           [
+            "+62",
+            "phone",
+            "telepon"
+           ],
+           [
+            "supply chain",
+            "reconcil",
+            "terminal"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The audit",
+         "id": "Audit"
+        },
+        "short": {
+         "en": "Audit",
+         "id": "Audit"
+        },
+        "guide": {
+         "en": "Lesson 6.2, section 7. Run Innes’s eight mistakes against both letters: named addressee · weak opening · repeating the CV · no call to action · money · too long · mass-sent · typos. For each letter, list the eight with pass/fail and the fix for any fail — and name the previous-employer phrases you searched for.",
+         "id": "Pelajaran 6.2, bagian 7. Jalankan delapan kesalahan Innes terhadap kedua surat: penerima bernama · pembuka lemah · mengulang CV · tanpa ajakan bertindak · uang · terlalu panjang · dikirim massal · salah ketik. Untuk tiap surat, daftar kedelapannya dengan lolos/gagal dan perbaikan untuk yang gagal — dan sebutkan frasa perusahaan sebelumnya yang kamu cari."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 80,
+          "rows": 10,
+          "title": {
+           "en": "Eight checks × two letters",
+           "id": "Delapan pemeriksaan × dua surat"
+          },
+          "help": {
+           "en": "Sixteen lines, or a compact table. Note where the surat lamaran’s checks differ (no named addressee is acceptable when the announcement gives a title; “too long” means more than one page).",
+           "id": "Enam belas baris, atau tabel ringkas. Catat di mana pemeriksaan surat lamaran berbeda (tanpa nama penerima bisa diterima jika pengumuman memberi jabatan; “terlalu panjang” berarti lebih dari satu halaman)."
+          },
+          "placeholder": {
+           "en": "Arunika — 1 named: pass (Ms. Kusuma) · 2 opening: … · 3 CV repeated: … · 4 call to action: … · 5 money: … · 6 length: 3xx words, one page · 7 mass-sent: searched “KilatPay”, “onboarding”, “merchant” — none · 8 typos: read aloud …\nRel Nusantara — 1 … 8 …",
+           "id": "Arunika — 1 bernama: lolos (Ms. Kusuma) · 2 pembuka: … · 3 CV diulang: … · 4 ajakan bertindak: … · 5 uang: … · 6 panjang: 3xx kata, satu halaman · 7 dikirim massal: dicari “KilatPay”, “onboarding”, “merchant” — tidak ada · 8 salah ketik: dibaca keras-keras …\nRel Nusantara — 1 … 8 …"
+          },
+          "keywords": [
+           [
+            "named",
+            "bernama",
+            "addressee",
+            "penerima"
+           ],
+           [
+            "opening",
+            "pembuka"
+           ],
+           [
+            "repeat",
+            "ulang"
+           ],
+           [
+            "call to action",
+            "ajakan",
+            "invitation",
+            "undangan"
+           ],
+           [
+            "money",
+            "uang",
+            "salary",
+            "gaji"
+           ],
+           [
+            "long",
+            "panjang",
+            "words",
+            "kata",
+            "page",
+            "halaman"
+           ],
+           [
+            "mass",
+            "massal",
+            "kilatpay",
+            "onboarding"
+           ],
+           [
+            "typo",
+            "salah ketik",
+            "aloud",
+            "keras",
+            "ejaan"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Angle matches the tailored CV — supply chain for Arunika, operasional/pelaporan for Rel Nusantara",
+         "id": "Sudut sesuai CV yang disesuaikan — supply chain untuk Arunika, operasional/pelaporan untuk Rel Nusantara"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Evidence, not claims — stories and numbers from the CV, no adjectives doing the work",
+         "id": "Bukti, bukan klaim — cerita dan angka dari CV, tanpa kata sifat yang mengerjakan tugasnya"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Verified “why them” — only from the research tab; the unverified line not used",
+         "id": "“Mengapa mereka” terverifikasi — hanya dari tab riset; baris tak terverifikasi tidak dipakai"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Formats correct — four paragraphs and length for Arunika; eleven components, register and a matching lampiran list for Rel Nusantara; every email field",
+         "id": "Format benar — empat paragraf dan panjang untuk Arunika; sebelas komponen, register, dan daftar lampiran yang cocok untuk Rel Nusantara; setiap kolom email"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Audit — no mistakes from the eight-item list survive in either letter",
+         "id": "Audit — tidak ada kesalahan dari daftar delapan butir yang bertahan di kedua surat"
+        },
+        "w": "15%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — two defensible letters",
+        "id": "Catatan model — dua surat yang bisa dipertahankan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The Arunika letter",
+          "id": "Surat Arunika"
+         }
+        },
+        {
+         "en": "Dear Ms. Kusuma, — I’m applying for the Management Trainee Programme, supply chain intake (ref. MT-27-SC). When Rina from your 2023 cohort described the warehouse consolidation in Semarang — and said the first cohort found those weeks hardest — I recognised the kind of work I have most enjoyed: a process that runs, but not yet fast enough. — During my operations internship at Bank Sinar Nusantara I reconciled daily transaction reports across three branches. One terminal produced the same mismatch every day; tracing the pattern and flagging it removed about thirty minutes of manual correction daily. At Kopi Tepian, a pre-order board I proposed for the morning rush shortened peak waiting times — smaller, but the same instinct. My thesis on inventory turnover at a Tegal retailer is the same question at a shop-floor scale. — Your programme now starts in supply chain — planning, warehouse, distribution — and your advertisement asks for graduates who notice what slows a process down; your 2026 report names distribution-route optimisation as a priority. That is the work I want to learn properly. — I would welcome a conversation about the supply-chain intake. I’m available from November and willing to be placed at either plant. — Kind regards, Nadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri. About 260 words. What loses marks: the unverified “market leader” line; “Although I have no FMCG experience…”; the KilatPay “onboarding team” close; a fourth paragraph with no invitation.",
+         "id": "Dear Ms. Kusuma, — I’m applying for the Management Trainee Programme, supply chain intake (ref. MT-27-SC). When Rina from your 2023 cohort described the warehouse consolidation in Semarang — and said the first cohort found those weeks hardest — I recognised the kind of work I have most enjoyed: a process that runs, but not yet fast enough. — During my operations internship at Bank Sinar Nusantara I reconciled daily transaction reports across three branches. One terminal produced the same mismatch every day; tracing the pattern and flagging it removed about thirty minutes of manual correction daily. At Kopi Tepian, a pre-order board I proposed for the morning rush shortened peak waiting times — smaller, but the same instinct. My thesis on inventory turnover at a Tegal retailer is the same question at a shop-floor scale. — Your programme now starts in supply chain — planning, warehouse, distribution — and your advertisement asks for graduates who notice what slows a process down; your 2026 report names distribution-route optimisation as a priority. That is the work I want to learn properly. — I would welcome a conversation about the supply-chain intake. I’m available from November and willing to be placed at either plant. — Kind regards, Nadia Putri · nadia.putri@email.com · linkedin.com/in/nadiaputri. Sekitar 260 kata. Yang kehilangan nilai: baris “pemimpin pasar” yang tidak terverifikasi; “Although I have no FMCG experience…”; penutup “onboarding team” dari KilatPay; paragraf keempat tanpa undangan."
+        },
+        {
+         "h": {
+          "en": "The surat lamaran",
+          "id": "Surat lamaran"
+         }
+        },
+        {
+         "en": "Semarang, 2 Oktober 2026 · Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta · Dengan hormat, · Berdasarkan pengumuman Rekrutmen Bersama BUMN, saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara (Persero). · Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email. · Body: the two evidence sentences from Lesson 6.3 (three branches, the terminal, thirty minutes; the treasurer and the clean audit) plus one on sponsorship (Rp 85 juta, sebelas sponsor, 1.200 peserta). · Sebagai bahan pertimbangan, saya lampirkan: 1. Daftar Riwayat Hidup; 2. Scan Surat Keterangan Lulus; 3. Scan Transkrip Nilai; 4. Scan KTP; 5. Pas foto terbaru berlatar merah 4×6; 6. Sertifikat TOEFL ITP (bulan lalu, 540). Surat Keterangan Sehat is omitted from the list because she does not have it — the advertisement says “jika sudah ada” — and the count says six, and the merged PDF has six after the letter. SKL, not Ijazah, because the ijazah has not been issued. · Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara (Persero) dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. · Hormat saya, Nadia Putri. What loses marks: “Lampiran: 7 berkas” with six attached; “Ijazah” listed when only the SKL exists; a body of adjectives; “di tempatkan”; “IPK 3.38”.",
+         "id": "Semarang, 2 Oktober 2026 · Perihal: Lamaran Pekerjaan sebagai Management Trainee — Operasional · Lampiran: 6 (enam) berkas · Kepada Yth. Bapak/Ibu Manajer Rekrutmen, PT Rel Nusantara (Persero), Jakarta · Dengan hormat, · Berdasarkan pengumuman Rekrutmen Bersama BUMN, saya bermaksud melamar posisi Management Trainee — Operasional di PT Rel Nusantara (Persero). · Nama: Nadia Putri · Pendidikan: S1 Manajemen, Universitas X (IPK 3,38) · Telepon · Email. · Isi: dua kalimat bukti dari Pelajaran 6.3 (tiga cabang, terminal, tiga puluh menit; bendahara dan audit bersih) plus satu tentang sponsorship (Rp 85 juta, sebelas sponsor, 1.200 peserta). · Sebagai bahan pertimbangan, saya lampirkan: 1. Daftar Riwayat Hidup; 2. Scan Surat Keterangan Lulus; 3. Scan Transkrip Nilai; 4. Scan KTP; 5. Pas foto terbaru berlatar merah 4×6; 6. Sertifikat TOEFL ITP (bulan lalu, 540). Surat Keterangan Sehat dihilangkan dari daftar karena ia belum memilikinya — iklan menyebut “jika sudah ada” — dan jumlahnya menyebut enam, dan PDF gabungan punya enam setelah surat. SKL, bukan Ijazah, karena ijazah belum terbit. · Saya bersedia ditempatkan di seluruh wilayah kerja PT Rel Nusantara (Persero) dan dapat mengikuti proses seleksi sewaktu-waktu. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih. · Hormat saya, Nadia Putri. Yang kehilangan nilai: “Lampiran: 7 berkas” dengan enam terlampir; “Ijazah” dicantumkan padahal hanya SKL yang ada; isi yang terbuat dari kata sifat; “di tempatkan”; “IPK 3.38”."
+        },
+        {
+         "h": {
+          "en": "The email",
+          "id": "Email"
+         }
+        },
+        {
+         "en": "Subject: Lamaran – Management Trainee (MT-27-SC) – Nadia Putri. Dear Ms. Kusuma, — Thank you for suggesting I write directly. I uploaded my application for the Management Trainee Programme (supply chain intake, ref. MT-27-SC) this morning; my CV and cover letter are attached here as well, for convenience. — When Rina from your 2023 cohort described the Semarang warehouse consolidation, I recognised the work I have most enjoyed: during my operations internship at Bank Sinar Nusantara I traced a recurring terminal mismatch across three branches and the fix removed about thirty minutes of manual correction a day. Your programme’s start in supply chain, and your advertisement’s ask for graduates who notice what slows a process down, are why I applied. — I would welcome a conversation about the intake; I’m available from November and willing to be placed at either plant. — Kind regards, Nadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri · Attachments: NadiaPutri_CV_Arunika.pdf, NadiaPutri_CoverLetter_Arunika.pdf. About 150 words in the body; sent to herself first; one employer.",
+         "id": "Subject: Lamaran – Management Trainee (MT-27-SC) – Nadia Putri. Dear Ms. Kusuma, — Thank you for suggesting I write directly. I uploaded my application for the Management Trainee Programme (supply chain intake, ref. MT-27-SC) this morning; my CV and cover letter are attached here as well, for convenience. — When Rina from your 2023 cohort described the Semarang warehouse consolidation, I recognised the work I have most enjoyed: during my operations internship at Bank Sinar Nusantara I traced a recurring terminal mismatch across three branches and the fix removed about thirty minutes of manual correction a day. Your programme’s start in supply chain, and your advertisement’s ask for graduates who notice what slows a process down, are why I applied. — I would welcome a conversation about the intake; I’m available from November and willing to be placed at either plant. — Kind regards, Nadia Putri · +62 8xx · nadia.putri@email.com · linkedin.com/in/nadiaputri · Lampiran: NadiaPutri_CV_Arunika.pdf, NadiaPutri_CoverLetter_Arunika.pdf. Sekitar 150 kata di badan; dikirim ke dirinya dulu; satu perusahaan."
+        },
+        {
+         "h": {
+          "en": "The audit",
+          "id": "Audit"
+         }
+        },
+        {
+         "en": "Arunika: 1 named — pass (Ms. Kusuma). 2 opening — pass (role, reference, Rina’s story as connection; no deficit). 3 CV repeated — pass (one story expanded, thesis in one line). 4 call to action — pass (conversation, November, either plant). 5 money — pass. 6 length — about 260 words, one page. 7 mass-sent — searched “KilatPay”, “onboarding”, “merchant”, “fintech”, “SQL”: none. 8 typos — read aloud; “Ms. Kusuma” consistent. Rel Nusantara: 1 — the announcement gives a title, so “Bapak/Ibu Manajer Rekrutmen” passes. 2 — the surat lamaran opening is conventional by design; pass if it names the position and the source. 3 — pass: three evidence sentences, no restated CV. 4 — pass: availability and readiness for selection. 5 — pass. 6 — one page. 7 — searched “Arunika”, “supply chain”, “Kusuma”: none. 8 — di-/di, capitals, Rp, 3,38, terima kasih as two words — pass after Drill 3’s three passes.",
+         "id": "Arunika: 1 bernama — lolos (Ms. Kusuma). 2 pembuka — lolos (peran, referensi, cerita Rina sebagai koneksi; tanpa kekurangan). 3 CV diulang — lolos (satu cerita diperluas, skripsi dalam satu baris). 4 ajakan bertindak — lolos (percakapan, November, pabrik mana pun). 5 uang — lolos. 6 panjang — sekitar 260 kata, satu halaman. 7 dikirim massal — dicari “KilatPay”, “onboarding”, “merchant”, “fintech”, “SQL”: tidak ada. 8 salah ketik — dibaca keras-keras; “Ms. Kusuma” konsisten. Rel Nusantara: 1 — pengumuman memberi jabatan, jadi “Bapak/Ibu Manajer Rekrutmen” lolos. 2 — pembuka surat lamaran memang konvensional; lolos jika menyebut posisi dan sumbernya. 3 — lolos: tiga kalimat bukti, tanpa CV yang diulang. 4 — lolos: ketersediaan dan kesiapan seleksi. 5 — lolos. 6 — satu halaman. 7 — dicari “Arunika”, “supply chain”, “Kusuma”: tidak ada. 8 — di-/di, kapital, Rp, 3,38, terima kasih dua kata — lolos setelah tiga putaran Latihan 3."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your Arunika letter used the instant-noodles line, ask where it came from. If your lampiran count is seven, ask whether the Surat Keterangan Sehat exists. If either letter contains the other employer’s name or a phrase from the KilatPay letter, the audit was not run.",
+        "id": "Bandingkan, jangan salin. Jika surat Arunika-mu memakai baris mi instan, tanyakan dari mana asalnya. Jika jumlah lampiranmu tujuh, tanyakan apakah Surat Keterangan Sehat ada. Jika salah satu surat memuat nama perusahaan lain atau frasa dari surat KilatPay, auditnya belum dijalankan."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as the two screeners would — Bu Maya with the CV beside the letter, the BUMN screener with the document list beside the lampiran. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca kelima jawabanmu seperti kedua penyaring — Bu Maya dengan CV di samping surat, penyaring BUMN dengan daftar dokumen di samping lampiran. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then write the two letters your own Top 5 needs this week.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu tulis dua surat yang dibutuhkan 5 Teratas-mu sendiri minggu ini."
+       }
+      }
      },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Repeating the CV in paragraphs",
-         "id": "Mengulang CV dalam bentuk paragraf"
+         "en": "A “why them” from an unchecked summary",
+         "id": "“Mengapa mereka” dari ringkasan yang belum dicek"
         },
         "fix": {
-         "en": "The letter argues; it does not list. Pick the two pieces of evidence that answer this brief and explain why they matter here.",
-         "id": "Surat itu berargumen; bukan mendaftar. Pilih dua bukti yang menjawab brief ini dan jelaskan mengapa penting di sini."
+         "en": "Only the research tab: the conversation, the advertisement, the company’s own report.",
+         "id": "Hanya tab riset: percakapan, iklan, laporan perusahaan sendiri."
         }
        },
        {
         "h": {
-         "en": "Flattery as research",
-         "id": "Sanjungan sebagai riset"
+         "en": "A lampiran count that does not match the file",
+         "id": "Jumlah lampiran yang tidak cocok dengan berkas"
         },
         "fix": {
-         "en": "“Your company is a leader in the industry” proves nothing. One specific: a product, an announcement, a problem you noticed — and what you would do about it.",
-         "id": "“Perusahaan Anda adalah pemimpin industri” tak membuktikan apa pun. Satu hal spesifik: produk, pengumuman, masalah yang kamu perhatikan — dan apa yang akan kamu lakukan."
+         "en": "List what exists, in the advertisement’s words; omit the conditional document you do not have.",
+         "id": "Cantumkan yang ada, dalam kata-kata iklan; hilangkan dokumen bersyarat yang tidak kamu punya."
         }
        },
        {
         "h": {
-         "en": "Ending with hope",
-         "id": "Menutup dengan harapan"
+         "en": "The previous employer’s phrase surviving the edit",
+         "id": "Frasa perusahaan sebelumnya yang bertahan setelah penyuntingan"
         },
         "fix": {
-         "en": "“I hope to hear from you” hands control away. Close with availability and a concrete next step.",
-         "id": "“Saya berharap mendapat kabar” menyerahkan kendali. Tutup dengan ketersediaan dan langkah konkret berikutnya."
+         "en": "Search the letter for the last employer’s name, product and team words.",
+         "id": "Cari di surat nama, produk, dan kata tim perusahaan sebelumnya."
+        }
+       },
+       {
+        "h": {
+         "en": "The whole letter pasted into the email",
+         "id": "Seluruh surat ditempel ke email"
+        },
+        "fix": {
+         "en": "A 120–200-word version in the body; the full letter attached and named.",
+         "id": "Versi 120–200 kata di badan; surat lengkap terlampir dan bernama."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Angle",
+        "id": "Sudut"
+       },
+       "def": {
+        "en": "The one argument a tailored CV makes — the letter expands it and never argues for a different candidate.",
+        "id": "Satu argumen yang dibuat CV yang disesuaikan — surat memperluasnya dan tidak pernah memperjuangkan kandidat yang berbeda."
+       }
+      },
+      {
+       "term": {
+        "en": "Conditional document",
+        "id": "Dokumen bersyarat"
+       },
+       "def": {
+        "en": "A listed document marked “jika sudah ada” — included only if you have it, and then counted.",
+        "id": "Dokumen terdaftar yang ditandai “jika sudah ada” — disertakan hanya jika kamu punya, dan kemudian dihitung."
+       }
+      },
+      {
+       "term": {
+        "en": "Merged PDF",
+        "id": "PDF gabungan"
+       },
+       "def": {
+        "en": "One file: the surat lamaran first, then the documents in the advertisement’s order.",
+        "id": "Satu berkas: surat lamaran dulu, lalu dokumen dalam urutan iklan."
+       }
+      },
+      {
+       "term": {
+        "en": "Previous-employer search",
+        "id": "Pencarian perusahaan sebelumnya"
+       },
+       "def": {
+        "en": "Searching a reused letter for the last employer’s name and vocabulary before sending.",
+        "id": "Mencari di surat yang dipakai ulang nama dan kosakata perusahaan sebelumnya sebelum mengirim."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s research notes include “Arunika is the market leader in instant noodles” from an unchecked search summary. In the letter she should…",
+        "id": "Catatan riset Nadia memuat “Arunika pemimpin pasar mi instan” dari ringkasan pencarian yang belum dicek. Di surat ia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Use it — it is probably true",
+         "id": "Pakai — mungkin benar"
+        },
+        {
+         "en": "Not use it; use the verified specifics from Kak Rina, the advertisement and the company’s report",
+         "id": "Tidak memakainya; pakai hal spesifik terverifikasi dari Kak Rina, iklan, dan laporan perusahaan"
+        },
+        {
+         "en": "Use it with “I believe”",
+         "id": "Pakai dengan “saya yakin”"
+        },
+        {
+         "en": "Ask the recruiter if it is true",
+         "id": "Tanyakan ke rekruter apakah benar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A wrong specific is worse than none; every fact must be traceable to a source she has read.",
+        "id": "Hal spesifik yang salah lebih buruk daripada tidak ada; setiap fakta harus bisa dilacak ke sumber yang ia baca."
+       }
+      },
+      {
+       "q": {
+        "en": "The Rel Nusantara list includes “Surat Keterangan Sehat (jika sudah ada)”. Nadia does not have one. Her lampiran list should…",
+        "id": "Daftar Rel Nusantara memuat “Surat Keterangan Sehat (jika sudah ada)”. Nadia belum punya. Daftar lampirannya sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Include it anyway to look complete",
+         "id": "Tetap mencantumkannya agar tampak lengkap"
+        },
+        {
+         "en": "Omit it, and count only the documents actually attached",
+         "id": "Menghilangkannya, dan menghitung hanya dokumen yang benar-benar dilampirkan"
+        },
+        {
+         "en": "Include it with “menyusul”",
+         "id": "Mencantumkannya dengan “menyusul”"
+        },
+        {
+         "en": "Replace it with a doctor’s note",
+         "id": "Menggantinya dengan surat dokter"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "If you cannot list it, you have not attached it — and a promised document that is missing is an administrative failure.",
+        "id": "Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya — dan dokumen yang dijanjikan tetapi hilang adalah kegagalan administratif."
+       }
+      },
+      {
+       "q": {
+        "en": "Bu Maya invited a direct email after the portal upload. The email body should be…",
+        "id": "Bu Maya mengundang email langsung setelah unggah portal. Badan emailnya sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "“Dear Ms. Kusuma, I have uploaded my application. Regards.”",
+         "id": "“Dear Ms. Kusuma, I have uploaded my application. Regards.”"
+        },
+        {
+         "en": "A 120–200-word version of the letter, with the CV and letter attached and named",
+         "id": "Versi 120–200 kata dari surat, dengan CV dan surat terlampir dan bernama"
+        },
+        {
+         "en": "The full 300-word letter pasted in",
+         "id": "Surat lengkap 300 kata ditempel"
+        },
+        {
+         "en": "A request for the interview date",
+         "id": "Permintaan tanggal wawancara"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The email body is the letter, short — and it earns the attachment being opened.",
+        "id": "Badan email adalah suratnya, singkat — dan itu membuat lampirannya dibuka."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Your two letters this week",
+       "id": "Dua suratmu minggu ini"
+      },
+      "body": {
+       "en": "In the letter studio, write the English letter for your nearest English-language target and the surat lamaran for your nearest Indonesian one, each from its tailored CV; build the email template; run the eight-mistake audit and the previous-employer search on both. That completes the Dossier for this module: English cover letter · surat lamaran · application email template.",
+       "id": "Di studio surat, tulis surat Inggris untuk sasaran berbahasa Inggris terdekatmu dan surat lamaran untuk sasaran berbahasa Indonesia terdekat, masing-masing dari CV yang disesuaikan; bangun templat email; jalankan audit delapan kesalahan dan pencarian perusahaan sebelumnya pada keduanya. Itu melengkapi Dossier untuk modul ini: surat pengantar Inggris · surat lamaran · templat email lamaran."
+      },
+      "cta": {
+       "en": "Open the letter studio →",
+       "id": "Buka studio surat →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Same facts, two registers — and the same angle as each tailored CV.",
+       "id": "Fakta yang sama, dua register — dan sudut yang sama dengan tiap CV yang disesuaikan."
+      },
+      {
+       "en": "Verified specifics only; the lampiran list counts what exists.",
+       "id": "Hanya hal spesifik terverifikasi; daftar lampiran menghitung yang ada."
+      },
+      {
+       "en": "Audit before sending: eight mistakes and the previous employer’s name.",
+       "id": "Audit sebelum mengirim: delapan kesalahan dan nama perusahaan sebelumnya."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 1 · the search system",
-        "id": "Modul 1 · sistem pencarian"
+        "en": "Lessons 6.1–6.4",
+        "id": "Pelajaran 6.1–6.4"
        },
        "desc": {
-        "en": "Targets, cadence and a tracker that tells you what to fix.",
-        "id": "Target, irama, dan pelacak yang memberi tahu apa yang harus diperbaiki."
+        "en": "What a letter is for, the four-paragraph letter, the surat lamaran, emails and criteria and speculative letters.",
+        "id": "Untuk apa surat, surat empat paragraf, surat lamaran, email dan kriteria dan surat spekulatif."
        }
       },
       "now": {
        "label": {
-        "en": "Module 2 · documents that pass three judges",
-        "id": "Modul 2 · dokumen yang lolos tiga juri"
+        "en": "6.5 · Two Letters, One Candidate",
+        "id": "6.5 · Dua Surat, Satu Kandidat"
        },
        "desc": {
-        "en": "Master record, one-page cuts, a search-optimised profile and a letter that argues.",
-        "id": "Catatan induk, potongan satu halaman, profil yang dioptimalkan untuk pencarian, dan surat yang berargumen."
+        "en": "You have written both formats from one CV, the email that carries one, and audited both.",
+        "id": "Kamu sudah menulis kedua format dari satu CV, email yang membawa salah satunya, dan mengaudit keduanya."
        }
       },
       "next": {
        "label": {
-        "en": "Module 7 · the tests",
-        "id": "Modul 7 · tes-tesnya"
+        "en": "Module 7 · Psychometric &amp; Aptitude Test Practice",
+        "id": "Modul 7 · Latihan Psikotes &amp; Tes Bakat"
        },
        "desc": {
-        "en": "The most trainable stage of the funnel: what each test measures and a four-week plan.",
-        "id": "Tahap corong yang paling bisa dilatih: apa yang diukur tiap tes dan rencana empat minggu."
+        "en": "The gate after the paper: the tests, the procedures, and three weeks of practice.",
+        "id": "Gerbang setelah kertas: tes, prosedur, dan tiga minggu latihan."
        },
        "lesson": "7.1"
       }
