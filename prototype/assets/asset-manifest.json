@@ -22321,6 +22321,138 @@
       "model_release": "n/a",
       "status": "documented",
       "notes": "Bahasa Indonesia subtitles for style-3: translated in-repo from the English transcript."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-en-01.jpg",
+      "bytes": 239337,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (English), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-en-01-960.jpg",
+      "bytes": 114984,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (English), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-en-01-320.jpg",
+      "bytes": 19331,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - English.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (English), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-id-01.jpg",
+      "bytes": 281094,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 1600 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (Bahasa Indonesia), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-id-01-960.jpg",
+      "bytes": 133862,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 960 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (Bahasa Indonesia), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/slides/style-apply-id-01-320.jpg",
+      "bytes": 20629,
+      "category": "graphic",
+      "people": "likely",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Applying the three elements - Bahasa Indonesia.pdf\" (one-slide learning material with photographs and illustrations); page 1 rendered in-repo at 320 px wide",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 slide material \"Applying the Three Elements\" (Bahasa Indonesia), slide 1 of 1: applying the three elements in a virtual context (Hilary and Mark), reflection on an upcoming virtual meeting, key tips for virtual delivery. Licence and model release follow the uploaded PDF."
+    },
+    {
+      "file": "assets/lms/the-map/style-4.mp4",
+      "bytes": 21822770,
+      "category": "video",
+      "people": "yes",
+      "source": "Uploaded to the repository by Metanoia Labs on 2026-09-27 as \"Delivering remotely.mp4\" (moved to this path, bytes unchanged)",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "The Map · Module 4 · 4.4 lesson film \"Delivering remotely\": presenters captioned \"Mark\" and Hilary on presence, body language, camera height, eye contact and self-view on a video call. Licence and any model releases follow the upload."
+    },
+    {
+      "file": "assets/lms/the-map/style-4-brand.mp4",
+      "bytes": 27346705,
+      "category": "video",
+      "people": "yes",
+      "source": "Derived in-repo from style-4.mp4 by scripts/brand-grade-videos.py (colour grade, brand frame); no new footage",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Brand-graded playback copy of the presentation-style film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/style-4-poster.jpg",
+      "bytes": 57920,
+      "category": "graphic",
+      "people": "yes",
+      "source": "Frame extracted in-repo from style-4.mp4",
+      "licence": "",
+      "licence_proof": "",
+      "model_release": "",
+      "status": "undocumented",
+      "notes": "Poster frame for the presentation-style film; the source file’s licence applies."
+    },
+    {
+      "file": "assets/lms/the-map/style-4-en.vtt",
+      "bytes": 2897,
+      "category": "text",
+      "people": "no",
+      "source": "Transcribed in-repo from the film’s English audio (offline Whisper small.en) and corrected by hand",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "English subtitles for style-4."
+    },
+    {
+      "file": "assets/lms/the-map/style-4-id.vtt",
+      "bytes": 2963,
+      "category": "text",
+      "people": "no",
+      "source": "Translated in-repo from the English transcript",
+      "licence": "Owned",
+      "licence_proof": "Produced in-repo by Metanoia Labs",
+      "model_release": "n/a",
+      "status": "documented",
+      "notes": "Bahasa Indonesia subtitles for style-4: translated in-repo from the English transcript."
     }
   ]
 }
