@@ -9109,8 +9109,8 @@ window.MT_LMS['the-map'] = {
       "id": "Elemen Gaya Presentasi"
      },
      "dur": {
-      "en": "45 min",
-      "id": "45 mnt"
+      "en": "50 min",
+      "id": "50 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -9251,6 +9251,53 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 3 slides",
+        "id": "Baca berikutnya · 3 slide"
+       },
+       "title": {
+        "en": "Critique the Delivery — Material",
+        "id": "Evaluasi Penyampaian — Materi"
+       },
+       "intro": {
+        "en": "Three slides put the three elements to work on a real speaker. Wanda Díaz Merced is a blind astronomer and science communicator who must inspire an audience she cannot see; the first slide shows how physical presence, vocal emphasis and emotional connection combine in her delivery. The second asks you to watch her TED talk, “How a blind astronomer found a way to hear the stars” (or at least its first five minutes), and to answer five questions on her presence, how she controls the room, her vocal emphasis, her emotional connection and the impact she had on you. The third introduces the film in which Hilary and Mark deconstruct that talk. Step through the slides, note your answers, then continue to the film that follows.",
+        "id": "Tiga slide menerapkan tiga elemen pada seorang pembicara nyata. Wanda Díaz Merced adalah astronom tunanetra dan komunikator sains yang harus menginspirasi audiens yang tidak bisa ia lihat; slide pertama menunjukkan bagaimana keberadaan fisik, penekanan vokal, dan koneksi emosional berpadu dalam penyampaiannya. Slide kedua meminta Anda menonton TED Talk-nya, “How a blind astronomer found a way to hear the stars” (setidaknya lima menit pertama), dan menjawab lima pertanyaan tentang presence-nya, cara ia mengendalikan audiens, penekanan vokalnya, koneksi emosionalnya, dan dampaknya pada diri Anda. Slide ketiga memperkenalkan film di mana Hilary dan Mark mengurai presentasi tersebut. Telusuri slide-slide ini, catat jawaban Anda, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-critique-",
+       "slides": [
+        {
+         "title": {
+          "en": "Critique the delivery: how a blind astronomer found a way to hear the stars",
+          "id": "Evaluasi penyampaian: bagaimana seorang astronom tunanetra menemukan cara untuk mendengar bintang"
+         },
+         "text": {
+          "en": "Real-world example. “I may not see the stars, but I can hear their stories.” — Wanda Díaz Merced, blind astronomer and science communicator. Key takeaway: effective communicators know how to deliver their message with the right balance of all three elements: physical presence, vocal emphasis, and emotional connection. A blind astronomer, Wanda Díaz Merced, is a memorable example. In her communications, she must inspire an audience she cannot see. Who is Wanda Díaz Merced? A blind astronomer, educator, and science communicator. Despite not being able to see, she has built a powerful platform to share the wonder of the universe through her voice, storytelling, and passion. The three elements in action — Wanda’s story shows how the right balance of the three elements can create a powerful and memorable delivery, even without visual sight: 1 physical presence — she conveys confidence and authority through her posture, gestures, and energy, even without seeing her audience; 2 vocal emphasis — she uses variation in pitch, pace, and volume to bring complex scientific concepts to life and keep the audience engaged; 3 emotional connection — her passion, authenticity, and personal story create a deep emotional connection, inspiring people to see the universe in a new way — through her words.",
+          "id": "Contoh dunia nyata. “Saya mungkin tidak bisa melihat bintang, tetapi saya bisa mendengar ceritanya.” — Wanda Díaz Merced, astronom tunanetra dan komunikator sains. Poin penting: komunikator yang efektif tahu bagaimana menyampaikan pesan mereka dengan keseimbangan yang tepat dari tiga elemen: keberadaan fisik (presence), penekanan vokal, dan koneksi emosional. Seorang astronom tunanetra, Wanda Díaz Merced, adalah contoh yang menginspirasi. Dalam setiap komunikasinya, ia harus mampu menginspirasi audiens yang tidak bisa ia lihat. Siapa Wanda Díaz Merced? Seorang astronom tunanetra, pendidik, dan komunikator sains. Meskipun tidak dapat melihat, ia telah membangun platform yang kuat untuk membagikan keajaiban alam semesta melalui suaranya, storytelling, dan semangatnya. Tiga elemen dalam praktik — kisah Wanda menunjukkan bagaimana keseimbangan yang tepat dari tiga elemen dapat menciptakan penyampaian yang kuat dan berkesan, bahkan tanpa dukungan visual: 1 keberadaan fisik (presence) — ia menyampaikan rasa percaya diri dan kewibawaan melalui postur, gestur, dan energi, bahkan tanpa melihat audiensnya; 2 penekanan vokal — ia menggunakan variasi nada suara, kecepatan bicara, dan volume untuk menghidupkan konsep-konsep ilmiah yang kompleks dan menjaga audiens tetap terlibat; 3 koneksi emosional — semangat, keaslian, dan kisah pribadinya menciptakan koneksi emosional yang mendalam, menginspirasi orang untuk melihat alam semesta dengan cara baru — melalui kata-katanya."
+         }
+        },
+        {
+         "title": {
+          "en": "Compare to expert",
+          "id": "Analisis seperti ahli"
+         },
+         "text": {
+          "en": "Learn from a real example. Take a look at Merced’s TED talk, “How a blind astronomer found a way to hear the stars” (TED, 17:07). If you don’t have time to watch the full video, watch the first five minutes. 1 Physical presence — which aspects of physical presence does Merced excel at? How does she use her body to convey her message? 2 Controlling the room — how does she manage to control the room when she cannot see her audience? What techniques does she use? 3 Vocal emphasis — describe her vocal emphasis: how does she use pitch, pace, and volume to tell her story? 4 Emotional connection — how does she attempt to build an emotional connection with her audience? What evidence do you see of a connection? 5 Personal impact — did she inspire something in you? Reflection — apply to your own communication: take a moment to think about the questions above and how they relate to how you can convey your message more effectively.",
+          "id": "Belajar dari contoh dunia nyata. Simaklah sesi TED Talk dari Merced, “How a blind astronomer found a way to hear the stars” (TED, 17:07). Jika Anda tidak memiliki waktu untuk menonton video penuh, cukup tonton 5 menit pertama. 1 Keberadaan fisik (presence) — aspek keberadaan fisik apa yang paling menonjol pada Merced? Bagaimana ia menggunakan tubuhnya untuk menyampaikan pesan? 2 Mengendalikan audiens — bagaimana ia mampu mengendalikan audiens meskipun tidak dapat melihat mereka? Teknik apa saja yang ia gunakan? 3 Penekanan vokal — jelaskan penekanan vokalnya: bagaimana ia menggunakan nada suara, kecepatan bicara, dan volume untuk menceritakan kisahnya? 4 Koneksi emosional — bagaimana ia membangun koneksi emosional dengan audiens? Bukti apa yang Anda lihat dari koneksi tersebut? 5 Dampak pribadi — apakah ia menginspirasi sesuatu dalam diri Anda? Refleksi — terapkan pada komunikasi Anda sendiri: luangkan waktu sejenak untuk memikirkan pertanyaan-pertanyaan di atas dan bagaimana hal tersebut berkaitan dengan cara Anda dapat menyampaikan pesan dengan lebih efektif."
+         }
+        },
+        {
+         "title": {
+          "en": "Deconstructing “How a blind astronomer found a way to hear the stars”",
+          "id": "Mengurai “How a blind astronomer found a way to hear the stars”"
+         },
+         "text": {
+          "en": "Analyze in more depth. In this video, Hilary and Mark deconstruct Wanda Díaz Merced’s powerful TED Talk, focusing on the Three Elements of Style. About this video: Hilary and Mark deconstruct Wanda Díaz Merced’s TED Talk “How a blind astronomer found a way to hear the stars,” focusing on the Three Elements of Style. As you watch: pay attention to the elements of Merced’s speech that Hilary and Mark find most engaging and effective. Reflection for you: take a moment to think — what aspects of Merced’s speech can I apply to my own conversations to improve my communication? Reflection question — what can I learn from Merced’s speaking style? Identify one or two specific aspects of Merced’s speech that you want to apply in your own communication.",
+          "id": "Analisis lebih dalam. Mari kita lihat lebih dalam bagaimana Wanda Díaz Merced menyampaikan pesan yang begitu kuat dan menginspirasi. Tentang video ini: dalam video ini, Hilary dan Mark mengurai presentasi TED dari Wanda Díaz Merced “How a blind astronomer found a way to hear the stars,” dengan fokus pada Tiga Elemen Gaya Penyampaian (Three Elements of Style). Saat Anda menonton: perhatikan elemen-elemen dari pidato Merced yang menurut Hilary dan Mark paling menarik dan efektif. Refleksi untuk Anda: luangkan waktu sejenak untuk berpikir — aspek apa dari pidato Merced yang dapat saya terapkan dalam percakapan saya sendiri untuk meningkatkan kemampuan komunikasi saya? Pertanyaan refleksi — apa yang bisa saya pelajari dari gaya penyampaian Merced? Identifikasi satu atau dua aspek spesifik dari pidato Merced yang ingin Anda terapkan dalam komunikasi Anda sehari-hari."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -9369,8 +9416,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the slide points to. Mark and Hilary take the three elements onto a video call. The fundamentals do not change: you still ask where your audience is and where you want them to be, the empathy of EPIC still holds, and you still need a purpose for the meeting. What changes is the weight. The camera shows only a face and the top half of a body, so body language needs to be more restrained — wave your arms and you look like you have giant hands; keep your hands level with yourself. Put the camera roughly at eye level: too high and you look small, too low and people look up your nose. Eye contact works strangely on screen, so for a key message look straight into the lens and imagine the people behind it. And switch off your own self-view, so you can concentrate on the people on the call — the emotional connection, the third element of style. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
-        "id": "Film yang dirujuk slide. Mark dan Hilary membawa tiga elemen ke dalam panggilan video. Dasar-dasarnya tidak berubah: Anda tetap bertanya di mana audiens Anda dan di mana Anda ingin mereka berada, empati dalam EPIC tetap berlaku, dan Anda tetap butuh tujuan untuk pertemuan itu. Yang berubah adalah bobotnya. Kamera hanya menampilkan wajah dan bagian atas tubuh, sehingga bahasa tubuh perlu lebih terkendali — ayunkan lengan dan Anda terlihat seperti memiliki tangan raksasa; jaga tangan tetap sejajar dengan tubuh. Letakkan kamera kira-kira sejajar mata: terlalu tinggi Anda terlihat kecil, terlalu rendah orang melihat ke atas hidung Anda. Kontak mata bekerja aneh di layar, jadi untuk pesan kunci tataplah langsung ke lensa dan bayangkan orang-orang di baliknya. Dan matikan tampilan diri Anda sendiri, agar Anda bisa berkonsentrasi pada orang-orang dalam panggilan — koneksi emosional, elemen ketiga dari gaya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+        "en": "The film the slide points to. Mark and Hilary take the three elements onto a video call. The fundamentals do not change: you still ask where your audience is and where you want them to be, the empathy of EPIC still holds, and you still need a purpose for the meeting. What changes is the weight. The camera shows only a face and the top half of a body, so body language needs to be more restrained — wave your arms and you look like you have giant hands; keep your hands level with yourself. Put the camera roughly at eye level: too high and you look small, too low and people look up your nose. Eye contact works strangely on screen, so for a key message look straight into the lens and imagine the people behind it. And switch off your own self-view, so you can concentrate on the people on the call — the emotional connection, the third element of style. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Film yang dirujuk slide. Mark dan Hilary membawa tiga elemen ke dalam panggilan video. Dasar-dasarnya tidak berubah: Anda tetap bertanya di mana audiens Anda dan di mana Anda ingin mereka berada, empati dalam EPIC tetap berlaku, dan Anda tetap butuh tujuan untuk pertemuan itu. Yang berubah adalah bobotnya. Kamera hanya menampilkan wajah dan bagian atas tubuh, sehingga bahasa tubuh perlu lebih terkendali — ayunkan lengan dan Anda terlihat seperti memiliki tangan raksasa; jaga tangan tetap sejajar dengan tubuh. Letakkan kamera kira-kira sejajar mata: terlalu tinggi Anda terlihat kecil, terlalu rendah orang melihat ke atas hidung Anda. Kontak mata bekerja aneh di layar, jadi untuk pesan kunci tataplah langsung ke lensa dan bayangkan orang-orang di baliknya. Dan matikan tampilan diri Anda sendiri, agar Anda bisa berkonsentrasi pada orang-orang dalam panggilan — koneksi emosional, elemen ketiga dari gaya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -9387,8 +9434,8 @@ window.MT_LMS['the-map'] = {
           "id": "Bingkainya kecil, jadi kendalikan tubuh: jaga tangan tetap sejajar dan pada bidang tubuh Anda, dan letakkan kamera kira-kira sejajar mata — terlalu tinggi membuat Anda kecil, terlalu rendah membuat Anda tampak merasa penting."
          },
          {
-          "en": "Eye contact through a lens is strange, so look straight into the camera for your key message and picture the people behind it. Switch off self-view and give your attention to the audience: that is the emotional connection, applied remotely.",
-          "id": "Kontak mata melalui lensa terasa aneh, jadi tataplah langsung ke kamera untuk pesan kunci Anda dan bayangkan orang-orang di baliknya. Matikan tampilan diri dan berikan perhatian Anda pada audiens: itulah koneksi emosional, diterapkan dari jarak jauh."
+          "en": "Eye contact through a lens is strange, so look straight into the camera for your key message and picture the people behind it. Switch off self-view and give your attention to the audience: that is the emotional connection, applied remotely. The slides and film that follow test all three elements against a real speaker, the astronomer Wanda Díaz Merced.",
+          "id": "Kontak mata melalui lensa terasa aneh, jadi tataplah langsung ke kamera untuk pesan kunci Anda dan bayangkan orang-orang di baliknya. Matikan tampilan diri dan berikan perhatian Anda pada audiens: itulah koneksi emosional, diterapkan dari jarak jauh. Slide dan film yang mengikutinya menguji ketiga elemen pada seorang pembicara nyata, astronom Wanda Díaz Merced."
          }
         ]
        },
@@ -9404,6 +9451,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/style-4-en.vtt",
           "id": "../../assets/lms/the-map/style-4-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "deconstruct",
+       "placement": "after-material:4",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the third slide points to: a deconstruction of Wanda Díaz Merced’s TED Talk through the three elements of style. She opens with a story, almost a children’s story — “once there was a star, she was born” — and charts its life, death and rebirth as a supernova, making something beyond our comprehension real and human. In the technical part she reaches for comparisons rather than numbers: the energy of the sun over ten days, a magnetic field a thousand trillion times the Earth’s. Then presence and voice do the underlining: vocal emphasis lands on particular words (“a tremendous amount of energy”, “an itty-bitty, tiny portion of the spectrum”), a tiny gesture matches the tiny portion, and big gestures act out the spinning star and the ice-skater analogy so we see it happen. Watch with your answers from the slides beside you. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
+        "id": "Film yang dirujuk slide ketiga: pembedahan TED Talk Wanda Díaz Merced melalui tiga elemen gaya. Ia membuka dengan sebuah cerita, hampir seperti cerita anak-anak — “dahulu kala ada sebuah bintang, ia lahir” — dan memetakan kehidupannya, kematiannya, dan kelahirannya kembali sebagai supernova, menjadikan sesuatu yang di luar pemahaman kita terasa nyata dan manusiawi. Di bagian teknis ia memilih perbandingan alih-alih angka: energi matahari selama sepuluh hari, medan magnet seribu triliun kali milik Bumi. Lalu kehadiran dan suara yang menggarisbawahi: penekanan vokal jatuh pada kata-kata tertentu (“energi yang luar biasa besar”, “sebagian teramat kecil dari spektrum”), gerakan kecil mengiringi bagian yang kecil, dan gerakan-gerakan besar memeragakan bintang yang berputar dan analogi pemain seluncur es sehingga kita melihatnya terjadi. Tontonlah dengan jawaban Anda dari slide di samping Anda. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: how an expert brings it to life",
+         "id": "Poin penting: bagaimana seorang ahli menghidupkannya"
+        },
+        "body": [
+         {
+          "en": "Start with a story. Merced opens like a children’s tale — a star is born, dies and is reborn — and turns an abstract subject into something real and human before any technical detail arrives.",
+          "id": "Mulailah dengan cerita. Merced membuka seperti dongeng anak — sebuah bintang lahir, mati, dan lahir kembali — dan mengubah subjek abstrak menjadi sesuatu yang nyata dan manusiawi sebelum detail teknis apa pun muncul."
+         },
+         {
+          "en": "Replace numbers with comparisons. The sun’s energy over ten days and a magnetic field a thousand trillion times the Earth’s let us conceive of scales that a figure in kilojoules never could.",
+          "id": "Ganti angka dengan perbandingan. Energi matahari selama sepuluh hari dan medan magnet seribu triliun kali milik Bumi membuat kita bisa membayangkan skala yang tak akan pernah tersampaikan oleh angka dalam kilojoule."
+         },
+         {
+          "en": "Let voice and body underline the message: vocal emphasis on the words that matter, a tiny gesture for the tiny portion, big gestures for the spinning star and the ice skater. Vivid analogies, simple stories, emphasis and gesture together are what bring it to life.",
+          "id": "Biarkan suara dan tubuh menggarisbawahi pesan: penekanan vokal pada kata-kata yang penting, gerakan kecil untuk bagian yang kecil, gerakan besar untuk bintang yang berputar dan pemain seluncur es. Analogi yang hidup, cerita sederhana, penekanan, dan gerakan bersama-sama itulah yang menghidupkannya."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-5-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-5-poster.jpg",
+         "dur": "2:17",
+         "title": {
+          "en": "Deconstructing story",
+          "id": "Mengurai cerita"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-5-en.vtt",
+          "id": "../../assets/lms/the-map/style-5-id.vtt"
          }
         }
        ]
