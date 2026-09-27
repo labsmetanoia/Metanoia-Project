@@ -9109,8 +9109,8 @@ window.MT_LMS['the-map'] = {
       "id": "Elemen Gaya Presentasi"
      },
      "dur": {
-      "en": "30 min",
-      "id": "30 mnt"
+      "en": "40 min",
+      "id": "40 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -9187,6 +9187,43 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 2 slides",
+        "id": "Baca berikutnya · 2 slide"
+       },
+       "title": {
+        "en": "Elements 2 and 3 — Material",
+        "id": "Elemen 2 dan 3 — Materi"
+       },
+       "intro": {
+        "en": "Two slides take up the other two elements. The first, vocal emphasis: Mark on adjusting pitch, pace and volume to keep an audience engaged and make the key points memorable, with a reflection on which of the three you already use. The second, emotional connection — “how do you create chemistry?”: reading the mood of the audience and adjusting your tone, with Hilary and Mark on empathy as the spark, and a reflection on a connection you have made yourself. Use the arrows or swipe to move between slides; the deck follows your platform language. Read both, then continue to the two films that follow.",
+        "id": "Dua slide membahas dua elemen lainnya. Yang pertama, penekanan vokal: Mark tentang menyesuaikan nada, kecepatan, dan volume agar audiens tetap terlibat dan poin utama mudah diingat, dengan refleksi tentang mana dari ketiganya yang sudah Anda gunakan. Yang kedua, koneksi emosional — “bagaimana Anda menciptakan chemistry?”: membaca suasana audiens dan menyesuaikan nada bicara, dengan Hilary dan Mark tentang empati sebagai pemicunya, dan refleksi tentang koneksi yang pernah Anda bangun sendiri. Gunakan panah atau geser untuk berpindah slide; dek mengikuti bahasa platform Anda. Baca keduanya, lalu lanjutkan ke dua film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-voice-",
+       "slides": [
+        {
+         "title": {
+          "en": "The Three Elements of Style: improving your vocal emphasis",
+          "id": "Tiga Elemen Gaya dalam Presentasi: meningkatkan penekanan vokal Anda"
+         },
+         "text": {
+          "en": "Deep dive. 2. Improving your vocal emphasis. Mark explains how vocal emphasis can help bring home your message. His stories highlight practical tips to adjust your pitch, pace, and volume to keep your audience engaged and make your key points more memorable. As you watch this video, take a moment to think about how you use vocal emphasis in your conversations. Are any of the terms mentioned in the video familiar to you, and which ones do you actively use today? Callouts: pitch — vary your pitch to maintain interest and highlight key points; pace — adjust your pace to give clarity and emphasis; volume — use appropriate volume to convey confidence and energy. Reflect — think about your own experience: how do you currently use vocal emphasis in your conversations? Are terms like pitch, pace, or volume familiar to you? Which ones do you actively use today, and what could you improve? Key techniques from this section — use these elements to make your message clearer, more engaging, and more memorable: pitch — use variation in pitch to create contrast, highlight key points, and keep the audience engaged; pace — adjust your speaking speed to give clarity, build anticipation, and emphasize important messages; volume — use the right volume to convey confidence, energy, and authority for your message and audience.",
+          "id": "Penjelasan lebih dalam. 2. Meningkatkan penekanan vokal Anda. Mark menjelaskan bagaimana penekanan vokal dapat membantu menyampaikan pesan Anda dengan lebih kuat. Melalui cerita dan contoh nyata, ia memberikan tips praktis untuk menyesuaikan nada (pitch), kecepatan (pace), dan volume suara agar audiens tetap terlibat dan pesan utama Anda lebih mudah diingat. Saat Anda menonton video ini, luangkan waktu sejenak untuk memikirkan bagaimana Anda menggunakan penekanan vokal dalam percakapan sehari-hari. Apakah ada istilah yang disebutkan dalam video ini yang sudah familiar bagi Anda, dan mana saja yang saat ini aktif Anda gunakan? Keterangan: nada (pitch) — variasikan nada suara Anda untuk menjaga ketertarikan audiens dan menekankan poin penting; kecepatan (pace) — atur kecepatan bicara Anda untuk memberikan kejelasan dan penekanan; volume — gunakan volume suara yang tepat untuk menunjukkan rasa percaya diri, energi, dan otoritas. Refleksi — pikirkan tentang pengalaman Anda: bagaimana Anda saat ini menggunakan penekanan vokal dalam percakapan sehari-hari? Apakah istilah seperti nada, kecepatan, atau volume sudah familiar bagi Anda? Mana saja yang saat ini aktif Anda gunakan, dan apa yang bisa Anda tingkatkan? Teknik utama dari bagian ini — gunakan elemen-elemen berikut untuk menyampaikan pesan dengan lebih jelas, lebih menarik, dan lebih berkesan: nada (pitch) — variasikan nada suara untuk menciptakan kontras, menekankan poin penting, dan menjaga ketertarikan audiens; kecepatan (pace) — atur kecepatan bicara untuk memberikan kejelasan, membangun antisipasi, dan menekankan pesan penting; volume — gunakan volume yang tepat untuk menyampaikan rasa percaya diri, energi, dan otoritas terhadap pesan Anda dan audiens."
+         }
+        },
+        {
+         "title": {
+          "en": "The Three Elements of Style: how do you create chemistry?",
+          "id": "Tiga Elemen Gaya dalam Presentasi: bagaimana Anda menciptakan chemistry?"
+         },
+         "text": {
+          "en": "Deep dive. 3. How do you create chemistry? A speaker’s ability to make an emotional connection with the audience — that is, to understand the mood of the audience and adjust his or her tone accordingly — is a critical yet hard-to-define element of successful delivery. Hilary and Mark share their insights on how to create chemistry with your audience, and how empathy can help spark the connection. As you watch this video, take a moment to think about a time where you made an emotional connection with someone else. How do you make the connection? Is this something that you felt makes your relationship with this person stronger? Callouts: understand your audience — read the mood, needs, and perspective of your audience; show empathy — put yourself in their shoes and relate your message to their experience; adjust your tone — adapt your tone to match the situation and energy of the audience; build stronger relationships — create a sense of trust, relevance, and belonging through authentic and meaningful communication. Reflection — think about your own experience: recall a time when you made an emotional connection with someone else. How did you create the connection? Did it make your relationship with this person stronger? What specifically did you do that made a difference? Key takeaways from this section — use these approaches to create stronger chemistry with your audience: know your audience (understand their mood, needs, and what matters to them); show empathy (relate your message to their experiences and emotions); adjust your tone (use the right tone for the situation and audience energy); build lasting connections (create trust, belonging, and relevance through authentic and meaningful communication).",
+          "id": "Penjelasan lebih dalam. 3. Bagaimana Anda menciptakan chemistry? Kemampuan seorang pembicara untuk membangun koneksi emosional dengan audiens — yaitu memahami suasana hati audiens dan menyesuaikan nada bicara — merupakan elemen penting namun sulit didefinisikan dalam penyampaian yang sukses. Hilary dan Mark memberikan pandangan mereka tentang bagaimana menciptakan chemistry dengan audiens, serta bagaimana empati dapat memicu koneksi yang lebih kuat. Saat Anda menonton video ini, luangkan waktu untuk memikirkan sebuah momen di mana Anda berhasil membangun koneksi emosional dengan orang lain. Bagaimana Anda menciptakan koneksi tersebut? Apakah hal ini membuat hubungan Anda dengan orang tersebut menjadi lebih kuat? Keterangan: pahami audiens — perhatikan suasana hati, kebutuhan, dan perspektif audiens Anda; tunjukkan empati — akui apa yang mereka rasakan dan hubungkan pesan Anda dengan pengalaman mereka; sesuaikan nada — gunakan nada yang sesuai dengan situasi dan energi audiens; bangun hubungan — ciptakan rasa percaya, keterlibatan, dan relevansi melalui komunikasi yang tulus dan otentik. Refleksi — pikirkan pengalaman Anda: ingat sebuah momen di mana Anda berhasil membangun koneksi emosional dengan orang lain. Bagaimana Anda menciptakan koneksi tersebut? Apakah hal ini membuat hubungan Anda dengan orang tersebut menjadi lebih kuat? Apa yang membuatnya berhasil? Poin penting dari bagian ini — gunakan pendekatan berikut untuk menciptakan chemistry dengan audiens Anda: kenali audiens Anda (pahami siapa mereka, apa yang penting bagi mereka, dan bagaimana mereka merasa); tunjukkan empati (hubungkan pesan Anda dengan pengalaman dan emosi mereka); sesuaikan nada bicara (atur nada dan energi sesuai dengan situasi dan respons audiens); bangun koneksi jangka panjang (komunikasi yang tulus dapat menciptakan kepercayaan, keterlibatan, dan hubungan yang lebih kuat)."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -9198,8 +9235,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · Film pelajaran"
        },
        "intro": {
-        "en": "The film the second slide points to. Physical presence is fundamental to how you connect with an audience: if the way you stand, look and move does not support the message, it distracts and detracts from it — say “I’m very excited about the new plan” with a flat body and nobody believes you, because we are all expert at reading body language. Stance, expression and gesture send unspoken signals about whether you are confident, relaxed and credible, and they can undercut even well-crafted words. The fix is preparation rather than performance: warm up like an athlete, ground yourself before you walk in — feet firmly on the floor, deep breaths, a calming thought — so that no part of you is asking “am I fiddling with my fingers?” while you speak. And nobody has to look like a Hollywood actor: find your natural style and be confident within it. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
-        "id": "Film yang dirujuk slide kedua. Kehadiran fisik sangat mendasar bagi cara Anda terhubung dengan audiens: jika cara Anda berdiri, memandang, dan bergerak tidak mendukung pesan, itu mengalihkan perhatian dan mengurangi pesan — ucapkan “Saya sangat antusias dengan rencana baru ini” dengan tubuh yang datar dan tak seorang pun percaya, karena kita semua ahli membaca bahasa tubuh. Sikap berdiri, ekspresi, dan gestur mengirim sinyal tak terucap tentang apakah Anda percaya diri, rileks, dan kredibel, dan sinyal itu bisa merusak kata-kata yang tersusun baik sekalipun. Solusinya adalah persiapan, bukan pementasan: lakukan pemanasan seperti atlet, jejakkan diri sebelum masuk — kaki menapak mantap di lantai, napas dalam, satu pikiran yang menenangkan — agar tidak ada bagian diri Anda yang bertanya “apakah aku memainkan jari-jariku?” saat bicara. Dan tak seorang pun harus terlihat seperti aktor Hollywood: temukan gaya alami Anda dan percaya dirilah di dalamnya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+        "en": "The film the second slide points to. Physical presence is fundamental to how you connect with an audience: if the way you stand, look and move does not support the message, it distracts and detracts from it — say “I’m very excited about the new plan” with a flat body and nobody believes you, because we are all expert at reading body language. Stance, expression and gesture send unspoken signals about whether you are confident, relaxed and credible, and they can undercut even well-crafted words. The fix is preparation rather than performance: warm up like an athlete, ground yourself before you walk in — feet firmly on the floor, deep breaths, a calming thought — so that no part of you is asking “am I fiddling with my fingers?” while you speak. And nobody has to look like a Hollywood actor: find your natural style and be confident within it. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to the slides that follow.",
+        "id": "Film yang dirujuk slide kedua. Kehadiran fisik sangat mendasar bagi cara Anda terhubung dengan audiens: jika cara Anda berdiri, memandang, dan bergerak tidak mendukung pesan, itu mengalihkan perhatian dan mengurangi pesan — ucapkan “Saya sangat antusias dengan rencana baru ini” dengan tubuh yang datar dan tak seorang pun percaya, karena kita semua ahli membaca bahasa tubuh. Sikap berdiri, ekspresi, dan gestur mengirim sinyal tak terucap tentang apakah Anda percaya diri, rileks, dan kredibel, dan sinyal itu bisa merusak kata-kata yang tersusun baik sekalipun. Solusinya adalah persiapan, bukan pementasan: lakukan pemanasan seperti atlet, jejakkan diri sebelum masuk — kaki menapak mantap di lantai, napas dalam, satu pikiran yang menenangkan — agar tidak ada bagian diri Anda yang bertanya “apakah aku memainkan jari-jariku?” saat bicara. Dan tak seorang pun harus terlihat seperti aktor Hollywood: temukan gaya alami Anda dan percaya dirilah di dalamnya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -9216,8 +9253,8 @@ window.MT_LMS['the-map'] = {
           "id": "Jejakkan diri sebelum masuk: kaki menapak mantap di lantai, napas dalam, sesuatu yang menenangkan untuk dipusatkan. Itu pemanasan sebelum ke lapangan, dan membebaskan perhatianmu dari tanganmu sendiri."
          },
          {
-          "en": "Presence is yours, not borrowed. Find your natural style and be confident within it; the reading below shows how vocal emphasis and emotional connection build on the same foundation.",
-          "id": "Kehadiran itu milikmu, bukan pinjaman. Temukan gaya alamimu dan percaya dirilah di dalamnya; bacaan di bawah menunjukkan bagaimana penekanan vokal dan koneksi emosional dibangun di atas fondasi yang sama."
+          "en": "Presence is yours, not borrowed. Find your natural style and be confident within it; the slides and two films that follow take up the other two elements: vocal emphasis and emotional connection.",
+          "id": "Kehadiran itu milikmu, bukan pinjaman. Temukan gaya alamimu dan percaya dirilah di dalamnya; slide dan dua film yang mengikutinya membahas dua elemen lainnya: penekanan vokal dan koneksi emosional."
          }
         ]
        },
@@ -9233,6 +9270,66 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/style-1-en.vtt",
           "id": "../../assets/lms/the-map/style-1-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "voice",
+       "placement": "after-material:2",
+       "kicker": {
+        "en": "Watch next · 2 lesson films",
+        "id": "Tonton berikutnya · 2 film pelajaran"
+       },
+       "intro": {
+        "en": "The two films the slides point to. First, vocal emphasis: Mark on the music of your voice — loud or soft, high or low, the pauses and the tone — and why it can carry a message or undercut it. His exercise is to read your last business presentation as if to a child, record it and play it back; his proof is one sentence, “I gave him a hundred dollars”, which answers four different questions depending on where the stress falls. Second, emotional connection: Mark and Hilary on responding to the room in the moment — look people in the eye and let your gaze linger, say out loud what you understand about how they feel (“I know this is a painful topic”), ask for their concerns before you start, and walk in open, confident and authentic, because a presentation at its best is a dialogue and the C of EPIC is conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “In focus” below, then the three reading sections.",
+        "id": "Dua film yang dirujuk slide. Pertama, penekanan vokal: Mark tentang musik dari suara Anda — keras atau lembut, tinggi atau rendah, jeda dan nadanya — dan mengapa ia bisa membawa pesan atau merusaknya. Latihannya: bacalah presentasi bisnis terakhir Anda seolah untuk seorang anak, rekam dan putar kembali; buktinya adalah satu kalimat, “Saya memberinya seratus dolar”, yang menjawab empat pertanyaan berbeda tergantung di mana tekanannya jatuh. Kedua, koneksi emosional: Mark dan Hilary tentang merespons ruangan saat itu juga — tatap mata orang dan biarkan tatapan bertahan sejenak, ucapkan apa yang Anda pahami tentang perasaan mereka (“Saya tahu ini topik yang menyakitkan”), tanyakan kekhawatiran mereka sebelum mulai, dan masuklah dengan terbuka, percaya diri, dan otentik, karena presentasi terbaik adalah sebuah dialog dan C dalam EPIC adalah conversation. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: the voice and the room",
+         "id": "Poin penting: suara dan ruangan"
+        },
+        "body": [
+         {
+          "en": "Vocal emphasis is the music of your voice: pitch, pace, volume, pause. The same words carry different meanings depending on where the stress falls, so decide which word carries the message and put the weight there.",
+          "id": "Penekanan vokal adalah musik dari suara Anda: nada, tempo, volume, jeda. Kata-kata yang sama membawa makna berbeda tergantung di mana tekanannya jatuh, jadi tentukan kata mana yang membawa pesan dan letakkan bobotnya di sana."
+         },
+         {
+          "en": "Rehearse out loud and turn the dial up a notch: read your last presentation as if to a child, record it, play it back. Warm up the voice the way you ground the body.",
+          "id": "Berlatihlah dengan suara keras dan naikkan satu tingkat: bacalah presentasi terakhir Anda seolah untuk seorang anak, rekam, putar kembali. Panaskan suara sebagaimana Anda menjejakkan tubuh."
+         },
+         {
+          "en": "Emotional connection is empathy made visible: eye contact that lingers, naming how the room feels, asking for concerns first, and arriving open and authentic. A presentation at its best is a dialogue — the C of EPIC.",
+          "id": "Koneksi emosional adalah empati yang terlihat: kontak mata yang bertahan, menyebutkan perasaan ruangan, menanyakan kekhawatiran lebih dulu, dan hadir dengan terbuka dan otentik. Presentasi terbaik adalah dialog — C dalam EPIC."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-2-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-2-poster.jpg",
+         "dur": "2:40",
+         "title": {
+          "en": "Vocal emphasis",
+          "id": "Penekanan vokal"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-2-en.vtt",
+          "id": "../../assets/lms/the-map/style-2-id.vtt"
+         }
+        },
+        {
+         "src": "../../assets/lms/the-map/style-3-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-3-poster.jpg",
+         "dur": "2:40",
+         "title": {
+          "en": "Emotional connection",
+          "id": "Koneksi emosional"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-3-en.vtt",
+          "id": "../../assets/lms/the-map/style-3-id.vtt"
          }
         }
        ]
