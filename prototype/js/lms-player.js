@@ -1162,11 +1162,18 @@
       glossary.forEach(function (g) {
         var term = g.term[lg], def = g.def[lg];
         if (!term || !def || !out[lg]) return;
-        var re = new RegExp('(^|[^\\w>])(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(?![\\w<])', 'i');
-        if (out[lg].indexOf('lms-term') !== -1 && out[lg].toLowerCase().indexOf(term.toLowerCase()) === -1) return;
-        out[lg] = out[lg].replace(re, function (m, pre, hit) {
-          return pre + '<span class="lms-term" tabindex="0" data-tip="' + def.replace(/"/g, '&quot;') + '">' + hit + '</span>';
-        });
+        var re = new RegExp('(^|[^\\w])(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(?![\\w])', 'i');
+        /* only wrap text outside tags — a term that appears inside another
+           term's data-tip attribute (or any tag) must be left alone */
+        var parts = out[lg].split(/(<[^>]*>)/), done = false;
+        for (var i = 0; i < parts.length && !done; i++) {
+          if (i % 2 === 1 || !parts[i]) continue;
+          parts[i] = parts[i].replace(re, function (m, pre, hit) {
+            done = true;
+            return pre + '<span class="lms-term" tabindex="0" data-tip="' + def.replace(/"/g, '&quot;') + '">' + hit + '</span>';
+          });
+        }
+        if (done) out[lg] = parts.join('');
       });
     });
     return out;
