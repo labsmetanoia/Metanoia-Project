@@ -2542,6 +2542,19 @@
         var v = A[q.id] || '', n = words(v), min = q.min || 30;
         var okLen = n >= min;
         out.push({ q: q.id, ok: okLen, text: okLen ? { en: 'Q' + q.id.replace(/^q/, '') + ' has enough substance (' + n + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' cukup berisi (' + n + ' kata).' } : { en: 'Q' + q.id.replace(/^q/, '') + ' is short (' + n + ' of ' + min + ' words).', id: 'Q' + q.id.replace(/^q/, '') + ' masih pendek (' + n + ' dari ' + min + ' kata).' } });
+        if (q.max && n >= 5) {
+          var okMax = n <= q.max;
+          out.push({ q: q.id, ok: okMax, text: okMax ? { en: 'Within the ' + q.max + '-word limit (' + n + ' words).', id: 'Dalam batas ' + q.max + ' kata (' + n + ' kata).' } : { en: 'Over the ' + q.max + '-word limit (' + n + ' words) — cut from the part about you.', id: 'Melebihi batas ' + q.max + ' kata (' + n + ' kata) — potong dari bagian tentang dirimu.' } });
+        }
+        if (q.ratio && n >= 5) {
+          /* rough proxy for "more than half the words about them": first-person vs second-person tokens (EN + ID) */
+          var toks = (v.toLowerCase().match(/[a-z’']+/g) || []);
+          var me = 0, you = 0;
+          var ME = /^(i|i’m|i'm|i’d|i'd|i’ve|i've|me|my|mine|myself|saya|aku|ku|diriku|milik|cv|ipk)$/, YOU = /^(you|your|you’re|you're|yours|kak|kakak|bapak|ibu|pak|bu|mas|mbak|anda|bapak’s|kakak’s)$/;
+          toks.forEach(function (t) { if (ME.test(t)) me++; else if (YOU.test(t)) you++; });
+          var okR = you >= me && you > 0;
+          out.push({ q: q.id, ok: okR, text: okR ? { en: 'Balance looks right: ' + you + ' words about them vs ' + me + ' about you.', id: 'Keseimbangan terlihat tepat: ' + you + ' kata tentang mereka vs ' + me + ' tentang dirimu.' } : { en: 'Balance tilts to you: ' + me + ' words about you vs ' + you + ' about them — more than half should be about them.', id: 'Keseimbangan condong ke dirimu: ' + me + ' kata tentang dirimu vs ' + you + ' tentang mereka — lebih dari separuh seharusnya tentang mereka.' } });
+        }
         if (q.keywords && q.keywords.length && n >= 5) {
           var found = q.keywords.filter(function (k) { return hit(v, k); }).length, tot = q.keywords.length;
           var ok = found >= Math.ceil(tot * 0.6);
@@ -2737,7 +2750,7 @@
         var ta = el('textarea', 'cs-ta'); ta.rows = q.rows || 5; ta.value = A[q.id] || ''; ta.placeholder = T(q.placeholder) || ''; ta.disabled = locked; ta.setAttribute('aria-label', qLabel(q));
         if (q.lang) ta.lang = q.lang;
         var wc = el('div', 'cs-wc');
-        wc._sync = function () { var n = words(A[q.id]), m = q.min || 30; wc.textContent = (lang() === 'id' ? n + ' kata' : n + ' words') + (n < m ? ' · ' + (lang() === 'id' ? 'minimal ' + m : 'at least ' + m) : ''); wc.classList.toggle('ok', n >= m); };
+        wc._sync = function () { var n = words(A[q.id]), m = q.min || 30; wc.textContent = (lang() === 'id' ? n + ' kata' : n + ' words') + (n < m ? ' · ' + (lang() === 'id' ? 'minimal ' + m : 'at least ' + m) : '') + (q.max ? ' · ' + (lang() === 'id' ? 'maksimal ' + q.max : 'at most ' + q.max) : ''); wc.classList.toggle('ok', n >= m && (!q.max || n <= q.max)); };
         ta.addEventListener('input', function () { A[q.id] = ta.value; wc._sync(); persist(); syncAll(); });
         f.appendChild(ta); f.appendChild(wc); wc._sync();
         box2.appendChild(f);

@@ -329,134 +329,385 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "2": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "2.1",
+    "h": {
+     "en": "Career Capital, Not Passion",
+     "id": "Modal Karier, Bukan Sekadar Passion"
+    },
+    "sub": {
+     "en": "The craftsman mindset, the three disqualifiers, the narrow-and-broad target, the positioning sentence.",
+     "id": "Pola pikir pengrajin, tiga pendiskualifikasi, sasaran sempit-dan-luas, kalimat pemosisian."
+    }
+   },
+   {
+    "lesson": "2.2",
+    "h": {
+     "en": "The Target List — LAMP",
+     "id": "Daftar Target — LAMP"
+    },
+    "sub": {
+     "en": "Forty employers in seventy minutes, A/M/P scoring, the sort order, task separation, the Top 5.",
+     "id": "Empat puluh perusahaan dalam tujuh puluh menit, skor A/M/P, urutan pengurutan, pemisahan tugas, 5 Teratas."
+    }
+   },
+   {
+    "lesson": "2.3",
+    "h": {
+     "en": "Finding People and the First Message",
+     "id": "Menemukan Orang dan Pesan Pertama"
+    },
+    "sub": {
+     "en": "Five contact traits, the six-point message, WhatsApp rules, 3B7, Boosters/Obligates/Curmudgeons.",
+     "id": "Lima ciri kontak, pesan enam poin, aturan WhatsApp, 3B7, Booster/Obligate/Curmudgeon."
+    }
+   },
+   {
+    "lesson": "2.4",
+    "h": {
+     "en": "The Informational Conversation",
+     "id": "Percakapan Informasi"
+    },
+    "sub": {
+     "en": "Fifteen-minute prep, the Big Four with FIT and REC, TIARA, GLIDE, the two-part close, the harvest cycle.",
+     "id": "Persiapan lima belas menit, Empat Besar dengan FIT dan REC, TIARA, GLIDE, penutup dua bagian, siklus panen."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "2.1",
     "q": {
-     "en": "At employers with structured intern programmes, internships matter because:",
-     "id": "Di perusahaan dengan program magang yang terstruktur, magang penting karena:"
+     "en": "The craftsman mindset asks…",
+     "id": "Pola pikir pengrajin bertanya…"
     },
     "opts": [
      {
-      "en": "They pay better than graduate roles",
-      "id": "Bayarannya lebih baik daripada posisi lulusan baru"
+      "en": "What does this job give me?",
+      "id": "Apa yang diberikan pekerjaan ini kepada saya?"
      },
      {
-      "en": "A large share of graduate offers goes to returning interns — the internship is a ten-week interview",
-      "id": "Sebagian besar tawaran untuk lulusan baru jatuh ke mantan peserta magang — magang adalah wawancara selama sepuluh minggu"
+      "en": "What value do I produce, and what rare skill am I building?",
+      "id": "Nilai apa yang saya hasilkan, dan keterampilan langka apa yang sedang saya bangun?"
      },
      {
-      "en": "They guarantee conversion by contract",
-      "id": "Konversinya dijamin secara kontrak"
+      "en": "Is this my passion?",
+      "id": "Apakah ini passion saya?"
      },
      {
-      "en": "They look impressive on LinkedIn",
-      "id": "Terlihat mengesankan di LinkedIn"
+      "en": "What is the salary?",
+      "id": "Berapa gajinya?"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Ten weeks of observed work replaces the entire noisy screening funnel. A converted internship deletes the graduate-application gauntlet.",
-     "id": "Sepuluh minggu kerja yang diamati langsung menggantikan seluruh corong penyaringan yang penuh gangguan. Magang yang berujung tawaran menghapus seluruh rangkaian seleksi lulusan baru."
+     "en": "Career capital is built by producing value; passion tends to follow competence and autonomy, not precede them.",
+     "id": "Modal karier dibangun dengan menghasilkan nilai; passion cenderung mengikuti kompetensi dan otonomi, bukan mendahuluinya."
     }
    },
    {
     "type": "scen",
+    "lesson": "2.1",
     "q": {
-     "en": "No internship history, two months until applications open. Highest-leverage move:",
-     "id": "Belum pernah magang, dua bulan lagi lamaran dibuka. Langkah dengan daya ungkit tertinggi:"
+     "en": "A graduate tells an alumna, “I’m open to anything, really — any industry, any role.” What is wrong with this as a target?",
+     "id": "Seorang lulusan bilang kepada seorang alumna, “Saya terbuka untuk apa saja — industri apa pun, peran apa pun.” Apa yang salah dengan ini sebagai sasaran?"
     },
     "opts": [
      {
-      "en": "Collect three online certificates",
-      "id": "Mengumpulkan tiga sertifikat daring"
+      "en": "It is too ambitious",
+      "id": "Terlalu ambisius"
      },
      {
-      "en": "Complete one self-assigned project with measurable results, written into CV bullets",
-      "id": "Menyelesaikan satu proyek atas inisiatif sendiri dengan hasil yang terukur, lalu menuliskannya sebagai butir CV"
+      "en": "No one can act on it — the alumna cannot think of a person or a posting to point to",
+      "id": "Tidak ada yang bisa menindaklanjutinya — alumna itu tidak bisa memikirkan orang atau lowongan untuk ditunjuk"
      },
      {
-      "en": "Perfect the CV template's design",
-      "id": "Menyempurnakan desain templat CV"
+      "en": "It sounds arrogant",
+      "id": "Terdengar sombong"
      },
      {
-      "en": "Network at every event available",
-      "id": "Berjejaring di semua acara yang ada"
+      "en": "Nothing — flexibility is attractive",
+      "id": "Tidak ada — fleksibilitas itu menarik"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Screeners buy evidence of work. Certificates say attended; a finished project with numbers says can.",
-     "id": "Penyaring membeli bukti kerja. Sertifikat hanya bilang 'hadir'; proyek yang selesai dengan angka bilang 'bisa'."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "An offer explodes in 7 days; your dream-company process concludes in ~3 weeks. First moves:",
-     "id": "Sebuah tawaran harus dijawab dalam 7 hari; proses di perusahaan impianmu baru selesai sekitar 3 minggu lagi. Langkah pertama:"
-    },
-    "opts": [
-     {
-      "en": "Accept now, renege later if needed",
-      "id": "Terima sekarang, mundur belakangan kalau perlu"
-     },
-     {
-      "en": "Request an extension honestly AND tell the dream company you hold a deadline — both moves are professional and often work",
-      "id": "Minta perpanjangan dengan jujur DAN beri tahu perusahaan impianmu bahwa kamu punya tenggat — keduanya profesional, dan sering berhasil"
-     },
-     {
-      "en": "Decline the offer to stay available",
-      "id": "Tolak tawarannya supaya tetap bebas"
-     },
-     {
-      "en": "Ignore the deadline and hope",
-      "id": "Abaikan tenggatnya dan berharap"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Final-round candidates trigger real accelerations weekly, and extension requests are routine. Accepting-to-renege burns a network at its most formative moment.",
-     "id": "Kandidat di ronde final memicu percepatan proses yang sungguhan setiap minggu, dan permintaan perpanjangan adalah hal yang lazim. Menerima lalu mundur membakar jaringanmu tepat di momen paling menentukannya."
+     "en": "A target has to be narrow enough to act on and broad enough to leave doors open: role family, industry, examples, location.",
+     "id": "Sasaran harus cukup sempit untuk ditindaklanjuti dan cukup luas untuk membiarkan pintu terbuka: rumpun peran, industri, contoh, lokasi."
     }
    },
    {
     "type": "know",
+    "lesson": "2.2",
     "q": {
-     "en": "The two-lens decision protocol weighs:",
-     "id": "Protokol keputusan dua lensa menimbang:"
+     "en": "The LAMP sort order is…",
+     "id": "Urutan pengurutan LAMP adalah…"
     },
     "opts": [
      {
-      "en": "Salary and brand name",
-      "id": "Gaji dan nama besar perusahaan"
+      "en": "Advocacy → Motivation → Posting",
+      "id": "Advokasi → Motivasi → Lowongan"
      },
      {
-      "en": "Fit against your 3-year outcome, and how reversible the choice is",
-      "id": "Kecocokan dengan hasil 3 tahunmu, dan seberapa bisa pilihan itu dibatalkan"
+      "en": "Motivation → Posting → Advocacy",
+      "id": "Motivasi → Lowongan → Advokasi"
      },
      {
-      "en": "Parents' preference and peer choices",
-      "id": "Keinginan orang tua dan pilihan teman-teman"
+      "en": "Posting → Advocacy → Motivation",
+      "id": "Lowongan → Advokasi → Motivasi"
      },
      {
-      "en": "Commute time and office quality",
-      "id": "Waktu tempuh dan kualitas kantor"
+      "en": "Alphabetical",
+      "id": "Abjad"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Decide reversible things fast at 70% confidence; give true one-way doors the full matrix. Most graduate agonising is deep deliberation on reversible doors.",
-     "id": "Putuskan hal yang bisa dibatalkan dengan cepat, cukup dengan keyakinan 70%; berikan matriks penuh hanya untuk pintu yang benar-benar satu arah. Kebanyakan kegalauan lulusan baru adalah pertimbangan mendalam untuk pintu yang sebenarnya bisa dibatalkan."
+     "en": "Motivation drives the persistence outreach needs; posting is a snapshot of current hiring; advocacy breaks ties.",
+     "id": "Motivasi mendorong ketekunan yang dibutuhkan penjangkauan; lowongan adalah potret rekrutmen saat ini; advokasi memutus seri."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.2",
+    "q": {
+     "en": "Twelve minutes into the list-building sprint, you are reading a company’s careers page to decide whether you like it. LAMP says…",
+     "id": "Dua belas menit ke dalam sprint pembuatan daftar, kamu sedang membaca laman karier sebuah perusahaan untuk memutuskan apakah kamu menyukainya. LAMP bilang…"
+    },
+    "opts": [
+     {
+      "en": "Good — research thoroughly before listing",
+      "id": "Bagus — riset menyeluruh sebelum mendaftar"
+     },
+     {
+      "en": "Stop — listing and researching are separate tasks; write the name and score from what you already know",
+      "id": "Berhenti — mendaftar dan meriset adalah tugas terpisah; tulis namanya dan beri skor dari yang sudah kamu tahu"
+     },
+     {
+      "en": "Apply now while the page is open",
+      "id": "Lamar sekarang selagi lamannya terbuka"
+     },
+     {
+      "en": "Remove the company",
+      "id": "Hapus perusahaannya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Task separation is what keeps seventy minutes from becoming a week; research is for the Top 5, later.",
+     "id": "Pemisahan tugas adalah yang menjaga tujuh puluh menit tidak menjadi seminggu; riset untuk 5 Teratas, nanti."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.3",
+    "q": {
+     "en": "You are writing your first message to an alumna at your Top 5 employer. The message should ask for…",
+     "id": "Kamu sedang menulis pesan pertama ke seorang alumna di perusahaan 5 Teratas-mu. Pesan itu harus meminta…"
+    },
+    "opts": [
+     {
+      "en": "A referral for the current opening",
+      "id": "Referensi untuk lowongan saat ini"
+     },
+     {
+      "en": "Fifteen minutes of advice about her experience, in the next two weeks",
+      "id": "Lima belas menit saran tentang pengalamannya, dalam dua minggu ke depan"
+     },
+     {
+      "en": "Her manager’s email address",
+      "id": "Alamat email manajernya"
+     },
+     {
+      "en": "Feedback on your attached CV",
+      "id": "Umpan balik atas CV terlampir"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Small social favours get yeses and self-select the people who like helping; a job or CV request asks a stranger to spend their reputation.",
+     "id": "Bantuan sosial kecil mendapat ya dan menyaring orang yang suka membantu; permintaan pekerjaan atau CV meminta orang asing mempertaruhkan reputasinya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.3",
+    "q": {
+     "en": "Business day 7, still no reply from contact A. 3B7 says…",
+     "id": "Hari kerja ke-7, kontak A masih belum membalas. 3B7 bilang…"
+    },
+    "opts": [
+     {
+      "en": "Send a third message with your CV",
+      "id": "Kirim pesan ketiga dengan CV-mu"
+     },
+     {
+      "en": "One short follow-up to A, then stop",
+      "id": "Satu tindak lanjut singkat ke A, lalu berhenti"
+     },
+     {
+      "en": "Message everyone else at the company",
+      "id": "Kirim pesan ke semua orang lain di perusahaan itu"
+     },
+     {
+      "en": "Call their office",
+      "id": "Telepon kantornya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Contact B was already messaged at day 3. Day 7 is the single follow-up; after that, the tracker moves on.",
+     "id": "Kontak B sudah dikirimi pesan di hari ke-3. Hari ke-7 adalah satu-satunya tindak lanjut; setelah itu, pelacak bergerak maju."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.3",
+    "q": {
+     "en": "Your HIMA alumni WhatsApp group has 300 members, eleven of them at employers on your list. The right move is…",
+     "id": "Grup WhatsApp alumni HIMA-mu punya 300 anggota, sebelas di antaranya di perusahaan dalam daftarmu. Langkah yang tepat adalah…"
+    },
+    "opts": [
+     {
+      "en": "Post your request to the group once — it is efficient",
+      "id": "Posting permintaanmu ke grup sekali — efisien"
+     },
+     {
+      "en": "Never mass-message; contact individuals, one at a time within each employer, via LinkedIn or email unless a number was shared for this",
+      "id": "Jangan pernah pesan massal; hubungi individu, satu per satu di dalam tiap perusahaan, lewat LinkedIn atau email kecuali nomornya dibagikan untuk ini"
+     },
+     {
+      "en": "Message all eleven on WhatsApp the same afternoon",
+      "id": "Kirim pesan ke sebelas orang di WhatsApp pada sore yang sama"
+     },
+     {
+      "en": "Ask the group admin to forward your CV",
+      "id": "Minta admin grup meneruskan CV-mu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Teams talk. Parallel across employers, in series within one — and a personal number taken from a group is not an invitation.",
+     "id": "Tim saling bicara. Paralel antar perusahaan, berurutan di dalam satu — dan nomor pribadi yang diambil dari grup bukan undangan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "2.4",
+    "q": {
+     "en": "Which TIARA letter invites the contact to offer an introduction without being asked?",
+     "id": "Huruf TIARA mana yang mengundang kontak menawarkan perkenalan tanpa diminta?"
+    },
+    "opts": [
+     {
+      "en": "T — Trends",
+      "id": "T — Trends"
+     },
+     {
+      "en": "I — Insights",
+      "id": "I — Insights"
+     },
+     {
+      "en": "R — Resources",
+      "id": "R — Resources"
+     },
+     {
+      "en": "A — Assignments",
+      "id": "A — Assignments"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "“What resources or next steps would you recommend?” leaves room for a person to be the answer.",
+     "id": "“Sumber atau langkah berikutnya apa yang Kakak sarankan?” menyisakan ruang bagi seseorang untuk menjadi jawabannya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.4",
+    "q": {
+     "en": "At the end of a helpful call, you say, “Thank you so much — is there anything I can do for you in return?” The lesson’s view is…",
+     "id": "Di akhir panggilan yang membantu, kamu bilang, “Terima kasih banyak — adakah yang bisa saya lakukan untuk Bapak sebagai balasan?” Pandangan pelajaran ini adalah…"
+    },
+    "opts": [
+     {
+      "en": "Always offer; it is polite",
+      "id": "Selalu tawarkan; itu sopan"
+     },
+     {
+      "en": "With a senior stranger it turns a generous exchange into an awkward transaction — the real repayment is acting on the advice and reporting back",
+      "id": "Dengan orang senior yang asing itu mengubah pertukaran murah hati menjadi transaksi canggung — balasan sesungguhnya adalah menjalankan saran dan melaporkan kembali"
+     },
+     {
+      "en": "Offer to pay for their coffee",
+      "id": "Tawarkan membayar kopinya"
+     },
+     {
+      "en": "Send a gift",
+      "id": "Kirim hadiah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Indirect with strangers, specific with warm ties. The harvest note is the thank-you.",
+     "id": "Tidak langsung dengan orang asing, spesifik dengan ikatan hangat. Catatan panen adalah ucapan terima kasihnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "2.4",
+    "q": {
+     "en": "Minute six: the contact lights up describing a warehouse project. You have four prepared questions left. Best move:",
+     "id": "Menit keenam: kontak bersemangat menceritakan proyek gudang. Kamu masih punya empat pertanyaan yang disiapkan. Langkah terbaik:"
+    },
+    "opts": [
+     {
+      "en": "Move to the next prepared question to stay on schedule",
+      "id": "Pindah ke pertanyaan berikutnya agar tetap sesuai jadwal"
+     },
+     {
+      "en": "Ask what made that project hard — follow the energy",
+      "id": "Tanyakan apa yang membuat proyek itu sulit — ikuti energinya"
+     },
+     {
+      "en": "Ask whether the project is hiring",
+      "id": "Tanyakan apakah proyek itu merekrut"
+     },
+     {
+      "en": "Start your FIT story",
+      "id": "Mulai cerita FIT-mu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Questions that follow up on what someone just said are the strongest signal of listening; the prepared list is a safety net, not a script.",
+     "id": "Pertanyaan yang menindaklanjuti apa yang baru dikatakan seseorang adalah sinyal terkuat menyimak; daftar yang disiapkan adalah jaring pengaman, bukan naskah."
     }
    }
   ],
   "reflect": {
    "prompt": {
-    "en": "Define your primary target (role family × industry × company stage) and your secondary target. Then write the one-sentence positioning that serves both: for [role family], I bring [evidence], and I'm here because [informed reason].",
-    "id": "Tentukan target utamamu (keluarga peran × industri × tahap perusahaan) dan target keduamu. Lalu tulis positioning satu kalimat yang melayani keduanya: untuk [keluarga peran], saya membawa [bukti], dan saya ada di sini karena [alasan yang berdasar]."
+    "en": "At least 100 words, two parts. (1) Who is the first Booster you will contact this week — name the employer and the person or the kind of person — and what connection will you lead with in sentence one? (2) Which rung of the employer’s ladder (Lesson 1.1: internship, referral, network, open application) does each of your Top 5 give you access to right now, and what would move one of them up a rung?",
+    "id": "Minimal 100 kata, dua bagian. (1) Siapa Booster pertama yang akan kamu hubungi minggu ini — sebutkan perusahaan dan orangnya atau jenis orangnya — dan koneksi apa yang akan kamu pakai di kalimat pertama? (2) Anak tangga mana dari tangga perusahaan (Pelajaran 1.1: magang, referensi, jejaring, lamaran terbuka) yang diberikan masing-masing 5 Teratas-mu saat ini, dan apa yang akan menaikkan salah satunya satu anak tangga?"
    },
-   "min": 25
+   "guide": [
+    {
+     "en": "Be concrete about the connection: same campus, same organisation, a post they wrote, a person who introduced you.",
+     "id": "Konkret tentang koneksinya: kampus yang sama, organisasi yang sama, postingan yang mereka tulis, orang yang memperkenalkanmu."
+    },
+    {
+     "en": "For each Top 5 employer, one line: employer · rung today · what moves it up (a conversation, an introduction, an internship).",
+     "id": "Untuk setiap perusahaan 5 Teratas, satu baris: perusahaan · anak tangga hari ini · apa yang menaikkannya (percakapan, perkenalan, magang)."
+    },
+    {
+     "en": "If every employer is on the open-application rung, say what that tells you about your advocacy column.",
+     "id": "Jika setiap perusahaan ada di anak tangga lamaran terbuka, katakan apa artinya itu bagi kolom advokasimu."
+    }
+   ],
+   "min": 100
   }
  },
  "3": {
