@@ -5743,524 +5743,602 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "3.1",
-     "title": {
-      "en": "Best Practices and Golden Rules of Professional Application",
-      "id": "Praktik Terbaik dan Aturan Emas Lamaran Profesional"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "How Your CV Is Actually Read",
+      "id": "Bagaimana CV-mu Sebenarnya Dibaca"
+     },
      "overview": {
-      "en": "Before templates and tactics, the golden rules: the principles that decide whether any application document works, on any channel, for any role. Break these and no formatting trick saves you; keep them and even a plain document competes.",
-      "id": "Sebelum bicara templat dan taktik, kenali dulu aturan emasnya: prinsip yang menentukan apakah dokumen lamaran apa pun berhasil — di kanal apa pun, untuk peran apa pun. Langgar aturan ini, dan tidak ada trik format yang bisa menyelamatkanmu; patuhi, dan dokumen paling sederhana pun mampu bersaing."
+      "en": "Before rewriting anything, you need to know how CVs are actually read and judged. This lesson summarises what controlled studies with real recruiters found — and introduces the one editing rule the rest of the module depends on.",
+      "id": "Sebelum menulis ulang apa pun, kamu perlu tahu bagaimana CV sebenarnya dibaca dan dinilai. Pelajaran ini merangkum temuan studi terkontrol dengan perekrut sungguhan — dan memperkenalkan satu aturan penyuntingan yang menjadi tumpuan seluruh modul."
      },
      "objectives": [
       {
-       "en": "Apply the evidence rule: every claim carries a number, artefact or verifiable specific.",
-       "id": "Menerapkan aturan bukti: setiap klaim membawa angka, artefak, atau hal spesifik yang bisa diverifikasi."
+       "en": "Describe how long a first read takes and where the reader’s eye goes.",
+       "id": "Menggambarkan berapa lama pembacaan pertama berlangsung dan ke mana mata pembaca pergi."
       },
       {
-       "en": "Apply the relevance rule: the document answers this JD, not your biography.",
-       "id": "Menerapkan aturan relevansi: dokumen menjawab lowongan ini, bukan menceritakan biografimu."
+       "en": "State four research findings about what raises or lowers shortlisting, with their dates.",
+       "id": "Menyebutkan empat temuan penelitian tentang apa yang menaikkan atau menurunkan peluang masuk daftar pendek, beserta tahunnya."
       },
       {
-       "en": "Apply the honesty rule and know exactly where embellishment becomes disqualification.",
-       "id": "Menerapkan aturan kejujuran, dan tahu persis di titik mana membumbui berubah menjadi diskualifikasi."
+       "en": "Apply the <b>Fit Rule</b> to decide whether any line stays or goes.",
+       "id": "Menerapkan <b>Aturan Kecocokan</b> untuk memutuskan apakah sebuah baris tetap atau dibuang."
+      },
+      {
+       "en": "Recognise the modesty barrier and how it affects your own writing.",
+       "id": "Mengenali penghalang kerendahan hati dan pengaruhnya pada tulisanmu sendiri."
       }
      ],
-     "takeawaysLead": {
-      "en": "Three rules decide whether any application document works, on any channel. To keep them, you can:",
-      "id": "Tiga aturan menentukan apakah dokumen lamaran apa pun berhasil, di kanal mana pun. Untuk menjaganya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Recruiters buy evidence, not adjectives: “cut onboarding time 40%” beats “hard-working team player” every time.",
-       "id": "Perekrut membeli bukti, bukan kata sifat: “memangkas waktu onboarding 40%” selalu menang atas “pekerja keras dan mampu bekerja dalam tim”."
-      },
-      {
-       "en": "Relevance is the reader's first filter: the six-second scan looks for their keywords, their problems, their language.",
-       "id": "Relevansi adalah saringan pertama pembaca: pindaian enam detik mencari kata kunci mereka, masalah mereka, bahasa mereka."
-      },
-      {
-       "en": "Lies are found at reference checks and probation; framing honestly is a skill, inventing is a time bomb.",
-       "id": "Kebohongan ketahuan saat pemeriksaan referensi dan masa percobaan; membingkai dengan jujur adalah keterampilan, mengarang adalah bom waktu."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "flag",
-       "h": {
-        "en": "Rule 1 — Evidence over adjectives",
-        "id": "Aturan 1 — Bukti mengalahkan kata sifat"
-       },
-       "body": {
-        "en": "Self-descriptions (“motivated”, “detail-oriented”, “excellent communicator”) are free to write and therefore worthless to read — every CV contains them. Evidence is scarce and therefore valuable: numbers (“managed a Rp 45m event budget”), artefacts (“built the dashboard now used by 3 faculties”), verdicts by others (“selected as 1 of 5 from 120 applicants”). The rewrite discipline: for every line, ask <i>could a stranger check this?</i> If not, replace it with something they could. A CV with eight verifiable lines beats a CV with twenty decorative ones.",
-        "id": "Deskripsi diri (“termotivasi”, “teliti”, “komunikator yang andal”) gratis untuk ditulis, dan karena itu tidak berharga untuk dibaca — semua CV memuatnya. Bukti itu langka, dan karena itu berharga: angka (“mengelola anggaran acara Rp 45 juta”), artefak (“membangun dasbor yang kini dipakai 3 fakultas”), penilaian pihak lain (“terpilih sebagai 1 dari 5 di antara 120 pelamar”). Disiplin menulis ulangnya: untuk setiap baris, tanyakan <i>bisakah orang asing memeriksa kebenarannya?</i> Kalau tidak, ganti dengan sesuatu yang bisa. CV dengan delapan baris yang bisa diverifikasi mengalahkan CV dengan dua puluh baris hiasan."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "Rule 2 — Relevance over completeness",
-        "id": "Aturan 2 — Relevansi mengalahkan kelengkapan"
-       },
-       "body": {
-        "en": "Your CV is not your archive; it is an argument that you fit <i>this</i> role. The JD tells you the argument's required points: its top requirements are your top bullets, its vocabulary is your vocabulary (they say “stakeholder management”, you do not say “handling people”), its problems are what your evidence should echo. Practical consequence: a master CV holding everything, from which each application cuts a tailored version — dropping honours that do not serve this argument hurts for a minute and works for years. Module 4 adds the machine layer to this same rule.",
-        "id": "CV-mu bukan arsip; ia sebuah argumen bahwa kamu cocok untuk peran <i>ini</i>. Deskripsi lowongan memberitahumu poin-poin wajib argumen itu: persyaratan teratasnya menjadi butir teratasmu, kosakatanya menjadi kosakatamu (kalau mereka menulis “stakeholder management”, kamu tidak menulis “mengurus orang”), dan masalah mereka adalah yang harus digemakan oleh buktimu. Konsekuensi praktisnya: siapkan satu CV induk yang memuat segalanya, lalu setiap lamaran memotong versi yang disesuaikan darinya — membuang prestasi yang tidak mendukung argumen ini terasa sayang selama satu menit, tapi bekerja untukmu selama bertahun-tahun. Modul 4 menambahkan lapisan mesin pada aturan yang sama ini."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Rule 3 — Honest framing, never invention",
-        "id": "Aturan 3 — Bingkai dengan jujur, jangan pernah mengarang"
-       },
-       "body": {
-        "en": "The line is bright: <b>framing</b> chooses which true things to emphasise — leading with your thesis project because it matches the role is craft. <b>Invention</b> states false things — a title you never held, a tool you never used, a grade you did not earn. Invention is found: reference checks call employers, technical interviews probe claimed tools in minutes, and probation reveals everything else. The cost is not just one offer — industries talk. Where your history is genuinely thin, the honest play is the difficult-case reframes taught in The Rope: name the gap, show the growth, bring the evidence you do have.",
-        "id": "Garisnya jelas: <b>membingkai</b> berarti memilih hal-hal benar mana yang ditonjolkan — membuka dengan proyek skripsimu karena cocok dengan peran itu adalah keterampilan. <b>Mengarang</b> berarti menyatakan hal yang tidak benar — jabatan yang tidak pernah kamu pegang, alat yang tidak pernah kamu pakai, nilai yang tidak kamu raih. Karangan pasti ketahuan: pemeriksaan referensi menelepon mantan atasanmu, wawancara teknis menguji alat yang kamu klaim dalam hitungan menit, dan masa percobaan membongkar sisanya. Biayanya bukan sekadar satu tawaran — orang-orang di satu industri saling bicara. Kalau riwayatmu memang tipis, langkah jujurnya adalah pembingkaian ulang untuk kasus sulit yang diajarkan di The Rope: sebutkan celahnya, tunjukkan pertumbuhannya, bawa bukti yang memang kamu punya."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The three golden rules, applied in order — each one filters what the next one works on.",
-       "id": "Peraga 1: Tiga aturan emas, diterapkan berurutan — masing-masing menyaring bahan yang digarap aturan berikutnya."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · Module 3 in 5 slides",
+       "id": "Baca dulu · Modul 3 dalam 5 slide"
       },
       "title": {
-       "en": "Evidence → Relevance → Honest framing → A document that competes",
-       "id": "Bukti → Relevansi → Pembingkaian jujur → Dokumen yang mampu bersaing"
+       "en": "The CV Rebuild",
+       "id": "Membangun ulang CV"
       },
-      "items": [
-       {
-        "h": {
-         "en": "Evidence over adjectives",
-         "id": "Bukti di atas kata sifat"
-        },
-        "sub": {
-         "en": "Numbers, artefacts, named outcomes — never “motivated”",
-         "id": "Angka, artefak, hasil bernama — bukan “termotivasi”"
-        }
-       },
-       {
-        "h": {
-         "en": "Relevance over completeness",
-         "id": "Relevansi di atas kelengkapan"
-        },
-        "sub": {
-         "en": "The JD's top requirements become your top bullets, in their vocabulary",
-         "id": "Syarat teratas JD menjadi poin teratasmu, dalam kosakata mereka"
-        }
-       },
-       {
-        "h": {
-         "en": "Honest framing",
-         "id": "Pembingkaian jujur"
-        },
-        "sub": {
-         "en": "Emphasise true things; never invent a title, tool or grade",
-         "id": "Tonjolkan hal yang benar; jangan pernah mengarang jabatan, alat, atau nilai"
-        }
-       },
-       {
-        "h": {
-         "en": "A document that competes",
-         "id": "Dokumen yang bersaing"
-        },
-        "sub": {
-         "en": "Plain formatting is enough once the rules hold",
-         "id": "Format sederhana sudah cukup begitu aturan-aturan itu terpenuhi"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-step flow. Start with evidence rather than adjectives; select from that evidence for relevance to the job description; frame the selection honestly without invention; and the result is a document that competes even in plain formatting.",
-       "id": "Alur empat langkah. Mulai dari bukti alih-alih kata sifat; pilih dari bukti itu berdasarkan relevansi dengan deskripsi pekerjaan; bingkai pilihan itu dengan jujur tanpa mengarang; dan hasilnya adalah dokumen yang mampu bersaing bahkan dengan format sederhana."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "evidence line",
-        "id": "baris bukti"
-       },
-       "def": {
-        "en": "A CV or profile line that proves rather than claims — a number, an artefact, a named outcome — as opposed to an adjective any applicant could write.",
-        "id": "Baris CV atau profil yang membuktikan alih-alih mengklaim — sebuah angka, artefak, atau hasil bernama — berbeda dari kata sifat yang bisa ditulis pelamar mana pun."
-       }
+      "intro": {
+       "en": "Five ideas frame the module. Each of the six lessons that follow unpacks one or two of them.",
+       "id": "Lima gagasan membingkai modul ini. Setiap dari enam pelajaran berikutnya membedah satu atau dua di antaranya."
       },
-      {
-       "term": {
-        "en": "framing",
-        "id": "pembingkaian"
-       },
-       "def": {
-        "en": "Choosing which true things to emphasise for this role — legitimate craft. Its bright-line opposite is invention: stating things that are not true.",
-        "id": "Memilih hal-hal benar mana yang ditonjolkan untuk peran ini — keahlian yang sah. Lawannya yang jelas adalah mengarang: menyatakan hal yang tidak benar."
-       }
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "One CV line — decorative vs evidential",
-        "id": "Satu baris CV — hiasan vs bukti"
-       },
-       "q": {
-        "en": "Describing the same organisational role",
-        "id": "Menggambarkan peran organisasi yang sama"
-       },
-       "weak": {
-        "en": "“Responsible for sponsorships as Head of Partnerships. Hard-working, communicative, and experienced in negotiation with excellent leadership skills.”",
-        "id": "“Bertanggung jawab atas sponsor sebagai Kepala Kemitraan. Pekerja keras, komunikatif, dan berpengalaman dalam negosiasi dengan kemampuan kepemimpinan yang unggul.”"
-       },
-       "strong": {
-        "en": "“Head of Partnerships (team of 6): raised Rp 85m from 11 sponsors for a 3,000-attendee festival — 40% above target; renewed 8 of 11 sponsors for the following year.”",
-        "id": "“Kepala Kemitraan (tim 6 orang): menghimpun Rp 85 juta dari 11 sponsor untuk festival dengan 3.000 peserta — 40% di atas target; 8 dari 11 sponsor memperpanjang kerja sama untuk tahun berikutnya.”"
-       },
-       "why": {
-        "en": "Scale, numbers, and a repeat-business verdict a stranger could verify — the strong line survives the six-second scan and seeds three interview stories.",
-        "id": "Skala, angka, dan bukti kepercayaan berulang yang bisa diverifikasi orang asing — baris yang kuat lolos pindaian enam detik dan menanam bahan untuk tiga cerita wawancara."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Which change turns “Skilled in data analysis” into an application-grade line?",
-        "id": "Perubahan mana yang mengubah “Terampil dalam analisis data” menjadi baris yang layak masuk lamaran?"
-       },
-       "options": [
-        {
-         "en": "“Highly skilled in advanced data analysis”",
-         "id": "“Sangat terampil dalam analisis data tingkat lanjut”"
+      "slides": [
+       {
+        "h": {
+         "en": "The CV is a fit argument, not a biography",
+         "id": "CV adalah argumen kecocokan, bukan biografi"
         },
-        {
-         "en": "“Analysed 3 years of sales data (12k rows) for a family business; findings shifted stock budget 20% toward the two highest-margin lines”",
-         "id": "“Menganalisis 3 tahun data penjualan (12 ribu baris) sebuah bisnis keluarga; temuannya menggeser 20% anggaran stok ke dua lini dengan margin tertinggi”"
+        "points": [
+         {
+          "en": "Every line either raises the reader’s sense that you fit <i>this</i> job, or it goes.",
+          "id": "Setiap baris entah menaikkan kesan pembaca bahwa kamu cocok untuk pekerjaan <i>ini</i>, atau dibuang."
+         },
+         {
+          "en": "A CV that lists your life in full rarely maximises fit; one shaped to the job usually does.",
+          "id": "CV yang mendaftar hidupmu selengkapnya jarang memaksimalkan kecocokan; yang dibentuk untuk pekerjaan biasanya iya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Achievements beat duties",
+         "id": "Pencapaian mengalahkan tugas"
         },
-        {
-         "en": "“Passionate about leveraging data-driven insights”",
-         "id": "“Bersemangat memanfaatkan wawasan berbasis data”"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "It adds scale, a real context and a consequence someone could check — evidence, not adjectives.",
-        "id": "Baris itu menambahkan skala, konteks yang nyata, dan dampak yang bisa diperiksa orang lain — bukti, bukan kata sifat."
-       }
-      }
-     ],
-     "quote": {
-      "en": "Recruiters buy evidence, not adjectives.",
-      "id": "Perekrut membeli bukti, bukan kata sifat."
-     },
-     "insights": {
-      "lead": {
-       "en": "The rules under every template.",
-       "id": "Aturan di balik setiap templat."
-      },
-      "items": [
+        "points": [
+         {
+          "en": "In controlled studies, the same person described by results was rated far more highly than when described by responsibilities.",
+          "id": "Dalam studi terkontrol, orang yang sama yang digambarkan lewat hasil dinilai jauh lebih tinggi daripada saat digambarkan lewat tanggung jawab."
+         },
+         {
+          "en": "“Responsible for” is the weakest opener a bullet can have.",
+          "id": "“Bertanggung jawab atas” adalah pembuka terlemah yang bisa dimiliki sebuah butir."
+         }
+        ]
+       },
        {
         "h": {
          "en": "Evidence beats adjectives",
          "id": "Bukti mengalahkan kata sifat"
         },
-        "body": {
-         "en": "“Hard-working, detail-oriented team player” costs a line and proves nothing. “Reconciled 1,200 transactions a month with zero audit findings” proves all three without naming one.",
-         "id": "“Pekerja keras, teliti, mampu bekerja dalam tim” menghabiskan satu baris tanpa membuktikan apa pun. “Merekonsiliasi 1.200 transaksi per bulan tanpa temuan audit” membuktikan ketiganya tanpa menyebut satu pun."
-        }
+        "points": [
+         {
+          "en": "“Excellent communication skills” is a claim. A sentence showing you communicating is evidence.",
+          "id": "“Kemampuan komunikasi yang sangat baik” adalah klaim. Kalimat yang menunjukkanmu berkomunikasi adalah bukti."
+         },
+         {
+          "en": "Evidenced competency statements were the single strongest addition in the research.",
+          "id": "Pernyataan kompetensi berbukti adalah tambahan tunggal terkuat dalam penelitian."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "You have more evidence than you think",
+         "id": "Kamu punya lebih banyak bukti daripada yang kamu kira"
+        },
+        "points": [
+         {
+          "en": "Organisations, committees, KKN, part-time work, projects and competitions all count.",
+          "id": "Organisasi, kepanitiaan, KKN, kerja paruh waktu, proyek, dan lomba semuanya dihitung."
+         },
+         {
+          "en": "For graduates, recruiters weigh academic, work and extracurricular evidence together.",
+          "id": "Untuk lulusan baru, perekrut menimbang bukti akademik, kerja, dan ekstrakurikuler bersama-sama."
+         }
+        ]
        },
        {
         "h": {
          "en": "One master, many tailored copies",
          "id": "Satu induk, banyak salinan yang disesuaikan"
         },
-        "body": {
-         "en": "Keep a long master record of everything you have done. Each application gets a one-page cut from it, ordered for that role. Never edit the master under deadline pressure.",
-         "id": "Simpan satu catatan induk panjang berisi semua yang pernah kamu kerjakan. Tiap lamaran mendapat potongan satu halaman darinya, diurutkan untuk peran itu. Jangan pernah mengedit induk di bawah tekanan tenggat."
-        }
-       },
-       {
-        "h": {
-         "en": "Consistency is checked, not assumed",
-         "id": "Konsistensi diperiksa, bukan diasumsikan"
-        },
-        "body": {
-         "en": "Dates, titles and numbers are compared across CV, LinkedIn, the application form and your references. One mismatch turns a strong file into a doubtful one.",
-         "id": "Tanggal, jabatan, dan angka dibandingkan lintas CV, LinkedIn, formulir lamaran, dan referensimu. Satu ketidakcocokan mengubah berkas yang kuat menjadi berkas yang diragukan."
-        }
+        "points": [
+         {
+          "en": "Build the evidence once; aim it many times.",
+          "id": "Bangun buktinya sekali; bidikkan berkali-kali."
+         },
+         {
+          "en": "By Lesson 3.7 you will have rebuilt Nadia’s CV for a real advertisement, then your own.",
+          "id": "Pada Pelajaran 3.7 kamu sudah membangun ulang CV Nadia untuk sebuah iklan nyata, lalu CV-mu sendiri."
+         }
+        ]
        }
       ]
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "One document for every application",
-         "id": "Satu dokumen untuk semua lamaran"
-        },
-        "fix": {
-         "en": "Recruiters recognise a generic file in seconds. Reorder and re-cut from the master for each role; the top third must speak to that brief.",
-         "id": "Perekrut mengenali berkas generik dalam hitungan detik. Susun ulang dan potong ulang dari induk untuk tiap peran; sepertiga bagian atas harus berbicara pada brief itu."
-        }
-       },
-       {
-        "h": {
-         "en": "Claims you cannot back in the room",
-         "id": "Klaim yang tak bisa kamu pertanggungjawabkan di ruangan"
-        },
-        "fix": {
-         "en": "Every line will be probed by someone. If you cannot tell a two-minute story behind it, cut it.",
-         "id": "Setiap baris akan digali seseorang. Kalau kamu tak bisa menceritakan kisah dua menit di baliknya, hapus."
-        }
-       },
-       {
-        "h": {
-         "en": "Design over readability",
-         "id": "Desain mengalahkan keterbacaan"
-        },
-        "fix": {
-         "en": "Columns, icons and colour bars break parsers and slow readers. One column, clear headings, plain fonts.",
-         "id": "Kolom, ikon, dan bilah warna merusak parser dan memperlambat pembaca. Satu kolom, judul jelas, fon polos."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "3.2",
-     "title": {
-      "en": "CV and Resume Development — From Template to Competitive Document",
-      "id": "Menyusun CV dan Resume — Dari Templat Menjadi Dokumen yang Kompetitif"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "The CV is your funnel's single highest-leverage document: one page that must survive software parsing, a six-second human scan, and a five-minute deep read — in that order. This lesson builds it section by section, from the master CV down to the tailored copy.",
-      "id": "CV adalah dokumen dengan daya ungkit tertinggi di corongmu: satu halaman yang harus lolos dari pembacaan mesin, pindaian manusia selama enam detik, dan pembacaan mendalam selama lima menit — dalam urutan itu. Pelajaran ini membangunnya bagian demi bagian, dari CV induk sampai versi yang disesuaikan untuk setiap lamaran."
-     },
-     "objectives": [
-      {
-       "en": "Structure a one-page CV in the order recruiters scan.",
-       "id": "Menyusun CV satu halaman dalam urutan yang dipindai perekrut."
-      },
-      {
-       "en": "Write experience bullets with the action–scope–result pattern.",
-       "id": "Menulis butir pengalaman dengan pola tindakan–lingkup–hasil."
-      },
-      {
-       "en": "Run the tailoring pass: master CV to JD-specific version in 20 minutes.",
-       "id": "Menjalankan proses penyesuaian: dari CV induk menjadi versi khusus untuk satu lowongan dalam 20 menit."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "One page must survive a parser, a six-second scan and a five-minute read, in that order. To build it, you can:",
-      "id": "Satu halaman harus lolos dari mesin pengurai, pindaian enam detik, dan bacaan lima menit, dalam urutan itu. Untuk membangunnya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "One page, newest first, evidence everywhere — the format argument ended years ago.",
-       "id": "Satu halaman, yang terbaru di atas, bukti di setiap baris — perdebatan soal format sudah selesai bertahun-tahun lalu."
-      },
-      {
-       "en": "Each bullet is a sentence-length proof: strong verb, real scope, measured result.",
-       "id": "Setiap butir adalah pembuktian sepanjang satu kalimat: kata kerja yang kuat, lingkup yang nyata, hasil yang terukur."
-      },
-      {
-       "en": "The tailoring pass — reorder, rephrase, cut — is where average CVs become interview invitations.",
-       "id": "Proses penyesuaian — susun ulang, ubah kata, potong — adalah tempat CV biasa-biasa saja berubah menjadi undangan wawancara."
-      }
-     ],
      "sections": [
       {
-       "icon": "book",
+       "icon": "eye",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "center 40%",
        "h": {
-        "en": "Architecture of the page",
-        "id": "Arsitektur halaman"
+        "en": "The first read is short",
+        "id": "Pembacaan pertama itu singkat"
        },
        "body": {
-        "en": "Top block: name, target-role line, city, phone, professional email, LinkedIn — no photo, age, religion or marital status unless the market segment explicitly requires them (many Indonesian corporates no longer do; follow each employer's instructions). Then, for students: <b>Education</b> (degree, university, years, GPA if it helps, 2–3 achievement bullets) → <b>Experience</b> (internships, organisations, part-time — treated identically: scope + results) → <b>Projects</b> (often your strongest section: real artefacts) → <b>Skills & certifications</b> (grouped, specific versions and levels) → optional one-line interests. Whitespace is structure: 11pt minimum, real margins, no tables or text boxes — Module 4 explains why the machines demand this too.",
-        "id": "Blok teratas: nama, satu baris peran yang dituju, kota, telepon, email profesional, LinkedIn — tanpa foto, umur, agama, atau status pernikahan, kecuali segmen pasarnya secara tegas mensyaratkannya (banyak korporasi Indonesia sudah tidak lagi memintanya; ikuti instruksi setiap perusahaan). Kemudian, untuk mahasiswa: <b>Pendidikan</b> (gelar, universitas, tahun, IPK kalau membantu, 2–3 butir prestasi) → <b>Pengalaman</b> (magang, organisasi, kerja paruh waktu — semuanya diperlakukan sama: lingkup + hasil) → <b>Proyek</b> (sering menjadi bagian terkuatmu: artefak yang nyata) → <b>Keterampilan & sertifikasi</b> (dikelompokkan, dengan versi dan tingkat yang spesifik) → satu baris minat, opsional. Ruang kosong adalah bagian dari struktur: ukuran huruf minimal 11pt, margin yang layak, tanpa tabel atau kotak teks — Modul 4 menjelaskan mengapa mesin pun menuntut hal ini."
+        "en": "The practitioner books agree that the first decision — keep or discard — happens in well under a minute: estimates range from around twenty seconds to a minute or two <i>(Innes, The CV Book, ch. 1; Knowles, How to Write an Outstanding CV, ch. 1; Bright &amp; Earl, How to Write a Brilliant CV, ch. 1)</i>. An eye-tracking study by a jobs site put the first skim at about seven seconds, with attention concentrated on the top of the page and the left-hand words of each line — an “F-shaped” pattern <span class=\"ev ev-dated\">Dated · 2018 study, cited by Ow</span>. The practical conclusion is shared across every source: <b>the top half of page one does most of the work</b>, and the first words of each line matter more than the last.",
+        "id": "Buku-buku praktisi sepakat bahwa keputusan pertama — simpan atau buang — terjadi jauh di bawah satu menit: perkiraannya berkisar dari sekitar dua puluh detik sampai satu atau dua menit <i>(Innes, The CV Book, bab 1; Knowles, How to Write an Outstanding CV, bab 1; Bright &amp; Earl, How to Write a Brilliant CV, bab 1)</i>. Sebuah studi pelacakan mata oleh situs lowongan memperkirakan pindaian pertama sekitar tujuh detik, dengan perhatian terpusat di bagian atas halaman dan kata-kata paling kiri setiap baris — pola “berbentuk F” <span class=\"ev ev-dated\">Lawas · studi 2018, dikutip Ow</span>. Kesimpulan praktisnya sama di setiap sumber: <b>separuh atas halaman pertama melakukan sebagian besar pekerjaan</b>, dan kata-kata pertama setiap baris lebih penting daripada kata-kata terakhirnya."
        }
       },
       {
-       "icon": "gear",
+       "icon": "chart",
        "h": {
-        "en": "The bullet formula",
-        "id": "Rumus butir pengalaman"
+        "en": "What the experiments found",
+        "id": "Apa yang ditemukan eksperimen"
        },
        "body": {
-        "en": "<b>Strong verb + what you did + scope + measured result.</b> “Rebuilt the member database (400 records, 3 faculties), cutting event-invite errors from ~30/event to under 5.” Verbs carry the competency: led, built, negotiated, analysed, redesigned — never “was responsible for”, which describes a chair, not a person. Scope numbers (team size, budget, users, rows) make small things respectable: recruiters know student scale; what they are reading for is whether you measure your own work. No result yet? Use the honest fallback: state what it enabled — “used by the next two committees”.",
-        "id": "<b>Kata kerja kuat + apa yang kamu lakukan + lingkup + hasil terukur.</b> “Membangun ulang basis data anggota (400 data, 3 fakultas), sehingga kesalahan undangan acara turun dari ~30 per acara menjadi di bawah 5.” Kata kerjanya membawa kompetensi: memimpin, membangun, menegosiasikan, menganalisis, merancang ulang — jangan pernah memakai “bertanggung jawab atas”, karena itu menggambarkan sebuah kursi, bukan seseorang. Angka lingkup (ukuran tim, anggaran, jumlah pengguna, jumlah baris) membuat hal kecil pun terhormat: perekrut tahu skala kegiatan mahasiswa; yang mereka cari adalah apakah kamu mengukur hasil kerjamu sendiri. Belum ada hasil? Pakai cadangan yang jujur: sebutkan apa yang dimungkinkannya — “dipakai oleh dua kepanitiaan berikutnya”."
+        "en": "Jim Bright and Joanne Earl, organisational psychologists, ran a series of studies in which real recruiters shortlisted CVs that differed in one feature only. Their findings are the most useful evidence in this field <span class=\"ev ev-dated\">Dated · mostly 2000s, UK and Australian recruiters, paper CVs</span> — teach yourself the <i>direction</i> of each effect, not the exact percentages.",
+        "id": "Jim Bright dan Joanne Earl, psikolog organisasi, menjalankan serangkaian studi ketika perekrut sungguhan menyusun daftar pendek dari CV-CV yang hanya berbeda pada satu fitur. Temuan mereka adalah bukti paling berguna di bidang ini <span class=\"ev ev-dated\">Lawas · sebagian besar 2000-an, perekrut Inggris dan Australia, CV kertas</span> — pelajari <i>arah</i> setiap efek, bukan persentase tepatnya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Achievements beat duties.</b> Two CVs identical except that one described responsibilities and the other accomplishments: the accomplishment version was rated much more highly <i>(Bright &amp; Earl, ch. 6, 8)</i>.",
+         "id": "<b>Pencapaian mengalahkan tugas.</b> Dua CV yang identik kecuali satu menggambarkan tanggung jawab dan yang lain pencapaian: versi pencapaian dinilai jauh lebih tinggi <i>(Bright &amp; Earl, bab 6, 8)</i>."
+        },
+        {
+         "en": "<b>Evidenced competency statements raise shortlisting.</b> Adding short statements that name a quality the advertisement asks for and back it with one or two sentences of evidence raised shortlisting substantially — in one case a candidate went from no recruiters wanting to interview to about one in three. Placement did not matter; more statements helped <i>(ch. 11)</i>. This is the single strongest result in the set; Lesson 3.4 teaches it.",
+         "id": "<b>Pernyataan kompetensi berbukti menaikkan peluang daftar pendek.</b> Menambahkan pernyataan singkat yang menyebut kualitas yang diminta iklan dan mendukungnya dengan satu atau dua kalimat bukti menaikkan peluang secara berarti — dalam satu kasus seorang kandidat beranjak dari tidak ada perekrut yang ingin mewawancarai menjadi sekitar satu dari tiga. Penempatan tidak berpengaruh; lebih banyak pernyataan membantu <i>(bab 11)</i>. Ini hasil tunggal terkuat dalam rangkaian itu; Pelajaran 3.4 mengajarkannya."
+        },
+        {
+         "en": "<b>Formal beats creative.</b> A study cited by Bright &amp; Earl found that a formal rather than creative layout almost doubled the chance of shortlisting <i>(Arnulf, Tegner &amp; Larssen, 2010, cited in ch. 9)</i>. Recruiters shown an unusual-looking CV even judged it to contain <i>less</i> information than the same content in a standard format.",
+         "id": "<b>Formal mengalahkan kreatif.</b> Sebuah studi yang dikutip Bright &amp; Earl menemukan tata letak formal, bukan kreatif, hampir menggandakan peluang masuk daftar pendek <i>(Arnulf, Tegner &amp; Larssen, 2010, dikutip di bab 9)</i>. Perekrut yang diperlihatkan CV berpenampilan tidak biasa bahkan menilainya berisi <i>lebih sedikit</i> informasi daripada isi yang sama dalam format standar."
+        },
+        {
+         "en": "<b>Explained gaps are read as honesty.</b> Unexplained gaps, when noticed, made candidates seem less honest; explained gaps made them seem <i>more</i> honest than average <i>(ch. 17)</i>.",
+         "id": "<b>Jeda yang dijelaskan dibaca sebagai kejujuran.</b> Jeda yang tidak dijelaskan, ketika disadari, membuat kandidat tampak kurang jujur; jeda yang dijelaskan membuat mereka tampak <i>lebih</i> jujur dari rata-rata <i>(bab 17)</i>."
+        },
+        {
+         "en": "<b>Objectives help early-career applicants.</b> CVs with a short career objective led recruiters to judge graduates as better suited <i>(ch. 13)</i>.",
+         "id": "<b>Objektif membantu pelamar awal karier.</b> CV dengan objektif karier singkat membuat perekrut menilai lulusan baru lebih cocok <i>(bab 13)</i>."
+        },
+        {
+         "en": "<b>Photos invite appearance bias.</b> In a controlled study, attractive candidates were rated more suitable and shortlisted more often for identical CVs <i>(ch. 17)</i>. Lesson 3.5 explains what to do in Indonesia, where photos are often expected.",
+         "id": "<b>Foto mengundang bias penampilan.</b> Dalam studi terkontrol, kandidat yang menarik dinilai lebih cocok dan lebih sering masuk daftar pendek untuk CV yang identik <i>(bab 17)</i>. Pelajaran 3.5 menjelaskan apa yang harus dilakukan di Indonesia, tempat foto sering diharapkan."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Graduates are judged on the whole picture",
+        "id": "Lulusan baru dinilai dari gambaran utuhnya"
+       },
+       "body": {
+        "en": "One study cited by Bright &amp; Earl found that when recruiters screen recent graduates, they weigh academic results, work experience and extracurricular activity <i>together</i>, so strength in one can compensate for weakness in another <i>(Cole et al., 2007, cited in ch. 17)</i> <span class=\"ev ev-dated\">One study, 2007</span>. This is the research basis for one of The Pack’s firmest rules: <b>for Indonesian fresh graduates, organisational, committee and community experience is not a hobby — it is evidence</b>, and it belongs in a proper section with achievement bullets. A treasurer who rebuilt an organisation’s books, a sponsorship head who raised Rp 85 juta, a KKN student who ran a workshop for eighteen business owners: these are work records, and a recruiter screening graduates reads them as such — if the CV lets them.",
+        "id": "Sebuah studi yang dikutip Bright &amp; Earl menemukan bahwa ketika perekrut menyaring lulusan baru, mereka menimbang hasil akademik, pengalaman kerja, dan kegiatan ekstrakurikuler <i>bersama-sama</i>, sehingga kekuatan di satu sisi bisa mengimbangi kelemahan di sisi lain <i>(Cole dkk., 2007, dikutip di bab 17)</i> <span class=\"ev ev-dated\">Satu studi, 2007</span>. Inilah dasar penelitian bagi salah satu aturan paling tegas The Pack: <b>bagi lulusan baru Indonesia, pengalaman organisasi, kepanitiaan, dan masyarakat bukan hobi — itu bukti</b>, dan tempatnya di bagian yang layak dengan butir pencapaian. Bendahara yang membangun ulang pembukuan organisasi, kepala sponsorship yang mengumpulkan Rp 85 juta, mahasiswa KKN yang menjalankan lokakarya untuk delapan belas pemilik usaha: ini rekam jejak kerja, dan perekrut yang menyaring lulusan baru membacanya demikian — jika CV-nya memungkinkan."
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "The 20-minute tailoring pass",
-        "id": "Proses penyesuaian 20 menit"
+        "en": "The Fit Rule",
+        "id": "Aturan Kecocokan"
        },
        "body": {
-        "en": "From master CV to submission copy: <b>1.</b> Highlight the JD's five heaviest requirements (repeated words, first-listed items). <b>2.</b> Reorder your bullets so the ones answering those requirements lead each section. <b>3.</b> Rephrase to their vocabulary where truthful — their “stakeholder management” for your “coordinated with faculty and sponsors”. <b>4.</b> Cut what serves no requirement (the master keeps it forever). <b>5.</b> Rewrite the target-role line to name their role. Run the Screening Gym's ATS check as the final gate: it reads your CV against the JD on-device and shows the keyword coverage a machine would see.",
-        "id": "Dari CV induk ke versi yang dikirim: <b>1.</b> Tandai lima persyaratan terberat di deskripsi lowongan (kata yang diulang, butir yang disebut paling awal). <b>2.</b> Susun ulang butir-butirmu sehingga yang menjawab persyaratan itu berada di urutan teratas setiap bagian. <b>3.</b> Sesuaikan kata-katanya dengan kosakata mereka, selama masih jujur — “stakeholder management” versi mereka untuk “berkoordinasi dengan fakultas dan sponsor” versimu. <b>4.</b> Potong apa pun yang tidak menjawab persyaratan (CV induk tetap menyimpannya). <b>5.</b> Tulis ulang baris peran yang dituju dengan nama peran mereka. Jalankan pemeriksa ATS di Screening Gym sebagai gerbang terakhir: ia membaca CV-mu terhadap deskripsi lowongan langsung di perangkatmu dan menunjukkan cakupan kata kunci seperti yang akan dilihat mesin."
+        "en": "Bright &amp; Earl reduce CV editing to one decision rule <i>(ch. 2)</i>. Employers judge fit on four dimensions — <b>Knowledge</b> (qualifications and experience), <b>Skills</b> (demonstrated abilities), <b>Abilities</b> (potential to learn) and <b>Attitudes</b> (motivation, personality). For every line on the CV, ask one question in three parts:",
+        "id": "Bright &amp; Earl meringkas penyuntingan CV menjadi satu aturan keputusan <i>(bab 2)</i>. Perusahaan menilai kecocokan pada empat dimensi — <b>Pengetahuan</b> (kualifikasi dan pengalaman), <b>Keterampilan</b> (kemampuan yang terbukti), <b>Kecakapan</b> (potensi untuk belajar), dan <b>Sikap</b> (motivasi, kepribadian). Untuk setiap baris di CV, ajukan satu pertanyaan dalam tiga bagian:"
+       },
+       "bullets": [
+        {
+         "en": "Does it <b>increase</b> my fit for <i>this</i> job? → Keep it.",
+         "id": "Apakah baris ini <b>menaikkan</b> kecocokanku untuk pekerjaan <i>ini</i>? → Pertahankan."
+        },
+        {
+         "en": "Does it <b>decrease</b> my fit? → Remove it.",
+         "id": "Apakah <b>menurunkan</b> kecocokanku? → Buang."
+        },
+        {
+         "en": "Is it <b>neutral</b>? → Keep only if there is space.",
+         "id": "Apakah <b>netral</b>? → Pertahankan hanya jika ada ruang."
+        }
+       ],
+       "after": [
+        {
+         "en": "That is the whole rule. It sounds too simple to matter, until you apply it to a real page and watch a third of the lines go. The lines that go are almost always the ones that felt safest to include: a hobby, a course everyone took, a duty everyone in the role had.",
+         "id": "Itulah seluruh aturannya. Terdengar terlalu sederhana untuk berpengaruh, sampai kamu menerapkannya pada halaman nyata dan melihat sepertiga baris hilang. Baris yang hilang hampir selalu yang terasa paling aman dimasukkan: sebuah hobi, mata kuliah yang diambil semua orang, tugas yang dimiliki semua orang di peran itu."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The modesty barrier",
+        "id": "Penghalang kerendahan hati"
+       },
+       "body": {
+        "en": "Bright &amp; Earl describe a “modesty barrier” between how we see ourselves and what we have actually done: social pressure to be modest holds our self-description well inside our real record <i>(ch. 6)</i>. Many Indonesian learners feel this strongly — describing achievements can feel <i>sombong</i>, and team cultures make it awkward to say “I”. Two reassurances. First, a CV is not boasting; it is <b>evidence</b>, and a recruiter cannot hire what they cannot see. Second, claims that feel uncomfortable are usually still well inside what you did. The fix is not exaggeration. It is completeness. Lesson 3.3 gives you a partner and ten questions precisely because the barrier is easier to cross when someone else is asking.",
+        "id": "Bright &amp; Earl menggambarkan “penghalang kerendahan hati” antara cara kita memandang diri dan apa yang benar-benar kita lakukan: tekanan sosial untuk rendah hati menahan gambaran diri kita jauh di dalam rekam jejak yang sebenarnya <i>(bab 6)</i>. Banyak pembelajar Indonesia merasakannya dengan kuat — menggambarkan pencapaian bisa terasa <i>sombong</i>, dan budaya tim membuat canggung untuk berkata “saya”. Dua penenang. Pertama, CV bukan menyombongkan diri; CV adalah <b>bukti</b>, dan perekrut tidak bisa merekrut apa yang tidak bisa mereka lihat. Kedua, klaim yang terasa tidak nyaman biasanya masih jauh di dalam apa yang kamu lakukan. Perbaikannya bukan melebih-lebihkan. Perbaikannya adalah kelengkapan. Pelajaran 3.3 memberimu pasangan dan sepuluh pertanyaan justru karena penghalang itu lebih mudah dilewati ketika orang lain yang bertanya."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Reasons to reject, collected",
+        "id": "Alasan menolak, dikumpulkan"
+       },
+       "body": {
+        "en": "The books list the small things that end a first read <i>(Innes, ch. 14; Knowles, ch. 18; Bright &amp; Earl, ch. 16–17)</i>: spelling errors (the most-cited single eliminator, read as carelessness); an unprofessional email address; a CV that makes the reader hunt for the target role or requirements; walls of text; unusual layouts; irrelevant personal details; skills claimed but not shown. None is about talent. All are fixable in an afternoon — which is why this module ends with a ten-question quality gate rather than a pep talk.",
+        "id": "Buku-buku itu mendaftar hal-hal kecil yang mengakhiri pembacaan pertama <i>(Innes, bab 14; Knowles, bab 18; Bright &amp; Earl, bab 16–17)</i>: salah eja (penggugur tunggal yang paling sering disebut, dibaca sebagai kecerobohan); alamat email yang tidak profesional; CV yang membuat pembaca mencari-cari peran sasaran atau persyaratan; tembok teks; tata letak tidak biasa; detail pribadi yang tidak relevan; keterampilan yang diklaim tetapi tidak ditunjukkan. Tidak satu pun soal bakat. Semuanya bisa diperbaiki dalam satu sore — itulah sebabnya modul ini diakhiri dengan gerbang mutu sepuluh pertanyaan, bukan pidato penyemangat."
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: The 20-minute tailoring pass — from master CV to a submission copy that visibly answers this JD.",
-       "id": "Peraga 1: Penyesuaian 20 menit — dari CV induk ke salinan kiriman yang tampak menjawab JD ini."
+       "en": "Exhibit 5: Where the first seven seconds go",
+       "id": "Peraga 5: Ke mana tujuh detik pertama pergi"
       },
       "title": {
-       "en": "Master CV → Highlight → Reorder → Rephrase → Cut → Submission copy",
-       "id": "CV induk → Tandai → Susun ulang → Ubah frasa → Pangkas → Salinan kiriman"
+       "en": "What is read, and what is skipped",
+       "id": "Apa yang dibaca, dan apa yang dilewati"
       },
+      "cols": [
+       {
+        "h": {
+         "en": "Read — the “F”",
+         "id": "Dibaca — huruf “F”"
+        },
+        "sub": {
+         "en": "Where attention concentrates on a first skim",
+         "id": "Tempat perhatian terpusat pada pindaian pertama"
+        },
+        "items": [
+         {
+          "en": "Name and the target line under it",
+          "id": "Nama dan baris sasaran di bawahnya"
+         },
+         {
+          "en": "The first two lines of the profile",
+          "id": "Dua baris pertama profil"
+         },
+         {
+          "en": "Job titles and organisation names",
+          "id": "Nama jabatan dan organisasi"
+         },
+         {
+          "en": "The first three or four words of each bullet",
+          "id": "Tiga atau empat kata pertama setiap butir"
+         },
+         {
+          "en": "Numbers that stand out",
+          "id": "Angka yang menonjol"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Skipped",
+         "id": "Dilewati"
+        },
+        "sub": {
+         "en": "Where the eye rarely lands",
+         "id": "Tempat mata jarang mendarat"
+        },
+        "items": [
+         {
+          "en": "The right-hand half of long lines",
+          "id": "Separuh kanan baris yang panjang"
+         },
+         {
+          "en": "The bottom of page one",
+          "id": "Bagian bawah halaman pertama"
+         },
+         {
+          "en": "Almost all of page two",
+          "id": "Hampir seluruh halaman kedua"
+         },
+         {
+          "en": "Long paragraphs without structure",
+          "id": "Paragraf panjang tanpa struktur"
+         },
+         {
+          "en": "Hobbies, references, footers",
+          "id": "Hobi, referensi, catatan kaki"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Lead with the result and the number; put the target role in the first line under your name; keep bullets to one or two lines. (Ladders eye-tracking, 2018, cited by Ow — dated, direction sound.)",
+       "id": "Buka dengan hasil dan angka; taruh peran sasaran di baris pertama di bawah namamu; jaga butir tetap satu atau dua baris. (Pelacakan mata Ladders, 2018, dikutip Ow — lawas, arahnya tepat.)"
+      },
+      "longdesc": {
+       "en": "Two columns. The left lists where attention concentrates in a first seven-second skim: the name and target line, the first two lines of the profile, job titles and organisation names, the first words of each bullet, and stand-out numbers. The right lists where the eye rarely lands: the right half of long lines, the bottom of page one, almost all of page two, unstructured paragraphs, and hobbies, references and footers.",
+       "id": "Dua kolom. Kiri mendaftar tempat perhatian terpusat pada pindaian tujuh detik pertama: nama dan baris sasaran, dua baris pertama profil, nama jabatan dan organisasi, kata-kata pertama setiap butir, dan angka yang menonjol. Kanan mendaftar tempat mata jarang mendarat: separuh kanan baris panjang, bagian bawah halaman pertama, hampir seluruh halaman kedua, paragraf tanpa struktur, serta hobi, referensi, dan catatan kaki."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Same person, two descriptions",
+        "id": "Orang yang sama, dua gambaran"
+       },
+       "q": {
+        "en": "Nadia’s barista job, as written by two different versions of Nadia.",
+        "id": "Pekerjaan barista Nadia, seperti ditulis oleh dua versi Nadia yang berbeda."
+       },
+       "weak": {
+        "en": "“Barista, Kopi Tepian (2023–2025). Responsible for making coffee, serving customers, handling the cashier and cleaning.”",
+        "id": "“Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, menangani kasir, dan membersihkan.”"
+       },
+       "strong": {
+        "en": "“Barista, Kopi Tepian (2023–2025, part-time alongside study). Served 120–150 customers per shift at a busy campus outlet; trained 3 new baristas on the POS and opening checklist; suggested a pre-order board for the morning rush that cut average wait at peak from about 8 to about 5 minutes.”",
+        "id": "“Barista, Kopi Tepian (2023–2025, paruh waktu di sela kuliah). Melayani 120–150 pelanggan per sif di gerai kampus yang ramai; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan untuk jam sibuk pagi yang memangkas rata-rata waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit.”"
+       },
+       "why": {
+        "en": "The first lists duties anyone in the job had. The second shows scale, responsibility beyond the role, and a result — the three things that make a recruiter believe you will do the same in their job.",
+        "id": "Yang pertama mendaftar tugas yang dimiliki siapa pun di pekerjaan itu. Yang kedua menunjukkan skala, tanggung jawab di luar peran, dan hasil — tiga hal yang membuat perekrut percaya kamu akan melakukan hal yang sama di pekerjaan mereka."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: twenty CVs in ten minutes",
+       "id": "Sorotan: dua puluh CV dalam sepuluh menit"
+      },
+      "body": [
+       {
+        "en": "A recruiter at PT Arunika Consumer Goods has 400 CVs that passed the portal’s hard filters and one afternoon to pick 60 for the online assessment. She opens each PDF, reads the name, the line under it, the first lines of the profile, the education block and the first words of the bullets. If she has not found a reason to keep the CV by then, she closes it. Twenty CVs take her about ten minutes.",
+        "id": "Seorang perekrut di PT Arunika Consumer Goods punya 400 CV yang lolos saringan mutlak portal dan satu sore untuk memilih 60 orang ke asesmen daring. Ia membuka setiap PDF, membaca nama, baris di bawahnya, baris-baris pertama profil, blok pendidikan, dan kata-kata pertama butir. Jika sampai di situ belum ada alasan untuk menyimpan CV itu, ia menutupnya. Dua puluh CV memakan waktu sekitar sepuluh menit."
+       },
+       {
+        "en": "Nadia’s first CV opens with “CURRICULUM VITAE”, a photo, her date of birth and religion. The first bullet the recruiter reaches reads “Responsible for financial administration”. The recruiter never gets to the fact that Nadia raised Rp 85 juta from eleven sponsors, because it is on page two under “Organisational Experience”, in one line.",
+        "id": "CV pertama Nadia dibuka dengan “CURRICULUM VITAE”, foto, tanggal lahir, dan agamanya. Butir pertama yang dicapai perekrut berbunyi “Bertanggung jawab atas administrasi keuangan”. Perekrut itu tidak pernah sampai pada fakta bahwa Nadia mengumpulkan Rp 85 juta dari sebelas sponsor, karena itu ada di halaman dua di bawah “Pengalaman Organisasi”, dalam satu baris."
+       },
+       {
+        "en": "Nothing about Nadia was rejected. A document was. The rest of this module rebuilds it.",
+        "id": "Tidak ada yang ditolak dari diri Nadia. Yang ditolak adalah sebuah dokumen. Sisa modul ini membangunnya kembali."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Apply the Fit Rule",
+        "id": "Latihan 1 — Terapkan Aturan Kecocokan"
+       },
+       "body": {
+        "en": "Target: PT Arunika’s Management Trainee (Sales &amp; Supply Chain). Decide keep / remove / space-permitting for each of eight lines from Nadia’s old CV before revealing: (1) “Hobbies: reading, travelling, music.” (2) “Religion: Islam.” (3) “Head of Sponsorship, campus business competition, 1,200 participants — raised Rp 85 juta from 11 sponsors.” (4) “Microsoft Word.” (5) “Bookkeeping workshop for 18 UMKM owners, KKN Kendal.” (6) “Objective: to obtain a challenging position in a reputable company.” (7) “TOEFL ITP 527.” (8) “Barista, Kopi Tepian — 14 months, 120–150 customers a shift.”",
+        "id": "Sasaran: Management Trainee (Sales &amp; Supply Chain) PT Arunika. Putuskan pertahankan / buang / jika ada ruang untuk delapan baris dari CV lama Nadia sebelum membuka pembahasan: (1) “Hobi: membaca, jalan-jalan, musik.” (2) “Agama: Islam.” (3) “Kepala Sponsorship, kompetisi bisnis kampus, 1.200 peserta — mengumpulkan Rp 85 juta dari 11 sponsor.” (4) “Microsoft Word.” (5) “Lokakarya pembukuan untuk 18 pemilik UMKM, KKN Kendal.” (6) “Objektif: mendapatkan posisi yang menantang di perusahaan ternama.” (7) “TOEFL ITP 527.” (8) “Barista, Kopi Tepian — 14 bulan, 120–150 pelanggan per sif.”"
+       },
+       "debrief": {
+        "en": "(1) Remove — neutral at best, and it takes the reader’s attention. (2) Remove — irrelevant to fit and invites bias; the portal will ask if it must. (3) Keep, near the top — credibility with external partners is exactly what a sales trainee needs. (4) Space-permitting at most — everyone has it. (5) Keep — coaching small business owners is related evidence for a role that works with distributors. (6) Remove and rewrite — it says what Nadia wants, not what she offers. (7) Keep — the advertisement asks for active English. (8) Keep — scale, pressure, customers.",
+        "id": "(1) Buang — paling-paling netral, dan menyita perhatian pembaca. (2) Buang — tidak relevan dengan kecocokan dan mengundang bias; portal akan menanyakannya jika memang wajib. (3) Pertahankan, di dekat atas — kredibilitas di hadapan mitra eksternal persis yang dibutuhkan trainee penjualan. (4) Paling-paling jika ada ruang — semua orang punya. (5) Pertahankan — membimbing pemilik usaha kecil adalah bukti terkait untuk peran yang bekerja dengan distributor. (6) Buang dan tulis ulang — kalimat itu menyatakan apa yang Nadia inginkan, bukan yang ia tawarkan. (7) Pertahankan — iklannya meminta bahasa Inggris aktif. (8) Pertahankan — skala, tekanan, pelanggan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Read like the recruiter",
+        "id": "Latihan 2 — Baca seperti perekrut"
+       },
+       "body": {
+        "en": "Set a timer for seven seconds and look at your own current CV. Stop. Write down what you actually saw: could you tell the target role, one number, and one achievement? Then look at the exhibit above and mark where your three strongest facts currently sit on the page.",
+        "id": "Pasang pengatur waktu tujuh detik dan lihat CV-mu saat ini. Berhenti. Tulis apa yang benar-benar kamu lihat: bisakah kamu tahu peran sasaran, satu angka, dan satu pencapaian? Lalu lihat peraga di atas dan tandai di mana tiga fakta terkuatmu saat ini berada di halaman."
+       },
+       "debrief": {
+        "en": "Most first CVs put their strongest facts in the skipped zones: page two, the right half of long bullets, or under a heading like “Organisational Experience” at the bottom. The fix is not more content. It is moving what you already have into the “F” — which is what Lessons 3.4 and 3.5 do.",
+        "id": "Kebanyakan CV pertama menaruh fakta terkuatnya di zona yang dilewati: halaman dua, separuh kanan butir yang panjang, atau di bawah judul seperti “Pengalaman Organisasi” di bagian bawah. Perbaikannya bukan menambah isi. Perbaikannya memindahkan apa yang sudah kamu punya ke dalam “F” — dan itulah yang dikerjakan Pelajaran 3.4 dan 3.5."
+       }
+      }
+     ],
+     "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Master CV",
-         "id": "CV induk"
+         "en": "Listing everything “just in case”",
+         "id": "Mendaftar semuanya “untuk jaga-jaga”"
         },
-        "sub": {
-         "en": "Everything, with evidence — never sent as is",
-         "id": "Semuanya, dengan bukti — tak pernah dikirim apa adanya"
+        "fix": {
+         "en": "Apply the Fit Rule line by line.",
+         "id": "Terapkan Aturan Kecocokan baris demi baris."
         }
        },
        {
         "h": {
-         "en": "Highlight",
-         "id": "Tandai"
+         "en": "Hiding organisational experience under “Hobbies”",
+         "id": "Menyembunyikan pengalaman organisasi di bawah “Hobi”"
         },
-        "sub": {
-         "en": "The JD's five heaviest requirements",
-         "id": "Lima syarat terberat di JD"
+        "fix": {
+         "en": "Give it a proper section with achievement bullets.",
+         "id": "Beri bagian yang layak dengan butir pencapaian."
         }
        },
        {
         "h": {
-         "en": "Reorder",
-         "id": "Susun ulang"
+         "en": "A creative two-column design to “stand out”",
+         "id": "Desain dua kolom yang kreatif agar “menonjol”"
         },
-        "sub": {
-         "en": "Bullets answering those requirements lead each section",
-         "id": "Poin yang menjawab syarat itu memimpin setiap bagian"
+        "fix": {
+         "en": "Formal layouts were rated better; stand out with evidence.",
+         "id": "Tata letak formal dinilai lebih baik; menonjollah dengan bukti."
         }
        },
        {
         "h": {
-         "en": "Rephrase",
-         "id": "Ubah frasa"
+         "en": "Under-claiming out of modesty",
+         "id": "Mengklaim terlalu sedikit karena rendah hati"
         },
-        "sub": {
-         "en": "Their vocabulary, where truthful",
-         "id": "Kosakata mereka, selama jujur"
-        }
-       },
-       {
-        "h": {
-         "en": "Cut",
-         "id": "Pangkas"
-        },
-        "sub": {
-         "en": "Whatever does not argue for this role — back to one page",
-         "id": "Apa pun yang tak mendukung peran ini — kembali ke satu halaman"
-        }
-       },
-       {
-        "h": {
-         "en": "Submission copy",
-         "id": "Salinan kiriman"
-        },
-        "sub": {
-         "en": "Parser-safe, scan-ready, deep-read proof",
-         "id": "Aman bagi mesin pengurai, siap dipindai, tahan dibaca mendalam"
+        "fix": {
+         "en": "Completeness is not arrogance.",
+         "id": "Kelengkapan bukan kesombongan."
         }
        }
-      ],
-      "longdesc": {
-       "en": "A six-step flow from the master CV to a submission copy: highlight the job description's five heaviest requirements, reorder bullets so the ones answering them lead each section, rephrase into the employer's vocabulary where truthful, cut what does not argue for the role, and submit a one-page copy that survives parsing, scanning and deep reading.",
-       "id": "Alur enam langkah dari CV induk ke salinan kiriman: tandai lima syarat terberat di deskripsi pekerjaan, susun ulang poin sehingga yang menjawabnya memimpin setiap bagian, ubah frasa ke kosakata pemberi kerja selama jujur, pangkas yang tak mendukung peran, dan kirim salinan satu halaman yang lolos pengurai, pindaian, dan bacaan mendalam."
-      }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "master CV",
-        "id": "CV induk"
+        "en": "Shortlisting",
+        "id": "Daftar pendek"
        },
        "def": {
-        "en": "The complete, untailored record of everything you have done with evidence attached — never sent, always the source from which each tailored copy is cut.",
-        "id": "Catatan lengkap dan belum disesuaikan dari semua yang pernah kamu kerjakan beserta buktinya — tak pernah dikirim, selalu menjadi sumber dari mana setiap salinan yang disesuaikan dipotong."
+        "en": "The recruiter’s first selection of CVs to take further.",
+        "id": "Seleksi pertama perekrut atas CV yang akan diproses lebih lanjut."
        }
       },
       {
        "term": {
-        "en": "bullet formula",
-        "id": "rumus poin"
+        "en": "Fit Rule",
+        "id": "Aturan Kecocokan"
        },
        "def": {
-        "en": "Strong verb + what you did + scope + measured result: the sentence-length proof that every experience bullet should be.",
-        "id": "Kata kerja kuat + apa yang kamu lakukan + lingkup + hasil terukur: bukti sepanjang satu kalimat yang seharusnya menjadi bentuk setiap poin pengalaman."
+        "en": "Keep a line if it raises your fit for this job, remove it if it lowers fit, keep neutral lines only with space.",
+        "id": "Pertahankan baris jika menaikkan kecocokanmu untuk pekerjaan ini, buang jika menurunkan, pertahankan baris netral hanya jika ada ruang."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Same internship, two bullets",
-        "id": "Magang yang sama, dua butir yang berbeda"
+       "term": {
+        "en": "Achievement",
+        "id": "Pencapaian"
        },
-       "q": {
-        "en": "Marketing internship at a local startup",
-        "id": "Magang pemasaran di sebuah startup lokal"
+       "def": {
+        "en": "Something completed, attributable to you, measurable, verifiable, and that made a difference.",
+        "id": "Sesuatu yang selesai, dapat dikaitkan denganmu, terukur, dapat diverifikasi, dan membuat perbedaan."
+       }
+      },
+      {
+       "term": {
+        "en": "Evidenced competency statement",
+        "id": "Pernyataan kompetensi berbukti"
        },
-       "weak": {
-        "en": "“Responsible for social media management and helping the marketing team with various tasks including content creation.”",
-        "id": "“Bertanggung jawab mengelola media sosial dan membantu tim pemasaran dalam berbagai tugas termasuk pembuatan konten.”"
+       "def": {
+        "en": "A named quality followed by one or two sentences of proof.",
+        "id": "Kualitas yang disebut, diikuti satu atau dua kalimat bukti."
+       }
+      },
+      {
+       "term": {
+        "en": "Modesty barrier",
+        "id": "Penghalang kerendahan hati"
        },
-       "strong": {
-        "en": "“Ran 3 Instagram campaigns (12 posts, Rp 2m ad budget): follower base +18% in 10 weeks; best campaign drove 240 sign-ups — adopted as the template for two later launches.”",
-        "id": "“Menjalankan 3 kampanye Instagram (12 unggahan, anggaran iklan Rp 2 juta): pengikut bertambah 18% dalam 10 minggu; kampanye terbaik menghasilkan 240 pendaftaran — diadopsi sebagai templat untuk dua peluncuran berikutnya.”"
+       "def": {
+        "en": "The gap between what you did and what you are comfortable writing down.",
+        "id": "Jarak antara apa yang kamu lakukan dan apa yang nyaman kamu tuliskan."
+       }
+      },
+      {
+       "term": {
+        "en": "F-pattern",
+        "id": "Pola F"
        },
-       "why": {
-        "en": "Verb, scope, numbers, and an adoption verdict — four proofs in one line, and three ready-made interview stories.",
-        "id": "Kata kerja, lingkup, angka, dan bukti bahwa karyamu diadopsi — empat pembuktian dalam satu baris, plus tiga cerita wawancara yang siap pakai."
+       "def": {
+        "en": "The shape a skimming eye traces: across the top, down the left, with a shorter pass in the middle.",
+        "id": "Bentuk yang ditelusuri mata saat memindai: melintang di atas, turun di kiri, dengan lintasan lebih pendek di tengah."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The strongest section for a student with no internships yet is usually:",
-        "id": "Bagian terkuat di CV seorang mahasiswa yang belum pernah magang biasanya adalah:"
+        "en": "Two CVs are identical except that one lists duties and the other lists accomplishments. What did the recruiter experiments find?",
+        "id": "Dua CV identik kecuali satu mendaftar tugas dan yang lain mendaftar pencapaian. Apa yang ditemukan eksperimen dengan perekrut?"
        },
        "options": [
         {
-         "en": "A long skills list to compensate",
-         "id": "Daftar keterampilan yang panjang sebagai kompensasi"
+         "en": "No difference",
+         "id": "Tidak ada perbedaan"
         },
         {
-         "en": "Projects — real artefacts with scope and results, from courses, competitions or personal work",
-         "id": "Proyek — artefak nyata dengan lingkup dan hasil, dari tugas kuliah, kompetisi, atau karya pribadi"
+         "en": "The accomplishments version was rated much more highly",
+         "id": "Versi pencapaian dinilai jauh lebih tinggi"
         },
         {
-         "en": "A detailed hobbies section showing personality",
-         "id": "Bagian hobi yang terperinci untuk menunjukkan kepribadian"
+         "en": "The duties version looked more honest",
+         "id": "Versi tugas tampak lebih jujur"
+        },
+        {
+         "en": "Recruiters preferred longer CVs",
+         "id": "Perekrut lebih suka CV yang lebih panjang"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Projects prove capability with checkable artefacts — the same evidence rule, no employer required.",
-        "id": "Proyek membuktikan kemampuan lewat artefak yang bisa diperiksa — aturan bukti yang sama, tanpa perlu pernah bekerja di perusahaan."
+        "en": "Bright &amp; Earl’s controlled comparison: same person, results-based description rated far higher. The direction is solid even though the study is dated.",
+        "id": "Perbandingan terkontrol Bright &amp; Earl: orang yang sama, gambaran berbasis hasil dinilai jauh lebih tinggi. Arahnya kokoh meski studinya lawas."
+       }
+      },
+      {
+       "q": {
+        "en": "A line reads “Hobbies: watching films, sleeping, social media.” Apply the Fit Rule.",
+        "id": "Sebuah baris berbunyi “Hobi: menonton film, tidur, media sosial.” Terapkan Aturan Kecocokan."
+       },
+       "options": [
+        {
+         "en": "Keep — it shows personality",
+         "id": "Pertahankan — menunjukkan kepribadian"
+        },
+        {
+         "en": "Remove — it does not increase fit and may decrease it",
+         "id": "Buang — tidak menaikkan kecocokan dan bisa menurunkannya"
+        },
+        {
+         "en": "Move it to the top",
+         "id": "Pindahkan ke atas"
+        },
+        {
+         "en": "Add more hobbies",
+         "id": "Tambah hobi lagi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It adds nothing to knowledge, skills, abilities or attitude for the job, and “sleeping” reads as carelessness.",
+        "id": "Tidak menambah pengetahuan, keterampilan, kecakapan, atau sikap untuk pekerjaan itu, dan “tidur” terbaca sebagai kecerobohan."
+       }
+      },
+      {
+       "q": {
+        "en": "Why should Nadia’s HIMA treasurer role get achievement bullets rather than a one-line mention?",
+        "id": "Mengapa peran bendahara HIMA Nadia layak mendapat butir pencapaian, bukan sekadar satu baris?"
+       },
+       "options": [
+        {
+         "en": "It fills space",
+         "id": "Mengisi ruang"
+        },
+        {
+         "en": "Recruiters screening graduates weigh academic, work and extracurricular evidence together",
+         "id": "Perekrut yang menyaring lulusan baru menimbang bukti akademik, kerja, dan ekstrakurikuler bersama-sama"
+        },
+        {
+         "en": "Organisational roles are more important than degrees",
+         "id": "Peran organisasi lebih penting daripada gelar"
+        },
+        {
+         "en": "HIMA is well known",
+         "id": "HIMA sudah terkenal"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "For graduates the picture is judged as a whole; organisational work with results is evidence in its own right.",
+        "id": "Bagi lulusan baru gambarannya dinilai secara utuh; kerja organisasi dengan hasil adalah bukti tersendiri."
        }
       }
      ],
@@ -6268,154 +6346,5583 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "cv",
       "title": {
-       "en": "Build the document in the studio",
-       "id": "Bangun dokumennya di studio"
+       "en": "Open your current CV in the Studio",
+       "id": "Buka CV-mu saat ini di Studio"
       },
       "body": {
-       "en": "The CV studio assembles an ATS-clean draft section by section, lints it against this lesson's rules, and exports plain text you can drop into any template.",
-       "id": "Studio CV merakit draf yang ramah ATS bagian demi bagian, memeriksanya terhadap aturan pelajaran ini, dan mengekspor teks polos yang bisa kamu masukkan ke templat mana pun."
+       "en": "Paste your current CV into the CV Studio and mark every line keep / remove / space-permitting with the Fit Rule. Do not rewrite yet — the next lessons build the evidence first.",
+       "id": "Tempel CV-mu saat ini ke Studio CV dan tandai setiap baris pertahankan / buang / jika ada ruang dengan Aturan Kecocokan. Jangan tulis ulang dulu — pelajaran berikutnya membangun buktinya lebih dulu."
       },
       "cta": {
-       "en": "Open the CV studio →",
-       "id": "Buka studio CV →"
+       "en": "Open the CV Studio →",
+       "id": "Buka Studio CV →"
       }
      },
+     "takeaways": [
+      {
+       "en": "The top half of page one decides the first read; lead with what matters.",
+       "id": "Separuh atas halaman pertama menentukan pembacaan pertama; buka dengan yang penting."
+      },
+      {
+       "en": "Recruiter experiments favour achievements over duties, evidence over adjectives, and formal over creative layouts.",
+       "id": "Eksperimen dengan perekrut memihak pencapaian di atas tugas, bukti di atas kata sifat, dan tata letak formal di atas kreatif."
+      },
+      {
+       "en": "Every line must raise your fit for this job — or go.",
+       "id": "Setiap baris harus menaikkan kecocokanmu untuk pekerjaan ini — atau dibuang."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources for this lesson",
+       "id": "Sumber pelajaran ini"
+      },
+      "lead": {
+       "en": "The research base for the module, with reliability notes from the course evidence register.",
+       "id": "Dasar penelitian modul ini, dengan catatan keandalan dari register bukti kursus."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Master record structure",
-         "id": "Struktur catatan induk"
+         "en": "Reading list · Lesson 3.1",
+         "id": "Daftar bacaan · Pelajaran 3.1"
         },
         "desc": {
-         "en": "The long document you never send. Every CV is a cut from it.",
-         "id": "Dokumen panjang yang tak pernah kamu kirim. Setiap CV adalah potongan darinya."
+         "en": "Four sources.",
+         "id": "Empat sumber."
         },
         "body": [
          {
-          "en": "For each role, project or organisation: context (where, when, scope) · what you did (verbs) · result (number, artefact, recognition) · evidence link · skills used · a two-minute story behind it",
-          "id": "Untuk tiap peran, proyek, atau organisasi: konteks (di mana, kapan, lingkup) · yang kamu lakukan (kata kerja) · hasil (angka, artefak, pengakuan) · tautan bukti · keterampilan yang dipakai · cerita dua menit di baliknya"
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., Pearson, 2015), ch. 1–2, 6, 8–9, 11, 13, 16–17 — the recruiter studies; the Fit Rule; the modesty barrier. Strongest evidence base; mostly 2000s, UK/AU, paper CVs.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, Pearson, 2015), bab 1–2, 6, 8–9, 11, 13, 16–17 — studi dengan perekrut; Aturan Kecocokan; penghalang kerendahan hati. Dasar bukti terkuat; sebagian besar 2000-an, Inggris/Australia, CV kertas."
          },
          {
-          "en": "Skills inventory: tools with level (used / competent / taught others) and where each was used",
-          "id": "Inventaris keterampilan: alat dengan tingkat (pernah pakai / kompeten / mengajari orang lain) dan di mana dipakai"
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., Pearson, 2016), ch. 1, 14 — the first read; reasons to reject.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, Pearson, 2016), bab 1, 14 — pembacaan pertama; alasan menolak."
          },
          {
-          "en": "Numbers bank: every figure you can defend — sizes, budgets, growth, time saved, people led, grades",
-          "id": "Bank angka: setiap angka yang bisa kamu pertanggungjawabkan — ukuran, anggaran, pertumbuhan, waktu yang dihemat, orang yang dipimpin, nilai"
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 1, 18 — the first read; common eliminators.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1, 18 — pembacaan pertama; penggugur umum."
          },
          {
-          "en": "Update rule: add within a week of finishing anything; never under deadline.",
-          "id": "Aturan pembaruan: tambahkan dalam seminggu setelah menyelesaikan apa pun; jangan pernah di bawah tenggat."
+          "en": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021) — the 2018 Ladders eye-tracking study (dated; direction only).",
+          "id": "P. Ow, <i>Tailor Your Call, Resume, Letter, Proposal, Follow-Up and LinkedIn Profile</i> (2021) — studi pelacakan mata Ladders 2018 (lawas; arahnya saja)."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.2",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Become a Job Detective",
+      "id": "Menjadi Detektif Lowongan"
+     },
+     "overview": {
+      "en": "You cannot write a CV that fits a job you have not understood. Most applicants skim an advertisement for the job title and the deadline. This lesson teaches you to interrogate it — for what it says, what it implies, and what “one year of experience required” really means.",
+      "id": "Kamu tidak bisa menulis CV yang cocok untuk pekerjaan yang belum kamu pahami. Kebanyakan pelamar hanya memindai iklan untuk nama jabatan dan tenggat. Pelajaran ini mengajarkanmu menginterogasinya — untuk apa yang dikatakannya, apa yang tersirat, dan apa arti sebenarnya “diperlukan pengalaman satu tahun”."
+     },
+     "objectives": [
+      {
+       "en": "Analyse any advertisement with the <b>seven job-detective questions</b>.",
+       "id": "Menganalisis iklan apa pun dengan <b>tujuh pertanyaan detektif lowongan</b>."
+      },
+      {
+       "en": "Translate an experience requirement into the evidence that would satisfy it.",
+       "id": "Menerjemahkan syarat pengalaman menjadi bukti yang bisa memenuhinya."
+      },
+      {
+       "en": "Build a keyword table from five or more advertisements for one role.",
+       "id": "Membangun tabel kata kunci dari lima iklan atau lebih untuk satu peran."
+      },
+      {
+       "en": "Classify your experience as relevant, related or unrelated to the target.",
+       "id": "Menggolongkan pengalamanmu sebagai relevan, terkait, atau tidak terkait dengan sasaran."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Understand the job before you describe yourself",
+       "id": "Pahami pekerjaannya sebelum menggambarkan dirimu"
+      },
+      "intro": {
+       "en": "Three moves: interrogate one advertisement, translate “experience” into benefits, and build vocabulary from five advertisements rather than one.",
+       "id": "Tiga langkah: interogasi satu iklan, terjemahkan “pengalaman” menjadi manfaat, dan bangun kosakata dari lima iklan alih-alih satu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Seven questions",
+         "id": "Tujuh pertanyaan"
+        },
+        "points": [
+         {
+          "en": "What don’t I understand? What kind of organisation? What is the role’s purpose? <b>What goes wrong if nobody does it well?</b>",
+          "id": "Apa yang tidak kupahami? Organisasi seperti apa? Apa tujuan perannya? <b>Apa yang salah jika tidak ada yang mengerjakannya dengan baik?</b>"
+         },
+         {
+          "en": "Which skills, qualities and knowledge are asked for — and which are implied?",
+          "id": "Keterampilan, kualitas, dan pengetahuan apa yang diminta — dan apa yang tersirat?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "“Experience” means the benefits of experience",
+         "id": "“Pengalaman” berarti manfaat dari pengalaman"
+        },
+        "points": [
+         {
+          "en": "Employers do not want time; they want skills, knowledge, credibility, a track record and efficiency.",
+          "id": "Perusahaan tidak menginginkan waktu; mereka menginginkan keterampilan, pengetahuan, kredibilitas, rekam jejak, dan efisiensi."
+         },
+         {
+          "en": "A graduate can often evidence most of the five from internships, organisations and part-time work.",
+          "id": "Lulusan baru sering bisa membuktikan sebagian besar dari lima itu lewat magang, organisasi, dan kerja paruh waktu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Five advertisements, one table",
+         "id": "Lima iklan, satu tabel"
+        },
+        "points": [
+         {
+          "en": "Terms that recur across advertisements are the field’s real requirements.",
+          "id": "Istilah yang berulang di berbagai iklan adalah persyaratan nyata bidang itu."
+         },
+         {
+          "en": "Sort must-have from nice-to-have; mark each: have and can prove · have but cannot yet prove · do not have.",
+          "id": "Pilah wajib dari tambahan; tandai masing-masing: punya dan bisa buktikan · punya tapi belum bisa buktikan · tidak punya."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Seven questions for every advertisement",
+        "id": "Tujuh pertanyaan untuk setiap iklan"
+       },
+       "body": {
+        "en": "Bright &amp; Earl’s job-detective questions <i>(How to Write a Brilliant CV, ch. 4)</i>:",
+        "id": "Pertanyaan detektif lowongan dari Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 4)</i>:"
+       },
+       "bullets": [
+        {
+         "en": "What in the advertisement don’t I understand? (Jargon; ambiguous duties — does “responsible for training” mean delivering it or organising it?)",
+         "id": "Apa dalam iklan ini yang tidak kupahami? (Jargon; tugas yang ambigu — apakah “bertanggung jawab atas pelatihan” berarti menyampaikannya atau mengorganisasikannya?)"
+        },
+        {
+         "en": "What kind of organisation is this, and what is happening to it — growing, restructuring, entering a new market?",
+         "id": "Organisasi seperti apa ini, dan apa yang sedang terjadi padanya — tumbuh, restrukturisasi, memasuki pasar baru?"
+        },
+        {
+         "en": "What is the main purpose of the role?",
+         "id": "Apa tujuan utama peran ini?"
+        },
+        {
+         "en": "Why does the role matter? <b>What goes wrong if nobody does it, or does it badly?</b>",
+         "id": "Mengapa peran ini penting? <b>Apa yang salah jika tidak ada yang mengerjakannya, atau mengerjakannya dengan buruk?</b>"
+        },
+        {
+         "en": "What skills are asked for — and what other skills does the purpose imply?",
+         "id": "Keterampilan apa yang diminta — dan keterampilan lain apa yang tersirat dari tujuannya?"
+        },
+        {
+         "en": "What personal qualities are asked for — and implied?",
+         "id": "Kualitas pribadi apa yang diminta — dan tersirat?"
+        },
+        {
+         "en": "What knowledge or training is asked for — and implied?",
+         "id": "Pengetahuan atau pelatihan apa yang diminta — dan tersirat?"
+        }
+       ],
+       "after": [
+        {
+         "en": "Question 4 is the most powerful: it turns a list of duties into the <i>problem</i> the employer is hiring to solve. Bright &amp; Earl also warn that advertisements are often written for an impossible ideal candidate; if the person you reconstruct could not exist, you have over-read the advertisement <i>(ch. 5)</i>.",
+         "id": "Pertanyaan 4 yang paling kuat: ia mengubah daftar tugas menjadi <i>masalah</i> yang ingin dipecahkan perusahaan dengan merekrut. Bright &amp; Earl juga mengingatkan bahwa iklan sering ditulis untuk kandidat ideal yang mustahil; jika orang yang kamu rekonstruksi tidak mungkin ada, kamu sudah membaca iklan itu secara berlebihan <i>(bab 5)</i>."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "What “experience required” really buys",
+        "id": "Apa yang sebenarnya dibeli oleh “diperlukan pengalaman”"
+       },
+       "body": {
+        "en": "Fresh graduates are routinely put off by “minimum one year’s experience”. Bright &amp; Earl’s insight is that employers do not want <i>time</i>; they want the <i>benefits</i> experience usually brings <i>(ch. 5)</i>. Map your evidence against five:",
+        "id": "Lulusan baru rutin mundur karena “pengalaman minimal satu tahun”. Wawasan Bright &amp; Earl: perusahaan tidak menginginkan <i>waktu</i>; mereka menginginkan <i>manfaat</i> yang biasanya dibawa pengalaman <i>(bab 5)</i>. Petakan buktimu terhadap lima hal:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "What experience usually buys",
+          "id": "Apa yang biasanya dibeli pengalaman"
+         },
+         {
+          "en": "The question to answer",
+          "id": "Pertanyaan yang harus dijawab"
+         },
+         {
+          "en": "Graduate evidence that can supply it",
+          "id": "Bukti lulusan baru yang bisa memenuhinya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Skills and abilities</b>",
+           "id": "<b>Keterampilan dan kecakapan</b>"
+          },
+          {
+           "en": "What does an experienced person do better?",
+           "id": "Apa yang dilakukan lebih baik oleh orang berpengalaman?"
+          },
+          {
+           "en": "Internship tasks, competition work, practicum",
+           "id": "Tugas magang, kerja lomba, praktikum"
+          }
+         ],
+         [
+          {
+           "en": "<b>Knowledge and awareness</b>",
+           "id": "<b>Pengetahuan dan kesadaran</b>"
+          },
+          {
+           "en": "What do they already know?",
+           "id": "Apa yang sudah mereka ketahui?"
+          },
+          {
+           "en": "Coursework, thesis, certifications, industry reading",
+           "id": "Mata kuliah, skripsi, sertifikasi, bacaan industri"
+          }
+         ],
+         [
+          {
+           "en": "<b>Credibility</b>",
+           "id": "<b>Kredibilitas</b>"
+          },
+          {
+           "en": "Do stakeholders take them seriously?",
+           "id": "Apakah pemangku kepentingan menganggap mereka serius?"
+          },
+          {
+           "en": "Sponsor dealings, external partners in organisations, client projects",
+           "id": "Urusan dengan sponsor, mitra eksternal di organisasi, proyek klien"
+          }
+         ],
+         [
+          {
+           "en": "<b>Track record and reliability</b>",
+           "id": "<b>Rekam jejak dan keandalan</b>"
+          },
+          {
+           "en": "Have they delivered under pressure?",
+           "id": "Apakah mereka pernah menuntaskan sesuatu di bawah tekanan?"
+          },
+          {
+           "en": "Committee deadlines, part-time work alongside study",
+           "id": "Tenggat kepanitiaan, kerja paruh waktu di sela kuliah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Efficiency</b>",
+           "id": "<b>Efisiensi</b>"
+          },
+          {
+           "en": "What do they do faster?",
+           "id": "Apa yang mereka kerjakan lebih cepat?"
+          },
+          {
+           "en": "Tools you already use fluently; processes you improved",
+           "id": "Alat yang sudah kamu kuasai; proses yang kamu perbaiki"
+          }
+         ]
+        ]
+       },
+       "after": [
+        {
+         "en": "If you can fill most of this grid with real evidence, apply — and make that evidence visible. Module 4 adds the rule of thumb for how much of an advertisement you need to meet.",
+         "id": "Jika kamu bisa mengisi sebagian besar kisi ini dengan bukti nyata, lamarlah — dan buat bukti itu terlihat. Modul 4 menambahkan aturan praktis tentang seberapa banyak isi iklan yang perlu kamu penuhi."
+        }
+       ]
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "The keyword table",
+        "id": "Tabel kata kunci"
+       },
+       "body": {
+        "en": "Do not build your vocabulary from one advertisement — it may be idiosyncratic. Collect <b>at least five advertisements</b> for the same role, plus a few general job descriptions for the title <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §5.1.1; Serdula, LinkedIn Profile Optimization For Dummies, ch. 2)</i>. Highlight every skill, quality, tool and qualification <i>(McMunn, How to Write a CV, ch. 1, 3)</i>. Terms that recur are the field’s real requirements. Sort them into <b>must-have</b> (appear in most advertisements, often under “requirements”) and <b>nice-to-have</b>. Then mark each against yourself:",
+        "id": "Jangan bangun kosakatamu dari satu iklan — iklan itu bisa saja idiosinkratik. Kumpulkan <b>setidaknya lima iklan</b> untuk peran yang sama, ditambah beberapa deskripsi pekerjaan umum untuk jabatan itu <i>(Simunovic, How to Write an Effective CV &amp; Cover Letter, §5.1.1; Serdula, LinkedIn Profile Optimization For Dummies, bab 2)</i>. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi <i>(McMunn, How to Write a CV, bab 1, 3)</i>. Istilah yang berulang adalah persyaratan nyata bidang itu. Pilah menjadi <b>wajib</b> (muncul di sebagian besar iklan, sering di bawah “persyaratan”) dan <b>tambahan</b>. Lalu tandai masing-masing terhadap dirimu:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Have and can prove</b> → becomes your CV’s vocabulary.",
+         "id": "<b>Punya dan bisa buktikan</b> → menjadi kosakata CV-mu."
+        },
+        {
+         "en": "<b>Have but cannot yet prove</b> → a writing problem; Lessons 3.3 and 3.4 solve it.",
+         "id": "<b>Punya tapi belum bisa buktikan</b> → masalah penulisan; Pelajaran 3.3 dan 3.4 menyelesaikannya."
+        },
+        {
+         "en": "<b>Do not have</b> → a skills gap, and honesty about it is a strength; Module 4 teaches the four honest ways to close one.",
+         "id": "<b>Tidak punya</b> → celah keterampilan, dan kejujuran tentangnya adalah kekuatan; Modul 4 mengajarkan empat cara jujur untuk menutupnya."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Relevant, related, unrelated",
+        "id": "Relevan, terkait, tidak terkait"
+       },
+       "body": {
+        "en": "Lidija Simunovic’s three-way split organises your history around the target <i>(§5.1)</i>:",
+        "id": "Pembagian tiga arah Lidija Simunovic menata riwayatmu di sekitar sasaran <i>(§5.1)</i>:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Relevant</b> experience — you did some of the advertised duties. Give it full bullets and the advertisement’s vocabulary.",
+         "id": "Pengalaman <b>relevan</b> — kamu pernah mengerjakan sebagian tugas yang diiklankan. Beri butir lengkap dan kosakata iklannya."
+        },
+        {
+         "en": "<b>Related</b> experience — similar in nature (retail to customer service; organising events to operations). Emphasise the overlap honestly.",
+         "id": "Pengalaman <b>terkait</b> — serupa sifatnya (ritel ke layanan pelanggan; mengorganisasi acara ke operasional). Tekankan tumpang tindihnya dengan jujur."
+        },
+        {
+         "en": "<b>Unrelated</b> experience — keep it brief (three bullets or fewer) unless it is your only work.",
+         "id": "Pengalaman <b>tidak terkait</b> — buat singkat (tiga butir atau kurang) kecuali itu satu-satunya pekerjaanmu."
+        }
+       ],
+       "after": [
+        {
+         "en": "If your only experience is unrelated but your degree or a course is relevant, lead with education. For Nadia applying to Arunika, the bank internship is related (operations, reconciliation, external branches), the sponsorship role is related (negotiating with companies), the café is related (customers under pressure), and the KKN workshop is related (small business owners). Nothing is strictly relevant — she has never worked in FMCG — and that is normal for a trainee intake.",
+         "id": "Jika satu-satunya pengalamanmu tidak terkait tetapi gelar atau mata kuliahmu relevan, buka dengan pendidikan. Untuk Nadia yang melamar ke Arunika, magang bank itu terkait (operasional, rekonsiliasi, cabang eksternal), peran sponsorship terkait (bernegosiasi dengan perusahaan), kafe terkait (pelanggan di bawah tekanan), dan lokakarya KKN terkait (pemilik usaha kecil). Tidak ada yang benar-benar relevan — ia belum pernah bekerja di FMCG — dan itu normal untuk seleksi trainee."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 7: From advertisement to vocabulary",
+       "id": "Peraga 7: Dari iklan ke kosakata"
+      },
+      "title": {
+       "en": "Interrogate → translate → collect → classify",
+       "id": "Interogasi → terjemahkan → kumpulkan → golongkan"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Interrogate one advertisement",
+         "id": "Interogasi satu iklan"
+        },
+        "sub": {
+         "en": "Seven questions; Q4 reveals the problem the role solves and the implied skills.",
+         "id": "Tujuh pertanyaan; P4 mengungkap masalah yang dipecahkan peran itu dan keterampilan yang tersirat."
+        }
+       },
+       {
+        "h": {
+         "en": "Translate “experience”",
+         "id": "Terjemahkan “pengalaman”"
+        },
+        "sub": {
+         "en": "Five benefits — skills, knowledge, credibility, track record, efficiency — each answered with graduate evidence.",
+         "id": "Lima manfaat — keterampilan, pengetahuan, kredibilitas, rekam jejak, efisiensi — masing-masing dijawab dengan bukti lulusan baru."
+        }
+       },
+       {
+        "h": {
+         "en": "Collect five advertisements",
+         "id": "Kumpulkan lima iklan"
+        },
+        "sub": {
+         "en": "Recurring terms → must-have vs nice-to-have → have/prove/gap.",
+         "id": "Istilah berulang → wajib vs tambahan → punya/bisa buktikan/celah."
+        }
+       },
+       {
+        "h": {
+         "en": "Classify your history",
+         "id": "Golongkan riwayatmu"
+        },
+        "sub": {
+         "en": "Relevant, related, unrelated — and lead with whichever is strongest.",
+         "id": "Relevan, terkait, tidak terkait — dan buka dengan yang terkuat."
+        }
+       }
+      ],
+      "note": {
+       "en": "The output is a keyword table and a classified history. Both feed the Evidence Pantry (3.3) and the tailoring pass (3.6).",
+       "id": "Keluarannya adalah tabel kata kunci dan riwayat yang tergolong. Keduanya mengisi Lemari Bukti (3.3) dan proses penyesuaian (3.6)."
+      },
+      "longdesc": {
+       "en": "A four-step flow: interrogate one advertisement with seven questions; translate the experience requirement into five benefits and match graduate evidence to each; collect five or more advertisements and sort recurring terms into must-have and nice-to-have, marked have, can prove, or gap; classify your own history as relevant, related or unrelated.",
+       "id": "Alur empat langkah: interogasi satu iklan dengan tujuh pertanyaan; terjemahkan syarat pengalaman menjadi lima manfaat dan cocokkan bukti lulusan baru ke masing-masing; kumpulkan lima iklan atau lebih dan pilah istilah berulang menjadi wajib dan tambahan, ditandai punya, bisa buktikan, atau celah; golongkan riwayatmu sendiri sebagai relevan, terkait, atau tidak terkait."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of the same advertisement",
+        "id": "Dua pembacaan atas iklan yang sama"
+       },
+       "q": {
+        "en": "Arunika’s MT advertisement lists “strong analytical skills, comfortable with ambiguity, leadership experience in organisations, willing to be placed anywhere in Indonesia, min. IPK 3,00, English — active”.",
+        "id": "Iklan MT Arunika mencantumkan “kemampuan analitis kuat, nyaman dengan ambiguitas, pengalaman kepemimpinan di organisasi, bersedia ditempatkan di seluruh Indonesia, IPK min. 3,00, bahasa Inggris — aktif”."
+       },
+       "weak": {
+        "en": "“They want analytical, ambiguity, leadership, English. I’ll put those four words in my skills list and apply.”",
+        "id": "“Mereka mau analitis, ambiguitas, kepemimpinan, bahasa Inggris. Kutaruh empat kata itu di daftar keterampilanku lalu melamar.”"
+       },
+       "strong": {
+        "en": "“If nobody does this job well, distributors run out of stock and targets are missed — so the role is about keeping product and people moving under pressure. That implies negotiation with partners, Excel with real data, and resilience, none of which the advertisement says. ‘Placed anywhere’ is a hard requirement I meet. My evidence: the sponsor negotiations, the branch reconciliations, and 14 months of shifts alongside study.”",
+        "id": "“Kalau tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target meleset — jadi peran ini soal menjaga produk dan orang tetap bergerak di bawah tekanan. Itu menyiratkan negosiasi dengan mitra, Excel dengan data nyata, dan ketangguhan, yang tidak satu pun disebut iklan. ‘Ditempatkan di mana saja’ adalah syarat mutlak yang kupenuhi. Buktiku: negosiasi sponsor, rekonsiliasi cabang, dan 14 bulan sif di sela kuliah.”"
+       },
+       "why": {
+        "en": "The weak reading copies adjectives into a list nobody believes. The strong reading finds the problem behind the role, the implied skills, and the evidence that proves them — which is what the CV will now be built from.",
+        "id": "Pembacaan lemah menyalin kata sifat ke daftar yang tidak dipercaya siapa pun. Pembacaan kuat menemukan masalah di balik peran, keterampilan yang tersirat, dan bukti yang membuktikannya — dan dari situlah CV akan dibangun."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the advertisement that asked for three things it did not say",
+       "id": "Sorotan: iklan yang meminta tiga hal yang tidak dikatakannya"
+      },
+      "body": [
+       {
+        "en": "KilatPay’s Business Operations Associate posting (ref. OPS-26-04) reads: “Own daily reconciliation and settlement reporting for merchant payouts; work with finance and engineering to resolve exceptions; build dashboards; 0–2 years’ experience; comfortable with SQL a plus.” Nadia’s first reaction is that she has never used SQL and has no fintech experience.",
+        "id": "Lowongan Business Operations Associate KilatPay (ref. OPS-26-04) berbunyi: “Memegang rekonsiliasi harian dan pelaporan settlement untuk pembayaran merchant; bekerja dengan finance dan engineering untuk menyelesaikan pengecualian; membangun dasbor; pengalaman 0–2 tahun; nyaman dengan SQL menjadi nilai tambah.” Reaksi pertama Nadia: ia belum pernah memakai SQL dan tidak punya pengalaman fintech."
+       },
+       {
+        "en": "The seven questions change the picture. What goes wrong if nobody does this well? Merchants are paid late or wrongly, and they leave. So the role is about <i>catching mismatches before money moves</i> — which is precisely what Nadia did for three branches at the bank, and what she did for HIMA’s books. The implied skills are attention to reconciliation detail, calm escalation to other teams, and spreadsheets under deadline. SQL is a nice-to-have; the posting says so.",
+        "id": "Tujuh pertanyaan mengubah gambarannya. Apa yang salah jika tidak ada yang mengerjakan ini dengan baik? Merchant dibayar terlambat atau keliru, dan mereka pergi. Jadi peran ini soal <i>menangkap ketidakcocokan sebelum uang bergerak</i> — persis yang Nadia lakukan untuk tiga cabang di bank, dan yang ia lakukan untuk pembukuan HIMA. Keterampilan yang tersirat adalah ketelitian rekonsiliasi, eskalasi yang tenang ke tim lain, dan spreadsheet di bawah tenggat. SQL adalah nilai tambah; lowongannya sendiri mengatakan begitu."
+       },
+       {
+        "en": "Her keyword table, built from KilatPay and four similar operations postings, has eleven must-haves. She can prove eight, has two she cannot yet prove, and lacks one. That is an application, not a rejection.",
+        "id": "Tabel kata kuncinya, dibangun dari KilatPay dan empat lowongan operasional serupa, berisi sebelas syarat wajib. Ia bisa membuktikan delapan, punya dua yang belum bisa dibuktikan, dan kekurangan satu. Itu sebuah lamaran, bukan penolakan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Interrogate an advertisement",
+        "id": "Latihan 1 — Interogasi sebuah iklan"
+       },
+       "body": {
+        "en": "Read the (fictional) PT Arunika Management Trainee — Sales &amp; Supply Chain advertisement: “Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English. Min. IPK 3,00; graduated within the last two years; willing to be placed anywhere in Indonesia. Experience in sales or operations is an advantage.” Answer the seven questions in writing before revealing.",
+        "id": "Baca iklan (fiktif) Management Trainee — Sales &amp; Supply Chain PT Arunika: “Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif. IPK min. 3,00; lulus dalam dua tahun terakhir; bersedia ditempatkan di seluruh Indonesia. Pengalaman di penjualan atau operasional menjadi nilai tambah.” Jawab tujuh pertanyaan secara tertulis sebelum membuka pembahasan."
+       },
+       "debrief": {
+        "en": "Q4 is the key: if nobody does this job well, distributors run out of stock and sales targets are missed — so the role is really about <i>keeping product moving and people coordinated under pressure</i>. That implies skills not listed: negotiation with external partners, working with data in Excel, and resilience. “Willing to be placed anywhere” is a hard requirement, not a preference. “Fast-paced” and “ambiguity” together mean the programme will move you between functions with little briefing; evidence of learning a new system quickly (the bank internship) answers that.",
+        "id": "P4 adalah kuncinya: jika tidak ada yang mengerjakan ini dengan baik, distributor kehabisan stok dan target penjualan meleset — jadi peran ini sebenarnya soal <i>menjaga produk tetap bergerak dan orang tetap terkoordinasi di bawah tekanan</i>. Itu menyiratkan keterampilan yang tidak dicantumkan: negosiasi dengan mitra eksternal, bekerja dengan data di Excel, dan ketangguhan. “Bersedia ditempatkan di mana saja” adalah syarat mutlak, bukan preferensi. “Serba cepat” dan “ambiguitas” bersama-sama berarti program akan memindahkanmu antarfungsi dengan sedikit pengarahan; bukti mempelajari sistem baru dengan cepat (magang bank) menjawab itu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — The experience grid",
+        "id": "Latihan 2 — Kisi pengalaman"
+       },
+       "body": {
+        "en": "Arunika’s advertisement says “experience in sales or operations is an advantage”. Fill the five-row grid — skills, knowledge, credibility, track record, efficiency — with Nadia’s evidence (her pantry: bank operations internship, HIMA treasurer, sponsorship head, barista, KKN workshop, management coursework).",
+        "id": "Iklan Arunika berkata “pengalaman di penjualan atau operasional menjadi nilai tambah”. Isi kisi lima baris — keterampilan, pengetahuan, kredibilitas, rekam jejak, efisiensi — dengan bukti Nadia (lemarinya: magang operasional bank, bendahara HIMA, kepala sponsorship, barista, lokakarya KKN, mata kuliah manajemen)."
+       },
+       "debrief": {
+        "en": "Skills — bank operations internship (reconciliation across three branches); Knowledge — management coursework and a supply-chain elective; Credibility — negotiated with 11 sponsors, 4 personally; Track record — 14 months of part-time work alongside study while serving as treasurer; Efficiency — the pre-order board at the café and the receipt rule at HIMA. She has more than enough to apply.",
+        "id": "Keterampilan — magang operasional bank (rekonsiliasi tiga cabang); Pengetahuan — mata kuliah manajemen dan pilihan rantai pasok; Kredibilitas — bernegosiasi dengan 11 sponsor, 4 secara pribadi; Rekam jejak — 14 bulan kerja paruh waktu di sela kuliah sambil menjadi bendahara; Efisiensi — papan pra-pesan di kafe dan aturan kuitansi di HIMA. Ia punya lebih dari cukup untuk melamar."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 — Build your keyword table",
+        "id": "Latihan 3 — Bangun tabel kata kuncimu"
+       },
+       "body": {
+        "en": "Collect five advertisements for your own target role. Highlight every skill, quality, tool and qualification. Sort must-haves and nice-to-haves; mark each: have and can prove · have but cannot yet prove · do not have. Use the Studio’s keyword tool or the worksheet in the resource kit.",
+        "id": "Kumpulkan lima iklan untuk peran sasaranmu sendiri. Tandai setiap keterampilan, kualitas, alat, dan kualifikasi. Pilah wajib dan tambahan; tandai masing-masing: punya dan bisa buktikan · punya tapi belum bisa buktikan · tidak punya. Pakai alat kata kunci di Studio atau lembar kerja di perangkat sumber daya."
+       },
+       "debrief": {
+        "en": "Most learners find 8–12 must-haves. The “have but cannot prove” column is where the next lesson starts; the “do not have” column is where Module 4’s honest closes apply. If your table has more than twenty must-haves, you have merged two different roles — split them into two clusters.",
+        "id": "Kebanyakan pembelajar menemukan 8–12 syarat wajib. Kolom “punya tapi belum bisa buktikan” adalah tempat pelajaran berikutnya dimulai; kolom “tidak punya” adalah tempat penutup jujur Modul 4 berlaku. Jika tabelmu punya lebih dari dua puluh syarat wajib, kamu telah menggabungkan dua peran berbeda — pisahkan menjadi dua rumpun."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Reading only the title and deadline",
+         "id": "Hanya membaca judul dan tenggat"
+        },
+        "fix": {
+         "en": "Run the seven questions; Q4 especially.",
+         "id": "Jalankan tujuh pertanyaan; terutama P4."
+        }
+       },
+       {
+        "h": {
+         "en": "Not applying because of “1 year experience”",
+         "id": "Tidak melamar karena “pengalaman 1 tahun”"
+        },
+        "fix": {
+         "en": "Fill the experience grid; apply if you can evidence most of it.",
+         "id": "Isi kisi pengalaman; lamarlah jika kamu bisa membuktikan sebagian besarnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Building vocabulary from one advertisement",
+         "id": "Membangun kosakata dari satu iklan"
+        },
+        "fix": {
+         "en": "Use five or more.",
+         "id": "Pakai lima atau lebih."
+        }
+       },
+       {
+        "h": {
+         "en": "Calling everything “relevant”",
+         "id": "Menyebut semuanya “relevan”"
+        },
+        "fix": {
+         "en": "Related is fine and honest; say what overlaps.",
+         "id": "“Terkait” itu baik dan jujur; katakan apa yang tumpang tindih."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Job detective",
+        "id": "Detektif lowongan"
+       },
+       "def": {
+        "en": "Bright &amp; Earl’s method of interrogating an advertisement for stated and implied requirements.",
+        "id": "Metode Bright &amp; Earl untuk menginterogasi iklan atas persyaratan yang dinyatakan dan tersirat."
+       }
+      },
+      {
+       "term": {
+        "en": "Implied requirement",
+        "id": "Persyaratan tersirat"
+       },
+       "def": {
+        "en": "A skill or quality the role needs that the advertisement does not name.",
+        "id": "Keterampilan atau kualitas yang dibutuhkan peran tetapi tidak disebut iklan."
+       }
+      },
+      {
+       "term": {
+        "en": "Must-have / nice-to-have",
+        "id": "Wajib / tambahan"
+       },
+       "def": {
+        "en": "Terms that recur across most advertisements versus those that appear occasionally.",
+        "id": "Istilah yang berulang di sebagian besar iklan versus yang hanya muncul sesekali."
+       }
+      },
+      {
+       "term": {
+        "en": "Keyword table",
+        "id": "Tabel kata kunci"
+       },
+       "def": {
+        "en": "Recurring terms from five or more advertisements, sorted and marked have / prove / gap.",
+        "id": "Istilah berulang dari lima iklan atau lebih, dipilah dan ditandai punya / bisa buktikan / celah."
+       }
+      },
+      {
+       "term": {
+        "en": "Related experience",
+        "id": "Pengalaman terkait"
+       },
+       "def": {
+        "en": "Work similar in nature to the target role without the same duties.",
+        "id": "Kerja yang serupa sifatnya dengan peran sasaran tanpa tugas yang sama."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which job-detective question most often reveals implied skills?",
+        "id": "Pertanyaan detektif lowongan mana yang paling sering mengungkap keterampilan tersirat?"
+       },
+       "options": [
+        {
+         "en": "What is the salary?",
+         "id": "Berapa gajinya?"
+        },
+        {
+         "en": "What goes wrong if nobody does this job, or does it badly?",
+         "id": "Apa yang salah jika tidak ada yang mengerjakan pekerjaan ini, atau mengerjakannya dengan buruk?"
+        },
+        {
+         "en": "Where is the office?",
+         "id": "Di mana kantornya?"
+        },
+        {
+         "en": "How long is the advertisement?",
+         "id": "Seberapa panjang iklannya?"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The problem the role solves tells you what the person must actually be able to do — often more than the advertisement lists.",
+        "id": "Masalah yang dipecahkan peran itu memberi tahu apa yang sebenarnya harus mampu dilakukan orang tersebut — sering lebih banyak dari yang dicantumkan iklan."
+       }
+      },
+      {
+       "q": {
+        "en": "An advertisement asks for “1 year of experience in customer service”. Nadia has 14 months of part-time barista work and no full-time job.",
+        "id": "Sebuah iklan meminta “pengalaman 1 tahun di layanan pelanggan”. Nadia punya 14 bulan kerja barista paruh waktu dan belum pernah bekerja penuh waktu."
+       },
+       "options": [
+        {
+         "en": "Don’t apply",
+         "id": "Jangan melamar"
+        },
+        {
+         "en": "Apply, and make the customer-service evidence from the café visible",
+         "id": "Melamar, dan buat bukti layanan pelanggan dari kafe terlihat"
+        },
+        {
+         "en": "Claim a full-time role",
+         "id": "Mengklaim peran penuh waktu"
+        },
+        {
+         "en": "Wait a year",
+         "id": "Menunggu setahun"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The employer wants the benefits of experience — skills, track record, credibility — and 14 months of shifts supply them.",
+        "id": "Perusahaan menginginkan manfaat pengalaman — keterampilan, rekam jejak, kredibilitas — dan 14 bulan sif memenuhinya."
+       }
+      },
+      {
+       "q": {
+        "en": "You organised a 1,200-person competition and are applying for an operations role. This experience is…",
+        "id": "Kamu mengorganisasi kompetisi 1.200 orang dan melamar peran operasional. Pengalaman ini…"
+       },
+       "options": [
+        {
+         "en": "Unrelated",
+         "id": "Tidak terkait"
+        },
+        {
+         "en": "Related — emphasise the planning and coordination overlap",
+         "id": "Terkait — tekankan tumpang tindih perencanaan dan koordinasi"
+        },
+        {
+         "en": "Irrelevant because unpaid",
+         "id": "Tidak relevan karena tidak dibayar"
+        },
+        {
+         "en": "Something to hide",
+         "id": "Sesuatu yang harus disembunyikan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Event operations and business operations share planning, coordination and deadlines; say so honestly.",
+        "id": "Operasional acara dan operasional bisnis berbagi perencanaan, koordinasi, dan tenggat; katakan dengan jujur."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Keyword table",
+       "id": "Tabel kata kunci"
+      },
+      "body": {
+       "en": "Paste five or more advertisements into the Studio, extract the recurring terms, sort must-have from nice-to-have and tag each have / prove / gap. The table is saved to your Dossier and reused for the coverage check in Module 4.",
+       "id": "Tempel lima iklan atau lebih ke Studio, ekstrak istilah yang berulang, pilah wajib dari tambahan, dan tandai masing-masing punya / bisa buktikan / celah. Tabelnya disimpan ke Dossier-mu dan dipakai lagi untuk pemeriksaan cakupan di Modul 4."
+      },
+      "cta": {
+       "en": "Open the Studio →",
+       "id": "Buka Studio →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Interrogate the advertisement: the problem the role solves reveals what to prove.",
+       "id": "Interogasi iklannya: masalah yang dipecahkan peran itu mengungkap apa yang harus dibuktikan."
+      },
+      {
+       "en": "“Experience required” means “the benefits of experience” — which graduates can often evidence.",
+       "id": "“Diperlukan pengalaman” berarti “manfaat dari pengalaman” — yang sering bisa dibuktikan lulusan baru."
+      },
+      {
+       "en": "Build your vocabulary from five advertisements, not one.",
+       "id": "Bangun kosakatamu dari lima iklan, bukan satu."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and worksheets",
+       "id": "Sumber dan lembar kerja"
+      },
+      "lead": {
+       "en": "The seven questions and the keyword table as copyable worksheets.",
+       "id": "Tujuh pertanyaan dan tabel kata kunci sebagai lembar kerja yang bisa disalin."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.2",
+         "id": "Daftar bacaan · Pelajaran 3.2"
+        },
+        "desc": {
+         "en": "Four sources.",
+         "id": "Empat sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 4–5 — the job-detective questions; what experience buys.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 4–5 — pertanyaan detektif lowongan; apa yang dibeli pengalaman."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §5.1 — five advertisements; relevant, related, unrelated.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §5.1 — lima iklan; relevan, terkait, tidak terkait."
+         },
+         {
+          "en": "R. McMunn, <i>How to Write a CV</i> (How2Become), ch. 1, 3 — keyword extraction (sample CVs weak; use for method only).",
+          "id": "R. McMunn, <i>How to Write a CV</i> (How2Become), bab 1, 3 — ekstraksi kata kunci (contoh CV-nya lemah; pakai metodenya saja)."
+         },
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2nd ed., 2020), ch. 2 — building a keyword list from job descriptions.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (ed. ke-2, 2020), bab 2 — membangun daftar kata kunci dari deskripsi pekerjaan."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Seven questions · one advertisement",
+         "id": "Tujuh pertanyaan · satu iklan"
+        },
+        "desc": {
+         "en": "Answer in one or two lines each.",
+         "id": "Jawab satu atau dua baris masing-masing."
+        },
+        "body": [
+         {
+          "en": "1. What don’t I understand? — 2. What kind of organisation, and what is happening to it? — 3. Main purpose of the role?",
+          "id": "1. Apa yang tidak kupahami? — 2. Organisasi seperti apa, dan apa yang sedang terjadi padanya? — 3. Tujuan utama peran?"
+         },
+         {
+          "en": "4. What goes wrong if nobody does it, or does it badly? — 5. Skills asked for / implied — 6. Qualities asked for / implied — 7. Knowledge asked for / implied",
+          "id": "4. Apa yang salah jika tidak ada yang mengerjakannya, atau mengerjakannya dengan buruk? — 5. Keterampilan yang diminta / tersirat — 6. Kualitas yang diminta / tersirat — 7. Pengetahuan yang diminta / tersirat"
          }
         ]
        },
        {
         "kind": "template",
         "title": {
-         "en": "Evidence line formula",
-         "id": "Rumus baris bukti"
+         "en": "Keyword table · five advertisements",
+         "id": "Tabel kata kunci · lima iklan"
         },
         "desc": {
-         "en": "Write each bullet with this shape, then cut to one line.",
-         "id": "Tulis tiap butir dengan bentuk ini, lalu pangkas menjadi satu baris."
+         "en": "One row per recurring term.",
+         "id": "Satu baris per istilah berulang."
         },
         "body": [
          {
-          "en": "[Strong verb] + [what] + [for whom / scope] + [measurable result or artefact] + [how, if it was clever]",
-          "id": "[Kata kerja kuat] + [apa] + [untuk siapa / lingkup] + [hasil terukur atau artefak] + [caranya, jika cerdik]"
+          "en": "Term · appears in (n of 5) · must-have / nice-to-have · have &amp; can prove / have, cannot prove yet / do not have · my evidence",
+          "id": "Istilah · muncul di (n dari 5) · wajib / tambahan · punya &amp; bisa buktikan / punya, belum bisa buktikan / tidak punya · buktiku"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.3",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "50 min",
+      "id": "50 mnt"
+     },
+     "title": {
+      "en": "Build the Evidence Pantry",
+      "id": "Menyusun Lemari Bukti"
+     },
+     "overview": {
+      "en": "Most people write their CV by staring at a blank template. Strong CVs are built differently: first you gather every piece of evidence you have — the “pantry” — and only then do you cook. This lesson builds your pantry, and proves you have more in it than you think.",
+      "id": "Kebanyakan orang menulis CV dengan menatap templat kosong. CV yang kuat dibangun dengan cara lain: pertama kamu mengumpulkan setiap bukti yang kamu punya — “lemari” — dan baru kemudian memasak. Pelajaran ini menyusun lemarimu, dan membuktikan isinya lebih banyak daripada yang kamu kira."
+     },
+     "objectives": [
+      {
+       "en": "Complete three inventories: learning, work, and life and organisations.",
+       "id": "Melengkapi tiga inventaris: belajar, kerja, serta hidup dan organisasi."
+      },
+      {
+       "en": "Run an <b>achievement-discovery interview</b> with a partner.",
+       "id": "Menjalankan <b>wawancara penemuan pencapaian</b> dengan pasangan."
+      },
+      {
+       "en": "Use four trigger verbs to surface achievements you have forgotten.",
+       "id": "Memakai empat kata kerja pemicu untuk memunculkan pencapaian yang kamu lupakan."
+      },
+      {
+       "en": "Test each achievement against five criteria.",
+       "id": "Menguji setiap pencapaian dengan lima kriteria."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Pantry first, then cook",
+       "id": "Lemari dulu, baru memasak"
+      },
+      "intro": {
+       "en": "The CV is written last. Before it, three inventories, one interview and one sweep with four verbs.",
+       "id": "CV ditulis paling akhir. Sebelumnya, tiga inventaris, satu wawancara, dan satu sapuan dengan empat kata kerja."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Three inventories",
+         "id": "Tiga inventaris"
+        },
+        "points": [
+         {
+          "en": "<b>Learning</b> — degrees, IPK, thesis, courses, certifications, scores.",
+          "id": "<b>Belajar</b> — gelar, IPK, skripsi, mata kuliah, sertifikasi, skor."
          },
          {
-          "en": "Example: “Automated the weekly sales report in Google Sheets for a 6-person team, cutting preparation from 3 hours to 20 minutes.”",
-          "id": "Contoh: “Mengotomatiskan laporan penjualan mingguan di Google Sheets untuk tim 6 orang, memangkas persiapan dari 3 jam menjadi 20 menit.”"
+          "en": "<b>Work</b> — magang, MBKM, part-time, freelance, family business, assistant roles.",
+          "id": "<b>Kerja</b> — magang, MBKM, paruh waktu, lepas, usaha keluarga, peran asisten."
          },
          {
-          "en": "Verbs that carry weight: built, led, analysed, designed, negotiated, reduced, grew, launched, organised, presented, resolved",
-          "id": "Kata kerja yang berbobot: membangun, memimpin, menganalisis, merancang, menegosiasikan, mengurangi, menumbuhkan, meluncurkan, mengorganisasi, mempresentasikan, menyelesaikan"
+          "en": "<b>Life and organisations</b> — BEM, HIMA, UKM, kepanitiaan, KKN, lomba, volunteering.",
+          "id": "<b>Hidup dan organisasi</b> — BEM, HIMA, UKM, kepanitiaan, KKN, lomba, kerelawanan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A partner finds what you cannot",
+         "id": "Pasangan menemukan yang tidak bisa kamu temukan"
+        },
+        "points": [
+         {
+          "en": "Ten questions, asked by someone else, for every role you have held.",
+          "id": "Sepuluh pertanyaan, diajukan orang lain, untuk setiap peran yang pernah kamu pegang."
          },
          {
-          "en": "No number? Use scope (“for 300 participants”), artefact (“published dashboard”) or recognition (“adopted by the faculty”).",
-          "id": "Tak ada angka? Pakai lingkup (“untuk 300 peserta”), artefak (“dasbor yang dipublikasikan”), atau pengakuan (“diadopsi fakultas”)."
+          "en": "“I just did the job” becomes four achievements in ten minutes.",
+          "id": "“Aku cuma mengerjakan tugasnya” menjadi empat pencapaian dalam sepuluh menit."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Five tests, then claim it honestly",
+         "id": "Lima uji, lalu klaim dengan jujur"
+        },
+        "points": [
+         {
+          "en": "Completed · attributable to you · measurable · verifiable · made a difference.",
+          "id": "Selesai · dapat dikaitkan denganmu · terukur · dapat diverifikasi · membuat perbedaan."
+         },
+         {
+          "en": "Team results: the team’s result plus your specific role. Never sole credit; never erased.",
+          "id": "Hasil tim: hasil tim ditambah peran spesifikmu. Jangan klaim sendiri; jangan hapus dirimu."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Why inventory first",
+        "id": "Mengapa inventaris lebih dulu"
+       },
+       "body": {
+        "en": "Bright &amp; Earl call the raw record of your life a “pantry of ingredients”: you cannot write a tailored CV quickly unless the ingredients are already gathered <i>(How to Write a Brilliant CV, ch. 6)</i>. They also note that most people’s inventories are lopsided — full of names, dates and titles, which feel safe and modest, and empty of achievements, which feel uncomfortable. A finished pantry is balanced: for every role, at least as many things you changed as things you were called.",
+        "id": "Bright &amp; Earl menyebut rekam mentah hidupmu sebagai “lemari bahan”: kamu tidak bisa menulis CV yang disesuaikan dengan cepat kecuali bahannya sudah terkumpul <i>(How to Write a Brilliant CV, bab 6)</i>. Mereka juga mencatat bahwa inventaris kebanyakan orang timpang — penuh nama, tanggal, dan jabatan, yang terasa aman dan rendah hati, dan kosong dari pencapaian, yang terasa tidak nyaman. Lemari yang selesai itu seimbang: untuk setiap peran, setidaknya sebanyak hal yang kamu ubah dibandingkan sebutan jabatanmu."
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Three inventories",
+        "id": "Tiga inventaris"
+       },
+       "body": {
+        "en": "Adapted from Bright &amp; Earl’s templates <i>(ch. 6)</i> and Simunovic’s three handwritten lists <i>(How to Write an Effective CV &amp; Cover Letter, §2)</i>. Simunovic suggests about thirty minutes per list, by hand. Then look for patterns: what keeps recurring? What would someone who read all three lists say you are good at?",
+        "id": "Diadaptasi dari templat Bright &amp; Earl <i>(bab 6)</i> dan tiga daftar tulisan tangan Simunovic <i>(How to Write an Effective CV &amp; Cover Letter, §2)</i>. Simunovic menyarankan sekitar tiga puluh menit per daftar, dengan tangan. Lalu cari pola: apa yang terus berulang? Apa yang akan dikatakan seseorang yang membaca ketiga daftar itu tentang keahlianmu?"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Inventory",
+          "id": "Inventaris"
+         },
+         {
+          "en": "What goes in",
+          "id": "Apa yang masuk"
+         },
+         {
+          "en": "For each item, also write",
+          "id": "Untuk setiap butir, tulis juga"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Learning</b>",
+           "id": "<b>Belajar</b>"
+          },
+          {
+           "en": "Each institution; degree and major; IPK and <i>predikat</i>; thesis title; relevant courses; certifications with scores (TOEFL, TOEIC, IELTS); online courses; awards",
+           "id": "Setiap institusi; gelar dan jurusan; IPK dan <i>predikat</i>; judul skripsi; mata kuliah relevan; sertifikasi dengan skor (TOEFL, TOEIC, IELTS); kursus daring; penghargaan"
+          },
+          {
+           "en": "What I achieved · what it shows",
+           "id": "Apa yang kucapai · apa yang ditunjukkannya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Work</b>",
+           "id": "<b>Kerja</b>"
+          },
+          {
+           "en": "Internships (<i>magang</i>, MBKM), part-time jobs, freelance and family-business work, assistant roles (<i>asisten dosen, asisten praktikum</i>)",
+           "id": "Magang (<i>magang</i>, MBKM), kerja paruh waktu, kerja lepas dan usaha keluarga, peran asisten (<i>asisten dosen, asisten praktikum</i>)"
+          },
+          {
+           "en": "Dates · title · main responsibilities · achievements · what I learned · privately, the true reason I left",
+           "id": "Tanggal · jabatan · tanggung jawab utama · pencapaian · yang kupelajari · secara pribadi, alasan sebenarnya aku berhenti"
+          }
+         ],
+         [
+          {
+           "en": "<b>Life and organisations</b>",
+           "id": "<b>Hidup dan organisasi</b>"
+          },
+          {
+           "en": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, volunteering, community and religious organisations, sports, creative work",
+           "id": "BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, <i>lomba</i>, kerelawanan, organisasi masyarakat dan keagamaan, olahraga, karya kreatif"
+          },
+          {
+           "en": "Role · scale (members, budget, participants) · achievements · what it shows",
+           "id": "Peran · skala (anggota, anggaran, peserta) · pencapaian · apa yang ditunjukkannya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "The achievement-discovery interview",
+        "id": "Wawancara penemuan pencapaian"
+       },
+       "body": {
+        "en": "Andrew Knowles reports that almost every client first says “I just did the job” — and then, under questioning, finds real achievements <i>(How to Write an Outstanding CV, ch. 7)</i>. Work in pairs. Partner A asks Partner B these questions for <b>every</b> role in B’s inventory, then swap. The listener writes; the speaker talks. Aim for at least eight raw achievements.",
+        "id": "Andrew Knowles melaporkan bahwa hampir setiap kliennya mula-mula berkata “saya cuma mengerjakan tugasnya” — lalu, di bawah pertanyaan, menemukan pencapaian nyata <i>(How to Write an Outstanding CV, bab 7)</i>. Bekerjalah berpasangan. Pasangan A mengajukan pertanyaan-pertanyaan ini kepada Pasangan B untuk <b>setiap</b> peran dalam inventaris B, lalu bertukar. Yang mendengar menulis; yang berbicara bercerita. Targetkan setidaknya delapan pencapaian mentah."
+       },
+       "bullets": [
+        {
+         "en": "What difference did you make?",
+         "id": "Perbedaan apa yang kamu buat?"
+        },
+        {
+         "en": "Did you improve how anything was done?",
+         "id": "Apakah kamu memperbaiki cara sesuatu dikerjakan?"
+        },
+        {
+         "en": "How much did it help — time, money, numbers, people?",
+         "id": "Seberapa besar bantuannya — waktu, uang, angka, orang?"
+        },
+        {
+         "en": "What are you most proud of?",
+         "id": "Apa yang paling kamu banggakan?"
+        },
+        {
+         "en": "Were you given a special or temporary responsibility?",
+         "id": "Apakah kamu pernah diberi tanggung jawab khusus atau sementara?"
+        },
+        {
+         "en": "Did anyone thank or praise you? What for?",
+         "id": "Apakah ada yang berterima kasih atau memujimu? Untuk apa?"
+        },
+        {
+         "en": "What targets did you have, and how did you do?",
+         "id": "Target apa yang kamu punya, dan bagaimana hasilnya?"
+        },
+        {
+         "en": "Did you turn an idea into action?",
+         "id": "Apakah kamu pernah mengubah ide menjadi tindakan?"
+        },
+        {
+         "en": "What was the hardest moment, and how did you handle it?",
+         "id": "Apa momen tersulit, dan bagaimana kamu menanganinya?"
+        },
+        {
+         "en": "What did you learn that you still use?",
+         "id": "Apa yang kamu pelajari dan masih kamu pakai?"
+        }
+       ],
+       "after": [
+        {
+         "en": "If you have no partner today, record yourself answering aloud and transcribe it. The point is that speaking to a question produces detail that a blank page never does.",
+         "id": "Jika hari ini tidak ada pasangan, rekam dirimu menjawab dengan suara lantang dan salin. Intinya, berbicara menjawab pertanyaan menghasilkan detail yang tidak pernah dihasilkan halaman kosong."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Four trigger verbs",
+        "id": "Empat kata kerja pemicu"
+       },
+       "body": {
+        "en": "James Innes suggests brainstorming around four verbs <i>(The CV Book, ch. 11)</i>: things you helped <b>increase</b> (members, sponsorship, sales, attendance, followers); <b>decrease</b> (costs, waiting times, errors, complaints); <b>improve</b> (a process, a system, a relationship); and <b>arrange or create</b> (an event, a new procedure, a first-ever activity). Run each verb across each inventory. A treasurer who introduced a receipt rule <i>decreased</i> missing records; a barista who suggested a pre-order board <i>decreased</i> waiting time; a sponsorship head <i>increased</i> funds raised; a KKN student <i>created</i> a workshop that did not exist before.",
+        "id": "James Innes menyarankan curah gagasan di sekitar empat kata kerja <i>(The CV Book, bab 11)</i>: hal yang kamu bantu <b>tingkatkan</b> (anggota, sponsor, penjualan, kehadiran, pengikut); <b>kurangi</b> (biaya, waktu tunggu, kesalahan, keluhan); <b>perbaiki</b> (proses, sistem, hubungan); dan <b>atur atau ciptakan</b> (acara, prosedur baru, kegiatan yang pertama kali ada). Jalankan setiap kata kerja pada setiap inventaris. Bendahara yang memperkenalkan aturan kuitansi <i>mengurangi</i> catatan yang hilang; barista yang mengusulkan papan pra-pesan <i>mengurangi</i> waktu tunggu; kepala sponsorship <i>meningkatkan</i> dana terkumpul; mahasiswa KKN <i>menciptakan</i> lokakarya yang sebelumnya tidak ada."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "“But I have no achievements.”",
+        "id": "“Tapi aku tidak punya pencapaian.”"
+       },
+       "body": {
+        "en": "Bright &amp; Earl list achievements people routinely overlook <i>(ch. 6)</i>: awards however small; exam results; certificates; long attendance records; fundraising; elected positions; captaining a team; organising a run or a clean-up; small process improvements. For Indonesian students, add:",
+        "id": "Bright &amp; Earl mendaftar pencapaian yang rutin terlewat <i>(bab 6)</i>: penghargaan sekecil apa pun; hasil ujian; sertifikat; rekam kehadiran panjang; penggalangan dana; posisi yang dipilih; menjadi kapten tim; mengorganisasi lari atau bersih-bersih; perbaikan proses kecil. Untuk mahasiswa Indonesia, tambahkan:"
+       },
+       "bullets": [
+        {
+         "en": "Being chosen as <i>koordinator</i> or <i>PJ</i> (penanggung jawab) of a division or programme.",
+         "id": "Dipilih sebagai <i>koordinator</i> atau <i>PJ</i> (penanggung jawab) suatu divisi atau program."
+        },
+        {
+         "en": "Handling a committee’s budget, however small — and closing it cleanly.",
+         "id": "Memegang anggaran kepanitiaan, sekecil apa pun — dan menutupnya dengan rapi."
+        },
+        {
+         "en": "Being an <i>asisten praktikum</i> or <i>asisten dosen</i>: you taught, graded and answered questions.",
+         "id": "Menjadi <i>asisten praktikum</i> atau <i>asisten dosen</i>: kamu mengajar, menilai, dan menjawab pertanyaan."
+        },
+        {
+         "en": "Placing in a <i>lomba</i> — including “top 8 of 140 teams”, which is a result even without a trophy.",
+         "id": "Menempati peringkat di <i>lomba</i> — termasuk “8 besar dari 140 tim”, yang tetap hasil meski tanpa piala."
+        },
+        {
+         "en": "Leading a KKN work programme, managing an organisation’s social media, mentoring <i>adik tingkat</i>.",
+         "id": "Memimpin program kerja KKN, mengelola media sosial organisasi, membimbing <i>adik tingkat</i>."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Five tests for an achievement",
+        "id": "Lima uji untuk sebuah pencapaian"
+       },
+       "body": {
+        "en": "Bright &amp; Earl define an achievement as something that <i>(ch. 8)</i>: (1) was <b>completed</b>; (2) can be <b>attributed</b> at least partly to you; (3) can be <b>measured</b>; (4) can be <b>verified</b>; (5) made a <b>difference</b>. If an item fails test (4), leave it out — it will be tested at interview, and a claim you cannot back up costs more than the line was worth. If it fails test (3), look again: scale, frequency, time and people are nearly always countable, as Lesson 3.4 shows.",
+        "id": "Bright &amp; Earl mendefinisikan pencapaian sebagai sesuatu yang <i>(bab 8)</i>: (1) <b>selesai</b>; (2) dapat <b>dikaitkan</b> setidaknya sebagian denganmu; (3) dapat <b>diukur</b>; (4) dapat <b>diverifikasi</b>; (5) membuat <b>perbedaan</b>. Jika sebuah butir gagal uji (4), tinggalkan — ia akan diuji saat wawancara, dan klaim yang tidak bisa kamu dukung merugikan lebih dari nilai barisnya. Jika gagal uji (3), lihat lagi: skala, frekuensi, waktu, dan orang hampir selalu bisa dihitung, seperti ditunjukkan Pelajaran 3.4."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Team achievements — claim them honestly",
+        "id": "Pencapaian tim — klaim dengan jujur"
+       },
+       "body": {
+        "en": "Much Indonesian student work is done in teams, and learners often feel they cannot claim team results. Bright &amp; Earl note that readers credit people with the outcomes they were close to, and argue it is legitimate to claim a team result you contributed to <i>(ch. 6, 8)</i>; Innes agrees <i>(ch. 11)</i>. The honest formula is: <b>the team’s result + your specific role</b>.",
+        "id": "Banyak kerja mahasiswa Indonesia dilakukan dalam tim, dan pembelajar sering merasa tidak bisa mengklaim hasil tim. Bright &amp; Earl mencatat bahwa pembaca mengaitkan orang dengan hasil yang dekat dengannya, dan berpendapat sah mengklaim hasil tim yang kamu sumbang <i>(bab 6, 8)</i>; Innes sependapat <i>(bab 11)</i>. Rumus jujurnya: <b>hasil tim + peran spesifikmu</b>."
+       },
+       "quote": {
+        "text": {
+         "en": "“Part of a 6-person sponsorship team that raised Rp 85 juta for a 1,200-participant competition; personally secured 4 of the 11 sponsors and drafted the tiered sponsor package the team pitched.”",
+         "id": "“Bagian dari tim sponsorship 6 orang yang mengumpulkan Rp 85 juta untuk kompetisi 1.200 peserta; secara pribadi mendapatkan 4 dari 11 sponsor dan menyusun paket sponsor bertingkat yang dipresentasikan tim.”"
+        },
+        "who": {
+         "en": "The team result, then the part that was yours",
+         "id": "Hasil tim, lalu bagian yang menjadi milikmu"
+        }
+       },
+       "after": [
+        {
+         "en": "Never claim sole credit for a team result — but never erase yourself from it either. A recruiter reading “team raised Rp 85 juta” with no mention of you assumes you carried the banner.",
+         "id": "Jangan pernah mengklaim hasil tim sebagai milikmu sendiri — tetapi jangan pula menghapus dirimu darinya. Perekrut yang membaca “tim mengumpulkan Rp 85 juta” tanpa menyebutmu akan mengira kamu hanya pembawa spanduk."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 8: From “I just did the job” to a stocked pantry",
+       "id": "Peraga 8: Dari “aku cuma mengerjakan tugasnya” ke lemari yang penuh"
+      },
+      "title": {
+       "en": "Inventory → interview → trigger sweep → five tests",
+       "id": "Inventaris → wawancara → sapuan pemicu → lima uji"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Three inventories",
+         "id": "Tiga inventaris"
+        },
+        "sub": {
+         "en": "Learning · work · life and organisations. Thirty minutes each, by hand.",
+         "id": "Belajar · kerja · hidup dan organisasi. Tiga puluh menit masing-masing, dengan tangan."
+        }
+       },
+       {
+        "h": {
+         "en": "Discovery interview",
+         "id": "Wawancara penemuan"
+        },
+        "sub": {
+         "en": "Ten questions per role, asked by a partner. Eight raw achievements minimum.",
+         "id": "Sepuluh pertanyaan per peran, diajukan pasangan. Minimal delapan pencapaian mentah."
+        }
+       },
+       {
+        "h": {
+         "en": "Trigger sweep",
+         "id": "Sapuan pemicu"
+        },
+        "sub": {
+         "en": "Increase · decrease · improve · arrange or create, across every role.",
+         "id": "Tingkatkan · kurangi · perbaiki · atur atau ciptakan, di setiap peran."
+        }
+       },
+       {
+        "h": {
+         "en": "Five tests",
+         "id": "Lima uji"
+        },
+        "sub": {
+         "en": "Completed, attributable, measurable, verifiable, made a difference. Drop what fails verification.",
+         "id": "Selesai, dapat dikaitkan, terukur, dapat diverifikasi, membuat perbedaan. Buang yang gagal verifikasi."
+        }
+       }
+      ],
+      "note": {
+       "en": "Output: a balanced pantry — at least as many achievements as titles — ready for the bullet formula in Lesson 3.4.",
+       "id": "Keluaran: lemari yang seimbang — setidaknya sebanyak pencapaian dibandingkan jabatan — siap untuk rumus butir di Pelajaran 3.4."
+      },
+      "longdesc": {
+       "en": "A four-step flow. First, three handwritten inventories covering learning, work, and life and organisations. Second, a discovery interview in which a partner asks ten questions about every role. Third, a sweep with four trigger verbs: increase, decrease, improve, arrange or create. Fourth, five tests: completed, attributable, measurable, verifiable, made a difference. The output is a balanced pantry ready for Lesson 3.4.",
+       "id": "Alur empat langkah. Pertama, tiga inventaris tulisan tangan yang mencakup belajar, kerja, serta hidup dan organisasi. Kedua, wawancara penemuan ketika pasangan mengajukan sepuluh pertanyaan tentang setiap peran. Ketiga, sapuan dengan empat kata kerja pemicu: tingkatkan, kurangi, perbaiki, atur atau ciptakan. Keempat, lima uji: selesai, dapat dikaitkan, terukur, dapat diverifikasi, membuat perbedaan. Keluarannya adalah lemari seimbang yang siap untuk Pelajaran 3.4."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "One role, two inventories",
+        "id": "Satu peran, dua inventaris"
+       },
+       "q": {
+        "en": "Nadia’s HIMA treasurer entry, before and after the discovery interview.",
+        "id": "Entri bendahara HIMA Nadia, sebelum dan sesudah wawancara penemuan."
+       },
+       "weak": {
+        "en": "“Treasurer, HIMA Manajemen (2024–2025). Managed the organisation’s finances.”",
+        "id": "“Bendahara, HIMA Manajemen (2024–2025). Mengelola keuangan organisasi.”"
+       },
+       "strong": {
+        "en": "“Treasurer, HIMA Manajemen (2024–2025). Inherited records missing receipts for about half the previous year’s spending; introduced a shared ledger and a 3-day receipt rule for every reimbursement; the faculty’s end-of-year audit returned zero findings for the first time in three years; trained the incoming treasurer over four weeks.”",
+        "id": "“Bendahara, HIMA Manajemen (2024–2025). Mewarisi catatan tanpa kuitansi untuk sekitar separuh pengeluaran tahun sebelumnya; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari untuk setiap penggantian; audit akhir tahun fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara berikutnya selama empat minggu.”"
+       },
+       "why": {
+        "en": "Same role, same year. The first is a title with a duty. The second is four achievements, each of which passes the five tests and each of which a recruiter can ask about.",
+        "id": "Peran yang sama, tahun yang sama. Yang pertama adalah jabatan dengan tugas. Yang kedua adalah empat pencapaian, masing-masing lolos lima uji dan masing-masing bisa ditanyakan perekrut."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: “I was only the treasurer.”",
+       "id": "Sorotan: “Aku cuma bendahara.”"
+      },
+      "body": [
+       {
+        "en": "When Nadia first filled her inventory, the HIMA entry read “Treasurer (2024–2025)”. Her partner in the discovery interview, a friend from the same faculty, asked the second question: did you improve how anything was done?",
+        "id": "Ketika Nadia pertama kali mengisi inventarisnya, entri HIMA berbunyi “Bendahara (2024–2025)”. Pasangannya dalam wawancara penemuan, seorang teman dari fakultas yang sama, mengajukan pertanyaan kedua: apakah kamu memperbaiki cara sesuatu dikerjakan?"
+       },
+       {
+        "en": "Nadia said no, then paused. She had inherited records with no receipts for half the previous year’s spending. She had introduced a shared spreadsheet and a rule that every reimbursement needed a photo of the receipt within three days. The organisation’s end-of-year audit by the faculty had zero findings for the first time in three years. She had trained the next treasurer. “But that’s just what a treasurer does,” she said.",
+        "id": "Nadia berkata tidak, lalu terdiam. Ia mewarisi catatan tanpa kuitansi untuk separuh pengeluaran tahun sebelumnya. Ia memperkenalkan spreadsheet bersama dan aturan bahwa setiap penggantian harus disertai foto kuitansi dalam tiga hari. Audit akhir tahun organisasi oleh fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun. Ia melatih bendahara berikutnya. “Tapi itu kan memang tugas bendahara,” katanya."
+       },
+       {
+        "en": "It is what a good treasurer does, and the previous two had not done it. That is four achievements, found in ten minutes, in a role she thought had none. The modesty barrier from Lesson 3.1 is not crossed by trying harder alone; it is crossed by someone else asking.",
+        "id": "Itu yang dilakukan bendahara yang baik, dan dua bendahara sebelumnya tidak melakukannya. Itulah empat pencapaian, ditemukan dalam sepuluh menit, dalam peran yang ia kira tidak punya apa-apa. Penghalang kerendahan hati dari Pelajaran 3.1 tidak dilewati hanya dengan berusaha lebih keras sendirian; ia dilewati ketika orang lain yang bertanya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Balance the see-saw",
+        "id": "Latihan 1 — Seimbangkan jungkat-jungkitnya"
+       },
+       "body": {
+        "en": "Count the items in your three inventories that are names, dates or titles, versus items that are achievements (something you changed, delivered or improved). Write the two numbers.",
+        "id": "Hitung butir dalam tiga inventarismu yang berupa nama, tanggal, atau jabatan, versus butir yang berupa pencapaian (sesuatu yang kamu ubah, hasilkan, atau perbaiki). Tulis kedua angkanya."
+       },
+       "debrief": {
+        "en": "If achievements are fewer than a third, run the discovery interview again with a different partner, or on a different day. Most first inventories come out around one achievement for every five titles; a finished pantry is closer to one for one.",
+        "id": "Jika pencapaian kurang dari sepertiga, jalankan lagi wawancara penemuan dengan pasangan lain, atau di hari lain. Kebanyakan inventaris pertama menghasilkan sekitar satu pencapaian untuk setiap lima jabatan; lemari yang selesai mendekati satu banding satu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Trigger sweep",
+        "id": "Latihan 2 — Sapuan pemicu"
+       },
+       "body": {
+        "en": "For each of your top five roles, write one line for each trigger verb — increase, decrease, improve, arrange or create. Twenty lines, some of which will be blank.",
+        "id": "Untuk masing-masing dari lima peran teratasmu, tulis satu baris untuk setiap kata kerja pemicu — tingkatkan, kurangi, perbaiki, atur atau ciptakan. Dua puluh baris, sebagian akan kosong."
+       },
+       "debrief": {
+        "en": "Not every verb fits every role; aim for at least ten new raw achievements across the twenty lines. “Decrease” is the verb people forget most, and it is where process improvements hide — waiting time, errors, missing receipts, complaints.",
+        "id": "Tidak setiap kata kerja cocok untuk setiap peran; targetkan setidaknya sepuluh pencapaian mentah baru dari dua puluh baris. “Kurangi” adalah kata kerja yang paling sering dilupakan, dan di situlah perbaikan proses bersembunyi — waktu tunggu, kesalahan, kuitansi hilang, keluhan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 — The five tests",
+        "id": "Latihan 3 — Lima uji"
+       },
+       "body": {
+        "en": "Test your ten strongest items against the five criteria: completed, attributable to you, measurable, verifiable, made a difference. Mark each item pass or fail on each test.",
+        "id": "Uji sepuluh butir terkuatmu dengan lima kriteria: selesai, dapat dikaitkan denganmu, terukur, dapat diverifikasi, membuat perbedaan. Tandai lulus atau gagal pada setiap uji untuk setiap butir."
+       },
+       "debrief": {
+        "en": "Drop anything you could not verify. Keep the rest — they become bullets in Lesson 3.4. Items that fail “measurable” usually only need a number you have not yet counted: how many people, how often, how long, how much.",
+        "id": "Buang apa pun yang tidak bisa kamu verifikasi. Simpan sisanya — mereka menjadi butir di Pelajaran 3.4. Butir yang gagal “terukur” biasanya hanya butuh angka yang belum kamu hitung: berapa orang, seberapa sering, berapa lama, berapa banyak."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Writing the CV before the inventory",
+         "id": "Menulis CV sebelum inventaris"
+        },
+        "fix": {
+         "en": "Pantry first, then cook.",
+         "id": "Lemari dulu, baru memasak."
+        }
+       },
+       {
+        "h": {
+         "en": "Erasing yourself from team results",
+         "id": "Menghapus dirimu dari hasil tim"
+        },
+        "fix": {
+         "en": "Team result + your specific role.",
+         "id": "Hasil tim + peran spesifikmu."
+        }
+       },
+       {
+        "h": {
+         "en": "Including things you couldn’t verify",
+         "id": "Memasukkan hal yang tidak bisa kamu verifikasi"
+        },
+        "fix": {
+         "en": "If you can’t show it or explain it for two minutes, leave it out.",
+         "id": "Jika tidak bisa kamu tunjukkan atau jelaskan selama dua menit, tinggalkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Doing the discovery interview alone, in your head",
+         "id": "Melakukan wawancara penemuan sendirian, di kepala"
+        },
+        "fix": {
+         "en": "A partner, or at least a recording, produces the detail.",
+         "id": "Pasangan, atau setidaknya rekaman, menghasilkan detailnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Evidence Pantry",
+        "id": "Lemari Bukti"
+       },
+       "def": {
+        "en": "Dossier item: the complete, balanced record of your learning, work and organisational history with achievements attached.",
+        "id": "Butir Dossier: rekam lengkap dan seimbang dari riwayat belajar, kerja, dan organisasimu dengan pencapaian yang tercantum."
+       }
+      },
+      {
+       "term": {
+        "en": "Discovery interview",
+        "id": "Wawancara penemuan"
+       },
+       "def": {
+        "en": "A partner asking ten questions about each of your roles to surface achievements.",
+        "id": "Pasangan mengajukan sepuluh pertanyaan tentang setiap peranmu untuk memunculkan pencapaian."
+       }
+      },
+      {
+       "term": {
+        "en": "Trigger verbs",
+        "id": "Kata kerja pemicu"
+       },
+       "def": {
+        "en": "Increase, decrease, improve, arrange or create — prompts for forgotten achievements.",
+        "id": "Tingkatkan, kurangi, perbaiki, atur atau ciptakan — pemicu untuk pencapaian yang terlupa."
+       }
+      },
+      {
+       "term": {
+        "en": "Attributable",
+        "id": "Dapat dikaitkan"
+       },
+       "def": {
+        "en": "A result you can honestly connect to your own actions, at least in part.",
+        "id": "Hasil yang bisa kamu hubungkan dengan jujur ke tindakanmu sendiri, setidaknya sebagian."
+       }
+      },
+      {
+       "term": {
+        "en": "Kepanitiaan",
+        "id": "Kepanitiaan"
+       },
+       "def": {
+        "en": "An event or programme committee — a recurring source of graduate evidence.",
+        "id": "Panitia acara atau program — sumber bukti lulusan baru yang berulang."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which is an achievement by Bright &amp; Earl’s criteria?",
+        "id": "Mana yang merupakan pencapaian menurut kriteria Bright &amp; Earl?"
+       },
+       "options": [
+        {
+         "en": "“Member of HIMA”",
+         "id": "“Anggota HIMA”"
+        },
+        {
+         "en": "“Introduced a receipt rule; the faculty audit had zero findings for the first time in three years”",
+         "id": "“Memperkenalkan aturan kuitansi; audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun”"
+        },
+        {
+         "en": "“Hard-working and honest”",
+         "id": "“Pekerja keras dan jujur”"
+        },
+        {
+         "en": "“Responsible for finances”",
+         "id": "“Bertanggung jawab atas keuangan”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Completed, attributable, measurable, verifiable, and it made a difference. The others are a membership, adjectives and a duty.",
+        "id": "Selesai, dapat dikaitkan, terukur, dapat diverifikasi, dan membuat perbedaan. Yang lain adalah keanggotaan, kata sifat, dan tugas."
+       }
+      },
+      {
+       "q": {
+        "en": "How should you describe a team result?",
+        "id": "Bagaimana seharusnya kamu menggambarkan hasil tim?"
+       },
+       "options": [
+        {
+         "en": "Claim sole credit",
+         "id": "Klaim sebagai milik sendiri"
+        },
+        {
+         "en": "Leave it out",
+         "id": "Tinggalkan"
+        },
+        {
+         "en": "State the team result and your specific role in it",
+         "id": "Nyatakan hasil tim dan peran spesifikmu di dalamnya"
+        },
+        {
+         "en": "Mention the team only",
+         "id": "Sebut timnya saja"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "The team’s result gives scale; your role gives attribution. Both are needed and both are honest.",
+        "id": "Hasil tim memberi skala; peranmu memberi keterkaitan. Keduanya dibutuhkan dan keduanya jujur."
+       }
+      },
+      {
+       "q": {
+        "en": "In the discovery interview, what is the listener’s job?",
+        "id": "Dalam wawancara penemuan, apa tugas pendengar?"
+       },
+       "options": [
+        {
+         "en": "Judge whether it is impressive",
+         "id": "Menilai apakah itu mengesankan"
+        },
+        {
+         "en": "Ask the questions and write everything down",
+         "id": "Mengajukan pertanyaan dan menulis semuanya"
+        },
+        {
+         "en": "Suggest better achievements",
+         "id": "Menyarankan pencapaian yang lebih baik"
+        },
+        {
+         "en": "Rewrite the CV",
+         "id": "Menulis ulang CV"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Judgment comes later, with the five tests. During the interview the only job is to ask and record.",
+        "id": "Penilaian datang kemudian, dengan lima uji. Selama wawancara satu-satunya tugas adalah bertanya dan mencatat."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Evidence Pantry",
+       "id": "Lemari Bukti"
+      },
+      "body": {
+       "en": "Build your three inventories in the Studio, with an achievement and a “what it shows” field for every item and the ten discovery questions as prompts. This is Dossier item 3, and every later CV, letter and interview answer draws from it.",
+       "id": "Bangun tiga inventarismu di Studio, dengan kolom pencapaian dan “apa yang ditunjukkannya” untuk setiap butir dan sepuluh pertanyaan penemuan sebagai pemicu. Ini butir Dossier 3, dan setiap CV, surat, dan jawaban wawancara nanti mengambil dari sini."
+      },
+      "cta": {
+       "en": "Open the Studio →",
+       "id": "Buka Studio →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Gather every piece of evidence first; write the CV second.",
+       "id": "Kumpulkan setiap bukti lebih dulu; tulis CV setelahnya."
+      },
+      {
+       "en": "A partner asking the right ten questions finds achievements you have forgotten.",
+       "id": "Pasangan yang mengajukan sepuluh pertanyaan yang tepat menemukan pencapaian yang kamu lupakan."
+      },
+      {
+       "en": "Claim team results honestly: the team’s result, plus your part in it.",
+       "id": "Klaim hasil tim dengan jujur: hasil tim, ditambah bagianmu di dalamnya."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and worksheets",
+       "id": "Sumber dan lembar kerja"
+      },
+      "lead": {
+       "en": "The inventory template and the ten questions, ready to copy.",
+       "id": "Templat inventaris dan sepuluh pertanyaan, siap disalin."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.3",
+         "id": "Daftar bacaan · Pelajaran 3.3"
+        },
+        "desc": {
+         "en": "Four sources.",
+         "id": "Empat sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 6–8 — the pantry; overlooked achievements; the five tests; team results.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 6–8 — lemari; pencapaian yang terlewat; lima uji; hasil tim."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §2 — three handwritten lists, thirty minutes each.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §2 — tiga daftar tulisan tangan, tiga puluh menit masing-masing."
+         },
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 7 — “I just did the job”; the discovery questions.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 7 — “saya cuma mengerjakan tugasnya”; pertanyaan penemuan."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 11 — the four trigger verbs; claiming team results.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 11 — empat kata kerja pemicu; mengklaim hasil tim."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Evidence Pantry · one row per item",
+         "id": "Lemari Bukti · satu baris per butir"
+        },
+        "desc": {
+         "en": "Copy into a spreadsheet; three tabs.",
+         "id": "Salin ke spreadsheet; tiga tab."
+        },
+        "body": [
+         {
+          "en": "LEARNING: institution · degree/major · IPK &amp; predikat · thesis · courses · certifications + scores · awards · what I achieved · what it shows",
+          "id": "BELAJAR: institusi · gelar/jurusan · IPK &amp; predikat · skripsi · mata kuliah · sertifikasi + skor · penghargaan · apa yang kucapai · apa yang ditunjukkannya"
+         },
+         {
+          "en": "WORK: organisation · title · dates · responsibilities · achievements · what I learned · (private) why I left",
+          "id": "KERJA: organisasi · jabatan · tanggal · tanggung jawab · pencapaian · yang kupelajari · (pribadi) mengapa aku berhenti"
+         },
+         {
+          "en": "LIFE &amp; ORGANISATIONS: organisation · role · dates · scale (members / budget / participants) · achievements · what it shows",
+          "id": "HIDUP &amp; ORGANISASI: organisasi · peran · tanggal · skala (anggota / anggaran / peserta) · pencapaian · apa yang ditunjukkannya"
+         }
+        ]
+       },
+       {
+        "kind": "script",
+        "title": {
+         "en": "Discovery interview · ten questions",
+         "id": "Wawancara penemuan · sepuluh pertanyaan"
+        },
+        "desc": {
+         "en": "Ask all ten for every role; the listener writes.",
+         "id": "Ajukan kesepuluhnya untuk setiap peran; pendengar menulis."
+        },
+        "body": [
+         {
+          "en": "What difference did you make? · Did you improve how anything was done? · How much did it help — time, money, numbers, people? · What are you most proud of? · Were you given a special or temporary responsibility?",
+          "id": "Perbedaan apa yang kamu buat? · Apakah kamu memperbaiki cara sesuatu dikerjakan? · Seberapa besar bantuannya — waktu, uang, angka, orang? · Apa yang paling kamu banggakan? · Apakah kamu pernah diberi tanggung jawab khusus atau sementara?"
+         },
+         {
+          "en": "Did anyone thank or praise you, and for what? · What targets did you have, and how did you do? · Did you turn an idea into action? · What was the hardest moment, and how did you handle it? · What did you learn that you still use?",
+          "id": "Apakah ada yang berterima kasih atau memujimu, untuk apa? · Target apa yang kamu punya, dan bagaimana hasilnya? · Apakah kamu pernah mengubah ide menjadi tindakan? · Apa momen tersulit, dan bagaimana kamu menanganinya? · Apa yang kamu pelajari dan masih kamu pakai?"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "55 min",
+      "id": "55 mnt"
+     },
+     "title": {
+      "en": "Bullets That Prove",
+      "id": "Poin-Poin yang Membuktikan"
+     },
+     "overview": {
+      "en": "This is the lesson that changes your CV most. It teaches you to turn a raw achievement into a bullet a recruiter believes in seconds, to add numbers honestly even when you do not have exact figures, and to write the evidenced competency statements that — in the research — raised shortlisting more than anything else.",
+      "id": "Inilah pelajaran yang paling mengubah CV-mu. Ia mengajarkan cara mengubah pencapaian mentah menjadi butir yang dipercaya perekrut dalam hitungan detik, menambahkan angka dengan jujur bahkan ketika kamu tidak punya angka pasti, dan menulis pernyataan kompetensi berbukti yang — dalam penelitian — menaikkan peluang masuk daftar pendek lebih dari apa pun."
+     },
+     "objectives": [
+      {
+       "en": "Write achievement bullets using the <b>result-first build</b>.",
+       "id": "Menulis butir pencapaian dengan <b>bangun hasil-dulu</b>."
+      },
+      {
+       "en": "Quantify honestly using scale, frequency, time and people.",
+       "id": "Mengukur dengan jujur memakai skala, frekuensi, waktu, dan orang."
+      },
+      {
+       "en": "Write two evidenced competency statements matched to an advertisement.",
+       "id": "Menulis dua pernyataan kompetensi berbukti yang dicocokkan dengan sebuah iklan."
+      },
+      {
+       "en": "Apply language rules: verbs, tense, no pronouns, no empty adjectives.",
+       "id": "Menerapkan aturan bahasa: kata kerja, kala, tanpa kata ganti, tanpa kata sifat kosong."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Verb, what, scale, result",
+       "id": "Kata kerja, apa, skala, hasil"
+      },
+      "intro": {
+       "en": "Three things a recruiter believes in seconds: a result, a number, and a quality with proof attached.",
+       "id": "Tiga hal yang dipercaya perekrut dalam hitungan detik: hasil, angka, dan kualitas dengan bukti yang menyertainya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The bullet formula",
+         "id": "Rumus butir"
+        },
+        "points": [
+         {
+          "en": "<b>Strong verb + what + scale + result (+ how).</b>",
+          "id": "<b>Kata kerja kuat + apa + skala + hasil (+ cara).</b>"
+         },
+         {
+          "en": "“Raised Rp 85 juta in sponsorship for a 1,200-participant competition by building a tiered package and pitching 40 companies; secured 11 sponsors, 4 personally.”",
+          "id": "“Mengumpulkan Rp 85 juta sponsor untuk kompetisi 1.200 peserta dengan menyusun paket bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Numbers, honestly",
+         "id": "Angka, dengan jujur"
+        },
+        "points": [
+         {
+          "en": "Scale · frequency · time · money — one of the four is almost always countable.",
+          "id": "Skala · frekuensi · waktu · uang — salah satu dari empat hampir selalu bisa dihitung."
+         },
+         {
+          "en": "“About”, “around”, a range: honest approximations are fine. Invented numbers are fatal.",
+          "id": "“Sekitar”, “kira-kira”, sebuah rentang: perkiraan jujur tidak apa-apa. Angka karangan itu fatal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Quality + proof",
+         "id": "Kualitas + bukti"
+        },
+        "points": [
+         {
+          "en": "An evidenced competency statement names a quality the advertisement wants, then proves it in one or two sentences.",
+          "id": "Pernyataan kompetensi berbukti menyebut kualitas yang diinginkan iklan, lalu membuktikannya dalam satu atau dua kalimat."
+         },
+         {
+          "en": "The strongest single addition to a graduate CV in the research. Three to five of them.",
+          "id": "Tambahan tunggal terkuat pada CV lulusan baru dalam penelitian. Tiga sampai lima buah."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "gear",
+       "h": {
+        "en": "The result-first build",
+        "id": "Bangun hasil-dulu"
+       },
+       "body": {
+        "en": "Andrew Knowles’s method for turning an achievement into a statement <i>(How to Write an Outstanding CV, ch. 8)</i>, adapted:",
+        "id": "Metode Andrew Knowles untuk mengubah pencapaian menjadi pernyataan <i>(How to Write an Outstanding CV, bab 8)</i>, diadaptasi:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Lead with the most important fact</b> — usually the size of the result.",
+         "id": "<b>Buka dengan fakta terpenting</b> — biasanya besarnya hasil."
+        },
+        {
+         "en": "<b>Add context</b> — what it was for, and where.",
+         "id": "<b>Tambahkan konteks</b> — untuk apa, dan di mana."
+        },
+        {
+         "en": "<b>Add depth</b> — what made it hard, or what you beat.",
+         "id": "<b>Tambahkan kedalaman</b> — apa yang membuatnya sulit, atau apa yang kamu kalahkan."
+        },
+        {
+         "en": "<b>Show how</b> — the specific action or method you used.",
+         "id": "<b>Tunjukkan caranya</b> — tindakan atau metode spesifik yang kamu pakai."
+        },
+        {
+         "en": "<b>Show scale</b> — numbers of people, money, time, volume.",
+         "id": "<b>Tunjukkan skala</b> — jumlah orang, uang, waktu, volume."
+        },
+        {
+         "en": "Keep it short and <b>defensible</b> — it will be probed at interview.",
+         "id": "Jaga tetap singkat dan <b>dapat dipertahankan</b> — ia akan digali saat wawancara."
+        }
+       ],
+       "after": [
+        {
+         "en": "The Pack’s compact version — the <b>bullet formula</b> — is: <b>Strong verb + what + scale + result (+ how).</b> <i>“Raised Rp 85 juta in sponsorship for a 1,200-participant national business competition by building a tiered sponsor package and pitching 40 companies; secured 11 sponsors, 4 personally.”</i> Verb (raised), what (sponsorship), scale (Rp 85 juta, 1,200 participants, 40 companies), result (11 sponsors, 4 personally), how (tiered package, pitching).",
+         "id": "Versi ringkas The Pack — <b>rumus butir</b> — adalah: <b>Kata kerja kuat + apa + skala + hasil (+ cara).</b> <i>“Mengumpulkan Rp 85 juta sponsor untuk kompetisi bisnis nasional 1.200 peserta dengan menyusun paket sponsor bertingkat dan mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor, 4 secara pribadi.”</i> Kata kerja (mengumpulkan), apa (sponsor), skala (Rp 85 juta, 1.200 peserta, 40 perusahaan), hasil (11 sponsor, 4 secara pribadi), cara (paket bertingkat, presentasi)."
+        }
+       ]
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Numbers, honestly",
+        "id": "Angka, dengan jujur"
+       },
+       "body": {
+        "en": "“I don’t have numbers” is almost never true. Four kinds of number are nearly always available:",
+        "id": "“Aku tidak punya angka” hampir tidak pernah benar. Empat jenis angka hampir selalu tersedia:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Kind",
+          "id": "Jenis"
+         },
+         {
+          "en": "Ask",
+          "id": "Tanyakan"
+         },
+         {
+          "en": "Nadia’s examples",
+          "id": "Contoh Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Scale</b>",
+           "id": "<b>Skala</b>"
+          },
+          {
+           "en": "How many people, participants, members, customers, documents?",
+           "id": "Berapa orang, peserta, anggota, pelanggan, dokumen?"
+          },
+          {
+           "en": "1,200 participants · 3 branches · 18 UMKM owners · 120–150 customers a shift",
+           "id": "1.200 peserta · 3 cabang · 18 pemilik UMKM · 120–150 pelanggan per sif"
+          }
+         ],
+         [
+          {
+           "en": "<b>Frequency</b>",
+           "id": "<b>Frekuensi</b>"
+          },
+          {
+           "en": "Per shift, per week, per month?",
+           "id": "Per sif, per minggu, per bulan?"
+          },
+          {
+           "en": "Daily reconciliation reports · weekly lab sessions · 24 posts a semester",
+           "id": "Laporan rekonsiliasi harian · sesi lab mingguan · 24 unggahan per semester"
+          }
+         ],
+         [
+          {
+           "en": "<b>Time</b>",
+           "id": "<b>Waktu</b>"
+          },
+          {
+           "en": "How long before and after? Deadlines met?",
+           "id": "Berapa lama sebelum dan sesudah? Tenggat terpenuhi?"
+          },
+          {
+           "en": "Peak wait ~8 → ~5 minutes · ~30 minutes of manual correction a day removed · 14 months alongside study",
+           "id": "Tunggu puncak ~8 → ~5 menit · ~30 menit koreksi manual per hari dihapus · 14 bulan di sela kuliah"
+          }
+         ],
+         [
+          {
+           "en": "<b>Money</b>",
+           "id": "<b>Uang</b>"
+          },
+          {
+           "en": "Budgets handled, funds raised, costs saved?",
+           "id": "Anggaran yang dipegang, dana terkumpul, biaya dihemat?"
+          },
+          {
+           "en": "Rp 85 juta raised · a committee budget closed with zero audit findings",
+           "id": "Rp 85 juta terkumpul · anggaran kepanitiaan ditutup dengan nol temuan audit"
+          }
+         ]
+        ]
+       },
+       "after": [
+        {
+         "en": "Where you only know a figure approximately, say so — “about”, “around”, a range. <b>Never</b> invent a number; recruiters and interviewers ask “how did you measure that?” and an invented figure collapses instantly. An honest “noticeably fewer stock-outs” is stronger than a precise number you cannot defend.",
+         "id": "Ketika kamu hanya tahu angka secara kira-kira, katakan demikian — “sekitar”, “kira-kira”, sebuah rentang. <b>Jangan pernah</b> mengarang angka; perekrut dan pewawancara bertanya “bagaimana kamu mengukurnya?” dan angka karangan langsung runtuh. “Kehabisan stok berkurang nyata” yang jujur lebih kuat daripada angka presisi yang tidak bisa kamu pertahankan."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Evidenced competency statements",
+        "id": "Pernyataan kompetensi berbukti"
+       },
+       "body": {
+        "en": "Bright &amp; Earl’s strongest result <i>(How to Write a Brilliant CV, ch. 11)</i> came from adding short statements that each name a quality the advertisement asks for and support it with one or two sentences of evidence <span class=\"ev ev-dated\">Dated · direction sound, do not quote the ~30% figure</span>. The method: (1) choose the 3–5 qualities the advertisement most wants, from your job-detective work; (2) for each, find your best evidence in the pantry; (3) write two sentences — the quality, then the proof; (4) test it: What did I do? In what context? How do I know it worked? Would a sceptical reader be convinced?",
+        "id": "Hasil terkuat Bright &amp; Earl <i>(How to Write a Brilliant CV, bab 11)</i> datang dari menambahkan pernyataan singkat yang masing-masing menyebut kualitas yang diminta iklan dan mendukungnya dengan satu atau dua kalimat bukti <span class=\"ev ev-dated\">Lawas · arahnya tepat, jangan kutip angka ~30%</span>. Metodenya: (1) pilih 3–5 kualitas yang paling diinginkan iklan, dari kerja detektif lowonganmu; (2) untuk masing-masing, temukan bukti terbaikmu di lemari; (3) tulis dua kalimat — kualitasnya, lalu buktinya; (4) uji: Apa yang kulakukan? Dalam konteks apa? Bagaimana aku tahu itu berhasil? Apakah pembaca yang skeptis akan yakin?"
+       },
+       "quote": {
+        "text": {
+         "en": "<b>Analytical thinking.</b> During my operations internship at a regional bank, I reconciled daily transaction reports for 3 branches and noticed recurring mismatches from one teller terminal; flagging the pattern led to a settings fix that ended the daily manual corrections.<br><br><b>Working under pressure.</b> While working 20 hours a week as a barista, I also served as HIMA treasurer through the organisation’s busiest semester and completed my thesis on schedule.",
+         "id": "<b>Berpikir analitis.</b> Selama magang operasional di sebuah bank daerah, saya merekonsiliasi laporan transaksi harian untuk 3 cabang dan menyadari ketidakcocokan berulang dari satu terminal teller; melaporkan pola itu berujung pada perbaikan pengaturan yang mengakhiri koreksi manual harian.<br><br><b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya juga menjadi bendahara HIMA sepanjang semester tersibuk organisasi dan menyelesaikan skripsi tepat waktu."
+        },
+        "who": {
+         "en": "Two statements for Nadia’s “Key Skills and Evidence” section",
+         "id": "Dua pernyataan untuk bagian “Keterampilan Utama dan Bukti” Nadia"
+        }
+       },
+       "after": [
+        {
+         "en": "Bright &amp; Earl usually group these under a heading such as <b>“Key Skills and Evidence”</b>. Note the distinction from a bare skills list: “Communication, Teamwork, Leadership” is a list of claims; statements like the above are evidence. Innes objects to bare “key skills” lists <i>(The CV Book, ch. 10)</i>; the research supports <i>evidenced</i> statements. Write the second kind, never the first.",
+         "id": "Bright &amp; Earl biasanya mengelompokkannya di bawah judul seperti <b>“Keterampilan Utama dan Bukti”</b>. Perhatikan bedanya dari daftar keterampilan telanjang: “Komunikasi, Kerja Sama Tim, Kepemimpinan” adalah daftar klaim; pernyataan seperti di atas adalah bukti. Innes menolak daftar “keterampilan utama” telanjang <i>(The CV Book, bab 10)</i>; penelitian mendukung pernyataan <i>berbukti</i>. Tulis jenis kedua, jangan pernah yang pertama."
+        }
+       ]
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Stories: PREP-STAR and CAROL",
+        "id": "Cerita: PREP-STAR dan CAROL"
+       },
+       "body": {
+        "en": "Bright &amp; Earl show why stories persuade: a reader told “I am excellent at customer service” forgets it; a reader told a specific, recent story of a customer problem solved believes it <i>(ch. 12)</i>. Two structures:",
+        "id": "Bright &amp; Earl menunjukkan mengapa cerita meyakinkan: pembaca yang diberi tahu “saya sangat baik dalam layanan pelanggan” melupakannya; pembaca yang diberi cerita spesifik dan baru tentang masalah pelanggan yang terpecahkan mempercayainya <i>(bab 12)</i>. Dua struktur:"
+       },
+       "bullets": [
+        {
+         "en": "<b>PREP-STAR</b> — <b>P</b>oint (the quality), <b>R</b>eason (why it matters for this job), <b>E</b>vidence as <b>S</b>ituation–<b>T</b>ask–<b>A</b>ction–<b>R</b>esult, then <b>P</b>oint forward (what you will bring).",
+         "id": "<b>PREP-STAR</b> — <b>P</b>oin (kualitasnya), <b>R</b>eason/alasan (mengapa penting untuk pekerjaan ini), <b>E</b>vidensi sebagai <b>S</b>ituasi–<b>T</b>ugas–<b>A</b>ksi–<b>R</b>esult/hasil, lalu <b>P</b>oin ke depan (apa yang akan kamu bawa)."
+        },
+        {
+         "en": "<b>CAROL</b> — <b>C</b>ontext, <b>A</b>ctions, <b>R</b>easons (why you chose those actions), <b>O</b>utcome, <b>L</b>earning. The Reasons and Learning elements make CAROL especially useful for graduates whose outcomes are modest: judgement and learning can carry the story.",
+         "id": "<b>CAROL</b> — <b>C</b>onteks, <b>A</b>ksi, <b>R</b>easons/alasan (mengapa kamu memilih tindakan itu), <b>O</b>utcome/hasil, <b>L</b>earning/pembelajaran. Unsur Alasan dan Pembelajaran membuat CAROL sangat berguna bagi lulusan baru yang hasilnya sederhana: penilaian dan pembelajaran bisa menopang ceritanya."
+        }
+       ],
+       "after": [
+        {
+         "en": "These stories feed three places at once: the competency statements on your CV, your cover letter (Module 6), and your interview answers (The Rope). Build them once, in the pantry.",
+         "id": "Cerita-cerita ini mengisi tiga tempat sekaligus: pernyataan kompetensi di CV-mu, surat lamaranmu (Modul 6), dan jawaban wawancaramu (The Rope). Bangun sekali, di lemari."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Language rules",
+        "id": "Aturan bahasa"
+       },
+       "body": {
+        "en": "Seven rules, drawn from all the sources, that make bullets read as evidence rather than description.",
+        "id": "Tujuh aturan, diambil dari semua sumber, yang membuat butir terbaca sebagai bukti, bukan gambaran."
+       },
+       "bullets": [
+        {
+         "en": "<b>Verbs, not nouns.</b> “Maintained the committee budget”, not “Committee budget maintenance” <i>(Simunovic, §3.1)</i>.",
+         "id": "<b>Kata kerja, bukan kata benda.</b> “Mengelola anggaran kepanitiaan”, bukan “Pengelolaan anggaran kepanitiaan” <i>(Simunovic, §3.1)</i>."
+        },
+        {
+         "en": "<b>No pronouns in bullets.</b> Start with the verb <i>(Innes, ch. 3; Simunovic, §3.1)</i>. First person is fine in competency statements and letters.",
+         "id": "<b>Tanpa kata ganti dalam butir.</b> Mulai dengan kata kerja <i>(Innes, bab 3; Simunovic, §3.1)</i>. Orang pertama tidak apa-apa dalam pernyataan kompetensi dan surat."
+        },
+        {
+         "en": "<b>Tense.</b> Past for past roles; present for current roles.",
+         "id": "<b>Kala.</b> Lampau untuk peran yang lalu; kini untuk peran yang sedang berjalan (dalam bahasa Inggris)."
+        },
+        {
+         "en": "<b>Vary the opening verb.</b> No two bullets in one role should start with the same word <i>(Innes, ch. 3)</i>.",
+         "id": "<b>Variasikan kata kerja pembuka.</b> Tidak ada dua butir dalam satu peran yang dimulai dengan kata yang sama <i>(Innes, bab 3)</i>."
+        },
+        {
+         "en": "<b>Words that weaken.</b> Avoid <i>tried, attempted, helped with, was involved in, responsible for</i> where a stronger verb is true <i>(Bright &amp; Earl, ch. 10)</i>.",
+         "id": "<b>Kata yang melemahkan.</b> Hindari <i>mencoba, berusaha, membantu dalam, terlibat dalam, bertanggung jawab atas</i> jika kata kerja yang lebih kuat itu benar <i>(Bright &amp; Earl, bab 10)</i>."
+        },
+        {
+         "en": "<b>Empty adjectives.</b> “Hard-working”, “passionate”, “dynamic”, “results-driven”, “team player” describe everyone; delete them unless evidence is attached <i>(Knowles, ch. 5; Ow)</i>.",
+         "id": "<b>Kata sifat kosong.</b> “Pekerja keras”, “bersemangat”, “dinamis”, “berorientasi hasil”, “pemain tim” menggambarkan semua orang; hapus kecuali ada bukti yang menyertainya <i>(Knowles, bab 5; Ow)</i>."
+        },
+        {
+         "en": "<b>Mirror the employer’s vocabulary.</b> Use the advertisement’s words for the same thing; spell out acronyms once <i>(Bright &amp; Earl, ch. 10)</i>.",
+         "id": "<b>Cerminkan kosakata perusahaan.</b> Pakai kata-kata iklan untuk hal yang sama; tuliskan kepanjangan akronim sekali <i>(Bright &amp; Earl, bab 10)</i>."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Honest framing — the three-way test",
+        "id": "Pembingkaian jujur — uji tiga arah"
+       },
+       "body": {
+        "en": "Bright &amp; Earl show the same fact written three ways <i>(ch. 1)</i>: <b>too negative</b> (underselling), <b>good selling</b> (true and positive), and <b>over the top</b> (unbelievable). Always aim for the middle. If you cannot say something positively <i>and</i> truthfully, consider not saying it.",
+        "id": "Bright &amp; Earl menunjukkan fakta yang sama ditulis tiga cara <i>(bab 1)</i>: <b>terlalu negatif</b> (menjual terlalu rendah), <b>menjual dengan baik</b> (benar dan positif), dan <b>berlebihan</b> (tidak masuk akal). Selalu bidik yang tengah. Jika kamu tidak bisa mengatakan sesuatu secara positif <i>dan</i> jujur, pertimbangkan untuk tidak mengatakannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Too negative",
+          "id": "Terlalu negatif"
+         },
+         {
+          "en": "Good selling",
+          "id": "Menjual dengan baik"
+         },
+         {
+          "en": "Over the top",
+          "id": "Berlebihan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Did some part-time work in a café while studying.”",
+           "id": "“Sempat kerja paruh waktu di kafe sambil kuliah.”"
+          },
+          {
+           "en": "“Served 120–150 customers a shift for 14 months alongside a full course load; trained 3 new baristas.”",
+           "id": "“Melayani 120–150 pelanggan per sif selama 14 bulan di sela beban kuliah penuh; melatih 3 barista baru.”"
+          },
+          {
+           "en": "“Ran operations for a leading coffee brand and transformed its customer experience.”",
+           "id": "“Menjalankan operasional sebuah merek kopi terkemuka dan mentransformasi pengalaman pelanggannya.”"
+          }
+         ],
+         [
+          {
+           "en": "“Helped a bit with the sponsorship.”",
+           "id": "“Sedikit membantu urusan sponsor.”"
+          },
+          {
+           "en": "“Secured 4 of the team’s 11 sponsors and drafted the tiered package the team pitched.”",
+           "id": "“Mendapatkan 4 dari 11 sponsor tim dan menyusun paket bertingkat yang dipresentasikan tim.”"
+          },
+          {
+           "en": "“Single-handedly raised Rp 85 juta.”",
+           "id": "“Seorang diri mengumpulkan Rp 85 juta.”"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 9: The bullet formula",
+       "id": "Peraga 9: Rumus butir"
+      },
+      "title": {
+       "en": "Strong verb → what → scale → result → (how)",
+       "id": "Kata kerja kuat → apa → skala → hasil → (cara)"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Strong verb",
+         "id": "Kata kerja kuat"
+        },
+        "sub": {
+         "en": "Raised · reconciled · introduced · trained · designed. Never “responsible for”.",
+         "id": "Mengumpulkan · merekonsiliasi · memperkenalkan · melatih · merancang. Jangan “bertanggung jawab atas”."
+        }
+       },
+       {
+        "h": {
+         "en": "What",
+         "id": "Apa"
+        },
+        "sub": {
+         "en": "The thing you acted on: sponsorship, daily reports, a receipt rule, a workshop.",
+         "id": "Hal yang kamu tindak: sponsor, laporan harian, aturan kuitansi, lokakarya."
+        }
+       },
+       {
+        "h": {
+         "en": "Scale",
+         "id": "Skala"
+        },
+        "sub": {
+         "en": "People, money, frequency, time: 1,200 participants, 3 branches, Rp 85 juta, 14 months.",
+         "id": "Orang, uang, frekuensi, waktu: 1.200 peserta, 3 cabang, Rp 85 juta, 14 bulan."
+        }
+       },
+       {
+        "h": {
+         "en": "Result",
+         "id": "Hasil"
+        },
+        "sub": {
+         "en": "What changed, honestly: 11 sponsors, zero audit findings, wait ~8 → ~5 minutes.",
+         "id": "Apa yang berubah, dengan jujur: 11 sponsor, nol temuan audit, tunggu ~8 → ~5 menit."
+        }
+       },
+       {
+        "h": {
+         "en": "(How)",
+         "id": "(Cara)"
+        },
+        "sub": {
+         "en": "The method, when it shows judgement: a tiered package, a 3-day rule, a pre-order board.",
+         "id": "Metodenya, ketika menunjukkan penilaian: paket bertingkat, aturan 3 hari, papan pra-pesan."
+        }
+       }
+      ],
+      "note": {
+       "en": "One to two lines. Defensible for two minutes at interview. The first three or four words are what the skim reads — put the verb and the number there.",
+       "id": "Satu sampai dua baris. Bisa dipertahankan dua menit saat wawancara. Tiga atau empat kata pertama adalah yang dibaca pindaian — taruh kata kerja dan angkanya di sana."
+      },
+      "longdesc": {
+       "en": "A five-part formula shown as a flow: a strong verb, then what you acted on, then the scale in people, money, frequency or time, then the honest result, then optionally how you did it. The note says bullets should be one to two lines, defensible for two minutes at interview, with the verb and number in the first words.",
+       "id": "Rumus lima bagian yang ditampilkan sebagai alur: kata kerja kuat, lalu hal yang kamu tindak, lalu skala dalam orang, uang, frekuensi, atau waktu, lalu hasil yang jujur, lalu opsional caranya. Catatan menyebut butir sebaiknya satu sampai dua baris, bisa dipertahankan dua menit saat wawancara, dengan kata kerja dan angka di kata-kata pertama."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "HIMA treasurer",
+        "id": "Bendahara HIMA"
+       },
+       "q": {
+        "en": "One year as treasurer of HIMA Manajemen.",
+        "id": "Satu tahun sebagai bendahara HIMA Manajemen."
+       },
+       "weak": {
+        "en": "“Responsible for managing HIMA finances.”",
+        "id": "“Bertanggung jawab mengelola keuangan HIMA.”"
+       },
+       "strong": {
+        "en": "“Rebuilt HIMA Manajemen’s financial records after inheriting incomplete books; introduced a shared ledger and 3-day receipt rule, and the faculty audit returned zero findings for the first time in 3 years.”",
+        "id": "“Membangun ulang catatan keuangan HIMA Manajemen setelah mewarisi pembukuan yang tidak lengkap; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari, dan audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam 3 tahun.”"
+       },
+       "why": {
+        "en": "Context, action, and a verifiable result.",
+        "id": "Konteks, tindakan, dan hasil yang dapat diverifikasi."
+       }
+      },
+      {
+       "tag": {
+        "en": "Internship",
+        "id": "Magang"
+       },
+       "q": {
+        "en": "Three months in a regional bank’s operations unit.",
+        "id": "Tiga bulan di unit operasional sebuah bank daerah."
+       },
+       "weak": {
+        "en": "“Helped with daily operations and administration at the branch.”",
+        "id": "“Membantu operasional harian dan administrasi di cabang.”"
+       },
+       "strong": {
+        "en": "“Reconciled daily transaction reports for 3 branches during a 3-month operations internship; identified a recurring terminal mismatch that, once fixed, removed about 30 minutes of manual correction per day.”",
+        "id": "“Merekonsiliasi laporan transaksi harian untuk 3 cabang selama magang operasional 3 bulan; mengidentifikasi ketidakcocokan terminal berulang yang, setelah diperbaiki, menghapus sekitar 30 menit koreksi manual per hari.”"
+       },
+       "why": {
+        "en": "“Helped with” disappears; a specific task, a finding and an honest, approximate result take its place.",
+        "id": "“Membantu” menghilang; tugas spesifik, temuan, dan hasil jujur yang kira-kira menggantikannya."
+       }
+      },
+      {
+       "tag": {
+        "en": "KKN",
+        "id": "KKN"
+       },
+       "q": {
+        "en": "Community service in Kabupaten Kendal.",
+        "id": "Pengabdian masyarakat di Kabupaten Kendal."
+       },
+       "weak": {
+        "en": "“Participated in KKN in Kendal.”",
+        "id": "“Mengikuti KKN di Kendal.”"
+       },
+       "strong": {
+        "en": "“Designed and delivered a bookkeeping workshop for 18 UMKM owners during KKN; 12 adopted the simple cash-book template within a month.”",
+        "id": "“Merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM selama KKN; 12 di antaranya mengadopsi templat buku kas sederhana dalam sebulan.”"
+       },
+       "why": {
+        "en": "Participation is what everyone did. Designing, delivering and an adoption rate are what Nadia did.",
+        "id": "Mengikuti adalah yang dilakukan semua orang. Merancang, menyampaikan, dan tingkat adopsi adalah yang dilakukan Nadia."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the number she did not have",
+       "id": "Sorotan: angka yang tidak ia punya"
+      },
+      "body": [
+       {
+        "en": "Nadia’s café bullet needed a result. She remembered that the pre-order board she suggested had made the morning rush calmer, but nobody had timed it. Her first draft said “cut waiting time by 40%”. It looked good. Then she imagined the interviewer asking “how did you measure that?” and realised she would have to say she had made it up.",
+        "id": "Butir kafe Nadia membutuhkan hasil. Ia ingat papan pra-pesan yang ia usulkan membuat jam sibuk pagi lebih tenang, tetapi tidak ada yang mengukur waktunya. Draf pertamanya berbunyi “memangkas waktu tunggu 40%”. Terlihat bagus. Lalu ia membayangkan pewawancara bertanya “bagaimana kamu mengukurnya?” dan sadar ia harus mengaku mengarangnya."
+       },
+       {
+        "en": "So she went back to the four kinds of number. Scale she had: 120–150 customers a shift. Time she could estimate honestly: before the board, the queue at 7:30 was usually eight or nine people deep and took about eight minutes to clear; after, about five. She wrote “cut average wait at peak from about 8 to about 5 minutes” — with the word “about” doing honest work.",
+        "id": "Maka ia kembali ke empat jenis angka. Skala ia punya: 120–150 pelanggan per sif. Waktu bisa ia perkirakan dengan jujur: sebelum ada papan, antrean pukul 07.30 biasanya delapan atau sembilan orang dan butuh sekitar delapan menit untuk habis; sesudahnya, sekitar lima. Ia menulis “memangkas rata-rata waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit” — dengan kata “sekitar” menjalankan tugas kejujuran."
+       },
+       {
+        "en": "At interview, the honest version is a story she can tell for two minutes. The invented 40% would have been a thirty-second silence.",
+        "id": "Saat wawancara, versi jujur adalah cerita yang bisa ia sampaikan dua menit. Angka 40% karangan akan menjadi tiga puluh detik keheningan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill — Five rewrites",
+        "id": "Latihan — Lima penulisan ulang"
+       },
+       "body": {
+        "en": "For each line, write your version with the formula before opening the debrief. (1) “Member of the publication division, BEM.” (2) “Asisten praktikum Statistika.” (3) “Joined a business plan competition.” (4) “Part-time admin at family business.” (5) “Good communication skills.”",
+        "id": "Untuk setiap baris, tulis versimu dengan rumus sebelum membuka pembahasan. (1) “Anggota divisi publikasi, BEM.” (2) “Asisten praktikum Statistika.” (3) “Ikut lomba business plan.” (4) “Admin paruh waktu di usaha keluarga.” (5) “Kemampuan komunikasi yang baik.”"
+       },
+       "debrief": {
+        "en": "(1) Ask what was published, how often, for how many readers, what changed: “Produced 24 weekly Instagram posts for BEM’s publication division; grew followers from 2,100 to 3,400 in one semester by introducing a fixed content calendar.” (2) “Taught weekly SPSS lab sessions to 35 second-year students as teaching assistant for Statistics; wrote a 6-page troubleshooting guide still used by the lab.” (3) “Reached the national final (top 8 of 140 teams) of a business plan competition with a delivery-route model for rural UMKM; led the financial projections.” (4) “Moved my family’s building-supply shop from paper stock records to Google Sheets; stock-outs of the top 20 items fell noticeably in the first two months” — note the honest “noticeably” where no exact figure exists. (5) Convert to a competency statement: “<b>Communication.</b> Pitched a tiered sponsorship package to 40 companies by phone and in person and secured 4 sponsors; wrote the two-page proposal the team used for all 11.”",
+        "id": "(1) Tanyakan apa yang diterbitkan, seberapa sering, untuk berapa pembaca, apa yang berubah: “Memproduksi 24 unggahan Instagram mingguan untuk divisi publikasi BEM; menaikkan pengikut dari 2.100 menjadi 3.400 dalam satu semester dengan memperkenalkan kalender konten tetap.” (2) “Mengajar sesi lab SPSS mingguan untuk 35 mahasiswa tahun kedua sebagai asisten praktikum Statistika; menulis panduan pemecahan masalah 6 halaman yang masih dipakai lab.” (3) “Mencapai final nasional (8 besar dari 140 tim) lomba business plan dengan model rute pengiriman untuk UMKM pedesaan; memimpin proyeksi keuangan.” (4) “Memindahkan toko bahan bangunan keluarga dari catatan stok kertas ke Google Sheets; kehabisan stok 20 barang teratas berkurang nyata dalam dua bulan pertama” — perhatikan “berkurang nyata” yang jujur ketika tidak ada angka pasti. (5) Ubah menjadi pernyataan kompetensi: “<b>Komunikasi.</b> Mempresentasikan paket sponsor bertingkat ke 40 perusahaan lewat telepon dan tatap muka dan mendapatkan 4 sponsor; menulis proposal dua halaman yang dipakai tim untuk semua 11 sponsor.”"
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Two statements for one advertisement",
+        "id": "Latihan 2 — Dua pernyataan untuk satu iklan"
+       },
+       "body": {
+        "en": "Take the Arunika MT advertisement (Lesson 3.2). Choose two qualities it wants — say, “comfortable with ambiguity” and “leadership in organisations” — and write one evidenced competency statement for each from Nadia’s pantry. Two sentences each: the quality, then the proof.",
+        "id": "Ambil iklan MT Arunika (Pelajaran 3.2). Pilih dua kualitas yang diinginkannya — misalnya, “nyaman dengan ambiguitas” dan “kepemimpinan di organisasi” — dan tulis satu pernyataan kompetensi berbukti untuk masing-masing dari lemari Nadia. Dua kalimat masing-masing: kualitasnya, lalu buktinya."
+       },
+       "debrief": {
+        "en": "<b>Comfortable with ambiguity.</b> Joined a bank operations unit with no written procedure for cross-branch reconciliation; built my own checklist in the first week and used it to reconcile three branches’ daily reports for the rest of the internship. <b>Leadership in organisations.</b> Led a six-person sponsorship team for a 1,200-participant competition; set the tiered package and weekly targets, and the team secured 11 sponsors and Rp 85 juta. Test each: what did I do, in what context, how do I know it worked, would a sceptic be convinced?",
+        "id": "<b>Nyaman dengan ambiguitas.</b> Bergabung dengan unit operasional bank tanpa prosedur tertulis untuk rekonsiliasi antarcabang; menyusun daftar periksa sendiri pada minggu pertama dan memakainya untuk merekonsiliasi laporan harian tiga cabang selama sisa magang. <b>Kepemimpinan di organisasi.</b> Memimpin tim sponsorship enam orang untuk kompetisi 1.200 peserta; menetapkan paket bertingkat dan target mingguan, dan tim mendapatkan 11 sponsor dan Rp 85 juta. Uji masing-masing: apa yang kulakukan, dalam konteks apa, bagaimana aku tahu berhasil, apakah orang skeptis akan yakin?"
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Starting bullets with “Responsible for”",
+         "id": "Memulai butir dengan “Bertanggung jawab atas”"
+        },
+        "fix": {
+         "en": "Start with what you did and what changed.",
+         "id": "Mulai dengan apa yang kamu lakukan dan apa yang berubah."
+        }
+       },
+       {
+        "h": {
+         "en": "Inventing precise numbers",
+         "id": "Mengarang angka presisi"
+        },
+        "fix": {
+         "en": "Use honest approximations or ranges.",
+         "id": "Pakai perkiraan jujur atau rentang."
+        }
+       },
+       {
+        "h": {
+         "en": "A “Skills” list of adjectives",
+         "id": "Daftar “Keterampilan” berisi kata sifat"
+        },
+        "fix": {
+         "en": "Replace with 3–5 evidenced competency statements.",
+         "id": "Ganti dengan 3–5 pernyataan kompetensi berbukti."
+        }
+       },
+       {
+        "h": {
+         "en": "Claiming sole credit for team work",
+         "id": "Mengklaim kerja tim sebagai milik sendiri"
+        },
+        "fix": {
+         "en": "Team result + your role.",
+         "id": "Hasil tim + peranmu."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Achievement statement",
+        "id": "Pernyataan pencapaian"
+       },
+       "def": {
+        "en": "A bullet built on the formula: verb, what, scale, result, how.",
+        "id": "Butir yang dibangun dengan rumus: kata kerja, apa, skala, hasil, cara."
+       }
+      },
+      {
+       "term": {
+        "en": "Competency statement",
+        "id": "Pernyataan kompetensi berbukti"
+       },
+       "def": {
+        "en": "A named quality followed by one or two sentences of proof.",
+        "id": "Kualitas yang disebut, diikuti satu atau dua kalimat bukti."
+       }
+      },
+      {
+       "term": {
+        "en": "Quantify",
+        "id": "Mengukur dengan angka"
+       },
+       "def": {
+        "en": "To attach scale, frequency, time or money to a claim — honestly.",
+        "id": "Melekatkan skala, frekuensi, waktu, atau uang pada sebuah klaim — dengan jujur."
+       }
+      },
+      {
+       "term": {
+        "en": "STAR",
+        "id": "STAR"
+       },
+       "def": {
+        "en": "Situation – Task – Action – Result: the evidence core of a story.",
+        "id": "Situasi – Tugas – Aksi – Hasil: inti bukti sebuah cerita."
+       }
+      },
+      {
+       "term": {
+        "en": "CAROL",
+        "id": "CAROL"
+       },
+       "def": {
+        "en": "Context – Actions – Reasons – Outcome – Learning: a story structure that lets judgement and learning carry modest outcomes.",
+        "id": "Konteks – Aksi – Alasan – Hasil – Pembelajaran: struktur cerita yang membiarkan penilaian dan pembelajaran menopang hasil yang sederhana."
+       }
+      },
+      {
+       "term": {
+        "en": "Empty adjective",
+        "id": "Kata sifat kosong"
+       },
+       "def": {
+        "en": "A descriptor that applies to everyone and proves nothing: hard-working, passionate, dynamic.",
+        "id": "Penggambaran yang berlaku untuk semua orang dan tidak membuktikan apa-apa: pekerja keras, bersemangat, dinamis."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which bullet best follows the formula?",
+        "id": "Butir mana yang paling mengikuti rumus?"
+       },
+       "options": [
+        {
+         "en": "“Responsible for social media”",
+         "id": "“Bertanggung jawab atas media sosial”"
+        },
+        {
+         "en": "“Passionate about digital marketing”",
+         "id": "“Bersemangat tentang pemasaran digital”"
+        },
+        {
+         "en": "“Grew BEM’s Instagram from 2,100 to 3,400 followers in one semester by introducing a fixed content calendar”",
+         "id": "“Menaikkan Instagram BEM dari 2.100 menjadi 3.400 pengikut dalam satu semester dengan memperkenalkan kalender konten tetap”"
+        },
+        {
+         "en": "“Helped with posting”",
+         "id": "“Membantu mengunggah”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Verb, what, scale, result and how — and every part is checkable.",
+        "id": "Kata kerja, apa, skala, hasil, dan cara — dan setiap bagian bisa diperiksa."
+       }
+      },
+      {
+       "q": {
+        "en": "You don’t know exactly how much time your change saved. What do you write?",
+        "id": "Kamu tidak tahu persis berapa waktu yang dihemat perubahanmu. Apa yang kamu tulis?"
+       },
+       "options": [
+        {
+         "en": "A precise invented figure",
+         "id": "Angka presisi yang dikarang"
+        },
+        {
+         "en": "Nothing about the result",
+         "id": "Tidak ada apa-apa tentang hasilnya"
+        },
+        {
+         "en": "An honest approximation — “about 30 minutes a day” — you can explain",
+         "id": "Perkiraan jujur — “sekitar 30 menit sehari” — yang bisa kamu jelaskan"
+        },
+        {
+         "en": "“Saved a lot of time”",
+         "id": "“Menghemat banyak waktu”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Approximations you can explain survive the interview question “how did you measure that?”; invented figures and vague phrases do not.",
+        "id": "Perkiraan yang bisa kamu jelaskan bertahan menghadapi pertanyaan wawancara “bagaimana kamu mengukurnya?”; angka karangan dan frasa samar tidak."
+       }
+      },
+      {
+       "q": {
+        "en": "What distinguishes an evidenced competency statement from a skills list?",
+        "id": "Apa yang membedakan pernyataan kompetensi berbukti dari daftar keterampilan?"
+       },
+       "options": [
+        {
+         "en": "It is longer",
+         "id": "Lebih panjang"
+        },
+        {
+         "en": "It names the quality and then proves it with a specific example",
+         "id": "Menyebut kualitasnya lalu membuktikannya dengan contoh spesifik"
+        },
+        {
+         "en": "It uses more adjectives",
+         "id": "Memakai lebih banyak kata sifat"
+        },
+        {
+         "en": "It appears at the bottom",
+         "id": "Muncul di bagian bawah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A list is claims; a statement is a claim with proof attached. Only the second moved recruiters in the research.",
+        "id": "Daftar adalah klaim; pernyataan adalah klaim dengan bukti yang menyertai. Hanya yang kedua yang menggerakkan perekrut dalam penelitian."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Bullet builder",
+       "id": "Penyusun butir"
+      },
+      "body": {
+       "en": "Rebuild your ten strongest pantry items in the Studio with the formula fields — verb, what, scale, result, how. The builder flags weak verbs and empty adjectives, and asks “could you defend this for two minutes?” before saving.",
+       "id": "Bangun ulang sepuluh butir lemari terkuatmu di Studio dengan kolom rumus — kata kerja, apa, skala, hasil, cara. Penyusunnya menandai kata kerja lemah dan kata sifat kosong, dan bertanya “bisakah kamu mempertahankan ini selama dua menit?” sebelum menyimpan."
+      },
+      "cta": {
+       "en": "Open the Studio →",
+       "id": "Buka Studio →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Lead with the result; add context, method and scale.",
+       "id": "Buka dengan hasil; tambahkan konteks, metode, dan skala."
+      },
+      {
+       "en": "Honest approximations are fine; invented numbers are fatal.",
+       "id": "Perkiraan jujur tidak apa-apa; angka karangan itu fatal."
+      },
+      {
+       "en": "Evidenced competency statements — quality plus proof — are the single most effective addition to a graduate CV.",
+       "id": "Pernyataan kompetensi berbukti — kualitas plus bukti — adalah tambahan tunggal paling efektif pada CV lulusan baru."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and templates",
+       "id": "Sumber dan templat"
+      },
+      "lead": {
+       "en": "The formula, the story structures and a verb bank.",
+       "id": "Rumus, struktur cerita, dan bank kata kerja."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.4",
+         "id": "Daftar bacaan · Pelajaran 3.4"
+        },
+        "desc": {
+         "en": "Five sources.",
+         "id": "Lima sumber."
+        },
+        "body": [
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5, 8 — the result-first build; empty adjectives.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5, 8 — bangun hasil-dulu; kata sifat kosong."
+         },
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 1, 10–12 — the three-way test; language; evidenced competency statements (dated; direction sound); stories.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 1, 10–12 — uji tiga arah; bahasa; pernyataan kompetensi berbukti (lawas; arahnya tepat); cerita."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 3, 10–11 — verbs and pronouns; against bare skills lists; trigger verbs.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 3, 10–11 — kata kerja dan kata ganti; menolak daftar keterampilan telanjang; kata kerja pemicu."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1 — verbs not nouns; no pronouns.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3.1 — kata kerja bukan kata benda; tanpa kata ganti."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call…</i> (2021) — empty adjectives from the hiring manager’s side.",
+          "id": "P. Ow, <i>Tailor Your Call…</i> (2021) — kata sifat kosong dari sisi manajer perekrut."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Bullet formula · fill the blanks",
+         "id": "Rumus butir · isi bagian kosong"
+        },
+        "desc": {
+         "en": "One line per achievement.",
+         "id": "Satu baris per pencapaian."
+        },
+        "body": [
+         {
+          "en": "[Strong verb] [what] [scale: people / money / frequency / time] [result — honest, approximate if needed] [by / through: how]",
+          "id": "[Kata kerja kuat] [apa] [skala: orang / uang / frekuensi / waktu] [hasil — jujur, kira-kira jika perlu] [dengan / melalui: cara]"
+         },
+         {
+          "en": "Competency statement: <b>[Quality the advertisement wants].</b> [One or two sentences: what I did, in what context, and how I know it worked.]",
+          "id": "Pernyataan kompetensi: <b>[Kualitas yang diinginkan iklan].</b> [Satu atau dua kalimat: apa yang kulakukan, dalam konteks apa, dan bagaimana aku tahu berhasil.]"
+         }
+        ]
+       },
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Verb bank · by trigger",
+         "id": "Bank kata kerja · per pemicu"
+        },
+        "desc": {
+         "en": "Vary the opener; never “responsible for”.",
+         "id": "Variasikan pembuka; jangan pernah “bertanggung jawab atas”."
+        },
+        "body": [
+         {
+          "en": "Increase: raised · grew · expanded · recruited · secured · doubled",
+          "id": "Tingkatkan: mengumpulkan · menaikkan · memperluas · merekrut · mendapatkan · menggandakan"
+         },
+         {
+          "en": "Decrease: cut · reduced · shortened · eliminated · resolved · reconciled",
+          "id": "Kurangi: memangkas · mengurangi · mempersingkat · menghapus · menyelesaikan · merekonsiliasi"
+         },
+         {
+          "en": "Improve: redesigned · streamlined · standardised · rebuilt · introduced · automated",
+          "id": "Perbaiki: merancang ulang · merampingkan · menstandarkan · membangun ulang · memperkenalkan · mengotomatiskan"
+         },
+         {
+          "en": "Arrange / create: organised · launched · designed · delivered · coordinated · led · trained · taught · wrote",
+          "id": "Atur / ciptakan: mengorganisasi · meluncurkan · merancang · menyampaikan · mengoordinasikan · memimpin · melatih · mengajar · menulis"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.5",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Architecture and the Indonesian Decisions",
+      "id": "Struktur CV dan Keputusan Khas Indonesia"
+     },
+     "overview": {
+      "en": "With your evidence written, this lesson assembles it into a page — and walks through the decisions where Indonesian practice and international research disagree: photos, date of birth, IPK, religion, address. The goal is not one “right” answer but a deliberate choice for each application.",
+      "id": "Dengan buktimu yang sudah tertulis, pelajaran ini merakitnya menjadi satu halaman — dan menelusuri keputusan-keputusan yang membuat praktik Indonesia dan penelitian internasional tidak sepakat: foto, tanggal lahir, IPK, agama, alamat. Tujuannya bukan satu jawaban “benar”, melainkan pilihan yang disengaja untuk setiap lamaran."
+     },
+     "objectives": [
+      {
+       "en": "Choose a structure and section order for your situation.",
+       "id": "Memilih struktur dan urutan bagian untuk situasimu."
+      },
+      {
+       "en": "Write a profile and a short objective.",
+       "id": "Menulis profil dan objektif singkat."
+      },
+      {
+       "en": "Make each Indonesian-specific decision deliberately, with reasons.",
+       "id": "Mengambil setiap keputusan khas Indonesia dengan sengaja, beserta alasannya."
+      },
+      {
+       "en": "Lay out a page that is readable by both people and software.",
+       "id": "Menata halaman yang terbaca oleh orang maupun perangkat lunak."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "One page, deliberately",
+       "id": "Satu halaman, dengan sengaja"
+      },
+      "intro": {
+       "en": "Structure, the profile, and the decisions the English-language books never had to make.",
+       "id": "Struktur, profil, dan keputusan-keputusan yang tidak pernah harus diambil buku-buku berbahasa Inggris."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Hybrid, one page, education first",
+         "id": "Hibrida, satu halaman, pendidikan dulu"
+        },
+        "points": [
+         {
+          "en": "Reverse-chronological or hybrid by default; functional CVs make recruiters suspicious.",
+          "id": "Kronologis terbalik atau hibrida sebagai bawaan; CV fungsional membuat perekrut curiga."
+         },
+         {
+          "en": "Education leads while it is your strongest evidence — usually your first year after graduating.",
+          "id": "Pendidikan memimpin selama itu bukti terkuatmu — biasanya tahun pertama setelah lulus."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "A profile that names the role",
+         "id": "Profil yang menyebut perannya"
+        },
+        "points": [
+         {
+          "en": "First line: a recognisable target role. Three to five lines, under 80 words, every claim backed up below.",
+          "id": "Baris pertama: peran sasaran yang dikenali. Tiga sampai lima baris, di bawah 80 kata, setiap klaim didukung di bawahnya."
+         },
+         {
+          "en": "Written last.",
+          "id": "Ditulis paling akhir."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Indonesian decisions",
+         "id": "Keputusan khas Indonesia"
+        },
+        "points": [
+         {
+          "en": "Photo, date of birth, religion, NIK, full address, IPK, referees — each decided per application, not by habit.",
+          "id": "Foto, tanggal lahir, agama, NIK, alamat lengkap, IPK, pemberi referensi — masing-masing diputuskan per lamaran, bukan karena kebiasaan."
+         },
+         {
+          "en": "Always state IPK. Never put NIK or bank details on a CV.",
+          "id": "Selalu cantumkan IPK. Jangan pernah taruh NIK atau data bank di CV."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Structure",
+        "id": "Struktur"
+       },
+       "body": {
+        "en": "Three formats exist: reverse-chronological, functional (skills-led) and hybrid <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 8; Innes, The CV Book, ch. 4)</i>. <b>Use hybrid or reverse-chronological by default.</b> Innes reports that functional CVs perform worse because recruiters suspect something is being hidden <i>(ch. 4, 15)</i>; reserve them for genuinely unusual histories. The hybrid — a short evidence section up top, then a chronological record — is the natural fit for a fresh graduate whose strongest proof is scattered across study, work and organisations.",
+        "id": "Ada tiga format: kronologis terbalik, fungsional (berbasis keterampilan), dan hibrida <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 8; Innes, The CV Book, bab 4)</i>. <b>Pakai hibrida atau kronologis terbalik sebagai bawaan.</b> Innes melaporkan CV fungsional berkinerja lebih buruk karena perekrut curiga ada yang disembunyikan <i>(bab 4, 15)</i>; simpan untuk riwayat yang benar-benar tidak biasa. Hibrida — bagian bukti singkat di atas, lalu catatan kronologis — cocok secara alami bagi lulusan baru yang bukti terkuatnya tersebar di kuliah, kerja, dan organisasi."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Section order for a fresh graduate",
+        "id": "Urutan bagian untuk lulusan baru"
+       },
+       "body": {
+        "en": "Lead with whichever section is your strongest selling point. For most graduates in their first year, that is education; for a graduate with a strong internship, it may be experience.",
+        "id": "Buka dengan bagian yang menjadi daya jual terkuatmu. Bagi kebanyakan lulusan di tahun pertama, itu pendidikan; bagi lulusan dengan magang yang kuat, mungkin pengalaman."
+       },
+       "bullets": [
+        {
+         "en": "<b>Header</b> — name (not “Curriculum Vitae”), phone, professional email, LinkedIn URL, city + willingness to relocate.",
+         "id": "<b>Kepala</b> — nama (bukan “Curriculum Vitae”), telepon, email profesional, URL LinkedIn, kota + kesediaan pindah."
+        },
+        {
+         "en": "<b>Profile</b> (3–5 lines) and a one-line <b>objective</b>.",
+         "id": "<b>Profil</b> (3–5 baris) dan <b>objektif</b> satu baris."
+        },
+        {
+         "en": "<b>Education</b> — first, if it is your strongest evidence <i>(Innes, ch. 4; Storey)</i>.",
+         "id": "<b>Pendidikan</b> — pertama, jika itu bukti terkuatmu <i>(Innes, bab 4; Storey)</i>."
+        },
+        {
+         "en": "<b>Key Skills and Evidence</b> — 3–5 competency statements.",
+         "id": "<b>Keterampilan Utama dan Bukti</b> — 3–5 pernyataan kompetensi."
+        },
+        {
+         "en": "<b>Experience</b> — internships and work, with achievement bullets (relevant → related → unrelated).",
+         "id": "<b>Pengalaman</b> — magang dan kerja, dengan butir pencapaian (relevan → terkait → tidak terkait)."
+        },
+        {
+         "en": "<b>Organisational and Leadership Experience</b> — BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, with achievement bullets.",
+         "id": "<b>Pengalaman Organisasi dan Kepemimpinan</b> — BEM, HIMA, UKM, <i>kepanitiaan</i>, KKN, dengan butir pencapaian."
+        },
+        {
+         "en": "<b>Certifications, Languages and Tools</b> — with levels and scores.",
+         "id": "<b>Sertifikasi, Bahasa, dan Alat</b> — dengan tingkat dan skor."
+        },
+        {
+         "en": "<b>Awards</b> (if any) · <b>References</b> — “available on request” unless the advertisement asks.",
+         "id": "<b>Penghargaan</b> (jika ada) · <b>Referensi</b> — “tersedia atas permintaan” kecuali iklan meminta."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Length",
+        "id": "Panjang"
+       },
+       "body": {
+        "en": "The books disagree — one page versus two versus “whatever fits” <i>(Innes; Knowles; Simunovic; Bright &amp; Earl, ch. 12)</i>. <b>The Pack’s rule for fresh graduates: one page is the target; two is the maximum.</b> Do not force a thin record onto one page with tiny text, and do not pad a strong record onto two. If you are on page two, ask whether every line there passed the Fit Rule.",
+        "id": "Buku-buku tidak sepakat — satu halaman versus dua versus “berapa pun yang muat” <i>(Innes; Knowles; Simunovic; Bright &amp; Earl, bab 12)</i>. <b>Aturan The Pack untuk lulusan baru: satu halaman adalah target; dua adalah maksimum.</b> Jangan paksa rekam yang tipis ke satu halaman dengan huruf mungil, dan jangan menggelembungkan rekam yang kuat ke dua halaman. Jika kamu sampai di halaman dua, tanyakan apakah setiap baris di sana lolos Aturan Kecocokan."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Profile and objective",
+        "id": "Profil dan objektif"
+       },
+       "body": {
+        "en": "Knowles’s profile formula <i>(How to Write an Outstanding CV, ch. 5)</i>: first line names a recognisable <b>target role</b>; 3–5 lines, under about 80 words; every claim backed up further down; written <b>last</b>. Bright &amp; Earl’s research supports a short objective for graduates <i>(ch. 13)</i> — but make it about what you offer and where, not what you want. Combine them:",
+        "id": "Rumus profil Knowles <i>(How to Write an Outstanding CV, bab 5)</i>: baris pertama menyebut <b>peran sasaran</b> yang dikenali; 3–5 baris, di bawah sekitar 80 kata; setiap klaim didukung di bagian bawah; ditulis <b>paling akhir</b>. Penelitian Bright &amp; Earl mendukung objektif singkat untuk lulusan baru <i>(bab 13)</i> — tetapi buat tentang apa yang kamu tawarkan dan di mana, bukan apa yang kamu inginkan. Gabungkan keduanya:"
+       },
+       "quote": {
+        "text": {
+         "en": "<b>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</b> Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in Indonesia.",
+         "id": "<b>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</b> Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh Indonesia."
+        },
+        "who": {
+         "en": "Nadia’s profile for the Arunika cluster — 62 words, every claim proven below",
+         "id": "Profil Nadia untuk rumpun Arunika — setiap klaim dibuktikan di bawahnya"
+        }
+       },
+       "after": [
+        {
+         "en": "Avoid objectives that read as demands (“seeking a company that offers growth and good benefits”) <i>(Bright &amp; Earl, ch. 16)</i>. The reader is asking what you bring, not what you would like.",
+         "id": "Hindari objektif yang terbaca sebagai tuntutan (“mencari perusahaan yang menawarkan pertumbuhan dan tunjangan yang baik”) <i>(Bright &amp; Earl, bab 16)</i>. Pembaca bertanya apa yang kamu bawa, bukan apa yang kamu inginkan."
+        }
+       ]
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Education, done properly",
+        "id": "Pendidikan, dengan benar"
+       },
+       "body": {
+        "en": "Degree title in full; university; graduation month and year; <b>IPK as “3,38 / 4,00”</b> (or “3.38 / 4.00” on an English CV); <i>predikat</i> if earned (e.g., <i>cum laude</i>); thesis title if relevant; 3–5 relevant courses. Some UK books advise omitting weak grades <i>(Innes; Knowles)</i>. <b>In Indonesia, do not omit IPK</b>: it is frequently a hard administrative requirement, portal forms ask for it, and omission reads as concealment. If your IPK is below an advertised minimum, do not apply to that programme; if there is no minimum, lead with other evidence.",
+        "id": "Gelar lengkap; universitas; bulan dan tahun lulus; <b>IPK sebagai “3,38 / 4,00”</b> (atau “3.38 / 4.00” pada CV bahasa Inggris); <i>predikat</i> jika diraih (mis. <i>cum laude</i>); judul skripsi jika relevan; 3–5 mata kuliah relevan. Beberapa buku Inggris menyarankan menghilangkan nilai yang lemah <i>(Innes; Knowles)</i>. <b>Di Indonesia, jangan hilangkan IPK</b>: IPK sering menjadi syarat administratif mutlak, formulir portal menanyakannya, dan menghilangkannya terbaca sebagai menyembunyikan. Jika IPK-mu di bawah minimum yang diiklankan, jangan lamar program itu; jika tidak ada minimum, buka dengan bukti lain."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The Indonesian decisions",
+        "id": "Keputusan khas Indonesia"
+       },
+       "body": {
+        "en": "Research and local practice diverge on several items. Decide each one deliberately, per application.",
+        "id": "Penelitian dan praktik lokal berbeda pada beberapa hal. Putuskan masing-masing dengan sengaja, per lamaran."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Item",
+          "id": "Hal"
+         },
+         {
+          "en": "Research / international practice",
+          "id": "Penelitian / praktik internasional"
+         },
+         {
+          "en": "Indonesian practice",
+          "id": "Praktik Indonesia"
+         },
+         {
+          "en": "The Pack’s rule",
+          "id": "Aturan The Pack"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Photo</b>",
+           "id": "<b>Foto</b>"
+          },
+          {
+           "en": "In controlled studies, photos invited appearance bias; most UK/US books say omit <i>(Bright &amp; Earl, ch. 17; Innes; Knowles)</i>",
+           "id": "Dalam studi terkontrol, foto mengundang bias penampilan; kebanyakan buku Inggris/AS menyarankan menghilangkannya <i>(Bright &amp; Earl, bab 17; Innes; Knowles)</i>"
+          },
+          {
+           "en": "Often expected; frequently a mandatory upload (<i>pas foto</i>) in BUMN, CPNS and many local portals",
+           "id": "Sering diharapkan; kerap unggahan wajib (<i>pas foto</i>) di BUMN, CPNS, dan banyak portal lokal"
+          },
+          {
+           "en": "<b>Include only when the advertisement, form or employer norm asks.</b> Recent, neutral, professional headshot. For multinationals and English-language applications, default to no photo on the CV; put it on LinkedIn.",
+           "id": "<b>Sertakan hanya jika iklan, formulir, atau norma perusahaan meminta.</b> Foto kepala terbaru, netral, profesional. Untuk multinasional dan lamaran berbahasa Inggris, bawaan tanpa foto di CV; taruh di LinkedIn."
+          }
+         ],
+         [
+          {
+           "en": "<b>Date / place of birth</b>",
+           "id": "<b>Tanggal / tempat lahir</b>"
+          },
+          {
+           "en": "Omit <i>(Innes; Bright &amp; Earl; Knowles)</i>",
+           "id": "Hilangkan <i>(Innes; Bright &amp; Earl; Knowles)</i>"
+          },
+          {
+           "en": "Traditionally included; some programmes have age caps",
+           "id": "Secara tradisi disertakan; sebagian program punya batas usia"
+          },
+          {
+           "en": "<b>Include only if required</b> (e.g., an age cap you meet).",
+           "id": "<b>Sertakan hanya jika diwajibkan</b> (mis. batas usia yang kamu penuhi)."
+          }
+         ],
+         [
+          {
+           "en": "<b>Marital status, religion, height, weight</b>",
+           "id": "<b>Status pernikahan, agama, tinggi, berat</b>"
+          },
+          {
+           "en": "Omit; irrelevant and invites bias",
+           "id": "Hilangkan; tidak relevan dan mengundang bias"
+          },
+          {
+           "en": "Sometimes seen on older templates",
+           "id": "Kadang terlihat di templat lama"
+          },
+          {
+           "en": "<b>Never include unless explicitly required.</b>",
+           "id": "<b>Jangan pernah sertakan kecuali diwajibkan secara eksplisit.</b>"
+          }
+         ],
+         [
+          {
+           "en": "<b>NIK / KTP number, bank details</b>",
+           "id": "<b>NIK / nomor KTP, data bank</b>"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Sometimes requested in forms",
+           "id": "Kadang diminta di formulir"
+          },
+          {
+           "en": "<b>Never on the CV.</b> Provide only in secure official forms, at the stage required.",
+           "id": "<b>Jangan pernah di CV.</b> Berikan hanya di formulir resmi yang aman, pada tahap yang diwajibkan."
+          }
+         ],
+         [
+          {
+           "en": "<b>Full home address</b>",
+           "id": "<b>Alamat rumah lengkap</b>"
+          },
+          {
+           "en": "Varies",
+           "id": "Beragam"
+          },
+          {
+           "en": "Common",
+           "id": "Umum"
+          },
+          {
+           "en": "<b>City/district + “open to relocation”</b> is enough.",
+           "id": "<b>Kota/kabupaten + “bersedia pindah”</b> sudah cukup."
+          }
+         ],
+         [
+          {
+           "en": "<b>IPK</b>",
+           "id": "<b>IPK</b>"
+          },
+          {
+           "en": "UK books: omit if weak",
+           "id": "Buku Inggris: hilangkan jika lemah"
+          },
+          {
+           "en": "Often a hard requirement",
+           "id": "Sering syarat mutlak"
+          },
+          {
+           "en": "<b>Always state it.</b>",
+           "id": "<b>Selalu cantumkan.</b>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Referees</b>",
+           "id": "<b>Pemberi referensi</b>"
+          },
+          {
+           "en": "Books disagree",
+           "id": "Buku-buku tidak sepakat"
+          },
+          {
+           "en": "“Available on request” common",
+           "id": "“Tersedia atas permintaan” umum"
+          },
+          {
+           "en": "<b>On request</b>, unless the advertisement asks. Always get permission first.",
+           "id": "<b>Atas permintaan</b>, kecuali iklan meminta. Selalu minta izin lebih dulu."
+          }
+         ]
+        ]
+       },
+       "after": [
+        {
+         "en": "Bright &amp; Earl’s broader point applies here: concealing details that invite bias can raise your chances, but it is a personal values choice — and if you conceal, do so consistently <i>(ch. 17)</i>. What The Pack rules out is not a photo; it is a photo by habit, on a CV going to an employer who did not ask for one.",
+         "id": "Poin Bright &amp; Earl yang lebih luas berlaku di sini: menyembunyikan detail yang mengundang bias bisa menaikkan peluangmu, tetapi itu pilihan nilai pribadi — dan jika kamu menyembunyikan, lakukan secara konsisten <i>(bab 17)</i>. Yang tidak diperbolehkan The Pack bukan foto; melainkan foto karena kebiasaan, di CV yang dikirim ke perusahaan yang tidak memintanya."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Language",
+        "id": "Bahasa"
+       },
+       "body": {
+        "en": "Write each CV in <b>one language</b>. English for multinationals, international programmes and most MT intakes; Bahasa Indonesia where the advertisement is in Indonesian and the employer is local. Keep a master in each. Choose one English variant (British or American) and set your spellchecker to match. Watch for literal translations — “<i>bertanggung jawab atas</i>” → “responsible for” is exactly the weak opener Lesson 3.4 told you to avoid, and “<i>membantu</i>” → “helped with” is the second.",
+        "id": "Tulis setiap CV dalam <b>satu bahasa</b>. Bahasa Inggris untuk multinasional, program internasional, dan kebanyakan seleksi MT; Bahasa Indonesia jika iklannya berbahasa Indonesia dan perusahaannya lokal. Simpan induk dalam masing-masing bahasa. Pilih satu varian Inggris (Britania atau Amerika) dan setel pemeriksa ejaanmu sesuai. Waspadai terjemahan harfiah — “<i>bertanggung jawab atas</i>” → “responsible for” persis pembuka lemah yang dilarang Pelajaran 3.4, dan “<i>membantu</i>” → “helped with” yang kedua."
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Layout",
+        "id": "Tata letak"
+       },
+       "body": {
+        "en": "Bright &amp; Earl’s 4-S rule: <b>Simple, Structured, Succinct, Significant</b> <i>(ch. 8)</i>.",
+        "id": "Aturan 4-S Bright &amp; Earl: <b>Sederhana, Terstruktur, Ringkas, Bermakna</b> <i>(bab 8)</i>."
+       },
+       "bullets": [
+        {
+         "en": "Single column; standard headings; left-aligned.",
+         "id": "Satu kolom; judul standar; rata kiri."
+        },
+        {
+         "en": "One standard font, 10.5–12 pt body, name larger and bold.",
+         "id": "Satu fon standar, isi 10,5–12 pt, nama lebih besar dan tebal."
+        },
+        {
+         "en": "White space to group: small gaps within sections, larger between.",
+         "id": "Ruang kosong untuk mengelompokkan: jarak kecil di dalam bagian, lebih besar di antara bagian."
+        },
+        {
+         "en": "No tables, text boxes, icons, skill bars, graphics or headers/footers holding content (Module 4 explains why).",
+         "id": "Tanpa tabel, kotak teks, ikon, bilah keterampilan, grafis, atau kepala/kaki halaman yang memuat isi (Modul 4 menjelaskan alasannya)."
+        },
+        {
+         "en": "Consistent date format and alignment.",
+         "id": "Format tanggal dan perataan yang konsisten."
+        },
+        {
+         "en": "Save as a <b>text-based PDF</b> unless the portal asks for Word.",
+         "id": "Simpan sebagai <b>PDF berbasis teks</b> kecuali portal meminta Word."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Gaps",
+        "id": "Jeda"
+       },
+       "body": {
+        "en": "Following Bright &amp; Earl’s finding that explained gaps read as honesty <i>(ch. 17)</i>: explain any gap longer than a few months in one positive, truthful line. <i>“Aug 2026 – present: full-time job search; completed Google Data Analytics certificate; volunteer bookkeeping for a mosque cooperative.”</i> A gap with a sentence is a period; a gap without one is a question the recruiter answers for you.",
+        "id": "Mengikuti temuan Bright &amp; Earl bahwa jeda yang dijelaskan terbaca sebagai kejujuran <i>(bab 17)</i>: jelaskan jeda lebih dari beberapa bulan dalam satu baris yang positif dan jujur. <i>“Agu 2026 – sekarang: pencarian kerja penuh waktu; menyelesaikan sertifikat Google Data Analytics; pembukuan sukarela untuk koperasi masjid.”</i> Jeda dengan satu kalimat adalah sebuah periode; jeda tanpa kalimat adalah pertanyaan yang dijawab perekrut untukmu."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 6: The fresh-graduate page",
+       "id": "Peraga 6: Halaman lulusan baru"
+      },
+      "title": {
+       "en": "One page, top to bottom",
+       "id": "Satu halaman, dari atas ke bawah"
+      },
+      "items": [
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Header",
+         "id": "Kepala"
+        },
+        "sub": {
+         "en": "Name as the title · phone · professional email · LinkedIn · city + “open to relocation”. No “Curriculum Vitae”, no NIK.",
+         "id": "Nama sebagai judul · telepon · email profesional · LinkedIn · kota + “bersedia pindah”. Tanpa “Curriculum Vitae”, tanpa NIK."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Profile + objective",
+         "id": "Profil + objektif"
+        },
+        "sub": {
+         "en": "First line names the target role. 3–5 lines, under 80 words, written last.",
+         "id": "Baris pertama menyebut peran sasaran. 3–5 baris, di bawah 80 kata, ditulis paling akhir."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Education",
+         "id": "Pendidikan"
+        },
+        "sub": {
+         "en": "Degree · university · month/year · IPK 3,38 / 4,00 · predikat · thesis · 3–5 relevant courses.",
+         "id": "Gelar · universitas · bulan/tahun · IPK 3,38 / 4,00 · predikat · skripsi · 3–5 mata kuliah relevan."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Key Skills and Evidence",
+         "id": "Keterampilan Utama dan Bukti"
+        },
+        "sub": {
+         "en": "3–5 evidenced competency statements matched to the advertisement.",
+         "id": "3–5 pernyataan kompetensi berbukti yang dicocokkan dengan iklan."
+        }
+       },
+       {
+        "icon": "gear",
+        "h": {
+         "en": "Experience",
+         "id": "Pengalaman"
+        },
+        "sub": {
+         "en": "Internships and work, relevant → related → unrelated, achievement bullets.",
+         "id": "Magang dan kerja, relevan → terkait → tidak terkait, butir pencapaian."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Organisational and Leadership Experience",
+         "id": "Pengalaman Organisasi dan Kepemimpinan"
+        },
+        "sub": {
+         "en": "HIMA, BEM, kepanitiaan, KKN — with achievement bullets, not one-liners.",
+         "id": "HIMA, BEM, kepanitiaan, KKN — dengan butir pencapaian, bukan satu baris."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Certifications, languages, tools",
+         "id": "Sertifikasi, bahasa, alat"
+        },
+        "sub": {
+         "en": "TOEFL ITP 527 · Excel (intermediate) · Google Sheets · Canva. Levels and scores, not adjectives.",
+         "id": "TOEFL ITP 527 · Excel (menengah) · Google Sheets · Canva. Tingkat dan skor, bukan kata sifat."
+        }
+       }
+      ],
+      "note": {
+       "en": "Single column, one standard font, text-based PDF. Awards if any; references on request.",
+       "id": "Satu kolom, satu fon standar, PDF berbasis teks. Penghargaan jika ada; referensi atas permintaan."
+      },
+      "longdesc": {
+       "en": "An annotated one-page wireframe, top to bottom: a header with the name as title and contact details; a profile and objective naming the target role; education with IPK in the standard format; a Key Skills and Evidence section of three to five competency statements; experience with achievement bullets; organisational and leadership experience with achievement bullets; certifications, languages and tools with levels and scores.",
+       "id": "Kerangka satu halaman beranotasi, dari atas ke bawah: kepala dengan nama sebagai judul dan kontak; profil dan objektif yang menyebut peran sasaran; pendidikan dengan IPK dalam format standar; bagian Keterampilan Utama dan Bukti berisi tiga sampai lima pernyataan kompetensi; pengalaman dengan butir pencapaian; pengalaman organisasi dan kepemimpinan dengan butir pencapaian; sertifikasi, bahasa, dan alat dengan tingkat dan skor."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two headers",
+        "id": "Dua kepala"
+       },
+       "q": {
+        "en": "The top eight lines of Nadia’s CV for Arunika’s English-language MT programme.",
+        "id": "Delapan baris teratas CV Nadia untuk program MT berbahasa Inggris Arunika."
+       },
+       "weak": {
+        "en": "CURRICULUM VITAE · [photo] · Nadia Putri · Born: Semarang, 3 March 2004 · Religion: Islam · Marital status: single · Jl. … No. 12, RT 03/RW 05, Semarang · NIK 33…",
+        "id": "CURRICULUM VITAE · [foto] · Nadia Putri · Lahir: Semarang, 3 Maret 2004 · Agama: Islam · Status: belum menikah · Jl. … No. 12, RT 03/RW 05, Semarang · NIK 33…"
+       },
+       "strong": {
+        "en": "<b>Nadia Putri</b> · Semarang · open to placement anywhere in Indonesia · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Management graduate targeting commercial and supply-chain trainee roles in consumer goods.</i>",
+        "id": "<b>Nadia Putri</b> · Semarang · bersedia ditempatkan di seluruh Indonesia · +62 8xx … · nadia.putri@… · linkedin.com/in/nadiaputri · <i>Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.</i>"
+       },
+       "why": {
+        "en": "The first spends the “F” on details the employer did not ask for and that invite bias. The second spends it on the name, how to reach her, where she will work, and what she is for.",
+        "id": "Yang pertama menghabiskan “F” untuk detail yang tidak diminta perusahaan dan mengundang bias. Yang kedua menghabiskannya untuk nama, cara menghubunginya, di mana ia akan bekerja, dan untuk apa ia melamar."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the same CV, two portals",
+       "id": "Sorotan: CV yang sama, dua portal"
+      },
+      "body": [
+       {
+        "en": "Nadia applies to two programmes in one week. Arunika’s English-language MT portal asks for a CV and a transcript; it does not ask for a photo or a date of birth. Bank Sinar Nusantara’s ODP portal requires a <i>pas foto</i> 4×6 on a red background as a separate upload, a KTP scan, and states a maximum age of 26.",
+        "id": "Nadia melamar ke dua program dalam satu minggu. Portal MT berbahasa Inggris Arunika meminta CV dan transkrip; tidak meminta foto atau tanggal lahir. Portal ODP Bank Sinar Nusantara mewajibkan <i>pas foto</i> 4×6 berlatar merah sebagai unggahan terpisah, pindaian KTP, dan menyebut usia maksimum 26."
+       },
+       {
+        "en": "Same evidence, two deliberate decisions. For Arunika: no photo on the CV, no date of birth, a professional photo on LinkedIn, IPK stated as 3.38 / 4.00 in English. For the bank: the photo uploaded where the portal wants it — not pasted into the CV — the KTP scan uploaded in the form, her date of birth on the CV because the age cap is a requirement she meets, IPK stated as 3,38 / 4,00 in Indonesian, and her NIK nowhere on the CV.",
+        "id": "Bukti yang sama, dua keputusan yang disengaja. Untuk Arunika: tanpa foto di CV, tanpa tanggal lahir, foto profesional di LinkedIn, IPK ditulis 3.38 / 4.00 dalam bahasa Inggris. Untuk bank: foto diunggah di tempat yang diminta portal — bukan ditempel di CV — pindaian KTP diunggah di formulir, tanggal lahir di CV karena batas usia adalah syarat yang ia penuhi, IPK ditulis 3,38 / 4,00 dalam bahasa Indonesia, dan NIK-nya tidak ada di mana pun di CV."
+       },
+       {
+        "en": "Neither version is “the right CV”. Each is the right CV for its reader.",
+        "id": "Tidak ada versi yang menjadi “CV yang benar”. Masing-masing adalah CV yang benar untuk pembacanya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Decide, and say why",
+        "id": "Latihan 1 — Putuskan, dan katakan alasannya"
+       },
+       "body": {
+        "en": "For each application, write your decision and one-line reason for: photo · date of birth · religion / marital status · full address · IPK format · language. (A) Rumah Rempah, Area Operations Trainee, Indonesian-language posting, email application, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, English posting, careers page upload, no photo requested.",
+        "id": "Untuk setiap lamaran, tulis keputusanmu dan alasan satu baris untuk: foto · tanggal lahir · agama / status pernikahan · alamat lengkap · format IPK · bahasa. (A) Rumah Rempah, Area Operations Trainee, lowongan berbahasa Indonesia, lamaran lewat email, “lampirkan CV dan foto terbaru”. (B) KilatPay, Business Operations Associate, lowongan berbahasa Inggris, unggah di laman karier, tidak meminta foto."
+       },
+       "debrief": {
+        "en": "(A) Photo: yes — asked for; attach it as a separate file, not inside the CV. Date of birth: no — not required. Religion / marital status: no. Address: city only. IPK: 3,38 / 4,00. Language: Indonesian, with the same bullet discipline. (B) Photo: no on the CV; LinkedIn carries it. Date of birth: no. Religion / marital status: no. Address: “Semarang · open to relocating to Jakarta”. IPK: 3.38 / 4.00. Language: English. In both, NIK stays off the CV.",
+        "id": "(A) Foto: ya — diminta; lampirkan sebagai berkas terpisah, bukan di dalam CV. Tanggal lahir: tidak — tidak diwajibkan. Agama / status pernikahan: tidak. Alamat: kota saja. IPK: 3,38 / 4,00. Bahasa: Indonesia, dengan disiplin butir yang sama. (B) Foto: tidak di CV; LinkedIn yang memuatnya. Tanggal lahir: tidak. Agama / status pernikahan: tidak. Alamat: “Semarang · bersedia pindah ke Jakarta”. IPK: 3.38 / 4.00. Bahasa: Inggris. Di keduanya, NIK tetap di luar CV."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Write the profile last",
+        "id": "Latihan 2 — Tulis profil paling akhir"
+       },
+       "body": {
+        "en": "Using your pantry and one target advertisement, write a profile of 3–5 lines and under 80 words. First line: a recognisable target role. Then two or three lines of evidence that appears further down the page. Last line: where you will work.",
+        "id": "Dengan lemarimu dan satu iklan sasaran, tulis profil 3–5 baris dan di bawah 80 kata. Baris pertama: peran sasaran yang dikenali. Lalu dua atau tiga baris bukti yang muncul di bagian bawah halaman. Baris terakhir: di mana kamu akan bekerja."
+       },
+       "debrief": {
+        "en": "Check three things. Does the first line name a role a recruiter would recognise from their own advertisement? Is every claim in the profile proven by a bullet or statement below it? Is there a single adjective without evidence — “motivated”, “dynamic” — that should go? Count the words; if you are over 80, cut the adjectives first.",
+        "id": "Periksa tiga hal. Apakah baris pertama menyebut peran yang akan dikenali perekrut dari iklannya sendiri? Apakah setiap klaim dalam profil dibuktikan oleh butir atau pernyataan di bawahnya? Adakah satu kata sifat tanpa bukti — “termotivasi”, “dinamis” — yang seharusnya dibuang? Hitung katanya; jika lebih dari 80, potong kata sifatnya lebih dulu."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A photo, DOB and religion on an English CV for a multinational",
+         "id": "Foto, tanggal lahir, dan agama di CV bahasa Inggris untuk multinasional"
+        },
+        "fix": {
+         "en": "Include only what the application requires.",
+         "id": "Sertakan hanya yang diwajibkan lamaran."
+        }
+       },
+       {
+        "h": {
+         "en": "Omitting IPK",
+         "id": "Menghilangkan IPK"
+        },
+        "fix": {
+         "en": "State it in the standard format.",
+         "id": "Cantumkan dalam format standar."
+        }
+       },
+       {
+        "h": {
+         "en": "Two columns with skill bars",
+         "id": "Dua kolom dengan bilah keterampilan"
+        },
+        "fix": {
+         "en": "Single column; evidence, not graphics.",
+         "id": "Satu kolom; bukti, bukan grafis."
+        }
+       },
+       {
+        "h": {
+         "en": "“Curriculum Vitae” as the title",
+         "id": "“Curriculum Vitae” sebagai judul"
+        },
+        "fix": {
+         "en": "Your name is the title.",
+         "id": "Namamu adalah judulnya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Hybrid CV",
+        "id": "CV hibrida"
+       },
+       "def": {
+        "en": "A short evidence section at the top followed by a reverse-chronological record.",
+        "id": "Bagian bukti singkat di atas diikuti catatan kronologis terbalik."
+       }
+      },
+      {
+       "term": {
+        "en": "Functional CV",
+        "id": "CV fungsional"
+       },
+       "def": {
+        "en": "A skills-led CV with little chronology; recruiters suspect it hides something.",
+        "id": "CV berbasis keterampilan dengan sedikit kronologi; perekrut curiga ada yang disembunyikan."
+       }
+      },
+      {
+       "term": {
+        "en": "Profile",
+        "id": "Profil"
+       },
+       "def": {
+        "en": "Three to five lines under the header that name the target role and summarise the evidence.",
+        "id": "Tiga sampai lima baris di bawah kepala yang menyebut peran sasaran dan merangkum bukti."
+       }
+      },
+      {
+       "term": {
+        "en": "Predikat",
+        "id": "Predikat"
+       },
+       "def": {
+        "en": "The graduation honour attached to an IPK band, such as cum laude.",
+        "id": "Predikat kelulusan yang melekat pada rentang IPK, seperti cum laude."
+       }
+      },
+      {
+       "term": {
+        "en": "Pas foto",
+        "id": "Pas foto"
+       },
+       "def": {
+        "en": "The formal passport-style photograph many Indonesian portals require as a separate upload.",
+        "id": "Foto formal bergaya paspor yang diwajibkan banyak portal Indonesia sebagai unggahan terpisah."
+       }
+      },
+      {
+       "term": {
+        "en": "4-S rule",
+        "id": "Aturan 4-S"
+       },
+       "def": {
+        "en": "Simple, Structured, Succinct, Significant — Bright &amp; Earl’s layout test.",
+        "id": "Sederhana, Terstruktur, Ringkas, Bermakna — uji tata letak Bright &amp; Earl."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia applies to a multinational’s English-language MT programme. The portal does not ask for a photo.",
+        "id": "Nadia melamar program MT berbahasa Inggris sebuah multinasional. Portalnya tidak meminta foto."
+       },
+       "options": [
+        {
+         "en": "Add a photo to the CV anyway",
+         "id": "Tetap tambahkan foto ke CV"
+        },
+        {
+         "en": "No photo on the CV; a professional photo on LinkedIn",
+         "id": "Tanpa foto di CV; foto profesional di LinkedIn"
+        },
+        {
+         "en": "A casual photo",
+         "id": "Foto santai"
+        },
+        {
+         "en": "A photo in the footer",
+         "id": "Foto di kaki halaman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Include a photo only when asked; for English-language multinational applications the default is none on the CV.",
+        "id": "Sertakan foto hanya jika diminta; untuk lamaran multinasional berbahasa Inggris bawaannya tanpa foto di CV."
+       }
+      },
+      {
+       "q": {
+        "en": "A BUMN-style programme requires age ≤ 25 and uploads of <i>pas foto</i> and KTP.",
+        "id": "Program bergaya BUMN mewajibkan usia ≤ 25 dan unggahan <i>pas foto</i> serta KTP."
+       },
+       "options": [
+        {
+         "en": "Omit DOB",
+         "id": "Hilangkan tanggal lahir"
+        },
+        {
+         "en": "Include DOB (a requirement you meet), upload the photo and KTP scan in the portal, and keep the KTP number off the CV",
+         "id": "Sertakan tanggal lahir (syarat yang kamu penuhi), unggah foto dan pindaian KTP di portal, dan jauhkan nomor KTP dari CV"
+        },
+        {
+         "en": "Put the KTP number on the CV",
+         "id": "Taruh nomor KTP di CV"
+        },
+        {
+         "en": "Don’t apply",
+         "id": "Jangan melamar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Required items go where the portal asks; identity numbers never go on a document you send around.",
+        "id": "Hal yang diwajibkan diletakkan di tempat yang diminta portal; nomor identitas tidak pernah ditaruh di dokumen yang kamu kirim ke mana-mana."
+       }
+      },
+      {
+       "q": {
+        "en": "Where should Nadia’s HIMA and competition roles go?",
+        "id": "Di mana seharusnya peran HIMA dan kompetisi Nadia diletakkan?"
+       },
+       "options": [
+        {
+         "en": "Under “Hobbies”",
+         "id": "Di bawah “Hobi”"
+        },
+        {
+         "en": "In an “Organisational and Leadership Experience” section with achievement bullets",
+         "id": "Di bagian “Pengalaman Organisasi dan Kepemimpinan” dengan butir pencapaian"
+        },
+        {
+         "en": "Nowhere",
+         "id": "Tidak di mana pun"
+        },
+        {
+         "en": "In the footer",
+         "id": "Di kaki halaman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "For graduates, organisational work is evidence, weighed together with study and work.",
+        "id": "Bagi lulusan baru, kerja organisasi adalah bukti, ditimbang bersama kuliah dan kerja."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "CV builder",
+       "id": "Penyusun CV"
+      },
+      "body": {
+       "en": "Assemble your master CV in the Studio’s single-column fresh-graduate template: section toggles, the profile field with a word count, and the Indonesian-decisions checklist shown before every export.",
+       "id": "Rakit CV indukmu di templat lulusan baru satu kolom milik Studio: sakelar bagian, kolom profil dengan hitungan kata, dan daftar periksa keputusan khas Indonesia yang ditampilkan sebelum setiap ekspor."
+      },
+      "cta": {
+       "en": "Open the CV Studio →",
+       "id": "Buka Studio CV →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Hybrid structure, one page, education first while it is your strongest evidence.",
+       "id": "Struktur hibrida, satu halaman, pendidikan dulu selama itu bukti terkuatmu."
+      },
+      {
+       "en": "Make each Indonesian decision — photo, DOB, IPK, personal details — deliberately, per application.",
+       "id": "Ambil setiap keputusan khas Indonesia — foto, tanggal lahir, IPK, data pribadi — dengan sengaja, per lamaran."
+      },
+      {
+       "en": "Simple, structured, succinct, significant.",
+       "id": "Sederhana, terstruktur, ringkas, bermakna."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and checklist",
+       "id": "Sumber dan daftar periksa"
+      },
+      "lead": {
+       "en": "The section order and the decisions checklist, ready to copy.",
+       "id": "Urutan bagian dan daftar periksa keputusan, siap disalin."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.5",
+         "id": "Daftar bacaan · Pelajaran 3.5"
+        },
+        "desc": {
+         "en": "Five sources.",
+         "id": "Lima sumber."
+        },
+        "body": [
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 8, 12–13, 16–17 — formats; the 4-S rule; length; objectives; photos, gaps and concealment.",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 8, 12–13, 16–17 — format; aturan 4-S; panjang; objektif; foto, jeda, dan penyembunyian."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 4–5, 15 — against functional CVs; education first for graduates; personal details.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 4–5, 15 — menolak CV fungsional; pendidikan dulu untuk lulusan baru; data pribadi."
+         },
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 5 — the profile formula.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 5 — rumus profil."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3 — layout and length.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §3 — tata letak dan panjang."
+         },
+         {
+          "en": "J. Storey, <i>Resume: The Secrets…</i> — education first (low evidential quality; used for this point only).",
+          "id": "J. Storey, <i>Resume: The Secrets…</i> — pendidikan dulu (mutu bukti rendah; dipakai untuk poin ini saja)."
          }
         ]
        },
        {
         "kind": "checklist",
         "title": {
-         "en": "One-page CV pre-flight",
-         "id": "Pra-terbang CV satu halaman"
+         "en": "Indonesian decisions · per application",
+         "id": "Keputusan khas Indonesia · per lamaran"
         },
         "desc": {
-         "en": "Run before every send.",
-         "id": "Jalankan sebelum setiap pengiriman."
+         "en": "Tick each one deliberately before export.",
+         "id": "Centang masing-masing dengan sengaja sebelum ekspor."
         },
         "body": [
          {
-          "en": "Top third answers the brief: target title, two strongest lines, key tools",
-          "id": "Sepertiga atas menjawab brief: jabatan tujuan, dua baris terkuat, alat utama"
+          "en": "Photo: asked for? → separate upload if possible; on the CV only if the employer wants it there",
+          "id": "Foto: diminta? → unggahan terpisah jika bisa; di CV hanya jika perusahaan menginginkannya di sana"
          },
          {
-          "en": "Every bullet has a verb and a result",
-          "id": "Setiap butir punya kata kerja dan hasil"
+          "en": "Date of birth: required (age cap)? → include; otherwise omit",
+          "id": "Tanggal lahir: diwajibkan (batas usia)? → sertakan; jika tidak, hilangkan"
          },
          {
-          "en": "Section order fits the role (projects above education for technical roles)",
-          "id": "Urutan bagian cocok dengan peran (proyek di atas pendidikan untuk peran teknis)"
+          "en": "Religion, marital status, height, weight: explicitly required? → almost always omit",
+          "id": "Agama, status pernikahan, tinggi, berat: diwajibkan secara eksplisit? → hampir selalu hilangkan"
          },
          {
-          "en": "One column, standard font, no tables or text boxes",
-          "id": "Satu kolom, fon standar, tanpa tabel atau kotak teks"
+          "en": "NIK / KTP number, bank details: never on the CV",
+          "id": "NIK / nomor KTP, data bank: tidak pernah di CV"
          },
          {
-          "en": "File name: Firstname-Lastname-CV-Company.pdf",
-          "id": "Nama berkas: Namadepan-Namabelakang-CV-Perusahaan.pdf"
+          "en": "Address: city/district + open to relocation",
+          "id": "Alamat: kota/kabupaten + bersedia pindah"
          },
          {
-          "en": "Dates, titles and numbers match LinkedIn and the form",
-          "id": "Tanggal, jabatan, dan angka cocok dengan LinkedIn dan formulir"
+          "en": "IPK: stated, exact, standard format (3,38 / 4,00 or 3.38 / 4.00)",
+          "id": "IPK: dicantumkan, tepat, format standar (3,38 / 4,00 atau 3.38 / 4.00)"
          },
          {
-          "en": "Read aloud once; every sentence survives",
-          "id": "Dibaca keras sekali; setiap kalimat lolos"
+          "en": "Language: one per CV, matching the advertisement and employer",
+          "id": "Bahasa: satu per CV, sesuai iklan dan perusahaan"
+         },
+         {
+          "en": "Referees: on request unless asked; permission obtained",
+          "id": "Pemberi referensi: atas permintaan kecuali diminta; izin sudah diperoleh"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.6",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "The Tailoring Workflow",
+      "id": "Alur Kerja Menyesuaikan CV"
+     },
+     "overview": {
+      "en": "Tailoring every CV from scratch is unrealistic; sending one CV everywhere is ineffective. This lesson gives you the middle path — a master, a few cluster versions, and a twenty-minute tailoring pass — plus the quality checks to run before anything is sent.",
+      "id": "Menyesuaikan setiap CV dari nol tidak realistis; mengirim satu CV ke mana-mana tidak efektif. Pelajaran ini memberimu jalan tengah — satu induk, beberapa versi rumpun, dan proses penyesuaian dua puluh menit — ditambah pemeriksaan mutu yang dijalankan sebelum apa pun dikirim."
+     },
+     "objectives": [
+      {
+       "en": "Maintain a master CV and two to four cluster versions.",
+       "id": "Memelihara CV induk dan dua sampai empat versi rumpun."
+      },
+      {
+       "en": "Complete a tailoring pass in about twenty minutes.",
+       "id": "Menyelesaikan proses penyesuaian dalam sekitar dua puluh menit."
+      },
+      {
+       "en": "Run the 30-second skim test and the pre-send quality gate.",
+       "id": "Menjalankan uji pindai 30 detik dan gerbang mutu pra-kirim."
+      },
+      {
+       "en": "Name and version files so you always know what was sent where.",
+       "id": "Menamai dan memberi versi berkas agar kamu selalu tahu apa yang dikirim ke mana."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Build once, aim many times",
+       "id": "Bangun sekali, bidikkan berkali-kali"
+      },
+      "intro": {
+       "en": "A master, two to four clusters, and a twenty-minute pass per advertisement. Nothing is sent until it passes ten questions.",
+       "id": "Satu induk, dua sampai empat rumpun, dan proses dua puluh menit per iklan. Tidak ada yang dikirim sebelum lolos sepuluh pertanyaan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Master → cluster → tailored",
+         "id": "Induk → rumpun → tersesuaikan"
+        },
+        "points": [
+         {
+          "en": "The master holds everything true and good; it is never sent.",
+          "id": "Induk memuat semua yang benar dan baik; tidak pernah dikirim."
+         },
+         {
+          "en": "A cluster version per role family; a tailored version per advertisement.",
+          "id": "Satu versi rumpun per keluarga peran; satu versi tersesuaikan per iklan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Twenty minutes, five moves",
+         "id": "Dua puluh menit, lima langkah"
+        },
+        "points": [
+         {
+          "en": "Profile · reorder · rephrase · competency statements · cut.",
+          "id": "Profil · susun ulang · ubah kata · pernyataan kompetensi · pangkas."
+         },
+         {
+          "en": "Tailoring changes emphasis and vocabulary — never facts.",
+          "id": "Penyesuaian mengubah penekanan dan kosakata — tidak pernah fakta."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two tests before sending",
+         "id": "Dua uji sebelum mengirim"
+        },
+        "points": [
+         {
+          "en": "The 30-second skim: can a stranger name your target role, three selling points and one achievement?",
+          "id": "Pindai 30 detik: bisakah orang asing menyebut peran sasaranmu, tiga daya jual, dan satu pencapaian?"
+         },
+         {
+          "en": "The ten-question quality gate. All ten must be yes.",
+          "id": "Gerbang mutu sepuluh pertanyaan. Kesepuluhnya harus ya."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Master → cluster → tailored",
+        "id": "Induk → rumpun → tersesuaikan"
+       },
+       "body": {
+        "en": "The books disagree on how far to tailor — a new CV per job <i>(Bright &amp; Earl, How to Write a Brilliant CV, ch. 14; McMunn)</i> versus one master adapted <i>(Innes, The CV Book, ch. 18; Simunovic, §6.1)</i>. The Pack’s resolution has three layers:",
+        "id": "Buku-buku tidak sepakat seberapa jauh menyesuaikan — CV baru per pekerjaan <i>(Bright &amp; Earl, How to Write a Brilliant CV, bab 14; McMunn)</i> versus satu induk yang diadaptasi <i>(Innes, The CV Book, bab 18; Simunovic, §6.1)</i>. Penyelesaian The Pack punya tiga lapisan:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Master CV</b> — everything true and good, longer than any submitted version; updated monthly. It is a document you maintain, not one you send.",
+         "id": "<b>CV induk</b> — semua yang benar dan baik, lebih panjang dari versi apa pun yang dikirim; diperbarui bulanan. Dokumen yang kamu pelihara, bukan yang kamu kirim."
+        },
+        {
+         "en": "<b>Cluster CVs (2–4)</b> — one per role cluster from your target sentence (for Nadia: <i>FMCG commercial MT</i>, <i>bank ODP</i>, <i>fintech operations</i>). Each is one page, already shaped to its cluster’s vocabulary.",
+         "id": "<b>CV rumpun (2–4)</b> — satu per rumpun peran dari kalimat sasaranmu (untuk Nadia: <i>MT komersial FMCG</i>, <i>ODP bank</i>, <i>operasional fintech</i>). Masing-masing satu halaman, sudah dibentuk sesuai kosakata rumpunnya."
+        },
+        {
+         "en": "<b>Tailored CV</b> — a cluster CV adjusted for a single advertisement in about twenty minutes.",
+         "id": "<b>CV tersesuaikan</b> — CV rumpun yang disesuaikan untuk satu iklan dalam sekitar dua puluh menit."
+        }
+       ],
+       "after": [
+        {
+         "en": "Two clusters is enough to start. If you find yourself tailoring more than a third of a cluster CV for every advertisement, the cluster is too broad — split it.",
+         "id": "Dua rumpun cukup untuk memulai. Jika kamu mendapati dirimu menyesuaikan lebih dari sepertiga CV rumpun untuk setiap iklan, rumpunnya terlalu luas — pecah."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "The twenty-minute pass",
+        "id": "Proses dua puluh menit"
+       },
+       "body": {
+        "en": "Innes lists what to tailor, in order of impact <i>(ch. 18)</i>. Set a timer; the order matters because the first two moves do most of the work.",
+        "id": "Innes mendaftar apa yang disesuaikan, berdasarkan urutan dampak <i>(bab 18)</i>. Pasang pengatur waktu; urutannya penting karena dua langkah pertama melakukan sebagian besar pekerjaan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Minute",
+          "id": "Menit"
+         },
+         {
+          "en": "Move",
+          "id": "Langkah"
+         },
+         {
+          "en": "What changes",
+          "id": "Apa yang berubah"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "0–5",
+           "id": "0–5"
+          },
+          {
+           "en": "<b>Profile and objective</b>",
+           "id": "<b>Profil dan objektif</b>"
+          },
+          {
+           "en": "Name the role family; echo their top two must-haves in the first two lines.",
+           "id": "Sebut keluarga perannya; gemakan dua syarat wajib teratas mereka di dua baris pertama."
+          }
+         ],
+         [
+          {
+           "en": "5–9",
+           "id": "5–9"
+          },
+          {
+           "en": "<b>Reorder</b>",
+           "id": "<b>Susun ulang</b>"
+          },
+          {
+           "en": "Within each role, move the bullets most relevant to this advertisement to the top.",
+           "id": "Di setiap peran, pindahkan butir yang paling relevan dengan iklan ini ke atas."
+          }
+         ],
+         [
+          {
+           "en": "9–13",
+           "id": "9–13"
+          },
+          {
+           "en": "<b>Rephrase</b>",
+           "id": "<b>Ubah kata</b>"
+          },
+          {
+           "en": "Use their vocabulary for the same thing — from your keyword table (Lesson 3.2).",
+           "id": "Pakai kosakata mereka untuk hal yang sama — dari tabel kata kuncimu (Pelajaran 3.2)."
+          }
+         ],
+         [
+          {
+           "en": "13–17",
+           "id": "13–17"
+          },
+          {
+           "en": "<b>Competency statements</b>",
+           "id": "<b>Pernyataan kompetensi</b>"
+          },
+          {
+           "en": "Swap in the 3–5 that match this advertisement’s priorities.",
+           "id": "Ganti dengan 3–5 yang cocok dengan prioritas iklan ini."
+          }
+         ],
+         [
+          {
+           "en": "17–20",
+           "id": "17–20"
+          },
+          {
+           "en": "<b>Cut</b>",
+           "id": "<b>Pangkas</b>"
+          },
+          {
+           "en": "Remove what does not raise fit here. Back to one page.",
+           "id": "Buang yang tidak menaikkan kecocokan di sini. Kembali ke satu halaman."
+          }
+         ]
+        ]
+       },
+       "after": [
+        {
+         "en": "Do not change facts. Tailoring changes <i>emphasis and vocabulary</i>, never <i>truth</i>. An internship does not become an analyst role; a three-month placement does not become six; a “helped” does not become a “led” unless you led.",
+         "id": "Jangan ubah fakta. Penyesuaian mengubah <i>penekanan dan kosakata</i>, tidak pernah <i>kebenaran</i>. Magang tidak menjadi peran analis; penempatan tiga bulan tidak menjadi enam; “membantu” tidak menjadi “memimpin” kecuali kamu memang memimpin."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "The 30-second skim test",
+        "id": "Uji pindai 30 detik"
+       },
+       "body": {
+        "en": "Give your CV to someone for 30 seconds, take it back, and ask: What role is this person targeting? What are their top three selling points? Name one achievement. If they cannot answer, restructure the top half of the page <i>(adapted from Innes, ch. 1; Knowles, How to Write an Outstanding CV, ch. 1)</i>. The tester does not need to be a recruiter — a housemate works — because the test is about where the information sits, not how expert the reader is.",
+        "id": "Berikan CV-mu kepada seseorang selama 30 detik, ambil kembali, dan tanyakan: Peran apa yang dibidik orang ini? Apa tiga daya jual teratasnya? Sebutkan satu pencapaian. Jika mereka tidak bisa menjawab, susun ulang separuh atas halaman <i>(diadaptasi dari Innes, bab 1; Knowles, How to Write an Outstanding CV, bab 1)</i>. Pengujinya tidak perlu perekrut — teman kos pun bisa — karena ujinya tentang di mana informasi berada, bukan seberapa ahli pembacanya."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The pre-send quality gate",
+        "id": "Gerbang mutu pra-kirim"
+       },
+       "body": {
+        "en": "Ten questions, all must be “yes”:",
+        "id": "Sepuluh pertanyaan, semuanya harus “ya”:"
+       },
+       "bullets": [
+        {
+         "en": "Is my name the title, with phone, email, LinkedIn and city at the top?",
+         "id": "Apakah namaku adalah judulnya, dengan telepon, email, LinkedIn, dan kota di atas?"
+        },
+        {
+         "en": "Does the first line of my profile name the target role?",
+         "id": "Apakah baris pertama profilku menyebut peran sasaran?"
+        },
+        {
+         "en": "Does every must-have from the advertisement appear — truthfully — somewhere?",
+         "id": "Apakah setiap syarat wajib dari iklan muncul — dengan jujur — di suatu tempat?"
+        },
+        {
+         "en": "Does every bullet start with a verb and show a result or scale?",
+         "id": "Apakah setiap butir dimulai dengan kata kerja dan menunjukkan hasil atau skala?"
+        },
+        {
+         "en": "Is there at least one number in most roles?",
+         "id": "Apakah ada setidaknya satu angka di sebagian besar peran?"
+        },
+        {
+         "en": "Are there 3–5 evidenced competency statements?",
+         "id": "Apakah ada 3–5 pernyataan kompetensi berbukti?"
+        },
+        {
+         "en": "Is IPK stated in the right format?",
+         "id": "Apakah IPK dicantumkan dalam format yang benar?"
+        },
+        {
+         "en": "Have I made each Indonesian decision (photo, DOB, etc.) deliberately for <i>this</i> application?",
+         "id": "Apakah aku sudah mengambil setiap keputusan khas Indonesia (foto, tanggal lahir, dll.) dengan sengaja untuk lamaran <i>ini</i>?"
+        },
+        {
+         "en": "Has someone else proofread it? Typos are the most common single eliminator.",
+         "id": "Apakah orang lain sudah membaca ulang? Salah ketik adalah penggugur tunggal yang paling umum."
+        },
+        {
+         "en": "Could I talk for two minutes about every line?",
+         "id": "Bisakah aku berbicara dua menit tentang setiap baris?"
+        }
+       ]
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Files and versions",
+        "id": "Berkas dan versi"
+       },
+       "body": {
+        "en": "Name files so a recruiter can find them and you can track them: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, never <code>CV final revisi 3.pdf</code> <i>(Innes, ch. 2)</i>. Record the version in your Pipeline Tracker (Lesson 1.4) — when the recruiter calls, you must know which document they are holding. Keep the LinkedIn profile consistent with the facts on every version (Module 5): dates, titles and IPK identical everywhere, because recruiters compare.",
+        "id": "Namai berkas agar perekrut bisa menemukannya dan kamu bisa melacaknya: <b><code>NadiaPutri_CV_Arunika_MT.pdf</code></b>, jangan pernah <code>CV final revisi 3.pdf</code> <i>(Innes, bab 2)</i>. Catat versinya di Pelacak Alur (Pelajaran 1.4) — ketika perekrut menelepon, kamu harus tahu dokumen mana yang mereka pegang. Jaga profil LinkedIn konsisten dengan fakta di setiap versi (Modul 5): tanggal, jabatan, dan IPK identik di mana-mana, karena perekrut membandingkan."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 10: Three layers, one truth",
+       "id": "Peraga 10: Tiga lapisan, satu kebenaran"
+      },
+      "title": {
+       "en": "Master → clusters → tailored → gate → send",
+       "id": "Induk → rumpun → tersesuaikan → gerbang → kirim"
+      },
+      "items": [
+       {
+        "h": {
+         "en": "Master",
+         "id": "Induk"
+        },
+        "sub": {
+         "en": "Everything true and good. Updated monthly. Never sent.",
+         "id": "Semua yang benar dan baik. Diperbarui bulanan. Tidak pernah dikirim."
+        }
+       },
+       {
+        "h": {
+         "en": "Clusters (2–4)",
+         "id": "Rumpun (2–4)"
+        },
+        "sub": {
+         "en": "One page per role family: FMCG MT · bank ODP · fintech ops.",
+         "id": "Satu halaman per keluarga peran: MT FMCG · ODP bank · operasional fintech."
+        }
+       },
+       {
+        "h": {
+         "en": "Tailored",
+         "id": "Tersesuaikan"
+        },
+        "sub": {
+         "en": "Twenty minutes per advertisement: profile, reorder, rephrase, statements, cut.",
+         "id": "Dua puluh menit per iklan: profil, susun ulang, ubah kata, pernyataan, pangkas."
+        }
+       },
+       {
+        "h": {
+         "en": "Gate",
+         "id": "Gerbang"
+        },
+        "sub": {
+         "en": "Skim test + ten questions + a second pair of eyes.",
+         "id": "Uji pindai + sepuluh pertanyaan + sepasang mata kedua."
+        }
+       },
+       {
+        "h": {
+         "en": "Send and log",
+         "id": "Kirim dan catat"
+        },
+        "sub": {
+         "en": "Named file, version in the tracker, LinkedIn consistent.",
+         "id": "Berkas bernama, versi di pelacak, LinkedIn konsisten."
+        }
+       }
+      ],
+      "note": {
+       "en": "Facts flow down unchanged from the master. Only emphasis and vocabulary change on the way.",
+       "id": "Fakta mengalir turun tanpa berubah dari induk. Hanya penekanan dan kosakata yang berubah di perjalanan."
+      },
+      "longdesc": {
+       "en": "A five-step flow: a master CV that holds everything and is never sent; two to four one-page cluster CVs by role family; a tailored version produced in twenty minutes per advertisement; a gate consisting of the skim test, ten questions and a proofreader; then sending with a named file, the version logged in the tracker, and LinkedIn kept consistent.",
+       "id": "Alur lima langkah: CV induk yang memuat segalanya dan tidak pernah dikirim; dua sampai empat CV rumpun satu halaman per keluarga peran; versi tersesuaikan yang dibuat dalam dua puluh menit per iklan; gerbang berupa uji pindai, sepuluh pertanyaan, dan pembaca ulang; lalu pengiriman dengan berkas bernama, versi dicatat di pelacak, dan LinkedIn dijaga konsisten."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "One profile, two clusters",
+        "id": "Satu profil, dua rumpun"
+       },
+       "q": {
+        "en": "Nadia’s first profile line, tailored from the FMCG cluster to KilatPay’s operations posting.",
+        "id": "Baris pertama profil Nadia, disesuaikan dari rumpun FMCG ke lowongan operasional KilatPay."
+       },
+       "weak": {
+        "en": "Sent unchanged: “Management graduate targeting commercial and supply-chain trainee roles in consumer goods.”",
+        "id": "Dikirim tanpa perubahan: “Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi.”"
+       },
+       "strong": {
+        "en": "“Management graduate targeting business-operations roles in fintech, with hands-on reconciliation experience: matched daily transaction reports across 3 bank branches and traced a recurring settlement mismatch to its source.”",
+        "id": "“Lulusan Manajemen yang membidik peran business operations di fintech, dengan pengalaman rekonsiliasi langsung: mencocokkan laporan transaksi harian di 3 cabang bank dan melacak ketidakcocokan settlement berulang sampai ke sumbernya.”"
+       },
+       "why": {
+        "en": "Same facts, same person. The tailored line names the role KilatPay is hiring for and uses its words — reconciliation, settlement — in the first sentence a recruiter reads.",
+        "id": "Fakta yang sama, orang yang sama. Baris yang disesuaikan menyebut peran yang direkrut KilatPay dan memakai kata-katanya — rekonsiliasi, settlement — di kalimat pertama yang dibaca perekrut."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the version she could not remember",
+       "id": "Sorotan: versi yang tidak bisa ia ingat"
+      },
+      "body": [
+       {
+        "en": "A recruiter from Rumah Rempah calls Nadia on a Tuesday afternoon. “I have your CV in front of me — tell me more about the workshop you ran for small businesses.” Nadia has sent four versions of her CV in the past month, and in one of them the KKN workshop is a single line; in another it is a full bullet with the adoption rate. She does not know which one the recruiter is reading, so she cannot tell whether “12 of 18 adopted the template” will land as a repeat or as news.",
+        "id": "Seorang perekrut dari Rumah Rempah menelepon Nadia pada Selasa sore. “CV-mu ada di depan saya — ceritakan lebih banyak tentang lokakarya yang kamu jalankan untuk usaha kecil.” Nadia telah mengirim empat versi CV-nya dalam sebulan terakhir, dan di salah satunya lokakarya KKN hanya satu baris; di versi lain berupa butir penuh dengan tingkat adopsi. Ia tidak tahu versi mana yang dibaca perekrut, jadi ia tidak bisa menilai apakah “12 dari 18 mengadopsi templat” akan terdengar sebagai pengulangan atau kabar baru."
+       },
+       {
+        "en": "After the call she renames every file — <code>NadiaPutri_CV_RumahRempah_Ops.pdf</code> — and adds a “CV version” column to her tracker. The next call, she opens the tracker before she says hello.",
+        "id": "Setelah panggilan itu ia mengganti nama setiap berkas — <code>NadiaPutri_CV_RumahRempah_Ops.pdf</code> — dan menambahkan kolom “versi CV” ke pelacaknya. Pada panggilan berikutnya, ia membuka pelacak sebelum mengucapkan halo."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 — Tailor under the clock",
+        "id": "Latihan 1 — Sesuaikan dengan pengatur waktu"
+       },
+       "body": {
+        "en": "Take Nadia’s cluster CV (FMCG commercial) and tailor it to the KilatPay Business Operations Associate advertisement (Lesson 3.2’s In focus: daily reconciliation and settlement reporting for merchant payouts; work with finance and engineering to resolve exceptions; build dashboards; SQL a plus) in 20 minutes. Write down the five moves you make.",
+        "id": "Ambil CV rumpun Nadia (komersial FMCG) dan sesuaikan untuk iklan Business Operations Associate KilatPay (Sorotan Pelajaran 3.2: rekonsiliasi harian dan pelaporan settlement untuk pembayaran merchant; bekerja dengan finance dan engineering untuk menyelesaikan pengecualian; membangun dasbor; SQL menjadi nilai tambah) dalam 20 menit. Tulis lima langkah yang kamu lakukan."
+       },
+       "debrief": {
+        "en": "The profile should shift from “consumer goods” to “fintech operations”; the bank internship bullets move to the top of experience; the café pre-order improvement becomes a competency statement for “process improvement”; the sponsorship bullet shortens; “Google Sheets dashboards for HIMA’s budget” is rephrased toward “built dashboards”. SQL stays honest: absent, or “currently completing an introductory SQL course” if that is true.",
+        "id": "Profil harus bergeser dari “barang konsumsi” ke “operasional fintech”; butir magang bank pindah ke atas pengalaman; perbaikan pra-pesan kafe menjadi pernyataan kompetensi untuk “perbaikan proses”; butir sponsor dipersingkat; “dasbor Google Sheets untuk anggaran HIMA” diubah kata ke arah “membangun dasbor”. SQL tetap jujur: tidak ada, atau “sedang menyelesaikan kursus pengantar SQL” jika memang benar."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 — Skim test",
+        "id": "Latihan 2 — Uji pindai"
+       },
+       "body": {
+        "en": "Swap CVs with a peer for 30 seconds each. Then ask each other the three questions: target role? top three selling points? one achievement?",
+        "id": "Bertukar CV dengan rekan selama 30 detik masing-masing. Lalu saling ajukan tiga pertanyaan: peran sasaran? tiga daya jual teratas? satu pencapaian?"
+       },
+       "debrief": {
+        "en": "Record what they recalled. If they missed the target role, the profile’s first line is the fix. If they recalled a hobby instead of an achievement, the Fit Rule has more work to do. Most first drafts pass on the role and fail on the achievement — the numbers are there, but not in the first words of a bullet.",
+        "id": "Catat apa yang mereka ingat. Jika mereka melewatkan peran sasaran, baris pertama profil adalah perbaikannya. Jika mereka mengingat hobi alih-alih pencapaian, Aturan Kecocokan masih punya pekerjaan. Kebanyakan draf pertama lolos pada peran dan gagal pada pencapaian — angkanya ada, tetapi tidak di kata-kata pertama sebuah butir."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 — Quality gate",
+        "id": "Latihan 3 — Gerbang mutu"
+       },
+       "body": {
+        "en": "Run the ten questions on your own tailored CV. Mark each yes or no; do not round a “mostly” up to a yes.",
+        "id": "Jalankan sepuluh pertanyaan pada CV tersesuaikanmu sendiri. Tandai masing-masing ya atau tidak; jangan bulatkan “hampir” menjadi ya."
+       },
+       "debrief": {
+        "en": "Most first drafts fail on Q3 (a missing must-have) or Q9 (unproofread). Q10 is the one people skip: read each line aloud and imagine an interviewer saying “tell me more about that”. Any line that makes you wince is either cut or rewritten until it is true and defensible.",
+        "id": "Kebanyakan draf pertama gagal pada P3 (syarat wajib yang hilang) atau P9 (belum dibaca ulang orang lain). P10 adalah yang sering dilewati: baca setiap baris dengan lantang dan bayangkan pewawancara berkata “ceritakan lebih banyak tentang itu”. Baris apa pun yang membuatmu meringis entah dipangkas atau ditulis ulang sampai benar dan bisa dipertahankan."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Responsibilities instead of results",
-         "id": "Tanggung jawab, bukan hasil"
+         "en": "Tailoring by changing facts",
+         "id": "Menyesuaikan dengan mengubah fakta"
         },
         "fix": {
-         "en": "“Responsible for social media” describes the seat. “Grew the account from 800 to 4,000 followers in one semester with a weekly content calendar” describes you.",
-         "id": "“Bertanggung jawab atas media sosial” menggambarkan kursinya. “Menumbuhkan akun dari 800 ke 4.000 pengikut dalam satu semester dengan kalender konten mingguan” menggambarkan dirimu."
+         "en": "Change emphasis and vocabulary only.",
+         "id": "Ubah penekanan dan kosakata saja."
         }
        },
        {
         "h": {
-         "en": "Two pages for two years of experience",
-         "id": "Dua halaman untuk dua tahun pengalaman"
+         "en": "One CV for every application",
+         "id": "Satu CV untuk setiap lamaran"
         },
         "fix": {
-         "en": "Under five years: one page. Cut the oldest and weakest lines, not the font size.",
-         "id": "Di bawah lima tahun: satu halaman. Potong baris tertua dan terlemah, bukan ukuran fon."
+         "en": "At least one version per role cluster.",
+         "id": "Setidaknya satu versi per rumpun peran."
         }
        },
        {
         "h": {
-         "en": "Personal data that invites bias",
-         "id": "Data pribadi yang mengundang bias"
+         "en": "Untracked versions",
+         "id": "Versi yang tidak dilacak"
         },
         "fix": {
-         "en": "Religion, marital status, ID number and a full address add risk and no signal. City, email, phone, LinkedIn — that is all.",
-         "id": "Agama, status perkawinan, nomor KTP, dan alamat lengkap menambah risiko tanpa sinyal. Kota, email, telepon, LinkedIn — cukup itu."
+         "en": "Name files clearly and log them in the tracker.",
+         "id": "Namai berkas dengan jelas dan catat di pelacak."
+        }
+       },
+       {
+        "h": {
+         "en": "Sending without a second reader",
+         "id": "Mengirim tanpa pembaca kedua"
+        },
+        "fix": {
+         "en": "Typos end first reads; someone else proofreads, every time.",
+         "id": "Salah ketik mengakhiri pembacaan pertama; orang lain membaca ulang, setiap kali."
         }
        }
       ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Master CV",
+        "id": "CV induk"
+       },
+       "def": {
+        "en": "The complete record you maintain and never send.",
+        "id": "Rekam lengkap yang kamu pelihara dan tidak pernah kirim."
+       }
+      },
+      {
+       "term": {
+        "en": "Cluster CV",
+        "id": "CV rumpun"
+       },
+       "def": {
+        "en": "A one-page version shaped to one role family’s vocabulary.",
+        "id": "Versi satu halaman yang dibentuk sesuai kosakata satu keluarga peran."
+       }
+      },
+      {
+       "term": {
+        "en": "Tailoring pass",
+        "id": "Proses penyesuaian"
+       },
+       "def": {
+        "en": "The twenty-minute adjustment of a cluster CV to one advertisement: profile, reorder, rephrase, statements, cut.",
+        "id": "Penyesuaian dua puluh menit CV rumpun untuk satu iklan: profil, susun ulang, ubah kata, pernyataan, pangkas."
+       }
+      },
+      {
+       "term": {
+        "en": "Skim test",
+        "id": "Uji pindai"
+       },
+       "def": {
+        "en": "Thirty seconds with a stranger; can they name the role, three selling points and one achievement?",
+        "id": "Tiga puluh detik dengan orang asing; bisakah mereka menyebut peran, tiga daya jual, dan satu pencapaian?"
+       }
+      },
+      {
+       "term": {
+        "en": "Quality gate",
+        "id": "Gerbang mutu"
+       },
+       "def": {
+        "en": "Ten yes/no questions a CV must pass before it is sent.",
+        "id": "Sepuluh pertanyaan ya/tidak yang harus dilewati CV sebelum dikirim."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which tailoring change has the highest impact?",
+        "id": "Perubahan penyesuaian mana yang berdampak paling tinggi?"
+       },
+       "options": [
+        {
+         "en": "Changing the font",
+         "id": "Mengganti fon"
+        },
+        {
+         "en": "Rewriting the profile’s first line to name the target role and top must-haves",
+         "id": "Menulis ulang baris pertama profil untuk menyebut peran sasaran dan syarat wajib teratas"
+        },
+        {
+         "en": "Adding a photo",
+         "id": "Menambah foto"
+        },
+        {
+         "en": "Changing margins",
+         "id": "Mengubah margin"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The first line sits where the skim reads; it tells the recruiter what you are for in their own words.",
+        "id": "Baris pertama berada di tempat pindaian membaca; ia memberi tahu perekrut untuk apa kamu melamar dengan kata-kata mereka sendiri."
+       }
+      },
+      {
+       "q": {
+        "en": "Which is acceptable tailoring?",
+        "id": "Mana penyesuaian yang dapat diterima?"
+       },
+       "options": [
+        {
+         "en": "Changing your title from “Intern” to “Analyst”",
+         "id": "Mengubah jabatanmu dari “Intern” menjadi “Analyst”"
+        },
+        {
+         "en": "Moving the most relevant bullets to the top and using the advertisement’s vocabulary for the same work",
+         "id": "Memindahkan butir paling relevan ke atas dan memakai kosakata iklan untuk pekerjaan yang sama"
+        },
+        {
+         "en": "Adding a skill you don’t have",
+         "id": "Menambah keterampilan yang tidak kamu punya"
+        },
+        {
+         "en": "Changing dates",
+         "id": "Mengubah tanggal"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Emphasis and vocabulary change; facts do not.",
+        "id": "Penekanan dan kosakata berubah; fakta tidak."
+       }
+      },
+      {
+       "q": {
+        "en": "A good file name is…",
+        "id": "Nama berkas yang baik adalah…"
+       },
+       "options": [
+        {
+         "en": "“CV.pdf”",
+         "id": "“CV.pdf”"
+        },
+        {
+         "en": "“CV final FIX 2.pdf”",
+         "id": "“CV final FIX 2.pdf”"
+        },
+        {
+         "en": "“NadiaPutri_CV_KilatPay_Ops.pdf”",
+         "id": "“NadiaPutri_CV_KilatPay_Ops.pdf”"
+        },
+        {
+         "en": "“Untitled.pdf”",
+         "id": "“Untitled.pdf”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Name, document, employer, role: findable for the recruiter, traceable for you.",
+        "id": "Nama, dokumen, perusahaan, peran: mudah ditemukan perekrut, mudah dilacak olehmu."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Tailor mode",
+       "id": "Mode penyesuaian"
+      },
+      "body": {
+       "en": "Open a cluster CV beside one advertisement in the Studio: must-have coverage highlighted, a 20-minute timer, the ten-question gate, and a versioned export whose file name is logged to the tracker. Your first tailored CV is Dossier item 3’s third piece.",
+       "id": "Buka satu CV rumpun di samping satu iklan di Studio: cakupan syarat wajib disorot, pengatur waktu 20 menit, gerbang sepuluh pertanyaan, dan ekspor berversi yang nama berkasnya dicatat ke pelacak. CV tersesuaikan pertamamu adalah bagian ketiga butir Dossier 3."
+      },
+      "cta": {
+       "en": "Open the CV Studio →",
+       "id": "Buka Studio CV →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Master, clusters, tailored: build once, aim many times.",
+       "id": "Induk, rumpun, tersesuaikan: bangun sekali, bidikkan berkali-kali."
+      },
+      {
+       "en": "Tailoring changes emphasis and vocabulary — never facts.",
+       "id": "Penyesuaian mengubah penekanan dan kosakata — tidak pernah fakta."
+      },
+      {
+       "en": "Nothing is sent until it passes the quality gate and someone else has read it.",
+       "id": "Tidak ada yang dikirim sebelum lolos gerbang mutu dan dibaca orang lain."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the gate",
+       "id": "Sumber dan gerbang"
+      },
+      "lead": {
+       "en": "The ten questions as a checklist, and the file-naming convention.",
+       "id": "Sepuluh pertanyaan sebagai daftar periksa, dan konvensi penamaan berkas."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.6",
+         "id": "Daftar bacaan · Pelajaran 3.6"
+        },
+        "desc": {
+         "en": "Five sources.",
+         "id": "Lima sumber."
+        },
+        "body": [
+         {
+          "en": "J. Innes, <i>The CV Book</i> (3rd ed., 2016), ch. 1–2, 18 — the skim; file names; what to tailor, in order.",
+          "id": "J. Innes, <i>The CV Book</i> (ed. ke-3, 2016), bab 1–2, 18 — pindaian; nama berkas; apa yang disesuaikan, berurutan."
+         },
+         {
+          "en": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.1 — one master, adapted.",
+          "id": "L. Simunovic, <i>How to Write an Effective CV &amp; Cover Letter</i> (2022), §6.1 — satu induk, diadaptasi."
+         },
+         {
+          "en": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (5th ed., 2015), ch. 14 — a new CV per job (the other side of the debate).",
+          "id": "J. Bright, J. Earl &amp; D. Winter, <i>How to Write a Brilliant CV</i> (ed. ke-5, 2015), bab 14 — CV baru per pekerjaan (sisi lain perdebatan)."
+         },
+         {
+          "en": "R. McMunn, <i>How to Write a CV</i>, ch. 1, 4 — matching vocabulary to the advertisement.",
+          "id": "R. McMunn, <i>How to Write a CV</i>, bab 1, 4 — mencocokkan kosakata dengan iklan."
+         },
+         {
+          "en": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), ch. 1 — the first read as a test.",
+          "id": "A. Knowles, <i>How to Write an Outstanding CV</i> (2013), bab 1 — pembacaan pertama sebagai uji."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Pre-send quality gate · ten questions",
+         "id": "Gerbang mutu pra-kirim · sepuluh pertanyaan"
+        },
+        "desc": {
+         "en": "All ten must be yes.",
+         "id": "Kesepuluhnya harus ya."
+        },
+        "body": [
+         {
+          "en": "Name as title, with phone, email, LinkedIn, city",
+          "id": "Nama sebagai judul, dengan telepon, email, LinkedIn, kota"
+         },
+         {
+          "en": "Profile’s first line names the target role",
+          "id": "Baris pertama profil menyebut peran sasaran"
+         },
+         {
+          "en": "Every must-have appears, truthfully",
+          "id": "Setiap syarat wajib muncul, dengan jujur"
+         },
+         {
+          "en": "Every bullet starts with a verb and shows a result or scale",
+          "id": "Setiap butir dimulai dengan kata kerja dan menunjukkan hasil atau skala"
+         },
+         {
+          "en": "At least one number in most roles",
+          "id": "Setidaknya satu angka di sebagian besar peran"
+         },
+         {
+          "en": "3–5 evidenced competency statements",
+          "id": "3–5 pernyataan kompetensi berbukti"
+         },
+         {
+          "en": "IPK stated in the right format",
+          "id": "IPK dicantumkan dalam format yang benar"
+         },
+         {
+          "en": "Each Indonesian decision made deliberately for this application",
+          "id": "Setiap keputusan khas Indonesia diambil dengan sengaja untuk lamaran ini"
+         },
+         {
+          "en": "Proofread by someone else",
+          "id": "Dibaca ulang oleh orang lain"
+         },
+         {
+          "en": "Two minutes of honest talk possible on every line",
+          "id": "Dua menit percakapan jujur mungkin untuk setiap baris"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "File naming",
+         "id": "Penamaan berkas"
+        },
+        "desc": {
+         "en": "One pattern, every time.",
+         "id": "Satu pola, setiap kali."
+        },
+        "body": [
+         {
+          "en": "FirstnameLastname_CV_Employer_Role.pdf → NadiaPutri_CV_Arunika_MT.pdf",
+          "id": "NamaDepanNamaBelakang_CV_Perusahaan_Peran.pdf → NadiaPutri_CV_Arunika_MT.pdf"
+         },
+         {
+          "en": "Log in the tracker: employer · role · CV version (file name) · date sent",
+          "id": "Catat di pelacak: perusahaan · peran · versi CV (nama berkas) · tanggal kirim"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.7",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "90 min",
+      "id": "90 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Rebuild Nadia’s CV",
+      "id": "Tugas Kasus — Bangun Ulang CV Nadia"
+     },
+     "overview": {
+      "en": "Nadia’s current CV is in the case file. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Diagnose the old CV, interrogate the advertisement, rewrite the evidence, make the Indonesian decisions, and assemble a one-page CV that passes the quality gate.",
+      "id": "CV Nadia saat ini ada di berkas kasus. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Diagnosis CV lama, interogasi iklannya, tulis ulang buktinya, ambil keputusan khas Indonesia, dan rakit CV satu halaman yang lolos gerbang mutu."
+     },
+     "objectives": [
+      {
+       "en": "Diagnose a real CV against the research and the rules of this module.",
+       "id": "Mendiagnosis CV nyata terhadap penelitian dan aturan modul ini."
+      },
+      {
+       "en": "Rewrite five bullets and three competency statements from a pantry, for one advertisement.",
+       "id": "Menulis ulang lima butir dan tiga pernyataan kompetensi dari lemari, untuk satu iklan."
+      },
+      {
+       "en": "Write a targeted profile and justify each Indonesian decision.",
+       "id": "Menulis profil terbidik dan membenarkan setiap keputusan khas Indonesia."
+      },
+      {
+       "en": "Assemble and gate a one-page CV.",
+       "id": "Merakit dan menguji CV satu halaman."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Rebuild it as if she had asked you",
+       "id": "Bangun ulang seolah ia memintamu"
+      },
+      "intro": {
+       "en": "Seven steps, eight written answers. Read the three case-file tabs first — the old CV, the advertisement and the pantry — then work through the module in order.",
+       "id": "Tujuh langkah, delapan jawaban tertulis. Baca tiga tab berkas kasus lebih dulu — CV lama, iklan, dan lemari — lalu kerjakan modul ini berurutan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The case file",
+         "id": "Berkas kasus"
+        },
+        "points": [
+         {
+          "en": "<b>Before CV</b> — Nadia’s current two-column Canva CV, reproduced as text.",
+          "id": "<b>CV sebelum</b> — CV Canva dua kolom Nadia saat ini, direproduksi sebagai teks."
+         },
+         {
+          "en": "<b>The advertisement</b> — Arunika’s MT posting, as in Lesson 3.2.",
+          "id": "<b>Iklan</b> — lowongan MT Arunika, seperti di Pelajaran 3.2."
+         },
+         {
+          "en": "<b>The pantry</b> — her evidence, as found in Lessons 3.3 and 3.4.",
+          "id": "<b>Lemari</b> — buktinya, seperti ditemukan di Pelajaran 3.3 dan 3.4."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Work the module in order",
+         "id": "Kerjakan modul berurutan"
+        },
+        "points": [
+         {
+          "en": "Diagnose (3.1) → job detective (3.2) → bullets and statements (3.4) → profile and decisions (3.5) → assemble and gate (3.6).",
+          "id": "Diagnosis (3.1) → detektif lowongan (3.2) → butir dan pernyataan (3.4) → profil dan keputusan (3.5) → rakit dan uji (3.6)."
+         },
+         {
+          "en": "The signal panel checks whether the ideas from each lesson appear in your answers.",
+          "id": "Panel sinyal memeriksa apakah gagasan dari setiap pelajaran muncul dalam jawabanmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What good looks like",
+         "id": "Seperti apa yang baik"
+        },
+        "points": [
+         {
+          "en": "Every problem named with the rule it breaks; every bullet on the formula and defensible; three statements with proof; a profile under 80 words; decisions with reasons; a page that passes ten questions.",
+          "id": "Setiap masalah disebut dengan aturan yang dilanggarnya; setiap butir sesuai rumus dan bisa dipertahankan; tiga pernyataan dengan bukti; profil di bawah 80 kata; keputusan dengan alasan; halaman yang lolos sepuluh pertanyaan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK3",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Rebuild Nadia’s CV",
+       "id": "Bangun Ulang CV Nadia"
+      },
+      "lead": {
+       "en": "Nadia’s current CV is attached. PT Arunika’s Management Trainee (Sales &amp; Supply Chain) window opens in six weeks. Rebuild her CV for it — on paper here, then in the Studio.",
+       "id": "CV Nadia saat ini terlampir. Jendela Management Trainee (Sales &amp; Supply Chain) PT Arunika dibuka enam minggu lagi. Bangun ulang CV-nya untuk itu — di sini di atas kertas, lalu di Studio."
+      },
+      "practice": [
+       {
+        "en": "Diagnose against the research",
+        "id": "Mendiagnosis terhadap penelitian"
+       },
+       {
+        "en": "Read the advertisement as a detective",
+        "id": "Membaca iklan seperti detektif"
+       },
+       {
+        "en": "Write bullets and statements that prove",
+        "id": "Menulis butir dan pernyataan yang membuktikan"
+       },
+       {
+        "en": "Decide the Indonesian items deliberately",
+        "id": "Memutuskan hal khas Indonesia dengan sengaja"
+       }
+      ],
+      "goal": {
+       "en": "A one-page CV for Arunika that a recruiter can read in seven seconds and Nadia can defend for two minutes a line.",
+       "id": "CV satu halaman untuk Arunika yang bisa dibaca perekrut dalam tujuh detik dan bisa dipertahankan Nadia dua menit per baris."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Wednesday, 21:40",
+         "id": "Rabu, 21.40"
+        },
+        "subject": {
+         "en": "CV untuk MT Arunika — boleh tolong dicek?",
+         "id": "CV untuk MT Arunika — boleh tolong dicek?"
+        },
+        "paragraphs": [
+         {
+          "en": "The Arunika MT registration opens in six weeks and I want to use the time properly. I attach the CV I have been sending — it is the Canva template a friend recommended.",
+          "id": "Pendaftaran MT Arunika dibuka enam minggu lagi dan aku ingin memakai waktunya dengan benar. Kulampirkan CV yang selama ini kukirim — templat Canva yang disarankan teman."
+         },
+         {
+          "en": "I did the discovery interview and the trigger sweep from Lessons 3.3 and 3.4, so my pantry is attached too. I still find it hard to write the bullets without feeling I am exaggerating.",
+          "id": "Aku sudah melakukan wawancara penemuan dan sapuan pemicu dari Pelajaran 3.3 dan 3.4, jadi lemariku juga terlampir. Aku masih sulit menulis butirnya tanpa merasa melebih-lebihkan."
+         },
+         {
+          "en": "Also: should I keep the photo? My mother says a CV without a photo looks incomplete.",
+          "id": "Juga: apakah fotonya tetap dipakai? Ibuku bilang CV tanpa foto terlihat tidak lengkap."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Tell me what is wrong with the current CV, and why.",
+          "id": "Katakan apa yang salah dengan CV saat ini, dan mengapa."
+         },
+         {
+          "en": "Rewrite the most important bullets so I can see the standard.",
+          "id": "Tulis ulang butir-butir terpenting agar aku bisa melihat standarnya."
+         },
+         {
+          "en": "Help me decide the photo, my birth date and the other personal details for this application.",
+          "id": "Bantu aku memutuskan foto, tanggal lahir, dan data pribadi lain untuk lamaran ini."
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih banyak. — Nadia",
+          "id": "Terima kasih banyak. — Nadia"
+         }
+        ]
+       },
+       "docs": [
+        {
+         "tab": {
+          "en": "Before CV",
+          "id": "CV sebelum"
+         },
+         "title": {
+          "en": "Nadia’s current CV — reproduced as text",
+          "id": "CV Nadia saat ini — direproduksi sebagai teks"
+         },
+         "meta": {
+          "en": "Two-column Canva template · photo top-left · skill bars · 2 pages",
+          "id": "Templat Canva dua kolom · foto kiri atas · bilah keterampilan · 2 halaman"
+         },
+         "body": [
+          {
+           "en": "<b>CURRICULUM VITAE</b> · [photo] · Nadia Putri · Born: Semarang, 3 March 2004 · Religion: Islam · Marital status: single · Jl. Kenanga No. 12, RT 03/RW 05, Semarang · nadiaputri_cute@…",
+           "id": "<b>CURRICULUM VITAE</b> · [foto] · Nadia Putri · Lahir: Semarang, 3 Maret 2004 · Agama: Islam · Status: belum menikah · Jl. Kenanga No. 12, RT 03/RW 05, Semarang · nadiaputri_cute@…"
+          },
+          {
+           "h": {
+            "en": "Objective",
+            "id": "Objektif"
+           }
+          },
+          {
+           "en": "To obtain a challenging position in a reputable company where I can grow and contribute my skills.",
+           "id": "Mendapatkan posisi yang menantang di perusahaan ternama tempat saya bisa berkembang dan menyumbangkan keterampilan saya."
+          },
+          {
+           "h": {
+            "en": "Skills",
+            "id": "Keterampilan"
+           }
+          },
+          {
+           "en": "Communication ●●●●● 90% · Leadership ●●●●○ 80% · Teamwork ●●●●● 95% · Microsoft Office ●●●○○ · Hard-working, honest, fast learner",
+           "id": "Komunikasi ●●●●● 90% · Kepemimpinan ●●●●○ 80% · Kerja Sama Tim ●●●●● 95% · Microsoft Office ●●●○○ · Pekerja keras, jujur, cepat belajar"
+          },
+          {
+           "h": {
+            "en": "Education",
+            "id": "Pendidikan"
+           }
+          },
+          {
+           "en": "S1 Manajemen, a private university in Semarang, 2022–2026.",
+           "id": "S1 Manajemen, sebuah universitas swasta di Semarang, 2022–2026."
+          },
+          {
+           "h": {
+            "en": "Experience",
+            "id": "Pengalaman"
+           }
+          },
+          {
+           "en": "Internship, Bank Sinar Nusantara (2025). Responsible for daily operations and administration at the branch. Helped with reports.",
+           "id": "Magang, Bank Sinar Nusantara (2025). Bertanggung jawab atas operasional harian dan administrasi di cabang. Membantu laporan."
+          },
+          {
+           "en": "Barista, Kopi Tepian (2023–2025). Responsible for making coffee, serving customers, handling the cashier and cleaning.",
+           "id": "Barista, Kopi Tepian (2023–2025). Bertanggung jawab membuat kopi, melayani pelanggan, menangani kasir, dan membersihkan."
+          },
+          {
+           "h": {
+            "en": "Organisational Experience",
+            "id": "Pengalaman Organisasi"
+           }
+          },
+          {
+           "en": "Treasurer, HIMA Manajemen (2024–2025) · Sponsorship Coordinator, campus business competition (2024) · KKN Kendal (2025)",
+           "id": "Bendahara, HIMA Manajemen (2024–2025) · Koordinator Sponsorship, kompetisi bisnis kampus (2024) · KKN Kendal (2025)"
+          },
+          {
+           "h": {
+            "en": "Hobbies",
+            "id": "Hobi"
+           }
+          },
+          {
+           "en": "Reading, travelling, music.",
+           "id": "Membaca, jalan-jalan, musik."
+          }
+         ],
+         "note": {
+          "en": "IPK does not appear anywhere. The transcript says 3,38 / 4,00.",
+          "id": "IPK tidak muncul di mana pun. Transkrip menyebut 3,38 / 4,00."
+         }
+        },
+        {
+         "tab": {
+          "en": "The advertisement",
+          "id": "Iklan"
+         },
+         "title": {
+          "en": "PT Arunika Consumer Goods — Management Trainee (Sales &amp; Supply Chain)",
+          "id": "PT Arunika Consumer Goods — Management Trainee (Sales &amp; Supply Chain)"
+         },
+         "meta": {
+          "en": "Fictional employer · registration opens in six weeks · cohort of 30",
+          "id": "Perusahaan fiktif · pendaftaran dibuka enam minggu lagi · angkatan 30 orang"
+         },
+         "body": [
+          {
+           "en": "Join a 24-month rotational programme across sales, distribution and supply chain in a fast-paced environment. We look for strong analytical skills, comfort with ambiguity, leadership experience in organisations, and active English.",
+           "id": "Bergabunglah dalam program rotasi 24 bulan lintas penjualan, distribusi, dan rantai pasok di lingkungan yang serba cepat. Kami mencari kemampuan analitis yang kuat, kenyamanan dengan ambiguitas, pengalaman kepemimpinan di organisasi, dan bahasa Inggris aktif."
+          },
+          {
+           "items": [
+            {
+             "en": "Min. IPK 3,00 · graduated within the last two years · S1 any major",
+             "id": "IPK min. 3,00 · lulus dalam dua tahun terakhir · S1 semua jurusan"
+            },
+            {
+             "en": "Willing to be placed anywhere in Indonesia",
+             "id": "Bersedia ditempatkan di seluruh Indonesia"
+            },
+            {
+             "en": "Experience in sales or operations is an advantage",
+             "id": "Pengalaman di penjualan atau operasional menjadi nilai tambah"
+            },
+            {
+             "en": "Proficiency in Microsoft Excel; familiarity with SAP is a plus",
+             "id": "Kemahiran Microsoft Excel; keakraban dengan SAP menjadi nilai tambah"
+            },
+            {
+             "en": "Apply in English via the careers portal: CV (PDF) and transcript",
+             "id": "Lamar dalam bahasa Inggris lewat portal karier: CV (PDF) dan transkrip"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The pantry",
+          "id": "Lemari"
+         },
+         "title": {
+          "en": "Nadia’s evidence — from Lessons 3.3 and 3.4",
+          "id": "Bukti Nadia — dari Pelajaran 3.3 dan 3.4"
+         },
+         "meta": {
+          "en": "Raw achievements, tested against the five criteria",
+          "id": "Pencapaian mentah, diuji dengan lima kriteria"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Learning",
+            "id": "Belajar"
+           }
+          },
+          {
+           "en": "S1 Manajemen, graduated August 2026, IPK 3,38 / 4,00 · thesis on distributor inventory practices for FMCG in Central Java · supply-chain management elective · TOEFL ITP 527 (2026) · Excel (intermediate: pivot tables, VLOOKUP), Google Sheets, Canva",
+           "id": "S1 Manajemen, lulus Agustus 2026, IPK 3,38 / 4,00 · skripsi tentang praktik persediaan distributor FMCG di Jawa Tengah · mata kuliah pilihan manajemen rantai pasok · TOEFL ITP 527 (2026) · Excel (menengah: pivot table, VLOOKUP), Google Sheets, Canva"
+          },
+          {
+           "h": {
+            "en": "Work",
+            "id": "Kerja"
+           }
+          },
+          {
+           "en": "Operations intern, Bank Sinar Nusantara, Jun–Aug 2025: reconciled daily transaction reports for 3 branches; found a recurring teller-terminal mismatch; the settings fix removed about 30 minutes of manual correction per day; wrote a one-page reconciliation checklist used after she left.",
+           "id": "Magang operasional, Bank Sinar Nusantara, Jun–Agu 2025: merekonsiliasi laporan transaksi harian untuk 3 cabang; menemukan ketidakcocokan terminal teller yang berulang; perbaikan pengaturannya menghapus sekitar 30 menit koreksi manual per hari; menulis daftar periksa rekonsiliasi satu halaman yang dipakai setelah ia pergi."
+          },
+          {
+           "en": "Barista, Kopi Tepian, 14 months across semesters 4–7, ~20 hours a week: 120–150 customers a shift; trained 3 new baristas on the POS and opening checklist; suggested a pre-order board for the morning rush — peak wait about 8 → about 5 minutes.",
+           "id": "Barista, Kopi Tepian, 14 bulan sepanjang semester 4–7, ~20 jam seminggu: 120–150 pelanggan per sif; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan untuk jam sibuk pagi — tunggu puncak sekitar 8 → sekitar 5 menit."
+          },
+          {
+           "h": {
+            "en": "Life and organisations",
+            "id": "Hidup dan organisasi"
+           }
+          },
+          {
+           "en": "Treasurer, HIMA Manajemen 2024–25: inherited books missing receipts for about half the previous year; introduced a shared ledger and a 3-day receipt rule; faculty audit returned zero findings for the first time in three years; trained the incoming treasurer.",
+           "id": "Bendahara, HIMA Manajemen 2024–25: mewarisi pembukuan tanpa kuitansi untuk sekitar separuh tahun sebelumnya; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari; audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun; melatih bendahara berikutnya."
+          },
+          {
+           "en": "Head of Sponsorship, 1,200-participant national campus business competition, 2024: led a 6-person team; built a tiered sponsor package; pitched 40 companies; secured 11 sponsors and Rp 85 juta, 4 sponsors personally.",
+           "id": "Kepala Sponsorship, kompetisi bisnis kampus nasional 1.200 peserta, 2024: memimpin tim 6 orang; menyusun paket sponsor bertingkat; mempresentasikan ke 40 perusahaan; mendapatkan 11 sponsor dan Rp 85 juta, 4 sponsor secara pribadi."
+          },
+          {
+           "en": "KKN, Kabupaten Kendal, 2025: designed and delivered a bookkeeping workshop for 18 UMKM owners; 12 adopted the cash-book template within a month.",
+           "id": "KKN, Kabupaten Kendal, 2025: merancang dan menyampaikan lokakarya pembukuan untuk 18 pemilik UMKM; 12 mengadopsi templat buku kas dalam sebulan."
+          }
+         ]
+        }
+       ],
+       "facts": [
+        {
+         "icon": "flag",
+         "k": {
+          "en": "6 weeks",
+          "id": "6 minggu"
+         },
+         "v": {
+          "en": "until Arunika’s MT registration opens",
+          "id": "sampai pendaftaran MT Arunika dibuka"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "4 named requirements",
+          "id": "4 syarat bernama"
+         },
+         "v": {
+          "en": "analytical · ambiguity · leadership in organisations · active English — plus Excel and placement anywhere",
+          "id": "analitis · ambiguitas · kepemimpinan di organisasi · bahasa Inggris aktif — plus Excel dan penempatan di mana saja"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "English, PDF, portal",
+          "id": "Inggris, PDF, portal"
+         },
+         "v": {
+          "en": "no photo or date of birth requested",
+          "id": "tidak meminta foto atau tanggal lahir"
+         },
+         "hot": true
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "IPK 3,38",
+          "id": "IPK 3,38"
+         },
+         "v": {
+          "en": "meets the 3,00 minimum; missing from the current CV",
+          "id": "memenuhi minimum 3,00; tidak ada di CV saat ini"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "5 roles",
+          "id": "5 peran"
+         },
+         "v": {
+          "en": "bank internship · barista · HIMA treasurer · sponsorship head · KKN",
+          "id": "magang bank · barista · bendahara HIMA · kepala sponsorship · KKN"
+         }
+        },
+        {
+         "icon": "lock",
+         "k": {
+          "en": "SAP: none",
+          "id": "SAP: tidak ada"
+         },
+         "v": {
+          "en": "a nice-to-have gap, not a must",
+          "id": "celah tambahan, bukan syarat wajib"
+         }
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Diagnose",
+         "id": "Diagnosis"
+        },
+        "short": {
+         "en": "Diagnose",
+         "id": "Diagnosis"
+        },
+        "guide": {
+         "en": "Use Lessons 3.1 and 3.5. Name the problem, then the rule or research it breaks — “skill bars: graphics the parser cannot read and a claim without evidence (Bright &amp; Earl, ch. 9; Module 4)”.",
+         "id": "Pakai Pelajaran 3.1 dan 3.5. Sebut masalahnya, lalu aturan atau penelitian yang dilanggarnya — “bilah keterampilan: grafis yang tidak bisa dibaca parser dan klaim tanpa bukti (Bright &amp; Earl, bab 9; Modul 4)”."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 80,
+          "rows": 8,
+          "title": {
+           "en": "The eight most important problems with the before CV",
+           "id": "Delapan masalah terpenting pada CV sebelum"
+          },
+          "help": {
+           "en": "One line each: the problem, and the rule or finding it breaks.",
+           "id": "Satu baris masing-masing: masalahnya, dan aturan atau temuan yang dilanggarnya."
+          },
+          "placeholder": {
+           "en": "1. Two-column template — … 2. Skill bars — … 3. …",
+           "id": "1. Templat dua kolom — … 2. Bilah keterampilan — … 3. …"
+          },
+          "keywords": [
+           [
+            "two-column",
+            "two column",
+            "dua kolom",
+            "column"
+           ],
+           [
+            "skill bar",
+            "bilah",
+            "percent",
+            "%"
+           ],
+           [
+            "dut",
+            "responsible for",
+            "bertanggung jawab",
+            "tugas"
+           ],
+           [
+            "ipk",
+            "gpa"
+           ],
+           [
+            "photo",
+            "foto"
+           ],
+           [
+            "objective",
+            "objektif"
+           ],
+           [
+            "religion",
+            "agama",
+            "birth",
+            "lahir",
+            "marital",
+            "personal detail",
+            "data pribadi"
+           ],
+           [
+            "hobb",
+            "hobi"
+           ],
+           [
+            "email"
+           ],
+           [
+            "curriculum vitae",
+            "title",
+            "judul"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Job detective",
+         "id": "Detektif lowongan"
+        },
+        "short": {
+         "en": "Detective",
+         "id": "Detektif"
+        },
+        "guide": {
+         "en": "Lesson 3.2. Three must-haves and two implied skills — and what goes wrong if nobody does this job well.",
+         "id": "Pelajaran 3.2. Tiga syarat wajib dan dua keterampilan tersirat — dan apa yang salah jika tidak ada yang mengerjakan pekerjaan ini dengan baik."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 50,
+          "rows": 6,
+          "title": {
+           "en": "Three must-haves and two implied skills",
+           "id": "Tiga syarat wajib dan dua keterampilan tersirat"
+          },
+          "help": {
+           "en": "Which three requirements are non-negotiable? Which two skills does the role need that the advertisement does not name?",
+           "id": "Tiga syarat mana yang tidak bisa ditawar? Dua keterampilan apa yang dibutuhkan peran ini tetapi tidak disebut iklan?"
+          },
+          "placeholder": {
+           "en": "Must-haves: … Implied: … because if nobody does this well, …",
+           "id": "Syarat wajib: … Tersirat: … karena jika tidak ada yang mengerjakannya dengan baik, …"
+          },
+          "keywords": [
+           [
+            "ipk",
+            "3,00",
+            "3.00"
+           ],
+           [
+            "placed anywhere",
+            "anywhere in indonesia",
+            "seluruh indonesia",
+            "ditempatkan",
+            "relocat"
+           ],
+           [
+            "english",
+            "inggris"
+           ],
+           [
+            "negotiat",
+            "negosiasi",
+            "partner",
+            "mitra",
+            "distributor"
+           ],
+           [
+            "excel",
+            "data"
+           ],
+           [
+            "resilien",
+            "pressure",
+            "tekanan",
+            "tangguh"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Bullets",
+         "id": "Butir"
+        },
+        "short": {
+         "en": "Bullets",
+         "id": "Butir"
+        },
+        "guide": {
+         "en": "Lesson 3.4. Strong verb + what + scale + result (+ how). Honest numbers; “about” where needed. Each at least 20 words.",
+         "id": "Pelajaran 3.4. Kata kerja kuat + apa + skala + hasil (+ cara). Angka jujur; “sekitar” bila perlu. Masing-masing minimal 20 kata."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 45,
+          "rows": 6,
+          "title": {
+           "en": "Two internship bullets",
+           "id": "Dua butir magang"
+          },
+          "help": {
+           "en": "Reconciliation across three branches, and the terminal mismatch. From the pantry.",
+           "id": "Rekonsiliasi tiga cabang, dan ketidakcocokan terminal. Dari lemari."
+          },
+          "placeholder": {
+           "en": "• Reconciled … • Identified …",
+           "id": "• Merekonsiliasi … • Mengidentifikasi …"
+          },
+          "keywords": [
+           [
+            "reconcil",
+            "rekonsiliasi"
+           ],
+           [
+            "3 branch",
+            "three branch",
+            "3 cabang",
+            "tiga cabang"
+           ],
+           [
+            "mismatch",
+            "ketidakcocokan"
+           ],
+           [
+            "30 minute",
+            "30 menit",
+            "about",
+            "sekitar"
+           ],
+           [
+            "daily",
+            "harian"
+           ],
+           [
+            "checklist",
+            "daftar periksa"
+           ]
+          ]
+         },
+         {
+          "id": "q4",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Café, HIMA and competition — one bullet each",
+           "id": "Kafe, HIMA, dan kompetisi — satu butir masing-masing"
+          },
+          "help": {
+           "en": "Three bullets. Scale, responsibility beyond the role, and a result, in each.",
+           "id": "Tiga butir. Skala, tanggung jawab di luar peran, dan hasil, di masing-masing."
+          },
+          "placeholder": {
+           "en": "• Served … • Rebuilt … • Raised …",
+           "id": "• Melayani … • Membangun ulang … • Mengumpulkan …"
+          },
+          "keywords": [
+           [
+            "120",
+            "150",
+            "customer",
+            "pelanggan"
+           ],
+           [
+            "train",
+            "melatih",
+            "barista"
+           ],
+           [
+            "8",
+            "5 minute",
+            "5 menit",
+            "wait",
+            "tunggu"
+           ],
+           [
+            "receipt",
+            "kuitansi",
+            "ledger",
+            "buku besar"
+           ],
+           [
+            "zero finding",
+            "nol temuan",
+            "audit"
+           ],
+           [
+            "85 juta",
+            "85 million",
+            "rp 85"
+           ],
+           [
+            "11 sponsor",
+            "4 personally",
+            "4 secara pribadi",
+            "40 compan",
+            "40 perusahaan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Statements",
+         "id": "Pernyataan"
+        },
+        "short": {
+         "en": "Statements",
+         "id": "Pernyataan"
+        },
+        "guide": {
+         "en": "Lesson 3.4. Three evidenced competency statements matched to the advertisement’s top qualities: the quality in bold, then one or two sentences of proof.",
+         "id": "Pelajaran 3.4. Tiga pernyataan kompetensi berbukti yang dicocokkan dengan kualitas teratas iklan: kualitasnya, lalu satu atau dua kalimat bukti."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 80,
+          "rows": 9,
+          "title": {
+           "en": "Three competency statements for Arunika",
+           "id": "Tiga pernyataan kompetensi untuk Arunika"
+          },
+          "help": {
+           "en": "Choose three of: analytical thinking, comfort with ambiguity, leadership in organisations, working under pressure. Prove each from the pantry.",
+           "id": "Pilih tiga dari: berpikir analitis, nyaman dengan ambiguitas, kepemimpinan di organisasi, bekerja di bawah tekanan. Buktikan masing-masing dari lemari."
+          },
+          "placeholder": {
+           "en": "Analytical thinking. During … Leadership in organisations. Led … Working under pressure. While …",
+           "id": "Berpikir analitis. Selama … Kepemimpinan di organisasi. Memimpin … Bekerja di bawah tekanan. Sambil …"
+          },
+          "keywords": [
+           [
+            "analytic",
+            "analitis"
+           ],
+           [
+            "leadership",
+            "kepemimpinan",
+            "led",
+            "memimpin"
+           ],
+           [
+            "pressure",
+            "tekanan",
+            "ambiguity",
+            "ambiguitas"
+           ],
+           [
+            "internship",
+            "magang",
+            "bank"
+           ],
+           [
+            "sponsor"
+           ],
+           [
+            "treasurer",
+            "bendahara",
+            "barista",
+            "thesis",
+            "skripsi"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Profile and decisions",
+         "id": "Profil dan keputusan"
+        },
+        "short": {
+         "en": "Profile",
+         "id": "Profil"
+        },
+        "guide": {
+         "en": "Lesson 3.5. A profile of at most 80 words whose first line names the target role; then the Indonesian decisions for this application, each justified in one line.",
+         "id": "Pelajaran 3.5. Profil maksimal 80 kata yang baris pertamanya menyebut peran sasaran; lalu keputusan khas Indonesia untuk lamaran ini, masing-masing dibenarkan dalam satu baris."
+        },
+        "questions": [
+         {
+          "id": "q6",
+          "min": 40,
+          "rows": 6,
+          "title": {
+           "en": "Profile and objective (≤ 80 words)",
+           "id": "Profil dan objektif (≤ 80 kata)"
+          },
+          "help": {
+           "en": "First line: a recognisable target role in Arunika’s words. Every claim must be proven below. Last line: placement.",
+           "id": "Baris pertama: peran sasaran yang dikenali dengan kata-kata Arunika. Setiap klaim harus dibuktikan di bawah. Baris terakhir: penempatan."
+          },
+          "placeholder": {
+           "en": "Management graduate targeting … Brings … Open to placement anywhere in Indonesia.",
+           "id": "Lulusan Manajemen yang membidik … Membawa … Bersedia ditempatkan di seluruh Indonesia."
+          },
+          "keywords": [
+           [
+            "management graduate",
+            "lulusan manajemen"
+           ],
+           [
+            "trainee",
+            "supply",
+            "sales",
+            "rantai pasok",
+            "penjualan"
+           ],
+           [
+            "internship",
+            "magang"
+           ],
+           [
+            "sponsor",
+            "competition",
+            "kompetisi"
+           ],
+           [
+            "anywhere",
+            "seluruh indonesia",
+            "placement",
+            "penempatan"
+           ],
+           [
+            "excel"
+           ]
+          ]
+         },
+         {
+          "id": "q7",
+          "min": 60,
+          "rows": 7,
+          "title": {
+           "en": "The Indonesian decisions for this application",
+           "id": "Keputusan khas Indonesia untuk lamaran ini"
+          },
+          "help": {
+           "en": "Photo · date of birth · religion and marital status · address · IPK format · language · email address. Decide each, one line of reason.",
+           "id": "Foto · tanggal lahir · agama dan status pernikahan · alamat · format IPK · bahasa · alamat email. Putuskan masing-masing, satu baris alasan."
+          },
+          "placeholder": {
+           "en": "Photo: no on the CV, because … Date of birth: … IPK: 3.38 / 4.00 because … Email: …",
+           "id": "Foto: tidak di CV, karena … Tanggal lahir: … IPK: 3.38 / 4.00 karena … Email: …"
+          },
+          "keywords": [
+           [
+            "photo",
+            "foto"
+           ],
+           [
+            "linkedin"
+           ],
+           [
+            "birth",
+            "lahir",
+            "dob"
+           ],
+           [
+            "religion",
+            "agama",
+            "marital",
+            "status"
+           ],
+           [
+            "3.38",
+            "3,38",
+            "ipk"
+           ],
+           [
+            "english",
+            "inggris"
+           ],
+           [
+            "email"
+           ],
+           [
+            "city",
+            "kota",
+            "semarang",
+            "address",
+            "alamat"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Assemble and gate",
+         "id": "Rakit dan uji"
+        },
+        "short": {
+         "en": "Assemble",
+         "id": "Rakit"
+        },
+        "guide": {
+         "en": "Lesson 3.6. Build the one-page CV in the Studio (or on paper), then run the ten-question gate on it and report honestly.",
+         "id": "Pelajaran 3.6. Bangun CV satu halaman di Studio (atau di atas kertas), lalu jalankan gerbang sepuluh pertanyaan dan laporkan dengan jujur."
+        },
+        "questions": [
+         {
+          "id": "q8",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Section order and the quality-gate result",
+           "id": "Urutan bagian dan hasil gerbang mutu"
+          },
+          "help": {
+           "en": "List the section order you chose and why. Then the ten gate questions: which were yes, which were no, and what you changed to get to ten. Name the file.",
+           "id": "Daftar urutan bagian yang kamu pilih dan alasannya. Lalu sepuluh pertanyaan gerbang: mana yang ya, mana yang tidak, dan apa yang kamu ubah untuk sampai ke sepuluh. Sebutkan nama berkasnya."
+          },
+          "placeholder": {
+           "en": "Order: header → profile → education → key skills and evidence → experience → organisational … Gate: Q1 yes … Q9 no → … File: NadiaPutri_CV_Arunika_MT.pdf",
+           "id": "Urutan: kepala → profil → pendidikan → keterampilan utama dan bukti → pengalaman → organisasi … Gerbang: P1 ya … P9 tidak → … Berkas: NadiaPutri_CV_Arunika_MT.pdf"
+          },
+          "keywords": [
+           [
+            "education",
+            "pendidikan"
+           ],
+           [
+            "key skills",
+            "evidence",
+            "keterampilan utama",
+            "bukti"
+           ],
+           [
+            "organisational",
+            "organisasi"
+           ],
+           [
+            "one page",
+            "satu halaman",
+            "single column",
+            "satu kolom"
+           ],
+           [
+            "proofread",
+            "baca ulang",
+            "someone else",
+            "orang lain"
+           ],
+           [
+            "nadiaputri_cv",
+            "arunika_mt",
+            ".pdf"
+           ],
+           [
+            "must-have",
+            "syarat wajib",
+            "coverage",
+            "cakupan"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Diagnosis grounded in rules and research",
+         "id": "Diagnosis berpijak pada aturan dan penelitian"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Bullets follow the formula and are defensible",
+         "id": "Butir mengikuti rumus dan bisa dipertahankan"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Competency statements are evidenced and matched to the advertisement",
+         "id": "Pernyataan kompetensi berbukti dan cocok dengan iklan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Profile names the role and is under 80 words",
+         "id": "Profil menyebut peran dan di bawah 80 kata"
+        },
+        "w": "10%"
+       },
+       {
+        "h": {
+         "en": "Indonesian decisions justified for this application",
+         "id": "Keputusan khas Indonesia dibenarkan untuk lamaran ini"
+        },
+        "w": "10%"
+       },
+       {
+        "h": {
+         "en": "Page passes the ten-question gate",
+         "id": "Halaman lolos gerbang sepuluh pertanyaan"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — one way to rebuild it",
+        "id": "Catatan model — satu cara membangunnya kembali"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Diagnosis",
+          "id": "Diagnosis"
+         }
+        },
+        {
+         "en": "(1) Two-column Canva template — formal layouts were rated better and columns break parsers (Bright &amp; Earl, ch. 9; Module 4). (2) Skill bars and percentages — a claim without evidence, unreadable to software (3.1, 3.4). (3) Duty bullets: “responsible for”, “helped with” — the weakest openers; achievements beat duties (3.4). (4) IPK missing — a hard requirement, and omission reads as concealment (3.5). (5) Photo, date of birth, religion, marital status and a full address on an English application that did not ask — bias-inviting, off-fit (3.5). (6) A demand-shaped objective that says nothing about what she offers (3.5). (7) HIMA, sponsorship and KKN as one-liners under “Organisational Experience” — for graduates that is evidence, and it needs bullets (3.1). (8) “CURRICULUM VITAE” as the title, a casual email address, and “Hobbies: reading, travelling, music” — three small reasons to reject (3.1). The Excel skill the advertisement asks for is nowhere.",
+         "id": "(1) Templat Canva dua kolom — tata letak formal dinilai lebih baik dan kolom merusak parser (Bright &amp; Earl, bab 9; Modul 4). (2) Bilah keterampilan dan persentase — klaim tanpa bukti, tidak terbaca perangkat lunak (3.1, 3.4). (3) Butir tugas: “bertanggung jawab atas”, “membantu” — pembuka terlemah; pencapaian mengalahkan tugas (3.4). (4) IPK hilang — syarat mutlak, dan menghilangkannya terbaca sebagai menyembunyikan (3.5). (5) Foto, tanggal lahir, agama, status pernikahan, dan alamat lengkap pada lamaran bahasa Inggris yang tidak memintanya — mengundang bias, di luar kecocokan (3.5). (6) Objektif berbentuk tuntutan yang tidak mengatakan apa pun tentang yang ia tawarkan (3.5). (7) HIMA, sponsorship, dan KKN sebagai satu baris di bawah “Pengalaman Organisasi” — bagi lulusan baru itu bukti, dan butuh butir (3.1). (8) “CURRICULUM VITAE” sebagai judul, alamat email santai, dan “Hobi: membaca, jalan-jalan, musik” — tiga alasan kecil untuk menolak (3.1). Keterampilan Excel yang diminta iklan tidak ada di mana pun."
+        },
+        {
+         "h": {
+          "en": "Job detective",
+          "id": "Detektif lowongan"
+         }
+        },
+        {
+         "en": "Must-haves: IPK ≥ 3,00 (met), willing to be placed anywhere (a declaration, not a preference), active English (TOEFL 527 plus an English CV as the writing sample); Excel proficiency sits close behind. Implied: if nobody keeps product and people moving, distributors run out of stock and targets are missed — so negotiation with external partners, working with real data in Excel, and resilience under pressure. SAP is a nice-to-have gap: accept it, or start a short course and say so truthfully.",
+         "id": "Syarat wajib: IPK ≥ 3,00 (terpenuhi), bersedia ditempatkan di mana saja (deklarasi, bukan preferensi), bahasa Inggris aktif (TOEFL 527 plus CV bahasa Inggris sebagai contoh tulisan); kemahiran Excel menyusul dekat. Tersirat: jika tidak ada yang menjaga produk dan orang tetap bergerak, distributor kehabisan stok dan target meleset — jadi negosiasi dengan mitra eksternal, bekerja dengan data nyata di Excel, dan ketangguhan di bawah tekanan. SAP adalah celah tambahan: terima, atau mulai kursus singkat dan katakan dengan jujur."
+        },
+        {
+         "h": {
+          "en": "Bullets",
+          "id": "Butir"
+         }
+        },
+        {
+         "en": "Internship: “Reconciled daily transaction reports for 3 branches during a 3-month operations internship; identified a recurring teller-terminal mismatch that, once fixed, removed about 30 minutes of manual correction per day.” · “Wrote a one-page reconciliation checklist adopted by the unit after the internship ended.” Café: “Served 120–150 customers per shift for 14 months alongside a full course load; trained 3 new baristas on the POS and opening checklist; proposed a pre-order board that cut peak wait from about 8 to about 5 minutes.” HIMA: “Rebuilt HIMA Manajemen’s financial records after inheriting incomplete books; introduced a shared ledger and a 3-day receipt rule, and the faculty audit returned zero findings for the first time in 3 years.” Competition: “Led a 6-person sponsorship team for a 1,200-participant national business competition; built a tiered sponsor package, pitched 40 companies and secured 11 sponsors and Rp 85 juta, 4 sponsors personally.”",
+         "id": "Magang: “Merekonsiliasi laporan transaksi harian untuk 3 cabang selama magang operasional 3 bulan; mengidentifikasi ketidakcocokan terminal teller berulang yang, setelah diperbaiki, menghapus sekitar 30 menit koreksi manual per hari.” · “Menulis daftar periksa rekonsiliasi satu halaman yang diadopsi unit setelah magang berakhir.” Kafe: “Melayani 120–150 pelanggan per sif selama 14 bulan di sela beban kuliah penuh; melatih 3 barista baru dalam POS dan daftar periksa buka; mengusulkan papan pra-pesan yang memangkas waktu tunggu puncak dari sekitar 8 menjadi sekitar 5 menit.” HIMA: “Membangun ulang catatan keuangan HIMA Manajemen setelah mewarisi pembukuan yang tidak lengkap; memperkenalkan buku besar bersama dan aturan kuitansi 3 hari, dan audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam 3 tahun.” Kompetisi: “Memimpin tim sponsorship 6 orang untuk kompetisi bisnis nasional 1.200 peserta; menyusun paket sponsor bertingkat, mempresentasikan ke 40 perusahaan, dan mendapatkan 11 sponsor serta Rp 85 juta, 4 sponsor secara pribadi.”"
+        },
+        {
+         "h": {
+          "en": "Statements",
+          "id": "Pernyataan"
+         }
+        },
+        {
+         "en": "<b>Analytical thinking.</b> Reconciling three branches’ daily reports, I noticed recurring mismatches from one teller terminal; flagging the pattern led to a settings fix that ended the daily manual corrections. <b>Leadership in organisations.</b> I led a six-person sponsorship team to Rp 85 juta from 11 sponsors by setting a tiered package and weekly pitch targets. <b>Working under pressure.</b> While working 20 hours a week as a barista, I served as HIMA treasurer through the organisation’s busiest semester and completed my thesis on schedule.",
+         "id": "<b>Berpikir analitis.</b> Saat merekonsiliasi laporan harian tiga cabang, saya menyadari ketidakcocokan berulang dari satu terminal teller; melaporkan pola itu berujung pada perbaikan pengaturan yang mengakhiri koreksi manual harian. <b>Kepemimpinan di organisasi.</b> Saya memimpin tim sponsorship enam orang mencapai Rp 85 juta dari 11 sponsor dengan menetapkan paket bertingkat dan target presentasi mingguan. <b>Bekerja di bawah tekanan.</b> Sambil bekerja 20 jam seminggu sebagai barista, saya menjadi bendahara HIMA sepanjang semester tersibuk organisasi dan menyelesaikan skripsi tepat waktu."
+        },
+        {
+         "h": {
+          "en": "Profile and decisions",
+          "id": "Profil dan keputusan"
+         }
+        },
+        {
+         "en": "“Management graduate targeting commercial and supply-chain trainee roles in consumer goods. Brings a 3-month bank operations internship, 14 months of front-line customer work alongside study, and sponsorship results for a 1,200-participant national competition. Comfortable with Excel analysis, fast-paced shifts and working with external partners. Open to placement anywhere in Indonesia.” (62 words.) Photo: no — not requested for an English-language MT application; the professional photo lives on LinkedIn. Date of birth, religion, marital status: no — not required. Address: “Semarang · open to placement anywhere in Indonesia”. IPK: “3.38 / 4.00” in the education block. Language: English throughout. Email: a plain name-based address. Her mother is right that some Indonesian employers expect a photo; this one did not ask, and the decision is per application.",
+         "id": "“Lulusan Manajemen yang membidik peran trainee komersial dan rantai pasok di barang konsumsi. Membawa magang operasional bank 3 bulan, 14 bulan kerja layanan pelanggan garis depan di sela kuliah, dan hasil sponsor untuk kompetisi nasional 1.200 peserta. Nyaman dengan analisis Excel, sif yang serba cepat, dan bekerja dengan mitra eksternal. Bersedia ditempatkan di seluruh Indonesia.” Foto: tidak — tidak diminta untuk lamaran MT berbahasa Inggris; foto profesional ada di LinkedIn. Tanggal lahir, agama, status pernikahan: tidak — tidak diwajibkan. Alamat: “Semarang · bersedia ditempatkan di seluruh Indonesia”. IPK: “3.38 / 4.00” di blok pendidikan. Bahasa: Inggris seluruhnya. Email: alamat sederhana berbasis nama. Ibunya benar bahwa sebagian perusahaan Indonesia mengharapkan foto; yang ini tidak meminta, dan keputusannya per lamaran."
+        },
+        {
+         "h": {
+          "en": "Assemble and gate",
+          "id": "Rakit dan uji"
+         }
+        },
+        {
+         "en": "Order: header → profile → education (with IPK, thesis on FMCG distributor inventory, supply-chain elective) → Key Skills and Evidence (three statements) → Experience (internship, then café) → Organisational and Leadership Experience (competition, HIMA, KKN) → Certifications, Languages and Tools (TOEFL ITP 527; Excel — pivot tables, VLOOKUP; Google Sheets). First-draft gate: Q3 failed because “Microsoft Excel” appeared only as “Excel” and “sales” appeared nowhere — the thesis line and the sponsorship bullet were rephrased; Q9 failed until a friend proofread it. File: NadiaPutri_CV_Arunika_MT.pdf, logged in the tracker.",
+         "id": "Urutan: kepala → profil → pendidikan (dengan IPK, skripsi tentang persediaan distributor FMCG, mata kuliah pilihan rantai pasok) → Keterampilan Utama dan Bukti (tiga pernyataan) → Pengalaman (magang, lalu kafe) → Pengalaman Organisasi dan Kepemimpinan (kompetisi, HIMA, KKN) → Sertifikasi, Bahasa, dan Alat (TOEFL ITP 527; Excel — pivot table, VLOOKUP; Google Sheets). Gerbang draf pertama: P3 gagal karena “Microsoft Excel” hanya muncul sebagai “Excel” dan “sales” tidak muncul di mana pun — baris skripsi dan butir sponsor diubah katanya; P9 gagal sampai seorang teman membaca ulang. Berkas: NadiaPutri_CV_Arunika_MT.pdf, dicatat di pelacak."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your bullets have no “about” anywhere, check whether every number is one you could defend. If your profile is over 80 words, the adjectives go first.",
+        "id": "Bandingkan, jangan salin. Jika butirmu tidak memuat “sekitar” di mana pun, periksa apakah setiap angka bisa kamu pertahankan. Jika profilmu lebih dari 80 kata, kata sifatnya dibuang lebih dulu."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your eight answers once more as the Arunika recruiter with seven seconds per CV. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca kedelapan jawabanmu sekali lagi sebagai perekrut Arunika dengan tujuh detik per CV. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your rebuild is locked on this device. Compare it with the model notes, then do the same for your own CV in the Studio — that is Dossier item 3.",
+        "id": "Bangunan ulangmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu lakukan hal yang sama untuk CV-mu sendiri di Studio — itulah butir Dossier 3."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Diagnosing taste instead of rules",
+         "id": "Mendiagnosis selera, bukan aturan"
+        },
+        "fix": {
+         "en": "“Ugly” is not a finding. Name the rule or the research each problem breaks.",
+         "id": "“Jelek” bukan temuan. Sebut aturan atau penelitian yang dilanggar setiap masalah."
+        }
+       },
+       {
+        "h": {
+         "en": "Bullets that borrow a number the pantry does not have",
+         "id": "Butir yang meminjam angka yang tidak ada di lemari"
+        },
+        "fix": {
+         "en": "Every figure comes from the pantry, or carries an honest “about”.",
+         "id": "Setiap angka berasal dari lemari, atau membawa “sekitar” yang jujur."
+        }
+       },
+       {
+        "h": {
+         "en": "Keeping the photo because a CV “looks incomplete” without it",
+         "id": "Mempertahankan foto karena CV “terlihat tidak lengkap” tanpanya"
+        },
+        "fix": {
+         "en": "Decide per application: asked for, or not.",
+         "id": "Putuskan per lamaran: diminta, atau tidak."
+        }
+       },
+       {
+        "h": {
+         "en": "Rounding the gate",
+         "id": "Membulatkan gerbang"
+        },
+        "fix": {
+         "en": "“Mostly yes” is a no. Fix it, then tick it.",
+         "id": "“Hampir ya” berarti tidak. Perbaiki, lalu centang."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Before CV",
+        "id": "CV sebelum"
+       },
+       "def": {
+        "en": "The case file’s starting document — the CV Nadia has been sending.",
+        "id": "Dokumen awal berkas kasus — CV yang selama ini dikirim Nadia."
+       }
+      },
+      {
+       "term": {
+        "en": "Master CV",
+        "id": "CV induk"
+       },
+       "def": {
+        "en": "Dossier item 3, part two: the complete record every tailored version is cut from.",
+        "id": "Butir Dossier 3, bagian dua: rekam lengkap tempat setiap versi tersesuaikan dipotong."
+       }
+      },
+      {
+       "term": {
+        "en": "Tailored CV v1",
+        "id": "CV Tersesuaikan v1"
+       },
+       "def": {
+        "en": "Dossier item 3, part three: your first one-page CV for one real advertisement, gated and logged.",
+        "id": "Butir Dossier 3, bagian tiga: CV satu halaman pertamamu untuk satu iklan nyata, diuji dan dicatat."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s before CV shows “Communication 90%” as a skill bar. The diagnosis is…",
+        "id": "CV sebelum Nadia menampilkan “Komunikasi 90%” sebagai bilah keterampilan. Diagnosisnya adalah…"
+       },
+       "options": [
+        {
+         "en": "Fine — it is visual and modern",
+         "id": "Baik — visual dan modern"
+        },
+        {
+         "en": "A claim without evidence that parsers cannot read; replace with an evidenced competency statement",
+         "id": "Klaim tanpa bukti yang tidak bisa dibaca parser; ganti dengan pernyataan kompetensi berbukti"
+        },
+        {
+         "en": "Too modest — raise it to 100%",
+         "id": "Terlalu rendah hati — naikkan ke 100%"
+        },
+        {
+         "en": "Move it to the header",
+         "id": "Pindahkan ke kepala"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Evidence beats adjectives, and a bar is an adjective drawn as a graphic.",
+        "id": "Bukti mengalahkan kata sifat, dan bilah adalah kata sifat yang digambar sebagai grafis."
+       }
+      },
+      {
+       "q": {
+        "en": "The Arunika portal is English-language and does not ask for a photo. Nadia’s mother says a CV without one looks incomplete.",
+        "id": "Portal Arunika berbahasa Inggris dan tidak meminta foto. Ibu Nadia bilang CV tanpa foto terlihat tidak lengkap."
+       },
+       "options": [
+        {
+         "en": "Include it — family knows best",
+         "id": "Sertakan — keluarga paling tahu"
+        },
+        {
+         "en": "No photo on this CV; a professional photo on LinkedIn; decide again for the next application",
+         "id": "Tanpa foto di CV ini; foto profesional di LinkedIn; putuskan lagi untuk lamaran berikutnya"
+        },
+        {
+         "en": "A small photo in the footer",
+         "id": "Foto kecil di kaki halaman"
+        },
+        {
+         "en": "Never include a photo anywhere",
+         "id": "Jangan pernah sertakan foto di mana pun"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Include only when asked; the rule is per application, not a blanket ban.",
+        "id": "Sertakan hanya jika diminta; aturannya per lamaran, bukan larangan menyeluruh."
+       }
+      },
+      {
+       "q": {
+        "en": "First-draft gate: “Microsoft Excel” is in the advertisement; the CV says only “Excel”. The close is…",
+        "id": "Gerbang draf pertama: “Microsoft Excel” ada di iklan; CV hanya menyebut “Excel”. Penutupnya adalah…"
+       },
+       "options": [
+        {
+         "en": "Ignore — everyone knows what Excel is",
+         "id": "Abaikan — semua orang tahu apa itu Excel"
+        },
+        {
+         "en": "Rephrase to the exact form inside a true evidence line",
+         "id": "Ubah kata ke bentuk persis di dalam baris bukti yang benar"
+        },
+        {
+         "en": "Add a keywords list at the bottom",
+         "id": "Tambahkan daftar kata kunci di bawah"
+        },
+        {
+         "en": "Remove Excel",
+         "id": "Hapus Excel"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Every must-have, once, in the advertisement’s exact form, inside true evidence — Module 4 makes this the rule.",
+        "id": "Setiap syarat wajib, sekali, dalam bentuk persis iklan, di dalam bukti yang benar — Modul 4 menjadikan ini aturan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Now build it",
+       "id": "Sekarang bangun"
+      },
+      "body": {
+       "en": "Assemble the rebuilt CV in the Studio’s single-column template, run the gate, export as NadiaPutri_CV_Arunika_MT.pdf — then repeat every step for your own master CV and first tailored version. That completes Dossier item 3.",
+       "id": "Rakit CV yang dibangun ulang di templat satu kolom Studio, jalankan gerbang, ekspor sebagai NadiaPutri_CV_Arunika_MT.pdf — lalu ulangi setiap langkah untuk CV induk dan versi tersesuaikan pertamamu. Itu melengkapi butir Dossier 3."
+      },
+      "cta": {
+       "en": "Open the CV Studio →",
+       "id": "Buka Studio CV →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "A diagnosis names the rule each problem breaks; taste is not a finding.",
+       "id": "Diagnosis menyebut aturan yang dilanggar setiap masalah; selera bukan temuan."
+      },
+      {
+       "en": "Every rewritten line comes from the pantry and can be defended for two minutes.",
+       "id": "Setiap baris yang ditulis ulang berasal dari lemari dan bisa dipertahankan dua menit."
+      },
+      {
+       "en": "The Indonesian decisions and the quality gate are made per application, honestly, every time.",
+       "id": "Keputusan khas Indonesia dan gerbang mutu diambil per lamaran, dengan jujur, setiap kali."
+      }
+     ],
+     "journey": {
+      "before": {
+       "label": {
+        "en": "Lessons 3.1–3.6",
+        "id": "Pelajaran 3.1–3.6"
+       },
+       "desc": {
+        "en": "How CVs are read, the job detective, the pantry, bullets that prove, the page and its decisions, the tailoring workflow.",
+        "id": "Cara CV dibaca, detektif lowongan, lemari, butir yang membuktikan, halaman dan keputusannya, alur penyesuaian."
+       }
+      },
+      "now": {
+       "label": {
+        "en": "3.7 · Rebuild Nadia’s CV",
+        "id": "3.7 · Bangun Ulang CV Nadia"
+       },
+       "desc": {
+        "en": "You have rebuilt a real CV for a real advertisement and gated it.",
+        "id": "Kamu sudah membangun ulang CV nyata untuk iklan nyata dan mengujinya."
+       }
+      },
+      "next": {
+       "label": {
+        "en": "Module 4 · Passing the ATS & Administrative Gate",
+        "id": "Modul 4 · Lolos ATS & Seleksi Administrasi"
+       },
+       "desc": {
+        "en": "Make the page parse cleanly, cover every must-have honestly, and pass seleksi administrasi with a pre-flight check.",
+        "id": "Buat halaman terbaca bersih, cakup setiap syarat wajib dengan jujur, dan lolos seleksi administrasi dengan pemeriksaan pra-kirim."
+       },
+       "lesson": "4.1"
+      }
      }
     }
    ],

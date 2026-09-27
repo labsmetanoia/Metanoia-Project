@@ -460,69 +460,474 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "3": {
+  "minutes": 14,
+  "blueprint": [
+   {
+    "lesson": "3.1",
+    "h": {
+     "en": "How Your CV Is Actually Read",
+     "id": "Bagaimana CV-mu Sebenarnya Dibaca"
+    },
+    "sub": {
+     "en": "The seven-second skim, the recruiter experiments, the Fit Rule, the modesty barrier, reasons to reject.",
+     "id": "Pindaian tujuh detik, eksperimen dengan perekrut, Aturan Kecocokan, penghalang kerendahan hati, alasan menolak."
+    }
+   },
+   {
+    "lesson": "3.2",
+    "h": {
+     "en": "Become a Job Detective",
+     "id": "Menjadi Detektif Lowongan"
+    },
+    "sub": {
+     "en": "Seven questions, what experience really buys, the keyword table, relevant / related / unrelated.",
+     "id": "Tujuh pertanyaan, apa yang sebenarnya dibeli pengalaman, tabel kata kunci, relevan / terkait / tidak terkait."
+    }
+   },
+   {
+    "lesson": "3.3",
+    "h": {
+     "en": "Build the Evidence Pantry",
+     "id": "Menyusun Lemari Bukti"
+    },
+    "sub": {
+     "en": "Three inventories, the discovery interview, trigger verbs, five tests, team results.",
+     "id": "Tiga inventaris, wawancara penemuan, kata kerja pemicu, lima uji, hasil tim."
+    }
+   },
+   {
+    "lesson": "3.4",
+    "h": {
+     "en": "Bullets That Prove",
+     "id": "Poin-Poin yang Membuktikan"
+    },
+    "sub": {
+     "en": "The bullet formula, honest numbers, evidenced competency statements, language rules, the three-way test.",
+     "id": "Rumus butir, angka jujur, pernyataan kompetensi berbukti, aturan bahasa, uji tiga arah."
+    }
+   },
+   {
+    "lesson": "3.5",
+    "h": {
+     "en": "Architecture and the Indonesian Decisions",
+     "id": "Struktur CV dan Keputusan Khas Indonesia"
+    },
+    "sub": {
+     "en": "Section order, the profile, IPK, photo and personal details, language, layout, gaps.",
+     "id": "Urutan bagian, profil, IPK, foto dan data pribadi, bahasa, tata letak, jeda."
+    }
+   },
+   {
+    "lesson": "3.6",
+    "h": {
+     "en": "The Tailoring Workflow",
+     "id": "Alur Kerja Menyesuaikan CV"
+    },
+    "sub": {
+     "en": "Master, cluster, tailored; the twenty-minute pass; the skim test; the quality gate; file names.",
+     "id": "Induk, rumpun, tersesuaikan; proses dua puluh menit; uji pindai; gerbang mutu; nama berkas."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "3.1",
     "q": {
-     "en": "The evidence rule for CV lines demands:",
-     "id": "Aturan bukti untuk setiap baris CV menuntut:"
+     "en": "Two CVs are identical except that one lists duties and the other accomplishments. In Bright & Earl’s recruiter experiments:",
+     "id": "Dua CV identik kecuali satu mendaftar tugas dan yang lain pencapaian. Dalam eksperimen Bright & Earl dengan perekrut:"
     },
     "opts": [
      {
-      "en": "Strong adjectives — motivated, hardworking, detail-oriented",
-      "id": "Kata sifat yang kuat — termotivasi, pekerja keras, teliti"
+      "en": "There was no difference",
+      "id": "Tidak ada perbedaan"
      },
      {
-      "en": "Numbers, artefacts or verdicts a stranger could check",
-      "id": "Angka, artefak, atau penilaian pihak lain yang bisa diperiksa oleh orang yang tidak mengenalmu"
+      "en": "The accomplishments version was rated much more highly",
+      "id": "Versi pencapaian dinilai jauh lebih tinggi"
      },
      {
-      "en": "At least ten bullet points per role",
-      "id": "Minimal sepuluh butir per peran"
+      "en": "The duties version looked more honest",
+      "id": "Versi tugas tampak lebih jujur"
      },
      {
-      "en": "Formal language throughout",
-      "id": "Bahasa formal di seluruh dokumen"
+      "en": "Recruiters preferred the longer one",
+      "id": "Perekrut lebih suka yang lebih panjang"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Self-descriptions are free to write and worthless to read. 'Raised Rp 85m from 11 sponsors — 40% above target' cannot be written by everyone, which is exactly why it works.",
-     "id": "Deskripsi diri gratis untuk ditulis dan tidak bernilai untuk dibaca. 'Menghimpun Rp 85 juta dari 11 sponsor — 40% di atas target' tidak bisa ditulis oleh semua orang, dan persis karena itulah kalimat itu bekerja."
+     "en": "Achievements beat duties: same person, results-based description, far higher rating. The study is dated; the direction is solid.",
+     "id": "Pencapaian mengalahkan tugas: orang yang sama, gambaran berbasis hasil, penilaian jauh lebih tinggi. Studinya lawas; arahnya kokoh."
     }
    },
    {
     "type": "scen",
+    "lesson": "3.1",
     "q": {
-     "en": "The JD says 'stakeholder management'; your CV says 'handled people stuff'. The honest fix:",
-     "id": "Deskripsi lowongan menyebut 'stakeholder management'; CV-mu menulis 'mengurus orang-orang'. Perbaikan yang jujur:"
+     "en": "A line on your CV reads “Hobbies: sleeping, watching films”. Under the Fit Rule you…",
+     "id": "Sebuah baris di CV-mu berbunyi “Hobi: tidur, menonton film”. Berdasarkan Aturan Kecocokan kamu…"
     },
     "opts": [
      {
-      "en": "Leave it — recruiters understand synonyms",
-      "id": "Biarkan — perekrut paham sinonim"
+      "en": "Keep it to show personality",
+      "id": "Mempertahankannya untuk menunjukkan kepribadian"
      },
      {
-      "en": "Adopt their vocabulary for your true experience: 'stakeholder management across faculty and sponsors'",
-      "id": "Pakai kosakata mereka untuk pengalamanmu yang sebenarnya: 'stakeholder management lintas fakultas dan sponsor'"
+      "en": "Remove it — it does not raise fit and may lower it",
+      "id": "Membuangnya — tidak menaikkan kecocokan dan bisa menurunkannya"
      },
      {
-      "en": "Add 'stakeholder management' to skills without evidence",
-      "id": "Tambahkan 'stakeholder management' di bagian keterampilan tanpa bukti"
+      "en": "Move it higher",
+      "id": "Memindahkannya lebih atas"
      },
      {
-      "en": "Remove the line entirely",
-      "id": "Hapus barisnya sama sekali"
+      "en": "Add three more hobbies",
+      "id": "Menambah tiga hobi lagi"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "Rephrasing true experience into the reader's language is craft; inserting keywords without substance is fraud that dies in the first interview probe.",
-     "id": "Menulis ulang pengalaman yang benar-benar terjadi ke dalam bahasa pembaca adalah keterampilan; menyisipkan kata kunci tanpa substansi adalah kebohongan yang akan terbongkar di pertanyaan lanjutan pertama saat wawancara."
+     "en": "It adds nothing to knowledge, skills, abilities or attitude for the job, and “sleeping” reads as carelessness.",
+     "id": "Tidak menambah pengetahuan, keterampilan, kecakapan, atau sikap untuk pekerjaan, dan “tidur” terbaca sebagai kecerobohan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "An advertisement asks for “one year of experience in customer service”. You have 14 months of part-time barista work and no full-time job.",
+     "id": "Sebuah iklan meminta “pengalaman satu tahun di layanan pelanggan”. Kamu punya 14 bulan kerja barista paruh waktu dan belum pernah bekerja penuh waktu."
+    },
+    "opts": [
+     {
+      "en": "Do not apply",
+      "id": "Jangan melamar"
+     },
+     {
+      "en": "Apply, and make the customer-service evidence from the café visible",
+      "id": "Melamar, dan buat bukti layanan pelanggan dari kafe terlihat"
+     },
+     {
+      "en": "Describe the café job as full-time",
+      "id": "Gambarkan pekerjaan kafe sebagai penuh waktu"
+     },
+     {
+      "en": "Wait until you have a full-time year",
+      "id": "Tunggu sampai punya satu tahun penuh waktu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Employers want the benefits of experience — skills, credibility, a track record — which 14 months of shifts supply.",
+     "id": "Perusahaan menginginkan manfaat pengalaman — keterampilan, kredibilitas, rekam jejak — yang dipenuhi 14 bulan sif."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "Which item is an achievement by the five tests (completed, attributable, measurable, verifiable, made a difference)?",
+     "id": "Butir mana yang merupakan pencapaian menurut lima uji (selesai, dapat dikaitkan, terukur, dapat diverifikasi, membuat perbedaan)?"
+    },
+    "opts": [
+     {
+      "en": "“Member of HIMA Manajemen”",
+      "id": "“Anggota HIMA Manajemen”"
+     },
+     {
+      "en": "“Introduced a 3-day receipt rule; the faculty audit returned zero findings for the first time in three years”",
+      "id": "“Memperkenalkan aturan kuitansi 3 hari; audit fakultas menghasilkan nol temuan untuk pertama kalinya dalam tiga tahun”"
+     },
+     {
+      "en": "“Honest and hard-working”",
+      "id": "“Jujur dan pekerja keras”"
+     },
+     {
+      "en": "“Responsible for finances”",
+      "id": "“Bertanggung jawab atas keuangan”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Only the second passes all five; the others are a membership, adjectives and a duty.",
+     "id": "Hanya yang kedua yang lolos kelimanya; yang lain adalah keanggotaan, kata sifat, dan tugas."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "You were one of six people on a sponsorship team that raised Rp 85 juta, and you personally secured four of the eleven sponsors. On the CV you write…",
+     "id": "Kamu salah satu dari enam orang di tim sponsorship yang mengumpulkan Rp 85 juta, dan kamu pribadi mendapatkan empat dari sebelas sponsor. Di CV kamu menulis…"
+    },
+    "opts": [
+     {
+      "en": "“Raised Rp 85 juta in sponsorship”",
+      "id": "“Mengumpulkan Rp 85 juta sponsor”"
+     },
+     {
+      "en": "Nothing — it was a team result",
+      "id": "Tidak ada — itu hasil tim"
+     },
+     {
+      "en": "“Part of a 6-person team that raised Rp 85 juta; personally secured 4 of the 11 sponsors”",
+      "id": "“Bagian dari tim 6 orang yang mengumpulkan Rp 85 juta; secara pribadi mendapatkan 4 dari 11 sponsor”"
+     },
+     {
+      "en": "“Supported the sponsorship team”",
+      "id": "“Mendukung tim sponsorship”"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "The team’s result plus your specific role: never sole credit, never erased.",
+     "id": "Hasil tim ditambah peran spesifikmu: jangan klaim sendiri, jangan hapus dirimu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.4",
+    "q": {
+     "en": "You suggested a change that saved time, but nobody measured it. The honest bullet says…",
+     "id": "Kamu mengusulkan perubahan yang menghemat waktu, tetapi tidak ada yang mengukurnya. Butir yang jujur berbunyi…"
+    },
+    "opts": [
+     {
+      "en": "“Cut processing time by 40%”",
+      "id": "“Memangkas waktu proses 40%”"
+     },
+     {
+      "en": "“Cut manual correction by about 30 minutes a day” — an approximation you can explain",
+      "id": "“Mengurangi koreksi manual sekitar 30 menit sehari” — perkiraan yang bisa kamu jelaskan"
+     },
+     {
+      "en": "“Saved a lot of time”",
+      "id": "“Menghemat banyak waktu”"
+     },
+     {
+      "en": "Nothing about the result",
+      "id": "Tidak ada apa-apa tentang hasilnya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Honest approximations survive “how did you measure that?”; invented figures and vague phrases do not.",
+     "id": "Perkiraan jujur bertahan menghadapi “bagaimana kamu mengukurnya?”; angka karangan dan frasa samar tidak."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.4",
+    "q": {
+     "en": "Which is an evidenced competency statement rather than a skills list?",
+     "id": "Mana yang merupakan pernyataan kompetensi berbukti, bukan daftar keterampilan?"
+    },
+    "opts": [
+     {
+      "en": "“Communication, teamwork, leadership”",
+      "id": "“Komunikasi, kerja sama tim, kepemimpinan”"
+     },
+     {
+      "en": "“Analytical thinking. Reconciling three branches’ daily reports, I traced recurring mismatches to one terminal; the fix ended the daily manual corrections.”",
+      "id": "“Berpikir analitis. Saat merekonsiliasi laporan harian tiga cabang, saya melacak ketidakcocokan berulang ke satu terminal; perbaikannya mengakhiri koreksi manual harian.”"
+     },
+     {
+      "en": "“Excellent analytical skills”",
+      "id": "“Kemampuan analitis yang sangat baik”"
+     },
+     {
+      "en": "“Skills: Excel 80%, Analysis 90%”",
+      "id": "“Keterampilan: Excel 80%, Analisis 90%”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A named quality followed by proof. The others are claims, an adjective and a graphic.",
+     "id": "Kualitas yang disebut diikuti bukti. Yang lain adalah klaim, kata sifat, dan grafis."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.5",
+    "q": {
+     "en": "Your IPK is 2,95 and the programme states no minimum. On the CV you…",
+     "id": "IPK-mu 2,95 dan programnya tidak menyebut minimum. Di CV kamu…"
+    },
+    "opts": [
+     {
+      "en": "Omit the IPK",
+      "id": "Menghilangkan IPK"
+     },
+     {
+      "en": "Round it to 3,0",
+      "id": "Membulatkannya ke 3,0"
+     },
+     {
+      "en": "State it exactly and lead with your strongest other evidence",
+      "id": "Mencantumkannya dengan tepat dan membuka dengan bukti terkuatmu yang lain"
+     },
+     {
+      "en": "Write “satisfactory”",
+      "id": "Menulis “memuaskan”"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "In Indonesia omission reads as concealment and forms ask anyway; state it exactly, then let organisational and work evidence lead.",
+     "id": "Di Indonesia menghilangkannya terbaca sebagai menyembunyikan dan formulir tetap menanyakannya; cantumkan dengan tepat, lalu biarkan bukti organisasi dan kerja memimpin."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.5",
+    "q": {
+     "en": "You are applying to a multinational’s English-language programme through a portal that does not ask for a photo.",
+     "id": "Kamu melamar program berbahasa Inggris sebuah multinasional lewat portal yang tidak meminta foto."
+    },
+    "opts": [
+     {
+      "en": "Add a photo — Indonesian CVs always have one",
+      "id": "Tambahkan foto — CV Indonesia selalu punya"
+     },
+     {
+      "en": "No photo on the CV; a professional photo on LinkedIn",
+      "id": "Tanpa foto di CV; foto profesional di LinkedIn"
+     },
+     {
+      "en": "A photo in the footer",
+      "id": "Foto di kaki halaman"
+     },
+     {
+      "en": "A casual photo",
+      "id": "Foto santai"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Include a photo only when the advertisement, form or employer norm asks. Decide per application.",
+     "id": "Sertakan foto hanya jika iklan, formulir, atau norma perusahaan meminta. Putuskan per lamaran."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.6",
+    "q": {
+     "en": "Tailoring a CV to one advertisement changes…",
+     "id": "Menyesuaikan CV untuk satu iklan mengubah…"
+    },
+    "opts": [
+     {
+      "en": "Facts, where it helps",
+      "id": "Fakta, jika membantu"
+     },
+     {
+      "en": "Emphasis and vocabulary, never facts",
+      "id": "Penekanan dan kosakata, tidak pernah fakta"
+     },
+     {
+      "en": "Dates, to close gaps",
+      "id": "Tanggal, untuk menutup jeda"
+     },
+     {
+      "en": "Job titles, to sound senior",
+      "id": "Nama jabatan, agar terdengar senior"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Profile, order, wording, statements and cuts change; an internship stays an internship.",
+     "id": "Profil, urutan, kata, pernyataan, dan pemangkasan berubah; magang tetap magang."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.6",
+    "q": {
+     "en": "A recruiter calls about “the CV in front of me”. You have sent four versions this month. The system that prevents this confusion is…",
+     "id": "Seorang perekrut menelepon tentang “CV di depan saya”. Kamu sudah mengirim empat versi bulan ini. Sistem yang mencegah kebingungan ini adalah…"
+    },
+    "opts": [
+     {
+      "en": "Sending one CV everywhere",
+      "id": "Mengirim satu CV ke mana-mana"
+     },
+     {
+      "en": "Named files (NadiaPutri_CV_Employer_Role.pdf) and a CV-version column in the tracker",
+      "id": "Berkas bernama (NadiaPutri_CV_Perusahaan_Peran.pdf) dan kolom versi CV di pelacak"
+     },
+     {
+      "en": "Asking the recruiter to read the CV aloud",
+      "id": "Meminta perekrut membacakan CV-nya"
+     },
+     {
+      "en": "Never tailoring",
+      "id": "Tidak pernah menyesuaikan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "You must know which document the recruiter is holding; file names and the tracker make that instant.",
+     "id": "Kamu harus tahu dokumen mana yang dipegang perekrut; nama berkas dan pelacak membuatnya seketika."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "The advertisement lists “strong analytical skills” and “comfortable with ambiguity”. Which reading is the job detective’s?",
+     "id": "Iklan mencantumkan “kemampuan analitis kuat” dan “nyaman dengan ambiguitas”. Pembacaan mana yang milik detektif lowongan?"
+    },
+    "opts": [
+     {
+      "en": "Copy both phrases into a skills list",
+      "id": "Salin kedua frasa ke daftar keterampilan"
+     },
+     {
+      "en": "Ask what goes wrong if nobody does this job well, and derive the implied skills and the evidence that proves them",
+      "id": "Tanyakan apa yang salah jika tidak ada yang mengerjakan pekerjaan ini dengan baik, dan turunkan keterampilan tersirat serta bukti yang membuktikannya"
+     },
+     {
+      "en": "Ignore adjectives",
+      "id": "Abaikan kata sifat"
+     },
+     {
+      "en": "Ask a friend what the company is like",
+      "id": "Tanya teman seperti apa perusahaannya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Question 4 turns a list of adjectives into the problem the role solves — and into the evidence you will need.",
+     "id": "Pertanyaan 4 mengubah daftar kata sifat menjadi masalah yang dipecahkan peran itu — dan menjadi bukti yang kamu butuhkan."
     }
    }
   ],
-  "reflect": null
+  "reflect": {
+   "prompt": {
+    "en": "Two questions, one answer of at least 120 words. (1) Which achievement did the discovery interview or the trigger sweep surface that you would never have written down yourself — and what does it show? (2) Which Indonesian decision (photo, date of birth, IPK, address, language) did you change after this module, and why?",
+    "id": "Dua pertanyaan, satu jawaban minimal 120 kata. (1) Pencapaian mana yang dimunculkan wawancara penemuan atau sapuan pemicu yang tidak akan pernah kamu tulis sendiri — dan apa yang ditunjukkannya? (2) Keputusan khas Indonesia mana (foto, tanggal lahir, IPK, alamat, bahasa) yang kamu ubah setelah modul ini, dan mengapa?"
+   },
+   "guide": [
+    {
+     "en": "Write the achievement as a bullet on the formula — verb, what, scale, result.",
+     "id": "Tulis pencapaian itu sebagai butir sesuai rumus — kata kerja, apa, skala, hasil."
+    },
+    {
+     "en": "Say which of the five tests it passes, and how you would defend it for two minutes.",
+     "id": "Katakan lima uji mana yang dilewatinya, dan bagaimana kamu akan mempertahankannya dua menit."
+    },
+    {
+     "en": "Name the decision you changed, the application it was for, and the rule or research behind the change.",
+     "id": "Sebutkan keputusan yang kamu ubah, lamaran yang dituju, dan aturan atau penelitian di balik perubahan itu."
+    },
+    {
+     "en": "Keep it honest — no numbers you could not explain.",
+     "id": "Tetap jujur — tanpa angka yang tidak bisa kamu jelaskan."
+    }
+   ],
+   "min": 120
+  }
  },
  "4": {
   "mcq": [
