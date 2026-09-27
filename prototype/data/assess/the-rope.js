@@ -1150,129 +1150,324 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "5": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Case interviews at their core test:",
-     "id": "Pada intinya, wawancara kasus menguji:"
+    "lesson": "5.1",
+    "h": {
+     "en": "What HR Is Screening For",
+     "id": "Apa yang Disaring oleh HR"
     },
-    "opts": [
-     {
-      "en": "Business trivia knowledge",
-      "id": "Pengetahuan trivia bisnis"
-     },
-     {
-      "en": "Structured thinking aloud on a problem you cannot have prepared",
-      "id": "Berpikir terstruktur dengan suara lantang tentang masalah yang mustahil kamu persiapkan sebelumnya"
-     },
-     {
-      "en": "Mental arithmetic speed",
-      "id": "Kecepatan berhitung di kepala"
-     },
-     {
-      "en": "Consulting jargon fluency",
-      "id": "Kefasihan memakai jargon konsultan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Structure, numeracy, judgment, communication — the same four dimensions, and every minute offers recovery through a caught error corrected cleanly.",
-     "id": "Struktur, kemampuan berhitung, pertimbangan, komunikasi — empat dimensi yang sama, dan setiap menit memberi kesempatan pulih lewat kesalahan yang kamu tangkap sendiri dan koreksi dengan rapi."
+    "sub": {
+     "en": "The seven checks, the ten questions, eligibility decided in advance, answer length, consistency.",
+     "id": "Tujuh pemeriksaan, sepuluh pertanyaan, kelayakan diputuskan lebih dulu, panjang jawaban, konsistensi."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The guided-tour narration pattern is:",
-     "id": "Pola narasi 'pemandu wisata' adalah:"
+    "lesson": "5.2",
+    "h": {
+     "en": "Your Difficult Question",
+     "id": "Pertanyaan Tersulitmu"
     },
-    "opts": [
-     {
-      "en": "Continuous talking so silence never falls",
-      "id": "Bicara terus-menerus supaya tidak pernah ada keheningan"
-     },
-     {
-      "en": "Announce where you are going, work, report what you found — the interviewer always knows where you are",
-      "id": "Umumkan ke mana kamu akan pergi, kerjakan, laporkan apa yang kamu temukan — pewawancara selalu tahu posisimu"
-     },
-     {
-      "en": "Whispering calculations to yourself",
-      "id": "Berbisik menghitung untuk diri sendiri"
-     },
-     {
-      "en": "Asking permission before every step",
-      "id": "Minta izin sebelum setiap langkah"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Silence reads as absence, babble as chaos. Announce, work, report — and buy thinking time explicitly when you need it.",
-     "id": "Keheningan terbaca sebagai kehilangan arah, ocehan terbaca sebagai kekacauan. Umumkan, kerjakan, laporkan — dan minta waktu berpikir secara eksplisit saat kamu membutuhkannya."
+    "sub": {
+     "en": "Acknowledge → Account → Advance; the seven paths; what not to do; frame, never falsify.",
+     "id": "Akui → Jelaskan → Maju; tujuh jalur; yang tidak boleh; bingkai, jangan pernah memalsukan."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "The four-sentence case close is:",
-     "id": "Penutup kasus empat kalimat terdiri dari:"
+    "lesson": "5.3",
+    "h": {
+     "en": "Salary Expectations and Practical Terms",
+     "id": "Ekspektasi Gaji dan Syarat Praktis"
     },
-    "opts": [
-     {
-      "en": "Summary, thanks, availability, question",
-      "id": "Rangkuman, terima kasih, ketersediaan, pertanyaan"
-     },
-     {
-      "en": "Recommendation, two reasons, main risk, first step",
-      "id": "Rekomendasi, dua alasan, risiko utama, langkah pertama"
-     },
-     {
-      "en": "Problem, analysis, options, request for feedback",
-      "id": "Masalah, analisis, pilihan, permintaan masukan"
-     },
-     {
-      "en": "Context, complication, question, answer",
-      "id": "Konteks, komplikasi, pertanyaan, jawaban"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Answer-first even at the end: the recommendation leads, the reasoning follows, the risk shows judgment, the first step shows practicality.",
-     "id": "Jawaban lebih dulu, bahkan di penutup: rekomendasi memimpin, alasan mengikuti, risiko menunjukkan pertimbangan, langkah pertama menunjukkan kepraktisan."
+    "sub": {
+     "en": "Sources and the floor, gross versus take-home, four answer shapes, anchoring, the practical five.",
+     "id": "Sumber dan lantai, kotor versus bersih, empat bentuk jawaban, penjangkaran, lima praktis."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your sizing produced 6 million yearly motorcycle sales for a 280-million-person country. Before moving on you:",
-     "id": "Penaksiranmu menghasilkan 6 juta penjualan sepeda motor per tahun untuk negara berpenduduk 280 juta. Sebelum lanjut, kamu:"
+    "lesson": "5.4",
+    "h": {
+     "en": "Personal, Sensitive and Inappropriate Questions",
+     "id": "Pertanyaan Pribadi, Sensitif, dan Tidak Pantas"
     },
-    "opts": [
-     {
-      "en": "State it and continue — an answer is an answer",
-      "id": "Sebutkan dan lanjutkan — jawaban tetaplah jawaban"
-     },
-     {
-      "en": "Sanity-check aloud: roughly one per 40 people per year — plausible against replacement cycles",
-      "id": "Uji kewajarannya dengan suara lantang: kira-kira satu motor per 40 orang per tahun — masuk akal kalau dibandingkan dengan siklus penggantian"
-     },
-     {
-      "en": "Redo the computation to be safe",
-      "id": "Ulangi perhitungannya supaya aman"
-     },
-     {
-      "en": "Ask the interviewer if it is correct",
-      "id": "Tanya pewawancara apakah jawabannya benar"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The audit trail is the score: round numbers, spoken assumptions, a written running product, and a final sanity anchor.",
-     "id": "Jejak auditnya adalah nilainya: angka yang dibulatkan, asumsi yang diucapkan, hasil perkalian yang ditulis di setiap langkah, dan satu uji kewajaran di akhir."
+    "sub": {
+     "en": "The hidden concern, three tiers, employer red flags, values in religious terms, meal interviews.",
+     "id": "Kekhawatiran tersembunyi, tiga tingkat, tanda bahaya pemberi kerja, nilai dalam istilah agama, wawancara makan."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "5.1",
+    "q": {
+     "en": "In a fifteen-minute phone screen, ten HR answers should total about…",
+     "id": "Dalam seleksi telepon lima belas menit, sepuluh jawaban HR sebaiknya total sekitar…"
+    },
+    "opts": [
+     {
+      "en": "Twelve minutes — use the time",
+      "id": "Dua belas menit — pakai waktunya"
+     },
+     {
+      "en": "Eight minutes — sixty for the opening, thirty to forty-five for the middle, fifteen or less for eligibility and practical questions",
+      "id": "Delapan menit — enam puluh untuk pembuka, tiga puluh hingga empat puluh lima untuk tengah, lima belas atau kurang untuk kelayakan dan praktis"
+     },
+     {
+      "en": "Three minutes",
+      "id": "Tiga menit"
+     },
+     {
+      "en": "It does not matter",
+      "id": "Tidak penting"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Length is scored under communication, and running long cuts the eligibility questions HR most needed.",
+     "id": "Panjang dinilai di bawah komunikasi, dan kepanjangan memotong pertanyaan kelayakan yang paling dibutuhkan HR."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.1",
+    "q": {
+     "en": "“Bersedia ditempatkan di seluruh Indonesia?” and you have not discussed it at home. The honest move is…",
+     "id": "“Bersedia ditempatkan di seluruh Indonesia?” dan kamu belum membicarakannya di rumah. Langkah jujurnya…"
+    },
+    "opts": [
+     {
+      "en": "Say yes and decide later",
+      "id": "Mengiyakan dan memutuskan nanti"
+     },
+     {
+      "en": "Say “tergantung”",
+      "id": "Berkata “tergantung”"
+     },
+     {
+      "en": "Decide before the interview — at home — and answer with the decision, condition included if any",
+      "id": "Memutuskan sebelum wawancara — di rumah — dan menjawab dengan keputusan itu, syarat disertakan jika ada"
+     },
+     {
+      "en": "Ask HR to skip the question",
+      "id": "Meminta HR melewati pertanyaan"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "A yes you withdraw damages you and may cost money under a bond; the decision is made before the call, not in it.",
+     "id": "“Ya” yang kamu tarik merugikanmu dan bisa berbiaya di bawah ikatan dinas; keputusan dibuat sebelum panggilan, bukan di dalamnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "5.2",
+    "q": {
+     "en": "In the three-part difficult-question answer, the longest part is…",
+     "id": "Dalam jawaban pertanyaan sulit tiga bagian, bagian terpanjang adalah…"
+    },
+    "opts": [
+     {
+      "en": "Acknowledge",
+      "id": "Akui"
+     },
+     {
+      "en": "Account",
+      "id": "Jelaskan"
+     },
+     {
+      "en": "Advance — what you did about it and what is true now, at least half",
+      "id": "Maju — apa yang kamu lakukan tentangnya dan apa yang benar sekarang, setidaknya separuh"
+     },
+     {
+      "en": "All equal",
+      "id": "Semua sama"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "When Account grows the answer becomes an excuse; when Advance shrinks, a confession.",
+     "id": "Saat Jelaskan membesar jawaban menjadi alasan; saat Maju menyusut, pengakuan dosa."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.2",
+    "q": {
+     "en": "Asked directly whether you were let go from an internship — and you were — the integrity line says…",
+     "id": "Ditanya langsung apakah kamu diberhentikan dari magang — dan memang begitu — garis integritas berkata…"
+    },
+    "opts": [
+     {
+      "en": "Call it a mutual decision",
+      "id": "Sebut keputusan bersama"
+     },
+     {
+      "en": "Answer truthfully, frame with the owned reason, and move to what is true now",
+      "id": "Jawab jujur, bingkai dengan alasan yang diakui, dan beralih ke apa yang benar sekarang"
+     },
+     {
+      "en": "Say you left for a better opportunity",
+      "id": "Katakan kamu pergi untuk kesempatan lebih baik"
+     },
+     {
+      "en": "Change the subject",
+      "id": "Alihkan topik"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Frame, never falsify; the reference call finds anything else and the loss is every other answer.",
+     "id": "Bingkai, jangan pernah memalsukan; panggilan referensi menemukan yang lain dan kerugiannya setiap jawaban lain."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.3",
+    "q": {
+     "en": "You state “Rp 6,5–8 juta” and HR asks “kotor atau THP?”. You had not decided. The lesson is…",
+     "id": "Kamu menyatakan “Rp 6,5–8 juta” dan HR bertanya “kotor atau THP?”. Kamu belum memutuskan. Pelajarannya…"
+    },
+    "opts": [
+     {
+      "en": "It does not matter",
+      "id": "Tidak penting"
+     },
+     {
+      "en": "State the range as gross monthly and say the word — a range given in one and heard in the other surfaces at the offer",
+      "id": "Nyatakan rentang sebagai kotor bulanan dan ucapkan katanya — rentang yang diberikan dalam satu dan didengar dalam yang lain muncul saat tawaran"
+     },
+     {
+      "en": "Always say take-home",
+      "id": "Selalu sebut THP"
+     },
+     {
+      "en": "Refuse to specify",
+      "id": "Menolak menentukan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Sources quote gross; graduates think in take-home; the misunderstanding is expensive later.",
+     "id": "Sumber mengutip kotor; lulusan berpikir dalam THP; kesalahpahamannya mahal nanti."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "5.3",
+    "q": {
+     "en": "The anchoring effect is a reason to…",
+     "id": "Efek penjangkaran adalah alasan untuk…"
+    },
+    "opts": [
+     {
+      "en": "Name a high number first",
+      "id": "Menyebut angka tinggi lebih dulu"
+     },
+     {
+      "en": "Research, so that the range you name is defensible — an inflated one costs credibility",
+      "id": "Riset, agar rentang yang kamu sebut bisa dipertahankan — yang dilebihkan mengorbankan kredibilitas"
+     },
+     {
+      "en": "Never name a number",
+      "id": "Tidak pernah menyebut angka"
+     },
+     {
+      "en": "Say “terserah”",
+      "id": "Berkata “terserah”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“Terserah” hands the anchor to HR; a researched range anchors well; the magnitude is contested, the direction is not.",
+     "id": "“Terserah” menyerahkan jangkar ke HR; rentang hasil riset menjangkar baik; besarannya diperdebatkan, arahnya tidak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.4",
+    "q": {
+     "en": "“Rencana menikah kapan?” asked warmly in a screen. The balanced answer…",
+     "id": "“Rencana menikah kapan?” ditanyakan hangat di seleksi awal. Jawaban seimbang…"
+    },
+    "opts": [
+     {
+      "en": "Explains the relationship and a possible wedding timing",
+      "id": "Menjelaskan hubungan dan kemungkinan waktu pernikahan"
+     },
+     {
+      "en": "Answers the hidden concern — commitment and mobility — in under fifteen seconds, at the tier you choose",
+      "id": "Menjawab kekhawatiran tersembunyi — komitmen dan mobilitas — di bawah lima belas detik, pada tingkat yang kamu pilih"
+     },
+     {
+      "en": "Refuses sharply",
+      "id": "Menolak tajam"
+     },
+     {
+      "en": "Asks why they want to know",
+      "id": "Bertanya mengapa mereka ingin tahu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Most personal questions are commitment questions; any of the three tiers keeps the room.",
+     "id": "Kebanyakan pertanyaan pribadi adalah pertanyaan komitmen; tingkat mana pun dari tiga menjaga ruangan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.4",
+    "q": {
+     "en": "An employer asks for your original diploma and a training fee before you start. This is…",
+     "id": "Pemberi kerja meminta ijazah asli dan biaya pelatihan sebelum kamu mulai. Ini adalah…"
+    },
+    "opts": [
+     {
+      "en": "Normal — comply",
+      "id": "Normal — patuhi"
+     },
+     {
+      "en": "An employer red flag about documents and money — ask the basis and whether it is in writing, record it, verify before signing",
+      "id": "Tanda bahaya pemberi kerja soal dokumen dan uang — tanyakan dasarnya dan apakah tertulis, catat, verifikasi sebelum menandatangani"
+     },
+     {
+      "en": "A personal question — use Tier 3",
+      "id": "Pertanyaan pribadi — pakai Tingkat 3"
+     },
+     {
+      "en": "A reason to accept quickly",
+      "id": "Alasan untuk menerima cepat"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Money, documents and pressure are information about the employer; the diploma’s legal status is a verify point, not an assumption.",
+     "id": "Uang, dokumen, dan tekanan adalah informasi tentang pemberi kerja; status hukum ijazah adalah titik verifikasi, bukan asumsi."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Write the four eligibility sentences you would say for your top target — placement, bond, start date, salary range — and say which one you had not decided before this module and what you did to decide it. Then name your difficult question in one sentence and write your Acknowledge and the first sentence of your Advance.",
+    "id": "Minimal 100 kata. Tulis empat kalimat kelayakan yang akan kamu ucapkan untuk sasaran teratasmu — penempatan, ikatan dinas, tanggal mulai, rentang gaji — dan katakan mana yang belum kamu putuskan sebelum modul ini dan apa yang kamu lakukan untuk memutuskannya. Lalu sebutkan pertanyaan tersulitmu dalam satu kalimat dan tulis Akui-mu dan kalimat pertama Maju-mu."
+   },
+   "guide": [
+    {
+     "en": "The salary sentence must say “kotor” and come from at least two sources.",
+     "id": "Kalimat gaji harus menyebut “kotor” dan berasal dari setidaknya dua sumber."
+    },
+    {
+     "en": "“What you did to decide” should name a conversation or a document, not a feeling.",
+     "id": "“Apa yang kamu lakukan untuk memutuskan” harus menyebut pembicaraan atau dokumen, bukan perasaan."
+    },
+    {
+     "en": "Acknowledge is the exact fact; the Advance sentence has a number.",
+     "id": "Akui adalah fakta persis; kalimat Maju punya angka."
+    }
+   ],
+   "min": 100
+  }
  },
  "6": {
   "mcq": [

@@ -19136,1016 +19136,4885 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "5.1",
-     "title": {
-      "en": "The HR Interviewer's Mandate",
-      "id": "Mandat Pewawancara HR"
-     },
      "kind": "reading",
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "What HR Is Screening For",
+      "id": "Apa yang Disaring oleh HR"
+     },
      "overview": {
-      "en": "HR screens exist to answer five questions: is this person motivated for this role, within budget, available on our timeline, communicative at a professional baseline, and free of avoidable risk? Everything asked in the screen serves one of the five. Once you see the mandate, the interview becomes legible.",
-      "id": "Penyaringan HR ada untuk menjawab lima pertanyaan: apakah orang ini termotivasi untuk posisi ini, masuk anggaran, tersedia sesuai jadwal kami, mampu berkomunikasi pada standar profesional, dan bebas dari risiko yang sebenarnya bisa dihindari? Semua yang ditanyakan dalam penyaringan melayani salah satu dari lima itu. Begitu kamu melihat mandatnya, wawancaranya menjadi mudah dibaca."
+      "en": "The HR interview is less about how good you are at the job and more about whether there is any reason <i>not</i> to move you forward: eligibility, reliability, motivation, communication, cultural fit and cost. Candidates who over-prepare technical content and under-prepare the practical questions fail here. This lesson gives HR’s checklist, the ten most common HR questions for early-career candidates in Indonesia, the rule for eligibility questions — decide before the interview, then answer truthfully — the answer lengths the screen rewards, and the consistency check against your own CV and forms.",
+      "id": "Wawancara HR bukan soal seberapa bagus kamu untuk pekerjaan itu, melainkan apakah ada alasan untuk <i>tidak</i> meloloskanmu: kelayakan, keandalan, motivasi, komunikasi, kecocokan budaya, dan biaya. Kandidat yang terlalu menyiapkan konten teknis dan kurang menyiapkan pertanyaan praktis gagal di sini. Pelajaran ini memberi daftar periksa HR, sepuluh pertanyaan HR paling umum untuk kandidat karier awal di Indonesia, aturan untuk pertanyaan kelayakan — putuskan sebelum wawancara, lalu jawab jujur — panjang jawaban yang dihargai seleksi awal, dan pemeriksaan konsistensi terhadap CV dan formulirmu sendiri."
      },
      "objectives": [
       {
-       "en": "Name the five questions every HR screen is built to answer.",
-       "id": "Menyebutkan lima pertanyaan yang menjadi dasar setiap penyaringan HR."
+       "en": "Name HR’s checklist and score yourself on it before the recruiter does.",
+       "id": "Menyebut daftar periksa HR dan menilai dirimu sendiri sebelum rekruter melakukannya."
       },
       {
-       "en": "Map any screen question back to the mandate it serves.",
-       "id": "Memetakan pertanyaan penyaringan apa pun kembali ke mandat yang dilayaninya."
+       "en": "Prepare the ten most common HR questions with answers of the right length.",
+       "id": "Menyiapkan sepuluh pertanyaan HR paling umum dengan jawaban yang panjangnya tepat."
       },
       {
-       "en": "Avoid the classic screen-stage mistakes: rambling, bitterness, fake salary numbers.",
-       "id": "Menghindari kesalahan klasik di tahap penyaringan: melantur, kepahitan, angka gaji yang asal sebut."
+       "en": "Decide placement and bond answers before the interview and state conditions respectfully.",
+       "id": "Memutuskan jawaban penempatan dan ikatan dinas sebelum wawancara dan menyampaikan syarat dengan hormat."
+      },
+      {
+       "en": "Keep every answer consistent with the CV and the application form HR is holding.",
+       "id": "Menjaga setiap jawaban konsisten dengan CV dan formulir lamaran yang dipegang HR."
       }
      ],
-     "takeawaysLead": {
-      "en": "Every screen question serves one of five mandates. To pass a screen that cannot hire you but can end you, you can:",
-      "id": "Setiap pertanyaan seleksi melayani satu dari lima mandat. Untuk lolos seleksi yang tak bisa merekrutmu tetapi bisa mengakhirimu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A filter wearing a smile",
+       "id": "Saringan yang tersenyum"
+      },
+      "intro": {
+       "en": "The screen is not where you win the job. It is where you avoid losing it: short, true, consistent, and decided in advance.",
+       "id": "Seleksi awal bukan tempat kamu memenangkan pekerjaan. Ia tempat kamu menghindari kehilangannya: singkat, benar, konsisten, dan diputuskan lebih dulu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "HR’s checklist",
+         "id": "Daftar periksa HR"
+        },
+        "points": [
+         {
+          "en": "Eligibility · availability · motivation and stability · communication · consistency with the CV · salary fit · red flags.",
+          "id": "Kelayakan · ketersediaan · motivasi dan stabilitas · komunikasi · konsistensi dengan CV · kecocokan gaji · tanda bahaya."
+         },
+         {
+          "en": "Every question in the screen serves one of these.",
+          "id": "Setiap pertanyaan di seleksi awal melayani salah satunya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The ten questions",
+         "id": "Sepuluh pertanyaan"
+        },
+        "points": [
+         {
+          "en": "Yourself · why here · what you know about us · strengths and weaknesses · why this major · most memorable experience · placement · bond · salary · start date.",
+          "id": "Diri Anda · kenapa di sini · apa yang Anda ketahui tentang kami · kelebihan dan kekurangan · kenapa jurusan ini · pengalaman paling berkesan · penempatan · ikatan dinas · gaji · kapan bisa mulai."
+         },
+         {
+          "en": "Modules 4 and 5 between them answer all ten.",
+          "id": "Modul 4 dan 5 bersama-sama menjawab kesepuluhnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Decide before, answer truthfully",
+         "id": "Putuskan sebelum, jawab jujur"
+        },
+        "points": [
+         {
+          "en": "Placement and bonds are real commitments; saying yes and withdrawing later damages you and can cost money.",
+          "id": "Penempatan dan ikatan dinas adalah komitmen nyata; mengiyakan lalu mundur merugikanmu dan bisa berbiaya."
+         },
+         {
+          "en": "A conditional answer, said respectfully, is allowed.",
+          "id": "Jawaban bersyarat, diucapkan dengan hormat, diperbolehkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Short and consistent",
+         "id": "Singkat dan konsisten"
+        },
+        "points": [
+         {
+          "en": "HR questions deserve 20–45 seconds; a long answer to “when can you start?” suggests poor judgement.",
+          "id": "Pertanyaan HR layak 20–45 detik; jawaban panjang untuk “kapan bisa mulai?” menandakan penilaian buruk."
+         },
+         {
+          "en": "HR compares you to your CV and your form. Re-read both the day before.",
+          "id": "HR membandingkanmu dengan CV dan formulirmu. Baca ulang keduanya sehari sebelumnya."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "HR cannot usually hire you, but can always end you — treat the screen as a precision round.",
-       "id": "HR biasanya tidak bisa merekrutmu, tetapi selalu bisa menghentikanmu — perlakukan penyaringan sebagai ronde presisi."
-      },
-      {
-       "en": "Friendliness is a technique, not a verdict; match its warmth and keep your discipline.",
-       "id": "Keramahan adalah teknik, bukan vonis; balas kehangatannya, dan jaga disiplinmu."
-      },
-      {
-       "en": "Every screen question maps to motivation, money, timing, communication or risk.",
-       "id": "Setiap pertanyaan penyaringan bermuara pada motivasi, uang, waktu, komunikasi, atau risiko."
-      }
-     ],
      "sections": [
       {
+       "icon": "check",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Five questions, one screen",
-        "id": "Lima pertanyaan, satu penyaringan"
+        "en": "HR’s checklist",
+        "id": "Daftar periksa HR"
        },
        "body": {
-        "en": "Motivation: do you want this role, or any role? Money: does your range fit the band? Timing: notice period, start date, competing processes. Communication: can you explain yourself clearly on a first meeting? Risk: gaps unexplained, bitterness, inconsistencies with the CV. Score yourself on the five before the recruiter does.",
-        "id": "Motivasi: kamu menginginkan posisi ini, atau posisi apa saja? Uang: apakah rentang gajimu masuk dalam kisaran mereka? Waktu: masa pemberitahuan pengunduran diri, tanggal mulai, proses lamaran lain yang sedang berjalan. Komunikasi: bisakah kamu menjelaskan dirimu dengan jelas pada pertemuan pertama? Risiko: jeda karier tanpa penjelasan, kepahitan, ketidaksesuaian dengan CV. Nilai dirimu pada lima hal itu sebelum perekrut yang melakukannya."
+        "en": "An HR screen exists to answer a short list of questions, and every question you are asked serves one of them. <b>Eligibility:</b> the degree, the IPK threshold, age limits where the programme sets them, domicile, willingness to be placed, acceptance of a service bond — pass/fail items from the requirements layer you decoded in Lesson 3.1. <b>Availability:</b> start date, notice period if you are working, commitments in the next three months. <b>Motivation and stability:</b> is this application random, and will you stay past the first year? <b>Communication:</b> can you explain yourself clearly to a stranger in fifteen minutes? <b>Consistency with the CV:</b> do the dates, titles and numbers you say match the document HR is holding? <b>Salary fit:</b> is your expectation inside the band? <b>Red flags:</b> dishonesty, bitterness about a previous employer, an attitude that would not survive the branch. The current Rope’s framing is worth keeping: score yourself on this list before the recruiter does, because recruiters are professionally warm, and warmth loosens tongues — candidates confess doubts, criticise old employers or negotiate against themselves in the first fifteen minutes. Be warm back, and treat every sentence as on the record, because it is. A clean screen is unspectacular by design: you are not trying to win the job here; you are trying not to lose it. Save the depth for the rooms that can hire you <i>(Pellett on the screening round)</i>.",
+        "id": "Seleksi awal HR ada untuk menjawab daftar pendek pertanyaan, dan setiap pertanyaan yang diajukan kepadamu melayani salah satunya. <b>Kelayakan:</b> gelar, ambang IPK, batas usia jika program menetapkannya, domisili, kesediaan ditempatkan, penerimaan ikatan dinas — butir lulus/gagal dari lapis persyaratan yang kamu urai di Pelajaran 3.1. <b>Ketersediaan:</b> tanggal mulai, masa pemberitahuan jika kamu bekerja, komitmen dalam tiga bulan ke depan. <b>Motivasi dan stabilitas:</b> apakah lamaran ini acak, dan apakah kamu akan bertahan melewati tahun pertama? <b>Komunikasi:</b> bisakah kamu menjelaskan dirimu dengan jelas kepada orang asing dalam lima belas menit? <b>Konsistensi dengan CV:</b> apakah tanggal, jabatan, dan angka yang kamu ucapkan cocok dengan dokumen yang dipegang HR? <b>Kecocokan gaji:</b> apakah ekspektasimu di dalam rentang? <b>Tanda bahaya:</b> ketidakjujuran, kepahitan tentang pemberi kerja sebelumnya, sikap yang tidak akan bertahan di cabang. Pembingkaian The Rope saat ini layak dipertahankan: nilai dirimu pada daftar ini sebelum rekruter melakukannya, karena rekruter hangat secara profesional, dan kehangatan melonggarkan lidah — kandidat mengakui keraguan, mengkritik pemberi kerja lama, atau bernegosiasi melawan diri sendiri di lima belas menit pertama. Balas hangat, dan perlakukan setiap kalimat sebagai tercatat, karena memang begitu. Seleksi awal yang bersih tidak spektakuler sejak dirancang: kamu tidak sedang memenangkan pekerjaan di sini; kamu sedang menghindari kehilangannya. Simpan kedalaman untuk ruangan yang bisa merekrutmu <i>(Pellett tentang ronde penyaringan)</i>."
        },
-       "icon": "eye"
+       "table": {
+        "cols": [
+         {
+          "en": "HR is checking",
+          "id": "HR memeriksa"
+         },
+         {
+          "en": "Asked as",
+          "id": "Ditanyakan sebagai"
+         },
+         {
+          "en": "Passes with",
+          "id": "Lolos dengan"
+         },
+         {
+          "en": "Fails with",
+          "id": "Gagal dengan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Eligibility</b>",
+           "id": "<b>Kelayakan</b>"
+          },
+          {
+           "en": "“Bersedia ditempatkan?” “Bersedia ikatan dinas?” “IPK Anda?”",
+           "id": "“Bersedia ditempatkan?” “Bersedia ikatan dinas?” “IPK Anda?”"
+          },
+          {
+           "en": "A decided, truthful sentence",
+           "id": "Kalimat jujur yang sudah diputuskan"
+          },
+          {
+           "en": "“Tergantung…” without a condition; a yes you will withdraw",
+           "id": "“Tergantung…” tanpa syarat; “ya” yang akan kamu tarik"
+          }
+         ],
+         [
+          {
+           "en": "<b>Availability</b>",
+           "id": "<b>Ketersediaan</b>"
+          },
+          {
+           "en": "“Kapan bisa mulai?”",
+           "id": "“Kapan bisa mulai?”"
+          },
+          {
+           "en": "A date and any commitment named",
+           "id": "Tanggal dan komitmen apa pun disebut"
+          },
+          {
+           "en": "“Kapan saja” when you have a thesis defence in June",
+           "id": "“Kapan saja” padahal ada sidang skripsi di Juni"
+          }
+         ],
+         [
+          {
+           "en": "<b>Motivation and stability</b>",
+           "id": "<b>Motivasi dan stabilitas</b>"
+          },
+          {
+           "en": "“Kenapa di sini?” “Kenapa program ini?”",
+           "id": "“Kenapa di sini?” “Kenapa program ini?”"
+          },
+          {
+           "en": "REC (Lesson 4.3), forty seconds",
+           "id": "REC (Pelajaran 4.3), empat puluh detik"
+          },
+          {
+           "en": "Praise; “saya ingin berkembang”",
+           "id": "Pujian; “saya ingin berkembang”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Communication</b>",
+           "id": "<b>Komunikasi</b>"
+          },
+          {
+           "en": "Every answer",
+           "id": "Setiap jawaban"
+          },
+          {
+           "en": "Clear, short, in register",
+           "id": "Jelas, singkat, dalam register"
+          },
+          {
+           "en": "Two-minute answers to ten-second questions",
+           "id": "Jawaban dua menit untuk pertanyaan sepuluh detik"
+          }
+         ],
+         [
+          {
+           "en": "<b>Consistency</b>",
+           "id": "<b>Konsistensi</b>"
+          },
+          {
+           "en": "“Magangnya sampai kapan?” — while reading your CV",
+           "id": "“Magangnya sampai kapan?” — sambil membaca CV-mu"
+          },
+          {
+           "en": "The same dates and numbers as the document",
+           "id": "Tanggal dan angka yang sama dengan dokumen"
+          },
+          {
+           "en": "“Sekitar September” when the CV says August",
+           "id": "“Sekitar September” padahal CV bilang Agustus"
+          }
+         ],
+         [
+          {
+           "en": "<b>Salary fit</b>",
+           "id": "<b>Kecocokan gaji</b>"
+          },
+          {
+           "en": "“Ekspektasi gaji?”",
+           "id": "“Ekspektasi gaji?”"
+          },
+          {
+           "en": "A researched gross range (Lesson 5.3)",
+           "id": "Rentang kotor hasil riset (Pelajaran 5.3)"
+          },
+          {
+           "en": "“Terserah perusahaan”; a number with no reason",
+           "id": "“Terserah perusahaan”; angka tanpa alasan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Red flags</b>",
+           "id": "<b>Tanda bahaya</b>"
+          },
+          {
+           "en": "“Kenapa magangnya selesai lebih cepat?”",
+           "id": "“Kenapa magangnya selesai lebih cepat?”"
+          },
+          {
+           "en": "A factual account, owned (Lesson 5.2)",
+           "id": "Penjelasan faktual, diakui (Pelajaran 5.2)"
+          },
+          {
+           "en": "Blame; a story that differs from the CV",
+           "id": "Menyalahkan; cerita yang berbeda dari CV"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Seven checks, one screen. Every HR question is one of these in disguise.",
+         "id": "Tujuh pemeriksaan, satu seleksi awal. Setiap pertanyaan HR adalah salah satunya yang menyamar."
+        }
+       }
       },
       {
+       "icon": "book",
        "h": {
-        "en": "The friendliness trap",
-        "id": "Jebakan keramahan"
+        "en": "The ten most common HR questions",
+        "id": "Sepuluh pertanyaan HR paling umum"
        },
        "body": {
-        "en": "Recruiters are professionally warm, and warmth loosens tongues. Candidates confess doubts, criticise old employers, or negotiate against themselves — in the first fifteen minutes. Be warm back, and treat every sentence as on the record, because it is. The screen is a filter wearing a smile.",
-        "id": "Perekrut bersikap hangat secara profesional, dan kehangatan melonggarkan lidah. Kandidat mengakui keraguan, mengkritik tempat kerja lama, atau menawar merugikan diri sendiri — semuanya dalam lima belas menit pertama. Balas kehangatannya, dan perlakukan setiap kalimat sebagai catatan resmi, karena memang begitu adanya. Penyaringan adalah saringan yang mengenakan senyum."
+        "en": "For early-career candidates in Indonesia, the HR round draws from a short, stable list. Ten questions cover most screens, and every one of them is answered by something you have already built or will build in this module: the opening (Lesson 4.2), REC (4.3), the research anchor (3.2), strengths and the real weakness (4.4), a Core 10 headline (2.4), and the four eligibility sentences from this module. The table gives the question, the Kit item that answers it, and the target length. Practise all ten in order in the simulator’s HR set — the tryit below — because the screen asks them in roughly this order and at this pace, and the rhythm of ten short answers in fifteen minutes is itself a skill. Two of the ten are traps for the unprepared: “kenapa memilih jurusan ini?”, which invites a story that ends on a failure, and “pengalaman yang paling berkesan?”, which invites a five-minute story where a headline was wanted.",
+        "id": "Untuk kandidat karier awal di Indonesia, ronde HR mengambil dari daftar pendek yang stabil. Sepuluh pertanyaan mencakup sebagian besar seleksi awal, dan masing-masing dijawab oleh sesuatu yang sudah atau akan kamu bangun di modul ini: pembuka (Pelajaran 4.2), REC (4.3), jangkar riset (3.2), kekuatan dan kelemahan jujur (4.4), headline Core 10 (2.4), dan empat kalimat kelayakan dari modul ini. Tabel memberi pertanyaan, butir Perangkat yang menjawabnya, dan panjang sasaran. Latih kesepuluhnya berurutan di set HR simulator — tryit di bawah — karena seleksi awal menanyakannya kira-kira dalam urutan ini dan pada kecepatan ini, dan ritme sepuluh jawaban singkat dalam lima belas menit itu sendiri sebuah keterampilan. Dua dari sepuluh adalah jebakan bagi yang tidak siap: “kenapa memilih jurusan ini?”, yang mengundang cerita yang berakhir pada kegagalan, dan “pengalaman yang paling berkesan?”, yang mengundang cerita lima menit padahal yang diminta headline."
        },
-       "icon": "book"
+       "table": {
+        "cols": [
+         {
+          "en": "#",
+          "id": "#"
+         },
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Answered by",
+          "id": "Dijawab oleh"
+         },
+         {
+          "en": "Target",
+          "id": "Sasaran"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Ceritakan tentang diri Anda",
+           "id": "Ceritakan tentang diri Anda"
+          },
+          {
+           "en": "The opening, HR version (4.2)",
+           "id": "Pembuka, versi HR (4.2)"
+          },
+          {
+           "en": "60 s",
+           "id": "60 dtk"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Kenapa melamar di sini?",
+           "id": "Kenapa melamar di sini?"
+          },
+          {
+           "en": "REC, weight on R (4.3)",
+           "id": "REC, bobot pada R (4.3)"
+          },
+          {
+           "en": "45 s",
+           "id": "45 dtk"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "Apa yang Anda ketahui tentang perusahaan kami?",
+           "id": "Apa yang Anda ketahui tentang perusahaan kami?"
+          },
+          {
+           "en": "The research anchor (3.2)",
+           "id": "Jangkar riset (3.2)"
+          },
+          {
+           "en": "30 s",
+           "id": "30 dtk"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "Kelebihan dan kekurangan Anda?",
+           "id": "Kelebihan dan kekurangan Anda?"
+          },
+          {
+           "en": "Claim + evidence; the five parts (4.4)",
+           "id": "Klaim + bukti; lima bagian (4.4)"
+          },
+          {
+           "en": "30 s + 60 s",
+           "id": "30 dtk + 60 dtk"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "Kenapa memilih jurusan ini?",
+           "id": "Kenapa memilih jurusan ini?"
+          },
+          {
+           "en": "Honest, brief, turned to present motivation (below)",
+           "id": "Jujur, singkat, diarahkan ke motivasi sekarang (di bawah)"
+          },
+          {
+           "en": "30 s",
+           "id": "30 dtk"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "Pengalaman organisasi/magang yang paling berkesan?",
+           "id": "Pengalaman organisasi/magang yang paling berkesan?"
+          },
+          {
+           "en": "A Core 10 headline with a number (2.4)",
+           "id": "Headline Core 10 dengan angka (2.4)"
+          },
+          {
+           "en": "30 s",
+           "id": "30 dtk"
+          }
+         ],
+         [
+          {
+           "en": "7",
+           "id": "7"
+          },
+          {
+           "en": "Bersedia ditempatkan di seluruh Indonesia?",
+           "id": "Bersedia ditempatkan di seluruh Indonesia?"
+          },
+          {
+           "en": "Decided sentence, condition if any (below)",
+           "id": "Kalimat yang diputuskan, syarat jika ada (di bawah)"
+          },
+          {
+           "en": "15 s",
+           "id": "15 dtk"
+          }
+         ],
+         [
+          {
+           "en": "8",
+           "id": "8"
+          },
+          {
+           "en": "Bersedia dengan ikatan dinas?",
+           "id": "Bersedia dengan ikatan dinas?"
+          },
+          {
+           "en": "Decided sentence; one clarifying question (below)",
+           "id": "Kalimat yang diputuskan; satu pertanyaan klarifikasi (di bawah)"
+          },
+          {
+           "en": "15 s",
+           "id": "15 dtk"
+          }
+         ],
+         [
+          {
+           "en": "9",
+           "id": "9"
+          },
+          {
+           "en": "Ekspektasi gaji?",
+           "id": "Ekspektasi gaji?"
+          },
+          {
+           "en": "A researched gross range (5.3)",
+           "id": "Rentang kotor hasil riset (5.3)"
+          },
+          {
+           "en": "20 s",
+           "id": "20 dtk"
+          }
+         ],
+         [
+          {
+           "en": "10",
+           "id": "10"
+          },
+          {
+           "en": "Kapan bisa mulai bekerja?",
+           "id": "Kapan bisa mulai bekerja?"
+          },
+          {
+           "en": "A date and any commitment (5.3)",
+           "id": "Tanggal dan komitmen apa pun (5.3)"
+          },
+          {
+           "en": "10 s",
+           "id": "10 dtk"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Ten questions, about eight minutes of answers — which is what a fifteen-minute screen allows.",
+         "id": "Sepuluh pertanyaan, sekitar delapan menit jawaban — itulah yang diizinkan seleksi awal lima belas menit."
+        }
+       }
       },
       {
+       "icon": "shield",
        "h": {
-        "en": "What passes the screen",
-        "id": "Apa yang lolos penyaringan"
+        "en": "Eligibility questions: decide in advance, answer truthfully",
+        "id": "Pertanyaan kelayakan: putuskan lebih dulu, jawab jujur"
        },
        "body": {
-        "en": "A clean screen performance is unspectacular by design: specific motivation for this company, a researched salary range delivered without flinching, honest timeline, one or two crisp proof stories, zero negativity. You are not trying to win the job here — you are trying not to lose it. Save the fireworks for rooms that can hire you.",
-        "id": "Penampilan yang bersih di penyaringan memang sengaja tidak spektakuler: motivasi yang spesifik untuk perusahaan ini, rentang gaji hasil riset yang disampaikan tanpa ragu, jadwal yang jujur, satu atau dua cerita bukti yang ringkas, dan nol nada negatif. Di sini kamu tidak sedang berusaha memenangkan pekerjaan — kamu sedang berusaha untuk tidak kehilangannya. Simpan kembang apinya untuk ruangan yang bisa merekrutmu."
+        "en": "Placement and service bonds are real commitments, not interview talk. Decide <i>before</i> the interview what you will accept — with the people it affects, which for most graduates means a conversation at home — and then answer with the decision, not with what the interviewer wants to hear. Saying yes and later withdrawing damages your reputation with the employer, who will remember the name at the next intake, and can carry financial penalties under bond agreements <span class=\"ev ev-verify\">Verify: typical ikatan dinas terms and enforceability</span>. Three honest shapes exist. An unconditional yes: “Bersedia, Pak — saya sudah bicarakan dengan keluarga.” A conditional yes, stated respectfully, with the condition made specific: “Saya bersedia ditempatkan di luar Jawa. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” — this is not a refusal, and HR hears it as a candidate who has thought. A no: “Untuk dua tahun pertama saya perlu tetap di Jawa karena [reason]” — which may end the process for a programme where placement is mandatory, and that is the correct outcome, because the alternative is a resignation in month three. For the bond, one clarifying question is appropriate at HR stage — the length, what triggers the penalty, whether it is pro-rated — and the reading of the actual clause belongs to Module 10, before signing. Nadia decided on Wednesday night (Lesson 3.3): yes to placement, with a preference question; yes to the bond, with the clause to be read.",
+        "id": "Penempatan dan ikatan dinas adalah komitmen nyata, bukan obrolan wawancara. Putuskan <i>sebelum</i> wawancara apa yang akan kamu terima — bersama orang yang terdampak, yang bagi kebanyakan lulusan berarti pembicaraan di rumah — lalu jawab dengan keputusan itu, bukan dengan yang ingin didengar pewawancara. Mengiyakan lalu mundur merusak reputasimu di mata pemberi kerja, yang akan mengingat namamu di angkatan berikutnya, dan bisa membawa sanksi finansial di bawah perjanjian ikatan dinas <span class=\"ev ev-verify\">Verifikasi: ketentuan ikatan dinas yang lazim dan keberlakuannya</span>. Ada tiga bentuk jujur. Ya tanpa syarat: “Bersedia, Pak — saya sudah bicarakan dengan keluarga.” Ya bersyarat, disampaikan dengan hormat, dengan syarat yang spesifik: “Saya bersedia ditempatkan di luar Jawa. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” — ini bukan penolakan, dan HR mendengarnya sebagai kandidat yang sudah berpikir. Tidak: “Untuk dua tahun pertama saya perlu tetap di Jawa karena [alasan]” — yang mungkin mengakhiri proses untuk program yang penempatannya wajib, dan itulah hasil yang benar, karena alternatifnya adalah pengunduran diri di bulan ketiga. Untuk ikatan dinas, satu pertanyaan klarifikasi pantas di tahap HR — lamanya, apa yang memicu sanksi, apakah dihitung proporsional — dan pembacaan klausul sebenarnya milik Modul 10, sebelum menandatangani. Nadia memutuskan Rabu malam (Pelajaran 3.3): ya untuk penempatan, dengan pertanyaan preferensi; ya untuk ikatan dinas, dengan klausul yang akan dibaca."
        },
-       "icon": "target"
+       "bullets": [
+        {
+         "en": "<b>Decide at home first</b> — placement and bond affect people other than you.",
+         "id": "<b>Putuskan di rumah dulu</b> — penempatan dan ikatan dinas memengaruhi orang selain dirimu."
+        },
+        {
+         "en": "<b>Unconditional yes</b> — “Bersedia — sudah saya bicarakan dengan keluarga.”",
+         "id": "<b>Ya tanpa syarat</b> — “Bersedia — sudah saya bicarakan dengan keluarga.”"
+        },
+        {
+         "en": "<b>Conditional yes</b> — the condition made specific and asked as a question, not a demand.",
+         "id": "<b>Ya bersyarat</b> — syaratnya dibuat spesifik dan ditanyakan sebagai pertanyaan, bukan tuntutan."
+        },
+        {
+         "en": "<b>No</b> — said plainly; ending the process now is cheaper than resigning in month three.",
+         "id": "<b>Tidak</b> — diucapkan lugas; mengakhiri proses sekarang lebih murah daripada mengundurkan diri di bulan ketiga."
+        },
+        {
+         "en": "<b>One clarifying question on the bond</b> — length, trigger, pro-rating; the clause itself is read in Module 10.",
+         "id": "<b>Satu pertanyaan klarifikasi soal ikatan dinas</b> — lama, pemicu, proporsional; klausulnya dibaca di Modul 10."
+        }
+       ]
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Answer length",
+        "id": "Panjang jawaban"
+       },
+       "body": {
+        "en": "HR questions usually deserve shorter answers than competency questions — twenty to forty-five seconds, and ten for the factual ones. This is not because HR is less important but because the screen is short, the list is long, and length is itself being scored under “communication”: a long answer to a simple question (“kapan bisa mulai?”) suggests poor judgement about what the listener needs, and a candidate who takes ninety seconds on the start date has told HR something about their future emails. The opening is the exception at sixty. The rest follow the table above. A practical test: in a fifteen-minute phone screen, ten questions leave eight minutes of talking for you and the rest for HR’s own explanations and your question at the end — if your ten answers total twelve minutes, HR will cut the last three questions, and the ones cut are usually the eligibility questions HR most needed answered, which is then held against you at the debrief. Short is not curt: “Bisa mulai awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu” is twelve seconds and complete.",
+        "id": "Pertanyaan HR biasanya layak jawaban lebih singkat daripada pertanyaan kompetensi — dua puluh hingga empat puluh lima detik, dan sepuluh untuk yang faktual. Ini bukan karena HR kurang penting melainkan karena seleksi awal singkat, daftarnya panjang, dan panjang jawaban itu sendiri dinilai di bawah “komunikasi”: jawaban panjang untuk pertanyaan sederhana (“kapan bisa mulai?”) menandakan penilaian buruk tentang apa yang dibutuhkan pendengar, dan kandidat yang memakai sembilan puluh detik untuk tanggal mulai sudah memberi tahu HR sesuatu tentang email masa depannya. Pembuka adalah pengecualian di enam puluh. Sisanya mengikuti tabel di atas. Ujian praktis: dalam seleksi telepon lima belas menit, sepuluh pertanyaan menyisakan delapan menit bicara untukmu dan sisanya untuk penjelasan HR sendiri dan pertanyaanmu di akhir — jika sepuluh jawabanmu total dua belas menit, HR akan memotong tiga pertanyaan terakhir, dan yang dipotong biasanya pertanyaan kelayakan yang paling dibutuhkan HR, yang lalu diperhitungkan melawanmu di rapat evaluasi. Singkat bukan ketus: “Bisa mulai awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu” adalah dua belas detik dan lengkap."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Consistency with your CV and forms",
+        "id": "Konsistensi dengan CV dan formulirmu"
+       },
+       "body": {
+        "en": "HR will compare your answers to what you submitted: the CV, the application form, the LinkedIn profile if they looked, and — for a returning applicant — last year’s file. The Pack’s Module 3 case had Nadia find four inconsistencies between her own CV, portal form and LinkedIn; The Rope’s version of the same discipline is to re-read the CV and the form the day before the screen and to answer dates, titles and numbers exactly as they appear there. An internship “Jun–Aug 2025” on the CV is “Juni sampai Agustus” in the room, not “sekitar tiga bulan, sampai September-an”. The treasury year is “Agustus 2024 sampai Juli 2025”. The IPK is “3,38”, not “3,4”. Where the documents disagree with each other — the portal form says IPK 3,4 because it rounded — say the exact figure and, if asked, explain the rounding in one clause. The consistency rule from Lesson 2.3 applies here in its simplest form: HR is holding the paper, and a candidate whose spoken facts drift from it is scored as careless at best and untruthful at worst, and neither survives the debrief. This is also why the HR round is the wrong place for the deep version of any story: a headline with the same numbers as the CV is consistent by construction.",
+        "id": "HR akan membandingkan jawabanmu dengan yang kamu kirimkan: CV, formulir lamaran, profil LinkedIn jika mereka melihat, dan — untuk pelamar yang kembali — berkas tahun lalu. Kasus Modul 3 The Pack membuat Nadia menemukan empat ketidakkonsistenan antara CV, formulir portal, dan LinkedIn-nya sendiri; versi The Rope dari disiplin yang sama adalah membaca ulang CV dan formulir sehari sebelum seleksi awal dan menjawab tanggal, jabatan, dan angka persis seperti yang tertulis di sana. Magang “Jun–Agu 2025” di CV adalah “Juni sampai Agustus” di ruangan, bukan “sekitar tiga bulan, sampai September-an”. Tahun bendahara adalah “Agustus 2024 sampai Juli 2025”. IPK adalah “3,38”, bukan “3,4”. Jika dokumen saling tidak sepakat — formulir portal berkata IPK 3,4 karena dibulatkan — sebut angka persisnya dan, jika ditanya, jelaskan pembulatan dalam satu klausa. Aturan konsistensi dari Pelajaran 2.3 berlaku di sini dalam bentuk paling sederhana: HR memegang kertasnya, dan kandidat yang fakta lisannya melenceng darinya dinilai ceroboh paling ringan dan tidak jujur paling berat, dan tidak ada yang bertahan di rapat evaluasi. Inilah juga sebabnya ronde HR adalah tempat yang salah untuk versi dalam dari cerita mana pun: headline dengan angka yang sama dengan CV konsisten sejak dibangun."
+       },
+       "bullets": [
+        {
+         "en": "<b>The day before</b> — re-read the CV and the form; note every date, title and number.",
+         "id": "<b>Sehari sebelumnya</b> — baca ulang CV dan formulir; catat setiap tanggal, jabatan, dan angka."
+        },
+        {
+         "en": "<b>Say it as written</b> — “Juni sampai Agustus”, “3,38”, “Rp 120 juta”.",
+         "id": "<b>Ucapkan sebagaimana tertulis</b> — “Juni sampai Agustus”, “3,38”, “Rp 120 juta”."
+        },
+        {
+         "en": "<b>Where documents disagree</b> — the exact figure, and the reason in one clause if asked.",
+         "id": "<b>Jika dokumen tidak sepakat</b> — angka persisnya, dan alasannya dalam satu klausa jika ditanya."
+        },
+        {
+         "en": "<b>Headlines, not deep versions</b> — the HR round wants the twenty-second story with the CV’s numbers.",
+         "id": "<b>Headline, bukan versi dalam</b> — ronde HR menginginkan cerita dua puluh detik dengan angka CV."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The screen",
+       "id": "Peraga 1: Seleksi awal"
+      },
       "title": {
-       "en": "The five questions every screen serves",
-       "id": "Lima pertanyaan yang dilayani setiap penyaringan"
+       "en": "Fifteen minutes, seven checks, ten questions",
+       "id": "Lima belas menit, tujuh pemeriksaan, sepuluh pertanyaan"
       },
       "items": [
        {
+        "icon": "compass",
         "h": {
-         "en": "Motivation",
-         "id": "Motivasi"
+         "en": "Opening and motivation",
+         "id": "Pembuka dan motivasi"
         },
         "sub": {
-         "en": "This role, or any role?",
-         "id": "Posisi ini, atau posisi apa saja?"
+         "en": "Yourself · why here · what you know about us. Kit: 4.2, 4.3, 3.2.",
+         "id": "Diri Anda · kenapa di sini · apa yang Anda ketahui tentang kami. Perangkat: 4.2, 4.3, 3.2."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Money",
-         "id": "Uang"
+         "en": "Self-assessment",
+         "id": "Penilaian diri"
         },
         "sub": {
-         "en": "Does your range fit the band?",
-         "id": "Apakah rentangmu masuk kisaran mereka?"
+         "en": "Strengths and weakness · why this major · most memorable experience. Kit: 4.4, 2.4.",
+         "id": "Kelebihan dan kekurangan · kenapa jurusan ini · pengalaman paling berkesan. Perangkat: 4.4, 2.4."
         }
        },
        {
+        "icon": "shield",
         "h": {
-         "en": "Timing",
-         "id": "Waktu"
+         "en": "Eligibility",
+         "id": "Kelayakan"
         },
         "sub": {
-         "en": "Notice period, start date, other processes",
-         "id": "Masa pemberitahuan, tanggal mulai, proses lain"
+         "en": "Placement · bond — decided at home, answered in fifteen seconds.",
+         "id": "Penempatan · ikatan dinas — diputuskan di rumah, dijawab dalam lima belas detik."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Communication",
-         "id": "Komunikasi"
+         "en": "Practical terms",
+         "id": "Syarat praktis"
         },
         "sub": {
-         "en": "Clear on a first meeting?",
-         "id": "Jelas pada pertemuan pertama?"
+         "en": "Salary range · start date. Kit: 5.3.",
+         "id": "Rentang gaji · tanggal mulai. Perangkat: 5.3."
         }
        },
        {
+        "icon": "check",
         "h": {
-         "en": "Risk",
-         "id": "Risiko"
+         "en": "Your question and the close",
+         "id": "Pertanyaanmu dan penutup"
         },
         "sub": {
-         "en": "Gaps, bitterness, inconsistencies",
-         "id": "Jeda karier, kepahitan, ketidaksesuaian"
+         "en": "One question about the stage ahead (1.4); thanks; next steps and timing.",
+         "id": "Satu pertanyaan tentang tahap berikutnya (1.4); terima kasih; langkah dan waktu berikutnya."
         }
        }
       ],
       "note": {
-       "en": "Every screen question maps to one of the five. Score yourself before the recruiter does.",
-       "id": "Setiap pertanyaan penyaringan bermuara ke salah satu dari lima itu. Nilai dirimu sendiri sebelum perekrut yang melakukannya."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The five questions every screen serves",
-       "id": "Peraga 1: Lima pertanyaan yang dilayani setiap penyaringan"
+       "en": "Eight minutes of answers; the rest is HR. If you run long, the eligibility questions get cut — and held against you.",
+       "id": "Delapan menit jawaban; sisanya HR. Jika kamu kepanjangan, pertanyaan kelayakan dipotong — dan diperhitungkan melawanmu."
       },
       "longdesc": {
-       "en": "Diagram of The five questions every screen serves. It presents, in order: Motivation — This role, or any role?; Money — Does your range fit the band?; Timing — Notice period, start date, other processes; Communication — Clear on a first meeting?; Risk — Gaps, bitterness, inconsistencies.",
-       "id": "Diagram lima pertanyaan yang dilayani setiap penyaringan. Menyajikan, secara berurutan: Motivasi — posisi ini, atau posisi apa saja?; Uang — apakah rentangmu masuk kisaran mereka?; Waktu — masa pemberitahuan, tanggal mulai, proses lain; Komunikasi — jelas pada pertemuan pertama?; Risiko — jeda karier, kepahitan, ketidaksesuaian."
+       "en": "A five-stage flow of a fifteen-minute HR screen: opening and motivation questions answered from Modules 4 and 3; self-assessment questions from Lessons 4.4 and 2.4; eligibility questions on placement and the bond, decided at home; practical terms on salary and start date from Lesson 5.3; then the candidate’s question about the stage ahead and a short close.",
+       "id": "Alur lima tahap seleksi awal HR lima belas menit: pertanyaan pembuka dan motivasi dijawab dari Modul 4 dan 3; pertanyaan penilaian diri dari Pelajaran 4.4 dan 2.4; pertanyaan kelayakan soal penempatan dan ikatan dinas, diputuskan di rumah; syarat praktis soal gaji dan tanggal mulai dari Pelajaran 5.3; lalu pertanyaan kandidat tentang tahap berikutnya dan penutup singkat."
       }
      },
-     "checks": [
+     "compare": [
       {
-       "q": {
-        "en": "“Why are you leaving your current job?” serves which part of the HR mandate?",
-        "id": "“Mengapa Anda ingin meninggalkan pekerjaan Anda sekarang?” melayani bagian mandat HR yang mana?"
+       "tag": {
+        "en": "Ends on failure → turns to the present",
+        "id": "Berakhir pada kegagalan → berbalik ke sekarang"
        },
-       "options": [
-        {
-         "en": "Risk — checking for bitterness, conflict patterns, and unrealistic expectations",
-         "id": "Risiko — memeriksa kepahitan, pola konflik, dan ekspektasi yang tidak realistis"
-        },
-        {
-         "en": "Budget — estimating your salary expectations",
-         "id": "Anggaran — memperkirakan ekspektasi gajimu"
-        },
-        {
-         "en": "Timeline — determining your start date",
-         "id": "Waktu — menentukan tanggal mulaimu"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — the question hunts risk signals. A forward-facing answer clears it; litigating the past confirms it.",
-        "id": "Benar — pertanyaan itu memburu sinyal risiko. Jawaban yang menghadap ke depan meloloskanmu; mengadili masa lalu justru mengonfirmasi risikonya."
-       }
-      },
-      {
        "q": {
-        "en": "The recruiter chats warmly about your old employer's problems. You should:",
-        "id": "Perekrut mengobrol hangat tentang masalah-masalah di tempat kerjamu yang lama. Kamu sebaiknya:"
+        "en": "“Kenapa memilih jurusan Manajemen?” — asked in the Bank Sinar phone screen.",
+        "id": "“Kenapa memilih jurusan Manajemen?” — ditanyakan di seleksi telepon Bank Sinar."
        },
-       "options": [
-        {
-         "en": "Stay warm and stay forward-facing — every sentence is on the record",
-         "id": "Tetap hangat dan tetap menghadap ke depan — setiap kalimat adalah catatan resmi"
-        },
-        {
-         "en": "Relax and share the real gossip — rapport helps your case",
-         "id": "Santai dan bagikan gosip yang sebenarnya — keakraban membantu posisimu"
-        },
-        {
-         "en": "Refuse to discuss your old employer at all",
-         "id": "Menolak sama sekali membahas tempat kerja lama"
-        }
-       ],
-       "correct": 0,
+       "weak": {
+        "en": "“Sebenarnya dulu saya ingin masuk Kedokteran tapi tidak lolos, jadi saya ambil Manajemen.”",
+        "id": "“Sebenarnya dulu saya ingin masuk Kedokteran tapi tidak lolos, jadi saya ambil Manajemen.”"
+       },
+       "strong": {
+        "en": "“Awalnya saya ingin Kedokteran dan tidak lolos. Di tahun pertama Manajemen saya justru menemukan bahwa saya suka bagian operasional — mengatur alur dan angka. Itu yang membuat saya ambil peminatan operasional dan magang di bank.”",
+        "id": "“Awalnya saya ingin Kedokteran dan tidak lolos. Di tahun pertama Manajemen saya justru menemukan bahwa saya suka bagian operasional — mengatur alur dan angka. Itu yang membuat saya ambil peminatan operasional dan magang di bank.”"
+       },
        "why": {
-        "en": "Correct — warmth is a technique. Match it, and keep your discipline: the screen is a filter wearing a smile.",
-        "id": "Benar — kehangatan adalah teknik. Balaslah, dan jaga disiplinmu: penyaringan adalah saringan yang mengenakan senyum."
+        "en": "The weak answer is honest and ends on a failure with no link forward — HR hears a candidate who is in the wrong major by accident and may be in this application by accident too. The strong answer is equally honest, one sentence longer, and turns to present motivation with a specific preference and the internship as evidence. Thirty seconds; a motivation check passed with the same fact.",
+        "id": "Jawaban lemah jujur dan berakhir pada kegagalan tanpa tautan ke depan — HR mendengar kandidat yang berada di jurusan yang salah karena kebetulan dan mungkin di lamaran ini karena kebetulan juga. Jawaban kuat sama jujurnya, satu kalimat lebih panjang, dan berbalik ke motivasi sekarang dengan preferensi spesifik dan magang sebagai bukti. Tiga puluh detik; pemeriksaan motivasi lolos dengan fakta yang sama."
        }
       }
      ],
      "scenario": {
-      "icon": "chat",
-      "img": "../../assets/mentoring-session.jpg",
+      "icon": "eye",
       "title": {
-       "en": "Candidate In Focus",
-       "id": "Kandidat dalam Sorotan"
+       "en": "In focus: the two sentences that ended a process",
+       "id": "Sorotan: dua kalimat yang mengakhiri sebuah proses"
       },
       "body": [
        {
-        "en": "Maya's screening call is going wonderfully — the recruiter laughs at her jokes, the conversation drifts to weekend plans. Relaxed, Maya mentions she is “honestly just desperate to leave” her current team, and that her salary hope is “whatever, negotiable, really.” The call ends warmly. The process ends silently. Maya never learns which two sentences did it — but after this module, you will recognise both.",
-        "id": "Panggilan penyaringan Maya berjalan sangat menyenangkan — perekrutnya tertawa mendengar candaannya, obrolan melebar ke rencana akhir pekan. Karena merasa santai, Maya menyebut bahwa ia “jujur, sudah tidak tahan ingin keluar” dari timnya sekarang, dan harapan gajinya “berapa saja, bisa nego, sungguh.” Panggilan berakhir dengan hangat. Prosesnya berakhir dalam sunyi. Maya tidak pernah tahu dua kalimat mana yang menjadi penyebabnya — tetapi setelah modul ini, kamu akan mengenali keduanya."
+        "en": "A screening call goes wonderfully. The recruiter laughs at the candidate’s jokes; the conversation drifts to weekend plans. Relaxed, the candidate mentions that she is “honestly just desperate to leave” her current team, and that her salary hope is “whatever, negotiable, really.” The call ends warmly. The process ends silently. She never learns which two sentences did it — the first was scored under red flags (bitterness; a flight risk who will leave the next team the same way), the second under salary fit (no research; will be offered the minimum, or was never serious). The current Rope kept this story because it is the whole lesson in two lines: warmth is the recruiter’s tool, not the candidate’s licence.",
+        "id": "Sebuah panggilan seleksi berjalan sangat menyenangkan. Rekruter tertawa pada lelucon kandidat; percakapan melantur ke rencana akhir pekan. Santai, kandidat menyebut bahwa ia “jujur saja sudah tidak tahan” di tim sekarang, dan bahwa harapan gajinya “terserah, bisa dinegosiasi, sungguh.” Panggilan berakhir hangat. Prosesnya berakhir diam-diam. Ia tak pernah tahu dua kalimat mana yang menyebabkannya — yang pertama dinilai di bawah tanda bahaya (kepahitan; risiko kabur yang akan meninggalkan tim berikutnya dengan cara yang sama), yang kedua di bawah kecocokan gaji (tanpa riset; akan ditawari minimum, atau memang tidak serius). The Rope saat ini mempertahankan cerita ini karena ia seluruh pelajaran dalam dua baris: kehangatan adalah alat rekruter, bukan izin kandidat."
+       },
+       {
+        "en": "Nadia’s Tuesday screen is fifteen minutes and warm too. She answers ten questions in eight minutes, says “Juni sampai Agustus” and “3,38” exactly as the CV has them, gives the placement answer she decided at home with her preference question, names her researched gross range, and asks her one question about the LGD format. Nothing spectacular happens. Two days later the psikotes invitation arrives. That is what a passed screen looks like.",
+        "id": "Seleksi telepon Nadia hari Selasa juga lima belas menit dan hangat. Ia menjawab sepuluh pertanyaan dalam delapan menit, mengucapkan “Juni sampai Agustus” dan “3,38” persis seperti di CV, memberi jawaban penempatan yang ia putuskan di rumah beserta pertanyaan preferensinya, menyebut rentang kotor hasil risetnya, dan mengajukan satu pertanyaannya tentang format LGD. Tidak ada yang spektakuler terjadi. Dua hari kemudian undangan psikotes tiba. Begitulah rupa seleksi awal yang lolos."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The HR set, timed",
+        "id": "Latihan 1 · Set HR, dengan waktu"
+       },
+       "body": {
+        "en": "Run the tryit below — the ten questions in order with the HR persona — with a target of thirty to forty-five seconds per answer and sixty for the opening. Answer from your Kit only. Afterwards, note the length of each answer against its target.",
+        "id": "Jalankan tryit di bawah — sepuluh pertanyaan berurutan dengan persona HR — dengan sasaran tiga puluh hingga empat puluh lima detik per jawaban dan enam puluh untuk pembuka. Jawab hanya dari Perangkatmu. Setelahnya, catat panjang tiap jawaban terhadap sasarannya."
+       },
+       "debrief": {
+        "en": "The simulator’s debrief is specified to show length per answer against target and to flag inconsistencies against your stored CV facts; until it does, do both by hand from the session history. Any answer over its target by half is the one to cut; it is usually question 6 (the memorable experience told as a full story) or question 2 (REC that became a recital). Any answer under ten seconds that is not questions 7–10 is probably missing its evidence. The total should be about eight minutes.",
+        "id": "Debrief simulator ditentukan untuk menunjukkan panjang per jawaban terhadap sasaran dan menandai ketidakkonsistenan terhadap fakta CV yang tersimpan; sampai itu ada, lakukan keduanya dengan tangan dari riwayat sesi. Jawaban apa pun yang melebihi sasarannya separuh adalah yang dipangkas; biasanya pertanyaan 6 (pengalaman berkesan yang diceritakan penuh) atau pertanyaan 2 (REC yang menjadi pembacaan). Jawaban apa pun di bawah sepuluh detik yang bukan pertanyaan 7–10 mungkin kehilangan buktinya. Totalnya sekitar delapan menit."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Decide the eligibility answers",
+        "id": "Latihan 2 · Putuskan jawaban kelayakan"
+       },
+       "body": {
+        "en": "For your top target, write the four eligibility sentences — placement, bond, start date, salary range — as you will actually say them, and mark each unconditional, conditional (with the specific condition) or no. Have the placement conversation at home before you write the sentence, not after.",
+        "id": "Untuk sasaran teratasmu, tulis empat kalimat kelayakan — penempatan, ikatan dinas, tanggal mulai, rentang gaji — seperti kamu akan mengucapkannya, dan tandai masing-masing tanpa syarat, bersyarat (dengan syarat spesifik), atau tidak. Lakukan pembicaraan penempatan di rumah sebelum menulis kalimatnya, bukan setelahnya."
+       },
+       "debrief": {
+        "en": "A conditional answer must contain the condition (“satu kota tertentu”, “setelah sidang bulan Juni”) and be phrased as a question or a fact, not a demand. A “no” that you have written down is worth more than a “yes” you would withdraw — if it ends the process, the process was going to end in month three anyway. If you could not decide, the interview is too soon; ask HR for the bond terms in writing and decide with the document.",
+        "id": "Jawaban bersyarat harus memuat syaratnya (“satu kota tertentu”, “setelah sidang bulan Juni”) dan dirumuskan sebagai pertanyaan atau fakta, bukan tuntutan. “Tidak” yang sudah kamu tulis lebih berharga daripada “ya” yang akan kamu tarik — jika mengakhiri proses, prosesnya toh akan berakhir di bulan ketiga. Jika kamu tidak bisa memutuskan, wawancaranya terlalu cepat; minta HR ketentuan ikatan dinas tertulis dan putuskan dengan dokumennya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The consistency read",
+        "id": "Latihan 3 · Pembacaan konsistensi"
+       },
+       "body": {
+        "en": "Put your CV, your application form and your LinkedIn profile side by side. List every date, title and number that appears in more than one, and mark any that differ. Write the exact figure you will say for each, and the one-clause explanation for any difference.",
+        "id": "Sandingkan CV, formulir lamaran, dan profil LinkedIn-mu. Daftar setiap tanggal, jabatan, dan angka yang muncul di lebih dari satu, dan tandai yang berbeda. Tulis angka persis yang akan kamu ucapkan untuk masing-masing, dan penjelasan satu klausa untuk perbedaan apa pun."
+       },
+       "debrief": {
+        "en": "Most graduates find two to four differences — a rounded IPK, an internship end date, an organisation title that changed between years. Fix the documents you can still edit (LinkedIn, the next form) and prepare the clause for the ones you cannot (“di formulir saya tulis 3,4 karena kolomnya satu desimal; tepatnya 3,38”). This list is also the facts ledger for your HR answers: everything you say in the screen should be on it.",
+        "id": "Kebanyakan lulusan menemukan dua hingga empat perbedaan — IPK yang dibulatkan, tanggal akhir magang, jabatan organisasi yang berubah antar tahun. Perbaiki dokumen yang masih bisa kamu edit (LinkedIn, formulir berikutnya) dan siapkan klausa untuk yang tidak bisa (“di formulir saya tulis 3,4 karena kolomnya satu desimal; tepatnya 3,38”). Daftar ini juga buku fakta untuk jawaban HR-mu: semua yang kamu ucapkan di seleksi awal seharusnya ada di dalamnya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Preparing stories and not the practical questions",
+         "id": "Menyiapkan cerita dan bukan pertanyaan praktis"
+        },
+        "fix": {
+         "en": "The screen is eligibility, availability, salary and consistency; the four sentences come first.",
+         "id": "Seleksi awal adalah kelayakan, ketersediaan, gaji, dan konsistensi; empat kalimatnya lebih dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "A yes you will withdraw",
+         "id": "“Ya” yang akan kamu tarik"
+        },
+        "fix": {
+         "en": "Decide at home; a respectful condition or a plain no is cheaper than resigning in month three.",
+         "id": "Putuskan di rumah; syarat yang hormat atau “tidak” yang lugas lebih murah daripada mengundurkan diri di bulan ketiga."
+        }
+       },
+       {
+        "h": {
+         "en": "Ninety seconds on “kapan bisa mulai?”",
+         "id": "Sembilan puluh detik untuk “kapan bisa mulai?”"
+        },
+        "fix": {
+         "en": "Ten seconds: the date and any commitment.",
+         "id": "Sepuluh detik: tanggal dan komitmen apa pun."
+        }
+       },
+       {
+        "h": {
+         "en": "Relaxing into the warmth",
+         "id": "Larut dalam kehangatan"
+        },
+        "fix": {
+         "en": "Warm back, and every sentence on the record; no bitterness, no “terserah”.",
+         "id": "Balas hangat, dan setiap kalimat tercatat; tanpa kepahitan, tanpa “terserah”."
+        }
        }
       ]
      },
      "glossary": [
       {
        "term": {
-        "en": "notice period",
-        "id": "masa pemberitahuan"
+        "en": "Screen",
+        "id": "Seleksi awal"
        },
        "def": {
-        "en": "The contractual time between resigning and leaving — honour it; how you exit is part of your reputation.",
-        "id": "Waktu yang ditetapkan kontrak antara pengunduran diri dan hari terakhir bekerja — hormati; cara kamu pamit adalah bagian dari reputasimu."
+        "en": "The HR round: a short check for reasons not to move you forward — eligibility, availability, motivation, communication, consistency, salary fit, red flags.",
+        "id": "Ronde HR: pemeriksaan singkat untuk alasan tidak meloloskanmu — kelayakan, ketersediaan, motivasi, komunikasi, konsistensi, kecocokan gaji, tanda bahaya."
        }
       },
       {
        "term": {
-        "en": "the friendliness trap",
-        "id": "jebakan keramahan"
+        "en": "Eligibility sentence",
+        "id": "Kalimat kelayakan"
        },
        "def": {
-        "en": "Professional warmth that loosens tongues — candidates confess doubts, criticise old employers or negotiate against themselves in the first fifteen minutes. Match the warmth; keep the discipline.",
-        "id": "Kehangatan profesional yang melonggarkan lidah — kandidat mengaku ragu, mengkritik mantan pemberi kerja, atau menegosiasikan diri sendiri ke bawah dalam lima belas menit pertama. Imbangi kehangatannya; jaga disiplinnya."
+        "en": "A decided, truthful answer to placement, bond, start date or salary — fifteen seconds, condition included if any.",
+        "id": "Jawaban jujur yang sudah diputuskan untuk penempatan, ikatan dinas, tanggal mulai, atau gaji — lima belas detik, syarat disertakan jika ada."
+       }
+      },
+      {
+       "term": {
+        "en": "Consistency check",
+        "id": "Pemeriksaan konsistensi"
+       },
+       "def": {
+        "en": "HR comparing your spoken dates, titles and numbers with the CV and form they are holding.",
+        "id": "HR membandingkan tanggal, jabatan, dan angka lisanmu dengan CV dan formulir yang mereka pegang."
+       }
+      },
+      {
+       "term": {
+        "en": "Friendliness trap",
+        "id": "Jebakan keramahan"
+       },
+       "def": {
+        "en": "Professional warmth that loosens tongues; every sentence in the screen is on the record.",
+        "id": "Kehangatan profesional yang melonggarkan lidah; setiap kalimat di seleksi awal tercatat."
        }
       }
      ],
-     "insights": {
-      "lead": {
-       "en": "The HR screen from the HR side.",
-       "id": "Penyaringan HR dari sisi HR."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "They are protecting the manager’s time",
-         "id": "Mereka melindungi waktu manajer"
-        },
-        "body": {
-         "en": "Every candidate they pass through costs a hiring manager an hour. The screen asks “will the manager thank me for this?” — motivation, availability, budget and manner answer it.",
-         "id": "Setiap kandidat yang mereka loloskan menghabiskan satu jam manajer perekrut. Penyaringan bertanya “akankah manajer berterima kasih pada saya untuk ini?” — motivasi, ketersediaan, anggaran, dan sikap menjawabnya."
-        }
+     "checks": [
+      {
+       "q": {
+        "en": "“Kapan bisa mulai bekerja?” The right answer length is…",
+        "id": "“Kapan bisa mulai bekerja?” Panjang jawaban yang tepat adalah…"
        },
-       {
-        "h": {
-         "en": "Salary is asked early to avoid waste, not to trap you",
-         "id": "Gaji ditanyakan lebih awal untuk menghindari pemborosan, bukan menjebakmu"
+       "options": [
+        {
+         "en": "Ninety seconds, with your plans",
+         "id": "Sembilan puluh detik, dengan rencanamu"
         },
-        "body": {
-         "en": "A range with a reason (“based on the published guides and the scope you described”) keeps you in the process without anchoring low.",
-         "id": "Rentang dengan alasan (“berdasarkan panduan yang dipublikasikan dan lingkup yang Anda jelaskan”) menjagamu tetap dalam proses tanpa menjangkar rendah."
-        }
-       },
-       {
-        "h": {
-         "en": "Risk is the silent fifth question",
-         "id": "Risiko adalah pertanyaan kelima yang senyap"
+        {
+         "en": "About ten seconds: the date and any commitment in the next three months",
+         "id": "Sekitar sepuluh detik: tanggal dan komitmen apa pun dalam tiga bulan ke depan"
         },
-        "body": {
-         "en": "Gaps, short stints, a pivot — HR is not judging them; they are checking whether you can explain them calmly. A prepared one-sentence answer removes the risk.",
-         "id": "Jeda, masa kerja singkat, perpindahan — HR tidak menghakiminya; mereka memeriksa apakah kamu bisa menjelaskannya dengan tenang. Jawaban satu kalimat yang disiapkan menghilangkan risikonya."
+        {
+         "en": "“Kapan saja”",
+         "id": "“Kapan saja”"
+        },
+        {
+         "en": "A question back",
+         "id": "Pertanyaan balik"
         }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Length is scored under communication; “kapan saja” fails availability if you have a thesis defence in June.",
+        "id": "Panjang dinilai di bawah komunikasi; “kapan saja” gagal ketersediaan jika ada sidang skripsi di Juni."
        }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Treating HR as “just the screen”",
-         "id": "Menganggap HR “hanya penyaringan”"
-        },
-        "fix": {
-         "en": "HR notes travel to every later round and to the offer stage. Be as prepared as for the manager.",
-         "id": "Catatan HR mengalir ke setiap babak berikutnya dan ke tahap tawaran. Bersiaplah seperti untuk manajer."
-        }
+      },
+      {
+       "q": {
+        "en": "You are willing to be placed outside Java but would like to name a preference. In the screen you…",
+        "id": "Kamu bersedia ditempatkan di luar Jawa tetapi ingin menyebut preferensi. Di seleksi awal kamu…"
        },
-       {
-        "h": {
-         "en": "Refusing to give a salary range",
-         "id": "Menolak memberi rentang gaji"
+       "options": [
+        {
+         "en": "Say an unconditional yes and raise it after the offer",
+         "id": "Mengiyakan tanpa syarat dan mengangkatnya setelah tawaran"
         },
-        "fix": {
-         "en": "It reads as either unprepared or difficult. Give a researched range and a reason; keep the negotiation for the offer.",
-         "id": "Itu terbaca sebagai tidak siap atau sulit. Beri rentang hasil riset dan alasannya; simpan negosiasi untuk tahap tawaran."
-        }
-       },
-       {
-        "h": {
-         "en": "Over-explaining the gap",
-         "id": "Terlalu menjelaskan jeda"
+        {
+         "en": "Say yes and ask, respectfully, whether preferences can be submitted for a specific city",
+         "id": "Mengiyakan dan bertanya, dengan hormat, apakah preferensi bisa disampaikan untuk kota tertentu"
         },
-        "fix": {
-         "en": "One calm sentence and what you did in the time. Three minutes of justification makes it look bigger.",
-         "id": "Satu kalimat tenang dan apa yang kamu lakukan selama itu. Tiga menit pembenaran membuatnya tampak lebih besar."
+        {
+         "en": "Say no",
+         "id": "Berkata tidak"
+        },
+        {
+         "en": "Say “tergantung”",
+         "id": "Berkata “tergantung”"
         }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A conditional yes with the condition specific is honest and heard as thoughtful; a yes you would withdraw is the red flag.",
+        "id": "“Ya” bersyarat dengan syarat yang spesifik itu jujur dan terdengar bijak; “ya” yang akan kamu tarik adalah tanda bahayanya."
        }
-      ]
-     },
-     "migratedFrom": "the-rope:4.1"
-    },
-    {
-     "n": "5.2",
-     "title": {
-      "en": "High-Frequency HR Questions and the Answer System",
-      "id": "Pertanyaan HR yang Paling Sering Muncul dan Sistem Jawabannya"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Why us. Why leave. Greatest strength, greatest weakness. Five years. Salary. The difficult cases — gaps, pivots, layoffs. These questions are predictable, which makes them buildable: each has an answer system, not a script. This lesson installs the systems and drills the two most feared.",
-      "id": "Mengapa kami. Mengapa pindah. Kekuatan terbesar, kelemahan terbesar. Lima tahun lagi. Gaji. Kasus-kasus sulit — jeda karier, banting setir, PHK. Pertanyaan-pertanyaan ini bisa diprediksi, dan karena itu bisa disiapkan: masing-masing punya sistem jawaban, bukan naskah. Pelajaran ini memasang sistem-sistem itu dan melatih dua pertanyaan yang paling ditakuti."
-     },
-     "objectives": [
-      {
-       "en": "Apply the answer system for each high-frequency HR question.",
-       "id": "Menerapkan sistem jawaban untuk setiap pertanyaan HR yang sering muncul."
       },
       {
-       "en": "Deliver a real weakness with its management plan convincingly.",
-       "id": "Menyampaikan kelemahan yang sungguhan beserta cara mengelolanya, secara meyakinkan."
-      },
-      {
-       "en": "Reframe your difficult case — gap, pivot, layoff — with calm honesty.",
-       "id": "Membingkai ulang kasus sulitmu — jeda karier, banting setir, PHK — dengan kejujuran yang tenang."
+       "q": {
+        "en": "Your CV says the internship ended in August; on the phone you say “sampai September-an”. HR scores this as…",
+        "id": "CV-mu bilang magang berakhir Agustus; di telepon kamu berkata “sampai September-an”. HR menilainya sebagai…"
+       },
+       "options": [
+        {
+         "en": "Nothing — close enough",
+         "id": "Tidak ada — cukup dekat"
+        },
+        {
+         "en": "A consistency failure — careless at best, untruthful at worst",
+         "id": "Kegagalan konsistensi — ceroboh paling ringan, tidak jujur paling berat"
+        },
+        {
+         "en": "Good communication",
+         "id": "Komunikasi yang baik"
+        },
+        {
+         "en": "A reason to ask for the transcript",
+         "id": "Alasan meminta transkrip"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "HR is holding the paper; say dates and numbers as written, and re-read the documents the day before.",
+        "id": "HR memegang kertasnya; ucapkan tanggal dan angka sebagaimana tertulis, dan baca ulang dokumen sehari sebelumnya."
+       }
       }
      ],
-     "takeawaysLead": {
-      "en": "The high-frequency questions are predictable, which makes them buildable. To answer from systems rather than scripts, you can:",
-      "id": "Pertanyaan-pertanyaan berfrekuensi tinggi bisa diprediksi, yang membuatnya bisa dibangun. Untuk menjawab dari sistem alih-alih naskah, kamu bisa:"
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "hr03",
+       "hr11",
+       "hr07",
+       "hr08",
+       "bh21",
+       "elig_placement",
+       "elig_service_bond",
+       "elig_salary_gross",
+       "elig_start_date"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "format": "phone",
+      "returnTo": 2,
+      "label": {
+       "en": "HR screen set: the ten questions, in order",
+       "id": "Set seleksi HR: sepuluh pertanyaan, berurutan"
+      },
+      "desc": {
+       "en": "The ten most common HR questions with the HR persona at phone-screen pace. Targets: sixty seconds for the opening, thirty to forty-five for the middle, fifteen or less for the eligibility and practical questions. Answer from your Kit; afterwards compare each answer’s length with its target in the session history.",
+       "id": "Sepuluh pertanyaan HR paling umum dengan persona HR pada kecepatan seleksi telepon. Sasaran: enam puluh detik untuk pembuka, tiga puluh hingga empat puluh lima untuk tengah, lima belas atau kurang untuk pertanyaan kelayakan dan praktis. Jawab dari Perangkatmu; setelahnya bandingkan panjang tiap jawaban dengan sasarannya di riwayat sesi."
+      }
      },
      "takeaways": [
       {
-       "en": "Systems, not scripts: know the moves of each answer and improvise the words.",
-       "id": "Sistem, bukan naskah: kuasai langkah-langkah setiap jawaban, dan improvisasikan kata-katanya."
+       "en": "The screen looks for reasons not to move you forward; give it none.",
+       "id": "Seleksi awal mencari alasan untuk tidak meloloskanmu; jangan beri satu pun."
       },
       {
-       "en": "The weakness question is a trust test — a disguised strength fails it instantly.",
-       "id": "Pertanyaan tentang kelemahan adalah ujian kepercayaan — kekuatan yang disamarkan langsung gagal."
+       "en": "Decide placement and bond at home; answer in fifteen seconds, condition included.",
+       "id": "Putuskan penempatan dan ikatan dinas di rumah; jawab dalam lima belas detik, syarat disertakan."
       },
       {
-       "en": "Difficult cases are answered in one calm sentence plus a redirect to evidence.",
-       "id": "Kasus sulit dijawab dengan satu kalimat yang tenang, lalu dialihkan ke bukti."
+       "en": "Short, true, and identical to the CV — that is a passed screen.",
+       "id": "Singkat, benar, dan identik dengan CV — itulah seleksi awal yang lolos."
       }
      ],
-     "sections": [
-      {
-       "h": {
-        "en": "The systems at a glance",
-        "id": "Sistem-sistemnya, sekilas"
-       },
-       "body": {
-        "en": "Why us: something true and specific about them, bridged to your direction. Why leave: face forward, never litigate. Strength: one claim, one story, one number. Weakness: real, costed once, managed by a system. Five years: a capability, not a title. Salary: a researched range plus what it depends on. Every system is two or three moves — learn the moves.",
-        "id": "Mengapa kami: sesuatu yang benar dan spesifik tentang mereka, dijembatani ke arah kariermu. Mengapa pindah: menghadap ke depan, jangan pernah mengadili masa lalu. Kekuatan: satu klaim, satu cerita, satu angka. Kelemahan: yang sungguhan, akibatnya disebut satu kali, dikendalikan oleh sebuah sistem. Lima tahun lagi: sebuah kemampuan, bukan jabatan. Gaji: rentang hasil riset plus apa yang memengaruhinya. Setiap sistem hanya dua atau tiga langkah — kuasai langkah-langkahnya."
-       }
-      },
-      {
-       "h": {
-        "en": "The difficult cases, honestly",
-        "id": "Kasus-kasus sulit, dengan jujur"
-       },
-       "body": {
-        "en": "Gap, pivot, layoff, low grades, job-hopping: the pattern is identical. One calm sentence naming the fact, zero apology spiral, then a redirect to what you built or learned, landing on the present. The interviewer's fear is evasion and decay; your calm brevity answers both. Full preparation paths for sixteen difficult cases live in the simulator's setup — select yours and drill it.",
-        "id": "Jeda karier, banting setir, PHK, nilai rendah, terlalu sering pindah kerja: polanya sama persis. Satu kalimat tenang yang menyebutkan faktanya, tanpa pusaran permintaan maaf, lalu alihkan ke apa yang kamu bangun atau pelajari, dan daratkan di masa kini. Yang ditakutkan pewawancara adalah pengelakan dan kemunduran; keringkasanmu yang tenang menjawab keduanya. Jalur persiapan lengkap untuk enam belas kasus sulit tersedia di pengaturan simulator — pilih milikmu, lalu latih."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: Four answer systems — the moves, not the words.",
-       "id": "Peraga 1: Empat sistem jawaban — langkahnya, bukan kata-katanya."
-      },
+     "resources": {
       "title": {
-       "en": "Why us · Why leave · Strength · Weakness",
-       "id": "Mengapa kami · Mengapa keluar · Kekuatan · Kelemahan"
+       "en": "Sources and the HR answer set",
+       "id": "Sumber dan set jawaban HR"
+      },
+      "lead": {
+       "en": "Two sources, the retained “five questions” framing, and the first part of the Module 5 Kit item.",
+       "id": "Dua sumber, pembingkaian “lima pertanyaan” yang dipertahankan, dan bagian pertama butir Perangkat Modul 5."
       },
       "items": [
        {
-        "h": {
-         "en": "Why us",
-         "id": "Mengapa kami"
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 5.1",
+         "id": "Daftar bacaan · Pelajaran 5.1"
         },
-        "sub": {
-         "en": "Something true and specific about them, bridged to your direction",
-         "id": "Sesuatu yang benar dan spesifik tentang mereka, dijembatani ke arahmu"
-        }
+        "desc": {
+         "en": "What a screen is for, from the interviewer’s side.",
+         "id": "Untuk apa seleksi awal, dari sisi pewawancara."
+        },
+        "body": [
+         {
+          "en": "E. Pellett, <i>Interview Like a Boss</i> — the screening round as a filter, and what passes it.",
+          "id": "E. Pellett, <i>Interview Like a Boss</i> — ronde penyaringan sebagai saringan, dan apa yang lolos."
+         },
+         {
+          "en": "The Pack, Module 3 — the four-inconsistencies case this lesson’s consistency read repeats.",
+          "id": "The Pack, Modul 3 — kasus empat ketidakkonsistenan yang diulang pembacaan konsistensi pelajaran ini."
+         },
+         {
+          "en": "The Rope (current), “the HR interviewer’s mandate” — retained as the friendliness trap and “what passes the screen”.",
+          "id": "The Rope (saat ini), “mandat pewawancara HR” — dipertahankan sebagai jebakan keramahan dan “apa yang lolos seleksi awal”."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Typical ikatan dinas terms and their enforceability — confirm before stating consequences as fact.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Ketentuan ikatan dinas yang lazim dan keberlakuannya — konfirmasi sebelum menyatakan konsekuensi sebagai fakta."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "HR answer set (Kit item, part 1)",
+         "id": "Set jawaban HR (butir Perangkat, bagian 1)"
+        },
+        "desc": {
+         "en": "Ten questions, ten Kit pointers, four decided sentences.",
+         "id": "Sepuluh pertanyaan, sepuluh penunjuk Perangkat, empat kalimat yang diputuskan."
+        },
+        "body": [
+         {
+          "en": "Q1–6: the Kit item each draws on, and the target length",
+          "id": "Q1–6: butir Perangkat yang dipakai masing-masing, dan panjang sasaran"
+         },
+         {
+          "en": "Q7 placement: unconditional / conditional (condition: …) / no · Q8 bond: decision + one clarifying question",
+          "id": "Q7 penempatan: tanpa syarat / bersyarat (syarat: …) / tidak · Q8 ikatan dinas: keputusan + satu pertanyaan klarifikasi"
+         },
+         {
+          "en": "Q9 salary: researched gross range (5.3) · Q10 start: date + commitments",
+          "id": "Q9 gaji: rentang kotor hasil riset (5.3) · Q10 mulai: tanggal + komitmen"
+         },
+         {
+          "en": "Facts ledger from the consistency read: every date, title and number as written; the one-clause explanation for any difference",
+          "id": "Buku fakta dari pembacaan konsistensi: setiap tanggal, jabatan, dan angka sebagaimana tertulis; penjelasan satu klausa untuk perbedaan apa pun"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Your Difficult Question — Gaps, Grades, Changes and Failures",
+      "id": "Pertanyaan Tersulitmu — Jeda, Nilai, Perubahan, dan Kegagalan"
+     },
+     "overview": {
+      "en": "Almost every candidate has one question they dread: a gap, low grades, a changed major, an internship left early, a long job search, no organisation experience, being older than the typical graduate, graduating late. The question will almost certainly come. Unprepared, it becomes the moment the interview goes wrong. Prepared, it becomes a moment of credibility. This lesson gives the three-part answer — Acknowledge, Account, Advance — the paths for the seven most common difficult cases, what not to do, and the integrity line: frame, never falsify.",
+      "id": "Hampir setiap kandidat punya satu pertanyaan yang ia takuti: jeda, nilai rendah, pindah jurusan, magang yang ditinggalkan lebih awal, pencarian kerja yang panjang, tanpa pengalaman organisasi, lebih tua dari lulusan pada umumnya, lulus terlambat. Pertanyaan itu hampir pasti datang. Tanpa persiapan, ia menjadi momen wawancara berjalan salah. Dengan persiapan, ia menjadi momen kredibilitas. Pelajaran ini memberi jawaban tiga bagian — Akui, Jelaskan, Maju — jalur untuk tujuh kasus sulit paling umum, apa yang tidak boleh dilakukan, dan garis integritas: bingkai, jangan pernah memalsukan."
+     },
+     "objectives": [
+      {
+       "en": "Identify your own difficult question from your CV facts before an interviewer does.",
+       "id": "Mengenali pertanyaan tersulitmu sendiri dari fakta CV-mu sebelum pewawancara melakukannya."
+      },
+      {
+       "en": "Answer it in three parts — Acknowledge, Account, Advance — with Advance the longest.",
+       "id": "Menjawabnya dalam tiga bagian — Akui, Jelaskan, Maju — dengan Maju yang terpanjang."
+      },
+      {
+       "en": "Avoid the four failures: lying, over-explaining, blaming, and raising it yourself at the wrong moment.",
+       "id": "Menghindari empat kegagalan: berbohong, terlalu menjelaskan, menyalahkan, dan mengangkatnya sendiri di saat yang salah."
+      },
+      {
+       "en": "Hold the integrity line under a direct question.",
+       "id": "Mempertahankan garis integritas di bawah pertanyaan langsung."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The question you dread is the one to prepare first",
+       "id": "Pertanyaan yang kamu takuti adalah yang disiapkan pertama"
+      },
+      "intro": {
+       "en": "You already named it in Lesson 1.1 as your uncertainty and predicted it in Lesson 3.3. This lesson writes the answer.",
+       "id": "Kamu sudah menyebutnya di Pelajaran 1.1 sebagai ketidakpastianmu dan memprediksinya di Pelajaran 3.3. Pelajaran ini menulis jawabannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Acknowledge → Account → Advance",
+         "id": "Akui → Jelaskan → Maju"
+        },
+        "points": [
+         {
+          "en": "One sentence, without defensiveness · one or two sentences, factual and owned · the longest part: what you did about it and what is true now.",
+          "id": "Satu kalimat, tanpa defensif · satu atau dua kalimat, faktual dan diakui · bagian terpanjang: apa yang kamu lakukan tentangnya dan apa yang benar sekarang."
+         },
+         {
+          "en": "Advance should be at least half the answer.",
+          "id": "Maju seharusnya setidaknya separuh jawaban."
+         }
+        ]
        },
        {
         "h": {
-         "en": "Why leave",
-         "id": "Mengapa keluar"
+         "en": "Seven common cases",
+         "id": "Tujuh kasus umum"
         },
-        "sub": {
-         "en": "Face forward; never litigate the old employer",
-         "id": "Menghadap ke depan; jangan pernah berperkara dengan mantan pemberi kerja"
-        }
+        "points": [
+         {
+          "en": "Low IPK · late graduation · a gap after graduating · no organisation or internship · a changed major · an internship or job left early · many rejections.",
+          "id": "IPK rendah · lulus terlambat · jeda setelah lulus · tanpa organisasi atau magang · pindah jurusan · magang atau pekerjaan ditinggalkan lebih awal · banyak penolakan."
+         },
+         {
+          "en": "The simulator has sixteen paths; these seven are the teaching versions.",
+          "id": "Simulator punya enam belas jalur; tujuh ini versi pengajarannya."
+         }
+        ]
        },
        {
         "h": {
-         "en": "Strength",
-         "id": "Kekuatan"
+         "en": "What not to do",
+         "id": "Yang tidak boleh dilakukan"
         },
-        "sub": {
-         "en": "One claim, one story, one number",
-         "id": "Satu klaim, satu cerita, satu angka"
-        }
+        "points": [
+         {
+          "en": "Lie · over-explain (the more you talk, the bigger it seems) · blame · raise it yourself at the start.",
+          "id": "Berbohong · terlalu menjelaskan (makin banyak bicara, makin besar tampaknya) · menyalahkan · mengangkatnya sendiri di awal."
+         }
+        ]
        },
        {
         "h": {
-         "en": "Weakness",
-         "id": "Kelemahan"
+         "en": "The integrity line",
+         "id": "Garis integritas"
+        },
+        "points": [
+         {
+          "en": "“Pernah diberhentikan?” — answer truthfully. Frame, never falsify.",
+          "id": "“Pernah diberhentikan?” — jawab jujur. Bingkai, jangan pernah memalsukan."
+         },
+         {
+          "en": "Some books teach concealment tactics; The Rope does not.",
+          "id": "Beberapa buku mengajarkan taktik menyembunyikan; The Rope tidak."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "shield",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "The three-part answer",
+        "id": "Jawaban tiga bagian"
+       },
+       "body": {
+        "en": "A difficult question is a test of self-awareness and honesty wearing the clothes of a fact question, and the answer that passes has a fixed shape. <b>Acknowledge</b> — briefly, without defensiveness, in one sentence that states the fact as the interviewer sees it: “Betul, IPK saya 2,95.” Not “sebenarnya…”, not “tapi…”, not a softer number. The acknowledgement is what buys the next sixty seconds; a candidate who argues with the premise loses them. <b>Account</b> — a factual explanation, owned, not blamed, in one or two sentences: what was true at the time and what your part in it was. “Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya.” <b>Advance</b> — evidence of what you did about it and what is true now, and this is the longest part: the grades since, the skills built, the trust earned, the thing you do differently. The proportions matter as much as the content. Acknowledge and Account together should be a third of the answer at most; Advance at least half. When Account grows, the answer becomes an excuse; when Advance shrinks, it becomes a confession. Kador’s interviewer guide is explicit that the difficult question is asked to see whether the candidate takes responsibility and has moved on — not to relitigate the fact <i>(Kador)</i>. The current Rope’s compressed version — one calm sentence naming the fact, zero apology spiral, a redirect to what you built, landing on the present — is the same shape at twenty seconds; this lesson gives it ninety.",
+        "id": "Pertanyaan sulit adalah ujian kesadaran diri dan kejujuran yang memakai baju pertanyaan fakta, dan jawaban yang lolos punya bentuk tetap. <b>Akui</b> — singkat, tanpa defensif, dalam satu kalimat yang menyatakan fakta sebagaimana dilihat pewawancara: “Betul, IPK saya 2,95.” Bukan “sebenarnya…”, bukan “tapi…”, bukan angka yang lebih lunak. Pengakuan adalah yang membeli enam puluh detik berikutnya; kandidat yang berdebat dengan premis kehilangannya. <b>Jelaskan</b> — penjelasan faktual, diakui, tidak menyalahkan, dalam satu atau dua kalimat: apa yang benar saat itu dan apa bagianmu di dalamnya. “Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya.” <b>Maju</b> — bukti apa yang kamu lakukan tentangnya dan apa yang benar sekarang, dan ini bagian terpanjang: nilai sejak itu, keterampilan yang dibangun, kepercayaan yang diperoleh, hal yang kamu lakukan berbeda. Proporsinya sama pentingnya dengan isinya. Akui dan Jelaskan bersama paling banyak sepertiga jawaban; Maju setidaknya separuh. Saat Jelaskan membesar, jawaban menjadi alasan; saat Maju menyusut, ia menjadi pengakuan dosa. Panduan pewawancara Kador tegas bahwa pertanyaan sulit diajukan untuk melihat apakah kandidat bertanggung jawab dan sudah melangkah — bukan untuk mengadili ulang faktanya <i>(Kador)</i>. Versi padat The Rope saat ini — satu kalimat tenang menyebut fakta, nol spiral permintaan maaf, pengalihan ke apa yang kamu bangun, mendarat di sekarang — adalah bentuk yang sama dalam dua puluh detik; pelajaran ini memberinya sembilan puluh."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "Length",
+          "id": "Panjang"
+         },
+         {
+          "en": "Does",
+          "id": "Melakukan"
+         },
+         {
+          "en": "Fails when",
+          "id": "Gagal saat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Acknowledge</b>",
+           "id": "<b>Akui</b>"
+          },
+          {
+           "en": "One sentence",
+           "id": "Satu kalimat"
+          },
+          {
+           "en": "States the fact as the interviewer sees it",
+           "id": "Menyatakan fakta sebagaimana dilihat pewawancara"
+          },
+          {
+           "en": "“Sebenarnya…”, “tapi…”, a softer number",
+           "id": "“Sebenarnya…”, “tapi…”, angka yang lebih lunak"
+          }
+         ],
+         [
+          {
+           "en": "<b>Account</b>",
+           "id": "<b>Jelaskan</b>"
+          },
+          {
+           "en": "One or two sentences",
+           "id": "Satu atau dua kalimat"
+          },
+          {
+           "en": "The factual reason, with your part owned",
+           "id": "Alasan faktual, dengan bagianmu diakui"
+          },
+          {
+           "en": "A third party as the cause; a paragraph",
+           "id": "Pihak ketiga sebagai penyebab; satu paragraf"
+          }
+         ],
+         [
+          {
+           "en": "<b>Advance</b>",
+           "id": "<b>Maju</b>"
+          },
+          {
+           "en": "At least half",
+           "id": "Setidaknya separuh"
+          },
+          {
+           "en": "What you did about it; what is true now, with evidence",
+           "id": "Apa yang kamu lakukan tentangnya; apa yang benar sekarang, dengan bukti"
+          },
+          {
+           "en": "Intentions instead of evidence; missing entirely",
+           "id": "Niat alih-alih bukti; hilang sama sekali"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Ninety seconds: about ten for Acknowledge, twenty for Account, sixty for Advance.",
+         "id": "Sembilan puluh detik: sekitar sepuluh untuk Akui, dua puluh untuk Jelaskan, enam puluh untuk Maju."
+        }
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "Paths for the common difficult cases",
+        "id": "Jalur untuk kasus sulit umum"
+       },
+       "body": {
+        "en": "The simulator carries sixteen difficult-case paths; the seven below are the ones fresh graduates in Indonesia meet most, written as the three parts each needs. Read the row that is yours twice and the others once — the interviewer may see a difficult case you do not (a KKN gap you consider normal; a part-time job you left off the CV). In every row the Advance column is where the answer is won, and it is also where a specific number from your Story Bank belongs: “IP semester 3,4–3,6 sejak semester lima” is Advance; “saya sudah belajar dari kesalahan” is not.",
+        "id": "Simulator membawa enam belas jalur kasus sulit; tujuh di bawah adalah yang paling sering ditemui lulusan baru di Indonesia, ditulis sebagai tiga bagian yang dibutuhkan masing-masing. Baca baris milikmu dua kali dan yang lain sekali — pewawancara mungkin melihat kasus sulit yang tidak kamu lihat (jeda KKN yang kamu anggap normal; kerja paruh waktu yang tidak kamu tulis di CV). Di setiap baris kolom Maju adalah tempat jawaban dimenangkan, dan juga tempat angka spesifik dari Bank Ceritamu berada: “IP semester 3,4–3,6 sejak semester lima” adalah Maju; “saya sudah belajar dari kesalahan” bukan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Case",
+          "id": "Kasus"
+         },
+         {
+          "en": "Acknowledge",
+          "id": "Akui"
+         },
+         {
+          "en": "Account",
+          "id": "Jelaskan"
+         },
+         {
+          "en": "Advance",
+          "id": "Maju"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Low IPK</b>",
+           "id": "<b>IPK rendah</b>"
+          },
+          {
+           "en": "“Betul, IPK saya 2,9.”",
+           "id": "“Betul, IPK saya 2,9.”"
+          },
+          {
+           "en": "Two semesters of part-time work or organisation; priorities set badly early — owned",
+           "id": "Dua semester kerja paruh waktu atau organisasi; prioritas diatur buruk di awal — diakui"
+          },
+          {
+           "en": "Grades in major subjects or the final three semesters; skills evidence; what you do differently",
+           "id": "Nilai mata kuliah jurusan atau tiga semester terakhir; bukti keterampilan; yang kamu lakukan berbeda"
+          }
+         ],
+         [
+          {
+           "en": "<b>Late graduation (over 4½ years)</b>",
+           "id": "<b>Lulus terlambat (lebih dari 4½ tahun)</b>"
+          },
+          {
+           "en": "“Saya lulus dalam 5 tahun.”",
+           "id": "“Saya lulus dalam 5 tahun.”"
+          },
+          {
+           "en": "The reason — work, family, thesis revision, organisation — factual",
+           "id": "Alasannya — kerja, keluarga, revisi skripsi, organisasi — faktual"
+          },
+          {
+           "en": "What those years produced: experience, skills, a result",
+           "id": "Apa yang dihasilkan tahun-tahun itu: pengalaman, keterampilan, hasil"
+          }
+         ],
+         [
+          {
+           "en": "<b>Gap after graduating</b>",
+           "id": "<b>Jeda setelah lulus</b>"
+          },
+          {
+           "en": "“Sudah 8 bulan sejak wisuda.”",
+           "id": "“Sudah 8 bulan sejak wisuda.”"
+          },
+          {
+           "en": "What you were doing — applying, a course, family, freelance",
+           "id": "Apa yang kamu lakukan — melamar, kursus, keluarga, freelance"
+          },
+          {
+           "en": "What you learned or built; why you are focused on this role now",
+           "id": "Apa yang kamu pelajari atau bangun; mengapa kamu fokus pada peran ini sekarang"
+          }
+         ],
+         [
+          {
+           "en": "<b>No organisation or internship</b>",
+           "id": "<b>Tanpa organisasi atau magang</b>"
+          },
+          {
+           "en": "“Saya tidak banyak aktif di organisasi.”",
+           "id": "“Saya tidak banyak aktif di organisasi.”"
+          },
+          {
+           "en": "Part-time work, the family business, caregiving, study focus",
+           "id": "Kerja paruh waktu, bisnis keluarga, merawat keluarga, fokus belajar"
+          },
+          {
+           "en": "Transferable evidence from those settings (Lesson 2.1); initiative since",
+           "id": "Bukti yang bisa ditransfer dari latar itu (Pelajaran 2.1); inisiatif sejak itu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Changed major or field</b>",
+           "id": "<b>Pindah jurusan atau bidang</b>"
+          },
+          {
+           "en": "“Saya pindah dari Teknik ke Manajemen.”",
+           "id": "“Saya pindah dari Teknik ke Manajemen.”"
+          },
+          {
+           "en": "The honest reason",
+           "id": "Alasan jujurnya"
+          },
+          {
+           "en": "What the switch taught; why it makes you stronger here",
+           "id": "Apa yang diajarkan perpindahan itu; mengapa ia membuatmu lebih kuat di sini"
+          }
+         ],
+         [
+          {
+           "en": "<b>Left an internship or job early</b>",
+           "id": "<b>Meninggalkan magang atau pekerjaan lebih awal</b>"
+          },
+          {
+           "en": "“Saya menyelesaikan magang lebih cepat dari rencana.”",
+           "id": "“Saya menyelesaikan magang lebih cepat dari rencana.”"
+          },
+          {
+           "en": "The factual reason, no blame",
+           "id": "Alasan faktual, tanpa menyalahkan"
+          },
+          {
+           "en": "What you learned; the commitment you intend here, with what makes it credible",
+           "id": "Apa yang kamu pelajari; komitmen yang kamu maksud di sini, dengan yang membuatnya kredibel"
+          }
+         ],
+         [
+          {
+           "en": "<b>Many rejections / a long search</b>",
+           "id": "<b>Banyak penolakan / pencarian panjang</b>"
+          },
+          {
+           "en": "“Saya sudah beberapa kali sampai tahap akhir.”",
+           "id": "“Saya sudah beberapa kali sampai tahap akhir.”"
+          },
+          {
+           "en": "Brief",
+           "id": "Singkat"
+          },
+          {
+           "en": "What you changed; why this role fits better than the ones before",
+           "id": "Apa yang kamu ubah; mengapa peran ini lebih cocok daripada yang sebelumnya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The blueprint’s seven teaching paths. Advance is always the column with the number in it.",
+         "id": "Tujuh jalur pengajaran blueprint. Maju selalu kolom yang memuat angka."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "What not to do",
+        "id": "Yang tidak boleh dilakukan"
+       },
+       "body": {
+        "en": "Four failures account for most difficult-question disasters, and three of them are about length. <b>Lying</b> — a changed date, an invented reason, a rounded IPK — is the only one that ends a process by itself, because the transcript, the reference call or the next round finds it. <b>Over-explaining</b> — the more you talk about the gap, the bigger it seems; a three-minute account of eight months tells the interviewer the eight months are still the biggest thing in your head. <b>Blaming</b> — lecturers who were stingy with marks, a system, a manager who did not explain — converts a fact question into a character finding: the interviewer hears a colleague who will blame them next year. <b>Raising it yourself at the start</b> — “sebelum kita mulai, saya mau jelaskan soal IPK saya” — hands the interviewer a frame they may not have had; the exception is a case so obvious from the CV (a five-year gap, a major changed twice) that you want to frame it before the question does, in one sentence inside the opening, and then move on. The rule for all four is the same: a difficult case is one fact, one owned reason, and the evidence of now — and then the next question.",
+        "id": "Empat kegagalan menyebabkan sebagian besar bencana pertanyaan sulit, dan tiga di antaranya soal panjang. <b>Berbohong</b> — tanggal yang diubah, alasan yang dikarang, IPK yang dibulatkan — satu-satunya yang mengakhiri proses dengan sendirinya, karena transkrip, panggilan referensi, atau ronde berikutnya menemukannya. <b>Terlalu menjelaskan</b> — makin banyak kamu bicara tentang jeda, makin besar tampaknya; penjelasan tiga menit tentang delapan bulan memberi tahu pewawancara bahwa delapan bulan itu masih hal terbesar di kepalamu. <b>Menyalahkan</b> — dosen yang pelit nilai, sistem, manajer yang tidak menjelaskan — mengubah pertanyaan fakta menjadi temuan karakter: pewawancara mendengar rekan yang akan menyalahkan mereka tahun depan. <b>Mengangkatnya sendiri di awal</b> — “sebelum kita mulai, saya mau jelaskan soal IPK saya” — menyerahkan kepada pewawancara bingkai yang mungkin tidak mereka punya; pengecualiannya adalah kasus yang begitu jelas dari CV (jeda lima tahun, jurusan yang berubah dua kali) sehingga kamu ingin membingkainya sebelum pertanyaan melakukannya, dalam satu kalimat di dalam pembuka, lalu lanjut. Aturan untuk keempatnya sama: kasus sulit adalah satu fakta, satu alasan yang diakui, dan bukti sekarang — lalu pertanyaan berikutnya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Lie</b> — the only failure that ends a process by itself; the transcript or the reference finds it.",
+         "id": "<b>Berbohong</b> — satu-satunya kegagalan yang mengakhiri proses dengan sendirinya; transkrip atau referensi menemukannya."
+        },
+        {
+         "en": "<b>Over-explain</b> — length is read as the size of the problem in your own head.",
+         "id": "<b>Terlalu menjelaskan</b> — panjang dibaca sebagai ukuran masalah di kepalamu sendiri."
+        },
+        {
+         "en": "<b>Blame</b> — turns a fact into a character finding.",
+         "id": "<b>Menyalahkan</b> — mengubah fakta menjadi temuan karakter."
+        },
+        {
+         "en": "<b>Raise it first</b> — unless it is obvious from the CV; then one sentence in the opening, and on.",
+         "id": "<b>Mengangkatnya lebih dulu</b> — kecuali jelas dari CV; maka satu kalimat di pembuka, dan lanjut."
+        }
+       ]
+      },
+      {
+       "icon": "check",
+       "h": {
+        "en": "The integrity line",
+        "id": "Garis integritas"
+       },
+       "body": {
+        "en": "If the interviewer asks directly — “Pernah diberhentikan?”, “Magangnya diputus atau Anda yang berhenti?”, “IPK-nya persis berapa?” — answer truthfully. Frame, never falsify: the Account sentence chooses which true reason to lead with and how to say it, and the Advance section chooses which evidence follows; neither invents. Some reference books recommend concealment tactics for difficult cases — dates stretched to hide a gap, a “mutual decision” for a dismissal, a previous salary inflated. The Rope does not teach them, and the blueprint marks them “do not teach”, for two reasons that are practical before they are moral: the tactics are checkable (transcripts, BPJS records, reference calls, the next interviewer’s notes), and a candidate caught in one loses every other answer at the debrief (Lesson 1.2). The integrity line also protects you from the wrong job: an employer who would reject you for a truthfully framed gap is one whose first month you would not survive. Nadia’s own difficult case is small — an IPK of 3,38 against a bank whose threshold is 3,00 but whose typical intake is higher — and her prepared answer is the compare below.",
+        "id": "Jika pewawancara bertanya langsung — “Pernah diberhentikan?”, “Magangnya diputus atau Anda yang berhenti?”, “IPK-nya persis berapa?” — jawab jujur. Bingkai, jangan pernah memalsukan: kalimat Jelaskan memilih alasan benar mana yang diutamakan dan cara mengatakannya, dan bagian Maju memilih bukti mana yang menyusul; tidak ada yang mengarang. Beberapa buku rujukan menganjurkan taktik menyembunyikan untuk kasus sulit — tanggal direntangkan untuk menutupi jeda, “keputusan bersama” untuk pemecatan, gaji sebelumnya dilebihkan. The Rope tidak mengajarkannya, dan blueprint menandainya “jangan ajarkan”, karena dua alasan yang praktis sebelum moral: taktik itu bisa diperiksa (transkrip, catatan BPJS, panggilan referensi, catatan pewawancara berikutnya), dan kandidat yang tertangkap kehilangan setiap jawaban lain di rapat evaluasi (Pelajaran 1.2). Garis integritas juga melindungimu dari pekerjaan yang salah: pemberi kerja yang menolakmu karena jeda yang dibingkai jujur adalah pemberi kerja yang bulan pertamanya tidak akan kamu lalui. Kasus sulit Nadia sendiri kecil — IPK 3,38 terhadap bank yang ambangnya 3,00 tetapi angkatan lazimnya lebih tinggi — dan jawaban yang ia siapkan adalah perbandingan di bawah."
+       },
+       "bullets": [
+        {
+         "en": "<b>Direct question, true answer</b> — then Account and Advance as usual.",
+         "id": "<b>Pertanyaan langsung, jawaban benar</b> — lalu Jelaskan dan Maju seperti biasa."
+        },
+        {
+         "en": "<b>Frame</b> — choose which true reason leads and which evidence follows.",
+         "id": "<b>Bingkai</b> — pilih alasan benar mana yang memimpin dan bukti mana yang menyusul."
+        },
+        {
+         "en": "<b>Never falsify</b> — dates, reasons, numbers, salaries; all are checkable.",
+         "id": "<b>Jangan pernah memalsukan</b> — tanggal, alasan, angka, gaji; semuanya bisa diperiksa."
+        },
+        {
+         "en": "<b>Not taught here</b> — concealment tactics from some reference books; marked “do not teach” in the blueprint.",
+         "id": "<b>Tidak diajarkan di sini</b> — taktik menyembunyikan dari beberapa buku rujukan; ditandai “jangan ajarkan” di blueprint."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: Acknowledge → Account → Advance",
+       "id": "Peraga 1: Akui → Jelaskan → Maju"
+      },
+      "title": {
+       "en": "Ninety seconds, weighted toward now",
+       "id": "Sembilan puluh detik, dibobot ke arah sekarang"
+      },
+      "items": [
+       {
+        "icon": "check",
+        "h": {
+         "en": "Acknowledge · ~10 s",
+         "id": "Akui · ~10 dtk"
         },
         "sub": {
-         "en": "Real, costed once, managed by a visible system — never a disguised strength",
-         "id": "Nyata, biayanya disebut sekali, dikelola oleh sistem yang terlihat — bukan kekuatan yang disamarkan"
+         "en": "The fact, as the interviewer sees it, in one sentence. No “sebenarnya”.",
+         "id": "Faktanya, sebagaimana dilihat pewawancara, dalam satu kalimat. Tanpa “sebenarnya”."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Account · ~20 s",
+         "id": "Jelaskan · ~20 dtk"
+        },
+        "sub": {
+         "en": "The factual reason with your part owned. No third party as the cause.",
+         "id": "Alasan faktual dengan bagianmu diakui. Tanpa pihak ketiga sebagai penyebab."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Advance · ~60 s",
+         "id": "Maju · ~60 dtk"
+        },
+        "sub": {
+         "en": "What you did about it and what is true now — with a number from your Story Bank.",
+         "id": "Apa yang kamu lakukan tentangnya dan apa yang benar sekarang — dengan angka dari Bank Ceritamu."
         }
        }
       ],
       "note": {
-       "en": "Difficult cases — gap, pivot, layoff — share one move: one calm sentence, then a redirect to what you built.",
-       "id": "Kasus sulit — jeda, banting setir, PHK — berbagi satu langkah: satu kalimat tenang, lalu pengalihan ke apa yang kamu bangun."
+       "en": "If Account grows, the answer becomes an excuse; if Advance shrinks, a confession.",
+       "id": "Jika Jelaskan membesar, jawaban menjadi alasan; jika Maju menyusut, pengakuan dosa."
       },
       "longdesc": {
-       "en": "A two-by-two grid of the four most frequent HR questions and the moves of each answer system: why us is a true specific bridged to your direction; why leave faces forward without litigating; strength is one claim with one story and one number; weakness is real, costed once and visibly managed. The note adds the shared move for difficult cases.",
-       "id": "Kisi dua kali dua berisi empat pertanyaan HR paling sering dan langkah tiap sistem jawabannya: mengapa kami adalah hal spesifik yang benar dijembatani ke arahmu; mengapa keluar menghadap ke depan tanpa berperkara; kekuatan adalah satu klaim dengan satu cerita dan satu angka; kelemahan itu nyata, biayanya disebut sekali, dan dikelola secara terlihat. Catatannya menambahkan langkah bersama untuk kasus sulit."
+       "en": "A three-rung ladder: Acknowledge the fact in one sentence (about ten seconds); Account for it factually with your part owned (about twenty); Advance with what you did about it and what is true now, with evidence (about sixty).",
+       "id": "Tangga tiga anak: Akui faktanya dalam satu kalimat (sekitar sepuluh detik); Jelaskan secara faktual dengan bagianmu diakui (sekitar dua puluh); Maju dengan apa yang kamu lakukan tentangnya dan apa yang benar sekarang, dengan bukti (sekitar enam puluh)."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Blame → three parts",
+        "id": "Menyalahkan → tiga bagian"
+       },
+       "q": {
+        "en": "“IPK Anda di bawah syarat kami, kenapa?” — the HR round, for a candidate with 2,95.",
+        "id": "“IPK Anda di bawah syarat kami, kenapa?” — ronde HR, untuk kandidat dengan 2,95."
+       },
+       "weak": {
+        "en": "“Dosennya banyak yang pelit nilai, dan saya juga sibuk organisasi, jadi ya begitu. Tapi IPK kan tidak menentukan kemampuan.”",
+        "id": "“Dosennya banyak yang pelit nilai, dan saya juga sibuk organisasi, jadi ya begitu. Tapi IPK kan tidak menentukan kemampuan.”"
+       },
+       "strong": {
+        "en": "“Betul, IPK saya 2,95. Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya. Sejak semester lima saya ubah cara belajar; IP semester saya 3,4–3,6 sejak itu, dan nilai mata kuliah akuntansi dan operasional saya A. Di magang, supervisor mempercayakan rekonsiliasi harian ke saya di minggu kedua.”",
+        "id": "“Betul, IPK saya 2,95. Di tiga semester awal saya kerja paruh waktu dan tidak mengatur waktu dengan baik — itu tanggung jawab saya. Sejak semester lima saya ubah cara belajar; IP semester saya 3,4–3,6 sejak itu, dan nilai mata kuliah akuntansi dan operasional saya A. Di magang, supervisor mempercayakan rekonsiliasi harian ke saya di minggu kedua.”"
+       },
+       "why": {
+        "en": "The weak answer blames (the lecturers), excuses (organisation), and argues with the premise (“IPK kan tidak menentukan”) — three failures in two sentences, and no evidence of now. The strong answer acknowledges the exact figure, accounts for it with the candidate’s own part owned, and spends most of its length on Advance: a trend with numbers, grades in the relevant subjects, and trust earned at work. Same fact; one candidate is discussed at the debrief as “owned it, has moved on”.",
+        "id": "Jawaban lemah menyalahkan (dosen), beralasan (organisasi), dan berdebat dengan premis (“IPK kan tidak menentukan”) — tiga kegagalan dalam dua kalimat, dan tanpa bukti sekarang. Jawaban kuat mengakui angka persisnya, menjelaskannya dengan bagian kandidat sendiri diakui, dan menghabiskan sebagian besar panjangnya pada Maju: tren dengan angka, nilai mata kuliah yang relevan, dan kepercayaan yang diperoleh di tempat kerja. Fakta yang sama; satu kandidat dibahas di rapat evaluasi sebagai “mengakuinya, sudah melangkah”."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "shield",
+      "title": {
+       "en": "In focus: “tapi kenapa tidak…?”",
+       "id": "Sorotan: “tapi kenapa tidak…?”"
+      },
+      "body": [
+       {
+        "en": "Nadia’s difficult case at the bank is not her IPK — 3,38 clears the threshold — but the question HR builds from her Pack-era profile: “Magangnya tiga bulan saja? Kenapa tidak diperpanjang?” She had not predicted it; internships of three months were normal in her faculty. The three parts still work without a prepared row: Acknowledge — “Betul, tiga bulan, Juni sampai Agustus.” Account — “Itu durasi program magang cabang; tidak ada opsi perpanjangan untuk mahasiswa yang belum lulus.” Advance — “Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.”",
+        "id": "Kasus sulit Nadia di bank bukan IPK-nya — 3,38 melewati ambang — melainkan pertanyaan yang dibangun HR dari profil era The Pack-nya: “Magangnya tiga bulan saja? Kenapa tidak diperpanjang?” Ia tidak memprediksinya; magang tiga bulan normal di fakultasnya. Tiga bagian tetap bekerja tanpa baris yang disiapkan: Akui — “Betul, tiga bulan, Juni sampai Agustus.” Jelaskan — “Itu durasi program magang cabang; tidak ada opsi perpanjangan untuk mahasiswa yang belum lulus.” Maju — “Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.”"
+       },
+       {
+        "en": "HR probes once — “tapi kenapa tidak cari magang lain setelahnya?” — which is the Account being tested. She does not expand it: “Semester berikutnya saya pegang bendahara HIMA dan skripsi; saya pilih menyelesaikan keduanya dengan baik daripada menambah satu baris di CV.” Twelve seconds, owned, and back to the next question. The probe is answered by refusing to let Account grow.",
+        "id": "HR menggali sekali — “tapi kenapa tidak cari magang lain setelahnya?” — yang merupakan Jelaskan yang diuji. Ia tidak memperluasnya: “Semester berikutnya saya pegang bendahara HIMA dan skripsi; saya pilih menyelesaikan keduanya dengan baik daripada menambah satu baris di CV.” Dua belas detik, diakui, dan kembali ke pertanyaan berikutnya. Galian dijawab dengan menolak membiarkan Jelaskan membesar."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Identify your difficult question(s)",
+        "id": "Latihan 1 · Kenali pertanyaan tersulitmu"
+       },
+       "body": {
+        "en": "From your CV facts — gap months since graduation, IPK against each target’s threshold, graduation length, internship durations, changes of major, organisation count — write the one or two questions an interviewer would build. Then add the one you dread that is not on the CV. The Opening Builder is specified to suggest these from CV facts; on paper, read your CV as HR would, line by line.",
+        "id": "Dari fakta CV-mu — bulan jeda sejak lulus, IPK terhadap ambang tiap sasaran, lama kuliah, durasi magang, pindah jurusan, jumlah organisasi — tulis satu atau dua pertanyaan yang akan dibangun pewawancara. Lalu tambahkan yang kamu takuti yang tidak ada di CV. Opening Builder ditentukan untuk menyarankan ini dari fakta CV; di kertas, baca CV-mu seperti HR, baris demi baris."
+       },
+       "debrief": {
+        "en": "If you found none, look again at durations and dates — a three-month internship, a KKN semester, a graduation month later than your cohort’s. If you found five, rank by how visible each is on the CV and prepare the top two; the rest get the twenty-second version. The one you dread most is usually the one you should raise in the opening only if it is obvious from the CV; otherwise it waits for the question.",
+        "id": "Jika tidak menemukan satu pun, lihat lagi durasi dan tanggal — magang tiga bulan, semester KKN, bulan kelulusan yang lebih lambat dari angkatanmu. Jika menemukan lima, urutkan berdasarkan seberapa terlihat masing-masing di CV dan siapkan dua teratas; sisanya mendapat versi dua puluh detik. Yang paling kamu takuti biasanya yang sebaiknya kamu angkat di pembuka hanya jika jelas dari CV; jika tidak, ia menunggu pertanyaannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Draft the three parts and test them",
+        "id": "Latihan 2 · Draf tiga bagian dan uji"
+       },
+       "body": {
+        "en": "Write the A-A-A answer for your top difficult question in both languages, with the seconds per part marked, then run the tryit below: the difficult-case path with probes (“tapi kenapa tidak…?”). Hold Account at its length under the probe; answer the probe with one owned sentence and return to Advance.",
+        "id": "Tulis jawaban A-J-M untuk pertanyaan tersulitmu dalam dua bahasa, dengan detik per bagian ditandai, lalu jalankan tryit di bawah: jalur kasus sulit dengan galian (“tapi kenapa tidak…?”). Pertahankan Jelaskan pada panjangnya di bawah galian; jawab galian dengan satu kalimat yang diakui dan kembali ke Maju."
+       },
+       "debrief": {
+        "en": "The debrief is specified to check three things, and you can check them by hand: Acknowledge present (the exact fact, stated first); blame words detected (“dosen”, “sistem”, “manajer”, “tidak dijelaskan”, “tidak adil”); Advance share at or above fifty percent. The commonest failure under the probe is Account expanding into a second paragraph — if your answer to “tapi kenapa tidak…?” was longer than fifteen seconds, the probe won. The second commonest is Advance without a number; find the one from your Story Bank that proves “now”.",
+        "id": "Debrief ditentukan untuk memeriksa tiga hal, dan kamu bisa memeriksanya dengan tangan: Akui hadir (fakta persis, dinyatakan pertama); kata menyalahkan terdeteksi (“dosen”, “sistem”, “manajer”, “tidak dijelaskan”, “tidak adil”); porsi Maju di atau di atas lima puluh persen. Kegagalan paling umum di bawah galian adalah Jelaskan meluas menjadi paragraf kedua — jika jawabanmu untuk “tapi kenapa tidak…?” lebih dari lima belas detik, galian menang. Kedua terumum adalah Maju tanpa angka; temukan yang dari Bank Ceritamu yang membuktikan “sekarang”."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The twenty-second version",
+        "id": "Latihan 3 · Versi dua puluh detik"
+       },
+       "body": {
+        "en": "Compress the same answer to the current Rope’s form: one calm sentence naming the fact, one sentence of redirect to the evidence of now. Time it; both sentences inside twenty seconds. This is the version for a phone screen or a panel that is running late.",
+        "id": "Padatkan jawaban yang sama ke bentuk The Rope saat ini: satu kalimat tenang menyebut fakta, satu kalimat pengalihan ke bukti sekarang. Ukur waktunya; kedua kalimat di dalam dua puluh detik. Ini versi untuk seleksi telepon atau panel yang terlambat."
+       },
+       "debrief": {
+        "en": "The twenty-second version has no Account at all — that is deliberate; if the interviewer wants the reason they will ask, and then you give the one owned sentence. If you could not get under twenty seconds, the fact sentence is carrying explanation (“…karena waktu itu…”); strip it back to the fact. Keep both versions in the Kit and choose by the round.",
+        "id": "Versi dua puluh detik sama sekali tidak punya Jelaskan — itu disengaja; jika pewawancara ingin alasannya mereka akan bertanya, dan kamu beri satu kalimat yang diakui. Jika kamu tidak bisa di bawah dua puluh detik, kalimat faktanya membawa penjelasan (“…karena waktu itu…”); pangkas kembali ke faktanya. Simpan kedua versi di Perangkat dan pilih berdasarkan ronde."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Arguing with the premise",
+         "id": "Berdebat dengan premis"
+        },
+        "fix": {
+         "en": "Acknowledge the exact fact first; the argument is what Advance proves.",
+         "id": "Akui fakta persisnya dulu; argumennya adalah yang dibuktikan Maju."
+        }
+       },
+       {
+        "h": {
+         "en": "Account longer than Advance",
+         "id": "Jelaskan lebih panjang dari Maju"
+        },
+        "fix": {
+         "en": "One or two owned sentences, then at least half the answer on now.",
+         "id": "Satu atau dua kalimat yang diakui, lalu setidaknya separuh jawaban tentang sekarang."
+        }
+       },
+       {
+        "h": {
+         "en": "A third party as the cause",
+         "id": "Pihak ketiga sebagai penyebab"
+        },
+        "fix": {
+         "en": "Own your part; the interviewer is scoring responsibility, not fairness.",
+         "id": "Akui bagianmu; pewawancara menilai tanggung jawab, bukan keadilan."
+        }
+       },
+       {
+        "h": {
+         "en": "A softer number or a stretched date",
+         "id": "Angka yang lebih lunak atau tanggal yang direntangkan"
+        },
+        "fix": {
+         "en": "Frame, never falsify — everything is checkable.",
+         "id": "Bingkai, jangan pernah memalsukan — semuanya bisa diperiksa."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "answer system",
-        "id": "sistem jawaban"
+        "en": "Difficult question",
+        "id": "Pertanyaan sulit"
        },
        "def": {
-        "en": "The known moves of a recurring question — for “why leave”: face forward, never litigate — improvised freshly each time rather than recited as a memorised script.",
-        "id": "Langkah-langkah yang diketahui untuk pertanyaan berulang — untuk “mengapa keluar”: menghadap ke depan, jangan pernah berperkara — diimprovisasi segar setiap kali alih-alih dibacakan sebagai naskah hafalan."
+        "en": "The question built from the weakest visible fact on your CV — predicted in Lesson 3.3, answered here.",
+        "id": "Pertanyaan yang dibangun dari fakta terlemah yang terlihat di CV-mu — diprediksi di Pelajaran 3.3, dijawab di sini."
        }
       },
       {
        "term": {
-        "en": "difficult case",
-        "id": "kasus sulit"
+        "en": "Acknowledge · Account · Advance",
+        "id": "Akui · Jelaskan · Maju"
        },
        "def": {
-        "en": "A gap, pivot, layoff, low grade or job-hop in your history — answered with one calm sentence naming the fact, no apology spiral, and a redirect to what you built or learned.",
-        "id": "Jeda, banting setir, PHK, nilai rendah, atau sering pindah kerja dalam riwayatmu — dijawab dengan satu kalimat tenang yang menyebut faktanya, tanpa spiral permintaan maaf, dan pengalihan ke apa yang kamu bangun atau pelajari."
-       }
-      }
-     ],
-     "steps": [
-      {
-       "h": {
-        "en": "Drill 1 · Your weakness, for real",
-        "id": "Latihan 1 · Kelemahanmu, yang sungguhan"
-       },
-       "body": {
-        "en": "Write your actual weakness — the one a former teammate would name. Then write one sentence about a time it cost you, and two sentences on the system you now use against it. Say all four sentences aloud.",
-        "id": "Tulis kelemahanmu yang sebenarnya — yang akan disebut oleh mantan rekan setimmu. Lalu tulis satu kalimat tentang saat kelemahan itu merugikanmu, dan dua kalimat tentang sistem yang sekarang kamu pakai untuk mengatasinya. Ucapkan keempat kalimat itu dengan suara keras."
-       },
-       "debrief": {
-        "en": "Test it: would the interviewer learn something true about working with you? “Perfectionism” fails that test; “I default to doing instead of delegating — I now write a handover list at the start of each project” passes. The system is the answer; the weakness is just its address.",
-        "id": "Ujilah: apakah pewawancara jadi tahu sesuatu yang benar tentang rasanya bekerja bersamamu? “Perfeksionis” gagal dalam ujian itu; “Saya cenderung mengerjakan sendiri alih-alih mendelegasikan — sekarang saya menulis daftar pembagian tugas di awal setiap proyek” lulus. Sistemnya adalah jawabannya; kelemahan hanyalah alamatnya."
+        "en": "The three-part answer: the fact in one sentence, the owned reason in one or two, the evidence of now for at least half.",
+        "id": "Jawaban tiga bagian: fakta dalam satu kalimat, alasan yang diakui dalam satu atau dua, bukti sekarang untuk setidaknya separuh."
        }
       },
       {
-       "h": {
-        "en": "Drill 2 · Your difficult case in one breath",
-        "id": "Latihan 2 · Kasus sulitmu dalam satu tarikan napas"
+       "term": {
+        "en": "Frame, never falsify",
+        "id": "Bingkai, jangan pernah memalsukan"
        },
-       "body": {
-        "en": "Identify your difficult case. Draft the one calm sentence that names it, and the redirect sentence that moves to evidence. Time yourself: both sentences inside twenty seconds.",
-        "id": "Kenali kasus sulitmu. Susun satu kalimat tenang yang menyebutkannya, dan satu kalimat pengalih yang bergerak ke bukti. Ukur waktunya: kedua kalimat selesai dalam dua puluh detik."
-       },
-       "debrief": {
-        "en": "Example, gap: “I took eight months out to care for my father; during it I kept my skills alive with two freelance dashboards — happy to show them.” Fact, no apology, evidence, forward. Twenty seconds ends the danger; three minutes of explaining creates it.",
-        "id": "Contoh untuk jeda karier: “Saya berhenti delapan bulan untuk merawat ayah; selama itu saya menjaga keterampilan tetap hidup lewat dua proyek dashboard lepas — dengan senang hati saya tunjukkan.” Fakta, tanpa permintaan maaf, bukti, maju. Dua puluh detik mengakhiri bahayanya; tiga menit penjelasan justru menciptakannya."
+       "def": {
+        "en": "Choose which true reason leads and which evidence follows; never change a date, number or reason.",
+        "id": "Pilih alasan benar mana yang memimpin dan bukti mana yang menyusul; jangan pernah mengubah tanggal, angka, atau alasan."
        }
       },
       {
-       "h": {
-        "en": "Drill 3 · The salary range without flinching",
-        "id": "Latihan 3 · Rentang gaji tanpa ragu"
+       "term": {
+        "en": "Advance share",
+        "id": "Porsi Maju"
        },
-       "body": {
-        "en": "Using module 8's research method (or your current best data), write your range for the target role and the sentence that delivers it. Practise saying it aloud until the number stops feeling like a confession.",
-        "id": "Dengan metode riset dari Modul 10 (atau data terbaik yang kamu punya sekarang), tulis rentang gajimu untuk posisi yang dituju, dan kalimat untuk menyampaikannya. Latih mengucapkannya dengan suara keras sampai angka itu tidak lagi terasa seperti pengakuan dosa."
-       },
-       "debrief": {
-        "en": "Delivery pattern: “Based on market data for this role and level, I'm looking at X to Y, depending on the total package.” Anchored, ranged, conditional. Hesitation before a number reads as an invitation to discount it — rehearse until the hesitation is gone.",
-        "id": "Pola penyampaian: “Berdasarkan data pasar untuk posisi dan level ini, saya mengincar X sampai Y, tergantung paket keseluruhannya.” Berpatokan pada data, berupa rentang, bersyarat. Keraguan sebelum menyebut angka terbaca sebagai undangan untuk menawarnya turun — latih sampai keraguan itu hilang."
-       }
-      }
-     ],
-     "compare": [
-      {
-       "tag": {
-        "en": "The weakness question",
-        "id": "Pertanyaan tentang kelemahan"
-       },
-       "q": {
-        "en": "“What is your greatest weakness?”",
-        "id": "“Apa kelemahan terbesar Anda?”"
-       },
-       "weak": {
-        "en": "I'd say I'm a perfectionist — I just care too much about quality, and sometimes I work too hard.",
-        "id": "Saya rasa saya perfeksionis — saya terlalu peduli pada kualitas, dan kadang bekerja terlalu keras."
-       },
-       "strong": {
-        "en": "I default to doing instead of delegating. It cost me once: on a campus event I kept three tasks I should have handed over, and two were late. Since then I write a handover list at the start of every project — who takes what, by when. My last two projects shipped on time because of it.",
-        "id": "Saya cenderung mengerjakan sendiri alih-alih mendelegasikan. Itu pernah merugikan saya: di sebuah acara kampus, saya memegang tiga tugas yang seharusnya saya serahkan, dan dua di antaranya terlambat. Sejak itu saya menulis daftar pembagian tugas di awal setiap proyek — siapa memegang apa, sampai kapan. Dua proyek terakhir saya selesai tepat waktu karena itu."
-       },
-       "why": {
-        "en": "The disguised strength fails the trust test instantly. Real weakness + one honest cost + a working system = self-awareness with receipts.",
-        "id": "Kekuatan yang disamarkan langsung gagal dalam ujian kepercayaan. Kelemahan sungguhan + satu akibat yang jujur + sistem yang berjalan = kesadaran diri yang ada buktinya."
-       }
-      },
-      {
-       "tag": {
-        "en": "Why are you leaving?",
-        "id": "Mengapa Anda ingin pindah?"
-       },
-       "weak": {
-        "en": "Honestly my manager plays favourites and the company is a mess — there's no appreciation for people who actually work.",
-        "id": "Jujur saja, atasan saya pilih kasih dan perusahaannya kacau — tidak ada penghargaan untuk orang yang benar-benar bekerja."
-       },
-       "strong": {
-        "en": "I've grown a lot there — I built their reporting from scratch. What I can't get there is scale: the data problems I want next are the kind this team works on daily. I'm moving toward that, not away from anything.",
-        "id": "Saya banyak bertumbuh di sana — saya membangun sistem pelaporan mereka dari nol. Yang tidak bisa saya dapatkan di sana adalah skala: persoalan data yang ingin saya tangani berikutnya adalah jenis yang dikerjakan tim ini setiap hari. Saya bergerak menuju sesuatu, bukan menjauh dari sesuatu."
-       },
-       "why": {
-        "en": "Bitterness confirms the risk the question hunts. Facing forward — credit to the past, pull toward the future — clears it.",
-        "id": "Kepahitan mengonfirmasi risiko yang diburu pertanyaan itu. Menghadap ke depan — menghargai masa lalu, tertarik ke masa depan — meloloskanmu."
-       }
-      }
-     ],
-     "listen": [
-      {
-       "label": {
-        "en": "A difficult case in one breath — the gap",
-        "id": "Kasus sulit dalam satu tarikan napas — jeda karier"
-       },
-       "text": {
-        "en": "I took eight months out to care for my father. During that time I kept my skills alive with two freelance dashboard projects — I'm happy to show them. I'm back at full capacity, and honestly, hungrier than before.",
-        "id": "Saya berhenti delapan bulan untuk merawat ayah saya. Selama itu, saya menjaga keterampilan tetap hidup lewat dua proyek dashboard lepas — dengan senang hati saya tunjukkan. Saya kembali dengan kapasitas penuh, dan jujur, lebih lapar daripada sebelumnya."
+       "def": {
+        "en": "The fraction of the answer spent on what you did and what is true now — at least half.",
+        "id": "Bagian jawaban yang dihabiskan untuk apa yang kamu lakukan dan apa yang benar sekarang — setidaknya separuh."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A strong answer to “what is your greatest weakness?” contains:",
-        "id": "Jawaban yang kuat untuk “apa kelemahan terbesar Anda?” berisi:"
+        "en": "In a ninety-second difficult-question answer, the proportions should be about…",
+        "id": "Dalam jawaban pertanyaan sulit sembilan puluh detik, proporsinya sekitar…"
        },
        "options": [
         {
-         "en": "A strength disguised: “I work too hard”",
-         "id": "Kekuatan yang disamarkan: “Saya bekerja terlalu keras”"
+         "en": "Equal thirds",
+         "id": "Sepertiga sama rata"
         },
         {
-         "en": "A refusal: “I can't think of any”",
-         "id": "Penolakan: “Saya tidak bisa memikirkan satu pun”"
+         "en": "Ten seconds Acknowledge, twenty Account, sixty Advance",
+         "id": "Sepuluh detik Akui, dua puluh Jelaskan, enam puluh Maju"
         },
         {
-         "en": "A real weakness, one honest cost, and the system now containing it",
-         "id": "Kelemahan yang sungguhan, satu akibat yang jujur, dan sistem yang kini mengendalikannya"
+         "en": "Mostly Account — the reason matters most",
+         "id": "Kebanyakan Jelaskan — alasannya paling penting"
+        },
+        {
+         "en": "Mostly Acknowledge",
+         "id": "Kebanyakan Akui"
         }
        ],
-       "correct": 2,
+       "correct": 1,
        "why": {
-        "en": "Correct — honesty plus management. The interviewer is testing self-awareness, and self-awareness has receipts.",
-        "id": "Benar — kejujuran plus pengelolaan. Pewawancara sedang menguji kesadaran diri, dan kesadaran diri punya bukti."
+        "en": "When Account grows the answer becomes an excuse; Advance is where it is won.",
+        "id": "Saat Jelaskan membesar jawaban menjadi alasan; Maju adalah tempat ia dimenangkan."
+       }
+      },
+      {
+       "q": {
+        "en": "“Dosennya pelit nilai, dan sistemnya memang begitu.” This fails because…",
+        "id": "“Dosennya pelit nilai, dan sistemnya memang begitu.” Ini gagal karena…"
+       },
+       "options": [
+        {
+         "en": "It is too short",
+         "id": "Terlalu pendek"
+        },
+        {
+         "en": "It blames a third party — the interviewer hears a colleague who will blame them next",
+         "id": "Menyalahkan pihak ketiga — pewawancara mendengar rekan yang akan menyalahkan mereka berikutnya"
+        },
+        {
+         "en": "It is in Indonesian",
+         "id": "Berbahasa Indonesia"
+        },
+        {
+         "en": "It does not mention the IPK",
+         "id": "Tidak menyebut IPK"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The question scores responsibility; blame converts a fact into a character finding.",
+        "id": "Pertanyaan menilai tanggung jawab; menyalahkan mengubah fakta menjadi temuan karakter."
+       }
+      },
+      {
+       "q": {
+        "en": "HR asks directly whether your internship was cut short by the employer. It was. You…",
+        "id": "HR bertanya langsung apakah magangmu diputus oleh pemberi kerja. Memang begitu. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Say it was a mutual decision",
+         "id": "Mengatakan itu keputusan bersama"
+        },
+        {
+         "en": "Say yes, give the factual reason with your part owned, and move to what you learned and what is true now",
+         "id": "Mengatakan ya, memberi alasan faktual dengan bagianmu diakui, dan beralih ke apa yang kamu pelajari dan apa yang benar sekarang"
+        },
+        {
+         "en": "Say you left for a better opportunity",
+         "id": "Mengatakan kamu pergi untuk kesempatan lebih baik"
+        },
+        {
+         "en": "Decline to answer",
+         "id": "Menolak menjawab"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Frame, never falsify; the reference call finds anything else, and the loss is every other answer.",
+        "id": "Bingkai, jangan pernah memalsukan; panggilan referensi menemukan yang lain, dan kerugiannya setiap jawaban lain."
        }
       }
      ],
      "tryit": {
-      "qid": "hr08",
+      "qid": "diff_ipk_threshold",
+      "set": [
+       "diff_ipk_threshold",
+       "diff_ten_months",
+       "dc06",
+       "diff_left_internship"
+      ],
+      "persona": "hr",
+      "profile": "difficult",
+      "probes": 2,
+      "returnTo": 2,
       "label": {
-       "en": "Your weakness, for real, on the clock",
-       "id": "Kelemahanmu, yang sungguhan, dengan waktu berjalan"
+       "en": "Difficult-case path with probes",
+       "id": "Jalur kasus sulit dengan galian"
       },
       "desc": {
-       "en": "The simulator reads whether your answer carries a cost and a system — or just adjectives.",
-       "id": "Simulator membaca apakah jawabanmu memuat akibat dan sistem — atau hanya kata sifat."
+       "en": "Four difficult questions with the HR persona — the IPK threshold, ten months since graduating, no formal experience, an internship left early — each followed by up to two probes (“tapi kenapa tidak…?”). Answer the ones that match your CV in three parts; treat the others as rehearsal for holding Account short. The simulator is specified to match the path to your CV facts; until it does, choose yours from the set.",
+       "id": "Empat pertanyaan sulit dengan persona HR — ambang IPK, sepuluh bulan sejak lulus, tanpa pengalaman formal, magang yang ditinggalkan lebih awal — masing-masing diikuti hingga dua galian (“tapi kenapa tidak…?”). Jawab yang cocok dengan CV-mu dalam tiga bagian; perlakukan yang lain sebagai latihan menjaga Jelaskan tetap singkat. Simulator ditentukan untuk mencocokkan jalur dengan fakta CV-mu; sampai itu ada, pilih milikmu dari set."
       }
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "The disguised-strength weakness",
-         "id": "Kelemahan yang menyamar sebagai kekuatan"
-        },
-        "fix": {
-         "en": "“I work too hard” fails the trust test instantly. Real weakness, one honest cost, working system.",
-         "id": "“Saya bekerja terlalu keras” langsung gagal dalam ujian kepercayaan. Kelemahan sungguhan, satu akibat yang jujur, sistem yang berjalan."
-        }
-       },
-       {
-        "h": {
-         "en": "Litigating your old employer",
-         "id": "Mengadili tempat kerja lama"
-        },
-        "fix": {
-         "en": "Face forward: what you are moving toward. Bitterness confirms the exact risk being probed.",
-         "id": "Menghadap ke depan: apa yang kamu tuju. Kepahitan justru mengonfirmasi persis risiko yang sedang diperiksa."
-        }
-       },
-       {
-        "h": {
-         "en": "Flinching before the salary number",
-         "id": "Ragu sebelum menyebut angka gaji"
-        },
-        "fix": {
-         "en": "A researched range, stated in one calm sentence, with what it depends on. Rehearse until boring.",
-         "id": "Rentang hasil riset, disampaikan dalam satu kalimat tenang, beserta apa yang memengaruhinya. Latih sampai terasa membosankan."
-        }
-       }
-      ]
-     },
+     "takeaways": [
+      {
+       "en": "Acknowledge the exact fact, account for it in one owned sentence, advance for at least half.",
+       "id": "Akui fakta persisnya, jelaskan dalam satu kalimat yang diakui, maju untuk setidaknya separuh."
+      },
+      {
+       "en": "Length is read as the size of the problem in your head; the probe is answered by staying short.",
+       "id": "Panjang dibaca sebagai ukuran masalah di kepalamu; galian dijawab dengan tetap singkat."
+      },
+      {
+       "en": "Frame, never falsify — everything is checkable, and the loss is every other answer.",
+       "id": "Bingkai, jangan pernah memalsukan — semuanya bisa diperiksa, dan kerugiannya setiap jawaban lain."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the difficult-case card",
+       "id": "Sumber dan kartu kasus sulit"
+      },
+      "lead": {
+       "en": "Two sources, the “do not teach” note, and part 2 of the Module 5 Kit item.",
+       "id": "Dua sumber, catatan “jangan ajarkan”, dan bagian 2 butir Perangkat Modul 5."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Answer systems for the predictable questions",
-         "id": "Sistem jawaban untuk pertanyaan yang bisa diprediksi"
+         "en": "Reading list · Lesson 5.2",
+         "id": "Daftar bacaan · Pelajaran 5.2"
         },
         "desc": {
-         "en": "Structures, not scripts. Attach your own facts.",
-         "id": "Struktur, bukan naskah. Lekatkan faktamu sendiri."
+         "en": "Why the question is asked, and what the sources disagree on.",
+         "id": "Mengapa pertanyaan diajukan, dan apa yang tidak disepakati sumber."
         },
         "body": [
          {
-          "en": "WHY US: one verified specific about the company + what you would contribute to it + why now in your trajectory.",
-          "id": "MENGAPA KAMI: satu hal spesifik terverifikasi tentang perusahaan + apa yang akan kamu sumbangkan + mengapa sekarang dalam lintasanmu."
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — the difficult question tests responsibility and whether the candidate has moved on.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — pertanyaan sulit menguji tanggung jawab dan apakah kandidat sudah melangkah."
          },
          {
-          "en": "WHY LEAVE: what you are moving toward (scope, problem, growth) — never a complaint about where you are; one neutral line about the current role.",
-          "id": "MENGAPA PINDAH: apa yang kamu tuju (lingkup, masalah, pertumbuhan) — jangan pernah keluhan tentang tempatmu sekarang; satu baris netral tentang peran saat ini."
+          "en": "The Rope (current), “the difficult cases, honestly” — retained as the twenty-second version.",
+          "id": "The Rope (saat ini), “kasus sulit, dengan jujur” — dipertahankan sebagai versi dua puluh detik."
          },
          {
-          "en": "STRENGTH: name it + the story that proves it + how it will show up in this role.",
-          "id": "KEKUATAN: sebutkan + cerita yang membuktikan + bagaimana itu akan tampak di peran ini."
+          "en": "<span class=\"ev ev-contested\">Do not teach</span> Concealment tactics for gaps, dismissals and previous salaries appear in some reference books; the blueprint marks them “do not teach” and The Rope teaches framing only.",
+          "id": "<span class=\"ev ev-contested\">Jangan ajarkan</span> Taktik menyembunyikan untuk jeda, pemecatan, dan gaji sebelumnya muncul di beberapa buku rujukan; blueprint menandainya “jangan ajarkan” dan The Rope hanya mengajarkan pembingkaian."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Difficult-case card (Kit item, part 2)",
+         "id": "Kartu kasus sulit (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "One per difficult question; two lengths.",
+         "id": "Satu per pertanyaan sulit; dua panjang."
+        },
+        "body": [
+         {
+          "en": "The question as an interviewer would ask it · which CV fact it comes from · which targets it applies to",
+          "id": "Pertanyaannya seperti pewawancara akan bertanya · dari fakta CV mana · berlaku untuk sasaran mana"
          },
          {
-          "en": "WEAKNESS: a real one that is not core to the job + what you have done about it + evidence it is improving.",
-          "id": "KELEMAHAN: yang nyata dan bukan inti pekerjaan + apa yang sudah kamu lakukan + bukti bahwa membaik."
+          "en": "Acknowledge (one sentence, exact fact) · Account (one or two, owned) · Advance (evidence of now, with a number) — with seconds",
+          "id": "Akui (satu kalimat, fakta persis) · Jelaskan (satu atau dua, diakui) · Maju (bukti sekarang, dengan angka) — dengan detik"
          },
          {
-          "en": "FIVE YEARS: the direction (not a title) + what you want to be trusted with + how this role builds toward it.",
-          "id": "LIMA TAHUN: arahnya (bukan jabatan) + apa yang ingin kamu dipercayakan + bagaimana peran ini membangun ke sana."
+          "en": "The probe I expect (“tapi kenapa tidak…?”) and my one owned sentence",
+          "id": "Galian yang saya perkirakan (“tapi kenapa tidak…?”) dan satu kalimat saya yang diakui"
          },
          {
-          "en": "SALARY: “Based on [sources] and the scope described, I’m looking at [range]. I’m flexible on structure if the total is in that region.”",
-          "id": "GAJI: “Berdasarkan [sumber] dan lingkup yang dijelaskan, saya melihat kisaran [rentang]. Saya fleksibel soal struktur jika totalnya di kisaran itu.”"
+          "en": "The twenty-second version · raise it in the opening? (only if obvious from the CV)",
+          "id": "Versi dua puluh detik · angkat di pembuka? (hanya jika jelas dari CV)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Salary Expectations and Practical Terms",
+      "id": "Ekspektasi Gaji dan Syarat Praktis"
+     },
+     "overview": {
+      "en": "“Berapa ekspektasi gaji Anda?” is asked in almost every Indonesian HR interview, often early. Fresh graduates either name a number far too low (and lose money for years), or far too high (and are screened out), or refuse to answer (which frustrates HR). The answer is a researched range, stated calmly, with an understanding of what the number includes. This lesson covers where the research comes from, gross versus take-home, the four ways to answer depending on what you know, why the first number anchors the discussion, and the other practical terms — start date, placement, contract type, hours, bond — that belong to the HR stage as clarifying questions, not negotiation.",
+      "id": "“Berapa ekspektasi gaji Anda?” ditanyakan di hampir setiap wawancara HR di Indonesia, sering di awal. Lulusan baru menyebut angka yang terlalu rendah (dan kehilangan uang bertahun-tahun), atau terlalu tinggi (dan tersaring keluar), atau menolak menjawab (yang membuat HR frustrasi). Jawabannya adalah rentang hasil riset, diucapkan tenang, dengan pemahaman tentang apa yang termasuk dalam angka itu. Pelajaran ini membahas dari mana risetnya, kotor versus bersih, empat cara menjawab tergantung apa yang kamu tahu, mengapa angka pertama menjangkar diskusi, dan syarat praktis lain — tanggal mulai, penempatan, jenis kontrak, jam kerja, ikatan dinas — yang termasuk tahap HR sebagai pertanyaan klarifikasi, bukan negosiasi."
+     },
+     "objectives": [
+      {
+       "en": "Build a salary range from named sources with the minimum wage of the placement city as the floor.",
+       "id": "Membangun rentang gaji dari sumber yang disebut dengan upah minimum kota penempatan sebagai lantai."
+      },
+      {
+       "en": "State a range as gross monthly and know roughly what deductions apply.",
+       "id": "Menyatakan rentang sebagai kotor bulanan dan tahu kira-kira potongan apa yang berlaku."
+      },
+      {
+       "en": "Choose the right answer shape — researched range, fixed package, ask for the range, previous salary — and say it calmly.",
+       "id": "Memilih bentuk jawaban yang tepat — rentang hasil riset, paket tetap, minta rentang, gaji sebelumnya — dan mengucapkannya dengan tenang."
+      },
+      {
+       "en": "Handle the low counter and the other practical questions without accepting or rejecting on the spot.",
+       "id": "Menangani tawaran balik rendah dan pertanyaan praktis lain tanpa menerima atau menolak di tempat."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A researched range, said calmly",
+       "id": "Rentang hasil riset, diucapkan tenang"
+      },
+      "intro": {
+       "en": "The question is not a negotiation yet. It is a fit check — and a test of whether you did the reading.",
+       "id": "Pertanyaannya belum negosiasi. Ia pemeriksaan kecocokan — dan ujian apakah kamu sudah membaca."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Research first",
+         "id": "Riset dulu"
+        },
+        "points": [
+         {
+          "en": "Recruitment-firm salary surveys · postings that state ranges · alumni and seniors · community data where it exists · the city’s minimum wage as the floor.",
+          "id": "Survei gaji firma rekrutmen · lowongan yang menyebut rentang · alumni dan senior · data komunitas jika ada · upah minimum kota sebagai lantai."
          },
          {
-          "en": "GAP / PIVOT / LAYOFF: one calm sentence of fact + what you did with the time + why it points here.",
-          "id": "JEDA / PERPINDAHAN / PHK: satu kalimat fakta yang tenang + apa yang kamu lakukan dengan waktunya + mengapa itu mengarah ke sini."
+          "en": "Structured programmes (ODP, MT, BUMN) usually have a fixed package; the question there is fit, not a number.",
+          "id": "Program terstruktur (ODP, MT, BUMN) biasanya punya paket tetap; pertanyaannya di sana kecocokan, bukan angka."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Gross, not take-home",
+         "id": "Kotor, bukan bersih"
+        },
+        "points": [
+         {
+          "en": "State your range as gross monthly unless asked otherwise; know roughly which deductions apply.",
+          "id": "Nyatakan rentangmu sebagai kotor bulanan kecuali diminta lain; tahu kira-kira potongan mana yang berlaku."
+         },
+         {
+          "en": "Module 10 does the arithmetic; here, the vocabulary.",
+          "id": "Modul 10 mengerjakan aritmetikanya; di sini, kosakatanya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Four shapes",
+         "id": "Empat bentuk"
+        },
+        "points": [
+         {
+          "en": "Researched range · fixed-package programme · ask for the range · previous salary, truthfully.",
+          "id": "Rentang hasil riset · program paket tetap · minta rentang · gaji sebelumnya, jujur."
+         },
+         {
+          "en": "The first number anchors; research is the reason to name one, not to inflate it.",
+          "id": "Angka pertama menjangkar; riset adalah alasan menyebut satu, bukan melebihkannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The other practical terms",
+         "id": "Syarat praktis lain"
+        },
+        "points": [
+         {
+          "en": "Start date · placement · contract type · hours · bond — clarify at HR stage; negotiate after the offer (Module 10).",
+          "id": "Tanggal mulai · penempatan · jenis kontrak · jam kerja · ikatan dinas — klarifikasi di tahap HR; negosiasi setelah tawaran (Modul 10)."
          }
         ]
        }
       ]
      },
-     "migratedFrom": "the-rope:4.3"
-    },
-    {
-     "n": "5.3",
-     "title": {
-      "en": "Closing the HR Interview and Follow-Up Protocol",
-      "id": "Menutup Wawancara HR dan Protokol Tindak Lanjut"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Interviews are remembered by their endings. The last five minutes — your questions, your close, and the follow-up that lands the next day — are the cheapest points on the board. This lesson covers the closing question set, the thank-you note that adds signal instead of flattery, and the etiquette of waiting.",
-      "id": "Wawancara diingat dari cara berakhirnya. Lima menit terakhir — pertanyaanmu, penutupmu, dan tindak lanjut yang tiba keesokan harinya — adalah poin termurah di papan skor. Pelajaran ini membahas rangkaian pertanyaan penutup, ucapan terima kasih yang menambah sinyal alih-alih sanjungan, dan etika menunggu."
-     },
-     "objectives": [
-      {
-       "en": "Ask closing questions that add signal about your judgment.",
-       "id": "Mengajukan pertanyaan penutup yang menambah sinyal tentang pertimbanganmu."
-      },
-      {
-       "en": "Write a follow-up note that strengthens your candidacy in four sentences.",
-       "id": "Menulis pesan tindak lanjut yang memperkuat pencalonanmu dalam empat kalimat."
-      },
-      {
-       "en": "Handle silence after the interview without damaging your position.",
-       "id": "Menghadapi keheningan setelah wawancara tanpa merusak posisimu."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Interviews are remembered by their endings, and the last five minutes are the cheapest points on the board. To close and follow up well, you can:",
-      "id": "Wawancara diingat dari akhirnya, dan lima menit terakhir adalah poin termurah di papan skor. Untuk menutup dan menindaklanjuti dengan baik, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Your questions are scored too: ask about the work and the standard, never the perks first.",
-       "id": "Pertanyaanmu juga dinilai: tanyakan tentang pekerjaan dan standarnya, jangan pernah tentang fasilitas lebih dulu."
-      },
-      {
-       "en": "A good follow-up adds one thing: a sharpened answer, a relevant link, a concrete next step.",
-       "id": "Tindak lanjut yang baik menambahkan satu hal: jawaban yang dipertajam, tautan yang relevan, atau langkah berikutnya yang konkret."
-      },
-      {
-       "en": "One polite nudge after the stated timeline passes — then let your other processes carry your leverage.",
-       "id": "Satu pengingat sopan setelah tenggat yang dijanjikan lewat — setelah itu, biarkan proses-proses lamaranmu yang lain memikul daya tawarmu."
-      }
-     ],
      "sections": [
       {
+       "icon": "book",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "The last five minutes",
-        "id": "Lima menit terakhir"
+        "en": "Research first",
+        "id": "Riset dulu"
        },
        "body": {
-        "en": "When they ask for your questions, three archetypes work in every room: the standard question (“what does excellent look like in this role after six months?”), the reality question (“what is the hardest part of this job that the description doesn't say?”), and the growth question (“how have people grown out of this role before?”). Two or three, asked with genuine curiosity — then a clean close: appreciation, one line of enthusiasm, next steps.",
-        "id": "Ketika mereka mempersilakanmu bertanya, tiga jenis pertanyaan ini bekerja di semua ruangan: pertanyaan standar (“seperti apa kinerja yang unggul di posisi ini setelah enam bulan?”), pertanyaan realitas (“apa bagian tersulit dari pekerjaan ini yang tidak tertulis di deskripsinya?”), dan pertanyaan pertumbuhan (“bagaimana orang-orang sebelumnya bertumbuh dari posisi ini?”). Dua atau tiga pertanyaan, diajukan dengan rasa ingin tahu yang tulus — lalu penutup yang bersih: apresiasi, satu kalimat antusiasme, langkah berikutnya."
+        "en": "A salary answer is only as good as the sources behind it, and a fresh graduate has more than they think. Salary surveys from the major recruitment firms are published annually and give ranges by role, level and city; job postings that state ranges — increasingly common at startups and in some corporate postings — give the market’s own number; alumni and seniors in the role will tell you what the programme paid last year if asked plainly; Metanoia’s community data, where and when it exists, is a fourth source and is never fabricated; and the government minimum wage for your placement city — the UMP or UMK — is the floor below which no legal offer can go <span class=\"ev ev-verify\">Verify: current UMK for the target cities before quoting a floor</span>. Two notes on structured programmes: ODP, MT and BUMN intakes usually have a fixed starting package, so the room to negotiate is small and the question is mainly a fit check — an expectation far above the package screens you out, one far below suggests you did not look; and “fixed” does not mean “secret” — alumni know it, and asking HR for the components is appropriate. Write the sources down with the date you checked, because a range you can cite is a range HR respects, and Module 10 will need the same sheet when the offer arrives.",
+        "id": "Jawaban gaji hanya sebaik sumber di baliknya, dan lulusan baru punya lebih banyak dari yang ia kira. Survei gaji dari firma rekrutmen besar diterbitkan tahunan dan memberi rentang per peran, level, dan kota; lowongan yang menyebut rentang — makin umum di startup dan beberapa lowongan korporasi — memberi angka pasar sendiri; alumni dan senior di peran itu akan memberi tahu berapa program membayar tahun lalu jika ditanya lugas; data komunitas Metanoia, di mana dan kapan ada, adalah sumber keempat dan tidak pernah dikarang; dan upah minimum pemerintah untuk kota penempatanmu — UMP atau UMK — adalah lantai yang tidak bisa dilewati tawaran legal mana pun <span class=\"ev ev-verify\">Verifikasi: UMK terkini kota sasaran sebelum mengutip lantai</span>. Dua catatan tentang program terstruktur: angkatan ODP, MT, dan BUMN biasanya punya paket awal tetap, jadi ruang negosiasi kecil dan pertanyaannya terutama pemeriksaan kecocokan — ekspektasi jauh di atas paket menyaringmu keluar, jauh di bawah menandakan kamu tidak melihat; dan “tetap” bukan berarti “rahasia” — alumni tahu, dan menanyakan komponennya ke HR pantas. Tulis sumbernya dengan tanggal kamu memeriksa, karena rentang yang bisa kamu kutip adalah rentang yang dihormati HR, dan Modul 10 akan membutuhkan lembar yang sama saat tawaran tiba."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Source",
+          "id": "Sumber"
+         },
+         {
+          "en": "Gives",
+          "id": "Memberi"
+         },
+         {
+          "en": "Weight",
+          "id": "Bobot"
+         },
+         {
+          "en": "Watch out",
+          "id": "Waspadai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Recruitment-firm salary surveys (annual)",
+           "id": "Survei gaji firma rekrutmen (tahunan)"
+          },
+          {
+           "en": "Ranges by role, level, city",
+           "id": "Rentang per peran, level, kota"
+          },
+          {
+           "en": "High for the band; may lag a year",
+           "id": "Tinggi untuk rentang; mungkin tertinggal setahun"
+          },
+          {
+           "en": "Check the year and the city",
+           "id": "Periksa tahun dan kotanya"
+          }
+         ],
+         [
+          {
+           "en": "Postings that state a range",
+           "id": "Lowongan yang menyebut rentang"
+          },
+          {
+           "en": "The market’s own number for this role",
+           "id": "Angka pasar sendiri untuk peran ini"
+          },
+          {
+           "en": "High",
+           "id": "Tinggi"
+          },
+          {
+           "en": "Gross or THP? Jakarta or elsewhere?",
+           "id": "Kotor atau THP? Jakarta atau di luar?"
+          }
+         ],
+         [
+          {
+           "en": "Alumni and seniors in the programme",
+           "id": "Alumni dan senior di program"
+          },
+          {
+           "en": "What it actually paid last year",
+           "id": "Berapa yang sebenarnya dibayar tahun lalu"
+          },
+          {
+           "en": "High for fixed packages",
+           "id": "Tinggi untuk paket tetap"
+          },
+          {
+           "en": "Ask plainly; one person is one data point",
+           "id": "Tanya lugas; satu orang satu data"
+          }
+         ],
+         [
+          {
+           "en": "Community data (where it exists)",
+           "id": "Data komunitas (jika ada)"
+          },
+          {
+           "en": "Aggregated peer reports",
+           "id": "Laporan sebaya teragregasi"
+          },
+          {
+           "en": "Medium",
+           "id": "Sedang"
+          },
+          {
+           "en": "Never fabricated; note the sample size",
+           "id": "Tidak pernah dikarang; catat ukuran sampel"
+          }
+         ],
+         [
+          {
+           "en": "UMP / UMK of the placement city",
+           "id": "UMP / UMK kota penempatan"
+          },
+          {
+           "en": "The legal floor",
+           "id": "Lantai legal"
+          },
+          {
+           "en": "Floor only",
+           "id": "Hanya lantai"
+          },
+          {
+           "en": "<span class=\"ev ev-verify\">Verify</span> current figures; they change yearly",
+           "id": "<span class=\"ev ev-verify\">Verifikasi</span> angka terkini; berubah tiap tahun"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Five sources; write each with the date checked. The range is the overlap, with the floor as the bottom.",
+         "id": "Lima sumber; tulis masing-masing dengan tanggal diperiksa. Rentang adalah irisannya, dengan lantai sebagai batas bawah."
+        }
        }
       },
       {
+       "icon": "chart",
        "h": {
-        "en": "The follow-up that adds",
-        "id": "Tindak lanjut yang menambah nilai"
+        "en": "Gross versus take-home",
+        "id": "Kotor versus bersih"
        },
        "body": {
-        "en": "Within twenty-four hours, four sentences: thanks with one specific reference to the conversation; one addition — a sharper version of an answer you fumbled, or a link to work you mentioned; enthusiasm in one line; confirmation of the next step. That is signal. Long letters, flattery, or essays re-arguing your case are noise that ages badly.",
-        "id": "Dalam dua puluh empat jam, empat kalimat: terima kasih dengan satu rujukan spesifik ke percakapan tadi; satu tambahan — versi yang lebih tajam dari jawaban yang tadi tersendat, atau tautan ke karya yang kamu sebut; antusiasme dalam satu kalimat; konfirmasi langkah berikutnya. Itulah sinyal. Surat yang panjang, sanjungan, atau esai yang mengulang argumenmu adalah derau yang cepat basi."
+        "en": "Always clarify whether you mean gross (<i>gaji kotor</i>) or take-home pay (<i>THP</i>, after tax and the employee’s social-security contributions). Most Indonesian postings and surveys quote gross monthly; most graduates think in take-home, because that is what arrives; and a range given in one and heard in the other is a misunderstanding that surfaces at the offer, when it is expensive. State your range as gross monthly unless asked otherwise, and say the word: “kotor per bulan”. Know roughly what comes off it — income tax (PPh 21), the employee share of the health insurance contribution (BPJS Kesehatan) and of the employment insurance programmes (BPJS Ketenagakerjaan) — so that when HR names a gross figure you can estimate what it means at the end of the month; the rates and the arithmetic are in Module 10 <span class=\"ev ev-verify\">Verify: current PPh 21 and BPJS contribution rates</span>. Two other components change the meaning of a number: whether the figure includes fixed allowances (transport, meals, a housing allowance for out-of-town placement) and whether the religious holiday allowance (THR) and any bonus are on top. At HR stage, one clarifying question covers all of it: “Angka itu kotor, dan sudah termasuk tunjangan tetap, atau gaji pokok saja?”",
+        "id": "Selalu klarifikasi apakah maksudmu kotor (<i>gaji kotor</i>) atau bersih (<i>THP</i>, setelah pajak dan iuran jaminan sosial karyawan). Kebanyakan lowongan dan survei Indonesia mengutip kotor bulanan; kebanyakan lulusan berpikir dalam THP, karena itulah yang tiba; dan rentang yang diberikan dalam satu dan didengar dalam yang lain adalah kesalahpahaman yang muncul saat tawaran, ketika mahal. Nyatakan rentangmu sebagai kotor bulanan kecuali diminta lain, dan ucapkan katanya: “kotor per bulan”. Tahu kira-kira apa yang dipotong — pajak penghasilan (PPh 21), bagian karyawan dari iuran asuransi kesehatan (BPJS Kesehatan) dan dari program jaminan ketenagakerjaan (BPJS Ketenagakerjaan) — agar saat HR menyebut angka kotor kamu bisa memperkirakan artinya di akhir bulan; tarif dan aritmetikanya ada di Modul 10 <span class=\"ev ev-verify\">Verifikasi: tarif PPh 21 dan iuran BPJS terkini</span>. Dua komponen lain mengubah arti sebuah angka: apakah angka itu termasuk tunjangan tetap (transportasi, makan, tunjangan perumahan untuk penempatan luar kota) dan apakah tunjangan hari raya (THR) dan bonus apa pun di luar itu. Di tahap HR, satu pertanyaan klarifikasi mencakup semuanya: “Angka itu kotor, dan sudah termasuk tunjangan tetap, atau gaji pokok saja?”"
+       },
+       "bullets": [
+        {
+         "en": "<b>Say the word</b> — “kotor per bulan”; never leave it implied.",
+         "id": "<b>Ucapkan katanya</b> — “kotor per bulan”; jangan pernah biarkan tersirat."
+        },
+        {
+         "en": "<b>Know the deductions</b> — PPh 21, BPJS Kesehatan, BPJS Ketenagakerjaan (employee share); rates in Module 10.",
+         "id": "<b>Tahu potongannya</b> — PPh 21, BPJS Kesehatan, BPJS Ketenagakerjaan (bagian karyawan); tarif di Modul 10."
+        },
+        {
+         "en": "<b>Ask what is inside</b> — fixed allowances, THR, bonus: one clarifying question.",
+         "id": "<b>Tanya apa yang termasuk</b> — tunjangan tetap, THR, bonus: satu pertanyaan klarifikasi."
+        },
+        {
+         "en": "<b>Compare like with like</b> — a Jakarta gross figure and a Semarang take-home figure are not the same range.",
+         "id": "<b>Bandingkan yang sepadan</b> — angka kotor Jakarta dan angka THP Semarang bukan rentang yang sama."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "How to answer",
+        "id": "Cara menjawab"
+       },
+       "body": {
+        "en": "Four situations, four shapes. <b>If you have researched:</b> a range whose bottom you would accept, stated as gross, with the sources implied and the emphasis moved to the package and the programme — “Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.” <b>If it is a fixed-package programme:</b> say you know, ask for the components, and put the programme first — “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.” <b>If you genuinely do not know:</b> ask for the range, and say why — “Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.” This is the one situation where turning the question around is not a dodge. <b>If asked about a previous salary</b> (for those with work history): answer truthfully, and you may add that you are evaluating the new role on its own terms; never inflate a previous salary — it can be checked through payslips and social-security records, and the check ends the process. What fails in every situation is the same pair: “terserah perusahaan” (no research; you will be offered the minimum) and a bare number with no reason (“Rp 15 juta” for a role whose norm is six to eight, which screens you out as unrealistic). The current Rope’s line is the right test: practise the sentence aloud until the number stops feeling like a confession.",
+        "id": "Empat situasi, empat bentuk. <b>Jika kamu sudah riset:</b> rentang yang batas bawahnya akan kamu terima, dinyatakan kotor, dengan sumber tersirat dan tekanan dipindah ke paket dan program — “Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.” <b>Jika program paket tetap:</b> katakan kamu tahu, tanyakan komponennya, dan utamakan programnya — “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.” <b>Jika kamu benar-benar tidak tahu:</b> minta rentangnya, dan katakan mengapa — “Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.” Inilah satu situasi di mana membalik pertanyaan bukan kelit. <b>Jika ditanya gaji sebelumnya</b> (bagi yang punya riwayat kerja): jawab jujur, dan boleh tambahkan bahwa kamu menilai peran baru pada syaratnya sendiri; jangan pernah melebihkan gaji sebelumnya — bisa diperiksa lewat slip gaji dan catatan jaminan sosial, dan pemeriksaan itu mengakhiri proses. Yang gagal di setiap situasi adalah pasangan yang sama: “terserah perusahaan” (tanpa riset; kamu akan ditawari minimum) dan angka telanjang tanpa alasan (“Rp 15 juta” untuk peran yang normanya enam hingga delapan, yang menyaringmu keluar sebagai tidak realistis). Kalimat The Rope saat ini adalah ujian yang tepat: latih kalimatnya keras sampai angkanya berhenti terasa seperti pengakuan dosa."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "Shape",
+          "id": "Bentuk"
+         },
+         {
+          "en": "Sounds like",
+          "id": "Terdengar seperti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Researched</b>",
+           "id": "<b>Sudah riset</b>"
+          },
+          {
+           "en": "Range (bottom acceptable) · gross · emphasis to package and programme",
+           "id": "Rentang (batas bawah diterima) · kotor · tekanan ke paket dan program"
+          },
+          {
+           "en": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.”",
+           "id": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta, kisarannya Rp 6,5–8 juta kotor per bulan. Tapi saya lebih ingin memahami total paket dan kesempatan belajar di program ini.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Fixed-package programme</b>",
+           "id": "<b>Program paket tetap</b>"
+          },
+          {
+           "en": "Acknowledge · ask for components · programme first",
+           "id": "Akui · tanyakan komponen · program lebih dulu"
+          },
+          {
+           "en": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
+           "id": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Genuinely unknown</b>",
+           "id": "<b>Benar-benar tidak tahu</b>"
+          },
+          {
+           "en": "Ask for the range, with the reason",
+           "id": "Minta rentang, dengan alasannya"
+          },
+          {
+           "en": "“Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.”",
+           "id": "“Boleh saya tahu kisaran yang disiapkan untuk posisi ini? Saya ingin memastikan ekspektasi saya realistis.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Previous salary asked</b>",
+           "id": "<b>Gaji sebelumnya ditanya</b>"
+          },
+          {
+           "en": "The true figure · evaluating the new role on its own terms",
+           "id": "Angka sebenarnya · menilai peran baru pada syaratnya sendiri"
+          },
+          {
+           "en": "“Rp 5,2 juta kotor. Untuk posisi ini saya melihat paketnya sendiri, bukan kenaikan dari angka itu.”",
+           "id": "“Rp 5,2 juta kotor. Untuk posisi ini saya melihat paketnya sendiri, bukan kenaikan dari angka itu.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>The low counter</b> — “Kalau kami tawarkan Rp 5,5 juta?”",
+           "id": "<b>Tawaran balik rendah</b> — “Kalau kami tawarkan Rp 5,5 juta?”"
+          },
+          {
+           "en": "Calm · ask about the total package · neither accept nor reject on the spot",
+           "id": "Tenang · tanyakan total paket · tidak menerima maupun menolak di tempat"
+          },
+          {
+           "en": "“Boleh saya tahu komponen lain di luar gaji pokok — tunjangan, THR, dan jalur kenaikannya? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
+           "id": "“Boleh saya tahu komponen lain di luar gaji pokok — tunjangan, THR, dan jalur kenaikannya? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The figures are illustrative; your range comes from your own sources and the placement city. The low counter is answered with a question, not a decision.",
+         "id": "Angkanya ilustratif; rentangmu berasal dari sumbermu sendiri dan kota penempatan. Tawaran balik rendah dijawab dengan pertanyaan, bukan keputusan."
+        }
        }
       },
       {
+       "icon": "target",
        "h": {
-        "en": "The etiquette of waiting",
-        "id": "Etika menunggu"
+        "en": "Anchoring — the reason to research, not to inflate",
+        "id": "Penjangkaran — alasan untuk riset, bukan melebihkan"
        },
        "body": {
-        "en": "Ask for the timeline in the room, then respect it. If it passes, one polite nudge referencing the stated date. After that, silence from you — continued chasing converts interest into pity. Keep other processes moving; nothing improves your patience, your posture, and your eventual negotiation like a live alternative.",
-        "id": "Tanyakan jadwalnya saat masih di ruangan, lalu hormati. Kalau lewat, satu pengingat sopan yang merujuk ke tanggal yang mereka janjikan. Setelah itu, diam dari pihakmu — mengejar terus-menerus mengubah minat menjadi rasa kasihan. Jaga proses lamaran lain tetap berjalan; tidak ada yang lebih memperbaiki kesabaranmu, sikapmu, dan negosiasimu nanti selain alternatif yang masih hidup."
+        "en": "Research on negotiation shows that the first number named tends to anchor the discussion that follows: later figures are adjusted from it rather than built from scratch <span class=\"ev ev-contested\">Contested for magnitude; direction robust — Appendix C of the blueprint</span>. Candidates hear this and draw the wrong conclusion — name a high number first. The right conclusion is the opposite: a researched, defensible range anchors well, because HR can see where it came from and adjusts from it; an inflated one damages credibility, because HR knows the band and now knows you either did not research or are testing them. The anchor effect is why the “terserah” answer is costly — it hands the anchor to HR, who will name the bottom of the band — and why the fixed-package answer is safe: there is nothing to anchor, and you have shown you know it. If you have done the research, name the range; if you have not, ask for theirs and anchor nothing. The magnitude of the effect is debated in the literature; the direction is not, and it is enough to act on.",
+        "id": "Riset tentang negosiasi menunjukkan bahwa angka pertama yang disebut cenderung menjangkar diskusi yang mengikuti: angka berikutnya disesuaikan darinya, bukan dibangun dari nol <span class=\"ev ev-contested\">Diperdebatkan besarannya; arahnya kokoh — Lampiran C blueprint</span>. Kandidat mendengar ini dan menarik kesimpulan yang salah — sebut angka tinggi lebih dulu. Kesimpulan yang benar adalah kebalikannya: rentang hasil riset yang bisa dipertahankan menjangkar dengan baik, karena HR bisa melihat asalnya dan menyesuaikan darinya; yang dilebihkan merusak kredibilitas, karena HR tahu rentangnya dan kini tahu kamu tidak riset atau sedang menguji mereka. Efek jangkar adalah alasan jawaban “terserah” mahal — ia menyerahkan jangkar ke HR, yang akan menyebut batas bawah rentang — dan alasan jawaban paket tetap aman: tidak ada yang dijangkar, dan kamu sudah menunjukkan tahu itu. Jika kamu sudah riset, sebut rentangnya; jika belum, minta rentang mereka dan jangan jangkar apa pun. Besaran efeknya diperdebatkan dalam literatur; arahnya tidak, dan itu cukup untuk ditindaklanjuti."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Other practical questions",
+        "id": "Pertanyaan praktis lain"
+       },
+       "body": {
+        "en": "The HR stage carries four or five practical questions beyond salary, and the rule for all of them is the same: answer with a fact, clarify if you need to, and do not negotiate — negotiation happens after the offer (Module 10). <b>Start date:</b> be realistic; if you are employed, state your notice period; if you have a thesis defence, a graduation date or a family commitment in the next three months, name it. <b>Placement:</b> the decided sentence from Lesson 5.1. <b>Contract type:</b> know the difference between a fixed-term contract (PKWT) and a permanent one (PKWTT), and that many programmes start on one and convert to the other after probation — asking which applies is appropriate; the clauses are for Module 10. <b>Working hours and shifts:</b> ask if the posting did not say, especially for branch or operations roles. <b>The bond:</b> length, trigger and pro-rating as one clarifying question. It is appropriate at HR stage to ask clarifying questions about all of these — the recruiter expects it, and it reads as a candidate who takes the commitment seriously — and it is not appropriate to counter, condition or bargain any of them before an offer exists. Nadia’s practical answers for the bank are four sentences and one question, and they fit in under a minute.",
+        "id": "Tahap HR membawa empat atau lima pertanyaan praktis di luar gaji, dan aturannya sama untuk semua: jawab dengan fakta, klarifikasi jika perlu, dan jangan bernegosiasi — negosiasi terjadi setelah tawaran (Modul 10). <b>Tanggal mulai:</b> realistis; jika kamu bekerja, sebut masa pemberitahuan; jika ada sidang skripsi, tanggal wisuda, atau komitmen keluarga dalam tiga bulan ke depan, sebutkan. <b>Penempatan:</b> kalimat yang diputuskan dari Pelajaran 5.1. <b>Jenis kontrak:</b> tahu bedanya kontrak waktu tertentu (PKWT) dan tetap (PKWTT), dan bahwa banyak program mulai dengan satu dan beralih ke yang lain setelah masa percobaan — menanyakan mana yang berlaku pantas; klausulnya untuk Modul 10. <b>Jam kerja dan sif:</b> tanya jika lowongan tidak menyebut, terutama untuk peran cabang atau operasi. <b>Ikatan dinas:</b> lama, pemicu, dan proporsional sebagai satu pertanyaan klarifikasi. Pantas di tahap HR menanyakan klarifikasi tentang semua ini — rekruter mengharapkannya, dan terbaca sebagai kandidat yang serius dengan komitmen — dan tidak pantas menawar, mensyaratkan, atau bernegosiasi tentang apa pun sebelum tawaran ada. Jawaban praktis Nadia untuk bank adalah empat kalimat dan satu pertanyaan, dan muat di bawah semenit."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Answer with",
+          "id": "Jawab dengan"
+         },
+         {
+          "en": "Clarify",
+          "id": "Klarifikasi"
+         },
+         {
+          "en": "Not yet",
+          "id": "Belum saatnya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Kapan bisa mulai?”",
+           "id": "“Kapan bisa mulai?”"
+          },
+          {
+           "en": "A date; notice period or commitments named",
+           "id": "Tanggal; masa pemberitahuan atau komitmen disebut"
+          },
+          {
+           "en": "Whether the programme has a fixed intake date",
+           "id": "Apakah program punya tanggal masuk tetap"
+          },
+          {
+           "en": "Asking to start later for convenience",
+           "id": "Meminta mulai lebih lambat demi kenyamanan"
+          }
+         ],
+         [
+          {
+           "en": "“Bersedia ditempatkan?”",
+           "id": "“Bersedia ditempatkan?”"
+          },
+          {
+           "en": "The decided sentence (5.1)",
+           "id": "Kalimat yang diputuskan (5.1)"
+          },
+          {
+           "en": "Whether preferences can be submitted",
+           "id": "Apakah preferensi bisa disampaikan"
+          },
+          {
+           "en": "Naming a city as a condition of accepting",
+           "id": "Menyebut kota sebagai syarat menerima"
+          }
+         ],
+         [
+          {
+           "en": "“Kontraknya PKWT dulu.”",
+           "id": "“Kontraknya PKWT dulu.”"
+          },
+          {
+           "en": "“Baik — berapa lama, dan konversinya setelah apa?”",
+           "id": "“Baik — berapa lama, dan konversinya setelah apa?”"
+          },
+          {
+           "en": "Length; what triggers conversion",
+           "id": "Lama; apa yang memicu konversi"
+          },
+          {
+           "en": "Asking for PKWTT from day one",
+           "id": "Meminta PKWTT sejak hari pertama"
+          }
+         ],
+         [
+          {
+           "en": "“Jam kerjanya sif.”",
+           "id": "“Jam kerjanya sif.”"
+          },
+          {
+           "en": "“Baik — polanya bagaimana?”",
+           "id": "“Baik — polanya bagaimana?”"
+          },
+          {
+           "en": "The rota; weekends; overtime rules",
+           "id": "Rotasi; akhir pekan; aturan lembur"
+          },
+          {
+           "en": "Declaring which shifts you will not do",
+           "id": "Menyatakan sif mana yang tidak akan kamu ambil"
+          }
+         ],
+         [
+          {
+           "en": "“Ada ikatan dinas dua tahun.”",
+           "id": "“Ada ikatan dinas dua tahun.”"
+          },
+          {
+           "en": "The decided sentence (5.1)",
+           "id": "Kalimat yang diputuskan (5.1)"
+          },
+          {
+           "en": "Trigger; penalty; pro-rating — one question",
+           "id": "Pemicu; sanksi; proporsional — satu pertanyaan"
+          },
+          {
+           "en": "Negotiating the length",
+           "id": "Menegosiasikan lamanya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Clarify at HR stage; negotiate after the offer. Module 10 reads the clauses.",
+         "id": "Klarifikasi di tahap HR; negosiasi setelah tawaran. Modul 10 membaca klausulnya."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "timeline",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The close and the follow-up — from the last five minutes to the etiquette of waiting.",
-       "id": "Peraga 1: Penutup dan tindak lanjut — dari lima menit terakhir hingga etiket menunggu."
+       "en": "Exhibit 1: From sources to a sentence",
+       "id": "Peraga 1: Dari sumber ke kalimat"
       },
       "title": {
-       "en": "Last 5 minutes → 24 hours → Stated date → After",
-       "id": "5 menit terakhir → 24 jam → Tanggal yang disebutkan → Sesudahnya"
+       "en": "Research → floor → range → the calm sentence → the clarifying question",
+       "id": "Riset → lantai → rentang → kalimat tenang → pertanyaan klarifikasi"
       },
       "items": [
        {
+        "icon": "book",
         "h": {
-         "en": "Last five minutes",
-         "id": "Lima menit terakhir"
+         "en": "Sources",
+         "id": "Sumber"
         },
         "sub": {
-         "en": "Three question archetypes — standard, reality, growth — then ask for the timeline",
-         "id": "Tiga arketipe pertanyaan — standar, realitas, pertumbuhan — lalu tanyakan garis waktunya"
-        },
-        "icon": "target"
+         "en": "Surveys, postings with ranges, alumni, community data — dated.",
+         "id": "Survei, lowongan dengan rentang, alumni, data komunitas — bertanggal."
+        }
        },
        {
+        "icon": "shield",
         "h": {
-         "en": "Within 24 hours",
-         "id": "Dalam 24 jam"
+         "en": "Floor",
+         "id": "Lantai"
         },
         "sub": {
-         "en": "Four sentences: specific thanks, one addition, enthusiasm, availability",
-         "id": "Empat kalimat: terima kasih spesifik, satu tambahan, antusiasme, ketersediaan"
-        },
-        "icon": "book"
+         "en": "The placement city’s UMP/UMK. Nothing below it.",
+         "id": "UMP/UMK kota penempatan. Tidak ada di bawahnya."
+        }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Stated date passes",
-         "id": "Tanggal yang disebutkan lewat"
+         "en": "Range",
+         "id": "Rentang"
         },
         "sub": {
-         "en": "One polite nudge referencing the date",
-         "id": "Satu sentuhan pengingat sopan yang merujuk tanggal itu"
-        },
-        "icon": "flag"
+         "en": "The overlap of the sources; the bottom is a number you would accept; gross monthly.",
+         "id": "Irisan sumber; batas bawah adalah angka yang akan kamu terima; kotor bulanan."
+        }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "After that",
-         "id": "Sesudahnya"
+         "en": "The sentence",
+         "id": "Kalimatnya"
         },
         "sub": {
-         "en": "Silence from you; other processes keep moving",
-         "id": "Diam darimu; proses lain terus berjalan"
+         "en": "Range, “kotor per bulan”, then the emphasis moved to the package and the programme.",
+         "id": "Rentang, “kotor per bulan”, lalu tekanan dipindah ke paket dan program."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "The question",
+         "id": "Pertanyaannya"
         },
-        "icon": "eye"
+        "sub": {
+         "en": "What is inside the number — allowances, THR, bonus, conversion, bond terms.",
+         "id": "Apa yang termasuk dalam angka — tunjangan, THR, bonus, konversi, ketentuan ikatan dinas."
+        }
        }
       ],
+      "note": {
+       "en": "For a fixed-package programme, skip the range and go straight to the question.",
+       "id": "Untuk program paket tetap, lewati rentang dan langsung ke pertanyaan."
+      },
       "longdesc": {
-       "en": "A four-point timeline: in the last five minutes ask three archetype questions and for the timeline; within twenty-four hours send a four-sentence follow-up that adds one thing; when the stated date passes send one polite nudge; and after that stay silent while other processes continue.",
-       "id": "Garis waktu empat titik: di lima menit terakhir ajukan tiga pertanyaan arketipe dan tanyakan garis waktu; dalam dua puluh empat jam kirim tindak lanjut empat kalimat yang menambahkan satu hal; ketika tanggal yang disebutkan lewat, kirim satu sentuhan pengingat sopan; dan sesudahnya tetap diam sementara proses lain berlanjut."
+       "en": "A five-stage flow: gather dated sources; set the placement city’s minimum wage as the floor; derive a gross monthly range whose bottom you would accept; say it calmly with the emphasis moved to the package and the programme; then ask one clarifying question about what the number includes.",
+       "id": "Alur lima tahap: kumpulkan sumber bertanggal; tetapkan upah minimum kota penempatan sebagai lantai; turunkan rentang kotor bulanan yang batas bawahnya akan kamu terima; ucapkan dengan tenang dengan tekanan dipindah ke paket dan program; lalu ajukan satu pertanyaan klarifikasi tentang apa yang termasuk dalam angka."
       }
      },
      "compare": [
       {
        "tag": {
-        "en": "The follow-up email",
-        "id": "Email tindak lanjut"
+        "en": "“Terserah” → a researched range",
+        "id": "“Terserah” → rentang hasil riset"
+       },
+       "q": {
+        "en": "“Berapa ekspektasi gaji Anda?” — asked in the fifth minute of a phone screen for an operations associate role in Jakarta.",
+        "id": "“Berapa ekspektasi gaji Anda?” — ditanyakan di menit kelima seleksi telepon untuk peran operations associate di Jakarta."
        },
        "weak": {
-        "en": "Dear Ms. Sari, thank you so much for the amazing opportunity to interview at your wonderful company. I have always dreamed of working somewhere like this. I really really hope to hear good news. I will wait every day for your reply. Thank you again and again.",
-        "id": "Ibu Sari yang terhormat, terima kasih banyak atas kesempatan luar biasa untuk wawancara di perusahaan Ibu yang hebat. Saya selalu bermimpi bekerja di tempat seperti ini. Saya sangat sangat berharap mendapat kabar baik. Saya akan menunggu balasan Ibu setiap hari. Sekali lagi terima kasih banyak."
+        "en": "“Terserah perusahaan saja, Bu, yang penting saya bisa belajar.” — or — “Rp 15 juta.”",
+        "id": "“Terserah perusahaan saja, Bu, yang penting saya bisa belajar.” — atau — “Rp 15 juta.”"
        },
        "strong": {
-        "en": "Dear Ms. Sari — thank you for this morning's conversation, especially your point about the Q4 reporting bottleneck. One addition: the automation I mentioned is documented here [link] — the version relevant to your stack. I'm genuinely enthusiastic about the role, and I look forward to the next step you mentioned for next week. Best regards.",
-        "id": "Ibu Sari — terima kasih atas percakapan tadi pagi, khususnya poin Ibu tentang hambatan pelaporan di kuartal 4. Satu tambahan: otomasi yang saya sebutkan terdokumentasi di sini [tautan] — versi yang relevan dengan sistem Ibu. Saya sungguh antusias dengan posisi ini, dan menantikan langkah berikutnya yang Ibu sebutkan untuk minggu depan. Salam hormat."
+        "en": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta — survei tahunan dan dua lowongan yang mencantumkan kisaran — angkanya Rp 6,5 sampai 8 juta kotor per bulan. Tapi saya lebih ingin memahami total paketnya — tunjangan, THR, dan jalur kenaikannya — dan kesempatan belajar di tim ini.”",
+        "id": "“Berdasarkan riset saya untuk posisi sejenis di Jakarta — survei tahunan dan dua lowongan yang mencantumkan kisaran — angkanya Rp 6,5 sampai 8 juta kotor per bulan. Tapi saya lebih ingin memahami total paketnya — tunjangan, THR, dan jalur kenaikannya — dan kesempatan belajar di tim ini.”"
        },
        "why": {
-        "en": "Four sentences: specific thanks, one strengthening addition, one line of enthusiasm, next step. Signal — not flattery, not begging.",
-        "id": "Empat kalimat: terima kasih yang spesifik, satu tambahan yang memperkuat, satu kalimat antusiasme, langkah berikutnya. Sinyal — bukan sanjungan, bukan memohon."
+        "en": "“Terserah” signals no research and hands the anchor to HR, who will name the bottom of the band; “Rp 15 juta” for a role whose norm is six to eight, with no reason, screens the candidate out as unrealistic. The strong answer names a range with its bottom acceptable, says “kotor per bulan”, implies the sources, and moves the emphasis to the package and the work — a fit check passed, an anchor set from evidence, and nothing to retract at the offer. The figures are illustrative; the shape is the lesson.",
+        "id": "“Terserah” menandakan tanpa riset dan menyerahkan jangkar ke HR, yang akan menyebut batas bawah rentang; “Rp 15 juta” untuk peran yang normanya enam hingga delapan, tanpa alasan, menyaring kandidat keluar sebagai tidak realistis. Jawaban kuat menyebut rentang dengan batas bawah yang diterima, mengucapkan “kotor per bulan”, menyiratkan sumbernya, dan memindah tekanan ke paket dan pekerjaan — pemeriksaan kecocokan lolos, jangkar ditetapkan dari bukti, dan tidak ada yang ditarik saat tawaran. Angkanya ilustratif; bentuknya pelajarannya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: “kalau kami tawarkan Rp 5,5 juta?”",
+       "id": "Sorotan: “kalau kami tawarkan Rp 5,5 juta?”"
+      },
+      "body": [
+       {
+        "en": "In a practice HR session for KilatPay, Nadia gives her researched range for an operations associate in Jakarta and the persona counters immediately: “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — below her bottom. Her first instinct is to accept (“oh, tidak apa-apa, Bu”), which would make her range a fiction, or to reject (“itu di bawah ekspektasi saya”), which ends a conversation that has not yet reached an offer. She does neither: “Boleh saya tahu komponen lain di luar gaji pokok — tunjangan transportasi, THR, dan bagaimana jalur kenaikannya setelah masa percobaan? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”",
+        "id": "Dalam sesi latihan HR untuk KilatPay, Nadia memberi rentang hasil risetnya untuk operations associate di Jakarta dan persona langsung menawar balik: “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — di bawah batas bawahnya. Insting pertamanya menerima (“oh, tidak apa-apa, Bu”), yang akan menjadikan rentangnya fiksi, atau menolak (“itu di bawah ekspektasi saya”), yang mengakhiri percakapan yang belum mencapai tawaran. Ia tidak melakukan keduanya: “Boleh saya tahu komponen lain di luar gaji pokok — tunjangan transportasi, THR, dan bagaimana jalur kenaikannya setelah masa percobaan? Kalau totalnya sudah jelas, saya bisa jawab dengan pasti.”"
+       },
+       {
+        "en": "The debrief scored three things: stayed calm, asked about the total package, did not accept or reject on the spot. The low counter at HR stage is rarely an offer; it is a test of whether the range was real and whether the candidate can hold a number without flinching. The negotiation, if the number is still low when an offer arrives, belongs to Module 10 — with the same research sheet on the table.",
+        "id": "Debrief menilai tiga hal: tetap tenang, menanyakan total paket, tidak menerima atau menolak di tempat. Tawaran balik rendah di tahap HR jarang merupakan tawaran; ia ujian apakah rentangnya nyata dan apakah kandidat bisa memegang angka tanpa gentar. Negosiasinya, jika angka masih rendah saat tawaran tiba, milik Modul 10 — dengan lembar riset yang sama di atas meja."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The salary research sheet",
+        "id": "Latihan 1 · Lembar riset gaji"
+       },
+       "body": {
+        "en": "For your top target and its placement city, fill the sheet: at least three sources with figures and the date checked; the city’s minimum wage as the floor (marked “verify” until you have the current figure); whether the programme has a fixed package; your range as gross monthly with a bottom you would accept. The Offer Decoder is specified to show your range against the cited references and the floor; on paper, draw the three bars.",
+        "id": "Untuk sasaran teratasmu dan kota penempatannya, isi lembar: setidaknya tiga sumber dengan angka dan tanggal diperiksa; upah minimum kota sebagai lantai (ditandai “verifikasi” sampai kamu punya angka terkini); apakah program punya paket tetap; rentangmu sebagai kotor bulanan dengan batas bawah yang akan kamu terima. Offer Decoder ditentukan untuk menunjukkan rentangmu terhadap rujukan yang dikutip dan lantai; di kertas, gambar tiga bilahnya."
+       },
+       "debrief": {
+        "en": "If your range is wider than about thirty percent, you have two sources that disagree — check whether one is gross and one is take-home, or one Jakarta and one regional. If your bottom is below the floor, raise it: no legal offer will be below the floor and a range that starts under it signals you did not check. If your top is above every source, you are anchoring by hope; bring it to the highest cited figure. If the programme is fixed-package, your “range” is one sentence and a question — write those instead.",
+        "id": "Jika rentangmu lebih lebar dari sekitar tiga puluh persen, kamu punya dua sumber yang tidak sepakat — periksa apakah satu kotor dan satu THP, atau satu Jakarta dan satu daerah. Jika batas bawahmu di bawah lantai, naikkan: tidak ada tawaran legal di bawah lantai dan rentang yang dimulai di bawahnya menandakan kamu tidak memeriksa. Jika batas atasmu di atas semua sumber, kamu menjangkar dengan harapan; turunkan ke angka tertinggi yang dikutip. Jika programnya paket tetap, “rentang”-mu adalah satu kalimat dan satu pertanyaan — tulis itu sebagai gantinya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The salary probe",
+        "id": "Latihan 2 · Galian gaji"
+       },
+       "body": {
+        "en": "Use the tryit below: the salary expectation question, the salary question in the HR persona’s own words, the start date and the other-processes question. Deliver your range sentence with “kotor per bulan”; when the persona probes, ask about the total package and do not accept or reject. Then say the sentence aloud five more times until the number stops feeling like a confession.",
+        "id": "Pakai tryit di bawah: pertanyaan ekspektasi gaji, pertanyaan gaji dalam kata-kata persona HR sendiri, tanggal mulai, dan pertanyaan proses lain. Sampaikan kalimat rentangmu dengan “kotor per bulan”; saat persona menggali, tanyakan total paket dan jangan menerima atau menolak. Lalu ucapkan kalimatnya keras lima kali lagi sampai angkanya berhenti terasa seperti pengakuan dosa."
+       },
+       "debrief": {
+        "en": "Three checks from the blueprint’s debrief: stayed calm (no laugh, no “maaf”, no “kira-kira”); asked about the total package before reacting to the number; did not accept or reject on the spot. A fourth from this lesson: the word “kotor” was said. If you accepted the low counter, your bottom was not a real bottom — revise the sheet. If you rejected it, remember that no offer existed yet; the counter was a test.",
+        "id": "Tiga pemeriksaan dari debrief blueprint: tetap tenang (tanpa tawa, tanpa “maaf”, tanpa “kira-kira”); menanyakan total paket sebelum bereaksi terhadap angka; tidak menerima atau menolak di tempat. Keempat dari pelajaran ini: kata “kotor” diucapkan. Jika kamu menerima tawaran balik rendah, batas bawahmu bukan batas bawah nyata — revisi lembarnya. Jika kamu menolaknya, ingat belum ada tawaran; tawaran balik itu ujian."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The practical five",
+        "id": "Latihan 3 · Lima praktis"
+       },
+       "body": {
+        "en": "Write your answers to the five practical questions — start date, placement, contract type, hours, bond — for your top target: the fact you will state, the one clarifying question you will ask, and the thing you will not raise until the offer. Time the five together; they should fit in under a minute of talking.",
+        "id": "Tulis jawabanmu untuk lima pertanyaan praktis — tanggal mulai, penempatan, jenis kontrak, jam kerja, ikatan dinas — untuk sasaran teratasmu: fakta yang akan kamu nyatakan, satu pertanyaan klarifikasi yang akan kamu ajukan, dan hal yang tidak akan kamu angkat sampai tawaran. Ukur waktu kelimanya bersama; harus muat di bawah semenit bicara."
+       },
+       "debrief": {
+        "en": "If any answer contains “asalkan” or “kalau bisa”, it is a condition, and conditions belong after the offer — rewrite it as a clarifying question. If you have no clarifying question for the contract type or the bond, you are about to accept terms you have not read; Module 10 will read them, but the question now tells HR you will. If the start date answer does not mention your graduation or defence date, check that it is true.",
+        "id": "Jika ada jawaban memuat “asalkan” atau “kalau bisa”, itu syarat, dan syarat termasuk setelah tawaran — tulis ulang sebagai pertanyaan klarifikasi. Jika kamu tidak punya pertanyaan klarifikasi untuk jenis kontrak atau ikatan dinas, kamu hampir menerima syarat yang belum kamu baca; Modul 10 akan membacanya, tetapi pertanyaan sekarang memberi tahu HR bahwa kamu akan membacanya. Jika jawaban tanggal mulai tidak menyebut tanggal wisuda atau sidangmu, periksa bahwa itu benar."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "“Terserah perusahaan”",
+         "id": "“Terserah perusahaan”"
+        },
+        "fix": {
+         "en": "It hands the anchor to HR; name a researched range or ask for theirs.",
+         "id": "Ia menyerahkan jangkar ke HR; sebut rentang hasil riset atau minta rentang mereka."
+        }
+       },
+       {
+        "h": {
+         "en": "A number with no reason",
+         "id": "Angka tanpa alasan"
+        },
+        "fix": {
+         "en": "Sources and a city; the range is the overlap.",
+         "id": "Sumber dan kota; rentang adalah irisannya."
+        }
+       },
+       {
+        "h": {
+         "en": "Forgetting “kotor”",
+         "id": "Lupa “kotor”"
+        },
+        "fix": {
+         "en": "Say it; a gross range heard as take-home is an expensive misunderstanding at the offer.",
+         "id": "Ucapkan; rentang kotor yang didengar sebagai THP adalah kesalahpahaman mahal saat tawaran."
+        }
+       },
+       {
+        "h": {
+         "en": "Accepting or rejecting the low counter",
+         "id": "Menerima atau menolak tawaran balik rendah"
+        },
+        "fix": {
+         "en": "Ask about the total package; no offer exists yet.",
+         "id": "Tanyakan total paket; belum ada tawaran."
+        }
+       },
+       {
+        "h": {
+         "en": "Inflating a previous salary",
+         "id": "Melebihkan gaji sebelumnya"
+        },
+        "fix": {
+         "en": "It is checkable; the check ends the process.",
+         "id": "Bisa diperiksa; pemeriksaannya mengakhiri proses."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Gross (gaji kotor)",
+        "id": "Kotor (gaji kotor)"
+       },
+       "def": {
+        "en": "The monthly figure before income tax and the employee’s social-security contributions — the unit for stating a range.",
+        "id": "Angka bulanan sebelum pajak penghasilan dan iuran jaminan sosial karyawan — satuan untuk menyatakan rentang."
+       }
+      },
+      {
+       "term": {
+        "en": "Take-home (THP)",
+        "id": "Bersih (THP)"
+       },
+       "def": {
+        "en": "What arrives after PPh 21 and the BPJS employee contributions; rates and arithmetic in Module 10.",
+        "id": "Yang tiba setelah PPh 21 dan iuran BPJS karyawan; tarif dan aritmetika di Modul 10."
+       }
+      },
+      {
+       "term": {
+        "en": "Floor",
+        "id": "Lantai"
+       },
+       "def": {
+        "en": "The placement city’s minimum wage (UMP/UMK) — below which no legal offer goes and no range should start.",
+        "id": "Upah minimum kota penempatan (UMP/UMK) — di bawahnya tidak ada tawaran legal dan tidak ada rentang yang boleh dimulai."
+       }
+      },
+      {
+       "term": {
+        "en": "Anchor",
+        "id": "Jangkar"
+       },
+       "def": {
+        "en": "The first number named, from which the discussion adjusts; researched ranges anchor well, inflated ones cost credibility.",
+        "id": "Angka pertama yang disebut, dari mana diskusi menyesuaikan; rentang hasil riset menjangkar baik, yang dilebihkan mengorbankan kredibilitas."
+       }
+      },
+      {
+       "term": {
+        "en": "Low counter",
+        "id": "Tawaran balik rendah"
+       },
+       "def": {
+        "en": "“Kalau kami tawarkan …?” at HR stage — a test of the range, answered with a question about the total package.",
+        "id": "“Kalau kami tawarkan …?” di tahap HR — ujian atas rentang, dijawab dengan pertanyaan tentang total paket."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The best follow-up email after an HR screen:",
-        "id": "Email tindak lanjut terbaik setelah penyaringan HR:"
+        "en": "A posting says “Rp 7 juta” and you assume it is take-home; it was gross. The mistake surfaces…",
+        "id": "Lowongan berkata “Rp 7 juta” dan kamu mengira itu THP; ternyata kotor. Kesalahannya muncul…"
        },
        "options": [
         {
-         "en": "Thanks them, adds one concrete strengthening detail, and confirms next steps",
-         "id": "Berterima kasih, menambahkan satu detail konkret yang memperkuat, dan mengonfirmasi langkah berikutnya"
+         "en": "Never — the difference is small",
+         "id": "Tidak pernah — bedanya kecil"
         },
         {
-         "en": "Repeats your entire positioning statement in writing",
-         "id": "Mengulang seluruh positioning statement-mu dalam bentuk tertulis"
+         "en": "At the offer, when the first payslip is lower than the range you had accepted in your head",
+         "id": "Saat tawaran, ketika slip gaji pertama lebih rendah dari rentang yang kamu terima dalam kepala"
         },
         {
-         "en": "Asks whether you got the job",
-         "id": "Menanyakan apakah kamu diterima"
+         "en": "In the screen",
+         "id": "Di seleksi awal"
+        },
+        {
+         "en": "Only if you ask",
+         "id": "Hanya jika kamu bertanya"
         }
        ],
-       "correct": 0,
+       "correct": 1,
        "why": {
-        "en": "Correct — short, additive, forward-looking. It is your last quotable line in their notes.",
-        "id": "Benar — singkat, menambah nilai, menghadap ke depan. Itulah kalimat terakhirmu yang bisa dikutip di catatan mereka."
+        "en": "State and hear every figure as gross; say “kotor per bulan” and ask what is inside the number.",
+        "id": "Nyatakan dan dengar setiap angka sebagai kotor; ucapkan “kotor per bulan” dan tanyakan apa yang termasuk dalam angka."
+       }
+      },
+      {
+       "q": {
+        "en": "You are applying to a bank ODP with a fixed starting package. The best salary answer is…",
+        "id": "Kamu melamar ODP bank dengan paket awal tetap. Jawaban gaji terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "A range ten percent above the package, to negotiate",
+         "id": "Rentang sepuluh persen di atas paket, untuk negosiasi"
+        },
+        {
+         "en": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”",
+         "id": "“Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya, tapi yang paling penting bagi saya adalah programnya.”"
+        },
+        {
+         "en": "“Terserah”",
+         "id": "“Terserah”"
+        },
+        {
+         "en": "Refuse to answer",
+         "id": "Menolak menjawab"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "There is nothing to anchor; the answer shows you know, asks what is inside, and passes the fit check.",
+        "id": "Tidak ada yang dijangkar; jawabannya menunjukkan kamu tahu, menanyakan apa yang termasuk, dan lolos pemeriksaan kecocokan."
+       }
+      },
+      {
+       "q": {
+        "en": "HR says, “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — below your bottom. You…",
+        "id": "HR berkata, “Kalau kami tawarkan Rp 5,5 juta, bagaimana?” — di bawah batas bawahmu. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Accept — a job is a job",
+         "id": "Menerima — pekerjaan tetap pekerjaan"
+        },
+        {
+         "en": "Reject — it is below your range",
+         "id": "Menolak — di bawah rentangmu"
+        },
+        {
+         "en": "Stay calm, ask about the total package and the raise path, and neither accept nor reject on the spot",
+         "id": "Tetap tenang, tanyakan total paket dan jalur kenaikan, dan tidak menerima maupun menolak di tempat"
+        },
+        {
+         "en": "Laugh",
+         "id": "Tertawa"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "No offer exists yet; the counter tests whether the range was real. Negotiation is Module 10.",
+        "id": "Belum ada tawaran; tawaran balik menguji apakah rentangnya nyata. Negosiasi adalah Modul 10."
        }
       }
      ],
      "tryit": {
-      "qid": "hr16",
+      "qid": "elig_salary_gross",
+      "set": [
+       "elig_salary_gross",
+       "hr06",
+       "elig_start_date",
+       "elig_other_processes"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "probes": 1,
+      "returnTo": 2,
       "label": {
-       "en": "Drill your closing questions",
-       "id": "Latih pertanyaan penutupmu"
+       "en": "The salary probe and the practical questions",
+       "id": "Galian gaji dan pertanyaan praktis"
       },
       "desc": {
-       "en": "“What questions do you have for us?” — bring the standard, reality and growth archetypes.",
-       "id": "“Ada pertanyaan untuk kami?” — bawa tiga jenisnya: standar, realitas, dan pertumbuhan."
+       "en": "Four HR questions — salary range and whether it is gross, salary expectations in the recruiter’s words, start date, other processes — each with one probe. Deliver your researched range with “kotor per bulan”; when the low counter comes, ask about the total package and decide nothing. The session history shows whether you held the number.",
+       "id": "Empat pertanyaan HR — rentang gaji dan apakah kotor, ekspektasi gaji dalam kata-kata rekruter, tanggal mulai, proses lain — masing-masing dengan satu galian. Sampaikan rentang hasil risetmu dengan “kotor per bulan”; saat tawaran balik rendah datang, tanyakan total paket dan jangan putuskan apa pun. Riwayat sesi menunjukkan apakah kamu memegang angkanya."
       }
      },
-     "glossary": [
+     "takeaways": [
       {
-       "term": {
-        "en": "negotiation",
-        "id": "negosiasi"
-       },
-       "def": {
-        "en": "The conversation after a written offer and before acceptance where terms can move — expected, when done professionally.",
-        "id": "Percakapan setelah tawaran tertulis dan sebelum kamu menerimanya, ketika syarat-syarat masih bisa bergerak — hal yang wajar, kalau dilakukan secara profesional."
-       }
+       "en": "A range from named sources with the city’s floor as the bottom, said as gross, calmly.",
+       "id": "Rentang dari sumber yang disebut dengan lantai kota sebagai batas bawah, diucapkan sebagai kotor, tenang."
       },
       {
-       "term": {
-        "en": "the one nudge",
-        "id": "satu sentuhan pengingat"
-       },
-       "def": {
-        "en": "A single polite message after the stated decision date passes, referencing that date — and then silence, because continued chasing converts interest into pity.",
-        "id": "Satu pesan sopan setelah tanggal keputusan yang disebutkan lewat, merujuk pada tanggal itu — lalu diam, karena terus mengejar mengubah minat menjadi rasa kasihan."
-       }
+       "en": "Research is the reason to name a number; inflation is the reason to lose credibility.",
+       "id": "Riset adalah alasan menyebut angka; melebihkan adalah alasan kehilangan kredibilitas."
+      },
+      {
+       "en": "Clarify the practical terms at HR stage; negotiate after the offer.",
+       "id": "Klarifikasi syarat praktis di tahap HR; negosiasi setelah tawaran."
       }
      ],
      "resources": {
+      "title": {
+       "en": "Sources and the salary sheet",
+       "id": "Sumber dan lembar gaji"
+      },
+      "lead": {
+       "en": "Two sources, three verify points, and part 3 of the Module 5 Kit item.",
+       "id": "Dua sumber, tiga titik verifikasi, dan bagian 3 butir Perangkat Modul 5."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "The last five minutes",
-         "id": "Lima menit terakhir"
+         "en": "Reading list · Lesson 5.3",
+         "id": "Daftar bacaan · Pelajaran 5.3"
         },
         "desc": {
-         "en": "Questions, close, and the next-day note.",
-         "id": "Pertanyaan, penutup, dan catatan hari berikutnya."
+         "en": "The anchor effect and the etiquette of the salary question.",
+         "id": "Efek jangkar dan etika pertanyaan gaji."
         },
         "body": [
          {
-          "en": "QUESTION 1 (standard of excellence): “What does someone who is excellent in this role do in their first six months that a merely good hire does not?”",
-          "id": "PERTANYAAN 1 (standar keunggulan): “Apa yang dilakukan orang yang sangat baik di peran ini dalam enam bulan pertama yang tidak dilakukan orang yang sekadar baik?”"
+          "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> — a researched range, stated briefly, with the emphasis on the role.",
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> — rentang hasil riset, dinyatakan singkat, dengan tekanan pada peran."
          },
          {
-          "en": "QUESTION 2 (reality check): “What is the hardest part of this role that the job description does not say?”",
-          "id": "PERTANYAAN 2 (cek realitas): “Apa bagian tersulit dari peran ini yang tidak disebutkan deskripsi pekerjaan?”"
+          "en": "The Rope (current), “the salary range without flinching” — retained as Drill 2.",
+          "id": "The Rope (saat ini), “rentang gaji tanpa gentar” — dipertahankan sebagai Latihan 2."
          },
          {
-          "en": "CLOSE: “Thank you — this confirmed my interest. From what we discussed, I think [one line of fit]. What are the next steps and timing?”",
-          "id": "PENUTUP: “Terima kasih — ini menguatkan minat saya. Dari yang kita bahas, saya rasa [satu baris kecocokan]. Apa langkah berikutnya dan waktunya?”"
+          "en": "<span class=\"ev ev-contested\">Contested</span> The magnitude of the anchoring effect is debated in the negotiation literature; the direction is robust (blueprint Appendix C).",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Besaran efek penjangkaran diperdebatkan dalam literatur negosiasi; arahnya kokoh (Lampiran C blueprint)."
          },
          {
-          "en": "NEXT-DAY NOTE: “Thank you for yesterday. I keep thinking about [specific moment]. [One useful addition: link / clarification / idea]. I remain very interested and look forward to [next step].”",
-          "id": "CATATAN HARI BERIKUTNYA: “Terima kasih untuk kemarin. Saya terus memikirkan [momen spesifik]. [Satu tambahan berguna: tautan / klarifikasi / ide]. Saya tetap sangat tertarik dan menantikan [langkah berikutnya].”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Current UMK for the target cities · current PPh 21 and BPJS contribution rates — confirm before quoting any figure as fact.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> UMK terkini kota sasaran · tarif PPh 21 dan iuran BPJS terkini — konfirmasi sebelum mengutip angka apa pun sebagai fakta."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Salary research sheet (Kit item, part 3)",
+         "id": "Lembar riset gaji (butir Perangkat, bagian 3)"
+        },
+        "desc": {
+         "en": "The Offer Decoder’s “Expectation” mode, by hand; Module 10 reuses it.",
+         "id": "Mode “Ekspektasi” Offer Decoder, dengan tangan; Modul 10 memakainya ulang."
+        },
+        "body": [
+         {
+          "en": "Target · role · placement city · fixed package? (yes / no / unknown)",
+          "id": "Sasaran · peran · kota penempatan · paket tetap? (ya / tidak / tidak tahu)"
+         },
+         {
+          "en": "Source 1–4: name · figure (gross/THP, city) · date checked",
+          "id": "Sumber 1–4: nama · angka (kotor/THP, kota) · tanggal diperiksa"
+         },
+         {
+          "en": "Floor: UMP/UMK of the city · figure · verified on …",
+          "id": "Lantai: UMP/UMK kota · angka · diverifikasi pada …"
+         },
+         {
+          "en": "My range (gross monthly): bottom I would accept … · top … · the sentence, EN and ID · my clarifying question about what is inside",
+          "id": "Rentang saya (kotor bulanan): batas bawah yang saya terima … · batas atas … · kalimatnya, EN dan ID · pertanyaan klarifikasi saya tentang apa yang termasuk"
+         },
+         {
+          "en": "Practical five: start date · placement · contract type · hours · bond — fact, clarifying question, not-until-offer",
+          "id": "Lima praktis: tanggal mulai · penempatan · jenis kontrak · jam kerja · ikatan dinas — fakta, pertanyaan klarifikasi, tidak-sampai-tawaran"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Personal, Sensitive and Inappropriate Questions",
+      "id": "Pertanyaan Pribadi, Sensitif, dan Tidak Pantas"
+     },
+     "overview": {
+      "en": "Indonesian interviews sometimes include questions about marital status, plans to marry, religion, ethnicity, family, pregnancy or health that would be prohibited in some countries. Some are asked as rapport; some reflect real, and sometimes discriminatory, screening concerns. You need a respectful way to handle them that protects you without damaging the interview. This lesson gives the brief legal context, three response tiers you can choose between on the day, the red flags that are about the employer rather than about you, how to answer values questions asked in religious terms, and how to conduct yourself at a meal or an informal “ngobrol” that is still an interview.",
+      "id": "Wawancara di Indonesia terkadang memuat pertanyaan tentang status perkawinan, rencana menikah, agama, suku, keluarga, kehamilan, atau kesehatan yang dilarang di beberapa negara. Sebagian ditanyakan sebagai basa-basi; sebagian mencerminkan kekhawatiran penyaringan yang nyata, dan terkadang diskriminatif. Kamu butuh cara hormat untuk menanganinya yang melindungimu tanpa merusak wawancara. Pelajaran ini memberi konteks hukum singkat, tiga tingkat respons yang bisa kamu pilih pada harinya, tanda bahaya yang tentang pemberi kerja dan bukan tentangmu, cara menjawab pertanyaan nilai yang diajukan dalam istilah agama, dan cara membawa diri di makan siang atau “ngobrol” informal yang tetap wawancara."
+     },
+     "objectives": [
+      {
+       "en": "Recognise the likely hidden concern behind a personal question and answer that concern.",
+       "id": "Mengenali kekhawatiran tersembunyi yang mungkin di balik pertanyaan pribadi dan menjawab kekhawatiran itu."
+      },
+      {
+       "en": "Choose between three response tiers — brief answer and redirect, address the concern without the detail, decline politely.",
+       "id": "Memilih di antara tiga tingkat respons — jawaban singkat dan alihkan, jawab kekhawatiran tanpa detail, tolak dengan sopan."
+      },
+      {
+       "en": "Spot employer red flags — document retention, fees, pressure, unclear identity — and record them.",
+       "id": "Mengenali tanda bahaya pemberi kerja — penahanan dokumen, biaya, tekanan, identitas tidak jelas — dan mencatatnya."
+      },
+      {
+       "en": "Conduct a meal or informal interview as an interview.",
+       "id": "Menjalani wawancara makan atau informal sebagai wawancara."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Protect yourself without losing the room",
+       "id": "Lindungi dirimu tanpa kehilangan ruangan"
+      },
+      "intro": {
+       "en": "Most personal questions are a commitment question in disguise. Answer the commitment; decide how much of the person to share.",
+       "id": "Kebanyakan pertanyaan pribadi adalah pertanyaan komitmen yang menyamar. Jawab komitmennya; putuskan seberapa banyak diri yang dibagikan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The context, briefly",
+         "id": "Konteksnya, singkat"
+        },
+        "points": [
+         {
+          "en": "Indonesian law prohibits employment discrimination on several grounds; enforcement is uneven; the questions still happen.",
+          "id": "Hukum Indonesia melarang diskriminasi ketenagakerjaan atas beberapa dasar; penegakannya tidak merata; pertanyaannya tetap terjadi."
+         },
+         {
+          "en": "The Rope does not give legal advice; serious concerns go to the Disnaker office or a legal aid organisation.",
+          "id": "The Rope tidak memberi nasihat hukum; kekhawatiran serius dibawa ke kantor Disnaker atau lembaga bantuan hukum."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Three tiers",
+         "id": "Tiga tingkat"
+        },
+        "points": [
+         {
+          "en": "Answer briefly and redirect to the concern · address the concern without the detail · decline politely.",
+          "id": "Jawab singkat dan alihkan ke kekhawatiran · jawab kekhawatiran tanpa detail · tolak dengan sopan."
+         },
+         {
+          "en": "Your comfort and the situation choose the tier; all three keep the room.",
+          "id": "Kenyamananmu dan situasi memilih tingkatnya; ketiganya menjaga ruangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Red flags about the employer",
+         "id": "Tanda bahaya tentang pemberi kerja"
+        },
+        "points": [
+         {
+          "en": "Original diploma as a condition · fees for training or uniform · pressure to accept on the spot · unclear identity · a non-business location with no reason.",
+          "id": "Ijazah asli sebagai syarat · biaya pelatihan atau seragam · tekanan menerima di tempat · identitas tidak jelas · lokasi non-bisnis tanpa alasan."
+         },
+         {
+          "en": "Record them on your red-flag list (the Module 1 Kit item).",
+          "id": "Catat di daftar tanda bahayamu (butir Perangkat Modul 1)."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Meals and “ngobrol”",
+         "id": "Makan dan “ngobrol”"
+        },
+        "points": [
+         {
+          "en": "Still an interview: order simply, follow the host, no alcohol, phone away, manners with staff.",
+          "id": "Tetap wawancara: pesan sederhana, ikuti tuan rumah, tanpa alkohol, ponsel disimpan, tata krama dengan staf."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "shield",
+       "img": "../../assets/bg/gauntlet/gate-07-medical.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "The legal context, briefly",
+        "id": "Konteks hukum, singkat"
+       },
+       "body": {
+        "en": "Indonesian law prohibits discrimination in employment on several grounds, and Indonesia has constitutional and international commitments to equal treatment at work <span class=\"ev ev-verify\">Verify: current provisions of the Manpower Law as amended and its implementing regulations; relevant constitutional and ILO commitments</span>. Enforcement is uneven, the line between rapport and screening is often unclear to the interviewer as well, and the questions still happen — about marital status and plans, religion, ethnicity, family, pregnancy and health. The Rope does not give legal advice and this lesson is not a statement of your rights; it is a set of ways to keep the interview on track while deciding for yourself how much to share. Learners with serious concerns — a question that was clearly used to reject, a condition that appears to be unlawful — should consult the local Manpower office (Disnaker) or a legal aid organisation (LBH), and should record what was asked, by whom and when, because a record is what any later conversation needs. Two framings help in the room. Most personal questions are a proxy for a work concern — commitment, availability, mobility, reliability — and answering the concern is usually enough. And an interviewer who asks a rapport question and receives a calm, brief answer moves on; one who presses is telling you something about the employer, which is the subject of the third section.",
+        "id": "Hukum Indonesia melarang diskriminasi dalam ketenagakerjaan atas beberapa dasar, dan Indonesia punya komitmen konstitusional dan internasional untuk perlakuan setara di tempat kerja <span class=\"ev ev-verify\">Verifikasi: ketentuan terkini UU Ketenagakerjaan sebagaimana diubah dan peraturan pelaksananya; komitmen konstitusional dan ILO yang relevan</span>. Penegakannya tidak merata, garis antara basa-basi dan penyaringan sering tidak jelas bagi pewawancara juga, dan pertanyaannya tetap terjadi — tentang status dan rencana perkawinan, agama, suku, keluarga, kehamilan, dan kesehatan. The Rope tidak memberi nasihat hukum dan pelajaran ini bukan pernyataan hak-hakmu; ia seperangkat cara menjaga wawancara tetap di jalur sambil memutuskan sendiri seberapa banyak yang dibagikan. Pelajar dengan kekhawatiran serius — pertanyaan yang jelas dipakai untuk menolak, syarat yang tampak melanggar hukum — sebaiknya berkonsultasi dengan kantor Dinas Ketenagakerjaan (Disnaker) setempat atau lembaga bantuan hukum (LBH), dan mencatat apa yang ditanyakan, oleh siapa, dan kapan, karena catatan adalah yang dibutuhkan pembicaraan mana pun nanti. Dua pembingkaian membantu di ruangan. Kebanyakan pertanyaan pribadi adalah proksi untuk kekhawatiran kerja — komitmen, ketersediaan, mobilitas, keandalan — dan menjawab kekhawatirannya biasanya cukup. Dan pewawancara yang mengajukan pertanyaan basa-basi dan menerima jawaban tenang dan singkat akan lanjut; yang mendesak memberi tahu sesuatu tentang pemberi kerja, yang menjadi pokok bagian ketiga."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Personal question",
+          "id": "Pertanyaan pribadi"
+         },
+         {
+          "en": "Likely hidden concern",
+          "id": "Kekhawatiran tersembunyi yang mungkin"
+         },
+         {
+          "en": "Answer the concern with",
+          "id": "Jawab kekhawatirannya dengan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Sudah menikah? Rencana menikah kapan?”",
+           "id": "“Sudah menikah? Rencana menikah kapan?”"
+          },
+          {
+           "en": "Commitment; mobility; will you leave or relocate",
+           "id": "Komitmen; mobilitas; apakah kamu akan pergi atau pindah"
+          },
+          {
+           "en": "Your placement and commitment sentence (5.1)",
+           "id": "Kalimat penempatan dan komitmenmu (5.1)"
+          }
+         ],
+         [
+          {
+           "en": "“Ada rencana punya anak?”",
+           "id": "“Ada rencana punya anak?”"
+          },
+          {
+           "en": "Availability in the first years",
+           "id": "Ketersediaan di tahun-tahun pertama"
+          },
+          {
+           "en": "Readiness for the programme’s schedule and placement",
+           "id": "Kesiapan untuk jadwal dan penempatan program"
+          }
+         ],
+         [
+          {
+           "en": "“Agamanya apa?” “Asalnya dari mana?”",
+           "id": "“Agamanya apa?” “Asalnya dari mana?”"
+          },
+          {
+           "en": "Often rapport; sometimes fit to a location or team",
+           "id": "Sering basa-basi; terkadang kecocokan dengan lokasi atau tim"
+          },
+          {
+           "en": "Brief, or the concern (working with anyone, anywhere)",
+           "id": "Singkat, atau kekhawatirannya (bekerja dengan siapa pun, di mana pun)"
+          }
+         ],
+         [
+          {
+           "en": "“Orang tua setuju kalau ditempatkan jauh?”",
+           "id": "“Orang tua setuju kalau ditempatkan jauh?”"
+          },
+          {
+           "en": "Will the family pull you back",
+           "id": "Apakah keluarga akan menarikmu kembali"
+          },
+          {
+           "en": "“Sudah saya bicarakan di rumah” — the decision from 5.1",
+           "id": "“Sudah saya bicarakan di rumah” — keputusan dari 5.1"
+          }
+         ],
+         [
+          {
+           "en": "“Ada riwayat penyakit?”",
+           "id": "“Ada riwayat penyakit?”"
+          },
+          {
+           "en": "Fitness for shift or field work; the MCU will check",
+           "id": "Kebugaran untuk kerja sif atau lapangan; MCU akan memeriksa"
+          },
+          {
+           "en": "Readiness for the work’s demands; the medical check will confirm",
+           "id": "Kesiapan untuk tuntutan pekerjaan; pemeriksaan kesehatan akan memastikan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The concern is almost always about work. Answer it; decide separately how much of the person to share.",
+         "id": "Kekhawatirannya hampir selalu tentang pekerjaan. Jawab itu; putuskan terpisah seberapa banyak diri yang dibagikan."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Three response tiers",
+        "id": "Tiga tingkat respons"
+       },
+       "body": {
+        "en": "Choose the tier by your comfort and the situation; all three keep the interview on track, and none of them is wrong. <b>Tier 1 — answer briefly and redirect to the concern:</b> “Belum menikah, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.” The fact in three words, then the commitment the question was really about. This is the tier most graduates use most of the time, because the question was rapport and the redirect ends it. <b>Tier 2 — address the concern without the detail:</b> “Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.” No fact shared; the concern named and answered; the interviewer has what they needed. <b>Tier 3 — decline politely:</b> “Mohon maaf, Pak, saya lebih nyaman tidak membahas hal pribadi itu. Yang bisa saya sampaikan, saya berkomitmen penuh pada program ini.” The decline is soft, in register, and still ends on the commitment. Prepare all three in both languages for the two or three questions you find most likely, so that on the day the choice is which tier, not what to say. Kador’s advice from the interviewer’s side is worth knowing: a good interviewer who hears Tier 2 or 3 recognises a candidate who is composed under an awkward question, which is itself a score <i>(Kador)</i>. The interviewer who presses after Tier 3 has told you something.",
+        "id": "Pilih tingkat berdasarkan kenyamananmu dan situasi; ketiganya menjaga wawancara tetap di jalur, dan tidak ada yang salah. <b>Tingkat 1 — jawab singkat dan alihkan ke kekhawatiran:</b> “Belum menikah, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.” Fakta dalam tiga kata, lalu komitmen yang sebenarnya ditanyakan. Ini tingkat yang paling sering dipakai kebanyakan lulusan, karena pertanyaannya basa-basi dan pengalihan mengakhirinya. <b>Tingkat 2 — jawab kekhawatiran tanpa detail:</b> “Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.” Tidak ada fakta dibagikan; kekhawatiran disebut dan dijawab; pewawancara mendapat yang dibutuhkannya. <b>Tingkat 3 — tolak dengan sopan:</b> “Mohon maaf, Pak, saya lebih nyaman tidak membahas hal pribadi itu. Yang bisa saya sampaikan, saya berkomitmen penuh pada program ini.” Penolakannya lembut, dalam register, dan tetap berakhir pada komitmen. Siapkan ketiganya dalam dua bahasa untuk dua atau tiga pertanyaan yang paling mungkin menurutmu, agar pada harinya pilihannya tingkat mana, bukan apa yang dikatakan. Saran Kador dari sisi pewawancara layak diketahui: pewawancara yang baik yang mendengar Tingkat 2 atau 3 mengenali kandidat yang tenang di bawah pertanyaan canggung, yang itu sendiri sebuah nilai <i>(Kador)</i>. Pewawancara yang mendesak setelah Tingkat 3 sudah memberitahumu sesuatu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Tier",
+          "id": "Tingkat"
+         },
+         {
+          "en": "Shape",
+          "id": "Bentuk"
+         },
+         {
+          "en": "Example",
+          "id": "Contoh"
+         },
+         {
+          "en": "Use when",
+          "id": "Pakai saat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · Brief + redirect</b>",
+           "id": "<b>1 · Singkat + alihkan</b>"
+          },
+          {
+           "en": "The fact in three words, then the concern",
+           "id": "Fakta dalam tiga kata, lalu kekhawatirannya"
+          },
+          {
+           "en": "“Belum menikah, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.”",
+           "id": "“Belum menikah, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.”"
+          },
+          {
+           "en": "The question feels like rapport and the fact costs you nothing",
+           "id": "Pertanyaannya terasa basa-basi dan faktanya tidak merugikanmu"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · The concern, not the detail</b>",
+           "id": "<b>2 · Kekhawatiran, bukan detail</b>"
+          },
+          {
+           "en": "Name the concern; answer it; share no fact",
+           "id": "Sebut kekhawatiran; jawab; tanpa berbagi fakta"
+          },
+          {
+           "en": "“Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.”",
+           "id": "“Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.”"
+          },
+          {
+           "en": "You would rather not share, and the concern is obvious",
+           "id": "Kamu lebih suka tidak berbagi, dan kekhawatirannya jelas"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · Decline politely</b>",
+           "id": "<b>3 · Tolak dengan sopan</b>"
+          },
+          {
+           "en": "A soft decline in register, ending on commitment",
+           "id": "Penolakan lembut dalam register, diakhiri komitmen"
+          },
+          {
+           "en": "“Mohon maaf, Pak, saya lebih nyaman tidak membahas hal pribadi itu. Yang bisa saya sampaikan, saya berkomitmen penuh pada program ini.”",
+           "id": "“Mohon maaf, Pak, saya lebih nyaman tidak membahas hal pribadi itu. Yang bisa saya sampaikan, saya berkomitmen penuh pada program ini.”"
+          },
+          {
+           "en": "The question is intrusive or repeated",
+           "id": "Pertanyaannya mengganggu atau diulang"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Prepare all three for your two or three most likely questions; the choice on the day is which tier.",
+         "id": "Siapkan ketiganya untuk dua atau tiga pertanyaanmu yang paling mungkin; pilihan pada harinya adalah tingkat mana."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Red flags about the employer",
+        "id": "Tanda bahaya tentang pemberi kerja"
+       },
+       "body": {
+        "en": "Some questions and conditions are not about you at all; they are information about the employer, and they belong on the red-flag list you started as a Kit item in Module 1. A request to hand over your original diploma (ijazah) as a condition of employment <span class=\"ev ev-verify\">Verify: legal status of ijazah retention as an employment condition</span>. A demand for payment before starting — for training, a uniform, an ID card, a “deposit”. Pressure to accept on the spot, or a deadline of hours. An employer whose identity is unclear — no verifiable office, a recruiter using a personal email, a company name that does not match the payslip promised. An interview in a non-business location with no reason given. None of these is a personal question, but they arrive in the same part of the process — the HR stage, where the practical terms are discussed — and a candidate focused on answering well can miss them. The rule is not to refuse on the spot but to note, ask and check: “Boleh saya tahu dasar ketentuan penyerahan ijazah aslinya?”; “Apakah biaya ini tercantum di penawaran tertulis?”; and then verify before signing anything (Module 10). Meal interviews and informal conversations with an SME owner are normal and are not red flags; the red flags are about money, documents and pressure. If one appears, the correct next step is usually the same as for a serious personal question: record it, and consult before committing.",
+        "id": "Beberapa pertanyaan dan syarat sama sekali bukan tentangmu; ia informasi tentang pemberi kerja, dan termasuk daftar tanda bahaya yang kamu mulai sebagai butir Perangkat di Modul 1. Permintaan menyerahkan ijazah asli sebagai syarat kerja <span class=\"ev ev-verify\">Verifikasi: status hukum penahanan ijazah sebagai syarat kerja</span>. Tuntutan pembayaran sebelum mulai — untuk pelatihan, seragam, kartu identitas, “deposit”. Tekanan menerima di tempat, atau tenggat berjam-jam. Pemberi kerja yang identitasnya tidak jelas — tanpa kantor yang bisa diverifikasi, rekruter memakai email pribadi, nama perusahaan yang tidak cocok dengan slip gaji yang dijanjikan. Wawancara di lokasi non-bisnis tanpa alasan. Tak satu pun ini pertanyaan pribadi, tetapi datang di bagian proses yang sama — tahap HR, tempat syarat praktis dibahas — dan kandidat yang fokus menjawab dengan baik bisa melewatkannya. Aturannya bukan menolak di tempat tetapi mencatat, bertanya, dan memeriksa: “Boleh saya tahu dasar ketentuan penyerahan ijazah aslinya?”; “Apakah biaya ini tercantum di penawaran tertulis?”; lalu verifikasi sebelum menandatangani apa pun (Modul 10). Wawancara makan dan percakapan informal dengan pemilik UKM normal dan bukan tanda bahaya; tanda bahayanya soal uang, dokumen, dan tekanan. Jika satu muncul, langkah berikutnya yang benar biasanya sama dengan pertanyaan pribadi yang serius: catat, dan konsultasi sebelum berkomitmen."
+       },
+       "bullets": [
+        {
+         "en": "<b>Original diploma as a condition</b> — ask the basis; verify before handing over anything <span class=\"ev ev-verify\">Verify</span>.",
+         "id": "<b>Ijazah asli sebagai syarat</b> — tanyakan dasarnya; verifikasi sebelum menyerahkan apa pun <span class=\"ev ev-verify\">Verifikasi</span>."
+        },
+        {
+         "en": "<b>Fees before starting</b> — training, uniform, ID, deposit: ask whether it is in the written offer; usually it is not, and that is the answer.",
+         "id": "<b>Biaya sebelum mulai</b> — pelatihan, seragam, kartu, deposit: tanyakan apakah tercantum di penawaran tertulis; biasanya tidak, dan itulah jawabannya."
+        },
+        {
+         "en": "<b>Pressure to accept on the spot</b> — “kami butuh jawaban sekarang” is a reason to ask for the offer in writing.",
+         "id": "<b>Tekanan menerima di tempat</b> — “kami butuh jawaban sekarang” adalah alasan meminta tawaran tertulis."
+        },
+        {
+         "en": "<b>Unclear identity or location</b> — verify the office, the domain, the name on the contract.",
+         "id": "<b>Identitas atau lokasi tidak jelas</b> — verifikasi kantor, domain, nama di kontrak."
+        },
+        {
+         "en": "<b>Not red flags</b> — a meal, an informal “ngobrol”, an SME owner without an HR department.",
+         "id": "<b>Bukan tanda bahaya</b> — makan, “ngobrol” informal, pemilik UKM tanpa departemen HR."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Values questions in religious terms",
+        "id": "Pertanyaan nilai dalam istilah agama"
+       },
+       "body": {
+        "en": "Some organisations — and some interviewers within organisations that do not — ask about values in religious terms: what your faith teaches about honesty, how you would handle a temptation, what prayer or observance means for your work. In values-based processes this is often sincere and is not the same as screening by religion. Answer sincerely, briefly, and in terms of behaviour at work — honesty, responsibility, care with money and with people — because behaviour is what the scoresheet measures (Lesson 1.2) and because a behavioural answer is true in any register. Nadia’s integrity story, the till overage, works asked either way: the temptation, what she did, what it cost, what happened. What to avoid is a sermon in return — three sentences on the importance of faith with no situation — and any answer that claims a practice you do not keep. If the question moves from values to affiliation (“agamanya apa?”), it becomes a personal question and the three tiers apply.",
+        "id": "Beberapa organisasi — dan beberapa pewawancara di organisasi yang tidak begitu — menanyakan nilai dalam istilah agama: apa yang diajarkan imanmu tentang kejujuran, bagaimana kamu menangani godaan, apa arti ibadah bagi pekerjaanmu. Dalam proses berbasis nilai ini sering tulus dan tidak sama dengan penyaringan berdasarkan agama. Jawab dengan tulus, singkat, dan dalam istilah perilaku di tempat kerja — kejujuran, tanggung jawab, kehati-hatian dengan uang dan orang — karena perilaku adalah yang diukur lembar penilaian (Pelajaran 1.2) dan karena jawaban perilaku benar dalam register apa pun. Cerita integritas Nadia, kas lebih, berhasil ditanyakan dengan cara mana pun: godaannya, apa yang ia lakukan, apa biayanya, apa yang terjadi. Yang dihindari adalah khotbah balasan — tiga kalimat tentang pentingnya iman tanpa situasi — dan jawaban apa pun yang mengklaim praktik yang tidak kamu jalankan. Jika pertanyaan bergerak dari nilai ke afiliasi (“agamanya apa?”), ia menjadi pertanyaan pribadi dan tiga tingkat berlaku."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Meal and informal interviews",
+        "id": "Wawancara makan dan informal"
+       },
+       "body": {
+        "en": "Nadia’s Rumah Rempah invitation — “Bu Ratna mau ngobrol santai sambil makan siang, nggak usah bawa apa-apa” — is still an interview, and the owner is scoring exactly what an SME needs to know: reliability, manners with staff, how you would represent the business to a customer. Order simply, and after the host; follow the host’s lead on pace and topics; no alcohol even if offered; phone away and silent; do not talk only about personal topics — bring the one-page version of your story and one or two questions about the business (Lesson 3.2’s block 5 and 6). Treat the waiter as you would treat the owner’s staff, because that is what the owner is watching. Bring the bilingual register from Lesson 4.2: “Bu Ratna” throughout, relaxed formal, no “gue”. And at the end, the same close as any interview — thanks, one line of interest, and a question about what happens next — because an informal process still has a next step, and asking for it is how you learn whether there is one.",
+        "id": "Undangan Rumah Rempah Nadia — “Bu Ratna mau ngobrol santai sambil makan siang, nggak usah bawa apa-apa” — tetap wawancara, dan pemilik menilai persis yang perlu diketahui UKM: keandalan, tata krama dengan staf, bagaimana kamu mewakili usaha di depan pelanggan. Pesan sederhana, dan setelah tuan rumah; ikuti tuan rumah soal tempo dan topik; tanpa alkohol meski ditawari; ponsel disimpan dan senyap; jangan bicara hanya tentang topik pribadi — bawa versi satu halaman ceritamu dan satu atau dua pertanyaan tentang usahanya (blok 5 dan 6 Pelajaran 3.2). Perlakukan pelayan seperti kamu memperlakukan staf pemilik, karena itulah yang diperhatikan pemilik. Bawa register dwibahasa dari Pelajaran 4.2: “Bu Ratna” sepanjang waktu, formal santai, tanpa “gue”. Dan di akhir, penutup yang sama dengan wawancara mana pun — terima kasih, satu kalimat minat, dan pertanyaan tentang apa yang terjadi berikutnya — karena proses informal tetap punya langkah berikutnya, dan menanyakannya adalah cara kamu tahu apakah ada."
+       },
+       "bullets": [
+        {
+         "en": "<b>Order</b> simply, after the host; no alcohol; phone away.",
+         "id": "<b>Pesan</b> sederhana, setelah tuan rumah; tanpa alkohol; ponsel disimpan."
+        },
+        {
+         "en": "<b>Bring</b> your one-page story and two questions about the business.",
+         "id": "<b>Bawa</b> cerita satu halamanmu dan dua pertanyaan tentang usahanya."
+        },
+        {
+         "en": "<b>Watch</b> your manners with staff — the owner is.",
+         "id": "<b>Jaga</b> tata kramamu dengan staf — pemilik memperhatikan."
+        },
+        {
+         "en": "<b>Close</b> as in any interview: thanks, interest, next step.",
+         "id": "<b>Tutup</b> seperti wawancara mana pun: terima kasih, minat, langkah berikutnya."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 1: The question and the concern",
+       "id": "Peraga 1: Pertanyaan dan kekhawatiran"
+      },
+      "title": {
+       "en": "What is asked, and what is being checked",
+       "id": "Apa yang ditanyakan, dan apa yang diperiksa"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "What is asked",
+         "id": "Apa yang ditanyakan"
+        },
+        "items": [
+         {
+          "en": "“Sudah menikah? Rencana menikah kapan?”",
+          "id": "“Sudah menikah? Rencana menikah kapan?”"
+         },
+         {
+          "en": "“Orang tua setuju kalau ditempatkan jauh?”",
+          "id": "“Orang tua setuju kalau ditempatkan jauh?”"
+         },
+         {
+          "en": "“Ada rencana punya anak?”",
+          "id": "“Ada rencana punya anak?”"
+         },
+         {
+          "en": "“Ada riwayat penyakit?”",
+          "id": "“Ada riwayat penyakit?”"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What is being checked",
+         "id": "Apa yang diperiksa"
+        },
+        "items": [
+         {
+          "en": "Commitment and mobility — will you leave or relocate?",
+          "id": "Komitmen dan mobilitas — apakah kamu akan pergi atau pindah?"
+         },
+         {
+          "en": "Will the family pull you back?",
+          "id": "Apakah keluarga akan menarikmu kembali?"
+         },
+         {
+          "en": "Availability in the first years",
+          "id": "Ketersediaan di tahun-tahun pertama"
+         },
+         {
+          "en": "Fitness for the work — the MCU will check anyway",
+          "id": "Kebugaran untuk pekerjaan — MCU toh akan memeriksa"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Answer the right-hand column. Decide separately, by tier, how much of the left-hand column to share.",
+       "id": "Jawab kolom kanan. Putuskan terpisah, per tingkat, seberapa banyak kolom kiri yang dibagikan."
+      },
+      "longdesc": {
+       "en": "A two-column pairing of personal questions with the work concern each usually stands for: marital status and plans with commitment and mobility; parental agreement with whether the family will pull you back; plans for children with availability in the first years; health history with fitness for the work that the medical check will confirm.",
+       "id": "Pasangan dua kolom antara pertanyaan pribadi dan kekhawatiran kerja yang biasanya diwakili masing-masing: status dan rencana perkawinan dengan komitmen dan mobilitas; persetujuan orang tua dengan apakah keluarga akan menarikmu kembali; rencana punya anak dengan ketersediaan di tahun-tahun pertama; riwayat kesehatan dengan kebugaran untuk pekerjaan yang akan dipastikan pemeriksaan kesehatan."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Awkward → balanced",
+        "id": "Canggung → seimbang"
+       },
+       "q": {
+        "en": "“Kamu sudah punya pacar? Rencana menikah kapan?” — asked warmly, in the tenth minute of a screen.",
+        "id": "“Kamu sudah punya pacar? Rencana menikah kapan?” — ditanyakan hangat, di menit kesepuluh seleksi awal."
+       },
+       "weak": {
+        "en": "A long explanation of the relationship, the two families’ views, and a possible wedding timing in two years, ending with a laugh and “tapi belum pasti, Bu.”",
+        "id": "Penjelasan panjang tentang hubungan, pandangan dua keluarga, dan kemungkinan waktu pernikahan dalam dua tahun, diakhiri tawa dan “tapi belum pasti, Bu.”"
+       },
+       "strong": {
+        "en": "Tier 1: “Belum, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.” — or Tier 2: “Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.”",
+        "id": "Tingkat 1: “Belum, Bu. Untuk beberapa tahun ke depan fokus saya di pengembangan karier, dan penempatan di luar kota bukan masalah bagi saya.” — atau Tingkat 2: “Kalau pertanyaannya soal komitmen dan ketersediaan, saya bisa pastikan saya siap dengan jadwal dan penempatan program ini.”"
+       },
+       "why": {
+        "en": "The awkward answer shares more than was asked, hands HR a timeline to worry about, and ends on uncertainty — the opposite of the commitment the question was checking. Both balanced answers are under fifteen seconds, answer the hidden concern directly, and let the candidate choose how much of the fact to share. The interviewer moves on either way.",
+        "id": "Jawaban canggung berbagi lebih dari yang ditanyakan, menyerahkan kepada HR lini masa untuk dikhawatirkan, dan berakhir pada ketidakpastian — kebalikan dari komitmen yang diperiksa pertanyaan. Kedua jawaban seimbang di bawah lima belas detik, menjawab kekhawatiran tersembunyi langsung, dan membiarkan kandidat memilih seberapa banyak fakta yang dibagikan. Pewawancara lanjut dengan cara mana pun."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: lunch at the Tembalang outlet",
+       "id": "Sorotan: makan siang di outlet Tembalang"
+      },
+      "body": [
+       {
+        "en": "Bu Ratna orders for the table before Nadia can, asks about her family in the first five minutes, and asks — between the rice and the sambal — whether Nadia’s parents would mind her working weekends at an outlet an hour from home. Nadia answers the concern: weekends are the business’s busiest days, she worked Saturday rushes at Kopi Tepian for a year, and her parents know the hours a food business keeps. She thanks the waiter by name when he brings the tea, because she read it on his badge. Bu Ratna notices; Wulan tells her later.",
+        "id": "Bu Ratna memesan untuk meja sebelum Nadia sempat, bertanya tentang keluarganya di lima menit pertama, dan bertanya — di antara nasi dan sambal — apakah orang tua Nadia keberatan ia bekerja akhir pekan di outlet sejam dari rumah. Nadia menjawab kekhawatirannya: akhir pekan adalah hari tersibuk usaha, ia bekerja jam sibuk Sabtu di Kopi Tepian selama setahun, dan orang tuanya tahu jam kerja usaha makanan. Ia berterima kasih kepada pelayan dengan menyebut namanya saat ia membawa teh, karena membacanya di lencana. Bu Ratna memperhatikan; Wulan memberitahunya kemudian."
+       },
+       {
+        "en": "At the end Bu Ratna says the trainee would start on a three-month PKWT and mentions, lightly, that some outlets keep the trainee’s ijazah “supaya tidak kabur”. Nadia does not refuse and does not agree. She asks: “Boleh saya tahu dasar ketentuannya, Bu, dan apakah itu tertulis di kontrak?” — and writes it on her red-flag list that evening, to check before any signature. Two questions about the business, thanks, one line of interest, and “langkah berikutnya bagaimana, Bu?” close the lunch. It was an interview; she treated it as one.",
+        "id": "Di akhir Bu Ratna berkata trainee akan mulai dengan PKWT tiga bulan dan menyebut, ringan, bahwa beberapa outlet menahan ijazah trainee “supaya tidak kabur”. Nadia tidak menolak dan tidak setuju. Ia bertanya: “Boleh saya tahu dasar ketentuannya, Bu, dan apakah itu tertulis di kontrak?” — dan menulisnya di daftar tanda bahayanya malam itu, untuk diperiksa sebelum tanda tangan apa pun. Dua pertanyaan tentang usaha, terima kasih, satu kalimat minat, dan “langkah berikutnya bagaimana, Bu?” menutup makan siang. Itu wawancara; ia memperlakukannya sebagai wawancara."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Your two or three likely questions, three tiers each",
+        "id": "Latihan 1 · Dua atau tiga pertanyaanmu yang mungkin, tiga tingkat masing-masing"
+       },
+       "body": {
+        "en": "Write the two or three personal questions you think most likely for your top target and your situation. For each, name the likely hidden concern, then write all three tiers in both languages — brief and redirect, the concern without the detail, the polite decline — each ending on commitment. Mark the tier you expect to use.",
+        "id": "Tulis dua atau tiga pertanyaan pribadi yang menurutmu paling mungkin untuk sasaran teratasmu dan situasimu. Untuk masing-masing, sebutkan kekhawatiran tersembunyi yang mungkin, lalu tulis ketiga tingkat dalam dua bahasa — singkat dan alihkan, kekhawatiran tanpa detail, penolakan sopan — masing-masing diakhiri komitmen. Tandai tingkat yang kamu perkirakan akan dipakai."
+       },
+       "debrief": {
+        "en": "Every tier should be under fifteen seconds and end on the concern, not on the fact. If your Tier 1 shares a timeline (“mungkin dua tahun lagi”), it has become the awkward answer — cut to the fact and the commitment. If your Tier 3 has no “mohon maaf” and no commitment sentence, it will read as a refusal rather than a decline; add both. The tier you expect to use is not a promise; on the day, the situation chooses.",
+        "id": "Setiap tingkat harus di bawah lima belas detik dan berakhir pada kekhawatiran, bukan fakta. Jika Tingkat 1-mu berbagi lini masa (“mungkin dua tahun lagi”), ia sudah menjadi jawaban canggung — pangkas ke fakta dan komitmen. Jika Tingkat 3-mu tidak punya “mohon maaf” dan tanpa kalimat komitmen, ia akan terbaca sebagai penolakan kasar alih-alih sopan; tambahkan keduanya. Tingkat yang kamu perkirakan bukan janji; pada harinya, situasi yang memilih."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Sensitive-question mode (opt-in)",
+        "id": "Latihan 2 · Mode pertanyaan sensitif (opsional)"
+       },
+       "body": {
+        "en": "The blueprint specifies an opt-in simulator mode with a content notice: four personal questions, the learner choosing a tier each time, no scoring on the personal content, feedback only on composure and whether the likely hidden concern was addressed. Until that mode exists, run the tryit below — the commitment questions the personal ones stand for — and choose a tier aloud before each answer, or ask a friend to read your Drill 1 questions to you and score only composure and concern-addressed.",
+        "id": "Blueprint menentukan mode simulator opsional dengan pemberitahuan konten: empat pertanyaan pribadi, pelajar memilih tingkat tiap kali, tanpa penilaian atas konten pribadi, umpan balik hanya tentang ketenangan dan apakah kekhawatiran tersembunyi yang mungkin dijawab. Sampai mode itu ada, jalankan tryit di bawah — pertanyaan komitmen yang diwakili pertanyaan pribadi — dan pilih tingkat keras sebelum tiap jawaban, atau minta teman membacakan pertanyaan Latihan 1-mu dan menilai hanya ketenangan dan kekhawatiran-terjawab."
+       },
+       "debrief": {
+        "en": "Two scores only, by design: composure (no laugh, no apology spiral, no over-sharing) and whether the concern was addressed (commitment, availability, mobility named). The personal content is not scored, and you should not score yourself on it either — the tier is your choice. If you found yourself over-sharing under a warm tone, that is the friendliness trap from Lesson 5.1 in its most personal form.",
+        "id": "Hanya dua nilai, sengaja: ketenangan (tanpa tawa, tanpa spiral permintaan maaf, tanpa berbagi berlebih) dan apakah kekhawatiran dijawab (komitmen, ketersediaan, mobilitas disebut). Konten pribadi tidak dinilai, dan kamu juga tidak perlu menilai dirimu atasnya — tingkat adalah pilihanmu. Jika kamu mendapati diri berbagi berlebih di bawah nada hangat, itulah jebakan keramahan dari Pelajaran 5.1 dalam bentuk paling pribadi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The red-flag list, updated",
+        "id": "Latihan 3 · Daftar tanda bahaya, diperbarui"
+       },
+       "body": {
+        "en": "Open the red-flag list from Module 1 and add the employer red flags from this lesson with the question you would ask for each and the check you would run before signing. Then add the two non-flags — meals and informal conversations — so you do not mistake normal for dangerous. Note the Disnaker office and a legal aid organisation for your city, for the serious cases.",
+        "id": "Buka daftar tanda bahaya dari Modul 1 dan tambahkan tanda bahaya pemberi kerja dari pelajaran ini dengan pertanyaan yang akan kamu ajukan untuk masing-masing dan pemeriksaan yang akan kamu jalankan sebelum menandatangani. Lalu tambahkan dua non-tanda — makan dan percakapan informal — agar kamu tidak salah mengira normal sebagai berbahaya. Catat kantor Disnaker dan lembaga bantuan hukum untuk kotamu, untuk kasus serius."
+       },
+       "debrief": {
+        "en": "The list is a Kit item because it is used at the moment you are least able to think — an offer on the table, a deadline of hours, a warm interviewer. Each red flag needs its question written in advance (“apakah itu tertulis di penawaran?”) for the same reason the eligibility sentences did. If the ijazah item is on your list without a “verify” mark, add one; its legal status is something to confirm, not assume.",
+        "id": "Daftar ini butir Perangkat karena dipakai pada saat kamu paling tidak mampu berpikir — tawaran di meja, tenggat berjam-jam, pewawancara yang hangat. Setiap tanda bahaya butuh pertanyaannya ditulis lebih dulu (“apakah itu tertulis di penawaran?”) karena alasan yang sama dengan kalimat kelayakan. Jika butir ijazah ada di daftarmu tanpa tanda “verifikasi”, tambahkan; status hukumnya adalah sesuatu yang dikonfirmasi, bukan diasumsikan."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "“No, I think you covered everything”",
-         "id": "“Tidak, sepertinya semua sudah dibahas”"
+         "en": "Answering the fact instead of the concern",
+         "id": "Menjawab fakta alih-alih kekhawatiran"
         },
         "fix": {
-         "en": "Always have two questions ready that show you listened. Silence at the end erases a good interview.",
-         "id": "Selalu siapkan dua pertanyaan yang menunjukkan kamu menyimak. Diam di akhir menghapus wawancara yang baik."
+         "en": "Name the commitment; decide separately how much of the fact to share.",
+         "id": "Sebut komitmennya; putuskan terpisah seberapa banyak fakta yang dibagikan."
         }
        },
        {
         "h": {
-         "en": "A thank-you email that says nothing",
-         "id": "Email terima kasih yang tak mengatakan apa-apa"
+         "en": "Over-sharing under a warm tone",
+         "id": "Berbagi berlebih di bawah nada hangat"
         },
         "fix": {
-         "en": "Reference one specific moment and add one useful thing — a link, a clarification, a thought you had afterwards.",
-         "id": "Rujuk satu momen spesifik dan tambahkan satu hal berguna — tautan, klarifikasi, pemikiran yang muncul setelahnya."
+         "en": "Fifteen seconds, any tier, ending on commitment.",
+         "id": "Lima belas detik, tingkat mana pun, diakhiri komitmen."
         }
        },
        {
         "h": {
-         "en": "Following up before the date they gave",
-         "id": "Menindaklanjuti sebelum tanggal yang mereka berikan"
+         "en": "A refusal instead of a decline",
+         "id": "Penolakan kasar alih-alih sopan"
         },
         "fix": {
-         "en": "Ask for the timeline in the room; follow up one working day after it passes.",
-         "id": "Tanyakan garis waktu di ruangan; tindak lanjuti satu hari kerja setelah lewat."
+         "en": "“Mohon maaf …” plus the commitment sentence; the room is kept.",
+         "id": "“Mohon maaf …” plus kalimat komitmen; ruangan terjaga."
+        }
+       },
+       {
+        "h": {
+         "en": "Handing over a document or a fee on the spot",
+         "id": "Menyerahkan dokumen atau biaya di tempat"
+        },
+        "fix": {
+         "en": "Ask the basis and whether it is in writing; verify before signing.",
+         "id": "Tanyakan dasarnya dan apakah tertulis; verifikasi sebelum menandatangani."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating the lunch as lunch",
+         "id": "Memperlakukan makan siang sebagai makan siang"
+        },
+        "fix": {
+         "en": "It is an interview: simple order, manners with staff, a close with a next step.",
+         "id": "Itu wawancara: pesanan sederhana, tata krama dengan staf, penutup dengan langkah berikutnya."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Hidden concern",
+        "id": "Kekhawatiran tersembunyi"
+       },
+       "def": {
+        "en": "The work question a personal question usually stands for — commitment, availability, mobility, reliability.",
+        "id": "Pertanyaan kerja yang biasanya diwakili pertanyaan pribadi — komitmen, ketersediaan, mobilitas, keandalan."
+       }
+      },
+      {
+       "term": {
+        "en": "Response tier",
+        "id": "Tingkat respons"
+       },
+       "def": {
+        "en": "One of three ways to handle a personal question — brief and redirect, the concern without the detail, decline politely — chosen by comfort and situation.",
+        "id": "Satu dari tiga cara menangani pertanyaan pribadi — singkat dan alihkan, kekhawatiran tanpa detail, tolak dengan sopan — dipilih berdasarkan kenyamanan dan situasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Employer red flag",
+        "id": "Tanda bahaya pemberi kerja"
+       },
+       "def": {
+        "en": "A condition about money, documents or pressure that is information about the employer — recorded, questioned and verified before any signature.",
+        "id": "Syarat soal uang, dokumen, atau tekanan yang merupakan informasi tentang pemberi kerja — dicatat, ditanyakan, dan diverifikasi sebelum tanda tangan apa pun."
+       }
+      },
+      {
+       "term": {
+        "en": "Meal interview",
+        "id": "Wawancara makan"
+       },
+       "def": {
+        "en": "An informal “ngobrol” over food that is still an interview — reliability, manners with staff and representation are being scored.",
+        "id": "“Ngobrol” informal sambil makan yang tetap wawancara — keandalan, tata krama dengan staf, dan representasi sedang dinilai."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "“Orang tua setuju kalau kamu ditempatkan jauh?” The hidden concern is…",
+        "id": "“Orang tua setuju kalau kamu ditempatkan jauh?” Kekhawatiran tersembunyinya adalah…"
+       },
+       "options": [
+        {
+         "en": "Your parents’ opinions",
+         "id": "Pendapat orang tuamu"
+        },
+        {
+         "en": "Whether the family will pull you back from a placement — answered with the decision you made at home",
+         "id": "Apakah keluarga akan menarikmu kembali dari penempatan — dijawab dengan keputusan yang kamu buat di rumah"
+        },
+        {
+         "en": "Your hometown",
+         "id": "Kampung halamanmu"
+        },
+        {
+         "en": "Nothing — it is small talk",
+         "id": "Tidak ada — itu basa-basi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Most personal questions are commitment questions; answer the commitment.",
+        "id": "Kebanyakan pertanyaan pribadi adalah pertanyaan komitmen; jawab komitmennya."
+       }
+      },
+      {
+       "q": {
+        "en": "An employer says you must hand over your original diploma before starting and pay for the uniform. You…",
+        "id": "Pemberi kerja berkata kamu harus menyerahkan ijazah asli sebelum mulai dan membayar seragam. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Agree — it is normal",
+         "id": "Setuju — itu normal"
+        },
+        {
+         "en": "Refuse angrily and leave",
+         "id": "Menolak marah dan pergi"
+        },
+        {
+         "en": "Ask the basis and whether it is in the written offer, record it on your red-flag list, and verify before signing anything",
+         "id": "Tanyakan dasarnya dan apakah tercantum di penawaran tertulis, catat di daftar tanda bahayamu, dan verifikasi sebelum menandatangani apa pun"
+        },
+        {
+         "en": "Pay but keep the diploma",
+         "id": "Membayar tetapi menyimpan ijazah"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Money, documents and pressure are the employer red flags; note, ask and check — and consult if serious.",
+        "id": "Uang, dokumen, dan tekanan adalah tanda bahaya pemberi kerja; catat, tanya, dan periksa — dan konsultasi jika serius."
+       }
+      },
+      {
+       "q": {
+        "en": "At a lunch interview with an SME owner, the most important thing being scored is…",
+        "id": "Di wawancara makan siang dengan pemilik UKM, hal terpenting yang dinilai adalah…"
+       },
+       "options": [
+        {
+         "en": "What you order",
+         "id": "Apa yang kamu pesan"
+        },
+        {
+         "en": "Reliability, manners with staff, and how you would represent the business",
+         "id": "Keandalan, tata krama dengan staf, dan bagaimana kamu mewakili usaha"
+        },
+        {
+         "en": "Your family background",
+         "id": "Latar belakang keluargamu"
+        },
+        {
+         "en": "Whether you finish the meal",
+         "id": "Apakah kamu menghabiskan makanan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It is still an interview; the owner is watching what a customer would see.",
+        "id": "Ia tetap wawancara; pemilik memperhatikan yang akan dilihat pelanggan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "sit_far_placement",
+      "set": [
+       "sit_far_placement",
+       "mot_leave_first_year",
+       "elig_placement"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "returnTo": 2,
+      "label": {
+       "en": "The commitment questions behind the personal ones",
+       "id": "Pertanyaan komitmen di balik yang pribadi"
+      },
+      "desc": {
+       "en": "Three questions with the HR persona that ask directly what personal questions ask indirectly — a far placement with a regional language, what would make you leave in year one, willingness to be placed anywhere. Say a tier aloud before each answer and answer the concern in under fifteen seconds. The opt-in sensitive-question mode with a content notice is specified in the blueprint and not yet built; this set is its stand-in.",
+       "id": "Tiga pertanyaan dengan persona HR yang menanyakan langsung apa yang ditanyakan pertanyaan pribadi secara tidak langsung — penempatan jauh dengan bahasa daerah, apa yang membuatmu pergi di tahun pertama, kesediaan ditempatkan di mana saja. Ucapkan tingkat keras sebelum tiap jawaban dan jawab kekhawatirannya di bawah lima belas detik. Mode pertanyaan sensitif opsional dengan pemberitahuan konten ditentukan di blueprint dan belum dibangun; set ini penggantinya."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Answer the concern; decide by tier how much of the fact to share.",
+       "id": "Jawab kekhawatirannya; putuskan per tingkat seberapa banyak fakta yang dibagikan."
+      },
+      {
+       "en": "Money, documents and pressure are about the employer — record, ask, verify.",
+       "id": "Uang, dokumen, dan tekanan adalah tentang pemberi kerja — catat, tanya, verifikasi."
+      },
+      {
+       "en": "A lunch is an interview; the owner is watching what a customer would see.",
+       "id": "Makan siang adalah wawancara; pemilik memperhatikan yang akan dilihat pelanggan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the verify points and the red-flag list",
+       "id": "Sumber, titik verifikasi, dan daftar tanda bahaya"
+      },
+      "lead": {
+       "en": "One source, three verify points, and the Module 1 Kit item this lesson extends.",
+       "id": "Satu sumber, tiga titik verifikasi, dan butir Perangkat Modul 1 yang diperluas pelajaran ini."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 5.4",
+         "id": "Daftar bacaan · Pelajaran 5.4"
+        },
+        "desc": {
+         "en": "Composure under an awkward question, from the interviewer’s side; and what must be verified before it is taught as fact.",
+         "id": "Ketenangan di bawah pertanyaan canggung, dari sisi pewawancara; dan apa yang harus diverifikasi sebelum diajarkan sebagai fakta."
+        },
+        "body": [
+         {
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — a composed answer to an awkward question is itself scored.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — jawaban tenang untuk pertanyaan canggung itu sendiri dinilai."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Current anti-discrimination provisions in Indonesian employment law and implementing regulations; constitutional and ILO commitments — this lesson gives no legal advice.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Ketentuan anti-diskriminasi terkini dalam hukum ketenagakerjaan Indonesia dan peraturan pelaksana; komitmen konstitusional dan ILO — pelajaran ini tidak memberi nasihat hukum."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> The legal status of retaining an employee’s original diploma as an employment condition.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Status hukum penahanan ijazah asli karyawan sebagai syarat kerja."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The three tiers and the hidden-concern mapping are The Rope’s own; the opt-in simulator mode is specified, not built.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tiga tingkat dan pemetaan kekhawatiran tersembunyi milik The Rope sendiri; mode simulator opsional ditentukan, belum dibangun."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Red-flag list (Module 1 Kit item, extended)",
+         "id": "Daftar tanda bahaya (butir Perangkat Modul 1, diperluas)"
+        },
+        "desc": {
+         "en": "Personal-question tiers and employer red flags, with the question and the check for each.",
+         "id": "Tingkat pertanyaan pribadi dan tanda bahaya pemberi kerja, dengan pertanyaan dan pemeriksaan untuk masing-masing."
+        },
+        "body": [
+         {
+          "en": "My likely personal questions (2–3) · hidden concern · Tier 1 / 2 / 3 in EN and ID · expected tier",
+          "id": "Pertanyaan pribadi saya yang mungkin (2–3) · kekhawatiran tersembunyi · Tingkat 1 / 2 / 3 dalam EN dan ID · tingkat yang diperkirakan"
+         },
+         {
+          "en": "Employer red flags: ijazah retention (verify) · fees before starting · pressure to accept · unclear identity · odd location — the question I ask · the check before signing",
+          "id": "Tanda bahaya pemberi kerja: penahanan ijazah (verifikasi) · biaya sebelum mulai · tekanan menerima · identitas tidak jelas · lokasi aneh — pertanyaan yang saya ajukan · pemeriksaan sebelum menandatangani"
+         },
+         {
+          "en": "Not red flags: meals, informal “ngobrol”, an SME without HR",
+          "id": "Bukan tanda bahaya: makan, “ngobrol” informal, UKM tanpa HR"
+         },
+         {
+          "en": "For serious cases: the Disnaker office and a legal aid organisation for my city · what I record (question, who, when)",
+          "id": "Untuk kasus serius: kantor Disnaker dan lembaga bantuan hukum untuk kota saya · yang saya catat (pertanyaan, siapa, kapan)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — The Bank Sinar Nusantara HR Round",
+      "id": "Tugas Kasus — Ronde HR Bank Sinar Nusantara"
+     },
+     "overview": {
+      "en": "Before Nadia learned Module 5 she took a first fifteen-minute HR phone screen for a different programme, and it did not go well: she hesitated on placement, gave “terserah” on salary, over-explained her three-month internship and never asked her question. The transcript is the case file. Diagnose each weak answer against HR’s checklist, rewrite them, build her salary range from the fictional survey data provided, and write the follow-up email she should have sent. Then submit your own HR answer set, difficult-case answer and salary range — the fifth Interview Kit item.",
+      "id": "Sebelum Nadia mempelajari Modul 5 ia menjalani seleksi telepon HR lima belas menit pertama untuk program berbeda, dan hasilnya tidak baik: ia ragu soal penempatan, menjawab “terserah” soal gaji, terlalu menjelaskan magang tiga bulannya, dan tak pernah mengajukan pertanyaannya. Transkripnya adalah berkas kasus. Diagnosis tiap jawaban lemah terhadap daftar periksa HR, tulis ulang, bangun rentang gajinya dari data survei fiktif yang disediakan, dan tulis email tindak lanjut yang seharusnya ia kirim. Lalu kumpulkan set jawaban HR, jawaban kasus sulit, dan rentang gajimu sendiri — butir Perangkat Wawancara kelima."
+     },
+     "objectives": [
+      {
+       "en": "Diagnose HR answers against the seven checks — which check each one failed and why.",
+       "id": "Mendiagnosis jawaban HR terhadap tujuh pemeriksaan — pemeriksaan mana yang gagal pada masing-masing dan mengapa."
+      },
+      {
+       "en": "Rewrite weak screen answers to the right length, decided in advance and consistent with the CV.",
+       "id": "Menulis ulang jawaban seleksi awal yang lemah ke panjang yang tepat, diputuskan lebih dulu, dan konsisten dengan CV."
+      },
+      {
+       "en": "Build a salary range from cited sources with the placement city’s floor.",
+       "id": "Membangun rentang gaji dari sumber yang dikutip dengan lantai kota penempatan."
+      },
+      {
+       "en": "Write a follow-up email that adds signal, not flattery.",
+       "id": "Menulis email tindak lanjut yang menambah sinyal, bukan sanjungan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "A transcript, a checklist, a rewrite",
+       "id": "Transkrip, daftar periksa, tulis ulang"
+      },
+      "intro": {
+       "en": "Five steps, five written answers. The case file has three tabs: the transcript of Nadia’s first screen, the fictional salary data for the placement city, and the recruiter’s details for the follow-up. Every answer is checked for the ideas Module 5 taught: the seven checks, decided eligibility sentences, Acknowledge–Account–Advance, gross ranges, signal over flattery.",
+       "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: transkrip seleksi awal pertama Nadia, data gaji fiktif untuk kota penempatan, dan detail rekruter untuk tindak lanjut. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 5: tujuh pemeriksaan, kalimat kelayakan yang diputuskan, Akui–Jelaskan–Maju, rentang kotor, sinyal di atas sanjungan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like HR",
+         "id": "Baca seperti HR"
+        },
+        "points": [
+         {
+          "en": "For each answer: which of the seven checks was it serving, and did it pass? Length, truth, decision, consistency.",
+          "id": "Untuk tiap jawaban: pemeriksaan mana dari tujuh yang dilayaninya, dan lolos? Panjang, kebenaran, keputusan, konsistensi."
+         },
+         {
+          "en": "The recruiter was warm; count the sentences that went on the record.",
+          "id": "Rekruternya hangat; hitung kalimat yang tercatat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then rewrite, then your own",
+         "id": "Lalu tulis ulang, lalu milikmu"
+        },
+        "points": [
+         {
+          "en": "Each rewrite has a target length and a Kit item behind it. The salary range has sources and a floor.",
+          "id": "Tiap tulis ulang punya panjang sasaran dan butir Perangkat di baliknya. Rentang gaji punya sumber dan lantai."
+         },
+         {
+          "en": "Step 5 is your own HR answer set. Model notes open after you submit.",
+          "id": "Langkah 5 adalah set jawaban HR-mu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP5",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "The Bank Sinar Nusantara HR Round",
+       "id": "Ronde HR Bank Sinar Nusantara"
+      },
+      "lead": {
+       "en": "Fifteen minutes on the phone, twelve questions, four answers that failed a check. Find them, fix them, and build the range she did not have.",
+       "id": "Lima belas menit di telepon, dua belas pertanyaan, empat jawaban yang gagal pemeriksaan. Temukan, perbaiki, dan bangun rentang yang tidak ia miliki."
+      },
+      "practice": [
+       {
+        "en": "Diagnosis",
+        "id": "Diagnosis"
+       },
+       {
+        "en": "Rewrites",
+        "id": "Tulis ulang"
+       },
+       {
+        "en": "Salary range",
+        "id": "Rentang gaji"
+       },
+       {
+        "en": "Follow-up email",
+        "id": "Email tindak lanjut"
+       },
+       {
+        "en": "Your HR set",
+        "id": "Set HR-mu"
+       }
+      ],
+      "goal": {
+       "en": "A screen Nadia would pass on Tuesday — and your own HR answer set, difficult-case answer and salary range, filed as the fifth Kit item.",
+       "id": "Seleksi awal yang akan dilolosi Nadia hari Selasa — dan set jawaban HR, jawaban kasus sulit, dan rentang gajimu sendiri, diarsipkan sebagai butir Perangkat kelima."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Sunday, 19:50",
+         "id": "Minggu, 19.50"
+        },
+        "subject": {
+         "en": "Nadia’s first HR screen — diagnose it before Tuesday’s",
+         "id": "Seleksi HR pertama Nadia — diagnosis sebelum yang hari Selasa"
+        },
+        "paragraphs": [
+         {
+          "en": "Two weeks before Bank Sinar Nusantara called, Nadia did a fifteen-minute phone screen for another bank’s programme. She recorded it for her own notes and has let me share the transcript. It was warm, it felt fine, and she did not get the next round. I want her to know exactly why before Tuesday.",
+          "id": "Dua minggu sebelum Bank Sinar Nusantara menelepon, Nadia menjalani seleksi telepon lima belas menit untuk program bank lain. Ia merekamnya untuk catatannya sendiri dan mengizinkan saya membagikan transkripnya. Hangat, terasa baik-baik saja, dan ia tidak mendapat ronde berikutnya. Saya ingin ia tahu persis mengapa sebelum hari Selasa."
+         },
+         {
+          "en": "Go through it answer by answer against HR’s checklist. Four answers failed a check; one of them failed two. Rewrite those four to the right length, with the decisions made. Then build the salary range she should have had — I have attached the fictional survey data we use for the Semarang placement — and write the follow-up email she never sent to the recruiter.",
+          "id": "Telusuri jawaban demi jawaban terhadap daftar periksa HR. Empat jawaban gagal pemeriksaan; satu gagal dua. Tulis ulang keempatnya ke panjang yang tepat, dengan keputusan yang dibuat. Lalu bangun rentang gaji yang seharusnya ia punya — saya lampirkan data survei fiktif yang kami pakai untuk penempatan Semarang — dan tulis email tindak lanjut yang tak pernah ia kirim ke rekruter."
+         },
+         {
+          "en": "Then your own: the HR answer set for your top target, your difficult-case answer, and your salary range with sources. That is the fifth page of your Kit, and Round 5 runs from it.",
+          "id": "Lalu milikmu: set jawaban HR untuk sasaran teratasmu, jawaban kasus sulitmu, dan rentang gajimu dengan sumber. Itu halaman kelima Perangkatmu, dan Putaran 5 berjalan darinya."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Answer-by-answer diagnosis: the check served, pass or fail, and why",
+          "id": "Diagnosis jawaban demi jawaban: pemeriksaan yang dilayani, lolos atau gagal, dan mengapa"
+         },
+         {
+          "en": "Four rewrites at target length with the decisions made",
+          "id": "Empat tulis ulang pada panjang sasaran dengan keputusan yang dibuat"
+         },
+         {
+          "en": "A gross monthly range from the cited data, with the floor",
+          "id": "Rentang kotor bulanan dari data yang dikutip, dengan lantai"
+         },
+         {
+          "en": "The follow-up email: four sentences, signal not flattery",
+          "id": "Email tindak lanjut: empat kalimat, sinyal bukan sanjungan"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "15 min · 12 Q",
+          "id": "15 mnt · 12 P"
+         },
+         "v": {
+          "en": "Phone screen, HR recruiter, warm tone; Nadia talked for eleven of the fifteen minutes",
+          "id": "Seleksi telepon, rekruter HR, nada hangat; Nadia bicara sebelas dari lima belas menit"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "4 failed",
+          "id": "4 gagal"
+         },
+         "v": {
+          "en": "Four answers failed a check; one failed two; the last two questions were cut for time",
+          "id": "Empat jawaban gagal pemeriksaan; satu gagal dua; dua pertanyaan terakhir dipotong karena waktu"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "Semarang",
+          "id": "Semarang"
+         },
+         "v": {
+          "en": "Placement city for the range; fictional survey data in the tab — the floor is marked “verify”",
+          "id": "Kota penempatan untuk rentang; data survei fiktif di tab — lantainya ditandai “verifikasi”"
+         },
+         "hot": true
+        },
+        {
+         "icon": "eye",
+         "k": {
+          "en": "CV says",
+          "id": "CV berkata"
+         },
+         "v": {
+          "en": "Internship Jun–Aug 2025 · IPK 3,38 · Treasurer Aug 2024–Jul 2025 · Rp 120 juta",
+          "id": "Magang Jun–Agu 2025 · IPK 3,38 · Bendahara Agu 2024–Jul 2025 · Rp 120 juta"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Recruiter",
+          "id": "Rekruter"
+         },
+         "v": {
+          "en": "Ibu Sinta, Talent Acquisition; said “kami akan kabari dua minggu lagi”; no email was sent",
+          "id": "Ibu Sinta, Talent Acquisition; berkata “kami akan kabari dua minggu lagi”; tidak ada email yang dikirim"
+         }
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Not decided",
+          "id": "Belum diputuskan"
+         },
+         "v": {
+          "en": "At the time, placement outside Java had not been discussed at home",
+          "id": "Saat itu, penempatan di luar Jawa belum dibicarakan di rumah"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The transcript",
+          "id": "Transkrip"
+         },
+         "title": {
+          "en": "Fifteen-minute phone screen — as recorded by Nadia",
+          "id": "Seleksi telepon lima belas menit — sebagaimana direkam Nadia"
+         },
+         "meta": {
+          "en": "Fictional employer · twelve questions; the last two were cut",
+          "id": "Perusahaan fiktif · dua belas pertanyaan; dua terakhir dipotong"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Q1 · “Ceritakan tentang diri Anda.” — A1 (1 min 50 s): birthplace, family, the major, IPK “sekitar 3,4”, HIMA, the internship, “saya orangnya teliti dan bisa kerja tim”.",
+             "id": "Q1 · “Ceritakan tentang diri Anda.” — J1 (1 mnt 50 dtk): tempat lahir, keluarga, jurusan, IPK “sekitar 3,4”, HIMA, magang, “saya orangnya teliti dan bisa kerja tim”."
+            },
+            {
+             "en": "Q2 · “Kenapa melamar ke program kami?” — A2 (45 s): “Karena bank ini besar dan terkenal, dan saya ingin berkembang di dunia perbankan.”",
+             "id": "Q2 · “Kenapa melamar ke program kami?” — J2 (45 dtk): “Karena bank ini besar dan terkenal, dan saya ingin berkembang di dunia perbankan.”"
+            },
+            {
+             "en": "Q3 · “Magangnya berapa lama? Tiga bulan saja?” — A3 (1 min 40 s): “Iya, tiga bulan, sampai sekitar September… sebenarnya programnya memang segitu, tapi saya juga waktu itu harus mulai skripsi, dan supervisor saya sebenarnya sempat bilang bisa diperpanjang tapi HR-nya tidak memproses, jadi ya sudah…”",
+             "id": "Q3 · “Magangnya berapa lama? Tiga bulan saja?” — J3 (1 mnt 40 dtk): “Iya, tiga bulan, sampai sekitar September… sebenarnya programnya memang segitu, tapi saya juga waktu itu harus mulai skripsi, dan supervisor saya sebenarnya sempat bilang bisa diperpanjang tapi HR-nya tidak memproses, jadi ya sudah…”"
+            },
+            {
+             "en": "Q4 · “Kelebihan dan kekurangan Anda?” — A4 (50 s): “Kelebihan saya teliti dan bertanggung jawab. Kekurangan saya perfeksionis, jadi kadang terlalu lama.”",
+             "id": "Q4 · “Kelebihan dan kekurangan Anda?” — J4 (50 dtk): “Kelebihan saya teliti dan bertanggung jawab. Kekurangan saya perfeksionis, jadi kadang terlalu lama.”"
+            },
+            {
+             "en": "Q5 · “Pengalaman yang paling berkesan?” — A5 (40 s): the sponsorship story headline — Rp 85 juta, 11 sponsors, the Rp 25 juta gap in 16 days.",
+             "id": "Q5 · “Pengalaman yang paling berkesan?” — J5 (40 dtk): headline cerita sponsorship — Rp 85 juta, 11 sponsor, kekurangan Rp 25 juta dalam 16 hari."
+            },
+            {
+             "en": "Q6 · “Bersedia ditempatkan di seluruh Indonesia?” — A6 (35 s): “Hmm… tergantung, Bu. Kalau bisa di Jawa dulu. Tapi kalau memang harus, ya… saya coba bicarakan dulu dengan orang tua.”",
+             "id": "Q6 · “Bersedia ditempatkan di seluruh Indonesia?” — J6 (35 dtk): “Hmm… tergantung, Bu. Kalau bisa di Jawa dulu. Tapi kalau memang harus, ya… saya coba bicarakan dulu dengan orang tua.”"
+            },
+            {
+             "en": "Q7 · “Bersedia dengan ikatan dinas dua tahun?” — A7 (10 s): “Bersedia, Bu.”",
+             "id": "Q7 · “Bersedia dengan ikatan dinas dua tahun?” — J7 (10 dtk): “Bersedia, Bu.”"
+            },
+            {
+             "en": "Q8 · “Ekspektasi gaji?” — A8 (15 s): “Terserah perusahaan saja, Bu, yang penting saya bisa belajar.”",
+             "id": "Q8 · “Ekspektasi gaji?” — J8 (15 dtk): “Terserah perusahaan saja, Bu, yang penting saya bisa belajar.”"
+            },
+            {
+             "en": "Q9 · “Kapan bisa mulai?” — A9 (1 min 5 s): her thesis timeline, the graduation ceremony, a family wedding, “jadi mungkin Agustus, atau September, tergantung wisudanya, Bu”.",
+             "id": "Q9 · “Kapan bisa mulai?” — J9 (1 mnt 5 dtk): lini masa skripsinya, upacara wisuda, pernikahan keluarga, “jadi mungkin Agustus, atau September, tergantung wisudanya, Bu”."
+            },
+            {
+             "en": "Q10 · “Sedang ikut proses lain?” — A10 (20 s): “Ada, Bu, dua. Tapi yang ini yang paling saya inginkan.”",
+             "id": "Q10 · “Sedang ikut proses lain?” — J10 (20 dtk): “Ada, Bu, dua. Tapi yang ini yang paling saya inginkan.”"
+            },
+            {
+             "en": "Q11–12 · [cut: “Apa yang Anda ketahui tentang bank kami?” and “Ada pertanyaan?” — Ibu Sinta: “Waktunya habis, ya. Kami akan kabari dua minggu lagi.”]",
+             "id": "Q11–12 · [dipotong: “Apa yang Anda ketahui tentang bank kami?” dan “Ada pertanyaan?” — Ibu Sinta: “Waktunya habis, ya. Kami akan kabari dua minggu lagi.”]"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Salary data",
+          "id": "Data gaji"
+         },
+         "title": {
+          "en": "Fictional survey data for an operations programme placement in Semarang",
+          "id": "Data survei fiktif untuk penempatan program operasi di Semarang"
+         },
+         "meta": {
+          "en": "Illustrative figures for the exercise only — not market data",
+          "id": "Angka ilustratif hanya untuk latihan — bukan data pasar"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Source A — annual recruitment-firm survey (fictional), “bank officer development programme, year 1, Central Java”: Rp 5,8–7,2 juta gross monthly · checked this month.",
+             "id": "Sumber A — survei tahunan firma rekrutmen (fiktif), “program pengembangan officer bank, tahun 1, Jawa Tengah”: Rp 5,8–7,2 juta kotor bulanan · diperiksa bulan ini."
+            },
+            {
+             "en": "Source B — two postings for comparable programmes stating a range (fictional): Rp 6,0–6,5 juta gross · one includes a housing allowance for out-of-town placement.",
+             "id": "Sumber B — dua lowongan program sebanding yang menyebut rentang (fiktif): Rp 6,0–6,5 juta kotor · satu termasuk tunjangan perumahan untuk penempatan luar kota."
+            },
+            {
+             "en": "Source C — two programme alumni (fictional): “sekitar Rp 6,3 juta kotor tahun pertama, plus THR; naik setelah lulus program.”",
+             "id": "Sumber C — dua alumni program (fiktif): “sekitar Rp 6,3 juta kotor tahun pertama, plus THR; naik setelah lulus program.”"
+            },
+            {
+             "en": "Floor — the minimum wage for the placement city: to be verified against the current regulation before quoting; for this exercise treat it as below all three sources.",
+             "id": "Lantai — upah minimum kota penempatan: diverifikasi terhadap peraturan terkini sebelum dikutip; untuk latihan ini anggap di bawah ketiga sumber."
+            },
+            {
+             "en": "Note — the programme is described by alumni as a fixed package: base plus fixed allowances, negotiation room small.",
+             "id": "Catatan — program digambarkan alumni sebagai paket tetap: gaji pokok plus tunjangan tetap, ruang negosiasi kecil."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The recruiter",
+          "id": "Rekruter"
+         },
+         "title": {
+          "en": "Details for the follow-up that was never sent",
+          "id": "Detail untuk tindak lanjut yang tak pernah dikirim"
+         },
+         "meta": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Ibu Sinta Rahmawati, Talent Acquisition — the recruiter on the call; said “kami akan kabari dua minggu lagi”.",
+             "id": "Ibu Sinta Rahmawati, Talent Acquisition — rekruter di panggilan; berkata “kami akan kabari dua minggu lagi”."
+            },
+            {
+             "en": "One specific moment in the call: Ibu Sinta mentioned the programme’s branch rotation now includes a month in a regional office outside Java.",
+             "id": "Satu momen spesifik di panggilan: Ibu Sinta menyebut rotasi cabang program kini termasuk sebulan di kantor regional di luar Jawa."
+            },
+            {
+             "en": "Something Nadia fumbled and could correct in writing: the internship dates (“sampai sekitar September” — the CV says August) and the placement answer.",
+             "id": "Sesuatu yang Nadia kacaukan dan bisa dikoreksi tertulis: tanggal magang (“sampai sekitar September” — CV bilang Agustus) dan jawaban penempatan."
+            },
+            {
+             "en": "The Pack’s follow-up rule (Pack Lesson 9.2): within twenty-four hours, four sentences — specific thanks, one addition, one line of interest, the next step as stated.",
+             "id": "Aturan tindak lanjut The Pack (Pelajaran 9.2 The Pack): dalam dua puluh empat jam, empat kalimat — terima kasih spesifik, satu tambahan, satu kalimat minat, langkah berikutnya sebagaimana dinyatakan."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Diagnose against the checklist",
+         "id": "Diagnosis terhadap daftar periksa"
+        },
+        "short": {
+         "en": "Diagnosis",
+         "id": "Diagnosis"
+        },
+        "guide": {
+         "en": "Lesson 5.1. For each of the ten answered questions, name the check it served (eligibility · availability · motivation and stability · communication · consistency · salary fit · red flags), say pass or fail, and give the reason in one line — length, truth, decision, consistency or content. Identify the four that failed and the one that failed two checks. Note what the eleven minutes of talking cost her.",
+         "id": "Pelajaran 5.1. Untuk tiap dari sepuluh pertanyaan yang dijawab, sebutkan pemeriksaan yang dilayaninya (kelayakan · ketersediaan · motivasi dan stabilitas · komunikasi · konsistensi · kecocokan gaji · tanda bahaya), katakan lolos atau gagal, dan beri alasannya dalam satu baris — panjang, kebenaran, keputusan, konsistensi, atau isi. Kenali empat yang gagal dan satu yang gagal dua pemeriksaan. Catat apa yang dibayar sebelas menit bicaranya."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Ten answers, seven checks, four failures",
+           "id": "Sepuluh jawaban, tujuh pemeriksaan, empat kegagalan"
+          },
+          "help": {
+           "en": "A1 is long and has a rounded IPK. A3 blames HR and drifts from the CV. A6 is undecided. A8 is “terserah”. A9 is long for a ten-second question. Which two questions were cut, and which check did that cost?",
+           "id": "J1 panjang dan punya IPK yang dibulatkan. J3 menyalahkan HR dan melenceng dari CV. J6 belum diputuskan. J8 adalah “terserah”. J9 panjang untuk pertanyaan sepuluh detik. Dua pertanyaan mana yang dipotong, dan pemeriksaan mana yang dibayar karenanya?"
+          },
+          "placeholder": {
+           "en": "A1 · communication + consistency · FAIL — 1:50 for a 60 s opening; “sekitar 3,4” vs CV 3,38; adjectives\nA2 · motivation · FAIL — praise, no fact\nA3 · red flags + consistency · FAIL ×2 — blames HR; “September” vs CV August; 1:40\nA4 · … · …\nA5 · communication · PASS — headline with numbers, 40 s\nA6 · eligibility · FAIL — undecided; “tergantung”\nA7 · eligibility · PASS (but no clarifying question)\nA8 · salary fit · FAIL — “terserah”\nA9 · availability + communication · … \nA10 · … \nCut: Q11 (motivation — research) and Q12 (her question) — cost: …",
+           "id": "J1 · komunikasi + konsistensi · GAGAL — 1:50 untuk pembuka 60 dtk; “sekitar 3,4” vs CV 3,38; kata sifat\nJ2 · motivasi · GAGAL — pujian, tanpa fakta\nJ3 · tanda bahaya + konsistensi · GAGAL ×2 — menyalahkan HR; “September” vs CV Agustus; 1:40\nJ4 · … · …\nJ5 · komunikasi · LOLOS — headline dengan angka, 40 dtk\nJ6 · kelayakan · GAGAL — belum diputuskan; “tergantung”\nJ7 · kelayakan · LOLOS (tetapi tanpa pertanyaan klarifikasi)\nJ8 · kecocokan gaji · GAGAL — “terserah”\nJ9 · ketersediaan + komunikasi · … \nJ10 · … \nDipotong: Q11 (motivasi — riset) dan Q12 (pertanyaannya) — biaya: …"
+          },
+          "keywords": [
+           [
+            "eligib",
+            "kelayakan"
+           ],
+           [
+            "availab",
+            "ketersediaan"
+           ],
+           [
+            "motivation",
+            "motivasi"
+           ],
+           [
+            "communication",
+            "komunikasi",
+            "length",
+            "panjang",
+            "long"
+           ],
+           [
+            "consisten",
+            "konsisten",
+            "september",
+            "agustus",
+            "august",
+            "3,4",
+            "3.4",
+            "3,38"
+           ],
+           [
+            "salary",
+            "gaji",
+            "terserah"
+           ],
+           [
+            "red flag",
+            "tanda bahaya",
+            "blame",
+            "menyalahkan"
+           ],
+           [
+            "fail",
+            "gagal"
+           ],
+           [
+            "pass",
+            "lolos"
+           ],
+           [
+            "cut",
+            "dipotong",
+            "q11",
+            "q12",
+            "question",
+            "pertanyaan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Rewrite the four",
+         "id": "Tulis ulang keempatnya"
+        },
+        "short": {
+         "en": "Rewrites",
+         "id": "Tulis ulang"
+        },
+        "guide": {
+         "en": "Lessons 5.1, 5.2, 4.2 and 4.4. Rewrite the four failed answers as Nadia would say them on Tuesday, each with its target length and the Kit item behind it: the opening at sixty seconds with the exact IPK; the internship answer in three parts with no blame and the CV’s dates; the placement answer as a decided sentence with a specific condition; the start-date answer in ten seconds. Fix the weakness answer too if you diagnosed it.",
+         "id": "Pelajaran 5.1, 5.2, 4.2, dan 4.4. Tulis ulang empat jawaban yang gagal seperti Nadia akan mengucapkannya hari Selasa, masing-masing dengan panjang sasaran dan butir Perangkat di baliknya: pembuka enam puluh detik dengan IPK persis; jawaban magang dalam tiga bagian tanpa menyalahkan dan tanggal CV; jawaban penempatan sebagai kalimat yang diputuskan dengan syarat spesifik; jawaban tanggal mulai dalam sepuluh detik. Perbaiki juga jawaban kelemahan jika kamu mendiagnosisnya."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 160,
+          "rows": 18,
+          "title": {
+           "en": "Four answers at target length, decisions made, CV-consistent",
+           "id": "Empat jawaban pada panjang sasaran, keputusan dibuat, konsisten dengan CV"
+          },
+          "help": {
+           "en": "Placement: she has since talked at home — yes, with a preference question. Internship: Acknowledge (“tiga bulan, Juni sampai Agustus”), Account (the programme’s length; no HR blame), Advance (the checklist still in use). Start: “awal Agustus, setelah wisuda tanggal …”. Salary comes in Step 3.",
+           "id": "Penempatan: ia sudah bicara di rumah — ya, dengan pertanyaan preferensi. Magang: Akui (“tiga bulan, Juni sampai Agustus”), Jelaskan (lama program; tanpa menyalahkan HR), Maju (daftar periksa masih dipakai). Mulai: “awal Agustus, setelah wisuda tanggal …”. Gaji datang di Langkah 3."
+          },
+          "placeholder": {
+           "en": "A1 rewrite (60 s, opening ledger 4.2): “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal: …”\nA3 rewrite (45 s, A-A-A 5.2): “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus. Yang saya bawa dari tiga bulan itu: …”\nA6 rewrite (15 s, decided 5.1): “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?”\nA9 rewrite (10 s): “…”\n(A4 weakness, if diagnosed: five parts, 60 s)",
+           "id": "Tulis ulang J1 (60 dtk, buku pembuka 4.2): “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan. Dua hal: …”\nTulis ulang J3 (45 dtk, A-J-M 5.2): “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus. Yang saya bawa dari tiga bulan itu: …”\nTulis ulang J6 (15 dtk, diputuskan 5.1): “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?”\nTulis ulang J9 (10 dtk): “…”\n(J4 kelemahan, jika didiagnosis: lima bagian, 60 dtk)"
+          },
+          "keywords": [
+           [
+            "3,38",
+            "3.38"
+           ],
+           [
+            "juni",
+            "agustus",
+            "june",
+            "august"
+           ],
+           [
+            "bersedia",
+            "willing",
+            "preferensi",
+            "preference"
+           ],
+           [
+            "betul",
+            "tiga bulan",
+            "three months"
+           ],
+           [
+            "checklist",
+            "daftar periksa",
+            "still",
+            "masih"
+           ],
+           [
+            "wisuda",
+            "graduat",
+            "agustus",
+            "august"
+           ],
+           [
+            "60",
+            "45",
+            "15",
+            "10",
+            "s ",
+            "dtk"
+           ],
+           [
+            "rekonsiliasi",
+            "reconcil",
+            "tiga cabang",
+            "three branches"
+           ],
+           [
+            "keluarga",
+            "family",
+            "rumah",
+            "home"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Build the salary range",
+         "id": "Bangun rentang gaji"
+        },
+        "short": {
+         "en": "Salary",
+         "id": "Gaji"
+        },
+        "guide": {
+         "en": "Lesson 5.3. From the three fictional sources and the floor, build Nadia’s range for a first-year programme placement in Semarang as gross monthly, with a bottom she would accept. Say how the “fixed package” note changes the answer shape, write the sentence she says on Tuesday in Indonesian, and write her response to a low counter (“kalau Rp 5,2 juta?”). Mark the floor “verify”.",
+         "id": "Pelajaran 5.3. Dari tiga sumber fiktif dan lantai, bangun rentang Nadia untuk penempatan program tahun pertama di Semarang sebagai kotor bulanan, dengan batas bawah yang akan ia terima. Katakan bagaimana catatan “paket tetap” mengubah bentuk jawaban, tulis kalimat yang ia ucapkan hari Selasa dalam bahasa Indonesia, dan tulis responsnya terhadap tawaran balik rendah (“kalau Rp 5,2 juta?”). Tandai lantai “verifikasi”."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Sources → floor → range → the sentence → the counter",
+           "id": "Sumber → lantai → rentang → kalimat → tawaran balik"
+          },
+          "help": {
+           "en": "The overlap of A, B and C is narrow — that is the range. Because the package is fixed, the answer leads with “saya memahami program ini punya paket standar” and the range is what she holds in reserve if pressed. The counter is answered with a question about components, not a decision.",
+           "id": "Irisan A, B, dan C sempit — itulah rentangnya. Karena paketnya tetap, jawaban dibuka dengan “saya memahami program ini punya paket standar” dan rentang adalah yang ia simpan jika didesak. Tawaran balik dijawab dengan pertanyaan tentang komponen, bukan keputusan."
+          },
+          "placeholder": {
+           "en": "Sources: A Rp 5,8–7,2 jt · B Rp 6,0–6,5 jt (+ housing for out-of-town) · C ~Rp 6,3 jt + THR · floor: verify, below all\nRange (gross monthly): Rp 6,0–6,8 juta; bottom acceptable: 6,0\nShape: fixed package → “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan, THR — tapi yang paling penting bagi saya programnya.” If pressed: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor.”\nCounter “kalau Rp 5,2 juta?”: “…”",
+           "id": "Sumber: A Rp 5,8–7,2 jt · B Rp 6,0–6,5 jt (+ perumahan untuk luar kota) · C ~Rp 6,3 jt + THR · lantai: verifikasi, di bawah semua\nRentang (kotor bulanan): Rp 6,0–6,8 juta; batas bawah diterima: 6,0\nBentuk: paket tetap → “Saya memahami program ODP punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan, THR — tapi yang paling penting bagi saya programnya.” Jika didesak: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor.”\nTawaran balik “kalau Rp 5,2 juta?”: “…”"
+          },
+          "keywords": [
+           [
+            "kotor",
+            "gross"
+           ],
+           [
+            "floor",
+            "lantai",
+            "verify",
+            "verifikasi",
+            "umk",
+            "ump"
+           ],
+           [
+            "range",
+            "rentang",
+            "kisaran",
+            "6,",
+            "6.",
+            "7,",
+            "7."
+           ],
+           [
+            "fixed",
+            "tetap",
+            "paket",
+            "package",
+            "standar"
+           ],
+           [
+            "komponen",
+            "component",
+            "tunjangan",
+            "thr"
+           ],
+           [
+            "counter",
+            "balik",
+            "5,2",
+            "5.2",
+            "kalau"
+           ],
+           [
+            "source",
+            "sumber",
+            "a ",
+            "b ",
+            "c "
+           ],
+           [
+            "bottom",
+            "batas bawah",
+            "accept",
+            "terima"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Write the follow-up email",
+         "id": "Tulis email tindak lanjut"
+        },
+        "short": {
+         "en": "Email",
+         "id": "Email"
+        },
+        "guide": {
+         "en": "Pack Lesson 9.2, applied. Write the email Nadia should have sent to Ibu Sinta within twenty-four hours: four sentences — specific thanks referencing the regional-office rotation; one addition that corrects the internship dates and states the placement decision she has since made, briefly and without apology; one line of interest; the next step as Ibu Sinta stated it. Indonesian, Yth. register, subject line included.",
+         "id": "Pelajaran 9.2 The Pack, diterapkan. Tulis email yang seharusnya dikirim Nadia ke Ibu Sinta dalam dua puluh empat jam: empat kalimat — terima kasih spesifik merujuk rotasi kantor regional; satu tambahan yang mengoreksi tanggal magang dan menyatakan keputusan penempatan yang sudah ia buat, singkat dan tanpa permintaan maaf; satu kalimat minat; langkah berikutnya sebagaimana dinyatakan Ibu Sinta. Bahasa Indonesia, register Yth., baris subjek disertakan."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 70,
+          "rows": 10,
+          "title": {
+           "en": "Four sentences, signal not flattery",
+           "id": "Empat kalimat, sinyal bukan sanjungan"
+          },
+          "help": {
+           "en": "The addition is the whole point: it repairs the two answers that failed in writing, where she can be exact. No “mohon maaf atas jawaban saya” — a correction, not an apology. No “saya sangat berharap”.",
+           "id": "Tambahan itulah intinya: ia memperbaiki dua jawaban yang gagal secara tertulis, di mana ia bisa tepat. Tanpa “mohon maaf atas jawaban saya” — koreksi, bukan permintaan maaf. Tanpa “saya sangat berharap”."
+          },
+          "placeholder": {
+           "en": "Subjek: Terima kasih — wawancara awal ODP, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri",
+           "id": "Subjek: Terima kasih — wawancara awal ODP, [tanggal]\nYth. Ibu Sinta,\nTerima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan.\nHormat saya, Nadia Putri"
+          },
+          "keywords": [
+           [
+            "yth",
+            "ibu sinta"
+           ],
+           [
+            "terima kasih",
+            "thank"
+           ],
+           [
+            "regional",
+            "rotasi",
+            "rotation"
+           ],
+           [
+            "juni",
+            "agustus",
+            "june",
+            "august",
+            "2025"
+           ],
+           [
+            "bersedia",
+            "penempatan",
+            "placement",
+            "willing"
+           ],
+           [
+            "dua minggu",
+            "two weeks",
+            "kabar"
+           ],
+           [
+            "subjek",
+            "subject"
+           ],
+           [
+            "hormat",
+            "regards"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your own HR set",
+         "id": "Set HR-mu sendiri"
+        },
+        "short": {
+         "en": "Your set",
+         "id": "Setmu"
+        },
+        "guide": {
+         "en": "The Kit item. For your top target: the ten HR answers as Kit pointers with target lengths, the four eligibility sentences decided, your difficult-case answer in three parts with seconds, and your salary range with sources and the floor (marked verify), plus the sentence you will say. Note any consistency fixes from your CV read.",
+         "id": "Butir Perangkat. Untuk sasaran teratasmu: sepuluh jawaban HR sebagai penunjuk Perangkat dengan panjang sasaran, empat kalimat kelayakan yang diputuskan, jawaban kasus sulitmu dalam tiga bagian dengan detik, dan rentang gajimu dengan sumber dan lantai (ditandai verifikasi), plus kalimat yang akan kamu ucapkan. Catat perbaikan konsistensi apa pun dari pembacaan CV-mu."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 150,
+          "rows": 18,
+          "title": {
+           "en": "Ten pointers, four sentences, one difficult answer, one range",
+           "id": "Sepuluh penunjuk, empat kalimat, satu jawaban sulit, satu rentang"
+          },
+          "help": {
+           "en": "If you have not had the placement conversation at home, write “to decide by …” with a date rather than a sentence you would withdraw. If your range has one source, mark it “thin” and name the second source you will find. Round 5 runs from this page.",
+           "id": "Jika kamu belum melakukan pembicaraan penempatan di rumah, tulis “akan diputuskan pada …” dengan tanggal alih-alih kalimat yang akan kamu tarik. Jika rentangmu punya satu sumber, tandai “tipis” dan sebutkan sumber kedua yang akan kamu cari. Putaran 5 berjalan dari halaman ini."
+          },
+          "placeholder": {
+           "en": "Target: …\nQ1 opening (4.2, 60 s) · Q2 REC (4.3, 45 s) · Q3 anchor (3.2, 30 s) · Q4 strength + weakness (4.4) · Q5 major (30 s) · Q6 headline (2.4, 30 s)\nQ7 placement: … (unconditional / conditional: … / no) · Q8 bond: … + question: … · Q9 salary: range … kotor · Q10 start: …\nDifficult case: Acknowledge … (10 s) · Account … (20 s) · Advance … (60 s) · probe I expect: …\nSalary: sources … · floor (verify) … · range … · sentence: “…”\nConsistency fixes: …",
+           "id": "Sasaran: …\nQ1 pembuka (4.2, 60 dtk) · Q2 REC (4.3, 45 dtk) · Q3 jangkar (3.2, 30 dtk) · Q4 kekuatan + kelemahan (4.4) · Q5 jurusan (30 dtk) · Q6 headline (2.4, 30 dtk)\nQ7 penempatan: … (tanpa syarat / bersyarat: … / tidak) · Q8 ikatan dinas: … + pertanyaan: … · Q9 gaji: rentang … kotor · Q10 mulai: …\nKasus sulit: Akui … (10 dtk) · Jelaskan … (20 dtk) · Maju … (60 dtk) · galian yang saya perkirakan: …\nGaji: sumber … · lantai (verifikasi) … · rentang … · kalimat: “…”\nPerbaikan konsistensi: …"
+          },
+          "keywords": [
+           [
+            "q1",
+            "q2",
+            "q3",
+            "q7",
+            "q8",
+            "q9",
+            "q10"
+           ],
+           [
+            "placement",
+            "penempatan"
+           ],
+           [
+            "bond",
+            "ikatan dinas"
+           ],
+           [
+            "salary",
+            "gaji",
+            "kotor",
+            "gross",
+            "range",
+            "rentang"
+           ],
+           [
+            "start",
+            "mulai"
+           ],
+           [
+            "acknowledge",
+            "akui",
+            "account",
+            "jelaskan",
+            "advance",
+            "maju"
+           ],
+           [
+            "source",
+            "sumber",
+            "floor",
+            "lantai",
+            "verify",
+            "verifikasi"
+           ],
+           [
+            "consisten",
+            "konsisten"
+           ],
+           [
+            "decid",
+            "putus"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Diagnosis — every answer mapped to a check with pass/fail and a one-line reason; the four failures and the double failure found; the cost of the cut questions named",
+         "id": "Diagnosis — setiap jawaban dipetakan ke pemeriksaan dengan lolos/gagal dan alasan satu baris; empat kegagalan dan kegagalan ganda ditemukan; biaya pertanyaan yang dipotong disebut"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Rewrites — four answers at target length, decisions made, CV-consistent, no blame, Kit items named",
+         "id": "Tulis ulang — empat jawaban pada panjang sasaran, keputusan dibuat, konsisten dengan CV, tanpa menyalahkan, butir Perangkat disebut"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Salary — range from the three sources as gross with an acceptable bottom, the floor marked verify, the fixed-package shape, a counter answered with a question",
+         "id": "Gaji — rentang dari tiga sumber sebagai kotor dengan batas bawah yang diterima, lantai ditandai verifikasi, bentuk paket tetap, tawaran balik dijawab dengan pertanyaan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Follow-up email — four sentences in register, specific thanks, a correcting addition without apology, interest, the stated next step",
+         "id": "Email tindak lanjut — empat kalimat dalam register, terima kasih spesifik, tambahan yang mengoreksi tanpa permintaan maaf, minat, langkah berikutnya yang dinyatakan"
+        },
+        "w": "10%"
+       },
+       {
+        "h": {
+         "en": "Your HR set — ten pointers with lengths, four decided sentences, a three-part difficult answer with seconds, a sourced range",
+         "id": "Set HR-mu — sepuluh penunjuk dengan panjang, empat kalimat yang diputuskan, jawaban sulit tiga bagian dengan detik, rentang bersumber"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — the screen, diagnosed and repaired",
+        "id": "Catatan model — seleksi awal, didiagnosis dan diperbaiki"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The diagnosis",
+          "id": "Diagnosis"
+         }
+        },
+        {
+         "en": "A1 failed communication (1 min 50 s for a sixty-second opening, birthplace and family included, three adjectives) and consistency (“sekitar 3,4” against a CV that says 3,38). A2 failed motivation — praise true of any bank, no fact, no link. A3 failed two checks: red flags (“HR-nya tidak memproses” blames a third party for an internship of normal length) and consistency (“sampai sekitar September” against Jun–Aug on the CV), and at 1 min 40 s it also told HR the internship was the biggest thing in her head. A4 is a cliché weakness — the sceptic’s probe did not come only because the recruiter was short of time. A5 passed: a headline with numbers, forty seconds. A6 failed eligibility: “tergantung” with no condition, and a decision deferred to her parents in the interviewer’s hearing — the answer that most needed to be decided at home. A7 passed but missed the one clarifying question. A8 failed salary fit: “terserah” handed the anchor to HR. A9 failed availability and communication: over a minute, three possible months, no date. A10 passed — honest, and “yang ini yang paling saya inginkan” is fine once. The eleven minutes of talking cost her Q11 and Q12: the research question she had an anchor for, and her own question about the stage ahead — the two answers that would have shown she chose this programme.",
+         "id": "J1 gagal komunikasi (1 mnt 50 dtk untuk pembuka enam puluh detik, tempat lahir dan keluarga disertakan, tiga kata sifat) dan konsistensi (“sekitar 3,4” terhadap CV yang berkata 3,38). J2 gagal motivasi — pujian yang berlaku untuk bank mana pun, tanpa fakta, tanpa tautan. J3 gagal dua pemeriksaan: tanda bahaya (“HR-nya tidak memproses” menyalahkan pihak ketiga untuk magang berdurasi normal) dan konsistensi (“sampai sekitar September” terhadap Jun–Agu di CV), dan pada 1 mnt 40 dtk ia juga memberi tahu HR bahwa magang itu hal terbesar di kepalanya. J4 adalah kelemahan klise — galian skeptis tidak datang hanya karena rekruter kekurangan waktu. J5 lolos: headline dengan angka, empat puluh detik. J6 gagal kelayakan: “tergantung” tanpa syarat, dan keputusan diserahkan ke orang tua di depan pewawancara — jawaban yang paling perlu diputuskan di rumah. J7 lolos tetapi melewatkan satu pertanyaan klarifikasi. J8 gagal kecocokan gaji: “terserah” menyerahkan jangkar ke HR. J9 gagal ketersediaan dan komunikasi: lebih dari semenit, tiga kemungkinan bulan, tanpa tanggal. J10 lolos — jujur, dan “yang ini yang paling saya inginkan” boleh sekali. Sebelas menit bicara membuatnya kehilangan Q11 dan Q12: pertanyaan riset yang jangkarnya ia punya, dan pertanyaannya sendiri tentang tahap berikutnya — dua jawaban yang akan menunjukkan ia memilih program ini."
+        },
+        {
+         "h": {
+          "en": "The rewrites",
+          "id": "Tulis ulang"
+         }
+        },
+        {
+         "en": "A1, sixty seconds: the opening from Lesson 4.2 — “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan…” — with the two proofs, the rotation as the motive, and the handover; the IPK is not said because it is on the CV, and if asked it is “3,38”. A3, forty-five seconds, three parts: “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus; tidak ada opsi perpanjangan. Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.” No HR, no “sebenarnya”. A6, fifteen seconds, decided: “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” A9, ten seconds: “Awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu.” A4, if repaired: the five-part weakness from Lesson 4.4, sixty seconds. Total talking after the rewrites: about eight minutes, which leaves Q11 and Q12 in the call.",
+         "id": "J1, enam puluh detik: pembuka dari Pelajaran 4.2 — “Perkenalkan, saya Nadia. Saya lulusan Manajemen dengan minat di operasional dan layanan perbankan…” — dengan dua bukti, rotasi sebagai motif, dan serah terima; IPK tidak disebut karena ada di CV, dan jika ditanya “3,38”. J3, empat puluh lima detik, tiga bagian: “Betul, tiga bulan — Juni sampai Agustus. Itu durasi program magang cabang untuk mahasiswa yang belum lulus; tidak ada opsi perpanjangan. Yang saya bawa dari tiga bulan itu: rekonsiliasi harian tiga cabang tanpa pengawasan sejak minggu ketiga, dan daftar periksa yang masih dipakai tim — supervisor saya bisa dihubungi soal itu.” Tanpa HR, tanpa “sebenarnya”. J6, lima belas detik, diputuskan: “Bersedia, Bu — sudah saya bicarakan dengan keluarga. Untuk satu kota tertentu, apakah ada kesempatan menyampaikan preferensi?” J9, sepuluh detik: “Awal Agustus, Bu, setelah wisuda tanggal dua — tidak ada komitmen lain setelah itu.” J4, jika diperbaiki: kelemahan lima bagian dari Pelajaran 4.4, enam puluh detik. Total bicara setelah tulis ulang: sekitar delapan menit, yang menyisakan Q11 dan Q12 di panggilan."
+        },
+        {
+         "h": {
+          "en": "The range and the sentence",
+          "id": "Rentang dan kalimat"
+         }
+        },
+        {
+         "en": "The three fictional sources overlap between about Rp 6,0 and 6,8 juta gross monthly for the first year in Semarang, with a housing allowance possible for out-of-town placement and THR on top; the floor is below all three and stays marked “verify” until the current regulation is checked. Because alumni describe a fixed package, the shape is the fixed-package answer: “Saya memahami program ini punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan tetap, THR — tapi yang paling penting bagi saya adalah programnya.” If pressed for a number: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor per bulan.” To a low counter (“kalau Rp 5,2 juta?”): “Boleh saya tahu komponen di luar pokoknya — tunjangan, THR, dan kenaikan setelah lulus program? Kalau totalnya jelas, saya bisa jawab dengan pasti.” Calm, a question, no decision; the figures are illustrative and the shape is the lesson.",
+         "id": "Tiga sumber fiktif beririsan antara sekitar Rp 6,0 dan 6,8 juta kotor bulanan untuk tahun pertama di Semarang, dengan tunjangan perumahan mungkin untuk penempatan luar kota dan THR di atasnya; lantainya di bawah ketiganya dan tetap ditandai “verifikasi” sampai peraturan terkini diperiksa. Karena alumni menggambarkan paket tetap, bentuknya adalah jawaban paket tetap: “Saya memahami program ini punya paket standar. Saya ingin tahu komponennya — pokok, tunjangan tetap, THR — tapi yang paling penting bagi saya adalah programnya.” Jika didesak untuk angka: “Dari riset saya, kisaran tahun pertama sekitar Rp 6–7 juta kotor per bulan.” Untuk tawaran balik rendah (“kalau Rp 5,2 juta?”): “Boleh saya tahu komponen di luar pokoknya — tunjangan, THR, dan kenaikan setelah lulus program? Kalau totalnya jelas, saya bisa jawab dengan pasti.” Tenang, pertanyaan, tanpa keputusan; angkanya ilustratif dan bentuknya pelajarannya."
+        },
+        {
+         "h": {
+          "en": "The email",
+          "id": "Email"
+         }
+        },
+        {
+         "en": "Subject: “Terima kasih — wawancara awal ODP, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Four sentences: specific thanks, a correction and a decision without apology, one line of interest tied to the specific moment, the stated next step. It would not have reversed the screen on its own; it would have put two repaired facts on the file, which is what the second recruiter reads.",
+         "id": "Subjek: “Terima kasih — wawancara awal ODP, [tanggal]”. “Yth. Ibu Sinta, terima kasih atas waktunya kemarin, terutama penjelasan tentang rotasi sebulan di kantor regional luar Jawa. Satu tambahan: masa magang saya di cabang Semarang adalah Juni–Agustus 2025, dan setelah berdiskusi dengan keluarga saya bersedia ditempatkan di seluruh Indonesia. Rotasi regional itu justru bagian yang paling ingin saya jalani. Saya menantikan kabar dalam dua minggu sebagaimana Ibu sampaikan. Hormat saya, Nadia Putri.” Empat kalimat: terima kasih spesifik, koreksi dan keputusan tanpa permintaan maaf, satu kalimat minat terkait momen spesifik, langkah berikutnya yang dinyatakan. Ia tidak akan membalikkan seleksi awal sendirian; ia akan menaruh dua fakta yang diperbaiki di berkas, yang dibaca rekruter kedua."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your diagnosis found A5 or A10 failing, re-read the checks — honest and short passes. If your A6 rewrite still contains “tergantung” without a specific condition, it is not decided. If your range started at the floor, you priced yourself at the legal minimum. If your email contains “mohon maaf atas jawaban saya kemarin”, it is an apology, not a correction. Your HR set is now the fifth Kit item; Round 5 runs the full HR interview from it, including your difficult case and a salary probe.",
+        "id": "Bandingkan, jangan salin. Jika diagnosismu menemukan J5 atau J10 gagal, baca ulang pemeriksaannya — jujur dan singkat lolos. Jika tulis ulang J6-mu masih memuat “tergantung” tanpa syarat spesifik, ia belum diputuskan. Jika rentangmu dimulai di lantai, kamu menghargai dirimu di minimum legal. Jika emailmu memuat “mohon maaf atas jawaban saya kemarin”, itu permintaan maaf, bukan koreksi. Set HR-mu kini butir Perangkat kelima; Putaran 5 menjalankan wawancara HR penuh darinya, termasuk kasus sulitmu dan galian gaji."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as Ibu Sinta would with the CV open beside the transcript. Submitting locks them on this device, opens the model notes, and files your HR set as the fifth Kit item.",
+        "id": "Baca kelima jawabanmu seperti Ibu Sinta dengan CV terbuka di samping transkrip. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan mengarsipkan set HR-mu sebagai butir Perangkat kelima."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run Round 5 — the full HR interview with your difficult case and a salary probe — and check every answer’s length against its target before Module 6.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan Putaran 5 — wawancara HR penuh dengan kasus sulitmu dan galian gaji — dan periksa panjang setiap jawaban terhadap sasarannya sebelum Modul 6."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Marking the honest short answers as failures",
+         "id": "Menandai jawaban jujur yang singkat sebagai kegagalan"
+        },
+        "fix": {
+         "en": "A5 and A10 passed; the checks reward short and true.",
+         "id": "J5 dan J10 lolos; pemeriksaan menghargai singkat dan benar."
+        }
+       },
+       {
+        "h": {
+         "en": "A rewrite that is still undecided",
+         "id": "Tulis ulang yang masih belum diputuskan"
+        },
+        "fix": {
+         "en": "“Bersedia” or “tidak”, with a specific condition if any — never “tergantung” alone.",
+         "id": "“Bersedia” atau “tidak”, dengan syarat spesifik jika ada — jangan pernah “tergantung” saja."
+        }
+       },
+       {
+        "h": {
+         "en": "A range that starts at the floor",
+         "id": "Rentang yang dimulai di lantai"
+        },
+        "fix": {
+         "en": "The floor is the legal minimum, not your bottom; the sources set the range.",
+         "id": "Lantai adalah minimum legal, bukan batas bawahmu; sumber yang menetapkan rentang."
+        }
+       },
+       {
+        "h": {
+         "en": "An apology instead of a correction",
+         "id": "Permintaan maaf alih-alih koreksi"
+        },
+        "fix": {
+         "en": "“Satu tambahan: …” — the fact, fixed, in one sentence.",
+         "id": "“Satu tambahan: …” — faktanya, diperbaiki, dalam satu kalimat."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Diagnosis",
+        "id": "Diagnosis"
+       },
+       "def": {
+        "en": "Mapping each HR answer to the check it served and saying whether it passed — length, truth, decision, consistency, content.",
+        "id": "Memetakan tiap jawaban HR ke pemeriksaan yang dilayaninya dan mengatakan apakah lolos — panjang, kebenaran, keputusan, konsistensi, isi."
+       }
+      },
+      {
+       "term": {
+        "en": "Fixed-package answer",
+        "id": "Jawaban paket tetap"
+       },
+       "def": {
+        "en": "Acknowledge the standard package, ask for its components, put the programme first; hold the researched range in reserve.",
+        "id": "Akui paket standar, tanyakan komponennya, utamakan program; simpan rentang hasil riset sebagai cadangan."
+       }
+      },
+      {
+       "term": {
+        "en": "Correcting addition",
+        "id": "Tambahan yang mengoreksi"
+       },
+       "def": {
+        "en": "The one sentence in a follow-up email that repairs a fact or states a decision made since — without apology.",
+        "id": "Satu kalimat di email tindak lanjut yang memperbaiki fakta atau menyatakan keputusan yang dibuat sejak itu — tanpa permintaan maaf."
+       }
+      },
+      {
+       "term": {
+        "en": "HR answer set",
+        "id": "Set jawaban HR"
+       },
+       "def": {
+        "en": "The Kit item: ten pointers with lengths, four decided sentences, the difficult-case answer, the sourced range.",
+        "id": "Butir Perangkat: sepuluh penunjuk dengan panjang, empat kalimat yang diputuskan, jawaban kasus sulit, rentang bersumber."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A3 in the transcript — “HR-nya tidak memproses, jadi ya sudah” — fails which check?",
+        "id": "J3 di transkrip — “HR-nya tidak memproses, jadi ya sudah” — gagal pemeriksaan mana?"
+       },
+       "options": [
+        {
+         "en": "Salary fit",
+         "id": "Kecocokan gaji"
+        },
+        {
+         "en": "Red flags — it blames a third party — and consistency, because the dates drift from the CV",
+         "id": "Tanda bahaya — menyalahkan pihak ketiga — dan konsistensi, karena tanggalnya melenceng dari CV"
+        },
+        {
+         "en": "Availability",
+         "id": "Ketersediaan"
+        },
+        {
+         "en": "None — it is honest",
+         "id": "Tidak ada — itu jujur"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Honest is necessary, not sufficient; blame and a drifting date are both scored, and the length made the internship look like the biggest thing in her head.",
+        "id": "Jujur perlu, tidak cukup; menyalahkan dan tanggal yang melenceng sama-sama dinilai, dan panjangnya membuat magang tampak seperti hal terbesar di kepalanya."
+       }
+      },
+      {
+       "q": {
+        "en": "The programme has a fixed package. Nadia’s salary answer should…",
+        "id": "Program punya paket tetap. Jawaban gaji Nadia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Name a range ten percent above the package",
+         "id": "Menyebut rentang sepuluh persen di atas paket"
+        },
+        {
+         "en": "Acknowledge the standard package, ask for its components, and put the programme first — with the researched range in reserve",
+         "id": "Mengakui paket standar, menanyakan komponennya, dan mengutamakan program — dengan rentang hasil riset sebagai cadangan"
+        },
+        {
+         "en": "Say “terserah”",
+         "id": "Berkata “terserah”"
+        },
+        {
+         "en": "Quote the floor",
+         "id": "Mengutip lantai"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Nothing to anchor; the answer shows research and passes the fit check.",
+        "id": "Tidak ada yang dijangkar; jawabannya menunjukkan riset dan lolos pemeriksaan kecocokan."
+       }
+      },
+      {
+       "q": {
+        "en": "The follow-up email’s “addition” sentence should…",
+        "id": "Kalimat “tambahan” email tindak lanjut sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Apologise for the weak answers",
+         "id": "Meminta maaf atas jawaban yang lemah"
+        },
+        {
+         "en": "Correct one fact and state the placement decision, in one sentence, without apology",
+         "id": "Mengoreksi satu fakta dan menyatakan keputusan penempatan, dalam satu kalimat, tanpa permintaan maaf"
+        },
+        {
+         "en": "Repeat the whole opening",
+         "id": "Mengulang seluruh pembuka"
+        },
+        {
+         "en": "Ask for the result early",
+         "id": "Meminta hasil lebih awal"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Signal, not flattery: the addition puts a repaired fact on the file for the next reader.",
+        "id": "Sinyal, bukan sanjungan: tambahan menaruh fakta yang diperbaiki di berkas untuk pembaca berikutnya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "hr03",
+       "hr11",
+       "hr07",
+       "hr08",
+       "bh21",
+       "diff_ipk_threshold",
+       "elig_placement",
+       "elig_service_bond",
+       "elig_salary_gross",
+       "elig_start_date",
+       "close_any_questions"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "format": "phone",
+      "probes": 1,
+      "returnTo": 5,
+      "label": {
+       "en": "Round 5 · Full HR interview (twelve questions)",
+       "id": "Putaran 5 · Wawancara HR penuh (dua belas pertanyaan)"
+      },
+      "desc": {
+       "en": "The full screen with the HR persona: the ten questions plus a difficult-case question and the closing “ada pertanyaan?”, with one probe each — including a salary probe. Answer from your HR set; keep the total near eight minutes so nothing gets cut. The session history shows each answer’s length against its target.",
+       "id": "Seleksi awal penuh dengan persona HR: sepuluh pertanyaan plus satu pertanyaan kasus sulit dan penutup “ada pertanyaan?”, dengan satu galian masing-masing — termasuk galian gaji. Jawab dari set HR-mu; jaga totalnya sekitar delapan menit agar tidak ada yang dipotong. Riwayat sesi menunjukkan panjang tiap jawaban terhadap sasarannya."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 5 lengths",
+       "id": "Panjang Putaran 5"
+      },
+      "body": {
+       "en": "After Round 5, read the twelve answer lengths in the session history against the targets from Lesson 5.1. Anything over its target by half is the answer to cut; anything under ten seconds that is not an eligibility question probably lost its evidence. Note whether the salary probe was answered with a question, and whether the difficult case kept Account short.",
+       "id": "Setelah Putaran 5, baca dua belas panjang jawaban di riwayat sesi terhadap sasaran dari Pelajaran 5.1. Apa pun yang melebihi sasaran separuh adalah jawaban yang dipangkas; apa pun di bawah sepuluh detik yang bukan pertanyaan kelayakan mungkin kehilangan buktinya. Catat apakah galian gaji dijawab dengan pertanyaan, dan apakah kasus sulit menjaga Jelaskan tetap singkat."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "A warm screen can still fail four checks; diagnose by check, not by feel.",
+       "id": "Seleksi awal yang hangat tetap bisa gagal empat pemeriksaan; diagnosis per pemeriksaan, bukan per perasaan."
+      },
+      {
+       "en": "Decided, short, CV-consistent rewrites leave time for the two questions that show you chose them.",
+       "id": "Tulis ulang yang diputuskan, singkat, konsisten dengan CV menyisakan waktu untuk dua pertanyaan yang menunjukkan kamu memilih mereka."
+      },
+      {
+       "en": "The follow-up repairs facts on the file; it does not apologise.",
+       "id": "Tindak lanjut memperbaiki fakta di berkas; ia tidak meminta maaf."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 3 · the rubric",
-        "id": "Modul 3 · rubriknya"
+        "en": "Lessons 5.1–5.4",
+        "id": "Pelajaran 5.1–5.4"
        },
        "desc": {
-        "en": "You know what will be probed and which story answers it.",
-        "id": "Kamu tahu apa yang akan digali dan cerita mana yang menjawabnya."
+        "en": "HR’s checklist and the ten questions, the difficult question in three parts, salary and practical terms, personal and sensitive questions.",
+        "id": "Daftar periksa HR dan sepuluh pertanyaan, pertanyaan sulit dalam tiga bagian, gaji dan syarat praktis, pertanyaan pribadi dan sensitif."
        }
       },
       "now": {
        "label": {
-        "en": "Module 5 · the HR room, solved",
-        "id": "Modul 5 · ruang HR, terpecahkan"
+        "en": "5.5 · The Bank Sinar HR round",
+        "id": "5.5 · Ronde HR Bank Sinar"
        },
        "desc": {
-        "en": "Five questions, a positioning statement, answer systems and a close that lands the next day.",
-        "id": "Lima pertanyaan, pernyataan pemosisian, sistem jawaban, dan penutup yang mendarat keesokan harinya."
+        "en": "You have diagnosed a failed screen by check, rewritten four answers, built a sourced range, written the follow-up, and filed your own HR set.",
+        "id": "Kamu sudah mendiagnosis seleksi awal yang gagal per pemeriksaan, menulis ulang empat jawaban, membangun rentang bersumber, menulis tindak lanjut, dan mengarsipkan set HR-mu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 6 · technical and peer rounds",
-        "id": "Modul 6 · babak teknis dan rekan"
+        "en": "Module 6 · The User, Technical and Case Interview",
+        "id": "Modul 6 · Wawancara User, Teknis, dan Kasus"
        },
        "desc": {
-        "en": "Method under observation, the “I don’t know” protocol and the dynamics of the peer interview.",
-        "id": "Metode di bawah pengamatan, protokol “saya tidak tahu”, dan dinamika wawancara rekan."
+        "en": "The decisive round: competency questions probed in depth, technical questions and the “I don’t know” protocol, case interviews, estimation, take-home tasks — and Arunika’s supply-chain case.",
+        "id": "Ronde penentu: pertanyaan kompetensi digali mendalam, pertanyaan teknis dan protokol “saya tidak tahu”, wawancara kasus, estimasi, tugas take-home — dan kasus rantai pasok Arunika."
        },
        "lesson": "6.1"
       }
-     },
-     "migratedFrom": "the-rope:4.4"
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
-   "heroPos": "56% 22%"
+   "heroPos": "56% 22%",
+   "round": {
+    "en": "Round 5 · Full HR interview — twelve questions with the HR persona at phone-screen pace, including the learner’s difficult case and a salary probe; the debrief is each answer’s length against its target.",
+    "id": "Putaran 5 · Wawancara HR penuh — dua belas pertanyaan dengan persona HR pada kecepatan seleksi telepon, termasuk kasus sulit pelajar dan galian gaji; debrief-nya adalah panjang tiap jawaban terhadap sasarannya."
+   }
   },
   {
    "num": 6,
