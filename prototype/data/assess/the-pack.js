@@ -1945,39 +1945,386 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "6": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "6.1",
+    "h": {
+     "en": "What a Letter Is For",
+     "id": "Untuk Apa Surat Lamaran"
+    },
+    "sub": {
+     "en": "Read first or not at all, the three jobs, the CV still matters more, when the email is the letter.",
+     "id": "Dibaca pertama atau tidak sama sekali, tiga tugas, CV tetap lebih penting, kapan email adalah suratnya."
+    }
+   },
+   {
+    "lesson": "6.2",
+    "h": {
+     "en": "The Four-Paragraph Letter",
+     "id": "Surat Empat Paragraf"
+    },
+    "sub": {
+     "en": "Salutation, opening, fit evidence, why them, close, style, the eight-mistake audit.",
+     "id": "Salam, pembuka, bukti kecocokan, mengapa mereka, penutup, gaya, audit delapan kesalahan."
+    }
+   },
+   {
+    "lesson": "6.3",
+    "h": {
+     "en": "Surat Lamaran Kerja",
+     "id": "Surat Lamaran Kerja"
+    },
+    "sub": {
+     "en": "When to use it, the eleven components, evidence in the formal register, the lampiran list, ejaan.",
+     "id": "Kapan memakainya, sebelas komponen, bukti dalam register formal, daftar lampiran, ejaan."
+    }
+   },
+   {
+    "lesson": "6.4",
+    "h": {
+     "en": "Emails, Criteria and Speculative Letters",
+     "id": "Email, Kriteria, dan Surat Spekulatif"
+    },
+    "sub": {
+     "en": "The application email field by field, selection criteria, speculative letters after a conversation.",
+     "id": "Email lamaran kolom demi kolom, kriteria seleksi, surat spekulatif setelah percakapan."
+    }
+   }
+  ],
   "mcq": [
    {
-    "type": "scen",
+    "type": "know",
+    "lesson": "6.1",
     "q": {
-     "en": "Which cover-letter opening survives its ten-second read?",
-     "id": "Pembuka surat lamaran mana yang lolos pembacaan sepuluh detik?"
+     "en": "The purpose of the cover letter is to…",
+     "id": "Tujuan surat pengantar adalah…"
     },
     "opts": [
      {
-      "en": "'I am writing to express my sincere interest in this position at your esteemed company.'",
-      "id": "'Melalui surat ini saya menyampaikan minat yang tulus terhadap posisi di perusahaan Bapak/Ibu yang terhormat.'"
+      "en": "Repeat the CV in sentences",
+      "id": "Mengulang CV dalam kalimat"
      },
      {
-      "en": "'I'm applying for the junior analyst role. Last year I built the sales dashboard a 40-store retailer still uses weekly.'",
-      "id": "'Saya melamar posisi analis junior. Tahun lalu saya membangun dasbor penjualan yang sampai sekarang masih dipakai tiap minggu oleh peritel dengan 40 toko.'"
+      "en": "Answer why this role, what you bring and why now — motivation and fit, which the CV cannot show",
+      "id": "Menjawab mengapa peran ini, apa yang kamu bawa, dan mengapa sekarang — motivasi dan kecocokan, yang tidak bisa ditunjukkan CV"
      },
      {
-      "en": "'My name is Rafi and I graduated from a reputable university.'",
-      "id": "'Nama saya Rafi, dan saya lulusan universitas ternama.'"
+      "en": "List your salary expectations",
+      "id": "Mencantumkan ekspektasi gajimu"
      },
      {
-      "en": "'Please find my CV attached for your kind consideration.'",
-      "id": "'Terlampir CV saya untuk pertimbangan Bapak/Ibu.'"
+      "en": "Replace the CV",
+      "id": "Menggantikan CV"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The hook spends its seconds on a checkable proof tied to the role. Interest is demonstrated, never declared.",
-     "id": "Kalimat pembuka menghabiskan detik-detiknya untuk bukti yang bisa diperiksa dan terkait dengan perannya. Minat ditunjukkan, bukan dinyatakan."
+     "en": "The CV proves technical fit; the letter shows motivation and cultural fit.",
+     "id": "CV membuktikan kecocokan teknis; surat menunjukkan motivasi dan kecocokan budaya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.1",
+    "q": {
+     "en": "A graduate writes her TOEFL score and her willingness to relocate only in the cover letter, not in the CV. The risk is…",
+     "id": "Seorang lulusan menulis skor TOEFL dan kesediaannya pindah hanya di surat pengantar, bukan di CV. Risikonya adalah…"
+    },
+    "opts": [
+     {
+      "en": "None — the letter is always read",
+      "id": "Tidak ada — surat selalu dibaca"
+     },
+     {
+      "en": "Software may strip the letter, so the second reader never sees either fact",
+      "id": "Perangkat lunak mungkin membuang surat, jadi pembaca kedua tidak pernah melihat kedua fakta itu"
+     },
+     {
+      "en": "The letter becomes too long",
+      "id": "Suratnya menjadi terlalu panjang"
+     },
+     {
+      "en": "The CV looks too short",
+      "id": "CV-nya tampak terlalu pendek"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Never put anything essential only in the letter.",
+     "id": "Jangan pernah taruh hal esensial hanya di surat."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.2",
+    "q": {
+     "en": "A letter opens: “Although I have no direct experience in FMCG, I am eager to learn.” The problem is…",
+     "id": "Sebuah surat dibuka: “Meskipun saya belum punya pengalaman langsung di FMCG, saya ingin belajar.” Masalahnya adalah…"
+    },
+    "opts": [
+     {
+      "en": "It is too short",
+      "id": "Terlalu pendek"
+     },
+     {
+      "en": "It leads with a deficit; open with the role and your strongest fit or a genuine connection",
+      "id": "Diawali kekurangan; buka dengan peran dan kecocokan terkuatmu atau koneksi tulus"
+     },
+     {
+      "en": "It should mention salary",
+      "id": "Seharusnya menyebut gaji"
+     },
+     {
+      "en": "It should be in the third person",
+      "id": "Seharusnya dalam orang ketiga"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The reader will find the gaps in the CV; the opening is where you choose what they see first.",
+     "id": "Pembaca akan menemukan celahnya di CV; pembuka adalah tempat kamu memilih apa yang mereka lihat pertama."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.2",
+    "q": {
+     "en": "The “why them” paragraph should be built from…",
+     "id": "Paragraf “mengapa mereka” sebaiknya dibangun dari…"
+    },
+    "opts": [
+     {
+      "en": "An AI summary of the company",
+      "id": "Ringkasan AI tentang perusahaan"
+     },
+     {
+      "en": "Two or three verified specifics from the company’s own sources, the advertisement, recent news or a conversation",
+      "id": "Dua atau tiga hal spesifik terverifikasi dari sumber perusahaan sendiri, iklan, berita terkini, atau percakapan"
+     },
+     {
+      "en": "Praise for the company’s market leadership",
+      "id": "Pujian atas kepemimpinan pasar perusahaan"
+     },
+     {
+      "en": "The previous letter’s third paragraph",
+      "id": "Paragraf ketiga surat sebelumnya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A wrong specific is worse than none; every fact must be traceable.",
+     "id": "Hal spesifik yang salah lebih buruk daripada tidak ada; setiap fakta harus bisa dilacak."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.2",
+    "q": {
+     "en": "A letter ends: “I look forward to hearing from you.” The stronger close is…",
+     "id": "Sebuah surat diakhiri: “Saya menantikan kabar dari Anda.” Penutup yang lebih kuat adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Please contact me at your earliest convenience regarding salary.”",
+      "id": "“Mohon hubungi saya secepatnya mengenai gaji.”"
+     },
+     {
+      "en": "One sentence restating the top two points, an invitation to a conversation, and availability",
+      "id": "Satu kalimat mengulang dua poin teratas, undangan percakapan, dan ketersediaan"
+     },
+     {
+      "en": "“Thank you for reading my letter.”",
+      "id": "“Terima kasih telah membaca surat saya.”"
+     },
+     {
+      "en": "A P.S. with your IPK",
+      "id": "P.S. dengan IPK-mu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The close gives the reader a next step; money is never in the letter.",
+     "id": "Penutup memberi pembaca langkah berikutnya; uang tidak pernah ada di surat."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.3",
+    "q": {
+     "en": "In a surat lamaran, the lampiran list…",
+     "id": "Dalam surat lamaran, daftar lampiran…"
+    },
+    "opts": [
+     {
+      "en": "Is optional decoration",
+      "id": "Adalah hiasan opsional"
+     },
+     {
+      "en": "Names every attached document in the advertisement’s words and doubles as the completeness check",
+      "id": "Menyebut setiap dokumen terlampir dalam kata-kata iklan dan sekaligus menjadi pemeriksaan kelengkapan"
+     },
+     {
+      "en": "Lists your skills",
+      "id": "Mencantumkan keterampilanmu"
+     },
+     {
+      "en": "Goes in the subject line",
+      "id": "Masuk ke baris perihal"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "If you cannot list it, you have not attached it; count = list = files.",
+     "id": "Jika kamu tidak bisa mencantumkannya, kamu belum melampirkannya; jumlah = daftar = berkas."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.3",
+    "q": {
+     "en": "A surat lamaran body reads: “Saya pribadi yang jujur, disiplin, dan mampu bekerja dalam tim.” The upgrade is…",
+     "id": "Isi surat lamaran berbunyi: “Saya pribadi yang jujur, disiplin, dan mampu bekerja dalam tim.” Peningkatannya adalah…"
+    },
+    "opts": [
+     {
+      "en": "Add “sangat” before each adjective",
+      "id": "Tambahkan “sangat” sebelum tiap kata sifat"
+     },
+     {
+      "en": "Replace the claims with two or three evidence sentences — setting, action, result with a number — in the same formal register",
+      "id": "Ganti klaimnya dengan dua atau tiga kalimat bukti — latar, tindakan, hasil dengan angka — dalam register formal yang sama"
+     },
+     {
+      "en": "Translate it into English",
+      "id": "Terjemahkan ke bahasa Inggris"
+     },
+     {
+      "en": "Move it to the lampiran list",
+      "id": "Pindahkan ke daftar lampiran"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Formal format, modern content; the reader supplies the adjectives when the evidence earns them.",
+     "id": "Format formal, isi modern; pembaca melengkapi kata sifatnya ketika buktinya layak."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "6.4",
+    "q": {
+     "en": "The best subject line for an application email is…",
+     "id": "Baris subjek terbaik untuk email lamaran adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Lamaran”",
+      "id": "“Lamaran”"
+     },
+     {
+      "en": "“Lamaran – Management Trainee – Nadia Putri”, or exactly as the advertisement instructs",
+      "id": "“Lamaran – Management Trainee – Nadia Putri”, atau persis seperti instruksi iklan"
+     },
+     {
+      "en": "“Please read”",
+      "id": "“Please read”"
+     },
+     {
+      "en": "“CV”",
+      "id": "“CV”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Position and full name file the application correctly.",
+     "id": "Posisi dan nama lengkap mengarsipkan lamaran dengan benar."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.4",
+    "q": {
+     "en": "A scholarship criterion reads “strong written and verbal communication skills”. A candidate answers with one presentation story. The gap is…",
+     "id": "Kriteria beasiswa berbunyi “keterampilan komunikasi tertulis dan lisan yang kuat”. Seorang kandidat menjawab dengan satu cerita presentasi. Celahnya adalah…"
+    },
+    "opts": [
+     {
+      "en": "The story is too long",
+      "id": "Ceritanya terlalu panjang"
+     },
+     {
+      "en": "The criterion has two parts; “written” needs its own evidence",
+      "id": "Kriterianya punya dua bagian; “tertulis” butuh buktinya sendiri"
+     },
+     {
+      "en": "Presentations do not count",
+      "id": "Presentasi tidak dihitung"
+     },
+     {
+      "en": "It should be in the CV instead",
+      "id": "Seharusnya di CV saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Address every part of each criterion, with different evidence for each.",
+     "id": "Jawab setiap bagian tiap kriteria, dengan bukti berbeda untuk masing-masing."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "6.4",
+    "q": {
+     "en": "Rumah Rempah has no posting. The strongest speculative letter Nadia can send is…",
+     "id": "Rumah Rempah tidak punya lowongan. Surat spekulatif terkuat yang bisa dikirim Nadia adalah…"
+    },
+    "opts": [
+     {
+      "en": "Her CV to the general HR inbox",
+      "id": "CV-nya ke kotak masuk HR umum"
+     },
+     {
+      "en": "A short note to the manager Kak Wulan named, after their conversation, leading with the problem she learned about and one easy next step",
+      "id": "Catatan singkat ke manajer yang disebut Kak Wulan, setelah percakapan mereka, dibuka dengan masalah yang ia pelajari dan satu langkah berikutnya yang mudah"
+     },
+     {
+      "en": "A long letter listing all her skills",
+      "id": "Surat panjang yang mencantumkan semua keterampilannya"
+     },
+     {
+      "en": "Nothing — wait for a posting",
+      "id": "Tidak ada — tunggu lowongan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Named, short, after a conversation, what is in it for them first; a cold CV to HR is broadcasting.",
+     "id": "Bernama, singkat, setelah percakapan, apa untungnya bagi mereka lebih dulu; CV dingin ke HR adalah menyiarkan."
     }
    }
   ],
-  "reflect": null
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. What does your letter say that your CV cannot? Take your Top 1 target and write the three answers — why this role at this organisation, what you bring and how they benefit, why now — then say which one was hardest to write honestly and what research or conversation would make it easier.",
+    "id": "Minimal 100 kata. Apa yang dikatakan suratmu yang tidak bisa dikatakan CV-mu? Ambil sasaran Teratas 1-mu dan tulis tiga jawabannya — mengapa peran ini di organisasi ini, apa yang kamu bawa dan bagaimana mereka diuntungkan, mengapa sekarang — lalu katakan mana yang paling sulit ditulis dengan jujur dan riset atau percakapan apa yang akan memudahkannya."
+   },
+   "guide": [
+    {
+     "en": "Name the verified specific you would use for “why them” and where it came from.",
+     "id": "Sebutkan hal spesifik terverifikasi yang akan kamu pakai untuk “mengapa mereka” dan dari mana asalnya."
+    },
+    {
+     "en": "Name the one CV highlight you would expand into a story, and the number in it.",
+     "id": "Sebutkan satu sorotan CV yang akan kamu perluas menjadi cerita, dan angka di dalamnya."
+    },
+    {
+     "en": "If the hardest one is “why this organisation”, that is a Module 2 conversation you have not had yet — say who you would ask.",
+     "id": "Jika yang paling sulit adalah “mengapa organisasi ini”, itu percakapan Modul 2 yang belum kamu lakukan — sebutkan siapa yang akan kamu tanya."
+    }
+   ],
+   "min": 100
+  }
  },
  "7": {
   "minutes": 14,
