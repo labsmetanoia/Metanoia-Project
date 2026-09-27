@@ -5,129 +5,324 @@
 window.MT_ASSESS = window.MT_ASSESS || {};
 window.MT_ASSESS['the-rope'] = {
  "1": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "An interview is best understood as:",
-     "id": "Wawancara paling tepat dipahami sebagai:"
+    "lesson": "1.1",
+    "h": {
+     "en": "What an Interview Is Actually For",
+     "id": "Untuk Apa Sebenarnya Wawancara Itu"
     },
-    "opts": [
-     {
-      "en": "An interrogation to catch weaknesses",
-      "id": "Interogasi untuk menangkap kelemahan"
-     },
-     {
-      "en": "A structured evaluation of fit, capability, judgment, communication and potential",
-      "id": "Evaluasi terstruktur atas kecocokan, kemampuan, pertimbangan, komunikasi, dan potensi"
-     },
-     {
-      "en": "A personality contest",
-      "id": "Kontes kepribadian"
-     },
-     {
-      "en": "A formality after the CV decides",
-      "id": "Formalitas setelah CV yang memutuskan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Interviewers are answering: can this person do the work, will they do it here, and do we trust them with our clients and our team?",
-     "id": "Pewawancara sedang menjawab tiga pertanyaan: bisakah orang ini mengerjakan pekerjaannya, maukah ia mengerjakannya di sini, dan bisakah kami memercayakannya di depan klien dan tim kami?"
+    "sub": {
+     "en": "One decision, three questions; why interviewers probe; two directions; four interviewer styles.",
+     "id": "Satu keputusan, tiga pertanyaan; mengapa pewawancara menggali; dua arah; empat gaya pewawancara."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The interviewer's third follow-up digs into one small claim on your CV. This signals:",
-     "id": "Pertanyaan lanjutan ketiga dari pewawancara menggali satu klaim kecil di CV-mu. Ini pertanda:"
+    "lesson": "1.2",
+    "h": {
+     "en": "How Answers Are Scored",
+     "id": "Bagaimana Jawaban Dinilai"
     },
-    "opts": [
-     {
-      "en": "They are trying to break you",
-      "id": "Mereka sedang berusaha menjatuhkanmu"
-     },
-     {
-      "en": "Standard evidence probing — claims are calibrated by depth, which is why every line must survive three whys",
-      "id": "Penggalian bukti yang standar — klaim diukur lewat kedalamannya, itulah sebabnya setiap baris CV harus tahan tiga kali ditanya 'mengapa'"
-     },
-     {
-      "en": "Your answer was wrong",
-      "id": "Jawabanmu salah"
-     },
-     {
-      "en": "The interview is going badly",
-      "id": "Wawancaranya berjalan buruk"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Depth probes are how interviewers separate owners from bystanders. Prepared candidates welcome them: the third why is where their evidence lives.",
-     "id": "Penggalian mendalam adalah cara pewawancara memisahkan orang yang benar-benar mengerjakan dari yang sekadar menonton. Kandidat yang siap justru menyambutnya: pada 'mengapa' yang ketiga itulah bukti mereka berada."
+    "sub": {
+     "en": "Anchored scales, the five features, we → I → we, the debrief, red flags.",
+     "id": "Skala berjangkar, lima ciri, kami → saya → kami, rapat evaluasi, tanda bahaya."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "STAR-L structures a story as:",
-     "id": "STAR-L menyusun sebuah cerita sebagai:"
+    "lesson": "1.3",
+    "h": {
+     "en": "The Seven Question Types",
+     "id": "Tujuh Tipe Pertanyaan"
     },
-    "opts": [
-     {
-      "en": "Strengths, Talents, Achievements, Results, Learning",
-      "id": "Kekuatan, Bakat, Prestasi, Hasil, Pelajaran"
-     },
-     {
-      "en": "Situation/Context, Task/Challenge, Action, Result, Learning",
-      "id": "Situasi/Konteks, Tugas/Tantangan, Aksi, Hasil, Pelajaran"
-     },
-     {
-      "en": "Start, Trouble, Answer, Resolution, Lesson",
-      "id": "Mulai, Masalah, Jawaban, Resolusi, Pelajaran"
-     },
-     {
-      "en": "Any five-sentence answer",
-      "id": "Jawaban lima kalimat apa pun"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The L is the differentiator: what changed in how you work afterwards. It converts a war story into evidence of growth.",
-     "id": "L-nya yang menjadi pembeda: apa yang berubah dalam caramu bekerja setelahnya. Itulah yang mengubah cerita heroik menjadi bukti pertumbuhan."
+    "sub": {
+     "en": "Types and answer shapes, hidden concerns, stress protocol, “I don’t know”.",
+     "id": "Tipe dan bentuk jawaban, kekhawatiran tersembunyi, protokol tekanan, “saya tidak tahu”."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The honest reframe for a semester gap on your record is:",
-     "id": "Cara jujur untuk membingkai jeda satu semester dalam riwayatmu adalah:"
+    "lesson": "1.4",
+    "h": {
+     "en": "Indonesian Selection Processes",
+     "id": "Proses Seleksi di Indonesia"
     },
-    "opts": [
-     {
-      "en": "Hope nobody asks",
-      "id": "Berharap tidak ada yang bertanya"
-     },
-     {
-      "en": "Name it, show what it taught or built, bring the evidence you do have",
-      "id": "Sebutkan apa adanya, tunjukkan apa yang kamu pelajari atau bangun selama itu, dan bawa bukti yang memang kamu punya"
-     },
-     {
-      "en": "A creative story that fills the gap",
-      "id": "Cerita kreatif untuk menutupi jedanya"
-     },
-     {
-      "en": "Refusing to discuss personal matters",
-      "id": "Menolak membahas urusan pribadi"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Difficult cases are won by honest reframing — gap → growth → evidence — never by invented cover stories that reference checks unravel.",
-     "id": "Kasus yang sulit dimenangkan dengan pembingkaian yang jujur — jeda → pertumbuhan → bukti — bukan dengan cerita karangan yang akan terbongkar saat pemeriksaan referensi."
+    "sub": {
+     "en": "Five tracks, stage owners, formats, reading the invitation, the format map.",
+     "id": "Lima jalur, pemilik tahap, format, membaca undangan, peta format."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "1.1",
+    "q": {
+     "en": "The three things every interviewer is trying to decide are…",
+     "id": "Tiga hal yang ingin diputuskan setiap pewawancara adalah…"
+    },
+    "opts": [
+     {
+      "en": "Confidence, appearance, punctuality",
+      "id": "Kepercayaan diri, penampilan, ketepatan waktu"
+     },
+     {
+      "en": "Can you do it, will you do it, will you fit",
+      "id": "Bisakah kamu, maukah kamu, cocokkah kamu"
+     },
+     {
+      "en": "IPK, English, references",
+      "id": "IPK, bahasa Inggris, referensi"
+     },
+     {
+      "en": "Salary, start date, placement",
+      "id": "Gaji, tanggal mulai, penempatan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Every question maps to at least one of the three; the hire decision sits where they overlap (Kador).",
+     "id": "Setiap pertanyaan memetakan ke setidaknya satu dari ketiganya; keputusan merekrut berada di irisannya (Kador)."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.1",
+    "q": {
+     "en": "An interviewer has talked about the company for twenty of thirty minutes. The best move is…",
+     "id": "Pewawancara sudah bicara tentang perusahaan selama dua puluh dari tiga puluh menit. Langkah terbaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Wait — they will ask when ready",
+      "id": "Tunggu — mereka akan bertanya saat siap"
+     },
+     {
+      "en": "Listen, ask one relevant question, then bridge to your most relevant evidence",
+      "id": "Dengarkan, ajukan satu pertanyaan relevan, lalu jembatani ke bukti paling relevanmu"
+     },
+     {
+      "en": "Interrupt with your strongest story",
+      "id": "Sela dengan cerita terkuatmu"
+     },
+     {
+      "en": "Ask how much time is left",
+      "id": "Tanyakan berapa waktu tersisa"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The talker still has to leave the room with evidence to justify a yes (Pellett).",
+     "id": "Si banyak bicara tetap harus pulang dengan bukti untuk membenarkan “ya” (Pellett)."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.2",
+    "q": {
+     "en": "A candidate answers “Tell me about a time you solved a problem” with a real internship example in which every action is “kami”, and no result. On a 1–4 anchor this is…",
+     "id": "Kandidat menjawab “Ceritakan saat Anda memecahkan masalah” dengan contoh magang nyata di mana setiap tindakan adalah “kami”, dan tanpa hasil. Pada jangkar 1–4 ini…"
+    },
+    "opts": [
+     {
+      "en": "A 4 — it was real",
+      "id": "Nilai 4 — itu nyata"
+     },
+     {
+      "en": "A 2 — real, but own actions unclear and result missing",
+      "id": "Nilai 2 — nyata, tetapi tindakan sendiri tidak jelas dan hasil hilang"
+     },
+     {
+      "en": "A 1 — hypothetical",
+      "id": "Nilai 1 — hipotetis"
+     },
+     {
+      "en": "A 3 — specific enough",
+      "id": "Nilai 3 — cukup spesifik"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Truth alone earns a 2; ownership and a result are what the anchor asks for next.",
+     "id": "Kebenaran saja mendapat 2; kepemilikan dan hasil adalah yang diminta jangkar berikutnya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "1.2",
+    "q": {
+     "en": "Which of these overrides a strong technical score?",
+     "id": "Mana yang menggugurkan skor teknis yang kuat?"
+    },
+    "opts": [
+     {
+      "en": "A nervous first minute",
+      "id": "Menit pertama yang gugup"
+     },
+     {
+      "en": "Numbers that differ between the HR and user rounds",
+      "id": "Angka yang berbeda antara ronde HR dan user"
+     },
+     {
+      "en": "A short answer to a closing question",
+      "id": "Jawaban singkat untuk pertanyaan penutup"
+     },
+     {
+      "en": "Asking about the team’s size",
+      "id": "Bertanya tentang ukuran tim"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Inconsistency across rounds is raised at the debrief and weakens trust in all your evidence.",
+     "id": "Ketidakkonsistenan lintas ronde diangkat di rapat evaluasi dan melemahkan kepercayaan pada semua buktimu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.3",
+    "q": {
+     "en": "“Kenapa ingin bekerja di sini?” The hidden concern and the shape of a good answer are…",
+     "id": "“Kenapa ingin bekerja di sini?” Kekhawatiran tersembunyi dan bentuk jawaban yang baik adalah…"
+    },
+    "opts": [
+     {
+      "en": "Will you stay — a five-year plan",
+      "id": "Apakah kamu bertahan — rencana lima tahun"
+     },
+     {
+      "en": "Is this a random application — specific research plus fit to your experience (REC)",
+      "id": "Apakah ini lamaran acak — riset spesifik plus kecocokan dengan pengalamanmu (REC)"
+     },
+     {
+      "en": "Can you do it — a STAR story",
+      "id": "Bisakah kamu — cerita STAR"
+     },
+     {
+      "en": "Are you honest — a weakness",
+      "id": "Apakah kamu jujur — kelemahan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A motivational question: one researched fact, one experience, one contribution — never a STAR story that skips why this company.",
+     "id": "Pertanyaan motivasional: satu fakta riset, satu pengalaman, satu kontribusi — bukan cerita STAR yang melewati mengapa perusahaan ini."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.3",
+    "q": {
+     "en": "The user asks how a bank’s net interest margin works, and you have never calculated one. You…",
+     "id": "User bertanya cara kerja net interest margin bank, dan kamu belum pernah menghitungnya. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Give a confident guess",
+      "id": "Beri tebakan percaya diri"
+     },
+     {
+      "en": "Say what you know, reason aloud toward it, and say how you would find out",
+      "id": "Katakan yang kamu tahu, bernalar dengan suara ke arahnya, dan katakan cara kamu mencari tahu"
+     },
+     {
+      "en": "Say “I don’t know” and stop",
+      "id": "Katakan “saya tidak tahu” dan berhenti"
+     },
+     {
+      "en": "Change the subject to your thesis",
+      "id": "Alihkan ke skripsimu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Bluffing is the worst option; honest reasoning at the edge of knowledge scores on limits handled.",
+     "id": "Menggertak pilihan terburuk; bernalar jujur di batas pengetahuan dinilai pada batas yang ditangani."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "1.4",
+    "q": {
+     "en": "In a bank ODP process, the round that usually decides is…",
+     "id": "Dalam proses ODP bank, ronde yang biasanya menentukan adalah…"
+    },
+    "opts": [
+     {
+      "en": "The online test",
+      "id": "Tes daring"
+     },
+     {
+      "en": "The user interview with the branch manager",
+      "id": "Wawancara user dengan kepala cabang"
+     },
+     {
+      "en": "The medical check-up",
+      "id": "Pemeriksaan kesehatan"
+     },
+     {
+      "en": "The HR phone screen",
+      "id": "Seleksi telepon HR"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The user tests capability for the actual work and probes deepest; the screen tests eligibility.",
+     "id": "User menguji kemampuan untuk pekerjaan sebenarnya dan menggali paling dalam; seleksi awal menguji kelayakan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "1.4",
+    "q": {
+     "en": "An invitation says: “5 questions, 90 seconds each, 30 seconds preparation, one retake, due Friday.” You prepare…",
+     "id": "Undangan berbunyi: “5 pertanyaan, 90 detik masing-masing, persiapan 30 detik, satu pengulangan, jatuh tempo Jumat.” Kamu menyiapkan…"
+    },
+    "opts": [
+     {
+      "en": "A conversation with follow-up questions",
+      "id": "Percakapan dengan pertanyaan lanjutan"
+     },
+     {
+      "en": "Structured 90-second answers under a timer, plus camera and sound",
+      "id": "Jawaban 90 detik terstruktur di bawah pengatur waktu, plus kamera dan suara"
+     },
+     {
+      "en": "A group-discussion role",
+      "id": "Peran diskusi kelompok"
+     },
+     {
+      "en": "A salary range",
+      "id": "Rentang gaji"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It is a one-way video: no interviewer, the timer is the interviewer; rehearse with the same timings.",
+     "id": "Ini video satu arah: tanpa pewawancara, pengatur waktu adalah pewawancaranya; latih dengan waktu yang sama."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Two questions. First: what uncertainty will your top employer have about you specifically — name it from your own profile, and say what evidence you have or do not yet have. Second: which interview format on your format map are you least prepared for, and what is the first thing you will do about it this week?",
+    "id": "Minimal 100 kata. Dua pertanyaan. Pertama: ketidakpastian apa yang akan dimiliki perusahaan sasaran teratasmu tentang dirimu secara spesifik — sebutkan dari profilmu sendiri, dan katakan bukti apa yang kamu punya atau belum punya. Kedua: format wawancara mana di peta formatmu yang paling tidak kamu siapkan, dan apa hal pertama yang akan kamu lakukan minggu ini?"
+   },
+   "guide": [
+    {
+     "en": "Draw the uncertainty from a line in your CV, not from a generic list.",
+     "id": "Ambil ketidakpastiannya dari satu baris di CV-mu, bukan dari daftar generik."
+    },
+    {
+     "en": "Name the format (one-way video, LGD, phone screen, panel…) and the module that trains it.",
+     "id": "Sebutkan formatnya (video satu arah, LGD, seleksi telepon, panel…) dan modul yang melatihnya."
+    },
+    {
+     "en": "The first action should fit in two hours.",
+     "id": "Tindakan pertama harus muat dalam dua jam."
+    }
+   ],
+   "min": 100
+  }
  },
  "2": {
   "mcq": [

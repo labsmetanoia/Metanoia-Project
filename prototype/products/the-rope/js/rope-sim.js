@@ -451,6 +451,9 @@
   '.rsim-stage .st-name .dot{width:8px;height:8px;border-radius:50%;background:#4ADE80;flex:none}' +
   '.rsim-stage .st-name b{font-size:12px;color:#F5EFE6}' +
   '.rsim-stage .st-name span{font-size:10.5px;color:rgba(245,239,230,.6)}' +
+  /* persistent disclosure: the interviewer is a simulation (animated portrait, synthetic voice), never a real person */
+  '.rsim-stage .st-sim{position:absolute;right:12px;top:12px;z-index:4;font-size:9.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;' +
+    'color:rgba(245,239,230,.88);background:rgba(5,10,18,.66);backdrop-filter:blur(8px);border:1px solid rgba(245,239,230,.28);border-radius:999px;padding:5px 10px;pointer-events:none}' +
   '.rsim-stage .st-cap{position:absolute;left:0;right:0;bottom:0;z-index:3;padding:26px 16px 12px;' +
     'background:linear-gradient(180deg,transparent,rgba(4,8,16,.88) 45%);color:#F5EFE6;font-size:14.5px;font-weight:600;line-height:1.5;' +
     'opacity:0;transform:translateY(6px);transition:opacity .4s,transform .4s}' +
@@ -615,14 +618,14 @@
     });
   }
 
-  function open(mode, qid) {
+  function open(mode, qid, opts) {
     build();
     root.classList.add('open');
     document.body.classList.add('lms-lock');
     if (mode === 'fasttrack') renderFastTrack();
     else if (mode === 'setup') renderSetup();
     else if (mode === 'history') renderHistory();
-    else if (mode === 'drill' && qid) startDrill(qid);
+    else if (mode === 'drill' && qid) startDrill(qid, opts || null);
     else renderHome();
   }
   function close() {
@@ -1389,13 +1392,18 @@
     renderQuestion();
   }
 
-  function startDrill(qid) {
-    var q = allQuestions().filter(function (x) { return x.id === qid; })[0];
-    if (!q) { renderHome(); return; }
+  /* A lesson `tryit` may name one question (qid) or a short set, and pre-configure the persona,
+     format and scoring profile it was written for (blueprint 18.1). Unknown ids are skipped. */
+  function startDrill(qid, opts) {
+    var all = allQuestions();
+    var ids = (opts && opts.set && opts.set.length) ? opts.set : [qid];
+    var qs = ids.map(function (id) { return all.filter(function (x) { return x.id === id; })[0]; }).filter(Boolean);
+    if (!qs.length) { renderHome(); return; }
     state.drill = true;
+    var per = (opts && opts.persona && PERSONAS.some(function (p) { return p.id === opts.persona; })) ? opts.persona : (state.cfg.persona || 'hr');
     state.session = {
-      cfg: { mode: 'practice', count: 1, persona: state.cfg.persona || 'hr' },
-      qs: [q], idx: 0, answers: [], startedAt: Date.now(), mode: 'practice', done: false, greeted: true
+      cfg: { mode: 'practice', count: qs.length, persona: per, profile: (opts && opts.profile) || null, format: (opts && opts.format) || null, lesson: (opts && opts.lesson) || null },
+      qs: qs, idx: 0, answers: [], startedAt: Date.now(), mode: 'practice', done: false, greeted: true
     };
     renderQuestion();
   }
@@ -1452,6 +1460,10 @@
     var eqEl = el('span', 'st-eq'); eqEl.innerHTML = '<i></i><i></i><i></i>';
     nameChip.appendChild(eqEl);
     stage.appendChild(nameChip);
+    /* disclosure (blueprint 16.2.0): the interviewer on the stage is animated from a photograph with a synthetic voice */
+    var simTag = el('div', 'st-sim', T('Simulated interviewer · not a real person', 'Simulasi · bukan orang sungguhan'));
+    simTag.setAttribute('role', 'note');
+    stage.appendChild(simTag);
     var cap = el('div', 'st-cap');
     stage.appendChild(cap);
     var pip = el('div', 'st-pip'); pip.style.display = 'none';
@@ -2094,7 +2106,7 @@
     open(b.getAttribute('data-rope-sim') || 'home');
   });
   document.addEventListener('mt:launch-tool', function (e) {
-    if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null);
+    if (e.detail && e.detail.tool === 'simulator') open(e.detail.mode || 'home', e.detail.qid || null, e.detail.tryit ? Object.assign({}, e.detail.tryit, { lesson: e.detail.lesson || null }) : null);
   });
 
   window.MT_ROPE_SIM = { open: open, close: close, stats: bankStats, _analyse: analyseAnswer, _lips: function () { return state.lips; } };
