@@ -1563,39 +1563,386 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "5": {
+  "minutes": 12,
+  "blueprint": [
+   {
+    "lesson": "5.1",
+    "h": {
+     "en": "How Recruiters Find You",
+     "id": "Bagaimana Rekruter Menemukanmu"
+    },
+    "sub": {
+     "en": "Search mechanics, silent filters, the two passes, the profile brief.",
+     "id": "Mekanika pencarian, filter diam, dua tahap, arahan profil."
+    }
+   },
+   {
+    "lesson": "5.2",
+    "h": {
+     "en": "Headline, Photo, Banner and About",
+     "id": "Headline, Foto, Banner, dan About"
+    },
+    "sub": {
+     "en": "Three headline formulas, the photo audit, the banner rule, the five-part About.",
+     "id": "Tiga rumus headline, audit foto, aturan banner, About lima bagian."
+    }
+   },
+   {
+    "lesson": "5.3",
+    "h": {
+     "en": "Experience and Proof for Thin Histories",
+     "id": "Pengalaman dan Bukti untuk Riwayat Tipis"
+    },
+    "sub": {
+     "en": "Title translation, the 200-word entry, evidence sections, recommendations, the bilingual profile, settings.",
+     "id": "Terjemahan jabatan, entri 200 kata, bagian bukti, rekomendasi, profil dwibahasa, pengaturan."
+    }
+   },
+   {
+    "lesson": "5.4",
+    "h": {
+     "en": "Presence and Engagement",
+     "id": "Kehadiran dan Keterlibatan"
+    },
+    "sub": {
+     "en": "The engagement ladder, the 15-minute routine, what to post, connection notes, the footprint, measuring.",
+     "id": "Tangga keterlibatan, rutinitas 15 menit, apa yang diposting, catatan koneksi, jejak digital, mengukur."
+    }
+   }
+  ],
   "mcq": [
    {
     "type": "know",
+    "lesson": "5.1",
     "q": {
-     "en": "A LinkedIn headline works when it:",
-     "id": "Headline LinkedIn bekerja ketika ia:"
+     "en": "Recruiters search LinkedIn mostly by…",
+     "id": "Rekruter mencari di LinkedIn terutama berdasarkan…"
     },
     "opts": [
      {
-      "en": "Inspires with a personal motto",
-      "id": "Menginspirasi dengan moto pribadi"
+      "en": "Number of connections",
+      "id": "Jumlah koneksi"
      },
      {
-      "en": "Matches recruiter search queries: role, field, differentiator, location",
-      "id": "Cocok dengan kata kunci pencarian perekrut: peran, bidang, pembeda, lokasi"
+      "en": "Job title and skills, filtered by location and dates",
+      "id": "Jabatan dan keterampilan, disaring lokasi dan tanggal"
      },
      {
-      "en": "Lists every skill you own",
-      "id": "Memuat semua keterampilan yang kamu punya"
+      "en": "Profile photo quality",
+      "id": "Kualitas foto profil"
      },
      {
-      "en": "Stays mysterious to invite clicks",
-      "id": "Tetap misterius supaya orang penasaran mengklik"
+      "en": "University ranking",
+      "id": "Peringkat universitas"
      }
     ],
     "correct": 1,
     "expl": {
-     "en": "The headline is a search index entry. Nobody queries 'Dreamer | Lifelong learner'; they query 'data analyst Jakarta fresh graduate'.",
-     "id": "Headline adalah entri dalam indeks pencarian. Tidak ada yang mencari 'Dreamer | Lifelong learner'; yang dicari adalah 'data analyst Jakarta fresh graduate'."
+     "en": "Title and skill keywords, Boolean strings, filters — a profile never appears for a word it does not contain.",
+     "id": "Kata kunci jabatan dan keterampilan, string Boolean, filter — profil tidak pernah muncul untuk kata yang tidak dimuatnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.1",
+    "q": {
+     "en": "A graduate’s profile has no dates on the internship, no degree in Education and location set to her home village. A recruiter filters for 2026 Management graduates in Central Java with 1+ months’ experience. What happens?",
+     "id": "Profil seorang lulusan tidak punya tanggal pada magangnya, tidak ada gelar di Education, dan lokasinya diatur ke desa asalnya. Rekruter menyaring lulusan Manajemen 2026 di Jawa Tengah dengan pengalaman 1+ bulan. Apa yang terjadi?"
+    },
+    "opts": [
+     {
+      "en": "She appears; LinkedIn infers the rest",
+      "id": "Ia muncul; LinkedIn menyimpulkan sisanya"
+     },
+     {
+      "en": "She is silently excluded — no dates, no degree, wrong location",
+      "id": "Ia diam-diam dikecualikan — tanpa tanggal, tanpa gelar, lokasi salah"
+     },
+     {
+      "en": "She appears on page two",
+      "id": "Ia muncul di halaman dua"
+     },
+     {
+      "en": "The recruiter emails her to ask",
+      "id": "Rekruter mengiriminya email untuk bertanya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Blank fields exclude you from filtered searches without anyone rejecting you.",
+     "id": "Kolom kosong mengecualikanmu dari pencarian tersaring tanpa ada yang menolakmu."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "5.2",
+    "q": {
+     "en": "The aspiring-professional headline formula is…",
+     "id": "Rumus headline aspiring professional adalah…"
+    },
+    "opts": [
+     {
+      "en": "Current title at current employer",
+      "id": "Jabatan saat ini di perusahaan saat ini"
+     },
+     {
+      "en": "Target title · current status and key skill · credential · 2–3 skills",
+      "id": "Jabatan sasaran · status saat ini dan keterampilan kunci · kredensial · 2–3 keterampilan"
+     },
+     {
+      "en": "“Open to work” and three adjectives",
+      "id": "“Open to work” dan tiga kata sifat"
+     },
+     {
+      "en": "A motivational quote",
+      "id": "Kutipan motivasi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Target and proof in the first seventy characters; “candidate”, not a title you have not held.",
+     "id": "Sasaran dan bukti di tujuh puluh karakter pertama; “candidate”, bukan jabatan yang belum kamu pegang."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.2",
+    "q": {
+     "en": "An About opens: “I am a fresh graduate in Management from Universitas X with a passion for learning.” The best fix is…",
+     "id": "Sebuah About dibuka: “Saya fresh graduate Manajemen dari Universitas X dengan semangat belajar.” Perbaikan terbaiknya adalah…"
+    },
+    "opts": [
+     {
+      "en": "Add more adjectives",
+      "id": "Tambah lebih banyak kata sifat"
+     },
+     {
+      "en": "Open with a hook about the work you do or care about, then proof with numbers",
+      "id": "Buka dengan kail tentang pekerjaan yang kamu lakukan atau pedulikan, lalu bukti dengan angka"
+     },
+     {
+      "en": "Switch to third person",
+      "id": "Ganti ke orang ketiga"
+     },
+     {
+      "en": "Delete the About",
+      "id": "Hapus About"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Only the first lines show before “see more”; a status line earns no click, a work line does.",
+     "id": "Hanya baris pertama yang tampil sebelum “lihat selengkapnya”; baris status tidak layak diklik, baris pekerjaan layak."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "5.3",
+    "q": {
+     "en": "“Bendahara HIMA” should appear on LinkedIn as…",
+     "id": "“Bendahara HIMA” sebaiknya muncul di LinkedIn sebagai…"
+    },
+    "opts": [
+     {
+      "en": "Finance Manager",
+      "id": "Finance Manager"
+     },
+     {
+      "en": "Treasurer, Management Students’ Association",
+      "id": "Treasurer, Management Students’ Association"
+     },
+     {
+      "en": "Chief Financial Officer (student)",
+      "id": "Chief Financial Officer (student)"
+     },
+     {
+      "en": "Bendahara only",
+      "id": "Bendahara saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Searchable and true; the supervisor would recognise it and a recruiter would search it.",
+     "id": "Bisa dicari dan benar; pembimbing akan mengenalinya dan rekruter akan mencarinya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.3",
+    "q": {
+     "en": "You want a recommendation from your dosen pembimbing. You should…",
+     "id": "Kamu ingin rekomendasi dari dosen pembimbingmu. Kamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Draft it yourself and ask them to post it",
+      "id": "Susun sendiri dan minta mereka memposting"
+     },
+     {
+      "en": "Send three factual bullets and one specific story as a memory aid, in Bapak/Ibu register, and let them write it",
+      "id": "Kirim tiga butir faktual dan satu cerita spesifik sebagai pengingat, dalam register Bapak/Ibu, dan biarkan mereka menulis"
+     },
+     {
+      "en": "Ask on the day you need it",
+      "id": "Minta pada hari kamu membutuhkannya"
+     },
+     {
+      "en": "Ask a batchmate instead",
+      "id": "Minta teman seangkatan saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "In Indonesian hierarchy a self-drafted recommendation reads as instructing a senior; the memory aid respects both the relationship and their time.",
+     "id": "Dalam hierarki Indonesia rekomendasi yang disusun sendiri terbaca seperti memerintah senior; pengingat menghormati hubungan dan waktu mereka."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.3",
+    "q": {
+     "en": "Your CV says the internship ended in August; your profile says September. A screener at that bank opens both.",
+     "id": "CV-mu menyebut magang berakhir Agustus; profilmu menyebut September. Penyaring di bank itu membuka keduanya."
+    },
+    "opts": [
+     {
+      "en": "One month does not matter",
+      "id": "Satu bulan tidak penting"
+     },
+     {
+      "en": "Make them identical — the pantry decides which is right and both copy it",
+      "id": "Buat keduanya identik — lemari memutuskan mana yang benar dan keduanya menyalinnya"
+     },
+     {
+      "en": "Remove the dates from LinkedIn",
+      "id": "Hapus tanggalnya dari LinkedIn"
+     },
+     {
+      "en": "Explain the difference in the About",
+      "id": "Jelaskan perbedaannya di About"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A mismatch on an internship at the screener’s own bank is exactly what she is trained to notice.",
+     "id": "Ketidakcocokan pada magang di bank si penyaring sendiri adalah persis yang ia dilatih untuk perhatikan."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "5.4",
+    "q": {
+     "en": "The first rung of the engagement ladder a graduate should climb is…",
+     "id": "Anak tangga keterlibatan pertama yang sebaiknya dinaiki lulusan adalah…"
+    },
+    "opts": [
+     {
+      "en": "Writing articles",
+      "id": "Menulis artikel"
+     },
+     {
+      "en": "Thoughtful comments on others’ posts",
+      "id": "Komentar bernas pada postingan orang lain"
+     },
+     {
+      "en": "Posting three times a day",
+      "id": "Memposting tiga kali sehari"
+     },
+     {
+      "en": "Liking everything",
+      "id": "Menyukai segalanya"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Low-risk, two minutes each, visible to the person you commented on.",
+     "id": "Berisiko rendah, dua menit masing-masing, terlihat oleh orang yang kamu komentari."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.4",
+    "q": {
+     "en": "You want to connect with a KilatPay recruiter you have never met. The note should…",
+     "id": "Kamu ingin terhubung dengan rekruter KilatPay yang belum pernah kamu temui. Catatannya sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Ask whether there are openings and attach your CV",
+      "id": "Menanyakan apakah ada lowongan dan melampirkan CV-mu"
+     },
+     {
+      "en": "Name the process you are following and one useful thing they posted, in Bapak/Ibu register, with no request",
+      "id": "Menyebut proses yang kamu ikuti dan satu hal berguna yang mereka posting, dalam register Bapak/Ibu, tanpa permintaan"
+     },
+     {
+      "en": "Be left blank — notes look desperate",
+      "id": "Dibiarkan kosong — catatan tampak putus asa"
+     },
+     {
+      "en": "Use “Kak” to sound friendly",
+      "id": "Memakai “Kak” agar terdengar ramah"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Easy to accept; the ask comes two weeks later, after engagement, as Module 2’s six-point message.",
+     "id": "Mudah diterima; permintaannya datang dua minggu kemudian, setelah keterlibatan, sebagai pesan enam poin Modul 2."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "5.4",
+    "q": {
+     "en": "After four weeks of the routine you get profile views, but only from recruiters for sales roles; you target operations.",
+     "id": "Setelah empat minggu rutinitas kamu mendapat tampilan profil, tetapi hanya dari rekruter untuk peran sales; sasaranmu operasi."
+    },
+    "opts": [
+     {
+      "en": "Post more often",
+      "id": "Posting lebih sering"
+     },
+     {
+      "en": "Revise the headline’s first seventy characters and the three pinned skills",
+      "id": "Revisi tujuh puluh karakter pertama headline dan tiga keterampilan yang disematkan"
+     },
+     {
+      "en": "Accept sales roles",
+      "id": "Terima peran sales"
+     },
+     {
+      "en": "Delete the profile and start again",
+      "id": "Hapus profil dan mulai lagi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Views for the wrong roles mean the headline and pinned skills are pulling the wrong search.",
+     "id": "Tampilan untuk peran yang salah berarti headline dan keterampilan yang disematkan menarik pencarian yang salah."
     }
    }
   ],
-  "reflect": null
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. What would a recruiter searching for your target role need to see in your first two lines — the headline and the first line of About — to open your profile and keep reading? Write both lines as they are now, write both as they should be, and say which words from your recruiter search you added and which proof you led with.",
+    "id": "Minimal 100 kata. Apa yang perlu dilihat rekruter yang mencari peran sasaranmu di dua baris pertamamu — headline dan baris pertama About — untuk membuka profilmu dan terus membaca? Tulis kedua baris sebagaimana sekarang, tulis keduanya sebagaimana seharusnya, dan katakan kata mana dari pencarian rekrutermu yang kamu tambahkan dan bukti mana yang kamu jadikan pembuka."
+   },
+   "guide": [
+    {
+     "en": "Quote the Boolean string from your Lesson 5.1 drill, or the three skills a recruiter would filter by.",
+     "id": "Kutip string Boolean dari latihan Pelajaran 5.1-mu, atau tiga keterampilan yang akan dipakai rekruter menyaring."
+    },
+    {
+     "en": "Count the characters to the first separator of your new headline; keep the target and one proof inside seventy.",
+     "id": "Hitung karakter sampai pemisah pertama headline barumu; jaga sasaran dan satu bukti di dalam tujuh puluh."
+    },
+    {
+     "en": "If your current lines are the defaults, say so — that is the honest starting point.",
+     "id": "Jika baris-barismu saat ini masih bawaan, katakan — itulah titik awal yang jujur."
+    }
+   ],
+   "min": 100
+  }
  },
  "6": {
   "mcq": [

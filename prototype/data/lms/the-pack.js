@@ -19705,173 +19705,481 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "5.1",
-     "title": {
-      "en": "LinkedIn Profile Optimisation — Structure, Content, and Strategy",
-      "id": "Optimasi Profil LinkedIn — Struktur, Konten, dan Strategi"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "How Recruiters Find You",
+      "id": "Bagaimana Rekruter Menemukanmu"
+     },
      "overview": {
-      "en": "LinkedIn is not an online CV; it is a search result. Recruiters query it like a database, and profiles are found — or not — by the same fields every time. This lesson optimises each field in the order recruiters actually read them.",
-      "id": "LinkedIn bukan CV versi daring; ia adalah hasil pencarian. Perekrut menelusurinya seperti basis data, dan profil ditemukan — atau tidak — lewat kolom yang sama setiap kali. Pelajaran ini mengoptimalkan setiap kolom sesuai urutan yang benar-benar dibaca perekrut."
+      "en": "Before you edit a word, understand how you are found. This lesson explains recruiter search — titles, skills, filters, Boolean strings — the profile fields that silently exclude incomplete profiles, and the two-pass way profiles are judged. It ends with the one-page brief that every later edit is written for.",
+      "id": "Sebelum mengedit satu kata pun, pahami bagaimana kamu ditemukan. Pelajaran ini menjelaskan pencarian rekruter — jabatan, keterampilan, filter, string Boolean — kolom profil yang diam-diam mengecualikan profil tidak lengkap, dan cara dua-tahap profil dinilai. Diakhiri dengan arahan satu halaman yang menjadi tujuan setiap suntingan berikutnya."
      },
      "objectives": [
       {
-       "en": "Write a headline that answers a recruiter's query, not a motto.",
-       "id": "Menulis headline yang menjawab kueri pencarian perekrut, bukan moto hidup."
+       "en": "Describe how recruiters search: titles, skills, filters, Boolean strings.",
+       "id": "Menggambarkan cara rekruter mencari: jabatan, keterampilan, filter, string Boolean."
       },
       {
-       "en": "Build an About section with the pyramid: who, evidence, direction, ask.",
-       "id": "Menyusun bagian About dengan struktur piramida: siapa kamu, bukti, arah, ajakan."
+       "en": "Identify profile fields that silently exclude you when blank.",
+       "id": "Mengenali kolom profil yang diam-diam mengecualikanmu saat kosong."
       },
       {
-       "en": "Turn experience entries into the same evidence lines your CV carries — plus media artefacts.",
-       "id": "Mengubah entri pengalaman menjadi baris-baris bukti yang sama dengan di CV-mu — ditambah artefak media."
+       "en": "Write a one-page profile brief: goal, reader, next action.",
+       "id": "Menulis arahan profil satu halaman: tujuan, pembaca, tindakan berikutnya."
       }
      ],
-     "takeawaysLead": {
-      "en": "LinkedIn is a search result before it is a profile. To be found, and then read, you can:",
-      "id": "LinkedIn adalah hasil pencarian sebelum menjadi profil. Agar ditemukan, lalu dibaca, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Four things about LinkedIn before you edit",
+       "id": "Empat hal tentang LinkedIn sebelum mengedit"
+      },
+      "intro": {
+       "en": "The module’s frame in four lines. Every lesson after this applies one of them.",
+       "id": "Kerangka modul dalam empat baris. Setiap pelajaran setelah ini menerapkan salah satunya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "LinkedIn is a search engine",
+         "id": "LinkedIn adalah mesin pencari"
+        },
+        "points": [
+         {
+          "en": "You cannot be found for a word your profile does not contain.",
+          "id": "Kamu tidak bisa ditemukan untuk kata yang tidak ada di profilmu."
+         },
+         {
+          "en": "Recruiters search by title and skills, filtered by location and dates.",
+          "id": "Rekruter mencari berdasarkan jabatan dan keterampilan, disaring lokasi dan tanggal."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two passes",
+         "id": "Dua tahap"
+        },
+        "points": [
+         {
+          "en": "A seconds-long scan of headline, roles, education and skills decides whether you get a longer look.",
+          "id": "Pindaian beberapa detik atas headline, peran, pendidikan, dan keterampilan menentukan apakah kamu dilihat lebih lama."
+         },
+         {
+          "en": "Scannable at the top, substantial underneath.",
+          "id": "Mudah dipindai di atas, berisi di bawah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Same facts, warmer voice",
+         "id": "Fakta yang sama, suara lebih hangat"
+        },
+        "points": [
+         {
+          "en": "Your profile must match your CV exactly on facts — titles, dates, numbers.",
+          "id": "Profilmu harus persis sama dengan CV-mu pada fakta — jabatan, tanggal, angka."
+         },
+         {
+          "en": "It can speak more personally than your CV; it cannot say something different.",
+          "id": "Profil boleh bicara lebih personal daripada CV; tidak boleh mengatakan hal yang berbeda."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Visibility is a habit",
+         "id": "Visibilitas adalah kebiasaan"
+        },
+        "points": [
+         {
+          "en": "Fifteen minutes a day beats a burst every three months.",
+          "id": "Lima belas menit sehari mengalahkan ledakan tiap tiga bulan."
+         },
+         {
+          "en": "Lesson 5.4 builds the routine; the profile comes first.",
+          "id": "Pelajaran 5.4 membangun rutinitasnya; profil lebih dulu."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "The headline is search real estate: role + field + one differentiator beats any inspirational quote.",
-       "id": "Headline adalah lahan pencarian: peran + bidang + satu pembeda mengalahkan kutipan inspiratif mana pun."
-      },
-      {
-       "en": "Recruiters read headline → current role → About's first two lines; optimise in that order.",
-       "id": "Perekrut membaca headline → peran saat ini → dua baris pertama About; optimalkan dalam urutan itu."
-      },
-      {
-       "en": "A profile with artefacts — projects, documents, links — converts a viewer into a caller.",
-       "id": "Profil yang punya artefak — proyek, dokumen, tautan — mengubah orang yang sekadar melihat menjadi orang yang menghubungimu."
-      }
-     ],
      "sections": [
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Search mechanics",
+        "id": "Mekanika pencarian"
+       },
+       "body": {
+        "en": "Recruiters search mostly by <b>job title</b>, often combined with <b>skills</b> and filtered by <b>location</b> <i>(Serdula, LinkedIn Profile Optimization For Dummies, ch. 2)</i>. Dumas cites LinkedIn data that a large share of recruiter searches now start from skills rather than titles <span class=\"ev ev-verify\">Verify</span> <i>(Dumas, AI-Savvy Job Seeker, ch. 5)</i>. Recruiters use Boolean strings — quotes for exact phrases, OR for alternatives, AND to combine — such as:",
+        "id": "Rekruter mencari terutama berdasarkan <b>jabatan</b>, sering digabung dengan <b>keterampilan</b> dan disaring berdasarkan <b>lokasi</b> <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 2)</i>. Dumas mengutip data LinkedIn bahwa sebagian besar pencarian rekruter kini dimulai dari keterampilan, bukan jabatan <span class=\"ev ev-verify\">Verifikasi</span> <i>(Dumas, AI-Savvy Job Seeker, bab 5)</i>. Rekruter memakai string Boolean — tanda kutip untuk frasa persis, OR untuk alternatif, AND untuk menggabungkan — seperti:"
+       },
+       "quote": {
+        "text": {
+         "en": "(\"management trainee\" OR \"graduate trainee\") AND (FMCG OR \"consumer goods\") AND (\"supply chain\" OR operations)",
+         "id": "(\"management trainee\" OR \"graduate trainee\") AND (FMCG OR \"consumer goods\") AND (\"supply chain\" OR operations)"
+        },
+        "who": {
+         "en": "A recruiter filling an MT supply-chain intake. A profile that says “fresh graduate, open to opportunities” matches none of it.",
+         "id": "Rekruter yang mengisi seleksi MT supply chain. Profil yang berbunyi “fresh graduate, open to opportunities” tidak cocok dengan satu pun."
+        }
+       },
+       "after": [
+        {
+         "en": "<b>A profile never appears for a keyword it does not contain</b> <i>(Serdula, ch. 2)</i>. The search does not infer that a “Bendahara HIMA” has finance skills, or that a barista has customer-service experience; it matches strings. Which is why the whole module is, underneath, an exercise in choosing the words a recruiter would type and putting them where the search reads them: headline, titles, skills, About.",
+         "id": "<b>Profil tidak pernah muncul untuk kata kunci yang tidak dimuatnya</b> <i>(Serdula, bab 2)</i>. Pencarian tidak menyimpulkan bahwa “Bendahara HIMA” punya keterampilan keuangan, atau bahwa barista punya pengalaman layanan pelanggan; pencarian mencocokkan string. Itulah mengapa seluruh modul ini, pada dasarnya, adalah latihan memilih kata yang akan diketik rekruter dan menaruhnya di tempat pencarian membacanya: headline, jabatan, keterampilan, About."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Silent filters",
+        "id": "Filter yang diam"
+       },
+       "body": {
+        "en": "Recruiter tools compute <b>years of experience from your dates</b>, and filter by degree, field of study, graduation date, location and industry <i>(Dumas, ch. 3 and 8)</i>. Missing dates, a blank education section or the wrong location can make you invisible to filtered searches without anyone ever rejecting you — there is no email, no “unfortunately”, just absence from a results page. Set your location to where you want to work, or add open-to-relocate preferences; choose the industry a recruiter would pick for you, not the one your current employer is in <i>(Serdula, ch. 5)</i>.",
+        "id": "Alat rekruter menghitung <b>tahun pengalaman dari tanggalmu</b>, dan menyaring berdasarkan gelar, bidang studi, tanggal lulus, lokasi, dan industri <i>(Dumas, bab 3 dan 8)</i>. Tanggal yang hilang, bagian pendidikan yang kosong, atau lokasi yang salah bisa membuatmu tak terlihat dalam pencarian tersaring tanpa ada yang pernah menolakmu — tidak ada email, tidak ada “mohon maaf”, hanya ketiadaan dari halaman hasil. Atur lokasimu ke tempat kamu ingin bekerja, atau tambahkan preferensi bersedia pindah; pilih industri yang akan dipilih rekruter untukmu, bukan industri tempat kerjamu saat ini <i>(Serdula, bab 5)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Field",
+          "id": "Kolom"
+         },
+         {
+          "en": "What the tool does with it",
+          "id": "Yang dilakukan alat dengannya"
+         },
+         {
+          "en": "Blank or wrong means",
+          "id": "Kosong atau salah berarti"
+         },
+         {
+          "en": "Nadia’s fix",
+          "id": "Perbaikan Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Experience dates",
+           "id": "Tanggal pengalaman"
+          },
+          {
+           "en": "Computes years of experience",
+           "id": "Menghitung tahun pengalaman"
+          },
+          {
+           "en": "Zero years; excluded by “1+ year” filters",
+           "id": "Nol tahun; dikecualikan filter “1+ tahun”"
+          },
+          {
+           "en": "Month and year on every entry, matching the CV",
+           "id": "Bulan dan tahun di setiap entri, sesuai CV"
+          }
+         ],
+         [
+          {
+           "en": "Education",
+           "id": "Pendidikan"
+          },
+          {
+           "en": "Filters by degree, field, graduation year",
+           "id": "Menyaring berdasarkan gelar, bidang, tahun lulus"
+          },
+          {
+           "en": "Invisible to “Management, 2025–2026 graduates”",
+           "id": "Tak terlihat bagi “Manajemen, lulusan 2025–2026”"
+          },
+          {
+           "en": "S1 Manajemen, university, 2022–2026",
+           "id": "S1 Manajemen, universitas, 2022–2026"
+          }
+         ],
+         [
+          {
+           "en": "Location",
+           "id": "Lokasi"
+          },
+          {
+           "en": "Filters by city or region",
+           "id": "Menyaring berdasarkan kota atau wilayah"
+          },
+          {
+           "en": "“Semarang” never appears for Jakarta searches",
+           "id": "“Semarang” tidak pernah muncul untuk pencarian Jakarta"
+          },
+          {
+           "en": "Greater Semarang + open to relocate to Jakarta",
+           "id": "Semarang Raya + bersedia pindah ke Jakarta"
+          }
+         ],
+         [
+          {
+           "en": "Industry",
+           "id": "Industri"
+          },
+          {
+           "en": "Filters by sector",
+           "id": "Menyaring berdasarkan sektor"
+          },
+          {
+           "en": "“Food &amp; Beverages” (the café) hides her from FMCG and banking",
+           "id": "“Food &amp; Beverages” (kafe) menyembunyikannya dari FMCG dan perbankan"
+          },
+          {
+           "en": "The target’s industry, not the part-time job’s",
+           "id": "Industri sasaran, bukan pekerjaan paruh waktu"
+          }
+         ],
+         [
+          {
+           "en": "Skills",
+           "id": "Keterampilan"
+          },
+          {
+           "en": "Matches skill searches",
+           "id": "Mencocokkan pencarian keterampilan"
+          },
+          {
+           "en": "7 skills including “Microsoft Word” match almost nothing",
+           "id": "7 keterampilan termasuk “Microsoft Word” hampir tidak cocok dengan apa pun"
+          },
+          {
+           "en": "25–40 target-relevant skills, top three pinned (Lesson 5.3)",
+           "id": "25–40 keterampilan relevan sasaran, tiga teratas disematkan (Pelajaran 5.3)"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Two passes",
+        "id": "Dua tahap"
+       },
+       "body": {
+        "en": "Dumas describes a first scan of a few seconds — headline, current role, previous roles, education, skills — then, for profiles that pass, a longer review of achievements and fit <i>(Dumas, ch. 3)</i>. The first pass asks “is this the kind of person I am looking for?”; the second asks “is this person good?”. The profile has to be built for both: <b>scannable at the top</b> — a headline that says the target and the proof in the first seventy characters, a photo, titles in the recognised form — and <b>substantial underneath</b> — About, experience entries with achievements, projects, skills. Module 3’s seven-second read of a CV is the same behaviour on a different document.",
+        "id": "Dumas menggambarkan pindaian pertama beberapa detik — headline, peran saat ini, peran sebelumnya, pendidikan, keterampilan — lalu, untuk profil yang lolos, tinjauan lebih panjang atas pencapaian dan kecocokan <i>(Dumas, bab 3)</i>. Tahap pertama bertanya “apakah ini jenis orang yang saya cari?”; tahap kedua bertanya “apakah orang ini bagus?”. Profil harus dibangun untuk keduanya: <b>mudah dipindai di atas</b> — headline yang menyebut sasaran dan bukti dalam tujuh puluh karakter pertama, foto, jabatan dalam bentuk yang dikenal — dan <b>berisi di bawah</b> — About, entri pengalaman dengan pencapaian, proyek, keterampilan. Pembacaan tujuh detik CV dari Modul 3 adalah perilaku yang sama pada dokumen berbeda."
+       }
+      },
       {
        "icon": "target",
        "h": {
-        "en": "Headline and photo — the search result",
-        "id": "Headline dan foto — hasil pencarianmu"
+        "en": "The profile brief",
+        "id": "Arahan profil"
        },
        "body": {
-        "en": "Recruiters search titles, skills and fields; your headline is matched against those queries. Formula for students and fresh graduates: <b>target role or field + strongest evidence tag + availability</b> — “Data Analyst (fresh graduate) · Finalist, National Statistics Olympiad · Open to work, Jakarta/remote”. Not “Dreamer | Learner | Future CEO”: nobody searches those words. The photo needs three properties only — recent, clear face, neutral background; the banner is free space for one line of proof (a dashboard screenshot, an event you ran). Fifteen minutes of work, permanent search visibility gain.",
-        "id": "Perekrut mencari berdasarkan jabatan, keterampilan, dan bidang; headline-mu dicocokkan dengan kueri-kueri itu. Rumus untuk mahasiswa dan lulusan baru: <b>peran atau bidang yang dituju + satu label bukti terkuat + ketersediaan</b> — “Data Analyst (lulusan baru) · Finalis Olimpiade Statistika Nasional · Open to work, Jakarta/remote”. Bukan “Dreamer | Learner | Future CEO”: tidak ada perekrut yang mencari kata-kata itu. Foto hanya perlu tiga hal — terbaru, wajah terlihat jelas, latar netral; banner adalah ruang gratis untuk satu baris bukti (tangkapan layar dasbor, acara yang kamu selenggarakan). Lima belas menit kerja, hasilnya visibilitas pencarian yang permanen."
-       }
+        "en": "Before editing, answer four questions on one page <i>(Serdula, ch. 1)</i>. Write for that reader, not for yourself — and not for your lecturers, your parents or your batchmates, who are the audience most graduate profiles are accidentally written for.",
+        "id": "Sebelum mengedit, jawab empat pertanyaan di satu halaman <i>(Serdula, bab 1)</i>. Tulis untuk pembaca itu, bukan untuk dirimu — dan bukan untuk dosen, orang tua, atau teman seangkatanmu, yang secara tidak sengaja menjadi audiens kebanyakan profil lulusan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Goal</b> — job search, for almost every Pack learner. (Other goals — clients, speaking, recruiting — produce different profiles.)",
+         "id": "<b>Tujuan</b> — mencari kerja, bagi hampir setiap pembelajar Pack. (Tujuan lain — klien, berbicara, merekrut — menghasilkan profil berbeda.)"
+        },
+        {
+         "en": "<b>Reader</b> — who will read it, holding what advertisement: an FMCG MT recruiter with a supply-chain intake to fill; a bank’s ODP screener checking that the CV is real.",
+         "id": "<b>Pembaca</b> — siapa yang akan membacanya, memegang iklan apa: rekruter MT FMCG dengan seleksi supply chain yang harus diisi; penyaring ODP bank yang memeriksa CV-nya asli."
+        },
+        {
+         "en": "<b>What they must know</b> — your target in their words, and your top three proof points with numbers.",
+         "id": "<b>Yang harus mereka ketahui</b> — sasaranmu dalam kata-kata mereka, dan tiga bukti teratasmu dengan angka."
+        },
+        {
+         "en": "<b>Next action</b> — what you want them to do: message you; view your portfolio; check the CV they already have and find it matches.",
+         "id": "<b>Tindakan berikutnya</b> — apa yang kamu ingin mereka lakukan: mengirim pesan; melihat portofoliomu; memeriksa CV yang sudah mereka pegang dan mendapati cocok."
+        }
+       ],
+       "after": [
+        {
+         "en": "Nadia’s brief, in four lines: Goal — MT/ODP operations roles. Reader — an FMCG or bank programme recruiter searching “management trainee” with supply-chain or operations skills, and the Arunika screener who already has her CV. Must know — operations target; 3 branches reconciled; zero audit findings; Rp 85 juta raised. Next action — message her, and find that the profile and the CV agree.",
+         "id": "Arahan Nadia, dalam empat baris: Tujuan — peran operasi MT/ODP. Pembaca — rekruter program FMCG atau bank yang mencari “management trainee” dengan keterampilan supply chain atau operasi, dan penyaring Arunika yang sudah memegang CV-nya. Harus tahu — sasaran operasi; 3 cabang direkonsiliasi; nol temuan audit; Rp 85 juta terkumpul. Tindakan berikutnya — mengirim pesan padanya, dan mendapati profil dan CV-nya cocok."
+        }
+       ]
       },
       {
        "icon": "book",
        "h": {
-        "en": "About — four short paragraphs",
-        "id": "About — empat paragraf pendek"
+        "en": "Where the keywords go",
+        "id": "Ke mana kata kunci pergi"
        },
        "body": {
-        "en": "Only the first two lines show before “see more”, so the pyramid applies. <b>Line 1–2:</b> who you are and the one thing you want a reader to remember — “Final-year informatics student who builds data tools organisations actually use.” <b>Paragraph 2:</b> two or three evidence bullets, straight from the CV's strongest lines. <b>Paragraph 3:</b> direction — what you are looking for, which problems pull you. <b>Paragraph 4:</b> the ask and the contact — “Open to analyst roles from June; reachable at …”. Write it in first person, in your own voice; profiles that read like press releases repel the humans who passed the search stage.",
-        "id": "Hanya dua baris pertama yang tampil sebelum tombol “lihat selengkapnya”, jadi prinsip piramida berlaku. <b>Baris 1–2:</b> siapa kamu, dan satu hal yang ingin kamu tinggalkan di ingatan pembaca — “Mahasiswa informatika tingkat akhir yang membangun alat data yang benar-benar dipakai organisasi.” <b>Paragraf 2:</b> dua atau tiga butir bukti, diambil langsung dari baris terkuat CV-mu. <b>Paragraf 3:</b> arah — apa yang kamu cari, masalah seperti apa yang menarikmu. <b>Paragraf 4:</b> ajakan dan kontak — “Terbuka untuk peran analis mulai Juni; bisa dihubungi di …”. Tulis dengan kata ganti orang pertama dan suaramu sendiri; profil yang terbaca seperti siaran pers justru mengusir manusia yang sudah menemukanmu lewat pencarian."
-       }
-      },
-      {
-       "icon": "gear",
-       "h": {
-        "en": "Experience, skills, and artefacts",
-        "id": "Pengalaman, keterampilan, dan artefak"
-       },
-       "body": {
-        "en": "Each experience entry gets the CV treatment: scope line plus two or three evidence bullets with numbers. Then the layer a CV cannot carry: <b>media</b> — attach the actual dashboard, the event report, the publication, the repository. Skills: pin the three that match your target searches (they weight matching); collect endorsements from people who genuinely saw the work. Recommendations: one paragraph from a lecturer or internship supervisor who can name something specific outweighs ten generic endorsements. Activity: commenting substantively in your field occasionally keeps the profile alive in feeds — but the profile fields above do the actual converting.",
-        "id": "Setiap entri pengalaman mendapat perlakuan yang sama seperti di CV: satu baris lingkup, lalu dua atau tiga butir bukti dengan angka. Kemudian lapisan yang tidak bisa dibawa oleh CV: <b>media</b> — lampirkan dasbornya langsung, laporan acaranya, publikasinya, repositorinya. Keterampilan: sematkan tiga yang paling cocok dengan pencarian targetmu (kecocokan ini diberi bobot); kumpulkan endorsement dari orang yang benar-benar melihat hasil kerjamu. Rekomendasi: satu paragraf dari dosen atau pembimbing magang yang bisa menyebut sesuatu yang spesifik mengalahkan sepuluh endorsement generik. Aktivitas: sesekali berkomentar dengan isi yang bernas di bidangmu menjaga profil tetap hidup di linimasa — tapi kolom-kolom profil di ataslah yang benar-benar mengubah pengunjung menjadi peluang."
+        "en": "Search reads some fields more heavily than others. Titles and the headline carry the most weight; skills match skill searches; About and experience text are searched but rank lower <i>(Serdula, ch. 2 and 11; Dumas, ch. 5)</i>. The practical consequence: a keyword that matters — “supply chain”, “management trainee”, “operations” — should appear in the headline, in at least one title or skill, and in the About, in that order of priority. Once in each place is enough; stuffing the same phrase into every line reads as spam to a person and gains nothing from the machine.",
+        "id": "Pencarian membaca sebagian kolom lebih berat daripada yang lain. Jabatan dan headline berbobot paling besar; keterampilan mencocokkan pencarian keterampilan; teks About dan pengalaman dicari tetapi peringkatnya lebih rendah <i>(Serdula, bab 2 dan 11; Dumas, bab 5)</i>. Konsekuensi praktisnya: kata kunci yang penting — “supply chain”, “management trainee”, “operations” — harus muncul di headline, di setidaknya satu jabatan atau keterampilan, dan di About, dalam urutan prioritas itu. Sekali di tiap tempat sudah cukup; menjejalkan frasa yang sama ke setiap baris terbaca sebagai spam bagi orang dan tidak mendapat apa pun dari mesin."
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The order recruiters actually read a profile — optimise the fields in this sequence.",
-       "id": "Peraga 1: Urutan perekrut benar-benar membaca profil — optimalkan kolom-kolomnya dalam urutan ini."
+       "en": "Exhibit 1: From search to message",
+       "id": "Peraga 1: Dari pencarian ke pesan"
       },
       "title": {
-       "en": "Headline → Current role → About (first two lines) → Experience & artefacts → Skills",
-       "id": "Headline → Peran saat ini → Tentang (dua baris pertama) → Pengalaman & artefak → Keterampilan"
+       "en": "What has to be true at each step for a recruiter to reach you",
+       "id": "Apa yang harus benar di setiap langkah agar rekruter menjangkaumu"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Headline & photo",
-         "id": "Headline & foto"
+         "en": "1 · The search",
+         "id": "1 · Pencarian"
         },
         "sub": {
-         "en": "Target role or field + evidence tag + availability",
-         "id": "Peran atau bidang tujuan + tanda bukti + ketersediaan"
+         "en": "Title and skill keywords, Boolean. Your profile must contain the words.",
+         "id": "Kata kunci jabatan dan keterampilan, Boolean. Profilmu harus memuat kata-katanya."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Current role",
-         "id": "Peran saat ini"
+         "en": "2 · The filters",
+         "id": "2 · Filter"
         },
         "sub": {
-         "en": "Scope line and the strongest number",
-         "id": "Baris lingkup dan angka terkuat"
+         "en": "Location, dates, degree, industry. Blank or wrong = absent from the results.",
+         "id": "Lokasi, tanggal, gelar, industri. Kosong atau salah = tidak ada di hasil."
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "About, lines 1–2",
-         "id": "Tentang, baris 1–2"
+         "en": "3 · The first pass",
+         "id": "3 · Tahap pertama"
         },
         "sub": {
-         "en": "Who you are and the one thing to remember — before “see more”",
-         "id": "Siapa kamu dan satu hal yang perlu diingat — sebelum “lihat selengkapnya”"
+         "en": "Seconds: headline, photo, roles, education, skills. Is this the kind of person?",
+         "id": "Beberapa detik: headline, foto, peran, pendidikan, keterampilan. Apakah ini jenis orangnya?"
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Experience & artefacts",
-         "id": "Pengalaman & artefak"
+         "en": "4 · The second pass",
+         "id": "4 · Tahap kedua"
         },
         "sub": {
-         "en": "Evidence bullets plus the actual dashboard, report or repository",
-         "id": "Poin bukti plus dasbor, laporan, atau repositori yang sesungguhnya"
+         "en": "About, achievements, projects. Is this person good? Does it match the CV?",
+         "id": "About, pencapaian, proyek. Apakah orang ini bagus? Cocok dengan CV?"
         }
        },
        {
+        "icon": "mail",
         "h": {
-         "en": "Skills",
-         "id": "Keterampilan"
+         "en": "5 · The message",
+         "id": "5 · Pesan"
         },
         "sub": {
-         "en": "Pin the three that match your target searches",
-         "id": "Sematkan tiga yang cocok dengan pencarian targetmu"
+         "en": "The next action from your brief — and a profile that made it easy.",
+         "id": "Tindakan berikutnya dari arahanmu — dan profil yang membuatnya mudah."
         }
        }
       ],
+      "note": {
+       "en": "Most graduate profiles fail at steps 1 and 2 — silently, before anyone reads a word.",
+       "id": "Kebanyakan profil lulusan gagal di langkah 1 dan 2 — diam-diam, sebelum ada yang membaca satu kata pun."
+      },
       "longdesc": {
-       "en": "A five-step reading order: recruiters land on the headline and photo, glance at the current role, read the first two lines of About, then open experience entries and attached artefacts, and finally check pinned skills. Each field is optimised for the moment it is read.",
-       "id": "Urutan baca lima langkah: perekrut mendarat di headline dan foto, melirik peran saat ini, membaca dua baris pertama Tentang, lalu membuka entri pengalaman dan artefak yang dilampirkan, dan terakhir memeriksa keterampilan yang disematkan. Setiap kolom dioptimalkan untuk momen ia dibaca."
+       "en": "A five-step flow from a recruiter’s search to a message: the search, which needs the keywords to be present; the filters, which need dates, location, degree and industry to be filled and right; the first pass of a few seconds over the top of the profile; the second pass over About and achievements, checked against the CV; and the message, the next action the profile brief asked for.",
+       "id": "Alur lima langkah dari pencarian rekruter ke pesan: pencarian, yang membutuhkan kata kuncinya ada; filter, yang membutuhkan tanggal, lokasi, gelar, dan industri terisi dan benar; tahap pertama beberapa detik di bagian atas profil; tahap kedua atas About dan pencapaian, diperiksa terhadap CV; dan pesan, tindakan berikutnya yang diminta arahan profil."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "headline",
-        "id": "headline"
+       "tag": {
+        "en": "Two profiles, one search",
+        "id": "Dua profil, satu pencarian"
        },
-       "def": {
-        "en": "The line under your name that recruiter searches match against — role or field, strongest evidence tag, availability — not your current job title by default.",
-        "id": "Baris di bawah namamu yang dicocokkan dengan pencarian perekrut — peran atau bidang, tanda bukti terkuat, ketersediaan — bukan jabatan saat ini secara otomatis."
+       "q": {
+        "en": "An Arunika recruiter searches: (“management trainee” OR “graduate trainee”) AND (“supply chain” OR operations), location Central Java, graduated 2025–2026.",
+        "id": "Rekruter Arunika mencari: (“management trainee” OR “graduate trainee”) AND (“supply chain” OR operations), lokasi Jawa Tengah, lulus 2025–2026."
+       },
+       "weak": {
+        "en": "Headline “Student at Universitas X”. One experience entry, “Barista”, no dates. Education: university name only. Location: Semarang. Skills: Microsoft Word, Communication, Teamwork. Result: not in the results — no title keyword, no skill match, filtered out by the missing graduation year.",
+        "id": "Headline “Student at Universitas X”. Satu entri pengalaman, “Barista”, tanpa tanggal. Pendidikan: nama universitas saja. Lokasi: Semarang. Keterampilan: Microsoft Word, Communication, Teamwork. Hasil: tidak ada di hasil — tanpa kata kunci jabatan, tanpa kecocokan keterampilan, tersaring keluar oleh tahun lulus yang hilang."
+       },
+       "strong": {
+        "en": "Headline “Management Trainee candidate — FMCG &amp; Banking | Operations intern · HIMA Treasurer | Excel · Supply chain · Negotiation”. Operations Intern, Bank Sinar Nusantara, Jun–Aug 2025. S1 Manajemen, 2022–2026. Location: Greater Semarang, open to Jakarta. Skills include Supply Chain Management, Operations, Financial Reconciliation. Result: page one.",
+        "id": "Headline “Management Trainee candidate — FMCG &amp; Banking | Operations intern · HIMA Treasurer | Excel · Supply chain · Negotiation”. Operations Intern, Bank Sinar Nusantara, Jun–Agu 2025. S1 Manajemen, 2022–2026. Lokasi: Semarang Raya, bersedia ke Jakarta. Keterampilan termasuk Supply Chain Management, Operations, Financial Reconciliation. Hasil: halaman satu."
+       },
+       "why": {
+        "en": "Same person, same experience. The strong profile contains the words the recruiter typed, in the fields the search reads, with the filters filled in. Nothing was inflated; everything was named.",
+        "id": "Orang yang sama, pengalaman yang sama. Profil kuat memuat kata-kata yang diketik rekruter, di kolom yang dibaca pencarian, dengan filter terisi. Tidak ada yang digelembungkan; semuanya disebutkan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the recruiter who could not find her",
+       "id": "Sorotan: rekruter yang tidak bisa menemukannya"
+      },
+      "body": [
+       {
+        "en": "In Lesson 2.4, Kak Rina told Nadia something in passing: after their call she had tried to find Nadia’s profile to pass it to the MT recruiting team, searched her name, and found three Nadia Putris — none obviously a management graduate in Semarang. She gave up and sent the recruiter Nadia’s email address instead.",
+        "id": "Di Pelajaran 2.4, Kak Rina mengatakan sesuatu sambil lalu: setelah panggilan mereka ia mencoba menemukan profil Nadia untuk diteruskan ke tim rekrutmen MT, mencari namanya, dan menemukan tiga Nadia Putri — tidak satu pun jelas-jelas lulusan manajemen di Semarang. Ia menyerah dan mengirimkan alamat email Nadia ke rekruter."
+       },
+       {
+        "en": "The recruiter then searched LinkedIn for management-trainee candidates with operations skills in Central Java, as she does every intake. Nadia’s profile — headline “Student at Universitas X”, no dates, seven skills — was not in the results. Two people inside Arunika now wanted to find her, and the profile made both of them fail. Nothing about her was wrong; the words were not there.",
+        "id": "Rekruter itu lalu mencari di LinkedIn kandidat management trainee dengan keterampilan operasi di Jawa Tengah, seperti yang ia lakukan setiap seleksi. Profil Nadia — headline “Student at Universitas X”, tanpa tanggal, tujuh keterampilan — tidak ada di hasil. Dua orang di dalam Arunika kini ingin menemukannya, dan profil itu membuat keduanya gagal. Tidak ada yang salah tentang dirinya; kata-katanya tidak ada di sana."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Search as a recruiter",
+        "id": "Latihan 1 · Cari seperti rekruter"
+       },
+       "body": {
+        "en": "Write the Boolean string a recruiter would use for your target role in your city — target title with an OR alternative, two or three skill keywords, the location. Run it on LinkedIn (people search, then the filters). Study the top five profiles: what do their headlines and skills share?",
+        "id": "Tulis string Boolean yang akan dipakai rekruter untuk peran sasaranmu di kotamu — jabatan sasaran dengan alternatif OR, dua atau tiga kata kunci keterampilan, lokasinya. Jalankan di LinkedIn (pencarian orang, lalu filter). Pelajari lima profil teratas: apa yang sama dari headline dan keterampilan mereka?"
+       },
+       "debrief": {
+        "en": "This produces your first ten profile keywords — the words that already rank for your search, in the form the people who rank use them. Write them down; Lessons 5.2 and 5.3 put them in the headline, titles and skills. If your own profile appeared, note on which page; if not, note which of the five steps in Exhibit 1 it failed.",
+        "id": "Ini menghasilkan sepuluh kata kunci profil pertamamu — kata-kata yang sudah berperingkat untuk pencarianmu, dalam bentuk yang dipakai orang-orang yang berperingkat. Tulis; Pelajaran 5.2 dan 5.3 menaruhnya di headline, jabatan, dan keterampilan. Jika profilmu sendiri muncul, catat di halaman berapa; jika tidak, catat di langkah mana dari lima langkah di Peraga 1 profilmu gagal."
        }
       },
       {
-       "term": {
-        "en": "artefact",
-        "id": "artefak"
+       "h": {
+        "en": "Drill 2 · Find the silent filter",
+        "id": "Latihan 2 · Temukan filter yang diam"
        },
-       "def": {
-        "en": "A real piece of work attached to a profile entry — a dashboard, report, repository or publication — the layer a CV cannot carry and the thing that converts a viewer into a contact.",
-        "id": "Hasil kerja nyata yang dilampirkan ke entri profil — dasbor, laporan, repositori, atau publikasi — lapisan yang tak bisa dibawa CV dan hal yang mengubah pengunjung menjadi kontak."
+       "body": {
+        "en": "Open your own profile as a recruiter would and check five fields: every experience entry has a month and year; education shows degree, field and years; location is where you want to work; industry is your target’s; you have at least 25 skills. Mark each pass or fail.",
+        "id": "Buka profilmu sendiri seperti rekruter dan periksa lima kolom: setiap entri pengalaman punya bulan dan tahun; pendidikan menunjukkan gelar, bidang, dan tahun; lokasi adalah tempat kamu ingin bekerja; industri adalah industri sasaranmu; kamu punya setidaknya 25 keterampilan. Tandai masing-masing lolos atau gagal."
+       },
+       "debrief": {
+        "en": "Most graduate profiles fail two or three of the five, and every failure is a search you are absent from. Fix the dates and education today — they take ten minutes and no writing. Location and industry are decisions from your profile brief; skills are Lesson 5.3.",
+        "id": "Kebanyakan profil lulusan gagal dua atau tiga dari lima, dan setiap kegagalan adalah pencarian yang tidak memuatmu. Perbaiki tanggal dan pendidikan hari ini — butuh sepuluh menit dan tanpa menulis. Lokasi dan industri adalah keputusan dari arahan profilmu; keterampilan adalah Pelajaran 5.3."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The one-page brief",
+        "id": "Latihan 3 · Arahan satu halaman"
+       },
+       "body": {
+        "en": "Write your profile brief in four lines: goal · reader (a named kind of recruiter holding a named kind of advertisement) · what they must know (target + three proof points with numbers, from your Module 3 pantry) · next action.",
+        "id": "Tulis arahan profilmu dalam empat baris: tujuan · pembaca (jenis rekruter tertentu yang memegang jenis iklan tertentu) · yang harus mereka ketahui (sasaran + tiga bukti dengan angka, dari lemari Modul 3-mu) · tindakan berikutnya."
+       },
+       "debrief": {
+        "en": "The brief is the test every later edit is checked against: does this headline serve that reader? Does this About give them the three proof points? If a line in your profile is not for that reader, it is taking space from something that is. Keep the brief in the Dossier; it is item 1 for this module.",
+        "id": "Arahan adalah ujian bagi setiap suntingan berikutnya: apakah headline ini melayani pembaca itu? Apakah About ini memberi mereka tiga bukti? Jika sebuah baris di profilmu bukan untuk pembaca itu, baris itu mengambil tempat dari sesuatu yang untuk mereka. Simpan arahannya di Dossier; itu butir 1 untuk modul ini."
        }
       }
      ],
@@ -19879,60 +20187,184 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Motto headlines",
-         "id": "Headline berisi moto"
+         "en": "Writing the profile for friends and lecturers",
+         "id": "Menulis profil untuk teman dan dosen"
         },
         "fix": {
-         "en": "“Aspiring professional | Lifelong learner” matches zero recruiter queries. Role + field + differentiator.",
-         "id": "“Aspiring professional | Lifelong learner” tidak cocok dengan satu pun kueri perekrut. Peran + bidang + pembeda."
+         "en": "Write for the recruiter holding an advertisement — the brief names them.",
+         "id": "Tulis untuk rekruter yang memegang iklan — arahan menyebutkan mereka."
         }
        },
        {
         "h": {
-         "en": "Empty Open-to-Work settings",
-         "id": "Fitur Open to Work dibiarkan kosong"
+         "en": "Leaving dates, education or location blank",
+         "id": "Membiarkan tanggal, pendidikan, atau lokasi kosong"
         },
         "fix": {
-         "en": "Set target titles and locations in the Open to Work tool — recruiters filter on those fields directly.",
-         "id": "Isi jabatan dan lokasi yang kamu incar di fitur Open to Work — perekrut menyaring langsung berdasarkan kolom-kolom itu."
+         "en": "Blank fields exclude you from filtered searches without anyone rejecting you.",
+         "id": "Kolom kosong mengecualikanmu dari pencarian tersaring tanpa ada yang menolakmu."
         }
        },
        {
         "h": {
-         "en": "Connection begging without context",
-         "id": "Meminta koneksi tanpa konteks"
+         "en": "Expecting the search to infer skills from titles",
+         "id": "Berharap pencarian menyimpulkan keterampilan dari jabatan"
         },
         "fix": {
-         "en": "Every connect request to a stranger carries one line of why — the 4.3 cold-message craft in miniature.",
-         "id": "Setiap permintaan koneksi ke orang yang belum kenal harus membawa satu baris alasan — versi mini dari keterampilan pesan perkenalan di 4.3."
+         "en": "Name the skill in words a recruiter would type.",
+         "id": "Sebutkan keterampilannya dengan kata yang akan diketik rekruter."
+        }
+       },
+       {
+        "h": {
+         "en": "Stuffing the same keyword into every line",
+         "id": "Menjejalkan kata kunci yang sama ke setiap baris"
+        },
+        "fix": {
+         "en": "Once in the headline, once in a title or skill, once in About.",
+         "id": "Sekali di headline, sekali di jabatan atau keterampilan, sekali di About."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Boolean string",
+        "id": "String Boolean"
+       },
+       "def": {
+        "en": "A search with quotes for exact phrases, OR for alternatives and AND to combine — how recruiters search LinkedIn.",
+        "id": "Pencarian dengan tanda kutip untuk frasa persis, OR untuk alternatif, dan AND untuk menggabungkan — cara rekruter mencari di LinkedIn."
+       }
+      },
+      {
+       "term": {
+        "en": "Silent filter",
+        "id": "Filter yang diam"
+       },
+       "def": {
+        "en": "A recruiter-tool filter — dates, degree, location, industry — that removes incomplete profiles from results without any rejection.",
+        "id": "Filter alat rekruter — tanggal, gelar, lokasi, industri — yang menghapus profil tidak lengkap dari hasil tanpa penolakan apa pun."
+       }
+      },
+      {
+       "term": {
+        "en": "First pass / second pass",
+        "id": "Tahap pertama / tahap kedua"
+       },
+       "def": {
+        "en": "A seconds-long scan of the top of the profile, then a longer review of achievements and fit for those that pass.",
+        "id": "Pindaian beberapa detik di bagian atas profil, lalu tinjauan lebih panjang atas pencapaian dan kecocokan bagi yang lolos."
+       }
+      },
+      {
+       "term": {
+        "en": "Profile brief",
+        "id": "Arahan profil"
+       },
+       "def": {
+        "en": "One page: goal, reader, what they must know, next action — written before any edit.",
+        "id": "Satu halaman: tujuan, pembaca, yang harus mereka ketahui, tindakan berikutnya — ditulis sebelum suntingan apa pun."
+       }
+      },
+      {
+       "term": {
+        "en": "Profile keywords",
+        "id": "Kata kunci profil"
+       },
+       "def": {
+        "en": "The ten words and phrases that already rank for your target search, in the form the ranking profiles use.",
+        "id": "Sepuluh kata dan frasa yang sudah berperingkat untuk pencarian sasaranmu, dalam bentuk yang dipakai profil-profil berperingkat."
+       }
+      }
+     ],
      "checks": [
       {
        "q": {
-        "en": "Which headline gets found by a recruiter searching “data analyst Jakarta fresh graduate”?",
-        "id": "Headline mana yang akan ditemukan perekrut yang mencari “data analyst Jakarta fresh graduate”?"
+        "en": "Your profile never mentions “supply chain”. A recruiter searches “supply chain” trainee.",
+        "id": "Profilmu tidak pernah menyebut “supply chain”. Seorang rekruter mencari trainee “supply chain”."
        },
        "options": [
         {
-         "en": "“Turning dreams into data-driven reality ✨”",
-         "id": "“Mengubah mimpi menjadi kenyataan berbasis data ✨”"
+         "en": "You may appear anyway",
+         "id": "Kamu mungkin tetap muncul"
         },
         {
-         "en": "“Data Analyst (fresh graduate) · Python & SQL · Statistics Olympiad finalist · Jakarta”",
-         "id": "“Data Analyst (lulusan baru) · Python & SQL · Finalis Olimpiade Statistika · Jakarta”"
+         "en": "You will not appear for that search",
+         "id": "Kamu tidak akan muncul untuk pencarian itu"
         },
         {
-         "en": "“Student at University of Indonesia”",
-         "id": "“Mahasiswa Universitas Indonesia”"
+         "en": "LinkedIn infers it from your internship",
+         "id": "LinkedIn menyimpulkannya dari magangmu"
+        },
+        {
+         "en": "Only Premium members appear",
+         "id": "Hanya anggota Premium yang muncul"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "It contains the searched title, level, skills and location as literal strings — the headline is a search index entry, not a slogan.",
-        "id": "Headline itu memuat jabatan, level, keterampilan, dan lokasi yang dicari, persis dengan kata-kata yang diketik — headline adalah entri indeks pencarian, bukan slogan."
+        "en": "A profile never appears for a keyword it does not contain.",
+        "id": "Profil tidak pernah muncul untuk kata kunci yang tidak dimuatnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Why include dates on experience entries?",
+        "id": "Mengapa mencantumkan tanggal pada entri pengalaman?"
+       },
+       "options": [
+        {
+         "en": "Decoration",
+         "id": "Hiasan"
+        },
+        {
+         "en": "Recruiter tools calculate years of experience from them and filter on them",
+         "id": "Alat rekruter menghitung tahun pengalaman darinya dan menyaring berdasarkan itu"
+        },
+        {
+         "en": "To show your age",
+         "id": "Untuk menunjukkan usiamu"
+        },
+        {
+         "en": "They are not needed",
+         "id": "Tidak diperlukan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "No dates, no computed experience — and no appearance in filtered searches.",
+        "id": "Tanpa tanggal, tanpa pengalaman terhitung — dan tanpa kemunculan di pencarian tersaring."
+       }
+      },
+      {
+       "q": {
+        "en": "The first question of a profile brief is…",
+        "id": "Pertanyaan pertama arahan profil adalah…"
+       },
+       "options": [
+        {
+         "en": "Which photo to use",
+         "id": "Foto mana yang dipakai"
+        },
+        {
+         "en": "Who is the reader and what do they need to do next",
+         "id": "Siapa pembacanya dan apa yang perlu mereka lakukan berikutnya"
+        },
+        {
+         "en": "How many connections you have",
+         "id": "Berapa koneksimu"
+        },
+        {
+         "en": "Which colours to use",
+         "id": "Warna apa yang dipakai"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Goal, reader, what they must know, next action — every edit is written for that reader.",
+        "id": "Tujuan, pembaca, yang harus mereka ketahui, tindakan berikutnya — setiap suntingan ditulis untuk pembaca itu."
        }
       }
      ],
@@ -19940,140 +20372,4164 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "linkedin",
       "title": {
-       "en": "Audit your profile now",
-       "id": "Audit profilmu sekarang"
+       "en": "The profile brief and your ten keywords",
+       "id": "Arahan profil dan sepuluh kata kuncimu"
       },
       "body": {
-       "en": "Paste your headline, About and bullets into the LinkedIn optimiser — it applies this lesson's rules on your device and hands back rewrite scaffolds from your own words.",
-       "id": "Tempel headline, About, dan butir pengalamanmu ke pengoptimal LinkedIn — alat ini menerapkan aturan pelajaran ini langsung di perangkatmu dan mengembalikan kerangka penulisan ulang yang disusun dari kata-katamu sendiri."
+       "en": "Open the LinkedIn studio and record two things before editing anything: your one-page brief (goal · reader · must know · next action) and the ten keywords from your recruiter search. Both are Dossier item 1 for this module, and every headline, title and skill in Lessons 5.2–5.3 is checked against them.",
+       "id": "Buka studio LinkedIn dan catat dua hal sebelum mengedit apa pun: arahan satu halamanmu (tujuan · pembaca · harus tahu · tindakan berikutnya) dan sepuluh kata kunci dari pencarian rekrutermu. Keduanya adalah butir Dossier 1 untuk modul ini, dan setiap headline, jabatan, dan keterampilan di Pelajaran 5.2–5.3 diperiksa terhadapnya."
       },
       "cta": {
-       "en": "Open the LinkedIn optimiser →",
-       "id": "Buka pengoptimal LinkedIn →"
+       "en": "Open the LinkedIn studio →",
+       "id": "Buka studio LinkedIn →"
       }
      },
+     "takeaways": [
+      {
+       "en": "You are found by words you actually use.",
+       "id": "Kamu ditemukan lewat kata-kata yang benar-benar kamu pakai."
+      },
+      {
+       "en": "Blank fields exclude you silently.",
+       "id": "Kolom kosong mengecualikanmu diam-diam."
+      },
+      {
+       "en": "Write for the recruiter holding an advertisement.",
+       "id": "Tulis untuk rekruter yang memegang iklan."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the brief template",
+       "id": "Sumber dan templat arahan"
+      },
+      "lead": {
+       "en": "Two sources, the profile-brief template and the silent-filter checklist.",
+       "id": "Dua sumber, templat arahan profil, dan daftar periksa filter yang diam."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Headline formulas by situation",
-         "id": "Rumus headline menurut situasi"
+         "en": "Reading list · Lesson 5.1",
+         "id": "Daftar bacaan · Pelajaran 5.1"
         },
         "desc": {
-         "en": "Fill in, then check that each word is something a recruiter would type.",
-         "id": "Isi, lalu periksa apakah setiap kata adalah sesuatu yang akan diketik perekrut."
+         "en": "Two sources. LinkedIn changes; verify figures against the live interface.",
+         "id": "Dua sumber. LinkedIn berubah; verifikasi angka terhadap antarmuka langsung."
         },
         "body": [
          {
-          "en": "Fresh graduate: [Target role] (fresh graduate) · [2 skills or tools] · [strongest evidence tag] · [city / remote]",
-          "id": "Lulusan baru: [Peran tujuan] (lulusan baru) · [2 keterampilan atau alat] · [tanda bukti terkuat] · [kota / jarak jauh]"
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), ch. 1–2, 5 — the profile brief, search mechanics, location and industry.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), bab 1–2, 5 — arahan profil, mekanika pencarian, lokasi dan industri."
          },
          {
-          "en": "Final-year student: [Field] student, [University] · seeking [internship type] [period] · [evidence tag]",
-          "id": "Mahasiswa tingkat akhir: Mahasiswa [bidang], [Universitas] · mencari [jenis magang] [periode] · [tanda bukti]"
-         },
-         {
-          "en": "Career switcher: [Target role] · formerly [previous field] · [transferable skill] · [certification or project]",
-          "id": "Pindah karier: [Peran tujuan] · sebelumnya [bidang lama] · [keterampilan yang bisa dipindahkan] · [sertifikasi atau proyek]"
-         },
-         {
-          "en": "Test: paste your headline into LinkedIn search as if you were the recruiter. If your profile would not match, rewrite.",
-          "id": "Uji: tempel headline-mu ke pencarian LinkedIn seolah kamu perekrutnya. Kalau profilmu tidak akan cocok, tulis ulang."
+          "en": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), ch. 3, 5, 8 — the two passes, skills-first search, silent filters.",
+          "id": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), bab 3, 5, 8 — dua tahap, pencarian berbasis keterampilan, filter yang diam."
          }
         ]
        },
        {
         "kind": "template",
         "title": {
-         "en": "About section — the pyramid",
-         "id": "Bagian About — piramida"
+         "en": "Profile brief · four lines",
+         "id": "Arahan profil · empat baris"
         },
         "desc": {
-         "en": "Four short paragraphs. Recruiters see the first two lines before “see more”.",
-         "id": "Empat paragraf pendek. Perekrut melihat dua baris pertama sebelum “lihat selengkapnya”."
+         "en": "Write before any edit.",
+         "id": "Tulis sebelum suntingan apa pun."
         },
         "body": [
          {
-          "en": "Line 1–2 (who): “[Role or field] with [strongest evidence]. I [one-sentence what you do best].”",
-          "id": "Baris 1–2 (siapa): “[Peran atau bidang] dengan [bukti terkuat]. Saya [satu kalimat tentang hal yang paling kamu kuasai].”"
+          "en": "Goal: job search — [role family] at [sector/programme type]",
+          "id": "Tujuan: mencari kerja — [rumpun peran] di [sektor/jenis program]"
          },
          {
-          "en": "Evidence: three lines, each “verb + object + number or artefact” — the same lines your CV carries.",
-          "id": "Bukti: tiga baris, masing-masing “kata kerja + objek + angka atau artefak” — baris yang sama dengan CV-mu."
+          "en": "Reader: a [kind of recruiter] holding [kind of advertisement]; and the screener who already has my CV",
+          "id": "Pembaca: seorang [jenis rekruter] yang memegang [jenis iklan]; dan penyaring yang sudah memegang CV saya"
          },
          {
-          "en": "Direction: “I’m looking for [role type] in [industry or problem space] where [what you want to build].”",
-          "id": "Arah: “Saya mencari [jenis peran] di [industri atau ruang masalah] tempat [apa yang ingin kamu bangun].”"
+          "en": "Must know: target in their words · proof 1 (number) · proof 2 (number) · proof 3 (number)",
+          "id": "Harus tahu: sasaran dalam kata-kata mereka · bukti 1 (angka) · bukti 2 (angka) · bukti 3 (angka)"
          },
          {
-          "en": "Ask: “Open to [conversations / roles] from [when]. Email: [address].”",
-          "id": "Ajakan: “Terbuka untuk [percakapan / peran] mulai [kapan]. Email: [alamat].”"
+          "en": "Next action: message me at [email] / view [portfolio] / confirm the CV matches",
+          "id": "Tindakan berikutnya: kirim pesan ke [email] / lihat [portofolio] / konfirmasi CV cocok"
          }
         ]
        },
        {
         "kind": "checklist",
         "title": {
-         "en": "Profile audit — 12 points",
-         "id": "Audit profil — 12 poin"
+         "en": "Silent-filter check · five fields",
+         "id": "Pemeriksaan filter diam · lima kolom"
         },
         "desc": {
-         "en": "Run this once a month and after every new project.",
-         "id": "Jalankan sebulan sekali dan setelah setiap proyek baru."
+         "en": "Ten minutes, no writing.",
+         "id": "Sepuluh menit, tanpa menulis."
         },
         "body": [
          {
-          "en": "Photo: recent, face clear, neutral background",
-          "id": "Foto: terbaru, wajah jelas, latar netral"
+          "en": "Every experience entry has month + year (matching the CV)",
+          "id": "Setiap entri pengalaman punya bulan + tahun (sesuai CV)"
          },
          {
-          "en": "Banner carries one line of proof, not a stock image",
-          "id": "Banner memuat satu baris bukti, bukan gambar stok"
+          "en": "Education: degree · field · university · years",
+          "id": "Pendidikan: gelar · bidang · universitas · tahun"
          },
          {
-          "en": "Headline follows the formula; no mottos",
-          "id": "Headline mengikuti rumus; tanpa moto"
+          "en": "Location = where I want to work (+ open to relocate)",
+          "id": "Lokasi = tempat saya ingin bekerja (+ bersedia pindah)"
          },
          {
-          "en": "Custom URL set (linkedin.com/in/yourname)",
-          "id": "URL khusus sudah diatur (linkedin.com/in/namamu)"
+          "en": "Industry = my target’s, not my part-time job’s",
+          "id": "Industri = sasaran saya, bukan pekerjaan paruh waktu"
          },
          {
-          "en": "About: first two lines say who and what",
-          "id": "About: dua baris pertama menyatakan siapa dan apa"
-         },
-         {
-          "en": "Every experience entry has at least one number or artefact",
-          "id": "Setiap entri pengalaman punya setidaknya satu angka atau artefak"
-         },
-         {
-          "en": "Projects section holds 2–3 items with links or files",
-          "id": "Bagian Projects memuat 2–3 item dengan tautan atau berkas"
-         },
-         {
-          "en": "Skills: top 3 pinned match the target role",
-          "id": "Skills: 3 teratas yang disematkan cocok dengan peran tujuan"
-         },
-         {
-          "en": "Open to Work configured with titles and locations",
-          "id": "Open to Work diatur dengan jabatan dan lokasi"
-         },
-         {
-          "en": "Education lists final project or thesis topic",
-          "id": "Pendidikan mencantumkan topik proyek akhir atau skripsi"
-         },
-         {
-          "en": "Dates and titles match the CV exactly",
-          "id": "Tanggal dan jabatan persis sama dengan CV"
-         },
-         {
-          "en": "At least one recommendation from a supervisor or lecturer",
-          "id": "Setidaknya satu rekomendasi dari atasan atau dosen"
+          "en": "Skills ≥ 25, target-relevant (Lesson 5.3)",
+          "id": "Keterampilan ≥ 25, relevan sasaran (Pelajaran 5.3)"
          }
         ]
        }
       ]
+     }
+    },
+    {
+     "n": "5.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Headline, Photo, Banner and About",
+      "id": "Headline, Foto, Banner, dan About"
+     },
+     "overview": {
+      "en": "The top of your profile does most of the work in the first scan. This lesson gives a formula for each element — three headline formulas that work when you do not yet have a job title to lean on, a photo audit, a banner rule, and a five-part About — with Nadia’s worked versions of each.",
+      "id": "Bagian atas profilmu melakukan sebagian besar pekerjaan pada pindaian pertama. Pelajaran ini memberi rumus untuk setiap elemen — tiga rumus headline yang berhasil ketika kamu belum punya jabatan untuk diandalkan, audit foto, aturan banner, dan About lima bagian — dengan versi Nadia yang sudah dikerjakan untuk masing-masing."
+     },
+     "objectives": [
+      {
+       "en": "Write three headline variants with different formulas and pick one.",
+       "id": "Menulis tiga varian headline dengan rumus berbeda dan memilih satu."
+      },
+      {
+       "en": "Audit your photo and banner against a checklist.",
+       "id": "Mengaudit foto dan banner-mu terhadap daftar periksa."
+      },
+      {
+       "en": "Draft an About section with a hook, value statement, proof, direction and a call to action.",
+       "id": "Menyusun bagian About dengan kail, pernyataan nilai, bukti, arah, dan ajakan bertindak."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The seventy characters that get you clicked",
+       "id": "Tujuh puluh karakter yang membuatmu diklik"
+      },
+      "intro": {
+       "en": "Headline, photo, banner, About — in the order the first pass sees them.",
+       "id": "Headline, foto, banner, About — dalam urutan yang dilihat tahap pertama."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Headline",
+         "id": "Headline"
+        },
+        "points": [
+         {
+          "en": "The most searchable line you have. Target title + status/key skill + credential + two or three skills.",
+          "id": "Baris paling bisa dicari yang kamu punya. Jabatan sasaran + status/keterampilan kunci + kredensial + dua atau tiga keterampilan."
+         },
+         {
+          "en": "Most important words in the first ~70 characters, where results truncate. Say “candidate”, not a title you have not held.",
+          "id": "Kata terpenting di ~70 karakter pertama, tempat hasil terpotong. Katakan “candidate”, bukan jabatan yang belum pernah kamu pegang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Photo and banner",
+         "id": "Foto dan banner"
+        },
+        "points": [
+         {
+          "en": "Recent, face and shoulders, plain background, window light, a real smile, one step smarter than everyday. Hijab and batik are professional.",
+          "id": "Terkini, wajah dan bahu, latar polos, cahaya jendela, senyum sungguhan, satu tingkat lebih rapi dari sehari-hari. Hijab dan batik itu profesional."
+         },
+         {
+          "en": "Banner: replace the default with something simple that names your field; keep text clear of where the photo sits on mobile.",
+          "id": "Banner: ganti bawaan dengan sesuatu yang sederhana yang menyebut bidangmu; jauhkan teks dari tempat foto berada di ponsel."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "About",
+         "id": "About"
+        },
+        "points": [
+         {
+          "en": "Hook · value line · proof with numbers · direction · call to action. First person, 150–300 words.",
+          "id": "Kail · baris nilai · bukti dengan angka · arah · ajakan bertindak. Orang pertama, 150–300 kata."
+         },
+         {
+          "en": "Only the first two or three lines show before “see more”. They must earn the click.",
+          "id": "Hanya dua atau tiga baris pertama yang tampil sebelum “lihat selengkapnya”. Baris itu harus layak diklik."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "target",
+       "h": {
+        "en": "The headline",
+        "id": "Headline"
+       },
+       "body": {
+        "en": "LinkedIn’s default headline — current title at current employer — wastes the most searchable line you have <i>(Serdula, LinkedIn Profile Optimization For Dummies, ch. 7)</i>. For a graduate the default is worse still: “Student at Universitas X” or “Barista at Kopi Tepian” says nothing a recruiter searches for. The limit is currently around 220 characters <span class=\"ev ev-verify\">Verify</span> <i>(Dumas, AI-Savvy Job Seeker, 2025)</i>; put the most important words in the first ~70, where search results and mobile truncate. Three formulas:",
+        "id": "Headline bawaan LinkedIn — jabatan saat ini di perusahaan saat ini — menyia-nyiakan baris paling bisa dicari yang kamu punya <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 7)</i>. Bagi lulusan, bawaannya lebih buruk lagi: “Student at Universitas X” atau “Barista at Kopi Tepian” tidak mengatakan apa pun yang dicari rekruter. Batasnya saat ini sekitar 220 karakter <span class=\"ev ev-verify\">Verifikasi</span> <i>(Dumas, AI-Savvy Job Seeker, 2025)</i>; taruh kata terpenting di ~70 pertama, tempat hasil pencarian dan tampilan ponsel terpotong. Tiga rumus:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Formula",
+          "id": "Rumus"
+         },
+         {
+          "en": "Pattern",
+          "id": "Pola"
+         },
+         {
+          "en": "Nadia’s version",
+          "id": "Versi Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Aspiring professional <i>(Dumas, ch. 4)</i>",
+           "id": "Aspiring professional <i>(Dumas, bab 4)</i>"
+          },
+          {
+           "en": "Target title · current status and key skill · credential · 2–3 skills",
+           "id": "Jabatan sasaran · status saat ini dan keterampilan kunci · kredensial · 2–3 keterampilan"
+          },
+          {
+           "en": "Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship",
+           "id": "Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship"
+          }
+         ],
+         [
+          {
+           "en": "Keyword headline <i>(Serdula, ch. 7)</i>",
+           "id": "Headline kata kunci <i>(Serdula, bab 7)</i>"
+          },
+          {
+           "en": "Target title · specialty keywords · a benefit or “open to” line",
+           "id": "Jabatan sasaran · kata kunci spesialisasi · baris manfaat atau “open to”"
+          },
+          {
+           "en": "Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta",
+           "id": "Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta"
+          }
+         ],
+         [
+          {
+           "en": "Value statement <i>(Serdula, ch. 7; Dumas, ch. 4)</i>",
+           "id": "Pernyataan nilai <i>(Serdula, bab 7; Dumas, bab 4)</i>"
+          },
+          {
+           "en": "“Helping [who] [do what] through [skill]” — only if genuinely true of your experience",
+           "id": "“Helping [siapa] [melakukan apa] through [keterampilan]” — hanya jika benar-benar sesuai pengalamanmu"
+          },
+          {
+           "en": "Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate",
+           "id": "Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Use at most two kinds of separator. Say “candidate” or “aspiring” rather than claiming a title you have not held.",
+         "id": "Pakai paling banyak dua jenis pemisah. Katakan “candidate” atau “aspiring” daripada mengklaim jabatan yang belum kamu pegang."
+        }
+       }
+      },
+      {
+       "icon": "eye",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "center 40%",
+       "h": {
+        "en": "The photo",
+        "id": "Foto"
+       },
+       "body": {
+        "en": "Profiles with photos are viewed far more often, and recruiters skip profiles without one <i>(Serdula, ch. 6 and 22)</i>. The audit <i>(Serdula, ch. 6)</i>: recent — under three years; face and shoulders, with the face filling most of the frame; a plain background; natural light from a window; eye contact and a genuine smile; clothes one step smarter than everyday work clothes. Professional attire in the Indonesian context includes hijab and batik — the standard is <i>clean, well-lit, approachable</i>, not a Western suit. A friend with a phone, a window and a plain wall is enough; a studio is not required and a heavily retouched studio portrait can look less like you than the phone photo does.",
+        "id": "Profil dengan foto jauh lebih sering dilihat, dan rekruter melewati profil tanpa foto <i>(Serdula, bab 6 dan 22)</i>. Auditnya <i>(Serdula, bab 6)</i>: terkini — kurang dari tiga tahun; wajah dan bahu, dengan wajah mengisi sebagian besar bingkai; latar polos; cahaya alami dari jendela; kontak mata dan senyum sungguhan; pakaian satu tingkat lebih rapi dari pakaian kerja sehari-hari. Busana profesional dalam konteks Indonesia mencakup hijab dan batik — standarnya <i>bersih, terang, ramah</i>, bukan jas Barat. Teman dengan ponsel, jendela, dan dinding polos sudah cukup; studio tidak diperlukan dan potret studio yang banyak diedit bisa tampak kurang mirip kamu dibanding foto ponsel."
+       },
+       "bullets": [
+        {
+         "en": "<b>Pass:</b> recent · face and shoulders · plain background · window light · eye contact, real smile · one step smarter",
+         "id": "<b>Lolos:</b> terkini · wajah dan bahu · latar polos · cahaya jendela · kontak mata, senyum sungguhan · satu tingkat lebih rapi"
+        },
+        {
+         "en": "<b>Fail:</b> cropped from a group or a wedding · sunglasses · a filter that changes your face · a selfie angle · a logo or a pet instead of you",
+         "id": "<b>Gagal:</b> dipotong dari foto kelompok atau pernikahan · kacamata hitam · filter yang mengubah wajah · sudut swafoto · logo atau hewan peliharaan alih-alih kamu"
+        },
+        {
+         "en": "<b>Two or more fails → reshoot.</b> Fifteen minutes by a window.",
+         "id": "<b>Dua kegagalan atau lebih → foto ulang.</b> Lima belas menit di dekat jendela."
+        }
+       ]
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The banner",
+        "id": "Banner"
+       },
+       "body": {
+        "en": "Replace the default. A simple image connected to your field — a clean skyline, a warehouse floor, a plain colour — or a clean background with a short line of text naming your target: “Management Trainee candidate · Operations &amp; Supply Chain”. Never your CV crammed into an image, never a quote in a decorative font, and keep any text clear of the lower-left area hidden by your photo on mobile <i>(Dumas, ch. 10; Serdula, ch. 8)</i>. The banner is not searched; its only job is to look intentional in the first pass.",
+        "id": "Ganti bawaannya. Gambar sederhana yang berkaitan dengan bidangmu — kaki langit yang bersih, lantai gudang, warna polos — atau latar bersih dengan satu baris teks pendek yang menyebut sasaranmu: “Management Trainee candidate · Operations &amp; Supply Chain”. Jangan pernah CV-mu yang dijejalkan ke dalam gambar, jangan pernah kutipan dengan huruf dekoratif, dan jauhkan teks apa pun dari area kiri-bawah yang tertutup fotomu di ponsel <i>(Dumas, bab 10; Serdula, bab 8)</i>. Banner tidak dicari; satu-satunya tugasnya adalah tampak disengaja pada tahap pertama."
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The About section",
+        "id": "Bagian About"
+       },
+       "body": {
+        "en": "Only the first two or three lines show before “see more”, so they must earn the click <i>(Serdula, ch. 12; Dumas, ch. 7)</i>. Five parts, in order:",
+        "id": "Hanya dua atau tiga baris pertama yang tampil sebelum “lihat selengkapnya”, jadi baris itu harus layak diklik <i>(Serdula, bab 12; Dumas, bab 7)</i>. Lima bagian, berurutan:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Hook</b> — a sentence about what you do or care about professionally. Not “I am a fresh graduate from…”.",
+         "id": "<b>Kail</b> — satu kalimat tentang apa yang kamu kerjakan atau pedulikan secara profesional. Bukan “Saya fresh graduate dari…”."
+        },
+        {
+         "en": "<b>Value line</b> — “I help / I’m building…” — what you bring to your target.",
+         "id": "<b>Baris nilai</b> — “Saya membantu / Saya sedang membangun…” — apa yang kamu bawa ke sasaranmu."
+        },
+        {
+         "en": "<b>Proof</b> — two or three short highlights with numbers, each passing the “so what?” test from Module 3.",
+         "id": "<b>Bukti</b> — dua atau tiga sorotan singkat dengan angka, masing-masing lolos uji “lalu kenapa?” dari Modul 3."
+        },
+        {
+         "en": "<b>Direction</b> — the roles and sectors you are targeting, in the recruiter’s words.",
+         "id": "<b>Arah</b> — peran dan sektor yang kamu sasar, dalam kata-kata rekruter."
+        },
+        {
+         "en": "<b>Call to action</b> — how to reach you: an email address.",
+         "id": "<b>Ajakan bertindak</b> — cara menghubungimu: alamat email."
+        }
+       ],
+       "after": [
+        {
+         "en": "Write in first person, conversationally — third person reads like a pasted bio <i>(Serdula, ch. 12; Dumas, ch. 7)</i>. Aim for 150–300 words. The facts are the CV’s facts exactly; the voice is warmer than the CV’s. Nadia’s About, four short paragraphs:",
+         "id": "Tulis dalam orang pertama, secara percakapan — orang ketiga terbaca seperti biodata yang ditempel <i>(Serdula, bab 12; Dumas, bab 7)</i>. Targetkan 150–300 kata. Faktanya persis fakta CV; suaranya lebih hangat dari CV. About Nadia, empat paragraf pendek:"
+        }
+       ],
+       "quote": {
+        "text": {
+         "en": "I like making operations run a little smoother than I found them — as a bank operations intern, a café barista during busy morning rushes, and as treasurer of a 300-member student organisation.<br><br>As a 2026 Management graduate, I’m looking to start in a management-trainee or operations role in FMCG, banking or fintech.<br><br>A few things I’ve done: reconciled daily reports for 3 bank branches and flagged a recurring terminal error; rebuilt HIMA’s finances so the faculty audit found zero issues for the first time in 3 years; raised Rp 85 juta in sponsorship for a 1,200-participant national competition.<br><br>Open to placement anywhere in Indonesia. The best way to reach me is nadia.putri@email.com.",
+         "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — sebagai intern operasional bank, barista kafe saat jam sibuk pagi, dan sebagai bendahara organisasi mahasiswa beranggotakan 300 orang.<br><br>Sebagai lulusan Manajemen 2026, saya ingin memulai di peran management trainee atau operasi di FMCG, perbankan, atau fintech.<br><br>Beberapa hal yang sudah saya lakukan: merekonsiliasi laporan harian untuk 3 cabang bank dan menandai kesalahan terminal yang berulang; membangun ulang keuangan HIMA sehingga audit fakultas menemukan nol masalah untuk pertama kalinya dalam 3 tahun; mengumpulkan sponsor Rp 85 juta untuk kompetisi nasional dengan 1.200 peserta.<br><br>Bersedia ditempatkan di seluruh Indonesia. Cara terbaik menghubungi saya adalah nadia.putri@email.com."
+        },
+        "who": {
+         "en": "112 words · hook, value, proof ×3, direction, contact · the first line earns “see more” because it is about work, not about being a graduate",
+         "id": "112 kata · kail, nilai, bukti ×3, arah, kontak · baris pertama layak “lihat selengkapnya” karena tentang pekerjaan, bukan tentang menjadi lulusan"
+        }
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Putting the top together",
+        "id": "Menyatukan bagian atas"
+       },
+       "body": {
+        "en": "The four elements are read as one block in the first pass, so they should agree with each other and with the profile brief. The headline names the target and two proofs; the photo says “approachable, professional”; the banner names the field; the About’s first line says what you like doing. A recruiter who searched “management trainee” + “supply chain” sees the same phrase in the headline, the banner and the About’s direction line — once each — and a face. That is the whole first pass, and it takes them about four seconds.",
+        "id": "Keempat elemen dibaca sebagai satu blok pada tahap pertama, jadi harus saling sesuai dan sesuai dengan arahan profil. Headline menyebut sasaran dan dua bukti; foto mengatakan “ramah, profesional”; banner menyebut bidangnya; baris pertama About mengatakan apa yang kamu suka kerjakan. Rekruter yang mencari “management trainee” + “supply chain” melihat frasa yang sama di headline, banner, dan baris arah About — sekali masing-masing — dan sebuah wajah. Itulah seluruh tahap pertama, dan butuh sekitar empat detik."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 2: Nadia’s profile top, before and after",
+       "id": "Peraga 2: Bagian atas profil Nadia, sebelum dan sesudah"
+      },
+      "title": {
+       "en": "The same person in the first four seconds",
+       "id": "Orang yang sama dalam empat detik pertama"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "Before",
+         "id": "Sebelum"
+        },
+        "sub": {
+         "en": "What the Arunika recruiter found — and did not click",
+         "id": "Yang ditemukan rekruter Arunika — dan tidak diklik"
+        },
+        "items": [
+         {
+          "en": "Headline: Student at Universitas X",
+          "id": "Headline: Student at Universitas X"
+         },
+         {
+          "en": "Photo: cropped from a cousin’s wedding, half a shoulder of someone else visible",
+          "id": "Foto: dipotong dari pernikahan sepupu, setengah bahu orang lain terlihat"
+         },
+         {
+          "en": "Banner: LinkedIn default",
+          "id": "Banner: bawaan LinkedIn"
+         },
+         {
+          "en": "About: empty",
+          "id": "About: kosong"
+         },
+         {
+          "en": "Searchable words in the top: none",
+          "id": "Kata yang bisa dicari di bagian atas: tidak ada"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "After",
+         "id": "Sesudah"
+        },
+        "sub": {
+         "en": "Same facts, from the brief",
+         "id": "Fakta yang sama, dari arahan"
+        },
+        "items": [
+         {
+          "en": "Headline: Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship",
+          "id": "Headline: Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Negotiation · Sponsorship"
+         },
+         {
+          "en": "Photo: by the window at home, batik, a real smile — fifteen minutes with a friend’s phone",
+          "id": "Foto: di dekat jendela di rumah, batik, senyum sungguhan — lima belas menit dengan ponsel teman"
+         },
+         {
+          "en": "Banner: plain dark blue, one line — “Operations &amp; Supply Chain · Management Trainee candidate”",
+          "id": "Banner: biru tua polos, satu baris — “Operations &amp; Supply Chain · Management Trainee candidate”"
+         },
+         {
+          "en": "About: hook · value · three proofs · direction · email — 112 words",
+          "id": "About: kail · nilai · tiga bukti · arah · email — 112 kata"
+         },
+         {
+          "en": "Searchable words in the top: management trainee, FMCG, banking, operations, supply chain, Excel, negotiation, sponsorship",
+          "id": "Kata yang bisa dicari di bagian atas: management trainee, FMCG, banking, operations, supply chain, Excel, negotiation, sponsorship"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Nothing was added to her experience. Everything was named, in the recruiter’s words, where the first pass looks.",
+       "id": "Tidak ada yang ditambahkan ke pengalamannya. Semuanya disebutkan, dalam kata-kata rekruter, di tempat tahap pertama melihat."
+      },
+      "longdesc": {
+       "en": "Two columns comparing the top of Nadia’s profile before and after. Before: a default student headline, a photo cropped from a wedding, the default banner, an empty About and no searchable words. After: a formula headline naming the management-trainee target with FMCG and banking, an internship credential and three skills; a window-lit photo in batik; a plain banner naming operations and supply chain; a 112-word About with hook, value, three proofs, direction and email; and eight searchable phrases in the top of the profile.",
+       "id": "Dua kolom membandingkan bagian atas profil Nadia sebelum dan sesudah. Sebelum: headline mahasiswa bawaan, foto yang dipotong dari pernikahan, banner bawaan, About kosong, dan tanpa kata yang bisa dicari. Sesudah: headline rumus yang menyebut sasaran management trainee dengan FMCG dan perbankan, kredensial magang, dan tiga keterampilan; foto berbatik dengan cahaya jendela; banner polos yang menyebut operasi dan supply chain; About 112 kata dengan kail, nilai, tiga bukti, arah, dan email; dan delapan frasa yang bisa dicari di bagian atas profil."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two headlines",
+        "id": "Dua headline"
+       },
+       "q": {
+        "en": "The first seventy characters a recruiter sees in the results list.",
+        "id": "Tujuh puluh karakter pertama yang dilihat rekruter di daftar hasil."
+       },
+       "weak": {
+        "en": "“Fresh Graduate | Hardworking | Looking for opportunities”",
+        "id": "“Fresh Graduate | Hardworking | Looking for opportunities”"
+       },
+       "strong": {
+        "en": "“Management Trainee candidate — FMCG &amp; Banking | Bank operations intern · HIMA Treasurer | Excel · Negotiation”",
+        "id": "“Management Trainee candidate — FMCG &amp; Banking | Bank operations intern · HIMA Treasurer | Excel · Negotiation”"
+       },
+       "why": {
+        "en": "The strong version contains searchable keywords and proof; the weak version contains neither. “Hardworking” is not a search term, and “looking for opportunities” is what every profile without a target says.",
+        "id": "Versi kuat memuat kata kunci yang bisa dicari dan bukti; versi lemah tidak memuat keduanya. “Hardworking” bukan istilah pencarian, dan “looking for opportunities” adalah yang dikatakan setiap profil tanpa sasaran."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the hook that was about her, not about being a graduate",
+       "id": "Sorotan: kail yang tentang dirinya, bukan tentang menjadi lulusan"
+      },
+      "body": [
+       {
+        "en": "Nadia’s first About draft opened: “I am a fresh graduate in Management from Universitas X with a strong interest in the business world and a passion for learning.” Thirty-one words, and every one of them could belong to ten thousand other profiles. In the peer drill nobody clicked “see more”.",
+        "id": "Draf About pertama Nadia dibuka: “Saya fresh graduate Manajemen dari Universitas X dengan minat kuat pada dunia bisnis dan semangat belajar.” Tiga puluh satu kata, dan setiap kata bisa milik sepuluh ribu profil lain. Di latihan rekan sebaya tidak ada yang mengklik “lihat selengkapnya”."
+       },
+       {
+        "en": "The second draft opened with the sentence from the Module 3 pantry interview: “I like making operations run a little smoother than I found them.” Then three places she had done it. Every peer clicked. The hook was not clever; it was specific, and it was about work she had actually done. The best About openings in the cohort all came from the same place — the pantry, not the CV summary.",
+        "id": "Draf kedua dibuka dengan kalimat dari wawancara lemari Modul 3: “Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya.” Lalu tiga tempat ia melakukannya. Setiap rekan mengklik. Kailnya tidak cerdik; kailnya spesifik, dan tentang pekerjaan yang benar-benar ia lakukan. Pembuka About terbaik di kohor semuanya datang dari tempat yang sama — lemari, bukan ringkasan CV."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Headline A/B/C",
+        "id": "Latihan 1 · Headline A/B/C"
+       },
+       "body": {
+        "en": "Write three headlines for yourself, one per formula: aspiring professional; keyword; value statement (only if true). Count the characters to the first separator. Give each to a peer — or read them back to yourself after an hour — with six seconds to pick one.",
+        "id": "Tulis tiga headline untuk dirimu, satu per rumus: aspiring professional; kata kunci; pernyataan nilai (hanya jika benar). Hitung karakter sampai pemisah pertama. Berikan masing-masing ke rekan — atau baca kembali untuk dirimu setelah satu jam — dengan enam detik untuk memilih satu."
+       },
+       "debrief": {
+        "en": "The six-second pick usually goes to the headline whose first seventy characters name the target and one proof. If your value-statement version won, check it is literally true of something you have done; if the keyword version won, check it still reads as a person. Whichever wins, its first seventy characters go into the Dossier as Headline A; the other two are B and C for later A/B testing against profile views.",
+        "id": "Pilihan enam detik biasanya jatuh pada headline yang tujuh puluh karakter pertamanya menyebut sasaran dan satu bukti. Jika versi pernyataan nilaimu menang, periksa itu benar-benar sesuai sesuatu yang pernah kamu lakukan; jika versi kata kunci menang, periksa masih terbaca seperti seseorang. Mana pun yang menang, tujuh puluh karakter pertamanya masuk Dossier sebagai Headline A; dua lainnya B dan C untuk uji A/B nanti terhadap tampilan profil."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Hook challenge",
+        "id": "Latihan 2 · Tantangan kail"
+       },
+       "body": {
+        "en": "Write three About openings — one sentence each — none beginning with “I am a”. Source them from your pantry: what you like doing, what you keep being asked to do, what you fixed. Peers vote for the one that earns “see more”.",
+        "id": "Tulis tiga pembuka About — satu kalimat masing-masing — tidak ada yang dimulai dengan “Saya adalah”. Ambil dari lemarimu: apa yang kamu suka kerjakan, apa yang terus diminta orang darimu, apa yang kamu perbaiki. Rekan memilih yang layak “lihat selengkapnya”."
+       },
+       "debrief": {
+        "en": "Openings that win are concrete and about work: a verb, a setting, a hint of a number. Openings that lose are about status (graduate, student, fresh) or about attitude (passionate, hardworking, eager). If all three of yours are about status, go back to the pantry’s ten questions and answer “what did you fix?” first.",
+        "id": "Pembuka yang menang konkret dan tentang pekerjaan: kata kerja, latar, petunjuk angka. Pembuka yang kalah tentang status (lulusan, mahasiswa, fresh) atau sikap (bersemangat, pekerja keras, antusias). Jika ketiganya tentang status, kembali ke sepuluh pertanyaan lemari dan jawab “apa yang kamu perbaiki?” lebih dulu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Photo audit",
+        "id": "Latihan 3 · Audit foto"
+       },
+       "body": {
+        "en": "Score your current photo yes/no on six lines: recent (under three years) · face and shoulders, face fills the frame · plain background · natural window light · eye contact and a real smile · one step smarter than everyday. Then the banner: replaced the default? text clear of the photo area on mobile?",
+        "id": "Nilai fotomu saat ini ya/tidak pada enam baris: terkini (kurang dari tiga tahun) · wajah dan bahu, wajah mengisi bingkai · latar polos · cahaya jendela alami · kontak mata dan senyum sungguhan · satu tingkat lebih rapi dari sehari-hari. Lalu banner: sudah mengganti bawaan? teks jauh dari area foto di ponsel?"
+       },
+       "debrief": {
+        "en": "Two or more fails → reshoot this week: a friend, a phone, a window, a plain wall, batik or a collared shirt, fifteen minutes, twenty frames, pick the one where you look like you on a good day. Then check it at thumbnail size — the results list shows it at about the size of a fingernail, and a face that fills the frame is the only kind that survives that.",
+        "id": "Dua kegagalan atau lebih → foto ulang minggu ini: teman, ponsel, jendela, dinding polos, batik atau kemeja berkerah, lima belas menit, dua puluh bingkai, pilih yang membuatmu tampak seperti dirimu pada hari yang baik. Lalu periksa pada ukuran gambar mini — daftar hasil menampilkannya sebesar kuku jari, dan wajah yang mengisi bingkai adalah satu-satunya jenis yang bertahan pada ukuran itu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Draft the About",
+        "id": "Latihan 4 · Susun About"
+       },
+       "body": {
+        "en": "Write your About in five parts, 150–300 words, first person: the winning hook · a value line · three proofs with numbers from the pantry · direction in the recruiter’s words · your email. Read it aloud once.",
+        "id": "Tulis About-mu dalam lima bagian, 150–300 kata, orang pertama: kail yang menang · baris nilai · tiga bukti dengan angka dari lemari · arah dalam kata-kata rekruter · emailmu. Baca keras-keras sekali."
+       },
+       "debrief": {
+        "en": "Reading aloud catches the two usual faults: a paragraph that has drifted into CV language (“responsible for”, “assisted in”), and a proof without a number. Check the facts against the CV line by line — same titles, same dates, same numbers. The About can say more warmly what the CV says; it cannot say something the CV does not. Save it as Dossier item 3.",
+        "id": "Membaca keras-keras menangkap dua kesalahan biasa: paragraf yang tergelincir ke bahasa CV (“bertanggung jawab atas”, “membantu dalam”), dan bukti tanpa angka. Periksa faktanya terhadap CV baris demi baris — jabatan sama, tanggal sama, angka sama. About boleh mengatakan lebih hangat apa yang dikatakan CV; tidak boleh mengatakan sesuatu yang tidak ada di CV. Simpan sebagai butir Dossier 3."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "The default headline",
+         "id": "Headline bawaan"
+        },
+        "fix": {
+         "en": "A keyword headline: target title, proof, skills — in the first seventy characters.",
+         "id": "Headline kata kunci: jabatan sasaran, bukti, keterampilan — di tujuh puluh karakter pertama."
+        }
+       },
+       {
+        "h": {
+         "en": "“I am a fresh graduate…” opener",
+         "id": "Pembuka “Saya fresh graduate…”"
+        },
+        "fix": {
+         "en": "A hook about your work, from the pantry.",
+         "id": "Kail tentang pekerjaanmu, dari lemari."
+        }
+       },
+       {
+        "h": {
+         "en": "Third-person About",
+         "id": "About orang ketiga"
+        },
+        "fix": {
+         "en": "First person, conversational.",
+         "id": "Orang pertama, secara percakapan."
+        }
+       },
+       {
+        "h": {
+         "en": "Party or cropped group photo",
+         "id": "Foto pesta atau potongan foto kelompok"
+        },
+        "fix": {
+         "en": "A simple headshot by a window.",
+         "id": "Foto kepala sederhana di dekat jendela."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Headline",
+        "id": "Headline"
+       },
+       "def": {
+        "en": "The line under your name — the most searchable field; about 220 characters, of which the first ~70 show in results.",
+        "id": "Baris di bawah namamu — kolom paling bisa dicari; sekitar 220 karakter, yang ~70 pertamanya tampil di hasil."
+       }
+      },
+      {
+       "term": {
+        "en": "Aspiring-professional formula",
+        "id": "Rumus aspiring professional"
+       },
+       "def": {
+        "en": "Target title · current status and key skill · credential · 2–3 skills — for people without the title yet.",
+        "id": "Jabatan sasaran · status saat ini dan keterampilan kunci · kredensial · 2–3 keterampilan — untuk orang yang belum punya jabatannya."
+       }
+      },
+      {
+       "term": {
+        "en": "Hook",
+        "id": "Kail"
+       },
+       "def": {
+        "en": "The first sentence of About — about what you do or care about professionally; it must earn “see more”.",
+        "id": "Kalimat pertama About — tentang apa yang kamu kerjakan atau pedulikan secara profesional; harus layak “lihat selengkapnya”."
+       }
+      },
+      {
+       "term": {
+        "en": "Value line",
+        "id": "Baris nilai"
+       },
+       "def": {
+        "en": "“I help / I’m building…” — what you bring to your target.",
+        "id": "“Saya membantu / Saya sedang membangun…” — apa yang kamu bawa ke sasaranmu."
+       }
+      },
+      {
+       "term": {
+        "en": "Banner",
+        "id": "Banner"
+       },
+       "def": {
+        "en": "The image behind your photo; not searched; replace the default with something simple that names your field.",
+        "id": "Gambar di belakang fotomu; tidak dicari; ganti bawaan dengan sesuatu yang sederhana yang menyebut bidangmu."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Which headline is strongest for a graduate?",
+        "id": "Headline mana yang terkuat untuk lulusan?"
+       },
+       "options": [
+        {
+         "en": "“Open to work”",
+         "id": "“Open to work”"
+        },
+        {
+         "en": "“Student at Universitas X”",
+         "id": "“Student at Universitas X”"
+        },
+        {
+         "en": "“Data Analyst candidate | Statistics graduate · SQL, Python | Case competition finalist”",
+         "id": "“Data Analyst candidate | Statistics graduate · SQL, Python | Case competition finalist”"
+        },
+        {
+         "en": "“Passionate learner”",
+         "id": "“Passionate learner”"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Target title, credential, skills, proof — searchable and honest (“candidate”).",
+        "id": "Jabatan sasaran, kredensial, keterampilan, bukti — bisa dicari dan jujur (“candidate”)."
+       }
+      },
+      {
+       "q": {
+        "en": "Why do the first lines of About matter most?",
+        "id": "Mengapa baris pertama About paling penting?"
+       },
+       "options": [
+        {
+         "en": "They are in bold",
+         "id": "Ditampilkan tebal"
+        },
+        {
+         "en": "Only they show before “see more”",
+         "id": "Hanya baris itu yang tampil sebelum “lihat selengkapnya”"
+        },
+        {
+         "en": "Recruiters read only the end",
+         "id": "Rekruter hanya membaca akhirnya"
+        },
+        {
+         "en": "They are the only searchable part",
+         "id": "Hanya bagian itu yang bisa dicari"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The hook has to earn the click; the rest is read only by those who clicked.",
+        "id": "Kail harus layak diklik; sisanya hanya dibaca oleh yang mengklik."
+       }
+      },
+      {
+       "q": {
+        "en": "Which About voice is recommended?",
+        "id": "Suara About mana yang disarankan?"
+       },
+       "options": [
+        {
+         "en": "Third person",
+         "id": "Orang ketiga"
+        },
+        {
+         "en": "First person, conversational",
+         "id": "Orang pertama, secara percakapan"
+        },
+        {
+         "en": "Bullet list only",
+         "id": "Daftar butir saja"
+        },
+        {
+         "en": "Formal letter",
+         "id": "Surat resmi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Third person reads like a pasted bio; first person reads like a person.",
+        "id": "Orang ketiga terbaca seperti biodata yang ditempel; orang pertama terbaca seperti seseorang."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "linkedin",
+      "title": {
+       "en": "Headline A/B/C and the About draft",
+       "id": "Headline A/B/C dan draf About"
+      },
+      "body": {
+       "en": "In the LinkedIn studio, save your three headlines (A wins, B and C for later testing) and your About draft as Dossier items 2 and 3. Check every fact against the CV in the CV studio before you paste either into LinkedIn — and turn off update notifications first (Lesson 5.3).",
+       "id": "Di studio LinkedIn, simpan tiga headline-mu (A menang, B dan C untuk pengujian nanti) dan draf About-mu sebagai butir Dossier 2 dan 3. Periksa setiap fakta terhadap CV di studio CV sebelum menempelkan keduanya ke LinkedIn — dan matikan notifikasi pembaruan dulu (Pelajaran 5.3)."
+      },
+      "cta": {
+       "en": "Open the LinkedIn studio →",
+       "id": "Buka studio LinkedIn →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The headline is your most searchable line — use target keywords and proof.",
+       "id": "Headline adalah baris paling bisa dicari — pakai kata kunci sasaran dan bukti."
+      },
+      {
+       "en": "A simple, well-lit photo matters.",
+       "id": "Foto yang sederhana dan terang itu penting."
+      },
+      {
+       "en": "About: hook, value, proof, direction, contact.",
+       "id": "About: kail, nilai, bukti, arah, kontak."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the two checklists",
+       "id": "Sumber dan dua daftar periksa"
+      },
+      "lead": {
+       "en": "Two sources, the headline formulas as a template, and the photo audit.",
+       "id": "Dua sumber, rumus headline sebagai templat, dan audit foto."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 5.2",
+         "id": "Daftar bacaan · Pelajaran 5.2"
+        },
+        "desc": {
+         "en": "Two sources; character limits change — verify.",
+         "id": "Dua sumber; batas karakter berubah — verifikasi."
+        },
+        "body": [
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), ch. 6–8, 12, 22 — photo, headline, banner, About, why photos matter.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), bab 6–8, 12, 22 — foto, headline, banner, About, mengapa foto penting."
+         },
+         {
+          "en": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), ch. 4, 7, 10 — the aspiring-professional headline, the About structure, the banner.",
+          "id": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), bab 4, 7, 10 — headline aspiring professional, struktur About, banner."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Three headline formulas",
+         "id": "Tiga rumus headline"
+        },
+        "desc": {
+         "en": "Fill all three; keep the winner.",
+         "id": "Isi ketiganya; simpan yang menang."
+        },
+        "body": [
+         {
+          "en": "A · Aspiring: [Target title] candidate — [sector(s)] | [status], [key experience] | [skill] · [skill] · [skill]",
+          "id": "A · Aspiring: [Jabatan sasaran] candidate — [sektor] | [status], [pengalaman kunci] | [keterampilan] · [keterampilan] · [keterampilan]"
+         },
+         {
+          "en": "B · Keyword: [Target title] candidate | [specialty keyword] · [keyword] · [keyword] | Open to [programme types], [locations]",
+          "id": "B · Kata kunci: [Jabatan sasaran] candidate | [kata kunci spesialisasi] · [kata kunci] · [kata kunci] | Open to [jenis program], [lokasi]"
+         },
+         {
+          "en": "C · Value: Helping [who] [do what] — [skill], [skill] | [credential] · [target] candidate (only if literally true)",
+          "id": "C · Nilai: Helping [siapa] [melakukan apa] — [keterampilan], [keterampilan] | [kredensial] · [sasaran] candidate (hanya jika benar-benar benar)"
+         },
+         {
+          "en": "Rules: first ~70 characters carry the target and one proof · at most two separator kinds · “candidate”, never an unheld title",
+          "id": "Aturan: ~70 karakter pertama memuat sasaran dan satu bukti · paling banyak dua jenis pemisah · “candidate”, jangan pernah jabatan yang belum dipegang"
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Photo and banner audit",
+         "id": "Audit foto dan banner"
+        },
+        "desc": {
+         "en": "Two or more photo fails → reshoot.",
+         "id": "Dua kegagalan foto atau lebih → foto ulang."
+        },
+        "body": [
+         {
+          "en": "Photo: recent (<3 years) · face and shoulders, face fills the frame · plain background · window light · eye contact, real smile · one step smarter · looks like me at thumbnail size",
+          "id": "Foto: terkini (<3 tahun) · wajah dan bahu, wajah mengisi bingkai · latar polos · cahaya jendela · kontak mata, senyum sungguhan · satu tingkat lebih rapi · tampak seperti saya pada ukuran mini"
+         },
+         {
+          "en": "Banner: default replaced · simple, field-related · any text clear of the photo area on mobile · no CV-in-an-image",
+          "id": "Banner: bawaan diganti · sederhana, terkait bidang · teks apa pun jauh dari area foto di ponsel · bukan CV-dalam-gambar"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Experience and Proof for Thin Histories",
+      "id": "Pengalaman dan Bukti untuk Riwayat yang Masih Tipis"
+     },
+     "overview": {
+      "en": "Most graduates worry that their profile looks empty. This lesson shows how to present internships, organisations, projects and part-time work so they are both searchable and credible — without inflating anything: a title-translation table, the anatomy of a 200-word experience entry, the evidence sections built for students, recommendations adapted to Indonesian hierarchy, the bilingual profile, and the settings that matter.",
+      "id": "Kebanyakan lulusan khawatir profilnya tampak kosong. Pelajaran ini menunjukkan cara menyajikan magang, organisasi, proyek, dan kerja paruh waktu agar bisa dicari sekaligus kredibel — tanpa menggelembungkan apa pun: tabel terjemahan jabatan, anatomi entri pengalaman 200 kata, bagian bukti yang dibuat untuk mahasiswa, rekomendasi yang disesuaikan hierarki Indonesia, profil dwibahasa, dan pengaturan yang penting."
+     },
+     "objectives": [
+      {
+       "en": "Translate Indonesian campus and internship titles into searchable equivalents honestly.",
+       "id": "Menerjemahkan jabatan kampus dan magang Indonesia ke padanan yang bisa dicari secara jujur."
+      },
+      {
+       "en": "Write experience entries of about 200 words with achievements.",
+       "id": "Menulis entri pengalaman sekitar 200 kata dengan pencapaian."
+      },
+      {
+       "en": "Use Projects, Featured, Education and Skills to supply evidence.",
+       "id": "Memakai Projects, Featured, Education, dan Skills untuk menyediakan bukti."
+      },
+      {
+       "en": "Set up a secondary-language profile and the key settings.",
+       "id": "Menyiapkan profil bahasa kedua dan pengaturan kunci."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Searchable, credible, identical to the CV",
+       "id": "Bisa dicari, kredibel, identik dengan CV"
+      },
+      "intro": {
+       "en": "Thin history is presented, not padded. Every rule in this lesson serves one of three words: searchable, credible, consistent.",
+       "id": "Riwayat tipis disajikan, bukan ditambal. Setiap aturan di pelajaran ini melayani salah satu dari tiga kata: bisa dicari, kredibel, konsisten."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Searchable",
+         "id": "Bisa dicari"
+        },
+        "points": [
+         {
+          "en": "Titles carry the most search weight. Use the recognised English equivalent — Operations Intern, Treasurer, Teaching Assistant.",
+          "id": "Jabatan berbobot pencarian paling besar. Pakai padanan Inggris yang dikenal — Operations Intern, Treasurer, Teaching Assistant."
+         },
+         {
+          "en": "25–40 skills chosen from LinkedIn’s own names; top three pinned to your target.",
+          "id": "25–40 keterampilan dipilih dari nama milik LinkedIn sendiri; tiga teratas disematkan ke sasaranmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Credible",
+         "id": "Kredibel"
+        },
+        "points": [
+         {
+          "en": "Never invent seniority: Treasurer, not Finance Manager. Organisational roles go in Experience when you have little paid work.",
+          "id": "Jangan pernah mengarang senioritas: Treasurer, bukan Finance Manager. Peran organisasi masuk Experience ketika kerja berbayarmu sedikit."
+         },
+         {
+          "en": "Projects, Featured and Education are where a student’s evidence lives.",
+          "id": "Projects, Featured, dan Education adalah tempat bukti mahasiswa berada."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Consistent",
+         "id": "Konsisten"
+        },
+        "points": [
+         {
+          "en": "Facts match the CV exactly — titles, dates, numbers. Recruiters check.",
+          "id": "Fakta persis sama dengan CV — jabatan, tanggal, angka. Rekruter memeriksa."
+         },
+         {
+          "en": "English primary, Bahasa Indonesia secondary, searchable English titles in both.",
+          "id": "Inggris utama, Bahasa Indonesia sekunder, jabatan Inggris yang bisa dicari di keduanya."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "h": {
+        "en": "Title translation — searchable, never inflated",
+        "id": "Terjemahan jabatan — bisa dicari, tidak pernah digelembungkan"
+       },
+       "body": {
+        "en": "Titles are heavily weighted in search <i>(Serdula, LinkedIn Profile Optimization For Dummies, ch. 11)</i>, and Indonesian campus titles do not match what a recruiter types. Use the recognised English equivalent — the title a person doing that work at a company would hold — and never invent seniority. The test for every translation: would the person who supervised you recognise the title, and would a recruiter search for it?",
+        "id": "Jabatan berbobot besar dalam pencarian <i>(Serdula, LinkedIn Profile Optimization For Dummies, bab 11)</i>, dan jabatan kampus Indonesia tidak cocok dengan yang diketik rekruter. Pakai padanan Inggris yang dikenal — jabatan yang akan dipegang orang yang mengerjakan pekerjaan itu di perusahaan — dan jangan pernah mengarang senioritas. Ujinya untuk setiap terjemahan: apakah orang yang membimbingmu akan mengenali jabatannya, dan apakah rekruter akan mencarinya?"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Indonesian",
+          "id": "Indonesia"
+         },
+         {
+          "en": "Searchable English",
+          "id": "Inggris yang bisa dicari"
+         },
+         {
+          "en": "✗ Don’t write",
+          "id": "✗ Jangan tulis"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<i>Magang, bagian operasional</i>",
+           "id": "<i>Magang, bagian operasional</i>"
+          },
+          {
+           "en": "Operations Intern",
+           "id": "Operations Intern"
+          },
+          {
+           "en": "Operations Analyst",
+           "id": "Operations Analyst"
+          }
+         ],
+         [
+          {
+           "en": "<i>Asisten Praktikum Statistika</i>",
+           "id": "<i>Asisten Praktikum Statistika</i>"
+          },
+          {
+           "en": "Teaching Assistant, Statistics Lab",
+           "id": "Teaching Assistant, Statistics Lab"
+          },
+          {
+           "en": "Lecturer",
+           "id": "Lecturer"
+          }
+         ],
+         [
+          {
+           "en": "<i>Bendahara HIMA</i>",
+           "id": "<i>Bendahara HIMA</i>"
+          },
+          {
+           "en": "Treasurer, Management Students’ Association",
+           "id": "Treasurer, Management Students’ Association"
+          },
+          {
+           "en": "Finance Manager",
+           "id": "Finance Manager"
+          }
+         ],
+         [
+          {
+           "en": "<i>Kepala Divisi Sponsorship</i> (competition committee)",
+           "id": "<i>Kepala Divisi Sponsorship</i> (panitia kompetisi)"
+          },
+          {
+           "en": "Head of Sponsorship, [Competition name]",
+           "id": "Head of Sponsorship, [Nama kompetisi]"
+          },
+          {
+           "en": "Business Development Manager",
+           "id": "Business Development Manager"
+          }
+         ],
+         [
+          {
+           "en": "<i>Staf Divisi Humas BEM</i>",
+           "id": "<i>Staf Divisi Humas BEM</i>"
+          },
+          {
+           "en": "Public Relations Staff, Student Executive Board",
+           "id": "Public Relations Staff, Student Executive Board"
+          },
+          {
+           "en": "PR Lead",
+           "id": "PR Lead"
+          }
+         ],
+         [
+          {
+           "en": "<i>Barista (paruh waktu)</i>",
+           "id": "<i>Barista (paruh waktu)</i>"
+          },
+          {
+           "en": "Barista (part-time)",
+           "id": "Barista (part-time)"
+          },
+          {
+           "en": "Customer Experience Specialist",
+           "id": "Customer Experience Specialist"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The right-hand column is what recruiters call title inflation; it is caught at the first interview question and it costs the whole application.",
+         "id": "Kolom kanan adalah yang disebut rekruter penggelembungan jabatan; ketahuan pada pertanyaan wawancara pertama dan merugikan seluruh lamaran."
+        }
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "The experience entry",
+        "id": "Entri pengalaman"
+       },
+       "body": {
+        "en": "Serdula’s anatomy <i>(ch. 11)</i>: the title (with a common equivalent in brackets where useful) · the linked company page, so the logo appears and the entry counts toward filters · month and year dates · a short first-person paragraph about the role · three to five achievement bullets · a short line of context if the organisation is not well known. Around 200 words. <b>Facts must match the CV exactly</b> — titles, dates, numbers <i>(Serdula, ch. 11; Dumas, AI-Savvy Job Seeker, ch. 6)</i>: recruiters read the two side by side, and a mismatch reads as carelessness at best. Put relevant organisational and volunteer roles in <i>Experience</i>, not only in the Volunteer section, when you have little paid work <i>(Dumas, ch. 9)</i> — the treasurer’s year is experience, and the search reads Experience first.",
+        "id": "Anatomi Serdula <i>(bab 11)</i>: jabatan (dengan padanan umum dalam kurung bila berguna) · laman perusahaan yang ditautkan, agar logonya muncul dan entrinya dihitung filter · tanggal bulan dan tahun · paragraf pendek orang pertama tentang perannya · tiga sampai lima butir pencapaian · satu baris konteks singkat jika organisasinya tidak dikenal luas. Sekitar 200 kata. <b>Fakta harus persis sama dengan CV</b> — jabatan, tanggal, angka <i>(Serdula, bab 11; Dumas, AI-Savvy Job Seeker, bab 6)</i>: rekruter membaca keduanya berdampingan, dan ketidakcocokan paling-paling terbaca sebagai kecerobohan. Taruh peran organisasi dan sukarela yang relevan di <i>Experience</i>, bukan hanya di bagian Volunteer, ketika kerja berbayarmu sedikit <i>(Dumas, bab 9)</i> — tahun sebagai bendahara adalah pengalaman, dan pencarian membaca Experience lebih dulu."
+       },
+       "quote": {
+        "text": {
+         "en": "<b>Treasurer (Bendahara), HIMA Manajemen — Management Students’ Association</b> · Aug 2024 – Jul 2025 · Semarang<br><br>I managed the association’s finances for a 300-member organisation running twelve events a year — budgets, reimbursements, sponsorship receipts and the annual faculty audit.<br><br>• Rebuilt the bookkeeping from a shared spreadsheet into a monthly close with receipts attached; the 2025 faculty audit found zero issues, the first clean audit in three years.<br>• Managed a Rp 120 juta annual budget across twelve events, closing every event within 5% of plan.<br>• Introduced a two-signature rule for payments above Rp 2 juta, adopted by the following committee.<br>• Worked with the sponsorship division on receipts and reporting for Rp 85 juta raised for the 2025 national competition.<br><br>HIMA Manajemen is the faculty’s student association; the treasurer reports to the association chair and the faculty adviser.",
+         "id": "<b>Treasurer (Bendahara), HIMA Manajemen — Management Students’ Association</b> · Agu 2024 – Jul 2025 · Semarang<br><br>Saya mengelola keuangan himpunan beranggotakan 300 orang yang menjalankan dua belas acara setahun — anggaran, penggantian biaya, kuitansi sponsor, dan audit fakultas tahunan.<br><br>• Membangun ulang pembukuan dari spreadsheet bersama menjadi tutup buku bulanan dengan kuitansi terlampir; audit fakultas 2025 menemukan nol masalah, audit bersih pertama dalam tiga tahun.<br>• Mengelola anggaran tahunan Rp 120 juta di dua belas acara, menutup setiap acara dalam 5% dari rencana.<br>• Memperkenalkan aturan dua tanda tangan untuk pembayaran di atas Rp 2 juta, diadopsi panitia berikutnya.<br>• Bekerja dengan divisi sponsorship untuk kuitansi dan pelaporan Rp 85 juta yang terkumpul untuk kompetisi nasional 2025.<br><br>HIMA Manajemen adalah himpunan mahasiswa fakultas; bendahara melapor kepada ketua himpunan dan pembina fakultas."
+        },
+        "who": {
+         "en": "Nadia’s entry · 158 words · title with the Indonesian in brackets · dates · first-person paragraph · four bullets with numbers · one line of context — the same facts as CV bullets from Module 3",
+         "id": "Entri Nadia · 158 kata · jabatan dengan bahasa Indonesia dalam kurung · tanggal · paragraf orang pertama · empat butir dengan angka · satu baris konteks — fakta yang sama dengan butir CV dari Modul 3"
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Evidence sections for students",
+        "id": "Bagian bukti untuk mahasiswa"
+       },
+       "body": {
+        "en": "A thin Experience section is not the whole profile. Four sections carry a student’s evidence:",
+        "id": "Bagian Experience yang tipis bukan seluruh profil. Empat bagian memuat bukti mahasiswa:"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Section",
+          "id": "Bagian"
+         },
+         {
+          "en": "What goes in",
+          "id": "Yang masuk"
+         },
+         {
+          "en": "Nadia",
+          "id": "Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Projects <i>(Dumas, ch. 9)</i>",
+           "id": "Projects <i>(Dumas, bab 9)</i>"
+          },
+          {
+           "en": "Thesis, capstones, competition entries, KKN programmes — with links or files",
+           "id": "Skripsi, tugas akhir, entri kompetisi, program KKN — dengan tautan atau berkas"
+          },
+          {
+           "en": "Thesis on inventory turnover at a Tegal retailer; the 2025 competition sponsorship plan; the KKN financial-literacy workshop",
+           "id": "Skripsi tentang perputaran persediaan di peritel Tegal; rencana sponsor kompetisi 2025; lokakarya literasi keuangan KKN"
+          }
+         ],
+         [
+          {
+           "en": "Featured",
+           "id": "Featured"
+          },
+          {
+           "en": "A competition deck, an article, a portfolio piece — with permission for any employer material",
+           "id": "Dek kompetisi, artikel, karya portofolio — dengan izin untuk materi perusahaan mana pun"
+          },
+          {
+           "en": "The sponsorship deck (with the committee’s permission); the thesis abstract as a one-page PDF",
+           "id": "Dek sponsorship (dengan izin panitia); abstrak skripsi sebagai PDF satu halaman"
+          }
+         ],
+         [
+          {
+           "en": "Education <i>(Dumas, ch. 8)</i>",
+           "id": "Education <i>(Dumas, bab 8)</i>"
+          },
+          {
+           "en": "Degree in full, IPK if strong, relevant courses, thesis title; the university page’s Alumni tab finds people at target employers",
+           "id": "Gelar lengkap, IPK jika kuat, mata kuliah relevan, judul skripsi; tab Alumni laman universitas menemukan orang di perusahaan sasaran"
+          },
+          {
+           "en": "S1 Manajemen, 2022–2026, IPK 3,38; Operations Management, Financial Accounting, Supply Chain Management; thesis title",
+           "id": "S1 Manajemen, 2022–2026, IPK 3,38; Manajemen Operasi, Akuntansi Keuangan, Manajemen Rantai Pasok; judul skripsi"
+          }
+         ],
+         [
+          {
+           "en": "Skills <i>(Dumas, ch. 5; Serdula, ch. 3)</i>",
+           "id": "Skills <i>(Dumas, bab 5; Serdula, bab 3)</i>"
+          },
+          {
+           "en": "25–40 relevant skills chosen from LinkedIn’s suggested names so they match searches; top three pinned to the target",
+           "id": "25–40 keterampilan relevan yang dipilih dari nama saran LinkedIn agar cocok dengan pencarian; tiga teratas disematkan ke sasaran"
+          },
+          {
+           "en": "Pinned: Supply Chain Management · Operations Management · Financial Reconciliation. Then Microsoft Excel, Budgeting, Sponsorship, Negotiation, Customer Service, Inventory Management, Data Analysis, Google Sheets, Event Management…",
+           "id": "Disematkan: Supply Chain Management · Operations Management · Financial Reconciliation. Lalu Microsoft Excel, Budgeting, Sponsorship, Negotiation, Customer Service, Inventory Management, Data Analysis, Google Sheets, Event Management…"
+          }
+         ],
+         [
+          {
+           "en": "Certifications",
+           "id": "Certifications"
+          },
+          {
+           "en": "Official names only. <span class=\"ev ev-verify\">Verify</span> LinkedIn’s former skill-assessment badges were discontinued; use external certifications",
+           "id": "Hanya nama resmi. <span class=\"ev ev-verify\">Verifikasi</span> lencana penilaian keterampilan LinkedIn yang lama dihentikan; pakai sertifikasi eksternal"
+          },
+          {
+           "en": "TOEFL ITP 527 (date); a spreadsheet course certificate by its official name",
+           "id": "TOEFL ITP 527 (tanggal); sertifikat kursus spreadsheet dengan nama resminya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Recommendations — adapted for Indonesia",
+        "id": "Rekomendasi — disesuaikan untuk Indonesia"
+       },
+       "body": {
+        "en": "Who writes a recommendation matters more than what it says <i>(Serdula, ch. 3)</i>. Good sources for a graduate: internship supervisors, organisation advisers, the <i>dosen pembimbing</i>, competition coaches. US advice often suggests drafting the recommendation yourself for the recommender to post; in Indonesian hierarchy that can feel presumptuous with a lecturer or a senior manager. The Pack’s version: send <b>three factual bullets and one specific story</b> as a memory aid — the dates and role, two things you did with numbers, and the one moment you would like them to remember — and let them write it in their own words. Ask in the register the relationship has (Bapak/Ibu for a lecturer or manager), give them a reason to say no gracefully, and offer to write one for a peer in return, not for the senior.",
+        "id": "Siapa yang menulis rekomendasi lebih penting daripada isinya <i>(Serdula, bab 3)</i>. Sumber yang baik bagi lulusan: pembimbing magang, pembina organisasi, <i>dosen pembimbing</i>, pelatih kompetisi. Saran AS sering menyarankan menyusun sendiri rekomendasinya untuk diposting pemberi rekomendasi; dalam hierarki Indonesia itu bisa terasa lancang terhadap dosen atau manajer senior. Versi Pack: kirim <b>tiga butir faktual dan satu cerita spesifik</b> sebagai pengingat — tanggal dan peran, dua hal yang kamu lakukan dengan angka, dan satu momen yang ingin kamu minta mereka ingat — dan biarkan mereka menulis dengan kata-kata sendiri. Minta dalam register yang dimiliki hubungan itu (Bapak/Ibu untuk dosen atau manajer), beri mereka alasan untuk menolak dengan sopan, dan tawarkan menulis untuk rekan sebaya sebagai balasan, bukan untuk yang senior."
+       },
+       "quote": {
+        "text": {
+         "en": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang magang di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) magang operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu.",
+         "id": "Selamat pagi Bu Sari, mohon maaf mengganggu. Saya Nadia, yang magang di bagian operasional Juni–Agustus 2025. Saya sedang melengkapi profil LinkedIn untuk lamaran program MT, dan jika Ibu berkenan dan ada waktu, saya akan sangat berterima kasih atas rekomendasi singkat dari Ibu. Sebagai pengingat: (1) magang operasional, Juni–Agustus 2025, di bawah bimbingan Ibu; (2) rekonsiliasi laporan harian tiga cabang; (3) menemukan kesalahan terminal yang berulang di cabang Tembalang. Yang paling saya ingat adalah saat Ibu meminta saya menjelaskan temuan itu ke kepala cabang. Jika Ibu sedang tidak sempat, saya sepenuhnya memahami. Terima kasih banyak, Bu."
+        },
+        "who": {
+         "en": "Three bullets, one story, a graceful exit, Bapak/Ibu register. She writes it; Nadia does not.",
+         "id": "Tiga butir, satu cerita, jalan keluar yang sopan, register Bapak/Ibu. Beliau yang menulis; Nadia tidak."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "A bilingual profile",
+        "id": "Profil dwibahasa"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-verify\">Verify current feature</span> LinkedIn lets you add a profile in a second language; viewers see the version matching their interface language, and nothing is auto-translated <i>(Serdula, ch. 13)</i>. Make <b>English the primary</b> profile — most recruiter searches in Indonesia use English titles, and international programme recruiters search only in English — and add a <b>Bahasa Indonesia</b> secondary profile for HR teams and alumni who read in Indonesian. Keep searchable English job titles in both: “Operations Intern” in the Indonesian profile, with <i>magang operasional</i> in the paragraph, not the other way round. Write the About in each language rather than translating; the Indonesian version can be a little more formal.",
+        "id": "<span class=\"ev ev-verify\">Verifikasi fitur saat ini</span> LinkedIn memungkinkanmu menambah profil dalam bahasa kedua; pengunjung melihat versi yang sesuai bahasa antarmuka mereka, dan tidak ada yang diterjemahkan otomatis <i>(Serdula, bab 13)</i>. Jadikan <b>Inggris sebagai profil utama</b> — kebanyakan pencarian rekruter di Indonesia memakai jabatan Inggris, dan rekruter program internasional hanya mencari dalam bahasa Inggris — dan tambahkan profil sekunder <b>Bahasa Indonesia</b> untuk tim HR dan alumni yang membaca dalam bahasa Indonesia. Pertahankan jabatan Inggris yang bisa dicari di keduanya: “Operations Intern” di profil Indonesia, dengan <i>magang operasional</i> di paragrafnya, bukan sebaliknya. Tulis About di tiap bahasa alih-alih menerjemahkan; versi Indonesia boleh sedikit lebih formal."
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Settings",
+        "id": "Pengaturan"
+       },
+       "body": {
+        "en": "Six settings do more than most edits:",
+        "id": "Enam pengaturan berdampak lebih besar daripada kebanyakan suntingan:"
+       },
+       "bullets": [
+        {
+         "en": "<b>Custom URL</b> using your name — on your CV and in your email signature.",
+         "id": "<b>URL kustom</b> memakai namamu — di CV-mu dan tanda tangan emailmu."
+        },
+        {
+         "en": "<b>“Open to work”</b>: for graduates who are not yet employed, the public setting is now widely read as clarity rather than desperation <i>(Dumas, ch. 11 — the author notes she changed her earlier view)</i>. Set the target titles and locations behind it precisely.",
+         "id": "<b>“Open to work”</b>: bagi lulusan yang belum bekerja, pengaturan publiknya kini luas dibaca sebagai kejelasan, bukan keputusasaan <i>(Dumas, bab 11 — penulis mencatat ia mengubah pandangan sebelumnya)</i>. Atur jabatan dan lokasi sasaran di baliknya dengan tepat."
+        },
+        {
+         "en": "<b>CV upload</b>: upload it privately in job-application preferences so recruiters can match you <i>(Dumas, ch. 11)</i> — but do not post your CV publicly on the profile <i>(Serdula, ch. 11)</i>; the profile is the public version.",
+         "id": "<b>Unggah CV</b>: unggah secara privat di preferensi lamaran kerja agar rekruter bisa mencocokkanmu <i>(Dumas, bab 11)</i> — tetapi jangan posting CV-mu secara publik di profil <i>(Serdula, bab 11)</i>; profil adalah versi publiknya."
+        },
+        {
+         "en": "<b>Update notifications off</b> while making many edits — otherwise your network receives twenty “Nadia updated her profile” posts in an evening.",
+         "id": "<b>Notifikasi pembaruan mati</b> saat membuat banyak suntingan — kalau tidak jaringanmu menerima dua puluh postingan “Nadia memperbarui profilnya” dalam semalam."
+        },
+        {
+         "en": "<b>Location and industry</b> as decided in the brief (Lesson 5.1).",
+         "id": "<b>Lokasi dan industri</b> sesuai keputusan arahan (Pelajaran 5.1)."
+        },
+        {
+         "en": "<b>Contact info</b>: the email from your About; a phone number only if you want calls.",
+         "id": "<b>Info kontak</b>: email dari About-mu; nomor telepon hanya jika kamu ingin ditelepon."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 3: Where a student’s evidence lives",
+       "id": "Peraga 3: Tempat bukti mahasiswa berada"
+      },
+      "title": {
+       "en": "Five sections, read in this order by the second pass",
+       "id": "Lima bagian, dibaca dalam urutan ini oleh tahap kedua"
+      },
+      "items": [
+       {
+        "icon": "briefcase",
+        "h": {
+         "en": "Experience",
+         "id": "Experience"
+        },
+        "sub": {
+         "en": "Internship and organisational roles, searchable titles, dates, 200 words with numbers. Computed into years of experience.",
+         "id": "Peran magang dan organisasi, jabatan yang bisa dicari, tanggal, 200 kata dengan angka. Dihitung menjadi tahun pengalaman."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Education",
+         "id": "Education"
+        },
+        "sub": {
+         "en": "Degree, field, years, IPK if strong, courses, thesis. Filtered on; the Alumni tab finds contacts.",
+         "id": "Gelar, bidang, tahun, IPK jika kuat, mata kuliah, skripsi. Disaring; tab Alumni menemukan kontak."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Skills",
+         "id": "Skills"
+        },
+        "sub": {
+         "en": "25–40 from LinkedIn’s names; three pinned. Matches skill-first searches.",
+         "id": "25–40 dari nama LinkedIn; tiga disematkan. Cocok dengan pencarian berbasis keterampilan."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Projects &amp; Featured",
+         "id": "Projects &amp; Featured"
+        },
+        "sub": {
+         "en": "Thesis, competitions, KKN, decks — the proof a recruiter can open.",
+         "id": "Skripsi, kompetisi, KKN, dek — bukti yang bisa dibuka rekruter."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Recommendations",
+         "id": "Recommendations"
+        },
+        "sub": {
+         "en": "Two or three from supervisors and advisers, in their words. Who matters more than what.",
+         "id": "Dua atau tiga dari pembimbing dan pembina, dengan kata-kata mereka. Siapa lebih penting daripada apa."
+        }
+       }
+      ],
+      "note": {
+       "en": "A graduate with one internship, one organisational role, two projects, thirty skills and two recommendations does not have a thin profile.",
+       "id": "Lulusan dengan satu magang, satu peran organisasi, dua proyek, tiga puluh keterampilan, dan dua rekomendasi tidak punya profil yang tipis."
+      },
+      "longdesc": {
+       "en": "A five-rung ladder of the sections that carry a student’s evidence: Experience with searchable titles and dated, numbered entries; Education with degree, field, years and courses; Skills with 25 to 40 names and three pinned; Projects and Featured with thesis, competitions and decks; and Recommendations from supervisors and advisers in their own words.",
+       "id": "Tangga lima anak dari bagian yang memuat bukti mahasiswa: Experience dengan jabatan yang bisa dicari dan entri bertanggal dan berangka; Education dengan gelar, bidang, tahun, dan mata kuliah; Skills dengan 25 sampai 40 nama dan tiga disematkan; Projects dan Featured dengan skripsi, kompetisi, dan dek; dan Recommendations dari pembimbing dan pembina dengan kata-kata mereka sendiri."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two versions of the same year",
+        "id": "Dua versi tahun yang sama"
+       },
+       "q": {
+        "en": "Nadia’s HIMA year on LinkedIn.",
+        "id": "Tahun HIMA Nadia di LinkedIn."
+       },
+       "weak": {
+        "en": "Under Volunteer: “Member, HIMA Manajemen · 2023 – 2025”. No paragraph, no bullets, no dates by month. On the CV: “Treasurer, HIMA Manajemen, Aug 2024 – Jul 2025”. Two different titles and two different date ranges for the same thing.",
+        "id": "Di bawah Volunteer: “Member, HIMA Manajemen · 2023 – 2025”. Tanpa paragraf, tanpa butir, tanpa tanggal per bulan. Di CV: “Treasurer, HIMA Manajemen, Agu 2024 – Jul 2025”. Dua jabatan berbeda dan dua rentang tanggal berbeda untuk hal yang sama."
+       },
+       "strong": {
+        "en": "Under Experience: “Treasurer (Bendahara), HIMA Manajemen — Management Students’ Association · Aug 2024 – Jul 2025”, the 158-word entry above, four bullets with numbers, one line of context. Identical to the CV. A second entry, “Member · Sep 2023 – Jul 2024”, one line, for the year before.",
+        "id": "Di bawah Experience: “Treasurer (Bendahara), HIMA Manajemen — Management Students’ Association · Agu 2024 – Jul 2025”, entri 158 kata di atas, empat butir dengan angka, satu baris konteks. Identik dengan CV. Entri kedua, “Member · Sep 2023 – Jul 2024”, satu baris, untuk tahun sebelumnya."
+       },
+       "why": {
+        "en": "The weak version is under-claimed (Member, not Treasurer), unsearchable (no title a recruiter types), inconsistent with the CV, and invisible to experience filters because it sits in Volunteer. The strong version is exactly what happened, in the section the search reads.",
+        "id": "Versi lemah mengklaim terlalu rendah (Member, bukan Treasurer), tidak bisa dicari (tanpa jabatan yang diketik rekruter), tidak konsisten dengan CV, dan tak terlihat filter pengalaman karena berada di Volunteer. Versi kuat persis apa yang terjadi, di bagian yang dibaca pencarian."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the internship dates that did not match",
+       "id": "Sorotan: tanggal magang yang tidak cocok"
+      },
+      "body": [
+       {
+        "en": "Module 4’s case found it on the portal; Module 5 finds it on LinkedIn. Nadia’s pre-course profile said “Bank Sinar Nusantara — Intern · Jun 2025 – Sep 2025”; her CV, rebuilt in Module 3 from the pantry, says “Operations Intern · Jun 2025 – Aug 2025”. The LinkedIn date was the month the certificate arrived; the CV date was the month the work ended. Neither is a lie. Together they are a discrepancy.",
+        "id": "Kasus Modul 4 menemukannya di portal; Modul 5 menemukannya di LinkedIn. Profil Nadia sebelum kursus berbunyi “Bank Sinar Nusantara — Intern · Jun 2025 – Sep 2025”; CV-nya, dibangun ulang di Modul 3 dari lemari, berbunyi “Operations Intern · Jun 2025 – Agu 2025”. Tanggal LinkedIn adalah bulan sertifikat tiba; tanggal CV adalah bulan pekerjaan berakhir. Tidak satu pun bohong. Bersama-sama keduanya adalah ketidakcocokan."
+       },
+       {
+        "en": "The ODP screener at the bank reads both — she has the CV in one window and LinkedIn in another, because checking that the CV is real is what LinkedIn is for on her side of the table. A one-month mismatch on an internship at her own bank is exactly the kind of thing she is trained to notice. The fix is Lesson 3.5’s rule applied here: one record, exact, everywhere. The pantry is the record; the CV and the profile both copy it.",
+        "id": "Penyaring ODP di bank membaca keduanya — ia memegang CV di satu jendela dan LinkedIn di jendela lain, karena memeriksa bahwa CV itu asli adalah kegunaan LinkedIn di sisi mejanya. Ketidakcocokan satu bulan pada magang di banknya sendiri adalah persis jenis hal yang ia dilatih untuk perhatikan. Perbaikannya adalah aturan Pelajaran 3.5 yang diterapkan di sini: satu rekaman, tepat, di mana-mana. Lemari adalah rekamannya; CV dan profil sama-sama menyalinnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Translation table",
+        "id": "Latihan 1 · Tabel terjemahan"
+       },
+       "body": {
+        "en": "List every role you have held — internships, organisations, committees, part-time work, teaching assistance — in Indonesian, then write the searchable English title for each and the inflated title you must not use. Add the linked organisation page where one exists.",
+        "id": "Daftar setiap peran yang pernah kamu pegang — magang, organisasi, kepanitiaan, kerja paruh waktu, asisten praktikum — dalam bahasa Indonesia, lalu tulis jabatan Inggris yang bisa dicari untuk masing-masing dan jabatan gelembung yang tidak boleh kamu pakai. Tambahkan laman organisasi yang ditautkan bila ada."
+       },
+       "debrief": {
+        "en": "The test for each row: would your supervisor recognise it, and would a recruiter search for it? “Head of Sponsorship” passes both; “Business Development Manager” fails the first. Keep the Indonesian in brackets after the title where the organisation is Indonesian — it helps the HR reader and costs nothing in search. This table is Dossier item 4.",
+        "id": "Ujinya untuk setiap baris: apakah pembimbingmu akan mengenalinya, dan apakah rekruter akan mencarinya? “Head of Sponsorship” lolos keduanya; “Business Development Manager” gagal yang pertama. Pertahankan bahasa Indonesia dalam kurung setelah jabatan bila organisasinya Indonesia — membantu pembaca HR dan tidak merugikan pencarian. Tabel ini butir Dossier 4."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · One full experience entry",
+        "id": "Latihan 2 · Satu entri pengalaman lengkap"
+       },
+       "body": {
+        "en": "Write the entry for your strongest role: title (Indonesian in brackets) · organisation · month and year dates · a two-sentence first-person paragraph · three to five bullets with numbers from the Module 3 pantry · one line of context. About 200 words. Then check every fact against your CV.",
+        "id": "Tulis entri untuk peran terkuatmu: jabatan (bahasa Indonesia dalam kurung) · organisasi · tanggal bulan dan tahun · paragraf orang pertama dua kalimat · tiga sampai lima butir dengan angka dari lemari Modul 3 · satu baris konteks. Sekitar 200 kata. Lalu periksa setiap fakta terhadap CV-mu."
+       },
+       "debrief": {
+        "en": "The bullets are the CV bullets in the same words — the profile may be warmer in the paragraph, but the numbers do not change between documents. If you found a mismatch, the pantry decides which is right, and both documents change to match it. If the entry has no numbers, go back to the pantry’s five tests before publishing it.",
+        "id": "Butir-butirnya adalah butir CV dengan kata yang sama — profil boleh lebih hangat di paragrafnya, tetapi angka tidak berubah antar dokumen. Jika kamu menemukan ketidakcocokan, lemari yang memutuskan mana yang benar, dan kedua dokumen berubah agar cocok. Jika entrinya tanpa angka, kembali ke lima uji lemari sebelum menerbitkannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Recommendation request",
+        "id": "Latihan 3 · Permintaan rekomendasi"
+       },
+       "body": {
+        "en": "Write the request to one supervisor, adviser or lecturer: the right register (Kak / Bapak / Ibu), why you are asking, three factual bullets, one specific story, a graceful way to say no, thanks. Under 120 words.",
+        "id": "Tulis permintaan ke satu pembimbing, pembina, atau dosen: register yang tepat (Kak / Bapak / Ibu), mengapa kamu meminta, tiga butir faktual, satu cerita spesifik, cara menolak yang sopan, terima kasih. Di bawah 120 kata."
+       },
+       "debrief": {
+        "en": "The story is the part that gets written into the recommendation; choose the moment you want a recruiter to read about. Do not attach a draft for them to post — in this hierarchy it reads as instructing a senior. Send two such requests this week; a profile with two recommendations from named supervisors reads as verified in a way that thirty skills do not.",
+        "id": "Ceritanya adalah bagian yang akan ditulis ke dalam rekomendasi; pilih momen yang ingin kamu minta rekruter baca. Jangan lampirkan draf untuk mereka posting — dalam hierarki ini terbaca seperti memerintah senior. Kirim dua permintaan seperti ini minggu ini; profil dengan dua rekomendasi dari pembimbing bernama terbaca terverifikasi dengan cara yang tidak dimiliki tiga puluh keterampilan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Skills and settings",
+        "id": "Latihan 4 · Keterampilan dan pengaturan"
+       },
+       "body": {
+        "en": "Build the skills list to at least 25 using LinkedIn’s suggested names (type the skill and pick the suggestion, not a free-text variant); pin the three that match your target search. Then the settings: custom URL · open-to-work with precise titles and locations · private CV upload · notifications off · location and industry from the brief · contact email.",
+        "id": "Bangun daftar keterampilan sampai setidaknya 25 dengan nama saran LinkedIn (ketik keterampilannya dan pilih sarannya, bukan varian teks bebas); sematkan tiga yang cocok dengan pencarian sasaranmu. Lalu pengaturannya: URL kustom · open-to-work dengan jabatan dan lokasi yang tepat · unggah CV privat · notifikasi mati · lokasi dan industri dari arahan · email kontak."
+       },
+       "debrief": {
+        "en": "Skills typed as free text (“Ms Excel”, “excel”) do not match a search for “Microsoft Excel”; the suggested name does. The pinned three are what the first pass sees, so they are the target’s words, not your most-endorsed. Turn notifications off before the editing session and on again after — the one post you want your network to see is Lesson 5.4’s first learning log, not twenty edits.",
+        "id": "Keterampilan yang diketik bebas (“Ms Excel”, “excel”) tidak cocok dengan pencarian “Microsoft Excel”; nama sarannya cocok. Tiga yang disematkan adalah yang dilihat tahap pertama, jadi itu kata-kata sasaran, bukan yang paling banyak didukung. Matikan notifikasi sebelum sesi penyuntingan dan nyalakan lagi sesudahnya — satu postingan yang ingin kamu tunjukkan ke jaringanmu adalah catatan belajar pertama Pelajaran 5.4, bukan dua puluh suntingan."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Inflating a title to sound senior",
+         "id": "Menggelembungkan jabatan agar terdengar senior"
+        },
+        "fix": {
+         "en": "The searchable equivalent your supervisor would recognise.",
+         "id": "Padanan yang bisa dicari yang akan dikenali pembimbingmu."
+        }
+       },
+       {
+        "h": {
+         "en": "Organisational roles hidden in Volunteer as “Member”",
+         "id": "Peran organisasi tersembunyi di Volunteer sebagai “Member”"
+        },
+        "fix": {
+         "en": "The real role, in Experience, with dates and numbers.",
+         "id": "Peran sebenarnya, di Experience, dengan tanggal dan angka."
+        }
+       },
+       {
+        "h": {
+         "en": "Dates or numbers that differ from the CV",
+         "id": "Tanggal atau angka yang berbeda dari CV"
+        },
+        "fix": {
+         "en": "One record — the pantry — copied exactly into both.",
+         "id": "Satu rekaman — lemari — disalin persis ke keduanya."
+        }
+       },
+       {
+        "h": {
+         "en": "Drafting your own recommendation for a lecturer to post",
+         "id": "Menyusun rekomendasimu sendiri untuk diposting dosen"
+        },
+        "fix": {
+         "en": "Three bullets and one story as a memory aid; they write it.",
+         "id": "Tiga butir dan satu cerita sebagai pengingat; mereka yang menulis."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Title translation",
+        "id": "Terjemahan jabatan"
+       },
+       "def": {
+        "en": "The recognised English equivalent of an Indonesian campus or internship title — searchable, never inflated.",
+        "id": "Padanan Inggris yang dikenal dari jabatan kampus atau magang Indonesia — bisa dicari, tidak pernah digelembungkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Title inflation",
+        "id": "Penggelembungan jabatan"
+       },
+       "def": {
+        "en": "Claiming seniority you did not hold — Finance Manager for Treasurer; caught at the first interview question.",
+        "id": "Mengklaim senioritas yang tidak kamu pegang — Finance Manager untuk Treasurer; ketahuan pada pertanyaan wawancara pertama."
+       }
+      },
+      {
+       "term": {
+        "en": "Experience entry",
+        "id": "Entri pengalaman"
+       },
+       "def": {
+        "en": "Title · linked organisation · month-year dates · first-person paragraph · 3–5 numbered bullets · context line; about 200 words.",
+        "id": "Jabatan · organisasi tertaut · tanggal bulan-tahun · paragraf orang pertama · 3–5 butir berangka · baris konteks; sekitar 200 kata."
+       }
+      },
+      {
+       "term": {
+        "en": "Pinned skills",
+        "id": "Keterampilan yang disematkan"
+       },
+       "def": {
+        "en": "The three skills shown first — chosen to match the target search, from LinkedIn’s own names.",
+        "id": "Tiga keterampilan yang tampil pertama — dipilih agar cocok dengan pencarian sasaran, dari nama milik LinkedIn."
+       }
+      },
+      {
+       "term": {
+        "en": "Secondary-language profile",
+        "id": "Profil bahasa kedua"
+       },
+       "def": {
+        "en": "A second version of the profile shown to viewers whose interface uses that language; nothing is auto-translated.",
+        "id": "Versi kedua profil yang ditampilkan kepada pengunjung yang antarmukanya memakai bahasa itu; tidak ada yang diterjemahkan otomatis."
+       }
+      },
+      {
+       "term": {
+        "en": "Memory-aid request",
+        "id": "Permintaan pengingat"
+       },
+       "def": {
+        "en": "Three factual bullets and one story sent to a recommender so they can write in their own words.",
+        "id": "Tiga butir faktual dan satu cerita yang dikirim ke pemberi rekomendasi agar mereka menulis dengan kata-kata sendiri."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "“Asisten Praktikum” should become…",
+        "id": "“Asisten Praktikum” sebaiknya menjadi…"
+       },
+       "options": [
+        {
+         "en": "Lecturer",
+         "id": "Lecturer"
+        },
+        {
+         "en": "Teaching Assistant, [subject] Lab",
+         "id": "Teaching Assistant, [subject] Lab"
+        },
+        {
+         "en": "Instructor Manager",
+         "id": "Instructor Manager"
+        },
+        {
+         "en": "Leave it in Indonesian only",
+         "id": "Biarkan dalam bahasa Indonesia saja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Searchable, recognisable, true. “Lecturer” is inflation; Indonesian-only is invisible to English searches.",
+        "id": "Bisa dicari, dikenali, benar. “Lecturer” adalah penggelembungan; Indonesia-saja tak terlihat pencarian Inggris."
+       }
+      },
+      {
+       "q": {
+        "en": "Your LinkedIn and CV list different internship dates.",
+        "id": "LinkedIn dan CV-mu mencantumkan tanggal magang yang berbeda."
+       },
+       "options": [
+        {
+         "en": "Fine — nobody compares them",
+         "id": "Tidak apa-apa — tidak ada yang membandingkan"
+        },
+        {
+         "en": "Make them identical",
+         "id": "Buat keduanya identik"
+        },
+        {
+         "en": "Remove the dates from both",
+         "id": "Hapus tanggal dari keduanya"
+        },
+        {
+         "en": "Explain the difference in About",
+         "id": "Jelaskan perbedaannya di About"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Recruiters read them side by side; the pantry decides which is right and both copy it.",
+        "id": "Rekruter membaca keduanya berdampingan; lemari memutuskan mana yang benar dan keduanya menyalinnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Asking your dosen pembimbing for a recommendation, the culturally appropriate approach is…",
+        "id": "Meminta rekomendasi kepada dosen pembimbingmu, pendekatan yang sesuai budaya adalah…"
+       },
+       "options": [
+        {
+         "en": "Write it for them to post",
+         "id": "Tulis untuk mereka posting"
+        },
+        {
+         "en": "Send three factual bullets and one story as a memory aid",
+         "id": "Kirim tiga butir faktual dan satu cerita sebagai pengingat"
+        },
+        {
+         "en": "Ask a friend to write it instead",
+         "id": "Minta teman menulisnya"
+        },
+        {
+         "en": "Do not ask",
+         "id": "Jangan minta"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "They write it in their own words; the memory aid gives them the facts and the moment.",
+        "id": "Mereka menulis dengan kata-kata sendiri; pengingat memberi mereka fakta dan momennya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "linkedin",
+      "title": {
+       "en": "Translation table and the experience entries",
+       "id": "Tabel terjemahan dan entri pengalaman"
+      },
+      "body": {
+       "en": "In the LinkedIn studio, save your translation table (Dossier item 4) and your two strongest experience entries; check each entry’s facts against the CV studio line by line before you publish. Then build the skills list to 25 with three pinned, and run the six settings.",
+       "id": "Di studio LinkedIn, simpan tabel terjemahanmu (butir Dossier 4) dan dua entri pengalaman terkuatmu; periksa fakta tiap entri terhadap studio CV baris demi baris sebelum menerbitkan. Lalu bangun daftar keterampilan sampai 25 dengan tiga disematkan, dan jalankan enam pengaturannya."
+      },
+      "cta": {
+       "en": "Open the LinkedIn studio →",
+       "id": "Buka studio LinkedIn →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Translate titles to searchable equivalents — never inflate.",
+       "id": "Terjemahkan jabatan ke padanan yang bisa dicari — jangan pernah menggelembungkan."
+      },
+      {
+       "en": "Projects, Featured and Education are evidence for thin histories.",
+       "id": "Projects, Featured, dan Education adalah bukti untuk riwayat tipis."
+      },
+      {
+       "en": "English primary, Bahasa secondary, facts identical to your CV.",
+       "id": "Inggris utama, Bahasa sekunder, fakta identik dengan CV-mu."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the entry template and the settings checklist",
+       "id": "Sumber, templat entri, dan daftar periksa pengaturan"
+      },
+      "lead": {
+       "en": "Two sources, the 200-word entry as a fill-in, and the six settings.",
+       "id": "Dua sumber, entri 200 kata sebagai isian, dan enam pengaturan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 5.3",
+         "id": "Daftar bacaan · Pelajaran 5.3"
+        },
+        "desc": {
+         "en": "Two sources; features change — verify.",
+         "id": "Dua sumber; fitur berubah — verifikasi."
+        },
+        "body": [
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), ch. 3, 11, 13 — skills and recommendations, the experience entry, the second-language profile.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), bab 3, 11, 13 — keterampilan dan rekomendasi, entri pengalaman, profil bahasa kedua."
+         },
+         {
+          "en": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), ch. 5–6, 8–9, 11 — skills-first search, consistency with the CV, education and projects, open-to-work and the private CV upload.",
+          "id": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), bab 5–6, 8–9, 11 — pencarian berbasis keterampilan, konsistensi dengan CV, pendidikan dan proyek, open-to-work dan unggah CV privat."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Experience entry · 200 words",
+         "id": "Entri pengalaman · 200 kata"
+        },
+        "desc": {
+         "en": "Copy the CV bullets; warm up the paragraph.",
+         "id": "Salin butir CV; hangatkan paragrafnya."
+        },
+        "body": [
+         {
+          "en": "[Searchable title] ([Indonesian title]), [Organisation] — [what it is, if not well known] · [Mon YYYY] – [Mon YYYY] · [City]",
+          "id": "[Jabatan yang bisa dicari] ([jabatan Indonesia]), [Organisasi] — [apa itu, jika tidak dikenal luas] · [Bln TTTT] – [Bln TTTT] · [Kota]"
+         },
+         {
+          "en": "Two sentences, first person: what the role was for, and its scale (members, events, branches, customers).",
+          "id": "Dua kalimat, orang pertama: untuk apa perannya, dan skalanya (anggota, acara, cabang, pelanggan)."
+         },
+         {
+          "en": "• 3–5 bullets, each with a number, each identical to the CV.",
+          "id": "• 3–5 butir, masing-masing dengan angka, masing-masing identik dengan CV."
+         },
+         {
+          "en": "One line of context: who you reported to; what the organisation does.",
+          "id": "Satu baris konteks: kepada siapa kamu melapor; apa yang dilakukan organisasi."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Six settings",
+         "id": "Enam pengaturan"
+        },
+        "desc": {
+         "en": "Ten minutes.",
+         "id": "Sepuluh menit."
+        },
+        "body": [
+         {
+          "en": "Custom URL with my name — copied to the CV and email signature",
+          "id": "URL kustom dengan nama saya — disalin ke CV dan tanda tangan email"
+         },
+         {
+          "en": "Open to work: precise titles and locations (public if not yet employed)",
+          "id": "Open to work: jabatan dan lokasi yang tepat (publik jika belum bekerja)"
+         },
+         {
+          "en": "CV uploaded privately in job preferences; not posted on the profile",
+          "id": "CV diunggah privat di preferensi kerja; tidak diposting di profil"
+         },
+         {
+          "en": "Update notifications off during the editing session",
+          "id": "Notifikasi pembaruan mati selama sesi penyuntingan"
+         },
+         {
+          "en": "Location and industry as decided in the brief",
+          "id": "Lokasi dan industri sesuai keputusan arahan"
+         },
+         {
+          "en": "Contact info: the About email; secondary-language profile added (English primary)",
+          "id": "Info kontak: email About; profil bahasa kedua ditambahkan (Inggris utama)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Presence and Engagement",
+      "id": "Kehadiran dan Keterlibatan"
+     },
+     "overview": {
+      "en": "A strong profile nobody visits does little. This lesson builds a sustainable habit: the engagement ladder you climb at your own pace, a fifteen-minute daily routine, a content plan a graduate can credibly keep, connection notes in the right register, a check on your digital footprint, and the weekly numbers that tell you whether the profile is working.",
+      "id": "Profil kuat yang tidak dikunjungi siapa pun tidak banyak berguna. Pelajaran ini membangun kebiasaan yang berkelanjutan: tangga keterlibatan yang kamu naiki dengan tempomu sendiri, rutinitas harian lima belas menit, rencana konten yang bisa dijaga lulusan secara kredibel, catatan koneksi dalam register yang tepat, pemeriksaan jejak digitalmu, dan angka mingguan yang memberitahumu apakah profilnya bekerja."
+     },
+     "objectives": [
+      {
+       "en": "Move up the engagement ladder at your own pace.",
+       "id": "Menaiki tangga keterlibatan dengan tempomu sendiri."
+      },
+      {
+       "en": "Run a 15-minute daily routine.",
+       "id": "Menjalankan rutinitas harian 15 menit."
+      },
+      {
+       "en": "Write 300-character connection notes in the right register.",
+       "id": "Menulis catatan koneksi 300 karakter dalam register yang tepat."
+      },
+      {
+       "en": "Measure whether your profile is working.",
+       "id": "Mengukur apakah profilmu bekerja."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Fifteen minutes a day",
+       "id": "Lima belas menit sehari"
+      },
+      "intro": {
+       "en": "Visibility is a habit, not a burst. The routine is small enough to keep and specific enough to measure.",
+       "id": "Visibilitas adalah kebiasaan, bukan ledakan. Rutinitasnya cukup kecil untuk dijaga dan cukup spesifik untuk diukur."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The ladder",
+         "id": "Tangga"
+        },
+        "points": [
+         {
+          "en": "Like → comment → share with your take → post → article. Start at comment.",
+          "id": "Suka → komentar → bagikan dengan pendapatmu → posting → artikel. Mulai dari komentar."
+         },
+         {
+          "en": "Three thoughtful comments a day make you visible to the people you commented on.",
+          "id": "Tiga komentar yang bernas sehari membuatmu terlihat oleh orang yang kamu komentari."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The routine",
+         "id": "Rutinitas"
+        },
+        "points": [
+         {
+          "en": "Daily: three comments, one personalised connection request, one post or share — or skip the post.",
+          "id": "Harian: tiga komentar, satu permintaan koneksi yang dipersonalisasi, satu postingan atau bagikan — atau lewati postingannya."
+         },
+         {
+          "en": "Two or three posts a week is plenty. Three a day is not endorsed.",
+          "id": "Dua atau tiga postingan seminggu sudah cukup. Tiga sehari tidak dianjurkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The sequence",
+         "id": "Urutan"
+        },
+        "points": [
+         {
+          "en": "Follow → engage → connect with a note → add value → only then ask.",
+          "id": "Ikuti → terlibat → terhubung dengan catatan → beri nilai → baru kemudian minta."
+         },
+         {
+          "en": "Kak for near-peers, Bapak/Ibu for seniors; slightly more formal than US templates.",
+          "id": "Kak untuk yang hampir sebaya, Bapak/Ibu untuk senior; sedikit lebih formal dari templat AS."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The engagement ladder",
+        "id": "Tangga keterlibatan"
+       },
+       "body": {
+        "en": "Serdula’s progression <i>(LinkedIn Profile Optimization For Dummies, ch. 15)</i>: <b>like</b> (observer) → <b>comment</b> (participant) → <b>share with your own take</b> (curator) → <b>post</b> (thinker) → <b>article</b> (expert). Nobody has to climb the whole ladder, and a graduate has no business starting at the top. Start at <i>comment</i> in week one: a thoughtful comment on someone’s post — a specific reaction, a question, a related experience in two sentences — is low-risk, takes two minutes, and makes you visible to that person and to everyone who reads the thread. A like is invisible; a comment is a small conversation with someone you may later message.",
+        "id": "Tahapan Serdula <i>(LinkedIn Profile Optimization For Dummies, bab 15)</i>: <b>suka</b> (pengamat) → <b>komentar</b> (peserta) → <b>bagikan dengan pendapatmu sendiri</b> (kurator) → <b>posting</b> (pemikir) → <b>artikel</b> (pakar). Tidak ada yang harus menaiki seluruh tangga, dan lulusan tidak semestinya memulai dari puncak. Mulai dari <i>komentar</i> di minggu pertama: komentar bernas pada postingan seseorang — reaksi spesifik, pertanyaan, pengalaman terkait dalam dua kalimat — berisiko rendah, butuh dua menit, dan membuatmu terlihat oleh orang itu dan semua yang membaca utasnya. Suka itu tak terlihat; komentar adalah percakapan kecil dengan seseorang yang mungkin nanti kamu kirimi pesan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Rung",
+          "id": "Anak tangga"
+         },
+         {
+          "en": "What it is",
+          "id": "Apa itu"
+         },
+         {
+          "en": "When",
+          "id": "Kapan"
+         },
+         {
+          "en": "Nadia’s example",
+          "id": "Contoh Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Like",
+           "id": "Suka"
+          },
+          {
+           "en": "Observer",
+           "id": "Pengamat"
+          },
+          {
+           "en": "Any time; counts for nothing",
+           "id": "Kapan saja; tidak dihitung apa-apa"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Comment",
+           "id": "Komentar"
+          },
+          {
+           "en": "Participant — a specific reaction, question or two-sentence experience",
+           "id": "Peserta — reaksi spesifik, pertanyaan, atau pengalaman dua kalimat"
+          },
+          {
+           "en": "Week 1, three a day",
+           "id": "Minggu 1, tiga sehari"
+          },
+          {
+           "en": "On Kak Rina’s post: “The rotation starting in supply chain makes sense — during my bank internship the reconciliation queue taught me more than the front desk did. Did the first cohort find the warehouse weeks hardest?”",
+           "id": "Pada postingan Kak Rina: “Rotasi yang dimulai di supply chain masuk akal — saat magang bank, antrean rekonsiliasi mengajari saya lebih banyak daripada front desk. Apakah angkatan pertama merasa minggu gudang paling sulit?”"
+          }
+         ],
+         [
+          {
+           "en": "Share with a take",
+           "id": "Bagikan dengan pendapat"
+          },
+          {
+           "en": "Curator — a post you found, plus three lines on why it matters",
+           "id": "Kurator — postingan yang kamu temukan, plus tiga baris mengapa penting"
+          },
+          {
+           "en": "Week 2–3, once a week",
+           "id": "Minggu 2–3, sekali seminggu"
+          },
+          {
+           "en": "An article on cold-chain logistics in Central Java, with what it means for FMCG trainees",
+           "id": "Artikel tentang logistik rantai dingin di Jawa Tengah, dengan artinya bagi trainee FMCG"
+          }
+         ],
+         [
+          {
+           "en": "Post",
+           "id": "Posting"
+          },
+          {
+           "en": "Thinker — your own learning log or project breakdown",
+           "id": "Pemikir — catatan belajar atau uraian proyekmu sendiri"
+          },
+          {
+           "en": "Week 3 onward, two or three a week at most",
+           "id": "Minggu 3 dan seterusnya, paling banyak dua atau tiga seminggu"
+          },
+          {
+           "en": "“Three things I learned rebuilding HIMA’s books” — lesson plus one piece of evidence",
+           "id": "“Tiga hal yang saya pelajari saat membangun ulang pembukuan HIMA” — pelajaran plus satu bukti"
+          }
+         ],
+         [
+          {
+           "en": "Article",
+           "id": "Artikel"
+          },
+          {
+           "en": "Expert — long-form",
+           "id": "Pakar — bentuk panjang"
+          },
+          {
+           "en": "Not yet; not needed for a job search",
+           "id": "Belum; tidak dibutuhkan untuk pencarian kerja"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "The 15-minute routine",
+        "id": "Rutinitas 15 menit"
+       },
+       "body": {
+        "en": "Dumas’s daily habit <i>(AI-Savvy Job Seeker, ch. 2)</i>: one short post or share-with-commentary — or skip it — <b>three thoughtful comments</b>, and <b>one personalised connection request</b>. Fifteen minutes, ideally at the same time each day, ideally not last thing at night. Two or three posts a week is plenty; ignore advice to post several times a day — <span class=\"ev ev-contested\">Not endorsed</span> Vanderslice’s recommendation of three posts daily is an outlier for a job-seeker and would exhaust both you and your network in a fortnight. The routine’s value is in the comments and the connection request, which build the relationships Module 2’s outreach needs; the post is optional.",
+        "id": "Kebiasaan harian Dumas <i>(AI-Savvy Job Seeker, bab 2)</i>: satu postingan singkat atau bagikan-dengan-komentar — atau lewati — <b>tiga komentar bernas</b>, dan <b>satu permintaan koneksi yang dipersonalisasi</b>. Lima belas menit, idealnya pada jam yang sama tiap hari, idealnya bukan menjelang tidur. Dua atau tiga postingan seminggu sudah cukup; abaikan saran untuk memposting beberapa kali sehari — <span class=\"ev ev-contested\">Tidak dianjurkan</span> rekomendasi Vanderslice tiga postingan sehari adalah pencilan bagi pencari kerja dan akan menguras kamu maupun jaringanmu dalam dua minggu. Nilai rutinitasnya ada pada komentar dan permintaan koneksi, yang membangun hubungan yang dibutuhkan penjangkauan Modul 2; postingannya opsional."
+       },
+       "bullets": [
+        {
+         "en": "<b>Minutes 0–8</b> — three comments on posts by people at Top 5 employers, alumni, or in your field. Specific; two sentences; a question where you can.",
+         "id": "<b>Menit 0–8</b> — tiga komentar pada postingan orang di perusahaan 5 Teratas, alumni, atau di bidangmu. Spesifik; dua kalimat; pertanyaan bila bisa."
+        },
+        {
+         "en": "<b>Minutes 8–12</b> — one connection request with a note (section 4), to someone you have engaged with at least once.",
+         "id": "<b>Menit 8–12</b> — satu permintaan koneksi dengan catatan (bagian 4), kepada seseorang yang sudah kamu ajak terlibat setidaknya sekali."
+        },
+        {
+         "en": "<b>Minutes 12–15</b> — post or share if it is a posting day; otherwise glance at the weekly numbers (section 6) and stop.",
+         "id": "<b>Menit 12–15</b> — posting atau bagikan jika hari posting; jika tidak, lihat sekilas angka mingguan (bagian 6) dan berhenti."
+        }
+       ]
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "What a graduate can post",
+        "id": "Yang bisa diposting lulusan"
+       },
+       "body": {
+        "en": "Low-barrier, credible content <i>(Serdula, ch. 15; Dumas, ch. 12)</i> — things you actually did, told plainly:",
+        "id": "Konten yang mudah dan kredibel <i>(Serdula, bab 15; Dumas, bab 12)</i> — hal-hal yang benar-benar kamu lakukan, diceritakan apa adanya:"
+       },
+       "bullets": [
+        {
+         "en": "<b>A learning log</b> — “three things I learned from…” an internship week, a course, a project.",
+         "id": "<b>Catatan belajar</b> — “tiga hal yang saya pelajari dari…” satu minggu magang, kursus, proyek."
+        },
+        {
+         "en": "<b>A project breakdown</b> — problem, approach, result, what I would change.",
+         "id": "<b>Uraian proyek</b> — masalah, pendekatan, hasil, apa yang akan saya ubah."
+        },
+        {
+         "en": "<b>An event takeaway</b> — one idea from a talk, tagging the speaker (they will often reply).",
+         "id": "<b>Intisari acara</b> — satu gagasan dari sebuah ceramah, menandai pembicaranya (mereka sering membalas)."
+        },
+        {
+         "en": "<b>A competition reflection</b> — crediting teammates by name.",
+         "id": "<b>Refleksi kompetisi</b> — memberi kredit rekan tim dengan nama."
+        },
+        {
+         "en": "<b>A thoughtful question</b> to your network — one you actually want answered.",
+         "id": "<b>Pertanyaan bernas</b> kepada jaringanmu — yang benar-benar ingin kamu jawab."
+        },
+        {
+         "en": "<b>The Indonesian certificate post, upgraded</b> — instead of a bare certificate photo, add the <i>lesson</i> and one piece of <i>evidence</i> of applying it: “Finished the spreadsheet course. The pivot-table module changed how I built HIMA’s monthly close — here is the before and after.”",
+         "id": "<b>Postingan sertifikat Indonesia, ditingkatkan</b> — alih-alih foto sertifikat polos, tambahkan <i>pelajaran</i> dan satu <i>bukti</i> penerapannya: “Selesai kursus spreadsheet. Modul pivot table mengubah cara saya membangun tutup buku bulanan HIMA — ini sebelum dan sesudahnya.”"
+        }
+       ],
+       "after": [
+        {
+         "en": "What not to post while job-seeking: complaints about a rejection or an employer; screenshots of private messages; political or religious argument; anything you would not say in the interview room. Recruiters read the activity tab.",
+         "id": "Yang tidak boleh diposting saat mencari kerja: keluhan tentang penolakan atau perusahaan; tangkapan layar pesan pribadi; perdebatan politik atau agama; apa pun yang tidak akan kamu katakan di ruang wawancara. Rekruter membaca tab aktivitas."
+        }
+       ]
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Connecting",
+        "id": "Terhubung"
+       },
+       "body": {
+        "en": "Personalised notes of up to 300 characters <i>(Dumas, ch. 12)</i>: why this person, your shared context, a light reason — and no job request. The sequence that works <i>(Dumas, ch. 12; Vanderslice, Building a Strong Personal Brand)</i>: <b>follow</b> the company and its key people → <b>engage</b> with their posts for a couple of weeks → <b>connect</b> with a note → <b>add value</b> (a useful comment, a relevant article) → only then <b>ask</b>, for the fifteen-minute conversation from Module 2. Register: <i>Kak</i> for near-peers, <i>Bapak/Ibu</i> for seniors; slightly more formal than the US templates the books give.",
+        "id": "Catatan yang dipersonalisasi hingga 300 karakter <i>(Dumas, bab 12)</i>: mengapa orang ini, konteks bersama kalian, alasan ringan — dan tanpa permintaan pekerjaan. Urutan yang berhasil <i>(Dumas, bab 12; Vanderslice, Building a Strong Personal Brand)</i>: <b>ikuti</b> perusahaan dan orang-orang kuncinya → <b>terlibat</b> dengan postingan mereka selama beberapa minggu → <b>terhubung</b> dengan catatan → <b>beri nilai</b> (komentar yang berguna, artikel yang relevan) → baru kemudian <b>minta</b>, percakapan lima belas menit dari Modul 2. Register: <i>Kak</i> untuk yang hampir sebaya, <i>Bapak/Ibu</i> untuk senior; sedikit lebih formal dari templat AS yang diberikan buku-buku itu."
+       },
+       "quote": {
+        "text": {
+         "en": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang rotasi supply chain di Arunika sangat membantu saya memahami program MT. Izin terhubung ya, Kak. Terima kasih!",
+         "id": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang rotasi supply chain di Arunika sangat membantu saya memahami program MT. Izin terhubung ya, Kak. Terima kasih!"
+        },
+        "who": {
+         "en": "184 characters · who, shared context, a light reason · no request. The 15-minute ask comes two weeks later, by message, once connected and engaged.",
+         "id": "184 karakter · siapa, konteks bersama, alasan ringan · tanpa permintaan. Permintaan 15 menit datang dua minggu kemudian, lewat pesan, setelah terhubung dan terlibat."
+        }
+       },
+       "after": [
+        {
+         "en": "A recruiter is different from an alumna: no shared campus, and they receive a hundred requests a week. The note names the programme you are following and one thing you found useful in something they posted — never “are there openings?”. “Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.” — 196 characters.",
+         "id": "Rekruter berbeda dari alumna: tidak ada kampus yang sama, dan mereka menerima seratus permintaan seminggu. Catatannya menyebut program yang kamu ikuti dan satu hal yang berguna dari sesuatu yang mereka posting — jangan pernah “apakah ada lowongan?”. “Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.” — 196 karakter."
+        }
+       ]
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Digital footprint",
+        "id": "Jejak digital"
+       },
+       "body": {
+        "en": "Recruiters look you up <i>(Bright &amp; Earl, Brilliant CV, ch. 18)</i> — on LinkedIn first, then a name search, then whatever that finds. Search your own name in a private browser window and see what a stranger sees. Lock or clean personal accounts: an Instagram set to private is fine; a public one with a 2022 rant about a lecturer is not. Check tagged photos, old Twitter/X accounts, forum handles that contain your name. And remember that your LinkedIn activity — likes, comments, the posts you react to — is visible to everyone <i>(Serdula, ch. 15)</i>; a like on a post is a small public statement, and the activity tab is where a curious recruiter goes after the About.",
+        "id": "Rekruter mencari tahu tentangmu <i>(Bright &amp; Earl, Brilliant CV, bab 18)</i> — di LinkedIn dulu, lalu pencarian nama, lalu apa pun yang ditemukan. Cari namamu sendiri di jendela peramban privat dan lihat apa yang dilihat orang asing. Kunci atau bersihkan akun pribadi: Instagram yang diatur privat tidak apa-apa; yang publik dengan omelan 2022 tentang dosen tidak. Periksa foto yang ditandai, akun Twitter/X lama, nama forum yang memuat namamu. Dan ingat bahwa aktivitas LinkedIn-mu — suka, komentar, postingan yang kamu reaksi — terlihat oleh semua orang <i>(Serdula, bab 15)</i>; suka pada sebuah postingan adalah pernyataan publik kecil, dan tab aktivitas adalah tempat rekruter yang penasaran pergi setelah About."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Measuring",
+        "id": "Mengukur"
+       },
+       "body": {
+        "en": "Weekly, in two minutes: <b>profile views</b>, <b>search appearances</b> (and for which keywords, where LinkedIn shows them), <b>connection acceptance rate</b>. Log them; a trend over four weeks means something, a single week does not. The real test sits behind the numbers: <b>are you being contacted about the right roles?</b> Views from recruiters for sales roles when you target operations means the headline and skills are pulling the wrong search — revisit your keywords <i>(Dumas, ch. 5)</i>. Views with no messages usually means the About’s call to action is missing or the profile and CV disagree. No views at all after four weeks of the routine means Lesson 5.1’s silent filters are still on.",
+        "id": "Mingguan, dalam dua menit: <b>tampilan profil</b>, <b>kemunculan di pencarian</b> (dan untuk kata kunci mana, bila LinkedIn menunjukkannya), <b>tingkat penerimaan koneksi</b>. Catat; tren empat minggu berarti sesuatu, satu minggu tidak. Ujian sesungguhnya ada di balik angka: <b>apakah kamu dihubungi tentang peran yang tepat?</b> Tampilan dari rekruter untuk peran sales ketika sasaranmu operasi berarti headline dan keterampilan menarik pencarian yang salah — tinjau ulang kata kuncimu <i>(Dumas, bab 5)</i>. Tampilan tanpa pesan biasanya berarti ajakan bertindak About hilang atau profil dan CV tidak sepakat. Tanpa tampilan sama sekali setelah empat minggu rutinitas berarti filter diam Pelajaran 5.1 masih menyala."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Signal",
+          "id": "Sinyal"
+         },
+         {
+          "en": "Likely cause",
+          "id": "Kemungkinan penyebab"
+         },
+         {
+          "en": "Fix",
+          "id": "Perbaikan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "No search appearances",
+           "id": "Tidak muncul di pencarian"
+          },
+          {
+           "en": "Silent filters; missing keywords",
+           "id": "Filter diam; kata kunci hilang"
+          },
+          {
+           "en": "Lesson 5.1 five-field check; headline and skills",
+           "id": "Pemeriksaan lima kolom Pelajaran 5.1; headline dan keterampilan"
+          }
+         ],
+         [
+          {
+           "en": "Appearances for the wrong roles",
+           "id": "Muncul untuk peran yang salah"
+          },
+          {
+           "en": "Headline and pinned skills name the wrong target",
+           "id": "Headline dan keterampilan yang disematkan menyebut sasaran yang salah"
+          },
+          {
+           "en": "Rewrite the first 70 characters; re-pin",
+           "id": "Tulis ulang 70 karakter pertama; sematkan ulang"
+          }
+         ],
+         [
+          {
+           "en": "Views but no messages",
+           "id": "Tampilan tetapi tanpa pesan"
+          },
+          {
+           "en": "No call to action; profile and CV disagree",
+           "id": "Tanpa ajakan bertindak; profil dan CV tidak sepakat"
+          },
+          {
+           "en": "Email in About; consistency check",
+           "id": "Email di About; pemeriksaan konsistensi"
+          }
+         ],
+         [
+          {
+           "en": "Requests ignored",
+           "id": "Permintaan diabaikan"
+          },
+          {
+           "en": "No note; wrong register; no prior engagement",
+           "id": "Tanpa catatan; register salah; belum ada keterlibatan sebelumnya"
+          },
+          {
+           "en": "Follow → engage → connect with a note",
+           "id": "Ikuti → terlibat → terhubung dengan catatan"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 4: Follow, engage, connect, add value, ask",
+       "id": "Peraga 4: Ikuti, terlibat, terhubung, beri nilai, minta"
+      },
+      "title": {
+       "en": "Nadia and the KilatPay operations team, over three weeks",
+       "id": "Nadia dan tim operasi KilatPay, selama tiga minggu"
+      },
+      "items": [
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Week 1 · Follow",
+         "id": "Minggu 1 · Ikuti"
+        },
+        "sub": {
+         "en": "Follows KilatPay, Mr. Aditya (Head of Merchant Operations), Putri (Operations Analyst, HIMA), and the recruiter who posts the selection updates.",
+         "id": "Mengikuti KilatPay, Bapak Aditya (Head of Merchant Operations), Putri (Operations Analyst, HIMA), dan rekruter yang memposting pembaruan seleksi."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Week 1–2 · Engage",
+         "id": "Minggu 1–2 · Terlibat"
+        },
+        "sub": {
+         "en": "Three comments over two weeks: a question on Mr. Aditya’s merchant-operations post; a specific reaction to Putri’s onboarding post; a thank-you on the recruiter’s FAQ post.",
+         "id": "Tiga komentar selama dua minggu: pertanyaan pada postingan operasi merchant Bapak Aditya; reaksi spesifik pada postingan onboarding Putri; ucapan terima kasih pada postingan FAQ rekruter."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Week 2 · Connect",
+         "id": "Minggu 2 · Terhubung"
+        },
+        "sub": {
+         "en": "Requests with notes to Putri (Kak, HIMA) and the recruiter (Bu, the process she is following). Both accept — they have seen her name twice.",
+         "id": "Permintaan dengan catatan ke Putri (Kak, HIMA) dan rekruter (Bu, proses yang ia ikuti). Keduanya menerima — mereka sudah melihat namanya dua kali."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Week 3 · Add value",
+         "id": "Minggu 3 · Beri nilai"
+        },
+        "sub": {
+         "en": "Shares an article on merchant onboarding in tier-2 cities with three lines of her own; tags nobody; Putri comments.",
+         "id": "Membagikan artikel tentang onboarding merchant di kota tingkat dua dengan tiga baris pendapatnya sendiri; tidak menandai siapa pun; Putri berkomentar."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Week 3 · Ask",
+         "id": "Minggu 3 · Minta"
+        },
+        "sub": {
+         "en": "The six-point message to Putri — 15 minutes, advice, connection first (Module 2.3). Booster: reply in a day.",
+         "id": "Pesan enam poin ke Putri — 15 menit, saran, koneksi lebih dulu (Modul 2.3). Booster: balasan dalam sehari."
+        }
+       }
+      ],
+      "note": {
+       "en": "The ask is the same message as Module 2. What changed is that by week three the recipient has already seen her name three times.",
+       "id": "Permintaannya pesan yang sama seperti Modul 2. Yang berubah adalah pada minggu ketiga penerimanya sudah melihat namanya tiga kali."
+      },
+      "longdesc": {
+       "en": "A five-stage flow over three weeks: following the company and its people in week one; engaging with three specific comments across weeks one and two; connecting with personalised notes in week two; adding value with a shared article and a short take in week three; and only then asking for the fifteen-minute conversation from Module 2, which gets a reply within a day.",
+       "id": "Alur lima tahap selama tiga minggu: mengikuti perusahaan dan orang-orangnya di minggu pertama; terlibat dengan tiga komentar spesifik sepanjang minggu satu dan dua; terhubung dengan catatan yang dipersonalisasi di minggu kedua; memberi nilai dengan artikel yang dibagikan dan pendapat singkat di minggu ketiga; dan baru kemudian meminta percakapan lima belas menit dari Modul 2, yang mendapat balasan dalam sehari."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two connection requests",
+        "id": "Dua permintaan koneksi"
+       },
+       "q": {
+        "en": "To Bu Dewi, the KilatPay recruiter who posts the selection updates.",
+        "id": "Kepada Bu Dewi, rekruter KilatPay yang memposting pembaruan seleksi."
+       },
+       "weak": {
+        "en": "No note. Or: “Hi, I am a fresh graduate looking for opportunities in your company. Are there any openings for operations? I have attached my CV. Please consider me. Thank you.”",
+        "id": "Tanpa catatan. Atau: “Halo, saya fresh graduate yang mencari peluang di perusahaan Ibu. Apakah ada lowongan untuk operasi? CV saya terlampir. Mohon dipertimbangkan. Terima kasih.”"
+       },
+       "strong": {
+        "en": "“Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.”",
+        "id": "“Selamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses rekrutmen Business Operations di KilatPay dan sangat terbantu oleh postingan Ibu tentang tahap seleksi. Izin terhubung, Bu. Terima kasih.”"
+       },
+       "why": {
+        "en": "A blank request is ignored; a request that asks for a job in the note is declined, because accepting it means agreeing to be asked. The strong version says who, why her, one specific thing, the right register, and asks for nothing but the connection — which is easy to say yes to.",
+        "id": "Permintaan kosong diabaikan; permintaan yang meminta pekerjaan di catatannya ditolak, karena menerimanya berarti setuju untuk diminta. Versi kuat menyebut siapa, mengapa beliau, satu hal spesifik, register yang tepat, dan tidak meminta apa pun selain koneksi — yang mudah dijawab ya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the certificate post that got a reply",
+       "id": "Sorotan: postingan sertifikat yang mendapat balasan"
+      },
+      "body": [
+       {
+        "en": "Nadia’s HIMA feed is full of certificate posts — a photo of a PDF, “Alhamdulillah, finished the course”, forty likes from batchmates, no comments. She has posted three herself. None was seen by anyone at an employer.",
+        "id": "Linimasa HIMA Nadia penuh postingan sertifikat — foto PDF, “Alhamdulillah, selesai kursusnya”, empat puluh suka dari teman seangkatan, tanpa komentar. Ia sendiri sudah memposting tiga. Tidak satu pun dilihat siapa pun di perusahaan."
+       },
+       {
+        "en": "Her first post from this lesson is the same certificate — a spreadsheet course — with the upgrade: the lesson (“the pivot-table module changed how I build a monthly close”), one piece of evidence (a before/after of the HIMA close, numbers blurred), and a question (“for people who do this at a bank branch — what do you reconcile first?”). Sixty likes, eleven comments, and one of them from Pak Hendra at Bank Sinar Nusantara, who answered the question in four lines. Two weeks later, that comment is the connection in her six-point message to him.",
+        "id": "Postingan pertamanya dari pelajaran ini adalah sertifikat yang sama — kursus spreadsheet — dengan peningkatan: pelajarannya (“modul pivot table mengubah cara saya membangun tutup buku bulanan”), satu bukti (sebelum/sesudah tutup buku HIMA, angka dikaburkan), dan pertanyaan (“bagi yang melakukan ini di cabang bank — apa yang direkonsiliasi lebih dulu?”). Enam puluh suka, sebelas komentar, dan salah satunya dari Pak Hendra di Bank Sinar Nusantara, yang menjawab pertanyaannya dalam empat baris. Dua minggu kemudian, komentar itu menjadi koneksi dalam pesan enam poinnya kepada beliau."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Three connection notes",
+        "id": "Latihan 1 · Tiga catatan koneksi"
+       },
+       "body": {
+        "en": "Write three notes, each under 300 characters, each in the right register: (a) an alumnus two years ahead at a Top 5 employer (Kak); (b) a recruiter who posts about a programme you are following (Bapak/Ibu); (c) a speaker whose talk you attended last month (Bapak/Ibu). Who you are, the shared context or the specific thing, a light reason — no request.",
+        "id": "Tulis tiga catatan, masing-masing di bawah 300 karakter, masing-masing dalam register yang tepat: (a) alumnus dua tahun di depan di perusahaan 5 Teratas (Kak); (b) rekruter yang memposting tentang program yang kamu ikuti (Bapak/Ibu); (c) pembicara yang ceramahnya kamu hadiri bulan lalu (Bapak/Ibu). Siapa kamu, konteks bersama atau hal spesifiknya, alasan ringan — tanpa permintaan."
+       },
+       "debrief": {
+        "en": "Count the characters; 300 arrives faster than it seems, and the courtesies take forty. The speaker note is the easiest to write and the most often accepted — one specific idea from the talk, named. If any note contains “opportunity”, “vacancy” or “CV”, rewrite it; that is the Module 2 message, sent two weeks later, not the connection note.",
+        "id": "Hitung karakternya; 300 tiba lebih cepat dari kelihatannya, dan kesantunan memakan empat puluh. Catatan pembicara paling mudah ditulis dan paling sering diterima — satu gagasan spesifik dari ceramah, disebutkan. Jika ada catatan yang memuat “peluang”, “lowongan”, atau “CV”, tulis ulang; itu pesan Modul 2, dikirim dua minggu kemudian, bukan catatan koneksi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · First post plan",
+        "id": "Latihan 2 · Rencana postingan pertama"
+       },
+       "body": {
+        "en": "Plan one learning-log post: the thing you did (a course, an internship week, a project) · the lesson in one sentence · one piece of evidence (a before/after, a number, a screenshot with private data blurred) · a question to your network · three hashtags a recruiter in your field would follow. Under 150 words.",
+        "id": "Rencanakan satu postingan catatan belajar: hal yang kamu lakukan (kursus, minggu magang, proyek) · pelajarannya dalam satu kalimat · satu bukti (sebelum/sesudah, angka, tangkapan layar dengan data pribadi dikaburkan) · pertanyaan ke jaringanmu · tiga tagar yang diikuti rekruter di bidangmu. Di bawah 150 kata."
+       },
+       "debrief": {
+        "en": "The evidence is what separates this from a certificate photo, and the question is what earns comments. Check the evidence for anything an employer would not want public (client names, internal numbers) — Module 3’s confidentiality rule applies to posts too. Post it on a weekday morning; reply to every comment within the day.",
+        "id": "Bukti adalah yang membedakan ini dari foto sertifikat, dan pertanyaan adalah yang mendatangkan komentar. Periksa buktinya untuk apa pun yang tidak ingin dipublikasikan perusahaan (nama klien, angka internal) — aturan kerahasiaan Modul 3 berlaku untuk postingan juga. Posting pada pagi hari kerja; balas setiap komentar dalam hari itu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The 30-day plan",
+        "id": "Latihan 3 · Rencana 30 hari"
+       },
+       "body": {
+        "en": "Schedule the routine: the fifteen-minute slot each day; which days are posting days (two a week); the three posts for the month (learning log, project breakdown, one share-with-a-take); the five people at Top 5 employers you will follow and engage with first; the weekly two-minute metrics check. Put it in your calendar.",
+        "id": "Jadwalkan rutinitasnya: slot lima belas menit tiap hari; hari mana yang menjadi hari posting (dua seminggu); tiga postingan untuk bulan ini (catatan belajar, uraian proyek, satu bagikan-dengan-pendapat); lima orang di perusahaan 5 Teratas yang akan kamu ikuti dan ajak terlibat lebih dulu; pemeriksaan metrik dua menit mingguan. Masukkan ke kalendermu."
+       },
+       "debrief": {
+        "en": "Thirty days of the routine is about seven and a half hours — less than one evening a week — and produces roughly ninety comments, thirty connection requests and six to eight posts. By day 30 the people you will message in Module 2 have seen your name several times, and the weekly numbers show whether the profile is pulling the right searches. This plan is Dossier item 5 for the module.",
+        "id": "Tiga puluh hari rutinitas adalah sekitar tujuh setengah jam — kurang dari satu malam seminggu — dan menghasilkan kira-kira sembilan puluh komentar, tiga puluh permintaan koneksi, dan enam sampai delapan postingan. Pada hari ke-30 orang-orang yang akan kamu kirimi pesan di Modul 2 sudah melihat namamu beberapa kali, dan angka mingguan menunjukkan apakah profil menarik pencarian yang tepat. Rencana ini butir Dossier 5 untuk modul ini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 4 · Search yourself",
+        "id": "Latihan 4 · Cari dirimu sendiri"
+       },
+       "body": {
+        "en": "In a private browser window, search your full name, then your name plus your university, then your name plus your city. Open the first page of results for each. List everything a stranger can see that you did not put there on purpose — tagged photos, old accounts, forum posts. Then open your own LinkedIn activity tab and read the last twenty things you reacted to.",
+        "id": "Di jendela peramban privat, cari nama lengkapmu, lalu namamu plus universitasmu, lalu namamu plus kotamu. Buka halaman pertama hasil untuk masing-masing. Daftar semua yang bisa dilihat orang asing yang tidak sengaja kamu taruh di sana — foto yang ditandai, akun lama, postingan forum. Lalu buka tab aktivitas LinkedIn-mu sendiri dan baca dua puluh hal terakhir yang kamu reaksi."
+       },
+       "debrief": {
+        "en": "Most learners find one thing to lock, one thing to delete and one thing to untag. The activity tab is the surprise: reactions to posts you did not think of as public are the second thing a curious recruiter reads. The rule from now on is the interview-room test — react only to what you would be happy to discuss across a table.",
+        "id": "Kebanyakan pembelajar menemukan satu hal untuk dikunci, satu hal untuk dihapus, dan satu hal untuk dilepas tandanya. Tab aktivitas adalah kejutannya: reaksi pada postingan yang tidak kamu anggap publik adalah hal kedua yang dibaca rekruter yang penasaran. Aturannya mulai sekarang adalah uji ruang wawancara — beri reaksi hanya pada apa yang akan kamu senang bahas di seberang meja."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Starting with a long article, or posting three times a day",
+         "id": "Memulai dengan artikel panjang, atau memposting tiga kali sehari"
+        },
+        "fix": {
+         "en": "Comment first; two or three posts a week at most.",
+         "id": "Komentar dulu; paling banyak dua atau tiga postingan seminggu."
+        }
+       },
+       {
+        "h": {
+         "en": "A blank connection request, or one that asks for a job",
+         "id": "Permintaan koneksi kosong, atau yang meminta pekerjaan"
+        },
+        "fix": {
+         "en": "A 300-character note: who, shared context, a light reason.",
+         "id": "Catatan 300 karakter: siapa, konteks bersama, alasan ringan."
+        }
+       },
+       {
+        "h": {
+         "en": "A bare certificate photo",
+         "id": "Foto sertifikat polos"
+        },
+        "fix": {
+         "en": "Add the lesson and one piece of evidence of applying it.",
+         "id": "Tambahkan pelajarannya dan satu bukti penerapannya."
+        }
+       },
+       {
+        "h": {
+         "en": "Never looking at the numbers",
+         "id": "Tidak pernah melihat angkanya"
+        },
+        "fix": {
+         "en": "Two minutes a week: views, search appearances, acceptance rate — and whether the roles are right.",
+         "id": "Dua menit seminggu: tampilan, kemunculan di pencarian, tingkat penerimaan — dan apakah perannya tepat."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Engagement ladder",
+        "id": "Tangga keterlibatan"
+       },
+       "def": {
+        "en": "Like → comment → share with a take → post → article; start at comment.",
+        "id": "Suka → komentar → bagikan dengan pendapat → posting → artikel; mulai dari komentar."
+       }
+      },
+      {
+       "term": {
+        "en": "15-minute routine",
+        "id": "Rutinitas 15 menit"
+       },
+       "def": {
+        "en": "Daily: three thoughtful comments, one personalised connection request, one post or share — or skip the post.",
+        "id": "Harian: tiga komentar bernas, satu permintaan koneksi yang dipersonalisasi, satu postingan atau bagikan — atau lewati postingannya."
+       }
+      },
+      {
+       "term": {
+        "en": "Connection note",
+        "id": "Catatan koneksi"
+       },
+       "def": {
+        "en": "Up to 300 characters: who, shared context, a light reason; no job request; Kak or Bapak/Ibu.",
+        "id": "Hingga 300 karakter: siapa, konteks bersama, alasan ringan; tanpa permintaan pekerjaan; Kak atau Bapak/Ibu."
+       }
+      },
+      {
+       "term": {
+        "en": "Follow–engage–connect–add value–ask",
+        "id": "Ikuti–terlibat–terhubung–beri nilai–minta"
+       },
+       "def": {
+        "en": "The sequence before any request; the ask is Module 2’s six-point message.",
+        "id": "Urutan sebelum permintaan apa pun; permintaannya adalah pesan enam poin Modul 2."
+       }
+      },
+      {
+       "term": {
+        "en": "Digital footprint",
+        "id": "Jejak digital"
+       },
+       "def": {
+        "en": "Everything a name search and the activity tab show a recruiter; lock, clean, and apply the interview-room test.",
+        "id": "Semua yang ditunjukkan pencarian nama dan tab aktivitas kepada rekruter; kunci, bersihkan, dan terapkan uji ruang wawancara."
+       }
+      },
+      {
+       "term": {
+        "en": "Search appearances",
+        "id": "Kemunculan di pencarian"
+       },
+       "def": {
+        "en": "How often your profile appeared in searches this week — and for which keywords; the first number to watch.",
+        "id": "Seberapa sering profilmu muncul di pencarian minggu ini — dan untuk kata kunci mana; angka pertama yang perlu diperhatikan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Week one on LinkedIn, the recommended first step up the ladder is…",
+        "id": "Minggu pertama di LinkedIn, langkah pertama yang disarankan di tangga adalah…"
+       },
+       "options": [
+        {
+         "en": "Writing a long article",
+         "id": "Menulis artikel panjang"
+        },
+        {
+         "en": "Thoughtful comments on others’ posts",
+         "id": "Komentar bernas pada postingan orang lain"
+        },
+        {
+         "en": "Posting three times a day",
+         "id": "Memposting tiga kali sehari"
+        },
+        {
+         "en": "Messaging recruiters for jobs",
+         "id": "Mengirim pesan ke rekruter untuk pekerjaan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Low-risk, two minutes each, and visible to the person you commented on.",
+        "id": "Berisiko rendah, dua menit masing-masing, dan terlihat oleh orang yang kamu komentari."
+       }
+      },
+      {
+       "q": {
+        "en": "Which connection note fits?",
+        "id": "Catatan koneksi mana yang cocok?"
+       },
+       "options": [
+        {
+         "en": "“Please hire me”",
+         "id": "“Tolong rekrut saya”"
+        },
+        {
+         "en": "Blank",
+         "id": "Kosong"
+        },
+        {
+         "en": "A short note naming the shared context and why you are connecting, with no job request",
+         "id": "Catatan singkat yang menyebut konteks bersama dan mengapa kamu terhubung, tanpa permintaan pekerjaan"
+        },
+        {
+         "en": "Your CV as an attachment",
+         "id": "CV-mu sebagai lampiran"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Easy to say yes to; the ask comes later, once connected and engaged.",
+        "id": "Mudah dijawab ya; permintaannya datang nanti, setelah terhubung dan terlibat."
+       }
+      },
+      {
+       "q": {
+        "en": "Your profile gets views, but only for unrelated roles.",
+        "id": "Profilmu mendapat tampilan, tetapi hanya untuk peran yang tidak terkait."
+       },
+       "options": [
+        {
+         "en": "Post more",
+         "id": "Posting lebih banyak"
+        },
+        {
+         "en": "Revise your headline and skills keywords",
+         "id": "Revisi headline dan kata kunci keterampilanmu"
+        },
+        {
+         "en": "Buy Premium",
+         "id": "Beli Premium"
+        },
+        {
+         "en": "Delete the profile",
+         "id": "Hapus profilnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The words in the headline and pinned skills are pulling the wrong search.",
+        "id": "Kata-kata di headline dan keterampilan yang disematkan menarik pencarian yang salah."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "linkedin",
+      "title": {
+       "en": "Engagement planner",
+       "id": "Perencana keterlibatan"
+      },
+      "body": {
+       "en": "In the LinkedIn studio, save the 30-day plan as Dossier item 5: the daily slot, the posting days, the three planned posts, the five people to follow first, and the weekly metrics log (views · search appearances · acceptance rate · right roles?). Log the numbers every week for four weeks before changing anything.",
+       "id": "Di studio LinkedIn, simpan rencana 30 hari sebagai butir Dossier 5: slot harian, hari posting, tiga postingan yang direncanakan, lima orang yang diikuti lebih dulu, dan catatan metrik mingguan (tampilan · kemunculan di pencarian · tingkat penerimaan · peran tepat?). Catat angkanya setiap minggu selama empat minggu sebelum mengubah apa pun."
+      },
+      "cta": {
+       "en": "Open the LinkedIn studio →",
+       "id": "Buka studio LinkedIn →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Start by commenting; build up at your own pace.",
+       "id": "Mulai dengan berkomentar; tingkatkan dengan tempomu sendiri."
+      },
+      {
+       "en": "Fifteen minutes a day, two or three posts a week.",
+       "id": "Lima belas menit sehari, dua atau tiga postingan seminggu."
+      },
+      {
+       "en": "Follow, engage, connect, add value — then ask.",
+       "id": "Ikuti, terlibat, terhubung, beri nilai — lalu minta."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the routine card and the note templates",
+       "id": "Sumber, kartu rutinitas, dan templat catatan"
+      },
+      "lead": {
+       "en": "Four sources, the daily routine as a card, and three connection-note frames.",
+       "id": "Empat sumber, rutinitas harian sebagai kartu, dan tiga kerangka catatan koneksi."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 5.4",
+         "id": "Daftar bacaan · Pelajaran 5.4"
+        },
+        "desc": {
+         "en": "Four sources; one recommendation is not endorsed.",
+         "id": "Empat sumber; satu rekomendasi tidak dianjurkan."
+        },
+        "body": [
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), ch. 15 — the engagement ladder; activity is public.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i> (2020), bab 15 — tangga keterlibatan; aktivitas itu publik."
+         },
+         {
+          "en": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), ch. 2, 5, 12 — the daily habit, keywords and measurement, connection notes and the sequence.",
+          "id": "M. Dumas, <i>AI-Savvy Job Seeker</i> (2025), bab 2, 5, 12 — kebiasaan harian, kata kunci dan pengukuran, catatan koneksi dan urutannya."
+         },
+         {
+          "en": "J. Vanderslice, <i>Building a Strong Personal Brand</i> — the follow-engage-connect sequence; the three-posts-a-day advice is not endorsed for job-seekers.",
+          "id": "J. Vanderslice, <i>Building a Strong Personal Brand</i> — urutan ikuti-terlibat-terhubung; saran tiga postingan sehari tidak dianjurkan untuk pencari kerja."
+         },
+         {
+          "en": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, ch. 18 — recruiters look you up.",
+          "id": "J. Bright &amp; J. Earl, <i>Brilliant CV</i>, bab 18 — rekruter mencari tahu tentangmu."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "The daily card · 15 minutes",
+         "id": "Kartu harian · 15 menit"
+        },
+        "desc": {
+         "en": "Same time each day.",
+         "id": "Jam yang sama tiap hari."
+        },
+        "body": [
+         {
+          "en": "0–8 min: three specific comments (Top 5 employers, alumni, my field) — two sentences, a question where possible",
+          "id": "0–8 mnt: tiga komentar spesifik (perusahaan 5 Teratas, alumni, bidang saya) — dua kalimat, pertanyaan bila mungkin"
+         },
+         {
+          "en": "8–12 min: one connection request with a note, to someone I have engaged with",
+          "id": "8–12 mnt: satu permintaan koneksi dengan catatan, kepada seseorang yang sudah saya ajak terlibat"
+         },
+         {
+          "en": "12–15 min: post/share on posting days (Tue, Thu); otherwise the weekly numbers on Friday, then stop",
+          "id": "12–15 mnt: posting/bagikan pada hari posting (Sel, Kam); jika tidak, angka mingguan pada Jumat, lalu berhenti"
+         },
+         {
+          "en": "Never: complaints, private screenshots, arguments, anything I would not say across an interview table",
+          "id": "Jangan pernah: keluhan, tangkapan layar pribadi, perdebatan, apa pun yang tidak akan saya katakan di seberang meja wawancara"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Connection notes · three frames",
+         "id": "Catatan koneksi · tiga kerangka"
+        },
+        "desc": {
+         "en": "Under 300 characters each.",
+         "id": "Di bawah 300 karakter masing-masing."
+        },
+        "body": [
+         {
+          "en": "Alumnus (Kak): Halo Kak [Nama], saya [nama], [alumni/mahasiswa] [jurusan] dari kampus yang sama. [Postingan/cerita Kakak tentang X] sangat membantu saya memahami [Y]. Izin terhubung ya, Kak. Terima kasih!",
+          "id": "Alumnus (Kak): Halo Kak [Nama], saya [nama], [alumni/mahasiswa] [jurusan] dari kampus yang sama. [Postingan/cerita Kakak tentang X] sangat membantu saya memahami [Y]. Izin terhubung ya, Kak. Terima kasih!"
+         },
+         {
+          "en": "Recruiter (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], lulusan [jurusan] [tahun]. Saya mengikuti proses rekrutmen [program] di [perusahaan] dan terbantu oleh postingan [Bapak/Ibu] tentang [X]. Izin terhubung. Terima kasih.",
+          "id": "Rekruter (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], lulusan [jurusan] [tahun]. Saya mengikuti proses rekrutmen [program] di [perusahaan] dan terbantu oleh postingan [Bapak/Ibu] tentang [X]. Izin terhubung. Terima kasih."
+         },
+         {
+          "en": "Speaker (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], hadir di [acara] pada [tanggal]. Poin [Bapak/Ibu] tentang [satu gagasan] masih saya pikirkan. Izin terhubung untuk mengikuti tulisan [Bapak/Ibu]. Terima kasih.",
+          "id": "Pembicara (Bapak/Ibu): Selamat [pagi/siang] [Bapak/Ibu Nama], saya [nama], hadir di [acara] pada [tanggal]. Poin [Bapak/Ibu] tentang [satu gagasan] masih saya pikirkan. Izin terhubung untuk mengikuti tulisan [Bapak/Ibu]. Terima kasih."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "5.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Profile Makeover",
+      "id": "Tugas Kasus — Perombakan Profil Nadia"
+     },
+     "overview": {
+      "en": "Nadia’s LinkedIn profile is the one the Arunika recruiter could not find. It is in the case file, field by field, next to her rebuilt CV. Write the brief, three headlines, the About, the translation table and two experience entries, the skills list, two connection notes and the settings checklist — the whole makeover, from the words a recruiter types to the message they send.",
+      "id": "Profil LinkedIn Nadia adalah profil yang tidak bisa ditemukan rekruter Arunika. Profil itu ada di berkas kasus, kolom demi kolom, di samping CV-nya yang sudah dibangun ulang. Tulis arahannya, tiga headline, About, tabel terjemahan dan dua entri pengalaman, daftar keterampilan, dua catatan koneksi, dan daftar periksa pengaturan — seluruh perombakan, dari kata yang diketik rekruter sampai pesan yang mereka kirim."
+     },
+     "objectives": [
+      {
+       "en": "Turn a profile brief into a searchable, credible profile top.",
+       "id": "Mengubah arahan profil menjadi bagian atas profil yang bisa dicari dan kredibel."
+      },
+      {
+       "en": "Translate titles and write experience entries that match the CV exactly.",
+       "id": "Menerjemahkan jabatan dan menulis entri pengalaman yang persis sama dengan CV."
+      },
+      {
+       "en": "Choose and pin skills for a target search.",
+       "id": "Memilih dan menyematkan keterampilan untuk pencarian sasaran."
+      },
+      {
+       "en": "Write connection notes in the right register and complete the settings.",
+       "id": "Menulis catatan koneksi dalam register yang tepat dan melengkapi pengaturan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "From “Student at Universitas X” to page one",
+       "id": "Dari “Student at Universitas X” ke halaman satu"
+      },
+      "intro": {
+       "en": "Seven steps, eight written answers. The case file has three tabs: the current profile, the rebuilt CV, and the recruiter’s search. Every answer is checked against the CV.",
+       "id": "Tujuh langkah, delapan jawaban tertulis. Berkas kasus punya tiga tab: profil saat ini, CV yang dibangun ulang, dan pencarian rekruter. Setiap jawaban diperiksa terhadap CV."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read the three tabs",
+         "id": "Baca ketiga tab"
+        },
+        "points": [
+         {
+          "en": "The current profile as rendered · the CV from Module 3 · the Boolean string the Arunika recruiter uses and the ODP screener’s checklist.",
+          "id": "Profil saat ini sebagaimana ditampilkan · CV dari Modul 3 · string Boolean yang dipakai rekruter Arunika dan daftar periksa penyaring ODP."
+         },
+         {
+          "en": "Facts come from the CV. Nothing is added to her experience; everything is named.",
+          "id": "Fakta berasal dari CV. Tidak ada yang ditambahkan ke pengalamannya; semuanya disebutkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The rubric",
+         "id": "Rubrik"
+        },
+        "points": [
+         {
+          "en": "Searchability 30% · credibility (facts match, no inflation) 25% · About quality 20% · outreach register 15% · settings 10%.",
+          "id": "Keterjangkauan pencarian 30% · kredibilitas (fakta cocok, tanpa penggelembungan) 25% · kualitas About 20% · register penjangkauan 15% · pengaturan 10%."
+         },
+         {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK5",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Profile Makeover",
+       "id": "Perombakan Profil Nadia"
+      },
+      "lead": {
+       "en": "The profile the recruiter could not find, next to the CV she already has. Make the two agree — and make the first one findable.",
+       "id": "Profil yang tidak bisa ditemukan rekruter, di samping CV yang sudah ia pegang. Buat keduanya sepakat — dan buat yang pertama bisa ditemukan."
+      },
+      "practice": [
+       {
+        "en": "Write a profile brief",
+        "id": "Menulis arahan profil"
+       },
+       {
+        "en": "Headline A/B/C",
+        "id": "Headline A/B/C"
+       },
+       {
+        "en": "Draft an About",
+        "id": "Menyusun About"
+       },
+       {
+        "en": "Translate titles honestly",
+        "id": "Menerjemahkan jabatan dengan jujur"
+       },
+       {
+        "en": "Pin skills to a search",
+        "id": "Menyematkan keterampilan ke pencarian"
+       },
+       {
+        "en": "Write connection notes",
+        "id": "Menulis catatan koneksi"
+       }
+      ],
+      "goal": {
+       "en": "A profile that appears for the recruiter’s search, survives the screener’s side-by-side check with the CV, and makes the next action easy.",
+       "id": "Profil yang muncul untuk pencarian rekruter, lolos pemeriksaan berdampingan penyaring dengan CV, dan membuat tindakan berikutnya mudah."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Wednesday, 21:10",
+         "id": "Rabu, 21.10"
+        },
+        "subject": {
+         "en": "Kak Rina tidak bisa menemukan LinkedIn-ku",
+         "id": "Kak Rina tidak bisa menemukan LinkedIn-ku"
+        },
+        "paragraphs": [
+         {
+          "en": "Kak Rina said she tried to send my profile to the Arunika MT recruiter and could not find it — there are three Nadia Putris and none of them looks like me. Then the recruiter searched for candidates herself and I was not there either.",
+          "id": "Kak Rina bilang ia mencoba mengirim profilku ke rekruter MT Arunika dan tidak bisa menemukannya — ada tiga Nadia Putri dan tidak satu pun tampak seperti aku. Lalu rekruternya mencari kandidat sendiri dan aku juga tidak ada."
+         },
+         {
+          "en": "I have attached a copy of my profile as it is now. I made it in second year and have not touched it since. My CV from Module 3 is attached too — I know the profile should match it, but I am not sure what “match” means for a headline or an About.",
+          "id": "Kulampirkan salinan profilku sebagaimana sekarang. Aku membuatnya di tahun kedua dan belum menyentuhnya sejak itu. CV-ku dari Modul 3 juga terlampir — aku tahu profilnya harus cocok, tapi aku tidak yakin apa arti “cocok” untuk headline atau About."
+         },
+         {
+          "en": "The Arunika window opens in three weeks and the ODP screener will check LinkedIn. Where do I start?",
+          "id": "Jendela Arunika dibuka tiga minggu lagi dan penyaring ODP akan memeriksa LinkedIn. Mulai dari mana?"
+         }
+        ],
+        "asks": [
+         {
+          "en": "What should the top of my profile say so the recruiter’s search finds me?",
+          "id": "Bagian atas profilku harus berbunyi apa agar pencarian rekruter menemukanku?"
+         },
+         {
+          "en": "How do I present HIMA and the internship without making them sound bigger than they were?",
+          "id": "Bagaimana menyajikan HIMA dan magang tanpa membuatnya terdengar lebih besar dari kenyataan?"
+         },
+         {
+          "en": "What do I write to Kak Rina and to the KilatPay recruiter when I connect?",
+          "id": "Apa yang kutulis ke Kak Rina dan ke rekruter KilatPay saat terhubung?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih! — Nadia",
+          "id": "Terima kasih! — Nadia"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Student at Universitas X",
+          "id": "Student at Universitas X"
+         },
+         "v": {
+          "en": "her current headline — the default",
+          "id": "headline-nya saat ini — bawaan"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "3 Nadia Putris",
+          "id": "3 Nadia Putri"
+         },
+         "v": {
+          "en": "in a name search; hers has no headline keywords, no photo of her face, no custom URL",
+          "id": "dalam pencarian nama; miliknya tanpa kata kunci headline, tanpa foto wajahnya, tanpa URL kustom"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "3 weeks",
+          "id": "3 minggu"
+         },
+         "v": {
+          "en": "until the Arunika MT window opens; the ODP screener checks LinkedIn against the CV",
+          "id": "sampai jendela MT Arunika dibuka; penyaring ODP memeriksa LinkedIn terhadap CV"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "7 skills",
+          "id": "7 keterampilan"
+         },
+         "v": {
+          "en": "including Microsoft Word, Communication, Teamwork — none pinned",
+          "id": "termasuk Microsoft Word, Communication, Teamwork — tidak ada yang disematkan"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "Volunteer: Member",
+          "id": "Volunteer: Member"
+         },
+         "v": {
+          "en": "HIMA listed as “Member, 2023 – 2025”; the CV says Treasurer, Aug 2024 – Jul 2025",
+          "id": "HIMA tercantum “Member, 2023 – 2025”; CV menyebut Treasurer, Agu 2024 – Jul 2025"
+         }
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "IPK 3,38",
+          "id": "IPK 3,38"
+         },
+         "v": {
+          "en": "on the CV and transcript; the profile’s education shows the university name only",
+          "id": "di CV dan transkrip; pendidikan di profil hanya menunjukkan nama universitas"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Current profile",
+          "id": "Profil saat ini"
+         },
+         "title": {
+          "en": "Nadia’s LinkedIn, field by field, as it is today",
+          "id": "LinkedIn Nadia, kolom demi kolom, sebagaimana hari ini"
+         },
+         "meta": {
+          "en": "Copied from the rendered profile",
+          "id": "Disalin dari profil yang ditampilkan"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Headline: Student at Universitas X",
+             "id": "Headline: Student at Universitas X"
+            },
+            {
+             "en": "Photo: cropped from a cousin’s wedding; half a shoulder of someone else visible; taken 2023",
+             "id": "Foto: dipotong dari pernikahan sepupu; setengah bahu orang lain terlihat; diambil 2023"
+            },
+            {
+             "en": "Banner: default",
+             "id": "Banner: bawaan"
+            },
+            {
+             "en": "About: empty",
+             "id": "About: kosong"
+            },
+            {
+             "en": "Location: Semarang · Industry: Food &amp; Beverages",
+             "id": "Lokasi: Semarang · Industri: Food &amp; Beverages"
+            },
+            {
+             "en": "URL: linkedin.com/in/nadia-putri-8b21a4137",
+             "id": "URL: linkedin.com/in/nadia-putri-8b21a4137"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Experience",
+            "id": "Experience"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Barista — Kopi Tepian · 2024 – Present (no months) · no description",
+             "id": "Barista — Kopi Tepian · 2024 – Sekarang (tanpa bulan) · tanpa deskripsi"
+            },
+            {
+             "en": "(The bank internship is not listed)",
+             "id": "(Magang bank tidak tercantum)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Volunteer",
+            "id": "Volunteer"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Member — HIMA Manajemen · 2023 – 2025",
+             "id": "Member — HIMA Manajemen · 2023 – 2025"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Education",
+            "id": "Education"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Universitas X (no degree, no field, no years)",
+             "id": "Universitas X (tanpa gelar, tanpa bidang, tanpa tahun)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Skills (7)",
+            "id": "Skills (7)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Microsoft Word · Communication · Teamwork · Public Speaking · Leadership · Canva · Time Management",
+             "id": "Microsoft Word · Communication · Teamwork · Public Speaking · Leadership · Canva · Time Management"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Settings",
+            "id": "Pengaturan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Open to work: off · CV upload: none · Secondary language: none · Notifications: on",
+             "id": "Open to work: mati · Unggah CV: tidak ada · Bahasa kedua: tidak ada · Notifikasi: hidup"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The CV",
+          "id": "CV"
+         },
+         "title": {
+          "en": "Nadia’s rebuilt CV (Module 3) — key lines",
+          "id": "CV Nadia yang dibangun ulang (Modul 3) — baris-baris kunci"
+         },
+         "meta": {
+          "en": "The record every profile fact must match",
+          "id": "Rekaman yang harus dicocoki setiap fakta profil"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Profile: Management graduate (2026) targeting management-trainee and operations roles in FMCG, banking and fintech; open to placement anywhere in Indonesia; nadia.putri@email.com",
+             "id": "Profil: Lulusan Manajemen (2026) yang membidik peran management trainee dan operasi di FMCG, perbankan, dan fintech; bersedia ditempatkan di seluruh Indonesia; nadia.putri@email.com"
+            },
+            {
+             "en": "S1 Manajemen, Universitas X · IPK 3,38 / 4,00 · Aug 2022 – Aug 2026 · thesis: inventory turnover at a Tegal retailer",
+             "id": "S1 Manajemen, Universitas X · IPK 3,38 / 4,00 · Agu 2022 – Agu 2026 · skripsi: perputaran persediaan di peritel Tegal"
+            },
+            {
+             "en": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Aug 2025 · reconciled daily transaction reports for 3 branches; flagged a recurring terminal error at the Tembalang branch; built the reconciliation checklist still in use",
+             "id": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Agu 2025 · merekonsiliasi laporan transaksi harian untuk 3 cabang; menandai kesalahan terminal berulang di cabang Tembalang; membangun daftar periksa rekonsiliasi yang masih dipakai"
+            },
+            {
+             "en": "Treasurer (Bendahara), HIMA Manajemen · Aug 2024 – Jul 2025 · 300 members, 12 events, Rp 120 juta budget; monthly close with receipts; 2025 faculty audit: zero issues, first in 3 years",
+             "id": "Treasurer (Bendahara), HIMA Manajemen · Agu 2024 – Jul 2025 · 300 anggota, 12 acara, anggaran Rp 120 juta; tutup buku bulanan dengan kuitansi; audit fakultas 2025: nol masalah, pertama dalam 3 tahun"
+            },
+            {
+             "en": "Head of Sponsorship, 2025 National Business Competition (committee) · Jan 2025 – May 2025 · led a 6-person team; Rp 85 juta from 11 sponsors; 1,200 participants",
+             "id": "Head of Sponsorship, Kompetisi Bisnis Nasional 2025 (panitia) · Jan 2025 – Mei 2025 · memimpin tim 6 orang; Rp 85 juta dari 11 sponsor; 1.200 peserta"
+            },
+            {
+             "en": "Barista (part-time), Kopi Tepian · Mar 2024 – May 2025 · 120–150 customers per shift; trained 4 new baristas",
+             "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024 – Mei 2025 · 120–150 pelanggan per sif; melatih 4 barista baru"
+            },
+            {
+             "en": "KKN financial-literacy workshop, Tegal · Jul 2024 · 40 participants",
+             "id": "Lokakarya literasi keuangan KKN, Tegal · Jul 2024 · 40 peserta"
+            },
+            {
+             "en": "Tools: Microsoft Excel (pivot tables, VLOOKUP), Google Sheets · TOEFL ITP 527",
+             "id": "Alat: Microsoft Excel (pivot table, VLOOKUP), Google Sheets · TOEFL ITP 527"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The recruiter",
+          "id": "Rekruter"
+         },
+         "title": {
+          "en": "What the two readers will do",
+          "id": "Yang akan dilakukan dua pembaca"
+         },
+         "meta": {
+          "en": "From Kak Rina, and from the ODP FAQ",
+          "id": "Dari Kak Rina, dan dari FAQ ODP"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Arunika MT recruiter — search",
+            "id": "Rekruter MT Arunika — pencarian"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "(“management trainee” OR “graduate trainee” OR “MT candidate”) AND (“supply chain” OR operations OR logistics) · location: Central Java or Jakarta · graduated 2025–2026 · skills filter: Supply Chain Management, Operations, Microsoft Excel",
+             "id": "(“management trainee” OR “graduate trainee” OR “MT candidate”) AND (“supply chain” OR operations OR logistics) · lokasi: Jawa Tengah atau Jakarta · lulus 2025–2026 · filter keterampilan: Supply Chain Management, Operations, Microsoft Excel"
+            },
+            {
+             "en": "Kak Rina: “She opens maybe fifteen profiles per search. Headline and the pinned skills first, then Experience. If it looks like a person who knows what they want, she reads the About.”",
+             "id": "Kak Rina: “Ia membuka mungkin lima belas profil per pencarian. Headline dan keterampilan yang disematkan dulu, lalu Experience. Jika tampak seperti orang yang tahu apa yang diinginkan, ia membaca About-nya.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Bank Sinar Nusantara ODP screener — check",
+            "id": "Penyaring ODP Bank Sinar Nusantara — pemeriksaan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Opens LinkedIn beside the CV: titles, dates and numbers must agree; the internship at the bank itself is checked against HR records",
+             "id": "Membuka LinkedIn di samping CV: jabatan, tanggal, dan angka harus sepakat; magang di bank itu sendiri diperiksa terhadap catatan HR"
+            },
+            {
+             "en": "Reads the activity tab for anything that would embarrass the bank",
+             "id": "Membaca tab aktivitas untuk apa pun yang akan mempermalukan bank"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "People to connect with",
+            "id": "Orang untuk dihubungi"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Kak Rina — MT 2023, Supply Chain Planner, Arunika; HIMA; posted about the rotation moving to supply chain",
+             "id": "Kak Rina — MT 2023, Supply Chain Planner, Arunika; HIMA; memposting tentang rotasi yang pindah ke supply chain"
+            },
+            {
+             "en": "Bu Dewi — Talent Acquisition, KilatPay; posts the Business Operations selection updates; no shared campus",
+             "id": "Bu Dewi — Talent Acquisition, KilatPay; memposting pembaruan seleksi Business Operations; tidak ada kampus yang sama"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Profile brief",
+         "id": "Arahan profil"
+        },
+        "short": {
+         "en": "Brief",
+         "id": "Arahan"
+        },
+        "guide": {
+         "en": "Lesson 5.1. Four lines: goal · reader (both readers, holding what) · what they must know (target in their words + three proof points with numbers from the CV) · next action.",
+         "id": "Pelajaran 5.1. Empat baris: tujuan · pembaca (kedua pembaca, memegang apa) · yang harus mereka ketahui (sasaran dalam kata-kata mereka + tiga bukti dengan angka dari CV) · tindakan berikutnya."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 40,
+          "rows": 5,
+          "title": {
+           "en": "Nadia’s brief",
+           "id": "Arahan Nadia"
+          },
+          "help": {
+           "en": "Name the recruiter’s search words. Pick the three proofs a supply-chain and operations reader would rank first.",
+           "id": "Sebutkan kata pencarian rekruter. Pilih tiga bukti yang akan diperingkat pertama oleh pembaca supply chain dan operasi."
+          },
+          "placeholder": {
+           "en": "Goal: MT/ODP operations roles. Reader: the Arunika MT recruiter searching “management trainee” + supply chain/operations; the ODP screener with her CV open. Must know: … Next action: …",
+           "id": "Tujuan: peran operasi MT/ODP. Pembaca: rekruter MT Arunika yang mencari “management trainee” + supply chain/operasi; penyaring ODP dengan CV-nya terbuka. Harus tahu: … Tindakan berikutnya: …"
+          },
+          "keywords": [
+           [
+            "goal",
+            "tujuan"
+           ],
+           [
+            "reader",
+            "pembaca",
+            "recruiter",
+            "rekruter",
+            "screener",
+            "penyaring"
+           ],
+           [
+            "management trainee",
+            "supply chain",
+            "operations",
+            "operasi"
+           ],
+           [
+            "3 branches",
+            "3 cabang",
+            "reconcil",
+            "rekonsil"
+           ],
+           [
+            "zero",
+            "nol",
+            "audit",
+            "85 juta",
+            "1,200",
+            "1.200"
+           ],
+           [
+            "next action",
+            "tindakan berikutnya",
+            "message",
+            "pesan",
+            "email",
+            "match",
+            "cocok"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Headlines",
+         "id": "Headline"
+        },
+        "short": {
+         "en": "Headlines",
+         "id": "Headline"
+        },
+        "guide": {
+         "en": "Lesson 5.2. Three headlines, one per formula (aspiring professional · keyword · value statement), each with the target and one proof in the first ~70 characters, at most two separator kinds, “candidate” rather than a title she has not held. Choose one and justify in two sentences.",
+         "id": "Pelajaran 5.2. Tiga headline, satu per rumus (aspiring professional · kata kunci · pernyataan nilai), masing-masing dengan sasaran dan satu bukti di ~70 karakter pertama, paling banyak dua jenis pemisah, “candidate” bukan jabatan yang belum ia pegang. Pilih satu dan benarkan dalam dua kalimat."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 50,
+          "rows": 7,
+          "title": {
+           "en": "A, B, C — and the winner",
+           "id": "A, B, C — dan pemenangnya"
+          },
+          "help": {
+           "en": "Write each on its own line, label the formula, count the characters to the first separator. Then: which one, and why, against the recruiter’s search on the third tab?",
+           "id": "Tulis masing-masing di barisnya sendiri, beri label rumusnya, hitung karakter sampai pemisah pertama. Lalu: yang mana, dan mengapa, terhadap pencarian rekruter di tab ketiga?"
+          },
+          "placeholder": {
+           "en": "A (aspiring): Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation (44 chars to the first separator)\nB (keyword): …\nC (value): …\nWinner: … because …",
+           "id": "A (aspiring): Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation (44 karakter sampai pemisah pertama)\nB (kata kunci): …\nC (nilai): …\nPemenang: … karena …"
+          },
+          "keywords": [
+           [
+            "candidate"
+           ],
+           [
+            "management trainee",
+            "trainee"
+           ],
+           [
+            "supply chain",
+            "operations",
+            "operasi"
+           ],
+           [
+            "fmcg",
+            "banking",
+            "bank"
+           ],
+           [
+            "excel",
+            "reconcil",
+            "rekonsil",
+            "sponsorship",
+            "negotiation"
+           ],
+           [
+            "aspiring",
+            "keyword",
+            "kata kunci",
+            "value",
+            "nilai"
+           ],
+           [
+            "winner",
+            "pemenang",
+            "choose",
+            "pilih",
+            "because",
+            "karena"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "About",
+         "id": "About"
+        },
+        "short": {
+         "en": "About",
+         "id": "About"
+        },
+        "guide": {
+         "en": "Lesson 5.2. First person, 150–250 words: hook (not “I am a fresh graduate…”) · value line · three proofs with numbers from the CV · direction in the recruiter’s words · email. The first line must earn “see more”.",
+         "id": "Pelajaran 5.2. Orang pertama, 150–250 kata: kail (bukan “Saya fresh graduate…”) · baris nilai · tiga bukti dengan angka dari CV · arah dalam kata-kata rekruter · email. Baris pertama harus layak “lihat selengkapnya”."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 150,
+          "max": 250,
+          "rows": 12,
+          "ratio": false,
+          "title": {
+           "en": "Nadia’s About",
+           "id": "About Nadia"
+          },
+          "help": {
+           "en": "Numbers exactly as the CV has them: 3 branches, zero audit issues (first in 3 years), Rp 85 juta, 1,200 participants, 300 members. Direction: management-trainee or operations roles in FMCG, banking or fintech.",
+           "id": "Angka persis seperti di CV: 3 cabang, nol masalah audit (pertama dalam 3 tahun), Rp 85 juta, 1.200 peserta, 300 anggota. Arah: peran management trainee atau operasi di FMCG, perbankan, atau fintech."
+          },
+          "placeholder": {
+           "en": "I like making operations run a little smoother than I found them — …\n\nAs a 2026 Management graduate, I’m looking to start in …\n\nA few things I’ve done: …\n\nOpen to placement anywhere in Indonesia. The best way to reach me is …",
+           "id": "Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — …\n\nSebagai lulusan Manajemen 2026, saya ingin memulai di …\n\nBeberapa hal yang sudah saya lakukan: …\n\nBersedia ditempatkan di seluruh Indonesia. Cara terbaik menghubungi saya adalah …"
+          },
+          "keywords": [
+           [
+            "i ",
+            "i’m",
+            "i'm",
+            "saya"
+           ],
+           [
+            "operations",
+            "operasi"
+           ],
+           [
+            "3 branches",
+            "3 cabang",
+            "three branches",
+            "tiga cabang"
+           ],
+           [
+            "zero",
+            "nol",
+            "audit"
+           ],
+           [
+            "85 juta",
+            "85 million"
+           ],
+           [
+            "1,200",
+            "1.200",
+            "300"
+           ],
+           [
+            "management trainee",
+            "management-trainee",
+            "trainee"
+           ],
+           [
+            "fmcg",
+            "banking",
+            "perbankan",
+            "fintech"
+           ],
+           [
+            "@",
+            "email"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Titles and entries",
+         "id": "Jabatan dan entri"
+        },
+        "short": {
+         "en": "Experience",
+         "id": "Experience"
+        },
+        "guide": {
+         "en": "Lesson 5.3. A translation table for every role on the CV (Indonesian · searchable English · the inflated title not to use), then two full experience entries of about 200 words each — the internship and the treasurer role — with title, dates by month, a first-person paragraph, three to five bullets with the CV’s numbers, and a context line.",
+         "id": "Pelajaran 5.3. Tabel terjemahan untuk setiap peran di CV (Indonesia · Inggris yang bisa dicari · jabatan gelembung yang tidak boleh dipakai), lalu dua entri pengalaman lengkap sekitar 200 kata masing-masing — magang dan peran bendahara — dengan jabatan, tanggal per bulan, paragraf orang pertama, tiga sampai lima butir dengan angka CV, dan baris konteks."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Translation table — five roles",
+           "id": "Tabel terjemahan — lima peran"
+          },
+          "help": {
+           "en": "Magang operasional · Bendahara HIMA · Kepala Divisi Sponsorship · Barista · KKN. Three columns each. Say which section each goes in (Experience / Projects / Volunteer).",
+           "id": "Magang operasional · Bendahara HIMA · Kepala Divisi Sponsorship · Barista · KKN. Tiga kolom masing-masing. Katakan bagian mana untuk masing-masing (Experience / Projects / Volunteer)."
+          },
+          "placeholder": {
+           "en": "Magang, bagian operasional → Operations Intern (not Operations Analyst) — Experience\nBendahara HIMA → Treasurer, Management Students’ Association (not Finance Manager) — Experience\n…",
+           "id": "Magang, bagian operasional → Operations Intern (bukan Operations Analyst) — Experience\nBendahara HIMA → Treasurer, Management Students’ Association (bukan Finance Manager) — Experience\n…"
+          },
+          "keywords": [
+           [
+            "operations intern"
+           ],
+           [
+            "treasurer"
+           ],
+           [
+            "head of sponsorship"
+           ],
+           [
+            "barista"
+           ],
+           [
+            "kkn",
+            "workshop",
+            "lokakarya",
+            "project",
+            "proyek"
+           ],
+           [
+            "not ",
+            "bukan",
+            "don’t",
+            "jangan",
+            "inflat",
+            "gelembung"
+           ],
+           [
+            "experience",
+            "volunteer",
+            "projects"
+           ]
+          ]
+         },
+         {
+          "id": "q5",
+          "min": 160,
+          "rows": 14,
+          "title": {
+           "en": "Two experience entries",
+           "id": "Dua entri pengalaman"
+          },
+          "help": {
+           "en": "Operations Intern, Bank Sinar Nusantara, Jun 2025 – Aug 2025; Treasurer (Bendahara), HIMA Manajemen, Aug 2024 – Jul 2025. Every number identical to the CV tab.",
+           "id": "Operations Intern, Bank Sinar Nusantara, Jun 2025 – Agu 2025; Treasurer (Bendahara), HIMA Manajemen, Agu 2024 – Jul 2025. Setiap angka identik dengan tab CV."
+          },
+          "placeholder": {
+           "en": "Operations Intern (Magang Operasional), Bank Sinar Nusantara · Jun 2025 – Aug 2025 · Semarang\nI …\n• Reconciled daily transaction reports for 3 branches …\n• …\nContext: …\n\nTreasurer (Bendahara), HIMA Manajemen — Management Students’ Association · Aug 2024 – Jul 2025\n…",
+           "id": "Operations Intern (Magang Operasional), Bank Sinar Nusantara · Jun 2025 – Agu 2025 · Semarang\nSaya …\n• Merekonsiliasi laporan transaksi harian untuk 3 cabang …\n• …\nKonteks: …\n\nTreasurer (Bendahara), HIMA Manajemen — Management Students’ Association · Agu 2024 – Jul 2025\n…"
+          },
+          "keywords": [
+           [
+            "operations intern"
+           ],
+           [
+            "jun 2025",
+            "juni 2025"
+           ],
+           [
+            "aug 2025",
+            "agu 2025",
+            "agustus 2025"
+           ],
+           [
+            "3 branches",
+            "3 cabang",
+            "three branches",
+            "tiga cabang"
+           ],
+           [
+            "tembalang",
+            "terminal",
+            "checklist",
+            "daftar periksa"
+           ],
+           [
+            "treasurer",
+            "bendahara"
+           ],
+           [
+            "aug 2024",
+            "agu 2024",
+            "jul 2025"
+           ],
+           [
+            "300"
+           ],
+           [
+            "12 events",
+            "12 acara",
+            "120 juta"
+           ],
+           [
+            "zero",
+            "nol",
+            "audit"
+           ],
+           [
+            "i ",
+            "saya"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Skills",
+         "id": "Keterampilan"
+        },
+        "short": {
+         "en": "Skills",
+         "id": "Keterampilan"
+        },
+        "guide": {
+         "en": "Lesson 5.3. Twenty-five skills using LinkedIn’s own names, relevant to the target; the three pinned ones match the recruiter’s skills filter on the third tab. Say which of the current seven you would drop and why.",
+         "id": "Pelajaran 5.3. Dua puluh lima keterampilan dengan nama milik LinkedIn, relevan dengan sasaran; tiga yang disematkan cocok dengan filter keterampilan rekruter di tab ketiga. Katakan mana dari tujuh yang ada sekarang yang akan kamu buang dan mengapa."
+        },
+        "questions": [
+         {
+          "id": "q6",
+          "min": 40,
+          "rows": 7,
+          "title": {
+           "en": "Twenty-five skills, three pinned",
+           "id": "Dua puluh lima keterampilan, tiga disematkan"
+          },
+          "help": {
+           "en": "Pinned first. Then the rest, comma-separated. Then the drops.",
+           "id": "Yang disematkan dulu. Lalu sisanya, dipisah koma. Lalu yang dibuang."
+          },
+          "placeholder": {
+           "en": "Pinned: Supply Chain Management · Operations Management · Microsoft Excel\nThen: Financial Reconciliation, Budgeting, Sponsorship, Negotiation, Inventory Management, …\nDrop: Microsoft Word (matches nothing a recruiter searches), …",
+           "id": "Disematkan: Supply Chain Management · Operations Management · Microsoft Excel\nLalu: Financial Reconciliation, Budgeting, Sponsorship, Negotiation, Inventory Management, …\nBuang: Microsoft Word (tidak cocok dengan apa pun yang dicari rekruter), …"
+          },
+          "keywords": [
+           [
+            "supply chain"
+           ],
+           [
+            "operations"
+           ],
+           [
+            "microsoft excel",
+            "excel"
+           ],
+           [
+            "pinned",
+            "disematkan",
+            "pin"
+           ],
+           [
+            "reconcil",
+            "rekonsil",
+            "budget",
+            "anggaran"
+           ],
+           [
+            "sponsorship",
+            "negotiation",
+            "negosiasi"
+           ],
+           [
+            "inventory",
+            "persediaan",
+            "customer service",
+            "data analysis"
+           ],
+           [
+            "word",
+            "drop",
+            "buang",
+            "remove",
+            "hapus"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Connection notes",
+         "id": "Catatan koneksi"
+        },
+        "short": {
+         "en": "Notes",
+         "id": "Catatan"
+        },
+        "guide": {
+         "en": "Lesson 5.4. Two notes under 300 characters each: to Kak Rina at Arunika (Kak; HIMA; her post) and to Bu Dewi at KilatPay (Bapak/Ibu; the process Nadia is following; something Bu Dewi posted). No job request in either.",
+         "id": "Pelajaran 5.4. Dua catatan di bawah 300 karakter masing-masing: ke Kak Rina di Arunika (Kak; HIMA; postingannya) dan ke Bu Dewi di KilatPay (Bapak/Ibu; proses yang diikuti Nadia; sesuatu yang diposting Bu Dewi). Tanpa permintaan pekerjaan di keduanya."
+        },
+        "questions": [
+         {
+          "id": "q7",
+          "min": 30,
+          "max": 90,
+          "rows": 6,
+          "ratio": true,
+          "lang": "id",
+          "title": {
+           "en": "Two notes",
+           "id": "Dua catatan"
+          },
+          "help": {
+           "en": "Write both in Bahasa Indonesia, one after the other. Each: who, shared context or the specific thing, a light reason, thanks — about 40 words. The balance signal checks that they are about them, not about her.",
+           "id": "Tulis keduanya dalam Bahasa Indonesia, berurutan. Masing-masing: siapa, konteks bersama atau hal spesifiknya, alasan ringan, terima kasih — sekitar 40 kata. Sinyal keseimbangan memeriksa bahwa catatan itu tentang mereka, bukan tentang dirinya."
+          },
+          "placeholder": {
+           "en": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang … Izin terhubung ya, Kak. Terima kasih!\n\nSelamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses … dan terbantu oleh postingan Ibu tentang … Izin terhubung, Bu. Terima kasih.",
+           "id": "Halo Kak Rina, saya Nadia, alumni Manajemen dari kampus yang sama. Postingan Kakak tentang … Izin terhubung ya, Kak. Terima kasih!\n\nSelamat siang Bu Dewi, saya Nadia, lulusan Manajemen 2026. Saya mengikuti proses … dan terbantu oleh postingan Ibu tentang … Izin terhubung, Bu. Terima kasih."
+          },
+          "keywords": [
+           [
+            "kak rina",
+            "kakak"
+           ],
+           [
+            "bu dewi",
+            "ibu"
+           ],
+           [
+            "kampus yang sama",
+            "alumni",
+            "hima"
+           ],
+           [
+            "postingan"
+           ],
+           [
+            "izin terhubung",
+            "terhubung"
+           ],
+           [
+            "terima kasih"
+           ],
+           [
+            "kilatpay",
+            "business operations",
+            "seleksi",
+            "rekrutmen"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Settings",
+         "id": "Pengaturan"
+        },
+        "short": {
+         "en": "Settings",
+         "id": "Pengaturan"
+        },
+        "guide": {
+         "en": "Lessons 5.1 and 5.3. The settings checklist for Nadia: custom URL · location and industry · open-to-work (titles, locations) · private CV upload · secondary-language profile · notifications · photo and banner actions · education fields. Say what each is set to and why.",
+         "id": "Pelajaran 5.1 dan 5.3. Daftar periksa pengaturan untuk Nadia: URL kustom · lokasi dan industri · open-to-work (jabatan, lokasi) · unggah CV privat · profil bahasa kedua · notifikasi · tindakan foto dan banner · kolom pendidikan. Katakan masing-masing diatur ke apa dan mengapa."
+        },
+        "questions": [
+         {
+          "id": "q8",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Nadia’s settings checklist",
+           "id": "Daftar periksa pengaturan Nadia"
+          },
+          "help": {
+           "en": "At least eight lines. Location and industry come from the brief; the education fields are the silent filter from Lesson 5.1.",
+           "id": "Setidaknya delapan baris. Lokasi dan industri berasal dari arahan; kolom pendidikan adalah filter diam dari Pelajaran 5.1."
+          },
+          "placeholder": {
+           "en": "URL → linkedin.com/in/nadiaputri (on the CV). Location → Greater Semarang, open to relocate to Jakarta. Industry → … Open to work → on, public: Management Trainee, Operations …, Central Java + Jakarta. CV → uploaded privately. Secondary profile → Bahasa Indonesia, English primary. Notifications → off during edits. Photo → reshoot by a window; banner → … Education → S1 Manajemen, 2022–2026, IPK 3,38 …",
+           "id": "URL → linkedin.com/in/nadiaputri (di CV). Lokasi → Semarang Raya, bersedia pindah ke Jakarta. Industri → … Open to work → hidup, publik: Management Trainee, Operations …, Jawa Tengah + Jakarta. CV → diunggah privat. Profil kedua → Bahasa Indonesia, Inggris utama. Notifikasi → mati saat menyunting. Foto → foto ulang di dekat jendela; banner → … Pendidikan → S1 Manajemen, 2022–2026, IPK 3,38 …"
+          },
+          "keywords": [
+           [
+            "url"
+           ],
+           [
+            "semarang",
+            "jakarta",
+            "relocat",
+            "pindah"
+           ],
+           [
+            "industry",
+            "industri"
+           ],
+           [
+            "open to work"
+           ],
+           [
+            "cv",
+            "privat",
+            "private"
+           ],
+           [
+            "bahasa",
+            "english",
+            "inggris",
+            "secondary",
+            "kedua"
+           ],
+           [
+            "notification",
+            "notifikasi"
+           ],
+           [
+            "photo",
+            "foto",
+            "banner"
+           ],
+           [
+            "education",
+            "pendidikan",
+            "2022",
+            "2026",
+            "manajemen"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Searchability — the recruiter’s keywords in the headline, titles and pinned skills",
+         "id": "Keterjangkauan pencarian — kata kunci rekruter di headline, jabatan, dan keterampilan yang disematkan"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Credibility — every fact matches the CV; no inflated titles",
+         "id": "Kredibilitas — setiap fakta cocok dengan CV; tanpa jabatan yang digelembungkan"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "About quality — hook, value, three numbered proofs, direction, contact, first person, 150–250 words",
+         "id": "Kualitas About — kail, nilai, tiga bukti berangka, arah, kontak, orang pertama, 150–250 kata"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Outreach register — two notes under 300 characters, Kak / Bapak-Ibu, no job request",
+         "id": "Register penjangkauan — dua catatan di bawah 300 karakter, Kak / Bapak-Ibu, tanpa permintaan pekerjaan"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Settings — complete and justified, silent filters fixed",
+         "id": "Pengaturan — lengkap dan beralasan, filter diam diperbaiki"
+        },
+        "w": "10%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — one defensible makeover",
+        "id": "Catatan model — satu perombakan yang bisa dipertahankan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The brief",
+          "id": "Arahan"
+         }
+        },
+        {
+         "en": "Goal: management-trainee and operations roles (MT/ODP; operations associate). Reader: the Arunika MT recruiter typing “management trainee” with supply chain or operations, filtered to Central Java or Jakarta and 2025–2026 graduates; and the ODP screener with the CV open in the next window. Must know: an operations target; reconciled daily reports for 3 branches; a zero-issue faculty audit, first in 3 years; Rp 85 juta raised for 1,200 participants. Next action: message nadia.putri@email.com — and, for the screener, find that every title, date and number matches the CV.",
+         "id": "Tujuan: peran management trainee dan operasi (MT/ODP; operations associate). Pembaca: rekruter MT Arunika yang mengetik “management trainee” dengan supply chain atau operasi, disaring ke Jawa Tengah atau Jakarta dan lulusan 2025–2026; dan penyaring ODP dengan CV terbuka di jendela sebelah. Harus tahu: sasaran operasi; merekonsiliasi laporan harian untuk 3 cabang; audit fakultas nol masalah, pertama dalam 3 tahun; Rp 85 juta terkumpul untuk 1.200 peserta. Tindakan berikutnya: kirim pesan ke nadia.putri@email.com — dan, bagi penyaring, mendapati setiap jabatan, tanggal, dan angka cocok dengan CV."
+        },
+        {
+         "h": {
+          "en": "Headlines",
+          "id": "Headline"
+         }
+        },
+        {
+         "en": "A (aspiring): “Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation”. B (keyword): “Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta”. C (value): “Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate”. Winner: A — the first 44 characters carry “Management Trainee candidate” and the sectors, which is exactly the recruiter’s first search term; B is a close second and better for an operations-associate search, so it becomes the swap if week-four search appearances show the wrong roles. C is true but leads with a phrase nobody searches.",
+         "id": "A (aspiring): “Management Trainee candidate — FMCG &amp; Banking | Management graduate, bank operations internship | Excel · Supply chain · Negotiation”. B (kata kunci): “Operations &amp; Supply Chain Trainee candidate | Financial reconciliation · Inventory · Excel | Open to MT/ODP programmes, Central Java &amp; Jakarta”. C (nilai): “Helping operations teams close the day clean — reconciliation, reporting, Excel | Management graduate · MT candidate”. Pemenang: A — 44 karakter pertama memuat “Management Trainee candidate” dan sektornya, yang persis istilah pencarian pertama rekruter; B nyaris kedua dan lebih baik untuk pencarian operations associate, jadi menjadi pengganti jika kemunculan pencarian minggu keempat menunjukkan peran yang salah. C benar tetapi diawali frasa yang tidak dicari siapa pun."
+        },
+        {
+         "h": {
+          "en": "About",
+          "id": "About"
+         }
+        },
+        {
+         "en": "The Lesson 5.2 draft, 112 words, is a defensible answer; the case asks for 150–250, so a strong answer keeps its four paragraphs and adds one proof sentence to the third (“built the reconciliation checklist the branch still uses”) and a line of direction naming the programme types (“MT and ODP programmes, or an operations-associate role”). First person throughout; the hook is about work; every number is the CV’s; the email closes it. What loses marks: “I am a fresh graduate…” as the opening, a third-person paragraph, a number the CV does not have, or a direction line in Nadia’s words instead of the recruiter’s.",
+         "id": "Draf Pelajaran 5.2, 112 kata, adalah jawaban yang bisa dipertahankan; kasus meminta 150–250, jadi jawaban kuat mempertahankan empat paragrafnya dan menambah satu kalimat bukti ke paragraf ketiga (“membangun daftar periksa rekonsiliasi yang masih dipakai cabang”) dan satu baris arah yang menyebut jenis program (“program MT dan ODP, atau peran operations associate”). Orang pertama sepanjangnya; kailnya tentang pekerjaan; setiap angka milik CV; email menutupnya. Yang kehilangan nilai: “Saya fresh graduate…” sebagai pembuka, paragraf orang ketiga, angka yang tidak ada di CV, atau baris arah dalam kata-kata Nadia alih-alih rekruter."
+        },
+        {
+         "h": {
+          "en": "Titles and entries",
+          "id": "Jabatan dan entri"
+         }
+        },
+        {
+         "en": "Magang, bagian operasional → Operations Intern (not Operations Analyst) — Experience. Bendahara HIMA → Treasurer, Management Students’ Association (not Finance Manager) — Experience, replacing “Member” in Volunteer; a one-line “Member, Sep 2023 – Jul 2024” entry can stay for the year before. Kepala Divisi Sponsorship → Head of Sponsorship, 2025 National Business Competition (not Business Development Manager) — Experience. Barista → Barista (part-time) (not Customer Experience Specialist) — Experience, with months added: Mar 2024 – May 2025. KKN → the financial-literacy workshop — Projects, with the thesis. The two entries: the bank internship (Jun 2025 – Aug 2025 exactly; 3 branches; the Tembalang terminal error; the checklist still in use; context: which department, who she reported to) and the treasurer entry from Lesson 5.3 (158 words; 300 members, 12 events, Rp 120 juta, zero issues first in 3 years). The most common loss here is the internship end date drifting to September — the CV says August.",
+         "id": "Magang, bagian operasional → Operations Intern (bukan Operations Analyst) — Experience. Bendahara HIMA → Treasurer, Management Students’ Association (bukan Finance Manager) — Experience, menggantikan “Member” di Volunteer; entri satu baris “Member, Sep 2023 – Jul 2024” boleh tetap untuk tahun sebelumnya. Kepala Divisi Sponsorship → Head of Sponsorship, Kompetisi Bisnis Nasional 2025 (bukan Business Development Manager) — Experience. Barista → Barista (part-time) (bukan Customer Experience Specialist) — Experience, dengan bulan ditambahkan: Mar 2024 – Mei 2025. KKN → lokakarya literasi keuangan — Projects, bersama skripsi. Dua entrinya: magang bank (Jun 2025 – Agu 2025 persis; 3 cabang; kesalahan terminal Tembalang; daftar periksa yang masih dipakai; konteks: departemen mana, kepada siapa ia melapor) dan entri bendahara dari Pelajaran 5.3 (158 kata; 300 anggota, 12 acara, Rp 120 juta, nol masalah pertama dalam 3 tahun). Kehilangan paling umum di sini adalah tanggal akhir magang yang bergeser ke September — CV menyebut Agustus."
+        },
+        {
+         "h": {
+          "en": "Skills",
+          "id": "Keterampilan"
+         }
+        },
+        {
+         "en": "Pinned: Supply Chain Management · Operations Management · Microsoft Excel — the recruiter’s filter, verbatim. Then: Financial Reconciliation, Budgeting, Financial Reporting, Sponsorship, Negotiation, Inventory Management, Customer Service, Data Analysis, Google Sheets, Event Management, Team Leadership, Stakeholder Management, Cash Handling, Process Improvement, Bookkeeping, Logistics, Project Management, Public Speaking, Communication, Teamwork, Time Management, Canva. Dropped: Microsoft Word — it matches no target search and signals the wrong level. Kept from the original seven: Communication, Teamwork, Public Speaking, Leadership (as Team Leadership), Time Management, Canva — true, harmless, unpinned.",
+         "id": "Disematkan: Supply Chain Management · Operations Management · Microsoft Excel — filter rekruter, kata demi kata. Lalu: Financial Reconciliation, Budgeting, Financial Reporting, Sponsorship, Negotiation, Inventory Management, Customer Service, Data Analysis, Google Sheets, Event Management, Team Leadership, Stakeholder Management, Cash Handling, Process Improvement, Bookkeeping, Logistics, Project Management, Public Speaking, Communication, Teamwork, Time Management, Canva. Dibuang: Microsoft Word — tidak cocok dengan pencarian sasaran mana pun dan menandakan level yang salah. Dipertahankan dari tujuh yang asli: Communication, Teamwork, Public Speaking, Leadership (sebagai Team Leadership), Time Management, Canva — benar, tidak merugikan, tidak disematkan."
+        },
+        {
+         "h": {
+          "en": "Connection notes",
+          "id": "Catatan koneksi"
+         }
+        },
+        {
+         "en": "To Kak Rina — the Lesson 5.4 note (184 characters): same campus, her post on the rotation, “izin terhubung”, thanks. To Bu Dewi — the recruiter note (196 characters): Bapak/Ibu register, the Business Operations process Nadia is following, one specific thing from Bu Dewi’s selection-update posts, no request. Both are about them; neither mentions a job, a CV or an IPK. The six-point message to Kak Rina (Module 2) is sent two weeks after she accepts, not in the note.",
+         "id": "Ke Kak Rina — catatan Pelajaran 5.4 (184 karakter): kampus yang sama, postingannya tentang rotasi, “izin terhubung”, terima kasih. Ke Bu Dewi — catatan rekruter (196 karakter): register Bapak/Ibu, proses Business Operations yang diikuti Nadia, satu hal spesifik dari postingan pembaruan seleksi Bu Dewi, tanpa permintaan. Keduanya tentang mereka; tidak satu pun menyebut pekerjaan, CV, atau IPK. Pesan enam poin ke Kak Rina (Modul 2) dikirim dua minggu setelah ia menerima, bukan di catatannya."
+        },
+        {
+         "h": {
+          "en": "Settings",
+          "id": "Pengaturan"
+         }
+        },
+        {
+         "en": "URL → linkedin.com/in/nadiaputri, copied to the CV and email signature. Location → Greater Semarang, with open-to-relocate to Jakarta. Industry → Consumer Goods (or Banking) — the target’s, not the café’s. Open to work → on and public (she is not employed): Management Trainee, Operations Associate, Officer Development Program; Central Java and Jakarta. CV → uploaded privately in job preferences; not posted on the profile. Secondary profile → Bahasa Indonesia, with English primary and English titles in both. Notifications → off for the editing session, on after the first post. Photo → reshoot by a window in batik; banner → plain dark blue with “Operations &amp; Supply Chain · Management Trainee candidate”. Education → S1 Manajemen, Universitas X, Aug 2022 – Aug 2026, IPK 3,38, thesis title, three relevant courses. Contact → the About email.",
+         "id": "URL → linkedin.com/in/nadiaputri, disalin ke CV dan tanda tangan email. Lokasi → Semarang Raya, dengan bersedia pindah ke Jakarta. Industri → Consumer Goods (atau Banking) — milik sasaran, bukan kafe. Open to work → hidup dan publik (ia belum bekerja): Management Trainee, Operations Associate, Officer Development Program; Jawa Tengah dan Jakarta. CV → diunggah privat di preferensi kerja; tidak diposting di profil. Profil kedua → Bahasa Indonesia, dengan Inggris utama dan jabatan Inggris di keduanya. Notifikasi → mati selama sesi penyuntingan, hidup setelah postingan pertama. Foto → foto ulang di dekat jendela berbatik; banner → biru tua polos dengan “Operations &amp; Supply Chain · Management Trainee candidate”. Pendidikan → S1 Manajemen, Universitas X, Agu 2022 – Agu 2026, IPK 3,38, judul skripsi, tiga mata kuliah relevan. Kontak → email About."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If any of your titles would surprise Nadia’s supervisor, it is inflated. If any number differs from the CV tab, the screener finds it. If a connection note asks for anything, it is a Module 2 message in the wrong place.",
+        "id": "Bandingkan, jangan salin. Jika ada jabatanmu yang akan mengejutkan pembimbing Nadia, itu digelembungkan. Jika ada angka yang berbeda dari tab CV, penyaring menemukannya. Jika ada catatan koneksi yang meminta sesuatu, itu pesan Modul 2 di tempat yang salah."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your eight answers as the two readers would — the recruiter’s search first, then the screener’s side-by-side. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca kedelapan jawabanmu seperti kedua pembaca — pencarian rekruter dulu, lalu pemeriksaan berdampingan penyaring. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run the same seven steps on your own profile this week.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan tujuh langkah yang sama pada profilmu sendiri minggu ini."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A headline that names no target",
+         "id": "Headline yang tidak menyebut sasaran"
+        },
+        "fix": {
+         "en": "Target title + “candidate” + one proof in the first seventy characters.",
+         "id": "Jabatan sasaran + “candidate” + satu bukti di tujuh puluh karakter pertama."
+        }
+       },
+       {
+        "h": {
+         "en": "An About that opens with “fresh graduate”",
+         "id": "About yang dibuka dengan “fresh graduate”"
+        },
+        "fix": {
+         "en": "A hook about work, then the CV’s numbers.",
+         "id": "Kail tentang pekerjaan, lalu angka-angka CV."
+        }
+       },
+       {
+        "h": {
+         "en": "Treasurer promoted to Finance Manager",
+         "id": "Bendahara dipromosikan menjadi Finance Manager"
+        },
+        "fix": {
+         "en": "The searchable equivalent the supervisor would recognise.",
+         "id": "Padanan yang bisa dicari yang akan dikenali pembimbing."
+        }
+       },
+       {
+        "h": {
+         "en": "A connection note that asks about openings",
+         "id": "Catatan koneksi yang menanyakan lowongan"
+        },
+        "fix": {
+         "en": "Who, shared context, light reason, thanks — the ask is two weeks later.",
+         "id": "Siapa, konteks bersama, alasan ringan, terima kasih — permintaannya dua minggu kemudian."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Makeover",
+        "id": "Perombakan"
+       },
+       "def": {
+        "en": "The full pass over a profile from the brief to the settings — top, evidence, skills, notes, settings.",
+        "id": "Satu putaran penuh atas profil dari arahan sampai pengaturan — bagian atas, bukti, keterampilan, catatan, pengaturan."
+       }
+      },
+      {
+       "term": {
+        "en": "Side-by-side check",
+        "id": "Pemeriksaan berdampingan"
+       },
+       "def": {
+        "en": "The screener’s reading of LinkedIn next to the CV; titles, dates and numbers must agree.",
+        "id": "Pembacaan penyaring atas LinkedIn di samping CV; jabatan, tanggal, dan angka harus sepakat."
+       }
+      },
+      {
+       "term": {
+        "en": "Skills filter",
+        "id": "Filter keterampilan"
+       },
+       "def": {
+        "en": "The named skills a recruiter filters a search by — the three to pin, verbatim.",
+        "id": "Keterampilan bernama yang dipakai rekruter menyaring pencarian — tiga yang disematkan, kata demi kata."
+       }
+      },
+      {
+       "term": {
+        "en": "Swap headline",
+        "id": "Headline pengganti"
+       },
+       "def": {
+        "en": "The runner-up headline kept for A/B testing if search appearances show the wrong roles.",
+        "id": "Headline peringkat kedua yang disimpan untuk uji A/B jika kemunculan pencarian menunjukkan peran yang salah."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Nadia’s HIMA year is listed under Volunteer as “Member, 2023 – 2025”. The CV says Treasurer, Aug 2024 – Jul 2025. The fix is…",
+        "id": "Tahun HIMA Nadia tercantum di Volunteer sebagai “Member, 2023 – 2025”. CV menyebut Treasurer, Agu 2024 – Jul 2025. Perbaikannya adalah…"
+       },
+       "options": [
+        {
+         "en": "Leave it — Member is modest",
+         "id": "Biarkan — Member itu rendah hati"
+        },
+        {
+         "en": "Treasurer, in Experience, with the CV’s months and numbers",
+         "id": "Treasurer, di Experience, dengan bulan dan angka dari CV"
+        },
+        {
+         "en": "Finance Manager, in Experience",
+         "id": "Finance Manager, di Experience"
+        },
+        {
+         "en": "Delete it",
+         "id": "Hapus"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Under-claimed, unsearchable and inconsistent; the real role, in the section the search reads, matching the CV.",
+        "id": "Diklaim terlalu rendah, tidak bisa dicari, dan tidak konsisten; peran sebenarnya, di bagian yang dibaca pencarian, sesuai CV."
+       }
+      },
+      {
+       "q": {
+        "en": "Which three skills should Nadia pin?",
+        "id": "Tiga keterampilan mana yang sebaiknya disematkan Nadia?"
+       },
+       "options": [
+        {
+         "en": "Her three most-endorsed: Communication, Teamwork, Microsoft Word",
+         "id": "Tiga yang paling banyak didukung: Communication, Teamwork, Microsoft Word"
+        },
+        {
+         "en": "The recruiter’s filter: Supply Chain Management, Operations Management, Microsoft Excel",
+         "id": "Filter rekruter: Supply Chain Management, Operations Management, Microsoft Excel"
+        },
+        {
+         "en": "Public Speaking, Leadership, Canva",
+         "id": "Public Speaking, Leadership, Canva"
+        },
+        {
+         "en": "None — pinning is optional",
+         "id": "Tidak ada — menyematkan itu opsional"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The pinned three are what the first pass and the skills filter read; they are the target’s words.",
+        "id": "Tiga yang disematkan adalah yang dibaca tahap pertama dan filter keterampilan; itu kata-kata sasaran."
+       }
+      },
+      {
+       "q": {
+        "en": "The note to Bu Dewi, the KilatPay recruiter, should…",
+        "id": "Catatan ke Bu Dewi, rekruter KilatPay, sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Ask whether there are openings",
+         "id": "Menanyakan apakah ada lowongan"
+        },
+        {
+         "en": "Name the process Nadia is following and one useful thing Bu Dewi posted, in Bapak/Ibu register, with no request",
+         "id": "Menyebut proses yang diikuti Nadia dan satu hal berguna yang diposting Bu Dewi, dalam register Bapak/Ibu, tanpa permintaan"
+        },
+        {
+         "en": "Attach the CV",
+         "id": "Melampirkan CV"
+        },
+        {
+         "en": "Use “Kak” to sound friendly",
+         "id": "Memakai “Kak” agar terdengar ramah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Easy to accept; the register fits a senior stranger; the ask comes later, if at all.",
+        "id": "Mudah diterima; registernya cocok untuk orang senior yang asing; permintaannya datang nanti, jika pun ada."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "linkedin",
+      "title": {
+       "en": "Now your own makeover",
+       "id": "Kini perombakanmu sendiri"
+      },
+      "body": {
+       "en": "Run the same seven steps on your own profile in the LinkedIn studio this week — brief, headline A/B/C, About, translation table and two entries, twenty-five skills with three pinned, two notes, settings — and check every fact against the CV studio. That completes the Dossier for this module: brief, headlines, About, translation table, 30-day plan.",
+       "id": "Jalankan tujuh langkah yang sama pada profilmu sendiri di studio LinkedIn minggu ini — arahan, headline A/B/C, About, tabel terjemahan dan dua entri, dua puluh lima keterampilan dengan tiga disematkan, dua catatan, pengaturan — dan periksa setiap fakta terhadap studio CV. Itu melengkapi Dossier untuk modul ini: arahan, headline, About, tabel terjemahan, rencana 30 hari."
+      },
+      "cta": {
+       "en": "Open the LinkedIn studio →",
+       "id": "Buka studio LinkedIn →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The recruiter’s search words go in the headline, the titles and the pinned skills.",
+       "id": "Kata pencarian rekruter masuk ke headline, jabatan, dan keterampilan yang disematkan."
+      },
+      {
+       "en": "Every fact is the CV’s fact; every title is one the supervisor would recognise.",
+       "id": "Setiap fakta adalah fakta CV; setiap jabatan adalah yang akan dikenali pembimbing."
+      },
+      {
+       "en": "Connect with a note that asks for nothing; ask two weeks later.",
+       "id": "Terhubung dengan catatan yang tidak meminta apa pun; minta dua minggu kemudian."
+      }
+     ],
+     "journey": {
+      "before": {
+       "label": {
+        "en": "Lessons 5.1–5.4",
+        "id": "Pelajaran 5.1–5.4"
+       },
+       "desc": {
+        "en": "How recruiters find you, the profile top, evidence for thin histories, presence and engagement.",
+        "id": "Bagaimana rekruter menemukanmu, bagian atas profil, bukti untuk riwayat tipis, kehadiran dan keterlibatan."
+       }
+      },
+      "now": {
+       "label": {
+        "en": "5.5 · Nadia’s Profile Makeover",
+        "id": "5.5 · Perombakan Profil Nadia"
+       },
+       "desc": {
+        "en": "You have taken a profile from invisible to page one without adding a single fact.",
+        "id": "Kamu sudah membawa profil dari tak terlihat ke halaman satu tanpa menambah satu fakta pun."
+       }
+      },
+      "next": {
+       "label": {
+        "en": "Module 6 · Cover Letters &amp; Application Writing",
+        "id": "Modul 6 · Surat Lamaran &amp; Penulisan Aplikasi"
+       },
+       "desc": {
+        "en": "The letter that goes with the CV the profile just verified — four paragraphs, and the Indonesian surat lamaran.",
+        "id": "Surat yang menyertai CV yang baru diverifikasi profil — empat paragraf, dan surat lamaran Indonesia."
+       },
+       "lesson": "6.1"
+      }
      }
     }
    ],
