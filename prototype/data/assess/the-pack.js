@@ -2782,129 +2782,386 @@ window.MT_ASSESS['the-pack'] = {
   }
  },
  "8": {
-  "mcq": [
+  "minutes": 12,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "The ownership rule for AI-assisted applications states:",
-     "id": "Aturan kepemilikan untuk lamaran yang dibantu AI menyatakan:"
+    "lesson": "8.1",
+    "h": {
+     "en": "What AI Does Well — and Dangerously Badly",
+     "id": "Apa yang Dilakukan AI dengan Baik — dan Berbahaya"
     },
-    "opts": [
-     {
-      "en": "AI output can be submitted as-is if it reads well",
-      "id": "Keluaran AI boleh dikirim apa adanya kalau sudah enak dibaca"
-     },
-     {
-      "en": "Facts flow only from you to the tool; every output is edited and verified before your name signs it",
-      "id": "Fakta hanya mengalir darimu ke alat; setiap keluaran disunting dan diverifikasi sebelum namamu tercantum di bawahnya"
-     },
-     {
-      "en": "AI use must always be disclosed everywhere",
-      "id": "Penggunaan AI harus selalu diungkapkan di mana pun"
-     },
-     {
-      "en": "Only paid AI tools are trustworthy",
-      "id": "Hanya alat AI berbayar yang bisa dipercaya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The AI never introduces an achievement, number or title you did not give it. Everything submitted under your name is your claim — the honesty rule unchanged.",
-     "id": "AI tidak pernah boleh menambahkan prestasi, angka, atau jabatan yang tidak kamu berikan. Semua yang dikirim atas namamu adalah klaimmu — aturan kejujurannya tidak berubah."
+    "sub": {
+     "en": "Stylist not ghostwriter, the five failure modes, honesty as the hard rule, confidentiality.",
+     "id": "Penata gaya bukan penulis bayangan, lima mode kegagalan, kejujuran sebagai aturan keras, kerahasiaan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "An AI rewrite upgraded 'tracked expenses in a spreadsheet' to 'managed a Rp 50m budget'. You:",
-     "id": "Hasil tulis ulang AI menaikkan 'mencatat pengeluaran di spreadsheet' menjadi 'mengelola anggaran Rp 50 juta'. Yang kamu lakukan:"
+    "lesson": "8.2",
+    "h": {
+     "en": "The Co-Writer Protocol",
+     "id": "Protokol Penulis Pendamping"
     },
-    "opts": [
-     {
-      "en": "Keep it — it sounds stronger",
-      "id": "Pertahankan — terdengar lebih kuat"
-     },
-     {
-      "en": "Delete the hallucinated authority and restate the true scope: 'tracked Rp 50m of project expenses'",
-      "id": "Hapus wewenang yang dikarang itu dan tulis lingkup yang sebenarnya: 'mencatat pengeluaran proyek senilai Rp 50 juta'"
-     },
-     {
-      "en": "Keep it but prepare an interview explanation",
-      "id": "Pertahankan, tapi siapkan penjelasannya untuk wawancara"
-     },
-     {
-      "en": "Remove the line entirely to be safe",
-      "id": "Hapus barisnya sama sekali supaya aman"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "'Managed' claims authority you did not hold — one reference check from disqualification. The true version, precisely framed, is still a strong line.",
-     "id": "'Mengelola' mengklaim wewenang yang tidak pernah kamu pegang — satu pemeriksaan referensi saja cukup untuk menggugurkanmu. Versi yang benar, dibingkai dengan tepat, tetap menjadi baris yang kuat."
+    "sub": {
+     "en": "The seven-part anatomy, the guardrail, eight prompt types, the worked session.",
+     "id": "Anatomi tujuh bagian, pagar pengaman, delapan jenis prompt, sesi yang dikerjakan."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "Commercial 'ATS compatibility scores' should be read as:",
-     "id": "'Skor kompatibilitas ATS' dari alat komersial sebaiknya dibaca sebagai:"
+    "lesson": "8.3",
+    "h": {
+     "en": "Verify, Personalise, Own",
+     "id": "Verifikasi, Personalisasi, Miliki"
     },
-    "opts": [
-     {
-      "en": "Precise predictions of your outcome",
-      "id": "Prediksi yang tepat tentang hasilmu"
-     },
-     {
-      "en": "Directional linting against a generic model — no tool knows any employer's actual configuration",
-      "id": "Pemeriksaan arah terhadap model generik — tidak ada alat yang tahu konfigurasi sebenarnya di perusahaan mana pun"
-     },
-     {
-      "en": "Marketing with zero information",
-      "id": "Pemasaran tanpa informasi apa pun"
-     },
-     {
-      "en": "Official industry certifications",
-      "id": "Sertifikasi resmi dari industri"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "They check parsing hygiene and keyword overlap — useful direction. '87% match' against an unknown configuration is an estimate, not a promise.",
-     "id": "Alat-alat itu memeriksa kebersihan pembacaan mesin dan tumpang tindih kata kunci — arah yang berguna. '87% cocok' terhadap konfigurasi yang tidak diketahui adalah taksiran, bukan janji."
+    "sub": {
+     "en": "The seven-line checklist, the two-minute test, personalisation, disclosure.",
+     "id": "Daftar periksa tujuh baris, uji dua menit, personalisasi, pengungkapan."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "An AI research brief says the company 'recently expanded to Vietnam'. Before citing it in your letter:",
-     "id": "Ringkasan riset dari AI menyebut perusahaan itu 'baru saja berekspansi ke Vietnam'. Sebelum mengutipnya di suratmu:"
+    "lesson": "8.4",
+    "h": {
+     "en": "AI for Research and Rehearsal",
+     "id": "AI untuk Riset dan Latihan"
     },
-    "opts": [
-     {
-      "en": "Cite it — AI research is usually right",
-      "id": "Kutip saja — riset AI biasanya benar"
-     },
-     {
-      "en": "Verify at the source; cite only what you confirmed",
-      "id": "Verifikasi ke sumbernya; kutip hanya yang sudah kamu pastikan"
-     },
-     {
-      "en": "Soften it to 'I heard you may be expanding'",
-      "id": "Lunakkan menjadi 'saya dengar perusahaan Bapak/Ibu mungkin sedang berekspansi'"
-     },
-     {
-      "en": "Ask the AI to double-check itself",
-      "id": "Minta AI memeriksa ulang jawabannya sendiri"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "One hallucinated fact in a letter reveals unchecked delegation and sinks the application. The AI drew the map; the sources are the territory.",
-     "id": "Satu fakta karangan dalam surat lamaran membongkar bahwa kamu mendelegasikan tanpa memeriksa, dan itu menenggelamkan lamaranmu. AI menggambar petanya; sumber aslinya adalah wilayah yang sebenarnya."
+    "sub": {
+     "en": "Leads not facts, ATS scores as calibration, rehearsal for structure, the hallucination hunt.",
+     "id": "Petunjuk bukan fakta, skor ATS sebagai kalibrasi, latihan untuk struktur, perburuan halusinasi."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "8.1",
+    "q": {
+     "en": "The Pack’s framing of AI in a job search is…",
+     "id": "Pembingkaian The Pack atas AI dalam pencarian kerja adalah…"
+    },
+    "opts": [
+     {
+      "en": "Ghostwriter — it writes the application for you",
+      "id": "Penulis bayangan — ia menulis lamaran untukmu"
+     },
+     {
+      "en": "Stylist, not ghostwriter — it polishes your true story and never adds a fact",
+      "id": "Penata gaya, bukan penulis bayangan — ia memoles cerita nyatamu dan tidak pernah menambah fakta"
+     },
+     {
+      "en": "Not to be used at all",
+      "id": "Tidak dipakai sama sekali"
+     },
+     {
+      "en": "A replacement for The Rope",
+      "id": "Pengganti The Rope"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Everything it does well starts from material you supply; every fact comes from you.",
+     "id": "Semua yang dilakukannya dengan baik dimulai dari bahan yang kamu berikan; setiap fakta berasal darimu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.1",
+    "q": {
+     "en": "An AI rewrite of your internship bullet adds “driving a 40% efficiency uplift”. You measured nothing. You should…",
+     "id": "Tulisan ulang AI atas butir magangmu menambah “mendorong peningkatan efisiensi 40%”. Kamu tidak mengukur apa pun. Kamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Keep it — recruiters like numbers",
+      "id": "Pertahankan — rekruter suka angka"
+     },
+     {
+      "en": "Delete it, or replace it with the figure you can actually evidence",
+      "id": "Hapus, atau ganti dengan angka yang benar-benar bisa kamu buktikan"
+     },
+     {
+      "en": "Change it to 35% to be safe",
+      "id": "Ubah ke 35% agar aman"
+     },
+     {
+      "en": "Keep it and prepare an explanation",
+      "id": "Pertahankan dan siapkan penjelasan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "An unmeasured number is an invented one, and it meets a five-minute question at interview.",
+     "id": "Angka yang tidak diukur adalah angka yang dikarang, dan bertemu pertanyaan lima menit saat wawancara."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.1",
+    "q": {
+     "en": "To “extract achievements”, a friend suggests pasting the bank’s daily reconciliation spreadsheet from your internship into a public AI tool. This is…",
+     "id": "Untuk “mengekstrak pencapaian”, seorang teman menyarankan menempel spreadsheet rekonsiliasi harian bank dari magangmu ke alat AI publik. Ini…"
+    },
+    "opts": [
+     {
+      "en": "Efficient",
+      "id": "Efisien"
+     },
+     {
+      "en": "A confidentiality breach — only your own notes, the public advertisement and your own CV text go in",
+      "id": "Pelanggaran kerahasiaan — hanya catatanmu sendiri, iklan publik, dan teks CV-mu sendiri yang masuk"
+     },
+     {
+      "en": "Fine if you delete the chat afterwards",
+      "id": "Tidak apa-apa jika kamu menghapus obrolannya setelahnya"
+     },
+     {
+      "en": "Fine if the tool is paid",
+      "id": "Tidak apa-apa jika alatnya berbayar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Employer files, colleagues’ data and ID numbers never go into a public tool.",
+     "id": "Berkas perusahaan, data rekan, dan nomor identitas tidak pernah masuk ke alat publik."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.2",
+    "q": {
+     "en": "Which part of the seven-part anatomy stops invented numbers, titles and tools?",
+     "id": "Bagian mana dari anatomi tujuh bagian yang menghentikan angka, jabatan, dan alat karangan?"
+    },
+    "opts": [
+     {
+      "en": "The style anchor",
+      "id": "Jangkar gaya"
+     },
+     {
+      "en": "The guardrail — “Use only facts I provided … mark anything uncertain with [CHECK]”",
+      "id": "Pagar pengaman — “Pakai hanya fakta yang saya berikan … tandai apa pun yang tidak pasti dengan [CHECK]”"
+     },
+     {
+      "en": "The task",
+      "id": "Tugas"
+     },
+     {
+      "en": "The constraints",
+      "id": "Batasan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It makes invention visible so the checklist can remove it.",
+     "id": "Ia membuat karangan terlihat agar daftar periksa bisa menghapusnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.2",
+    "q": {
+     "en": "You use the letter-skeleton prompt. The output writes paragraph 3 (“why them”) with two company initiatives you have never read about. The lesson says…",
+     "id": "Kamu memakai prompt kerangka surat. Keluarannya menulis paragraf 3 (“mengapa mereka”) dengan dua inisiatif perusahaan yang belum pernah kamu baca. Pelajaran ini mengatakan…"
+    },
+    "opts": [
+     {
+      "en": "Use them — they sound plausible",
+      "id": "Pakai — terdengar masuk akal"
+     },
+     {
+      "en": "Paragraph 3 should have been left as [TO WRITE MYSELF]; verify at source or replace with what you know",
+      "id": "Paragraf 3 seharusnya dibiarkan sebagai [TULIS SENDIRI]; verifikasi di sumber atau ganti dengan yang kamu tahu"
+     },
+     {
+      "en": "Ask the AI to confirm them",
+      "id": "Minta AI mengonfirmasinya"
+     },
+     {
+      "en": "Delete the whole letter",
+      "id": "Hapus seluruh surat"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "“Why them” must be verified and personal — the tool can know neither.",
+     "id": "“Mengapa mereka” harus diverifikasi dan personal — alat tidak bisa tahu keduanya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.3",
+    "q": {
+     "en": "The two-minute test asks…",
+     "id": "Uji dua menit bertanya…"
+    },
+    "opts": [
+     {
+      "en": "Whether the AI answered in under two minutes",
+      "id": "Apakah AI menjawab dalam kurang dari dua menit"
+     },
+     {
+      "en": "Whether you could talk about this line for two minutes at interview",
+      "id": "Apakah kamu bisa membicarakan baris ini selama dua menit saat wawancara"
+     },
+     {
+      "en": "Whether the CV can be read in two minutes",
+      "id": "Apakah CV bisa dibaca dalam dua menit"
+     },
+     {
+      "en": "Whether you proofread twice",
+      "id": "Apakah kamu memeriksa dua kali"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It catches true facts you cannot defend — the claim must be the size of what you can say.",
+     "id": "Ia menangkap fakta benar yang tidak bisa kamu pertahankan — klaim harus seukuran apa yang bisa kamu katakan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.3",
+    "q": {
+     "en": "An AI-drafted About says you have “advanced SQL proficiency”. You are on module 2 of a 6-module course. The honest line is…",
+     "id": "About yang disusun AI menyebut kamu punya “kemahiran SQL lanjutan”. Kamu di modul 2 dari kursus 6 modul. Baris jujurnya adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Advanced SQL” — the course exists",
+      "id": "“SQL lanjutan” — kursusnya ada"
+     },
+     {
+      "en": "“Currently completing SQL fundamentals (module 2 of 6)”",
+      "id": "“Sedang menyelesaikan dasar-dasar SQL (modul 2 dari 6)”"
+     },
+     {
+      "en": "Remove SQL entirely",
+      "id": "Hapus SQL sepenuhnya"
+     },
+     {
+      "en": "“SQL (self-taught)”",
+      "id": "“SQL (otodidak)”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "True, dated, and exactly two minutes long — the Module 4 honest close.",
+     "id": "Benar, bertanggal, dan persis dua menit panjangnya — penutup jujur Modul 4."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.4",
+    "q": {
+     "en": "An AI brief says your target employer “expanded into Vietnam last year”. Before it goes into a letter, you must…",
+     "id": "Brief AI menyebut perusahaan sasaranmu “berekspansi ke Vietnam tahun lalu”. Sebelum masuk ke surat, kamu harus…"
+    },
+    "opts": [
+     {
+      "en": "Use it — briefs are usually right",
+      "id": "Pakai — brief biasanya benar"
+     },
+     {
+      "en": "Verify it on the company’s own site or in cited news under twelve months old, and open the source",
+      "id": "Verifikasi di situs perusahaan sendiri atau berita bersumber di bawah dua belas bulan, dan buka sumbernya"
+     },
+     {
+      "en": "Add “I understand that”",
+      "id": "Tambahkan “saya memahami bahwa”"
+     },
+     {
+      "en": "Mention it in the interview instead",
+      "id": "Sebutkan di wawancara saja"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A brief is a list of leads; an unverifiable lead is discarded, however plausible.",
+     "id": "Brief adalah daftar petunjuk; petunjuk yang tidak bisa diverifikasi dibuang, sebagaimanapun masuk akalnya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "8.4",
+    "q": {
+     "en": "A commercial tool scores your CV at 62% and suggests adding “agile methodology” and “KPI tracking”, neither of which the advertisement mentions or you have done. You should…",
+     "id": "Alat komersial memberi skor CV-mu 62% dan menyarankan menambah “agile methodology” dan “KPI tracking”, yang tidak disebut iklan dan tidak pernah kamu lakukan. Kamu sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Add both to reach 80%",
+      "id": "Tambahkan keduanya untuk mencapai 80%"
+     },
+     {
+      "en": "Ignore them; check coverage against the actual advertisement and add exact forms only where you have evidence",
+      "id": "Abaikan; periksa cakupan terhadap iklan sebenarnya dan tambah bentuk persis hanya bila kamu punya bukti"
+     },
+     {
+      "en": "Add them to the skills section only",
+      "id": "Tambahkan hanya ke bagian keterampilan"
+     },
+     {
+      "en": "Withdraw the application",
+      "id": "Tarik lamaran"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The score measures a generic model; the transparent check measures the advertisement.",
+     "id": "Skor mengukur model generik; pemeriksaan transparan mengukur iklannya."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "8.4",
+    "q": {
+     "en": "AI rehearsal before an interview is best used for…",
+     "id": "Latihan AI sebelum wawancara paling baik dipakai untuk…"
+    },
+    "opts": [
+     {
+      "en": "Judging your presence and eye contact",
+      "id": "Menilai kehadiran dan kontak matamu"
+     },
+     {
+      "en": "Practising the structure and evidence of answers, one question at a time — before The Rope",
+      "id": "Melatih struktur dan bukti jawaban, satu pertanyaan sekaligus — sebelum The Rope"
+     },
+     {
+      "en": "Learning exactly how this employer’s panel interviews",
+      "id": "Mempelajari persis cara panel perusahaan ini mewawancarai"
+     },
+     {
+      "en": "Checking whether your stories are true",
+      "id": "Memeriksa apakah ceritamu benar"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "It judges shape, not truth or presence; the rest is The Rope’s.",
+     "id": "Ia menilai bentuk, bukan kebenaran atau kehadiran; sisanya milik The Rope."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Where did AI save you time in this module, and where did it cost you accuracy? Name one output you kept (which prompt type, what it did well) and one you had to correct (which checklist line caught it, what the tool had invented or inflated). Then write the one constraint you will add to your prompts because of it.",
+    "id": "Minimal 100 kata. Di mana AI menghemat waktumu di modul ini, dan di mana ia merugikan akurasimu? Sebutkan satu keluaran yang kamu pertahankan (jenis prompt mana, apa yang dilakukannya dengan baik) dan satu yang harus kamu koreksi (baris daftar periksa mana yang menangkapnya, apa yang dikarang atau digelembungkan alat). Lalu tulis satu batasan yang akan kamu tambahkan ke prompt-mu karenanya."
+   },
+   "guide": [
+    {
+     "en": "Quote the line the tool produced and the line you replaced it with.",
+     "id": "Kutip baris yang dihasilkan alat dan baris yang kamu gantikan."
+    },
+    {
+     "en": "Name the checklist line by number (1–7) and the failure mode by name.",
+     "id": "Sebutkan baris daftar periksa berdasarkan nomor (1–7) dan mode kegagalan berdasarkan nama."
+    },
+    {
+     "en": "If you did not use AI at all, say which of the eight prompt types you would try first and why.",
+     "id": "Jika kamu tidak memakai AI sama sekali, katakan jenis prompt mana dari delapan yang akan kamu coba pertama dan mengapa."
+    }
+   ],
+   "min": 100
+  }
  },
  "9": {
   "mcq": [

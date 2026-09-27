@@ -35022,500 +35022,661 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "8.1",
-     "title": {
-      "en": "Introduction to AI Application Tools — What They Can and Cannot Do",
-      "id": "Pengantar Alat Lamaran AI — Apa yang Bisa dan Tidak Bisa Dilakukannya"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "What AI Does Well — and Dangerously Badly",
+      "id": "Apa yang Dilakukan AI dengan Baik — dan Berbahaya"
+     },
      "overview": {
-      "en": "AI tools have changed application work on both sides of the funnel: candidates draft with them, employers screen with them. This lesson maps what current tools genuinely do well, where they fail dangerously, and the disclosure-and-honesty rules that keep AI an advantage instead of a liability.",
-      "id": "Alat AI sudah mengubah cara kerja lamaran di kedua sisi corong: kandidat menyusun draf dengannya, perusahaan menyaring dengannya. Pelajaran ini memetakan apa yang benar-benar dikerjakan dengan baik oleh alat-alat yang ada sekarang, di mana mereka gagal secara berbahaya, dan aturan keterbukaan serta kejujuran yang menjaga AI tetap menjadi keunggulan, bukan beban."
+      "en": "Every learner now uses generative AI for applications. Used well, it saves hours; used badly, it produces generic, inflated text that recruiters recognise instantly — and occasionally invents facts that end candidacies. This lesson draws the line: AI as a stylist who polishes your true story, never a ghostwriter who invents one; the five failure modes; why honesty is the hard rule; and what must never be pasted into a public tool.",
+      "id": "Setiap pembelajar kini memakai AI generatif untuk lamaran. Dipakai dengan baik, AI menghemat berjam-jam; dipakai dengan buruk, AI menghasilkan teks generik dan menggelembung yang langsung dikenali rekruter — dan sesekali mengarang fakta yang mengakhiri pencalonan. Pelajaran ini menarik garisnya: AI sebagai penata gaya yang memoles cerita nyatamu, bukan penulis bayangan yang mengarangnya; lima mode kegagalan; mengapa kejujuran adalah aturan keras; dan apa yang tidak boleh ditempel ke alat publik."
      },
      "objectives": [
       {
-       "en": "Map the AI application toolscape: drafting, tailoring, scoring, research.",
-       "id": "Memetakan lanskap alat AI untuk lamaran: menyusun draf, menyesuaikan, menilai, riset."
+       "en": "Describe what AI does well and badly in a job search.",
+       "id": "Menggambarkan apa yang dilakukan AI dengan baik dan buruk dalam pencarian kerja."
       },
       {
-       "en": "Name the three failure modes: hallucinated facts, generic sludge, and false confidence.",
-       "id": "Menyebutkan tiga bentuk kegagalannya: fakta yang dikarang, teks generik yang hambar, dan rasa percaya diri yang keliru."
+       "en": "Name the five failure modes and recognise each in an output.",
+       "id": "Menyebutkan lima mode kegagalan dan mengenali masing-masing dalam keluaran."
       },
       {
-       "en": "Apply the ownership rule: AI drafts, you verify and decide — your name signs everything.",
-       "id": "Menerapkan aturan kepemilikan: AI menyusun draf, kamu memverifikasi dan memutuskan — namamulah yang tertera di semua dokumen."
+       "en": "State The Pack’s rule — AI never adds a fact — and the confidentiality line.",
+       "id": "Menyatakan aturan The Pack — AI tidak pernah menambah fakta — dan garis kerahasiaan."
       }
      ],
-     "takeawaysLead": {
-      "en": "AI is a strong drafting assistant and a weak biographer. To keep it an advantage rather than a liability, you can:",
-      "id": "AI adalah asisten penyusun draf yang kuat dan penulis biografi yang lemah. Agar tetap menjadi keunggulan alih-alih beban, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Stylist, not ghostwriter",
+       "id": "Penata gaya, bukan penulis bayangan"
+      },
+      "intro": {
+       "en": "This module comes after the documents were learned by hand, because you cannot judge an AI-written bullet until you can write a good one yourself.",
+       "id": "Modul ini datang setelah dokumen dipelajari dengan tangan, karena kamu tidak bisa menilai butir yang ditulis AI sampai kamu bisa menulis butir yang baik sendiri."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What it does well",
+         "id": "Yang dilakukannya dengan baik"
+        },
+        "points": [
+         {
+          "en": "Turns rough notes into clean sentences; makes many variants fast; fits character limits; extracts keywords; suggests structure; reframes for an audience; plays interviewer.",
+          "id": "Mengubah catatan kasar menjadi kalimat rapi; membuat banyak varian dengan cepat; memuat batas karakter; mengekstrak kata kunci; menyarankan struktur; membingkai ulang untuk audiens; berperan sebagai pewawancara."
+         },
+         {
+          "en": "All of it works on material you supply.",
+          "id": "Semuanya bekerja pada bahan yang kamu berikan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Where it fails",
+         "id": "Di mana ia gagal"
+        },
+        "points": [
+         {
+          "en": "It invents. It inflates. It converges. It does not know local reality. It cannot judge defensibility.",
+          "id": "Ia mengarang. Ia menggelembungkan. Ia menyeragamkan. Ia tidak tahu realitas lokal. Ia tidak bisa menilai keterpertahankan."
+         },
+         {
+          "en": "Every one of the five shows up in a typical “make this more impressive” output.",
+          "id": "Kelima-limanya muncul dalam keluaran “buat ini lebih mengesankan” yang lazim."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The rule",
+         "id": "Aturannya"
+        },
+        "points": [
+         {
+          "en": "AI never adds a fact. Every fact, number, title and date in anything you submit comes from you and can be verified.",
+          "id": "AI tidak pernah menambah fakta. Setiap fakta, angka, jabatan, dan tanggal dalam apa pun yang kamu kirim berasal darimu dan bisa diverifikasi."
+         },
+         {
+          "en": "Never paste confidential employer data, colleagues’ personal data or your own ID numbers into a public tool.",
+          "id": "Jangan pernah tempel data rahasia perusahaan, data pribadi rekan, atau nomor identitasmu sendiri ke alat publik."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "AI is a strong drafting assistant and a weak biographer: it will confidently invent your achievements if allowed.",
-       "id": "AI adalah asisten penyusun draf yang kuat, tetapi penulis biografi yang buruk: kalau dibiarkan, ia akan dengan percaya diri mengarang prestasimu."
-      },
-      {
-       "en": "Recruiters now recognise unedited AI text on sight; generic sludge screens you out at the human stage.",
-       "id": "Perekrut sekarang bisa mengenali teks AI yang tidak disunting hanya dengan sekali lihat; teks generik yang hambar menyingkirkanmu di tahap penilaian manusia."
-      },
-      {
-       "en": "Everything submitted under your name is your claim — the honesty rule from Module 2 applies to AI output unchanged.",
-       "id": "Semua yang dikirim atas namamu adalah klaimmu — aturan kejujuran dari Modul 2 berlaku pada keluaran AI, tanpa pengecualian."
-      }
-     ],
      "sections": [
       {
        "icon": "book",
        "h": {
-        "en": "What the tools do well",
-        "id": "Apa yang dikerjakan alat AI dengan baik"
+        "en": "Stylist, not ghostwriter",
+        "id": "Penata gaya, bukan penulis bayangan"
        },
        "body": {
-        "en": "Used properly, current AI assistants accelerate four jobs. <b>Drafting:</b> turning your raw notes about an internship into candidate bullet lines — you supply facts, it supplies fluency. <b>Tailoring:</b> comparing your CV against a JD and suggesting which evidence to lead with (the Screening Gym's ATS check does the keyword-coverage half of this transparently, on-device). <b>Research:</b> summarising a company's products, recent news and competitors before a letter or interview. <b>Rehearsal:</b> generating likely interview questions from a JD to practise against — The Rope's simulator builds this into a full training loop. The common thread: AI compresses hours of blank-page work into minutes of editing work.",
-        "id": "Kalau dipakai dengan benar, asisten AI yang ada sekarang mempercepat empat pekerjaan. <b>Menyusun draf:</b> mengubah catatan mentahmu tentang sebuah magang menjadi calon butir CV — kamu memasok faktanya, AI memasok kelancaran bahasanya. <b>Menyesuaikan:</b> membandingkan CV-mu dengan deskripsi lowongan dan menyarankan bukti mana yang sebaiknya ditaruh di depan (pemeriksa ATS di Screening Gym mengerjakan separuh bagian cakupan kata kunci ini secara transparan, sepenuhnya di perangkatmu). <b>Riset:</b> merangkum produk, berita terbaru, dan pesaing sebuah perusahaan sebelum kamu menulis surat atau wawancara. <b>Gladi:</b> menghasilkan pertanyaan wawancara yang kemungkinan muncul dari deskripsi lowongan, untuk kamu latih — simulator The Rope menjadikannya putaran latihan yang utuh. Benang merahnya: AI memampatkan berjam-jam kerja menghadapi halaman kosong menjadi beberapa menit kerja menyunting."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Where they fail dangerously",
-        "id": "Di mana alat AI gagal secara berbahaya"
+        "en": "Dumas’s framing is the module’s frame: use AI as a <b>stylist</b> who polishes your true story, never a <b>ghostwriter</b> who invents one <i>(Dumas, The AI-Savvy Job Seeker, Introduction)</i>. A stylist works with what you bring in; a ghostwriter works with what would sound good. The difference is not the tool but the input: AI is good at turning rough notes into clean sentences; producing many variants quickly (headlines, openings); fitting text into character limits; extracting keywords from a job description; suggesting structure; reframing a sentence for a different audience; and acting as a practice interviewer <i>(Dumas, ch. 1, 4–8, 11–12)</i>. Every item on that list starts from material you supply — your notes, your CV, the advertisement — and improves its form. None of them requires the tool to know anything about you it was not told.",
+        "id": "Pembingkaian Dumas adalah kerangka modul ini: pakai AI sebagai <b>penata gaya</b> yang memoles cerita nyatamu, bukan <b>penulis bayangan</b> yang mengarangnya <i>(Dumas, The AI-Savvy Job Seeker, Pendahuluan)</i>. Penata gaya bekerja dengan yang kamu bawa; penulis bayangan bekerja dengan yang akan terdengar bagus. Perbedaannya bukan pada alatnya tetapi masukannya: AI bagus untuk mengubah catatan kasar menjadi kalimat rapi; menghasilkan banyak varian dengan cepat (headline, pembuka); memuat teks ke batas karakter; mengekstrak kata kunci dari deskripsi pekerjaan; menyarankan struktur; membingkai ulang kalimat untuk audiens berbeda; dan berperan sebagai pewawancara latihan <i>(Dumas, bab 1, 4–8, 11–12)</i>. Setiap butir dalam daftar itu dimulai dari bahan yang kamu berikan — catatanmu, CV-mu, iklannya — dan memperbaiki bentuknya. Tidak satu pun mengharuskan alat itu tahu sesuatu tentangmu yang tidak diberitahukan."
        },
-       "body": {
-        "en": "<b>Hallucination:</b> ask an AI to “improve” your CV and it may upgrade “helped with social media” into “led a team of five in a viral campaign” — fluent, plausible, false, and yours the moment you submit it. <b>Generic sludge:</b> unedited AI cover letters share a recognisable texture — balanced sentences, empty enthusiasm, zero specifics — and recruiters who read hundreds now discount it instantly; the tool that was supposed to differentiate you mass-produces you. <b>False confidence:</b> AI research summaries occasionally state wrong facts about companies with perfect fluency; one invented “recent product launch” in a cover letter reveals both the tool and the unchecked delegation. Every failure mode has the same root: output not verified by the person who signs it.",
-        "id": "<b>Mengarang:</b> minta AI “memperbaiki” CV-mu, dan ia bisa menaikkan “membantu media sosial” menjadi “memimpin tim lima orang dalam kampanye viral” — lancar, masuk akal, palsu, dan menjadi klaimmu begitu kamu mengirimnya. <b>Teks generik yang hambar:</b> surat lamaran AI yang tidak disunting punya tekstur yang mudah dikenali — kalimat yang serba seimbang, antusiasme yang kosong, tanpa detail yang spesifik — dan perekrut yang membaca ratusan surat sekarang langsung mengabaikannya; alat yang seharusnya membedakanmu justru memproduksimu secara massal. <b>Percaya diri yang keliru:</b> ringkasan riset AI sesekali menyatakan fakta yang salah tentang perusahaan dengan kelancaran yang sempurna; satu “peluncuran produk terbaru” yang dikarang di surat lamaran membongkar alatnya sekaligus fakta bahwa kamu tidak memeriksa. Semua bentuk kegagalan itu berakar pada hal yang sama: keluaran yang tidak diverifikasi oleh orang yang menandatanganinya."
+       "table": {
+        "cols": [
+         {
+          "en": "Good use (stylist)",
+          "id": "Penggunaan baik (penata gaya)"
+         },
+         {
+          "en": "Input you supply",
+          "id": "Masukan yang kamu berikan"
+         },
+         {
+          "en": "What comes back",
+          "id": "Yang kembali"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Rough notes → clean bullets",
+           "id": "Catatan kasar → butir rapi"
+          },
+          {
+           "en": "Your pantry notes with your numbers",
+           "id": "Catatan lemarimu dengan angkamu"
+          },
+          {
+           "en": "Verb + what + scale + result, your facts only",
+           "id": "Kata kerja + apa + skala + hasil, hanya faktamu"
+          }
+         ],
+         [
+          {
+           "en": "Many variants",
+           "id": "Banyak varian"
+          },
+          {
+           "en": "One headline, one formula",
+           "id": "Satu headline, satu rumus"
+          },
+          {
+           "en": "Five to choose from — you pick",
+           "id": "Lima untuk dipilih — kamu yang memilih"
+          }
+         ],
+         [
+          {
+           "en": "Character limits",
+           "id": "Batas karakter"
+          },
+          {
+           "en": "A 340-character note",
+           "id": "Catatan 340 karakter"
+          },
+          {
+           "en": "The same note under 300",
+           "id": "Catatan yang sama di bawah 300"
+          }
+         ],
+         [
+          {
+           "en": "Keyword extraction",
+           "id": "Ekstraksi kata kunci"
+          },
+          {
+           "en": "The advertisement",
+           "id": "Iklannya"
+          },
+          {
+           "en": "Must-haves, nice-to-haves, the three problems the role solves",
+           "id": "Syarat wajib, syarat tambahan, tiga masalah yang dipecahkan peran"
+          }
+         ],
+         [
+          {
+           "en": "Practice interviewer",
+           "id": "Pewawancara latihan"
+          },
+          {
+           "en": "The advertisement and your CV",
+           "id": "Iklan dan CV-mu"
+          },
+          {
+           "en": "One question at a time; feedback on structure and evidence",
+           "id": "Satu pertanyaan sekaligus; umpan balik tentang struktur dan bukti"
+          }
+         ]
+        ]
        }
       },
       {
        "icon": "flag",
        "h": {
-        "en": "The ownership rule",
-        "id": "Aturan kepemilikan"
+        "en": "Where it fails dangerously",
+        "id": "Di mana ia gagal dengan berbahaya"
        },
        "body": {
-        "en": "Three lines keep AI on the right side of your application. <b>Facts flow one way:</b> from you to the tool — the AI never introduces an achievement, number, tool or title you did not give it; your master record (6.4) is the only source of facts. <b>Every output is edited:</b> your voice, your specifics, at least one detail per document no AI could know. <b>Disclosure follows the asker's rules:</b> where an employer asks whether AI was used, answer truthfully; where tests forbid it, the prohibition is the test. Employers increasingly probe suspiciously polished applications in interviews — the surest defence is that everything claimed is true and everything written is genuinely yours after editing.",
-        "id": "Tiga garis menjaga AI tetap berada di sisi yang benar dalam lamaranmu. <b>Fakta mengalir satu arah:</b> darimu ke alat — AI tidak pernah boleh memperkenalkan prestasi, angka, alat, atau jabatan yang tidak kamu berikan; catatan indukmu (6.4) adalah satu-satunya sumber fakta. <b>Setiap keluaran disunting:</b> suaramu, detailmu, minimal satu hal per dokumen yang tidak mungkin diketahui AI. <b>Keterbukaan mengikuti aturan pihak yang bertanya:</b> kalau perusahaan bertanya apakah kamu memakai AI, jawab dengan jujur; kalau sebuah tes melarangnya, larangan itu sendiri adalah tesnya. Perusahaan makin sering menggali lamaran yang terpoles secara mencurigakan saat wawancara — pertahanan paling pasti adalah semua yang diklaim memang benar, dan semua yang tertulis benar-benar milikmu setelah disunting."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The ownership rule — facts flow one way, every output is edited, disclosure follows the asker's rules.",
-       "id": "Peraga 1: Aturan kepemilikan — fakta mengalir satu arah, setiap keluaran disunting, pengungkapan mengikuti aturan si penanya."
-      },
-      "title": {
-       "en": "Your facts → The tool drafts → You edit → You verify → You disclose as asked",
-       "id": "Faktamu → Alat menyusun draf → Kamu sunting → Kamu verifikasi → Kamu ungkapkan sesuai permintaan"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Your facts",
-         "id": "Faktamu"
-        },
-        "sub": {
-         "en": "The master record is the only source — nothing enters from the tool",
-         "id": "Catatan induk adalah satu-satunya sumber — tak ada yang masuk dari alat"
-        }
+        "en": "Five failure modes, and every one of them appears in a typical “make this more impressive” output:",
+        "id": "Lima mode kegagalan, dan setiap satunya muncul dalam keluaran “buat ini lebih mengesankan” yang lazim:"
        },
-       {
-        "h": {
-         "en": "The tool drafts",
-         "id": "Alat menyusun draf"
-        },
-        "sub": {
-         "en": "Fluency, options, tailoring suggestions",
-         "id": "Kelancaran bahasa, pilihan, saran penyesuaian"
-        }
-       },
-       {
-        "h": {
-         "en": "You edit",
-         "id": "Kamu sunting"
-        },
-        "sub": {
-         "en": "Your voice, one detail per document no AI could know",
-         "id": "Suaramu, satu detail per dokumen yang tak mungkin diketahui AI"
-        }
-       },
-       {
-        "h": {
-         "en": "You verify",
-         "id": "Kamu verifikasi"
-        },
-        "sub": {
-         "en": "Every number, title, tool and claim traced to its source",
-         "id": "Setiap angka, jabatan, alat, dan klaim ditelusuri ke sumbernya"
-        }
-       },
-       {
-        "h": {
-         "en": "You disclose",
-         "id": "Kamu ungkapkan"
-        },
-        "sub": {
-         "en": "Truthfully where asked; where forbidden, the prohibition is the test",
-         "id": "Dengan jujur bila ditanya; bila dilarang, larangan itulah ujiannya"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A five-step flow. Facts come only from you and your master record; the tool drafts fluent options; you edit for your voice and specifics; you verify every claim against its source; and you disclose AI use truthfully wherever an employer asks, treating any prohibition as part of the test.",
-       "id": "Alur lima langkah. Fakta hanya datang darimu dan catatan indukmu; alat menyusun draf pilihan yang lancar; kamu menyunting untuk suaramu dan detail spesifik; kamu memverifikasi setiap klaim terhadap sumbernya; dan kamu mengungkapkan penggunaan AI dengan jujur di mana pun pemberi kerja bertanya, memperlakukan larangan apa pun sebagai bagian dari ujian."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "hallucination",
-        "id": "halusinasi"
-       },
-       "def": {
-        "en": "A fluent, plausible, false statement produced by an AI tool — “led a team of five” where you helped with social media — which becomes your claim the moment you submit it.",
-        "id": "Pernyataan yang lancar, masuk akal, dan salah yang dihasilkan alat AI — “memimpin tim beranggotakan lima orang” padahal kamu membantu media sosial — yang menjadi klaimmu begitu kamu mengirimnya."
-       }
-      },
-      {
-       "term": {
-        "en": "generic sludge",
-        "id": "bubur generik"
-       },
-       "def": {
-        "en": "Unedited AI text with its recognisable cadence and empty enthusiasm, which recruiters now identify on sight and screen out as mass production.",
-        "id": "Teks AI tanpa suntingan dengan irama yang mudah dikenali dan antusiasme kosong, yang kini dikenali perekrut sekilas dan disingkirkan sebagai produksi massal."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "An AI rewrite of your CV added “managed a Rp 50m budget” to an internship where you tracked expenses in a spreadsheet. What happened and what do you do?",
-        "id": "AI menulis ulang CV-mu dan menambahkan “mengelola anggaran Rp50 juta” pada magang yang sebenarnya hanya kamu isi dengan mencatat pengeluaran di spreadsheet. Apa yang terjadi, dan apa yang kamu lakukan?"
-       },
-       "options": [
+       "bullets": [
         {
-         "en": "The AI found a better framing — keep it, it sounds stronger",
-         "id": "AI menemukan cara penyampaian yang lebih baik — pertahankan, kedengarannya lebih kuat"
+         "en": "<b>It invents.</b> AI models state false facts confidently — company initiatives, figures, dates, programme details, product names <i>(Dumas, Introduction, ch. 12)</i>. The confidence is the danger: an invented fact reads exactly like a true one.",
+         "id": "<b>Ia mengarang.</b> Model AI menyatakan fakta palsu dengan percaya diri — inisiatif perusahaan, angka, tanggal, detail program, nama produk <i>(Dumas, Pendahuluan, bab 12)</i>. Kepercayaan dirinya adalah bahayanya: fakta yang dikarang terbaca persis seperti yang benar."
         },
         {
-         "en": "It hallucinated a claim you never made — delete it, and restate the true scope: “tracked Rp 50m of project expenses”",
-         "id": "AI mengarang klaim yang tidak pernah kamu buat — hapus, dan tulis ulang sesuai cakupan yang sebenarnya: “mencatat pengeluaran proyek senilai Rp50 juta”"
+         "en": "<b>It inflates.</b> Asked to “make this stronger”, it quietly enlarges your scope and numbers — three branches become a regional network; “flagged” becomes “spearheaded” <i>(Dumas, ch. 7)</i>.",
+         "id": "<b>Ia menggelembungkan.</b> Diminta “buat ini lebih kuat”, ia diam-diam memperbesar cakupan dan angkamu — tiga cabang menjadi jaringan regional; “menandai” menjadi “memelopori” <i>(Dumas, bab 7)</i>."
         },
         {
-         "en": "Keep it but be ready to explain in interviews",
-         "id": "Pertahankan, tapi siap-siap menjelaskannya saat wawancara"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "“Managed” claims authority you did not hold — a reference check away from disqualification. The true version, precisely framed, is still a strong line.",
-        "id": "“Mengelola” mengklaim wewenang yang tidak pernah kamu pegang — hanya berjarak satu pemeriksaan referensi dari diskualifikasi. Versi yang benar, ditulis dengan tepat, tetap merupakan butir yang kuat."
-       }
-      }
-     ],
-     "quote": {
-      "en": "AI may help you present your truth at its best — never someone else's.",
-      "id": "AI boleh membantumu menampilkan kebenaranmu dalam versi terbaiknya — tetapi tidak pernah kebenaran milik orang lain."
-     },
-     "insights": {
-      "lead": {
-       "en": "The working rules for AI in application work.",
-       "id": "Aturan kerja untuk AI dalam pekerjaan lamaran."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "AI drafts, you own the facts",
-         "id": "AI menyusun draf, kamu memiliki faktanya"
+         "en": "<b>It converges.</b> <span class=\"ev ev-contested\">Course guidance</span> Unedited AI text sounds the same across thousands of applicants — the same verbs, the same rhythm, the same “passionate about leveraging” — and recruiters recognise the phrasing on the first read.",
+         "id": "<b>Ia menyeragamkan.</b> <span class=\"ev ev-contested\">Panduan kursus</span> Teks AI yang tidak disunting terdengar sama di ribuan pelamar — kata kerja yang sama, irama yang sama, “passionate about leveraging” yang sama — dan rekruter mengenali frasanya pada bacaan pertama."
         },
-        "body": {
-         "en": "Every number, title and date must come from your master record. A tool will happily invent a metric that sounds right; an interviewer will happily ask you to explain it.",
-         "id": "Setiap angka, jabatan, dan tanggal harus berasal dari catatan indukmu. Alat akan dengan senang hati mengarang metrik yang terdengar benar; pewawancara akan dengan senang hati memintamu menjelaskannya."
-        }
-       },
-       {
-        "h": {
-         "en": "The sludge signature",
-         "id": "Tanda sampah AI"
+        {
+         "en": "<b>It does not know local reality.</b> <span class=\"ev ev-contested\">Course guidance</span> It is often wrong about Indonesian recruitment processes, BUMN and CPNS rules, salary norms, company structures, and which programmes exist this year.",
+         "id": "<b>Ia tidak tahu realitas lokal.</b> <span class=\"ev ev-contested\">Panduan kursus</span> Ia sering salah tentang proses rekrutmen Indonesia, aturan BUMN dan CPNS, norma gaji, struktur perusahaan, dan program mana yang ada tahun ini."
         },
-        "body": {
-         "en": "Recruiters now recognise unedited AI text: “I am thrilled to apply…”, “leverage”, “synergy”, three-adjective lists. One human pass per document is the minimum.",
-         "id": "Perekrut kini mengenali teks AI yang tak disunting: “Saya sangat antusias melamar…”, “memanfaatkan”, “sinergi”, daftar tiga kata sifat. Satu penyuntingan manusia per dokumen adalah batas minimum."
+        {
+         "en": "<b>It cannot judge defensibility.</b> Only you know whether you can talk about a line for two minutes across an interview table. The tool has no way to know what you did.",
+         "id": "<b>Ia tidak bisa menilai keterpertahankan.</b> Hanya kamu yang tahu apakah kamu bisa membicarakan satu baris selama dua menit di seberang meja wawancara. Alat itu tidak punya cara mengetahui apa yang kamu lakukan."
         }
-       },
-       {
-        "h": {
-         "en": "Screening tools are calibration, not truth",
-         "id": "Alat penyaringan adalah kalibrasi, bukan kebenaran"
-        },
-        "body": {
-         "en": "A keyword score from any tool tells you how one model reads one document. Use it to find missing terms, never to chase a number.",
-         "id": "Skor kata kunci dari alat mana pun memberi tahu cara satu model membaca satu dokumen. Gunakan untuk menemukan istilah yang hilang, jangan pernah untuk mengejar angka."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Pasting the JD and asking for a CV",
-         "id": "Menempel JD dan meminta CV"
-        },
-        "fix": {
-         "en": "The tool will invent experience to match. Feed it your master record and ask it to reorder and tighten — nothing more.",
-         "id": "Alat akan mengarang pengalaman agar cocok. Beri catatan indukmu dan minta ia menyusun ulang dan memadatkan — tidak lebih."
-        }
-       },
-       {
-        "h": {
-         "en": "Sending without a verification pass",
-         "id": "Mengirim tanpa pemeriksaan"
-        },
-        "fix": {
-         "en": "Check every fact against the master record and every claim against what you can say in the room.",
-         "id": "Periksa setiap fakta terhadap catatan induk dan setiap klaim terhadap apa yang bisa kamu katakan di ruangan."
-        }
-       },
-       {
-        "h": {
-         "en": "Pretending you did not use it when asked",
-         "id": "Berpura-pura tidak memakainya saat ditanya"
-        },
-        "fix": {
-         "en": "Say what you used it for: drafting and tightening. The evidence and the story are yours — and that is true.",
-         "id": "Katakan untuk apa kamu memakainya: menyusun draf dan memadatkan. Bukti dan ceritanya milikmu — dan itu benar."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "8.2",
-     "title": {
-      "en": "AI for CV and Resume Optimisation",
-      "id": "AI untuk Optimalisasi CV dan Resume"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "The CV workflow with AI in the loop, end to end: facts from your master record, drafts from the tool, evidence discipline from Module 2, and verification passes that catch what the tool invented. With worked prompts and before/after lines.",
-      "id": "Alur kerja CV dengan AI di dalamnya, dari awal sampai akhir: fakta dari catatan indukmu, draf dari alat, disiplin bukti dari Modul 2, dan putaran verifikasi yang menangkap apa pun yang dikarang alat. Lengkap dengan contoh prompt dan butir sebelum/sesudah."
-     },
-     "objectives": [
-      {
-       "en": "Run the five-step AI CV workflow: facts in, draft out, edit, verify, ATS-check.",
-       "id": "Menjalankan alur kerja CV dengan AI dalam lima langkah: masukkan fakta, keluarkan draf, sunting, verifikasi, periksa ATS."
-      },
-      {
-       "en": "Write fact-rich prompts that prevent hallucination by construction.",
-       "id": "Menulis prompt yang kaya fakta, sehingga sejak awal tidak memberi ruang untuk mengarang."
-      },
-      {
-       "en": "Verify AI output line by line against the master record.",
-       "id": "Memverifikasi keluaran AI baris demi baris terhadap catatan induk."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "The prompt carries the facts, the tool carries the fluency, and you carry the responsibility. To run the CV workflow with AI in the loop, you can:",
-      "id": "Prompt membawa fakta, alat membawa kelancaran bahasa, dan kamu membawa tanggung jawab. Untuk menjalankan alur kerja CV dengan AI di dalamnya, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The prompt carries the facts; the tool carries the fluency; you carry the responsibility.",
-       "id": "Prompt membawa faktanya; alat membawa kelancaran bahasanya; kamu membawa tanggung jawabnya."
-      },
-      {
-       "en": "Give the AI your rough notes and the bullet formula — never ask it to “make my CV more impressive”.",
-       "id": "Beri AI catatan kasarmu dan rumus butir — jangan pernah memintanya “membuat CV saya lebih mengesankan”."
-      },
-      {
-       "en": "The verification pass reads for three things: invented facts, inflated verbs, and lost specificity.",
-       "id": "Putaran verifikasi mencari tiga hal: fakta yang dikarang, kata kerja yang dibesar-besarkan, dan detail spesifik yang hilang."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
-       "h": {
-        "en": "The five-step workflow",
-        "id": "Alur kerja lima langkah"
-       },
-       "body": {
-        "en": "<b>1 · Facts in:</b> from the master record, write rough notes per role — what you did, numbers, tools, outcomes — ugly is fine. <b>2 · Draft out:</b> prompt the tool with the notes, the bullet formula (strong verb + scope + measured result), and the target JD's top requirements; ask for two or three candidate versions per bullet. <b>3 · Edit:</b> pick and adjust — your voice, correct emphasis, one specific detail per bullet the tool could not know. <b>4 · Verify:</b> line-by-line against the master record — every number, title, tool and claim traced to its source or deleted. <b>5 · ATS-check:</b> run the Gym's check against the JD; add honestly supportable missing keywords; run the parse test. Twenty minutes per tailored CV once the master record exists.",
-        "id": "<b>1 · Masukkan fakta:</b> dari catatan induk, tulis catatan kasar untuk setiap posisi — apa yang kamu kerjakan, angkanya, alatnya, hasilnya — berantakan tidak apa-apa. <b>2 · Keluarkan draf:</b> beri alat catatan itu, rumus butir (kata kerja kuat + cakupan + hasil terukur), dan persyaratan utama dari deskripsi lowongan yang dituju; minta dua atau tiga versi untuk setiap butir. <b>3 · Sunting:</b> pilih dan sesuaikan — suaramu, penekanan yang tepat, satu detail spesifik per butir yang tidak mungkin diketahui alat. <b>4 · Verifikasi:</b> baris demi baris terhadap catatan induk — setiap angka, jabatan, alat, dan klaim ditelusuri ke sumbernya, atau dihapus. <b>5 · Periksa ATS:</b> jalankan pemeriksa di Gym terhadap deskripsi lowongan; tambahkan kata kunci yang belum ada dan memang bisa kamu pertanggungjawabkan; jalankan uji urai. Dua puluh menit per CV yang disesuaikan, begitu catatan induknya sudah ada."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Prompts that work",
-        "id": "Prompt yang berhasil"
-       },
-       "body": {
-        "en": "Weak prompt: “Improve my CV for a data analyst role” — an invitation to invent. Strong prompt: “Here are my rough notes on an internship [paste facts]. Here are the top requirements of the target JD [paste]. Write three versions of two CV bullets using only facts from my notes, in the pattern: strong verb + what + scope numbers + measured result. Do not add any tool, number or achievement not present in my notes. Flag any place where a metric is missing and ask me for it instead of estimating.” The last sentence converts the tool's failure mode into a feature: instead of inventing your missing metric, it asks — and the question (“how many rows was that dataset?”) often reminds you of evidence you forgot you had.",
-        "id": "Prompt yang lemah: “Perbaiki CV saya untuk posisi data analyst” — itu undangan untuk mengarang. Prompt yang kuat: “Ini catatan kasar saya tentang sebuah magang [tempel fakta]. Ini persyaratan utama deskripsi lowongan yang saya tuju [tempel]. Tulis tiga versi untuk dua butir CV, hanya memakai fakta dari catatan saya, dengan pola: kata kerja kuat + apa yang dikerjakan + angka cakupan + hasil terukur. Jangan tambahkan alat, angka, atau prestasi apa pun yang tidak ada di catatan saya. Tandai bagian yang metriknya belum ada dan tanyakan kepada saya, jangan menaksir.” Kalimat terakhir itu mengubah kelemahan alat menjadi fitur: alih-alih mengarang metrik yang hilang, ia bertanya — dan pertanyaannya (“berapa baris dataset itu?”) sering mengingatkanmu pada bukti yang kamu lupa kamu punya."
-       }
+       ]
       },
       {
        "icon": "eye",
        "h": {
-        "en": "The verification read",
-        "id": "Membaca untuk verifikasi"
+        "en": "Why honesty is the hard rule",
+        "id": "Mengapa kejujuran adalah aturan keras"
        },
        "body": {
-        "en": "Read the draft three times, once per failure mode. <b>Invented facts:</b> any number, tool, title or outcome not in your notes — delete or correct, no exceptions, however good it sounds. <b>Inflated verbs:</b> “led” where you contributed, “managed” where you tracked, “designed” where you implemented — downgrade to the true verb; precision reads as credibility, and interviews are calibrated to the verbs you chose. <b>Lost specificity:</b> AI smooths distinctive details into generic phrasing — restore the community name, the actual tool version, the odd concrete number (“Rp 85m” not “a substantial budget”), because those details are what make evidence believable and memorable.",
-        "id": "Baca drafnya tiga kali, sekali untuk setiap bentuk kegagalan. <b>Fakta yang dikarang:</b> angka, alat, jabatan, atau hasil apa pun yang tidak ada di catatanmu — hapus atau koreksi, tanpa pengecualian, sebagus apa pun bunyinya. <b>Kata kerja yang dibesar-besarkan:</b> “memimpin” padahal kamu berkontribusi, “mengelola” padahal kamu mencatat, “merancang” padahal kamu mengimplementasikan — turunkan ke kata kerja yang sebenarnya; ketepatan terbaca sebagai kredibilitas, dan pertanyaan wawancara dikalibrasi pada kata kerja yang kamu pilih. <b>Detail spesifik yang hilang:</b> AI menghaluskan detail yang khas menjadi frasa generik — kembalikan nama komunitasnya, versi alat yang sebenarnya, angka konkret yang tidak bulat (“Rp85 juta”, bukan “anggaran yang besar”), karena detail seperti itulah yang membuat bukti bisa dipercaya dan diingat."
+        "en": "Surveys cited by Ow suggest a large share of candidates admit they would stretch the truth on applications <i>(Ow, Tailor Your Call)</i> <span class=\"ev ev-dated\">Survey figures vary</span>; AI makes stretching effortless — one word in a prompt. But the stretched line does not stay on the page. LinkedIn is public and colleagues can see it <i>(Serdula, ch. 20)</i>; interviews probe every line <i>(Dumas, ch. 5)</i>; reference checks and probation expose the rest <i>(Innes, ch. 3)</i>. An invented “40% efficiency uplift” survives the ATS, survives the first pass, and dies in the second interview question — taking the application with it. <b>The Pack rule: AI never adds a fact.</b> Every fact, number, title and date in anything you submit comes from you and can be verified. AI may change the order, the verb, the length and the register; it may not change what happened.",
+        "id": "Survei yang dikutip Ow menunjukkan sebagian besar kandidat mengaku akan melebih-lebihkan kebenaran dalam lamaran <i>(Ow, Tailor Your Call)</i> <span class=\"ev ev-dated\">Angka survei bervariasi</span>; AI membuat melebih-lebihkan itu tanpa usaha — satu kata dalam prompt. Tetapi baris yang dilebih-lebihkan tidak tinggal di halaman. LinkedIn itu publik dan rekan bisa melihatnya <i>(Serdula, bab 20)</i>; wawancara menyelidiki setiap baris <i>(Dumas, bab 5)</i>; pemeriksaan referensi dan masa percobaan membongkar sisanya <i>(Innes, bab 3)</i>. “Peningkatan efisiensi 40%” yang dikarang lolos ATS, lolos tahap pertama, dan mati pada pertanyaan wawancara kedua — membawa lamaran bersamanya. <b>Aturan The Pack: AI tidak pernah menambah fakta.</b> Setiap fakta, angka, jabatan, dan tanggal dalam apa pun yang kamu kirim berasal darimu dan bisa diverifikasi. AI boleh mengubah urutan, kata kerja, panjang, dan register; ia tidak boleh mengubah apa yang terjadi."
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Confidentiality",
+        "id": "Kerahasiaan"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-contested\">Course guidance, extending Dumas ch. 8</span> Never paste confidential employer information — internal figures, client names, unreleased plans, the reconciliation reports themselves — into a public AI tool. Never paste colleagues’ personal data. Never paste your own ID numbers (NIK, passport, bank account) or anyone else’s. A public tool may retain what it is given, and the internship agreement you signed almost certainly forbids it. The safe input is the pantry: your own notes about what you did, in your own words, with the numbers you are allowed to cite — which is also the only input that produces a bullet you can defend.",
+        "id": "<span class=\"ev ev-contested\">Panduan kursus, memperluas Dumas bab 8</span> Jangan pernah tempel informasi rahasia perusahaan — angka internal, nama klien, rencana yang belum dirilis, laporan rekonsiliasi itu sendiri — ke alat AI publik. Jangan pernah tempel data pribadi rekan. Jangan pernah tempel nomor identitasmu sendiri (NIK, paspor, rekening bank) atau milik orang lain. Alat publik bisa menyimpan apa yang diberikan padanya, dan perjanjian magang yang kamu tandatangani hampir pasti melarangnya. Masukan yang aman adalah lemari: catatanmu sendiri tentang apa yang kamu lakukan, dengan kata-katamu, dengan angka yang boleh kamu kutip — yang juga satu-satunya masukan yang menghasilkan butir yang bisa kamu pertahankan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Safe to paste",
+          "id": "Aman ditempel"
+         },
+         {
+          "en": "Never paste",
+          "id": "Jangan pernah tempel"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Your pantry notes, in your words, with numbers you may cite",
+           "id": "Catatan lemarimu, dengan kata-katamu, dengan angka yang boleh kamu kutip"
+          },
+          {
+           "en": "The employer’s internal reports, spreadsheets or emails",
+           "id": "Laporan internal, spreadsheet, atau email perusahaan"
+          }
+         ],
+         [
+          {
+           "en": "The public job advertisement",
+           "id": "Iklan lowongan publik"
+          },
+          {
+           "en": "Client names, unreleased plans, internal figures",
+           "id": "Nama klien, rencana yang belum dirilis, angka internal"
+          }
+         ],
+         [
+          {
+           "en": "Your own CV and LinkedIn text",
+           "id": "Teks CV dan LinkedIn-mu sendiri"
+          },
+          {
+           "en": "Colleagues’ names with personal details",
+           "id": "Nama rekan dengan detail pribadi"
+          }
+         ],
+         [
+          {
+           "en": "Public company pages and published reports",
+           "id": "Laman perusahaan publik dan laporan yang diterbitkan"
+          },
+          {
+           "en": "NIK, passport, bank, phone numbers — yours or anyone’s",
+           "id": "NIK, paspor, rekening, nomor telepon — milikmu atau siapa pun"
+          }
+         ]
+        ]
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The five-step CV workflow — twenty minutes per tailored CV once the master record exists.",
-       "id": "Peraga 1: Alur kerja CV lima langkah — dua puluh menit per CV yang disesuaikan begitu catatan induk ada."
+       "en": "Exhibit 1: One bullet, five failure modes",
+       "id": "Peraga 1: Satu butir, lima mode kegagalan"
       },
       "title": {
-       "en": "Facts in → Draft out → Edit → Verify → ATS-check",
-       "id": "Fakta masuk → Draf keluar → Sunting → Verifikasi → Periksa ATS"
+       "en": "What “make my internship bullet more impressive” produced, and where each word came from",
+       "id": "Apa yang dihasilkan “buat butir magangku lebih mengesankan”, dan dari mana setiap kata berasal"
       },
       "items": [
        {
+        "icon": "flag",
         "h": {
-         "en": "Facts in",
-         "id": "Fakta masuk"
+         "en": "“Spearheaded”",
+         "id": "“Memelopori”"
         },
         "sub": {
-         "en": "Rough notes per role from the master record — ugly is fine",
-         "id": "Catatan kasar per peran dari catatan induk — berantakan tidak apa-apa"
+         "en": "Inflates. She reconciled and flagged; nobody spearheaded anything.",
+         "id": "Menggelembungkan. Ia merekonsiliasi dan menandai; tidak ada yang memelopori apa pun."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Draft out",
-         "id": "Draf keluar"
+         "en": "“end-to-end reconciliation operations”",
+         "id": "“operasi rekonsiliasi ujung ke ujung”"
         },
         "sub": {
-         "en": "Notes + bullet formula + JD requirements → two or three versions per bullet",
-         "id": "Catatan + rumus poin + syarat JD → dua atau tiga versi per poin"
+         "en": "Inflates and converges. Daily transaction reports became an operation; the phrase is in ten thousand CVs.",
+         "id": "Menggelembungkan dan menyeragamkan. Laporan transaksi harian menjadi operasi; frasanya ada di sepuluh ribu CV."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Edit",
-         "id": "Sunting"
+         "en": "“across the regional branch network”",
+         "id": "“di seluruh jaringan cabang regional”"
         },
         "sub": {
-         "en": "Your voice, correct emphasis, one detail the tool could not know",
-         "id": "Suaramu, penekanan yang tepat, satu detail yang tak mungkin diketahui alat"
+         "en": "Invents. Three branches in Semarang are not a regional network.",
+         "id": "Mengarang. Tiga cabang di Semarang bukan jaringan regional."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Verify",
-         "id": "Verifikasi"
+         "en": "“driving a 40% efficiency uplift”",
+         "id": "“mendorong peningkatan efisiensi 40%”"
         },
         "sub": {
-         "en": "Line by line against the master record — trace or delete",
-         "id": "Baris demi baris terhadap catatan induk — telusuri atau hapus"
+         "en": "Invents a number. Nobody measured 40%; the true figure is about thirty minutes a day.",
+         "id": "Mengarang angka. Tidak ada yang mengukur 40%; angka sebenarnya sekitar tiga puluh menit sehari."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "ATS-check",
-         "id": "Periksa ATS"
+         "en": "Interview, minute two",
+         "id": "Wawancara, menit kedua"
         },
         "sub": {
-         "en": "The Gym's check against the JD; honest keywords added; parse test run",
-         "id": "Pemeriksaan Gym terhadap JD; kata kunci jujur ditambahkan; uji pengurai dijalankan"
+         "en": "“Tell me how you measured the 40%.” Cannot judge defensibility — and now neither can she.",
+         "id": "“Ceritakan bagaimana Anda mengukur 40% itu.” Tidak bisa menilai keterpertahankan — dan kini ia juga tidak."
         }
        }
       ],
+      "note": {
+       "en": "Fourteen words; four inventions; one question that ends the interview.",
+       "id": "Empat belas kata; empat karangan; satu pertanyaan yang mengakhiri wawancara."
+      },
       "longdesc": {
-       "en": "A five-step flow: feed the tool rough facts from your master record; have it draft two or three versions of each bullet using the bullet formula and the job description's requirements; edit for voice and specifics; verify every line against the master record; and finish with the Gym's ATS check and a parse test.",
-       "id": "Alur lima langkah: beri alat fakta kasar dari catatan indukmu; minta ia menyusun dua atau tiga versi tiap poin dengan rumus poin dan syarat deskripsi pekerjaan; sunting untuk suara dan detail spesifik; verifikasi setiap baris terhadap catatan induk; dan akhiri dengan pemeriksaan ATS Gym serta uji pengurai."
+       "en": "A five-stage flow through one AI-rewritten bullet: “spearheaded” inflates; “end-to-end reconciliation operations” inflates and converges; “across the regional branch network” invents; “driving a 40% efficiency uplift” invents a number; and the interview question “how did you measure the 40%” exposes that the tool could not judge defensibility.",
+       "id": "Alur lima tahap melalui satu butir yang ditulis ulang AI: “memelopori” menggelembungkan; “operasi rekonsiliasi ujung ke ujung” menggelembungkan dan menyeragamkan; “di seluruh jaringan cabang regional” mengarang; “mendorong peningkatan efisiensi 40%” mengarang angka; dan pertanyaan wawancara “bagaimana Anda mengukur 40% itu” membongkar bahwa alat itu tidak bisa menilai keterpertahankan."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "One bullet, two versions",
+        "id": "Satu butir, dua versi"
+       },
+       "q": {
+        "en": "Nadia asks an AI tool to “make my internship bullet more impressive”.",
+        "id": "Nadia meminta alat AI untuk “membuat butir magangku lebih mengesankan”."
+       },
+       "weak": {
+        "en": "AI output, accepted as-is: “Spearheaded end-to-end reconciliation operations across the regional branch network, driving a 40% efficiency uplift.”",
+        "id": "Keluaran AI, diterima apa adanya: “Spearheaded end-to-end reconciliation operations across the regional branch network, driving a 40% efficiency uplift.”"
+       },
+       "strong": {
+        "en": "After verification: “Reconciled daily transaction reports for 3 branches; flagged a recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day.”",
+        "id": "Setelah verifikasi: “Merekonsiliasi laporan transaksi harian untuk 3 cabang; menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari.”"
+       },
+       "why": {
+        "en": "The AI version invented “spearheaded”, “regional network” and “40%”. Every one of those would be asked about at interview. The verified version is smaller and survives every question — and it is still a strong bullet, because it has a real number.",
+        "id": "Versi AI mengarang “spearheaded”, “regional network”, dan “40%”. Setiap satunya akan ditanyakan saat wawancara. Versi terverifikasi lebih kecil dan lolos setiap pertanyaan — dan tetap butir yang kuat, karena punya angka nyata."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the company initiative that did not exist",
+       "id": "Sorotan: inisiatif perusahaan yang tidak ada"
+      },
+      "body": [
+       {
+        "en": "A HIMA alumnus asked an AI tool for “three recent initiatives at Bank Sinar Nusantara” to use in his ODP letter. It returned three, each with a year and a confident sentence. He used the second — a digital-onboarding programme for micro-merchants — as his “why them” paragraph. It was fluent, specific and completely invented; the bank had no such programme. The interviewer, who ran the actual micro-merchant unit, asked him where he had read about it.",
+        "id": "Seorang alumnus HIMA meminta alat AI “tiga inisiatif terkini di Bank Sinar Nusantara” untuk dipakai di surat ODP-nya. Alat itu mengembalikan tiga, masing-masing dengan tahun dan kalimat yang percaya diri. Ia memakai yang kedua — program onboarding digital untuk pedagang mikro — sebagai paragraf “mengapa mereka”. Fasih, spesifik, dan sepenuhnya karangan; bank itu tidak punya program seperti itu. Pewawancara, yang mengelola unit pedagang mikro yang sebenarnya, bertanya di mana ia membacanya."
+       },
+       {
+        "en": "He was not eliminated for using AI. He was eliminated for submitting, under his own name, a fact he had not checked — which is exactly the same failure as an invented number on a CV, on a different document. Lesson 8.4 makes the rule operational: a research brief is a list of leads, and each lead is verified at the company’s own source before it enters a letter or a conversation.",
+        "id": "Ia tidak digugurkan karena memakai AI. Ia digugurkan karena mengirim, atas namanya sendiri, fakta yang belum ia periksa — yang persis kegagalan yang sama dengan angka karangan di CV, di dokumen berbeda. Pelajaran 8.4 membuat aturannya operasional: brief riset adalah daftar petunjuk, dan setiap petunjuk diverifikasi di sumber perusahaan sendiri sebelum masuk ke surat atau percakapan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Name the failure mode",
+        "id": "Latihan 1 · Sebutkan mode kegagalannya"
+       },
+       "body": {
+        "en": "Six lines from AI outputs on Nadia’s material — name the failure mode for each (invents · inflates · converges · local reality · defensibility), or say “fine”: (a) “Passionate about leveraging synergies to drive operational excellence.” (b) “Managed a team of 12 baristas.” (c) “Arunika’s MT programme runs 24 months with a Singapore rotation.” (d) “Reconciled daily transaction reports for 3 branches.” (e) “Achieved a 95% audit compliance score.” (f) “BUMN joint recruitment requires a minimum IPK of 3,50.”",
+        "id": "Enam baris dari keluaran AI pada bahan Nadia — sebutkan mode kegagalan masing-masing (mengarang · menggelembungkan · menyeragamkan · realitas lokal · keterpertahankan), atau katakan “baik”: (a) “Passionate about leveraging synergies to drive operational excellence.” (b) “Mengelola tim 12 barista.” (c) “Program MT Arunika berjalan 24 bulan dengan rotasi Singapura.” (d) “Merekonsiliasi laporan transaksi harian untuk 3 cabang.” (e) “Mencapai skor kepatuhan audit 95%.” (f) “Rekrutmen bersama BUMN mewajibkan IPK minimum 3,50.”"
+       },
+       "debrief": {
+        "en": "(a) converges — a phrase in ten thousand profiles, saying nothing. (b) inflates — she trained 4 new baristas; she managed nobody. (c) invents — the programme is 18 months and rotates in Indonesia; a confident, specific, false sentence. (d) fine — her fact, her number. (e) invents a number — the audit found zero issues; there is no “compliance score”. (f) local reality — the announcement says 3,00; the tool guessed. Four of six would be caught at interview; (c) and (f) would be caught by anyone who read the announcement.",
+        "id": "(a) menyeragamkan — frasa di sepuluh ribu profil, tidak mengatakan apa-apa. (b) menggelembungkan — ia melatih 4 barista baru; ia tidak mengelola siapa pun. (c) mengarang — programnya 18 bulan dan berotasi di Indonesia; kalimat yang percaya diri, spesifik, salah. (d) baik — faktanya, angkanya. (e) mengarang angka — audit menemukan nol masalah; tidak ada “skor kepatuhan”. (f) realitas lokal — pengumuman menyebut 3,00; alat itu menebak. Empat dari enam akan ketahuan saat wawancara; (c) dan (f) akan ketahuan oleh siapa pun yang membaca pengumuman."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Stylist or ghostwriter?",
+        "id": "Latihan 2 · Penata gaya atau penulis bayangan?"
+       },
+       "body": {
+        "en": "Classify six requests: (a) “Rewrite these five notes as bullets using only my numbers.” (b) “Write me an internship bullet for a bank operations role.” (c) “Shorten this connection note to under 300 characters.” (d) “What did I achieve as HIMA treasurer?” (e) “List the must-have skills in this advertisement.” (f) “Write a cover letter for KilatPay that sounds amazing.”",
+        "id": "Golongkan enam permintaan: (a) “Tulis ulang lima catatan ini sebagai butir hanya dengan angka saya.” (b) “Tuliskan butir magang untuk peran operasional bank.” (c) “Pendekkan catatan koneksi ini ke bawah 300 karakter.” (d) “Apa yang saya capai sebagai bendahara HIMA?” (e) “Daftar keterampilan wajib di iklan ini.” (f) “Tulis surat pengantar untuk KilatPay yang terdengar luar biasa.”"
+       },
+       "debrief": {
+        "en": "Stylist: (a), (c), (e) — each starts from material you supplied and changes its form. Ghostwriter: (b), (d), (f) — each asks the tool to know something it cannot know: what you did, what you achieved, why you want this employer. (d) is the subtle one — the tool will answer, fluently, with things a treasurer might have done. The fix for every ghostwriter request is the same: paste the source material, and ask for form, not facts (Lesson 8.2).",
+        "id": "Penata gaya: (a), (c), (e) — masing-masing dimulai dari bahan yang kamu berikan dan mengubah bentuknya. Penulis bayangan: (b), (d), (f) — masing-masing meminta alat mengetahui sesuatu yang tidak bisa diketahuinya: apa yang kamu lakukan, apa yang kamu capai, mengapa kamu ingin perusahaan ini. (d) yang halus — alat itu akan menjawab, dengan fasih, dengan hal-hal yang mungkin dilakukan seorang bendahara. Perbaikan untuk setiap permintaan penulis bayangan sama: tempel bahan sumbernya, dan minta bentuk, bukan fakta (Pelajaran 8.2)."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The paste test",
+        "id": "Latihan 3 · Uji tempel"
+       },
+       "body": {
+        "en": "Nadia is about to paste six things into a public AI tool to build her CV bullets. Which may go in? (a) Her pantry notes: “reconciled daily reports, 3 branches, found the terminal error, ~30 min/day”. (b) The actual daily reconciliation spreadsheet from the bank, to “extract achievements”. (c) The KilatPay advertisement. (d) Her supervisor’s name and phone number “for the reference line”. (e) Her NIK “so the CV header is complete”. (f) The bank’s internal memo about the terminal fix.",
+        "id": "Nadia hendak menempel enam hal ke alat AI publik untuk membangun butir CV-nya. Mana yang boleh masuk? (a) Catatan lemarinya: “merekonsiliasi laporan harian, 3 cabang, menemukan kesalahan terminal, ~30 mnt/hari”. (b) Spreadsheet rekonsiliasi harian yang sebenarnya dari bank, untuk “mengekstrak pencapaian”. (c) Iklan KilatPay. (d) Nama dan nomor telepon supervisornya “untuk baris referensi”. (e) NIK-nya “agar kepala CV lengkap”. (f) Memo internal bank tentang perbaikan terminal."
+       },
+       "debrief": {
+        "en": "(a) and (c) only. (b) and (f) are the employer’s confidential material — the internship agreement forbids it and the tool may retain it. (d) is a colleague’s personal data; the reference line is written by hand, later, with permission. (e) is her own ID number, which no CV needs and no tool should hold. The pantry note in (a) contains everything the bullet needs; the spreadsheet in (b) contains nothing the bullet needs and everything the bank would object to.",
+        "id": "Hanya (a) dan (c). (b) dan (f) adalah materi rahasia perusahaan — perjanjian magang melarangnya dan alat itu bisa menyimpannya. (d) adalah data pribadi rekan; baris referensi ditulis dengan tangan, nanti, dengan izin. (e) adalah nomor identitasnya sendiri, yang tidak dibutuhkan CV mana pun dan tidak boleh dipegang alat mana pun. Catatan lemari di (a) memuat semua yang dibutuhkan butir; spreadsheet di (b) tidak memuat apa pun yang dibutuhkan butir dan semua yang akan ditentang bank."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "“Make this more impressive”",
+         "id": "“Buat ini lebih mengesankan”"
+        },
+        "fix": {
+         "en": "“Rewrite using only my numbers; leave [NUMBER?] where I gave none.”",
+         "id": "“Tulis ulang hanya dengan angka saya; sisakan [ANGKA?] di tempat saya tidak memberi.”"
+        }
+       },
+       {
+        "h": {
+         "en": "Accepting an AI company fact into a letter",
+         "id": "Menerima fakta perusahaan dari AI ke dalam surat"
+        },
+        "fix": {
+         "en": "Verify at the company’s own source first — or leave it out.",
+         "id": "Verifikasi di sumber perusahaan sendiri dulu — atau tinggalkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Submitting unedited AI text",
+         "id": "Mengirim teks AI yang tidak disunting"
+        },
+        "fix": {
+         "en": "It converges; recruiters recognise it. Personalise every section (Lesson 8.3).",
+         "id": "Ia menyeragamkan; rekruter mengenalinya. Personalisasi setiap bagian (Pelajaran 8.3)."
+        }
+       },
+       {
+        "h": {
+         "en": "Pasting the employer’s files or your ID into a public tool",
+         "id": "Menempel berkas perusahaan atau identitasmu ke alat publik"
+        },
+        "fix": {
+         "en": "Only your own notes, the public advertisement, your own CV text.",
+         "id": "Hanya catatanmu sendiri, iklan publik, teks CV-mu sendiri."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "facts-in prompt",
-        "id": "prompt fakta-masuk"
+        "en": "Stylist vs ghostwriter",
+        "id": "Penata gaya vs penulis bayangan"
        },
        "def": {
-        "en": "A prompt that supplies your rough notes, the bullet formula and the JD's top requirements and asks for candidate versions using only those facts — the opposite of “improve my CV”.",
-        "id": "Prompt yang menyediakan catatan kasarmu, rumus poin, dan syarat teratas JD lalu meminta beberapa versi kandidat hanya dari fakta-fakta itu — kebalikan dari “perbaiki CV saya”."
+        "en": "A stylist polishes the true story you supply; a ghostwriter invents one. Use AI only as the first.",
+        "id": "Penata gaya memoles cerita nyata yang kamu berikan; penulis bayangan mengarangnya. Pakai AI hanya sebagai yang pertama."
        }
       },
       {
        "term": {
-        "en": "inflated verb",
-        "id": "kata kerja yang digelembungkan"
+        "en": "Invents",
+        "id": "Mengarang"
        },
        "def": {
-        "en": "“Led” where you contributed, “managed” where you tracked, “designed” where you implemented — the second thing the verification read hunts for after invented facts.",
-        "id": "“Memimpin” padahal kamu berkontribusi, “mengelola” padahal kamu melacak, “merancang” padahal kamu mengimplementasikan — hal kedua yang diburu bacaan verifikasi setelah fakta yang dikarang."
+        "en": "States false facts confidently — initiatives, figures, dates, programme details.",
+        "id": "Menyatakan fakta palsu dengan percaya diri — inisiatif, angka, tanggal, detail program."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "AI-assisted bullet — unedited vs owned",
-        "id": "Butir berbantuan AI — tanpa suntingan vs sudah kamu miliki"
+       "term": {
+        "en": "Inflates",
+        "id": "Menggelembungkan"
        },
-       "q": {
-        "en": "From notes: “thesis - scraped 3 marketplace sites, python, ~90k listings, found price gap pattern, seller association invited me to present”",
-        "id": "Dari catatan: “skripsi - scraping 3 situs marketplace, python, ~90 ribu listing, menemukan pola selisih harga, asosiasi penjual mengundang saya presentasi”"
+       "def": {
+        "en": "Quietly enlarges your scope and numbers when asked to “make it stronger”.",
+        "id": "Diam-diam memperbesar cakupan dan angkamu ketika diminta “membuatnya lebih kuat”."
+       }
+      },
+      {
+       "term": {
+        "en": "Converges",
+        "id": "Menyeragamkan"
        },
-       "weak": {
-        "en": "“Leveraged cutting-edge Python web scraping technologies to spearhead a comprehensive analysis of e-commerce marketplaces, delivering actionable insights that drove significant stakeholder engagement.”",
-        "id": "“Memanfaatkan teknologi web scraping Python yang mutakhir untuk memelopori analisis komprehensif atas marketplace e-commerce, menghasilkan wawasan yang dapat ditindaklanjuti dan mendorong keterlibatan pemangku kepentingan yang signifikan.”"
+       "def": {
+        "en": "Unedited AI text sounds the same across thousands of applicants.",
+        "id": "Teks AI yang tidak disunting terdengar sama di ribuan pelamar."
+       }
+      },
+      {
+       "term": {
+        "en": "Defensibility",
+        "id": "Keterpertahankan"
        },
-       "strong": {
-        "en": "“Scraped and analysed ~90,000 listings from 3 Indonesian marketplaces (Python) for my thesis; identified a systematic cross-platform price gap that a regional seller association invited me to present to 40 members.”",
-        "id": "“Melakukan scraping dan menganalisis ~90.000 listing dari 3 marketplace Indonesia (Python) untuk skripsi; menemukan pola selisih harga lintas platform yang sistematis, sehingga sebuah asosiasi penjual daerah mengundang saya mempresentasikannya di depan 40 anggota.”"
+       "def": {
+        "en": "Whether you can talk about a line for two minutes at interview — only you can judge it.",
+        "id": "Apakah kamu bisa membicarakan satu baris selama dua menit saat wawancara — hanya kamu yang bisa menilainya."
+       }
+      },
+      {
+       "term": {
+        "en": "The Pack rule",
+        "id": "Aturan The Pack"
        },
-       "why": {
-        "en": "The weak version is fluent sludge — zero checkable facts survive. The strong version keeps every specific from the notes and adds the one detail (40 members) only the owner could supply.",
-        "id": "Versi yang lemah adalah teks lancar yang hambar — tidak ada satu pun fakta yang bisa diperiksa. Versi yang kuat mempertahankan setiap detail dari catatan dan menambahkan satu hal (40 anggota) yang hanya bisa diberikan pemiliknya sendiri."
+       "def": {
+        "en": "AI never adds a fact. Every fact, number, title and date comes from you and can be verified.",
+        "id": "AI tidak pernah menambah fakta. Setiap fakta, angka, jabatan, dan tanggal berasal darimu dan bisa diverifikasi."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Why does the strong prompt instruct the AI to ask for missing metrics instead of estimating?",
-        "id": "Mengapa prompt yang kuat menginstruksikan AI untuk menanyakan metrik yang belum ada, alih-alih menaksirnya?"
+        "en": "The best description of AI’s role in a job search is…",
+        "id": "Deskripsi terbaik peran AI dalam pencarian kerja adalah…"
        },
        "options": [
         {
-         "en": "To make the conversation longer",
-         "id": "Supaya percakapannya lebih panjang"
+         "en": "Ghostwriter — it writes the application",
+         "id": "Penulis bayangan — ia menulis lamarannya"
         },
         {
-         "en": "It blocks hallucination at the source and often surfaces real evidence you forgot you had",
-         "id": "Karena itu memblokir karangan langsung di sumbernya, dan sering memunculkan bukti nyata yang kamu lupa kamu punya"
+         "en": "Stylist, not ghostwriter — it polishes your true story",
+         "id": "Penata gaya, bukan penulis bayangan — ia memoles cerita nyatamu"
         },
         {
-         "en": "AI estimates are usually too conservative",
-         "id": "Karena taksiran AI biasanya terlalu konservatif"
+         "en": "Recruiter — it decides what employers want",
+         "id": "Rekruter — ia memutuskan apa yang diinginkan perusahaan"
+        },
+        {
+         "en": "Referee — it vouches for you",
+         "id": "Pemberi referensi — ia menjaminmu"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "An estimating AI fills gaps with fiction; an asking AI fills them with your memory. The question is the safety mechanism.",
-        "id": "AI yang menaksir mengisi celah dengan fiksi; AI yang bertanya mengisinya dengan ingatanmu. Pertanyaan itulah mekanisme pengamannya."
+        "en": "Everything it does well starts from material you supply and changes its form.",
+        "id": "Semua yang dilakukannya dengan baik dimulai dari bahan yang kamu berikan dan mengubah bentuknya."
+       }
+      },
+      {
+       "q": {
+        "en": "AI suggests “driving a 40% efficiency uplift” for a result you never measured. You should…",
+        "id": "AI menyarankan “mendorong peningkatan efisiensi 40%” untuk hasil yang tidak pernah kamu ukur. Kamu sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Keep it — it sounds strong",
+         "id": "Pertahankan — terdengar kuat"
+        },
+        {
+         "en": "Delete it, or replace it with your honest figure",
+         "id": "Hapus, atau ganti dengan angka jujurmu"
+        },
+        {
+         "en": "Round it down to 30%",
+         "id": "Bulatkan ke bawah menjadi 30%"
+        },
+        {
+         "en": "Add “approximately”",
+         "id": "Tambahkan “kira-kira”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "AI never adds a fact; an unmeasured number is an invented one.",
+        "id": "AI tidak pernah menambah fakta; angka yang tidak diukur adalah angka yang dikarang."
+       }
+      },
+      {
+       "q": {
+        "en": "Should you paste confidential internship data into a public AI tool to “extract achievements”?",
+        "id": "Haruskah kamu menempel data magang rahasia ke alat AI publik untuk “mengekstrak pencapaian”?"
+       },
+       "options": [
+        {
+         "en": "Yes, if you delete it afterwards",
+         "id": "Ya, jika kamu menghapusnya setelahnya"
+        },
+        {
+         "en": "No",
+         "id": "Tidak"
+        },
+        {
+         "en": "Only the figures, not the names",
+         "id": "Hanya angkanya, bukan namanya"
+        },
+        {
+         "en": "Yes, if the tool is free",
+         "id": "Ya, jika alatnya gratis"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Your own notes, in your own words, are the safe input — and the only one that produces a defensible bullet.",
+        "id": "Catatanmu sendiri, dengan kata-katamu, adalah masukan yang aman — dan satu-satunya yang menghasilkan butir yang bisa dipertahankan."
        }
       }
      ],
@@ -35523,555 +35684,909 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "cv",
       "title": {
-       "en": "Let the rules do the reading",
-       "id": "Biarkan aturannya yang membaca"
+       "en": "Your AI rule, next to your CV",
+       "id": "Aturan AI-mu, di samping CV-mu"
       },
       "body": {
-       "en": "The CV studio is this lesson in tool form: transparent lint rules for verbs, numbers and length — the checks AI tools run, shown openly so you learn what they reward.",
-       "id": "Studio CV adalah pelajaran ini dalam bentuk alat: aturan pemeriksaan yang transparan untuk kata kerja, angka, dan panjang — pemeriksaan yang sama seperti yang dijalankan alat AI, ditampilkan secara terbuka supaya kamu paham apa yang dihargainya."
+       "en": "Open the CV studio and read your current bullets once with the five failure modes in mind: is there a verb you would not use aloud, a scope larger than what you did, a number you did not measure? Mark each; Lesson 8.3’s checklist fixes them. Then write the two rules at the top of your prompt library for this module: “AI never adds a fact” and “only my own notes go in”.",
+       "id": "Buka studio CV dan baca butir-butirmu saat ini sekali dengan lima mode kegagalan dalam pikiran: adakah kata kerja yang tidak akan kamu ucapkan, cakupan lebih besar dari yang kamu lakukan, angka yang tidak kamu ukur? Tandai masing-masing; daftar periksa Pelajaran 8.3 memperbaikinya. Lalu tulis dua aturan di bagian atas pustaka prompt-mu untuk modul ini: “AI tidak pernah menambah fakta” dan “hanya catatan saya sendiri yang masuk”."
       },
       "cta": {
        "en": "Open the CV studio →",
        "id": "Buka studio CV →"
       }
      },
+     "takeaways": [
+      {
+       "en": "Stylist, not ghostwriter.",
+       "id": "Penata gaya, bukan penulis bayangan."
+      },
+      {
+       "en": "It invents, inflates, converges, misreads local reality and cannot judge defensibility.",
+       "id": "Ia mengarang, menggelembungkan, menyeragamkan, salah membaca realitas lokal, dan tidak bisa menilai keterpertahankan."
+      },
+      {
+       "en": "AI never adds a fact — and nothing confidential goes into a public tool.",
+       "id": "AI tidak pernah menambah fakta — dan tidak ada yang rahasia masuk ke alat publik."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the two rules",
+       "id": "Sumber dan dua aturan"
+      },
+      "lead": {
+       "en": "Four sources, and the card to keep above every prompt.",
+       "id": "Empat sumber, dan kartu untuk disimpan di atas setiap prompt."
+      },
       "items": [
        {
-        "kind": "prompt",
+        "kind": "guide",
         "title": {
-         "en": "CV tightening prompt",
-         "id": "Prompt pemadatan CV"
+         "en": "Reading list · Lesson 8.1",
+         "id": "Daftar bacaan · Pelajaran 8.1"
         },
         "desc": {
-         "en": "Paste with your master-record lines. Facts in, phrasing out.",
-         "id": "Tempel bersama baris catatan indukmu. Fakta masuk, frasa keluar."
+         "en": "Four sources; points marked as course guidance are The Pack’s own.",
+         "id": "Empat sumber; poin yang ditandai panduan kursus adalah milik The Pack sendiri."
         },
         "body": [
          {
-          "en": "“Below are bullet points from my own work record. Rewrite each as one line, starting with a strong verb, keeping every number, name and date exactly as given. Do not add achievements, tools or figures that are not in the input. Flag any bullet that has no measurable result so I can add one. Target role: [role]. Bullets: [paste]”",
-          "id": "“Berikut butir-butir dari catatan kerja saya sendiri. Tulis ulang masing-masing menjadi satu baris, diawali kata kerja kuat, dengan mempertahankan setiap angka, nama, dan tanggal persis seperti diberikan. Jangan menambahkan pencapaian, alat, atau angka yang tidak ada di masukan. Tandai butir yang tidak punya hasil terukur agar saya bisa menambahkannya. Peran tujuan: [peran]. Butir: [tempel]”"
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), Introduction, ch. 1, 4–8, 11–12 — stylist not ghostwriter; what AI does well; invention and inflation.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), Pendahuluan, bab 1, 4–8, 11–12 — penata gaya bukan penulis bayangan; apa yang dilakukan AI dengan baik; karangan dan penggelembungan."
          },
          {
-          "en": "Follow-up: “Which three of these are most relevant to this job description, and why? [paste JD]. Do not rewrite them.”",
-          "id": "Lanjutan: “Tiga mana yang paling relevan dengan deskripsi pekerjaan ini, dan mengapa? [tempel JD]. Jangan menulis ulang.”"
+          "en": "P. Ow, <i>Tailor Your Call</i> — candidates who would stretch the truth.",
+          "id": "P. Ow, <i>Tailor Your Call</i> — kandidat yang akan melebih-lebihkan kebenaran."
+         },
+         {
+          "en": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i>, ch. 20 — the profile is public; colleagues see it.",
+          "id": "D. Serdula, <i>LinkedIn Profile Optimization For Dummies</i>, bab 20 — profil itu publik; rekan melihatnya."
+         },
+         {
+          "en": "J. Innes, <i>The CV Book</i>, ch. 3 — reference checks and probation.",
+          "id": "J. Innes, <i>The CV Book</i>, bab 3 — pemeriksaan referensi dan masa percobaan."
          }
         ]
        },
        {
         "kind": "checklist",
         "title": {
-         "en": "Verification pass after any AI draft",
-         "id": "Pemeriksaan setelah draf AI"
+         "en": "Two rules above every prompt",
+         "id": "Dua aturan di atas setiap prompt"
         },
         "desc": {
-         "en": "Do not skip a line.",
-         "id": "Jangan lewati satu baris pun."
+         "en": "Copy to the top of your prompt library.",
+         "id": "Salin ke bagian atas pustaka prompt-mu."
         },
         "body": [
          {
-          "en": "Every number traced to the master record",
-          "id": "Setiap angka ditelusuri ke catatan induk"
+          "en": "AI never adds a fact: every fact, number, title and date comes from me and can be verified",
+          "id": "AI tidak pernah menambah fakta: setiap fakta, angka, jabatan, dan tanggal berasal dari saya dan bisa diverifikasi"
          },
          {
-          "en": "Every tool or skill named is one I have actually used",
-          "id": "Setiap alat atau keterampilan yang disebut benar-benar pernah kupakai"
+          "en": "Only my own notes, the public advertisement and my own CV text go in — never employer files, colleagues’ data or ID numbers",
+          "id": "Hanya catatan saya sendiri, iklan publik, dan teks CV saya sendiri yang masuk — tidak pernah berkas perusahaan, data rekan, atau nomor identitas"
          },
          {
-          "en": "No adjective without evidence in the same line",
-          "id": "Tak ada kata sifat tanpa bukti di baris yang sama"
+          "en": "Before accepting any output: which of the five failure modes is in it?",
+          "id": "Sebelum menerima keluaran apa pun: mode kegagalan mana dari lima yang ada di dalamnya?"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "The Co-Writer Protocol",
+      "id": "Protokol Penulis Pendamping"
+     },
+     "overview": {
+      "en": "A reusable prompt anatomy in seven parts — the seventh is the guardrail that stops invention — eight prompt types worth keeping in a personal library, and a worked four-turn session in which Nadia’s prompt, the output, her edits and her final version are shown with every change annotated. The protocol is how a stylist is briefed.",
+      "id": "Anatomi prompt yang bisa dipakai ulang dalam tujuh bagian — bagian ketujuh adalah pagar pengaman yang menghentikan karangan — delapan jenis prompt yang layak disimpan di pustaka pribadi, dan sesi empat giliran yang dikerjakan di mana prompt Nadia, keluarannya, suntingannya, dan versi akhirnya ditampilkan dengan setiap perubahan dianotasi. Protokol ini adalah cara penata gaya diberi arahan."
+     },
+     "objectives": [
+      {
+       "en": "Write prompts using the seven-part anatomy with a no-invention guardrail.",
+       "id": "Menulis prompt dengan anatomi tujuh bagian dan pagar pengaman tanpa-karangan."
+      },
+      {
+       "en": "Keep eight prompt types in a personal library and adapt them.",
+       "id": "Menyimpan delapan jenis prompt di pustaka pribadi dan mengadaptasinya."
+      },
+      {
+       "en": "Edit an AI output against your own source material, change by change.",
+       "id": "Menyunting keluaran AI terhadap bahan sumbermu sendiri, perubahan demi perubahan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Seven parts, one guardrail",
+       "id": "Tujuh bagian, satu pagar pengaman"
+      },
+      "intro": {
+       "en": "A vague prompt gets a ghostwriter. A seven-part prompt gets a stylist. The difference is what you supply.",
+       "id": "Prompt yang samar mendapat penulis bayangan. Prompt tujuh bagian mendapat penata gaya. Perbedaannya adalah apa yang kamu berikan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The anatomy",
+         "id": "Anatomi"
+        },
+        "points": [
+         {
+          "en": "Role and context · source material · task · constraints · output structure · style anchor · guardrail.",
+          "id": "Peran dan konteks · bahan sumber · tugas · batasan · struktur keluaran · jangkar gaya · pagar pengaman."
          },
          {
-          "en": "No “leverage”, “synergy”, “passionate”, “thrilled”, “dynamic”",
-          "id": "Tak ada “memanfaatkan”, “sinergi”, “bersemangat”, “sangat antusias”, “dinamis”"
+          "en": "Part 2 is where your facts go in. Part 7 is where invention is kept out.",
+          "id": "Bagian 2 adalah tempat faktamu masuk. Bagian 7 adalah tempat karangan dijaga di luar."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The guardrail",
+         "id": "Pagar pengaman"
+        },
+        "points": [
+         {
+          "en": "“Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].”",
+          "id": "“Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK].”"
          },
          {
-          "en": "Read aloud: it sounds like me speaking in an interview",
-          "id": "Dibaca keras: terdengar seperti aku berbicara di wawancara"
+          "en": "Paste it into every prompt. It does not make the tool honest; it makes invention visible.",
+          "id": "Tempel ke setiap prompt. Itu tidak membuat alat jujur; itu membuat karangan terlihat."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Eight prompts",
+         "id": "Delapan prompt"
+        },
+        "points": [
+         {
+          "en": "JD decoder · gap analysis · bullet upgrader · headline generator · letter skeleton · message drafter · critic mode · rehearsal.",
+          "id": "Pengurai iklan · analisis celah · peningkat butir · pembuat headline · kerangka surat · penyusun pesan · mode kritikus · latihan."
          },
          {
-          "en": "I can tell a two-minute story behind every line",
-          "id": "Aku bisa menceritakan kisah dua menit di balik setiap baris"
+          "en": "Five of them, adapted to you, are the module’s Dossier item.",
+          "id": "Lima di antaranya, diadaptasi untukmu, adalah butir Dossier modul ini."
          }
         ]
        }
       ]
      },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Accepting the tool’s numbers",
-         "id": "Menerima angka dari alat"
-        },
-        "fix": {
-         "en": "If you did not type the number, it is not yours. Replace every figure with one from the master record or delete it.",
-         "id": "Kalau kamu tidak mengetik angkanya, itu bukan milikmu. Ganti setiap angka dengan yang dari catatan induk atau hapus."
-        }
-       },
-       {
-        "h": {
-         "en": "Asking for “impressive” bullets",
-         "id": "Meminta butir yang “mengesankan”"
-        },
-        "fix": {
-         "en": "You get inflation. Ask for “specific, verifiable, one line, verb first”.",
-         "id": "Kamu akan mendapat inflasi. Minta “spesifik, dapat diverifikasi, satu baris, kata kerja di depan”."
-        }
-       },
-       {
-        "h": {
-         "en": "One prompt, one output, done",
-         "id": "Satu prompt, satu keluaran, selesai"
-        },
-        "fix": {
-         "en": "Iterate: draft → verify → tighten → read aloud → cut. The tool is a fast junior, not an author.",
-         "id": "Ulangi: draf → verifikasi → padatkan → baca keras → pangkas. Alat itu junior yang cepat, bukan penulis."
-        }
-       }
-      ]
-     }
-    },
-    {
-     "n": "8.3",
-     "title": {
-      "en": "AI for ATS Scoring and Keyword Gap Analysis",
-      "id": "AI untuk Skor ATS dan Analisis Celah Kata Kunci"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Keyword-gap analysis with AI and without illusions: how matching actually works, how to close honest gaps, and why the Screening Gym's transparent on-device check is the calibration layer for any AI score you meet elsewhere.",
-      "id": "Analisis celah kata kunci dengan AI, tanpa ilusi: cara pencocokan sebenarnya bekerja, cara menutup celah dengan jujur, dan mengapa pemeriksa transparan di Screening Gym yang bekerja di perangkatmu adalah lapisan kalibrasi untuk skor AI apa pun yang kamu temui di tempat lain."
-     },
-     "objectives": [
-      {
-       "en": "Run a keyword-gap analysis between CV and JD, with AI and with the Gym's check.",
-       "id": "Menjalankan analisis celah kata kunci antara CV dan deskripsi lowongan, dengan AI dan dengan pemeriksa di Gym."
-      },
-      {
-       "en": "Close gaps honestly: rephrase, evidence, learn, or accept.",
-       "id": "Menutup celah dengan jujur: ubah frasanya, beri bukti, pelajari, atau terima."
-      },
-      {
-       "en": "Calibrate third-party “ATS scores” against what they can actually know.",
-       "id": "Mengalibrasi “skor ATS” dari pihak ketiga terhadap apa yang benar-benar bisa mereka ketahui."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A keyword gap has exactly four honest closes, and pasting the keyword is not one of them. To run the analysis without illusions, you can:",
-      "id": "Celah kata kunci punya tepat empat cara jujur untuk ditutup, dan menempelkan kata kuncinya bukan salah satunya. Untuk menjalankan analisis tanpa ilusi, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "A keyword gap has four honest closes: their term for your true experience, new evidence, actual learning — or acceptance.",
-       "id": "Sebuah celah kata kunci punya empat cara jujur untuk ditutup: istilah mereka untuk pengalaman aslimu, bukti baru, belajar sungguhan — atau menerimanya."
-      },
-      {
-       "en": "Commercial “ATS scores” estimate against generic models — treat them as linting, not verdicts.",
-       "id": "“Skor ATS” komersial menaksir berdasarkan model generik — perlakukan sebagai pemeriksaan awal, bukan vonis."
-      },
-      {
-       "en": "The gap list doubles as interview prep: every keyword you claim will be probed by a human eventually.",
-       "id": "Daftar celah sekaligus menjadi persiapan wawancara: setiap kata kunci yang kamu klaim pada akhirnya akan digali oleh manusia."
-      }
-     ],
      "sections": [
       {
        "icon": "gear",
        "h": {
-        "en": "Running the analysis",
-        "id": "Menjalankan analisisnya"
+        "en": "Seven-part prompt anatomy",
+        "id": "Anatomi prompt tujuh bagian"
        },
        "body": {
-        "en": "Extract from the JD: named tools, methods, competencies, domain terms — weighted by repetition and position. Compare against your CV as written. The Gym's ATS check automates exactly this, on-device and transparently: it shows which load-bearing JD terms appear in your CV, which are missing, and where sections look weak to a parser. An AI assistant adds a useful second pass — synonyms and implied matches the literal check cannot see (“built dashboards weekly” implies reporting experience) — but its output is a suggestion list, filtered through the same honesty gate as everything else.",
-        "id": "Ambil dari deskripsi lowongan: nama alat, metode, kompetensi, istilah bidang — diberi bobot berdasarkan seberapa sering diulang dan di mana posisinya. Bandingkan dengan CV-mu apa adanya. Pemeriksa ATS di Gym mengotomatiskan persis ini, di perangkatmu dan secara transparan: ia menunjukkan istilah penopang mana dari deskripsi lowongan yang muncul di CV-mu, mana yang belum ada, dan bagian mana yang terlihat lemah bagi pengurai. Asisten AI menambahkan putaran kedua yang berguna — sinonim dan kecocokan tersirat yang tidak terlihat oleh pemeriksa harfiah (“membangun dasbor setiap minggu” menyiratkan pengalaman pelaporan) — tetapi keluarannya adalah daftar saran, yang disaring lewat gerbang kejujuran yang sama seperti semua hal lainnya."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "Four honest closes",
-        "id": "Empat cara jujur menutup celah"
+        "en": "Dumas’s large prompt library follows one underlying structure <i>(Dumas, The AI-Savvy Job Seeker, ch. 4–7, 12)</i>; The Pack adds a seventh part, the guardrail. A prompt with all seven is long — a paragraph or more — and that is the point: the length is your material, and the material is what keeps the output yours.",
+        "id": "Pustaka prompt Dumas yang besar mengikuti satu struktur dasar <i>(Dumas, The AI-Savvy Job Seeker, bab 4–7, 12)</i>; The Pack menambah bagian ketujuh, pagar pengaman. Prompt dengan ketujuhnya itu panjang — satu paragraf atau lebih — dan itulah intinya: panjangnya adalah bahanmu, dan bahannya yang menjaga keluaran tetap milikmu."
        },
-       "body": {
-        "en": "For each missing term, exactly one of four moves. <b>Rephrase:</b> you have the experience under different words — adopt their vocabulary (“coordinated with faculty and sponsors” becomes “stakeholder management”, truthfully). <b>Evidence:</b> you have adjacent experience worth an honest bullet that partially covers the term. <b>Learn:</b> the term names a real gap that matters across your target JDs — a weekend project or course converts it from gap to bullet (and “currently learning X, applied in [small project]” is a legitimate line). <b>Accept:</b> the gap is real and unclosable this cycle — apply anyway if the musts are met, and prepare the honest interview answer for when it comes up. What is never on the list: pasting the keyword without experience behind it.",
-        "id": "Untuk setiap istilah yang belum ada, pilih tepat satu dari empat langkah. <b>Ubah frasanya:</b> kamu punya pengalamannya, hanya dengan kata yang berbeda — pakai kosakata mereka (“berkoordinasi dengan fakultas dan sponsor” menjadi “stakeholder management”, dengan jujur). <b>Beri bukti:</b> kamu punya pengalaman yang berdekatan dan layak menjadi satu butir jujur yang menutup sebagian istilah itu. <b>Pelajari:</b> istilah itu menunjukkan celah nyata yang penting di banyak lowongan targetmu — proyek akhir pekan atau satu kursus mengubahnya dari celah menjadi butir (dan “sedang mempelajari X, diterapkan di [proyek kecil]” adalah butir yang sah). <b>Terima:</b> celahnya nyata dan tidak bisa ditutup di siklus ini — tetap lamar kalau syarat wajibnya terpenuhi, dan siapkan jawaban wawancara yang jujur untuk saat hal itu ditanyakan. Yang tidak pernah ada di daftar: menempelkan kata kunci tanpa pengalaman di baliknya."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Calibrating the scores",
-        "id": "Mengalibrasi skornya"
-       },
-       "body": {
-        "en": "Commercial tools sell “ATS compatibility scores” with confident percentages. Understand what they can and cannot know: they can check parsing hygiene and keyword overlap against the JD you gave them — useful linting; they cannot know any specific employer's actual configuration, weights or knockouts, so “87% match” is an estimate against a generic model, not a prediction. Practical calibration: treat any score as a direction (higher coverage of load-bearing terms, cleaner parsing = better), ignore decimal precision, and never pay for a number the Gym's transparent check plus five minutes of judgment gives you honestly. The unfixable remainder — the employer's hidden weights — is exactly why referrals and evidence quality still dominate outcomes.",
-        "id": "Alat-alat komersial menjual “skor kompatibilitas ATS” dengan persentase yang terdengar meyakinkan. Pahami apa yang bisa dan tidak bisa mereka ketahui: mereka bisa memeriksa kebersihan format untuk diurai dan irisan kata kunci dengan deskripsi lowongan yang kamu berikan — pemeriksaan awal yang berguna; mereka tidak mungkin tahu konfigurasi, bobot, atau pertanyaan penggugur yang sebenarnya dipakai perusahaan tertentu, jadi “cocok 87%” adalah taksiran terhadap model generik, bukan ramalan. Kalibrasi praktisnya: perlakukan skor apa pun sebagai arah (cakupan istilah penopang lebih tinggi, format lebih bersih = lebih baik), abaikan angka di belakang koma, dan jangan pernah membayar untuk angka yang bisa kamu dapatkan dengan jujur dari pemeriksa transparan di Gym plus lima menit pertimbanganmu sendiri. Sisa yang tidak bisa diperbaiki — bobot tersembunyi milik perusahaan — persis alasan mengapa rekomendasi dan mutu bukti tetap paling menentukan hasil."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: The four honest closes — for each missing term, exactly one of these moves.",
-       "id": "Peraga 1: Empat cara jujur menutup celah — untuk setiap istilah yang hilang, tepat satu dari langkah-langkah ini."
-      },
-      "title": {
-       "en": "Rephrase · Evidence · Learn · Accept",
-       "id": "Ubah frasa · Bukti · Pelajari · Terima"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Rephrase",
-         "id": "Ubah frasa"
-        },
-        "sub": {
-         "en": "You have the experience under different words — adopt their vocabulary, truthfully",
-         "id": "Kamu punya pengalamannya dengan kata-kata berbeda — pakai kosakata mereka, dengan jujur"
-        }
-       },
-       {
-        "h": {
-         "en": "Evidence",
-         "id": "Bukti"
-        },
-        "sub": {
-         "en": "Adjacent experience earns an honest bullet that partially covers the term",
-         "id": "Pengalaman yang berdekatan layak mendapat satu poin jujur yang sebagian mencakup istilah itu"
-        }
-       },
-       {
-        "h": {
-         "en": "Learn",
-         "id": "Pelajari"
-        },
-        "sub": {
-         "en": "A real gap across your target JDs — a weekend project converts it to a bullet",
-         "id": "Celah nyata di seluruh JD targetmu — proyek akhir pekan mengubahnya menjadi poin"
-        }
-       },
-       {
-        "h": {
-         "en": "Accept",
-         "id": "Terima"
-        },
-        "sub": {
-         "en": "Unclosable this cycle — apply if musts are met; prepare the honest interview answer",
-         "id": "Tak bisa ditutup siklus ini — lamar jika syarat wajib terpenuhi; siapkan jawaban wawancara yang jujur"
-        }
-       }
-      ],
-      "note": {
-       "en": "Never on the list: pasting the keyword without experience behind it — every keyword you claim will be probed in the interview.",
-       "id": "Tak pernah ada di daftar: menempelkan kata kunci tanpa pengalaman di baliknya — setiap kata kunci yang kamu klaim akan diselidiki saat wawancara."
-      },
-      "longdesc": {
-       "en": "A two-by-two grid of the four honest ways to close a keyword gap: rephrase true experience into the employer's vocabulary; add an evidence bullet from adjacent experience; learn the skill through a small project; or accept the gap and prepare the honest interview answer. The note rules out pasting keywords without experience.",
-       "id": "Kisi dua kali dua berisi empat cara jujur menutup celah kata kunci: ubah frasa pengalaman yang benar ke kosakata pemberi kerja; tambahkan poin bukti dari pengalaman yang berdekatan; pelajari keterampilannya lewat proyek kecil; atau terima celahnya dan siapkan jawaban wawancara yang jujur. Catatannya melarang menempelkan kata kunci tanpa pengalaman."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "keyword gap",
-        "id": "celah kata kunci"
-       },
-       "def": {
-        "en": "A load-bearing JD term absent from your CV as written — found by comparing weighted JD terms against your document, which the Gym's ATS check does on-device and transparently.",
-        "id": "Istilah penopang JD yang tak ada di CV-mu sebagaimana tertulis — ditemukan dengan membandingkan istilah JD berbobot terhadap dokumenmu, yang dilakukan pemeriksaan ATS Gym di perangkat secara transparan."
-       }
-      },
-      {
-       "term": {
-        "en": "ATS compatibility score",
-        "id": "skor kompatibilitas ATS"
-       },
-       "def": {
-        "en": "A commercial tool's confident percentage estimating parsing hygiene and keyword overlap against a generic model — useful as linting, never a prediction of any specific employer's decision.",
-        "id": "Persentase percaya diri dari alat komersial yang menaksir kebersihan pengurai dan tumpang tindih kata kunci terhadap model generik — berguna sebagai pemeriksa, tak pernah menjadi prediksi keputusan pemberi kerja tertentu."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "The JD demands “experience with Tableau”; you have none but strong Excel dashboard work. The honest close?",
-        "id": "Deskripsi lowongan menuntut “pengalaman dengan Tableau”; kamu tidak punya, tetapi kuat dalam membuat dasbor di Excel. Cara jujur menutupnya?"
-       },
-       "options": [
-        {
-         "en": "Add Tableau to skills — dashboard concepts transfer anyway",
-         "id": "Tambahkan Tableau ke daftar keterampilan — toh konsep dasbornya sama saja"
-        },
-        {
-         "en": "Evidence the adjacent skill (“built 5 Excel dashboards used weekly by 20 staff”), start a small Tableau project, and list it as currently learning once real",
-         "id": "Beri bukti keterampilan yang berdekatan (“membangun 5 dasbor Excel yang dipakai 20 staf setiap minggu”), mulai proyek Tableau kecil, dan cantumkan sebagai sedang dipelajari begitu benar-benar berjalan"
-        },
-        {
-         "en": "Skip every JD that mentions Tableau",
-         "id": "Lewati semua lowongan yang menyebut Tableau"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Adjacent evidence plus genuine learning covers the gap honestly and survives the interview probe that the pasted keyword would fail.",
-        "id": "Bukti yang berdekatan plus belajar sungguhan menutup celah dengan jujur, dan lolos dari pertanyaan wawancara yang pasti menjatuhkan kata kunci tempelan."
-       }
-      }
-     ],
-     "tool": {
-      "id": "gym",
-      "mode": "ats",
-      "title": {
-       "en": "Run the transparent check",
-       "id": "Jalankan pemeriksa yang transparan"
-      },
-      "body": {
-       "en": "CV against JD, on your device, every matched and missing term visible — the calibration layer for any score anyone else sells you.",
-       "id": "CV dibandingkan dengan deskripsi lowongan, di perangkatmu, setiap istilah yang cocok dan yang belum ada terlihat jelas — lapisan kalibrasi untuk skor apa pun yang dijual orang lain kepadamu."
-      },
-      "cta": {
-       "en": "Open the ATS check →",
-       "id": "Buka pemeriksa ATS →"
-      }
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Chasing a 90% match score",
-         "id": "Mengejar skor kecocokan 90%"
-        },
-        "fix": {
-         "en": "Above a sensible threshold, more keywords add noise and inflation risk. Close honest gaps, then stop.",
-         "id": "Di atas ambang yang wajar, lebih banyak kata kunci menambah kebisingan dan risiko inflasi. Tutup celah yang jujur, lalu berhenti."
-        }
-       },
-       {
-        "h": {
-         "en": "Adding skills you have not used",
-         "id": "Menambahkan keterampilan yang belum pernah dipakai"
-        },
-        "fix": {
-         "en": "A gap in a required tool is closed by a weekend project, not by typing the word.",
-         "id": "Celah pada alat yang disyaratkan ditutup dengan proyek akhir pekan, bukan dengan mengetik kata itu."
-        }
-       },
-       {
-        "h": {
-         "en": "Trusting one tool’s score",
-         "id": "Mempercayai skor satu alat"
-        },
-        "fix": {
-         "en": "Different tools weight differently. Use the transparent on-device check as the baseline and treat others as second opinions.",
-         "id": "Alat yang berbeda memberi bobot berbeda. Gunakan pemeriksaan transparan di perangkat sebagai dasar dan anggap yang lain sebagai pendapat kedua."
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "What you supply",
+          "id": "Yang kamu berikan"
+         },
+         {
+          "en": "Nadia’s bullet-upgrader prompt",
+          "id": "Prompt peningkat butir Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1 · Role &amp; context",
+           "id": "1 · Peran &amp; konteks"
+          },
+          {
+           "en": "Who you are and what you are targeting",
+           "id": "Siapa kamu dan apa sasaranmu"
+          },
+          {
+           "en": "“I’m a 2026 Management graduate applying for operations trainee roles at FMCG and banking employers in Indonesia.”",
+           "id": "“Saya lulusan Manajemen 2026 yang melamar peran trainee operasi di perusahaan FMCG dan perbankan di Indonesia.”"
+          }
+         ],
+         [
+          {
+           "en": "2 · Source material",
+           "id": "2 · Bahan sumber"
+          },
+          {
+           "en": "Your real notes, CV, the job description — pasted",
+           "id": "Catatan nyatamu, CV, deskripsi pekerjaan — ditempel"
+          },
+          {
+           "en": "“My notes: internship, bank ops, Jun–Aug 2025; reconciled daily reports, 3 branches; found one terminal giving the same mismatch daily; the settings fix saved ~30 min/day of manual correction; built a reconciliation checklist the team still uses.”",
+           "id": "“Catatan saya: magang, ops bank, Jun–Agu 2025; merekonsiliasi laporan harian, 3 cabang; menemukan satu terminal dengan selisih yang sama tiap hari; perbaikan pengaturan menghemat ~30 mnt/hari koreksi manual; membangun daftar periksa rekonsiliasi yang masih dipakai tim.”"
+          }
+         ],
+         [
+          {
+           "en": "3 · Task",
+           "id": "3 · Tugas"
+          },
+          {
+           "en": "One clear deliverable",
+           "id": "Satu hasil yang jelas"
+          },
+          {
+           "en": "“Rewrite these notes as two CV achievement bullets.”",
+           "id": "“Tulis ulang catatan ini sebagai dua butir pencapaian CV.”"
+          }
+         ],
+         [
+          {
+           "en": "4 · Constraints",
+           "id": "4 · Batasan"
+          },
+          {
+           "en": "Length, character limit, tone, language, format",
+           "id": "Panjang, batas karakter, nada, bahasa, format"
+          },
+          {
+           "en": "“Each under 25 words; verb + what + scale + result; English; no adjectives.”",
+           "id": "“Masing-masing di bawah 25 kata; kata kerja + apa + skala + hasil; bahasa Inggris; tanpa kata sifat.”"
+          }
+         ],
+         [
+          {
+           "en": "5 · Output structure",
+           "id": "5 · Struktur keluaran"
+          },
+          {
+           "en": "e.g. “a) three options b) the keywords you used c) one line on why”",
+           "id": "mis. “a) tiga opsi b) kata kunci yang dipakai c) satu baris alasan”"
+          },
+          {
+           "en": "“a) the two bullets b) the words you took from my notes c) anything you could not source from my notes.”",
+           "id": "“a) dua butir b) kata yang kamu ambil dari catatan saya c) apa pun yang tidak bisa kamu ambil dari catatan saya.”"
+          }
+         ],
+         [
+          {
+           "en": "6 · Style anchor",
+           "id": "6 · Jangkar gaya"
+          },
+          {
+           "en": "An example you like, for tone only",
+           "id": "Contoh yang kamu suka, untuk nada saja"
+          },
+          {
+           "en": "“Tone like: ‘Rebuilt the association’s bookkeeping into a monthly close; the 2025 audit found zero issues.’”",
+           "id": "“Nada seperti: ‘Membangun ulang pembukuan himpunan menjadi tutup buku bulanan; audit 2025 menemukan nol masalah.’”"
+          }
+         ],
+         [
+          {
+           "en": "7 · Guardrail",
+           "id": "7 · Pagar pengaman"
+          },
+          {
+           "en": "“Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].”",
+           "id": "“Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK].”"
+          },
+          {
+           "en": "Pasted verbatim, last.",
+           "id": "Ditempel kata demi kata, terakhir."
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Part 5c is the quiet hero: asking the tool to list what it could not source makes invention confess itself.",
+         "id": "Bagian 5c adalah pahlawan diam: meminta alat mendaftar apa yang tidak bisa diambilnya membuat karangan mengaku sendiri."
         }
        }
-      ]
-     }
-    },
-    {
-     "n": "8.4",
-     "title": {
-      "en": "AI for Cover Letter Personalisation and Company Research",
-      "id": "AI untuk Personalisasi Surat Lamaran dan Riset Perusahaan"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "The letter and the research, AI-assisted without the sludge: company research workflows that verify before they claim, and the personalisation pass that puts a human back into an AI-drafted letter. Ends with the module's ethics summary.",
-      "id": "Surat lamaran dan riset, dibantu AI tanpa jadi hambar: alur riset perusahaan yang memverifikasi sebelum mengklaim, dan putaran personalisasi yang mengembalikan sentuhan manusia ke dalam surat yang drafnya dibuat AI. Ditutup dengan ringkasan etika modul ini."
-     },
-     "objectives": [
-      {
-       "en": "Run AI company research that separates verified facts from plausible fictions.",
-       "id": "Menjalankan riset perusahaan dengan AI yang memisahkan fakta terverifikasi dari fiksi yang terdengar masuk akal."
       },
-      {
-       "en": "Draft letters with AI, then apply the two-point personalisation pass by hand.",
-       "id": "Menyusun draf surat dengan AI, lalu menerapkan putaran personalisasi dua titik dengan tanganmu sendiri."
-      },
-      {
-       "en": "State the module's ethics: where AI assistance ends and misrepresentation begins.",
-       "id": "Menyatakan etika modul ini: di mana bantuan AI berakhir dan penyesatan dimulai."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "AI research briefs are leads, not facts, and the two personalisation points must be human. To draft with the tool and still sound like you, you can:",
-      "id": "Ringkasan riset AI adalah petunjuk, bukan fakta, dan dua titik personalisasi harus ditulis manusia. Untuk menyusun draf dengan alat dan tetap terdengar seperti dirimu, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "AI research briefs are leads, not facts: every claim that enters your letter gets verified at the source.",
-       "id": "Ringkasan riset dari AI adalah petunjuk, bukan fakta: setiap klaim yang masuk ke suratmu harus diverifikasi di sumbernya."
-      },
-      {
-       "en": "The two personalisation points (opening proof, why-them paragraph) must be human-made — they are what the reader checks.",
-       "id": "Dua titik personalisasi (bukti pembuka dan paragraf “mengapa perusahaan ini”) harus buatan manusia — itulah yang diperiksa pembaca."
-      },
-      {
-       "en": "The ethics line is constant across the module: assistance with your truth, never manufacture of a better one.",
-       "id": "Garis etikanya tetap sama di sepanjang modul: bantuan untuk menyampaikan kebenaranmu, bukan untuk memproduksi kebenaran yang lebih bagus."
-      }
-     ],
-     "sections": [
       {
        "icon": "book",
        "h": {
-        "en": "Research that verifies",
-        "id": "Riset yang memverifikasi"
+        "en": "Eight prompt types worth keeping",
+        "id": "Delapan jenis prompt yang layak disimpan"
        },
        "body": {
-        "en": "The workflow: ask the AI for a structured brief — products, customers, recent developments, competitors, likely challenges for the team you are joining — then <b>verify before use</b>: the two or three facts you intend to cite get checked against the company's own site, a news search, or their published reports. The AI's job was the map; the sources are the territory. This habit also upgrades interviews: “I read your sustainability report's section on supplier audits” lands, and survives follow-up, in a way no unverified summary can. Time cost after practice: fifteen minutes per company, most of it reading things worth reading anyway.",
-        "id": "Alurnya: minta AI membuat ringkasan terstruktur — produk, pelanggan, perkembangan terbaru, pesaing, kemungkinan tantangan bagi tim yang akan kamu masuki — lalu <b>verifikasi sebelum dipakai</b>: dua atau tiga fakta yang akan kamu kutip diperiksa terhadap situs resmi perusahaan, pencarian berita, atau laporan yang mereka terbitkan. Tugas AI adalah membuat petanya; sumber-sumber itulah wilayah sebenarnya. Kebiasaan ini juga menaikkan kelas wawancaramu: “Saya membaca bagian audit pemasok di laporan keberlanjutan Anda” mengena, dan tahan terhadap pertanyaan lanjutan, dengan cara yang tidak mungkin dicapai ringkasan yang belum diverifikasi. Biaya waktunya setelah terbiasa: lima belas menit per perusahaan, sebagian besar untuk membaca hal-hal yang memang layak dibaca."
+        "en": "Written for The Pack; adapt freely. Each is a task line (part 3) with its own constraints; parts 1, 2 and 7 are always yours to add.",
+        "id": "Ditulis untuk The Pack; adaptasi dengan bebas. Masing-masing adalah baris tugas (bagian 3) dengan batasannya sendiri; bagian 1, 2, dan 7 selalu kamu yang menambahkan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "#",
+          "id": "#"
+         },
+         {
+          "en": "Prompt type",
+          "id": "Jenis prompt"
+         },
+         {
+          "en": "Task line",
+          "id": "Baris tugas"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "JD decoder",
+           "id": "Pengurai iklan"
+          },
+          {
+           "en": "“From this job description, list must-have and nice-to-have skills, tools and qualifications, and the three problems this role exists to solve.”",
+           "id": "“Dari deskripsi pekerjaan ini, daftar keterampilan, alat, dan kualifikasi wajib dan tambahan, serta tiga masalah yang menjadi alasan peran ini ada.”"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Gap analysis",
+           "id": "Analisis celah"
+          },
+          {
+           "en": "“Compare my CV to this job description. List gaps; for each, say whether I can rephrase, evidence, learn or accept it. Do not suggest claiming anything not in my CV.”",
+           "id": "“Bandingkan CV saya dengan deskripsi pekerjaan ini. Daftar celahnya; untuk masing-masing, katakan apakah saya bisa mengubah kata, membuktikan, mempelajari, atau menerimanya. Jangan sarankan mengklaim apa pun yang tidak ada di CV saya.”"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "Bullet upgrader",
+           "id": "Peningkat butir"
+          },
+          {
+           "en": "“Rewrite these five notes as achievement bullets using: verb + what + scale + result. Use only my numbers; where I gave none, leave [NUMBER?].”",
+           "id": "“Tulis ulang lima catatan ini sebagai butir pencapaian dengan: kata kerja + apa + skala + hasil. Pakai hanya angka saya; jika saya tidak memberi, sisakan [ANGKA?].”"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "Headline generator",
+           "id": "Pembuat headline"
+          },
+          {
+           "en": "“Write five LinkedIn headlines under 220 characters for [target], using the Aspiring Professional formula, target title first.”",
+           "id": "“Tulis lima headline LinkedIn di bawah 220 karakter untuk [sasaran], dengan rumus Aspiring Professional, jabatan sasaran lebih dulu.”"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "Letter skeleton",
+           "id": "Kerangka surat"
+          },
+          {
+           "en": "“Draft the structure of a four-paragraph cover letter for this role using my notes. Leave paragraph 3 (‘why them’) as [TO WRITE MYSELF].”",
+           "id": "“Susun struktur surat pengantar empat paragraf untuk peran ini dari catatan saya. Sisakan paragraf 3 (‘mengapa mereka’) sebagai [TULIS SENDIRI].”"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "Message drafter",
+           "id": "Penyusun pesan"
+          },
+          {
+           "en": "“Draft a LinkedIn connection note under 300 characters in polite Indonesian to an alumna named Rina at Arunika, referencing her post on supply-chain rotation. No job request.”",
+           "id": "“Susun catatan koneksi LinkedIn di bawah 300 karakter dalam bahasa Indonesia yang santun kepada alumna bernama Rina di Arunika, merujuk postingannya tentang rotasi supply chain. Tanpa permintaan pekerjaan.”"
+          }
+         ],
+         [
+          {
+           "en": "7",
+           "id": "7"
+          },
+          {
+           "en": "Critic mode",
+           "id": "Mode kritikus"
+          },
+          {
+           "en": "“Don’t rewrite. Critique this About section for vague claims, clichés and inconsistencies with the CV below.”",
+           "id": "“Jangan tulis ulang. Kritik bagian About ini untuk klaim samar, klise, dan ketidakkonsistenan dengan CV di bawah.”"
+          }
+         ],
+         [
+          {
+           "en": "8",
+           "id": "8"
+          },
+          {
+           "en": "Rehearsal",
+           "id": "Latihan"
+          },
+          {
+           "en": "“Act as an HR interviewer for this role. Ask me one question at a time. After each answer, give feedback on structure and evidence.”",
+           "id": "“Berperan sebagai pewawancara HR untuk peran ini. Ajukan satu pertanyaan sekaligus. Setelah tiap jawaban, beri umpan balik tentang struktur dan bukti.”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Types 1, 2 and 7 never write for you; they are the safest to start with. Type 5 leaves “why them” out on purpose — it must be verified and personal.",
+         "id": "Jenis 1, 2, dan 7 tidak pernah menulis untukmu; paling aman untuk memulai. Jenis 5 sengaja meninggalkan “mengapa mereka” — harus diverifikasi dan personal."
+        }
        }
       },
       {
        "icon": "chat",
        "h": {
-        "en": "The personalisation pass",
-        "id": "Putaran personalisasi"
+        "en": "A worked session — four turns",
+        "id": "Sesi yang dikerjakan — empat giliran"
        },
        "body": {
-        "en": "Let the AI draft the letter's skeleton from your positioning paragraphs (5.3) — it is good at connective tissue. Then hand-write the two points readers actually check (2.4): the <b>opening proof</b>, chosen for this JD's top requirement, in your own phrasing with its own numbers; and the <b>why-them paragraph</b>, built on one verified fact and its genuine connection to you. Read the whole letter aloud once: anywhere your voice would not say it, rewrite it. The test of a done letter: could any other applicant have sent it? If yes, the personalisation pass is not finished.",
-        "id": "Biarkan AI menyusun kerangka suratnya dari paragraf-paragraf positioning-mu (5.3) — AI mahir membuat kalimat penghubung. Lalu tulis sendiri dua titik yang benar-benar diperiksa pembaca (2.4): <b>bukti pembuka</b>, dipilih berdasarkan persyaratan utama lowongan ini, dengan susunan kata dan angkamu sendiri; dan <b>paragraf “mengapa perusahaan ini”</b>, dibangun di atas satu fakta terverifikasi dan kaitannya yang tulus denganmu. Baca seluruh surat dengan suara keras satu kali: di bagian mana pun yang tidak akan kamu ucapkan dengan suaramu sendiri, tulis ulang. Ujian surat yang sudah selesai: bisakah pelamar lain mengirim surat yang sama? Kalau ya, putaran personalisasinya belum selesai."
+        "en": "Nadia’s bullet-upgrader session, with every change annotated. The prompt is the seven parts from the first table.",
+        "id": "Sesi peningkat butir Nadia, dengan setiap perubahan dianotasi. Prompt-nya adalah tujuh bagian dari tabel pertama."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Turn",
+          "id": "Giliran"
+         },
+         {
+          "en": "Text",
+          "id": "Teks"
+         },
+         {
+          "en": "Annotation",
+          "id": "Anotasi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1 · Prompt",
+           "id": "1 · Prompt"
+          },
+          {
+           "en": "Parts 1–7 as above, pasted in one message.",
+           "id": "Bagian 1–7 seperti di atas, ditempel dalam satu pesan."
+          },
+          {
+           "en": "Source material is her pantry note; guardrail last.",
+           "id": "Bahan sumbernya catatan lemarinya; pagar pengaman terakhir."
+          }
+         ],
+         [
+          {
+           "en": "2 · Output",
+           "id": "2 · Keluaran"
+          },
+          {
+           "en": "a) “Reconciled daily transaction reports across 3 branches, identifying a recurring terminal mismatch whose settings fix saved approximately 30 minutes of manual correction per day.” · “Developed a reconciliation checklist adopted by the operations team and still in use.” b) reconciled, daily reports, 3 branches, terminal, mismatch, 30 min/day, checklist, still uses. c) “adopted by the operations team — you said ‘the team still uses’; I assumed operations [CHECK].”",
+           "id": "a) “Merekonsiliasi laporan transaksi harian di 3 cabang, mengidentifikasi selisih terminal berulang yang perbaikan pengaturannya menghemat sekitar 30 menit koreksi manual per hari.” · “Mengembangkan daftar periksa rekonsiliasi yang diadopsi tim operasi dan masih dipakai.” b) merekonsiliasi, laporan harian, 3 cabang, terminal, selisih, 30 mnt/hari, daftar periksa, masih dipakai. c) “diadopsi tim operasi — Anda bilang ‘tim masih memakai’; saya mengasumsikan operasi [CHECK].”"
+          },
+          {
+           "en": "The guardrail worked: one assumption, flagged. No invented number. “Identifying” is the tool’s verb, not hers.",
+           "id": "Pagar pengaman bekerja: satu asumsi, ditandai. Tanpa angka karangan. “Mengidentifikasi” adalah kata kerja alat, bukan miliknya."
+          }
+         ],
+         [
+          {
+           "en": "3 · Her edits",
+           "id": "3 · Suntingannya"
+          },
+          {
+           "en": "“identifying” → “flagged” (she flagged it; the supervisor traced the settings) · “approximately 30 minutes” → “about 30 minutes” (her register) · “adopted by the operations team” → “the branch operations team still uses” (the [CHECK] resolved from her own knowledge) · “Developed” → “Built”.",
+           "id": "“mengidentifikasi” → “menandai” (ia menandainya; supervisor yang menelusuri pengaturannya) · “sekitar 30 menit” dipertahankan · “diadopsi tim operasi” → “masih dipakai tim operasi cabang” ([CHECK] diselesaikan dari pengetahuannya sendiri) · “Mengembangkan” → “Membangun”."
+          },
+          {
+           "en": "Four edits, all toward what actually happened and how she says it. The facts did not move; the verbs did.",
+           "id": "Empat suntingan, semuanya menuju apa yang benar-benar terjadi dan cara ia mengatakannya. Faktanya tidak bergeser; kata kerjanya yang bergeser."
+          }
+         ],
+         [
+          {
+           "en": "4 · Final",
+           "id": "4 · Akhir"
+          },
+          {
+           "en": "“Reconciled daily transaction reports for 3 branches; flagged a recurring terminal mismatch whose settings fix removed about 30 minutes of manual correction a day.” · “Built the reconciliation checklist the branch operations team still uses.”",
+           "id": "“Merekonsiliasi laporan transaksi harian untuk 3 cabang; menandai selisih terminal berulang yang perbaikan pengaturannya menghilangkan sekitar 30 menit koreksi manual per hari.” · “Membangun daftar periksa rekonsiliasi yang masih dipakai tim operasi cabang.”"
+          },
+          {
+           "en": "Defensible for two minutes each. Identical to the Module 3 CV — as it should be.",
+           "id": "Bisa dipertahankan dua menit masing-masing. Identik dengan CV Modul 3 — sebagaimana mestinya."
+          }
+         ]
+        ]
        }
       },
       {
-       "icon": "flag",
+       "icon": "target",
        "h": {
-        "en": "The module's ethics, in one panel",
-        "id": "Etika modul ini, dalam satu panel"
+        "en": "What the guardrail does — and does not — do",
+        "id": "Apa yang dilakukan pagar pengaman — dan tidak"
        },
        "body": {
-        "en": "Legitimate: AI drafting from your true facts; AI tailoring suggestions you verify; AI research you check at source; AI mock interviews and question generation for practice. Illegitimate: invented experience however fluent; keywords without substance; AI-written assessment answers where the assessment tests your own writing; undisclosed AI use where disclosure is asked; live AI assistance in interviews — the position The Rope's integrity panel states publicly. The through-line of the whole module: employers are screening for who you are; AI may help you present that truthfully at your best, and may not help you present someone else.",
-        "id": "Sah: AI menyusun draf dari fakta aslimu; saran penyesuaian dari AI yang kamu verifikasi; riset AI yang kamu periksa di sumbernya; wawancara simulasi dan pembuatan pertanyaan latihan dengan AI. Tidak sah: pengalaman yang dikarang, sefasih apa pun bahasanya; kata kunci tanpa substansi; jawaban asesmen yang ditulis AI padahal asesmen itu menguji tulisanmu sendiri; memakai AI tanpa memberi tahu ketika keterbukaan diminta; bantuan AI secara langsung saat wawancara — posisi yang dinyatakan secara terbuka oleh panel integritas The Rope. Benang merah seluruh modul: perusahaan sedang menyaring siapa dirimu; AI boleh membantumu menampilkan itu dengan jujur dalam versi terbaikmu, dan tidak boleh membantumu menampilkan orang lain."
+        "en": "The guardrail does not make the tool honest; nothing does. It makes invention <i>visible</i>: a model told to mark uncertainty with [CHECK] and to list what it could not source will usually do so, which turns a silent fabrication into a labelled one you can resolve. It fails in two ways you should expect. First, a model may still produce a confident phrase with no [CHECK] on it — so the checklist in Lesson 8.3 runs on every output regardless. Second, the guardrail cannot stop inflation of verbs and scope (“spearheaded”, “end-to-end”), because those are not facts the tool thinks it added; part 4’s “no adjectives” and part 6’s plain style anchor do more against that than the guardrail does. The three parts work together: 2 supplies the facts, 7 flags what is not in 2, and 4 and 6 keep the register yours.",
+        "id": "Pagar pengaman tidak membuat alat jujur; tidak ada yang bisa. Ia membuat karangan <i>terlihat</i>: model yang diminta menandai ketidakpastian dengan [CHECK] dan mendaftar apa yang tidak bisa diambilnya biasanya melakukannya, yang mengubah fabrikasi diam-diam menjadi yang berlabel dan bisa kamu selesaikan. Ia gagal dalam dua cara yang harus kamu duga. Pertama, model mungkin tetap menghasilkan frasa percaya diri tanpa [CHECK] — sehingga daftar periksa Pelajaran 8.3 dijalankan pada setiap keluaran apa pun. Kedua, pagar pengaman tidak bisa menghentikan penggelembungan kata kerja dan cakupan (“memelopori”, “ujung ke ujung”), karena itu bukan fakta yang menurut alat ditambahkannya; “tanpa kata sifat” di bagian 4 dan jangkar gaya yang sederhana di bagian 6 lebih ampuh melawannya daripada pagar pengaman. Tiga bagian itu bekerja bersama: 2 memberi fakta, 7 menandai yang tidak ada di 2, dan 4 serta 6 menjaga register tetap milikmu."
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The letter with AI in the loop — the skeleton is drafted, the two checked points are hand-written.",
-       "id": "Peraga 1: Surat dengan AI di dalamnya — kerangkanya disusun alat, dua titik yang diperiksa ditulis tangan."
+       "en": "Exhibit 2: The protocol, turn by turn",
+       "id": "Peraga 2: Protokol, giliran demi giliran"
       },
       "title": {
-       "en": "Research brief → Verify at source → Draft skeleton → Hand-write the two points → Send",
-       "id": "Ringkasan riset → Verifikasi di sumber → Draf kerangka → Tulis tangan dua titik → Kirim"
+       "en": "From pantry note to defensible bullet in four turns",
+       "id": "Dari catatan lemari ke butir yang bisa dipertahankan dalam empat giliran"
       },
       "items": [
        {
+        "icon": "book",
         "h": {
-         "en": "Research brief",
-         "id": "Ringkasan riset"
+         "en": "1 · Brief the stylist",
+         "id": "1 · Arahkan penata gaya"
         },
         "sub": {
-         "en": "Products, customers, recent developments, likely challenges for the team",
-         "id": "Produk, pelanggan, perkembangan terbaru, kemungkinan tantangan bagi tim"
+         "en": "Seven parts. Your notes are part 2; the guardrail is part 7; part 5 asks it to list what it could not source.",
+         "id": "Tujuh bagian. Catatanmu bagian 2; pagar pengaman bagian 7; bagian 5 memintanya mendaftar apa yang tidak bisa diambilnya."
         }
        },
        {
+        "icon": "eye",
         "h": {
-         "en": "Verify at source",
-         "id": "Verifikasi di sumber"
+         "en": "2 · Read the output as a draft",
+         "id": "2 · Baca keluaran sebagai draf"
         },
         "sub": {
-         "en": "The two or three facts you will cite, checked on the company's own site",
-         "id": "Dua atau tiga fakta yang akan kamu kutip, diperiksa di situs perusahaan itu sendiri"
+         "en": "Look for [CHECK] marks, the “could not source” list, and any verb or scope that is not yours.",
+         "id": "Cari tanda [CHECK], daftar “tidak bisa diambil”, dan kata kerja atau cakupan apa pun yang bukan milikmu."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Draft skeleton",
-         "id": "Draf kerangka"
+         "en": "3 · Edit toward what happened",
+         "id": "3 · Sunting menuju apa yang terjadi"
         },
         "sub": {
-         "en": "Connective tissue from your positioning paragraphs (5.3)",
-         "id": "Jaringan penghubung dari paragraf pemosisianmu (5.3)"
+         "en": "Resolve every [CHECK] from your own knowledge; swap the tool’s verbs for yours; cut anything you would not say aloud.",
+         "id": "Selesaikan setiap [CHECK] dari pengetahuanmu sendiri; ganti kata kerja alat dengan milikmu; potong apa pun yang tidak akan kamu ucapkan."
         }
        },
        {
+        "icon": "check",
         "h": {
-         "en": "Hand-write the two points",
-         "id": "Tulis tangan dua titik"
+         "en": "4 · Verify, then own",
+         "id": "4 · Verifikasi, lalu miliki"
         },
         "sub": {
-         "en": "The opening proof and the why-them paragraph, in your own words",
-         "id": "Bukti pembuka dan paragraf mengapa-mereka, dengan kata-katamu sendiri"
-        }
-       },
-       {
-        "h": {
-         "en": "Send",
-         "id": "Kirim"
-        },
-        "sub": {
-         "en": "Under 250 words, no sludge, every claim yours",
-         "id": "Di bawah 250 kata, tanpa bubur generik, setiap klaim milikmu"
+         "en": "Lesson 8.3’s checklist; the two-minute test; matches the CV and LinkedIn. Now it is yours.",
+         "id": "Daftar periksa Pelajaran 8.3; uji dua menit; cocok dengan CV dan LinkedIn. Kini itu milikmu."
         }
        }
       ],
+      "note": {
+       "en": "Turn 3 is where most of the time goes — and it is the turn most people skip.",
+       "id": "Giliran 3 adalah tempat sebagian besar waktu dihabiskan — dan giliran yang paling sering dilewati orang."
+      },
       "longdesc": {
-       "en": "A five-step flow: ask the tool for a structured company brief; verify at source the few facts you will cite; let the tool draft the letter's skeleton from your positioning; hand-write the opening proof and the why-them paragraph; and send a letter under 250 words in which every claim is yours.",
-       "id": "Alur lima langkah: minta alat membuat ringkasan perusahaan terstruktur; verifikasi di sumbernya beberapa fakta yang akan kamu kutip; biarkan alat menyusun kerangka surat dari pemosisianmu; tulis tangan bukti pembuka dan paragraf mengapa-mereka; dan kirim surat di bawah 250 kata yang setiap klaimnya milikmu."
+       "en": "A four-stage flow of the co-writer protocol: brief the stylist with the seven-part prompt; read the output as a draft, looking for CHECK marks and unsourced verbs; edit toward what happened, resolving every CHECK from your own knowledge; then verify with the Lesson 8.3 checklist and the two-minute test before owning the text.",
+       "id": "Alur empat tahap protokol penulis pendamping: arahkan penata gaya dengan prompt tujuh bagian; baca keluaran sebagai draf, mencari tanda CHECK dan kata kerja tanpa sumber; sunting menuju apa yang terjadi, menyelesaikan setiap CHECK dari pengetahuanmu sendiri; lalu verifikasi dengan daftar periksa Pelajaran 8.3 dan uji dua menit sebelum memiliki teksnya."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two prompts, one task",
+        "id": "Dua prompt, satu tugas"
+       },
+       "q": {
+        "en": "Nadia wants help with her LinkedIn About.",
+        "id": "Nadia ingin bantuan untuk About LinkedIn-nya."
+       },
+       "weak": {
+        "en": "“Write my LinkedIn summary. I’m a management graduate looking for a job in operations.” — Output: 180 fluent words about being a “results-driven professional with a proven track record of optimising processes and driving cross-functional collaboration”, mentioning a “Six Sigma mindset” and “stakeholder management across APAC”. None of it is hers.",
+        "id": "“Tulis ringkasan LinkedIn saya. Saya lulusan manajemen yang mencari pekerjaan di operasi.” — Keluaran: 180 kata fasih tentang menjadi “profesional berorientasi hasil dengan rekam jejak terbukti mengoptimalkan proses dan mendorong kolaborasi lintas fungsi”, menyebut “pola pikir Six Sigma” dan “manajemen pemangku kepentingan lintas APAC”. Tidak satu pun miliknya."
+       },
+       "strong": {
+        "en": "Seven parts: who she is and the target (1); her pantry notes and the Module 5 brief pasted (2); “draft a five-part About — hook, value line, three proofs, direction, email — in first person” (3); “150–250 words, conversational, no adjectives, English” (4); “a) the draft b) the facts you used c) anything you could not source” (5); “tone like: ‘I like making operations run a little smoother than I found them’” (6); the guardrail (7). — Output: her three numbers, her direction, one [CHECK] on the email address she forgot to paste.",
+        "id": "Tujuh bagian: siapa dia dan sasarannya (1); catatan lemari dan arahan Modul 5 ditempel (2); “susun About lima bagian — kail, baris nilai, tiga bukti, arah, email — dalam orang pertama” (3); “150–250 kata, percakapan, tanpa kata sifat, bahasa Inggris” (4); “a) draf b) fakta yang dipakai c) apa pun yang tidak bisa diambil” (5); “nada seperti: ‘Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya’” (6); pagar pengaman (7). — Keluaran: tiga angkanya, arahnya, satu [CHECK] pada alamat email yang lupa ia tempel."
+       },
+       "why": {
+        "en": "The vague prompt gave the tool nothing, so it invented a person. The seven-part prompt gave it her material, so it could only arrange it — and the one thing it lacked, it flagged.",
+        "id": "Prompt samar tidak memberi apa pun pada alat, jadi ia mengarang seseorang. Prompt tujuh bagian memberinya bahan Nadia, jadi ia hanya bisa menyusunnya — dan satu hal yang tidak dimilikinya, ia tandai."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the [CHECK] that saved a letter",
+       "id": "Sorotan: [CHECK] yang menyelamatkan sebuah surat"
+      },
+      "body": [
+       {
+        "en": "Nadia used the letter-skeleton prompt for the Arunika letter, with the guardrail and the instruction to leave paragraph 3 as [TO WRITE MYSELF]. The output did — but its draft of paragraph 1 included “Arunika’s well-known commitment to sustainable palm-oil sourcing”, with a [CHECK] after it, and its part-5c list said: “sustainable palm-oil sourcing — not in your notes; general knowledge [CHECK].”",
+        "id": "Nadia memakai prompt kerangka surat untuk surat Arunika, dengan pagar pengaman dan instruksi meninggalkan paragraf 3 sebagai [TULIS SENDIRI]. Keluarannya melakukannya — tetapi draf paragraf 1-nya memuat “komitmen Arunika yang terkenal pada pengadaan minyak sawit berkelanjutan”, dengan [CHECK] setelahnya, dan daftar bagian 5c-nya berkata: “pengadaan minyak sawit berkelanjutan — tidak ada di catatan Anda; pengetahuan umum [CHECK].”"
+       },
+       {
+        "en": "Arunika, in this case, makes packaged food and has no palm-oil sourcing programme she could find on its site. Without the guardrail the sentence would have arrived unmarked, fluent and plausible, in the paragraph she was most likely to keep. With it, she deleted the clause in four seconds and used Kak Rina’s warehouse consolidation instead — a fact she could trace. The guardrail did not know the sentence was false. It knew the sentence was not hers, which is the only thing that matters.",
+        "id": "Arunika, dalam kasus ini, membuat makanan kemasan dan tidak punya program pengadaan minyak sawit yang bisa ia temukan di situsnya. Tanpa pagar pengaman kalimat itu akan tiba tanpa tanda, fasih, dan masuk akal, di paragraf yang paling mungkin ia pertahankan. Dengan pagar pengaman, ia menghapus klausanya dalam empat detik dan memakai konsolidasi gudang Kak Rina sebagai gantinya — fakta yang bisa ia lacak. Pagar pengaman tidak tahu kalimat itu salah. Ia tahu kalimat itu bukan milik Nadia, dan itulah satu-satunya hal yang penting."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Rebuild a vague prompt",
+        "id": "Latihan 1 · Bangun ulang prompt yang samar"
+       },
+       "body": {
+        "en": "Start from “Write my LinkedIn summary.” Rewrite it with all seven parts, using your own Module 5 brief and pantry notes as part 2. Run both prompts in the AI tool of your choice. Compare the two outputs on three lines: specificity (how many of the facts are yours?), invented content (what did the vague version make up?), voice (which one could you read aloud?).",
+        "id": "Mulai dari “Tulis ringkasan LinkedIn saya.” Tulis ulang dengan ketujuh bagian, memakai arahan Modul 5 dan catatan lemarimu sebagai bagian 2. Jalankan kedua prompt di alat AI pilihanmu. Bandingkan kedua keluaran pada tiga baris: spesifisitas (berapa banyak faktanya milikmu?), konten karangan (apa yang dikarang versi samar?), suara (mana yang bisa kamu baca keras-keras?)."
+       },
+       "debrief": {
+        "en": "The vague output is typically zero of your facts, three to five inventions, and a voice nobody has. The seven-part output is typically all of your facts, zero or one flagged uncertainty, and a voice close enough to yours to edit in five minutes. The comparison is the lesson: the difference was entirely in what you supplied. Keep the seven-part version; it is prompt 1 of your library.",
+        "id": "Keluaran samar biasanya nol faktamu, tiga sampai lima karangan, dan suara yang tidak dimiliki siapa pun. Keluaran tujuh bagian biasanya semua faktamu, nol atau satu ketidakpastian yang ditandai, dan suara yang cukup dekat dengan milikmu untuk disunting dalam lima menit. Perbandingannya adalah pelajarannya: perbedaannya sepenuhnya pada apa yang kamu berikan. Simpan versi tujuh bagian; itu prompt 1 pustakamu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Critic mode on your About",
+        "id": "Latihan 2 · Mode kritikus pada About-mu"
+       },
+       "body": {
+        "en": "Paste your Module 5 About and your CV into the critic-mode prompt (type 7): “Don’t rewrite. Critique this About for vague claims, clichés and inconsistencies with the CV below.” Read the critique; accept or reject each point with one word of reason.",
+        "id": "Tempel About Modul 5 dan CV-mu ke prompt mode kritikus (jenis 7): “Jangan tulis ulang. Kritik About ini untuk klaim samar, klise, dan ketidakkonsistenan dengan CV di bawah.” Baca kritiknya; terima atau tolak tiap poin dengan satu kata alasan."
+       },
+       "debrief": {
+        "en": "Critic mode is the safest prompt in the library because it cannot add a fact — it can only point at yours. It is good at clichés and vague claims, fair at inconsistencies (it will catch a date mismatch, sometimes a number), and useless at judging whether a claim is true, because it does not know. Accept the style points; verify the consistency points against the pantry; ignore any suggestion that begins “consider adding”.",
+        "id": "Mode kritikus adalah prompt paling aman di pustaka karena tidak bisa menambah fakta — ia hanya bisa menunjuk faktamu. Ia bagus untuk klise dan klaim samar, cukup baik untuk ketidakkonsistenan (ia akan menangkap ketidakcocokan tanggal, kadang angka), dan tidak berguna untuk menilai apakah klaim itu benar, karena ia tidak tahu. Terima poin gaya; verifikasi poin konsistensi terhadap lemari; abaikan saran apa pun yang dimulai dengan “pertimbangkan menambahkan”."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Your first five prompts",
+        "id": "Latihan 3 · Lima prompt pertamamu"
+       },
+       "body": {
+        "en": "Choose five of the eight types you will actually use in the next month. For each, write the full seven-part version with your own parts 1, 2 (or a placeholder for what you will paste), 4 and 6, and the guardrail pasted verbatim. Save them as your personal prompt library.",
+        "id": "Pilih lima dari delapan jenis yang benar-benar akan kamu pakai bulan depan. Untuk masing-masing, tulis versi tujuh bagian lengkap dengan bagian 1, 2 (atau penanda untuk yang akan kamu tempel), 4, dan 6 milikmu sendiri, dan pagar pengaman ditempel kata demi kata. Simpan sebagai pustaka prompt pribadimu."
+       },
+       "debrief": {
+        "en": "Most graduates choose JD decoder, gap analysis, bullet upgrader, message drafter and critic mode — the five that touch every application. Headline generator is a one-time use; letter skeleton is useful once you have written two letters by hand (Module 6); rehearsal belongs to the week before an interview. Whatever you choose, the guardrail is in all five, unchanged. This library is Dossier item 1 for the module.",
+        "id": "Kebanyakan lulusan memilih pengurai iklan, analisis celah, peningkat butir, penyusun pesan, dan mode kritikus — lima yang menyentuh setiap lamaran. Pembuat headline dipakai sekali; kerangka surat berguna setelah kamu menulis dua surat dengan tangan (Modul 6); latihan milik minggu sebelum wawancara. Apa pun pilihanmu, pagar pengaman ada di kelimanya, tidak berubah. Pustaka ini butir Dossier 1 untuk modul ini."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "A one-line prompt",
+         "id": "Prompt satu baris"
+        },
+        "fix": {
+         "en": "Seven parts; your notes as part 2; the guardrail last.",
+         "id": "Tujuh bagian; catatanmu sebagai bagian 2; pagar pengaman terakhir."
+        }
+       },
+       {
+        "h": {
+         "en": "Letting the tool write “why them”",
+         "id": "Membiarkan alat menulis “mengapa mereka”"
+        },
+        "fix": {
+         "en": "Leave it as [TO WRITE MYSELF]; it must be verified and personal.",
+         "id": "Sisakan sebagai [TULIS SENDIRI]; harus diverifikasi dan personal."
+        }
+       },
+       {
+        "h": {
+         "en": "Accepting the output as the final text",
+         "id": "Menerima keluaran sebagai teks akhir"
+        },
+        "fix": {
+         "en": "It is turn 2 of four; edit toward what happened, then verify.",
+         "id": "Itu giliran 2 dari empat; sunting menuju apa yang terjadi, lalu verifikasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Trusting the guardrail to catch everything",
+         "id": "Mempercayai pagar pengaman menangkap segalanya"
+        },
+        "fix": {
+         "en": "It makes invention visible, not impossible; run the checklist anyway.",
+         "id": "Ia membuat karangan terlihat, bukan mustahil; tetap jalankan daftar periksa."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "verified brief",
-        "id": "ringkasan terverifikasi"
+        "en": "Seven-part anatomy",
+        "id": "Anatomi tujuh bagian"
        },
        "def": {
-        "en": "An AI-generated company summary from which only the two or three facts you intend to cite are kept — each checked against the company's own site, filings or reporting before it enters your letter.",
-        "id": "Ringkasan perusahaan buatan AI yang hanya disimpan dua atau tiga faktanya yang hendak kamu kutip — masing-masing diperiksa terhadap situs, laporan, atau pemberitaan perusahaan itu sendiri sebelum masuk ke suratmu."
+        "en": "Role and context · source material · task · constraints · output structure · style anchor · guardrail.",
+        "id": "Peran dan konteks · bahan sumber · tugas · batasan · struktur keluaran · jangkar gaya · pagar pengaman."
        }
       },
       {
        "term": {
-        "en": "the ethics line",
-        "id": "garis etika"
+        "en": "Guardrail",
+        "id": "Pagar pengaman"
        },
        "def": {
-        "en": "Assistance with your truth, never substitution for it: AI drafting from your facts, tailoring you verify, research you check at source — and never invented experience, hollow keywords or ghost-written assessments.",
-        "id": "Bantuan untuk kebenaranmu, tak pernah penggantinya: AI menyusun draf dari faktamu, penyesuaian yang kamu verifikasi, riset yang kamu periksa di sumbernya — dan tak pernah pengalaman yang dikarang, kata kunci kosong, atau asesmen yang dikerjakan orang lain."
+        "en": "“Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].” — pasted into every prompt.",
+        "id": "“Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK].” — ditempel ke setiap prompt."
+       }
+      },
+      {
+       "term": {
+        "en": "Source material",
+        "id": "Bahan sumber"
+       },
+       "def": {
+        "en": "Part 2 — your real notes, CV and the job description, pasted; the only place facts enter.",
+        "id": "Bagian 2 — catatan nyatamu, CV, dan deskripsi pekerjaan, ditempel; satu-satunya tempat fakta masuk."
+       }
+      },
+      {
+       "term": {
+        "en": "Style anchor",
+        "id": "Jangkar gaya"
+       },
+       "def": {
+        "en": "Part 6 — one sentence you like, for tone only, never for facts.",
+        "id": "Bagian 6 — satu kalimat yang kamu suka, untuk nada saja, tidak pernah untuk fakta."
+       }
+      },
+      {
+       "term": {
+        "en": "Critic mode",
+        "id": "Mode kritikus"
+       },
+       "def": {
+        "en": "A prompt that asks for critique without rewriting — the safest type, because it cannot add a fact.",
+        "id": "Prompt yang meminta kritik tanpa menulis ulang — jenis paling aman, karena tidak bisa menambah fakta."
+       }
+      },
+      {
+       "term": {
+        "en": "Prompt library",
+        "id": "Pustaka prompt"
+       },
+       "def": {
+        "en": "Five seven-part prompts adapted to you, with the guardrail in each — the module’s Dossier item.",
+        "id": "Lima prompt tujuh bagian yang diadaptasi untukmu, dengan pagar pengaman di masing-masing — butir Dossier modul ini."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "An AI brief says the company “recently expanded to Vietnam”. Before citing it in your letter you should:",
-        "id": "Ringkasan AI menyebut perusahaan itu “baru saja berekspansi ke Vietnam”. Sebelum mengutipnya di suratmu, kamu sebaiknya:"
+        "en": "Which part of the anatomy stops invented numbers?",
+        "id": "Bagian anatomi mana yang menghentikan angka karangan?"
        },
        "options": [
         {
-         "en": "Cite it — AI research is usually right",
-         "id": "Kutip saja — riset AI biasanya benar"
+         "en": "The style anchor",
+         "id": "Jangkar gaya"
         },
         {
-         "en": "Verify it on the company's site or news sources; cite only what you confirmed",
-         "id": "Verifikasi di situs perusahaan atau sumber berita; kutip hanya yang sudah kamu pastikan"
+         "en": "The guardrail",
+         "id": "Pagar pengaman"
         },
         {
-         "en": "Soften it to “I heard you may be expanding internationally”",
-         "id": "Perhalus menjadi “saya dengar Anda mungkin sedang berekspansi ke luar negeri”"
+         "en": "The task",
+         "id": "Tugas"
+        },
+        {
+         "en": "The output structure",
+         "id": "Struktur keluaran"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "One hallucinated “fact” in a letter reveals unchecked delegation and sinks the application. Verification is minutes; the credibility is everything.",
-        "id": "Satu “fakta” karangan dalam surat membongkar bahwa kamu tidak memeriksa, dan menenggelamkan lamaranmu. Verifikasi hanya butuh beberapa menit; kredibilitas adalah segalanya."
+        "en": "“Use only facts I provided … mark anything uncertain with [CHECK]” — it makes invention visible so you can remove it.",
+        "id": "“Pakai hanya fakta yang saya berikan … tandai apa pun yang tidak pasti dengan [CHECK]” — membuat karangan terlihat agar kamu bisa menghapusnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Why leave “why them” for yourself in the letter-skeleton prompt?",
+        "id": "Mengapa meninggalkan “mengapa mereka” untuk dirimu di prompt kerangka surat?"
+       },
+       "options": [
+        {
+         "en": "It is the easiest paragraph",
+         "id": "Itu paragraf termudah"
+        },
+        {
+         "en": "It must be verified and personal — the tool cannot know either",
+         "id": "Harus diverifikasi dan personal — alat tidak bisa tahu keduanya"
+        },
+        {
+         "en": "It is optional",
+         "id": "Itu opsional"
+        },
+        {
+         "en": "To keep the prompt short",
+         "id": "Agar prompt tetap singkat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Every specific in “why them” must be traceable to a source you read or a person you spoke to.",
+        "id": "Setiap hal spesifik di “mengapa mereka” harus bisa dilacak ke sumber yang kamu baca atau orang yang kamu ajak bicara."
+       }
+      },
+      {
+       "q": {
+        "en": "Critic mode means…",
+        "id": "Mode kritikus berarti…"
+       },
+       "options": [
+        {
+         "en": "The AI rewrites harshly",
+         "id": "AI menulis ulang dengan keras"
+        },
+        {
+         "en": "The AI critiques without rewriting",
+         "id": "AI mengkritik tanpa menulis ulang"
+        },
+        {
+         "en": "The AI grades your CV out of 100",
+         "id": "AI menilai CV-mu dari 100"
+        },
+        {
+         "en": "You critique the AI",
+         "id": "Kamu mengkritik AI"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It can point at your text but cannot add a fact — the safest prompt in the library.",
+        "id": "Ia bisa menunjuk teksmu tetapi tidak bisa menambah fakta — prompt paling aman di pustaka."
        }
       }
      ],
@@ -36079,135 +36594,2706 @@ window.MT_LMS['the-pack'] = {
       "id": "studio",
       "mode": "letter",
       "title": {
-       "en": "Personalise against a real JD",
-       "id": "Personalisasi dengan deskripsi lowongan sungguhan"
+       "en": "Your prompt library",
+       "id": "Pustaka prompt-mu"
       },
       "body": {
-       "en": "Paste a real JD into the letter developer's mirror check and watch which load-bearing terms your draft covers — the same gap analysis this lesson teaches, computed openly.",
-       "id": "Tempel deskripsi lowongan sungguhan ke pemeriksa pencerminan di penyusun surat, dan lihat istilah penopang mana yang sudah tercakup drafmu — analisis celah yang sama seperti yang diajarkan pelajaran ini, dihitung secara terbuka."
+       "en": "Save your five seven-part prompts from Drill 3 in the studio next to the documents they will act on — the CV, the letter, the messages — with the guardrail pasted into each. Every time you use one, the output goes through Lesson 8.3’s checklist before it touches a document. This library is Dossier item 1 for the module.",
+       "id": "Simpan lima prompt tujuh bagianmu dari Latihan 3 di studio di samping dokumen yang akan diolahnya — CV, surat, pesan — dengan pagar pengaman ditempel ke masing-masing. Setiap kali kamu memakainya, keluarannya melewati daftar periksa Pelajaran 8.3 sebelum menyentuh dokumen. Pustaka ini butir Dossier 1 untuk modul ini."
       },
       "cta": {
-       "en": "Open the letter developer →",
-       "id": "Buka penyusun surat →"
+       "en": "Open the studio →",
+       "id": "Buka studio →"
       }
      },
+     "takeaways": [
+      {
+       "en": "Seven parts: role, source, task, constraints, structure, style anchor, guardrail.",
+       "id": "Tujuh bagian: peran, sumber, tugas, batasan, struktur, jangkar gaya, pagar pengaman."
+      },
+      {
+       "en": "The guardrail makes invention visible; the checklist removes it.",
+       "id": "Pagar pengaman membuat karangan terlihat; daftar periksa menghapusnya."
+      },
+      {
+       "en": "Five prompts adapted to you, with the guardrail in each — that is the library.",
+       "id": "Lima prompt yang diadaptasi untukmu, dengan pagar pengaman di masing-masing — itulah pustakanya."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "Sources and the prompt template",
+       "id": "Sumber dan templat prompt"
+      },
+      "lead": {
+       "en": "One source, and the seven parts as a fill-in with the guardrail ready to paste.",
+       "id": "Satu sumber, dan tujuh bagian sebagai isian dengan pagar pengaman siap ditempel."
+      },
       "items": [
        {
-        "kind": "prompt",
+        "kind": "guide",
         "title": {
-         "en": "Company research prompt (verify-first)",
-         "id": "Prompt riset perusahaan (verifikasi dulu)"
+         "en": "Reading list · Lesson 8.2",
+         "id": "Daftar bacaan · Pelajaran 8.2"
         },
         "desc": {
-         "en": "Use the tool to generate questions, not answers.",
-         "id": "Gunakan alat untuk menghasilkan pertanyaan, bukan jawaban."
+         "en": "One source; the eight prompt types and the guardrail are The Pack’s own.",
+         "id": "Satu sumber; delapan jenis prompt dan pagar pengaman adalah milik The Pack sendiri."
         },
         "body": [
          {
-          "en": "“I am preparing an application to [Company] for [role]. List ten questions I should be able to answer about the company before writing — about its products, customers, recent changes and this team’s work. Do not answer them; I will verify each from the company’s own sources.”",
-          "id": "“Saya menyiapkan lamaran ke [Perusahaan] untuk [peran]. Sebutkan sepuluh pertanyaan yang seharusnya bisa saya jawab tentang perusahaan sebelum menulis — tentang produk, pelanggan, perubahan terbaru, dan pekerjaan tim ini. Jangan dijawab; saya akan memverifikasi masing-masing dari sumber perusahaan sendiri.”"
-         },
-         {
-          "en": "Then: answer the questions from the company’s website, annual report, official social accounts and the JD. Cite the source next to each answer in your notes.",
-          "id": "Lalu: jawab pertanyaan dari situs perusahaan, laporan tahunan, akun sosial resmi, dan JD. Cantumkan sumber di samping tiap jawaban dalam catatanmu."
-         },
-         {
-          "en": "Personalisation line = one verified observation + what you would contribute to it.",
-          "id": "Baris personalisasi = satu pengamatan terverifikasi + apa yang akan kamu sumbangkan."
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 4–7 and 12 — the prompt library and its underlying structure; personalisation and ethics.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 4–7 dan 12 — pustaka prompt dan struktur dasarnya; personalisasi dan etika."
          }
         ]
        },
        {
-        "kind": "guide",
+        "kind": "prompt",
         "title": {
-         "en": "Disclosure and ethics — the short version",
-         "id": "Pengungkapan dan etika — versi singkat"
+         "en": "Seven-part prompt · fill-in",
+         "id": "Prompt tujuh bagian · isian"
         },
         "desc": {
-         "en": "What to say if asked, and where the line is.",
-         "id": "Yang harus dikatakan jika ditanya, dan di mana batasnya."
+         "en": "Copy, fill, paste — guardrail last, unchanged.",
+         "id": "Salin, isi, tempel — pagar pengaman terakhir, tidak berubah."
         },
         "body": [
          {
-          "en": "Acceptable: drafting, tightening, translating, generating research questions, practising interview answers.",
-          "id": "Dapat diterima: menyusun draf, memadatkan, menerjemahkan, menghasilkan pertanyaan riset, berlatih jawaban wawancara."
+          "en": "1 · I am [who] applying for [target roles] at [sector/employers] in Indonesia.",
+          "id": "1 · Saya [siapa] yang melamar [peran sasaran] di [sektor/perusahaan] di Indonesia."
          },
          {
-          "en": "Not acceptable: invented experience, numbers or tools; AI-written answers submitted as your own in a live assessment; using AI during a test that prohibits it.",
-          "id": "Tidak dapat diterima: pengalaman, angka, atau alat yang diarang; jawaban tulisan AI yang diserahkan sebagai milikmu dalam asesmen langsung; memakai AI saat tes yang melarangnya."
+          "en": "2 · My source material: [paste your notes / CV / the job description — nothing confidential].",
+          "id": "2 · Bahan sumber saya: [tempel catatan / CV / deskripsi pekerjaan — tidak ada yang rahasia]."
          },
          {
-          "en": "If asked “did you use AI?”: “Yes — to draft and tighten. The experience, numbers and choices are mine, and I’m happy to walk through any line.”",
-          "id": "Jika ditanya “apakah kamu memakai AI?”: “Ya — untuk menyusun draf dan memadatkan. Pengalaman, angka, dan pilihannya milik saya, dan saya siap membahas baris mana pun.”"
+          "en": "3 · Task: [one deliverable]. 4 · Constraints: [length · character limit · tone · language · format · no adjectives]. 5 · Output: a) [the deliverable] b) the facts from my material you used c) anything you could not source from my material.",
+          "id": "3 · Tugas: [satu hasil]. 4 · Batasan: [panjang · batas karakter · nada · bahasa · format · tanpa kata sifat]. 5 · Keluaran: a) [hasilnya] b) fakta dari bahan saya yang dipakai c) apa pun yang tidak bisa diambil dari bahan saya."
+         },
+         {
+          "en": "6 · Tone like: “[one sentence you actually wrote]”.",
+          "id": "6 · Nada seperti: “[satu kalimat yang benar-benar kamu tulis]”."
+         },
+         {
+          "en": "7 · Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].",
+          "id": "7 · Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK]."
          }
         ]
        }
       ]
+     }
+    },
+    {
+     "n": "8.3",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Verify, Personalise, Own",
+      "id": "Verifikasi, Personalisasi, Miliki"
+     },
+     "overview": {
+      "en": "An AI draft is turn two of four. This lesson is turns three and four: the seven-line verification checklist that every output passes before it touches a document, the personalisation moves that restore your voice and your specifics, and the disclosure question. The drills are built on a deliberately inflated AI rewrite of Nadia’s CV — seven inflations to find — and an AI-drafted About to bring back to her.",
+      "id": "Draf AI adalah giliran dua dari empat. Pelajaran ini adalah giliran tiga dan empat: daftar periksa verifikasi tujuh baris yang dilewati setiap keluaran sebelum menyentuh dokumen, langkah personalisasi yang mengembalikan suaramu dan hal-hal spesifikmu, dan pertanyaan pengungkapan. Latihannya dibangun di atas tulisan ulang AI yang sengaja digelembungkan dari CV Nadia — tujuh penggelembungan untuk ditemukan — dan About yang disusun AI untuk dikembalikan menjadi miliknya."
+     },
+     "objectives": [
+      {
+       "en": "Run the seven-line verification checklist on any AI output.",
+       "id": "Menjalankan daftar periksa verifikasi tujuh baris pada keluaran AI apa pun."
+      },
+      {
+       "en": "Spot inflation in an AI rewrite, line by line.",
+       "id": "Menemukan penggelembungan dalam tulisan ulang AI, baris demi baris."
+      },
+      {
+       "en": "Restore your own voice and specifics to an AI draft.",
+       "id": "Mengembalikan suara dan hal-hal spesifikmu ke draf AI."
+      },
+      {
+       "en": "Decide when to disclose AI use.",
+       "id": "Memutuskan kapan mengungkapkan penggunaan AI."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Seven checks, then it is yours",
+       "id": "Tujuh pemeriksaan, lalu itu milikmu"
+      },
+      "intro": {
+       "en": "Nothing AI wrote goes into a document under your name until it has passed the checklist and been personalised. Then it is not AI’s text any more; it is yours.",
+       "id": "Tidak ada yang ditulis AI masuk ke dokumen atas namamu sampai lolos daftar periksa dan dipersonalisasi. Setelah itu bukan lagi teks AI; itu milikmu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Verify",
+         "id": "Verifikasi"
+        },
+        "points": [
+         {
+          "en": "Every fact traced to a document you own · nothing you could not explain for two minutes · company facts verified at source · read aloud · one specific per section · CV and LinkedIn still match · nothing confidential went in.",
+          "id": "Setiap fakta dilacak ke dokumen milikmu · tidak ada yang tidak bisa kamu jelaskan dua menit · fakta perusahaan diverifikasi di sumber · dibaca keras-keras · satu hal spesifik per bagian · CV dan LinkedIn masih cocok · tidak ada yang rahasia masuk."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Personalise",
+         "id": "Personalisasi"
+        },
+        "points": [
+         {
+          "en": "After every generic claim, your own specific example. Real names of organisations and tools. Your tone. Remove any phrase you would never say aloud.",
+          "id": "Setelah setiap klaim generik, contoh spesifikmu sendiri. Nama nyata organisasi dan alat. Nadamu. Hapus frasa apa pun yang tidak akan pernah kamu ucapkan."
+         },
+         {
+          "en": "A peer should not be able to tell which version was AI-drafted.",
+          "id": "Rekan seharusnya tidak bisa membedakan versi mana yang disusun AI."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Own",
+         "id": "Miliki"
+        },
+        "points": [
+         {
+          "en": "If a published post was substantially AI-written, consider saying so. For applications, follow any stated policy — some employers now ask.",
+          "id": "Jika postingan yang diterbitkan sebagian besar ditulis AI, pertimbangkan mengatakannya. Untuk lamaran, ikuti kebijakan yang dinyatakan — sebagian perusahaan kini bertanya."
+         },
+         {
+          "en": "Whatever you submit under your name, you answer for at interview.",
+          "id": "Apa pun yang kamu kirim atas namamu, kamu yang menjawabnya saat wawancara."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "check",
+       "h": {
+        "en": "The verification checklist",
+        "id": "Daftar periksa verifikasi"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-contested\">Course synthesis</span> Seven lines, drawn from Dumas’s ethics and personalisation lists <i>(The AI-Savvy Job Seeker, ch. 7 and 12)</i> and The Pack’s own rules. Run it on every AI output — bullet, About, letter, message — before the text touches a document. It takes three minutes and it is the whole difference between a stylist and a ghostwriter.",
+        "id": "<span class=\"ev ev-contested\">Sintesis kursus</span> Tujuh baris, diambil dari daftar etika dan personalisasi Dumas <i>(The AI-Savvy Job Seeker, bab 7 dan 12)</i> dan aturan The Pack sendiri. Jalankan pada setiap keluaran AI — butir, About, surat, pesan — sebelum teksnya menyentuh dokumen. Butuh tiga menit dan itulah seluruh perbedaan antara penata gaya dan penulis bayangan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "☐",
+          "id": "☐"
+         },
+         {
+          "en": "Check",
+          "id": "Pemeriksaan"
+         },
+         {
+          "en": "How",
+          "id": "Caranya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Every fact, date, title and number traced to a document I own",
+           "id": "Setiap fakta, tanggal, jabatan, dan angka dilacak ke dokumen milik saya"
+          },
+          {
+           "en": "Pantry, transcript, certificate, internship letter — point at the line",
+           "id": "Lemari, transkrip, sertifikat, surat magang — tunjuk barisnya"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Nothing I could not explain for two minutes at interview",
+           "id": "Tidak ada yang tidak bisa saya jelaskan dua menit saat wawancara"
+          },
+          {
+           "en": "Say it aloud; if the second minute is empty, cut the claim",
+           "id": "Ucapkan; jika menit kedua kosong, potong klaimnya"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "Company facts verified on the company’s own site or news from the last 12 months",
+           "id": "Fakta perusahaan diverifikasi di situs perusahaan sendiri atau berita 12 bulan terakhir"
+          },
+          {
+           "en": "Open the source; note the URL and date next to the fact",
+           "id": "Buka sumbernya; catat URL dan tanggal di samping faktanya"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "Read aloud — it sounds like me",
+           "id": "Dibaca keras-keras — terdengar seperti saya"
+          },
+          {
+           "en": "Any sentence you stumble on or would not say is the tool’s, not yours",
+           "id": "Kalimat apa pun yang membuatmu tersandung atau tidak akan kamu ucapkan adalah milik alat, bukan milikmu"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "At least one specific example of my own per section",
+           "id": "Setidaknya satu contoh spesifik milik saya per bagian"
+          },
+          {
+           "en": "A name, a number, a place — after every general claim",
+           "id": "Nama, angka, tempat — setelah setiap klaim umum"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "CV and LinkedIn facts still match",
+           "id": "Fakta CV dan LinkedIn masih cocok"
+          },
+          {
+           "en": "Side by side: titles, dates, numbers (Module 5.3)",
+           "id": "Berdampingan: jabatan, tanggal, angka (Modul 5.3)"
+          }
+         ],
+         [
+          {
+           "en": "7",
+           "id": "7"
+          },
+          {
+           "en": "No confidential data was pasted in",
+           "id": "Tidak ada data rahasia yang ditempel"
+          },
+          {
+           "en": "Re-read the prompt: employer files, colleagues’ data, ID numbers — none (Lesson 8.1)",
+           "id": "Baca ulang prompt-nya: berkas perusahaan, data rekan, nomor identitas — tidak ada (Pelajaran 8.1)"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Line 2 is the two-minute test. It catches what line 1 cannot: a true fact you cannot actually talk about.",
+         "id": "Baris 2 adalah uji dua menit. Ia menangkap yang tidak bisa ditangkap baris 1: fakta benar yang sebenarnya tidak bisa kamu bicarakan."
+        }
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Personalise",
+        "id": "Personalisasi"
+       },
+       "body": {
+        "en": "Verification removes what is false; personalisation restores what is you <i>(Dumas, ch. 7)</i>. Four moves, in order:",
+        "id": "Verifikasi menghapus yang salah; personalisasi mengembalikan yang dirimu <i>(Dumas, bab 7)</i>. Empat langkah, berurutan:"
+       },
+       "bullets": [
+        {
+         "en": "<b>After every generic claim, insert your own specific example.</b> “Strong analytical skills” → “— the terminal mismatch I traced across three branches’ daily reports.”",
+         "id": "<b>Setelah setiap klaim generik, sisipkan contoh spesifikmu sendiri.</b> “Keterampilan analitis yang kuat” → “— selisih terminal yang saya telusuri di laporan harian tiga cabang.”"
+        },
+        {
+         "en": "<b>Add the real names</b> of organisations and tools: HIMA Manajemen, Kopi Tepian, Microsoft Excel with pivot tables — not “a student organisation” and “spreadsheet software”.",
+         "id": "<b>Tambahkan nama nyata</b> organisasi dan alat: HIMA Manajemen, Kopi Tepian, Microsoft Excel dengan pivot table — bukan “organisasi mahasiswa” dan “perangkat lunak spreadsheet”."
+        },
+        {
+         "en": "<b>Adjust the tone to how you speak.</b> Nadia says “a little smoother than I found them”, not “continuous improvement mindset”. The pantry interview transcript is the reference for your voice.",
+         "id": "<b>Sesuaikan nadanya dengan cara kamu berbicara.</b> Nadia berkata “sedikit lebih lancar daripada saat saya menemukannya”, bukan “pola pikir perbaikan berkelanjutan”. Transkrip wawancara lemari adalah acuan suaramu."
+        },
+        {
+         "en": "<b>Remove any phrase you would never say aloud.</b> “Leverage”, “synergy”, “passionate about”, “results-driven”, “dynamic” — if it would sound strange across a table, it reads strange on a page.",
+         "id": "<b>Hapus frasa apa pun yang tidak akan pernah kamu ucapkan.</b> “Leverage”, “sinergi”, “passionate about”, “berorientasi hasil”, “dinamis” — jika terdengar aneh di seberang meja, terbaca aneh di halaman."
+        }
+       ],
+       "after": [
+        {
+         "en": "The test at the end is a peer’s: show a friend your AI-drafted About and your personalised one, without saying which is which, and ask which is “more you”. If they cannot tell, personalise again. If they pick the AI one, the draft has a claim you do not believe.",
+         "id": "Ujian di akhirnya milik rekan: tunjukkan ke teman About yang disusun AI dan yang sudah dipersonalisasi, tanpa mengatakan yang mana, dan tanyakan mana yang “lebih kamu”. Jika mereka tidak bisa membedakan, personalisasi lagi. Jika mereka memilih yang AI, drafnya punya klaim yang tidak kamu percayai."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Disclosure",
+        "id": "Pengungkapan"
+       },
+       "body": {
+        "en": "If a published post or article was substantially AI-written, consider saying so — Dumas’s transparency principle <i>(Dumas, ch. 12)</i>; a reader who finds out later trusts everything else less. For applications, follow any stated policy: <span class=\"ev ev-contested\">Course guidance</span> some employers now ask, in the application form or the interview, whether and how AI was used, and a few prohibit it for particular documents. Answer honestly and specifically — “I used it to tighten my bullets; every fact is mine; I wrote the letter’s third paragraph myself” is an answer a recruiter respects. The line The Pack draws is not “never use AI”; it is that whatever you submit under your name, you can explain every sentence of, and you did not claim a fact the tool supplied.",
+        "id": "Jika postingan atau artikel yang diterbitkan sebagian besar ditulis AI, pertimbangkan mengatakannya — prinsip transparansi Dumas <i>(Dumas, bab 12)</i>; pembaca yang tahu belakangan akan kurang mempercayai segala sesuatu yang lain. Untuk lamaran, ikuti kebijakan yang dinyatakan: <span class=\"ev ev-contested\">Panduan kursus</span> sebagian perusahaan kini bertanya, di formulir lamaran atau wawancara, apakah dan bagaimana AI dipakai, dan beberapa melarangnya untuk dokumen tertentu. Jawab dengan jujur dan spesifik — “Saya memakainya untuk merapikan butir-butir saya; setiap fakta milik saya; saya menulis paragraf ketiga surat sendiri” adalah jawaban yang dihormati rekruter. Garis yang ditarik The Pack bukan “jangan pernah memakai AI”; melainkan bahwa apa pun yang kamu kirim atas namamu, kamu bisa menjelaskan setiap kalimatnya, dan kamu tidak mengklaim fakta yang diberikan alat."
+       }
+      },
+      {
+       "icon": "eye",
+       "h": {
+        "en": "Seven inflations in one CV",
+        "id": "Tujuh penggelembungan dalam satu CV"
+       },
+       "body": {
+        "en": "The supplied text for Drill 1: an AI rewrite of Nadia’s CV produced by “make this more impressive”, with seven inflated claims. Read it against her real facts (three branches; flagged a terminal mismatch, ≈30 min/day; treasurer, 300 members, twelve events, Rp 120 juta, zero audit issues first in three years; Head of Sponsorship, Rp 85 juta, 11 sponsors, 1,200 participants; barista, 120–150 customers a shift, trained 4; Excel with pivot tables and VLOOKUP; TOEFL 540).",
+        "id": "Teks yang disediakan untuk Latihan 1: tulisan ulang AI atas CV Nadia yang dihasilkan “buat ini lebih mengesankan”, dengan tujuh klaim yang digelembungkan. Baca terhadap fakta sebenarnya (tiga cabang; menandai selisih terminal, ≈30 mnt/hari; bendahara, 300 anggota, dua belas acara, Rp 120 juta, nol masalah audit pertama dalam tiga tahun; Kepala Sponsorship, Rp 85 juta, 11 sponsor, 1.200 peserta; barista, 120–150 pelanggan per sif, melatih 4; Excel dengan pivot table dan VLOOKUP; TOEFL 540)."
+       },
+       "quote": {
+        "text": {
+         "en": "PROFILE — Results-driven management professional with a proven track record in financial operations and process optimisation across the banking and FMCG sectors.<br><br>• Spearheaded reconciliation operations across Bank Sinar Nusantara’s regional branch network, delivering a 40% reduction in processing errors.<br>• Directed the financial strategy of a 500-member student organisation as Chief Financial Officer, overseeing a Rp 200 juta portfolio with zero audit findings.<br>• Secured Rp 85 juta in sponsorship as Head of Sponsorship, leading a cross-functional team of 6 to deliver a 1,200-participant national competition.<br>• Managed a team of 12 baristas at Kopi Tepian, serving 150+ customers per shift and driving a 25% improvement in customer satisfaction.<br>• Advanced proficiency in Microsoft Excel, SQL and Power BI; TOEFL 540.",
+         "id": "PROFIL — Profesional manajemen berorientasi hasil dengan rekam jejak terbukti dalam operasi keuangan dan optimalisasi proses di sektor perbankan dan FMCG.<br><br>• Memelopori operasi rekonsiliasi di seluruh jaringan cabang regional Bank Sinar Nusantara, menghasilkan pengurangan 40% kesalahan pemrosesan.<br>• Mengarahkan strategi keuangan organisasi mahasiswa beranggotakan 500 orang sebagai Chief Financial Officer, mengawasi portofolio Rp 200 juta dengan nol temuan audit.<br>• Mengamankan sponsor Rp 85 juta sebagai Kepala Sponsorship, memimpin tim lintas fungsi 6 orang untuk menyelenggarakan kompetisi nasional 1.200 peserta.<br>• Mengelola tim 12 barista di Kopi Tepian, melayani 150+ pelanggan per sif dan mendorong peningkatan 25% kepuasan pelanggan.<br>• Kemampuan lanjutan Microsoft Excel, SQL, dan Power BI; TOEFL 540."
+        },
+        "who": {
+         "en": "Seven inflations. One bullet is almost entirely true. Find them in Drill 1 before reading the debrief.",
+         "id": "Tujuh penggelembungan. Satu butir hampir sepenuhnya benar. Temukan di Latihan 1 sebelum membaca pembahasannya."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 3: Verify → personalise → own",
+       "id": "Peraga 3: Verifikasi → personalisasi → miliki"
+      },
+      "title": {
+       "en": "What happens to an AI draft before it becomes yours",
+       "id": "Apa yang terjadi pada draf AI sebelum menjadi milikmu"
+      },
+      "items": [
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Trace",
+         "id": "Lacak"
+        },
+        "sub": {
+         "en": "Every fact, date, title, number → a document you own. Untraceable → delete.",
+         "id": "Setiap fakta, tanggal, jabatan, angka → dokumen milikmu. Tidak bisa dilacak → hapus."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Two-minute test",
+         "id": "Uji dua menit"
+        },
+        "sub": {
+         "en": "Say each claim aloud for two minutes. Empty second minute → cut.",
+         "id": "Ucapkan setiap klaim selama dua menit. Menit kedua kosong → potong."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Verify company facts",
+         "id": "Verifikasi fakta perusahaan"
+        },
+        "sub": {
+         "en": "Company site or news under 12 months old; URL and date beside the fact.",
+         "id": "Situs perusahaan atau berita di bawah 12 bulan; URL dan tanggal di samping fakta."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Personalise",
+         "id": "Personalisasi"
+        },
+        "sub": {
+         "en": "A specific after every generic; real names; your tone; nothing you would not say aloud.",
+         "id": "Hal spesifik setelah setiap yang generik; nama nyata; nadamu; tidak ada yang tidak akan kamu ucapkan."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Own",
+         "id": "Miliki"
+        },
+        "sub": {
+         "en": "CV and LinkedIn match; nothing confidential went in; disclose if asked. Now answer for every sentence.",
+         "id": "CV dan LinkedIn cocok; tidak ada yang rahasia masuk; ungkapkan jika ditanya. Kini jawab untuk setiap kalimat."
+        }
+       }
+      ],
+      "note": {
+       "en": "Three minutes per output. Skipping it is how an invented “40%” reaches an interviewer.",
+       "id": "Tiga menit per keluaran. Melewatinya adalah cara “40%” karangan sampai ke pewawancara."
+      },
+      "longdesc": {
+       "en": "A five-stage flow: trace every fact to a document you own; apply the two-minute test aloud; verify company facts at a source under twelve months old; personalise with a specific after every generic claim, real names and your own tone; then own it — CV and LinkedIn match, nothing confidential was pasted, disclose if asked.",
+       "id": "Alur lima tahap: lacak setiap fakta ke dokumen milikmu; terapkan uji dua menit dengan bersuara; verifikasi fakta perusahaan di sumber berusia di bawah dua belas bulan; personalisasi dengan hal spesifik setelah setiap klaim generik, nama nyata, dan nadamu sendiri; lalu miliki — CV dan LinkedIn cocok, tidak ada yang rahasia ditempel, ungkapkan jika ditanya."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "One About, before and after personalising",
+        "id": "Satu About, sebelum dan sesudah personalisasi"
+       },
+       "q": {
+        "en": "The AI draft of Nadia’s About, and her version after the four moves.",
+        "id": "Draf AI About Nadia, dan versinya setelah empat langkah."
+       },
+       "weak": {
+        "en": "“I am a results-driven management graduate passionate about operational excellence. With hands-on experience in financial operations and a proven ability to optimise processes, I bring strong analytical skills and a collaborative mindset to fast-paced environments. I am seeking opportunities to leverage my expertise in a dynamic organisation.”",
+        "id": "“Saya lulusan manajemen berorientasi hasil yang bersemangat tentang keunggulan operasional. Dengan pengalaman langsung dalam operasi keuangan dan kemampuan terbukti mengoptimalkan proses, saya membawa keterampilan analitis yang kuat dan pola pikir kolaboratif ke lingkungan yang serba cepat. Saya mencari peluang untuk memanfaatkan keahlian saya di organisasi yang dinamis.”"
+       },
+       "strong": {
+        "en": "“I like making operations run a little smoother than I found them — as a bank operations intern, a café barista during busy morning rushes, and as treasurer of a 300-member student organisation. A few things I’ve done: reconciled daily reports for 3 bank branches and flagged a recurring terminal error; rebuilt HIMA’s finances so the faculty audit found zero issues for the first time in 3 years; raised Rp 85 juta in sponsorship for a 1,200-participant national competition. I’m looking to start in a management-trainee or operations role in FMCG, banking or fintech. The best way to reach me is nadia.putri@email.com.”",
+        "id": "“Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya — sebagai intern operasional bank, barista kafe saat jam sibuk pagi, dan sebagai bendahara organisasi mahasiswa beranggotakan 300 orang. Beberapa hal yang sudah saya lakukan: merekonsiliasi laporan harian untuk 3 cabang bank dan menandai kesalahan terminal berulang; membangun ulang keuangan HIMA sehingga audit fakultas menemukan nol masalah untuk pertama kalinya dalam 3 tahun; mengumpulkan sponsor Rp 85 juta untuk kompetisi nasional 1.200 peserta. Saya ingin memulai di peran management trainee atau operasi di FMCG, perbankan, atau fintech. Cara terbaik menghubungi saya adalah nadia.putri@email.com.”"
+       },
+       "why": {
+        "en": "The draft has no specific, no name, no number, and six phrases she would never say. The personalised version has three numbers, three organisations, her own opening sentence, and nothing an interviewer could not ask about for two minutes.",
+        "id": "Drafnya tidak punya hal spesifik, nama, angka, dan punya enam frasa yang tidak akan pernah ia ucapkan. Versi yang dipersonalisasi punya tiga angka, tiga organisasi, kalimat pembukanya sendiri, dan tidak ada yang tidak bisa ditanyakan pewawancara selama dua menit."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the true fact that failed the two-minute test",
+       "id": "Sorotan: fakta benar yang gagal uji dua menit"
+      },
+      "body": [
+       {
+        "en": "An AI rewrite of Nadia’s tools line said “Advanced proficiency in Microsoft Excel, SQL and Power BI”. She removed Power BI at once — never used it — and kept SQL, because it was true: she had started an online course three weeks earlier and finished the first module. Line 1 of the checklist passed; there was a course record.",
+        "id": "Tulisan ulang AI atas baris alat Nadia berbunyi “Kemampuan lanjutan Microsoft Excel, SQL, dan Power BI”. Ia langsung menghapus Power BI — tidak pernah dipakai — dan mempertahankan SQL, karena benar: ia mulai kursus daring tiga minggu sebelumnya dan menyelesaikan modul pertama. Baris 1 daftar periksa lolos; ada catatan kursus."
+       },
+       {
+        "en": "Line 2 did not. Asked to talk about SQL for two minutes, she had forty seconds: SELECT, WHERE, the idea of a join. “Advanced proficiency” would have met a five-minute interview question and ended there. The honest line — the one that survives — is the Module 4 close: “currently completing an SQL fundamentals course (module 2 of 6)”. True, dated, and exactly two minutes long. The two-minute test is not about honesty; the fact was honest. It is about whether the claim and your ability to talk about it are the same size.",
+        "id": "Baris 2 tidak lolos. Diminta membicarakan SQL selama dua menit, ia punya empat puluh detik: SELECT, WHERE, gagasan join. “Kemampuan lanjutan” akan bertemu pertanyaan wawancara lima menit dan berakhir di sana. Baris jujur — yang bertahan — adalah penutup Modul 4: “sedang menyelesaikan kursus dasar SQL (modul 2 dari 6)”. Benar, bertanggal, dan persis dua menit panjangnya. Uji dua menit bukan tentang kejujuran; faktanya jujur. Ia tentang apakah klaim dan kemampuanmu membicarakannya berukuran sama."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Inflation spotting",
+        "id": "Latihan 1 · Menemukan penggelembungan"
+       },
+       "body": {
+        "en": "Read the supplied AI rewrite of Nadia’s CV (section 4) against her real facts. Mark each inflated claim and say what the true line is. There are seven.",
+        "id": "Baca tulisan ulang AI atas CV Nadia yang disediakan (bagian 4) terhadap fakta sebenarnya. Tandai setiap klaim yang digelembungkan dan katakan baris yang benar. Ada tujuh."
+       },
+       "debrief": {
+        "en": "(1) “Spearheaded … regional branch network” — three branches; she reconciled and flagged. (2) “40% reduction in processing errors” — invented; the fact is about 30 minutes of manual correction a day removed. (3) “500-member … Chief Financial Officer” — 300 members; Treasurer. (4) “Rp 200 juta portfolio” — Rp 120 juta annual budget. (5) “Managed a team of 12 baristas” — she trained 4 new baristas; she managed nobody. (6) “25% improvement in customer satisfaction” — invented; nothing was measured. (7) “SQL and Power BI” — Power BI never used; SQL a course in progress. The sponsorship bullet is the almost-true one: “cross-functional” is a convergence phrase, but Rp 85 juta, 6 people and 1,200 participants are hers. Note that “zero audit findings” survived — the tool kept a true fact while inflating everything around it, which is why line-by-line is the only way to read these.",
+        "id": "(1) “Memelopori … jaringan cabang regional” — tiga cabang; ia merekonsiliasi dan menandai. (2) “Pengurangan 40% kesalahan pemrosesan” — karangan; faktanya sekitar 30 menit koreksi manual per hari dihilangkan. (3) “500 anggota … Chief Financial Officer” — 300 anggota; Bendahara. (4) “Portofolio Rp 200 juta” — anggaran tahunan Rp 120 juta. (5) “Mengelola tim 12 barista” — ia melatih 4 barista baru; ia tidak mengelola siapa pun. (6) “Peningkatan 25% kepuasan pelanggan” — karangan; tidak ada yang diukur. (7) “SQL dan Power BI” — Power BI tidak pernah dipakai; SQL kursus yang sedang berjalan. Butir sponsorship adalah yang hampir benar: “lintas fungsi” adalah frasa penyeragaman, tetapi Rp 85 juta, 6 orang, dan 1.200 peserta miliknya. Perhatikan bahwa “nol temuan audit” bertahan — alat itu mempertahankan fakta benar sambil menggelembungkan semua di sekitarnya, itulah mengapa baris demi baris adalah satu-satunya cara membaca ini."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Voice restoration",
+        "id": "Latihan 2 · Pemulihan suara"
+       },
+       "body": {
+        "en": "Take the AI-drafted About from the compare block (or an AI draft of your own About). Apply the four personalisation moves: a specific after every generic claim; real names; your tone from your pantry transcript; delete every phrase you would not say aloud. Show both versions to a peer without labels and ask which is “more you”.",
+        "id": "Ambil About yang disusun AI dari blok perbandingan (atau draf AI About-mu sendiri). Terapkan empat langkah personalisasi: hal spesifik setelah setiap klaim generik; nama nyata; nadamu dari transkrip lemarimu; hapus setiap frasa yang tidak akan kamu ucapkan. Tunjukkan kedua versi ke rekan tanpa label dan tanyakan mana yang “lebih kamu”."
+       },
+       "debrief": {
+        "en": "The peer test usually takes them three seconds, and they pick the one with the numbers and the names. If they hesitate, the personalised version still has a generic sentence in it — find it and put a specific after it. If they pick the AI draft, ask them why; the usual answer is “it sounds more professional”, which is the convergence trap from Lesson 8.1 — it sounds like every profile, which is the opposite of what a recruiter is scanning for.",
+        "id": "Uji rekan biasanya butuh tiga detik, dan mereka memilih yang punya angka dan nama. Jika mereka ragu, versi yang dipersonalisasi masih punya kalimat generik — temukan dan taruh hal spesifik setelahnya. Jika mereka memilih draf AI, tanyakan mengapa; jawaban biasanya “terdengar lebih profesional”, yang merupakan jebakan penyeragaman dari Pelajaran 8.1 — terdengar seperti setiap profil, yang berlawanan dengan yang dipindai rekruter."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Run the checklist on a live output",
+        "id": "Latihan 3 · Jalankan daftar periksa pada keluaran nyata"
+       },
+       "body": {
+        "en": "Take any output from your prompt library this week — a bullet, a message, a letter skeleton — and run all seven lines, writing one word next to each: pass, or the fix. Time it.",
+        "id": "Ambil keluaran apa pun dari pustaka prompt-mu minggu ini — butir, pesan, kerangka surat — dan jalankan ketujuh baris, tulis satu kata di samping masing-masing: lolos, atau perbaikannya. Ukur waktunya."
+       },
+       "debrief": {
+        "en": "Three to five minutes, and typically two lines fail on a first output: line 4 (a phrase you would not say) and line 5 (a section with no specific). Both are personalisation, not honesty — the guardrail did its job on the facts. Log the result in the Dossier’s verification log: date, prompt type, which lines failed, what you changed. After ten entries the log shows your own pattern, and the prompt’s part 4 can be adjusted to prevent it.",
+        "id": "Tiga sampai lima menit, dan biasanya dua baris gagal pada keluaran pertama: baris 4 (frasa yang tidak akan kamu ucapkan) dan baris 5 (bagian tanpa hal spesifik). Keduanya personalisasi, bukan kejujuran — pagar pengaman menjalankan tugasnya pada fakta. Catat hasilnya di catatan verifikasi Dossier: tanggal, jenis prompt, baris mana yang gagal, apa yang kamu ubah. Setelah sepuluh entri catatan itu menunjukkan polamu sendiri, dan bagian 4 prompt bisa disesuaikan untuk mencegahnya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Trusting a true-looking number",
+         "id": "Mempercayai angka yang tampak benar"
+        },
+        "fix": {
+         "en": "Trace it to a document you own; if you cannot, delete it.",
+         "id": "Lacak ke dokumen milikmu; jika tidak bisa, hapus."
+        }
+       },
+       {
+        "h": {
+         "en": "Keeping a true fact you cannot talk about",
+         "id": "Mempertahankan fakta benar yang tidak bisa kamu bicarakan"
+        },
+        "fix": {
+         "en": "The two-minute test; size the claim to what you can say.",
+         "id": "Uji dua menit; ukur klaim sesuai apa yang bisa kamu katakan."
+        }
+       },
+       {
+        "h": {
+         "en": "A profile with no names and no numbers",
+         "id": "Profil tanpa nama dan tanpa angka"
+        },
+        "fix": {
+         "en": "A specific after every generic claim; real organisations and tools.",
+         "id": "Hal spesifik setelah setiap klaim generik; organisasi dan alat nyata."
+        }
+       },
+       {
+        "h": {
+         "en": "Denying AI use when an employer asks",
+         "id": "Menyangkal penggunaan AI ketika perusahaan bertanya"
+        },
+        "fix": {
+         "en": "Answer honestly and specifically; every fact is yours and you can say so.",
+         "id": "Jawab dengan jujur dan spesifik; setiap fakta milikmu dan kamu bisa mengatakannya."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Verification checklist",
+        "id": "Daftar periksa verifikasi"
+       },
+       "def": {
+        "en": "Seven lines every AI output passes before it touches a document: traced, two-minute, company facts verified, read aloud, one specific per section, CV/LinkedIn match, nothing confidential.",
+        "id": "Tujuh baris yang dilewati setiap keluaran AI sebelum menyentuh dokumen: dilacak, dua menit, fakta perusahaan diverifikasi, dibaca keras-keras, satu hal spesifik per bagian, CV/LinkedIn cocok, tidak ada yang rahasia."
+       }
+      },
+      {
+       "term": {
+        "en": "Two-minute test",
+        "id": "Uji dua menit"
+       },
+       "def": {
+        "en": "Could I talk about this line for two minutes at interview? If not, cut or shrink the claim.",
+        "id": "Bisakah saya membicarakan baris ini selama dua menit saat wawancara? Jika tidak, potong atau kecilkan klaimnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Personalise",
+        "id": "Personalisasi"
+       },
+       "def": {
+        "en": "A specific after every generic claim; real names; your tone; nothing you would not say aloud.",
+        "id": "Hal spesifik setelah setiap klaim generik; nama nyata; nadamu; tidak ada yang tidak akan kamu ucapkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Inflation",
+        "id": "Penggelembungan"
+       },
+       "def": {
+        "en": "A true fact made larger — three branches to a regional network; Treasurer to CFO — usually by one word.",
+        "id": "Fakta benar yang diperbesar — tiga cabang menjadi jaringan regional; Bendahara menjadi CFO — biasanya oleh satu kata."
+       }
+      },
+      {
+       "term": {
+        "en": "Verification log",
+        "id": "Catatan verifikasi"
+       },
+       "def": {
+        "en": "Date · prompt type · which checklist lines failed · what you changed — the module’s second Dossier item.",
+        "id": "Tanggal · jenis prompt · baris daftar periksa mana yang gagal · apa yang kamu ubah — butir Dossier kedua modul ini."
+       }
+      },
+      {
+       "term": {
+        "en": "Disclosure",
+        "id": "Pengungkapan"
+       },
+       "def": {
+        "en": "Saying so when a published piece was substantially AI-written; following an employer’s stated policy on applications.",
+        "id": "Mengatakannya ketika tulisan yang diterbitkan sebagian besar ditulis AI; mengikuti kebijakan yang dinyatakan perusahaan untuk lamaran."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The two-minute test asks…",
+        "id": "Uji dua menit bertanya…"
+       },
+       "options": [
+        {
+         "en": "Did the AI take under two minutes?",
+         "id": "Apakah AI butuh kurang dari dua menit?"
+        },
+        {
+         "en": "Could I talk about this line for two minutes at interview?",
+         "id": "Bisakah saya membicarakan baris ini selama dua menit saat wawancara?"
+        },
+        {
+         "en": "Is the document under two pages?",
+         "id": "Apakah dokumennya di bawah dua halaman?"
+        },
+        {
+         "en": "Did I read it twice?",
+         "id": "Apakah saya membacanya dua kali?"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "It catches true facts you cannot actually defend — the claim must be the size of what you can say.",
+        "id": "Ia menangkap fakta benar yang sebenarnya tidak bisa kamu pertahankan — klaim harus seukuran apa yang bisa kamu katakan."
+       }
+      },
+      {
+       "q": {
+        "en": "An AI-provided company fact must be…",
+        "id": "Fakta perusahaan yang diberikan AI harus…"
+       },
+       "options": [
+        {
+         "en": "Used as-is if it sounds right",
+         "id": "Dipakai apa adanya jika terdengar benar"
+        },
+        {
+         "en": "Verified at the company’s own source or recent news before use",
+         "id": "Diverifikasi di sumber perusahaan sendiri atau berita terkini sebelum dipakai"
+        },
+        {
+         "en": "Prefixed with “I believe”",
+         "id": "Diawali dengan “saya yakin”"
+        },
+        {
+         "en": "Used only in the email, not the letter",
+         "id": "Dipakai hanya di email, bukan surat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "An invented initiative is fluent, specific and false; only the source tells you which.",
+        "id": "Inisiatif karangan itu fasih, spesifik, dan salah; hanya sumbernya yang memberitahumu yang mana."
+       }
+      },
+      {
+       "q": {
+        "en": "The first step after receiving an AI draft is…",
+        "id": "Langkah pertama setelah menerima draf AI adalah…"
+       },
+       "options": [
+        {
+         "en": "Paste it into the CV",
+         "id": "Tempel ke CV"
+        },
+        {
+         "en": "Run the verification checklist",
+         "id": "Jalankan daftar periksa verifikasi"
+        },
+        {
+         "en": "Ask the AI whether it is accurate",
+         "id": "Tanyakan ke AI apakah akurat"
+        },
+        {
+         "en": "Send it to a friend",
+         "id": "Kirim ke teman"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Turn three of four: verify, then personalise, then own.",
+        "id": "Giliran tiga dari empat: verifikasi, lalu personalisasi, lalu miliki."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "The verification log",
+       "id": "Catatan verifikasi"
+      },
+      "body": {
+       "en": "In the CV studio, start the verification log — Dossier item 2 for this module: for every AI output you use this week, one line with the date, the prompt type, which of the seven checks failed, and what you changed. Run Drill 1’s seven inflations against your own current CV while you are there: is there a verb, a scope or a number that grew?",
+       "id": "Di studio CV, mulai catatan verifikasi — butir Dossier 2 untuk modul ini: untuk setiap keluaran AI yang kamu pakai minggu ini, satu baris dengan tanggal, jenis prompt, pemeriksaan mana dari tujuh yang gagal, dan apa yang kamu ubah. Jalankan tujuh penggelembungan Latihan 1 terhadap CV-mu sendiri saat di sana: adakah kata kerja, cakupan, atau angka yang membesar?"
+      },
+      "cta": {
+       "en": "Open the CV studio →",
+       "id": "Buka studio CV →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Seven checks before any AI text touches a document.",
+       "id": "Tujuh pemeriksaan sebelum teks AI apa pun menyentuh dokumen."
+      },
+      {
+       "en": "Personalise: a specific after every generic, real names, your voice.",
+       "id": "Personalisasi: hal spesifik setelah setiap yang generik, nama nyata, suaramu."
+      },
+      {
+       "en": "Own it: you answer for every sentence at interview.",
+       "id": "Miliki: kamu menjawab untuk setiap kalimat saat wawancara."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the checklist card",
+       "id": "Sumber dan kartu daftar periksa"
+      },
+      "lead": {
+       "en": "One source, the seven-line checklist to keep beside every prompt, and the log template.",
+       "id": "Satu sumber, daftar periksa tujuh baris untuk disimpan di samping setiap prompt, dan templat catatan."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 8.3",
+         "id": "Daftar bacaan · Pelajaran 8.3"
+        },
+        "desc": {
+         "en": "One source; the checklist is a course synthesis.",
+         "id": "Satu sumber; daftar periksanya adalah sintesis kursus."
+        },
+        "body": [
+         {
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), ch. 7 and 12 — personalisation, ethics, the transparency principle.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), bab 7 dan 12 — personalisasi, etika, prinsip transparansi."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Verification checklist · seven lines",
+         "id": "Daftar periksa verifikasi · tujuh baris"
+        },
+        "desc": {
+         "en": "Every output, three minutes.",
+         "id": "Setiap keluaran, tiga menit."
+        },
+        "body": [
+         {
+          "en": "☐ Every fact, date, title and number traced to a document I own",
+          "id": "☐ Setiap fakta, tanggal, jabatan, dan angka dilacak ke dokumen milik saya"
+         },
+         {
+          "en": "☐ Nothing I could not explain for two minutes at interview",
+          "id": "☐ Tidak ada yang tidak bisa saya jelaskan dua menit saat wawancara"
+         },
+         {
+          "en": "☐ Company facts verified on the company’s own site or news from the last 12 months",
+          "id": "☐ Fakta perusahaan diverifikasi di situs perusahaan sendiri atau berita 12 bulan terakhir"
+         },
+         {
+          "en": "☐ Read aloud — it sounds like me",
+          "id": "☐ Dibaca keras-keras — terdengar seperti saya"
+         },
+         {
+          "en": "☐ At least one specific example of my own per section",
+          "id": "☐ Setidaknya satu contoh spesifik milik saya per bagian"
+         },
+         {
+          "en": "☐ CV and LinkedIn facts still match",
+          "id": "☐ Fakta CV dan LinkedIn masih cocok"
+         },
+         {
+          "en": "☐ No confidential data was pasted in",
+          "id": "☐ Tidak ada data rahasia yang ditempel"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Verification log · one line per output",
+         "id": "Catatan verifikasi · satu baris per keluaran"
+        },
+        "desc": {
+         "en": "Dossier item 2.",
+         "id": "Butir Dossier 2."
+        },
+        "body": [
+         {
+          "en": "[date] · [prompt type 1–8] · failed: [line numbers] · changed: [what] · time: [min]",
+          "id": "[tanggal] · [jenis prompt 1–8] · gagal: [nomor baris] · diubah: [apa] · waktu: [mnt]"
+         },
+         {
+          "en": "After ten lines: which line fails most? → adjust part 4 (constraints) of that prompt",
+          "id": "Setelah sepuluh baris: baris mana yang paling sering gagal? → sesuaikan bagian 4 (batasan) prompt itu"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "AI for Research and Rehearsal",
+      "id": "AI untuk Riset dan Latihan"
+     },
+     "overview": {
+      "en": "Three uses of AI that do not touch the documents: a research brief that is a list of leads, not facts; commercial “ATS scores” that calibrate rather than command; and rehearsal — an interviewer that asks one question at a time and critiques your structure, useful before The Rope and useless at judging your presence. The drill is a hallucination hunt on a real target employer.",
+      "id": "Tiga penggunaan AI yang tidak menyentuh dokumen: brief riset yang merupakan daftar petunjuk, bukan fakta; “skor ATS” komersial yang mengalibrasi bukan memerintah; dan latihan — pewawancara yang mengajukan satu pertanyaan sekaligus dan mengkritik strukturmu, berguna sebelum The Rope dan tidak berguna untuk menilai kehadiranmu. Latihannya adalah perburuan halusinasi pada perusahaan sasaran nyata."
+     },
+     "objectives": [
+      {
+       "en": "Treat an AI research brief as leads to verify at source.",
+       "id": "Memperlakukan brief riset AI sebagai petunjuk untuk diverifikasi di sumber."
+      },
+      {
+       "en": "Read a commercial ATS score as a calibration prompt, not a verdict.",
+       "id": "Membaca skor ATS komersial sebagai pemicu kalibrasi, bukan vonis."
+      },
+      {
+       "en": "Use AI rehearsal for structure and evidence before The Rope.",
+       "id": "Memakai latihan AI untuk struktur dan bukti sebelum The Rope."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "Leads, calibration, rehearsal",
+       "id": "Petunjuk, kalibrasi, latihan"
+      },
+      "intro": {
+       "en": "Off the page, AI is a research assistant that must be checked, a scoring tool that must be read correctly, and a sparring partner that cannot see you.",
+       "id": "Di luar halaman, AI adalah asisten riset yang harus diperiksa, alat penilaian yang harus dibaca dengan benar, dan mitra latih tanding yang tidak bisa melihatmu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Research",
+         "id": "Riset"
+        },
+        "points": [
+         {
+          "en": "Ask for a company brief; verify every claim at the company’s own site or recent news before it enters a letter or a conversation.",
+          "id": "Minta brief perusahaan; verifikasi setiap klaim di situs perusahaan sendiri atau berita terkini sebelum masuk ke surat atau percakapan."
+         },
+         {
+          "en": "Prefer tools that cite sources — and open the sources.",
+          "id": "Utamakan alat yang mengutip sumber — dan buka sumbernya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Scores",
+         "id": "Skor"
+        },
+        "points": [
+         {
+          "en": "A commercial ATS score estimates a match against a generic model. Treat it as a prompt to check coverage, not a verdict.",
+          "id": "Skor ATS komersial memperkirakan kecocokan terhadap model generik. Perlakukan sebagai pemicu untuk memeriksa cakupan, bukan vonis."
+         },
+         {
+          "en": "The Studio’s transparent check shows exactly what matched — that is the number to act on.",
+          "id": "Pemeriksaan transparan Studio menunjukkan persis apa yang cocok — itulah angka untuk ditindaklanjuti."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Rehearsal",
+         "id": "Latihan"
+        },
+        "points": [
+         {
+          "en": "One question at a time; feedback on structure and evidence; likely questions from a job description.",
+          "id": "Satu pertanyaan sekaligus; umpan balik tentang struktur dan bukti; pertanyaan yang mungkin dari deskripsi pekerjaan."
+         },
+         {
+          "en": "It cannot judge your presence and does not know how this employer interviews. The Rope does.",
+          "id": "Ia tidak bisa menilai kehadiranmu dan tidak tahu cara perusahaan ini mewawancarai. The Rope bisa."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Research briefs are leads, not facts",
+        "id": "Brief riset adalah petunjuk, bukan fakta"
+       },
+       "body": {
+        "en": "Ask an AI tool for a company brief — recent initiatives, programme structure, values, leadership — and you get a fluent page in seconds. Treat every line as a lead: verify it at source before it enters a letter, a conversation or an interview answer <i>(Dumas, The AI-Savvy Job Seeker, Introduction and ch. 12)</i>. The source is the company’s own site, its annual or sustainability report, its careers page, or news from the last twelve months; a lead that cannot be found there is not used, however plausible. Use AI search tools that cite sources for recent news — and <b>open the sources</b>: a citation that leads to a page which does not say what the tool claimed is a hallucination with a footnote. The brief is still worth asking for, because it tells you what to look for; it is never worth quoting.",
+        "id": "Minta alat AI brief perusahaan — inisiatif terkini, struktur program, nilai, kepemimpinan — dan kamu mendapat satu halaman fasih dalam hitungan detik. Perlakukan setiap barisnya sebagai petunjuk: verifikasi di sumber sebelum masuk ke surat, percakapan, atau jawaban wawancara <i>(Dumas, The AI-Savvy Job Seeker, Pendahuluan dan bab 12)</i>. Sumbernya adalah situs perusahaan sendiri, laporan tahunan atau keberlanjutannya, laman kariernya, atau berita dua belas bulan terakhir; petunjuk yang tidak bisa ditemukan di sana tidak dipakai, sebagaimanapun masuk akalnya. Pakai alat pencarian AI yang mengutip sumber untuk berita terkini — dan <b>buka sumbernya</b>: kutipan yang mengarah ke halaman yang tidak mengatakan apa yang diklaim alat adalah halusinasi dengan catatan kaki. Brief itu tetap layak diminta, karena memberitahumu apa yang perlu dicari; tidak pernah layak dikutip."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Lead from the brief",
+          "id": "Petunjuk dari brief"
+         },
+         {
+          "en": "Where to verify",
+          "id": "Di mana memverifikasi"
+         },
+         {
+          "en": "Result",
+          "id": "Hasil"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "“Arunika launched a sustainability programme in 2025”",
+           "id": "“Arunika meluncurkan program keberlanjutan pada 2025”"
+          },
+          {
+           "en": "Arunika’s site → reports",
+           "id": "Situs Arunika → laporan"
+          },
+          {
+           "en": "Verified: the 2026 report names distribution-route optimisation — use that, in its words",
+           "id": "Terverifikasi: laporan 2026 menyebut optimalisasi rute distribusi — pakai itu, dengan kata-katanya"
+          }
+         ],
+         [
+          {
+           "en": "“The MT programme is 24 months with an overseas rotation”",
+           "id": "“Program MT 24 bulan dengan rotasi luar negeri”"
+          },
+          {
+           "en": "Careers page; Kak Rina",
+           "id": "Laman karier; Kak Rina"
+          },
+          {
+           "en": "False: 18 months, rotations in Indonesia — discard",
+           "id": "Salah: 18 bulan, rotasi di Indonesia — buang"
+          }
+         ],
+         [
+          {
+           "en": "“KilatPay processes 2 million transactions a day”",
+           "id": "“KilatPay memproses 2 juta transaksi sehari”"
+          },
+          {
+           "en": "Company site; recent news with a source",
+           "id": "Situs perusahaan; berita terkini dengan sumber"
+          },
+          {
+           "en": "Unverifiable: no source found — discard",
+           "id": "Tidak bisa diverifikasi: tidak ada sumber ditemukan — buang"
+          }
+         ],
+         [
+          {
+           "en": "“Rel Nusantara introduced cashless ticketing at 40 stations”",
+           "id": "“Rel Nusantara memperkenalkan tiket nontunai di 40 stasiun”"
+          },
+          {
+           "en": "2024 annual report on the company site",
+           "id": "Laporan tahunan 2024 di situs perusahaan"
+          },
+          {
+           "en": "Verified, with the date — usable",
+           "id": "Terverifikasi, dengan tanggalnya — bisa dipakai"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Two of four survive. That is a normal ratio, and it is why the brief is a starting point, not a paragraph.",
+         "id": "Dua dari empat bertahan. Itu rasio normal, dan itulah mengapa brief adalah titik awal, bukan paragraf."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "“ATS scores” — calibrate, don’t obey",
+        "id": "“Skor ATS” — kalibrasi, jangan patuhi"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-contested\">Course guidance</span> Commercial scoring tools estimate a match between your CV and an advertisement against a <i>generic</i> model of what recruiters want; they do not know this employer’s parser, this recruiter’s filters, or this programme’s must-haves. Treat the score as a prompt to check coverage, not as a verdict: a 62% is a reason to open Module 4.3’s coverage table and see which must-have keywords are absent in their exact form — not a reason to stuff the CV with the tool’s suggested phrases until the number reaches 90. The transparent check in the Studio shows exactly what matched and what did not, keyword by keyword; that is the number to act on, because you can see what it is made of. Two rules: never add a keyword you cannot evidence to raise a score (Module 4.3’s honest closes), and never let a high score replace the human read of Module 3.6’s quality gate.",
+        "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Alat penilaian komersial memperkirakan kecocokan antara CV-mu dan iklan terhadap model <i>generik</i> tentang apa yang diinginkan rekruter; mereka tidak tahu pengurai perusahaan ini, filter rekruter ini, atau syarat wajib program ini. Perlakukan skor sebagai pemicu untuk memeriksa cakupan, bukan vonis: 62% adalah alasan membuka tabel cakupan Modul 4.3 dan melihat kata kunci wajib mana yang tidak ada dalam bentuk persisnya — bukan alasan menjejali CV dengan frasa saran alat sampai angkanya mencapai 90. Pemeriksaan transparan di Studio menunjukkan persis apa yang cocok dan tidak, kata kunci demi kata kunci; itulah angka untuk ditindaklanjuti, karena kamu bisa melihat terbuat dari apa. Dua aturan: jangan pernah menambah kata kunci yang tidak bisa kamu buktikan untuk menaikkan skor (penutup jujur Modul 4.3), dan jangan pernah biarkan skor tinggi menggantikan bacaan manusia dari gerbang kualitas Modul 3.6."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Score says",
+          "id": "Skor bilang"
+         },
+         {
+          "en": "It means",
+          "id": "Artinya"
+         },
+         {
+          "en": "You do",
+          "id": "Kamu lakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "62% match",
+           "id": "Kecocokan 62%"
+          },
+          {
+           "en": "Some must-have keywords are absent or in a different form",
+           "id": "Sebagian kata kunci wajib tidak ada atau dalam bentuk berbeda"
+          },
+          {
+           "en": "Coverage table; add exact forms only where you have the evidence",
+           "id": "Tabel cakupan; tambah bentuk persis hanya bila kamu punya buktinya"
+          }
+         ],
+         [
+          {
+           "en": "“Add: stakeholder management, agile, KPI”",
+           "id": "“Tambahkan: stakeholder management, agile, KPI”"
+          },
+          {
+           "en": "The generic model likes these words",
+           "id": "Model generik menyukai kata-kata ini"
+          },
+          {
+           "en": "Add only if you did the thing and the advertisement asks for it",
+           "id": "Tambahkan hanya jika kamu melakukannya dan iklannya meminta"
+          }
+         ],
+         [
+          {
+           "en": "91% match",
+           "id": "Kecocokan 91%"
+          },
+          {
+           "en": "The words are there",
+           "id": "Kata-katanya ada"
+          },
+          {
+           "en": "Still run the quality gate; a parser-perfect CV can be a dull one",
+           "id": "Tetap jalankan gerbang kualitas; CV yang sempurna untuk pengurai bisa membosankan"
+          }
+         ],
+         [
+          {
+           "en": "Studio check: 5 of 6 must-haves matched; “supply chain” missing",
+           "id": "Pemeriksaan Studio: 5 dari 6 syarat wajib cocok; “supply chain” hilang"
+          },
+          {
+           "en": "One exact-form gap you can see",
+           "id": "Satu celah bentuk persis yang bisa kamu lihat"
+          },
+          {
+           "en": "Fix that one line — the thesis bullet already evidences it",
+           "id": "Perbaiki satu baris itu — butir skripsi sudah membuktikannya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Rehearsal",
+        "id": "Latihan"
+       },
+       "body": {
+        "en": "AI can play interviewer: generate likely questions from a job description, ask them one at a time, and critique the structure and evidence of each answer — is there a situation, an action, a result with a number? <i>(Dumas, Introduction)</i>. This is useful practice before The Rope, for three things: hearing yourself answer aloud, finding which stories from the pantry you reach for, and noticing when an answer has no number. It cannot judge your presence — pace, eye contact, the pause before a hard question — and it does not know how this specific employer interviews: whether Bank Sinar Nusantara’s panel opens with values, or whether Arunika’s runs a case. The Rope, and the alumni conversations of Module 2, do. Use the rehearsal prompt (Lesson 8.2, type 8) in the week before an interview, with the advertisement pasted; stop when your answers have structure and numbers, and take the rest to The Rope.",
+        "id": "AI bisa berperan sebagai pewawancara: menghasilkan pertanyaan yang mungkin dari deskripsi pekerjaan, mengajukannya satu per satu, dan mengkritik struktur dan bukti setiap jawaban — adakah situasi, tindakan, hasil dengan angka? <i>(Dumas, Pendahuluan)</i>. Ini latihan yang berguna sebelum The Rope, untuk tiga hal: mendengar dirimu menjawab dengan bersuara, menemukan cerita mana dari lemari yang kamu raih, dan memperhatikan ketika jawaban tidak punya angka. Ia tidak bisa menilai kehadiranmu — tempo, kontak mata, jeda sebelum pertanyaan sulit — dan tidak tahu cara perusahaan tertentu ini mewawancarai: apakah panel Bank Sinar Nusantara dibuka dengan nilai, atau apakah Arunika menjalankan kasus. The Rope, dan percakapan alumni Modul 2, tahu. Pakai prompt latihan (Pelajaran 8.2, jenis 8) di minggu sebelum wawancara, dengan iklan ditempel; berhenti ketika jawabanmu punya struktur dan angka, dan bawa sisanya ke The Rope."
+       },
+       "bullets": [
+        {
+         "en": "<b>Good for:</b> likely questions from the advertisement; one-at-a-time practice; structure feedback (situation, action, result); spotting answers without a number; hearing yourself.",
+         "id": "<b>Bagus untuk:</b> pertanyaan yang mungkin dari iklan; latihan satu per satu; umpan balik struktur (situasi, tindakan, hasil); menemukan jawaban tanpa angka; mendengar dirimu."
+        },
+        {
+         "en": "<b>Not for:</b> presence, pace and eye contact; this employer’s actual interview format; Indonesian panel conventions; whether your story is true — it will praise an invented one as readily as a real one.",
+         "id": "<b>Bukan untuk:</b> kehadiran, tempo, dan kontak mata; format wawancara sebenarnya perusahaan ini; konvensi panel Indonesia; apakah ceritamu benar — ia akan memuji cerita karangan semudah cerita nyata."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The hallucination hunt",
+        "id": "Perburuan halusinasi"
+       },
+       "body": {
+        "en": "The drill that makes the lesson stick: ask an AI tool for “five recent initiatives” of a real employer on your Top 5, then verify each at source and record how many were wrong, outdated or unverifiable. <span class=\"ev ev-contested\">Course guidance</span> Most cohorts find at least one invented or outdated item — often a plausible programme name, a wrong year, or a real initiative from a different company. Nobody who has done the hunt on their own target employer pastes an AI company fact into a letter again. The record goes in the verification log (Lesson 8.3) as its first research entry.",
+        "id": "Latihan yang membuat pelajaran ini melekat: minta alat AI “lima inisiatif terkini” dari perusahaan nyata di 5 Teratas-mu, lalu verifikasi masing-masing di sumber dan catat berapa yang salah, usang, atau tidak bisa diverifikasi. <span class=\"ev ev-contested\">Panduan kursus</span> Kebanyakan kohor menemukan setidaknya satu butir karangan atau usang — sering nama program yang masuk akal, tahun yang salah, atau inisiatif nyata dari perusahaan berbeda. Tidak ada yang pernah melakukan perburuan ini pada perusahaan sasarannya sendiri yang menempel fakta perusahaan dari AI ke surat lagi. Catatannya masuk ke catatan verifikasi (Pelajaran 8.3) sebagai entri riset pertamanya."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 4: From brief to letter — what survives",
+       "id": "Peraga 4: Dari brief ke surat — apa yang bertahan"
+      },
+      "title": {
+       "en": "Five leads about Arunika, verified one by one",
+       "id": "Lima petunjuk tentang Arunika, diverifikasi satu per satu"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "The brief",
+         "id": "Brief"
+        },
+        "sub": {
+         "en": "Five “recent initiatives” in ten seconds: a sustainability programme, a 24-month MT rotation with overseas placement, a new Bekasi plant, a digital-distributor platform, a 2025 award.",
+         "id": "Lima “inisiatif terkini” dalam sepuluh detik: program keberlanjutan, rotasi MT 24 bulan dengan penempatan luar negeri, pabrik Bekasi baru, platform distributor digital, penghargaan 2025."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Company site",
+         "id": "Situs perusahaan"
+        },
+        "sub": {
+         "en": "Sustainability: the 2026 report exists and names route optimisation — verified, reworded. Bekasi plant: exists, opened 2019 — outdated as “recent”.",
+         "id": "Keberlanjutan: laporan 2026 ada dan menyebut optimalisasi rute — terverifikasi, ditulis ulang. Pabrik Bekasi: ada, dibuka 2019 — usang sebagai “terkini”."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Kak Rina",
+         "id": "Kak Rina"
+        },
+        "sub": {
+         "en": "MT rotation: 18 months, all in Indonesia — the brief was wrong. Digital-distributor platform: she has never heard of it — unverifiable.",
+         "id": "Rotasi MT: 18 bulan, semua di Indonesia — brief-nya salah. Platform distributor digital: ia belum pernah mendengarnya — tidak bisa diverifikasi."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "News search with sources",
+         "id": "Pencarian berita dengan sumber"
+        },
+        "sub": {
+         "en": "The 2025 award: the cited page is about a different company — invented by association.",
+         "id": "Penghargaan 2025: halaman yang dikutip tentang perusahaan berbeda — dikarang lewat asosiasi."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Into the letter",
+         "id": "Ke dalam surat"
+        },
+        "sub": {
+         "en": "One verified specific, in the report’s own words. One of five.",
+         "id": "Satu hal spesifik terverifikasi, dengan kata-kata laporan itu sendiri. Satu dari lima."
+        }
+       }
+      ],
+      "note": {
+       "en": "The brief took ten seconds and the verification took twenty minutes. The twenty minutes are the work.",
+       "id": "Brief-nya butuh sepuluh detik dan verifikasinya dua puluh menit. Dua puluh menit itulah pekerjaannya."
+      },
+      "longdesc": {
+       "en": "A five-stage flow: an AI brief lists five recent initiatives; the company site verifies one and dates another as outdated; an alumna corrects the programme length and cannot confirm a platform; a sourced news search shows the award belonged to another company; one verified specific enters the letter.",
+       "id": "Alur lima tahap: brief AI mencantumkan lima inisiatif terkini; situs perusahaan memverifikasi satu dan menandai satu lagi usang; seorang alumna mengoreksi panjang program dan tidak bisa mengonfirmasi sebuah platform; pencarian berita bersumber menunjukkan penghargaannya milik perusahaan lain; satu hal spesifik terverifikasi masuk ke surat."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two readings of one score",
+        "id": "Dua bacaan atas satu skor"
+       },
+       "q": {
+        "en": "A commercial tool scores Nadia’s Arunika CV at 62% and suggests adding “stakeholder management”, “agile methodology”, “KPI tracking” and “cross-functional leadership”.",
+        "id": "Alat komersial memberi skor CV Arunika Nadia 62% dan menyarankan menambah “stakeholder management”, “agile methodology”, “KPI tracking”, dan “cross-functional leadership”."
+       },
+       "weak": {
+        "en": "Adds all four to the skills line and the profile. Score: 88%. Interview: “Tell me about your experience with agile methodology.” Silence.",
+        "id": "Menambah keempatnya ke baris keterampilan dan profil. Skor: 88%. Wawancara: “Ceritakan pengalaman Anda dengan agile methodology.” Hening."
+       },
+       "strong": {
+        "en": "Opens the Studio’s transparent check against the actual advertisement: five of six must-haves matched; “supply chain” absent in exact form. Adds “supply chain” to the thesis bullet, where the evidence already is. Ignores the four suggestions — the advertisement asks for none of them and she has done none of them. Score on the commercial tool: 66%. Interview: every keyword survives its question.",
+        "id": "Membuka pemeriksaan transparan Studio terhadap iklan sebenarnya: lima dari enam syarat wajib cocok; “supply chain” tidak ada dalam bentuk persis. Menambah “supply chain” ke butir skripsi, tempat buktinya sudah ada. Mengabaikan empat saran — iklan tidak meminta satu pun dan ia belum melakukan satu pun. Skor di alat komersial: 66%. Wawancara: setiap kata kunci lolos pertanyaannya."
+       },
+       "why": {
+        "en": "The score measured a generic model; the transparent check measured the advertisement. Only the second tells you what to fix, and the fix was one honest word in a line that already had the evidence.",
+        "id": "Skornya mengukur model generik; pemeriksaan transparan mengukur iklannya. Hanya yang kedua yang memberitahumu apa yang perlu diperbaiki, dan perbaikannya satu kata jujur di baris yang sudah punya buktinya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the interviewer who praised the wrong story",
+       "id": "Sorotan: pewawancara yang memuji cerita yang salah"
+      },
+      "body": [
+       {
+        "en": "Nadia rehearsed for the Arunika interview with the rehearsal prompt. Question three: “Tell me about a time you improved a process.” She tried two answers. The first was the terminal mismatch — true, with a number. The second, for practice, she invented: leading a warehouse-layout redesign at Kopi Tepian that cut restocking time by half. The tool praised the second more: “excellent use of leadership, quantified impact, clear ownership.”",
+        "id": "Nadia berlatih untuk wawancara Arunika dengan prompt latihan. Pertanyaan ketiga: “Ceritakan saat Anda memperbaiki sebuah proses.” Ia mencoba dua jawaban. Yang pertama selisih terminal — benar, dengan angka. Yang kedua, untuk latihan, ia karang: memimpin perancangan ulang tata letak gudang di Kopi Tepian yang memotong waktu pengisian ulang stok separuh. Alat itu lebih memuji yang kedua: “penggunaan kepemimpinan yang sangat baik, dampak terukur, kepemilikan yang jelas.”"
+       },
+       {
+        "en": "That is the boundary of rehearsal in one exchange. The tool judges structure and evidence <i>as stated</i>; it has no way to know that the café has no warehouse. It is a good coach for the shape of an answer and no judge at all of its truth — which is fine, because truth is the one thing you already know. Use it for shape. Take the true stories, in that shape, to The Rope, where a human panel and a camera judge the rest.",
+        "id": "Itulah batas latihan dalam satu pertukaran. Alat itu menilai struktur dan bukti <i>sebagaimana dinyatakan</i>; ia tidak punya cara mengetahui bahwa kafe itu tidak punya gudang. Ia pelatih yang baik untuk bentuk jawaban dan sama sekali bukan hakim kebenarannya — yang tidak apa-apa, karena kebenaran adalah satu hal yang sudah kamu tahu. Pakai untuk bentuk. Bawa cerita nyata, dalam bentuk itu, ke The Rope, tempat panel manusia dan kamera menilai sisanya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Hallucination hunt",
+        "id": "Latihan 1 · Perburuan halusinasi"
+       },
+       "body": {
+        "en": "Ask an AI tool for “five recent initiatives” of a real Indonesian employer on your Top 5. For each, find the source — the company’s site, a report, a careers page, news under twelve months old with a citation you open — and mark it verified / outdated / wrong / unverifiable. Record the count in your verification log.",
+        "id": "Minta alat AI “lima inisiatif terkini” dari perusahaan Indonesia nyata di 5 Teratas-mu. Untuk masing-masing, temukan sumbernya — situs perusahaan, laporan, laman karier, berita di bawah dua belas bulan dengan kutipan yang kamu buka — dan tandai terverifikasi / usang / salah / tidak bisa diverifikasi. Catat jumlahnya di catatan verifikasimu."
+       },
+       "debrief": {
+        "en": "Most learners find one to three of five that are wrong, outdated or unverifiable, and the wrong ones are the most fluent. The verified ones are usually the biggest and oldest facts; the invented ones are specific, recent and exactly the kind of thing you would want to put in a letter. That asymmetry is the lesson: the more useful a lead looks, the more it needs the source. Keep the verified ones, in the source’s words, with the URL and date, for your “why them” paragraph.",
+        "id": "Kebanyakan pembelajar menemukan satu sampai tiga dari lima yang salah, usang, atau tidak bisa diverifikasi, dan yang salah adalah yang paling fasih. Yang terverifikasi biasanya fakta terbesar dan tertua; yang dikarang spesifik, terkini, dan persis jenis hal yang ingin kamu taruh di surat. Asimetri itulah pelajarannya: semakin berguna sebuah petunjuk tampak, semakin ia membutuhkan sumber. Simpan yang terverifikasi, dengan kata-kata sumbernya, dengan URL dan tanggal, untuk paragraf “mengapa mereka”-mu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Read the score twice",
+        "id": "Latihan 2 · Baca skornya dua kali"
+       },
+       "body": {
+        "en": "Run your tailored CV for one Top 5 advertisement through the Studio’s transparent ATS check. List the must-have keywords it reports as matched and missing. Then, if you have access to a commercial scoring tool, run the same CV there and list its suggested additions. Compare: which missing items does the advertisement actually ask for, and which suggestions does it not mention at all?",
+        "id": "Jalankan CV yang disesuaikan untuk satu iklan 5 Teratas melalui pemeriksaan ATS transparan Studio. Daftar kata kunci wajib yang dilaporkannya cocok dan hilang. Lalu, jika kamu punya akses ke alat penilaian komersial, jalankan CV yang sama di sana dan daftar saran tambahannya. Bandingkan: butir hilang mana yang benar-benar diminta iklan, dan saran mana yang sama sekali tidak disebut iklan?"
+       },
+       "debrief": {
+        "en": "The transparent check’s gaps are almost always real must-haves in a different form (“supply chain” vs “SCM”; “Microsoft Excel” vs “Excel”); fix those with Module 4.3’s exact-form rule where you have the evidence. The commercial tool’s suggestions are usually words the generic model likes; a suggestion the advertisement does not contain and you have not done is noise. If both agree on a gap, it is a real gap — decide learn or accept.",
+        "id": "Celah pemeriksaan transparan hampir selalu syarat wajib nyata dalam bentuk berbeda (“supply chain” vs “SCM”; “Microsoft Excel” vs “Excel”); perbaiki dengan aturan bentuk persis Modul 4.3 bila kamu punya buktinya. Saran alat komersial biasanya kata-kata yang disukai model generik; saran yang tidak ada di iklan dan belum kamu lakukan adalah kebisingan. Jika keduanya sepakat tentang celah, itu celah nyata — putuskan pelajari atau terima."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Ten questions, one at a time",
+        "id": "Latihan 3 · Sepuluh pertanyaan, satu per satu"
+       },
+       "body": {
+        "en": "Paste one Top 5 advertisement and your CV into the rehearsal prompt (Lesson 8.2, type 8). Answer ten questions aloud, one at a time, using only true stories from your pantry. After each, read the structure feedback and note whether your answer had a situation, an action and a result with a number.",
+        "id": "Tempel satu iklan 5 Teratas dan CV-mu ke prompt latihan (Pelajaran 8.2, jenis 8). Jawab sepuluh pertanyaan dengan bersuara, satu per satu, hanya dengan cerita nyata dari lemarimu. Setelah masing-masing, baca umpan balik strukturnya dan catat apakah jawabanmu punya situasi, tindakan, dan hasil dengan angka."
+       },
+       "debrief": {
+        "en": "Two patterns show up by question five: the same two pantry stories answering everything (the pantry has more — go back to it), and answers that end without a number (the result was there; you did not say it). Both are fixable before The Rope, and neither needs a human to spot. What the tool did not tell you — how you sounded, where you looked, how long you paused — is what The Rope is for. Book it.",
+        "id": "Dua pola muncul pada pertanyaan kelima: dua cerita lemari yang sama menjawab segalanya (lemari punya lebih banyak — kembali ke sana), dan jawaban yang berakhir tanpa angka (hasilnya ada; kamu tidak mengatakannya). Keduanya bisa diperbaiki sebelum The Rope, dan tidak satu pun butuh manusia untuk menemukannya. Apa yang tidak diberitahu alat itu — bagaimana kamu terdengar, ke mana kamu melihat, berapa lama kamu berjeda — itulah gunanya The Rope. Pesan tempatnya."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Quoting an AI company brief in a letter",
+         "id": "Mengutip brief perusahaan dari AI di surat"
+        },
+        "fix": {
+         "en": "Verify every lead at the company’s own source; use the source’s words.",
+         "id": "Verifikasi setiap petunjuk di sumber perusahaan sendiri; pakai kata-kata sumbernya."
+        }
+       },
+       {
+        "h": {
+         "en": "Chasing a commercial ATS score to 90",
+         "id": "Mengejar skor ATS komersial sampai 90"
+        },
+        "fix": {
+         "en": "Check coverage against the actual advertisement; add exact forms only where you have evidence.",
+         "id": "Periksa cakupan terhadap iklan sebenarnya; tambah bentuk persis hanya bila kamu punya bukti."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating a rehearsal tool’s praise as a verdict",
+         "id": "Memperlakukan pujian alat latihan sebagai vonis"
+        },
+        "fix": {
+         "en": "It judges shape, not truth or presence; take the true stories to The Rope.",
+         "id": "Ia menilai bentuk, bukan kebenaran atau kehadiran; bawa cerita nyata ke The Rope."
+        }
+       },
+       {
+        "h": {
+         "en": "Trusting a citation without opening it",
+         "id": "Mempercayai kutipan tanpa membukanya"
+        },
+        "fix": {
+         "en": "Open the source; a footnote to the wrong page is still a hallucination.",
+         "id": "Buka sumbernya; catatan kaki ke halaman yang salah tetap halusinasi."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Research brief",
+        "id": "Brief riset"
+       },
+       "def": {
+        "en": "An AI-generated summary of an employer — a list of leads to verify at source, never a paragraph to quote.",
+        "id": "Ringkasan perusahaan yang dihasilkan AI — daftar petunjuk untuk diverifikasi di sumber, tidak pernah paragraf untuk dikutip."
+       }
+      },
+      {
+       "term": {
+        "en": "At source",
+        "id": "Di sumber"
+       },
+       "def": {
+        "en": "The company’s own site or reports, its careers page, or cited news under twelve months old — opened and read.",
+        "id": "Situs atau laporan perusahaan sendiri, laman kariernya, atau berita bersumber di bawah dua belas bulan — dibuka dan dibaca."
+       }
+      },
+      {
+       "term": {
+        "en": "Commercial ATS score",
+        "id": "Skor ATS komersial"
+       },
+       "def": {
+        "en": "A match estimate against a generic model — a prompt to check coverage, not a verdict.",
+        "id": "Perkiraan kecocokan terhadap model generik — pemicu untuk memeriksa cakupan, bukan vonis."
+       }
+      },
+      {
+       "term": {
+        "en": "Transparent check",
+        "id": "Pemeriksaan transparan"
+       },
+       "def": {
+        "en": "The Studio’s keyword-by-keyword comparison against the actual advertisement — the number you can act on.",
+        "id": "Perbandingan kata kunci demi kata kunci Studio terhadap iklan sebenarnya — angka yang bisa kamu tindaklanjuti."
+       }
+      },
+      {
+       "term": {
+        "en": "Rehearsal prompt",
+        "id": "Prompt latihan"
+       },
+       "def": {
+        "en": "AI as interviewer: one question at a time, feedback on structure and evidence — shape, not truth or presence.",
+        "id": "AI sebagai pewawancara: satu pertanyaan sekaligus, umpan balik tentang struktur dan bukti — bentuk, bukan kebenaran atau kehadiran."
+       }
+      },
+      {
+       "term": {
+        "en": "Hallucination hunt",
+        "id": "Perburuan halusinasi"
+       },
+       "def": {
+        "en": "Asking for five recent initiatives of a real employer and verifying each — the drill that ends the habit of quoting AI facts.",
+        "id": "Meminta lima inisiatif terkini perusahaan nyata dan memverifikasi masing-masing — latihan yang mengakhiri kebiasaan mengutip fakta AI."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "An AI research brief is…",
+        "id": "Brief riset AI adalah…"
+       },
+       "options": [
+        {
+         "en": "A reliable summary to quote",
+         "id": "Ringkasan andal untuk dikutip"
+        },
+        {
+         "en": "A list of leads to verify at source",
+         "id": "Daftar petunjuk untuk diverifikasi di sumber"
+        },
+        {
+         "en": "Only useful for large companies",
+         "id": "Hanya berguna untuk perusahaan besar"
+        },
+        {
+         "en": "A substitute for a conversation",
+         "id": "Pengganti percakapan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Fluent, specific and sometimes false; only the source tells you which lines survive.",
+        "id": "Fasih, spesifik, dan kadang salah; hanya sumbernya yang memberitahumu baris mana yang bertahan."
+       }
+      },
+      {
+       "q": {
+        "en": "A commercial ATS score of 62% means…",
+        "id": "Skor ATS komersial 62% berarti…"
+       },
+       "options": [
+        {
+         "en": "You will be rejected",
+         "id": "Kamu akan ditolak"
+        },
+        {
+         "en": "Check coverage — it is an estimate against a generic model",
+         "id": "Periksa cakupan — itu perkiraan terhadap model generik"
+        },
+        {
+         "en": "Add every suggested keyword",
+         "id": "Tambahkan setiap kata kunci yang disarankan"
+        },
+        {
+         "en": "The CV is unreadable",
+         "id": "CV-nya tidak terbaca"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The transparent check against the actual advertisement tells you what to fix; the score only tells you to look.",
+        "id": "Pemeriksaan transparan terhadap iklan sebenarnya memberitahumu apa yang perlu diperbaiki; skor hanya memberitahumu untuk melihat."
+       }
+      },
+      {
+       "q": {
+        "en": "AI rehearsal is best for…",
+        "id": "Latihan AI paling baik untuk…"
+       },
+       "options": [
+        {
+         "en": "Judging your presence and eye contact",
+         "id": "Menilai kehadiran dan kontak matamu"
+        },
+        {
+         "en": "Practising structure and evidence before The Rope",
+         "id": "Melatih struktur dan bukti sebelum The Rope"
+        },
+        {
+         "en": "Learning how this employer’s panel interviews",
+         "id": "Mempelajari cara panel perusahaan ini mewawancarai"
+        },
+        {
+         "en": "Checking whether your story is true",
+         "id": "Memeriksa apakah ceritamu benar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Shape, one question at a time; the rest is The Rope’s.",
+        "id": "Bentuk, satu pertanyaan sekaligus; sisanya milik The Rope."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "ats",
+      "title": {
+       "en": "The transparent check",
+       "id": "Pemeriksaan transparan"
+      },
+      "body": {
+       "en": "Run your tailored CV against one Top 5 advertisement in the Gym’s ATS check: it shows every must-have keyword as matched or missing, in the advertisement’s exact form. Fix only the gaps you can evidence, then log the hallucination hunt’s count and the check’s result as this week’s research entries in the verification log.",
+       "id": "Jalankan CV yang disesuaikan terhadap satu iklan 5 Teratas di pemeriksaan ATS Gym: ia menunjukkan setiap kata kunci wajib sebagai cocok atau hilang, dalam bentuk persis iklan. Perbaiki hanya celah yang bisa kamu buktikan, lalu catat jumlah perburuan halusinasi dan hasil pemeriksaan sebagai entri riset minggu ini di catatan verifikasi."
+      },
+      "cta": {
+       "en": "Open the ATS check →",
+       "id": "Buka pemeriksaan ATS →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "A research brief is a list of leads; verify each at source.",
+       "id": "Brief riset adalah daftar petunjuk; verifikasi masing-masing di sumber."
+      },
+      {
+       "en": "An ATS score is a prompt to check coverage, not a verdict.",
+       "id": "Skor ATS adalah pemicu untuk memeriksa cakupan, bukan vonis."
+      },
+      {
+       "en": "Rehearsal is for structure and evidence; The Rope is for the rest.",
+       "id": "Latihan untuk struktur dan bukti; The Rope untuk sisanya."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the verification card",
+       "id": "Sumber dan kartu verifikasi"
+      },
+      "lead": {
+       "en": "One source, and the card for turning a brief into usable specifics.",
+       "id": "Satu sumber, dan kartu untuk mengubah brief menjadi hal spesifik yang bisa dipakai."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 8.4",
+         "id": "Daftar bacaan · Pelajaran 8.4"
+        },
+        "desc": {
+         "en": "One source; the score guidance is retained course guidance.",
+         "id": "Satu sumber; panduan skor adalah panduan kursus yang dipertahankan."
+        },
+        "body": [
+         {
+          "en": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), Introduction and ch. 12 — research briefs and verification; AI as a practice interviewer.",
+          "id": "M. Dumas, <i>The AI-Savvy Job Seeker</i> (2025), Pendahuluan dan bab 12 — brief riset dan verifikasi; AI sebagai pewawancara latihan."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Brief → specifics · four steps",
+         "id": "Brief → hal spesifik · empat langkah"
+        },
+        "desc": {
+         "en": "Twenty minutes per employer.",
+         "id": "Dua puluh menit per perusahaan."
+        },
+        "body": [
+         {
+          "en": "Ask: “five recent initiatives / the programme structure / stated values” — with the guardrail",
+          "id": "Minta: “lima inisiatif terkini / struktur program / nilai yang dinyatakan” — dengan pagar pengaman"
+         },
+         {
+          "en": "Verify each at source: company site · reports · careers page · cited news under 12 months, opened",
+          "id": "Verifikasi masing-masing di sumber: situs perusahaan · laporan · laman karier · berita bersumber di bawah 12 bulan, dibuka"
+         },
+         {
+          "en": "Mark: verified (with URL and date) · outdated · wrong · unverifiable — keep only the first",
+          "id": "Tandai: terverifikasi (dengan URL dan tanggal) · usang · salah · tidak bisa diverifikasi — simpan hanya yang pertama"
+         },
+         {
+          "en": "Reword in the source’s words; log the count in the verification log",
+          "id": "Tulis ulang dengan kata-kata sumbernya; catat jumlahnya di catatan verifikasi"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "8.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — The Too-Good Draft",
+      "id": "Tugas Kasus — Draf yang Terlalu Bagus"
+     },
+     "overview": {
+      "en": "A friend sends Nadia an AI-generated cover letter and CV profile for KilatPay “that sounds amazing”. Hidden inside: three invented facts about KilatPay, two inflated claims about Nadia, one tool she has never used, and generic phrasing throughout. Log every claim, rewrite the profile so it is true and specific, write the seven-part prompt that would have produced a safe draft, and add five prompts to your library.",
+      "id": "Seorang teman mengirimi Nadia surat pengantar dan profil CV yang dihasilkan AI untuk KilatPay “yang terdengar luar biasa”. Tersembunyi di dalamnya: tiga fakta karangan tentang KilatPay, dua klaim yang digelembungkan tentang Nadia, satu alat yang belum pernah ia pakai, dan frasa generik di seluruhnya. Catat setiap klaim, tulis ulang profilnya agar benar dan spesifik, tulis prompt tujuh bagian yang seharusnya menghasilkan draf yang aman, dan tambahkan lima prompt ke pustakamu."
+     },
+     "objectives": [
+      {
+       "en": "Classify every claim in an AI draft as verified, inflated, invented or generic.",
+       "id": "Menggolongkan setiap klaim dalam draf AI sebagai terverifikasi, digelembungkan, dikarang, atau generik."
+      },
+      {
+       "en": "Rewrite an AI profile to be true and specific.",
+       "id": "Menulis ulang profil AI agar benar dan spesifik."
+      },
+      {
+       "en": "Write the seven-part prompt that would have produced a safe draft.",
+       "id": "Menulis prompt tujuh bagian yang seharusnya menghasilkan draf yang aman."
+      },
+      {
+       "en": "Build a five-prompt personal library.",
+       "id": "Membangun pustaka pribadi lima prompt."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Amazing is the warning sign",
+       "id": "Luar biasa adalah tanda peringatannya"
+      },
+      "intro": {
+       "en": "Four steps, four written answers. The case file has three tabs: the draft as sent, Nadia’s verified facts, and what KilatPay’s own sources actually say. Every claim in the draft is checked against the second and third tabs.",
+       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya tiga tab: draf sebagaimana dikirim, fakta terverifikasi Nadia, dan apa yang sebenarnya dikatakan sumber KilatPay sendiri. Setiap klaim dalam draf diperiksa terhadap tab kedua dan ketiga."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read the draft as a screener",
+         "id": "Baca draf seperti penyaring"
+        },
+        "points": [
+         {
+          "en": "Every sentence is a claim. Trace each to Nadia’s facts or KilatPay’s sources — or it is inflated, invented or generic.",
+          "id": "Setiap kalimat adalah klaim. Lacak masing-masing ke fakta Nadia atau sumber KilatPay — atau itu digelembungkan, dikarang, atau generik."
+         },
+         {
+          "en": "Six specific errors are planted; the generic phrasing is everywhere.",
+          "id": "Enam kesalahan spesifik ditanam; frasa generiknya ada di mana-mana."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build the safe version",
+         "id": "Lalu bangun versi yang aman"
+        },
+        "points": [
+         {
+          "en": "The profile rewritten from the facts tab only. The prompt that would have produced it — seven parts, guardrail last.",
+          "id": "Profil ditulis ulang hanya dari tab fakta. Prompt yang seharusnya menghasilkannya — tujuh bagian, pagar pengaman terakhir."
+         },
+         {
+          "en": "Model notes open after you submit. Write yours first.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Tulis milikmu dulu."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK8",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "The Too-Good Draft",
+       "id": "Draf yang Terlalu Bagus"
+      },
+      "lead": {
+       "en": "A draft that sounds amazing, a facts tab that says what happened, and a sources tab that says what KilatPay actually is. Find every claim that is not true — then write what should have been sent.",
+       "id": "Draf yang terdengar luar biasa, tab fakta yang mengatakan apa yang terjadi, dan tab sumber yang mengatakan apa KilatPay sebenarnya. Temukan setiap klaim yang tidak benar — lalu tulis apa yang seharusnya dikirim."
+      },
+      "practice": [
+       {
+        "en": "Verification log",
+        "id": "Catatan verifikasi"
+       },
+       {
+        "en": "True and specific rewrite",
+        "id": "Tulisan ulang yang benar dan spesifik"
+       },
+       {
+        "en": "Seven-part prompt",
+        "id": "Prompt tujuh bagian"
+       },
+       {
+        "en": "Prompt library",
+        "id": "Pustaka prompt"
+       }
+      ],
+      "goal": {
+       "en": "A profile Nadia could defend for two minutes on every line, and a prompt that would never have produced the draft her friend sent.",
+       "id": "Profil yang bisa dipertahankan Nadia selama dua menit di setiap baris, dan prompt yang tidak akan pernah menghasilkan draf yang dikirim temannya."
+      },
+      "brief": {
+       "email": {
+        "initials": "NP",
+        "from": {
+         "en": "Nadia Putri",
+         "id": "Nadia Putri"
+        },
+        "to": {
+         "en": "to: Career Coach · Pusat Karier",
+         "id": "kepada: Pembimbing Karier · Pusat Karier"
+        },
+        "date": {
+         "en": "Tuesday, 22:15",
+         "id": "Selasa, 22.15"
+        },
+        "subject": {
+         "en": "Dimas bikinin aku draf KilatPay pakai AI — kayaknya terlalu bagus?",
+         "id": "Dimas bikinin aku draf KilatPay pakai AI — kayaknya terlalu bagus?"
+        },
+        "paragraphs": [
+         {
+          "en": "Dimas ran my CV and the KilatPay advertisement through an AI tool and sent me a cover letter and a new CV profile. He says it “sounds amazing” and that I should send it tonight because the posting closes Friday. I have attached it exactly as he sent it.",
+          "id": "Dimas menjalankan CV-ku dan iklan KilatPay lewat alat AI dan mengirimiku surat pengantar dan profil CV baru. Katanya “terdengar luar biasa” dan aku harus mengirimnya malam ini karena lowongannya tutup Jumat. Kulampirkan persis seperti yang ia kirim."
+         },
+         {
+          "en": "It does sound amazing. That is what worries me. There are things in it about KilatPay I have never read anywhere, and a line about me leading a data migration that I do not remember doing. Also it says I use Tableau.",
+          "id": "Memang terdengar luar biasa. Itulah yang membuatku khawatir. Ada hal-hal tentang KilatPay yang belum pernah kubaca di mana pun, dan satu baris tentang aku memimpin migrasi data yang tidak kuingat pernah kulakukan. Juga katanya aku memakai Tableau."
+         },
+         {
+          "en": "I do not want to throw it away — some of it is good — but I do not know which parts. Can you help me sort it?",
+          "id": "Aku tidak ingin membuangnya — sebagian bagus — tapi aku tidak tahu bagian mana. Bisakah kamu membantuku memilahnya?"
+         }
+        ],
+        "asks": [
+         {
+          "en": "Which claims are true, which are stretched, and which are made up?",
+          "id": "Klaim mana yang benar, mana yang dilebih-lebihkan, dan mana yang dikarang?"
+         },
+         {
+          "en": "What should the profile actually say?",
+          "id": "Profilnya seharusnya berbunyi apa?"
+         },
+         {
+          "en": "What should Dimas have typed to get something safe?",
+          "id": "Apa yang seharusnya diketik Dimas untuk mendapat sesuatu yang aman?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih! — Nadia",
+          "id": "Terima kasih! — Nadia"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "flag",
+         "k": {
+          "en": "6 planted errors",
+          "id": "6 kesalahan tertanam"
+         },
+         "v": {
+          "en": "3 invented KilatPay facts · 2 inflated claims about Nadia · 1 tool never used — plus generic phrasing throughout",
+          "id": "3 fakta KilatPay karangan · 2 klaim Nadia yang digelembungkan · 1 alat yang tidak pernah dipakai — plus frasa generik di seluruhnya"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Friday",
+          "id": "Jumat"
+         },
+         "v": {
+          "en": "the KilatPay posting (OPS-26-04) closes",
+          "id": "lowongan KilatPay (OPS-26-04) ditutup"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "One prompt",
+          "id": "Satu prompt"
+         },
+         "v": {
+          "en": "Dimas typed: “Write an amazing cover letter and CV profile for this job using this CV”",
+          "id": "Dimas mengetik: “Tulis surat pengantar dan profil CV yang luar biasa untuk pekerjaan ini dari CV ini”"
+         },
+         "hot": true
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "Facts tab",
+          "id": "Tab fakta"
+         },
+         "v": {
+          "en": "Nadia’s pantry facts — the only source for claims about her",
+          "id": "Fakta lemari Nadia — satu-satunya sumber untuk klaim tentang dirinya"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Sources tab",
+          "id": "Tab sumber"
+         },
+         "v": {
+          "en": "what KilatPay’s own site, advertisement and Mr. Aditya’s post actually say",
+          "id": "apa yang sebenarnya dikatakan situs KilatPay sendiri, iklannya, dan postingan Bapak Aditya"
+         }
+        },
+        {
+         "icon": "mail",
+         "k": {
+          "en": "Tableau",
+          "id": "Tableau"
+         },
+         "v": {
+          "en": "never used; Nadia’s tools are Excel (pivot tables, VLOOKUP), Google Sheets, and an SQL course in progress (module 2 of 6)",
+          "id": "tidak pernah dipakai; alat Nadia adalah Excel (pivot table, VLOOKUP), Google Sheets, dan kursus SQL yang sedang berjalan (modul 2 dari 6)"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The draft",
+          "id": "Draf"
+         },
+         "title": {
+          "en": "What Dimas sent — cover letter and CV profile, as generated",
+          "id": "Yang dikirim Dimas — surat pengantar dan profil CV, sebagaimana dihasilkan"
+         },
+         "meta": {
+          "en": "Unedited AI output",
+          "id": "Keluaran AI yang tidak disunting"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "CV profile",
+            "id": "Profil CV"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Results-driven Management graduate with a proven track record in financial operations and data-driven process optimisation. Spearheaded reconciliation across Bank Sinar Nusantara’s regional branch network, achieving a 40% reduction in processing errors, and led a data-migration initiative that modernised branch reporting. Advanced in Excel, SQL and Tableau. Passionate about leveraging analytics to drive operational excellence in high-growth fintech environments.”",
+             "id": "“Lulusan Manajemen berorientasi hasil dengan rekam jejak terbukti dalam operasi keuangan dan optimalisasi proses berbasis data. Memelopori rekonsiliasi di seluruh jaringan cabang regional Bank Sinar Nusantara, mencapai pengurangan 40% kesalahan pemrosesan, dan memimpin inisiatif migrasi data yang memodernisasi pelaporan cabang. Mahir dalam Excel, SQL, dan Tableau. Bersemangat memanfaatkan analitik untuk mendorong keunggulan operasional di lingkungan fintech pertumbuhan tinggi.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Cover letter (key paragraphs)",
+            "id": "Surat pengantar (paragraf kunci)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Dear Hiring Manager, I am writing to express my strong interest in the Business Operations Associate position at KilatPay, Indonesia’s fastest-growing payments unicorn.”",
+             "id": "“Dear Hiring Manager, I am writing to express my strong interest in the Business Operations Associate position at KilatPay, Indonesia’s fastest-growing payments unicorn.”"
+            },
+            {
+             "en": "“I am particularly inspired by KilatPay’s recent expansion into Vietnam and the Philippines, and by your award-winning KilatCredit micro-lending platform, which has transformed access to finance for over 5 million merchants.”",
+             "id": "“I am particularly inspired by KilatPay’s recent expansion into Vietnam and the Philippines, and by your award-winning KilatCredit micro-lending platform, which has transformed access to finance for over 5 million merchants.”"
+            },
+            {
+             "en": "“At Bank Sinar Nusantara I spearheaded end-to-end reconciliation across the regional branch network, driving a 40% efficiency uplift, and led the migration of branch reporting to a new data platform. As Treasurer of a 300-member organisation I delivered a zero-finding audit. I am proficient in Excel, SQL and Tableau and thrive in dynamic, fast-paced environments.”",
+             "id": "“At Bank Sinar Nusantara I spearheaded end-to-end reconciliation across the regional branch network, driving a 40% efficiency uplift, and led the migration of branch reporting to a new data platform. As Treasurer of a 300-member organisation I delivered a zero-finding audit. I am proficient in Excel, SQL and Tableau and thrive in dynamic, fast-paced environments.”"
+            },
+            {
+             "en": "“I look forward to the opportunity to contribute to KilatPay’s continued success. Thank you for your consideration.”",
+             "id": "“I look forward to the opportunity to contribute to KilatPay’s continued success. Thank you for your consideration.”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s facts",
+          "id": "Fakta Nadia"
+         },
+         "title": {
+          "en": "The pantry — what actually happened",
+          "id": "Lemari — apa yang benar-benar terjadi"
+         },
+         "meta": {
+          "en": "The only source for any claim about her",
+          "id": "Satu-satunya sumber untuk klaim apa pun tentang dirinya"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Aug 2025 · reconciled daily transaction reports for 3 branches · flagged a recurring terminal mismatch; the settings fix removed about 30 minutes of manual correction a day · built the reconciliation checklist the branch operations team still uses · no data migration; no involvement in reporting systems",
+             "id": "Operations Intern, Bank Sinar Nusantara, Semarang · Jun 2025 – Agu 2025 · merekonsiliasi laporan transaksi harian untuk 3 cabang · menandai selisih terminal berulang; perbaikan pengaturannya menghilangkan sekitar 30 menit koreksi manual per hari · membangun daftar periksa rekonsiliasi yang masih dipakai tim operasi cabang · tanpa migrasi data; tanpa keterlibatan dalam sistem pelaporan"
+            },
+            {
+             "en": "Treasurer, HIMA Manajemen · Aug 2024 – Jul 2025 · 300 members, 12 events, Rp 120 juta budget · monthly close with receipts · 2025 faculty audit: zero issues, first in 3 years",
+             "id": "Bendahara, HIMA Manajemen · Agu 2024 – Jul 2025 · 300 anggota, 12 acara, anggaran Rp 120 juta · tutup buku bulanan dengan kuitansi · audit fakultas 2025: nol masalah, pertama dalam 3 tahun"
+            },
+            {
+             "en": "Head of Sponsorship, 2025 National Business Competition · 6-person team · Rp 85 juta from 11 sponsors · 1,200 participants",
+             "id": "Kepala Sponsorship, Kompetisi Bisnis Nasional 2025 · tim 6 orang · Rp 85 juta dari 11 sponsor · 1.200 peserta"
+            },
+            {
+             "en": "Barista (part-time), Kopi Tepian · Mar 2024 – May 2025 · 120–150 customers a shift · proposed a pre-order board for the morning rush that shortened peak waiting times · trained 4 new baristas",
+             "id": "Barista (paruh waktu), Kopi Tepian · Mar 2024 – Mei 2025 · 120–150 pelanggan per sif · mengusulkan papan pra-pesan untuk jam sibuk pagi yang memperpendek waktu tunggu puncak · melatih 4 barista baru"
+            },
+            {
+             "en": "Tools: Microsoft Excel (pivot tables, VLOOKUP), Google Sheets · SQL fundamentals course in progress, module 2 of 6 · never used Tableau or Power BI",
+             "id": "Alat: Microsoft Excel (pivot table, VLOOKUP), Google Sheets · kursus dasar SQL sedang berjalan, modul 2 dari 6 · tidak pernah memakai Tableau atau Power BI"
+            },
+            {
+             "en": "Target: management-trainee or operations roles in FMCG, banking, fintech · available from November · open to Jakarta",
+             "id": "Sasaran: peran management trainee atau operasi di FMCG, perbankan, fintech · tersedia mulai November · bersedia ke Jakarta"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "KilatPay sources",
+          "id": "Sumber KilatPay"
+         },
+         "title": {
+          "en": "What KilatPay’s own sources say",
+          "id": "Apa yang dikatakan sumber KilatPay sendiri"
+         },
+         "meta": {
+          "en": "Fictional employer · the only source for any claim about the company",
+          "id": "Perusahaan fiktif · satu-satunya sumber untuk klaim apa pun tentang perusahaan"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Company site — About",
+            "id": "Situs perusahaan — Tentang"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Payments and merchant-services platform; operates in Indonesia only; founded 2019; head office Jakarta",
+             "id": "Platform pembayaran dan layanan merchant; beroperasi hanya di Indonesia; didirikan 2019; kantor pusat Jakarta"
+            },
+            {
+             "en": "Products: KilatPay (payments), KilatPOS (point of sale), KilatBiz (merchant dashboard). No lending product is listed.",
+             "id": "Produk: KilatPay (pembayaran), KilatPOS (kasir), KilatBiz (dasbor merchant). Tidak ada produk pinjaman yang tercantum."
+            },
+            {
+             "en": "“Serving over 400,000 merchants across 60 cities” (site, updated this year)",
+             "id": "“Melayani lebih dari 400.000 merchant di 60 kota” (situs, diperbarui tahun ini)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "The advertisement — OPS-26-04",
+            "id": "Iklan — OPS-26-04"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Business Operations Associate, merchant onboarding team, Jakarta · “measure everything” · SQL a plus · Excel required · closes Friday",
+             "id": "Business Operations Associate, tim onboarding merchant, Jakarta · “ukur segalanya” · SQL nilai tambah · Excel wajib · tutup Jumat"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Mr. Aditya’s public post (Head of Merchant Operations)",
+            "id": "Postingan publik Bapak Aditya (Head of Merchant Operations)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Onboarding time is now the constraint on our growth; we moved to self-serve merchant onboarding this quarter.” — verified, dated",
+             "id": "“Waktu onboarding kini menjadi kendala pertumbuhan kami; kami beralih ke onboarding merchant mandiri kuartal ini.” — terverifikasi, bertanggal"
+            },
+            {
+             "en": "No mention of unicorn status, overseas expansion, awards or a lending product anywhere on the site, in the advertisement, or in the post",
+             "id": "Tidak ada penyebutan status unicorn, ekspansi luar negeri, penghargaan, atau produk pinjaman di mana pun di situs, iklan, atau postingan"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Verification log",
+         "id": "Catatan verifikasi"
+        },
+        "short": {
+         "en": "Log",
+         "id": "Catatan"
+        },
+        "guide": {
+         "en": "Lesson 8.3. List every claim in the draft — about KilatPay and about Nadia — and mark each verified / inflated / invented / generic, with the fact or source that decides it. There are at least twelve claims; six are the planted errors.",
+         "id": "Pelajaran 8.3. Daftar setiap klaim dalam draf — tentang KilatPay dan tentang Nadia — dan tandai masing-masing terverifikasi / digelembungkan / dikarang / generik, dengan fakta atau sumber yang memutuskannya. Ada setidaknya dua belas klaim; enam adalah kesalahan tertanam."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "Every claim, classified",
+           "id": "Setiap klaim, digolongkan"
+          },
+          "help": {
+           "en": "One line per claim: the claim · verified / inflated / invented / generic · why (the fact or source). Find all three invented KilatPay facts, both inflated Nadia claims, the tool, and at least three generic phrases.",
+           "id": "Satu baris per klaim: klaimnya · terverifikasi / digelembungkan / dikarang / generik · mengapa (fakta atau sumbernya). Temukan ketiga fakta KilatPay karangan, kedua klaim Nadia yang digelembungkan, alatnya, dan setidaknya tiga frasa generik."
+          },
+          "placeholder": {
+           "en": "1. “Indonesia’s fastest-growing payments unicorn” — invented — site says nothing of the kind\n2. “expansion into Vietnam and the Philippines” — invented — operates in Indonesia only\n3. …\n7. “Spearheaded … regional branch network” — inflated — 3 branches, reconciled and flagged\n…\n12. “Passionate about leveraging analytics” — generic\n…",
+           "id": "1. “Indonesia’s fastest-growing payments unicorn” — dikarang — situs tidak mengatakan apa pun seperti itu\n2. “expansion into Vietnam and the Philippines” — dikarang — beroperasi hanya di Indonesia\n3. …\n7. “Spearheaded … regional branch network” — digelembungkan — 3 cabang, merekonsiliasi dan menandai\n…\n12. “Passionate about leveraging analytics” — generik\n…"
+          },
+          "keywords": [
+           [
+            "unicorn"
+           ],
+           [
+            "vietnam",
+            "philippines",
+            "expansion",
+            "ekspansi",
+            "indonesia only",
+            "hanya di indonesia"
+           ],
+           [
+            "kilatcredit",
+            "lending",
+            "pinjaman",
+            "5 million",
+            "5 juta"
+           ],
+           [
+            "spearhead",
+            "memelopori",
+            "regional"
+           ],
+           [
+            "40%"
+           ],
+           [
+            "migration",
+            "migrasi"
+           ],
+           [
+            "tableau"
+           ],
+           [
+            "zero",
+            "nol",
+            "audit",
+            "verified",
+            "terverifikasi"
+           ],
+           [
+            "generic",
+            "generik",
+            "passionate",
+            "results-driven",
+            "dynamic",
+            "fast-paced",
+            "leveraging"
+           ],
+           [
+            "invented",
+            "dikarang"
+           ],
+           [
+            "inflated",
+            "digelembungkan"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Rewrite the profile",
+         "id": "Tulis ulang profilnya"
+        },
+        "short": {
+         "en": "Rewrite",
+         "id": "Tulis ulang"
+        },
+        "guide": {
+         "en": "Lessons 8.3 and 3.5. Rewrite the CV profile for KilatPay from the facts tab only: three or four lines, the target in the advertisement’s words, two or three specifics with numbers, honest tools (the SQL course as a Module 4 close), no adjectives you would not say aloud.",
+         "id": "Pelajaran 8.3 dan 3.5. Tulis ulang profil CV untuk KilatPay hanya dari tab fakta: tiga atau empat baris, sasaran dalam kata-kata iklan, dua atau tiga hal spesifik dengan angka, alat yang jujur (kursus SQL sebagai penutup Modul 4), tanpa kata sifat yang tidak akan kamu ucapkan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 50,
+          "max": 110,
+          "rows": 7,
+          "title": {
+           "en": "The true, specific profile",
+           "id": "Profil yang benar dan spesifik"
+          },
+          "help": {
+           "en": "Every number from the facts tab. “Business operations” in the advertisement’s form. SQL: “currently completing SQL fundamentals (module 2 of 6)”. No Tableau.",
+           "id": "Setiap angka dari tab fakta. “Business operations” dalam bentuk iklan. SQL: “sedang menyelesaikan dasar-dasar SQL (modul 2 dari 6)”. Tanpa Tableau."
+          },
+          "placeholder": {
+           "en": "Management graduate (2026) targeting business-operations roles in fintech. Reconciled daily transaction reports for 3 bank branches and flagged a recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; …",
+           "id": "Lulusan Manajemen (2026) yang membidik peran operasi bisnis di fintech. Merekonsiliasi laporan transaksi harian untuk 3 cabang bank dan menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; …"
+          },
+          "keywords": [
+           [
+            "management graduate",
+            "lulusan manajemen"
+           ],
+           [
+            "business operations",
+            "operations",
+            "operasi"
+           ],
+           [
+            "3 branches",
+            "3 cabang",
+            "three branches",
+            "tiga cabang"
+           ],
+           [
+            "30 minutes",
+            "30 menit",
+            "terminal"
+           ],
+           [
+            "zero",
+            "nol",
+            "audit",
+            "300",
+            "85 juta"
+           ],
+           [
+            "excel"
+           ],
+           [
+            "sql",
+            "module 2",
+            "modul 2",
+            "course",
+            "kursus"
+           ],
+           [
+            "fintech",
+            "kilatpay"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The safe prompt",
+         "id": "Prompt yang aman"
+        },
+        "short": {
+         "en": "Prompt",
+         "id": "Prompt"
+        },
+        "guide": {
+         "en": "Lesson 8.2. Write the seven-part prompt Dimas should have used: role and context · source material (say what to paste — the facts tab, the advertisement; nothing confidential) · task · constraints · output structure with the “could not source” list · style anchor · the guardrail verbatim.",
+         "id": "Pelajaran 8.2. Tulis prompt tujuh bagian yang seharusnya dipakai Dimas: peran dan konteks · bahan sumber (katakan apa yang ditempel — tab fakta, iklan; tidak ada yang rahasia) · tugas · batasan · struktur keluaran dengan daftar “tidak bisa diambil” · jangkar gaya · pagar pengaman kata demi kata."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Seven parts, numbered",
+           "id": "Tujuh bagian, bernomor"
+          },
+          "help": {
+           "en": "Number them 1–7. Part 7 is: “Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].” Say what part 5c asks for.",
+           "id": "Beri nomor 1–7. Bagian 7 adalah: “Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK].” Katakan apa yang diminta bagian 5c."
+          },
+          "placeholder": {
+           "en": "1. I’m a 2026 Management graduate applying for the Business Operations Associate role (OPS-26-04) at KilatPay …\n2. Source material: [my pantry facts — pasted] [the advertisement — pasted] …\n3. Task: …\n4. Constraints: …\n5. Output: a) … b) the facts from my material you used c) anything you could not source from my material\n6. Tone like: “…”\n7. Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].",
+           "id": "1. Saya lulusan Manajemen 2026 yang melamar peran Business Operations Associate (OPS-26-04) di KilatPay …\n2. Bahan sumber: [fakta lemari saya — ditempel] [iklan — ditempel] …\n3. Tugas: …\n4. Batasan: …\n5. Keluaran: a) … b) fakta dari bahan saya yang dipakai c) apa pun yang tidak bisa diambil dari bahan saya\n6. Nada seperti: “…”\n7. Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK]."
+          },
+          "keywords": [
+           [
+            "role",
+            "peran",
+            "context",
+            "konteks",
+            "graduate",
+            "lulusan"
+           ],
+           [
+            "source",
+            "sumber",
+            "paste",
+            "tempel",
+            "facts",
+            "fakta"
+           ],
+           [
+            "task",
+            "tugas"
+           ],
+           [
+            "constraint",
+            "batasan",
+            "words",
+            "kata",
+            "tone",
+            "nada"
+           ],
+           [
+            "could not source",
+            "tidak bisa diambil",
+            "output",
+            "keluaran"
+           ],
+           [
+            "tone like",
+            "nada seperti",
+            "style",
+            "gaya"
+           ],
+           [
+            "use only facts",
+            "pakai hanya fakta"
+           ],
+           [
+            "do not invent",
+            "jangan mengarang"
+           ],
+           [
+            "[check]"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your library",
+         "id": "Pustakamu"
+        },
+        "short": {
+         "en": "Library",
+         "id": "Pustaka"
+        },
+        "guide": {
+         "en": "Lesson 8.2, section 2. Choose five of the eight prompt types for your own next month; for each, one line naming the type, what you will paste as source material, and the one constraint that matters most for you. The guardrail is assumed in all five.",
+         "id": "Pelajaran 8.2, bagian 2. Pilih lima dari delapan jenis prompt untuk bulanmu berikutnya; untuk masing-masing, satu baris yang menyebut jenisnya, apa yang akan kamu tempel sebagai bahan sumber, dan satu batasan yang paling penting bagimu. Pagar pengaman dianggap ada di kelimanya."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 60,
+          "rows": 8,
+          "title": {
+           "en": "Five prompts, one line each",
+           "id": "Lima prompt, satu baris masing-masing"
+          },
+          "help": {
+           "en": "Type · source material · key constraint. Say why you chose these five over the other three.",
+           "id": "Jenis · bahan sumber · batasan kunci. Katakan mengapa kamu memilih lima ini dibanding tiga lainnya."
+          },
+          "placeholder": {
+           "en": "1. JD decoder — paste: each Top 5 advertisement — constraint: must-have vs nice-to-have, three problems\n2. Gap analysis — paste: my CV + the advertisement — constraint: rephrase / evidence / learn / accept; never suggest claiming\n3. …\nWhy these: …",
+           "id": "1. Pengurai iklan — tempel: tiap iklan 5 Teratas — batasan: wajib vs tambahan, tiga masalah\n2. Analisis celah — tempel: CV saya + iklan — batasan: ubah kata / buktikan / pelajari / terima; jangan pernah sarankan mengklaim\n3. …\nMengapa ini: …"
+          },
+          "keywords": [
+           [
+            "decoder",
+            "pengurai",
+            "gap",
+            "celah",
+            "bullet",
+            "butir",
+            "headline",
+            "skeleton",
+            "kerangka",
+            "message",
+            "pesan",
+            "critic",
+            "kritik",
+            "rehearsal",
+            "latihan"
+           ],
+           [
+            "paste",
+            "tempel",
+            "source",
+            "sumber"
+           ],
+           [
+            "constraint",
+            "batasan"
+           ],
+           [
+            "why",
+            "mengapa",
+            "because",
+            "karena"
+           ],
+           [
+            "advertisement",
+            "iklan",
+            "cv",
+            "notes",
+            "catatan"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Verification log — all six planted errors found and correctly classified; generic phrasing identified",
+         "id": "Catatan verifikasi — keenam kesalahan tertanam ditemukan dan digolongkan dengan benar; frasa generik dikenali"
+        },
+        "w": "35%"
+       },
+       {
+        "h": {
+         "en": "Rewritten profile — true to the facts tab, specific with numbers, the advertisement’s words, honest tools",
+         "id": "Profil yang ditulis ulang — sesuai tab fakta, spesifik dengan angka, kata-kata iklan, alat yang jujur"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Seven-part prompt — all parts present, source material named, guardrail verbatim, the “could not source” list requested",
+         "id": "Prompt tujuh bagian — semua bagian ada, bahan sumber disebut, pagar pengaman kata demi kata, daftar “tidak bisa diambil” diminta"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Library — five types chosen with source and constraint, reasoned",
+         "id": "Pustaka — lima jenis dipilih dengan sumber dan batasan, beralasan"
+        },
+        "w": "10%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — the log, the rewrite, the prompt",
+        "id": "Catatan model — catatan, tulisan ulang, prompt"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The log",
+          "id": "Catatan"
+         }
+        },
+        {
+         "en": "Invented about KilatPay: (1) “Indonesia’s fastest-growing payments unicorn” — nothing on the site, in the advertisement or in the post; (2) “expansion into Vietnam and the Philippines” — the site says Indonesia only; (3) “award-winning KilatCredit micro-lending platform … over 5 million merchants” — no lending product is listed, and the site says over 400,000 merchants. Inflated about Nadia: (4) “Spearheaded … regional branch network … 40% reduction / efficiency uplift” — three branches; she reconciled and flagged; the number is about 30 minutes a day, not a percentage; (5) “led a data-migration initiative that modernised branch reporting” — no such thing happened; this is invention rather than inflation, and either label with the reason earns the mark. The tool: (6) Tableau — never used; SQL is a course in progress, not a proficiency. Verified: Treasurer of a 300-member organisation; zero-finding audit; Excel. Generic: results-driven, proven track record, data-driven, passionate about leveraging, operational excellence, high-growth, dynamic, fast-paced, “I am writing to express my strong interest”, “Dear Hiring Manager” (Mr. Aditya is findable), “I look forward to the opportunity”. The letter also fails four of Innes’s eight: no named addressee, a weak opening, no call to action, and — through the invented facts — the mass-sent tell of specifics that belong to no real company.",
+         "id": "Karangan tentang KilatPay: (1) “Indonesia’s fastest-growing payments unicorn” — tidak ada di situs, iklan, atau postingan; (2) “ekspansi ke Vietnam dan Filipina” — situs menyebut hanya Indonesia; (3) “platform pinjaman mikro KilatCredit pemenang penghargaan … lebih dari 5 juta merchant” — tidak ada produk pinjaman yang tercantum, dan situs menyebut lebih dari 400.000 merchant. Digelembungkan tentang Nadia: (4) “Memelopori … jaringan cabang regional … pengurangan 40% / peningkatan efisiensi” — tiga cabang; ia merekonsiliasi dan menandai; angkanya sekitar 30 menit per hari, bukan persentase; (5) “memimpin inisiatif migrasi data yang memodernisasi pelaporan cabang” — tidak ada hal seperti itu terjadi; ini karangan alih-alih penggelembungan, dan label mana pun dengan alasannya mendapat nilai. Alatnya: (6) Tableau — tidak pernah dipakai; SQL adalah kursus yang sedang berjalan, bukan kemahiran. Terverifikasi: Bendahara organisasi 300 anggota; audit nol temuan; Excel. Generik: berorientasi hasil, rekam jejak terbukti, berbasis data, bersemangat memanfaatkan, keunggulan operasional, pertumbuhan tinggi, dinamis, serba cepat, “I am writing to express my strong interest”, “Dear Hiring Manager” (Bapak Aditya bisa ditemukan), “I look forward to the opportunity”. Suratnya juga gagal empat dari delapan Innes: tanpa penerima bernama, pembuka lemah, tanpa ajakan bertindak, dan — lewat fakta karangan — tanda dikirim-massal berupa hal spesifik yang bukan milik perusahaan nyata mana pun."
+        },
+        {
+         "h": {
+          "en": "The rewrite",
+          "id": "Tulisan ulang"
+         }
+        },
+        {
+         "en": "“Management graduate (2026) targeting business-operations roles in fintech. Reconciled daily transaction reports for 3 bank branches and flagged a recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; rebuilt a 300-member organisation’s bookkeeping so the 2025 faculty audit found zero issues, the first in 3 years. Microsoft Excel (pivot tables, VLOOKUP), Google Sheets; currently completing SQL fundamentals (module 2 of 6). Available from November; open to Jakarta.” About 75 words; four lines; every number from the facts tab; “business operations” in the advertisement’s form; SQL as an honest close; no Tableau; no adjective. It is smaller than the draft and survives every question.",
+         "id": "“Lulusan Manajemen (2026) yang membidik peran operasi bisnis di fintech. Merekonsiliasi laporan transaksi harian untuk 3 cabang bank dan menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; membangun ulang pembukuan organisasi beranggotakan 300 orang sehingga audit fakultas 2025 menemukan nol masalah, pertama dalam 3 tahun. Microsoft Excel (pivot table, VLOOKUP), Google Sheets; sedang menyelesaikan dasar-dasar SQL (modul 2 dari 6). Tersedia mulai November; bersedia ke Jakarta.” Sekitar 75 kata; empat baris; setiap angka dari tab fakta; “business operations” dalam bentuk iklan; SQL sebagai penutup jujur; tanpa Tableau; tanpa kata sifat. Lebih kecil dari draf dan lolos setiap pertanyaan."
+        },
+        {
+         "h": {
+          "en": "The prompt",
+          "id": "Prompt"
+         }
+        },
+        {
+         "en": "1 · Role: “I’m a 2026 Management graduate applying for the Business Operations Associate role (OPS-26-04) on KilatPay’s merchant onboarding team in Jakarta.” 2 · Source material: “My facts: [the facts tab, pasted]. The advertisement: [pasted]. Mr. Aditya’s public post: [the one verified sentence, pasted]. Nothing else — no company facts beyond these.” 3 · Task: “Draft a four-line CV profile and the structure of a four-paragraph cover letter; leave paragraph 3 (why them) as [TO WRITE MYSELF].” 4 · Constraints: “Profile under 80 words; letter structure only, not prose; English; no adjectives; tools exactly as listed, with the SQL course described as in progress.” 5 · Output: “a) the profile b) the letter structure c) the facts from my material you used d) anything you could not source from my material.” 6 · Tone like: “I like making operations run a little smoother than I found them.” 7 · “Use only facts I provided. Do not invent numbers, titles, tools or results. Mark anything uncertain with [CHECK].” — Dimas’s prompt supplied a CV and the word “amazing”; the tool supplied the rest. This prompt supplies the facts and forbids the rest.",
+         "id": "1 · Peran: “Saya lulusan Manajemen 2026 yang melamar peran Business Operations Associate (OPS-26-04) di tim onboarding merchant KilatPay di Jakarta.” 2 · Bahan sumber: “Fakta saya: [tab fakta, ditempel]. Iklan: [ditempel]. Postingan publik Bapak Aditya: [satu kalimat terverifikasi, ditempel]. Tidak ada yang lain — tidak ada fakta perusahaan di luar ini.” 3 · Tugas: “Susun profil CV empat baris dan struktur surat pengantar empat paragraf; sisakan paragraf 3 (mengapa mereka) sebagai [TULIS SENDIRI].” 4 · Batasan: “Profil di bawah 80 kata; struktur surat saja, bukan prosa; bahasa Inggris; tanpa kata sifat; alat persis seperti tercantum, dengan kursus SQL dijelaskan sebagai sedang berjalan.” 5 · Keluaran: “a) profil b) struktur surat c) fakta dari bahan saya yang dipakai d) apa pun yang tidak bisa diambil dari bahan saya.” 6 · Nada seperti: “Saya suka membuat operasi berjalan sedikit lebih lancar daripada saat saya menemukannya.” 7 · “Pakai hanya fakta yang saya berikan. Jangan mengarang angka, jabatan, alat, atau hasil. Tandai apa pun yang tidak pasti dengan [CHECK].” — Prompt Dimas memberi CV dan kata “luar biasa”; alat memberi sisanya. Prompt ini memberi fakta dan melarang sisanya."
+        },
+        {
+         "h": {
+          "en": "The library",
+          "id": "Pustaka"
+         }
+        },
+        {
+         "en": "Any five with a reason is a pass. The common set: JD decoder (paste each Top 5 advertisement; must-have vs nice-to-have and the three problems); gap analysis (CV plus advertisement; rephrase/evidence/learn/accept, never claim); bullet upgrader (pantry notes; only my numbers, [NUMBER?] where none); message drafter (the contact’s post plus my connection; under 300 characters, Kak/Bapak/Ibu, no request); critic mode (About plus CV; critique only). Headline generator is a one-off; letter skeleton is useful once two letters have been written by hand; rehearsal belongs to the week before an interview. The one answer that fails is a library without the guardrail in each prompt.",
+         "id": "Lima mana pun dengan alasan sudah lolos. Set yang umum: pengurai iklan (tempel tiap iklan 5 Teratas; wajib vs tambahan dan tiga masalah); analisis celah (CV plus iklan; ubah kata/buktikan/pelajari/terima, jangan pernah klaim); peningkat butir (catatan lemari; hanya angka saya, [ANGKA?] jika tidak ada); penyusun pesan (postingan kontak plus koneksi saya; di bawah 300 karakter, Kak/Bapak/Ibu, tanpa permintaan); mode kritikus (About plus CV; kritik saja). Pembuat headline dipakai sekali; kerangka surat berguna setelah dua surat ditulis dengan tangan; latihan milik minggu sebelum wawancara. Satu jawaban yang gagal adalah pustaka tanpa pagar pengaman di tiap prompt."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your log has fewer than six errors, re-read the KilatPay sources tab against the letter’s second paragraph. If your rewrite kept a percentage, ask where it was measured. If your prompt has no part 5c, the tool has nowhere to confess.",
+        "id": "Bandingkan, jangan salin. Jika catatanmu punya kurang dari enam kesalahan, baca ulang tab sumber KilatPay terhadap paragraf kedua surat. Jika tulisan ulangmu mempertahankan persentase, tanyakan di mana itu diukur. Jika prompt-mu tidak punya bagian 5c, alat itu tidak punya tempat untuk mengaku."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your four answers as Mr. Aditya would in the second interview — with the site open in one window and Nadia across the table. Submitting locks them on this device and opens the model notes.",
+        "id": "Baca keempat jawabanmu seperti Bapak Aditya pada wawancara kedua — dengan situs terbuka di satu jendela dan Nadia di seberang meja. Mengumpulkan akan menguncinya di perangkat ini dan membuka catatan model."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run the verification log on the next AI output you use — before it touches a document.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan catatan verifikasi pada keluaran AI berikutnya yang kamu pakai — sebelum menyentuh dokumen."
+       }
+      }
      },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Citing company “facts” the tool produced",
-         "id": "Mengutip “fakta” perusahaan yang dihasilkan alat"
+         "en": "Keeping the invented KilatPay facts because they sound specific",
+         "id": "Mempertahankan fakta KilatPay karangan karena terdengar spesifik"
         },
         "fix": {
-         "en": "Verify on the company’s own site or annual report before a single claim enters the letter.",
-         "id": "Verifikasi di situs perusahaan sendiri atau laporan tahunan sebelum satu klaim pun masuk ke surat."
+         "en": "Specific and unsourced is the most dangerous kind; the sources tab decides.",
+         "id": "Spesifik dan tanpa sumber adalah jenis paling berbahaya; tab sumber yang memutuskan."
         }
        },
        {
         "h": {
-         "en": "Personalising with flattery",
-         "id": "Mempersonalisasi dengan sanjungan"
+         "en": "Softening “40%” to “significant” instead of replacing it",
+         "id": "Melunakkan “40%” menjadi “signifikan” alih-alih menggantinya"
         },
         "fix": {
-         "en": "Personalisation is a specific observation plus what you would do about it — not praise.",
-         "id": "Personalisasi adalah pengamatan spesifik ditambah apa yang akan kamu lakukan — bukan pujian."
+         "en": "The true figure — about 30 minutes a day — is stronger and survives the question.",
+         "id": "Angka sebenarnya — sekitar 30 menit per hari — lebih kuat dan lolos pertanyaannya."
         }
        },
        {
         "h": {
-         "en": "Letting the tool write the first line",
-         "id": "Membiarkan alat menulis baris pertama"
+         "en": "Keeping SQL as a proficiency because the course exists",
+         "id": "Mempertahankan SQL sebagai kemahiran karena kursusnya ada"
         },
         "fix": {
-         "en": "The opening is where sludge is most obvious. Write the first sentence yourself, always.",
-         "id": "Pembukaan adalah tempat sampah AI paling terlihat. Tulis kalimat pertama sendiri, selalu."
+         "en": "The two-minute test; “currently completing … (module 2 of 6)”.",
+         "id": "Uji dua menit; “sedang menyelesaikan … (modul 2 dari 6)”."
+        }
+       },
+       {
+        "h": {
+         "en": "A prompt that says “use my CV” without pasting the facts",
+         "id": "Prompt yang berkata “pakai CV saya” tanpa menempel faktanya"
+        },
+        "fix": {
+         "en": "Part 2 is the pasted material; part 7 forbids the rest.",
+         "id": "Bagian 2 adalah bahan yang ditempel; bagian 7 melarang sisanya."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Too-good draft",
+        "id": "Draf yang terlalu bagus"
+       },
+       "def": {
+        "en": "An AI output whose fluency and specificity outrun the facts it was given — the warning sign is that it sounds amazing.",
+        "id": "Keluaran AI yang kefasihan dan spesifisitasnya melampaui fakta yang diberikan — tanda peringatannya adalah terdengar luar biasa."
+       }
+      },
+      {
+       "term": {
+        "en": "Verified / inflated / invented / generic",
+        "id": "Terverifikasi / digelembungkan / dikarang / generik"
+       },
+       "def": {
+        "en": "The four labels of the verification log: traceable; true but enlarged; not true; true of everyone and so of no one.",
+        "id": "Empat label catatan verifikasi: bisa dilacak; benar tetapi diperbesar; tidak benar; benar untuk semua orang sehingga bukan untuk siapa pun."
+       }
+      },
+      {
+       "term": {
+        "en": "Facts tab",
+        "id": "Tab fakta"
+       },
+       "def": {
+        "en": "The pantry — the only source for any claim about the candidate.",
+        "id": "Lemari — satu-satunya sumber untuk klaim apa pun tentang kandidat."
+       }
+      },
+      {
+       "term": {
+        "en": "Sources tab",
+        "id": "Tab sumber"
+       },
+       "def": {
+        "en": "The employer’s own site, advertisement and public posts — the only source for any claim about the company.",
+        "id": "Situs, iklan, dan postingan publik perusahaan sendiri — satu-satunya sumber untuk klaim apa pun tentang perusahaan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The draft says KilatPay has an “award-winning KilatCredit micro-lending platform serving over 5 million merchants”. The sources tab lists no lending product and says 400,000 merchants. This claim is…",
+        "id": "Draf menyebut KilatPay punya “platform pinjaman mikro KilatCredit pemenang penghargaan yang melayani lebih dari 5 juta merchant”. Tab sumber tidak mencantumkan produk pinjaman dan menyebut 400.000 merchant. Klaim ini…"
+       },
+       "options": [
+        {
+         "en": "Verified",
+         "id": "Terverifikasi"
+        },
+        {
+         "en": "Invented",
+         "id": "Dikarang"
+        },
+        {
+         "en": "Inflated",
+         "id": "Digelembungkan"
+        },
+        {
+         "en": "Generic",
+         "id": "Generik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A product that does not exist and a number twelve times the real one — invented by a fluent tool, and the first thing Mr. Aditya would notice.",
+        "id": "Produk yang tidak ada dan angka dua belas kali angka sebenarnya — dikarang alat yang fasih, dan hal pertama yang akan diperhatikan Bapak Aditya."
+       }
+      },
+      {
+       "q": {
+        "en": "“Led a data-migration initiative that modernised branch reporting.” Nadia’s facts tab has no such thing. The right rewrite is…",
+        "id": "“Memimpin inisiatif migrasi data yang memodernisasi pelaporan cabang.” Tab fakta Nadia tidak memuat hal seperti itu. Tulisan ulang yang tepat adalah…"
+       },
+       "options": [
+        {
+         "en": "“Supported a data-migration initiative”",
+         "id": "“Mendukung inisiatif migrasi data”"
+        },
+        {
+         "en": "Delete it; replace with a true specific — the reconciliation checklist the team still uses",
+         "id": "Hapus; ganti dengan hal spesifik yang benar — daftar periksa rekonsiliasi yang masih dipakai tim"
+        },
+        {
+         "en": "Keep it — it might have happened",
+         "id": "Pertahankan — mungkin pernah terjadi"
+        },
+        {
+         "en": "Add [CHECK] and send",
+         "id": "Tambahkan [CHECK] dan kirim"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "An invented achievement cannot be softened into a true one; the facts tab has a real one to use instead.",
+        "id": "Pencapaian karangan tidak bisa dilunakkan menjadi yang benar; tab fakta punya yang nyata untuk dipakai."
+       }
+      },
+      {
+       "q": {
+        "en": "Dimas typed: “Write an amazing cover letter and CV profile for this job using this CV.” Which part of the seven-part anatomy was most missing?",
+        "id": "Dimas mengetik: “Tulis surat pengantar dan profil CV yang luar biasa untuk pekerjaan ini dari CV ini.” Bagian mana dari anatomi tujuh bagian yang paling hilang?"
+       },
+       "options": [
+        {
+         "en": "The task",
+         "id": "Tugas"
+        },
+        {
+         "en": "The guardrail — and a “could not source” list in the output structure",
+         "id": "Pagar pengaman — dan daftar “tidak bisa diambil” di struktur keluaran"
+        },
+        {
+         "en": "The style anchor",
+         "id": "Jangkar gaya"
+        },
+        {
+         "en": "Nothing — the prompt was fine",
+         "id": "Tidak ada — prompt-nya sudah baik"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "“Amazing” invited invention; nothing forbade it and nothing asked the tool to confess what it added.",
+        "id": "“Luar biasa” mengundang karangan; tidak ada yang melarangnya dan tidak ada yang meminta alat mengaku apa yang ditambahkannya."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "cv",
+      "title": {
+       "en": "Your library and your log",
+       "id": "Pustaka dan catatanmu"
+      },
+      "body": {
+       "en": "In the studio, save the five prompts from Step 4 as your prompt library (Dossier item 1) and start the verification log with this case as its first entry (Dossier item 2): six errors, four labels, what you changed. From now on every AI output you use gets a line in the log before it touches the CV, the letter or a message.",
+       "id": "Di studio, simpan lima prompt dari Langkah 4 sebagai pustaka prompt-mu (butir Dossier 1) dan mulai catatan verifikasi dengan kasus ini sebagai entri pertamanya (butir Dossier 2): enam kesalahan, empat label, apa yang kamu ubah. Mulai sekarang setiap keluaran AI yang kamu pakai mendapat satu baris di catatan sebelum menyentuh CV, surat, atau pesan."
+      },
+      "cta": {
+       "en": "Open the studio →",
+       "id": "Buka studio →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "“Sounds amazing” is the warning sign; the facts tab and the sources tab decide.",
+       "id": "“Terdengar luar biasa” adalah tanda peringatannya; tab fakta dan tab sumber yang memutuskan."
+      },
+      {
+       "en": "The true version is smaller — and survives every question.",
+       "id": "Versi yang benar lebih kecil — dan lolos setiap pertanyaan."
+      },
+      {
+       "en": "The prompt that supplies the facts and forbids the rest is the one that never produces this draft.",
+       "id": "Prompt yang memberi fakta dan melarang sisanya adalah yang tidak pernah menghasilkan draf ini."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 11 · case interviews",
-        "id": "Modul 11 · wawancara kasus"
+        "en": "Lessons 8.1–8.4",
+        "id": "Pelajaran 8.1–8.4"
        },
        "desc": {
-        "en": "You can think aloud under a spotlight; now you speed up the paperwork without losing the truth.",
-        "id": "Kamu bisa berpikir lantang di bawah sorotan; kini kamu mempercepat pekerjaan dokumen tanpa kehilangan kebenaran."
+        "en": "What AI does well and badly, the co-writer protocol, verify–personalise–own, research and rehearsal.",
+        "id": "Apa yang dilakukan AI dengan baik dan buruk, protokol penulis pendamping, verifikasi–personalisasi–miliki, riset dan latihan."
        }
       },
       "now": {
        "label": {
-        "en": "Module 8 · AI with discipline",
-        "id": "Modul 8 · AI dengan disiplin"
+        "en": "8.5 · The Too-Good Draft",
+        "id": "8.5 · Draf yang Terlalu Bagus"
        },
        "desc": {
-        "en": "Prompts that keep your facts, verification passes, and a clear disclosure line.",
-        "id": "Prompt yang menjaga faktamu, pemeriksaan verifikasi, dan garis pengungkapan yang jelas."
+        "en": "You have logged every claim, rewritten the profile, written the safe prompt and built your library.",
+        "id": "Kamu sudah mencatat setiap klaim, menulis ulang profil, menulis prompt yang aman, dan membangun pustakamu."
        }
       },
       "next": {
        "label": {
-        "en": "Module 9 · professional etiquette",
-        "id": "Modul 9 · etiket profesional"
+        "en": "Module 9 · Professional Etiquette &amp; Follow-Through",
+        "id": "Modul 9 · Etiket Profesional &amp; Tindak Lanjut"
        },
        "desc": {
-        "en": "Applied respect at every touchpoint — read before your qualifications are.",
-        "id": "Rasa hormat yang diterapkan di setiap titik sentuh — dibaca sebelum kualifikasimu."
+        "en": "Every interaction is a work sample — and the capstone Dossier that hands over to The Rope.",
+        "id": "Setiap interaksi adalah contoh kerja — dan Dossier puncak yang diserahkan ke The Rope."
        },
        "lesson": "9.1"
       }
