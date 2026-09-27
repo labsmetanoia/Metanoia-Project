@@ -892,129 +892,262 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "4": {
-  "mcq": [
+  "minutes": 10,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "The HR interview primarily evaluates:",
-     "id": "Wawancara HR terutama mengevaluasi:"
+    "lesson": "4.1",
+    "h": {
+     "en": "Your Five-Point Core Message",
+     "id": "Lima Poin Pesan Utamamu"
     },
-    "opts": [
-     {
-      "en": "Technical depth",
-      "id": "Kedalaman teknis"
-     },
-     {
-      "en": "Motivation, fit, self-awareness, salary alignment and red flags",
-      "id": "Motivasi, kecocokan, kesadaran diri, keselarasan ekspektasi gaji, dan tanda bahaya"
-     },
-     {
-      "en": "Problem-solving under time",
-      "id": "Pemecahan masalah dalam waktu terbatas"
-     },
-     {
-      "en": "Presentation skills",
-      "id": "Keterampilan presentasi"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "HR is the gatekeeper round: informed interest in this company, a coherent story, and nothing that endangers the culture or the band.",
-     "id": "HR adalah ronde penjaga gerbang: minat yang berdasar terhadap perusahaan ini, cerita yang runtut, dan tidak ada hal yang membahayakan budaya atau rentang gaji."
+    "sub": {
+     "en": "Choosing five with evidence, the bridge, the final check.",
+     "id": "Memilih lima dengan bukti, jembatan, pemeriksaan akhir."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "'Why do you want to work here?' — the answer that scores:",
-     "id": "'Mengapa kamu ingin bekerja di sini?' — jawaban yang mendapat nilai:"
+    "lesson": "4.2",
+    "h": {
+     "en": "The 60-Second Opening",
+     "id": "Pembuka 60 Detik"
     },
-    "opts": [
-     {
-      "en": "'Your company is famous and stable'",
-      "id": "'Perusahaan Bapak/Ibu terkenal dan stabil'"
-     },
-     {
-      "en": "A specific, verified fact about their work connected to your evidenced direction",
-      "id": "Satu fakta spesifik dan terverifikasi tentang pekerjaan mereka, yang terhubung dengan arah kariermu yang punya bukti"
-     },
-     {
-      "en": "'The salary and benefits are attractive'",
-      "id": "'Gaji dan tunjangannya menarik'"
-     },
-     {
-      "en": "'My friends recommend the culture'",
-      "id": "'Teman-teman saya merekomendasikan budayanya'"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Generic praise reads as mass production. 'Your supplier-audit programme is where my thesis work points' proves research and genuine intent in one sentence.",
-     "id": "Pujian generik terbaca seperti produksi massal. 'Program audit pemasok Bapak/Ibu adalah arah yang dituju skripsi saya' membuktikan riset dan niat yang tulus dalam satu kalimat."
+    "sub": {
+     "en": "Present → Proof → Future, what to leave out, adapting by audience, sounding natural.",
+     "id": "Sekarang → Bukti → Masa Depan, apa yang ditinggalkan, menyesuaikan per audiens, terdengar alami."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "In technical rounds, when you do not know the answer:",
-     "id": "Di ronde teknis, ketika kamu tidak tahu jawabannya:"
+    "lesson": "4.3",
+    "h": {
+     "en": "“Why Us? Why This Role? Why You?”",
+     "id": "“Kenapa Kami? Kenapa Posisi Ini? Kenapa Anda?”"
     },
-    "opts": [
-     {
-      "en": "Bluff confidently — doubt is fatal",
-      "id": "Gertak dengan percaya diri — ragu itu fatal"
-     },
-     {
-      "en": "Say what you do know, reason aloud toward the boundary, and name what you would look up",
-      "id": "Katakan apa yang kamu tahu, bernalar dengan suara lantang sampai ke batas pengetahuanmu, dan sebutkan apa yang akan kamu cari tahu"
-     },
-     {
-      "en": "Apologise and ask for a different question",
-      "id": "Minta maaf dan minta pertanyaan lain"
-     },
-     {
-      "en": "Stay silent until inspiration comes",
-      "id": "Diam sampai ilham datang"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Technical interviewers probe exactly where bluffs live. Calibrated honesty plus visible reasoning scores; confident fiction ends candidacies.",
-     "id": "Pewawancara teknis menggali persis di tempat gertakan bersembunyi. Kejujuran yang terukur plus penalaran yang terlihat mendapat nilai; fiksi yang percaya diri mengakhiri pencalonanmu."
+    "sub": {
+     "en": "REC, three versions, honest motives, the competitor probe.",
+     "id": "REC, tiga versi, motif jujur, galian pesaing."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "The final-round director asks about your five-year picture. They are actually testing:",
-     "id": "Direktur di ronde final bertanya tentang gambaranmu lima tahun ke depan. Yang sebenarnya diuji:"
+    "lesson": "4.4",
+    "h": {
+     "en": "Strengths and the Real Weakness",
+     "id": "Kekuatan dan Kelemahan Jujur"
     },
-    "opts": [
-     {
-      "en": "Whether your plan matches their org chart",
-      "id": "Apakah rencanamu cocok dengan bagan organisasi mereka"
-     },
-     {
-      "en": "Whether you think in trajectories at all, and whether this role plausibly serves yours",
-      "id": "Apakah kamu berpikir dalam kerangka lintasan karier, dan apakah peran ini masuk akal sebagai bagian dari lintasanmu"
-     },
-     {
-      "en": "Your loyalty for the full five years",
-      "id": "Kesetiaanmu selama lima tahun penuh"
-     },
-     {
-      "en": "Ambition levels against other candidates",
-      "id": "Tingkat ambisimu dibanding kandidat lain"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Directors buy judgment. An authored direction with this role as a deliberate way-station beats both 'your seat, eventually' flattery and 'wherever life takes me'.",
-     "id": "Direktur membeli pertimbangan. Arah yang kamu tulis sendiri, dengan peran ini sebagai persinggahan yang disengaja, mengalahkan rayuan 'kelak duduk di kursi Bapak/Ibu' maupun 'ke mana pun hidup membawa saya'."
+    "sub": {
+     "en": "Claim + evidence + relevance; Name → Evidence → System → Progress → Edge; choosing; the sceptic’s probe.",
+     "id": "Klaim + bukti + relevansi; Nama → Bukti → Sistem → Kemajuan → Tepi; memilih; galian skeptis."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "4.1",
+    "q": {
+     "en": "A strong core-message point is…",
+     "id": "Poin pesan utama yang kuat adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Saya pekerja keras”",
+      "id": "“Saya pekerja keras”"
+     },
+     {
+      "en": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi laporan harian tiga cabang saat magang”",
+      "id": "“Terbiasa akurat dengan volume tinggi — rekonsiliasi laporan harian tiga cabang saat magang”"
+     },
+     {
+      "en": "“Saya lulusan universitas negeri”",
+      "id": "“Saya lulusan universitas negeri”"
+     },
+     {
+      "en": "“Saya suka belajar”",
+      "id": "“Saya suka belajar”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Relevant to the role, backed by a Core 10 story, and not something every candidate claims.",
+     "id": "Relevan dengan peran, didukung cerita Core 10, dan bukan sesuatu yang diklaim setiap kandidat."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.1",
+    "q": {
+     "en": "Twenty-five minutes in, three of your five points have been delivered and the interviewer glances at the clock. The right move is…",
+     "id": "Dua puluh lima menit berlalu, tiga dari lima poinmu sudah tersampaikan dan pewawancara melirik jam. Langkah yang tepat adalah…"
+    },
+    "opts": [
+     {
+      "en": "Bridge to both missing points in the next answer",
+      "id": "Jembatani ke kedua poin yang hilang di jawaban berikutnya"
+     },
+     {
+      "en": "Run the final check, and carry only the missing point that sits on a top-three scorecard line into the close",
+      "id": "Jalankan pemeriksaan akhir, dan bawa hanya poin hilang yang berada di baris tiga teratas lembar penilaian ke penutup"
+     },
+     {
+      "en": "Say nothing — three is enough",
+      "id": "Diam saja — tiga sudah cukup"
+     },
+     {
+      "en": "Restate all five quickly",
+      "id": "Nyatakan ulang kelimanya dengan cepat"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The close carries one key point; a close that carries two is a second interview.",
+     "id": "Penutup membawa satu poin kunci; penutup yang membawa dua adalah wawancara kedua."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "4.2",
+    "q": {
+     "en": "In the sixty-second opening, the Proof move should…",
+     "id": "Dalam pembuka enam puluh detik, gerakan Bukti sebaiknya…"
+    },
+    "opts": [
+     {
+      "en": "Be one sentence",
+      "id": "Satu kalimat"
+     },
+     {
+      "en": "Take about thirty-five seconds with two headlines, each carrying a number",
+      "id": "Memakan sekitar tiga puluh lima detik dengan dua headline, masing-masing membawa angka"
+     },
+     {
+      "en": "List every organisation you joined",
+      "id": "Mendaftar setiap organisasi yang kamu ikuti"
+     },
+     {
+      "en": "Come after the hobbies",
+      "id": "Datang setelah hobi"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Proof is more than half the sixty seconds; the two headlines are two of your five points.",
+     "id": "Bukti lebih dari separuh enam puluh detik; dua headline adalah dua dari lima poinmu."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.2",
+    "q": {
+     "en": "Five practice takes of your opening are word-for-word identical. This means…",
+     "id": "Lima rekaman latihan pembukamu identik kata demi kata. Ini berarti…"
+    },
+    "opts": [
+     {
+      "en": "You are ready",
+      "id": "Kamu sudah siap"
+     },
+     {
+      "en": "You memorised sentences, not structure and facts — the delivery will sound recited",
+      "id": "Kamu menghafal kalimat, bukan struktur dan fakta — penyampaiannya akan terdengar hafalan"
+     },
+     {
+      "en": "The opening is too short",
+      "id": "Pembukanya terlalu pendek"
+     },
+     {
+      "en": "Nothing — consistency is good",
+      "id": "Tidak apa — konsistensi itu baik"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Keep the numbers identical and let the words vary; identical takes are the warning sign.",
+     "id": "Jaga angkanya identik dan biarkan kata-katanya bervariasi; rekaman identik adalah tanda peringatan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.3",
+    "q": {
+     "en": "“Kenapa kami?” — which answer passes REC?",
+     "id": "“Kenapa kami?” — jawaban mana yang lolos REC?"
+    },
+    "opts": [
+     {
+      "en": "“Perusahaan besar, terkenal, lingkungan kerjanya bagus, dan saya ingin berkembang.”",
+      "id": "“Perusahaan besar, terkenal, lingkungan kerjanya bagus, dan saya ingin berkembang.”"
+     },
+     {
+      "en": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — dan bagian magang yang paling saya nikmati adalah rekonsiliasi harian, pekerjaan yang ODP jalur operasi lakukan di cabang daerah. Yang bisa saya bawa: kebiasaan menutup selisih hari itu juga; yang ingin saya pelajari: sisi kreditnya.”",
+      "id": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — dan bagian magang yang paling saya nikmati adalah rekonsiliasi harian, pekerjaan yang ODP jalur operasi lakukan di cabang daerah. Yang bisa saya bawa: kebiasaan menutup selisih hari itu juga; yang ingin saya pelajari: sisi kreditnya.”"
+     },
+     {
+      "en": "“Karena stabil dan dekat rumah.”",
+      "id": "“Karena stabil dan dekat rumah.”"
+     },
+     {
+      "en": "“Saya sangat passionate tentang perbankan.”",
+      "id": "“Saya sangat passionate tentang perbankan.”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "A verifiable fact not true of the competitor, a link to her history, a contribution and a thing to learn.",
+     "id": "Fakta dapat diverifikasi yang tidak berlaku untuk pesaing, tautan ke riwayatnya, kontribusi, dan hal untuk dipelajari."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "4.4",
+    "q": {
+     "en": "“Kelemahan saya perfeksionis.” The interviewer’s likely next line, and why:",
+     "id": "“Kelemahan saya perfeksionis.” Kalimat pewawancara berikutnya yang mungkin, dan mengapa:"
+    },
+    "opts": [
+     {
+      "en": "“Bagus, lanjut.” — it is a strength in disguise",
+      "id": "“Bagus, lanjut.” — itu kekuatan yang disamarkan"
+     },
+     {
+      "en": "“Itu kedengarannya bukan kelemahan yang serius.” — a cliché is scored as evasion and probed at once",
+      "id": "“Itu kedengarannya bukan kelemahan yang serius.” — klise dinilai sebagai mengelak dan segera digali"
+     },
+     {
+      "en": "“Contohnya?” — they believe it",
+      "id": "“Contohnya?” — mereka mempercayainya"
+     },
+     {
+      "en": "Nothing — they move on",
+      "id": "Tidak ada — mereka lanjut"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Fake weaknesses draw the sceptic’s probe immediately; a real one with a System does not.",
+     "id": "Kelemahan palsu segera memancing galian skeptis; yang nyata dengan Sistem tidak."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Write your five points for your top target as claims with evidence, and mark which two go into your opening. Then name your real weakness in one unsoftened sentence and write the System — the rule with a trigger — you actually follow. Finally: which of the five points do your stories never seem to reach, and what will you do about it in the next interview?",
+    "id": "Minimal 100 kata. Tulis lima poinmu untuk sasaran teratasmu sebagai klaim dengan bukti, dan tandai dua mana yang masuk pembukamu. Lalu sebutkan kelemahan nyatamu dalam satu kalimat tanpa pelunak dan tulis Sistem — aturan dengan pemicu — yang benar-benar kamu ikuti. Terakhir: poin mana dari lima yang tampaknya tak pernah dicapai ceritamu, dan apa yang akan kamu lakukan tentangnya di wawancara berikutnya?"
+   },
+   "guide": [
+    {
+     "en": "Each point needs a Core 10 story number beside it.",
+     "id": "Tiap poin butuh nomor cerita Core 10 di sampingnya."
+    },
+    {
+     "en": "The weakness must pass the cliché list and stay off the scorecard’s top three lines.",
+     "id": "Kelemahan harus lolos daftar klise dan tidak berada di tiga baris teratas lembar penilaian."
+    },
+    {
+     "en": "“Do about it” means a bridge, a story swap, or the close — name which.",
+     "id": "“Lakukan tentangnya” berarti jembatan, tukar cerita, atau penutup — sebutkan yang mana."
+    }
+   ],
+   "min": 100
+  }
  },
  "5": {
   "mcq": [
