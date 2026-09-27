@@ -9109,8 +9109,8 @@ window.MT_LMS['the-map'] = {
       "id": "Elemen Gaya Presentasi"
      },
      "dur": {
-      "en": "40 min",
-      "id": "40 mnt"
+      "en": "45 min",
+      "id": "45 mnt"
      },
      "kind": "reading",
      "placeholder": false,
@@ -9224,6 +9224,33 @@ window.MT_LMS['the-map'] = {
          }
         }
        ]
+      },
+      {
+       "kicker": {
+        "en": "Read next · 1 slide",
+        "id": "Baca berikutnya · 1 slide"
+       },
+       "title": {
+        "en": "Applying the Three Elements — Material",
+        "id": "Menerapkan Tiga Elemen — Materi"
+       },
+       "intro": {
+        "en": "One slide takes the three elements into the setting most of us present in most often: the video call. Physical presence becomes posture, eye contact through the camera, lighting and background; vocal emphasis becomes pitch, pace and volume that keep a remote audience engaged; emotional connection becomes reading the mood and context on the other side of the screen and adjusting your tone to build chemistry there too. Hold an upcoming virtual meeting of your own in mind as you read, then continue to the film that follows.",
+        "id": "Satu slide membawa tiga elemen ke situasi yang paling sering kita hadapi saat presentasi: panggilan video. Kehadiran fisik menjadi postur, kontak mata melalui kamera, pencahayaan, dan latar belakang; penekanan vokal menjadi nada, kecepatan, dan volume yang menjaga audiens jarak jauh tetap terlibat; koneksi emosional menjadi membaca suasana dan konteks di seberang layar dan menyesuaikan nada Anda untuk membangun chemistry di sana juga. Bayangkan rapat virtual Anda yang akan datang saat membaca, lalu lanjutkan ke film yang mengikutinya."
+       },
+       "base": "../../assets/lms/the-map/slides/style-apply-",
+       "slides": [
+        {
+         "title": {
+          "en": "Applying the three elements in a virtual context",
+          "id": "Menerapkan tiga elemen gaya dalam konteks virtual"
+         },
+         "text": {
+          "en": "Deep dive. A virtual context presents added challenges around connecting with your audience, but it’s a situation we find ourselves in often. Hilary and Mark offer tips for establishing presence and engaging an audience when delivering remotely. As you watch, take a moment to think about an upcoming meeting where you will need to deliver virtually. What aspects of the three elements can you apply to your upcoming meeting to improve your message delivery? Callouts: physical presence — be intentional about your posture, eye contact, and on-camera presence; vocal emphasis — use variation in pitch, pace, and volume to keep your audience engaged online; emotional connection — understand your audience’s mood and context, and adjust your tone to build chemistry, even virtually. Reflection — think about your upcoming meeting: consider a meeting you will be delivering virtually. Which aspects of physical presence, vocal emphasis, and emotional connection can you apply to improve your message delivery? What specific actions will you take? Key tips for virtual delivery: show up on camera (keep good posture; maintain eye contact; ensure good lighting and background); use your voice dynamically (vary your pitch; adjust your pace; use volume to emphasize key points); build connection intentionally (acknowledge the audience; be mindful of their context; use empathy and a conversational tone).",
+          "id": "Penjelasan lebih dalam. Konteks virtual menghadirkan tantangan tambahan dalam membangun koneksi dengan audiens, namun ini adalah situasi yang sering kita hadapi. Hilary dan Mark memberikan tips untuk membangun presence dan melibatkan audiens saat menyampaikan presentasi secara daring. Saat Anda menonton video ini, luangkan waktu sejenak untuk memikirkan rapat mendatang di mana Anda perlu menyampaikan presentasi secara virtual. Aspek dari tiga elemen ini apa yang dapat Anda terapkan pada rapat tersebut untuk meningkatkan efektivitas penyampaian pesan Anda? Keterangan: keberadaan fisik (presence) — tunjukkan postur yang baik, kontak mata melalui kamera, dan kehadiran yang fokus; penekanan vokal — gunakan variasi pada nada suara, kecepatan bicara, dan volume untuk tetap melibatkan audiens di lingkungan virtual; koneksi emosional — pahami suasana, kebutuhan, dan perspektif audiens, serta sesuaikan nada dan gaya komunikasi Anda untuk membangun chemistry, bahkan secara virtual. Refleksi — pikirkan tentang rapat mendatang Anda: pertimbangkan rapat yang akan Anda lakukan secara virtual. Aspek dari keberadaan fisik, penekanan vokal, dan koneksi emosional apa yang dapat Anda terapkan untuk meningkatkan efektivitas penyampaian pesan Anda? Langkah spesifik apa yang akan Anda lakukan? Poin penting untuk presentasi virtual — gunakan pendekatan berikut untuk membangun kehadiran, keterlibatan, dan koneksi yang lebih kuat dengan audiens Anda: tampilkan diri di kamera (jaga postur yang baik; lakukan kontak mata melalui kamera; pastikan pencahayaan dan latar belakang yang baik); gunakan suara dengan dinamis (variasikan nada suara; atur kecepatan bicara; gunakan volume yang tepat untuk menekankan poin penting); bangun koneksi secara intentional (pahami audiens dan konteks mereka; perhatikan suasana dan energi audiens; gunakan empati serta nada percakapan yang tulus)."
+         }
+        }
+       ]
       }
      ],
      "videoBlocks": [
@@ -9282,8 +9309,8 @@ window.MT_LMS['the-map'] = {
         "id": "Tonton berikutnya · 2 film pelajaran"
        },
        "intro": {
-        "en": "The two films the slides point to. First, vocal emphasis: Mark on the music of your voice — loud or soft, high or low, the pauses and the tone — and why it can carry a message or undercut it. His exercise is to read your last business presentation as if to a child, record it and play it back; his proof is one sentence, “I gave him a hundred dollars”, which answers four different questions depending on where the stress falls. Second, emotional connection: Mark and Hilary on responding to the room in the moment — look people in the eye and let your gaze linger, say out loud what you understand about how they feel (“I know this is a painful topic”), ask for their concerns before you start, and walk in open, confident and authentic, because a presentation at its best is a dialogue and the C of EPIC is conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to “In focus” below, then the three reading sections.",
-        "id": "Dua film yang dirujuk slide. Pertama, penekanan vokal: Mark tentang musik dari suara Anda — keras atau lembut, tinggi atau rendah, jeda dan nadanya — dan mengapa ia bisa membawa pesan atau merusaknya. Latihannya: bacalah presentasi bisnis terakhir Anda seolah untuk seorang anak, rekam dan putar kembali; buktinya adalah satu kalimat, “Saya memberinya seratus dolar”, yang menjawab empat pertanyaan berbeda tergantung di mana tekanannya jatuh. Kedua, koneksi emosional: Mark dan Hilary tentang merespons ruangan saat itu juga — tatap mata orang dan biarkan tatapan bertahan sejenak, ucapkan apa yang Anda pahami tentang perasaan mereka (“Saya tahu ini topik yang menyakitkan”), tanyakan kekhawatiran mereka sebelum mulai, dan masuklah dengan terbuka, percaya diri, dan otentik, karena presentasi terbaik adalah sebuah dialog dan C dalam EPIC adalah conversation. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+        "en": "The two films the slides point to. First, vocal emphasis: Mark on the music of your voice — loud or soft, high or low, the pauses and the tone — and why it can carry a message or undercut it. His exercise is to read your last business presentation as if to a child, record it and play it back; his proof is one sentence, “I gave him a hundred dollars”, which answers four different questions depending on where the stress falls. Second, emotional connection: Mark and Hilary on responding to the room in the moment — look people in the eye and let your gaze linger, say out loud what you understand about how they feel (“I know this is a painful topic”), ask for their concerns before you start, and walk in open, confident and authentic, because a presentation at its best is a dialogue and the C of EPIC is conversation. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When they end, continue to the slide that follows.",
+        "id": "Dua film yang dirujuk slide. Pertama, penekanan vokal: Mark tentang musik dari suara Anda — keras atau lembut, tinggi atau rendah, jeda dan nadanya — dan mengapa ia bisa membawa pesan atau merusaknya. Latihannya: bacalah presentasi bisnis terakhir Anda seolah untuk seorang anak, rekam dan putar kembali; buktinya adalah satu kalimat, “Saya memberinya seratus dolar”, yang menjawab empat pertanyaan berbeda tergantung di mana tekanannya jatuh. Kedua, koneksi emosional: Mark dan Hilary tentang merespons ruangan saat itu juga — tatap mata orang dan biarkan tatapan bertahan sejenak, ucapkan apa yang Anda pahami tentang perasaan mereka (“Saya tahu ini topik yang menyakitkan”), tanyakan kekhawatiran mereka sebelum mulai, dan masuklah dengan terbuka, percaya diri, dan otentik, karena presentasi terbaik adalah sebuah dialog dan C dalam EPIC adalah conversation. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah keduanya selesai, lanjutkan ke slide yang mengikutinya."
        },
        "outro": {
         "title": {
@@ -9300,8 +9327,8 @@ window.MT_LMS['the-map'] = {
           "id": "Berlatihlah dengan suara keras dan naikkan satu tingkat: bacalah presentasi terakhir Anda seolah untuk seorang anak, rekam, putar kembali. Panaskan suara sebagaimana Anda menjejakkan tubuh."
          },
          {
-          "en": "Emotional connection is empathy made visible: eye contact that lingers, naming how the room feels, asking for concerns first, and arriving open and authentic. A presentation at its best is a dialogue — the C of EPIC.",
-          "id": "Koneksi emosional adalah empati yang terlihat: kontak mata yang bertahan, menyebutkan perasaan ruangan, menanyakan kekhawatiran lebih dulu, dan hadir dengan terbuka dan otentik. Presentasi terbaik adalah dialog — C dalam EPIC."
+          "en": "Emotional connection is empathy made visible: eye contact that lingers, naming how the room feels, asking for concerns first, and arriving open and authentic. A presentation at its best is a dialogue — the C of EPIC. The slide and film that follow take all three elements onto a video call.",
+          "id": "Koneksi emosional adalah empati yang terlihat: kontak mata yang bertahan, menyebutkan perasaan ruangan, menanyakan kekhawatiran lebih dulu, dan hadir dengan terbuka dan otentik. Presentasi terbaik adalah dialog — C dalam EPIC. Slide dan film yang mengikutinya membawa ketiga elemen ke dalam panggilan video."
          }
         ]
        },
@@ -9330,6 +9357,53 @@ window.MT_LMS['the-map'] = {
          "captions": {
           "en": "../../assets/lms/the-map/style-3-en.vtt",
           "id": "../../assets/lms/the-map/style-3-id.vtt"
+         }
+        }
+       ]
+      },
+      {
+       "key": "remote",
+       "placement": "after-material:3",
+       "kicker": {
+        "en": "Watch next · Lesson film",
+        "id": "Tonton berikutnya · Film pelajaran"
+       },
+       "intro": {
+        "en": "The film the slide points to. Mark and Hilary take the three elements onto a video call. The fundamentals do not change: you still ask where your audience is and where you want them to be, the empathy of EPIC still holds, and you still need a purpose for the meeting. What changes is the weight. The camera shows only a face and the top half of a body, so body language needs to be more restrained — wave your arms and you look like you have giant hands; keep your hands level with yourself. Put the camera roughly at eye level: too high and you look small, too low and people look up your nose. Eye contact works strangely on screen, so for a key message look straight into the lens and imagine the people behind it. And switch off your own self-view, so you can concentrate on the people on the call — the emotional connection, the third element of style. Subtitles are available in English and Bahasa Indonesia; switch them with the CC button. When it ends, continue to “In focus” below, then the three reading sections.",
+        "id": "Film yang dirujuk slide. Mark dan Hilary membawa tiga elemen ke dalam panggilan video. Dasar-dasarnya tidak berubah: Anda tetap bertanya di mana audiens Anda dan di mana Anda ingin mereka berada, empati dalam EPIC tetap berlaku, dan Anda tetap butuh tujuan untuk pertemuan itu. Yang berubah adalah bobotnya. Kamera hanya menampilkan wajah dan bagian atas tubuh, sehingga bahasa tubuh perlu lebih terkendali — ayunkan lengan dan Anda terlihat seperti memiliki tangan raksasa; jaga tangan tetap sejajar dengan tubuh. Letakkan kamera kira-kira sejajar mata: terlalu tinggi Anda terlihat kecil, terlalu rendah orang melihat ke atas hidung Anda. Kontak mata bekerja aneh di layar, jadi untuk pesan kunci tataplah langsung ke lensa dan bayangkan orang-orang di baliknya. Dan matikan tampilan diri Anda sendiri, agar Anda bisa berkonsentrasi pada orang-orang dalam panggilan — koneksi emosional, elemen ketiga dari gaya. Subtitle tersedia dalam bahasa Inggris dan Bahasa Indonesia; ganti lewat tombol CC. Setelah selesai, lanjutkan ke “Sorotan” di bawah, lalu tiga bagian bacaan."
+       },
+       "outro": {
+        "title": {
+         "en": "Key takeaways: the camera changes the weights",
+         "id": "Poin penting: kamera mengubah bobotnya"
+        },
+        "body": [
+         {
+          "en": "Remote delivery keeps the fundamentals: know where your audience is and where you want them to be, hold on to the empathy of EPIC, and be clear what you want them to think, feel or do. Nothing good in person becomes bad on camera; different things simply matter more.",
+          "id": "Penyampaian jarak jauh mempertahankan dasar-dasarnya: ketahui di mana audiens Anda dan di mana Anda ingin mereka berada, pegang empati dalam EPIC, dan jelaskan apa yang Anda ingin mereka pikirkan, rasakan, atau lakukan. Tidak ada hal baik secara langsung yang menjadi buruk di kamera; hanya hal-hal berbeda yang menjadi lebih penting."
+         },
+         {
+          "en": "The frame is small, so restrain the body: keep your hands level and on your own plane, and put the camera roughly at eye level — too high makes you small, too low makes you look self-important.",
+          "id": "Bingkainya kecil, jadi kendalikan tubuh: jaga tangan tetap sejajar dan pada bidang tubuh Anda, dan letakkan kamera kira-kira sejajar mata — terlalu tinggi membuat Anda kecil, terlalu rendah membuat Anda tampak merasa penting."
+         },
+         {
+          "en": "Eye contact through a lens is strange, so look straight into the camera for your key message and picture the people behind it. Switch off self-view and give your attention to the audience: that is the emotional connection, applied remotely.",
+          "id": "Kontak mata melalui lensa terasa aneh, jadi tataplah langsung ke kamera untuk pesan kunci Anda dan bayangkan orang-orang di baliknya. Matikan tampilan diri dan berikan perhatian Anda pada audiens: itulah koneksi emosional, diterapkan dari jarak jauh."
+         }
+        ]
+       },
+       "videos": [
+        {
+         "src": "../../assets/lms/the-map/style-4-brand.mp4",
+         "poster": "../../assets/lms/the-map/style-4-poster.jpg",
+         "dur": "2:26",
+         "title": {
+          "en": "Delivering remotely",
+          "id": "Menyampaikan presentasi dari jarak jauh"
+         },
+         "captions": {
+          "en": "../../assets/lms/the-map/style-4-en.vtt",
+          "id": "../../assets/lms/the-map/style-4-id.vtt"
          }
         }
        ]
