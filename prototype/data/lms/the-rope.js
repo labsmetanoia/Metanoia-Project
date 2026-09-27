@@ -9976,942 +9976,4471 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "3.1",
-     "title": {
-      "en": "Reading Company-Specific Frameworks",
-      "id": "Membaca Kerangka Khas Perusahaan"
-     },
-     "kind": "slides",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Reading a Job Description as a Scoresheet",
+      "id": "Membaca Deskripsi Pekerjaan sebagai Lembar Penilaian"
+     },
      "overview": {
-      "en": "Many companies publish their values, principles or competency language publicly. Those pages are not wall decoration — they are the interview rubric in plain sight. This deck teaches you to find them, translate value-words into testable behaviours, and prepare stories that speak the company's own language.",
-      "id": "Banyak perusahaan menerbitkan nilai, prinsip, atau bahasa kompetensinya secara terbuka. Halaman-halaman itu bukan hiasan dinding — itulah rubrik wawancara yang terpampang di depan mata. Dek ini mengajarimu cara menemukannya, menerjemahkan kata-kata nilai menjadi perilaku yang bisa diuji, dan menyiapkan cerita yang berbicara dalam bahasa perusahaan itu sendiri."
+      "en": "A job description is a leaked exam paper. The people who wrote the interview guide read the same posting — usually they wrote it — so its responsibilities, requirements, soft-skill lines and company language are the competency scorecard in plain sight. This lesson gives you the four-layer reading, a verb-to-competency table for English and Indonesian postings, the weighting cues that tell you which four to six competencies will carry the interview, and the link back to the keyword table you built in The Pack.",
+      "id": "Deskripsi pekerjaan adalah soal ujian yang bocor. Orang yang menulis panduan wawancara membaca lowongan yang sama — biasanya merekalah yang menulisnya — jadi tanggung jawab, persyaratan, baris soft-skill, dan bahasa perusahaannya adalah lembar penilaian kompetensi yang terpampang jelas. Pelajaran ini memberimu pembacaan empat lapis, tabel kata kerja→kompetensi untuk lowongan berbahasa Inggris dan Indonesia, petunjuk pembobotan yang memberi tahu empat hingga enam kompetensi mana yang akan memikul wawancara, dan tautan kembali ke tabel kata kunci yang kamu bangun di The Pack."
      },
      "objectives": [
       {
-       "en": "Locate a company's published values or principles in minutes.",
-       "id": "Menemukan nilai atau prinsip yang diterbitkan sebuah perusahaan dalam hitungan menit."
+       "en": "Separate the four layers of a posting and name what each one produces in the interview.",
+       "id": "Memisahkan empat lapis lowongan dan menyebut apa yang dihasilkan masing-masing di wawancara."
       },
       {
-       "en": "Translate a value-word into the behaviour an interviewer would probe.",
-       "id": "Menerjemahkan sebuah kata nilai menjadi perilaku yang akan digali pewawancara."
+       "en": "Translate responsibility verbs into competencies, in English and Indonesian.",
+       "id": "Menerjemahkan kata kerja tanggung jawab menjadi kompetensi, dalam bahasa Inggris dan Indonesia."
       },
       {
-       "en": "Select stories that evidence the company's specific language.",
-       "id": "Memilih cerita yang membuktikan bahasa khas perusahaan itu."
+       "en": "Weight a scorecard from position, repetition and “wajib”, and estimate the top four to six.",
+       "id": "Membobot lembar penilaian dari posisi, pengulangan, dan “wajib”, dan memperkirakan empat hingga enam teratas."
+      },
+      {
+       "en": "Tell an eligibility screen from a competency, and a values line from a soft-skill line.",
+       "id": "Membedakan saringan kelayakan dari kompetensi, dan baris nilai dari baris soft-skill."
       }
      ],
-     "takeawaysLead": {
-      "en": "Published values are the rubric in plain sight. To turn a company's own words into your preparation, you can:",
-      "id": "Nilai-nilai yang dipublikasikan adalah rubrik yang terlihat jelas. Untuk mengubah kata-kata perusahaan itu sendiri menjadi persiapanmu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The exam paper is public",
+       "id": "Soal ujiannya publik"
+      },
+      "intro": {
+       "en": "Module 1 showed that interviewers score against written anchors. This lesson shows where the anchors come from: the posting you already have.",
+       "id": "Modul 1 menunjukkan pewawancara menilai terhadap jangkar tertulis. Pelajaran ini menunjukkan dari mana jangkar itu berasal: lowongan yang sudah kamu pegang."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Four layers",
+         "id": "Empat lapis"
+        },
+        "points": [
+         {
+          "en": "Responsibilities → can-do competencies · Requirements → eligibility screens · Soft-skill lines → behavioural competencies · Company language → fit and values questions.",
+          "id": "Tanggung jawab → kompetensi bisa · Persyaratan → saringan kelayakan · Baris soft-skill → kompetensi perilaku · Bahasa perusahaan → pertanyaan kecocokan dan nilai."
+         },
+         {
+          "en": "Each layer predicts a different question type from Lesson 1.3.",
+          "id": "Setiap lapis memprediksi tipe pertanyaan berbeda dari Pelajaran 1.3."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Verbs are the tell",
+         "id": "Kata kerja adalah petunjuknya"
+        },
+        "points": [
+         {
+          "en": "“Menganalisis” → analytical thinking; “berkoordinasi” → collaboration; “bersedia ditempatkan” → mobility, an eligibility item.",
+          "id": "“Menganalisis” → berpikir analitis; “berkoordinasi” → kolaborasi; “bersedia ditempatkan” → mobilitas, butir kelayakan."
+         },
+         {
+          "en": "The verb also sets the altitude: support · own · drive.",
+          "id": "Kata kerja juga menetapkan ketinggian: mendukung · memiliki · mendorong."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Weighting",
+         "id": "Pembobotan"
+        },
+        "points": [
+         {
+          "en": "Listed first, repeated, or marked “wajib” — weighted highest.",
+          "id": "Disebut pertama, diulang, atau ditandai “wajib” — bobot tertinggi."
+         },
+         {
+          "en": "You are estimating a scorecard of four to six, not listing twenty.",
+          "id": "Kamu memperkirakan lembar penilaian empat hingga enam, bukan mendaftar dua puluh."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Pack link",
+         "id": "Tautan The Pack"
+        },
+        "points": [
+         {
+          "en": "Your Pack Module 3 keyword table for this role is the first pass — reuse it.",
+          "id": "Tabel kata kunci Modul 3 The Pack-mu untuk peran ini adalah lintasan pertama — pakai ulang."
+         },
+         {
+          "en": "The Pack read the posting for the CV; The Rope reads it for the questions.",
+          "id": "The Pack membaca lowongan untuk CV; The Rope membacanya untuk pertanyaan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Published values are the rubric in public; read them the week before, not the night before.",
-       "id": "Nilai yang diterbitkan adalah rubrik yang dipajang di ruang publik; baca seminggu sebelumnya, bukan semalam sebelumnya."
-      },
-      {
-       "en": "Translate every value-word into a question: “when did I actually behave like that?”",
-       "id": "Terjemahkan setiap kata nilai menjadi pertanyaan: “kapan saya benar-benar pernah berperilaku seperti itu?”"
-      },
-      {
-       "en": "Speak your story in their vocabulary once — naturally — and the mapping does itself.",
-       "id": "Ucapkan ceritamu dalam kosakata mereka satu kali saja — secara alami — dan pemetaannya terjadi dengan sendirinya."
-      }
-     ],
-     "slides": [
-      {
-       "h": {
-        "en": "The rubric hides in public",
-        "id": "Rubriknya bersembunyi di tempat terbuka"
-       },
-       "points": [
-        {
-         "en": "Careers pages, annual reports, founder letters and published principles carry the competency language interviews use.",
-         "id": "Halaman karier, laporan tahunan, surat dari pendiri, dan prinsip yang diterbitkan memuat bahasa kompetensi yang dipakai dalam wawancara."
-        },
-        {
-         "en": "If a company repeats a word — ownership, rigour, speed, service — expect a question shaped like it.",
-         "id": "Kalau sebuah perusahaan mengulang satu kata — rasa memiliki, ketelitian, kecepatan, pelayanan — bersiaplah untuk pertanyaan yang berbentuk seperti kata itu."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Value-word → behaviour → probe",
-        "id": "Kata nilai → perilaku → pertanyaan"
-       },
-       "points": [
-        {
-         "en": "“Customer obsession” becomes: tell me about a time you sacrificed convenience for a user.",
-         "id": "“Customer obsession” menjadi: ceritakan saat Anda mengorbankan kenyamanan demi pengguna."
-        },
-        {
-         "en": "“Integrity” becomes: describe a moment honesty cost you something.",
-         "id": "“Integritas” menjadi: ceritakan momen ketika kejujuran membuat Anda kehilangan sesuatu."
-        },
-        {
-         "en": "Run the translation for every listed value — you have just predicted half the interview.",
-         "id": "Jalankan penerjemahan ini untuk setiap nilai yang tercantum — dan kamu baru saja meramalkan separuh isi wawancaranya."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "Map your library onto their language",
-        "id": "Petakan perpustakaanmu ke bahasa mereka"
-       },
-       "points": [
-        {
-         "en": "For each value, pick the one tagged story that evidences it best.",
-         "id": "Untuk setiap nilai, pilih satu cerita berlabel yang paling kuat membuktikannya."
-        },
-        {
-         "en": "Use their word once in the telling — naturally, not as flattery.",
-         "id": "Pakai kata mereka satu kali dalam penuturanmu — secara alami, bukan untuk menjilat."
-        },
-        {
-         "en": "Where you have no story for a value, mine for one now — that gap is where the interview will hurt.",
-         "id": "Kalau tidak ada cerita untuk salah satu nilai, tambang sekarang juga — di celah itulah wawancara akan terasa sakit."
-        }
-       ]
-      },
-      {
-       "h": {
-        "en": "When nothing is published",
-        "id": "Ketika tidak ada yang diterbitkan"
-       },
-       "points": [
-        {
-         "en": "Read several of the company's job ads — repeated requirements across roles are de facto values.",
-         "id": "Baca beberapa iklan lowongan perusahaan itu — persyaratan yang berulang di berbagai posisi adalah nilai perusahaan secara de facto."
-        },
-        {
-         "en": "Ask people who interviewed there; the Metanoia community and mentors exist for exactly this.",
-         "id": "Tanyai orang yang pernah diwawancarai di sana; komunitas dan mentor Metanoia ada persis untuk hal ini."
-        },
-        {
-         "en": "Default to the ten universal competencies — they underlie every private rubric too.",
-         "id": "Kembali ke sepuluh kompetensi universal — itu juga fondasi dari setiap rubrik yang tidak dipublikasikan."
-        }
-       ]
-      }
-     ],
      "sections": [
       {
        "icon": "eye",
+       "img": "../../assets/bg/gauntlet/gate-02-interview.jpg",
+       "imgPos": "50% 38%",
        "h": {
-        "en": "Finding the rubric in public",
-        "id": "Menemukan rubrik di ruang publik"
+        "en": "Four layers of a job description",
+        "id": "Empat lapis deskripsi pekerjaan"
        },
        "body": {
-        "en": "Careers pages, annual reports, founder letters and published leadership principles carry the competency language that interviews use — because the people who wrote the interview guide read the same pages. The tell is repetition: a company that says “ownership”, “rigour”, “speed” or “service” in three different places will ask a question shaped like each word. Spend one evening the week before the interview collecting them. Where nothing is published, the rubric still leaks: read several of the company's job advertisements and note requirements that repeat across roles — those are de facto values; ask people who have interviewed there, which is exactly what the Metanoia community and mentors exist for; and, failing both, default to the ten universal competencies from 2.2, which underlie every private rubric ever written.",
-        "id": "Halaman karier, laporan tahunan, surat pendiri, dan prinsip kepemimpinan yang dipublikasikan membawa bahasa kompetensi yang dipakai wawancara — karena orang yang menulis panduan wawancara membaca halaman yang sama. Petunjuknya adalah pengulangan: perusahaan yang menyebut “kepemilikan”, “ketelitian”, “kecepatan”, atau “pelayanan” di tiga tempat berbeda akan mengajukan pertanyaan yang berbentuk seperti tiap kata itu. Luangkan satu malam seminggu sebelum wawancara untuk mengumpulkannya. Bila tidak ada yang dipublikasikan, rubriknya tetap bocor: baca beberapa iklan lowongan perusahaan itu dan catat persyaratan yang berulang lintas peran — itulah nilai-nilai de facto; tanyakan pada orang yang pernah wawancara di sana, yang persis untuk itulah komunitas dan mentor Metanoia ada; dan bila keduanya gagal, kembali ke sepuluh kompetensi universal dari 2.2, yang mendasari setiap rubrik privat yang pernah ditulis."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "Translating value-words into probes",
-        "id": "Menerjemahkan kata-nilai menjadi pertanyaan penyelidik"
+        "en": "Read a posting four times, once per layer, and write what each layer produces. <b>Responsibilities</b> describe the actual Tuesday: they become the can-do competencies and the technical questions of the user round. <b>Requirements</b> describe the filter: degree, IPK, age, TOEFL, placement, bond — the eligibility screens of the HR round, which are answered with a fact, not a story (Lesson 1.4). <b>Soft-skill lines</b> (“mampu bekerja dalam tim dan di bawah tekanan”) are the behavioural competencies — each one predicts a “ceritakan saat Anda…” question. <b>Company language</b> — the values, the mission sentence, the words the posting repeats that are not skills (“integritas”, “melayani”, “gesit”) — predicts the fit and values questions of the panel. A candidate who reads only the requirements prepares for the screen and walks into the user round with nothing; a candidate who reads all four walks in with the interviewer’s own scorecard. The Role Decoder tool described in the blueprint highlights the layers automatically; until it is built, four coloured pens do the same job in ten minutes.",
+        "id": "Baca lowongan empat kali, sekali per lapis, dan tulis apa yang dihasilkan tiap lapis. <b>Tanggung jawab</b> menggambarkan hari Selasa yang sebenarnya: menjadi kompetensi bisa dan pertanyaan teknis ronde user. <b>Persyaratan</b> menggambarkan saringan: gelar, IPK, usia, TOEFL, penempatan, ikatan dinas — saringan kelayakan ronde HR, yang dijawab dengan fakta, bukan cerita (Pelajaran 1.4). <b>Baris soft-skill</b> (“mampu bekerja dalam tim dan di bawah tekanan”) adalah kompetensi perilaku — masing-masing memprediksi satu pertanyaan “ceritakan saat Anda…”. <b>Bahasa perusahaan</b> — nilai, kalimat misi, kata yang diulang lowongan yang bukan keterampilan (“integritas”, “melayani”, “gesit”) — memprediksi pertanyaan kecocokan dan nilai dari panel. Kandidat yang hanya membaca persyaratan bersiap untuk seleksi awal dan masuk ronde user tanpa apa-apa; kandidat yang membaca keempatnya masuk dengan lembar penilaian pewawancara sendiri. Alat Role Decoder yang dijelaskan blueprint menyorot lapisnya otomatis; sampai alat itu dibangun, empat pulpen warna mengerjakan hal yang sama dalam sepuluh menit."
        },
-       "body": {
-        "en": "A value-word is not a question yet; the translation makes it one. “Customer obsession” becomes <i>tell me about a time you sacrificed convenience for a user</i>. “Integrity” becomes <i>describe a moment honesty cost you something</i>. “Bias for action” becomes <i>when did you move before you had all the information — and what happened?</i> Run the translation for every listed value, writing the probe in the interviewer's voice, and you have predicted roughly half the interview before it starts. The discipline that makes this honest rather than performative is asking, for each probe, “when did I actually behave this way?” — not “what would sound right?” The answer to the first question is a story; the answer to the second is a bluff, and 5.2 covers how bluffs end.",
-        "id": "Kata-nilai belum menjadi pertanyaan; penerjemahanlah yang membuatnya begitu. “Obsesi pada pelanggan” menjadi <i>ceritakan saat kamu mengorbankan kenyamanan demi pengguna</i>. “Integritas” menjadi <i>gambarkan momen ketika kejujuran merugikanmu</i>. “Kecenderungan bertindak” menjadi <i>kapan kamu bergerak sebelum punya semua informasi — dan apa yang terjadi?</i> Jalankan penerjemahan untuk setiap nilai yang tercantum, tulis pertanyaannya dengan suara pewawancara, dan kamu sudah memprediksi kira-kira separuh wawancara sebelum dimulai. Disiplin yang membuat ini jujur alih-alih pura-pura adalah bertanya, untuk setiap pertanyaan, “kapan saya benar-benar berperilaku seperti ini?” — bukan “apa yang akan terdengar tepat?” Jawaban atas pertanyaan pertama adalah cerita; jawaban atas yang kedua adalah gertakan, dan 5.2 membahas bagaimana gertakan berakhir."
+       "table": {
+        "cols": [
+         {
+          "en": "Layer",
+          "id": "Lapis"
+         },
+         {
+          "en": "Looks like",
+          "id": "Tampak seperti"
+         },
+         {
+          "en": "Produces",
+          "id": "Menghasilkan"
+         },
+         {
+          "en": "Answered with",
+          "id": "Dijawab dengan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Responsibilities</b>",
+           "id": "<b>Tanggung jawab</b>"
+          },
+          {
+           "en": "“Melakukan rekonsiliasi transaksi harian”, “menyusun laporan”",
+           "id": "“Melakukan rekonsiliasi transaksi harian”, “menyusun laporan”"
+          },
+          {
+           "en": "Can-do competencies; technical questions (Module 6)",
+           "id": "Kompetensi bisa; pertanyaan teknis (Modul 6)"
+          },
+          {
+           "en": "A story or a method, with numbers",
+           "id": "Cerita atau metode, dengan angka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Requirements</b>",
+           "id": "<b>Persyaratan</b>"
+          },
+          {
+           "en": "S1, IPK ≥ 3,00, usia maks. 26, TOEFL 500, “bersedia ditempatkan”",
+           "id": "S1, IPK ≥ 3,00, usia maks. 26, TOEFL 500, “bersedia ditempatkan”"
+          },
+          {
+           "en": "Eligibility screens (Module 5)",
+           "id": "Saringan kelayakan (Modul 5)"
+          },
+          {
+           "en": "A truthful fact in one sentence",
+           "id": "Fakta jujur dalam satu kalimat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Soft-skill lines</b>",
+           "id": "<b>Baris soft-skill</b>"
+          },
+          {
+           "en": "“Teliti”, “mampu bekerja di bawah tekanan”, “komunikatif”",
+           "id": "“Teliti”, “mampu bekerja di bawah tekanan”, “komunikatif”"
+          },
+          {
+           "en": "Behavioural competencies — one “ceritakan saat…” each",
+           "id": "Kompetensi perilaku — satu “ceritakan saat…” masing-masing"
+          },
+          {
+           "en": "A Core 10 story (Module 2)",
+           "id": "Cerita Core 10 (Modul 2)"
+          }
+         ],
+         [
+          {
+           "en": "<b>Company language</b>",
+           "id": "<b>Bahasa perusahaan</b>"
+          },
+          {
+           "en": "Values, the mission line, repeated non-skill words",
+           "id": "Nilai, kalimat misi, kata non-keterampilan yang diulang"
+          },
+          {
+           "en": "Fit and values questions (Module 8)",
+           "id": "Pertanyaan kecocokan dan nilai (Modul 8)"
+          },
+          {
+           "en": "A story that uses their word once, in evidence",
+           "id": "Cerita yang memakai kata mereka sekali, dalam bukti"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Four readings of one posting; each layer predicts a question type from Lesson 1.3.",
+         "id": "Empat pembacaan satu lowongan; setiap lapis memprediksi satu tipe pertanyaan dari Pelajaran 1.3."
+        }
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "Mapping your library onto their language",
-        "id": "Memetakan pustakamu ke bahasa mereka"
+        "en": "From verbs to competencies",
+        "id": "Dari kata kerja ke kompetensi"
        },
        "body": {
-        "en": "With the probes written, open your tagged story library from Module 2 and, for each value, pick the one story that evidences it best. Most values map onto stories you already own under a different competency tag — “rigour” is usually a judgment or learning-agility story; “service” is often a conflict or communication one. Where a value has no story, you have found where the interview will hurt: mine for one now using the 2.3 protocol, or prepare the honest partial answer. In the telling, use their word once — naturally, in the place where it is true — and never as flattery; interviewers hear their own principles parroted back weekly and score it as noise. Used once, in evidence, the mapping does its job silently: the note the interviewer writes contains the word they were listening for, attached to a specific you actually did.",
-        "id": "Dengan pertanyaan-pertanyaan itu tertulis, buka pustaka cerita bertandamu dari Modul 2 dan, untuk setiap nilai, pilih satu cerita yang paling kuat membuktikannya. Sebagian besar nilai memetakan ke cerita yang sudah kamu miliki dengan tanda kompetensi berbeda — “ketelitian” biasanya cerita penilaian atau ketangkasan belajar; “pelayanan” sering kali cerita konflik atau komunikasi. Bila sebuah nilai tak punya cerita, kamu telah menemukan bagian yang akan menyakitkan saat wawancara: tambang sekarang dengan protokol 2.3, atau siapkan jawaban parsial yang jujur. Saat bercerita, pakai kata mereka sekali — secara alami, di tempat yang memang benar — dan jangan pernah sebagai sanjungan; pewawancara mendengar prinsip mereka sendiri dibeo setiap minggu dan menilainya sebagai kebisingan. Dipakai sekali, dalam bukti, pemetaan itu bekerja diam-diam: catatan yang ditulis pewawancara memuat kata yang mereka cari, melekat pada hal spesifik yang benar-benar kamu lakukan."
+        "en": "The responsibilities layer is written in verbs, and the verb names the competency. “Menganalisis data penjualan” is analytical thinking; “berkoordinasi dengan tim lintas fungsi” is collaboration and influence without authority; “bersedia ditempatkan di seluruh Indonesia” is not a competency at all but mobility — an eligibility item that belongs in the requirements layer even when it is printed among the responsibilities. The verb also sets the altitude of the answer expected: “mendukung / membantu” (support) is a junior role and the question will be about reliability and learning; “mengelola / bertanggung jawab atas” (own) is autonomy and the question will be about judgement; “mendorong / memimpin / menentukan” (drive, define) is influence and the question will be about persuading people you do not manage. The table below is the working core of the forty-verb mapping the blueprint specifies for the Role Decoder; use it as a lookup while the tool is not yet built.",
+        "id": "Lapis tanggung jawab ditulis dalam kata kerja, dan kata kerjanya menyebut kompetensi. “Menganalisis data penjualan” adalah berpikir analitis; “berkoordinasi dengan tim lintas fungsi” adalah kolaborasi dan pengaruh tanpa wewenang; “bersedia ditempatkan di seluruh Indonesia” sama sekali bukan kompetensi melainkan mobilitas — butir kelayakan yang termasuk lapis persyaratan meski dicetak di antara tanggung jawab. Kata kerja juga menetapkan ketinggian jawaban yang diharapkan: “mendukung / membantu” (support) adalah peran junior dan pertanyaannya soal keandalan dan belajar; “mengelola / bertanggung jawab atas” (own) adalah otonomi dan pertanyaannya soal penilaian; “mendorong / memimpin / menentukan” (drive, define) adalah pengaruh dan pertanyaannya soal meyakinkan orang yang tidak kamu kelola. Tabel di bawah adalah inti kerja dari pemetaan empat puluh kata kerja yang ditentukan blueprint untuk Role Decoder; pakai sebagai rujukan selagi alatnya belum dibangun."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Posting verb (ID / EN)",
+          "id": "Kata kerja lowongan (ID / EN)"
+         },
+         {
+          "en": "Competency",
+          "id": "Kompetensi"
+         },
+         {
+          "en": "Question it predicts",
+          "id": "Pertanyaan yang diprediksi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "menganalisis, mengevaluasi, mengolah data / analyse, assess",
+           "id": "menganalisis, mengevaluasi, mengolah data / analyse, assess"
+          },
+          {
+           "en": "Analytical thinking",
+           "id": "Berpikir analitis"
+          },
+          {
+           "en": "“How would you investigate a drop in…?”",
+           "id": "“Bagaimana Anda menyelidiki penurunan…?”"
+          }
+         ],
+         [
+          {
+           "en": "menyusun laporan, mendokumentasikan / prepare, report",
+           "id": "menyusun laporan, mendokumentasikan / prepare, report"
+          },
+          {
+           "en": "Accuracy and detail",
+           "id": "Ketelitian dan detail"
+          },
+          {
+           "en": "“How do you check your own work?”",
+           "id": "“Bagaimana Anda memeriksa pekerjaan sendiri?”"
+          }
+         ],
+         [
+          {
+           "en": "berkoordinasi, bekerja sama, berkolaborasi / coordinate, liaise",
+           "id": "berkoordinasi, bekerja sama, berkolaborasi / coordinate, liaise"
+          },
+          {
+           "en": "Collaboration; influence without authority",
+           "id": "Kolaborasi; pengaruh tanpa wewenang"
+          },
+          {
+           "en": "“Tell me about a disagreement with another team.”",
+           "id": "“Ceritakan ketidaksepakatan dengan tim lain.”"
+          }
+         ],
+         [
+          {
+           "en": "melayani, menangani keluhan / serve, handle complaints",
+           "id": "melayani, menangani keluhan / serve, handle complaints"
+          },
+          {
+           "en": "Customer / service orientation",
+           "id": "Orientasi pelanggan / layanan"
+          },
+          {
+           "en": "“Describe a frustrated customer you helped.”",
+           "id": "“Ceritakan pelanggan frustrasi yang Anda bantu.”"
+          }
+         ],
+         [
+          {
+           "en": "mengelola, bertanggung jawab atas / own, manage",
+           "id": "mengelola, bertanggung jawab atas / own, manage"
+          },
+          {
+           "en": "Ownership and judgement",
+           "id": "Kepemilikan dan penilaian"
+          },
+          {
+           "en": "“A decision you made with half the information.”",
+           "id": "“Keputusan yang Anda ambil dengan separuh informasi.”"
+          }
+         ],
+         [
+          {
+           "en": "memantau, memastikan kepatuhan / monitor, ensure compliance",
+           "id": "memantau, memastikan kepatuhan / monitor, ensure compliance"
+          },
+          {
+           "en": "Diligence; integrity",
+           "id": "Kehati-hatian; integritas"
+          },
+          {
+           "en": "“A time you caught an error” · “a rule you were pressured to bend”",
+           "id": "“Saat Anda menangkap kesalahan” · “aturan yang Anda ditekan untuk dilanggar”"
+          }
+         ],
+         [
+          {
+           "en": "mengembangkan, memperbaiki, mengoptimalkan / improve, optimise",
+           "id": "mengembangkan, memperbaiki, mengoptimalkan / improve, optimise"
+          },
+          {
+           "en": "Initiative and improvement",
+           "id": "Inisiatif dan perbaikan"
+          },
+          {
+           "en": "“Something you improved, even slightly.”",
+           "id": "“Sesuatu yang Anda perbaiki, sekecil apa pun.”"
+          }
+         ],
+         [
+          {
+           "en": "memimpin, mendorong, menentukan / lead, drive, define",
+           "id": "memimpin, mendorong, menentukan / lead, drive, define"
+          },
+          {
+           "en": "Leadership and influence (senior altitude)",
+           "id": "Kepemimpinan dan pengaruh (ketinggian senior)"
+          },
+          {
+           "en": "“Persuading someone more senior.”",
+           "id": "“Meyakinkan orang yang lebih senior.”"
+          }
+         ],
+         [
+          {
+           "en": "mempelajari, beradaptasi, rotasi / learn, adapt, rotate",
+           "id": "mempelajari, beradaptasi, rotasi / learn, adapt, rotate"
+          },
+          {
+           "en": "Learning fast; adaptability",
+           "id": "Belajar cepat; adaptabilitas"
+          },
+          {
+           "en": "“A new tool or system learned in under a week.”",
+           "id": "“Alat atau sistem baru yang dipelajari kurang dari seminggu.”"
+          }
+         ],
+         [
+          {
+           "en": "bersedia ditempatkan, bersedia ikatan dinas, bersedia sif / willing to relocate, bond, shifts",
+           "id": "bersedia ditempatkan, bersedia ikatan dinas, bersedia sif / willing to relocate, bond, shifts"
+          },
+          {
+           "en": "<i>Not a competency</i> — eligibility (mobility, commitment)",
+           "id": "<i>Bukan kompetensi</i> — kelayakan (mobilitas, komitmen)"
+          },
+          {
+           "en": "“Are you willing to be placed anywhere for two years?”",
+           "id": "“Apakah Anda bersedia ditempatkan di mana saja selama dua tahun?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Ten verb families from the blueprint’s forty-verb mapping. Altitude: support (junior) · own (mid) · drive, define (senior).",
+         "id": "Sepuluh keluarga kata kerja dari pemetaan empat puluh kata kerja blueprint. Ketinggian: mendukung (junior) · memiliki (menengah) · mendorong, menentukan (senior)."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Weighting — which four to six carry the interview",
+        "id": "Pembobotan — empat hingga enam mana yang memikul wawancara"
+       },
+       "body": {
+        "en": "A posting lists fifteen things; an interview scores four to six. Three cues tell you which. <b>Position:</b> the first three responsibility bullets are the daily job and are weighted highest; the last three are often copied from a template. <b>Repetition:</b> a word that appears in the responsibilities, again in the requirements and again in the company paragraph is an obsession — “teliti” three times in a bank ODP posting means accuracy is the scorecard’s largest weight. <b>Marking:</b> “wajib”, “harus”, “diutamakan” and anything in bold are stated weights; “nice to have”, “menjadi nilai tambah”, “lebih disukai” decide ties. Write the scorecard as percentages that sum to 100 — not because the bank uses percentages, but because forcing yourself to weight is what turns a list into a prediction. The blueprint’s own worked example for an operations role: analytical thinking 30 · stakeholder coordination 25 · detail and accuracy 20 · mobility (eligibility, pass/fail) · values: integrity. That is a scorecard; “they want someone hardworking” is not.",
+        "id": "Lowongan mendaftar lima belas hal; wawancara menilai empat hingga enam. Tiga petunjuk memberi tahu yang mana. <b>Posisi:</b> tiga butir tanggung jawab pertama adalah pekerjaan harian dan berbobot tertinggi; tiga terakhir sering disalin dari templat. <b>Pengulangan:</b> kata yang muncul di tanggung jawab, lagi di persyaratan, dan lagi di paragraf perusahaan adalah obsesi — “teliti” tiga kali di lowongan ODP bank berarti ketelitian adalah bobot terbesar lembar penilaian. <b>Penandaan:</b> “wajib”, “harus”, “diutamakan”, dan apa pun yang dicetak tebal adalah bobot yang dinyatakan; “nice to have”, “menjadi nilai tambah”, “lebih disukai” memutuskan seri. Tulis lembar penilaian sebagai persentase yang berjumlah 100 — bukan karena bank memakai persentase, melainkan karena memaksa diri membobot adalah yang mengubah daftar menjadi prediksi. Contoh kerja blueprint sendiri untuk peran operasi: berpikir analitis 30 · koordinasi pemangku kepentingan 25 · detail dan ketelitian 20 · mobilitas (kelayakan, lulus/gagal) · nilai: integritas. Itu lembar penilaian; “mereka mau orang yang pekerja keras” bukan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Position</b> — first three responsibility bullets = the daily job; treat them as the top three until repetition says otherwise.",
+         "id": "<b>Posisi</b> — tiga butir tanggung jawab pertama = pekerjaan harian; perlakukan sebagai tiga teratas sampai pengulangan berkata lain."
+        },
+        {
+         "en": "<b>Repetition</b> — count each competency word across all four layers; three appearances make a core theme.",
+         "id": "<b>Pengulangan</b> — hitung tiap kata kompetensi lintas empat lapis; tiga kemunculan membentuk tema inti."
+        },
+        {
+         "en": "<b>Marking</b> — “wajib / harus / diutamakan” and bold = stated weight; “nilai tambah / lebih disukai” = tie-breaker.",
+         "id": "<b>Penandaan</b> — “wajib / harus / diutamakan” dan tebal = bobot dinyatakan; “nilai tambah / lebih disukai” = pemutus seri."
+        },
+        {
+         "en": "<b>Output</b> — four to six competencies with percentages summing to 100, plus the eligibility items as pass/fail and the values as a separate line.",
+         "id": "<b>Keluaran</b> — empat hingga enam kompetensi dengan persentase berjumlah 100, plus butir kelayakan sebagai lulus/gagal dan nilai sebagai baris terpisah."
+        }
+       ]
+      },
+      {
+       "icon": "shield",
+       "h": {
+        "en": "The company-language layer — values into probes",
+        "id": "Lapis bahasa perusahaan — nilai menjadi galian"
+       },
+       "body": {
+        "en": "Careers pages, annual reports, founder letters and published principles carry the language the interview guide uses, because the people who wrote the guide read the same pages. A value-word is not a question yet; the translation makes it one. “Customer obsession” becomes <i>tell me about a time you sacrificed convenience for a user</i>; “integritas” becomes <i>describe a moment honesty cost you something</i>; “gesit” or “bias for action” becomes <i>when did you move before you had all the information, and what happened?</i> Run the translation for every listed value, writing the probe in the interviewer’s voice, and you have predicted roughly a third of the panel round before it starts. Then map: for each value, the one Core 10 story that evidences it best — most values map onto stories you already own under a different slot (“rigour” is usually a diligence or learning story; “service” is often the customer story). Use their word once in the telling, in the place where it is true, and never as flattery: interviewers hear their own principles parroted back weekly and score it as noise. Where nothing is published, the rubric still leaks — read several of the company’s postings and note the requirements that repeat across roles; those are de facto values.",
+        "id": "Halaman karier, laporan tahunan, surat pendiri, dan prinsip yang diterbitkan membawa bahasa yang dipakai panduan wawancara, karena orang yang menulis panduan membaca halaman yang sama. Kata nilai belum menjadi pertanyaan; terjemahannya yang menjadikannya pertanyaan. “Customer obsession” menjadi <i>ceritakan saat Anda mengorbankan kenyamanan demi pengguna</i>; “integritas” menjadi <i>gambarkan momen ketika kejujuran merugikan Anda</i>; “gesit” atau “bias for action” menjadi <i>kapan Anda bergerak sebelum punya semua informasi, dan apa yang terjadi?</i> Jalankan terjemahan untuk setiap nilai yang tercantum, tulis galiannya dalam suara pewawancara, dan kamu sudah memprediksi kira-kira sepertiga ronde panel sebelum dimulai. Lalu petakan: untuk tiap nilai, satu cerita Core 10 yang paling membuktikannya — kebanyakan nilai memetakan ke cerita yang sudah kamu punya di slot berbeda (“rigour” biasanya cerita kehati-hatian atau belajar; “service” sering cerita pelanggan). Pakai kata mereka sekali dalam penceritaan, di tempat yang memang benar, dan tidak pernah sebagai sanjungan: pewawancara mendengar prinsip mereka sendiri dibeo setiap minggu dan menilainya sebagai bising. Jika tidak ada yang diterbitkan, rubriknya tetap bocor — baca beberapa lowongan perusahaan itu dan catat persyaratan yang berulang lintas peran; itulah nilai de facto."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Value as printed",
+          "id": "Nilai sebagaimana dicetak"
+         },
+         {
+          "en": "Probe in the interviewer’s voice",
+          "id": "Galian dalam suara pewawancara"
+         },
+         {
+          "en": "Nadia’s story",
+          "id": "Cerita Nadia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Integritas",
+           "id": "Integritas"
+          },
+          {
+           "en": "“Ceritakan saat kejujuran merugikan Anda.”",
+           "id": "“Ceritakan saat kejujuran merugikan Anda.”"
+          },
+          {
+           "en": "The till overage (2.5, #17)",
+           "id": "Kas lebih (2.5, #17)"
+          }
+         ],
+         [
+          {
+           "en": "Pelayanan",
+           "id": "Pelayanan"
+          },
+          {
+           "en": "“Ceritakan pelanggan yang kecewa dan apa yang Anda lakukan.”",
+           "id": "“Ceritakan pelanggan yang kecewa dan apa yang Anda lakukan.”"
+          },
+          {
+           "en": "The regular with the wrong order (#20)",
+           "id": "Pelanggan tetap yang salah pesanan (#20)"
+          }
+         ],
+         [
+          {
+           "en": "Kolaborasi",
+           "id": "Kolaborasi"
+          },
+          {
+           "en": "“Ceritakan rekan yang tertinggal dan bagaimana Anda membantunya.”",
+           "id": "“Ceritakan rekan yang tertinggal dan bagaimana Anda membantunya.”"
+          },
+          {
+           "en": "The sponsorship teammate she called (#14)",
+           "id": "Rekan sponsorship yang ia telepon (#14)"
+          }
+         ],
+         [
+          {
+           "en": "Kehati-hatian",
+           "id": "Kehati-hatian"
+          },
+          {
+           "en": "“Ceritakan kesalahan yang Anda tangkap sebelum orang lain.”",
+           "id": "“Ceritakan kesalahan yang Anda tangkap sebelum orang lain.”"
+          },
+          {
+           "en": "The terminal mismatch (#1)",
+           "id": "Selisih terminal (#1)"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Bank Sinar Nusantara’s four values (fictional) translated into probes and mapped to Core 10 stories.",
+         "id": "Empat nilai Bank Sinar Nusantara (fiktif) diterjemahkan menjadi galian dan dipetakan ke cerita Core 10."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The Pack link — and the evidence table",
+        "id": "Tautan The Pack — dan tabel bukti"
+       },
+       "body": {
+        "en": "You have decoded this posting once already: Pack Module 3 produced a keyword table for the CV. Reuse it as the first pass — the keywords are the same, the purpose changes. The Pack asked “which of these words belong on my CV?”; The Rope asks “which question does each word predict, and which story answers it?”. The evidence table finishes the reading. Three columns: requirement, my evidence, the number in it. Fill it for the top five requirements. Where a cell is empty, decide honestly whether there is a story you have not mined (go back to Lesson 2.1) or a real gap you should acknowledge with a plan; interviewers respect a named gap with a ramp-up far more than a bluffed strength, and Lesson 3.3 turns the empty cells into the difficult-case answers you prepare in advance.",
+        "id": "Kamu sudah membedah lowongan ini sekali: Modul 3 The Pack menghasilkan tabel kata kunci untuk CV. Pakai ulang sebagai lintasan pertama — kata kuncinya sama, tujuannya berubah. The Pack bertanya “kata mana yang layak di CV saya?”; The Rope bertanya “pertanyaan apa yang diprediksi tiap kata, dan cerita mana yang menjawabnya?”. Tabel bukti menyelesaikan pembacaan. Tiga kolom: persyaratan, bukti saya, angka di dalamnya. Isi untuk lima persyaratan teratas. Jika ada sel kosong, putuskan dengan jujur apakah ada cerita yang belum kamu gali (kembali ke Pelajaran 2.1) atau celah nyata yang harus kamu akui dengan rencana; pewawancara menghargai celah yang disebut beserta rencana pemulihan jauh lebih daripada kekuatan yang digertak, dan Pelajaran 3.3 mengubah sel kosong menjadi jawaban kasus sulit yang kamu siapkan lebih dulu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Requirement (top five)",
+          "id": "Persyaratan (lima teratas)"
+         },
+         {
+          "en": "My evidence",
+          "id": "Bukti saya"
+         },
+         {
+          "en": "The number in it",
+          "id": "Angka di dalamnya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Reconciliation and reporting",
+           "id": "Rekonsiliasi dan pelaporan"
+          },
+          {
+           "en": "Bank Sinar internship — daily reports, three branches; the terminal fix",
+           "id": "Magang Bank Sinar — laporan harian, tiga cabang; perbaikan terminal"
+          },
+          {
+           "en": "~30 min/day of correction removed",
+           "id": "~30 mnt/hari koreksi dihilangkan"
+          }
+         ],
+         [
+          {
+           "en": "Cash management (Kehati-hatian)",
+           "id": "Pengelolaan kas (Kehati-hatian)"
+          },
+          {
+           "en": "HIMA monthly close; the till overage",
+           "id": "Tutup buku bulanan HIMA; kas lebih"
+          },
+          {
+           "en": "Rp 120 juta; zero audit issues; Rp 150.000",
+           "id": "Rp 120 juta; nol temuan audit; Rp 150.000"
+          }
+         ],
+         [
+          {
+           "en": "Customer service and complaints",
+           "id": "Layanan nasabah dan keluhan"
+          },
+          {
+           "en": "Kopi Tepian — the regular, the pre-order board",
+           "id": "Kopi Tepian — pelanggan tetap, papan pra-pesan"
+          },
+          {
+           "en": "120–150 customers a shift",
+           "id": "120–150 pelanggan per sif"
+          }
+         ],
+         [
+          {
+           "en": "Coordination with Teller / CS / back-office",
+           "id": "Koordinasi dengan Teller / CS / back-office"
+          },
+          {
+           "en": "Sponsorship team of six; HIMA division heads",
+           "id": "Tim sponsorship enam orang; kepala divisi HIMA"
+          },
+          {
+           "en": "11 sponsors; 12 events",
+           "id": "11 sponsor; 12 acara"
+          }
+         ],
+         [
+          {
+           "en": "Willing to be placed anywhere (eligibility)",
+           "id": "Bersedia ditempatkan di mana saja (kelayakan)"
+          },
+          {
+           "en": "<i>Gap</i> — undecided; a truthful sentence needed, not a story",
+           "id": "<i>Celah</i> — belum diputuskan; butuh kalimat jujur, bukan cerita"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Nadia’s evidence table for the Bank Sinar ODP posting. The empty cell is the difficult-case answer to prepare (Lesson 5.3).",
+         "id": "Tabel bukti Nadia untuk lowongan ODP Bank Sinar. Sel kosong adalah jawaban kasus sulit yang harus disiapkan (Pelajaran 5.3)."
+        }
        }
       }
      ],
      "diagram": {
       "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: From a published value to a rehearsed story — the translation runs in three moves.",
-       "id": "Peraga 1: Dari nilai yang dipublikasikan ke cerita yang dilatih — penerjemahan berjalan dalam tiga langkah."
+       "en": "Exhibit 1: From posting to scorecard",
+       "id": "Peraga 1: Dari lowongan ke lembar penilaian"
       },
       "title": {
-       "en": "Value-word → Behaviour → Probe → Your story",
-       "id": "Kata-nilai → Perilaku → Pertanyaan → Ceritamu"
+       "en": "Four readings, one weighted scorecard",
+       "id": "Empat pembacaan, satu lembar penilaian berbobot"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Value-word",
-         "id": "Kata-nilai"
+         "en": "Layer",
+         "id": "Lapisi"
         },
         "sub": {
-         "en": "“Customer obsession” — repeated across careers page, report, principles",
-         "id": "“Obsesi pada pelanggan” — berulang di halaman karier, laporan, prinsip"
+         "en": "Mark responsibilities, requirements, soft-skill lines and company language in four colours.",
+         "id": "Tandai tanggung jawab, persyaratan, baris soft-skill, dan bahasa perusahaan dalam empat warna."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Behaviour",
-         "id": "Perilaku"
+         "en": "Translate",
+         "id": "Terjemahkan"
         },
         "sub": {
-         "en": "Sacrificing convenience for a user",
-         "id": "Mengorbankan kenyamanan demi pengguna"
+         "en": "Verbs → competencies; requirements → eligibility facts; values → probes.",
+         "id": "Kata kerja → kompetensi; persyaratan → fakta kelayakan; nilai → galian."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Probe",
-         "id": "Pertanyaan"
+         "en": "Weight",
+         "id": "Bobot"
         },
         "sub": {
-         "en": "“Tell me about a time you…” — written in the interviewer's voice",
-         "id": "“Ceritakan saat kamu…” — ditulis dengan suara pewawancara"
+         "en": "Position, repetition, “wajib”. Four to six competencies summing to 100.",
+         "id": "Posisi, pengulangan, “wajib”. Empat hingga enam kompetensi berjumlah 100."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Your story",
-         "id": "Ceritamu"
+         "en": "Evidence",
+         "id": "Bukti"
         },
         "sub": {
-         "en": "The one tagged story that evidences it — their word used once",
-         "id": "Satu cerita bertanda yang membuktikannya — kata mereka dipakai sekali"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-step flow: a value-word found repeated in public material is translated into the behaviour it describes, then into the probe an interviewer would ask, and finally matched to the one tagged story in your library that evidences it, told with their word used once.",
-       "id": "Alur empat langkah: kata-nilai yang ditemukan berulang di materi publik diterjemahkan menjadi perilaku yang digambarkannya, lalu menjadi pertanyaan yang akan diajukan pewawancara, dan akhirnya dicocokkan dengan satu cerita bertanda di pustakamu yang membuktikannya, diceritakan dengan kata mereka dipakai sekali."
-      }
-     },
-     "tryit": {
-      "qid": "hr03",
-      "label": {
-       "en": "Use their language on “why us”",
-       "id": "Pakai bahasa mereka untuk menjawab “mengapa kami”"
-      },
-      "desc": {
-       "en": "Answer “why this company” naming one true, specific thing — the simulator checks for research signals.",
-       "id": "Jawab “mengapa perusahaan ini” dengan menyebut satu hal yang benar dan spesifik — simulator akan memeriksa tanda-tanda bahwa kamu sudah riset."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "competency",
-        "id": "kompetensi"
-       },
-       "def": {
-        "en": "A capability a role requires — leadership, prioritisation, judgment — that interviews probe with behavioral evidence.",
-        "id": "Kemampuan yang dituntut sebuah posisi — kepemimpinan, menentukan prioritas, pertimbangan — yang digali wawancara lewat bukti perilaku."
-       }
-      },
-      {
-       "term": {
-        "en": "rubric",
-        "id": "rubrik"
-       },
-       "def": {
-        "en": "The written standard an answer is scored against — criteria plus what each level of quality looks like.",
-        "id": "Standar tertulis yang dipakai untuk menilai sebuah jawaban — kriterianya, plus seperti apa wujud setiap tingkat kualitas."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "A company lists “bias for action” among its principles. Your preparation move:",
-        "id": "Sebuah perusahaan mencantumkan “bias for action” di antara prinsip-prinsipnya. Langkah persiapanmu:"
-       },
-       "options": [
-        {
-         "en": "Ready a story where you moved before certainty and it was the right call",
-         "id": "Siapkan cerita ketika kamu bergerak sebelum ada kepastian, dan itu ternyata keputusan yang tepat"
-        },
-        {
-         "en": "Memorise the principle's exact wording to recite in the interview",
-         "id": "Hafalkan kata-kata persis prinsip itu untuk dibacakan saat wawancara"
-        },
-        {
-         "en": "Assume it is marketing language with no interview relevance",
-         "id": "Anggap itu bahasa pemasaran yang tidak ada hubungannya dengan wawancara"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — the principle predicts the probe. Evidence beats recitation.",
-        "id": "Benar — prinsip itu meramalkan pertanyaannya. Bukti mengalahkan hafalan."
-       }
-      }
-     ],
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Quoting the values page back at them",
-         "id": "Mengutip halaman nilai kembali ke mereka"
-        },
-        "fix": {
-         "en": "Reciting “customer obsession” is flattery. Tell a story that demonstrates it and let them name the value.",
-         "id": "Mengucapkan “obsesi pelanggan” adalah sanjungan. Ceritakan kisah yang menunjukkannya dan biarkan mereka menyebut nilainya."
-        }
-       },
-       {
-        "h": {
-         "en": "Assuming all companies use the same words",
-         "id": "Menganggap semua perusahaan memakai kata yang sama"
-        },
-        "fix": {
-         "en": "“Ownership” at one firm means finishing; at another it means challenging the plan. Read their examples, not just their headings.",
-         "id": "“Kepemilikan” di satu perusahaan berarti menyelesaikan; di yang lain berarti menantang rencana. Baca contoh mereka, bukan hanya judulnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Stopping at the careers page",
-         "id": "Berhenti di halaman karier"
-        },
-        "fix": {
-         "en": "Annual reports, leadership talks and employee posts show which values are actually rewarded this year.",
-         "id": "Laporan tahunan, ceramah pimpinan, dan unggahan karyawan menunjukkan nilai mana yang benar-benar dihargai tahun ini."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:3.2"
-    },
-    {
-     "n": "3.2",
-     "title": {
-      "en": "Decoding Job Descriptions into Competency Maps",
-      "id": "Mengurai Deskripsi Lowongan menjadi Peta Kompetensi"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "A job description is a leaked exam paper. Its repeated words, its first three bullets, its 'musts' versus 'nices' — all encode what the interview will probe. This lesson teaches the decoding method and the evidence table that turns any JD into your preparation plan.",
-      "id": "Deskripsi lowongan adalah bocoran soal ujian. Kata-kata yang berulang, tiga butir pertamanya, syarat “wajib” versus “nilai tambah” — semuanya menyimpan kode tentang apa yang akan digali wawancara. Pelajaran ini mengajarkan metode menguraikannya, dan tabel bukti yang mengubah deskripsi lowongan apa pun menjadi rencana persiapanmu."
-     },
-     "objectives": [
-      {
-       "en": "Extract the three requirements a JD actually cares about.",
-       "id": "Mengambil tiga persyaratan yang benar-benar dipentingkan sebuah deskripsi lowongan."
-      },
-      {
-       "en": "Predict interview questions from requirement lines.",
-       "id": "Meramalkan pertanyaan wawancara dari baris-baris persyaratan."
-      },
-      {
-       "en": "Build a requirement → evidence table before any interview.",
-       "id": "Menyusun tabel persyaratan → bukti sebelum wawancara mana pun."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A job description is a leaked exam paper. To decode it into your preparation checklist, you can:",
-      "id": "Deskripsi pekerjaan adalah lembar ujian yang bocor. Untuk menguraikannya menjadi daftar periksa persiapanmu, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Repetition is emphasis: any word appearing three times in a JD will appear in the interview.",
-       "id": "Pengulangan adalah penekanan: kata apa pun yang muncul tiga kali di deskripsi lowongan akan muncul di wawancara."
-      },
-      {
-       "en": "The first three bullets are the job; the rest is the wishlist.",
-       "id": "Tiga butir pertama adalah pekerjaannya; sisanya daftar keinginan."
-      },
-      {
-       "en": "A completed evidence table converts interview anxiety into a checklist.",
-       "id": "Tabel bukti yang sudah terisi mengubah kecemasan menghadapi wawancara menjadi daftar periksa."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "Anatomy of a JD",
-        "id": "Anatomi sebuah deskripsi lowongan"
-       },
-       "body": {
-        "en": "Title and level set the altitude of expected answers. The opening paragraph names the team's mission — echo it in your “why this role”. Responsibilities describe the actual Tuesday; requirements describe the filter. Watch the verbs: “own” signals autonomy tests, “support” signals collaboration tests, “drive” signals influence-without-authority tests.",
-        "id": "Judul dan level menentukan ketinggian jawaban yang diharapkan. Paragraf pembuka menyebutkan misi tim — gaungkan itu dalam jawaban “mengapa posisi ini”-mu. Bagian tanggung jawab menggambarkan hari Selasa yang sebenarnya; bagian persyaratan menggambarkan saringannya. Perhatikan kata kerjanya: “memiliki” menandakan uji kemandirian, “mendukung” menandakan uji kolaborasi, “mendorong” menandakan uji kemampuan memengaruhi tanpa wewenang."
-       }
-      },
-      {
-       "h": {
-        "en": "The decoding method",
-        "id": "Metode menguraikannya"
-       },
-       "body": {
-        "en": "Pass one: highlight every skill or behaviour word. Pass two: count repetitions — three appearances make a core theme. Pass three: separate musts from nices, and note which musts you can evidence strongly, weakly, or not at all. The weak cells are your preparation priorities and your likely difficult questions.",
-        "id": "Putaran pertama: tandai setiap kata yang menyebut keterampilan atau perilaku. Putaran kedua: hitung pengulangannya — muncul tiga kali berarti tema inti. Putaran ketiga: pisahkan yang wajib dari yang nilai tambah, dan catat syarat wajib mana yang bisa kamu buktikan dengan kuat, lemah, atau sama sekali belum bisa. Sel-sel yang lemah adalah prioritas persiapanmu, sekaligus calon pertanyaan sulitmu."
-       }
-      },
-      {
-       "h": {
-        "en": "The evidence table",
-        "id": "Tabel bukti"
-       },
-       "body": {
-        "en": "Three columns: requirement, my evidence, the number in it. Fill it for the top five requirements. Where a cell is empty, decide honestly: is there a story you have not mined, or is this a real gap you should acknowledge with a ramp-up plan? Interviewers respect a named gap with a plan far more than a bluffed strength.",
-        "id": "Tiga kolom: persyaratan, bukti saya, angka di dalamnya. Isi untuk lima persyaratan teratas. Kalau ada sel yang kosong, putuskan dengan jujur: adakah cerita yang belum kamu tambang, atau ini celah nyata yang sebaiknya kamu akui disertai rencana untuk mengejarnya? Pewawancara jauh lebih menghargai celah yang diakui beserta rencananya daripada kekuatan yang digertakkan."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "title": {
-       "en": "The JD decode, in four passes",
-       "id": "Mengurai deskripsi lowongan, dalam empat putaran"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Highlight",
-         "id": "Tandai"
-        },
-        "sub": {
-         "en": "Every skill and behaviour word",
-         "id": "Setiap kata keterampilan dan perilaku"
-        }
-       },
-       {
-        "h": {
-         "en": "Count",
-         "id": "Hitung"
-        },
-        "sub": {
-         "en": "Three appearances = a core theme",
-         "id": "Muncul tiga kali = tema inti"
-        }
-       },
-       {
-        "h": {
-         "en": "Split",
-         "id": "Pisahkan"
-        },
-        "sub": {
-         "en": "Musts vs nice-to-haves",
-         "id": "Wajib vs nilai tambah"
-        }
-       },
-       {
-        "h": {
-         "en": "Table",
-         "id": "Tabel"
-        },
-        "sub": {
-         "en": "Requirement → my evidence → the number in it",
-         "id": "Persyaratan → bukti saya → angka di dalamnya"
+         "en": "Top five requirements → my evidence → the number. Empty cells become prepared difficult-case answers.",
+         "id": "Lima persyaratan teratas → bukti saya → angka. Sel kosong menjadi jawaban kasus sulit yang disiapkan."
         }
        }
       ],
       "note": {
-       "en": "The weak cells of the table are your preparation priorities — and your likely difficult questions.",
-       "id": "Sel-sel yang lemah di tabel itu adalah prioritas persiapanmu — sekaligus calon pertanyaan sulitmu."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: The JD decode, in four passes",
-       "id": "Peraga 1: Mengurai deskripsi lowongan, dalam empat putaran"
+       "en": "The scorecard is a prediction; Lesson 3.3 tests it against the questions you predict.",
+       "id": "Lembar penilaian adalah prediksi; Pelajaran 3.3 mengujinya terhadap pertanyaan yang kamu prediksi."
       },
       "longdesc": {
-       "en": "Diagram of The JD decode, in four passes. It presents, in order: Highlight — Every skill and behaviour word; Count — Three appearances = a core theme; Split — Musts vs nice-to-haves; Table — Requirement → my evidence → the number in it.",
-       "id": "Diagram mengurai deskripsi lowongan dalam empat putaran. Menyajikan, secara berurutan: Tandai — setiap kata keterampilan dan perilaku; Hitung — muncul tiga kali = tema inti; Pisahkan — wajib vs nilai tambah; Tabel — persyaratan → bukti saya → angka di dalamnya."
+       "en": "Four stages: layer the posting into responsibilities, requirements, soft-skill lines and company language; translate verbs into competencies, requirements into eligibility facts and values into probes; weight by position, repetition and marking into four to six competencies summing to 100; fill an evidence table for the top five requirements, where empty cells become prepared difficult-case answers.",
+       "id": "Empat tahap: lapisi lowongan menjadi tanggung jawab, persyaratan, baris soft-skill, dan bahasa perusahaan; terjemahkan kata kerja menjadi kompetensi, persyaratan menjadi fakta kelayakan, dan nilai menjadi galian; bobot berdasarkan posisi, pengulangan, dan penandaan menjadi empat hingga enam kompetensi berjumlah 100; isi tabel bukti untuk lima persyaratan teratas, di mana sel kosong menjadi jawaban kasus sulit yang disiapkan."
       }
      },
-     "tryit": {
-      "qid": "hr04",
-      "label": {
-       "en": "Answer “why this role” from the decode",
-       "id": "Jawab “mengapa posisi ini” dari hasil uraianmu"
-      },
-      "desc": {
-       "en": "Quote the JD back in your own words and map two demands to two proofs.",
-       "id": "Ulangi isi deskripsi lowongan dengan bahasamu sendiri, dan pasangkan dua tuntutannya dengan dua bukti milikmu."
-      }
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Preparing for every listed requirement equally",
-         "id": "Menyiapkan semua persyaratan dengan bobot yang sama"
-        },
-        "fix": {
-         "en": "Weight by repetition and position: three mentions or first-three-bullets = the interview's core.",
-         "id": "Beri bobot berdasarkan pengulangan dan posisi: disebut tiga kali, atau ada di tiga butir pertama = inti wawancaranya."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring the JD's own vocabulary",
-         "id": "Mengabaikan kosakata deskripsi lowongan itu sendiri"
-        },
-        "fix": {
-         "en": "Echo their words once, naturally — the interviewer wrote that JD and hears the match.",
-         "id": "Gaungkan kata-kata mereka satu kali, secara alami — pewawancara itulah yang menulis deskripsi lowongannya, dan ia mendengar kecocokannya."
-        }
-       }
-      ]
-     },
-     "checks": [
+     "compare": [
       {
+       "tag": {
+        "en": "Naive reading → decoded scorecard",
+        "id": "Pembacaan naif → lembar penilaian terurai"
+       },
        "q": {
-        "en": "A JD lists “stakeholder management” in its first bullet and twice more below. You should:",
-        "id": "Sebuah deskripsi lowongan mencantumkan “stakeholder management” di butir pertama, dan dua kali lagi di bawahnya. Kamu sebaiknya:"
+        "en": "The same Bank Sinar Nusantara ODP posting, read by two candidates the night before the user interview. “What are they looking for?”",
+        "id": "Lowongan ODP Bank Sinar Nusantara yang sama, dibaca dua kandidat malam sebelum wawancara user. “Apa yang mereka cari?”"
        },
-       "options": [
-        {
-         "en": "Plan to ask the interviewer what they mean by it",
-         "id": "Berencana menanyakan maksudnya kepada pewawancara"
-        },
-        {
-         "en": "Prepare your strongest stakeholder story with a measurable outcome",
-         "id": "Menyiapkan cerita terkuatmu tentang pemangku kepentingan, dengan hasil yang terukur"
-        },
-        {
-         "en": "Ignore it — it appears in every JD",
-         "id": "Mengabaikannya — itu muncul di semua deskripsi lowongan"
-        }
-       ],
-       "correct": 1,
+       "weak": {
+        "en": "“Mereka cari orang yang pekerja keras, teliti, bisa kerja tim, dan mau ditempatkan di mana saja. Jadi saya harus kelihatan rajin dan fleksibel.”",
+        "id": "“Mereka cari orang yang pekerja keras, teliti, bisa kerja tim, dan mau ditempatkan di mana saja. Jadi saya harus kelihatan rajin dan fleksibel.”"
+       },
+       "strong": {
+        "en": "“Scorecard: detail and accuracy 30 — ‘teliti’ appears three times and reconciliation is the first bullet; customer service 25 — second bullet plus the Pelayanan value; coordination with Teller, CS and back-office 20 — third bullet; analytical thinking 15 — ‘laporan’ and compliance checks; learning through rotation 10. Eligibility, pass/fail: placement anywhere, two-year bond, IPK ≥ 3,00, TOEFL 500. Values line: Integritas and Kehati-hatian — expect the honesty-cost and caught-an-error probes. Evidence: internship for accuracy, café for service, sponsorship for coordination; the gap is placement — I need a true sentence, not a story.”",
+        "id": "“Lembar penilaian: detail dan ketelitian 30 — ‘teliti’ muncul tiga kali dan rekonsiliasi butir pertama; layanan nasabah 25 — butir kedua plus nilai Pelayanan; koordinasi dengan Teller, CS, dan back-office 20 — butir ketiga; berpikir analitis 15 — ‘laporan’ dan pemeriksaan kepatuhan; belajar lewat rotasi 10. Kelayakan, lulus/gagal: penempatan di mana saja, ikatan dinas dua tahun, IPK ≥ 3,00, TOEFL 500. Baris nilai: Integritas dan Kehati-hatian — perkirakan galian kejujuran-yang-merugikan dan menangkap-kesalahan. Bukti: magang untuk ketelitian, kafe untuk layanan, sponsorship untuk koordinasi; celahnya penempatan — saya butuh kalimat jujur, bukan cerita.”"
+       },
        "why": {
-        "en": "Correct — first position plus repetition marks the core competency. It will be probed; arrive with evidence.",
-        "id": "Benar — posisi pertama plus pengulangan menandai kompetensi inti. Itu pasti digali; datanglah dengan bukti."
+        "en": "The naive reading produces adjectives and a plan to “look” a certain way — nothing to prepare. The decoded reading produces weights (so she knows where the ninety seconds go), question types (so she knows which module answers each), a pass/fail list (so the screen holds no surprises), and one named gap (so the hardest question is prepared, not improvised). Same posting; one candidate walks in with the interviewer’s scorecard.",
+        "id": "Pembacaan naif menghasilkan kata sifat dan rencana untuk “tampak” tertentu — tidak ada yang bisa disiapkan. Pembacaan terurai menghasilkan bobot (agar ia tahu ke mana sembilan puluh detik pergi), tipe pertanyaan (agar ia tahu modul mana yang menjawab), daftar lulus/gagal (agar seleksi awal tanpa kejutan), dan satu celah yang disebut (agar pertanyaan tersulit disiapkan, bukan diimprovisasi). Lowongan yang sama; satu kandidat masuk dengan lembar penilaian pewawancara."
        }
       }
      ],
-     "glossary": [
-      {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the word that appeared three times",
+       "id": "Sorotan: kata yang muncul tiga kali"
       },
-      {
-       "term": {
-        "en": "influence",
-        "id": "pengaruh"
-       },
-       "def": {
-        "en": "Moving people and decisions without formal authority — evidence of leadership before the title arrives.",
-        "id": "Menggerakkan orang dan keputusan tanpa wewenang formal — bukti kepemimpinan sebelum jabatannya datang."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
+      "body": [
        {
-        "kind": "worksheet",
-        "title": {
-         "en": "JD decoding sheet",
-         "id": "Lembar penguraian JD"
-        },
-        "desc": {
-         "en": "Fifteen minutes per job description. Output: the competencies they will probe and which story covers each.",
-         "id": "Lima belas menit per deskripsi pekerjaan. Keluaran: kompetensi yang akan mereka gali dan cerita mana yang mencakup masing-masing."
-        },
-        "body": [
-         {
-          "en": "1. Circle every repeated word or phrase (appears twice or more) — these are the obsessions.",
-          "id": "1. Lingkari setiap kata atau frasa yang berulang (muncul dua kali atau lebih) — inilah obsesi mereka."
-         },
-         {
-          "en": "2. First three bullets under responsibilities = the daily job. Translate each into a competency (deliver, analyse, influence, own…).",
-          "id": "2. Tiga butir pertama di bawah tanggung jawab = pekerjaan harian. Terjemahkan masing-masing menjadi kompetensi (menyampaikan, menganalisis, memengaruhi, memiliki…)."
-         },
-         {
-          "en": "3. “Must” vs “nice”: musts will be probed directly; nices decide ties.",
-          "id": "3. “Wajib” vs “diutamakan”: yang wajib akan digali langsung; yang diutamakan menentukan seri."
-         },
-         {
-          "en": "4. Verbs tell you the altitude: “support” (junior), “own” (mid), “drive” or “define” (senior).",
-          "id": "4. Kata kerja memberi tahu ketinggian: “mendukung” (junior), “memiliki” (menengah), “mendorong” atau “mendefinisikan” (senior)."
-         },
-         {
-          "en": "5. Map: competency → my best story → my second story → gap? If gap, what is the honest closest example?",
-          "id": "5. Petakan: kompetensi → cerita terbaikku → cerita keduaku → celah? Jika celah, apa contoh jujur yang paling dekat?"
-         },
-         {
-          "en": "6. Write the three questions you would ask if you were interviewing for this JD. Prepare those.",
-          "id": "6. Tulis tiga pertanyaan yang akan kamu ajukan jika kamu yang mewawancarai untuk JD ini. Siapkan itu."
-         }
-        ]
+        "en": "Nadia reads the KilatPay Business Operations Associate posting with four pens. Responsibilities: “own merchant onboarding metrics”, “analyse drop-off”, “coordinate with sales and product”, “run weekly ops reviews”. Requirements: S1, “comfortable with SQL or willing to learn fast”, “Excel at an advanced level”. Soft-skill line: “scrappy, bias for action, comfortable with ambiguity”. Company language: “we measure everything”, printed in the header and again in the closing paragraph — and, she notices, in the founder’s LinkedIn post Dewi linked.",
+        "id": "Nadia membaca lowongan Business Operations Associate KilatPay dengan empat pulpen. Tanggung jawab: “own merchant onboarding metrics”, “analyse drop-off”, “coordinate with sales and product”, “run weekly ops reviews”. Persyaratan: S1, “comfortable with SQL or willing to learn fast”, “Excel at an advanced level”. Baris soft-skill: “scrappy, bias for action, comfortable with ambiguity”. Bahasa perusahaan: “we measure everything”, dicetak di kepala dan lagi di paragraf penutup — dan, ia perhatikan, di unggahan LinkedIn pendiri yang ditautkan Dewi."
+       },
+       {
+        "en": "“Measure” three times moves analytical thinking to the top of her scorecard at 35, above coordination, even though coordination has more bullets. “Own” on the first bullet tells her the altitude is mid, not support: the user will ask about a decision, not about reliability. “SQL or willing to learn fast” is a requirement with an escape clause, which means the honest close — module 2 of 6, and here is how I learn — is the answer, not a bluff. She writes the values line as one probe: “when did you decide with numbers when others used opinion?” — and maps it to the sponsorship pricing story before she has read a single question.",
+        "id": "“Measure” tiga kali menaikkan berpikir analitis ke puncak lembar penilaiannya di 35, di atas koordinasi, meski koordinasi punya lebih banyak butir. “Own” di butir pertama memberi tahu ketinggiannya menengah, bukan mendukung: user akan bertanya soal keputusan, bukan keandalan. “SQL or willing to learn fast” adalah persyaratan dengan klausul pelarian, yang berarti penutup jujur — modul 2 dari 6, dan begini cara saya belajar — adalah jawabannya, bukan gertakan. Ia menulis baris nilai sebagai satu galian: “kapan Anda memutuskan dengan angka saat orang lain memakai pendapat?” — dan memetakannya ke cerita harga sponsorship sebelum membaca satu pertanyaan pun."
        }
       ]
-     },
-     "migratedFrom": "the-rope:3.3"
-    },
-    {
-     "n": "3.3",
-     "title": {
-      "en": "Matching Your Story Library to the Target Framework",
-      "id": "Mencocokkan Perpustakaan Cerita dengan Kerangka yang Dituju"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "The final assembly step: your tagged stories on one axis, the target role's competencies on the other. The matrix shows instantly which stories to polish, which competencies are uncovered, and which single story is your workhorse. Twenty minutes of matrix beats two hours of unfocused rehearsal.",
-      "id": "Langkah perakitan terakhir: cerita-ceritamu yang sudah berlabel di satu sumbu, kompetensi posisi yang dituju di sumbu lainnya. Matriksnya seketika memperlihatkan cerita mana yang perlu dipoles, kompetensi mana yang belum tertutup, dan satu cerita mana yang menjadi andalanmu. Dua puluh menit menyusun matriks mengalahkan dua jam latihan tanpa fokus."
-     },
-     "objectives": [
-      {
-       "en": "Build the story × competency matrix for a real target role.",
-       "id": "Menyusun matriks cerita × kompetensi untuk posisi sungguhan yang kamu tuju."
-      },
-      {
-       "en": "Identify coverage gaps and workhorse stories.",
-       "id": "Mengenali celah cakupan dan cerita-cerita andalan."
-      },
-      {
-       "en": "Plan the final polish order before an interview loop.",
-       "id": "Merencanakan urutan pemolesan akhir sebelum rangkaian wawancara."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Twenty minutes of matrix beat hours of vague rehearsal. To assemble your library against the target framework, you can:",
-      "id": "Dua puluh menit matriks mengalahkan berjam-jam latihan yang samar. Untuk menyusun pustakamu terhadap kerangka target, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The matrix turns preparation from a mood into a checklist.",
-       "id": "Matriks mengubah persiapan dari sekadar suasana hati menjadi daftar periksa."
-      },
-      {
-       "en": "A workhorse story covering three competencies deserves triple polish.",
-       "id": "Cerita andalan yang menutup tiga kompetensi layak dipoles tiga kali lebih keras."
-      },
-      {
-       "en": "An uncovered competency is a predictable ambush — mine or plan for it now.",
-       "id": "Kompetensi yang belum tertutup adalah penyergapan yang bisa diramalkan — tambang, atau siapkan rencananya sekarang."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "Building the matrix",
-        "id": "Menyusun matriksnya"
-       },
-       "body": {
-        "en": "Rows: your eight to twelve stories. Columns: the role's five to seven competencies, from the JD decode and any published framework. Mark each cell where a story genuinely evidences a competency. Ten honest minutes. The picture that emerges — clusters, gaps, one column empty — is your entire preparation agenda.",
-        "id": "Baris: delapan sampai dua belas ceritamu. Kolom: lima sampai tujuh kompetensi posisi itu, dari uraian deskripsi lowongan dan kerangka yang diterbitkan, kalau ada. Tandai setiap sel tempat sebuah cerita benar-benar membuktikan sebuah kompetensi. Sepuluh menit yang jujur. Gambaran yang muncul — kelompok-kelompok, celah, satu kolom yang kosong — adalah seluruh agenda persiapanmu."
-       }
-      },
-      {
-       "h": {
-        "en": "Reading the picture",
-        "id": "Membaca gambarannya"
-       },
-       "body": {
-        "en": "A story with three or more marks is a workhorse: rehearse it at all three altitudes. A competency column with two-plus stories lets you vary answers across a long loop without repeating. An empty column is tomorrow's ambush. And a story with zero marks may simply not belong in this interview — retire it without guilt.",
-        "id": "Cerita dengan tiga tanda atau lebih adalah andalan: latih pada ketiga ketinggian. Kolom kompetensi dengan dua cerita atau lebih membuatmu bisa memvariasikan jawaban sepanjang rangkaian yang panjang tanpa mengulang. Kolom yang kosong adalah penyergapan esok hari. Dan cerita tanpa satu pun tanda mungkin memang tidak cocok untuk wawancara ini — pensiunkan tanpa rasa bersalah."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: Reading the story matrix — what each pattern of marks tells you to do next.",
-       "id": "Peraga 1: Membaca matriks cerita — apa yang diperintahkan tiap pola tanda untuk dilakukan berikutnya."
-      },
-      "title": {
-       "en": "Stories × competencies",
-       "id": "Cerita × kompetensi"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Workhorse story",
-         "id": "Cerita andalan"
-        },
-        "sub": {
-         "en": "Three or more marks — rehearse it at all three altitudes",
-         "id": "Tiga tanda atau lebih — latih di ketiga ketinggian"
-        }
-       },
-       {
-        "h": {
-         "en": "Deep column",
-         "id": "Kolom dalam"
-        },
-        "sub": {
-         "en": "Two-plus stories for one competency — vary answers across a long loop",
-         "id": "Dua cerita atau lebih untuk satu kompetensi — variasikan jawaban sepanjang rangkaian panjang"
-        }
-       },
-       {
-        "h": {
-         "en": "Empty column",
-         "id": "Kolom kosong"
-        },
-        "sub": {
-         "en": "A predictable ambush — mine a story now or plan the honest partial answer",
-         "id": "Penyergapan yang bisa diprediksi — tambang cerita sekarang atau siapkan jawaban parsial yang jujur"
-        }
-       },
-       {
-        "h": {
-         "en": "Single-mark story",
-         "id": "Cerita satu tanda"
-        },
-        "sub": {
-         "en": "Keep it lean — one altitude, one competency, polish last",
-         "id": "Jaga tetap ringkas — satu ketinggian, satu kompetensi, poles terakhir"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A two-by-two grid of the patterns a story matrix produces: a workhorse story with three or more marks earns triple polish; a competency column with two or more stories lets you vary answers; an empty column is a predictable ambush to mine for now; and a story with a single mark is kept lean and polished last.",
-       "id": "Kisi dua kali dua berisi pola yang dihasilkan matriks cerita: cerita andalan dengan tiga tanda atau lebih layak dipoles tiga kali; kolom kompetensi dengan dua cerita atau lebih memungkinkanmu memvariasikan jawaban; kolom kosong adalah penyergapan yang bisa diprediksi dan harus ditambang sekarang; dan cerita dengan satu tanda dijaga ringkas dan dipoles terakhir."
-      }
      },
      "steps": [
       {
        "h": {
-        "en": "Step 1 · Draw it for a real role",
-        "id": "Langkah 1 · Gambar untuk posisi sungguhan"
+        "en": "Drill 1 · Decode two postings",
+        "id": "Latihan 1 · Uraikan dua lowongan"
        },
        "body": {
-        "en": "Pick a role you actually want. Decode its JD into five to seven competencies, list your stories, and mark the matrix — paper or spreadsheet, ten minutes, no perfectionism.",
-        "id": "Pilih posisi yang benar-benar kamu inginkan. Uraikan deskripsi lowongannya menjadi lima sampai tujuh kompetensi, daftar ceritamu, dan tandai matriksnya — di kertas atau spreadsheet, sepuluh menit, tanpa perfeksionisme."
+        "en": "Take two postings in the formats you actually meet — one Indonesian corporate or bank programme posting, one English startup posting (the Bank Sinar ODP and KilatPay postings in the Module 2 and 3 case files will do). For each: mark the four layers, translate the verbs with the table, and write a scorecard of four to six competencies with percentages, an eligibility list, and a values line.",
+        "id": "Ambil dua lowongan dalam format yang benar-benar kamu temui — satu lowongan program korporasi atau bank berbahasa Indonesia, satu lowongan startup berbahasa Inggris (lowongan ODP Bank Sinar dan KilatPay di berkas kasus Modul 2 dan 3 bisa dipakai). Untuk masing-masing: tandai empat lapis, terjemahkan kata kerja dengan tabel, dan tulis lembar penilaian empat hingga enam kompetensi dengan persentase, daftar kelayakan, dan baris nilai."
        },
        "debrief": {
-        "en": "Common surprise: your proudest story evidences fewer target competencies than a humbler one. The matrix judges fit, not prestige — trust it. The humble story with three marks is the one to polish tonight.",
-        "id": "Kejutan yang lazim: cerita yang paling kamu banggakan ternyata membuktikan lebih sedikit kompetensi target daripada cerita yang lebih sederhana. Matriks menilai kecocokan, bukan gengsi — percayalah padanya. Cerita sederhana dengan tiga tanda itulah yang harus dipoles malam ini."
+        "en": "Model decode for the bank posting: accuracy 30 · service 25 · coordination 20 · analytical 15 · learning 10; eligibility: placement, bond, IPK, age, TOEFL; values: Integritas, Kehati-hatian. For KilatPay: analytical 35 · ownership and judgement 25 · coordination 20 · learning fast 20; eligibility: S1, Excel; values: measure everything, bias for action. If your scorecard has more than six lines you have listed, not weighted; if any eligibility item appears as a competency, move it — a story will not answer “bersedia ditempatkan?”.",
+        "id": "Uraian model untuk lowongan bank: ketelitian 30 · layanan 25 · koordinasi 20 · analitis 15 · belajar 10; kelayakan: penempatan, ikatan dinas, IPK, usia, TOEFL; nilai: Integritas, Kehati-hatian. Untuk KilatPay: analitis 35 · kepemilikan dan penilaian 25 · koordinasi 20 · belajar cepat 20; kelayakan: S1, Excel; nilai: measure everything, bias for action. Jika lembar penilaianmu lebih dari enam baris, kamu mendaftar, bukan membobot; jika ada butir kelayakan muncul sebagai kompetensi, pindahkan — cerita tidak akan menjawab “bersedia ditempatkan?”."
        }
       },
       {
        "h": {
-        "en": "Step 2 · Attack the gaps",
-        "id": "Langkah 2 · Serang celahnya"
+        "en": "Drill 2 · Translate the values",
+        "id": "Latihan 2 · Terjemahkan nilai"
        },
        "body": {
-        "en": "For each empty column, run the mining protocol from lesson 2.3 aimed specifically at that competency. If nothing surfaces, draft the honest acknowledgment: the gap, why it exists, your ramp-up plan.",
-        "id": "Untuk setiap kolom yang kosong, jalankan protokol penambangan dari pelajaran 2.3 yang dibidikkan khusus ke kompetensi itu. Kalau tetap tidak ada yang muncul, susun pengakuan yang jujur: celahnya, mengapa celah itu ada, dan rencanamu untuk mengejarnya."
+        "en": "For your top target, find the published values or principles (careers page, annual report, founder letter; if none, the requirements that repeat across three of the company’s postings). Write each as a probe in the interviewer’s voice, then map the one Core 10 story that evidences it. Mark any value with no story.",
+        "id": "Untuk sasaran teratasmu, temukan nilai atau prinsip yang diterbitkan (halaman karier, laporan tahunan, surat pendiri; jika tidak ada, persyaratan yang berulang di tiga lowongan perusahaan itu). Tulis masing-masing sebagai galian dalam suara pewawancara, lalu petakan satu cerita Core 10 yang membuktikannya. Tandai nilai tanpa cerita."
        },
        "debrief": {
-        "en": "An honest gap statement sounds like: “Direct people management I haven't done yet — I've led through influence in two projects, and management is exactly the growth this role offers.” Ownership of the gap plus adjacent evidence plus motive. That answer scores; a bluff does not.",
-        "id": "Pengakuan celah yang jujur berbunyi seperti ini: “Mengelola orang secara langsung memang belum pernah saya lakukan — di dua proyek saya memimpin lewat pengaruh, dan pengalaman manajerial adalah persis pertumbuhan yang ditawarkan posisi ini.” Mengakui celah, plus bukti yang berdekatan, plus motivasi. Jawaban seperti itu dapat nilai; gertakan tidak."
+        "en": "A probe is a question a person could ask, not a value restated — “describe a moment honesty cost you something”, not “tell me about integrity”. A value with no story is where the panel round will hurt: mine for it now with the Lesson 2.1 prompts, or prepare the honest partial answer. And check the mapping for parroting — if your story’s first sentence contains their value-word, move the word to where the evidence is.",
+        "id": "Galian adalah pertanyaan yang bisa diajukan seseorang, bukan nilai yang diulang — “gambarkan momen ketika kejujuran merugikan Anda”, bukan “ceritakan tentang integritas”. Nilai tanpa cerita adalah tempat ronde panel akan menyakitkan: gali sekarang dengan pemicu Pelajaran 2.1, atau siapkan jawaban parsial yang jujur. Dan periksa pemetaan dari pembeoan — jika kalimat pertama ceritamu memuat kata nilai mereka, pindahkan kata itu ke tempat buktinya."
        }
       },
       {
        "h": {
-        "en": "Step 3 · Set the polish order",
-        "id": "Langkah 3 · Tetapkan urutan pemolesan"
+        "en": "Drill 3 · The evidence table",
+        "id": "Latihan 3 · Tabel bukti"
        },
        "body": {
-        "en": "Rank: workhorse stories first, then stories covering rare competencies, then the rest. Rehearse aloud in that order — the simulator in Module 9 runs exactly these priorities with you.",
-        "id": "Urutkan: cerita andalan lebih dulu, lalu cerita yang menutup kompetensi langka, lalu sisanya. Latih dengan suara keras dalam urutan itu — simulator di Modul 9 menjalankan prioritas yang persis sama bersamamu."
+        "en": "For your top target, fill the three-column table for the top five requirements: requirement, my evidence, the number in it. Where a cell is empty, write either “mine: …” (a setting to dig in) or “gap: …” (the honest acknowledgment and a ramp-up plan in one sentence).",
+        "id": "Untuk sasaran teratasmu, isi tabel tiga kolom untuk lima persyaratan teratas: persyaratan, bukti saya, angka di dalamnya. Jika ada sel kosong, tulis “gali: …” (latar untuk digali) atau “celah: …” (pengakuan jujur dan rencana pemulihan dalam satu kalimat)."
        },
        "debrief": {
-        "en": "Polish means: spoken aloud three times, timed under two minutes, one number verified, learning line sharpened. Four passes per story. With the matrix set, Module 9's simulation stops being scary and becomes a test drive of a machine you built.",
-        "id": "Memoles artinya: diucapkan dengan suara keras tiga kali, diukur di bawah dua menit, satu angka diverifikasi, kalimat pembelajaran dipertajam. Empat putaran per cerita. Dengan matriks yang sudah siap, simulasi di Modul 9 berhenti menakutkan dan berubah menjadi uji jalan atas mesin yang kamu bangun sendiri."
+        "en": "The number column is what separates evidence from a claim: “handled customers” is a claim; “120–150 a shift” is evidence. If three or more of your five cells are empty, the target is a stretch — which is fine, but then Lesson 3.3 should predict a difficult-case question for each gap and Lesson 5.3 should prepare the answer. If no cell is empty, check that you have not counted a title as evidence.",
+        "id": "Kolom angka adalah yang memisahkan bukti dari klaim: “menangani pelanggan” adalah klaim; “120–150 per sif” adalah bukti. Jika tiga atau lebih dari lima selmu kosong, sasaran itu regangan — tidak apa, tetapi Pelajaran 3.3 harus memprediksi pertanyaan kasus sulit untuk tiap celah dan Pelajaran 5.3 harus menyiapkan jawabannya. Jika tidak ada sel kosong, periksa bahwa kamu tidak menghitung jabatan sebagai bukti."
        }
       }
      ],
-     "compare": [
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Reading only the requirements",
+         "id": "Hanya membaca persyaratan"
+        },
+        "fix": {
+         "en": "The requirements are the screen; the responsibilities and values are the interview.",
+         "id": "Persyaratan adalah seleksi awal; tanggung jawab dan nilai adalah wawancaranya."
+        }
+       },
+       {
+        "h": {
+         "en": "Treating “bersedia ditempatkan” as a competency",
+         "id": "Memperlakukan “bersedia ditempatkan” sebagai kompetensi"
+        },
+        "fix": {
+         "en": "It is eligibility — answered with a true sentence, never a story.",
+         "id": "Itu kelayakan — dijawab dengan kalimat jujur, tidak pernah cerita."
+        }
+       },
+       {
+        "h": {
+         "en": "Listing fifteen competencies",
+         "id": "Mendaftar lima belas kompetensi"
+        },
+        "fix": {
+         "en": "Weight to four to six; percentages force the choice.",
+         "id": "Bobot ke empat hingga enam; persentase memaksa pilihan."
+        }
+       },
+       {
+        "h": {
+         "en": "Parroting the values",
+         "id": "Membeo nilai"
+        },
+        "fix": {
+         "en": "Their word once, inside the evidence; never in the first sentence.",
+         "id": "Kata mereka sekali, di dalam bukti; tidak pernah di kalimat pertama."
+        }
+       }
+      ]
+     },
+     "glossary": [
       {
-       "tag": {
-        "en": "An empty matrix column — bluffed vs owned",
-        "id": "Kolom matriks yang kosong — digertak vs diakui"
+       "term": {
+        "en": "Scorecard",
+        "id": "Lembar penilaian"
        },
-       "q": {
-        "en": "“This role needs direct people management. Have you done it?”",
-        "id": "“Posisi ini butuh pengalaman mengelola orang secara langsung. Sudah pernah?”"
+       "def": {
+        "en": "Your estimate of the four to six competencies an interview will score, with weights, plus eligibility items and a values line.",
+        "id": "Perkiraanmu atas empat hingga enam kompetensi yang akan dinilai wawancara, dengan bobot, plus butir kelayakan dan baris nilai."
+       }
+      },
+      {
+       "term": {
+        "en": "Eligibility screen",
+        "id": "Saringan kelayakan"
        },
-       "weak": {
-        "en": "Yes, definitely — I basically managed people in most of my projects, like coordinating and things like that.",
-        "id": "Ya, tentu — saya pada dasarnya mengelola orang di hampir semua proyek saya, misalnya koordinasi dan hal-hal semacam itu."
+       "def": {
+        "en": "A pass/fail requirement — degree, IPK, age, placement, bond — answered with a fact, not a story.",
+        "id": "Persyaratan lulus/gagal — gelar, IPK, usia, penempatan, ikatan dinas — dijawab dengan fakta, bukan cerita."
+       }
+      },
+      {
+       "term": {
+        "en": "Altitude",
+        "id": "Ketinggian"
        },
-       "strong": {
-        "en": "Direct people management I haven't done yet — I want to be straightforward about that. What I have done is lead through influence: in two projects I set the plan, ran the reviews, and coached one junior member weekly. Management is exactly the growth this role offers, and it's why I want it.",
-        "id": "Mengelola orang secara langsung memang belum pernah — saya ingin jujur soal itu. Yang sudah saya lakukan adalah memimpin lewat pengaruh: di dua proyek, saya yang menyusun rencananya, memimpin review-nya, dan membimbing satu anggota junior setiap minggu. Pengalaman manajerial adalah persis pertumbuhan yang ditawarkan posisi ini, dan itulah alasan saya menginginkannya."
+       "def": {
+        "en": "The level a verb implies — support (junior), own (mid), drive or define (senior) — and therefore the kind of question asked.",
+        "id": "Tingkat yang tersirat dari kata kerja — mendukung (junior), memiliki (menengah), mendorong atau menentukan (senior) — dan karenanya jenis pertanyaan yang diajukan."
+       }
+      },
+      {
+       "term": {
+        "en": "Evidence table",
+        "id": "Tabel bukti"
        },
-       "why": {
-        "en": "The bluff dies at the first follow-up. The owned gap earns trust, shows adjacent evidence, and turns the weakness into motive.",
-        "id": "Gertakan mati di pertanyaan lanjutan pertama. Celah yang diakui menuai kepercayaan, memperlihatkan bukti yang berdekatan, dan mengubah kelemahan menjadi motivasi."
+       "def": {
+        "en": "Requirement · my evidence · the number in it, for the top five requirements; empty cells become prepared difficult-case answers.",
+        "id": "Persyaratan · bukti saya · angka di dalamnya, untuk lima persyaratan teratas; sel kosong menjadi jawaban kasus sulit yang disiapkan."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your matrix shows one competency with no story. Best move:",
-        "id": "Matriksmu menunjukkan satu kompetensi tanpa cerita. Langkah terbaik:"
+        "en": "“Bersedia ditempatkan di seluruh Indonesia dan menandatangani ikatan dinas” in a posting is…",
+        "id": "“Bersedia ditempatkan di seluruh Indonesia dan menandatangani ikatan dinas” dalam lowongan adalah…"
        },
        "options": [
         {
-         "en": "Hope the interview skips that competency",
-         "id": "Berharap wawancaranya melewatkan kompetensi itu"
+         "en": "A competency — prepare a story about adapting to a new city",
+         "id": "Kompetensi — siapkan cerita beradaptasi di kota baru"
         },
         {
-         "en": "Reuse any strong story and claim it fits",
-         "id": "Memakai ulang cerita kuat mana pun dan mengklaimnya cocok"
+         "en": "An eligibility screen — prepare one truthful sentence for the HR round",
+         "id": "Saringan kelayakan — siapkan satu kalimat jujur untuk ronde HR"
         },
         {
-         "en": "Mine deliberately for a story there, or prepare an honest gap acknowledgment",
-         "id": "Menambang cerita secara khusus untuk itu, atau menyiapkan pengakuan celah yang jujur"
+         "en": "Company language — a values probe",
+         "id": "Bahasa perusahaan — galian nilai"
+        },
+        {
+         "en": "Decoration — ignore it",
+         "id": "Hiasan — abaikan"
         }
        ],
-       "correct": 2,
+       "correct": 1,
        "why": {
-        "en": "Correct — hope is not preparation, and forced fits collapse under follow-ups. Mine or acknowledge.",
-        "id": "Benar — berharap bukan persiapan, dan kecocokan yang dipaksakan runtuh oleh pertanyaan lanjutan. Tambang, atau akui."
+        "en": "It is pass/fail and answered with a fact; a story cannot answer it and an evasive answer fails the screen.",
+        "id": "Ini lulus/gagal dan dijawab dengan fakta; cerita tidak bisa menjawabnya dan jawaban mengelak gagal di seleksi awal."
+       }
+      },
+      {
+       "q": {
+        "en": "“Teliti” appears in the responsibilities, the requirements and the company paragraph of a bank posting. This means…",
+        "id": "“Teliti” muncul di tanggung jawab, persyaratan, dan paragraf perusahaan sebuah lowongan bank. Ini berarti…"
+       },
+       "options": [
+        {
+         "en": "The posting was badly edited",
+         "id": "Lowongannya diedit buruk"
+        },
+        {
+         "en": "Accuracy carries the largest weight on the scorecard — prepare its story and its “how do you check your work” answer first",
+         "id": "Ketelitian memikul bobot terbesar di lembar penilaian — siapkan ceritanya dan jawaban “bagaimana Anda memeriksa pekerjaan” lebih dulu"
+        },
+        {
+         "en": "It is a nice-to-have",
+         "id": "Itu nice-to-have"
+        },
+        {
+         "en": "Only the HR round will ask about it",
+         "id": "Hanya ronde HR yang akan menanyakannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Repetition across layers is the strongest weighting cue; three appearances make a core theme.",
+        "id": "Pengulangan lintas lapis adalah petunjuk pembobotan terkuat; tiga kemunculan membentuk tema inti."
+       }
+      },
+      {
+       "q": {
+        "en": "A company’s careers page says “kami mengutamakan kejujuran”. The best preparation is…",
+        "id": "Halaman karier perusahaan berkata “kami mengutamakan kejujuran”. Persiapan terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Open your first answer with “saya orang yang jujur”",
+         "id": "Buka jawaban pertamamu dengan “saya orang yang jujur”"
+        },
+        {
+         "en": "Translate it into a probe — “a moment honesty cost you something” — and map the Core 10 story that answers it",
+         "id": "Terjemahkan menjadi galian — “momen ketika kejujuran merugikan Anda” — dan petakan cerita Core 10 yang menjawabnya"
+        },
+        {
+         "en": "Memorise the values page",
+         "id": "Hafalkan halaman nilai"
+        },
+        {
+         "en": "Nothing — values are decoration",
+         "id": "Tidak ada — nilai hanya hiasan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A value becomes a question; the story answers it, using their word once inside the evidence.",
+        "id": "Nilai menjadi pertanyaan; cerita menjawabnya, memakai kata mereka sekali di dalam bukti."
        }
       }
      ],
      "tryit": {
-      "qid": "dc06",
+      "qid": "tech_fin_reconcile",
+      "set": [
+       "tech_fin_reconcile",
+       "beh_trusted_money",
+       "beh_frustrated_customer",
+       "beh_very_different_person",
+       "elig_placement"
+      ],
+      "persona": "manager",
+      "profile": "mixed",
+      "returnTo": 3,
       "label": {
-       "en": "Drill your own gap acknowledgment",
-       "id": "Latih pengakuan celahmu sendiri"
+       "en": "Role-specific set: the Bank Sinar ODP scorecard",
+       "id": "Set khas peran: lembar penilaian ODP Bank Sinar"
       },
       "desc": {
-       "en": "“What do you bring instead of formal experience?” — one calm sentence, then evidence.",
-       "id": "“Apa yang Anda tawarkan sebagai pengganti pengalaman formal?” — satu kalimat yang tenang, lalu bukti."
+       "en": "Five questions generated from the decoded scorecard — accuracy, integrity, service, coordination and the placement screen — with the Hiring Manager. Notice how each question maps to a line of the scorecard; that mapping is what Lesson 3.3 makes you do for your own target.",
+       "id": "Lima pertanyaan yang dibuat dari lembar penilaian terurai — ketelitian, integritas, layanan, koordinasi, dan saringan penempatan — dengan Hiring Manager. Perhatikan bagaimana tiap pertanyaan memetakan ke satu baris lembar penilaian; pemetaan itulah yang diminta Pelajaran 3.3 untuk sasaranmu sendiri."
       }
      },
-     "glossary": [
+     "takeaways": [
       {
-       "term": {
-        "en": "competency",
-        "id": "kompetensi"
-       },
-       "def": {
-        "en": "A capability a role requires — leadership, prioritisation, judgment — that interviews probe with behavioral evidence.",
-        "id": "Kemampuan yang dituntut sebuah posisi — kepemimpinan, menentukan prioritas, pertimbangan — yang digali wawancara lewat bukti perilaku."
-       }
+       "en": "A posting has four layers; each predicts a question type.",
+       "id": "Lowongan punya empat lapis; masing-masing memprediksi satu tipe pertanyaan."
       },
       {
-       "term": {
-        "en": "evidence",
-        "id": "bukti"
-       },
-       "def": {
-        "en": "Concrete, checkable specifics — numbers, names, artefacts — the only currency rubrics can score.",
-        "id": "Hal-hal konkret yang bisa diperiksa — angka, nama, artefak — satu-satunya mata uang yang bisa dinilai oleh rubrik."
-       }
+       "en": "Verbs name the competency and the altitude; position, repetition and “wajib” set the weight.",
+       "id": "Kata kerja menyebut kompetensi dan ketinggian; posisi, pengulangan, dan “wajib” menetapkan bobot."
+      },
+      {
+       "en": "Eligibility is answered with a fact, values with a story that uses their word once.",
+       "id": "Kelayakan dijawab dengan fakta, nilai dengan cerita yang memakai kata mereka sekali."
       }
      ],
      "resources": {
+      "title": {
+       "en": "Sources and the decoding sheet",
+       "id": "Sumber dan lembar pembedahan"
+      },
+      "lead": {
+       "en": "Two sources, the retained decoding sheet, and the scorecard template.",
+       "id": "Dua sumber, lembar pembedahan yang dipertahankan, dan templat lembar penilaian."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Story × competency matrix",
-         "id": "Matriks cerita × kompetensi"
+         "en": "Reading list · Lesson 3.1",
+         "id": "Daftar bacaan · Pelajaran 3.1"
         },
         "desc": {
-         "en": "Paste into a spreadsheet. Rows = stories, columns = the target role’s competencies.",
-         "id": "Tempel ke spreadsheet. Baris = cerita, kolom = kompetensi peran tujuan."
+         "en": "The four-layer reading follows the blueprint; the verb table is course guidance.",
+         "id": "Pembacaan empat lapis mengikuti blueprint; tabel kata kerja adalah panduan kursus."
         },
         "body": [
          {
-          "en": "Story title | Setting | Ownership | Problem solving | Influence | Collaboration | Resilience | Learning | Delivery | Judgment | Customer | Integrity",
-          "id": "Judul cerita | Latar | Kepemilikan | Pemecahan masalah | Pengaruh | Kolaborasi | Ketahanan | Pembelajaran | Penyampaian | Penilaian | Pelanggan | Integritas"
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — interview guides are written from the role’s competencies.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — panduan wawancara ditulis dari kompetensi peran."
          },
          {
-          "en": "Mark ● primary proof, ○ secondary proof. Column totals under 2 = uncovered; row totals over 4 = over-used.",
-          "id": "Tandai ● bukti utama, ○ bukti sekunder. Total kolom di bawah 2 = belum tercakup; total baris di atas 4 = terlalu sering dipakai."
+          "en": "The Pack, Module 3 — the keyword table this lesson reuses.",
+          "id": "The Pack, Modul 3 — tabel kata kunci yang dipakai ulang pelajaran ini."
          },
          {
-          "en": "Polish order: stories with the most ● in “must” columns first.",
-          "id": "Urutan pemolesan: cerita dengan ● terbanyak di kolom “wajib” lebih dulu."
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The verb-to-competency mapping and the percentage weighting are The Rope’s own method, not a published standard.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Pemetaan kata kerja→kompetensi dan pembobotan persentase adalah metode The Rope sendiri, bukan standar terbitan."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "JD decoding sheet",
+         "id": "Lembar pembedahan JD"
+        },
+        "desc": {
+         "en": "Six steps, ten minutes, four pens.",
+         "id": "Enam langkah, sepuluh menit, empat pulpen."
+        },
+        "body": [
+         {
+          "en": "1. Circle every repeated word or phrase (twice or more) — these are the obsessions.",
+          "id": "1. Lingkari setiap kata atau frasa yang berulang (dua kali atau lebih) — inilah obsesinya."
+         },
+         {
+          "en": "2. First three responsibility bullets = the daily job. Translate each into a competency with the verb table.",
+          "id": "2. Tiga butir tanggung jawab pertama = pekerjaan harian. Terjemahkan masing-masing menjadi kompetensi dengan tabel kata kerja."
+         },
+         {
+          "en": "3. “Wajib / harus” vs “nilai tambah / lebih disukai”: musts will be probed directly; nices decide ties.",
+          "id": "3. “Wajib / harus” vs “nilai tambah / lebih disukai”: yang wajib akan digali langsung; nilai tambah memutuskan seri."
+         },
+         {
+          "en": "4. Verbs tell you the altitude: support (junior) · own (mid) · drive, define (senior).",
+          "id": "4. Kata kerja memberi tahu ketinggian: mendukung (junior) · memiliki (menengah) · mendorong, menentukan (senior)."
+         },
+         {
+          "en": "5. Move every “bersedia …” line to the eligibility list; write the true sentence for each.",
+          "id": "5. Pindahkan setiap baris “bersedia …” ke daftar kelayakan; tulis kalimat jujur untuk masing-masing."
+         },
+         {
+          "en": "6. Write the three questions you would ask if you were interviewing for this posting. Prepare those.",
+          "id": "6. Tulis tiga pertanyaan yang akan kamu ajukan jika kamu yang mewawancarai untuk lowongan ini. Siapkan itu."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Scorecard (Kit item, part 1)",
+         "id": "Lembar penilaian (butir Perangkat, bagian 1)"
+        },
+        "desc": {
+         "en": "One per target; the Role Decoder’s output, by hand.",
+         "id": "Satu per sasaran; keluaran Role Decoder, dengan tangan."
+        },
+        "body": [
+         {
+          "en": "Competency 1–6 · weight % (sum 100) · evidence from Core 10 · number",
+          "id": "Kompetensi 1–6 · bobot % (jumlah 100) · bukti dari Core 10 · angka"
+         },
+         {
+          "en": "Eligibility items (pass/fail) · my true sentence for each",
+          "id": "Butir kelayakan (lulus/gagal) · kalimat jujur saya untuk masing-masing"
+         },
+         {
+          "en": "Values line · each value → probe → story",
+          "id": "Baris nilai · tiap nilai → galian → cerita"
+         },
+         {
+          "en": "Gaps · “mine: …” or “gap: … + plan”",
+          "id": "Celah · “gali: …” atau “celah: … + rencana”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Researching the Organisation in 90 Minutes",
+      "id": "Meriset Organisasi dalam 90 Menit"
+     },
+     "overview": {
+      "en": "Most candidates research a company by reading its “About us” page and memorising it. Interviewers can tell, because the answer to “what do you know about us?” comes back as a recital, and a recital proves only that the candidate can read. This lesson gives you a ninety-minute plan in six fifteen-minute blocks, a short list of what to extract, the rule that research shows up inside answers rather than as a report, and the Indonesian sources — disclosures, annual reports, regulator publications, the company’s own social feeds — that most graduates never open.",
+      "id": "Kebanyakan kandidat meriset perusahaan dengan membaca halaman “Tentang kami” dan menghafalnya. Pewawancara bisa tahu, karena jawaban untuk “apa yang Anda ketahui tentang kami?” kembali sebagai pembacaan, dan pembacaan hanya membuktikan kandidat bisa membaca. Pelajaran ini memberimu rencana sembilan puluh menit dalam enam blok lima belas menit, daftar pendek yang harus diekstrak, aturan bahwa riset muncul di dalam jawaban dan bukan sebagai laporan, dan sumber-sumber Indonesia — keterbukaan informasi, laporan tahunan, terbitan regulator, akun sosial perusahaan sendiri — yang tidak pernah dibuka kebanyakan lulusan."
+     },
+     "objectives": [
+      {
+       "en": "Run a ninety-minute research sprint in six blocks and stop when the time is up.",
+       "id": "Menjalankan sprint riset sembilan puluh menit dalam enam blok dan berhenti saat waktu habis."
+      },
+      {
+       "en": "Extract six things — priorities, recent change, business model, the team’s role, one genuine interest, one unanswerable question.",
+       "id": "Mengekstrak enam hal — prioritas, perubahan terkini, model bisnis, peran tim, satu minat asli, satu pertanyaan yang tidak terjawab."
+      },
+      {
+       "en": "Use one fact to anchor “why us” and one to power a question, instead of reciting a profile.",
+       "id": "Memakai satu fakta untuk menjangkar “mengapa kami” dan satu untuk menggerakkan pertanyaan, alih-alih membacakan profil."
+      },
+      {
+       "en": "Know which Indonesian sources exist for listed companies, BUMN, banks and startups.",
+       "id": "Mengetahui sumber Indonesia mana yang ada untuk perusahaan tercatat, BUMN, bank, dan startup."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Ninety minutes, six blocks, six outputs",
+       "id": "Sembilan puluh menit, enam blok, enam keluaran"
+      },
+      "intro": {
+       "en": "Research has a deadline for the same reason the interview does: more reading past the point of use is procrastination with a good conscience.",
+       "id": "Riset punya tenggat karena alasan yang sama dengan wawancara: membaca lebih banyak melewati titik guna adalah menunda dengan hati yang tenang."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Six blocks of fifteen",
+         "id": "Enam blok lima belas menit"
+        },
+        "points": [
+         {
+          "en": "Site and careers page · annual or investor report · three months of news · LinkedIn (interviewer, team, recent hires) · use the product · review sites, read critically.",
+          "id": "Situs dan halaman karier · laporan tahunan atau investor · tiga bulan berita · LinkedIn (pewawancara, tim, karyawan baru) · pakai produknya · situs ulasan, dibaca kritis."
+         },
+         {
+          "en": "A timer per block. When it rings, move.",
+          "id": "Pengatur waktu per blok. Saat berbunyi, pindah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Six outputs",
+         "id": "Enam keluaran"
+        },
+        "points": [
+         {
+          "en": "Two or three strategic priorities · one recent change · the business model in one sentence · the team’s role in it · one thing you genuinely find interesting · one question you cannot answer from public information.",
+          "id": "Dua atau tiga prioritas strategis · satu perubahan terkini · model bisnis dalam satu kalimat · peran tim di dalamnya · satu hal yang benar-benar menarik bagimu · satu pertanyaan yang tidak bisa kamu jawab dari informasi publik."
+         },
+         {
+          "en": "The last one is the question you ask at the end (Lesson 8.4).",
+          "id": "Yang terakhir adalah pertanyaan yang kamu ajukan di akhir (Pelajaran 8.4)."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Answers, not recitals",
+         "id": "Jawaban, bukan pembacaan"
+        },
+        "points": [
+         {
+          "en": "One fact anchors “why us”; one fact powers a question. The rest stays in your notes.",
+          "id": "Satu fakta menjangkar “mengapa kami”; satu fakta menggerakkan pertanyaan. Sisanya tetap di catatanmu."
+         },
+         {
+          "en": "“Perusahaan ini adalah perusahaan terbesar…” proves you can read; a fact from the annual report proves you chose.",
+          "id": "“Perusahaan ini adalah perusahaan terbesar…” membuktikan kamu bisa membaca; fakta dari laporan tahunan membuktikan kamu memilih."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Indonesian sources",
+         "id": "Sumber Indonesia"
+        },
+        "points": [
+         {
+          "en": "IDX disclosures for listed companies; BUMN annual reports; regulator publications for banks; Instagram and TikTok for culture signals.",
+          "id": "Keterbukaan informasi BEI untuk perusahaan tercatat; laporan tahunan BUMN; terbitan regulator untuk bank; Instagram dan TikTok untuk sinyal budaya."
+         },
+         {
+          "en": "Availability varies by company; check what exists before you plan the blocks.",
+          "id": "Ketersediaan berbeda per perusahaan; periksa apa yang ada sebelum merencanakan blok."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "clock",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "The ninety-minute plan",
+        "id": "Rencana sembilan puluh menit"
+       },
+       "body": {
+        "en": "Ninety minutes is enough for any employer if the time is divided in advance, and it is not enough for any employer if it is not. Six blocks of fifteen minutes, each with one source and one output, with a timer that ends the block whether or not you feel finished. The order matters: the official site first (it tells you what the company wants you to believe), the report second (it tells you what is actually true and measured), news third (what changed since the report), people fourth (who will be in the room and who they hired last), the product fifth (what a customer experiences — open the app, visit a branch, order something), and reviews last, read critically, because a review site is a small, self-selected sample and a candidate who quotes it as fact has misjudged its weight <i>(Dalton on informational research; Bolles on the two directions of the interview)</i>. Stop at ninety. Everything you could still read is worth less than the sleep or the rehearsal it would replace.",
+        "id": "Sembilan puluh menit cukup untuk pemberi kerja mana pun jika waktunya dibagi lebih dulu, dan tidak cukup untuk pemberi kerja mana pun jika tidak. Enam blok lima belas menit, masing-masing dengan satu sumber dan satu keluaran, dengan pengatur waktu yang mengakhiri blok terlepas dari perasaanmu sudah selesai atau belum. Urutannya penting: situs resmi dulu (memberi tahu apa yang ingin diyakinkan perusahaan kepadamu), laporan kedua (memberi tahu apa yang benar dan terukur), berita ketiga (apa yang berubah sejak laporan), orang keempat (siapa yang akan ada di ruangan dan siapa yang terakhir mereka rekrut), produk kelima (apa yang dialami pelanggan — buka aplikasinya, kunjungi cabang, pesan sesuatu), dan ulasan terakhir, dibaca kritis, karena situs ulasan adalah sampel kecil yang memilih diri sendiri dan kandidat yang mengutipnya sebagai fakta salah menilai bobotnya <i>(Dalton tentang riset informasional; Bolles tentang dua arah wawancara)</i>. Berhenti di sembilan puluh. Semua yang masih bisa kamu baca bernilai kurang dari tidur atau latihan yang digantikannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Block (15 min)",
+          "id": "Blok (15 mnt)"
+         },
+         {
+          "en": "Source",
+          "id": "Sumber"
+         },
+         {
+          "en": "Output",
+          "id": "Keluaran"
+         },
+         {
+          "en": "Watch out",
+          "id": "Waspadai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Official site and careers page",
+           "id": "Situs resmi dan halaman karier"
+          },
+          {
+           "en": "The mission sentence; the values; the programme structure",
+           "id": "Kalimat misi; nilai; struktur program"
+          },
+          {
+           "en": "This is the company as it wants to be seen",
+           "id": "Ini perusahaan sebagaimana ingin dilihat"
+          }
+         ],
+         [
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Latest annual, sustainability or investor report (listed companies, BUMN); founder posts and funding news (startups)",
+           "id": "Laporan tahunan, keberlanjutan, atau investor terbaru (perusahaan tercatat, BUMN); unggahan pendiri dan berita pendanaan (startup)"
+          },
+          {
+           "en": "Two or three strategic priorities with a number each",
+           "id": "Dua atau tiga prioritas strategis dengan satu angka masing-masing"
+          },
+          {
+           "en": "Read the management letter and the segment table, not all 300 pages",
+           "id": "Baca surat manajemen dan tabel segmen, bukan semua 300 halaman"
+          }
+         ],
+         [
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "News, last three months",
+           "id": "Berita, tiga bulan terakhir"
+          },
+          {
+           "en": "One recent change — expansion, leadership, product, regulation",
+           "id": "Satu perubahan terkini — ekspansi, kepemimpinan, produk, regulasi"
+          },
+          {
+           "en": "Prefer the company’s own release over a rewrite of it",
+           "id": "Utamakan rilis perusahaan sendiri daripada tulisan ulangnya"
+          }
+         ],
+         [
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "LinkedIn: the interviewer if named, the team, three recent hires",
+           "id": "LinkedIn: pewawancara jika disebut, tim, tiga karyawan baru"
+          },
+          {
+           "en": "Who is in the room; what backgrounds they hire; the team’s role",
+           "id": "Siapa di ruangan; latar apa yang mereka rekrut; peran tim"
+          },
+          {
+           "en": "Look; do not connect or message before the interview",
+           "id": "Lihat; jangan terhubung atau kirim pesan sebelum wawancara"
+          }
+         ],
+         [
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "Use the product or service",
+           "id": "Pakai produk atau layanannya"
+          },
+          {
+           "en": "One thing you genuinely found interesting or clumsy",
+           "id": "Satu hal yang benar-benar menarik atau canggung bagimu"
+          },
+          {
+           "en": "An observation, not a critique — you saw one branch, one day",
+           "id": "Pengamatan, bukan kritik — kamu melihat satu cabang, satu hari"
+          }
+         ],
+         [
+          {
+           "en": "6",
+           "id": "6"
+          },
+          {
+           "en": "Review sites and employee forums",
+           "id": "Situs ulasan dan forum karyawan"
+          },
+          {
+           "en": "A question you cannot answer from public information",
+           "id": "Pertanyaan yang tidak bisa kamu jawab dari informasi publik"
+          },
+          {
+           "en": "Small samples; the unhappy post more than the content. Weigh accordingly",
+           "id": "Sampel kecil; yang tidak puas lebih sering menulis daripada yang puas. Timbang sesuai"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Six blocks, six outputs. The Role Decoder is specified to store these; until then, one page in your Kit.",
+         "id": "Enam blok, enam keluaran. Role Decoder ditentukan untuk menyimpan ini; sampai saat itu, satu halaman di Perangkatmu."
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "What to extract",
+        "id": "Apa yang diekstrak"
+       },
+       "body": {
+        "en": "Six outputs, one page. <b>Strategic priorities</b> (two or three) — what the company says it is trying to do this year, each with a number if the report gives one: “perluasan kredit UMKM di luar Jawa, target 40% dari portofolio”. <b>Recent change</b> — one thing that happened in the last quarter that a person inside would know about. <b>The business model in one sentence</b> — who pays, for what, and where the margin is; for a bank, the spread between what it pays depositors and what it charges borrowers plus fees; for a payments company, a fee per transaction and services around it. <b>The team’s role in it</b> — where the job you applied for sits in that sentence; branch operations sits where the deposits and loans are actually processed. <b>One thing you genuinely find interesting</b> — not the thing you think you should find interesting; the interviewer can hear the difference, and genuine interest is the raw material of the “why us” answer in Lesson 4.3. <b>One question you cannot answer from public information</b> — the best question to ask at the end of an interview is one the person in front of you can answer and the internet cannot (Lesson 8.4). If your page has all six, the sprint worked; if it has a company history instead, you read the “About” page for ninety minutes.",
+        "id": "Enam keluaran, satu halaman. <b>Prioritas strategis</b> (dua atau tiga) — apa yang dikatakan perusahaan sedang diupayakannya tahun ini, masing-masing dengan angka jika laporan memberinya: “perluasan kredit UMKM di luar Jawa, target 40% dari portofolio”. <b>Perubahan terkini</b> — satu hal yang terjadi di kuartal terakhir yang diketahui orang dalam. <b>Model bisnis dalam satu kalimat</b> — siapa membayar, untuk apa, dan di mana marginnya; untuk bank, selisih antara yang dibayar ke deposan dan yang ditagih ke peminjam plus biaya; untuk perusahaan pembayaran, biaya per transaksi dan layanan di sekitarnya. <b>Peran tim di dalamnya</b> — di mana pekerjaan yang kamu lamar berada dalam kalimat itu; operasional cabang berada di tempat simpanan dan pinjaman benar-benar diproses. <b>Satu hal yang benar-benar menarik bagimu</b> — bukan hal yang kamu pikir seharusnya menarik; pewawancara bisa mendengar bedanya, dan minat asli adalah bahan mentah jawaban “mengapa kami” di Pelajaran 4.3. <b>Satu pertanyaan yang tidak bisa kamu jawab dari informasi publik</b> — pertanyaan terbaik di akhir wawancara adalah yang bisa dijawab orang di depanmu dan tidak bisa dijawab internet (Pelajaran 8.4). Jika halamanmu punya keenamnya, sprint berhasil; jika berisi sejarah perusahaan, kamu membaca halaman “Tentang” selama sembilan puluh menit."
+       },
+       "bullets": [
+        {
+         "en": "<b>Priorities</b> — “this year we are…”, with a number each, from the report or the founder.",
+         "id": "<b>Prioritas</b> — “tahun ini kami…”, dengan satu angka masing-masing, dari laporan atau pendiri."
+        },
+        {
+         "en": "<b>Recent change</b> — one event from the last quarter an insider would know.",
+         "id": "<b>Perubahan terkini</b> — satu peristiwa kuartal terakhir yang diketahui orang dalam."
+        },
+        {
+         "en": "<b>Business model</b> — who pays, for what, where the margin is: one sentence.",
+         "id": "<b>Model bisnis</b> — siapa membayar, untuk apa, di mana marginnya: satu kalimat."
+        },
+        {
+         "en": "<b>The team’s role</b> — where your job sits in that sentence.",
+         "id": "<b>Peran tim</b> — di mana pekerjaanmu berada dalam kalimat itu."
+        },
+        {
+         "en": "<b>Genuine interest</b> — the thing you would read about anyway.",
+         "id": "<b>Minat asli</b> — hal yang akan kamu baca bagaimanapun juga."
+        },
+        {
+         "en": "<b>The unanswerable question</b> — what only the person in the room can tell you.",
+         "id": "<b>Pertanyaan tak terjawab</b> — yang hanya bisa diberitahukan orang di ruangan."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Research shows up in answers, not recitals",
+        "id": "Riset muncul di jawaban, bukan pembacaan"
+       },
+       "body": {
+        "en": "The purpose of the page is not to be reported. An interviewer who asks “apa yang Anda ketahui tentang kami?” is not testing recall; the question’s hidden concern is whether this application is random (Lesson 1.3). A recital — “Bank Sinar Nusantara berdiri tahun…, memiliki … cabang, dan merupakan salah satu bank terbesar…” — answers a question nobody asked and signals that the research was done to be shown. The alternative is to spend the research inside two answers. One fact anchors “why us”: a priority from the report, connected to something in your own history, stated as a reason you chose them. One fact powers your question at the end: the thing you could not find out, asked of the person who knows. Everything else stays in your notes, where it makes you calmer and lets you follow the conversation. Ryan’s test for any research fact is whether it changes what you say about yourself; if it does not, it is trivia <i>(Ryan, 60 Seconds & You’re Hired!)</i>.",
+        "id": "Tujuan halaman itu bukan untuk dilaporkan. Pewawancara yang bertanya “apa yang Anda ketahui tentang kami?” tidak menguji ingatan; kekhawatiran tersembunyi pertanyaannya adalah apakah lamaran ini acak (Pelajaran 1.3). Pembacaan — “Bank Sinar Nusantara berdiri tahun…, memiliki … cabang, dan merupakan salah satu bank terbesar…” — menjawab pertanyaan yang tidak ditanyakan siapa pun dan menandakan riset dilakukan untuk dipertunjukkan. Alternatifnya adalah membelanjakan riset di dalam dua jawaban. Satu fakta menjangkar “mengapa kami”: prioritas dari laporan, dihubungkan dengan sesuatu dalam riwayatmu sendiri, dinyatakan sebagai alasan kamu memilih mereka. Satu fakta menggerakkan pertanyaanmu di akhir: hal yang tidak bisa kamu temukan, ditanyakan ke orang yang tahu. Sisanya tetap di catatanmu, tempat ia membuatmu lebih tenang dan membiarkanmu mengikuti percakapan. Ujian Ryan untuk fakta riset apa pun adalah apakah ia mengubah apa yang kamu katakan tentang dirimu; jika tidak, itu trivia <i>(Ryan, 60 Seconds & You’re Hired!)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Research use",
+          "id": "Penggunaan riset"
+         },
+         {
+          "en": "Sounds like",
+          "id": "Terdengar seperti"
+         },
+         {
+          "en": "What the interviewer hears",
+          "id": "Yang didengar pewawancara"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Recital</b>",
+           "id": "<b>Pembacaan</b>"
+          },
+          {
+           "en": "“Perusahaan ini adalah perusahaan terbesar di bidangnya, berdiri sejak…”",
+           "id": "“Perusahaan ini adalah perusahaan terbesar di bidangnya, berdiri sejak…”"
+          },
+          {
+           "en": "Can read. Application may still be random.",
+           "id": "Bisa membaca. Lamaran mungkin tetap acak."
+          }
+         ],
+         [
+          {
+           "en": "<b>Anchor</b>",
+           "id": "<b>Jangkar</b>"
+          },
+          {
+           "en": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP.”",
+           "id": "“Di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP.”"
+          },
+          {
+           "en": "Chose us for a reason that is true about us.",
+           "id": "Memilih kami karena alasan yang benar tentang kami."
+          }
+         ],
+         [
+          {
+           "en": "<b>Question</b>",
+           "id": "<b>Pertanyaan</b>"
+          },
+          {
+           "en": "“Untuk penempatan di luar Jawa, bagaimana ODP biasanya disiapkan sebelum berangkat?”",
+           "id": "“Untuk penempatan di luar Jawa, bagaimana ODP biasanya disiapkan sebelum berangkat?”"
+          },
+          {
+           "en": "Has thought about the actual job; wants to know what we know.",
+           "id": "Sudah memikirkan pekerjaan sebenarnya; ingin tahu apa yang kami tahu."
+          }
+         ],
+         [
+          {
+           "en": "<b>Over-research</b>",
+           "id": "<b>Riset berlebih</b>"
+          },
+          {
+           "en": "Quoting a review site as fact; naming the interviewer’s previous employer unprompted",
+           "id": "Mengutip situs ulasan sebagai fakta; menyebut pemberi kerja sebelumnya si pewawancara tanpa diminta"
+          },
+          {
+           "en": "Misjudges evidence; or is a little unsettling.",
+           "id": "Salah menilai bukti; atau agak mengganggu."
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Indonesian sources",
+        "id": "Sumber Indonesia"
+       },
+       "body": {
+        "en": "The sprint depends on knowing where the good material is. For companies listed on the Indonesia Stock Exchange, the exchange’s disclosure pages and the company’s own investor section carry annual reports, quarterly results and material announcements — the segment table and the management letter are the fifteen minutes that matter. State-owned enterprises publish annual and sustainability reports on their own sites, often with a section on human capital that names the programmes you are applying to. For banks, the regulator publishes industry statistics and the banks themselves publish quarterly financial statements as required <span class=\"ev ev-verify\">Verify: which regulator publications are available, and where, for the target bank</span>. For startups, there is no report: the founders’ LinkedIn posts, funding announcements and product-launch posts are the equivalent, and the product itself is the primary source. For culture signals, the company’s Instagram and TikTok are more honest than its careers page, because they show what the company chooses to celebrate — a week of posts tells you whether the place is formal or informal, hierarchical or flat, and what its staff look like at work. Availability varies; check what exists in five minutes before you allocate the blocks.",
+        "id": "Sprint bergantung pada mengetahui di mana materi baiknya. Untuk perusahaan yang tercatat di Bursa Efek Indonesia, halaman keterbukaan informasi bursa dan bagian investor perusahaan sendiri memuat laporan tahunan, hasil kuartalan, dan pengumuman material — tabel segmen dan surat manajemen adalah lima belas menit yang penting. Badan usaha milik negara menerbitkan laporan tahunan dan keberlanjutan di situs mereka sendiri, sering dengan bagian human capital yang menyebut program yang kamu lamar. Untuk bank, regulator menerbitkan statistik industri dan bank sendiri menerbitkan laporan keuangan kuartalan sebagaimana diwajibkan <span class=\"ev ev-verify\">Verifikasi: terbitan regulator mana yang tersedia, dan di mana, untuk bank sasaran</span>. Untuk startup, tidak ada laporan: unggahan LinkedIn pendiri, pengumuman pendanaan, dan unggahan peluncuran produk adalah padanannya, dan produk itu sendiri adalah sumber utama. Untuk sinyal budaya, Instagram dan TikTok perusahaan lebih jujur daripada halaman kariernya, karena menunjukkan apa yang dipilih perusahaan untuk dirayakan — seminggu unggahan memberi tahu apakah tempat itu formal atau informal, hierarkis atau datar, dan seperti apa stafnya saat bekerja. Ketersediaan berbeda-beda; periksa apa yang ada dalam lima menit sebelum mengalokasikan blok."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Employer type",
+          "id": "Jenis pemberi kerja"
+         },
+         {
+          "en": "Best source for block 2",
+          "id": "Sumber terbaik untuk blok 2"
+         },
+         {
+          "en": "Best source for block 4–6",
+          "id": "Sumber terbaik untuk blok 4–6"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Listed company",
+           "id": "Perusahaan tercatat"
+          },
+          {
+           "en": "IDX disclosures; investor section; annual report management letter and segment table",
+           "id": "Keterbukaan informasi BEI; bagian investor; surat manajemen dan tabel segmen laporan tahunan"
+          },
+          {
+           "en": "LinkedIn team pages; the product; investor Q&A transcripts if published",
+           "id": "Halaman tim LinkedIn; produk; transkrip tanya jawab investor jika diterbitkan"
+          }
+         ],
+         [
+          {
+           "en": "BUMN",
+           "id": "BUMN"
+          },
+          {
+           "en": "Annual and sustainability report; human-capital section",
+           "id": "Laporan tahunan dan keberlanjutan; bagian human capital"
+          },
+          {
+           "en": "Programme alumni on LinkedIn; the branch or plant; official Instagram",
+           "id": "Alumni program di LinkedIn; cabang atau pabrik; Instagram resmi"
+          }
+         ],
+         [
+          {
+           "en": "Bank",
+           "id": "Bank"
+          },
+          {
+           "en": "Quarterly financial statements; regulator statistics <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Laporan keuangan kuartalan; statistik regulator <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Open an account or visit a branch; the app’s reviews, read critically",
+           "id": "Buka rekening atau kunjungi cabang; ulasan aplikasi, dibaca kritis"
+          }
+         ],
+         [
+          {
+           "en": "Startup",
+           "id": "Startup"
+          },
+          {
+           "en": "Founder posts; funding and launch announcements; the product blog",
+           "id": "Unggahan pendiri; pengumuman pendanaan dan peluncuran; blog produk"
+          },
+          {
+           "en": "Use the product end to end; recent hires’ backgrounds; the merchant or user side",
+           "id": "Pakai produk dari awal hingga akhir; latar karyawan baru; sisi merchant atau pengguna"
+          }
+         ],
+         [
+          {
+           "en": "SME / family business",
+           "id": "UKM / bisnis keluarga"
+          },
+          {
+           "en": "There is no report — the owner’s public posts and local news",
+           "id": "Tidak ada laporan — unggahan publik pemilik dan berita lokal"
+          },
+          {
+           "en": "Visit as a customer; talk to staff; ask the person who introduced you",
+           "id": "Kunjungi sebagai pelanggan; bicara dengan staf; tanya orang yang memperkenalkanmu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Sources by employer type. Regulator availability is marked for verification; the rest is course guidance.",
+         "id": "Sumber per jenis pemberi kerja. Ketersediaan regulator ditandai untuk verifikasi; sisanya panduan kursus."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: The ninety-minute sprint",
+       "id": "Peraga 1: Sprint sembilan puluh menit"
+      },
+      "title": {
+       "en": "Six blocks, one output each, timer on",
+       "id": "Enam blok, satu keluaran masing-masing, pengatur waktu menyala"
+      },
+      "items": [
+       {
+        "icon": "compass",
+        "h": {
+         "en": "0–15 · Site",
+         "id": "0–15 · Situs"
+        },
+        "sub": {
+         "en": "Mission sentence, values, programme structure.",
+         "id": "Kalimat misi, nilai, struktur program."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "15–30 · Report",
+         "id": "15–30 · Laporan"
+        },
+        "sub": {
+         "en": "Two or three priorities with a number each.",
+         "id": "Dua atau tiga prioritas dengan satu angka masing-masing."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "30–45 · News",
+         "id": "30–45 · Berita"
+        },
+        "sub": {
+         "en": "One recent change an insider would know.",
+         "id": "Satu perubahan terkini yang diketahui orang dalam."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "45–60 · People",
+         "id": "45–60 · Orang"
+        },
+        "sub": {
+         "en": "Who is in the room; what they hire; the team’s role.",
+         "id": "Siapa di ruangan; apa yang mereka rekrut; peran tim."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "60–75 · Product",
+         "id": "60–75 · Produk"
+        },
+        "sub": {
+         "en": "One genuine observation.",
+         "id": "Satu pengamatan asli."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "75–90 · Reviews",
+         "id": "75–90 · Ulasan"
+        },
+        "sub": {
+         "en": "Read critically; leave with the unanswerable question.",
+         "id": "Baca kritis; pulang dengan pertanyaan tak terjawab."
+        }
+       }
+      ],
+      "note": {
+       "en": "When the timer rings, move. The page, not the reading, is the deliverable.",
+       "id": "Saat pengatur waktu berbunyi, pindah. Halamannya, bukan bacaannya, adalah hasilnya."
+      },
+      "longdesc": {
+       "en": "A ninety-minute timeline in six fifteen-minute blocks: the official site for mission, values and programme; the annual or investor report for two or three priorities with numbers; three months of news for one recent change; LinkedIn for who is in the room and what backgrounds they hire; the product itself for one genuine observation; review sites read critically for the question only the interviewer can answer.",
+       "id": "Lini masa sembilan puluh menit dalam enam blok lima belas menit: situs resmi untuk misi, nilai, dan program; laporan tahunan atau investor untuk dua atau tiga prioritas dengan angka; tiga bulan berita untuk satu perubahan terkini; LinkedIn untuk siapa di ruangan dan latar apa yang mereka rekrut; produk itu sendiri untuk satu pengamatan asli; situs ulasan dibaca kritis untuk pertanyaan yang hanya bisa dijawab pewawancara."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Recital → anchored answer",
+        "id": "Pembacaan → jawaban berjangkar"
+       },
+       "q": {
+        "en": "“Apa yang Anda ketahui tentang bank kami, dan kenapa ODP?” — asked by HR in the phone screen, fifteen minutes total.",
+        "id": "“Apa yang Anda ketahui tentang bank kami, dan kenapa ODP?” — ditanyakan HR di seleksi telepon, total lima belas menit."
+       },
+       "weak": {
+        "en": "“Bank Sinar Nusantara adalah salah satu bank terbesar di Indonesia, berdiri sejak lama, punya banyak cabang di seluruh Indonesia, dan dikenal dengan pelayanannya yang baik. Saya ingin bergabung karena bank ini perusahaan yang bagus dan saya ingin berkembang bersama perusahaan.”",
+        "id": "“Bank Sinar Nusantara adalah salah satu bank terbesar di Indonesia, berdiri sejak lama, punya banyak cabang di seluruh Indonesia, dan dikenal dengan pelayanannya yang baik. Saya ingin bergabung karena bank ini perusahaan yang bagus dan saya ingin berkembang bersama perusahaan.”"
+       },
+       "strong": {
+        "en": "“Saya lihat di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP, karena penempatan di daerah justru bagian yang paling ingin saya pelajari. Waktu magang di cabang Semarang, pekerjaan yang paling saya nikmati adalah rekonsiliasi harian, dan ODP jalur operasi adalah tempat itu dikerjakan.”",
+        "id": "“Saya lihat di laporan tahunan, fokus tahun ini perluasan kredit UMKM di luar Jawa — itu salah satu alasan saya tertarik ODP, karena penempatan di daerah justru bagian yang paling ingin saya pelajari. Waktu magang di cabang Semarang, pekerjaan yang paling saya nikmati adalah rekonsiliasi harian, dan ODP jalur operasi adalah tempat itu dikerjakan.”"
+       },
+       "why": {
+        "en": "The weak answer is true of a hundred banks and could have been written without opening a browser; its “why” is about the candidate’s growth, not the bank. The strong answer spends one researched fact (a priority with a place in it), connects it to the candidate’s own decision about placement — which is also the screen’s hidden concern — and to her internship, then names the stream. Forty seconds, one fact, one story fragment, and the hidden concern answered before it was asked.",
+        "id": "Jawaban lemah benar untuk seratus bank dan bisa ditulis tanpa membuka peramban; “mengapa”-nya tentang pertumbuhan kandidat, bukan bank. Jawaban kuat membelanjakan satu fakta riset (prioritas dengan tempat di dalamnya), menghubungkannya dengan keputusan kandidat sendiri soal penempatan — yang juga kekhawatiran tersembunyi seleksi awal — dan dengan magangnya, lalu menyebut jalurnya. Empat puluh detik, satu fakta, satu penggalan cerita, dan kekhawatiran tersembunyi terjawab sebelum ditanyakan."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "clock",
+      "title": {
+       "en": "In focus: the branch visit that replaced twenty pages",
+       "id": "Sorotan: kunjungan cabang yang menggantikan dua puluh halaman"
+      },
+      "body": [
+       {
+        "en": "Nadia gives Bank Sinar Nusantara ninety minutes on Sunday. Block 1: the careers page — the four values, the ODP structure, twelve months of rotation. Block 2: the annual report’s management letter — two priorities, UMKM lending outside Java and a branch digitisation programme, each with a target. Block 3: news — a new regional office opened in Makassar last quarter. Block 4: LinkedIn — three ODP alumni; two came from accounting, one from agriculture; the Kepala Cabang who will interview her ran a branch in Kalimantan before Semarang. Block 5: she walks into the Tembalang branch on Monday morning, opens a savings account, and watches the queue: the teller re-keys a form the customer already filled in on the app.",
+        "id": "Nadia memberi Bank Sinar Nusantara sembilan puluh menit pada hari Minggu. Blok 1: halaman karier — empat nilai, struktur ODP, dua belas bulan rotasi. Blok 2: surat manajemen laporan tahunan — dua prioritas, kredit UMKM di luar Jawa dan program digitalisasi cabang, masing-masing dengan target. Blok 3: berita — kantor regional baru dibuka di Makassar kuartal lalu. Blok 4: LinkedIn — tiga alumni ODP; dua dari akuntansi, satu dari pertanian; Kepala Cabang yang akan mewawancarainya pernah memimpin cabang di Kalimantan sebelum Semarang. Blok 5: ia masuk ke cabang Tembalang Senin pagi, membuka rekening tabungan, dan mengamati antrean: teller mengetik ulang formulir yang sudah diisi nasabah di aplikasi."
+       },
+       {
+        "en": "Block 6 gives her nothing new from review sites and one question she cannot answer: does the digitisation programme change what an ODP does in the branch, or only what the customer sees? Her page has six lines. In the user interview she spends two of them — the UMKM priority inside “why ODP”, and the re-keyed form as an observation, not a critique, when the Kepala Cabang asks what she noticed at a branch. The rest she never says. The question she asks at the end is the block-6 one, and the Kepala Cabang, who spent three years in Kalimantan, talks for two minutes.",
+        "id": "Blok 6 tidak memberinya hal baru dari situs ulasan dan satu pertanyaan yang tidak bisa ia jawab: apakah program digitalisasi mengubah apa yang dikerjakan ODP di cabang, atau hanya apa yang dilihat nasabah? Halamannya berisi enam baris. Di wawancara user ia membelanjakan dua — prioritas UMKM di dalam “mengapa ODP”, dan formulir yang diketik ulang sebagai pengamatan, bukan kritik, saat Kepala Cabang bertanya apa yang ia perhatikan di cabang. Sisanya tidak pernah ia ucapkan. Pertanyaan yang ia ajukan di akhir adalah pertanyaan blok 6, dan Kepala Cabang, yang menghabiskan tiga tahun di Kalimantan, bicara selama dua menit."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The sprint, timed",
+        "id": "Latihan 1 · Sprint, dengan waktu"
+       },
+       "body": {
+        "en": "Pick your top target. Set six fifteen-minute timers and run the six blocks in order, writing only the output line for each. When the timer rings, move to the next block even mid-sentence. Finish with one page: six lines.",
+        "id": "Pilih sasaran teratasmu. Pasang enam pengatur waktu lima belas menit dan jalankan enam blok berurutan, hanya menulis baris keluaran masing-masing. Saat pengatur waktu berbunyi, pindah ke blok berikutnya meski di tengah kalimat. Selesaikan dengan satu halaman: enam baris."
+       },
+       "debrief": {
+        "en": "If block 2 ran over, you read the report instead of the letter and the segment table. If block 4 produced names but no pattern, look again at what the three recent hires have in common — that is what they hire. If block 5 is empty because “I couldn’t visit”, you can still open the app, call the hotline or order once; the observation is the point, not the branch. If you finished with a company history, start again with the six outputs written as headings before you open anything.",
+        "id": "Jika blok 2 kelebihan waktu, kamu membaca laporannya alih-alih surat dan tabel segmen. Jika blok 4 menghasilkan nama tetapi tanpa pola, lihat lagi kesamaan tiga karyawan baru — itulah yang mereka rekrut. Jika blok 5 kosong karena “tidak bisa berkunjung”, kamu tetap bisa membuka aplikasi, menelepon hotline, atau memesan sekali; pengamatannya yang penting, bukan cabangnya. Jika kamu berakhir dengan sejarah perusahaan, mulai lagi dengan enam keluaran ditulis sebagai judul sebelum membuka apa pun."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Spend two facts",
+        "id": "Latihan 2 · Belanjakan dua fakta"
+       },
+       "body": {
+        "en": "From your six lines, write the “why us” anchor — one researched fact connected to one thing from your own history, forty seconds — and the question for the end of the interview, addressed to the person you expect in the room. Say both aloud once in each language.",
+        "id": "Dari enam barismu, tulis jangkar “mengapa kami” — satu fakta riset dihubungkan dengan satu hal dari riwayatmu sendiri, empat puluh detik — dan pertanyaan untuk akhir wawancara, ditujukan ke orang yang kamu perkirakan ada di ruangan. Ucapkan keduanya sekali dalam tiap bahasa."
+       },
+       "debrief": {
+        "en": "The anchor fails if the fact could be said of any competitor (“perusahaan terbesar”), or if it is not connected to you (“fokusnya UMKM” — and then what?). The question fails if the careers page answers it, if it is about salary or hours, or if the person in the room could not know the answer — a Kepala Cabang cannot tell you the ODP intake size; HR can. Keep the other four lines in your notes; they are for your calm, not for the interviewer.",
+        "id": "Jangkar gagal jika faktanya bisa dikatakan tentang pesaing mana pun (“perusahaan terbesar”), atau jika tidak terhubung denganmu (“fokusnya UMKM” — lalu apa?). Pertanyaan gagal jika halaman karier menjawabnya, jika soal gaji atau jam kerja, atau jika orang di ruangan tidak mungkin tahu jawabannya — Kepala Cabang tidak bisa memberi tahu ukuran angkatan ODP; HR bisa. Simpan empat baris lainnya di catatanmu; itu untuk ketenanganmu, bukan untuk pewawancara."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Read a review critically",
+        "id": "Latihan 3 · Baca ulasan secara kritis"
+       },
+       "body": {
+        "en": "Find three employee reviews of your target (or of any large Indonesian employer). For each, note: who is likely to have written it, when, and what it would take for the claim to be true of the whole company. Then write one sentence on what, if anything, you would act on.",
+        "id": "Temukan tiga ulasan karyawan tentang sasaranmu (atau pemberi kerja besar Indonesia mana pun). Untuk masing-masing, catat: siapa yang kemungkinan menulisnya, kapan, dan apa yang diperlukan agar klaimnya benar untuk seluruh perusahaan. Lalu tulis satu kalimat tentang apa, jika ada, yang akan kamu tindak lanjuti."
+       },
+       "debrief": {
+        "en": "Most reviews are written at the two moments people feel strongly — leaving, or the week after an offer — and they describe one team in one year. Three negative reviews about the same specific practice (unpaid overtime in one department, a bond enforced harshly) are worth a question in the interview or a look at the contract (Module 10); three reviews saying “toxic” are noise. Never quote a review in the room; ask the question it raises instead.",
+        "id": "Kebanyakan ulasan ditulis pada dua momen orang merasa kuat — saat pergi, atau seminggu setelah tawaran — dan menggambarkan satu tim di satu tahun. Tiga ulasan negatif tentang praktik spesifik yang sama (lembur tak dibayar di satu departemen, ikatan dinas yang ditegakkan keras) layak menjadi pertanyaan di wawancara atau pemeriksaan kontrak (Modul 10); tiga ulasan yang berkata “toxic” adalah bising. Jangan pernah mengutip ulasan di ruangan; ajukan pertanyaan yang dimunculkannya sebagai gantinya."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Polishing the stories you like",
-         "id": "Memoles cerita yang kamu sukai"
+         "en": "Reading the “About” page for ninety minutes",
+         "id": "Membaca halaman “Tentang” selama sembilan puluh menit"
         },
         "fix": {
-         "en": "Polish the stories that cover the most uncovered competencies. The matrix decides, not your affection.",
-         "id": "Poles cerita yang mencakup paling banyak kompetensi belum tercakup. Matriks yang memutuskan, bukan kesukaanmu."
+         "en": "Six blocks, six outputs, a timer per block.",
+         "id": "Enam blok, enam keluaran, pengatur waktu per blok."
         }
        },
        {
         "h": {
-         "en": "Leaving a competency at zero",
-         "id": "Membiarkan satu kompetensi kosong"
+         "en": "Reciting the company profile",
+         "id": "Membacakan profil perusahaan"
         },
         "fix": {
-         "en": "An uncovered “must” is an interview lost. Mine again, or prepare the honest adjacent example and say it is adjacent.",
-         "id": "“Wajib” yang belum tercakup berarti wawancara yang hilang. Tambang lagi, atau siapkan contoh jujur yang berdekatan dan katakan itu berdekatan."
+         "en": "One fact in “why us”, one in your question; the rest stays in your notes.",
+         "id": "Satu fakta di “mengapa kami”, satu di pertanyaanmu; sisanya tetap di catatanmu."
         }
        },
        {
         "h": {
-         "en": "One story carrying five competencies",
-         "id": "Satu cerita menanggung lima kompetensi"
+         "en": "Treating review sites as data",
+         "id": "Memperlakukan situs ulasan sebagai data"
         },
         "fix": {
-         "en": "Interviewers notice the same project every answer. Spread the load across at least four settings.",
-         "id": "Pewawancara menyadari proyek yang sama di setiap jawaban. Sebar bebannya ke setidaknya empat latar."
+         "en": "Small, self-selected samples; ask the question they raise, never quote them.",
+         "id": "Sampel kecil yang memilih diri sendiri; ajukan pertanyaan yang dimunculkannya, jangan pernah mengutipnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Messaging the interviewer on LinkedIn beforehand",
+         "id": "Mengirim pesan ke pewawancara di LinkedIn sebelumnya"
+        },
+        "fix": {
+         "en": "Look, do not connect; a message before the interview reads as pressure.",
+         "id": "Lihat, jangan terhubung; pesan sebelum wawancara terbaca sebagai tekanan."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Research sprint",
+        "id": "Sprint riset"
+       },
+       "def": {
+        "en": "Ninety minutes in six timed blocks, each with one source and one output line.",
+        "id": "Sembilan puluh menit dalam enam blok berwaktu, masing-masing dengan satu sumber dan satu baris keluaran."
+       }
+      },
+      {
+       "term": {
+        "en": "Anchor",
+        "id": "Jangkar"
+       },
+       "def": {
+        "en": "One researched fact, connected to your own history, that carries the “why us” answer.",
+        "id": "Satu fakta riset, terhubung dengan riwayatmu sendiri, yang memikul jawaban “mengapa kami”."
+       }
+      },
+      {
+       "term": {
+        "en": "Recital",
+        "id": "Pembacaan"
+       },
+       "def": {
+        "en": "A company profile repeated back to the interviewer — proves reading, not choosing.",
+        "id": "Profil perusahaan yang diulang ke pewawancara — membuktikan membaca, bukan memilih."
+       }
+      },
+      {
+       "term": {
+        "en": "Unanswerable question",
+        "id": "Pertanyaan tak terjawab"
+       },
+       "def": {
+        "en": "The one thing you could not learn from public sources — your question for the end of the interview.",
+        "id": "Satu hal yang tidak bisa kamu pelajari dari sumber publik — pertanyaanmu untuk akhir wawancara."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Block 2 of the sprint for a listed bank should be spent on…",
+        "id": "Blok 2 sprint untuk bank tercatat sebaiknya dihabiskan untuk…"
+       },
+       "options": [
+        {
+         "en": "The full annual report, cover to cover",
+         "id": "Laporan tahunan penuh, dari sampul ke sampul"
+        },
+        {
+         "en": "The management letter and the segment table — two or three priorities with a number each",
+         "id": "Surat manajemen dan tabel segmen — dua atau tiga prioritas dengan satu angka masing-masing"
+        },
+        {
+         "en": "The company history",
+         "id": "Sejarah perusahaan"
+        },
+        {
+         "en": "Employee reviews",
+         "id": "Ulasan karyawan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Fifteen minutes buys priorities with numbers, which is what an answer can use; a history is a recital waiting to happen.",
+        "id": "Lima belas menit membeli prioritas dengan angka, yang bisa dipakai jawaban; sejarah adalah pembacaan yang menunggu terjadi."
+       }
+      },
+      {
+       "q": {
+        "en": "“Apa yang Anda ketahui tentang kami?” The hidden concern is…",
+        "id": "“Apa yang Anda ketahui tentang kami?” Kekhawatiran tersembunyinya adalah…"
+       },
+       "options": [
+        {
+         "en": "Whether you can memorise facts",
+         "id": "Apakah kamu bisa menghafal fakta"
+        },
+        {
+         "en": "Whether this application is random — answered with one fact connected to a reason you chose them",
+         "id": "Apakah lamaran ini acak — dijawab dengan satu fakta yang terhubung dengan alasan kamu memilih mereka"
+        },
+        {
+         "en": "Whether you know the founding year",
+         "id": "Apakah kamu tahu tahun berdirinya"
+        },
+        {
+         "en": "Whether you read the news",
+         "id": "Apakah kamu membaca berita"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A motivational question in disguise; the answer is an anchor, not a recital (Lesson 1.3).",
+        "id": "Pertanyaan motivasional yang menyamar; jawabannya jangkar, bukan pembacaan (Pelajaran 1.3)."
+       }
+      },
+      {
+       "q": {
+        "en": "Three reviews on an employer site say the bond is enforced harshly. You…",
+        "id": "Tiga ulasan di situs pemberi kerja mengatakan ikatan dinas ditegakkan keras. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Quote them to HR",
+         "id": "Mengutipnya ke HR"
+        },
+        {
+         "en": "Withdraw",
+         "id": "Mengundurkan diri"
+        },
+        {
+         "en": "Ask HR a neutral question about the bond terms and read the contract clause before signing (Module 10)",
+         "id": "Mengajukan pertanyaan netral ke HR tentang syarat ikatan dinas dan membaca klausulnya sebelum menandatangani (Modul 10)"
+        },
+        {
+         "en": "Ignore them — reviews are always noise",
+         "id": "Mengabaikannya — ulasan selalu bising"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Three reviews about the same specific practice are worth a question and a look at the contract; never a quotation in the room.",
+        "id": "Tiga ulasan tentang praktik spesifik yang sama layak menjadi pertanyaan dan pemeriksaan kontrak; tidak pernah kutipan di ruangan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr03",
+      "persona": "hr",
+      "profile": "motivational",
+      "returnTo": 2,
+      "label": {
+       "en": "Drill “Why do you want to work at this company?”",
+       "id": "Latih “Mengapa Anda ingin bekerja di perusahaan ini?”"
+      },
+      "desc": {
+       "en": "One question with the HR persona, answered with your anchor: one specific, verifiable fact from your sprint connected to one thing in your history. The debrief checks that the fact is specific to this employer and not true of its competitors.",
+       "id": "Satu pertanyaan dengan persona HR, dijawab dengan jangkarmu: satu fakta spesifik dan dapat diverifikasi dari sprintmu, terhubung dengan satu hal dalam riwayatmu. Debrief memeriksa bahwa faktanya khas pemberi kerja ini dan tidak berlaku untuk pesaingnya."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Ninety minutes, six blocks, six lines — then stop.",
+       "id": "Sembilan puluh menit, enam blok, enam baris — lalu berhenti."
+      },
+      {
+       "en": "Research is spent inside two answers, never reported.",
+       "id": "Riset dibelanjakan di dalam dua jawaban, tidak pernah dilaporkan."
+      },
+      {
+       "en": "Know which Indonesian sources exist for your employer type before you allocate the blocks.",
+       "id": "Ketahui sumber Indonesia mana yang ada untuk jenis pemberi kerjamu sebelum mengalokasikan blok."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the research page",
+       "id": "Sumber dan halaman riset"
+      },
+      "lead": {
+       "en": "Three sources and the one-page template the sprint produces.",
+       "id": "Tiga sumber dan templat satu halaman yang dihasilkan sprint."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.2",
+         "id": "Daftar bacaan · Pelajaran 3.2"
+        },
+        "desc": {
+         "en": "Sources on research and on the two directions of an interview.",
+         "id": "Sumber tentang riset dan tentang dua arah wawancara."
+        },
+        "body": [
+         {
+          "en": "S. Dalton, <i>The 2-Hour Job Search</i> — time-boxed research and informational questions.",
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i> — riset berbatas waktu dan pertanyaan informasional."
+         },
+         {
+          "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i> — the interview evaluates in both directions; research serves your side too.",
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i> — wawancara mengevaluasi dua arah; riset melayani sisimu juga."
+         },
+         {
+          "en": "R. Ryan, <i>60 Seconds & You’re Hired!</i> — a research fact is worth keeping only if it changes what you say about yourself.",
+          "id": "R. Ryan, <i>60 Seconds & You’re Hired!</i> — fakta riset layak disimpan hanya jika mengubah apa yang kamu katakan tentang dirimu."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Regulator publications for banks — confirm what is publicly available for the target before teaching it as a source.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Terbitan regulator untuk bank — konfirmasi apa yang tersedia publik untuk sasaran sebelum mengajarkannya sebagai sumber."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Research page (Kit item, part 2)",
+         "id": "Halaman riset (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "One page per target; six lines plus the two you will spend.",
+         "id": "Satu halaman per sasaran; enam baris plus dua yang akan kamu belanjakan."
+        },
+        "body": [
+         {
+          "en": "Priorities (2–3, with numbers) · recent change · business model in one sentence · the team’s role",
+          "id": "Prioritas (2–3, dengan angka) · perubahan terkini · model bisnis dalam satu kalimat · peran tim"
+         },
+         {
+          "en": "Genuine interest · the unanswerable question (and who can answer it)",
+          "id": "Minat asli · pertanyaan tak terjawab (dan siapa yang bisa menjawabnya)"
+         },
+         {
+          "en": "Anchor for “why us” (40 s, EN and ID) · question for the end",
+          "id": "Jangkar untuk “mengapa kami” (40 dtk, EN dan ID) · pertanyaan untuk akhir"
+         },
+         {
+          "en": "Sources used and date checked — facts age; re-check the week of the interview",
+          "id": "Sumber yang dipakai dan tanggal diperiksa — fakta menua; periksa ulang minggu wawancara"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.3",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Predict and Map — The Hypothesis Hour",
+      "id": "Prediksi dan Petakan — Jam Hipotesis"
+     },
+     "overview": {
+      "en": "The scorecard from Lesson 3.1 and the page from Lesson 3.2 exist so that you can do one thing the night before: predict the interview. This lesson turns them into ten to fifteen predicted questions in the proportions interviews actually use, maps each competency question to a primary and a backup story from your Core 10, exposes the questions with no story as the gaps to fill or acknowledge, rehearses the top five in the simulator, and ends with the day-before checklist that Module 9 expands. One hour, one matrix, and the interview stops being a surprise.",
+      "id": "Lembar penilaian dari Pelajaran 3.1 dan halaman dari Pelajaran 3.2 ada agar kamu bisa melakukan satu hal pada malam sebelumnya: memprediksi wawancara. Pelajaran ini mengubahnya menjadi sepuluh hingga lima belas pertanyaan prediksi dalam proporsi yang benar-benar dipakai wawancara, memetakan tiap pertanyaan kompetensi ke cerita utama dan cadangan dari Core 10-mu, membuka pertanyaan tanpa cerita sebagai celah untuk diisi atau diakui, melatih lima teratas di simulator, dan diakhiri dengan daftar periksa sehari sebelumnya yang diperluas Modul 9. Satu jam, satu matriks, dan wawancara berhenti menjadi kejutan."
+     },
+     "objectives": [
+      {
+       "en": "Predict ten to fifteen questions in the standard proportions from a decoded scorecard.",
+       "id": "Memprediksi sepuluh hingga lima belas pertanyaan dalam proporsi standar dari lembar penilaian terurai."
+      },
+      {
+       "en": "Map every competency question to a primary and a backup Core 10 story, and name the gaps.",
+       "id": "Memetakan setiap pertanyaan kompetensi ke cerita Core 10 utama dan cadangan, dan menyebut celahnya."
+      },
+      {
+       "en": "Read the story × competency matrix for workhorses, thin columns and retirements.",
+       "id": "Membaca matriks cerita × kompetensi untuk cerita andalan, kolom tipis, dan yang dipensiunkan."
+      },
+      {
+       "en": "Run the day-before checklist so nothing but the answers needs attention on the day.",
+       "id": "Menjalankan daftar periksa sehari sebelumnya agar hanya jawaban yang perlu perhatian pada harinya."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "An interview you predicted is an interview you prepared",
+       "id": "Wawancara yang kamu prediksi adalah wawancara yang kamu siapkan"
+      },
+      "intro": {
+       "en": "Ten to fifteen questions, in the proportions interviews use; a story for each; the gaps named. That is the whole hour.",
+       "id": "Sepuluh hingga lima belas pertanyaan, dalam proporsi yang dipakai wawancara; satu cerita untuk masing-masing; celah disebut. Itulah seluruh jamnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The proportions",
+         "id": "Proporsinya"
+        },
+        "points": [
+         {
+          "en": "1 opening · 2 motivational · 5–7 competency (one per top competency) · 1–2 technical · 1 difficult-case (your gap from Lesson 1.1) · 1 closing.",
+          "id": "1 pembuka · 2 motivasional · 5–7 kompetensi (satu per kompetensi teratas) · 1–2 teknis · 1 kasus sulit (celahmu dari Pelajaran 1.1) · 1 penutup."
+         },
+         {
+          "en": "The competency questions come straight off the scorecard.",
+          "id": "Pertanyaan kompetensi datang langsung dari lembar penilaian."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Primary and backup",
+         "id": "Utama dan cadangan"
+        },
+        "points": [
+         {
+          "en": "Each competency question gets a primary story and a backup — the same interviewer may ask twice.",
+          "id": "Setiap pertanyaan kompetensi mendapat cerita utama dan cadangan — pewawancara yang sama mungkin bertanya dua kali."
+         },
+         {
+          "en": "A question with no story is a gap: mine for it or prepare the honest acknowledgment.",
+          "id": "Pertanyaan tanpa cerita adalah celah: gali atau siapkan pengakuan jujur."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The matrix",
+         "id": "Matriks"
+        },
+        "points": [
+         {
+          "en": "Rows: your ten stories. Columns: the scorecard’s competencies. Mark where a story genuinely evidences a column.",
+          "id": "Baris: sepuluh ceritamu. Kolom: kompetensi lembar penilaian. Tandai di mana cerita benar-benar membuktikan kolom."
+         },
+         {
+          "en": "Three marks = workhorse; empty column = tomorrow’s ambush; zero-mark row = not for this interview.",
+          "id": "Tiga tanda = andalan; kolom kosong = serangan mendadak besok; baris tanpa tanda = bukan untuk wawancara ini."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then rehearse, then sleep",
+         "id": "Lalu latih, lalu tidur"
+        },
+        "points": [
+         {
+          "en": "The top five predicted questions go into the simulator once.",
+          "id": "Lima pertanyaan prediksi teratas masuk simulator sekali."
+         },
+         {
+          "en": "The day-before checklist takes ten minutes and removes every non-answer worry.",
+          "id": "Daftar periksa sehari sebelumnya memakan sepuluh menit dan menghilangkan setiap kekhawatiran non-jawaban."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "target",
+       "img": "../../assets/bg/gauntlet/gate-06-final.jpg",
+       "imgPos": "50% 36%",
+       "h": {
+        "en": "Predict ten to fifteen questions",
+        "id": "Prediksi sepuluh hingga lima belas pertanyaan"
+       },
+       "body": {
+        "en": "Interviews are more predictable than they feel, because the interviewer is working from the same scorecard you decoded and has thirty to forty-five minutes to cover it. Write the predicted set in the proportions that a structured interview uses: one opening (“ceritakan tentang diri Anda” or a CV walk-through), two motivational (“kenapa kami”, “kenapa program ini”), five to seven competency questions — one per scorecard line, written as the “ceritakan saat Anda…” that line predicts — one or two technical questions from the responsibilities layer, one difficult-case question aimed at the uncertainty you named in Lesson 1.1 (the IPK, the missing tool, the placement), and one closing (“ada pertanyaan?”). Write each as the interviewer would say it, in the language the round will use. You will not predict the wording, and you do not need to: two of your fifteen will be asked verbatim, eight will be asked in a form you recognise, and the rest will be answerable by the same stories, because the stories were chosen for the competencies and the competencies are what is being scored <i>(Kador on the structured guide; Pellett on interviewer preparation)</i>.",
+        "id": "Wawancara lebih dapat diprediksi daripada rasanya, karena pewawancara bekerja dari lembar penilaian yang sama dengan yang kamu urai dan punya tiga puluh hingga empat puluh lima menit untuk mencakupnya. Tulis set prediksi dalam proporsi yang dipakai wawancara terstruktur: satu pembuka (“ceritakan tentang diri Anda” atau penelusuran CV), dua motivasional (“kenapa kami”, “kenapa program ini”), lima hingga tujuh pertanyaan kompetensi — satu per baris lembar penilaian, ditulis sebagai “ceritakan saat Anda…” yang diprediksi baris itu — satu atau dua pertanyaan teknis dari lapis tanggung jawab, satu pertanyaan kasus sulit yang membidik ketidakpastian yang kamu sebut di Pelajaran 1.1 (IPK, alat yang belum dikuasai, penempatan), dan satu penutup (“ada pertanyaan?”). Tulis masing-masing seperti pewawancara akan mengatakannya, dalam bahasa yang akan dipakai ronde itu. Kamu tidak akan memprediksi kata-katanya, dan tidak perlu: dua dari lima belasmu akan ditanyakan persis, delapan dalam bentuk yang kamu kenali, dan sisanya dapat dijawab cerita yang sama, karena cerita dipilih untuk kompetensi dan kompetensi adalah yang dinilai <i>(Kador tentang panduan terstruktur; Pellett tentang persiapan pewawancara)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Type",
+          "id": "Tipe"
+         },
+         {
+          "en": "How many",
+          "id": "Berapa"
+         },
+         {
+          "en": "Source",
+          "id": "Sumber"
+         },
+         {
+          "en": "Nadia · Bank Sinar user round",
+          "id": "Nadia · ronde user Bank Sinar"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Opening",
+           "id": "Pembuka"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Always",
+           "id": "Selalu"
+          },
+          {
+           "en": "“Ceritakan tentang diri Anda secara singkat.”",
+           "id": "“Ceritakan tentang diri Anda secara singkat.”"
+          }
+         ],
+         [
+          {
+           "en": "Motivational",
+           "id": "Motivasional"
+          },
+          {
+           "en": "2",
+           "id": "2"
+          },
+          {
+           "en": "Company language; the programme",
+           "id": "Bahasa perusahaan; program"
+          },
+          {
+           "en": "“Kenapa ODP, bukan posisi staf?” · “Kenapa bank kami?”",
+           "id": "“Kenapa ODP, bukan posisi staf?” · “Kenapa bank kami?”"
+          }
+         ],
+         [
+          {
+           "en": "Competency",
+           "id": "Kompetensi"
+          },
+          {
+           "en": "5–7",
+           "id": "5–7"
+          },
+          {
+           "en": "One per scorecard line",
+           "id": "Satu per baris lembar penilaian"
+          },
+          {
+           "en": "accuracy · service · coordination · integrity · learning — “ceritakan saat Anda…”",
+           "id": "ketelitian · layanan · koordinasi · integritas · belajar — “ceritakan saat Anda…”"
+          }
+         ],
+         [
+          {
+           "en": "Technical",
+           "id": "Teknis"
+          },
+          {
+           "en": "1–2",
+           "id": "1–2"
+          },
+          {
+           "en": "Responsibilities layer",
+           "id": "Lapis tanggung jawab"
+          },
+          {
+           "en": "“Bagaimana Anda merekonsiliasi laporan harian dengan mutasi rekening?”",
+           "id": "“Bagaimana Anda merekonsiliasi laporan harian dengan mutasi rekening?”"
+          }
+         ],
+         [
+          {
+           "en": "Difficult case",
+           "id": "Kasus sulit"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Your uncertainty (Lesson 1.1)",
+           "id": "Ketidakpastianmu (Pelajaran 1.1)"
+          },
+          {
+           "en": "“Anda belum memutuskan soal penempatan di luar Jawa?”",
+           "id": "“Anda belum memutuskan soal penempatan di luar Jawa?”"
+          }
+         ],
+         [
+          {
+           "en": "Closing",
+           "id": "Penutup"
+          },
+          {
+           "en": "1",
+           "id": "1"
+          },
+          {
+           "en": "Always",
+           "id": "Selalu"
+          },
+          {
+           "en": "“Ada yang ingin Anda tanyakan?”",
+           "id": "“Ada yang ingin Anda tanyakan?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Twelve predicted questions for a forty-five-minute user round. The competency rows are the scorecard, one line each.",
+         "id": "Dua belas pertanyaan prediksi untuk ronde user empat puluh lima menit. Baris kompetensi adalah lembar penilaian, satu baris masing-masing."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Map stories — primary, backup, gap",
+        "id": "Petakan cerita — utama, cadangan, celah"
+       },
+       "body": {
+        "en": "For each competency question, write the primary story from your Core 10 and the backup — the second-best story for the same slot. The backup matters because the same interviewer may ask for the competency twice from different angles (“and another example?”), and because a panel of three will not have compared notes on which story you told the first one. Then read the mapping for gaps: a predicted question with no story at all. There are two kinds. A <b>minable gap</b> is a competency you have evidence for but never framed — go back to the Lesson 2.1 prompts with that competency named and dig once more. A <b>real gap</b> is a competency you genuinely do not yet have (people management, a tool, an industry) — the answer is the honest acknowledgment with adjacent evidence and a ramp-up plan, prepared in advance rather than improvised (Lesson 5.3 gives the shape). Interviewers respect a named gap with a plan far more than a bluffed strength, and the bluff dies at the first probe. The mapping is also where the Core 10 earns its number: ten stories, each covering two or three slots, will cover a six-line scorecard with backups and leave two or three stories unused — retire those for this interview without guilt.",
+        "id": "Untuk tiap pertanyaan kompetensi, tulis cerita utama dari Core 10-mu dan cadangannya — cerita terbaik kedua untuk slot yang sama. Cadangan penting karena pewawancara yang sama mungkin meminta kompetensi itu dua kali dari sudut berbeda (“ada contoh lain?”), dan karena panel tiga orang tidak akan membandingkan catatan tentang cerita mana yang kamu ceritakan ke yang pertama. Lalu baca pemetaan untuk celah: pertanyaan prediksi tanpa cerita sama sekali. Ada dua jenis. <b>Celah yang bisa digali</b> adalah kompetensi yang buktinya kamu punya tetapi belum pernah dibingkai — kembali ke pemicu Pelajaran 2.1 dengan kompetensi itu disebut dan gali sekali lagi. <b>Celah nyata</b> adalah kompetensi yang memang belum kamu miliki (manajemen orang, sebuah alat, sebuah industri) — jawabannya pengakuan jujur dengan bukti berdekatan dan rencana pemulihan, disiapkan lebih dulu alih-alih diimprovisasi (Pelajaran 5.3 memberi bentuknya). Pewawancara menghargai celah yang disebut beserta rencana jauh lebih daripada kekuatan yang digertak, dan gertakan mati di galian pertama. Pemetaan juga tempat Core 10 membuktikan angkanya: sepuluh cerita, masing-masing mencakup dua atau tiga slot, akan mencakup lembar penilaian enam baris dengan cadangan dan menyisakan dua atau tiga cerita tak terpakai — pensiunkan untuk wawancara ini tanpa rasa bersalah."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Predicted competency question",
+          "id": "Pertanyaan kompetensi prediksi"
+         },
+         {
+          "en": "Primary story",
+          "id": "Cerita utama"
+         },
+         {
+          "en": "Backup",
+          "id": "Cadangan"
+         },
+         {
+          "en": "Gap?",
+          "id": "Celah?"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Accuracy — “a mistake you caught”",
+           "id": "Ketelitian — “kesalahan yang Anda tangkap”"
+          },
+          {
+           "en": "#1 terminal mismatch",
+           "id": "#1 selisih terminal"
+          },
+          {
+           "en": "#7 clean audit",
+           "id": "#7 audit bersih"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Service — “a frustrated customer”",
+           "id": "Layanan — “pelanggan frustrasi”"
+          },
+          {
+           "en": "#20 wrong order",
+           "id": "#20 salah pesanan"
+          },
+          {
+           "en": "#18 pre-order board",
+           "id": "#18 papan pra-pesan"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Coordination — “a disagreement with another team”",
+           "id": "Koordinasi — “ketidaksepakatan dengan tim lain”"
+          },
+          {
+           "en": "#9 receipts refusal",
+           "id": "#9 penolakan kuitansi"
+          },
+          {
+           "en": "#14 teammate who went quiet",
+           "id": "#14 rekan yang menghilang"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Integrity — “honesty that cost you”",
+           "id": "Integritas — “kejujuran yang merugikan”"
+          },
+          {
+           "en": "#17 till overage",
+           "id": "#17 kas lebih"
+          },
+          {
+           "en": "#9 receipts refusal",
+           "id": "#9 penolakan kuitansi"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Learning — “a system learned fast”",
+           "id": "Belajar — “sistem yang dipelajari cepat”"
+          },
+          {
+           "en": "#4 asked three times",
+           "id": "#4 bertanya tiga kali"
+          },
+          {
+           "en": "#22 KKN rewrite",
+           "id": "#22 tulis ulang KKN"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Leadership — “led people you did not manage”",
+           "id": "Kepemimpinan — “memimpin orang yang tidak Anda kelola”"
+          },
+          {
+           "en": "#12 the Rp 25 juta gap",
+           "id": "#12 kekurangan Rp 25 juta"
+          },
+          {
+           "en": "#19 trained four",
+           "id": "#19 melatih empat"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "Technical — reconciling a statement to a ledger",
+           "id": "Teknis — merekonsiliasi rekening koran dengan buku besar"
+          },
+          {
+           "en": "Method from the internship (Module 6)",
+           "id": "Metode dari magang (Modul 6)"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "<i>Minable</i>: write the method as steps",
+           "id": "<i>Bisa digali</i>: tulis metodenya sebagai langkah"
+          }
+         ],
+         [
+          {
+           "en": "Difficult — placement outside Java",
+           "id": "Sulit — penempatan di luar Jawa"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "<i>Real</i>: a true sentence, decided before Thursday (Lesson 5.3)",
+           "id": "<i>Nyata</i>: kalimat jujur, diputuskan sebelum Kamis (Pelajaran 5.3)"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Nadia’s mapping for the Bank Sinar user round. Unused for this interview: #10, #13 — retired, not deleted.",
+         "id": "Pemetaan Nadia untuk ronde user Bank Sinar. Tak terpakai untuk wawancara ini: #10, #13 — dipensiunkan, bukan dihapus."
+        }
+       }
+      },
+      {
+       "icon": "book",
+       "h": {
+        "en": "The story × competency matrix",
+        "id": "Matriks cerita × kompetensi"
+       },
+       "body": {
+        "en": "The mapping table answers question by question; the matrix shows the whole picture at once, and it takes ten honest minutes. Rows: your ten stories. Columns: the scorecard’s competencies (five to seven) plus the values line. Mark ● where a story is primary proof of the column and ○ where it is secondary. Then read it three ways. A row with three or more marks is a <b>workhorse</b>: rehearse it at all three lengths (Lesson 2.4), because you will use it more than once and must not tell it the same way twice. A column with two or more marks lets you vary answers across a long process without repeating; a column with one mark is thin, and a column with none is tomorrow’s ambush — that is the gap the previous section handles. A row with zero marks may simply not belong in this interview: retire it for this target. The matrix also sets the <b>polish order</b> for tonight: workhorses first, then the stories that are the only cover for a column, then the rest. This is the retained core of the current Rope’s matrix lesson; the Role Decoder is specified to draw it automatically from the Story Bank, and until then a sheet of paper does it.",
+        "id": "Tabel pemetaan menjawab pertanyaan demi pertanyaan; matriks menunjukkan seluruh gambaran sekaligus, dan memakan sepuluh menit yang jujur. Baris: sepuluh ceritamu. Kolom: kompetensi lembar penilaian (lima hingga tujuh) plus baris nilai. Tandai ● di mana cerita adalah bukti utama kolom dan ○ di mana sekunder. Lalu baca tiga cara. Baris dengan tiga tanda atau lebih adalah <b>andalan</b>: latih di ketiga panjang (Pelajaran 2.4), karena kamu akan memakainya lebih dari sekali dan tidak boleh menceritakannya dengan cara yang sama dua kali. Kolom dengan dua tanda atau lebih memungkinkanmu memvariasikan jawaban sepanjang proses panjang tanpa mengulang; kolom dengan satu tanda tipis, dan kolom tanpa tanda adalah serangan mendadak besok — itulah celah yang ditangani bagian sebelumnya. Baris tanpa tanda mungkin memang tidak termasuk wawancara ini: pensiunkan untuk sasaran ini. Matriks juga menetapkan <b>urutan pemolesan</b> malam ini: andalan dulu, lalu cerita yang menjadi satu-satunya cakupan untuk sebuah kolom, lalu sisanya. Ini inti yang dipertahankan dari pelajaran matriks The Rope saat ini; Role Decoder ditentukan untuk menggambarnya otomatis dari Bank Cerita, dan sampai saat itu selembar kertas mengerjakannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Story",
+          "id": "Cerita"
+         },
+         {
+          "en": "Accuracy",
+          "id": "Ketelitian"
+         },
+         {
+          "en": "Service",
+          "id": "Layanan"
+         },
+         {
+          "en": "Coordination",
+          "id": "Koordinasi"
+         },
+         {
+          "en": "Analytical",
+          "id": "Analitis"
+         },
+         {
+          "en": "Learning",
+          "id": "Belajar"
+         },
+         {
+          "en": "Integrity",
+          "id": "Integritas"
+         },
+         {
+          "en": "Read as",
+          "id": "Dibaca sebagai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "#1 terminal mismatch",
+           "id": "#1 selisih terminal"
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "Workhorse",
+           "id": "Andalan"
+          }
+         ],
+         [
+          {
+           "en": "#17 till overage",
+           "id": "#17 kas lebih"
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "Only strong cover for Integrity — polish second",
+           "id": "Satu-satunya cakupan kuat untuk Integritas — poles kedua"
+          }
+         ],
+         [
+          {
+           "en": "#12 Rp 25 juta gap",
+           "id": "#12 kekurangan Rp 25 juta"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "Workhorse",
+           "id": "Andalan"
+          }
+         ],
+         [
+          {
+           "en": "#20 wrong order",
+           "id": "#20 salah pesanan"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "Only cover for Service — polish second",
+           "id": "Satu-satunya cakupan untuk Layanan — poles kedua"
+          }
+         ],
+         [
+          {
+           "en": "#4 asked three times",
+           "id": "#4 bertanya tiga kali"
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "●",
+           "id": "●"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "Learning cover",
+           "id": "Cakupan Belajar"
+          }
+         ],
+         [
+          {
+           "en": "#13 lost sponsor",
+           "id": "#13 sponsor yang hilang"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "○",
+           "id": "○"
+          },
+          {
+           "en": "",
+           "id": ""
+          },
+          {
+           "en": "Retire for this round; keep for “a failure”",
+           "id": "Pensiunkan untuk ronde ini; simpan untuk “sebuah kegagalan”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Six of Nadia’s ten against the Bank Sinar scorecard. ● primary proof · ○ secondary. Column totals under 2 = thin; row totals over 4 = over-used.",
+         "id": "Enam dari sepuluh milik Nadia terhadap lembar penilaian Bank Sinar. ● bukti utama · ○ sekunder. Total kolom di bawah 2 = tipis; total baris di atas 4 = terlalu sering dipakai."
+        }
+       }
+      },
+      {
+       "icon": "check",
+       "h": {
+        "en": "The day-before checklist",
+        "id": "Daftar periksa sehari sebelumnya"
+       },
+       "body": {
+        "en": "The hypothesis hour ends with ten minutes that are not about answers at all, because on the day every worry that is not about an answer steals attention from the answers. Logistics: the address or the link, the room or the platform, the time in the right zone, the route with a twenty-minute margin or the tech check done on the actual device. Documents: the ones the invitation named — transcript, ID, portfolio, a printed CV — in a folder, plus a pen. Attire: chosen tonight, not tomorrow; a notch above what the company’s Instagram shows its staff wearing. Kit review: the scorecard, the mapping, the research page and the five polished stories, read once, not memorised. Sleep: decided as a time, not an intention. Module 9 expands this into the full pre-session ritual and the calm protocol; tonight, the list is enough. Nothing on it improves an answer, and everything on it protects one.",
+        "id": "Jam hipotesis berakhir dengan sepuluh menit yang sama sekali bukan tentang jawaban, karena pada harinya setiap kekhawatiran yang bukan tentang jawaban mencuri perhatian dari jawaban. Logistik: alamat atau tautan, ruangan atau platform, waktu di zona yang benar, rute dengan margin dua puluh menit atau uji teknis di perangkat yang sebenarnya. Dokumen: yang disebut undangan — transkrip, KTP, portofolio, CV cetak — dalam map, plus pulpen. Pakaian: dipilih malam ini, bukan besok; setingkat di atas yang ditunjukkan Instagram perusahaan pada stafnya. Tinjauan Perangkat: lembar penilaian, pemetaan, halaman riset, dan lima cerita yang dipoles, dibaca sekali, bukan dihafal. Tidur: diputuskan sebagai waktu, bukan niat. Modul 9 memperluas ini menjadi ritual pra-sesi penuh dan protokol tenang; malam ini, daftarnya cukup. Tidak ada di dalamnya yang memperbaiki jawaban, dan semuanya melindungi satu."
+       },
+       "bullets": [
+        {
+         "en": "<b>Logistics</b> — address or link · room or platform · time and zone · route with 20 minutes spare, or tech check on the real device.",
+         "id": "<b>Logistik</b> — alamat atau tautan · ruangan atau platform · waktu dan zona · rute dengan 20 menit sisa, atau uji teknis di perangkat sebenarnya."
+        },
+        {
+         "en": "<b>Documents</b> — everything the invitation named, in one folder; a pen; the interviewer’s name spelled right.",
+         "id": "<b>Dokumen</b> — semua yang disebut undangan, dalam satu map; pulpen; nama pewawancara dieja benar."
+        },
+        {
+         "en": "<b>Attire</b> — chosen tonight; a notch above the company’s own photos.",
+         "id": "<b>Pakaian</b> — dipilih malam ini; setingkat di atas foto perusahaan sendiri."
+        },
+        {
+         "en": "<b>Kit review</b> — scorecard, mapping, research page, five polished stories: read once.",
+         "id": "<b>Tinjauan Perangkat</b> — lembar penilaian, pemetaan, halaman riset, lima cerita yang dipoles: baca sekali."
+        },
+        {
+         "en": "<b>Sleep</b> — a time, decided now.",
+         "id": "<b>Tidur</b> — waktu, diputuskan sekarang."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "ladder",
+      "exhibit": {
+       "en": "Exhibit 1: The hypothesis hour",
+       "id": "Peraga 1: Jam hipotesis"
+      },
+      "title": {
+       "en": "Sixty minutes from scorecard to “nothing left but the answers”",
+       "id": "Enam puluh menit dari lembar penilaian ke “tidak ada yang tersisa selain jawaban”"
+      },
+      "items": [
+       {
+        "icon": "target",
+        "h": {
+         "en": "0–15 · Predict",
+         "id": "0–15 · Prediksi"
+        },
+        "sub": {
+         "en": "Ten to fifteen questions in the standard proportions, worded as the interviewer would.",
+         "id": "Sepuluh hingga lima belas pertanyaan dalam proporsi standar, dengan kata-kata seperti pewawancara."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "15–30 · Map",
+         "id": "15–30 · Petakan"
+        },
+        "sub": {
+         "en": "Primary and backup story per competency question; gaps named as minable or real.",
+         "id": "Cerita utama dan cadangan per pertanyaan kompetensi; celah disebut sebagai bisa digali atau nyata."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "30–40 · Matrix",
+         "id": "30–40 · Matriks"
+        },
+        "sub": {
+         "en": "Ten rows, six columns; workhorses, thin columns, retirements; the polish order.",
+         "id": "Sepuluh baris, enam kolom; andalan, kolom tipis, pensiun; urutan pemolesan."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "40–50 · Rehearse",
+         "id": "40–50 · Latih"
+        },
+        "sub": {
+         "en": "The top five predicted questions in the simulator, once each.",
+         "id": "Lima pertanyaan prediksi teratas di simulator, sekali masing-masing."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "50–60 · Checklist",
+         "id": "50–60 · Daftar periksa"
+        },
+        "sub": {
+         "en": "Logistics, documents, attire, Kit review, sleep time.",
+         "id": "Logistik, dokumen, pakaian, tinjauan Perangkat, waktu tidur."
+        }
+       }
+      ],
+      "note": {
+       "en": "The hour is the same for every target; only the scorecard changes.",
+       "id": "Jamnya sama untuk setiap sasaran; hanya lembar penilaiannya yang berubah."
+      },
+      "longdesc": {
+       "en": "A five-rung ladder for the hypothesis hour: predict ten to fifteen questions in fifteen minutes; map primary and backup stories and name gaps in the next fifteen; draw the story × competency matrix in ten; rehearse the top five predicted questions in the simulator in ten; run the day-before checklist in the last ten.",
+       "id": "Tangga lima anak untuk jam hipotesis: prediksi sepuluh hingga lima belas pertanyaan dalam lima belas menit; petakan cerita utama dan cadangan dan sebut celah dalam lima belas berikutnya; gambar matriks cerita × kompetensi dalam sepuluh; latih lima pertanyaan prediksi teratas di simulator dalam sepuluh; jalankan daftar periksa sehari sebelumnya dalam sepuluh terakhir."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Bluff → owned gap",
+        "id": "Gertakan → celah yang diakui"
+       },
+       "q": {
+        "en": "A predicted question with no story arrives: “Peran ini butuh koordinasi langsung dengan tim teller dan CS setiap hari. Pernah mengelola orang?”",
+        "id": "Pertanyaan prediksi tanpa cerita tiba: “Peran ini butuh koordinasi langsung dengan tim teller dan CS setiap hari. Pernah mengelola orang?”"
+       },
+       "weak": {
+        "en": "“Ya, pasti — di hampir semua proyek saya, saya yang mengelola orang, seperti mengoordinasi tim dan hal-hal seperti itu.”",
+        "id": "“Ya, pasti — di hampir semua proyek saya, saya yang mengelola orang, seperti mengoordinasi tim dan hal-hal seperti itu.”"
+       },
+       "strong": {
+        "en": "“Mengelola orang secara langsung belum pernah — saya ingin jujur soal itu. Yang pernah saya lakukan adalah memimpin lewat pengaruh: di tim sponsorship enam orang saya yang menyusun rencana, menjalankan review mingguan, dan saat satu anggota menghilang dua minggu, saya yang menelepon dan membagi ulang pekerjaannya. Koordinasi harian dengan teller dan CS justru bagian yang paling ingin saya pelajari di rotasi, dan itu salah satu alasan saya memilih ODP.”",
+        "id": "“Mengelola orang secara langsung belum pernah — saya ingin jujur soal itu. Yang pernah saya lakukan adalah memimpin lewat pengaruh: di tim sponsorship enam orang saya yang menyusun rencana, menjalankan review mingguan, dan saat satu anggota menghilang dua minggu, saya yang menelepon dan membagi ulang pekerjaannya. Koordinasi harian dengan teller dan CS justru bagian yang paling ingin saya pelajari di rotasi, dan itu salah satu alasan saya memilih ODP.”"
+       },
+       "why": {
+        "en": "The bluff dies at the first probe (“contohnya?”) and costs trust in every other answer. The owned gap names the limit in one sentence, supplies adjacent evidence with a specific action (#14), and turns the gap into motive for the programme. This answer was written the night before, in the mapping, in the row marked “real gap” — which is why it sounds calm.",
+        "id": "Gertakan mati di galian pertama (“contohnya?”) dan merugikan kepercayaan pada setiap jawaban lain. Celah yang diakui menyebut batasnya dalam satu kalimat, memberi bukti berdekatan dengan tindakan spesifik (#14), dan mengubah celah menjadi motif untuk program. Jawaban ini ditulis malam sebelumnya, di pemetaan, di baris yang ditandai “celah nyata” — itulah sebabnya terdengar tenang."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "target",
+      "title": {
+       "en": "In focus: eleven of twelve",
+       "id": "Sorotan: sebelas dari dua belas"
+      },
+      "body": [
+       {
+        "en": "On Wednesday night Nadia writes twelve questions for the Kepala Cabang: the opening, “kenapa ODP” and “kenapa bank kami”, six competency questions off her scorecard, the reconciliation method, the placement question, and “ada pertanyaan?”. She maps them in fifteen minutes; two rows are gaps — the technical method, which she writes out as five steps from the internship, and placement, which she finally decides that night and writes as one sentence. The matrix shows #1 and #12 as workhorses and #20 as the only Service cover, so she rehearses those three at all lengths and #17 once. Round in the simulator: the top five, once. Checklist: transcript and ID in the folder, the branch address, the batik chosen, sleep at 22.30.",
+        "id": "Rabu malam Nadia menulis dua belas pertanyaan untuk Kepala Cabang: pembuka, “kenapa ODP” dan “kenapa bank kami”, enam pertanyaan kompetensi dari lembar penilaiannya, metode rekonsiliasi, pertanyaan penempatan, dan “ada pertanyaan?”. Ia memetakannya dalam lima belas menit; dua baris adalah celah — metode teknis, yang ia tulis sebagai lima langkah dari magang, dan penempatan, yang akhirnya ia putuskan malam itu dan tulis sebagai satu kalimat. Matriks menunjukkan #1 dan #12 sebagai andalan dan #20 sebagai satu-satunya cakupan Layanan, jadi ia melatih ketiganya di semua panjang dan #17 sekali. Putaran di simulator: lima teratas, sekali. Daftar periksa: transkrip dan KTP di map, alamat cabang, batik dipilih, tidur 22.30."
+       },
+       {
+        "en": "On Thursday the Kepala Cabang asks eleven questions. Two are word for word from her list. Seven are her list in his words — “pernah ketemu nasabah yang marah?” for the Service line. One she did not predict: “kalau teller senior Anda salah input dan tidak mau mengakui?” — but #9, the receipts refusal, answers it, because it was chosen for the coordination and integrity columns, not for a wording. The twelfth is the one she asks him, from block 6 of her research page.",
+        "id": "Hari Kamis Kepala Cabang mengajukan sebelas pertanyaan. Dua persis kata demi kata dari daftarnya. Tujuh adalah daftarnya dalam kata-katanya — “pernah ketemu nasabah yang marah?” untuk baris Layanan. Satu tidak ia prediksi: “kalau teller senior Anda salah input dan tidak mau mengakui?” — tetapi #9, penolakan kuitansi, menjawabnya, karena dipilih untuk kolom koordinasi dan integritas, bukan untuk kata-kata. Yang kedua belas adalah yang ia tanyakan kepadanya, dari blok 6 halaman risetnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Predict twelve for your top target",
+        "id": "Latihan 1 · Prediksi dua belas untuk sasaran teratasmu"
+       },
+       "body": {
+        "en": "From your Lesson 3.1 scorecard and 3.2 page, write twelve to fifteen questions in the standard proportions, each worded as the interviewer would say it, in the round’s language. Mark the type of each.",
+        "id": "Dari lembar penilaian Pelajaran 3.1 dan halaman 3.2-mu, tulis dua belas hingga lima belas pertanyaan dalam proporsi standar, masing-masing dengan kata-kata seperti pewawancara, dalam bahasa ronde itu. Tandai tipe masing-masing."
+       },
+       "debrief": {
+        "en": "If you have more than seven competency questions, you have listed competencies, not weighted them — go back to the scorecard. If the difficult-case question is missing, you have skipped the one question you most need to prepare: name your uncertainty from Lesson 1.1 and write the question an interviewer would build from it. If every question is in English for an Indonesian bank round, rewrite in the language the round will use; the wording you rehearse is the wording you will hear.",
+        "id": "Jika lebih dari tujuh pertanyaan kompetensi, kamu mendaftar kompetensi, bukan membobotnya — kembali ke lembar penilaian. Jika pertanyaan kasus sulit hilang, kamu melewatkan satu pertanyaan yang paling perlu kamu siapkan: sebutkan ketidakpastianmu dari Pelajaran 1.1 dan tulis pertanyaan yang akan dibangun pewawancara darinya. Jika setiap pertanyaan dalam bahasa Inggris untuk ronde bank Indonesia, tulis ulang dalam bahasa yang akan dipakai ronde; kata-kata yang kamu latih adalah kata-kata yang akan kamu dengar."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Map and draw the matrix",
+        "id": "Latihan 2 · Petakan dan gambar matriks"
+       },
+       "body": {
+        "en": "For each competency question, write primary and backup stories from your Core 10; mark gaps as minable or real, with the one-line plan for each. Then draw the matrix — ten rows, your scorecard’s columns — and mark ● and ○. Read off the workhorses, the thin columns, the retirements and tonight’s polish order.",
+        "id": "Untuk tiap pertanyaan kompetensi, tulis cerita utama dan cadangan dari Core 10-mu; tandai celah sebagai bisa digali atau nyata, dengan rencana satu baris masing-masing. Lalu gambar matriks — sepuluh baris, kolom lembar penilaianmu — dan tandai ● dan ○. Baca andalan, kolom tipis, pensiun, dan urutan pemolesan malam ini."
+       },
+       "debrief": {
+        "en": "A column with no ● is the question you will be asked and cannot answer; if it is minable, dig tonight, and if it is real, write the owned-gap answer now (limit · adjacent evidence · plan · motive). A row with five marks is being asked to do too much — it will be told three times and the third telling will sound rehearsed; move one of its columns to the backup story. The Role Decoder is specified to flag competencies without stories automatically; on paper, circle them in red.",
+        "id": "Kolom tanpa ● adalah pertanyaan yang akan ditanyakan dan tidak bisa kamu jawab; jika bisa digali, gali malam ini, dan jika nyata, tulis jawaban celah-yang-diakui sekarang (batas · bukti berdekatan · rencana · motif). Baris dengan lima tanda diminta terlalu banyak — akan diceritakan tiga kali dan penceritaan ketiga terdengar dihafal; pindahkan satu kolomnya ke cerita cadangan. Role Decoder ditentukan untuk menandai kompetensi tanpa cerita secara otomatis; di kertas, lingkari merah."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Rehearse five, then the checklist",
+        "id": "Latihan 3 · Latih lima, lalu daftar periksa"
+       },
+       "body": {
+        "en": "Take the five predicted questions with the highest scorecard weight into the simulator (the tryit below runs a predicted set for the bank round; use “predicted set” with your own five when the tool supports it, or ask a friend to read them). One pass each, no retakes. Then run the day-before checklist and write the sleep time.",
+        "id": "Bawa lima pertanyaan prediksi dengan bobot lembar penilaian tertinggi ke simulator (tryit di bawah menjalankan set prediksi untuk ronde bank; pakai “set prediksi” dengan lima milikmu saat alat mendukungnya, atau minta teman membacakannya). Satu lintasan masing-masing, tanpa pengulangan. Lalu jalankan daftar periksa sehari sebelumnya dan tulis waktu tidur."
+       },
+       "debrief": {
+        "en": "One pass is deliberate: the goal tonight is to confirm the mapping works aloud, not to polish delivery — polishing the night before produces a recited answer tomorrow. If a predicted question produced a blank, that is the map’s job done: it found the gap while it was still cheap. The checklist takes ten minutes; if it took thirty, you were re-reading stories instead of checking the folder.",
+        "id": "Satu lintasan disengaja: tujuan malam ini adalah memastikan pemetaan bekerja saat diucapkan, bukan memoles penyampaian — memoles malam sebelumnya menghasilkan jawaban hafalan besok. Jika pertanyaan prediksi menghasilkan kekosongan, itulah tugas peta selesai: menemukan celah selagi masih murah. Daftar periksa memakan sepuluh menit; jika tiga puluh, kamu membaca ulang cerita alih-alih memeriksa map."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Predicting wordings instead of competencies",
+         "id": "Memprediksi kata-kata alih-alih kompetensi"
+        },
+        "fix": {
+         "en": "Predict the line of the scorecard; the wording will vary and the story will still fit.",
+         "id": "Prediksi baris lembar penilaian; kata-katanya akan berbeda dan ceritanya tetap cocok."
+        }
+       },
+       {
+        "h": {
+         "en": "Skipping the difficult-case question",
+         "id": "Melewatkan pertanyaan kasus sulit"
+        },
+        "fix": {
+         "en": "It is the one you most need to prepare; write it from your Lesson 1.1 uncertainty.",
+         "id": "Itu yang paling perlu kamu siapkan; tulis dari ketidakpastian Pelajaran 1.1-mu."
+        }
+       },
+       {
+        "h": {
+         "en": "Bluffing a gap",
+         "id": "Menggertak celah"
+        },
+        "fix": {
+         "en": "Limit · adjacent evidence · plan · motive — written the night before.",
+         "id": "Batas · bukti berdekatan · rencana · motif — ditulis malam sebelumnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Polishing until midnight",
+         "id": "Memoles sampai tengah malam"
+        },
+        "fix": {
+         "en": "One pass on five questions, the checklist, and the sleep time you decided.",
+         "id": "Satu lintasan pada lima pertanyaan, daftar periksa, dan waktu tidur yang kamu putuskan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Predicted set",
+        "id": "Set prediksi"
+       },
+       "def": {
+        "en": "Ten to fifteen questions in the standard proportions, derived from the scorecard and the research page.",
+        "id": "Sepuluh hingga lima belas pertanyaan dalam proporsi standar, diturunkan dari lembar penilaian dan halaman riset."
+       }
+      },
+      {
+       "term": {
+        "en": "Workhorse",
+        "id": "Andalan"
+       },
+       "def": {
+        "en": "A story with three or more matrix marks — rehearsed at all three lengths because it will be used more than once.",
+        "id": "Cerita dengan tiga tanda matriks atau lebih — dilatih di ketiga panjang karena akan dipakai lebih dari sekali."
+       }
+      },
+      {
+       "term": {
+        "en": "Minable gap",
+        "id": "Celah yang bisa digali"
+       },
+       "def": {
+        "en": "A competency you have evidence for but have not framed as a story yet.",
+        "id": "Kompetensi yang buktinya kamu punya tetapi belum dibingkai sebagai cerita."
+       }
+      },
+      {
+       "term": {
+        "en": "Real gap",
+        "id": "Celah nyata"
+       },
+       "def": {
+        "en": "A competency you do not yet have — answered with limit, adjacent evidence, plan and motive.",
+        "id": "Kompetensi yang belum kamu miliki — dijawab dengan batas, bukti berdekatan, rencana, dan motif."
+       }
+      },
+      {
+       "term": {
+        "en": "Polish order",
+        "id": "Urutan pemolesan"
+       },
+       "def": {
+        "en": "Workhorses first, then sole-cover stories, then the rest.",
+        "id": "Andalan dulu, lalu cerita cakupan tunggal, lalu sisanya."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A forty-five-minute user round. The predicted set should contain about…",
+        "id": "Ronde user empat puluh lima menit. Set prediksi sebaiknya berisi sekitar…"
+       },
+       "options": [
+        {
+         "en": "Thirty questions, to be safe",
+         "id": "Tiga puluh pertanyaan, agar aman"
+        },
+        {
+         "en": "One opening, two motivational, five to seven competency, one or two technical, one difficult-case, one closing",
+         "id": "Satu pembuka, dua motivasional, lima hingga tujuh kompetensi, satu atau dua teknis, satu kasus sulit, satu penutup"
+        },
+        {
+         "en": "Only competency questions",
+         "id": "Hanya pertanyaan kompetensi"
+        },
+        {
+         "en": "Whatever the internet lists for that company",
+         "id": "Apa pun yang didaftar internet untuk perusahaan itu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The proportions follow a structured interview; the competency rows come one per scorecard line.",
+        "id": "Proporsinya mengikuti wawancara terstruktur; baris kompetensi datang satu per baris lembar penilaian."
+       }
+      },
+      {
+       "q": {
+        "en": "The matrix shows a column with no marks. Tonight you…",
+        "id": "Matriks menunjukkan kolom tanpa tanda. Malam ini kamu…"
+       },
+       "options": [
+        {
+         "en": "Hope it is not asked",
+         "id": "Berharap tidak ditanyakan"
+        },
+        {
+         "en": "Decide if it is minable (dig once with the 2.1 prompts) or real (write the owned-gap answer)",
+         "id": "Putuskan apakah bisa digali (gali sekali dengan pemicu 2.1) atau nyata (tulis jawaban celah yang diakui)"
+        },
+        {
+         "en": "Delete the column",
+         "id": "Hapus kolomnya"
+        },
+        {
+         "en": "Prepare to bluff confidently",
+         "id": "Bersiap menggertak dengan percaya diri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "An empty column is tomorrow’s ambush; the map found it while it was cheap to fix.",
+        "id": "Kolom kosong adalah serangan mendadak besok; peta menemukannya selagi murah diperbaiki."
+       }
+      },
+      {
+       "q": {
+        "en": "It is 23.40 the night before. The best use of the next twenty minutes is…",
+        "id": "Pukul 23.40 malam sebelumnya. Penggunaan terbaik dua puluh menit berikutnya adalah…"
+       },
+       "options": [
+        {
+         "en": "A third pass on the workhorse story",
+         "id": "Lintasan ketiga pada cerita andalan"
+        },
+        {
+         "en": "Reading the annual report again",
+         "id": "Membaca laporan tahunan lagi"
+        },
+        {
+         "en": "The checklist — folder, route, attire — then sleep at the time you decided",
+         "id": "Daftar periksa — map, rute, pakaian — lalu tidur pada waktu yang kamu putuskan"
+        },
+        {
+         "en": "Messaging the interviewer on LinkedIn",
+         "id": "Mengirim pesan ke pewawancara di LinkedIn"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Nothing on the checklist improves an answer; everything on it protects one. Polishing late produces recitals.",
+        "id": "Tidak ada di daftar periksa yang memperbaiki jawaban; semuanya melindungi satu. Memoles larut malam menghasilkan pembacaan."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr01",
+      "set": [
+       "hr01",
+       "mot_why_programme",
+       "beh_trusted_money",
+       "beh_frustrated_customer",
+       "tech_fin_reconcile",
+       "close_any_questions"
+      ],
+      "persona": "manager",
+      "profile": "mixed",
+      "returnTo": 3,
+      "label": {
+       "en": "Predicted set: the Bank Sinar user round",
+       "id": "Set prediksi: ronde user Bank Sinar"
+      },
+      "desc": {
+       "en": "Six of the twelve predicted questions — the opening, the programme, integrity, service, the reconciliation method and the closing — with the Hiring Manager, one pass each. Answer from the mapping: primary story, then backup if asked again. When the “predicted set” mode can take your own list, run yours the same way.",
+       "id": "Enam dari dua belas pertanyaan prediksi — pembuka, program, integritas, layanan, metode rekonsiliasi, dan penutup — dengan Hiring Manager, satu lintasan masing-masing. Jawab dari pemetaan: cerita utama, lalu cadangan jika ditanya lagi. Saat mode “set prediksi” bisa menerima daftarmu sendiri, jalankan milikmu dengan cara yang sama."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Predict the scorecard’s lines, not the wording; the stories will still fit.",
+       "id": "Prediksi baris lembar penilaian, bukan kata-katanya; ceritanya tetap cocok."
+      },
+      {
+       "en": "Primary, backup, gap — and the gap is either mined tonight or owned tomorrow.",
+       "id": "Utama, cadangan, celah — dan celah digali malam ini atau diakui besok."
+      },
+      {
+       "en": "The hour ends with the checklist and a sleep time, not a third rehearsal.",
+       "id": "Jamnya berakhir dengan daftar periksa dan waktu tidur, bukan latihan ketiga."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources, the matrix and the checklist",
+       "id": "Sumber, matriks, dan daftar periksa"
+      },
+      "lead": {
+       "en": "Two sources, the retained matrix template, and the day-before checklist that Module 9 expands.",
+       "id": "Dua sumber, templat matriks yang dipertahankan, dan daftar periksa sehari sebelumnya yang diperluas Modul 9."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 3.3",
+         "id": "Daftar bacaan · Pelajaran 3.3"
+        },
+        "desc": {
+         "en": "Why prediction works: the interviewer has a guide too.",
+         "id": "Mengapa prediksi berhasil: pewawancara juga punya panduan."
+        },
+        "body": [
+         {
+          "en": "J. Kador, <i>The Manager’s Book of Questions</i> — the structured guide interviewers work from.",
+          "id": "J. Kador, <i>The Manager’s Book of Questions</i> — panduan terstruktur yang dipakai pewawancara."
+         },
+         {
+          "en": "E. Pellett, <i>Interview Like a Boss</i> — how interviewers prepare, and therefore what they will ask.",
+          "id": "E. Pellett, <i>Interview Like a Boss</i> — cara pewawancara bersiap, dan karenanya apa yang akan mereka tanyakan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The predicted-set proportions and the matrix reading rules are The Rope’s own method.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Proporsi set prediksi dan aturan pembacaan matriks adalah metode The Rope sendiri."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Story × competency matrix (Kit item, part 3)",
+         "id": "Matriks cerita × kompetensi (butir Perangkat, bagian 3)"
+        },
+        "desc": {
+         "en": "Ten rows, your scorecard’s columns; retained from the current Rope.",
+         "id": "Sepuluh baris, kolom lembar penilaianmu; dipertahankan dari The Rope saat ini."
+        },
+        "body": [
+         {
+          "en": "Story title | setting | [scorecard competency 1…6] | values | marks total",
+          "id": "Judul cerita | latar | [kompetensi lembar penilaian 1…6] | nilai | total tanda"
+         },
+         {
+          "en": "● primary proof · ○ secondary. Column totals under 2 = thin; row totals over 4 = over-used.",
+          "id": "● bukti utama · ○ sekunder. Total kolom di bawah 2 = tipis; total baris di atas 4 = terlalu sering dipakai."
+         },
+         {
+          "en": "Polish order: rows with the most ● in the heaviest columns first.",
+          "id": "Urutan pemolesan: baris dengan ● terbanyak di kolom terberat lebih dulu."
+         },
+         {
+          "en": "Predicted set (12–15) with type, primary, backup, gap (minable / real + plan)",
+          "id": "Set prediksi (12–15) dengan tipe, utama, cadangan, celah (bisa digali / nyata + rencana)"
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Day-before checklist",
+         "id": "Daftar periksa sehari sebelumnya"
+        },
+        "desc": {
+         "en": "Ten minutes; Module 9 expands it into the full ritual.",
+         "id": "Sepuluh menit; Modul 9 memperluasnya menjadi ritual penuh."
+        },
+        "body": [
+         {
+          "en": "Logistics: address/link · room/platform · time and zone · route +20 min or tech check on the real device",
+          "id": "Logistik: alamat/tautan · ruangan/platform · waktu dan zona · rute +20 mnt atau uji teknis di perangkat sebenarnya"
+         },
+         {
+          "en": "Documents: everything the invitation named, one folder, a pen, the interviewer’s name",
+          "id": "Dokumen: semua yang disebut undangan, satu map, pulpen, nama pewawancara"
+         },
+         {
+          "en": "Attire chosen · Kit read once (scorecard, mapping, research page, five stories) · sleep time written down",
+          "id": "Pakaian dipilih · Perangkat dibaca sekali (lembar penilaian, pemetaan, halaman riset, lima cerita) · waktu tidur ditulis"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "3.4",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Decode the KilatPay Role",
+      "id": "Tugas Kasus — Bedah Peran KilatPay"
+     },
+     "overview": {
+      "en": "Nadia’s KilatPay take-home case passed, and the user interview with Mr. Aditya, Head of Merchant Operations, is on Tuesday. The case file has three public sources: the Business Operations Associate posting, a founder’s LinkedIn post about “scrappy operators”, and a news item about merchant-onboarding expansion to Sulawesi. Using Lessons 3.1–3.3, decode the scorecard with weights, predict twelve questions in the standard proportions, map Nadia’s Core 10 to each, name two gaps and how she addresses them — then decode one of your own Top 3 targets the same way. That decode is the third Interview Kit item.",
+      "id": "Kasus take-home KilatPay Nadia lolos, dan wawancara user dengan Bapak Aditya, Head of Merchant Operations, hari Selasa. Berkas kasus punya tiga sumber publik: lowongan Business Operations Associate, unggahan LinkedIn pendiri tentang “scrappy operators”, dan berita tentang ekspansi onboarding merchant ke Sulawesi. Dengan Pelajaran 3.1–3.3, urai lembar penilaian dengan bobot, prediksi dua belas pertanyaan dalam proporsi standar, petakan Core 10 Nadia ke masing-masing, sebutkan dua celah dan cara ia mengatasinya — lalu bedah satu dari 3 sasaran teratasmu dengan cara yang sama. Uraian itu adalah butir Perangkat Wawancara ketiga."
+     },
+     "objectives": [
+      {
+       "en": "Decode a startup posting and two public sources into a weighted scorecard with eligibility and values lines.",
+       "id": "Menguraikan lowongan startup dan dua sumber publik menjadi lembar penilaian berbobot dengan baris kelayakan dan nilai."
+      },
+      {
+       "en": "Predict twelve questions in the standard proportions, worded as the interviewer would.",
+       "id": "Memprediksi dua belas pertanyaan dalam proporsi standar, dengan kata-kata seperti pewawancara."
+      },
+      {
+       "en": "Map a Core 10 to a predicted set with primaries, backups and named gaps.",
+       "id": "Memetakan Core 10 ke set prediksi dengan cerita utama, cadangan, dan celah yang disebut."
+      },
+      {
+       "en": "Address a minable gap and a real gap differently, and in advance.",
+       "id": "Mengatasi celah yang bisa digali dan celah nyata secara berbeda, dan lebih dulu."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Three public sources, one Tuesday",
+       "id": "Tiga sumber publik, satu hari Selasa"
+      },
+      "intro": {
+       "en": "Five steps, five written answers. The case file has three tabs — the posting, the founder’s post, the news item — and Nadia’s Core 10 from Lesson 2.5 is the story bank you map from. Every answer is checked for the ideas Module 3 taught: four layers, weighting, proportions, primary and backup, minable versus real gaps.",
+       "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab — lowongan, unggahan pendiri, berita — dan Core 10 Nadia dari Pelajaran 2.5 adalah bank cerita yang kamu petakan. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 3: empat lapis, pembobotan, proporsi, utama dan cadangan, celah yang bisa digali versus nyata."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like a decoder",
+         "id": "Baca seperti pengurai"
+        },
+        "points": [
+         {
+          "en": "Four pens on the posting; the founder’s post and the news are the company-language layer, with a number in the news.",
+          "id": "Empat pulpen di lowongan; unggahan pendiri dan berita adalah lapis bahasa perusahaan, dengan angka di berita."
+         },
+         {
+          "en": "“Measure” and “own” repeat; the posting has an escape clause on SQL.",
+          "id": "“Measure” dan “own” berulang; lowongan punya klausul pelarian soal SQL."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then predict and map",
+         "id": "Lalu prediksi dan petakan"
+        },
+        "points": [
+         {
+          "en": "Twelve questions in proportion; Nadia’s ten stories; two gaps — one she can mine, one she must own.",
+          "id": "Dua belas pertanyaan dalam proporsi; sepuluh cerita Nadia; dua celah — satu bisa ia gali, satu harus ia akui."
+         },
+         {
+          "en": "Step 5 is your own decode. Model notes open after you submit.",
+          "id": "Langkah 5 adalah uraianmu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP3",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Decode the KilatPay Role",
+       "id": "Bedah Peran KilatPay"
+      },
+      "lead": {
+       "en": "A startup posting, a founder’s post, a news item — and a user interview on Tuesday with the man who wrote the posting. Reconstruct his scorecard before he reads it to her.",
+       "id": "Lowongan startup, unggahan pendiri, berita — dan wawancara user hari Selasa dengan orang yang menulis lowongannya. Rekonstruksi lembar penilaiannya sebelum ia membacakannya kepada Nadia."
+      },
+      "practice": [
+       {
+        "en": "Scorecard",
+        "id": "Lembar penilaian"
+       },
+       {
+        "en": "Twelve predicted questions",
+        "id": "Dua belas pertanyaan prediksi"
+       },
+       {
+        "en": "Story mapping",
+        "id": "Pemetaan cerita"
+       },
+       {
+        "en": "Two gaps",
+        "id": "Dua celah"
+       },
+       {
+        "en": "Your own decode",
+        "id": "Uraianmu sendiri"
+       }
+      ],
+      "goal": {
+       "en": "A scorecard, a predicted set and a mapping Nadia could take into Tuesday — and the same decode for one of your own targets, filed as the third Kit item.",
+       "id": "Lembar penilaian, set prediksi, dan pemetaan yang bisa dibawa Nadia ke hari Selasa — dan uraian yang sama untuk satu sasaranmu sendiri, diarsipkan sebagai butir Perangkat ketiga."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Friday, 18:40",
+         "id": "Jumat, 18.40"
+        },
+        "subject": {
+         "en": "KilatPay user interview Tuesday — decode Mr. Aditya’s scorecard for Nadia",
+         "id": "Wawancara user KilatPay Selasa — urai lembar penilaian Bapak Aditya untuk Nadia"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia’s take-home case passed. Dewi has confirmed the user interview with Mr. Aditya, Head of Merchant Operations, on Tuesday at 14.00 — forty-five minutes, one interviewer, “a conversation about how you think and what you’ve done”. Nadia’s instinct is to re-read her case answer for three days. That is the wrong preparation: the case has been scored; Tuesday scores her.",
+          "id": "Kasus take-home Nadia lolos. Dewi sudah mengonfirmasi wawancara user dengan Bapak Aditya, Head of Merchant Operations, Selasa pukul 14.00 — empat puluh lima menit, satu pewawancara, “a conversation about how you think and what you’ve done”. Insting Nadia adalah membaca ulang jawaban kasusnya selama tiga hari. Itu persiapan yang salah: kasusnya sudah dinilai; Selasa menilai dirinya."
+         },
+         {
+          "en": "I have attached the three public sources she has: the posting, a LinkedIn post by one of the founders that Dewi linked in her email, and a news item from last month. Decode the scorecard Mr. Aditya is almost certainly working from, predict his twelve questions, and map her Core 10 to them. There are at least two gaps; one she can fix this weekend and one she cannot, and the two need different answers.",
+          "id": "Saya lampirkan tiga sumber publik yang ia punya: lowongan, unggahan LinkedIn salah satu pendiri yang ditautkan Dewi di emailnya, dan berita dari bulan lalu. Urai lembar penilaian yang hampir pasti dipakai Bapak Aditya, prediksi dua belas pertanyaannya, dan petakan Core 10-nya ke sana. Ada setidaknya dua celah; satu bisa ia perbaiki akhir pekan ini dan satu tidak, dan keduanya butuh jawaban berbeda."
+         },
+         {
+          "en": "Then do the same for one of your own Top 3. That decode is the third page of your Kit, and it is what Round 3 in the simulator is built from.",
+          "id": "Lalu lakukan hal yang sama untuk satu dari 3 Teratasmu. Uraian itu halaman ketiga Perangkatmu, dan itulah yang menjadi dasar Putaran 3 di simulator."
+         }
+        ],
+        "asks": [
+         {
+          "en": "The scorecard: four to six competencies with weights, the eligibility list, the values line",
+          "id": "Lembar penilaian: empat hingga enam kompetensi dengan bobot, daftar kelayakan, baris nilai"
+         },
+         {
+          "en": "Twelve predicted questions in the standard proportions, worded as Mr. Aditya would ask them",
+          "id": "Dua belas pertanyaan prediksi dalam proporsi standar, dengan kata-kata seperti Bapak Aditya menanyakannya"
+         },
+         {
+          "en": "Primary and backup story for every competency question, from her Core 10",
+          "id": "Cerita utama dan cadangan untuk setiap pertanyaan kompetensi, dari Core 10-nya"
+         },
+         {
+          "en": "Two gaps, each named as minable or real, with what she does about each before Tuesday",
+          "id": "Dua celah, masing-masing disebut bisa digali atau nyata, dengan apa yang ia lakukan sebelum Selasa"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Tuesday 14.00",
+          "id": "Selasa 14.00"
+         },
+         "v": {
+          "en": "User interview with Mr. Aditya, Head of Merchant Operations — 45 minutes, one interviewer, video call",
+          "id": "Wawancara user dengan Bapak Aditya, Head of Merchant Operations — 45 menit, satu pewawancara, panggilan video"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "“Measure”",
+          "id": "“Measure”"
+         },
+         "v": {
+          "en": "appears in the posting header, the posting close and the founder’s post — three times across two sources",
+          "id": "muncul di kepala lowongan, penutup lowongan, dan unggahan pendiri — tiga kali di dua sumber"
+         },
+         "hot": true
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Sulawesi",
+          "id": "Sulawesi"
+         },
+         "v": {
+          "en": "News: merchant onboarding expanding to three Sulawesi cities this quarter; onboarding target doubled",
+          "id": "Berita: onboarding merchant meluas ke tiga kota Sulawesi kuartal ini; target onboarding dua kali lipat"
+         },
+         "hot": true
+        },
+        {
+         "icon": "book",
+         "k": {
+          "en": "SQL",
+          "id": "SQL"
+         },
+         "v": {
+          "en": "Posting: “comfortable with SQL, or willing to learn fast” · Nadia: course module 2 of 6, no Tableau",
+          "id": "Lowongan: “comfortable with SQL, or willing to learn fast” · Nadia: kursus modul 2 dari 6, tanpa Tableau"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Core 10",
+          "id": "Core 10"
+         },
+         "v": {
+          "en": "Nadia’s ten from Lesson 2.5: #1 #4 #7 #9 #10 #12 #13 #17 #19 #20 (bench #15 #18 #22 #24)",
+          "id": "Sepuluh milik Nadia dari Pelajaran 2.5: #1 #4 #7 #9 #10 #12 #13 #17 #19 #20 (cadangan #15 #18 #22 #24)"
+         }
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "3 days",
+          "id": "3 hari"
+         },
+         "v": {
+          "en": "Saturday to Monday — the hypothesis hour fits; a new SQL module does not",
+          "id": "Sabtu hingga Senin — jam hipotesis muat; modul SQL baru tidak"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The posting",
+          "id": "Lowongan"
+         },
+         "title": {
+          "en": "KilatPay — Business Operations Associate (OPS-26-04)",
+          "id": "KilatPay — Business Operations Associate (OPS-26-04)"
+         },
+         "meta": {
+          "en": "Fictional employer · as published on the careers page",
+          "id": "Perusahaan fiktif · sebagaimana diterbitkan di halaman karier"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "About the role",
+            "id": "Tentang peran"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“We measure everything. KilatPay helps small merchants across Indonesia accept digital payments, and Merchant Operations is where onboarding, activation and support actually happen. You will own the numbers that tell us whether a merchant we signed yesterday is transacting next week.”",
+             "id": "“We measure everything. KilatPay helps small merchants across Indonesia accept digital payments, and Merchant Operations is where onboarding, activation and support actually happen. You will own the numbers that tell us whether a merchant we signed yesterday is transacting next week.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "What you will do",
+            "id": "Yang akan Anda kerjakan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Own merchant onboarding metrics — sign-up to first transaction — and report them weekly to the Head of Merchant Operations.",
+             "id": "Own merchant onboarding metrics — sign-up to first transaction — and report them weekly to the Head of Merchant Operations."
+            },
+            {
+             "en": "Analyse drop-off at each onboarding step and propose fixes with the product and sales teams.",
+             "id": "Analyse drop-off at each onboarding step and propose fixes with the product and sales teams."
+            },
+            {
+             "en": "Coordinate with field sales, KYC/compliance and customer support to unblock stuck merchants.",
+             "id": "Coordinate with field sales, KYC/compliance and customer support to unblock stuck merchants."
+            },
+            {
+             "en": "Run the weekly ops review: prepare the numbers, chair the discussion, track actions.",
+             "id": "Run the weekly ops review: prepare the numbers, chair the discussion, track actions."
+            },
+            {
+             "en": "Support new-city launches with onboarding playbooks and on-the-ground checks.",
+             "id": "Support new-city launches with onboarding playbooks and on-the-ground checks."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "What we look for",
+            "id": "Yang kami cari"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "S1 in any discipline · Excel at an advanced level (pivots, lookups) is a must · comfortable with SQL, or willing to learn fast · comfortable with ambiguity · scrappy, bias for action, and honest about what the numbers say · willing to travel to launch cities for up to a week at a time.",
+             "id": "S1 in any discipline · Excel at an advanced level (pivots, lookups) is a must · comfortable with SQL, or willing to learn fast · comfortable with ambiguity · scrappy, bias for action, and honest about what the numbers say · willing to travel to launch cities for up to a week at a time."
+            },
+            {
+             "en": "“If you measured something nobody asked you to measure and it changed a decision, we want to hear about it. We measure everything — including ourselves.”",
+             "id": "“If you measured something nobody asked you to measure and it changed a decision, we want to hear about it. We measure everything — including ourselves.”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The founder’s post",
+          "id": "Unggahan pendiri"
+         },
+         "title": {
+          "en": "LinkedIn post by a KilatPay co-founder, linked by Dewi",
+          "id": "Unggahan LinkedIn salah satu pendiri KilatPay, ditautkan Dewi"
+         },
+         "meta": {
+          "en": "Fictional · public post, three weeks old",
+          "id": "Fiktif · unggahan publik, tiga minggu lalu"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "“Hiring update: Merchant Ops is growing again. What we look for in scrappy operators, in order: (1) they measure before they argue — bring a number, not an opinion; (2) they ship a fix in a week and improve it in the next, rather than designing the perfect one for a month; (3) they say ‘I don’t know yet, here’s how I’ll find out’ instead of guessing; (4) they pick up the phone to a merchant before writing a deck about merchants. Titles don’t matter here. If you’ve run a warung, a kantin, a campus event budget — that counts. Onboarding in three new Sulawesi cities starts next quarter and the team that gets it right will be the one that checks its own numbers every Friday.”",
+             "id": "“Hiring update: Merchant Ops is growing again. What we look for in scrappy operators, in order: (1) they measure before they argue — bring a number, not an opinion; (2) they ship a fix in a week and improve it in the next, rather than designing the perfect one for a month; (3) they say ‘I don’t know yet, here’s how I’ll find out’ instead of guessing; (4) they pick up the phone to a merchant before writing a deck about merchants. Titles don’t matter here. If you’ve run a warung, a kantin, a campus event budget — that counts. Onboarding in three new Sulawesi cities starts next quarter and the team that gets it right will be the one that checks its own numbers every Friday.”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The news item",
+          "id": "Berita"
+         },
+         "title": {
+          "en": "Trade-press item, last month",
+          "id": "Berita media industri, bulan lalu"
+         },
+         "meta": {
+          "en": "Fictional · as summarised by Nadia",
+          "id": "Fiktif · sebagaimana diringkas Nadia"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "“KilatPay to expand merchant onboarding to Makassar, Manado and Kendari this quarter, doubling its onboarding target for the year. The company says field teams will be paired with an operations associate for each city launch, and that its main challenge in earlier launches was merchants who signed up but never made a first transaction — a figure it has not disclosed. A KilatPay spokesperson said the company would ‘rather onboard fewer merchants who transact than many who don’t’.”",
+             "id": "“KilatPay to expand merchant onboarding to Makassar, Manado and Kendari this quarter, doubling its onboarding target for the year. The company says field teams will be paired with an operations associate for each city launch, and that its main challenge in earlier launches was merchants who signed up but never made a first transaction — a figure it has not disclosed. A KilatPay spokesperson said the company would ‘rather onboard fewer merchants who transact than many who don’t’.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Nadia’s note",
+            "id": "Catatan Nadia"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "The undisclosed figure is the number her take-home case was about. The associate “paired with field teams for each city launch” is the job she applied for, described from the outside.",
+             "id": "Angka yang tidak diungkap adalah angka yang menjadi pokok kasus take-home-nya. Associate yang “dipasangkan dengan tim lapangan untuk tiap peluncuran kota” adalah pekerjaan yang ia lamar, digambarkan dari luar."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Decode the scorecard",
+         "id": "Urai lembar penilaian"
+        },
+        "short": {
+         "en": "Scorecard",
+         "id": "Lembar penilaian"
+        },
+        "guide": {
+         "en": "Lesson 3.1. Read the posting in four layers, then read the founder’s post and the news item as company language. Write the scorecard: four to six competencies with percentages summing to 100, using position, repetition and marking across all three sources; the eligibility list as pass/fail; the values line as probes in the interviewer’s voice. Say what the founder’s ordered list changes about the weights.",
+         "id": "Pelajaran 3.1. Baca lowongan dalam empat lapis, lalu baca unggahan pendiri dan berita sebagai bahasa perusahaan. Tulis lembar penilaian: empat hingga enam kompetensi dengan persentase berjumlah 100, memakai posisi, pengulangan, dan penandaan lintas ketiga sumber; daftar kelayakan sebagai lulus/gagal; baris nilai sebagai galian dalam suara pewawancara. Katakan apa yang diubah daftar berurutan pendiri terhadap bobot."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 110,
+          "rows": 14,
+          "title": {
+           "en": "Weights, eligibility, values — from three sources",
+           "id": "Bobot, kelayakan, nilai — dari tiga sumber"
+          },
+          "help": {
+           "en": "Count “measure”. Note “own” on the first bullet and what altitude it sets. Decide whether SQL is eligibility or competency given the escape clause. Travel is which layer? The founder’s post is ordered — use the order.",
+           "id": "Hitung “measure”. Catat “own” di butir pertama dan ketinggian yang ditetapkannya. Putuskan apakah SQL kelayakan atau kompetensi mengingat klausul pelarian. Perjalanan termasuk lapis mana? Unggahan pendiri berurutan — pakai urutannya."
+          },
+          "placeholder": {
+           "en": "Scorecard:\n1. Analytical thinking / measurement — 35% — “measure” ×3 across sources; “own the numbers”; founder’s #1\n2. … — 25% — …\n3. … — 20% — …\n4. … — 20% — …\nEligibility (pass/fail): S1 · Excel advanced (must) · travel up to a week · SQL — requirement with an escape clause → …\nValues line: “measure before you argue” → probe: “…”; “say I don’t know yet” → probe: “…”; “phone before deck” → probe: “…”",
+           "id": "Lembar penilaian:\n1. Berpikir analitis / pengukuran — 35% — “measure” ×3 lintas sumber; “own the numbers”; #1 pendiri\n2. … — 25% — …\n3. … — 20% — …\n4. … — 20% — …\nKelayakan (lulus/gagal): S1 · Excel lanjutan (wajib) · perjalanan hingga seminggu · SQL — persyaratan dengan klausul pelarian → …\nBaris nilai: “measure before you argue” → galian: “…”; “say I don’t know yet” → galian: “…”; “phone before deck” → galian: “…”"
+          },
+          "keywords": [
+           [
+            "measure",
+            "ukur",
+            "analytical",
+            "analitis",
+            "number",
+            "angka"
+           ],
+           [
+            "own",
+            "ownership",
+            "kepemilikan",
+            "judgement",
+            "penilaian"
+           ],
+           [
+            "coordinat",
+            "koordinasi",
+            "sales",
+            "compliance",
+            "support"
+           ],
+           [
+            "learn",
+            "belajar",
+            "sql"
+           ],
+           [
+            "%",
+            "percent",
+            "persen",
+            "weight",
+            "bobot"
+           ],
+           [
+            "eligib",
+            "kelayakan",
+            "pass",
+            "lulus",
+            "excel",
+            "travel",
+            "perjalanan"
+           ],
+           [
+            "values",
+            "nilai",
+            "probe",
+            "galian",
+            "i don’t know",
+            "don't know",
+            "tidak tahu"
+           ],
+           [
+            "founder",
+            "pendiri",
+            "order",
+            "urutan"
+           ],
+           [
+            "repeat",
+            "ulang",
+            "three times",
+            "tiga kali",
+            "×3",
+            "x3"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Predict twelve questions",
+         "id": "Prediksi dua belas pertanyaan"
+        },
+        "short": {
+         "en": "Predict",
+         "id": "Prediksi"
+        },
+        "guide": {
+         "en": "Lesson 3.3. Write Mr. Aditya’s twelve questions in the standard proportions: one opening, two motivational, five to seven competency (one per scorecard line), one or two technical, one difficult-case aimed at Nadia’s uncertainty, one closing. Word each as he would say it in a forty-five-minute video call in English or Indonesian — the posting is in English; decide and say why. Mark the type of each.",
+         "id": "Pelajaran 3.3. Tulis dua belas pertanyaan Bapak Aditya dalam proporsi standar: satu pembuka, dua motivasional, lima hingga tujuh kompetensi (satu per baris lembar penilaian), satu atau dua teknis, satu kasus sulit yang membidik ketidakpastian Nadia, satu penutup. Tulis masing-masing seperti ia akan mengatakannya dalam panggilan video empat puluh lima menit dalam bahasa Inggris atau Indonesia — lowongannya berbahasa Inggris; putuskan dan katakan mengapa. Tandai tipe masing-masing."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 120,
+          "rows": 16,
+          "title": {
+           "en": "Twelve, typed, in his voice",
+           "id": "Dua belas, bertipe, dalam suaranya"
+          },
+          "help": {
+           "en": "The motivational pair should use the company language (“how do we make money?” is likely — the model is in the posting). The technical one comes from “analyse drop-off”. The difficult-case one aims at SQL or at the take-home case itself (“walk me through what you would do differently”).",
+           "id": "Pasangan motivasional sebaiknya memakai bahasa perusahaan (“how do we make money?” mungkin — modelnya ada di lowongan). Yang teknis datang dari “analyse drop-off”. Kasus sulit membidik SQL atau kasus take-home itu sendiri (“walk me through what you would do differently”)."
+          },
+          "placeholder": {
+           "en": "1 · Opening: “Tell me about yourself — two minutes.”\n2 · Motivational: “What do you know about how we make money?”\n3 · Motivational: “Why ops at a payments startup, not a bank programme?”\n4 · Competency (measurement): “Tell me about a time you measured something nobody asked you to.”\n5 · Competency (ownership): …\n6 · Competency (coordination): …\n7 · Competency (learning fast): …\n8 · Competency (service / merchant): …\n9 · Technical: “A merchant signed up Monday and hasn’t transacted by Friday. Where do you look first?”\n10 · Technical: …\n11 · Difficult: “Your case used Excel. This job runs on SQL. Honestly — where are you?”\n12 · Closing: “What do you want to ask me?”\nLanguage: … because …",
+           "id": "1 · Pembuka: “Tell me about yourself — two minutes.”\n2 · Motivasional: “What do you know about how we make money?”\n3 · Motivasional: “Why ops at a payments startup, not a bank programme?”\n4 · Kompetensi (pengukuran): “Tell me about a time you measured something nobody asked you to.”\n5 · Kompetensi (kepemilikan): …\n6 · Kompetensi (koordinasi): …\n7 · Kompetensi (belajar cepat): …\n8 · Kompetensi (layanan / merchant): …\n9 · Teknis: “A merchant signed up Monday and hasn’t transacted by Friday. Where do you look first?”\n10 · Teknis: …\n11 · Sulit: “Your case used Excel. This job runs on SQL. Honestly — where are you?”\n12 · Penutup: “What do you want to ask me?”\nBahasa: … karena …"
+          },
+          "keywords": [
+           [
+            "opening",
+            "pembuka",
+            "yourself",
+            "diri anda"
+           ],
+           [
+            "motivational",
+            "motivasional",
+            "why",
+            "kenapa",
+            "mengapa",
+            "make money"
+           ],
+           [
+            "competency",
+            "kompetensi",
+            "tell me about a time",
+            "ceritakan saat"
+           ],
+           [
+            "technical",
+            "teknis",
+            "drop-off",
+            "first transaction",
+            "transaksi pertama"
+           ],
+           [
+            "difficult",
+            "sulit",
+            "sql",
+            "honestly"
+           ],
+           [
+            "closing",
+            "penutup",
+            "ask me",
+            "pertanyaan"
+           ],
+           [
+            "measure",
+            "ukur",
+            "number",
+            "angka"
+           ],
+           [
+            "language",
+            "bahasa",
+            "english",
+            "inggris",
+            "indonesia"
+           ],
+           [
+            "12",
+            "twelve",
+            "dua belas"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Map the Core 10",
+         "id": "Petakan Core 10"
+        },
+        "short": {
+         "en": "Map",
+         "id": "Petakan"
+        },
+        "guide": {
+         "en": "Lesson 3.3. For each competency and technical question, write the primary story from Nadia’s Core 10 (numbers from Lesson 2.5) and the backup. Note which stories are unused for this interview and should be retired, and which bench story earns a place for KilatPay that it did not have for the bank. Then draw the matrix as a list: story → columns it proves, and name the workhorses and the thin columns.",
+         "id": "Pelajaran 3.3. Untuk tiap pertanyaan kompetensi dan teknis, tulis cerita utama dari Core 10 Nadia (nomor dari Pelajaran 2.5) dan cadangannya. Catat cerita mana yang tak terpakai untuk wawancara ini dan harus dipensiunkan, dan cerita cadangan mana yang mendapat tempat untuk KilatPay yang tidak didapatnya untuk bank. Lalu gambar matriks sebagai daftar: cerita → kolom yang dibuktikannya, dan sebutkan andalan dan kolom tipis."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 120,
+          "rows": 16,
+          "title": {
+           "en": "Primary, backup, retired, promoted — and the matrix",
+           "id": "Utama, cadangan, pensiun, dipromosikan — dan matriks"
+          },
+          "help": {
+           "en": "Measurement: which story has a number nobody asked her to produce? Ownership: which story has a decision with a reason? Merchant / phone-before-deck: the café stories. The thesis (#24, bench) is analytical work with data — does it belong here? The bank-specific integrity story (#17) — still useful, or retired for this round?",
+           "id": "Pengukuran: cerita mana yang punya angka yang tidak diminta siapa pun untuk dihasilkan? Kepemilikan: cerita mana yang punya keputusan dengan alasan? Merchant / telepon sebelum dek: cerita kafe. Skripsi (#24, cadangan) adalah kerja analitis dengan data — layakkah di sini? Cerita integritas khas bank (#17) — masih berguna, atau dipensiunkan untuk ronde ini?"
+          },
+          "placeholder": {
+           "en": "Measurement → primary #1 (the terminal mismatch — she counted the 30 min/day herself) · backup #15 (priced packages from last year’s conversion)\nOwnership → primary #12 · backup #10\nCoordination → primary #9 · backup #14\nLearning fast → primary #4 · backup #22\nService / merchant → primary #20 · backup #18\nTechnical (drop-off) → method: … (from the take-home case)\nRetired for KilatPay: #7, #13? … Promoted from bench: #15, #24 because …\nMatrix — #1: measurement ●, ownership ○, coordination ○ → workhorse; #12: … ; thin column: …",
+           "id": "Pengukuran → utama #1 (selisih terminal — ia menghitung 30 mnt/hari sendiri) · cadangan #15 (menetapkan harga paket dari konversi tahun lalu)\nKepemilikan → utama #12 · cadangan #10\nKoordinasi → utama #9 · cadangan #14\nBelajar cepat → utama #4 · cadangan #22\nLayanan / merchant → utama #20 · cadangan #18\nTeknis (drop-off) → metode: … (dari kasus take-home)\nDipensiunkan untuk KilatPay: #7, #13? … Dipromosikan dari cadangan: #15, #24 karena …\nMatriks — #1: pengukuran ●, kepemilikan ○, koordinasi ○ → andalan; #12: … ; kolom tipis: …"
+          },
+          "keywords": [
+           [
+            "primary",
+            "utama"
+           ],
+           [
+            "backup",
+            "cadangan"
+           ],
+           [
+            "retire",
+            "pensiun",
+            "unused",
+            "tak terpakai"
+           ],
+           [
+            "bench",
+            "promot",
+            "dipromosikan",
+            "#15",
+            "#24",
+            "#18",
+            "#22"
+           ],
+           [
+            "workhorse",
+            "andalan"
+           ],
+           [
+            "thin",
+            "tipis",
+            "empty",
+            "kosong"
+           ],
+           [
+            "#1",
+            "#12",
+            "#9",
+            "#4",
+            "#20"
+           ],
+           [
+            "measure",
+            "ukur",
+            "number",
+            "angka"
+           ],
+           [
+            "●",
+            "○",
+            "matrix",
+            "matriks"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Two gaps, two treatments",
+         "id": "Dua celah, dua perlakuan"
+        },
+        "short": {
+         "en": "Gaps",
+         "id": "Celah"
+        },
+        "guide": {
+         "en": "Lesson 3.3, section 2. Name two predicted questions with no adequate story. For each, say whether the gap is minable (she has the evidence and has not framed it) or real (she does not yet have it). For the minable one, write what she digs for this weekend and the one-line story that results. For the real one, write the owned-gap answer she gives on Tuesday: limit · adjacent evidence · plan · motive, in four sentences, in the language of the interview.",
+         "id": "Pelajaran 3.3, bagian 2. Sebutkan dua pertanyaan prediksi tanpa cerita yang memadai. Untuk masing-masing, katakan apakah celahnya bisa digali (ia punya buktinya dan belum membingkainya) atau nyata (ia belum memilikinya). Untuk yang bisa digali, tulis apa yang ia gali akhir pekan ini dan cerita satu baris yang dihasilkan. Untuk yang nyata, tulis jawaban celah-yang-diakui yang ia berikan hari Selasa: batas · bukti berdekatan · rencana · motif, dalam empat kalimat, dalam bahasa wawancara."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Minable this weekend; owned on Tuesday",
+           "id": "Bisa digali akhir pekan ini; diakui hari Selasa"
+          },
+          "help": {
+           "en": "Candidates for minable: “a fix shipped in a week and improved the next” — she has the pre-order board and the checklist, never framed as iteration. Candidates for real: SQL (module 2 of 6; cannot be closed by Tuesday) or “launched something in a new city”. The owned answer must not claim the SQL she does not have.",
+           "id": "Kandidat bisa digali: “perbaikan dikirim dalam seminggu dan diperbaiki minggu berikutnya” — ia punya papan pra-pesan dan daftar periksa, tak pernah dibingkai sebagai iterasi. Kandidat nyata: SQL (modul 2 dari 6; tidak bisa ditutup sebelum Selasa) atau “meluncurkan sesuatu di kota baru”. Jawaban yang diakui tidak boleh mengklaim SQL yang tidak ia punya."
+          },
+          "placeholder": {
+           "en": "Gap 1 (minable) — question: “Tell me about a fix you shipped fast and then improved.” Evidence she has: the pre-order board (#18) went up in a day; two weeks later she added … Dig: message the owner / recall what changed in week two. One-line story: …\nGap 2 (real) — question: “Where are you with SQL?” Owned answer: (limit) … (adjacent evidence) Excel pivots and lookups on 3 branches’ data; the case built in Excel … (plan) module 2 of 6, finishing by …, first query on … (motive) …",
+           "id": "Celah 1 (bisa digali) — pertanyaan: “Tell me about a fix you shipped fast and then improved.” Bukti yang ia punya: papan pra-pesan (#18) dipasang dalam sehari; dua minggu kemudian ia menambah … Gali: kirim pesan ke pemilik / ingat apa yang berubah di minggu kedua. Cerita satu baris: …\nCelah 2 (nyata) — pertanyaan: “Where are you with SQL?” Jawaban yang diakui: (batas) … (bukti berdekatan) pivot dan lookup Excel pada data 3 cabang; kasus dibangun di Excel … (rencana) modul 2 dari 6, selesai pada …, kueri pertama pada … (motif) …"
+          },
+          "keywords": [
+           [
+            "minable",
+            "bisa digali",
+            "mine",
+            "gali"
+           ],
+           [
+            "real",
+            "nyata"
+           ],
+           [
+            "limit",
+            "batas",
+            "belum",
+            "not yet",
+            "haven’t",
+            "haven't"
+           ],
+           [
+            "adjacent",
+            "berdekatan",
+            "excel",
+            "pivot"
+           ],
+           [
+            "plan",
+            "rencana",
+            "module",
+            "modul",
+            "by ",
+            "pada "
+           ],
+           [
+            "motive",
+            "motif",
+            "why",
+            "reason",
+            "alasan"
+           ],
+           [
+            "sql"
+           ],
+           [
+            "#18",
+            "board",
+            "papan",
+            "checklist",
+            "daftar periksa",
+            "iterat",
+            "improved",
+            "diperbaiki"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your own decode",
+         "id": "Uraianmu sendiri"
+        },
+        "short": {
+         "en": "Your decode",
+         "id": "Uraianmu"
+        },
+        "guide": {
+         "en": "The Kit item. Pick one of your Top 3 targets. Write its scorecard (four to six weighted competencies, eligibility list, values line), your twelve predicted questions in the round’s language, the primary and backup story for each competency question from your own Core 10, and your two gaps with their treatments. Note the sources you used and the date. Round 3 in the simulator is built from this page.",
+         "id": "Butir Perangkat. Pilih satu dari 3 sasaran teratasmu. Tulis lembar penilaiannya (empat hingga enam kompetensi berbobot, daftar kelayakan, baris nilai), dua belas pertanyaan prediksimu dalam bahasa ronde, cerita utama dan cadangan untuk tiap pertanyaan kompetensi dari Core 10-mu sendiri, dan dua celahmu dengan perlakuannya. Catat sumber yang kamu pakai dan tanggalnya. Putaran 3 di simulator dibangun dari halaman ini."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 150,
+          "rows": 18,
+          "title": {
+           "en": "Scorecard, twelve questions, mapping, gaps — for a real target",
+           "id": "Lembar penilaian, dua belas pertanyaan, pemetaan, celah — untuk sasaran nyata"
+          },
+          "help": {
+           "en": "If you only have the posting, decode it and mark the values line “to confirm from the careers page”. If a scorecard line has no story at all, write “GAP —” and its treatment rather than leaving it blank. Save this page; Module 4 builds your core message from its top lines.",
+           "id": "Jika kamu hanya punya lowongan, urai dan tandai baris nilai “akan dikonfirmasi dari halaman karier”. Jika baris lembar penilaian tidak punya cerita sama sekali, tulis “CELAH —” dan perlakuannya alih-alih membiarkannya kosong. Simpan halaman ini; Modul 4 membangun pesan utamamu dari baris teratasnya."
+          },
+          "placeholder": {
+           "en": "Target: [employer · role] · sources: posting, careers page, … · checked on …\nScorecard: 1. … 30% · 2. … 25% · 3. … 20% · 4. … 15% · 5. … 10% · eligibility: … · values: … → probe …\nPredicted 12: 1 opening … 2–3 motivational … 4–9 competency … 10 technical … 11 difficult … 12 closing …\nMapping: Q4 → primary … / backup … ; Q5 → … ; …\nGaps: (minable) … → dig … ; (real) … → limit · adjacent · plan · motive …",
+           "id": "Sasaran: [perusahaan · peran] · sumber: lowongan, halaman karier, … · diperiksa pada …\nLembar penilaian: 1. … 30% · 2. … 25% · 3. … 20% · 4. … 15% · 5. … 10% · kelayakan: … · nilai: … → galian …\nPrediksi 12: 1 pembuka … 2–3 motivasional … 4–9 kompetensi … 10 teknis … 11 sulit … 12 penutup …\nPemetaan: Q4 → utama … / cadangan … ; Q5 → … ; …\nCelah: (bisa digali) … → gali … ; (nyata) … → batas · berdekatan · rencana · motif …"
+          },
+          "keywords": [
+           [
+            "target",
+            "sasaran"
+           ],
+           [
+            "scorecard",
+            "lembar penilaian",
+            "%"
+           ],
+           [
+            "eligib",
+            "kelayakan"
+           ],
+           [
+            "values",
+            "nilai"
+           ],
+           [
+            "opening",
+            "pembuka"
+           ],
+           [
+            "motivational",
+            "motivasional"
+           ],
+           [
+            "competency",
+            "kompetensi"
+           ],
+           [
+            "technical",
+            "teknis"
+           ],
+           [
+            "difficult",
+            "sulit"
+           ],
+           [
+            "closing",
+            "penutup"
+           ],
+           [
+            "primary",
+            "utama",
+            "backup",
+            "cadangan"
+           ],
+           [
+            "gap",
+            "celah"
+           ],
+           [
+            "source",
+            "sumber",
+            "checked",
+            "diperiksa"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Scorecard — four to six weighted competencies from all three sources, eligibility as pass/fail, values as probes; the founder’s order used",
+         "id": "Lembar penilaian — empat hingga enam kompetensi berbobot dari ketiga sumber, kelayakan sebagai lulus/gagal, nilai sebagai galian; urutan pendiri dipakai"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Predicted set — twelve in the standard proportions, in the interviewer’s voice, language decided with a reason",
+         "id": "Set prediksi — dua belas dalam proporsi standar, dalam suara pewawancara, bahasa diputuskan dengan alasan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Mapping — primary and backup per competency question, retirements and promotions justified, workhorses and thin columns named",
+         "id": "Pemetaan — utama dan cadangan per pertanyaan kompetensi, pensiun dan promosi dibenarkan, andalan dan kolom tipis disebut"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Gaps — one minable with a dig and a resulting story, one real with a four-part owned answer that claims nothing false",
+         "id": "Celah — satu bisa digali dengan penggalian dan cerita yang dihasilkan, satu nyata dengan jawaban diakui empat bagian yang tidak mengklaim hal palsu"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your decode — scorecard, twelve questions, mapping and gaps for a real target, with sources and date",
+         "id": "Uraianmu — lembar penilaian, dua belas pertanyaan, pemetaan, dan celah untuk sasaran nyata, dengan sumber dan tanggal"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Mr. Aditya’s scorecard",
+        "id": "Catatan model — lembar penilaian Bapak Aditya"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The scorecard",
+          "id": "Lembar penilaian"
+         }
+        },
+        {
+         "en": "Analytical thinking and measurement 35 — “measure” three times across two sources, “own the numbers” on the first bullet, and the founder’s #1; this is the largest weight by every cue. Ownership and judgement 25 — “own” sets a mid altitude, and the founder’s #2 (“ship a fix in a week”) is a decision-making value, not a speed value. Coordination and influence 20 — the third bullet names three teams she will not manage, and “chair the weekly review” is influence without authority. Learning fast and honesty at the edge 20 — the SQL escape clause plus the founder’s #3 (“I don’t know yet, here’s how I’ll find out”) make this a scored competency, not a screen. Eligibility, pass/fail: S1; Excel advanced (must — she passes, pivots and lookups); travel up to a week (a true sentence needed — she is open to Jakarta and has not thought about Sulawesi); SQL is a requirement with an escape clause and therefore scored under learning, not screened. Values line as probes: “measure before you argue” → when did you bring a number to a disagreement?; “I don’t know yet” → what did you not know in the case, and how did you find out?; “phone before deck” → when did you go to the customer instead of the spreadsheet? The news item adds a number — the target doubled — and a hidden concern: merchants who sign up and never transact is the drop-off she analysed, so the technical questions will be about her own case.",
+         "id": "Berpikir analitis dan pengukuran 35 — “measure” tiga kali lintas dua sumber, “own the numbers” di butir pertama, dan #1 pendiri; ini bobot terbesar menurut setiap petunjuk. Kepemilikan dan penilaian 25 — “own” menetapkan ketinggian menengah, dan #2 pendiri (“ship a fix in a week”) adalah nilai pengambilan keputusan, bukan nilai kecepatan. Koordinasi dan pengaruh 20 — butir ketiga menyebut tiga tim yang tidak akan ia kelola, dan “chair the weekly review” adalah pengaruh tanpa wewenang. Belajar cepat dan kejujuran di batas 20 — klausul pelarian SQL plus #3 pendiri (“I don’t know yet, here’s how I’ll find out”) menjadikan ini kompetensi yang dinilai, bukan saringan. Kelayakan, lulus/gagal: S1; Excel lanjutan (wajib — ia lolos, pivot dan lookup); perjalanan hingga seminggu (butuh kalimat jujur — ia bersedia ke Jakarta dan belum memikirkan Sulawesi); SQL adalah persyaratan dengan klausul pelarian dan karenanya dinilai di bawah belajar, bukan disaring. Baris nilai sebagai galian: “measure before you argue” → kapan Anda membawa angka ke ketidaksepakatan?; “I don’t know yet” → apa yang tidak Anda ketahui di kasus, dan bagaimana Anda mencari tahu?; “phone before deck” → kapan Anda mendatangi pelanggan alih-alih spreadsheet? Berita menambah angka — target dua kali lipat — dan kekhawatiran tersembunyi: merchant yang mendaftar dan tak pernah bertransaksi adalah drop-off yang ia analisis, jadi pertanyaan teknis akan tentang kasusnya sendiri."
+        },
+        {
+         "h": {
+          "en": "The twelve",
+          "id": "Dua belas"
+         }
+        },
+        {
+         "en": "In English, because the posting, the founder’s post and Dewi’s emails are in English and the call is with a Head of Operations at a startup; Nadia prepares the Indonesian versions too, because Mr. Aditya may switch. 1 “Tell me about yourself — two minutes.” 2 “What do you know about how we make money?” 3 “Why ops at a payments startup rather than a bank programme?” 4 (measurement) “Tell me about a time you measured something nobody asked you to.” 5 (ownership) “Tell me about a decision you made with half the information.” 6 (coordination) “Tell me about getting something done through a team you didn’t manage.” 7 (learning) “Tell me about a tool or system you learned in under a week.” 8 (merchant / service) “Tell me about a frustrated customer.” 9 (technical) “A merchant signed up on Monday and hasn’t transacted by Friday. Where do you look first?” 10 (technical) “In your case, what would you have done with one more week?” 11 (difficult) “Your case ran on Excel. This job runs on SQL. Honestly, where are you?” 12 “What do you want to ask me?”",
+         "id": "Dalam bahasa Inggris, karena lowongan, unggahan pendiri, dan email Dewi berbahasa Inggris dan panggilannya dengan Head of Operations di startup; Nadia menyiapkan versi Indonesianya juga, karena Bapak Aditya mungkin beralih. 1 “Tell me about yourself — two minutes.” 2 “What do you know about how we make money?” 3 “Why ops at a payments startup rather than a bank programme?” 4 (pengukuran) “Tell me about a time you measured something nobody asked you to.” 5 (kepemilikan) “Tell me about a decision you made with half the information.” 6 (koordinasi) “Tell me about getting something done through a team you didn’t manage.” 7 (belajar) “Tell me about a tool or system you learned in under a week.” 8 (merchant / layanan) “Tell me about a frustrated customer.” 9 (teknis) “A merchant signed up on Monday and hasn’t transacted by Friday. Where do you look first?” 10 (teknis) “In your case, what would you have done with one more week?” 11 (sulit) “Your case ran on Excel. This job runs on SQL. Honestly, where are you?” 12 “What do you want to ask me?”"
+        },
+        {
+         "h": {
+          "en": "The mapping",
+          "id": "Pemetaan"
+         }
+        },
+        {
+         "en": "Measurement → #1 the terminal mismatch (she timed the 30 minutes a day herself, nobody asked) · backup #15 (priced the packages from last year’s conversion by size). Ownership → #12 the Rp 25 juta gap (segmented the list with sixteen days left) · backup #10 (the midterm week schedule). Coordination → #9 the receipts refusal (held a rule against a division head, then proposed the partial-advance fix) · backup #14. Learning → #4 asked three times · backup #22 KKN rewrite. Merchant → #20 the wrong order (phone-before-deck, in café form) · backup #18 the pre-order board. Technical 9 and 10 → the case method, told as steps: funnel by onboarding stage, segment by city and merchant type, call five stuck merchants before proposing a fix. Promoted from the bench: #15 (a number brought to a disagreement — the founder’s #1 exactly) and #24 the thesis (reconstructed three months of data from purchase notes — measurement under missing data, which is the news item’s undisclosed figure in miniature). Retired for this round: #7 the clean audit and #17 the till — bank-shaped integrity stories with no column here; kept for Bank Sinar. Matrix: #1 proves measurement ●, ownership ○, coordination ○ — workhorse; #12 proves ownership ●, coordination ●, measurement ○ — workhorse; the learning column has one ● (#4) — thin, which is why gap 2 matters.",
+         "id": "Pengukuran → #1 selisih terminal (ia mengukur 30 menit per hari sendiri, tanpa diminta) · cadangan #15 (menetapkan harga paket dari konversi tahun lalu per ukuran). Kepemilikan → #12 kekurangan Rp 25 juta (memecah daftar dengan enam belas hari tersisa) · cadangan #10 (jadwal minggu UTS). Koordinasi → #9 penolakan kuitansi (mempertahankan aturan terhadap kepala divisi, lalu mengusulkan perbaikan uang muka sebagian) · cadangan #14. Belajar → #4 bertanya tiga kali · cadangan #22 tulis ulang KKN. Merchant → #20 salah pesanan (telepon-sebelum-dek, dalam bentuk kafe) · cadangan #18 papan pra-pesan. Teknis 9 dan 10 → metode kasus, diceritakan sebagai langkah: corong per tahap onboarding, segmen per kota dan jenis merchant, telepon lima merchant yang macet sebelum mengusulkan perbaikan. Dipromosikan dari cadangan: #15 (angka yang dibawa ke ketidaksepakatan — persis #1 pendiri) dan #24 skripsi (merekonstruksi tiga bulan data dari nota pembelian — pengukuran di bawah data hilang, yaitu angka tak terungkap dalam berita versi miniatur). Dipensiunkan untuk ronde ini: #7 audit bersih dan #17 kas — cerita integritas berbentuk bank tanpa kolom di sini; disimpan untuk Bank Sinar. Matriks: #1 membuktikan pengukuran ●, kepemilikan ○, koordinasi ○ — andalan; #12 membuktikan kepemilikan ●, koordinasi ●, pengukuran ○ — andalan; kolom belajar punya satu ● (#4) — tipis, itulah sebabnya celah 2 penting."
+        },
+        {
+         "h": {
+          "en": "The two gaps",
+          "id": "Dua celah"
+         }
+        },
+        {
+         "en": "Gap 1, minable: “a fix shipped in a week and improved the next” (the founder’s #2). She has it and never framed it: the pre-order board went up on a Saturday after regulars kept leaving the queue; the first version listed only drinks, and two weeks later she added a pastry line and a pick-up time because the morning staff asked. The dig is one message to the café owner to confirm what changed in week two; the one-line story: “I put up a pre-order board in a day, then changed it twice in the next two weeks based on what the morning shift told me.” Gap 2, real: SQL. Owned answer, four sentences: “I haven’t written production SQL yet — I want to be straight about that. The case was built in Excel — pivots and lookups over three branches’ worth of rows is where I’m fluent. I’m on module 2 of a 6-module SQL course; I’ll finish module 4 by the end of the month and my first goal here would be to rebuild my own case query in SQL in week one. The reason I want this role is that the numbers are the job, and I’d rather learn the tool where the numbers matter than where they don’t.” No claim she cannot back; a date; adjacent evidence; the founder’s #3 answered in the founder’s words.",
+         "id": "Celah 1, bisa digali: “perbaikan dikirim dalam seminggu dan diperbaiki minggu berikutnya” (#2 pendiri). Ia memilikinya dan tak pernah membingkainya: papan pra-pesan dipasang pada hari Sabtu setelah pelanggan tetap terus meninggalkan antrean; versi pertama hanya mencantumkan minuman, dan dua minggu kemudian ia menambah baris kue dan waktu ambil karena staf pagi memintanya. Penggaliannya satu pesan ke pemilik kafe untuk memastikan apa yang berubah di minggu kedua; cerita satu baris: “Saya memasang papan pra-pesan dalam sehari, lalu mengubahnya dua kali dalam dua minggu berikutnya berdasarkan masukan sif pagi.” Celah 2, nyata: SQL. Jawaban yang diakui, empat kalimat: “I haven’t written production SQL yet — I want to be straight about that. The case was built in Excel — pivots and lookups over three branches’ worth of rows is where I’m fluent. I’m on module 2 of a 6-module SQL course; I’ll finish module 4 by the end of the month and my first goal here would be to rebuild my own case query in SQL in week one. The reason I want this role is that the numbers are the job, and I’d rather learn the tool where the numbers matter than where they don’t.” Tanpa klaim yang tidak bisa ia dukung; ada tanggal; bukti berdekatan; #3 pendiri dijawab dengan kata-kata pendiri."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your scorecard put coordination above measurement because it has more bullets, you counted lines instead of weighting cues — “measure” three times across two sources beats three bullets. If your owned answer for SQL contains the word “familiar”, it is a bluff; replace it with the module number and a date. If your own decode has no difficult-case question, you have skipped the question you most need to prepare. Your decode is now the third Kit item; Round 3 in the simulator is the role-specific session it predicts.",
+        "id": "Bandingkan, jangan salin. Jika lembar penilaianmu menaruh koordinasi di atas pengukuran karena butirnya lebih banyak, kamu menghitung baris alih-alih membobot petunjuk — “measure” tiga kali lintas dua sumber mengalahkan tiga butir. Jika jawaban SQL-mu yang diakui memuat kata “familiar”, itu gertakan; ganti dengan nomor modul dan tanggal. Jika uraianmu sendiri tidak punya pertanyaan kasus sulit, kamu melewatkan pertanyaan yang paling perlu kamu siapkan. Uraianmu kini butir Perangkat ketiga; Putaran 3 di simulator adalah sesi khas peran yang diprediksinya."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as Mr. Aditya would on Tuesday, with the posting he wrote open beside him. Submitting locks them on this device, opens the model notes, and files your decode as the third Kit item.",
+        "id": "Baca kelima jawabanmu seperti Bapak Aditya pada hari Selasa, dengan lowongan yang ia tulis terbuka di sampingnya. Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan mengarsipkan uraianmu sebagai butir Perangkat ketiga."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, then run Round 3 — the role-specific session for KilatPay — and note which predicted question you had not mapped before Module 4.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, lalu jalankan Putaran 3 — sesi khas peran untuk KilatPay — dan catat pertanyaan prediksi mana yang belum kamu petakan sebelum Modul 4."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Counting bullets instead of weighting cues",
+         "id": "Menghitung butir alih-alih membobot petunjuk"
+        },
+        "fix": {
+         "en": "Repetition across sources and the founder’s order beat the number of lines.",
+         "id": "Pengulangan lintas sumber dan urutan pendiri mengalahkan jumlah baris."
+        }
+       },
+       {
+        "h": {
+         "en": "Re-reading the take-home case for three days",
+         "id": "Membaca ulang kasus take-home selama tiga hari"
+        },
+        "fix": {
+         "en": "The case is scored; Tuesday scores her. Decode, predict, map, rehearse five, sleep.",
+         "id": "Kasusnya sudah dinilai; Selasa menilai dirinya. Urai, prediksi, petakan, latih lima, tidur."
+        }
+       },
+       {
+        "h": {
+         "en": "Bringing the bank’s stories to the startup",
+         "id": "Membawa cerita bank ke startup"
+        },
+        "fix": {
+         "en": "Retire the integrity pair; promote the number-in-a-disagreement and the missing-data stories.",
+         "id": "Pensiunkan pasangan integritas; promosikan cerita angka-dalam-ketidaksepakatan dan data-hilang."
+        }
+       },
+       {
+        "h": {
+         "en": "“Familiar with SQL”",
+         "id": "“Familiar dengan SQL”"
+        },
+        "fix": {
+         "en": "Module number, date, adjacent evidence, motive — never an adjective.",
+         "id": "Nomor modul, tanggal, bukti berdekatan, motif — jangan pernah kata sifat."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Company-language layer",
+        "id": "Lapis bahasa perusahaan"
+       },
+       "def": {
+        "en": "Values, mission lines and repeated non-skill words — in a posting, a founder’s post or a news item — that predict fit and values questions.",
+        "id": "Nilai, kalimat misi, dan kata non-keterampilan yang berulang — di lowongan, unggahan pendiri, atau berita — yang memprediksi pertanyaan kecocokan dan nilai."
+       }
+      },
+      {
+       "term": {
+        "en": "Escape clause",
+        "id": "Klausul pelarian"
+       },
+       "def": {
+        "en": "“…or willing to learn fast” — turns a requirement into a scored competency where the honest answer is a plan with a date.",
+        "id": "“…or willing to learn fast” — mengubah persyaratan menjadi kompetensi yang dinilai di mana jawaban jujurnya adalah rencana dengan tanggal."
+       }
+      },
+      {
+       "term": {
+        "en": "Owned-gap answer",
+        "id": "Jawaban celah yang diakui"
+       },
+       "def": {
+        "en": "Limit · adjacent evidence · plan · motive — four sentences, written the night before.",
+        "id": "Batas · bukti berdekatan · rencana · motif — empat kalimat, ditulis malam sebelumnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Role decode",
+        "id": "Uraian peran"
+       },
+       "def": {
+        "en": "The Kit item: scorecard, predicted set, mapping and gaps for one target, with sources and date.",
+        "id": "Butir Perangkat: lembar penilaian, set prediksi, pemetaan, dan celah untuk satu sasaran, dengan sumber dan tanggal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The posting has three bullets on coordination and one on measurement, but “measure” appears three times across the posting and the founder’s post. The largest weight goes to…",
+        "id": "Lowongan punya tiga butir tentang koordinasi dan satu tentang pengukuran, tetapi “measure” muncul tiga kali di lowongan dan unggahan pendiri. Bobot terbesar untuk…"
+       },
+       "options": [
+        {
+         "en": "Coordination — more bullets",
+         "id": "Koordinasi — lebih banyak butir"
+        },
+        {
+         "en": "Measurement — repetition across sources, first position, and the founder’s #1",
+         "id": "Pengukuran — pengulangan lintas sumber, posisi pertama, dan #1 pendiri"
+        },
+        {
+         "en": "Travel — it is a must",
+         "id": "Perjalanan — itu wajib"
+        },
+        {
+         "en": "SQL — it is technical",
+         "id": "SQL — itu teknis"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Weighting cues are position, repetition and marking, not line count; “must” on travel makes it eligibility, not weight.",
+        "id": "Petunjuk pembobotan adalah posisi, pengulangan, dan penandaan, bukan jumlah baris; “wajib” pada perjalanan menjadikannya kelayakan, bukan bobot."
+       }
+      },
+      {
+       "q": {
+        "en": "“Comfortable with SQL, or willing to learn fast.” For Nadia (module 2 of 6) this line is…",
+        "id": "“Comfortable with SQL, or willing to learn fast.” Untuk Nadia (modul 2 dari 6) baris ini adalah…"
+       },
+       "options": [
+        {
+         "en": "A screen she fails — do not apply",
+         "id": "Saringan yang ia gagal — jangan melamar"
+        },
+        {
+         "en": "A scored competency under learning fast — answered with the module number, a date and adjacent Excel evidence",
+         "id": "Kompetensi yang dinilai di bawah belajar cepat — dijawab dengan nomor modul, tanggal, dan bukti Excel berdekatan"
+        },
+        {
+         "en": "Irrelevant — she used Excel in the case",
+         "id": "Tidak relevan — ia memakai Excel di kasus"
+        },
+        {
+         "en": "A reason to say “familiar with SQL”",
+         "id": "Alasan untuk berkata “familiar dengan SQL”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The escape clause moves it from eligibility to competency; the founder’s #3 tells her exactly how to answer it.",
+        "id": "Klausul pelarian memindahkannya dari kelayakan ke kompetensi; #3 pendiri memberi tahu persis cara menjawabnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Which bench story earns a place for KilatPay that it did not have for the bank?",
+        "id": "Cerita cadangan mana yang mendapat tempat untuk KilatPay yang tidak didapatnya untuk bank?"
+       },
+       "options": [
+        {
+         "en": "#7 the clean audit",
+         "id": "#7 audit bersih"
+        },
+        {
+         "en": "#15 — pricing the sponsor packages from last year’s conversion data, a number brought to a disagreement",
+         "id": "#15 — menetapkan harga paket sponsor dari data konversi tahun lalu, angka yang dibawa ke ketidaksepakatan"
+        },
+        {
+         "en": "#17 the till overage",
+         "id": "#17 kas lebih"
+        },
+        {
+         "en": "None — the Core 10 never changes",
+         "id": "Tidak ada — Core 10 tidak pernah berubah"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The mapping is per target; the founder’s #1 (“measure before you argue”) is exactly #15’s shape.",
+        "id": "Pemetaan per sasaran; #1 pendiri (“measure before you argue”) persis bentuk #15."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "mot_how_we_make_money",
+      "set": [
+       "mot_how_we_make_money",
+       "beh_improved_process",
+       "sit_conflicting_deadlines",
+       "beh_learning_new_tool",
+       "case_late_deliveries",
+       "stress_defend_least"
+      ],
+      "persona": "manager",
+      "profile": "mixed",
+      "returnTo": 3,
+      "label": {
+       "en": "Round 3 · Role-specific session (KilatPay)",
+       "id": "Putaran 3 · Sesi khas peran (KilatPay)"
+      },
+      "desc": {
+       "en": "Six questions shaped by the KilatPay scorecard — the business model, a measured improvement, conflicting stakeholders, a tool learned fast, an operations case and the difficult “defend least” probe — with the Hiring Manager. Answer from the mapping you just wrote; note any question your decode did not predict.",
+       "id": "Enam pertanyaan yang dibentuk lembar penilaian KilatPay — model bisnis, perbaikan terukur, pemangku kepentingan yang bertentangan, alat yang dipelajari cepat, kasus operasi, dan galian sulit “paling tidak Anda pertahankan” — dengan Hiring Manager. Jawab dari pemetaan yang baru kamu tulis; catat pertanyaan yang tidak diprediksi uraianmu."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 3 against Rounds 1 and 2",
+       "id": "Putaran 3 melawan Putaran 1 dan 2"
+      },
+      "body": {
+       "en": "After Round 3, compare the three sessions. Round 1 was unprepared, Round 2 had stories, Round 3 had stories mapped to a decoded role. If the content score did not move between 2 and 3, the mapping was not used in the room — re-read your predicted set and note which story you actually told for each question.",
+       "id": "Setelah Putaran 3, bandingkan ketiga sesi. Putaran 1 tanpa persiapan, Putaran 2 punya cerita, Putaran 3 punya cerita yang dipetakan ke peran yang diurai. Jika skor isi tidak bergerak antara 2 dan 3, pemetaannya tidak dipakai di ruangan — baca ulang set prediksimu dan catat cerita mana yang benar-benar kamu ceritakan untuk tiap pertanyaan."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Three public sources are enough to reconstruct a scorecard; repetition across them is the strongest cue.",
+       "id": "Tiga sumber publik cukup untuk merekonstruksi lembar penilaian; pengulangan lintas sumber adalah petunjuk terkuat."
+      },
+      {
+       "en": "The mapping is per target — stories retire and bench stories get promoted.",
+       "id": "Pemetaan per sasaran — cerita dipensiunkan dan cerita cadangan dipromosikan."
+      },
+      {
+       "en": "A real gap is answered with limit, adjacent evidence, a dated plan and a motive — never an adjective.",
+       "id": "Celah nyata dijawab dengan batas, bukti berdekatan, rencana bertanggal, dan motif — jangan pernah kata sifat."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 2 · the library",
-        "id": "Modul 2 · perpustakaannya"
+        "en": "Lessons 3.1–3.3",
+        "id": "Pelajaran 3.1–3.3"
        },
        "desc": {
-        "en": "Tagged stories at three altitudes.",
-        "id": "Cerita bertag di tiga ketinggian."
+        "en": "Four layers and weighting, the ninety-minute research sprint, the hypothesis hour with its matrix and checklist.",
+        "id": "Empat lapis dan pembobotan, sprint riset sembilan puluh menit, jam hipotesis dengan matriks dan daftar periksanya."
        }
       },
       "now": {
        "label": {
-        "en": "Module 3 · aimed at the rubric",
-        "id": "Modul 3 · diarahkan ke rubrik"
+        "en": "3.4 · Decode the KilatPay role",
+        "id": "3.4 · Bedah peran KilatPay"
        },
        "desc": {
-        "en": "Anchored scales, company frameworks, decoded JDs and a matrix that shows what to polish.",
-        "id": "Skala berjangkar, kerangka perusahaan, JD yang diuraikan, dan matriks yang menunjukkan apa yang harus dipoles."
+        "en": "You have decoded a startup scorecard from three sources, predicted twelve questions, mapped a Core 10, treated two gaps, and filed your own decode.",
+        "id": "Kamu sudah menguraikan lembar penilaian startup dari tiga sumber, memprediksi dua belas pertanyaan, memetakan Core 10, menangani dua celah, dan mengarsipkan uraianmu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 5 · the HR interview",
-        "id": "Modul 5 · wawancara HR"
+        "en": "Module 4 · Your Opening and Core Message",
+        "id": "Modul 4 · Pembuka dan Pesan Utamamu"
        },
        "desc": {
-        "en": "Five questions HR needs answered, the positioning statement and the answer systems for the predictable questions.",
-        "id": "Lima pertanyaan yang perlu dijawab HR, pernyataan pemosisian, dan sistem jawaban untuk pertanyaan yang bisa diprediksi."
+        "en": "Five points the interviewer should remember, a sixty-second opening in both languages, “why us”, strengths and the real weakness — built from the top lines of the decode you just wrote.",
+        "id": "Lima poin yang harus diingat pewawancara, pembuka enam puluh detik dalam dua bahasa, “mengapa kami”, kekuatan, dan kelemahan nyata — dibangun dari baris teratas uraian yang baru kamu tulis."
        },
-       "lesson": "5.1"
+       "lesson": "4.1"
       }
-     },
-     "migratedFrom": "the-rope:3.4"
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
-   "heroPos": "56% 22%"
+   "heroPos": "56% 22%",
+   "round": {
+    "en": "Round 3 · Role-specific session — six questions shaped by a decoded scorecard (the KilatPay role in the case); when the predicted-set mode accepts the learner’s own decode, it runs from that page.",
+    "id": "Putaran 3 · Sesi khas peran — enam pertanyaan yang dibentuk lembar penilaian terurai (peran KilatPay dalam kasus); saat mode set prediksi menerima uraian pelajar sendiri, ia berjalan dari halaman itu."
+   }
   },
   {
    "num": 4,

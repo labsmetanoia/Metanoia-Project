@@ -645,129 +645,251 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "3": {
-  "mcq": [
+  "minutes": 10,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "Interview rubrics score answers against:",
-     "id": "Rubrik wawancara menilai jawaban berdasarkan:"
+    "lesson": "3.1",
+    "h": {
+     "en": "Reading a Job Description as a Scoresheet",
+     "id": "Membaca Deskripsi Pekerjaan sebagai Lembar Penilaian"
     },
-    "opts": [
-     {
-      "en": "The interviewer's personal taste",
-      "id": "Selera pribadi pewawancara"
-     },
-     {
-      "en": "Defined competencies with behavioural anchors per level",
-      "id": "Kompetensi yang sudah ditetapkan, dengan contoh perilaku yang jelas untuk setiap level"
-     },
-     {
-      "en": "Overall impression at the end",
-      "id": "Kesan keseluruhan di akhir"
-     },
-     {
-      "en": "Speed and confidence of delivery",
-      "id": "Kecepatan dan kepercayaan diri saat menyampaikan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Decode the framework and you know what evidence each question hunts — the JD's competency words are the rubric's table of contents.",
-     "id": "Pecahkan kerangkanya, dan kamu tahu bukti apa yang diburu setiap pertanyaan — kata-kata kompetensi di deskripsi lowongan adalah daftar isi rubriknya."
+    "sub": {
+     "en": "Four layers, verbs to competencies, weighting, values into probes, the evidence table.",
+     "id": "Empat lapis, kata kerja ke kompetensi, pembobotan, nilai menjadi galian, tabel bukti."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "'Tell me about a time you failed' is hunting for:",
-     "id": "'Ceritakan saat kamu pernah gagal' sedang mencari:"
+    "lesson": "3.2",
+    "h": {
+     "en": "Researching the Organisation in 90 Minutes",
+     "id": "Meriset Organisasi dalam 90 Menit"
     },
-    "opts": [
-     {
-      "en": "Disqualifying weaknesses",
-      "id": "Kelemahan yang bisa menggugurkanmu"
-     },
-     {
-      "en": "Ownership, recovery behaviour, and what changed after — the learning loop under pressure",
-      "id": "Rasa memiliki, cara bangkit, dan apa yang berubah setelahnya — putaran belajar di bawah tekanan"
-     },
-     {
-      "en": "Your honesty about disasters",
-      "id": "Kejujuranmu tentang bencana"
-     },
-     {
-      "en": "Whether you avoid risky projects",
-      "id": "Apakah kamu menghindari proyek berisiko"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "A real failure, owned without blame, with a recovery and a changed behaviour, scores higher than 'my weakness is perfectionism'.",
-     "id": "Kegagalan sungguhan, diakui tanpa menyalahkan siapa pun, dengan cara bangkit dan perilaku yang berubah, mendapat skor lebih tinggi daripada 'kelemahan saya adalah perfeksionis'."
+    "sub": {
+     "en": "Six blocks, six outputs, answers not recitals, Indonesian sources.",
+     "id": "Enam blok, enam keluaran, jawaban bukan pembacaan, sumber Indonesia."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "Reading a JD before an interview, the competency signals live in:",
-     "id": "Saat membaca deskripsi lowongan sebelum wawancara, sinyal kompetensinya ada di:"
+    "lesson": "3.3",
+    "h": {
+     "en": "Predict and Map — The Hypothesis Hour",
+     "id": "Prediksi dan Petakan — Jam Hipotesis"
     },
-    "opts": [
-     {
-      "en": "The salary band",
-      "id": "Rentang gajinya"
-     },
-     {
-      "en": "Repeated words, first-listed requirements, and the verbs describing the role's work",
-      "id": "Kata-kata yang berulang, persyaratan yang disebut paling awal, dan kata kerja yang menggambarkan pekerjaannya"
-     },
-     {
-      "en": "The company boilerplate",
-      "id": "Teks standar tentang perusahaan"
-     },
-     {
-      "en": "The benefits section",
-      "id": "Bagian tunjangan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The JD is the interview's syllabus: every heavy requirement will hunt for evidence, so each one gets a mapped story before you walk in.",
-     "id": "Deskripsi lowongan adalah silabus wawancaranya: setiap persyaratan yang berbobot akan mencari bukti, jadi masing-masing harus sudah punya cerita yang dipetakan sebelum kamu masuk ruangan."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "The interviewer looks unconvinced by your answer. The trained response:",
-     "id": "Pewawancara terlihat belum yakin dengan jawabanmu. Respons yang terlatih:"
-    },
-    "opts": [
-     {
-      "en": "Repeat the answer more confidently",
-      "id": "Ulangi jawabannya dengan lebih percaya diri"
-     },
-     {
-      "en": "Offer the check: 'does that address what you were looking for, or should I go deeper on a specific part?'",
-      "id": "Tawarkan pengecekan: 'apakah itu sudah menjawab yang Bapak/Ibu cari, atau ada bagian tertentu yang perlu saya perdalam?'"
-     },
-     {
-      "en": "Move on quickly to hide the wobble",
-      "id": "Cepat pindah ke topik lain untuk menutupi kegoyahan"
-     },
-     {
-      "en": "Ask what answer they wanted",
-      "id": "Tanyakan jawaban seperti apa yang mereka inginkan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The landing check converts a silent miss into a second chance — and reads as exactly the communication habit the rubric scores.",
-     "id": "Pengecekan di akhir jawaban mengubah kegagalan yang tak terucap menjadi kesempatan kedua — dan terbaca persis sebagai kebiasaan komunikasi yang dinilai rubrik."
+    "sub": {
+     "en": "The predicted set, primary and backup, minable and real gaps, the matrix, the checklist.",
+     "id": "Set prediksi, utama dan cadangan, celah yang bisa digali dan nyata, matriks, daftar periksa."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "scen",
+    "lesson": "3.1",
+    "q": {
+     "en": "A posting reads: “Melakukan rekonsiliasi harian (1) · Menangani keluhan nasabah (2) · Bersedia ditempatkan di seluruh Indonesia (3) · Teliti dan berintegritas (4)”. Which line is an eligibility screen?",
+     "id": "Lowongan berbunyi: “Melakukan rekonsiliasi harian (1) · Menangani keluhan nasabah (2) · Bersedia ditempatkan di seluruh Indonesia (3) · Teliti dan berintegritas (4)”. Baris mana yang saringan kelayakan?"
+    },
+    "opts": [
+     {
+      "en": "1",
+      "id": "1"
+     },
+     {
+      "en": "2",
+      "id": "2"
+     },
+     {
+      "en": "3 — answered with a true sentence, not a story",
+      "id": "3 — dijawab dengan kalimat jujur, bukan cerita"
+     },
+     {
+      "en": "4",
+      "id": "4"
+     }
+    ],
+    "correct": 2,
+    "expl": {
+     "en": "“Bersedia …” lines are pass/fail; the others are can-do, service and values competencies that predict story questions.",
+     "id": "Baris “Bersedia …” adalah lulus/gagal; yang lain kompetensi bisa, layanan, dan nilai yang memprediksi pertanyaan cerita."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.1",
+    "q": {
+     "en": "The strongest cue that a competency carries the largest weight on the scorecard is…",
+     "id": "Petunjuk terkuat bahwa sebuah kompetensi memikul bobot terbesar di lembar penilaian adalah…"
+    },
+    "opts": [
+     {
+      "en": "It has the longest bullet",
+      "id": "Butirnya paling panjang"
+     },
+     {
+      "en": "It is repeated across layers — responsibilities, requirements and company language",
+      "id": "Diulang lintas lapis — tanggung jawab, persyaratan, dan bahasa perusahaan"
+     },
+     {
+      "en": "It is listed last",
+      "id": "Disebut terakhir"
+     },
+     {
+      "en": "It is in English",
+      "id": "Dalam bahasa Inggris"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Position, repetition and “wajib” are the weighting cues; three appearances make a core theme.",
+     "id": "Posisi, pengulangan, dan “wajib” adalah petunjuk pembobotan; tiga kemunculan membentuk tema inti."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.2",
+    "q": {
+     "en": "HR asks “apa yang Anda ketahui tentang kami?” The strong answer…",
+     "id": "HR bertanya “apa yang Anda ketahui tentang kami?” Jawaban yang kuat…"
+    },
+    "opts": [
+     {
+      "en": "Recites the founding year, the number of branches and the awards",
+      "id": "Membacakan tahun berdiri, jumlah cabang, dan penghargaan"
+     },
+     {
+      "en": "Spends one researched fact — a priority from the report — connected to a reason the candidate chose them",
+      "id": "Membelanjakan satu fakta riset — prioritas dari laporan — terhubung dengan alasan kandidat memilih mereka"
+     },
+     {
+      "en": "Quotes an employee review",
+      "id": "Mengutip ulasan karyawan"
+     },
+     {
+      "en": "Says “I read your website”",
+      "id": "Berkata “saya membaca situs Anda”"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The hidden concern is whether the application is random; an anchor answers it, a recital does not.",
+     "id": "Kekhawatiran tersembunyinya apakah lamaran acak; jangkar menjawabnya, pembacaan tidak."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.2",
+    "q": {
+     "en": "For a startup with no annual report, block 2 of the research sprint uses…",
+     "id": "Untuk startup tanpa laporan tahunan, blok 2 sprint riset memakai…"
+    },
+    "opts": [
+     {
+      "en": "Nothing — skip it",
+      "id": "Tidak ada — lewati"
+     },
+     {
+      "en": "Founder posts, funding and launch announcements, and the product itself",
+      "id": "Unggahan pendiri, pengumuman pendanaan dan peluncuran, dan produk itu sendiri"
+     },
+     {
+      "en": "The competitor’s annual report",
+      "id": "Laporan tahunan pesaing"
+     },
+     {
+      "en": "Employee reviews",
+      "id": "Ulasan karyawan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The equivalents of a report at a startup are the founders’ public statements and the product.",
+     "id": "Padanan laporan di startup adalah pernyataan publik pendiri dan produknya."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "3.3",
+    "q": {
+     "en": "The mapping shows “people management” as a predicted question with no story. Nadia has led a six-person volunteer team but never managed staff. The gap is…",
+     "id": "Pemetaan menunjukkan “manajemen orang” sebagai pertanyaan prediksi tanpa cerita. Nadia pernah memimpin tim relawan enam orang tetapi tidak pernah mengelola staf. Celahnya…"
+    },
+    "opts": [
+     {
+      "en": "Minable — frame the volunteer team as management",
+      "id": "Bisa digali — bingkai tim relawan sebagai manajemen"
+     },
+     {
+      "en": "Real — answer with limit, adjacent evidence (the volunteer team), a plan and a motive",
+      "id": "Nyata — jawab dengan batas, bukti berdekatan (tim relawan), rencana, dan motif"
+     },
+     {
+      "en": "Not a gap — say yes",
+      "id": "Bukan celah — jawab ya"
+     },
+     {
+      "en": "A reason to withdraw",
+      "id": "Alasan mengundurkan diri"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "She does not yet have the competency; the owned-gap answer uses the adjacent evidence honestly and turns the gap into motive.",
+     "id": "Ia belum punya kompetensinya; jawaban celah yang diakui memakai bukti berdekatan dengan jujur dan mengubah celah menjadi motif."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "3.3",
+    "q": {
+     "en": "In the story × competency matrix, a row with three or more marks is…",
+     "id": "Dalam matriks cerita × kompetensi, baris dengan tiga tanda atau lebih adalah…"
+    },
+    "opts": [
+     {
+      "en": "Over-used — delete it",
+      "id": "Terlalu sering dipakai — hapus"
+     },
+     {
+      "en": "A workhorse — rehearse it at all three lengths because it will be used more than once",
+      "id": "Andalan — latih di ketiga panjang karena akan dipakai lebih dari sekali"
+     },
+     {
+      "en": "A gap",
+      "id": "Celah"
+     },
+     {
+      "en": "An eligibility item",
+      "id": "Butir kelayakan"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Workhorses are polished first; a row over four marks is asked to do too much and one column moves to the backup.",
+     "id": "Andalan dipoles lebih dulu; baris di atas empat tanda diminta terlalu banyak dan satu kolom pindah ke cadangan."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. For your top target: which scorecard line did you weight highest, and which two cues (position, repetition, marking, the founder’s or company’s own words) made you weight it that way? Then name the predicted question you are least ready for, say whether its gap is minable or real, and write the first sentence of the answer you will give.",
+    "id": "Minimal 100 kata. Untuk sasaran teratasmu: baris lembar penilaian mana yang kamu bobot tertinggi, dan dua petunjuk mana (posisi, pengulangan, penandaan, kata-kata pendiri atau perusahaan sendiri) yang membuatmu membobotnya begitu? Lalu sebutkan pertanyaan prediksi yang paling tidak siap kamu jawab, katakan apakah celahnya bisa digali atau nyata, dan tulis kalimat pertama jawaban yang akan kamu berikan."
+   },
+   "guide": [
+    {
+     "en": "Quote the posting’s own words for the cues.",
+     "id": "Kutip kata-kata lowongan sendiri untuk petunjuknya."
+    },
+    {
+     "en": "A minable gap names what you will dig for; a real gap starts with the limit.",
+     "id": "Celah yang bisa digali menyebut apa yang akan kamu gali; celah nyata dimulai dengan batasnya."
+    },
+    {
+     "en": "The first sentence should be one you could say on Tuesday without notes.",
+     "id": "Kalimat pertama harus yang bisa kamu ucapkan hari Selasa tanpa catatan."
+    }
+   ],
+   "min": 100
+  }
  },
  "4": {
   "mcq": [
