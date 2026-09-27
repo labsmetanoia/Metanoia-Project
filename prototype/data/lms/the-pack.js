@@ -39324,676 +39324,3013 @@ window.MT_LMS['the-pack'] = {
    "lessons": [
     {
      "n": "9.1",
-     "title": {
-      "en": "Introduction to Professional Etiquette — Why It Matters and Where It Shows",
-      "id": "Pengantar Etiket Profesional — Mengapa Penting dan Di Mana Terlihat"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Every Interaction Is a Work Sample",
+      "id": "Setiap Interaksi Adalah Contoh Kerja"
+     },
      "overview": {
-      "en": "Etiquette is not decoration; it is applied respect, and it is being read at every touchpoint of your candidacy — often before your qualifications are. This lesson maps where etiquette shows, why it moves decisions, and the professional default settings that never embarrass you.",
-      "id": "Etiket bukan hiasan; etiket adalah rasa hormat yang dipraktikkan, dan ia dibaca di setiap titik sentuh pencalonanmu — sering kali sebelum kualifikasimu sempat dibaca. Pelajaran ini memetakan di mana etiket terlihat, mengapa ia menggerakkan keputusan, dan setelan bawaan profesional yang tidak akan pernah mempermalukanmu."
+      "en": "Employers read punctuality, courtesy to reception, how much you talk and whether you send thanks as evidence of how you will behave at work. This lesson sets the defaults once — how you address people, how fast you reply, how you sign off — so you are never improvising under stress; gives you the Indonesian register ladder (Yth. · Bapak/Ibu · Kak) and its English equivalents; and fixes the channel rules for email, LinkedIn, WhatsApp and calls.",
+      "id": "Perusahaan membaca ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim ucapan terima kasih sebagai bukti caramu akan berperilaku di tempat kerja. Pelajaran ini menetapkan setelan bawaan sekali — cara menyapa, seberapa cepat membalas, cara menutup — agar kamu tidak pernah berimprovisasi di bawah tekanan; memberimu tangga register Indonesia (Yth. · Bapak/Ibu · Kak) dan padanan Inggrisnya; dan menetapkan aturan saluran untuk email, LinkedIn, WhatsApp, dan telepon."
      },
      "objectives": [
       {
-       "en": "Identify the touchpoints where candidates are etiquette-read: mail, calls, waits, follow-ups.",
-       "id": "Mengenali titik-titik sentuh tempat etiket kandidat dibaca: surat, telepon, waktu menunggu, tindak lanjut."
+       "en": "Explain why employers treat every touchpoint as a work sample, and who your allies are.",
+       "id": "Menjelaskan mengapa perusahaan memperlakukan setiap titik kontak sebagai contoh kerja, dan siapa sekutumu."
       },
       {
-       "en": "Explain why etiquette functions as a competence preview for employers.",
-       "id": "Menjelaskan mengapa etiket berfungsi sebagai cuplikan kompetensi di mata perusahaan."
+       "en": "Set your professional defaults — address, response time, punctuality, sign-off — once.",
+       "id": "Menetapkan setelan bawaan profesionalmu — sapaan, waktu balas, ketepatan waktu, penutup — sekali."
       },
       {
-       "en": "Install the professional defaults: response times, forms of address, punctuality buffers.",
-       "id": "Memasang setelan bawaan profesional: waktu merespons, cara menyapa, waktu cadangan supaya tidak terlambat."
+       "en": "Choose the right register and channel for any message, in Indonesian or English.",
+       "id": "Memilih register dan saluran yang tepat untuk pesan apa pun, dalam bahasa Indonesia atau Inggris."
       }
      ],
-     "takeawaysLead": {
-      "en": "Etiquette is applied respect, read at every touchpoint before your qualifications are. To install defaults that never embarrass you, you can:",
-      "id": "Etiket adalah rasa hormat yang diterapkan, dibaca di setiap titik sentuh sebelum kualifikasimu. Untuk memasang pengaturan bawaan yang tak pernah mempermalukanmu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "They are watching before the interview starts",
+       "id": "Mereka memperhatikan sebelum wawancara dimulai"
+      },
+      "intro": {
+       "en": "The paper gate is behind you; from here, every message, call and wait is read by a person who is deciding whether to work with you.",
+       "id": "Gerbang kertas sudah di belakangmu; mulai dari sini, setiap pesan, telepon, dan waktu tunggu dibaca oleh orang yang sedang memutuskan apakah akan bekerja bersamamu."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The principle",
+         "id": "Prinsipnya"
+        },
+        "points": [
+         {
+          "en": "Punctuality, courtesy to reception staff, how much you talk, whether you send thanks — employers treat all of it as evidence of how you will behave at work.",
+          "id": "Ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, apakah kamu mengirim terima kasih — perusahaan memperlakukan semuanya sebagai bukti caramu akan berperilaku di tempat kerja."
+         },
+         {
+          "en": "Assistants, receptionists and HR coordinators are allies, not obstacles. Learn and use their names.",
+          "id": "Asisten, resepsionis, dan koordinator HR adalah sekutu, bukan hambatan. Pelajari dan pakai nama mereka."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Defaults beat improvisation",
+         "id": "Setelan bawaan mengalahkan improvisasi"
+        },
+        "points": [
+         {
+          "en": "Decide once how you address people, how fast you respond, and how you sign off. Under stress you run the default instead of guessing.",
+          "id": "Putuskan sekali cara menyapa, seberapa cepat membalas, dan cara menutup. Di bawah tekanan kamu menjalankan setelan, bukan menebak."
+         },
+         {
+          "en": "Err formal; let the other person set a more casual tone.",
+          "id": "Condong ke formal; biarkan pihak lain yang menetapkan nada lebih santai."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Channels have rules",
+         "id": "Saluran punya aturan"
+        },
+        "points": [
+         {
+          "en": "Email for records and formal requests. LinkedIn for first contact. WhatsApp only when they made it the channel — office hours, one complete message, no voice notes unless invited.",
+          "id": "Email untuk catatan dan permintaan formal. LinkedIn untuk kontak pertama. WhatsApp hanya jika mereka yang menjadikannya saluran — jam kerja, satu pesan lengkap, tanpa pesan suara kecuali diundang."
+         },
+         {
+          "en": "Calls only when invited or published for that purpose.",
+          "id": "Telepon hanya jika diundang atau dipublikasikan untuk tujuan itu."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Every interaction is read as a sample of your future workplace behaviour — because it is one.",
-       "id": "Setiap interaksi dibaca sebagai contoh perilakumu kelak di tempat kerja — karena memang begitu adanya."
-      },
-      {
-       "en": "Defaults beat improvisation: decide once how you address, respond, and arrive — then stop spending thought on it.",
-       "id": "Setelan bawaan mengalahkan improvisasi: putuskan sekali cara menyapa, merespons, dan datang — lalu berhenti memikirkannya."
-      },
-      {
-       "en": "Warmth and respect are the substance; the forms are just their local dialect.",
-       "id": "Kehangatan dan rasa hormat adalah isinya; bentuk-bentuknya hanya dialek setempat."
-      }
-     ],
      "sections": [
       {
        "icon": "eye",
+       "img": "../../assets/bg/gauntlet/gate-05-hr-interview.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Where it shows",
-        "id": "Di mana etiket terlihat"
+        "en": "The principle — and where it shows",
+        "id": "Prinsipnya — dan di mana ia terlihat"
        },
        "body": {
-        "en": "The etiquette read starts earlier than candidates think: the application email's subject line, whether instructions were followed, how you treat the receptionist and the scheduling coordinator (interviewers routinely ask them), your punctuality to calls, how you handle a rescheduled interview, the thank-you note, and how you respond to rejection. Two facts make these moments heavy. They are <b>low-noise</b>: unlike interview answers, nobody coaches their treatment of the coordinator, so it reads as character. And they are <b>remembered</b>: process notes in the ATS persist — the candidate who was rude to reception two years ago is still in the database.",
-        "id": "Etiket mulai dibaca lebih awal daripada yang dikira kandidat: subjek email lamaran, apakah instruksi diikuti, caramu memperlakukan resepsionis dan koordinator jadwal (pewawancara rutin bertanya kepada mereka), ketepatan waktumu saat telepon, caramu menangani wawancara yang dijadwalkan ulang, ucapan terima kasih, dan caramu merespons penolakan. Dua hal membuat momen-momen ini berbobot. Momen-momen itu <b>minim polesan</b>: berbeda dari jawaban wawancara, tidak ada yang berlatih cara memperlakukan koordinator, sehingga perilakumu terbaca sebagai karakter. Dan momen-momen itu <b>diingat</b>: catatan proses di ATS bertahan lama — kandidat yang kasar kepada resepsionis dua tahun lalu masih ada di basis data."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Why it moves decisions",
-        "id": "Mengapa etiket menggerakkan keputusan"
+        "en": "Employers treat punctuality, courtesy to reception staff, how much you talk, and whether you send thanks as evidence of how you will behave at work <i>(Bolles, What Color Is Your Parachute?, ch. 2, 6)</i>. The read starts earlier than candidates think: the subject line of the application email, whether instructions were followed, how you treat the receptionist and the scheduling coordinator — interviewers routinely ask them — your punctuality to calls, how you handle a rescheduled interview, the thank-you note, and how you respond to rejection. Two facts make these moments heavy. They are <b>low-noise</b>: nobody rehearses their treatment of the coordinator, so it reads as character. And they are <b>remembered</b>: process notes in an applicant tracking system persist, and the candidate who was rude to reception is still in the database when the next role opens. Assistants, receptionists and HR coordinators are therefore allies, not obstacles; learn and use their names <i>(Levy; Bolles)</i>.",
+        "id": "Perusahaan memperlakukan ketepatan waktu, kesopanan kepada resepsionis, seberapa banyak kamu bicara, dan apakah kamu mengirim terima kasih sebagai bukti caramu akan berperilaku di tempat kerja <i>(Bolles, What Color Is Your Parachute?, bab 2, 6)</i>. Pembacaannya dimulai lebih awal daripada yang dikira kandidat: subjek email lamaran, apakah instruksi diikuti, caramu memperlakukan resepsionis dan koordinator jadwal — pewawancara rutin bertanya kepada mereka — ketepatan waktumu saat telepon, caramu menangani wawancara yang dijadwalkan ulang, ucapan terima kasih, dan caramu merespons penolakan. Dua hal membuat momen-momen ini berbobot. Momen itu <b>minim polesan</b>: tidak ada yang berlatih cara memperlakukan koordinator, sehingga terbaca sebagai karakter. Dan momen itu <b>diingat</b>: catatan proses di sistem pelacakan pelamar bertahan, dan kandidat yang kasar kepada resepsionis masih ada di basis data saat peran berikutnya dibuka. Karena itu asisten, resepsionis, dan koordinator HR adalah sekutu, bukan hambatan; pelajari dan pakai nama mereka <i>(Levy; Bolles)</i>."
        },
-       "body": {
-        "en": "Hiring is risk assessment, and etiquette is the cheapest risk signal available. A candidate who replies within a day, follows instructions exactly, and treats juniors with respect is statistically predicting their behaviour with clients, deadlines and teammates. Between two similar finalists, the tie-breaker is almost never another skill question — it is “which one do we trust in front of a client?” Etiquette is also asymmetric: excellent manners rarely win a job alone, but poor ones lose jobs alone, silently, with feedback you will never receive.",
-        "id": "Merekrut adalah menilai risiko, dan etiket adalah sinyal risiko termurah yang tersedia. Kandidat yang membalas dalam sehari, mengikuti instruksi dengan tepat, dan memperlakukan staf junior dengan hormat secara statistik meramalkan perilakunya kelak terhadap klien, tenggat, dan rekan setim. Di antara dua finalis yang setara, penentunya hampir tidak pernah berupa pertanyaan keterampilan tambahan — melainkan “yang mana yang kita percaya untuk berhadapan dengan klien?” Etiket juga tidak simetris: tata krama yang sangat baik jarang memenangkan pekerjaan dengan sendirinya, tetapi tata krama yang buruk bisa menghilangkan pekerjaan dengan sendirinya, diam-diam, tanpa umpan balik yang akan pernah kamu terima."
-       }
+       "bullets": [
+        {
+         "en": "<b>Before the interview:</b> the application email, the reply to the invitation, the confirmation of the slot, the question to the coordinator.",
+         "id": "<b>Sebelum wawancara:</b> email lamaran, balasan undangan, konfirmasi jadwal, pertanyaan kepada koordinator."
+        },
+        {
+         "en": "<b>Around the interview:</b> arrival time, the greeting to reception, the wait, how you enter and leave the room, how much of the time you take.",
+         "id": "<b>Sekitar wawancara:</b> waktu tiba, sapaan kepada resepsionis, waktu tunggu, cara masuk dan keluar ruangan, seberapa banyak waktu yang kamu ambil."
+        },
+        {
+         "en": "<b>After:</b> the thank-you note, the follow-up cadence, the reply to a rejection, how you treat referees.",
+         "id": "<b>Sesudah:</b> ucapan terima kasih, irama tindak lanjut, balasan penolakan, caramu memperlakukan pemberi referensi."
+        }
+       ]
       },
       {
        "icon": "gear",
        "h": {
-        "en": "The professional defaults",
-        "id": "Setelan bawaan profesional"
+        "en": "Defaults beat improvisation",
+        "id": "Setelan bawaan mengalahkan improvisasi"
        },
        "body": {
-        "en": "Set once, run forever. <b>Response time:</b> recruiter emails answered within one business day, even if only “received, will confirm by Friday”. <b>Address:</b> formal first (Pak/Bu/Mr/Ms + name) until invited otherwise; mirror the other side's register. <b>Punctuality:</b> ten minutes early physically, three minutes early online, technology tested before — “buffer time is part of the appointment”. <b>Instructions:</b> read twice, follow exactly, ask early where genuinely ambiguous. <b>Gratitude:</b> a short specific thank-you within 24 hours of any interview or favour. <b>Rejection:</b> one gracious reply — thank, ask for feedback lightly, leave the door open; the recruiter who rejected you for role A shortlists people like you for role B.",
-        "id": "Atur sekali, berlaku selamanya. <b>Waktu merespons:</b> email perekrut dijawab dalam satu hari kerja, meskipun hanya “sudah diterima, saya konfirmasi hari Jumat”. <b>Sapaan:</b> formal lebih dulu (Pak/Bu + nama) sampai dipersilakan sebaliknya; ikuti register pihak lain. <b>Ketepatan waktu:</b> sepuluh menit lebih awal untuk pertemuan langsung, tiga menit lebih awal untuk pertemuan daring, teknologi diuji sebelumnya — “waktu cadangan adalah bagian dari janji temu”. <b>Instruksi:</b> baca dua kali, ikuti persis, bertanya lebih awal kalau memang ambigu. <b>Terima kasih:</b> ucapan singkat dan spesifik dalam 24 jam setelah wawancara atau bantuan apa pun. <b>Penolakan:</b> satu balasan yang anggun — berterima kasih, minta umpan balik dengan ringan, biarkan pintu tetap terbuka; perekrut yang menolakmu untuk posisi A akan memasukkan orang sepertimu ke daftar pendek untuk posisi B."
+        "en": "Decide once how you address people, how fast you respond, and how you sign off. Then you are never improvising under stress. <b>Response time:</b> recruiter emails answered within one working day, even if only “received — I will confirm by Friday”. <b>Address:</b> formal first, until invited otherwise; mirror the other side’s register. <b>Punctuality:</b> ten minutes early in person, three minutes early online, technology tested before — buffer time is part of the appointment. <b>Instructions:</b> read twice, follow exactly, ask early where genuinely ambiguous. <b>Gratitude:</b> a short, specific thank-you within 24 hours of any interview or favour (Lesson 9.2). <b>Rejection:</b> one gracious reply that leaves the door open (Lesson 9.3). Dalton’s advice on tone applies to every default: err toward subtlety and formality, and let the other person set a more casual register <i>(Dalton, The 2-Hour Job Search, ch. 6)</i>.",
+        "id": "Putuskan sekali cara menyapa, seberapa cepat membalas, dan cara menutup. Maka kamu tidak pernah berimprovisasi di bawah tekanan. <b>Waktu balas:</b> email rekruter dijawab dalam satu hari kerja, meski hanya “sudah diterima — saya konfirmasi hari Jumat”. <b>Sapaan:</b> formal dulu, sampai dipersilakan sebaliknya; ikuti register pihak lain. <b>Ketepatan waktu:</b> sepuluh menit lebih awal secara langsung, tiga menit lebih awal daring, teknologi diuji sebelumnya — waktu cadangan adalah bagian dari janji temu. <b>Instruksi:</b> baca dua kali, ikuti persis, tanya lebih awal jika memang ambigu. <b>Terima kasih:</b> ucapan singkat dan spesifik dalam 24 jam setelah wawancara atau bantuan apa pun (Pelajaran 9.2). <b>Penolakan:</b> satu balasan anggun yang membiarkan pintu tetap terbuka (Pelajaran 9.3). Saran Dalton tentang nada berlaku untuk setiap setelan: condong ke kehalusan dan formalitas, dan biarkan pihak lain menetapkan register yang lebih santai <i>(Dalton, The 2-Hour Job Search, bab 6)</i>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Default",
+          "id": "Setelan bawaan"
+         },
+         {
+          "en": "The rule",
+          "id": "Aturannya"
+         },
+         {
+          "en": "The line you keep ready",
+          "id": "Kalimat yang kamu siapkan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Response time",
+           "id": "Waktu balas"
+          },
+          {
+           "en": "Within one working day",
+           "id": "Dalam satu hari kerja"
+          },
+          {
+           "en": "“Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”",
+           "id": "“Terima kasih, Bu Dewi. Undangan sudah saya terima; saya konfirmasi jadwal paling lambat besok pagi.”"
+          }
+         ],
+         [
+          {
+           "en": "Address",
+           "id": "Sapaan"
+          },
+          {
+           "en": "Formal first; mirror them",
+           "id": "Formal dulu; ikuti mereka"
+          },
+          {
+           "en": "Yth. → Bapak/Ibu → Kak, only as they move you down the ladder",
+           "id": "Yth. → Bapak/Ibu → Kak, hanya saat mereka menurunkanmu di tangga"
+          }
+         ],
+         [
+          {
+           "en": "Punctuality",
+           "id": "Ketepatan waktu"
+          },
+          {
+           "en": "10 min early in person; 3 min early online",
+           "id": "10 mnt lebih awal langsung; 3 mnt lebih awal daring"
+          },
+          {
+           "en": "Link, audio and camera tested the day before",
+           "id": "Tautan, audio, dan kamera diuji sehari sebelumnya"
+          }
+         ],
+         [
+          {
+           "en": "Sign-off",
+           "id": "Penutup"
+          },
+          {
+           "en": "Full name + phone; one register per message",
+           "id": "Nama lengkap + telepon; satu register per pesan"
+          },
+          {
+           "en": "“Hormat saya, Nadia Putri · 08xx” / “Kind regards, Nadia Putri”",
+           "id": "“Hormat saya, Nadia Putri · 08xx” / “Kind regards, Nadia Putri”"
+          }
+         ],
+         [
+          {
+           "en": "Instructions",
+           "id": "Instruksi"
+          },
+          {
+           "en": "Read twice; follow exactly; ask early",
+           "id": "Baca dua kali; ikuti persis; tanya lebih awal"
+          },
+          {
+           "en": "“Untuk berkas nomor 3, apakah yang dimaksud transkrip resmi atau cetakan portal?”",
+           "id": "“Untuk berkas nomor 3, apakah yang dimaksud transkrip resmi atau cetakan portal?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Your defaults card — set once, then run without thinking.",
+         "id": "Kartu setelanmu — atur sekali, lalu jalankan tanpa berpikir."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The register ladder (Indonesia)",
+        "id": "Tangga register (Indonesia)"
+       },
+       "body": {
+        "en": "Indonesian professional writing has three working registers, and choosing the wrong rung is the most common etiquette error graduates make — usually too casual, occasionally so stiff that the reader cannot find the person. The ladder below pairs each rung with its English equivalent. The rule is simple: start one rung more formal than you think you need; the other person moves you down by using your first name, “Kak”, or a lighter closing — never move yourself down first.",
+        "id": "Tulisan profesional Indonesia punya tiga register kerja, dan memilih anak tangga yang salah adalah kesalahan etiket paling umum yang dilakukan lulusan — biasanya terlalu santai, sesekali begitu kaku sehingga pembaca tidak bisa menemukan orangnya. Tangga di bawah memasangkan tiap anak tangga dengan padanan Inggrisnya. Aturannya sederhana: mulai satu anak tangga lebih formal daripada yang kamu kira perlu; pihak lain yang menurunkanmu dengan memakai nama depanmu, “Kak”, atau penutup yang lebih ringan — jangan pernah menurunkan diri lebih dulu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "Bahasa Indonesia",
+          "id": "Bahasa Indonesia"
+         },
+         {
+          "en": "English",
+          "id": "Bahasa Inggris"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Senior, formal, first contact",
+           "id": "Senior, formal, kontak pertama"
+          },
+          {
+           "en": "<i>Yth. Bapak/Ibu [Nama]</i> · <i>Hormat saya</i>",
+           "id": "<i>Yth. Bapak/Ibu [Nama]</i> · <i>Hormat saya</i>"
+          },
+          {
+           "en": "“Dear Mr./Ms. [Surname]” · “Kind regards”",
+           "id": "“Dear Mr./Ms. [Surname]” · “Kind regards”"
+          }
+         ],
+         [
+          {
+           "en": "Recruiter / HR",
+           "id": "Rekruter / HR"
+          },
+          {
+           "en": "<i>Selamat pagi Bapak/Ibu</i> · <i>Terima kasih atas waktunya</i>",
+           "id": "<i>Selamat pagi Bapak/Ibu</i> · <i>Terima kasih atas waktunya</i>"
+          },
+          {
+           "en": "“Dear [First name]” once they use yours",
+           "id": "“Dear [First name]” setelah mereka memakai namamu"
+          }
+         ],
+         [
+          {
+           "en": "Near-peer alumnus",
+           "id": "Alumni sebaya"
+          },
+          {
+           "en": "<i>Halo Kak [Nama]</i> · <i>Terima kasih banyak, Kak</i>",
+           "id": "<i>Halo Kak [Nama]</i> · <i>Terima kasih banyak, Kak</i>"
+          },
+          {
+           "en": "“Hi [First name]”",
+           "id": "“Hi [First name]”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Err formal; let the other person set a more casual tone (Dalton, ch. 6).",
+         "id": "Condong ke formal; biarkan pihak lain menetapkan nada yang lebih santai (Dalton, bab 6)."
+        }
+       },
+       "after": [
+        {
+         "en": "<b>Titles that matter:</b> in a BUMN or government-linked organisation, a functional title (<i>Kepala Cabang</i>, <i>Manajer</i>) after Bapak/Ibu on first contact is safe; “Pak” and “Bu” alone are for the second message onward. Academic titles belong on the envelope, not in the greeting, unless the person uses them.",
+         "id": "<b>Gelar yang penting:</b> di BUMN atau organisasi terkait pemerintah, jabatan fungsional (<i>Kepala Cabang</i>, <i>Manajer</i>) setelah Bapak/Ibu pada kontak pertama aman; “Pak” dan “Bu” saja untuk pesan kedua dan seterusnya. Gelar akademik ada di amplop, bukan di sapaan, kecuali orangnya memakainya."
+        },
+        {
+         "en": "<b>One register per message.</b> A note that opens with <i>Yth.</i> and closes with <i>makasih ya</i> reads as two different people. Choose the rung and hold it to the sign-off.",
+         "id": "<b>Satu register per pesan.</b> Catatan yang dibuka dengan <i>Yth.</i> dan ditutup dengan <i>makasih ya</i> terbaca seperti dua orang berbeda. Pilih anak tangganya dan pertahankan sampai penutup."
+        }
+       ]
+      },
+      {
+       "icon": "mail",
+       "h": {
+        "en": "Channels",
+        "id": "Saluran"
+       },
+       "body": {
+        "en": "Each channel carries a different expectation of formality, speed and permanence. <b>Email</b> is for records, formal requests and applications: it is searchable, forwardable and quoted back to you. <b>LinkedIn</b> is for first contact and networking (Module 2’s connection notes). <b>WhatsApp</b> is the channel most often misused: it is acceptable only when the other person or an introducer has made it the channel; office hours only; <b>one complete message</b> that introduces you and the context each time, not a string of fragments; no voice notes unless invited; and no follow-up on “read” ticks sooner than the calendar in Lesson 9.2 allows. <b>Calls</b> are only when invited or when a number is published for that purpose. The Indonesian nuance: many recruiters and alumni will move you to WhatsApp themselves, and that is a courtesy, not a licence to become casual — the register ladder still applies inside the chat.",
+        "id": "Setiap saluran membawa ekspektasi formalitas, kecepatan, dan keabadian yang berbeda. <b>Email</b> untuk catatan, permintaan formal, dan lamaran: bisa dicari, diteruskan, dan dikutip kembali kepadamu. <b>LinkedIn</b> untuk kontak pertama dan jejaring (catatan koneksi Modul 2). <b>WhatsApp</b> adalah saluran yang paling sering disalahgunakan: hanya boleh jika pihak lain atau pengenal telah menjadikannya saluran; jam kerja saja; <b>satu pesan lengkap</b> yang memperkenalkan dirimu dan konteksnya setiap kali, bukan rangkaian potongan; tanpa pesan suara kecuali diundang; dan tanpa tindak lanjut atas centang “dibaca” lebih cepat daripada yang diizinkan kalender Pelajaran 9.2. <b>Telepon</b> hanya jika diundang atau nomornya dipublikasikan untuk tujuan itu. Nuansa Indonesianya: banyak rekruter dan alumni akan memindahkanmu ke WhatsApp sendiri, dan itu kesopanan, bukan izin untuk menjadi santai — tangga register tetap berlaku di dalam obrolan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Channel",
+          "id": "Saluran"
+         },
+         {
+          "en": "Use it for",
+          "id": "Pakai untuk"
+         },
+         {
+          "en": "The rules",
+          "id": "Aturannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Email",
+           "id": "Email"
+          },
+          {
+           "en": "Applications, formal requests, anything that needs a record",
+           "id": "Lamaran, permintaan formal, apa pun yang butuh catatan"
+          },
+          {
+           "en": "Informative subject line; point in the first line; full-name signature with phone; names spelled right",
+           "id": "Subjek informatif; inti di baris pertama; tanda tangan nama lengkap dengan telepon; nama dieja benar"
+          }
+         ],
+         [
+          {
+           "en": "LinkedIn",
+           "id": "LinkedIn"
+          },
+          {
+           "en": "First contact, networking, thanks after an introduction",
+           "id": "Kontak pertama, jejaring, terima kasih setelah perkenalan"
+          },
+          {
+           "en": "Under 300 characters for a connection note; one ask at most; no CV attached unasked",
+           "id": "Di bawah 300 karakter untuk catatan koneksi; paling banyak satu permintaan; tanpa CV terlampir tanpa diminta"
+          }
+         ],
+         [
+          {
+           "en": "WhatsApp",
+           "id": "WhatsApp"
+          },
+          {
+           "en": "Only when they or an introducer made it the channel",
+           "id": "Hanya jika mereka atau pengenal menjadikannya saluran"
+          },
+          {
+           "en": "Office hours · one complete message with your name and context · no voice notes unless invited · no chasing read ticks",
+           "id": "Jam kerja · satu pesan lengkap dengan nama dan konteksmu · tanpa pesan suara kecuali diundang · tanpa mengejar centang dibaca"
+          }
+         ],
+         [
+          {
+           "en": "Calls",
+           "id": "Telepon"
+          },
+          {
+           "en": "When invited, or a number is published for it",
+           "id": "Saat diundang, atau nomornya dipublikasikan untuk itu"
+          },
+          {
+           "en": "Unscheduled recruiter call: “May I ring you back in ten minutes from a quiet place?” — composure over immediacy",
+           "id": "Telepon rekruter tak terjadwal: “Boleh saya telepon balik sepuluh menit lagi dari tempat yang tenang?” — ketenangan di atas kecepatan"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The footprint and the recovery",
+        "id": "Jejak digital dan pemulihan"
+       },
+       "body": {
+        "en": "Two more work samples are read without you in the room. The first is your public footprint: search your own name quarterly, logged out. The standard is not sainthood but coherence — public posts you would defend in an interview, a professional identity consistent with Module 5, no public battles. The second is how you repair an etiquette error live — a missed call, a late reply, a wrong name. The recovery move is the same everywhere: prompt, brief, unexcused ownership. “Apologies for missing our call — that was my error entirely. I am available today after 2 pm or tomorrow morning, whichever suits you.” Professionals are graded less on never erring than on how cleanly they repair; Lesson 9.4 drills this under pressure.",
+        "id": "Dua contoh kerja lagi dibaca tanpa kamu di ruangan. Pertama adalah jejak publikmu: cari namamu sendiri setiap tiga bulan, dalam keadaan tidak login. Standarnya bukan kesucian melainkan koherensi — unggahan publik yang berani kamu bela dalam wawancara, identitas profesional yang konsisten dengan Modul 5, tanpa pertengkaran publik. Kedua adalah caramu memperbaiki kesalahan etiket secara langsung — panggilan terlewat, balasan terlambat, salah nama. Langkah pemulihannya sama di mana pun: cepat, singkat, mengakui tanpa alasan. “Mohon maaf saya melewatkan telepon kita — sepenuhnya kesalahan saya. Saya bisa hari ini setelah pukul 14.00 atau besok pagi, mana yang sesuai untuk Bapak/Ibu.” Profesional dinilai bukan dari tidak pernah salah, melainkan dari seberapa bersih ia memperbaikinya; Pelajaran 9.4 melatih ini di bawah tekanan."
        }
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The six professional defaults — set once, run at every touchpoint.",
-       "id": "Peraga 1: Enam pengaturan bawaan profesional — ditetapkan sekali, berjalan di setiap titik sentuh."
+       "en": "Exhibit 1: Seven work samples before and after the interview",
+       "id": "Peraga 1: Tujuh contoh kerja sebelum dan sesudah wawancara"
       },
       "title": {
-       "en": "Respond · Address · Arrive · Follow · Thank · Reply to rejection",
-       "id": "Tanggapi · Sapa · Tiba · Ikuti · Berterima kasih · Balas penolakan"
+       "en": "Every touchpoint an employer reads as evidence — and the default that answers it",
+       "id": "Setiap titik kontak yang dibaca perusahaan sebagai bukti — dan setelan yang menjawabnya"
       },
       "items": [
        {
+        "icon": "mail",
         "h": {
-         "en": "Respond",
-         "id": "Tanggapi"
+         "en": "Application email",
+         "id": "Email lamaran"
         },
         "sub": {
-         "en": "Within one business day — even “received, will confirm by Friday”",
-         "id": "Dalam satu hari kerja — meski hanya “diterima, akan dikonfirmasi hari Jumat”"
+         "en": "Subject line, instructions followed, one register",
+         "id": "Subjek, instruksi diikuti, satu register"
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Address",
-         "id": "Sapa"
+         "en": "Reply to the invitation",
+         "id": "Balasan undangan"
         },
         "sub": {
-         "en": "Formal first — Pak/Bu/Mr/Ms + name — until invited otherwise",
-         "id": "Formal dulu — Pak/Bu/Mr/Ms + nama — sampai dipersilakan sebaliknya"
+         "en": "Within one working day, slot confirmed",
+         "id": "Dalam satu hari kerja, jadwal dikonfirmasi"
         }
        },
        {
+        "icon": "users",
         "h": {
-         "en": "Arrive",
-         "id": "Tiba"
+         "en": "Reception and coordinator",
+         "id": "Resepsionis dan koordinator"
         },
         "sub": {
-         "en": "Ten minutes early in person, three online, technology tested",
-         "id": "Sepuluh menit lebih awal secara langsung, tiga menit daring, teknologi sudah diuji"
+         "en": "Names learned and used; they are asked about you",
+         "id": "Nama dipelajari dan dipakai; mereka ditanya tentangmu"
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "Follow",
-         "id": "Ikuti"
+         "en": "Arrival and the wait",
+         "id": "Kedatangan dan waktu tunggu"
         },
         "sub": {
-         "en": "Instructions read twice, followed exactly, ambiguity asked early",
-         "id": "Instruksi dibaca dua kali, diikuti persis, ambiguitas ditanyakan lebih awal"
+         "en": "Ten minutes early; unbothered if they are late",
+         "id": "Sepuluh menit lebih awal; tidak terganggu jika mereka terlambat"
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Thank",
-         "id": "Berterima kasih"
+         "en": "Airtime",
+         "id": "Porsi bicara"
         },
         "sub": {
-         "en": "Short and specific, within 24 hours of any interview or favour",
-         "id": "Singkat dan spesifik, dalam 24 jam setelah wawancara atau bantuan apa pun"
+         "en": "Answer, check landing, stop",
+         "id": "Jawab, pastikan sampai, berhenti"
         }
        },
        {
+        "icon": "check",
         "h": {
-         "en": "Reply to rejection",
-         "id": "Balas penolakan"
+         "en": "Thank-you within 24 h",
+         "id": "Terima kasih dalam 24 jam"
         },
         "sub": {
-         "en": "One gracious reply — the door stays open for role B",
-         "id": "Satu balasan yang santun — pintu tetap terbuka untuk peran B"
+         "en": "Three to five sentences, one specific moment",
+         "id": "Tiga hingga lima kalimat, satu momen spesifik"
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Rejection reply",
+         "id": "Balasan penolakan"
+        },
+        "sub": {
+         "en": "Brief, gracious, door open",
+         "id": "Singkat, anggun, pintu terbuka"
         }
        }
       ],
+      "note": {
+       "en": "The samples nobody rehearses — reception, the wait, the reply to a no — are the ones read as character.",
+       "id": "Contoh yang tidak dilatih siapa pun — resepsionis, waktu tunggu, balasan atas penolakan — adalah yang dibaca sebagai karakter."
+      },
       "longdesc": {
-       "en": "A six-step ring of professional defaults: respond within one business day; address formally until invited otherwise; arrive early with technology tested; read and follow instructions exactly; thank specifically within twenty-four hours; and reply graciously to rejection so the door stays open.",
-       "id": "Cincin enam langkah pengaturan bawaan profesional: tanggapi dalam satu hari kerja; sapa secara formal sampai dipersilakan sebaliknya; tiba lebih awal dengan teknologi yang sudah diuji; baca dan ikuti instruksi persis; berterima kasih secara spesifik dalam dua puluh empat jam; dan balas penolakan dengan santun agar pintu tetap terbuka."
+       "en": "A seven-stage flow of touchpoints an employer reads as work samples: the application email, the reply to the invitation, reception and the coordinator, arrival and the wait, airtime in the room, the thank-you within 24 hours, and the rejection reply — each paired with the default that answers it.",
+       "id": "Alur tujuh tahap titik kontak yang dibaca perusahaan sebagai contoh kerja: email lamaran, balasan undangan, resepsionis dan koordinator, kedatangan dan waktu tunggu, porsi bicara di ruangan, terima kasih dalam 24 jam, dan balasan penolakan — masing-masing dipasangkan dengan setelan yang menjawabnya."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "professional defaults",
-        "id": "pengaturan bawaan profesional"
+       "tag": {
+        "en": "WhatsApp, two ways",
+        "id": "WhatsApp, dua cara"
        },
-       "def": {
-        "en": "Decisions made once and run forever — response time, form of address, punctuality buffer, instruction reading, thank-you timing, rejection reply — so that no touchpoint depends on improvisation.",
-        "id": "Keputusan yang dibuat sekali dan berjalan selamanya — waktu merespons, bentuk sapaan, jeda ketepatan waktu, cara membaca instruksi, waktu berterima kasih, balasan atas penolakan — sehingga tak ada titik sentuh yang bergantung pada improvisasi."
-       }
-      },
-      {
-       "term": {
-        "en": "touchpoint",
-        "id": "titik sentuh"
-       },
-       "def": {
-        "en": "Any moment the company observes you — the subject line, the receptionist, the scheduling coordinator, the call's first minute — each read as a sample of your future workplace behaviour.",
-        "id": "Setiap momen perusahaan mengamatimu — baris subjek, resepsionis, koordinator jadwal, menit pertama panggilan — masing-masing dibaca sebagai sampel perilaku kerjamu di masa depan."
-       }
-      }
-     ],
-     "checks": [
-      {
        "q": {
-        "en": "Why does treatment of the scheduling coordinator weigh so heavily in hiring assessments?",
-        "id": "Mengapa cara memperlakukan koordinator jadwal berbobot begitu besar dalam penilaian rekrutmen?"
+        "en": "Bu Dewi (KilatPay TA) replied to Nadia’s email with “Silakan WA saya di nomor ini untuk jadwal”. Nadia’s first message on WhatsApp:",
+        "id": "Bu Dewi (TA KilatPay) membalas email Nadia dengan “Silakan WA saya di nomor ini untuk jadwal”. Pesan pertama Nadia di WhatsApp:"
        },
-       "options": [
-        {
-         "en": "Coordinators make the final hiring decision",
-         "id": "Karena koordinator yang membuat keputusan akhir rekrutmen"
-        },
-        {
-         "en": "It is an uncoached, low-noise sample of character — nobody performs for the coordinator",
-         "id": "Karena itu contoh karakter yang tidak dilatih dan minim polesan — tidak ada yang berakting di depan koordinator"
-        },
-        {
-         "en": "It is a formal scored stage of the process",
-         "id": "Karena itu tahap resmi yang diberi skor dalam proses"
-        }
-       ],
-       "correct": 1,
+       "weak": {
+        "en": "21:47 “Halo kak” · 21:47 “ini Nadia” · 21:48 “yg tadi email” · 21:48 “jadi jadwalnya kapan ya kak?” · 21:52 “kak?” · a voice note, 0:41",
+        "id": "21.47 “Halo kak” · 21.47 “ini Nadia” · 21.48 “yg tadi email” · 21.48 “jadi jadwalnya kapan ya kak?” · 21.52 “kak?” · pesan suara, 0:41"
+       },
+       "strong": {
+        "en": "09:05 “Selamat pagi Bu Dewi, saya Nadia Putri, pelamar posisi Business Operations Associate (OPS-26-04) yang Ibu balas melalui email kemarin. Untuk jadwal wawancara, saya bisa Selasa 14.00–17.00 atau Rabu pagi. Mohon arahan Ibu. Terima kasih. — Nadia Putri”",
+        "id": "09.05 “Selamat pagi Bu Dewi, saya Nadia Putri, pelamar posisi Business Operations Associate (OPS-26-04) yang Ibu balas melalui email kemarin. Untuk jadwal wawancara, saya bisa Selasa 14.00–17.00 atau Rabu pagi. Mohon arahan Ibu. Terima kasih. — Nadia Putri”"
+       },
        "why": {
-        "en": "Interview answers are rehearsed; corridor behaviour is not. Assessors weight unrehearsed signals precisely because they are unrehearsed.",
-        "id": "Jawaban wawancara sudah dilatih; perilaku di lorong tidak. Asesor memberi bobot pada sinyal yang tidak dilatih justru karena tidak dilatih."
+        "en": "Six fragments at night, the wrong rung (“kak” to a recruiter who signed “Dewi, Talent Acquisition”), a chase after five minutes and an uninvited voice note — each one a work sample. The strong version is one complete message in office hours: name, context, the ask with options, the right register, a sign-off. Bu Dewi can answer it in one line.",
+        "id": "Enam potongan di malam hari, anak tangga yang salah (“kak” kepada rekruter yang menandatangani “Dewi, Talent Acquisition”), pengejaran setelah lima menit, dan pesan suara yang tidak diundang — masing-masing contoh kerja. Versi kuatnya satu pesan lengkap di jam kerja: nama, konteks, permintaan dengan pilihan, register yang tepat, penutup. Bu Dewi bisa menjawabnya dalam satu baris."
        }
       }
      ],
-     "quote": {
-      "en": "Etiquette is applied respect — read at every touchpoint before your qualifications are.",
-      "id": "Etiket adalah rasa hormat yang dipraktikkan — dibaca di setiap titik sentuh, sebelum kualifikasimu."
-     },
-     "insights": {
-      "lead": {
-       "en": "Where candidacies are quietly decided.",
-       "id": "Di mana pencalonan diputuskan secara diam-diam."
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the coordinator’s question",
+       "id": "Sorotan: pertanyaan koordinator"
       },
-      "items": [
+      "body": [
        {
-        "h": {
-         "en": "The receptionist has a vote",
-         "id": "Resepsionis punya suara"
-        },
-        "body": {
-         "en": "Panels ask front-desk staff, drivers and coordinators how candidates behaved. Rudeness to anyone in the building is reported.",
-         "id": "Panel bertanya kepada staf resepsionis, sopir, dan koordinator tentang perilaku kandidat. Ketidaksopanan kepada siapa pun di gedung dilaporkan."
-        }
+        "en": "At Arunika’s Bekasi office, two MT finalists were interviewed by the same panel in the same afternoon. Afterwards, the panel chair asked the HR coordinator who had handled both — the woman at the front desk who had confirmed their slots by WhatsApp, met them at reception and walked them to the room — a single question: “How were they with you?” One had replied to the confirmation within the hour, arrived early, asked her name, and thanked her on the way out. The other had left the confirmation unanswered for two days, sent “otw” at the start time, and did not look up from his phone while she signed him in.",
+        "id": "Di kantor Arunika Bekasi, dua finalis MT diwawancarai panel yang sama pada sore yang sama. Setelahnya, ketua panel bertanya kepada koordinator HR yang menangani keduanya — perempuan di meja depan yang mengonfirmasi jadwal mereka lewat WhatsApp, menyambut mereka di resepsionis, dan mengantar ke ruangan — satu pertanyaan: “Bagaimana mereka dengan Anda?” Yang satu membalas konfirmasi dalam satu jam, datang lebih awal, menanyakan namanya, dan berterima kasih saat keluar. Yang lain membiarkan konfirmasi tak terjawab dua hari, mengirim “otw” pada jam mulai, dan tidak mengangkat pandangan dari ponselnya saat ia mencatatkan kedatangannya."
        },
        {
-        "h": {
-         "en": "Response time is read as reliability",
-         "id": "Kecepatan respons dibaca sebagai keandalan"
-        },
-        "body": {
-         "en": "A scheduling email answered within a working day signals how you will treat clients. Silence for three days signals the opposite, whatever the reason.",
-         "id": "Email penjadwalan yang dijawab dalam satu hari kerja menandakan cara kamu akan memperlakukan klien. Diam tiga hari menandakan sebaliknya, apa pun alasannya."
-        }
-       },
-       {
-        "h": {
-         "en": "Your digital surface is part of the file",
-         "id": "Permukaan digitalmu adalah bagian dari berkas"
-        },
-        "body": {
-         "en": "Public posts, comments and photos are searched. Nothing needs to be hidden; everything needs to be something you would stand behind in the room.",
-         "id": "Unggahan, komentar, dan foto publik dicari. Tak ada yang perlu disembunyikan; semuanya harus sesuatu yang bisa kamu pertanggungjawabkan di ruangan."
-        }
+        "en": "Nothing in the interview transcripts separated them. The coordinator’s answer did. This composite illustrates Bolles’s point rather than proving it: the samples nobody rehearses are the ones read as character, and the people you treat as furniture are asked about you. The defaults in this lesson exist so that the first finalist’s behaviour is not a good day — it is your setting.",
+        "id": "Tidak ada dalam transkrip wawancara yang memisahkan mereka. Jawaban koordinator yang memisahkan. Ilustrasi gabungan ini menggambarkan poin Bolles, bukan membuktikannya: contoh yang tidak dilatih siapa pun adalah yang dibaca sebagai karakter, dan orang yang kamu perlakukan seperti perabot ditanya tentangmu. Setelan dalam pelajaran ini ada agar perilaku finalis pertama bukan hari yang baik — melainkan setelanmu."
        }
       ]
      },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Pick the rung",
+        "id": "Latihan 1 · Pilih anak tangganya"
+       },
+       "body": {
+        "en": "Choose the opening and closing for each: (a) first email to Bu Maya Kusuma, Arunika TA lead, whom you have never met; (b) reply to Kak Rina, who signed her last message “Rina” and used “kamu”; (c) first WhatsApp to Pak Hendra (BSN Semarang, ODP 2019), introduced by a lecturer; (d) reply to Bu Dewi, who wrote “Dear Nadia … Regards, Dewi”; (e) LinkedIn note to Mr. Aditya, Head of Merchant Operations at KilatPay, in English; (f) message to Fajar, ODP 2026, one year ahead of you.",
+        "id": "Pilih pembuka dan penutup untuk masing-masing: (a) email pertama ke Bu Maya Kusuma, pimpinan TA Arunika, yang belum pernah kamu temui; (b) balasan ke Kak Rina, yang menandatangani pesan terakhirnya “Rina” dan memakai “kamu”; (c) WhatsApp pertama ke Pak Hendra (BSN Semarang, ODP 2019), diperkenalkan oleh dosen; (d) balasan ke Bu Dewi, yang menulis “Dear Nadia … Regards, Dewi”; (e) catatan LinkedIn ke Bapak Aditya, Head of Merchant Operations KilatPay, dalam bahasa Inggris; (f) pesan ke Fajar, ODP 2026, satu tahun di atasmu."
+       },
+       "debrief": {
+        "en": "(a) <i>Yth. Ibu Maya Kusuma</i> … <i>Hormat saya, Nadia Putri</i> — top rung, first contact, senior. (b) <i>Halo Kak Rina</i> … <i>Terima kasih banyak, Kak</i> — she moved you down; follow. (c) <i>Selamat pagi Bapak Hendra, saya Nadia Putri, mahasiswa bimbingan Ibu [dosen] …</i> · <i>Hormat saya</i> — an introduction does not lower the rung; his seniority sets it. (d) “Dear Ms. Dewi” or “Dear Dewi” — she used your first name and signed with hers, so “Dear Dewi … Kind regards” is right; “Kak” is not. (e) “Dear Mr. Aditya” · “Kind regards” — top rung in English; you do not know him. (f) <i>Halo Kak Fajar</i> — near-peer, one year ahead: “Kak” is the courtesy, even to someone your age.",
+        "id": "(a) <i>Yth. Ibu Maya Kusuma</i> … <i>Hormat saya, Nadia Putri</i> — anak tangga tertinggi, kontak pertama, senior. (b) <i>Halo Kak Rina</i> … <i>Terima kasih banyak, Kak</i> — ia menurunkanmu; ikuti. (c) <i>Selamat pagi Bapak Hendra, saya Nadia Putri, mahasiswa bimbingan Ibu [dosen] …</i> · <i>Hormat saya</i> — perkenalan tidak menurunkan anak tangga; senioritasnya yang menentukan. (d) “Dear Ms. Dewi” atau “Dear Dewi” — ia memakai nama depanmu dan menandatangani dengan namanya, jadi “Dear Dewi … Kind regards” tepat; “Kak” tidak. (e) “Dear Mr. Aditya” · “Kind regards” — anak tangga tertinggi dalam bahasa Inggris; kamu tidak mengenalnya. (f) <i>Halo Kak Fajar</i> — sebaya, satu tahun di atas: “Kak” adalah kesopanannya, bahkan kepada orang seusiamu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Pick the channel",
+        "id": "Latihan 2 · Pilih salurannya"
+       },
+       "body": {
+        "en": "Which channel, and why? (a) You want to confirm which transcript format PT Rel Nusantara’s joint recruitment requires. (b) Kak Rina said “WA aja kalau ada pertanyaan”. (c) You want to reach Mr. Aditya for the first time. (d) Bu Dewi’s email signature includes an office number. (e) Pak Hendra has not replied to your email in four working days. (f) You need to send the signed offer acceptance to Rumah Rempah.",
+        "id": "Saluran mana, dan mengapa? (a) Kamu ingin mengonfirmasi format transkrip yang diwajibkan rekrutmen bersama PT Rel Nusantara. (b) Kak Rina berkata “WA aja kalau ada pertanyaan”. (c) Kamu ingin menghubungi Bapak Aditya untuk pertama kali. (d) Tanda tangan email Bu Dewi memuat nomor kantor. (e) Pak Hendra belum membalas emailmu dalam empat hari kerja. (f) Kamu perlu mengirim penerimaan tawaran yang ditandatangani ke Rumah Rempah."
+       },
+       "debrief": {
+        "en": "(a) Email to the published recruitment address — a formal question about a formal requirement needs a record. (b) WhatsApp — she made it the channel; office hours, one complete message. (c) LinkedIn — first contact with a stranger; a connection note under 300 characters, no ask. (d) Email still; the number is for scheduling emergencies, not first questions — calling a recruiter unprompted is a work sample too. (e) Not WhatsApp and not a call: the calendar in Lesson 9.2 says day 7, one follow-up, same channel. (f) Email with the signed document attached, and a one-line WhatsApp only if Kak Wulan asked to be told — the record lives in email.",
+        "id": "(a) Email ke alamat rekrutmen yang dipublikasikan — pertanyaan formal tentang syarat formal butuh catatan. (b) WhatsApp — ia menjadikannya saluran; jam kerja, satu pesan lengkap. (c) LinkedIn — kontak pertama dengan orang asing; catatan koneksi di bawah 300 karakter, tanpa permintaan. (d) Tetap email; nomor itu untuk darurat penjadwalan, bukan pertanyaan pertama — menelepon rekruter tanpa diminta juga contoh kerja. (e) Bukan WhatsApp dan bukan telepon: kalender di Pelajaran 9.2 menyebut hari ke-7, satu tindak lanjut, saluran yang sama. (f) Email dengan dokumen bertanda tangan terlampir, dan satu baris WhatsApp hanya jika Kak Wulan minta diberi tahu — catatannya hidup di email."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Rebuild the thread",
+        "id": "Latihan 3 · Bangun ulang utasnya"
+       },
+       "body": {
+        "en": "Dimas sent this to an ODP alumnus he was introduced to yesterday, at 22:10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal ODP?” / “kak?” / [voice note 1:12]. Rewrite it as one complete message that follows every channel rule, in Indonesian, at a time you choose.",
+        "id": "Dimas mengirim ini ke alumnus ODP yang diperkenalkan kepadanya kemarin, pukul 22.10: “Halo” / “Kak ini Dimas” / “temennya Nadia” / “boleh tanya2 soal ODP?” / “kak?” / [pesan suara 1:12]. Tulis ulang sebagai satu pesan lengkap yang mengikuti setiap aturan saluran, dalam bahasa Indonesia, pada waktu yang kamu pilih."
+       },
+       "debrief": {
+        "en": "Sent 08:30–09:30 next morning: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran ODP Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak. — Dimas.” One message; office hours; name, introducer and context; a single bounded ask with the time offered on her terms; “Kak” is right because she is a near-peer alumna and the introducer used it. No voice note; no second message until the calendar allows.",
+        "id": "Dikirim 08.30–09.30 pagi berikutnya: “Selamat pagi Kak Ayu, saya Dimas, mahasiswa Manajemen angkatan 2022 yang kemarin diperkenalkan oleh Nadia Putri. Saya sedang mempersiapkan lamaran ODP Bank Sinar Nusantara dan sangat tertarik mendengar pengalaman Kakak di tahap asesmen. Jika Kakak berkenan, apakah ada 15 menit minggu ini atau depan untuk ngobrol singkat lewat telepon? Saya menyesuaikan dengan jadwal Kakak. Terima kasih banyak, Kak. — Dimas.” Satu pesan; jam kerja; nama, pengenal, dan konteks; satu permintaan terbatas dengan waktu yang ditawarkan sesuai kondisinya; “Kak” tepat karena ia alumni sebaya dan pengenal memakainya. Tanpa pesan suara; tanpa pesan kedua sampai kalender mengizinkan."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "“Etiquette is for formal companies”",
-         "id": "“Etiket hanya untuk perusahaan formal”"
+         "en": "Treating reception and the coordinator as furniture",
+         "id": "Memperlakukan resepsionis dan koordinator seperti perabot"
         },
         "fix": {
-         "en": "Start-ups read punctuality and follow-through just as closely; they simply dress differently. Match the surface, keep the substance.",
-         "id": "Start-up membaca ketepatan waktu dan tindak lanjut sama cermatnya; mereka hanya berpakaian berbeda. Sesuaikan permukaannya, jaga substansinya."
+         "en": "Learn their names; they are asked how you were with them.",
+         "id": "Pelajari nama mereka; mereka ditanya bagaimana kamu dengan mereka."
         }
        },
        {
         "h": {
-         "en": "Over-familiarity to seem confident",
-         "id": "Terlalu akrab agar tampak percaya diri"
+         "en": "Moving yourself down the register ladder",
+         "id": "Menurunkan diri sendiri di tangga register"
         },
         "fix": {
-         "en": "First names, jokes and emojis are earned, not assumed. Mirror the other side’s register, one step more formal.",
-         "id": "Nama depan, lelucon, dan emoji itu diperoleh, bukan diasumsikan. Cerminkan gaya pihak lain, satu langkah lebih formal."
+         "en": "Start a rung more formal; let them move you down.",
+         "id": "Mulai satu anak tangga lebih formal; biarkan mereka menurunkanmu."
         }
        },
        {
         "h": {
-         "en": "Apologising too much or not at all",
-         "id": "Terlalu banyak atau tidak sama sekali meminta maaf"
+         "en": "A string of WhatsApp fragments at night",
+         "id": "Rangkaian potongan WhatsApp di malam hari"
         },
         "fix": {
-         "en": "One clear apology, the fix, and moving on. Repeated apologies make the other person manage your feelings.",
-         "id": "Satu permintaan maaf yang jelas, perbaikannya, lalu lanjut. Permintaan maaf berulang membuat orang lain mengelola perasaanmu."
+         "en": "One complete message, office hours, name and context every time.",
+         "id": "Satu pesan lengkap, jam kerja, nama dan konteks setiap kali."
+        }
+       },
+       {
+        "h": {
+         "en": "Improvising the reply time, the greeting and the sign-off each time",
+         "id": "Berimprovisasi waktu balas, sapaan, dan penutup tiap kali"
+        },
+        "fix": {
+         "en": "Write the defaults card once and keep it open.",
+         "id": "Tulis kartu setelan sekali dan biarkan terbuka."
         }
        }
       ]
-     }
-    },
-    {
-     "n": "9.2",
-     "title": {
-      "en": "Workplace Communication — Written, Verbal, and Digital Standards",
-      "id": "Komunikasi di Tempat Kerja — Standar Tertulis, Lisan, dan Digital"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "The three channels where early careers are made or dented: written messages, spoken calls, and digital presence. Standards, templates and the recovery move for when you get one wrong.",
-      "id": "Tiga saluran tempat karier awal dibangun atau tergores: pesan tertulis, percakapan telepon, dan kehadiran digital. Standarnya, templatnya, dan langkah pemulihan ketika kamu keliru di salah satunya."
-     },
-     "objectives": [
-      {
-       "en": "Write professional email and chat that respects the reader's time and the channel's register.",
-       "id": "Menulis email dan pesan chat profesional yang menghormati waktu pembaca dan register salurannya."
-      },
-      {
-       "en": "Handle calls and video meetings with presence: preparation, camera, turn-taking.",
-       "id": "Menangani telepon dan rapat video dengan kehadiran penuh: persiapan, kamera, giliran bicara."
-      },
-      {
-       "en": "Maintain a digital footprint that survives a recruiter's search.",
-       "id": "Menjaga jejak digital yang tahan diperiksa oleh pencarian perekrut."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Early careers are made or dented on three channels: written, spoken, and public. To hold the standard on each, you can:",
-      "id": "Karier awal dibentuk atau tergores di tiga kanal: tertulis, lisan, dan publik. Untuk menjaga standar di masing-masing, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Match the channel: email for records and requests, chat for speed, calls for nuance — escalate when tone gets lost.",
-       "id": "Sesuaikan salurannya: email untuk catatan dan permintaan, chat untuk kecepatan, telepon untuk nuansa — naikkan salurannya begitu nada mulai hilang."
-      },
-      {
-       "en": "In video calls presence is preparation: camera on when others do, tested audio, and full attention visibly given.",
-       "id": "Dalam rapat video, kehadiran adalah soal persiapan: kamera menyala kalau yang lain menyalakannya, audio sudah diuji, dan perhatian penuh yang terlihat."
-      },
-      {
-       "en": "Assume anything posted publicly will be read by a recruiter — because on shortlists, it often is.",
-       "id": "Anggap apa pun yang kamu unggah secara publik akan dibaca perekrut — karena untuk kandidat di daftar pendek, memang sering begitu."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "chat",
-       "h": {
-        "en": "Written standards",
-        "id": "Standar tertulis"
-       },
-       "body": {
-        "en": "Professional email carries five parts: informative subject (“Question about the assessment schedule — [Name]”), correct salutation, the point in the first line (Module 10's pyramid in miniature), only necessary context after, and a signature with full name and phone. Chat platforms relax the form, not the respect: no eleven fragmentary messages where one composed message serves; no voice notes to people you have not met; mind the recipient's hours — schedule-send exists. In both channels, proofread names above all: misspelling the recruiter's name in an otherwise perfect email is the error they remember.",
-        "id": "Email profesional punya lima bagian: subjek yang informatif (“Pertanyaan tentang jadwal asesmen — [Nama]”), salam pembuka yang tepat, inti pesan di baris pertama (piramida dari Modul 10 dalam versi mini), konteks yang perlu saja sesudahnya, dan tanda tangan berisi nama lengkap dan nomor telepon. Platform chat melonggarkan bentuknya, bukan rasa hormatnya: jangan sebelas pesan terpotong-potong kalau satu pesan yang tersusun rapi sudah cukup; jangan mengirim pesan suara ke orang yang belum pernah kamu temui; perhatikan jam kerja penerima — fitur kirim terjadwal ada untuk itu. Di kedua saluran, periksa ejaan nama di atas segalanya: salah mengeja nama perekrut dalam email yang selebihnya sempurna adalah kesalahan yang akan mereka ingat."
-       }
-      },
-      {
-       "icon": "eye",
-       "h": {
-        "en": "Calls and video presence",
-        "id": "Telepon dan kehadiran di rapat video"
-       },
-       "body": {
-        "en": "Before: test the link, audio and lighting; read the attendee list; have your CV, the JD and two questions open. During: camera on if any interviewer's is, name-plate correct, background neutral or honestly blurred; let the other side finish before speaking — latency makes politeness technical; keep answers to the point and check landing (“does that answer it?”). Phone-call etiquette for the unscheduled recruiter call: it is fine — often wise — to say “I'm glad you called; may I ring you back in ten minutes from a quiet place?” Composure over immediacy, always.",
-        "id": "Sebelumnya: uji tautan, audio, dan pencahayaan; baca daftar peserta; buka CV-mu, deskripsi lowongan, dan dua pertanyaan yang sudah kamu siapkan. Selama rapat: kamera menyala kalau kamera salah satu pewawancara menyala, nama tampilan ditulis benar, latar belakang netral atau diburamkan apa adanya; biarkan pihak lain selesai bicara sebelum kamu menyahut — jeda koneksi membuat kesopanan menjadi urusan teknis; jaga jawaban tetap tepat sasaran dan pastikan sampai (“apakah itu sudah menjawab?”). Etiket untuk telepon perekrut yang datang tanpa janji: boleh — bahkan sering lebih bijak — mengatakan “senang sekali Bapak/Ibu menelepon; boleh saya telepon balik sepuluh menit lagi dari tempat yang lebih tenang?” Ketenangan di atas kecepatan, selalu."
-       }
-      },
-      {
-       "icon": "gear",
-       "h": {
-        "en": "The footprint and the recovery",
-        "id": "Jejak digital dan cara memulihkannya"
-       },
-       "body": {
-        "en": "Search your own name quarterly, logged out. The standard is not sainthood; it is coherence: public posts you would defend in an interview, a consistent professional identity (2.2), and no public battles. Old embarrassments: delete what you can, and prepare a one-line honest answer for what you cannot. And when you make an etiquette error live — a missed call, a late reply, a wrong name — the recovery move is the same everywhere: prompt, brief, unexcused ownership. “Apologies for missing our call — that was my error entirely. I'm available today after 2 pm or tomorrow morning; whichever suits you.” Professionals are graded less on never erring than on how cleanly they repair.",
-        "id": "Cari namamu sendiri di mesin pencari setiap tiga bulan, dalam keadaan tidak login. Standarnya bukan kesucian, melainkan koherensi: unggahan publik yang berani kamu bela dalam wawancara, identitas profesional yang konsisten (2.2), dan tidak ada pertengkaran di ruang publik. Hal memalukan dari masa lalu: hapus yang bisa dihapus, dan siapkan satu kalimat jawaban jujur untuk yang tidak bisa. Dan ketika kamu membuat kesalahan etiket secara langsung — panggilan terlewat, balasan terlambat, salah nama — langkah pemulihannya sama di mana pun: akui dengan cepat, singkat, tanpa alasan. “Mohon maaf saya melewatkan telepon kita — sepenuhnya kesalahan saya. Saya bisa hari ini setelah pukul 2 siang atau besok pagi; mana yang lebih sesuai untuk Bapak/Ibu.” Profesional dinilai bukan dari tidak pernah salah, melainkan dari seberapa bersih ia memperbaikinya."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: Match the channel to the job — and the standard to the channel.",
-       "id": "Peraga 1: Cocokkan kanal dengan tugasnya — dan standar dengan kanalnya."
-      },
-      "title": {
-       "en": "Email · Chat · Calls · Public",
-       "id": "Email · Chat · Panggilan · Publik"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Email",
-         "id": "Email"
-        },
-        "sub": {
-         "en": "Records and requests — subject, salutation, point first, signature",
-         "id": "Rekaman dan permintaan — subjek, sapaan, inti dulu, tanda tangan"
-        }
-       },
-       {
-        "h": {
-         "en": "Chat",
-         "id": "Chat"
-        },
-        "sub": {
-         "en": "Speed — one composed message, no voice notes to strangers, mind their hours",
-         "id": "Kecepatan — satu pesan yang tersusun, tanpa pesan suara ke orang asing, hormati jam mereka"
-        }
-       },
-       {
-        "h": {
-         "en": "Calls & video",
-         "id": "Panggilan & video"
-        },
-        "sub": {
-         "en": "Nuance — tested link, camera on when theirs is, let them finish",
-         "id": "Nuansa — tautan diuji, kamera menyala saat mereka menyalakannya, biarkan mereka selesai bicara"
-        }
-       },
-       {
-        "h": {
-         "en": "Public",
-         "id": "Publik"
-        },
-        "sub": {
-         "en": "Coherence — searched quarterly, defensible posts, no public battles",
-         "id": "Koherensi — dicari tiap kuartal, unggahan yang bisa dipertahankan, tanpa perseteruan publik"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A two-by-two grid of the four channels with the job each is for and its standard: email for records and requests with the point first; chat for speed in one composed message; calls and video for nuance with tested technology and listening; and public presence held to coherence, checked quarterly.",
-       "id": "Kisi dua kali dua berisi empat kanal dengan tugas masing-masing dan standarnya: email untuk rekaman dan permintaan dengan inti di depan; chat untuk kecepatan dalam satu pesan yang tersusun; panggilan dan video untuk nuansa dengan teknologi yang diuji dan menyimak; dan kehadiran publik yang dijaga koheren, diperiksa tiap kuartal."
-      }
      },
      "glossary": [
       {
        "term": {
-        "en": "pyramid email",
-        "id": "email piramida"
+        "en": "Work sample",
+        "id": "Contoh kerja"
        },
        "def": {
-        "en": "A professional email with the point in the first line and only necessary context after — informative subject, correct salutation, full-name signature — Module 10's pyramid in miniature.",
-        "id": "Email profesional dengan inti di baris pertama dan hanya konteks yang perlu setelahnya — subjek informatif, sapaan yang benar, tanda tangan nama lengkap — piramida Modul 10 dalam bentuk mini."
+        "en": "Any interaction an employer reads as evidence of how you will behave at work — especially the ones nobody rehearses.",
+        "id": "Interaksi apa pun yang dibaca perusahaan sebagai bukti caramu akan berperilaku di tempat kerja — terutama yang tidak dilatih siapa pun."
        }
       },
       {
        "term": {
-        "en": "digital footprint",
-        "id": "jejak digital"
+        "en": "Defaults",
+        "id": "Setelan bawaan"
        },
        "def": {
-        "en": "What a logged-out search of your own name returns; the standard is coherence — posts you would defend in an interview and one consistent professional identity — not sainthood.",
-        "id": "Apa yang muncul saat namamu dicari tanpa masuk akun; standarnya adalah koherensi — unggahan yang akan kamu pertahankan saat wawancara dan satu identitas profesional yang konsisten — bukan kesucian."
+        "en": "Decisions made once — address, response time, punctuality, sign-off — so you never improvise under stress.",
+        "id": "Keputusan yang dibuat sekali — sapaan, waktu balas, ketepatan waktu, penutup — agar kamu tidak pernah berimprovisasi di bawah tekanan."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Rescheduling an interview — two ways",
-        "id": "Menjadwalkan ulang wawancara — dua cara"
+       "term": {
+        "en": "Register ladder",
+        "id": "Tangga register"
        },
-       "q": {
-        "en": "A family emergency collides with tomorrow's interview",
-        "id": "Keadaan darurat keluarga bertabrakan dengan wawancara besok"
+       "def": {
+        "en": "Yth. Bapak/Ibu · Selamat pagi Bapak/Ibu · Halo Kak, with English equivalents; start high and let the other person move you down.",
+        "id": "Yth. Bapak/Ibu · Selamat pagi Bapak/Ibu · Halo Kak, dengan padanan Inggris; mulai tinggi dan biarkan pihak lain menurunkanmu."
+       }
+      },
+      {
+       "term": {
+        "en": "One complete message",
+        "id": "Satu pesan lengkap"
        },
-       "weak": {
-        "en": "“Hi, so sorry but something came up tomorrow, is it possible to move the interview?? Really sorry again 🙏”",
-        "id": "“Halo, maaf banget besok ada urusan mendadak, bisa nggak wawancaranya dipindah?? Sekali lagi maaf ya 🙏”"
+       "def": {
+        "en": "The WhatsApp rule: introduce yourself and the context, make the ask, sign off — in a single message, in office hours.",
+        "id": "Aturan WhatsApp: perkenalkan diri dan konteks, sampaikan permintaan, tutup — dalam satu pesan, di jam kerja."
+       }
+      },
+      {
+       "term": {
+        "en": "Allies",
+        "id": "Sekutu"
        },
-       "strong": {
-        "en": "“Dear Ms Anisa — a family emergency requires me tomorrow morning, and I want to give your team my full attention. Could we reschedule? I am available Thursday and Friday, any time. My apologies for the disruption, and thank you for understanding. — Rafi Pratama”",
-        "id": "“Yth. Ibu Anisa — ada keadaan darurat keluarga yang mengharuskan saya hadir besok pagi, dan saya ingin bisa memberikan perhatian penuh kepada tim Ibu. Apakah wawancara bisa dijadwalkan ulang? Saya bisa hari Kamis atau Jumat, jam berapa pun. Mohon maaf atas ketidaknyamanannya, dan terima kasih atas pengertiannya. — Rafi Pratama”"
-       },
-       "why": {
-        "en": "The strong version gives a reason without oversharing, offers concrete alternatives, keeps the register professional — and reads as someone who will handle client emergencies the same way.",
-        "id": "Versi yang kuat memberi alasan tanpa berlebihan bercerita, menawarkan alternatif yang konkret, menjaga register tetap profesional — dan terbaca sebagai orang yang akan menangani keadaan darurat klien dengan cara yang sama."
+       "def": {
+        "en": "Assistants, receptionists and HR coordinators — the people who control access and are asked about you.",
+        "id": "Asisten, resepsionis, dan koordinator HR — orang yang mengendalikan akses dan ditanya tentangmu."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "A recruiter calls unannounced while you are on a noisy bus. Best move?",
-        "id": "Seorang perekrut menelepon tanpa janji ketika kamu sedang di bus yang bising. Langkah terbaik?"
+        "en": "Who should you treat as an ally in a recruitment process?",
+        "id": "Siapa yang sebaiknya kamu perlakukan sebagai sekutu dalam proses rekrutmen?"
        },
        "options": [
         {
-         "en": "Answer and push through — availability shows enthusiasm",
-         "id": "Angkat dan paksakan terus — selalu bisa dihubungi menunjukkan antusiasme"
+         "en": "Only the interview panel",
+         "id": "Hanya panel wawancara"
         },
         {
-         "en": "Answer briefly, express gladness, and ask to call back in ten minutes from a quiet place",
-         "id": "Angkat sebentar, sampaikan bahwa kamu senang ditelepon, dan minta izin menelepon balik sepuluh menit lagi dari tempat yang tenang"
+         "en": "Reception, assistants and HR coordinators",
+         "id": "Resepsionis, asisten, dan koordinator HR"
         },
         {
-         "en": "Decline the call and email an apology tonight",
-         "id": "Tolak panggilannya dan kirim email permintaan maaf malam ini"
+         "en": "Other candidates",
+         "id": "Kandidat lain"
+        },
+        {
+         "en": "Nobody — stay neutral with everyone",
+         "id": "Tidak ada — tetap netral dengan semua orang"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Composure beats immediacy: the callback request is standard professional behaviour and buys you a prepared, audible conversation.",
-        "id": "Ketenangan mengalahkan kecepatan: meminta menelepon balik adalah perilaku profesional yang standar, dan memberimu percakapan yang siap dan terdengar jelas."
+        "en": "They control access, and interviewers ask them how you were — learn and use their names.",
+        "id": "Mereka mengendalikan akses, dan pewawancara bertanya kepada mereka bagaimana kamu — pelajari dan pakai nama mereka."
+       }
+      },
+      {
+       "q": {
+        "en": "A recruiter moves the conversation to WhatsApp. Your message should be…",
+        "id": "Rekruter memindahkan percakapan ke WhatsApp. Pesanmu sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Several short messages, so it feels natural",
+         "id": "Beberapa pesan pendek, agar terasa alami"
+        },
+        {
+         "en": "One complete message, in office hours",
+         "id": "Satu pesan lengkap, di jam kerja"
+        },
+        {
+         "en": "A voice note — it is warmer",
+         "id": "Pesan suara — lebih hangat"
+        },
+        {
+         "en": "Sent whenever you are free, day or night",
+         "id": "Dikirim kapan pun kamu luang, siang atau malam"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Name, context, the ask and a sign-off in a single message; the register ladder still applies inside the chat.",
+        "id": "Nama, konteks, permintaan, dan penutup dalam satu pesan; tangga register tetap berlaku di dalam obrolan."
+       }
+      },
+      {
+       "q": {
+        "en": "First contact with a senior manager, in English. The opening is…",
+        "id": "Kontak pertama dengan manajer senior, dalam bahasa Inggris. Pembukanya…"
+       },
+       "options": [
+        {
+         "en": "“Hi [First name]”",
+         "id": "“Hi [First name]”"
+        },
+        {
+         "en": "“Dear Mr./Ms. [Surname]”",
+         "id": "“Dear Mr./Ms. [Surname]”"
+        },
+        {
+         "en": "“Hey there”",
+         "id": "“Hey there”"
+        },
+        {
+         "en": "“To whom it may concern”",
+         "id": "“To whom it may concern”"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Top rung on first contact; the other person moves you down by using your first name.",
+        "id": "Anak tangga tertinggi pada kontak pertama; pihak lain yang menurunkanmu dengan memakai nama depanmu."
        }
       }
      ],
-     "listen": [
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Write your defaults card",
+       "id": "Tulis kartu setelanmu"
+      },
+      "body": {
+       "en": "In the studio, write the five lines of your defaults card — response time, address, punctuality, sign-off, instructions — each with the ready line you will paste, in both languages. Then write your two standard sign-offs (formal Indonesian, formal English) and your one-complete-message WhatsApp opener with the name-and-context slot left blank. This card is the first page of your follow-up kit (Dossier item).",
+       "id": "Di studio, tulis lima baris kartu setelanmu — waktu balas, sapaan, ketepatan waktu, penutup, instruksi — masing-masing dengan kalimat siap tempel, dalam dua bahasa. Lalu tulis dua penutup standarmu (Indonesia formal, Inggris formal) dan pembuka WhatsApp satu-pesan-lengkap dengan slot nama-dan-konteks dibiarkan kosong. Kartu ini adalah halaman pertama perangkat tindak lanjutmu (butir Dossier)."
+      },
+      "cta": {
+       "en": "Open the studio →",
+       "id": "Buka studio →"
+      }
+     },
+     "takeaways": [
       {
-       "label": {
-        "en": "Rescheduling an interview — the professional register, heard",
-        "id": "Menjadwalkan ulang wawancara — begini bunyi register profesional"
-       },
-       "text": {
-        "en": "A family emergency requires me tomorrow morning, and I want to give your team my full attention. Could we reschedule? I am available Thursday and Friday, any time. My apologies for the disruption, and thank you for understanding.",
-        "id": "Ada keadaan darurat keluarga yang mengharuskan saya hadir besok pagi, dan saya ingin bisa memberikan perhatian penuh kepada tim Ibu. Apakah wawancara bisa dijadwalkan ulang? Saya bisa hari Kamis atau Jumat, jam berapa pun. Mohon maaf atas ketidaknyamanannya, dan terima kasih atas pengertiannya."
-       }
+       "en": "Every interaction is a work sample — especially the ones nobody rehearses.",
+       "id": "Setiap interaksi adalah contoh kerja — terutama yang tidak dilatih siapa pun."
+      },
+      {
+       "en": "Set the defaults once; start a rung more formal and let them move you down.",
+       "id": "Tetapkan setelan sekali; mulai satu anak tangga lebih formal dan biarkan mereka menurunkanmu."
+      },
+      {
+       "en": "Email for records, LinkedIn for first contact, WhatsApp only when they made it the channel — one complete message, office hours.",
+       "id": "Email untuk catatan, LinkedIn untuk kontak pertama, WhatsApp hanya jika mereka menjadikannya saluran — satu pesan lengkap, jam kerja."
       }
      ],
      "resources": {
+      "title": {
+       "en": "Sources, the defaults card and the register ladder",
+       "id": "Sumber, kartu setelan, dan tangga register"
+      },
+      "lead": {
+       "en": "Three sources, and the two cards to keep open while you write.",
+       "id": "Tiga sumber, dan dua kartu untuk dibiarkan terbuka saat menulis."
+      },
       "items": [
        {
-        "kind": "template",
+        "kind": "guide",
         "title": {
-         "en": "Six messages you will send",
-         "id": "Enam pesan yang akan kamu kirim"
+         "en": "Reading list · Lesson 9.1",
+         "id": "Daftar bacaan · Pelajaran 9.1"
         },
         "desc": {
-         "en": "Short, complete, easy to act on.",
-         "id": "Singkat, lengkap, mudah ditindaklanjuti."
+         "en": "Three sources; the register ladder and the WhatsApp rules are The Pack’s own Indonesian adaptation.",
+         "id": "Tiga sumber; tangga register dan aturan WhatsApp adalah adaptasi Indonesia milik The Pack sendiri."
         },
         "body": [
          {
-          "en": "CONFIRM INTERVIEW: “Dear [Name], thank you — confirmed for [day, date, time] at [place / link]. I will bring [ID / portfolio]. Looking forward to it. [Name, phone]”",
-          "id": "KONFIRMASI WAWANCARA: “Yth. [Nama], terima kasih — terkonfirmasi untuk [hari, tanggal, jam] di [tempat / tautan]. Saya akan membawa [identitas / portofolio]. Sampai bertemu. [Nama, telepon]”"
+          "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, ch. 2, 6 — every interaction as evidence; the people you treat as obstacles.",
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, bab 2, 6 — setiap interaksi sebagai bukti; orang yang kamu perlakukan sebagai hambatan."
          },
          {
-          "en": "RESCHEDULE: “I’m sorry to ask — [one-line reason]. Could we move to [two alternatives]? I understand if the original slot must stand.”",
-          "id": "MENJADWAL ULANG: “Mohon maaf harus meminta — [alasan satu baris]. Bisakah kita geser ke [dua alternatif]? Saya memahami jika slot semula harus tetap.”"
+          "en": "R. Levy — reception, assistants and coordinators as allies.",
+          "id": "R. Levy — resepsionis, asisten, dan koordinator sebagai sekutu."
          },
          {
-          "en": "THANK YOU (same day): “Thank you for the conversation today. I particularly valued [specific point]. If useful, [attached or linked artefact] shows the work we discussed. I remain very interested.”",
-          "id": "TERIMA KASIH (hari yang sama): “Terima kasih atas percakapan hari ini. Saya sangat menghargai [poin spesifik]. Jika berguna, [artefak terlampir atau tertaut] menunjukkan pekerjaan yang kita bahas. Saya tetap sangat tertarik.”"
-         },
-         {
-          "en": "FOLLOW-UP (one working day after the promised date): “I hope the week is going well. You mentioned a decision around [date] — is there anything further you need from me? Happy to wait for the process.”",
-          "id": "TINDAK LANJUT (satu hari kerja setelah tanggal yang dijanjikan): “Semoga minggu ini berjalan baik. Anda menyebutkan keputusan sekitar [tanggal] — adakah hal lain yang Anda perlukan dari saya? Saya siap menunggu prosesnya.”"
-         },
-         {
-          "en": "WITHDRAW: “Thank you for considering me. I have accepted another role and would like to withdraw so your process can move on. I valued the conversations and hope to cross paths again.”",
-          "id": "MUNDUR: “Terima kasih telah mempertimbangkan saya. Saya telah menerima peran lain dan ingin mengundurkan diri agar proses Anda dapat berlanjut. Saya menghargai percakapannya dan berharap bisa bertemu lagi.”"
-         },
-         {
-          "en": "RECOVER FROM A MISTAKE: “I sent [what] in error / with a mistake in [where]. The corrected version is attached. Apologies for the extra step.”",
-          "id": "MEMULIHKAN KESALAHAN: “Saya mengirim [apa] secara keliru / dengan kesalahan di [mana]. Versi yang benar terlampir. Mohon maaf atas langkah tambahannya.”"
+          "en": "S. Dalton, <i>The 2-Hour Job Search</i>, ch. 6 — err toward subtlety and formality.",
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i>, bab 6 — condong ke kehalusan dan formalitas."
          }
         ]
        },
        {
         "kind": "checklist",
         "title": {
-         "en": "Before any professional message",
-         "id": "Sebelum pesan profesional apa pun"
+         "en": "The defaults card",
+         "id": "Kartu setelan"
         },
         "desc": {
-         "en": "Ten seconds that prevent most etiquette failures.",
-         "id": "Sepuluh detik yang mencegah sebagian besar kegagalan etiket."
+         "en": "Five lines, set once.",
+         "id": "Lima baris, ditetapkan sekali."
         },
         "body": [
          {
-          "en": "Right channel for the message (email for documents; chat only if they opened it)",
-          "id": "Kanal yang tepat untuk pesannya (email untuk dokumen; chat hanya jika mereka yang membukanya)"
+          "en": "Reply to any recruiter within one working day — even “received, will confirm by …”",
+          "id": "Balas rekruter mana pun dalam satu hari kerja — meski hanya “sudah diterima, konfirmasi paling lambat …”"
          },
          {
-          "en": "Name spelled correctly; title where appropriate (Bapak/Ibu, Pak/Bu)",
-          "id": "Nama dieja dengan benar; sapaan yang sesuai (Bapak/Ibu, Pak/Bu)"
+          "en": "Address: start a rung more formal; let them move me down; one register per message",
+          "id": "Sapaan: mulai satu anak tangga lebih formal; biarkan mereka menurunkan saya; satu register per pesan"
          },
          {
-          "en": "First line states what this is about",
-          "id": "Baris pertama menyatakan tentang apa pesan ini"
+          "en": "Ten minutes early in person; three minutes early online; tech tested the day before",
+          "id": "Sepuluh menit lebih awal langsung; tiga menit lebih awal daring; teknologi diuji sehari sebelumnya"
          },
          {
-          "en": "One request, clearly stated",
-          "id": "Satu permintaan, dinyatakan dengan jelas"
+          "en": "Sign-off with full name and phone; “Hormat saya” / “Kind regards”",
+          "id": "Penutup dengan nama lengkap dan telepon; “Hormat saya” / “Kind regards”"
          },
          {
-          "en": "Attachments actually attached and correctly named",
-          "id": "Lampiran benar-benar terlampir dan dinamai dengan benar"
+          "en": "Instructions read twice, followed exactly; ambiguity asked early, once",
+          "id": "Instruksi dibaca dua kali, diikuti persis; ambiguitas ditanyakan lebih awal, sekali"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "One complete WhatsApp message",
+         "id": "Satu pesan WhatsApp lengkap"
+        },
+        "desc": {
+         "en": "Fill the slots; send in office hours.",
+         "id": "Isi slotnya; kirim di jam kerja."
+        },
+        "body": [
+         {
+          "en": "Selamat pagi/siang [Bapak/Ibu/Kak + Nama], saya [nama lengkap], [status + angkatan], [siapa yang memperkenalkan / konteks email sebelumnya].",
+          "id": "Selamat pagi/siang [Bapak/Ibu/Kak + Nama], saya [nama lengkap], [status + angkatan], [siapa yang memperkenalkan / konteks email sebelumnya]."
          },
          {
-          "en": "Sent within working hours unless they set another norm",
-          "id": "Dikirim dalam jam kerja kecuali mereka menetapkan norma lain"
+          "en": "[One sentence of context: what you are preparing and why you are writing.]",
+          "id": "[Satu kalimat konteks: apa yang sedang kamu siapkan dan mengapa kamu menulis.]"
+         },
+         {
+          "en": "[The single ask, with two or three options on their terms.]",
+          "id": "[Satu permintaan, dengan dua atau tiga pilihan sesuai kondisi mereka.]"
+         },
+         {
+          "en": "Terima kasih [banyak, Kak / atas waktunya, Bapak/Ibu]. — [nama lengkap]",
+          "id": "Terima kasih [banyak, Kak / atas waktunya, Bapak/Ibu]. — [nama lengkap]"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.2",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "The Follow-Up Calendar",
+      "id": "Kalender Tindak Lanjut"
+     },
+     "overview": {
+      "en": "Following up is where most graduates either chase or vanish. This lesson replaces both with one table: for every situation — outreach with no reply, a booster offering times, an introduction by CC, an informational conversation, an application with or without a timeline, an interview — when to write, how many times, and which source the rule comes from. Then the two notes that keep relationships alive: the thank-you within 24 hours and the monthly harvest note. Five scenario cards make you draft the right message, channel and timing.",
+      "id": "Tindak lanjut adalah tempat sebagian besar lulusan entah mengejar atau menghilang. Pelajaran ini mengganti keduanya dengan satu tabel: untuk setiap situasi — jangkauan tanpa balasan, pendorong yang menawarkan waktu, perkenalan lewat CC, percakapan informasional, lamaran dengan atau tanpa linimasa, wawancara — kapan menulis, berapa kali, dan dari sumber mana aturannya. Lalu dua catatan yang menjaga hubungan tetap hidup: terima kasih dalam 24 jam dan catatan panen bulanan. Lima kartu skenario membuatmu menyusun pesan, saluran, dan waktu yang tepat."
+     },
+     "objectives": [
+      {
+       "en": "Apply the follow-up table: the right interval and the right number of follow-ups for eight situations.",
+       "id": "Menerapkan tabel tindak lanjut: jeda yang tepat dan jumlah tindak lanjut yang tepat untuk delapan situasi."
+      },
+      {
+       "en": "Write a thank-you note in three to five sentences with one specific moment.",
+       "id": "Menulis ucapan terima kasih dalam tiga hingga lima kalimat dengan satu momen spesifik."
+      },
+      {
+       "en": "Write a monthly harvest note and decide advance, hold or drop for each contact.",
+       "id": "Menulis catatan panen bulanan dan memutuskan lanjutkan, tahan, atau lepas untuk tiap kontak."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "One table, no chasing",
+       "id": "Satu tabel, tanpa mengejar"
+      },
+      "intro": {
+       "en": "The rules below come from Dalton, Graham, Ow and Williams, adjusted for Indonesian working days and holidays. Once they are in your tracker, you never wonder whether to write again.",
+       "id": "Aturan di bawah berasal dari Dalton, Graham, Ow, dan Williams, disesuaikan dengan hari kerja dan hari libur Indonesia. Begitu masuk ke pelacakmu, kamu tidak pernah bertanya-tanya apakah harus menulis lagi."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "When and how many",
+         "id": "Kapan dan berapa kali"
+        },
+        "points": [
+         {
+          "en": "Outreach with no reply: day 3, contact someone else there; day 7, one follow-up; then stop. After applying with no timeline: once, at one to two weeks. After an interview: thank-you within 24 hours; at most two polite follow-ups after the date they gave.",
+          "id": "Jangkauan tanpa balasan: hari ke-3, hubungi orang lain di sana; hari ke-7, satu tindak lanjut; lalu berhenti. Setelah melamar tanpa linimasa: sekali, pada satu hingga dua minggu. Setelah wawancara: terima kasih dalam 24 jam; paling banyak dua tindak lanjut sopan setelah tanggal yang mereka beri."
+         },
+         {
+          "en": "Process-track portal applications: follow the published timeline; zero chasing.",
+          "id": "Lamaran portal jalur proses: ikuti linimasa yang dipublikasikan; nol pengejaran."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The two notes",
+         "id": "Dua catatan"
+        },
+        "points": [
+         {
+          "en": "Thank-you: three to five sentences within 24 hours — thanks, one specific moment or piece of advice, one fit point after an interview, a forward line.",
+          "id": "Terima kasih: tiga hingga lima kalimat dalam 24 jam — terima kasih, satu momen atau saran spesifik, satu poin kecocokan setelah wawancara, satu kalimat ke depan."
+         },
+         {
+          "en": "Harvest note, monthly: their advice → what you did with it → what happened → one question.",
+          "id": "Catatan panen, bulanan: saran mereka → apa yang kamu lakukan dengannya → apa yang terjadi → satu pertanyaan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Keep the ball in your court",
+         "id": "Jaga bolanya di tanganmu"
+        },
+        "points": [
+         {
+          "en": "End every interaction by saying when you will check in. Then you are following through on a promise, not chasing.",
+          "id": "Akhiri setiap interaksi dengan mengatakan kapan kamu akan mengabari. Maka kamu menepati janji, bukan mengejar."
+         },
+         {
+          "en": "Count working days; extend around Lebaran, cuti bersama and national holidays.",
+          "id": "Hitung hari kerja; perpanjang di sekitar Lebaran, cuti bersama, dan hari libur nasional."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "clock",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 45%",
+       "h": {
+        "en": "One table for every situation",
+        "id": "Satu tabel untuk setiap situasi"
+       },
+       "body": {
+        "en": "Every follow-up question you will have in the next year is answered by one row. The intervals come from four sources and are deliberately conservative: a follow-up that arrives too early reads as pressure, and the second unanswered follow-up reads as inability to take a hint <i>(Dalton, The 2-Hour Job Search, ch. 7)</i>. The numbers in the “how many” column are ceilings, not targets.",
+        "id": "Setiap pertanyaan tindak lanjut yang akan kamu punya dalam setahun ke depan dijawab oleh satu baris. Jedanya berasal dari empat sumber dan sengaja konservatif: tindak lanjut yang datang terlalu cepat terbaca sebagai tekanan, dan tindak lanjut kedua yang tak terjawab terbaca sebagai ketidakmampuan menangkap isyarat <i>(Dalton, The 2-Hour Job Search, bab 7)</i>. Angka di kolom “berapa kali” adalah batas atas, bukan target."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Situation",
+          "id": "Situasi"
+         },
+         {
+          "en": "When",
+          "id": "Kapan"
+         },
+         {
+          "en": "How many",
+          "id": "Berapa kali"
+         },
+         {
+          "en": "Source",
+          "id": "Sumber"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Outreach, no reply",
+           "id": "Jangkauan, tanpa balasan"
+          },
+          {
+           "en": "Day 3 → contact someone else there; day 7 → one follow-up",
+           "id": "Hari ke-3 → hubungi orang lain di sana; hari ke-7 → satu tindak lanjut"
+          },
+          {
+           "en": "<b>1</b>",
+           "id": "<b>1</b>"
+          },
+          {
+           "en": "Dalton, ch. 7",
+           "id": "Dalton, bab 7"
+          }
+         ],
+         [
+          {
+           "en": "Booster offers times",
+           "id": "Pendorong menawarkan waktu"
+          },
+          {
+           "en": "Within 1 working day, with 2–3 options",
+           "id": "Dalam 1 hari kerja, dengan 2–3 pilihan"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Dalton, ch. 7",
+           "id": "Dalton, bab 7"
+          }
+         ],
+         [
+          {
+           "en": "Introduction received (CC)",
+           "id": "Perkenalan diterima (CC)"
+          },
+          {
+           "en": "Reply-all within 24 h; thank the introducer separately",
+           "id": "Balas-semua dalam 24 jam; berterima kasih ke pengenal secara terpisah"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Dalton, ch. 9",
+           "id": "Dalton, bab 9"
+          }
+         ],
+         [
+          {
+           "en": "After an informational conversation",
+           "id": "Setelah percakapan informasional"
+          },
+          {
+           "en": "Thanks same/next day; two-part close ~1 week later; monthly harvest note",
+           "id": "Terima kasih hari itu/berikutnya; penutup dua bagian ~1 minggu kemudian; catatan panen bulanan"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Dalton, ch. 9–10",
+           "id": "Dalton, bab 9–10"
+          }
+         ],
+         [
+          {
+           "en": "After applying (no stated timeline)",
+           "id": "Setelah melamar (tanpa linimasa)"
+          },
+          {
+           "en": "1–2 weeks, by email or LinkedIn, once",
+           "id": "1–2 minggu, lewat email atau LinkedIn, sekali"
+          },
+          {
+           "en": "<b>1</b>",
+           "id": "<b>1</b>"
+          },
+          {
+           "en": "Ow",
+           "id": "Ow"
+          }
+         ],
+         [
+          {
+           "en": "After applying (process track)",
+           "id": "Setelah melamar (jalur proses)"
+          },
+          {
+           "en": "Follow the published timeline; don’t chase portals",
+           "id": "Ikuti linimasa yang dipublikasikan; jangan kejar portal"
+          },
+          {
+           "en": "<b>0</b>",
+           "id": "<b>0</b>"
+          },
+          {
+           "en": "<span class=\"ev ev-contested\">Course guidance</span>",
+           "id": "<span class=\"ev ev-contested\">Panduan kursus</span>"
+          }
+         ],
+         [
+          {
+           "en": "After an interview",
+           "id": "Setelah wawancara"
+          },
+          {
+           "en": "Thank-you within 24 h; if no news ~10 working days after the date they gave, one polite follow-up; one more after another week",
+           "id": "Terima kasih dalam 24 jam; jika tak ada kabar ~10 hari kerja setelah tanggal yang mereka beri, satu tindak lanjut sopan; satu lagi setelah seminggu berikutnya"
+          },
+          {
+           "en": "<b>≤2</b>",
+           "id": "<b>≤2</b>"
+          },
+          {
+           "en": "Graham, ch. 11; <span class=\"ev ev-contested\">ID adjustment</span>",
+           "id": "Graham, bab 11; <span class=\"ev ev-contested\">Penyesuaian ID</span>"
+          }
+         ],
+         [
+          {
+           "en": "“Keep the ball in your court”",
+           "id": "“Jaga bolanya di tanganmu”"
+          },
+          {
+           "en": "End each interaction by saying when you’ll check in",
+           "id": "Akhiri tiap interaksi dengan mengatakan kapan kamu akan mengabari"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "Graham, ch. 11",
+           "id": "Graham, bab 11"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The follow-up table. Copy it into the tracker’s notes; each row becomes a dated task.",
+         "id": "Tabel tindak lanjut. Salin ke catatan pelacak; tiap baris menjadi tugas bertanggal."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The Indonesian adjustment",
+        "id": "Penyesuaian Indonesia"
+       },
+       "body": {
+        "en": "<span class=\"ev ev-contested\">Course guidance</span> Count <b>working days</b>, not calendar days. Extend every interval around Lebaran, <i>cuti bersama</i> and national holidays — a “ten working days” follow-up that falls in the week after Idulfitri should wait until the office has been back for a full week. Large and government-linked organisations are slower than the table assumes: a BUMN joint recruitment or a bank ODP intake can go quiet for a month between stages and still be live, and many never send rejections at all. For those, the tracker rule is: follow the published stage dates; if the stage date passes by more than two weeks with no announcement, one polite query to the published address, then treat silence as the answer and keep the row open as “hold”, not “chasing”.",
+        "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Hitung <b>hari kerja</b>, bukan hari kalender. Perpanjang setiap jeda di sekitar Lebaran, <i>cuti bersama</i>, dan hari libur nasional — tindak lanjut “sepuluh hari kerja” yang jatuh pada minggu setelah Idulfitri sebaiknya menunggu sampai kantor sudah kembali penuh selama seminggu. Organisasi besar dan terkait pemerintah lebih lambat dari yang diasumsikan tabel: rekrutmen bersama BUMN atau penerimaan ODP bank bisa senyap sebulan di antara tahap dan tetap berjalan, dan banyak yang tidak pernah mengirim penolakan sama sekali. Untuk itu, aturan pelacaknya: ikuti tanggal tahap yang dipublikasikan; jika tanggal tahap lewat lebih dari dua minggu tanpa pengumuman, satu pertanyaan sopan ke alamat yang dipublikasikan, lalu anggap keheningan sebagai jawaban dan biarkan barisnya terbuka sebagai “tahan”, bukan “mengejar”."
+       },
+       "bullets": [
+        {
+         "en": "<b>Working days only:</b> Monday–Friday, minus public holidays and cuti bersama. Friday afternoon messages are read Monday.",
+         "id": "<b>Hanya hari kerja:</b> Senin–Jumat, dikurangi hari libur nasional dan cuti bersama. Pesan Jumat sore dibaca Senin."
+        },
+        {
+         "en": "<b>Lebaran window:</b> nothing sent in the last three working days before or the first five after; add the gap to every interval.",
+         "id": "<b>Jendela Lebaran:</b> tidak ada yang dikirim di tiga hari kerja terakhir sebelum atau lima hari pertama setelah; tambahkan jedanya ke setiap interval."
+        },
+        {
+         "en": "<b>BUMN and large banks:</b> published timeline first; one query after two weeks of overrun; then hold.",
+         "id": "<b>BUMN dan bank besar:</b> linimasa yang dipublikasikan dulu; satu pertanyaan setelah dua minggu keterlambatan; lalu tahan."
+        },
+        {
+         "en": "<b>Startups and SMEs:</b> the table as written; a short reply within a day is normal, and silence after two follow-ups is a no.",
+         "id": "<b>Startup dan UKM:</b> tabel apa adanya; balasan singkat dalam sehari itu normal, dan keheningan setelah dua tindak lanjut adalah penolakan."
+        }
+       ]
+      },
+      {
+       "icon": "mail",
+       "h": {
+        "en": "The thank-you note",
+        "id": "Ucapan terima kasih"
+       },
+       "body": {
+        "en": "Three to five sentences, within 24 hours: <b>thanks + one specific moment or piece of advice + (after interviews) one fit point + a forward line</b>. The pattern synthesises Verma’s three-part thank-you <i>(Verma, ch. 7)</i>, Williams’s advice on specificity <i>(Williams, ch. 19)</i> and Dalton’s timing <i>(Dalton, ch. 10)</i>. The specific moment is the whole point: a note that could have been sent to anyone tells the reader you were not listening. Email is the default; a handwritten note is an optional extra — Dalton and Bolles differ here, and The Pack follows Dalton <span class=\"ev ev-contested\">Dalton vs Bolles</span>. After an interview, the fit point restates one thing you heard about the role and one thing you bring to it, in a sentence; it is not a second cover letter.",
+        "id": "Tiga hingga lima kalimat, dalam 24 jam: <b>terima kasih + satu momen atau saran spesifik + (setelah wawancara) satu poin kecocokan + satu kalimat ke depan</b>. Polanya menyintesis terima kasih tiga bagian Verma <i>(Verma, bab 7)</i>, saran Williams tentang spesifisitas <i>(Williams, bab 19)</i>, dan waktu Dalton <i>(Dalton, bab 10)</i>. Momen spesifik adalah intinya: catatan yang bisa dikirim ke siapa saja memberi tahu pembaca bahwa kamu tidak mendengarkan. Email adalah bawaannya; catatan tulisan tangan adalah tambahan opsional — Dalton dan Bolles berbeda di sini, dan The Pack mengikuti Dalton <span class=\"ev ev-contested\">Dalton vs Bolles</span>. Setelah wawancara, poin kecocokan menyatakan ulang satu hal yang kamu dengar tentang peran dan satu hal yang kamu bawa untuknya, dalam satu kalimat; ini bukan surat pengantar kedua."
+       },
+       "quote": {
+        "text": {
+         "en": "Kak Rina, terima kasih banyak atas waktu dan ceritanya kemarin. Saran Kakak untuk memahami data stok distributor sebelum rotasi sales benar-benar membuka mata saya — saya sudah mulai latihan analisis stok dengan data contoh. Saya akan kabari perkembangannya bulan depan. Salam, Nadia.",
+         "id": "Kak Rina, terima kasih banyak atas waktu dan ceritanya kemarin. Saran Kakak untuk memahami data stok distributor sebelum rotasi sales benar-benar membuka mata saya — saya sudah mulai latihan analisis stok dengan data contoh. Saya akan kabari perkembangannya bulan depan. Salam, Nadia."
+        },
+        "who": {
+         "en": "Nadia’s thank-you to Kak Rina, the morning after their call — four sentences, one specific piece of advice, a forward line that keeps the ball in her court",
+         "id": "Terima kasih Nadia kepada Kak Rina, pagi setelah telepon mereka — empat kalimat, satu saran spesifik, kalimat ke depan yang menjaga bola di tangannya"
+        }
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "After a conversation",
+          "id": "Setelah percakapan"
+         },
+         {
+          "en": "After an interview",
+          "id": "Setelah wawancara"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Thanks",
+           "id": "Terima kasih"
+          },
+          {
+           "en": "“terima kasih banyak atas waktu dan ceritanya kemarin”",
+           "id": "“terima kasih banyak atas waktu dan ceritanya kemarin”"
+          },
+          {
+           "en": "“Thank you for your time yesterday, Ms. Dewi, and for the walk through the onboarding team’s week”",
+           "id": "“Thank you for your time yesterday, Ms. Dewi, and for the walk through the onboarding team’s week”"
+          }
+         ],
+         [
+          {
+           "en": "One specific moment",
+           "id": "Satu momen spesifik"
+          },
+          {
+           "en": "the advice about distributor stock data",
+           "id": "saran tentang data stok distributor"
+          },
+          {
+           "en": "the point that onboarding time is now the constraint on growth",
+           "id": "poin bahwa waktu onboarding kini menjadi kendala pertumbuhan"
+          }
+         ],
+         [
+          {
+           "en": "Fit point (interviews)",
+           "id": "Poin kecocokan (wawancara)"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          },
+          {
+           "en": "“the reconciliation checklist I built at Bank Sinar Nusantara is the same habit — measure the queue, then shorten it”",
+           "id": "“daftar periksa rekonsiliasi yang saya bangun di Bank Sinar Nusantara adalah kebiasaan yang sama — ukur antreannya, lalu perpendek”"
+          }
+         ],
+         [
+          {
+           "en": "Forward line",
+           "id": "Kalimat ke depan"
+          },
+          {
+           "en": "“saya akan kabari perkembangannya bulan depan”",
+           "id": "“saya akan kabari perkembangannya bulan depan”"
+          },
+          {
+           "en": "“I look forward to hearing about next steps by the 15th, as you mentioned”",
+           "id": "“I look forward to hearing about next steps by the 15th, as you mentioned”"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "The harvest note (monthly)",
+        "id": "Catatan panen (bulanan)"
+       },
+       "body": {
+        "en": "A relationship that only receives thanks fades; one that receives evidence grows. Dalton’s harvest note is four moves in four sentences: <b>recap their advice → what you did with it → what happened → one question</b> <i>(Dalton, ch. 10)</i>. It gives the contact the thing advisers rarely get — proof that the advice was used — and the question keeps the exchange open without asking for a job. Monthly is the cadence; a contact who has been harvested twice with nothing new to report is a contact to hold, not to write to. After each note, record an outcome per contact in the tracker: <b>advance</b> (they offered something — a name, a document, a referral), <b>hold</b> (warm but nothing this month), or <b>drop</b> (two harvests, no reply). Dropping is not rude; it is the table applied to relationships.",
+        "id": "Hubungan yang hanya menerima terima kasih memudar; yang menerima bukti tumbuh. Catatan panen Dalton adalah empat langkah dalam empat kalimat: <b>rekap saran mereka → apa yang kamu lakukan dengannya → apa yang terjadi → satu pertanyaan</b> <i>(Dalton, bab 10)</i>. Ia memberi kontak hal yang jarang didapat penasihat — bukti bahwa sarannya dipakai — dan pertanyaannya menjaga pertukaran tetap terbuka tanpa meminta pekerjaan. Bulanan adalah iramanya; kontak yang sudah dipanen dua kali tanpa hal baru untuk dilaporkan adalah kontak untuk ditahan, bukan ditulisi. Setelah tiap catatan, catat hasil per kontak di pelacak: <b>lanjutkan</b> (mereka menawarkan sesuatu — nama, dokumen, rujukan), <b>tahan</b> (hangat tetapi tidak ada apa-apa bulan ini), atau <b>lepas</b> (dua panen, tanpa balasan). Melepas bukan kasar; itu tabel yang diterapkan pada hubungan."
+       },
+       "quote": {
+        "text": {
+         "en": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari skripsi saya dan menghitung inventory turnover per SKU untuk tiga bulan — ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?",
+         "id": "Kak Rina, bulan lalu Kakak menyarankan saya memahami data stok distributor sebelum berpikir soal rotasi sales. Saya mengambil data penjualan contoh dari skripsi saya dan menghitung inventory turnover per SKU untuk tiga bulan — ternyata 20% SKU menyumbang 70% perputaran. Minggu lalu saya memakai temuan itu di tahap studi kasus Arunika, dan lolos ke wawancara user. Kalau boleh, satu pertanyaan: dalam rotasi supply chain, metrik apa yang pertama kali dilihat mentor Kakak pada MT baru?"
+        },
+        "who": {
+         "en": "Nadia’s harvest note, one month later — recap, what she did, what happened, one question. Outcome: advance.",
+         "id": "Catatan panen Nadia, sebulan kemudian — rekap, apa yang ia lakukan, apa yang terjadi, satu pertanyaan. Hasil: lanjutkan."
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Keep the ball in your court",
+        "id": "Jaga bolanya di tanganmu"
+       },
+       "body": {
+        "en": "Graham’s rule turns every follow-up from a chase into a promise kept: end each interaction by saying when you will check in <i>(Graham, ch. 11)</i>. “I will send the stock analysis by Friday.” “I will write again in a month with what I did with this.” “If I have not heard by the 15th, may I check in?” The last one is the interview version: it asks the recruiter for the date, so that the ten-working-days row in the table starts from a date they gave rather than one you guessed. A follow-up that begins “As we discussed, I said I would check in around now” cannot read as pressure, because it is the other person’s calendar you are keeping.",
+        "id": "Aturan Graham mengubah setiap tindak lanjut dari pengejaran menjadi janji yang ditepati: akhiri tiap interaksi dengan mengatakan kapan kamu akan mengabari <i>(Graham, bab 11)</i>. “Saya kirim analisis stoknya hari Jumat.” “Saya akan menulis lagi sebulan lagi dengan apa yang saya lakukan dengan ini.” “Jika belum ada kabar sampai tanggal 15, boleh saya menanyakan?” Yang terakhir adalah versi wawancara: ia meminta tanggal dari rekruter, sehingga baris sepuluh hari kerja di tabel dimulai dari tanggal yang mereka beri, bukan yang kamu tebak. Tindak lanjut yang dibuka “Sesuai yang kita bicarakan, saya berjanji mengabari sekitar sekarang” tidak bisa terbaca sebagai tekanan, karena kalender orang lain yang kamu jaga."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "timeline",
+      "exhibit": {
+       "en": "Exhibit 1: After the interview — the whole calendar",
+       "id": "Peraga 1: Setelah wawancara — seluruh kalender"
+      },
+      "title": {
+       "en": "From the interview to the outcome, counted in working days from the date they gave",
+       "id": "Dari wawancara ke hasil, dihitung dalam hari kerja dari tanggal yang mereka beri"
+      },
+      "items": [
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Day 0 · the interview",
+         "id": "Hari 0 · wawancara"
+        },
+        "sub": {
+         "en": "Ask for the date: “When should I expect to hear?” The calendar starts from their answer.",
+         "id": "Minta tanggalnya: “Kapan saya bisa mengharapkan kabar?” Kalender dimulai dari jawaban mereka."
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "Within 24 h · thank-you",
+         "id": "Dalam 24 jam · terima kasih"
+        },
+        "sub": {
+         "en": "Three to five sentences; one specific moment; one fit point; the forward line names their date.",
+         "id": "Tiga hingga lima kalimat; satu momen spesifik; satu poin kecocokan; kalimat ke depan menyebut tanggal mereka."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "Their date + ~10 working days",
+         "id": "Tanggal mereka + ~10 hari kerja"
+        },
+        "sub": {
+         "en": "No news: one polite follow-up, same channel, referring to the date they gave.",
+         "id": "Tak ada kabar: satu tindak lanjut sopan, saluran sama, merujuk tanggal yang mereka beri."
+        }
+       },
+       {
+        "icon": "clock",
+        "h": {
+         "en": "+ another week",
+         "id": "+ seminggu lagi"
+        },
+        "sub": {
+         "en": "Still nothing: one more, shorter. That is the ceiling — two.",
+         "id": "Masih tidak ada: satu lagi, lebih pendek. Itu batasnya — dua."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Then",
+         "id": "Lalu"
+        },
+        "sub": {
+         "en": "Silence is the answer; the row moves to hold. Lebaran or cuti bersama in the window extends every step.",
+         "id": "Keheningan adalah jawabannya; barisnya pindah ke tahan. Lebaran atau cuti bersama dalam jendela memperpanjang setiap langkah."
+        }
+       }
+      ],
+      "note": {
+       "en": "Two follow-ups after the date they gave, never after the date you hoped for.",
+       "id": "Dua tindak lanjut setelah tanggal yang mereka beri, tidak pernah setelah tanggal yang kamu harapkan."
+      },
+      "longdesc": {
+       "en": "A five-step timeline after an interview: day zero, ask for the date; within 24 hours, the thank-you; about ten working days after the date they gave, one polite follow-up; another week later, one more; then silence is treated as the answer and the tracker row moves to hold, with Indonesian holidays extending every step.",
+       "id": "Linimasa lima langkah setelah wawancara: hari nol, minta tanggalnya; dalam 24 jam, terima kasih; sekitar sepuluh hari kerja setelah tanggal yang mereka beri, satu tindak lanjut sopan; seminggu kemudian, satu lagi; lalu keheningan dianggap jawaban dan baris pelacak pindah ke tahan, dengan hari libur Indonesia memperpanjang setiap langkah."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two thank-you notes",
+        "id": "Dua ucapan terima kasih"
+       },
+       "q": {
+        "en": "Nadia interviewed with Bu Dewi and Mr. Aditya at KilatPay on Tuesday. Wednesday morning she writes:",
+        "id": "Nadia diwawancarai Bu Dewi dan Bapak Aditya di KilatPay hari Selasa. Rabu pagi ia menulis:"
+       },
+       "weak": {
+        "en": "“Dear Ms. Dewi, thank you so much for the opportunity to interview yesterday. I really enjoyed learning more about KilatPay and I am very passionate about this role. I believe I would be a great fit for your dynamic team. I look forward to hearing from you soon. Best regards, Nadia Putri”",
+        "id": "“Dear Ms. Dewi, thank you so much for the opportunity to interview yesterday. I really enjoyed learning more about KilatPay and I am very passionate about this role. I believe I would be a great fit for your dynamic team. I look forward to hearing from you soon. Best regards, Nadia Putri”"
+       },
+       "strong": {
+        "en": "“Dear Ms. Dewi, thank you for your time yesterday and for the walk through the onboarding team’s week. Mr. Aditya’s point that onboarding time is now the constraint on growth stayed with me — the reconciliation checklist I built at Bank Sinar Nusantara came from the same habit of measuring a queue before shortening it. I would be glad to bring that to the merchant onboarding team. As you mentioned, I will look out for news by the 15th, and I am happy to provide anything further before then. Kind regards, Nadia Putri”",
+        "id": "“Dear Ms. Dewi, thank you for your time yesterday and for the walk through the onboarding team’s week. Mr. Aditya’s point that onboarding time is now the constraint on growth stayed with me — the reconciliation checklist I built at Bank Sinar Nusantara came from the same habit of measuring a queue before shortening it. I would be glad to bring that to the merchant onboarding team. As you mentioned, I will look out for news by the 15th, and I am happy to provide anything further before then. Kind regards, Nadia Putri”"
+       },
+       "why": {
+        "en": "The weak note could be sent to any company after any interview: no moment, no fit point, “passionate” and “dynamic” doing the work of evidence, and “soon” instead of their date. The strong note has all four parts in five sentences, names a thing that was actually said, connects it to one thing she did, and ends by keeping their calendar — which is what the ten-working-days row will count from.",
+        "id": "Catatan lemah bisa dikirim ke perusahaan mana pun setelah wawancara apa pun: tanpa momen, tanpa poin kecocokan, “passionate” dan “dynamic” mengerjakan tugas bukti, dan “soon” alih-alih tanggal mereka. Catatan kuat punya keempat bagian dalam lima kalimat, menyebut hal yang benar-benar dikatakan, menghubungkannya dengan satu hal yang ia lakukan, dan berakhir dengan menjaga kalender mereka — yang akan menjadi titik hitung baris sepuluh hari kerja."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "clock",
+      "title": {
+       "en": "In focus: the twelfth working day",
+       "id": "Sorotan: hari kerja kedua belas"
+      },
+      "body": [
+       {
+        "en": "Nadia’s KilatPay interview was on the 3rd. Bu Dewi said “by the 15th”. On the 15th, nothing. On the 16th, Dimas told her to “just WhatsApp Bu Dewi, she gave you her number”. Nadia opened the tracker instead. The row said: date given, the 15th; follow-up 1 due about ten working days after that, which — with a national holiday in between — was the 30th. She waited. On the 30th she sent one email, same thread as the thank-you: “Dear Ms. Dewi, when we spoke on the 3rd you mentioned news by the 15th. I remain very interested in the Business Operations Associate role and wanted to check whether there is anything further I can provide. Kind regards, Nadia Putri.” Bu Dewi replied the next morning: the hiring manager had been travelling; the next stage would be scheduled the following week.",
+        "id": "Wawancara KilatPay Nadia pada tanggal 3. Bu Dewi berkata “paling lambat tanggal 15”. Tanggal 15, tidak ada. Tanggal 16, Dimas menyuruhnya “WA aja Bu Dewi, kan dia kasih nomornya”. Nadia justru membuka pelacak. Barisnya berbunyi: tanggal yang diberi, 15; tindak lanjut 1 jatuh sekitar sepuluh hari kerja setelahnya, yang — dengan satu hari libur nasional di antaranya — adalah tanggal 30. Ia menunggu. Tanggal 30 ia mengirim satu email, utas yang sama dengan ucapan terima kasih: “Dear Ms. Dewi, when we spoke on the 3rd you mentioned news by the 15th. I remain very interested in the Business Operations Associate role and wanted to check whether there is anything further I can provide. Kind regards, Nadia Putri.” Bu Dewi membalas pagi berikutnya: manajer perekrut sedang bepergian; tahap berikutnya akan dijadwalkan minggu depan."
+       },
+       {
+        "en": "Nothing about the outcome depended on the follow-up; the hiring manager was travelling either way. What the follow-up did was leave one more work sample in the file: a candidate who kept their calendar, chose the channel with a record, wrote once, and referred to a date they had been given. The WhatsApp on the 16th would have left a different sample.",
+        "id": "Tidak ada dari hasilnya yang bergantung pada tindak lanjut itu; manajer perekrut sedang bepergian bagaimanapun juga. Yang dilakukan tindak lanjut itu adalah meninggalkan satu contoh kerja lagi di berkas: kandidat yang menjaga kalender mereka, memilih saluran yang punya catatan, menulis sekali, dan merujuk tanggal yang diberikan kepadanya. WhatsApp pada tanggal 16 akan meninggalkan contoh yang berbeda."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Scenario cards (a)–(b) · Applied 10 days ago · Interviewed yesterday",
+        "id": "Kartu skenario (a)–(b) · Melamar 10 hari lalu · Diwawancarai kemarin"
+       },
+       "body": {
+        "en": "(a) Nadia applied to a startup, Garis Lurus Logistik, ten days ago through a job board; no timeline was stated; no reply. (b) She interviewed yesterday afternoon with Bu Ratna at Rumah Rempah, who said “we will decide within two weeks”. For each: which row of the table, which channel, when, and the message in full.",
+        "id": "(a) Nadia melamar ke sebuah startup, Garis Lurus Logistik, sepuluh hari lalu lewat portal lowongan; tidak ada linimasa; tidak ada balasan. (b) Ia diwawancarai kemarin sore oleh Bu Ratna di Rumah Rempah, yang berkata “kami putuskan dalam dua minggu”. Untuk masing-masing: baris tabel mana, saluran mana, kapan, dan pesannya secara lengkap."
+       },
+       "debrief": {
+        "en": "(a) Row 5 — applied, no stated timeline: once, at one to two weeks, by email or LinkedIn. Ten days is inside the window; send today, by email to the address on the posting or a LinkedIn note to the named hiring contact if there is one: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Then the row goes to hold; no second message. (b) Row 7 — after an interview: the thank-you today, within 24 hours, email, four to five sentences with one thing Bu Ratna actually said and one fit point (the barista rush and the pre-order board is the obvious one for a food business). Forward line: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [date].” Follow-up 1 is then about ten working days after that date — not after the interview.",
+        "id": "(a) Baris 5 — melamar, tanpa linimasa: sekali, pada satu hingga dua minggu, lewat email atau LinkedIn. Sepuluh hari masih di dalam jendela; kirim hari ini, lewat email ke alamat di lowongan atau catatan LinkedIn ke kontak perekrut bernama jika ada: “Selamat pagi, saya Nadia Putri; pada tanggal [x] saya melamar posisi [role] melalui [portal]. Saya tetap sangat tertarik dan ingin memastikan lamaran saya diterima; jika ada dokumen tambahan yang diperlukan, saya siap mengirimkannya. Hormat saya, Nadia Putri.” Lalu barisnya ke tahan; tanpa pesan kedua. (b) Baris 7 — setelah wawancara: terima kasih hari ini, dalam 24 jam, email, empat hingga lima kalimat dengan satu hal yang benar-benar dikatakan Bu Ratna dan satu poin kecocokan (jam sibuk barista dan papan pra-pesan adalah yang jelas untuk bisnis makanan). Kalimat ke depan: “Ibu menyebutkan keputusan dalam dua minggu; saya akan menunggu kabar sekitar tanggal [tanggal].” Tindak lanjut 1 kemudian sekitar sepuluh hari kerja setelah tanggal itu — bukan setelah wawancara."
+       }
+      },
+      {
+       "h": {
+        "en": "Scenario cards (c)–(d) · 12 working days past their date · The recruiter moved to WhatsApp",
+        "id": "Kartu skenario (c)–(d) · 12 hari kerja lewat tanggal mereka · Rekruter pindah ke WhatsApp"
+       },
+       "body": {
+        "en": "(c) Arunika’s TA lead, Bu Maya Kusuma, said results “by the 20th”; it is now twelve working days after the 20th, with no news and no holidays in between. Nadia has sent the thank-you and nothing else. (d) Bu Dewi at KilatPay replied to Nadia’s email: “Silakan WA saya di nomor ini untuk atur jadwal.” For each: row, channel, timing, message.",
+        "id": "(c) Pimpinan TA Arunika, Bu Maya Kusuma, berkata hasil “paling lambat tanggal 20”; kini dua belas hari kerja setelah tanggal 20, tanpa kabar dan tanpa hari libur di antaranya. Nadia sudah mengirim terima kasih dan tidak ada yang lain. (d) Bu Dewi di KilatPay membalas email Nadia: “Silakan WA saya di nomor ini untuk atur jadwal.” Untuk masing-masing: baris, saluran, waktu, pesan."
+       },
+       "debrief": {
+        "en": "(c) Row 7, follow-up 1 — due at about ten working days past their date, so it is due now; email, in the thank-you thread: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” If nothing after another week: one more, two sentences. Then hold. Arunika is a large manufacturer; the Indonesian adjustment says slow is normal, and the ceiling stays at two. (d) Row 2 — a booster offering times: reply within one working day, with two or three options, on the channel she chose. One complete WhatsApp message in office hours (Lesson 9.1’s strong version), offering Tuesday 14.00–17.00 or Wednesday morning, signed with full name. The move to WhatsApp does not lower the register; Bu Dewi signs as “Dewi, Talent Acquisition”, so “Bu Dewi” it stays.",
+        "id": "(c) Baris 7, tindak lanjut 1 — jatuh sekitar sepuluh hari kerja lewat tanggal mereka, jadi jatuh sekarang; email, di utas terima kasih: “Yth. Ibu Maya, pada wawancara tanggal [x] Ibu menyampaikan hasil akan diinformasikan sekitar tanggal 20. Saya tetap sangat tertarik pada program MT-27-SC dan ingin menanyakan apakah ada perkembangan atau dokumen tambahan yang dapat saya siapkan. Hormat saya, Nadia Putri.” Jika tidak ada setelah seminggu lagi: satu lagi, dua kalimat. Lalu tahan. Arunika adalah manufaktur besar; penyesuaian Indonesia menyebut lambat itu normal, dan batasnya tetap dua. (d) Baris 2 — pendorong menawarkan waktu: balas dalam satu hari kerja, dengan dua atau tiga pilihan, di saluran yang ia pilih. Satu pesan WhatsApp lengkap di jam kerja (versi kuat Pelajaran 9.1), menawarkan Selasa 14.00–17.00 atau Rabu pagi, ditandatangani nama lengkap. Pindah ke WhatsApp tidak menurunkan register; Bu Dewi menandatangani “Dewi, Talent Acquisition”, jadi tetap “Bu Dewi”."
+       }
+      },
+      {
+       "h": {
+        "en": "Scenario card (e) · An alumna introduced you by CC this morning",
+        "id": "Kartu skenario (e) · Seorang alumna memperkenalkanmu lewat CC pagi ini"
+       },
+       "body": {
+        "en": "At 08:40 today Kak Rina emailed Pak Hendra (BSN Semarang, ODP 2019) with Nadia in CC: “Pak Hendra, ini Nadia yang saya ceritakan — sedang menyiapkan ODP BSN. Saya titip ya, Pak.” Draft what Nadia sends, to whom, and when; then say what she writes a week later if Pak Hendra has not replied.",
+        "id": "Pukul 08.40 hari ini Kak Rina mengirim email ke Pak Hendra (BSN Semarang, ODP 2019) dengan Nadia di CC: “Pak Hendra, ini Nadia yang saya ceritakan — sedang menyiapkan ODP BSN. Saya titip ya, Pak.” Susun apa yang dikirim Nadia, kepada siapa, dan kapan; lalu katakan apa yang ia tulis seminggu kemudian jika Pak Hendra belum membalas."
+       },
+       "debrief": {
+        "en": "Row 3 — introduction received: reply-all within 24 hours, today, moving Kak Rina to BCC so her inbox is spared the thread: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran ODP Bank Sinar Nusantara; saya magang di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen ODP — 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Then a separate two-line thank-you to Kak Rina, not in the thread. A week of silence: row 1 applies to Pak Hendra now — day 7, one follow-up, same thread, three sentences, then stop; and the tracker asks whether Kak Rina knows a second person at BSN (day 3 rule: contact someone else there). Never ask Kak Rina to chase him.",
+        "id": "Baris 3 — perkenalan diterima: balas-semua dalam 24 jam, hari ini, memindahkan Kak Rina ke BCC agar kotak masuknya terbebas dari utas: “Yth. Bapak Hendra, terima kasih Kak Rina atas perkenalannya (saya pindahkan ke BCC). Perkenalkan, saya Nadia Putri, mahasiswa Manajemen semester akhir yang sedang mempersiapkan lamaran ODP Bank Sinar Nusantara; saya magang di cabang Semarang Juni–Agustus lalu. Jika Bapak berkenan, saya ingin belajar dari pengalaman Bapak di tahap asesmen ODP — 20 menit lewat telepon kapan pun sesuai jadwal Bapak minggu ini atau depan. Hormat saya, Nadia Putri.” Lalu terima kasih dua baris terpisah ke Kak Rina, bukan di utas. Seminggu hening: baris 1 berlaku untuk Pak Hendra sekarang — hari ke-7, satu tindak lanjut, utas sama, tiga kalimat, lalu berhenti; dan pelacak bertanya apakah Kak Rina mengenal orang kedua di BSN (aturan hari ke-3: hubungi orang lain di sana). Jangan pernah minta Kak Rina mengejarnya."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "WhatsApp voice notes to recruiters",
-         "id": "Pesan suara WhatsApp ke perekrut"
+         "en": "Counting from the interview instead of the date they gave",
+         "id": "Menghitung dari wawancara alih-alih tanggal yang mereka beri"
         },
         "fix": {
-         "en": "Text they can scan and file. Voice notes cost them time and cannot be searched.",
-         "id": "Teks yang bisa mereka pindai dan arsipkan. Pesan suara menghabiskan waktu mereka dan tidak bisa dicari."
+         "en": "Ask for the date in the room; follow up ~10 working days after that.",
+         "id": "Minta tanggalnya di ruangan; tindak lanjut ~10 hari kerja setelah itu."
         }
        },
        {
         "h": {
-         "en": "Replying to a scheduling email with a question only",
-         "id": "Membalas email penjadwalan hanya dengan pertanyaan"
+         "en": "A thank-you that could go to anyone",
+         "id": "Terima kasih yang bisa dikirim ke siapa saja"
         },
         "fix": {
-         "en": "Confirm what you can, then ask. “Confirmed for Tuesday 10:00. Could you share the building entrance?”",
-         "id": "Konfirmasi yang bisa, lalu bertanya. “Terkonfirmasi untuk Selasa 10.00. Bisakah Anda berbagi pintu masuk gedungnya?”"
+         "en": "One specific moment they will recognise, one fit point, their date in the forward line.",
+         "id": "Satu momen spesifik yang akan mereka kenali, satu poin kecocokan, tanggal mereka di kalimat ke depan."
         }
        },
        {
         "h": {
-         "en": "Calling without a reason and a time",
-         "id": "Menelepon tanpa alasan dan waktu"
+         "en": "Chasing a BUMN or bank portal",
+         "id": "Mengejar portal BUMN atau bank"
         },
         "fix": {
-         "en": "Message first: what it is about and when you would call. Nobody enjoys an unknown number at 4 p.m.",
-         "id": "Kirim pesan dulu: tentang apa dan kapan kamu akan menelepon. Tak ada yang suka nomor tak dikenal pukul 16.00."
+         "en": "Published timeline; one query after two weeks of overrun; then hold.",
+         "id": "Linimasa yang dipublikasikan; satu pertanyaan setelah dua minggu keterlambatan; lalu tahan."
         }
+       },
+       {
+        "h": {
+         "en": "A third follow-up",
+         "id": "Tindak lanjut ketiga"
+        },
+        "fix": {
+         "en": "Two is the ceiling; silence is the answer and the row goes to hold.",
+         "id": "Dua adalah batasnya; keheningan adalah jawabannya dan barisnya ke tahan."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Follow-up table",
+        "id": "Tabel tindak lanjut"
+       },
+       "def": {
+        "en": "Eight situations, each with when, how many and the source — copied into the tracker as dated tasks.",
+        "id": "Delapan situasi, masing-masing dengan kapan, berapa kali, dan sumbernya — disalin ke pelacak sebagai tugas bertanggal."
+       }
+      },
+      {
+       "term": {
+        "en": "Working days",
+        "id": "Hari kerja"
+       },
+       "def": {
+        "en": "Monday–Friday minus national holidays and cuti bersama; every interval is counted in these.",
+        "id": "Senin–Jumat dikurangi hari libur nasional dan cuti bersama; setiap jeda dihitung dalam ini."
+       }
+      },
+      {
+       "term": {
+        "en": "Thank-you note",
+        "id": "Ucapan terima kasih"
+       },
+       "def": {
+        "en": "Three to five sentences within 24 hours: thanks, one specific moment, a fit point after interviews, a forward line.",
+        "id": "Tiga hingga lima kalimat dalam 24 jam: terima kasih, satu momen spesifik, poin kecocokan setelah wawancara, kalimat ke depan."
+       }
+      },
+      {
+       "term": {
+        "en": "Harvest note",
+        "id": "Catatan panen"
+       },
+       "def": {
+        "en": "Monthly: their advice → what you did → what happened → one question; then advance, hold or drop.",
+        "id": "Bulanan: saran mereka → apa yang kamu lakukan → apa yang terjadi → satu pertanyaan; lalu lanjutkan, tahan, atau lepas."
+       }
+      },
+      {
+       "term": {
+        "en": "Ball in your court",
+        "id": "Bola di tanganmu"
+       },
+       "def": {
+        "en": "Ending each interaction by saying when you will check in, so the follow-up is a promise kept, not a chase.",
+        "id": "Mengakhiri tiap interaksi dengan mengatakan kapan kamu akan mengabari, sehingga tindak lanjut adalah janji yang ditepati, bukan pengejaran."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Outreach message, day 7, no reply. You…",
+        "id": "Pesan jangkauan, hari ke-7, tanpa balasan. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Send a follow-up every week until they answer",
+         "id": "Kirim tindak lanjut setiap minggu sampai mereka menjawab"
+        },
+        {
+         "en": "Send one follow-up, then stop",
+         "id": "Kirim satu tindak lanjut, lalu berhenti"
+        },
+        {
+         "en": "Call them",
+         "id": "Telepon mereka"
+        },
+        {
+         "en": "Ask the introducer to chase",
+         "id": "Minta pengenal mengejar"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Day 3, contact someone else there; day 7, one follow-up; the ceiling is one (Dalton, ch. 7).",
+        "id": "Hari ke-3, hubungi orang lain di sana; hari ke-7, satu tindak lanjut; batasnya satu (Dalton, bab 7)."
+       }
+      },
+      {
+       "q": {
+        "en": "You applied through a BUMN joint-recruitment portal with published stage dates. You…",
+        "id": "Kamu melamar lewat portal rekrutmen bersama BUMN dengan tanggal tahap yang dipublikasikan. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Follow up after one week by email",
+         "id": "Tindak lanjut setelah seminggu lewat email"
+        },
+        {
+         "en": "Follow the published timeline",
+         "id": "Ikuti linimasa yang dipublikasikan"
+        },
+        {
+         "en": "WhatsApp the HR contact",
+         "id": "WhatsApp kontak HR"
+        },
+        {
+         "en": "Follow up after every stage",
+         "id": "Tindak lanjut setelah setiap tahap"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Process-track applications are not chased; one polite query only if a stage date overruns by more than two weeks.",
+        "id": "Lamaran jalur proses tidak dikejar; satu pertanyaan sopan hanya jika tanggal tahap terlambat lebih dari dua minggu."
+       }
+      },
+      {
+       "q": {
+        "en": "A thank-you note must include…",
+        "id": "Ucapan terima kasih harus memuat…"
+       },
+       "options": [
+        {
+         "en": "A restatement of your whole CV",
+         "id": "Pernyataan ulang seluruh CV-mu"
+        },
+        {
+         "en": "One specific moment or piece of advice",
+         "id": "Satu momen atau saran spesifik"
+        },
+        {
+         "en": "A request for the decision date",
+         "id": "Permintaan tanggal keputusan"
+        },
+        {
+         "en": "At least ten sentences",
+         "id": "Setidaknya sepuluh kalimat"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Thanks + one specific moment + (after interviews) one fit point + a forward line, in three to five sentences.",
+        "id": "Terima kasih + satu momen spesifik + (setelah wawancara) satu poin kecocokan + kalimat ke depan, dalam tiga hingga lima kalimat."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "tracker",
+      "title": {
+       "en": "Put the calendar in the tracker",
+       "id": "Masukkan kalender ke pelacak"
+      },
+      "body": {
+       "en": "Open the tracker and, for every live row, add two dated tasks from the table: the next message due (thank-you, follow-up 1, harvest note) and the date after which the row moves to hold. Count working days; skip Lebaran and cuti bersama. Then add a “date they gave” note to every interview row — if it is blank, your next message asks for it. This is the second page of your follow-up kit (Dossier item).",
+       "id": "Buka pelacak dan, untuk setiap baris yang aktif, tambahkan dua tugas bertanggal dari tabel: pesan berikutnya yang jatuh tempo (terima kasih, tindak lanjut 1, catatan panen) dan tanggal setelah mana barisnya pindah ke tahan. Hitung hari kerja; lewati Lebaran dan cuti bersama. Lalu tambahkan catatan “tanggal yang mereka beri” ke setiap baris wawancara — jika kosong, pesan berikutnya memintanya. Ini halaman kedua perangkat tindak lanjutmu (butir Dossier)."
+      },
+      "cta": {
+       "en": "Open the tracker →",
+       "id": "Buka pelacak →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "One table answers every follow-up question; the “how many” column is a ceiling.",
+       "id": "Satu tabel menjawab setiap pertanyaan tindak lanjut; kolom “berapa kali” adalah batas atas."
+      },
+      {
+       "en": "Thank-you within 24 hours: three to five sentences, one specific moment, their date in the forward line.",
+       "id": "Terima kasih dalam 24 jam: tiga hingga lima kalimat, satu momen spesifik, tanggal mereka di kalimat ke depan."
+      },
+      {
+       "en": "Harvest monthly, decide advance/hold/drop, and keep the ball in your court by naming when you will write.",
+       "id": "Panen bulanan, putuskan lanjutkan/tahan/lepas, dan jaga bola di tanganmu dengan menyebut kapan kamu akan menulis."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the follow-up kit",
+       "id": "Sumber dan perangkat tindak lanjut"
+      },
+      "lead": {
+       "en": "Four sources, and the three templates that make up the kit.",
+       "id": "Empat sumber, dan tiga templat yang membentuk perangkatnya."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.2",
+         "id": "Daftar bacaan · Pelajaran 9.2"
+        },
+        "desc": {
+         "en": "The table’s sources; the Indonesian adjustment and the process-track row are course guidance.",
+         "id": "Sumber tabel; penyesuaian Indonesia dan baris jalur proses adalah panduan kursus."
+        },
+        "body": [
+         {
+          "en": "S. Dalton, <i>The 2-Hour Job Search</i>, ch. 7, 9, 10 — outreach cadence, introductions, thanks, the harvest note.",
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i>, bab 7, 9, 10 — irama jangkauan, perkenalan, terima kasih, catatan panen."
+         },
+         {
+          "en": "D. Graham, ch. 11 — post-interview follow-up; keep the ball in your court.",
+          "id": "D. Graham, bab 11 — tindak lanjut pascawawancara; jaga bola di tanganmu."
+         },
+         {
+          "en": "P. Ow, <i>Tailor Your Call</i> — following up after applying.",
+          "id": "P. Ow, <i>Tailor Your Call</i> — tindak lanjut setelah melamar."
+         },
+         {
+          "en": "S. Verma, ch. 7; L. Williams, ch. 19 — the thank-you note’s parts and specificity.",
+          "id": "S. Verma, bab 7; L. Williams, bab 19 — bagian dan spesifisitas ucapan terima kasih."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Thank-you note (EN / ID)",
+         "id": "Ucapan terima kasih (EN / ID)"
+        },
+        "desc": {
+         "en": "Four slots; three to five sentences; within 24 hours.",
+         "id": "Empat slot; tiga hingga lima kalimat; dalam 24 jam."
+        },
+        "body": [
+         {
+          "en": "Thanks for [the time / the conversation / the interview] on [day].",
+          "id": "Terima kasih atas [waktu / percakapan / wawancara] pada [hari]."
+         },
+         {
+          "en": "[One specific moment or piece of advice, in their words if possible] — [what it changed or what you did].",
+          "id": "[Satu momen atau saran spesifik, dengan kata-kata mereka jika bisa] — [apa yang berubah atau apa yang kamu lakukan]."
+         },
+         {
+          "en": "(Interviews) [One fit point: a thing you heard about the role + a thing you bring.]",
+          "id": "(Wawancara) [Satu poin kecocokan: hal yang kamu dengar tentang peran + hal yang kamu bawa.]"
+         },
+         {
+          "en": "[Forward line with their date: “As you mentioned, I will look out for news by …” / “Saya akan kabari … bulan depan.”]",
+          "id": "[Kalimat ke depan dengan tanggal mereka: “As you mentioned, I will look out for news by …” / “Saya akan kabari … bulan depan.”]"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Harvest note (monthly)",
+         "id": "Catatan panen (bulanan)"
+        },
+        "desc": {
+         "en": "Four sentences; then record advance, hold or drop.",
+         "id": "Empat kalimat; lalu catat lanjutkan, tahan, atau lepas."
+        },
+        "body": [
+         {
+          "en": "Last month you suggested [their advice].",
+          "id": "Bulan lalu Kakak/Bapak/Ibu menyarankan [saran mereka]."
+         },
+         {
+          "en": "I [what you did with it — specific, with a number if there is one].",
+          "id": "Saya [apa yang kamu lakukan dengannya — spesifik, dengan angka jika ada]."
+         },
+         {
+          "en": "[What happened — an outcome, however small.]",
+          "id": "[Apa yang terjadi — sebuah hasil, sekecil apa pun.]"
+         },
+         {
+          "en": "One question, if I may: [a question only they can answer].",
+          "id": "Kalau boleh, satu pertanyaan: [pertanyaan yang hanya bisa mereka jawab]."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "Before any follow-up",
+         "id": "Sebelum tindak lanjut apa pun"
+        },
+        "desc": {
+         "en": "Five checks.",
+         "id": "Lima pemeriksaan."
+        },
+        "body": [
+         {
+          "en": "Which row of the table? Is the interval counted in working days from the date they gave?",
+          "id": "Baris tabel mana? Apakah jedanya dihitung dalam hari kerja dari tanggal yang mereka beri?"
+         },
+         {
+          "en": "Is this within the ceiling (1 / ≤2 / 0)?",
+          "id": "Apakah ini di dalam batas (1 / ≤2 / 0)?"
+         },
+         {
+          "en": "Same channel and same thread as the last message?",
+          "id": "Saluran dan utas yang sama dengan pesan terakhir?"
+         },
+         {
+          "en": "Does it refer to something they said or a date they gave?",
+          "id": "Apakah ia merujuk sesuatu yang mereka katakan atau tanggal yang mereka beri?"
+         },
+         {
+          "en": "Is there a Lebaran, cuti bersama or holiday in the window? Extend.",
+          "id": "Apakah ada Lebaran, cuti bersama, atau hari libur dalam jendela? Perpanjang."
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "9.3",
-     "title": {
-      "en": "Business Etiquette and Professionalism Across Contexts",
-      "id": "Etiket Bisnis dan Profesionalisme di Berbagai Situasi"
-     },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "interactive",
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Rejection, References and Relationships",
+      "id": "Penolakan, Referensi, dan Hubungan"
+     },
      "overview": {
-      "en": "Etiquette under fire: four scenarios where the polite move is not obvious — a late interviewer, a group-chat blunder, a LinkedIn conflict, and credit taken for your work. Decide, then compare against the professional standard.",
-      "id": "Etiket saat diuji: empat skenario ketika langkah yang santun tidak langsung jelas — pewawancara yang terlambat, salah kirim di grup chat, konflik di LinkedIn, dan hasil kerjamu yang diakui orang lain. Putuskan, lalu bandingkan dengan standar profesional."
+      "en": "Three moments decide whether a search leaves you with a network or a list of closed doors: how you reply to a rejection, how you choose and brief the people who vouch for you, and what you do for the people who helped once you land. This lesson gives you the gracious rejection reply and the six-month re-contact, the careful way to ask for feedback, the Indonesian referee rules — permission, brief, thanks, outcome — and the habit that turns “every summit lights the next” into practice.",
+      "id": "Tiga momen menentukan apakah pencarian meninggalkanmu dengan jaringan atau daftar pintu tertutup: caramu membalas penolakan, caramu memilih dan membekali orang yang menjaminmu, dan apa yang kamu lakukan untuk orang yang membantu setelah kamu diterima. Pelajaran ini memberimu balasan penolakan yang anggun dan kontak ulang enam bulan, cara hati-hati meminta umpan balik, aturan pemberi referensi Indonesia — izin, bekal, terima kasih, hasil — dan kebiasaan yang mengubah “setiap puncak menerangi puncak berikutnya” menjadi praktik."
      },
      "objectives": [
       {
-       "en": "Choose professional responses when others break etiquette first.",
-       "id": "Memilih respons profesional ketika orang lain yang lebih dulu melanggar etiket."
+       "en": "Write a rejection reply that keeps the door open, and a six-month re-contact note.",
+       "id": "Menulis balasan penolakan yang menjaga pintu tetap terbuka, dan catatan kontak ulang enam bulan."
       },
       {
-       "en": "Repair your own public errors quickly and without drama.",
-       "id": "Memperbaiki kesalahanmu sendiri di ruang publik dengan cepat dan tanpa drama."
+       "en": "Ask for feedback in a way that can be answered.",
+       "id": "Meminta umpan balik dengan cara yang bisa dijawab."
       },
       {
-       "en": "Protect your interests while preserving relationships — the both/and skill.",
-       "id": "Melindungi kepentinganmu sambil menjaga hubungan — keterampilan “dua-duanya”."
+       "en": "Choose, ask, brief and thank referees — and tell them the outcome.",
+       "id": "Memilih, meminta, membekali, dan berterima kasih kepada pemberi referensi — dan memberi tahu hasilnya."
       }
      ],
-     "takeawaysLead": {
-      "en": "Other people's rudeness is a test of your defaults under pressure, not a licence. To hold the professional register when the polite move is not obvious, you can:",
-      "id": "Kekasaran orang lain adalah ujian bagi pengaturan bawaanmu di bawah tekanan, bukan izin. Untuk menjaga nada profesional saat langkah yang sopan tidak jelas, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The no is not the end of the relationship",
+       "id": "Penolakan bukan akhir hubungan"
+      },
+      "intro": {
+       "en": "Recruiters who reject you for role A shortlist people like you for role B. Referees who are briefed speak well; referees who are surprised speak vaguely. Both are decided by what you do in the week after.",
+       "id": "Rekruter yang menolakmu untuk peran A memasukkan orang sepertimu ke daftar pendek peran B. Pemberi referensi yang dibekali berbicara baik; yang terkejut berbicara samar. Keduanya ditentukan oleh apa yang kamu lakukan pada minggu setelahnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Rejection",
+         "id": "Penolakan"
+        },
+        "points": [
+         {
+          "en": "Reply briefly and graciously: thanks for considering you, continued interest, a request to be kept in mind. If still interested after about six months, write again with what you have gained since.",
+          "id": "Balas singkat dan anggun: terima kasih telah mempertimbangkan, minat berlanjut, permintaan untuk diingat. Jika masih tertarik setelah sekitar enam bulan, tulis lagi dengan apa yang kamu peroleh sejak itu."
+         },
+         {
+          "en": "“We’ll keep your CV on file” is a no — unless someone gives you a specific month to check back.",
+          "id": "“Kami simpan CV Anda” adalah penolakan — kecuali seseorang memberimu bulan tertentu untuk menghubungi kembali."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Referees",
+         "id": "Pemberi referensi"
+        },
+        "points": [
+         {
+          "en": "Curate: people who know your work — dosen pembimbing, internship supervisors, organisation advisers. Never famous names who barely know you, never officials or relatives for status.",
+          "id": "Kurasi: orang yang tahu pekerjaanmu — dosen pembimbing, supervisor magang, pembina organisasi. Jangan pernah nama terkenal yang nyaris tidak mengenalmu, jangan pernah pejabat atau kerabat demi status."
+         },
+         {
+          "en": "Always: permission first; send the job description and CV; say what the role values and which work they can speak to; thank them; tell them the outcome.",
+          "id": "Selalu: izin dulu; kirim deskripsi pekerjaan dan CV; katakan apa yang dihargai peran dan pekerjaan mana yang bisa mereka ceritakan; berterima kasih; beri tahu hasilnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "After landing",
+         "id": "Setelah diterima"
+        },
+        "points": [
+         {
+          "en": "Tell everyone who helped — when you land, and later. Offer help to the next person.",
+          "id": "Beri tahu semua yang membantu — saat kamu diterima, dan setelahnya. Tawarkan bantuan kepada orang berikutnya."
+         },
+         {
+          "en": "This is where “every summit lights the next” becomes practice.",
+          "id": "Di sinilah “setiap puncak menerangi puncak berikutnya” menjadi praktik."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "mail",
+       "img": "../../assets/bg/gauntlet/gate-02-screening.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Replying to rejection",
+        "id": "Membalas penolakan"
+       },
+       "body": {
+        "en": "Most candidates do one of two things with a rejection: nothing, or too much. The reply that works is brief and gracious: thanks for considering you, continued interest, a request to be kept in mind for similar roles <i>(Williams, ch. 19)</i>. Four sentences; no argument, no request for a second look, no explanation of why they were wrong. The recruiter who wrote the rejection is the person most likely to remember you when the next intake opens, and what they remember is the reply. If you are still interested after about six months, write again — not to ask “anything yet?” but with what you have gained since: a certificate finished, a project shipped, a role held <i>(Williams)</i>. Treat “we will keep your CV on file” as a no — unless someone gives you a specific month to check back; then set the reminder in the tracker and do it, on that month, once <i>(Dalton, ch. 9)</i>.",
+        "id": "Sebagian besar kandidat melakukan satu dari dua hal dengan penolakan: tidak ada, atau terlalu banyak. Balasan yang berhasil adalah singkat dan anggun: terima kasih telah mempertimbangkan, minat berlanjut, permintaan untuk diingat pada peran serupa <i>(Williams, bab 19)</i>. Empat kalimat; tanpa bantahan, tanpa permintaan ditinjau ulang, tanpa penjelasan mengapa mereka salah. Rekruter yang menulis penolakan adalah orang yang paling mungkin mengingatmu saat penerimaan berikutnya dibuka, dan yang mereka ingat adalah balasannya. Jika kamu masih tertarik setelah sekitar enam bulan, tulis lagi — bukan untuk bertanya “sudah ada kabar?” tetapi dengan apa yang kamu peroleh sejak itu: sertifikat selesai, proyek terkirim, peran dijalani <i>(Williams)</i>. Anggap “kami simpan CV Anda” sebagai penolakan — kecuali seseorang memberimu bulan tertentu untuk menghubungi kembali; maka pasang pengingat di pelacak dan lakukan, pada bulan itu, sekali <i>(Dalton, bab 9)</i>."
+       },
+       "quote": {
+        "text": {
+         "en": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi ODP Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri.",
+         "id": "Terima kasih atas kabar dan kesempatan mengikuti proses seleksi ODP Bank Sinar Nusantara. Saya belajar banyak dari tahap wawancara dan tetap tertarik bergabung di masa mendatang. Semoga kita dapat bertemu kembali di kesempatan berikutnya. Hormat saya, Nadia Putri."
+        },
+        "who": {
+         "en": "Nadia’s reply to the ODP rejection — thanks, what she gained, continued interest, the door left open; sent the same day",
+         "id": "Balasan Nadia atas penolakan ODP — terima kasih, apa yang ia peroleh, minat berlanjut, pintu dibiarkan terbuka; dikirim hari itu juga"
+        }
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "The line",
+          "id": "Kalimatnya"
+         },
+         {
+          "en": "What it does",
+          "id": "Apa yang dilakukannya"
+         },
+         {
+          "en": "What it must not do",
+          "id": "Apa yang tidak boleh dilakukannya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Thanks for the news and the process",
+           "id": "Terima kasih atas kabar dan prosesnya"
+          },
+          {
+           "en": "Acknowledges the rejection without flinching",
+           "id": "Mengakui penolakan tanpa gentar"
+          },
+          {
+           "en": "Ask why",
+           "id": "Bertanya mengapa"
+          }
+         ],
+         [
+          {
+           "en": "What you gained",
+           "id": "Apa yang kamu peroleh"
+          },
+          {
+           "en": "Shows you took something from it",
+           "id": "Menunjukkan kamu mengambil sesuatu darinya"
+          },
+          {
+           "en": "Argue the decision",
+           "id": "Membantah keputusan"
+          }
+         ],
+         [
+          {
+           "en": "Continued interest",
+           "id": "Minat berlanjut"
+          },
+          {
+           "en": "Tells them to keep you on the list for role B",
+           "id": "Memberi tahu mereka agar menyimpanmu di daftar untuk peran B"
+          },
+          {
+           "en": "Ask for a second chance now",
+           "id": "Meminta kesempatan kedua sekarang"
+          }
+         ],
+         [
+          {
+           "en": "The door left open",
+           "id": "Pintu dibiarkan terbuka"
+          },
+          {
+           "en": "Ends warm; no ask",
+           "id": "Berakhir hangat; tanpa permintaan"
+          },
+          {
+           "en": "Run past four sentences",
+           "id": "Melebihi empat kalimat"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Asking for feedback — carefully",
+        "id": "Meminta umpan balik — dengan hati-hati"
+       },
+       "body": {
+        "en": "After repeated rejections at the same stage, feedback is worth one careful ask — but “why was I rejected?” is a question almost nobody will answer, because the honest answer is legally and socially awkward. Bolles’s form works better: ask the friendliest interviewer a general, forward-looking question — “Is there one thing I could strengthen for similar roles?” <i>(Bolles, ch. 6)</i>. It asks about the future, not the decision; it asks for one thing, not a review; and it goes to the person most likely to answer. Most still will not; some will, and what they say is worth more than anything in this course. Two rules: ask once, and thank whatever comes back — including silence. The tracker records the pattern across rejections (which stage, which employer type), which is feedback of its own; three rejections after the case-study stage say something no interviewer needs to.",
+        "id": "Setelah penolakan berulang di tahap yang sama, umpan balik layak satu permintaan hati-hati — tetapi “mengapa saya ditolak?” adalah pertanyaan yang hampir tidak akan dijawab siapa pun, karena jawaban jujurnya canggung secara hukum dan sosial. Bentuk Bolles lebih berhasil: tanyakan kepada pewawancara paling ramah satu pertanyaan umum yang mengarah ke depan — “Apakah ada satu hal yang bisa saya perkuat untuk peran serupa?” <i>(Bolles, bab 6)</i>. Ia bertanya tentang masa depan, bukan keputusan; meminta satu hal, bukan ulasan; dan ditujukan ke orang yang paling mungkin menjawab. Kebanyakan tetap tidak akan; sebagian akan, dan apa yang mereka katakan lebih berharga daripada apa pun di kursus ini. Dua aturan: tanya sekali, dan berterima kasih atas apa pun yang kembali — termasuk keheningan. Pelacak mencatat polanya lintas penolakan (tahap mana, jenis perusahaan mana), yang merupakan umpan balik tersendiri; tiga penolakan setelah tahap studi kasus mengatakan sesuatu yang tidak perlu dikatakan pewawancara mana pun."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Referees",
+        "id": "Pemberi referensi"
+       },
+       "body": {
+        "en": "Curate them; do not list famous names who barely know your work <i>(Levy)</i>. A referee is asked two things: what you did and what you are like to work with, and both need someone who watched you. In Indonesia the natural set is the <i>dosen pembimbing</i>, an internship supervisor, and an organisation adviser or the senior who ran the event you led. Never list senior officials or relatives for status; a reference check that reaches an uncle reads as exactly what it is. Then the sequence that most graduates skip: <b>always ask permission first</b>; send the job description and your CV; tell them what the role values and which of your work they can speak to; thank them afterwards; and tell them the outcome, whichever way it went. A referee who is briefed says “she rebuilt our bookkeeping and the audit found nothing”; a referee who is surprised by the call says “she was a good student, I think”.",
+        "id": "Kurasi mereka; jangan mencantumkan nama terkenal yang nyaris tidak mengenal pekerjaanmu <i>(Levy)</i>. Pemberi referensi ditanya dua hal: apa yang kamu lakukan dan seperti apa kamu saat bekerja bersama, dan keduanya butuh orang yang mengamatimu. Di Indonesia set alaminya adalah <i>dosen pembimbing</i>, supervisor magang, dan pembina organisasi atau senior yang mengelola acara yang kamu pimpin. Jangan pernah mencantumkan pejabat senior atau kerabat demi status; pemeriksaan referensi yang sampai ke seorang paman terbaca persis apa adanya. Lalu urutan yang dilewati sebagian besar lulusan: <b>selalu minta izin dulu</b>; kirim deskripsi pekerjaan dan CV-mu; beri tahu apa yang dihargai peran dan pekerjaan mana yang bisa mereka ceritakan; berterima kasih setelahnya; dan beri tahu hasilnya, ke mana pun arahnya. Pemberi referensi yang dibekali berkata “ia membangun ulang pembukuan kami dan audit tidak menemukan apa-apa”; yang terkejut oleh telepon berkata “ia mahasiswa yang baik, saya rasa”."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Referee",
+          "id": "Pemberi referensi"
+         },
+         {
+          "en": "Can speak to",
+          "id": "Bisa menceritakan"
+         },
+         {
+          "en": "Brief them on",
+          "id": "Bekali mereka dengan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Dosen pembimbing (thesis supervisor)",
+           "id": "Dosen pembimbing"
+          },
+          {
+           "en": "Analytical work, the inventory-turnover thesis, reliability over a year",
+           "id": "Kerja analitis, skripsi inventory turnover, keandalan selama setahun"
+          },
+          {
+           "en": "That the role values data work; the thesis method and the Tegal retailer dataset",
+           "id": "Bahwa peran menghargai kerja data; metode skripsi dan dataset peritel Tegal"
+          }
+         ],
+         [
+          {
+           "en": "Internship supervisor, Bank Sinar Nusantara",
+           "id": "Supervisor magang, Bank Sinar Nusantara"
+          },
+          {
+           "en": "The reconciliation work, the terminal mismatch, the checklist still in use",
+           "id": "Kerja rekonsiliasi, selisih terminal, daftar periksa yang masih dipakai"
+          },
+          {
+           "en": "The 3 branches, the ~30 minutes a day, that the team still uses the checklist",
+           "id": "3 cabang, ~30 menit per hari, bahwa tim masih memakai daftar periksanya"
+          }
+         ],
+         [
+          {
+           "en": "HIMA adviser or the faculty auditor",
+           "id": "Pembina HIMA atau auditor fakultas"
+          },
+          {
+           "en": "The treasury year: Rp 120 juta, 12 events, zero audit issues",
+           "id": "Tahun bendahara: Rp 120 juta, 12 acara, nol temuan audit"
+          },
+          {
+           "en": "Which of the two — bookkeeping or leadership — the role cares about",
+           "id": "Mana dari keduanya — pembukuan atau kepemimpinan — yang dipedulikan peran"
+          }
+         ],
+         [
+          {
+           "en": "Owner, Kopi Tepian",
+           "id": "Pemilik, Kopi Tepian"
+          },
+          {
+           "en": "Reliability under pressure, training four baristas, the pre-order board",
+           "id": "Keandalan di bawah tekanan, melatih empat barista, papan pra-pesan"
+          },
+          {
+           "en": "Best for retail, F&B and service roles (Rumah Rempah), not for a bank ODP",
+           "id": "Paling cocok untuk peran ritel, F&B, dan layanan (Rumah Rempah), bukan ODP bank"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Nadia’s referee set — one per kind of evidence, chosen per role, never all four at once.",
+         "id": "Set pemberi referensi Nadia — satu per jenis bukti, dipilih per peran, tidak pernah keempatnya sekaligus."
+        }
+       },
+       "after": [
+        {
+         "en": "<b>The permission request</b> goes in the register of Lesson 9.1: to a lecturer, <i>Yth. Ibu/Bapak</i>, by email, with the job description attached and the ask stated once — “apakah Ibu berkenan menjadi pemberi referensi untuk lamaran ini?” — and an easy way to say no.",
+         "id": "<b>Permintaan izin</b> ditulis dalam register Pelajaran 9.1: kepada dosen, <i>Yth. Ibu/Bapak</i>, lewat email, dengan deskripsi pekerjaan terlampir dan permintaan dinyatakan sekali — “apakah Ibu berkenan menjadi pemberi referensi untuk lamaran ini?” — dan cara mudah untuk menolak."
+        },
+        {
+         "en": "<b>The brief</b> is one page: the role and employer; what the advertisement values (three lines); the two or three pieces of your work they saw, with the numbers; when the call may come and from whom; your CV attached.",
+         "id": "<b>Bekalnya</b> satu halaman: peran dan perusahaan; apa yang dihargai iklan (tiga baris); dua atau tiga pekerjaanmu yang mereka lihat, dengan angkanya; kapan telepon mungkin datang dan dari siapa; CV-mu terlampir."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Relationships after landing",
+        "id": "Hubungan setelah diterima"
+       },
+       "body": {
+        "en": "The week you accept an offer is the week most networks go quiet — the search is over, so the messages stop. Reverse it. Tell everyone who helped: when you land, and again later, once you can say what the job turned out to be <i>(Levy; Williams, ch. 13; Dalton, ch. 10)</i>. Kak Rina gets the news before LinkedIn does. Pak Hendra gets a note even though his bank said no, because his advice was used. The referees get the outcome the same day. Then the second half of the rule: offer help to the next person. The HIMA junior who asks about the ODP process gets the twenty minutes you once asked for; the introduction you received becomes one you make. This is where “every summit lights the next” stops being the platform’s line and becomes yours — and it is also, unsentimentally, how a network is still there in three years when you need it again.",
+        "id": "Minggu kamu menerima tawaran adalah minggu sebagian besar jaringan menjadi senyap — pencarian selesai, jadi pesannya berhenti. Balikkan itu. Beri tahu semua yang membantu: saat kamu diterima, dan lagi nanti, begitu kamu bisa mengatakan pekerjaannya ternyata seperti apa <i>(Levy; Williams, bab 13; Dalton, bab 10)</i>. Kak Rina mendapat kabarnya sebelum LinkedIn. Pak Hendra mendapat catatan meski banknya menolak, karena sarannya dipakai. Pemberi referensi mendapat hasilnya hari itu juga. Lalu separuh kedua aturannya: tawarkan bantuan kepada orang berikutnya. Junior HIMA yang bertanya tentang proses ODP mendapat dua puluh menit yang dulu kamu minta; perkenalan yang kamu terima menjadi perkenalan yang kamu buat. Di sinilah “setiap puncak menerangi puncak berikutnya” berhenti menjadi kalimat platform dan menjadi milikmu — dan juga, tanpa sentimen, cara jaringan masih ada tiga tahun lagi saat kamu membutuhkannya kembali."
+       }
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "“Keep your CV on file” and the six-month note",
+        "id": "“Kami simpan CV Anda” dan catatan enam bulan"
+       },
+       "body": {
+        "en": "Two rejection phrases need decoding. “We will keep your CV on file” is a courtesy, not a plan; treat it as a no and move the row to closed <i>(Dalton, ch. 9)</i>. “Do check back with us in [month]” is a plan: it names a time, so it goes into the tracker as a dated task and you write in that month, once, with the six-month structure — what you have gained since, continued interest, one line asking whether the intake is open. The six-month note to a rejecting employer and the harvest note to a contact are cousins: both carry evidence of what you did with the time, and neither asks for the job directly. Nadia’s ODP row, closed in March, reopens as a single task in September: “write to Bu [recruiter] with the SQL certificate, the Rumah Rempah role, and interest in the 2027 intake”.",
+        "id": "Dua frasa penolakan perlu diurai. “Kami simpan CV Anda” adalah kesopanan, bukan rencana; anggap sebagai penolakan dan pindahkan baris ke tutup <i>(Dalton, bab 9)</i>. “Silakan hubungi kami lagi pada [bulan]” adalah rencana: ia menyebut waktu, jadi masuk ke pelacak sebagai tugas bertanggal dan kamu menulis pada bulan itu, sekali, dengan struktur enam bulan — apa yang kamu peroleh sejak itu, minat berlanjut, satu baris menanyakan apakah penerimaan dibuka. Catatan enam bulan ke perusahaan yang menolak dan catatan panen ke kontak adalah sepupu: keduanya membawa bukti apa yang kamu lakukan dengan waktumu, dan tidak satu pun meminta pekerjaan secara langsung. Baris ODP Nadia, ditutup pada Maret, dibuka kembali sebagai satu tugas pada September: “tulis ke Bu [rekruter] dengan sertifikat SQL, peran Rumah Rempah, dan minat pada penerimaan 2027”."
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The referee sequence",
+       "id": "Peraga 1: Urutan pemberi referensi"
+      },
+      "title": {
+       "en": "Six steps from choosing a referee to closing the loop — most graduates do only the first",
+       "id": "Enam langkah dari memilih pemberi referensi hingga menutup putaran — sebagian besar lulusan hanya melakukan yang pertama"
+      },
+      "items": [
+       {
+        "icon": "users",
+        "h": {
+         "en": "1 · Curate",
+         "id": "1 · Kurasi"
+        },
+        "sub": {
+         "en": "People who watched your work: dosen pembimbing, internship supervisor, adviser. Chosen per role.",
+         "id": "Orang yang mengamati pekerjaanmu: dosen pembimbing, supervisor magang, pembina. Dipilih per peran."
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "2 · Ask permission",
+         "id": "2 · Minta izin"
+        },
+        "sub": {
+         "en": "Before the name goes on any form. Right register; easy to decline.",
+         "id": "Sebelum namanya masuk formulir apa pun. Register tepat; mudah menolak."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "3 · Brief",
+         "id": "3 · Bekali"
+        },
+        "sub": {
+         "en": "Job description + CV + what the role values + which of your work they can speak to + when the call may come.",
+         "id": "Deskripsi pekerjaan + CV + apa yang dihargai peran + pekerjaan mana yang bisa mereka ceritakan + kapan telepon mungkin datang."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "4 · They speak",
+         "id": "4 · Mereka berbicara"
+        },
+        "sub": {
+         "en": "A briefed referee gives specifics and numbers; a surprised one gives adjectives.",
+         "id": "Pemberi referensi yang dibekali memberi hal spesifik dan angka; yang terkejut memberi kata sifat."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "5 · Thank",
+         "id": "5 · Berterima kasih"
+        },
+        "sub": {
+         "en": "Within a day of learning they were called.",
+         "id": "Dalam sehari setelah tahu mereka ditelepon."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "6 · Tell the outcome",
+         "id": "6 · Beri tahu hasilnya"
+        },
+        "sub": {
+         "en": "Offer or rejection — the same day. They will be asked again.",
+         "id": "Tawaran atau penolakan — hari itu juga. Mereka akan diminta lagi."
+        }
+       }
+      ],
+      "note": {
+       "en": "Steps 2, 3 and 6 are the ones that get skipped — and the ones a referee remembers.",
+       "id": "Langkah 2, 3, dan 6 adalah yang dilewati — dan yang diingat pemberi referensi."
+      },
+      "longdesc": {
+       "en": "A six-step flow: curate referees who watched your work; ask permission before listing them; brief them with the job description, CV, what the role values and which work they can speak to; they speak with specifics; thank them within a day; and tell them the outcome the same day.",
+       "id": "Alur enam langkah: kurasi pemberi referensi yang mengamati pekerjaanmu; minta izin sebelum mencantumkan; bekali dengan deskripsi pekerjaan, CV, apa yang dihargai peran, dan pekerjaan mana yang bisa mereka ceritakan; mereka berbicara dengan hal spesifik; berterima kasih dalam sehari; dan beri tahu hasilnya hari itu juga."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Two feedback asks",
+        "id": "Dua permintaan umpan balik"
+       },
+       "q": {
+        "en": "Nadia has been rejected after the case-study stage twice in a month. She writes to the interviewer who was warmest at the second one:",
+        "id": "Nadia ditolak setelah tahap studi kasus dua kali dalam sebulan. Ia menulis kepada pewawancara yang paling hangat pada yang kedua:"
+       },
+       "weak": {
+        "en": "“Selamat siang Bu, saya ingin menanyakan alasan saya tidak lolos tahap studi kasus. Saya merasa analisis saya sudah cukup lengkap dan ingin tahu apa yang kurang dibandingkan kandidat lain, supaya saya bisa memperbaikinya. Mohon penjelasannya. Terima kasih.”",
+        "id": "“Selamat siang Bu, saya ingin menanyakan alasan saya tidak lolos tahap studi kasus. Saya merasa analisis saya sudah cukup lengkap dan ingin tahu apa yang kurang dibandingkan kandidat lain, supaya saya bisa memperbaikinya. Mohon penjelasannya. Terima kasih.”"
+       },
+       "strong": {
+        "en": "“Yth. Ibu Maya, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC; saya belajar banyak dari tahap studi kasus. Jika Ibu berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya sangat menghargai waktu Ibu. Hormat saya, Nadia Putri.”",
+        "id": "“Yth. Ibu Maya, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC; saya belajar banyak dari tahap studi kasus. Jika Ibu berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya sangat menghargai waktu Ibu. Hormat saya, Nadia Putri.”"
+       },
+       "why": {
+        "en": "The weak version asks about the decision, compares itself to other candidates, and says the analysis was “cukup lengkap” — three things an interviewer cannot answer and one they will quietly disagree with. The strong version is the rejection reply with one forward-looking question attached: one thing, similar roles, no comparison, permission to not answer. It can be answered in a sentence, so sometimes it is.",
+        "id": "Versi lemah bertanya tentang keputusan, membandingkan diri dengan kandidat lain, dan menyebut analisisnya “cukup lengkap” — tiga hal yang tidak bisa dijawab pewawancara dan satu yang diam-diam tidak mereka setujui. Versi kuat adalah balasan penolakan dengan satu pertanyaan ke depan yang dilampirkan: satu hal, peran serupa, tanpa perbandingan, izin untuk tidak menjawab. Ia bisa dijawab dalam satu kalimat, sehingga kadang memang dijawab."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the referee who was not told",
+       "id": "Sorotan: pemberi referensi yang tidak diberi tahu"
+      },
+      "body": [
+       {
+        "en": "Dimas listed his internship supervisor as a referee on a KilatPay form without asking. Two weeks later the supervisor took a call from a KilatPay recruiter between meetings: “Dimas? Yes, he interned with us. He was… fine. Reliable, I think. What was the role again?” The recruiter thanked him and wrote three words in the file. Dimas never knew the call had happened; the supervisor was mildly annoyed for a month; and the reference — from a man who had actually watched Dimas fix a reporting template that the branch still uses — said nothing about it, because nobody had told him that was the thing to say.",
+        "id": "Dimas mencantumkan supervisor magangnya sebagai pemberi referensi di formulir KilatPay tanpa meminta izin. Dua minggu kemudian sang supervisor menerima telepon dari rekruter KilatPay di sela rapat: “Dimas? Ya, dia magang di sini. Dia… baik. Bisa diandalkan, saya rasa. Perannya apa tadi?” Rekruter berterima kasih dan menulis tiga kata di berkas. Dimas tidak pernah tahu telepon itu terjadi; supervisor sedikit kesal selama sebulan; dan referensinya — dari orang yang benar-benar melihat Dimas memperbaiki templat pelaporan yang masih dipakai cabang — tidak mengatakan apa pun tentang itu, karena tidak ada yang memberi tahu bahwa itulah yang perlu dikatakan."
+       },
+       {
+        "en": "Nothing here was hostile. The supervisor liked Dimas. The reference was weak because it was unbriefed, and unbriefed because permission was never asked — the two skipped steps in the exhibit above. A one-page brief and a five-line email would have produced “he rebuilt the branch reporting template in his second month and it is still in use”, which is a different reference from a different candidate.",
+        "id": "Tidak ada yang bermusuhan di sini. Sang supervisor menyukai Dimas. Referensinya lemah karena tidak dibekali, dan tidak dibekali karena izin tidak pernah diminta — dua langkah yang dilewati di peraga di atas. Satu halaman bekal dan email lima baris akan menghasilkan “ia membangun ulang templat pelaporan cabang pada bulan keduanya dan masih dipakai”, yang merupakan referensi berbeda dari kandidat yang berbeda."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The rejection reply and the six-month note",
+        "id": "Latihan 1 · Balasan penolakan dan catatan enam bulan"
+       },
+       "body": {
+        "en": "Arunika’s email arrived this morning: Nadia was not selected for MT-27-SC after the final panel; “we will keep your profile for future opportunities”. Write (a) her reply today, four sentences, in Indonesian to Bu Maya Kusuma; and (b) the note she sends in six months, assuming by then she has finished the SQL course and held an operations role at Rumah Rempah for four months.",
+        "id": "Email Arunika tiba pagi ini: Nadia tidak terpilih untuk MT-27-SC setelah panel akhir; “kami akan menyimpan profil Anda untuk kesempatan mendatang”. Tulis (a) balasannya hari ini, empat kalimat, dalam bahasa Indonesia kepada Bu Maya Kusuma; dan (b) catatan yang ia kirim enam bulan lagi, dengan asumsi saat itu ia sudah menyelesaikan kursus SQL dan menjalani peran operasi di Rumah Rempah selama empat bulan."
+       },
+       "debrief": {
+        "en": "(a) “Yth. Ibu Maya Kusuma, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC hingga panel akhir. Saya belajar banyak, terutama dari tahap studi kasus dan wawancara user. Saya tetap tertarik bergabung dengan Arunika di masa mendatang dan berharap dapat dipertimbangkan untuk penerimaan berikutnya. Hormat saya, Nadia Putri.” — thanks, what she gained, continued interest, door open; “keep your profile” is treated as a no, so the tracker row closes with a single dated task six months out. (b) “Yth. Ibu Maya, enam bulan lalu saya mengikuti seleksi MT-27-SC. Sejak itu saya menyelesaikan kursus dasar SQL dan bekerja sebagai staf operasi di Rumah Rempah, di mana saya memegang pencatatan stok untuk tiga gerai. Saya tetap tertarik pada program MT Arunika dan ingin menanyakan apakah penerimaan 2027 sudah dibuka dan apakah saya dapat melamar kembali. Hormat saya, Nadia Putri.” — what she gained, in facts with a number; continued interest; one question. No reference to the rejection’s reasons.",
+        "id": "(a) “Yth. Ibu Maya Kusuma, terima kasih atas kabar dan kesempatan mengikuti proses seleksi MT-27-SC hingga panel akhir. Saya belajar banyak, terutama dari tahap studi kasus dan wawancara user. Saya tetap tertarik bergabung dengan Arunika di masa mendatang dan berharap dapat dipertimbangkan untuk penerimaan berikutnya. Hormat saya, Nadia Putri.” — terima kasih, apa yang ia peroleh, minat berlanjut, pintu terbuka; “simpan profil” dianggap penolakan, jadi baris pelacak ditutup dengan satu tugas bertanggal enam bulan ke depan. (b) “Yth. Ibu Maya, enam bulan lalu saya mengikuti seleksi MT-27-SC. Sejak itu saya menyelesaikan kursus dasar SQL dan bekerja sebagai staf operasi di Rumah Rempah, di mana saya memegang pencatatan stok untuk tiga gerai. Saya tetap tertarik pada program MT Arunika dan ingin menanyakan apakah penerimaan 2027 sudah dibuka dan apakah saya dapat melamar kembali. Hormat saya, Nadia Putri.” — apa yang ia peroleh, dalam fakta dengan angka; minat berlanjut; satu pertanyaan. Tanpa merujuk alasan penolakan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The referee brief and the permission request",
+        "id": "Latihan 2 · Bekal pemberi referensi dan permintaan izin"
+       },
+       "body": {
+        "en": "KilatPay’s form asks for two referees. Nadia chooses her dosen pembimbing and her Bank Sinar Nusantara supervisor. Write (a) the permission email to the lecturer, in the right register, with an easy way to decline; and (b) the one-page brief for the supervisor: role, what the advertisement values, the two or three pieces of work he can speak to with numbers, when the call may come.",
+        "id": "Formulir KilatPay meminta dua pemberi referensi. Nadia memilih dosen pembimbingnya dan supervisor Bank Sinar Nusantara-nya. Tulis (a) email permintaan izin kepada dosen, dalam register yang tepat, dengan cara mudah menolak; dan (b) bekal satu halaman untuk supervisor: peran, apa yang dihargai iklan, dua atau tiga pekerjaan yang bisa ia ceritakan dengan angka, kapan telepon mungkin datang."
+       },
+       "debrief": {
+        "en": "(a) “Yth. Ibu [Nama], saya Nadia Putri, mahasiswa bimbingan Ibu (skripsi inventory turnover). Saya sedang melamar posisi Business Operations Associate di KilatPay (deskripsi terlampir), dan formulirnya meminta dua pemberi referensi. Apakah Ibu berkenan menjadi salah satunya? Jika berkenan, saya akan mengirimkan ringkasan singkat tentang posisi tersebut dan hal-hal yang mungkin ditanyakan; jika saat ini kurang memungkinkan, saya sepenuhnya memahami. Hormat saya, Nadia Putri.” — Yth., one ask, the description attached, the no made easy. (b) The brief, five blocks: <i>Role</i>: Business Operations Associate, merchant onboarding, KilatPay Jakarta. <i>What they value</i> (from the advertisement): “measure everything”, Excel required, SQL a plus, process improvement. <i>What you saw me do</i>: reconciled daily transaction reports for 3 branches, Jun–Aug 2025; flagged the recurring terminal mismatch whose fix removed about 30 minutes of manual correction a day; built the reconciliation checklist the branch team still uses. <i>The call</i>: likely from KilatPay Talent Acquisition (Bu Dewi) in the next two weeks, by phone, in Indonesian. <i>Attached</i>: CV, the advertisement. Then the two closing lines the brief must promise: thanks the day you hear the call happened, and the outcome the day it arrives.",
+        "id": "(a) “Yth. Ibu [Nama], saya Nadia Putri, mahasiswa bimbingan Ibu (skripsi inventory turnover). Saya sedang melamar posisi Business Operations Associate di KilatPay (deskripsi terlampir), dan formulirnya meminta dua pemberi referensi. Apakah Ibu berkenan menjadi salah satunya? Jika berkenan, saya akan mengirimkan ringkasan singkat tentang posisi tersebut dan hal-hal yang mungkin ditanyakan; jika saat ini kurang memungkinkan, saya sepenuhnya memahami. Hormat saya, Nadia Putri.” — Yth., satu permintaan, deskripsi terlampir, penolakan dibuat mudah. (b) Bekalnya, lima blok: <i>Peran</i>: Business Operations Associate, onboarding merchant, KilatPay Jakarta. <i>Yang mereka hargai</i> (dari iklan): “ukur segalanya”, Excel wajib, SQL nilai tambah, perbaikan proses. <i>Yang Bapak lihat saya lakukan</i>: merekonsiliasi laporan transaksi harian untuk 3 cabang, Jun–Agu 2025; menandai selisih terminal berulang yang perbaikannya menghilangkan sekitar 30 menit koreksi manual per hari; membangun daftar periksa rekonsiliasi yang masih dipakai tim cabang. <i>Teleponnya</i>: kemungkinan dari Talent Acquisition KilatPay (Bu Dewi) dalam dua minggu ke depan, lewat telepon, dalam bahasa Indonesia. <i>Terlampir</i>: CV, iklan. Lalu dua baris penutup yang harus dijanjikan bekal: terima kasih pada hari kamu tahu teleponnya terjadi, dan hasilnya pada hari ia tiba."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The landing update",
+        "id": "Latihan 3 · Kabar setelah diterima"
+       },
+       "body": {
+        "en": "Nadia accepts Rumah Rempah’s offer on a Thursday. List everyone who helped in this course’s story, in the order they should hear, with the channel and the one sentence each gets that the others do not. Then write the offer of help she makes to the next person.",
+        "id": "Nadia menerima tawaran Rumah Rempah pada hari Kamis. Daftar semua yang membantu dalam cerita kursus ini, dalam urutan mereka harus mendengar, dengan saluran dan satu kalimat yang didapat masing-masing yang tidak didapat yang lain. Lalu tulis tawaran bantuan yang ia buat kepada orang berikutnya."
+       },
+       "debrief": {
+        "en": "Same day: the two referees (email — “the call from Kak Wulan came on Monday; I accepted today; thank you for speaking for me”); Kak Rina (WhatsApp, because she made it the channel — “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); Kak Wulan’s introducer if there was one. Within the week: Pak Hendra (email — “the ODP process did not work out but your advice on the assessment stage did; I start at Rumah Rempah in November”); Bu Dewi at KilatPay if her process is still open (email, withdrawing cleanly and thanking her — Lesson 9.2’s row goes to closed by your hand, not by silence); Dimas and Fajar. Later, once she can say what the job is: a second note to Kak Rina and Pak Hendra. The offer of help: to the HIMA group, one line — “Kalau ada yang sedang menyiapkan ODP BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” It is the twenty minutes she once asked Kak Rina for.",
+        "id": "Hari itu juga: dua pemberi referensi (email — “telepon dari Kak Wulan datang hari Senin; saya menerima hari ini; terima kasih telah berbicara untuk saya”); Kak Rina (WhatsApp, karena ia yang menjadikannya saluran — “Kak, saya diterima di Rumah Rempah; saran Kakak soal data stok dipakai di wawancaranya”); pengenal Kak Wulan jika ada. Dalam minggu itu: Pak Hendra (email — “proses ODP tidak berhasil tetapi saran Bapak tentang tahap asesmen berhasil; saya mulai di Rumah Rempah pada November”); Bu Dewi di KilatPay jika prosesnya masih terbuka (email, mengundurkan diri dengan rapi dan berterima kasih — baris Pelajaran 9.2 ditutup oleh tanganmu, bukan oleh keheningan); Dimas dan Fajar. Nanti, begitu ia bisa mengatakan pekerjaannya seperti apa: catatan kedua ke Kak Rina dan Pak Hendra. Tawaran bantuan: ke grup HIMA, satu baris — “Kalau ada yang sedang menyiapkan ODP BSN atau MT FMCG, saya bisa cerita 20 menit soal tahap asesmen dan studi kasusnya; DM saja.” Itu dua puluh menit yang dulu ia minta dari Kak Rina."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Arguing with a rejection, or asking “why?”",
+         "id": "Membantah penolakan, atau bertanya “mengapa?”"
+        },
+        "fix": {
+         "en": "Four gracious sentences; one forward-looking question to the friendliest interviewer, once.",
+         "id": "Empat kalimat anggun; satu pertanyaan ke depan kepada pewawancara paling ramah, sekali."
+        }
+       },
+       {
+        "h": {
+         "en": "Listing a referee without asking",
+         "id": "Mencantumkan pemberi referensi tanpa meminta izin"
+        },
+        "fix": {
+         "en": "Permission first, then the one-page brief with the job description and CV.",
+         "id": "Izin dulu, lalu bekal satu halaman dengan deskripsi pekerjaan dan CV."
+        }
+       },
+       {
+        "h": {
+         "en": "A famous name, an official or a relative “for status”",
+         "id": "Nama terkenal, pejabat, atau kerabat “demi status”"
+        },
+        "fix": {
+         "en": "Only people who watched your work; chosen per role.",
+         "id": "Hanya orang yang mengamati pekerjaanmu; dipilih per peran."
+        }
+       },
+       {
+        "h": {
+         "en": "Going quiet after landing",
+         "id": "Menjadi senyap setelah diterima"
+        },
+        "fix": {
+         "en": "Tell everyone who helped, the same week; offer the next person what you once asked for.",
+         "id": "Beri tahu semua yang membantu, minggu itu juga; tawarkan kepada orang berikutnya apa yang dulu kamu minta."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Rejection reply",
+        "id": "Balasan penolakan"
+       },
+       "def": {
+        "en": "Four sentences: thanks, what you gained, continued interest, door open — sent the same day.",
+        "id": "Empat kalimat: terima kasih, apa yang kamu peroleh, minat berlanjut, pintu terbuka — dikirim hari itu juga."
+       }
+      },
+      {
+       "term": {
+        "en": "Six-month note",
+        "id": "Catatan enam bulan"
+       },
+       "def": {
+        "en": "A re-contact to a rejecting employer carrying what you have gained since, not “anything yet?”.",
+        "id": "Kontak ulang ke perusahaan yang menolak, membawa apa yang kamu peroleh sejak itu, bukan “sudah ada kabar?”."
+       }
+      },
+      {
+       "term": {
+        "en": "Referee",
+        "id": "Pemberi referensi"
+       },
+       "def": {
+        "en": "Someone who watched your work and can speak to it with specifics — dosen pembimbing, supervisor, adviser.",
+        "id": "Seseorang yang mengamati pekerjaanmu dan bisa menceritakannya dengan hal spesifik — dosen pembimbing, supervisor, pembina."
+       }
+      },
+      {
+       "term": {
+        "en": "Referee brief",
+        "id": "Bekal pemberi referensi"
+       },
+       "def": {
+        "en": "One page: role, what it values, the work they saw with numbers, when the call may come, CV attached.",
+        "id": "Satu halaman: peran, apa yang dihargainya, pekerjaan yang mereka lihat dengan angka, kapan telepon mungkin datang, CV terlampir."
+       }
+      },
+      {
+       "term": {
+        "en": "“Keep your CV on file”",
+        "id": "“Kami simpan CV Anda”"
+       },
+       "def": {
+        "en": "A no — unless a specific month to check back is named, in which case it is a dated task.",
+        "id": "Penolakan — kecuali bulan tertentu untuk menghubungi kembali disebut, yang menjadikannya tugas bertanggal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "After a rejection, you reply…",
+        "id": "Setelah penolakan, kamu membalas…"
+       },
+       "options": [
+        {
+         "en": "Not at all — the process is over",
+         "id": "Tidak sama sekali — prosesnya selesai"
+        },
+        {
+         "en": "Briefly and graciously, keeping the door open",
+         "id": "Singkat dan anggun, menjaga pintu tetap terbuka"
+        },
+        {
+         "en": "With a request to reconsider",
+         "id": "Dengan permintaan meninjau ulang"
+        },
+        {
+         "en": "With a detailed explanation of your strengths",
+         "id": "Dengan penjelasan rinci tentang kekuatanmu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Thanks, what you gained, continued interest, a request to be kept in mind — four sentences (Williams, ch. 19).",
+        "id": "Terima kasih, apa yang kamu peroleh, minat berlanjut, permintaan untuk diingat — empat kalimat (Williams, bab 19)."
+       }
+      },
+      {
+       "q": {
+        "en": "Before listing a referee, you…",
+        "id": "Sebelum mencantumkan pemberi referensi, kamu…"
+       },
+       "options": [
+        {
+         "en": "Pick the most senior person you know",
+         "id": "Pilih orang paling senior yang kamu kenal"
+        },
+        {
+         "en": "Ask permission and brief them",
+         "id": "Minta izin dan bekali mereka"
+        },
+        {
+         "en": "List them — they will find out when called",
+         "id": "Cantumkan — mereka akan tahu saat ditelepon"
+        },
+        {
+         "en": "Ask a relative with a good title",
+         "id": "Minta kerabat dengan jabatan bagus"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Permission first; then the job description, your CV, what the role values and which work they can speak to.",
+        "id": "Izin dulu; lalu deskripsi pekerjaan, CV-mu, apa yang dihargai peran, dan pekerjaan mana yang bisa mereka ceritakan."
+       }
+      },
+      {
+       "q": {
+        "en": "After you land a role, you…",
+        "id": "Setelah kamu diterima, kamu…"
+       },
+       "options": [
+        {
+         "en": "Post on LinkedIn and move on",
+         "id": "Unggah di LinkedIn dan lanjutkan"
+        },
+        {
+         "en": "Update everyone who helped, and offer help to the next person",
+         "id": "Beri tahu semua yang membantu, dan tawarkan bantuan kepada orang berikutnya"
+        },
+        {
+         "en": "Wait until probation ends to tell anyone",
+         "id": "Tunggu sampai masa percobaan selesai untuk memberi tahu siapa pun"
+        },
+        {
+         "en": "Tell only the referees",
+         "id": "Beri tahu hanya pemberi referensi"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "When you land, and later; the network is still there in three years because you closed the loop (Levy; Williams, ch. 13; Dalton, ch. 10).",
+        "id": "Saat diterima, dan setelahnya; jaringan masih ada tiga tahun lagi karena kamu menutup putarannya (Levy; Williams, bab 13; Dalton, bab 10)."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Write the referee brief",
+       "id": "Tulis bekal pemberi referensi"
+      },
+      "body": {
+       "en": "In the studio, write your referee brief for your Top 1 target (Dossier item): the role and employer; three lines on what the advertisement values; the two or three pieces of your work this referee saw, with the numbers from your pantry; when the call may come and from whom. Then the permission email above it, in the right register, with an easy no. Save both; the brief is reused for every application with two lines changed.",
+       "id": "Di studio, tulis bekal pemberi referensimu untuk sasaran Teratas 1 (butir Dossier): peran dan perusahaan; tiga baris tentang apa yang dihargai iklan; dua atau tiga pekerjaanmu yang dilihat pemberi referensi ini, dengan angka dari lemarimu; kapan telepon mungkin datang dan dari siapa. Lalu email permintaan izin di atasnya, dalam register yang tepat, dengan penolakan yang mudah. Simpan keduanya; bekalnya dipakai ulang untuk setiap lamaran dengan dua baris diubah."
+      },
+      "cta": {
+       "en": "Open the studio →",
+       "id": "Buka studio →"
+      }
      },
      "takeaways": [
       {
-       "en": "Other people's rudeness is not a licence; it is a test of your defaults under provocation.",
-       "id": "Kekasaran orang lain bukan izin untuk membalas; itu ujian bagi setelan bawaanmu saat diprovokasi."
+       "en": "Reply to every rejection in four gracious sentences; write again in six months with what you have gained.",
+       "id": "Balas setiap penolakan dalam empat kalimat anggun; tulis lagi enam bulan kemudian dengan apa yang kamu peroleh."
       },
       {
-       "en": "Public errors are repaired publicly and briefly; private grievances are raised privately and specifically.",
-       "id": "Kesalahan di ruang publik diperbaiki secara publik dan singkat; keluhan pribadi disampaikan secara pribadi dan spesifik."
+       "en": "Referees: people who watched your work — permission, brief, thanks, outcome.",
+       "id": "Pemberi referensi: orang yang mengamati pekerjaanmu — izin, bekal, terima kasih, hasil."
       },
       {
-       "en": "Assertive and polite are not opposites — the professional register holds both.",
-       "id": "Tegas dan santun bukan dua kutub yang berlawanan — register profesional memuat keduanya."
+       "en": "When you land, tell everyone who helped, and offer the next person what you once asked for.",
+       "id": "Saat diterima, beri tahu semua yang membantu, dan tawarkan kepada orang berikutnya apa yang dulu kamu minta."
       }
      ],
+     "resources": {
+      "title": {
+       "en": "Sources and the referee brief",
+       "id": "Sumber dan bekal pemberi referensi"
+      },
+      "lead": {
+       "en": "Four sources, and the two templates for this lesson’s Dossier items.",
+       "id": "Empat sumber, dan dua templat untuk butir Dossier pelajaran ini."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.3",
+         "id": "Daftar bacaan · Pelajaran 9.3"
+        },
+        "desc": {
+         "en": "Four sources; the Indonesian referee set is The Pack’s adaptation.",
+         "id": "Empat sumber; set pemberi referensi Indonesia adalah adaptasi The Pack."
+        },
+        "body": [
+         {
+          "en": "L. Williams, ch. 13, 19 — the rejection reply; the six-month re-contact; updating your network.",
+          "id": "L. Williams, bab 13, 19 — balasan penolakan; kontak ulang enam bulan; memperbarui jaringanmu."
+         },
+         {
+          "en": "S. Dalton, <i>The 2-Hour Job Search</i>, ch. 9, 10 — “keep your CV on file”; a specific month to check back; relationships after landing.",
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i>, bab 9, 10 — “kami simpan CV Anda”; bulan tertentu untuk menghubungi kembali; hubungan setelah diterima."
+         },
+         {
+          "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, ch. 6 — asking for feedback: general, forward-looking, to the friendliest interviewer.",
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, bab 6 — meminta umpan balik: umum, ke depan, kepada pewawancara paling ramah."
+         },
+         {
+          "en": "R. Levy — curating referees; telling everyone who helped.",
+          "id": "R. Levy — mengurasi pemberi referensi; memberi tahu semua yang membantu."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Referee brief (one page)",
+         "id": "Bekal pemberi referensi (satu halaman)"
+        },
+        "desc": {
+         "en": "Five blocks; reused per application.",
+         "id": "Lima blok; dipakai ulang per lamaran."
+        },
+        "body": [
+         {
+          "en": "Role · employer · team · where you are in the process",
+          "id": "Peran · perusahaan · tim · di mana kamu dalam proses"
+         },
+         {
+          "en": "What the advertisement values — three lines, in its words",
+          "id": "Apa yang dihargai iklan — tiga baris, dengan kata-katanya"
+         },
+         {
+          "en": "What you saw me do — two or three pieces of work, with dates and numbers",
+          "id": "Yang Anda lihat saya lakukan — dua atau tiga pekerjaan, dengan tanggal dan angka"
+         },
+         {
+          "en": "The call — who, when, which language; “you may decline to comment on anything”",
+          "id": "Teleponnya — siapa, kapan, bahasa apa; “Anda boleh menolak berkomentar tentang apa pun”"
+         },
+         {
+          "en": "Attached: CV, the advertisement · I will thank you when I hear of the call and tell you the outcome the same day",
+          "id": "Terlampir: CV, iklan · Saya akan berterima kasih saat mendengar teleponnya dan memberi tahu hasilnya hari itu juga"
+         }
+        ]
+       },
+       {
+        "kind": "script",
+        "title": {
+         "en": "Rejection reply · feedback ask · six-month note",
+         "id": "Balasan penolakan · permintaan umpan balik · catatan enam bulan"
+        },
+        "desc": {
+         "en": "Three short scripts, Indonesian register, each one message.",
+         "id": "Tiga naskah pendek, register Indonesia, masing-masing satu pesan."
+        },
+        "body": [
+         {
+          "en": "Reply: Terima kasih atas kabar dan kesempatan mengikuti proses seleksi [program]. Saya belajar banyak dari [tahap]. Saya tetap tertarik bergabung di masa mendatang. Semoga dapat bertemu kembali di kesempatan berikutnya. Hormat saya, [nama].",
+          "id": "Balasan: Terima kasih atas kabar dan kesempatan mengikuti proses seleksi [program]. Saya belajar banyak dari [tahap]. Saya tetap tertarik bergabung di masa mendatang. Semoga dapat bertemu kembali di kesempatan berikutnya. Hormat saya, [nama]."
+         },
+         {
+          "en": "Feedback (once, to the friendliest interviewer): Jika berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya menghargai waktu Bapak/Ibu.",
+          "id": "Umpan balik (sekali, kepada pewawancara paling ramah): Jika berkenan, satu pertanyaan ke depan: adakah satu hal yang sebaiknya saya perkuat untuk peran serupa? Apa pun jawabannya, saya menghargai waktu Bapak/Ibu."
+         },
+         {
+          "en": "Six months: Sejak [bulan] saya [what you gained — fact, number]. Saya tetap tertarik pada [program] dan ingin menanyakan apakah penerimaan [tahun] sudah dibuka.",
+          "id": "Enam bulan: Sejak [bulan] saya [apa yang kamu peroleh — fakta, angka]. Saya tetap tertarik pada [program] dan ingin menanyakan apakah penerimaan [tahun] sudah dibuka."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "9.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Etiquette Under Pressure",
+      "id": "Etiket di Bawah Tekanan"
+     },
+     "overview": {
+      "en": "Defaults are easy on a good day. This lesson tests them on a bad one: the interviewer who is 25 minutes late and does not apologise; the joke meant for friends that lands in the alumni group; the senior who corrects you in front of everyone; the teammate who presents your work as theirs. Each scenario comes with a branching choice, a debrief grounded in the register and channel rules, and an Indonesian-context variant. One principle runs through all four: other people’s rudeness is not a licence; it is a test of your defaults.",
+      "id": "Setelan bawaan mudah pada hari yang baik. Pelajaran ini mengujinya pada hari yang buruk: pewawancara yang terlambat 25 menit dan tidak meminta maaf; candaan untuk teman yang mendarat di grup alumni; senior yang mengoreksimu di depan semua orang; rekan setim yang mempresentasikan pekerjaanmu sebagai miliknya. Setiap skenario datang dengan pilihan bercabang, tinjauan yang berakar pada aturan register dan saluran, dan varian konteks Indonesia. Satu prinsip mengalir di keempatnya: kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu."
+     },
+     "objectives": [
+      {
+       "en": "Apply the principle: other people’s rudeness is a test of your defaults, not a licence.",
+       "id": "Menerapkan prinsip: kekasaran orang lain adalah ujian setelan bawaanmu, bukan izin."
+      },
+      {
+       "en": "Repair public errors publicly and briefly; raise private grievances privately, with facts.",
+       "id": "Memperbaiki kesalahan publik secara publik dan singkat; mengangkat keluhan pribadi secara pribadi, dengan fakta."
+      },
+      {
+       "en": "Choose the right move in four workplace dilemmas, in Indonesian and international settings.",
+       "id": "Memilih langkah yang tepat dalam empat dilema kerja, dalam latar Indonesia dan internasional."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 3 slides",
+       "id": "Baca dulu · 3 slide"
+      },
+      "title": {
+       "en": "The test is on the bad day",
+       "id": "Ujiannya pada hari yang buruk"
+      },
+      "intro": {
+       "en": "Four scenarios, each with a choice to make before the debrief opens. Decide honestly; the debriefs are written for the choice you were tempted by, not the one you knew was right.",
+       "id": "Empat skenario, masing-masing dengan pilihan yang harus dibuat sebelum tinjauan terbuka. Putuskan dengan jujur; tinjauannya ditulis untuk pilihan yang menggodamu, bukan yang kamu tahu benar."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The principle",
+         "id": "Prinsipnya"
+        },
+        "points": [
+         {
+          "en": "Other people’s rudeness is not a licence; it is a test of your defaults.",
+          "id": "Kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu."
+         },
+         {
+          "en": "Noticing is allowed. Retaliating is not. Weigh what you noticed later, in the decision, not in the room.",
+          "id": "Memperhatikan boleh. Membalas tidak. Timbang apa yang kamu perhatikan nanti, dalam keputusan, bukan di ruangan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Public and private",
+         "id": "Publik dan pribadi"
+        },
+        "points": [
+         {
+          "en": "Repair public errors publicly and briefly — one message, same channel, no spiral.",
+          "id": "Perbaiki kesalahan publik secara publik dan singkat — satu pesan, saluran sama, tanpa berputar-putar."
+         },
+         {
+          "en": "Raise private grievances privately, with facts — first with the person, escalate only if it recurs.",
+          "id": "Angkat keluhan pribadi secara pribadi, dengan fakta — pertama dengan orangnya, eskalasi hanya jika terulang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The Indonesian layer",
+         "id": "Lapisan Indonesia"
+        },
+        "points": [
+         {
+          "en": "Seniority is real, group chats are public, and face is preserved for everyone including you.",
+          "id": "Senioritas itu nyata, grup chat itu publik, dan muka dijaga untuk semua orang termasuk kamu."
+         },
+         {
+          "en": "The moves are the same; the register and the room change.",
+          "id": "Langkahnya sama; register dan ruangannya yang berubah."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "flag",
+       "img": "../../assets/bg/gauntlet/gate-06-final-interview.jpg",
+       "imgPos": "50% 35%",
+       "h": {
+        "en": "The principle",
+        "id": "Prinsipnya"
+       },
+       "body": {
+        "en": "Everything in Lessons 9.1–9.3 assumed the other side was behaving. They will not always. Interviewers run late, seniors condescend, teammates take credit, and your own thumb sends a message to the wrong group. The principle for all of it: <b>other people’s rudeness is not a licence; it is a test of your defaults.</b> Rudeness invites a matching response, and the matching response is the thing that gets remembered — not their lateness, not their tone, but your reaction to it. So the defaults from Lesson 9.1 do not switch off under pressure; they are what pressure is for. You are allowed to notice. A panel that keeps candidates waiting without apology across three rounds is culture evidence, and it belongs in your two-lens decision later (Module 1). What you are not allowed to do is decide the case in the room.",
+        "id": "Semua dalam Pelajaran 9.1–9.3 mengasumsikan pihak lain berperilaku baik. Tidak selalu begitu. Pewawancara terlambat, senior merendahkan, rekan setim mengambil kredit, dan jempolmu sendiri mengirim pesan ke grup yang salah. Prinsip untuk semuanya: <b>kekasaran orang lain bukan izin; ia adalah ujian setelan bawaanmu.</b> Kekasaran mengundang respons yang setara, dan respons setara itulah yang diingat — bukan keterlambatan mereka, bukan nada mereka, tetapi reaksimu terhadapnya. Jadi setelan dari Pelajaran 9.1 tidak mati di bawah tekanan; setelan itulah gunanya tekanan. Kamu boleh memperhatikan. Panel yang membuat kandidat menunggu tanpa permintaan maaf di tiga ronde adalah bukti budaya, dan itu masuk ke keputusan dua lensamu nanti (Modul 1). Yang tidak boleh kamu lakukan adalah memutuskan kasusnya di ruangan."
+       }
+      },
+      {
+       "icon": "users",
+       "h": {
+        "en": "Repair public errors publicly and briefly",
+        "id": "Perbaiki kesalahan publik secara publik dan singkat"
+       },
+       "body": {
+        "en": "When the error is yours and it was seen — a wrong-group message, a mis-sent email, a name misspelled in a thread — the repair happens where the error happened, once, and short. One message in the same channel: what it was, that it was yours, back to work. No triple apology, no joke about the joke, no explanation of how it happened, no deleting-and-pretending. Then, if a specific person was affected, one private line to them owning it the same way. The error is survivable; the cover-up (“my account was borrowed”) or the spiral of apologies is what converts a slip into a character verdict. In Indonesian groups the same applies with one addition: the public repair should preserve everyone’s face, including yours — brief, formal, no self-flagellation, and no naming of who the message was meant for.",
+        "id": "Ketika kesalahannya milikmu dan terlihat — pesan salah grup, email salah kirim, nama salah eja di utas — perbaikannya terjadi di tempat kesalahan itu terjadi, sekali, dan singkat. Satu pesan di saluran yang sama: apa itu, bahwa itu milikmu, kembali bekerja. Tanpa minta maaf tiga kali, tanpa candaan tentang candaannya, tanpa penjelasan bagaimana itu terjadi, tanpa hapus-lalu-pura-pura. Lalu, jika orang tertentu terdampak, satu baris pribadi kepadanya mengakui dengan cara yang sama. Kesalahannya bisa diselamatkan; menutup-nutupi (“akun saya dipinjam”) atau permintaan maaf yang berulang-ulang yang mengubah keseleo menjadi vonis karakter. Di grup Indonesia hal yang sama berlaku dengan satu tambahan: perbaikan publik harus menjaga muka semua orang, termasuk kamu — singkat, formal, tanpa menyiksa diri, dan tanpa menyebut untuk siapa pesan itu dimaksudkan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Public error",
+          "id": "Kesalahan publik"
+         },
+         {
+          "en": "The repair",
+          "id": "Perbaikannya"
+         },
+         {
+          "en": "Not this",
+          "id": "Bukan ini"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Joke sent to the work or alumni group",
+           "id": "Candaan terkirim ke grup kerja atau alumni"
+          },
+          {
+           "en": "“Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.”",
+           "id": "“Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Kembali ke topik.”"
+          },
+          {
+           "en": "Deleting silently; three apologies; explaining the joke",
+           "id": "Menghapus diam-diam; tiga permintaan maaf; menjelaskan candaannya"
+          }
+         ],
+         [
+          {
+           "en": "Wrong name in an email thread",
+           "id": "Salah nama di utas email"
+          },
+          {
+           "en": "One reply: “Apologies, Ms. Dewi — I misspelled your name above.”",
+           "id": "Satu balasan: “Mohon maaf, Bu Dewi — nama Ibu salah saya tulis di atas.”"
+          },
+          {
+           "en": "Hoping nobody noticed",
+           "id": "Berharap tidak ada yang sadar"
+          }
+         ],
+         [
+          {
+           "en": "Wrong attachment sent to a recruiter",
+           "id": "Lampiran salah terkirim ke rekruter"
+          },
+          {
+           "en": "Same thread, within the hour: the right file, one line of ownership",
+           "id": "Utas sama, dalam satu jam: berkas yang benar, satu baris pengakuan"
+          },
+          {
+           "en": "A new thread pretending it is the first send",
+           "id": "Utas baru berpura-pura ini kiriman pertama"
+          }
+         ],
+         [
+          {
+           "en": "Late to an online interview",
+           "id": "Terlambat ke wawancara daring"
+          },
+          {
+           "en": "“Apologies for keeping you waiting — entirely my error. Shall we begin?”",
+           "id": "“Mohon maaf membuat Bapak/Ibu menunggu — sepenuhnya kesalahan saya. Boleh kita mulai?”"
+          },
+          {
+           "en": "The traffic, the Wi-Fi, the previous meeting",
+           "id": "Kemacetan, Wi-Fi, rapat sebelumnya"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "lock",
+       "h": {
+        "en": "Raise private grievances privately, with facts",
+        "id": "Angkat keluhan pribadi secara pribadi, dengan fakta"
+       },
+       "body": {
+        "en": "When the error is someone else’s and it cost you — credit taken, a public correction that was wrong, a commitment not kept — the move is the mirror image: private first, factual, unheated, and escalated only if it recurs. Public credit disputes damage the challenger regardless of merit; a room that watches you contest authorship remembers the contest, not the authorship. So the first conversation is with the person, alone, in one or two sentences that state what happened and what you want going forward. Most people correct course when the observation is that calm. The structural move is better still: make authorship legible before disputes exist — named files, version histories, the weekly one-liners to your supervisor — so your work carries its own record. If it recurs, one factual line to the supervisor with the artefacts, framed as record-keeping, not grievance. <span class=\"ev ev-contested\">Course guidance</span> In an Indonesian team, the private conversation is also the face-preserving one for the other person — which is precisely why it works better than the public one.",
+        "id": "Ketika kesalahannya milik orang lain dan merugikanmu — kredit diambil, koreksi publik yang keliru, komitmen tidak ditepati — langkahnya adalah cerminannya: pribadi dulu, faktual, tanpa emosi, dan dieskalasi hanya jika terulang. Sengketa kredit di depan umum merugikan pihak yang menggugat seberapa pun benarnya; ruangan yang menyaksikanmu memperebutkan kepengarangan mengingat perebutannya, bukan kepengarangannya. Jadi percakapan pertama adalah dengan orangnya, berdua, dalam satu atau dua kalimat yang menyatakan apa yang terjadi dan apa yang kamu inginkan ke depan. Kebanyakan orang mengoreksi diri jika pengamatannya setenang itu. Langkah strukturalnya lebih baik lagi: buat kepengarangan terbaca sebelum sengketa muncul — berkas bernama, riwayat versi, laporan satu baris mingguan ke supervisor — sehingga pekerjaanmu membawa catatannya sendiri. Jika terulang, satu baris faktual ke supervisor dengan artefaknya, dibingkai sebagai pencatatan, bukan keluhan. <span class=\"ev ev-contested\">Panduan kursus</span> Dalam tim Indonesia, percakapan pribadi juga percakapan yang menjaga muka pihak lain — itulah persisnya mengapa ia lebih berhasil daripada yang publik."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "The Indonesian layer",
+        "id": "Lapisan Indonesia"
+       },
+       "body": {
+        "en": "Three things change the room without changing the rule. <b>Seniority is real.</b> A <i>user</i> interviewer at a BUMN who is 25 minutes late is not going to be told so, and the correct response to a senior who corrects you in a group call is not the one you would give a peer; the register ladder (Lesson 9.1) sets how you disagree, and “Mohon izin menambahkan, Pak” is how a junior holds a correct position. <b>Group chats are public.</b> A HIMA alumni group of four hundred people is a room with four hundred witnesses and a permanent record; the wrong message there is a public error and gets the public repair. <b>Face is preserved for everyone.</b> Including you: the repair is brief precisely so that you keep yours; the private conversation is chosen precisely so that the other person keeps theirs. The debriefs below give the international move and the Indonesian variant side by side; the move is the same, the register and the room are not.",
+        "id": "Tiga hal mengubah ruangan tanpa mengubah aturan. <b>Senioritas itu nyata.</b> Pewawancara <i>user</i> di BUMN yang terlambat 25 menit tidak akan diberi tahu, dan respons yang tepat kepada senior yang mengoreksimu dalam panggilan grup bukan yang akan kamu berikan kepada sebaya; tangga register (Pelajaran 9.1) menetapkan caramu tidak setuju, dan “Mohon izin menambahkan, Pak” adalah cara junior mempertahankan posisi yang benar. <b>Grup chat itu publik.</b> Grup alumni HIMA beranggotakan empat ratus orang adalah ruangan dengan empat ratus saksi dan catatan permanen; pesan yang salah di sana adalah kesalahan publik dan mendapat perbaikan publik. <b>Muka dijaga untuk semua orang.</b> Termasuk kamu: perbaikannya singkat persis agar kamu menjaga mukamu; percakapan pribadi dipilih persis agar pihak lain menjaga mukanya. Tinjauan di bawah memberi langkah internasional dan varian Indonesia berdampingan; langkahnya sama, register dan ruangannya tidak."
+       },
+       "bullets": [
+        {
+         "en": "<b>Disagreeing upward:</b> “Mohon izin menambahkan / meluruskan sedikit, Pak/Bu — [the fact], [the source]. Mohon koreksi jika saya keliru.” One round; then stop.",
+         "id": "<b>Tidak setuju ke atas:</b> “Mohon izin menambahkan / meluruskan sedikit, Pak/Bu — [fakta], [sumber]. Mohon koreksi jika saya keliru.” Satu ronde; lalu berhenti."
+        },
+        {
+         "en": "<b>Absorbing lateness:</b> “Tidak masalah sama sekali, Pak” — and then a shorter, sharper answer set, because the time is theirs.",
+         "id": "<b>Menyerap keterlambatan:</b> “Tidak masalah sama sekali, Pak” — lalu set jawaban yang lebih pendek dan tajam, karena waktunya milik mereka."
+        },
+        {
+         "en": "<b>Grievance with a peer:</b> “Kemarin waktu presentasi, analisisnya terkesan punya kamu sendiri — padahal model datanya aku yang bangun. Ke depan kita jaga kreditnya akurat, ya.” Private, factual, forward.",
+         "id": "<b>Keluhan dengan sebaya:</b> “Kemarin waktu presentasi, analisisnya terkesan punya kamu sendiri — padahal model datanya aku yang bangun. Ke depan kita jaga kreditnya akurat, ya.” Pribadi, faktual, ke depan."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "pair",
+      "exhibit": {
+       "en": "Exhibit 1: Two kinds of repair",
+       "id": "Peraga 1: Dua jenis perbaikan"
+      },
+      "title": {
+       "en": "Whose error, and who saw it, decides the room — the defaults decide the tone",
+       "id": "Kesalahan siapa, dan siapa yang melihat, menentukan ruangannya — setelan menentukan nadanya"
+      },
+      "cols": [
+       {
+        "h": {
+         "en": "Public error, yours",
+         "id": "Kesalahan publik, milikmu"
+        },
+        "sub": {
+         "en": "Repair publicly and briefly",
+         "id": "Perbaiki secara publik dan singkat"
+        },
+        "items": [
+         {
+          "en": "Same channel, one message",
+          "id": "Saluran sama, satu pesan"
+         },
+         {
+          "en": "What it was · it was mine · back to work",
+          "id": "Apa itu · milik saya · kembali bekerja"
+         },
+         {
+          "en": "One private line to anyone affected",
+          "id": "Satu baris pribadi kepada siapa pun yang terdampak"
+         },
+         {
+          "en": "Then visibly good work; no spiral",
+          "id": "Lalu kerja yang terlihat baik; tanpa berputar"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Private grievance, theirs",
+         "id": "Keluhan pribadi, milik mereka"
+        },
+        "sub": {
+         "en": "Raise privately, with facts",
+         "id": "Angkat secara pribadi, dengan fakta"
+        },
+        "items": [
+         {
+          "en": "With the person first, alone",
+          "id": "Dengan orangnya dulu, berdua"
+         },
+         {
+          "en": "What happened · what I want going forward",
+          "id": "Apa yang terjadi · apa yang saya inginkan ke depan"
+         },
+         {
+          "en": "Authorship made legible beforehand",
+          "id": "Kepengarangan dibuat terbaca sebelumnya"
+         },
+         {
+          "en": "Escalate only if it recurs — with artefacts, as record-keeping",
+          "id": "Eskalasi hanya jika terulang — dengan artefak, sebagai pencatatan"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "Rudeness from the other side changes neither column. It is the test, not the licence.",
+       "id": "Kekasaran dari pihak lain tidak mengubah kedua kolom. Ia ujiannya, bukan izinnya."
+      },
+      "longdesc": {
+       "en": "Two columns: a public error of your own is repaired publicly and briefly in the same channel with one message and one private line to anyone affected; a private grievance caused by someone else is raised privately with facts, first with the person, with authorship made legible beforehand and escalation only on recurrence.",
+       "id": "Dua kolom: kesalahan publik milikmu diperbaiki secara publik dan singkat di saluran yang sama dengan satu pesan dan satu baris pribadi kepada yang terdampak; keluhan pribadi yang disebabkan orang lain diangkat secara pribadi dengan fakta, pertama dengan orangnya, dengan kepengarangan dibuat terbaca sebelumnya dan eskalasi hanya jika terulang."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "The public correction, two replies",
+        "id": "Koreksi publik, dua balasan"
+       },
+       "q": {
+        "en": "A senior professional comments on Nadia’s LinkedIn post about inventory turnover: “This is wrong — junior analysts shouldn’t post about methods they don’t understand.” Her method is, in fact, correct.",
+        "id": "Seorang profesional senior mengomentari unggahan LinkedIn Nadia tentang inventory turnover: “Ini salah — analis junior sebaiknya tidak mengunggah metode yang tidak mereka pahami.” Metodenya sebenarnya benar."
+       },
+       "weak": {
+        "en": "“With respect, Sir, I think you should read the post again before commenting. The method is standard and I have explained it clearly. Perhaps senior professionals should check before correcting juniors in public.”",
+        "id": "“Dengan hormat, Pak, sebaiknya Bapak membaca ulang unggahannya sebelum berkomentar. Metodenya standar dan sudah saya jelaskan dengan jelas. Mungkin profesional senior sebaiknya memeriksa dulu sebelum mengoreksi junior di depan umum.”"
+       },
+       "strong": {
+        "en": "“Thank you for reading, Pak. The turnover figure follows cost of goods sold over average inventory for the period, as in [the textbook chapter she used] — happy to be corrected on specifics if I have misapplied it.” Then nothing further, whatever he replies.",
+        "id": "“Terima kasih sudah membaca, Pak. Angka perputarannya mengikuti harga pokok penjualan dibagi rata-rata persediaan periode tersebut, seperti di [bab buku teks yang ia pakai] — saya terbuka dikoreksi pada hal spesifik jika saya salah menerapkannya.” Lalu tidak ada lagi, apa pun balasannya."
+       },
+       "why": {
+        "en": "The weak reply is correct on the facts and loses anyway: it matches his condescension, and every recruiter who reads the thread sees two rude people. The strong reply is technical and temperature-zero, cites the source, leaves room to be wrong, and stops after one round — so the thread shows a composed junior and a rude senior, which is the best outcome available. Never delete a correct post under pressure; if he turns out right on a specific, thank him and amend visibly, which is public evidence of coachability.",
+        "id": "Balasan lemah benar secara fakta dan tetap kalah: ia menyamai nada merendahkannya, dan setiap rekruter yang membaca utas melihat dua orang kasar. Balasan kuat teknis dan tanpa emosi, mengutip sumber, menyisakan ruang untuk salah, dan berhenti setelah satu ronde — sehingga utas menunjukkan junior yang tenang dan senior yang kasar, hasil terbaik yang tersedia. Jangan pernah hapus unggahan yang benar karena tekanan; jika ia ternyata benar pada satu hal spesifik, berterima kasihlah dan perbaiki secara terbuka, yang menjadi bukti publik bahwa kamu mudah dibina."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: what the panel remembered",
+       "id": "Sorotan: apa yang diingat panel"
+      },
+      "body": [
+       {
+        "en": "At a BUMN joint-recruitment user interview, the department head arrived 25 minutes late, sat down, and began with “Oke, langsung saja” — no apology. Two candidates that afternoon. The first said, brightly, “Tidak masalah sama sekali, Pak,” answered in tighter form than she had rehearsed because she could see the clock, and left on time. The second, with a small smile, said “Saya sudah menunggu dari jam dua, Pak” before his first answer. He was not wrong. He was also the only thing the panel discussed about him afterwards.",
+        "id": "Pada wawancara user rekrutmen bersama BUMN, kepala departemen tiba 25 menit terlambat, duduk, dan memulai dengan “Oke, langsung saja” — tanpa permintaan maaf. Dua kandidat sore itu. Yang pertama berkata, dengan cerah, “Tidak masalah sama sekali, Pak,” menjawab dalam bentuk yang lebih ringkas daripada latihannya karena ia bisa melihat jam, dan pulang tepat waktu. Yang kedua, dengan senyum kecil, berkata “Saya sudah menunggu dari jam dua, Pak” sebelum jawaban pertamanya. Ia tidak salah. Ia juga satu-satunya hal yang dibahas panel tentangnya setelah itu."
+       },
+       {
+        "en": "This composite is the whole lesson in one afternoon. The lateness was real, and both candidates were entitled to notice it — the first did, and it went into her decision about the culture later. What separated them was whether the noticing stayed inside. Other people’s rudeness is the test of your defaults, and the test is scored in the room.",
+        "id": "Gabungan ini adalah seluruh pelajaran dalam satu sore. Keterlambatannya nyata, dan kedua kandidat berhak memperhatikannya — yang pertama melakukannya, dan itu masuk ke keputusannya tentang budaya nanti. Yang memisahkan mereka adalah apakah perhatian itu tetap di dalam. Kekasaran orang lain adalah ujian setelan bawaanmu, dan ujiannya dinilai di ruangan."
+       }
+      ]
+     },
      "steps": [
       {
        "h": {
@@ -40001,12 +42338,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 1 — Menunggu 25 menit"
        },
        "body": {
-        "en": "Your online interview's start time passes. Ten minutes, nothing. Twenty. At what points do you act, and how? Decide, then reveal.",
-        "id": "Jam mulai wawancara daringmu sudah lewat. Sepuluh menit, tidak ada siapa-siapa. Dua puluh menit. Pada titik mana kamu bertindak, dan bagaimana? Putuskan, lalu buka tinjauan."
+        "en": "Your online interview’s start time passes. Ten minutes, nothing. Twenty. Choose: <b>(A)</b> message the coordinator at minute 5, then again at 10 and 15; <b>(B)</b> stay in the room, recheck the link and email at minute 5, one polite message to the coordinator at minute 10, then wait visibly unbothered; <b>(C)</b> leave at minute 20 and email that you are happy to reschedule. <b>Indonesian variant:</b> the <i>user</i> interviewer at a BUMN arrives at minute 25, sits, and begins with “Oke, langsung saja” — no apology. What do you say first? Decide, then reveal.",
+        "id": "Jam mulai wawancara daringmu lewat. Sepuluh menit, tidak ada. Dua puluh. Pilih: <b>(A)</b> kirim pesan ke koordinator di menit ke-5, lalu lagi di menit ke-10 dan 15; <b>(B)</b> tetap di ruangan, periksa ulang tautan dan email di menit ke-5, satu pesan sopan ke koordinator di menit ke-10, lalu tunggu dengan terlihat tidak terganggu; <b>(C)</b> keluar di menit ke-20 dan email bahwa kamu bersedia dijadwalkan ulang. <b>Varian Indonesia:</b> pewawancara <i>user</i> di BUMN tiba di menit ke-25, duduk, dan memulai dengan “Oke, langsung saja” — tanpa permintaan maaf. Apa yang kamu katakan pertama? Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "Minute 5: stay in the room, recheck the link and your email for a change notice. Minute 10: one polite message to the coordinator — “I'm in the meeting room for our 2 pm; happy to keep waiting, and equally happy to reschedule if the day has moved.” Then wait, visibly unbothered, doing silent prep. If they arrive at minute 25: zero reproach, full engagement — “no trouble at all” — because how you absorb their disruption is the strongest data point you will generate today. Afterwards, if it recurs across the process, weigh it as culture evidence in your two-lens decision (Pack 5.4) — noticing is allowed; retaliating is not.",
-        "id": "Menit ke-5: tetap di ruang rapat, periksa ulang tautan dan emailmu, siapa tahu ada pemberitahuan perubahan. Menit ke-10: satu pesan sopan ke koordinator — “Saya sudah berada di ruang rapat untuk jadwal pukul 2; saya tidak keberatan menunggu, dan sama-sama tidak keberatan dijadwalkan ulang kalau ada perubahan hari ini.” Lalu tunggu, terlihat tidak terganggu, sambil bersiap dalam diam. Kalau mereka datang di menit ke-25: tanpa celaan sedikit pun, keterlibatan penuh — “tidak masalah sama sekali” — karena caramu menyerap gangguan dari pihak mereka adalah data terkuat yang kamu hasilkan hari itu. Setelahnya, kalau hal ini terulang di sepanjang proses, pertimbangkan sebagai bukti budaya perusahaan dalam keputusan dua lensamu (Pack 5.4) — memperhatikan boleh; membalas tidak."
+        "en": "<b>(B).</b> Minute 5: stay in the room, recheck the link and your email for a change notice. Minute 10: one polite message to the coordinator — “I am in the meeting room for our 2 pm; happy to keep waiting, and equally happy to reschedule if the day has moved.” Then wait, visibly unbothered, doing silent prep. (A) is three messages where one is the ceiling — the follow-up table applies to coordinators too. (C) turns their lateness into your absence; the panel that arrives at minute 22 finds an empty room and remembers that. If they arrive at minute 25: zero reproach, full engagement — “no trouble at all” — because how you absorb their disruption is the strongest data point you will generate today. <b>Indonesian variant:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Then adapt to the shorter time: lead with your strongest story, tighten every answer, and do not use the last minutes to raise the wait. Afterwards, if it recurs across the process, weigh it as culture evidence in your two-lens decision — noticing is allowed; retaliating is not.",
+        "id": "<b>(B).</b> Menit ke-5: tetap di ruangan, periksa ulang tautan dan emailmu untuk pemberitahuan perubahan. Menit ke-10: satu pesan sopan ke koordinator — “Saya sudah di ruang rapat untuk jadwal pukul 14.00; saya tidak keberatan menunggu, dan sama-sama tidak keberatan dijadwalkan ulang jika ada perubahan hari ini.” Lalu tunggu, terlihat tidak terganggu, bersiap dalam diam. (A) adalah tiga pesan padahal satu adalah batasnya — tabel tindak lanjut berlaku untuk koordinator juga. (C) mengubah keterlambatan mereka menjadi ketidakhadiranmu; panel yang tiba di menit ke-22 menemukan ruangan kosong dan mengingatnya. Jika mereka tiba di menit ke-25: tanpa celaan, keterlibatan penuh — “tidak masalah sama sekali” — karena caramu menyerap gangguan mereka adalah data terkuat yang kamu hasilkan hari ini. <b>Varian Indonesia:</b> “Tidak masalah sama sekali, Pak. Terima kasih atas waktunya.” Lalu sesuaikan dengan waktu yang lebih pendek: buka dengan cerita terkuatmu, ringkas setiap jawaban, dan jangan pakai menit-menit terakhir untuk mengangkat soal menunggu. Setelahnya, jika terulang di sepanjang proses, timbang sebagai bukti budaya dalam keputusan dua lensamu — memperhatikan boleh; membalas tidak."
        }
       },
       {
@@ -40015,12 +42352,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 2 — Salah grup chat"
        },
        "body": {
-        "en": "You meant to send a friend “this briefing is so boring 😭” — it landed in the internship team group, next to your supervisor's last message. Decide your next 60 seconds, then reveal.",
-        "id": "Kamu bermaksud mengirim ke teman “briefing ini membosankan banget 😭” — pesan itu malah masuk ke grup tim magang, tepat di bawah pesan terakhir supervisormu. Putuskan apa yang kamu lakukan dalam 60 detik berikutnya, lalu buka tinjauan."
+        "en": "You meant to send a friend “this briefing is so boring 😭” — it landed in the internship team group, next to your supervisor’s last message. Choose your next 60 seconds: <b>(A)</b> delete it and say nothing; <b>(B)</b> delete if possible, then one brief public repair in the same group and one private line to the supervisor; <b>(C)</b> apologise three times in the group, explain it was a joke for a friend, add a laughing emoji. <b>Indonesian variant:</b> the message was a joke about a lecturer, and it landed in the HIMA alumni group — 400 members, several of whom are the lecturer’s colleagues. Decide, then reveal.",
+        "id": "Kamu bermaksud mengirim ke teman “briefing ini membosankan banget 😭” — pesan itu masuk ke grup tim magang, tepat di bawah pesan terakhir supervisormu. Pilih 60 detik berikutnya: <b>(A)</b> hapus dan tidak berkata apa-apa; <b>(B)</b> hapus jika bisa, lalu satu perbaikan publik singkat di grup yang sama dan satu baris pribadi ke supervisor; <b>(C)</b> minta maaf tiga kali di grup, jelaskan itu candaan untuk teman, tambah emoji tertawa. <b>Varian Indonesia:</b> pesannya candaan tentang seorang dosen, dan masuk ke grup alumni HIMA — 400 anggota, beberapa di antaranya kolega dosen itu. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "Delete if the platform allows, but assume it was seen. One brief public repair in the same channel: “Apologies — that was meant for a friend and was unprofessional of me. Back to the briefing notes.” No triple apology, no jokes, no explaining the joke. Then a one-line private message to the supervisor owning it the same way. Then — the actual repair — visibly engaged work the rest of the week. The error is survivable; the cover-up (“my account was borrowed”) or the spiral of apologies is what converts a slip into a character verdict.",
-        "id": "Hapus kalau platformnya memungkinkan, tetapi anggap pesan itu sudah terbaca. Satu perbaikan singkat di ruang yang sama: “Mohon maaf — pesan itu untuk teman saya, dan itu tidak profesional. Kembali ke catatan briefing.” Tanpa minta maaf tiga kali, tanpa bercanda, tanpa menjelaskan candaannya. Lalu satu baris pesan pribadi ke supervisor yang mengakuinya dengan cara yang sama. Lalu — inilah perbaikan yang sesungguhnya — kerja yang terlihat sungguh-sungguh sepanjang sisa minggu itu. Kesalahannya masih bisa diselamatkan; yang mengubah keseleo menjadi vonis karakter adalah menutup-nutupinya (“akun saya dipinjam orang”) atau permintaan maaf yang berulang-ulang."
+        "en": "<b>(B).</b> Delete if the platform allows, but assume it was seen. One brief public repair in the same channel: “Apologies — that was meant for a friend and was unprofessional of me. Back to the briefing notes.” No triple apology, no jokes, no explaining the joke — that is (C), which keeps the error on screen three times longer and adds a laughing emoji to a supervisor’s thread. (A) is the cover-up: everyone saw it, and silence reads as either obliviousness or hope, neither of which is a work sample you want. Then a one-line private message to the supervisor owning it the same way. Then — the actual repair — visibly engaged work the rest of the week. <b>Indonesian variant:</b> the same move in the register of a 400-person room: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” No naming of the lecturer, no “it was only a joke”, no defence — and a private, formal apology to the lecturer if they are in the group or will certainly hear. Face is preserved for everyone by making the repair short; the spiral is what removes it.",
+        "id": "<b>(B).</b> Hapus jika platformnya memungkinkan, tetapi anggap sudah terlihat. Satu perbaikan publik singkat di saluran yang sama: “Mohon maaf — pesan itu untuk teman saya dan tidak profesional. Kembali ke catatan briefing.” Tanpa minta maaf tiga kali, tanpa candaan, tanpa menjelaskan candaannya — itu (C), yang menjaga kesalahan di layar tiga kali lebih lama dan menambah emoji tertawa ke utas supervisor. (A) adalah menutup-nutupi: semua melihatnya, dan keheningan terbaca sebagai ketidaksadaran atau harapan, keduanya bukan contoh kerja yang kamu inginkan. Lalu satu baris pesan pribadi ke supervisor yang mengakuinya dengan cara yang sama. Lalu — perbaikan sebenarnya — kerja yang terlihat sungguh-sungguh sepanjang sisa minggu. <b>Varian Indonesia:</b> langkah yang sama dalam register ruangan 400 orang: “Mohon maaf, pesan tadi salah kirim dan tidak pantas di grup ini. Saya tarik dan mohon maaf kepada semua yang membacanya.” Tanpa menyebut dosennya, tanpa “cuma bercanda”, tanpa pembelaan — dan permintaan maaf pribadi yang formal kepada dosen jika ia ada di grup atau pasti akan mendengar. Muka dijaga untuk semua orang dengan membuat perbaikannya singkat; berputar-putarlah yang menghilangkannya."
        }
       },
       {
@@ -40029,12 +42366,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 3 — Dikoreksi di depan umum"
        },
        "body": {
-        "en": "On LinkedIn, a senior professional comments on your data-analysis post: “This is wrong, junior analysts shouldn't post about methods they don't understand.” Your analysis is, in fact, correct. Decide, then reveal.",
-        "id": "Di LinkedIn, seorang profesional senior mengomentari unggahan analisis datamu: “Ini salah, analis junior sebaiknya tidak mengunggah metode yang tidak mereka pahami.” Analisismu sebenarnya benar. Putuskan, lalu buka tinjauan."
+        "en": "On LinkedIn, a senior professional comments on your data-analysis post: “This is wrong, junior analysts shouldn’t post about methods they don’t understand.” Your analysis is, in fact, correct. Choose: <b>(A)</b> delete the post; <b>(B)</b> one technical, temperature-zero reply citing your source, leaving room to be corrected, then stop; <b>(C)</b> reply in kind, pointing out that he should have read it properly. <b>Indonesian variant:</b> the correction comes from a senior in a group video call with your whole MT cohort — “Itu salah, Nadia, turnover bukan dihitung begitu” — and you are sure of your method. Decide, then reveal.",
+        "id": "Di LinkedIn, seorang profesional senior mengomentari unggahan analisis datamu: “Ini salah, analis junior sebaiknya tidak mengunggah metode yang tidak mereka pahami.” Analisismu sebenarnya benar. Pilih: <b>(A)</b> hapus unggahannya; <b>(B)</b> satu balasan teknis tanpa emosi yang mengutip sumbermu, menyisakan ruang untuk dikoreksi, lalu berhenti; <b>(C)</b> balas dengan nada serupa, menunjukkan bahwa ia seharusnya membaca dengan benar. <b>Varian Indonesia:</b> koreksinya datang dari senior dalam panggilan video grup dengan seluruh angkatan MT-mu — “Itu salah, Nadia, turnover bukan dihitung begitu” — dan kamu yakin dengan metodemu. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "One reply, technical and temperature-zero: “Thank you for reading. The method follows [source/reasoning] — happy to be corrected on specifics if I've misapplied it.” Then stop; no second round regardless of their reply. Never delete a correct post under pressure, and never match the condescension — every future recruiter reading the thread sees a composed professional and a rude senior, which is the best outcome available. If they turn out right on a specific: thank them and amend visibly, which converts the incident into public evidence of exactly the coachability employers seek.",
-        "id": "Satu balasan, teknis dan tanpa emosi sama sekali: “Terima kasih sudah membaca. Metodenya mengikuti [sumber/penalaran] — saya terbuka dikoreksi pada hal yang spesifik kalau memang saya salah menerapkannya.” Lalu berhenti; tidak ada ronde kedua, apa pun balasannya. Jangan pernah menghapus unggahan yang benar karena tekanan, dan jangan pernah membalas nada merendahkannya — setiap perekrut yang kelak membaca utas itu akan melihat seorang profesional yang tenang dan seorang senior yang kasar, dan itulah hasil terbaik yang tersedia. Kalau ternyata mereka benar pada satu hal spesifik: ucapkan terima kasih dan perbaiki secara terbuka, yang mengubah insiden itu menjadi bukti publik bahwa kamu mudah dibina — persis yang dicari perusahaan."
+        "en": "<b>(B).</b> One reply, technical and temperature-zero: “Thank you for reading. The method follows [source/reasoning] — happy to be corrected on specifics if I have misapplied it.” Then stop; no second round regardless of their reply. Never delete a correct post under pressure (A) — it concedes an error you did not make and removes the evidence that you were composed. Never match the condescension (C): every future recruiter reading the thread should see a composed professional and a rude senior, which is the best outcome available. If they turn out right on a specific: thank them and amend visibly, which converts the incident into public evidence of exactly the coachability employers seek. <b>Indonesian variant:</b> same move, one rung more formal, and never a contest in front of the cohort: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” It holds the correct position, gives him a face-preserving exit (“after the session”), and moves the detail to a private channel where he can agree without losing anything in front of twenty juniors. If he is right, the amendment is made in the same call, briefly: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”",
+        "id": "<b>(B).</b> Satu balasan, teknis dan tanpa emosi: “Terima kasih sudah membaca. Metodenya mengikuti [sumber/penalaran] — saya terbuka dikoreksi pada hal spesifik jika saya salah menerapkannya.” Lalu berhenti; tanpa ronde kedua apa pun balasannya. Jangan pernah hapus unggahan yang benar karena tekanan (A) — itu mengakui kesalahan yang tidak kamu buat dan menghapus bukti bahwa kamu tenang. Jangan pernah samai nada merendahkannya (C): setiap rekruter yang kelak membaca utas harus melihat profesional yang tenang dan senior yang kasar, hasil terbaik yang tersedia. Jika ia ternyata benar pada satu hal spesifik: berterima kasih dan perbaiki secara terbuka, yang mengubah insiden menjadi bukti publik bahwa kamu mudah dibina — persis yang dicari perusahaan. <b>Varian Indonesia:</b> langkah yang sama, satu anak tangga lebih formal, dan jangan pernah adu argumen di depan angkatan: “Terima kasih, Pak. Mohon izin menjelaskan sedikit — saya memakai HPP dibagi rata-rata persediaan, mengikuti [sumber]. Kalau Bapak berkenan, saya kirimkan perhitungannya setelah sesi ini untuk dikoreksi.” Ia mempertahankan posisi yang benar, memberi jalan keluar yang menjaga muka (“setelah sesi ini”), dan memindahkan detailnya ke saluran pribadi tempat ia bisa setuju tanpa kehilangan apa pun di depan dua puluh junior. Jika ia benar, perbaikan dibuat di panggilan yang sama, singkat: “Betul, Pak — periode saya salah. Terima kasih koreksinya.”"
        }
       },
       {
@@ -40043,118 +42380,12 @@ window.MT_LMS['the-pack'] = {
         "id": "Skenario 4 — Kredit yang diambil orang"
        },
        "body": {
-        "en": "In the intern showcase, a fellow intern presents the dashboard you built — “we made this” becomes, in the retelling, “I made this”. Your supervisor was in the room. Decide, then reveal.",
-        "id": "Di acara pameran hasil magang, sesama peserta magang mempresentasikan dasbor yang kamu bangun — “kami yang membuat ini” berubah, dalam penceritaan ulang, menjadi “saya yang membuat ini”. Supervisormu ada di ruangan itu. Putuskan, lalu buka tinjauan."
+        "en": "In the intern showcase, a fellow intern presents the dashboard you built — “we made this” becomes, in the retelling, “I made this”. Your supervisor was in the room. Choose: <b>(A)</b> correct it in the room — “actually, I built the data model”; <b>(B)</b> say nothing in the room; privately and factually to the intern afterwards; make authorship legible going forward; escalate to the supervisor only if it recurs; <b>(C)</b> email the supervisor tonight with a full account. <b>Indonesian variant:</b> in an MT project, a teammate one year senior presents your analysis as theirs to the programme director, in Bahasa, in front of the cohort. Decide, then reveal.",
+        "id": "Di pameran hasil magang, sesama peserta magang mempresentasikan dasbor yang kamu bangun — “kami yang membuat ini” berubah, dalam penceritaan ulang, menjadi “saya yang membuat ini”. Supervisormu ada di ruangan. Pilih: <b>(A)</b> koreksi di ruangan — “sebenarnya, model datanya saya yang bangun”; <b>(B)</b> tidak berkata apa-apa di ruangan; secara pribadi dan faktual kepada peserta magang itu setelahnya; buat kepengarangan terbaca ke depan; eskalasi ke supervisor hanya jika terulang; <b>(C)</b> email supervisor malam ini dengan laporan lengkap. <b>Varian Indonesia:</b> dalam proyek MT, rekan setim satu tahun lebih senior mempresentasikan analisismu sebagai miliknya kepada direktur program, dalam bahasa Indonesia, di depan angkatan. Putuskan, lalu buka."
        },
        "debrief": {
-        "en": "Not in the room — public credit disputes damage the challenger regardless of merit. Two moves instead. Privately, to the intern, factual and unheated: “In the showcase the dashboard came across as your solo work — I built the data model and the visuals, so let's keep the credit accurate going forward.” Most people correct course when the observation is that calm. Structurally: make authorship legible before disputes exist — commit histories, named files, the Friday one-liners from Pack 5.2 (“shipped the dashboard v2”) — so your work carries its own record. If it recurs, one factual line to the supervisor with artefacts, framed as record-keeping, not grievance. Protecting your work and staying gracious are the same skill performed twice.",
-        "id": "Jangan di ruangan itu — sengketa kredit di depan umum merugikan pihak yang menggugat, seberapa pun benarnya. Sebagai gantinya, dua langkah. Secara pribadi, kepada peserta magang itu, faktual dan tanpa emosi: “Di pameran tadi, dasbornya terkesan sebagai karyamu sendiri — padahal aku yang membangun model data dan visualnya, jadi ke depan mari kita jaga kreditnya tetap akurat.” Kebanyakan orang akan mengoreksi diri kalau teguran disampaikan setenang itu. Secara struktural: buat kepengarangan terbaca sebelum sengketa muncul — riwayat commit, berkas yang diberi nama, laporan satu baris tiap Jumat dari Pack 5.2 (“dasbor v2 selesai”) — sehingga hasil kerjamu membawa catatannya sendiri. Kalau terulang, satu kalimat faktual kepada supervisor disertai artefaknya, dibingkai sebagai pencatatan, bukan keluhan. Melindungi hasil kerjamu dan tetap anggun adalah satu keterampilan yang sama, dimainkan dua kali."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: Four scenarios, one register — the professional move in each.",
-       "id": "Peraga 1: Empat skenario, satu nada — langkah profesional di masing-masing."
-      },
-      "title": {
-       "en": "Late interviewer · Wrong group chat · Public correction · Credit taken",
-       "id": "Pewawancara terlambat · Salah grup chat · Koreksi publik · Kredit diambil"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "The 25-minute wait",
-         "id": "Penantian 25 menit"
-        },
-        "sub": {
-         "en": "Stay on; at ten minutes one polite check-in; at twenty-five, a graceful reschedule offer",
-         "id": "Tetap di sana; di menit kesepuluh satu konfirmasi sopan; di menit dua puluh lima, tawaran penjadwalan ulang yang santun"
-        }
-       },
-       {
-        "h": {
-         "en": "The wrong group chat",
-         "id": "Salah grup chat"
-        },
-        "sub": {
-         "en": "Delete if possible, apologise briefly to the group, then privately to your supervisor",
-         "id": "Hapus bila bisa, minta maaf singkat ke grup, lalu secara pribadi ke atasanmu"
-        }
-       },
-       {
-        "h": {
-         "en": "The public correction",
-         "id": "Koreksi publik"
-        },
-        "sub": {
-         "en": "Thank, engage the substance, concede what is right — never the tone",
-         "id": "Berterima kasih, tanggapi substansinya, akui yang benar — jangan pernah nadanya"
-        }
-       },
-       {
-        "h": {
-         "en": "Credit taken",
-         "id": "Kredit diambil"
-        },
-        "sub": {
-         "en": "Privately to the intern first; the facts, calmly, to your supervisor",
-         "id": "Secara pribadi ke rekan magang itu dulu; faktanya, dengan tenang, ke atasanmu"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A two-by-two grid of the lesson's four scenarios with the professional move for each: wait politely and check in at fixed points when an interviewer is late; repair a wrong-group-chat message briefly in public and properly in private; answer a public correction on substance while ignoring its tone; and raise taken credit privately with the colleague first and factually with the supervisor.",
-       "id": "Kisi dua kali dua berisi empat skenario pelajaran ini dengan langkah profesional masing-masing: tunggu dengan sopan dan konfirmasi pada titik waktu tetap saat pewawancara terlambat; perbaiki pesan salah grup secara singkat di depan umum dan secara layak secara pribadi; jawab koreksi publik pada substansinya sambil mengabaikan nadanya; dan angkat soal kredit yang diambil secara pribadi ke rekan itu dulu dan secara faktual ke atasan."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "professional register",
-        "id": "nada profesional"
-       },
-       "def": {
-        "en": "The tone that holds assertive and polite at once — states the fact, names the need, stays warm — used identically whether the other party is a late interviewer or a senior critic.",
-        "id": "Nada yang menampung ketegasan dan kesopanan sekaligus — menyatakan fakta, menyebut kebutuhan, tetap hangat — dipakai sama persis entah pihak lain adalah pewawancara yang terlambat atau kritikus senior."
-       }
-      },
-      {
-       "term": {
-        "en": "public repair",
-        "id": "perbaikan publik"
-       },
-       "def": {
-        "en": "Correcting a public error publicly and briefly, then moving on — as opposed to a private grievance, which is raised privately with the person concerned.",
-        "id": "Mengoreksi kesalahan publik secara publik dan singkat, lalu melanjutkan — berbeda dari keluhan pribadi, yang disampaikan secara pribadi kepada orang yang bersangkutan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Across all four scenarios, what is the common thread of the professional response?",
-        "id": "Di keempat skenario, apa benang merah dari respons profesionalnya?"
-       },
-       "options": [
-        {
-         "en": "Always escalate to the highest authority available",
-         "id": "Selalu eskalasi ke atasan tertinggi yang ada"
-        },
-        {
-         "en": "Brief, factual, temperature-zero moves that repair or protect without creating a second incident",
-         "id": "Langkah yang singkat, faktual, dan tanpa emosi, yang memperbaiki atau melindungi tanpa menciptakan insiden kedua"
-        },
-        {
-         "en": "Avoid all confrontation until the internship ends",
-         "id": "Menghindari semua konfrontasi sampai magang berakhir"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Every debrief solved for the same two goals at once: the interest protected, the relationship and record intact. That both/and is the etiquette skill.",
-        "id": "Setiap tinjauan menyelesaikan dua tujuan sekaligus: kepentingan terlindungi, hubungan dan rekam jejak tetap utuh. “Dua-duanya” itulah keterampilan etiketnya."
+        "en": "<b>(B).</b> Not in the room (A) — public credit disputes damage the challenger regardless of merit. Not the supervisor first (C) — an escalation before a conversation reads as grievance, and the supervisor was in the room and may already know. Two moves instead. Privately, to the intern, factual and unheated: “In the showcase the dashboard came across as your solo work — I built the data model and the visuals, so let’s keep the credit accurate going forward.” Most people correct course when the observation is that calm. Structurally: make authorship legible before disputes exist — version histories, named files, the weekly one-liners to your supervisor (“shipped dashboard v2”) — so your work carries its own record. If it recurs, one factual line to the supervisor with artefacts, framed as record-keeping, not grievance. Protecting your work and staying gracious are the same skill performed twice. <b>Indonesian variant:</b> seniority changes the register, not the move. Privately, after the session: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Facts, forward, face preserved — and from then on, your name in the file name and a weekly one-liner to the programme mentor. Escalation, if it recurs, goes to the mentor with the files, in the same calm sentence.",
+        "id": "<b>(B).</b> Bukan di ruangan (A) — sengketa kredit di depan umum merugikan pihak yang menggugat seberapa pun benarnya. Bukan supervisor dulu (C) — eskalasi sebelum percakapan terbaca sebagai keluhan, dan supervisor ada di ruangan dan mungkin sudah tahu. Dua langkah sebagai gantinya. Secara pribadi, kepada peserta magang itu, faktual dan tanpa emosi: “Di pameran tadi, dasbornya terkesan karyamu sendiri — padahal aku yang membangun model data dan visualnya, jadi ke depan mari kita jaga kreditnya tetap akurat.” Kebanyakan orang mengoreksi diri jika pengamatannya setenang itu. Secara struktural: buat kepengarangan terbaca sebelum sengketa muncul — riwayat versi, berkas bernama, laporan satu baris mingguan ke supervisor (“dasbor v2 selesai”) — sehingga pekerjaanmu membawa catatannya sendiri. Jika terulang, satu baris faktual ke supervisor dengan artefak, dibingkai sebagai pencatatan, bukan keluhan. Melindungi hasil kerjamu dan tetap anggun adalah satu keterampilan yang dimainkan dua kali. <b>Varian Indonesia:</b> senioritas mengubah register, bukan langkahnya. Secara pribadi, setelah sesi: “Kak, boleh bicara sebentar? Tadi waktu presentasi ke Pak Direktur, analisis segmentasinya terkesan Kakak yang kerjakan sendiri — padahal modelnya saya yang bangun minggu lalu. Ke depan, boleh kita sebut kontribusinya sesuai porsinya?” Fakta, ke depan, muka terjaga — dan sejak itu, namamu di nama berkas dan laporan satu baris mingguan ke mentor program. Eskalasi, jika terulang, ke mentor dengan berkasnya, dalam kalimat tenang yang sama."
        }
       }
      ],
@@ -40162,282 +42393,1272 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Winning the argument in the group chat",
-         "id": "Memenangkan perdebatan di grup chat"
+         "en": "Mentioning the wait when the late interviewer finally arrives",
+         "id": "Menyebut waktu tunggu saat pewawancara yang terlambat akhirnya tiba"
         },
         "fix": {
-         "en": "Take it to a direct message or a call. Public corrections cost everyone face, including you.",
-         "id": "Bawa ke pesan langsung atau telepon. Koreksi di depan umum membuat semua orang kehilangan muka, termasuk kamu."
+         "en": "“Tidak masalah sama sekali” — adapt to the shorter time; weigh it later, not in the room.",
+         "id": "“Tidak masalah sama sekali” — sesuaikan dengan waktu yang lebih pendek; timbang nanti, bukan di ruangan."
         }
        },
        {
         "h": {
-         "en": "Letting credit-taking slide to keep the peace",
-         "id": "Membiarkan pengambilan kredit demi kedamaian"
+         "en": "Deleting the wrong-group message and hoping",
+         "id": "Menghapus pesan salah grup dan berharap"
         },
         "fix": {
-         "en": "Correct the record calmly and factually, in the room where it happened: “To add context — the analysis was mine; happy to walk through it.”",
-         "id": "Luruskan dengan tenang dan faktual, di tempat kejadiannya: “Sebagai tambahan konteks — analisis itu saya yang buat; senang kalau bisa membahasnya.”"
+         "en": "One brief public repair in the same group, one private line to whoever was affected, then good work.",
+         "id": "Satu perbaikan publik singkat di grup yang sama, satu baris pribadi kepada yang terdampak, lalu kerja yang baik."
         }
        },
        {
         "h": {
-         "en": "Punishing a late interviewer",
-         "id": "Menghukum pewawancara yang terlambat"
+         "en": "Matching a senior’s condescension, or deleting a correct post",
+         "id": "Menyamai nada merendahkan senior, atau menghapus unggahan yang benar"
         },
         "fix": {
-         "en": "Their lateness is information, not an insult. Use the time to review; greet them warmly; ask how much time remains.",
-         "id": "Keterlambatan mereka adalah informasi, bukan hinaan. Gunakan waktunya untuk meninjau; sambut dengan hangat; tanyakan sisa waktu."
+         "en": "One technical, temperature-zero reply with a source; one round; stop.",
+         "id": "Satu balasan teknis tanpa emosi dengan sumber; satu ronde; berhenti."
         }
+       },
+       {
+        "h": {
+         "en": "Contesting credit in the room, or escalating before talking",
+         "id": "Memperebutkan kredit di ruangan, atau eskalasi sebelum berbicara"
+        },
+        "fix": {
+         "en": "Privately, factually, forward; authorship made legible; escalate only on recurrence.",
+         "id": "Secara pribadi, faktual, ke depan; kepengarangan dibuat terbaca; eskalasi hanya jika terulang."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Test of your defaults",
+        "id": "Ujian setelan bawaanmu"
+       },
+       "def": {
+        "en": "The principle: other people’s rudeness is not a licence to drop your defaults; it is the moment they are for.",
+        "id": "Prinsipnya: kekasaran orang lain bukan izin untuk melepas setelanmu; itulah momen setelan itu ada."
+       }
+      },
+      {
+       "term": {
+        "en": "Public repair",
+        "id": "Perbaikan publik"
+       },
+       "def": {
+        "en": "For your own seen error: one message, same channel, what it was and that it was yours, back to work.",
+        "id": "Untuk kesalahanmu sendiri yang terlihat: satu pesan, saluran sama, apa itu dan bahwa itu milikmu, kembali bekerja."
+       }
+      },
+      {
+       "term": {
+        "en": "Private grievance",
+        "id": "Keluhan pribadi"
+       },
+       "def": {
+        "en": "For someone else’s error that cost you: with the person first, alone, facts and the forward ask; escalate only on recurrence.",
+        "id": "Untuk kesalahan orang lain yang merugikanmu: dengan orangnya dulu, berdua, fakta dan permintaan ke depan; eskalasi hanya jika terulang."
+       }
+      },
+      {
+       "term": {
+        "en": "Legible authorship",
+        "id": "Kepengarangan yang terbaca"
+       },
+       "def": {
+        "en": "Named files, version histories and weekly one-liners that let your work carry its own record before any dispute.",
+        "id": "Berkas bernama, riwayat versi, dan laporan satu baris mingguan yang membuat pekerjaanmu membawa catatannya sendiri sebelum sengketa apa pun."
+       }
+      },
+      {
+       "term": {
+        "en": "Face",
+        "id": "Muka"
+       },
+       "def": {
+        "en": "The standing each person keeps in front of others; the Indonesian layer preserves it for everyone, including you, by keeping repairs brief and grievances private.",
+        "id": "Kedudukan yang dijaga tiap orang di depan orang lain; lapisan Indonesia menjaganya untuk semua orang, termasuk kamu, dengan menjaga perbaikan singkat dan keluhan pribadi."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Your user interviewer at a BUMN is 25 minutes late and does not apologise. You…",
+        "id": "Pewawancara user-mu di BUMN terlambat 25 menit dan tidak meminta maaf. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Mention politely that you have been waiting since two",
+         "id": "Sebutkan dengan sopan bahwa kamu sudah menunggu sejak jam dua"
+        },
+        {
+         "en": "Greet warmly, don’t mention the wait, adapt to the shorter time",
+         "id": "Sapa dengan hangat, jangan sebut waktu tunggu, sesuaikan dengan waktu yang lebih pendek"
+        },
+        {
+         "en": "Ask to reschedule so you get the full slot",
+         "id": "Minta dijadwalkan ulang agar mendapat slot penuh"
+        },
+        {
+         "en": "Say nothing and answer more slowly to use the time",
+         "id": "Diam saja dan jawab lebih lambat untuk memakai waktunya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "How you absorb their disruption is the strongest data point of the day; notice it, weigh it later, never in the room.",
+        "id": "Caramu menyerap gangguan mereka adalah data terkuat hari itu; perhatikan, timbang nanti, tidak pernah di ruangan."
+       }
+      },
+      {
+       "q": {
+        "en": "You sent a joke meant for friends to the HIMA alumni group. You…",
+        "id": "Kamu mengirim candaan untuk teman ke grup alumni HIMA. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Delete it and say nothing",
+         "id": "Hapus dan diam"
+        },
+        {
+         "en": "Post a brief public correction and apology in the same group, then move on",
+         "id": "Kirim koreksi dan permintaan maaf publik singkat di grup yang sama, lalu lanjutkan"
+        },
+        {
+         "en": "Apologise three times and explain the joke",
+         "id": "Minta maaf tiga kali dan jelaskan candaannya"
+        },
+        {
+         "en": "Leave the group",
+         "id": "Keluar dari grup"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Repair public errors publicly and briefly; the spiral or the cover-up is what turns a slip into a verdict.",
+        "id": "Perbaiki kesalahan publik secara publik dan singkat; berputar-putar atau menutup-nutupi yang mengubah keseleo menjadi vonis."
+       }
+      },
+      {
+       "q": {
+        "en": "A teammate presents your analysis as theirs in an MT project. You…",
+        "id": "Rekan setim mempresentasikan analisismu sebagai miliknya dalam proyek MT. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Correct it in front of the programme director",
+         "id": "Koreksi di depan direktur program"
+        },
+        {
+         "en": "Raise it privately and factually with them first; escalate only if it recurs",
+         "id": "Angkat secara pribadi dan faktual dengan mereka dulu; eskalasi hanya jika terulang"
+        },
+        {
+         "en": "Email the director tonight with a full account",
+         "id": "Email direktur malam ini dengan laporan lengkap"
+        },
+        {
+         "en": "Say nothing, ever",
+         "id": "Tidak berkata apa-apa, selamanya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Raise private grievances privately, with facts; make authorship legible; escalation is for recurrence, with artefacts.",
+        "id": "Angkat keluhan pribadi secara pribadi, dengan fakta; buat kepengarangan terbaca; eskalasi untuk pengulangan, dengan artefak."
+       }
+      }
+     ],
+     "tool": {
+      "id": "studio",
+      "mode": "letter",
+      "title": {
+       "en": "Your two repair lines",
+       "id": "Dua kalimat perbaikanmu"
+      },
+      "body": {
+       "en": "In the studio, write and save the two lines you will need on a bad day, in both languages, in the right register: the public repair (“Mohon maaf, pesan tadi salah kirim …” / “Apologies — that was meant for a friend …”) and the private grievance opener (“Kak, boleh bicara sebentar? Tadi …” / “In the showcase the work came across as …”). Add the two absorbing lines: for a late interviewer and for a senior’s correction. Four sentences you never have to compose under pressure; the last page of your follow-up kit.",
+       "id": "Di studio, tulis dan simpan dua kalimat yang akan kamu butuhkan pada hari buruk, dalam dua bahasa, dalam register yang tepat: perbaikan publik (“Mohon maaf, pesan tadi salah kirim …” / “Apologies — that was meant for a friend …”) dan pembuka keluhan pribadi (“Kak, boleh bicara sebentar? Tadi …” / “In the showcase the work came across as …”). Tambahkan dua kalimat penyerap: untuk pewawancara yang terlambat dan untuk koreksi senior. Empat kalimat yang tidak pernah harus kamu susun di bawah tekanan; halaman terakhir perangkat tindak lanjutmu."
+      },
+      "cta": {
+       "en": "Open the studio →",
+       "id": "Buka studio →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Other people’s rudeness is a test of your defaults.",
+       "id": "Kekasaran orang lain adalah ujian setelan bawaanmu."
+      },
+      {
+       "en": "Repair public errors publicly and briefly.",
+       "id": "Perbaiki kesalahan publik secara publik dan singkat."
+      },
+      {
+       "en": "Raise private grievances privately, with facts.",
+       "id": "Angkat keluhan pribadi secara pribadi, dengan fakta."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "Sources and the pressure card",
+       "id": "Sumber dan kartu tekanan"
+      },
+      "lead": {
+       "en": "The scenarios are course material; the register and channel rules they rest on are Lessons 9.1–9.2.",
+       "id": "Skenarionya materi kursus; aturan register dan saluran yang mendasarinya adalah Pelajaran 9.1–9.2."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 9.4",
+         "id": "Daftar bacaan · Pelajaran 9.4"
+        },
+        "desc": {
+         "en": "Where the principles come from.",
+         "id": "Dari mana prinsipnya berasal."
+        },
+        "body": [
+         {
+          "en": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, ch. 2, 6 — every interaction as evidence; composure as a work sample.",
+          "id": "R. N. Bolles, <i>What Color Is Your Parachute?</i>, bab 2, 6 — setiap interaksi sebagai bukti; ketenangan sebagai contoh kerja."
+         },
+         {
+          "en": "S. Dalton, <i>The 2-Hour Job Search</i>, ch. 6 — err toward subtlety; one round, then stop.",
+          "id": "S. Dalton, <i>The 2-Hour Job Search</i>, bab 6 — condong ke kehalusan; satu ronde, lalu berhenti."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four scenarios, the public/private rule and the Indonesian variants are The Pack’s own material.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat skenario, aturan publik/pribadi, dan varian Indonesia adalah materi The Pack sendiri."
+         }
+        ]
+       },
+       {
+        "kind": "checklist",
+        "title": {
+         "en": "The pressure card",
+         "id": "Kartu tekanan"
+        },
+        "desc": {
+         "en": "Read before any difficult message.",
+         "id": "Baca sebelum pesan sulit apa pun."
+        },
+        "body": [
+         {
+          "en": "Whose error is it? Mine and seen → public, brief, once. Theirs and it cost me → private, facts, forward.",
+          "id": "Kesalahan siapa? Milikku dan terlihat → publik, singkat, sekali. Milik mereka dan merugikanku → pribadi, fakta, ke depan."
+         },
+         {
+          "en": "Am I matching their tone? Then I am failing the test.",
+          "id": "Apakah aku menyamai nada mereka? Berarti aku gagal ujiannya."
+         },
+         {
+          "en": "Is this one round? A second round is never mine to start.",
+          "id": "Apakah ini satu ronde? Ronde kedua tidak pernah milikku untuk dimulai."
+         },
+         {
+          "en": "Is authorship already legible? If not, fix that this week.",
+          "id": "Apakah kepengarangan sudah terbaca? Jika belum, perbaiki minggu ini."
+         },
+         {
+          "en": "What did I notice? Write it in the tracker for the decision — not in the message.",
+          "id": "Apa yang kuperhatikan? Tulis di pelacak untuk keputusan — bukan di pesan."
+         }
+        ]
        }
       ]
      }
     },
     {
-     "n": "9.4",
-     "title": {
-      "en": "What Comes Next — The Room",
-      "id": "Setelah Ini — Ruang Wawancara"
-     },
-     "dur": {
-      "en": "10 min",
-      "id": "10 mnt"
-     },
-     "kind": "reading",
+     "n": "9.5",
+     "kind": "assignment",
      "placeholder": false,
+     "dur": {
+      "en": "90 min",
+      "id": "90 mnt"
+     },
+     "title": {
+      "en": "Capstone — The Pack Dossier and Handover to The Rope",
+      "id": "Capstone — Dossier The Pack dan Serah Terima ke The Rope"
+     },
      "overview": {
-      "en": "The Pack ends where the interview begins. This closing lesson consolidates the system you have built — funnel, documents, tests, discussions, machines, AI, manners — and hands you to The Rope, where the human conversation decides everything the system earned you.",
-      "id": "The Pack berakhir tepat di tempat wawancara dimulai. Pelajaran penutup ini merangkum sistem yang sudah kamu bangun — corong, dokumen, tes, diskusi, mesin, AI, tata krama — dan mengantarmu ke The Rope, tempat percakapan antarmanusia menentukan semua yang sudah diperjuangkan sistem itu untukmu."
+      "en": "No new case — this one is yours. Five steps assemble everything The Pack asked you to build: check the Dossier for every item from Modules 1–8 and complete what is missing; take one real application for your Top 1 target end to end — tailored CV through the quality gate, coverage table, pre-flight checklist, letter, LinkedIn consistent with both; audit the system — the tracker’s leading indicators for the last two weeks and your scheduled follow-ups; write 150–250 words on what changed in how you search; and hand over your two strongest PREP-STAR or CAROL stories to The Rope. Optional mentor review where available; self-review otherwise.",
+      "id": "Tidak ada kasus baru — yang ini milikmu. Lima langkah merakit semua yang diminta The Pack untuk kamu bangun: periksa Dossier untuk setiap butir dari Modul 1–8 dan lengkapi yang kurang; jalankan satu lamaran nyata untuk sasaran Teratas 1 dari ujung ke ujung — CV yang disesuaikan melewati gerbang mutu, tabel cakupan, daftar periksa pra-kirim, surat, LinkedIn yang konsisten dengan keduanya; audit sistemnya — indikator utama pelacak untuk dua minggu terakhir dan tindak lanjut yang terjadwal; tulis 150–250 kata tentang apa yang berubah dalam caramu mencari; dan serahkan dua cerita PREP-STAR atau CAROL terkuatmu ke The Rope. Tinjauan mentor opsional jika tersedia; tinjauan mandiri jika tidak."
      },
      "objectives": [
       {
-       "en": "Audit your Pack system: what is built, what still leaks.",
-       "id": "Mengaudit sistem Pack-mu: apa yang sudah terbangun, apa yang masih bocor."
+       "en": "Verify the Dossier holds every item from Modules 1–8 and complete the gaps.",
+       "id": "Memverifikasi Dossier memuat setiap butir dari Modul 1–8 dan melengkapi celahnya."
       },
       {
-       "en": "Read your pipeline metrics one more time and set the next training priority.",
-       "id": "Membaca metrik pipeline-mu sekali lagi dan menetapkan prioritas latihan berikutnya."
+       "en": "Run one real application end to end against the module rubrics.",
+       "id": "Menjalankan satu lamaran nyata dari ujung ke ujung terhadap rubrik modul."
       },
       {
-       "en": "Preview The Rope: what changes when the funnel turns human.",
-       "id": "Mengintip The Rope: apa yang berubah ketika corong menjadi urusan manusia."
+       "en": "Audit the search system with leading indicators and scheduled follow-ups.",
+       "id": "Mengaudit sistem pencarian dengan indikator utama dan tindak lanjut terjadwal."
+      },
+      {
+       "en": "Reflect on what changed, and hand two stories over to The Rope.",
+       "id": "Merefleksikan apa yang berubah, dan menyerahkan dua cerita ke The Rope."
       }
      ],
-     "takeawaysLead": {
-      "en": "You now run a system, and the next room asks a different kind of question. To hand yourself over to The Rope in good order, you can:",
-      "id": "Kini kamu menjalankan sebuah sistem, dan ruangan berikutnya mengajukan jenis pertanyaan yang berbeda. Untuk menyerahkan dirimu ke The Rope dengan tertib, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "You now run a system: targets, documents, drills, tracking — feedback loops where there was once hope.",
-       "id": "Sekarang kamu menjalankan sebuah sistem: target, dokumen, latihan, pelacakan — putaran umpan balik di tempat yang dulu hanya diisi harapan."
-      },
-      {
-       "en": "The funnel's remaining stages are conversations — prepared for, practised, and debriefed like everything else here.",
-       "id": "Tahap-tahap corong yang tersisa adalah percakapan — yang dipersiapkan, dilatih, dan ditinjau seperti semua hal lain di sini."
-      },
-      {
-       "en": "The room where they ask you questions is not a bigger gate; it is a different game — and it has its own training system.",
-       "id": "Ruangan tempat mereka mengajukan pertanyaan bukan gerbang yang lebih besar; itu permainan yang berbeda — dan punya sistem latihannya sendiri."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "flag",
-       "h": {
-        "en": "The system audit",
-        "id": "Audit sistem"
-       },
-       "body": {
-        "en": "Walk the checklist honestly. <b>Module 1:</b> a tiered target list and a tracker with live data. <b>Module 2:</b> master CV, LinkedIn as a search result, letter skeleton. <b>Module 7:</b> a drill routine and error log, weakest family known. <b>Module 10:</b> the six behaviours and a peer practice loop. <b>Module 2:</b> calendar of windows, evidence pipeline, decision protocol. <b>Module 4:</b> parse-safe documents, master record, pre-flight habit. <b>Module 11:</b> case rhythm and six practice cases logged. <b>Module 8:</b> AI in the loop, ownership rule intact. <b>Module 9:</b> defaults installed. Anything unchecked is this week's work — the modules stay here, and the Screening Gym keeps every drill and record you have built.",
-        "id": "Telusuri daftar periksanya dengan jujur. <b>Modul 1:</b> daftar target bertingkat dan pelacak dengan data yang hidup. <b>Modul 2:</b> CV induk, LinkedIn yang tampil sebagai hasil pencarian, kerangka surat lamaran. <b>Modul 7:</b> rutinitas latihan dan catatan kesalahan, keluarga tes terlemah sudah diketahui. <b>Modul 10:</b> enam perilaku dan putaran latihan bersama teman. <b>Modul 2:</b> kalender jendela waktu, pipeline bukti, protokol keputusan. <b>Modul 4:</b> dokumen yang aman diurai, catatan induk, kebiasaan pemeriksaan pra-kirim. <b>Modul 11:</b> ritme kasus dan enam kasus latihan yang tercatat. <b>Modul 8:</b> AI dalam alur kerja, aturan kepemilikan tetap utuh. <b>Modul 9:</b> setelan bawaan sudah terpasang. Apa pun yang belum tercentang adalah pekerjaan minggu ini — modulnya tetap ada di sini, dan Screening Gym menyimpan setiap latihan dan catatan yang sudah kamu bangun."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "What The Rope changes",
-        "id": "Apa yang diubah The Rope"
-       },
-       "body": {
-        "en": "Everything in The Pack optimised signals read by machines and strangers at speed. The interview inverts the physics: a human, in conversation, with time, probing not whether your keywords match but whether your stories are true, your thinking holds under follow-ups, and your presence belongs in their team. New rules apply — story architecture (STAR-L), competency decoding, format-specific performance across HR, technical, user and final rounds, live simulation with honest feedback, and eventually the offer itself. The Rope trains all of it the way The Pack trained the funnel: system, drills, debriefs, repetition. Your Pack artefacts travel with you — the CV seeds the stories, the JD analyses seed the answers, the tracker tells you which interviews are coming.",
-        "id": "Semua isi The Pack mengoptimalkan sinyal yang dibaca cepat oleh mesin dan orang asing. Wawancara membalik hukumnya: seorang manusia, dalam percakapan, dengan waktu yang cukup, menggali bukan apakah kata kuncimu cocok, melainkan apakah ceritamu benar, apakah pemikiranmu bertahan ketika ditanya lebih dalam, dan apakah kehadiranmu cocok di tim mereka. Aturan baru berlaku — arsitektur cerita (STAR-L), membaca kompetensi yang dicari, penampilan yang sesuai format di ronde HR, teknis, user, dan final, simulasi langsung dengan umpan balik yang jujur, dan pada akhirnya tawaran kerja itu sendiri. The Rope melatih semua itu seperti The Pack melatih corong: sistem, latihan, tinjauan, pengulangan. Artefak-artefak dari Pack ikut bersamamu — CV menjadi benih cerita, analisis deskripsi lowongan menjadi benih jawaban, pelacak memberitahumu wawancara mana yang akan datang."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The handover",
-        "id": "Serah terima"
-       },
-       "body": {
-        "en": "Before you open the next room: update the tracker so your interview pipeline is visible; pick your two strongest CV bullets and write, for each, the fuller story behind it — you will need them within The Rope's first module; and book your drills for the week regardless, because screening stages keep arriving while you train for interviews. The climb continues on the same mountain. Different rope, same climber — better equipped than the one who started this course.",
-        "id": "Sebelum membuka ruangan berikutnya: perbarui pelacakmu supaya pipeline wawancaramu terlihat; pilih dua butir CV terkuatmu dan tulis, untuk masing-masing, cerita yang lebih lengkap di baliknya — kamu akan membutuhkannya di modul pertama The Rope; dan jadwalkan latihan minggu ini apa pun yang terjadi, karena tahap-tahap seleksi terus berdatangan selagi kamu berlatih wawancara. Pendakian berlanjut di gunung yang sama. Tali yang berbeda, pendaki yang sama — dengan bekal yang lebih baik daripada saat memulai kursus ini."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The handover — audit the system, then carry three things into the next room.",
-       "id": "Peraga 1: Serah terima — audit sistemnya, lalu bawa tiga hal ke ruangan berikutnya."
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how the capstone works",
+       "id": "Baca dulu · cara kerja capstone"
       },
       "title": {
-       "en": "System audit → Tracker updated → Two stories written → Drills booked → The Rope",
-       "id": "Audit sistem → Pelacak diperbarui → Dua cerita ditulis → Latihan dijadwalkan → The Rope"
+       "en": "This one is yours",
+       "id": "Yang ini milikmu"
       },
-      "items": [
+      "intro": {
+       "en": "Every earlier case was Nadia’s. The capstone uses your own Dossier, your own Top 1 target and your own tracker. The case file has three tabs: the Dossier checklist for Modules 1–8, the rubrics each item is judged against, and the handover to The Rope.",
+       "id": "Setiap kasus sebelumnya milik Nadia. Capstone memakai Dossier-mu sendiri, sasaran Teratas 1-mu sendiri, dan pelacakmu sendiri. Berkas kasus punya tiga tab: daftar periksa Dossier untuk Modul 1–8, rubrik yang menilai tiap butir, dan serah terima ke The Rope."
+      },
+      "slides": [
        {
         "h": {
+         "en": "Five steps, five written answers",
+         "id": "Lima langkah, lima jawaban tertulis"
+        },
+        "points": [
+         {
+          "en": "Dossier completeness · one real application end to end · system audit · reflection (150–250 words) · handover of two stories.",
+          "id": "Kelengkapan Dossier · satu lamaran nyata ujung ke ujung · audit sistem · refleksi (150–250 kata) · serah terima dua cerita."
+         },
+         {
+          "en": "Where a step asks for a document, describe it and its gate result; the documents themselves live in the studio and the tracker.",
+          "id": "Jika langkah meminta dokumen, jelaskan dokumen itu dan hasil gerbangnya; dokumennya sendiri hidup di studio dan pelacak."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Review",
+         "id": "Tinjauan"
+        },
+        "points": [
+         {
+          "en": "Optional mentor review against the module rubrics where a concierge is available; self-review otherwise, against the rubric tab.",
+          "id": "Tinjauan mentor opsional terhadap rubrik modul jika concierge tersedia; tinjauan mandiri jika tidak, terhadap tab rubrik."
+         },
+         {
+          "en": "Model notes open after you submit. They show what a complete submission looks like, with Nadia’s as the illustration — compare, do not copy.",
+          "id": "Catatan model terbuka setelah kamu mengumpulkan. Catatan itu menunjukkan seperti apa pengumpulan yang lengkap, dengan milik Nadia sebagai ilustrasi — bandingkan, jangan salin."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "PK9",
+      "kicker": {
+       "en": "Capstone · Your own case",
+       "id": "Capstone · Kasusmu sendiri"
+      },
+      "title": {
+       "en": "The Pack Dossier",
+       "id": "Dossier The Pack"
+      },
+      "lead": {
+       "en": "Eight modules of artefacts, one real application, a two-week audit, a reflection and two stories for the next product. Submitting this is finishing The Pack.",
+       "id": "Delapan modul artefak, satu lamaran nyata, audit dua minggu, refleksi, dan dua cerita untuk produk berikutnya. Mengumpulkan ini berarti menyelesaikan The Pack."
+      },
+      "practice": [
+       {
+        "en": "Dossier completeness",
+        "id": "Kelengkapan Dossier"
+       },
+       {
+        "en": "One application, end to end",
+        "id": "Satu lamaran, ujung ke ujung"
+       },
+       {
+        "en": "System audit",
+        "id": "Audit sistem"
+       },
+       {
+        "en": "Reflection",
+        "id": "Refleksi"
+       },
+       {
+        "en": "Handover to The Rope",
+        "id": "Serah terima ke The Rope"
+       }
+      ],
+      "goal": {
+       "en": "A Dossier with nothing missing, one application that passed every gate, a tracker that shows the system running, and two stories ready for the human gate.",
+       "id": "Dossier tanpa yang kurang, satu lamaran yang melewati setiap gerbang, pelacak yang menunjukkan sistem berjalan, dan dua cerita siap untuk gerbang manusia."
+      },
+      "brief": {
+       "email": {
+        "initials": "PK",
+        "from": {
+         "en": "Career Coach · Pusat Karier",
+         "id": "Pembimbing Karier · Pusat Karier"
+        },
+        "to": {
+         "en": "to: you",
+         "id": "kepada: kamu"
+        },
+        "date": {
+         "en": "Monday, 08:30",
+         "id": "Senin, 08.30"
+        },
+        "subject": {
+         "en": "Before The Rope: your Pack Dossier, one real application, and the handover",
+         "id": "Sebelum The Rope: Dossier The Pack-mu, satu lamaran nyata, dan serah terima"
+        },
+        "paragraphs": [
+         {
+          "en": "You have reached the last lesson of The Pack. Before the human gate, I want to see the system you built actually running — not the lessons you read, but the artefacts you made and the application you sent with them.",
+          "id": "Kamu sudah sampai di pelajaran terakhir The Pack. Sebelum gerbang manusia, saya ingin melihat sistem yang kamu bangun benar-benar berjalan — bukan pelajaran yang kamu baca, tetapi artefak yang kamu buat dan lamaran yang kamu kirim dengannya."
+         },
+         {
+          "en": "Open the Dossier panel and the tracker side by side. The checklist tab lists every item Modules 1–8 asked for; the rubric tab is what each is judged against. Take your Top 1 target and run it end to end. Then tell me, in your own words, what changed.",
+          "id": "Buka panel Dossier dan pelacak berdampingan. Tab daftar periksa mencantumkan setiap butir yang diminta Modul 1–8; tab rubrik adalah penilai masing-masing. Ambil sasaran Teratas 1-mu dan jalankan dari ujung ke ujung. Lalu ceritakan, dengan kata-katamu sendiri, apa yang berubah."
+         },
+         {
+          "en": "Finish with the handover: your two strongest stories, in PREP-STAR or CAROL form, copied where The Rope will find them. The Rope’s first module asks for them within the hour.",
+          "id": "Akhiri dengan serah terima: dua cerita terkuatmu, dalam bentuk PREP-STAR atau CAROL, disalin ke tempat The Rope akan menemukannya. Modul pertama The Rope memintanya dalam satu jam pertama."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Is every Dossier item from Modules 1–8 present — and if not, what is missing and when will it exist?",
+          "id": "Apakah setiap butir Dossier dari Modul 1–8 ada — dan jika tidak, apa yang kurang dan kapan akan ada?"
+         },
+         {
+          "en": "For your Top 1 target: did the CV pass the gate, what did the coverage table show, did the pre-flight pass, does the letter and LinkedIn agree with it?",
+          "id": "Untuk sasaran Teratas 1-mu: apakah CV melewati gerbang, apa yang ditunjukkan tabel cakupan, apakah pra-kirim lolos, apakah surat dan LinkedIn sejalan dengannya?"
+         },
+         {
+          "en": "What do the last two weeks of leading indicators say, and what is scheduled for the next two?",
+          "id": "Apa yang dikatakan indikator utama dua minggu terakhir, dan apa yang terjadwal untuk dua minggu berikutnya?"
+         },
+         {
+          "en": "What changed in how you search — and which two stories go to The Rope?",
+          "id": "Apa yang berubah dalam caramu mencari — dan dua cerita mana yang ke The Rope?"
+         }
+        ],
+        "closing": [
+         {
+          "en": "See you on the other side of the paper gate. — Pusat Karier",
+          "id": "Sampai jumpa di seberang gerbang kertas. — Pusat Karier"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "check",
+         "k": {
+          "en": "8 modules",
+          "id": "8 modul"
+         },
+         "v": {
+          "en": "every Dossier item from Modules 1–8 must exist, or be named as missing with a date",
+          "id": "setiap butir Dossier dari Modul 1–8 harus ada, atau disebut kurang dengan tanggal"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "Top 1",
+          "id": "Teratas 1"
+         },
+         "v": {
+          "en": "one real application, end to end: CV gate · coverage table · pre-flight · letter · LinkedIn consistent",
+          "id": "satu lamaran nyata, ujung ke ujung: gerbang CV · tabel cakupan · pra-kirim · surat · LinkedIn konsisten"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "2 weeks",
+          "id": "2 minggu"
+         },
+         "v": {
+          "en": "the tracker’s leading indicators — messages sent, conversations held, applications submitted, follow-ups due",
+          "id": "indikator utama pelacak — pesan terkirim, percakapan terjadi, lamaran terkirim, tindak lanjut jatuh tempo"
+         },
+         "hot": true
+        },
+        {
+         "icon": "book",
+         "k": {
+          "en": "150–250 words",
+          "id": "150–250 kata"
+         },
+         "v": {
+          "en": "the reflection: what changed in how you search",
+          "id": "refleksi: apa yang berubah dalam caramu mencari"
+         }
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "2 stories",
+          "id": "2 cerita"
+         },
+         "v": {
+          "en": "PREP-STAR or CAROL (Module 3), copied into The Rope’s story bank",
+          "id": "PREP-STAR atau CAROL (Modul 3), disalin ke bank cerita The Rope"
+         }
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Review",
+          "id": "Tinjauan"
+         },
+         "v": {
+          "en": "optional mentor review (concierge, where available) against the module rubrics; self-review otherwise",
+          "id": "tinjauan mentor opsional (concierge, jika tersedia) terhadap rubrik modul; tinjauan mandiri jika tidak"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Dossier checklist",
+          "id": "Daftar periksa Dossier"
+         },
+         "title": {
+          "en": "Every item Modules 1–8 asked for",
+          "id": "Setiap butir yang diminta Modul 1–8"
+         },
+         "meta": {
+          "en": "Tick each against your Dossier panel",
+          "id": "Centang masing-masing terhadap panel Dossier-mu"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "<b>Module 1</b> · Search Diagnosis · Pipeline Tracker with leading indicators",
+             "id": "<b>Modul 1</b> · Diagnosis Pencarian · Pelacak Pipeline dengan indikator utama"
+            },
+            {
+             "en": "<b>Module 2</b> · Target List (40) · Top 5 · two outreach messages · positioning sentence",
+             "id": "<b>Modul 2</b> · Daftar Sasaran (40) · 5 Teratas · dua pesan jangkauan · kalimat pemosisian"
+            },
+            {
+             "en": "<b>Module 3</b> · Evidence Pantry · Master CV · Tailored CV v1",
+             "id": "<b>Modul 3</b> · Lemari Bukti · CV Induk · CV Tersesuaikan v1"
+            },
+            {
+             "en": "<b>Module 4</b> · Keyword Coverage Table · Pre-flight Checklist",
+             "id": "<b>Modul 4</b> · Tabel Cakupan Kata Kunci · Daftar Periksa Pra-kirim"
+            },
+            {
+             "en": "<b>Module 5</b> · Profile brief · Headline A/B/C · About draft · 30-day engagement plan",
+             "id": "<b>Modul 5</b> · Brief profil · Headline A/B/C · Draf About · rencana keterlibatan 30 hari"
+            },
+            {
+             "en": "<b>Module 6</b> · English cover letter · Surat lamaran · Application email",
+             "id": "<b>Modul 6</b> · Surat pengantar Inggris · Surat lamaran · Email lamaran"
+            },
+            {
+             "en": "<b>Module 7</b> · Baseline profile · Error log · 3-week plan · Test-day checklist",
+             "id": "<b>Modul 7</b> · Profil garis dasar · Catatan kesalahan · Rencana 3 minggu · Daftar periksa hari tes"
+            },
+            {
+             "en": "<b>Module 8</b> · Personal prompt library (5 prompts) · Verification log",
+             "id": "<b>Modul 8</b> · Pustaka prompt pribadi (5 prompt) · Catatan verifikasi"
+            },
+            {
+             "en": "<b>Module 9</b> · Follow-up kit (defaults card, calendar, repair lines) · Referee brief · this capstone",
+             "id": "<b>Modul 9</b> · Perangkat tindak lanjut (kartu setelan, kalender, kalimat perbaikan) · Bekal pemberi referensi · capstone ini"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Rubrics",
+          "id": "Rubrik"
+         },
+         "title": {
+          "en": "What each item is judged against",
+          "id": "Penilai tiap butir"
+         },
+         "meta": {
+          "en": "Condensed from the module rubrics",
+          "id": "Diringkas dari rubrik modul"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "The application, end to end",
+            "id": "Lamaran, ujung ke ujung"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "<b>Tailored CV (Module 3):</b> the quality gate — every bullet verb + what + scale + result; every number from the pantry; the advertisement’s words where they are true; nothing you could not talk about for two minutes.",
+             "id": "<b>CV tersesuaikan (Modul 3):</b> gerbang mutu — setiap butir kata kerja + apa + skala + hasil; setiap angka dari lemari; kata-kata iklan jika benar; tidak ada yang tidak bisa kamu bicarakan dua menit."
+            },
+            {
+             "en": "<b>Coverage table (Module 4):</b> must-haves and nice-to-haves listed in the advertisement’s exact form; each marked present / rephrase / evidence / learn / accept; at least two-thirds of must-haves honestly present.",
+             "id": "<b>Tabel cakupan (Modul 4):</b> syarat wajib dan tambahan dalam bentuk persis iklan; masing-masing ditandai ada / ubah kata / buktikan / pelajari / terima; setidaknya dua pertiga syarat wajib ada dengan jujur."
+            },
+            {
+             "en": "<b>Pre-flight (Module 4):</b> the seven steps ticked, including file name, format, every required document, and consistency of dates and titles across CV, letter and form.",
+             "id": "<b>Pra-kirim (Modul 4):</b> tujuh langkah dicentang, termasuk nama berkas, format, setiap dokumen wajib, dan konsistensi tanggal dan jabatan di CV, surat, dan formulir."
+            },
+            {
+             "en": "<b>Letter (Module 6):</b> the eight-check audit passed — named addressee, an opening that is not a deficit, fit evidence from the CV’s angle, a verified “why them”, a close with a call to action, no mass-send tells.",
+             "id": "<b>Surat (Modul 6):</b> audit delapan pemeriksaan lolos — penerima bernama, pembuka yang bukan kekurangan, bukti kecocokan dari sudut CV, “mengapa mereka” terverifikasi, penutup dengan ajakan bertindak, tanpa tanda kirim-massal."
+            },
+            {
+             "en": "<b>LinkedIn (Module 5):</b> headline, About and experience consistent with the tailored CV and the letter — same titles, same dates, same numbers.",
+             "id": "<b>LinkedIn (Modul 5):</b> headline, About, dan pengalaman konsisten dengan CV tersesuaikan dan surat — jabatan sama, tanggal sama, angka sama."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "The system",
+            "id": "Sistem"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "<b>Tracker (Modules 1, 9):</b> every live row has a stage, a next action with a date, and — for interviews — the date they gave; follow-ups counted in working days; leading indicators visible for the last two weeks.",
+             "id": "<b>Pelacak (Modul 1, 9):</b> setiap baris aktif punya tahap, tindakan berikutnya dengan tanggal, dan — untuk wawancara — tanggal yang mereka beri; tindak lanjut dihitung dalam hari kerja; indikator utama terlihat untuk dua minggu terakhir."
+            },
+            {
+             "en": "<b>Stories (Module 3):</b> PREP-STAR or CAROL, one situation each, with numbers, ending in a result and a learning; defensible for two minutes.",
+             "id": "<b>Cerita (Modul 3):</b> PREP-STAR atau CAROL, satu situasi masing-masing, dengan angka, berakhir pada hasil dan pembelajaran; bisa dipertahankan dua menit."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Handover to The Rope",
+          "id": "Serah terima ke The Rope"
+         },
+         "title": {
+          "en": "The system audit, what The Rope changes, the handover",
+          "id": "Audit sistem, apa yang diubah The Rope, serah terima"
+         },
+         "meta": {
+          "en": "Read before Step 5",
+          "id": "Baca sebelum Langkah 5"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "The system audit",
+            "id": "Audit sistem"
+           }
+          },
+          {
+           "en": "Walk the checklist honestly. <b>Module 1:</b> a diagnosis and a tracker with live leading indicators. <b>Module 2:</b> a target list of forty, a Top 5, two outreach messages sent, a positioning sentence you can say. <b>Module 3:</b> the pantry, the master CV, a tailored CV through the gate. <b>Module 4:</b> a coverage table and a pre-flight habit. <b>Module 5:</b> a profile that reads as a search result and a 30-day plan. <b>Module 6:</b> a letter, a surat lamaran and an application email that passed the audit. <b>Module 7:</b> a baseline, an error log, a plan and a test-day checklist. <b>Module 8:</b> a prompt library and a verification log — the rule intact. <b>Module 9:</b> defaults installed, the calendar in the tracker, referees briefed. Anything unchecked is this week’s work — the modules stay here, and the Screening Gym and the studio keep every drill and document you have built.",
+           "id": "Telusuri daftar periksanya dengan jujur. <b>Modul 1:</b> diagnosis dan pelacak dengan indikator utama yang hidup. <b>Modul 2:</b> daftar sasaran empat puluh, 5 Teratas, dua pesan jangkauan terkirim, kalimat pemosisian yang bisa kamu ucapkan. <b>Modul 3:</b> lemari, CV induk, CV tersesuaikan yang melewati gerbang. <b>Modul 4:</b> tabel cakupan dan kebiasaan pra-kirim. <b>Modul 5:</b> profil yang terbaca sebagai hasil pencarian dan rencana 30 hari. <b>Modul 6:</b> surat, surat lamaran, dan email lamaran yang lolos audit. <b>Modul 7:</b> garis dasar, catatan kesalahan, rencana, dan daftar periksa hari tes. <b>Modul 8:</b> pustaka prompt dan catatan verifikasi — aturannya utuh. <b>Modul 9:</b> setelan terpasang, kalender di pelacak, pemberi referensi dibekali. Apa pun yang belum tercentang adalah pekerjaan minggu ini — modulnya tetap di sini, dan Screening Gym serta studio menyimpan setiap latihan dan dokumen yang kamu bangun."
+          },
+          {
+           "h": {
+            "en": "What The Rope changes",
+            "id": "Apa yang diubah The Rope"
+           }
+          },
+          {
+           "en": "The paper gate is behind you. Everything in The Pack optimised signals read by machines and strangers at speed. The remaining stations — group assessments, case interviews, HR and user interviews, final panels — are conversations: prepared for, practised, and judged live. A human, with time, probes not whether your keywords match but whether your stories are true, your thinking holds under follow-ups, and your presence belongs in their team. The Rope trains them the way The Pack trained the funnel: system, drills, debriefs, repetition. The stories you built in Module 3 and the research habits from Module 2 go with you; the CV seeds the stories, the advertisement analyses seed the answers, and the tracker tells you which interviews are coming.",
+           "id": "Gerbang kertas sudah di belakangmu. Semua isi The Pack mengoptimalkan sinyal yang dibaca cepat oleh mesin dan orang asing. Stasiun yang tersisa — asesmen kelompok, wawancara kasus, wawancara HR dan user, panel akhir — adalah percakapan: disiapkan, dilatih, dan dinilai langsung. Seorang manusia, dengan waktu, menggali bukan apakah kata kuncimu cocok, melainkan apakah ceritamu benar, pemikiranmu bertahan saat ditanya lebih dalam, dan kehadiranmu cocok di tim mereka. The Rope melatihnya seperti The Pack melatih corong: sistem, latihan, tinjauan, pengulangan. Cerita yang kamu bangun di Modul 3 dan kebiasaan riset dari Modul 2 ikut bersamamu; CV menjadi benih cerita, analisis iklan menjadi benih jawaban, dan pelacak memberitahumu wawancara mana yang akan datang."
+          },
+          {
+           "h": {
+            "en": "The handover",
+            "id": "Serah terima"
+           }
+          },
+          {
+           "en": "Before you open the next room: update the tracker so your interview pipeline is visible; pick your two strongest stories and write each in full PREP-STAR or CAROL form — you will need them within The Rope’s first module; and book your drills for the week regardless, because screening stages keep arriving while you train for interviews. The climb continues on the same mountain. Different rope, same climber — better equipped than the one who started this course.",
+           "id": "Sebelum membuka ruangan berikutnya: perbarui pelacak agar pipeline wawancaramu terlihat; pilih dua cerita terkuatmu dan tulis masing-masing dalam bentuk PREP-STAR atau CAROL lengkap — kamu akan membutuhkannya di modul pertama The Rope; dan jadwalkan latihan minggu ini apa pun yang terjadi, karena tahap seleksi terus berdatangan selagi kamu berlatih wawancara. Pendakian berlanjut di gunung yang sama. Tali yang berbeda, pendaki yang sama — dengan bekal lebih baik daripada yang memulai kursus ini."
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Dossier completeness",
+         "id": "Kelengkapan Dossier"
+        },
+        "short": {
+         "en": "Dossier",
+         "id": "Dossier"
+        },
+        "guide": {
+         "en": "Open the Dossier panel against the checklist tab. For each of Modules 1–9, write the item and its status: done (where it lives — studio, tracker, Gym), or missing with the date it will exist. Nothing is judged here except honesty and dates.",
+         "id": "Buka panel Dossier terhadap tab daftar periksa. Untuk tiap Modul 1–9, tulis butirnya dan statusnya: selesai (di mana ia hidup — studio, pelacak, Gym), atau kurang dengan tanggal ia akan ada. Tidak ada yang dinilai di sini kecuali kejujuran dan tanggal."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Nine modules, every item, a status",
+           "id": "Sembilan modul, setiap butir, satu status"
+          },
+          "help": {
+           "en": "One line per module. Name each item; “done · studio” or “missing · by Friday”. If everything is done, say where each lives.",
+           "id": "Satu baris per modul. Sebutkan tiap butir; “selesai · studio” atau “kurang · paling lambat Jumat”. Jika semua selesai, katakan di mana masing-masing hidup."
+          },
+          "placeholder": {
+           "en": "Module 1 — Search Diagnosis: done (studio) · Pipeline Tracker: done, 14 live rows (tracker)\nModule 2 — Target List (40): done · Top 5: done · two outreach messages: 1 sent, 1 missing — by Wednesday · positioning sentence: done\nModule 3 — …\n…\nModule 9 — Follow-up kit: done · Referee brief: missing — by Friday",
+           "id": "Modul 1 — Diagnosis Pencarian: selesai (studio) · Pelacak Pipeline: selesai, 14 baris aktif (pelacak)\nModul 2 — Daftar Sasaran (40): selesai · 5 Teratas: selesai · dua pesan jangkauan: 1 terkirim, 1 kurang — paling lambat Rabu · kalimat pemosisian: selesai\nModul 3 — …\n…\nModul 9 — Perangkat tindak lanjut: selesai · Bekal pemberi referensi: kurang — paling lambat Jumat"
+          },
+          "keywords": [
+           [
+            "module 1",
+            "modul 1",
+            "tracker",
+            "pelacak",
+            "diagnosis"
+           ],
+           [
+            "target list",
+            "daftar sasaran",
+            "top 5",
+            "5 teratas",
+            "positioning",
+            "pemosisian"
+           ],
+           [
+            "pantry",
+            "lemari",
+            "master cv",
+            "cv induk",
+            "tailored",
+            "tersesuaikan"
+           ],
+           [
+            "coverage",
+            "cakupan",
+            "pre-flight",
+            "pra-kirim"
+           ],
+           [
+            "headline",
+            "about",
+            "linkedin",
+            "profile",
+            "profil"
+           ],
+           [
+            "letter",
+            "surat",
+            "email"
+           ],
+           [
+            "baseline",
+            "garis dasar",
+            "error log",
+            "catatan kesalahan",
+            "test-day",
+            "hari tes"
+           ],
+           [
+            "prompt",
+            "verification",
+            "verifikasi"
+           ],
+           [
+            "follow-up",
+            "tindak lanjut",
+            "referee",
+            "referensi"
+           ],
+           [
+            "done",
+            "selesai",
+            "missing",
+            "kurang",
+            "by ",
+            "paling lambat"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "One real application, end to end",
+         "id": "Satu lamaran nyata, ujung ke ujung"
+        },
+        "short": {
+         "en": "Application",
+         "id": "Lamaran"
+        },
+        "guide": {
+         "en": "Your Top 1 target. Report each gate with its result: the tailored CV against the Module 3 quality gate; the coverage table (how many must-haves, how many honestly present, which closes you used); the pre-flight (seven steps, anything that failed and was fixed); the letter against the eight checks; and the three lines where CV, letter and LinkedIn had to be made to agree.",
+         "id": "Sasaran Teratas 1-mu. Laporkan tiap gerbang dengan hasilnya: CV tersesuaikan terhadap gerbang mutu Modul 3; tabel cakupan (berapa syarat wajib, berapa yang ada dengan jujur, penutup mana yang kamu pakai); pra-kirim (tujuh langkah, apa pun yang gagal dan diperbaiki); surat terhadap delapan pemeriksaan; dan tiga baris di mana CV, surat, dan LinkedIn harus disamakan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 130,
+          "rows": 14,
+          "title": {
+           "en": "Five gates, five results",
+           "id": "Lima gerbang, lima hasil"
+          },
+          "help": {
+           "en": "Name the employer and role. Give numbers: must-haves present out of total; pre-flight steps that failed first time; the eight-check result. Say what you changed to make the three documents consistent.",
+           "id": "Sebutkan perusahaan dan perannya. Beri angka: syarat wajib yang ada dari total; langkah pra-kirim yang gagal pertama kali; hasil delapan pemeriksaan. Katakan apa yang kamu ubah agar ketiga dokumen konsisten."
+          },
+          "placeholder": {
+           "en": "Target: [employer], [role], closes [date].\nCV gate: 11 bullets; 9 passed first time; 2 rewritten (no scale / no result) …\nCoverage: 7 must-haves, 5 present in exact form, 1 rephrased, 1 “learn” (SQL, module 2 of 6) …\nPre-flight: step 4 failed (transcript scan over 2 MB) — fixed …\nLetter: 8/8 after adding a named addressee and a call to action …\nConsistency: internship dates on LinkedIn said “2025” — changed to Jun–Aug 2025 to match CV and letter …",
+           "id": "Sasaran: [perusahaan], [peran], tutup [tanggal].\nGerbang CV: 11 butir; 9 lolos pertama kali; 2 ditulis ulang (tanpa skala / tanpa hasil) …\nCakupan: 7 syarat wajib, 5 ada dalam bentuk persis, 1 diubah kata, 1 “pelajari” (SQL, modul 2 dari 6) …\nPra-kirim: langkah 4 gagal (pindaian transkrip lebih dari 2 MB) — diperbaiki …\nSurat: 8/8 setelah menambah penerima bernama dan ajakan bertindak …\nKonsistensi: tanggal magang di LinkedIn tertulis “2025” — diubah ke Jun–Agu 2025 agar cocok dengan CV dan surat …"
+          },
+          "keywords": [
+           [
+            "target",
+            "sasaran",
+            "employer",
+            "perusahaan",
+            "role",
+            "peran"
+           ],
+           [
+            "cv",
+            "bullet",
+            "butir",
+            "gate",
+            "gerbang"
+           ],
+           [
+            "coverage",
+            "cakupan",
+            "must-have",
+            "syarat wajib",
+            "exact",
+            "persis"
+           ],
+           [
+            "pre-flight",
+            "pra-kirim",
+            "step",
+            "langkah",
+            "file",
+            "berkas"
+           ],
+           [
+            "letter",
+            "surat",
+            "addressee",
+            "penerima",
+            "call to action",
+            "ajakan"
+           ],
+           [
+            "linkedin",
+            "consistent",
+            "konsisten",
+            "dates",
+            "tanggal",
+            "title",
+            "jabatan"
+           ],
+           [
+            "learn",
+            "pelajari",
+            "rephrase",
+            "ubah kata",
+            "evidence",
+            "buktikan",
+            "accept",
+            "terima",
+            "present",
+            "ada"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
          "en": "System audit",
          "id": "Audit sistem"
         },
-        "sub": {
-         "en": "Nine modules, one checklist — anything unchecked is this week's work",
-         "id": "Sembilan modul, satu daftar periksa — apa pun yang belum tercentang adalah pekerjaan minggu ini"
-        }
-       },
-       {
-        "h": {
-         "en": "Tracker updated",
-         "id": "Pelacak diperbarui"
+        "short": {
+         "en": "Audit",
+         "id": "Audit"
         },
-        "sub": {
-         "en": "The interview pipeline visible before the next room opens",
-         "id": "Pipeline wawancara terlihat sebelum ruangan berikutnya dibuka"
-        }
-       },
-       {
-        "h": {
-         "en": "Two stories written",
-         "id": "Dua cerita ditulis"
+        "guide": {
+         "en": "Open the tracker. For the last two weeks, report the leading indicators (Module 1): outreach messages sent, conversations held, applications submitted, interviews scheduled — with the numbers. Then the follow-up calendar (Lesson 9.2): every live row’s next action and date, counted in working days, and any row moved to hold. Finally the referee state: who has been asked, who briefed.",
+         "id": "Buka pelacak. Untuk dua minggu terakhir, laporkan indikator utama (Modul 1): pesan jangkauan terkirim, percakapan terjadi, lamaran terkirim, wawancara terjadwal — dengan angka. Lalu kalender tindak lanjut (Pelajaran 9.2): tindakan berikutnya dan tanggal setiap baris aktif, dihitung dalam hari kerja, dan baris mana pun yang dipindah ke tahan. Terakhir keadaan pemberi referensi: siapa yang sudah diminta, siapa yang dibekali."
         },
-        "sub": {
-         "en": "The fuller story behind your two strongest CV bullets",
-         "id": "Cerita lengkap di balik dua poin CV terkuatmu"
-        }
-       },
-       {
-        "h": {
-         "en": "Drills booked",
-         "id": "Latihan dijadwalkan"
-        },
-        "sub": {
-         "en": "Next week's Gym sessions in the calendar",
-         "id": "Sesi Gym minggu depan sudah di kalender"
-        }
-       },
-       {
-        "h": {
-         "en": "The Rope",
-         "id": "The Rope"
-        },
-        "sub": {
-         "en": "A human, in conversation, with time — a different gate",
-         "id": "Seorang manusia, dalam percakapan, dengan waktu — gerbang yang berbeda"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A five-step flow closing The Pack: audit the nine-module system; update the tracker so the interview pipeline is visible; write the fuller stories behind your two strongest bullets; book next week's drills; and move to The Rope, where a human conversation replaces the machine-read signals.",
-       "id": "Alur lima langkah yang menutup The Pack: audit sistem sembilan modul; perbarui pelacak agar pipeline wawancara terlihat; tulis cerita lengkap di balik dua poin terkuatmu; jadwalkan latihan minggu depan; dan lanjut ke The Rope, tempat percakapan manusia menggantikan sinyal yang dibaca mesin."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "system audit",
-        "id": "audit sistem"
-       },
-       "def": {
-        "en": "Walking the nine-module checklist honestly — target list, master CV, drill routine, behaviours, calendar, pre-flight habit, case log, AI rule, defaults — and treating anything unchecked as this week's work.",
-        "id": "Menelusuri daftar periksa sembilan modul dengan jujur — daftar target, CV induk, rutinitas latihan, perilaku, kalender, kebiasaan pra-kirim, catatan kasus, aturan AI, pengaturan bawaan — dan memperlakukan apa pun yang belum tercentang sebagai pekerjaan minggu ini."
-       }
-      },
-      {
-       "term": {
-        "en": "story bank",
-        "id": "bank cerita"
-       },
-       "def": {
-        "en": "The fuller stories behind your strongest CV bullets, written out before The Rope — the raw material its first module will turn into interview answers.",
-        "id": "Cerita lengkap di balik poin-poin CV terkuatmu, dituliskan sebelum The Rope — bahan mentah yang akan diolah modul pertamanya menjadi jawaban wawancara."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "What fundamentally changes between The Pack's stages and The Rope's?",
-        "id": "Apa yang berubah secara mendasar antara tahap-tahap The Pack dan tahap-tahap The Rope?"
-       },
-       "options": [
-        {
-         "en": "The stakes get higher but the skills are the same",
-         "id": "Taruhannya lebih tinggi, tetapi keterampilannya sama"
-        },
-        {
-         "en": "Evaluation shifts from fast signal-reading by machines and strangers to sustained human conversation probing truth, thinking and presence",
-         "id": "Penilaiannya bergeser dari pembacaan sinyal secara cepat oleh mesin dan orang asing ke percakapan manusia yang berkelanjutan, yang menggali kebenaran, cara berpikir, dan kehadiranmu"
-        },
-        {
-         "en": "Nothing — interviews are just verbal CVs",
-         "id": "Tidak ada — wawancara hanyalah CV dalam bentuk lisan"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "The funnel read signals; the room reads you. Different physics, different training — which is why the trilogy hands over here.",
-        "id": "Corong membaca sinyal; ruangan membaca dirimu. Hukum yang berbeda, latihan yang berbeda — itulah sebabnya trilogi ini berpindah tangan di sini."
-       }
-      }
-     ],
-     "resources": {
-      "items": [
-       {
-        "kind": "checklist",
-        "title": {
-         "en": "The Pack — system health check",
-         "id": "The Pack — pemeriksaan kesehatan sistem"
-        },
-        "desc": {
-         "en": "Run monthly while you are searching.",
-         "id": "Jalankan bulanan selama kamu mencari."
-        },
-        "body": [
+        "questions": [
          {
-          "en": "Target list reviewed; dead companies removed, two new ones added",
-          "id": "Daftar target ditinjau; perusahaan mati dihapus, dua yang baru ditambahkan"
-         },
-         {
-          "en": "Master record updated with anything finished this month",
-          "id": "Catatan induk diperbarui dengan apa pun yang selesai bulan ini"
-         },
-         {
-          "en": "LinkedIn audit passed (12 points)",
-          "id": "Audit LinkedIn lolos (12 poin)"
-         },
-         {
-          "en": "Tracker metrics read; one fix chosen for next month",
-          "id": "Metrik pelacak dibaca; satu perbaikan dipilih untuk bulan depan"
-         },
-         {
-          "en": "Test practice: three consecutive mocks above the line",
-          "id": "Latihan tes: tiga tes tiruan berturut-turut di atas garis"
-         },
-         {
-          "en": "One group-discussion or case practice done with a peer",
-          "id": "Satu latihan diskusi kelompok atau kasus dilakukan dengan rekan"
-         },
-         {
-          "en": "Every open process has a next action and a date",
-          "id": "Setiap proses terbuka punya tindakan berikut dan tanggalnya"
-         },
-         {
-          "en": "Story library started: one STAR-L story per CV evidence line",
-          "id": "Perpustakaan cerita dimulai: satu cerita STAR-L per baris bukti CV"
+          "id": "q3",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Two weeks back, two weeks forward",
+           "id": "Dua minggu ke belakang, dua minggu ke depan"
+          },
+          "help": {
+           "en": "Numbers for each indicator. Then a dated next action per live row. Say which rows are on hold and why. Name your referees and their brief status.",
+           "id": "Angka untuk tiap indikator. Lalu tindakan berikutnya bertanggal per baris aktif. Katakan baris mana yang ditahan dan mengapa. Sebutkan pemberi referensimu dan status bekalnya."
+          },
+          "placeholder": {
+           "en": "Last 2 weeks: 6 outreach messages · 2 conversations · 3 applications · 1 interview scheduled.\nLive rows: [employer A] — thank-you sent; follow-up 1 due [date] (10 working days after the 15th, skipping [holiday]) · [employer B] — process track, stage 2 results [date], no chase · [employer C] — hold: two follow-ups, silence …\nReferees: dosen pembimbing — asked, briefed · internship supervisor — asked, brief sent [date] …",
+           "id": "2 minggu terakhir: 6 pesan jangkauan · 2 percakapan · 3 lamaran · 1 wawancara terjadwal.\nBaris aktif: [perusahaan A] — terima kasih terkirim; tindak lanjut 1 jatuh [tanggal] (10 hari kerja setelah tanggal 15, melewati [libur]) · [perusahaan B] — jalur proses, hasil tahap 2 [tanggal], tanpa kejar · [perusahaan C] — tahan: dua tindak lanjut, hening …\nPemberi referensi: dosen pembimbing — diminta, dibekali · supervisor magang — diminta, bekal terkirim [tanggal] …"
+          },
+          "keywords": [
+           [
+            "outreach",
+            "jangkauan",
+            "messages",
+            "pesan"
+           ],
+           [
+            "conversation",
+            "percakapan"
+           ],
+           [
+            "application",
+            "lamaran",
+            "submitted",
+            "terkirim"
+           ],
+           [
+            "interview",
+            "wawancara"
+           ],
+           [
+            "follow-up",
+            "tindak lanjut",
+            "working days",
+            "hari kerja",
+            "due",
+            "jatuh"
+           ],
+           [
+            "hold",
+            "tahan",
+            "closed",
+            "tutup",
+            "process",
+            "proses"
+           ],
+           [
+            "referee",
+            "referensi",
+            "briefed",
+            "dibekali",
+            "asked",
+            "diminta"
+           ],
+           [
+            "date",
+            "tanggal",
+            "week",
+            "minggu"
+           ]
+          ]
          }
         ]
+       },
+       {
+        "title": {
+         "en": "Reflection",
+         "id": "Refleksi"
+        },
+        "short": {
+         "en": "Reflect",
+         "id": "Refleksi"
+        },
+        "guide": {
+         "en": "150–250 words: what changed in how you search? Compare the search you were running before Module 1 (the diagnosis) with the one the tracker shows now — what you stopped doing, what you started, which lesson changed it, and the one habit you are least sure will survive without the course.",
+         "id": "150–250 kata: apa yang berubah dalam caramu mencari? Bandingkan pencarian yang kamu jalankan sebelum Modul 1 (diagnosis) dengan yang ditunjukkan pelacak sekarang — apa yang kamu hentikan, apa yang kamu mulai, pelajaran mana yang mengubahnya, dan satu kebiasaan yang paling tidak kamu yakini akan bertahan tanpa kursus."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 150,
+          "max": 250,
+          "rows": 12,
+          "title": {
+           "en": "What changed in how you search",
+           "id": "Apa yang berubah dalam caramu mencari"
+          },
+          "help": {
+           "en": "Before and after, in your own words. Name at least two lessons by number. One habit at risk, and what will protect it. Stay within 150–250 words.",
+           "id": "Sebelum dan sesudah, dengan kata-katamu sendiri. Sebutkan setidaknya dua pelajaran dengan nomor. Satu kebiasaan yang berisiko, dan apa yang akan melindunginya. Tetap dalam 150–250 kata."
+          },
+          "placeholder": {
+           "en": "Before Module 1 my search was … I stopped … I started … The lesson that changed it most was … because … The habit I am least sure will survive is …, so I have …",
+           "id": "Sebelum Modul 1 pencarian saya … Saya berhenti … Saya mulai … Pelajaran yang paling mengubahnya adalah … karena … Kebiasaan yang paling tidak saya yakini bertahan adalah …, jadi saya …"
+          },
+          "keywords": [
+           [
+            "before",
+            "sebelum"
+           ],
+           [
+            "stopped",
+            "berhenti",
+            "started",
+            "mulai",
+            "changed",
+            "berubah"
+           ],
+           [
+            "lesson",
+            "pelajaran",
+            "module",
+            "modul"
+           ],
+           [
+            "habit",
+            "kebiasaan"
+           ],
+           [
+            "tracker",
+            "pelacak",
+            "pantry",
+            "lemari",
+            "follow-up",
+            "tindak lanjut",
+            "coverage",
+            "cakupan",
+            "outreach",
+            "jangkauan"
+           ],
+           [
+            "because",
+            "karena"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Handover to The Rope",
+         "id": "Serah terima ke The Rope"
+        },
+        "short": {
+         "en": "Handover",
+         "id": "Serah terima"
+        },
+        "guide": {
+         "en": "Read the handover tab. Then write your two strongest stories in full PREP-STAR or CAROL form (Module 3): each with the situation and its numbers, what you did, the result, and what you learned — the version you could defend for two minutes. Copy both into The Rope’s story bank when you open it; paste them here so the capstone holds them too.",
+         "id": "Baca tab serah terima. Lalu tulis dua cerita terkuatmu dalam bentuk PREP-STAR atau CAROL lengkap (Modul 3): masing-masing dengan situasi dan angkanya, apa yang kamu lakukan, hasilnya, dan apa yang kamu pelajari — versi yang bisa kamu pertahankan dua menit. Salin keduanya ke bank cerita The Rope saat kamu membukanya; tempel di sini agar capstone juga menyimpannya."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 160,
+          "rows": 16,
+          "title": {
+           "en": "Two stories, in full",
+           "id": "Dua cerita, lengkap"
+          },
+          "help": {
+           "en": "Label the parts (Point/Situation · Task · Action · Result · Learning, or Context · Action · Result · Outcome · Learning). Numbers in the situation and the result. Say which competency each story is evidence for.",
+           "id": "Beri label bagiannya (Poin/Situasi · Tugas · Tindakan · Hasil · Pembelajaran, atau Konteks · Tindakan · Hasil · Dampak · Pembelajaran). Angka di situasi dan hasil. Katakan kompetensi mana yang dibuktikan tiap cerita."
+          },
+          "placeholder": {
+           "en": "Story 1 — [competency]\nSituation: …\nTask: …\nAction: …\nResult: …\nLearning: …\n\nStory 2 — [competency]\n…",
+           "id": "Cerita 1 — [kompetensi]\nSituasi: …\nTugas: …\nTindakan: …\nHasil: …\nPembelajaran: …\n\nCerita 2 — [kompetensi]\n…"
+          },
+          "keywords": [
+           [
+            "situation",
+            "situasi",
+            "context",
+            "konteks",
+            "point",
+            "poin"
+           ],
+           [
+            "task",
+            "tugas"
+           ],
+           [
+            "action",
+            "tindakan"
+           ],
+           [
+            "result",
+            "hasil",
+            "outcome",
+            "dampak"
+           ],
+           [
+            "learn",
+            "pelajar",
+            "belajar"
+           ],
+           [
+            "story 2",
+            "cerita 2",
+            "second",
+            "kedua"
+           ],
+           [
+            "competency",
+            "kompetensi",
+            "evidence",
+            "bukti"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Dossier completeness — every item from Modules 1–9 named with an honest status and, where missing, a date",
+         "id": "Kelengkapan Dossier — setiap butir dari Modul 1–9 disebut dengan status jujur dan, jika kurang, tanggal"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "One application end to end — CV gate, coverage table, pre-flight, letter audit and consistency reported with numbers and results",
+         "id": "Satu lamaran ujung ke ujung — gerbang CV, tabel cakupan, pra-kirim, audit surat, dan konsistensi dilaporkan dengan angka dan hasil"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "System audit — leading indicators for two weeks, dated next actions per live row in working days, referees asked and briefed",
+         "id": "Audit sistem — indikator utama dua minggu, tindakan berikutnya bertanggal per baris aktif dalam hari kerja, pemberi referensi diminta dan dibekali"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Reflection — 150–250 words, before and after, lessons named, one habit at risk with its protection",
+         "id": "Refleksi — 150–250 kata, sebelum dan sesudah, pelajaran disebut, satu kebiasaan berisiko dengan perlindungannya"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Handover — two stories in full PREP-STAR/CAROL form with numbers, results and learning, each tied to a competency",
+         "id": "Serah terima — dua cerita dalam bentuk PREP-STAR/CAROL lengkap dengan angka, hasil, dan pembelajaran, masing-masing terkait kompetensi"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — what a complete submission looks like",
+        "id": "Catatan model — seperti apa pengumpulan yang lengkap"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The Dossier",
+          "id": "Dossier"
+         }
+        },
+        {
+         "en": "Nadia’s Step 1 had two gaps and said so: the second outreach message (Module 2) was “missing — Wednesday, to Fajar, ODP 2026, one complete WhatsApp message”, and the referee brief (Module 9) was “missing — Friday, for the Bank Sinar Nusantara supervisor, KilatPay role”. Everything else was named with its home: diagnosis and tracker in the tracker; pantry, master CV and the KilatPay tailored CV in the studio; coverage table and pre-flight in the tracker row; headline C and the About draft live on LinkedIn; the Arunika letter, the Rel Nusantara surat lamaran and the email in the studio; baseline, error log and plan in the Gym; five prompts and the verification log in the studio; the defaults card and calendar in the tracker notes. A submission that lists nine “done” with no locations has not opened the Dossier.",
+         "id": "Langkah 1 Nadia punya dua celah dan mengatakannya: pesan jangkauan kedua (Modul 2) “kurang — Rabu, ke Fajar, ODP 2026, satu pesan WhatsApp lengkap”, dan bekal pemberi referensi (Modul 9) “kurang — Jumat, untuk supervisor Bank Sinar Nusantara, peran KilatPay”. Semua yang lain disebut dengan tempatnya: diagnosis dan pelacak di pelacak; lemari, CV induk, dan CV KilatPay tersesuaikan di studio; tabel cakupan dan pra-kirim di baris pelacak; headline C dan draf About hidup di LinkedIn; surat Arunika, surat lamaran Rel Nusantara, dan email di studio; garis dasar, catatan kesalahan, dan rencana di Gym; lima prompt dan catatan verifikasi di studio; kartu setelan dan kalender di catatan pelacak. Pengumpulan yang mencantumkan sembilan “selesai” tanpa lokasi belum membuka Dossier."
+        },
+        {
+         "h": {
+          "en": "The application",
+          "id": "Lamaran"
+         }
+        },
+        {
+         "en": "Her Top 1 was KilatPay OPS-26-04. CV gate: eleven bullets, nine passed first time, two rewritten — the barista bullet lacked a result (“shortened peak waiting times” became “proposed a pre-order board for the morning rush; peak queue shorter by the manager’s count”) and the KKN bullet lacked scale (40 participants added). Coverage: seven must-haves; five present in the advertisement’s exact form; “process improvement” rephrased from “reconciliation checklist still in use”; SQL marked “learn” and closed honestly (“currently completing SQL fundamentals, module 2 of 6”); Tableau not claimed. Pre-flight: step four failed — the transcript scan was over the portal’s size limit — re-scanned and re-checked; file named as the portal asked. Letter: seven of eight first time; the missing check was the call to action, added as one sentence. Consistency: LinkedIn said the internship was “2025”; the CV and letter said Jun–Aug 2025; LinkedIn fixed. Five gates, five results, every one with a number.",
+         "id": "Teratas 1-nya adalah KilatPay OPS-26-04. Gerbang CV: sebelas butir, sembilan lolos pertama kali, dua ditulis ulang — butir barista tidak punya hasil (“memperpendek waktu tunggu puncak” menjadi “mengusulkan papan pra-pesan untuk jam sibuk pagi; antrean puncak lebih pendek menurut hitungan manajer”) dan butir KKN tidak punya skala (40 peserta ditambahkan). Cakupan: tujuh syarat wajib; lima ada dalam bentuk persis iklan; “process improvement” diubah kata dari “daftar periksa rekonsiliasi yang masih dipakai”; SQL ditandai “pelajari” dan ditutup jujur (“sedang menyelesaikan dasar-dasar SQL, modul 2 dari 6”); Tableau tidak diklaim. Pra-kirim: langkah empat gagal — pindaian transkrip melebihi batas ukuran portal — dipindai ulang dan diperiksa ulang; berkas dinamai sesuai permintaan portal. Surat: tujuh dari delapan pertama kali; pemeriksaan yang hilang adalah ajakan bertindak, ditambahkan satu kalimat. Konsistensi: LinkedIn menyebut magang “2025”; CV dan surat menyebut Jun–Agu 2025; LinkedIn diperbaiki. Lima gerbang, lima hasil, masing-masing dengan angka."
+        },
+        {
+         "h": {
+          "en": "The audit",
+          "id": "Audit"
+         }
+        },
+        {
+         "en": "Two weeks: six outreach messages, two conversations (Kak Rina’s harvest call; Ayu, ODP 2022), three applications, one interview scheduled. Live rows with dated next actions: KilatPay — thank-you sent; follow-up 1 due the 30th, ten working days after the 15th with one holiday skipped. Arunika — process track, stage results published for the 20th, no chase. PT Rel Nusantara — administrative stage, documents confirmed, no action until the announcement. Garis Lurus Logistik — one follow-up sent at day 10; hold. Rumah Rempah — interview Thursday; date to be asked in the room. Referees: dosen pembimbing asked and briefed; internship supervisor asked, brief due Friday. The rows that most submissions get wrong are the process-track ones: the audit should show zero chasing there, by design.",
+         "id": "Dua minggu: enam pesan jangkauan, dua percakapan (telepon panen Kak Rina; Ayu, ODP 2022), tiga lamaran, satu wawancara terjadwal. Baris aktif dengan tindakan berikutnya bertanggal: KilatPay — terima kasih terkirim; tindak lanjut 1 jatuh tanggal 30, sepuluh hari kerja setelah tanggal 15 dengan satu libur dilewati. Arunika — jalur proses, hasil tahap diumumkan tanggal 20, tanpa kejar. PT Rel Nusantara — tahap administrasi, dokumen dikonfirmasi, tanpa tindakan sampai pengumuman. Garis Lurus Logistik — satu tindak lanjut terkirim di hari ke-10; tahan. Rumah Rempah — wawancara Kamis; tanggal akan ditanyakan di ruangan. Pemberi referensi: dosen pembimbing diminta dan dibekali; supervisor magang diminta, bekal jatuh Jumat. Baris yang paling sering salah dalam pengumpulan adalah jalur proses: audit harus menunjukkan nol pengejaran di sana, sesuai rancangan."
+        },
+        {
+         "h": {
+          "en": "The reflection and the handover",
+          "id": "Refleksi dan serah terima"
+         }
+        },
+        {
+         "en": "A passing reflection is concrete on both sides of the change: “Before Module 1 I applied to whatever appeared on the job board that week, about twelve a month, and heard back from two. Now the tracker has forty targets in three tiers and I send six messages a week to people, not portals …” — and it names the habit at risk (for Nadia, the monthly harvest note, protected by a recurring tracker task). Two hundred words is enough; two hundred and fifty is the ceiling, and the signal will tell you. The handover stories that work are the ones already through the two-minute test: the terminal mismatch (analytical problem-solving — three branches, the recurring error, the settings fix, about thirty minutes a day, the checklist still in use, the learning about measuring before fixing) and the treasury year (ownership and integrity — Rp 120 juta, twelve events, monthly close with receipts, zero audit issues for the first time in three years, the learning about systems outlasting the person). Each is labelled, numbered, and tied to a competency The Rope will ask for by name.",
+         "id": "Refleksi yang lolos konkret di kedua sisi perubahan: “Sebelum Modul 1 saya melamar apa pun yang muncul di portal lowongan minggu itu, sekitar dua belas sebulan, dan mendapat balasan dari dua. Sekarang pelacak punya empat puluh sasaran dalam tiga tingkat dan saya mengirim enam pesan seminggu kepada orang, bukan portal …” — dan menyebut kebiasaan yang berisiko (bagi Nadia, catatan panen bulanan, dilindungi tugas pelacak berulang). Dua ratus kata cukup; dua ratus lima puluh adalah batasnya, dan sinyalnya akan memberitahumu. Cerita serah terima yang berhasil adalah yang sudah melewati uji dua menit: selisih terminal (pemecahan masalah analitis — tiga cabang, kesalahan berulang, perbaikan pengaturan, sekitar tiga puluh menit sehari, daftar periksa yang masih dipakai, pembelajaran tentang mengukur sebelum memperbaiki) dan tahun bendahara (kepemilikan dan integritas — Rp 120 juta, dua belas acara, tutup buku bulanan dengan kuitansi, nol temuan audit untuk pertama kali dalam tiga tahun, pembelajaran tentang sistem yang bertahan lebih lama dari orangnya). Masing-masing diberi label, angka, dan terkait kompetensi yang akan diminta The Rope dengan nama."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy — this one is yours. If Step 1 has no locations, open the Dossier panel. If Step 2 has no numbers, the gates were not run. If Step 3 shows a follow-up on a process-track row, re-read Lesson 9.2. If a story in Step 5 has no number in its result, it will not survive The Rope’s first drill.",
+        "id": "Bandingkan, jangan salin — yang ini milikmu. Jika Langkah 1 tidak punya lokasi, buka panel Dossier. Jika Langkah 2 tidak punya angka, gerbangnya belum dijalankan. Jika Langkah 3 menunjukkan tindak lanjut pada baris jalur proses, baca ulang Pelajaran 9.2. Jika cerita di Langkah 5 tidak punya angka di hasilnya, ia tidak akan bertahan pada latihan pertama The Rope."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as the mentor would: is anything claimed “done” that you could not open in thirty seconds? Submitting locks them on this device, opens the model notes, and completes The Pack.",
+        "id": "Baca kelima jawabanmu seperti mentor: adakah yang diklaim “selesai” yang tidak bisa kamu buka dalam tiga puluh detik? Mengumpulkan menguncinya di perangkat ini, membuka catatan model, dan menyelesaikan The Pack."
+       },
+       "button": {
+        "en": "Submit the capstone",
+        "id": "Kumpulkan capstone"
+       },
+       "doneTitle": {
+        "en": "The Pack is complete",
+        "id": "The Pack selesai"
+       },
+       "doneBody": {
+        "en": "Your Dossier is locked on this device. Compare with the model notes, finish anything you marked missing by its date, and open The Rope — your two stories go into its story bank in the first module.",
+        "id": "Dossier-mu terkunci di perangkat ini. Bandingkan dengan catatan model, selesaikan apa pun yang kamu tandai kurang sesuai tanggalnya, dan buka The Rope — dua ceritamu masuk ke bank ceritanya di modul pertama."
+       }
+      }
+     },
+     "scenario": {
+      "icon": "compass",
+      "title": {
+       "en": "What The Rope changes",
+       "id": "Apa yang diubah The Rope"
+      },
+      "body": [
+       {
+        "en": "The paper gate is behind you. Everything in The Pack optimised signals read by machines and strangers at speed. The remaining stations — group assessments, case interviews, HR and user interviews, final panels — are conversations: prepared for, practised, and judged live. A human, with time, probes not whether your keywords match but whether your stories are true, your thinking holds under follow-ups, and your presence belongs in their team. The Rope trains them the way The Pack trained the funnel: system, drills, debriefs, repetition.",
+        "id": "Gerbang kertas sudah di belakangmu. Semua isi The Pack mengoptimalkan sinyal yang dibaca cepat oleh mesin dan orang asing. Stasiun yang tersisa — asesmen kelompok, wawancara kasus, wawancara HR dan user, panel akhir — adalah percakapan: disiapkan, dilatih, dan dinilai langsung. Seorang manusia, dengan waktu, menggali bukan apakah kata kuncimu cocok, melainkan apakah ceritamu benar, pemikiranmu bertahan saat ditanya lebih dalam, dan kehadiranmu cocok di tim mereka. The Rope melatihnya seperti The Pack melatih corong: sistem, latihan, tinjauan, pengulangan."
+       },
+       {
+        "en": "The stories you built in Module 3 and the research habits from Module 2 go with you. The CV seeds the stories, the advertisement analyses seed the answers, and the tracker tells you which interviews are coming. Different rope, same climber — better equipped than the one who started this course.",
+        "id": "Cerita yang kamu bangun di Modul 3 dan kebiasaan riset dari Modul 2 ikut bersamamu. CV menjadi benih cerita, analisis iklan menjadi benih jawaban, dan pelacak memberitahumu wawancara mana yang akan datang. Tali yang berbeda, pendaki yang sama — dengan bekal lebih baik daripada yang memulai kursus ini."
        }
       ]
      },
@@ -40445,70 +43666,241 @@ window.MT_LMS['the-pack'] = {
       "items": [
        {
         "h": {
-         "en": "Treating The Pack as finished once an interview is booked",
-         "id": "Menganggap The Pack selesai begitu wawancara terjadwal"
+         "en": "Marking Dossier items “done” without a location",
+         "id": "Menandai butir Dossier “selesai” tanpa lokasi"
         },
         "fix": {
-         "en": "The system keeps running: tracker, cadence, documents per role. Interviews come from the pipeline, not instead of it.",
-         "id": "Sistemnya terus berjalan: pelacak, irama, dokumen per peran. Wawancara datang dari pipeline, bukan menggantikannya."
+         "en": "Name where each lives — studio, tracker, Gym, LinkedIn — or mark it missing with a date.",
+         "id": "Sebutkan di mana masing-masing hidup — studio, pelacak, Gym, LinkedIn — atau tandai kurang dengan tanggal."
         }
        },
        {
         "h": {
-         "en": "Arriving at The Rope without stories",
-         "id": "Tiba di The Rope tanpa cerita"
+         "en": "Reporting the application without gate results",
+         "id": "Melaporkan lamaran tanpa hasil gerbang"
         },
         "fix": {
-         "en": "Every evidence line in your CV is a story the panel will ask for. Start the story library from the master record now.",
-         "id": "Setiap baris bukti di CV-mu adalah cerita yang akan diminta panel. Mulai perpustakaan cerita dari catatan induk sekarang."
+         "en": "Numbers: bullets passed, must-haves present, pre-flight steps failed, eight-check score.",
+         "id": "Angka: butir lolos, syarat wajib ada, langkah pra-kirim gagal, skor delapan pemeriksaan."
         }
        },
        {
         "h": {
-         "en": "Dropping etiquette after the offer",
-         "id": "Meninggalkan etiket setelah tawaran"
+         "en": "A tracker with follow-ups on process-track rows",
+         "id": "Pelacak dengan tindak lanjut pada baris jalur proses"
         },
         "fix": {
-         "en": "Onboarding emails, first-day punctuality, the way you decline other offers — all of it is remembered.",
-         "id": "Email onboarding, ketepatan waktu hari pertama, cara kamu menolak tawaran lain — semuanya diingat."
+         "en": "Published timeline only; the audit should show zero chasing there.",
+         "id": "Hanya linimasa yang dipublikasikan; audit harus menunjukkan nol pengejaran di sana."
+        }
+       },
+       {
+        "h": {
+         "en": "Handover stories without numbers in the result",
+         "id": "Cerita serah terima tanpa angka di hasil"
+        },
+        "fix": {
+         "en": "Every story through the two-minute test before it goes to The Rope.",
+         "id": "Setiap cerita melewati uji dua menit sebelum ke The Rope."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Pack Dossier",
+        "id": "Dossier The Pack"
+       },
+       "def": {
+        "en": "The set of artefacts Modules 1–9 asked you to build, each living in the studio, the tracker, the Gym or LinkedIn.",
+        "id": "Kumpulan artefak yang diminta Modul 1–9 untuk kamu bangun, masing-masing hidup di studio, pelacak, Gym, atau LinkedIn."
+       }
+      },
+      {
+       "term": {
+        "en": "End to end",
+        "id": "Ujung ke ujung"
+       },
+       "def": {
+        "en": "One application through every gate: CV quality gate, coverage table, pre-flight, letter audit, LinkedIn consistency.",
+        "id": "Satu lamaran melewati setiap gerbang: gerbang mutu CV, tabel cakupan, pra-kirim, audit surat, konsistensi LinkedIn."
+       }
+      },
+      {
+       "term": {
+        "en": "Leading indicators",
+        "id": "Indikator utama"
+       },
+       "def": {
+        "en": "The activity you control — messages, conversations, applications, follow-ups — counted over two weeks; Module 1’s measure of a running system.",
+        "id": "Aktivitas yang kamu kendalikan — pesan, percakapan, lamaran, tindak lanjut — dihitung selama dua minggu; ukuran Modul 1 untuk sistem yang berjalan."
+       }
+      },
+      {
+       "term": {
+        "en": "Handover",
+        "id": "Serah terima"
+       },
+       "def": {
+        "en": "Two PREP-STAR or CAROL stories copied into The Rope’s story bank, plus an updated tracker and the week’s drills booked.",
+        "id": "Dua cerita PREP-STAR atau CAROL yang disalin ke bank cerita The Rope, plus pelacak yang diperbarui dan latihan minggu ini terjadwal."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Step 1 asks for Dossier completeness. A passing answer…",
+        "id": "Langkah 1 meminta kelengkapan Dossier. Jawaban yang lolos…"
+       },
+       "options": [
+        {
+         "en": "Lists every item as done",
+         "id": "Mencantumkan setiap butir sebagai selesai"
+        },
+        {
+         "en": "Names each item with where it lives, or marks it missing with a date",
+         "id": "Menyebut tiap butir dengan tempatnya, atau menandai kurang dengan tanggal"
+        },
+        {
+         "en": "Describes the lessons you read",
+         "id": "Menjelaskan pelajaran yang kamu baca"
+        },
+        {
+         "en": "Skips modules whose items are missing",
+         "id": "Melewati modul yang butirnya kurang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Honesty and dates are the only things judged; “done” without a location is not verifiable.",
+        "id": "Kejujuran dan tanggal satu-satunya yang dinilai; “selesai” tanpa lokasi tidak bisa diverifikasi."
+       }
+      },
+      {
+       "q": {
+        "en": "Your tracker shows a follow-up email sent to a BUMN joint-recruitment portal row at day 7. In the system audit this is…",
+        "id": "Pelacakmu menunjukkan email tindak lanjut ke baris portal rekrutmen bersama BUMN di hari ke-7. Dalam audit sistem ini…"
+       },
+       "options": [
+        {
+         "en": "Good initiative",
+         "id": "Inisiatif yang baik"
+        },
+        {
+         "en": "An error — process-track rows follow the published timeline; zero chasing",
+         "id": "Kesalahan — baris jalur proses mengikuti linimasa yang dipublikasikan; nol pengejaran"
+        },
+        {
+         "en": "Fine if it was polite",
+         "id": "Tidak apa-apa jika sopan"
+        },
+        {
+         "en": "Required by Lesson 9.2",
+         "id": "Diwajibkan Pelajaran 9.2"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Lesson 9.2’s table gives process-track applications a ceiling of zero; one query only after two weeks of overrun.",
+        "id": "Tabel Pelajaran 9.2 memberi lamaran jalur proses batas nol; satu pertanyaan hanya setelah dua minggu keterlambatan."
+       }
+      },
+      {
+       "q": {
+        "en": "Which story is ready for the handover to The Rope?",
+        "id": "Cerita mana yang siap untuk serah terima ke The Rope?"
+       },
+       "options": [
+        {
+         "en": "“I was treasurer and did a good job with the finances”",
+         "id": "“Saya bendahara dan mengelola keuangan dengan baik”"
+        },
+        {
+         "en": "Situation with numbers, action, result with a number, learning — defensible for two minutes",
+         "id": "Situasi dengan angka, tindakan, hasil dengan angka, pembelajaran — bisa dipertahankan dua menit"
+        },
+        {
+         "en": "A story about a teammate’s achievement",
+         "id": "Cerita tentang pencapaian rekan setim"
+        },
+        {
+         "en": "The longest story you have",
+         "id": "Cerita terpanjang yang kamu punya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The Rope’s first drill probes every line; a story without a numbered result does not survive it.",
+        "id": "Latihan pertama The Rope menggali setiap baris; cerita tanpa hasil berangka tidak bertahan."
+       }
+      }
+     ],
+     "tool": {
+      "id": "gym",
+      "mode": "tracker",
+      "title": {
+       "en": "The last audit in The Pack",
+       "id": "Audit terakhir di The Pack"
+      },
+      "body": {
+       "en": "Open the tracker and make the system audit true before you write it: every live row with a stage, a next action and a date in working days; process-track rows with no follow-ups; interview rows with the date they gave; the last two weeks’ leading indicators visible. Then open the studio and copy your two stories into the handover note. When both are done, Step 3 and Step 5 write themselves.",
+       "id": "Buka pelacak dan jadikan audit sistem benar sebelum kamu menulisnya: setiap baris aktif dengan tahap, tindakan berikutnya, dan tanggal dalam hari kerja; baris jalur proses tanpa tindak lanjut; baris wawancara dengan tanggal yang mereka beri; indikator utama dua minggu terakhir terlihat. Lalu buka studio dan salin dua ceritamu ke catatan serah terima. Saat keduanya selesai, Langkah 3 dan Langkah 5 menulis dirinya sendiri."
+      },
+      "cta": {
+       "en": "Open the tracker →",
+       "id": "Buka pelacak →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The Dossier is complete when every item can be opened in thirty seconds — or is named as missing with a date.",
+       "id": "Dossier lengkap ketika setiap butir bisa dibuka dalam tiga puluh detik — atau disebut kurang dengan tanggal."
+      },
+      {
+       "en": "One real application through every gate proves the system; the tracker’s two weeks prove it is running.",
+       "id": "Satu lamaran nyata melewati setiap gerbang membuktikan sistemnya; dua minggu pelacak membuktikan ia berjalan."
+      },
+      {
+       "en": "Different rope, same climber — two stories, an updated tracker, and the week’s drills go with you.",
+       "id": "Tali yang berbeda, pendaki yang sama — dua cerita, pelacak yang diperbarui, dan latihan minggu ini ikut bersamamu."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Modules 1–8 · the funnel, mastered",
-        "id": "Modul 1–8 · corong yang dikuasai"
+        "en": "Modules 1–9",
+        "id": "Modul 1–9"
        },
        "desc": {
-        "en": "A measured search, documents that pass three judges, trained tests, scored behaviours, a parse-safe file and disciplined AI.",
-        "id": "Pencarian yang terukur, dokumen yang lolos tiga juri, tes yang terlatih, perilaku yang dinilai, berkas aman-parser, dan AI yang disiplin."
+        "en": "Diagnosis and tracker, targets and outreach, the CV, the ATS gate, LinkedIn, letters, tests, AI tools, etiquette and follow-through.",
+        "id": "Diagnosis dan pelacak, sasaran dan jangkauan, CV, gerbang ATS, LinkedIn, surat, tes, alat AI, etiket dan tindak lanjut."
        }
       },
       "now": {
        "label": {
-        "en": "Module 9 · applied respect",
-        "id": "Modul 9 · rasa hormat yang diterapkan"
+        "en": "9.5 · The Pack Dossier",
+        "id": "9.5 · Dossier The Pack"
        },
        "desc": {
-        "en": "Every touchpoint of your candidacy handled the way a professional would.",
-        "id": "Setiap titik sentuh pencalonanmu ditangani sebagaimana seorang profesional."
+        "en": "You have checked the Dossier, run one application end to end, audited the system, reflected, and written your two stories.",
+        "id": "Kamu sudah memeriksa Dossier, menjalankan satu lamaran ujung ke ujung, mengaudit sistem, merefleksi, dan menulis dua ceritamu."
        }
       },
       "next": {
        "label": {
-        "en": "The Rope · the conversation that decides",
-        "id": "The Rope · percakapan yang menentukan"
+        "en": "The Rope · the human gate",
+        "id": "The Rope · gerbang manusia"
        },
        "desc": {
-        "en": "Inside the room: how interviewers decide, your story library, and the simulator with a human interviewer on video.",
-        "id": "Di dalam ruangan: cara pewawancara memutuskan, perpustakaan ceritamu, dan simulator dengan pewawancara manusia di video."
+        "en": "Group assessments, case interviews, HR and user interviews, final panels — conversations, prepared for and practised live. Your two stories go into its story bank in the first module.",
+        "id": "Asesmen kelompok, wawancara kasus, wawancara HR dan user, panel akhir — percakapan, disiapkan dan dilatih langsung. Dua ceritamu masuk ke bank ceritanya di modul pertama."
        },
        "href": "../the-rope/",
        "cta": {
-        "en": "Continue to The Rope →",
-        "id": "Lanjut ke The Rope →"
+        "en": "Open The Rope →",
+        "id": "Buka The Rope →"
        }
       }
      }
