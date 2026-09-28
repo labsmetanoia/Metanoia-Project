@@ -28050,1165 +28050,4719 @@ window.MT_LMS['the-route'] = {
     "id": "Langkah Kedua"
    },
    "overview": {
-    "en": "Module 7 of The Route focuses on the second move. Work through the lessons in order — each builds on the last.",
-    "id": "Modul 7 The Route berfokus pada langkah kedua. Kerjakan pelajarannya secara berurutan — setiap pelajaran dibangun di atas pelajaran sebelumnya."
+    "en": "The second move of a career is the first one made with real evidence behind you — and it is often decided by a bad week, a recruiter’s deadline or a friend’s new title. Four lessons and one case replace those triggers with a method: taking stock of your career capital and your position on the learning curve; evaluating a next role through four lenses against staying; using internal mobility, which keeps most of what you have built; and executing an external move in the right order, from a discreet search to a clean exit.",
+    "id": "Langkah kedua dalam karier adalah yang pertama dibuat dengan bukti nyata di belakangmu — dan sering diputuskan oleh minggu yang buruk, tenggat rekruter, atau jabatan baru seorang teman. Empat pelajaran dan satu kasus mengganti pemicu-pemicu itu dengan metode: menginventarisasi modal kariermu dan posisimu di kurva belajar; menilai peran berikutnya melalui empat lensa dibanding bertahan; memanfaatkan mobilitas internal, yang mempertahankan sebagian besar yang sudah kamu bangun; dan menjalankan perpindahan ke luar dengan urutan yang benar, dari pencarian diam-diam sampai kepergian yang rapi."
    },
    "outcome": {
-    "en": "By the end of this module you can apply the second move to your own career decisions with a concrete, repeatable method.",
-    "id": "Di akhir modul ini, kamu bisa menerapkan cara merencanakan langkah kedua pada keputusan kariermu sendiri dengan metode yang konkret dan bisa diulang."
+    "en": "By the end of this module you can judge whether and when to move, evaluate any option — including staying — on evidence through four lenses, use your organisation’s internal market and manager conversation well, read an offer and contract for risks, and resign, hand over and leave in a way that strengthens your reputation.",
+    "id": "Di akhir modul ini kamu bisa menilai apakah dan kapan pindah, mengevaluasi pilihan apa pun — termasuk bertahan — berdasarkan bukti melalui empat lensa, memanfaatkan pasar internal organisasimu dan percakapan dengan manajer dengan baik, membaca tawaran dan kontrak untuk menemukan risikonya, serta mengundurkan diri, menyerahkan pekerjaan, dan pergi dengan cara yang memperkuat reputasimu."
    },
    "lessons": [
     {
      "n": "7.1",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Career Capital and the Right Time to Move",
       "id": "Modal Karier dan Waktu yang Tepat untuk Pindah"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "The second move — your first deliberate job change — sets your trajectory more than the first job did, because this time you choose with assets. This lesson covers the timing question: reading your capital's market value, the signals that say move, and the ones that say stay.",
-      "id": "Langkah kedua — perpindahan kerja pertama yang kamu lakukan dengan sengaja — lebih menentukan lintasan kariermu daripada pekerjaan pertama, karena kali ini kamu memilih dengan bekal aset. Pelajaran ini membahas soal waktu: membaca nilai pasar dari modal kariermu, tanda-tanda yang menyuruhmu pindah, dan tanda-tanda yang menyuruhmu bertahan."
+      "en": "The second move of a career — the first one you choose with real evidence behind you — is often decided by a bad week, a recruiter’s call or a friend’s new title. This lesson replaces those triggers with a method. You will take stock of the career capital you have built, locate yourself on the learning curve of your current role, separate good reasons to move from weak ones, and write an honest ledger of what moving now would cost against moving in twelve months. The aim is not to make you stay or go, but to make the timing your decision.",
+      "id": "Langkah kedua dalam karier — yang pertama kamu pilih dengan bukti nyata di belakangmu — sering diputuskan oleh minggu yang buruk, telepon rekruter, atau jabatan baru seorang teman. Pelajaran ini mengganti pemicu-pemicu itu dengan metode. Kamu akan menginventarisasi modal karier yang sudah kamu bangun, menemukan posisimu di kurva belajar peranmu sekarang, memisahkan alasan pindah yang baik dari yang lemah, dan menulis neraca jujur tentang biaya pindah sekarang dibanding pindah dua belas bulan lagi. Tujuannya bukan membuatmu bertahan atau pergi, melainkan membuat waktunya menjadi keputusanmu."
      },
      "objectives": [
       {
-       "en": "Read your career capital's market value without applying anywhere.",
-       "id": "Membaca nilai pasar modal kariermu tanpa melamar ke mana pun."
+       "en": "Inventory the career capital you have built and what is not yet built.",
+       "id": "Menginventarisasi modal karier yang sudah kamu bangun dan yang belum."
       },
       {
-       "en": "Distinguish the four legitimate move triggers from the three false ones.",
-       "id": "Membedakan empat pemicu pindah yang sah dari tiga pemicu yang palsu."
+       "en": "Locate yourself on the learning curve of your current role.",
+       "id": "Menemukan posisimu di kurva belajar peranmu saat ini."
       },
       {
-       "en": "Time moves to capital peaks, not frustration peaks.",
-       "id": "Menentukan waktu pindah di puncak modal, bukan di puncak frustrasi."
+       "en": "Separate good reasons to move from weak ones, and spot the biases in both directions.",
+       "id": "Memisahkan alasan pindah yang baik dari yang lemah, dan mengenali bias di kedua arah."
+      },
+      {
+       "en": "Write the ledger of moving now versus in twelve months.",
+       "id": "Menulis neraca pindah sekarang versus dua belas bulan lagi."
       }
      ],
-     "takeawaysLead": {
-      "en": "The second move is chosen with assets, so the timing question is really a pricing question. To read it honestly, you can:",
-      "id": "Langkah kedua dipilih dengan aset, sehingga pertanyaan tentang waktu sebenarnya adalah pertanyaan tentang harga. Untuk membacanya dengan jujur, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Move on evidence, not on a bad week",
+       "id": "Pindah karena bukti, bukan karena minggu yang buruk"
+      },
+      "intro": {
+       "en": "The best moves are made from strength, at the top of a learning curve, with the result already in the file.",
+       "id": "Langkah terbaik dibuat dari posisi kuat, di puncak kurva belajar, dengan hasilnya sudah ada di berkas."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "What have you built?",
+         "id": "Apa yang sudah kamu bangun?"
+        },
+        "points": [
+         {
+          "en": "Skills, evidence, reputation, relationships, options.",
+          "id": "Keterampilan, bukti, reputasi, hubungan, pilihan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Where are you on the curve?",
+         "id": "Di mana kamu di kurva?"
+        },
+        "points": [
+         {
+          "en": "Still steep — stay and convert. Flat — consider moving.",
+          "id": "Masih curam — bertahan dan konversikan. Datar — pertimbangkan pindah."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Push or pull?",
+         "id": "Dorongan atau tarikan?"
+        },
+        "points": [
+         {
+          "en": "A plateau or a structural block is a reason. A bad month is a mood.",
+          "id": "Dataran tinggi atau hambatan struktural adalah alasan. Bulan yang buruk adalah suasana hati."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Now or in 12 months?",
+         "id": "Sekarang atau 12 bulan lagi?"
+        },
+        "points": [
+         {
+          "en": "Write down what each costs — in money, story and relationships.",
+          "id": "Tulis biaya masing-masing — dalam uang, cerita, dan hubungan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Move when your assets peak and compound elsewhere — not when a bad week peaks.",
-       "id": "Pindahlah ketika asetmu sedang di puncak dan bisa bertumbuh berlipat di tempat lain — bukan ketika minggu yang buruk sedang di puncaknya."
-      },
-      {
-       "en": "The market prices you continuously whether you look or not; looking quarterly is calibration, not disloyalty.",
-       "id": "Pasar terus menilai hargamu, entah kamu memperhatikannya atau tidak; menengok pasar tiap kuartal adalah kalibrasi, bukan ketidaksetiaan."
-      },
-      {
-       "en": "Staying is also a move — legitimate when yield is high, dangerous when it is merely comfortable.",
-       "id": "Bertahan juga sebuah langkah — sah ketika imbal asetnya tinggi, berbahaya ketika alasannya hanya nyaman."
-      }
-     ],
      "sections": [
       {
-       "icon": "eye",
+       "icon": "briefcase",
+       "img": "../../assets/m/04-basecamp.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "Reading your market value",
-        "id": "Membaca nilai pasarmu"
+        "en": "What you have built: the capital inventory",
+        "id": "Apa yang sudah kamu bangun: inventaris modal"
        },
        "body": {
-        "en": "Without sending one application: read live vacancies for your target next role and check which requirements you now meet (the 1.4 gap analysis, repriced by the market); note which of your skills appear in postings' first lines (those are the priced ones); watch what peers with similar profiles move into; and take the occasional recruiter call as free market data even when uninterested — “what would make a candidate compelling for this?” is a question they answer well. Log the reading quarterly in the Route Planner. The point is calibration: people who never look systematically underprice themselves, then anchor to their own underpricing in negotiations.",
-        "id": "Tanpa mengirim satu lamaran pun: baca lowongan yang sedang buka untuk peran berikutnya yang kamu tuju, dan periksa persyaratan mana yang kini sudah kamu penuhi (analisis celah dari Pelajaran 1.4, dinilai ulang oleh pasar); catat keterampilanmu mana saja yang muncul di baris-baris pertama iklan lowongan (itulah yang dihargai pasar); perhatikan ke mana rekan-rekan dengan profil serupa berpindah; dan sesekali terima telepon dari perekrut sebagai data pasar gratis, meski kamu tidak berminat — “apa yang membuat seorang kandidat menarik untuk peran ini?” adalah pertanyaan yang mereka jawab dengan baik. Catat pembacaan ini setiap kuartal di Route Planner. Intinya adalah kalibrasi: orang yang tidak pernah menengok pasar secara sistematis menilai dirinya terlalu murah, lalu berpegang pada harga murah itu sendiri saat bernegosiasi."
+        "en": "Cal Newport’s argument in <i>So Good They Can’t Ignore You</i> is that the good things in a career — interesting work, autonomy, pay, choice — are bought with <b>career capital</b>: rare and valuable skills built through deliberate effort. In Lesson 1.4 you mapped yours at the start of the course. Before any second move, take stock again, more broadly, across five kinds of capital. <b>Skills</b>: what can you now do that a good employer would pay for and that fewer people can do — not tasks you have performed, but capabilities you could demonstrate in a new setting. <b>Evidence</b>: results with numbers, witnesses and dates (Module 5’s file) — capital only counts in a move if someone new can verify it. <b>Reputation</b>: the two or three words people attach to your name (Module 4), inside and, increasingly, outside your organisation. <b>Relationships</b>: the board of Module 6 — who would take your call, vouch for you, or tell you about a role before it is posted. <b>Options</b>: financial room (savings that let you walk away from a bad offer — Module 8), portable credentials, and the absence of binding obligations such as an unexpired training bond. Then mark, for each, what is <b>not yet built</b> and what would be built by staying another year. The inventory often surprises people in both directions: some find they have more portable capital than they thought and have been underselling it; others find that most of their capital is local — relationships and reputation that would not travel — and that the result which would make them portable is six months away.",
+        "id": "Argumen Cal Newport dalam <i>So Good They Can’t Ignore You</i> adalah bahwa hal-hal baik dalam karier — pekerjaan menarik, otonomi, gaji, pilihan — dibeli dengan <b>modal karier</b>: keterampilan langka dan bernilai yang dibangun lewat usaha yang disengaja. Di Pelajaran 1.4 kamu memetakannya di awal kursus. Sebelum langkah kedua apa pun, inventarisasi lagi, lebih luas, di lima jenis modal. <b>Keterampilan</b>: apa yang kini bisa kamu lakukan yang akan dibayar pemberi kerja yang baik dan yang lebih sedikit orang bisa — bukan tugas yang pernah kamu jalankan, melainkan kapabilitas yang bisa kamu tunjukkan di tempat baru. <b>Bukti</b>: hasil dengan angka, saksi, dan tanggal (berkas Modul 5) — modal hanya dihitung dalam perpindahan jika orang baru bisa memverifikasinya. <b>Reputasi</b>: dua atau tiga kata yang melekat pada namamu (Modul 4), di dalam dan, semakin lama, di luar organisasimu. <b>Hubungan</b>: dewan dari Modul 6 — siapa yang mau mengangkat teleponmu, menjaminmu, atau memberitahumu tentang peran sebelum diumumkan. <b>Pilihan</b>: ruang finansial (tabungan yang memungkinkanmu menolak tawaran buruk — Modul 8), kredensial yang bisa dibawa, dan tidak adanya kewajiban yang mengikat seperti ikatan dinas pelatihan yang belum habis. Lalu tandai, untuk masing-masing, apa yang <b>belum dibangun</b> dan apa yang akan terbangun jika bertahan setahun lagi. Inventaris ini sering mengejutkan ke dua arah: sebagian orang menemukan modal yang bisa dibawa lebih banyak dari dugaan dan selama ini menjual dirinya terlalu murah; yang lain menemukan sebagian besar modalnya lokal — hubungan dan reputasi yang tak akan ikut pindah — dan bahwa hasil yang akan membuatnya bisa pindah masih enam bulan lagi."
        },
-       "img": "../../assets/m/06-horizon.jpg",
-       "imgPos": "center 45%"
+       "table": {
+        "cols": [
+         {
+          "en": "Capital",
+          "id": "Modal"
+         },
+         {
+          "en": "Test: would it travel?",
+          "id": "Uji: apakah bisa dibawa?"
+         },
+         {
+          "en": "Nadia (illustration)",
+          "id": "Nadia (ilustrasi)"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Skills</b>",
+           "id": "<b>Keterampilan</b>"
+          },
+          {
+           "en": "Could you demonstrate it in a new setting in your first month?",
+           "id": "Bisakah kamu menunjukkannya di tempat baru pada bulan pertama?"
+          },
+          {
+           "en": "SME credit judgement; SQL reporting; explaining models to branches",
+           "id": "Penilaian kredit UMKM; pelaporan SQL; menjelaskan model kepada cabang"
+          }
+         ],
+         [
+          {
+           "en": "<b>Evidence</b>",
+           "id": "<b>Bukti</b>"
+          },
+          {
+           "en": "Numbers, witnesses and dates a stranger could check",
+           "id": "Angka, saksi, dan tanggal yang bisa dicek orang asing"
+          },
+          {
+           "en": "Document check in 12 branches; taskforce findings adopted",
+           "id": "Cek dokumen di 12 cabang; temuan satgas diadopsi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Reputation</b>",
+           "id": "<b>Reputasi</b>"
+          },
+          {
+           "en": "Would people outside your unit use the same words?",
+           "id": "Apakah orang di luar unitmu memakai kata yang sama?"
+          },
+          {
+           "en": "“Paham data dan paham aturan” — known in two regions and one head-office unit",
+           "id": "“Paham data dan paham aturan” — dikenal di dua wilayah dan satu unit kantor pusat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Relationships</b>",
+           "id": "<b>Hubungan</b>"
+          },
+          {
+           "en": "Who outside your current chain would vouch for you?",
+           "id": "Siapa di luar rantaimu sekarang yang mau menjaminmu?"
+          },
+          {
+           "en": "Pak Arya, Mas Fajar, Mbak Rara, Dewi",
+           "id": "Pak Arya, Mas Fajar, Mbak Rara, Dewi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Options</b>",
+           "id": "<b>Pilihan</b>"
+          },
+          {
+           "en": "Savings, credentials, and no binding obligations",
+           "id": "Tabungan, kredensial, dan tanpa kewajiban mengikat"
+          },
+          {
+           "en": "Four months’ savings; a training bond with five months left",
+           "id": "Tabungan empat bulan; ikatan dinas pelatihan tersisa lima bulan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After Newport’s career-capital idea; the five-part inventory is course guidance.",
+         "id": "Mengikuti gagasan modal karier Newport; inventaris lima bagian adalah panduan kursus."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Where you are on the curve",
+        "id": "Di mana kamu di kurva"
+       },
+       "body": {
+        "en": "Every role has a learning curve. Whitney Johnson, in <i>Disrupt Yourself</i>, popularised describing it as an <b>S-curve</b>: a slow start while you learn the basics, a steep middle where competence and confidence grow quickly, and a flattening top where you have mastered the role and each extra month teaches you less. The shape suggests a rule of thumb for timing. <b>On the lower part of the curve</b>, moving usually wastes capital: you leave before the learning has turned into evidence, and the next employer sees a short stint with no result. <b>On the steep part</b>, staying usually pays: this is where most capital is built, and the results that make you portable are being produced. <b>On the flat top</b>, the case for a change — a new role inside or outside — grows each month, because you are exchanging your time for less learning while the capital you have built is at its most visible. Signs that you have reached the top: you could do most of your work half-asleep; new problems are variations of old ones; you are teaching more than you are learning; your manager relies on you but cannot stretch you further; and you can describe your last year’s results as a complete story with a beginning and an end. Two cautions. The curve can be restarted without leaving — a new portfolio, a taskforce, a secondment (Lesson 7.3) — and that is often the cheapest way to climb again. And a flat curve is a reason to <b>consider</b> moving, not proof that you should; the next role must actually start a steeper curve, which is the subject of Lesson 7.2.",
+        "id": "Setiap peran punya kurva belajar. Whitney Johnson, dalam <i>Disrupt Yourself</i>, memopulerkan cara menggambarkannya sebagai <b>kurva S</b>: awal yang lambat saat kamu mempelajari dasar-dasarnya, bagian tengah yang curam di mana kompetensi dan kepercayaan diri tumbuh cepat, dan puncak yang mendatar di mana kamu sudah menguasai peran itu dan setiap bulan tambahan mengajarimu lebih sedikit. Bentuknya menyarankan patokan kasar untuk waktu. <b>Di bagian bawah kurva</b>, pindah biasanya memboroskan modal: kamu pergi sebelum pembelajaran berubah menjadi bukti, dan pemberi kerja berikutnya melihat masa kerja singkat tanpa hasil. <b>Di bagian curam</b>, bertahan biasanya menguntungkan: di sinilah sebagian besar modal dibangun, dan hasil yang membuatmu bisa pindah sedang diciptakan. <b>Di puncak yang datar</b>, alasan untuk berubah — peran baru di dalam atau di luar — bertambah setiap bulan, karena kamu menukar waktumu dengan pembelajaran yang lebih sedikit sementara modal yang sudah kamu bangun sedang paling terlihat. Tanda bahwa kamu sudah di puncak: kamu bisa mengerjakan sebagian besar pekerjaanmu sambil setengah tidur; masalah baru hanyalah variasi masalah lama; kamu lebih banyak mengajar daripada belajar; manajermu mengandalkanmu tetapi tak bisa meregangkanmu lebih jauh; dan kamu bisa menceritakan hasil setahun terakhir sebagai kisah utuh dengan awal dan akhir. Dua peringatan. Kurva bisa dimulai ulang tanpa pergi — portofolio baru, satgas, penugasan sementara (Pelajaran 7.3) — dan itu sering cara termurah untuk mendaki lagi. Dan kurva yang datar adalah alasan untuk <b>mempertimbangkan</b> pindah, bukan bukti bahwa kamu harus pindah; peran berikutnya harus benar-benar memulai kurva yang lebih curam, yang menjadi pokok Pelajaran 7.2."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Position",
+          "id": "Posisi"
+         },
+         {
+          "en": "Signs",
+          "id": "Tandanya"
+         },
+         {
+          "en": "Default",
+          "id": "Bawaan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Launch</b>",
+           "id": "<b>Awal</b>"
+          },
+          {
+           "en": "Still learning the basics; results not yet yours",
+           "id": "Masih mempelajari dasar; hasil belum milikmu"
+          },
+          {
+           "en": "Stay and learn",
+           "id": "Bertahan dan belajar"
+          }
+         ],
+         [
+          {
+           "en": "<b>Steep</b>",
+           "id": "<b>Curam</b>"
+          },
+          {
+           "en": "Stretched most weeks; results forming",
+           "id": "Teregang hampir tiap minggu; hasil sedang terbentuk"
+          },
+          {
+           "en": "Stay and convert learning into evidence",
+           "id": "Bertahan dan ubah pembelajaran menjadi bukti"
+          }
+         ],
+         [
+          {
+           "en": "<b>Top</b>",
+           "id": "<b>Puncak</b>"
+          },
+          {
+           "en": "Teaching more than learning; complete story to tell",
+           "id": "Lebih banyak mengajar daripada belajar; ada kisah utuh untuk diceritakan"
+          },
+          {
+           "en": "Consider a new curve — inside first, then outside",
+           "id": "Pertimbangkan kurva baru — di dalam dulu, lalu di luar"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "After Whitney Johnson’s S-curve of learning; defaults are course guidance, not rules.",
+         "id": "Mengikuti kurva S pembelajaran Whitney Johnson; bawaan adalah panduan kursus, bukan aturan."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Good reasons, weak reasons, and two biases",
+        "id": "Alasan baik, alasan lemah, dan dua bias"
+       },
+       "body": {
+        "en": "Reasons to move come as <b>push</b> (something wrong where you are) and <b>pull</b> (something attractive elsewhere). Both can be good or weak. <b>Good push reasons</b>: the curve is flat and cannot be restarted inside; a <b>structural block</b> from Lesson 5.4 — a freeze, no slot, a level you cannot reach from this unit; a red line from Lesson 1.3 being crossed repeatedly; a manager relationship that has been honestly worked on and still damages your growth; health or family needs the role cannot accommodate. <b>Weak push reasons</b>: a bad month, a single conflict, a promotion that went to someone else this round without a diagnostic conversation, boredom during a steep part that is simply hard. <b>Good pull reasons</b>: a role that builds capital you cannot build here, opens a door that matters in your trajectory, with a manager and organisation that will accelerate you (Lesson 7.2). <b>Weak pull reasons</b>: a title, a bigger number alone, a friend’s move, a brand. Two biases pull in opposite directions, and you should suspect both. <b>Status quo bias</b> — Samuelson and Zeckhauser’s finding that people prefer the current state out of proportion to its merits — keeps people in flat roles for years, especially in cultures where loyalty is prized and leaving feels like betrayal. The opposite, the <b>grass-is-greener</b> effect, makes the unknown option look better because its problems are invisible: the new organisation has politics, targets and difficult managers too; you just have not met them. A useful discipline from Chip and Dan Heath’s <i>Decisive</i> is to attain distance — for example with Suzy Welch’s “10/10/10” question: how will I feel about this decision in ten minutes, ten months and ten years?",
+        "id": "Alasan untuk pindah datang sebagai <b>dorongan</b> (ada yang salah di tempatmu) dan <b>tarikan</b> (ada yang menarik di tempat lain). Keduanya bisa baik atau lemah. <b>Dorongan yang baik</b>: kurvanya datar dan tak bisa dimulai ulang di dalam; <b>hambatan struktural</b> dari Pelajaran 5.4 — pembekuan, tak ada slot, level yang tak bisa dicapai dari unit ini; garis merah dari Pelajaran 1.3 yang dilanggar berulang kali; hubungan dengan manajer yang sudah diupayakan dengan jujur dan tetap merusak pertumbuhanmu; kebutuhan kesehatan atau keluarga yang tak bisa diakomodasi peran itu. <b>Dorongan yang lemah</b>: bulan yang buruk, satu konflik, promosi yang jatuh ke orang lain di putaran ini tanpa percakapan diagnostik, rasa bosan di bagian curam yang memang sulit. <b>Tarikan yang baik</b>: peran yang membangun modal yang tak bisa kamu bangun di sini, membuka pintu yang penting dalam lintasanmu, dengan manajer dan organisasi yang akan mempercepatmu (Pelajaran 7.2). <b>Tarikan yang lemah</b>: jabatan, angka yang lebih besar semata, kepindahan teman, merek. Dua bias menarik ke arah berlawanan, dan kamu sebaiknya mencurigai keduanya. <b>Bias status quo</b> — temuan Samuelson dan Zeckhauser bahwa orang lebih menyukai keadaan sekarang melebihi kelebihannya yang sebenarnya — membuat orang bertahan di peran datar selama bertahun-tahun, terutama di budaya yang menjunjung kesetiaan dan di mana pergi terasa seperti pengkhianatan. Kebalikannya, efek <b>rumput tetangga lebih hijau</b>, membuat pilihan yang tak dikenal tampak lebih baik karena masalahnya tak terlihat: organisasi baru juga punya politik, target, dan manajer sulit; kamu hanya belum bertemu mereka. Disiplin berguna dari <i>Decisive</i> karya Chip dan Dan Heath adalah mengambil jarak — misalnya dengan pertanyaan “10/10/10” dari Suzy Welch: bagaimana perasaanku tentang keputusan ini dalam sepuluh menit, sepuluh bulan, dan sepuluh tahun?"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "",
+          "id": ""
+         },
+         {
+          "en": "Good",
+          "id": "Baik"
+         },
+         {
+          "en": "Weak",
+          "id": "Lemah"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Push</b>",
+           "id": "<b>Dorongan</b>"
+          },
+          {
+           "en": "Flat curve; structural block; repeated red-line breach; health or family",
+           "id": "Kurva datar; hambatan struktural; garis merah dilanggar berulang; kesehatan atau keluarga"
+          },
+          {
+           "en": "A bad month; one conflict; one lost round with no diagnosis",
+           "id": "Bulan buruk; satu konflik; kalah satu putaran tanpa diagnosis"
+          }
+         ],
+         [
+          {
+           "en": "<b>Pull</b>",
+           "id": "<b>Tarikan</b>"
+          },
+          {
+           "en": "Capital you cannot build here; the next door in your trajectory",
+           "id": "Modal yang tak bisa dibangun di sini; pintu berikutnya dalam lintasanmu"
+          },
+          {
+           "en": "A title; a number alone; a friend’s move; a brand",
+           "id": "Jabatan; angka semata; kepindahan teman; merek"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; biases after Samuelson and Zeckhauser (1988) and Heath and Heath, <i>Decisive</i>.",
+         "id": "Panduan kursus; bias mengikuti Samuelson dan Zeckhauser (1988) serta Heath dan Heath, <i>Decisive</i>."
+        }
+       }
       },
       {
        "icon": "target",
        "h": {
-        "en": "True and false triggers",
-        "id": "Pemicu yang sah dan yang palsu"
+        "en": "The ledger: now versus twelve months",
+        "id": "Neraca: sekarang versus dua belas bulan"
        },
        "body": {
-        "en": "<b>Legitimate triggers:</b> the asset-yield floor — two decision gates running on empty with engineering attempts failed; the ceiling verdict from 5.4; a market repricing your skills sharply upward while your role cannot follow; an architecture change — the destination itself has legitimately moved. <b>False triggers:</b> the bad-quarter effect (a rough project, a hard manager month — weather, not climate); the shiny-offer effect (recruiters flatter; the two-lens test from Pack 5.4 exists for this); and the peer-envy effect (their move served their architecture, which is not yours). The discipline: no move decisions inside a bad month, and every move decision through the architecture, in writing.",
-        "id": "<b>Pemicu yang sah:</b> imbal aset menyentuh batas minimum — dua gerbang keputusan berturut-turut tanpa aset baru, dan upaya perbaikan sudah dicoba tapi gagal; vonis batas atas dari Pelajaran 5.4; pasar menilai ulang keterampilanmu jauh lebih tinggi sementara peranmu tidak bisa mengikuti; perubahan arsitektur — tujuannya sendiri yang berpindah, dengan alasan yang sah. <b>Pemicu yang palsu:</b> efek kuartal buruk (proyek yang berat, sebulan bersama manajer yang sulit — itu cuaca, bukan iklim); efek tawaran mengilap (perekrut pandai memuji; uji dua lensa dari Pelajaran 5.4 The Pack ada untuk ini); dan efek iri pada rekan (kepindahan mereka melayani arsitektur mereka, yang bukan arsitekturmu). Disiplinnya: tidak ada keputusan pindah di dalam bulan yang buruk, dan setiap keputusan pindah harus melewati arsitektur, secara tertulis."
-       }
-      },
-      {
-       "icon": "gear",
-       "h": {
-        "en": "The capital-peak principle",
-        "id": "Prinsip puncak modal"
+        "en": "Most timing mistakes come from comparing a vivid option (the offer on the table) with a vague one (“staying”). Make both concrete with a <b>ledger</b>: what moving now would cost and gain, against what moving in twelve months would cost and gain. Five lines usually matter. <b>Money</b>: a bonus or incentive paid only to people employed on a date; the timing of THR; unvested benefits; and any <b>training bond</b> (ikatan dinas) you would have to repay if you left before it expires — read your agreement, since the terms and their enforceability vary <span class=\"ev ev-verify\">Verify</span>. <b>The story</b>: is there a result due in the next months that would complete the story you will tell the next employer? Leaving two months before a pilot’s results turns “I led the pilot that cut returns by a third” into “I was working on a pilot”. <b>Relationships</b>: are you mid-way through earning a sponsor, or in the first months with a new manager who will later be a reference? <b>The window</b>: is the opportunity genuinely time-limited, or will similar ones exist in a year — perhaps at a better level, because your file is stronger? <b>Your life</b>: family events, health, study, the financial cushion to absorb a probation period or a relocation. Tenure norms matter less than they once did, but a pattern of very short stints can still prompt questions from Indonesian employers; one well-explained short stint rarely does <span class=\"ev ev-contested\">Contested</span>. Write the ledger in numbers and sentences, show it to one person on your board (Lesson 6.4), and notice which column you keep adding to — that is often your real answer.",
+        "id": "Kebanyakan kesalahan waktu berasal dari membandingkan pilihan yang jelas (tawaran di meja) dengan pilihan yang samar (“bertahan”). Buat keduanya konkret dengan <b>neraca</b>: apa biaya dan manfaat pindah sekarang, dibanding biaya dan manfaat pindah dua belas bulan lagi. Lima baris biasanya penting. <b>Uang</b>: bonus atau insentif yang hanya dibayarkan kepada karyawan yang masih bekerja pada tanggal tertentu; waktu THR; manfaat yang belum menjadi hakmu; dan <b>ikatan dinas</b> pelatihan yang harus kamu bayar kembali jika pergi sebelum habis — baca perjanjianmu, karena syarat dan keberlakuannya berbeda-beda <span class=\"ev ev-verify\">Verifikasi</span>. <b>Ceritanya</b>: adakah hasil yang jatuh tempo dalam beberapa bulan ke depan yang akan melengkapi cerita yang akan kamu sampaikan kepada pemberi kerja berikutnya? Pergi dua bulan sebelum hasil pilot keluar mengubah “saya memimpin pilot yang memangkas pengembalian sepertiga” menjadi “saya sedang mengerjakan pilot”. <b>Hubungan</b>: apakah kamu sedang di tengah jalan mendapatkan sponsor, atau di bulan-bulan pertama dengan manajer baru yang kelak akan menjadi referensi? <b>Jendelanya</b>: apakah kesempatan itu benar-benar terbatas waktu, atau akan ada yang serupa setahun lagi — mungkin di level yang lebih baik, karena berkasmu lebih kuat? <b>Hidupmu</b>: acara keluarga, kesehatan, studi, bantalan finansial untuk menghadapi masa percobaan atau relokasi. Norma masa kerja tak sepenting dulu, tetapi pola masa kerja yang sangat singkat masih bisa memancing pertanyaan dari pemberi kerja Indonesia; satu masa kerja singkat yang dijelaskan dengan baik jarang menjadi masalah <span class=\"ev ev-contested\">Diperdebatkan</span>. Tulis neracanya dalam angka dan kalimat, tunjukkan kepada satu orang di dewanmu (Pelajaran 6.4), dan perhatikan kolom mana yang terus kamu tambahi — itu sering jawabanmu yang sebenarnya."
        },
-       "body": {
-        "en": "Move on strength: just after the shipped project, the promotion, the visible win — when your file is fresh and your story leads with momentum. The instinct runs opposite — people move when miserable, arriving at negotiations with stale wins and visible fatigue. If a legitimate trigger fires during a trough, the sequence is: stabilise (three months of deliberate delivery and one bankable win), then move on the strength you rebuilt. The exception that overrides everything: genuinely toxic situations — integrity pressure, health damage, red lines crossed — where the leaving is the win, executed as cleanly as circumstances allow.",
-        "id": "Pindahlah saat sedang kuat: tepat setelah proyek dirilis, setelah promosi, setelah capaian yang terlihat — saat berkasmu masih segar dan ceritamu dibuka dengan momentum. Naluri kita justru sebaliknya — orang pindah saat sedang sengsara, lalu tiba di meja negosiasi dengan capaian yang sudah basi dan kelelahan yang kentara. Kalau pemicu yang sah muncul saat kamu sedang di titik rendah, urutannya: stabilkan dulu (tiga bulan kerja yang terarah dan satu capaian yang bisa diandalkan), baru pindah dengan kekuatan yang sudah kamu bangun kembali. Satu pengecualian yang mengalahkan semuanya: situasi yang benar-benar beracun — tekanan untuk mengorbankan integritas, kesehatan yang rusak, garis merah yang dilanggar — di situ, pergi itu sendiri sudah merupakan kemenangan, dan dijalankan sebersih yang keadaan memungkinkan."
+       "table": {
+        "cols": [
+         {
+          "en": "Line",
+          "id": "Baris"
+         },
+         {
+          "en": "Move now",
+          "id": "Pindah sekarang"
+         },
+         {
+          "en": "Move in 12 months",
+          "id": "Pindah 12 bulan lagi"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Money</b>",
+           "id": "<b>Uang</b>"
+          },
+          {
+           "en": "Bonus forfeited? Bond repayment?",
+           "id": "Bonus hangus? Pembayaran ikatan dinas?"
+          },
+          {
+           "en": "Bonus paid; bond expired; higher base to negotiate from",
+           "id": "Bonus dibayar; ikatan habis; gaji pokok lebih tinggi sebagai dasar negosiasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Story</b>",
+           "id": "<b>Cerita</b>"
+          },
+          {
+           "en": "“Was working on…”",
+           "id": "“Sedang mengerjakan…”"
+          },
+          {
+           "en": "“Led … which achieved …”",
+           "id": "“Memimpin … yang mencapai …”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Relationships</b>",
+           "id": "<b>Hubungan</b>"
+          },
+          {
+           "en": "Sponsor half-earned",
+           "id": "Sponsor setengah jalan"
+          },
+          {
+           "en": "A reference who has seen the result",
+           "id": "Referensi yang sudah melihat hasilnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Window</b>",
+           "id": "<b>Jendela</b>"
+          },
+          {
+           "en": "This specific role",
+           "id": "Peran spesifik ini"
+          },
+          {
+           "en": "Similar roles, possibly one level higher",
+           "id": "Peran serupa, mungkin satu level lebih tinggi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Life</b>",
+           "id": "<b>Hidup</b>"
+          },
+          {
+           "en": "Relocation, probation, family timing",
+           "id": "Relokasi, masa percobaan, waktu keluarga"
+          },
+          {
+           "en": "More savings; family plans clearer",
+           "id": "Tabungan lebih banyak; rencana keluarga lebih jelas"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Bonus, THR and bond terms depend on your contract and policy — verify yours.",
+         "id": "Panduan kursus. Syarat bonus, THR, dan ikatan dinas bergantung pada kontrak dan kebijakanmu — verifikasi milikmu."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The timing test — price your capital, sort the triggers, then move on strength or stay on yield.",
-       "id": "Peraga 1: Uji waktu — hargai modalmu, pilah pemicunya, lalu pindah saat kuat atau bertahan saat hasilnya tinggi."
+       "en": "Exhibit 1: The S-curve of a role",
+       "id": "Peraga 1: Kurva S sebuah peran"
       },
       "title": {
-       "en": "Market value → Triggers → Capital peak → Move or stay",
-       "id": "Nilai pasar → Pemicu → Puncak modal → Pindah atau bertahan"
+       "en": "Slow start, steep middle, flat top — the timing question lives at the top",
+       "id": "Awal lambat, tengah curam, puncak datar — pertanyaan waktu ada di puncak"
       },
       "items": [
        {
+        "icon": "flag",
         "h": {
-         "en": "Read your market value",
-         "id": "Baca nilai pasarmu"
+         "en": "Launch",
+         "id": "Awal"
         },
         "sub": {
-         "en": "Live vacancies, requirements met, skills in the first paragraph",
-         "id": "Lowongan aktif, syarat yang terpenuhi, keterampilan di paragraf pertama"
+         "en": "Learning the basics. Moving now wastes capital.",
+         "id": "Mempelajari dasar. Pindah sekarang memboroskan modal."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Sort the triggers",
-         "id": "Pilah pemicunya"
+         "en": "Climb",
+         "id": "Mendaki"
         },
         "sub": {
-         "en": "Legitimate: empty yield, ceiling, repricing · false: a bad month",
-         "id": "Sah: hasil kosong, plafon, penilaian ulang · palsu: satu bulan buruk"
+         "en": "Stretched most weeks. Capital is being built.",
+         "id": "Teregang hampir tiap minggu. Modal sedang dibangun."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Find the peak",
-         "id": "Temukan puncaknya"
+         "en": "Convert",
+         "id": "Konversi"
         },
         "sub": {
-         "en": "Just after the win, while the file is fresh",
-         "id": "Tepat setelah kemenangan, selagi berkas masih segar"
+         "en": "Learning becomes evidence with numbers and witnesses.",
+         "id": "Pembelajaran menjadi bukti dengan angka dan saksi."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Move — or stay",
-         "id": "Pindah — atau bertahan"
+         "en": "Mastery",
+         "id": "Penguasaan"
         },
         "sub": {
-         "en": "Staying is a move too; legitimate while yield is high",
-         "id": "Bertahan juga sebuah langkah; sah selama hasilnya tinggi"
+         "en": "Teaching more than learning. The story is complete.",
+         "id": "Lebih banyak mengajar daripada belajar. Ceritanya utuh."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Decide",
+         "id": "Putuskan"
+        },
+        "sub": {
+         "en": "Restart the curve inside — or move to a steeper one.",
+         "id": "Mulai ulang kurva di dalam — atau pindah ke kurva yang lebih curam."
         }
        }
       ],
+      "note": {
+       "en": "Move from the top of a curve, with the result in the file — not from the bottom, with a bad week in your head.",
+       "id": "Pindahlah dari puncak kurva, dengan hasil di berkas — bukan dari bawah, dengan minggu yang buruk di kepala."
+      },
       "longdesc": {
-       "en": "A four-step flow. First read your market value from live vacancies without applying. Second, sort triggers into legitimate ones — empty asset yield, a confirmed ceiling, a market repricing — and false ones such as a bad month. Third, identify your capital peak just after a visible win. Fourth, decide: move on strength, or stay deliberately while yield is high.",
-       "id": "Alur empat langkah. Pertama, baca nilai pasarmu dari lowongan aktif tanpa melamar. Kedua, pilah pemicu menjadi yang sah — hasil aset kosong, plafon terkonfirmasi, penilaian ulang pasar — dan yang palsu seperti satu bulan buruk. Ketiga, kenali puncak modalmu tepat setelah kemenangan yang terlihat. Keempat, putuskan: pindah saat kuat, atau bertahan secara sengaja selama hasilnya tinggi."
+       "en": "A five-stage timeline of a role’s learning curve. Launch: learning the basics; moving wastes capital. Climb: stretched most weeks while capital is built. Convert: learning becomes evidence. Mastery: teaching more than learning, with a complete story. Decide: restart the curve inside the organisation or move to a steeper curve elsewhere.",
+       "id": "Garis waktu lima tahap kurva belajar sebuah peran. Awal: mempelajari dasar; pindah memboroskan modal. Mendaki: teregang hampir tiap minggu sementara modal dibangun. Konversi: pembelajaran menjadi bukti. Penguasaan: lebih banyak mengajar daripada belajar, dengan cerita utuh. Putuskan: mulai ulang kurva di dalam organisasi atau pindah ke kurva yang lebih curam di tempat lain."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "A mood → a readiness statement",
+        "id": "Suasana hati → pernyataan kesiapan"
+       },
+       "q": {
+        "en": "Rina asks Nadia, a month after the taskforce ended, whether she is thinking of moving.",
+        "id": "Rina bertanya kepada Nadia, sebulan setelah satgas selesai, apakah ia berpikir untuk pindah."
+       },
+       "weak": {
+        "en": "“Jujur, Kak, aku bosan. Teman-teman seangkatan sudah pada pindah ke fintech, gajinya jauh lebih besar. Kayaknya aku harus cepat-cepat keluar sebelum ketinggalan.”",
+        "id": "“Jujur, Kak, aku bosan. Teman-teman seangkatan sudah pada pindah ke fintech, gajinya jauh lebih besar. Kayaknya aku harus cepat-cepat keluar sebelum ketinggalan.”"
+       },
+       "strong": {
+        "en": "“Aku sudah di puncak kurva peran ini: portofolio stabil, aku lebih banyak mengajar daripada belajar. Modal yang bisa dibawa: penilaian kredit UMKM, SQL, dan hasil satgas. Yang belum selesai: hasil restrukturisasi portofolio keluar empat bulan lagi, dan ikatan dinas sertifikasi habis lima bulan lagi. Jadi aku mau mulai menjajaki sekarang, tapi targetnya pindah sekitar enam bulan lagi — di dalam dulu, lalu di luar.”",
+        "id": "“Aku sudah di puncak kurva peran ini: portofolio stabil, aku lebih banyak mengajar daripada belajar. Modal yang bisa dibawa: penilaian kredit UMKM, SQL, dan hasil satgas. Yang belum selesai: hasil restrukturisasi portofolio keluar empat bulan lagi, dan ikatan dinas sertifikasi habis lima bulan lagi. Jadi aku mau mulai menjajaki sekarang, tapi targetnya pindah sekitar enam bulan lagi — di dalam dulu, lalu di luar.”"
+       },
+       "why": {
+        "en": "The first mixes a mood, a comparison and fear of missing out. The second locates her on the curve, names portable capital and unfinished business, and turns “when” into a plan — inside options first. Fictional.",
+        "id": "Yang pertama mencampur suasana hati, perbandingan, dan takut ketinggalan. Yang kedua menempatkan dirinya di kurva, menyebut modal yang bisa dibawa dan urusan yang belum selesai, dan mengubah “kapan” menjadi rencana — pilihan di dalam lebih dulu. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the recruiter’s call",
+       "id": "Sorotan: telepon rekruter"
+      },
+      "body": [
+       {
+        "en": "A recruiter calls Nadia on a Tuesday afternoon: a Jakarta fintech wants an SME credit lead, “gaji naik 40%, bisa mulai bulan depan”. Her heart rate rises. It has been a hard month — two borrowers restructuring, a difficult committee — and the number is large.",
+        "id": "Seorang rekruter menelepon Nadia pada Selasa sore: sebuah fintech Jakarta mencari pemimpin kredit UMKM, “gaji naik 40%, bisa mulai bulan depan”. Jantungnya berdebar. Bulan ini berat — dua debitur direstrukturisasi, komite yang sulit — dan angkanya besar."
+       },
+       {
+        "en": "She asks for the role description and says she will reply on Friday. That evening she writes the ledger. Money: her annual bonus is paid in March, three months away, and the certification bond has five months left to run. Story: the restructuring results are due in four months. Relationships: Pak Arya has just seen her taskforce work. Window: the recruiter admits the role “sering dibuka”. On Friday she tells the recruiter, warmly, that the timing is not right, that she would like to stay in touch, and that she will be in a stronger position to talk in six months. The recruiter notes it — and calls again in five.",
+        "id": "Ia meminta deskripsi perannya dan bilang akan membalas hari Jumat. Malam itu ia menulis neracanya. Uang: bonus tahunannya dibayar bulan Maret, tiga bulan lagi, dan ikatan dinas sertifikasi masih lima bulan. Cerita: hasil restrukturisasi keluar empat bulan lagi. Hubungan: Pak Arya baru saja melihat kerja satgasnya. Jendela: rekruter mengakui peran itu “sering dibuka”. Hari Jumat ia memberi tahu rekruter dengan hangat bahwa waktunya belum tepat, bahwa ia ingin tetap berhubungan, dan bahwa posisinya akan lebih kuat untuk berbicara enam bulan lagi. Rekruter mencatatnya — dan menelepon lagi lima bulan kemudian."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The capital inventory",
+        "id": "Latihan 1 · Inventaris modal"
+       },
+       "body": {
+        "en": "Fill the five rows — skills, evidence, reputation, relationships, options — with what you have now. For each, apply the travel test and mark one thing not yet built.",
+        "id": "Isi kelima baris — keterampilan, bukti, reputasi, hubungan, pilihan — dengan yang kamu punya sekarang. Untuk masing-masing, terapkan uji bisa-dibawa dan tandai satu hal yang belum dibangun."
+       },
+       "debrief": {
+        "en": "If most of your capital fails the travel test, the next year is about making it portable — evidence and external reputation — whether you move or not.",
+        "id": "Jika sebagian besar modalmu gagal di uji bisa-dibawa, setahun ke depan adalah tentang membuatnya bisa dibawa — bukti dan reputasi eksternal — entah kamu pindah atau tidak."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Locate yourself on the curve",
+        "id": "Latihan 2 · Temukan posisimu di kurva"
+       },
+       "body": {
+        "en": "Answer five questions with yes or no: most work doable half-asleep; new problems are variations of old; teaching more than learning; manager cannot stretch you further; last year is a complete story. Where are you?",
+        "id": "Jawab lima pertanyaan dengan ya atau tidak: sebagian besar pekerjaan bisa dikerjakan setengah tidur; masalah baru adalah variasi lama; lebih banyak mengajar daripada belajar; manajer tak bisa meregangkanmu lagi; setahun terakhir adalah kisah utuh. Di mana posisimu?"
+       },
+       "debrief": {
+        "en": "Four or five yes answers suggest the top. Before looking outside, list two ways the curve could restart inside.",
+        "id": "Empat atau lima jawaban ya menandakan puncak. Sebelum melihat ke luar, daftar dua cara kurva bisa dimulai ulang di dalam."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The ledger",
+        "id": "Latihan 3 · Neracanya"
+       },
+       "body": {
+        "en": "Write the five-line ledger — money, story, relationships, window, life — for moving now versus in twelve months. Use numbers and dates wherever you can.",
+        "id": "Tulis neraca lima baris — uang, cerita, hubungan, jendela, hidup — untuk pindah sekarang versus dua belas bulan lagi. Pakai angka dan tanggal sebisa mungkin."
+       },
+       "debrief": {
+        "en": "Run 10/10/10 on the answer. If “now” wins only in the ten-minute column, it is probably a mood.",
+        "id": "Jalankan 10/10/10 pada jawabannya. Jika “sekarang” hanya menang di kolom sepuluh menit, kemungkinan itu suasana hati."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Moving on a bad month",
+         "id": "Pindah karena bulan yang buruk"
+        },
+        "fix": {
+         "en": "Separate push from mood; write the ledger first.",
+         "id": "Pisahkan dorongan dari suasana hati; tulis neracanya dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving just before the result",
+         "id": "Pergi tepat sebelum hasilnya keluar"
+        },
+        "fix": {
+         "en": "Check the story line: what completes it, and when?",
+         "id": "Periksa baris cerita: apa yang melengkapinya, dan kapan?"
+        }
+       },
+       {
+        "h": {
+         "en": "Staying years on a flat curve",
+         "id": "Bertahan bertahun-tahun di kurva datar"
+        },
+        "fix": {
+         "en": "Suspect status quo bias; restart the curve or plan a move.",
+         "id": "Curigai bias status quo; mulai ulang kurvanya atau rencanakan pindah."
+        }
+       },
+       {
+        "h": {
+         "en": "Ignoring the contract",
+         "id": "Mengabaikan kontrak"
+        },
+        "fix": {
+         "en": "Read bond, bonus and notice terms before any conversation.",
+         "id": "Baca syarat ikatan dinas, bonus, dan pemberitahuan sebelum percakapan apa pun."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "capital peak",
-        "id": "puncak modal"
+        "en": "Career capital",
+        "id": "Modal karier"
        },
        "def": {
-        "en": "The moment just after a shipped project, promotion or visible win, when your file is freshest and your story leads with momentum — the right time to move, and the opposite of the instinct to move when miserable.",
-        "id": "Momen tepat setelah proyek rampung, promosi, atau kemenangan yang terlihat, saat berkasmu paling segar dan ceritamu dibuka dengan momentum — waktu yang tepat untuk pindah, kebalikan dari naluri pindah saat sedang sengsara."
+        "en": "Rare and valuable skills, evidence, reputation, relationships and options that buy you better work and more choice.",
+        "id": "Keterampilan langka dan bernilai, bukti, reputasi, hubungan, dan pilihan yang membelikanmu pekerjaan lebih baik dan lebih banyak pilihan."
        }
       },
       {
        "term": {
-        "en": "false trigger",
-        "id": "pemicu palsu"
+        "en": "S-curve",
+        "id": "Kurva S"
        },
        "def": {
-        "en": "A reason to move that dissolves in a calm week — a bad manager month, a peer's raise, a rejection — as opposed to the legitimate triggers: empty asset yield, a confirmed ceiling, or a sharp market repricing.",
-        "id": "Alasan pindah yang menguap dalam satu minggu yang tenang — bulan buruk dengan manajer, kenaikan gaji rekan, sebuah penolakan — berbeda dari pemicu sah: hasil aset yang kosong, plafon yang terkonfirmasi, atau penilaian ulang pasar yang tajam."
+        "en": "The learning curve of a role: slow start, steep middle, flat top.",
+        "id": "Kurva belajar sebuah peran: awal lambat, tengah curam, puncak datar."
+       }
+      },
+      {
+       "term": {
+        "en": "Training bond (ikatan dinas)",
+        "id": "Ikatan dinas"
+       },
+       "def": {
+        "en": "An agreement to stay a set time after employer-funded training, or repay part of its cost; terms vary.",
+        "id": "Perjanjian untuk bertahan selama waktu tertentu setelah pelatihan yang dibiayai pemberi kerja, atau membayar kembali sebagian biayanya; syaratnya berbeda-beda."
+       }
+      },
+      {
+       "term": {
+        "en": "Status quo bias",
+        "id": "Bias status quo"
+       },
+       "def": {
+        "en": "Preferring the current situation out of proportion to its merits.",
+        "id": "Lebih menyukai situasi saat ini melebihi kelebihannya yang sebenarnya."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "After a brutal quarter under a difficult manager, a recruiter dangles a 25% raise. The lesson's prescription?",
-        "id": "Setelah satu kuartal yang brutal di bawah manajer yang sulit, seorang perekrut menawarkan kenaikan gaji 25%. Resep pelajaran ini?"
+        "en": "You are stretched most weeks and the results of your main project are due in four months. The default is…",
+        "id": "Kamu teregang hampir tiap minggu dan hasil proyek utamamu keluar empat bulan lagi. Bawaannya adalah…"
        },
        "options": [
         {
-         "en": "Take it — the market has spoken",
-         "id": "Ambil — pasar sudah bicara"
+         "en": "Move now while you are motivated",
+         "id": "Pindah sekarang selagi termotivasi"
         },
         {
-         "en": "Recognise two false triggers stacking (bad quarter + shiny offer); run it through the architecture and two lenses in a calm week before deciding",
-         "id": "Sadari ada dua pemicu palsu yang bertumpuk (kuartal buruk + tawaran mengilap); uji lewat arsitektur dan dua lensa di minggu yang tenang sebelum memutuskan"
+         "en": "Stay and convert the learning into evidence",
+         "id": "Bertahan dan ubah pembelajaran menjadi bukti"
         },
         {
-         "en": "Decline — never move before year three",
-         "id": "Tolak — jangan pernah pindah sebelum tahun ketiga"
+         "en": "Ask for a transfer immediately",
+         "id": "Segera meminta mutasi"
+        },
+        {
+         "en": "Stop working on the project",
+         "id": "Berhenti mengerjakan proyeknya"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The offer may be right — but a decision made at frustration-peak, on flattery, without the architecture, is a coin flip wearing a salary.",
-        "id": "Tawarannya mungkin memang tepat — tapi keputusan yang diambil di puncak frustrasi, karena pujian, tanpa melewati arsitektur, sama saja lempar koin yang dibungkus angka gaji."
+        "en": "You are on the steep part; leaving now turns a result into “was working on”.",
+        "id": "Kamu di bagian curam; pergi sekarang mengubah hasil menjadi “sedang mengerjakan”."
+       }
+      },
+      {
+       "q": {
+        "en": "Which is a good push reason to consider moving?",
+        "id": "Mana yang merupakan dorongan yang baik untuk mempertimbangkan pindah?"
+       },
+       "options": [
+        {
+         "en": "A difficult month",
+         "id": "Bulan yang sulit"
+        },
+        {
+         "en": "A friend’s new title",
+         "id": "Jabatan baru seorang teman"
+        },
+        {
+         "en": "A structural block confirmed in a diagnostic conversation",
+         "id": "Hambatan struktural yang dikonfirmasi dalam percakapan diagnostik"
+        },
+        {
+         "en": "One disagreement with your manager",
+         "id": "Satu ketidaksepakatan dengan manajermu"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "A strong case with no path is a real reason; the others are moods or comparisons.",
+        "id": "Kasus kuat tanpa jalur adalah alasan nyata; yang lain adalah suasana hati atau perbandingan."
+       }
+      },
+      {
+       "q": {
+        "en": "Before replying to an attractive offer, the first thing to check is…",
+        "id": "Sebelum membalas tawaran yang menarik, hal pertama yang diperiksa adalah…"
+       },
+       "options": [
+        {
+         "en": "How your friends would react",
+         "id": "Bagaimana reaksi teman-temanmu"
+        },
+        {
+         "en": "The ledger: bonus timing, bond terms, the result due, the window",
+         "id": "Neracanya: waktu bonus, syarat ikatan dinas, hasil yang akan keluar, jendelanya"
+        },
+        {
+         "en": "The company’s logo",
+         "id": "Logo perusahaannya"
+        },
+        {
+         "en": "Whether you can start tomorrow",
+         "id": "Apakah kamu bisa mulai besok"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Make both options concrete before comparing them.",
+        "id": "Buat kedua pilihan konkret sebelum membandingkannya."
        }
       }
      ],
-     "quote": {
-      "en": "Move when your assets peak — not when a bad week peaks.",
-      "id": "Pindahlah saat asetmu di puncak — bukan saat minggu yang buruk di puncaknya."
+     "tool": {
+      "id": "plan",
+      "mode": "readiness",
+      "title": {
+       "en": "Check your readiness to move",
+       "id": "Periksa kesiapanmu untuk pindah"
+      },
+      "body": {
+       "en": "Open the readiness diagnostic and read your scores as a mover would: which strengths are portable, and which gap would a new employer notice first? Note one thing to finish before you move.",
+       "id": "Buka diagnostik kesiapan dan baca skormu seperti orang yang akan pindah: kekuatan mana yang bisa dibawa, dan celah mana yang pertama diperhatikan pemberi kerja baru? Catat satu hal yang perlu diselesaikan sebelum pindah."
+      },
+      "cta": {
+       "en": "Open the readiness diagnostic",
+       "id": "Buka diagnostik kesiapan"
+      }
      },
-     "insights": {
+     "quote": {
+      "en": "Move from the top of a curve, with the result in the file — not from a bad week.",
+      "id": "Pindahlah dari puncak kurva, dengan hasil di berkas — bukan dari minggu yang buruk."
+     },
+     "takeaways": [
+      {
+       "en": "Inventory five kinds of capital — skills, evidence, reputation, relationships, options — and test whether each would travel.",
+       "id": "Inventarisasi lima jenis modal — keterampilan, bukti, reputasi, hubungan, pilihan — dan uji apakah masing-masing bisa dibawa."
+      },
+      {
+       "en": "Stay on the steep part of the curve; consider moving at the flat top, after trying to restart it inside.",
+       "id": "Bertahan di bagian curam kurva; pertimbangkan pindah di puncak yang datar, setelah mencoba memulainya ulang di dalam."
+      },
+      {
+       "en": "Separate push from pull and good from weak, suspect both biases, and write the now-versus-twelve-months ledger.",
+       "id": "Pisahkan dorongan dari tarikan dan yang baik dari yang lemah, curigai kedua bias, dan tulis neraca sekarang-versus-dua-belas-bulan."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The capital inventory and the timing ledger",
+       "id": "Inventaris modal dan neraca waktu"
+      },
       "lead": {
-       "en": "How experienced people decide when to move.",
-       "id": "Bagaimana orang berpengalaman memutuskan kapan pindah."
+       "en": "Career Kit item (part 1): your readiness assessment.",
+       "id": "Butir Career Kit (bagian 1): penilaian kesiapanmu."
       },
       "items": [
        {
-        "h": {
-         "en": "Move on a peak, not a trough",
-         "id": "Pindah di puncak, bukan di lembah"
+        "kind": "guide",
+        "title": {
+         "en": "Sources and evidence notes · Lesson 7.1",
+         "id": "Sumber dan catatan bukti · Pelajaran 7.1"
         },
-        "body": {
-         "en": "The strongest moves happen after a visible win, when your evidence is fresh and your reputation is high. Moving after a bad quarter is escaping; the market can tell.",
-         "id": "Perpindahan terkuat terjadi setelah kemenangan yang terlihat, saat buktimu segar dan reputasimu tinggi. Pindah setelah kuartal buruk adalah melarikan diri; pasar bisa membedakannya."
-        }
+        "desc": {
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
+        },
+        "body": [
+         {
+          "en": "C. Newport, <i>So Good They Can’t Ignore You</i> — career capital. W. Johnson, <i>Disrupt Yourself</i> — the S-curve of learning.",
+          "id": "C. Newport, <i>So Good They Can’t Ignore You</i> — modal karier. W. Johnson, <i>Disrupt Yourself</i> — kurva S pembelajaran."
+         },
+         {
+          "en": "W. Samuelson and R. Zeckhauser, “Status Quo Bias in Decision Making” (1988); C. Heath and D. Heath, <i>Decisive</i> — attaining distance, including Suzy Welch’s 10/10/10.",
+          "id": "W. Samuelson dan R. Zeckhauser, “Status Quo Bias in Decision Making” (1988); C. Heath dan D. Heath, <i>Decisive</i> — mengambil jarak, termasuk 10/10/10 dari Suzy Welch."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Training-bond, bonus-eligibility and THR terms depend on your contract, company regulation and the law; read yours before deciding.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Syarat ikatan dinas, kelayakan bonus, dan THR bergantung pada kontrak, peraturan perusahaan, dan hukum; baca milikmu sebelum memutuskan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Contested</span> How employers read short tenures varies by sector and generation; the five-part inventory and the ledger are course guidance.",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Cara pemberi kerja membaca masa kerja singkat berbeda per sektor dan generasi; inventaris lima bagian dan neracanya adalah panduan kursus."
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Learning curves flatten before you notice",
-         "id": "Kurva belajar mendatar sebelum kamu sadari"
+        "kind": "worksheet",
+        "title": {
+         "en": "Readiness assessment",
+         "id": "Penilaian kesiapan"
         },
-        "body": {
-         "en": "The sign is not boredom; it is fluency. When the hardest part of the job is routine and the last new skill was a year ago, the role has stopped paying in capital.",
-         "id": "Tandanya bukan kebosanan; tetapi kefasihan. Ketika bagian tersulit pekerjaan sudah rutin dan keterampilan baru terakhir setahun lalu, peran itu berhenti membayar dengan modal."
-        }
+        "desc": {
+         "en": "Forty minutes; redo before any serious move.",
+         "id": "Empat puluh menit; ulangi sebelum perpindahan serius apa pun."
+        },
+        "body": [
+         {
+          "en": "CAPITAL: skills … · evidence … · reputation … · relationships … · options … · (travels? Y/N) · NOT YET BUILT: …",
+          "id": "MODAL: keterampilan … · bukti … · reputasi … · hubungan … · pilihan … · (bisa dibawa? Y/T) · BELUM DIBANGUN: …"
+         },
+         {
+          "en": "CURVE: launch / climb / top · evidence … · INSIDE RESTARTS: 1 … 2 … · REASONS: push … (good/weak) · pull … (good/weak)",
+          "id": "KURVA: awal / mendaki / puncak · bukti … · MULAI ULANG DI DALAM: 1 … 2 … · ALASAN: dorongan … (baik/lemah) · tarikan … (baik/lemah)"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Trust capital is the thing you lose",
-         "id": "Modal kepercayaan adalah yang hilang"
+        "kind": "template",
+        "title": {
+         "en": "The now-versus-12-months ledger",
+         "id": "Neraca sekarang-versus-12-bulan"
         },
-        "body": {
-         "en": "Every external move resets it to zero. The question is whether the new role’s capital gain is worth the reset — internal moves keep most of it.",
-         "id": "Setiap perpindahan eksternal mengembalikannya ke nol. Pertanyaannya apakah perolehan modal di peran baru sepadan dengan pengaturan ulang — perpindahan internal mempertahankan sebagian besarnya."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Moving because of one bad manager",
-         "id": "Pindah karena satu manajer buruk"
+        "desc": {
+         "en": "One page; show it to one board member.",
+         "id": "Satu halaman; tunjukkan kepada satu anggota dewan."
         },
-        "fix": {
-         "en": "Managers change faster than companies. Check whether an internal move solves it before resetting your trust capital.",
-         "id": "Manajer berganti lebih cepat daripada perusahaan. Periksa apakah perpindahan internal menyelesaikannya sebelum mengatur ulang modal kepercayaanmu."
-        }
-       },
-       {
-        "h": {
-         "en": "Waiting for the perfect offer",
-         "id": "Menunggu tawaran sempurna"
-        },
-        "fix": {
-         "en": "Decide at a gate what “good enough to move” looks like, in writing. Then you will recognise it.",
-         "id": "Putuskan di gerbang seperti apa “cukup baik untuk pindah”, secara tertulis. Barulah kamu akan mengenalinya."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring the market until you need it",
-         "id": "Mengabaikan pasar sampai kamu membutuhkannya"
-        },
-        "fix": {
-         "en": "One conversation and one job ad every quarter keeps your price current. A search from zero takes months.",
-         "id": "Satu percakapan dan satu iklan lowongan tiap kuartal menjaga hargamu tetap terkini. Pencarian dari nol butuh berbulan-bulan."
-        }
+        "body": [
+         {
+          "en": "MONEY: now … / 12m … · STORY: now … / 12m … · RELATIONSHIPS: now … / 12m … · WINDOW: now … / 12m … · LIFE: now … / 12m …",
+          "id": "UANG: sekarang … / 12b … · CERITA: sekarang … / 12b … · HUBUNGAN: sekarang … / 12b … · JENDELA: sekarang … / 12b … · HIDUP: sekarang … / 12b …"
+         },
+         {
+          "en": "10/10/10: in 10 minutes … · 10 months … · 10 years … · THE COLUMN I KEEP ADDING TO: …",
+          "id": "10/10/10: dalam 10 menit … · 10 bulan … · 10 tahun … · KOLOM YANG TERUS KUTAMBAHI: …"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "7.2",
-     "title": {
-      "en": "Evaluating Your Next Role Against Your Career Architecture",
-      "id": "Mengevaluasi Peran Berikutnya Terhadap Arsitektur Kariermu"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "Evaluating Your Next Role Against Your Career Architecture",
+      "id": "Menilai Peran Berikutmu terhadap Arsitektur Kariermu"
+     },
      "overview": {
-      "en": "An offer is a bundle of thirty variables wearing one salary number. This lesson builds the evaluation discipline: pricing the whole bundle against your architecture, interrogating the parts that matter, and refusing the arithmetic seductions that make bad moves look good.",
-      "id": "Sebuah tawaran adalah paket berisi tiga puluh variabel yang dibungkus satu angka gaji. Pelajaran ini membangun disiplin evaluasi: menilai seluruh paket terhadap arsitekturmu, menggali bagian-bagian yang penting, dan menolak godaan hitung-hitungan yang membuat langkah buruk tampak bagus."
+      "en": "An offer arrives as a title, a number and a logo. None of the three tells you whether the role will build the capital you need, whether the manager will develop or stall you, whether the organisation will still be healthy in two years, or why the seat is empty. This lesson gives you four lenses — role, manager, organisation, team — and the questions and evidence for each; a way to score options against the career architecture you built in Module 1, with weights set before you see the number; and ethical ways to reality-test an option before you commit.",
+      "id": "Tawaran datang sebagai jabatan, angka, dan logo. Tak satu pun dari ketiganya memberitahumu apakah peran itu akan membangun modal yang kamu butuhkan, apakah manajernya akan mengembangkan atau menghambatmu, apakah organisasinya masih sehat dua tahun lagi, atau mengapa kursinya kosong. Pelajaran ini memberimu empat lensa — peran, manajer, organisasi, tim — beserta pertanyaan dan bukti untuk masing-masing; cara menilai pilihan terhadap arsitektur karier yang kamu bangun di Modul 1, dengan bobot yang ditetapkan sebelum kamu melihat angkanya; dan cara etis untuk menguji kenyataan sebuah pilihan sebelum berkomitmen."
      },
      "objectives": [
       {
-       "en": "Evaluate offers as bundles: role scope, manager, trajectory, compensation, life fit.",
-       "id": "Mengevaluasi tawaran sebagai satu paket: lingkup peran, manajer, lintasan, kompensasi, kecocokan dengan hidupmu."
+       "en": "Evaluate a role through four lenses: role, manager, organisation, team.",
+       "id": "Menilai peran melalui empat lensa: peran, manajer, organisasi, tim."
       },
       {
-       "en": "Interrogate the offer with the questions that reveal the real role.",
-       "id": "Menggali tawaran dengan pertanyaan-pertanyaan yang mengungkap peran yang sebenarnya."
+       "en": "Ask the questions — and find the evidence — that reveal each lens.",
+       "id": "Mengajukan pertanyaan — dan menemukan bukti — yang mengungkap tiap lensa."
       },
       {
-       "en": "Compare against your current role's true trajectory, not its worst week.",
-       "id": "Membandingkan dengan lintasan peranmu saat ini yang sebenarnya, bukan dengan minggu terburuknya."
+       "en": "Score options against your career architecture with weights set in advance.",
+       "id": "Menilai pilihan terhadap arsitektur kariermu dengan bobot yang ditetapkan lebih dulu."
+      },
+      {
+       "en": "Reality-test an option ethically before committing.",
+       "id": "Menguji kenyataan sebuah pilihan secara etis sebelum berkomitmen."
       }
      ],
-     "takeawaysLead": {
-      "en": "An offer is a bundle wearing one number. To price the whole bundle against your architecture, you can:",
-      "id": "Sebuah tawaran adalah satu paket yang memakai satu angka. Untuk menghargai seluruh paket terhadap arsitekturmu, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A title, a number and a logo are not a role",
+       "id": "Jabatan, angka, dan logo bukanlah peran"
+      },
+      "intro": {
+       "en": "Evaluate what the next two years would actually build — and who you would be building it with.",
+       "id": "Nilai apa yang sebenarnya akan dibangun dua tahun ke depan — dan bersama siapa kamu membangunnya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The role",
+         "id": "Perannya"
+        },
+        "points": [
+         {
+          "en": "What capital does it build, and which door does it open?",
+          "id": "Modal apa yang dibangun, dan pintu mana yang dibuka?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The manager",
+         "id": "Manajernya"
+        },
+        "points": [
+         {
+          "en": "Where did their last three reports go?",
+          "id": "Ke mana tiga bawahan terakhirnya pergi?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The organisation and team",
+         "id": "Organisasi dan tim"
+        },
+        "points": [
+         {
+          "en": "Healthy in two years? Why is this seat empty?",
+          "id": "Sehat dua tahun lagi? Mengapa kursi ini kosong?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Score, then test",
+         "id": "Nilai, lalu uji"
+        },
+        "points": [
+         {
+          "en": "Weights before the number. Three conversations before the answer.",
+          "id": "Bobot sebelum angka. Tiga percakapan sebelum jawaban."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "The manager you would join is the biggest unpriced variable in every offer — price it.",
-       "id": "Manajer yang akan kamu ikuti adalah variabel terbesar yang tidak pernah dihitung dalam setiap tawaran — hitunglah."
-      },
-      {
-       "en": "Scope beats title beats salary at this stage: ownership mints assets, labels do not.",
-       "id": "Di tahap ini, lingkup lebih penting dari jabatan, dan jabatan lebih penting dari gaji: rasa memiliki mencetak aset, label tidak."
-      },
-      {
-       "en": "Compare bundles at the three-year mark, not day one — trajectories, not snapshots.",
-       "id": "Bandingkan kedua paket di titik tiga tahun, bukan di hari pertama — lintasan, bukan potret sesaat."
-      }
-     ],
      "sections": [
       {
-       "icon": "book",
+       "icon": "target",
+       "img": "../../assets/m/02-prep.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "Pricing the bundle",
-        "id": "Menilai seluruh paket"
+        "en": "Lens 1 — the role: capital and the next door",
+        "id": "Lensa 1 — perannya: modal dan pintu berikutnya"
        },
        "body": {
-        "en": "Score both options — offer and current role — against the same sheet, derived from your architecture: <b>scope</b> (what will you own end-to-end, and how soon), <b>manager</b> (their reputation for growing people — ask around; a bad manager taxes every other line), <b>trajectory</b> (what do people in this role move into, at what pace), <b>compensation</b> (total: base, variable, benefits, and the growth curve, not the entry point), <b>life fit</b> (commute, hours culture, the constraint lines from 1.3). Weight by your architecture, score honestly, and let the flinch test from Map 3.2 catch the criteria you secretly hold. The sheet's job is not to decide — it is to make your real reasoning visible enough to interrogate.",
-        "id": "Beri skor kedua pilihan — tawaran baru dan peran saat ini — dengan lembar yang sama, yang diturunkan dari arsitekturmu: <b>lingkup</b> (apa yang akan kamu pegang dari ujung ke ujung, dan seberapa cepat), <b>manajer</b> (reputasinya dalam menumbuhkan orang — tanya ke kiri-kanan; manajer yang buruk memajaki semua baris lainnya), <b>lintasan</b> (orang di peran ini berpindah ke mana, dan secepat apa), <b>kompensasi</b> (totalnya: gaji pokok, variabel, tunjangan, dan kurva pertumbuhannya, bukan angka awalnya), <b>kecocokan dengan hidupmu</b> (perjalanan ke kantor, budaya jam kerja, batasan-batasan dari Pelajaran 1.3). Beri bobot sesuai arsitekturmu, beri skor dengan jujur, dan biarkan uji kernyit dari Pelajaran 3.2 The Map menangkap kriteria yang diam-diam kamu pegang. Tugas lembar ini bukan memutuskan — melainkan membuat alasanmu yang sebenarnya cukup terlihat untuk diperiksa."
+        "en": "Start from the trajectory you designed in Lesson 1.2. A good next role does two things: it <b>builds capital you cannot build where you are</b>, and it <b>opens the next door</b> in your trajectory — or at least does not close it. Ignore the title for a moment and describe the work. What would you actually do in a typical week? Which decisions would be yours? What would you be measured on (Module 2)? What would you be able to say at the end of two years that you cannot say now — “built and ran a credit process for a digital product”, “managed a team of four”, “owned a P&amp;L”? Then check the door: in your field, does this role usually lead where you want to go next, and do people who hold it get there? Titles are especially unreliable across organisations of different sizes. A “Head of Credit” at a twenty-person lender may do less senior work than a senior analyst at a large bank; a “Manager” title may carry no people. Equally, a lateral title at a larger or faster-growing organisation can be the steepest learning curve available. Two further tests help. <b>The first-90-days test</b>: ask the hiring manager what success in the first three months would look like; vague answers suggest the role is not yet designed. <b>The capital test</b>: list the three skills or results the role would add to your inventory from Lesson 7.1; if you cannot name them, the pull is probably the title or the number.",
+        "id": "Mulailah dari lintasan yang kamu rancang di Pelajaran 1.2. Peran berikutnya yang baik melakukan dua hal: ia <b>membangun modal yang tak bisa kamu bangun di tempatmu sekarang</b>, dan ia <b>membuka pintu berikutnya</b> dalam lintasanmu — atau setidaknya tidak menutupnya. Abaikan jabatannya sejenak dan gambarkan pekerjaannya. Apa yang sebenarnya akan kamu kerjakan dalam seminggu yang biasa? Keputusan mana yang menjadi milikmu? Kamu akan diukur dengan apa (Modul 2)? Apa yang bisa kamu katakan di akhir dua tahun yang belum bisa kamu katakan sekarang — “membangun dan menjalankan proses kredit untuk produk digital”, “memimpin tim empat orang”, “memegang laba rugi”? Lalu periksa pintunya: di bidangmu, apakah peran ini biasanya mengarah ke tujuan berikutnya yang kamu inginkan, dan apakah orang yang memegangnya sampai ke sana? Jabatan sangat tidak bisa diandalkan antarorganisasi yang ukurannya berbeda. “Kepala Kredit” di pemberi pinjaman dua puluh orang mungkin mengerjakan pekerjaan yang kurang senior dibanding analis senior di bank besar; jabatan “Manajer” mungkin tak membawahi siapa pun. Sebaliknya, jabatan setara di organisasi yang lebih besar atau tumbuh lebih cepat bisa menjadi kurva belajar paling curam yang tersedia. Dua uji tambahan membantu. <b>Uji 90 hari pertama</b>: tanyakan kepada manajer perekrut seperti apa keberhasilan dalam tiga bulan pertama; jawaban yang samar menandakan perannya belum dirancang. <b>Uji modal</b>: daftar tiga keterampilan atau hasil yang akan ditambahkan peran itu ke inventarismu dari Pelajaran 7.1; jika kamu tak bisa menyebutnya, tarikannya mungkin jabatan atau angkanya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Weak answer",
+          "id": "Jawaban lemah"
+         },
+         {
+          "en": "Strong answer",
+          "id": "Jawaban kuat"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "What would I do in a typical week?",
+           "id": "Apa yang akan saya kerjakan di minggu biasa?"
+          },
+          {
+           "en": "“Macam-macam, dinamis.”",
+           "id": "“Macam-macam, dinamis.”"
+          },
+          {
+           "en": "Specific tasks, decisions and stakeholders",
+           "id": "Tugas, keputusan, dan pemangku kepentingan yang spesifik"
+          }
+         ],
+         [
+          {
+           "en": "What does success look like at 90 days?",
+           "id": "Seperti apa keberhasilan di 90 hari?"
+          },
+          {
+           "en": "“Nanti kita lihat.”",
+           "id": "“Nanti kita lihat.”"
+          },
+          {
+           "en": "Two or three concrete outcomes",
+           "id": "Dua atau tiga hasil konkret"
+          }
+         ],
+         [
+          {
+           "en": "What capital would I add?",
+           "id": "Modal apa yang akan saya tambah?"
+          },
+          {
+           "en": "A bigger title",
+           "id": "Jabatan lebih besar"
+          },
+          {
+           "en": "Named skills or results you cannot build now",
+           "id": "Keterampilan atau hasil yang tak bisa dibangun sekarang"
+          }
+         ],
+         [
+          {
+           "en": "Where do people in this role go next?",
+           "id": "Ke mana orang di peran ini pergi berikutnya?"
+          },
+          {
+           "en": "Nobody knows",
+           "id": "Tak ada yang tahu"
+          },
+          {
+           "en": "Examples that match your next door",
+           "id": "Contoh yang cocok dengan pintu berikutmu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; fictional answers.",
+         "id": "Panduan kursus; jawaban fiktif."
+        }
        }
       },
       {
-       "icon": "chat",
+       "icon": "users",
        "h": {
-        "en": "Interrogating the offer",
-        "id": "Menggali tawaran"
+        "en": "Lens 2 — the manager is much of the job",
+        "id": "Lensa 2 — manajer adalah sebagian besar pekerjaannya"
        },
        "body": {
-        "en": "Questions that reveal the real role, all legitimate to ask between offer and acceptance: “What happened to the last person in this seat?” (growth, exit, or revolving door — each tells). “What would my first two deliverables be?” (vague answers predict vague roles). “How does this role get evaluated at six months?” (no answer means no thought). “Can I speak with someone on the team?” (refusal is data). “What does progression from this role look like — who last made it?” Companies respect candidates who interrogate; evasive answers to fair questions are themselves the answer. Do the same diligence on the company that The Range taught for research: funding or results trajectory, turnover signals, market position.",
-        "id": "Pertanyaan yang mengungkap peran yang sebenarnya, semuanya wajar ditanyakan antara tawaran dan penerimaan: “Apa yang terjadi pada orang terakhir di posisi ini?” (naik, keluar, atau pintu putar — masing-masing bercerita). “Apa dua hasil kerja pertama yang diharapkan dari saya?” (jawaban yang samar meramalkan peran yang samar). “Bagaimana peran ini dievaluasi di bulan keenam?” (tidak ada jawaban berarti belum dipikirkan). “Boleh saya bicara dengan salah satu anggota tim?” (penolakan adalah data). “Seperti apa jenjang dari peran ini — siapa yang terakhir berhasil naik?” Perusahaan menghargai kandidat yang menggali; jawaban yang mengelak atas pertanyaan yang wajar adalah jawaban itu sendiri. Lakukan riset yang sama telitinya tentang perusahaan, seperti yang diajarkan The Range: arah pendanaan atau kinerjanya, tanda-tanda pergantian karyawan, posisinya di pasar."
-       }
+        "en": "Your next manager will decide much of what you learn, how visible your work is, what your rating says, and whether you are put forward — the whole of Modules 2 to 6, seen from the other side. Yet many people accept roles after thirty minutes with the manager in an interview, where both sides are performing. Evaluate the manager deliberately. <b>Ask them directly</b>, in the interview or a follow-up call: how do you like to work with the people on your team? How often do you meet one to one? Tell me about someone you developed — where are they now? How do you give feedback when something goes wrong? What would you want from me that your last person in this role did not give you? Listen for specifics and for how they speak about former team members. <b>Look at the evidence</b>: where did their last few direct reports go — promoted, moved to good roles, or left quickly? How long have they themselves been in the role, and are they likely to stay (a manager who leaves in six months means you are effectively hired by someone else)? <b>Backchannel ethically</b>: ask someone who has worked with them — a former team member, a colleague in another unit, a contact from your board (Module 6). Keep it respectful and fair: ask open questions (“what was it like to work for her?”, “what kind of person thrives with him?”), weigh one bad story against several good ones, do not share what the hiring process told you in confidence, and do not ask current colleagues of your own to spread the word that you are looking. Red flags include vague answers about development, contempt for predecessors, a pattern of quick departures, and a manager who cannot say what success looks like.",
+        "id": "Manajer berikutmu akan menentukan sebagian besar apa yang kamu pelajari, seberapa terlihat pekerjaanmu, apa isi penilaianmu, dan apakah kamu diajukan — seluruh Modul 2 sampai 6, dilihat dari sisi lain. Namun banyak orang menerima peran setelah tiga puluh menit dengan manajernya di wawancara, di mana kedua pihak sedang berlakon. Nilailah manajernya dengan sengaja. <b>Tanyakan langsung</b>, di wawancara atau telepon lanjutan: bagaimana Anda suka bekerja dengan anggota tim? Seberapa sering bertemu empat mata? Ceritakan tentang seseorang yang Anda kembangkan — di mana ia sekarang? Bagaimana Anda memberi umpan balik saat ada yang salah? Apa yang Anda harapkan dari saya yang tidak diberikan pemegang peran ini sebelumnya? Dengarkan kekhususannya dan cara ia berbicara tentang mantan anggota timnya. <b>Lihat buktinya</b>: ke mana beberapa bawahan langsung terakhirnya pergi — dipromosikan, pindah ke peran yang baik, atau cepat keluar? Berapa lama ia sendiri di peran itu, dan apakah ia kemungkinan bertahan (manajer yang pergi dalam enam bulan berarti kamu sebenarnya direkrut oleh orang lain)? <b>Tanya di belakang layar secara etis</b>: tanyakan kepada orang yang pernah bekerja dengannya — mantan anggota tim, kolega di unit lain, kontak dari dewanmu (Modul 6). Jaga tetap hormat dan adil: ajukan pertanyaan terbuka (“seperti apa bekerja dengannya?”, “orang seperti apa yang berkembang bersamanya?”), timbang satu cerita buruk terhadap beberapa cerita baik, jangan bagikan apa yang dikatakan proses rekrutmen secara rahasia, dan jangan meminta rekan kerjamu sendiri menyebarkan bahwa kamu sedang mencari. Tanda bahaya mencakup jawaban samar soal pengembangan, meremehkan pendahulu, pola kepergian yang cepat, dan manajer yang tak bisa mengatakan seperti apa keberhasilan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Ask</b> — one-to-ones, feedback, someone they developed and where that person is now.",
+         "id": "<b>Tanyakan</b> — empat mata, umpan balik, seseorang yang ia kembangkan dan di mana orang itu sekarang."
+        },
+        {
+         "en": "<b>Look</b> — where their last reports went; how long they are likely to stay.",
+         "id": "<b>Lihat</b> — ke mana bawahan terakhirnya pergi; berapa lama ia kemungkinan bertahan."
+        },
+        {
+         "en": "<b>Backchannel</b> — open questions, fair weighting, no confidences broken.",
+         "id": "<b>Belakang layar</b> — pertanyaan terbuka, penimbangan adil, tanpa membocorkan rahasia."
+        },
+        {
+         "en": "<b>Red flags</b> — vague on development, contempt for predecessors, quick departures.",
+         "id": "<b>Tanda bahaya</b> — samar soal pengembangan, meremehkan pendahulu, kepergian cepat."
+        }
+       ]
       },
       {
        "icon": "eye",
        "h": {
-        "en": "The honest comparison",
-        "id": "Perbandingan yang jujur"
+        "en": "Lenses 3 and 4 — the organisation and the team",
+        "id": "Lensa 3 dan 4 — organisasi dan tim"
        },
        "body": {
-        "en": "Compare the offer against your current role's true trajectory: with the engineering moves you have not yet tried, the promotion case in flight, the sponsor half-earned — versus the offer's promises discounted to what its evidence supports. Then project both to year three: where does each bundle leave your assets, your gates, your constraints? The arithmetic seductions to refuse: comparing their best case to your worst week; pricing the raise without pricing the reset (new trust to build, new terrain to learn — six months of reduced compounding); and treating the current role's known problems as heavier than the offer's unknown ones. Unknown problems arrive on schedule; they are simply not visible from here.",
-        "id": "Bandingkan tawaran itu dengan lintasan peranmu saat ini yang sebenarnya: termasuk langkah-langkah perbaikan yang belum kamu coba, kasus promosi yang sedang berjalan, sponsor yang setengah jalan kamu raih — versus janji-janji tawaran yang sudah didiskon ke sebatas apa yang didukung buktinya. Lalu proyeksikan keduanya ke tahun ketiga: di mana masing-masing paket meninggalkan asetmu, gerbangmu, batasanmu? Godaan hitung-hitungan yang harus ditolak: membandingkan skenario terbaik mereka dengan minggu terburukmu; menghitung kenaikan gaji tanpa menghitung biaya memulai dari nol (kepercayaan baru yang harus dibangun, medan baru yang harus dipelajari — enam bulan dengan pertumbuhan yang melambat); dan menganggap masalah yang sudah kamu kenal di peran saat ini lebih berat daripada masalah yang belum kamu ketahui di tawaran baru. Masalah yang belum diketahui akan datang tepat waktu; ia hanya belum terlihat dari sini."
+        "en": "<b>The organisation</b>: will it be healthy and heading somewhere in two years? For a listed company, the annual report and recent news tell you about growth, profitability and strategy. For a start-up or fintech, ask about runway and funding stage, and search for news of layoffs or restructuring; in regulated sectors such as lending and payments, check that the business holds the licences its model requires — in Indonesia, for example, many financial services are supervised by OJK <span class=\"ev ev-verify\">Verify</span>. Ask where the organisation is investing, and whether your future unit is part of that or a cost to be cut. Look for evidence of culture rather than slogans: how decisions are made, how mistakes are handled, how long people stay, whether leaders you meet contradict each other. <b>The team</b>: who would you work with every day, and why is this seat empty? “Why is this role open?” is one of the most revealing questions you can ask. Growth (a new product, a new region) is usually a good answer. Replacement is fine if the previous person moved up or on for good reasons; it is a warning if several people have left the same seat in a short time. Ask to meet one or two future peers, and ask them what the manager is like, what a good week looks like, and what they would change. Notice what the team would teach you: a team of people stronger than you in the skills you want is itself capital. Finally, look at how you are treated during the process — whether people are on time, prepared and honest about the downsides. Organisations tend to show their habits early.",
+        "id": "<b>Organisasinya</b>: apakah ia akan sehat dan menuju ke suatu arah dua tahun lagi? Untuk perusahaan terbuka, laporan tahunan dan berita terkini memberitahumu tentang pertumbuhan, profitabilitas, dan strategi. Untuk perusahaan rintisan atau fintech, tanyakan tentang dana cadangan dan tahap pendanaan, dan cari berita tentang PHK atau restrukturisasi; di sektor teregulasi seperti pinjaman dan pembayaran, periksa bahwa bisnis itu memegang izin yang dibutuhkan modelnya — di Indonesia, misalnya, banyak layanan keuangan diawasi OJK <span class=\"ev ev-verify\">Verifikasi</span>. Tanyakan ke mana organisasi berinvestasi, dan apakah unit masa depanmu bagian dari itu atau biaya yang akan dipangkas. Cari bukti budaya, bukan slogan: bagaimana keputusan dibuat, bagaimana kesalahan ditangani, berapa lama orang bertahan, apakah pemimpin yang kamu temui saling bertentangan. <b>Timnya</b>: dengan siapa kamu akan bekerja setiap hari, dan mengapa kursi ini kosong? “Mengapa peran ini terbuka?” adalah salah satu pertanyaan paling mengungkap yang bisa kamu ajukan. Pertumbuhan (produk baru, wilayah baru) biasanya jawaban yang baik. Penggantian tidak masalah jika orang sebelumnya naik atau pindah karena alasan baik; itu peringatan jika beberapa orang meninggalkan kursi yang sama dalam waktu singkat. Mintalah bertemu satu atau dua calon rekan, dan tanyakan seperti apa manajernya, seperti apa minggu yang baik, dan apa yang ingin mereka ubah. Perhatikan apa yang akan diajarkan tim itu kepadamu: tim berisi orang-orang yang lebih kuat darimu dalam keterampilan yang kamu inginkan adalah modal tersendiri. Terakhir, perhatikan bagaimana kamu diperlakukan selama proses — apakah orang tepat waktu, siap, dan jujur tentang sisi buruknya. Organisasi cenderung menunjukkan kebiasaannya sejak awal."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Lens",
+          "id": "Lensa"
+         },
+         {
+          "en": "Key question",
+          "id": "Pertanyaan kunci"
+         },
+         {
+          "en": "Evidence to look for",
+          "id": "Bukti yang dicari"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Organisation</b>",
+           "id": "<b>Organisasi</b>"
+          },
+          {
+           "en": "Healthy and heading somewhere in two years?",
+           "id": "Sehat dan menuju ke suatu arah dua tahun lagi?"
+          },
+          {
+           "en": "Annual report or funding stage; news; licences; where it invests",
+           "id": "Laporan tahunan atau tahap pendanaan; berita; izin; ke mana ia berinvestasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Team</b>",
+           "id": "<b>Tim</b>"
+          },
+          {
+           "en": "Why is this seat empty?",
+           "id": "Mengapa kursi ini kosong?"
+          },
+          {
+           "en": "Growth vs replacement; how many have left; meeting future peers",
+           "id": "Pertumbuhan vs penggantian; berapa yang sudah pergi; bertemu calon rekan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Culture</b>",
+           "id": "<b>Budaya</b>"
+          },
+          {
+           "en": "How are decisions and mistakes handled?",
+           "id": "Bagaimana keputusan dan kesalahan ditangani?"
+          },
+          {
+           "en": "Consistent stories from different people; how the process treats you",
+           "id": "Cerita yang konsisten dari orang berbeda; bagaimana prosesnya memperlakukanmu"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Licensing and supervision depend on the business model — verify with the regulator’s public lists.",
+         "id": "Panduan kursus. Perizinan dan pengawasan bergantung pada model bisnis — verifikasi dengan daftar publik regulator."
+        }
+       }
+      },
+      {
+       "icon": "chart",
+       "h": {
+        "en": "Scoring honestly — and testing before you leap",
+        "id": "Menilai dengan jujur — dan menguji sebelum melompat"
+       },
+       "body": {
+        "en": "Once you have evidence, compare options — including <b>staying</b>, which is always an option — against your career architecture. Take the three to five things that matter most from your Module 1 work: perhaps learning a specific capability, the next door in your trajectory, pay, stability, time for family, location. <b>Set the weights before you see the number</b>; otherwise the salary quietly rewrites your priorities. Separate <b>gates</b> from <b>weights</b>: a gate is a must-have (“no relocation until my father’s treatment ends”, “no role that breaches my red lines”); an option that fails a gate is out, however well it scores. Score each option on each criterion from 1 to 5, with a one-line reason drawn from the evidence of the four lenses, multiply by the weights, and look at the result — then look at your reaction to it. If you are disappointed that the “wrong” option won, that disappointment is information: either a weight is wrong or something is missing. Compare <b>total compensation</b>, not base salary: allowances, THR, bonus, insurance, pension contributions, and the real cost of living in the new location (Module 8 and The Rope’s offer module go deeper). Then <b>reality-test</b> the leading option before committing. Chip and Dan Heath’s <i>Decisive</i> recommends small experiments — “ooching” — before big commitments: talk to three people who know the role or the manager, spend half a day with the team if you can, ask for the written job description and targets, and read the contract in full. The aim is to replace the imagined version of the job with the real one. A choice that survives honest scoring and three conversations is rarely one you regret.",
+        "id": "Setelah punya bukti, bandingkan pilihan — termasuk <b>bertahan</b>, yang selalu merupakan pilihan — terhadap arsitektur kariermu. Ambil tiga sampai lima hal yang paling penting dari pekerjaan Modul 1-mu: mungkin mempelajari kapabilitas tertentu, pintu berikutnya dalam lintasanmu, gaji, stabilitas, waktu untuk keluarga, lokasi. <b>Tetapkan bobot sebelum melihat angkanya</b>; jika tidak, gaji diam-diam menulis ulang prioritasmu. Pisahkan <b>gerbang</b> dari <b>bobot</b>: gerbang adalah syarat mutlak (“tidak pindah kota sampai pengobatan ayah selesai”, “tak ada peran yang melanggar garis merahku”); pilihan yang gagal di gerbang tersingkir, setinggi apa pun nilainya. Beri nilai tiap pilihan di tiap kriteria dari 1 sampai 5, dengan alasan satu baris dari bukti empat lensa, kalikan dengan bobotnya, dan lihat hasilnya — lalu perhatikan reaksimu. Jika kamu kecewa karena pilihan yang “salah” menang, kekecewaan itu adalah informasi: entah bobotnya keliru atau ada yang terlewat. Bandingkan <b>total kompensasi</b>, bukan gaji pokok: tunjangan, THR, bonus, asuransi, iuran pensiun, dan biaya hidup nyata di lokasi baru (Modul 8 dan modul tawaran The Rope membahas lebih dalam). Lalu <b>uji kenyataan</b> pilihan terdepan sebelum berkomitmen. <i>Decisive</i> karya Chip dan Dan Heath menyarankan eksperimen kecil — “ooching” — sebelum komitmen besar: bicara dengan tiga orang yang mengenal peran atau manajernya, habiskan setengah hari bersama timnya jika bisa, minta deskripsi pekerjaan dan target tertulis, dan baca kontraknya sampai habis. Tujuannya mengganti versi pekerjaan yang dibayangkan dengan versi nyatanya. Pilihan yang bertahan dari penilaian jujur dan tiga percakapan jarang disesali."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Criterion (weight)",
+          "id": "Kriteria (bobot)"
+         },
+         {
+          "en": "Stay",
+          "id": "Bertahan"
+         },
+         {
+          "en": "Option A",
+          "id": "Pilihan A"
+         },
+         {
+          "en": "Option B",
+          "id": "Pilihan B"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Learning the target capability (30%)",
+           "id": "Mempelajari kapabilitas sasaran (30%)"
+          },
+          {
+           "en": "2 — curve flat",
+           "id": "2 — kurva datar"
+          },
+          {
+           "en": "5 — core of the role",
+           "id": "5 — inti peran"
+          },
+          {
+           "en": "3 — partly",
+           "id": "3 — sebagian"
+          }
+         ],
+         [
+          {
+           "en": "Next door in trajectory (25%)",
+           "id": "Pintu berikutnya dalam lintasan (25%)"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "4",
+           "id": "4"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          }
+         ],
+         [
+          {
+           "en": "Manager and team (20%)",
+           "id": "Manajer dan tim (20%)"
+          },
+          {
+           "en": "4 — known",
+           "id": "4 — sudah dikenal"
+          },
+          {
+           "en": "4 — two good backchannels",
+           "id": "4 — dua cerita baik"
+          },
+          {
+           "en": "2 — three left in 18 months",
+           "id": "2 — tiga orang pergi dalam 18 bulan"
+          }
+         ],
+         [
+          {
+           "en": "Total compensation, real terms (15%)",
+           "id": "Total kompensasi, nilai riil (15%)"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "5",
+           "id": "5"
+          }
+         ],
+         [
+          {
+           "en": "Family and location (10%) · gate: within a day of home",
+           "id": "Keluarga dan lokasi (10%) · gerbang: sehari dari rumah"
+          },
+          {
+           "en": "5",
+           "id": "5"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          },
+          {
+           "en": "3",
+           "id": "3"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional illustration of a weighted comparison; scores need one-line reasons from evidence.",
+         "id": "Ilustrasi fiktif perbandingan berbobot; nilai butuh alasan satu baris dari bukti."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "ladder",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: What to weigh, in ascending order — salary is the floor of the ladder, the manager is the top rung.",
-       "id": "Peraga 1: Apa yang perlu ditimbang, dari bawah ke atas — gaji adalah anak tangga terbawah, manajer anak tangga teratas."
+       "en": "Exhibit 1: From offer to evidence-based choice",
+       "id": "Peraga 1: Dari tawaran ke pilihan berbasis bukti"
       },
       "title": {
-       "en": "Salary → Title → Scope → Manager",
-       "id": "Gaji → Jabatan → Lingkup → Manajer"
+       "en": "Architecture → four lenses → weights → score → reality test",
+       "id": "Arsitektur → empat lensa → bobot → nilai → uji kenyataan"
       },
       "items": [
        {
+        "icon": "compass",
         "h": {
-         "en": "Salary",
-         "id": "Gaji"
+         "en": "Architecture",
+         "id": "Arsitektur"
         },
         "sub": {
-         "en": "Priced by the market; the easiest variable to compare and the least predictive",
-         "id": "Ditentukan pasar; variabel paling mudah dibandingkan dan paling tidak prediktif"
+         "en": "What matters most, from Module 1.",
+         "id": "Yang paling penting, dari Modul 1."
         }
        },
        {
+        "icon": "eye",
         "h": {
-         "en": "Title",
-         "id": "Jabatan"
+         "en": "Four lenses",
+         "id": "Empat lensa"
         },
         "sub": {
-         "en": "Signals level outside; inside, scope decides what you actually learn",
-         "id": "Menandakan level di luar; di dalam, lingkup yang menentukan apa yang benar-benar kamu pelajari"
+         "en": "Role, manager, organisation, team.",
+         "id": "Peran, manajer, organisasi, tim."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Scope",
-         "id": "Lingkup"
+         "en": "Gates and weights",
+         "id": "Gerbang dan bobot"
         },
         "sub": {
-         "en": "What you own end-to-end, and how soon — ownership mints assets",
-         "id": "Apa yang kamu miliki dari ujung ke ujung, dan seberapa cepat — kepemilikan mencetak aset"
+         "en": "Set before you see the number.",
+         "id": "Ditetapkan sebelum melihat angkanya."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Manager",
-         "id": "Manajer"
+         "en": "Score",
+         "id": "Nilai"
         },
         "sub": {
-         "en": "Their reputation for growing people — the biggest unpriced variable",
-         "id": "Reputasi mereka dalam menumbuhkan orang — variabel terbesar yang tak diberi harga"
+         "en": "Every option, including staying, with reasons.",
+         "id": "Setiap pilihan, termasuk bertahan, dengan alasan."
+        }
+       },
+       {
+        "icon": "chat",
+        "h": {
+         "en": "Reality test",
+         "id": "Uji kenyataan"
+        },
+        "sub": {
+         "en": "Three conversations, the contract, the real week.",
+         "id": "Tiga percakapan, kontraknya, minggu yang nyata."
         }
        }
       ],
+      "note": {
+       "en": "The option that survives honest scoring and three conversations is rarely the one you regret.",
+       "id": "Pilihan yang bertahan dari penilaian jujur dan tiga percakapan jarang yang disesali."
+      },
       "longdesc": {
-       "en": "A four-rung ladder ordered by how much each factor should weigh at this stage. Salary is the bottom rung: easy to compare, least predictive. Title comes next. Scope — what you will own end to end — sits above it because ownership mints assets. The manager you would join is the top rung, the largest unpriced variable in any offer.",
-       "id": "Tangga empat anak, diurutkan berdasarkan seberapa besar bobot tiap faktor di tahap ini. Gaji adalah anak tangga terbawah: mudah dibandingkan, paling tidak prediktif. Jabatan di atasnya. Lingkup — apa yang akan kamu miliki dari ujung ke ujung — lebih tinggi karena kepemilikan mencetak aset. Manajer yang akan kamu ikuti adalah anak tangga teratas, variabel terbesar yang tak diberi harga dalam tawaran mana pun."
+       "en": "A five-step flow. Start from your career architecture. Examine each option through four lenses: role, manager, organisation, team. Set gates and weights before seeing the salary. Score every option, including staying, with reasons from evidence. Reality-test the leading option with three conversations, the contract and a look at the real week.",
+       "id": "Alur lima langkah. Mulai dari arsitektur kariermu. Periksa tiap pilihan melalui empat lensa: peran, manajer, organisasi, tim. Tetapkan gerbang dan bobot sebelum melihat gaji. Nilai setiap pilihan, termasuk bertahan, dengan alasan dari bukti. Uji kenyataan pilihan terdepan dengan tiga percakapan, kontraknya, dan melihat minggu yang nyata."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Title and number → four lenses",
+        "id": "Jabatan dan angka → empat lensa"
+       },
+       "q": {
+        "en": "Nadia’s friend asks what she thinks of an offer she received from a fast-growing lender.",
+        "id": "Teman Nadia bertanya pendapatnya tentang tawaran yang ia terima dari pemberi pinjaman yang tumbuh pesat."
+       },
+       "weak": {
+        "en": "“Ambil! Jabatannya Head, gajinya naik 50%, kantornya keren di SCBD. Kapan lagi?”",
+        "id": "“Ambil! Jabatannya Head, gajinya naik 50%, kantornya keren di SCBD. Kapan lagi?”"
+       },
+       "strong": {
+        "en": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji — total, bukan pokok.”",
+        "id": "“Selamat dulu! Sebelum jawab: kerjamu seminggu seperti apa, dan kamu diukur dengan apa? Head itu membawahi berapa orang? Ke mana tiga orang terakhir yang pegang peran ini? Izinnya sudah lengkap? Kalau semua jawabannya bagus dan bobotmu sudah ditulis sebelum lihat angka, baru kita bicara gaji — total, bukan pokok.”"
+       },
+       "why": {
+        "en": "The first judges by title, number and address. The second turns them into questions about the role, the seat’s history, the organisation’s licences and the weights — then the money. Fictional.",
+        "id": "Yang pertama menilai dari jabatan, angka, dan alamat. Yang kedua mengubahnya menjadi pertanyaan tentang peran, riwayat kursinya, izin organisasinya, dan bobotnya — baru uangnya. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: Yosef’s “Head of Credit”",
+       "id": "Sorotan: “Kepala Kredit” Yosef"
+      },
+      "body": [
+       {
+        "en": "Six months ago Yosef, Nadia’s peer, left the bank to become “Head of Credit” at a small multifinance company. The title was two levels above his, the pay thirty per cent higher, and the owner charming in the interview. He did not ask why the seat was empty, how many people he would lead, or what data existed.",
+        "id": "Enam bulan lalu Yosef, rekan Nadia, meninggalkan bank untuk menjadi “Kepala Kredit” di sebuah perusahaan pembiayaan kecil. Jabatannya dua level di atasnya, gajinya tiga puluh persen lebih tinggi, dan pemiliknya memikat saat wawancara. Ia tidak bertanya mengapa kursinya kosong, berapa orang yang akan ia pimpin, atau data apa yang tersedia."
+       },
+       {
+        "en": "The answers arrived in the first month: two predecessors in eighteen months, a team of one — himself — and approvals the owner overrode by phone. Over coffee, he tells Nadia he has learned a lot about what not to do, and is applying back to the bank at his old level. Nadia writes one line in her notes: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”",
+        "id": "Jawabannya datang di bulan pertama: dua pendahulu dalam delapan belas bulan, tim satu orang — dirinya sendiri — dan persetujuan yang dibatalkan pemilik lewat telepon. Sambil ngopi, ia bercerita kepada Nadia bahwa ia belajar banyak tentang apa yang tak boleh dilakukan, dan sedang melamar kembali ke bank di level lamanya. Nadia menulis satu baris di catatannya: “Tanya kenapa kursinya kosong. Tanya ke mana tiga orang terakhir pergi.”"
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Describe the week",
+        "id": "Latihan 1 · Gambarkan minggunya"
+       },
+       "body": {
+        "en": "For a role you are considering (or one you admire), write a typical week without using the title: tasks, decisions, people, measures. Then list the three capital items it would add.",
+        "id": "Untuk peran yang sedang kamu pertimbangkan (atau yang kamu kagumi), tulis minggu yang biasa tanpa memakai jabatannya: tugas, keputusan, orang, ukuran. Lalu daftar tiga butir modal yang akan ditambahkannya."
+       },
+       "debrief": {
+        "en": "Gaps in the description are the questions for your next conversation with the hiring manager.",
+        "id": "Celah dalam deskripsi adalah pertanyaan untuk percakapanmu berikutnya dengan manajer perekrut."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Five manager questions",
+        "id": "Latihan 2 · Lima pertanyaan untuk manajer"
+       },
+       "body": {
+        "en": "Write the five questions you would ask a future manager, in the words you would use, and one backchannel question for someone who has worked with them.",
+        "id": "Tulis lima pertanyaan yang akan kamu ajukan kepada calon manajer, dengan kata-kata yang akan kamu pakai, dan satu pertanyaan belakang layar untuk orang yang pernah bekerja dengannya."
+       },
+       "debrief": {
+        "en": "Include “tell me about someone you developed — where are they now?” It reveals more than any question about management style.",
+        "id": "Sertakan “ceritakan tentang seseorang yang Anda kembangkan — di mana ia sekarang?” Pertanyaan itu mengungkap lebih banyak daripada pertanyaan apa pun tentang gaya memimpin."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Weights before the number",
+        "id": "Latihan 3 · Bobot sebelum angka"
+       },
+       "body": {
+        "en": "Write your gates and three to five weighted criteria now, before any offer. Score staying against them today.",
+        "id": "Tulis gerbang dan tiga sampai lima kriteria berbobotmu sekarang, sebelum ada tawaran. Nilai pilihan bertahan terhadapnya hari ini."
+       },
+       "debrief": {
+        "en": "Staying’s score is your benchmark. An option must beat it on evidence, not on excitement.",
+        "id": "Nilai bertahan adalah patokanmu. Sebuah pilihan harus mengalahkannya dengan bukti, bukan dengan antusiasme."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Choosing the title",
+         "id": "Memilih jabatan"
+        },
+        "fix": {
+         "en": "Describe the week and name the capital it adds.",
+         "id": "Gambarkan minggunya dan sebut modal yang ditambahkan."
+        }
+       },
+       {
+        "h": {
+         "en": "Thirty minutes with the manager",
+         "id": "Tiga puluh menit dengan manajer"
+        },
+        "fix": {
+         "en": "Ask where their last reports went; backchannel ethically.",
+         "id": "Tanyakan ke mana bawahan terakhirnya pergi; tanya di belakang layar secara etis."
+        }
+       },
+       {
+        "h": {
+         "en": "Never asking why the seat is empty",
+         "id": "Tak pernah bertanya mengapa kursinya kosong"
+        },
+        "fix": {
+         "en": "Growth or replacement — and how many before you?",
+         "id": "Pertumbuhan atau penggantian — dan berapa orang sebelummu?"
+        }
+       },
+       {
+        "h": {
+         "en": "Letting the salary set the weights",
+         "id": "Membiarkan gaji menetapkan bobot"
+        },
+        "fix": {
+         "en": "Gates and weights first; total compensation, not base.",
+         "id": "Gerbang dan bobot dulu; total kompensasi, bukan gaji pokok."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "the bundle",
-        "id": "paket tawaran"
+        "en": "Four lenses",
+        "id": "Empat lensa"
        },
        "def": {
-        "en": "Everything an offer actually contains beyond salary — scope, manager, growth curve, learning density, brand, flexibility — scored on the same sheet as your current role.",
-        "id": "Segala hal yang benar-benar terkandung dalam sebuah tawaran di luar gaji — lingkup, manajer, kurva pertumbuhan, kepadatan belajar, merek, fleksibilitas — dinilai di lembar yang sama dengan peran saat ini."
+        "en": "Role, manager, organisation and team — the parts of an offer that decide what the next two years build.",
+        "id": "Peran, manajer, organisasi, dan tim — bagian tawaran yang menentukan apa yang dibangun dua tahun ke depan."
        }
       },
       {
        "term": {
-        "en": "three-year mark",
-        "id": "titik tiga tahun"
+        "en": "Gate",
+        "id": "Gerbang"
        },
        "def": {
-        "en": "The comparison point for two options: not what each pays on day one, but where each trajectory plausibly puts you in three years.",
-        "id": "Titik pembanding dua pilihan: bukan berapa yang dibayar masing-masing di hari pertama, melainkan di mana setiap lintasan masuk akal menempatkanmu dalam tiga tahun."
+        "en": "A must-have that removes an option regardless of its score.",
+        "id": "Syarat mutlak yang menyingkirkan sebuah pilihan berapa pun nilainya."
+       }
+      },
+      {
+       "term": {
+        "en": "Backchannel",
+        "id": "Tanya di belakang layar"
+       },
+       "def": {
+        "en": "Asking people who have worked with a manager or team what it is like — openly, fairly, without breaking confidences.",
+        "id": "Bertanya kepada orang yang pernah bekerja dengan manajer atau tim seperti apa rasanya — terbuka, adil, tanpa membocorkan rahasia."
+       }
+      },
+      {
+       "term": {
+        "en": "Ooching",
+        "id": "Ooching"
+       },
+       "def": {
+        "en": "Heath and Heath’s term for a small experiment that tests an option before a big commitment.",
+        "id": "Istilah Heath dan Heath untuk eksperimen kecil yang menguji pilihan sebelum komitmen besar."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "The offer's salary is 15% higher but the hiring manager cannot name your first two deliverables and the last two people in the seat left within a year. The bundle read?",
-        "id": "Gaji di tawaran itu 15% lebih tinggi, tapi manajer perekrutnya tidak bisa menyebutkan dua hasil kerja pertamamu, dan dua orang terakhir di posisi itu keluar dalam setahun. Bacaan paketnya?"
+        "en": "The single most revealing question about a team is often…",
+        "id": "Pertanyaan paling mengungkap tentang sebuah tim sering kali…"
        },
        "options": [
         {
-         "en": "Take it — salary is the only verifiable variable",
-         "id": "Ambil — gaji satu-satunya variabel yang bisa diverifikasi"
+         "en": "“How big is the office?”",
+         "id": "“Seberapa besar kantornya?”"
         },
         {
-         "en": "The two strongest signals (vague scope, revolving door) price the bundle down past the raise — decline or investigate further",
-         "id": "Dua sinyal terkuat (lingkup yang samar, posisi pintu putar) menurunkan nilai paket melampaui kenaikan gajinya — tolak, atau selidiki lebih jauh"
+         "en": "“Why is this role open?”",
+         "id": "“Mengapa peran ini terbuka?”"
         },
         {
-         "en": "Negotiate for 25% to compensate for the risk",
-         "id": "Negosiasikan jadi 25% sebagai kompensasi risikonya"
+         "en": "“Is there free lunch?”",
+         "id": "“Apakah ada makan siang gratis?”"
+        },
+        {
+         "en": "“What is the dress code?”",
+         "id": "“Apa aturan berpakaiannya?”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "A raise buys six months of pay difference; a revolving-door seat with undefined scope costs years of compounding. The bundle, not the number.",
-        "id": "Kenaikan gaji membeli enam bulan selisih pendapatan; posisi pintu putar dengan lingkup yang tidak jelas mengorbankan pertumbuhan bertahun-tahun. Paketnya, bukan angkanya."
+        "en": "Growth or replacement — and a pattern of departures — tells you a great deal.",
+        "id": "Pertumbuhan atau penggantian — dan pola kepergian — memberitahumu banyak hal."
+       }
+      },
+      {
+       "q": {
+        "en": "When should you set the weights for comparing options?",
+        "id": "Kapan sebaiknya kamu menetapkan bobot untuk membandingkan pilihan?"
+       },
+       "options": [
+        {
+         "en": "After seeing all the salaries",
+         "id": "Setelah melihat semua gaji"
+        },
+        {
+         "en": "Before seeing the number",
+         "id": "Sebelum melihat angkanya"
+        },
+        {
+         "en": "Only if the options are close",
+         "id": "Hanya jika pilihannya berdekatan"
+        },
+        {
+         "en": "Never — go with your gut",
+         "id": "Tidak pernah — ikuti naluri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Otherwise the salary quietly rewrites your priorities.",
+        "id": "Jika tidak, gaji diam-diam menulis ulang prioritasmu."
+       }
+      },
+      {
+       "q": {
+        "en": "A role scores highest but requires relocating while your gate says no relocation this year. It…",
+        "id": "Sebuah peran bernilai tertinggi tetapi mengharuskan pindah kota sementara gerbangmu bilang tak pindah tahun ini. Ia…"
+       },
+       "options": [
+        {
+         "en": "Wins — the score is highest",
+         "id": "Menang — nilainya tertinggi"
+        },
+        {
+         "en": "Is out, unless the gate itself changes",
+         "id": "Tersingkir, kecuali gerbangnya sendiri berubah"
+        },
+        {
+         "en": "Should be accepted and renegotiated later",
+         "id": "Sebaiknya diterima dan dinegosiasi ulang nanti"
+        },
+        {
+         "en": "Needs a higher salary to win",
+         "id": "Butuh gaji lebih tinggi untuk menang"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Gates are not weights; an option that fails one is out.",
+        "id": "Gerbang bukan bobot; pilihan yang gagal di gerbang tersingkir."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Schedule three reality-test conversations",
+       "id": "Jadwalkan tiga percakapan uji kenyataan"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add three conversations for your leading option — someone who knows the role, someone who has worked with the manager, and a future peer — each with one open question.",
+       "id": "Buka rencana 90 hari dan tambahkan tiga percakapan untuk pilihan terdepanmu — orang yang mengenal perannya, orang yang pernah bekerja dengan manajernya, dan calon rekan — masing-masing dengan satu pertanyaan terbuka."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "quote": {
+      "en": "A title, a number and a logo are not a role. Ask what the next two years would build — and with whom.",
+      "id": "Jabatan, angka, dan logo bukanlah peran. Tanyakan apa yang akan dibangun dua tahun ke depan — dan bersama siapa."
+     },
+     "takeaways": [
+      {
+       "en": "Evaluate the role by the capital it builds and the door it opens — describe the week, not the title.",
+       "id": "Nilai peran dari modal yang dibangunnya dan pintu yang dibukanya — gambarkan minggunya, bukan jabatannya."
+      },
+      {
+       "en": "The manager is much of the job: ask where their last reports went, and backchannel ethically; ask why the seat is empty.",
+       "id": "Manajer adalah sebagian besar pekerjaannya: tanyakan ke mana bawahan terakhirnya pergi, dan tanya di belakang layar secara etis; tanyakan mengapa kursinya kosong."
+      },
+      {
+       "en": "Set gates and weights before the number, score every option including staying, and reality-test before you leap.",
+       "id": "Tetapkan gerbang dan bobot sebelum angka, nilai setiap pilihan termasuk bertahan, dan uji kenyataan sebelum melompat."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The four-lens evaluation",
+       "id": "Penilaian empat lensa"
+      },
+      "lead": {
+       "en": "Career Kit item (part 2): your opportunity evaluation.",
+       "id": "Butir Career Kit (bagian 2): penilaian peluangmu."
+      },
       "items": [
        {
-        "kind": "worksheet",
+        "kind": "guide",
         "title": {
-         "en": "Offer against architecture",
-         "id": "Tawaran terhadap arsitektur"
+         "en": "Sources and evidence notes · Lesson 7.2",
+         "id": "Sumber dan catatan bukti · Pelajaran 7.2"
         },
         "desc": {
-         "en": "Score 1–5 for each line, then read the pattern, not just the total.",
-         "id": "Nilai 1–5 untuk tiap baris, lalu baca polanya, bukan hanya totalnya."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "Capital gain: does this role add the skills / evidence / relationships my destination needs?",
-          "id": "Perolehan modal: apakah peran ini menambah keterampilan / bukti / hubungan yang dibutuhkan tujuanku?"
+          "en": "C. Heath and D. Heath, <i>Decisive</i> — widening options, reality-testing assumptions and “ooching” before big commitments.",
+          "id": "C. Heath dan D. Heath, <i>Decisive</i> — memperluas pilihan, menguji asumsi, dan “ooching” sebelum komitmen besar."
          },
          {
-          "en": "Manager: did they explain the role clearly, ask hard questions, and describe how they develop people?",
-          "id": "Manajer: apakah mereka menjelaskan peran dengan jelas, mengajukan pertanyaan sulit, dan menggambarkan cara mengembangkan orang?"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Whether a financial business is licensed or registered for its activities can be checked against the regulator’s public lists; requirements change.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Apakah bisnis keuangan berizin atau terdaftar untuk kegiatannya bisa dicek pada daftar publik regulator; persyaratannya berubah."
          },
          {
-          "en": "Scope: what will I own within six months? Is it bigger than now?",
-          "id": "Lingkup: apa yang akan kumiliki dalam enam bulan? Apakah lebih besar dari sekarang?"
-         },
-         {
-          "en": "Learning: what will be hard here for at least eighteen months?",
-          "id": "Pembelajaran: apa yang akan sulit di sini setidaknya delapan belas bulan?"
-         },
-         {
-          "en": "Reputation: will the next employer recognise this name and this work?",
-          "id": "Reputasi: akankah pemberi kerja berikutnya mengenali nama dan pekerjaan ini?"
-         },
-         {
-          "en": "Total compensation (8.1 calculator): is the whole bundle at or above market?",
-          "id": "Kompensasi total (kalkulator 8.1): apakah seluruh paket setara atau di atas pasar?"
-         },
-         {
-          "en": "Stability and life fit: will the company exist and will I, in three years?",
-          "id": "Stabilitas dan kecocokan hidup: akankah perusahaan ada, dan aku, dalam tiga tahun?"
-         },
-         {
-          "en": "Red lines: does anything cross one? If yes, stop here.",
-          "id": "Garis merah: adakah yang melanggar? Jika ya, berhenti di sini."
-         },
-         {
-          "en": "Questions I must ask before deciding: …",
-          "id": "Pertanyaan yang harus kuajukan sebelum memutuskan: …"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The four lenses, gates and weights and the backchannel rules are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Empat lensa, gerbang dan bobot, serta aturan tanya di belakang layar adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Pricing the salary, not the bundle",
-         "id": "Menaksir gaji, bukan paketnya"
-        },
-        "fix": {
-         "en": "Manager, scope, learning, brand, commute, stability, total comp. Score all of them against the architecture, or the number decides for you.",
-         "id": "Manajer, lingkup, pembelajaran, merek, perjalanan, stabilitas, kompensasi total. Nilai semuanya terhadap arsitektur, atau angkanya yang memutuskan untukmu."
-        }
        },
        {
-        "h": {
-         "en": "Believing the pitch",
-         "id": "Mempercayai pitch-nya"
+        "kind": "worksheet",
+        "title": {
+         "en": "Four-lens evaluation",
+         "id": "Penilaian empat lensa"
         },
-        "fix": {
-         "en": "Ask to talk to someone who has been in the team a year. Ask what the last person in the role went on to do.",
-         "id": "Minta berbicara dengan orang yang sudah setahun di tim. Tanyakan apa yang dilakukan orang terakhir di peran itu setelahnya."
-        }
+        "desc": {
+         "en": "One per option, including staying.",
+         "id": "Satu per pilihan, termasuk bertahan."
+        },
+        "body": [
+         {
+          "en": "ROLE: typical week … · 90-day success … · capital added 1 … 2 … 3 … · next door … · MANAGER: answers … · last reports went … · backchannel …",
+          "id": "PERAN: minggu biasa … · keberhasilan 90 hari … · modal ditambah 1 … 2 … 3 … · pintu berikutnya … · MANAJER: jawaban … · bawahan terakhir ke … · belakang layar …"
+         },
+         {
+          "en": "ORGANISATION: health … · licences … · investing in … · TEAM: why open … · departures … · peers met … · RED FLAGS: …",
+          "id": "ORGANISASI: kesehatan … · izin … · berinvestasi di … · TIM: mengapa terbuka … · kepergian … · rekan yang ditemui … · TANDA BAHAYA: …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Deciding alone",
-         "id": "Memutuskan sendirian"
+        "kind": "template",
+        "title": {
+         "en": "Gates, weights and the score",
+         "id": "Gerbang, bobot, dan nilai"
         },
-        "fix": {
-         "en": "Bring it to two seats of the inner circle before you answer. They will see what the excitement hides.",
-         "id": "Bawa ke dua kursi lingkaran dalam sebelum menjawab. Mereka akan melihat yang disembunyikan kegembiraan."
-        }
+        "desc": {
+         "en": "Written before any number.",
+         "id": "Ditulis sebelum ada angka."
+        },
+        "body": [
+         {
+          "en": "GATES: 1 … 2 … · CRITERIA (weight): … (…%) · … (…%) · … (…%) · … (…%)",
+          "id": "GERBANG: 1 … 2 … · KRITERIA (bobot): … (…%) · … (…%) · … (…%) · … (…%)"
+         },
+         {
+          "en": "SCORES 1–5 with reasons: stay … · option A … · option B … · MY REACTION TO THE RESULT: … · REALITY TESTS: 1 … 2 … 3 …",
+          "id": "NILAI 1–5 dengan alasan: bertahan … · pilihan A … · pilihan B … · REAKSIKU TERHADAP HASILNYA: … · UJI KENYATAAN: 1 … 2 … 3 …"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "7.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
      "title": {
       "en": "Internal Mobility: Moving Within Your Organisation",
       "id": "Mobilitas Internal: Pindah di Dalam Organisasimu"
      },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
      "overview": {
-      "en": "The cheapest second move is often inside the building: new scope, new team, new domain — with your trust capital carried over instead of reset. This lesson covers internal mobility's mechanics: finding the openings, running the quiet campaign, and managing your current manager through it.",
-      "id": "Langkah kedua yang paling murah sering ada di dalam gedung yang sama: lingkup baru, tim baru, ranah baru — dengan modal kepercayaanmu ikut terbawa, bukan dimulai dari nol. Pelajaran ini membahas mekanisme mobilitas internal: menemukan peluangnya, menjalankan kampanye senyap, dan mengelola manajermu saat ini sepanjang prosesnya."
+      "en": "The steepest new curve is sometimes one building away. An internal move keeps most of the capital you have built — reputation, relationships, knowledge of how things work — while giving you new skills and a new story. Yet many people only look outside, because internal moves feel politically risky and the rules are unclear. This lesson sets out the forms internal mobility takes, how internal markets actually work, how to have the conversation with your current manager without damaging the relationship, and how to land well on the other side.",
+      "id": "Kurva baru yang paling curam kadang hanya satu gedung jauhnya. Perpindahan internal mempertahankan sebagian besar modal yang sudah kamu bangun — reputasi, hubungan, pengetahuan tentang cara kerja — sambil memberimu keterampilan baru dan cerita baru. Namun banyak orang hanya melihat ke luar, karena perpindahan internal terasa berisiko secara politis dan aturannya tidak jelas. Pelajaran ini memaparkan bentuk-bentuk mobilitas internal, bagaimana pasar internal sebenarnya bekerja, cara melakukan percakapan dengan manajermu sekarang tanpa merusak hubungan, dan cara mendarat dengan baik di sisi lain."
      },
      "objectives": [
       {
-       "en": "Weigh internal moves against external ones with the reset cost priced.",
-       "id": "Menimbang pindah internal terhadap pindah eksternal, dengan biaya memulai dari nol ikut dihitung."
+       "en": "Compare the forms of internal mobility, from taskforce to relocation.",
+       "id": "Membandingkan bentuk-bentuk mobilitas internal, dari satgas sampai relokasi."
       },
       {
-       "en": "Run the internal campaign: visibility, conversations, and formal process in the right order.",
-       "id": "Menjalankan kampanye internal: visibilitas, percakapan, dan proses formal dalam urutan yang benar."
+       "en": "Read your organisation’s internal-move rules and its informal market.",
+       "id": "Membaca aturan perpindahan internal organisasimu dan pasar informalnya."
       },
       {
-       "en": "Handle the current-manager conversation without burning the bridge you stand on.",
-       "id": "Menangani percakapan dengan manajermu saat ini tanpa membakar jembatan tempatmu berpijak."
+       "en": "Hold the conversation with your current manager early and well.",
+       "id": "Melakukan percakapan dengan manajermu sekarang lebih awal dan dengan baik."
+      },
+      {
+       "en": "Land the move: the internal interview, level and pay, release and handover.",
+       "id": "Mendaratkan perpindahannya: wawancara internal, level dan gaji, pelepasan dan serah terima."
       }
      ],
-     "takeawaysLead": {
-      "en": "The cheapest second move is often inside the building, and it is decided before any posting appears. To run the internal campaign, you can:",
-      "id": "Langkah kedua termurah sering kali ada di dalam gedung yang sama, dan diputuskan sebelum lowongan mana pun muncul. Untuk menjalankan kampanye internal, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "A new curve without starting from zero",
+       "id": "Kurva baru tanpa mulai dari nol"
+      },
+      "intro": {
+       "en": "Inside, your reputation is your CV — and your current manager is part of the process, not an obstacle to hide from.",
+       "id": "Di dalam, reputasimu adalah CV-mu — dan manajermu sekarang adalah bagian dari prosesnya, bukan penghalang untuk dihindari."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Many forms",
+         "id": "Banyak bentuk"
+        },
+        "points": [
+         {
+          "en": "Taskforce, secondment, lateral move, promotion, relocation.",
+          "id": "Satgas, penugasan sementara, pindah setara, promosi, relokasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Two markets",
+         "id": "Dua pasar"
+        },
+        "points": [
+         {
+          "en": "The posted one, and the one where roles are discussed before posting.",
+          "id": "Yang diumumkan, dan yang peran-perannya dibahas sebelum diumumkan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Manager early",
+         "id": "Manajer lebih awal"
+        },
+        "points": [
+         {
+          "en": "They should hear it from you, with a handover plan.",
+          "id": "Ia harus mendengarnya darimu, dengan rencana serah terima."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Land well",
+         "id": "Mendarat dengan baik"
+        },
+        "points": [
+         {
+          "en": "Prepare as for an outside interview; agree level, pay and release date.",
+          "id": "Bersiap seperti wawancara luar; sepakati level, gaji, dan tanggal pelepasan."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Internal moves carry your trust capital; external moves reprice it from zero — the difference is often worth more than a raise.",
-       "id": "Pindah internal membawa serta modal kepercayaanmu; pindah eksternal menilainya ulang dari nol — selisihnya sering lebih berharga daripada kenaikan gaji."
-      },
-      {
-       "en": "Internal campaigns run on sponsorship and timing: the receiving team must want you before the posting exists.",
-       "id": "Kampanye internal berjalan di atas sponsorship dan waktu: tim penerima harus sudah menginginkanmu sebelum lowongannya ada."
-      },
-      {
-       "en": "Tell your manager at the right moment, in the right frame — growth, not escape.",
-       "id": "Beri tahu manajermu di saat yang tepat, dengan bingkai yang tepat — sebagai pertumbuhan, bukan pelarian."
-      }
-     ],
      "sections": [
       {
-       "icon": "gear",
+       "icon": "compass",
+       "img": "../../assets/m/03-climb.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "The internal option, priced fairly",
-        "id": "Pilihan internal, dinilai secara adil"
+        "en": "Why inside first — and the forms it takes",
+        "id": "Mengapa di dalam dulu — dan bentuk-bentuknya"
        },
        "body": {
-        "en": "An internal move keeps what external moves destroy: your reputation samples, your witness network, your knowledge of how things actually work — the invisible half of your effectiveness. It typically trades away the salary jump external moves bring (internal adjustments run smaller) and risks less: a known culture, verifiable managers, and your sponsors still in the building. The evaluation sheet from 7.2 applies unchanged — score the internal opening as a bundle. When the architecture needs new assets but not a new market, internal is usually the efficient move; when the ceiling verdict came from the organisation itself, only external resets the game.",
-        "id": "Pindah internal mempertahankan apa yang dihancurkan oleh pindah eksternal: contoh-contoh reputasimu, jaringan saksimu, pengetahuanmu tentang cara kerja yang sebenarnya — separuh efektivitasmu yang tidak terlihat. Biasanya ia mengorbankan lonjakan gaji yang dibawa pindah eksternal (penyesuaian internal cenderung lebih kecil), tapi risikonya juga lebih kecil: budaya yang sudah dikenal, manajer yang bisa diverifikasi, dan sponsor-sponsormu masih di gedung yang sama. Lembar evaluasi dari Pelajaran 7.2 berlaku tanpa perubahan — beri skor peluang internal itu sebagai satu paket. Ketika arsitekturmu membutuhkan aset baru tapi bukan pasar baru, internal biasanya langkah yang paling efisien; ketika vonis batas atas datang dari organisasinya sendiri, hanya pindah eksternal yang bisa memulai ulang permainannya."
+        "en": "When you move inside, most of your capital comes with you: people already know your reputation, you know how decisions are made, and your relationships and sponsors (Module 6) still work. When you move outside, much of that capital must be rebuilt from zero, and the new employer is betting on a stranger. Research supports the value of internal moves: Matthew Bidwell’s study “Paying More to Get Less” found that external hires were often paid more than internal promotions into similar jobs, yet received lower performance evaluations in their early years and were more likely to leave. That does not make outside moves wrong — sometimes the capital you need simply does not exist inside — but it does mean the inside should be examined first. Internal mobility comes in several forms, which differ in commitment and risk. A <b>project or taskforce</b> restarts part of the curve without changing your job. A <b>secondment</b> — a temporary assignment to another unit for months — lets both sides test the fit. A <b>lateral move</b> changes function or product at the same level; it is often the most underrated move of an early career, because it adds breadth that later promotions depend on. A <b>promotion</b> in another unit combines new work with a new level. A <b>relocation</b> — to head office, another region or another country in a group — combines all of this with a change of life. For each, ask the same questions as in Lesson 7.2: what capital would it build, and which door would it open?",
+        "id": "Saat kamu pindah di dalam, sebagian besar modalmu ikut: orang sudah mengenal reputasimu, kamu tahu cara keputusan dibuat, dan hubungan serta sponsormu (Modul 6) masih bekerja. Saat kamu pindah ke luar, banyak modal itu harus dibangun ulang dari nol, dan pemberi kerja baru bertaruh pada orang asing. Riset mendukung nilai perpindahan internal: studi Matthew Bidwell “Paying More to Get Less” menemukan bahwa rekrutan eksternal sering dibayar lebih tinggi daripada promosi internal ke pekerjaan serupa, tetapi menerima penilaian kinerja lebih rendah di tahun-tahun awalnya dan lebih mungkin keluar. Itu tidak membuat perpindahan ke luar salah — kadang modal yang kamu butuhkan memang tak ada di dalam — tetapi berarti bagian dalam sebaiknya diperiksa lebih dulu. Mobilitas internal hadir dalam beberapa bentuk, yang berbeda dalam komitmen dan risiko. <b>Proyek atau satgas</b> memulai ulang sebagian kurva tanpa mengubah pekerjaanmu. <b>Penugasan sementara</b> — tugas sementara di unit lain selama beberapa bulan — memungkinkan kedua pihak menguji kecocokan. <b>Pindah setara</b> mengubah fungsi atau produk di level yang sama; ini sering menjadi langkah paling diremehkan di awal karier, karena menambah keluasan yang kelak dibutuhkan promosi. <b>Promosi</b> di unit lain menggabungkan pekerjaan baru dengan level baru. <b>Relokasi</b> — ke kantor pusat, wilayah lain, atau negara lain dalam satu grup — menggabungkan semua itu dengan perubahan hidup. Untuk masing-masing, ajukan pertanyaan yang sama seperti di Pelajaran 7.2: modal apa yang akan dibangun, dan pintu mana yang akan dibuka?"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Form",
+          "id": "Bentuk"
+         },
+         {
+          "en": "Commitment",
+          "id": "Komitmen"
+         },
+         {
+          "en": "Best for",
+          "id": "Paling cocok untuk"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Project / taskforce</b>",
+           "id": "<b>Proyek / satgas</b>"
+          },
+          {
+           "en": "Low — keep your job",
+           "id": "Rendah — tetap di pekerjaanmu"
+          },
+          {
+           "en": "Testing a new area; visibility to another unit",
+           "id": "Menguji area baru; visibilitas ke unit lain"
+          }
+         ],
+         [
+          {
+           "en": "<b>Secondment</b>",
+           "id": "<b>Penugasan sementara</b>"
+          },
+          {
+           "en": "Medium — months, with a return",
+           "id": "Sedang — beberapa bulan, dengan kepulangan"
+          },
+          {
+           "en": "Both sides testing the fit",
+           "id": "Kedua pihak menguji kecocokan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Lateral move</b>",
+           "id": "<b>Pindah setara</b>"
+          },
+          {
+           "en": "Medium–high",
+           "id": "Sedang–tinggi"
+          },
+          {
+           "en": "Breadth that later promotions need",
+           "id": "Keluasan yang kelak dibutuhkan promosi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Promotion elsewhere</b>",
+           "id": "<b>Promosi di unit lain</b>"
+          },
+          {
+           "en": "High",
+           "id": "Tinggi"
+          },
+          {
+           "en": "A new level when your unit has no slot",
+           "id": "Level baru saat unitmu tak punya slot"
+          }
+         ],
+         [
+          {
+           "en": "<b>Relocation</b>",
+           "id": "<b>Relokasi</b>"
+          },
+          {
+           "en": "Highest — work and life",
+           "id": "Tertinggi — kerja dan hidup"
+          },
+          {
+           "en": "Head-office or regional exposure; bigger curves",
+           "id": "Paparan kantor pusat atau wilayah; kurva lebih besar"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance; research reference: M. Bidwell, “Paying More to Get Less” (2011).",
+         "id": "Panduan kursus; rujukan riset: M. Bidwell, “Paying More to Get Less” (2011)."
+        }
        }
       },
       {
-       "icon": "eye",
+       "icon": "book",
        "h": {
-        "en": "The quiet campaign",
-        "id": "Kampanye senyap"
+        "en": "The rules and the two markets",
+        "id": "Aturan dan dua pasar"
        },
        "body": {
-        "en": "Internal moves are decided before postings appear. The sequence: <b>signal availability upward and sideways</b> — in development conversations, name the domain you want to grow into; <b>build proximity to the target team</b> — the cross-functional project, the offered help, the presented artefact their lead attends; <b>let your sponsors know</b> what you are looking for (this is precisely what sponsors are for); and when interest firms up, <b>use the formal process cleanly</b> — internal applications, interviews taken as seriously as external ones. What sinks campaigns: badmouthing your current team as the reason (receiving managers hear how you talk about teams you leave), and campaigns run so secretly that your manager learns from HR — the one version of events you cannot repair.",
-        "id": "Pindah internal diputuskan sebelum lowongannya muncul. Urutannya: <b>beri sinyal ke atas dan ke samping bahwa kamu terbuka</b> — dalam percakapan pengembangan karier, sebutkan ranah yang ingin kamu tumbuhi; <b>bangun kedekatan dengan tim yang kamu tuju</b> — proyek lintas fungsi, bantuan yang kamu tawarkan, artefak yang kamu presentasikan dan dihadiri pemimpin tim itu; <b>beri tahu sponsor-sponsormu</b> apa yang kamu cari (persis untuk inilah sponsor ada); dan begitu minatnya mengerucut, <b>jalani proses formal dengan bersih</b> — lamaran internal, wawancara yang kamu seriusi seperti wawancara eksternal. Yang menenggelamkan kampanye: menjelek-jelekkan tim saat ini sebagai alasanmu (manajer penerima menyimak cara kamu bicara tentang tim yang kamu tinggalkan), dan kampanye yang begitu rahasia sampai manajermu justru tahu dari HR — satu-satunya versi cerita yang tidak bisa kamu perbaiki."
+        "en": "Most mid-sized and large organisations have an <b>internal job posting</b> policy. Read it before you do anything else; it usually answers questions people are afraid to ask. Common provisions include a <b>minimum time in your current role</b> before you may apply (often twelve to twenty-four months), a <b>performance threshold</b> such as a rating of “meets” or above, whether your <b>current manager must be informed</b> or must approve before you apply or before an offer, a <b>release period</b> your current unit may require for handover, and how <b>grade and pay</b> are set when you move — in many organisations a lateral move carries no pay change and a promotion follows the standard band <span class=\"ev ev-verify\">Verify</span>. Then understand that there are <b>two markets</b>. The <b>posted market</b> — the roles on the internal portal — is fair and open, but by the time a role is posted, the hiring manager sometimes already has a person in mind. The <b>informal market</b> is the conversation before the posting: a head of unit mentions to a colleague that they will need a data analyst in the next quarter; a taskforce lead remembers who delivered. You enter the informal market through the same things Modules 4 and 6 built — visibility beyond your unit, a reputation in two or three words, and a board that includes people in other units. Making your interest known in advance (“saya tertarik ke pengembangan produk suatu saat”) lets people think of you when a need appears. Two cautions keep this clean: the informal market is for being known, not for bypassing the posting — the process test from Lesson 6.1 still applies — and approaching another unit’s manager should never happen in a way your own manager would first hear about from them.",
+        "id": "Kebanyakan organisasi menengah dan besar punya kebijakan <b>lowongan internal</b>. Bacalah sebelum melakukan apa pun; biasanya ia menjawab pertanyaan yang orang takut tanyakan. Ketentuan umum mencakup <b>masa minimum di peranmu sekarang</b> sebelum boleh melamar (sering dua belas sampai dua puluh empat bulan), <b>ambang kinerja</b> seperti penilaian “memenuhi” atau lebih, apakah <b>manajermu sekarang harus diberi tahu</b> atau harus menyetujui sebelum kamu melamar atau sebelum tawaran, <b>masa pelepasan</b> yang mungkin disyaratkan unitmu untuk serah terima, dan bagaimana <b>golongan dan gaji</b> ditetapkan saat kamu pindah — di banyak organisasi pindah setara tidak mengubah gaji dan promosi mengikuti rentang standar <span class=\"ev ev-verify\">Verifikasi</span>. Lalu pahami bahwa ada <b>dua pasar</b>. <b>Pasar yang diumumkan</b> — peran-peran di portal internal — adil dan terbuka, tetapi saat sebuah peran diumumkan, manajer perekrut kadang sudah punya calon di kepala. <b>Pasar informal</b> adalah percakapan sebelum pengumuman: seorang kepala unit menyebut kepada koleganya bahwa ia akan butuh analis data kuartal depan; seorang pemimpin satgas ingat siapa yang menuntaskan kerja. Kamu memasuki pasar informal lewat hal-hal yang dibangun Modul 4 dan 6 — visibilitas di luar unitmu, reputasi dalam dua atau tiga kata, dan dewan yang mencakup orang di unit lain. Membuat minatmu diketahui lebih dulu (“saya tertarik ke pengembangan produk suatu saat”) membuat orang teringat kamu saat kebutuhan muncul. Dua peringatan menjaganya tetap bersih: pasar informal adalah untuk dikenal, bukan untuk melewati lowongan — uji proses dari Pelajaran 6.1 tetap berlaku — dan mendekati manajer unit lain tak boleh terjadi dengan cara yang membuat manajermu sendiri pertama kali mendengarnya dari mereka."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Typical policy provision",
+          "id": "Ketentuan kebijakan yang lazim"
+         },
+         {
+          "en": "What to find out",
+          "id": "Yang perlu dicari tahu"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Minimum time in current role",
+           "id": "Masa minimum di peran sekarang"
+          },
+          {
+           "en": "How long, and whether exceptions exist",
+           "id": "Berapa lama, dan apakah ada pengecualian"
+          }
+         ],
+         [
+          {
+           "en": "Performance threshold",
+           "id": "Ambang kinerja"
+          },
+          {
+           "en": "Which rating, from which review",
+           "id": "Peringkat mana, dari penilaian yang mana"
+          }
+         ],
+         [
+          {
+           "en": "Manager notification or approval",
+           "id": "Pemberitahuan atau persetujuan manajer"
+          },
+          {
+           "en": "Before applying, or before an offer?",
+           "id": "Sebelum melamar, atau sebelum tawaran?"
+          }
+         ],
+         [
+          {
+           "en": "Release period",
+           "id": "Masa pelepasan"
+          },
+          {
+           "en": "Maximum weeks your unit can hold you",
+           "id": "Maksimum minggu unitmu bisa menahanmu"
+          }
+         ],
+         [
+          {
+           "en": "Grade and pay on moving",
+           "id": "Golongan dan gaji saat pindah"
+          },
+          {
+           "en": "Lateral vs promotion rules; allowances for relocation",
+           "id": "Aturan pindah setara vs promosi; tunjangan relokasi"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Provisions vary by organisation — read your own policy.",
+         "id": "Panduan kursus. Ketentuan berbeda per organisasi — baca kebijakanmu sendiri."
+        }
        }
       },
       {
        "icon": "chat",
        "h": {
-        "en": "The manager conversation",
-        "id": "Percakapan dengan manajer"
+        "en": "The conversation with your current manager",
+        "id": "Percakapan dengan manajermu sekarang"
        },
        "body": {
-        "en": "Timing: after your interest is real and roughly reciprocated, before any formal application — your manager must never learn second-hand. Frame: growth toward your architecture, not escape from their team — “I want to build pricing-analytics depth, and the commercial team is where that lives; I'd like to explore it, and I want to handle it well for our team.” Offer the operational goodwill that makes yes easy: a real transition period, documentation, handover of your systems. Most managers, treated this way, convert into references and even advocates — they know blocked people leave buildings entirely. If your organisation's culture genuinely punishes mobility signals, that is architecture-level information about the organisation, and the external path inherits the case.",
-        "id": "Waktunya: setelah minatmu nyata dan kurang lebih berbalas, sebelum lamaran formal apa pun — manajermu tidak boleh tahu dari orang lain. Bingkainya: pertumbuhan menuju arsitekturmu, bukan pelarian dari timnya — “Saya ingin memperdalam analitik harga, dan tim komersial adalah tempatnya; saya ingin menjajakinya, dan saya ingin menanganinya dengan baik untuk tim kita.” Tawarkan niat baik yang membuat “ya” jadi mudah: masa transisi yang sungguhan, dokumentasi, serah terima sistem yang kamu pegang. Kebanyakan manajer, kalau diperlakukan begini, berubah menjadi pemberi referensi, bahkan pembela — mereka tahu orang yang dihalangi pindah akan meninggalkan gedung sepenuhnya. Kalau budaya organisasimu benar-benar menghukum orang yang menunjukkan minat pindah, itu informasi di level arsitektur tentang organisasi tersebut, dan jalur eksternal mewarisi kasusnya."
+        "en": "The conversation people dread most is the one with their current manager. They fear being seen as disloyal, being quietly punished, or being held back — and so they apply in secret, and their manager hears from HR or from the other unit. That is the worst possible outcome: it breaks trust, and in many Indonesian organisations it reads as <i>melangkahi atasan</i>. The better path, in most cases, is to tell your manager <b>early</b> — ideally before you apply, and certainly before an offer — and to frame the move as <b>growth within the organisation</b>, not escape from them. A useful structure has four parts. <b>Appreciation</b>: what you have learned in the role and from them, specifically. <b>Direction</b>: the capability you want to build next and why the other role builds it — the trajectory from Module 1. <b>Responsibility</b>: a handover plan — who could take over what, how long you would need, what you will finish first. <b>Request</b>: their advice, and, if they are willing, their support. “Bu, saya sangat berterima kasih — dua tahun di sini saya belajar menilai kredit dan memimpin pilot. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Some managers will be delighted; many will be disappointed first and supportive later; a few will try to hold on — “jangan dulu, unit butuh kamu”. If that happens, ask what would make a move possible and when, offer to develop a successor, refer politely to the policy’s release period, and, if the block persists without reason, seek advice from HR or your skip-level manager — calmly, and without making it a complaint.",
+        "id": "Percakapan yang paling ditakuti adalah percakapan dengan manajer sekarang. Orang takut dianggap tidak setia, dihukum diam-diam, atau ditahan — sehingga mereka melamar diam-diam, dan manajernya mendengar dari HR atau dari unit lain. Itulah hasil terburuk: ia merusak kepercayaan, dan di banyak organisasi Indonesia terbaca sebagai melangkahi atasan. Jalan yang lebih baik, dalam kebanyakan kasus, adalah memberi tahu manajermu <b>lebih awal</b> — idealnya sebelum melamar, dan pasti sebelum tawaran — dan membingkai perpindahan sebagai <b>pertumbuhan di dalam organisasi</b>, bukan melarikan diri darinya. Struktur yang berguna punya empat bagian. <b>Penghargaan</b>: apa yang kamu pelajari di peran itu dan darinya, secara spesifik. <b>Arah</b>: kapabilitas yang ingin kamu bangun berikutnya dan mengapa peran lain itu membangunnya — lintasan dari Modul 1. <b>Tanggung jawab</b>: rencana serah terima — siapa yang bisa mengambil alih apa, berapa lama kamu butuh, apa yang akan kamu selesaikan lebih dulu. <b>Permintaan</b>: nasihatnya, dan, jika ia bersedia, dukungannya. “Bu, saya sangat berterima kasih — dua tahun di sini saya belajar menilai kredit dan memimpin pilot. Saya ingin membangun kemampuan di produk digital, dan ada posisi di unit Pak Arya yang cocok. Saya sudah siapkan rencana serah terima. Saya ingin minta pendapat Ibu, dan kalau Ibu berkenan, dukungannya.” Sebagian manajer akan senang; banyak yang kecewa dulu lalu mendukung; segelintir akan mencoba menahan — “jangan dulu, unit butuh kamu”. Jika itu terjadi, tanyakan apa yang membuat perpindahan mungkin dan kapan, tawarkan untuk mengembangkan pengganti, rujuk dengan sopan pada masa pelepasan dalam kebijakan, dan, jika hambatannya bertahan tanpa alasan, minta saran HR atau atasan dari atasanmu — dengan tenang, dan tanpa menjadikannya keluhan."
+       },
+       "bullets": [
+        {
+         "en": "<b>Appreciation</b> — what you learned, specifically.",
+         "id": "<b>Penghargaan</b> — apa yang kamu pelajari, secara spesifik."
+        },
+        {
+         "en": "<b>Direction</b> — the capability you want next, and why that role builds it.",
+         "id": "<b>Arah</b> — kapabilitas yang kamu inginkan berikutnya, dan mengapa peran itu membangunnya."
+        },
+        {
+         "en": "<b>Responsibility</b> — a handover plan and what you will finish first.",
+         "id": "<b>Tanggung jawab</b> — rencana serah terima dan apa yang akan kamu selesaikan dulu."
+        },
+        {
+         "en": "<b>Request</b> — their advice and, if willing, their support.",
+         "id": "<b>Permintaan</b> — nasihatnya dan, jika bersedia, dukungannya."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Landing the move",
+        "id": "Mendaratkan perpindahannya"
+       },
+       "body": {
+        "en": "Internal candidates often under-prepare, assuming that being known is enough. It is not: the receiving manager knows your reputation, but may know it only as two words from a hallway, and may be comparing you with external candidates who arrive with polished stories. Prepare as you would for an outside interview — The Rope’s methods apply — with one advantage: you can bring <b>evidence they can verify inside</b>. Use your win log and promotion file (Modules 2 and 5), mention witnesses they know, and show that you understand their unit’s priorities. Address the obvious question before it is asked: why leave a unit where you are doing well? Then agree the practicalities in writing. <b>Level and pay</b>: ask how the grade is set, whether a lateral move changes pay, and what allowances apply if you relocate; internal moves often bring smaller increases than external ones, which is part of the Bidwell pattern, so weigh the capital you keep against the money you might gain outside. <b>Release date</b>: agree it between both managers, within the policy. <b>Handover</b>: a written list of what you are handing to whom, with a short overlap if possible — the way you leave a unit is part of your reputation in the whole organisation. Finally, <b>stay connected</b> to the unit you left: send a note after the first month, help your successor when asked, and thank your former manager publicly where it is natural. A well-handled internal move adds a second unit of people who will vouch for you.",
+        "id": "Kandidat internal sering kurang bersiap, mengira bahwa sudah dikenal itu cukup. Tidak cukup: manajer penerima mengenal reputasimu, tetapi mungkin hanya sebagai dua kata dari obrolan lorong, dan mungkin sedang membandingkanmu dengan kandidat eksternal yang datang dengan cerita yang rapi. Bersiaplah seperti untuk wawancara di luar — metode The Rope berlaku — dengan satu keunggulan: kamu bisa membawa <b>bukti yang bisa mereka verifikasi di dalam</b>. Pakai catatan capaian dan berkas promosimu (Modul 2 dan 5), sebut saksi yang mereka kenal, dan tunjukkan bahwa kamu memahami prioritas unit mereka. Jawab pertanyaan yang jelas sebelum diajukan: mengapa meninggalkan unit tempat kamu berprestasi? Lalu sepakati hal-hal praktisnya secara tertulis. <b>Level dan gaji</b>: tanyakan bagaimana golongan ditetapkan, apakah pindah setara mengubah gaji, dan tunjangan apa yang berlaku jika kamu relokasi; perpindahan internal sering membawa kenaikan lebih kecil daripada eksternal, yang merupakan bagian dari pola Bidwell, jadi timbang modal yang kamu pertahankan terhadap uang yang mungkin kamu dapat di luar. <b>Tanggal pelepasan</b>: sepakati antara kedua manajer, sesuai kebijakan. <b>Serah terima</b>: daftar tertulis tentang apa yang kamu serahkan kepada siapa, dengan masa tumpang tindih singkat jika mungkin — cara kamu meninggalkan unit adalah bagian dari reputasimu di seluruh organisasi. Terakhir, <b>tetap terhubung</b> dengan unit yang kamu tinggalkan: kirim catatan setelah bulan pertama, bantu penggantimu saat diminta, dan berterima kasihlah kepada mantan manajermu di depan umum bila wajar. Perpindahan internal yang ditangani dengan baik menambah satu unit lagi berisi orang-orang yang mau menjaminmu."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Agree in writing",
+          "id": "Sepakati tertulis"
+         },
+         {
+          "en": "Question to ask",
+          "id": "Pertanyaan yang diajukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Level</b>",
+           "id": "<b>Level</b>"
+          },
+          {
+           "en": "“Golongan saya di posisi baru ditetapkan bagaimana?”",
+           "id": "“Golongan saya di posisi baru ditetapkan bagaimana?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Pay and allowances</b>",
+           "id": "<b>Gaji dan tunjangan</b>"
+          },
+          {
+           "en": "“Apakah ada perubahan gaji, dan tunjangan relokasinya apa saja?”",
+           "id": "“Apakah ada perubahan gaji, dan tunjangan relokasinya apa saja?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Release date</b>",
+           "id": "<b>Tanggal pelepasan</b>"
+          },
+          {
+           "en": "“Kapan tanggal yang disepakati kedua atasan?”",
+           "id": "“Kapan tanggal yang disepakati kedua atasan?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Handover</b>",
+           "id": "<b>Serah terima</b>"
+          },
+          {
+           "en": "“Siapa menerima apa, dan berapa lama tumpang tindihnya?”",
+           "id": "“Siapa menerima apa, dan berapa lama tumpang tindihnya?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "ladder",
       "exhibit": {
-       "en": "Exhibit 1: The internal move, in the order it actually happens — the posting is the last step, not the first.",
-       "id": "Peraga 1: Pindah internal, dalam urutan yang sebenarnya terjadi — lowongan adalah langkah terakhir, bukan pertama."
+       "en": "Exhibit 1: Restarting the curve inside",
+       "id": "Peraga 1: Memulai ulang kurva di dalam"
       },
       "title": {
-       "en": "Signal → Proximity → Sponsor → Manager → Application",
-       "id": "Sinyal → Kedekatan → Sponsor → Manajer → Lamaran"
+       "en": "From low commitment to high — try the lower rungs first",
+       "id": "Dari komitmen rendah ke tinggi — coba anak tangga bawah dulu"
       },
       "items": [
        {
+        "icon": "users",
         "h": {
-         "en": "Signal",
-         "id": "Sinyal"
+         "en": "Project or taskforce",
+         "id": "Proyek atau satgas"
         },
         "sub": {
-         "en": "Name the domain you want to grow into, in development conversations",
-         "id": "Sebutkan ranah yang ingin kamu tumbuhi, dalam percakapan pengembangan"
+         "en": "New work alongside your job; visibility to another unit.",
+         "id": "Pekerjaan baru di samping pekerjaanmu; visibilitas ke unit lain."
         }
        },
        {
+        "icon": "briefcase",
         "h": {
-         "en": "Proximity",
-         "id": "Kedekatan"
+         "en": "Secondment",
+         "id": "Penugasan sementara"
         },
         "sub": {
-         "en": "Cross-team projects, shared problems, their meetings",
-         "id": "Proyek lintas tim, masalah bersama, rapat mereka"
+         "en": "Months in another unit, with a return — both sides test the fit.",
+         "id": "Beberapa bulan di unit lain, dengan kepulangan — kedua pihak menguji kecocokan."
         }
        },
        {
+        "icon": "compass",
         "h": {
-         "en": "Sponsor",
-         "id": "Sponsor"
+         "en": "Lateral move",
+         "id": "Pindah setara"
         },
         "sub": {
-         "en": "The receiving team wants you before the process starts",
-         "id": "Tim penerima menginginkanmu sebelum prosesnya dimulai"
+         "en": "New function or product at the same level — breadth.",
+         "id": "Fungsi atau produk baru di level yang sama — keluasan."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Manager",
-         "id": "Manajer"
+         "en": "Promotion elsewhere",
+         "id": "Promosi di unit lain"
         },
         "sub": {
-         "en": "Hears it from you, framed as growth — never second-hand",
-         "id": "Mendengarnya darimu, dibingkai sebagai pertumbuhan — jangan pernah dari orang lain"
+         "en": "A new level where your unit has no slot.",
+         "id": "Level baru saat unitmu tak punya slot."
         }
        },
        {
+        "icon": "flag",
         "h": {
-         "en": "Application",
-         "id": "Lamaran"
+         "en": "Relocation",
+         "id": "Relokasi"
         },
         "sub": {
-         "en": "The formality that confirms a decision already made",
-         "id": "Formalitas yang mengonfirmasi keputusan yang sudah dibuat"
+         "en": "Head office, region or group company — work and life change.",
+         "id": "Kantor pusat, wilayah, atau perusahaan grup — kerja dan hidup berubah."
         }
        }
       ],
+      "note": {
+       "en": "Each rung keeps most of your capital. Check them before you look outside.",
+       "id": "Setiap anak tangga mempertahankan sebagian besar modalmu. Periksa sebelum melihat ke luar."
+      },
       "longdesc": {
-       "en": "A five-step flow for internal mobility. Signal the domain you want in development conversations; build proximity to the target team through shared work; earn that team's sponsorship so they want you before the process starts; tell your current manager at the right moment, framed as growth; and only then submit the formal application, which confirms a decision already made.",
-       "id": "Alur lima langkah untuk mobilitas internal. Tandai ranah yang kamu inginkan dalam percakapan pengembangan; bangun kedekatan dengan tim tujuan lewat kerja bersama; dapatkan sponsor tim itu sehingga mereka menginginkanmu sebelum prosesnya dimulai; beri tahu manajermu saat ini pada momen yang tepat, dibingkai sebagai pertumbuhan; dan baru kemudian ajukan lamaran resmi, yang mengonfirmasi keputusan yang sudah dibuat."
+       "en": "A five-rung ladder of internal mobility, from lowest to highest commitment: a project or taskforce alongside your job; a secondment of some months with a return; a lateral move to a new function at the same level; a promotion in another unit; and a relocation to head office, another region or a group company. Each keeps most of your career capital.",
+       "id": "Tangga lima anak tangga mobilitas internal, dari komitmen terendah ke tertinggi: proyek atau satgas di samping pekerjaanmu; penugasan sementara beberapa bulan dengan kepulangan; pindah setara ke fungsi baru di level yang sama; promosi di unit lain; dan relokasi ke kantor pusat, wilayah lain, atau perusahaan grup. Masing-masing mempertahankan sebagian besar modal kariermu."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "“You already know me” → evidence they can verify",
+        "id": "“Bapak sudah kenal saya” → bukti yang bisa diverifikasi"
+       },
+       "q": {
+        "en": "In the internal interview for the digital unit, the hiring manager asks Nadia why she is the right person.",
+        "id": "Di wawancara internal untuk unit digital, manajer perekrut bertanya mengapa Nadia orang yang tepat."
+       },
+       "weak": {
+        "en": "“Bapak kan sudah kenal kerja saya dari satgas. Saya pekerja keras dan cepat belajar, dan saya sudah lama ingin ke unit ini.”",
+        "id": "“Bapak kan sudah kenal kerja saya dari satgas. Saya pekerja keras dan cepat belajar, dan saya sudah lama ingin ke unit ini.”"
+       },
+       "strong": {
+        "en": "“Tiga hal yang relevan untuk tim Bapak. Di satgas, saya menemukan pola waktu panen yang terlewat model — sekarang dipakai di versi kedua. Saya membangun laporan portofolio dengan SQL yang dipakai dua wilayah. Dan saya melatih 14 petugas cabang, jadi saya tahu cara menjelaskan model ke orang cabang. Soal kenapa meninggalkan unit yang sedang baik: kurva belajar saya di sana sudah datar, dan Bu Sinta sudah tahu dan mendukung.”",
+        "id": "“Tiga hal yang relevan untuk tim Bapak. Di satgas, saya menemukan pola waktu panen yang terlewat model — sekarang dipakai di versi kedua. Saya membangun laporan portofolio dengan SQL yang dipakai dua wilayah. Dan saya melatih 14 petugas cabang, jadi saya tahu cara menjelaskan model ke orang cabang. Soal kenapa meninggalkan unit yang sedang baik: kurva belajar saya di sana sudah datar, dan Bu Sinta sudah tahu dan mendukung.”"
+       },
+       "why": {
+        "en": "The first relies on being known and on adjectives. The second brings three verifiable results tied to the unit’s needs, and answers the obvious question — including that her manager is on side — before it is asked. Fictional.",
+        "id": "Yang pertama bergantung pada sudah dikenal dan kata sifat. Yang kedua membawa tiga hasil yang bisa diverifikasi dan terkait kebutuhan unit, serta menjawab pertanyaan yang jelas — termasuk bahwa manajernya mendukung — sebelum diajukan. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: “jangan dulu”",
+       "id": "Sorotan: “jangan dulu”"
+      },
+      "body": [
+       {
+        "en": "Tika, the Kudus branch operations officer who once sent Nadia late Friday data, wants to move into the regional credit centre as a junior analyst. The internal posting is open, she meets the eighteen-month rule, and Nadia would welcome her. Her branch manager, Pak Heru, says: “Jangan dulu, Tika. Cabang ini butuh kamu. Tahun depan saja.”",
+        "id": "Tika, petugas operasional cabang Kudus yang dulu mengirim data Jumat sore kepada Nadia, ingin pindah ke pusat kredit regional sebagai analis junior. Lowongan internal sedang dibuka, ia memenuhi aturan delapan belas bulan, dan Nadia akan menyambutnya. Manajer cabangnya, Pak Heru, berkata: “Jangan dulu, Tika. Cabang ini butuh kamu. Tahun depan saja.”"
+       },
+       {
+        "en": "Tika does not argue and does not apply behind his back. She asks what would make a move possible. His concern is month-end reporting, which only she knows. She proposes to train a colleague over six weeks, write the procedure down, and stay on call for the first month-end after she moves — within the policy’s release period. Pak Heru agrees, a little reluctantly, and signs her application. A year later, when he needs a credit query answered quickly, he calls Tika first.",
+        "id": "Tika tidak membantah dan tidak melamar di belakangnya. Ia bertanya apa yang membuat perpindahan mungkin. Kekhawatirannya adalah laporan akhir bulan, yang hanya Tika kuasai. Ia mengusulkan melatih seorang rekan selama enam minggu, menuliskan prosedurnya, dan tetap bisa dihubungi untuk akhir bulan pertama setelah ia pindah — dalam masa pelepasan sesuai kebijakan. Pak Heru setuju, sedikit berat hati, dan menandatangani lamarannya. Setahun kemudian, saat ia butuh pertanyaan kredit dijawab cepat, Tika yang ia telepon pertama kali."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Read the policy",
+        "id": "Latihan 1 · Baca kebijakannya"
+       },
+       "body": {
+        "en": "Find your organisation’s internal-move policy and fill the five provisions: minimum time, performance threshold, manager notification, release period, grade and pay. Mark anything you could not find.",
+        "id": "Temukan kebijakan perpindahan internal organisasimu dan isi lima ketentuan: masa minimum, ambang kinerja, pemberitahuan manajer, masa pelepasan, golongan dan gaji. Tandai yang tidak kamu temukan."
+       },
+       "debrief": {
+        "en": "Unanswered provisions are questions for HR — asked neutrally, as information, before any conversation about a specific role.",
+        "id": "Ketentuan yang belum terjawab adalah pertanyaan untuk HR — diajukan netral, sebagai informasi, sebelum percakapan tentang peran tertentu."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Map the inside options",
+        "id": "Latihan 2 · Petakan pilihan di dalam"
+       },
+       "body": {
+        "en": "For each rung of the ladder — taskforce, secondment, lateral, promotion elsewhere, relocation — write one real possibility in your organisation, and who in the informal market would know about it.",
+        "id": "Untuk tiap anak tangga — satgas, penugasan sementara, pindah setara, promosi di unit lain, relokasi — tulis satu kemungkinan nyata di organisasimu, dan siapa di pasar informal yang tahu tentangnya."
+       },
+       "debrief": {
+        "en": "If you cannot name anyone who would know, your next step is visibility and your board, not an application.",
+        "id": "Jika kamu tak bisa menyebut siapa pun yang tahu, langkah berikutmu adalah visibilitas dan dewanmu, bukan lamaran."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Script the manager conversation",
+        "id": "Latihan 3 · Tulis naskah percakapan dengan manajer"
+       },
+       "body": {
+        "en": "Write the four parts — appreciation, direction, responsibility, request — in your own words. Then write how you would respond to “jangan dulu”.",
+        "id": "Tulis keempat bagian — penghargaan, arah, tanggung jawab, permintaan — dengan kata-katamu sendiri. Lalu tulis bagaimana kamu akan merespons “jangan dulu”."
+       },
+       "debrief": {
+        "en": "A good response to “not yet” asks what would make it possible and when, and offers a successor plan — without threats or secret applications.",
+        "id": "Respons yang baik untuk “jangan dulu” menanyakan apa yang membuatnya mungkin dan kapan, dan menawarkan rencana pengganti — tanpa ancaman atau lamaran diam-diam."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Looking only outside",
+         "id": "Hanya melihat ke luar"
+        },
+        "fix": {
+         "en": "Check every rung of the inside ladder first.",
+         "id": "Periksa setiap anak tangga di dalam lebih dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Applying in secret",
+         "id": "Melamar diam-diam"
+        },
+        "fix": {
+         "en": "Tell your manager early, with a handover plan.",
+         "id": "Beri tahu manajermu lebih awal, dengan rencana serah terima."
+        }
+       },
+       {
+        "h": {
+         "en": "Assuming being known is enough",
+         "id": "Mengira sudah dikenal itu cukup"
+        },
+        "fix": {
+         "en": "Prepare as for an outside interview, with verifiable evidence.",
+         "id": "Bersiap seperti wawancara luar, dengan bukti yang bisa diverifikasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Leaving the old unit badly",
+         "id": "Meninggalkan unit lama dengan buruk"
+        },
+        "fix": {
+         "en": "Written handover, an overlap, and a note after a month.",
+         "id": "Serah terima tertulis, tumpang tindih, dan catatan setelah sebulan."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "trust capital",
-        "id": "modal kepercayaan"
+        "en": "Internal job posting",
+        "id": "Lowongan internal"
        },
        "def": {
-        "en": "The invisible half of your effectiveness — reputation samples, witness network, knowledge of how things actually work — which an internal move carries over and an external move resets to zero.",
-        "id": "Separuh tak terlihat dari efektivitasmu — sampel reputasi, jaringan saksi, pengetahuan tentang cara kerja sebenarnya — yang dibawa serta oleh pindah internal dan disetel ulang ke nol oleh pindah eksternal."
+        "en": "An organisation’s process and rules for filling roles from existing staff.",
+        "id": "Proses dan aturan organisasi untuk mengisi peran dari karyawan yang ada."
        }
       },
       {
        "term": {
-        "en": "the quiet campaign",
-        "id": "kampanye senyap"
+        "en": "Secondment",
+        "id": "Penugasan sementara"
        },
        "def": {
-        "en": "Signalling availability upward and sideways, building proximity to the target team, and earning its sponsorship — all before a formal application exists.",
-        "id": "Menandakan ketersediaan ke atas dan ke samping, membangun kedekatan dengan tim tujuan, dan mendapatkan sponsornya — semua sebelum lamaran resmi ada."
+        "en": "A temporary assignment to another unit or company in the group, usually with a return date.",
+        "id": "Tugas sementara di unit lain atau perusahaan dalam grup, biasanya dengan tanggal kepulangan."
+       }
+      },
+      {
+       "term": {
+        "en": "Lateral move",
+        "id": "Pindah setara"
+       },
+       "def": {
+        "en": "A move to a different function or product at the same level.",
+        "id": "Perpindahan ke fungsi atau produk berbeda di level yang sama."
+       }
+      },
+      {
+       "term": {
+        "en": "Release period",
+        "id": "Masa pelepasan"
+       },
+       "def": {
+        "en": "The time your current unit may hold you for handover after an internal move is agreed.",
+        "id": "Waktu unitmu sekarang boleh menahanmu untuk serah terima setelah perpindahan internal disepakati."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "You want the commercial team's analyst opening, posting expected next month. Your manager knows nothing. First move?",
-        "id": "Kamu menginginkan posisi analis di tim komersial, yang lowongannya diperkirakan tayang bulan depan. Manajermu belum tahu apa-apa. Langkah pertama?"
+        "en": "According to Bidwell’s research, compared with internal promotions, external hires into similar jobs were often…",
+        "id": "Menurut riset Bidwell, dibanding promosi internal, rekrutan eksternal ke pekerjaan serupa sering…"
        },
        "options": [
         {
-         "en": "Apply the moment it posts — formal process protects you",
-         "id": "Lamar begitu lowongannya tayang — proses formal melindungimu"
+         "en": "Paid less and rated higher",
+         "id": "Dibayar lebih rendah dan dinilai lebih tinggi"
         },
         {
-         "en": "Before the posting: confirm the mutual interest with the commercial lead, then tell your manager in the growth frame — never let them learn from HR",
-         "id": "Sebelum tayang: pastikan minatnya berbalas dengan pemimpin tim komersial, lalu beri tahu manajermu dengan bingkai pertumbuhan — jangan pernah biarkan ia tahu dari HR"
+         "en": "Paid more but rated lower early on, and more likely to leave",
+         "id": "Dibayar lebih tinggi tetapi dinilai lebih rendah di awal, dan lebih mungkin keluar"
         },
         {
-         "en": "Ask HR to keep your application confidential from your manager",
-         "id": "Minta HR merahasiakan lamaranmu dari manajermu"
+         "en": "Identical in every way",
+         "id": "Sama dalam segala hal"
+        },
+        {
+         "en": "Always promoted faster",
+         "id": "Selalu dipromosikan lebih cepat"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Internal moves run on relationships that persist after the move. The sequence — interest confirmed, manager told well, then formal process — protects all of them.",
-        "id": "Pindah internal berjalan di atas hubungan yang tetap ada setelah kamu pindah. Urutannya — minat dipastikan, manajer diberi tahu baik-baik, baru proses formal — melindungi semua hubungan itu."
+        "en": "Internal movers keep capital that outsiders must rebuild.",
+        "id": "Orang yang pindah di dalam mempertahankan modal yang harus dibangun ulang orang luar."
+       }
+      },
+      {
+       "q": {
+        "en": "When should your current manager hear about an internal application?",
+        "id": "Kapan manajermu sekarang sebaiknya mendengar tentang lamaran internal?"
+       },
+       "options": [
+        {
+         "en": "Only after you get the offer",
+         "id": "Hanya setelah kamu mendapat tawaran"
+        },
+        {
+         "en": "From HR, to avoid awkwardness",
+         "id": "Dari HR, agar tidak canggung"
+        },
+        {
+         "en": "Early — from you, ideally before you apply, with a handover plan",
+         "id": "Lebih awal — darimu, idealnya sebelum melamar, dengan rencana serah terima"
+        },
+        {
+         "en": "Never — it is not their business",
+         "id": "Tidak pernah — itu bukan urusannya"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Hearing it elsewhere reads as melangkahi atasan and damages trust.",
+        "id": "Mendengarnya dari tempat lain terbaca sebagai melangkahi atasan dan merusak kepercayaan."
+       }
+      },
+      {
+       "q": {
+        "en": "Your manager says “jangan dulu”. The best first response is…",
+        "id": "Manajermu berkata “jangan dulu”. Respons pertama terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Apply anyway without telling them",
+         "id": "Tetap melamar tanpa memberi tahu"
+        },
+        {
+         "en": "Ask what would make a move possible and when, and offer a successor plan",
+         "id": "Menanyakan apa yang membuat perpindahan mungkin dan kapan, dan menawarkan rencana pengganti"
+        },
+        {
+         "en": "Complain to HR immediately",
+         "id": "Langsung mengadu ke HR"
+        },
+        {
+         "en": "Threaten to resign",
+         "id": "Mengancam mengundurkan diri"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Solve their real concern within the policy; escalate calmly only if the block has no reason.",
+        "id": "Selesaikan kekhawatiran sebenarnya sesuai kebijakan; eskalasi dengan tenang hanya jika hambatannya tanpa alasan."
        }
       }
      ],
+     "tool": {
+      "id": "plan",
+      "mode": "wins",
+      "title": {
+       "en": "Pull three wins for the internal interview",
+       "id": "Ambil tiga capaian untuk wawancara internal"
+      },
+      "body": {
+       "en": "Open the win log and choose three entries the receiving unit could verify inside the organisation, each with a witness they know. These are your internal CV.",
+       "id": "Buka catatan capaian dan pilih tiga entri yang bisa diverifikasi unit penerima di dalam organisasi, masing-masing dengan saksi yang mereka kenal. Itulah CV internalmu."
+      },
+      "cta": {
+       "en": "Open the win log",
+       "id": "Buka catatan capaian"
+      }
+     },
+     "quote": {
+      "en": "Inside, your reputation is your CV — and the way you leave a unit is part of it.",
+      "id": "Di dalam, reputasimu adalah CV-mu — dan cara kamu meninggalkan unit adalah bagian darinya."
+     },
+     "takeaways": [
+      {
+       "en": "Look inside first: taskforces, secondments, lateral moves, promotions elsewhere and relocations all keep most of your capital.",
+       "id": "Lihat ke dalam dulu: satgas, penugasan sementara, pindah setara, promosi di unit lain, dan relokasi semuanya mempertahankan sebagian besar modalmu."
+      },
+      {
+       "en": "Read the policy, and enter the informal market by being known — never by bypassing the posting.",
+       "id": "Baca kebijakannya, dan masuki pasar informal dengan dikenal — tak pernah dengan melewati lowongan."
+      },
+      {
+       "en": "Tell your manager early with a handover plan, prepare as for an outside interview, and leave the old unit well.",
+       "id": "Beri tahu manajermu lebih awal dengan rencana serah terima, bersiap seperti wawancara luar, dan tinggalkan unit lama dengan baik."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The internal-move toolkit",
+       "id": "Perangkat perpindahan internal"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): the internal route in your transition plan.",
+       "id": "Butir Career Kit (bagian 3): jalur internal dalam rencana peralihanmu."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Telling your manager you want to move internally",
-         "id": "Memberi tahu manajer kamu ingin pindah internal"
+         "en": "Sources and evidence notes · Lesson 7.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 7.3"
         },
         "desc": {
-         "en": "Before you apply, not after.",
-         "id": "Sebelum melamar, bukan setelahnya."
+         "en": "Where the ideas come from.",
+         "id": "Dari mana gagasannya berasal."
         },
         "body": [
          {
-          "en": "“I want to be straightforward with you. I’m interested in [role / team] because [capital it adds to my direction]. I’d rather you hear it from me, and I want to do this in a way that works for the team.”",
-          "id": "“Saya ingin terus terang. Saya tertarik pada [peran / tim] karena [modal yang ditambahkannya pada arah saya]. Saya lebih suka Anda mendengarnya dari saya, dan saya ingin melakukannya dengan cara yang baik untuk tim.”"
+          "en": "M. Bidwell, “Paying More to Get Less: The Effects of External Hiring versus Internal Mobility”, <i>Administrative Science Quarterly</i> (2011).",
+          "id": "M. Bidwell, “Paying More to Get Less: The Effects of External Hiring versus Internal Mobility”, <i>Administrative Science Quarterly</i> (2011)."
          },
          {
-          "en": "“Two things I’d like your read on: is the timing workable, and is there anything you think I should know about that team?”",
-          "id": "“Dua hal yang ingin saya dengar pandangan Anda: apakah waktunya bisa diatur, dan adakah yang menurut Anda perlu saya ketahui tentang tim itu?”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Internal-posting rules — minimum tenure, ratings, manager approval, release periods, grade and pay — are set by each employer.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Aturan lowongan internal — masa minimum, peringkat, persetujuan manajer, masa pelepasan, golongan dan gaji — ditetapkan tiap pemberi kerja."
          },
          {
-          "en": "“If it goes ahead, I’ll plan the handover so nothing drops — I’ve started a list.”",
-          "id": "“Jika berjalan, saya akan merencanakan serah terima agar tak ada yang terlewat — saya sudah mulai membuat daftarnya.”"
-         },
-         {
-          "en": "If they resist: “I understand. Can we agree on a timeline that works for both — say, after [milestone]?”",
-          "id": "Jika mereka menolak: “Saya mengerti. Bisakah kita sepakati garis waktu yang cocok untuk keduanya — misalnya setelah [tonggak]?”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The mobility ladder, the two markets and the four-part manager conversation are The Route’s working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Tangga mobilitas, dua pasar, dan percakapan empat bagian dengan manajer adalah metode kerja The Route."
          }
         ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Applying internally in secret",
-         "id": "Melamar internal secara diam-diam"
-        },
-        "fix": {
-         "en": "Your manager will find out from the other manager. Tell them first, framed as growth; most respect it.",
-         "id": "Manajermu akan tahu dari manajer lain. Beri tahu mereka dulu, dibingkai sebagai pertumbuhan; kebanyakan menghargainya."
-        }
        },
        {
-        "h": {
-         "en": "Assuming your reputation transfers automatically",
-         "id": "Menganggap reputasimu berpindah otomatis"
+        "kind": "worksheet",
+        "title": {
+         "en": "Inside options and policy",
+         "id": "Pilihan di dalam dan kebijakan"
         },
-        "fix": {
-         "en": "The new team has heard of you at best. Bring the evidence file to the internal interview as if it were external.",
-         "id": "Tim baru paling-paling hanya pernah mendengar tentangmu. Bawa berkas bukti ke wawancara internal seolah eksternal."
-        }
+        "desc": {
+         "en": "Thirty minutes.",
+         "id": "Tiga puluh menit."
+        },
+        "body": [
+         {
+          "en": "POLICY: minimum time … · threshold … · manager informed/approves … · release … · grade & pay … · UNKNOWN: …",
+          "id": "KEBIJAKAN: masa minimum … · ambang … · manajer diberi tahu/menyetujui … · pelepasan … · golongan & gaji … · BELUM DIKETAHUI: …"
+         },
+         {
+          "en": "LADDER: taskforce … · secondment … · lateral … · promotion elsewhere … · relocation … · WHO WOULD KNOW: …",
+          "id": "TANGGA: satgas … · penugasan sementara … · setara … · promosi di unit lain … · relokasi … · SIAPA YANG TAHU: …"
+         }
+        ]
        },
        {
-        "h": {
-         "en": "Leaving the old team badly",
-         "id": "Meninggalkan tim lama dengan buruk"
+        "kind": "template",
+        "title": {
+         "en": "The manager conversation",
+         "id": "Percakapan dengan manajer"
         },
-        "fix": {
-         "en": "The handover is your last work sample for people who will still be asked about you. Make it the best one.",
-         "id": "Serah terima adalah contoh kerja terakhirmu bagi orang-orang yang masih akan ditanyai tentangmu. Jadikan yang terbaik."
-        }
+        "desc": {
+         "en": "Four parts, plus “not yet”.",
+         "id": "Empat bagian, plus “jangan dulu”."
+        },
+        "body": [
+         {
+          "en": "“[Bapak/Ibu], saya sangat berterima kasih — [apa yang dipelajari]. Saya ingin membangun [kapabilitas], dan [peran] cocok karena [alasan]. Saya sudah siapkan rencana serah terima: [siapa, apa, kapan]. Saya ingin minta pendapat [Bapak/Ibu], dan kalau berkenan, dukungannya.”",
+          "id": "“[Bapak/Ibu], saya sangat berterima kasih — [apa yang dipelajari]. Saya ingin membangun [kapabilitas], dan [peran] cocok karena [alasan]. Saya sudah siapkan rencana serah terima: [siapa, apa, kapan]. Saya ingin minta pendapat [Bapak/Ibu], dan kalau berkenan, dukungannya.”"
+         },
+         {
+          "en": "IF “JANGAN DULU”: “Apa yang perlu terjadi supaya ini mungkin, dan kira-kira kapan? Saya bisa menyiapkan [pengganti] selama [minggu].”",
+          "id": "JIKA “JANGAN DULU”: “Apa yang perlu terjadi supaya ini mungkin, dan kira-kira kapan? Saya bisa menyiapkan [pengganti] selama [minggu].”"
+         }
+        ]
        }
       ]
      }
     },
     {
      "n": "7.4",
+     "kind": "interactive",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
      "title": {
       "en": "Executing the External Transition",
-      "id": "Menjalankan Transisi Eksternal"
+      "id": "Menjalankan Peralihan ke Luar"
      },
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "kind": "visual",
-     "placeholder": false,
      "overview": {
-      "en": "External transitions are judged twice: by where you land, and by how you left. Explore the four stations of a clean exit — the decision confirmed, the resignation done right, the notice period as reputation showcase, and the alumni bridge that pays for decades.",
-      "id": "Transisi eksternal dinilai dua kali: dari tempatmu mendarat, dan dari cara kamu pergi. Telusuri empat persinggahan dari kepergian yang bersih — keputusan yang dipastikan, pengunduran diri yang dilakukan dengan benar, masa pemberitahuan sebagai etalase reputasi, dan jembatan alumni yang memberi hasil selama puluhan tahun."
+      "en": "A good decision can be spoiled by a poor exit. This interactive lesson walks through the external move in sequence — searching discreetly while employed, getting from offer to signature without surprises in the contract, resigning in the right order and handling a counter-offer, and using the last month to leave a reputation that follows you well. It ends at the door of the new job, where The Rope’s first-90-days module takes over. You will practise the three hardest moments with a scenario coach.",
+      "id": "Keputusan yang baik bisa rusak oleh kepergian yang buruk. Pelajaran interaktif ini menelusuri perpindahan ke luar secara berurutan — mencari dengan diam-diam saat masih bekerja, dari tawaran sampai tanda tangan tanpa kejutan dalam kontrak, mengundurkan diri dengan urutan yang benar dan menghadapi tawaran balik, dan memakai bulan terakhir untuk meninggalkan reputasi yang mengikutimu dengan baik. Pelajaran berakhir di pintu pekerjaan baru, tempat modul 90 hari pertama The Rope mengambil alih. Kamu akan melatih tiga momen tersulit dengan pelatih skenario."
      },
      "objectives": [
       {
-       "en": "Confirm the decision through the architecture before any irreversible step.",
-       "id": "Memastikan keputusan lewat arsitektur sebelum mengambil langkah yang tidak bisa ditarik kembali."
+       "en": "Search discreetly while employed, without using your employer’s time or data.",
+       "id": "Mencari dengan diam-diam saat masih bekerja, tanpa memakai waktu atau data pemberi kerjamu."
       },
       {
-       "en": "Execute the resignation conversation and counteroffer response professionally.",
-       "id": "Menjalankan percakapan pengunduran diri dan menanggapi tawaran balik secara profesional."
+       "en": "Get from offer to signature with the contract read and the risks known.",
+       "id": "Dari tawaran sampai tanda tangan dengan kontrak terbaca dan risiko diketahui."
       },
       {
-       "en": "Run the notice period as your final — and most remembered — performance.",
-       "id": "Menjalani masa pemberitahuan sebagai penampilan terakhirmu — yang paling diingat orang."
+       "en": "Resign in the right order, within the notice period, and handle a counter-offer.",
+       "id": "Mengundurkan diri dengan urutan yang benar, sesuai masa pemberitahuan, dan menghadapi tawaran balik."
+      },
+      {
+       "en": "Use the last month to hand over well and leave a reputation that travels.",
+       "id": "Memakai bulan terakhir untuk serah terima dengan baik dan meninggalkan reputasi yang ikut terbawa."
       }
      ],
-     "takeawaysLead": {
-      "en": "An external transition is judged twice — by where you land and by how you left. To leave in a way that pays for decades, you can:",
-      "id": "Transisi eksternal dinilai dua kali — dari tempat kamu mendarat dan dari cara kamu pergi. Untuk pergi dengan cara yang membuahkan hasil selama puluhan tahun, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The order matters as much as the decision",
+       "id": "Urutannya sama pentingnya dengan keputusannya"
+      },
+      "intro": {
+       "en": "Search quietly, sign before you resign, tell your manager first, and leave better than you arrived.",
+       "id": "Cari dengan tenang, tanda tangan sebelum mengundurkan diri, beri tahu manajer lebih dulu, dan pergi lebih baik daripada saat datang."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Search quietly",
+         "id": "Cari dengan tenang"
+        },
+        "points": [
+         {
+          "en": "Your own time, devices and words. No employer data.",
+          "id": "Waktu, perangkat, dan kata-katamu sendiri. Tanpa data pemberi kerja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Sign, then resign",
+         "id": "Tanda tangan, lalu mundur"
+        },
+        "points": [
+         {
+          "en": "A signed offer and a read contract before any resignation.",
+          "id": "Tawaran yang ditandatangani dan kontrak yang terbaca sebelum pengunduran diri apa pun."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Manager first",
+         "id": "Manajer lebih dulu"
+        },
+        "points": [
+         {
+          "en": "In person, with a handover plan. Decline counter-offers gracefully.",
+          "id": "Langsung, dengan rencana serah terima. Tolak tawaran balik dengan santun."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Leave well",
+         "id": "Pergi dengan baik"
+        },
+        "points": [
+         {
+          "en": "The last month is sampled. Your former colleagues are your future network.",
+          "id": "Bulan terakhir itu tersampel. Mantan rekanmu adalah jejaring masa depanmu."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Resign to your manager first, in person, with a written offer accepted — order matters enormously.",
-       "id": "Sampaikan pengunduran diri ke manajermu lebih dulu, secara langsung, setelah tawaran tertulis kamu terima — urutan ini sangat penting."
-      },
-      {
-       "en": "Counteroffers answer the question you asked with money — which was rarely the question.",
-       "id": "Tawaran balik menjawab pertanyaanmu dengan uang — padahal uang jarang menjadi pertanyaannya."
-      },
-      {
-       "en": "The last month is the story your former colleagues will tell about you forever.",
-       "id": "Bulan terakhirmu adalah cerita yang akan diceritakan mantan kolegamu tentang dirimu selamanya."
-      }
-     ],
-     "hotspots": [
-      {
-       "x": 22,
-       "y": 26,
-       "h": {
-        "en": "Station 1 · Confirm",
-        "id": "Persinggahan 1 · Pastikan"
-       },
-       "body": {
-        "en": "Before resigning: the offer is written and signed-off, start date agreed, and the move has passed the architecture test in a calm week (7.1's false-trigger check run honestly). Notice terms read, financials bridged (final salary, unused leave, any bonus timing — leaving three weeks before a vesting date is a decision to make knowingly, not discover later). Only then does anything become irreversible. The station exists because resignations announced on verbal offers occasionally meet rescinded offers — a survivable event with a signed contract, a catastrophe without one.",
-        "id": "Sebelum mengundurkan diri: tawaran sudah tertulis dan disetujui, tanggal mulai disepakati, dan kepindahan ini sudah lolos uji arsitektur di minggu yang tenang (pemeriksaan pemicu palsu dari Pelajaran 7.1 dijalankan dengan jujur). Ketentuan masa pemberitahuan sudah dibaca, keuangannya sudah dijembatani (gaji terakhir, cuti yang belum diambil, jadwal bonus — pergi tiga minggu sebelum tanggal vesting adalah keputusan yang harus diambil dengan sadar, bukan ditemukan belakangan). Baru setelah itu ada langkah yang tidak bisa ditarik kembali. Persinggahan ini ada karena pengunduran diri yang diumumkan berdasarkan tawaran lisan kadang berujung pada tawaran yang ditarik — peristiwa yang bisa dilewati kalau kontraknya sudah ditandatangani, dan bencana kalau belum."
-       }
-      },
-      {
-       "x": 72,
-       "y": 24,
-       "h": {
-        "en": "Station 2 · Resign",
-        "id": "Persinggahan 2 · Mengundurkan diri"
-       },
-       "body": {
-        "en": "Your manager hears first, live (in person or video), before any colleague, before any announcement: “I've accepted a role at [company], starting [date]. I wanted you to hear it from me first, and I want to make the transition excellent.” Short, warm, decided. The letter follows the conversation as paperwork. No grievance airing — the exit interview is not therapy and the industry has long ears. The counteroffer, if it comes: hear it respectfully, take a day, and remember why you ran the process — if money was the only gap, the architecture would have said so before you interviewed. Accepted counteroffers famously precede departures anyway within the year: the move's reasons rarely dissolve in a raise.",
-        "id": "Manajermu yang mendengar lebih dulu, secara langsung (tatap muka atau video), sebelum kolega mana pun, sebelum pengumuman apa pun: “Saya sudah menerima peran di [perusahaan], mulai [tanggal]. Saya ingin Bapak/Ibu mendengarnya dari saya lebih dulu, dan saya ingin transisinya berjalan sebaik mungkin.” Singkat, hangat, mantap. Surat resminya menyusul percakapan itu sebagai administrasi. Tidak ada curahan keluhan — wawancara keluar bukan sesi terapi, dan telinga industri ini panjang. Tawaran balik, kalau datang: dengarkan dengan hormat, ambil waktu sehari, dan ingat mengapa kamu menjalani proses ini — kalau uang satu-satunya celahnya, arsitekturmu pasti sudah mengatakannya sebelum kamu wawancara. Lagi pula, tawaran balik yang diterima terkenal sering disusul kepergian dalam setahun: alasan pindah jarang larut dalam kenaikan gaji."
-       }
-      },
-      {
-       "x": 25,
-       "y": 72,
-       "h": {
-        "en": "Station 3 · The showcase month",
-        "id": "Persinggahan 3 · Bulan etalase"
-       },
-       "body": {
-        "en": "The notice period inverts incentives: you owe the future nothing here, which is exactly why behaviour now is read as character revealed. Run it as a project: a handover document that needs no author present (systems, statuses, contacts, passwords transferred properly, the things only you know written down); successors introduced and warm-handed; loose ends closed or explicitly assigned; energy sustained to the last day. Colleagues forget years of solid work faster than they forget a checked-out final month — and remember a superb handover for just as long. This is the cheapest reputation purchase available in professional life.",
-        "id": "Masa pemberitahuan membalik insentif: kamu tidak lagi berutang apa pun pada masa depan di tempat ini, dan justru karena itulah perilakumu sekarang dibaca sebagai karakter yang sebenarnya. Jalani sebagai proyek: dokumen serah terima yang tidak butuh kehadiran penulisnya (sistem, status, kontak, kata sandi dipindahkan dengan benar, hal-hal yang hanya kamu tahu dituliskan); penerus diperkenalkan dan diserahi pekerjaan dengan hangat; urusan yang menggantung ditutup atau ditugaskan secara jelas; energi dijaga sampai hari terakhir. Kolega melupakan bertahun-tahun kerja yang solid lebih cepat daripada melupakan bulan terakhir yang setengah hati — dan mengingat serah terima yang hebat sama lamanya. Inilah cara membeli reputasi yang paling murah dalam kehidupan profesional."
-       }
-      },
-      {
-       "x": 74,
-       "y": 70,
-       "h": {
-        "en": "Station 4 · The alumni bridge",
-        "id": "Persinggahan 4 · Jembatan alumni"
-       },
-       "body": {
-        "en": "Former colleagues become your industry: future clients, referees, hiring managers, co-founders. Before leaving: personal goodbyes to your circle-adjacent people with genuine thanks and current contact details. After leaving: the occasional check-in, congratulations on their wins, help freely given when asked — the 6.4 maintenance rhythm extended to alumni. Keep every confidence and never trash the old employer publicly; your new colleagues calibrate how you will one day speak of them. Done over years, the alumni bridge quietly becomes the most valuable network you own — senior people consistently report their biggest breaks arrived through someone they once worked beside.",
-        "id": "Mantan kolega menjadi industrimu: klien di masa depan, pemberi referensi, manajer perekrut, rekan pendiri usaha. Sebelum pergi: pamit secara pribadi kepada orang-orang di sekitar lingkaranmu, dengan terima kasih yang tulus dan kontak terbaru. Setelah pergi: sapaan sesekali, ucapan selamat atas capaian mereka, bantuan yang diberikan tanpa pamrih saat diminta — irama perawatan dari Pelajaran 6.4 diperluas ke para alumni. Jaga semua rahasia dan jangan pernah menjelek-jelekkan mantan pemberi kerja di depan publik; kolega barumu sedang menakar bagaimana kelak kamu akan membicarakan mereka. Dijalani bertahun-tahun, jembatan alumni diam-diam menjadi jaringan paling berharga yang kamu miliki — orang-orang senior secara konsisten mengaku bahwa peluang terbesar mereka datang lewat seseorang yang pernah bekerja di samping mereka."
-       }
-      }
-     ],
      "sections": [
       {
        "icon": "eye",
+       "img": "../../assets/bg/negotiation.jpg",
+       "imgPos": "50% 40%",
        "h": {
-        "en": "Nothing irreversible before the paper",
-        "id": "Tak ada yang tak bisa ditarik sebelum ada kertasnya"
+        "en": "Searching while employed",
+        "id": "Mencari sambil tetap bekerja"
        },
        "body": {
-        "en": "The clean exit begins a week before anyone hears about it. First the architecture test, run in a calm week rather than a bad one: does the move pass 7.1's trigger check — asset yield, ceiling, market repricing — or is it a bad month wearing a plan? Then the paperwork that makes the decision real: a written offer, signed off, with a start date agreed; your notice terms read in your own contract; and the financial bridge worked out — final salary timing, unused leave, and any bonus or vesting date you would be walking away from. Leaving three weeks before a vesting date is a legitimate choice, but it should be a choice you make knowingly, not one you discover in the last payslip. Only when all of this holds does anything become irreversible. The station exists because verbal offers occasionally get rescinded, and a resignation announced on one turns a survivable event into a catastrophe.",
-        "id": "Kepergian yang bersih dimulai seminggu sebelum ada yang mendengarnya. Pertama, uji arsitektur, dijalankan di minggu yang tenang, bukan minggu yang buruk: apakah langkah ini lolos pemeriksaan pemicu 7.1 — hasil aset, plafon, penilaian ulang pasar — atau hanya satu bulan buruk yang berkedok rencana? Lalu dokumen yang membuat keputusan itu nyata: tawaran tertulis, sudah disetujui, dengan tanggal mulai yang disepakati; ketentuan masa pemberitahuan yang kamu baca dari kontrakmu sendiri; dan jembatan keuangan yang sudah dihitung — waktu gaji terakhir, cuti yang belum dipakai, dan tanggal bonus atau vesting apa pun yang akan kamu tinggalkan. Pergi tiga minggu sebelum tanggal vesting adalah pilihan yang sah, tetapi harus pilihan yang kamu ambil dengan sadar, bukan yang kamu temukan di slip gaji terakhir. Hanya ketika semua ini terpenuhi, sesuatu boleh menjadi tak bisa ditarik kembali. Stasiun ini ada karena tawaran lisan kadang dibatalkan, dan pengunduran diri yang diumumkan atas dasar itu mengubah peristiwa yang bisa diselamatkan menjadi bencana."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "The conversation, the letter, and the counteroffer",
-        "id": "Percakapan, surat, dan tawaran balik"
+        "en": "Most strong moves are made from a job, not between jobs: you negotiate from security, and employers read continuity as a signal. That creates a duty of <b>discretion</b> toward your current employer and your colleagues. Search on your own time and your own devices; take leave for interviews rather than inventing appointments; never use your employer’s confidential information to impress another — no client lists, internal numbers or reports in a portfolio, and describe results in terms you would be comfortable seeing published. Be careful with public signals: a profile suddenly marked “open to work”, or a post about “exciting new chapters”, is often seen by your manager before any recruiter. Keep the circle of people who know small — one or two people on your board (Module 6), not the team chat. Prepare <b>references</b> early: ask permission from people who have seen your work — a former manager, a sponsor, a senior colleague in another unit — and tell them what the role is so they can speak to what matters. It is usually unwise to give your current manager as a reference until an offer is conditional on it, and good employers understand that. Use The Rope for the interviews themselves, and carry this module’s evaluation into every conversation: the questions from Lesson 7.2 are also signals to the employer that you choose carefully. Finally, pace yourself. A search while employed takes months, not weeks; decide in advance how many processes you can run well at once, and protect the quality of your current work — you still need the result and the reference.",
+        "id": "Kebanyakan perpindahan yang kuat dilakukan dari sebuah pekerjaan, bukan di antara pekerjaan: kamu bernegosiasi dari posisi aman, dan pemberi kerja membaca kesinambungan sebagai sinyal. Itu menciptakan kewajiban <b>kebijaksanaan</b> terhadap pemberi kerjamu sekarang dan rekan-rekanmu. Carilah di waktumu sendiri dan dengan perangkatmu sendiri; ambil cuti untuk wawancara alih-alih mengarang janji; jangan pernah memakai informasi rahasia pemberi kerjamu untuk mengesankan pihak lain — tanpa daftar nasabah, angka internal, atau laporan dalam portofolio, dan gambarkan hasil dengan cara yang kamu nyaman jika dipublikasikan. Hati-hati dengan sinyal publik: profil yang tiba-tiba ditandai “open to work”, atau unggahan tentang “babak baru yang menarik”, sering dilihat manajermu sebelum rekruter mana pun. Jaga lingkaran orang yang tahu tetap kecil — satu atau dua orang di dewanmu (Modul 6), bukan obrolan tim. Siapkan <b>referensi</b> lebih awal: minta izin dari orang yang pernah melihat kerjamu — mantan manajer, sponsor, kolega senior di unit lain — dan beri tahu mereka perannya agar bisa berbicara tentang hal yang penting. Biasanya kurang bijak memberikan manajermu sekarang sebagai referensi sampai tawaran bergantung padanya, dan pemberi kerja yang baik memahaminya. Pakai The Rope untuk wawancaranya, dan bawa penilaian dari modul ini ke setiap percakapan: pertanyaan dari Pelajaran 7.2 juga menjadi sinyal bagi pemberi kerja bahwa kamu memilih dengan cermat. Terakhir, atur tempo. Mencari sambil bekerja butuh berbulan-bulan, bukan berminggu-minggu; tentukan lebih dulu berapa proses yang bisa kamu jalani dengan baik sekaligus, dan jaga kualitas pekerjaanmu sekarang — kamu masih butuh hasil dan referensinya."
        },
-       "body": {
-        "en": "Your manager hears first, live — in person or on video — before any colleague and before any announcement. The script is short, warm and decided: “I've accepted a role at [company], starting [date]. I wanted you to hear it from me first, and I want to make the transition excellent.” The letter follows the conversation as paperwork, never replaces it. Two things stay out of the room. Grievances: the exit interview is not therapy, and the industry has long ears. And negotiation: if a counteroffer comes, hear it respectfully, take a day, and remember why you ran the process — if money had been the only gap, the architecture would have said so before you ever interviewed. Accepted counteroffers famously precede departures within the year anyway, because the move's real reasons rarely dissolve in a raise. Decline with thanks, in writing, and move to the next station.",
-        "id": "Manajermu mendengarnya lebih dulu, secara langsung — tatap muka atau lewat video — sebelum rekan mana pun dan sebelum pengumuman apa pun. Naskahnya singkat, hangat, dan mantap: “Saya telah menerima peran di [perusahaan], mulai [tanggal]. Saya ingin Bapak/Ibu mendengarnya dari saya lebih dulu, dan saya ingin transisi ini berjalan sangat baik.” Surat menyusul setelah percakapan sebagai administrasi, tidak pernah menggantikannya. Dua hal tetap di luar ruangan. Keluhan: wawancara keluar bukan terapi, dan industri punya telinga panjang. Dan negosiasi: jika tawaran balik datang, dengarkan dengan hormat, ambil waktu sehari, dan ingat mengapa kamu menjalani proses ini — jika uang satu-satunya celah, arsitekturmu sudah mengatakannya sebelum kamu wawancara. Tawaran balik yang diterima terkenal tetap disusul kepergian dalam setahun, karena alasan sebenarnya untuk pindah jarang larut dalam kenaikan gaji. Tolak dengan terima kasih, secara tertulis, dan lanjut ke stasiun berikutnya."
+       "table": {
+        "cols": [
+         {
+          "en": "Do",
+          "id": "Lakukan"
+         },
+         {
+          "en": "Do not",
+          "id": "Jangan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Search on your own time and devices; take leave for interviews",
+           "id": "Cari di waktu dan perangkatmu sendiri; ambil cuti untuk wawancara"
+          },
+          {
+           "en": "Use work laptops, email or hours for your search",
+           "id": "Memakai laptop, email, atau jam kerja untuk pencarianmu"
+          }
+         ],
+         [
+          {
+           "en": "Describe results in publishable terms",
+           "id": "Gambarkan hasil dengan istilah yang layak dipublikasikan"
+          },
+          {
+           "en": "Bring client lists, internal reports or numbers",
+           "id": "Membawa daftar nasabah, laporan, atau angka internal"
+          }
+         ],
+         [
+          {
+           "en": "Tell one or two trusted board members",
+           "id": "Beri tahu satu atau dua anggota dewan tepercaya"
+          },
+          {
+           "en": "Announce it in the team chat or on social media",
+           "id": "Mengumumkannya di obrolan tim atau media sosial"
+          }
+         ],
+         [
+          {
+           "en": "Line up references who have seen your work, with permission",
+           "id": "Siapkan referensi yang pernah melihat kerjamu, dengan izin"
+          },
+          {
+           "en": "List your current manager before an offer depends on it",
+           "id": "Mencantumkan manajermu sekarang sebelum tawaran bergantung padanya"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance. Confidentiality duties come from your contract, policies and the law.",
+         "id": "Panduan kursus. Kewajiban kerahasiaan berasal dari kontrak, kebijakan, dan hukum."
+        }
        }
       },
       {
        "icon": "book",
        "h": {
-        "en": "The month that becomes the story",
-        "id": "Bulan yang menjadi cerita"
+        "en": "From offer to signature",
+        "id": "Dari tawaran sampai tanda tangan"
        },
        "body": {
-        "en": "The notice period inverts incentives: you owe the future nothing here, which is exactly why behaviour now is read as character revealed. Run it as a project with a deliverable — a handover that needs no author present: systems, statuses, contacts and access transferred properly, and the things only you know written down. Successors are introduced and warm-handed, loose ends closed or explicitly assigned, and energy is sustained to the last afternoon. Colleagues forget years of solid work faster than they forget a checked-out final month, and they remember a superb handover for just as long; it is the cheapest reputation purchase in professional life. Then build the bridge: personal goodbyes to your circle-adjacent people with genuine thanks and current contact details, and afterwards the 6.4 maintenance rhythm extended to alumni — the occasional check-in, congratulations on their wins, help freely given. Keep every confidence and never trash the old employer publicly; your new colleagues are calibrating how you will one day speak of them.",
-        "id": "Masa pemberitahuan membalik insentif: di sini kamu tak berutang apa pun pada masa depan, dan justru karena itulah perilakumu sekarang dibaca sebagai karakter yang terungkap. Jalankan sebagai proyek dengan satu hasil — serah terima yang tak memerlukan penulisnya hadir: sistem, status, kontak, dan akses dialihkan dengan benar, dan hal-hal yang hanya kamu tahu dituliskan. Pengganti diperkenalkan dan diserahi dengan hangat, urusan yang menggantung ditutup atau ditugaskan secara eksplisit, dan energi dijaga sampai sore terakhir. Rekan-rekan melupakan bertahun-tahun kerja yang solid lebih cepat daripada melupakan bulan terakhir yang setengah hati, dan mereka mengingat serah terima yang luar biasa sama lamanya; ini pembelian reputasi termurah dalam kehidupan profesional. Lalu bangun jembatannya: perpisahan personal kepada orang-orang di sekitar lingkaranmu dengan terima kasih yang tulus dan kontak terbaru, dan sesudahnya ritme perawatan 6.4 diperluas ke alumni — sapaan sesekali, ucapan selamat atas keberhasilan mereka, bantuan yang diberikan dengan lapang. Jaga setiap rahasia dan jangan pernah menjelekkan mantan pemberi kerja di depan umum; rekan-rekan barumu sedang mengalibrasi bagaimana kelak kamu akan bicara tentang mereka."
+        "en": "The rule is simple and often broken: <b>sign before you resign</b>. A verbal offer, a WhatsApp message saying “selamat, kamu diterima”, or an offer “subject to final approval” is not an offer you can resign on. Wait for the written offer letter, then the contract, and make sure any conditions — background check, reference check, medical — are completed or clearly defined. Evaluate the offer with Lesson 7.2 and negotiate before signing, not after (The Rope, Module 10). Then <b>read the contract in full</b>, and pay particular attention to five things. The <b>type of contract</b>: permanent (PKWTT) or fixed-term (PKWT), and whether a <b>probation</b> period applies — in Indonesian law probation is generally associated with permanent contracts and capped in length <span class=\"ev ev-verify\">Verify</span>. The <b>start date</b> against your current notice period. <b>Confidentiality, intellectual-property and non-compete clauses</b> — how broadly they are written, and for how long; the enforceability of post-employment non-competes in Indonesia is debated, but you should not sign what you do not intend to honour <span class=\"ev ev-contested\">Contested</span>. Any <b>training bond or clawback</b> in the new contract. And <b>total compensation in writing</b>: base, fixed allowances, THR, bonus basis, insurance, pension. If something differs from what was said, ask politely for it to be corrected before you sign. Only then turn to your current employer — and check your own contract and company regulation for the <b>notice period</b>, any bond you still owe, and the handling of unused leave.",
+        "id": "Aturannya sederhana dan sering dilanggar: <b>tanda tangan dulu, baru mengundurkan diri</b>. Tawaran lisan, pesan WhatsApp “selamat, kamu diterima”, atau tawaran “menunggu persetujuan akhir” bukanlah tawaran yang bisa kamu jadikan dasar mengundurkan diri. Tunggu surat tawaran tertulis, lalu kontraknya, dan pastikan syarat apa pun — pemeriksaan latar belakang, referensi, kesehatan — sudah selesai atau jelas batasannya. Nilai tawarannya dengan Pelajaran 7.2 dan bernegosiasilah sebelum tanda tangan, bukan sesudahnya (The Rope, Modul 10). Lalu <b>baca kontraknya sampai habis</b>, dan perhatikan lima hal. <b>Jenis kontrak</b>: tetap (PKWTT) atau waktu tertentu (PKWT), dan apakah ada <b>masa percobaan</b> — dalam hukum Indonesia masa percobaan umumnya dikaitkan dengan kontrak tetap dan dibatasi lamanya <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tanggal mulai</b> dibanding masa pemberitahuanmu sekarang. <b>Klausul kerahasiaan, kekayaan intelektual, dan larangan bersaing</b> — seberapa luas ditulis, dan untuk berapa lama; keberlakuan larangan bersaing pasca-kerja di Indonesia masih diperdebatkan, tetapi jangan menandatangani yang tak ingin kamu patuhi <span class=\"ev ev-contested\">Diperdebatkan</span>. <b>Ikatan dinas atau klausul pengembalian</b> apa pun dalam kontrak baru. Dan <b>total kompensasi tertulis</b>: gaji pokok, tunjangan tetap, THR, dasar bonus, asuransi, pensiun. Jika ada yang berbeda dari yang dikatakan, minta dengan sopan agar diperbaiki sebelum kamu tanda tangan. Baru setelah itu beralih ke pemberi kerjamu sekarang — dan periksa kontrak serta peraturan perusahaanmu sendiri untuk <b>masa pemberitahuan</b>, ikatan dinas yang masih kamu tanggung, dan penanganan cuti yang belum dipakai."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Check in the new contract",
+          "id": "Periksa di kontrak baru"
+         },
+         {
+          "en": "Why it matters",
+          "id": "Mengapa penting"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>PKWT or PKWTT; probation</b>",
+           "id": "<b>PKWT atau PKWTT; masa percobaan</b>"
+          },
+          {
+           "en": "Your security and the rules that apply to you",
+           "id": "Keamananmu dan aturan yang berlaku bagimu"
+          }
+         ],
+         [
+          {
+           "en": "<b>Start date</b>",
+           "id": "<b>Tanggal mulai</b>"
+          },
+          {
+           "en": "Must fit your current notice period",
+           "id": "Harus sesuai masa pemberitahuanmu sekarang"
+          }
+         ],
+         [
+          {
+           "en": "<b>Confidentiality, IP, non-compete</b>",
+           "id": "<b>Kerahasiaan, HKI, larangan bersaing</b>"
+          },
+          {
+           "en": "What you may and may not do during and after",
+           "id": "Apa yang boleh dan tidak boleh kamu lakukan selama dan sesudahnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Bond or clawback</b>",
+           "id": "<b>Ikatan dinas atau pengembalian</b>"
+          },
+          {
+           "en": "What leaving early would cost",
+           "id": "Biaya jika pergi lebih awal"
+          }
+         ],
+         [
+          {
+           "en": "<b>Total compensation</b>",
+           "id": "<b>Total kompensasi</b>"
+          },
+          {
+           "en": "What was promised, in writing",
+           "id": "Apa yang dijanjikan, secara tertulis"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Education, not legal advice. Contract types, probation rules and clause enforceability should be checked against current regulation or with a professional.",
+         "id": "Edukasi, bukan nasihat hukum. Jenis kontrak, aturan masa percobaan, dan keberlakuan klausul perlu dicek terhadap regulasi terkini atau dengan profesional."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Resigning in the right order",
+        "id": "Mengundurkan diri dengan urutan yang benar"
+       },
+       "body": {
+        "en": "Order matters. <b>Your manager hears first, in person</b> (or by video if you work remotely), from you — not from HR, a colleague or a farewell post. Ask for fifteen private minutes early in the day. Say it plainly and warmly: thanks for what you learned, the decision (already made, not a negotiation), your proposed last day, and your handover plan. Bring the resignation letter so the conversation ends with the formal step done. Indonesian regulation requires a resigning employee to give written notice — commonly at least thirty days before the last day — and company regulations or your contract may set more <span class=\"ev ev-verify\">Verify</span>; follow the longer of what applies, and agree the exact date with your manager and HR. Then the others, in order: HR, your team, key stakeholders and clients — with a message agreed with your manager so the story is consistent. Expect three reactions. <b>Disappointment</b> is normal; do not argue with it. <b>A request to stay longer</b> is worth considering if it protects something important and your new employer agrees. <b>A counter-offer</b> — more pay, a faster promotion — is flattering and usually worth declining: it answers the money, rarely the reason in your ledger (Lesson 7.1), you have given your word to the new employer, and your current employer now knows you were ready to go. Decline with gratitude and one clear reason. What you say to colleagues about why you are leaving should be true, brief and positive about the new role, never a list of complaints about the old one; the <b>exit interview</b> is the place for honest, constructive feedback, delivered as you would want to receive it.",
+        "id": "Urutannya penting. <b>Manajermu mendengar lebih dulu, langsung</b> (atau lewat video jika kamu bekerja jarak jauh), darimu — bukan dari HR, rekan, atau unggahan perpisahan. Minta lima belas menit empat mata di awal hari. Sampaikan dengan jelas dan hangat: terima kasih atas yang kamu pelajari, keputusannya (sudah bulat, bukan negosiasi), usulan hari terakhirmu, dan rencana serah terimamu. Bawa surat pengunduran diri agar percakapan berakhir dengan langkah formal yang selesai. Regulasi Indonesia mewajibkan karyawan yang mengundurkan diri memberi pemberitahuan tertulis — umumnya paling lambat tiga puluh hari sebelum hari terakhir — dan peraturan perusahaan atau kontrakmu mungkin menetapkan lebih <span class=\"ev ev-verify\">Verifikasi</span>; ikuti yang lebih panjang dari yang berlaku, dan sepakati tanggal pastinya dengan manajer dan HR. Lalu yang lain, berurutan: HR, timmu, pemangku kepentingan utama dan nasabah — dengan pesan yang disepakati bersama manajermu agar ceritanya konsisten. Harapkan tiga reaksi. <b>Kekecewaan</b> itu wajar; jangan membantahnya. <b>Permintaan untuk tinggal lebih lama</b> layak dipertimbangkan jika melindungi sesuatu yang penting dan pemberi kerja barumu setuju. <b>Tawaran balik</b> — gaji lebih tinggi, promosi lebih cepat — memang menyanjung dan biasanya layak ditolak: ia menjawab soal uang, jarang soal alasan di neracamu (Pelajaran 7.1), kamu sudah berjanji kepada pemberi kerja baru, dan pemberi kerjamu sekarang tahu kamu siap pergi. Tolak dengan terima kasih dan satu alasan yang jelas. Apa yang kamu katakan kepada rekan tentang alasan pergi sebaiknya benar, singkat, dan positif tentang peran baru, bukan daftar keluhan tentang yang lama; <b>wawancara keluar</b> adalah tempat untuk umpan balik yang jujur dan membangun, disampaikan sebagaimana kamu ingin menerimanya."
+       },
+       "bullets": [
+        {
+         "en": "<b>Manager first</b> — in person, thanks, decision, last day, handover plan, letter.",
+         "id": "<b>Manajer lebih dulu</b> — langsung, terima kasih, keputusan, hari terakhir, rencana serah terima, surat."
+        },
+        {
+         "en": "<b>Notice</b> — written, within the period your regulation, contract and policy require.",
+         "id": "<b>Pemberitahuan</b> — tertulis, sesuai masa yang disyaratkan regulasi, kontrak, dan kebijakan."
+        },
+        {
+         "en": "<b>Then the others</b> — HR, team, stakeholders, with one agreed message.",
+         "id": "<b>Lalu yang lain</b> — HR, tim, pemangku kepentingan, dengan satu pesan yang disepakati."
+        },
+        {
+         "en": "<b>Counter-offer</b> — decline with gratitude and one clear reason.",
+         "id": "<b>Tawaran balik</b> — tolak dengan terima kasih dan satu alasan yang jelas."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "The last month — and the first day",
+        "id": "Bulan terakhir — dan hari pertama"
+       },
+       "body": {
+        "en": "The last month is one of the most <b>sampled moments</b> of a career (Module 4): people remember how you left more vividly than what you did in the middle. Use it deliberately. Write a <b>handover document</b>: open files and their status, recurring tasks and deadlines, key contacts and what each needs, where things are stored, and the three things most likely to go wrong. Spend time with your successor, or with whoever will cover the work, and introduce them to the people they will depend on. Finish what you can finish; hand over clearly what you cannot. Return equipment and <b>leave data behind</b> — company files, templates built on company time and customer information are not yours to take, and doing so may breach your contract, confidentiality duties and data-protection law <span class=\"ev ev-verify\">Verify</span>. Thank people specifically: the mentor who reviewed your memos, the branch officer who sent the data on time, the manager who gave you the stretch. Ask one or two people whether they would be willing to be references in future. Then keep the network warm: a note after your first month in the new role, congratulations when former colleagues are promoted, help when they ask. Many organisations now welcome <b>boomerang</b> hires, and former colleagues become clients, partners and sometimes managers again. Finally, the move is not complete when you leave — it is complete when you have landed. The first ninety days in the new role, from learning the unwritten rules to your first visible result, are the subject of The Rope’s final module; start it the week you sign.",
+        "id": "Bulan terakhir adalah salah satu <b>momen tersampel</b> paling penting dalam karier (Modul 4): orang mengingat bagaimana kamu pergi lebih jelas daripada apa yang kamu kerjakan di tengah. Pakailah dengan sengaja. Tulis <b>dokumen serah terima</b>: berkas terbuka dan statusnya, tugas rutin dan tenggatnya, kontak kunci dan kebutuhan masing-masing, tempat penyimpanan, dan tiga hal yang paling mungkin salah. Luangkan waktu bersama penggantimu, atau siapa pun yang akan menangani pekerjaannya, dan perkenalkan mereka kepada orang-orang yang akan mereka andalkan. Selesaikan yang bisa diselesaikan; serahkan dengan jelas yang tidak bisa. Kembalikan peralatan dan <b>tinggalkan datanya</b> — berkas perusahaan, templat yang dibuat di jam kerja, dan informasi nasabah bukan milikmu untuk dibawa, dan melakukannya bisa melanggar kontrak, kewajiban kerahasiaan, dan hukum pelindungan data <span class=\"ev ev-verify\">Verifikasi</span>. Berterima kasihlah secara spesifik: mentor yang meninjau memomu, petugas cabang yang mengirim data tepat waktu, manajer yang memberimu tantangan. Tanyakan kepada satu atau dua orang apakah mereka bersedia menjadi referensi kelak. Lalu jaga jejaringnya tetap hangat: catatan setelah bulan pertamamu di peran baru, ucapan selamat saat mantan rekan dipromosikan, bantuan saat mereka meminta. Banyak organisasi kini menyambut rekrutan <b>bumerang</b>, dan mantan rekan menjadi nasabah, mitra, dan kadang manajer lagi. Terakhir, perpindahan belum selesai saat kamu pergi — ia selesai saat kamu sudah mendarat. Sembilan puluh hari pertama di peran baru, dari mempelajari aturan tak tertulis sampai hasil pertamamu yang terlihat, adalah pokok modul terakhir The Rope; mulailah di minggu kamu menandatangani."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Handover document",
+          "id": "Dokumen serah terima"
+         },
+         {
+          "en": "Include",
+          "id": "Sertakan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Open work</b>",
+           "id": "<b>Pekerjaan terbuka</b>"
+          },
+          {
+           "en": "Each file, its status and next step",
+           "id": "Tiap berkas, statusnya, dan langkah berikutnya"
+          }
+         ],
+         [
+          {
+           "en": "<b>Rhythm</b>",
+           "id": "<b>Ritme</b>"
+          },
+          {
+           "en": "Recurring tasks, deadlines, reports",
+           "id": "Tugas rutin, tenggat, laporan"
+          }
+         ],
+         [
+          {
+           "en": "<b>People</b>",
+           "id": "<b>Orang</b>"
+          },
+          {
+           "en": "Key contacts and what each needs",
+           "id": "Kontak kunci dan kebutuhan masing-masing"
+          }
+         ],
+         [
+          {
+           "en": "<b>Where things are</b>",
+           "id": "<b>Letak barang</b>"
+          },
+          {
+           "en": "Folders, systems, access to transfer",
+           "id": "Folder, sistem, akses yang dialihkan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Risks</b>",
+           "id": "<b>Risiko</b>"
+          },
+          {
+           "en": "The three things most likely to go wrong",
+           "id": "Tiga hal yang paling mungkin salah"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Course guidance.",
+         "id": "Panduan kursus."
+        }
        }
       }
      ],
      "diagram": {
-      "type": "flow",
+      "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The four stations of a clean exit — in this order, with nothing irreversible before the first one is complete.",
-       "id": "Peraga 1: Empat stasiun kepergian yang bersih — dalam urutan ini, tanpa langkah tak terbalikkan sebelum stasiun pertama tuntas."
+       "en": "Exhibit 1: The external move, in order",
+       "id": "Peraga 1: Perpindahan ke luar, berurutan"
       },
       "title": {
-       "en": "Confirm → Resign → Showcase month → Alumni bridge",
-       "id": "Pastikan → Undur diri → Bulan pameran → Jembatan alumni"
+       "en": "Search → sign → tell → hand over → leave → land",
+       "id": "Cari → tanda tangan → sampaikan → serahkan → pergi → mendarat"
       },
       "items": [
        {
+        "icon": "eye",
         "h": {
-         "en": "Confirm",
-         "id": "Pastikan"
+         "en": "Search",
+         "id": "Cari"
         },
         "sub": {
-         "en": "Written offer, notice terms read, financials bridged, architecture test passed",
-         "id": "Tawaran tertulis, ketentuan pemberitahuan dibaca, keuangan dijembatani, uji arsitektur lolos"
+         "en": "Quietly, on your own time; references lined up.",
+         "id": "Diam-diam, di waktumu sendiri; referensi disiapkan."
         }
        },
        {
+        "icon": "book",
         "h": {
-         "en": "Resign",
-         "id": "Undur diri"
+         "en": "Sign",
+         "id": "Tanda tangan"
         },
         "sub": {
-         "en": "Manager first, live, short and warm; the letter follows; counteroffer declined",
-         "id": "Manajer lebih dulu, langsung, singkat dan hangat; surat menyusul; tawaran balik ditolak"
+         "en": "Written offer and contract read — before resigning.",
+         "id": "Tawaran tertulis dan kontrak terbaca — sebelum mundur."
         }
        },
        {
+        "icon": "chat",
         "h": {
-         "en": "Showcase month",
-         "id": "Bulan pameran"
+         "en": "Tell",
+         "id": "Sampaikan"
         },
         "sub": {
-         "en": "A handover that needs no author; energy to the last day",
-         "id": "Serah terima yang tak memerlukan penulisnya; energi sampai hari terakhir"
+         "en": "Manager first, in person, with the letter and a plan.",
+         "id": "Manajer dulu, langsung, dengan surat dan rencana."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Alumni bridge",
-         "id": "Jembatan alumni"
+         "en": "Hand over",
+         "id": "Serahkan"
         },
         "sub": {
-         "en": "Personal goodbyes, occasional check-ins, no public trashing",
-         "id": "Perpisahan personal, sapaan sesekali, tanpa menjelekkan di depan umum"
+         "en": "Written handover; time with the successor.",
+         "id": "Serah terima tertulis; waktu bersama pengganti."
+        }
+       },
+       {
+        "icon": "users",
+        "h": {
+         "en": "Leave",
+         "id": "Pergi"
+        },
+        "sub": {
+         "en": "Data stays; thanks are specific; the network stays warm.",
+         "id": "Data tinggal; terima kasih spesifik; jejaring tetap hangat."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Land",
+         "id": "Mendarat"
+        },
+        "sub": {
+         "en": "The first 90 days — The Rope’s final module.",
+         "id": "90 hari pertama — modul terakhir The Rope."
         }
        }
       ],
+      "note": {
+       "en": "The move is not complete when you leave. It is complete when you have landed.",
+       "id": "Perpindahan belum selesai saat kamu pergi. Ia selesai saat kamu sudah mendarat."
+      },
       "longdesc": {
-       "en": "A four-step flow. Confirm: the written offer, notice terms, financial bridge and architecture test are complete before anything irreversible. Resign: the manager hears first and live, the letter follows, the counteroffer is declined. Showcase month: the notice period is run as a handover project with energy sustained to the last day. Alumni bridge: personal goodbyes and occasional check-ins keep former colleagues as your future network.",
-       "id": "Alur empat langkah. Pastikan: tawaran tertulis, ketentuan pemberitahuan, jembatan keuangan, dan uji arsitektur tuntas sebelum ada yang tak bisa ditarik kembali. Undur diri: manajer mendengar lebih dulu dan langsung, surat menyusul, tawaran balik ditolak. Bulan pameran: masa pemberitahuan dijalankan sebagai proyek serah terima dengan energi sampai hari terakhir. Jembatan alumni: perpisahan personal dan sapaan sesekali menjaga mantan rekan sebagai jaringan masa depanmu."
+       "en": "A six-step timeline for an external move. Search quietly on your own time with references ready. Sign the written offer and read the contract before resigning. Tell your manager first, in person, with the letter and a handover plan. Hand over in writing and spend time with your successor. Leave the data behind, thank people specifically and keep the network warm. Land in the new role through the first ninety days.",
+       "id": "Garis waktu enam langkah untuk perpindahan ke luar. Cari dengan diam-diam di waktumu sendiri dengan referensi siap. Tandatangani tawaran tertulis dan baca kontraknya sebelum mengundurkan diri. Beri tahu manajermu lebih dulu, langsung, dengan surat dan rencana serah terima. Serahkan secara tertulis dan luangkan waktu bersama penggantimu. Tinggalkan datanya, berterima kasihlah secara spesifik, dan jaga jejaring tetap hangat. Mendarat di peran baru melalui sembilan puluh hari pertama."
       }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "An email to HR → the manager first",
+        "id": "Email ke HR → manajer lebih dulu"
+       },
+       "q": {
+        "en": "Mbak Wulan, the Pati branch operations officer, has signed with another bank and must resign this week.",
+        "id": "Mbak Wulan, petugas operasional cabang Pati, sudah menandatangani kontrak dengan bank lain dan harus mengundurkan diri minggu ini."
+       },
+       "weak": {
+        "en": "Friday, 17.45: she emails her resignation letter to HR with her manager in copy, and posts a farewell photo on Instagram the same evening.",
+        "id": "Jumat, 17.45: ia mengirim surat pengunduran diri lewat email ke HR dengan tembusan ke manajernya, dan mengunggah foto perpisahan di Instagram malam itu juga."
+       },
+       "strong": {
+        "en": "Monday, 08.30, in her manager’s office: “Pak, terima kasih untuk empat tahun ini — saya belajar banyak, terutama soal kepatuhan dokumen. Saya sudah menerima tawaran dari bank lain dan memutuskan untuk pindah. Hari terakhir yang saya usulkan tanggal 30 bulan depan, sesuai ketentuan. Ini surat resminya, dan ini draf rencana serah terima — saya usulkan Rudi yang menggantikan laporan akhir bulan, dan saya latih mulai minggu ini.”",
+        "id": "Senin, 08.30, di ruang manajernya: “Pak, terima kasih untuk empat tahun ini — saya belajar banyak, terutama soal kepatuhan dokumen. Saya sudah menerima tawaran dari bank lain dan memutuskan untuk pindah. Hari terakhir yang saya usulkan tanggal 30 bulan depan, sesuai ketentuan. Ini surat resminya, dan ini draf rencana serah terima — saya usulkan Rudi yang menggantikan laporan akhir bulan, dan saya latih mulai minggu ini.”"
+       },
+       "why": {
+        "en": "The first is formally complete and relationally careless: the manager learns from an inbox and a photo. The second gives thanks, a clear decision, a date within the notice rules, the letter and a named successor plan — so the manager can protect the branch. Fictional.",
+        "id": "Yang pertama lengkap secara formal dan ceroboh secara hubungan: manajer mengetahui dari kotak masuk dan sebuah foto. Yang kedua memberi terima kasih, keputusan yang jelas, tanggal sesuai aturan pemberitahuan, surat, dan rencana pengganti yang bernama — sehingga manajer bisa melindungi cabangnya. Fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the handover that came back",
+       "id": "Sorotan: serah terima yang kembali"
+      },
+      "body": [
+       {
+        "en": "In her last month at the Pati branch, Mbak Wulan writes an eight-page handover: every recurring report with its deadline and data source, the six branch contacts who send documents late and how to remind each one politely, and the three month-end errors she has fixed most often. She sits with Rudi, her successor, for four afternoons and introduces him to Nadia at the credit centre. She takes nothing with her but her own notes on what she learned.",
+        "id": "Di bulan terakhirnya di cabang Pati, Mbak Wulan menulis serah terima delapan halaman: setiap laporan rutin dengan tenggat dan sumber datanya, enam kontak cabang yang sering terlambat mengirim dokumen dan cara mengingatkan masing-masing dengan sopan, dan tiga kesalahan akhir bulan yang paling sering ia perbaiki. Ia duduk bersama Rudi, penggantinya, selama empat sore dan memperkenalkannya kepada Nadia di pusat kredit. Ia tak membawa apa pun kecuali catatan pribadinya tentang apa yang ia pelajari."
+       },
+       {
+        "en": "Two years later, the bank’s regional office is looking for an operations lead with experience at another bank. Her former branch manager, asked for names, gives one without hesitation. The recruiter mentions that three people independently described Mbak Wulan’s handover. Her exit had become part of her reputation — the best part.",
+        "id": "Dua tahun kemudian, kantor regional bank mencari pemimpin operasional yang berpengalaman di bank lain. Mantan manajer cabangnya, saat dimintai nama, menyebut satu tanpa ragu. Rekruternya menyebut bahwa tiga orang secara terpisah menggambarkan serah terima Mbak Wulan. Kepergiannya telah menjadi bagian dari reputasinya — bagian terbaiknya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The discretion check",
+        "id": "Latihan 1 · Cek kebijaksanaan"
+       },
+       "body": {
+        "en": "Review your profile, portfolio and recent posts as your manager would. Remove anything that signals a search you have not chosen to signal, and any detail drawn from confidential work.",
+        "id": "Tinjau profil, portofolio, dan unggahan terbarumu seperti manajermu akan melihatnya. Hapus apa pun yang menandakan pencarian yang tak ingin kamu tandakan, dan detail apa pun yang diambil dari pekerjaan rahasia."
+       },
+       "debrief": {
+        "en": "A good test for any example: would you be comfortable if your current manager read it aloud in a team meeting?",
+        "id": "Uji yang baik untuk contoh apa pun: apakah kamu nyaman jika manajermu sekarang membacanya keras-keras di rapat tim?"
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Read a contract",
+        "id": "Latihan 2 · Baca sebuah kontrak"
+       },
+       "body": {
+        "en": "Take your current contract (or an offer) and find the five items: contract type and probation, start date and notice, confidentiality and non-compete, bond or clawback, total compensation. Write one question for each you could not answer.",
+        "id": "Ambil kontrakmu sekarang (atau sebuah tawaran) dan temukan lima butir: jenis kontrak dan masa percobaan, tanggal mulai dan pemberitahuan, kerahasiaan dan larangan bersaing, ikatan dinas atau pengembalian, total kompensasi. Tulis satu pertanyaan untuk tiap butir yang tak bisa kamu jawab."
+       },
+       "debrief": {
+        "en": "Your notice period and any bond set the earliest realistic start date for any new role — know them before an interview asks.",
+        "id": "Masa pemberitahuan dan ikatan dinasmu menetapkan tanggal mulai paling awal yang realistis untuk peran baru apa pun — ketahui sebelum wawancara menanyakannya."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Practise the three moments",
+        "id": "Latihan 3 · Latih tiga momen"
+       },
+       "body": {
+        "en": "Open the scenario coach below and play “Leaving well”: telling your manager, the counter-offer, and the last month. Then write your own four-sentence resignation opening.",
+        "id": "Buka pelatih skenario di bawah dan mainkan “Pergi dengan baik”: memberi tahu manajer, tawaran balik, dan bulan terakhir. Lalu tulis empat kalimat pembuka pengunduran dirimu sendiri."
+       },
+       "debrief": {
+        "en": "Thanks, decision, date, plan — in that order. If your draft includes reasons you are unhappy, move them to the exit interview.",
+        "id": "Terima kasih, keputusan, tanggal, rencana — dengan urutan itu. Jika drafmu memuat alasan ketidakpuasan, pindahkan ke wawancara keluar."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Resigning on a verbal offer",
+         "id": "Mundur berdasarkan tawaran lisan"
+        },
+        "fix": {
+         "en": "Sign, then resign — with conditions cleared.",
+         "id": "Tanda tangan, lalu mundur — dengan syarat sudah selesai."
+        }
+       },
+       {
+        "h": {
+         "en": "The manager hears it second-hand",
+         "id": "Manajer mendengar dari orang lain"
+        },
+        "fix": {
+         "en": "Manager first, in person, with the letter and a plan.",
+         "id": "Manajer dulu, langsung, dengan surat dan rencana."
+        }
+       },
+       {
+        "h": {
+         "en": "Accepting a counter-offer after signing",
+         "id": "Menerima tawaran balik setelah tanda tangan"
+        },
+        "fix": {
+         "en": "Decline with gratitude; the reasons in your ledger remain.",
+         "id": "Tolak dengan terima kasih; alasan di neracamu tetap ada."
+        }
+       },
+       {
+        "h": {
+         "en": "Taking files “for reference”",
+         "id": "Membawa berkas “untuk referensi”"
+        },
+        "fix": {
+         "en": "Data stays; take only your own notes on what you learned.",
+         "id": "Data tinggal; bawa hanya catatan pribadimu tentang yang kamu pelajari."
+        }
+       }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "counteroffer",
-        "id": "tawaran balik"
+        "en": "Notice period",
+        "id": "Masa pemberitahuan"
        },
        "def": {
-        "en": "A raise or promotion offered to keep you after you resign. It answers with money a question that was rarely about money, which is why accepted counteroffers so often precede a departure within the year anyway.",
-        "id": "Kenaikan gaji atau promosi yang ditawarkan untuk menahanmu setelah kamu mengundurkan diri. Ia menjawab dengan uang sebuah pertanyaan yang jarang soal uang, itulah mengapa tawaran balik yang diterima begitu sering tetap disusul kepergian dalam setahun."
+        "en": "The written notice you must give before your last day, set by regulation, contract and company policy.",
+        "id": "Pemberitahuan tertulis yang wajib kamu berikan sebelum hari terakhir, ditetapkan regulasi, kontrak, dan kebijakan perusahaan."
        }
       },
       {
        "term": {
-        "en": "alumni bridge",
-        "id": "jembatan alumni"
+        "en": "PKWT / PKWTT",
+        "id": "PKWT / PKWTT"
        },
        "def": {
-        "en": "The maintained relationship with former colleagues after you leave — future clients, referees, hiring managers and co-founders — built on personal goodbyes, occasional check-ins and never speaking ill of the old employer.",
-        "id": "Relasi yang dijaga dengan mantan rekan setelah kamu pergi — calon klien, pemberi referensi, manajer perekrut, dan rekan pendiri — dibangun dari perpisahan personal, sapaan sesekali, dan tak pernah menjelekkan mantan pemberi kerja."
+        "en": "Fixed-term and permanent employment contracts under Indonesian law; rules on probation and termination differ.",
+        "id": "Perjanjian kerja waktu tertentu dan tidak tertentu menurut hukum Indonesia; aturan masa percobaan dan pengakhirannya berbeda."
+       }
+      },
+      {
+       "term": {
+        "en": "Counter-offer",
+        "id": "Tawaran balik"
+       },
+       "def": {
+        "en": "An improved package offered by your current employer after you resign.",
+        "id": "Paket yang lebih baik yang ditawarkan pemberi kerjamu sekarang setelah kamu mengundurkan diri."
+       }
+      },
+      {
+       "term": {
+        "en": "Boomerang hire",
+        "id": "Rekrutan bumerang"
+       },
+       "def": {
+        "en": "A former employee rehired later — more likely when they left well.",
+        "id": "Mantan karyawan yang direkrut kembali kelak — lebih mungkin jika dulu pergi dengan baik."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Your resignation triggers a counteroffer 10% above your new offer. The lesson's frame for deciding?",
-        "id": "Pengunduran dirimu memicu tawaran balik 10% di atas tawaran barumu. Bingkai keputusan menurut pelajaran ini?"
+        "en": "You receive a WhatsApp message: “Selamat, kamu diterima! Surat menyusul.” You should…",
+        "id": "Kamu menerima pesan WhatsApp: “Selamat, kamu diterima! Surat menyusul.” Kamu sebaiknya…"
        },
        "options": [
         {
-         "en": "Take it — highest number wins",
-         "id": "Ambil — angka tertinggi yang menang"
+         "en": "Resign today to secure the start date",
+         "id": "Mengundurkan diri hari ini agar tanggal mulai aman"
         },
         {
-         "en": "Revisit why you ran the move: if the trigger was yield, ceiling or architecture, money answers a question you never asked",
-         "id": "Tengok kembali alasanmu pindah: kalau pemicunya imbal aset, batas atas, atau arsitektur, uang menjawab pertanyaan yang tidak pernah kamu ajukan"
+         "en": "Wait for the written offer and contract, with conditions cleared, before resigning",
+         "id": "Menunggu tawaran tertulis dan kontrak, dengan syarat selesai, sebelum mengundurkan diri"
         },
         {
-         "en": "Use it to renegotiate the new offer upward",
-         "id": "Pakai untuk menegosiasikan tawaran baru agar lebih tinggi"
+         "en": "Tell your team the good news",
+         "id": "Memberi tahu kabar baik ke timmu"
+        },
+        {
+         "en": "Post it on LinkedIn",
+         "id": "Mengunggahnya di LinkedIn"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Counteroffers reprice the salary line of a bundle you rejected for other lines. The architecture that justified the move usually still stands.",
-        "id": "Tawaran balik hanya menaikkan baris gaji dari paket yang kamu tolak karena baris-baris lainnya. Arsitektur yang membenarkan kepindahan itu biasanya masih tetap berlaku."
+        "en": "Sign, then resign.",
+        "id": "Tanda tangan, lalu mundur."
+       }
+      },
+      {
+       "q": {
+        "en": "Who should hear about your resignation first?",
+        "id": "Siapa yang sebaiknya pertama kali mendengar tentang pengunduran dirimu?"
+       },
+       "options": [
+        {
+         "en": "HR, by email",
+         "id": "HR, lewat email"
+        },
+        {
+         "en": "Your closest colleague",
+         "id": "Rekan terdekatmu"
+        },
+        {
+         "en": "Your manager, in person, from you",
+         "id": "Manajermu, langsung, darimu"
+        },
+        {
+         "en": "Your clients",
+         "id": "Nasabahmu"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Hearing it second-hand turns the first conversation into one about trust.",
+        "id": "Mendengarnya dari orang lain mengubah percakapan pertama menjadi soal kepercayaan."
+       }
+      },
+      {
+       "q": {
+        "en": "In your last week, you want to keep the report templates you built. You…",
+        "id": "Di minggu terakhirmu, kamu ingin menyimpan templat laporan yang kamu buat. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Copy them to a personal drive",
+         "id": "Menyalinnya ke drive pribadi"
+        },
+        {
+         "en": "Leave them, and keep only your own notes on what you learned",
+         "id": "Meninggalkannya, dan hanya menyimpan catatan pribadimu tentang yang kamu pelajari"
+        },
+        {
+         "en": "Email them to your new work address",
+         "id": "Mengirimnya ke alamat email kerja barumu"
+        },
+        {
+         "en": "Ask a colleague to send them later",
+         "id": "Meminta rekan mengirimkannya nanti"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Work built on company time and data generally belongs to the company; taking it risks your contract and reputation.",
+        "id": "Pekerjaan yang dibuat di jam kerja dan dengan data perusahaan umumnya milik perusahaan; membawanya membahayakan kontrak dan reputasimu."
        }
       }
      ],
+     "tool": {
+      "id": "field",
+      "mode": "coach:move",
+      "title": {
+       "en": "Practise: leaving well",
+       "id": "Latihan: pergi dengan baik"
+      },
+      "body": {
+       "en": "Three decisions after you have signed an offer: how your manager finds out, what you say to a counter-offer, and what matters most in the last month.",
+       "id": "Tiga keputusan setelah kamu menandatangani tawaran: bagaimana manajermu mengetahuinya, apa yang kamu katakan pada tawaran balik, dan apa yang paling penting di bulan terakhir."
+      },
+      "cta": {
+       "en": "Start the practice",
+       "id": "Mulai latihan"
+      }
+     },
+     "quote": {
+      "en": "People remember how you left more vividly than what you did in the middle.",
+      "id": "Orang mengingat bagaimana kamu pergi lebih jelas daripada apa yang kamu kerjakan di tengah."
+     },
+     "takeaways": [
+      {
+       "en": "Search quietly on your own time, with no employer data, and line up references who have seen your work.",
+       "id": "Cari dengan diam-diam di waktumu sendiri, tanpa data pemberi kerja, dan siapkan referensi yang pernah melihat kerjamu."
+      },
+      {
+       "en": "Sign before you resign, read the contract in full, and give notice as your regulation, contract and policy require.",
+       "id": "Tanda tangan sebelum mundur, baca kontraknya sampai habis, dan beri pemberitahuan sesuai regulasi, kontrak, dan kebijakan."
+      },
+      {
+       "en": "Tell your manager first, decline counter-offers gracefully, hand over in writing — and start your first 90 days the week you sign.",
+       "id": "Beri tahu manajermu lebih dulu, tolak tawaran balik dengan santun, serahkan secara tertulis — dan mulai 90 hari pertamamu di minggu kamu menandatangani."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The transition checklist",
+       "id": "Daftar periksa peralihan"
+      },
+      "lead": {
+       "en": "Career Kit item (part 3): the execution plan for your move.",
+       "id": "Butir Career Kit (bagian 3): rencana pelaksanaan perpindahanmu."
+      },
       "items": [
        {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "Clean exit — four stations",
-         "id": "Keluar dengan bersih — empat stasiun"
+         "en": "Sources and evidence notes · Lesson 7.4",
+         "id": "Sumber dan catatan bukti · Pelajaran 7.4"
         },
         "desc": {
-         "en": "Tick through from decision to last day.",
-         "id": "Centang dari keputusan sampai hari terakhir."
+         "en": "Where the rules come from — education, not legal advice.",
+         "id": "Dari mana aturannya berasal — edukasi, bukan nasihat hukum."
         },
         "body": [
          {
-          "en": "DECISION: offer in writing and inspected (Rope 8.4); inner circle consulted; red lines checked; start date agreed",
-          "id": "KEPUTUSAN: tawaran tertulis dan diperiksa (Rope 8.4); lingkaran dalam dikonsultasikan; garis merah diperiksa; tanggal mulai disepakati"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Resignation notice, contract types (PKWT/PKWTT) and probation are governed by Indonesian manpower law and its implementing regulations, including PP 35/2021, plus your contract and company regulation; check the current text.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Pemberitahuan pengunduran diri, jenis kontrak (PKWT/PKWTT), dan masa percobaan diatur hukum ketenagakerjaan Indonesia dan peraturan pelaksananya, termasuk PP 35/2021, ditambah kontrak dan peraturan perusahaanmu; periksa teks terkini."
          },
          {
-          "en": "RESIGNATION: manager told in person first; short letter with last day; no negotiation in the room; counter-offer policy decided beforehand",
-          "id": "PENGUNDURAN DIRI: manajer diberi tahu langsung lebih dulu; surat singkat dengan hari terakhir; tanpa negosiasi di ruangan; kebijakan tawaran balasan diputuskan sebelumnya"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Taking company or customer data may breach confidentiality duties and data-protection law (UU PDP No. 27/2022).",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Membawa data perusahaan atau nasabah bisa melanggar kewajiban kerahasiaan dan hukum pelindungan data (UU PDP No. 27/2022)."
          },
          {
-          "en": "NOTICE PERIOD: handover document (systems, contacts, open items, where things live); successor or cover trained; open loops closed or explicitly handed",
-          "id": "MASA PEMBERITAHUAN: dokumen serah terima (sistem, kontak, item terbuka, tempat penyimpanan); pengganti atau pengisi dilatih; urusan terbuka ditutup atau diserahkan secara eksplisit"
+          "en": "<span class=\"ev ev-contested\">Contested</span> The enforceability of post-employment non-compete clauses in Indonesia is debated; how counter-offers turn out varies — the advice here is course guidance.",
+          "id": "<span class=\"ev ev-contested\">Diperdebatkan</span> Keberlakuan klausul larangan bersaing pasca-kerja di Indonesia masih diperdebatkan; hasil tawaran balik beragam — saran di sini adalah panduan kursus."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Transition checklist",
+         "id": "Daftar periksa peralihan"
+        },
+        "desc": {
+         "en": "Tick in order.",
+         "id": "Centang berurutan."
+        },
+        "body": [
+         {
+          "en": "SEARCH: own time/devices ☐ · no employer data ☐ · references asked ☐ · SIGN: written offer ☐ · conditions cleared ☐ · contract read (5 items) ☐ · my notice … days · bond …",
+          "id": "CARI: waktu/perangkat sendiri ☐ · tanpa data pemberi kerja ☐ · referensi diminta ☐ · TANDA TANGAN: tawaran tertulis ☐ · syarat selesai ☐ · kontrak dibaca (5 butir) ☐ · pemberitahuanku … hari · ikatan dinas …"
          },
          {
-          "en": "LAST WEEK: thank-you messages by name; personal files removed, company files left; contact details exchanged with the inner-circle candidates you met here",
-          "id": "MINGGU TERAKHIR: pesan terima kasih dengan nama; berkas pribadi dihapus, berkas perusahaan ditinggalkan; kontak dipertukarkan dengan calon lingkaran dalam yang kamu temui di sini"
+          "en": "TELL: manager (date) … · HR … · team … · HANDOVER: document ☐ · successor time ☐ · LEAVE: data left ☐ · thanks (names) … · references … · LAND: first-90-days plan started ☐",
+          "id": "SAMPAIKAN: manajer (tanggal) … · HR … · tim … · SERAH TERIMA: dokumen ☐ · waktu dengan pengganti ☐ · PERGI: data ditinggal ☐ · terima kasih (nama) … · referensi … · MENDARAT: rencana 90 hari dimulai ☐"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "The resignation opening and letter",
+         "id": "Pembuka dan surat pengunduran diri"
+        },
+        "desc": {
+         "en": "Four sentences, then the formal step.",
+         "id": "Empat kalimat, lalu langkah formal."
+        },
+        "body": [
+         {
+          "en": "OPENING: “[Bapak/Ibu], terima kasih untuk [waktu] ini — saya belajar [hal spesifik]. Saya sudah menerima tawaran dari [organisasi] dan memutuskan untuk pindah. Hari terakhir yang saya usulkan [tanggal], sesuai ketentuan. Ini suratnya, dan ini draf rencana serah terima.”",
+          "id": "PEMBUKA: “[Bapak/Ibu], terima kasih untuk [waktu] ini — saya belajar [hal spesifik]. Saya sudah menerima tawaran dari [organisasi] dan memutuskan untuk pindah. Hari terakhir yang saya usulkan [tanggal], sesuai ketentuan. Ini suratnya, dan ini draf rencana serah terima.”"
          },
          {
-          "en": "AFTER: win log updated with the whole role; architecture updated; one message to the old manager after three months",
-          "id": "SETELAHNYA: catatan capaian diperbarui dengan seluruh peran; arsitektur diperbarui; satu pesan ke manajer lama setelah tiga bulan"
+          "en": "COUNTER-OFFER: “Terima kasih banyak, saya sangat menghargai. Keputusan saya soal [kapabilitas yang dibangun peran baru], bukan soal gaji, dan saya sudah memberikan komitmen. Saya ingin memastikan serah terimanya berjalan baik.”",
+          "id": "TAWARAN BALIK: “Terima kasih banyak, saya sangat menghargai. Keputusan saya soal [kapabilitas yang dibangun peran baru], bukan soal gaji, dan saya sudah memberikan komitmen. Saya ingin memastikan serah terimanya berjalan baik.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Second Move",
+      "id": "Tugas Kasus — Langkah Kedua Nadia"
+     },
+     "overview": {
+      "en": "Six months after the recruiter’s first call, the restructuring results are in, the certification bond has five weeks left, and Nadia has three real options: stay for a portfolio-lead role that may open in Semarang in nine months; move inside to a credit-product role in the digital-lending unit in Jakarta; or accept an offer from a fast-growing fintech at thirty-eight per cent more. Each has evidence for and against, and one contract contains a surprise. In this case you assess her readiness, evaluate the three options through four lenses, plan the internal route and the transition — and then build your own Career Move Evaluation Framework.",
+      "id": "Enam bulan setelah telepon pertama rekruter, hasil restrukturisasi sudah keluar, ikatan dinas sertifikasi tersisa lima minggu, dan Nadia punya tiga pilihan nyata: bertahan untuk peran pemimpin portofolio yang mungkin terbuka di Semarang sembilan bulan lagi; pindah di dalam ke peran produk kredit di unit pinjaman digital Jakarta; atau menerima tawaran fintech yang tumbuh pesat dengan gaji tiga puluh delapan persen lebih tinggi. Masing-masing punya bukti yang mendukung dan melemahkan, dan satu kontrak berisi kejutan. Dalam kasus ini kamu menilai kesiapannya, mengevaluasi ketiga pilihan melalui empat lensa, merencanakan jalur internal dan peralihannya — lalu membangun Kerangka Evaluasi Langkah Kariermu sendiri."
+     },
+     "objectives": [
+      {
+       "en": "Assess readiness to move: capital, curve, reasons and the ledger.",
+       "id": "Menilai kesiapan pindah: modal, kurva, alasan, dan neraca."
+      },
+      {
+       "en": "Evaluate three options, including staying, through four lenses with gates and weights.",
+       "id": "Mengevaluasi tiga pilihan, termasuk bertahan, melalui empat lensa dengan gerbang dan bobot."
+      },
+      {
+       "en": "Plan the internal route: policy, the manager conversation and landing.",
+       "id": "Merencanakan jalur internal: kebijakan, percakapan dengan manajer, dan pendaratan."
+      },
+      {
+       "en": "Spot contract risks and sequence an external transition correctly.",
+       "id": "Mengenali risiko kontrak dan mengurutkan peralihan ke luar dengan benar."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Three good options — and the evidence to choose",
+       "id": "Tiga pilihan bagus — dan bukti untuk memilih"
+      },
+      "intro": {
+       "en": "Five steps, six written answers. The case file has four tabs: Nadia’s readiness notes, the three options, the policy and contracts, and her backchannel notes. There is more than one defensible answer; what is graded is whether yours follows from the evidence.",
+       "id": "Lima langkah, enam jawaban tertulis. Berkas kasus punya empat tab: catatan kesiapan Nadia, ketiga pilihan, kebijakan dan kontrak, dan catatan belakang layarnya. Ada lebih dari satu jawaban yang bisa dipertahankan; yang dinilai adalah apakah jawabanmu mengikuti buktinya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like her board",
+         "id": "Baca seperti dewannya"
+        },
+        "points": [
+         {
+          "en": "Separate the number from the capital, the title from the week, the offer from the contract.",
+          "id": "Pisahkan angka dari modal, jabatan dari minggu kerja, tawaran dari kontrak."
+         },
+         {
+          "en": "Staying is an option — score it too.",
+          "id": "Bertahan adalah pilihan — nilai juga."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then build your own",
+         "id": "Lalu bangun milikmu"
+        },
+        "points": [
+         {
+          "en": "Step 5 is your own Career Move Evaluation Framework. Model notes open after you submit.",
+          "id": "Langkah 5 adalah Kerangka Evaluasi Langkah Kariermu sendiri. Catatan model terbuka setelah kamu mengumpulkan."
          }
         ]
        }
       ]
      },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RT7",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Second Move",
+       "id": "Langkah Kedua Nadia"
+      },
+      "lead": {
+       "en": "A fictional bank and fintech, a real kind of choice. Stay, move inside or move out — decide on evidence, then execute cleanly.",
+       "id": "Bank dan fintech fiktif, jenis pilihan yang nyata. Bertahan, pindah di dalam, atau pindah ke luar — putuskan berdasarkan bukti, lalu jalankan dengan rapi."
+      },
+      "practice": [
+       {
+        "en": "Readiness",
+        "id": "Kesiapan"
+       },
+       {
+        "en": "Evaluate the options",
+        "id": "Evaluasi pilihan"
+       },
+       {
+        "en": "The internal route",
+        "id": "Jalur internal"
+       },
+       {
+        "en": "Contract and transition",
+        "id": "Kontrak dan peralihan"
+       },
+       {
+        "en": "Your framework",
+        "id": "Kerangkamu"
+       }
+      ],
+      "goal": {
+       "en": "A recommendation Nadia could defend to her board, with the conversations and the contract questions ready — and the same framework for your own next move.",
+       "id": "Rekomendasi yang bisa Nadia pertahankan di depan dewannya, dengan percakapan dan pertanyaan kontrak yang siap — dan kerangka yang sama untuk langkah berikutmu sendiri."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · former Metanoia mentor",
+         "id": "Rina Sari · mantan mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Wednesday, 20.15",
+         "id": "Rabu, 20.15"
+        },
+        "subject": {
+         "en": "Nadia has three options and a Friday deadline",
+         "id": "Nadia punya tiga pilihan dan tenggat hari Jumat"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia called me tonight — as a friend now, since our programme ended. The fintech wants an answer by Friday and a start date in four weeks. The internal posting in the digital-lending unit closes in ten days. Bu Sinta has hinted that a portfolio-lead role may open in Semarang in about nine months, but there is one slot and nothing is promised.",
+          "id": "Nadia menelepon saya malam ini — sebagai teman sekarang, karena program kita sudah selesai. Fintech itu ingin jawaban paling lambat Jumat dan tanggal mulai empat minggu lagi. Lowongan internal di unit pinjaman digital ditutup sepuluh hari lagi. Bu Sinta memberi isyarat bahwa peran pemimpin portofolio mungkin terbuka di Semarang sekitar sembilan bulan lagi, tetapi slotnya satu dan belum ada yang dijanjikan."
+         },
+         {
+          "en": "She is excited by the money — her father’s treatment in Tegal is expensive — and anxious about leaving the bank that trained her. She has done good homework; it is in the file. What she needs is a method, not a verdict from me.",
+          "id": "Ia tergiur oleh uangnya — pengobatan ayahnya di Tegal mahal — dan cemas meninggalkan bank yang melatihnya. Ia sudah mengerjakan pekerjaan rumahnya dengan baik; semuanya ada di berkas. Yang ia butuhkan adalah metode, bukan putusan dari saya."
+         },
+         {
+          "en": "Help her decide and plan the move. Then build your own framework; it is the seventh page of your Career Kit.",
+          "id": "Bantu ia memutuskan dan merencanakan perpindahannya. Lalu bangun kerangkamu sendiri; itu halaman ketujuh Career Kit-mu."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Is she ready to move — and is now the time?",
+          "id": "Apakah ia siap pindah — dan apakah sekarang waktunya?"
+         },
+         {
+          "en": "Evaluate stay, inside and outside through four lenses",
+          "id": "Evaluasi bertahan, di dalam, dan ke luar melalui empat lensa"
+         },
+         {
+          "en": "The internal route: policy and the conversation with Bu Sinta",
+          "id": "Jalur internal: kebijakan dan percakapan dengan Bu Sinta"
+         },
+         {
+          "en": "The contract and the transition plan",
+          "id": "Kontrak dan rencana peralihan"
+         },
+         {
+          "en": "Your own Career Move Evaluation Framework",
+          "id": "Kerangka Evaluasi Langkah Kariermu sendiri"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Friday",
+          "id": "Jumat"
+         },
+         "v": {
+          "en": "the fintech’s deadline for an answer; they want a start in four weeks",
+          "id": "tenggat jawaban dari fintech; mereka ingin mulai empat minggu lagi"
+         },
+         "hot": true
+        },
+        {
+         "icon": "lock",
+         "k": {
+          "en": "5 weeks",
+          "id": "5 minggu"
+         },
+         "v": {
+          "en": "left on the certification bond; leaving earlier means repaying part of the cost (her contract)",
+          "id": "tersisa pada ikatan dinas sertifikasi; pergi lebih awal berarti membayar kembali sebagian biayanya (kontraknya)"
+         },
+         "hot": true
+        },
+        {
+         "icon": "up",
+         "k": {
+          "en": "+38%",
+          "id": "+38%"
+         },
+         "v": {
+          "en": "fintech base salary versus her current base; fewer allowances, no THR guarantee stated",
+          "id": "gaji pokok fintech dibanding gaji pokoknya sekarang; tunjangan lebih sedikit, jaminan THR tidak disebut"
+         }
+        },
+        {
+         "icon": "down",
+         "k": {
+          "en": "2 in 18 months",
+          "id": "2 dalam 18 bulan"
+         },
+         "v": {
+          "en": "people who have left the fintech seat she is offered",
+          "id": "orang yang sudah meninggalkan kursi fintech yang ditawarkan kepadanya"
+         },
+         "hot": true
+        },
+        {
+         "icon": "check",
+         "k": {
+          "en": "26 months",
+          "id": "26 bulan"
+         },
+         "v": {
+          "en": "in her current role; the internal posting requires 18 and a “memenuhi” rating",
+          "id": "di perannya sekarang; lowongan internal mensyaratkan 18 bulan dan peringkat “memenuhi”"
+         }
+        },
+        {
+         "icon": "rail",
+         "k": {
+          "en": "Tegal",
+          "id": "Tegal"
+         },
+         "v": {
+          "en": "her father is in treatment; about 2.5 hours by train from Semarang, about 4.5 from Jakarta",
+          "id": "ayahnya sedang dirawat; sekitar 2,5 jam naik kereta dari Semarang, sekitar 4,5 jam dari Jakarta"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Readiness notes",
+          "id": "Catatan kesiapan"
+         },
+         "title": {
+          "en": "Nadia’s capital, curve and ledger",
+          "id": "Modal, kurva, dan neraca Nadia"
+         },
+         "meta": {
+          "en": "Her own notes, this week",
+          "id": "Catatannya sendiri, minggu ini"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Capital",
+            "id": "Modal"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Skills: SME credit judgement; SQL reporting; explaining model results to branch officers (taskforce)",
+             "id": "Keterampilan: penilaian kredit UMKM; pelaporan SQL; menjelaskan hasil model kepada petugas cabang (satgas)"
+            },
+            {
+             "en": "Evidence: document check in 12 branches; taskforce finding on harvest timing adopted in model v2; restructuring results — 1 of 2 borrowers back to current, 1 settled with partial recovery",
+             "id": "Bukti: cek dokumen di 12 cabang; temuan satgas tentang waktu panen diadopsi di model v2; hasil restrukturisasi — 1 dari 2 debitur kembali lancar, 1 diselesaikan dengan pemulihan sebagian"
+            },
+            {
+             "en": "Reputation: “paham data dan paham aturan” (Pak Arya’s team, two regions)",
+             "id": "Reputasi: “paham data dan paham aturan” (tim Pak Arya, dua wilayah)"
+            },
+            {
+             "en": "Options: savings of about four months’ expenses; bond ends in five weeks",
+             "id": "Pilihan: tabungan sekitar empat bulan pengeluaran; ikatan dinas berakhir lima minggu lagi"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Curve",
+            "id": "Kurva"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“I teach Sekar and the new analysts more than I learn. The portfolio runs itself. The taskforce was the steepest six months I have had.”",
+             "id": "“Aku lebih banyak mengajar Sekar dan analis baru daripada belajar. Portofolionya berjalan sendiri. Satgas adalah enam bulan paling curam yang pernah kualami.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Annual bonus",
+            "id": "Bonus tahunan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Paid in March to staff employed on 1 March — four months away (company policy)",
+             "id": "Dibayarkan di bulan Maret kepada karyawan yang masih bekerja pada 1 Maret — empat bulan lagi (kebijakan perusahaan)"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The three options",
+          "id": "Tiga pilihan"
+         },
+         "title": {
+          "en": "Stay, inside, outside",
+          "id": "Bertahan, di dalam, ke luar"
+         },
+         "meta": {
+          "en": "Fictional; summaries of what Nadia has learned",
+          "id": "Fiktif; ringkasan yang telah dipelajari Nadia"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "A · Stay — portfolio lead, Semarang (possible in ~9 months)",
+            "id": "A · Bertahan — pemimpin portofolio, Semarang (mungkin ~9 bulan lagi)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "One slot; Bu Sinta “would support” her; Yosef (returning to the bank) may also apply",
+             "id": "Satu slot; Bu Sinta “akan mendukung”; Yosef (kembali ke bank) mungkin juga melamar"
+            },
+            {
+             "en": "Builds: people leadership of three analysts; P&L view of a portfolio. Near family. Promotion to the next grade if selected",
+             "id": "Membangun: memimpin tiga analis; pandangan laba rugi portofolio. Dekat keluarga. Naik golongan jika terpilih"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "B · Inside — credit-product analyst, digital-lending unit, Jakarta",
+            "id": "B · Di dalam — analis produk kredit, unit pinjaman digital, Jakarta"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Reports to Bu Indah, head of credit product (Pak Arya’s unit); Mas Fajar leads data in the same unit",
+             "id": "Melapor kepada Bu Indah, kepala produk kredit (unit Pak Arya); Mas Fajar memimpin data di unit yang sama"
+            },
+            {
+             "en": "Why open: the unit is growing — two new roles for the SME product launching next year",
+             "id": "Mengapa terbuka: unitnya bertumbuh — dua peran baru untuk produk UMKM yang diluncurkan tahun depan"
+            },
+            {
+             "en": "Lateral grade; pay unchanged; Jakarta location allowance and one-time relocation support (policy)",
+             "id": "Golongan setara; gaji tetap; tunjangan lokasi Jakarta dan bantuan relokasi satu kali (kebijakan)"
+            },
+            {
+             "en": "Builds: credit-product design, working with model and product teams, head-office exposure",
+             "id": "Membangun: desain produk kredit, bekerja dengan tim model dan produk, paparan kantor pusat"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "C · Outside — “SME Credit Lead”, PT Dana Tumbuh Digital (fictional fintech)",
+            "id": "C · Ke luar — “SME Credit Lead”, PT Dana Tumbuh Digital (fintech fiktif)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Base +38%; fewer fixed allowances; bonus “discretionary”; Series B funded; states it is licensed for its lending activity (to verify)",
+             "id": "Gaji pokok +38%; tunjangan tetap lebih sedikit; bonus “diskresioner”; pendanaan Seri B; menyatakan berizin untuk kegiatan pinjamannya (perlu diverifikasi)"
+            },
+            {
+             "en": "Team: one junior analyst; reports to the COO; the seat has been vacated twice in 18 months",
+             "id": "Tim: satu analis junior; melapor kepada COO; kursinya sudah dua kali ditinggalkan dalam 18 bulan"
+            },
+            {
+             "en": "Builds: end-to-end credit policy at a small lender; speed; a “Lead” title",
+             "id": "Membangun: kebijakan kredit menyeluruh di pemberi pinjaman kecil; kecepatan; jabatan “Lead”"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Policy and contracts",
+          "id": "Kebijakan dan kontrak"
+         },
+         "title": {
+          "en": "What the documents say",
+          "id": "Apa kata dokumennya"
+         },
+         "meta": {
+          "en": "Fictional summaries; education, not legal advice",
+          "id": "Ringkasan fiktif; edukasi, bukan nasihat hukum"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Bank — internal posting policy",
+            "id": "Bank — kebijakan lowongan internal"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Eligibility: 18 months in current role; latest rating “memenuhi” or above",
+             "id": "Kelayakan: 18 bulan di peran sekarang; peringkat terakhir “memenuhi” atau lebih"
+            },
+            {
+             "en": "Current manager must be informed before the application is submitted; release within 6 weeks of an offer",
+             "id": "Manajer sekarang harus diberi tahu sebelum lamaran dikirim; pelepasan paling lama 6 minggu setelah tawaran"
+            },
+            {
+             "en": "Internal moves do not trigger repayment of training bonds",
+             "id": "Perpindahan internal tidak memicu pembayaran kembali ikatan dinas pelatihan"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Nadia’s current contract",
+            "id": "Kontrak Nadia sekarang"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Permanent (PKWTT); resignation requires written notice at least 30 days before the last day (company regulation)",
+             "id": "Tetap (PKWTT); pengunduran diri mensyaratkan pemberitahuan tertulis paling lambat 30 hari sebelum hari terakhir (peraturan perusahaan)"
+            },
+            {
+             "en": "Certification bond: leaving the bank within 24 months of certification requires pro-rata repayment; 5 weeks remain",
+             "id": "Ikatan dinas sertifikasi: meninggalkan bank dalam 24 bulan setelah sertifikasi mewajibkan pembayaran kembali proporsional; tersisa 5 minggu"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Fintech — offer letter and draft contract",
+            "id": "Fintech — surat tawaran dan draf kontrak"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Contract type: fixed-term (PKWT), 12 months, “with a 3-month probation period”",
+             "id": "Jenis kontrak: waktu tertentu (PKWT), 12 bulan, “dengan masa percobaan 3 bulan”"
+            },
+            {
+             "en": "Start date: four weeks from acceptance",
+             "id": "Tanggal mulai: empat minggu sejak penerimaan"
+            },
+            {
+             "en": "Non-compete: no work for any bank or lender in Indonesia for 12 months after leaving",
+             "id": "Larangan bersaing: tidak bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia selama 12 bulan setelah keluar"
+            },
+            {
+             "en": "Offer “subject to final approval by the board” — no date given",
+             "id": "Tawaran “menunggu persetujuan akhir direksi” — tanpa tanggal"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Backchannel notes",
+          "id": "Catatan belakang layar"
+         },
+         "title": {
+          "en": "What people told her",
+          "id": "Apa kata orang kepadanya"
+         },
+         "meta": {
+          "en": "Open questions; weighed, not believed whole",
+          "id": "Pertanyaan terbuka; ditimbang, tidak ditelan bulat"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Mas Fajar on Bu Indah: “Detail, tegas, tapi sabar mengajar. Dua analisnya dipromosikan dalam dua tahun terakhir. Rapat mingguan satu-satu tidak pernah batal.”",
+             "id": "Mas Fajar tentang Bu Indah: “Detail, tegas, tapi sabar mengajar. Dua analisnya dipromosikan dalam dua tahun terakhir. Rapat mingguan satu-satu tidak pernah batal.”"
+            },
+            {
+             "en": "A former digital-unit analyst (via Mas Fajar): “Ritmenya cepat dan jam kerjanya panjang menjelang peluncuran.”",
+             "id": "Mantan analis unit digital (lewat Mas Fajar): “Ritmenya cepat dan jam kerjanya panjang menjelang peluncuran.”"
+            },
+            {
+             "en": "Dewi on the fintech: “Produknya bagus dan tumbuh. Tapi COO-nya sering membatalkan keputusan kredit kalau target bulanan kurang — itu yang bikin dua orang sebelumnya keluar.”",
+             "id": "Dewi tentang fintech: “Produknya bagus dan tumbuh. Tapi COO-nya sering membatalkan keputusan kredit kalau target bulanan kurang — itu yang bikin dua orang sebelumnya keluar.”"
+            },
+            {
+             "en": "The fintech hiring manager, asked what success looks like at 90 days: “Nanti kita lihat bareng, yang penting cepat.”",
+             "id": "Manajer perekrut fintech, ditanya seperti apa keberhasilan di 90 hari: “Nanti kita lihat bareng, yang penting cepat.”"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Readiness",
+         "id": "Kesiapan"
+        },
+        "short": {
+         "en": "Readiness",
+         "id": "Kesiapan"
+        },
+        "guide": {
+         "en": "Lesson 7.1. Is Nadia ready to move, and is now the time? Use her capital notes (which items travel?), her curve, and her reasons — separate push from pull and good from weak, and name any bias you suspect. Then write the ledger of moving in four weeks versus in about two months versus in twelve months: money (bond, bonus), story, relationships, window, life.",
+         "id": "Pelajaran 7.1. Apakah Nadia siap pindah, dan apakah sekarang waktunya? Pakai catatan modalnya (butir mana yang bisa dibawa?), kurvanya, dan alasan-alasannya — pisahkan dorongan dari tarikan dan yang baik dari yang lemah, dan sebut bias yang kamu curigai. Lalu tulis neraca pindah empat minggu lagi versus sekitar dua bulan lagi versus dua belas bulan lagi: uang (ikatan dinas, bonus), cerita, hubungan, jendela, hidup."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 90,
+          "rows": 11,
+          "title": {
+           "en": "Capital, curve, reasons and the ledger",
+           "id": "Modal, kurva, alasan, dan neraca"
+          },
+          "help": {
+           "en": "Her story is complete now — the restructuring results are in. Starting in four weeks would fall inside the bond; starting after five weeks would not. The bonus is four months away. Her father’s treatment is a real pull toward money and toward Tegal at the same time.",
+           "id": "Ceritanya kini utuh — hasil restrukturisasi sudah keluar. Mulai empat minggu lagi masih di dalam masa ikatan dinas; mulai setelah lima minggu tidak. Bonus empat bulan lagi. Pengobatan ayahnya adalah tarikan nyata ke arah uang dan ke arah Tegal sekaligus."
+          },
+          "placeholder": {
+           "en": "Capital that travels: … · local only: …\nCurve: … because …\nPush: … (good/weak) · Pull: … (good/weak) · bias I suspect: …\nLedger — 4 weeks: … · ~2 months: … · 12 months: …",
+           "id": "Modal yang bisa dibawa: … · hanya lokal: …\nKurva: … karena …\nDorongan: … (baik/lemah) · Tarikan: … (baik/lemah) · bias yang kucurigai: …\nNeraca — 4 minggu: … · ~2 bulan: … · 12 bulan: …"
+          },
+          "keywords": [
+           [
+            "capital",
+            "modal"
+           ],
+           [
+            "curve",
+            "kurva",
+            "top",
+            "puncak",
+            "flat",
+            "datar"
+           ],
+           [
+            "push",
+            "dorong"
+           ],
+           [
+            "pull",
+            "tarik"
+           ],
+           [
+            "bond",
+            "ikatan"
+           ],
+           [
+            "bonus"
+           ],
+           [
+            "story",
+            "cerita",
+            "restructur",
+            "restrukturisasi"
+           ],
+           [
+            "father",
+            "ayah",
+            "tegal",
+            "family",
+            "keluarga"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Evaluate the options",
+         "id": "Evaluasi pilihan"
+        },
+        "short": {
+         "en": "Options",
+         "id": "Pilihan"
+        },
+        "guide": {
+         "en": "Lesson 7.2. Set Nadia’s gates and three to five weighted criteria first, from what she values. Then run the four lenses — role, manager, organisation, team — for A (stay), B (inside) and C (outside), with the evidence from the file. Score each option with one-line reasons, compare total compensation rather than base, and state your recommendation and the reality tests still needed.",
+         "id": "Pelajaran 7.2. Tetapkan dulu gerbang Nadia dan tiga sampai lima kriteria berbobot, dari hal-hal yang ia hargai. Lalu jalankan empat lensa — peran, manajer, organisasi, tim — untuk A (bertahan), B (di dalam), dan C (ke luar), dengan bukti dari berkas. Nilai tiap pilihan dengan alasan satu baris, bandingkan total kompensasi alih-alih gaji pokok, dan nyatakan rekomendasimu serta uji kenyataan yang masih diperlukan."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 130,
+          "rows": 15,
+          "title": {
+           "en": "Gates, weights, four lenses, scores and a recommendation",
+           "id": "Gerbang, bobot, empat lensa, nilai, dan rekomendasi"
+          },
+          "help": {
+           "en": "“Why is this seat empty?” has two very different answers for B and C. “Nanti kita lihat bareng” is the first-90-days test failing. The +38% is on base only; the bank pays allowances and THR, and B adds a Jakarta allowance. A depends on one uncertain slot.",
+           "id": "“Mengapa kursi ini kosong?” punya dua jawaban yang sangat berbeda untuk B dan C. “Nanti kita lihat bareng” adalah uji 90 hari pertama yang gagal. +38% hanya pada gaji pokok; bank membayar tunjangan dan THR, dan B menambah tunjangan Jakarta. A bergantung pada satu slot yang belum pasti."
+          },
+          "placeholder": {
+           "en": "Gates: … · Weights: … (…%) · … (…%) · … (…%)\nA stay — role … manager … org … team … → score …\nB inside — role … manager … org … team … → score …\nC outside — role … manager … org … team … → score …\nTotal compensation: …\nRecommendation: … because … · Reality tests: …",
+           "id": "Gerbang: … · Bobot: … (…%) · … (…%) · … (…%)\nA bertahan — peran … manajer … org … tim … → nilai …\nB di dalam — peran … manajer … org … tim … → nilai …\nC ke luar — peran … manajer … org … tim … → nilai …\nTotal kompensasi: …\nRekomendasi: … karena … · Uji kenyataan: …"
+          },
+          "keywords": [
+           [
+            "gate",
+            "gerbang"
+           ],
+           [
+            "weight",
+            "bobot"
+           ],
+           [
+            "indah"
+           ],
+           [
+            "coo"
+           ],
+           [
+            "seat",
+            "kursi",
+            "twice",
+            "dua kali"
+           ],
+           [
+            "growth",
+            "tumbuh",
+            "bertumbuh",
+            "new role",
+            "peran baru"
+           ],
+           [
+            "total",
+            "allowance",
+            "tunjangan",
+            "thr"
+           ],
+           [
+            "recommend",
+            "rekomendasi"
+           ],
+           [
+            "90"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The internal route",
+         "id": "Jalur internal"
+        },
+        "short": {
+         "en": "Inside",
+         "id": "Di dalam"
+        },
+        "guide": {
+         "en": "Lesson 7.3. Check Nadia’s eligibility against the posting policy. Then write her conversation with Bu Sinta in four parts — appreciation, direction, responsibility, request — including a concrete handover (Sekar, the portfolio, the new analysts). Write her response if Bu Sinta says “jangan dulu, tunggu posisi pemimpin portofolio”. Finally, list what she must agree in writing if she is selected.",
+         "id": "Pelajaran 7.3. Periksa kelayakan Nadia terhadap kebijakan lowongan. Lalu tulis percakapannya dengan Bu Sinta dalam empat bagian — penghargaan, arah, tanggung jawab, permintaan — termasuk serah terima yang konkret (Sekar, portofolio, analis baru). Tulis responsnya jika Bu Sinta berkata “jangan dulu, tunggu posisi pemimpin portofolio”. Terakhir, daftar hal yang harus ia sepakati tertulis jika terpilih."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Eligibility, the four-part conversation, “jangan dulu”, and landing",
+           "id": "Kelayakan, percakapan empat bagian, “jangan dulu”, dan pendaratan"
+          },
+          "help": {
+           "en": "The policy requires Bu Sinta to be told before the application. The portfolio-lead role is uncertain and nine months away — honour Bu Sinta’s offer without treating it as a promise. Internal moves do not trigger the bond.",
+           "id": "Kebijakan mewajibkan Bu Sinta diberi tahu sebelum lamaran. Peran pemimpin portofolio belum pasti dan sembilan bulan lagi — hargai tawaran Bu Sinta tanpa menganggapnya janji. Perpindahan internal tidak memicu ikatan dinas."
+          },
+          "placeholder": {
+           "en": "Eligibility: … · Before applying: …\nAppreciation: “…” · Direction: “…” · Responsibility: handover … · Request: “…”\nIf “jangan dulu”: “…”\nIn writing if selected: level … pay/allowances … release date … handover …",
+           "id": "Kelayakan: … · Sebelum melamar: …\nPenghargaan: “…” · Arah: “…” · Tanggung jawab: serah terima … · Permintaan: “…”\nJika “jangan dulu”: “…”\nTertulis jika terpilih: level … gaji/tunjangan … tanggal pelepasan … serah terima …"
+          },
+          "keywords": [
+           [
+            "18",
+            "26"
+           ],
+           [
+            "memenuhi",
+            "rating",
+            "peringkat"
+           ],
+           [
+            "inform",
+            "beri tahu",
+            "before",
+            "sebelum"
+           ],
+           [
+            "sinta"
+           ],
+           [
+            "sekar",
+            "handover",
+            "serah terima"
+           ],
+           [
+            "portfolio",
+            "portofolio"
+           ],
+           [
+            "release",
+            "pelepasan",
+            "6 weeks",
+            "6 minggu"
+           ],
+           [
+            "allowance",
+            "tunjangan",
+            "relocation",
+            "relokasi"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Contract and transition",
+         "id": "Kontrak dan peralihan"
+        },
+        "short": {
+         "en": "Transition",
+         "id": "Peralihan"
+        },
+        "guide": {
+         "en": "Lesson 7.4. Suppose Nadia still wants to consider the fintech. List every issue in its offer letter and draft contract, and the question or change she should request for each. Then write the correct sequence for an external move from today: what must be true before she resigns, the earliest sensible last day given the notice rule and the bond, how she tells Bu Sinta, what she says to a counter-offer, and the handover.",
+         "id": "Pelajaran 7.4. Misalkan Nadia masih ingin mempertimbangkan fintech itu. Daftar setiap masalah di surat tawaran dan draf kontraknya, serta pertanyaan atau perubahan yang sebaiknya ia minta untuk masing-masing. Lalu tulis urutan yang benar untuk perpindahan ke luar mulai hari ini: apa yang harus benar sebelum ia mengundurkan diri, hari terakhir paling masuk akal mengingat aturan pemberitahuan dan ikatan dinas, cara ia memberi tahu Bu Sinta, apa yang ia katakan pada tawaran balik, dan serah terimanya."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Contract issues, the sequence, and the last month",
+           "id": "Masalah kontrak, urutannya, dan bulan terakhir"
+          },
+          "help": {
+           "en": "Probation is generally associated with permanent contracts in Indonesian law — a PKWT with probation is a question to raise (verify). “Subject to board approval” is not a final offer. A 12-month ban on working for any lender is very broad. Four weeks is inside both the notice period and the bond.",
+           "id": "Masa percobaan umumnya dikaitkan dengan kontrak tetap dalam hukum Indonesia — PKWT dengan masa percobaan adalah pertanyaan yang perlu diangkat (verifikasi). “Menunggu persetujuan direksi” bukan tawaran final. Larangan 12 bulan bekerja untuk pemberi pinjaman mana pun sangat luas. Empat minggu berada di dalam masa pemberitahuan sekaligus masa ikatan dinas."
+          },
+          "placeholder": {
+           "en": "Issues: 1 … → ask … · 2 … → ask … · 3 … → ask … · 4 … → ask …\nBefore resigning: …\nEarliest sensible last day: … because …\nTelling Bu Sinta: “…” · Counter-offer: “…” · Handover: …",
+           "id": "Masalah: 1 … → tanyakan … · 2 … → tanyakan … · 3 … → tanyakan … · 4 … → tanyakan …\nSebelum mengundurkan diri: …\nHari terakhir paling masuk akal: … karena …\nMemberi tahu Bu Sinta: “…” · Tawaran balik: “…” · Serah terima: …"
+          },
+          "keywords": [
+           [
+            "pkwt"
+           ],
+           [
+            "probation",
+            "percobaan"
+           ],
+           [
+            "non-compete",
+            "larangan bersaing",
+            "bersaing"
+           ],
+           [
+            "approval",
+            "persetujuan",
+            "final"
+           ],
+           [
+            "30"
+           ],
+           [
+            "bond",
+            "ikatan"
+           ],
+           [
+            "sign",
+            "tanda tangan"
+           ],
+           [
+            "counter",
+            "tawaran balik"
+           ],
+           [
+            "handover",
+            "serah terima"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your Career Move Evaluation Framework",
+         "id": "Kerangka Evaluasi Langkah Kariermu"
+        },
+        "short": {
+         "en": "Your framework",
+         "id": "Kerangkamu"
+        },
+        "guide": {
+         "en": "The Kit item. Part A — Readiness and opportunity: your capital inventory with what travels and what is not yet built; your position on the curve; your reasons; the now-versus-twelve-months ledger; then one specific next role (inside or outside) evaluated through the four lenses, with your gates, weights and scores against staying. Part B — Transition plan: if you made this move in the next six months, the sequence — policy or contract checks, the conversation with your manager, notice and bond dates, counter-offer response, handover, and how you will leave and land well.",
+         "id": "Butir Kit. Bagian A — Kesiapan dan peluang: inventaris modalmu dengan yang bisa dibawa dan yang belum dibangun; posisimu di kurva; alasan-alasanmu; neraca sekarang-versus-dua-belas-bulan; lalu satu peran berikutnya yang spesifik (di dalam atau ke luar) dievaluasi melalui empat lensa, dengan gerbang, bobot, dan nilai dibanding bertahan. Bagian B — Rencana peralihan: jika kamu melakukan perpindahan ini dalam enam bulan ke depan, urutannya — pemeriksaan kebijakan atau kontrak, percakapan dengan manajermu, tanggal pemberitahuan dan ikatan dinas, respons terhadap tawaran balik, serah terima, dan cara kamu pergi serta mendarat dengan baik."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 130,
+          "rows": 15,
+          "title": {
+           "en": "Part A — readiness and opportunity evaluation",
+           "id": "Bagian A — kesiapan dan evaluasi peluang"
+          },
+          "help": {
+           "en": "If you are not considering a move, evaluate the best inside option against staying anyway; the framework is most useful before you need it.",
+           "id": "Jika kamu tidak sedang mempertimbangkan pindah, tetap evaluasi pilihan terbaik di dalam dibanding bertahan; kerangka ini paling berguna sebelum kamu membutuhkannya."
+          },
+          "placeholder": {
+           "en": "Capital: … (travels: …) · not yet built: …\nCurve: … · Reasons: push … pull … · Ledger: now … / 12 months …\nOption: … · Role … · Manager … · Organisation … · Team …\nGates: … · Weights: … · Scores — stay … option …",
+           "id": "Modal: … (bisa dibawa: …) · belum dibangun: …\nKurva: … · Alasan: dorongan … tarikan … · Neraca: sekarang … / 12 bulan …\nPilihan: … · Peran … · Manajer … · Organisasi … · Tim …\nGerbang: … · Bobot: … · Nilai — bertahan … pilihan …"
+          },
+          "keywords": [
+           [
+            "capital",
+            "modal"
+           ],
+           [
+            "curve",
+            "kurva"
+           ],
+           [
+            "ledger",
+            "neraca",
+            "12"
+           ],
+           [
+            "role",
+            "peran"
+           ],
+           [
+            "manager",
+            "manajer"
+           ],
+           [
+            "organi",
+            "organisasi"
+           ],
+           [
+            "team",
+            "tim"
+           ],
+           [
+            "gate",
+            "gerbang",
+            "weight",
+            "bobot"
+           ],
+           [
+            "stay",
+            "bertahan"
+           ]
+          ]
+         },
+         {
+          "id": "q6",
+          "min": 90,
+          "rows": 12,
+          "title": {
+           "en": "Part B — transition plan",
+           "id": "Bagian B — rencana peralihan"
+          },
+          "help": {
+           "en": "Use real dates: your notice period, any bond, bonus dates. Write the first two sentences you would say to your manager.",
+           "id": "Pakai tanggal nyata: masa pemberitahuanmu, ikatan dinas, tanggal bonus. Tulis dua kalimat pertama yang akan kamu katakan kepada manajermu."
+          },
+          "placeholder": {
+           "en": "Checks: policy/contract … notice … days · bond … · bonus …\nManager: “…” (date …)\nCounter-offer: “…”\nHandover: … · Leaving well: … · Landing (first 90 days): …",
+           "id": "Pemeriksaan: kebijakan/kontrak … pemberitahuan … hari · ikatan dinas … · bonus …\nManajer: “…” (tanggal …)\nTawaran balik: “…”\nSerah terima: … · Pergi dengan baik: … · Mendarat (90 hari pertama): …"
+          },
+          "keywords": [
+           [
+            "notice",
+            "pemberitahuan"
+           ],
+           [
+            "bond",
+            "ikatan",
+            "bonus"
+           ],
+           [
+            "manager",
+            "manajer",
+            "atasan"
+           ],
+           [
+            "counter",
+            "tawaran balik"
+           ],
+           [
+            "handover",
+            "serah terima"
+           ],
+           [
+            "90"
+           ],
+           [
+            "date",
+            "tanggal"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Readiness — portable and local capital separated; curve located; push/pull and a bias named; a dated ledger including bond and bonus",
+         "id": "Kesiapan — modal yang bisa dibawa dan lokal dipisahkan; kurva ditentukan; dorongan/tarikan dan satu bias disebut; neraca bertanggal termasuk ikatan dinas dan bonus"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Evaluation — gates and weights set first; four lenses for all three options with evidence; total compensation; a recommendation that follows from the scores",
+         "id": "Evaluasi — gerbang dan bobot ditetapkan dulu; empat lensa untuk ketiga pilihan dengan bukti; total kompensasi; rekomendasi yang mengikuti nilainya"
+        },
+        "w": "25%"
+       },
+       {
+        "h": {
+         "en": "Internal route — eligibility checked; manager told before applying; four parts with a real handover; “jangan dulu” handled; landing terms listed",
+         "id": "Jalur internal — kelayakan diperiksa; manajer diberi tahu sebelum melamar; empat bagian dengan serah terima nyata; “jangan dulu” ditangani; syarat pendaratan didaftar"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Transition — contract issues spotted (probation in a PKWT, conditional offer, broad non-compete, start date vs notice and bond); correct sequence; counter-offer and handover",
+         "id": "Peralihan — masalah kontrak dikenali (masa percobaan di PKWT, tawaran bersyarat, larangan bersaing yang luas, tanggal mulai vs pemberitahuan dan ikatan dinas); urutan yang benar; tawaran balik dan serah terima"
+        },
+        "w": "15%"
+       },
+       {
+        "h": {
+         "en": "Your Career Move Evaluation Framework — Parts A and B complete, with evidence, dates and a staying benchmark",
+         "id": "Kerangka Evaluasi Langkah Kariermu — Bagian A dan B lengkap, dengan bukti, tanggal, dan patokan bertahan"
+        },
+        "w": "25%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model notes — Nadia’s second move",
+        "id": "Catatan model — langkah kedua Nadia"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "Readiness",
+          "id": "Kesiapan"
+         }
+        },
+        {
+         "en": "Capital that travels: SME credit judgement, SQL reporting, the taskforce finding adopted in model v2, the document-check rollout, and a reputation that already reaches Pak Arya’s unit. Local only: her standing with Bu Sinta and the branch network. Curve: at the top — “I teach more than I learn”; the taskforce proved a steeper curve exists. Reasons: a good push (flat curve) and a good pull (digital credit capability); a real life factor (her father’s treatment) that pulls both toward money and toward Tegal. Bias to suspect: the grass-is-greener effect around the +38%, and status quo bias around “the bank that trained me”. Ledger: moving in four weeks falls inside the bond (pro-rata repayment) and inside the 30-day notice, forfeits the March bonus, and is forced by someone else’s deadline; moving in about two months clears the bond but still forfeits the bonus; moving in twelve months keeps both but leaves her on a flat curve with one uncertain slot. Her story is now complete — the restructuring results are in — so the “story” line no longer argues for waiting.",
+         "id": "Modal yang bisa dibawa: penilaian kredit UMKM, pelaporan SQL, temuan satgas yang diadopsi di model v2, peluncuran cek dokumen, dan reputasi yang sudah sampai ke unit Pak Arya. Hanya lokal: kedudukannya di mata Bu Sinta dan jaringan cabang. Kurva: di puncak — “aku lebih banyak mengajar daripada belajar”; satgas membuktikan ada kurva yang lebih curam. Alasan: dorongan yang baik (kurva datar) dan tarikan yang baik (kapabilitas kredit digital); faktor hidup yang nyata (pengobatan ayahnya) yang menarik ke arah uang sekaligus ke arah Tegal. Bias yang dicurigai: efek rumput tetangga di sekitar +38%, dan bias status quo di sekitar “bank yang melatihku”. Neraca: pindah empat minggu lagi jatuh di dalam masa ikatan dinas (pembayaran kembali proporsional) dan di dalam pemberitahuan 30 hari, menghanguskan bonus Maret, dan dipaksa oleh tenggat orang lain; pindah sekitar dua bulan lagi melewati ikatan dinas tetapi tetap menghanguskan bonus; pindah dua belas bulan lagi mempertahankan keduanya tetapi membuatnya tetap di kurva datar dengan satu slot yang belum pasti. Ceritanya kini utuh — hasil restrukturisasi sudah keluar — jadi baris “cerita” tak lagi mendukung menunggu."
+        },
+        {
+         "h": {
+          "en": "The options",
+          "id": "Pilihannya"
+         }
+        },
+        {
+         "en": "Gates: within a day’s travel of Tegal (all three pass — Jakarta is about 4.5 hours by train); no role that requires breaching her red lines. Weights, set first: learning digital credit capability 30%, next door in her trajectory 25%, manager and team 20%, total compensation 15%, family proximity 10%. A (stay): role builds people leadership but not the capability she wants; manager known and supportive; one uncertain slot, with a possible rival — about 3.2. B (inside): role is the core of her target capability, in a growing unit (the seat exists because of growth); Bu Indah’s record is strong on two independent sources; lateral pay but a Jakarta allowance, relocation support, THR and the bonus schedule continue, and no bond repayment — about 4.2. C (outside): a “Lead” title with one junior, reporting to a COO who overrides credit decisions; the seat emptied twice in 18 months; “nanti kita lihat bareng” fails the first-90-days test; +38% on base but fewer allowances, a discretionary bonus and no stated THR, so the real gap is smaller; licence to verify — about 2.9. Recommendation: B, with C declined politely and the recruiter relationship kept; A remains the fallback if B is not offered. Reality tests before applying: a call with Bu Indah on what success looks like at 90 days, and a conversation with one current analyst in the unit about hours around launches. A different recommendation can earn full marks if it follows from stated weights and evidence.",
+         "id": "Gerbang: dalam jarak sehari perjalanan dari Tegal (ketiganya lolos — Jakarta sekitar 4,5 jam naik kereta); tak ada peran yang mengharuskan melanggar garis merahnya. Bobot, ditetapkan lebih dulu: mempelajari kapabilitas kredit digital 30%, pintu berikutnya dalam lintasan 25%, manajer dan tim 20%, total kompensasi 15%, kedekatan keluarga 10%. A (bertahan): perannya membangun kepemimpinan tetapi bukan kapabilitas yang ia inginkan; manajer dikenal dan mendukung; satu slot yang belum pasti, dengan kemungkinan pesaing — sekitar 3,2. B (di dalam): perannya adalah inti kapabilitas sasarannya, di unit yang bertumbuh (kursinya ada karena pertumbuhan); rekam jejak Bu Indah kuat dari dua sumber terpisah; gaji setara tetapi ada tunjangan Jakarta, bantuan relokasi, THR dan jadwal bonus tetap berjalan, dan tanpa pembayaran kembali ikatan dinas — sekitar 4,2. C (ke luar): jabatan “Lead” dengan satu junior, melapor kepada COO yang membatalkan keputusan kredit; kursinya kosong dua kali dalam 18 bulan; “nanti kita lihat bareng” gagal di uji 90 hari pertama; +38% pada gaji pokok tetapi tunjangan lebih sedikit, bonus diskresioner, dan THR tidak disebut, sehingga selisih nyatanya lebih kecil; izin perlu diverifikasi — sekitar 2,9. Rekomendasi: B, dengan C ditolak dengan sopan dan hubungan dengan rekruter dijaga; A tetap menjadi cadangan jika B tidak ditawarkan. Uji kenyataan sebelum melamar: telepon dengan Bu Indah tentang seperti apa keberhasilan di 90 hari, dan percakapan dengan satu analis di unit itu tentang jam kerja menjelang peluncuran. Rekomendasi berbeda bisa mendapat nilai penuh jika mengikuti bobot dan bukti yang dinyatakan."
+        },
+        {
+         "h": {
+          "en": "The internal route",
+          "id": "Jalur internal"
+         }
+        },
+        {
+         "en": "Eligible: 26 months in role (18 required); rating above “memenuhi”. The policy requires Bu Sinta to be told before the application — this week, not after. “Bu, terima kasih — dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” If “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” In writing if selected: grade (lateral), pay and the Jakarta allowance, relocation support, the release date within six weeks, and the handover list.",
+         "id": "Layak: 26 bulan di peran (18 disyaratkan); peringkat di atas “memenuhi”. Kebijakan mewajibkan Bu Sinta diberi tahu sebelum lamaran — minggu ini, bukan sesudahnya. “Bu, terima kasih — dua tahun ini Ibu memberi saya portofolio, satgas, dan kepercayaan. Saya ingin membangun kemampuan di desain produk kredit, dan posisi di unit Bu Indah membangun itu. Saya sudah siapkan serah terima: laporan portofolio ke Sekar dengan pendampingan saya selama empat minggu, dua debitur pengawasan khusus ke analis senior yang Ibu tunjuk, dan panduan untuk analis baru. Saya ingin minta pendapat Ibu, dan kalau berkenan, dukungannya.” Jika “jangan dulu, tunggu pemimpin portofolio”: “Terima kasih, Bu, saya sangat menghargai itu. Kalau posisinya belum pasti dan baru sembilan bulan lagi, apakah Ibu keberatan saya mencoba jalur ini sekarang? Kalau saya tidak terpilih, saya dengan senang hati tetap di sini dan menyiapkan diri untuk posisi itu.” Tertulis jika terpilih: golongan (setara), gaji dan tunjangan Jakarta, bantuan relokasi, tanggal pelepasan dalam enam minggu, dan daftar serah terima."
+        },
+        {
+         "h": {
+          "en": "Contract and transition",
+          "id": "Kontrak dan peralihan"
+         }
+        },
+        {
+         "en": "Issues in the fintech offer: (1) “subject to final approval by the board” — not a final offer; ask for the date and do not resign before it is confirmed in writing; (2) probation in a fixed-term PKWT — generally associated only with permanent contracts in Indonesian law; ask for it to be removed or the contract type clarified (verify); (3) a 12-month ban on working for any bank or lender in Indonesia — very broad; ask for it to be narrowed to direct competitors and a shorter period, or understand its enforceability is debated before signing; (4) a start in four weeks — inside the 30-day notice and the bond; propose a start about six weeks out, after the bond ends; (5) total compensation — ask for allowances, THR and bonus basis in writing. Sequence if she went outside: written final offer and signed contract; notice given in person to Bu Sinta first, with the letter and a handover plan; last day after the bond date and at least 30 days after notice; counter-offer declined with thanks — “keputusan saya soal kapabilitas, bukan gaji”; written handover, time with Sekar, data left behind, thanks to Mbak Rara, Pak Bambang and the branch officers; the first-90-days plan started the week she signs.",
+         "id": "Masalah di tawaran fintech: (1) “menunggu persetujuan akhir direksi” — bukan tawaran final; tanyakan tanggalnya dan jangan mengundurkan diri sebelum dikonfirmasi tertulis; (2) masa percobaan dalam PKWT — dalam hukum Indonesia umumnya hanya dikaitkan dengan kontrak tetap; minta agar dihapus atau jenis kontraknya diperjelas (verifikasi); (3) larangan 12 bulan bekerja untuk bank atau pemberi pinjaman mana pun di Indonesia — sangat luas; minta dipersempit ke pesaing langsung dan periode lebih pendek, atau pahami bahwa keberlakuannya diperdebatkan sebelum menandatangani; (4) mulai empat minggu lagi — di dalam pemberitahuan 30 hari dan ikatan dinas; usulkan mulai sekitar enam minggu lagi, setelah ikatan dinas berakhir; (5) total kompensasi — minta tunjangan, THR, dan dasar bonus secara tertulis. Urutan jika ia pindah ke luar: tawaran final tertulis dan kontrak yang ditandatangani; pemberitahuan disampaikan langsung kepada Bu Sinta lebih dulu, dengan surat dan rencana serah terima; hari terakhir setelah tanggal ikatan dinas dan paling cepat 30 hari setelah pemberitahuan; tawaran balik ditolak dengan terima kasih — “keputusan saya soal kapabilitas, bukan gaji”; serah terima tertulis, waktu bersama Sekar, data ditinggalkan, terima kasih kepada Mbak Rara, Pak Bambang, dan petugas cabang; rencana 90 hari pertama dimulai di minggu ia menandatangani."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your plan accepts the fintech by Friday because of the deadline, check your ledger: someone else’s deadline set your timing, inside a bond. If your evaluation compares only base salaries, redo the compensation line. If you applied internally before telling Bu Sinta, re-read the policy — and Lesson 7.3.",
+        "id": "Bandingkan, jangan menyalin. Jika rencanamu menerima fintech itu paling lambat Jumat karena tenggatnya, periksa neracamu: tenggat orang lain menentukan waktumu, di dalam masa ikatan dinas. Jika evaluasimu hanya membandingkan gaji pokok, ulangi baris kompensasinya. Jika kamu melamar secara internal sebelum memberi tahu Bu Sinta, baca ulang kebijakannya — dan Pelajaran 7.3."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your six answers as Nadia’s board would — and as Bu Sinta would if she read your conversation plan. Submitting locks them on this device, opens the model notes, and saves your Career Move Evaluation Framework as the seventh Career Kit item.",
+        "id": "Baca keenam jawabanmu seperti dewan Nadia membacanya — dan seperti Bu Sinta jika ia membaca rencana percakapanmu. Mengumpulkan akan mengunci jawabanmu di perangkat ini, membuka catatan model, dan menyimpan Kerangka Evaluasi Langkah Kariermu sebagai butir Career Kit ketujuh."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model notes, take the Module 7 assessment, and put your notice, bond and bonus dates in your calendar — even if you are not moving.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan catatan model, kerjakan asesmen Modul 7, dan masukkan tanggal pemberitahuan, ikatan dinas, dan bonusmu ke kalender — meskipun kamu tidak sedang pindah."
+       }
+      }
+     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Resigning by message",
-         "id": "Mengundurkan diri lewat pesan"
+         "en": "Letting someone else’s deadline set your timing",
+         "id": "Membiarkan tenggat orang lain menentukan waktumu"
         },
         "fix": {
-         "en": "In person or on a call, manager first, then the letter. The order is remembered longer than the reason.",
-         "id": "Secara langsung atau lewat panggilan, manajer dulu, baru surat. Urutannya diingat lebih lama daripada alasannya."
+         "en": "Write the ledger; propose a date that fits your notice and bond.",
+         "id": "Tulis neracanya; usulkan tanggal yang sesuai pemberitahuan dan ikatan dinasmu."
         }
        },
        {
         "h": {
-         "en": "Coasting through the notice period",
-         "id": "Bersantai selama masa pemberitahuan"
+         "en": "Comparing base salaries",
+         "id": "Membandingkan gaji pokok"
         },
         "fix": {
-         "en": "It is the last thing people see. Finish, document, hand over, and thank people by name.",
-         "id": "Itu hal terakhir yang dilihat orang. Selesaikan, dokumentasikan, serahkan, dan ucapkan terima kasih dengan menyebut nama."
+         "en": "Total compensation: allowances, THR, bonus basis, benefits.",
+         "id": "Total kompensasi: tunjangan, THR, dasar bonus, manfaat."
         }
        },
        {
         "h": {
-         "en": "Accepting the counter-offer for the money",
-         "id": "Menerima tawaran balasan demi uang"
+         "en": "Applying inside before telling your manager",
+         "id": "Melamar di dalam sebelum memberi tahu manajer"
         },
         "fix": {
-         "en": "The reasons you looked are still there. Accept a counter only if it fixes the capital problem, not the salary one.",
-         "id": "Alasan kamu mencari masih ada. Terima tawaran balasan hanya jika memperbaiki masalah modal, bukan masalah gaji."
+         "en": "Policy and trust both say: manager first.",
+         "id": "Kebijakan dan kepercayaan sama-sama berkata: manajer dulu."
+        }
+       },
+       {
+        "h": {
+         "en": "Signing without reading",
+         "id": "Menandatangani tanpa membaca"
+        },
+        "fix": {
+         "en": "Contract type, probation, non-compete, start date, conditions.",
+         "id": "Jenis kontrak, masa percobaan, larangan bersaing, tanggal mulai, syarat."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Career Move Evaluation Framework",
+        "id": "Kerangka Evaluasi Langkah Karier"
+       },
+       "def": {
+        "en": "The Module 7 Career Kit item: readiness, a four-lens opportunity evaluation against staying, and a transition plan.",
+        "id": "Butir Career Kit Modul 7: kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan."
+       }
+      },
+      {
+       "term": {
+        "en": "Conditional offer",
+        "id": "Tawaran bersyarat"
+       },
+       "def": {
+        "en": "An offer that still depends on an approval or check — not one to resign on.",
+        "id": "Tawaran yang masih bergantung pada persetujuan atau pemeriksaan — bukan dasar untuk mengundurkan diri."
+       }
+      },
+      {
+       "term": {
+        "en": "Staying benchmark",
+        "id": "Patokan bertahan"
+       },
+       "def": {
+        "en": "The score of your current role on your own criteria, which any move must beat on evidence.",
+        "id": "Nilai peranmu sekarang pada kriteriamu sendiri, yang harus dikalahkan perpindahan apa pun dengan bukti."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "The fintech offer is “subject to final approval by the board”. Nadia should…",
+        "id": "Tawaran fintech “menunggu persetujuan akhir direksi”. Nadia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Resign now to be ready",
+         "id": "Mengundurkan diri sekarang agar siap"
+        },
+        {
+         "en": "Ask for the approval date and not resign until the final offer and contract are signed",
+         "id": "Menanyakan tanggal persetujuannya dan tidak mengundurkan diri sampai tawaran final dan kontrak ditandatangani"
+        },
+        {
+         "en": "Accept verbally and tell her team",
+         "id": "Menerima secara lisan dan memberi tahu timnya"
+        },
+        {
+         "en": "Ignore the condition",
+         "id": "Mengabaikan syaratnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Sign, then resign.",
+        "id": "Tanda tangan, lalu mundur."
+       }
+      },
+      {
+       "q": {
+        "en": "Why does the “why is this seat empty?” question favour the internal role here?",
+        "id": "Mengapa pertanyaan “mengapa kursi ini kosong?” menguntungkan peran internal di sini?"
+       },
+       "options": [
+        {
+         "en": "Internal roles are always better",
+         "id": "Peran internal selalu lebih baik"
+        },
+        {
+         "en": "The internal seat exists because the unit is growing; the fintech seat emptied twice in 18 months",
+         "id": "Kursi internal ada karena unitnya bertumbuh; kursi fintech kosong dua kali dalam 18 bulan"
+        },
+        {
+         "en": "The fintech is smaller",
+         "id": "Fintech-nya lebih kecil"
+        },
+        {
+         "en": "Jakarta is farther",
+         "id": "Jakarta lebih jauh"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Growth is usually a good answer; repeated departures are a warning.",
+        "id": "Pertumbuhan biasanya jawaban yang baik; kepergian berulang adalah peringatan."
+       }
+      },
+      {
+       "q": {
+        "en": "Under the bank’s policy, when must Bu Sinta hear about Nadia’s internal application?",
+        "id": "Menurut kebijakan bank, kapan Bu Sinta harus mendengar tentang lamaran internal Nadia?"
+       },
+       "options": [
+        {
+         "en": "After the offer",
+         "id": "Setelah tawaran"
+        },
+        {
+         "en": "Before the application is submitted",
+         "id": "Sebelum lamaran dikirim"
+        },
+        {
+         "en": "Only if Nadia is selected",
+         "id": "Hanya jika Nadia terpilih"
+        },
+        {
+         "en": "From HR",
+         "id": "Dari HR"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The policy and the relationship agree: manager first.",
+        "id": "Kebijakan dan hubungan sepakat: manajer dulu."
+       }
+      }
+     ],
+     "tool": {
+      "id": "plan",
+      "mode": "plan",
+      "title": {
+       "en": "Put the dates that govern your move in your plan",
+       "id": "Masukkan tanggal-tanggal yang mengatur perpindahanmu ke rencana"
+      },
+      "body": {
+       "en": "Open the 90-day plan and add your notice period, any bond end date, your bonus date, and the date of your next conversation with your manager about direction — whether or not you are moving.",
+       "id": "Buka rencana 90 hari dan tambahkan masa pemberitahuan, tanggal berakhirnya ikatan dinas, tanggal bonus, dan tanggal percakapan berikutnya dengan manajermu tentang arah — entah kamu pindah atau tidak."
+      },
+      "cta": {
+       "en": "Open the 90-day plan",
+       "id": "Buka rencana 90 hari"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Decide on readiness, not on a deadline: capital that travels, a flat curve, good reasons and a dated ledger.",
+       "id": "Putuskan berdasarkan kesiapan, bukan tenggat: modal yang bisa dibawa, kurva datar, alasan yang baik, dan neraca bertanggal."
+      },
+      {
+       "en": "Score every option — including staying — through four lenses, with gates and weights set before the number.",
+       "id": "Nilai setiap pilihan — termasuk bertahan — melalui empat lensa, dengan gerbang dan bobot yang ditetapkan sebelum angka."
+      },
+      {
+       "en": "Inside or out, the manager hears first, the contract is read in full, and you sign before you resign.",
+       "id": "Di dalam atau ke luar, manajer mendengar lebih dulu, kontrak dibaca sampai habis, dan kamu tanda tangan sebelum mundur."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 6 · your circle",
-        "id": "Modul 6 · lingkaranmu"
+        "en": "Lessons 7.1–7.4",
+        "id": "Pelajaran 7.1–7.4"
        },
        "desc": {
-        "en": "People who will tell you the truth about the move.",
-        "id": "Orang-orang yang akan mengatakan kebenaran tentang perpindahan itu."
+        "en": "Career capital and timing, evaluating the next role, internal mobility, the external transition.",
+        "id": "Modal karier dan waktu, menilai peran berikutnya, mobilitas internal, peralihan ke luar."
        }
       },
       "now": {
        "label": {
-        "en": "Module 7 · the deliberate move",
-        "id": "Modul 7 · perpindahan yang disengaja"
+        "en": "7.5 · Nadia’s second move",
+        "id": "7.5 · Langkah kedua Nadia"
        },
        "desc": {
-        "en": "Timing read from capital, offers priced against the architecture, internal mobility first, a clean exit.",
-        "id": "Waktu dibaca dari modal, tawaran dinilai terhadap arsitektur, mobilitas internal dulu, keluar dengan bersih."
+        "en": "You have assessed readiness, evaluated three options on evidence, planned the internal route and the transition — and built your own framework.",
+        "id": "Kamu sudah menilai kesiapan, mengevaluasi tiga pilihan berdasarkan bukti, merencanakan jalur internal dan peralihannya — dan membangun kerangkamu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 8 · financial intelligence",
-        "id": "Modul 8 · kecerdasan finansial"
+        "en": "Module 8 · Early Career Financial Intelligence",
+        "id": "Modul 8 · Kecerdasan Finansial di Awal Karier"
        },
        "desc": {
-        "en": "Total compensation understood, a savings system that buys courage, investing foundations and the long horizon.",
-        "id": "Kompensasi total dipahami, sistem tabungan yang membeli keberanian, dasar investasi, dan horizon panjang."
+        "en": "Total compensation, a savings system that works on any income, investment foundations, and the long horizon — the options that make every career move freer.",
+        "id": "Total kompensasi, sistem tabungan yang bekerja di penghasilan berapa pun, dasar-dasar investasi, dan cakrawala panjang — pilihan yang membuat setiap langkah karier lebih bebas."
        },
        "lesson": "8.1"
       }
@@ -29216,7 +32770,11 @@ window.MT_LMS['the-route'] = {
     }
    ],
    "hero": "../../assets/m/06-horizon.jpg",
-   "heroPos": "center 40%"
+   "heroPos": "center 40%",
+   "kit": {
+    "en": "Career Move Evaluation Framework — readiness, four-lens opportunity evaluation against staying, and a transition plan",
+    "id": "Kerangka Evaluasi Langkah Karier — kesiapan, evaluasi peluang empat lensa dibanding bertahan, dan rencana peralihan"
+   }
   },
   {
    "num": 8,
