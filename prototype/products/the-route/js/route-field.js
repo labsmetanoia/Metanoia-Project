@@ -128,6 +128,36 @@
             { t: { en: 'Write a long message to the team explaining your communication style.', id: 'Tulis pesan panjang ke tim menjelaskan gaya komunikasimu.' },
               fb: { en: 'A style memo asks the team to adapt to you — the exact opposite of the signal. The burden of change sits with the person who received the feedback.', id: 'Memo gaya meminta tim beradaptasi kepadamu — kebalikan persis dari sinyalnya. Beban perubahan ada pada penerima umpan balik.' } }
           ] } ] },
+    { id: 'overload', mod: '2', title: { en: 'The week that does not fit', id: 'Minggu yang tak muat' },
+      brief: { en: 'Month-end in a credit unit, two colleagues on leave, and three memos already promised for Thursday.', id: 'Akhir bulan di unit kredit, dua rekan cuti, dan tiga memo sudah dijanjikan untuk Kamis.' },
+      rounds: [
+        { say: { en: 'Wednesday, 15.00. Your manager asks for an urgent memo by Thursday noon. Thursday is already full.', id: 'Rabu, 15.00. Manajermu meminta memo mendesak paling lambat Kamis siang. Kamis sudah penuh.' },
+          moves: [
+            { best: true, t: { en: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?”', id: '“Bisa, Pak. Supaya ini selesai Kamis siang, memo Toko Ananda saya geser ke Jumat pagi — atau Bapak lebih pilih yang ini Jumat?”' },
+              fb: { en: 'The trade-off from Lesson 2.4: willing, specific about what moves, and the owner of the priorities chooses with full information. Thirty seconds that protect quality and sleep.', id: 'Pertukaran dari Pelajaran 2.4: bersedia, spesifik soal apa yang bergeser, dan pemilik prioritas memilih dengan informasi lengkap. Tiga puluh detik yang melindungi kualitas dan tidur.' } },
+            { t: { en: '“Siap, Pak.” — and plan to finish all three tonight.', id: '“Siap, Pak.” — dan berencana menyelesaikan ketiganya malam ini.' },
+              fb: { en: 'The silent yes. It looks committed and usually produces the outcome that hurts most in credit work: an error in a memo written at 01.00. Your manager would rather have been asked.', id: 'Ya yang diam. Tampak berkomitmen dan biasanya menghasilkan akibat yang paling menyakitkan di pekerjaan kredit: kesalahan di memo yang ditulis pukul 01.00. Manajermu lebih suka ditanya.' } },
+            { t: { en: '“Maaf, Pak, saya sudah penuh sampai Jumat.”', id: '“Maaf, Pak, saya sudah penuh sampai Jumat.”' },
+              fb: { en: 'True, but it leaves your manager to solve the problem blind. Offer the choice instead of the refusal — the information is the same, the effect is opposite.', id: 'Benar, tetapi membiarkan manajermu memecahkan masalah tanpa melihat. Tawarkan pilihan, bukan penolakan — informasinya sama, efeknya berlawanan.' } }
+          ] },
+        { say: { en: '22.10. A message from your manager: “Nad, angka NPL cabang Kudus bulan lalu berapa ya?”', id: '22.10. Pesan dari manajermu: “Nad, angka NPL cabang Kudus bulan lalu berapa ya?”' },
+          moves: [
+            { best: true, t: { en: 'Reply briefly in the morning with the number — and at your next one-on-one ask once whether night messages need a night answer.', id: 'Balas singkat di pagi hari dengan angkanya — dan di one-on-one berikutnya tanyakan sekali apakah pesan malam perlu dijawab malam itu.' },
+              fb: { en: 'Most night messages are sent when the sender remembers, not when they need the answer. Asking once turns a guess into an agreed rule — and most managers say the morning is fine.', id: 'Sebagian besar pesan malam dikirim saat pengirim teringat, bukan saat ia butuh jawabannya. Bertanya sekali mengubah tebakan menjadi aturan yang disepakati — dan kebanyakan manajer bilang pagi cukup.' } },
+            { t: { en: 'Open the laptop, pull the report and answer within ten minutes.', id: 'Buka laptop, tarik laporannya, dan jawab dalam sepuluh menit.' },
+              fb: { en: 'Occasionally fine, but done every time it teaches everyone that your evenings are open — and your evening boundary disappears without anyone deciding it should.', id: 'Sesekali tak masalah, tetapi jika dilakukan setiap kali ia mengajari semua orang bahwa malammu terbuka — dan batas malammu hilang tanpa ada yang memutuskannya.' } },
+            { t: { en: 'Leave it unread until Monday.', id: 'Biarkan belum dibaca sampai Senin.' },
+              fb: { en: 'A boundary without an agreement can read as unresponsive. Reply in working hours, and agree the rule explicitly.', id: 'Batas tanpa kesepakatan bisa terbaca tidak responsif. Balas di jam kerja, dan sepakati aturannya secara eksplisit.' } }
+          ] },
+        { say: { en: 'Third week of the long month-end: Sunday dread, you snapped at a colleague, and you missed an obvious collateral mismatch.', id: 'Minggu ketiga akhir bulan yang panjang: cemas Minggu malam, kamu membentak rekan, dan melewatkan ketidakcocokan agunan yang jelas.' },
+          moves: [
+            { best: true, t: { en: 'Name it, bring your committed list with estimates to your manager on Monday, and ask what can move; restore your off-switch.', id: 'Namai, bawa daftar komitmen dengan perkiraan ke manajermu hari Senin, dan tanyakan apa yang bisa bergeser; pulihkan sakelarmu.' },
+              fb: { en: 'Three early signs across exhaustion, cynicism and efficacy. Name it, change one input, tell one person — with a list, the conversation is about load, not about you.', id: 'Tiga tanda awal di kelelahan, sinisme, dan efektivitas. Namai, ubah satu masukan, ceritakan ke satu orang — dengan daftar, percakapannya tentang beban, bukan tentang dirimu.' } },
+            { t: { en: 'Push through — it will end soon and complaining looks weak.', id: 'Paksakan — sebentar lagi selesai dan mengeluh tampak lemah.' },
+              fb: { en: 'The mistake already happened; the next one is more likely. Asking early is a professional skill, and a named load problem with a proposal is not a complaint.', id: 'Kesalahannya sudah terjadi; yang berikutnya lebih mungkin. Bertanya lebih awal adalah keterampilan profesional, dan masalah beban yang dinamai dengan usulan bukanlah keluhan.' } },
+            { t: { en: 'Start applying for other jobs this weekend.', id: 'Mulai melamar pekerjaan lain akhir pekan ini.' },
+              fb: { en: 'A bad month is a tripwire input, not a gate verdict. Fix the load first; if the pattern repeats, take it to your next decision gate with the evidence.', id: 'Bulan yang buruk adalah masukan pemicu, bukan putusan gerbang. Perbaiki bebannya dulu; jika polanya berulang, bawa ke gerbang keputusan berikutnya dengan buktinya.' } }
+          ] } ] },
     { id: 'sponsor', mod: '6', title: { en: 'Earning the sponsor', id: 'Mendapatkan sponsor' },
       brief: { en: 'A senior director praised your work once and knows your name. A stretch project is being staffed next month. Sponsorship is earned in exactly these windows.', id: 'Seorang direktur senior pernah memuji kerjamu dan tahu namamu. Proyek menantang akan diisi bulan depan. Sponsorship diperoleh persis di jendela seperti ini.' },
       rounds: [
@@ -336,7 +366,14 @@
     c.insertBefore(bar, c.firstChild.nextSibling);
     c.appendChild(el('div', 'rf-say', esc(B(R.say))));
     var picked = run.picks[run.i];
-    R.moves.forEach(function (mv, k) {
+    /* show the moves in a stable, per-round rotated order so the strongest is not always first */
+    var seed = 0, n = R.moves.length;
+    for (var ci = 0; ci < st.id.length; ci++) seed += st.id.charCodeAt(ci);
+    var rot = (seed + run.i * 2 + 1) % n;
+    var order = R.moves.map(function (m, k) { return k; });
+    order = order.slice(rot).concat(order.slice(0, rot));
+    order.forEach(function (k) {
+      var mv = R.moves[k];
       var b = el('button', 'rf-move', esc(B(mv.t)));
       if (picked !== undefined) {
         b.disabled = true;
