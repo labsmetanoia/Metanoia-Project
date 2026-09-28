@@ -44400,892 +44400,667 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "10.1",
-     "title": {
-      "en": "Total Compensation Anatomy",
-      "id": "Anatomi Kompensasi Total"
-     },
      "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Reading an Offer — What’s Actually in It",
+      "id": "Membaca Surat Penawaran — Apa Isinya Sebenarnya"
+     },
      "overview": {
-      "en": "Base salary is one line of a longer equation: bonus and its real attainment, allowances, insurance, retirement contributions, leave, learning budget, equipment — and the invisible lines: title, scope, manager quality, growth rate. Two offers with the same base can differ by a quarter of real value.",
-      "id": "Gaji pokok hanyalah satu baris dari persamaan yang lebih panjang: bonus dan realisasinya yang sebenarnya, tunjangan, asuransi, iuran pensiun, cuti, anggaran belajar, peralatan — dan baris-baris yang tidak terlihat: jabatan, ruang lingkup, kualitas atasan, laju pertumbuhan. Dua tawaran dengan gaji pokok yang sama bisa berbeda nilai nyata sampai seperempatnya."
+      "en": "An offer letter lists a number, and the number rarely equals what you will receive or what the job is worth. Fresh graduates often compare two offers by the headline figure and choose wrongly. This lesson breaks a typical Indonesian package into its parts — base salary, fixed and variable allowances, THR, bonus, BPJS, private insurance, income tax and the other items — explains gross, net and take-home, builds the annual value that makes two offers comparable, adds the non-money factors that predict satisfaction more than a small pay difference, and closes with the rule that nothing is final until it is written. Every regulatory item is marked for verification against current official sources: The Rope provides education, not legal or tax advice.",
+      "id": "Surat penawaran mencantumkan satu angka, dan angka itu jarang sama dengan yang akan kamu terima atau nilai pekerjaannya. Lulusan baru sering membandingkan dua tawaran dari angka utamanya dan memilih keliru. Pelajaran ini memecah paket Indonesia yang tipikal menjadi bagian-bagiannya — gaji pokok, tunjangan tetap dan tidak tetap, THR, bonus, BPJS, asuransi swasta, pajak penghasilan, dan butir lain — menjelaskan kotor, bersih, dan take-home, membangun nilai tahunan yang membuat dua tawaran bisa dibandingkan, menambahkan faktor non-uang yang lebih memprediksi kepuasan daripada selisih gaji kecil, dan ditutup dengan aturan bahwa tak ada yang final sampai tertulis. Setiap butir regulasi ditandai untuk diverifikasi terhadap sumber resmi terkini: The Rope memberi edukasi, bukan nasihat hukum atau pajak."
      },
      "objectives": [
       {
-       "en": "Itemise an offer into its full compensation components.",
-       "id": "Merinci sebuah tawaran menjadi komponen kompensasinya yang lengkap."
+       "en": "Name each component of an Indonesian package and what to watch for in it.",
+       "id": "Menyebut tiap komponen paket Indonesia dan apa yang harus diwaspadai di dalamnya."
       },
       {
-       "en": "Ask the questions that reveal a bonus's real value.",
-       "id": "Mengajukan pertanyaan yang mengungkap nilai bonus yang sebenarnya."
+       "en": "Explain gross, net and take-home, and why an estimate is labelled as one.",
+       "id": "Menjelaskan kotor, bersih, dan take-home, dan mengapa estimasi diberi label sebagai estimasi."
       },
       {
-       "en": "Weigh invisible compensation: scope, growth, manager, learning.",
-       "id": "Menimbang kompensasi yang tidak terlihat: ruang lingkup, pertumbuhan, atasan, kesempatan belajar."
+       "en": "Build the annual value of an offer and compare two offers on it.",
+       "id": "Membangun nilai tahunan sebuah tawaran dan membandingkan dua tawaran berdasarkan itu."
+      },
+      {
+       "en": "Score the non-money factors deliberately and get every verbal promise into writing.",
+       "id": "Menilai faktor non-uang dengan sengaja dan memasukkan setiap janji lisan ke dalam tulisan."
       }
      ],
-     "takeawaysLead": {
-      "en": "Base salary is one line of a longer equation, and the invisible lines appear in your career rather than the letter. To compare offers honestly, you can:",
-      "id": "Gaji pokok hanyalah satu baris dari persamaan yang lebih panjang, dan baris-baris tak terlihat muncul di kariermu, bukan di surat. Untuk membandingkan tawaran dengan jujur, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The headline figure is one line of a longer equation",
+       "id": "Angka utama adalah satu baris dari persamaan yang lebih panjang"
+      },
+      "intro": {
+       "en": "Two offers with the same headline can differ by a quarter of their real value. The difference is in the lines most graduates do not read.",
+       "id": "Dua tawaran dengan angka utama sama bisa berbeda seperempat nilai sebenarnya. Perbedaannya ada di baris yang tidak dibaca kebanyakan lulusan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Components",
+         "id": "Komponen"
+        },
+        "points": [
+         {
+          "en": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · THR · bonus · BPJS Kesehatan and Ketenagakerjaan · private insurance · PPh 21 · other items.",
+          "id": "Gaji pokok · tunjangan tetap · tunjangan tidak tetap · THR · bonus · BPJS Kesehatan dan Ketenagakerjaan · asuransi swasta · PPh 21 · butir lain."
+         },
+         {
+          "en": "Every regulatory figure is verified against a current official source before you rely on it.",
+          "id": "Setiap angka regulasi diverifikasi terhadap sumber resmi terkini sebelum kamu mengandalkannya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Gross, net, take-home",
+         "id": "Kotor, bersih, take-home"
+        },
+        "points": [
+         {
+          "en": "Take-home = gross − employee BPJS contributions − PPh 21 − other deductions.",
+          "id": "Take-home = kotor − iuran BPJS karyawan − PPh 21 − potongan lain."
+         },
+         {
+          "en": "Any take-home you compute is an estimate from dated parameters; label it.",
+          "id": "Take-home yang kamu hitung adalah estimasi dari parameter bertanggal; beri label."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Annual value",
+         "id": "Nilai tahunan"
+        },
+        "points": [
+         {
+          "en": "12 × monthly fixed + THR + a conservative bonus + employer-paid benefits you would otherwise buy + one-time items − costs you bear.",
+          "id": "12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja yang seharusnya kamu beli + butir sekali bayar − biaya yang kamu tanggung."
+         },
+         {
+          "en": "Compare offers on this, not on the headline.",
+          "id": "Bandingkan tawaran berdasarkan ini, bukan angka utama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Beyond money",
+         "id": "Di luar uang"
+        },
+        "points": [
+         {
+          "en": "Learning, placement and cost of living, hours, contract security, path, the team you met.",
+          "id": "Pembelajaran, penempatan dan biaya hidup, jam kerja, keamanan kontrak, jalur, tim yang kamu temui."
+         },
+         {
+          "en": "Nothing is final until written: verbal promises go into the letter or a confirmation email.",
+          "id": "Tak ada yang final sampai tertulis: janji lisan masuk ke surat atau email konfirmasi."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Compare offers on total annual value, not base salary.",
-       "id": "Bandingkan tawaran berdasarkan nilai total per tahun, bukan gaji pokok."
-      },
-      {
-       "en": "A “performance bonus” is worth its typical attainment, not its maximum — ask for the typical.",
-       "id": "“Bonus kinerja” nilainya sebesar yang lazim benar-benar diterima, bukan maksimumnya — tanyakan angka yang lazim itu."
-      },
-      {
-       "en": "Early career, growth rate often outvalues salary delta; price it deliberately.",
-       "id": "Di awal karier, laju pertumbuhan sering lebih bernilai daripada selisih gaji; beri harga dengan sengaja."
-      }
-     ],
      "sections": [
       {
+       "icon": "book",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 45%",
        "h": {
-        "en": "The visible lines",
-        "id": "Baris-baris yang terlihat"
+        "en": "Components of a typical Indonesian package",
+        "id": "Komponen paket Indonesia yang tipikal"
        },
        "body": {
-        "en": "List every component with an annual number: base × 12 (or 13 where a religious-holiday allowance applies), realistic bonus, transport and meal allowances, insurance premiums the company pays, retirement contributions, paid leave days at their daily value, learning budget, device policy. The spreadsheet takes twenty minutes and regularly reverses which offer is “higher”.",
-        "id": "Daftar setiap komponen dengan angka tahunan: gaji pokok × 12 (atau × 13 kalau ada THR), bonus yang realistis, tunjangan transportasi dan makan, premi asuransi yang dibayar perusahaan, iuran pensiun, hari cuti berbayar dengan nilai hariannya, anggaran belajar, kebijakan perangkat kerja. Spreadsheet-nya hanya butuh dua puluh menit, dan sering kali membalikkan tawaran mana yang sebenarnya “lebih tinggi”."
+        "en": "Read the offer letter line by line, and put each line in one of these rows. <b>Gaji pokok</b> (base salary) is the fixed monthly base; where the wage consists of base plus fixed allowances, regulation requires the base to be at least 75% of the two together <span class=\"ev ev-verify\">Verify</span>. <b>Tunjangan tetap</b> (fixed allowances) are paid regardless of attendance — a position allowance, for example — and count toward THR and some other calculations. <b>Tunjangan tidak tetap</b> (variable allowances) depend on attendance or performance — transport, meals — and are not guaranteed; they may not count toward THR. <b>THR</b>, the religious-holiday allowance, is mandatory; typically one month’s wage after twelve months’ service, pro-rated from one month of service <span class=\"ev ev-verify\">Verify</span> — so watch the timing and the pro-rating in your first year. <b>Bonus and incentives</b> are discretionary or target-based: ask how they have actually been paid in the last two years, not what the “up to” figure is. <b>BPJS Kesehatan</b> is health insurance with employer and employee contributions — the blueprint cites employer 4% and employee 1% with a wage ceiling as an example to verify <span class=\"ev ev-verify\">Verify current rates and ceiling</span> — and the question to ask is family coverage. <b>BPJS Ketenagakerjaan</b> covers old-age savings (JHT), pension (JP), work accident (JKK), death (JKM) and job-loss (JKP) <span class=\"ev ev-verify\">Verify rates and ceilings</span>; the employer’s JHT contribution is your savings and part of your package. <b>Private insurance</b> adds health cover: inpatient, outpatient, family, limits. <b>PPh 21</b>, income tax, is withheld monthly; the TER method has applied since 2024 <span class=\"ev ev-verify\">Verify current rules and PTKP</span> — and watch for “gross-up” offers where the employer bears the tax. <b>Other</b>: laptop, phone, transport, housing for out-of-town placements, relocation, training, leave days. None of these rates should be taken from this page; they change, and they are checked against current official sources before you rely on them.",
+        "id": "Baca surat penawaran baris demi baris, dan taruh tiap baris di salah satu baris ini. <b>Gaji pokok</b> adalah dasar bulanan tetap; jika upah terdiri dari gaji pokok plus tunjangan tetap, regulasi mensyaratkan gaji pokok setidaknya 75% dari keduanya <span class=\"ev ev-verify\">Verifikasi</span>. <b>Tunjangan tetap</b> dibayar terlepas dari kehadiran — tunjangan jabatan, misalnya — dan dihitung untuk THR dan beberapa perhitungan lain. <b>Tunjangan tidak tetap</b> bergantung pada kehadiran atau kinerja — transport, makan — dan tidak dijamin; bisa tidak dihitung untuk THR. <b>THR</b>, tunjangan hari raya, wajib; biasanya satu bulan upah setelah dua belas bulan masa kerja, proporsional sejak satu bulan masa kerja <span class=\"ev ev-verify\">Verifikasi</span> — jadi perhatikan waktu dan proporsinya di tahun pertamamu. <b>Bonus dan insentif</b> diskresioner atau berbasis target: tanyakan bagaimana sebenarnya dibayar dua tahun terakhir, bukan berapa angka “hingga”-nya. <b>BPJS Kesehatan</b> adalah asuransi kesehatan dengan iuran pemberi kerja dan karyawan — cetak biru menyebut pemberi kerja 4% dan karyawan 1% dengan batas upah sebagai contoh untuk diverifikasi <span class=\"ev ev-verify\">Verifikasi tarif dan batas terkini</span> — dan pertanyaannya adalah cakupan keluarga. <b>BPJS Ketenagakerjaan</b> mencakup jaminan hari tua (JHT), pensiun (JP), kecelakaan kerja (JKK), kematian (JKM), dan kehilangan pekerjaan (JKP) <span class=\"ev ev-verify\">Verifikasi tarif dan batas</span>; iuran JHT pemberi kerja adalah tabunganmu dan bagian dari paketmu. <b>Asuransi swasta</b> menambah cakupan kesehatan: rawat inap, rawat jalan, keluarga, batas. <b>PPh 21</b>, pajak penghasilan, dipotong bulanan; metode TER berlaku sejak 2024 <span class=\"ev ev-verify\">Verifikasi aturan dan PTKP terkini</span> — dan perhatikan tawaran “gross-up” di mana pemberi kerja menanggung pajak. <b>Lain-lain</b>: laptop, ponsel, transport, perumahan untuk penempatan luar kota, relokasi, pelatihan, hari cuti. Tak satu pun tarif ini boleh diambil dari halaman ini; mereka berubah, dan diperiksa terhadap sumber resmi terkini sebelum kamu mengandalkannya."
        },
-       "icon": "eye"
+       "table": {
+        "cols": [
+         {
+          "en": "Component",
+          "id": "Komponen"
+         },
+         {
+          "en": "What it is",
+          "id": "Apa itu"
+         },
+         {
+          "en": "Watch for",
+          "id": "Waspadai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Gaji pokok</b> (base)",
+           "id": "<b>Gaji pokok</b>"
+          },
+          {
+           "en": "Fixed monthly base",
+           "id": "Dasar bulanan tetap"
+          },
+          {
+           "en": "At least 75% of base + fixed allowances when both exist <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Setidaknya 75% dari pokok + tunjangan tetap jika keduanya ada <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Tunjangan tetap</b>",
+           "id": "<b>Tunjangan tetap</b>"
+          },
+          {
+           "en": "Paid regardless of attendance",
+           "id": "Dibayar terlepas dari kehadiran"
+          },
+          {
+           "en": "Counts toward THR and some calculations",
+           "id": "Dihitung untuk THR dan beberapa perhitungan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Tunjangan tidak tetap</b>",
+           "id": "<b>Tunjangan tidak tetap</b>"
+          },
+          {
+           "en": "Tied to attendance or performance",
+           "id": "Terikat kehadiran atau kinerja"
+          },
+          {
+           "en": "Not guaranteed; may not count toward THR",
+           "id": "Tidak dijamin; bisa tidak dihitung untuk THR"
+          }
+         ],
+         [
+          {
+           "en": "<b>THR</b>",
+           "id": "<b>THR</b>"
+          },
+          {
+           "en": "Mandatory religious-holiday allowance",
+           "id": "Tunjangan hari raya wajib"
+          },
+          {
+           "en": "Typically one month after 12 months, pro-rated from one month <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Biasanya satu bulan setelah 12 bulan, proporsional sejak satu bulan <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Bonus / incentives</b>",
+           "id": "<b>Bonus / insentif</b>"
+          },
+          {
+           "en": "Discretionary or target-based",
+           "id": "Diskresioner atau berbasis target"
+          },
+          {
+           "en": "Ask the last two years’ actual payout, not “up to”",
+           "id": "Tanyakan pembayaran aktual dua tahun terakhir, bukan “hingga”"
+          }
+         ],
+         [
+          {
+           "en": "<b>BPJS Kesehatan</b>",
+           "id": "<b>BPJS Kesehatan</b>"
+          },
+          {
+           "en": "Health insurance, employer + employee contributions",
+           "id": "Asuransi kesehatan, iuran pemberi kerja + karyawan"
+          },
+          {
+           "en": "Family coverage; rates and ceiling <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Cakupan keluarga; tarif dan batas <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>BPJS Ketenagakerjaan</b>",
+           "id": "<b>BPJS Ketenagakerjaan</b>"
+          },
+          {
+           "en": "JHT, JP, JKK, JKM, JKP",
+           "id": "JHT, JP, JKK, JKM, JKP"
+          },
+          {
+           "en": "Employer JHT is your savings; rates <span class=\"ev ev-verify\">Verify</span>",
+           "id": "JHT pemberi kerja adalah tabunganmu; tarif <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Private insurance</b>",
+           "id": "<b>Asuransi swasta</b>"
+          },
+          {
+           "en": "Additional health cover",
+           "id": "Cakupan kesehatan tambahan"
+          },
+          {
+           "en": "Inpatient / outpatient, family, limits",
+           "id": "Rawat inap / jalan, keluarga, batas"
+          }
+         ],
+         [
+          {
+           "en": "<b>PPh 21</b>",
+           "id": "<b>PPh 21</b>"
+          },
+          {
+           "en": "Income tax withheld monthly (TER since 2024)",
+           "id": "Pajak penghasilan dipotong bulanan (TER sejak 2024)"
+          },
+          {
+           "en": "Gross vs gross-up; rules and PTKP <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Kotor vs gross-up; aturan dan PTKP <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Other</b>",
+           "id": "<b>Lain-lain</b>"
+          },
+          {
+           "en": "Laptop, phone, transport, housing, relocation, training, leave",
+           "id": "Laptop, ponsel, transport, perumahan, relokasi, pelatihan, cuti"
+          },
+          {
+           "en": "Relocation support for placements outside your home city",
+           "id": "Dukungan relokasi untuk penempatan di luar kota asal"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Adapted from the blueprint’s component table. Every regulatory figure is verified against current official sources and dated before use.",
+         "id": "Diadaptasi dari tabel komponen cetak biru. Setiap angka regulasi diverifikasi terhadap sumber resmi terkini dan diberi tanggal sebelum dipakai."
+        }
+       }
       },
       {
+       "icon": "chart",
        "h": {
-        "en": "The invisible lines",
-        "id": "Baris-baris yang tidak terlihat"
+        "en": "Gross, net and take-home",
+        "id": "Kotor, bersih, dan take-home"
        },
        "body": {
-        "en": "Scope: will you own something, or assist someone who does? Growth rate: what did the last person in this seat learn per year? Manager: a great one compounds your value for a decade. Brand and network: doors this name opens later. None of these appear in the letter; all of them appear in your career. Score them one to five, deliberately, next to the money.",
-        "id": "Ruang lingkup: apakah kamu akan memegang sesuatu, atau membantu orang yang memegangnya? Laju pertumbuhan: apa yang dipelajari orang sebelumnya di kursi ini setiap tahun? Atasan: atasan yang hebat melipatgandakan nilaimu selama satu dekade. Nama besar dan jejaring: pintu-pintu yang dibukakan nama ini di kemudian hari. Tidak satu pun dari ini muncul di surat tawaran; semuanya muncul di kariermu. Beri skor satu sampai lima, dengan sengaja, di samping angka uangnya."
+        "en": "Three words cause most of the confusion, and Lesson 5.3 already warned about the first misunderstanding. <b>Gross</b> is the figure before any deduction — what salary surveys and most offer letters quote. <b>Take-home pay</b> (THP) is what reaches your account: gross, minus your own BPJS contributions, minus PPh 21 withheld, minus any other deduction you have agreed to (a cooperative, a staff loan). “Net” is used loosely for either take-home or gross-minus-tax, so when someone says “net”, ask which. Two traps follow. The first is comparing a gross figure in one offer with a take-home figure a friend quoted for another job; convert both to the same basis before comparing anything. The second is <b>gross-up</b>: some employers state the salary and bear the income tax themselves, which makes their figure worth more than an identical gross figure elsewhere — the letter should say so explicitly, and if it does not, ask. When you estimate take-home yourself, use rates you have verified and dated from current official sources, write the date next to the estimate, and label it “estimate” — deductions depend on parameters that change and on details of your situation. The blueprint specifies an Offer Decoder that would estimate take-home from stored, dated parameters and label the result as an estimate; it is not yet built, and the worksheet in the resources card does the same arithmetic by hand with the rates left as blanks for you to fill from a verified source.",
+        "id": "Tiga kata menyebabkan sebagian besar kebingungan, dan Pelajaran 5.3 sudah memperingatkan salah paham pertama. <b>Kotor</b> adalah angka sebelum potongan apa pun — yang dikutip survei gaji dan kebanyakan surat penawaran. <b>Take-home pay</b> (THP) adalah yang sampai ke rekeningmu: kotor, dikurangi iuran BPJS-mu sendiri, dikurangi PPh 21 yang dipotong, dikurangi potongan lain yang kamu setujui (koperasi, pinjaman karyawan). “Bersih” dipakai longgar untuk take-home atau kotor-dikurangi-pajak, jadi saat seseorang berkata “bersih”, tanyakan yang mana. Dua jebakan menyusul. Pertama membandingkan angka kotor di satu tawaran dengan angka take-home yang disebut teman untuk pekerjaan lain; ubah keduanya ke dasar yang sama sebelum membandingkan apa pun. Kedua <b>gross-up</b>: beberapa pemberi kerja menyatakan gaji dan menanggung pajak penghasilan sendiri, yang membuat angka mereka bernilai lebih dari angka kotor yang identik di tempat lain — surat harus menyatakannya eksplisit, dan jika tidak, tanyakan. Saat kamu mengestimasi take-home sendiri, pakai tarif yang sudah kamu verifikasi dan beri tanggal dari sumber resmi terkini, tulis tanggal di samping estimasi, dan beri label “estimasi” — potongan bergantung pada parameter yang berubah dan detail situasimu. Cetak biru menentukan Offer Decoder yang akan mengestimasi take-home dari parameter tersimpan dan bertanggal serta memberi label hasil sebagai estimasi; belum dibangun, dan lembar kerja di kartu sumber mengerjakan aritmetika yang sama dengan tangan dengan tarif dikosongkan untuk kamu isi dari sumber terverifikasi."
        },
-       "icon": "book"
+       "bullets": [
+        {
+         "en": "<b>Gross</b> — before deductions; what offers and surveys quote.",
+         "id": "<b>Kotor</b> — sebelum potongan; yang dikutip tawaran dan survei."
+        },
+        {
+         "en": "<b>Take-home</b> — gross − your BPJS − PPh 21 − other agreed deductions.",
+         "id": "<b>Take-home</b> — kotor − BPJS-mu − PPh 21 − potongan lain yang disetujui."
+        },
+        {
+         "en": "<b>Same basis before comparing</b> — never gross against someone else’s take-home.",
+         "id": "<b>Dasar sama sebelum membandingkan</b> — jangan pernah kotor melawan take-home orang lain."
+        },
+        {
+         "en": "<b>Label estimates</b> — verified, dated rates; “estimasi” written beside the number.",
+         "id": "<b>Beri label estimasi</b> — tarif terverifikasi dan bertanggal; “estimasi” ditulis di samping angka."
+        }
+       ]
       },
       {
        "icon": "target",
        "h": {
-        "en": "Putting the two offers side by side",
-        "id": "Menyandingkan dua tawaran"
+        "en": "Annual value: the comparison that works",
+        "id": "Nilai tahunan: perbandingan yang berhasil"
        },
        "body": {
-        "en": "The comparison only works when both offers sit on the same sheet, in the same units. Row by row: the visible lines as annual numbers, summed to a total annual value; then the invisible lines scored one to five — scope, growth rate, manager, brand and network — with one sentence of evidence beside each score so the number is not a mood. Two things regularly happen at this point. The offer that looked higher on base loses on total value once allowances, a thirteenth month or a realistic bonus are counted. And an offer that loses narrowly on money wins clearly on the invisible lines — a manager with a reputation for growing people, a scope you would own rather than assist — which, early in a career, compounds for longer than a salary gap does. The sheet does not make the decision; it makes the decision honest, and it becomes the basis for 8.2's range and 8.3's ask.",
-        "id": "Perbandingan hanya bekerja bila kedua tawaran duduk di lembar yang sama, dengan satuan yang sama. Baris demi baris: baris-baris yang terlihat sebagai angka tahunan, dijumlahkan menjadi nilai tahunan total; lalu baris-baris tak terlihat dinilai satu sampai lima — lingkup, laju pertumbuhan, manajer, merek dan jaringan — dengan satu kalimat bukti di samping tiap skor agar angkanya bukan sekadar perasaan. Dua hal biasa terjadi di titik ini. Tawaran yang tampak lebih tinggi pada gaji pokok kalah pada nilai total begitu tunjangan, gaji ke-13, atau bonus realistis dihitung. Dan tawaran yang kalah tipis pada uang menang jelas pada baris tak terlihat — manajer yang dikenal menumbuhkan orang, lingkup yang akan kamu miliki alih-alih bantu — yang, di awal karier, bertumbuh lebih lama daripada selisih gaji. Lembar ini tidak membuat keputusan; ia membuat keputusan menjadi jujur, dan menjadi dasar bagi rentang di 8.2 dan permintaan di 8.3."
+        "en": "Monthly figures mislead whenever THR, bonuses and benefits differ between offers. Compare <b>annual total value</b> instead: <b>12 × the monthly fixed amount</b> (base plus fixed allowances) <b>+ THR</b> (pro-rated if you will not complete twelve months in the first year) <b>+ the expected bonus, taken conservatively</b> (the last two years’ actual, not the “up to”) <b>+ employer-paid benefits you would otherwise buy</b> (private insurance, a laptop, housing for a placement) <b>+ one-time items</b> (a signing payment, relocation support) <b>− costs you would bear</b> (moving without support, a higher cost of living in the placement city). The retained total-compensation calculator from the current Rope does this line by line and is in the resources card. The result regularly reverses which offer is “higher”: an offer with a larger base loses once variable allowances that might not be paid, a bonus that has not been paid at “up to”, and a more expensive city are counted; an offer with a smaller base wins once fixed allowances, housing and private insurance are counted. Two disciplines keep the sheet honest. Put both offers on the <b>same sheet in the same units</b> — annual, gross, the same year. And take the uncertain lines at their <b>conservative</b> value: the point of the sheet is to know what you can rely on. The worked example below uses round, fictional figures; the method is the lesson.",
+        "id": "Angka bulanan menyesatkan setiap kali THR, bonus, dan manfaat berbeda antar tawaran. Bandingkan <b>total nilai tahunan</b> sebagai gantinya: <b>12 × jumlah tetap bulanan</b> (pokok plus tunjangan tetap) <b>+ THR</b> (proporsional jika kamu tidak akan menyelesaikan dua belas bulan di tahun pertama) <b>+ bonus yang diharapkan, diambil konservatif</b> (aktual dua tahun terakhir, bukan “hingga”) <b>+ manfaat dibayar pemberi kerja yang seharusnya kamu beli</b> (asuransi swasta, laptop, perumahan untuk penempatan) <b>+ butir sekali bayar</b> (pembayaran penandatanganan, dukungan relokasi) <b>− biaya yang kamu tanggung</b> (pindah tanpa dukungan, biaya hidup lebih tinggi di kota penempatan). Kalkulator kompensasi total yang dipertahankan dari The Rope saat ini mengerjakannya baris demi baris dan ada di kartu sumber. Hasilnya sering membalik tawaran mana yang “lebih tinggi”: tawaran dengan pokok lebih besar kalah setelah tunjangan tidak tetap yang mungkin tak dibayar, bonus yang belum pernah dibayar pada “hingga”, dan kota yang lebih mahal dihitung; tawaran dengan pokok lebih kecil menang setelah tunjangan tetap, perumahan, dan asuransi swasta dihitung. Dua disiplin menjaga lembarnya jujur. Taruh kedua tawaran di <b>lembar sama dalam satuan sama</b> — tahunan, kotor, tahun yang sama. Dan ambil baris yang tidak pasti pada nilai <b>konservatif</b>-nya: inti lembar adalah tahu apa yang bisa kamu andalkan. Contoh di bawah memakai angka bulat fiktif; metodenya adalah pelajarannya."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Line (annual, gross, illustrative)",
+          "id": "Baris (tahunan, kotor, ilustratif)"
+         },
+         {
+          "en": "Offer A — headline Rp 8 juta",
+          "id": "Tawaran A — utama Rp 8 juta"
+         },
+         {
+          "en": "Offer B — headline Rp 7 juta",
+          "id": "Tawaran B — utama Rp 7 juta"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Monthly fixed × 12",
+           "id": "Tetap bulanan × 12"
+          },
+          {
+           "en": "Rp 5,6 jt fixed × 12 = Rp 67,2 jt (Rp 2,4 jt of the 8 is variable allowance)",
+           "id": "Rp 5,6 jt tetap × 12 = Rp 67,2 jt (Rp 2,4 jt dari 8 adalah tunjangan tidak tetap)"
+          },
+          {
+           "en": "Rp 7 jt fixed × 12 = Rp 84 jt",
+           "id": "Rp 7 jt tetap × 12 = Rp 84 jt"
+          }
+         ],
+         [
+          {
+           "en": "Variable allowances, conservative",
+           "id": "Tunjangan tidak tetap, konservatif"
+          },
+          {
+           "en": "Rp 2,4 jt × 12 × ~80% attendance ≈ Rp 23 jt",
+           "id": "Rp 2,4 jt × 12 × ~80% kehadiran ≈ Rp 23 jt"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "THR (first year, pro-rated)",
+           "id": "THR (tahun pertama, proporsional)"
+          },
+          {
+           "en": "~Rp 5,6 jt × pro-rating",
+           "id": "~Rp 5,6 jt × proporsi"
+          },
+          {
+           "en": "~Rp 7 jt × pro-rating",
+           "id": "~Rp 7 jt × proporsi"
+          }
+         ],
+         [
+          {
+           "en": "Employer-paid benefits you would otherwise buy",
+           "id": "Manfaat dibayar pemberi kerja yang seharusnya kamu beli"
+          },
+          {
+           "en": "BPJS only",
+           "id": "BPJS saja"
+          },
+          {
+           "en": "BPJS + private insurance + housing in the placement city",
+           "id": "BPJS + asuransi swasta + perumahan di kota penempatan"
+          }
+         ],
+         [
+          {
+           "en": "Contract",
+           "id": "Kontrak"
+          },
+          {
+           "en": "12-month PKWT",
+           "id": "PKWT 12 bulan"
+          },
+          {
+           "en": "PKWTT",
+           "id": "PKWTT"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The blueprint’s compare, as a sheet: A’s Rp 8 juta includes variable allowances forming 30% of the figure; B includes housing, private insurance and a permanent contract. Fictional figures; THR pro-rating to be verified.",
+         "id": "Perbandingan cetak biru, sebagai lembar: Rp 8 juta milik A termasuk tunjangan tidak tetap yang membentuk 30% angka; B termasuk perumahan, asuransi swasta, dan kontrak tetap. Angka fiktif; proporsi THR untuk diverifikasi."
+        }
        }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Non-money factors, and verbal versus written",
+        "id": "Faktor non-uang, dan lisan versus tertulis"
+       },
+       "body": {
+        "en": "The retained “invisible lines” from the current Rope belong next to the money, scored one to five with one sentence of evidence each so the number is not a mood: <b>learning</b> (a structured programme, a mentor, a rotation), <b>placement city and cost of living</b>, <b>working hours and overtime policy</b>, <b>contract security</b> (Lesson 10.2), <b>career path</b> (what did the last person in this seat learn in a year?), <b>commute</b>, and <b>the team you met</b> — especially the manager, because a good one compounds your value for years. Bolles and others argue that fit and growth predict satisfaction more than a small pay difference, and early in a career a scope you would own rather than assist often compounds for longer than a salary gap does. The sheet does not make the decision; it makes the decision honest. And then the rule the current Rope already taught, kept here: <b>nothing is final until written</b>. Everything that mattered in the interviews — “you’ll be permanent after six months”, the salary review, the placement preference, the laptop — either appears in the letter or the contract, or it does not yet exist. Managers change; budgets change; a promise the letter does not carry has no owner in a year. The move is a calm sentence that treats the omission as administration: “Boleh evaluasi gaji enam bulan yang kita bicarakan dicantumkan di surat penawaran atau di email konfirmasi?” Employers who meant it add the line; employers who hesitate have told you something useful before you signed.",
+        "id": "“Baris tak terlihat” yang dipertahankan dari The Rope saat ini ada di samping uang, dinilai satu sampai lima dengan satu kalimat bukti masing-masing agar angkanya bukan suasana hati: <b>pembelajaran</b> (program terstruktur, mentor, rotasi), <b>kota penempatan dan biaya hidup</b>, <b>jam kerja dan kebijakan lembur</b>, <b>keamanan kontrak</b> (Pelajaran 10.2), <b>jalur karier</b> (apa yang dipelajari orang terakhir di kursi ini dalam setahun?), <b>perjalanan</b>, dan <b>tim yang kamu temui</b> — terutama manajer, karena yang baik melipatgandakan nilaimu selama bertahun-tahun. Bolles dan lainnya berpendapat bahwa kecocokan dan pertumbuhan lebih memprediksi kepuasan daripada selisih gaji kecil, dan di awal karier cakupan yang kamu miliki alih-alih bantu sering berlipat lebih lama daripada selisih gaji. Lembar tidak membuat keputusan; ia membuat keputusan jujur. Lalu aturan yang sudah diajarkan The Rope saat ini, dipertahankan di sini: <b>tak ada yang final sampai tertulis</b>. Semua yang penting di wawancara — “kamu akan jadi karyawan tetap setelah enam bulan”, evaluasi gaji, preferensi penempatan, laptop — entah muncul di surat atau kontrak, atau belum ada. Manajer berganti; anggaran berganti; janji yang tidak dibawa surat tak punya pemilik dalam setahun. Langkahnya adalah kalimat tenang yang memperlakukan kelalaian sebagai administrasi: “Boleh evaluasi gaji enam bulan yang kita bicarakan dicantumkan di surat penawaran atau di email konfirmasi?” Pemberi kerja yang bersungguh-sungguh menambahkan barisnya; yang ragu sudah memberitahumu sesuatu yang berguna sebelum kamu menandatangani."
+       },
+       "bullets": [
+        {
+         "en": "<b>Score the invisible lines</b> — learning, placement, hours, security, path, commute, team; 1–5 with evidence.",
+         "id": "<b>Nilai baris tak terlihat</b> — pembelajaran, penempatan, jam, keamanan, jalur, perjalanan, tim; 1–5 dengan bukti."
+        },
+        {
+         "en": "<b>Fit and growth</b> — often worth more early on than a small pay gap (Bolles).",
+         "id": "<b>Kecocokan dan pertumbuhan</b> — sering lebih bernilai di awal daripada selisih gaji kecil (Bolles)."
+        },
+        {
+         "en": "<b>Written or not yet real</b> — every verbal promise into the letter or a confirmation email.",
+         "id": "<b>Tertulis atau belum nyata</b> — setiap janji lisan ke surat atau email konfirmasi."
+        },
+        {
+         "en": "<b>Hesitation is information</b> — an employer uneasy about writing it down has told you something.",
+         "id": "<b>Keraguan adalah informasi</b> — pemberi kerja yang enggan menuliskannya sudah memberitahumu sesuatu."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "ring",
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: From headline to annual value",
+       "id": "Peraga 1: Dari angka utama ke nilai tahunan"
+      },
       "title": {
-       "en": "Total compensation — the whole equation",
-       "id": "Kompensasi total — persamaan yang utuh"
+       "en": "Headline → components → gross vs take-home → annual value → invisible lines",
+       "id": "Angka utama → komponen → kotor vs take-home → nilai tahunan → baris tak terlihat"
       },
       "items": [
        {
+        "icon": "book",
         "h": {
-         "en": "Base salary",
-         "id": "Gaji pokok"
+         "en": "Headline",
+         "id": "Angka utama"
         },
         "sub": {
-         "en": "×12 or ×13 with the holiday allowance",
-         "id": "×12, atau ×13 dengan THR"
+         "en": "The one number on page one — not yet comparable with anything.",
+         "id": "Satu angka di halaman satu — belum bisa dibandingkan dengan apa pun."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Bonus",
-         "id": "Bonus"
+         "en": "Components",
+         "id": "Komponen"
         },
         "sub": {
-         "en": "Worth its TYPICAL attainment, not its maximum",
-         "id": "Nilainya sebesar realisasi yang LAZIM, bukan maksimumnya"
+         "en": "Base, fixed and variable allowances, THR, bonus, BPJS, insurance, tax, other.",
+         "id": "Pokok, tunjangan tetap dan tidak tetap, THR, bonus, BPJS, asuransi, pajak, lain-lain."
         }
        },
        {
+        "icon": "gear",
         "h": {
-         "en": "Allowances & insurance",
-         "id": "Tunjangan & asuransi"
+         "en": "Gross vs take-home",
+         "id": "Kotor vs take-home"
         },
         "sub": {
-         "en": "Transport, meals, premiums, retirement",
-         "id": "Transportasi, makan, premi, pensiun"
+         "en": "Same basis for every comparison; estimates labelled and dated.",
+         "id": "Dasar sama untuk setiap perbandingan; estimasi diberi label dan tanggal."
         }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Leave & learning",
-         "id": "Cuti & belajar"
+         "en": "Annual value",
+         "id": "Nilai tahunan"
         },
         "sub": {
-         "en": "Paid days, budget, equipment",
-         "id": "Hari cuti berbayar, anggaran, peralatan"
+         "en": "12 × fixed + THR + conservative bonus + benefits + one-time − your costs.",
+         "id": "12 × tetap + THR + bonus konservatif + manfaat + sekali bayar − biayamu."
         }
        },
        {
+        "icon": "compass",
         "h": {
          "en": "Invisible lines",
-         "id": "Baris yang tidak terlihat"
+         "id": "Baris tak terlihat"
         },
         "sub": {
-         "en": "Scope, growth rate, manager, network",
-         "id": "Ruang lingkup, laju pertumbuhan, atasan, jejaring"
+         "en": "Learning, placement, security, path, team — scored with evidence.",
+         "id": "Pembelajaran, penempatan, keamanan, jalur, tim — dinilai dengan bukti."
         }
        }
       ],
       "note": {
-       "en": "Two offers with the same base can differ by a quarter of real value. Build the twenty-minute spreadsheet.",
-       "id": "Dua tawaran dengan gaji pokok yang sama bisa berbeda nilai nyata sampai seperempatnya. Buat spreadsheet dua puluh menit itu."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: Total compensation — the whole equation",
-       "id": "Peraga 1: Kompensasi total — persamaan yang utuh"
+       "en": "The sheet makes the decision honest; it does not make the decision.",
+       "id": "Lembar membuat keputusan jujur; ia tidak membuat keputusan."
       },
       "longdesc": {
-       "en": "Diagram of Total compensation — the whole equation. It presents, in order: Base salary — ×12 or ×13 with the holiday allowance; Bonus — Worth its TYPICAL attainment, not its maximum; Allowances & insurance — Transport, meals, premiums, retirement; Leave & learning — Paid days, budget, equipment; Invisible lines — Scope, growth rate, manager, network.",
-       "id": "Diagram kompensasi total — persamaan yang utuh. Menyajikan, secara berurutan: Gaji pokok — ×12, atau ×13 dengan THR; Bonus — nilainya sebesar realisasi yang LAZIM, bukan maksimumnya; Tunjangan & asuransi — transportasi, makan, premi, pensiun; Cuti & belajar — hari cuti berbayar, anggaran, peralatan; Baris yang tidak terlihat — ruang lingkup, laju pertumbuhan, atasan, jejaring."
+       "en": "A five-stage flow from an offer’s headline figure to its components, the conversion to a common gross or take-home basis with labelled estimates, the annual total value, and the scored non-money factors beside it.",
+       "id": "Alur lima tahap dari angka utama tawaran ke komponennya, konversi ke dasar kotor atau take-home yang sama dengan estimasi berlabel, total nilai tahunan, dan faktor non-uang yang dinilai di sampingnya."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "total annual value",
-        "id": "nilai tahunan total"
+       "tag": {
+        "en": "By headline → by decoded value and conditions",
+        "id": "Berdasarkan angka utama → berdasarkan nilai dan syarat yang diurai"
        },
-       "def": {
-        "en": "Every compensation component converted to a yearly number — base times twelve or thirteen, realistic bonus, allowances, insurance, retirement, leave, learning budget — the only basis on which two offers can be compared.",
-        "id": "Setiap komponen kompensasi dikonversi ke angka tahunan — gaji pokok kali dua belas atau tiga belas, bonus realistis, tunjangan, asuransi, pensiun, cuti, anggaran belajar — satu-satunya dasar untuk membandingkan dua tawaran."
-       }
-      },
-      {
-       "term": {
-        "en": "typical attainment",
-        "id": "pencapaian lazim"
-       },
-       "def": {
-        "en": "What a bonus actually pays in a normal year, as opposed to its advertised maximum — the number to ask for when a letter says “up to”.",
-        "id": "Berapa bonus benar-benar dibayarkan di tahun normal, berbeda dari maksimum yang diiklankan — angka yang perlu ditanyakan ketika surat mengatakan “hingga”."
-       }
-      }
-     ],
-     "checks": [
-      {
        "q": {
-        "en": "An offer includes “up to 4 months bonus”. The right question is:",
-        "id": "Sebuah tawaran mencantumkan “bonus hingga 4 bulan gaji”. Pertanyaan yang tepat:"
+        "en": "Two offers for a fresh graduate: Offer A, Rp 8 juta a month; Offer B, Rp 7 juta a month (fictional, from the blueprint’s compare).",
+        "id": "Dua tawaran untuk lulusan baru: Tawaran A, Rp 8 juta sebulan; Tawaran B, Rp 7 juta sebulan (fiktif, dari perbandingan cetak biru)."
        },
-       "options": [
-        {
-         "en": "Nothing — bonus terms are impolite to question",
-         "id": "Tidak ada — menanyakan ketentuan bonus itu tidak sopan"
-        },
-        {
-         "en": "“What did the typical person at this level actually receive last year?”",
-         "id": "“Berapa yang benar-benar diterima orang di level ini pada umumnya tahun lalu?”"
-        },
-        {
-         "en": "“Can you guarantee the maximum in writing?”",
-         "id": "“Bisakah angka maksimumnya dijamin secara tertulis?”"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "Correct — “up to” is marketing; typical attainment is data. The question is normal and professionals ask it.",
-        "id": "Benar — “hingga” adalah bahasa pemasaran; realisasi yang lazim adalah data. Pertanyaan itu wajar, dan para profesional menanyakannya."
-       }
-      },
-      {
-       "q": {
-        "en": "Early in your career, the component that most often outvalues a salary delta is:",
-        "id": "Di awal karier, komponen yang paling sering melampaui nilai selisih gaji adalah:"
+       "weak": {
+        "en": "“A lebih besar sejuta, jelas pilih A. Satu juta sebulan itu dua belas juta setahun.” — decided in the WhatsApp group in four minutes, before the contracts were read.",
+        "id": "“A lebih besar sejuta, jelas pilih A. Satu juta sebulan itu dua belas juta setahun.” — diputuskan di grup WhatsApp dalam empat menit, sebelum kontraknya dibaca."
        },
-       "options": [
-        {
-         "en": "Growth rate — what the seat teaches per year",
-         "id": "Laju pertumbuhan — apa yang diajarkan kursi itu setiap tahun"
-        },
-        {
-         "en": "The meal allowance",
-         "id": "Tunjangan makan"
-        },
-        {
-         "en": "The office location",
-         "id": "Lokasi kantor"
-        }
-       ],
-       "correct": 0,
+       "strong": {
+        "en": "“Saya pecah dulu. Di A, Rp 2,4 juta dari 8 juta adalah tunjangan transport dan makan yang tergantung kehadiran — tidak tetap, dan mungkin tidak masuk THR; kontraknya PKWT 12 bulan. Di B, 7 juta itu tetap, ditambah perumahan di kota penempatan dan asuransi swasta, dan kontraknya PKWTT. Kalau saya hitung tahunan dengan tunjangan tidak tetap diambil konservatif dan perumahan dinilai sebagai biaya yang tidak perlu saya bayar, B tidak kalah — dan B lebih aman. Selisihnya bukan dua belas juta; mungkin terbalik. Tarif BPJS dan pajaknya saya cek dulu sebelum menghitung take-home.”",
+        "id": "“Saya pecah dulu. Di A, Rp 2,4 juta dari 8 juta adalah tunjangan transport dan makan yang tergantung kehadiran — tidak tetap, dan mungkin tidak masuk THR; kontraknya PKWT 12 bulan. Di B, 7 juta itu tetap, ditambah perumahan di kota penempatan dan asuransi swasta, dan kontraknya PKWTT. Kalau saya hitung tahunan dengan tunjangan tidak tetap diambil konservatif dan perumahan dinilai sebagai biaya yang tidak perlu saya bayar, B tidak kalah — dan B lebih aman. Selisihnya bukan dua belas juta; mungkin terbalik. Tarif BPJS dan pajaknya saya cek dulu sebelum menghitung take-home.”"
+       },
        "why": {
-        "en": "Correct — capability compounds for decades; a small salary delta does not. Price growth deliberately.",
-        "id": "Benar — kemampuan bertumbuh berlipat selama puluhan tahun; selisih gaji yang kecil tidak. Beri harga pada pertumbuhan dengan sengaja."
+        "en": "The headline comparison multiplies a difference that does not exist on the same basis: 30% of A’s figure is variable and possibly outside THR, and B carries housing, private insurance and a permanent contract that A lacks. The decoded comparison puts both on one sheet, takes the uncertain lines conservatively, values the benefits B pays for, names the contract difference, and leaves the regulatory rates to be verified before the take-home is estimated. The figures are fictional.",
+        "id": "Perbandingan angka utama mengalikan selisih yang tidak ada pada dasar yang sama: 30% angka A tidak tetap dan mungkin di luar THR, dan B membawa perumahan, asuransi swasta, dan kontrak tetap yang tidak dimiliki A. Perbandingan yang diurai menaruh keduanya di satu lembar, mengambil baris tidak pasti secara konservatif, menilai manfaat yang dibayar B, menyebut perbedaan kontrak, dan menyerahkan tarif regulasi untuk diverifikasi sebelum take-home diestimasi. Angkanya fiktif."
        }
       }
      ],
      "scenario": {
       "icon": "book",
-      "img": "../../assets/bg/stage-activation.jpg",
       "title": {
-       "en": "Candidate In Focus",
-       "id": "Kandidat dalam Sorotan"
+       "en": "In focus: the six-month review that was only said",
+       "id": "Sorotan: evaluasi enam bulan yang hanya diucapkan"
       },
       "body": [
        {
-        "en": "Lia holds two offers. Company A: base salary 8% higher. Company B: a thirteenth-month allowance, full family insurance, a named learning budget, and a manager whose last three analysts were promoted within two years. Her friends say “take A, it pays more.” Her spreadsheet — twenty minutes of honest arithmetic — says B is worth more this year, and far more in three. This module builds that spreadsheet with you.",
-        "id": "Lia memegang dua tawaran. Perusahaan A: gaji pokok 8% lebih tinggi. Perusahaan B: THR, asuransi keluarga penuh, anggaran belajar yang jelas, dan seorang atasan yang tiga analis terakhirnya dipromosikan dalam dua tahun. Teman-temannya bilang, “ambil A, gajinya lebih besar.” Spreadsheet-nya — dua puluh menit hitungan yang jujur — mengatakan B lebih bernilai tahun ini, dan jauh lebih bernilai dalam tiga tahun. Modul ini menyusun spreadsheet itu bersamamu."
+        "en": "At the end of KilatPay’s final round, Mr. Aditya tells Nadia that a strong associate “biasanya kami review gajinya setelah enam bulan”. The offer letter arrives four days later: base, allowances, the contract, a start date. No review. Her first instinct is that asking would look greedy; her second, from this lesson, is that a promise the letter does not carry has no owner in a year — and Mr. Aditya may not be her manager in a year.",
+        "id": "Di akhir ronde final KilatPay, Pak Aditya memberi tahu Nadia bahwa associate yang kuat “biasanya kami review gajinya setelah enam bulan”. Surat penawaran datang empat hari kemudian: pokok, tunjangan, kontrak, tanggal mulai. Tanpa review. Naluri pertamanya adalah bertanya akan tampak serakah; naluri keduanya, dari pelajaran ini, adalah janji yang tidak dibawa surat tak punya pemilik dalam setahun — dan Pak Aditya mungkin bukan manajernya dalam setahun."
+       },
+       {
+        "en": "She writes one sentence to Dewi: “Terima kasih atas suratnya. Satu hal administratif: Pak Aditya sempat menyebut evaluasi gaji setelah enam bulan — boleh itu dicantumkan di surat atau di email konfirmasi?” Dewi replies the next morning with a revised letter: “evaluasi kinerja dan gaji pada bulan keenam”. Nothing was negotiated; something that was said became something that exists.",
+        "id": "Ia menulis satu kalimat ke Dewi: “Terima kasih atas suratnya. Satu hal administratif: Pak Aditya sempat menyebut evaluasi gaji setelah enam bulan — boleh itu dicantumkan di surat atau di email konfirmasi?” Dewi membalas pagi berikutnya dengan surat revisi: “evaluasi kinerja dan gaji pada bulan keenam”. Tak ada yang dinegosiasikan; sesuatu yang diucapkan menjadi sesuatu yang ada."
        }
       ]
-     },
-     "insights": {
-      "lead": {
-       "en": "How employers build an offer.",
-       "id": "Bagaimana pemberi kerja menyusun tawaran."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "There is a band, and you are placed in it",
-         "id": "Ada rentang, dan kamu ditempatkan di dalamnya"
-        },
-        "body": {
-         "en": "Most roles carry a salary band with a midpoint. The first number offered is usually below the midpoint for an external hire; the room to move is real and expected.",
-         "id": "Sebagian besar peran punya rentang gaji dengan titik tengah. Angka pertama yang ditawarkan biasanya di bawah titik tengah untuk rekrutan eksternal; ruang untuk bergerak itu nyata dan diharapkan."
-        }
-       },
-       {
-        "h": {
-         "en": "Non-salary items cost the company less",
-         "id": "Item non-gaji lebih murah bagi perusahaan"
-        },
-        "body": {
-         "en": "Start date, learning budget, title, equipment and a six-month review are often easier to grant than base — and some are worth more to you.",
-         "id": "Tanggal mulai, anggaran belajar, jabatan, peralatan, dan tinjauan enam bulan sering lebih mudah diberikan daripada gaji pokok — dan sebagian bernilai lebih bagimu."
-        }
-       },
-       {
-        "h": {
-         "en": "The offer conversation is remembered",
-         "id": "Percakapan tawaran diingat"
-        },
-        "body": {
-         "en": "A calm, evidence-based ask raises the manager’s opinion of you before day one. A silent acceptance leaves value on the table and teaches nothing.",
-         "id": "Permintaan yang tenang dan berbasis bukti meningkatkan pandangan manajer tentangmu sebelum hari pertama. Penerimaan diam meninggalkan nilai di meja dan tak mengajarkan apa pun."
-        }
-       }
-      ]
-     },
-     "resources": {
-      "items": [
-       {
-        "kind": "worksheet",
-        "title": {
-         "en": "Total compensation calculator",
-         "id": "Kalkulator kompensasi total"
-        },
-        "desc": {
-         "en": "Fill both columns for every offer. Annual figures.",
-         "id": "Isi kedua kolom untuk setiap tawaran. Angka tahunan."
-        },
-        "body": [
-         {
-          "en": "Base salary × 12 (or × 13 if a religious-holiday allowance / THR is paid): …",
-          "id": "Gaji pokok × 12 (atau × 13 jika THR dibayarkan): …"
-         },
-         {
-          "en": "Bonus at realistic attainment (ask for the last two years’ average): …",
-          "id": "Bonus pada pencapaian realistis (tanyakan rata-rata dua tahun terakhir): …"
-         },
-         {
-          "en": "Fixed allowances (transport, meals, housing, phone): …",
-          "id": "Tunjangan tetap (transportasi, makan, perumahan, telepon): …"
-         },
-         {
-          "en": "Employer contributions (health, pension / retirement, social security): …",
-          "id": "Iuran pemberi kerja (kesehatan, pensiun, jaminan sosial): …"
-         },
-         {
-          "en": "Leave beyond the legal minimum, valued at daily base rate: …",
-          "id": "Cuti di atas minimum hukum, dinilai pada tarif harian gaji pokok: …"
-         },
-         {
-          "en": "Learning budget, equipment, certifications paid: …",
-          "id": "Anggaran belajar, peralatan, sertifikasi yang dibayar: …"
-         },
-         {
-          "en": "TOTAL cash + benefits: …",
-          "id": "TOTAL tunai + tunjangan: …"
-         },
-         {
-          "en": "Invisible lines (score 1–5 each): title, scope, manager, learning, brand, commute. These break ties and often decide.",
-          "id": "Baris tak terlihat (nilai 1–5 masing-masing): jabatan, lingkup, manajer, pembelajaran, merek, perjalanan. Ini memutuskan seri dan sering menentukan."
-         }
-        ]
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Comparing base to base",
-         "id": "Membandingkan gaji pokok dengan gaji pokok"
-        },
-        "fix": {
-         "en": "Bonus attainment, allowances, insurance, retirement and leave move the real number by a lot. Compare totals.",
-         "id": "Pencapaian bonus, tunjangan, asuransi, pensiun, dan cuti menggeser angka sebenarnya secara signifikan. Bandingkan totalnya."
-        }
-       },
-       {
-        "h": {
-         "en": "Taking the bonus at target",
-         "id": "Mengambil bonus pada target"
-        },
-        "fix": {
-         "en": "Ask what the average payout was for the last two years. Target and actual are different numbers.",
-         "id": "Tanyakan berapa rata-rata pembayaran dua tahun terakhir. Target dan aktual adalah angka yang berbeda."
-        }
-       },
-       {
-        "h": {
-         "en": "Forgetting the invisible lines",
-         "id": "Melupakan baris yang tak terlihat"
-        },
-        "fix": {
-         "en": "Title, scope, manager quality and learning are compensation too. They compound; the allowance does not.",
-         "id": "Jabatan, lingkup, kualitas manajer, dan pembelajaran juga kompensasi. Mereka bertumbuh; tunjangan tidak."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:8.1"
-    },
-    {
-     "n": "10.2",
-     "title": {
-      "en": "Market Rate Research Methodology",
-      "id": "Metode Riset Harga Pasar"
-     },
-     "kind": "reading",
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "“What are your salary expectations?” is only frightening without data. The research method triangulates three sources — published salary guides, job ads that state ranges, and real conversations with people near the role — into a defensible range you can say out loud without flinching.",
-      "id": "“Berapa ekspektasi gaji Anda?” hanya menakutkan kalau kamu tidak punya data. Metode risetnya menyilangkan tiga sumber — panduan gaji yang diterbitkan, iklan lowongan yang mencantumkan rentang, dan percakapan sungguhan dengan orang-orang di sekitar posisi itu — menjadi rentang yang bisa dipertahankan dan kamu ucapkan tanpa ragu."
-     },
-     "objectives": [
-      {
-       "en": "Triangulate a salary range from three independent source types.",
-       "id": "Menyilangkan rentang gaji dari tiga jenis sumber yang saling independen."
-      },
-      {
-       "en": "Adjust for company stage, industry and your leverage honestly.",
-       "id": "Menyesuaikannya dengan tahap perusahaan, industri, dan daya tawarmu secara jujur."
-      },
-      {
-       "en": "Deliver the range with its reasoning in one practised sentence.",
-       "id": "Menyampaikan rentang itu beserta alasannya dalam satu kalimat yang sudah dilatih."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "A salary question is only frightening without data. To build a range you can say out loud and defend, you can:",
-      "id": "Pertanyaan soal gaji hanya menakutkan tanpa data. Untuk membangun rentang yang bisa kamu ucapkan dan pertahankan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "One source is a guess; three sources agreeing is a range you can defend.",
-       "id": "Satu sumber adalah tebakan; tiga sumber yang sepakat adalah rentang yang bisa kamu pertahankan."
-      },
-      {
-       "en": "People share salary information more readily than folklore claims — ask for ranges, not numbers.",
-       "id": "Orang lebih terbuka berbagi informasi gaji daripada yang dikira — mintalah rentang, bukan angka pribadi."
-      },
-      {
-       "en": "State the range with its basis: “based on market data for this role and level…”",
-       "id": "Sampaikan rentang beserta dasarnya: “berdasarkan data pasar untuk posisi dan level ini…”"
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "The three sources",
-        "id": "Tiga sumbernya"
-       },
-       "body": {
-        "en": "Published guides from recruitment firms give the wide band by role, level and city. Job advertisements that state ranges give the live market — collect five for your target role. Conversations give the truth behind both: ask people one step ahead of you, “for someone at my level in this kind of company, what range is realistic?” Ranges, not personal numbers — people answer that question.",
-        "id": "Panduan gaji terbitan firma rekrutmen memberi kisaran lebar berdasarkan posisi, level, dan kota. Iklan lowongan yang mencantumkan rentang memberi gambaran pasar yang hidup — kumpulkan lima untuk posisi yang kamu tuju. Percakapan memberi kebenaran di balik keduanya: tanyai orang yang selangkah di depanmu, “untuk seseorang di level saya di perusahaan seperti ini, rentang berapa yang realistis?” Rentang, bukan angka pribadi — pertanyaan seperti itu dijawab orang."
-       }
-      },
-      {
-       "h": {
-        "en": "Adjustments and honesty",
-        "id": "Penyesuaian dan kejujuran"
-       },
-       "body": {
-        "en": "Adjust for stage: startups pay differently from multinationals, and partly in learning and scope. Adjust for your leverage: competing offers move you up the band; urgency moves you down it. Then commit to a range whose bottom you would genuinely accept — a range you would refuse is a bluff, and module 5 already covered how bluffs end.",
-        "id": "Sesuaikan dengan tahap perusahaan: startup membayar berbeda dari perusahaan multinasional, sebagian dalam bentuk kesempatan belajar dan ruang lingkup. Sesuaikan dengan daya tawarmu: tawaran dari perusahaan lain menaikkanmu di dalam kisaran; keterdesakan menurunkanmu. Lalu tetapkan rentang yang batas bawahnya benar-benar akan kamu terima — rentang yang akan kamu tolak sendiri adalah gertakan, dan Modul 6 sudah membahas bagaimana gertakan berakhir."
-       }
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "Saying the range out loud",
-        "id": "Mengucapkan rentang itu"
-       },
-       "body": {
-        "en": "The research is wasted if the sentence falls apart in the room. The practised form is one breath long and carries its basis: “Based on market data for this role and level in Jakarta, and the scope we've discussed, I'm looking at X to Y.” The basis matters more than the numbers — it converts a demand into a reasoned position, and it invites the recruiter to respond with their band rather than with silence. Three habits keep the sentence steady. State the range once and stop; the pause after it is the recruiter's, not yours to fill with a discount. If asked for a single number, give the upper-middle of the range with the same basis. And if asked early — in the HR screen, before any offer exists — answer with the range rather than deflecting; a researched range delivered calmly is itself evidence of the professionalism the screen is testing for, and it anchors every later conversation at a number you chose.",
-        "id": "Riset itu sia-sia jika kalimatnya berantakan di ruangan. Bentuk yang sudah dilatih sepanjang satu tarikan napas dan membawa dasarnya: “Berdasarkan data pasar untuk peran dan level ini di Jakarta, dan lingkup yang sudah kita bahas, saya melihat kisaran X sampai Y.” Dasarnya lebih penting daripada angkanya — ia mengubah tuntutan menjadi posisi yang bernalar, dan mengundang perekrut menjawab dengan rentang mereka alih-alih dengan keheningan. Tiga kebiasaan menjaga kalimat itu tetap mantap. Sebutkan rentang sekali lalu berhenti; jeda setelahnya milik perekrut, bukan untuk kamu isi dengan diskon. Bila diminta satu angka, berikan bagian tengah-atas rentang dengan dasar yang sama. Dan bila ditanya lebih awal — di seleksi HR, sebelum tawaran apa pun ada — jawab dengan rentang alih-alih mengelak; rentang hasil riset yang disampaikan dengan tenang adalah bukti profesionalisme yang sedang diuji seleksi itu, dan ia menjangkarkan setiap percakapan berikutnya pada angka yang kamu pilih."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "title": {
-       "en": "Triangulating your range",
-       "id": "Menyilangkan sumber untuk rentangmu"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Salary guides",
-         "id": "Panduan gaji"
-        },
-        "sub": {
-         "en": "The wide band by role, level, city",
-         "id": "Kisaran lebar berdasarkan posisi, level, kota"
-        }
-       },
-       {
-        "h": {
-         "en": "Job ads with ranges",
-         "id": "Iklan lowongan dengan rentang"
-        },
-        "sub": {
-         "en": "The live market — collect five",
-         "id": "Pasar yang hidup — kumpulkan lima"
-        }
-       },
-       {
-        "h": {
-         "en": "Conversations",
-         "id": "Percakapan"
-        },
-        "sub": {
-         "en": "Ask for ranges, not personal numbers",
-         "id": "Minta rentang, bukan angka pribadi"
-        }
-       },
-       {
-        "h": {
-         "en": "Your range",
-         "id": "Rentangmu"
-        },
-        "sub": {
-         "en": "Bottom you would genuinely accept",
-         "id": "Batas bawah yang benar-benar akan kamu terima"
-        }
-       }
-      ],
-      "note": {
-       "en": "One source is a guess; three agreeing is a range you can say out loud without flinching.",
-       "id": "Satu sumber adalah tebakan; tiga yang sepakat adalah rentang yang bisa kamu ucapkan tanpa ragu."
-      },
-      "exhibit": {
-       "en": "Exhibit 1: Triangulating your range",
-       "id": "Peraga 1: Menyilangkan sumber untuk rentangmu"
-      },
-      "longdesc": {
-       "en": "Diagram of Triangulating your range. It presents, in order: Salary guides — The wide band by role, level, city; Job ads with ranges — The live market — collect five; Conversations — Ask for ranges, not personal numbers; Your range — Bottom you would genuinely accept.",
-       "id": "Diagram menyilangkan sumber untuk rentangmu. Menyajikan, secara berurutan: Panduan gaji — kisaran lebar berdasarkan posisi, level, kota; Iklan lowongan dengan rentang — pasar yang hidup, kumpulkan lima; Percakapan — minta rentang, bukan angka pribadi; Rentangmu — batas bawah yang benar-benar akan kamu terima."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "triangulation",
-        "id": "triangulasi"
-       },
-       "def": {
-        "en": "Combining three independent source types — published salary guides, job advertisements that state ranges, and conversations with people one step ahead — into one defensible range.",
-        "id": "Menggabungkan tiga jenis sumber independen — panduan gaji yang dipublikasikan, iklan lowongan yang mencantumkan rentang, dan percakapan dengan orang yang selangkah di depan — menjadi satu rentang yang bisa dipertahankan."
-       }
-      },
-      {
-       "term": {
-        "en": "walk-away bottom",
-        "id": "batas bawah yang sungguh diterima"
-       },
-       "def": {
-        "en": "The lowest number in your stated range, chosen so that you would genuinely accept it — a range whose bottom you would refuse is a bluff.",
-        "id": "Angka terendah dalam rentang yang kamu sebutkan, dipilih agar kamu benar-benar mau menerimanya — rentang yang batas bawahnya akan kamu tolak adalah gertakan."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "The strongest basis for your stated range is:",
-        "id": "Dasar terkuat untuk rentang yang kamu sebutkan adalah:"
-       },
-       "options": [
-        {
-         "en": "What your friend at a different company earns",
-         "id": "Gaji temanmu di perusahaan yang berbeda"
-        },
-        {
-         "en": "Your current salary plus a fixed percentage",
-         "id": "Gaji sekarang ditambah persentase tetap"
-        },
-        {
-         "en": "Three independent sources that roughly agree",
-         "id": "Tiga sumber independen yang kurang lebih sepakat"
-        }
-       ],
-       "correct": 2,
-       "why": {
-        "en": "Correct — triangulation. A single data point, especially your own history, anchors you to noise.",
-        "id": "Benar — menyilangkan sumber. Satu titik data, apalagi riwayat gajimu sendiri, hanya menambatkanmu pada derau."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "hr06",
-      "label": {
-       "en": "Deliver your range without flinching",
-       "id": "Sampaikan rentangmu tanpa ragu"
-      },
-      "desc": {
-       "en": "“What are your salary expectations?” — anchored, ranged, conditional.",
-       "id": "“Berapa ekspektasi gaji Anda?” — berpatokan pada data, berupa rentang, bersyarat."
-      }
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "One source, one number",
-         "id": "Satu sumber, satu angka"
-        },
-        "fix": {
-         "en": "Triangulate: published guides, job ads with ranges, and two conversations with people near the role. Take the overlap.",
-         "id": "Triangulasi: panduan yang dipublikasikan, iklan lowongan dengan rentang, dan dua percakapan dengan orang di sekitar peran itu. Ambil irisannya."
-        }
-       },
-       {
-        "h": {
-         "en": "Asking strangers “what do you earn?”",
-         "id": "Menanyai orang asing “berapa gajimu?”"
-        },
-        "fix": {
-         "en": "Ask about the range for the role and level, not their personal number. People answer that readily.",
-         "id": "Tanyakan rentang untuk peran dan levelnya, bukan angka pribadi mereka. Orang menjawab itu dengan mudah."
-        }
-       },
-       {
-        "h": {
-         "en": "Ignoring company size and industry",
-         "id": "Mengabaikan ukuran perusahaan dan industri"
-        },
-        "fix": {
-         "en": "The same title pays differently in a bank, a start-up and a state-owned enterprise. Benchmark within the segment.",
-         "id": "Jabatan yang sama dibayar berbeda di bank, start-up, dan BUMN. Bandingkan dalam segmennya."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-rope:8.2"
-    },
-    {
-     "n": "10.3",
-     "title": {
-      "en": "The Negotiation Conversation Script",
-      "id": "Naskah Percakapan Negosiasi"
-     },
-     "kind": "interactive",
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "Negotiation is one conversation, usually under fifteen minutes, that can be worth months of salary — and most candidates skip it out of fear the offer will vanish. It almost never does. This lesson gives the timing, the script skeleton, and the non-salary levers, then drills the three moments people fumble.",
-      "id": "Negosiasi adalah satu percakapan, biasanya kurang dari lima belas menit, yang bisa bernilai berbulan-bulan gaji — dan kebanyakan kandidat melewatkannya karena takut tawarannya lenyap. Itu hampir tidak pernah terjadi. Pelajaran ini memberimu waktunya, kerangka naskahnya, dan tuas-tuas di luar gaji, lalu melatih tiga momen yang paling sering membuat orang tergagap."
-     },
-     "objectives": [
-      {
-       "en": "Time the negotiation correctly: after the offer, before acceptance.",
-       "id": "Menempatkan negosiasi pada waktu yang tepat: setelah tawaran, sebelum menerima."
-      },
-      {
-       "en": "Run the appreciation → enthusiasm → ask → silence sequence.",
-       "id": "Menjalankan urutan apresiasi → antusiasme → permintaan → diam."
-      },
-      {
-       "en": "Deploy non-salary levers when the base is fixed.",
-       "id": "Memakai tuas-tuas di luar gaji ketika gaji pokoknya tidak bisa bergerak."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "One conversation under fifteen minutes can be worth months of salary, and the offer almost never vanishes. To run it professionally, you can:",
-      "id": "Satu percakapan kurang dari lima belas menit bisa bernilai berbulan-bulan gaji, dan tawaran hampir tak pernah lenyap. Untuk menjalankannya secara profesional, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "Companies expect negotiation; a professional ask has never reasonably cancelled an offer.",
-       "id": "Perusahaan memang mengharapkan negosiasi; permintaan yang profesional tidak pernah secara wajar membatalkan sebuah tawaran."
-      },
-      {
-       "en": "Ask once, clearly, with your researched basis — then stop talking.",
-       "id": "Minta sekali, dengan jelas, dengan dasar risetmu — lalu berhenti bicara."
-      },
-      {
-       "en": "Start date, sign-on, learning budget, review timing, title: levers that move when salary cannot.",
-       "id": "Tanggal mulai, bonus penandatanganan, anggaran belajar, waktu peninjauan gaji, jabatan: tuas-tuas yang bisa bergerak ketika gaji tidak bisa."
-      }
-     ],
-     "sections": [
-      {
-       "h": {
-        "en": "Timing and channel",
-        "id": "Waktu dan salurannya"
-       },
-       "body": {
-        "en": "Negotiate after a written offer exists and before you accept — never during interviews, never after signing. A call beats email for the conversation itself; email confirms what was agreed. If asked for your number early in the process, give the researched range and move on; the real conversation happens when they have already chosen you.",
-        "id": "Negosiasikan setelah tawaran tertulis ada dan sebelum kamu menerimanya — jangan pernah selama wawancara, jangan pernah setelah tanda tangan. Untuk percakapannya sendiri, telepon lebih baik daripada email; email dipakai untuk mengonfirmasi apa yang sudah disepakati. Kalau dimintai angka di awal proses, sampaikan rentang hasil risetmu dan lanjutkan; percakapan yang sesungguhnya terjadi ketika mereka sudah memilihmu."
-       }
-      },
-      {
-       "h": {
-        "en": "The script skeleton",
-        "id": "Kerangka naskahnya"
-       },
-       "body": {
-        "en": "Appreciation: thank them, specifically. Enthusiasm: you want this role — say it, because it makes the ask collaborative, not adversarial. The ask: “based on my research for this role and level — X to Y — is there room to move the base toward Z?” Silence: the hardest beat. They speak next, whatever the pause costs you in heartbeats.",
-        "id": "Apresiasi: ucapkan terima kasih, secara spesifik. Antusiasme: kamu menginginkan posisi ini — katakan, karena itu membuat permintaanmu terasa kolaboratif, bukan berhadap-hadapan. Permintaan: “berdasarkan riset saya untuk posisi dan level ini — X sampai Y — apakah ada ruang untuk menggerakkan gaji pokok mendekati Z?” Diam: ketukan yang paling sulit. Merekalah yang bicara berikutnya, berapa pun detak jantung yang harus kamu bayar untuk jeda itu."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "flow",
-      "exhibit": {
-       "en": "Exhibit 1: The negotiation script — four moves, one ask, then silence.",
-       "id": "Peraga 1: Naskah negosiasi — empat langkah, satu permintaan, lalu diam."
-      },
-      "title": {
-       "en": "Appreciation → Enthusiasm → The ask → Silence → Confirm in writing",
-       "id": "Apresiasi → Antusiasme → Permintaan → Diam → Konfirmasi tertulis"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Appreciation",
-         "id": "Apresiasi"
-        },
-        "sub": {
-         "en": "Thank them, specifically",
-         "id": "Berterima kasih, secara spesifik"
-        }
-       },
-       {
-        "h": {
-         "en": "Enthusiasm",
-         "id": "Antusiasme"
-        },
-        "sub": {
-         "en": "“I want this role” — it makes the ask collaborative",
-         "id": "“Saya menginginkan peran ini” — membuat permintaan menjadi kolaboratif"
-        }
-       },
-       {
-        "h": {
-         "en": "The ask",
-         "id": "Permintaan"
-        },
-        "sub": {
-         "en": "“Based on my research for this role and level — X to Y”",
-         "id": "“Berdasarkan riset saya untuk peran dan level ini — X sampai Y”"
-        }
-       },
-       {
-        "h": {
-         "en": "Silence",
-         "id": "Diam"
-        },
-        "sub": {
-         "en": "Ask once, clearly, then stop talking",
-         "id": "Minta sekali, dengan jelas, lalu berhenti bicara"
-        }
-       },
-       {
-        "h": {
-         "en": "Confirm in writing",
-         "id": "Konfirmasi tertulis"
-        },
-        "sub": {
-         "en": "Email restates what was agreed — the letter is the deal",
-         "id": "Email menyatakan ulang yang disepakati — suratnya adalah kesepakatannya"
-        }
-       }
-      ],
-      "note": {
-       "en": "If the salary budget is fixed: pivot to the non-salary levers in the same conversation.",
-       "id": "Jika anggaran gaji tetap: beralih ke tuas non-gaji dalam percakapan yang sama."
-      },
-      "longdesc": {
-       "en": "A five-step flow: thank the company specifically; state that you want the role; make one clear researched ask as a range; stop talking and let them respond; and confirm whatever is agreed in writing. The note covers the pivot to non-salary levers when the salary budget is fixed.",
-       "id": "Alur lima langkah: berterima kasih kepada perusahaan secara spesifik; nyatakan bahwa kamu menginginkan peran itu; ajukan satu permintaan jelas hasil riset dalam bentuk rentang; berhenti bicara dan biarkan mereka merespons; dan konfirmasi apa pun yang disepakati secara tertulis. Catatannya membahas peralihan ke tuas non-gaji ketika anggaran gaji tetap."
-      }
      },
      "steps": [
       {
        "h": {
-        "en": "Drill 1 · Say the ask aloud",
-        "id": "Latihan 1 · Ucapkan permintaannya dengan suara keras"
+        "en": "Drill 1 · Decode a sample offer",
+        "id": "Latihan 1 · Uraikan contoh tawaran"
        },
        "body": {
-        "en": "Write your ask sentence with your real range and basis, and say it aloud five times, ending in silence each time.",
-        "id": "Tulis kalimat permintaanmu dengan rentang dan dasar yang sebenarnya, lalu ucapkan dengan suara keras lima kali, setiap kali diakhiri dengan diam."
+        "en": "Take the fictional sample offer in the resources card and sort every line into the component table: which are fixed, which variable, which count toward THR, what the bonus actually is, which benefits the employer pays, what is missing. Write the questions you would send HR in one short email.",
+        "id": "Ambil contoh tawaran fiktif di kartu sumber dan urutkan setiap baris ke tabel komponen: mana yang tetap, mana tidak tetap, mana dihitung untuk THR, apa sebenarnya bonusnya, manfaat mana yang dibayar pemberi kerja, apa yang hilang. Tulis pertanyaan yang akan kamu kirim ke HR dalam satu email singkat."
        },
        "debrief": {
-        "en": "The fifth repetition should sound boring — that is the target. Boring means the adrenaline has left the sentence, and what remains is a professional stating market data. That tone is what moves offers.",
-        "id": "Pengulangan kelima seharusnya terdengar membosankan — itulah targetnya. Membosankan berarti adrenalin sudah meninggalkan kalimat itu, dan yang tersisa adalah seorang profesional yang menyampaikan data pasar. Nada seperti itulah yang menggerakkan tawaran."
+        "en": "The sample hides three things: a “tunjangan kehadiran” counted inside the headline, a bonus described only as “kompetitif”, and no statement of gross or gross-up. Your email should ask for the bonus’s actual payout history, whether the figure is gross, and whether the attendance allowance counts toward THR — three questions, one email, polite.",
+        "id": "Contoh menyembunyikan tiga hal: “tunjangan kehadiran” dihitung di dalam angka utama, bonus yang digambarkan hanya sebagai “kompetitif”, dan tanpa pernyataan kotor atau gross-up. Emailmu harus menanyakan riwayat pembayaran bonus aktual, apakah angkanya kotor, dan apakah tunjangan kehadiran dihitung untuk THR — tiga pertanyaan, satu email, sopan."
        }
       },
       {
        "h": {
-        "en": "Drill 2 · The “budget is fixed” pivot",
-        "id": "Latihan 2 · Beralih saat “anggarannya sudah tetap”"
+        "en": "Drill 2 · Two offers, one sheet",
+        "id": "Latihan 2 · Dua tawaran, satu lembar"
        },
        "body": {
-        "en": "They respond: “the base is fixed for this level.” Draft your next sentence using two non-salary levers.",
-        "id": "Mereka menjawab: “gaji pokok untuk level ini sudah tetap.” Susun kalimat berikutmu dengan memakai dua tuas di luar gaji."
+        "en": "Using the retained total-compensation calculator, put the blueprint’s two fictional offers (A at Rp 8 juta with 30% variable allowances on a 12-month PKWT; B at Rp 7 juta with housing, private insurance and PKWTT) on one annual sheet. Take variable lines conservatively, value the benefits you would otherwise buy at a price you look up, and leave the regulatory rates as blanks marked “verify”. Then score the invisible lines for both.",
+        "id": "Dengan kalkulator kompensasi total yang dipertahankan, taruh dua tawaran fiktif cetak biru (A Rp 8 juta dengan 30% tunjangan tidak tetap pada PKWT 12 bulan; B Rp 7 juta dengan perumahan, asuransi swasta, dan PKWTT) di satu lembar tahunan. Ambil baris tidak tetap secara konservatif, nilai manfaat yang seharusnya kamu beli dengan harga yang kamu cari, dan biarkan tarif regulasi kosong ditandai “verifikasi”. Lalu nilai baris tak terlihat untuk keduanya."
        },
        "debrief": {
-        "en": "Model: “Understood. Could we then look at a sign-on to bridge the gap, and a written six-month review with a defined raise path?” Fixed bases are often true; fixed everything rarely is. The pivot keeps the collaboration alive and regularly recovers most of the gap.",
-        "id": "Contoh: “Saya mengerti. Kalau begitu, bisakah kita melihat bonus penandatanganan untuk menjembatani selisihnya, dan peninjauan enam bulan yang tertulis dengan jalur kenaikan yang jelas?” Gaji pokok yang tetap sering kali memang benar; semuanya tetap jarang benar. Peralihan ini menjaga kolaborasi tetap hidup, dan sering kali memulihkan sebagian besar selisihnya."
+        "en": "If A still wins on your sheet, check whether you counted its variable allowances at full attendance and B’s housing at zero. If the two are close on money, the contract and the invisible lines decide — which is the point. The rates left blank are not a gap in your work; filling them from memory would be.",
+        "id": "Jika A masih menang di lembarmu, periksa apakah kamu menghitung tunjangan tidak tetapnya pada kehadiran penuh dan perumahan B pada nol. Jika keduanya dekat dalam uang, kontrak dan baris tak terlihat yang memutuskan — itulah intinya. Tarif yang dikosongkan bukan celah dalam kerjamu; mengisinya dari ingatan yang akan jadi celah."
        }
       },
       {
        "h": {
-        "en": "Drill 3 · Two offers, one conversation",
-        "id": "Latihan 3 · Dua tawaran, satu percakapan"
+        "en": "Drill 3 · The salary conversation, rehearsed",
+        "id": "Latihan 3 · Percakapan gaji, dilatih"
        },
        "body": {
-        "en": "You hold a competing offer. Draft the sentence that uses it honestly — no bluffing, no ultimatum.",
-        "id": "Kamu memegang tawaran dari perusahaan lain. Susun kalimat yang memakainya dengan jujur — tanpa gertakan, tanpa ultimatum."
+        "en": "Run the tryit below with the HR persona: your salary expectation, and whether it is gross or take-home. Answer with your range from Lesson 5.3, the word “kotor”, and — if asked about an offer you already hold — the components rather than the headline.",
+        "id": "Jalankan tryit di bawah dengan persona HR: ekspektasi gajimu, dan apakah kotor atau take-home. Jawab dengan rentangmu dari Pelajaran 5.3, kata “kotor”, dan — jika ditanya tentang tawaran yang sudah kamu pegang — komponennya bukan angka utamanya."
        },
        "debrief": {
-        "en": "Model: “I want to be transparent: I have another offer at X. This role is my first choice — if you can approach that number, I'm ready to accept.” Truthful leverage plus a clear preference plus a commitment. Never invent an offer; module 4's rule about reference checks has a sibling here — verification happens.",
-        "id": "Contoh: “Saya ingin transparan: saya memegang tawaran lain sebesar X. Posisi ini adalah pilihan pertama saya — kalau angkanya bisa didekati, saya siap menerima.” Daya tawar yang jujur plus preferensi yang jelas plus komitmen. Jangan pernah mengarang tawaran; aturan dari Modul 5 tentang pemeriksaan referensi punya saudara kembar di sini — verifikasi itu benar-benar terjadi."
+        "en": "If you said a number without “kotor”, or compared your range with a take-home figure, re-read the second section. The habit this drill builds is the one that makes the offer stage clean: every number you say has a basis attached.",
+        "id": "Jika kamu menyebut angka tanpa “kotor”, atau membandingkan rentangmu dengan angka take-home, baca ulang bagian kedua. Kebiasaan yang dibangun latihan ini adalah yang membuat tahap tawaran bersih: setiap angka yang kamu ucapkan punya dasar yang melekat."
        }
       }
      ],
-     "compare": [
-      {
-       "tag": {
-        "en": "The ask",
-        "id": "Permintaannya"
-       },
-       "weak": {
-        "en": "I was kind of hoping for maybe a bit more, if that's possible? But it's okay if not, I understand, the offer is already good…",
-        "id": "Sebenarnya saya agak berharap mungkin bisa sedikit lebih, kalau memungkinkan? Tapi tidak apa-apa kalau tidak bisa, saya mengerti, tawarannya sudah bagus kok…"
-       },
-       "strong": {
-        "en": "Thank you — I'm genuinely excited about this role. Based on my research for this position and level, the market sits at X to Y. Is there room to move the base toward Z?",
-        "id": "Terima kasih — saya sungguh antusias dengan posisi ini. Berdasarkan riset saya untuk posisi dan level ini, pasarnya berada di X sampai Y. Apakah ada ruang untuk menggerakkan gaji pokok mendekati Z?"
-       },
-       "why": {
-        "en": "The weak ask negotiates against itself before they answer. The strong one: appreciation, enthusiasm, researched anchor, one clear ask — then silence.",
-        "id": "Permintaan yang lemah menawar merugikan diri sendiri sebelum mereka sempat menjawab. Yang kuat: apresiasi, antusiasme, patokan hasil riset, satu permintaan yang jelas — lalu diam."
-       }
-      }
-     ],
-     "listen": [
-      {
-       "label": {
-        "en": "The ask, in the tone that moves offers",
-        "id": "Permintaan itu, dengan nada yang menggerakkan tawaran"
-       },
-       "text": {
-        "en": "Thank you for the offer — I'm genuinely excited about this role and this team. Based on my research for this position and level, the market sits between the numbers I shared. Is there room to move the base toward the top of that range?",
-        "id": "Terima kasih atas tawarannya — saya sungguh antusias dengan posisi dan tim ini. Berdasarkan riset saya untuk posisi dan level ini, pasarnya berada di antara angka yang saya sampaikan. Apakah ada ruang untuk menggerakkan gaji pokok mendekati batas atas rentang itu?"
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "You receive an offer at the bottom of your researched range. Your move:",
-        "id": "Kamu menerima tawaran di batas bawah rentang hasil risetmu. Langkahmu:"
-       },
-       "options": [
-        {
-         "en": "Thank them warmly, restate enthusiasm, present your range with its basis, ask, then be silent",
-         "id": "Berterima kasih dengan hangat, tegaskan antusiasme, sampaikan rentangmu beserta dasarnya, minta, lalu diam"
-        },
-        {
-         "en": "Accept immediately before they change their mind",
-         "id": "Langsung terima sebelum mereka berubah pikiran"
-        },
-        {
-         "en": "Decline to signal your market value",
-         "id": "Tolak untuk menunjukkan nilai pasarmu"
-        }
-       ],
-       "correct": 0,
-       "why": {
-        "en": "Correct — the four-beat script. The silence after the ask is where the movement happens; do not fill it.",
-        "id": "Benar — naskah empat ketukan. Diam setelah permintaan adalah saat pergerakan terjadi; jangan mengisinya."
-       }
-      }
-     ],
-     "tryit": {
-      "qid": "dc15",
-      "label": {
-       "en": "Defend the jump",
-       "id": "Pertahankan lompatannya"
-      },
-      "desc": {
-       "en": "“Why are you worth well above your current salary?” — price the role, not your history.",
-       "id": "“Mengapa Anda layak digaji jauh di atas gaji Anda sekarang?” — beri harga pada posisinya, bukan pada riwayatmu."
-      }
-     },
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Negotiating against yourself in the ask",
-         "id": "Menawar merugikan diri sendiri di dalam permintaan"
+         "en": "Comparing headlines",
+         "id": "Membandingkan angka utama"
         },
         "fix": {
-         "en": "No “but it's okay if not…” — appreciation, enthusiasm, researched range, one ask, then silence.",
-         "id": "Jangan ada “tapi tidak apa-apa kalau tidak bisa…” — apresiasi, antusiasme, rentang hasil riset, satu permintaan, lalu diam."
+         "en": "Components, one basis, annual value, conservative on the uncertain lines.",
+         "id": "Komponen, satu dasar, nilai tahunan, konservatif pada baris tidak pasti."
         }
        },
        {
         "h": {
-         "en": "Inventing a competing offer",
-         "id": "Mengarang tawaran dari perusahaan lain"
+         "en": "Gross against someone’s take-home",
+         "id": "Kotor melawan take-home orang lain"
         },
         "fix": {
-         "en": "Verification exists. Use leverage only when it is real, and pair it with a clear preference.",
-         "id": "Verifikasi itu benar-benar terjadi. Pakai daya tawar hanya kalau memang nyata, dan sandingkan dengan preferensi yang jelas."
+         "en": "Convert both to the same basis first; ask which “net” means.",
+         "id": "Ubah keduanya ke dasar sama dulu; tanyakan “bersih” yang mana."
         }
        },
        {
         "h": {
-         "en": "Accepting on the call out of relief",
-         "id": "Menerima saat itu juga karena lega"
+         "en": "Believing “up to”",
+         "id": "Mempercayai “hingga”"
         },
         "fix": {
-         "en": "Thank them, ask for the letter, take a day. Nothing legitimate evaporates overnight.",
-         "id": "Ucapkan terima kasih, minta suratnya, ambil waktu sehari. Tidak ada tawaran yang sah yang lenyap dalam semalam."
+         "en": "Ask the last two years’ actual payout; count it conservatively.",
+         "id": "Tanyakan pembayaran aktual dua tahun terakhir; hitung konservatif."
+        }
+       },
+       {
+        "h": {
+         "en": "Rates from memory",
+         "id": "Tarif dari ingatan"
+        },
+        "fix": {
+         "en": "Verified against a current official source, dated, and the estimate labelled.",
+         "id": "Diverifikasi terhadap sumber resmi terkini, diberi tanggal, dan estimasi diberi label."
+        }
+       },
+       {
+        "h": {
+         "en": "A verbal promise left verbal",
+         "id": "Janji lisan dibiarkan lisan"
+        },
+        "fix": {
+         "en": "One administrative sentence: into the letter or a confirmation email.",
+         "id": "Satu kalimat administratif: ke surat atau email konfirmasi."
         }
        }
       ]
@@ -45293,449 +45068,4112 @@ window.MT_LMS['the-rope'] = {
      "glossary": [
       {
        "term": {
-        "en": "negotiation",
-        "id": "negosiasi"
+        "en": "Tunjangan tetap",
+        "id": "Tunjangan tetap"
        },
        "def": {
-        "en": "The conversation after a written offer and before acceptance where terms can move — expected, when done professionally.",
-        "id": "Percakapan setelah tawaran tertulis dan sebelum kamu menerimanya, ketika syarat-syarat masih bisa bergerak — hal yang wajar, kalau dilakukan secara profesional."
+        "en": "A fixed allowance paid regardless of attendance; counts toward THR and some calculations.",
+        "id": "Tunjangan yang dibayar terlepas dari kehadiran; dihitung untuk THR dan beberapa perhitungan."
        }
       },
       {
        "term": {
-        "en": "non-salary levers",
-        "id": "tuas non-gaji"
+        "en": "Take-home pay",
+        "id": "Take-home pay"
        },
        "def": {
-        "en": "Start date, sign-on bonus, learning budget, review timing, title — the items a fixed salary budget can still move, asked for in the same conversation.",
-        "id": "Tanggal mulai, bonus penandatanganan, anggaran belajar, waktu tinjauan, jabatan — hal-hal yang masih bisa digerakkan oleh anggaran gaji yang tetap, diminta dalam percakapan yang sama."
+        "en": "Gross minus your BPJS contributions, PPh 21 and other agreed deductions — any figure you compute is an estimate.",
+        "id": "Kotor dikurangi iuran BPJS-mu, PPh 21, dan potongan lain yang disetujui — angka yang kamu hitung adalah estimasi."
+       }
+      },
+      {
+       "term": {
+        "en": "Gross-up",
+        "id": "Gross-up"
+       },
+       "def": {
+        "en": "An arrangement where the employer bears the income tax on the stated salary — worth more than the same gross elsewhere; must be stated in writing.",
+        "id": "Pengaturan di mana pemberi kerja menanggung pajak penghasilan atas gaji yang dinyatakan — bernilai lebih dari kotor yang sama di tempat lain; harus tertulis."
+       }
+      },
+      {
+       "term": {
+        "en": "Annual value",
+        "id": "Nilai tahunan"
+       },
+       "def": {
+        "en": "12 × monthly fixed + THR + conservative bonus + employer-paid benefits + one-time items − costs you bear.",
+        "id": "12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja + butir sekali bayar − biaya yang kamu tanggung."
        }
       }
      ],
+     "checks": [
+      {
+       "q": {
+        "en": "An offer of Rp 8 juta includes Rp 2,4 juta of attendance-based transport and meal allowances. For comparison you treat those…",
+        "id": "Tawaran Rp 8 juta termasuk Rp 2,4 juta tunjangan transport dan makan berbasis kehadiran. Untuk perbandingan kamu memperlakukannya…"
+       },
+       "options": [
+        {
+         "en": "As fixed salary",
+         "id": "Sebagai gaji tetap"
+        },
+        {
+         "en": "As variable — not guaranteed, possibly outside THR — counted conservatively",
+         "id": "Sebagai tidak tetap — tidak dijamin, mungkin di luar THR — dihitung konservatif"
+        },
+        {
+         "en": "As bonus",
+         "id": "Sebagai bonus"
+        },
+        {
+         "en": "As zero",
+         "id": "Sebagai nol"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Variable allowances depend on attendance and may not count toward THR; the sheet takes them conservatively.",
+        "id": "Tunjangan tidak tetap bergantung kehadiran dan mungkin tidak dihitung untuk THR; lembar mengambilnya konservatif."
+       }
+      },
+      {
+       "q": {
+        "en": "Take-home pay is…",
+        "id": "Take-home pay adalah…"
+       },
+       "options": [
+        {
+         "en": "The gross figure in the letter",
+         "id": "Angka kotor di surat"
+        },
+        {
+         "en": "Gross minus your BPJS contributions, PPh 21 and other agreed deductions — estimated from verified, dated rates",
+         "id": "Kotor dikurangi iuran BPJS-mu, PPh 21, dan potongan lain yang disetujui — diestimasi dari tarif terverifikasi dan bertanggal"
+        },
+        {
+         "en": "Gross plus THR",
+         "id": "Kotor plus THR"
+        },
+        {
+         "en": "Whatever a friend says theirs is",
+         "id": "Apa pun kata teman tentang miliknya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Compare on one basis; label any estimate and date its rates.",
+        "id": "Bandingkan pada satu dasar; beri label estimasi dan tanggal tarifnya."
+       }
+      },
+      {
+       "q": {
+        "en": "Two offers are compared best on…",
+        "id": "Dua tawaran paling baik dibandingkan berdasarkan…"
+       },
+       "options": [
+        {
+         "en": "The monthly headline",
+         "id": "Angka utama bulanan"
+        },
+        {
+         "en": "Annual total value on one sheet, uncertain lines conservative — with the non-money factors scored beside it",
+         "id": "Total nilai tahunan di satu lembar, baris tidak pasti konservatif — dengan faktor non-uang dinilai di sampingnya"
+        },
+        {
+         "en": "The bonus “up to” figure",
+         "id": "Angka bonus “hingga”"
+        },
+        {
+         "en": "The job title",
+         "id": "Nama jabatan"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Monthly figures mislead when THR, bonuses and benefits differ; the sheet often reverses which offer is higher.",
+        "id": "Angka bulanan menyesatkan saat THR, bonus, dan manfaat berbeda; lembar sering membalik tawaran mana yang lebih tinggi."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "elig_salary_gross",
+      "set": [
+       "elig_salary_gross",
+       "hr06"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "Salary with a basis: range, gross, components",
+       "id": "Gaji dengan dasar: rentang, kotor, komponen"
+      },
+      "desc": {
+       "en": "Two salary questions with the HR persona, one probe each. Answer with your researched range, the word “kotor”, and — if pressed about an offer you hold — its components rather than its headline. The blueprint’s Offer Decoder is not yet built; use the worksheet in the resources card for the arithmetic.",
+       "id": "Dua pertanyaan gaji dengan persona HR, satu galian masing-masing. Jawab dengan rentang hasil risetmu, kata “kotor”, dan — jika didesak tentang tawaran yang kamu pegang — komponennya bukan angka utamanya. Offer Decoder cetak biru belum dibangun; pakai lembar kerja di kartu sumber untuk aritmetikanya."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The headline is one line; decode every component and verify every regulatory figure before relying on it.",
+       "id": "Angka utama adalah satu baris; urai setiap komponen dan verifikasi setiap angka regulasi sebelum mengandalkannya."
+      },
+      {
+       "en": "Compare on one basis and on annual value, uncertain lines conservative — the result often reverses the headline.",
+       "id": "Bandingkan pada satu dasar dan nilai tahunan, baris tidak pasti konservatif — hasilnya sering membalik angka utama."
+      },
+      {
+       "en": "Score the invisible lines with evidence, and get every verbal promise into writing.",
+       "id": "Nilai baris tak terlihat dengan bukti, dan masukkan setiap janji lisan ke dalam tulisan."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The offer worksheet, a sample offer and the reading list",
+       "id": "Lembar kerja tawaran, contoh tawaran, dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The retained calculator, a fictional offer to decode, and the verification note.",
+       "id": "Kalkulator yang dipertahankan, tawaran fiktif untuk diurai, dan catatan verifikasi."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "The negotiation conversation",
-         "id": "Percakapan negosiasi"
+         "en": "Reading list and regulatory note · Lesson 10.1",
+         "id": "Daftar bacaan dan catatan regulasi · Pelajaran 10.1"
         },
         "desc": {
-         "en": "Fifteen minutes. Warm, specific, easy to say yes to.",
-         "id": "Lima belas menit. Hangat, spesifik, mudah disetujui."
+         "en": "Education, not legal or tax advice.",
+         "id": "Edukasi, bukan nasihat hukum atau pajak."
         },
         "body": [
          {
-          "en": "OPEN: “Thank you — I’m excited about the role and the team, and I want to make this work. I’d like to talk through two parts of the offer.”",
-          "id": "BUKA: “Terima kasih — saya antusias dengan peran dan timnya, dan ingin ini berhasil. Saya ingin membahas dua bagian dari tawaran ini.”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Every regulatory item in this lesson — the 75% base rule, THR entitlement and pro-rating, BPJS Kesehatan and Ketenagakerjaan rates and ceilings, PPh 21 method and PTKP — against current official sources, dated, before use. The blueprint asks that these be stored as dated parameters and re-verified at least every six months.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Setiap butir regulasi di pelajaran ini — aturan pokok 75%, hak dan proporsi THR, tarif dan batas BPJS Kesehatan dan Ketenagakerjaan, metode PPh 21 dan PTKP — terhadap sumber resmi terkini, bertanggal, sebelum dipakai. Cetak biru meminta ini disimpan sebagai parameter bertanggal dan diverifikasi ulang setidaknya setiap enam bulan."
          },
          {
-          "en": "ANCHOR WITH EVIDENCE: “Based on [sources] for this level and scope, the range I’m seeing is [X–Y]. The offer is at [Z]. Is there room to bring the base to [specific number]?”",
-          "id": "JANGKAR DENGAN BUKTI: “Berdasarkan [sumber] untuk level dan lingkup ini, rentang yang saya lihat adalah [X–Y]. Tawarannya di [Z]. Adakah ruang untuk membawa gaji pokok ke [angka spesifik]?”"
+          "en": "R. N. Bolles — fit and growth as predictors of satisfaction beside pay. The Rope (current), “Total compensation anatomy” — the visible and invisible lines and the calculator, retained.",
+          "id": "R. N. Bolles — kecocokan dan pertumbuhan sebagai prediktor kepuasan di samping gaji. The Rope (saat ini), “Anatomi kompensasi total” — baris terlihat dan tak terlihat serta kalkulator, dipertahankan."
          },
          {
-          "en": "IF NO ON BASE: “I understand. Could we look at [sign-on / earlier review / title / learning budget / start date] instead?”",
-          "id": "JIKA TIDAK PADA GAJI POKOK: “Saya mengerti. Bisakah kita melihat [bonus penandatanganan / tinjauan lebih awal / jabatan / anggaran belajar / tanggal mulai] sebagai gantinya?”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The Offer Decoder specified in the blueprint (THP estimate from dated parameters, annual value, flags) is not yet built; the worksheet below stands in, with rates left for you to fill from a verified source.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Offer Decoder yang ditentukan cetak biru (estimasi THP dari parameter bertanggal, nilai tahunan, penanda) belum dibangun; lembar kerja di bawah menggantikannya, dengan tarif dikosongkan untuk kamu isi dari sumber terverifikasi."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Total compensation calculator (retained, adapted)",
+         "id": "Kalkulator kompensasi total (dipertahankan, diadaptasi)"
+        },
+        "desc": {
+         "en": "One column per offer; annual; gross; the same year.",
+         "id": "Satu kolom per tawaran; tahunan; kotor; tahun yang sama."
+        },
+        "body": [
+         {
+          "en": "Monthly fixed (base + fixed allowances) × 12: … · THR (pro-rated in year one; rule verified on …): … · Variable allowances, conservative: … · Bonus at the last two years’ actual: …",
+          "id": "Tetap bulanan (pokok + tunjangan tetap) × 12: … · THR (proporsional di tahun satu; aturan diverifikasi pada …): … · Tunjangan tidak tetap, konservatif: … · Bonus pada aktual dua tahun terakhir: …"
          },
          {
-          "en": "SILENCE: after the ask, stop talking. Let them respond.",
-          "id": "KEHENINGAN: setelah meminta, berhenti bicara. Biarkan mereka merespons."
+          "en": "Employer-paid benefits you would otherwise buy (private insurance, laptop, housing): … · One-time items (signing, relocation): … · Costs you bear (moving, cost of living difference): − … · TOTAL annual value: …",
+          "id": "Manfaat dibayar pemberi kerja yang seharusnya kamu beli (asuransi swasta, laptop, perumahan): … · Butir sekali bayar (penandatanganan, relokasi): … · Biaya yang kamu tanggung (pindah, selisih biaya hidup): − … · TOTAL nilai tahunan: …"
          },
          {
-          "en": "CLOSE: “If we can get to [number or package], I’m ready to accept today. Could you confirm in writing?”",
-          "id": "TUTUP: “Jika kita bisa sampai di [angka atau paket], saya siap menerima hari ini. Bisakah Anda mengonfirmasi secara tertulis?”"
+          "en": "Take-home estimate (monthly): gross … − employee BPJS (rate …, verified on …) − PPh 21 (method …, verified on …) − other … = … (ESTIMATE) · Invisible lines 1–5 with one sentence of evidence: learning · placement · hours · contract security · path · commute · team",
+          "id": "Estimasi take-home (bulanan): kotor … − BPJS karyawan (tarif …, diverifikasi pada …) − PPh 21 (metode …, diverifikasi pada …) − lain … = … (ESTIMASI) · Baris tak terlihat 1–5 dengan satu kalimat bukti: pembelajaran · penempatan · jam · keamanan kontrak · jalur · perjalanan · tim"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Sample offer to decode (fictional) · the questions email",
+         "id": "Contoh tawaran untuk diurai (fiktif) · email pertanyaan"
+        },
+        "desc": {
+         "en": "For Drill 1.",
+         "id": "Untuk Latihan 1."
+        },
+        "body": [
+         {
+          "en": "“PT Contoh Sejahtera — Management Trainee. Gaji Rp 7.500.000/bulan (termasuk tunjangan kehadiran Rp 1.500.000). Bonus kompetitif. BPJS sesuai ketentuan. Cuti 12 hari. Penempatan: Surabaya. Mulai: 1 bulan setelah penandatanganan.”",
+          "id": "“PT Contoh Sejahtera — Management Trainee. Gaji Rp 7.500.000/bulan (termasuk tunjangan kehadiran Rp 1.500.000). Bonus kompetitif. BPJS sesuai ketentuan. Cuti 12 hari. Penempatan: Surabaya. Mulai: 1 bulan setelah penandatanganan.”"
          },
          {
-          "en": "NEVER: threaten, invent a competing offer, or negotiate twice after a yes.",
-          "id": "JANGAN PERNAH: mengancam, mengarang tawaran pesaing, atau bernegosiasi dua kali setelah ya."
+          "en": "Questions email (ID): “Yth. [Nama], terima kasih atas surat penawarannya. Untuk memahami paketnya dengan tepat, boleh saya tanyakan tiga hal: (1) apakah angka Rp 7,5 juta tersebut gaji kotor; (2) apakah tunjangan kehadiran dihitung dalam THR; (3) bagaimana skema bonus dan realisasinya dua tahun terakhir? Terima kasih.”",
+          "id": "Email pertanyaan (ID): “Yth. [Nama], terima kasih atas surat penawarannya. Untuk memahami paketnya dengan tepat, boleh saya tanyakan tiga hal: (1) apakah angka Rp 7,5 juta tersebut gaji kotor; (2) apakah tunjangan kehadiran dihitung dalam THR; (3) bagaimana skema bonus dan realisasinya dua tahun terakhir? Terima kasih.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "10.2",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Contracts — PKWT, PKWTT, Probation and Service Bonds",
+      "id": "Kontrak — PKWT, PKWTT, Masa Percobaan, dan Ikatan Dinas"
+     },
+     "overview": {
+      "en": "The offer letter is the promise; the contract is the deal. This lesson reads an Indonesian employment contract the way a careful candidate should: the difference between a fixed-term PKWT and an open-ended PKWTT, what probation is allowed to be and where it is not allowed at all, how to read a service bond in a management-trainee or officer programme, the other clauses that matter later — non-compete, confidentiality, placement, hours, termination, intellectual property — the red flags that should stop a signature, and how to ask for time to read. Everything in this lesson is marked for verification against the current Manpower Law as amended and its implementing regulations: The Rope provides education, not legal advice, and a contract that worries you is a reason to ask someone qualified.",
+      "id": "Surat penawaran adalah janji; kontrak adalah kesepakatannya. Pelajaran ini membaca kontrak kerja Indonesia seperti seharusnya kandidat yang cermat: perbedaan PKWT waktu tertentu dan PKWTT waktu tidak tertentu, apa yang boleh menjadi masa percobaan dan di mana sama sekali tidak boleh, cara membaca ikatan dinas di program management trainee atau officer, klausul lain yang penting kemudian — non-kompetisi, kerahasiaan, penempatan, jam kerja, pemutusan, kekayaan intelektual — tanda bahaya yang harus menghentikan tanda tangan, dan cara meminta waktu untuk membaca. Semua di pelajaran ini ditandai untuk verifikasi terhadap Undang-Undang Ketenagakerjaan terkini sebagaimana diubah dan peraturan pelaksananya: The Rope memberi edukasi, bukan nasihat hukum, dan kontrak yang mengkhawatirkanmu adalah alasan untuk bertanya kepada orang yang berkompeten."
+     },
+     "objectives": [
+      {
+       "en": "Tell a PKWT from a PKWTT and know what each implies for security and compensation.",
+       "id": "Membedakan PKWT dari PKWTT dan tahu implikasi masing-masing untuk keamanan dan kompensasi."
+      },
+      {
+       "en": "Recognise a probation clause that should not be there and ask about it.",
+       "id": "Mengenali klausul masa percobaan yang seharusnya tidak ada dan menanyakannya."
+      },
+      {
+       "en": "Read a service bond for its five terms before signing.",
+       "id": "Membaca ikatan dinas untuk lima syaratnya sebelum menandatangani."
+      },
+      {
+       "en": "Spot the red flags and ask for time to review, politely.",
+       "id": "Mengenali tanda bahaya dan meminta waktu untuk meninjau, dengan sopan."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The contract is the deal",
+       "id": "Kontrak adalah kesepakatannya"
+      },
+      "intro": {
+       "en": "Most contract problems a fresh graduate meets are visible on the page before signing. The skill is reading slowly, with a checklist, and asking.",
+       "id": "Kebanyakan masalah kontrak yang ditemui lulusan baru terlihat di halaman sebelum menandatangani. Keterampilannya adalah membaca pelan, dengan daftar periksa, dan bertanya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "PKWT vs PKWTT",
+         "id": "PKWT vs PKWTT"
+        },
+        "points": [
+         {
+          "en": "PKWT: fixed-term, for temporary or time-bound work, with a maximum total duration and compensation money at its end. PKWTT: open-ended.",
+          "id": "PKWT: waktu tertentu, untuk pekerjaan sementara atau terikat waktu, dengan durasi total maksimum dan uang kompensasi di akhirnya. PKWTT: waktu tidak tertentu."
+         },
+         {
+          "en": "All against current rules — verify.",
+          "id": "Semua terhadap aturan terkini — verifikasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Probation",
+         "id": "Masa percobaan"
+        },
+        "points": [
+         {
+          "en": "Only in a PKWTT, maximum three months; wages not below the applicable minimum.",
+          "id": "Hanya di PKWTT, maksimum tiga bulan; upah tidak di bawah minimum yang berlaku."
+         },
+         {
+          "en": "A probation clause in a PKWT is a red flag to ask about.",
+          "id": "Klausul masa percobaan di PKWT adalah tanda bahaya untuk ditanyakan."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Service bonds",
+         "id": "Ikatan dinas"
+        },
+        "points": [
+         {
+          "en": "Duration · amount · whether it decreases over time · what triggers repayment · whether it is a separate agreement.",
+          "id": "Durasi · jumlah · apakah menurun seiring waktu · apa yang memicu pembayaran kembali · apakah perjanjian terpisah."
+         },
+         {
+          "en": "Ask before signing; enforceability is a legal question.",
+          "id": "Tanyakan sebelum menandatangani; keberlakuan adalah pertanyaan hukum."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Red flags and time",
+         "id": "Tanda bahaya dan waktu"
+        },
+        "points": [
+         {
+          "en": "Original ijazah held · fees before starting · no written contract · a language you cannot read · pressure to sign now · terms that differ from the offer.",
+          "id": "Ijazah asli ditahan · biaya sebelum mulai · tanpa kontrak tertulis · bahasa yang tak bisa kamu baca · tekanan menandatangani sekarang · syarat yang berbeda dari tawaran."
+         },
+         {
+          "en": "Two to five working days to review is a normal request.",
+          "id": "Dua hingga lima hari kerja untuk meninjau adalah permintaan normal."
          }
         ]
        }
       ]
      },
-     "migratedFrom": "the-rope:8.3"
-    },
-    {
-     "n": "10.4",
-     "title": {
-      "en": "Offer Letter Red Flags and Verbal vs Written Commitments",
-      "id": "Tanda Bahaya di Surat Tawaran, dan Janji Lisan vs Tertulis"
-     },
-     "kind": "visual",
-     "dur": {
-      "en": "15 min",
-      "id": "15 mnt"
-     },
-     "placeholder": false,
-     "overview": {
-      "en": "The letter is the deal; everything else is conversation. This visual walk covers the four zones to inspect before signing: compensation exactness, probation terms, scope and title precision, and the penalty clauses — plus the golden rule that verbal promises must become written ones before they count.",
-      "id": "Suratnya adalah kesepakatannya; selebihnya hanya percakapan. Telusuran visual ini mencakup empat zona yang harus diperiksa sebelum tanda tangan: ketepatan kompensasi, ketentuan masa percobaan, ketepatan ruang lingkup dan jabatan, serta klausul penalti — plus aturan emasnya: janji lisan harus menjadi tertulis dulu sebelum bisa dihitung."
-     },
-     "objectives": [
-      {
-       "en": "Inspect the four risk zones of any offer letter.",
-       "id": "Memeriksa empat zona risiko di surat tawaran mana pun."
-      },
-      {
-       "en": "Convert verbal promises into written terms before signing.",
-       "id": "Mengubah janji lisan menjadi ketentuan tertulis sebelum tanda tangan."
-      },
-      {
-       "en": "Ask clarifying questions about unclear clauses without awkwardness.",
-       "id": "Menanyakan klausul yang tidak jelas tanpa merasa canggung."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "The letter is the deal; everything else is conversation. To read an offer the way it will one day be enforced, you can:",
-      "id": "Suratnya adalah kesepakatannya; selebihnya hanya percakapan. Untuk membaca tawaran sebagaimana ia kelak ditegakkan, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "If it matters and it is not written, it does not exist yet — ask for the sentence.",
-       "id": "Kalau penting dan belum tertulis, berarti belum ada — minta kalimatnya."
-      },
-      {
-       "en": "Probation terms deserve the same reading as salary: length, criteria, and what happens after.",
-       "id": "Ketentuan masa percobaan layak dibaca seteliti gaji: durasinya, kriterianya, dan apa yang terjadi setelahnya."
-      },
-      {
-       "en": "Questions about the letter are normal diligence; discomfort with them is itself a signal.",
-       "id": "Bertanya tentang isi surat adalah kehati-hatian yang normal; kalau mereka tidak nyaman ditanya, itu sendiri sebuah sinyal."
-      }
-     ],
-     "hotspots": [
-      {
-       "x": 24,
-       "y": 26,
-       "h": {
-        "en": "Compensation exactness",
-        "id": "Ketepatan kompensasi"
-       },
-       "body": {
-        "en": "Base amount and currency, allowance lines, bonus formula with its conditions, payment schedule. “Competitive bonus” is not a number; ask for the formula or the typical attainment in writing.",
-        "id": "Nominal gaji pokok dan mata uangnya, baris-baris tunjangan, rumus bonus beserta syaratnya, jadwal pembayaran. “Bonus yang kompetitif” bukan angka; minta rumusnya, atau realisasi yang lazim, secara tertulis."
-       }
-      },
-      {
-       "x": 72,
-       "y": 30,
-       "h": {
-        "en": "Probation terms",
-        "id": "Ketentuan masa percobaan"
-       },
-       "body": {
-        "en": "Length, evaluation criteria, salary during probation, notice period within it, and what confirmation changes. Vague probation criteria are the most common early-career dispute — ask how success will be measured, and keep the answer.",
-        "id": "Durasi, kriteria evaluasi, gaji selama masa percobaan, masa pemberitahuan di dalamnya, dan apa yang berubah setelah diangkat. Kriteria masa percobaan yang kabur adalah sengketa awal karier yang paling umum — tanyakan bagaimana keberhasilan akan diukur, dan simpan jawabannya."
-       }
-      },
-      {
-       "x": 30,
-       "y": 68,
-       "h": {
-        "en": "Scope, title and location",
-        "id": "Ruang lingkup, jabatan, dan lokasi"
-       },
-       "body": {
-        "en": "Does the title match what was discussed? Is the reporting line named? Work location and any relocation or travel expectations written? A letter that says “and other duties as assigned” is normal; a letter vaguer than the interviews were is not.",
-        "id": "Apakah jabatannya sesuai dengan yang dibicarakan? Apakah kepada siapa kamu melapor disebutkan? Apakah lokasi kerja dan ekspektasi relokasi atau perjalanan dinas tertulis? Kalimat “dan tugas-tugas lain yang ditetapkan” itu normal; surat yang lebih kabur daripada wawancaranya tidak."
-       }
-      },
-      {
-       "x": 76,
-       "y": 74,
-       "h": {
-        "en": "Penalty and exit clauses",
-        "id": "Klausul penalti dan pengunduran diri"
-       },
-       "body": {
-        "en": "Training-cost clawbacks, minimum service periods with penalties, sweeping non-competes, IP claims over personal projects. These exist in some markets — read them before signing, ask for limits where they are broad, and know what you are agreeing to walk away from.",
-        "id": "Kewajiban mengembalikan biaya pelatihan, masa kerja minimum dengan penalti, larangan bekerja di pesaing yang terlalu luas, klaim kekayaan intelektual atas proyek pribadimu. Klausul seperti ini ada di sebagian pasar kerja — baca sebelum tanda tangan, minta batasan kalau cakupannya terlalu luas, dan pahami apa yang kamu relakan."
-       }
-      }
-     ],
      "sections": [
+      {
+       "icon": "book",
+       "img": "../../assets/bg/gauntlet/gate-07-medical.jpg",
+       "imgPos": "50% 45%",
+       "h": {
+        "en": "PKWT (fixed-term) and PKWTT (permanent)",
+        "id": "PKWT (waktu tertentu) dan PKWTT (tetap)"
+       },
+       "body": {
+        "en": "Indonesian employment contracts come in two kinds, and the first line to find in any contract is which one you are being offered. A <b>PKWT</b> — <i>perjanjian kerja waktu tertentu</i> — is a fixed-term agreement for work of a temporary or time-bound nature; under current rules it has a maximum total duration including any extension <span class=\"ev ev-verify\">Verify</span>, and at the end of a PKWT the employee is generally entitled to compensation money (<i>uang kompensasi</i>) pro-rated by length of service <span class=\"ev ev-verify\">Verify</span>. A <b>PKWTT</b> — <i>perjanjian kerja waktu tidak tertentu</i> — is open-ended: permanent employment, ended only on the grounds and with the entitlements the law provides. Structured officer and management-trainee programmes in banks and state enterprises usually offer a PKWTT with probation, often with a service bond; start-ups and project roles often offer a PKWT of twelve months, sometimes with a verbal hope of conversion. Neither is wrong, but they are not the same offer at the same salary. When you compare offers (Lesson 10.1), the contract type is a line on the sheet: a PKWT at a higher base carries the risk of not being renewed, and its compensation money at the end is part of its value; a PKWTT at a lower base carries security that a fresh graduate with a placement outside their city may value highly. If a PKWT is offered with “conversion to permanent after a year”, that sentence belongs in writing, not in the interview (10.1). The details — the maximum duration, the compensation formula, the grounds for ending each — are regulated and changed by the Job Creation Law and its implementing regulations; read them from a current official source <span class=\"ev ev-verify\">Verify</span>.",
+        "id": "Kontrak kerja Indonesia ada dua jenis, dan baris pertama yang dicari di kontrak mana pun adalah jenis mana yang ditawarkan kepadamu. <b>PKWT</b> — <i>perjanjian kerja waktu tertentu</i> — untuk pekerjaan yang bersifat sementara atau terikat waktu; di bawah aturan terkini ia punya durasi total maksimum termasuk perpanjangan <span class=\"ev ev-verify\">Verifikasi</span>, dan di akhir PKWT karyawan umumnya berhak atas uang kompensasi proporsional menurut masa kerja <span class=\"ev ev-verify\">Verifikasi</span>. <b>PKWTT</b> — <i>perjanjian kerja waktu tidak tertentu</i> — terbuka: pekerjaan tetap, berakhir hanya atas dasar dan dengan hak yang diatur hukum. Program officer dan management trainee terstruktur di bank dan BUMN biasanya menawarkan PKWTT dengan masa percobaan, sering dengan ikatan dinas; startup dan peran proyek sering menawarkan PKWT dua belas bulan, kadang dengan harapan lisan akan diangkat. Tak satu pun salah, tetapi keduanya bukan tawaran yang sama pada gaji yang sama. Saat kamu membandingkan tawaran (Pelajaran 10.1), jenis kontrak adalah baris di lembar: PKWT dengan pokok lebih tinggi membawa risiko tidak diperpanjang, dan uang kompensasinya di akhir bagian dari nilainya; PKWTT dengan pokok lebih rendah membawa keamanan yang mungkin sangat dihargai lulusan baru dengan penempatan di luar kotanya. Jika PKWT ditawarkan dengan “diangkat tetap setelah setahun”, kalimat itu milik tulisan, bukan wawancara (10.1). Detailnya — durasi maksimum, rumus kompensasi, dasar pengakhiran masing-masing — diatur dan diubah oleh UU Cipta Kerja dan peraturan pelaksananya; bacalah dari sumber resmi terkini <span class=\"ev ev-verify\">Verifikasi</span>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "",
+          "id": ""
+         },
+         {
+          "en": "PKWT (fixed-term)",
+          "id": "PKWT (waktu tertentu)"
+         },
+         {
+          "en": "PKWTT (open-ended)",
+          "id": "PKWTT (waktu tidak tertentu)"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>For</b>",
+           "id": "<b>Untuk</b>"
+          },
+          {
+           "en": "Work of a temporary or time-bound nature",
+           "id": "Pekerjaan bersifat sementara atau terikat waktu"
+          },
+          {
+           "en": "Ongoing work",
+           "id": "Pekerjaan berkelanjutan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Duration</b>",
+           "id": "<b>Durasi</b>"
+          },
+          {
+           "en": "A stated end date; a maximum total duration under current rules <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Tanggal akhir tertentu; durasi total maksimum di bawah aturan terkini <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Open-ended",
+           "id": "Terbuka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Probation</b>",
+           "id": "<b>Masa percobaan</b>"
+          },
+          {
+           "en": "Not permitted — a clause is a red flag <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Tidak diizinkan — klausul adalah tanda bahaya <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Permitted, maximum three months <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Diizinkan, maksimum tiga bulan <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>At the end</b>",
+           "id": "<b>Di akhir</b>"
+          },
+          {
+           "en": "Compensation money pro-rated by service <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Uang kompensasi proporsional masa kerja <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "Ends only on the grounds and with the entitlements the law provides <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Berakhir hanya atas dasar dan dengan hak yang diatur hukum <span class=\"ev ev-verify\">Verifikasi</span>"
+          }
+         ],
+         [
+          {
+           "en": "<b>Typical for fresh graduates</b>",
+           "id": "<b>Tipikal untuk lulusan baru</b>"
+          },
+          {
+           "en": "Start-ups, project roles, some contract cohorts",
+           "id": "Startup, peran proyek, sebagian angkatan kontrak"
+          },
+          {
+           "en": "Bank and BUMN officer / MT programmes, often with a bond",
+           "id": "Program officer / MT bank dan BUMN, sering dengan ikatan dinas"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Education, not legal advice. Every regulated term verified against the current Manpower Law as amended and its implementing regulations.",
+         "id": "Edukasi, bukan nasihat hukum. Setiap syarat yang diatur diverifikasi terhadap UU Ketenagakerjaan terkini sebagaimana diubah dan peraturan pelaksananya."
+        }
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Probation — and where it does not belong",
+        "id": "Masa percobaan — dan di mana ia tidak seharusnya ada"
+       },
+       "body": {
+        "en": "Probation — <i>masa percobaan</i> — is permitted only in a <b>PKWTT</b>, with a maximum of <b>three months</b> <span class=\"ev ev-verify\">Verify</span>, and wages during probation may not be below the applicable minimum wage <span class=\"ev ev-verify\">Verify</span>. Three practical consequences follow. First, a <b>probation clause in a PKWT is a red flag</b>: if a twelve-month fixed-term contract says the first three months are probation, ask what it means and on what basis — the answer tells you how carefully the employer reads its own contracts, and the clause may not do what it says <span class=\"ev ev-verify\">Verify</span>. Ask politely and in writing; do not argue law with a recruiter. Second, read the probation terms the way the current Rope taught: the length; the evaluation criteria (“kita lihat nanti” means something different to each party — ask how success is measured and keep the answer in writing, as Module 11 will build on); the salary during probation if it differs; the notice period inside probation; and what confirmation changes. Third, a probation longer than three months, or “extended” probation, is a question to ask before signing, not after. Structured programmes often attach probation to the first rotation and evaluate it formally; Module 11 covers how that evaluation works in practice.",
+        "id": "Masa percobaan diizinkan hanya dalam <b>PKWTT</b>, dengan maksimum <b>tiga bulan</b> <span class=\"ev ev-verify\">Verifikasi</span>, dan upah selama masa percobaan tidak boleh di bawah upah minimum yang berlaku <span class=\"ev ev-verify\">Verifikasi</span>. Tiga konsekuensi praktis menyusul. Pertama, <b>klausul masa percobaan di PKWT adalah tanda bahaya</b>: jika kontrak waktu tertentu dua belas bulan menyatakan tiga bulan pertama adalah percobaan, tanyakan artinya dan atas dasar apa — jawabannya memberitahumu seberapa cermat pemberi kerja membaca kontraknya sendiri, dan klausulnya mungkin tidak berlaku seperti yang dikatakannya <span class=\"ev ev-verify\">Verifikasi</span>. Tanyakan dengan sopan dan tertulis; jangan berdebat hukum dengan rekruter. Kedua, baca syarat percobaan seperti diajarkan The Rope saat ini: lamanya; kriteria evaluasi (“kita lihat nanti” berarti berbeda bagi tiap pihak — tanyakan bagaimana keberhasilan diukur dan simpan jawabannya tertulis, karena Modul 11 akan membangun di atasnya); gaji selama percobaan jika berbeda; masa pemberitahuan di dalam percobaan; dan apa yang diubah oleh pengangkatan. Ketiga, percobaan lebih dari tiga bulan, atau percobaan yang “diperpanjang”, adalah pertanyaan sebelum menandatangani, bukan setelahnya. Program terstruktur sering melekatkan percobaan pada rotasi pertama dan mengevaluasinya secara formal; Modul 11 membahas cara evaluasi itu berjalan dalam praktik."
+       },
+       "bullets": [
+        {
+         "en": "<b>PKWTT only, three months maximum</b> <span class=\"ev ev-verify\">Verify</span> — wages not below the applicable minimum.",
+         "id": "<b>Hanya PKWTT, maksimum tiga bulan</b> <span class=\"ev ev-verify\">Verifikasi</span> — upah tidak di bawah minimum yang berlaku."
+        },
+        {
+         "en": "<b>Probation in a PKWT</b> — a red flag; ask what it means, politely and in writing.",
+         "id": "<b>Percobaan di PKWT</b> — tanda bahaya; tanyakan artinya, sopan dan tertulis."
+        },
+        {
+         "en": "<b>Read the terms</b> — length, criteria, pay during probation, notice, what confirmation changes.",
+         "id": "<b>Baca syaratnya</b> — lama, kriteria, gaji selama percobaan, pemberitahuan, apa yang diubah pengangkatan."
+        },
+        {
+         "en": "<b>Criteria in writing</b> — the start of your Module 11 plan.",
+         "id": "<b>Kriteria tertulis</b> — awal rencana Modul 11-mu."
+        }
+       ]
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Service bonds (ikatan dinas)",
+        "id": "Ikatan dinas"
+       },
+       "body": {
+        "en": "Officer development and management-trainee programmes commonly include a service bond: you agree to work for a stated period after training — often one to three years — and to repay an amount if you leave early. The bond is not a trick; the employer is investing in months of training and wants to keep the people it trains. But it is a financial commitment, and it is read with five questions before signing. <b>Duration</b>: how long, and from when — the start date, the end of training, or confirmation? <b>Amount</b>: how much, and what it is for — training cost, salary during training, both? <b>Does it decrease over time?</b> A bond that decreases monthly or yearly with service (a fixed amount per month served) is very different from one that stays at the full amount until the last day; the second makes leaving in month twenty-three as expensive as leaving in month two. <b>What triggers repayment</b>: resignation only, or also dismissal, failing probation, refusing a placement? <b>Is it a separate agreement</b> — and have you seen it before signing the contract? Ask for any of these that are not written, in writing, before you sign. Lesson 5.1 told you to decide the bond at home before the HR screen; this lesson is where the decision meets the document. Whether and how a particular bond clause is enforceable is a legal question, and The Rope does not give legal advice <span class=\"ev ev-verify\">Verify: enforceability considerations; not legal advice</span>. What The Rope can say is that signing a bond you have not read, or cannot afford to repay, is the most expensive mistake available at the offer stage — and that an employer unwilling to show you the bond before you sign has told you something important.",
+        "id": "Program pengembangan officer dan management trainee umumnya memuat ikatan dinas: kamu setuju bekerja untuk periode tertentu setelah pelatihan — sering satu hingga tiga tahun — dan membayar kembali sejumlah uang jika keluar lebih awal. Ikatan dinas bukan jebakan; pemberi kerja berinvestasi dalam pelatihan berbulan-bulan dan ingin mempertahankan orang yang dilatihnya. Tetapi ia komitmen finansial, dan dibaca dengan lima pertanyaan sebelum menandatangani. <b>Durasi</b>: berapa lama, dan sejak kapan — tanggal mulai, akhir pelatihan, atau pengangkatan? <b>Jumlah</b>: berapa, dan untuk apa — biaya pelatihan, gaji selama pelatihan, keduanya? <b>Apakah menurun seiring waktu?</b> Ikatan dinas yang menurun bulanan atau tahunan menurut masa kerja (jumlah tetap per bulan dijalani) sangat berbeda dari yang tetap pada jumlah penuh sampai hari terakhir; yang kedua membuat keluar di bulan dua puluh tiga semahal keluar di bulan dua. <b>Apa yang memicu pembayaran kembali</b>: pengunduran diri saja, atau juga pemberhentian, gagal percobaan, menolak penempatan? <b>Apakah perjanjian terpisah</b> — dan sudahkah kamu melihatnya sebelum menandatangani kontrak? Minta yang tidak tertulis, secara tertulis, sebelum menandatangani. Pelajaran 5.1 menyuruhmu memutuskan ikatan dinas di rumah sebelum seleksi HR; pelajaran ini tempat keputusan bertemu dokumennya. Apakah dan bagaimana klausul ikatan dinas tertentu berlaku adalah pertanyaan hukum, dan The Rope tidak memberi nasihat hukum <span class=\"ev ev-verify\">Verifikasi: pertimbangan keberlakuan; bukan nasihat hukum</span>. Yang bisa dikatakan The Rope adalah menandatangani ikatan dinas yang belum kamu baca, atau tak mampu kamu bayar kembali, adalah kesalahan paling mahal yang tersedia di tahap tawaran — dan pemberi kerja yang enggan menunjukkan ikatan dinas sebelum kamu menandatangani sudah memberitahumu sesuatu yang penting."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Question",
+          "id": "Pertanyaan"
+         },
+         {
+          "en": "Why it matters",
+          "id": "Mengapa penting"
+         },
+         {
+          "en": "Example of the answer to want in writing (fictional)",
+          "id": "Contoh jawaban yang diinginkan tertulis (fiktif)"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Duration — from when?</b>",
+           "id": "<b>Durasi — sejak kapan?</b>"
+          },
+          {
+           "en": "Two years from the start is shorter than two years from the end of training",
+           "id": "Dua tahun sejak mulai lebih pendek dari dua tahun sejak akhir pelatihan"
+          },
+          {
+           "en": "“24 bulan sejak tanggal mulai bekerja”",
+           "id": "“24 bulan sejak tanggal mulai bekerja”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Amount — for what?</b>",
+           "id": "<b>Jumlah — untuk apa?</b>"
+          },
+          {
+           "en": "Tells you what you would repay and whether it is proportionate",
+           "id": "Memberitahumu apa yang akan kamu bayar kembali dan apakah proporsional"
+          },
+          {
+           "en": "“Rp 48 juta, biaya pelatihan program”",
+           "id": "“Rp 48 juta, biaya pelatihan program”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Decreasing?</b>",
+           "id": "<b>Menurun?</b>"
+          },
+          {
+           "en": "Decreasing monthly makes late exits cheap; a flat bond makes them as expensive as early ones",
+           "id": "Menurun bulanan membuat keluar terlambat murah; ikatan datar membuatnya semahal keluar awal"
+          },
+          {
+           "en": "“Berkurang Rp 2 juta untuk setiap bulan masa kerja”",
+           "id": "“Berkurang Rp 2 juta untuk setiap bulan masa kerja”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Triggers</b>",
+           "id": "<b>Pemicu</b>"
+          },
+          {
+           "en": "Resignation only, or also dismissal, failed probation, refused placement?",
+           "id": "Pengunduran diri saja, atau juga pemberhentian, gagal percobaan, menolak penempatan?"
+          },
+          {
+           "en": "“Berlaku jika karyawan mengundurkan diri sebelum 24 bulan”",
+           "id": "“Berlaku jika karyawan mengundurkan diri sebelum 24 bulan”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Separate agreement?</b>",
+           "id": "<b>Perjanjian terpisah?</b>"
+          },
+          {
+           "en": "You should read it before signing the contract, not after",
+           "id": "Kamu harus membacanya sebelum menandatangani kontrak, bukan setelahnya"
+          },
+          {
+           "en": "A copy sent with the offer",
+           "id": "Salinan dikirim bersama tawaran"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "A bond of Rp 48 juta decreasing by Rp 2 juta per month served is Rp 12 juta after eighteen months; a flat bond is still Rp 48 juta. Fictional figures.",
+         "id": "Ikatan dinas Rp 48 juta yang berkurang Rp 2 juta per bulan dijalani adalah Rp 12 juta setelah delapan belas bulan; ikatan datar tetap Rp 48 juta. Angka fiktif."
+        }
+       }
+      },
       {
        "icon": "eye",
        "h": {
-        "en": "Money and probation, in numbers",
-        "id": "Uang dan masa percobaan, dalam angka"
+        "en": "Other clauses, red flags, and asking for time",
+        "id": "Klausul lain, tanda bahaya, dan meminta waktu"
        },
        "body": {
-        "en": "Read the compensation section as an auditor would. Base amount and currency; each allowance as its own line; the bonus as a formula with its conditions and payment schedule, not as an adjective — “competitive bonus” is not a number, and the fix is to ask, in writing, for the formula or the typical attainment. Then the probation terms, which deserve the same reading as salary and rarely get it: the length; the evaluation criteria; the salary during probation if it differs; the notice period inside probation, which is often shorter for both sides; and what confirmation changes. Vague probation criteria are the most common early-career dispute, because “we'll see how it goes” means something different to each party. Ask how success will be measured, and keep the answer — ideally in the email that confirms the offer, so the criteria are as written as the salary is.",
-        "id": "Baca bagian kompensasi seperti seorang auditor. Jumlah gaji pokok dan mata uangnya; setiap tunjangan sebagai barisnya sendiri; bonus sebagai rumus dengan syarat dan jadwal pembayarannya, bukan sebagai kata sifat — “bonus kompetitif” bukan angka, dan perbaikannya adalah meminta, secara tertulis, rumusnya atau pencapaian lazimnya. Lalu ketentuan masa percobaan, yang layak dibaca sama telitinya dengan gaji dan jarang mendapatkannya: lamanya; kriteria evaluasi; gaji selama masa percobaan jika berbeda; masa pemberitahuan di dalam masa percobaan, yang sering lebih singkat bagi kedua pihak; dan apa yang berubah setelah pengangkatan. Kriteria masa percobaan yang samar adalah sengketa awal karier paling umum, karena “kita lihat saja nanti” berarti berbeda bagi tiap pihak. Tanyakan bagaimana keberhasilan akan diukur, dan simpan jawabannya — idealnya di email yang mengonfirmasi tawaran, sehingga kriterianya sama tertulisnya dengan gaji."
+        "en": "Beyond type, probation and bond, six more clauses deserve a slow read. <b>Non-compete</b>: scope, duration and reasonableness — a clause that bars you from the whole industry for years is worth asking about. <b>Confidentiality</b>: normal and expected; read what it covers. <b>Placement and transfer rights</b>: “bersedia ditempatkan di seluruh wilayah kerja perusahaan” is what you already decided in Lesson 5.1; check that it matches. <b>Working hours and overtime</b>: the stated hours and how overtime is handled. <b>Termination terms</b>: notice periods for both sides. <b>Intellectual property</b>: whether it reaches into personal projects. Then the <b>red flags</b> — any one of which is a reason to stop and ask before signing: the employer <b>holding your original ijazah or certificates</b> <span class=\"ev ev-verify\">Verify legal status</span>; <b>fees</b> for training, uniforms or equipment before you start; <b>no written contract</b>; a contract <b>in a language you do not understand</b>, without a translation; <b>pressure to sign immediately</b>; and <b>terms that differ from the offer letter</b>. Lesson 5.4 met several of these as employer red flags in the interview; here they are on paper, which is easier — you can read them twice. Finally, <b>asking for time</b> is normal: two to five working days to review a contract is an ordinary request, and an employer who refuses it has answered a question you did not have to ask. The phrasing is short and grateful: “Terima kasih atas penawarannya. Boleh saya minta waktu sampai hari Jumat untuk mempelajari kontraknya?” Use the time to read with the checklist in the resources card, to ask your questions in one email, and — if anything worries you — to ask someone qualified.",
+        "id": "Di luar jenis, percobaan, dan ikatan dinas, enam klausul lagi layak dibaca pelan. <b>Non-kompetisi</b>: cakupan, durasi, dan kewajaran — klausul yang melarangmu dari seluruh industri bertahun-tahun layak ditanyakan. <b>Kerahasiaan</b>: normal dan diharapkan; baca apa yang dicakupnya. <b>Hak penempatan dan mutasi</b>: “bersedia ditempatkan di seluruh wilayah kerja perusahaan” adalah yang sudah kamu putuskan di Pelajaran 5.1; periksa kecocokannya. <b>Jam kerja dan lembur</b>: jam yang dinyatakan dan cara lembur ditangani. <b>Syarat pemutusan</b>: masa pemberitahuan bagi kedua pihak. <b>Kekayaan intelektual</b>: apakah menjangkau proyek pribadi. Lalu <b>tanda bahaya</b> — satu saja adalah alasan berhenti dan bertanya sebelum menandatangani: pemberi kerja <b>menahan ijazah atau sertifikat aslimu</b> <span class=\"ev ev-verify\">Verifikasi status hukum</span>; <b>biaya</b> pelatihan, seragam, atau peralatan sebelum kamu mulai; <b>tanpa kontrak tertulis</b>; kontrak <b>dalam bahasa yang tidak kamu pahami</b>, tanpa terjemahan; <b>tekanan menandatangani segera</b>; dan <b>syarat yang berbeda dari surat penawaran</b>. Pelajaran 5.4 menemui beberapa ini sebagai tanda bahaya pemberi kerja di wawancara; di sini mereka di kertas, yang lebih mudah — kamu bisa membacanya dua kali. Terakhir, <b>meminta waktu</b> itu normal: dua hingga lima hari kerja untuk meninjau kontrak adalah permintaan biasa, dan pemberi kerja yang menolaknya sudah menjawab pertanyaan yang tak perlu kamu ajukan. Frasanya singkat dan penuh terima kasih: “Terima kasih atas penawarannya. Boleh saya minta waktu sampai hari Jumat untuk mempelajari kontraknya?” Pakai waktunya untuk membaca dengan daftar periksa di kartu sumber, mengajukan pertanyaanmu dalam satu email, dan — jika ada yang mengkhawatirkan — bertanya kepada orang yang berkompeten."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Red flag",
+          "id": "Tanda bahaya"
+         },
+         {
+          "en": "Ask",
+          "id": "Tanyakan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Original ijazah or certificates held <span class=\"ev ev-verify\">Verify</span>",
+           "id": "Ijazah atau sertifikat asli ditahan <span class=\"ev ev-verify\">Verifikasi</span>"
+          },
+          {
+           "en": "“Apakah dokumen yang diperlukan cukup salinan yang dilegalisir?”",
+           "id": "“Apakah dokumen yang diperlukan cukup salinan yang dilegalisir?”"
+          }
+         ],
+         [
+          {
+           "en": "Fees for training, uniforms or equipment before starting",
+           "id": "Biaya pelatihan, seragam, atau peralatan sebelum mulai"
+          },
+          {
+           "en": "“Boleh saya tahu dasar biaya ini dan apakah tercantum di kontrak?”",
+           "id": "“Boleh saya tahu dasar biaya ini dan apakah tercantum di kontrak?”"
+          }
+         ],
+         [
+          {
+           "en": "No written contract",
+           "id": "Tanpa kontrak tertulis"
+          },
+          {
+           "en": "“Kapan saya bisa menerima kontrak tertulisnya untuk dipelajari?”",
+           "id": "“Kapan saya bisa menerima kontrak tertulisnya untuk dipelajari?”"
+          }
+         ],
+         [
+          {
+           "en": "A language you cannot read",
+           "id": "Bahasa yang tak bisa kamu baca"
+          },
+          {
+           "en": "“Apakah tersedia versi bahasa Indonesia?”",
+           "id": "“Apakah tersedia versi bahasa Indonesia?”"
+          }
+         ],
+         [
+          {
+           "en": "Pressure to sign today",
+           "id": "Tekanan menandatangani hari ini"
+          },
+          {
+           "en": "“Boleh saya minta waktu sampai [hari] untuk mempelajarinya?”",
+           "id": "“Boleh saya minta waktu sampai [hari] untuk mempelajarinya?”"
+          }
+         ],
+         [
+          {
+           "en": "Terms that differ from the offer letter",
+           "id": "Syarat berbeda dari surat penawaran"
+          },
+          {
+           "en": "“Di surat penawaran tertulis [X]; di kontrak [Y] — mana yang berlaku?”",
+           "id": "“Di surat penawaran tertulis [X]; di kontrak [Y] — mana yang berlaku?”"
+          }
+         ]
+        ]
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: Reading a contract before signing",
+       "id": "Peraga 1: Membaca kontrak sebelum menandatangani"
+      },
+      "title": {
+       "en": "Type → probation → bond → other clauses → red flags → questions in one email",
+       "id": "Jenis → percobaan → ikatan dinas → klausul lain → tanda bahaya → pertanyaan dalam satu email"
+      },
+      "items": [
+       {
+        "icon": "book",
+        "h": {
+         "en": "Type",
+         "id": "Jenis"
+        },
+        "sub": {
+         "en": "PKWT or PKWTT? End date, conversion promises in writing.",
+         "id": "PKWT atau PKWTT? Tanggal akhir, janji pengangkatan tertulis."
+        }
+       },
+       {
+        "icon": "shield",
+        "h": {
+         "en": "Probation",
+         "id": "Percobaan"
+        },
+        "sub": {
+         "en": "PKWTT only, ≤ 3 months, criteria in writing; in a PKWT — ask.",
+         "id": "Hanya PKWTT, ≤ 3 bulan, kriteria tertulis; di PKWT — tanyakan."
+        }
+       },
+       {
+        "icon": "flag",
+        "h": {
+         "en": "Bond",
+         "id": "Ikatan dinas"
+        },
+        "sub": {
+         "en": "Duration, amount, decreasing, triggers, separate agreement.",
+         "id": "Durasi, jumlah, menurun, pemicu, perjanjian terpisah."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Other clauses and red flags",
+         "id": "Klausul lain dan tanda bahaya"
+        },
+        "sub": {
+         "en": "Non-compete, placement, hours, termination, IP; originals held, fees, pressure, mismatches.",
+         "id": "Non-kompetisi, penempatan, jam, pemutusan, KI; dokumen asli ditahan, biaya, tekanan, ketidakcocokan."
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "Questions and time",
+         "id": "Pertanyaan dan waktu"
+        },
+        "sub": {
+         "en": "Two to five working days; one polite email; someone qualified if worried.",
+         "id": "Dua hingga lima hari kerja; satu email sopan; orang berkompeten jika khawatir."
+        }
+       }
+      ],
+      "note": {
+       "en": "Every regulated term verified against current sources. The Rope does not give legal advice.",
+       "id": "Setiap syarat yang diatur diverifikasi terhadap sumber terkini. The Rope tidak memberi nasihat hukum."
+      },
+      "longdesc": {
+       "en": "A five-stage flow for reading a contract: identify the contract type; check the probation terms and whether probation is allowed; read the service bond for its five terms; read the other clauses and look for red flags; then ask for time and send questions in one email.",
+       "id": "Alur lima tahap membaca kontrak: kenali jenis kontrak; periksa syarat percobaan dan apakah percobaan diizinkan; baca ikatan dinas untuk lima syaratnya; baca klausul lain dan cari tanda bahaya; lalu minta waktu dan kirim pertanyaan dalam satu email."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Skimming → the checklist",
+        "id": "Membaca sekilas → daftar periksa"
+       },
+       "q": {
+        "en": "A twelve-page contract arrives with the message “mohon ditandatangani dan dikirim kembali besok”.",
+        "id": "Kontrak dua belas halaman datang dengan pesan “mohon ditandatangani dan dikirim kembali besok”."
+       },
+       "weak": {
+        "en": "Reads the first page (salary, start date), scrolls to the signature, signs that night. Month fourteen: wants to take a better offer, and discovers a flat Rp 48 juta bond triggered by resignation, a three-month probation clause inside what turns out to be a PKWT, and that the original ijazah she handed over “for verification” is held until the bond ends.",
+        "id": "Membaca halaman pertama (gaji, tanggal mulai), menggulir ke tanda tangan, menandatangani malam itu. Bulan empat belas: ingin mengambil tawaran lebih baik, dan menemukan ikatan dinas datar Rp 48 juta yang dipicu pengunduran diri, klausul percobaan tiga bulan di dalam kontrak yang ternyata PKWT, dan ijazah asli yang ia serahkan “untuk verifikasi” ditahan sampai ikatan dinas berakhir."
+       },
+       "strong": {
+        "en": "Replies the same day: “Terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya?” Reads with the checklist: finds the contract type (PKWT, twelve months), the probation clause inside it, the bond (Rp 48 juta, no decreasing schedule, triggered by resignation), and a line about “penyerahan ijazah asli”. Sends one polite email with four questions — the basis for probation in a PKWT, whether the bond decreases with service, what triggers it, and whether certified copies suffice — and waits for the answers in writing before deciding.",
+        "id": "Membalas hari itu juga: “Terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya?” Membaca dengan daftar periksa: menemukan jenis kontrak (PKWT, dua belas bulan), klausul percobaan di dalamnya, ikatan dinas (Rp 48 juta, tanpa jadwal menurun, dipicu pengunduran diri), dan baris tentang “penyerahan ijazah asli”. Mengirim satu email sopan dengan empat pertanyaan — dasar percobaan di PKWT, apakah ikatan dinas menurun menurut masa kerja, apa pemicunya, dan apakah salinan dilegalisir cukup — dan menunggu jawaban tertulis sebelum memutuskan."
+       },
+       "why": {
+        "en": "The same contract, the same three planted issues. Skimming found them fourteen months too late, when each one had become expensive. The checklist found them in an evening, and asking for time — a normal request — turned them into four questions the employer could answer before anything was signed. The answers are information either way: an employer that fixes the clauses is one kind of employer, and one that refuses to answer is another. Fictional figures; education, not legal advice.",
+        "id": "Kontrak yang sama, tiga masalah tertanam yang sama. Membaca sekilas menemukannya empat belas bulan terlambat, saat masing-masing sudah menjadi mahal. Daftar periksa menemukannya dalam satu malam, dan meminta waktu — permintaan normal — mengubahnya menjadi empat pertanyaan yang bisa dijawab pemberi kerja sebelum apa pun ditandatangani. Jawabannya informasi bagaimanapun: pemberi kerja yang memperbaiki klausul adalah satu jenis, dan yang menolak menjawab adalah jenis lain. Angka fiktif; edukasi, bukan nasihat hukum."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "flag",
+      "title": {
+       "en": "In focus: the bond that decreased, and the one that did not",
+       "id": "Sorotan: ikatan dinas yang menurun, dan yang tidak"
+      },
+      "body": [
+       {
+        "en": "Rina tells Nadia about two classmates from her own intake years ago. Both signed a two-year bond of the same amount. Hers decreased by a fixed sum for every month served; his stayed at the full amount until the last day. In month twenty, both were offered better jobs. Rina’s remaining bond was a fifth of the original, and she took the offer after an honest conversation with her manager. His was the full amount, and he stayed four more months he did not want, because he had signed without asking the one question that mattered.",
+        "id": "Rina menceritakan kepada Nadia tentang dua teman seangkatannya bertahun-tahun lalu. Keduanya menandatangani ikatan dinas dua tahun dengan jumlah sama. Miliknya berkurang sejumlah tetap untuk setiap bulan dijalani; milik temannya tetap pada jumlah penuh sampai hari terakhir. Di bulan dua puluh, keduanya ditawari pekerjaan lebih baik. Sisa ikatan dinas Rina seperlima dari aslinya, dan ia mengambil tawaran setelah percakapan jujur dengan manajernya. Milik temannya jumlah penuh, dan ia tinggal empat bulan lagi yang tidak ia inginkan, karena menandatangani tanpa menanyakan satu pertanyaan yang penting."
+       },
+       {
+        "en": "“Tanyakan sebelum tanda tangan,” Rina says. “Bukan karena kamu berencana keluar — karena kamu sedang membeli sesuatu, dan kamu perlu tahu harganya.” When Bank Sinar’s bond arrives with Nadia’s offer, the first thing she looks for is the word “berkurang”.",
+        "id": "“Tanyakan sebelum tanda tangan,” kata Rina. “Bukan karena kamu berencana keluar — karena kamu sedang membeli sesuatu, dan kamu perlu tahu harganya.” Saat ikatan dinas Bank Sinar datang bersama tawaran Nadia, hal pertama yang ia cari adalah kata “berkurang”."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The sample PKWT with three planted issues",
+        "id": "Latihan 1 · Contoh PKWT dengan tiga masalah tertanam"
+       },
+       "body": {
+        "en": "The resources card holds excerpts of a fictional twelve-month PKWT. Read it with the twelve-question checklist and find the three planted issues. For each, write the question you would send, in Indonesian, in one polite email.",
+        "id": "Kartu sumber memuat kutipan PKWT dua belas bulan fiktif. Baca dengan daftar periksa dua belas pertanyaan dan temukan tiga masalah tertanam. Untuk masing-masing, tulis pertanyaan yang akan kamu kirim, dalam bahasa Indonesia, dalam satu email sopan."
+       },
+       "debrief": {
+        "en": "The three: a three-month probation clause inside a PKWT; a bond with no decreasing schedule; and a clause requiring the original ijazah to be surrendered. Model questions are in the resources. If you found only two, the checklist question you skipped is the one to keep. If your email argued the law, rewrite it as questions — you are asking, not litigating.",
+        "id": "Ketiganya: klausul percobaan tiga bulan di dalam PKWT; ikatan dinas tanpa jadwal menurun; dan klausul yang mensyaratkan ijazah asli diserahkan. Pertanyaan model ada di sumber. Jika kamu hanya menemukan dua, pertanyaan daftar periksa yang kamu lewati adalah yang harus dipertahankan. Jika emailmu berdebat hukum, tulis ulang sebagai pertanyaan — kamu bertanya, bukan menggugat."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · The bond arithmetic",
+        "id": "Latihan 2 · Aritmetika ikatan dinas"
+       },
+       "body": {
+        "en": "A fictional bond is Rp 48 juta for 24 months. Compute what you would repay if you left after 6, 12 and 18 months under (a) a schedule decreasing by Rp 2 juta per month served, and (b) a flat bond. Then write one sentence on what the difference means for your decision.",
+        "id": "Ikatan dinas fiktif Rp 48 juta untuk 24 bulan. Hitung yang akan kamu bayar kembali jika keluar setelah 6, 12, dan 18 bulan di bawah (a) jadwal berkurang Rp 2 juta per bulan dijalani, dan (b) ikatan datar. Lalu tulis satu kalimat tentang arti perbedaannya bagi keputusanmu."
+       },
+       "debrief": {
+        "en": "(a) Rp 36 juta, Rp 24 juta, Rp 12 juta. (b) Rp 48 juta at every point. The decreasing bond shares the risk with you over time; the flat one keeps all of it on you until the last day. Neither is necessarily unfair — but only one of them is a fact you want to discover after signing.",
+        "id": "(a) Rp 36 juta, Rp 24 juta, Rp 12 juta. (b) Rp 48 juta di setiap titik. Ikatan yang menurun berbagi risiko denganmu seiring waktu; yang datar menaruh semuanya padamu sampai hari terakhir. Tak satu pun pasti tidak adil — tetapi hanya satu yang merupakan fakta yang ingin kamu temukan setelah menandatangani."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Bond, placement, start — in the simulator",
+        "id": "Latihan 3 · Ikatan dinas, penempatan, mulai — di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with the HR persona: the bond question, placement, and start date. Answer with the eligibility sentences you decided in Lesson 5.1 — and this time add the one clarifying question about the bond’s terms that your contract reading taught you to ask.",
+        "id": "Jalankan tryit di bawah dengan persona HR: pertanyaan ikatan dinas, penempatan, dan tanggal mulai. Jawab dengan kalimat kelayakan yang kamu putuskan di Pelajaran 5.1 — dan kali ini tambahkan satu pertanyaan klarifikasi tentang syarat ikatan dinas yang diajarkan pembacaan kontrakmu."
+       },
+       "debrief": {
+        "en": "The bond answer is “bersedia” plus one question — “apakah jumlahnya berkurang sesuai masa kerja?” — said calmly. If you negotiated the bond in the screen, you went too early; if you did not ask, you will have to ask at the contract stage, which is fine but later.",
+        "id": "Jawaban ikatan dinas adalah “bersedia” plus satu pertanyaan — “apakah jumlahnya berkurang sesuai masa kerja?” — diucapkan tenang. Jika kamu menegosiasikan ikatan dinas di seleksi, kamu terlalu cepat; jika tidak bertanya, kamu harus bertanya di tahap kontrak, yang boleh tetapi lebih lambat."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Signing the night it arrives",
+         "id": "Menandatangani malam kontrak datang"
+        },
+        "fix": {
+         "en": "Two to five working days is a normal request; read with the checklist.",
+         "id": "Dua hingga lima hari kerja adalah permintaan normal; baca dengan daftar periksa."
+        }
+       },
+       {
+        "h": {
+         "en": "Missing probation inside a PKWT",
+         "id": "Melewatkan percobaan di dalam PKWT"
+        },
+        "fix": {
+         "en": "Probation belongs to PKWTT, ≤ 3 months <span class=\"ev ev-verify\">Verify</span>; ask politely in writing.",
+         "id": "Percobaan milik PKWTT, ≤ 3 bulan <span class=\"ev ev-verify\">Verifikasi</span>; tanyakan sopan tertulis."
+        }
+       },
+       {
+        "h": {
+         "en": "A bond read for its amount only",
+         "id": "Ikatan dinas dibaca hanya jumlahnya"
+        },
+        "fix": {
+         "en": "Duration, amount, decreasing, triggers, separate agreement.",
+         "id": "Durasi, jumlah, menurun, pemicu, perjanjian terpisah."
+        }
+       },
+       {
+        "h": {
+         "en": "Handing over originals",
+         "id": "Menyerahkan dokumen asli"
+        },
+        "fix": {
+         "en": "Ask whether certified copies suffice; the legal status is a verify point.",
+         "id": "Tanyakan apakah salinan dilegalisir cukup; status hukumnya titik verifikasi."
+        }
+       },
+       {
+        "h": {
+         "en": "Arguing the law with a recruiter",
+         "id": "Berdebat hukum dengan rekruter"
+        },
+        "fix": {
+         "en": "Ask questions in one polite email; if worried, ask someone qualified.",
+         "id": "Ajukan pertanyaan dalam satu email sopan; jika khawatir, tanya orang yang berkompeten."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "PKWT",
+        "id": "PKWT"
+       },
+       "def": {
+        "en": "Perjanjian kerja waktu tertentu — a fixed-term contract for temporary or time-bound work, with a maximum duration and compensation money at its end (verify current rules).",
+        "id": "Perjanjian kerja waktu tertentu — kontrak untuk pekerjaan sementara atau terikat waktu, dengan durasi maksimum dan uang kompensasi di akhirnya (verifikasi aturan terkini)."
+       }
+      },
+      {
+       "term": {
+        "en": "PKWTT",
+        "id": "PKWTT"
+       },
+       "def": {
+        "en": "Perjanjian kerja waktu tidak tertentu — open-ended employment; the only contract in which probation is permitted (verify).",
+        "id": "Perjanjian kerja waktu tidak tertentu — pekerjaan tetap; satu-satunya kontrak di mana percobaan diizinkan (verifikasi)."
+       }
+      },
+      {
+       "term": {
+        "en": "Ikatan dinas",
+        "id": "Ikatan dinas"
+       },
+       "def": {
+        "en": "A service bond: a commitment to work a stated period after training, with repayment if you leave early — read for duration, amount, decreasing schedule, triggers, separate agreement.",
+        "id": "Komitmen bekerja periode tertentu setelah pelatihan, dengan pembayaran kembali jika keluar lebih awal — dibaca untuk durasi, jumlah, jadwal menurun, pemicu, perjanjian terpisah."
+       }
+      },
+      {
+       "term": {
+        "en": "Uang kompensasi",
+        "id": "Uang kompensasi"
+       },
+       "def": {
+        "en": "Compensation money generally owed at the end of a PKWT, pro-rated by service (verify current formula).",
+        "id": "Uang kompensasi yang umumnya terutang di akhir PKWT, proporsional masa kerja (verifikasi rumus terkini)."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "A twelve-month PKWT says the first three months are probation. You…",
+        "id": "PKWT dua belas bulan menyatakan tiga bulan pertama adalah percobaan. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Sign — it is standard",
+         "id": "Menandatangani — itu standar"
+        },
+        {
+         "en": "Treat it as a red flag and ask, politely and in writing, what it means and on what basis — probation belongs to PKWTT",
+         "id": "Memperlakukannya sebagai tanda bahaya dan bertanya, sopan dan tertulis, apa artinya dan atas dasar apa — percobaan milik PKWTT"
+        },
+        {
+         "en": "Refuse the offer immediately",
+         "id": "Menolak tawaran segera"
+        },
+        {
+         "en": "Argue the law with the recruiter",
+         "id": "Berdebat hukum dengan rekruter"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Under current rules probation is permitted only in a PKWTT, maximum three months (verify); ask, don’t litigate.",
+        "id": "Di bawah aturan terkini percobaan hanya diizinkan di PKWTT, maksimum tiga bulan (verifikasi); tanyakan, jangan menggugat."
+       }
+      },
+      {
+       "q": {
+        "en": "The five questions for a service bond are…",
+        "id": "Lima pertanyaan untuk ikatan dinas adalah…"
+       },
+       "options": [
+        {
+         "en": "Amount only",
+         "id": "Jumlah saja"
+        },
+        {
+         "en": "Duration and from when · amount and for what · whether it decreases · what triggers repayment · whether it is a separate agreement you have seen",
+         "id": "Durasi dan sejak kapan · jumlah dan untuk apa · apakah menurun · apa pemicu pembayaran kembali · apakah perjanjian terpisah yang sudah kamu lihat"
+        },
+        {
+         "en": "Whether it is legal",
+         "id": "Apakah legal"
+        },
+        {
+         "en": "Whether colleagues signed it",
+         "id": "Apakah rekan menandatanganinya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A flat bond and a decreasing one of the same amount are very different commitments.",
+        "id": "Ikatan datar dan yang menurun dengan jumlah sama adalah komitmen yang sangat berbeda."
+       }
+      },
+      {
+       "q": {
+        "en": "The contract arrives with “mohon ditandatangani besok”. The normal response is…",
+        "id": "Kontrak datang dengan “mohon ditandatangani besok”. Respons normalnya…"
+       },
+       "options": [
+        {
+         "en": "Sign tonight to seem keen",
+         "id": "Tanda tangan malam ini agar tampak antusias"
+        },
+        {
+         "en": "Thank them and ask for time — two to five working days — to review it",
+         "id": "Berterima kasih dan meminta waktu — dua hingga lima hari kerja — untuk meninjaunya"
+        },
+        {
+         "en": "Ignore the deadline",
+         "id": "Mengabaikan tenggat"
+        },
+        {
+         "en": "Ask a friend to sign for you",
+         "id": "Meminta teman menandatangani untukmu"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Asking for time is ordinary; pressure to sign immediately is itself a red flag.",
+        "id": "Meminta waktu itu biasa; tekanan menandatangani segera sendiri adalah tanda bahaya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "elig_service_bond",
+      "set": [
+       "elig_service_bond",
+       "elig_placement",
+       "elig_start_date"
+      ],
+      "persona": "hr",
+      "profile": "eligibility",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "Bond, placement, start date — with the one question",
+       "id": "Ikatan dinas, penempatan, tanggal mulai — dengan satu pertanyaan"
+      },
+      "desc": {
+       "en": "Three eligibility questions with the HR persona, one probe each. Answer with the sentences you decided in Lesson 5.1, and add one calm clarifying question about the bond’s terms — “apakah jumlahnya berkurang sesuai masa kerja?”. The blueprint’s Offer Decoder contract checklist is not yet built; the twelve-question checklist is in the resources card.",
+       "id": "Tiga pertanyaan kelayakan dengan persona HR, satu galian masing-masing. Jawab dengan kalimat yang kamu putuskan di Pelajaran 5.1, dan tambahkan satu pertanyaan klarifikasi tenang tentang syarat ikatan dinas — “apakah jumlahnya berkurang sesuai masa kerja?”. Daftar periksa kontrak Offer Decoder cetak biru belum dibangun; daftar periksa dua belas pertanyaan ada di kartu sumber."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Find the contract type first; probation belongs to PKWTT only, three months at most — verify, and ask when it appears elsewhere.",
+       "id": "Temukan jenis kontrak dulu; percobaan hanya milik PKWTT, paling lama tiga bulan — verifikasi, dan tanyakan saat muncul di tempat lain."
+      },
+      {
+       "en": "Read a bond for five things, and never sign one you have not seen or cannot afford.",
+       "id": "Baca ikatan dinas untuk lima hal, dan jangan pernah menandatangani yang belum kamu lihat atau tak mampu kamu bayar."
+      },
+      {
+       "en": "Red flags are reasons to stop and ask; two to five working days to review is a normal request.",
+       "id": "Tanda bahaya adalah alasan berhenti dan bertanya; dua hingga lima hari kerja untuk meninjau adalah permintaan normal."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The contract checklist, a sample PKWT and the regulatory note",
+       "id": "Daftar periksa kontrak, contoh PKWT, dan catatan regulasi"
+      },
+      "lead": {
+       "en": "Twelve questions, three planted issues, and what to verify.",
+       "id": "Dua belas pertanyaan, tiga masalah tertanam, dan apa yang diverifikasi."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Regulatory note and reading list · Lesson 10.2",
+         "id": "Catatan regulasi dan daftar bacaan · Pelajaran 10.2"
+        },
+        "desc": {
+         "en": "Education, not legal advice.",
+         "id": "Edukasi, bukan nasihat hukum."
+        },
+        "body": [
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Everything in this lesson against the current Manpower Law as amended by the Job Creation Law and its implementing regulations (the blueprint names PP 35/2021 or successors): PKWT maximum duration, compensation money, probation rules and minimum wage during probation, the legal status of retaining original documents, and bond enforceability. Date what you check.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Semua di pelajaran ini terhadap UU Ketenagakerjaan terkini sebagaimana diubah UU Cipta Kerja dan peraturan pelaksananya (cetak biru menyebut PP 35/2021 atau penggantinya): durasi maksimum PKWT, uang kompensasi, aturan percobaan dan upah minimum selama percobaan, status hukum penahanan dokumen asli, dan keberlakuan ikatan dinas. Beri tanggal yang kamu periksa."
+         },
+         {
+          "en": "The Rope (current), “Offer letter red flags and verbal vs written commitments” — the four zones and the inspection list — retained and extended here.",
+          "id": "The Rope (saat ini), “Tanda bahaya surat penawaran dan komitmen lisan vs tertulis” — empat zona dan daftar pemeriksaan — dipertahankan dan diperluas di sini."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> If a contract worries you, the right next step is someone qualified — a lawyer, the local manpower office, or a trusted HR professional — not this page.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Jika kontrak mengkhawatirkanmu, langkah berikut yang tepat adalah orang berkompeten — pengacara, dinas tenaga kerja setempat, atau profesional HR tepercaya — bukan halaman ini."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Contract checklist — twelve questions",
+         "id": "Daftar periksa kontrak — dua belas pertanyaan"
+        },
+        "desc": {
+         "en": "Read slowly; tick or ask.",
+         "id": "Baca pelan; centang atau tanyakan."
+        },
+        "body": [
+         {
+          "en": "1 PKWT or PKWTT? · 2 If PKWT: end date, renewal, conversion — in writing? · 3 Probation: only in PKWTT, ≤ 3 months, criteria, pay, notice? · 4 Base, allowances and THR match the offer letter? · 5 Bond: duration and from when? · 6 Bond: amount and for what?",
+          "id": "1 PKWT atau PKWTT? · 2 Jika PKWT: tanggal akhir, perpanjangan, pengangkatan — tertulis? · 3 Percobaan: hanya di PKWTT, ≤ 3 bulan, kriteria, gaji, pemberitahuan? · 4 Pokok, tunjangan, dan THR cocok dengan surat penawaran? · 5 Ikatan dinas: durasi dan sejak kapan? · 6 Ikatan dinas: jumlah dan untuk apa?"
+         },
+         {
+          "en": "7 Bond: decreasing with service? · 8 Bond: what triggers repayment; separate agreement seen? · 9 Placement and transfer clause matches what you decided? · 10 Hours, overtime, notice periods for both sides? · 11 Non-compete, confidentiality, IP — scope and duration? · 12 Any red flag: originals held, fees, no contract, a language you cannot read, pressure, mismatches?",
+          "id": "7 Ikatan dinas: menurun menurut masa kerja? · 8 Ikatan dinas: apa pemicu pembayaran kembali; perjanjian terpisah sudah dilihat? · 9 Klausul penempatan dan mutasi cocok dengan yang kamu putuskan? · 10 Jam, lembur, masa pemberitahuan kedua pihak? · 11 Non-kompetisi, kerahasiaan, KI — cakupan dan durasi? · 12 Ada tanda bahaya: dokumen asli ditahan, biaya, tanpa kontrak, bahasa yang tak bisa dibaca, tekanan, ketidakcocokan?"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Sample PKWT excerpts (fictional, three planted issues) · model questions",
+         "id": "Kutipan contoh PKWT (fiktif, tiga masalah tertanam) · pertanyaan model"
+        },
+        "desc": {
+         "en": "For Drill 1.",
+         "id": "Untuk Latihan 1."
+        },
+        "body": [
+         {
+          "en": "Pasal 2: “Perjanjian ini berlaku selama 12 (dua belas) bulan sejak tanggal mulai bekerja.” · Pasal 3: “Tiga bulan pertama merupakan masa percobaan.” · Pasal 9: “Karyawan wajib mengganti biaya pelatihan sebesar Rp 48.000.000 apabila mengundurkan diri sebelum 24 bulan.” · Pasal 11: “Karyawan menyerahkan ijazah asli kepada perusahaan selama masa ikatan.”",
+          "id": "Pasal 2: “Perjanjian ini berlaku selama 12 (dua belas) bulan sejak tanggal mulai bekerja.” · Pasal 3: “Tiga bulan pertama merupakan masa percobaan.” · Pasal 9: “Karyawan wajib mengganti biaya pelatihan sebesar Rp 48.000.000 apabila mengundurkan diri sebelum 24 bulan.” · Pasal 11: “Karyawan menyerahkan ijazah asli kepada perusahaan selama masa ikatan.”"
+         },
+         {
+          "en": "Model email: “Yth. [Nama], terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya? Ada beberapa hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 3 untuk perjanjian waktu tertentu; (2) apakah ganti biaya pada Pasal 9 berkurang sesuai masa kerja, dan mengapa 24 bulan untuk kontrak 12 bulan; (3) apakah untuk Pasal 11 cukup salinan ijazah yang dilegalisir. Terima kasih.”",
+          "id": "Email model: “Yth. [Nama], terima kasih atas kontraknya. Boleh saya minta waktu sampai Jumat untuk mempelajarinya? Ada beberapa hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 3 untuk perjanjian waktu tertentu; (2) apakah ganti biaya pada Pasal 9 berkurang sesuai masa kerja, dan mengapa 24 bulan untuk kontrak 12 bulan; (3) apakah untuk Pasal 11 cukup salinan ijazah yang dilegalisir. Terima kasih.”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "10.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "45 min",
+      "id": "45 mnt"
+     },
+     "title": {
+      "en": "To Negotiate or Not — and How",
+      "id": "Negosiasi — Perlu atau Tidak, dan Bagaimana"
+     },
+     "overview": {
+      "en": "Many fresh graduates never negotiate because they fear the offer will vanish; others negotiate everything, aggressively, and damage a relationship with a manager they have not met yet. Both can be costly. Whether to negotiate depends on three things: the kind of pay structure the employer uses, your real alternatives, and what is actually negotiable. This lesson gives you Ryan’s three pay styles to read the first, a one-page prep sheet for the second and third, a six-step collaborative conversation in the Indonesian register, the honest way to mention a competing offer, and the short list of things never to do. The current Rope’s script skeleton — appreciation, enthusiasm, a reasoned ask, silence — is kept inside the six steps.",
+      "id": "Banyak lulusan baru tidak pernah bernegosiasi karena takut tawarannya hilang; yang lain menegosiasikan segalanya, dengan agresif, dan merusak hubungan dengan manajer yang belum pernah mereka temui. Keduanya bisa mahal. Perlu tidaknya bernegosiasi bergantung pada tiga hal: jenis struktur gaji pemberi kerja, alternatifmu yang nyata, dan apa yang sungguh bisa dinegosiasikan. Pelajaran ini memberimu tiga gaya gaji Ryan untuk membaca yang pertama, lembar persiapan satu halaman untuk yang kedua dan ketiga, percakapan kolaboratif enam langkah dalam register Indonesia, cara jujur menyebut tawaran lain, dan daftar pendek hal yang tidak boleh dilakukan. Kerangka skrip The Rope saat ini — apresiasi, antusiasme, permintaan beralasan, diam — dipertahankan di dalam enam langkah."
+     },
+     "objectives": [
+      {
+       "en": "Tell which of three pay styles an offer comes from, and what that means for negotiating.",
+       "id": "Mengenali dari gaya gaji mana sebuah tawaran berasal, dan artinya bagi negosiasi."
+      },
+      {
+       "en": "Prepare a range, a walk-away point, two priorities and the evidence for one ask.",
+       "id": "Menyiapkan rentang, titik mundur, dua prioritas, dan bukti untuk satu permintaan."
+      },
+      {
+       "en": "Run the six-step conversation with one reasoned request, a pause, and an alternative.",
+       "id": "Menjalankan percakapan enam langkah dengan satu permintaan beralasan, jeda, dan alternatif."
+      },
+      {
+       "en": "Mention a competing offer truthfully, never invent one, and confirm everything in writing.",
+       "id": "Menyebut tawaran lain dengan jujur, tidak pernah mengarangnya, dan mengonfirmasi semuanya tertulis."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "One reasoned request, said kindly",
+       "id": "Satu permintaan beralasan, diucapkan dengan baik"
+      },
+      "intro": {
+       "en": "Negotiation for a first job is usually one short conversation and one confirming email. The skill is knowing whether there is room, asking for one thing with a reason, and stopping.",
+       "id": "Negosiasi untuk pekerjaan pertama biasanya satu percakapan singkat dan satu email konfirmasi. Keterampilannya adalah tahu apakah ada ruang, meminta satu hal dengan alasan, dan berhenti."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read the pay style",
+         "id": "Baca gaya gajinya"
+        },
+        "points": [
+         {
+          "en": "Fixed · grade or band · negotiable (Ryan, adapted).",
+          "id": "Tetap · golongan atau pita · bisa dinegosiasikan (Ryan, diadaptasi)."
+         },
+         {
+          "en": "Fixed means clarify, not negotiate, the pay.",
+          "id": "Tetap berarti mengklarifikasi, bukan menegosiasikan, gajinya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Prepare on one page",
+         "id": "Siapkan di satu halaman"
+        },
+        "points": [
+         {
+          "en": "Range · walk-away point · what is negotiable · top two priorities · evidence.",
+          "id": "Rentang · titik mundur · apa yang bisa dinegosiasikan · dua prioritas utama · bukti."
+         },
+         {
+          "en": "The walk-away comes from your alternatives, not your hopes.",
+          "id": "Titik mundur datang dari alternatifmu, bukan harapanmu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Six steps",
+         "id": "Enam langkah"
+        },
+        "points": [
+         {
+          "en": "Thank · understand · one request with a reason · pause · alternatives · confirm in writing.",
+          "id": "Berterima kasih · memahami · satu permintaan dengan alasan · jeda · alternatif · konfirmasi tertulis."
+         },
+         {
+          "en": "One or two rounds, not five.",
+          "id": "Satu atau dua putaran, bukan lima."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Never",
+         "id": "Jangan pernah"
+        },
+        "points": [
+         {
+          "en": "Invent an offer · lie about current pay · ultimatums · accept then renegotiate · negotiate after signing.",
+          "id": "Mengarang tawaran · berbohong soal gaji saat ini · ultimatum · menerima lalu menegosiasi ulang · bernegosiasi setelah tanda tangan."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "chart",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Three pay styles — and what each allows",
+        "id": "Tiga gaya gaji — dan apa yang dimungkinkan masing-masing"
+       },
+       "body": {
+        "en": "Ryan’s typology of how employers pay, adapted to the Indonesian graduate market, answers the first question — is there room at all? — before you prepare a single sentence. <b>Fixed</b> pay belongs to structured programmes: most BUMN, bank officer-development and management-trainee cohorts pay every member of the intake the same package, set before anyone applied. Negotiating the base there is not brave; it is a sign you have not understood the programme, and the recruiter usually cannot change it even if they want to. What you can do is clarify — placement preference, start date, relocation or housing support for an out-of-town placement, the bond’s terms (10.2) — politely and once. <b>Grade or band</b> pay belongs to larger private employers: the role sits in a grade with a range, and a new hire can be placed higher or lower within it. There is modest room, and it moves with evidence — a relevant internship, a skill the role needs, market data, a competing offer. <b>Negotiable</b> pay belongs to start-ups, smaller firms and specialised roles, where the number is set per person: wider room, and often more room on non-salary items than on the base. How do you tell which one you are facing? The job advertisement (“program ODP angkatan 2026” is fixed; “sesuai grade” is a band), the recruiter’s own words (“paket standar untuk seluruh peserta”), and the question itself, asked neutrally in the offer conversation: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”",
+        "id": "Tipologi Ryan tentang cara pemberi kerja menggaji, diadaptasi ke pasar lulusan Indonesia, menjawab pertanyaan pertama — adakah ruang sama sekali? — sebelum kamu menyiapkan satu kalimat pun. Gaji <b>tetap</b> milik program terstruktur: kebanyakan angkatan BUMN, officer development bank, dan management trainee menggaji setiap peserta dengan paket yang sama, ditetapkan sebelum siapa pun melamar. Menegosiasikan gaji pokok di sana bukan keberanian; itu tanda kamu belum memahami programnya, dan rekruter biasanya tak bisa mengubahnya walau ingin. Yang bisa kamu lakukan adalah mengklarifikasi — preferensi penempatan, tanggal mulai, dukungan relokasi atau perumahan untuk penempatan luar kota, syarat ikatan dinas (10.2) — dengan sopan dan sekali. Gaji <b>golongan atau pita</b> milik pemberi kerja swasta yang lebih besar: peran berada di golongan dengan rentang, dan karyawan baru bisa ditempatkan lebih tinggi atau lebih rendah di dalamnya. Ada ruang sedang, dan ia bergerak dengan bukti — magang yang relevan, keterampilan yang dibutuhkan peran, data pasar, tawaran lain. Gaji yang <b>bisa dinegosiasikan</b> milik startup, perusahaan lebih kecil, dan peran khusus, di mana angkanya ditetapkan per orang: ruang lebih lebar, dan sering lebih banyak ruang pada hal non-gaji daripada pokok. Bagaimana tahu yang mana yang kamu hadapi? Iklan lowongan (“program ODP angkatan 2026” itu tetap; “sesuai grade” itu pita), kata-kata rekruter sendiri (“paket standar untuk seluruh peserta”), dan pertanyaannya sendiri, diajukan netral dalam percakapan tawaran: “Apakah paket ini standar untuk semua peserta program, atau ada kisaran untuk posisi ini?”"
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Pay style",
+          "id": "Gaya gaji"
+         },
+         {
+          "en": "Typical employers",
+          "id": "Pemberi kerja tipikal"
+         },
+         {
+          "en": "Room on base",
+          "id": "Ruang di pokok"
+         },
+         {
+          "en": "What to do",
+          "id": "Yang dilakukan"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Fixed</b>",
+           "id": "<b>Tetap</b>"
+          },
+          {
+           "en": "BUMN, bank ODP, MT cohorts",
+           "id": "BUMN, ODP bank, angkatan MT"
+          },
+          {
+           "en": "Little or none",
+           "id": "Sedikit atau tidak ada"
+          },
+          {
+           "en": "Clarify placement, start date, relocation, bond terms — once, politely",
+           "id": "Klarifikasi penempatan, tanggal mulai, relokasi, syarat ikatan dinas — sekali, sopan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Grade / band</b>",
+           "id": "<b>Golongan / pita</b>"
+          },
+          {
+           "en": "Larger private employers",
+           "id": "Pemberi kerja swasta lebih besar"
+          },
+          {
+           "en": "Modest, within the band",
+           "id": "Sedang, di dalam pita"
+          },
+          {
+           "en": "One reasoned request with evidence; an alternative ready",
+           "id": "Satu permintaan beralasan dengan bukti; alternatif siap"
+          }
+         ],
+         [
+          {
+           "en": "<b>Negotiable</b>",
+           "id": "<b>Bisa dinegosiasikan</b>"
+          },
+          {
+           "en": "Start-ups, SMEs, specialised roles",
+           "id": "Startup, UKM, peran khusus"
+          },
+          {
+           "en": "Wider",
+           "id": "Lebih lebar"
+          },
+          {
+           "en": "Base and non-salary items; still one or two rounds",
+           "id": "Pokok dan hal non-gaji; tetap satu atau dua putaran"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Adapted from R. Ryan’s typology. Employers named in The Rope are fictional.",
+         "id": "Diadaptasi dari tipologi R. Ryan. Pemberi kerja yang disebut di The Rope fiktif."
+        }
        }
       },
       {
        "icon": "target",
        "h": {
-        "en": "Scope, title, location — and the clauses that bite later",
-        "id": "Lingkup, jabatan, lokasi — dan klausul yang menggigit kemudian"
+        "en": "Preparation — the prep sheet on one page",
+        "id": "Persiapan — lembar persiapan di satu halaman"
        },
        "body": {
-        "en": "The middle of the letter should match the interviews. Does the title match what was discussed? Is the reporting line named? Are work location and any relocation or travel expectations written down? “And other duties as assigned” is normal boilerplate; a letter that is vaguer than the conversations were is a signal, and the professional response is a polite request that the discussed scope be reflected. Then the clauses most candidates skip: training-cost clawbacks, minimum service periods with penalties, non-competes broad enough to cover the whole industry, intellectual-property claims that reach into personal projects. These exist legitimately in some markets and roles. The task is not to refuse them reflexively but to read them before signing, ask for limits where they are sweeping — a duration, a scope, a cap — and know precisely what you are agreeing to walk away from if you leave early.",
-        "id": "Bagian tengah surat harus sesuai dengan wawancara. Apakah jabatannya sesuai yang dibicarakan? Apakah garis pelaporannya disebutkan? Apakah lokasi kerja serta ekspektasi relokasi atau perjalanan dituliskan? “Dan tugas lain yang ditetapkan” adalah frasa baku yang wajar; surat yang lebih samar daripada percakapannya adalah sinyal, dan respons profesionalnya adalah permintaan sopan agar lingkup yang dibicarakan tercermin. Lalu klausul yang dilewatkan sebagian besar kandidat: pengembalian biaya pelatihan, masa kerja minimum dengan penalti, larangan bersaing yang cukup luas untuk mencakup seluruh industri, klaim kekayaan intelektual yang menjangkau proyek pribadi. Semua itu ada secara sah di sebagian pasar dan peran. Tugasnya bukan menolak secara refleks, melainkan membacanya sebelum menandatangani, meminta batasan bila terlalu luas — durasi, lingkup, batas atas — dan tahu persis apa yang kamu sepakati untuk ditinggalkan jika keluar lebih awal."
+        "en": "The conversation is short; the preparation is where it is won or lost. Five lines, on one page, written before you call. <b>Your researched range</b> — the one you built in Lesson 5.3 from published guides, advertisements that state ranges and people one step ahead, now updated with what this offer and any other offer actually contain (Lesson 10.1). <b>Your walk-away point</b> — the lowest package you would accept, set by your real alternatives, not your hopes: if your other option is continuing to apply for three more months with no income, your walk-away is lower than if you already hold a comparable written offer. Write it down before the call, because in the call it will drift. <b>What is negotiable here</b> — base, fixed allowances, start date, relocation or housing, equipment, training budget, remote days, the timing of the first salary review — and which of these this pay style actually moves. <b>Your top two priorities</b> — not ten; if you ask for everything, the recruiter chooses which to refuse, and it will not be the one you cared about least. <b>The evidence for your one ask</b> — a sentence you can say aloud: the internship result from your Story Bank, the market data with its source, the competing offer as it is. The current Rope’s advice stands: state your range once, with its basis, and stop — the pause after it belongs to the other side.",
+        "id": "Percakapannya singkat; persiapannya tempat ia dimenangkan atau kalah. Lima baris, di satu halaman, ditulis sebelum kamu menelepon. <b>Rentang hasil risetmu</b> — yang kamu bangun di Pelajaran 5.3 dari panduan terbitan, iklan yang menyebut rentang, dan orang yang selangkah di depan, kini diperbarui dengan isi sebenarnya tawaran ini dan tawaran lain (Pelajaran 10.1). <b>Titik mundurmu</b> — paket terendah yang akan kamu terima, ditentukan oleh alternatifmu yang nyata, bukan harapanmu: jika opsi lainmu adalah terus melamar tiga bulan lagi tanpa penghasilan, titik mundurmu lebih rendah daripada jika kamu sudah memegang tawaran tertulis sebanding. Tuliskan sebelum menelepon, karena di tengah percakapan ia akan bergeser. <b>Apa yang bisa dinegosiasikan di sini</b> — pokok, tunjangan tetap, tanggal mulai, relokasi atau perumahan, peralatan, anggaran pelatihan, hari kerja jarak jauh, waktu evaluasi gaji pertama — dan mana yang sungguh digerakkan gaya gaji ini. <b>Dua prioritas utamamu</b> — bukan sepuluh; jika kamu meminta segalanya, rekruter memilih mana yang ditolak, dan itu bukan yang paling tidak kamu pedulikan. <b>Bukti untuk satu permintaanmu</b> — kalimat yang bisa kamu ucapkan: hasil magang dari Bank Ceritamu, data pasar dengan sumbernya, tawaran lain apa adanya. Saran The Rope saat ini tetap berlaku: nyatakan rentangmu sekali, dengan dasarnya, dan berhenti — jeda setelahnya milik pihak lain."
+       },
+       "bullets": [
+        {
+         "en": "<b>Range</b> — researched in 5.3, updated with decoded offers from 10.1.",
+         "id": "<b>Rentang</b> — diriset di 5.3, diperbarui dengan tawaran yang sudah diurai di 10.1."
+        },
+        {
+         "en": "<b>Walk-away</b> — from your alternatives; written before the call.",
+         "id": "<b>Titik mundur</b> — dari alternatifmu; ditulis sebelum menelepon."
+        },
+        {
+         "en": "<b>Negotiable items</b> — base, allowances, start date, relocation, equipment, training, remote days, review timing.",
+         "id": "<b>Hal yang bisa dinegosiasikan</b> — pokok, tunjangan, tanggal mulai, relokasi, peralatan, pelatihan, hari jarak jauh, waktu evaluasi."
+        },
+        {
+         "en": "<b>Two priorities and one piece of evidence</b> — said aloud before you dial.",
+         "id": "<b>Dua prioritas dan satu bukti</b> — diucapkan keras sebelum menelepon."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "The conversation — six steps, collaborative not adversarial",
+        "id": "Percakapannya — enam langkah, kolaboratif bukan berlawanan"
+       },
+       "body": {
+        "en": "Principled-negotiation ideas common across the sources reduce, for a first offer, to six steps. <b>1 Thank and show genuine interest</b> — specifically: the team, the scope, what you learned in the interviews. This is not flattery; it tells the recruiter the conversation is about making this work, not about leaving. <b>2 Ask questions to understand the package</b> — anything 10.1 and 10.2 left unclear: how the bonus has actually been paid, whether allowances are fixed, the review cycle. Sometimes the answers remove the need to negotiate. <b>3 Make one clear, reasoned request</b> — one number or one item, with one reason. <b>4 Pause and listen</b> — the hardest beat, kept from the current Rope: after the ask, stop talking. Do not discount your own request into the silence. <b>5 If the answer on salary is no, explore an alternative</b> — a salary review at six months, written into the letter; relocation support; a start date that lets you finish something; a training budget. <b>6 Confirm in writing</b> — whatever was agreed goes into the letter or a confirmation email, as 10.1 taught. Timing matters as much as wording: negotiate after a written offer exists and before you accept; a call or a video call for the conversation, email to confirm. The Indonesian phrasing below is from the blueprint, and the figure in it is illustrative: <i>“Terima kasih, saya sangat tertarik dengan posisi ini. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, [alasan singkat: pengalaman magang di X / penawaran lain / data pasar]. Kalau gaji pokok sudah tetap, apakah memungkinkan evaluasi gaji setelah enam bulan yang dicantumkan di surat penawaran?”</i> Notice what it does: gratitude, one number, one reason, and the alternative prepared in the same breath — so that “no” on the base is not the end of the conversation.",
+        "id": "Gagasan negosiasi berprinsip yang umum di berbagai sumber, untuk tawaran pertama, menyusut menjadi enam langkah. <b>1 Berterima kasih dan tunjukkan minat tulus</b> — secara spesifik: timnya, cakupannya, apa yang kamu pelajari di wawancara. Ini bukan sanjungan; ini memberi tahu rekruter bahwa percakapan ini tentang membuat ini berhasil, bukan tentang pergi. <b>2 Ajukan pertanyaan untuk memahami paketnya</b> — apa pun yang belum jelas dari 10.1 dan 10.2: bagaimana bonus sebenarnya dibayarkan, apakah tunjangan tetap, siklus evaluasi. Kadang jawabannya menghapus kebutuhan bernegosiasi. <b>3 Ajukan satu permintaan jelas dan beralasan</b> — satu angka atau satu hal, dengan satu alasan. <b>4 Berhenti dan dengarkan</b> — ketukan tersulit, dipertahankan dari The Rope saat ini: setelah meminta, berhenti bicara. Jangan mendiskon permintaanmu sendiri ke dalam keheningan. <b>5 Jika jawaban soal gaji tidak, jelajahi alternatif</b> — evaluasi gaji di bulan keenam, dicantumkan di surat; dukungan relokasi; tanggal mulai yang memungkinkanmu menyelesaikan sesuatu; anggaran pelatihan. <b>6 Konfirmasi tertulis</b> — apa pun yang disepakati masuk ke surat atau email konfirmasi, seperti diajarkan 10.1. Waktu sama pentingnya dengan kata-kata: bernegosiasi setelah tawaran tertulis ada dan sebelum kamu menerima; telepon atau panggilan video untuk percakapannya, email untuk konfirmasi. Frasa bahasa Indonesia di bawah dari cetak biru, dan angkanya ilustratif: <i>“Terima kasih, saya sangat tertarik dengan posisi ini. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, [alasan singkat: pengalaman magang di X / penawaran lain / data pasar]. Kalau gaji pokok sudah tetap, apakah memungkinkan evaluasi gaji setelah enam bulan yang dicantumkan di surat penawaran?”</i> Perhatikan yang dilakukannya: terima kasih, satu angka, satu alasan, dan alternatif yang disiapkan dalam napas yang sama — sehingga “tidak” untuk pokok bukan akhir percakapan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Step",
+          "id": "Langkah"
+         },
+         {
+          "en": "English",
+          "id": "Bahasa Inggris"
+         },
+         {
+          "en": "Bahasa Indonesia",
+          "id": "Bahasa Indonesia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 Thank</b>",
+           "id": "<b>1 Terima kasih</b>"
+          },
+          {
+           "en": "“Thank you — I’m genuinely excited about the role and the team.”",
+           "id": "“Thank you — I’m genuinely excited about the role and the team.”"
+          },
+          {
+           "en": "“Terima kasih, saya sangat tertarik dengan posisi dan timnya.”",
+           "id": "“Terima kasih, saya sangat tertarik dengan posisi dan timnya.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 Understand</b>",
+           "id": "<b>2 Memahami</b>"
+          },
+          {
+           "en": "“Could I ask how the bonus has been paid in the last two years?”",
+           "id": "“Could I ask how the bonus has been paid in the last two years?”"
+          },
+          {
+           "en": "“Boleh saya tahu bagaimana bonus dibayarkan dua tahun terakhir?”",
+           "id": "“Boleh saya tahu bagaimana bonus dibayarkan dua tahun terakhir?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 One request</b>",
+           "id": "<b>3 Satu permintaan</b>"
+          },
+          {
+           "en": "“Is there room to bring the base toward Rp 7,5 juta, given [reason]?”",
+           "id": "“Is there room to bring the base toward Rp 7,5 juta, given [reason]?”"
+          },
+          {
+           "en": "“Apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya…”",
+           "id": "“Apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya…”"
+          }
+         ],
+         [
+          {
+           "en": "<b>4 Pause</b>",
+           "id": "<b>4 Jeda</b>"
+          },
+          {
+           "en": "Stop. Let them answer.",
+           "id": "Berhenti. Biarkan mereka menjawab."
+          },
+          {
+           "en": "Diam. Biarkan mereka menjawab.",
+           "id": "Diam. Biarkan mereka menjawab."
+          }
+         ],
+         [
+          {
+           "en": "<b>5 Alternative</b>",
+           "id": "<b>5 Alternatif</b>"
+          },
+          {
+           "en": "“If the base is fixed, could a six-month salary review be written into the letter?”",
+           "id": "“If the base is fixed, could a six-month salary review be written into the letter?”"
+          },
+          {
+           "en": "“Kalau pokok sudah tetap, apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat?”",
+           "id": "“Kalau pokok sudah tetap, apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat?”"
+          }
+         ],
+         [
+          {
+           "en": "<b>6 Confirm</b>",
+           "id": "<b>6 Konfirmasi</b>"
+          },
+          {
+           "en": "“Thank you — could you confirm that in the revised letter?”",
+           "id": "“Thank you — could you confirm that in the revised letter?”"
+          },
+          {
+           "en": "“Terima kasih — boleh dikonfirmasi di surat revisinya?”",
+           "id": "“Terima kasih — boleh dikonfirmasi di surat revisinya?”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Figures illustrative. The ID request line is the blueprint’s phrasing.",
+         "id": "Angka ilustratif. Kalimat permintaan ID adalah frasa cetak biru."
+        }
        }
       },
       {
-       "icon": "book",
+       "icon": "users",
        "h": {
-        "en": "The golden rule: verbal promises are conversation",
-        "id": "Aturan emas: janji lisan hanyalah percakapan"
+        "en": "Competing offers, the cultural register, and what never to do",
+        "id": "Tawaran lain, register budaya, dan yang tidak boleh dilakukan"
        },
        "body": {
-        "en": "Everything that mattered in the interviews — the salary review at six months, the title change after probation, the training budget, the hybrid arrangement — either appears in the letter or does not yet exist. This is not cynicism about the people who promised; managers change, budgets change, and a promise the letter does not carry has no owner in a year. The move is a calm sentence that treats the omission as an administrative detail: “Could the six-month review we discussed be reflected in the letter or the confirmation email?” Companies that meant the promise add the line without friction; companies that hesitate have told you something useful before you signed. Questions about the letter are normal diligence, and an employer's discomfort with them is itself information. Sign only when the document says what the room said — and keep the final version, with every confirmation email, where you can find it in six months.",
-        "id": "Segala hal yang penting dalam wawancara — tinjauan gaji di bulan keenam, perubahan jabatan setelah masa percobaan, anggaran pelatihan, pengaturan kerja hibrida — entah muncul di surat atau belum ada. Ini bukan sinisme terhadap orang yang berjanji; manajer berganti, anggaran berubah, dan janji yang tak dibawa surat tak punya pemilik dalam setahun. Langkahnya adalah satu kalimat tenang yang memperlakukan kelalaian itu sebagai detail administratif: “Bisakah tinjauan enam bulan yang kita bahas dicantumkan di surat atau email konfirmasi?” Perusahaan yang sungguh-sungguh berjanji menambahkan barisnya tanpa hambatan; perusahaan yang ragu telah memberitahumu sesuatu yang berguna sebelum kamu menandatangani. Pertanyaan tentang surat adalah kehati-hatian yang wajar, dan ketidaknyamanan pemberi kerja terhadapnya adalah informasi tersendiri. Tanda tangani hanya ketika dokumennya mengatakan apa yang dikatakan ruangan — dan simpan versi finalnya, beserta setiap email konfirmasi, di tempat yang bisa kamu temukan enam bulan lagi."
+        "en": "<b>Competing offers</b> are legitimate evidence, and they are mentioned truthfully and without threat: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” That sentence tells the truth, says why you still prefer this employer, and asks. What it does not do is <b>invent</b> an offer or inflate one: invented offers can be checked, the recruiter may simply say “silakan ambil”, and the lie follows you into a job where your manager already knows. The same rule applies to your current or internship pay — never lie about it; if asked and you would rather not say, you can say you would prefer to focus on the value of this role. <b>The cultural register</b> matters more than the script. In many Indonesian workplaces a negotiation that feels aggressive can damage the relationship with your future manager before your first day; the recruiter who hears you is often in the same building as the person you will report to. So: short, grateful, specific, reasoned; one or two rounds, not five; the words “mohon” and “pertimbangan” doing real work. <b>What not to do</b>, the blueprint’s list kept whole: accept on the spot and renegotiate later; negotiate after signing; issue ultimatums; lie about current pay or other offers. And one more from the current Rope: never negotiate twice after a yes — once they have moved, thank them and close.",
+        "id": "<b>Tawaran lain</b> adalah bukti yang sah, dan disebut dengan jujur dan tanpa ancaman: “Saya juga sudah menerima tawaran tertulis dari perusahaan lain dengan gaji pokok di kisaran Rp7,5 juta. Saya lebih tertarik dengan posisi ini karena [alasan] — apakah ada ruang untuk mendekati angka itu?” Kalimat itu mengatakan yang benar, menyebut mengapa kamu tetap memilih pemberi kerja ini, dan bertanya. Yang tidak dilakukannya adalah <b>mengarang</b> tawaran atau menggelembungkannya: tawaran karangan bisa diperiksa, rekruter mungkin sekadar berkata “silakan ambil”, dan kebohongan itu mengikutimu ke pekerjaan di mana manajermu sudah tahu. Aturan yang sama berlaku untuk gaji saat ini atau gaji magangmu — jangan pernah berbohong; jika ditanya dan kamu lebih suka tidak menyebutkan, kamu bisa berkata lebih ingin fokus pada nilai peran ini. <b>Register budaya</b> lebih penting daripada skripnya. Di banyak tempat kerja Indonesia, negosiasi yang terasa agresif bisa merusak hubungan dengan calon manajermu sebelum hari pertamamu; rekruter yang mendengarmu sering satu gedung dengan orang yang akan menjadi atasanmu. Jadi: singkat, penuh terima kasih, spesifik, beralasan; satu atau dua putaran, bukan lima; kata “mohon” dan “pertimbangan” bekerja sungguh-sungguh. <b>Yang tidak boleh dilakukan</b>, daftar cetak biru utuh: menerima di tempat lalu menegosiasi ulang; bernegosiasi setelah tanda tangan; memberi ultimatum; berbohong tentang gaji saat ini atau tawaran lain. Dan satu lagi dari The Rope saat ini: jangan bernegosiasi dua kali setelah “ya” — begitu mereka bergerak, berterima kasih dan tutup."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Never",
+          "id": "Jangan pernah"
+         },
+         {
+          "en": "Why it costs you",
+          "id": "Mengapa merugikanmu"
+         },
+         {
+          "en": "Instead",
+          "id": "Sebagai gantinya"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Invent or inflate an offer",
+           "id": "Mengarang atau menggelembungkan tawaran"
+          },
+          {
+           "en": "It can be checked; they may say “take it”",
+           "id": "Bisa diperiksa; mereka mungkin berkata “ambil saja”"
+          },
+          {
+           "en": "Mention real offers, as they are",
+           "id": "Sebut tawaran nyata, apa adanya"
+          }
+         ],
+         [
+          {
+           "en": "Ultimatum",
+           "id": "Ultimatum"
+          },
+          {
+           "en": "Forces a yes/no you may lose, and is remembered",
+           "id": "Memaksa ya/tidak yang mungkin kalah, dan diingat"
+          },
+          {
+           "en": "One request with a reason and an alternative",
+           "id": "Satu permintaan dengan alasan dan alternatif"
+          }
+         ],
+         [
+          {
+           "en": "Accept, then renegotiate",
+           "id": "Menerima, lalu menegosiasi ulang"
+          },
+          {
+           "en": "Breaks trust before day one",
+           "id": "Merusak kepercayaan sebelum hari pertama"
+          },
+          {
+           "en": "Negotiate before accepting",
+           "id": "Bernegosiasi sebelum menerima"
+          }
+         ],
+         [
+          {
+           "en": "Negotiate after signing",
+           "id": "Bernegosiasi setelah tanda tangan"
+          },
+          {
+           "en": "The deal is done; you have no standing",
+           "id": "Kesepakatan selesai; kamu tak punya dasar"
+          },
+          {
+           "en": "Ask for time to review (10.2)",
+           "id": "Minta waktu meninjau (10.2)"
+          }
+         ],
+         [
+          {
+           "en": "Five rounds",
+           "id": "Lima putaran"
+          },
+          {
+           "en": "Reads as aggressive in most Indonesian workplaces",
+           "id": "Terbaca agresif di kebanyakan tempat kerja Indonesia"
+          },
+          {
+           "en": "One or two rounds, then close",
+           "id": "Satu atau dua putaran, lalu tutup"
+          }
+         ]
+        ]
        }
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "flow",
       "exhibit": {
-       "en": "Exhibit 1: The four zones of an offer letter — inspect each before signing; if it matters and it is not written, it does not exist yet.",
-       "id": "Peraga 1: Empat zona surat tawaran — periksa masing-masing sebelum menandatangani; jika penting dan tidak tertulis, berarti belum ada."
+       "en": "Exhibit 1: The six-step conversation",
+       "id": "Peraga 1: Percakapan enam langkah"
       },
       "title": {
-       "en": "Compensation · Probation · Scope & title · Penalty clauses",
-       "id": "Kompensasi · Masa percobaan · Lingkup & jabatan · Klausul penalti"
+       "en": "Thank → understand → one request → pause → alternative → confirm in writing",
+       "id": "Terima kasih → memahami → satu permintaan → jeda → alternatif → konfirmasi tertulis"
       },
       "items": [
        {
+        "icon": "users",
         "h": {
-         "en": "Compensation exactness",
-         "id": "Ketepatan kompensasi"
+         "en": "Thank",
+         "id": "Terima kasih"
         },
         "sub": {
-         "en": "Base, currency, allowance lines, bonus formula and schedule",
-         "id": "Gaji pokok, mata uang, baris tunjangan, rumus dan jadwal bonus"
+         "en": "Specific, genuine interest.",
+         "id": "Minat spesifik dan tulus."
         }
        },
        {
+        "icon": "eye",
         "h": {
-         "en": "Probation terms",
-         "id": "Ketentuan masa percobaan"
+         "en": "Understand",
+         "id": "Memahami"
         },
         "sub": {
-         "en": "Length, criteria, salary during, notice inside, what confirmation changes",
-         "id": "Lama, kriteria, gaji selama masa itu, pemberitahuan di dalamnya, apa yang berubah setelah pengangkatan"
+         "en": "Bonus history, allowances, review cycle.",
+         "id": "Riwayat bonus, tunjangan, siklus evaluasi."
         }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Scope, title, location",
-         "id": "Lingkup, jabatan, lokasi"
+         "en": "One request",
+         "id": "Satu permintaan"
         },
         "sub": {
-         "en": "Title as discussed, reporting line named, location and travel written",
-         "id": "Jabatan sesuai pembicaraan, garis pelaporan disebut, lokasi dan perjalanan tertulis"
+         "en": "One number or item, one reason.",
+         "id": "Satu angka atau hal, satu alasan."
         }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Penalty and exit clauses",
-         "id": "Klausul penalti dan keluar"
+         "en": "Pause",
+         "id": "Jeda"
         },
         "sub": {
-         "en": "Clawbacks, minimum service, non-competes, IP — read, bound, accept knowingly",
-         "id": "Pengembalian biaya, masa kerja minimum, larangan bersaing, HKI — baca, batasi, terima dengan sadar"
+         "en": "Stop talking; let them answer.",
+         "id": "Berhenti bicara; biarkan mereka menjawab."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Alternative",
+         "id": "Alternatif"
+        },
+        "sub": {
+         "en": "Review at six months, relocation, start date, training.",
+         "id": "Evaluasi bulan keenam, relokasi, tanggal mulai, pelatihan."
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "Confirm",
+         "id": "Konfirmasi"
+        },
+        "sub": {
+         "en": "In the letter or a confirmation email.",
+         "id": "Di surat atau email konfirmasi."
         }
        }
       ],
+      "note": {
+       "en": "For a fixed-pay programme, steps 3–5 become clarifications, not requests.",
+       "id": "Untuk program gaji tetap, langkah 3–5 menjadi klarifikasi, bukan permintaan."
+      },
       "longdesc": {
-       "en": "A two-by-two grid of the four zones to inspect in an offer letter: compensation stated exactly with a bonus formula; probation terms with length and criteria; scope, title and location matching the interviews; and penalty or exit clauses read and bounded before signing.",
-       "id": "Kisi dua kali dua berisi empat zona yang harus diperiksa dalam surat tawaran: kompensasi yang dinyatakan persis dengan rumus bonus; ketentuan masa percobaan dengan lama dan kriteria; lingkup, jabatan, dan lokasi yang sesuai wawancara; serta klausul penalti atau keluar yang dibaca dan dibatasi sebelum menandatangani."
+       "en": "A six-step flow for negotiating a first offer: thank the employer and show genuine interest; ask questions to understand the package; make one clear, reasoned request; pause and listen; if the answer on salary is no, explore an alternative such as a written six-month review; and confirm whatever was agreed in writing.",
+       "id": "Alur enam langkah bernegosiasi untuk tawaran pertama: berterima kasih dan tunjukkan minat tulus; ajukan pertanyaan untuk memahami paket; ajukan satu permintaan jelas dan beralasan; berhenti dan dengarkan; jika jawaban soal gaji tidak, jelajahi alternatif seperti evaluasi enam bulan tertulis; dan konfirmasi apa pun yang disepakati secara tertulis."
       }
      },
+     "compare": [
+      {
+       "tag": {
+        "en": "Ultimatum → collaboration",
+        "id": "Ultimatum → kolaborasi"
+       },
+       "q": {
+        "en": "A grade-band employer offers Rp 7 juta base. You hold a real written offer elsewhere at Rp 7,5 juta and prefer this one.",
+        "id": "Pemberi kerja berpita menawarkan pokok Rp 7 juta. Kamu memegang tawaran tertulis nyata di tempat lain Rp 7,5 juta dan lebih memilih yang ini."
+       },
+       "weak": {
+        "en": "“Saya minta Rp10 juta atau saya ambil tawaran lain.” — A number with no basis, an inflated threat, and no way for the recruiter to say yes to part of it. The recruiter, who cannot approve Rp 10 juta, replies “Baik, silakan ambil tawaran yang lain” — and the candidate has lost the offer they preferred.",
+        "id": "“Saya minta Rp10 juta atau saya ambil tawaran lain.” — Angka tanpa dasar, ancaman yang digelembungkan, dan tak ada cara bagi rekruter untuk menyetujui sebagiannya. Rekruter, yang tak bisa menyetujui Rp 10 juta, membalas “Baik, silakan ambil tawaran yang lain” — dan kandidat kehilangan tawaran yang lebih ia sukai."
+       },
+       "strong": {
+        "en": "“Terima kasih, saya sangat tertarik dengan posisi ini, terutama rotasi di tim operasional. Saya juga sudah menerima tawaran tertulis lain dengan gaji pokok Rp7,5 juta, tetapi saya lebih memilih di sini. Apakah ada ruang untuk gaji pokok di kisaran itu? Kalau pokok sudah tetap, apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat penawaran?” — then silence.",
+        "id": "“Terima kasih, saya sangat tertarik dengan posisi ini, terutama rotasi di tim operasional. Saya juga sudah menerima tawaran tertulis lain dengan gaji pokok Rp7,5 juta, tetapi saya lebih memilih di sini. Apakah ada ruang untuk gaji pokok di kisaran itu? Kalau pokok sudah tetap, apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat penawaran?” — lalu diam."
+       },
+       "why": {
+        "en": "The strong version is truthful, gives a reason the recruiter can take to the hiring manager, states a preference that makes the ask collaborative, and offers a second door. The recruiter can say yes to the base, yes to the review, or yes to part of either — every one of which is better than the ultimatum’s only two outcomes. Figures fictional.",
+        "id": "Versi kuat jujur, memberi alasan yang bisa dibawa rekruter ke manajer perekrut, menyatakan preferensi yang membuat permintaannya kolaboratif, dan menawarkan pintu kedua. Rekruter bisa menyetujui pokoknya, menyetujui evaluasinya, atau menyetujui sebagian dari keduanya — masing-masing lebih baik daripada dua kemungkinan satu-satunya dari ultimatum. Angka fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chat",
+      "title": {
+       "en": "In focus: the question Nadia almost did not ask Bank Sinar",
+       "id": "Sorotan: pertanyaan yang hampir tidak Nadia ajukan ke Bank Sinar"
+      },
+      "body": [
+       {
+        "en": "Nadia’s classmate Bima has an ODP offer from another fictional bank and wants to negotiate the base “because everyone says you should”. Nadia, who has just read Bank Sinar’s letter — “paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026” — asks him what he thinks the recruiter can actually change. He does not know. Neither did she, until the letter said it.",
+        "id": "Teman sekelas Nadia, Bima, punya tawaran ODP dari bank fiktif lain dan ingin menegosiasikan pokok “karena semua orang bilang harus”. Nadia, yang baru membaca surat Bank Sinar — “paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026” — bertanya kepadanya apa yang menurutnya sungguh bisa diubah rekruter. Ia tidak tahu. Nadia juga tidak, sampai suratnya mengatakannya."
+       },
+       {
+        "en": "So Nadia prepares a different conversation for Bank Sinar: no request on the base, and two clarifications — whether the housing allowance applies from the first month of an out-of-town placement, and whether the bond’s decreasing schedule is in the separate agreement she has not yet seen. Both answers arrive in writing. For KilatPay, a grade-band employer, she prepares the six steps. Two offers, two pay styles, two different conversations — and neither of them an ultimatum.",
+        "id": "Maka Nadia menyiapkan percakapan berbeda untuk Bank Sinar: tanpa permintaan pada pokok, dan dua klarifikasi — apakah tunjangan perumahan berlaku sejak bulan pertama penempatan luar kota, dan apakah jadwal menurun ikatan dinas ada di perjanjian terpisah yang belum ia lihat. Kedua jawaban datang tertulis. Untuk KilatPay, pemberi kerja berpita, ia menyiapkan enam langkah. Dua tawaran, dua gaya gaji, dua percakapan berbeda — dan tak satu pun ultimatum."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Name the pay style",
+        "id": "Latihan 1 · Namai gaya gajinya"
+       },
+       "body": {
+        "en": "For each of three fictional offers, name the pay style and write the one sentence you would say: (a) “Program Management Trainee angkatan 2026 — paket standar untuk seluruh peserta”, Rp 6,8 juta; (b) a larger private firm, “Associate, Grade 3”, Rp 7 juta; (c) a twenty-person start-up, “Operations Associate”, Rp 6,5 juta plus a laptop.",
+        "id": "Untuk masing-masing tiga tawaran fiktif, namai gaya gajinya dan tulis satu kalimat yang akan kamu ucapkan: (a) “Program Management Trainee angkatan 2026 — paket standar untuk seluruh peserta”, Rp 6,8 juta; (b) perusahaan swasta lebih besar, “Associate, Grade 3”, Rp 7 juta; (c) startup dua puluh orang, “Operations Associate”, Rp 6,5 juta plus laptop."
+       },
+       "debrief": {
+        "en": "(a) Fixed — a clarification, not a request: placement, start date, relocation or bond terms. (b) Grade or band — one reasoned request with evidence, and the six-month review as the alternative. (c) Negotiable — the base and a non-salary item, still in one or two rounds. If you wrote the same sentence for all three, the pay style has not yet changed how you prepare.",
+        "id": "(a) Tetap — klarifikasi, bukan permintaan: penempatan, tanggal mulai, relokasi, atau syarat ikatan dinas. (b) Golongan atau pita — satu permintaan beralasan dengan bukti, dan evaluasi enam bulan sebagai alternatif. (c) Bisa dinegosiasikan — pokok dan satu hal non-gaji, tetap dalam satu atau dua putaran. Jika kamu menulis kalimat yang sama untuk ketiganya, gaya gaji belum mengubah caramu bersiap."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Fill the prep sheet and say the ask aloud",
+        "id": "Latihan 2 · Isi lembar persiapan dan ucapkan permintaannya"
+       },
+       "body": {
+        "en": "Fill the prep sheet in the resources card for an offer you hold or a fictional one: range, walk-away, negotiable items, two priorities, one piece of evidence. Then say your request aloud five times, in Indonesian, ending in silence each time — the current Rope’s drill, kept.",
+        "id": "Isi lembar persiapan di kartu sumber untuk tawaran yang kamu pegang atau yang fiktif: rentang, titik mundur, hal yang bisa dinegosiasikan, dua prioritas, satu bukti. Lalu ucapkan permintaanmu keras lima kali, dalam bahasa Indonesia, diakhiri dengan diam setiap kali — latihan The Rope saat ini, dipertahankan."
+       },
+       "debrief": {
+        "en": "Check three things: one number, not a list; a reason you could repeat if asked “kenapa?”; and a silence after the question mark that you did not fill. If your walk-away is above the offer and you have no alternative, rewrite it — a walk-away you would not actually walk away from is a bluff.",
+        "id": "Periksa tiga hal: satu angka, bukan daftar; alasan yang bisa kamu ulangi jika ditanya “kenapa?”; dan keheningan setelah tanda tanya yang tidak kamu isi. Jika titik mundurmu di atas tawaran dan kamu tak punya alternatif, tulis ulang — titik mundur yang tidak akan sungguh kamu tinggalkan adalah gertakan."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The “budget is fixed” moment, in the simulator",
+        "id": "Latihan 3 · Momen “anggarannya tetap”, di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with the HR persona: salary expectation, gross or take-home, and other processes. When the persona probes, practise the pivot — “I understand the base is fixed at this level; could we look at a six-month review written into the letter?” — and mention any other process truthfully.",
+        "id": "Jalankan tryit di bawah dengan persona HR: ekspektasi gaji, kotor atau take-home, dan proses lain. Saat persona menggali, latih pivotnya — “Saya memahami pokok sudah tetap untuk level ini; apakah evaluasi enam bulan bisa dicantumkan di surat?” — dan sebut proses lain dengan jujur."
+       },
+       "debrief": {
+        "en": "The debrief the blueprint specifies for its Negotiation Practice tool is the one to apply to your transcript: was the request clear, was a reason given, did you let the pause stand, did you explore an alternative, was the tone grateful, and did you ask for written confirmation? The simulator scores the answer, not these six; score them yourself.",
+        "id": "Debrief yang ditentukan cetak biru untuk alat Negotiation Practice-nya adalah yang diterapkan pada transkripmu: apakah permintaannya jelas, apakah alasan diberikan, apakah kamu membiarkan jeda berdiri, apakah kamu menjelajahi alternatif, apakah nadanya penuh terima kasih, dan apakah kamu meminta konfirmasi tertulis? Simulator menilai jawabannya, bukan keenam hal ini; nilai sendiri."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Negotiating a fixed programme’s base",
+         "id": "Menegosiasikan pokok program tetap"
+        },
+        "fix": {
+         "en": "Clarify placement, start date, relocation, bond terms instead.",
+         "id": "Klarifikasi penempatan, tanggal mulai, relokasi, syarat ikatan dinas sebagai gantinya."
+        }
+       },
+       {
+        "h": {
+         "en": "A list of ten requests",
+         "id": "Daftar sepuluh permintaan"
+        },
+        "fix": {
+         "en": "Two priorities, one request, one alternative.",
+         "id": "Dua prioritas, satu permintaan, satu alternatif."
+        }
+       },
+       {
+        "h": {
+         "en": "Filling the silence with a discount",
+         "id": "Mengisi keheningan dengan diskon"
+        },
+        "fix": {
+         "en": "After the ask, stop. They speak next.",
+         "id": "Setelah meminta, berhenti. Mereka bicara berikutnya."
+        }
+       },
+       {
+        "h": {
+         "en": "Inventing or inflating an offer",
+         "id": "Mengarang atau menggelembungkan tawaran"
+        },
+        "fix": {
+         "en": "Mention real offers as they are, with why you prefer this one.",
+         "id": "Sebut tawaran nyata apa adanya, dengan alasan kamu lebih memilih yang ini."
+        }
+       },
+       {
+        "h": {
+         "en": "A verbal yes left verbal",
+         "id": "Ya lisan dibiarkan lisan"
+        },
+        "fix": {
+         "en": "Confirm in the revised letter or a confirmation email.",
+         "id": "Konfirmasi di surat revisi atau email konfirmasi."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Pay style",
+        "id": "Gaya gaji"
+       },
+       "def": {
+        "en": "How an employer sets pay — fixed for a cohort, a grade band, or negotiable per person (Ryan’s typology, adapted); it decides whether there is room.",
+        "id": "Cara pemberi kerja menetapkan gaji — tetap untuk satu angkatan, pita golongan, atau bisa dinegosiasikan per orang (tipologi Ryan, diadaptasi); ia menentukan ada tidaknya ruang."
+       }
+      },
+      {
+       "term": {
+        "en": "Walk-away point",
+        "id": "Titik mundur"
+       },
+       "def": {
+        "en": "The lowest package you would accept, set by your real alternatives and written down before the conversation.",
+        "id": "Paket terendah yang akan kamu terima, ditentukan oleh alternatifmu yang nyata dan ditulis sebelum percakapan."
+       }
+      },
+      {
+       "term": {
+        "en": "Non-salary levers",
+        "id": "Pengungkit non-gaji"
+       },
+       "def": {
+        "en": "Items that can move when the base cannot: review timing, relocation, start date, equipment, training, remote days.",
+        "id": "Hal yang bisa bergerak saat pokok tidak bisa: waktu evaluasi, relokasi, tanggal mulai, peralatan, pelatihan, hari jarak jauh."
+       }
+      },
+      {
+       "term": {
+        "en": "Collaborative negotiation",
+        "id": "Negosiasi kolaboratif"
+       },
+       "def": {
+        "en": "Asking in a way that lets the other side say yes to part of it — gratitude, one reasoned request, an alternative, written confirmation.",
+        "id": "Meminta dengan cara yang memungkinkan pihak lain menyetujui sebagiannya — terima kasih, satu permintaan beralasan, alternatif, konfirmasi tertulis."
+       }
+      }
+     ],
      "checks": [
       {
        "q": {
-        "en": "The hiring manager verbally promised a salary review after six months. It is not in the letter. You should:",
-        "id": "Manajer perekrut berjanji secara lisan akan ada peninjauan gaji setelah enam bulan. Itu tidak ada di surat. Kamu sebaiknya:"
+        "en": "A bank’s ODP letter says the package is the same for every member of the 2026 intake. The best move is…",
+        "id": "Surat ODP sebuah bank menyatakan paketnya sama untuk seluruh peserta angkatan 2026. Langkah terbaik adalah…"
        },
        "options": [
         {
-         "en": "Sign now and raise it again in month six",
-         "id": "Tanda tangan sekarang, lalu ungkit lagi di bulan keenam"
+         "en": "Ask for 20% more base",
+         "id": "Meminta pokok 20% lebih tinggi"
         },
         {
-         "en": "Ask for it to be added in writing before you sign",
-         "id": "Minta agar itu ditambahkan secara tertulis sebelum kamu tanda tangan"
+         "en": "Accept without reading further",
+         "id": "Menerima tanpa membaca lebih lanjut"
         },
         {
-         "en": "Trust it — they seemed sincere",
-         "id": "Percaya saja — mereka tampak tulus"
+         "en": "Treat pay as fixed and clarify placement, start date, relocation or bond terms instead",
+         "id": "Memperlakukan gaji sebagai tetap dan mengklarifikasi penempatan, tanggal mulai, relokasi, atau syarat ikatan dinas"
+        },
+        {
+         "en": "Mention a competing offer to force a change",
+         "id": "Menyebut tawaran lain untuk memaksa perubahan"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Fixed pay leaves little or no room on the base; the useful questions are clarifications.",
+        "id": "Gaji tetap menyisakan sedikit atau tanpa ruang di pokok; pertanyaan yang berguna adalah klarifikasi."
+       }
+      },
+      {
+       "q": {
+        "en": "Which request is best prepared?",
+        "id": "Permintaan mana yang paling siap?"
+       },
+       "options": [
+        {
+         "en": "“Could it be a bit more?”",
+         "id": "“Bisa sedikit lebih?”"
+        },
+        {
+         "en": "“Is there room toward Rp 7,5 juta, given my internship result and the market data for this role? If the base is fixed, could a six-month review be written in?”",
+         "id": "“Apakah ada ruang ke kisaran Rp 7,5 juta, mengingat hasil magang saya dan data pasar untuk peran ini? Kalau pokok tetap, apakah evaluasi enam bulan bisa dicantumkan?”"
+        },
+        {
+         "en": "A list of base, bonus, laptop, housing, title and leave",
+         "id": "Daftar pokok, bonus, laptop, perumahan, jabatan, dan cuti"
+        },
+        {
+         "en": "“I need Rp 10 juta.”",
+         "id": "“Saya butuh Rp 10 juta.”"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Correct — sincerity is not the issue; memory and turnover are. Managers change; letters remain. One polite sentence gets it written.",
-        "id": "Benar — masalahnya bukan ketulusan; masalahnya adalah ingatan dan pergantian orang. Manajer berganti; surat tetap ada. Satu kalimat yang sopan cukup untuk membuatnya tertulis."
+        "en": "One number, a reason the recruiter can repeat, and an alternative ready.",
+        "id": "Satu angka, alasan yang bisa diulang rekruter, dan alternatif siap."
        }
       },
       {
        "q": {
-        "en": "A clause says training costs are repayable if you leave within two years. You should:",
-        "id": "Sebuah klausul menyebut biaya pelatihan harus dikembalikan kalau kamu keluar dalam dua tahun. Kamu sebaiknya:"
+        "en": "You have no other offer yet, but two processes in progress. When asked about other offers you…",
+        "id": "Kamu belum punya tawaran lain, tetapi dua proses berjalan. Saat ditanya tentang tawaran lain kamu…"
        },
        "options": [
         {
-         "en": "Read it fully, ask for its limits, and decide knowingly before signing",
-         "id": "Membacanya sampai tuntas, menanyakan batasannya, dan memutuskan dengan sadar sebelum tanda tangan"
+         "en": "Say you have a higher offer",
+         "id": "Mengatakan punya tawaran lebih tinggi"
         },
         {
-         "en": "Ignore it — those clauses are never enforced",
-         "id": "Mengabaikannya — klausul seperti itu tidak pernah ditegakkan"
+         "en": "Say truthfully that you are in two other processes, without threat, and why you prefer this role",
+         "id": "Mengatakan dengan jujur bahwa kamu dalam dua proses lain, tanpa ancaman, dan mengapa kamu lebih memilih peran ini"
         },
         {
-         "en": "Refuse the offer immediately",
-         "id": "Langsung menolak tawarannya"
+         "en": "Refuse to answer",
+         "id": "Menolak menjawab"
+        },
+        {
+         "en": "Give an ultimatum",
+         "id": "Memberi ultimatum"
         }
        ],
-       "correct": 0,
+       "correct": 1,
        "why": {
-        "en": "Correct — such clauses exist and can be real. Knowing what you sign is the whole discipline of this lesson.",
-        "id": "Benar — klausul seperti itu memang ada dan bisa berlaku sungguhan. Tahu persis apa yang kamu tanda tangani adalah inti disiplin pelajaran ini."
+        "en": "Never invent an offer; it can be checked, and the employer may simply say “take it”.",
+        "id": "Jangan pernah mengarang tawaran; bisa diperiksa, dan pemberi kerja mungkin sekadar berkata “ambil saja”."
        }
       }
      ],
-     "glossary": [
+     "tryit": {
+      "qid": "hr06",
+      "set": [
+       "hr06",
+       "elig_salary_gross",
+       "elig_other_processes"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Salary, gross or take-home, other processes — with the pivot",
+       "id": "Gaji, kotor atau take-home, proses lain — dengan pivot"
+      },
+      "desc": {
+       "en": "Three questions with the HR persona and two probes each. Practise one reasoned request, the pause, the alternative when the base is fixed, and a truthful answer about other processes. The blueprint’s Negotiation Practice tool, with recruiter modes for fixed, grade and negotiable pay, is not yet built; this uses the existing HR persona, and the six-point negotiation debrief is yours to apply.",
+       "id": "Tiga pertanyaan dengan persona HR dan dua galian masing-masing. Latih satu permintaan beralasan, jeda, alternatif saat pokok tetap, dan jawaban jujur tentang proses lain. Alat Negotiation Practice cetak biru, dengan mode rekruter untuk gaji tetap, golongan, dan bisa dinegosiasikan, belum dibangun; ini memakai persona HR yang ada, dan debrief negosiasi enam poin kamu terapkan sendiri."
+      }
+     },
+     "takeaways": [
       {
-       "term": {
-        "en": "probation",
-        "id": "masa percobaan"
-       },
-       "def": {
-        "en": "The initial evaluation period of a new job, with its own terms for review, notice and confirmation.",
-        "id": "Periode evaluasi di awal pekerjaan baru, dengan ketentuannya sendiri untuk peninjauan, pemberitahuan, dan pengangkatan."
-       }
+       "en": "Read the pay style first: fixed means clarify, a band means one reasoned request, negotiable means more room — still in one or two rounds.",
+       "id": "Baca gaya gajinya dulu: tetap berarti klarifikasi, pita berarti satu permintaan beralasan, bisa dinegosiasikan berarti lebih banyak ruang — tetap dalam satu atau dua putaran."
       },
       {
-       "term": {
-        "en": "clawback",
-        "id": "pengembalian biaya (clawback)"
-       },
-       "def": {
-        "en": "A clause requiring you to repay training or relocation costs if you leave before a minimum service period — legitimate in some markets, but to be read, bounded and knowingly accepted before signing.",
-        "id": "Klausul yang mewajibkanmu mengembalikan biaya pelatihan atau relokasi jika keluar sebelum masa kerja minimum — sah di sebagian pasar, tetapi harus dibaca, dibatasi, dan diterima dengan sadar sebelum menandatangani."
-       }
+       "en": "Prepare on one page: range, walk-away from your alternatives, two priorities, one piece of evidence.",
+       "id": "Bersiap di satu halaman: rentang, titik mundur dari alternatifmu, dua prioritas, satu bukti."
+      },
+      {
+       "en": "Thank, understand, ask once with a reason, pause, offer an alternative, confirm in writing — and never invent an offer.",
+       "id": "Berterima kasih, memahami, meminta sekali dengan alasan, jeda, tawarkan alternatif, konfirmasi tertulis — dan jangan pernah mengarang tawaran."
       }
      ],
      "resources": {
+      "title": {
+       "en": "The negotiation prep sheet, the conversation card and the reading list",
+       "id": "Lembar persiapan negosiasi, kartu percakapan, dan daftar bacaan"
+      },
+      "lead": {
+       "en": "Kit item: negotiation prep sheet.",
+       "id": "Item Kit: lembar persiapan negosiasi."
+      },
       "items": [
        {
-        "kind": "checklist",
+        "kind": "guide",
         "title": {
-         "en": "Offer letter inspection",
-         "id": "Pemeriksaan surat tawaran"
+         "en": "Sources and evidence notes · Lesson 10.3",
+         "id": "Sumber dan catatan bukti · Pelajaran 10.3"
         },
         "desc": {
-         "en": "Four zones. Do not sign until every box is ticked or explained.",
-         "id": "Empat zona. Jangan tanda tangan sampai setiap kotak dicentang atau dijelaskan."
+         "en": "Where the lesson comes from.",
+         "id": "Dari mana pelajaran ini berasal."
         },
         "body": [
          {
-          "en": "Compensation: base, bonus scheme and its conditions, allowances, THR / holiday allowance, pay date — all exact",
-          "id": "Kompensasi: gaji pokok, skema bonus dan syaratnya, tunjangan, THR, tanggal gajian — semua tepat"
+          "en": "R. Ryan — the typology of fixed, grade-band and negotiable pay, adapted here to Indonesian graduate programmes, private employers and start-ups.",
+          "id": "R. Ryan — tipologi gaji tetap, pita golongan, dan bisa dinegosiasikan, diadaptasi di sini ke program lulusan Indonesia, pemberi kerja swasta, dan startup."
          },
          {
-          "en": "Probation: length, evaluation criteria, what happens at the end, notice during probation",
-          "id": "Masa percobaan: durasi, kriteria evaluasi, apa yang terjadi di akhir, pemberitahuan selama masa percobaan"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six-step conversation draws on principled-negotiation ideas common across the sources; the cultural-register advice (one or two rounds, grateful and short) is course guidance for many Indonesian workplaces, not a rule for all of them.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Percakapan enam langkah bersumber dari gagasan negosiasi berprinsip yang umum di berbagai sumber; saran register budaya (satu atau dua putaran, penuh terima kasih dan singkat) adalah panduan kursus untuk banyak tempat kerja Indonesia, bukan aturan untuk semuanya."
          },
          {
-          "en": "Scope: title, level, reporting line, location, work arrangement — match the conversation",
-          "id": "Lingkup: jabatan, level, garis pelaporan, lokasi, pengaturan kerja — sesuai percakapan"
+          "en": "The Rope (current), “The negotiation conversation script” — timing, the script skeleton, silence, non-salary levers and the three drills — retained inside the six steps.",
+          "id": "The Rope (saat ini), “Skrip percakapan negosiasi” — waktu, kerangka skrip, diam, pengungkit non-gaji, dan tiga latihan — dipertahankan di dalam enam langkah."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Negotiation prep sheet",
+         "id": "Lembar persiapan negosiasi"
+        },
+        "desc": {
+         "en": "One page, before the call.",
+         "id": "Satu halaman, sebelum menelepon."
+        },
+        "body": [
+         {
+          "en": "Employer and pay style (fixed / grade / negotiable): … · Offer as decoded in 10.1 (annual value): … · My researched range (5.3, updated): … · My walk-away point, and the alternative it comes from: …",
+          "id": "Pemberi kerja dan gaya gaji (tetap / golongan / bisa dinegosiasikan): … · Tawaran setelah diurai di 10.1 (nilai tahunan): … · Rentang risetku (5.3, diperbarui): … · Titik mundurku, dan alternatif asalnya: …"
          },
          {
-          "en": "Contract type: permanent or fixed-term; if fixed-term, the end date and renewal terms",
-          "id": "Jenis kontrak: tetap atau waktu tertentu; jika waktu tertentu, tanggal akhir dan syarat perpanjangan"
+          "en": "Negotiable here (tick): base · fixed allowances · start date · relocation / housing · equipment · training · remote days · review timing · Top two priorities: 1 … 2 … · My one request and its reason: … · My alternative if the answer is no: … · What I will ask to be confirmed in writing: …",
+          "id": "Bisa dinegosiasikan di sini (centang): pokok · tunjangan tetap · tanggal mulai · relokasi / perumahan · peralatan · pelatihan · hari jarak jauh · waktu evaluasi · Dua prioritas utama: 1 … 2 … · Satu permintaanku dan alasannya: … · Alternatifku jika jawabannya tidak: … · Yang akan kuminta dikonfirmasi tertulis: …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "The conversation card (EN/ID)",
+         "id": "Kartu percakapan (EN/ID)"
+        },
+        "desc": {
+         "en": "Retained from the current Rope, extended.",
+         "id": "Dipertahankan dari The Rope saat ini, diperluas."
+        },
+        "body": [
+         {
+          "en": "OPEN: “Thank you — I’m excited about the role and the team, and I want to make this work.” / “Terima kasih, saya sangat tertarik dengan posisi ini dan ingin ini berhasil.” · UNDERSTAND: “Could I ask how the bonus has been paid in the last two years?” / “Boleh saya tahu bagaimana bonus dibayarkan dua tahun terakhir?”",
+          "id": "BUKA: “Thank you — I’m excited about the role and the team, and I want to make this work.” / “Terima kasih, saya sangat tertarik dengan posisi ini dan ingin ini berhasil.” · MEMAHAMI: “Could I ask how the bonus has been paid in the last two years?” / “Boleh saya tahu bagaimana bonus dibayarkan dua tahun terakhir?”"
          },
          {
-          "en": "Penalties: training bond amount and period, notice period, non-compete scope and duration",
-          "id": "Penalti: jumlah dan masa ikatan dinas, masa pemberitahuan, lingkup dan durasi non-kompetisi"
+          "en": "ASK: “Based on [evidence], is there room to bring the base toward [number]?” / “Apakah ada ruang untuk gaji pokok di kisaran [angka]? Pertimbangan saya, [alasan].” · SILENCE. · IF NO: “Could a six-month salary review be written into the letter?” / “Apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat penawaran?” · CLOSE: “Thank you — could you confirm that in writing?” / “Terima kasih — boleh dikonfirmasi secara tertulis?” · NEVER: invent an offer, lie about pay, ultimatums, renegotiate after a yes.",
+          "id": "MINTA: “Based on [evidence], is there room to bring the base toward [number]?” / “Apakah ada ruang untuk gaji pokok di kisaran [angka]? Pertimbangan saya, [alasan].” · DIAM. · JIKA TIDAK: “Could a six-month salary review be written into the letter?” / “Apakah evaluasi gaji setelah enam bulan bisa dicantumkan di surat penawaran?” · TUTUP: “Thank you — could you confirm that in writing?” / “Terima kasih — boleh dikonfirmasi secara tertulis?” · JANGAN: mengarang tawaran, berbohong soal gaji, ultimatum, menegosiasi ulang setelah ya."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "10.4",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "30 min",
+      "id": "30 mnt"
+     },
+     "title": {
+      "en": "Deciding, Accepting, Declining",
+      "id": "Memutuskan, Menerima, Menolak"
+     },
+     "overview": {
+      "en": "The offer is decoded (10.1), the contract read (10.2), the negotiation done or deliberately skipped (10.3). What remains is a decision and two emails. This lesson gives you a decision matrix with weights you choose and a sensitivity check that tells you whether the decision is robust or balanced on a knife-edge; the acceptance that confirms everything in writing; the decline that keeps a door open with people you will meet again; the real costs of reneging after you accept; and how to ask for a short extension when another process is still running — without accepting one offer while planning to leave it.",
+      "id": "Tawaran sudah diurai (10.1), kontrak sudah dibaca (10.2), negosiasi sudah dilakukan atau sengaja dilewati (10.3). Yang tersisa adalah keputusan dan dua email. Pelajaran ini memberimu matriks keputusan dengan bobot yang kamu pilih dan uji sensitivitas yang memberitahumu apakah keputusannya kokoh atau seimbang di ujung pisau; penerimaan yang mengonfirmasi semuanya tertulis; penolakan yang menjaga pintu tetap terbuka dengan orang yang akan kamu temui lagi; biaya nyata membatalkan setelah menerima; dan cara meminta perpanjangan singkat saat proses lain masih berjalan — tanpa menerima satu tawaran sambil berencana meninggalkannya."
+     },
+     "objectives": [
+      {
+       "en": "Build a weighted decision matrix and run a sensitivity check on it.",
+       "id": "Membangun matriks keputusan berbobot dan menjalankan uji sensitivitas padanya."
+      },
+      {
+       "en": "Accept in writing, confirming start date, documents and every agreed term.",
+       "id": "Menerima secara tertulis, mengonfirmasi tanggal mulai, dokumen, dan setiap syarat yang disepakati."
+      },
+      {
+       "en": "Decline promptly and gracefully, in English and Indonesian.",
+       "id": "Menolak dengan cepat dan santun, dalam bahasa Inggris dan Indonesia."
+      },
+      {
+       "en": "Ask for a short extension honestly, and avoid reneging by deciding before accepting.",
+       "id": "Meminta perpanjangan singkat dengan jujur, dan menghindari pembatalan dengan memutuskan sebelum menerima."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Decide once, then write it down",
+       "id": "Putuskan sekali, lalu tuliskan"
+      },
+      "intro": {
+       "en": "A good decision is made before the acceptance email, not after it. The matrix makes it honest; the emails make it real.",
+       "id": "Keputusan yang baik dibuat sebelum email penerimaan, bukan setelahnya. Matriks membuatnya jujur; email membuatnya nyata."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "The matrix",
+         "id": "Matriksnya"
+        },
+        "points": [
+         {
+          "en": "Criteria you weight — learning, pay, location, security, team, path — × options, scored 1–5 with evidence.",
+          "id": "Kriteria yang kamu bobot — pembelajaran, gaji, lokasi, keamanan, tim, jalur — × opsi, dinilai 1–5 dengan bukti."
          },
          {
-          "en": "Every verbal agreement written in the letter or confirmed by HR email",
-          "id": "Setiap kesepakatan lisan tertulis di surat atau dikonfirmasi lewat email HR"
+          "en": "Then: would a Rp 500 ribu difference change your choice?",
+          "id": "Lalu: apakah selisih Rp 500 ribu akan mengubah pilihanmu?"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Accepting",
+         "id": "Menerima"
+        },
+        "points": [
+         {
+          "en": "In writing: the role, the start date, documents, and every term agreed in negotiation.",
+          "id": "Tertulis: peran, tanggal mulai, dokumen, dan setiap syarat yang disepakati dalam negosiasi."
          },
          {
-          "en": "Start date, documents required, first-day logistics",
-          "id": "Tanggal mulai, dokumen yang diperlukan, logistik hari pertama"
+          "en": "Keep copies of the offer, the contract and every confirmation.",
+          "id": "Simpan salinan tawaran, kontrak, dan setiap konfirmasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Declining",
+         "id": "Menolak"
+        },
+        "points": [
+         {
+          "en": "Promptly, gratefully, briefly. You will meet these people again.",
+          "id": "Cepat, penuh terima kasih, singkat. Kamu akan bertemu orang-orang ini lagi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Extensions and reneging",
+         "id": "Perpanjangan dan pembatalan"
+        },
+        "points": [
+         {
+          "en": "Ask for a short extension honestly; never accept while planning to leave.",
+          "id": "Minta perpanjangan singkat dengan jujur; jangan pernah menerima sambil berencana pergi."
+         },
+         {
+          "en": "Reneging has reputational — and possibly financial — costs.",
+          "id": "Membatalkan punya biaya reputasi — dan mungkin finansial."
          }
         ]
        }
       ]
      },
+     "sections": [
+      {
+       "icon": "chart",
+       "img": "../../assets/bg/gauntlet/gate-08-offer.jpg",
+       "imgPos": "50% 55%",
+       "h": {
+        "en": "The decision matrix — and the sensitivity check",
+        "id": "Matriks keputusan — dan uji sensitivitas"
+       },
+       "body": {
+        "en": "A decision between two offers is usually made by feeling and justified afterwards by the headline number. The matrix reverses the order. Choose the criteria that matter to you — the blueprint suggests <b>learning, pay, location, security, team and path</b> — and give each a weight before you score anything, so the weights reflect what you value rather than which offer you already prefer. Weights that sum to 100 are easiest to read. Then score each option 1 to 5 on each criterion, with one line of evidence beside the score — “structured 12-month rotation, mentor assigned” is a 5 for learning; “we’ll figure it out as we grow” is a 2 — so the number is a judgement you could defend, not a mood. Multiply, sum, compare. Pay goes in from your decoded annual value (10.1), not the headline; security from the contract type and bond (10.2); team from the people you actually met. Now the step most people skip: the <b>sensitivity check</b>. Ask what would have to change for the other option to win. If one point on one criterion, or a Rp 500 ribu monthly difference, would flip the result, the options are effectively tied, and the decision should rest on the one criterion you weighted highest — or on a question you can still ask. If the result survives any single plausible change, it is robust, and you can accept without the second-guessing that tends to follow a close call. The matrix does not make the decision; it makes the decision honest, and it tells you how close it was.",
+        "id": "Keputusan antara dua tawaran biasanya dibuat dengan perasaan dan dibenarkan kemudian dengan angka utama. Matriks membalik urutannya. Pilih kriteria yang penting bagimu — cetak biru menyarankan <b>pembelajaran, gaji, lokasi, keamanan, tim, dan jalur</b> — dan beri masing-masing bobot sebelum kamu menilai apa pun, agar bobot mencerminkan apa yang kamu hargai, bukan tawaran mana yang sudah kamu sukai. Bobot yang berjumlah 100 paling mudah dibaca. Lalu nilai setiap opsi 1 sampai 5 pada setiap kriteria, dengan satu baris bukti di samping nilainya — “rotasi terstruktur 12 bulan, mentor ditugaskan” adalah 5 untuk pembelajaran; “nanti kita atur sambil tumbuh” adalah 2 — agar angkanya penilaian yang bisa kamu pertahankan, bukan suasana hati. Kalikan, jumlahkan, bandingkan. Gaji masuk dari nilai tahunan yang sudah diurai (10.1), bukan angka utama; keamanan dari jenis kontrak dan ikatan dinas (10.2); tim dari orang yang sungguh kamu temui. Sekarang langkah yang paling sering dilewati: <b>uji sensitivitas</b>. Tanyakan apa yang harus berubah agar opsi lain menang. Jika satu poin pada satu kriteria, atau selisih Rp 500 ribu per bulan, akan membalik hasilnya, opsinya praktis seri, dan keputusan harus bertumpu pada satu kriteria yang paling tinggi kamu bobot — atau pada pertanyaan yang masih bisa kamu ajukan. Jika hasilnya bertahan terhadap satu perubahan wajar apa pun, ia kokoh, dan kamu bisa menerima tanpa keraguan yang biasanya menyusul keputusan tipis. Matriks tidak membuat keputusan; ia membuat keputusan jujur, dan memberitahumu seberapa tipis ia."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Criterion (weight)",
+          "id": "Kriteria (bobot)"
+         },
+         {
+          "en": "Offer A · score × weight",
+          "id": "Tawaran A · nilai × bobot"
+         },
+         {
+          "en": "Offer B · score × weight",
+          "id": "Tawaran B · nilai × bobot"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "Learning (30)",
+           "id": "Pembelajaran (30)"
+          },
+          {
+           "en": "5 × 30 = 150 — structured rotation, mentor",
+           "id": "5 × 30 = 150 — rotasi terstruktur, mentor"
+          },
+          {
+           "en": "3 × 30 = 90 — learn on the job",
+           "id": "3 × 30 = 90 — belajar sambil bekerja"
+          }
+         ],
+         [
+          {
+           "en": "Security (25)",
+           "id": "Keamanan (25)"
+          },
+          {
+           "en": "5 × 25 = 125 — PKWTT",
+           "id": "5 × 25 = 125 — PKWTT"
+          },
+          {
+           "en": "2 × 25 = 50 — 12-month PKWT",
+           "id": "2 × 25 = 50 — PKWT 12 bulan"
+          }
+         ],
+         [
+          {
+           "en": "Pay, annual value (20)",
+           "id": "Gaji, nilai tahunan (20)"
+          },
+          {
+           "en": "3 × 20 = 60",
+           "id": "3 × 20 = 60"
+          },
+          {
+           "en": "4 × 20 = 80",
+           "id": "4 × 20 = 80"
+          }
+         ],
+         [
+          {
+           "en": "Location (15)",
+           "id": "Lokasi (15)"
+          },
+          {
+           "en": "2 × 15 = 30 — placement anywhere",
+           "id": "2 × 15 = 30 — penempatan di mana saja"
+          },
+          {
+           "en": "5 × 15 = 75 — home city",
+           "id": "5 × 15 = 75 — kota asal"
+          }
+         ],
+         [
+          {
+           "en": "Team (10)",
+           "id": "Tim (10)"
+          },
+          {
+           "en": "4 × 10 = 40",
+           "id": "4 × 10 = 40"
+          },
+          {
+           "en": "4 × 10 = 40",
+           "id": "4 × 10 = 40"
+          }
+         ],
+         [
+          {
+           "en": "<b>Total (of 500)</b>",
+           "id": "<b>Total (dari 500)</b>"
+          },
+          {
+           "en": "<b>405</b>",
+           "id": "<b>405</b>"
+          },
+          {
+           "en": "<b>335</b>",
+           "id": "<b>335</b>"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Fictional. Sensitivity: B would need +70 — e.g. two more points on learning and one on security — so a Rp 500 ribu pay difference (at most one point × 20) would not change this choice.",
+         "id": "Fiktif. Sensitivitas: B butuh +70 — mis. dua poin lagi di pembelajaran dan satu di keamanan — jadi selisih gaji Rp 500 ribu (paling banyak satu poin × 20) tidak akan mengubah pilihan ini."
+        }
+       }
+      },
+      {
+       "icon": "flag",
+       "h": {
+        "en": "Accepting — in writing, with everything agreed",
+        "id": "Menerima — tertulis, dengan semua yang disepakati"
+       },
+       "body": {
+        "en": "Acceptance is a short email or a signed letter, and it does four things. It <b>accepts the role by name</b>, with the offer’s date or reference. It <b>confirms the start date</b> and any condition attached — a medical check, document submission, a signing appointment. It <b>restates every term agreed in negotiation</b> that the revised letter carries — the six-month review, the housing allowance from month one, the start date moved by two weeks — so that the acceptance and the letter say the same thing. And it <b>asks what happens next</b>: documents required, onboarding, first-day logistics. Two practical habits follow. Keep copies — the offer letter, the contract, the bond agreement if separate, and every confirmation email — in one folder you can find in six months, when the review conversation or a question about the bond will need them. And accept only what you have read: if the contract has not arrived yet, accepting the offer is fine, but signing is not until you have read it (10.2). An acceptance is also a good moment to be warm; the recruiter who handled your process has usually argued for you somewhere you did not see.",
+        "id": "Penerimaan adalah email singkat atau surat bertanda tangan, dan ia melakukan empat hal. Ia <b>menerima peran dengan namanya</b>, dengan tanggal atau nomor referensi tawaran. Ia <b>mengonfirmasi tanggal mulai</b> dan syarat apa pun yang melekat — pemeriksaan kesehatan, penyerahan dokumen, jadwal penandatanganan. Ia <b>menyatakan ulang setiap syarat yang disepakati dalam negosiasi</b> yang dimuat surat revisi — evaluasi enam bulan, tunjangan perumahan sejak bulan pertama, tanggal mulai dimundurkan dua minggu — agar penerimaan dan surat mengatakan hal yang sama. Dan ia <b>menanyakan langkah berikutnya</b>: dokumen yang diperlukan, onboarding, logistik hari pertama. Dua kebiasaan praktis menyusul. Simpan salinan — surat penawaran, kontrak, perjanjian ikatan dinas jika terpisah, dan setiap email konfirmasi — di satu folder yang bisa kamu temukan enam bulan lagi, saat percakapan evaluasi atau pertanyaan tentang ikatan dinas akan membutuhkannya. Dan terima hanya yang sudah kamu baca: jika kontrak belum datang, menerima tawaran boleh, tetapi menandatangani tidak sampai kamu membacanya (10.2). Penerimaan juga saat yang baik untuk hangat; rekruter yang menangani prosesmu biasanya sudah membelamu di tempat yang tidak kamu lihat."
+       },
+       "bullets": [
+        {
+         "en": "<b>Name the role</b> and the offer’s date or reference.",
+         "id": "<b>Sebut perannya</b> dan tanggal atau referensi tawaran."
+        },
+        {
+         "en": "<b>Confirm the start date</b> and its conditions.",
+         "id": "<b>Konfirmasi tanggal mulai</b> dan syaratnya."
+        },
+        {
+         "en": "<b>Restate agreed terms</b> so the email and the letter match.",
+         "id": "<b>Nyatakan ulang syarat yang disepakati</b> agar email dan surat cocok."
+        },
+        {
+         "en": "<b>Ask what happens next</b>, and keep every document in one folder.",
+         "id": "<b>Tanyakan langkah berikutnya</b>, dan simpan setiap dokumen di satu folder."
+        }
+       ]
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Declining — promptly, gracefully, briefly",
+        "id": "Menolak — cepat, santun, singkat"
+       },
+       "body": {
+        "en": "The offer you turn down is from people you may meet again — as a client, a future employer, a colleague who moves, a recruiter at the next company. Decline <b>promptly</b>, as soon as you have accepted elsewhere, so they can move to their next candidate; a silent week costs them far more than your no. Decline <b>gracefully</b>: thank them specifically for their time and the process, say you have decided to accept another offer that fits your priorities at this stage, and leave the door open. Decline <b>briefly</b>: you owe no detailed comparison, and naming the other employer or its salary is neither necessary nor wise. If they ask what would have changed your mind, answer honestly and kindly in one sentence — it is useful to them. A phone call to a recruiter who invested heavily in you, followed by the email, is a courtesy many will remember. The templates in the resources card are short on purpose. In Indonesian, the register is the same as every email in this course: “Yth.”, “Bapak/Ibu”, gratitude first, the decision in one sentence, and a closing that wishes them well.",
+        "id": "Tawaran yang kamu tolak berasal dari orang-orang yang mungkin kamu temui lagi — sebagai klien, calon pemberi kerja, rekan yang pindah, rekruter di perusahaan berikutnya. Tolak dengan <b>cepat</b>, segera setelah kamu menerima di tempat lain, agar mereka bisa beralih ke kandidat berikutnya; seminggu diam jauh lebih merugikan mereka daripada penolakanmu. Tolak dengan <b>santun</b>: berterima kasih secara spesifik atas waktu dan prosesnya, katakan kamu memutuskan menerima tawaran lain yang sesuai prioritasmu di tahap ini, dan biarkan pintu terbuka. Tolak dengan <b>singkat</b>: kamu tidak berutang perbandingan rinci, dan menyebut pemberi kerja lain atau gajinya tidak perlu dan tidak bijak. Jika mereka bertanya apa yang akan mengubah pikiranmu, jawab jujur dan baik dalam satu kalimat — itu berguna bagi mereka. Telepon kepada rekruter yang banyak berinvestasi padamu, disusul email, adalah kesopanan yang akan diingat banyak orang. Templat di kartu sumber sengaja pendek. Dalam bahasa Indonesia, registernya sama dengan setiap email di kursus ini: “Yth.”, “Bapak/Ibu”, terima kasih dulu, keputusan dalam satu kalimat, dan penutup yang mendoakan kebaikan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Part",
+          "id": "Bagian"
+         },
+         {
+          "en": "English",
+          "id": "Bahasa Inggris"
+         },
+         {
+          "en": "Bahasa Indonesia",
+          "id": "Bahasa Indonesia"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Thanks</b>",
+           "id": "<b>Terima kasih</b>"
+          },
+          {
+           "en": "“Thank you for the offer and for the care you took throughout the process.”",
+           "id": "“Thank you for the offer and for the care you took throughout the process.”"
+          },
+          {
+           "en": "“Terima kasih atas tawaran dan perhatian Bapak/Ibu selama proses seleksi.”",
+           "id": "“Terima kasih atas tawaran dan perhatian Bapak/Ibu selama proses seleksi.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Decision</b>",
+           "id": "<b>Keputusan</b>"
+          },
+          {
+           "en": "“After careful thought, I have decided to accept another offer that fits my priorities at this stage.”",
+           "id": "“After careful thought, I have decided to accept another offer that fits my priorities at this stage.”"
+          },
+          {
+           "en": "“Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini.”",
+           "id": "“Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini.”"
+          }
+         ],
+         [
+          {
+           "en": "<b>Door open</b>",
+           "id": "<b>Pintu terbuka</b>"
+          },
+          {
+           "en": "“I hope our paths cross again, and I wish the team every success.”",
+           "id": "“I hope our paths cross again, and I wish the team every success.”"
+          },
+          {
+           "en": "“Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”",
+           "id": "“Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Pending processes, extensions — and the cost of reneging",
+        "id": "Proses tertunda, perpanjangan — dan biaya membatalkan"
+       },
+       "body": {
+        "en": "Offers rarely arrive in the order you would like. When one arrives with a deadline and another process is still running, you may <b>ask for a short extension</b>, honestly: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Many employers will give a few days; some cannot, and their answer is information. At the same time, you can tell the other employer that you hold an offer with a deadline and ask, politely, whether their timeline can move — truthfully, as 10.3 taught. What you must not do is <b>accept one offer while planning to leave it</b> if the other comes through. <b>Reneging</b> — withdrawing after accepting — has real costs: the employer has closed its process and told other candidates no; the recruiter and hiring manager remember names, and Indonesian graduate hiring in any one industry is a smaller world than it looks; and if you have signed a contract or a bond, there may be financial terms attached <span class=\"ev ev-verify\">Verify: contract and bond terms; not legal advice</span>. The way to avoid reneging is to decide before accepting — the matrix and the extension exist for exactly that. If it becomes truly unavoidable — a family emergency, a placement that has become impossible — inform the employer as early as possible, honestly and personally, by phone and then in writing, and read what you signed about notice and repayment.",
+        "id": "Tawaran jarang datang dalam urutan yang kamu inginkan. Saat satu datang dengan tenggat dan proses lain masih berjalan, kamu boleh <b>meminta perpanjangan singkat</b>, dengan jujur: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari Jumat, [tanggal]?” Banyak pemberi kerja akan memberi beberapa hari; sebagian tidak bisa, dan jawaban mereka adalah informasi. Sementara itu, kamu bisa memberi tahu pemberi kerja lain bahwa kamu memegang tawaran dengan tenggat dan bertanya, dengan sopan, apakah jadwal mereka bisa dipercepat — dengan jujur, seperti diajarkan 10.3. Yang tidak boleh kamu lakukan adalah <b>menerima satu tawaran sambil berencana meninggalkannya</b> jika yang lain berhasil. <b>Membatalkan</b> — menarik diri setelah menerima — punya biaya nyata: pemberi kerja sudah menutup prosesnya dan memberi tahu kandidat lain bahwa mereka tidak lolos; rekruter dan manajer perekrut mengingat nama, dan perekrutan lulusan Indonesia di satu industri adalah dunia yang lebih kecil daripada kelihatannya; dan jika kamu sudah menandatangani kontrak atau ikatan dinas, mungkin ada syarat finansial yang melekat <span class=\"ev ev-verify\">Verifikasi: syarat kontrak dan ikatan dinas; bukan nasihat hukum</span>. Cara menghindari pembatalan adalah memutuskan sebelum menerima — matriks dan perpanjangan ada tepat untuk itu. Jika benar-benar tak terhindarkan — keadaan darurat keluarga, penempatan yang menjadi mustahil — beri tahu pemberi kerja sedini mungkin, jujur dan secara pribadi, lewat telepon lalu tertulis, dan baca apa yang kamu tandatangani soal pemberitahuan dan pembayaran kembali."
+       },
+       "bullets": [
+        {
+         "en": "<b>Extension</b> — honest reason, a specific date, a few days not weeks.",
+         "id": "<b>Perpanjangan</b> — alasan jujur, tanggal spesifik, beberapa hari bukan minggu."
+        },
+        {
+         "en": "<b>The other employer</b> — tell them truthfully you hold an offer with a deadline.",
+         "id": "<b>Pemberi kerja lain</b> — beri tahu dengan jujur kamu memegang tawaran bertenggat."
+        },
+        {
+         "en": "<b>Never accept while planning to leave</b> — decide first.",
+         "id": "<b>Jangan menerima sambil berencana pergi</b> — putuskan dulu."
+        },
+        {
+         "en": "<b>If reneging is unavoidable</b> — early, honest, by phone then in writing; read your contract and bond <span class=\"ev ev-verify\">Verify</span>.",
+         "id": "<b>Jika pembatalan tak terhindarkan</b> — dini, jujur, lewat telepon lalu tertulis; baca kontrak dan ikatan dinasmu <span class=\"ev ev-verify\">Verifikasi</span>."
+        }
+       ]
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: From two offers to one decision",
+       "id": "Peraga 1: Dari dua tawaran ke satu keputusan"
+      },
+      "title": {
+       "en": "Weights → scores with evidence → totals → sensitivity → accept one, decline one",
+       "id": "Bobot → nilai dengan bukti → total → sensitivitas → terima satu, tolak satu"
+      },
+      "items": [
+       {
+        "icon": "target",
+        "h": {
+         "en": "Weights first",
+         "id": "Bobot dulu"
+        },
+        "sub": {
+         "en": "Before scoring, so they reflect values, not preference.",
+         "id": "Sebelum menilai, agar mencerminkan nilai, bukan preferensi."
+        }
+       },
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Scores with evidence",
+         "id": "Nilai dengan bukti"
+        },
+        "sub": {
+         "en": "1–5, one line of evidence each; pay from annual value.",
+         "id": "1–5, satu baris bukti masing-masing; gaji dari nilai tahunan."
+        }
+       },
+       {
+        "icon": "chart",
+        "h": {
+         "en": "Totals",
+         "id": "Total"
+        },
+        "sub": {
+         "en": "Multiply and sum.",
+         "id": "Kalikan dan jumlahkan."
+        }
+       },
+       {
+        "icon": "gear",
+        "h": {
+         "en": "Sensitivity",
+         "id": "Sensitivitas"
+        },
+        "sub": {
+         "en": "Would one point or Rp 500 ribu flip it?",
+         "id": "Apakah satu poin atau Rp 500 ribu membaliknya?"
+        }
+       },
+       {
+        "icon": "mail",
+        "h": {
+         "en": "Two emails",
+         "id": "Dua email"
+        },
+        "sub": {
+         "en": "Accept in writing; decline promptly and gracefully.",
+         "id": "Terima tertulis; tolak cepat dan santun."
+        }
+       }
+      ],
+      "note": {
+       "en": "If the check shows a tie, decide on your highest-weighted criterion — or ask the question that would break it.",
+       "id": "Jika uji menunjukkan seri, putuskan pada kriteria berbobot tertinggi — atau ajukan pertanyaan yang akan memecahkannya."
+      },
+      "longdesc": {
+       "en": "A five-stage flow from two offers to one decision: set weights for your criteria before scoring; score each offer from 1 to 5 with evidence; multiply and sum; run a sensitivity check asking whether a small change would flip the result; then send an acceptance in writing to one employer and a prompt, graceful decline to the other.",
+       "id": "Alur lima tahap dari dua tawaran ke satu keputusan: tetapkan bobot kriteria sebelum menilai; nilai setiap tawaran 1 sampai 5 dengan bukti; kalikan dan jumlahkan; jalankan uji sensitivitas yang menanyakan apakah perubahan kecil akan membalik hasilnya; lalu kirim penerimaan tertulis ke satu pemberi kerja dan penolakan cepat dan santun ke yang lain."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "The silent week → the prompt decline",
+        "id": "Seminggu diam → penolakan cepat"
+       },
+       "q": {
+        "en": "You have accepted Offer B on Monday. Offer A’s recruiter, who arranged two extra interviews for you, is waiting for your answer.",
+        "id": "Kamu menerima Tawaran B hari Senin. Rekruter Tawaran A, yang mengatur dua wawancara tambahan untukmu, menunggu jawabanmu."
+       },
+       "weak": {
+        "en": "Waits, because declining feels awkward. On Friday the recruiter calls; the candidate says “masih mempertimbangkan”. The next Wednesday, a one-line email: “Maaf, saya tidak jadi.” The recruiter has lost ten days with her second candidate — who has since accepted elsewhere.",
+        "id": "Menunggu, karena menolak terasa canggung. Hari Jumat rekruter menelepon; kandidat berkata “masih mempertimbangkan”. Rabu berikutnya, email satu baris: “Maaf, saya tidak jadi.” Rekruter kehilangan sepuluh hari dengan kandidat keduanya — yang sementara itu sudah menerima di tempat lain."
+       },
+       "strong": {
+        "en": "Calls the recruiter on Monday afternoon, then sends: “Yth. Ibu Sari, terima kasih atas tawaran dan perhatian Ibu selama proses seleksi, termasuk mengatur dua wawancara tambahan. Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini. Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”",
+        "id": "Menelepon rekruter Senin sore, lalu mengirim: “Yth. Ibu Sari, terima kasih atas tawaran dan perhatian Ibu selama proses seleksi, termasuk mengatur dua wawancara tambahan. Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini. Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”"
+       },
+       "why": {
+        "en": "The decision was the same; the cost to the other side was not. The prompt decline gives the employer back its second candidate and leaves a recruiter who will remember you well — at the next company, or when you apply again in three years. The silent week turns a normal outcome into a small betrayal. Names fictional.",
+        "id": "Keputusannya sama; biaya bagi pihak lain tidak. Penolakan cepat mengembalikan kandidat kedua kepada pemberi kerja dan meninggalkan rekruter yang akan mengingatmu dengan baik — di perusahaan berikutnya, atau saat kamu melamar lagi tiga tahun lagi. Seminggu diam mengubah hasil yang normal menjadi pengkhianatan kecil. Nama fiktif."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "chart",
+      "title": {
+       "en": "In focus: the Rp 500 ribu question",
+       "id": "Sorotan: pertanyaan Rp 500 ribu"
+      },
+      "body": [
+       {
+        "en": "Rina asks Nadia, before she decides, a single question: “Kalau selisih gajinya Rp 500 ribu lebih besar atau lebih kecil, apakah pilihanmu berubah?” Nadia has built her matrix — learning weighted highest, then security, then pay, then location — and the totals are not close. She runs the check anyway: moving pay by a point either way changes the totals by twenty; the gap is several times that.",
+        "id": "Rina menanyakan kepada Nadia, sebelum ia memutuskan, satu pertanyaan: “Kalau selisih gajinya Rp 500 ribu lebih besar atau lebih kecil, apakah pilihanmu berubah?” Nadia sudah membangun matriksnya — pembelajaran berbobot tertinggi, lalu keamanan, lalu gaji, lalu lokasi — dan totalnya tidak tipis. Ia tetap menjalankan ujinya: menggeser gaji satu poin ke arah mana pun mengubah total dua puluh; selisihnya beberapa kali lipat itu."
+       },
+       {
+        "en": "“Berarti kamu tidak sedang memilih gaji,” Rina says. “Kamu sedang memilih apa yang mau kamu pelajari dua tahun ke depan. Tulis itu di emailmu ke diri sendiri, supaya bulan keenam nanti kamu ingat kenapa.” Nadia does — one line, saved in the same folder as the offer letter. Lesson 10.5 is where she builds it.",
+        "id": "“Berarti kamu tidak sedang memilih gaji,” kata Rina. “Kamu sedang memilih apa yang mau kamu pelajari dua tahun ke depan. Tulis itu di email ke dirimu sendiri, supaya bulan keenam nanti kamu ingat kenapa.” Nadia melakukannya — satu baris, disimpan di folder yang sama dengan surat penawaran. Pelajaran 10.5 adalah tempat ia membangunnya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Weight before you score",
+        "id": "Latihan 1 · Bobot sebelum menilai"
+       },
+       "body": {
+        "en": "Before looking at any offer, write weights summing to 100 for learning, pay, location, security, team and path. Then score two offers you hold — or the fictional pair in the resources — and run the sensitivity check: what would have to change for the loser to win?",
+        "id": "Sebelum melihat tawaran apa pun, tulis bobot berjumlah 100 untuk pembelajaran, gaji, lokasi, keamanan, tim, dan jalur. Lalu nilai dua tawaran yang kamu pegang — atau pasangan fiktif di sumber — dan jalankan uji sensitivitas: apa yang harus berubah agar yang kalah menang?"
+       },
+       "debrief": {
+        "en": "If a single point or a Rp 500 ribu difference flips the result, you have a tie: decide on your top-weighted criterion or ask the question that would break it. If you changed your weights after seeing the scores, start again — the weights are the part of the matrix that keeps it honest.",
+        "id": "Jika satu poin atau selisih Rp 500 ribu membalik hasilnya, kamu punya hasil seri: putuskan pada kriteria berbobot tertinggi atau ajukan pertanyaan yang akan memecahkannya. Jika kamu mengubah bobot setelah melihat nilai, mulai lagi — bobot adalah bagian matriks yang menjaganya jujur."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Two emails, EN and ID",
+        "id": "Latihan 2 · Dua email, EN dan ID"
+       },
+       "body": {
+        "en": "Write the acceptance to your chosen offer — role, start date, agreed terms restated, next steps — and the decline to the other, in the language each employer used. Keep each under 120 words.",
+        "id": "Tulis penerimaan untuk tawaran pilihanmu — peran, tanggal mulai, syarat yang disepakati dinyatakan ulang, langkah berikutnya — dan penolakan untuk yang lain, dalam bahasa yang dipakai masing-masing pemberi kerja. Jaga masing-masing di bawah 120 kata."
+       },
+       "debrief": {
+        "en": "Check the acceptance against the revised letter line by line: every agreed term appears in both. Check the decline for three things: thanks first, the decision in one sentence, no comparison with the other employer.",
+        "id": "Periksa penerimaan terhadap surat revisi baris demi baris: setiap syarat yang disepakati muncul di keduanya. Periksa penolakan untuk tiga hal: terima kasih dulu, keputusan dalam satu kalimat, tanpa perbandingan dengan pemberi kerja lain."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · The extension, aloud",
+        "id": "Latihan 3 · Perpanjangan, diucapkan"
+       },
+       "body": {
+        "en": "Run the tryit below with the HR persona: other processes, start date, and your closing questions. Practise asking for a short extension honestly, with a specific date, and answering the start-date question consistently with what you would accept.",
+        "id": "Jalankan tryit di bawah dengan persona HR: proses lain, tanggal mulai, dan pertanyaan penutupmu. Latih meminta perpanjangan singkat dengan jujur, dengan tanggal spesifik, dan menjawab pertanyaan tanggal mulai secara konsisten dengan yang akan kamu terima."
+       },
+       "debrief": {
+        "en": "A good extension request is truthful about why, names a date a few days away, and thanks them. If you implied an offer you do not hold, or asked for weeks, rewrite it.",
+        "id": "Permintaan perpanjangan yang baik jujur tentang alasannya, menyebut tanggal beberapa hari ke depan, dan berterima kasih. Jika kamu menyiratkan tawaran yang tidak kamu pegang, atau meminta berminggu-minggu, tulis ulang."
+       }
+      }
+     ],
      "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Signing on the verbal promise",
-         "id": "Menandatangani berdasarkan janji lisan"
+         "en": "Setting weights after scoring",
+         "id": "Menetapkan bobot setelah menilai"
         },
         "fix": {
-         "en": "If it was agreed, it goes in the letter or an email from HR. “We’ll sort it after you join” is not a term.",
-         "id": "Jika disepakati, masukkan ke surat atau email dari HR. “Nanti kita urus setelah kamu bergabung” bukan ketentuan."
+         "en": "Weights first, then scores with evidence.",
+         "id": "Bobot dulu, lalu nilai dengan bukti."
         }
        },
        {
         "h": {
-         "en": "Skipping the penalty clauses",
-         "id": "Melewatkan klausul penalti"
+         "en": "Skipping the sensitivity check",
+         "id": "Melewati uji sensitivitas"
         },
         "fix": {
-         "en": "Training bonds, notice periods and non-compete language decide how expensive your next move is. Read them before you feel grateful.",
-         "id": "Ikatan dinas, masa pemberitahuan, dan klausul non-kompetisi menentukan seberapa mahal langkah berikutnya. Baca sebelum kamu merasa bersyukur."
+         "en": "Ask whether one point or Rp 500 ribu would flip it.",
+         "id": "Tanyakan apakah satu poin atau Rp 500 ribu akan membaliknya."
         }
        },
        {
         "h": {
-         "en": "Assuming the title in the letter matches the conversation",
-         "id": "Menganggap jabatan di surat sama dengan yang dibicarakan"
+         "en": "An acceptance that forgets agreed terms",
+         "id": "Penerimaan yang melupakan syarat yang disepakati"
         },
         "fix": {
-         "en": "Check the exact title, level and reporting line. They follow you to the next employer.",
-         "id": "Periksa jabatan, level, dan garis pelaporan yang tepat. Itu mengikutimu ke pemberi kerja berikutnya."
+         "en": "Restate them; the email and letter must match.",
+         "id": "Nyatakan ulang; email dan surat harus cocok."
+        }
+       },
+       {
+        "h": {
+         "en": "The silent week before declining",
+         "id": "Seminggu diam sebelum menolak"
+        },
+        "fix": {
+         "en": "Decline the day you accept elsewhere — call, then email.",
+         "id": "Tolak di hari kamu menerima di tempat lain — telepon, lalu email."
+        }
+       },
+       {
+        "h": {
+         "en": "Accepting while planning to leave",
+         "id": "Menerima sambil berencana pergi"
+        },
+        "fix": {
+         "en": "Ask for a short extension; decide before accepting.",
+         "id": "Minta perpanjangan singkat; putuskan sebelum menerima."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Decision matrix",
+        "id": "Matriks keputusan"
+       },
+       "def": {
+        "en": "Criteria weighted before scoring × options scored 1–5 with evidence, multiplied and summed.",
+        "id": "Kriteria yang dibobot sebelum menilai × opsi yang dinilai 1–5 dengan bukti, dikalikan dan dijumlahkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Sensitivity check",
+        "id": "Uji sensitivitas"
+       },
+       "def": {
+        "en": "Asking what small change would flip the result; if a point or Rp 500 ribu would, the options are tied.",
+        "id": "Menanyakan perubahan kecil apa yang akan membalik hasil; jika satu poin atau Rp 500 ribu bisa, opsinya seri."
+       }
+      },
+      {
+       "term": {
+        "en": "Reneging",
+        "id": "Membatalkan (reneging)"
+       },
+       "def": {
+        "en": "Withdrawing after accepting an offer — with reputational and possibly financial costs.",
+        "id": "Menarik diri setelah menerima tawaran — dengan biaya reputasi dan mungkin finansial."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "In a decision matrix, weights should be set…",
+        "id": "Dalam matriks keputusan, bobot sebaiknya ditetapkan…"
+       },
+       "options": [
+        {
+         "en": "After scoring, to match your preference",
+         "id": "Setelah menilai, agar cocok dengan preferensimu"
+        },
+        {
+         "en": "Before scoring, so they reflect what you value",
+         "id": "Sebelum menilai, agar mencerminkan apa yang kamu hargai"
+        },
+        {
+         "en": "Equal for every criterion, always",
+         "id": "Sama untuk setiap kriteria, selalu"
+        },
+        {
+         "en": "By the employer",
+         "id": "Oleh pemberi kerja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Weights set after scoring bend the matrix toward the answer you already wanted.",
+        "id": "Bobot yang ditetapkan setelah menilai membengkokkan matriks ke jawaban yang sudah kamu inginkan."
+       }
+      },
+      {
+       "q": {
+        "en": "Offer A totals 405, Offer B 395; pay is weighted 20. A Rp 500 ribu change moves pay by one point. The decision is…",
+        "id": "Tawaran A total 405, Tawaran B 395; gaji berbobot 20. Perubahan Rp 500 ribu menggeser gaji satu poin. Keputusannya…"
+       },
+       "options": [
+        {
+         "en": "Robust — A clearly wins",
+         "id": "Kokoh — A jelas menang"
+        },
+        {
+         "en": "Effectively tied — one point on pay (20) would flip it; decide on the top criterion or ask the deciding question",
+         "id": "Praktis seri — satu poin gaji (20) akan membaliknya; putuskan pada kriteria teratas atau ajukan pertanyaan penentu"
+        },
+        {
+         "en": "Impossible to make",
+         "id": "Mustahil dibuat"
+        },
+        {
+         "en": "B, because pay matters most",
+         "id": "B, karena gaji paling penting"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "A gap of 10 is smaller than one pay point (20), so the result is not robust.",
+        "id": "Selisih 10 lebih kecil dari satu poin gaji (20), jadi hasilnya tidak kokoh."
+       }
+      },
+      {
+       "q": {
+        "en": "You need three more days for another process. The best move is…",
+        "id": "Kamu butuh tiga hari lagi untuk proses lain. Langkah terbaik adalah…"
+       },
+       "options": [
+        {
+         "en": "Accept now and withdraw later if needed",
+         "id": "Menerima sekarang dan menarik diri nanti jika perlu"
+        },
+        {
+         "en": "Ignore the deadline",
+         "id": "Mengabaikan tenggat"
+        },
+        {
+         "en": "Ask honestly for a short extension to a specific date",
+         "id": "Meminta perpanjangan singkat dengan jujur sampai tanggal spesifik"
+        },
+        {
+         "en": "Invent a higher offer to buy time",
+         "id": "Mengarang tawaran lebih tinggi untuk mengulur waktu"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Accepting while planning to leave leads to reneging; an honest, short extension is normal.",
+        "id": "Menerima sambil berencana pergi berujung pembatalan; perpanjangan singkat yang jujur itu normal."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "elig_other_processes",
+      "set": [
+       "elig_other_processes",
+       "elig_start_date",
+       "close_any_questions"
+      ],
+      "persona": "hr",
+      "profile": "eligibility",
+      "probes": 1,
+      "returnTo": 3,
+      "label": {
+       "en": "Other processes, start date, closing questions",
+       "id": "Proses lain, tanggal mulai, pertanyaan penutup"
+      },
+      "desc": {
+       "en": "Three questions with the HR persona, one probe each. Practise an honest answer about other processes, a short extension request with a date, and a start date you would actually accept. The blueprint’s decision-matrix tool is not yet built; the matrix template is in the resources card.",
+       "id": "Tiga pertanyaan dengan persona HR, satu galian masing-masing. Latih jawaban jujur tentang proses lain, permintaan perpanjangan singkat dengan tanggal, dan tanggal mulai yang sungguh akan kamu terima. Alat matriks keputusan cetak biru belum dibangun; templat matriks ada di kartu sumber."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Weight before you score, score with evidence, and run the sensitivity check before deciding.",
+       "id": "Bobot sebelum menilai, nilai dengan bukti, dan jalankan uji sensitivitas sebelum memutuskan."
+      },
+      {
+       "en": "Accept in writing with every agreed term restated; decline the same day, gratefully and briefly.",
+       "id": "Terima tertulis dengan setiap syarat yang disepakati dinyatakan ulang; tolak di hari yang sama, dengan terima kasih dan singkat."
+      },
+      {
+       "en": "Ask for a short extension honestly; never accept while planning to leave.",
+       "id": "Minta perpanjangan singkat dengan jujur; jangan pernah menerima sambil berencana pergi."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The decision matrix, acceptance and decline templates",
+       "id": "Matriks keputusan, templat penerimaan dan penolakan"
+      },
+      "lead": {
+       "en": "Decide once; write it down twice.",
+       "id": "Putuskan sekali; tuliskan dua kali."
+      },
+      "items": [
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Decision matrix with sensitivity check",
+         "id": "Matriks keputusan dengan uji sensitivitas"
+        },
+        "desc": {
+         "en": "Weights first.",
+         "id": "Bobot dulu."
+        },
+        "body": [
+         {
+          "en": "Weights (sum 100), set before scoring: learning … · pay (annual value, 10.1) … · location … · security (contract and bond, 10.2) … · team … · path … · Scores 1–5 per option, one line of evidence each · Totals: A … B …",
+          "id": "Bobot (jumlah 100), ditetapkan sebelum menilai: pembelajaran … · gaji (nilai tahunan, 10.1) … · lokasi … · keamanan (kontrak dan ikatan dinas, 10.2) … · tim … · jalur … · Nilai 1–5 per opsi, satu baris bukti masing-masing · Total: A … B …"
+         },
+         {
+          "en": "Sensitivity: the gap is … · one point on my top criterion is worth … · a Rp 500 ribu monthly change moves pay by … point(s), worth … · Verdict: robust / tied · If tied: my top criterion says … / the question that would break it is …",
+          "id": "Sensitivitas: selisihnya … · satu poin pada kriteria teratasku bernilai … · perubahan Rp 500 ribu per bulan menggeser gaji … poin, bernilai … · Putusan: kokoh / seri · Jika seri: kriteria teratasku mengatakan … / pertanyaan yang akan memecahkannya adalah …"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Acceptance email (EN/ID)",
+         "id": "Email penerimaan (EN/ID)"
+        },
+        "desc": {
+         "en": "Role, start date, agreed terms, next steps.",
+         "id": "Peran, tanggal mulai, syarat yang disepakati, langkah berikutnya."
+        },
+        "body": [
+         {
+          "en": "EN: “Dear [Name], thank you for the offer of [role] dated [date]. I am pleased to accept. I confirm my start date of [date], and the terms in the revised letter, including [agreed term]. Could you let me know which documents you need and the onboarding arrangements? I look forward to joining the team.”",
+          "id": "EN: “Dear [Name], thank you for the offer of [role] dated [date]. I am pleased to accept. I confirm my start date of [date], and the terms in the revised letter, including [agreed term]. Could you let me know which documents you need and the onboarding arrangements? I look forward to joining the team.”"
+         },
+         {
+          "en": "ID: “Yth. Bapak/Ibu [Nama], terima kasih atas tawaran posisi [peran] tertanggal [tanggal]. Dengan senang hati saya menerimanya. Saya mengonfirmasi tanggal mulai [tanggal] dan syarat pada surat revisi, termasuk [syarat yang disepakati]. Mohon informasi dokumen yang perlu saya siapkan dan jadwal onboarding. Saya menantikan bergabung dengan tim.”",
+          "id": "ID: “Yth. Bapak/Ibu [Nama], terima kasih atas tawaran posisi [peran] tertanggal [tanggal]. Dengan senang hati saya menerimanya. Saya mengonfirmasi tanggal mulai [tanggal] dan syarat pada surat revisi, termasuk [syarat yang disepakati]. Mohon informasi dokumen yang perlu saya siapkan dan jadwal onboarding. Saya menantikan bergabung dengan tim.”"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Decline and extension emails (EN/ID)",
+         "id": "Email penolakan dan perpanjangan (EN/ID)"
+        },
+        "desc": {
+         "en": "Prompt, grateful, brief.",
+         "id": "Cepat, penuh terima kasih, singkat."
+        },
+        "body": [
+         {
+          "en": "DECLINE EN: “Dear [Name], thank you for the offer and for the care you took throughout the process. After careful thought, I have decided to accept another offer that fits my priorities at this stage. I hope our paths cross again, and I wish the team every success.” · ID: “Yth. Bapak/Ibu [Nama], terima kasih atas tawaran dan perhatian Bapak/Ibu selama proses seleksi. Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini. Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”",
+          "id": "PENOLAKAN EN: “Dear [Name], thank you for the offer and for the care you took throughout the process. After careful thought, I have decided to accept another offer that fits my priorities at this stage. I hope our paths cross again, and I wish the team every success.” · ID: “Yth. Bapak/Ibu [Nama], terima kasih atas tawaran dan perhatian Bapak/Ibu selama proses seleksi. Setelah mempertimbangkan dengan saksama, saya memutuskan menerima tawaran lain yang lebih sesuai dengan prioritas saya saat ini. Semoga kita dapat bertemu kembali di kesempatan lain. Sukses selalu untuk tim.”"
+         },
+         {
+          "en": "EXTENSION ID: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari [hari], [tanggal]?” · EN: “Thank you — I truly appreciate the offer. I am completing one other process that concludes next week. Would it be possible to give you my answer by [day, date]?”",
+          "id": "PERPANJANGAN ID: “Terima kasih atas tawarannya; saya sangat menghargainya. Saya sedang menyelesaikan satu proses lain yang dijadwalkan selesai minggu depan. Apakah memungkinkan saya memberi jawaban paling lambat hari [hari], [tanggal]?” · EN: “Thank you — I truly appreciate the offer. I am completing one other process that concludes next week. Would it be possible to give you my answer by [day, date]?”"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "10.5",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Nadia’s Two Offers",
+      "id": "Tugas Kasus — Dua Tawaran Nadia"
+     },
+     "overview": {
+      "en": "Two written offers arrive in the same week. Bank Sinar Nusantara’s Officer Development Programme: a fixed package, a PKWTT with three months’ probation, a two-year service bond that decreases monthly, placement anywhere, BPJS and private insurance. KilatPay’s Business Operations Associate: a higher headline, a twelve-month PKWT with a clause that mentions probation, a performance bonus “up to two months”, Jakarta, a laptop. You have both letters, the bond and contract excerpts, and Nadia’s own notes. Decode both to annual value, find the red flags and the questions they raise, decide what — if anything — to negotiate with each, write the KilatPay email, and build the decision matrix with Nadia’s stated priorities: learning, then security, then pay, then location. Every regulated figure is marked for verification: The Rope provides education, not legal or tax advice.",
+      "id": "Dua tawaran tertulis datang di minggu yang sama. Officer Development Programme Bank Sinar Nusantara: paket tetap, PKWTT dengan masa percobaan tiga bulan, ikatan dinas dua tahun yang menurun bulanan, penempatan di mana saja, BPJS dan asuransi swasta. Business Operations Associate KilatPay: angka utama lebih tinggi, PKWT dua belas bulan dengan klausul yang menyebut masa percobaan, bonus kinerja “hingga dua bulan”, Jakarta, laptop. Kamu punya kedua surat, kutipan ikatan dinas dan kontrak, dan catatan Nadia sendiri. Urai keduanya ke nilai tahunan, temukan tanda bahaya dan pertanyaan yang ditimbulkannya, putuskan apa — jika ada — yang dinegosiasikan dengan masing-masing, tulis email KilatPay, dan bangun matriks keputusan dengan prioritas yang dinyatakan Nadia: pembelajaran, lalu keamanan, lalu gaji, lalu lokasi. Setiap angka yang diatur ditandai untuk verifikasi: The Rope memberi edukasi, bukan nasihat hukum atau pajak."
+     },
+     "objectives": [
+      {
+       "en": "Decode two real-shaped offers to comparable annual value, with estimates labelled.",
+       "id": "Mengurai dua tawaran berbentuk nyata ke nilai tahunan yang sebanding, dengan estimasi diberi label."
+      },
+      {
+       "en": "Find the red flags in both and turn each into a polite written question.",
+       "id": "Menemukan tanda bahaya di keduanya dan mengubah masing-masing menjadi pertanyaan tertulis yang sopan."
+      },
+      {
+       "en": "Decide what to negotiate by pay style, and write one collaborative negotiation email.",
+       "id": "Memutuskan apa yang dinegosiasikan menurut gaya gaji, dan menulis satu email negosiasi kolaboratif."
+      },
+      {
+       "en": "Build a weighted decision matrix with a sensitivity check and state the decision it supports.",
+       "id": "Membangun matriks keputusan berbobot dengan uji sensitivitas dan menyatakan keputusan yang didukungnya."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "Two letters, one decision",
+       "id": "Dua surat, satu keputusan"
+      },
+      "intro": {
+       "en": "Five steps, five written answers. The case file has three tabs: Bank Sinar’s offer with the bond agreement, KilatPay’s offer with the PKWT excerpt, and Nadia’s notes. Every answer is checked for the ideas Module 10 taught: annual value not headline, contract type and bond read, pay style before negotiating, one reasoned request, weights before scores.",
+       "id": "Lima langkah, lima jawaban tertulis. Berkas kasus punya tiga tab: tawaran Bank Sinar dengan perjanjian ikatan dinas, tawaran KilatPay dengan kutipan PKWT, dan catatan Nadia. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 10: nilai tahunan bukan angka utama, jenis kontrak dan ikatan dinas dibaca, gaya gaji sebelum bernegosiasi, satu permintaan beralasan, bobot sebelum nilai."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Decode, then question",
+         "id": "Urai, lalu tanyakan"
+        },
+        "points": [
+         {
+          "en": "Annual value on the same basis for both, with Nadia’s costs; then the clauses that need a question.",
+          "id": "Nilai tahunan dengan dasar sama untuk keduanya, dengan biaya Nadia; lalu klausul yang butuh pertanyaan."
+         },
+         {
+          "en": "Figures are fictional; regulated terms are marked Verify.",
+          "id": "Angka fiktif; syarat yang diatur ditandai Verifikasi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Negotiate, then decide",
+         "id": "Negosiasi, lalu putuskan"
+        },
+        "points": [
+         {
+          "en": "Fixed pay is clarified; a band is negotiated once, with a reason and an alternative.",
+          "id": "Gaji tetap diklarifikasi; pita dinegosiasikan sekali, dengan alasan dan alternatif."
+         },
+         {
+          "en": "The matrix uses Nadia’s weights, not yours. Model answer opens after you submit; Round 10 runs from it.",
+          "id": "Matriks memakai bobot Nadia, bukan milikmu. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 10 berjalan darinya."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP10",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Nadia’s Two Offers",
+       "id": "Dua Tawaran Nadia"
+      },
+      "lead": {
+       "en": "A bank programme and a start-up, one week apart. Decode both, ask what the letters do not say, negotiate only where there is room, and decide with the weights written first.",
+       "id": "Program bank dan startup, berjarak satu minggu. Urai keduanya, tanyakan yang tidak dikatakan surat, negosiasi hanya di mana ada ruang, dan putuskan dengan bobot ditulis lebih dulu."
+      },
+      "practice": [
+       {
+        "en": "Decode",
+        "id": "Urai"
+       },
+       {
+        "en": "Red flags",
+        "id": "Tanda bahaya"
+       },
+       {
+        "en": "What to negotiate",
+        "id": "Yang dinegosiasikan"
+       },
+       {
+        "en": "The email",
+        "id": "Emailnya"
+       },
+       {
+        "en": "Decide",
+        "id": "Putuskan"
+       }
+      ],
+      "goal": {
+       "en": "A decision Nadia could defend to herself in month six — and your own offer decode and negotiation prep sheet, filed as the Module 10 Kit item.",
+       "id": "Keputusan yang bisa Nadia pertahankan di hadapan dirinya sendiri di bulan keenam — dan urai tawaran serta lembar persiapan negosiasimu sendiri, diarsipkan sebagai butir Perangkat Modul 10."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Thursday, 20:40",
+         "id": "Kamis, 20.40"
+        },
+        "subject": {
+         "en": "Two offers, one week — help Nadia decide properly",
+         "id": "Dua tawaran, satu minggu — bantu Nadia memutuskan dengan benar"
+        },
+        "paragraphs": [
+         {
+          "en": "Nadia has two written offers. Bank Sinar’s arrived on Monday with a reply-by date of next Wednesday; KilatPay’s arrived today, with a reply-by date of next Friday. She has told me — before seeing either — that what matters most to her right now is learning, then security, then pay, then where she lives. I have put both letters, the bond agreement, the KilatPay contract excerpt and her own notes in the file. The companies are fictional; the shape of the offers is the one you will see.",
+          "id": "Nadia punya dua tawaran tertulis. Milik Bank Sinar datang hari Senin dengan batas balasan Rabu depan; milik KilatPay datang hari ini, dengan batas balasan Jumat depan. Ia sudah memberi tahu saya — sebelum melihat keduanya — bahwa yang paling penting baginya sekarang adalah pembelajaran, lalu keamanan, lalu gaji, lalu di mana ia tinggal. Saya sudah menaruh kedua surat, perjanjian ikatan dinas, kutipan kontrak KilatPay, dan catatannya sendiri di berkas. Perusahaannya fiktif; bentuk tawarannya yang akan kamu lihat."
+         },
+         {
+          "en": "The headline says KilatPay pays Rp 1,7 juta more a month. I would like to know whether that is true once you put both on the same sheet, what each letter does not say, what she should ask or negotiate with each — and nothing with the one that has no room — and which one the matrix supports, with her weights, and how robust that is.",
+          "id": "Angka utama mengatakan KilatPay membayar Rp 1,7 juta lebih per bulan. Saya ingin tahu apakah itu benar setelah keduanya ditaruh di lembar yang sama, apa yang tidak dikatakan tiap surat, apa yang sebaiknya ia tanyakan atau negosiasikan dengan masing-masing — dan tidak ada dengan yang tak punya ruang — dan mana yang didukung matriks, dengan bobotnya, dan seberapa kokoh itu."
+         },
+         {
+          "en": "Then your own: decode an offer you hold, or the one you expect, and fill your prep sheet. That is the Module 10 page of your Kit, and Round 10 runs from it.",
+          "id": "Lalu milikmu: urai tawaran yang kamu pegang, atau yang kamu harapkan, dan isi lembar persiapanmu. Itu halaman Modul 10 Perangkatmu, dan Putaran 10 berjalan darinya."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Both offers decoded to annual value on the same basis, with estimates labelled",
+          "id": "Kedua tawaran diurai ke nilai tahunan dengan dasar sama, dengan estimasi diberi label"
+         },
+         {
+          "en": "The red flags and the written questions they raise",
+          "id": "Tanda bahaya dan pertanyaan tertulis yang ditimbulkannya"
+         },
+         {
+          "en": "What to negotiate with each, by pay style",
+          "id": "Apa yang dinegosiasikan dengan masing-masing, menurut gaya gaji"
+         },
+         {
+          "en": "The KilatPay email, and the matrix with a sensitivity check",
+          "id": "Email KilatPay, dan matriks dengan uji sensitivitas"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "briefcase",
+         "k": {
+          "en": "Bank Sinar · ODP",
+          "id": "Bank Sinar · ODP"
+         },
+         "v": {
+          "en": "Rp 6,5 juta fixed monthly (base 5,6 + fixed allowance 0,9) · PKWTT, 3 months’ probation · bond Rp 48 juta over 24 months, decreasing Rp 2 juta per month · placement anywhere",
+          "id": "Rp 6,5 juta tetap bulanan (pokok 5,6 + tunjangan tetap 0,9) · PKWTT, percobaan 3 bulan · ikatan dinas Rp 48 juta selama 24 bulan, berkurang Rp 2 juta per bulan · penempatan di mana saja"
+         },
+         "hot": true
+        },
+        {
+         "icon": "briefcase",
+         "k": {
+          "en": "KilatPay · Associate",
+          "id": "KilatPay · Associate"
+         },
+         "v": {
+          "en": "“Rp 8,2 juta per bulan” = base 7,0 + transport and meal allowance 1,2 paid per day attended · 12-month PKWT with a probation clause · bonus “up to 2 months” · Jakarta · laptop",
+          "id": "“Rp 8,2 juta per bulan” = pokok 7,0 + tunjangan transport dan makan 1,2 dibayar per hari hadir · PKWT 12 bulan dengan klausul percobaan · bonus “hingga 2 bulan” · Jakarta · laptop"
+         },
+         "hot": true
+        },
+        {
+         "icon": "clock",
+         "k": {
+          "en": "Reply by",
+          "id": "Balas paling lambat"
+         },
+         "v": {
+          "en": "Bank Sinar: next Wednesday · KilatPay: next Friday — the earlier deadline is Bank Sinar’s",
+          "id": "Bank Sinar: Rabu depan · KilatPay: Jumat depan — tenggat lebih awal milik Bank Sinar"
+         },
+         "hot": true
+        },
+        {
+         "icon": "target",
+         "k": {
+          "en": "Nadia’s priorities",
+          "id": "Prioritas Nadia"
+         },
+         "v": {
+          "en": "Learning > security > pay > location — stated before she saw either offer",
+          "id": "Pembelajaran > keamanan > gaji > lokasi — dinyatakan sebelum ia melihat kedua tawaran"
+         }
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Nadia’s situation",
+          "id": "Situasi Nadia"
+         },
+         "v": {
+          "en": "From Semarang; would rent a room (kos) in Jakarta or in an out-of-town placement at about Rp 2 juta a month (her estimate); no savings buffer",
+          "id": "Dari Semarang; akan menyewa kamar (kos) di Jakarta atau di penempatan luar kota sekitar Rp 2 juta per bulan (estimasinya); tanpa tabungan cadangan"
+         }
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "Fictional · Verify",
+          "id": "Fiktif · Verifikasi"
+         },
+         "v": {
+          "en": "Employers and figures fictional; THR, BPJS, PKWT, probation and compensation rules to be verified against current sources",
+          "id": "Pemberi kerja dan angka fiktif; aturan THR, BPJS, PKWT, percobaan, dan kompensasi diverifikasi terhadap sumber terkini"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "Bank Sinar offer",
+          "id": "Tawaran Bank Sinar"
+         },
+         "title": {
+          "en": "Surat penawaran — Officer Development Programme, angkatan 2026",
+          "id": "Surat penawaran — Officer Development Programme, angkatan 2026"
+         },
+         "meta": {
+          "en": "Fictional · excerpts with the bond agreement",
+          "id": "Fiktif · kutipan dengan perjanjian ikatan dinas"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Remuneration",
+            "id": "Remunerasi"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Gaji pokok Rp 5.600.000 · tunjangan jabatan (tetap) Rp 900.000 · “Paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026.”",
+             "id": "Gaji pokok Rp 5.600.000 · tunjangan jabatan (tetap) Rp 900.000 · “Paket remunerasi berlaku sama untuk seluruh peserta ODP angkatan 2026.”"
+            },
+            {
+             "en": "THR sesuai ketentuan yang berlaku <span class=\"ev ev-verify\">Verify</span> · bonus tahunan berdasarkan kinerja perusahaan dan individu · tunjangan perumahan Rp 1.500.000 per bulan untuk penempatan di luar kota asal.",
+             "id": "THR sesuai ketentuan yang berlaku <span class=\"ev ev-verify\">Verifikasi</span> · bonus tahunan berdasarkan kinerja perusahaan dan individu · tunjangan perumahan Rp 1.500.000 per bulan untuk penempatan di luar kota asal."
+            },
+            {
+             "en": "BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · asuransi kesehatan swasta rawat inap dan rawat jalan.",
+             "id": "BPJS Kesehatan dan BPJS Ketenagakerjaan sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · asuransi kesehatan swasta rawat inap dan rawat jalan."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Contract, programme and placement",
+            "id": "Kontrak, program, dan penempatan"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "PKWTT dengan masa percobaan tiga bulan <span class=\"ev ev-verify\">Verify</span> · program pelatihan 12 bulan dengan rotasi tiga unit dan mentor · “Bersedia ditempatkan di seluruh wilayah kerja Bank.”",
+             "id": "PKWTT dengan masa percobaan tiga bulan <span class=\"ev ev-verify\">Verifikasi</span> · program pelatihan 12 bulan dengan rotasi tiga unit dan mentor · “Bersedia ditempatkan di seluruh wilayah kerja Bank.”"
+            },
+            {
+             "en": "HR’s reply to Nadia’s question (email): “Bonus tahunan untuk peserta ODP dua tahun terakhir rata-rata satu kali gaji.”",
+             "id": "Balasan HR atas pertanyaan Nadia (email): “Bonus tahunan untuk peserta ODP dua tahun terakhir rata-rata satu kali gaji.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Perjanjian ikatan dinas (separate agreement, attached)",
+            "id": "Perjanjian ikatan dinas (perjanjian terpisah, terlampir)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Masa ikatan dinas 24 bulan sejak tanggal mulai bekerja. Nilai ganti biaya pendidikan Rp 48.000.000, berkurang Rp 2.000.000 untuk setiap bulan masa kerja yang telah dijalani. Berlaku apabila karyawan mengundurkan diri sebelum masa ikatan dinas berakhir.” <span class=\"ev ev-verify\">Verify: enforceability; not legal advice</span>",
+             "id": "“Masa ikatan dinas 24 bulan sejak tanggal mulai bekerja. Nilai ganti biaya pendidikan Rp 48.000.000, berkurang Rp 2.000.000 untuk setiap bulan masa kerja yang telah dijalani. Berlaku apabila karyawan mengundurkan diri sebelum masa ikatan dinas berakhir.” <span class=\"ev ev-verify\">Verifikasi: keberlakuan; bukan nasihat hukum</span>"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "KilatPay offer",
+          "id": "Tawaran KilatPay"
+         },
+         "title": {
+          "en": "Offer letter — Business Operations Associate",
+          "id": "Surat penawaran — Business Operations Associate"
+         },
+         "meta": {
+          "en": "Fictional · excerpts with the PKWT",
+          "id": "Fiktif · kutipan dengan PKWT"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Compensation",
+            "id": "Kompensasi"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Total remunerasi Rp 8.200.000 per bulan”, consisting of: gaji pokok Rp 7.000.000 · tunjangan transport dan makan Rp 55.000 per hari kehadiran (sekitar Rp 1.200.000 per bulan).",
+             "id": "“Total remunerasi Rp 8.200.000 per bulan”, terdiri dari: gaji pokok Rp 7.000.000 · tunjangan transport dan makan Rp 55.000 per hari kehadiran (sekitar Rp 1.200.000 per bulan)."
+            },
+            {
+             "en": "“Bonus kinerja hingga 2 (dua) kali gaji pokok per tahun, sesuai kebijakan perusahaan.” No history given. · THR sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · BPJS sesuai ketentuan <span class=\"ev ev-verify\">Verify</span> · no private insurance · laptop provided.",
+             "id": "“Bonus kinerja hingga 2 (dua) kali gaji pokok per tahun, sesuai kebijakan perusahaan.” Tanpa riwayat. · THR sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · BPJS sesuai ketentuan <span class=\"ev ev-verify\">Verifikasi</span> · tanpa asuransi swasta · laptop disediakan."
+            },
+            {
+             "en": "“Evaluasi kinerja dan gaji pada bulan keenam.” (added after Nadia’s request — Lesson 10.1)",
+             "id": "“Evaluasi kinerja dan gaji pada bulan keenam.” (ditambahkan setelah permintaan Nadia — Pelajaran 10.1)"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "PKWT excerpt",
+            "id": "Kutipan PKWT"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Pasal 2: “Perjanjian ini berlaku selama 12 (dua belas) bulan sejak tanggal mulai bekerja dan dapat diperpanjang sesuai kebutuhan perusahaan.” · Pasal 4: “Tiga bulan pertama merupakan masa percobaan.” <span class=\"ev ev-verify\">Verify</span>",
+             "id": "Pasal 2: “Perjanjian ini berlaku selama 12 (dua belas) bulan sejak tanggal mulai bekerja dan dapat diperpanjang sesuai kebutuhan perusahaan.” · Pasal 4: “Tiga bulan pertama merupakan masa percobaan.” <span class=\"ev ev-verify\">Verifikasi</span>"
+            },
+            {
+             "en": "Pasal 9: uang kompensasi at the end of the PKWT “sesuai peraturan yang berlaku” <span class=\"ev ev-verify\">Verify</span> — Nadia’s note: roughly one month’s wage for twelve months’ service, to verify. · Recruiter, verbally: “Associate yang bagus biasanya diangkat tetap.” Not in the letter.",
+             "id": "Pasal 9: uang kompensasi di akhir PKWT “sesuai peraturan yang berlaku” <span class=\"ev ev-verify\">Verifikasi</span> — catatan Nadia: kira-kira satu bulan upah untuk dua belas bulan masa kerja, untuk diverifikasi. · Rekruter, secara lisan: “Associate yang bagus biasanya diangkat tetap.” Tidak ada di surat."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Nadia’s notes",
+          "id": "Catatan Nadia"
+         },
+         "title": {
+          "en": "What she knows, what she estimates, what she wants",
+          "id": "Yang ia tahu, yang ia perkirakan, yang ia inginkan"
+         },
+         "meta": {
+          "en": "From Lessons 5.3, 10.1 and her own research",
+          "id": "Dari Pelajaran 5.3, 10.1, dan risetnya sendiri"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "Researched ranges (5.3): ODP programme placement Rp 6,0–6,8 juta gross; operations associate in Jakarta Rp 6,5–8 juta gross.",
+             "id": "Rentang hasil riset (5.3): penempatan program ODP Rp 6,0–6,8 juta kotor; operations associate di Jakarta Rp 6,5–8 juta kotor."
+            },
+            {
+             "en": "Costs: a room in Jakarta about Rp 2 juta a month; the same in an out-of-town placement; nothing if placed in Semarang (lives at home). Private insurance of Bank Sinar’s kind: she estimates Rp 3 juta a year to buy herself.",
+             "id": "Biaya: kamar di Jakarta sekitar Rp 2 juta per bulan; sama di penempatan luar kota; nol jika ditempatkan di Semarang (tinggal di rumah). Asuransi swasta sejenis Bank Sinar: ia memperkirakan Rp 3 juta setahun jika membeli sendiri."
+            },
+            {
+             "en": "Learning: Bank Sinar — 12-month rotation, a mentor, three units. KilatPay — “you’ll learn on the job; the team doubled last year”; the hiring manager, Pak Aditya, impressed her.",
+             "id": "Pembelajaran: Bank Sinar — rotasi 12 bulan, mentor, tiga unit. KilatPay — “kamu akan belajar sambil bekerja; timnya dua kali lipat tahun lalu”; manajer perekrut, Pak Aditya, membuatnya terkesan."
+            },
+            {
+             "en": "Priorities, written before either offer: learning > security > pay > location. No other process is still running.",
+             "id": "Prioritas, ditulis sebelum kedua tawaran: pembelajaran > keamanan > gaji > lokasi. Tidak ada proses lain yang masih berjalan."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Decode both offers to annual value",
+         "id": "Urai kedua tawaran ke nilai tahunan"
+        },
+        "short": {
+         "en": "Decode",
+         "id": "Urai"
+        },
+        "guide": {
+         "en": "Lesson 10.1. For each offer, list the components, then compute a conservative annual value on the same basis: 12 × fixed monthly + THR + conservative bonus + employer-paid benefits Nadia would otherwise buy + one-time or end-of-contract items − costs she bears. Count only fixed pay in THR; count KilatPay’s per-day allowance but label it variable; count a bonus with no history at zero and a bonus with history at half its average. Do Bank Sinar twice — placed in Semarang, and placed out of town. Label every regulated item Verify and every estimate as Nadia’s.",
+         "id": "Pelajaran 10.1. Untuk tiap tawaran, daftar komponennya, lalu hitung nilai tahunan konservatif dengan dasar sama: 12 × tetap bulanan + THR + bonus konservatif + manfaat dibayar pemberi kerja yang sebaliknya dibeli Nadia + item sekali bayar atau akhir kontrak − biaya yang ia tanggung. Hitung hanya gaji tetap di THR; hitung tunjangan per hari KilatPay tetapi beri label tidak tetap; hitung bonus tanpa riwayat nol dan bonus dengan riwayat setengah rata-ratanya. Kerjakan Bank Sinar dua kali — ditempatkan di Semarang, dan ditempatkan di luar kota. Beri label Verifikasi pada setiap item yang diatur dan setiap estimasi sebagai milik Nadia."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Components and annual value for both offers, Bank Sinar in two placements",
+           "id": "Komponen dan nilai tahunan untuk kedua tawaran, Bank Sinar di dua penempatan"
+          },
+          "help": {
+           "en": "Show the arithmetic in Rp juta. Then one sentence: is the headline gap of Rp 1,7 juta a month real, and what does the decoded gap equal per month?",
+           "id": "Tunjukkan aritmetikanya dalam Rp juta. Lalu satu kalimat: apakah selisih angka utama Rp 1,7 juta per bulan nyata, dan selisih setelah diurai setara berapa per bulan?"
+          },
+          "placeholder": {
+           "en": "Bank Sinar (out of town): 12 × 6,5 = 78 · THR 6,5 (verify) · bonus ½ × 6,5 = 3,25 · housing 12 × 1,5 = 18 · private insurance ≈ 3 (Nadia’s estimate) · rent −24 · total ≈ …\nBank Sinar (Semarang): 78 + 6,5 + 3,25 + 3 = …\nKilatPay: base 12 × 7,0 = 84 · allowance ≈ 14,4 (variable) · THR on base 7,0 (verify) · bonus 0 (no history) · compensation at end ≈ 7,0 (verify) · rent −24 · total ≈ …\nHeadline gap vs decoded gap: …",
+           "id": "Bank Sinar (luar kota): 12 × 6,5 = 78 · THR 6,5 (verifikasi) · bonus ½ × 6,5 = 3,25 · perumahan 12 × 1,5 = 18 · asuransi swasta ≈ 3 (estimasi Nadia) · sewa −24 · total ≈ …\nBank Sinar (Semarang): 78 + 6,5 + 3,25 + 3 = …\nKilatPay: pokok 12 × 7,0 = 84 · tunjangan ≈ 14,4 (tidak tetap) · THR atas pokok 7,0 (verifikasi) · bonus 0 (tanpa riwayat) · kompensasi di akhir ≈ 7,0 (verifikasi) · sewa −24 · total ≈ …\nSelisih angka utama vs selisih setelah diurai: …"
+          },
+          "keywords": [
+           [
+            "bank sinar",
+            "odp"
+           ],
+           [
+            "kilatpay"
+           ],
+           [
+            "78",
+            "84"
+           ],
+           [
+            "thr"
+           ],
+           [
+            "bonus"
+           ],
+           [
+            "perumahan",
+            "housing",
+            "18"
+           ],
+           [
+            "sewa",
+            "rent",
+            "kos",
+            "24"
+           ],
+           [
+            "tunjangan",
+            "allowance",
+            "14"
+           ],
+           [
+            "kompensasi",
+            "compensation"
+           ],
+           [
+            "verif"
+           ],
+           [
+            "semarang",
+            "luar kota",
+            "out of town"
+           ],
+           [
+            "per bulan",
+            "per month",
+            "selisih",
+            "gap"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Red flags and the questions they raise",
+         "id": "Tanda bahaya dan pertanyaan yang ditimbulkannya"
+        },
+        "short": {
+         "en": "Red flags",
+         "id": "Tanda bahaya"
+        },
+        "guide": {
+         "en": "Lessons 10.1 and 10.2. Read both files with the twelve-question checklist. For each issue you find, write the question Nadia sends, in Indonesian, politely and in writing — asking, not litigating. The blueprint names two for KilatPay (probation inside a PKWT; the bonus with no history), and there are more: the verbal promise of conversion, the “dapat diperpanjang” clause, the per-day allowance inside the headline. For Bank Sinar, check whether anything is missing rather than wrong.",
+         "id": "Pelajaran 10.1 dan 10.2. Baca kedua berkas dengan daftar periksa dua belas pertanyaan. Untuk tiap masalah yang kamu temukan, tulis pertanyaan yang dikirim Nadia, dalam bahasa Indonesia, sopan dan tertulis — bertanya, bukan menggugat. Cetak biru menyebut dua untuk KilatPay (percobaan di dalam PKWT; bonus tanpa riwayat), dan masih ada lagi: janji lisan pengangkatan, klausul “dapat diperpanjang”, tunjangan per hari di dalam angka utama. Untuk Bank Sinar, periksa apakah ada yang hilang, bukan yang salah."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "The issues in each offer and one written question for each",
+           "id": "Masalah di tiap tawaran dan satu pertanyaan tertulis untuk masing-masing"
+          },
+          "help": {
+           "en": "A red flag is a reason to ask before signing, not a reason to refuse. Group KilatPay’s questions into one email; Bank Sinar’s clarifications into another.",
+           "id": "Tanda bahaya adalah alasan bertanya sebelum menandatangani, bukan alasan menolak. Kelompokkan pertanyaan KilatPay dalam satu email; klarifikasi Bank Sinar dalam email lain."
+          },
+          "placeholder": {
+           "en": "KilatPay\n1 Probation inside a PKWT (Pasal 4) → “Boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”\n2 Bonus “hingga 2 kali” with no history → “…”\n3 Conversion promised verbally → “…”\n4 “Dapat diperpanjang” — on what basis, and what happens at month 12 → “…”\n5 Headline includes a per-day allowance → “…”\nBank Sinar\n1 Housing allowance — from which month of an out-of-town placement? → “…”\n2 …",
+           "id": "KilatPay\n1 Percobaan di dalam PKWT (Pasal 4) → “Boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”\n2 Bonus “hingga 2 kali” tanpa riwayat → “…”\n3 Pengangkatan dijanjikan lisan → “…”\n4 “Dapat diperpanjang” — atas dasar apa, dan apa yang terjadi di bulan 12 → “…”\n5 Angka utama memuat tunjangan per hari → “…”\nBank Sinar\n1 Tunjangan perumahan — sejak bulan ke berapa penempatan luar kota? → “…”\n2 …"
+          },
+          "keywords": [
+           [
+            "percobaan",
+            "probation"
+           ],
+           [
+            "pkwt"
+           ],
+           [
+            "bonus"
+           ],
+           [
+            "riwayat",
+            "history",
+            "dua tahun",
+            "rata-rata",
+            "average"
+           ],
+           [
+            "tetap",
+            "permanent",
+            "pengangkatan",
+            "conversion",
+            "pkwtt"
+           ],
+           [
+            "diperpanjang",
+            "extend",
+            "renew"
+           ],
+           [
+            "tunjangan",
+            "allowance",
+            "per hari",
+            "per day"
+           ],
+           [
+            "perumahan",
+            "housing"
+           ],
+           [
+            "?"
+           ],
+           [
+            "boleh",
+            "mohon",
+            "apakah"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Decide what to negotiate with each",
+         "id": "Putuskan apa yang dinegosiasikan dengan masing-masing"
+        },
+        "short": {
+         "en": "Negotiate?",
+         "id": "Negosiasi?"
+        },
+        "guide": {
+         "en": "Lesson 10.3. Name each employer’s pay style from the evidence in its letter. For the fixed one, write what Nadia clarifies instead of negotiating. For the grade-band one, fill the prep sheet: her range, her walk-away and the alternative it comes from, what is negotiable, her top two priorities, and the evidence for one request. Then answer honestly: would a yes from KilatPay change her decision? If not, what should she send?",
+         "id": "Pelajaran 10.3. Namai gaya gaji tiap pemberi kerja dari bukti di suratnya. Untuk yang tetap, tulis apa yang Nadia klarifikasi alih-alih bernegosiasi. Untuk yang berpita, isi lembar persiapan: rentangnya, titik mundurnya dan alternatif asalnya, apa yang bisa dinegosiasikan, dua prioritas utamanya, dan bukti untuk satu permintaan. Lalu jawab dengan jujur: apakah “ya” dari KilatPay akan mengubah keputusannya? Jika tidak, apa yang sebaiknya ia kirim?"
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 90,
+          "rows": 11,
+          "title": {
+           "en": "Pay style for each, Bank Sinar’s clarifications, KilatPay’s prep sheet",
+           "id": "Gaya gaji masing-masing, klarifikasi Bank Sinar, lembar persiapan KilatPay"
+          },
+          "help": {
+           "en": "Bank Sinar’s letter says in writing that the package is the same for the whole intake. KilatPay’s range for the role is not stated, but the recruiter and hiring manager set it per hire within a grade. Her walk-away for KilatPay comes from her alternative — a written Bank Sinar offer.",
+           "id": "Surat Bank Sinar menyatakan tertulis bahwa paketnya sama untuk seluruh angkatan. Rentang KilatPay untuk peran ini tidak dinyatakan, tetapi rekruter dan manajer perekrut menetapkannya per rekrutan di dalam golongan. Titik mundurnya untuk KilatPay datang dari alternatifnya — tawaran tertulis Bank Sinar."
+          },
+          "placeholder": {
+           "en": "Bank Sinar — pay style: fixed (“berlaku sama untuk seluruh peserta”) → no request on pay · clarify: housing from month one · …\nKilatPay — pay style: grade/band → range 6,5–8 (5.3) · walk-away: … because her alternative is … · negotiable here: base, conversion to PKWTT in writing, … · top two: security, then base · evidence: … · one request: … · alternative if no: …\nWould a yes change her decision? …",
+           "id": "Bank Sinar — gaya gaji: tetap (“berlaku sama untuk seluruh peserta”) → tanpa permintaan soal gaji · klarifikasi: perumahan sejak bulan pertama · …\nKilatPay — gaya gaji: golongan/pita → rentang 6,5–8 (5.3) · titik mundur: … karena alternatifnya … · bisa dinegosiasikan di sini: pokok, pengangkatan ke PKWTT tertulis, … · dua teratas: keamanan, lalu pokok · bukti: … · satu permintaan: … · alternatif jika tidak: …\nApakah “ya” akan mengubah keputusannya? …"
+          },
+          "keywords": [
+           [
+            "tetap",
+            "fixed"
+           ],
+           [
+            "pita",
+            "band",
+            "grade",
+            "golongan"
+           ],
+           [
+            "klarifikasi",
+            "clarif"
+           ],
+           [
+            "perumahan",
+            "housing"
+           ],
+           [
+            "titik mundur",
+            "walk-away",
+            "walk away"
+           ],
+           [
+            "alternatif",
+            "alternative"
+           ],
+           [
+            "pkwtt",
+            "pengangkatan",
+            "conversion",
+            "permanent"
+           ],
+           [
+            "7,5",
+            "7.5"
+           ],
+           [
+            "bukti",
+            "evidence",
+            "magang",
+            "internship",
+            "data"
+           ],
+           [
+            "mengubah",
+            "change",
+            "keputusan",
+            "decision"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Write the KilatPay email",
+         "id": "Tulis email KilatPay"
+        },
+        "short": {
+         "en": "The email",
+         "id": "Emailnya"
+        },
+        "guide": {
+         "en": "Lessons 10.2 and 10.3. One email to Dewi at KilatPay, in Indonesian, under 200 words: thanks and genuine interest; the questions from Step 2 that matter most; one reasoned request with its evidence; the alternative if the base cannot move; the Bank Sinar offer mentioned truthfully and without threat, if at all; and a request that anything agreed be confirmed in writing. Then one line on when Nadia should send it relative to her decision.",
+         "id": "Pelajaran 10.2 dan 10.3. Satu email ke Dewi di KilatPay, dalam bahasa Indonesia, di bawah 200 kata: terima kasih dan minat tulus; pertanyaan dari Langkah 2 yang paling penting; satu permintaan beralasan dengan buktinya; alternatif jika pokok tak bisa bergerak; tawaran Bank Sinar disebut dengan jujur dan tanpa ancaman, jika perlu; dan permintaan agar apa pun yang disepakati dikonfirmasi tertulis. Lalu satu baris tentang kapan Nadia sebaiknya mengirimnya relatif terhadap keputusannya."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 120,
+          "rows": 14,
+          "title": {
+           "en": "The email, and when to send it",
+           "id": "Emailnya, dan kapan mengirimnya"
+          },
+          "help": {
+           "en": "One request, not a list. The six-month review is already in the letter, so the alternative has to be something else — conversion to PKWTT in writing is the one that touches her second priority.",
+           "id": "Satu permintaan, bukan daftar. Evaluasi enam bulan sudah ada di surat, jadi alternatifnya harus hal lain — pengangkatan ke PKWTT secara tertulis adalah yang menyentuh prioritas keduanya."
+          },
+          "placeholder": {
+           "en": "Subjek: Pertanyaan terkait surat penawaran Business Operations Associate\nYth. Ibu Dewi,\nTerima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama …\nSebelum memberi jawaban, ada beberapa hal yang ingin saya pahami: (1) … (2) … (3) …\nSetelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, …\nKalau gaji pokok sudah tetap, apakah memungkinkan …\nApa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi.\nHormat saya, Nadia Putri\nWhen to send: …",
+           "id": "Subjek: Pertanyaan terkait surat penawaran Business Operations Associate\nYth. Ibu Dewi,\nTerima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama …\nSebelum memberi jawaban, ada beberapa hal yang ingin saya pahami: (1) … (2) … (3) …\nSetelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, …\nKalau gaji pokok sudah tetap, apakah memungkinkan …\nApa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi.\nHormat saya, Nadia Putri\nKapan dikirim: …"
+          },
+          "keywords": [
+           [
+            "yth",
+            "ibu dewi",
+            "dewi"
+           ],
+           [
+            "terima kasih",
+            "thank"
+           ],
+           [
+            "tertarik",
+            "interest"
+           ],
+           [
+            "percobaan",
+            "probation"
+           ],
+           [
+            "bonus"
+           ],
+           [
+            "ruang",
+            "room",
+            "7,5",
+            "7.5"
+           ],
+           [
+            "pertimbangan",
+            "reason",
+            "karena"
+           ],
+           [
+            "pkwtt",
+            "pengangkatan",
+            "tetap",
+            "permanent"
+           ],
+           [
+            "tertulis",
+            "writing",
+            "surat revisi",
+            "konfirmasi"
+           ],
+           [
+            "hormat",
+            "salam"
+           ],
+           [
+            "kirim",
+            "send",
+            "sebelum",
+            "before"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Build the decision matrix — and your own decode",
+         "id": "Bangun matriks keputusan — dan uraianmu sendiri"
+        },
+        "short": {
+         "en": "Decide + yours",
+         "id": "Putuskan + milikmu"
+        },
+        "guide": {
+         "en": "Lesson 10.4, then the Kit item. Using Nadia’s order — learning > security > pay > location — write weights summing to 100 before scoring. Score both offers 1–5 with one line of evidence each (pay from your Step 1 annual values, security from the contract types and the bond). Total, then run the sensitivity check: what would KilatPay need to win — would conversion to PKWTT in writing, or a Rp 500 ribu raise, be enough? State the decision, and the two emails it implies. Then your own: decode an offer you hold or expect on the same basis and fill your negotiation prep sheet. Round 10 runs from this page.",
+         "id": "Pelajaran 10.4, lalu butir Perangkat. Memakai urutan Nadia — pembelajaran > keamanan > gaji > lokasi — tulis bobot berjumlah 100 sebelum menilai. Nilai kedua tawaran 1–5 dengan satu baris bukti masing-masing (gaji dari nilai tahunan Langkah 1, keamanan dari jenis kontrak dan ikatan dinas). Jumlahkan, lalu jalankan uji sensitivitas: apa yang dibutuhkan KilatPay untuk menang — apakah pengangkatan ke PKWTT tertulis, atau kenaikan Rp 500 ribu, cukup? Nyatakan keputusannya, dan dua email yang tersirat. Lalu milikmu: urai tawaran yang kamu pegang atau harapkan dengan dasar sama dan isi lembar persiapan negosiasimu. Putaran 10 berjalan dari halaman ini."
+        },
+        "questions": [
+         {
+          "id": "q5",
+          "min": 150,
+          "rows": 18,
+          "title": {
+           "en": "Weights, scores with evidence, totals, sensitivity, decision — then your own decode and prep sheet",
+           "id": "Bobot, nilai dengan bukti, total, sensitivitas, keputusan — lalu uraian dan lembar persiapanmu"
+          },
+          "help": {
+           "en": "Weights come from Nadia’s order, not from which offer you prefer. If the sensitivity check shows a tie, say which question would break it. Your own decode can use an expected offer if you do not hold one yet; label it as expected.",
+           "id": "Bobot datang dari urutan Nadia, bukan dari tawaran yang kamu sukai. Jika uji sensitivitas menunjukkan seri, sebutkan pertanyaan yang akan memecahkannya. Uraianmu sendiri boleh memakai tawaran yang diharapkan jika belum memegangnya; beri label diharapkan."
+          },
+          "placeholder": {
+           "en": "Weights: learning 35 · security 30 · pay 20 · location 15\nBank Sinar: learning 5 (…) · security 5 (…) · pay 3 (…) · location 2 (…) → total …\nKilatPay: learning 3 (…) · security 2 (…) · pay 4 (…) · location 3 (…) → total …\nSensitivity: gap … · PKWTT in writing (+… on security) → … · Rp 500 ribu (+… on pay at most) → … · verdict: robust / tied\nDecision: … · Email 1 (accept, with …) · Email 2 (decline, same day, …)\n— My own —\nOffer (held / expected): … · annual value … · contract type and bond … · pay style … · range … · walk-away and alternative … · one request + reason … · alternative …",
+           "id": "Bobot: pembelajaran 35 · keamanan 30 · gaji 20 · lokasi 15\nBank Sinar: pembelajaran 5 (…) · keamanan 5 (…) · gaji 3 (…) · lokasi 2 (…) → total …\nKilatPay: pembelajaran 3 (…) · keamanan 2 (…) · gaji 4 (…) · lokasi 3 (…) → total …\nSensitivitas: selisih … · PKWTT tertulis (+… di keamanan) → … · Rp 500 ribu (+… di gaji paling banyak) → … · putusan: kokoh / seri\nKeputusan: … · Email 1 (menerima, dengan …) · Email 2 (menolak, hari yang sama, …)\n— Milikku —\nTawaran (dipegang / diharapkan): … · nilai tahunan … · jenis kontrak dan ikatan dinas … · gaya gaji … · rentang … · titik mundur dan alternatif … · satu permintaan + alasan … · alternatif …"
+          },
+          "keywords": [
+           [
+            "bobot",
+            "weight"
+           ],
+           [
+            "pembelajaran",
+            "learning"
+           ],
+           [
+            "keamanan",
+            "security"
+           ],
+           [
+            "gaji",
+            "pay"
+           ],
+           [
+            "lokasi",
+            "location"
+           ],
+           [
+            "total"
+           ],
+           [
+            "sensitiv"
+           ],
+           [
+            "500"
+           ],
+           [
+            "pkwtt"
+           ],
+           [
+            "keputusan",
+            "decision",
+            "menerima",
+            "accept"
+           ],
+           [
+            "menolak",
+            "decline"
+           ],
+           [
+            "rentang",
+            "range"
+           ],
+           [
+            "titik mundur",
+            "walk-away",
+            "walk away"
+           ],
+           [
+            "permintaan",
+            "request"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Decode — both offers on the same basis: fixed pay only in THR, the per-day allowance labelled variable, the bonus with no history at zero and the one with history conservative, costs subtracted, Bank Sinar in two placements; regulated items marked Verify; the headline gap compared with the decoded gap per month",
+         "id": "Urai — kedua tawaran dengan dasar sama: hanya gaji tetap di THR, tunjangan per hari diberi label tidak tetap, bonus tanpa riwayat nol dan yang punya riwayat konservatif, biaya dikurangkan, Bank Sinar di dua penempatan; item yang diatur ditandai Verifikasi; selisih angka utama dibandingkan dengan selisih setelah diurai per bulan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Red flags — probation inside the PKWT, the bonus with no history, the verbal conversion, the extension clause and the allowance in the headline found; Bank Sinar checked for what is missing; every issue turned into a polite written question",
+         "id": "Tanda bahaya — percobaan di dalam PKWT, bonus tanpa riwayat, pengangkatan lisan, klausul perpanjangan, dan tunjangan di angka utama ditemukan; Bank Sinar diperiksa untuk yang hilang; setiap masalah diubah menjadi pertanyaan tertulis yang sopan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "What to negotiate — pay style named from the letters; no pay request to the fixed programme, clarifications instead; KilatPay’s prep sheet complete with a walk-away from her real alternative; the honest question whether a yes would change the decision",
+         "id": "Yang dinegosiasikan — gaya gaji dinamai dari surat; tanpa permintaan gaji ke program tetap, klarifikasi sebagai gantinya; lembar persiapan KilatPay lengkap dengan titik mundur dari alternatif nyatanya; pertanyaan jujur apakah “ya” akan mengubah keputusan"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "The email — grateful, under 200 words, the key questions, one reasoned request, an alternative other than the review already written, any mention of Bank Sinar truthful and without threat, written confirmation requested, and a sensible sending time",
+         "id": "Emailnya — penuh terima kasih, di bawah 200 kata, pertanyaan kunci, satu permintaan beralasan, alternatif selain evaluasi yang sudah tertulis, penyebutan Bank Sinar jujur dan tanpa ancaman, konfirmasi tertulis diminta, dan waktu kirim yang masuk akal"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Decision and your own — weights from Nadia’s order set before scoring; scores with evidence; totals correct; sensitivity check run and read; the decision and both emails stated; your own decode and prep sheet complete",
+         "id": "Keputusan dan milikmu — bobot dari urutan Nadia ditetapkan sebelum menilai; nilai dengan bukti; total benar; uji sensitivitas dijalankan dan dibaca; keputusan dan kedua email dinyatakan; uraian dan lembar persiapanmu sendiri lengkap"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model answer — two offers, one decision",
+        "id": "Jawaban model — dua tawaran, satu keputusan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The decode",
+          "id": "Uraiannya"
+         }
+        },
+        {
+         "en": "On the same conservative basis, in Rp juta a year: <b>Bank Sinar placed out of town</b> — 12 × 6,5 = 78; THR 6,5 <span class=\"ev ev-verify\">Verify</span>; bonus at half the stated two-year average, 3,25; housing 12 × 1,5 = 18; private insurance Nadia would otherwise buy, about 3; rent −24; total about <b>84,75</b>. <b>Bank Sinar placed in Semarang</b> — no housing allowance and no rent: 78 + 6,5 + 3,25 + 3 = about <b>90,75</b>. <b>KilatPay</b> — base 12 × 7,0 = 84; the per-day allowance about 14,4, labelled variable because a sick week or a holiday month reduces it; THR on the base, 7,0 <span class=\"ev ev-verify\">Verify</span>; bonus “up to two months” with no history, counted at zero; compensation money at the end of the PKWT, about one month, 7,0 <span class=\"ev ev-verify\">Verify</span>; rent −24; total about <b>88,4</b>. The headline says KilatPay pays Rp 1,7 juta a month more. Decoded, the gap is about Rp 3,65 juta a year against an out-of-town Bank Sinar placement — roughly Rp 300 ribu a month — and it reverses if Nadia is placed in Semarang. Estimates are Nadia’s; the tax and BPJS deductions are similar enough on both not to change the order, and are left to the verified calculation <span class=\"ev ev-verify\">Verify</span>.",
+         "id": "Dengan dasar konservatif yang sama, dalam Rp juta per tahun: <b>Bank Sinar ditempatkan di luar kota</b> — 12 × 6,5 = 78; THR 6,5 <span class=\"ev ev-verify\">Verifikasi</span>; bonus setengah rata-rata dua tahun yang dinyatakan, 3,25; perumahan 12 × 1,5 = 18; asuransi swasta yang sebaliknya dibeli Nadia, sekitar 3; sewa −24; total sekitar <b>84,75</b>. <b>Bank Sinar ditempatkan di Semarang</b> — tanpa tunjangan perumahan dan tanpa sewa: 78 + 6,5 + 3,25 + 3 = sekitar <b>90,75</b>. <b>KilatPay</b> — pokok 12 × 7,0 = 84; tunjangan per hari sekitar 14,4, diberi label tidak tetap karena seminggu sakit atau bulan libur menguranginya; THR atas pokok, 7,0 <span class=\"ev ev-verify\">Verifikasi</span>; bonus “hingga dua bulan” tanpa riwayat, dihitung nol; uang kompensasi di akhir PKWT, sekitar satu bulan, 7,0 <span class=\"ev ev-verify\">Verifikasi</span>; sewa −24; total sekitar <b>88,4</b>. Angka utama mengatakan KilatPay membayar Rp 1,7 juta per bulan lebih. Setelah diurai, selisihnya sekitar Rp 3,65 juta setahun terhadap penempatan Bank Sinar di luar kota — kira-kira Rp 300 ribu per bulan — dan berbalik jika Nadia ditempatkan di Semarang. Estimasi milik Nadia; potongan pajak dan BPJS cukup mirip di keduanya sehingga tidak mengubah urutan, dan diserahkan ke perhitungan yang terverifikasi <span class=\"ev ev-verify\">Verifikasi</span>."
+        },
+        {
+         "h": {
+          "en": "The red flags and the questions",
+          "id": "Tanda bahaya dan pertanyaannya"
+         }
+        },
+        {
+         "en": "KilatPay has five: a <b>probation clause inside a PKWT</b> (Pasal 4) — under current rules probation belongs to PKWTT only <span class=\"ev ev-verify\">Verify</span> — asked as “boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”; a <b>bonus with no history</b> — “boleh saya tahu bagaimana bonus kinerja dibayarkan untuk posisi ini dalam dua tahun terakhir?”; <b>conversion promised only verbally</b> — “apakah pengangkatan menjadi karyawan tetap setelah 12 bulan dapat dicantumkan beserta kriterianya?”; the <b>“dapat diperpanjang” clause</b> — what happens at month twelve, and on what basis; and the <b>per-day allowance inside the headline</b> — a clarification that it is paid per day attended, so Nadia’s own figures are right. Bank Sinar has nothing wrong but two things missing: whether the housing allowance starts in the first month of an out-of-town placement, and when and how placement is decided. The bond is clean — separate, seen, decreasing Rp 2 juta a month, triggered by resignation only — and Rina’s question from 10.2 already has its answer: “berkurang”.",
+         "id": "KilatPay punya lima: <b>klausul percobaan di dalam PKWT</b> (Pasal 4) — di bawah aturan terkini percobaan hanya milik PKWTT <span class=\"ev ev-verify\">Verifikasi</span> — ditanyakan sebagai “boleh saya memahami dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu?”; <b>bonus tanpa riwayat</b> — “boleh saya tahu bagaimana bonus kinerja dibayarkan untuk posisi ini dalam dua tahun terakhir?”; <b>pengangkatan yang hanya dijanjikan lisan</b> — “apakah pengangkatan menjadi karyawan tetap setelah 12 bulan dapat dicantumkan beserta kriterianya?”; <b>klausul “dapat diperpanjang”</b> — apa yang terjadi di bulan dua belas, dan atas dasar apa; dan <b>tunjangan per hari di dalam angka utama</b> — klarifikasi bahwa ia dibayar per hari hadir, agar angka Nadia sendiri benar. Bank Sinar tidak punya yang salah tetapi dua hal yang hilang: apakah tunjangan perumahan dimulai di bulan pertama penempatan luar kota, dan kapan serta bagaimana penempatan diputuskan. Ikatan dinasnya bersih — terpisah, sudah dilihat, berkurang Rp 2 juta per bulan, dipicu pengunduran diri saja — dan pertanyaan Rina dari 10.2 sudah terjawab: “berkurang”."
+        },
+        {
+         "h": {
+          "en": "What to negotiate — and the email",
+          "id": "Yang dinegosiasikan — dan emailnya"
+         }
+        },
+        {
+         "en": "Bank Sinar is <b>fixed</b> — the letter says so — so Nadia makes no request on pay and sends two clarifications. KilatPay is <b>grade or band</b>: her range for the role is Rp 6,5–8 juta, the base is at 7,0, and her walk-away is set by a real alternative, a written Bank Sinar offer. Her top two priorities with KilatPay are security and then base, so the one request is the base toward Rp 7,5 juta with a reason — the internship reconciliation work and the market range — and the alternative, since the six-month review is already written, is conversion to PKWTT after twelve months with criteria, in writing. The email: “Yth. Ibu Dewi, terima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama kesempatan bekerja dengan tim Pak Aditya. Sebelum memberi jawaban, ada tiga hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu; (2) bagaimana bonus kinerja dibayarkan dua tahun terakhir; (3) apa yang terjadi di bulan kedua belas. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, pengalaman rekonsiliasi di tiga cabang selama magang dan kisaran pasar untuk posisi ini. Kalau gaji pokok sudah tetap, apakah pengangkatan menjadi karyawan tetap setelah 12 bulan, dengan kriterianya, dapat dicantumkan di surat? Saya juga sedang mempertimbangkan satu tawaran tertulis lain, dan ingin memberi jawaban sebelum Jumat depan. Apa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi. Hormat saya, Nadia Putri.” When to send it: <b>only if a yes could change her decision</b>. Step 5 shows it could not — so in practice Nadia sends the three questions without the request, decides, and does not ask KilatPay to move for an offer she will decline.",
+         "id": "Bank Sinar <b>tetap</b> — suratnya mengatakan begitu — jadi Nadia tidak meminta apa pun soal gaji dan mengirim dua klarifikasi. KilatPay <b>golongan atau pita</b>: rentangnya untuk peran ini Rp 6,5–8 juta, pokok di 7,0, dan titik mundurnya ditentukan alternatif nyata, tawaran tertulis Bank Sinar. Dua prioritas utamanya dengan KilatPay adalah keamanan lalu pokok, jadi satu permintaannya adalah pokok ke kisaran Rp 7,5 juta dengan alasan — pekerjaan rekonsiliasi saat magang dan kisaran pasar — dan alternatifnya, karena evaluasi enam bulan sudah tertulis, adalah pengangkatan ke PKWTT setelah dua belas bulan dengan kriteria, tertulis. Emailnya: “Yth. Ibu Dewi, terima kasih atas surat penawarannya; saya sangat tertarik dengan posisi ini, terutama kesempatan bekerja dengan tim Pak Aditya. Sebelum memberi jawaban, ada tiga hal yang ingin saya pahami: (1) dasar masa percobaan pada Pasal 4 untuk perjanjian waktu tertentu; (2) bagaimana bonus kinerja dibayarkan dua tahun terakhir; (3) apa yang terjadi di bulan kedua belas. Setelah saya pelajari, apakah ada ruang untuk gaji pokok di kisaran Rp7,5 juta? Pertimbangan saya, pengalaman rekonsiliasi di tiga cabang selama magang dan kisaran pasar untuk posisi ini. Kalau gaji pokok sudah tetap, apakah pengangkatan menjadi karyawan tetap setelah 12 bulan, dengan kriterianya, dapat dicantumkan di surat? Saya juga sedang mempertimbangkan satu tawaran tertulis lain, dan ingin memberi jawaban sebelum Jumat depan. Apa pun yang disepakati, mohon dapat dikonfirmasi di surat revisi. Hormat saya, Nadia Putri.” Kapan mengirimnya: <b>hanya jika “ya” bisa mengubah keputusannya</b>. Langkah 5 menunjukkan tidak bisa — jadi dalam praktik Nadia mengirim tiga pertanyaan tanpa permintaan, memutuskan, dan tidak meminta KilatPay bergerak untuk tawaran yang akan ia tolak."
+        },
+        {
+         "h": {
+          "en": "The matrix and the decision",
+          "id": "Matriks dan keputusannya"
+         }
+        },
+        {
+         "en": "Weights from her order, set first: learning 35, security 30, pay 20, location 15. <b>Bank Sinar</b>: learning 5 (twelve-month rotation, three units, a mentor) = 175; security 5 (PKWTT, a decreasing bond she has read) = 150; pay 3 (decoded close to KilatPay; higher if placed in Semarang) = 60; location 2 (anywhere) = 30; total <b>415</b>. <b>KilatPay</b>: learning 3 (a strong manager, but learning on the job with no structure) = 105; security 2 (a twelve-month PKWT, a probation question, conversion only verbal) = 60; pay 4 = 80; location 3 (Jakarta, away from home, but known) = 45; total <b>290</b>. The gap is 125. Sensitivity: conversion to PKWTT in writing would lift KilatPay’s security to perhaps 4 (+60, to 350); a Rp 500 ribu raise moves pay by at most one point (+20); both together reach 370 — still behind. The decision is robust: <b>Bank Sinar</b>. Two emails follow. The acceptance to Bank Sinar confirms the start date, the housing allowance from the first month of any out-of-town placement as clarified, and asks for the documents and onboarding. The decline to KilatPay goes the same day, after a call to Dewi, grateful and brief, with a line of thanks to Pak Aditya. Rina’s last note: write down, in one line, why — “saya memilih apa yang ingin saya pelajari dua tahun ke depan” — and keep it with the letter for month six.",
+         "id": "Bobot dari urutannya, ditetapkan lebih dulu: pembelajaran 35, keamanan 30, gaji 20, lokasi 15. <b>Bank Sinar</b>: pembelajaran 5 (rotasi dua belas bulan, tiga unit, mentor) = 175; keamanan 5 (PKWTT, ikatan dinas menurun yang sudah ia baca) = 150; gaji 3 (setelah diurai dekat dengan KilatPay; lebih tinggi jika ditempatkan di Semarang) = 60; lokasi 2 (di mana saja) = 30; total <b>415</b>. <b>KilatPay</b>: pembelajaran 3 (manajer kuat, tetapi belajar sambil bekerja tanpa struktur) = 105; keamanan 2 (PKWT dua belas bulan, pertanyaan percobaan, pengangkatan hanya lisan) = 60; gaji 4 = 80; lokasi 3 (Jakarta, jauh dari rumah, tetapi dikenal) = 45; total <b>290</b>. Selisihnya 125. Sensitivitas: pengangkatan ke PKWTT tertulis mungkin menaikkan keamanan KilatPay ke 4 (+60, menjadi 350); kenaikan Rp 500 ribu menggeser gaji paling banyak satu poin (+20); keduanya bersama mencapai 370 — tetap di belakang. Keputusannya kokoh: <b>Bank Sinar</b>. Dua email menyusul. Penerimaan ke Bank Sinar mengonfirmasi tanggal mulai, tunjangan perumahan sejak bulan pertama penempatan luar kota sebagaimana diklarifikasi, dan menanyakan dokumen dan onboarding. Penolakan ke KilatPay dikirim di hari yang sama, setelah menelepon Dewi, penuh terima kasih dan singkat, dengan satu baris terima kasih untuk Pak Aditya. Catatan terakhir Rina: tulis, dalam satu baris, alasannya — “saya memilih apa yang ingin saya pelajari dua tahun ke depan” — dan simpan bersama suratnya untuk bulan keenam."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If your decode put KilatPay Rp 20 juta a year ahead, check whether you counted the bonus at “up to two months” or left out rent. If you negotiated Bank Sinar’s base, re-read the line that says the package is the same for everyone. If your email to KilatPay asked for Rp 7,5 juta while Nadia had already decided to decline, that is the ask 10.3 warned against — a negotiation you would not accept is not a negotiation. A different decision is acceptable if your weights differ and were set first; a different decision with Nadia’s weights needs a sensitivity check that says why. Your own decode and prep sheet are now the Module 10 Kit item; Round 10 runs from them.",
+        "id": "Bandingkan, jangan salin. Jika uraianmu menaruh KilatPay Rp 20 juta setahun di depan, periksa apakah kamu menghitung bonus pada “hingga dua bulan” atau melupakan sewa. Jika kamu menegosiasikan pokok Bank Sinar, baca ulang baris yang mengatakan paketnya sama untuk semua orang. Jika emailmu ke KilatPay meminta Rp 7,5 juta padahal Nadia sudah memutuskan menolak, itulah permintaan yang diperingatkan 10.3 — negosiasi yang tidak akan kamu terima bukan negosiasi. Keputusan berbeda bisa diterima jika bobotmu berbeda dan ditetapkan lebih dulu; keputusan berbeda dengan bobot Nadia butuh uji sensitivitas yang menjelaskan alasannya. Uraian dan lembar persiapanmu kini butir Perangkat Modul 10; Putaran 10 berjalan darinya."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your five answers as Nadia would in month six, holding the letter: are the numbers on the same basis, were the questions asked before signing, was the request honest, were the weights written first? Submitting locks them on this device, opens the model answer, and files your offer decode and prep sheet as the Module 10 Kit item.",
+        "id": "Baca kelima jawabanmu seperti Nadia di bulan keenam, memegang suratnya: apakah angkanya dengan dasar sama, apakah pertanyaannya diajukan sebelum menandatangani, apakah permintaannya jujur, apakah bobotnya ditulis lebih dulu? Mengumpulkan menguncinya di perangkat ini, membuka jawaban model, dan mengarsipkan uraian tawaran dan lembar persiapanmu sebagai butir Perangkat Modul 10."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model answer, then run Round 10 — the offer conversation with the HR persona: salary, gross or take-home, other processes, the bond, the start date, and your closing questions.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan jawaban model, lalu jalankan Putaran 10 — percakapan tawaran dengan persona HR: gaji, kotor atau take-home, proses lain, ikatan dinas, tanggal mulai, dan pertanyaan penutupmu."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Comparing headlines",
+         "id": "Membandingkan angka utama"
+        },
+        "fix": {
+         "en": "Annual value on the same basis, with costs, and estimates labelled.",
+         "id": "Nilai tahunan dengan dasar sama, dengan biaya, dan estimasi diberi label."
+        }
+       },
+       {
+        "h": {
+         "en": "Counting “up to” as the bonus",
+         "id": "Menghitung “hingga” sebagai bonus"
+        },
+        "fix": {
+         "en": "No history, count zero; with history, half the average.",
+         "id": "Tanpa riwayat, hitung nol; dengan riwayat, setengah rata-rata."
+        }
+       },
+       {
+        "h": {
+         "en": "Negotiating a fixed programme",
+         "id": "Menegosiasikan program tetap"
+        },
+        "fix": {
+         "en": "Clarify instead; the letter says the package is the same for all.",
+         "id": "Klarifikasi sebagai gantinya; surat mengatakan paketnya sama untuk semua."
+        }
+       },
+       {
+        "h": {
+         "en": "Negotiating an offer you will decline",
+         "id": "Menegosiasikan tawaran yang akan kamu tolak"
+        },
+        "fix": {
+         "en": "Ask the questions, decide, and decline gracefully.",
+         "id": "Ajukan pertanyaannya, putuskan, dan tolak dengan santun."
+        }
+       },
+       {
+        "h": {
+         "en": "Weights chosen after the scores",
+         "id": "Bobot dipilih setelah nilai"
+        },
+        "fix": {
+         "en": "Nadia’s order first, then scores with evidence, then sensitivity.",
+         "id": "Urutan Nadia dulu, lalu nilai dengan bukti, lalu sensitivitas."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Offer decode",
+        "id": "Urai tawaran"
+       },
+       "def": {
+        "en": "Components, gross and take-home, annual value on a stated basis, and the clauses to ask about — the Module 10 Kit item with the prep sheet.",
+        "id": "Komponen, kotor dan take-home, nilai tahunan dengan dasar yang dinyatakan, dan klausul yang perlu ditanyakan — butir Perangkat Modul 10 bersama lembar persiapan."
+       }
+      },
+      {
+       "term": {
+        "en": "Conservative basis",
+        "id": "Dasar konservatif"
+       },
+       "def": {
+        "en": "Counting only what is likely: fixed pay in THR, bonuses by history not by “up to”, variable allowances labelled, costs subtracted.",
+        "id": "Menghitung hanya yang mungkin: gaji tetap di THR, bonus menurut riwayat bukan “hingga”, tunjangan tidak tetap diberi label, biaya dikurangkan."
+       }
+      },
+      {
+       "term": {
+        "en": "Robust decision",
+        "id": "Keputusan kokoh"
+       },
+       "def": {
+        "en": "One that survives any single plausible change in the matrix — conversion in writing, a Rp 500 ribu raise.",
+        "id": "Keputusan yang bertahan terhadap satu perubahan wajar apa pun di matriks — pengangkatan tertulis, kenaikan Rp 500 ribu."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "KilatPay’s headline is Rp 8,2 juta; Rp 1,2 juta of it is a per-day transport and meal allowance. For THR and a conservative comparison you…",
+        "id": "Angka utama KilatPay Rp 8,2 juta; Rp 1,2 juta darinya tunjangan transport dan makan per hari. Untuk THR dan perbandingan konservatif kamu…"
+       },
+       "options": [
+        {
+         "en": "Use Rp 8,2 juta for everything",
+         "id": "Memakai Rp 8,2 juta untuk semuanya"
+        },
+        {
+         "en": "Base THR on the fixed pay and label the allowance variable",
+         "id": "Mendasarkan THR pada gaji tetap dan memberi label tunjangan sebagai tidak tetap"
+        },
+        {
+         "en": "Ignore the allowance",
+         "id": "Mengabaikan tunjangan"
+        },
+        {
+         "en": "Ask for the allowance to be removed",
+         "id": "Meminta tunjangan dihapus"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Variable allowances tied to attendance are not guaranteed and may not count toward THR (verify).",
+        "id": "Tunjangan tidak tetap yang terkait kehadiran tidak dijamin dan mungkin tidak dihitung dalam THR (verifikasi)."
+       }
+      },
+      {
+       "q": {
+        "en": "Bank Sinar’s letter says the package is the same for the whole intake. Nadia should…",
+        "id": "Surat Bank Sinar mengatakan paketnya sama untuk seluruh angkatan. Nadia sebaiknya…"
+       },
+       "options": [
+        {
+         "en": "Ask for Rp 7,5 juta",
+         "id": "Meminta Rp 7,5 juta"
+        },
+        {
+         "en": "Mention KilatPay’s headline to force a raise",
+         "id": "Menyebut angka utama KilatPay untuk memaksa kenaikan"
+        },
+        {
+         "en": "Make no pay request and clarify housing and placement instead",
+         "id": "Tidak meminta soal gaji dan mengklarifikasi perumahan dan penempatan sebagai gantinya"
+        },
+        {
+         "en": "Decline without asking anything",
+         "id": "Menolak tanpa bertanya apa pun"
+        }
+       ],
+       "correct": 2,
+       "why": {
+        "en": "Fixed pay has no room; clarifications are the useful questions.",
+        "id": "Gaji tetap tak punya ruang; klarifikasi adalah pertanyaan yang berguna."
+       }
+      },
+      {
+       "q": {
+        "en": "Nadia’s matrix gives Bank Sinar 415 and KilatPay 290; conversion in writing would add 60 to KilatPay and a Rp 500 ribu raise at most 20. The decision is…",
+        "id": "Matriks Nadia memberi Bank Sinar 415 dan KilatPay 290; pengangkatan tertulis menambah 60 untuk KilatPay dan kenaikan Rp 500 ribu paling banyak 20. Keputusannya…"
+       },
+       "options": [
+        {
+         "en": "Tied — negotiate hard with KilatPay",
+         "id": "Seri — negosiasi keras dengan KilatPay"
+        },
+        {
+         "en": "Robust — Bank Sinar; ask KilatPay the questions but do not negotiate an offer she will decline",
+         "id": "Kokoh — Bank Sinar; tanyakan pertanyaannya ke KilatPay tetapi jangan negosiasikan tawaran yang akan ia tolak"
+        },
+        {
+         "en": "KilatPay, because its headline is higher",
+         "id": "KilatPay, karena angka utamanya lebih tinggi"
+        },
+        {
+         "en": "Impossible without more offers",
+         "id": "Mustahil tanpa tawaran lain"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Even both changes reach 370, still behind 415; a request she would not accept wastes their time.",
+        "id": "Bahkan kedua perubahan mencapai 370, tetap di belakang 415; permintaan yang tidak akan ia terima membuang waktu mereka."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "hr06",
+      "set": [
+       "hr06",
+       "elig_salary_gross",
+       "elig_other_processes",
+       "elig_service_bond",
+       "elig_start_date",
+       "mot_leave_first_year",
+       "close_any_questions"
+      ],
+      "persona": "hr",
+      "profile": "eligibility",
+      "probes": 2,
+      "returnTo": 5,
+      "label": {
+       "en": "Round 10 · The offer conversation (seven prompts)",
+       "id": "Putaran 10 · Percakapan tawaran (tujuh soal)"
+      },
+      "desc": {
+       "en": "The offer conversation with the HR persona, two probes each: salary expectation, gross or take-home, other processes, the bond, the start date, whether you might leave in the first year, and your closing questions. Use your prep sheet: one reasoned request or a clarification by pay style, the pause, an alternative, a truthful answer about other offers, and written confirmation. The blueprint’s Negotiation Practice tool, with recruiter modes for fixed, grade and negotiable pay, and its Offer Decoder are not yet built; the decode and prep sheet are in Lessons 10.1 and 10.3.",
+       "id": "Percakapan tawaran dengan persona HR, dua galian masing-masing: ekspektasi gaji, kotor atau take-home, proses lain, ikatan dinas, tanggal mulai, apakah kamu mungkin keluar di tahun pertama, dan pertanyaan penutupmu. Pakai lembar persiapanmu: satu permintaan beralasan atau klarifikasi menurut gaya gaji, jeda, alternatif, jawaban jujur tentang tawaran lain, dan konfirmasi tertulis. Alat Negotiation Practice cetak biru, dengan mode rekruter untuk gaji tetap, golongan, dan bisa dinegosiasikan, dan Offer Decoder-nya belum dibangun; uraian dan lembar persiapan ada di Pelajaran 10.1 dan 10.3."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 10 and the six negotiation checks",
+       "id": "Putaran 10 dan enam pemeriksaan negosiasi"
+      },
+      "body": {
+       "en": "After Round 10, read the salary and bond answers in the session history against the blueprint’s negotiation debrief: was the request clear, was a reason given, did you let the pause stand, did you explore an alternative, was the tone grateful, and did you ask for written confirmation? Mark each yes or no; the one that is no is next week’s drill.",
+       "id": "Setelah Putaran 10, baca jawaban gaji dan ikatan dinas di riwayat sesi terhadap debrief negosiasi cetak biru: apakah permintaannya jelas, apakah alasan diberikan, apakah kamu membiarkan jeda berdiri, apakah kamu menjelajahi alternatif, apakah nadanya penuh terima kasih, dan apakah kamu meminta konfirmasi tertulis? Tandai masing-masing ya atau tidak; yang tidak adalah latihan minggu depan."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Put both offers on the same conservative basis before believing any headline.",
+       "id": "Taruh kedua tawaran pada dasar konservatif yang sama sebelum memercayai angka utama mana pun."
+      },
+      {
+       "en": "Ask every red flag as a written question; negotiate only where the pay style gives room, and only an offer you would accept.",
+       "id": "Ajukan setiap tanda bahaya sebagai pertanyaan tertulis; bernegosiasi hanya di mana gaya gaji memberi ruang, dan hanya tawaran yang akan kamu terima."
+      },
+      {
+       "en": "Weights first, scores with evidence, sensitivity last — then accept in writing and decline the same day.",
+       "id": "Bobot dulu, nilai dengan bukti, sensitivitas terakhir — lalu terima tertulis dan tolak di hari yang sama."
+      }
+     ],
      "journey": {
       "before": {
        "label": {
-        "en": "Module 9 · rehearsed",
-        "id": "Modul 9 · terlatih"
+        "en": "Lessons 10.1–10.4",
+        "id": "Pelajaran 10.1–10.4"
        },
        "desc": {
-        "en": "You performed under real conditions and the offer arrived.",
-        "id": "Kamu tampil dalam kondisi nyata dan tawarannya datang."
+        "en": "Reading an offer, contracts and bonds, whether and how to negotiate, deciding, accepting and declining.",
+        "id": "Membaca tawaran, kontrak dan ikatan dinas, perlu tidaknya dan cara bernegosiasi, memutuskan, menerima, dan menolak."
        }
       },
       "now": {
        "label": {
-        "en": "Module 10 · the deal, understood",
-        "id": "Modul 10 · kesepakatan yang dipahami"
+        "en": "10.5 · Nadia’s two offers",
+        "id": "10.5 · Dua tawaran Nadia"
        },
        "desc": {
-        "en": "Total compensation, triangulated data, a fifteen-minute conversation and a letter inspected in four zones.",
-        "id": "Kompensasi total, data yang ditriangulasi, percakapan lima belas menit, dan surat yang diperiksa dalam empat zona."
+        "en": "You have decoded two offers to annual value, turned the red flags into questions, decided what to negotiate by pay style, written the email, built the matrix, and filed your own decode and prep sheet.",
+        "id": "Kamu sudah mengurai dua tawaran ke nilai tahunan, mengubah tanda bahaya menjadi pertanyaan, memutuskan yang dinegosiasikan menurut gaya gaji, menulis email, membangun matriks, dan mengarsipkan uraian dan lembar persiapanmu sendiri."
        }
       },
       "next": {
        "label": {
-        "en": "Module 11 · the first ninety days",
-        "id": "Modul 11 · sembilan puluh hari pertama"
+        "en": "Module 11 · The First 90 Days",
+        "id": "Modul 11 · 90 Hari Pertama"
        },
        "desc": {
-        "en": "Listen and map, contribute visibly, own a lane — and pass probation on evidence.",
-        "id": "Dengarkan dan petakan, berkontribusi secara terlihat, miliki satu jalur — dan lolos masa percobaan berdasarkan bukti."
+        "en": "What probation actually evaluates, a 30/60/90-day plan, relationships and early mistakes, and the evidence log that feeds your first review — and your next Story Bank.",
+        "id": "Apa yang sebenarnya dievaluasi masa percobaan, rencana 30/60/90 hari, hubungan dan kesalahan awal, dan log bukti yang mengisi evaluasi pertamamu — dan Bank Ceritamu berikutnya."
        },
        "lesson": "11.1"
       }
-     },
-     "migratedFrom": "the-rope:8.4"
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-08-offer.jpg",
-   "heroPos": "center 30%"
+   "heroPos": "center 30%",
+   "round": {
+    "en": "Round 10 · The offer conversation — seven prompts with the HR persona, two probes each: salary expectation, gross or take-home, other processes, the bond, the start date, leaving in the first year, and your closing questions; the debrief adds the six negotiation checks — a clear request, a reason, the pause, an alternative, a grateful tone, written confirmation. The blueprint’s Negotiation Practice tool and Offer Decoder are not yet built.",
+    "id": "Putaran 10 · Percakapan tawaran — tujuh soal dengan persona HR, dua galian masing-masing: ekspektasi gaji, kotor atau take-home, proses lain, ikatan dinas, tanggal mulai, keluar di tahun pertama, dan pertanyaan penutupmu; debrief menambahkan enam pemeriksaan negosiasi — permintaan jelas, alasan, jeda, alternatif, nada penuh terima kasih, konfirmasi tertulis. Alat Negotiation Practice dan Offer Decoder cetak biru belum dibangun."
+   }
   },
   {
    "num": 11,
