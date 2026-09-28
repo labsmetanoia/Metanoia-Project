@@ -1801,129 +1801,251 @@ window.MT_ASSESS['the-rope'] = {
   }
  },
  "7": {
-  "mcq": [
+  "minutes": 10,
+  "blueprint": [
    {
-    "type": "know",
-    "q": {
-     "en": "The deliberate-practice loop the simulator implements is:",
-     "id": "Putaran latihan terarah yang dijalankan simulator adalah:"
+    "lesson": "7.1",
+    "h": {
+     "en": "How Group Discussions Are Scored",
+     "id": "Bagaimana Diskusi Kelompok Dinilai"
     },
-    "opts": [
-     {
-      "en": "Watch → memorise → repeat",
-      "id": "Tonton → hafalkan → ulangi"
-     },
-     {
-      "en": "Prepare → Practice → Review → Improve, with the weakest dimension configuring the next session",
-      "id": "Prepare → Practice → Review → Improve, dengan dimensi terlemah menentukan sesi berikutnya"
-     },
-     {
-      "en": "Test → grade → rank",
-      "id": "Tes → nilai → peringkat"
-     },
-     {
-      "en": "Record → upload → share",
-      "id": "Rekam → unggah → bagikan"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Practice without review is repetition; review without the next session is theory. The loop closes when the debrief changes the next attempt.",
-     "id": "Latihan tanpa tinjauan hanyalah pengulangan; tinjauan tanpa sesi berikutnya hanyalah teori. Putarannya baru tertutup ketika debrief mengubah percobaan berikutnya."
+    "sub": {
+     "en": "Formats, what assessors observe, the scorecard with anchors, the three myths, quality events not minutes.",
+     "id": "Format, yang diamati asesor, kartu skor dengan jangkar, tiga mitos, peristiwa berkualitas bukan menit."
     }
    },
    {
-    "type": "scen",
-    "q": {
-     "en": "Your debrief shows strong content but rambling delivery (wpm high, structure markers missing). The next session should:",
-     "id": "Debrief-mu menunjukkan isi yang kuat tapi penyampaian yang melantur (kata per menit tinggi, penanda struktur tidak ada). Sesi berikutnya sebaiknya:"
+    "lesson": "7.2",
+    "h": {
+     "en": "Contributing Well — Roles, Moves and Phrases",
+     "id": "Berkontribusi dengan Baik — Peran, Langkah, dan Frasa"
     },
-    "opts": [
-     {
-      "en": "Add harder questions",
-      "id": "Menambah pertanyaan yang lebih sulit"
-     },
-     {
-      "en": "Drill the same questions with a structure emphasis — signposted answers, capped length",
-      "id": "Melatih pertanyaan yang sama dengan penekanan pada struktur — jawaban dengan penanda arah yang jelas, panjangnya dibatasi"
-     },
-     {
-      "en": "Switch to typing answers",
-      "id": "Beralih ke jawaban yang diketik"
-     },
-     {
-      "en": "Take a week off to reset",
-      "id": "Libur seminggu untuk menyegarkan diri"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Improve means targeting the weakest dimension, not accumulating volume. Same material, one emphasis, measurable delta.",
-     "id": "Improve berarti membidik dimensi yang paling lemah, bukan menumpuk volume. Materi yang sama, satu penekanan, selisih yang terukur."
+    "sub": {
+     "en": "Six roles, the phrase bank, split-sheet notes, three interventions for quieter candidates, online and Indonesian dynamics.",
+     "id": "Enam peran, bank frasa, catatan lembar terbagi, tiga intervensi untuk kandidat pendiam, dinamika daring dan Indonesia."
     }
    },
    {
-    "type": "know",
-    "q": {
-     "en": "Why does The Rope refuse to fake body-language scores from your camera?",
-     "id": "Mengapa The Rope menolak memalsukan skor bahasa tubuh dari kameramu?"
+    "lesson": "7.3",
+    "h": {
+     "en": "In-Tray, Role-Play and Presentation Exercises",
+     "id": "Latihan In-Tray, Role-Play, dan Presentasi"
     },
-    "opts": [
-     {
-      "en": "Cameras are too low-resolution",
-      "id": "Resolusi kamera terlalu rendah"
-     },
-     {
-      "en": "Honest instrumentation: pixel-based emotion claims are pseudo-science, so presence is self-reviewed against a guided checklist instead",
-      "id": "Instrumen yang jujur: klaim membaca emosi dari piksel adalah pseudo-sains, jadi kehadiranmu ditinjau sendiri lewat daftar periksa terpandu"
-     },
-     {
-      "en": "Privacy law forbids all video analysis",
-      "id": "Hukum privasi melarang semua analisis video"
-     },
-     {
-      "en": "It would slow the simulator down",
-      "id": "Itu akan memperlambat simulator"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "Replaying your own recording against a guided self-review is also better pedagogy — you build the evaluator you will need for life.",
-     "id": "Memutar ulang rekamanmu sendiri dengan panduan tinjauan diri juga secara pedagogis lebih baik — kamu membangun penilai internal yang akan kamu butuhkan seumur hidup."
-    }
-   },
-   {
-    "type": "scen",
-    "q": {
-     "en": "A tool promises live whispered answers during real interviews. The Rope's position:",
-     "id": "Sebuah alat menjanjikan bisikan jawaban secara langsung selama wawancara sungguhan. Sikap The Rope:"
-    },
-    "opts": [
-     {
-      "en": "Useful if undetectable",
-      "id": "Berguna, asal tidak terdeteksi"
-     },
-     {
-      "en": "Refused: it corrupts the evaluation, violates policies, builds dependence, and prepares you for nothing",
-      "id": "Ditolak: ia merusak evaluasi, melanggar kebijakan, membangun ketergantungan, dan tidak menyiapkanmu untuk apa pun"
-     },
-     {
-      "en": "Acceptable for very hard interviews",
-      "id": "Bisa diterima untuk wawancara yang sangat sulit"
-     },
-     {
-      "en": "Fine if disclosed afterwards",
-      "id": "Boleh, asal diungkapkan setelahnya"
-     }
-    ],
-    "correct": 1,
-    "expl": {
-     "en": "The simulator prepares you before the interview; concealed assistance during it makes the employer's decision measure the tool, not the person.",
-     "id": "Simulator menyiapkanmu sebelum wawancara; bantuan tersembunyi di tengah wawancara membuat keputusan pemberi kerja mengukur alatnya, bukan orangnya."
+    "sub": {
+     "en": "The in-tray method, the role-play protocol, prep in thirds, the assessment-centre day and the wash-up.",
+     "id": "Metode in-tray, protokol role-play, persiapan sepertiga, hari assessment center dan wash-up."
     }
    }
   ],
-  "reflect": null
+  "mcq": [
+   {
+    "type": "know",
+    "lesson": "7.1",
+    "q": {
+     "en": "Assessors in a group discussion tally…",
+     "id": "Asesor dalam diskusi kelompok menghitung…"
+    },
+    "opts": [
+     {
+      "en": "Minutes of airtime",
+      "id": "Menit waktu bicara"
+     },
+     {
+      "en": "Quality events against behavioural anchors — structure, builds by name, invitations, syntheses — and anti-behaviours",
+      "id": "Peristiwa berkualitas terhadap jangkar perilaku — struktur, membangun dengan nama, undangan, sintesis — dan anti-perilaku"
+     },
+     {
+      "en": "Who reached the right answer",
+      "id": "Siapa yang mencapai jawaban benar"
+     },
+     {
+      "en": "Who was chosen as leader",
+      "id": "Siapa yang dipilih sebagai pemimpin"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The topic is a prop; eight strong seconds outscore eight minutes of filler.",
+     "id": "Topiknya properti; delapan detik kuat mengalahkan delapan menit pengisi."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.1",
+    "q": {
+     "en": "A candidate stays silent for the whole discussion while thinking hard. On the scorecard they…",
+     "id": "Seorang kandidat diam sepanjang diskusi sambil berpikir keras. Di kartu skor mereka…"
+    },
+    "opts": [
+     {
+      "en": "Score neutrally — no mistakes",
+      "id": "Skor netral — tanpa kesalahan"
+     },
+     {
+      "en": "Score 1 on every dimension — no evidence is a low score, not a safe one",
+      "id": "Skor 1 di setiap dimensi — tanpa bukti adalah skor rendah, bukan aman"
+     },
+     {
+      "en": "Score high on Composure",
+      "id": "Skor tinggi di Ketenangan"
+     },
+     {
+      "en": "Are scored at the wash-up from the interview",
+      "id": "Dinilai di wash-up dari wawancara"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Silence is the least safe position in the room; plan the first contribution for minute two.",
+     "id": "Diam adalah posisi paling tidak aman di ruangan; rencanakan kontribusi pertama untuk menit dua."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.2",
+    "q": {
+     "en": "Someone proposes cutting the marketing budget entirely. The turn that scores four tallies is…",
+     "id": "Seseorang mengusulkan memangkas anggaran pemasaran seluruhnya. Giliran yang mendapat empat hitungan adalah…"
+    },
+    "opts": [
+     {
+      "en": "“Itu nggak masuk akal — seperti yang saya bilang tadi…”",
+      "id": "“Itu nggak masuk akal — seperti yang saya bilang tadi…”"
+     },
+     {
+      "en": "Credit the idea, bring a number from the brief, offer a testable middle as a question, and hand the floor onward by name",
+      "id": "Hargai gagasannya, bawa angka dari brief, tawarkan jalan tengah yang bisa diuji sebagai pertanyaan, dan serahkan lantai dengan nama"
+     },
+     {
+      "en": "Stay silent to avoid conflict",
+      "id": "Diam untuk menghindari konflik"
+     },
+     {
+      "en": "Call a vote",
+      "id": "Ajak voting"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "Contribution, Composure, Influence and Collaboration in one turn, with zero heat.",
+     "id": "Kontribusi, Ketenangan, Pengaruh, dan Kolaborasi dalam satu giliran, tanpa panas."
+    }
+   },
+   {
+    "type": "know",
+    "lesson": "7.2",
+    "q": {
+     "en": "The split sheet’s third column — open decisions — exists so that…",
+     "id": "Kolom ketiga lembar terbagi — keputusan terbuka — ada agar…"
+    },
+    "opts": [
+     {
+      "en": "You can record who interrupted",
+      "id": "Kamu bisa mencatat siapa yang menyela"
+     },
+     {
+      "en": "The summary at minus five minutes can be read from it: agreed, open, condition",
+      "id": "Rangkuman di lima menit terakhir bisa dibaca darinya: disepakati, terbuka, syarat"
+     },
+     {
+      "en": "You can vote",
+      "id": "Kamu bisa memilih"
+     },
+     {
+      "en": "Assessors can check your notes",
+      "id": "Asesor bisa memeriksa catatanmu"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The summary is the highest-scoring twenty seconds in the format and is impossible from memory.",
+     "id": "Rangkuman adalah dua puluh detik paling bernilai dalam format ini dan mustahil dari ingatan."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.3",
+    "q": {
+     "en": "Twelve in-tray items, thirty minutes, and item one is an urgent request from your boss. You…",
+     "id": "Dua belas butir in-tray, tiga puluh menit, dan butir satu adalah permintaan mendesak dari atasanmu. Kamu…"
+    },
+    "opts": [
+     {
+      "en": "Answer it in full first",
+      "id": "Menjawabnya secara penuh lebih dulu"
+     },
+     {
+      "en": "Skim all twelve first with a one-line note each, then classify and find the linked items — the boss’s request may contradict a policy memo further down",
+      "id": "Memindai kedua belasnya dulu dengan catatan satu baris masing-masing, lalu klasifikasi dan temukan butir terkait — permintaan atasan mungkin bertentangan dengan memo kebijakan di bawah"
+     },
+     {
+      "en": "Delegate everything",
+      "id": "Mendelegasikan semuanya"
+     },
+     {
+      "en": "Sort by sender",
+      "id": "Mengurutkan per pengirim"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The items are designed to interact; the planted links carry most of the score.",
+     "id": "Butir-butirnya dirancang saling berinteraksi; kaitan yang ditanam membawa sebagian besar skor."
+    }
+   },
+   {
+    "type": "scen",
+    "lesson": "7.3",
+    "q": {
+     "en": "In a role-play the actor playing an upset customer raises their voice. The scored response is…",
+     "id": "Dalam role-play aktor yang memerankan pelanggan kesal meninggikan suara. Respons yang dinilai adalah…"
+    },
+    "opts": [
+     {
+      "en": "Explaining the system update that caused it",
+      "id": "Menjelaskan pembaruan sistem yang menyebabkannya"
+     },
+     {
+      "en": "A level voice, listening to the end, a question about what matters most to them, and an agreement with a time and a named contact",
+      "id": "Suara datar, mendengar sampai selesai, pertanyaan tentang apa yang paling penting bagi mereka, dan kesepakatan dengan waktu dan kontak bernama"
+     },
+     {
+      "en": "Stepping out of role to discuss the exercise",
+      "id": "Keluar dari peran untuk membahas latihan"
+     },
+     {
+      "en": "Promising a full refund immediately",
+      "id": "Menjanjikan pengembalian dana penuh segera"
+     }
+    ],
+    "correct": 1,
+    "expl": {
+     "en": "The escalation is scripted to test composure and listening; the workable agreement is the outcome.",
+     "id": "Eskalasi bernaskah untuk menguji ketenangan dan mendengarkan; kesepakatan yang bisa dijalankan adalah hasilnya."
+    }
+   }
+  ],
+  "reflect": {
+   "prompt": {
+    "en": "At least 100 words. Name the one or two roles you will own in a group discussion and why they fit how you think, and write your first intervention word for word in Indonesian. Then name the anti-behaviour you are most likely to produce under pressure — interrupting, repeating, hedging, going silent, going off on a tangent — and the phrase from the bank that replaces it. Finish with the two questions you will ask the recruiter about the assessment-centre day.",
+    "id": "Minimal 100 kata. Sebutkan satu atau dua peran yang akan kamu miliki dalam diskusi kelompok dan mengapa cocok dengan cara berpikirmu, dan tulis intervensi pertamamu kata demi kata dalam bahasa Indonesia. Lalu sebutkan anti-perilaku yang paling mungkin kamu hasilkan di bawah tekanan — menyela, mengulang, kata pengaman, diam, melantur — dan frasa dari bank yang menggantikannya. Akhiri dengan dua pertanyaan yang akan kamu ajukan ke rekruter tentang hari assessment center."
+   },
+   "guide": [
+    {
+     "en": "At least one of the two roles should be a landing role — Timekeeper or Summariser.",
+     "id": "Setidaknya satu dari dua peran harus peran mendaratkan — Penjaga waktu atau Perangkum."
+    },
+    {
+     "en": "The first intervention is offered as a question and names a criterion or a time split.",
+     "id": "Intervensi pertama ditawarkan sebagai pertanyaan dan menyebut kriteria atau pembagian waktu."
+    },
+    {
+     "en": "The replacement phrase names a person or a number.",
+     "id": "Frasa pengganti menyebut orang atau angka."
+    }
+   ],
+   "min": 100
+  }
  },
  "8": {
   "mcq": [
