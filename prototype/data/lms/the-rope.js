@@ -30068,857 +30068,1525 @@ window.MT_LMS['the-rope'] = {
    "lessons": [
     {
      "n": "7.1",
-     "title": {
-      "en": "Overview of FGD and LGD — What Assessors Are Evaluating",
-      "id": "Gambaran Umum FGD dan LGD — Apa yang Sebenarnya Dinilai Asesor"
-     },
-     "dur": {
-      "en": "20 min",
-      "id": "20 mnt"
-     },
      "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "35 min",
+      "id": "35 mnt"
+     },
+     "title": {
+      "en": "How Group Discussions Are Scored",
+      "id": "Bagaimana Diskusi Kelompok Dinilai"
+     },
      "overview": {
-      "en": "In a group discussion, the topic is a prop. Assessors are not grading your answer to the case; they are scoring observable behaviours against a rubric — and the behaviours that score are learnable by Thursday. This lesson shows you the scoresheet.",
-      "id": "Dalam diskusi kelompok, topik hanyalah properti panggung. Asesor tidak menilai jawabanmu atas kasusnya; mereka menskor perilaku yang bisa diamati, berdasarkan rubrik — dan perilaku yang menghasilkan skor itu bisa kamu pelajari sebelum hari Kamis. Pelajaran ini memperlihatkan lembar skornya kepadamu."
+      "en": "In a group discussion the topic is a prop. Assessors are not grading your answer to the case; they are scoring observable behaviours against a rubric, and those behaviours are learnable. This lesson gives you the formats you will meet — leaderless and focus group discussions, assigned-role discussions, cooperative and competitive tasks — what assessors actually observe, the scorecard with its behavioural anchors from one to four, and the three myths that sink good candidates: that talking most wins, that you must be the leader, and that silence is safe. The airtime economics from the current Rope are retained: assessors tally quality events, not minutes.",
+      "id": "Dalam diskusi kelompok, topiknya hanya properti. Asesor tidak menilai jawabanmu atas kasus; mereka menilai perilaku yang dapat diamati terhadap rubrik, dan perilaku itu bisa dipelajari. Pelajaran ini memberimu format yang akan kamu temui — diskusi kelompok tanpa pemimpin dan diskusi kelompok terarah, diskusi dengan peran yang ditetapkan, tugas kooperatif dan kompetitif — apa yang sebenarnya diamati asesor, kartu skor dengan jangkar perilakunya dari satu sampai empat, dan tiga mitos yang menenggelamkan kandidat baik: bahwa yang paling banyak bicara menang, bahwa kamu harus jadi pemimpin, dan bahwa diam itu aman. Ekonomi waktu bicara dari The Rope saat ini dipertahankan: asesor menghitung peristiwa berkualitas, bukan menit."
      },
      "objectives": [
       {
-       "en": "Distinguish FGD from LGD formats and what each emphasises.",
-       "id": "Membedakan format FGD dan LGD, serta apa yang ditekankan masing-masing."
+       "en": "Tell the four group-discussion formats apart and know what each one is testing.",
+       "id": "Membedakan empat format diskusi kelompok dan tahu apa yang diuji masing-masing."
       },
       {
-       "en": "List the six scored behaviours and the anti-behaviours that cost points.",
-       "id": "Menyebutkan enam perilaku yang diskor, dan perilaku-perilaku sebaliknya yang menggerus poin."
+       "en": "Name the eight behaviours assessors observe and recognise each one in a transcript.",
+       "id": "Menyebut delapan perilaku yang diamati asesor dan mengenali masing-masing dalam transkrip."
       },
       {
-       "en": "Explain why airtime quantity is scored near zero and airtime quality near everything.",
-       "id": "Menjelaskan mengapa banyaknya waktu bicara nyaris tidak dihitung, sementara mutunya nyaris menentukan segalanya."
+       "en": "Score a contribution on the GD scorecard using the behavioural anchors, not impressions.",
+       "id": "Menilai kontribusi pada kartu skor DK dengan jangkar perilaku, bukan kesan."
+      },
+      {
+       "en": "Reject the three myths and replace them with the quality-events target.",
+       "id": "Menolak tiga mitos dan menggantinya dengan target peristiwa berkualitas."
       }
      ],
-     "takeawaysLead": {
-      "en": "In a group discussion the topic is a prop and the behaviours are the score. To play to the scoresheet, you can:",
-      "id": "Dalam diskusi kelompok, topiknya hanyalah properti panggung dan perilakulah yang dinilai. Untuk bermain sesuai lembar penilaian, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "The topic is a prop",
+       "id": "Topiknya hanya properti"
+      },
+      "intro": {
+       "en": "Two or three silent assessors with clipboards are not writing down who was right. They are ticking behaviours. Learn the list and the discussion becomes a place to show them.",
+       "id": "Dua atau tiga asesor diam dengan papan jalan tidak mencatat siapa yang benar. Mereka mencentang perilaku. Pelajari daftarnya dan diskusi menjadi tempat menunjukkannya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Formats",
+         "id": "Format"
+        },
+        "points": [
+         {
+          "en": "Leaderless (LGD): no roles, the absence of a leader is the test. Focus (FGD): a topic or case. Assigned roles: each has a brief and interests. Cooperative versus competitive: ranking, budget allocation.",
+          "id": "Tanpa pemimpin (LGD): tanpa peran, ketiadaan pemimpin adalah ujiannya. Terarah (FGD): topik atau kasus. Peran ditetapkan: masing-masing punya brief dan kepentingan. Kooperatif versus kompetitif: pemeringkatan, alokasi anggaran."
+         },
+         {
+          "en": "Six to ten candidates, twenty to forty minutes, two or three silent assessors.",
+          "id": "Enam hingga sepuluh kandidat, dua puluh hingga empat puluh menit, dua atau tiga asesor diam."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "What is observed",
+         "id": "Yang diamati"
+        },
+        "points": [
+         {
+          "en": "Contribution quality · listening and building · influence without dominating · structuring · time management · drawing in quiet members · reaching a decision · composure under disagreement.",
+          "id": "Kualitas kontribusi · mendengar dan membangun · pengaruh tanpa mendominasi · menstruktur · manajemen waktu · menarik anggota pendiam · mencapai keputusan · ketenangan saat berselisih."
+         },
+         {
+          "en": "Each is a behaviour someone can see and tally.",
+          "id": "Masing-masing perilaku yang bisa dilihat dan dihitung seseorang."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The scorecard",
+         "id": "Kartu skor"
+        },
+        "points": [
+         {
+          "en": "Each dimension one to four, with behavioural anchors. Collaboration 4: “explicitly builds on others’ points by name, invites quiet members, helps the group converge”.",
+          "id": "Tiap dimensi satu sampai empat, dengan jangkar perilaku. Kolaborasi 4: “secara eksplisit membangun poin orang lain dengan nama, mengundang anggota pendiam, membantu kelompok mengerucut”."
+         },
+         {
+          "en": "No evidence means a low score, not a neutral one.",
+          "id": "Tanpa bukti berarti skor rendah, bukan netral."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Myths",
+         "id": "Mitos"
+        },
+        "points": [
+         {
+          "en": "Talking most wins (dominating scores poorly on collaboration). The leader title is required (structuring and summarising score without it). Silence is safe (no evidence, low scores).",
+          "id": "Paling banyak bicara menang (mendominasi buruk di kolaborasi). Gelar pemimpin wajib (menstruktur dan merangkum dapat nilai tanpanya). Diam itu aman (tanpa bukti, skor rendah)."
+         },
+         {
+          "en": "Target: four to six quality contributions in thirty minutes, at least one each from structure, inclusion and synthesis.",
+          "id": "Target: empat hingga enam kontribusi berkualitas dalam tiga puluh menit, setidaknya satu masing-masing dari struktur, inklusi, dan sintesis."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Assessors track behaviours with tallies: contributions that advance, invitations to others, structure moves, summary moves.",
-       "id": "Asesor mencatat perilaku dengan turus: kontribusi yang memajukan diskusi, ajakan kepada orang lain, langkah menata struktur, langkah merangkum."
-      },
-      {
-       "en": "Dominating a discussion scores worse than balanced contribution — the loudest candidate is usually the first cut.",
-       "id": "Mendominasi diskusi mendapat skor lebih buruk daripada berkontribusi secara seimbang — kandidat yang paling nyaring biasanya yang pertama dicoret."
-      },
-      {
-       "en": "The scarcest, highest-scoring roles are the ones nobody takes: structurer, includer, summariser.",
-       "id": "Peran yang paling langka sekaligus paling tinggi skornya justru yang tidak diambil siapa pun: penata struktur, pengajak, perangkum."
-      }
-     ],
      "sections": [
+      {
+       "icon": "users",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "50% 40%",
+       "h": {
+        "en": "Formats: LGD, FGD, assigned roles, cooperative and competitive tasks",
+        "id": "Format: LGD, FGD, peran ditetapkan, tugas kooperatif dan kompetitif"
+       },
+       "body": {
+        "en": "Group exercises appear in most Indonesian management-trainee, bank and state-enterprise selections, usually inside an assessment-centre day, and they come in four shapes. In a <b>Leaderless Group Discussion (LGD)</b> no roles are assigned and the absence of a leader is itself the test: assessors watch who creates order without claiming a crown. A <b>Focus Group Discussion (FGD)</b> gives the group a topic or a case — a business problem, a policy question, a ranking — and scores the same behaviours with more content to work with. In an <b>assigned-role discussion</b> each candidate receives a brief with a position and interests (the head of marketing wants the budget; the head of operations wants the warehouse), and the test is whether you can represent an interest while helping the group decide — interests are held, not won. And tasks are either <b>cooperative</b> (agree a ranking of five priorities; allocate a fixed budget across initiatives) or <b>competitive</b> (defend your option against others’), where the competitive version scores composure and concession as much as advocacy. Typical shape: six to ten candidates, twenty to forty minutes, two or three silent assessors at the back with clipboards, sometimes a report-out at the end. Ask the format before the day if you can; if you cannot, the first two minutes tell you — no roles handed out means leaderless, a brief per person means assigned roles.",
+        "id": "Latihan kelompok muncul di sebagian besar seleksi management trainee, bank, dan BUMN di Indonesia, biasanya di dalam hari assessment center, dan datang dalam empat bentuk. Dalam <b>Leaderless Group Discussion (LGD)</b> tidak ada peran yang ditetapkan dan ketiadaan pemimpin adalah ujiannya sendiri: asesor mengamati siapa yang menciptakan keteraturan tanpa mengklaim mahkota. <b>Focus Group Discussion (FGD)</b> memberi kelompok topik atau kasus — masalah bisnis, pertanyaan kebijakan, pemeringkatan — dan menilai perilaku yang sama dengan lebih banyak isi untuk diolah. Dalam <b>diskusi dengan peran yang ditetapkan</b> tiap kandidat menerima brief dengan posisi dan kepentingan (kepala pemasaran ingin anggaran; kepala operasi ingin gudang), dan ujiannya apakah kamu bisa mewakili kepentingan sambil membantu kelompok memutuskan — kepentingan dipegang, bukan dimenangkan. Dan tugasnya bisa <b>kooperatif</b> (sepakati peringkat lima prioritas; alokasikan anggaran tetap ke inisiatif) atau <b>kompetitif</b> (pertahankan opsimu terhadap yang lain), di mana versi kompetitif menilai ketenangan dan konsesi sama besarnya dengan advokasi. Bentuk tipikal: enam hingga sepuluh kandidat, dua puluh hingga empat puluh menit, dua atau tiga asesor diam di belakang dengan papan jalan, kadang laporan di akhir. Tanyakan formatnya sebelum harinya jika bisa; jika tidak, dua menit pertama memberitahumu — tanpa peran dibagikan berarti tanpa pemimpin, satu brief per orang berarti peran ditetapkan."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Format",
+          "id": "Format"
+         },
+         {
+          "en": "What you receive",
+          "id": "Yang kamu terima"
+         },
+         {
+          "en": "What it tests most",
+          "id": "Yang paling diuji"
+         },
+         {
+          "en": "Your first move",
+          "id": "Langkah pertamamu"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Leaderless (LGD)</b>",
+           "id": "<b>Tanpa pemimpin (LGD)</b>"
+          },
+          {
+           "en": "One case, no roles",
+           "id": "Satu kasus, tanpa peran"
+          },
+          {
+           "en": "Who creates order without claiming it",
+           "id": "Siapa yang menciptakan keteraturan tanpa mengklaimnya"
+          },
+          {
+           "en": "Offer a structure as a question",
+           "id": "Tawarkan struktur sebagai pertanyaan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Focus (FGD)</b>",
+           "id": "<b>Terarah (FGD)</b>"
+          },
+          {
+           "en": "A topic or case with data",
+           "id": "Topik atau kasus dengan data"
+          },
+          {
+           "en": "Evidence use, structuring, convergence",
+           "id": "Penggunaan bukti, menstruktur, mengerucut"
+          },
+          {
+           "en": "Restate the task and propose criteria",
+           "id": "Nyatakan ulang tugas dan usulkan kriteria"
+          }
+         ],
+         [
+          {
+           "en": "<b>Assigned roles</b>",
+           "id": "<b>Peran ditetapkan</b>"
+          },
+          {
+           "en": "A brief with a position and interests",
+           "id": "Brief dengan posisi dan kepentingan"
+          },
+          {
+           "en": "Holding an interest while helping the group decide",
+           "id": "Memegang kepentingan sambil membantu kelompok memutuskan"
+          },
+          {
+           "en": "State your interest and the criterion you can accept",
+           "id": "Nyatakan kepentinganmu dan kriteria yang bisa kamu terima"
+          }
+         ],
+         [
+          {
+           "en": "<b>Cooperative / competitive task</b>",
+           "id": "<b>Tugas kooperatif / kompetitif</b>"
+          },
+          {
+           "en": "A ranking or an allocation; or an option to defend",
+           "id": "Pemeringkatan atau alokasi; atau opsi untuk dipertahankan"
+          },
+          {
+           "en": "Decision reached; composure and concession",
+           "id": "Keputusan dicapai; ketenangan dan konsesi"
+          },
+          {
+           "en": "Agree how the group will choose before choosing",
+           "id": "Sepakati cara kelompok memilih sebelum memilih"
+          }
+         ]
+        ]
+       }
+      },
       {
        "icon": "eye",
        "h": {
-        "en": "The format and the fiction",
-        "id": "Formatnya, dan fiksinya"
+        "en": "What assessors observe",
+        "id": "Apa yang diamati asesor"
        },
        "body": {
-        "en": "Six to ten candidates, one case — a business problem, a ranking exercise, a policy debate — twenty to forty minutes, two or three silent assessors with clipboards. In an FGD (focus/free group discussion) no roles are assigned; in an LGD (leaderless group discussion) the absence of a leader is itself the test: assessors watch who creates order without claiming a crown. The fiction candidates believe: that the group must reach the right answer. The reality: groups that reach a mediocre answer through visibly good process outscore groups that stumble into brilliance through chaos.",
-        "id": "Enam sampai sepuluh kandidat, satu kasus — masalah bisnis, latihan menyusun peringkat, debat kebijakan — dua puluh sampai empat puluh menit, dan dua atau tiga asesor yang diam memegang papan catatan. Dalam FGD (focus/free group discussion) tidak ada peran yang dibagikan; dalam LGD (leaderless group discussion) ketiadaan pemimpin itu sendiri yang menjadi ujiannya: asesor mengamati siapa yang menciptakan keteraturan tanpa merebut mahkota. Fiksi yang dipercaya para kandidat: kelompok harus sampai pada jawaban yang benar. Kenyataannya: kelompok yang tiba pada jawaban biasa-biasa saja lewat proses yang terlihat baik mendapat skor lebih tinggi daripada kelompok yang kebetulan menemukan jawaban brilian lewat kekacauan."
+        "en": "Assessors work from a competency list, and though the wording varies by employer the list is stable. <b>Contribution quality</b>: ideas with reasons, advancing the discussion’s current state — not repeats, not tangents. <b>Listening and building</b>: referencing what someone else said, by name, and adding to it. <b>Influence without dominating</b>: proposals the group adopts, achieved without volume. <b>Structuring</b>: proposing criteria, an agenda, a time split. <b>Time management</b>: a time call, and switching the group from exploring to concluding. <b>Drawing in quiet members</b>: inviting someone by name — among the highest-value seconds in the session. <b>Reaching a decision</b>: summarising positions, naming convergence, landing the plane. <b>Composure under disagreement</b>: disagreeing without heat and receiving disagreement without collapse. The anti-behaviours are tallied too: interrupting mid-sentence, repeating your own point louder, personal remarks, hijacking the topic to a prepared speech, and silence. The current Rope’s airtime rule holds: assessors tally quality events, not minutes. Eight strong seconds — a structure proposal at minute two, a named invitation at minute ten, a synthesis at minute twenty — outscore eight minutes of fluent filler, which inverts most candidates’ instinct to fight for the floor. The floor is cheap; order, inclusion and convergence are the scarce goods.",
+        "id": "Asesor bekerja dari daftar kompetensi, dan meski kata-katanya berbeda per pemberi kerja daftarnya stabil. <b>Kualitas kontribusi</b>: gagasan dengan alasan, memajukan keadaan diskusi saat ini — bukan pengulangan, bukan penyimpangan. <b>Mendengar dan membangun</b>: merujuk apa yang dikatakan orang lain, dengan nama, dan menambahkannya. <b>Pengaruh tanpa mendominasi</b>: usulan yang diadopsi kelompok, dicapai tanpa volume. <b>Menstruktur</b>: mengusulkan kriteria, agenda, pembagian waktu. <b>Manajemen waktu</b>: panggilan waktu, dan mengalihkan kelompok dari menjelajah ke menyimpulkan. <b>Menarik anggota pendiam</b>: mengundang seseorang dengan nama — di antara detik paling bernilai dalam sesi. <b>Mencapai keputusan</b>: merangkum posisi, menyebut titik temu, mendaratkan pesawat. <b>Ketenangan saat berselisih</b>: tidak setuju tanpa panas dan menerima ketidaksetujuan tanpa runtuh. Anti-perilaku juga dihitung: menyela di tengah kalimat, mengulang poin sendiri lebih keras, komentar pribadi, membajak topik ke pidato yang disiapkan, dan diam. Aturan waktu bicara The Rope saat ini tetap berlaku: asesor menghitung peristiwa berkualitas, bukan menit. Delapan detik kuat — usulan struktur di menit dua, undangan bernama di menit sepuluh, sintesis di menit dua puluh — mengalahkan delapan menit pengisi yang lancar, yang membalikkan naluri kebanyakan kandidat untuk berebut lantai. Lantai itu murah; keteraturan, inklusi, dan titik temu adalah barang langka."
        },
-       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
-       "imgPos": "center 35%"
-      },
-      {
-       "icon": "book",
-       "h": {
-        "en": "The six scored behaviours",
-        "id": "Enam perilaku yang diskor"
-       },
-       "body": {
-        "en": "<b>1 · Advancing contributions:</b> ideas that build on the discussion's current state — not repeats, not tangents. <b>2 · Structure moves:</b> proposing an agenda, a framework, a time split (“we have 25 minutes — five to define, ten to generate, ten to decide?”). <b>3 · Inclusion moves:</b> inviting a quiet member in by name — among the highest-value seconds in the session. <b>4 · Evidence use:</b> numbers from the case, not vibes. <b>5 · Synthesis:</b> summarising positions and naming convergence. <b>6 · Composure:</b> disagreeing without heat, receiving disagreement without collapse. The anti-behaviours: interrupting, repeating your own point louder, personal attacks, silence, and hijacking the topic to your prepared speech.",
-        "id": "<b>1 · Kontribusi yang memajukan:</b> gagasan yang membangun dari posisi diskusi saat ini — bukan mengulang, bukan melantur. <b>2 · Langkah struktur:</b> mengusulkan agenda, kerangka, atau pembagian waktu (“kita punya 25 menit — lima untuk mendefinisikan, sepuluh untuk menggali opsi, sepuluh untuk memutuskan?”). <b>3 · Langkah inklusi:</b> mengajak anggota yang pendiam dengan menyebut namanya — salah satu detik paling bernilai dalam sesi. <b>4 · Penggunaan bukti:</b> angka dari kasus, bukan sekadar perasaan. <b>5 · Sintesis:</b> merangkum berbagai posisi dan menyebutkan titik temunya. <b>6 · Ketenangan:</b> berbeda pendapat tanpa memanas, menerima perbedaan pendapat tanpa goyah. Perilaku sebaliknya yang menggerus poin: memotong pembicaraan, mengulang poin sendiri dengan lebih keras, menyerang pribadi, diam saja, dan membelokkan topik ke pidato yang sudah kamu siapkan."
-       }
-      },
-      {
-       "icon": "target",
-       "h": {
-        "en": "Airtime economics",
-        "id": "Ekonomi waktu bicara"
-       },
-       "body": {
-        "en": "Assessors tally quality events, not minutes. Eight strong seconds — a structure proposal at minute two, a named invitation at minute ten, a synthesis at minute twenty — outscore eight minutes of fluent filler. This inverts most candidates' instincts: they fight for the floor, when the floor is cheap and the scarce goods are order, inclusion and convergence. Practical target: 4–6 quality contributions in a 30-minute session, at least one from each of structure, inclusion and synthesis. That portfolio is achievable by any prepared candidate, including introverts — often especially introverts, whose interventions read as signal, not noise.",
-        "id": "Asesor menghitung momen-momen berkualitas, bukan menit. Delapan detik yang kuat — usulan struktur di menit kedua, ajakan dengan menyebut nama di menit kesepuluh, sintesis di menit kedua puluh — mengalahkan delapan menit omongan lancar yang kosong. Ini membalik naluri kebanyakan kandidat: mereka berebut giliran bicara, padahal giliran bicara itu murah; yang langka adalah keteraturan, inklusi, dan titik temu. Target praktisnya: 4–6 kontribusi berkualitas dalam sesi 30 menit, minimal satu untuk masing-masing struktur, inklusi, dan sintesis. Portofolio itu bisa dicapai kandidat mana pun yang siap, termasuk introver — bahkan sering justru introver yang unggul, karena intervensinya terbaca sebagai sinyal, bukan derau."
-       }
-      }
-     ],
-     "diagram": {
-      "type": "quad",
-      "exhibit": {
-       "en": "Exhibit 1: What assessors tally — and what candidates think they tally.",
-       "id": "Peraga 1: Yang benar-benar dihitung asesor — dan yang dikira kandidat dihitung."
-      },
-      "title": {
-       "en": "The FGD scoresheet",
-       "id": "Lembar skor FGD"
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Structure",
-         "id": "Struktur"
-        },
-        "sub": {
-         "en": "Agendas, frameworks, time splits",
-         "id": "Agenda, kerangka, pembagian waktu"
-        }
-       },
-       {
-        "h": {
-         "en": "Inclusion",
-         "id": "Inklusi"
-        },
-        "sub": {
-         "en": "Named invitations to quiet members",
-         "id": "Mengajak anggota pendiam dengan menyebut nama"
-        }
-       },
-       {
-        "h": {
-         "en": "Evidence & advance",
-         "id": "Bukti & kemajuan"
-        },
-        "sub": {
-         "en": "Case numbers, building on others",
-         "id": "Angka dari kasus, membangun dari gagasan orang lain"
-        }
-       },
-       {
-        "h": {
-         "en": "Synthesis & composure",
-         "id": "Sintesis & ketenangan"
-        },
-        "sub": {
-         "en": "Summaries, calm disagreement",
-         "id": "Rangkuman, berbeda pendapat dengan tenang"
-        }
-       }
-      ],
-      "longdesc": {
-       "en": "A four-quadrant scoresheet of tallied behaviours: structure moves such as agendas and time splits; inclusion moves such as inviting quiet members by name; evidence-based contributions that advance the discussion; and synthesis plus composure — summarising convergence and disagreeing calmly.",
-       "id": "Lembar skor empat kuadran berisi perilaku yang dihitung dengan turus: langkah struktur seperti agenda dan pembagian waktu; langkah inklusi seperti mengajak anggota pendiam dengan menyebut nama; kontribusi berbasis bukti yang memajukan diskusi; serta sintesis dan ketenangan — merangkum titik temu dan berbeda pendapat dengan tenang."
-      }
-     },
-     "glossary": [
-      {
-       "term": {
-        "en": "LGD",
-        "id": "LGD"
-       },
-       "def": {
-        "en": "Leaderless group discussion — no roles are assigned, so the structurer, includer and synthesiser seats are open, and taking one is the highest-scoring move available.",
-        "id": "Diskusi kelompok tanpa pemimpin — tidak ada peran yang ditetapkan, sehingga kursi penyusun struktur, pengajak, dan penyintesis terbuka, dan mengambil salah satunya adalah langkah bernilai tertinggi yang tersedia."
-       }
-      },
-      {
-       "term": {
-        "en": "quality event",
-        "id": "peristiwa berkualitas"
-       },
-       "def": {
-        "en": "A single scorable contribution an assessor tallies — a structure proposal, a named invitation, a synthesis — as opposed to minutes of airtime, which are not counted.",
-        "id": "Satu kontribusi yang bisa dinilai dan dicatat penilai — usulan struktur, ajakan bernama, sintesis — berbeda dari menit-menit bicara, yang tidak dihitung."
-       }
-      }
-     ],
-     "checks": [
-      {
-       "q": {
-        "en": "Minute 18 of 30: two candidates are locked in a loud back-and-forth; three members have not spoken. The highest-scoring available move?",
-        "id": "Menit ke-18 dari 30: dua kandidat terjebak adu argumen yang nyaring; tiga anggota belum bicara sama sekali. Langkah dengan skor tertinggi yang tersedia?"
-       },
-       "options": [
+       "bullets": [
         {
-         "en": "Take a side in the argument with a stronger point",
-         "id": "Memihak salah satu, dengan argumen yang lebih kuat"
+         "en": "<b>Advancing, not repeating</b> — an idea with a reason that moves the discussion from where it is.",
+         "id": "<b>Memajukan, bukan mengulang</b> — gagasan dengan alasan yang memindahkan diskusi dari tempatnya."
         },
         {
-         "en": "Summarise both positions in one line each, then invite a silent member by name to break the tie",
-         "id": "Merangkum kedua posisi masing-masing satu kalimat, lalu mengajak anggota yang diam dengan menyebut namanya untuk memecah kebuntuan"
+         "en": "<b>By name</b> — building and inviting are scored only when the assessor can see who you referenced.",
+         "id": "<b>Dengan nama</b> — membangun dan mengundang dinilai hanya saat asesor bisa melihat siapa yang kamu rujuk."
         },
         {
-         "en": "Stay quiet and let them exhaust themselves",
-         "id": "Diam saja dan membiarkan mereka kehabisan tenaga"
-        }
-       ],
-       "correct": 1,
-       "why": {
-        "en": "One move scores three tallies — synthesis, composure, inclusion — and visibly rescues the group's process. Assessors write it down every time.",
-        "id": "Satu langkah, tiga turus sekaligus — sintesis, ketenangan, inklusi — dan terlihat jelas menyelamatkan proses kelompok. Asesor selalu mencatatnya."
-       }
-      }
-     ],
-     "quote": {
-      "en": "The topic is a prop. The behaviours are the exam.",
-      "id": "Topiknya hanya properti panggung. Perilakumu itulah ujiannya."
-     },
-     "insights": {
-      "lead": {
-       "en": "What the assessor’s sheet actually contains.",
-       "id": "Apa yang sebenarnya ada di lembar asesor."
-      },
-      "items": [
-       {
-        "h": {
-         "en": "Four behaviours, not one winner",
-         "id": "Empat perilaku, bukan satu pemenang"
+         "en": "<b>Adopted, not asserted</b> — influence is the group taking your proposal, not the volume of it.",
+         "id": "<b>Diadopsi, bukan ditegaskan</b> — pengaruh adalah kelompok mengambil usulanmu, bukan volumenya."
         },
-        "body": {
-         "en": "Typical rubrics score contribution quality, listening and building on others, structure and time awareness, and influence without dominance. Several candidates can pass the same session.",
-         "id": "Rubrik umum menilai kualitas kontribusi, mendengarkan dan membangun dari orang lain, struktur dan kesadaran waktu, serta pengaruh tanpa mendominasi. Beberapa kandidat bisa lolos dari sesi yang sama."
+        {
+         "en": "<b>Anti-behaviours count</b> — interrupting, repeating louder, personal remarks, hijacking, silence.",
+         "id": "<b>Anti-perilaku dihitung</b> — menyela, mengulang lebih keras, komentar pribadi, membajak, diam."
         }
-       },
-       {
-        "h": {
-         "en": "The loudest voice is often the first eliminated",
-         "id": "Suara paling keras sering tereliminasi pertama"
-        },
-        "body": {
-         "en": "Interrupting and monopolising score negatively on the collaboration line. Assessors are watching who makes the group better, not who talks most.",
-         "id": "Menyela dan memonopoli mendapat nilai negatif pada baris kolaborasi. Asesor mengamati siapa yang membuat kelompok lebih baik, bukan siapa yang paling banyak bicara."
-        }
-       },
-       {
-        "h": {
-         "en": "The summary is the highest-value minute",
-         "id": "Rangkuman adalah menit paling bernilai"
-        },
-        "body": {
-         "en": "Whoever cleanly summarises the group’s position and next steps in the final minutes demonstrates structure, listening and leadership at once. Prepare to be that person.",
-         "id": "Siapa pun yang merangkum posisi kelompok dan langkah berikutnya dengan rapi di menit-menit akhir menunjukkan struktur, mendengarkan, dan kepemimpinan sekaligus. Bersiaplah menjadi orang itu."
-        }
-       }
-      ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Winning the argument",
-         "id": "Memenangkan perdebatan"
-        },
-        "fix": {
-         "en": "Nobody is scored on being right. Move the group toward a decision; concede small points visibly.",
-         "id": "Tak ada yang dinilai karena benar. Gerakkan kelompok menuju keputusan; mengalah pada poin kecil secara terlihat."
-        }
-       },
-       {
-        "h": {
-         "en": "Silence until you have the perfect point",
-         "id": "Diam sampai punya poin sempurna"
-        },
-        "fix": {
-         "en": "A candidate with no contribution in the first five minutes is hard to score at all. Enter early with structure: “Shall we agree the criteria first?”",
-         "id": "Kandidat tanpa kontribusi di lima menit pertama sulit dinilai sama sekali. Masuk lebih awal dengan struktur: “Bagaimana kalau kita sepakati kriterianya dulu?”"
-        }
-       },
-       {
-        "h": {
-         "en": "Speaking to the assessor",
-         "id": "Berbicara kepada asesor"
-        },
-        "fix": {
-         "en": "Eye contact and address go to the group. The assessor is furniture until the debrief.",
-         "id": "Kontak mata dan sapaan ditujukan ke kelompok. Asesor adalah perabot sampai sesi debrief."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-pack:10.1"
-    },
-    {
-     "n": "7.2",
-     "title": {
-      "en": "Preparation Strategies, Frameworks, and Theoretical Concepts",
-      "id": "Strategi Persiapan, Kerangka, dan Konsep Teoretis"
-     },
-     "dur": {
-      "en": "25 min",
-      "id": "25 mnt"
-     },
-     "kind": "reading",
-     "placeholder": false,
-     "overview": {
-      "en": "Preparation for a group discussion is not memorising current affairs; it is installing a small set of moves you can execute under noise: an opening framework, contribution templates, recovery lines, and the discipline of the final five minutes.",
-      "id": "Bersiap untuk diskusi kelompok bukan berarti menghafal isu-isu terkini. Yang kamu butuhkan adalah memasang sekumpulan kecil langkah yang bisa dijalankan di tengah kebisingan: kerangka pembuka, templat kontribusi, kalimat pemulihan, dan disiplin lima menit terakhir."
-     },
-     "objectives": [
-      {
-       "en": "Deploy the define–split–decide framework on any case in the first two minutes.",
-       "id": "Menerapkan kerangka definisikan–bagi–putuskan pada kasus apa pun dalam dua menit pertama."
+       ]
       },
       {
-       "en": "Use the four contribution templates: build, bridge, evidence, invite.",
-       "id": "Menggunakan empat templat kontribusi: bangun, jembatani, buktikan, ajak."
-      },
-      {
-       "en": "Run the endgame protocol: convergence, decision, and the one-line summary.",
-       "id": "Menjalankan protokol penutup: titik temu, keputusan, dan rangkuman satu kalimat."
-      }
-     ],
-     "takeawaysLead": {
-      "en": "Preparation is installing moves you can execute under noise. To have them ready by Thursday, you can:",
-      "id": "Persiapan adalah memasang langkah-langkah yang bisa kamu jalankan di tengah kebisingan. Agar siap pada hari Kamis, kamu bisa:"
-     },
-     "takeaways": [
-      {
-       "en": "The candidate who gives the group a structure in minute one owns the discussion's skeleton without saying another word.",
-       "id": "Kandidat yang memberi kelompok sebuah struktur di menit pertama sudah memegang kerangka diskusi, tanpa perlu berkata apa-apa lagi."
-      },
-      {
-       "en": "Templates beat improvisation under pressure: build, bridge, evidence, invite cover 90% of good contributions.",
-       "id": "Di bawah tekanan, templat mengalahkan improvisasi: bangun, jembatani, buktikan, ajak sudah mencakup 90% kontribusi yang baik."
-      },
-      {
-       "en": "Groups are scored down for not concluding — whoever forces a decision in the last five minutes rescues everyone.",
-       "id": "Kelompok yang tidak sampai pada kesimpulan dinilai turun — siapa pun yang mendorong keputusan di lima menit terakhir menyelamatkan semua orang."
-      }
-     ],
-     "sections": [
-      {
-       "icon": "gear",
+       "icon": "chart",
        "h": {
-        "en": "The two-minute opening",
-        "id": "Pembukaan dua menit"
+        "en": "The GD scorecard — dimensions with behavioural anchors",
+        "id": "Kartu skor DK — dimensi dengan jangkar perilaku"
        },
        "body": {
-        "en": "Whatever the case, the same three-part offer works: <b>define</b> (“before solutions — are we agreeing what the actual problem is? I read it as X”), <b>split</b> (“shall we take five minutes on causes, ten on options, and keep the last ten to decide?”), <b>decide</b> (“and agree now how we'll choose — majority, or criteria?”). Offered as a question, not a decree — the group adopting it is the point. If someone else proposes structure first, second it visibly and improve one detail: the assessor's pen moves for both of you. Never fight over whose framework wins; process fights are double losses.",
-        "id": "Apa pun kasusnya, tawaran tiga bagian yang sama selalu berhasil: <b>definisikan</b> (“sebelum bicara solusi — apakah kita sepakat dulu apa masalah sebenarnya? Saya membacanya sebagai X”), <b>bagi</b> (“bagaimana kalau lima menit untuk penyebab, sepuluh untuk opsi, dan sepuluh terakhir kita simpan untuk memutuskan?”), <b>putuskan</b> (“dan kita sepakati sekarang cara memilihnya — suara terbanyak, atau berdasarkan kriteria?”). Sampaikan sebagai pertanyaan, bukan titah — intinya adalah kelompok mengadopsinya. Kalau orang lain lebih dulu mengusulkan struktur, dukung secara terbuka dan perbaiki satu detailnya: pena asesor bergerak untuk kalian berdua. Jangan pernah berebut kerangka siapa yang menang; bertengkar soal proses adalah kekalahan ganda."
-       }
-      },
-      {
-       "icon": "chat",
-       "h": {
-        "en": "Four contribution templates",
-        "id": "Empat templat kontribusi"
+        "en": "The scorecard below is the one the course uses; it condenses the observed list into six dimensions, each scored one to four with <b>behavioural anchors</b> — descriptions of what a 1 and a 4 look like, so that two assessors watching the same candidate give the same score. Read the anchors as instructions. A 4 in Collaboration is not “was collaborative”; it is “explicitly builds on others’ points by name, invites quiet members, helps the group converge” — three things you can do on purpose. A 1 in Structuring is “no proposal for criteria or process; follows whatever structure emerges”, which is where most nervous candidates sit without knowing it. Assessors integrate the six into an overall judgement at a wash-up meeting after the day (Lesson 7.3), usually alongside scores from the other exercises, so consistency across exercises matters as much as a single strong discussion. Two practical consequences. First, <b>no evidence is a low score</b>, not a neutral one: a candidate who says nothing scores 1 on every dimension, however brilliant their unspoken thoughts. Second, the anchors are <b>specific and countable</b>, which means a prepared candidate can plan to produce them — the role plan in Lesson 7.2 is exactly that.",
+        "id": "Kartu skor di bawah adalah yang dipakai kursus; ia memadatkan daftar yang diamati menjadi enam dimensi, masing-masing dinilai satu sampai empat dengan <b>jangkar perilaku</b> — deskripsi seperti apa 1 dan 4 itu, agar dua asesor yang mengamati kandidat yang sama memberi skor yang sama. Baca jangkarnya sebagai instruksi. Nilai 4 di Kolaborasi bukan “kolaboratif”; ia “secara eksplisit membangun poin orang lain dengan nama, mengundang anggota pendiam, membantu kelompok mengerucut” — tiga hal yang bisa kamu lakukan dengan sengaja. Nilai 1 di Menstruktur adalah “tanpa usulan kriteria atau proses; mengikuti struktur apa pun yang muncul”, tempat kebanyakan kandidat gugup berada tanpa menyadarinya. Asesor memadukan keenamnya menjadi penilaian keseluruhan di rapat wash-up setelah harinya (Pelajaran 7.3), biasanya bersama skor dari latihan lain, sehingga konsistensi lintas latihan sama pentingnya dengan satu diskusi yang kuat. Dua konsekuensi praktis. Pertama, <b>tanpa bukti berarti skor rendah</b>, bukan netral: kandidat yang tidak berkata apa-apa mendapat 1 di setiap dimensi, sebrilian apa pun pikiran yang tak terucap. Kedua, jangkarnya <b>spesifik dan dapat dihitung</b>, yang berarti kandidat yang siap bisa merencanakan untuk menghasilkannya — rencana peran di Pelajaran 7.2 persis itu."
        },
-       "body": {
-        "en": "<b>Build:</b> “Adding to Rina's point about costs — the case says logistics is 40% of them, so her idea attacks the biggest block.” <b>Bridge:</b> “Dimas and Sari are closer than it sounds: both assume the budget is fixed. If we test that, the disagreement dissolves.” <b>Evidence:</b> “Two numbers from the case settle this: revenue fell 12% while the market fell 3% — the problem is mostly ours, not the market's.” <b>Invite:</b> “Bayu, you've been reading the exhibit — what do the regional numbers say?” Each template names a person or a number: that specificity is what separates advancing from noise, and every one is deployable regardless of how much you know about the topic.",
-        "id": "<b>Bangun:</b> “Menambahkan poin Rina soal biaya — kasusnya menyebut logistik 40% dari total, jadi idenya menyasar blok yang paling besar.” <b>Jembatani:</b> “Dimas dan Sari sebenarnya lebih dekat daripada kedengarannya: keduanya berasumsi anggarannya tetap. Kalau asumsi itu kita uji, perbedaannya hilang.” <b>Buktikan:</b> “Dua angka dari kasus ini menjawabnya: pendapatan turun 12% sementara pasar hanya turun 3% — masalahnya sebagian besar ada di kita, bukan di pasar.” <b>Ajak:</b> “Bayu, kamu dari tadi membaca peraganya — apa yang dikatakan angka per daerah?” Setiap templat menyebut seseorang atau sebuah angka: kekhususan itulah yang membedakan kontribusi yang memajukan dari sekadar kebisingan, dan semuanya bisa dipakai seberapa pun pengetahuanmu tentang topiknya."
+       "table": {
+        "cols": [
+         {
+          "en": "Dimension",
+          "id": "Dimensi"
+         },
+         {
+          "en": "1 — looks like",
+          "id": "1 — tampak seperti"
+         },
+         {
+          "en": "4 — looks like",
+          "id": "4 — tampak seperti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Contribution quality</b>",
+           "id": "<b>Kualitas kontribusi</b>"
+          },
+          {
+           "en": "Opinions without reasons; repeats; tangents",
+           "id": "Pendapat tanpa alasan; pengulangan; penyimpangan"
+          },
+          {
+           "en": "Ideas with reasons and a number from the brief; each one advances the current state",
+           "id": "Gagasan dengan alasan dan angka dari brief; masing-masing memajukan keadaan saat ini"
+          }
+         ],
+         [
+          {
+           "en": "<b>Collaboration</b>",
+           "id": "<b>Kolaborasi</b>"
+          },
+          {
+           "en": "Speaks past others; no reference to what was said",
+           "id": "Bicara melewati orang lain; tanpa rujukan ke yang dikatakan"
+          },
+          {
+           "en": "Explicitly builds on others’ points by name, invites quiet members, helps the group converge",
+           "id": "Secara eksplisit membangun poin orang lain dengan nama, mengundang anggota pendiam, membantu kelompok mengerucut"
+          }
+         ],
+         [
+          {
+           "en": "<b>Structuring</b>",
+           "id": "<b>Menstruktur</b>"
+          },
+          {
+           "en": "No proposal for criteria or process; follows whatever emerges",
+           "id": "Tanpa usulan kriteria atau proses; mengikuti apa pun yang muncul"
+          },
+          {
+           "en": "Proposes criteria, an agenda or a time split early; restates the task when the group drifts",
+           "id": "Mengusulkan kriteria, agenda, atau pembagian waktu sejak awal; menyatakan ulang tugas saat kelompok melenceng"
+          }
+         ],
+         [
+          {
+           "en": "<b>Influence</b>",
+           "id": "<b>Pengaruh</b>"
+          },
+          {
+           "en": "Insists; volume up; nothing adopted",
+           "id": "Memaksa; volume naik; tak ada yang diadopsi"
+          },
+          {
+           "en": "Proposals adopted by the group; concedes when shown a better point",
+           "id": "Usulan diadopsi kelompok; mengalah saat ditunjukkan poin yang lebih baik"
+          }
+         ],
+         [
+          {
+           "en": "<b>Time and decision</b>",
+           "id": "<b>Waktu dan keputusan</b>"
+          },
+          {
+           "en": "No time awareness; ends mid-argument",
+           "id": "Tanpa kesadaran waktu; berakhir di tengah perdebatan"
+          },
+          {
+           "en": "Calls time; switches the group to concluding; summarises the decision and the open point",
+           "id": "Memanggil waktu; mengalihkan kelompok ke menyimpulkan; merangkum keputusan dan poin terbuka"
+          }
+         ],
+         [
+          {
+           "en": "<b>Composure</b>",
+           "id": "<b>Ketenangan</b>"
+          },
+          {
+           "en": "Heat, sarcasm, or withdrawal after disagreement",
+           "id": "Panas, sarkasme, atau menarik diri setelah ketidaksetujuan"
+          },
+          {
+           "en": "Disagrees with a reason and a question; takes correction in one sentence",
+           "id": "Tidak setuju dengan alasan dan pertanyaan; menerima koreksi dalam satu kalimat"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "The course scorecard, condensed from the observed list. Employers’ own dimension names differ; the behaviours do not.",
+         "id": "Kartu skor kursus, dipadatkan dari daftar yang diamati. Nama dimensi pemberi kerja berbeda; perilakunya tidak."
+        }
        }
       },
       {
        "icon": "flag",
        "h": {
-        "en": "The endgame protocol",
-        "id": "Protokol penutup"
+        "en": "Three myths, and the target that replaces them",
+        "id": "Tiga mitos, dan target yang menggantikannya"
        },
        "body": {
-        "en": "At minus-five-minutes, someone must switch the group from exploring to concluding — be that someone: “Five minutes left. I hear agreement on A and B, and an open question on C. Can we commit to A and B, and note C as a condition?” Then, if the format includes a report-out, volunteer the summary or visibly support whoever gives it: one breath, three sentences — the problem, the decision, the main reason. Groups that end mid-argument mark down every member; the person who landed the plane is remembered by name. Rehearse the two sentences of the endgame until they are reflex; they are the highest-scoring twenty seconds available in the format.",
-        "id": "Pada lima menit terakhir, seseorang harus mengalihkan kelompok dari menjelajah ke menyimpulkan — jadilah orang itu: “Sisa lima menit. Saya dengar kita sepakat pada A dan B, dan masih ada pertanyaan terbuka soal C. Bisakah kita komit pada A dan B, dan mencatat C sebagai syaratnya?” Lalu, kalau formatnya menyertakan sesi pelaporan, tawarkan diri untuk merangkum atau dukung secara terbuka siapa pun yang merangkum: satu tarikan napas, tiga kalimat — masalahnya, keputusannya, alasan utamanya. Kelompok yang berakhir di tengah perdebatan menurunkan nilai semua anggotanya; orang yang berhasil mendaratkan pesawatnya akan diingat namanya. Latih dua kalimat penutup itu sampai menjadi refleks; itulah dua puluh detik dengan skor tertinggi yang tersedia dalam format ini."
-       }
+        "en": "<b>Myth one: talking most wins.</b> Dominating scores poorly on Collaboration and Influence — the dominator’s proposals are rarely adopted, because the group stops listening — and produces the anti-behaviour tallies (interrupting, repeating louder). Assessors have a name for the candidate who spoke for nine of thirty minutes, and it is not a compliment. <b>Myth two: you must be the leader.</b> Nobody is scored for a title; structuring, inviting and summarising score whether or not anyone called you the leader, and the candidate who fights for the chair loses Composure while doing it. If someone else proposes a structure first, second it visibly and improve one detail — the assessor’s pen moves for both of you. <b>Myth three: silence is safe.</b> It is the least safe position in the room: no evidence, low scores on every dimension. The candidate who was “waiting for a good moment” is scored as absent. The target that replaces the myths is the current Rope’s: <b>four to six quality contributions in a thirty-minute session, at least one each from structure, inclusion and synthesis</b>, each one naming a person or a number. That portfolio is achievable by any prepared candidate, and especially by quieter ones, whose interventions read as signal rather than noise. Lesson 7.2 turns the target into a role plan with phrases; this lesson’s job is to make the scorecard the thing you see when you look at the table.",
+        "id": "<b>Mitos satu: paling banyak bicara menang.</b> Mendominasi buruk di Kolaborasi dan Pengaruh — usulan sang dominator jarang diadopsi, karena kelompok berhenti mendengar — dan menghasilkan hitungan anti-perilaku (menyela, mengulang lebih keras). Asesor punya sebutan untuk kandidat yang bicara sembilan dari tiga puluh menit, dan itu bukan pujian. <b>Mitos dua: kamu harus jadi pemimpin.</b> Tak ada yang dinilai untuk gelar; menstruktur, mengundang, dan merangkum mendapat nilai terlepas dari apakah ada yang menyebutmu pemimpin, dan kandidat yang berebut kursi kehilangan Ketenangan saat melakukannya. Jika orang lain mengusulkan struktur lebih dulu, dukung dengan terlihat dan perbaiki satu detail — pena asesor bergerak untuk kalian berdua. <b>Mitos tiga: diam itu aman.</b> Itu posisi paling tidak aman di ruangan: tanpa bukti, skor rendah di setiap dimensi. Kandidat yang “menunggu momen yang tepat” dinilai sebagai tidak hadir. Target yang menggantikan mitos adalah milik The Rope saat ini: <b>empat hingga enam kontribusi berkualitas dalam sesi tiga puluh menit, setidaknya satu masing-masing dari struktur, inklusi, dan sintesis</b>, masing-masing menyebut orang atau angka. Portofolio itu bisa dicapai kandidat siap mana pun, dan terutama yang lebih pendiam, yang intervensinya terbaca sebagai sinyal bukan derau. Pelajaran 7.2 mengubah target menjadi rencana peran dengan frasa; tugas pelajaran ini membuat kartu skor menjadi hal yang kamu lihat saat memandang meja."
+       },
+       "bullets": [
+        {
+         "en": "<b>Dominating</b> — low Collaboration, low Influence, anti-behaviour tallies.",
+         "id": "<b>Mendominasi</b> — Kolaborasi rendah, Pengaruh rendah, hitungan anti-perilaku."
+        },
+        {
+         "en": "<b>Chasing the chair</b> — no score for the title; Composure lost in the fight.",
+         "id": "<b>Mengejar kursi</b> — tanpa nilai untuk gelar; Ketenangan hilang dalam perebutan."
+        },
+        {
+         "en": "<b>Waiting for the moment</b> — scored as absent.",
+         "id": "<b>Menunggu momen</b> — dinilai sebagai tidak hadir."
+        },
+        {
+         "en": "<b>The target</b> — four to six quality events; structure, inclusion, synthesis; a name or a number each.",
+         "id": "<b>Targetnya</b> — empat hingga enam peristiwa berkualitas; struktur, inklusi, sintesis; nama atau angka masing-masing."
+        }
+       ]
       }
      ],
      "diagram": {
-      "type": "quad",
+      "type": "pair",
       "exhibit": {
-       "en": "Exhibit 1: The four contribution templates — each names a person or a number, and each works whatever you know about the topic.",
-       "id": "Peraga 1: Empat templat kontribusi — masing-masing menyebut seseorang atau sebuah angka, dan masing-masing berhasil apa pun yang kamu tahu tentang topiknya."
+       "en": "Exhibit 1: Airtime versus quality events",
+       "id": "Peraga 1: Waktu bicara versus peristiwa berkualitas"
       },
       "title": {
-       "en": "Build · Bridge · Evidence · Invite",
-       "id": "Bangun · Jembatani · Bukti · Ajak"
+       "en": "What the clipboard counts",
+       "id": "Yang dihitung papan jalan"
       },
+      "cols": [
+       {
+        "h": {
+         "en": "Candidate A · nine minutes of airtime",
+         "id": "Kandidat A · sembilan menit waktu bicara"
+        },
+        "items": [
+         {
+          "en": "Opens with a four-minute view of the case",
+          "id": "Membuka dengan pandangan empat menit tentang kasus"
+         },
+         {
+          "en": "Repeats the view twice, louder",
+          "id": "Mengulang pandangan dua kali, lebih keras"
+         },
+         {
+          "en": "Interrupts three times",
+          "id": "Menyela tiga kali"
+         },
+         {
+          "en": "Proposals adopted: none",
+          "id": "Usulan diadopsi: tidak ada"
+         },
+         {
+          "en": "Tallies: 1 contribution, 3 interruptions, 0 builds, 0 invites",
+          "id": "Hitungan: 1 kontribusi, 3 selaan, 0 membangun, 0 mengundang"
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Candidate B · ninety seconds of airtime",
+         "id": "Kandidat B · sembilan puluh detik waktu bicara"
+        },
+        "items": [
+         {
+          "en": "Minute 2: proposes criteria and a time split, as a question",
+          "id": "Menit 2: mengusulkan kriteria dan pembagian waktu, sebagai pertanyaan"
+         },
+         {
+          "en": "Minute 9: builds on Andi’s cost point with a number from the brief",
+          "id": "Menit 9: membangun poin biaya Andi dengan angka dari brief"
+         },
+         {
+          "en": "Minute 14: invites Sari by name",
+          "id": "Menit 14: mengundang Sari dengan nama"
+         },
+         {
+          "en": "Minute 25: calls time; summarises A and B agreed, C open",
+          "id": "Menit 25: memanggil waktu; merangkum A dan B disepakati, C terbuka"
+         },
+         {
+          "en": "Tallies: 4 quality events across structure, evidence, inclusion, synthesis",
+          "id": "Hitungan: 4 peristiwa berkualitas lintas struktur, bukti, inklusi, sintesis"
+         }
+        ]
+       }
+      ],
+      "note": {
+       "en": "The assessor’s sheet has no column for minutes. B outscores A on every dimension.",
+       "id": "Lembar asesor tidak punya kolom untuk menit. B mengungguli A di setiap dimensi."
+      },
+      "longdesc": {
+       "en": "Two columns comparing a candidate with nine minutes of airtime — one long opinion, repeats, three interruptions, nothing adopted — with a candidate who spoke for ninety seconds across four quality events: a structure proposal, a named build with a number, a named invitation, and a time call with a summary.",
+       "id": "Dua kolom membandingkan kandidat dengan sembilan menit waktu bicara — satu pendapat panjang, pengulangan, tiga selaan, tak ada yang diadopsi — dengan kandidat yang bicara sembilan puluh detik lintas empat peristiwa berkualitas: usulan struktur, membangun bernama dengan angka, undangan bernama, dan panggilan waktu dengan rangkuman."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Three transcript excerpts, one moment",
+        "id": "Tiga cuplikan transkrip, satu momen"
+       },
+       "q": {
+        "en": "Minute 11 of a thirty-minute FGD on which of four initiatives a company should fund. The group has two options half-agreed and one member, Sari, who has said nothing.",
+        "id": "Menit 11 dari FGD tiga puluh menit tentang inisiatif mana dari empat yang harus didanai perusahaan. Kelompok punya dua opsi setengah disepakati dan satu anggota, Sari, yang belum berkata apa-apa."
+       },
+       "weak": {
+        "en": "<b>The dominator:</b> “Seperti yang sudah saya bilang tadi — dan saya ulangi lagi supaya jelas — opsi pertama itu yang paling masuk akal. Nggak perlu dibahas lagi. Kalau kita buang waktu di opsi lain, kita nggak akan selesai. Jadi saya usul kita langsung pilih opsi satu.” — <b>The silent member:</b> (nods; writes; says nothing; will “wait for a good moment” until minute thirty).",
+        "id": "<b>Sang dominator:</b> “Seperti yang sudah saya bilang tadi — dan saya ulangi lagi supaya jelas — opsi pertama itu yang paling masuk akal. Nggak perlu dibahas lagi. Kalau kita buang waktu di opsi lain, kita nggak akan selesai. Jadi saya usul kita langsung pilih opsi satu.” — <b>Anggota pendiam:</b> (mengangguk; menulis; tidak berkata apa-apa; akan “menunggu momen yang tepat” sampai menit tiga puluh)."
+       },
+       "strong": {
+        "en": "<b>The strong contributor:</b> “Menambahkan poin Mas Andi soal biaya — di brief, opsi satu memang paling murah, tapi opsi tiga yang paling langsung mengenai penyebabnya, kalau angka lead time di halaman dua kita percaya. Supaya adil, bagaimana kalau kita nilai keempatnya dengan dua kriteria itu — biaya dan dampak ke penyebab — lima menit saja? Dan Mbak Sari belum sempat berpendapat — Mbak sepertinya sudah baca peraganya, bagaimana menurut Mbak?”",
+        "id": "<b>Kontributor kuat:</b> “Menambahkan poin Mas Andi soal biaya — di brief, opsi satu memang paling murah, tapi opsi tiga yang paling langsung mengenai penyebabnya, kalau angka lead time di halaman dua kita percaya. Supaya adil, bagaimana kalau kita nilai keempatnya dengan dua kriteria itu — biaya dan dampak ke penyebab — lima menit saja? Dan Mbak Sari belum sempat berpendapat — Mbak sepertinya sudah baca peraganya, bagaimana menurut Mbak?”"
+       },
+       "why": {
+        "en": "The dominator produces one contribution without a reason, two repeats, a dismissal of the group (“nggak perlu dibahas lagi”) and a proposal nobody adopts — low on Collaboration, Influence and Composure. The silent member produces no evidence and scores 1 on every dimension. The strong contributor, in twenty seconds, builds on Andi by name with a number from the brief, proposes two criteria and a time box as a question, and invites Sari by name with a reason — four tallies across Contribution, Collaboration, Structuring and Time, and the group now has a way to decide. Nothing in it required knowing the right answer.",
+        "id": "Sang dominator menghasilkan satu kontribusi tanpa alasan, dua pengulangan, penolakan terhadap kelompok (“nggak perlu dibahas lagi”), dan usulan yang tak diadopsi siapa pun — rendah di Kolaborasi, Pengaruh, dan Ketenangan. Anggota pendiam tidak menghasilkan bukti dan mendapat 1 di setiap dimensi. Kontributor kuat, dalam dua puluh detik, membangun poin Andi dengan nama dan angka dari brief, mengusulkan dua kriteria dan batas waktu sebagai pertanyaan, dan mengundang Sari dengan nama dan alasan — empat hitungan lintas Kontribusi, Kolaborasi, Menstruktur, dan Waktu, dan kelompok kini punya cara memutuskan. Tak satu pun memerlukan tahu jawaban yang benar."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "eye",
+      "title": {
+       "en": "In focus: the clipboard at the back of the room",
+       "id": "Sorotan: papan jalan di belakang ruangan"
+      },
+      "body": [
+       {
+        "en": "At Arunika’s assessment centre, Nadia is one of six in the morning LGD. She knows the answer to the case within four minutes — it is the supply-chain problem from Lesson 6.6 in a different coat — and her instinct is to say so at length. She does not. She has the scorecard in her head, so she does what scores: at minute two she offers criteria as a question (“bagaimana kalau kita sepakati dua kriteria dulu — biaya dan dampak ke penyebab — lalu nilai tiap opsi?”), and the group adopts it. At minute eight she builds on Dimas by name with the lead-time number. At minute fourteen she invites the quiet member, Sari, who turns out to have read the capacity exhibit nobody else opened. At minute twenty-four she calls time and summarises: two options agreed, one open, one condition.",
+        "id": "Di assessment center Arunika, Nadia satu dari enam di LGD pagi. Ia tahu jawaban kasusnya dalam empat menit — itu masalah rantai pasok dari Pelajaran 6.6 dengan jubah berbeda — dan nalurinya adalah mengatakannya panjang lebar. Ia tidak melakukannya. Ia punya kartu skor di kepalanya, jadi ia melakukan yang dapat nilai: di menit dua ia menawarkan kriteria sebagai pertanyaan (“bagaimana kalau kita sepakati dua kriteria dulu — biaya dan dampak ke penyebab — lalu nilai tiap opsi?”), dan kelompok mengadopsinya. Di menit delapan ia membangun poin Dimas dengan nama dan angka lead time. Di menit empat belas ia mengundang anggota pendiam, Sari, yang ternyata sudah membaca peraga kapasitas yang tak dibuka orang lain. Di menit dua puluh empat ia memanggil waktu dan merangkum: dua opsi disepakati, satu terbuka, satu syarat."
+       },
+       {
+        "en": "Total airtime: under two minutes. The candidate who talked for nine minutes — and who was, as it happens, right about the answer — is not invited back. At the wash-up meeting the assessors’ notes on Nadia read: structure adopted, two builds by name, one invitation that changed the decision, landed the summary. The topic was a prop; the behaviours were the test.",
+        "id": "Total waktu bicara: di bawah dua menit. Kandidat yang bicara sembilan menit — dan yang, kebetulan, benar soal jawabannya — tidak diundang kembali. Di rapat wash-up, catatan asesor tentang Nadia berbunyi: struktur diadopsi, dua membangun dengan nama, satu undangan yang mengubah keputusan, mendaratkan rangkuman. Topiknya properti; perilakunya ujiannya."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · Score a transcript",
+        "id": "Latihan 1 · Nilai sebuah transkrip"
+       },
+       "body": {
+        "en": "Take the three excerpts in the compare above and score each speaker on all six dimensions of the scorecard, one to four, citing the anchor that justifies each score. Then watch or read any group discussion — a recorded debate, a meeting, a class discussion — and score two participants the same way for ten minutes, tallying quality events and anti-behaviours.",
+        "id": "Ambil tiga cuplikan di perbandingan di atas dan nilai tiap pembicara pada keenam dimensi kartu skor, satu sampai empat, mengutip jangkar yang membenarkan tiap skor. Lalu tonton atau baca diskusi kelompok mana pun — debat rekaman, rapat, diskusi kelas — dan nilai dua peserta dengan cara yang sama selama sepuluh menit, menghitung peristiwa berkualitas dan anti-perilaku."
+       },
+       "debrief": {
+        "en": "If you gave the silent member a 2 anywhere, re-read the anchors: no evidence is a 1. If the dominator scored above 2 on Influence, check whether anything they proposed was adopted. The habit you are building is seeing behaviours rather than opinions — after ten minutes of tallying, you will notice that the person who “seemed strong” and the person who scored highest are often different people.",
+        "id": "Jika kamu memberi anggota pendiam nilai 2 di mana pun, baca ulang jangkarnya: tanpa bukti adalah 1. Jika sang dominator mendapat di atas 2 di Pengaruh, periksa apakah ada usulannya yang diadopsi. Kebiasaan yang kamu bangun adalah melihat perilaku bukan pendapat — setelah sepuluh menit menghitung, kamu akan sadar bahwa orang yang “tampak kuat” dan orang yang skornya tertinggi sering orang yang berbeda."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · Name the format from the first two minutes",
+        "id": "Latihan 2 · Kenali format dari dua menit pertama"
+       },
+       "body": {
+        "en": "For each of four openings, name the format and your first move: (a) “Berikut kasusnya; Anda punya tiga puluh menit; silakan mulai” with no roles handed out; (b) each candidate receives a different one-page brief; (c) “Urutkan lima prioritas ini dari yang paling penting”; (d) “Masing-masing dari Anda mendapat satu opsi untuk dipertahankan; kelompok harus memilih satu.” Write one sentence you would say in each case in the first two minutes.",
+        "id": "Untuk masing-masing dari empat pembukaan, sebutkan formatnya dan langkah pertamamu: (a) “Berikut kasusnya; Anda punya tiga puluh menit; silakan mulai” tanpa peran dibagikan; (b) tiap kandidat menerima brief satu halaman yang berbeda; (c) “Urutkan lima prioritas ini dari yang paling penting”; (d) “Masing-masing dari Anda mendapat satu opsi untuk dipertahankan; kelompok harus memilih satu.” Tulis satu kalimat yang akan kamu ucapkan di tiap kasus dalam dua menit pertama."
+       },
+       "debrief": {
+        "en": "(a) Leaderless — offer a structure as a question. (b) Assigned roles — state your interest and the criterion you can accept. (c) Cooperative ranking — propose how the group will rank before ranking. (d) Competitive — defend with a reason, concede with a reason, and propose criteria for the choice. If your sentence in (d) was only advocacy, add the criterion; composure and concession are scored there as much as the argument.",
+        "id": "(a) Tanpa pemimpin — tawarkan struktur sebagai pertanyaan. (b) Peran ditetapkan — nyatakan kepentinganmu dan kriteria yang bisa kamu terima. (c) Pemeringkatan kooperatif — usulkan cara kelompok memeringkat sebelum memeringkat. (d) Kompetitif — pertahankan dengan alasan, mengalah dengan alasan, dan usulkan kriteria untuk pilihan. Jika kalimatmu di (d) hanya advokasi, tambahkan kriterianya; ketenangan dan konsesi dinilai di sana sama besarnya dengan argumen."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Composure under disagreement, in the simulator",
+        "id": "Latihan 3 · Ketenangan saat berselisih, di simulator"
+       },
+       "body": {
+        "en": "The Composure dimension is the one you cannot fake on the day, so practise it alone first. Run the tryit below with the Hiring Manager: a time you handled criticism you thought unfair, a time you persuaded someone more senior, and a time you said no. Each answer should show a disagreement stated with a reason and a question, and a correction taken in one sentence.",
+        "id": "Dimensi Ketenangan adalah yang tak bisa kamu palsukan pada harinya, jadi latih sendiri dulu. Jalankan tryit di bawah dengan Hiring Manager: saat kamu menangani kritik yang kamu anggap tidak adil, saat kamu meyakinkan orang yang lebih senior, dan saat kamu berkata tidak. Tiap jawaban harus menunjukkan ketidaksetujuan yang dinyatakan dengan alasan dan pertanyaan, dan koreksi yang diterima dalam satu kalimat."
+       },
+       "debrief": {
+        "en": "In the debrief, look for heat words (“jelas-jelas”, “padahal”) and for withdrawal (“ya sudah, terserah”). Both are anti-behaviours. The shape that scores a 4 is: “Saya melihatnya agak berbeda, karena [reason] — bagaimana kalau [question]?” and, when corrected, “Betul, saya keliru soal skalanya; kalau begitu saya ikut opsi B.” Lesson 7.2 gives the phrase bank.",
+        "id": "Di debrief, cari kata panas (“jelas-jelas”, “padahal”) dan penarikan diri (“ya sudah, terserah”). Keduanya anti-perilaku. Bentuk yang dapat 4 adalah: “Saya melihatnya agak berbeda, karena [alasan] — bagaimana kalau [pertanyaan]?” dan, saat dikoreksi, “Betul, saya keliru soal skalanya; kalau begitu saya ikut opsi B.” Pelajaran 7.2 memberi bank frasanya."
+       }
+      }
+     ],
+     "mistakes": {
       "items": [
        {
         "h": {
-         "en": "Build",
-         "id": "Bangun"
+         "en": "Treating the case as the test",
+         "id": "Memperlakukan kasus sebagai ujian"
         },
-        "sub": {
-         "en": "“Adding to Rina's point about costs — logistics is 40% of them…”",
-         "id": "“Menambahkan poin Rina soal biaya — logistik 40% darinya…”"
+        "fix": {
+         "en": "The topic is a prop; the scorecard is the test.",
+         "id": "Topiknya properti; kartu skornya ujian."
         }
        },
        {
         "h": {
-         "en": "Bridge",
-         "id": "Jembatani"
+         "en": "Fighting for the floor",
+         "id": "Berebut lantai"
         },
-        "sub": {
-         "en": "“Dimas and Sari are closer than it sounds: both assume the budget is fixed…”",
-         "id": "“Dimas dan Sari lebih dekat dari kedengarannya: keduanya berasumsi anggaran tetap…”"
+        "fix": {
+         "en": "The floor is cheap; order, inclusion and convergence are scarce.",
+         "id": "Lantai murah; keteraturan, inklusi, dan titik temu langka."
         }
        },
        {
         "h": {
-         "en": "Evidence",
-         "id": "Bukti"
+         "en": "Contesting whose structure wins",
+         "id": "Memperebutkan struktur siapa yang menang"
         },
-        "sub": {
-         "en": "“Two numbers settle this: revenue fell 12% while the market fell 3%…”",
-         "id": "“Dua angka menyelesaikan ini: pendapatan turun 12% sementara pasar turun 3%…”"
+        "fix": {
+         "en": "Second the other proposal visibly and improve one detail.",
+         "id": "Dukung usulan lain dengan terlihat dan perbaiki satu detail."
         }
        },
        {
         "h": {
-         "en": "Invite",
-         "id": "Ajak"
+         "en": "Waiting for a good moment",
+         "id": "Menunggu momen yang tepat"
         },
-        "sub": {
-         "en": "“Bayu, you've been reading the exhibit — what do the regional numbers say?”",
-         "id": "“Bayu, kamu sudah membaca peraganya — apa kata angka per wilayah?”"
+        "fix": {
+         "en": "Scored as absent; plan the first contribution for minute two.",
+         "id": "Dinilai tidak hadir; rencanakan kontribusi pertama untuk menit dua."
+        }
+       },
+       {
+        "h": {
+         "en": "Building without a name",
+         "id": "Membangun tanpa nama"
+        },
+        "fix": {
+         "en": "“Menambahkan poin Mas Andi…” — the assessor must see who you referenced.",
+         "id": "“Menambahkan poin Mas Andi…” — asesor harus melihat siapa yang kamu rujuk."
         }
        }
-      ],
-      "longdesc": {
-       "en": "A two-by-two grid of the four contribution templates: build on a named colleague's point; bridge two positions by naming their shared assumption; bring evidence with two numbers from the case; and invite a named quiet member by referring to what they have been doing. Each template names a person or a number, which is what separates advancing from noise.",
-       "id": "Kisi dua kali dua berisi empat templat kontribusi: bangun di atas poin rekan yang disebut namanya; jembatani dua posisi dengan menyebut asumsi bersama mereka; bawa bukti dengan dua angka dari kasus; dan ajak anggota pendiam yang disebut namanya dengan merujuk pada apa yang sedang ia kerjakan. Setiap templat menyebut seseorang atau sebuah angka, itulah yang membedakan kontribusi yang memajukan dari kebisingan."
-      }
+      ]
      },
      "glossary": [
       {
        "term": {
-        "en": "the two-minute opening",
-        "id": "pembukaan dua menit"
+        "en": "Leaderless Group Discussion",
+        "id": "Leaderless Group Discussion"
        },
        "def": {
-        "en": "The define–split–decide offer that works for any case: agree the problem, propose a time split, and fix how the group will decide — the move that lets one candidate own the discussion's structure.",
-        "id": "Tawaran definisikan–bagi–putuskan yang berhasil untuk kasus apa pun: sepakati masalahnya, usulkan pembagian waktu, dan tetapkan cara kelompok memutuskan — langkah yang membuat satu kandidat memiliki struktur diskusi."
+        "en": "A group exercise with no assigned roles, where creating order without claiming a title is the test.",
+        "id": "Latihan kelompok tanpa peran yang ditetapkan, di mana menciptakan keteraturan tanpa mengklaim gelar adalah ujiannya."
        }
       },
       {
        "term": {
-        "en": "endgame protocol",
-        "id": "protokol akhir"
+        "en": "Behavioural anchor",
+        "id": "Jangkar perilaku"
        },
        "def": {
-        "en": "At minus five minutes, switching the group from exploring to concluding: name the agreements, park the open question, and commit — groups are scored down for not concluding.",
-        "id": "Pada lima menit terakhir, mengalihkan kelompok dari menjelajah ke menyimpulkan: sebutkan kesepakatan, tunda pertanyaan terbuka, dan berkomitmen — kelompok dinilai lebih rendah karena tidak menyimpulkan."
+        "en": "The description of what a score looks like in observable behaviour, so two assessors give the same score.",
+        "id": "Deskripsi seperti apa sebuah skor dalam perilaku yang dapat diamati, agar dua asesor memberi skor yang sama."
        }
-      }
-     ],
-     "compare": [
+      },
       {
-       "tag": {
-        "en": "Disagreeing in a group — heat vs light",
-        "id": "Berbeda pendapat dalam kelompok — panas vs terang"
+       "term": {
+        "en": "Quality event",
+        "id": "Peristiwa berkualitas"
        },
-       "q": {
-        "en": "A member proposes cutting the marketing budget entirely",
-        "id": "Seorang anggota mengusulkan memangkas habis anggaran pemasaran"
+       "def": {
+        "en": "A contribution that produces a tally — a structure proposal, a named build, a named invitation, a synthesis — regardless of its length.",
+        "id": "Kontribusi yang menghasilkan hitungan — usulan struktur, membangun bernama, undangan bernama, sintesis — terlepas dari panjangnya."
+       }
+      },
+      {
+       "term": {
+        "en": "Wash-up meeting",
+        "id": "Rapat wash-up"
        },
-       "weak": {
-        "en": "“That makes no sense — you can't just kill marketing, that's how companies die. Anyway, as I was saying earlier…”",
-        "id": "“Itu tidak masuk akal — kamu tidak bisa mematikan pemasaran begitu saja, begitulah cara perusahaan mati. Lagi pula, seperti yang saya bilang tadi…”"
-       },
-       "strong": {
-        "en": "“Interesting — it would free Rp 2bn. My worry is the case says 60% of new customers come from paid channels, so a full cut risks the top line. Could a 50% cut for one quarter test it more safely? Andi, you raised cash flow — would that cover the gap?”",
-        "id": "“Menarik — itu membebaskan Rp2 miliar. Yang saya khawatirkan, kasusnya menyebut 60% pelanggan baru datang dari kanal berbayar, jadi memangkas habis berisiko pada pendapatan. Bagaimana kalau memangkas 50% selama satu kuartal dulu, sebagai uji yang lebih aman? Andi, tadi kamu mengangkat soal arus kas — apakah itu cukup menutup celahnya?”"
-       },
-       "why": {
-        "en": "The strong version credits the idea, brings a case number, offers a testable middle, and hands the floor onward — four tallies in one turn, zero heat.",
-        "id": "Versi yang kuat menghargai idenya, membawa angka dari kasus, menawarkan jalan tengah yang bisa diuji, dan mengoper giliran bicara — empat turus dalam satu giliran, tanpa memanas sedikit pun."
+       "def": {
+        "en": "The assessors’ meeting after the day where scores from every exercise are integrated into one judgement per candidate.",
+        "id": "Rapat asesor setelah harinya di mana skor dari setiap latihan dipadukan menjadi satu penilaian per kandidat."
        }
       }
      ],
      "checks": [
       {
        "q": {
-        "en": "Someone else proposed a solid framework in minute one. Your best response?",
-        "id": "Orang lain sudah mengusulkan kerangka yang solid di menit pertama. Respons terbaikmu?"
+        "en": "A candidate spoke for nine of thirty minutes and was right about the answer. On the scorecard they most likely…",
+        "id": "Seorang kandidat bicara sembilan dari tiga puluh menit dan benar soal jawabannya. Di kartu skor mereka kemungkinan besar…"
        },
        "options": [
         {
-         "en": "Propose a better framework so assessors see yours",
-         "id": "Mengusulkan kerangka yang lebih baik supaya asesor melihat kerangkamu"
+         "en": "Score highest — they were right",
+         "id": "Skor tertinggi — mereka benar"
         },
         {
-         "en": "Second it aloud and add one improvement — e.g. reserving the last five minutes for the decision",
-         "id": "Mendukungnya secara terbuka dan menambahkan satu perbaikan — misalnya menyisihkan lima menit terakhir untuk keputusan"
+         "en": "Score low on Collaboration and Influence, with anti-behaviour tallies — the answer is not scored, the behaviours are",
+         "id": "Skor rendah di Kolaborasi dan Pengaruh, dengan hitungan anti-perilaku — jawaban tidak dinilai, perilakunya yang dinilai"
         },
         {
-         "en": "Ignore process and score points on content instead",
-         "id": "Mengabaikan proses dan mengejar poin lewat isi saja"
+         "en": "Score high on Structuring",
+         "id": "Skor tinggi di Menstruktur"
+        },
+        {
+         "en": "Cannot be scored",
+         "id": "Tidak bisa dinilai"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "Competing frameworks read as ego; visible support plus an improvement reads as collaboration and still tallies as a structure move.",
-        "id": "Kerangka yang bersaing terbaca sebagai ego; dukungan terbuka plus satu perbaikan terbaca sebagai kolaborasi, dan tetap dihitung sebagai langkah struktur."
+        "en": "The topic is a prop; dominating produces repeats and interruptions and proposals nobody adopts.",
+        "id": "Topiknya properti; mendominasi menghasilkan pengulangan dan selaan dan usulan yang tak diadopsi siapa pun."
+       }
+      },
+      {
+       "q": {
+        "en": "Someone else proposes a structure before you can. You…",
+        "id": "Orang lain mengusulkan struktur sebelum kamu sempat. Kamu…"
+       },
+       "options": [
+        {
+         "en": "Propose a better one",
+         "id": "Mengusulkan yang lebih baik"
+        },
+        {
+         "en": "Second it visibly and improve one detail — the assessor’s pen moves for both of you",
+         "id": "Mendukungnya dengan terlihat dan memperbaiki satu detail — pena asesor bergerak untuk kalian berdua"
+        },
+        {
+         "en": "Stay silent until it fails",
+         "id": "Diam sampai gagal"
+        },
+        {
+         "en": "Ask who made them the leader",
+         "id": "Bertanya siapa yang menjadikan mereka pemimpin"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Nobody is scored for the title; process fights are double losses.",
+        "id": "Tak ada yang dinilai untuk gelar; perebutan proses adalah kerugian ganda."
+       }
+      },
+      {
+       "q": {
+        "en": "A candidate says nothing for thirty minutes while thinking carefully. Their score is…",
+        "id": "Seorang kandidat tidak berkata apa-apa selama tiga puluh menit sambil berpikir cermat. Skor mereka…"
+       },
+       "options": [
+        {
+         "en": "Neutral — no mistakes",
+         "id": "Netral — tanpa kesalahan"
+        },
+        {
+         "en": "Low on every dimension — no evidence is a 1, not a pass",
+         "id": "Rendah di setiap dimensi — tanpa bukti adalah 1, bukan lolos"
+        },
+        {
+         "en": "High on Composure",
+         "id": "Tinggi di Ketenangan"
+        },
+        {
+         "en": "Decided at the wash-up",
+         "id": "Diputuskan di wash-up"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Silence is the least safe position in the room; the target is four to six quality events.",
+        "id": "Diam adalah posisi paling tidak aman di ruangan; targetnya empat hingga enam peristiwa berkualitas."
        }
       }
      ],
+     "tryit": {
+      "qid": "beh_unfair_criticism",
+      "set": [
+       "beh_unfair_criticism",
+       "beh_persuaded_senior",
+       "beh_said_no"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Composure under disagreement: three stories",
+       "id": "Ketenangan saat berselisih: tiga cerita"
+      },
+      "desc": {
+       "en": "Three questions with the Hiring Manager, two probes each — criticism you thought unfair, persuading someone more senior, saying no. Show disagreement stated with a reason and a question, and a correction taken in one sentence. The Group Assessment Room described in the blueprint is not yet built; this is the composure dimension practised one-to-one.",
+       "id": "Tiga pertanyaan dengan Hiring Manager, dua galian masing-masing — kritik yang kamu anggap tidak adil, meyakinkan orang yang lebih senior, berkata tidak. Tunjukkan ketidaksetujuan yang dinyatakan dengan alasan dan pertanyaan, dan koreksi yang diterima dalam satu kalimat. Group Assessment Room yang dijelaskan cetak biru belum dibangun; ini dimensi ketenangan dilatih satu lawan satu."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "The topic is a prop: assessors tick behaviours against anchors, and no evidence is a 1.",
+       "id": "Topiknya properti: asesor mencentang perilaku terhadap jangkar, dan tanpa bukti adalah 1."
+      },
+      {
+       "en": "Quality events, not minutes: four to six in thirty minutes, across structure, inclusion and synthesis.",
+       "id": "Peristiwa berkualitas, bukan menit: empat hingga enam dalam tiga puluh menit, lintas struktur, inklusi, dan sintesis."
+      },
+      {
+       "en": "Dominating, chasing the chair and waiting for a moment all lose; a name or a number in every contribution wins.",
+       "id": "Mendominasi, mengejar kursi, dan menunggu momen semuanya kalah; nama atau angka di setiap kontribusi menang."
+      }
+     ],
      "resources": {
+      "title": {
+       "en": "The scorecard and the reading list",
+       "id": "Kartu skor dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The six-dimension scorecard with anchors, the observed list, and where the material comes from.",
+       "id": "Kartu skor enam dimensi dengan jangkar, daftar yang diamati, dan asal materinya."
+      },
       "items": [
        {
-        "kind": "script",
+        "kind": "guide",
         "title": {
-         "en": "Contribution lines",
-         "id": "Kalimat kontribusi"
+         "en": "Reading list · Lesson 7.1",
+         "id": "Daftar bacaan · Pelajaran 7.1"
         },
         "desc": {
-         "en": "Short, reusable sentences for each moment of a group discussion.",
-         "id": "Kalimat pendek yang bisa dipakai ulang untuk tiap momen diskusi kelompok."
+         "en": "Moved from The Pack; the scorecard is the course’s own.",
+         "id": "Dipindahkan dari The Pack; kartu skornya milik kursus."
         },
         "body": [
          {
-          "en": "OPEN (first 2 minutes): “Before we jump to options, can we agree what a good answer needs to satisfy? I’d suggest three criteria: …”",
-          "id": "BUKA (2 menit pertama): “Sebelum lompat ke opsi, bisa kita sepakati dulu apa yang harus dipenuhi jawaban yang baik? Saya usulkan tiga kriteria: …”"
+          "en": "The Pack, Module 4 (group assessments: the six scored behaviours, airtime economics) — moved here and retained in full.",
+          "id": "The Pack, Modul 4 (asesmen kelompok: enam perilaku yang dinilai, ekonomi waktu bicara) — dipindahkan ke sini dan dipertahankan seutuhnya."
          },
          {
-          "en": "BUILD: “Building on [Name]’s point about cost — if we add the timeline, that option actually looks stronger because …”",
-          "id": "BANGUN: “Melanjutkan poin [Nama] tentang biaya — kalau kita tambahkan garis waktu, opsi itu justru terlihat lebih kuat karena …”"
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six-dimension scorecard and its anchors are the course’s condensation of typical assessor competency lists; employers’ own dimension names and weights differ.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Kartu skor enam dimensi dan jangkarnya adalah pemadatan kursus atas daftar kompetensi asesor tipikal; nama dimensi dan bobot pemberi kerja sendiri berbeda."
          },
          {
-          "en": "INVITE: “[Name], you haven’t had a chance yet — what’s your read on the risk side?”",
-          "id": "UNDANG: “[Nama], kamu belum sempat bicara — bagaimana pandanganmu di sisi risiko?”"
-         },
-         {
-          "en": "REDIRECT: “We have eight minutes left. Can we park the definitions and decide between options A and B?”",
-          "id": "ALIHKAN: “Sisa waktu delapan menit. Bisa kita tunda dulu soal definisi dan putuskan antara opsi A dan B?”"
-         },
-         {
-          "en": "CONCEDE: “That’s fair — I was wrong about the scale. Given that, I’d go with …”",
-          "id": "MENGALAH: “Itu masuk akal — saya keliru soal skalanya. Dengan begitu, saya pilih …”"
-         },
-         {
-          "en": "SUMMARISE (last 3 minutes): “So we agree on X because of Y; the open question is Z, which we’d resolve by …”",
-          "id": "RANGKUM (3 menit terakhir): “Jadi kita sepakat pada X karena Y; pertanyaan yang tersisa adalah Z, yang akan kita selesaikan dengan …”"
+          "en": "<span class=\"ev ev-verify\">Verify</span> Which formats a specific employer uses (LGD, FGD, assigned roles, ranking) — ask the recruiter or a recent alumnus; do not assume from this lesson.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Format mana yang dipakai pemberi kerja tertentu (LGD, FGD, peran ditetapkan, pemeringkatan) — tanyakan rekruter atau alumnus terkini; jangan asumsikan dari pelajaran ini."
          }
         ]
        },
        {
         "kind": "template",
         "title": {
-         "en": "Three opening frames",
-         "id": "Tiga kerangka pembuka"
+         "en": "GD scorecard (Kit item, part 1)",
+         "id": "Kartu skor DK (butir Perangkat, bagian 1)"
         },
         "desc": {
-         "en": "Pick one in the first minute according to the case type.",
-         "id": "Pilih satu di menit pertama sesuai tipe kasus."
+         "en": "Six dimensions, one to four, with the 4-anchor. Use it to score others and yourself.",
+         "id": "Enam dimensi, satu sampai empat, dengan jangkar 4. Pakai untuk menilai orang lain dan dirimu."
         },
         "body": [
          {
-          "en": "Decision case (choose between options): criteria → score options → risks → recommendation",
-          "id": "Kasus keputusan (memilih antar opsi): kriteria → nilai opsi → risiko → rekomendasi"
+          "en": "Contribution quality — 4: ideas with reasons and a number from the brief; each advances the current state",
+          "id": "Kualitas kontribusi — 4: gagasan dengan alasan dan angka dari brief; masing-masing memajukan keadaan saat ini"
          },
          {
-          "en": "Problem case (something is wrong): define the problem → causes → options → quick wins vs long fixes",
-          "id": "Kasus masalah (ada yang salah): definisikan masalah → penyebab → opsi → kemenangan cepat vs perbaikan jangka panjang"
+          "en": "Collaboration — 4: explicitly builds on others’ points by name, invites quiet members, helps the group converge",
+          "id": "Kolaborasi — 4: secara eksplisit membangun poin orang lain dengan nama, mengundang anggota pendiam, membantu kelompok mengerucut"
          },
          {
-          "en": "Ethics or policy case (should we?): stakeholders → principles → consequences → position with safeguards",
-          "id": "Kasus etika atau kebijakan (haruskah kita?): pemangku kepentingan → prinsip → konsekuensi → posisi dengan pengaman"
+          "en": "Structuring — 4: proposes criteria, an agenda or a time split early; restates the task when the group drifts",
+          "id": "Menstruktur — 4: mengusulkan kriteria, agenda, atau pembagian waktu sejak awal; menyatakan ulang tugas saat kelompok melenceng"
+         },
+         {
+          "en": "Influence — 4: proposals adopted; concedes when shown a better point",
+          "id": "Pengaruh — 4: usulan diadopsi; mengalah saat ditunjukkan poin yang lebih baik"
+         },
+         {
+          "en": "Time and decision — 4: calls time; switches the group to concluding; summarises the decision and the open point",
+          "id": "Waktu dan keputusan — 4: memanggil waktu; mengalihkan kelompok ke menyimpulkan; merangkum keputusan dan poin terbuka"
+         },
+         {
+          "en": "Composure — 4: disagrees with a reason and a question; takes correction in one sentence",
+          "id": "Ketenangan — 4: tidak setuju dengan alasan dan pertanyaan; menerima koreksi dalam satu kalimat"
+         },
+         {
+          "en": "Anti-behaviour tallies: interruptions · repeats · personal remarks · hijacks · minutes of silence",
+          "id": "Hitungan anti-perilaku: selaan · pengulangan · komentar pribadi · pembajakan · menit diam"
          }
         ]
        },
        {
-        "kind": "checklist",
+        "kind": "worksheet",
         "title": {
-         "en": "Self-score after any practice session",
-         "id": "Nilai diri setelah sesi latihan"
+         "en": "Self-score after any practice session (retained)",
+         "id": "Nilai diri setelah sesi latihan apa pun (dipertahankan)"
         },
         "desc": {
-         "en": "Score honestly; ask a peer to score you too.",
-         "id": "Nilai dengan jujur; minta rekan menilaimu juga."
+         "en": "Eight yes/no lines from The Pack.",
+         "id": "Delapan baris ya/tidak dari The Pack."
         },
         "body": [
          {
-          "en": "I contributed in the first three minutes",
-          "id": "Aku berkontribusi di tiga menit pertama"
+          "en": "I contributed in the first three minutes · I built on someone else’s point by name at least twice · I invited a quiet member in · I proposed structure or criteria",
+          "id": "Saya berkontribusi dalam tiga menit pertama · Saya membangun poin orang lain dengan nama setidaknya dua kali · Saya mengundang anggota pendiam · Saya mengusulkan struktur atau kriteria"
          },
          {
-          "en": "I built on someone else’s point by name at least twice",
-          "id": "Aku membangun dari poin orang lain dengan menyebut nama setidaknya dua kali"
-         },
-         {
-          "en": "I invited a quiet member in",
-          "id": "Aku mengundang anggota yang pendiam"
-         },
-         {
-          "en": "I proposed structure or criteria",
-          "id": "Aku mengusulkan struktur atau kriteria"
-         },
-         {
-          "en": "I tracked time aloud once",
-          "id": "Aku menyebut waktu dengan lantang sekali"
-         },
-         {
-          "en": "I conceded a point gracefully",
-          "id": "Aku mengalah pada satu poin dengan anggun"
-         },
-         {
-          "en": "I summarised or supported the summary",
-          "id": "Aku merangkum atau mendukung rangkuman"
-         },
-         {
-          "en": "I never interrupted mid-sentence",
-          "id": "Aku tak pernah menyela di tengah kalimat"
+          "en": "I tracked time aloud once · I conceded a point gracefully · I summarised or supported the summary · I never interrupted mid-sentence",
+          "id": "Saya menyebut waktu dengan suara sekali · Saya mengalah dengan anggun · Saya merangkum atau mendukung rangkuman · Saya tidak pernah menyela di tengah kalimat"
          }
         ]
        }
       ]
-     },
-     "mistakes": {
-      "items": [
-       {
-        "h": {
-         "en": "Memorising a speech for the opening",
-         "id": "Menghafal pidato untuk pembukaan"
-        },
-        "fix": {
-         "en": "Openings that ignore what was just said read as rehearsed. Prepare a structure, then attach it to the live case.",
-         "id": "Pembukaan yang mengabaikan apa yang baru saja dikatakan terbaca seperti hafalan. Siapkan struktur, lalu lekatkan ke kasus yang sedang berjalan."
-        }
-       },
-       {
-        "h": {
-         "en": "One framework for every case",
-         "id": "Satu kerangka untuk semua kasus"
-        },
-        "fix": {
-         "en": "A cost-benefit frame on an ethics case looks tone-deaf. Carry three frames and pick in the first minute.",
-         "id": "Kerangka biaya-manfaat pada kasus etika tampak tidak peka. Bawa tiga kerangka dan pilih di menit pertama."
-        }
-       },
-       {
-        "h": {
-         "en": "Preparing content, not moves",
-         "id": "Menyiapkan konten, bukan langkah"
-        },
-        "fix": {
-         "en": "You cannot predict the topic. You can predict that you will need to open, build, redirect and summarise. Drill those.",
-         "id": "Kamu tak bisa menebak topiknya. Kamu bisa menebak bahwa kamu perlu membuka, membangun, mengalihkan, dan merangkum. Latih itu."
-        }
-       }
-      ]
-     },
-     "migratedFrom": "the-pack:10.2"
+     }
     },
     {
-     "n": "7.3",
-     "title": {
-      "en": "FGD / LGD Practice Simulation and Mock Session",
-      "id": "Simulasi Latihan FGD / LGD dan Sesi Mock"
-     },
-     "dur": {
-      "en": "30 min",
-      "id": "30 mnt"
-     },
-     "kind": "interactive",
+     "n": "7.2",
+     "kind": "reading",
      "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "Contributing Well — Roles, Moves and Phrases",
+      "id": "Berkontribusi dengan Baik — Peran, Langkah, dan Frasa"
+     },
      "overview": {
-      "en": "A full mock session: one case, five timed decision points, each asking what you would do in the moment — with assessor-view debriefs. Then the protocol for practising with real humans.",
-      "id": "Satu sesi mock yang utuh: satu kasus, lima titik keputusan berbatas waktu, masing-masing menanyakan apa yang akan kamu lakukan pada saat itu — lengkap dengan tinjauan dari sudut pandang asesor. Setelah itu, protokol untuk berlatih dengan manusia sungguhan."
+      "en": "Knowing the scorecard is not the same as producing it under noise, with six strangers and a clock. This lesson installs the moves. Six useful roles anyone can play — choose the one or two that fit you; a phrase bank in Indonesian and English for opening a structure, building, disagreeing respectfully, inviting, calling time and summarising; split-sheet notes that make your summary possible; a plan for quieter candidates built on three high-value interventions; the rules for online discussions; and the Indonesian dynamics — seniority, reluctance to disagree openly, musyawarah — that shape how the moves land. The current Rope’s two-minute opening, four contribution templates and endgame protocol are retained. The output is your group-assessment role plan, the first half of the Module 7 Kit item.",
+      "id": "Mengetahui kartu skor tidak sama dengan menghasilkannya di bawah kebisingan, dengan enam orang asing dan jam. Pelajaran ini memasang langkah-langkahnya. Enam peran berguna yang bisa dimainkan siapa pun — pilih satu atau dua yang cocok denganmu; bank frasa dalam bahasa Indonesia dan Inggris untuk membuka struktur, membangun, tidak setuju dengan hormat, mengundang, memanggil waktu, dan merangkum; catatan lembar terbagi yang memungkinkan rangkumanmu; rencana untuk kandidat pendiam yang dibangun dari tiga intervensi bernilai tinggi; aturan diskusi daring; dan dinamika Indonesia — senioritas, keengganan berbeda pendapat secara terbuka, musyawarah — yang membentuk bagaimana langkah-langkah itu mendarat. Pembukaan dua menit, empat templat kontribusi, dan protokol akhir The Rope saat ini dipertahankan. Keluarannya adalah rencana peran asesmen kelompokmu, paruh pertama butir Perangkat Modul 7."
      },
      "objectives": [
       {
-       "en": "Navigate five live decision points of a realistic FGD case.",
-       "id": "Melewati lima titik keputusan langsung dalam kasus FGD yang realistis."
+       "en": "Choose one or two roles that fit you and know the move each one produces.",
+       "id": "Memilih satu atau dua peran yang cocok denganmu dan tahu langkah yang dihasilkan masing-masing."
       },
       {
-       "en": "Practise the templates under simulated social pressure.",
-       "id": "Melatih templat-templat itu di bawah tekanan sosial yang disimulasikan."
+       "en": "Deliver the six move types in Indonesian from a phrase bank you have rehearsed.",
+       "id": "Menyampaikan enam jenis langkah dalam bahasa Indonesia dari bank frasa yang sudah kamu latih."
       },
       {
-       "en": "Set up a peer practice loop with rotating assessor roles.",
-       "id": "Membentuk putaran latihan bersama teman, dengan peran asesor yang bergilir."
+       "en": "Keep split-sheet notes and summarise from them at minus five minutes.",
+       "id": "Menyimpan catatan lembar terbagi dan merangkum darinya di lima menit terakhir."
+      },
+      {
+       "en": "Plan three high-value interventions and adapt them to online and Indonesian dynamics.",
+       "id": "Merencanakan tiga intervensi bernilai tinggi dan menyesuaikannya dengan dinamika daring dan Indonesia."
       }
      ],
-     "takeawaysLead": {
-      "en": "Every decision point in a discussion has a highest-tally move, and social pressure shrinks your repertoire to what you rehearsed. To rehearse it, you can:",
-      "id": "Setiap titik keputusan dalam diskusi punya langkah bernilai tertinggi, dan tekanan sosial menyusutkan repertoarmu menjadi hanya yang pernah kamu latih. Untuk melatihnya, kamu bisa:"
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Moves you can execute under noise",
+       "id": "Langkah yang bisa kamu jalankan di bawah kebisingan"
+      },
+      "intro": {
+       "en": "Preparation for a group discussion is not memorising current affairs. It is installing a small set of moves — an opening, four templates, an endgame — and the phrases that carry them.",
+       "id": "Persiapan diskusi kelompok bukan menghafal isu terkini. Ia memasang sekumpulan kecil langkah — pembukaan, empat templat, akhir — dan frasa yang membawanya."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Roles",
+         "id": "Peran"
+        },
+        "points": [
+         {
+          "en": "Initiator · Clarifier · Timekeeper · Analyst · Bridge-builder · Summariser. Anyone can play any; pick one or two that fit.",
+          "id": "Inisiator · Penjernih · Penjaga waktu · Analis · Penjembatan · Perangkum. Siapa pun bisa memainkan apa pun; pilih satu atau dua yang cocok."
+         },
+         {
+          "en": "Each role produces a scorecard tally on purpose.",
+          "id": "Tiap peran menghasilkan hitungan kartu skor dengan sengaja."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Moves and phrases",
+         "id": "Langkah dan frasa"
+        },
+        "points": [
+         {
+          "en": "Open a structure · build · disagree respectfully · invite · call time · summarise — each with an Indonesian phrase you have said aloud twenty times.",
+          "id": "Buka struktur · bangun · tidak setuju dengan hormat · undang · panggil waktu · rangkum — masing-masing dengan frasa Indonesia yang sudah kamu ucapkan dua puluh kali."
+         },
+         {
+          "en": "Every move names a person or a number.",
+          "id": "Setiap langkah menyebut orang atau angka."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Notes and the quiet plan",
+         "id": "Catatan dan rencana pendiam"
+        },
+        "points": [
+         {
+          "en": "Split sheet: brief facts | group points | open decisions. Summaries come from column three.",
+          "id": "Lembar terbagi: fakta brief | poin kelompok | keputusan terbuka. Rangkuman datang dari kolom tiga."
+         },
+         {
+          "en": "Quieter candidates: three planned interventions — structure early, one analysis, one summary. Quality over frequency.",
+          "id": "Kandidat pendiam: tiga intervensi terencana — struktur di awal, satu analisis, satu rangkuman. Kualitas di atas frekuensi."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Online and Indonesian dynamics",
+         "id": "Daring dan dinamika Indonesia"
+        },
+        "points": [
+         {
+          "en": "Online: raise hand, name who you build on, under forty-five seconds, camera on.",
+          "id": "Daring: angkat tangan, sebut siapa yang kamu bangun, di bawah empat puluh lima detik, kamera menyala."
+         },
+         {
+          "en": "Seniority deference and musyawarah are real; disagree with a reason and a question, and make sure a decision is reached.",
+          "id": "Penghormatan senioritas dan musyawarah itu nyata; tidak setuju dengan alasan dan pertanyaan, dan pastikan keputusan tercapai."
+         }
+        ]
+       }
+      ]
      },
-     "takeaways": [
-      {
-       "en": "Every decision point has a highest-tally move — and it is almost never the loudest one.",
-       "id": "Setiap titik keputusan punya satu langkah dengan turus tertinggi — dan hampir tidak pernah langkah yang paling nyaring."
-      },
-      {
-       "en": "Social pressure shrinks your repertoire to what you rehearsed; rehearse the templates aloud.",
-       "id": "Tekanan sosial menyempitkan repertoarmu hanya ke apa yang sudah kamu latih; latih templatnya dengan suara keras."
-      },
-      {
-       "en": "Three peer mocks with honest tallies teach more than thirty articles about FGDs.",
-       "id": "Tiga sesi mock bersama teman dengan turus yang jujur mengajarkan lebih banyak daripada tiga puluh artikel tentang FGD."
-      }
-     ],
      "sections": [
+      {
+       "icon": "users",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "50% 46%",
+       "h": {
+        "en": "Six useful roles — choose one or two",
+        "id": "Enam peran berguna — pilih satu atau dua"
+       },
+       "body": {
+        "en": "A role is not a title the group gives you; it is a move you decide to own so that it happens on purpose. Six roles cover the scorecard between them, and any candidate can play any of them. The <b>Initiator</b> proposes a structure in the first two minutes — criteria, an agenda, a time split — as a question. The <b>Clarifier</b> restates the task and the criteria when the group drifts (“sebentar — tugas kita memilih satu, bukan tiga, kan?”). The <b>Timekeeper</b> makes two time calls, at the midpoint and at minus five, and switches the group to concluding. The <b>Analyst</b> brings the numbers and facts from the brief into the discussion, by page (“di halaman dua, lead time-nya tiga belas hari”). The <b>Bridge-builder</b> connects opposing views by finding the assumption they share. The <b>Summariser</b> pulls the group to a decision and names what is agreed, what is open, and the condition. Choose <b>one or two</b> that fit how you think: an analytical candidate will find Analyst and Summariser natural; a sociable one, Bridge-builder and Clarifier; a structured one, Initiator and Timekeeper. Owning two guarantees two quality events; the phrase bank supplies the other two or three opportunistically. Do not try to play all six — that is the dominator’s path by another name.",
+        "id": "Peran bukan gelar yang diberikan kelompok kepadamu; ia langkah yang kamu putuskan untuk dimiliki agar terjadi dengan sengaja. Enam peran bersama-sama mencakup kartu skor, dan kandidat mana pun bisa memainkan yang mana pun. <b>Inisiator</b> mengusulkan struktur di dua menit pertama — kriteria, agenda, pembagian waktu — sebagai pertanyaan. <b>Penjernih</b> menyatakan ulang tugas dan kriteria saat kelompok melenceng (“sebentar — tugas kita memilih satu, bukan tiga, kan?”). <b>Penjaga waktu</b> membuat dua panggilan waktu, di titik tengah dan di lima menit terakhir, dan mengalihkan kelompok ke menyimpulkan. <b>Analis</b> membawa angka dan fakta dari brief ke diskusi, per halaman (“di halaman dua, lead time-nya tiga belas hari”). <b>Penjembatan</b> menghubungkan pandangan yang berlawanan dengan menemukan asumsi yang sama. <b>Perangkum</b> menarik kelompok ke keputusan dan menyebut yang disepakati, yang terbuka, dan syaratnya. Pilih <b>satu atau dua</b> yang cocok dengan cara berpikirmu: kandidat analitis akan merasa Analis dan Perangkum alami; yang supel, Penjembatan dan Penjernih; yang terstruktur, Inisiator dan Penjaga waktu. Memiliki dua menjamin dua peristiwa berkualitas; bank frasa memasok dua atau tiga lainnya secara oportunistik. Jangan coba memainkan keenamnya — itu jalan sang dominator dengan nama lain."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Role",
+          "id": "Peran"
+         },
+         {
+          "en": "The move",
+          "id": "Langkahnya"
+         },
+         {
+          "en": "When",
+          "id": "Kapan"
+         },
+         {
+          "en": "Scores under",
+          "id": "Dinilai di"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Initiator</b>",
+           "id": "<b>Inisiator</b>"
+          },
+          {
+           "en": "Proposes criteria, agenda, time split — as a question",
+           "id": "Mengusulkan kriteria, agenda, pembagian waktu — sebagai pertanyaan"
+          },
+          {
+           "en": "Minutes 1–3",
+           "id": "Menit 1–3"
+          },
+          {
+           "en": "Structuring",
+           "id": "Menstruktur"
+          }
+         ],
+         [
+          {
+           "en": "<b>Clarifier</b>",
+           "id": "<b>Penjernih</b>"
+          },
+          {
+           "en": "Restates the task and criteria when the group drifts",
+           "id": "Menyatakan ulang tugas dan kriteria saat kelompok melenceng"
+          },
+          {
+           "en": "Whenever needed",
+           "id": "Kapan pun diperlukan"
+          },
+          {
+           "en": "Structuring",
+           "id": "Menstruktur"
+          }
+         ],
+         [
+          {
+           "en": "<b>Timekeeper</b>",
+           "id": "<b>Penjaga waktu</b>"
+          },
+          {
+           "en": "Two time calls; switches the group to concluding",
+           "id": "Dua panggilan waktu; mengalihkan kelompok ke menyimpulkan"
+          },
+          {
+           "en": "Midpoint; minus five",
+           "id": "Titik tengah; lima menit terakhir"
+          },
+          {
+           "en": "Time and decision",
+           "id": "Waktu dan keputusan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Analyst</b>",
+           "id": "<b>Analis</b>"
+          },
+          {
+           "en": "Brings numbers and facts from the brief, by page",
+           "id": "Membawa angka dan fakta dari brief, per halaman"
+          },
+          {
+           "en": "Once the options are on the table",
+           "id": "Setelah opsi ada di meja"
+          },
+          {
+           "en": "Contribution quality",
+           "id": "Kualitas kontribusi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Bridge-builder</b>",
+           "id": "<b>Penjembatan</b>"
+          },
+          {
+           "en": "Connects opposing views through the assumption they share",
+           "id": "Menghubungkan pandangan berlawanan lewat asumsi yang sama"
+          },
+          {
+           "en": "When two members lock",
+           "id": "Saat dua anggota terkunci"
+          },
+          {
+           "en": "Collaboration · Composure",
+           "id": "Kolaborasi · Ketenangan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Summariser</b>",
+           "id": "<b>Perangkum</b>"
+          },
+          {
+           "en": "Names what is agreed, what is open, the condition; lands the decision",
+           "id": "Menyebut yang disepakati, yang terbuka, syaratnya; mendaratkan keputusan"
+          },
+          {
+           "en": "Minus five to the end",
+           "id": "Lima menit terakhir hingga akhir"
+          },
+          {
+           "en": "Time and decision · Influence",
+           "id": "Waktu dan keputusan · Pengaruh"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Two roles owned on purpose, plus the phrase bank for the rest — four to six quality events.",
+         "id": "Dua peran dimiliki dengan sengaja, plus bank frasa untuk sisanya — empat hingga enam peristiwa berkualitas."
+        }
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Moves and phrases — the bank, EN/ID",
+        "id": "Langkah dan frasa — banknya, EN/ID"
+       },
+       "body": {
+        "en": "Six move types cover the scorecard; each has a phrase you rehearse until it is reflex, because under noise you will not compose. <b>Opening a structure:</b> “Bagaimana kalau kita sepakati kriteria dulu, lalu nilai tiap opsi?” — offered as a question, so that the group adopting it is the point. The current Rope’s three-part opening is retained: define, split, decide (“sebelum ke solusi — kita sepakat dulu masalahnya apa? … lima menit penyebab, sepuluh opsi, sepuluh terakhir memutuskan? … dan cara memutuskannya — kriteria, atau suara terbanyak?”). <b>Building:</b> “Menambahkan poin Mas Andi soal biaya — di brief, logistik 40% dari biaya, jadi usulannya mengenai blok terbesar.” <b>Disagreeing respectfully:</b> “Saya melihatnya agak berbeda, karena…” followed by a question, never a verdict. <b>Inviting:</b> “Mbak Sari belum sempat berpendapat — bagaimana menurut Mbak?” with a reason if you have one (“Mbak tadi baca peraganya”). <b>Time:</b> “Kita punya sepuluh menit lagi — mungkin kita mulai mengerucut?” <b>Summarising:</b> “Jadi kita sepakat A karena B; yang masih terbuka C, yang bisa kita selesaikan dengan…”. Two more from the retained bank are worth their weight: the <b>concede</b> (“Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut…”), which scores Influence and Composure at once, and the <b>redirect</b> (“Kita punya delapan menit. Bisa kita parkir definisinya dan memutuskan antara A dan B?”). Every phrase names a person or a number; that specificity is what separates advancing from noise. Say each one aloud twenty times before the day; the full bank is in the resources card.",
+        "id": "Enam jenis langkah mencakup kartu skor; masing-masing punya frasa yang kamu latih sampai refleks, karena di bawah kebisingan kamu tidak akan menyusun. <b>Membuka struktur:</b> “Bagaimana kalau kita sepakati kriteria dulu, lalu nilai tiap opsi?” — ditawarkan sebagai pertanyaan, agar kelompok mengadopsinya adalah intinya. Pembukaan tiga bagian The Rope saat ini dipertahankan: definisikan, bagi, putuskan (“sebelum ke solusi — kita sepakat dulu masalahnya apa? … lima menit penyebab, sepuluh opsi, sepuluh terakhir memutuskan? … dan cara memutuskannya — kriteria, atau suara terbanyak?”). <b>Membangun:</b> “Menambahkan poin Mas Andi soal biaya — di brief, logistik 40% dari biaya, jadi usulannya mengenai blok terbesar.” <b>Tidak setuju dengan hormat:</b> “Saya melihatnya agak berbeda, karena…” diikuti pertanyaan, jangan pernah vonis. <b>Mengundang:</b> “Mbak Sari belum sempat berpendapat — bagaimana menurut Mbak?” dengan alasan jika ada (“Mbak tadi baca peraganya”). <b>Waktu:</b> “Kita punya sepuluh menit lagi — mungkin kita mulai mengerucut?” <b>Merangkum:</b> “Jadi kita sepakat A karena B; yang masih terbuka C, yang bisa kita selesaikan dengan…”. Dua lagi dari bank yang dipertahankan sangat berharga: <b>mengalah</b> (“Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut…”), yang mendapat nilai Pengaruh dan Ketenangan sekaligus, dan <b>mengarahkan ulang</b> (“Kita punya delapan menit. Bisa kita parkir definisinya dan memutuskan antara A dan B?”). Setiap frasa menyebut orang atau angka; kekhususan itulah yang memisahkan memajukan dari derau. Ucapkan masing-masing dua puluh kali sebelum harinya; bank lengkapnya ada di kartu sumber."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Move",
+          "id": "Langkah"
+         },
+         {
+          "en": "Indonesian",
+          "id": "Bahasa Indonesia"
+         },
+         {
+          "en": "English",
+          "id": "Bahasa Inggris"
+         },
+         {
+          "en": "Scores under",
+          "id": "Dinilai di"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Open a structure</b>",
+           "id": "<b>Buka struktur</b>"
+          },
+          {
+           "en": "“Bagaimana kalau kita sepakati kriteria dulu, lalu nilai tiap opsi?”",
+           "id": "“Bagaimana kalau kita sepakati kriteria dulu, lalu nilai tiap opsi?”"
+          },
+          {
+           "en": "“Shall we agree criteria first, then score each option?”",
+           "id": "“Shall we agree criteria first, then score each option?”"
+          },
+          {
+           "en": "Structuring",
+           "id": "Menstruktur"
+          }
+         ],
+         [
+          {
+           "en": "<b>Build</b>",
+           "id": "<b>Bangun</b>"
+          },
+          {
+           "en": "“Menambahkan poin Mas Andi soal biaya — di brief, …”",
+           "id": "“Menambahkan poin Mas Andi soal biaya — di brief, …”"
+          },
+          {
+           "en": "“Adding to Andi’s point on cost — the brief says …”",
+           "id": "“Adding to Andi’s point on cost — the brief says …”"
+          },
+          {
+           "en": "Collaboration · Contribution",
+           "id": "Kolaborasi · Kontribusi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Disagree respectfully</b>",
+           "id": "<b>Tidak setuju dengan hormat</b>"
+          },
+          {
+           "en": "“Saya melihatnya agak berbeda, karena … — bagaimana kalau …?”",
+           "id": "“Saya melihatnya agak berbeda, karena … — bagaimana kalau …?”"
+          },
+          {
+           "en": "“I see it a little differently, because … — what if …?”",
+           "id": "“I see it a little differently, because … — what if …?”"
+          },
+          {
+           "en": "Composure",
+           "id": "Ketenangan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Invite</b>",
+           "id": "<b>Undang</b>"
+          },
+          {
+           "en": "“Mbak Sari belum sempat berpendapat — bagaimana menurut Mbak?”",
+           "id": "“Mbak Sari belum sempat berpendapat — bagaimana menurut Mbak?”"
+          },
+          {
+           "en": "“Sari hasn’t had a chance yet — what’s your read?”",
+           "id": "“Sari hasn’t had a chance yet — what’s your read?”"
+          },
+          {
+           "en": "Collaboration",
+           "id": "Kolaborasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>Time</b>",
+           "id": "<b>Waktu</b>"
+          },
+          {
+           "en": "“Kita punya sepuluh menit lagi — mungkin kita mulai mengerucut?”",
+           "id": "“Kita punya sepuluh menit lagi — mungkin kita mulai mengerucut?”"
+          },
+          {
+           "en": "“We have ten minutes left — shall we start converging?”",
+           "id": "“We have ten minutes left — shall we start converging?”"
+          },
+          {
+           "en": "Time and decision",
+           "id": "Waktu dan keputusan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Summarise</b>",
+           "id": "<b>Rangkum</b>"
+          },
+          {
+           "en": "“Jadi kita sepakat A karena B; yang masih terbuka C, …”",
+           "id": "“Jadi kita sepakat A karena B; yang masih terbuka C, …”"
+          },
+          {
+           "en": "“So we agree A because B; the open question is C, …”",
+           "id": "“So we agree A because B; the open question is C, …”"
+          },
+          {
+           "en": "Time and decision · Influence",
+           "id": "Waktu dan keputusan · Pengaruh"
+          }
+         ],
+         [
+          {
+           "en": "<b>Concede</b>",
+           "id": "<b>Mengalah</b>"
+          },
+          {
+           "en": "“Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut …”",
+           "id": "“Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut …”"
+          },
+          {
+           "en": "“That’s fair — I was wrong about the scale. Given that, I’d go with …”",
+           "id": "“That’s fair — I was wrong about the scale. Given that, I’d go with …”"
+          },
+          {
+           "en": "Influence · Composure",
+           "id": "Pengaruh · Ketenangan"
+          }
+         ]
+        ]
+       }
+      },
       {
        "icon": "book",
        "h": {
-        "en": "The case",
-        "id": "Kasusnya"
+        "en": "Split-sheet notes",
+        "id": "Catatan lembar terbagi"
        },
        "body": {
-        "en": "You are one of eight candidates. The case: a university canteen operator runs 12 outlets; revenue is flat, three outlets lose money, students complain about queues at peak hours while off-peak capacity sits idle. The group must propose a turnaround plan in 30 minutes. Assessors: two, silent, back of the room. Work each decision point below as if live — commit to a move before revealing the assessor view.",
-        "id": "Kamu salah satu dari delapan kandidat. Kasusnya: seorang operator kantin universitas mengelola 12 gerai; pendapatan stagnan, tiga gerai merugi, mahasiswa mengeluhkan antrean di jam sibuk sementara di luar jam sibuk kapasitasnya menganggur. Kelompok harus mengusulkan rencana pemulihan dalam 30 menit. Asesor: dua orang, diam, di belakang ruangan. Kerjakan setiap titik keputusan di bawah ini seolah-olah sedang berlangsung — tetapkan langkahmu dulu sebelum membuka pandangan asesor."
+        "en": "The summary at minus five minutes is the highest-scoring twenty seconds in the format, and it is impossible without notes — nobody holds six people’s positions in their head under a clock. Before the discussion starts, divide your paper into three columns. <b>Brief facts:</b> the numbers and constraints from the case, by page, so the Analyst move is a glance away (“halaman dua: lead time 13 hari; halaman tiga: anggaran Rp 2 miliar”). <b>Group points:</b> one line per contribution, with the speaker’s name — “Andi: biaya; Sari: kapasitas gudang; Dimas: opsi 1, murah” — which makes every build and invitation nameable and shows you who has not spoken. <b>Open decisions:</b> what the group has agreed, what is still contested, and any condition someone attached — this column is your summary, written as the discussion goes. Write the names down discreetly in the first minute, from the introductions or the name cards; misnaming someone costs more than not naming them. Keep the pen moving while others talk — assessors read it as listening, and it is. When the time call comes, the summary is read from column three: agreed, open, condition.",
+        "id": "Rangkuman di lima menit terakhir adalah dua puluh detik paling bernilai dalam format ini, dan mustahil tanpa catatan — tak ada yang memegang posisi enam orang di kepala di bawah jam. Sebelum diskusi dimulai, bagi kertasmu menjadi tiga kolom. <b>Fakta brief:</b> angka dan kendala dari kasus, per halaman, agar langkah Analis tinggal sekali lirik (“halaman dua: lead time 13 hari; halaman tiga: anggaran Rp 2 miliar”). <b>Poin kelompok:</b> satu baris per kontribusi, dengan nama pembicara — “Andi: biaya; Sari: kapasitas gudang; Dimas: opsi 1, murah” — yang membuat setiap membangun dan undangan bisa disebut namanya dan menunjukkan siapa yang belum bicara. <b>Keputusan terbuka:</b> yang sudah disepakati kelompok, yang masih diperdebatkan, dan syarat apa pun yang dilekatkan seseorang — kolom ini adalah rangkumanmu, ditulis seiring diskusi berjalan. Tulis nama-nama dengan diam-diam di menit pertama, dari perkenalan atau kartu nama; salah menyebut nama lebih mahal daripada tidak menyebutnya. Biarkan pena bergerak saat orang lain bicara — asesor membacanya sebagai mendengarkan, dan memang begitu. Saat panggilan waktu datang, rangkuman dibaca dari kolom tiga: disepakati, terbuka, syarat."
+       },
+       "bullets": [
+        {
+         "en": "<b>Column 1 · Brief facts</b> — numbers and constraints by page; the Analyst’s glance.",
+         "id": "<b>Kolom 1 · Fakta brief</b> — angka dan kendala per halaman; lirikan Analis."
+        },
+        {
+         "en": "<b>Column 2 · Group points</b> — name: point; who has spoken and who has not.",
+         "id": "<b>Kolom 2 · Poin kelompok</b> — nama: poin; siapa yang sudah bicara dan siapa yang belum."
+        },
+        {
+         "en": "<b>Column 3 · Open decisions</b> — agreed, contested, condition; the summary writes itself.",
+         "id": "<b>Kolom 3 · Keputusan terbuka</b> — disepakati, diperdebatkan, syarat; rangkuman menulis dirinya sendiri."
+        },
+        {
+         "en": "<b>Names in minute one</b> — discreetly; a wrong name costs more than no name.",
+         "id": "<b>Nama di menit satu</b> — diam-diam; nama yang salah lebih mahal daripada tanpa nama."
+        }
+       ]
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Quieter candidates: three high-value interventions",
+        "id": "Kandidat pendiam: tiga intervensi bernilai tinggi"
+       },
+       "body": {
+        "en": "If you find group settings draining, do not try to become loud for a day; plan. Three interventions, decided before the room, cover three scorecard dimensions and are worth more than twenty minutes of talk. <b>One — structure early:</b> the opening question in minute two, rehearsed until it is automatic, because the first contribution is the hardest and the structure move is the easiest to deliver from a script. <b>Two — one analysis:</b> a number from column one of your notes, brought in when the options are on the table and tied to one of them (“di brief, opsi tiga yang paling langsung mengenai penyebabnya — halaman dua”). <b>Three — one summary:</b> at minus five, from column three, or visible support for whoever summarises with one improvement. Add an invitation if the group has a silent member — it costs one sentence and scores Collaboration at 4. That is four quality events across structure, evidence, inclusion and synthesis, delivered in under two minutes of airtime, and the assessors’ sheet has no column for how you felt while waiting. Quality over frequency: the quiet candidate with four planned events outscores the fluent one with none. What quiet candidates must not do is wait — the plan exists so that the first contribution happens at minute two whether or not you feel ready.",
+        "id": "Jika kamu merasa suasana kelompok menguras, jangan coba menjadi lantang untuk sehari; rencanakan. Tiga intervensi, diputuskan sebelum masuk ruangan, mencakup tiga dimensi kartu skor dan bernilai lebih dari dua puluh menit bicara. <b>Satu — struktur di awal:</b> pertanyaan pembuka di menit dua, dilatih sampai otomatis, karena kontribusi pertama paling sulit dan langkah struktur paling mudah disampaikan dari naskah. <b>Dua — satu analisis:</b> angka dari kolom satu catatanmu, dibawa saat opsi ada di meja dan dikaitkan dengan salah satunya (“di brief, opsi tiga yang paling langsung mengenai penyebabnya — halaman dua”). <b>Tiga — satu rangkuman:</b> di lima menit terakhir, dari kolom tiga, atau dukungan terlihat bagi siapa pun yang merangkum dengan satu perbaikan. Tambahkan undangan jika kelompok punya anggota diam — biayanya satu kalimat dan mendapat Kolaborasi 4. Itu empat peristiwa berkualitas lintas struktur, bukti, inklusi, dan sintesis, disampaikan dalam kurang dari dua menit waktu bicara, dan lembar asesor tidak punya kolom untuk perasaanmu saat menunggu. Kualitas di atas frekuensi: kandidat pendiam dengan empat peristiwa terencana mengungguli yang lancar tanpa satu pun. Yang tidak boleh dilakukan kandidat pendiam adalah menunggu — rencana ada agar kontribusi pertama terjadi di menit dua, siap atau tidak."
+       }
+      },
+      {
+       "icon": "gear",
+       "h": {
+        "en": "Online group discussions",
+        "id": "Diskusi kelompok daring"
+       },
+       "body": {
+        "en": "Online, the same behaviours are scored through a smaller window, and four rules keep them visible. <b>Use “raise hand”</b> rather than talking over; the assessor sees the queue and scores you for respecting it, and the dominator who ignores it scores the anti-behaviour. <b>Name the person you are building on</b> — online, the assessor cannot see where you are looking, so the name is the only evidence of listening (“menambahkan yang tadi disampaikan Mas Andi…”). <b>Keep contributions under forty-five seconds</b>: latency and small windows make long turns feel longer, and a scripted move fits comfortably. <b>Camera on</b>, framed as in Lesson 4.5, with your split sheet on paper beside the screen rather than in another window, so your eyes stay near the lens. Two more habits: mute when not speaking so the invitation you make is heard cleanly, and if the platform has a chat, use it only for a link or a number the group needs — a chat comment is not a scored contribution.",
+        "id": "Daring, perilaku yang sama dinilai lewat jendela yang lebih kecil, dan empat aturan menjaganya tetap terlihat. <b>Gunakan “angkat tangan”</b> alih-alih bicara menimpa; asesor melihat antreannya dan menilaimu karena menghormatinya, dan sang dominator yang mengabaikannya mendapat anti-perilaku. <b>Sebut nama orang yang kamu bangun</b> — daring, asesor tidak bisa melihat ke mana kamu memandang, jadi nama adalah satu-satunya bukti mendengarkan (“menambahkan yang tadi disampaikan Mas Andi…”). <b>Jaga kontribusi di bawah empat puluh lima detik</b>: latensi dan jendela kecil membuat giliran panjang terasa lebih panjang, dan langkah bernaskah pas dengan nyaman. <b>Kamera menyala</b>, dibingkai seperti di Pelajaran 4.5, dengan lembar terbagimu di kertas di samping layar bukan di jendela lain, agar matamu tetap dekat lensa. Dua kebiasaan lagi: bisukan saat tidak bicara agar undangan yang kamu buat terdengar bersih, dan jika platform punya obrolan, pakai hanya untuk tautan atau angka yang dibutuhkan kelompok — komentar obrolan bukan kontribusi yang dinilai."
+       }
+      },
+      {
+       "icon": "compass",
+       "h": {
+        "en": "Indonesian dynamics: seniority, open disagreement, musyawarah",
+        "id": "Dinamika Indonesia: senioritas, ketidaksetujuan terbuka, musyawarah"
+       },
+       "body": {
+        "en": "Three dynamics shape how the moves land in an Indonesian room, and the phrase bank is built for them. <b>Seniority deference:</b> a candidate who is older, or who has worked, or who simply speaks first with authority, will often be deferred to, and the group may drift toward their view without testing it. The respectful-disagreement phrase exists for this — “Saya melihatnya agak berbeda, Mas, karena di brief…” — a reason and a question, addressed with the honorific, which lets the group test the view without anyone losing face. <b>Reluctance to disagree openly:</b> many candidates will signal disagreement by silence or by a vague “mungkin bisa dipertimbangkan juga…”, which assessors cannot score. Make disagreement explicit and kind: name the point, give the reason, offer the alternative as a question. <b>Musyawarah:</b> consensus is valued, and a group that reaches a decision everyone can live with is scored well — but consensus is not the same as never deciding. The failure mode assessors see most in Indonesian groups is a warm, respectful discussion that ends at minute thirty with four half-agreed ideas and no choice. The Summariser and Timekeeper roles exist to prevent it: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” — consensus honoured, decision reached. The current Rope’s endgame protocol is retained: at minus five, someone must switch the group from exploring to concluding, and the person who lands the plane is remembered by name <span class=\"ev ev-contested\">Course guidance; group norms vary by employer and region</span>.",
+        "id": "Tiga dinamika membentuk bagaimana langkah-langkah mendarat di ruangan Indonesia, dan bank frasa dibangun untuknya. <b>Penghormatan senioritas:</b> kandidat yang lebih tua, atau yang sudah bekerja, atau yang sekadar bicara lebih dulu dengan wibawa, sering akan dihormati, dan kelompok bisa melenceng ke pandangannya tanpa mengujinya. Frasa ketidaksetujuan hormat ada untuk ini — “Saya melihatnya agak berbeda, Mas, karena di brief…” — alasan dan pertanyaan, disampaikan dengan sapaan hormat, yang memungkinkan kelompok menguji pandangan tanpa ada yang kehilangan muka. <b>Keengganan berbeda pendapat secara terbuka:</b> banyak kandidat akan menandakan ketidaksetujuan dengan diam atau dengan “mungkin bisa dipertimbangkan juga…” yang samar, yang tidak bisa dinilai asesor. Buat ketidaksetujuan eksplisit dan baik: sebut poinnya, beri alasannya, tawarkan alternatif sebagai pertanyaan. <b>Musyawarah:</b> mufakat dihargai, dan kelompok yang mencapai keputusan yang bisa diterima semua orang dinilai baik — tetapi mufakat tidak sama dengan tidak pernah memutuskan. Mode kegagalan yang paling sering dilihat asesor di kelompok Indonesia adalah diskusi hangat dan hormat yang berakhir di menit tiga puluh dengan empat gagasan setengah disepakati dan tanpa pilihan. Peran Perangkum dan Penjaga waktu ada untuk mencegahnya: “Kita sudah sepakat A dan B; untuk C, bagaimana kalau kita catat sebagai syarat dan putuskan sekarang?” — mufakat dihormati, keputusan tercapai. Protokol akhir The Rope saat ini dipertahankan: di lima menit terakhir, seseorang harus mengalihkan kelompok dari menjelajah ke menyimpulkan, dan orang yang mendaratkan pesawat diingat namanya <span class=\"ev ev-contested\">Panduan kursus; norma kelompok berbeda per pemberi kerja dan wilayah</span>."
        }
       }
      ],
      "diagram": {
       "type": "timeline",
       "exhibit": {
-       "en": "Exhibit 1: The mock session's five decision points — and the move that scores at each.",
-       "id": "Peraga 1: Lima titik keputusan dalam sesi simulasi — dan langkah yang mendapat nilai di masing-masing."
+       "en": "Exhibit 1: A thirty-minute discussion, four planned events",
+       "id": "Peraga 1: Diskusi tiga puluh menit, empat peristiwa terencana"
       },
       "title": {
-       "en": "Minute 0 → 6 → 14 → 22 → 25",
-       "id": "Menit 0 → 6 → 14 → 22 → 25"
+       "en": "Where the quality events go",
+       "id": "Ke mana peristiwa berkualitas pergi"
       },
       "items": [
        {
+        "icon": "compass",
         "h": {
-         "en": "Minute 0 · Silence",
-         "id": "Menit 0 · Keheningan"
+         "en": "Minute 0–1 · Names and columns",
+         "id": "Menit 0–1 · Nama dan kolom"
         },
         "sub": {
-         "en": "Offer the two-minute opening: define, split, decide",
-         "id": "Tawarkan pembukaan dua menit: definisikan, bagi, putuskan"
-        },
-        "icon": "flag"
+         "en": "Write the names discreetly; split the sheet into brief facts, group points, open decisions.",
+         "id": "Tulis nama diam-diam; bagi lembar menjadi fakta brief, poin kelompok, keputusan terbuka."
+        }
        },
        {
+        "icon": "target",
         "h": {
-         "en": "Minute 6 · The dominator",
-         "id": "Menit 6 · Sang dominator"
+         "en": "Minute 2 · Open a structure",
+         "id": "Menit 2 · Buka struktur"
         },
         "sub": {
-         "en": "A bridge or structure move that returns the floor — not a contest",
-         "id": "Langkah jembatan atau struktur yang mengembalikan pembicaraan — bukan perebutan"
-        },
-        "icon": "gear"
+         "en": "Define, split, decide — as a question. If someone else goes first, second it and improve one detail.",
+         "id": "Definisikan, bagi, putuskan — sebagai pertanyaan. Jika orang lain lebih dulu, dukung dan perbaiki satu detail."
+        }
        },
        {
+        "icon": "chart",
         "h": {
-         "en": "Minute 14 · Dismissed",
-         "id": "Menit 14 · Ditepis"
+         "en": "Minutes 8–15 · Build with a number; invite",
+         "id": "Menit 8–15 · Bangun dengan angka; undang"
         },
         "sub": {
-         "en": "Re-anchor to the case's numbers; concede what is fair, keep what holds",
-         "id": "Kembalikan ke angka kasus; akui yang wajar, pertahankan yang bertahan"
-        },
-        "icon": "target"
+         "en": "One analysis from column one, tied to an option by name; one invitation to the quiet member.",
+         "id": "Satu analisis dari kolom satu, dikaitkan dengan opsi dengan nama; satu undangan untuk anggota pendiam."
+        }
        },
        {
+        "icon": "clock",
         "h": {
-         "en": "Minute 22 · The quiet expert",
-         "id": "Menit 22 · Ahli yang pendiam"
+         "en": "Minute 15 · Midpoint call",
+         "id": "Menit 15 · Panggilan titik tengah"
         },
         "sub": {
-         "en": "A named invitation — the highest-tally move nobody takes",
-         "id": "Ajakan bernama — langkah bernilai tertinggi yang tak seorang pun ambil"
-        },
-        "icon": "eye"
+         "en": "“Setengah waktu — kita sudah punya opsi; mulai menilai dengan kriteria?”",
+         "id": "“Setengah waktu — kita sudah punya opsi; mulai menilai dengan kriteria?”"
+        }
        },
        {
+        "icon": "flag",
         "h": {
          "en": "Minute 25 · Land the plane",
          "id": "Menit 25 · Daratkan pesawat"
         },
         "sub": {
-         "en": "Name the agreements, park the open question, commit",
-         "id": "Sebutkan kesepakatan, tunda pertanyaan terbuka, berkomitmen"
-        },
-        "icon": "book"
+         "en": "Time call; summary from column three: agreed, open, condition. Volunteer or visibly support the report-out.",
+         "id": "Panggilan waktu; rangkuman dari kolom tiga: disepakati, terbuka, syarat. Ajukan diri atau dukung laporan dengan terlihat."
+        }
        }
       ],
+      "note": {
+       "en": "Under two minutes of airtime; four to six tallies across structure, evidence, inclusion and synthesis.",
+       "id": "Kurang dari dua menit waktu bicara; empat hingga enam hitungan lintas struktur, bukti, inklusi, dan sintesis."
+      },
       "longdesc": {
-       "en": "A five-point timeline of the mock session: at minute zero, break the silence with the two-minute opening; at minute six, handle the dominator with a bridge or structure move; at minute fourteen, re-anchor a dismissed idea to the case's numbers; at minute twenty-two, invite the quiet expert by name; at minute twenty-five, switch the group to concluding.",
-       "id": "Garis waktu lima titik dari sesi simulasi: di menit nol, pecahkan keheningan dengan pembukaan dua menit; di menit enam, tangani sang dominator dengan langkah jembatan atau struktur; di menit empat belas, kembalikan gagasan yang ditepis ke angka kasus; di menit dua puluh dua, ajak ahli yang pendiam dengan menyebut namanya; di menit dua puluh lima, alihkan kelompok ke menyimpulkan."
+       "en": "A five-stage timeline of a thirty-minute group discussion: names and note columns in the first minute; a structure proposal at minute two; a build with a number and an invitation between minutes eight and fifteen; a midpoint time call; and a time call with a summary at minute twenty-five.",
+       "id": "Lini masa lima tahap diskusi kelompok tiga puluh menit: nama dan kolom catatan di menit pertama; usulan struktur di menit dua; membangun dengan angka dan undangan antara menit delapan dan lima belas; panggilan waktu titik tengah; dan panggilan waktu dengan rangkuman di menit dua puluh lima."
       }
      },
-     "glossary": [
+     "compare": [
       {
-       "term": {
-        "en": "the dominator",
-        "id": "sang dominator"
+       "tag": {
+        "en": "Heat → reason and question",
+        "id": "Panas → alasan dan pertanyaan"
        },
-       "def": {
-        "en": "The candidate who holds the floor for minutes on one idea; the scoring response is a structure or bridge move that returns the floor to the group, not a contest for airtime.",
-        "id": "Kandidat yang menguasai pembicaraan bermenit-menit untuk satu gagasan; respons yang mendapat nilai adalah langkah struktur atau jembatan yang mengembalikan pembicaraan ke kelompok, bukan berebut waktu bicara."
-       }
-      },
-      {
-       "term": {
-        "en": "peer mock",
-        "id": "simulasi bersama rekan"
+       "q": {
+        "en": "A member proposes cutting the marketing budget entirely (retained from the current Rope).",
+        "id": "Seorang anggota mengusulkan memangkas anggaran pemasaran seluruhnya (dipertahankan dari The Rope saat ini)."
        },
-       "def": {
-        "en": "A practice discussion with three to five peers, one case, and a designated tally-keeper scoring the six behaviours — three of these teach more than thirty articles.",
-        "id": "Diskusi latihan dengan tiga hingga lima rekan, satu kasus, dan seorang pencatat yang menilai enam perilaku — tiga kali latihan ini mengajarkan lebih banyak daripada tiga puluh artikel."
+       "weak": {
+        "en": "“Itu nggak masuk akal — nggak bisa pemasaran dihapus begitu saja, itu cara perusahaan mati. Lagi pula, seperti yang saya bilang tadi…”",
+        "id": "“Itu nggak masuk akal — nggak bisa pemasaran dihapus begitu saja, itu cara perusahaan mati. Lagi pula, seperti yang saya bilang tadi…”"
+       },
+       "strong": {
+        "en": "“Menarik — itu membebaskan Rp 2 miliar. Yang saya khawatirkan, di brief 60% pelanggan baru datang dari kanal berbayar, jadi pemangkasan penuh berisiko ke pendapatan. Bagaimana kalau pemangkasan 50% untuk satu kuartal sebagai uji yang lebih aman? Mas Andi tadi mengangkat arus kas — apakah itu cukup menutup celahnya?”",
+        "id": "“Menarik — itu membebaskan Rp 2 miliar. Yang saya khawatirkan, di brief 60% pelanggan baru datang dari kanal berbayar, jadi pemangkasan penuh berisiko ke pendapatan. Bagaimana kalau pemangkasan 50% untuk satu kuartal sebagai uji yang lebih aman? Mas Andi tadi mengangkat arus kas — apakah itu cukup menutup celahnya?”"
+       },
+       "why": {
+        "en": "The weak turn dismisses the idea with heat, offers no reason from the brief, and swings the floor back to the speaker’s own earlier point — anti-behaviour tallies under Composure and Collaboration. The strong turn credits the idea, brings a case number (60% from paid channels), offers a testable middle as a question, and hands the floor onward by name — four tallies in one turn under Contribution, Composure, Influence and Collaboration, with zero heat. The retained lesson: every strong move names a person or a number.",
+        "id": "Giliran lemah menolak gagasan dengan panas, tidak memberi alasan dari brief, dan mengayunkan lantai kembali ke poin pembicara sendiri sebelumnya — hitungan anti-perilaku di Ketenangan dan Kolaborasi. Giliran kuat menghargai gagasan, membawa angka kasus (60% dari kanal berbayar), menawarkan jalan tengah yang bisa diuji sebagai pertanyaan, dan menyerahkan lantai dengan nama — empat hitungan dalam satu giliran di Kontribusi, Ketenangan, Pengaruh, dan Kolaborasi, tanpa panas. Pelajaran yang dipertahankan: setiap langkah kuat menyebut orang atau angka."
        }
       }
      ],
+     "scenario": {
+      "icon": "users",
+      "title": {
+       "en": "In focus: the three interventions Nadia planned",
+       "id": "Sorotan: tiga intervensi yang direncanakan Nadia"
+      },
+      "body": [
+       {
+        "en": "Nadia is not a natural talker in groups. For Arunika’s LGD she plans three interventions and writes them on the top of her split sheet the night before. One: the opening question, word for word — “Bagaimana kalau kita sepakati dua kriteria dulu, biaya dan dampak ke penyebab, lalu nilai tiap opsi? Lima menit?” Two: one analysis, to be delivered whenever the options are on the table — the lead-time number from page two, tied to whichever option addresses it. Three: the summary at minus five, in the shape agreed–open–condition. She also writes one invitation with a blank for the name.",
+        "id": "Nadia bukan pembicara alami dalam kelompok. Untuk LGD Arunika ia merencanakan tiga intervensi dan menulisnya di atas lembar terbaginya malam sebelumnya. Satu: pertanyaan pembuka, kata demi kata — “Bagaimana kalau kita sepakati dua kriteria dulu, biaya dan dampak ke penyebab, lalu nilai tiap opsi? Lima menit?” Dua: satu analisis, disampaikan kapan pun opsi ada di meja — angka lead time dari halaman dua, dikaitkan dengan opsi mana pun yang mengatasinya. Tiga: rangkuman di lima menit terakhir, dalam bentuk disepakati–terbuka–syarat. Ia juga menulis satu undangan dengan kolom kosong untuk nama."
+       },
+       {
+        "en": "On the day, Dimas proposes a structure before she can. She seconds it — “setuju, dan mungkin kita tambah satu kriteria: dampak ke penyebab, karena brief-nya soal kehabisan stok” — and the assessor’s pen moves for both. Her analysis lands at minute nine. The blank is filled with Sari’s name at minute fourteen. At minute twenty-four she reads column three aloud. Airtime: about a hundred seconds. Four tallies, one of which changed the group’s decision. The plan did what plans are for: it made the first contribution happen whether or not she felt ready.",
+        "id": "Pada harinya, Dimas mengusulkan struktur sebelum ia sempat. Ia mendukungnya — “setuju, dan mungkin kita tambah satu kriteria: dampak ke penyebab, karena brief-nya soal kehabisan stok” — dan pena asesor bergerak untuk keduanya. Analisisnya mendarat di menit sembilan. Kolom kosong diisi nama Sari di menit empat belas. Di menit dua puluh empat ia membaca kolom tiga dengan suara. Waktu bicara: sekitar seratus detik. Empat hitungan, salah satunya mengubah keputusan kelompok. Rencana itu melakukan tugasnya: membuat kontribusi pertama terjadi siap atau tidak."
+       }
+      ]
+     },
      "steps": [
       {
        "h": {
-        "en": "Minute 0 — Eight silent people",
-        "id": "Menit 0 — Delapan orang yang diam"
+        "en": "Drill 1 · Twenty repetitions of each phrase",
+        "id": "Latihan 1 · Dua puluh pengulangan tiap frasa"
        },
        "body": {
-        "en": "The moderator says “begin” and the table goes quiet. Nobody wants to be first. Your move?",
-        "id": "Moderator berkata “silakan mulai”, dan meja langsung hening. Tidak ada yang mau jadi yang pertama. Langkahmu?"
+        "en": "Take the seven phrases in the table and say each aloud twenty times, then once more with a real name and a real number from any case you have (the Arunika brief from Lesson 6.6 works). Record the last repetition of each and listen for heat words, hedges (“mungkin bisa dipertimbangkan juga…”) and missing names.",
+        "id": "Ambil tujuh frasa di tabel dan ucapkan masing-masing dua puluh kali, lalu sekali lagi dengan nama nyata dan angka nyata dari kasus mana pun yang kamu punya (brief Arunika dari Pelajaran 6.6 bisa). Rekam pengulangan terakhir masing-masing dan dengarkan kata panas, kata pengaman (“mungkin bisa dipertimbangkan juga…”), dan nama yang hilang."
        },
        "debrief": {
-        "en": "Open with structure, not brilliance: “Shall we spend two minutes agreeing the problem, ten on causes and options, and keep the last eight to decide and summarise? And maybe someone tracks time?” First-mover structure earns the session's cheapest tally, and asking for a timekeeper creates a role without claiming one. What not to do: open with your solution — a solution before a shared definition invites the first fight.",
-        "id": "Buka dengan struktur, bukan dengan ide cemerlang: “Bagaimana kalau dua menit untuk menyepakati masalahnya, sepuluh untuk penyebab dan opsi, dan delapan menit terakhir kita simpan untuk memutuskan dan merangkum? Mungkin ada yang mau menjaga waktu?” Struktur dari penggerak pertama mendapat turus termudah dalam sesi itu, dan meminta seorang penjaga waktu menciptakan peran tanpa merebutnya. Yang jangan dilakukan: membuka dengan solusimu — solusi sebelum ada definisi bersama mengundang pertengkaran pertama."
+        "en": "A phrase that still needs composing on repetition twenty is not yet a reflex; repeat it in the shower for a week. The respectful-disagreement phrase is the one most candidates soften into vagueness — if yours lost its reason or its question, it lost its score. The concede phrase is the one most candidates never practise; it is also the one that turns a lost argument into an Influence and Composure tally.",
+        "id": "Frasa yang masih perlu disusun di pengulangan dua puluh belum refleks; ulangi di kamar mandi selama seminggu. Frasa ketidaksetujuan hormat adalah yang paling sering dilunakkan kandidat menjadi samar — jika milikmu kehilangan alasan atau pertanyaannya, ia kehilangan nilainya. Frasa mengalah adalah yang paling jarang dilatih kandidat; ia juga yang mengubah argumen yang kalah menjadi hitungan Pengaruh dan Ketenangan."
        }
       },
       {
        "h": {
-        "en": "Minute 6 — The dominator",
-        "id": "Menit 6 — Si dominator"
+        "en": "Drill 2 · Your role plan",
+        "id": "Latihan 2 · Rencana peranmu"
        },
        "body": {
-        "en": "One candidate has spoken four minutes straight, repeating that “closing the three losing outlets is obvious”. Others exchange glances. Your move?",
-        "id": "Satu kandidat sudah bicara empat menit tanpa henti, mengulang-ulang bahwa “menutup tiga gerai yang merugi itu sudah jelas”. Yang lain saling melirik. Langkahmu?"
+        "en": "Write the first half of the Module 7 Kit item: the one or two roles you will own and why they fit you; your three planned interventions with the exact words for the first; your split-sheet headings; and the online variants of each move. Then run the ranking exercise from the blueprint on paper — five programme priorities for a village fund — as the Initiator: write the criteria you would propose and the time split.",
+        "id": "Tulis paruh pertama butir Perangkat Modul 7: satu atau dua peran yang akan kamu miliki dan mengapa cocok denganmu; tiga intervensi terencanamu dengan kata persis untuk yang pertama; judul lembar terbagimu; dan varian daring tiap langkah. Lalu jalankan latihan pemeringkatan dari cetak biru di kertas — lima prioritas program untuk dana desa — sebagai Inisiator: tulis kriteria yang akan kamu usulkan dan pembagian waktunya."
        },
        "debrief": {
-        "en": "Bridge plus evidence plus redirect, without confronting: “Closing them is one option — before we commit, the case says those three serve the night classes; do we know if the loss is the outlets or their hours? Maya, you flagged the queue data — does it say anything about timing?” You honoured the point, introduced the case's complicating number, and moved the floor. Assessors tally you for evidence and inclusion; the dominator's repetitions tally as one contribution, not five.",
-        "id": "Jembatani, bawa bukti, lalu alihkan — tanpa konfrontasi: “Menutupnya memang salah satu opsi — tapi sebelum kita komit, kasusnya menyebut ketiga gerai itu melayani kelas malam; apakah kita tahu ruginya karena gerainya atau karena jam operasinya? Maya, tadi kamu menyinggung data antrean — ada kaitannya dengan waktu?” Kamu menghargai poinnya, memasukkan angka dari kasus yang memperumit, dan memindahkan giliran bicara. Asesor memberimu turus untuk bukti dan inklusi; pengulangan si dominator dihitung satu kontribusi, bukan lima."
+        "en": "If your two roles are both “talking” roles (Initiator and Analyst) and none is a “landing” role (Timekeeper, Summariser), add one — the endgame is where discussions are won. For the village-fund ranking, criteria that work are the number of people affected, urgency, and cost per beneficiary; a time split that works is five minutes on criteria, fifteen on ranking, five to confirm. The Group Assessment Room specified in the blueprint would run this with scripted participants; until it is built, run it with two friends and the self-score sheet.",
+        "id": "Jika kedua peranmu adalah peran “bicara” (Inisiator dan Analis) dan tak satu pun peran “mendaratkan” (Penjaga waktu, Perangkum), tambahkan satu — akhirlah tempat diskusi dimenangkan. Untuk pemeringkatan dana desa, kriteria yang berhasil adalah jumlah orang yang terdampak, urgensi, dan biaya per penerima manfaat; pembagian waktu yang berhasil adalah lima menit kriteria, lima belas pemeringkatan, lima konfirmasi. Group Assessment Room yang ditentukan cetak biru akan menjalankan ini dengan peserta bernaskah; sampai dibangun, jalankan dengan dua teman dan lembar nilai diri."
        }
       },
       {
        "h": {
-        "en": "Minute 14 — Your idea gets dismissed",
-        "id": "Menit 14 — Idemu ditepis"
+        "en": "Drill 3 · The moves as stories, in the simulator",
+        "id": "Latihan 3 · Langkah sebagai cerita, di simulator"
        },
        "body": {
-        "en": "You propose staggered class-break schedules to flatten peak queues. A candidate waves it off: “Too complicated, universities never agree to that.” Two others nod. Your move?",
-        "id": "Kamu mengusulkan jadwal istirahat kelas yang dibuat bertingkat untuk meratakan antrean di jam sibuk. Seorang kandidat menepisnya: “Terlalu rumit, universitas tidak akan pernah setuju.” Dua orang lain mengangguk. Langkahmu?"
+        "en": "Run the tryit below with the Hiring Manager: a team member who did not contribute, working with someone very different from you, and a senior who handed you their work. Each answer should show one of the moves in a real situation — the invitation, the bridge, the respectful disagreement — with the person named and what you said.",
+        "id": "Jalankan tryit di bawah dengan Hiring Manager: anggota tim yang tidak berkontribusi, bekerja dengan orang yang sangat berbeda darimu, dan senior yang menyerahkan pekerjaannya kepadamu. Tiap jawaban harus menunjukkan salah satu langkah dalam situasi nyata — undangan, jembatan, ketidaksetujuan hormat — dengan orang disebut dan apa yang kamu katakan."
        },
        "debrief": {
-        "en": "One calm defence with evidence, then release: “Fair concern. The case does say the faculty already staggers exam schedules, so the mechanism exists — but if the group prefers operational fixes first, I'm with that; can we park scheduling as a phase-two idea?” You showed composure (the actual thing being tested when your idea is attacked), grounded it once, and traded it gracefully. Candidates who die defending small hills lose the composure tally; candidates who fold instantly lose the conviction tally. One defence, then flexibility, banks both.",
-        "id": "Satu pembelaan yang tenang dengan bukti, lalu lepaskan: “Kekhawatiran yang wajar. Tapi kasusnya menyebut fakultas sudah membuat jadwal ujian bertingkat, jadi mekanismenya sebenarnya ada — kalau kelompok lebih memilih perbaikan operasional dulu, saya ikut; bisakah penjadwalan kita parkir sebagai ide fase dua?” Kamu menunjukkan ketenangan (hal yang sebenarnya diuji ketika idemu diserang), memberinya dasar satu kali, lalu melepasnya dengan anggun. Kandidat yang mati-matian membela bukit kecil kehilangan turus ketenangan; kandidat yang langsung menyerah kehilangan turus keyakinan. Satu pembelaan, lalu fleksibel: keduanya aman."
-       }
-      },
-      {
-       "h": {
-        "en": "Minute 22 — The quiet expert",
-        "id": "Menit 22 — Si ahli yang pendiam"
-       },
-       "body": {
-        "en": "A candidate who mentioned working part-time in food service has said nothing for ten minutes. The group is debating kitchen capacity in circles. Your move?",
-        "id": "Seorang kandidat yang tadi sempat menyebut pernah kerja paruh waktu di layanan makanan sudah sepuluh menit tidak bicara. Kelompok berputar-putar memperdebatkan kapasitas dapur. Langkahmu?"
-       },
-       "debrief": {
-        "en": "The named invitation, with context: “Sari, you've actually worked in food service — from what you saw, is the bottleneck kitchen capacity or counter service?” This is the single highest-value tally available: it visibly improves the group's information, rescues a silent member, and costs you six seconds. If her answer is good, build on it and credit her again — assessors specifically watch whether inviters honour the answers they invited.",
-        "id": "Ajakan dengan menyebut nama, lengkap dengan konteksnya: “Sari, kamu kan pernah bekerja di layanan makanan — dari yang kamu lihat, hambatannya di kapasitas dapur atau di layanan konter?” Ini satu-satunya turus paling bernilai yang tersedia: terlihat jelas memperbaiki informasi kelompok, menyelamatkan anggota yang diam, dan hanya memakan enam detik waktumu. Kalau jawabannya bagus, bangun dari jawaban itu dan beri dia kredit sekali lagi — asesor secara khusus mengamati apakah orang yang mengajak benar-benar menghargai jawaban yang ia undang."
-       }
-      },
-      {
-       "h": {
-        "en": "Minute 25 — Nobody is landing the plane",
-        "id": "Menit 25 — Tidak ada yang mendaratkan pesawat"
-       },
-       "body": {
-        "en": "Five minutes left; the group has four half-agreed ideas and no decision. Your move — script it, then reveal.",
-        "id": "Sisa lima menit; kelompok punya empat ide yang setengah disepakati dan belum ada keputusan. Langkahmu — tulis naskahnya, lalu buka tinjauan."
-       },
-       "debrief": {
-        "en": "The endgame protocol verbatim: “Five minutes left — may I try to land us? I hear agreement on extending peak-hour counters and piloting one outlet conversion; scheduling and closures stay phase-two pending data. If we agree, who wants to give the summary — or I can.” Then the three-sentence report if it falls to you: problem, decision, main reason. This move alone reverses a failing session for the whole group — and assessors know exactly one person made it happen.",
-        "id": "Protokol penutup, kata demi kata: “Sisa lima menit — boleh saya coba mendaratkan kita? Saya dengar kita sepakat menambah konter di jam sibuk dan menguji coba konversi satu gerai; penjadwalan dan penutupan jadi fase dua, menunggu data. Kalau setuju, siapa yang mau menyampaikan rangkumannya — atau saya bisa.” Lalu, kalau tugas melapor jatuh padamu, laporan tiga kalimat: masalah, keputusan, alasan utama. Langkah ini sendirian membalikkan sesi yang nyaris gagal bagi seluruh kelompok — dan asesor tahu persis siapa satu orang yang mewujudkannya."
+        "en": "In the debrief, check whether each story contains the words you actually said — “saya bilang ke dia: …”. A story about inclusion with no quoted sentence is a claim; the quoted sentence is the evidence, and it is the same sentence you will say in the room on Saturday.",
+        "id": "Di debrief, periksa apakah tiap cerita memuat kata-kata yang benar-benar kamu ucapkan — “saya bilang ke dia: …”. Cerita tentang inklusi tanpa kalimat yang dikutip adalah klaim; kalimat yang dikutip adalah buktinya, dan itu kalimat yang sama yang akan kamu ucapkan di ruangan hari Sabtu."
        }
       }
      ],
@@ -30926,68 +31594,2486 @@ window.MT_LMS['the-rope'] = {
       "items": [
        {
         "h": {
-         "en": "Preparing content, not moves",
-         "id": "Menyiapkan isi, bukan langkah"
+         "en": "Playing all six roles",
+         "id": "Memainkan keenam peran"
         },
         "fix": {
-         "en": "You cannot predict the case; you can fully predict the moments — silence, dominator, dismissal, endgame. Rehearse the moves.",
-         "id": "Kasusnya tidak bisa kamu tebak; momen-momennya bisa kamu tebak sepenuhnya — hening, dominator, penolakan, penutup. Latih langkah-langkahnya."
+         "en": "Own one or two; let the phrase bank supply the rest.",
+         "id": "Miliki satu atau dua; biarkan bank frasa memasok sisanya."
         }
        },
        {
         "h": {
-         "en": "Practising alone",
-         "id": "Berlatih sendirian"
+         "en": "A disagreement without a reason or a question",
+         "id": "Ketidaksetujuan tanpa alasan atau pertanyaan"
         },
         "fix": {
-         "en": "Social pressure is the test. Three peers, one case from this module, rotating assessor with the six-behaviour tally sheet, 30 minutes plus 15 of feedback.",
-         "id": "Tekanan sosial itulah ujiannya. Tiga teman, satu kasus dari modul ini, asesor bergilir dengan lembar turus enam perilaku, 30 menit ditambah 15 menit umpan balik."
+         "en": "“Saya melihatnya agak berbeda, karena … — bagaimana kalau …?”",
+         "id": "“Saya melihatnya agak berbeda, karena … — bagaimana kalau …?”"
         }
        },
        {
         "h": {
-         "en": "Reviewing the feeling, not the tally",
-         "id": "Meninjau perasaan, bukan turus"
+         "en": "Signalling disagreement by silence",
+         "id": "Menandakan ketidaksetujuan dengan diam"
         },
         "fix": {
-         "en": "“It went okay” teaches nothing. Count your structure, inclusion, evidence and synthesis moves per session; raise the smallest count next time.",
-         "id": "“Tadi lumayan lah” tidak mengajarkan apa-apa. Hitung langkah struktur, inklusi, bukti, dan sintesismu di setiap sesi; naikkan hitungan yang paling kecil di sesi berikutnya."
+         "en": "Assessors cannot score a hedge; make it explicit and kind.",
+         "id": "Asesor tidak bisa menilai kata pengaman; buat eksplisit dan baik."
+        }
+       },
+       {
+        "h": {
+         "en": "A summary from memory",
+         "id": "Rangkuman dari ingatan"
+        },
+        "fix": {
+         "en": "Column three, written as the discussion goes: agreed, open, condition.",
+         "id": "Kolom tiga, ditulis seiring diskusi: disepakati, terbuka, syarat."
+        }
+       },
+       {
+        "h": {
+         "en": "Consensus that never decides",
+         "id": "Mufakat yang tak pernah memutuskan"
+        },
+        "fix": {
+         "en": "At minus five, switch the group to concluding; note the open point as a condition.",
+         "id": "Di lima menit terakhir, alihkan kelompok ke menyimpulkan; catat poin terbuka sebagai syarat."
         }
        }
       ]
      },
+     "glossary": [
+      {
+       "term": {
+        "en": "Role plan",
+        "id": "Rencana peran"
+       },
+       "def": {
+        "en": "The one or two roles you own on purpose, your three planned interventions, and the phrases for each — the first half of the Module 7 Kit item.",
+        "id": "Satu atau dua peran yang kamu miliki dengan sengaja, tiga intervensi terencanamu, dan frasa untuk masing-masing — paruh pertama butir Perangkat Modul 7."
+       }
+      },
+      {
+       "term": {
+        "en": "Split sheet",
+        "id": "Lembar terbagi"
+       },
+       "def": {
+        "en": "Notes in three columns — brief facts, group points by name, open decisions — from which the summary is read.",
+        "id": "Catatan dalam tiga kolom — fakta brief, poin kelompok dengan nama, keputusan terbuka — tempat rangkuman dibaca."
+       }
+      },
+      {
+       "term": {
+        "en": "Endgame protocol",
+        "id": "Protokol akhir"
+       },
+       "def": {
+        "en": "At minus five minutes, switching the group from exploring to concluding and summarising agreed, open, condition.",
+        "id": "Di lima menit terakhir, mengalihkan kelompok dari menjelajah ke menyimpulkan dan merangkum disepakati, terbuka, syarat."
+       }
+      },
+      {
+       "term": {
+        "en": "Musyawarah",
+        "id": "Musyawarah"
+       },
+       "def": {
+        "en": "The consensus norm in Indonesian groups — valued by assessors, but a decision must still be reached.",
+        "id": "Norma mufakat dalam kelompok Indonesia — dihargai asesor, tetapi keputusan tetap harus dicapai."
+       }
+      }
+     ],
      "checks": [
       {
        "q": {
-        "en": "Why does one calm defence followed by graceful release beat both instant folding and repeated defence?",
-        "id": "Mengapa satu pembelaan yang tenang lalu melepaskan dengan anggun lebih baik daripada langsung menyerah maupun membela berulang-ulang?"
+        "en": "A quieter candidate’s best plan for a thirty-minute discussion is…",
+        "id": "Rencana terbaik kandidat pendiam untuk diskusi tiga puluh menit adalah…"
        },
        "options": [
         {
-         "en": "Because it takes the least time",
-         "id": "Karena paling hemat waktu"
+         "en": "To speak as often as the loudest member",
+         "id": "Bicara sesering anggota paling lantang"
         },
         {
-         "en": "Because it evidences both conviction and flexibility — the two tallies the dismissal moment tests",
-         "id": "Karena itu membuktikan keyakinan sekaligus fleksibilitas — dua turus yang justru diuji pada momen idemu ditepis"
+         "en": "Three planned interventions — structure early, one analysis, one summary — plus an invitation if someone is silent",
+         "id": "Tiga intervensi terencana — struktur di awal, satu analisis, satu rangkuman — plus undangan jika ada yang diam"
         },
         {
-         "en": "Because assessors dislike all disagreement",
-         "id": "Karena asesor tidak suka perbedaan pendapat dalam bentuk apa pun"
+         "en": "To wait for a good moment",
+         "id": "Menunggu momen yang tepat"
+        },
+        {
+         "en": "To take notes only",
+         "id": "Hanya mencatat"
         }
        ],
        "correct": 1,
        "why": {
-        "en": "The attacked-idea moment is a composure probe: fold instantly and you show no spine; defend forever and you show no ears. One grounded defence, then flexibility, shows both.",
-        "id": "Momen ide diserang adalah ujian ketenangan: langsung menyerah berarti kamu tidak punya pendirian; membela terus-menerus berarti kamu tidak mau mendengar. Satu pembelaan berdasar, lalu fleksibel, menunjukkan keduanya."
+        "en": "Four quality events in under two minutes of airtime; quality over frequency, and the plan makes the first contribution happen.",
+        "id": "Empat peristiwa berkualitas dalam kurang dari dua menit waktu bicara; kualitas di atas frekuensi, dan rencana membuat kontribusi pertama terjadi."
+       }
+      },
+      {
+       "q": {
+        "en": "The group is warm and respectful and, at minute twenty-six, has four half-agreed ideas. The move that scores is…",
+        "id": "Kelompok hangat dan hormat dan, di menit dua puluh enam, punya empat gagasan setengah disepakati. Langkah yang dapat nilai…"
+       },
+       "options": [
+        {
+         "en": "Let the consensus continue",
+         "id": "Biarkan mufakat berlanjut"
+        },
+        {
+         "en": "A time call and a summary — agreed, open, condition — that lands a decision",
+         "id": "Panggilan waktu dan rangkuman — disepakati, terbuka, syarat — yang mendaratkan keputusan"
+        },
+        {
+         "en": "Propose a fifth idea",
+         "id": "Usulkan gagasan kelima"
+        },
+        {
+         "en": "Ask the assessors for more time",
+         "id": "Minta waktu lebih dari asesor"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Consensus is valued; never deciding is the failure mode assessors see most. The person who lands the plane is remembered.",
+        "id": "Mufakat dihargai; tidak pernah memutuskan adalah mode kegagalan yang paling sering dilihat asesor. Orang yang mendaratkan pesawat diingat."
+       }
+      },
+      {
+       "q": {
+        "en": "Online, the evidence that you listened to Andi is…",
+        "id": "Daring, bukti bahwa kamu mendengarkan Andi adalah…"
+       },
+       "options": [
+        {
+         "en": "Nodding",
+         "id": "Mengangguk"
+        },
+        {
+         "en": "Naming him when you build — “menambahkan yang disampaikan Mas Andi…”",
+         "id": "Menyebut namanya saat kamu membangun — “menambahkan yang disampaikan Mas Andi…”"
+        },
+        {
+         "en": "A chat comment",
+         "id": "Komentar obrolan"
+        },
+        {
+         "en": "Speaking right after him",
+         "id": "Bicara tepat setelahnya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The assessor cannot see where you look; the name is the only scored evidence of building.",
+        "id": "Asesor tidak bisa melihat ke mana kamu memandang; nama adalah satu-satunya bukti membangun yang dinilai."
        }
       }
      ],
-     "migratedFrom": "the-pack:10.3"
+     "tryit": {
+      "qid": "beh_member_no_contribution",
+      "set": [
+       "beh_member_no_contribution",
+       "beh_very_different_person",
+       "sit_senior_hands_work"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "The moves as stories: invite, bridge, disagree",
+       "id": "Langkah sebagai cerita: undang, jembatani, tidak setuju"
+      },
+      "desc": {
+       "en": "Three questions with the Hiring Manager, two probes each — a member who did not contribute, someone very different from you, a senior who handed you their work. Show the invitation, the bridge and the respectful disagreement as things you actually said, with the person named. The blueprint’s Group Assessment Room with scripted participants is not yet built; this is the phrase bank practised as evidence.",
+       "id": "Tiga pertanyaan dengan Hiring Manager, dua galian masing-masing — anggota yang tidak berkontribusi, orang yang sangat berbeda darimu, senior yang menyerahkan pekerjaannya. Tunjukkan undangan, jembatan, dan ketidaksetujuan hormat sebagai hal yang benar-benar kamu ucapkan, dengan orang disebut. Group Assessment Room cetak biru dengan peserta bernaskah belum dibangun; ini bank frasa dilatih sebagai bukti."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Own one or two roles on purpose; the phrase bank supplies the rest — four to six quality events.",
+       "id": "Miliki satu atau dua peran dengan sengaja; bank frasa memasok sisanya — empat hingga enam peristiwa berkualitas."
+      },
+      {
+       "en": "Every move names a person or a number; disagreement carries a reason and a question.",
+       "id": "Setiap langkah menyebut orang atau angka; ketidaksetujuan membawa alasan dan pertanyaan."
+      },
+      {
+       "en": "Split-sheet notes make the summary possible; at minus five, someone lands the plane — be that someone.",
+       "id": "Catatan lembar terbagi memungkinkan rangkuman; di lima menit terakhir, seseorang mendaratkan pesawat — jadilah orang itu."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The phrase bank, the opening frames and the reading list",
+       "id": "Bank frasa, kerangka pembuka, dan daftar bacaan"
+      },
+      "lead": {
+       "en": "The retained contribution lines, the three opening frames by case type, and the role-plan template.",
+       "id": "Baris kontribusi yang dipertahankan, tiga kerangka pembuka per tipe kasus, dan templat rencana peran."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.2",
+         "id": "Daftar bacaan · Pelajaran 7.2"
+        },
+        "desc": {
+         "en": "Moved from The Pack; the roles and dynamics are course guidance.",
+         "id": "Dipindahkan dari The Pack; peran dan dinamikanya panduan kursus."
+        },
+        "body": [
+         {
+          "en": "The Pack, Module 4 (the two-minute opening, four contribution templates, the endgame protocol, contribution lines) — moved here and retained.",
+          "id": "The Pack, Modul 4 (pembukaan dua menit, empat templat kontribusi, protokol akhir, baris kontribusi) — dipindahkan ke sini dan dipertahankan."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The six roles, the split sheet and the three-intervention plan are The Rope’s own working method; the Indonesian dynamics section describes common patterns, not rules.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Enam peran, lembar terbagi, dan rencana tiga intervensi adalah metode kerja The Rope sendiri; bagian dinamika Indonesia menggambarkan pola umum, bukan aturan."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> Whether a specific employer runs the discussion online or in person, and in which language — ask before the day.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Apakah pemberi kerja tertentu menjalankan diskusi daring atau tatap muka, dan dalam bahasa apa — tanyakan sebelum harinya."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Contribution lines and opening frames (retained)",
+         "id": "Baris kontribusi dan kerangka pembuka (dipertahankan)"
+        },
+        "desc": {
+         "en": "From The Pack’s group-assessment lessons.",
+         "id": "Dari pelajaran asesmen kelompok The Pack."
+        },
+        "body": [
+         {
+          "en": "OPEN: “Sebelum ke opsi, bisa kita sepakati dulu jawaban yang baik harus memenuhi apa? Saya usul tiga kriteria: …” · BUILD: “Menambahkan poin [Nama] soal biaya — kalau kita tambahkan lini masanya, opsi itu justru lebih kuat karena …” · INVITE: “[Nama] belum sempat berpendapat — bagaimana menurut Anda soal risikonya?”",
+          "id": "BUKA: “Sebelum ke opsi, bisa kita sepakati dulu jawaban yang baik harus memenuhi apa? Saya usul tiga kriteria: …” · BANGUN: “Menambahkan poin [Nama] soal biaya — kalau kita tambahkan lini masanya, opsi itu justru lebih kuat karena …” · UNDANG: “[Nama] belum sempat berpendapat — bagaimana menurut Anda soal risikonya?”"
+         },
+         {
+          "en": "REDIRECT: “Kita punya delapan menit. Bisa kita parkir definisinya dan memutuskan antara A dan B?” · CONCEDE: “Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut …” · SUMMARISE: “Jadi kita sepakat X karena Y; yang terbuka Z, yang kita selesaikan dengan …”",
+          "id": "ARAHKAN ULANG: “Kita punya delapan menit. Bisa kita parkir definisinya dan memutuskan antara A dan B?” · MENGALAH: “Itu adil — saya keliru soal skalanya. Kalau begitu saya ikut …” · RANGKUM: “Jadi kita sepakat X karena Y; yang terbuka Z, yang kita selesaikan dengan …”"
+         },
+         {
+          "en": "Decision case: criteria → score options → risks → recommendation · Problem case: define → causes → options → quick wins vs long fixes · Ethics or policy case: stakeholders → principles → consequences → position with safeguards",
+          "id": "Kasus keputusan: kriteria → nilai opsi → risiko → rekomendasi · Kasus masalah: definisikan → penyebab → opsi → kemenangan cepat vs perbaikan jangka panjang · Kasus etika atau kebijakan: pemangku kepentingan → prinsip → konsekuensi → posisi dengan pengaman"
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "Group-assessment role plan (Kit item, part 2)",
+         "id": "Rencana peran asesmen kelompok (butir Perangkat, bagian 2)"
+        },
+        "desc": {
+         "en": "One side of one page; written before the day.",
+         "id": "Satu sisi satu halaman; ditulis sebelum harinya."
+        },
+        "body": [
+         {
+          "en": "My roles (one or two) and why they fit · Intervention 1 (minute 2, exact words) · Intervention 2 (one analysis: the number and the option) · Intervention 3 (summary shape: agreed, open, condition) · One invitation with a blank name",
+          "id": "Peran saya (satu atau dua) dan mengapa cocok · Intervensi 1 (menit 2, kata persis) · Intervensi 2 (satu analisis: angka dan opsinya) · Intervensi 3 (bentuk rangkuman: disepakati, terbuka, syarat) · Satu undangan dengan nama kosong"
+         },
+         {
+          "en": "Split-sheet headings · the seven phrases I have said twenty times · online variants (raise hand, name, forty-five seconds, camera) · my anti-behaviour to watch (interrupting / repeating / hedging / silence)",
+          "id": "Judul lembar terbagi · tujuh frasa yang sudah saya ucapkan dua puluh kali · varian daring (angkat tangan, nama, empat puluh lima detik, kamera) · anti-perilaku saya yang diawasi (menyela / mengulang / kata pengaman / diam)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.3",
+     "kind": "reading",
+     "placeholder": false,
+     "dur": {
+      "en": "40 min",
+      "id": "40 mnt"
+     },
+     "title": {
+      "en": "In-Tray, Role-Play and Presentation Exercises",
+      "id": "Latihan In-Tray, Role-Play, dan Presentasi"
+     },
+     "overview": {
+      "en": "An assessment-centre day is rarely only a group discussion. The other exercises — an in-tray of twelve items and thirty minutes, a role-play with an actor playing an upset customer or a struggling staff member, a presentation prepared in twenty minutes — score the same competencies from different angles, and each has a method that most candidates never learn. This lesson gives you the in-tray method (skim, classify by urgency and importance, spot the linked items, decide, write short reasoning), the role-play protocol (read both briefs, listen first, use questions, aim for a workable agreement, stay in role), the presentation split (a third structure, a third content, a third rehearsal), and the logistics of the day itself — stamina, consistency, and the wash-up meeting where assessors integrate the scores. The in-tray method card is the second half of the Module 7 Kit item.",
+      "id": "Hari assessment center jarang hanya diskusi kelompok. Latihan lainnya — in-tray dua belas butir dalam tiga puluh menit, role-play dengan aktor yang memerankan pelanggan kesal atau staf yang kesulitan, presentasi yang disiapkan dalam dua puluh menit — menilai kompetensi yang sama dari sudut berbeda, dan masing-masing punya metode yang tak pernah dipelajari kebanyakan kandidat. Pelajaran ini memberimu metode in-tray (pindai, klasifikasi per urgensi dan kepentingan, temukan butir yang terkait, putuskan, tulis alasan singkat), protokol role-play (baca kedua brief, dengar dulu, gunakan pertanyaan, tuju kesepakatan yang bisa dijalankan, tetap dalam peran), pembagian presentasi (sepertiga struktur, sepertiga isi, sepertiga latihan), dan logistik harinya sendiri — stamina, konsistensi, dan rapat wash-up tempat asesor memadukan skor. Kartu metode in-tray adalah paruh kedua butir Perangkat Modul 7."
+     },
+     "objectives": [
+      {
+       "en": "Work an in-tray in five steps and defend each decision in one line.",
+       "id": "Mengerjakan in-tray dalam lima langkah dan mempertahankan tiap keputusan dalam satu baris."
+      },
+      {
+       "en": "Run a role-play by listening first, using questions and reaching a workable agreement in role.",
+       "id": "Menjalankan role-play dengan mendengar dulu, menggunakan pertanyaan, dan mencapai kesepakatan yang bisa dijalankan dalam peran."
+      },
+      {
+       "en": "Split presentation prep time three ways and deliver answer-first with Q&A handled.",
+       "id": "Membagi waktu persiapan presentasi tiga bagian dan menyampaikan jawaban-dulu dengan tanya jawab tertangani."
+      },
+      {
+       "en": "Pace an assessment-centre day for stamina and consistency, knowing how the wash-up works.",
+       "id": "Mengatur hari assessment center demi stamina dan konsistensi, dengan tahu cara kerja wash-up."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · 4 slides",
+       "id": "Baca dulu · 4 slide"
+      },
+      "title": {
+       "en": "Three exercises, one set of competencies",
+       "id": "Tiga latihan, satu set kompetensi"
+      },
+      "intro": {
+       "en": "Assessors are not testing whether you have run an inbox, calmed a customer or given a talk. They are watching for judgement, listening, structure and composure — in three different rooms on the same day.",
+       "id": "Asesor tidak menguji apakah kamu pernah mengelola kotak masuk, menenangkan pelanggan, atau memberi ceramah. Mereka mengamati penilaian, mendengarkan, struktur, dan ketenangan — di tiga ruangan berbeda pada hari yang sama."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "In-tray",
+         "id": "In-tray"
+        },
+        "points": [
+         {
+          "en": "Skim everything (five minutes) → classify by urgency × importance → spot linked items and conflicts → decide, delegate, schedule, respond → write short reasoning.",
+          "id": "Pindai semuanya (lima menit) → klasifikasi per urgensi × kepentingan → temukan butir terkait dan konflik → putuskan, delegasikan, jadwalkan, balas → tulis alasan singkat."
+         },
+         {
+          "en": "The linked items are the test: two meetings at the same time; a complaint tied to a supplier email.",
+          "id": "Butir terkait adalah ujiannya: dua rapat pada waktu yang sama; keluhan yang terkait dengan email pemasok."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Role-play",
+         "id": "Role-play"
+        },
+        "points": [
+         {
+          "en": "Read your brief and the other party’s likely interests. Listen first; questions before proposals; a workable agreement; stay in role.",
+          "id": "Baca brief-mu dan kemungkinan kepentingan pihak lain. Dengar dulu; pertanyaan sebelum usulan; kesepakatan yang bisa dijalankan; tetap dalam peran."
+         },
+         {
+          "en": "Upset customer, staff feedback, vendor negotiation — the same protocol.",
+          "id": "Pelanggan kesal, umpan balik staf, negosiasi vendor — protokol yang sama."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Presentation",
+         "id": "Presentasi"
+        },
+        "points": [
+         {
+          "en": "Prep time in thirds: structure, content, rehearsal. Answer first; one slide or flip-chart page per point; three questions anticipated.",
+          "id": "Waktu persiapan dalam sepertiga: struktur, isi, latihan. Jawaban dulu; satu slide atau halaman flip-chart per poin; tiga pertanyaan diantisipasi."
+         },
+         {
+          "en": "Lesson 6.5’s rules apply; the difference is the clock.",
+          "id": "Aturan Pelajaran 6.5 berlaku; bedanya jamnya."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "The day",
+         "id": "Harinya"
+        },
+        "points": [
+         {
+          "en": "Six to eight hours; four to six exercises; the same assessors rotate. Eat, drink, reset between rooms.",
+          "id": "Enam hingga delapan jam; empat hingga enam latihan; asesor yang sama bergilir. Makan, minum, atur ulang antar ruangan."
+         },
+         {
+          "en": "The wash-up integrates scores across exercises — consistency beats one brilliant hour.",
+          "id": "Wash-up memadukan skor lintas latihan — konsistensi mengalahkan satu jam brilian."
+         }
+        ]
+       }
+      ]
+     },
+     "sections": [
+      {
+       "icon": "book",
+       "img": "../../assets/bg/gauntlet/gate-03-assessment.jpg",
+       "imgPos": "50% 52%",
+       "h": {
+        "en": "The in-tray (e-tray) method",
+        "id": "Metode in-tray (e-tray)"
+       },
+       "body": {
+        "en": "You are handed a folder — or a simulated inbox on a screen — with ten to fifteen items: emails, memos, a calendar, a complaint, a report, a message from your boss who is away. Thirty minutes. Decide what to do with each and write a line of reasoning. The exercise scores prioritisation, judgement, delegation and written clarity, and it is failed by candidates who start answering item one in full before reading item twelve. The method has five steps. <b>Skim everything first</b> — five minutes, no decisions, one-line note per item, because the items are designed to interact. <b>Classify by urgency and importance</b>: urgent and important (do now), important not urgent (schedule), urgent not important (delegate or a short reply), neither (drop or file). <b>Spot the linked items and the conflicts</b> — this is the real test: two meetings at the same time; a customer complaint that links to a supplier email three items later; a request from your boss that contradicts a policy memo; a deadline that a colleague’s absence makes impossible. Assessors plant three or four of these, and finding them is most of the score. <b>Decide, delegate, schedule or respond</b> for each item, in the order of the classification, and where a response is needed write it short and in register. <b>Write short reasoning</b> — one line per item: what you did and why (“Ditunda ke Kamis — tidak mendesak, dan butuh angka dari laporan butir 7”). Leave three minutes at the end to check that the linked items were handled consistently. The in-tray method card in the resources is the Kit item.",
+        "id": "Kamu diberi map — atau kotak masuk simulasi di layar — dengan sepuluh hingga lima belas butir: email, memo, kalender, keluhan, laporan, pesan dari atasan yang sedang pergi. Tiga puluh menit. Putuskan apa yang dilakukan dengan masing-masing dan tulis satu baris alasan. Latihan ini menilai prioritisasi, penilaian, delegasi, dan kejelasan tertulis, dan gagal oleh kandidat yang mulai menjawab butir satu secara penuh sebelum membaca butir dua belas. Metodenya punya lima langkah. <b>Pindai semuanya dulu</b> — lima menit, tanpa keputusan, catatan satu baris per butir, karena butir-butirnya dirancang saling berinteraksi. <b>Klasifikasi per urgensi dan kepentingan</b>: mendesak dan penting (kerjakan sekarang), penting tidak mendesak (jadwalkan), mendesak tidak penting (delegasikan atau balasan singkat), tidak keduanya (buang atau arsipkan). <b>Temukan butir terkait dan konflik</b> — inilah ujian sebenarnya: dua rapat pada waktu yang sama; keluhan pelanggan yang terkait dengan email pemasok tiga butir kemudian; permintaan atasan yang bertentangan dengan memo kebijakan; tenggat yang mustahil karena ketidakhadiran rekan. Asesor menanam tiga atau empat ini, dan menemukannya adalah sebagian besar skor. <b>Putuskan, delegasikan, jadwalkan, atau balas</b> tiap butir, dalam urutan klasifikasi, dan jika perlu balasan tulis singkat dan dalam register. <b>Tulis alasan singkat</b> — satu baris per butir: apa yang kamu lakukan dan mengapa (“Ditunda ke Kamis — tidak mendesak, dan butuh angka dari laporan butir 7”). Sisakan tiga menit di akhir untuk memeriksa butir terkait ditangani konsisten. Kartu metode in-tray di kartu sumber adalah butir Perangkat."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Step",
+          "id": "Langkah"
+         },
+         {
+          "en": "Minutes (of 30)",
+          "id": "Menit (dari 30)"
+         },
+         {
+          "en": "Output",
+          "id": "Keluaran"
+         },
+         {
+          "en": "Scored as",
+          "id": "Dinilai sebagai"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>1 · Skim everything</b>",
+           "id": "<b>1 · Pindai semuanya</b>"
+          },
+          {
+           "en": "0–5",
+           "id": "0–5"
+          },
+          {
+           "en": "One-line note per item; no decisions yet",
+           "id": "Catatan satu baris per butir; belum ada keputusan"
+          },
+          {
+           "en": "Judgement (not answering item one first)",
+           "id": "Penilaian (tidak menjawab butir satu lebih dulu)"
+          }
+         ],
+         [
+          {
+           "en": "<b>2 · Classify</b>",
+           "id": "<b>2 · Klasifikasi</b>"
+          },
+          {
+           "en": "5–9",
+           "id": "5–9"
+          },
+          {
+           "en": "Do now · schedule · delegate or short reply · drop or file",
+           "id": "Kerjakan sekarang · jadwalkan · delegasikan atau balasan singkat · buang atau arsipkan"
+          },
+          {
+           "en": "Prioritisation",
+           "id": "Prioritisasi"
+          }
+         ],
+         [
+          {
+           "en": "<b>3 · Link and conflict</b>",
+           "id": "<b>3 · Kaitkan dan konflik</b>"
+          },
+          {
+           "en": "9–13",
+           "id": "9–13"
+          },
+          {
+           "en": "The three or four planted interactions found and noted",
+           "id": "Tiga atau empat interaksi yang ditanam ditemukan dan dicatat"
+          },
+          {
+           "en": "Judgement — most of the score",
+           "id": "Penilaian — sebagian besar skor"
+          }
+         ],
+         [
+          {
+           "en": "<b>4 · Decide, delegate, schedule, respond</b>",
+           "id": "<b>4 · Putuskan, delegasikan, jadwalkan, balas</b>"
+          },
+          {
+           "en": "13–26",
+           "id": "13–26"
+          },
+          {
+           "en": "An action per item; short replies in register where needed",
+           "id": "Satu tindakan per butir; balasan singkat dalam register jika perlu"
+          },
+          {
+           "en": "Delegation · written clarity",
+           "id": "Delegasi · kejelasan tertulis"
+          }
+         ],
+         [
+          {
+           "en": "<b>5 · Reasoning and check</b>",
+           "id": "<b>5 · Alasan dan periksa</b>"
+          },
+          {
+           "en": "26–30",
+           "id": "26–30"
+          },
+          {
+           "en": "One line per item; linked items handled consistently",
+           "id": "Satu baris per butir; butir terkait ditangani konsisten"
+          },
+          {
+           "en": "Judgement · consistency",
+           "id": "Penilaian · konsistensi"
+          }
+         ]
+        ]
+       }
+      },
+      {
+       "icon": "chat",
+       "h": {
+        "en": "Role-play: listen first, use questions, stay in role",
+        "id": "Role-play: dengar dulu, gunakan pertanyaan, tetap dalam peran"
+       },
+       "body": {
+        "en": "In a role-play you receive a brief — you are the new branch supervisor; a customer has been waiting forty minutes and is angry; or a team member has missed three deadlines; or a vendor wants a price rise — and after ten minutes’ preparation you meet a trained actor or an assessor playing the other party for ten to fifteen minutes. The actor has a brief too, with interests and a scripted escalation if you handle it badly. The protocol has five parts. <b>Read your brief and infer the other party’s likely interests</b>: the customer wants to be heard and to leave with something concrete; the staff member fears being blamed and wants a way out; the vendor wants margin and a long relationship. Write their interests in one line each. <b>Listen first</b>: open by asking, not by explaining — “Mohon maaf atas waktunya, Bu. Boleh saya dengar dulu apa yang terjadi?” — and let them finish; the actor is scripted to test whether you interrupt. <b>Use questions</b> before proposals: questions that surface the interest (“apa yang paling penting untuk Ibu hari ini?”), that check facts (“jadi pesanannya tanggal tiga, dan belum ada kabar sejak itu?”), and that test options (“kalau kami kirim besok dengan ongkos kami, apakah itu membantu?”). <b>Aim for a workable agreement</b>, not a win: something both parties can do by a date, said back to them in one sentence. And <b>stay in role</b> for the whole scene — no stepping out to explain what you would really do, no laughing at the actor’s escalation, no promising things your brief says you cannot. Composure is scored as in the group discussion: a raised voice from the actor is the test, and the score is your voice staying level.",
+        "id": "Dalam role-play kamu menerima brief — kamu supervisor cabang baru; seorang pelanggan sudah menunggu empat puluh menit dan marah; atau anggota tim melewatkan tiga tenggat; atau vendor ingin menaikkan harga — dan setelah sepuluh menit persiapan kamu bertemu aktor terlatih atau asesor yang memerankan pihak lain selama sepuluh hingga lima belas menit. Aktornya juga punya brief, dengan kepentingan dan eskalasi bernaskah jika kamu menanganinya dengan buruk. Protokolnya punya lima bagian. <b>Baca brief-mu dan simpulkan kemungkinan kepentingan pihak lain</b>: pelanggan ingin didengar dan pulang dengan sesuatu yang konkret; staf takut disalahkan dan ingin jalan keluar; vendor ingin margin dan hubungan panjang. Tulis kepentingan mereka satu baris masing-masing. <b>Dengar dulu</b>: buka dengan bertanya, bukan menjelaskan — “Mohon maaf atas waktunya, Bu. Boleh saya dengar dulu apa yang terjadi?” — dan biarkan mereka selesai; aktor bernaskah untuk menguji apakah kamu menyela. <b>Gunakan pertanyaan</b> sebelum usulan: pertanyaan yang memunculkan kepentingan (“apa yang paling penting untuk Ibu hari ini?”), yang memeriksa fakta (“jadi pesanannya tanggal tiga, dan belum ada kabar sejak itu?”), dan yang menguji opsi (“kalau kami kirim besok dengan ongkos kami, apakah itu membantu?”). <b>Tuju kesepakatan yang bisa dijalankan</b>, bukan kemenangan: sesuatu yang bisa dilakukan kedua pihak pada suatu tanggal, diucapkan kembali kepada mereka dalam satu kalimat. Dan <b>tetap dalam peran</b> sepanjang adegan — jangan keluar untuk menjelaskan apa yang sebenarnya akan kamu lakukan, jangan tertawa pada eskalasi aktor, jangan menjanjikan hal yang menurut brief-mu tidak bisa. Ketenangan dinilai seperti di diskusi kelompok: suara meninggi dari aktor adalah ujiannya, dan skornya adalah suaramu tetap datar."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Scene",
+          "id": "Adegan"
+         },
+         {
+          "en": "Their likely interest",
+          "id": "Kemungkinan kepentingan mereka"
+         },
+         {
+          "en": "Your opening question",
+          "id": "Pertanyaan pembukamu"
+         },
+         {
+          "en": "A workable agreement looks like",
+          "id": "Kesepakatan yang bisa dijalankan tampak seperti"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "<b>Upset customer</b> (waited forty minutes; wrong order)",
+           "id": "<b>Pelanggan kesal</b> (menunggu empat puluh menit; pesanan salah)"
+          },
+          {
+           "en": "To be heard; to leave with something concrete today",
+           "id": "Didengar; pulang dengan sesuatu yang konkret hari ini"
+          },
+          {
+           "en": "“Boleh saya dengar dulu apa yang terjadi, Bu?”",
+           "id": "“Boleh saya dengar dulu apa yang terjadi, Bu?”"
+          },
+          {
+           "en": "The correct order by a stated time, at the company’s cost, and one point of contact — said back in one sentence",
+           "id": "Pesanan yang benar pada waktu yang dinyatakan, atas biaya perusahaan, dan satu kontak — diucapkan kembali dalam satu kalimat"
+          }
+         ],
+         [
+          {
+           "en": "<b>Feedback to a staff member</b> (three missed deadlines)",
+           "id": "<b>Umpan balik ke staf</b> (tiga tenggat terlewat)"
+          },
+          {
+           "en": "Not to be blamed; a way out; to know what “good” looks like",
+           "id": "Tidak disalahkan; jalan keluar; tahu seperti apa “baik”"
+          },
+          {
+           "en": "“Saya ingin memahami dulu — apa yang membuat tiga laporan terakhir terlambat?”",
+           "id": "“Saya ingin memahami dulu — apa yang membuat tiga laporan terakhir terlambat?”"
+          },
+          {
+           "en": "One specific change, one support you provide, a check-in date",
+           "id": "Satu perubahan spesifik, satu dukungan yang kamu beri, tanggal tinjauan"
+          }
+         ],
+         [
+          {
+           "en": "<b>Vendor negotiation</b> (wants a 15% price rise)",
+           "id": "<b>Negosiasi vendor</b> (ingin kenaikan harga 15%)"
+          },
+          {
+           "en": "Margin; a long relationship; not to lose the account",
+           "id": "Margin; hubungan panjang; tidak kehilangan akun"
+          },
+          {
+           "en": "“Boleh saya tahu apa yang berubah di sisi Bapak sehingga 15%?”",
+           "id": "“Boleh saya tahu apa yang berubah di sisi Bapak sehingga 15%?”"
+          },
+          {
+           "en": "A smaller rise phased over two quarters against a volume commitment, or a review date",
+           "id": "Kenaikan lebih kecil bertahap dua kuartal dengan komitmen volume, atau tanggal tinjauan"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "Same protocol, three scenes: interests inferred, listen first, questions before proposals, agreement said back, in role throughout.",
+         "id": "Protokol sama, tiga adegan: kepentingan disimpulkan, dengar dulu, pertanyaan sebelum usulan, kesepakatan diucapkan kembali, dalam peran sepanjang waktu."
+        }
+       }
+      },
+      {
+       "icon": "target",
+       "h": {
+        "en": "Presentation exercises: thirds, answer first, Q&A",
+        "id": "Latihan presentasi: sepertiga, jawaban dulu, tanya jawab"
+       },
+       "body": {
+        "en": "The presentation exercise gives you a short brief and data — a proposal to evaluate, a problem to solve — twenty to thirty minutes to prepare, and five to ten minutes to present to one or two assessors, followed by questions. Everything in Lesson 6.5 applies; the difference is that the clock is now measured in minutes, so the preparation must be split before it starts. <b>A third on structure</b>: the decision sentence, the recommendation, three reasons as headings, the main risk — on one page before any content. <b>A third on content</b>: the number or fact under each heading, from the brief, and one visual per point on a flip chart or slide if provided. <b>A third on rehearsal</b>: once through aloud, quietly, with a watch, and the three questions you would ask written down with an answer each. Candidates who skip the third third — because the content “isn’t finished” — deliver an unstructured talk that runs over and dies in the Q&A; candidates who keep it deliver a shorter talk that lands. On the day: recommendation in the first thirty seconds, one point per page, the risk, then stop and invite questions. In the Q&A, the shapes from Lesson 6.5 — the assumption, the alternative, the implementation — and the correction taken in one sentence. Assessors are scoring structure, communication and composure under questioning, not slide design; a hand-drawn flip chart with three headings beats a decorated slide with none.",
+        "id": "Latihan presentasi memberimu brief singkat dan data — usulan untuk dievaluasi, masalah untuk dipecahkan — dua puluh hingga tiga puluh menit untuk bersiap, dan lima hingga sepuluh menit untuk presentasi kepada satu atau dua asesor, diikuti pertanyaan. Semua di Pelajaran 6.5 berlaku; bedanya jam kini diukur dalam menit, jadi persiapan harus dibagi sebelum dimulai. <b>Sepertiga untuk struktur</b>: kalimat keputusan, rekomendasi, tiga alasan sebagai judul, risiko utama — di satu halaman sebelum isi apa pun. <b>Sepertiga untuk isi</b>: angka atau fakta di bawah tiap judul, dari brief, dan satu visual per poin di flip chart atau slide jika disediakan. <b>Sepertiga untuk latihan</b>: sekali jalan dengan suara, pelan, dengan jam, dan tiga pertanyaan yang akan kamu ajukan ditulis dengan jawaban masing-masing. Kandidat yang melewati sepertiga terakhir — karena isinya “belum selesai” — menyampaikan ceramah tak terstruktur yang kelebihan waktu dan mati di tanya jawab; kandidat yang menjaganya menyampaikan ceramah lebih pendek yang mendarat. Pada harinya: rekomendasi di tiga puluh detik pertama, satu poin per halaman, risiko, lalu berhenti dan undang pertanyaan. Di tanya jawab, bentuk-bentuk dari Pelajaran 6.5 — asumsi, alternatif, implementasi — dan koreksi diterima dalam satu kalimat. Asesor menilai struktur, komunikasi, dan ketenangan di bawah pertanyaan, bukan desain slide; flip chart tulisan tangan dengan tiga judul mengalahkan slide berhias tanpa judul."
+       },
+       "bullets": [
+        {
+         "en": "<b>Structure third</b> — decision sentence, recommendation, three headings, the risk, on one page.",
+         "id": "<b>Sepertiga struktur</b> — kalimat keputusan, rekomendasi, tiga judul, risiko, di satu halaman."
+        },
+        {
+         "en": "<b>Content third</b> — one number per heading from the brief; one visual per point.",
+         "id": "<b>Sepertiga isi</b> — satu angka per judul dari brief; satu visual per poin."
+        },
+        {
+         "en": "<b>Rehearsal third</b> — once aloud with a watch; three questions with answers.",
+         "id": "<b>Sepertiga latihan</b> — sekali dengan suara dan jam; tiga pertanyaan dengan jawaban."
+        },
+        {
+         "en": "<b>In the room</b> — recommendation in thirty seconds; stop on time; corrections in one sentence.",
+         "id": "<b>Di ruangan</b> — rekomendasi dalam tiga puluh detik; berhenti tepat waktu; koreksi dalam satu kalimat."
+        }
+       ]
+      },
+      {
+       "icon": "clock",
+       "h": {
+        "en": "Assessment-centre day logistics: stamina, consistency, the wash-up",
+        "id": "Logistik hari assessment center: stamina, konsistensi, wash-up"
+       },
+       "body": {
+        "en": "A typical assessment centre runs six to eight hours with four to six exercises — a group discussion, an in-tray, a role-play, a presentation, an interview, sometimes a psychometric test — and the same three or four assessors rotate through them, each candidate seen by each assessor at least once. Three things follow. <b>Stamina</b>: the fourth exercise is scored as hard as the first, so eat at the breaks, drink water, and use the two minutes between rooms to reset — three slow breaths, the split sheet for the next exercise, the name of the next assessor. Candidates who peak in the morning discussion and fade in the afternoon role-play are scored on the fade. <b>Consistency across exercises</b>: assessors compare notes, and a candidate who was structured in the discussion and chaotic in the in-tray raises a question that the strong discussion cannot answer. Use the same habits everywhere — answer first, names and numbers, composure. <b>The wash-up meeting</b>: after the candidates leave, the assessors sit together and integrate their scores exercise by exercise, dimension by dimension, into one rating per candidate, with each assessor reading their evidence aloud. Your job during the day is to give every assessor something to read out: a structure proposal, a linked in-tray item found, a question that calmed the actor, a recommendation in thirty seconds. Ask about the day’s shape when you are invited — which exercises, how long, whether lunch is provided — and treat the answer as a schedule to pace, not a list to fear <span class=\"ev ev-verify\">Verify the specific employer’s assessment-centre format; the shape described here is typical, not universal</span>.",
+        "id": "Assessment center tipikal berjalan enam hingga delapan jam dengan empat hingga enam latihan — diskusi kelompok, in-tray, role-play, presentasi, wawancara, kadang tes psikometri — dan tiga atau empat asesor yang sama bergilir melaluinya, tiap kandidat dilihat tiap asesor setidaknya sekali. Tiga hal mengikuti. <b>Stamina</b>: latihan keempat dinilai sekeras yang pertama, jadi makan saat istirahat, minum air, dan gunakan dua menit antar ruangan untuk mengatur ulang — tiga napas pelan, lembar terbagi untuk latihan berikutnya, nama asesor berikutnya. Kandidat yang memuncak di diskusi pagi dan meredup di role-play sore dinilai pada redupnya. <b>Konsistensi lintas latihan</b>: asesor membandingkan catatan, dan kandidat yang terstruktur di diskusi dan kacau di in-tray memunculkan pertanyaan yang tak bisa dijawab diskusi yang kuat. Gunakan kebiasaan yang sama di mana pun — jawaban dulu, nama dan angka, ketenangan. <b>Rapat wash-up</b>: setelah kandidat pulang, asesor duduk bersama dan memadukan skor latihan demi latihan, dimensi demi dimensi, menjadi satu penilaian per kandidat, dengan tiap asesor membacakan buktinya. Tugasmu sepanjang hari adalah memberi setiap asesor sesuatu untuk dibacakan: usulan struktur, butir in-tray terkait yang ditemukan, pertanyaan yang menenangkan aktor, rekomendasi dalam tiga puluh detik. Tanyakan bentuk harinya saat diundang — latihan apa saja, berapa lama, apakah makan siang disediakan — dan perlakukan jawabannya sebagai jadwal untuk diatur, bukan daftar untuk ditakuti <span class=\"ev ev-verify\">Verifikasi format assessment center pemberi kerja tertentu; bentuk yang digambarkan di sini tipikal, bukan universal</span>."
+       },
+       "table": {
+        "cols": [
+         {
+          "en": "Time",
+          "id": "Waktu"
+         },
+         {
+          "en": "Exercise (typical)",
+          "id": "Latihan (tipikal)"
+         },
+         {
+          "en": "The habit to carry in",
+          "id": "Kebiasaan yang dibawa masuk"
+         },
+         {
+          "en": "What the assessor reads out at the wash-up",
+          "id": "Yang dibacakan asesor di wash-up"
+         }
+        ],
+        "rows": [
+         [
+          {
+           "en": "08.30",
+           "id": "08.30"
+          },
+          {
+           "en": "Briefing; introductions",
+           "id": "Pengarahan; perkenalan"
+          },
+          {
+           "en": "Write every name down",
+           "id": "Tulis setiap nama"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "09.00",
+           "id": "09.00"
+          },
+          {
+           "en": "Group discussion (30–40 min)",
+           "id": "Diskusi kelompok (30–40 mnt)"
+          },
+          {
+           "en": "The role plan: four planned events",
+           "id": "Rencana peran: empat peristiwa terencana"
+          },
+          {
+           "en": "“Structure adopted; two builds by name; landed the summary”",
+           "id": "“Struktur diadopsi; dua membangun dengan nama; mendaratkan rangkuman”"
+          }
+         ],
+         [
+          {
+           "en": "10.15",
+           "id": "10.15"
+          },
+          {
+           "en": "In-tray (30 min)",
+           "id": "In-tray (30 mnt)"
+          },
+          {
+           "en": "Skim first; find the linked items",
+           "id": "Pindai dulu; temukan butir terkait"
+          },
+          {
+           "en": "“Found the meeting clash and the supplier link; reasoning one line each”",
+           "id": "“Menemukan bentrokan rapat dan kaitan pemasok; alasan satu baris masing-masing”"
+          }
+         ],
+         [
+          {
+           "en": "11.15",
+           "id": "11.15"
+          },
+          {
+           "en": "Role-play (10 min prep + 15 min)",
+           "id": "Role-play (10 mnt persiapan + 15 mnt)"
+          },
+          {
+           "en": "Interests in one line; listen first",
+           "id": "Kepentingan dalam satu baris; dengar dulu"
+          },
+          {
+           "en": "“Let the customer finish; three questions; an agreement with a date”",
+           "id": "“Membiarkan pelanggan selesai; tiga pertanyaan; kesepakatan dengan tanggal”"
+          }
+         ],
+         [
+          {
+           "en": "12.00",
+           "id": "12.00"
+          },
+          {
+           "en": "Lunch",
+           "id": "Makan siang"
+          },
+          {
+           "en": "Eat; water; reset",
+           "id": "Makan; air; atur ulang"
+          },
+          {
+           "en": "—",
+           "id": "—"
+          }
+         ],
+         [
+          {
+           "en": "13.00",
+           "id": "13.00"
+          },
+          {
+           "en": "Presentation (20 min prep + 10 min + Q&A)",
+           "id": "Presentasi (20 mnt persiapan + 10 mnt + tanya jawab)"
+          },
+          {
+           "en": "Thirds; recommendation in thirty seconds",
+           "id": "Sepertiga; rekomendasi dalam tiga puluh detik"
+          },
+          {
+           "en": "“Answer first; took the correction on the denominator without arguing”",
+           "id": "“Jawaban dulu; menerima koreksi penyebut tanpa berdebat”"
+          }
+         ],
+         [
+          {
+           "en": "14.30",
+           "id": "14.30"
+          },
+          {
+           "en": "Competency interview (Module 6)",
+           "id": "Wawancara kompetensi (Modul 6)"
+          },
+          {
+           "en": "Story Bank; three-level probes",
+           "id": "Bank Cerita; galian tiga tingkat"
+          },
+          {
+           "en": "“Held detail to the third probe”",
+           "id": "“Menjaga detail sampai galian ketiga”"
+          }
+         ]
+        ],
+        "caption": {
+         "en": "An illustrative shape; the specific employer’s day will differ. Consistency across the rows is what the wash-up rewards.",
+         "id": "Bentuk ilustratif; hari pemberi kerja tertentu akan berbeda. Konsistensi lintas baris adalah yang dihargai wash-up."
+        }
+       }
+      }
+     ],
+     "diagram": {
+      "type": "flow",
+      "exhibit": {
+       "en": "Exhibit 1: The in-tray method",
+       "id": "Peraga 1: Metode in-tray"
+      },
+      "title": {
+       "en": "Skim → classify → link → act → reason",
+       "id": "Pindai → klasifikasi → kaitkan → tindak → alasan"
+      },
+      "items": [
+       {
+        "icon": "eye",
+        "h": {
+         "en": "Skim",
+         "id": "Pindai"
+        },
+        "sub": {
+         "en": "Five minutes, every item, one-line notes, no decisions.",
+         "id": "Lima menit, setiap butir, catatan satu baris, tanpa keputusan."
+        }
+       },
+       {
+        "icon": "target",
+        "h": {
+         "en": "Classify",
+         "id": "Klasifikasi"
+        },
+        "sub": {
+         "en": "Do now · schedule · delegate or short reply · drop.",
+         "id": "Kerjakan sekarang · jadwalkan · delegasikan atau balasan singkat · buang."
+        }
+       },
+       {
+        "icon": "compass",
+        "h": {
+         "en": "Link",
+         "id": "Kaitkan"
+        },
+        "sub": {
+         "en": "The planted interactions: clashes, chains, contradictions. Most of the score.",
+         "id": "Interaksi yang ditanam: bentrokan, rantai, kontradiksi. Sebagian besar skor."
+        }
+       },
+       {
+        "icon": "check",
+        "h": {
+         "en": "Act",
+         "id": "Tindak"
+        },
+        "sub": {
+         "en": "Decide, delegate, schedule, respond — short and in register.",
+         "id": "Putuskan, delegasikan, jadwalkan, balas — singkat dan dalam register."
+        }
+       },
+       {
+        "icon": "book",
+        "h": {
+         "en": "Reason",
+         "id": "Alasan"
+        },
+        "sub": {
+         "en": "One line per item; check linked items are consistent.",
+         "id": "Satu baris per butir; periksa butir terkait konsisten."
+        }
+       }
+      ],
+      "note": {
+       "en": "Thirty minutes: five, four, four, thirteen, four. The linked items are what assessors planted; find them before acting on anything.",
+       "id": "Tiga puluh menit: lima, empat, empat, tiga belas, empat. Butir terkait adalah yang ditanam asesor; temukan sebelum bertindak pada apa pun."
+      },
+      "longdesc": {
+       "en": "A five-stage flow for an in-tray exercise: skim every item in five minutes without deciding; classify each by urgency and importance; find the linked items and conflicts the assessors planted; act on each item by deciding, delegating, scheduling or responding; and write one line of reasoning per item, checking that linked items were handled consistently.",
+       "id": "Alur lima tahap untuk latihan in-tray: pindai setiap butir dalam lima menit tanpa memutuskan; klasifikasi masing-masing per urgensi dan kepentingan; temukan butir terkait dan konflik yang ditanam asesor; tindak tiap butir dengan memutuskan, mendelegasikan, menjadwalkan, atau membalas; dan tulis satu baris alasan per butir, memeriksa butir terkait ditangani konsisten."
+      }
+     },
+     "compare": [
+      {
+       "tag": {
+        "en": "Explaining → listening",
+        "id": "Menjelaskan → mendengarkan"
+       },
+       "q": {
+        "en": "Role-play: a customer has waited forty minutes at the counter for an order that arrived wrong, and opens with “Ini sudah ketiga kalinya! Kalian ini bagaimana sih?”",
+        "id": "Role-play: seorang pelanggan sudah menunggu empat puluh menit di konter untuk pesanan yang datang salah, dan membuka dengan “Ini sudah ketiga kalinya! Kalian ini bagaimana sih?”"
+       },
+       "weak": {
+        "en": "“Mohon maaf, Bu, tapi sebenarnya sistem kami baru diperbarui minggu ini, jadi memang ada beberapa kendala di pengiriman, dan tim kami sudah bekerja keras — kalau Ibu bisa tunjukkan struknya, nanti saya cek dulu di sistem, karena biasanya kalau pesanan salah itu dari pihak gudang, bukan dari kami di sini…”",
+        "id": "“Mohon maaf, Bu, tapi sebenarnya sistem kami baru diperbarui minggu ini, jadi memang ada beberapa kendala di pengiriman, dan tim kami sudah bekerja keras — kalau Ibu bisa tunjukkan struknya, nanti saya cek dulu di sistem, karena biasanya kalau pesanan salah itu dari pihak gudang, bukan dari kami di sini…”"
+       },
+       "strong": {
+        "en": "“Mohon maaf, Bu — empat puluh menit itu lama, dan ini yang ketiga kali. Boleh saya dengar dulu apa yang terjadi hari ini?” … (listens; the actor escalates once; she does not interrupt) … “Jadi pesanan tanggal tiga, datang hari ini, isinya salah, dan dua kali sebelumnya juga terlambat. Yang paling penting untuk Ibu sekarang — barang yang benar hari ini, atau uangnya kembali?” … “Baik. Saya bisa pastikan barang yang benar sampai ke rumah Ibu sebelum jam lima sore ini, ongkos kami, dan saya sendiri yang menghubungi Ibu jam tiga untuk konfirmasi. Untuk dua kejadian sebelumnya, saya catat dan sampaikan ke kepala cabang hari ini. Apakah itu membantu?”",
+        "id": "“Mohon maaf, Bu — empat puluh menit itu lama, dan ini yang ketiga kali. Boleh saya dengar dulu apa yang terjadi hari ini?” … (mendengarkan; aktor mengeskalasi sekali; ia tidak menyela) … “Jadi pesanan tanggal tiga, datang hari ini, isinya salah, dan dua kali sebelumnya juga terlambat. Yang paling penting untuk Ibu sekarang — barang yang benar hari ini, atau uangnya kembali?” … “Baik. Saya bisa pastikan barang yang benar sampai ke rumah Ibu sebelum jam lima sore ini, ongkos kami, dan saya sendiri yang menghubungi Ibu jam tiga untuk konfirmasi. Untuk dua kejadian sebelumnya, saya catat dan sampaikan ke kepala cabang hari ini. Apakah itu membantu?”"
+       },
+       "why": {
+        "en": "The weak response explains before listening, blames the system and the warehouse, asks for the receipt as a condition, and leaves the customer with nothing concrete — the actor’s script escalates. The strong response acknowledges the specific facts (forty minutes, third time), listens to the end without interrupting, checks the facts back, asks the interest question, and offers a workable agreement with a time, a cost owner and a named point of contact, said back in one sentence — then checks it. It stays in role throughout and promises only what a branch supervisor could deliver. Composure under the escalation is the score.",
+        "id": "Respons lemah menjelaskan sebelum mendengar, menyalahkan sistem dan gudang, meminta struk sebagai syarat, dan meninggalkan pelanggan tanpa sesuatu yang konkret — naskah aktor mengeskalasi. Respons kuat mengakui fakta spesifik (empat puluh menit, ketiga kali), mendengar sampai selesai tanpa menyela, memeriksa fakta kembali, mengajukan pertanyaan kepentingan, dan menawarkan kesepakatan yang bisa dijalankan dengan waktu, penanggung biaya, dan kontak bernama, diucapkan kembali dalam satu kalimat — lalu memeriksanya. Ia tetap dalam peran sepanjang waktu dan hanya menjanjikan yang bisa diberikan supervisor cabang. Ketenangan di bawah eskalasi adalah skornya."
+       }
+      }
+     ],
+     "scenario": {
+      "icon": "book",
+      "title": {
+       "en": "In focus: item four and item eleven",
+       "id": "Sorotan: butir empat dan butir sebelas"
+      },
+      "body": [
+       {
+        "en": "Nadia’s in-tray at Arunika’s assessment centre has twelve items and thirty minutes. Item one is an email from her manager asking for a sales summary by noon; the candidate beside her starts writing it immediately. Nadia skims all twelve first, one line each. Item four is a complaint from a Makassar retailer about a short delivery. Item seven is the calendar: a distributor review at ten and a team meeting at ten. Item eleven, from the distributor, mentions that “beberapa pesanan kecil digabung ke siklus berikutnya” — the retailer’s short delivery, three items earlier, in the distributor’s own words. Item nine is a policy memo saying customer complaints are answered within one working day.",
+        "id": "In-tray Nadia di assessment center Arunika punya dua belas butir dan tiga puluh menit. Butir satu adalah email dari manajernya meminta ringkasan penjualan sebelum tengah hari; kandidat di sebelahnya langsung mulai menulisnya. Nadia memindai kedua belasnya dulu, satu baris masing-masing. Butir empat adalah keluhan dari peritel Makassar tentang pengiriman kurang. Butir tujuh adalah kalender: tinjauan distributor jam sepuluh dan rapat tim jam sepuluh. Butir sebelas, dari distributor, menyebut bahwa “beberapa pesanan kecil digabung ke siklus berikutnya” — pengiriman kurang si peritel, tiga butir sebelumnya, dalam kata-kata distributor sendiri. Butir sembilan adalah memo kebijakan yang mengatakan keluhan pelanggan dijawab dalam satu hari kerja."
+       },
+       {
+        "en": "Her reasoning lines: item four, “Balas hari ini (memo butir 9); penyebabnya di butir 11 — bawa ke tinjauan distributor jam 10.” Item seven, “Bentrok: hadiri tinjauan distributor (butir 4 dan 11 bergantung padanya); delegasikan rapat tim ke Rudi dengan agenda.” Item one, “Ringkasan jam 12: jadwalkan 11.00–11.45 setelah tinjauan; angka dari laporan butir 6.” At the wash-up, the assessor reads out: found the complaint–distributor link, resolved the clash by importance, wrote the reasoning. The candidate who wrote the sales summary first ran out of time at item nine.",
+        "id": "Baris alasannya: butir empat, “Balas hari ini (memo butir 9); penyebabnya di butir 11 — bawa ke tinjauan distributor jam 10.” Butir tujuh, “Bentrok: hadiri tinjauan distributor (butir 4 dan 11 bergantung padanya); delegasikan rapat tim ke Rudi dengan agenda.” Butir satu, “Ringkasan jam 12: jadwalkan 11.00–11.45 setelah tinjauan; angka dari laporan butir 6.” Di wash-up, asesor membacakan: menemukan kaitan keluhan–distributor, menyelesaikan bentrokan berdasarkan kepentingan, menulis alasannya. Kandidat yang menulis ringkasan penjualan lebih dulu kehabisan waktu di butir sembilan."
+       }
+      ]
+     },
+     "steps": [
+      {
+       "h": {
+        "en": "Drill 1 · The twelve-item in-tray, thirty minutes",
+        "id": "Latihan 1 · In-tray dua belas butir, tiga puluh menit"
+       },
+       "body": {
+        "en": "The resources card holds a twelve-item in-tray (fictional: you are the new operations supervisor at a KilatPay regional office; your manager is away until Thursday). Set a timer for thirty minutes and work it with the five steps: skim, classify, link, act, reason. Do not read the model prioritisation until the timer ends.",
+        "id": "Kartu sumber memuat in-tray dua belas butir (fiktif: kamu supervisor operasi baru di kantor regional KilatPay; manajermu pergi sampai Kamis). Pasang pengatur waktu tiga puluh menit dan kerjakan dengan lima langkah: pindai, klasifikasi, kaitkan, tindak, alasan. Jangan baca prioritisasi model sampai pengatur waktu berakhir."
+       },
+       "debrief": {
+        "en": "There are four planted interactions: the two meetings at the same time (items 3 and 8); the merchant complaint (item 5) explained by the payment-gateway notice (item 10); the manager’s request (item 1) that conflicts with the finance policy memo (item 7); and the deadline in item 12 that item 9’s sick-leave message makes impossible without delegation. If you found three, that is a strong score; if you answered item one in full before skimming, that is the error the exercise is built to catch. Compare your reasoning lines with the model — the model’s decisions are one defensible set, not the only one; the reasoning is what is scored.",
+        "id": "Ada empat interaksi yang ditanam: dua rapat pada waktu yang sama (butir 3 dan 8); keluhan merchant (butir 5) yang dijelaskan pemberitahuan gerbang pembayaran (butir 10); permintaan manajer (butir 1) yang bertentangan dengan memo kebijakan keuangan (butir 7); dan tenggat di butir 12 yang mustahil karena pesan cuti sakit butir 9 tanpa delegasi. Jika kamu menemukan tiga, itu skor kuat; jika kamu menjawab butir satu secara penuh sebelum memindai, itulah kesalahan yang dirancang latihan ini untuk ditangkap. Bandingkan baris alasanmu dengan model — keputusan model adalah satu set yang bisa dipertahankan, bukan satu-satunya; alasanlah yang dinilai."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 2 · A presentation in twenty minutes",
+        "id": "Latihan 2 · Presentasi dalam dua puluh menit"
+       },
+       "body": {
+        "en": "Take the Arunika supply-chain case from Lesson 6.6 as the brief. Twenty minutes of preparation split in thirds — seven on structure, seven on content, six on rehearsal — then present for five minutes to a friend or a recording, and answer three questions the friend asks from the “kenapa kamu asumsikan / kenapa bukan / kalau dilakukan, apa yang berubah” families.",
+        "id": "Ambil kasus rantai pasok Arunika dari Pelajaran 6.6 sebagai brief. Dua puluh menit persiapan dibagi sepertiga — tujuh untuk struktur, tujuh untuk isi, enam untuk latihan — lalu presentasikan lima menit kepada teman atau rekaman, dan jawab tiga pertanyaan yang diajukan teman dari keluarga “kenapa kamu asumsikan / kenapa bukan / kalau dilakukan, apa yang berubah”."
+       },
+       "debrief": {
+        "en": "If the recommendation came after thirty seconds, or the talk ran past five minutes, the structure third was too short. If a question found an assumption you had not written down, the rehearsal third was skipped. The usual finding: candidates spend fifteen minutes on content and present a list; the third that felt least productive — rehearsal — is the one that would have made it a recommendation.",
+        "id": "Jika rekomendasi datang setelah tiga puluh detik, atau ceramah melewati lima menit, sepertiga struktur terlalu pendek. Jika pertanyaan menemukan asumsi yang belum kamu tulis, sepertiga latihan dilewati. Temuan biasanya: kandidat menghabiskan lima belas menit untuk isi dan mempresentasikan daftar; sepertiga yang terasa paling tidak produktif — latihan — adalah yang akan membuatnya menjadi rekomendasi."
+       }
+      },
+      {
+       "h": {
+        "en": "Drill 3 · Role-play in the simulator",
+        "id": "Latihan 3 · Role-play di simulator"
+       },
+       "body": {
+        "en": "Run the tryit below with the HR persona as a stand-in for the actor: a public complaint about your team, a frustrated customer you helped, and two stakeholders with conflicting deadlines. Answer each as you would act in the scene — the interest inferred, the listening move, the questions, the agreement said back — and hold your voice level through the probes.",
+        "id": "Jalankan tryit di bawah dengan persona HR sebagai pengganti aktor: keluhan publik tentang timmu, pelanggan kesal yang kamu bantu, dan dua pemangku kepentingan dengan tenggat yang bertentangan. Jawab masing-masing seperti kamu akan bertindak dalam adegan — kepentingan disimpulkan, langkah mendengar, pertanyaan, kesepakatan diucapkan kembali — dan jaga suaramu tetap datar melalui galian."
+       },
+       "debrief": {
+        "en": "In the debrief, check that each answer contained a question before a proposal and an agreement with a time or a date. If your first sentence in the complaint scenario was an explanation, that is the weak column of the compare above. The blueprint’s “upset customer” role-play persona is part of the simulator v3 work; until it exists, a friend reading the actor’s brief in the resources card is the better rehearsal.",
+        "id": "Di debrief, periksa bahwa tiap jawaban memuat pertanyaan sebelum usulan dan kesepakatan dengan waktu atau tanggal. Jika kalimat pertamamu di skenario keluhan adalah penjelasan, itu kolom lemah dari perbandingan di atas. Persona role-play “pelanggan kesal” cetak biru adalah bagian dari pekerjaan simulator v3; sampai ada, teman yang membaca brief aktor di kartu sumber adalah latihan yang lebih baik."
+       }
+      }
+     ],
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Answering item one before reading item twelve",
+         "id": "Menjawab butir satu sebelum membaca butir dua belas"
+        },
+        "fix": {
+         "en": "Skim everything first; the items are designed to interact.",
+         "id": "Pindai semuanya dulu; butir-butirnya dirancang saling berinteraksi."
+        }
+       },
+       {
+        "h": {
+         "en": "Explaining before listening",
+         "id": "Menjelaskan sebelum mendengar"
+        },
+        "fix": {
+         "en": "“Boleh saya dengar dulu apa yang terjadi?” — and let them finish.",
+         "id": "“Boleh saya dengar dulu apa yang terjadi?” — dan biarkan mereka selesai."
+        }
+       },
+       {
+        "h": {
+         "en": "Stepping out of role",
+         "id": "Keluar dari peran"
+        },
+        "fix": {
+         "en": "Stay in the scene; promise only what your brief allows.",
+         "id": "Tetap dalam adegan; janjikan hanya yang diizinkan brief-mu."
+        }
+       },
+       {
+        "h": {
+         "en": "Skipping the rehearsal third",
+         "id": "Melewati sepertiga latihan"
+        },
+        "fix": {
+         "en": "Once aloud with a watch; three questions answered on paper.",
+         "id": "Sekali dengan suara dan jam; tiga pertanyaan dijawab di kertas."
+        }
+       },
+       {
+        "h": {
+         "en": "Peaking in the morning",
+         "id": "Memuncak di pagi hari"
+        },
+        "fix": {
+         "en": "Eat, drink, reset between rooms; the wash-up rewards consistency.",
+         "id": "Makan, minum, atur ulang antar ruangan; wash-up menghargai konsistensi."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "In-tray",
+        "id": "In-tray"
+       },
+       "def": {
+        "en": "A timed exercise with ten to fifteen items — emails, memos, a calendar — scored on prioritisation, judgement, delegation and written reasoning.",
+        "id": "Latihan berwaktu dengan sepuluh hingga lima belas butir — email, memo, kalender — dinilai pada prioritisasi, penilaian, delegasi, dan alasan tertulis."
+       }
+      },
+      {
+       "term": {
+        "en": "Linked items",
+        "id": "Butir terkait"
+       },
+       "def": {
+        "en": "The interactions assessors plant in an in-tray — clashes, chains, contradictions — that carry most of the score.",
+        "id": "Interaksi yang ditanam asesor dalam in-tray — bentrokan, rantai, kontradiksi — yang membawa sebagian besar skor."
+       }
+      },
+      {
+       "term": {
+        "en": "Workable agreement",
+        "id": "Kesepakatan yang bisa dijalankan"
+       },
+       "def": {
+        "en": "The role-play outcome: something both parties can do by a date, said back in one sentence — not a win.",
+        "id": "Hasil role-play: sesuatu yang bisa dilakukan kedua pihak pada suatu tanggal, diucapkan kembali dalam satu kalimat — bukan kemenangan."
+       }
+      },
+      {
+       "term": {
+        "en": "Prep in thirds",
+        "id": "Persiapan sepertiga"
+       },
+       "def": {
+        "en": "Presentation preparation split equally between structure, content and rehearsal.",
+        "id": "Persiapan presentasi dibagi sama rata antara struktur, isi, dan latihan."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "Thirty minutes, twelve in-tray items. Your first five minutes go to…",
+        "id": "Tiga puluh menit, dua belas butir in-tray. Lima menit pertamamu untuk…"
+       },
+       "options": [
+        {
+         "en": "Answering item one, which is from your boss",
+         "id": "Menjawab butir satu, yang dari atasanmu"
+        },
+        {
+         "en": "Skimming all twelve with a one-line note each — the items are designed to interact, and the linked ones carry most of the score",
+         "id": "Memindai kedua belasnya dengan catatan satu baris masing-masing — butir-butirnya dirancang saling berinteraksi, dan yang terkait membawa sebagian besar skor"
+        },
+        {
+         "en": "Writing the reasoning",
+         "id": "Menulis alasannya"
+        },
+        {
+         "en": "Sorting by sender",
+         "id": "Mengurutkan per pengirim"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Skim, classify, link, act, reason; the candidate who answers item one first runs out of time at item nine.",
+        "id": "Pindai, klasifikasi, kaitkan, tindak, alasan; kandidat yang menjawab butir satu lebih dulu kehabisan waktu di butir sembilan."
+       }
+      },
+      {
+       "q": {
+        "en": "The role-play actor raises their voice. The score is…",
+        "id": "Aktor role-play meninggikan suara. Skornya adalah…"
+       },
+       "options": [
+        {
+         "en": "Whether you win the argument",
+         "id": "Apakah kamu memenangkan argumen"
+        },
+        {
+         "en": "Your voice staying level, listening to the end, a question before a proposal, and an agreement with a date",
+         "id": "Suaramu tetap datar, mendengar sampai selesai, pertanyaan sebelum usulan, dan kesepakatan dengan tanggal"
+        },
+        {
+         "en": "Stepping out of role to explain",
+         "id": "Keluar dari peran untuk menjelaskan"
+        },
+        {
+         "en": "Promising a refund immediately",
+         "id": "Menjanjikan pengembalian dana segera"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The escalation is scripted; composure, listening and a workable agreement are what it tests.",
+        "id": "Eskalasinya bernaskah; ketenangan, mendengarkan, dan kesepakatan yang bisa dijalankan adalah yang diujinya."
+       }
+      },
+      {
+       "q": {
+        "en": "At the wash-up meeting, assessors…",
+        "id": "Di rapat wash-up, asesor…"
+       },
+       "options": [
+        {
+         "en": "Score only the group discussion",
+         "id": "Hanya menilai diskusi kelompok"
+        },
+        {
+         "en": "Integrate scores across every exercise, reading their evidence aloud — so consistency across the day matters as much as one strong hour",
+         "id": "Memadukan skor lintas setiap latihan, membacakan buktinya — sehingga konsistensi sepanjang hari sama pentingnya dengan satu jam kuat"
+        },
+        {
+         "en": "Ask candidates to self-score",
+         "id": "Meminta kandidat menilai diri"
+        },
+        {
+         "en": "Decide by the interview alone",
+         "id": "Memutuskan dari wawancara saja"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Give every assessor something to read out; a morning peak and an afternoon fade are scored on the fade.",
+        "id": "Beri setiap asesor sesuatu untuk dibacakan; puncak pagi dan redup sore dinilai pada redupnya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "sit_public_complaint",
+      "set": [
+       "sit_public_complaint",
+       "beh_frustrated_customer",
+       "sit_conflicting_deadlines"
+      ],
+      "persona": "hr",
+      "profile": "screen",
+      "probes": 2,
+      "returnTo": 3,
+      "label": {
+       "en": "Role-play stand-in: complaint, customer, conflicting deadlines",
+       "id": "Pengganti role-play: keluhan, pelanggan, tenggat bertentangan"
+      },
+      "desc": {
+       "en": "Three situational questions with the HR persona standing in for the actor, two probes each — a public complaint about your team, a frustrated customer, and two stakeholders with conflicting deadlines. Answer as you would act in the scene: the interest, the listening move, the questions, the agreement said back. The blueprint’s “upset customer” role-play persona is not yet built.",
+       "id": "Tiga pertanyaan situasional dengan persona HR sebagai pengganti aktor, dua galian masing-masing — keluhan publik tentang timmu, pelanggan kesal, dan dua pemangku kepentingan dengan tenggat bertentangan. Jawab seperti kamu akan bertindak dalam adegan: kepentingan, langkah mendengar, pertanyaan, kesepakatan diucapkan kembali. Persona role-play “pelanggan kesal” cetak biru belum dibangun."
+      }
+     },
+     "takeaways": [
+      {
+       "en": "In-tray: skim first, find the planted links, one line of reasoning per item.",
+       "id": "In-tray: pindai dulu, temukan kaitan yang ditanam, satu baris alasan per butir."
+      },
+      {
+       "en": "Role-play: interests inferred, listen first, questions before proposals, an agreement with a date, in role throughout.",
+       "id": "Role-play: kepentingan disimpulkan, dengar dulu, pertanyaan sebelum usulan, kesepakatan dengan tanggal, dalam peran sepanjang waktu."
+      },
+      {
+       "en": "Prep in thirds; pace the day; give every assessor something to read out at the wash-up.",
+       "id": "Persiapan sepertiga; atur harinya; beri setiap asesor sesuatu untuk dibacakan di wash-up."
+      }
+     ],
+     "resources": {
+      "title": {
+       "en": "The in-tray drill, the method card and the actor’s brief",
+       "id": "Latihan in-tray, kartu metode, dan brief aktor"
+      },
+      "lead": {
+       "en": "A fictional twelve-item in-tray with model prioritisation, the in-tray method card that completes the Kit item, and a brief a friend can play from.",
+       "id": "In-tray dua belas butir fiktif dengan prioritisasi model, kartu metode in-tray yang melengkapi butir Perangkat, dan brief yang bisa dimainkan teman."
+      },
+      "items": [
+       {
+        "kind": "guide",
+        "title": {
+         "en": "Reading list · Lesson 7.3",
+         "id": "Daftar bacaan · Pelajaran 7.3"
+        },
+        "desc": {
+         "en": "The presentation rules come from Lesson 6.5; the rest is course method.",
+         "id": "Aturan presentasi berasal dari Pelajaran 6.5; sisanya metode kursus."
+        },
+        "body": [
+         {
+          "en": "The Rope, Lesson 6.5 (take-home tasks and presentations: answer first, the ten-minute rule, the Q&A families) — applied here under a shorter clock.",
+          "id": "The Rope, Pelajaran 6.5 (tugas take-home dan presentasi: jawaban dulu, aturan sepuluh menit, keluarga tanya jawab) — diterapkan di sini di bawah jam yang lebih pendek."
+         },
+         {
+          "en": "<span class=\"ev ev-contested\">Course guidance</span> The five-step in-tray method, the five-part role-play protocol and the thirds rule are The Rope’s own working methods.",
+          "id": "<span class=\"ev ev-contested\">Panduan kursus</span> Metode in-tray lima langkah, protokol role-play lima bagian, dan aturan sepertiga adalah metode kerja The Rope sendiri."
+         },
+         {
+          "en": "<span class=\"ev ev-verify\">Verify</span> The specific employer’s assessment-centre shape — which exercises, their length, whether an actor or an assessor plays the role — with the recruiter or a recent alumnus.",
+          "id": "<span class=\"ev ev-verify\">Verifikasi</span> Bentuk assessment center pemberi kerja tertentu — latihan apa saja, lamanya, apakah aktor atau asesor yang memerankan — dengan rekruter atau alumnus terkini."
+         }
+        ]
+       },
+       {
+        "kind": "worksheet",
+        "title": {
+         "en": "Drill in-tray · KilatPay regional operations (fictional, 12 items, 30 min)",
+         "id": "In-tray latihan · Operasi regional KilatPay (fiktif, 12 butir, 30 mnt)"
+        },
+        "desc": {
+         "en": "You are the new operations supervisor; your manager is away until Thursday. Today is Monday, 08.00.",
+         "id": "Kamu supervisor operasi baru; manajermu pergi sampai Kamis. Hari ini Senin, 08.00."
+        },
+        "body": [
+         {
+          "en": "1 · Email, manager: “Tolong kirim ringkasan transaksi merchant minggu lalu ke kantor pusat sebelum jam 12, pakai format lama.” · 2 · Memo: new merchant-onboarding target for the quarter · 3 · Calendar: distributor-partner review, Tuesday 10.00 · 4 · Email, HR: mandatory safety briefing, Tuesday 10.00–11.00 · 5 · WhatsApp, a large merchant: “Sejak Jumat 40% transaksi QRIS kami gagal — kalau tidak beres hari ini kami pindah.” · 6 · Weekly transaction report (the numbers item 1 needs)",
+          "id": "1 · Email, manajer: “Tolong kirim ringkasan transaksi merchant minggu lalu ke kantor pusat sebelum jam 12, pakai format lama.” · 2 · Memo: target onboarding merchant baru untuk kuartal ini · 3 · Kalender: tinjauan mitra distributor, Selasa 10.00 · 4 · Email, HR: pengarahan keselamatan wajib, Selasa 10.00–11.00 · 5 · WhatsApp, merchant besar: “Sejak Jumat 40% transaksi QRIS kami gagal — kalau tidak beres hari ini kami pindah.” · 6 · Laporan transaksi mingguan (angka yang dibutuhkan butir 1)"
+         },
+         {
+          "en": "7 · Finance policy memo (last week): “Mulai bulan ini, semua laporan ke kantor pusat wajib memakai format baru; format lama tidak diterima.” · 8 · Email, a colleague: “Bisa gantikan saya memimpin rapat tim Selasa jam 10? Saya ada urusan keluarga.” · 9 · Message, your best analyst: sick leave Monday–Wednesday · 10 · System notice (Friday, unread): payment-gateway update caused QRIS failures for merchants on the old app version; fix is to update the app · 11 · Invitation: optional vendor lunch, Wednesday · 12 · Email, regional head: “Analisis penyebab drop-off onboarding, Rabu pagi” — the analyst in item 9 was doing it",
+          "id": "7 · Memo kebijakan keuangan (minggu lalu): “Mulai bulan ini, semua laporan ke kantor pusat wajib memakai format baru; format lama tidak diterima.” · 8 · Email, rekan: “Bisa gantikan saya memimpin rapat tim Selasa jam 10? Saya ada urusan keluarga.” · 9 · Pesan, analis terbaikmu: cuti sakit Senin–Rabu · 10 · Pemberitahuan sistem (Jumat, belum dibaca): pembaruan gerbang pembayaran menyebabkan kegagalan QRIS bagi merchant di versi aplikasi lama; solusinya perbarui aplikasi · 11 · Undangan: makan siang vendor opsional, Rabu · 12 · Email, kepala regional: “Analisis penyebab drop-off onboarding, Rabu pagi” — analis di butir 9 yang mengerjakannya"
+         },
+         {
+          "en": "Model prioritisation (one defensible set): DO NOW — 5 (call the merchant this morning; the cause is item 10: walk them through the app update; confirm by 11.00) · 1 (send by 12.00 in the NEW format per item 7; note the change to the manager; numbers from item 6). SCHEDULE — 12 (reassign to yourself or a second analyst today given item 9; agree Wednesday scope with the regional head). RESOLVE CLASH — 3 vs 4 vs 8 (Tuesday 10.00): attend the distributor review (item 5’s merchant depends on the partner); ask HR for the next safety-briefing slot; decline item 8 and suggest another team member with an agenda. DELEGATE / SHORT REPLY — 8, 2 (read; plan Thursday with the manager). DROP / FILE — 11. Four planted links: 3–4–8 clash; 5–10 cause; 1–7 contradiction; 12–9 capacity.",
+          "id": "Prioritisasi model (satu set yang bisa dipertahankan): KERJAKAN SEKARANG — 5 (telepon merchant pagi ini; penyebabnya butir 10: pandu pembaruan aplikasi; konfirmasi sebelum 11.00) · 1 (kirim sebelum 12.00 dalam format BARU sesuai butir 7; catat perubahannya ke manajer; angka dari butir 6). JADWALKAN — 12 (alihkan ke dirimu atau analis kedua hari ini mengingat butir 9; sepakati cakupan Rabu dengan kepala regional). SELESAIKAN BENTROKAN — 3 vs 4 vs 8 (Selasa 10.00): hadiri tinjauan distributor (merchant butir 5 bergantung pada mitra); minta HR slot pengarahan keselamatan berikutnya; tolak butir 8 dan usulkan anggota tim lain dengan agenda. DELEGASIKAN / BALASAN SINGKAT — 8, 2 (baca; rencanakan Kamis dengan manajer). BUANG / ARSIPKAN — 11. Empat kaitan yang ditanam: bentrokan 3–4–8; penyebab 5–10; kontradiksi 1–7; kapasitas 12–9."
+         }
+        ]
+       },
+       {
+        "kind": "template",
+        "title": {
+         "en": "In-tray method card (Kit item, part 3) and the actor’s brief",
+         "id": "Kartu metode in-tray (butir Perangkat, bagian 3) dan brief aktor"
+        },
+        "desc": {
+         "en": "The five steps with minutes, and a brief a friend can play the upset customer from.",
+         "id": "Lima langkah dengan menit, dan brief yang bisa dimainkan teman sebagai pelanggan kesal."
+        },
+        "body": [
+         {
+          "en": "Skim (5) → Classify: do now · schedule · delegate or short reply · drop (4) → Link and conflict: clashes, chains, contradictions, capacity (4) → Act: decide, delegate, schedule, respond — short, in register (13) → Reason: one line per item; check linked items agree (4)",
+          "id": "Pindai (5) → Klasifikasi: kerjakan sekarang · jadwalkan · delegasikan atau balasan singkat · buang (4) → Kaitkan dan konflik: bentrokan, rantai, kontradiksi, kapasitas (4) → Tindak: putuskan, delegasikan, jadwalkan, balas — singkat, dalam register (13) → Alasan: satu baris per butir; periksa butir terkait selaras (4)"
+         },
+         {
+          "en": "Actor’s brief (for a friend): “You have waited forty minutes; the order that arrived is wrong; it is the third problem in two months. You want to be heard and to leave with something concrete today. If the supervisor explains or blames before listening, get louder once. If they ask what matters most to you and offer a time and a name, calm down and accept.”",
+          "id": "Brief aktor (untuk teman): “Kamu sudah menunggu empat puluh menit; pesanan yang datang salah; ini masalah ketiga dalam dua bulan. Kamu ingin didengar dan pulang dengan sesuatu yang konkret hari ini. Jika supervisor menjelaskan atau menyalahkan sebelum mendengar, tinggikan suara sekali. Jika mereka bertanya apa yang paling penting bagimu dan menawarkan waktu dan nama, tenang dan terima.”"
+         },
+         {
+          "en": "Presentation thirds: structure (decision sentence, recommendation, three headings, the risk) · content (one number per heading, one visual per point) · rehearsal (once aloud with a watch; three questions answered)",
+          "id": "Presentasi sepertiga: struktur (kalimat keputusan, rekomendasi, tiga judul, risiko) · isi (satu angka per judul, satu visual per poin) · latihan (sekali dengan suara dan jam; tiga pertanyaan dijawab)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "n": "7.4",
+     "kind": "assignment",
+     "placeholder": false,
+     "dur": {
+      "en": "60 min",
+      "id": "60 mnt"
+     },
+     "title": {
+      "en": "Case Assignment — Arunika’s LGD",
+      "id": "Tugas Kasus — LGD Arunika"
+     },
+     "overview": {
+      "en": "The morning exercise at Arunika’s assessment centre is a leaderless group discussion: “Arunika has budget for one of four initiatives to reduce stock-outs in Eastern Indonesia — choose one in twenty-five minutes.” Six candidates, two silent assessors. You receive the transcript up to minute twelve, where the group is stuck between two loud options and one member has not spoken. Score each participant on the GD scorecard with the anchors, write Nadia’s next three interventions word for word, propose the decision criteria that would unstick the group, and then file your own group-assessment role plan and in-tray method card — the Module 7 Kit item — before running Round 7.",
+      "id": "Latihan pagi di assessment center Arunika adalah diskusi kelompok tanpa pemimpin: “Arunika punya anggaran untuk satu dari empat inisiatif untuk mengurangi kehabisan stok di Indonesia Timur — pilih satu dalam dua puluh lima menit.” Enam kandidat, dua asesor diam. Kamu menerima transkrip sampai menit dua belas, saat kelompok terjebak antara dua opsi yang lantang dan satu anggota belum bicara. Nilai tiap peserta pada kartu skor DK dengan jangkarnya, tulis tiga intervensi Nadia berikutnya kata demi kata, usulkan kriteria keputusan yang akan melepaskan kelompok, lalu arsipkan rencana peran asesmen kelompok dan kartu metode in-tray-mu sendiri — butir Perangkat Modul 7 — sebelum menjalankan Putaran 7."
+     },
+     "objectives": [
+      {
+       "en": "Score six participants on the GD scorecard from a transcript, citing anchors.",
+       "id": "Menilai enam peserta pada kartu skor DK dari transkrip, mengutip jangkar."
+      },
+      {
+       "en": "Write three interventions that produce structure, inclusion and synthesis tallies in the group’s actual state.",
+       "id": "Menulis tiga intervensi yang menghasilkan hitungan struktur, inklusi, dan sintesis dalam keadaan kelompok yang sebenarnya."
+      },
+      {
+       "en": "Propose decision criteria that let a stuck group converge without anyone losing face.",
+       "id": "Mengusulkan kriteria keputusan yang memungkinkan kelompok yang terjebak mengerucut tanpa ada yang kehilangan muka."
+      },
+      {
+       "en": "File your own role plan and in-tray card as the Module 7 Kit item.",
+       "id": "Mengarsipkan rencana peran dan kartu in-tray-mu sendiri sebagai butir Perangkat Modul 7."
+      }
+     ],
+     "readFirst": {
+      "kicker": {
+       "en": "Read first · how this case works",
+       "id": "Baca dulu · cara kerja kasus ini"
+      },
+      "title": {
+       "en": "A transcript, a scorecard, three interventions",
+       "id": "Transkrip, kartu skor, tiga intervensi"
+      },
+      "intro": {
+       "en": "Four steps, four written answers. The case file has three tabs: the LGD brief with the four initiatives, the transcript to minute twelve, and the scorecard with Nadia’s role plan. Every answer is checked for the ideas Module 7 taught: behaviours not opinions, names and numbers, structure–inclusion–synthesis, consensus that still decides.",
+       "id": "Empat langkah, empat jawaban tertulis. Berkas kasus punya tiga tab: brief LGD dengan empat inisiatif, transkrip sampai menit dua belas, dan kartu skor dengan rencana peran Nadia. Setiap jawaban diperiksa untuk gagasan yang diajarkan Modul 7: perilaku bukan pendapat, nama dan angka, struktur–inklusi–sintesis, mufakat yang tetap memutuskan."
+      },
+      "slides": [
+       {
+        "h": {
+         "en": "Read like an assessor",
+         "id": "Baca seperti asesor"
+        },
+        "points": [
+         {
+          "en": "For each participant: which anchors did their turns produce? Tally quality events and anti-behaviours; ignore who was right.",
+          "id": "Untuk tiap peserta: jangkar mana yang dihasilkan giliran mereka? Hitung peristiwa berkualitas dan anti-perilaku; abaikan siapa yang benar."
+         },
+         {
+          "en": "Note who has not spoken and what they may know — the brief tells you.",
+          "id": "Catat siapa yang belum bicara dan apa yang mungkin mereka tahu — brief memberitahumu."
+         }
+        ]
+       },
+       {
+        "h": {
+         "en": "Then intervene, then your own",
+         "id": "Lalu intervensi, lalu milikmu"
+        },
+        "points": [
+         {
+          "en": "Nadia’s next three turns must fit minute twelve — the group’s actual state — and each must name a person or a number.",
+          "id": "Tiga giliran Nadia berikutnya harus cocok dengan menit dua belas — keadaan kelompok yang sebenarnya — dan masing-masing harus menyebut orang atau angka."
+         },
+         {
+          "en": "Step 4 is your Kit item. Model answer opens after you submit; Round 7 runs from your role plan.",
+          "id": "Langkah 4 adalah butir Perangkatmu. Jawaban model terbuka setelah kamu mengumpulkan; Putaran 7 berjalan dari rencana peranmu."
+         }
+        ]
+       }
+      ]
+     },
+     "caseStudy": {
+      "format": "generic",
+      "idPrefix": "RP7",
+      "kicker": {
+       "en": "Case assignment · Interactive case",
+       "id": "Tugas kasus · Kasus interaktif"
+      },
+      "title": {
+       "en": "Arunika’s LGD",
+       "id": "LGD Arunika"
+      },
+      "lead": {
+       "en": "Six candidates, twenty-five minutes, one budget. At minute twelve the group is stuck between the loudest two options and the quietest member has the number that decides it.",
+       "id": "Enam kandidat, dua puluh lima menit, satu anggaran. Di menit dua belas kelompok terjebak antara dua opsi paling lantang dan anggota paling pendiam punya angka yang menentukannya."
+      },
+      "practice": [
+       {
+        "en": "Score",
+        "id": "Nilai"
+       },
+       {
+        "en": "Interventions",
+        "id": "Intervensi"
+       },
+       {
+        "en": "Criteria",
+        "id": "Kriteria"
+       },
+       {
+        "en": "Your Kit item",
+        "id": "Butir Perangkatmu"
+       }
+      ],
+      "goal": {
+       "en": "A scored transcript, three interventions that unstick the group, the criteria that let it decide — and your own role plan and in-tray card, filed as the Module 7 Kit item.",
+       "id": "Transkrip yang dinilai, tiga intervensi yang melepaskan kelompok, kriteria yang membuatnya memutuskan — dan rencana peran dan kartu in-tray-mu sendiri, diarsipkan sebagai butir Perangkat Modul 7."
+      },
+      "brief": {
+       "email": {
+        "initials": "RS",
+        "from": {
+         "en": "Rina Sari · Metanoia mentor",
+         "id": "Rina Sari · Mentor Metanoia"
+        },
+        "to": {
+         "en": "to: you · cc: Nadia Putri",
+         "id": "kepada: kamu · cc: Nadia Putri"
+        },
+        "date": {
+         "en": "Thursday, 20:30",
+         "id": "Kamis, 20.30"
+        },
+        "subject": {
+         "en": "Arunika’s LGD — score the room, then write Nadia’s next three turns",
+         "id": "LGD Arunika — nilai ruangannya, lalu tulis tiga giliran Nadia berikutnya"
+        },
+        "paragraphs": [
+         {
+          "en": "Saturday morning at Arunika opens with a leaderless group discussion — six candidates, twenty-five minutes, one budget for one of four initiatives. A cohort member who sat a similar exercise has helped me reconstruct how the first twelve minutes tend to go, and I have written it up as a transcript with Nadia in seat four. The names and the numbers are fictional; the dynamics are not.",
+          "id": "Sabtu pagi di Arunika dibuka dengan diskusi kelompok tanpa pemimpin — enam kandidat, dua puluh lima menit, satu anggaran untuk satu dari empat inisiatif. Seorang anggota kohor yang pernah mengikuti latihan serupa membantu saya merekonstruksi bagaimana dua belas menit pertama biasanya berjalan, dan saya menulisnya sebagai transkrip dengan Nadia di kursi empat. Nama dan angkanya fiktif; dinamikanya tidak."
+         },
+         {
+          "en": "At minute twelve the group is stuck: two people are arguing for two options, one is agreeing with whoever spoke last, one has wandered off into her internship, and one has not said a word — and the brief says she read the capacity exhibit. Score all six on the scorecard, with anchors, as the assessors would. Then write the three interventions Nadia should make next, word for word, in Indonesian, and the decision criteria that would let this group choose without anyone losing face.",
+          "id": "Di menit dua belas kelompok terjebak: dua orang berdebat untuk dua opsi, satu setuju dengan siapa pun yang bicara terakhir, satu melantur ke magangnya, dan satu belum berkata sepatah kata pun — dan brief bilang ia membaca peraga kapasitas. Nilai keenamnya pada kartu skor, dengan jangkar, seperti asesor. Lalu tulis tiga intervensi yang harus dibuat Nadia berikutnya, kata demi kata, dalam bahasa Indonesia, dan kriteria keputusan yang akan membuat kelompok ini memilih tanpa ada yang kehilangan muka."
+         },
+         {
+          "en": "Then your own: the role plan and the in-tray method card for your own assessment centre. That is the Module 7 page of your Kit, and Round 7 runs from it.",
+          "id": "Lalu milikmu: rencana peran dan kartu metode in-tray untuk assessment center-mu sendiri. Itu halaman Modul 7 Perangkatmu, dan Putaran 7 berjalan darinya."
+         }
+        ],
+        "asks": [
+         {
+          "en": "Six scorecards with anchors cited; quality events and anti-behaviours tallied",
+          "id": "Enam kartu skor dengan jangkar dikutip; peristiwa berkualitas dan anti-perilaku dihitung"
+         },
+         {
+          "en": "Nadia’s next three interventions, word for word, each naming a person or a number",
+          "id": "Tiga intervensi Nadia berikutnya, kata demi kata, masing-masing menyebut orang atau angka"
+         },
+         {
+          "en": "Two or three decision criteria and how the four options score on them",
+          "id": "Dua atau tiga kriteria keputusan dan bagaimana empat opsi dinilai padanya"
+         },
+         {
+          "en": "Your role plan and in-tray card",
+          "id": "Rencana peran dan kartu in-tray-mu"
+         }
+        ],
+        "closing": [
+         {
+          "en": "Terima kasih — Rina",
+          "id": "Terima kasih — Rina"
+         }
+        ]
+       },
+       "facts": [
+        {
+         "icon": "clock",
+         "k": {
+          "en": "25 min · 6 people",
+          "id": "25 mnt · 6 orang"
+         },
+         "v": {
+          "en": "Leaderless; no roles; a report-out by one member at the end; two silent assessors",
+          "id": "Tanpa pemimpin; tanpa peran; laporan oleh satu anggota di akhir; dua asesor diam"
+         },
+         "hot": true
+        },
+        {
+         "icon": "flag",
+         "k": {
+          "en": "Minute 12",
+          "id": "Menit 12"
+         },
+         "v": {
+          "en": "Stuck between option A (Dimas) and option C (Bayu); no criteria agreed; no time call yet",
+          "id": "Terjebak antara opsi A (Dimas) dan opsi C (Bayu); tanpa kriteria disepakati; belum ada panggilan waktu"
+         },
+         "hot": true
+        },
+        {
+         "icon": "users",
+         "k": {
+          "en": "Sari",
+          "id": "Sari"
+         },
+         "v": {
+          "en": "Has not spoken; the only one who read exhibit 4 (hub capacity) and the lead-time breakdown",
+          "id": "Belum bicara; satu-satunya yang membaca peraga 4 (kapasitas hub) dan rincian lead time"
+         },
+         "hot": true
+        },
+        {
+         "icon": "chart",
+         "k": {
+          "en": "Budget",
+          "id": "Anggaran"
+         },
+         "v": {
+          "en": "Rp 3 miliar this year, for one initiative; the brief gives cost, time-to-effect and the data page each option rests on",
+          "id": "Rp 3 miliar tahun ini, untuk satu inisiatif; brief memberi biaya, waktu berdampak, dan halaman data tempat tiap opsi bertumpu"
+         }
+        },
+        {
+         "icon": "eye",
+         "k": {
+          "en": "Nadia so far",
+          "id": "Nadia sejauh ini"
+         },
+         "v": {
+          "en": "One build at minute four (on Andi, with a number); her role plan says Initiator + Summariser",
+          "id": "Satu membangun di menit empat (pada Andi, dengan angka); rencana perannya bilang Inisiator + Perangkum"
+         }
+        },
+        {
+         "icon": "compass",
+         "k": {
+          "en": "Fictional",
+          "id": "Fiktif"
+         },
+         "v": {
+          "en": "Names, numbers and the employer are fictional; the data continues Lesson 6.6",
+          "id": "Nama, angka, dan pemberi kerja fiktif; datanya melanjutkan Pelajaran 6.6"
+         }
+        }
+       ],
+       "docs": [
+        {
+         "tab": {
+          "en": "The brief",
+          "id": "Brief"
+         },
+         "title": {
+          "en": "LGD brief — one budget, four initiatives",
+          "id": "Brief LGD — satu anggaran, empat inisiatif"
+         },
+         "meta": {
+          "en": "Handed to all six candidates; five minutes’ reading before the clock starts · fictional",
+          "id": "Diberikan ke keenam kandidat; lima menit membaca sebelum jam dimulai · fiktif"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "The task",
+            "id": "Tugas"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "“Out-of-stock at Arunika’s retail points in Eastern Indonesia rose from 4% to 11% over two quarters after a new distributor was appointed (data pages 1–4 attached, as in the supply-chain case). Arunika has Rp 3 miliar this year for ONE of the four initiatives below. As a group, choose one and be ready to report your choice and reasons in two minutes. You have 25 minutes.”",
+             "id": "“Kehabisan stok di titik ritel Arunika di Indonesia Timur naik dari 4% ke 11% dalam dua kuartal setelah distributor baru ditunjuk (halaman data 1–4 terlampir, seperti di kasus rantai pasok). Arunika punya Rp 3 miliar tahun ini untuk SATU dari empat inisiatif di bawah. Sebagai kelompok, pilih satu dan bersiaplah melaporkan pilihan dan alasannya dalam dua menit. Anda punya 25 menit.”"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "The four initiatives",
+            "id": "Empat inisiatif"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "A · Fund higher safety stock at the 1.400 retail points (from ~7 to ~20 days of cover). Cost ≈ Rp 2,8 miliar in working capital; effect within one month; rests on data page 3 (order frequency).",
+             "id": "A · Danai stok pengaman lebih tinggi di 1.400 titik ritel (dari ~7 ke ~20 hari cakupan). Biaya ≈ Rp 2,8 miliar modal kerja; berdampak dalam satu bulan; bertumpu pada halaman data 3 (frekuensi pesanan)."
+            },
+            {
+             "en": "B · Renegotiate the distributor’s order rules and fund hub capacity: minimum order down to 0,5 pallet, weekly dispatch on dense routes, two extra processing staff for a year. Cost ≈ Rp 1,1 miliar (mostly the lost route saving); effect within six weeks; rests on data pages 2 and 4 (lead-time breakdown; hub capacity).",
+             "id": "B · Negosiasikan ulang aturan pesanan distributor dan danai kapasitas hub: pesanan minimum turun ke 0,5 palet, pengiriman mingguan di rute padat, dua staf pemrosesan tambahan selama setahun. Biaya ≈ Rp 1,1 miliar (sebagian besar penghematan rute yang hilang); berdampak dalam enam minggu; bertumpu pada halaman data 2 dan 4 (rincian lead time; kapasitas hub)."
+            },
+            {
+             "en": "C · Open a second hub in Ambon serving Maluku and Papua directly. Cost ≈ Rp 3 miliar; effect in nine to twelve months; rests on data page 2 (transit days to the sea routes).",
+             "id": "C · Buka hub kedua di Ambon yang melayani Maluku dan Papua langsung. Biaya ≈ Rp 3 miliar; berdampak dalam sembilan hingga dua belas bulan; bertumpu pada halaman data 2 (hari transit ke rute laut)."
+            },
+            {
+             "en": "D · A merchant ordering app with demand forecasting for the retail points. Cost ≈ Rp 2,2 miliar; effect in six to nine months after adoption; rests on no attached data page.",
+             "id": "D · Aplikasi pemesanan merchant dengan peramalan permintaan untuk titik ritel. Biaya ≈ Rp 2,2 miliar; berdampak dalam enam hingga sembilan bulan setelah adopsi; tidak bertumpu pada halaman data terlampir."
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Data pages (summary; full pages as in Lesson 6.6)",
+            "id": "Halaman data (ringkasan; halaman lengkap seperti di Pelajaran 6.6)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Page 1 · fill rate by region: only the East fell, from Q3. Page 2 · lead time 6 → 13 days; breakdown Q4: hub processing 4, consolidation wait 5, transit 4 (transit was 5 before). Page 3 · orders batched fortnightly; minimum 1,5 pallet vs average 0,8; 38% of orders held a cycle; safety stock ~7 days. Page 4 · hub at 91% average, 100% in peak weeks; 3 processing staff vs 5 before.",
+             "id": "Halaman 1 · fill rate per wilayah: hanya Timur yang turun, sejak Q3. Halaman 2 · lead time 6 → 13 hari; rincian Q4: pemrosesan hub 4, tunggu konsolidasi 5, transit 4 (transit 5 sebelumnya). Halaman 3 · pesanan dikelompokkan dua mingguan; minimum 1,5 palet vs rata-rata 0,8; 38% pesanan ditahan satu siklus; stok pengaman ~7 hari. Halaman 4 · hub 91% rata-rata, 100% di minggu puncak; 3 staf pemrosesan vs 5 sebelumnya."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "The transcript",
+          "id": "Transkrip"
+         },
+         "title": {
+          "en": "Minutes 0–12, as reconstructed",
+          "id": "Menit 0–12, sebagaimana direkonstruksi"
+         },
+         "meta": {
+          "en": "Seats: 1 Dimas · 2 Bayu · 3 Andi · 4 Nadia · 5 Tia · 6 Sari · fictional",
+          "id": "Kursi: 1 Dimas · 2 Bayu · 3 Andi · 4 Nadia · 5 Tia · 6 Sari · fiktif"
+         },
+         "body": [
+          {
+           "items": [
+            {
+             "en": "00:10 · Dimas: “Oke, biar saya mulai. Jelas ini masalah stok. Opsi A — tambah stok pengaman — paling cepat, sebulan sudah terasa, dan anggarannya cukup. Saya rasa kita tidak perlu lama-lama.”",
+             "id": "00:10 · Dimas: “Oke, biar saya mulai. Jelas ini masalah stok. Opsi A — tambah stok pengaman — paling cepat, sebulan sudah terasa, dan anggarannya cukup. Saya rasa kita tidak perlu lama-lama.”"
+            },
+            {
+             "en": "01:05 · Bayu: “Saya justru sebaliknya. Stok pengaman itu menutup gejala. Masalahnya jarak — Maluku dan Papua itu jauh — jadi opsi C, hub kedua di Ambon. Itu solusi sebenarnya.”",
+             "id": "01:05 · Bayu: “Saya justru sebaliknya. Stok pengaman itu menutup gejala. Masalahnya jarak — Maluku dan Papua itu jauh — jadi opsi C, hub kedua di Ambon. Itu solusi sebenarnya.”"
+            },
+            {
+             "en": "02:00 · Andi: “Iya, saya setuju sama Bayu, jarak memang masalah. Tapi A juga masuk akal sih karena cepat.”",
+             "id": "02:00 · Andi: “Iya, saya setuju sama Bayu, jarak memang masalah. Tapi A juga masuk akal sih karena cepat.”"
+            },
+            {
+             "en": "02:40 · Dimas: “Cepat itu yang penting. Sebelas persen itu sekarang, bukan tahun depan. Hub di Ambon baru jadi setahun lagi — keburu semua pelanggan pindah.”",
+             "id": "02:40 · Dimas: “Cepat itu yang penting. Sebelas persen itu sekarang, bukan tahun depan. Hub di Ambon baru jadi setahun lagi — keburu semua pelanggan pindah.”"
+            },
+            {
+             "en": "04:10 · Nadia: “Menambahkan poin Mas Andi soal cepat — di halaman tiga, 38% pesanan tertahan satu siklus karena minimum 1,5 palet; itu juga sesuatu yang bisa cepat diubah. Mungkin sebelum kita pilih, kita sepakati dulu kriteria—”",
+             "id": "04:10 · Nadia: “Menambahkan poin Mas Andi soal cepat — di halaman tiga, 38% pesanan tertahan satu siklus karena minimum 1,5 palet; itu juga sesuatu yang bisa cepat diubah. Mungkin sebelum kita pilih, kita sepakati dulu kriteria—”"
+            },
+            {
+             "en": "04:35 · Dimas (cutting in): “Kriterianya jelas: cepat dan cukup anggaran. Jadi A. Bayu, kamu keberatan apa lagi?”",
+             "id": "04:35 · Dimas (menyela): “Kriterianya jelas: cepat dan cukup anggaran. Jadi A. Bayu, kamu keberatan apa lagi?”"
+            },
+            {
+             "en": "05:30 · Bayu: “Keberatan saya, A itu tiap tahun harus dibayar lagi — modal kerja tidak hilang tapi terikat. C itu investasi. Kalau kita hanya lihat cepat, kita pilih yang salah.”",
+             "id": "05:30 · Bayu: “Keberatan saya, A itu tiap tahun harus dibayar lagi — modal kerja tidak hilang tapi terikat. C itu investasi. Kalau kita hanya lihat cepat, kita pilih yang salah.”"
+            },
+            {
+             "en": "06:50 · Tia: “Waktu saya magang di distributor FMCG di Surabaya, kami juga pernah buka gudang baru, dan prosesnya itu panjang sekali — izinnya, sewanya, terus rekrut orangnya. Jadi saya paham maksud Bayu, tapi juga… ya, memang lama. Saya ceritakan sedikit, waktu itu…” (continues for about ninety seconds about the internship)",
+             "id": "06:50 · Tia: “Waktu saya magang di distributor FMCG di Surabaya, kami juga pernah buka gudang baru, dan prosesnya itu panjang sekali — izinnya, sewanya, terus rekrut orangnya. Jadi saya paham maksud Bayu, tapi juga… ya, memang lama. Saya ceritakan sedikit, waktu itu…” (berlanjut sekitar sembilan puluh detik tentang magangnya)"
+            },
+            {
+             "en": "08:40 · Dimas: “Nah, itu yang saya bilang. Lama. Jadi A.”",
+             "id": "08:40 · Dimas: “Nah, itu yang saya bilang. Lama. Jadi A.”"
+            },
+            {
+             "en": "09:00 · Andi: “Iya, kalau dipikir-pikir A memang lebih realistis.”",
+             "id": "09:00 · Andi: “Iya, kalau dipikir-pikir A memang lebih realistis.”"
+            },
+            {
+             "en": "09:30 · Bayu: “Realistis untuk siapa? Kita ini disuruh menyelesaikan masalah, bukan menunda. Dimas, kamu sudah baca halaman dua? Transit ke Papua itu—”",
+             "id": "09:30 · Bayu: “Realistis untuk siapa? Kita ini disuruh menyelesaikan masalah, bukan menunda. Dimas, kamu sudah baca halaman dua? Transit ke Papua itu—”"
+            },
+            {
+             "en": "10:15 · Dimas: “Sudah, dan tetap A. Kita voting saja kalau begitu. Siapa A?” (raises his hand; Andi half-raises his)",
+             "id": "10:15 · Dimas: “Sudah, dan tetap A. Kita voting saja kalau begitu. Siapa A?” (mengangkat tangan; Andi setengah mengangkat)"
+            },
+            {
+             "en": "11:00 · Bayu: “Voting sekarang itu prematur. Kita belum bahas D sama sekali.”",
+             "id": "11:00 · Bayu: “Voting sekarang itu prematur. Kita belum bahas D sama sekali.”"
+            },
+            {
+             "en": "11:40 · Tia: “D itu aplikasi, ya? Di tempat magang saya juga ada aplikasi, tapi merchant-nya susah dipakai—”",
+             "id": "11:40 · Tia: “D itu aplikasi, ya? Di tempat magang saya juga ada aplikasi, tapi merchant-nya susah dipakai—”"
+            },
+            {
+             "en": "12:00 · [Sari has not spoken. Her data pages are open at page 2 and page 4, both annotated. Thirteen minutes remain.]",
+             "id": "12:00 · [Sari belum bicara. Halaman datanya terbuka di halaman 2 dan 4, keduanya dianotasi. Tiga belas menit tersisa.]"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tab": {
+          "en": "Scorecard + role plan",
+          "id": "Kartu skor + rencana peran"
+         },
+         "title": {
+          "en": "The GD scorecard and Nadia’s plan for the day",
+          "id": "Kartu skor DK dan rencana Nadia untuk harinya"
+         },
+         "meta": {
+          "en": "From Lessons 7.1 and 7.2",
+          "id": "Dari Pelajaran 7.1 dan 7.2"
+         },
+         "body": [
+          {
+           "h": {
+            "en": "Scorecard (1–4 each)",
+            "id": "Kartu skor (1–4 masing-masing)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Contribution quality — 4: ideas with reasons and a number from the brief; each advances the current state · Collaboration — 4: builds on others by name, invites quiet members, helps the group converge · Structuring — 4: proposes criteria, agenda or time split early; restates the task when the group drifts",
+             "id": "Kualitas kontribusi — 4: gagasan dengan alasan dan angka dari brief; masing-masing memajukan keadaan · Kolaborasi — 4: membangun poin orang lain dengan nama, mengundang anggota pendiam, membantu kelompok mengerucut · Menstruktur — 4: mengusulkan kriteria, agenda, atau pembagian waktu sejak awal; menyatakan ulang tugas saat kelompok melenceng"
+            },
+            {
+             "en": "Influence — 4: proposals adopted; concedes when shown a better point · Time and decision — 4: calls time; switches the group to concluding; summarises decision and open point · Composure — 4: disagrees with a reason and a question; takes correction in one sentence · Anti-behaviours tallied: interruptions, repeats, personal remarks, hijacks, silence",
+             "id": "Pengaruh — 4: usulan diadopsi; mengalah saat ditunjukkan poin lebih baik · Waktu dan keputusan — 4: memanggil waktu; mengalihkan kelompok ke menyimpulkan; merangkum keputusan dan poin terbuka · Ketenangan — 4: tidak setuju dengan alasan dan pertanyaan; menerima koreksi dalam satu kalimat · Anti-perilaku dihitung: selaan, pengulangan, komentar pribadi, pembajakan, diam"
+            }
+           ]
+          },
+          {
+           "h": {
+            "en": "Nadia’s role plan (written Friday night)",
+            "id": "Rencana peran Nadia (ditulis Jumat malam)"
+           }
+          },
+          {
+           "items": [
+            {
+             "en": "Roles: Initiator + Summariser. Intervention 1 (minute 2): “Bagaimana kalau kita sepakati dua kriteria dulu — biaya dan dampak ke penyebab — lalu nilai tiap opsi? Lima menit?” — not delivered; Dimas opened at 00:10 and she built at 04:10 instead, and was cut off before the criteria.",
+             "id": "Peran: Inisiator + Perangkum. Intervensi 1 (menit 2): “Bagaimana kalau kita sepakati dua kriteria dulu — biaya dan dampak ke penyebab — lalu nilai tiap opsi? Lima menit?” — tidak tersampaikan; Dimas membuka di 00:10 dan ia membangun di 04:10 sebagai gantinya, dan disela sebelum kriteria."
+            },
+            {
+             "en": "Intervention 2: one analysis — the lead-time breakdown on page 2 (six of seven extra days at the hub), tied to the option that addresses it. Intervention 3: the summary at minus five — agreed, open, condition. One invitation with a blank name — the blank is now obviously Sari.",
+             "id": "Intervensi 2: satu analisis — rincian lead time di halaman 2 (enam dari tujuh hari tambahan di hub), dikaitkan dengan opsi yang mengatasinya. Intervensi 3: rangkuman di lima menit terakhir — disepakati, terbuka, syarat. Satu undangan dengan nama kosong — kolom kosong itu kini jelas Sari."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "steps": [
+       {
+        "title": {
+         "en": "Score the six",
+         "id": "Nilai keenamnya"
+        },
+        "short": {
+         "en": "Score",
+         "id": "Nilai"
+        },
+        "guide": {
+         "en": "Lesson 7.1. For each of the six participants, give a score of 1–4 on each of the six dimensions and cite the anchor or the turn that justifies it; tally quality events and anti-behaviours. Ignore who is right about the initiative. Nadia’s score so far counts one build with a number and one interrupted structure attempt. Note what Sari’s score is at minute twelve and what it would take to change it.",
+         "id": "Pelajaran 7.1. Untuk tiap dari enam peserta, beri skor 1–4 pada tiap dari enam dimensi dan kutip jangkar atau giliran yang membenarkannya; hitung peristiwa berkualitas dan anti-perilaku. Abaikan siapa yang benar soal inisiatif. Skor Nadia sejauh ini menghitung satu membangun dengan angka dan satu upaya struktur yang disela. Catat berapa skor Sari di menit dua belas dan apa yang diperlukan untuk mengubahnya."
+        },
+        "questions": [
+         {
+          "id": "q1",
+          "min": 150,
+          "rows": 16,
+          "title": {
+           "en": "Six scorecards, anchors cited, tallies counted",
+           "id": "Enam kartu skor, jangkar dikutip, hitungan dihitung"
+          },
+          "help": {
+           "en": "Dimas: two interruptions, three repeats of “A”, a vote call with no criteria — Influence is not high just because Andi half-agreed. Bayu: reasons given (“modal kerja terikat”), but heat (“realistis untuk siapa?”) and no question. Andi: agrees with the last speaker; no reason, no number. Tia: a tangent of ninety seconds — the hijack anti-behaviour — with one usable fact buried in it. Sari: silence is a 1 on every line at minute twelve. Nadia: one build by name with a number; one structure attempt, cut off.",
+           "id": "Dimas: dua selaan, tiga pengulangan “A”, ajakan voting tanpa kriteria — Pengaruh tidak tinggi hanya karena Andi setengah setuju. Bayu: alasan diberikan (“modal kerja terikat”), tetapi panas (“realistis untuk siapa?”) dan tanpa pertanyaan. Andi: setuju dengan pembicara terakhir; tanpa alasan, tanpa angka. Tia: penyimpangan sembilan puluh detik — anti-perilaku pembajakan — dengan satu fakta berguna terkubur di dalamnya. Sari: diam adalah 1 di setiap baris di menit dua belas. Nadia: satu membangun dengan nama dan angka; satu upaya struktur, disela."
+          },
+          "placeholder": {
+           "en": "Dimas · Contribution 2 (opinion + one reason “cepat”; repeats) · Collaboration 1 (no builds; cut Nadia off at 04:35) · Structuring 2 (“kriterianya jelas” — asserted, not proposed) · Influence 2 (vote call; only Andi half-follows) · Time 2 (urgency felt, no time call) · Composure 2 · Anti: 2 interruptions, 3 repeats\nBayu · Contribution 3 (reasons: working capital vs investment; page 2) · Collaboration 1 · Structuring 1 · Influence 2 · Time 1 · Composure 2 (“realistis untuk siapa?”) · Anti: 1 personal remark\nAndi · …\nTia · … · Anti: 1 hijack (90 s)\nSari · 1 on every dimension at 12:00 — no evidence; one invitation would change Collaboration for the inviter and give her the floor for page 4\nNadia · Contribution 3 (build with 38%) · Collaboration 3 (by name) · Structuring 2 (attempted, cut off) · Influence 1 (nothing adopted yet) · Time 1 · Composure 3 · Quality events: 2",
+           "id": "Dimas · Kontribusi 2 (pendapat + satu alasan “cepat”; pengulangan) · Kolaborasi 1 (tanpa membangun; menyela Nadia di 04:35) · Menstruktur 2 (“kriterianya jelas” — ditegaskan, bukan diusulkan) · Pengaruh 2 (ajakan voting; hanya Andi setengah ikut) · Waktu 2 (urgensi terasa, tanpa panggilan waktu) · Ketenangan 2 · Anti: 2 selaan, 3 pengulangan\nBayu · Kontribusi 3 (alasan: modal kerja vs investasi; halaman 2) · Kolaborasi 1 · Menstruktur 1 · Pengaruh 2 · Waktu 1 · Ketenangan 2 (“realistis untuk siapa?”) · Anti: 1 komentar pribadi\nAndi · …\nTia · … · Anti: 1 pembajakan (90 dtk)\nSari · 1 di setiap dimensi di 12:00 — tanpa bukti; satu undangan akan mengubah Kolaborasi bagi pengundang dan memberinya lantai untuk halaman 4\nNadia · Kontribusi 3 (membangun dengan 38%) · Kolaborasi 3 (dengan nama) · Menstruktur 2 (dicoba, disela) · Pengaruh 1 (belum ada yang diadopsi) · Waktu 1 · Ketenangan 3 · Peristiwa berkualitas: 2"
+          },
+          "keywords": [
+           [
+            "dimas"
+           ],
+           [
+            "bayu"
+           ],
+           [
+            "andi"
+           ],
+           [
+            "tia"
+           ],
+           [
+            "sari"
+           ],
+           [
+            "nadia"
+           ],
+           [
+            "interrupt",
+            "sela",
+            "menyela"
+           ],
+           [
+            "repeat",
+            "ulang"
+           ],
+           [
+            "hijack",
+            "bajak",
+            "tangent",
+            "simpang",
+            "melantur"
+           ],
+           [
+            "silence",
+            "diam",
+            "no evidence",
+            "tanpa bukti"
+           ],
+           [
+            "collaboration",
+            "kolaborasi"
+           ],
+           [
+            "structur",
+            "struktur"
+           ],
+           [
+            "influence",
+            "pengaruh"
+           ],
+           [
+            "composure",
+            "ketenangan"
+           ],
+           [
+            "1",
+            "2",
+            "3",
+            "4"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Nadia’s next three interventions",
+         "id": "Tiga intervensi Nadia berikutnya"
+        },
+        "short": {
+         "en": "Interventions",
+         "id": "Intervensi"
+        },
+        "guide": {
+         "en": "Lesson 7.2. It is minute twelve; thirteen remain; Dimas has called a vote and Bayu has blocked it; Tia is mid-tangent; Sari has page 2 and page 4 open. Write Nadia’s next three turns word for word in Indonesian, with the minute each is made. Each must name a person or a number, and between them they should produce structure, inclusion and synthesis tallies. Adapt her role plan to the room — the criteria she planned for minute two are still the move, but the phrasing must now bridge Dimas and Bayu rather than open a blank discussion.",
+         "id": "Pelajaran 7.2. Ini menit dua belas; tiga belas tersisa; Dimas mengajak voting dan Bayu memblokirnya; Tia di tengah penyimpangan; Sari punya halaman 2 dan 4 terbuka. Tulis tiga giliran Nadia berikutnya kata demi kata dalam bahasa Indonesia, dengan menit tiap giliran dibuat. Masing-masing harus menyebut orang atau angka, dan bersama-sama harus menghasilkan hitungan struktur, inklusi, dan sintesis. Sesuaikan rencana perannya dengan ruangan — kriteria yang ia rencanakan untuk menit dua masih langkahnya, tetapi frasanya kini harus menjembatani Dimas dan Bayu bukan membuka diskusi kosong."
+        },
+        "questions": [
+         {
+          "id": "q2",
+          "min": 150,
+          "rows": 16,
+          "title": {
+           "en": "Three turns, three minutes, three tallies",
+           "id": "Tiga giliran, tiga menit, tiga hitungan"
+          },
+          "help": {
+           "en": "Turn one bridges: Dimas wants speed, Bayu wants the cause — both are criteria, so propose them as the criteria and a five-minute scoring of all four options (structure, and a way for both to keep face). Turn two invites Sari by name, with the reason (page 4). Turn three, at about minute twenty, calls time and summarises from column three: agreed, open, condition — and volunteers or supports the report-out.",
+           "id": "Giliran satu menjembatani: Dimas ingin cepat, Bayu ingin penyebab — keduanya kriteria, jadi usulkan sebagai kriteria dan penilaian lima menit atas keempat opsi (struktur, dan cara bagi keduanya menjaga muka). Giliran dua mengundang Sari dengan nama, dengan alasannya (halaman 4). Giliran tiga, sekitar menit dua puluh, memanggil waktu dan merangkum dari kolom tiga: disepakati, terbuka, syarat — dan mengajukan diri atau mendukung laporan."
+          },
+          "placeholder": {
+           "en": "12:10 · “Boleh saya usul sebelum voting? Mas Dimas benar bahwa cepat itu penting, dan Mas Bayu benar bahwa kita harus mengenai penyebabnya — dua-duanya kriteria, bukan lawan. Bagaimana kalau kita nilai keempat opsi dengan tiga kriteria — biaya dalam Rp 3 miliar, waktu berdampak, dan dampak ke penyebab di halaman dua — lima menit saja, lalu baru voting?”\n13:00 · “Dan Mbak Sari belum sempat berpendapat — Mbak tadi buka halaman empat, soal kapasitas hub. Menurut Mbak, opsi mana yang paling mengenai angka di situ?”\n20:00 · “Kita punya lima menit. Yang saya dengar: kita sepakat penyebab utamanya di hub — lead time dan aturan minimum — jadi B mengenai penyebab dengan biaya paling rendah dan berdampak dalam enam minggu; A cepat tapi menutup gejala; C benar untuk jangka panjang tapi setahun. Bisa kita putuskan B, dan catat C sebagai rekomendasi tahun depan sebagai syarat? Kalau setuju, saya bisa bantu siapkan laporannya, atau Mas Bayu?”",
+           "id": "12:10 · “Boleh saya usul sebelum voting? Mas Dimas benar bahwa cepat itu penting, dan Mas Bayu benar bahwa kita harus mengenai penyebabnya — dua-duanya kriteria, bukan lawan. Bagaimana kalau kita nilai keempat opsi dengan tiga kriteria — biaya dalam Rp 3 miliar, waktu berdampak, dan dampak ke penyebab di halaman dua — lima menit saja, lalu baru voting?”\n13:00 · “Dan Mbak Sari belum sempat berpendapat — Mbak tadi buka halaman empat, soal kapasitas hub. Menurut Mbak, opsi mana yang paling mengenai angka di situ?”\n20:00 · “Kita punya lima menit. Yang saya dengar: kita sepakat penyebab utamanya di hub — lead time dan aturan minimum — jadi B mengenai penyebab dengan biaya paling rendah dan berdampak dalam enam minggu; A cepat tapi menutup gejala; C benar untuk jangka panjang tapi setahun. Bisa kita putuskan B, dan catat C sebagai rekomendasi tahun depan sebagai syarat? Kalau setuju, saya bisa bantu siapkan laporannya, atau Mas Bayu?”"
+          },
+          "keywords": [
+           [
+            "dimas"
+           ],
+           [
+            "bayu"
+           ],
+           [
+            "sari"
+           ],
+           [
+            "kriteria",
+            "criteria"
+           ],
+           [
+            "halaman",
+            "page"
+           ],
+           [
+            "menit",
+            "minute",
+            "lima",
+            "five",
+            "12:",
+            "13:",
+            "20:"
+           ],
+           [
+            "bagaimana kalau",
+            "boleh saya",
+            "shall we",
+            "what if"
+           ],
+           [
+            "sepakat",
+            "agree",
+            "putus",
+            "decid"
+           ],
+           [
+            "terbuka",
+            "open",
+            "syarat",
+            "condition"
+           ],
+           [
+            "belum sempat",
+            "hasn",
+            "menurut mbak",
+            "what do you"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "The decision criteria",
+         "id": "Kriteria keputusan"
+        },
+        "short": {
+         "en": "Criteria",
+         "id": "Kriteria"
+        },
+        "guide": {
+         "en": "Lessons 6.3 and 7.2. Propose the two or three criteria that would let this group choose, and score the four initiatives on them in a short table using the brief’s numbers: cost within Rp 3 miliar, time to effect, impact on the cause (the lead-time breakdown and the minimum-order rule), and — if you add it — durability. Say which option the criteria point to and how the group can adopt it without Dimas or Bayu losing face (the condition that honours each). Note what Sari’s page 4 adds.",
+         "id": "Pelajaran 6.3 dan 7.2. Usulkan dua atau tiga kriteria yang akan membuat kelompok ini memilih, dan nilai empat inisiatif padanya dalam tabel singkat memakai angka brief: biaya dalam Rp 3 miliar, waktu berdampak, dampak ke penyebab (rincian lead time dan aturan pesanan minimum), dan — jika kamu tambahkan — keawetan. Katakan opsi mana yang ditunjuk kriteria dan bagaimana kelompok bisa mengadopsinya tanpa Dimas atau Bayu kehilangan muka (syarat yang menghormati masing-masing). Catat apa yang ditambahkan halaman 4 Sari."
+        },
+        "questions": [
+         {
+          "id": "q3",
+          "min": 100,
+          "rows": 12,
+          "title": {
+           "en": "Criteria → the four scored → the option → the face-saving condition",
+           "id": "Kriteria → empat dinilai → opsi → syarat penjaga muka"
+          },
+          "help": {
+           "en": "On cost, time and cause, B leads: cheapest, six weeks, and the only option resting on pages 2 and 4 together. A is fast but accepts the thirteen days; C addresses transit, which improved; D rests on no data page. Sari’s page 4 shows the hub at 100% in peak weeks with three staff — which is why B funds two staff, and why A would make the hub worse.",
+           "id": "Pada biaya, waktu, dan penyebab, B memimpin: termurah, enam minggu, dan satu-satunya opsi yang bertumpu pada halaman 2 dan 4 bersama. A cepat tetapi menerima tiga belas hari; C mengatasi transit, yang justru membaik; D tidak bertumpu pada halaman data. Halaman 4 Sari menunjukkan hub 100% di minggu puncak dengan tiga staf — itulah mengapa B mendanai dua staf, dan mengapa A akan memperburuk hub."
+          },
+          "placeholder": {
+           "en": "Criteria: (1) cost within Rp 3 miliar this year · (2) time to effect · (3) impact on the cause (page 2: 6 of 7 extra days at the hub; page 3: 38% of orders held; page 4: hub at 100% in peak weeks)\nA · 2,8 M · 1 month · symptom only; more stock through a hub already at 100% at peak → worse\nB · 1,1 M · 6 weeks · hits processing days, consolidation wait and the minimum-order rule; funds the two missing staff\nC · 3,0 M · 9–12 months · addresses transit, which fell from 5 to 4 days\nD · 2,2 M · 6–9 months + adoption · no data page\n→ B. Face-saving: Dimas’s criterion (speed) is met at six weeks; Bayu’s (the cause) is met by pages 2 and 4; C is recorded as next year’s recommendation as a condition. Sari’s page 4 is the number that settles A vs B.",
+           "id": "Kriteria: (1) biaya dalam Rp 3 miliar tahun ini · (2) waktu berdampak · (3) dampak ke penyebab (halaman 2: 6 dari 7 hari tambahan di hub; halaman 3: 38% pesanan ditahan; halaman 4: hub 100% di minggu puncak)\nA · 2,8 M · 1 bulan · gejala saja; lebih banyak stok lewat hub yang sudah 100% di puncak → lebih buruk\nB · 1,1 M · 6 minggu · mengenai hari pemrosesan, tunggu konsolidasi, dan aturan pesanan minimum; mendanai dua staf yang kurang\nC · 3,0 M · 9–12 bulan · mengatasi transit, yang turun dari 5 ke 4 hari\nD · 2,2 M · 6–9 bulan + adopsi · tanpa halaman data\n→ B. Penjaga muka: kriteria Dimas (cepat) terpenuhi di enam minggu; kriteria Bayu (penyebab) terpenuhi oleh halaman 2 dan 4; C dicatat sebagai rekomendasi tahun depan sebagai syarat. Halaman 4 Sari adalah angka yang menyelesaikan A vs B."
+          },
+          "keywords": [
+           [
+            "biaya",
+            "cost"
+           ],
+           [
+            "waktu",
+            "time",
+            "minggu",
+            "week",
+            "bulan",
+            "month"
+           ],
+           [
+            "penyebab",
+            "cause",
+            "hub",
+            "lead time",
+            "minimum"
+           ],
+           [
+            "a ",
+            "b ",
+            "c ",
+            "d "
+           ],
+           [
+            "halaman",
+            "page"
+           ],
+           [
+            "muka",
+            "face",
+            "syarat",
+            "condition"
+           ],
+           [
+            "sari",
+            "kapasitas",
+            "capacity",
+            "100%"
+           ],
+           [
+            "b.",
+            "→ b",
+            "opsi b",
+            "option b"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "title": {
+         "en": "Your role plan and in-tray card",
+         "id": "Rencana peran dan kartu in-tray-mu"
+        },
+        "short": {
+         "en": "Your Kit item",
+         "id": "Butir Perangkatmu"
+        },
+        "guide": {
+         "en": "The Kit item. For your own assessment centre: the one or two roles you will own and why; your three planned interventions with exact words for the first; your split-sheet headings; your online variants; the anti-behaviour you must watch in yourself. Then the in-tray method card in your own words with the minutes, and the two questions you will ask the recruiter about the day’s shape. Round 7 runs from this page.",
+         "id": "Butir Perangkat. Untuk assessment center-mu sendiri: satu atau dua peran yang akan kamu miliki dan mengapa; tiga intervensi terencanamu dengan kata persis untuk yang pertama; judul lembar terbagimu; varian daringmu; anti-perilaku yang harus kamu awasi pada dirimu. Lalu kartu metode in-tray dalam katamu sendiri dengan menitnya, dan dua pertanyaan yang akan kamu ajukan ke rekruter tentang bentuk harinya. Putaran 7 berjalan dari halaman ini."
+        },
+        "questions": [
+         {
+          "id": "q4",
+          "min": 150,
+          "rows": 18,
+          "title": {
+           "en": "Roles, three interventions, the sheet, the card, two questions",
+           "id": "Peran, tiga intervensi, lembar, kartu, dua pertanyaan"
+          },
+          "help": {
+           "en": "If both your roles are talking roles, add a landing role. If your first intervention is not written word for word, it will not happen at minute two. The anti-behaviour line is the honest one — Nadia’s is “waiting for a good moment”; Dimas’s would be “repeating louder”.",
+           "id": "Jika kedua peranmu peran bicara, tambahkan peran mendaratkan. Jika intervensi pertamamu tidak ditulis kata demi kata, ia tidak akan terjadi di menit dua. Baris anti-perilaku adalah yang jujur — milik Nadia “menunggu momen yang tepat”; milik Dimas “mengulang lebih keras”."
+          },
+          "placeholder": {
+           "en": "Roles: … + … (why: …)\nIntervention 1 (minute 2, exact words): “…”\nIntervention 2 (one analysis: the number, the page, the option): …\nIntervention 3 (summary shape): agreed … / open … / condition …\nInvitation with blank name: “… belum sempat berpendapat — …?”\nSplit sheet: brief facts | group points (name: point) | open decisions\nOnline: raise hand · name · under 45 s · camera on\nMy anti-behaviour to watch: …\nIn-tray card: skim (5) → classify (4) → link (4) → act (13) → reason (4); the four planted links to look for: clash, chain, contradiction, capacity\nTwo questions for the recruiter: “Latihan apa saja dan berapa lama masing-masing?” · “Diskusinya tatap muka atau daring, dan dalam bahasa apa?”",
+           "id": "Peran: … + … (mengapa: …)\nIntervensi 1 (menit 2, kata persis): “…”\nIntervensi 2 (satu analisis: angka, halaman, opsi): …\nIntervensi 3 (bentuk rangkuman): disepakati … / terbuka … / syarat …\nUndangan dengan nama kosong: “… belum sempat berpendapat — …?”\nLembar terbagi: fakta brief | poin kelompok (nama: poin) | keputusan terbuka\nDaring: angkat tangan · nama · di bawah 45 dtk · kamera menyala\nAnti-perilaku saya yang diawasi: …\nKartu in-tray: pindai (5) → klasifikasi (4) → kaitkan (4) → tindak (13) → alasan (4); empat kaitan yang ditanam untuk dicari: bentrokan, rantai, kontradiksi, kapasitas\nDua pertanyaan untuk rekruter: “Latihan apa saja dan berapa lama masing-masing?” · “Diskusinya tatap muka atau daring, dan dalam bahasa apa?”"
+          },
+          "keywords": [
+           [
+            "role",
+            "peran"
+           ],
+           [
+            "intervention",
+            "intervensi"
+           ],
+           [
+            "minute 2",
+            "menit 2",
+            "menit dua"
+           ],
+           [
+            "summar",
+            "rangkum",
+            "agreed",
+            "sepakat"
+           ],
+           [
+            "invit",
+            "undang",
+            "belum sempat"
+           ],
+           [
+            "split",
+            "terbagi",
+            "column",
+            "kolom"
+           ],
+           [
+            "online",
+            "daring",
+            "raise",
+            "angkat"
+           ],
+           [
+            "anti",
+            "watch",
+            "awasi"
+           ],
+           [
+            "skim",
+            "pindai",
+            "classify",
+            "klasifikasi",
+            "link",
+            "kait",
+            "reason",
+            "alasan"
+           ],
+           [
+            "recruiter",
+            "rekruter",
+            "question",
+            "pertanyaan"
+           ]
+          ]
+         }
+        ]
+       }
+      ],
+      "rubric": [
+       {
+        "h": {
+         "en": "Scoring — six participants on six dimensions with anchors or turns cited; quality events and anti-behaviours tallied; Sari’s silence scored as 1 with the fix named; Nadia’s two events counted",
+         "id": "Penilaian — enam peserta pada enam dimensi dengan jangkar atau giliran dikutip; peristiwa berkualitas dan anti-perilaku dihitung; diam Sari dinilai 1 dengan perbaikan disebut; dua peristiwa Nadia dihitung"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Interventions — three turns word for word with minutes; each names a person or a number; structure that bridges Dimas and Bayu, an invitation to Sari with a reason, a summary that lands a decision with a condition",
+         "id": "Intervensi — tiga giliran kata demi kata dengan menit; masing-masing menyebut orang atau angka; struktur yang menjembatani Dimas dan Bayu, undangan ke Sari dengan alasan, rangkuman yang mendaratkan keputusan dengan syarat"
+        },
+        "w": "30%"
+       },
+       {
+        "h": {
+         "en": "Criteria — two or three criteria from the brief; the four options scored with the brief’s numbers; the option named; the face-saving condition for each side; page 4 used",
+         "id": "Kriteria — dua atau tiga kriteria dari brief; empat opsi dinilai dengan angka brief; opsi disebut; syarat penjaga muka untuk tiap pihak; halaman 4 dipakai"
+        },
+        "w": "20%"
+       },
+       {
+        "h": {
+         "en": "Your Kit item — roles with a landing role, three interventions with exact words for the first, the sheet, the online variants, the anti-behaviour, the in-tray card with minutes, two questions for the recruiter",
+         "id": "Butir Perangkatmu — peran dengan peran mendaratkan, tiga intervensi dengan kata persis untuk yang pertama, lembar, varian daring, anti-perilaku, kartu in-tray dengan menit, dua pertanyaan untuk rekruter"
+        },
+        "w": "20%"
+       }
+      ],
+      "model": {
+       "title": {
+        "en": "Model answer — the room, scored and unstuck",
+        "id": "Jawaban model — ruangan, dinilai dan dilepaskan"
+       },
+       "body": [
+        {
+         "h": {
+          "en": "The scores at minute twelve",
+          "id": "Skor di menit dua belas"
+         }
+        },
+        {
+         "en": "Dimas: Contribution 2 (one reason, “cepat”, then repeats), Collaboration 1 (no build; cut Nadia off at 04:35 and Bayu at 10:15), Structuring 2 (“kriterianya jelas” asserts a structure rather than proposing one), Influence 2 (a vote call that only Andi half-follows), Time 2 (urgency felt, no time call), Composure 2; anti-behaviours: two interruptions, three repeats. Bayu: Contribution 3 (working capital versus investment; page 2), Collaboration 1, Structuring 1, Influence 2, Time 1, Composure 2 (“realistis untuk siapa?” is heat; no question); one personal remark. Andi: 1 or 2 across the board — agrees with the last speaker, no reason, no number; no anti-behaviours but no evidence either. Tia: Contribution 2 (one usable fact — opening a warehouse is slow — buried in ninety seconds), Collaboration 1, the rest 1; one hijack. Sari: 1 on every dimension — no evidence; a single invitation would give her the floor for page 4 and change both her score and the decision. Nadia: Contribution 3 (the 38% build), Collaboration 3 (by name), Structuring 2 (attempted, interrupted), Influence 1 (nothing adopted yet), Time 1, Composure 3 (did not fight the interruption); two quality events, no anti-behaviours. The assessors’ note on the group: no criteria, no time call, a vote called at minute ten, one member unheard — a group heading for a mediocre answer through poor process, which is the outcome that marks every member down.",
+         "id": "Dimas: Kontribusi 2 (satu alasan, “cepat”, lalu pengulangan), Kolaborasi 1 (tanpa membangun; menyela Nadia di 04:35 dan Bayu di 10:15), Menstruktur 2 (“kriterianya jelas” menegaskan struktur bukan mengusulkan), Pengaruh 2 (ajakan voting yang hanya setengah diikuti Andi), Waktu 2 (urgensi terasa, tanpa panggilan waktu), Ketenangan 2; anti-perilaku: dua selaan, tiga pengulangan. Bayu: Kontribusi 3 (modal kerja versus investasi; halaman 2), Kolaborasi 1, Menstruktur 1, Pengaruh 2, Waktu 1, Ketenangan 2 (“realistis untuk siapa?” adalah panas; tanpa pertanyaan); satu komentar pribadi. Andi: 1 atau 2 di semua baris — setuju dengan pembicara terakhir, tanpa alasan, tanpa angka; tanpa anti-perilaku tetapi tanpa bukti juga. Tia: Kontribusi 2 (satu fakta berguna — membuka gudang itu lambat — terkubur dalam sembilan puluh detik), Kolaborasi 1, sisanya 1; satu pembajakan. Sari: 1 di setiap dimensi — tanpa bukti; satu undangan akan memberinya lantai untuk halaman 4 dan mengubah skornya dan keputusannya. Nadia: Kontribusi 3 (membangun 38%), Kolaborasi 3 (dengan nama), Menstruktur 2 (dicoba, disela), Pengaruh 1 (belum ada yang diadopsi), Waktu 1, Ketenangan 3 (tidak melawan selaan); dua peristiwa berkualitas, tanpa anti-perilaku. Catatan asesor tentang kelompok: tanpa kriteria, tanpa panggilan waktu, voting diajak di menit sepuluh, satu anggota tak terdengar — kelompok yang menuju jawaban biasa-biasa saja lewat proses buruk, hasil yang menandai setiap anggota turun."
+        },
+        {
+         "h": {
+          "en": "The three interventions",
+          "id": "Tiga intervensi"
+         }
+        },
+        {
+         "en": "12:10, the bridge that is also the structure: “Boleh saya usul sebelum voting? Mas Dimas benar bahwa cepat itu penting, dan Mas Bayu benar bahwa kita harus mengenai penyebabnya — dua-duanya kriteria, bukan lawan. Bagaimana kalau kita nilai keempat opsi dengan tiga kriteria — biaya dalam Rp 3 miliar, waktu berdampak, dan dampak ke penyebab di halaman dua — lima menit saja, lalu baru voting?” Both names credited, both positions turned into criteria, a time box, offered as a question: Structuring 4, Collaboration, Composure, and a proposal the group can adopt without either side losing. 13:00, the invitation with a reason: “Dan Mbak Sari belum sempat berpendapat — Mbak tadi buka halaman empat, soal kapasitas hub. Menurut Mbak, opsi mana yang paling mengenai angka di situ?” Sari’s page 4 — the hub at 100% in peak weeks with three staff — is the number that shows A would push more stock through a hub that cannot process it and that B funds the missing staff; the invitation scores Collaboration 4 and, through her answer, Decision quality. 20:00, the landing: “Kita punya lima menit. Yang saya dengar: kita sepakat penyebab utamanya di hub — lead time dan aturan minimum — jadi B mengenai penyebab dengan biaya paling rendah dan berdampak dalam enam minggu; A cepat tapi menutup gejala; C benar untuk jangka panjang tapi setahun. Bisa kita putuskan B, dan catat C sebagai rekomendasi tahun depan sebagai syarat? Kalau setuju, saya bisa bantu siapkan laporannya, atau Mas Bayu?” Time call, summary from column three, a decision with a condition that honours Bayu, and the report-out offered rather than seized. Three turns, about ninety seconds of airtime, four tallies, and the group converges.",
+         "id": "12:10, jembatan yang juga struktur: “Boleh saya usul sebelum voting? Mas Dimas benar bahwa cepat itu penting, dan Mas Bayu benar bahwa kita harus mengenai penyebabnya — dua-duanya kriteria, bukan lawan. Bagaimana kalau kita nilai keempat opsi dengan tiga kriteria — biaya dalam Rp 3 miliar, waktu berdampak, dan dampak ke penyebab di halaman dua — lima menit saja, lalu baru voting?” Kedua nama dihargai, kedua posisi diubah menjadi kriteria, batas waktu, ditawarkan sebagai pertanyaan: Menstruktur 4, Kolaborasi, Ketenangan, dan usulan yang bisa diadopsi kelompok tanpa pihak mana pun kalah. 13:00, undangan dengan alasan: “Dan Mbak Sari belum sempat berpendapat — Mbak tadi buka halaman empat, soal kapasitas hub. Menurut Mbak, opsi mana yang paling mengenai angka di situ?” Halaman 4 Sari — hub 100% di minggu puncak dengan tiga staf — adalah angka yang menunjukkan A akan mendorong lebih banyak stok lewat hub yang tak bisa memprosesnya dan bahwa B mendanai staf yang kurang; undangan mendapat Kolaborasi 4 dan, lewat jawabannya, kualitas Keputusan. 20:00, pendaratan: “Kita punya lima menit. Yang saya dengar: kita sepakat penyebab utamanya di hub — lead time dan aturan minimum — jadi B mengenai penyebab dengan biaya paling rendah dan berdampak dalam enam minggu; A cepat tapi menutup gejala; C benar untuk jangka panjang tapi setahun. Bisa kita putuskan B, dan catat C sebagai rekomendasi tahun depan sebagai syarat? Kalau setuju, saya bisa bantu siapkan laporannya, atau Mas Bayu?” Panggilan waktu, rangkuman dari kolom tiga, keputusan dengan syarat yang menghormati Bayu, dan laporan ditawarkan bukan direbut. Tiga giliran, sekitar sembilan puluh detik waktu bicara, empat hitungan, dan kelompok mengerucut."
+        },
+        {
+         "h": {
+          "en": "The criteria and the option",
+          "id": "Kriteria dan opsi"
+         }
+        },
+        {
+         "en": "Three criteria from the brief: cost within Rp 3 miliar this year; time to effect; impact on the cause, where the cause is what pages 2, 3 and 4 show — six of seven extra lead-time days at the hub, 38% of orders held by the minimum-order rule, a hub at 100% in peak weeks with three staff. Scored: A costs Rp 2,8 miliar, works in a month, and treats the symptom — worse, it pushes more stock through a hub that cannot process it. B costs Rp 1,1 miliar, works in six weeks, and hits the processing days, the consolidation wait and the minimum-order rule while funding the two missing staff. C costs the whole budget, takes a year, and addresses transit — the one component that improved. D rests on no data page and needs adoption first. The criteria point to B, and the face-saving condition is built in: Dimas’s speed is met at six weeks, Bayu’s cause is met by pages 2 and 4, and C is recorded as next year’s recommendation. Sari’s page 4 is the number that settles A against B; without the invitation, the group would have voted for A at minute ten and reported a mediocre answer reached through poor process.",
+         "id": "Tiga kriteria dari brief: biaya dalam Rp 3 miliar tahun ini; waktu berdampak; dampak ke penyebab, di mana penyebabnya adalah yang ditunjukkan halaman 2, 3, dan 4 — enam dari tujuh hari lead time tambahan di hub, 38% pesanan ditahan aturan pesanan minimum, hub 100% di minggu puncak dengan tiga staf. Dinilai: A berbiaya Rp 2,8 miliar, berdampak dalam sebulan, dan mengobati gejala — lebih buruk, ia mendorong lebih banyak stok lewat hub yang tak bisa memprosesnya. B berbiaya Rp 1,1 miliar, berdampak dalam enam minggu, dan mengenai hari pemrosesan, tunggu konsolidasi, dan aturan pesanan minimum sambil mendanai dua staf yang kurang. C menghabiskan seluruh anggaran, butuh setahun, dan mengatasi transit — satu komponen yang justru membaik. D tidak bertumpu pada halaman data dan butuh adopsi dulu. Kriteria menunjuk ke B, dan syarat penjaga muka sudah terpasang: cepatnya Dimas terpenuhi di enam minggu, penyebabnya Bayu terpenuhi oleh halaman 2 dan 4, dan C dicatat sebagai rekomendasi tahun depan. Halaman 4 Sari adalah angka yang menyelesaikan A melawan B; tanpa undangan, kelompok akan memilih A di menit sepuluh dan melaporkan jawaban biasa-biasa saja yang dicapai lewat proses buruk."
+        },
+        {
+         "h": {
+          "en": "Your Kit item",
+          "id": "Butir Perangkatmu"
+         }
+        },
+        {
+         "en": "The role plan is judged on whether it would survive a Dimas: an opening written word for word that can also be delivered as a second-and-improve if someone else opens first; one analysis with a page number; a summary shape; an invitation with a blank; a landing role among the two. The in-tray card is judged on the minutes and on the four link types you will look for before acting. The two questions for the recruiter are what let you pace the day. Round 7 runs the group behaviours as one-to-one stories with the Hiring Manager until the Group Assessment Room exists; the self-score sheet from Lesson 7.1 is how you debrief a practice with friends.",
+         "id": "Rencana peran dinilai dari apakah ia akan bertahan menghadapi seorang Dimas: pembukaan ditulis kata demi kata yang juga bisa disampaikan sebagai dukung-dan-perbaiki jika orang lain membuka lebih dulu; satu analisis dengan nomor halaman; bentuk rangkuman; undangan dengan kolom kosong; peran mendaratkan di antara keduanya. Kartu in-tray dinilai dari menitnya dan dari empat jenis kaitan yang akan kamu cari sebelum bertindak. Dua pertanyaan untuk rekruter adalah yang memungkinkanmu mengatur harinya. Putaran 7 menjalankan perilaku kelompok sebagai cerita satu lawan satu dengan Hiring Manager sampai Group Assessment Room ada; lembar nilai diri dari Pelajaran 7.1 adalah cara men-debrief latihan dengan teman."
+        }
+       ],
+       "after": {
+        "en": "Compare, do not copy. If you scored Bayu highest because he was closest to right, re-read Lesson 7.1 — the answer is not scored. If your first intervention took a side, it is advocacy, not structure; the bridge turns both positions into criteria. If your invitation to Sari had no reason attached, it still scores, but the reason is what makes her answer land. If your summary had no condition, Bayu loses face and the consensus frays. Your role plan and in-tray card are now the Module 7 Kit item; Round 7 runs from them.",
+        "id": "Bandingkan, jangan salin. Jika kamu menilai Bayu tertinggi karena ia paling mendekati benar, baca ulang Pelajaran 7.1 — jawaban tidak dinilai. Jika intervensi pertamamu memihak, itu advokasi, bukan struktur; jembatan mengubah kedua posisi menjadi kriteria. Jika undanganmu ke Sari tanpa alasan, ia tetap dapat nilai, tetapi alasanlah yang membuat jawabannya mendarat. Jika rangkumanmu tanpa syarat, Bayu kehilangan muka dan mufakat retak. Rencana peran dan kartu in-tray-mu kini butir Perangkat Modul 7; Putaran 7 berjalan darinya."
+       }
+      },
+      "submit": {
+       "title": {
+        "en": "Review & submit",
+        "id": "Tinjau & kumpulkan"
+       },
+       "short": {
+        "en": "Submit",
+        "id": "Kumpulkan"
+       },
+       "lead": {
+        "en": "Read your four answers as the two assessors would at the wash-up — evidence, not impressions. Submitting locks them on this device, opens the model answer, and files your role plan and in-tray card as the Module 7 Kit item.",
+        "id": "Baca keempat jawabanmu seperti dua asesor di wash-up — bukti, bukan kesan. Mengumpulkan menguncinya di perangkat ini, membuka jawaban model, dan mengarsipkan rencana peran dan kartu in-tray-mu sebagai butir Perangkat Modul 7."
+       },
+       "button": {
+        "en": "Submit the case",
+        "id": "Kumpulkan kasus"
+       },
+       "doneTitle": {
+        "en": "Case submitted",
+        "id": "Kasus terkumpul"
+       },
+       "doneBody": {
+        "en": "Your answers are locked on this device. Compare with the model answer, then run Round 7 — the group behaviours as stories with the Hiring Manager — and, when you can, a practice discussion with friends scored on the self-score sheet.",
+        "id": "Jawabanmu terkunci di perangkat ini. Bandingkan dengan jawaban model, lalu jalankan Putaran 7 — perilaku kelompok sebagai cerita dengan Hiring Manager — dan, jika bisa, diskusi latihan dengan teman yang dinilai dengan lembar nilai diri."
+       }
+      }
+     },
+     "mistakes": {
+      "items": [
+       {
+        "h": {
+         "en": "Scoring the person who was right",
+         "id": "Menilai orang yang benar"
+        },
+        "fix": {
+         "en": "Behaviours against anchors; the answer is not on the sheet.",
+         "id": "Perilaku terhadap jangkar; jawabannya tidak ada di lembar."
+        }
+       },
+       {
+        "h": {
+         "en": "An intervention that takes a side",
+         "id": "Intervensi yang memihak"
+        },
+        "fix": {
+         "en": "Turn both positions into criteria; offer them as a question.",
+         "id": "Ubah kedua posisi menjadi kriteria; tawarkan sebagai pertanyaan."
+        }
+       },
+       {
+        "h": {
+         "en": "An invitation without a reason",
+         "id": "Undangan tanpa alasan"
+        },
+        "fix": {
+         "en": "“Mbak tadi buka halaman empat…” — the reason makes the answer land.",
+         "id": "“Mbak tadi buka halaman empat…” — alasannya membuat jawaban mendarat."
+        }
+       },
+       {
+        "h": {
+         "en": "A summary without a condition",
+         "id": "Rangkuman tanpa syarat"
+        },
+        "fix": {
+         "en": "Agreed, open, condition — the condition is how the other side keeps face.",
+         "id": "Disepakati, terbuka, syarat — syaratnya adalah cara pihak lain menjaga muka."
+        }
+       }
+      ]
+     },
+     "glossary": [
+      {
+       "term": {
+        "en": "Bridge",
+        "id": "Jembatan"
+       },
+       "def": {
+        "en": "A turn that connects two opposing positions through the assumption or criterion they share, so both can move without losing.",
+        "id": "Giliran yang menghubungkan dua posisi berlawanan lewat asumsi atau kriteria yang sama, sehingga keduanya bisa bergerak tanpa kalah."
+       }
+      },
+      {
+       "term": {
+        "en": "Face-saving condition",
+        "id": "Syarat penjaga muka"
+       },
+       "def": {
+        "en": "The clause in a summary that records the losing option as a future recommendation or a condition, so consensus holds while a decision is made.",
+        "id": "Klausa dalam rangkuman yang mencatat opsi yang kalah sebagai rekomendasi masa depan atau syarat, sehingga mufakat bertahan sementara keputusan dibuat."
+       }
+      },
+      {
+       "term": {
+        "en": "Quiet expert",
+        "id": "Ahli pendiam"
+       },
+       "def": {
+        "en": "The member who holds the data point that changes the best answer and speaks only if invited — scored under Inclusion and Decision quality.",
+        "id": "Anggota yang memegang titik data yang mengubah jawaban terbaik dan bicara hanya jika diundang — dinilai di Inklusi dan kualitas Keputusan."
+       }
+      },
+      {
+       "term": {
+        "en": "Report-out",
+        "id": "Laporan"
+       },
+       "def": {
+        "en": "The two-minute summary one member gives at the end — offered or visibly supported, never seized.",
+        "id": "Rangkuman dua menit yang diberikan satu anggota di akhir — ditawarkan atau didukung dengan terlihat, jangan pernah direbut."
+       }
+      }
+     ],
+     "checks": [
+      {
+       "q": {
+        "en": "At minute twelve Dimas has called a vote and Bayu has blocked it. Nadia’s highest-scoring next turn is…",
+        "id": "Di menit dua belas Dimas mengajak voting dan Bayu memblokirnya. Giliran Nadia berikutnya yang bernilai tertinggi adalah…"
+       },
+       "options": [
+        {
+         "en": "Voting for B",
+         "id": "Memilih B"
+        },
+        {
+         "en": "Crediting both, turning their positions into criteria, and proposing a five-minute scoring of all four options as a question",
+         "id": "Menghargai keduanya, mengubah posisi mereka menjadi kriteria, dan mengusulkan penilaian lima menit atas keempat opsi sebagai pertanyaan"
+        },
+        {
+         "en": "Telling Dimas to stop interrupting",
+         "id": "Menyuruh Dimas berhenti menyela"
+        },
+        {
+         "en": "Waiting for the argument to end",
+         "id": "Menunggu perdebatan berakhir"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Structure, collaboration and composure in one turn; a proposal both sides can adopt without losing.",
+        "id": "Struktur, kolaborasi, dan ketenangan dalam satu giliran; usulan yang bisa diadopsi kedua pihak tanpa kalah."
+       }
+      },
+      {
+       "q": {
+        "en": "Sari has not spoken and has page 4 open. Inviting her scores…",
+        "id": "Sari belum bicara dan punya halaman 4 terbuka. Mengundangnya mendapat nilai…"
+       },
+       "options": [
+        {
+         "en": "Nothing — it is her job to speak",
+         "id": "Tidak ada — tugasnya untuk bicara"
+        },
+        {
+         "en": "Collaboration for the inviter and, through her page-4 number, the group’s decision quality",
+         "id": "Kolaborasi bagi pengundang dan, lewat angka halaman 4-nya, kualitas keputusan kelompok"
+        },
+        {
+         "en": "Only if she agrees with you",
+         "id": "Hanya jika ia setuju denganmu"
+        },
+        {
+         "en": "A penalty for putting her on the spot",
+         "id": "Penalti karena menyudutkannya"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "The quiet expert holds the number that settles A against B; the invitation is among the highest-value seconds in the session.",
+        "id": "Ahli pendiam memegang angka yang menyelesaikan A melawan B; undangan itu di antara detik paling bernilai dalam sesi."
+       }
+      },
+      {
+       "q": {
+        "en": "The summary at minute twenty records C as next year’s recommendation. That clause exists to…",
+        "id": "Rangkuman di menit dua puluh mencatat C sebagai rekomendasi tahun depan. Klausa itu ada untuk…"
+       },
+       "options": [
+        {
+         "en": "Avoid deciding",
+         "id": "Menghindari keputusan"
+        },
+        {
+         "en": "Let Bayu keep face so the consensus holds while the group decides B",
+         "id": "Membiarkan Bayu menjaga muka agar mufakat bertahan sementara kelompok memutuskan B"
+        },
+        {
+         "en": "Spend the budget twice",
+         "id": "Menghabiskan anggaran dua kali"
+        },
+        {
+         "en": "Please the assessors",
+         "id": "Menyenangkan asesor"
+        }
+       ],
+       "correct": 1,
+       "why": {
+        "en": "Musyawarah honoured, decision reached — the condition is the mechanism.",
+        "id": "Musyawarah dihormati, keputusan tercapai — syaratnya adalah mekanismenya."
+       }
+      }
+     ],
+     "tryit": {
+      "qid": "beh_member_no_contribution",
+      "set": [
+       "beh_member_no_contribution",
+       "beh_persuaded_senior",
+       "beh_very_different_person",
+       "beh_unfair_criticism",
+       "cs04",
+       "sit_conflicting_deadlines"
+      ],
+      "persona": "manager",
+      "profile": "user",
+      "probes": 2,
+      "returnTo": 4,
+      "label": {
+       "en": "Round 7 · Group behaviours as evidence (six questions)",
+       "id": "Putaran 7 · Perilaku kelompok sebagai bukti (enam pertanyaan)"
+      },
+      "desc": {
+       "en": "Six questions with the Hiring Manager, two probes each: a member who did not contribute, persuading someone senior, working with someone very different, criticism you thought unfair, choosing between three projects for one team, and conflicting deadlines. Answer with the words you actually said and the decision the group reached. The blueprint’s Group Assessment Room — a full discussion with scripted participants and the scorecard — is not yet built; this round practises the same behaviours as one-to-one evidence, and a practice discussion with friends is scored on the self-score sheet.",
+       "id": "Enam pertanyaan dengan Hiring Manager, dua galian masing-masing: anggota yang tidak berkontribusi, meyakinkan orang senior, bekerja dengan orang yang sangat berbeda, kritik yang kamu anggap tidak adil, memilih antara tiga proyek untuk satu tim, dan tenggat bertentangan. Jawab dengan kata-kata yang benar-benar kamu ucapkan dan keputusan yang dicapai kelompok. Group Assessment Room cetak biru — diskusi penuh dengan peserta bernaskah dan kartu skor — belum dibangun; putaran ini melatih perilaku yang sama sebagai bukti satu lawan satu, dan diskusi latihan dengan teman dinilai dengan lembar nilai diri."
+      }
+     },
+     "tool": {
+      "id": "simulator",
+      "mode": "history",
+      "title": {
+       "en": "Round 7 evidence",
+       "id": "Bukti Putaran 7"
+      },
+      "body": {
+       "en": "After Round 7, read the six answers in the session history and mark each one on the scorecard as if it were a turn in a discussion: did it name a person, did it carry a number, did it show a disagreement with a reason and a question, did it end in a decision? An answer that describes a feeling instead of a sentence you said is the one to rewrite from the phrase bank.",
+       "id": "Setelah Putaran 7, baca enam jawaban di riwayat sesi dan tandai masing-masing pada kartu skor seolah giliran dalam diskusi: apakah menyebut orang, apakah membawa angka, apakah menunjukkan ketidaksetujuan dengan alasan dan pertanyaan, apakah berakhir dengan keputusan? Jawaban yang menggambarkan perasaan alih-alih kalimat yang kamu ucapkan adalah yang harus ditulis ulang dari bank frasa."
+      },
+      "cta": {
+       "en": "Open session history →",
+       "id": "Buka riwayat sesi →"
+      }
+     },
+     "takeaways": [
+      {
+       "en": "Score behaviours, not the answer: the candidate closest to right can still be the lowest on the sheet.",
+       "id": "Nilai perilaku, bukan jawaban: kandidat yang paling mendekati benar tetap bisa terendah di lembar."
+      },
+      {
+       "en": "The bridge turns two positions into criteria; the invitation reaches the number that decides; the summary lands with a condition.",
+       "id": "Jembatan mengubah dua posisi menjadi kriteria; undangan mencapai angka yang menentukan; rangkuman mendarat dengan syarat."
+      },
+      {
+       "en": "Your role plan and in-tray card are what you carry into the room; write the first intervention word for word.",
+       "id": "Rencana peran dan kartu in-tray-mu adalah yang kamu bawa ke ruangan; tulis intervensi pertama kata demi kata."
+      }
+     ],
+     "journey": {
+      "before": {
+       "label": {
+        "en": "Lessons 7.1–7.3",
+        "id": "Pelajaran 7.1–7.3"
+       },
+       "desc": {
+        "en": "How group discussions are scored, the roles and phrase bank, in-tray, role-play and presentation exercises, the assessment-centre day.",
+        "id": "Bagaimana diskusi kelompok dinilai, peran dan bank frasa, latihan in-tray, role-play, dan presentasi, hari assessment center."
+       }
+      },
+      "now": {
+       "label": {
+        "en": "7.4 · Arunika’s LGD",
+        "id": "7.4 · LGD Arunika"
+       },
+       "desc": {
+        "en": "You have scored six participants on the scorecard, written three interventions that unstick a group, proposed the criteria that let it decide, and filed your role plan and in-tray card.",
+        "id": "Kamu sudah menilai enam peserta pada kartu skor, menulis tiga intervensi yang melepaskan kelompok, mengusulkan kriteria yang membuatnya memutuskan, dan mengarsipkan rencana peran dan kartu in-tray-mu."
+       }
+      },
+      "next": {
+       "label": {
+        "en": "Module 8 · The Final and Panel Interview",
+        "id": "Modul 8 · Wawancara Final dan Panel"
+       },
+       "desc": {
+        "en": "Panels and senior interviewers, values and potential questions, the question ladder for each stage, the respectful close — and Bank Sinar’s regional panel as the case.",
+        "id": "Panel dan pewawancara senior, pertanyaan nilai dan potensi, tangga pertanyaan untuk tiap tahap, penutup yang hormat — dan panel regional Bank Sinar sebagai kasusnya."
+       },
+       "lesson": "8.1"
+      }
+     }
     }
    ],
    "hero": "../../assets/bg/gauntlet/gate-04-casestudy.jpg",
-   "heroPos": "56% 22%"
+   "heroPos": "56% 22%",
+   "round": {
+    "en": "Round 7 · Group behaviours as evidence — six questions with the Hiring Manager on inclusion, influence, disagreement and decisions, two probes each; the debrief scores each answer on the GD scorecard as if it were a turn. The full Group Assessment Room is not yet built; practice discussions with friends use the self-score sheet.",
+    "id": "Putaran 7 · Perilaku kelompok sebagai bukti — enam pertanyaan dengan Hiring Manager tentang inklusi, pengaruh, ketidaksetujuan, dan keputusan, dua galian masing-masing; debrief-nya menilai tiap jawaban pada kartu skor DK seolah giliran. Group Assessment Room penuh belum dibangun; diskusi latihan dengan teman memakai lembar nilai diri."
+   }
   },
   {
    "num": 8,
